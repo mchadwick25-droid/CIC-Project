@@ -43,162 +43,75 @@ skim:
 orientation:
   story:
   - text: >-
-      This world's own record runs from 1519 to 1650, and it holds two
-      cities' reforms together without ever merging them into one. Zurich's
-      reform opens first, five years before Geneva's, and neither founding
-      figure ever had occasion to meet the other. One conviction sits
-      underneath both cities all the same: Scripture alone is sufficient to
-      test what a church may require, and what it will not yield, no pope,
-      council, or custom may set aside.
-    grounded_in: [rzg.core.the-reformed-cities-zurich-and-geneva]
+      The Reformed churches of two Swiss cities, Zurich and Geneva, grew up between 1519 and 1650. Huldrych Zwingli began Zurich's reform first, and John Calvin later shaped Geneva's, though the two men never met. Both cities held that a church has no standing to demand what Scripture does not support.
+    grounded_in: [rzg.core.the-reformed-cities-zurich-and-geneva, rzg.gravity.scripture-sole-authority-disputation-catechesis, rzg.figure.zwingli, rzg.figure.calvin]
   - text: >-
-      Zurich's reform began on 1 January 1519, when Huldrych Zwingli,
-      newly appointed as the city's people's priest, chose to preach
-      straight through the Gospel of Matthew rather than follow the fixed
-      yearly calendar of readings. Three years later, a Lenten meal at a
-      printer's house, where several guests ate meat during the fast, drew
-      the city council's own attention and pushed the argument into the
-      open. By January 1523, six hundred people filled Zurich's Town Hall
-      for the First Disputation, where Zwingli's own case was tested
-      article by article against Scripture. A Zurich schoolmaster named
-      Erhart Hegenwald sat through the whole day and wrote it down. The
-      council ruled for the reform and bound every priest in its territory
+      Zurich's reform began on 1 January 1519. Zwingli preached straight
+      through the Gospel of Matthew, instead of the fixed list of readings. In 1522 some people broke the Lenten fast in public. Zwingli defended the act from Scripture, and the affair pushed the city toward open
+      reform.
+    grounded_in: [rzg.force.zwinglis-1519-preaching-sausage-affair, rzg.figure.zwingli]
+  - text: >-
+      On 29 January 1523, six hundred people filled Zurich's Town Hall for a
+      public Disputation. They came from across the territory, priests and
+      laymen alike. Zwingli said only Scripture could correct him. Enemies of the new preaching had mocked the gathering in advance. Their scorn moved a schoolmaster who had sat through the day, Erhart Hegenwald, to write an account. When the arguments were done, the council ruled for the reform. It told every priest in its territory
       to preach the same way.
-    grounded_in: [rzg.force.zwinglis-1519-preaching-sausage-affair, rzg.story.first-zurich-disputation, rzg.figure.hegenwald]
+    grounded_in: [rzg.story.first-zurich-disputation, rzg.quote.taught-better-from-scripture, rzg.figure.hegenwald, rzg.ambient.disputation-crowd-scale]
   - text: >-
-      Geneva's own reform enacts the identical conviction a different way.
-      Its 1526 alliance with Bern and its 1536 break from Savoy opened the
-      civic ground; Calvin arrived that same year, was exiled to
-      Strasbourg for three years, and was recalled in 1541 to consolidate
-      the Ecclesiastical Ordinances. Those Ordinances created a Consistory
-      of pastors and lay elders with real disciplinary standing - not a
-      body answerable to the civil council alone. Where Zurich tests a
-      claim aloud before the whole city, Geneva builds the same authority
-      up article by article, through Calvin's own Institutes and
-      Catechism, taught to the whole population.
-    grounded_in: [rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival, rzg.force.1541-ecclesiastical-ordinances-consistory-founding, rzg.figure.calvin]
+      Within two years the reform split from inside. On 21 January 1525,
+      Conrad Grebel baptized Georg Blaurock at the house of Felix Manz, and
+      Blaurock then baptized the others present. These were the first Swiss
+      Brethren baptisms. Grebel and Manz had once stood with Zwingli. They
+      argued that a church gathered only by a believer's own profession was
+      the more consistent reading of Scripture. Zwingli's side held that the church should include the whole city, infants too. In the years that followed, Zurich's council moved to suppress the movement by civil force.
+    grounded_in: [rzg.force.anabaptist-schism, rzg.contested.anabaptist-schism-legitimacy, rzg.witness.why-the-children-too, rzg.witness.triple-refusal]
   - text: >-
-      This world's own record treats Disputation and catechesis as two
-      enactments of the same authority, not two churches that happen to
-      agree. Neither city borrowed the other's method, and neither needed
-      to: the same scriptural authority produced doctrine independently in
-      both places. What the two methods never did, across this world's
-      whole span, is converge into one arrangement. Zurich's council still
-      governed church and city as a single body; Geneva's Consistory
-      fought for, and only by 1555 substantially won, its own
-      independence from exactly that kind of council control.
-    grounded_in: [rzg.gravity.scripture-sole-authority-disputation-catechesis, rzg.witness.one-conviction-two-enactments, rzg.gravity.council-led-authority-vs-consistorial-independence]
+      Zwingli left Zurich for the front on 11 October 1531, as a field
+      chaplain in the Second War of Kappel. He was killed that same afternoon.
+      His close friend Oswald Myconius was in the city that day and later wrote down what he remembered. He was not on the battlefield. He wrote that Zwingli was reported to have said as he fell, "What evil is there in this? They are able, it is true, to kill the body but not the soul." Heinrich Bullinger succeeded Zwingli and led
+      Zurich's pastorate for forty-four years.
+    grounded_in: [rzg.story.myconius-account-of-zwinglis-death, rzg.quote.zwinglis-last-words, rzg.force.wars-of-kappel-zwinglis-death, rzg.witness.not-a-death-he-sought, rzg.figure.bullinger]
   - text: >-
-      God's own sovereign election is this world's own second load-bearing
-      conviction, present in seed form in Zwingli's 1527 exposition and
-      built into full system in Calvin's Institutes. It is held as the
-      ground of a settled life, not a threat: whoever is joined to Christ
-      by true faith already has, in that faith, the only evidence of
-      election anyone is given. Bullinger's own Second Helvetic Confession
-      states the same pastoral answer directly - look to Christ, not to
-      your own conscience, for proof of election. In 1551, Jerome Bolsec
-      publicly challenged this doctrine at Geneva, forcing it to be
-      defended as a live pastoral question before the whole congregation,
-      not only stated as settled teaching.
-    grounded_in: [rzg.gravity.sovereignty-of-god-predestination-election, rzg.quote.christ-the-mirror-of-election, rzg.force.bolsec-controversy]
+      Geneva's reform took another path. In 1536 the city broke from Savoy,
+      and Calvin arrived. He was exiled to Strasbourg in 1538 and called back
+      in 1541. Calvin built up the teaching article by article, in his
+      Institutes and Catechism. The Catechism was taught to all the people.
+    grounded_in: [rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival, rzg.figure.calvin, rzg.witness.one-conviction-two-enactments, rzg.term.catechism]
   - text: >-
-      On the Lord's Supper, this world refuses two claims at once: Rome's
-      claim that the Mass repeats Christ's own sacrifice, and Wittenberg's
-      claim that Christ's body sits locally in the bread. Zurich's own
-      1523 refusal of the Mass matured, at the Marburg Colloquy in 1529,
-      into a further refusal aimed specifically at Luther. Calvin, then a
-      young law student, was not present at Marburg, and Geneva was not
-      yet reformed. Twenty years later, in 1549, Calvin travelled to
-      Zurich himself with his colleague William Farel rather than trust
-      the question to a letter, and what they worked out together with
-      Zurich's own pastors became the Consensus Tigurinus.
-    grounded_in: [rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation, rzg.force.marburg-colloquy, rzg.story.calvins-journey-to-zurich, rzg.figure.farel]
+      In 1541 Geneva's church ordinances set up a Consistory of pastors and lay elders. It could censure people, and it did not answer to the city council alone. Zurich's council ruled church and city as one. Geneva's Consistory fought to stay free of that kind of control. The Perrinist party stood against the Consistory, but by 1555 it had mostly won.
+    grounded_in: [rzg.force.1541-ecclesiastical-ordinances-consistory-founding, rzg.gravity.council-led-authority-vs-consistorial-independence, rzg.force.perrinist-crisis, rzg.gravity.consistorial-church-discipline]
   - text: >-
-      Whether the Consensus deepens Zwingli's own earlier
-      "remembrance" language or simply restates it more fully is a
-      question this world's own record does not resolve. Both texts
-      are held together rather than one being read as correcting the
-      other: Zwingli's 1523 word that the Supper is "a remembrance of
-      the sacrifice," and the Consensus's own 1549 formula that the
-      sign and the thing it signifies are distinguished but never
-      disjoined. This is this world's own genuinely open question, not
-      a settled scholarly finding that can be reported as fact.
-    grounded_in: [rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus, rzg.contested.sign-and-the-thing-signified]
+      Both cities refused two claims about the Lord's Supper. They rejected
+      Rome's claim that the Mass repeats Christ's sacrifice. They rejected
+      Wittenberg's claim that his body sits in the bread. At the Marburg
+      Colloquy in 1529, Zwingli met Martin Luther, and the two sides could not
+      agree. In 1549 people feared that Geneva and Zurich taught different
+      things about the Supper. Calvin went to Zurich himself with William
+      Farel. What they worked out with Zurich's pastors became the Consensus
+      Tigurinus.
+    grounded_in: [rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation, rzg.force.marburg-colloquy, rzg.limit.marburg-bolsec-perrinist-narrative, rzg.story.calvins-journey-to-zurich, rzg.figure.farel, rzg.contested.zwinglis-remembrance-vs-negotiated-consensus, rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus]
   - text: >-
-      This world's own founding circle at Zurich also produced a schism
-      from within. On 21 January 1525, Conrad Grebel baptized Georg
-      Blaurock at Felix Manz's own house, and Blaurock baptized the
-      others present - the first Swiss Brethren baptisms, only two years
-      after the First Disputation. Grebel and Manz had both stood with
-      Zwingli before breaking from him: their own case was that a church
-      gathered only by a believer's own profession, not a whole city, was
-      the more scripturally consistent reading. Zurich's council answered
-      with more than argument - it moved to suppress the movement by
-      civil force in the years that followed, a fact this world's own
-      record does not hide.
-    grounded_in: [rzg.force.anabaptist-schism, rzg.witness.triple-refusal, rzg.contested.anabaptist-schism-legitimacy]
-  - text: >-
-      At Geneva, the Consistory's own independence from civil control was
-      tested hardest by the Perrinist faction, which contested its
-      standing directly. The fight was substantially resolved in the
-      Consistory's own favor only by 1555, a full generation after
-      Calvin's 1541 recall - the sharpest, most concentrated proof that
-      Zurich's and Geneva's own answers to who governs church discipline
-      never became one arrangement.
-    grounded_in: [rzg.force.perrinist-crisis, rzg.gravity.consistorial-church-discipline, rzg.gravity.council-led-authority-vs-consistorial-independence]
-  - text: >-
-      Zwingli did not survive to see any of this settled. He rode out with
-      Zurich's own muster to the Second War of Kappel on 11 October 1531
-      and was killed that same afternoon, serving as a field chaplain in a
-      war neither city had chosen alone. His close friend Oswald Myconius,
-      who was in the city that day, later wrote down what he remembered:
-      a sudden, unaccountable pain of heart as he watched Zwingli ride out,
-      and Zwingli's own reported last words, that his enemies could kill
-      the body but not the soul. Heinrich Bullinger succeeded him and held
-      Zurich's own pastorate for four decades.
-    grounded_in: [rzg.force.wars-of-kappel-zwinglis-death, rzg.story.myconius-account-of-zwinglis-death, rzg.quote.zwinglis-last-words, rzg.figure.bullinger]
-  - text: >-
-      Bullinger's own Second Helvetic Confession, written in 1566 - decades
-      after Zwingli's death - and the Heidelberg Catechism of 1563, a
-      third, non-Zurich and non-Geneva Reformed voice, together fixed this
-      movement's shared confessional core in writing once a founding
-      generation's own method needed a text to outlive it. At the Synod of
-      Dort in 1618-19, an international Reformed delegation, reportedly
-      including Geneva and the Swiss cantons, pressed the same conviction
-      about God's own free election to its sharpest statement yet, carried
-      forward at one remove through Theodore Beza's own doctrinal
-      throughline.
-    grounded_in: [rzg.force.second-helvetic-confession-heidelberg-catechism, rzg.force.synod-of-dort-international-dimension, rzg.figure.beza]
-  - text: >-
-      This world's own record is doctrine and confession, almost to the
-      exclusion of everything else. It keeps no saints' lives and no
-      martyrs' cults anywhere - its own confessional core refused that
-      devotional genre from its first founding statement onward, and the
-      absence is evidence the refusal worked, not a missing source. What a
-      stranger walking into one of its own churches would have actually
-      seen - no altar, a plain table, for years no instrument answering
-      the voice in worship - is reasoned from doctrine, not read from a
-      witness who stood there. Catholic pressure never let up across the
-      whole window, from the Jesuits at Fribourg to the 1590s reconquest
-      fought on Geneva's own doorstep, without ever converting into an
-      event that closed this world down.
-    grounded_in: [rzg.limit.hagiography-refused, rzg.witness.what-a-stranger-would-notice, rzg.force.counter-reformation-sustained-pressure, rzg.force.no-external-ending-force]
+      Both cities held that God's free choice, made before the world began,
+      decides who is saved. They taught this as the ground of a settled life.
+      Bullinger's Second Helvetic Confession of 1566 tells the anxious to look
+      to Christ, the mirror in which they see their election. At the Synod of
+      Dort in 1618 and 1619, Reformed churches from many lands pressed the same belief to its sharpest form yet. Their teaching passed on to the Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism.
+    grounded_in: [rzg.gravity.sovereignty-of-god-predestination-election, rzg.quote.christ-the-mirror-of-election, rzg.force.synod-of-dort-international-dimension, rzg.force.no-external-ending-force, rzg.force.no-internal-fracture, rzg.force.selective-reception-four-descendant-traditions]
   documented_stories:
   - story_id: rzg.story.first-zurich-disputation
     title: "Six Hundred People and a Council That Ruled"
     when: "29 January 1523, Zurich's Town Hall"
-    teaser: "Enemies of the new preaching mocked the gathering in advance as fit only for tinkers. A schoolmaster sat through the whole day and wrote down why they were wrong."
+    teaser: "Enemies of the new preaching mocked the gathering in advance. A schoolmaster named Erhart Hegenwald sat through the whole day and wrote an account of it. At the end of the day, the council ruled for the reform."
     grounded_in: [rzg.story.first-zurich-disputation, rzg.figure.hegenwald]
-  - story_id: rzg.story.calvins-journey-to-zurich
-    title: "Why Calvin Made the Journey Himself"
-    when: "1549"
-    teaser: "Worried that Geneva's and Zurich's own teaching on the Supper might quietly disagree, Calvin did not trust a letter. He went to Zurich in person, with Farel at his side."
-    grounded_in: [rzg.story.calvins-journey-to-zurich, rzg.figure.farel]
   - story_id: rzg.story.myconius-account-of-zwinglis-death
     title: "What His Friend Remembered of the Day He Died"
     when: "11 October 1531, the Second War of Kappel"
-    teaser: "Zwingli rode out to battle and was killed that same afternoon. His closest friend wrote down what he remembered - and was careful to say which parts he saw and which he was only told."
+    teaser: "Zwingli left Zurich for the front and was killed that same afternoon. His close friend Oswald Myconius, who was in the city, wrote down what he remembered."
     grounded_in: [rzg.story.myconius-account-of-zwinglis-death, rzg.quote.zwinglis-last-words]
+  - story_id: rzg.story.calvins-journey-to-zurich
+    title: "Why Calvin Made the Journey Himself"
+    when: "1549"
+    teaser: "People feared that Geneva and Zurich taught different things about the Supper. Calvin went to Zurich with William Farel to talk it out."
+    grounded_in: [rzg.story.calvins-journey-to-zurich, rzg.figure.farel]
   voices:
   - figure: rzg.figure.zwingli
     text: >-
@@ -322,6 +235,117 @@ orientation:
     note: "Zurich's own founding doctrinal statement, defended article by article at the First Disputation in 1523. Article XVIII carries the earlier, sharper pole of this world's own unresolved tension over what the Supper actually is."
   - source: rzg.source.consensus-tigurinus
     note: "The one document in this world's entire corpus that both cities' own hands actually touched - a jointly negotiated 1549 statement on the Supper, not a record of prior contact between Zwingli and Calvin, who never met."
+  highlights:
+  - phrase: "Huldrych Zwingli"
+    kind: person
+    note: "The preacher who began Zurich's reform in 1519. He died in 1531 at the Second War of Kappel."
+    grounded_in: [rzg.figure.zwingli, rzg.force.zwinglis-1519-preaching-sausage-affair, rzg.force.wars-of-kappel-zwinglis-death]
+  - phrase: "John Calvin"
+    kind: person
+    note: "Geneva's pastor. His Institutes and Catechism built up its teaching."
+    grounded_in: [rzg.figure.calvin]
+  - phrase: "Erhart Hegenwald"
+    kind: person
+    note: "A Zurich schoolmaster who sat through the First Disputation and wrote it down."
+    grounded_in: [rzg.figure.hegenwald, rzg.story.first-zurich-disputation]
+  - phrase: "Oswald Myconius"
+    kind: person
+    note: "Zwingli's close friend. He wrote down what he remembered of the day Zwingli died."
+    grounded_in: [rzg.figure.myconius]
+  - phrase: "Heinrich Bullinger"
+    kind: person
+    note: "Zwingli's successor at Zurich, where he was pastor from 1531 to 1575."
+    grounded_in: [rzg.figure.bullinger]
+  - phrase: "Martin Luther"
+    kind: person
+    note: "He faced Zwingli at Marburg in 1529. The two sides could not agree on the Supper."
+    grounded_in: [rzg.force.marburg-colloquy, rzg.limit.marburg-bolsec-perrinist-narrative]
+  - phrase: "William Farel"
+    kind: person
+    note: "Calvin's colleague at Geneva. He went with Calvin to Zurich in 1549."
+    grounded_in: [rzg.figure.farel, rzg.story.calvins-journey-to-zurich]
+  - phrase: "Disputation"
+    kind: term
+    note: "A public debate before Zurich's council. The reformers argued from Scripture."
+    grounded_in: [rzg.term.disputation]
+  - phrase: "Swiss Brethren"
+    kind: term
+    note: "The group whose baptisms in 1525 began the Anabaptist movement."
+    grounded_in: [rzg.contested.anabaptist-schism-legitimacy, rzg.force.anabaptist-schism]
+  - phrase: "Second War of Kappel"
+    kind: term
+    note: "The 1531 war in which Zwingli was killed. It was fought between Reformed and Catholic Swiss cantons."
+    grounded_in: [rzg.force.wars-of-kappel-zwinglis-death]
+  - phrase: "Savoy"
+    kind: place
+    note: "Geneva broke politically from Savoy and the Prince-Bishop in 1536."
+    grounded_in: [rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival]
+  - phrase: "Consistory"
+    kind: term
+    note: "At Geneva, a body of pastors and lay elders. It held everyone to account for how they lived."
+    grounded_in: [rzg.term.consistory]
+  - phrase: "lay elders"
+    kind: term
+    note: "Laypeople, not pastors, who held real power on the Consistory."
+    grounded_in: [rzg.term.elder]
+  - phrase: "Institutes"
+    kind: term
+    note: "Calvin's work of doctrine. It sets out the teaching on election most fully."
+    grounded_in: [rzg.figure.calvin, rzg.gravity.sovereignty-of-god-predestination-election]
+  - phrase: "Catechism"
+    kind: term
+    note: "A fixed, memorizable statement of doctrine, taught to the whole population."
+    grounded_in: [rzg.term.catechism]
+  - phrase: "Perrinist"
+    kind: term
+    note: "A faction in Geneva that challenged the Consistory's independence."
+    grounded_in: [rzg.force.perrinist-crisis]
+  - phrase: "Lord's Supper"
+    kind: term
+    note: "The meal of bread and wine. These churches refused to call it a repeated sacrifice."
+    grounded_in: [rzg.term.the-lords-supper-spiritual-presence]
+  - phrase: "Mass"
+    kind: term
+    note: "Rome taught that it repeats Christ's sacrifice. Zwingli called it a remembrance."
+    grounded_in: [rzg.force.late-medieval-sacramental-clerical-order, rzg.quote.mass-not-a-sacrifice]
+  - phrase: "Wittenberg"
+    kind: term
+    note: "The Lutheran side. It held that Christ's body sits locally in the bread, and these churches refused that."
+    grounded_in: [rzg.force.late-medieval-sacramental-clerical-order, rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]
+  - phrase: "Marburg Colloquy"
+    kind: council
+    note: "A 1529 meeting where Zwingli and Luther disagreed about the Supper."
+    grounded_in: [rzg.force.marburg-colloquy]
+  - phrase: "Consensus Tigurinus"
+    kind: term
+    note: "A 1549 statement on the Supper, agreed by Zurich and Geneva."
+    grounded_in: [rzg.term.mutual-consent, rzg.force.consensus-tigurinus-force]
+  - phrase: "Second Helvetic Confession"
+    kind: term
+    note: "A public statement of doctrine by Bullinger. He wrote it in 1562 and it was published in 1566."
+    grounded_in: [rzg.term.confession-of-faith]
+  - phrase: "Synod of Dort"
+    kind: council
+    note: "A meeting of Reformed churches from many lands, in 1618 and 1619. It put the teaching on election in its sharpest form."
+    grounded_in: [rzg.force.synod-of-dort-international-dimension]
+  - phrase: "Zurich"
+    kind: place
+    note: "A city in Switzerland. In ancient times a town called Turicum stood there."
+    url: https://pleiades.stoa.org/places/187596
+    verified_on: "2026-10-17"
+    grounded_in: [rzg.core.the-reformed-cities-zurich-and-geneva]
+  - phrase: "Geneva"
+    kind: place
+    note: "A city in Switzerland. In ancient times a town called Genava stood there."
+    url: https://pleiades.stoa.org/places/177528
+    verified_on: "2026-10-17"
+    grounded_in: [rzg.core.the-reformed-cities-zurich-and-geneva]
+  - phrase: "Strasbourg"
+    kind: place
+    note: "Today's Strasbourg, in France. Pleiades lists it as the ancient Roman outpost of Argentorate. Calvin was exiled there from 1538 to 1541."
+    url: https://pleiades.stoa.org/places/108754
+    verified_on: "2026-10-17"
+    grounded_in: [rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival]
 narrative:
   who_speaks:
     text: >-
@@ -477,7 +501,7 @@ four-item precedent):
    against `rzg.source.genevan-psalter` (`kind: unvendored`,
    `citation_specificity: E`, "no vendored text backs any specific
    quotation from it") and `world_core`'s own `thin_topics` (naming Beza/
-   the Genevan Psalter among four Native sources not yet acquired). NOT
+   the Genevan Psalter among four Native sources this library does not hold). NOT
    carried into `legacy` above - the Psalter is real and Native to this
    world, but no vendored record currently supports characterizing its
    own use or reception, so this record does not restate the site's own
