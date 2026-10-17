@@ -41237,7 +41237,7 @@ panelBody.addEventListener('toggle',ev=>{
 // has yet -- Tours and research access are later work. One hand-off per
 // Built & Live world, into the room with that one Representative.
 const isLocal=['localhost','127.0.0.1'].includes(location.hostname);
-const LIVE_APP_URL=isLocal?'http://localhost:5173':'https://cic-engine.onrender.com';
+const LIVE_APP_URL=isLocal?'http://localhost:5173':'https://app.churchinconversation.com';
 function launchInterview(id){location.href=LIVE_APP_URL+'/?worlds='+encodeURIComponent(id)+'&mode=interview';}
 // A handful of records use a bare "-" as their own placeholder for "not
 // applicable here" (relationsSummary on 8 movements, sourcing on 2) rather

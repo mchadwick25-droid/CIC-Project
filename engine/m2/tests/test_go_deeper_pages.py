@@ -234,8 +234,8 @@ def test_the_address_never_carries_a_code_only_the_reference():
 
 def test_the_two_addresses_the_return_page_talks_to_are_written_in_one_file():
     for name in ("go-deeper.html", "go-deeper-return.html", "assets/go-deeper.js"):
-        assert "onrender.com" not in (SITE / name).read_text(), name
-    assert (SITE / "assets/go-deeper-config.js").read_text().count("onrender.com") == 2
+        assert "app.churchinconversation.com" not in (SITE / name).read_text(), name
+    assert (SITE / "assets/go-deeper-config.js").read_text().count("app.churchinconversation.com") == 2
 
 
 def test_the_return_page_names_the_app_origin_and_no_wildcard():

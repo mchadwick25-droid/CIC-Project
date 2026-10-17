@@ -114,6 +114,8 @@ services:
     dockerContext: .
     plan: standard
     healthCheckPath: /health
+    domains:
+      - app.churchinconversation.com
     disk:
       name: cic-engine-data
       mountPath: /data

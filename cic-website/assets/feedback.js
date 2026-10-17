@@ -12,7 +12,7 @@
   if (!toggle) { return; }
 
   var isLocal = ['localhost', '127.0.0.1'].indexOf(window.location.hostname) !== -1;
-  var API = isLocal ? 'http://localhost:8000' : 'https://cic-engine.onrender.com';
+  var API = isLocal ? 'http://localhost:8000' : 'https://app.churchinconversation.com';
 
   var segment = window.location.pathname.split('/').pop() || 'index.html';
   var PAGE = segment.indexOf('.') === -1 ? segment + '.html' : segment;

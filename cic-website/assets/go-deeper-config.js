@@ -9,7 +9,7 @@
     enabled: true,
     // On when a pilot audience is open; off, the pilot page shows nothing.
     pilot: true,
-    app: isLocal ? "http://localhost:5173" : "https://cic-engine.onrender.com",
-    api: isLocal ? "http://localhost:8000" : "https://cic-engine.onrender.com",
+    app: isLocal ? "http://localhost:5173" : "https://app.churchinconversation.com",
+    api: isLocal ? "http://localhost:8000" : "https://app.churchinconversation.com",
   };
 })(window);
