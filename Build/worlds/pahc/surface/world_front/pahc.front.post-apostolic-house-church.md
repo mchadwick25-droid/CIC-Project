@@ -28,7 +28,7 @@ skim:
       removed. Corinth's side does not survive. Communities kept the Lord's
       table differently, too. One community's manual gives thanks over the
       cup before the bread, and tells no story of a supper. Following this
-      way could, at times, bring real danger. In one province, a governor
+      way could at times bring real danger. In one province, a governor
       had two enslaved women tortured for answers. In another, Ignatius's
       letters say he was marched under armed guard toward death.
     grounded_in: [pahc.core.house-church, pahc.story.first-clement-corinthian-dispute, pahc.story.didache-eucharist, pahc.story.pliny-interrogation, pahc.story.ignatius-guarded-journey, pahc.gravity.state-pressure]
