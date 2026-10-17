@@ -1,0 +1,20 @@
+source_file: athanasius_opera-omnia-pg25-grc-lat_migne1857.txt
+
+assignments:
+  - row_id: athanasius_opera-omnia-pg25-grc-lat_migne1857--athanasius-opera-pg-25-greek
+    work: "Athanasius, Opera omnia, Patrologia Graeca 25 (Migne 1857): Apologia contra Arianos (with the Tyre, Rome and Sardica dossier), Apologia ad Constantium, Apologia de fuga, Historia Arianorum, Epistola encyclica"
+    author: athanasius
+    locus: "Greek column; the Arsenius passage of the Apologia contra Arianos at about file line 70066"
+    atlas_ids:
+      - alexandria-catechetical
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. Greek original behind the English of npnf204_athanasius-
+      select-works-letters.xml. SECOND WITNESS ONLY: in this OCR the Latin translation
+      column is garbled into Greek-looking glyphs throughout and the Greek column is legible
+      only in places; nothing is quotable until verified against the scanned page. Role kept
+      at context (the alx bucket's own Athanasius rows decide tradition placement; this row
+      only makes the Greek findable). Not a quotable primary witness until a cleaner scan is
+      vendored.

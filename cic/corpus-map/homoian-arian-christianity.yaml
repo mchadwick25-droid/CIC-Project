@@ -210,6 +210,18 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860--panarion-heresy-69-arians-greek-and-latin
+  work: Panarion, heresy 69 (the Arians), Greek with Petavius's Latin (Oehler 1860)
+  author: epiphanius
+  locus: from file line 45163
+  role: context
+  confidence: provisional
+  note: 'A hostile contemporary heresiologist''s account of Arius and his followers, preserving
+    Arius''s own letters inside the refutation (embedded voice, so the containing work stays
+    Epiphanius''s). Context for the Homoian world.
+
+    '
+  source_file: epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt
 - row_id: npnf204_athanasius--letter-of-eusebius-of-caesarea-to-his-flock-epistola-eusebii
   work: Letter of Eusebius of Caesarea to his flock (Epistola Eusebii)
   author: eusebius
@@ -226,6 +238,22 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
+- row_id: hefele_history-of-the-councils-v2-326-429_oxenham1876--history-of-the-councils-vol-2
+  work: Hefele, A History of the Councils of the Church, vol. 2 (326 to 429), English translation,
+    1876
+  author: hefele
+  locus: whole file; 326 to 429
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Nineteenth-century Roman Catholic scholarly reconstruction
+    of Tyre 335, Rome and Antioch 341, Sardica 343, Sirmium, Ariminum and Seleucia 359, Aquileia
+    and Constantinople 381, the Synod of the Oak 403 and the African councils to 429, in Clark''s
+    English series. Secondary: a finding aid to the primary documents and a witness to nineteenth-century
+    reading of the councils, never evidence of the events. Same footing as the hefele-leclercq
+    French slices already in the map.
+
+    '
+  source_file: hefele_history-of-the-councils-v2-326-429_oxenham1876.txt
 - row_id: npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils-2
   work: De Synodis (On the Councils)
   author: hilary_poit
@@ -264,6 +292,52 @@ works:
     floor material only as `register: etic`. The context relation to the Arian party stands
     unchanged.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
+- row_id: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65--eastern-encyclical-of-sardica-philippopolis-343-and-the-ariminum-documents
+  work: Eastern bishops' encyclical from Sardica/Philippopolis (343) and the Ariminum 359
+    documents preserved in the Collectanea, Latin
+  author: hilary_poit
+  locus: the Eastern encyclical from file line 10432 ('congregauerunt ex diuersis prouinciis
+    ... in Serdicensium ciuitatem'); Ariminum material at 6820 and 6912; Liberius letters
+    at 13390, 14196, 14423
+  role: context
+  confidence: provisional
+  note: 'Embedded voice: the anti-Athanasian Eastern bishops of 343, Germinius of Sirmium,
+    Valens and Ursacius and the Ariminum majority speak in their own documents, but they survive
+    only inside a Nicene compiler''s hostile dossier, so the containing work stays Hilary''s
+    and the relation to the Homoian world is context, not its own voice (the corpus-map README''s
+    embedded-voice rule). Still the fullest surviving statement of the Eastern case against
+    Athanasius in any vendored file.
+
+    '
+  source_file: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt
+- row_id: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844--fragmenta-ex-opere-historico-maurist-text-latin
+  work: Fragmenta ex opere historico I-XV (PL 10), Latin, the Maurist text of the Collectanea
+    antiariana
+  author: hilary_poit
+  locus: Fragmentum I at file line 50120, II at 50422, III at 53435, XV at 57700
+  role: context
+  confidence: provisional
+  note: 'Second witness to the documents re-edited by Feder in CSEL 65 (vendored alongside):
+    the Eastern Sardica encyclical, Liberius''s letters, Germinius, the Ariminum letters.
+    Embedded opponents'' voices inside a Nicene compilation; context for the Homoian world,
+    per the corpus-map README''s embedded-voice rule. Use Feder''s text first and this as
+    a check.
+
+    '
+  source_file: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt
+- row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-entry-for-ariminum-and-seleucia-359-latin
+  work: Chronici canones, the entry for Ariminum and Seleucia (359) and the Gallic condemnation,
+    Latin
+  author: jerome
+  locus: file lines 45810 and 45885
+  role: context
+  confidence: provisional
+  note: 'A one-line hostile verdict on the Homoian victory of 359 (''antiqua patrum fides
+    ... omnium proditione damnata est''), from the Nicene side. Context, not the Homoian world''s
+    voice.
+
+    '
+  source_file: jerome_eusebii-chronici-canones-lat_fotheringham1923.txt
 - row_id: npnf206_jerome-principal-works--the-dialogue-against-the-luciferians-2
   work: The Dialogue Against the Luciferians
   author: jerome
@@ -280,6 +354,18 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf206_jerome-principal-works.xml
+- row_id: phoebadius-agen_contra-arianos-with-caesarius-didymus-lat_caillau1836--liber-contra-arianos-against-the-sirmian-creed-latin
+  work: Liber contra Arianos, against the second Sirmian creed of 357, Latin
+  author: phoebadius-of-agen
+  locus: file lines 15614-17789
+  role: context
+  confidence: provisional
+  note: 'A contemporary opponent''s refutation of the Homoian programme as stated at Sirmium
+    in 357 (Valens, Ursacius, Germinius), written before Ariminum: the view from outside the
+    Homoian world. Context, not its voice.
+
+    '
+  source_file: phoebadius-agen_contra-arianos-with-caesarius-didymus-lat_caillau1836.txt
 - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
   work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
@@ -315,6 +401,18 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- row_id: sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1--chronica-book-ii-on-ariminum-and-the-homoian-victory-latin
+  work: Chronica, book II, on Ariminum, Seleucia and the Homoian victory of 359-360, Latin
+  author: sulpiciusseverus
+  locus: file lines 5388-5460
+  role: context
+  confidence: provisional
+  note: 'A Nicene narrative of the Homoian party''s victory at Ariminum (Valens, Ursacius,
+    the deceived legates): the view from outside the Homoian world, by a hostile near-contemporary.
+    Context.
+
+    '
+  source_file: sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-2
   work: The Ecclesiastical History of Theodoret
   author: theodoret

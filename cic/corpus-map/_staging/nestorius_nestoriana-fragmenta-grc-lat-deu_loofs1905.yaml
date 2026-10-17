@@ -1,0 +1,34 @@
+source_file: nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt
+assignments:
+- row_id: nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905--nestoriana-antiochene
+  work: 'Nestoriana: the fragments of Nestorius, Greek and Latin with German introduction (Loofs, 1905)'
+  author: nestorius
+  locus: whole file; the letter list from file line 428; the two letters to Celestine located at 1084-1085
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Ephesus 431). Nestorius''s letters, counter-anathemas and sermon fragments
+    in the original Greek and in Marius Mercator''s Latin: primary original-language voice of the dissenting
+    side, in fragments preserved largely by opponents. Greek and Latin recovered; the Syriac texts (edition
+    pp. 368-388) are not in this OCR. Placement provisional as for the Bazaar.'
+- row_id: nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905--nestoriana-cyrilline
+  work: Nestoriana (Loofs, 1905)
+  author: nestorius
+  locus: whole file
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: context
+  confidence: provisional
+  note: The opponent's own words, including the twelve counter-anathemas against Cyril; context for the
+    Cyrilline entry.
+- row_id: nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905--nestoriana-imperial-juridical
+  work: Nestoriana (Loofs, 1905)
+  author: nestorius
+  locus: whole file; letters to Theodosius and to the court
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: provisional
+  note: 'A deposed patriarch''s letters to emperor, pope and court on how a council should be called and
+    judged: ijc''s own question stated by the man the council condemned. Context, not voice.'

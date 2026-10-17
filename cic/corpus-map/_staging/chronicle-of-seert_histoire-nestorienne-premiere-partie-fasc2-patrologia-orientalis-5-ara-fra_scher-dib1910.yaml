@@ -1,0 +1,47 @@
+source_file: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt
+
+authors_ruled:
+  chronicle-of-seert:
+    kind: anonymous
+    evidence: >
+      The "Histoire nestorienne (Chronique de Séert)" is an anonymous Arabic compilation
+      of the Church of the East, later than the ninth century; Scher and Dib are editors
+      and translators (title page, file lines 253 to 256). No individual author is named.
+  history-of-the-patriarchs-of-alexandria:
+    kind: anonymous
+    evidence: >
+      Evetts's "History of the Patriarchs of the Coptic Church of Alexandria" in the same
+      volume (title page, file lines 247 to 249) is a compiled Coptic-Arabic work of many
+      hands, traditionally attributed to Severus ibn al-Muqaffa; ruled as a collection
+      entity. Named here only so the volume's Coptic item can be placed.
+
+assignments:
+  - row_id: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910--chronicle-of-seert-first-part-fasc-2
+    work: "Chronicle of Seert (Histoire nestorienne), first part, fascicle 2, Arabic text with French translation"
+    author: chronicle-of-seert
+    locus: "file lines 10710 to about 15846; Yazdgard 15411; Mar Isaac, fourteenth catholicos, 15433 and 15454; Marutha's embassy and the council at Seleucia-Ctesiphon 15501 to 15518; Isaac's death 15548"
+    atlas_ids:
+      - persian-church-of-the-east-early
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). The Church of the East's own compiled memory
+      of its early centuries, in Arabic with Scher's French; the French is recovered
+      (accents dropped), the Arabic is not. A later memory witness drawing on lost Syriac
+      histories, never evidence of 410 on its own; the lost portion that followed covered
+      Dadisho, so 424 is absent.
+  - row_id: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910--history-of-the-patriarchs-agatho-to-michael-i
+    work: "History of the Patriarchs of the Coptic Church of Alexandria, Agatho to Michael I (Evetts), in the same volume"
+    author: history-of-the-patriarchs-of-alexandria
+    locus: "file lines about 300 to 10700 (the first item of the volume), English translation"
+    atlas_ids:
+      - coptic-christianity-under-early-islam
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). Carried in the same Patrologia orientalis
+      volume; the Coptic church's own patriarchal history for the seventh and eighth
+      centuries in Evetts's English. Not part of the Era 2 event; placed because the file
+      holds it and INTAKE asks for every entry a volume could serve. To be confirmed by
+      that entry's own thread.

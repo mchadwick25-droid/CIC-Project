@@ -1,0 +1,40 @@
+source_file: jerome_eusebii-chronici-canones-lat_fotheringham1923.txt
+
+assignments:
+  - row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-eusebius-translated-and-continued-by-jerome-latin
+    work: "Chronici canones: Eusebius's Chronicle translated and continued to 378 by Jerome (Fotheringham 1923), Latin"
+    author: jerome
+    locus: "whole file; the Ariminum and Seleucia entry at file line 45810; 'Gallia per Hilarium Ariminensis perfidiae dolos damnat' at 45885"
+    atlas_ids:
+      - hieronymian-ascetic-literary
+    role: tradition
+    confidence: provisional
+    note: >
+      Jerome's own Latin Chronicle, written 380-381 in Constantinople: the Hieronymian
+      world's own voice, in the original. Primary original-language text; cleanly
+      recovered, ready to quote once verified against the scan. The English of the fourth-
+      century entries is not held in any vendored file.
+  - row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-fourth-century-entries-latin
+    work: "Chronici canones, the fourth-century entries (Constantine to 378), Latin"
+    author: jerome
+    locus: "file lines about 44800-46400"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      The oldest Western year-by-year record of the Constantinian and Valentinianic church,
+      written by a Nicene twenty years after Ariminum: dates and verdicts on the emperors'
+      councils, from outside the imperial-juridical establishment. Context.
+  - row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-entry-for-ariminum-and-seleucia-359-latin
+    work: "Chronici canones, the entry for Ariminum and Seleucia (359) and the Gallic condemnation, Latin"
+    author: jerome
+    locus: "file lines 45810 and 45885"
+    atlas_ids:
+      - homoian-arian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A one-line hostile verdict on the Homoian victory of 359 ('antiqua patrum fides ...
+      omnium proditione damnata est'), from the Nicene side. Context, not the Homoian
+      world's voice.

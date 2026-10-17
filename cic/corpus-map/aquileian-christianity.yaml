@@ -73,3 +73,20 @@ works:
 
     '
   source_file: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921.txt
+- row_id: eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908--rufinus-historia-ecclesiastica-x-xi-latin
+  work: Rufinus of Aquileia, Historia ecclesiastica Books X-XI (his own Latin continuation,
+    402-403)
+  author: rufinus
+  locus: after the Eusebian books; 'De Pafnutio confessore' at file line 26386; 'Fuit praeterea
+    in illo concilio et Pafnutius' at file line 26727
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Rufinus''s own Latin narrative of the fourth-century church,
+    the earliest Latin account of Nicaea and the first written source for the Paphnutius scene
+    and the confessor who converts a philosopher. Role tradition for aquileian- christianity
+    because it is Rufinus''s own voice (his Apology rows in npnf203 carry the same role);
+    context for ijc. No public-domain English translation of Books X-XI is vendored. Primary
+    original-language witness; Latin recovered.
+
+    '
+  source_file: eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt

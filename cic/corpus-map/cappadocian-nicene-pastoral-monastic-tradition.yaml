@@ -14,6 +14,19 @@ works:
     2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
     of it.
+- row_id: apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904--texts-and-fragments-of-apollinaris-and-his-school-2
+  work: Texts and fragments of Apollinaris of Laodicea and his school (Lietzmann, 1904), Greek
+    with German study
+  author: apollinaris-laodicea
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'The contemporary opponent the Cappadocians wrote against (Gregory of Nazianzus, Letters
+    101-102; Gregory of Nyssa, Antirrheticus), speaking for himself. Context for that world,
+    not its own voice.
+
+    '
+  source_file: apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt
 - row_id: basil_address-to-young-men_padelford1902--address-to-young-men-on-the-right-use-of-greek-literature
   work: Address to Young Men on the Right Use of Greek Literature
   author: basil
@@ -135,6 +148,21 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: patrum-nicaenorum-nomina_subscription-lists-lat_gelzer-hilgenfeld-cuntz1898--nicene-subscription-lists-latin-recensions
+  work: 'Patrum Nicaenorum nomina: the Nicene subscription lists (Latin recensions legible;
+    the five non-Latin columns not recovered in this OCR)'
+  author: council-of-nicaea-325
+  locus: whole file; Latin lists from about file line 4780
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. The critical edition of who signed at Nicaea, a document
+    of the council''s membership and of how later churches transmitted it. Closes the Wants-
+    register item ''Nicaea subscription lists'' (cappadocian). Only the Latin recensions are
+    recovered in this OCR; the Greek, Coptic, Syriac, Arabic and Armenian lists need the page
+    images. Not a narrative source; a primary document for ''who came''.
+
+    '
+  source_file: patrum-nicaenorum-nomina_subscription-lists-lat_gelzer-hilgenfeld-cuntz1898.txt
 - row_id: anf05_hippolytus-cyprian-caius-novatian--epistle-lxxiv-anf-older-numbering-lxxv-modern-csel-hartel
   work: Epistle LXXIV (ANF/older numbering) / LXXV (modern CSEL-Hartel numbering) - Firmilian,
     Bishop of Caesarea in Cappadocia, to Cyprian, Against the Letter of Stephen. A.D. 256
@@ -183,6 +211,19 @@ works:
 
     '
   source_file: cyprian_epistulae-lat_hartel1871-csel3-tei.txt
+- row_id: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928--ethiopic-synaxarium-takhshash-ter-yakatit-english-2
+  work: The Ethiopic Synaxarium, volume II (Takhshash, Ter, Yakatit), English translation
+    by Budge
+  author: ethiopian-synaxarium
+  locus: the Ter commemoration of Gregory the Theologian, file line 12779
+  role: context
+  confidence: provisional
+  note: 'Late Ethiopian liturgical memory of Gregory of Nazianzus, a one-line commemoration.
+    A reception witness for how the Cappadocian president of Constantinople 381 is remembered
+    in Ethiopia; never evidence of the council.
+
+    '
+  source_file: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt
 - row_id: eunomius_first-apology_whiston1711--the-first-apology-liber-apologeticus-2
   work: The First Apology (Liber Apologeticus)
   author: eunomius
@@ -209,6 +250,37 @@ works:
 
     '
   source_file: gregory-nazianzen_first-invective-against-julian_king1888.txt
+- row_id: gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857--letters-and-poems-pg-37-greek
+  work: Letters and Poems (Epistulae; Carmina), PG 37, Greek
+  author: gregory-nazianzen
+  locus: whole volume; Letter 101 to Cledonius at file line 13148; Letter 202 to Nectarius
+    at file line 26163; the poem on his own life (De vita sua) at file line 85705; the poem
+    on himself and the bishops at file line 97048
+  role: tradition
+  confidence: provisional
+  note: 'Primary original-language voice: the Greek of Gregory''s letters and poems, including
+    the autobiographical poem that is the one inside-the-council account of Constantinople
+    381. Second witness for quotation until checked against the page image: the Greek is legible,
+    the Latin column is garbled and the OCR confuses kappa and chi. No public-domain English
+    of the poems is held; the Cledonius letters are in English in npnf207.
+
+    '
+  source_file: gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt
+- row_id: gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858--orations-27-45-pg-36-greek
+  work: Orations 27-45, PG 36, Greek
+  author: gregory-nazianzen
+  locus: whole volume; Oration 42, the Farewell before the 150 bishops, heading at file line
+    38916, first words at file line 38925; Oration 45 at file line 52337
+  role: tradition
+  confidence: provisional
+  note: 'Primary original-language voice: the Greek of the Theological Orations preached at
+    Constantinople in 380 and of Oration 42, spoken to the Council of Constantinople in 381
+    as Gregory resigned. Greek original behind the English in npnf207. Second witness for
+    quotation until checked against the page image: Greek legible, Latin column garbled, kappa
+    and chi confused.
+
+    '
+  source_file: gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858.txt
 - row_id: gregory-nazianzen_second-invective-against-julian_king1888--second-invective-against-julian-the-emperor-oration-5
   work: Second Invective Against Julian the Emperor (Oration 5)
   author: gregory-nazianzen
@@ -660,6 +732,20 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- row_id: sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860--ecclesiastical-history-books-v-ix-greek
+  work: Ecclesiastical History, Books V-IX, Greek (Hussey 1860, tomus II)
+  author: sozomen
+  locus: 'Book VII, from file line 18760: the Council of Constantinople of 381, Nectarius
+    at file line 20181, Maximus the Cynic at file line 20332'
+  role: context
+  confidence: provisional
+  note: 'A Constantinopolitan lawyer''s narrative written about 440-450, from documents and
+    from Socrates: the fullest near-contemporary account of the council of 381 and of Gregory''s
+    resignation, seen from outside the Cappadocian world. Greek original behind npnf202. Second
+    witness for quotation: Greek legible, Latin version and title page garbled in the OCR.
+
+    '
+  source_file: sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860.txt
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-book-iv-chapter-xvi
   work: The Ecclesiastical History of Theodoret, Book IV, Chapter XVI ("Of the holy Basilius,
     Bishop of Caesarea, and the measures taken against him by Valens and the prefect Modestus")
