@@ -1081,3 +1081,19 @@ Status: CLOSED.
 The horizon gate now reads years written "about 495", "in the 470s" or as a range (System Hub Decision Log, 14 October second fix slice). Two gallic descriptions name years after the window's close in 450: `gallic.force.synodal-commission` ("The world's real change came in the 470s... Arles and Lyons (about 473 to 475)") and `gallic.gravity.monk-bishop` ("Gennadius, writing from the same city about 495"). Both narrate the world's later change in substance, not a stray date, so rewriting them from inside the window is a content decision for gallic's own build thread. Registered as the waiver `m1:horizon/gallic` (2). Package rebuilt and repinned for the gates report.
 
 Status: OPEN.
+
+### OG-40. Atlas story pass: shorter story, ten card stories with tellings, highlights, 2026-10-17.
+
+The project lead approved the Gallic story, card list and tellings. `orientation.story` is now 8 units and 659 words, down from 11 units and 1,655 words. `documented_stories` shows ten stories in date order. Only three are dated (360s, 385/386, 397), so the rest are placed by their position in Martin's life or in Egypt. Each card story's record gained a `telling`. `orientation.highlights` adds 25 notes, and eleven places cite Pleiades. The new story and the ten tellings are recorded in the Gallic voice. Review: `Build/Ministry/Operations/Audits/gallic_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package repinned to `packages/gallic/2026-10-17T01-52-37Z`, `manifest_hash` `sha256:d4ed73f7dac76270d644956b35328cf53b90d84fc2a4eeabecd2f96c82e8d80b`. The site JSON was recompiled.
+
+**Open:**
+- Cut details with no story record stay in the records only: Martin going to Hilary of Poitiers, Cassian's eight faults, Vincent's purpose in writing, and Faustus of Riez.
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+### OG-41. Other world_front sections keep AI tells and "this world" wording, 2026-10-17.
+
+The Atlas story pass did not touch `voices`, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` or `narrative.who_speaks`. They still use "this world" and dash asides.
+
+Status: OPEN for the project lead to schedule.

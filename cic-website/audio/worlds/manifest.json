@@ -528,11 +528,12 @@
  "gallic-monastic-ascetic-christianity": {
   "story": {
    "file": "gallic-monastic-ascetic-christianity/story.mp3",
-   "chars": 9304,
+   "chars": 3743,
    "voiceId": "XvE13Da9dSLvpuCLoEBV",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -542,11 +543,12 @@
   },
   "docstory-gallic.story.discharge-before-caesar": {
    "file": "gallic-monastic-ascetic-christianity/docstory-gallic.story.discharge-before-caesar.mp3",
-   "chars": 1674,
+   "chars": 1330,
    "voiceId": "XvE13Da9dSLvpuCLoEBV",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -556,11 +558,12 @@
   },
   "docstory-gallic.story.trier-and-the-ithacian-communion": {
    "file": "gallic-monastic-ascetic-christianity/docstory-gallic.story.trier-and-the-ithacian-communion.mp3",
-   "chars": 3696,
+   "chars": 1435,
    "voiceId": "XvE13Da9dSLvpuCLoEBV",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -575,6 +578,126 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-gallic.story.the-cloak-at-amiens": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-gallic.story.the-cloak-at-amiens.mp3",
+   "chars": 1379,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-gallic.story.raising-of-the-catechumen": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-gallic.story.raising-of-the-catechumen.mp3",
+   "chars": 1351,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-gallic.story.election-at-tours": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-gallic.story.election-at-tours.mp3",
+   "chars": 1399,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-gallic.story.brictio-in-the-courtyard": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-gallic.story.brictio-in-the-courtyard.mp3",
+   "chars": 1435,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-gallic.story.death-of-martin-at-condate": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-gallic.story.death-of-martin-at-condate.mp3",
+   "chars": 1412,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-gallic.story.the-angel-and-the-twelve-psalms": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-gallic.story.the-angel-and-the-twelve-psalms.mp3",
+   "chars": 1385,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-gallic.story.germanus-scruple-at-morning-service": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-gallic.story.germanus-scruple-at-morning-service.mp3",
+   "chars": 1420,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-gallic.story.honoratus-and-the-island": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-gallic.story.honoratus-and-the-island.mp3",
+   "chars": 1365,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
