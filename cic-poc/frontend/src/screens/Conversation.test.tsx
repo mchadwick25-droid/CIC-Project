@@ -106,6 +106,20 @@ describe('Conversation', () => {
     expect(container.querySelectorAll('.modern-term-mark')).toHaveLength(0);
   });
 
+  it('does not read as sending, or as the voice considering, while the room is still opening', () => {
+    const { container } = render(<Conversation {...baseProps} turns={[]} isLoading />);
+    const send = container.querySelector('.composer-row button') as HTMLButtonElement;
+    expect(send.textContent).toBe('Send');
+    expect(send.disabled).toBe(true);
+    expect(container.querySelector('.waiting-note')).toBeNull();
+  });
+
+  it('reads as sending while a sent question waits for its reply', () => {
+    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
+    const { container } = render(<Conversation {...baseProps} turns={turns} isLoading />);
+    expect((container.querySelector('.composer-row button') as HTMLButtonElement).textContent).toBe('Sending…');
+  });
+
   it('states that the voice is AI before the first message, and not after', () => {
     const { container, rerender } = render(<Conversation {...baseProps} turns={[]} />);
     expect(container.querySelector('.ai-note')?.textContent).toContain('Vera is an AI voice');
