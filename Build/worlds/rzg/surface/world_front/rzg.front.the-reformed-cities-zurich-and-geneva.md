@@ -67,7 +67,7 @@ orientation:
   - text: >-
       Zwingli left Zurich for the front on 11 October 1531, as a field
       chaplain in the Second War of Kappel. He was killed that same afternoon.
-      His close friend Oswald Myconius was in the city that day and later wrote down what he remembered. He was not on the battlefield. He wrote that Zwingli was reported to have said as he fell, "What evil is there in this? They are able, it is true, to kill the body but not the soul." Heinrich Bullinger succeeded Zwingli and led
+      His close friend Oswald Myconius was in the city that day and later wrote down what he remembered. He was not on the battlefield. He wrote that Zwingli was reported to have said as he fell, "What harm is there in this? It is true, they can kill the body, but not the soul." Heinrich Bullinger succeeded Zwingli and led
       Zurich's pastorate for forty-four years.
     grounded_in: [rzg.story.myconius-account-of-zwinglis-death, rzg.quote.zwinglis-last-words, rzg.force.wars-of-kappel-zwinglis-death, rzg.witness.not-a-death-he-sought, rzg.figure.bullinger]
   - text: >-
