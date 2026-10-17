@@ -116,7 +116,7 @@ orientation:
   - story_id: syr.story.abgar-addai-legend
     title: "The Story We Told of Our Own Beginning"
     when: "set around the year 30; first attested in writing centuries later"
-    teaser: "In the story, the sick King Abgar of Edessa writes to Jesus for healing. Jesus promises to send a disciple, and Addai comes. The church told it as the story of its own beginning, in a form written down later."
+    teaser: "In the story, the sick King Abgar of Edessa writes to Jesus for healing. Jesus promises to send a disciple, and Addai comes. We told it as the story of our own beginning. It was first written down centuries later, and nothing from Abgar's own day confirms it."
     grounded_in: [syr.story.abgar-addai-legend, syr.contested.edessa-origins]
   - story_id: syr.story.edessa-flood-201
     title: "The Flood and the Church at Edessa"
@@ -141,7 +141,7 @@ orientation:
   - story_id: syr.story.jacob-deliverance
     title: "Jacob of Nisibis and the Siege"
     when: "338, 346, or 350 (which siege is not settled)"
-    teaser: "Theodoret wrote about a century later. He says Jacob of Nisibis cursed the Persians, and only gnats and mosquitoes came. In his telling, they flee."
+    teaser: "Theodoret wrote about a century later. He says Jacob of Nisibis cursed the Persians with nothing worse than gnats and mosquitoes. In his telling, the Persians fled."
     grounded_in: [syr.story.jacob-deliverance, syr.figure.jacob-of-nisibis]
   - story_id: syr.story.simeon-martyrdom
     title: "Simeon Before the King of Persia"
@@ -151,7 +151,7 @@ orientation:
   - story_id: syr.story.basil-legend
     title: "The Meeting of Ephrem and Basil"
     when: "set in Ephrem's lifetime, between 340 and 373 (a later legend)"
-    teaser: "A later Life of Ephrem says a vision sends him to meet Basil, who ordains him a deacon. The praise of a Syrian in Basil's writings is about another man."
+    teaser: "A later Life of Ephrem says a vision sends him to meet Basil, who ordains him a deacon. Basil never names the Syrian he praises, and the meeting is a later legend."
     grounded_in: [syr.story.basil-legend, syr.figure.ephrem]
   - story_id: syr.story.choirs-tradition
     title: "Ephrem and the Women's Choirs"
@@ -161,7 +161,7 @@ orientation:
   - story_id: syr.story.ephrem-famine-death
     title: "Ephrem Leaves His Cell for the Famine"
     when: "372-373 (the last year of Ephrem's life)"
-    teaser: "Palladius and Sozomen tell that in Edessa's famine, Ephrem takes money from the rich and sets up some three hundred beds. He nurses the starving, and he dies within a month."
+    teaser: "Palladius and Sozomen tell that in Edessa's famine, Ephrem takes money from the rich and sets up some three hundred beds. He nurses the starving until the famine ends, and he dies within a month."
     grounded_in: [syr.story.ephrem-famine-death, syr.figure.ephrem]
   highlights:
   - phrase: "Edessa"
