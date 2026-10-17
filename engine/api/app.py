@@ -25,10 +25,11 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, ratelimit, required_secrets, table_wiring, wiring
+from engine.api import admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings, normalize_environ
 from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
+from engine.feedback.store import FeedbackStore
 from engine.m4 import idle_close, session_code
 from engine.m4 import round as round_module
 from engine.m4 import turn as turn_module
@@ -505,6 +506,8 @@ def create_app(
     build_commit: str | None = None,
     backup_staging_dir: Path | None = None,
     data_dir: Path | None = None,
+    feedback_store: FeedbackStore | None = None,
+    site_origin: str | None = None,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -828,6 +831,16 @@ def create_app(
         rounds = table_wiring.get_round_close_reasons(deps.store, session_id)
         return RoundCloseReasonsResponse(session_id=session_id, rounds=rounds)
 
+    feedback_routes.install(
+        app, store=feedback_store,
+        authenticate_session=lambda request, session_id, authorization: _authenticate(request.app.state.deps.store, session_id, authorization),
+        transcript_of=lambda request, session_id: wiring.get_transcript(request.app.state.deps.store, session_id).transcript,
+        authenticate_admin=lambda request, authorization: _authenticate_admin(
+            request.app.state.deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME)
+        ),
+        site_origin=site_origin,
+    )
+
     @app.get("/api/admin/pilot-summary", response_model=PilotSummaryResponse)
     def get_pilot_summary_endpoint(
         request: Request, authorization: str | None = Header(default=None), since: str | None = None
@@ -972,6 +985,15 @@ def deeper_for_dev_server(data_dir: Path, usage_store, environ) -> dict | None:
     }
 
 
+def backup_extra_dbs(settings: Settings, meter_db_path: str | None) -> dict[str, str]:
+    """The databases beyond events, usage and quality control that the daily
+    backup copies: the feedback store always, the Go Deeper meter when it runs."""
+    extra = {"feedback": settings.feedback_db_path}
+    if meter_db_path is not None:
+        extra["meter"] = meter_db_path
+    return extra
+
+
 def _build_real_app() -> FastAPI:
     from engine.provider import guard
     from engine.provider.route import build_route
@@ -1027,16 +1049,18 @@ def _build_real_app() -> FastAPI:
     db_backup.start_background_scheduler(
         settings.events_db_path, settings.usage_db_path, backup_staging_dir,
         qc_db_path=settings.qc_db_path,
-        extra_dbs={"meter": deeper_config.meter_db_path} if deeper_runtime is not None else None,
+        extra_dbs=backup_extra_dbs(settings, deeper_config.meter_db_path if deeper_runtime is not None else None),
     )
 
     # The anonymous quality-control store and the daily retention job
     # (System Hub decision 34): conversations inactive for 90 days leave
     # the event log; QC answer text older than 90 days is deleted.
     qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry)
+    feedback_store = FeedbackStore(settings.feedback_db_path)
     retention.start_background_scheduler(
         settings.events_db_path, settings.qc_db_path, Path(settings.events_db_path).parent / "retention",
         audit_root=Path(settings.events_db_path).parent / "m7-audits",
+        feedback_store=feedback_store,
     )
 
     return create_app(
@@ -1066,6 +1090,8 @@ def _build_real_app() -> FastAPI:
         build_commit=os.environ.get("RENDER_GIT_COMMIT"),
         backup_staging_dir=backup_staging_dir,
         data_dir=data_dir,
+        feedback_store=feedback_store,
+        site_origin=settings.site_origin,
         # Same path m7_scheduler.start_background_scheduler was already
         # given above - one directory, two readers (the daily job writes
         # it, the usage-summary endpoint reads it).

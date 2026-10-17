@@ -5493,3 +5493,313 @@ folder outside the repository. The effect is the same and the tools keep one pat
 ### Next action
 
 Mark creates the bucket and token; then upload, verify, add the binding, check live.
+
+## 2026-10-14 — The Source Library: every citation links to the passage itself
+
+**Origin.** Mark, 14 October: make every source a participant sees available by link, so a
+reader can follow a citation into the passage itself, in our own Library of vendored
+public-domain editions or at the place we downloaded it from. Implementation is the first
+job after the pilot launches; design starts now. His reasoning, in his words across the
+brief: CiC's aim is better conversations about faith among real people in their churches,
+and also "a robust source useful well beyond a first visit." Scholars study one of these
+worlds for years. The depth is in the primary texts, of which our records are only a thin
+slice. Linking every answer to its passages turns a conversation into a doorway into the
+texts. Nothing in it is generated, so it is faithful by construction. And it lets outside
+scholarly reviewers check us directly.
+
+**How it was decided.** Mark asked for research first, then a walk-through one question at
+a time starting with strategy. Four research streams ran (how academic text programs
+address and link passages; free text databases and their licence terms; page-image and
+persistent-link infrastructure; reader design and scholarly trust criteria), synthesised
+into one report, now `Build/Ministry/Features/Source-Library/Research.md`. Then seven
+questions, each with options and a recommendation. Mark took the recommendation on each.
+
+**What the research changed before the questions were asked.** Three findings corrected
+the first design memo. CCEL's copyright page, as relayed by search extracts, allows
+non-profit use but says republishing requires permission; half our corpus is CCEL's files,
+and no permission was ever asked (Mark downloaded the volumes himself). The CCEL ThML ids
+are positional, not the edition's own labels, which sit in separate attributes. And our
+archive.org plain-text files carry no page boundaries at all, so page-level links need the
+hOCR and page-number files on the same items.
+
+**Decided (Mark, 2026-10-14), in order:**
+
+1. **What the Library is.** A reading room for our worlds: every vendored text readable
+   whole on our site, the citation as the door in. Built on the field's record shape from
+   day one (work, edition, passage address in the edition's own labels, quotation anchor),
+   so the Library can later become infrastructure other projects cite. Delivered first as a
+   footnote service for desert. Not Option 0 (link into the field's readers and build
+   nothing), even though it is cheapest, because the guarantee "the words you just heard
+   are these words, here" is only true on a page we serve.
+2. **Where the link lands.** Our reader first; the host edition second (CCEL section page,
+   archive.org item, Scaife or the Patristic Text Archive where a text also lives there).
+   The scanned page itself embedded beside our text, through the Internet Archive's image
+   service, is the Stage 2 upgrade for archive.org texts: the one host where every piece of
+   that is verified end to end.
+3. **CCEL posture.** Passage now with credit and link; volumes after CCEL answers;
+   independent scans as the fallback if they decline. Not a strict hold (empties the
+   promise for nine worlds) and not republishing the volumes now (does the thing their
+   policy asks us not to do). At the opening of Stage 1, after the pilot launches, Mark
+   reads the copyright page live and sends the letter. Nothing in the pilot shows CCEL
+   text on our reader, so nothing is needed from Mark before launch.
+4. **Where the address lives.** Derived at build by the verbatim gate, which already finds
+   each quote's position and discards it; written back into each citation's existing
+   `address` field world by world after the derivation is read against real quotes; a gate
+   re-derives on every build and fails on drift. Loci stay free text. New loci carry no file
+   line numbers. Work identifiers (Clavis Clavium, Syriaca, OSIS) come in Stage 2. Not a
+   public standard identifier scheme now: weeks of curation before one link works.
+5. **Where the reader lives.** The public site, under its own directory, opened inside the
+   app's existing side panel. Not inside the app alone: nothing would be shareable or
+   citable, which defeats "well beyond a first visit." Every passage page carries the seven
+   items the specialist corpora agree on (print citation beside permalink; who made the
+   digital text and how; a status word; licence; identifier with version and date;
+   cite-this; report-an-error), in plain words at the B2 bar.
+6. **When the section cannot be pinpointed.** A work-level link labelled "section not
+   pinpointed", with the locus shown as "look for" text and a per-world coverage report.
+   Never a guessed section: a wrong section presented as right is fabrication at the point
+   of maximum stakes.
+7. **Front door or links only.** Links only in Stage 1, with one orientation line on every
+   passage page. The browsable shelf is its own decision when Stage 2 opens and the CCEL
+   answer is in.
+
+Carried from earlier agreement: English first for the pilot; source language and
+participant language kept as separate dimensions; nothing hard-codes "English" or the
+number of worlds; desert first.
+
+**The heart.** The texts are the proof that nothing is generated, made visible and made
+shareable. They are the part of CiC that could outlast any conversation. Where a file was
+downloaded from another project's site, that project is credited on every page that shows
+its text, and permission is asked before whole volumes are republished.
+
+**Filed.** Design of record: `Build/Ministry/Features/Source-Library/Design.md`. Research:
+`Research.md` beside it. Workstream row added to `Build/Ministry/Features/README.md`.
+
+**Known gap, logged, not fixed.** 160 citation entries across 114 records in nine worlds
+still show machine apparatus (file names, "line N", CCEL volume tags, build-document
+references) to participants after `display_locus`. Logged with record ids per world in
+`Build/Ministry/Operations/Standing/CiC_Cross_System_Analysis_Tracking.md`, 2026-10-14.
+Each world's own thread resolves its share.
+
+### Next action
+
+Nothing for Mark before the pilot launches. Before launch, a read-only dry run of anchor
+derivation on desert reports coverage. After launch: Stage 1 for desert per `Design.md`
+§11, opening with Mark's live read of CCEL's copyright page and the letter.
+
+## 2026-10-16 — Feedback from inside the conversation: one quiet link under every reply
+
+**Origin.** Mark, 16 October: people are asking for easy ways to comment, make a
+recommendation, or press a "this is wrong" button. His words: "I value the ability to
+challenge a wrong fact, or something we can research to get better. I think having a place
+to get comments and instant feel is good too." Then: "What do other systems do? How do we
+make it an easy interaction/reaction? The email isn't enough."
+
+**What existed.** One path: the footer's "Feedback" link to `cic-website/pilot-feedback.html`,
+a long form that builds an email in the person's own mail app, stored nowhere by us. Nothing
+inside the conversation app. The privacy page promises conversations are kept 90 days and
+never quoted. Mark's standing rule: quote only from recommendations, and only with clear
+permission. The Source Library decision of 14 October already puts a "report an error" item
+on every passage page.
+
+**How it was decided.** Research first (three passes: AI chat products and documentation
+sites; Wikipedia, Community Notes, news corrections desks, museum and Bible-app correction
+forms; reaction design, micro-surveys, consent and safety practice), then the tensions for
+CiC, then three named options, in one Artifact. Mark took the recommendation with one change
+to the wording. The research rests on search excerpts, since the sandbox blocks page reads;
+unverified figures are marked as such in the Artifact and are not repeated here as fact.
+
+**What the research changed.** A bare thumbs up or down is near-worthless: used on a few
+percent of replies, by people at the extremes, and it names nothing to fix. An open text box
+on every turn failed even for Wikipedia on noise and moderation load. The systems that
+work point at one exact sentence or record. No surveyed system promises a personal reply;
+the good ones publish what they corrected. Telling people a flag will be acted on makes
+them flag more. Disagreement is not error, and the systems that keep them apart stay usable.
+
+**Decided (Mark, 2026-10-16):**
+
+1. **The shape: Option B.** Under every Representative turn, one quiet text link in the
+   muted colour of the source line. It opens a card inside the conversation: pick the
+   sentence (the turn's own sentence boundaries, which already exist), pick one reason from
+   a fixed set of three about evidence ("I think this fact is wrong" / "The source shown
+   does not say this" / "It sounds more certain than it should"), add one optional line,
+   give an optional email, send. Not Option C (a review screen at the end), which
+   loses everyone who closes the tab early. Not Option A alone (store the site form),
+   which leaves a wrong fact reported from memory with no pointer to the sentence.
+2. **The link's words: "Answer was not clear or accurate".** The card title: "Tell us what
+   was not clear or accurate". The path: Mark changed the recommended "Is this right?" to
+   "There may be a problem"; after ruling the control accuracy-only (item 12) he chose "This
+   may not be accurate" from three offered; after adding clarity (item 14) he wrote "There
+   may be an accuracy or clarity issue", then asked for something that reads better, was
+   offered "This may be wrong or unclear", and wrote the final words himself. Noted at the
+   time, not a block: with no "may", the link states something about every answer it sits
+   under; a question mark ("Answer not clear or accurate?") would turn it into the reader's
+   own thought without changing a word. It passes the reading-level bar.
+3. **Disagreement goes back into the conversation, not into the flag.** The card says: "If
+   you disagree with what {Name} believes, say so in the conversation. That is what it is
+   for." The reasons offered are all about evidence, never about the Representative's view.
+4. **What is stored.** A pointer, never the text: session, world, turn index, sentence
+   index, the record ids and confidence tags behind that sentence, the reason, the optional
+   line, the optional email, the time. The team opens the conversation itself within the
+   90 days, which Mark's rule allows. The flagged sentence's metadata is already computed
+   on every turn, so nothing new runs at conversation time. No model call.
+5. **Comments live at the end of the conversation**, beside "Delete this conversation", under
+   "Leave a comment". Consent to quote is asked there and only there, as three unticked
+   choices with "No" the default: No / Yes, without my name / Yes, with my first name.
+   Separate from "Email, if you would like a reply". A fact flag is never quotable material.
+6. **Safety line under every text box**, in the app and on the site form, the project's own
+   redirect wording, which names no organisation: "A person reads these, usually within a
+   week. No one reads them live. If you need help now, please reach out to someone real: a
+   person you trust, a crisis line, or emergency services where you are." Free text is
+   small and secondary: it appears only after a reason is chosen, and it is one line.
+7. **What the person gets back, all three layers.** At once, on screen: "Thank you. We check
+   every one of these against the sources. What we find goes on our Corrections page."
+   Later, in public: a Corrections and Leads page on the site, one line per closed flag
+   (world, date, what was questioned, what we checked, outcome), never naming or quoting
+   the person. If they left an email: one short reply from a person when the flag closes.
+8. **How it closes.** One owner reads the queue weekly in the admin dashboard. Five outcomes
+   and no more: Corrected / Checked, stands / Open lead / A conviction, not an error / No
+   action. Anything real becomes a numbered entry in that world's `Open_Gaps_Tracking.md`,
+   as the standing rule already requires. Closed items go on the Corrections page.
+9. **Reactions and appreciation: open, not decided.** This item first recorded "no reaction
+   mark at first" as Mark's decision. It was not: the thread read his "go with the
+   recommendation" as covering the recommendation's own "without the reaction mark", and
+   Mark corrected it the same day ("when did I make a decision to hold back a reaction box,
+   I just didn't want the opportunity to give feedback to the conversation to be the same
+   things"). What Mark did decide: the accuracy-and-clarity flag and the place to react or
+   appreciate are two different things and must not be the same control. Settled in items
+   15 and 16 below.
+10. **The site form is replaced, not kept.** Option A is inside Option B: the email-building
+    form becomes a stored form posting to the engine, with the same consent choices and
+    safety line. Today's form fails silently in some browsers and truncates long answers.
+11. **One control, one queue.** The Source Library's "report an error" item on passage pages
+    reuses the same reasons and the same store when it is built.
+12. **The per-turn control tests accuracy, nothing else** (Mark, same day, on the question
+    "focus on the conversation not being correct, or open to any feedback?"). No "Something
+    else" reason, and no reason about how the reply sounds; Mark: "the test is accuracy,
+    not sounds like." The card carries one line sending everything else to "Leave a
+    comment" at the end. So the split is: the reply's accuracy per turn, the experience at
+    the end. Research grounds for keeping the per-turn control narrow: open boxes on every
+    turn drowned Wikipedia's editors; an open box beside every reply is the side door for
+    arguing with a Representative and a distress channel next to every turn; the page can
+    carry one quiet link and no more.
+
+13. **No safety classifier on the optional text line** (Mark, same day: "no"). The printed
+    redirect under the box is the whole mechanism, with a person reading the queue weekly.
+    No model call. Grounds: the box is one line, anchored to one sentence, and nothing could
+    reply in real time either way; a model call per flag would also breach the usage rules
+    without buying a live response. To be revisited only if the queue ever shows distress
+    written there, as a governance question, not a quiet change.
+
+14. **Change order to item 12: clarity joins accuracy** (Mark, same day: "add not clear and
+    give room for that, we are about rigor and craft"). A fourth reason on the card, in
+    Mark's words: "This is not clear". The control now tests the two things the project's
+    working rules say it succeeds or fails on, rigour and clarity, and nothing else. Item
+    12's exclusions still hold: no "Something else", and nothing about how the reply sounds.
+    A clarity flag carries the same pointer as an accuracy flag (sentence, records,
+    confidence), so it is also a lead for the readability work. The link's words were
+    re-checked against the widened card and settled in item 2.
+
+15. **A like under each reply, beside the flag** (Mark, same day: "a small like button next
+    to the answer was not clear or accurate (it is helpful if an answer is appreciated)").
+    One quiet line under every Representative turn, in the source line's muted colour: a
+    small like with a word, "This helped", then "Answer was not clear or accurate". One tap
+    fills the like and nothing else happens. Private, no count shown, never seen by the
+    Representative. Stored with the turn pointer (session, turn, record ids), so the team
+    can see which answers land and which sentences they contain, the mirror of the flag.
+    No dislike: the flag is the dislike, with a sentence and a reason attached.
+16. **The experience: "Tell us what you think", in the page bar, on every page** (Mark, same
+    day: "on the pages, but not directly connected to the conversation"; then "something
+    else that looks at the experience"; then, of three shapes, "straight to words"). One
+    steady control in the page bar of the site and the app. It opens the card that was
+    "Leave a comment": words, "May we quote you?" as three unticked choices with "No" the
+    default (No / Yes, without my name / Yes, with my first name), optional email, the safety
+    line. Stored with the page or world and the time, never the session or a turn. No
+    one-tap reaction and no like or dislike in the bar: the like lives under the replies, and
+    a second thumb on the same screen would carry a different meaning. This replaces item
+    5's placement beside "Delete this conversation"; the consent rule in item 5 stands.
+
+Nothing on this item is open.
+
+**Defaults set here, to be checked when the privacy page is written.** A flag or comment
+record is kept until it is closed plus 90 days. An email address is deleted when the reply
+is sent, or at close if no reply is owed. If the participant deletes the conversation, the
+flag's pointer dies but the record ids survive, so the lead survives in weaker form.
+
+**The heart.** The one thing a participant can give us that no reviewer can is the moment
+they thought "that is not right". Catching it there, tied to the sentence and its sources,
+serves scholarly rigour directly. Sending disagreement back into the conversation protects
+the encounter the project exists for. Publishing what we found closes the loop the way the
+evidence says works, and the way a project that already shows its sources should.
+
+### Next action
+
+Build steps, in one draft pull request, pushed once after local checks pass:
+
+1. **Engine.** A feedback record type in the existing store (fields in item 4, plus kind:
+   flag or comment, and the consent choice). `POST /api/session/{id}/feedback`, authorised
+   by the session code like delete. `POST /api/feedback` for the site form. An admin
+   dashboard page listing open items, with the five outcomes written back. Tests.
+2. **Conversation app.** One line under each Representative turn: the "This helped" like and
+   the "Answer was not clear or accurate" link; the flag card (sentence radios from the
+   turn's transparency sentences, four reason chips, optional line with the safety line,
+   optional email, Send, thank-you line); "Tell us what you think" in the page bar opening
+   the experience card with the consent radios. Phone-width check. Tests alongside the
+   existing component tests.
+3. **Site.** "Tell us what you think" in every page's bar, opening the same experience card
+   and posting to the engine. `pilot-feedback.html` is retired in favour of it, or kept as
+   the pilot questionnaire's door only. A new Corrections and Leads page, linked from the
+   footer. `privacy.html` gains a paragraph on what feedback stores and for how long
+   (defaults above), reviewed by Mark before it ships.
+4. **Operations.** Name the weekly owner. First Corrections page entry is written when the
+   first flag closes, not before, so the page never carries placeholder text.
+
+The build is a separate thread's work; this thread's deliverable was the decision.
+
+## 2026-10-16 (later) — Feedback from inside the conversation: built, as a draft pull request
+
+**What was built**, on the branch `feedback/inside-the-conversation`, per the entry above, the
+same day Mark said "start the build". Three slices drafted by Sonnet workers under this
+thread's briefs, reviewed and verified here:
+
+- **Engine.** `engine/feedback/store.py` (a separate SQLite file, `CIC_API_FEEDBACK_DB`, on
+  the Render disk, in the daily backup); `engine/api/feedback_routes.py` with the session
+  like-or-flag route, the public comment route with the site's CORS, and the admin list and
+  close routes; a 20-per-minute bucket for the two public routes; the purge of closed items
+  after 90 days in the daily retention pass; a Feedback section in the admin dashboard
+  with the five outcomes. The server reads a flagged sentence's record ids and confidence
+  from the stored plan; the client never names them.
+- **Conversation app.** `TurnFeedback` (the "This helped" like and the "Answer was not
+  clear or accurate" link with its card) under every stored Representative turn in the
+  one-to-one and Table rooms; `ExperienceFeedback` ("Tell us what you think") in both
+  rooms' bars and at the foot of the Launch screen, which has no bar.
+- **Site.** `assets/feedback.js` and `assets/feedback.css`; the button in every page's bar,
+  including the 11 tradition pages and the 292 generated tree pages (through
+  `Build/tools/generate_tree_pages.mjs`); `corrections.html` with its empty state; the old
+  email-building form replaced by a "Feedback has moved" page; the footer "Feedback" links
+  replaced by "Corrections"; a Feedback section on the privacy page.
+
+**Decided in the build, within the entry above:**
+
+- A like stores the turn pointer and the turn's cited record ids, no sentence. Likes do not
+  enter the admin queue, since there is nothing to answer; they are purged with the rest
+  after 90 days.
+- The flag's record ids are the union of the plan's elements on that sentence and the
+  citations whose sentence lies inside it, so a doctrinal witness cited without an element
+  is not lost.
+- The experience card on the site is fixed below the bar that holds the button, because
+  two pages (the Church Family Tree and the talk page) have fixed bars of their own.
+- The generated tree pages got the button through their generator, not by hand; the
+  regeneration changed nothing else, checked before and after.
+
+**For Mark before it ships.** Read the privacy page's new Feedback section; it states the
+retention defaults from the entry above. Nothing to set on Render: `render.yaml` carries
+the new database path, and the site origin falls back to the Go Deeper one.
+
+**Not done, by choice.** No visual pass of the app's own cards in a real browser (the engine
+cannot run here without a model region); the site's control was checked at desktop and
+phone widths with the card open. The app's cards are covered by component tests.
+
+### Next action
+
+Mark reviews the draft pull request and the privacy paragraph. On merge: name the weekly
+owner of the queue, and write the first Corrections entry when the first flag closes.
