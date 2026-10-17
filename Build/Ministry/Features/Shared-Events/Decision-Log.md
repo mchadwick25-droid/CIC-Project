@@ -81,3 +81,16 @@ by tradition; verified leads not fetched; checked and closed; gaps and escalatio
 corpus-map notes. The Nicaea dossier is the exemplar. Rights are verified from the host
 record or the file's own title page; what each OCR actually recovered (which scripts) is
 stated in every header, since several Google scans recover only the Latin-script column.
+
+## 2026-10-17 — Two open questions closed (Mark)
+
+Both open questions in the entry "How an event is told" are settled.
+
+1. **Order of the parts.** "How each tradition remembers it" is the last part of each event
+   story, after the stories from the sources. The README's order stands.
+2. **Legend notes.** Only where a legend is well known. No hunt for obscure legends in every
+   event. For each well-known legend the sourcing stays as the rules require: the
+   contemporary sources that show the silence, and the text where it first appears if one
+   can be cited.
+
+Relayed to the sourcing thread by the site-editing session on 2026-10-17.
