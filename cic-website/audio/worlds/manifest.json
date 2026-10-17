@@ -312,11 +312,12 @@
  "syriac-edessa-nisibis": {
   "story": {
    "file": "syriac-edessa-nisibis/story.mp3",
-   "chars": 3484,
+   "chars": 3721,
    "voiceId": "9iUwwAQbShIkp628a5fO",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -326,11 +327,12 @@
   },
   "docstory-syr.story.ephrem-famine-death": {
    "file": "syriac-edessa-nisibis/docstory-syr.story.ephrem-famine-death.mp3",
-   "chars": 745,
+   "chars": 1160,
    "voiceId": "9iUwwAQbShIkp628a5fO",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -340,11 +342,12 @@
   },
   "docstory-syr.story.jacob-deliverance": {
    "file": "syriac-edessa-nisibis/docstory-syr.story.jacob-deliverance.mp3",
-   "chars": 690,
+   "chars": 839,
    "voiceId": "9iUwwAQbShIkp628a5fO",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -354,11 +357,12 @@
   },
   "docstory-syr.story.abgar-addai-legend": {
    "file": "syriac-edessa-nisibis/docstory-syr.story.abgar-addai-legend.mp3",
-   "chars": 969,
+   "chars": 1284,
    "voiceId": "9iUwwAQbShIkp628a5fO",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -373,6 +377,111 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-syr.story.edessa-flood-201": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.edessa-flood-201.mp3",
+   "chars": 988,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-syr.story.jacob-nicaea": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.jacob-nicaea.mp3",
+   "chars": 701,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-syr.story.ephrem-roll-and-vine": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.ephrem-roll-and-vine.mp3",
+   "chars": 1287,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-syr.story.qyama-morning": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.qyama-morning.mp3",
+   "chars": 944,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-syr.story.simeon-martyrdom": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.simeon-martyrdom.mp3",
+   "chars": 1423,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-syr.story.basil-legend": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.basil-legend.mp3",
+   "chars": 982,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-syr.story.choirs-tradition": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.choirs-tradition.mp3",
+   "chars": 755,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
