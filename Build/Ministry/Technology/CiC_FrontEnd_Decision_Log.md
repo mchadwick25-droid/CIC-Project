@@ -5825,3 +5825,48 @@ need to design something we design it fresh."
 
 Mark reads the privacy page's Feedback section on the live site after the redeploy. Then
 the weekly read begins with the first item that arrives.
+
+## 2026-10-17 — Past conversations wait for accounts; the team's test sessions leave the counts
+
+**Past conversations.** Today a conversation lives in its browser tab: a reload brings it
+back, closing the tab loses the way back, though the server keeps it 90 days for review.
+Mark weighed three ways to let a person return to earlier conversations: a list kept only
+on their device, a private save-this-conversation link, or accounts. **Decision (Mark):
+wait for accounts.** Nothing is built for it in the pilot. When accounts are designed, they
+carry the conversation list, sign-in, and the privacy rewrite that linking conversations to
+a person requires (identity, deletion, retention, what the team can see).
+
+**The team's own test sessions.** The admin dashboard counted Mark's testing as visitors.
+The engine stores no IP addresses, and the app runs in an iframe on the site, so the
+visitor cookie cannot reliably tell the team apart. **Decision (Mark):** a private link,
+`talk.html?ours=1`, marks a browser as the team's; its new sessions carry `internal: true`
+and the dashboard leaves them out of people, time, sessions and the questions list, and
+says how many it left out. Cost still counts every call. It works from the day it ships;
+earlier sessions cannot be sorted, so the dashboard's range starts at launch day.
+
+## 2026-10-17 — The opening screen: B's first screen, then A's conversation
+
+**Problem.** About 300–500 words sat above the message box, so a phone needed three to four
+screens of scrolling to reach it, and 65% of conversations never got a message (part of
+that is counting: a session opens on page load). Diagnosis and options were shown to Mark
+as artifacts ("Before the First Message", "Keeping the Box in View").
+
+**Decision (Mark).** B's first screen, then A's conversation, drawn at phone size with the
+Desert Fathers and Mothers text ("Opening Screen, B then A") and approved to build as drawn:
+
+- The message box is always on screen; the column is exactly the visible height and follows
+  the phone keyboard.
+- First screen: portrait, names, the doorway folded to two lines with "Read more" on a
+  phone, the disclosure, the suggested questions in one sideways row, the AI note, the box.
+- Once the conversation starts, nothing at the top but the portrait and the names. Each
+  question scrolls up under that bar. Tapping the bar reopens the arrival.
+- "Tell us what you think" and "Leave for now" sit under the box once the conversation
+  starts. "Delete this conversation" appears once there is something to delete.
+
+The disclosure, the Facilitator's welcome and the AI note keep their approved words; only
+their placement changed. New words: "Read more" and "Back to the conversation".
+
+### Next action
+
+Mark tries it on his own phone after the deploy, including the keyboard on iPhone, which
+could not be tested here.
