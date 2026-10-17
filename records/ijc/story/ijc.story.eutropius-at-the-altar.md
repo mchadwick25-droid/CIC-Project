@@ -58,6 +58,7 @@ text: >-
   The emperor held the army off, but the protection did not last. Eutropius left the
   church, was taken, exiled, and executed. John preached a second time, about
   that too.
+telling: "Eutropius was a eunuch who rose to be chamberlain to the emperor Arcadius, and in 399 he became the first eunuch ever made consul. With that power he obtained laws that cut off the church's ancient right of refuge, so that a fugitive at the altar could be taken.\n\nThen he fell. He ran to the Great Church and took hold of the altar, the one protection he had himself destroyed, and the soldiers came for him.\n\nThe bishop, John, preached with Eutropius lying there. In front of the man and the whole city, he preached the emptiness of everything Eutropius had spent his life getting. Where is the consulship now, he asked, and where are the torches and the swarm of people who flattered him?\n\nThen John turned on his own congregation, who wanted the man handed over. He told them they were servants of a crucified man who had said, forgive them. Yes, he granted, this is the man who abolished refuge here, and he has learned by experience what he did.\n\nThe emperor held the army off, but the protection did not last. Eutropius left the church and was taken, and later he was exiled and executed. John preached a second time, about that too."
 use_note:
   means: "Eutropius, who abolished sanctuary, took the altar, and Chrysostom sheltered him while preaching that his ruin was a warning he brought on himself."
   not_for:
