@@ -96,7 +96,7 @@ text: >-
   followed instead was a rival consecration: Majorinus, a member of
   Lucilla's own household, was made bishop in Caecilian's place - at her
   instigation, Optatus writes, and through her bribes.
-telling: "Optatus wrote against us some fifty years after these events, and he tells how the break began. Lucilla was a wealthy laywoman of Carthage who kept the bone of a martyr with her. She would kiss it before she took the cup at communion, and the archdeacon Caecilian rebuked her for it. Optatus adds that the dead man had not been formally recognized as a martyr, if he was one at all. She left, he says, full of anger.\n\nThen persecution broke over Carthage, and the bishop, Mensurius, was summoned to the emperor's court. He left the church's gold and silver with some elders he trusted, and he gave an old woman a written list of it. When Mensurius did not come home, Botrus and Celestius, who had both expected the office, were passed over and Caecilian was elected.\n\nOptatus says the elders had kept back more of the treasure than they should have. These elders, the two disappointed candidates and Lucilla now discovered a common cause. At a crowded meeting in the basilica, Caecilian demanded that his accusers state their charge. Purpurius only mocked him, and no proof was ever produced. Instead Majorinus, a member of Lucilla's household, was made bishop in Caecilian's place, at her urging and through her bribes, Optatus writes.\n\nOptatus blames the whole split on her wounded pride, but that explanation is his, and we do not adopt it. Lucilla left no text, and no one asked her what she thought she was doing."
+telling: "She kept the bone of a martyr with her, and she kissed it before she took the cup at communion. Lucilla was a wealthy laywoman of Carthage, and the archdeacon Caecilian rebuked her for it. Optatus wrote against us about fifty years later. He adds that the dead man was not yet a recognized martyr, if he was one at all. She left, he says, full of anger.\n\nAround then, persecution broke over Carthage, and the bishop, Mensurius, was summoned to the emperor's court. He left the church's gold and silver with elders he trusted. He gave an old woman a written list of it, to hand to whoever sat in the bishop's chair if he did not come home.\n\nHe did not come home. Botrus and Celestius had both expected the office, but Caecilian was elected instead. Optatus says the elders had kept back more of the treasure than they should have. In his telling, the elders, the two passed-over men and Lucilla now found a common cause.\n\nAt a crowded meeting in the basilica, Caecilian demanded that his accusers state their charge. Purpurius only mocked him. Let his head be well beaten in penance, he said. No proof was produced. Instead Majorinus, a member of Lucilla's household, was made bishop in Caecilian's place. It was done at her urging and through her bribes, Optatus writes."
 absent_detail: Lucilla left no text and no one asked her what she thought she was doing. Everything known
   about her reaches us inside the hostile narrative that blames her for the schism; her own account of
   the rebuke, of the money, and of Majorinus does not exist. Nor does any account of these events from
@@ -117,30 +117,3 @@ use_note:
   years: {from: 311, to: 312}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory004_lucilla-
-consecration-dispute.md (Doc_09 story index row donstory004, Tier 1),
-whose narrative text is carried forward rather than re-derived.
-
-TWO NAMED FELIXES, EASILY MERGED, AND FLAGGED HERE FOR THE FIRST TIME IN
-THIS WORLD'S RECORDS. The deacon Felix who hides in Mensurius's house in
-this story is not Felix of Aptungi, the bishop whose alleged traditio
-against Caecilian's consecration is the subject of
-don.story.acta-purgationis-felicis. The two Felixes stand at opposite
-ends of the same founding crisis and a retrieval that conflates them
-will invert the whole dispute. See don.figure.felix-of-aptungi, which
-carries the distinction on its own face.
-
-THE AFFIRMATIVE-DUTY DISCHARGE. Doc_02 Section 6 uses this material as
-this world's Article 20 discharge and exercises its secondary
-reconstruction prong once, on exactly the reasoning carried in
-modern_contrast above. The banding is respected here: any claim about
-Lucilla's own motivations, private character, or theological
-commitments beyond what Optatus's narrative attributes to her is
-Inferential-Thin and is not made. A second woman, behind the later
-Maximianist schism, is paralleled to Lucilla by Augustine in the same
-paragraph and is never named at all - see don.figure.lucilla's own body
-note.
-
-PAIRED WITH don.story.gesta-apud-zenophilum, the courtroom sequel that
-investigates the same money seven years later. Both retrieval blocks
-name the pairing so a retrieval system surfaces them together.

@@ -1937,3 +1937,54 @@ Status: OPEN.
 The Atlas story pass touched only the story, the card stories and highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" and dash asides. Several of them also fail the readability gate at the base, as `regate don` reports.
 
 Status: OPEN for the project lead to schedule.
+
+### OG-41. Notes moved out of the story and world-front bodies, Atlas story fixes, 2026-10-17.
+
+The Atlas story fixes (branch `site/atlas-story-don-fixes`) deleted the build-commentary bodies of `don.front.donatism` and of nine story records under the live-surface rule. The text stays in git history at commit 8afababd9. Three notes from those bodies are still needed and are kept here.
+
+1. **Latin behind the 411 renderings.** OG-33 ("Record wording pass: problems found and not fixed, 2026-10-13") points to "the Latin phrases listed in the body note" of `don.story.conference-of-carthage-411`. That body note no longer exists. This list replaces it. The English renderings in the record's `text` were read against these phrases in `cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt`:
+   - "Tibi enim, judicum verissime, nihil aliud incumbit quam tenere veritatem"
+   - "judica, vir sublimis, in negotio Christiano: quia huic causae judicat Deus"
+   - "magno argumento veritas occultatur"
+   - "A personis incipit omnis causa"
+   - "Accusatoris loco stare voluisti"
+   - "Mandavi et subscripsi"
+   - "Traditores vero in plebe mea et omni dioecesi mea non habeo"
+   - "Ipse sibi obstrepit, dum longa prosequitur"
+   - "Emeritus episcopus salva appellatione recognovi"
+
+   The loci named in the record's `sources` are the editor's summary, Marcellinus's edicts, the roll-call and subscription tally, acts 144-145 (the chairs) and acts 265-271 (wheat and tares). The body note gave two line numbers. Line 73364 (cited as 73363 elsewhere in the don records; off by one in the current file) holds the editor's 279/286 count. Lines 124975-125010 hold the acts' own roll-call tally of 266 subscribed, with 20 more present. None of the renderings is a certified translation, and the OCR caution in the record's `divergence_note` governs all of them. The re-verification gap that OG-33 records is still open.
+2. **Why `don.quote.the-shores-are-covered` is not in `pull_quotes`.** The record's own `modern_lens_note` says the shipwreck image describes no real event, and a reader who takes it as a report of violence will misread it. A pull quote shows only `modern_rendering`, with no room for that note. So the world front keeps the quote out of `pull_quotes`. A later pass should not add it back without a way to carry the note.
+3. **Homonyms that only the deleted story bodies named.**
+   - There are three Felixes in the founding stories: Felix of Aptungi (the consecrator), the deacon Felix who hid in Mensurius's house (`don.story.lucilla-affair`), and Felix of Rotarium, one of the three unaccused bishops at Cirta.
+   - In `don.story.acta-purgationis-felicis`, Alfius Caecilianus, a witness, is not Caecilian of Carthage.
+
+   Core caution 7 and the figure records carry the other homonyms (Maximian and Maximianus, the two Optatuses and the two Marcellini).
+
+The same branch also rewrote every `world_front` section that OG-40 names. OG-40 closes when that branch merges.
+
+Status: OPEN for item 1 (the re-verification in OG-33). Items 2 and 3 are kept here for reference.
+
+### OG-42. Atlas story pass: independent review failed the live text; fixed over three rounds, 2026-10-17.
+
+The project lead asked for an Opus review of the rigor and craft of this pass after it went live. Round 1 failed the live text with 14 blocking findings. Among them:
+- "Nicene faith", which no record supports and which predates Nicaea;
+- "or die";
+- 347 called the second persecution, when 317 came before it;
+- the name the Donatists "never chose";
+- Marculus's vision stated as fact;
+- "traitors" for traditores, which the term record's not_for bars.
+
+The round files, the fixer's report and the cap ruling are named in "Cap ruling: don Atlas story pass" (System Hub Decision Log, 2026-10-17). OG-39's review record called the pass a PASS. That was the author's own check, and it was wrong.
+
+**What changed beyond the story:** the same false claims were corrected in the tile, the voices and hedges, the legacy, floor_note, relations_summary, sourcing, read_first and who_speaks. The build-commentary bodies of the front file and the nine story records were deleted. Each telling now ends on its last real event, following the project lead's ruling to "remove all the add on tails that dont say anything".
+
+**Record defects, logged and not edited:**
+- `don.story.passio-marculi` contradicts itself on the length of the fast.
+- The 411 story `text` and `don.figure.emeritus` disagree on how often Emeritus reserved his appeal.
+- `don.story.tyconius-condemnation` `modern_contrast` says "we cut off", against its own divergence_note.
+- Three records state the 279/286 bishop count as settled, while the Conference story holds it open.
+- `don.core.donatism` calls 347 the second persecution.
+- The Cirta story `divergence_note` says the story comes only through Optatus, against the Augustine evidence.
+
+Status: OPEN for the record-level defects. CLOSED for the participant-facing text of this pass.
