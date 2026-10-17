@@ -29,13 +29,26 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns 
   const askAgainRef = useRef<HTMLButtonElement>(null);
   const { pending, submit, confirm, decline } = useAskAgain(turns, onSend);
 
-  useEffect(() => {
+  const fitHeight = useCallback(() => {
     const textarea = textareaRef.current;
-    if (textarea) {
-      textarea.style.height = 'auto';
-      textarea.style.height = `${Math.min(textarea.scrollHeight, 200)}px`;
-    }
-  }, [message]);
+    if (!textarea) return;
+    textarea.style.height = 'auto';
+    const border = textarea.offsetHeight - textarea.clientHeight;
+    textarea.style.height = `${Math.min(textarea.scrollHeight + border, 200)}px`;
+  }, []);
+
+  useEffect(fitHeight, [message, fitHeight]);
+
+  // The first measure can run before the web font arrives; measure again then.
+  useEffect(() => {
+    let live = true;
+    document.fonts?.ready.then(() => {
+      if (live) fitHeight();
+    });
+    return () => {
+      live = false;
+    };
+  }, [fitHeight]);
 
   const handleSubmit = useCallback(
     (e: React.FormEvent) => {
