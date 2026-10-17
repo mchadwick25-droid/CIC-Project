@@ -67,9 +67,9 @@ merged; start from `origin/main` on a new branch, `library/shared-events-era3`.
   alternative existed and raised the question to Mark; check the decision log for his ruling
   before relying on such a scan.
 - `cic/texts/` passed 800 MB in the Era 2 batch. The planning trigger in
-  `Build/worlds/_cross-world/PLAN-texts-store-scaling.md` is 1 GB. Keep an era batch under
-  about 100 MB, prefer the one volume that holds the event, and raise the store question if
-  the batch would cross the trigger.
+  `Build/worlds/_cross-world/PLAN-texts-store-scaling.md` is 4 GB (Mark, 2026-10-17). Size
+  is no reason to leave out a source the event needs. Still prefer the one volume that holds
+  the event over a whole set.
 - Workers run in parallel (one per two or three events) and write only vendored files,
   staging yaml, dossiers and scratchpad fragments; the coordinator merges REGISTRY and seed
   rows, regenerates README and the download queue, and commits. Strip dated comment lines

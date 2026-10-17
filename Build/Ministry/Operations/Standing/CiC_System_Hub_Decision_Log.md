@@ -6659,3 +6659,15 @@ The review of the Alexandria Atlas story pass ran four rounds, all recorded in o
 - Round 4, a targeted recheck of those rewrites: approved to proceed.
 
 Round 3 followed a change to the brief, not a failure to converge. Round 4 still ran without first escalating at the cap. The project lead accepted round 4 after the fact on 17 October. He also ruled that a world may take more rounds when that is what it needs to be right, in his words: "if this world has to be longer to get it right thats ok". This ruling covers only the alx story pass review named above.
+
+## 2026-10-17 - Library store trigger moves to 4 GB
+
+This is a change order to decision 23, which set the `cic/texts/` planning triggers at 1 GB (re-read the plan) and 1.5 GB (act on it).
+
+**Ruling (the project lead, 17 October).** The trigger moves to 4 GB, and acting is overdue at 5 GB. The library has moved to a public repository on GitHub, so plain git storage costs nothing. The project lead: "we can change the 1 GB limit now we have moved the library to public on github".
+
+**What still applies.**
+- GitHub's soft guidance applies to public repositories too: it warns above about 5 GB. The hard limit is 100 MB for a single file.
+- Every session clones the whole repository, so a larger store means slower session starts. The plan's request to measure a fresh session's start time still stands.
+
+The store was 801 MB when the ruling was made, after the Shared Events Era 2 batch. `cic/engine/texts_registry.py`, `PLAN-texts-store-scaling.md`, the `_cross-world` README and the Shared Events Era 3 handoff now carry the new numbers.
