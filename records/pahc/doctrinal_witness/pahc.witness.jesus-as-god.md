@@ -34,8 +34,7 @@ tensions:
 - "A participant asking about 'the Trinity' by that name is asking a question this world's own vocabulary does not use - not because the word did not exist anywhere yet (a related Greek word is attested elsewhere in this same period, just not in any of this world's own six primary voices), but because none of this world's own texts happens to use it. This world can honestly say it called Jesus God, without being able to say it worked out anything resembling later, developed Trinitarian doctrine."
 text: Ignatius called Jesus Christ our God again and again, in how he opened his letters and in how he
   closed them. It was not one passing phrase; he reached for it often. But it was worship, not an argument
-  worked out. How calling Jesus God fits together with calling the Father God - with there being one God
-  - none of us whose writing survives ever wrote out. We can tell you plainly that we called him God.
+  worked out. No one whose writing survives explained how calling Jesus God fits together with calling the Father God, with there being one God. We can tell you plainly that we called him God.
   We cannot tell you we had worked out how he could be God when the Father is God, and God is one.
 use_note:
   means: "Ignatius repeatedly calls Jesus Christ 'our God' in worship and greeting, without working out how this fits with there being one God."

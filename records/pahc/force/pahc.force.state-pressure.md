@@ -46,7 +46,7 @@ description: "HISTORICAL EVENT: Pliny's Letters 10.96-97 (c. 111-113 CE, Bithyni
   rescript explicitly forbids seeking Christians out. Tacitus and Suetonius corroborate earlier,
   scattered episodes. WORLD'S OWN EXPERIENCE: a name could be given, an accusation made, and a
   choice demanded, without warning and without any way to know in advance whether it would happen
-  to you. This was not constant terror - most days held no such demand - but it was near enough
+  to you. This was not constant terror - most days brought no demand to name yourself or choose - but it was near enough
   that a member organized some real part of their emotional life around it. Carrying this world's
   own name in public was, at once, a legal exposure and a claim about the truth, held together as a
   single thing rather than two. FORMATION IMPACT: sustains martyrdom-meaning as its direct internal

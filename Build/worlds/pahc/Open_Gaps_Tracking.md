@@ -811,3 +811,13 @@ Fixed: the Quintus teaser no longer puts him before the praise of Polycarp, and 
 **Open:** the Domitian record's tellable notes and source notes still use "plethra" and "denaria" as internal references.
 
 Status: CLOSED for this review except the open item.
+
+### OG-37. House Churches intro, ministrae wording and unclear endings, 2026-10-17.
+
+The project lead found these in a live app conversation. `records/worlds/pahc.yaml` no longer says "ordinary houses" and no longer ends on an abstraction: the intro keeps the household as the community's ethos and says what the churches were still settling (who should lead, and how scattered households could stay one church by letter). `pahc.term.ministrae` now reads "No one wrote down what the women called themselves." `pahc.witness.outsider-view` no longer says "not ours": it says ministrae was Pliny's Latin word and that whether the community used it is not known, which matches the term record. `pahc.witness.jesus-as-god` and `pahc.force.state-pressure` lead with their subject and name the demand.
+
+**Open:**
+- The Facilitator's welcome says "answers only from what's actually known of this world". It is fixed template text in `engine/m4/facilitator_turns.py` (`DOOR` and `TABLE_DOOR`), so it needs an engine change, which was ruled out for this pass.
+- Build/Ministry design drafts still carry "ordinary houses" (for example `Build/Ministry/Features/Website-V2/Sandbox/D1-directions/05-product-led-clarity/meet-chloe.html`).
+
+Status: CLOSED for the records; OPEN for the Facilitator welcome text.
