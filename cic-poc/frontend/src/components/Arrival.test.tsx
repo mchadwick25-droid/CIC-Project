@@ -5,7 +5,7 @@
  * it actually renders, since nothing else in the suite touches this
  * component.
  */
-import { render } from '@testing-library/react';
+import { fireEvent, render } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 import { Arrival } from './Arrival';
 import type { WorldEntry } from '../data/worlds';
@@ -50,3 +50,22 @@ describe('Arrival order', () => {
     expect(thinness.contains(living)).toBe(false);
   });
 });
+
+describe('Arrival doorway', () => {
+  it('folds the doorway until Read more, without changing its words', () => {
+    const doorwayDescription = 'In the 300s, thousands left the villages. They lived in the desert.';
+    const { container, getByText } = render(<Arrival world={world({ doorwayDescription })} />);
+    const horizon = container.querySelector('.arrival__horizon') as HTMLElement;
+    expect(horizon.textContent).toBe(doorwayDescription);
+    expect(horizon.classList.contains('arrival__horizon--open')).toBe(false);
+    fireEvent.click(getByText('Read more'));
+    expect(horizon.classList.contains('arrival__horizon--open')).toBe(true);
+    expect(container.querySelector('.arrival__horizon-more')).toBeNull();
+  });
+
+  it('shows no Read more without a doorway', () => {
+    const { container } = render(<Arrival world={world()} />);
+    expect(container.querySelector('.arrival__horizon-more')).toBeNull();
+  });
+});
+

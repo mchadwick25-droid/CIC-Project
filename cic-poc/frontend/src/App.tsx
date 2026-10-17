@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useConversation } from './hooks/useConversation';
+import { useVisibleHeight } from './hooks/useVisibleHeight';
 import { useTable } from './hooks/useTable';
 import { useWorlds } from './hooks/useWorlds';
 import { findWorld, findWorldByCensusId } from './data/worlds';
@@ -79,6 +80,7 @@ function sameSeats(a: string[], b: string[]): boolean {
 
 function App() {
   const conversation = useConversation();
+  useVisibleHeight();
   const table = useTable();
   const { worlds, isLoading: worldsLoading, error: worldsError } = useWorlds();
   const [screen, setScreen] = useState<Screen>(() => (expectsRoom() ? 'arriving' : 'launch'));
@@ -236,6 +238,13 @@ function App() {
     }
     setScreen('launch');
   };
+
+  // Once a conversation has started, the site page around the frame hides
+  // its own bars, so only the portrait and names sit above the transcript.
+  const conversationStarted = screen === 'conversation' && conversation.turns.some((t) => t.speaker === 'participant');
+  useEffect(() => {
+    if (isEmbedded) window.parent.postMessage({ type: 'cic:started', started: conversationStarted }, '*');
+  }, [conversationStarted]);
 
   const world = selectedWorldKey ? findWorld(worlds, selectedWorldKey) : undefined;
   const seatedWorlds = (screen === 'table' && table.worldKeys.length > 0 ? table.worldKeys : seated)
