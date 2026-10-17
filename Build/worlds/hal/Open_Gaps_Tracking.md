@@ -874,3 +874,5 @@ Three independent readers checked the live page (reviews `Build/Ministry/Operati
 Fixed: the tile now says no one held a bishop's office (not any church office), attributes Marcella's standing to Jerome, and no longer claims everything comes through Jerome's pen; tile rhythm, build wording and long highlight notes trimmed. No record changed.
 
 Status: CLOSED for this review.
+
+The same two claims in the census copy (`cic-website/data/world-census.json`, `index.html`, `atlas-v3.html` and the tradition page) were corrected in the recheck: Marcella's standing is now attributed to Jerome.
