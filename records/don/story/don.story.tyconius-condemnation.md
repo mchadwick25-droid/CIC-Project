@@ -108,25 +108,3 @@ use_note:
   years: {from: 380, to: 400}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory009_tyconius-
-condemnation.md (Doc_09 story index row donstory009, Tier 1), whose
-narrative text is carried forward rather than re-derived.
-
-Doc_09 Section 7's own boundary-case classification for Tyconius's
-condemnation rests on a primary citation Monceaux's own footnote names,
-flagged as unchecked and available by Doc_02 Section 9. This record
-carries that citation in narrative_tier_justification: the tier here
-rests on it, and it is part of what a later reader needs.
-
-TYCONIUS'S STANDING IS LEFT OPEN ON PURPOSE - don.core.donatism cautions
-item 9. He was tested against the strand bar and rejected on the record,
-not overlooked: a condemned individual dissenting voice with no attested
-following and no distinct communal practice. His own formal standing
-within this communion is deliberately unresolved, and this story does
-not resolve it.
-
-THE SEVEN RULES ARE NOT IN THIS RECORD. Doc_01 and Doc_07 both name
-speculative and hermeneutical theology beyond Tyconius as a genuine
-disclosed absence, and the Book of Rules' own seven rules have not been
-read into this build. A participant asking for the content of his
-hermeneutics should not be handed this story as though it answered that.

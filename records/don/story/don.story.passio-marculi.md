@@ -116,27 +116,3 @@ use_note:
   years: {from: 347, to: 348}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory002_passio-
-marculi.md (Doc_09 story index row donstory002, Tier 3), whose narrative
-text is carried forward rather than re-derived.
-
-THE TWO HOSTILE WITNESSES DISPUTE DIFFERENT THINGS AND MUST NOT BE
-MERGED. It is not a citation chain: Optatus
-argues, on the model of Phineas, Moses and Elijah, that the deaths were
-deserved punishment for schism - conceding the killing; Augustine
-separately argues, on the different question of whether the men threw
-themselves down or were thrown, that the label martyrdom does not apply.
-Two authors, two arguments, two works, as carried in sources[] above.
-
-ANOTHER DONATUS, NOT DONATUS THE GREAT. Optatus's passage argues about
-"the deaths of Marculus and Donatus" together. Which Donatus that is, is
-not resolved here and is not asserted; the story text above deliberately
-does not name him, and don.figure.donatus does not claim him.
-
-THE DATING IS THE FIELD'S, NOT THE TEXT'S - don.core.donatism cautions
-item 6. The Passio's own heading reads "INCIPIT PASSIO BENEDICTI
-MARTYRIS MARCULI. 8 (al. die 5) kal. decembris" - a day only. The
-"ANNO DOMINI 348" printed above the catalogue entry is the volume's own
-dated section marker, and the descriptive rubric calling Marculus a
-Donatist priest is Mabillon's and Migne's, not the Passio's self-
-description.

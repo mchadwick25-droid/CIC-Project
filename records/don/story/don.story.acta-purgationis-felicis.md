@@ -102,22 +102,3 @@ use_note:
   years: {from: 314, to: 315}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory006_acta-
-purgationis-felicis.md (Doc_09 story index row donstory006, Tier 1),
-whose narrative text is carried forward rather than re-derived.
-
-THE UNFAVOURABLE FINDING IS THE POINT OF KEEPING THIS RECORD. Doc_09
-leaves standing (L2) the chunk's own handling of Ingentius's
-torture threat; this record keeps it and adds it to modern_contrast,
-where a modern reader's first objection belongs. The story must not be
-retrieved defensively. A Representative asked directly how strong the
-case against Felix was should reach this record and say what it found.
-
-TWO NAMED FELIXES - see don.story.lucilla-affair's own body note and
-don.figure.felix-of-aptungi. The deacon Felix who hides in Mensurius's
-house in the Lucilla story is a different man entirely.
-
-TWO NAMED CAECILIANS, ALSO IN THIS STORY. Alfius Caecilianus, the first
-deponent named above, is not Caecilian of Carthage, the bishop whose
-consecration is what the inquiry is about. The transcript names both
-within a few lines of each other.

@@ -81,7 +81,7 @@ text: >-
   the assembly answered, and did. No one present was found guilty; no one
   was cleared. The room simply agreed not to finish the question it had
   started.
-telling: "Before the quarrel over Caecilian began, the bishops of Numidia met at Cirta to make a bishop of their own. The year is disputed, 305 or 307 or later. We know of the meeting only through Optatus, our opponent.\n\nSecundus of Tigisis presided. He asked whether any of them had handed over the scriptures in the persecution. One by one, several said they had. It was the same charge we would soon bring against Felix, the bishop who made Caecilian.\n\nThen Purpurius turned the question back on Secundus. He taunted him for being let go only after a long time among the soldiers. The room began to mutter that Secundus too had given up the sacred books to buy his release.\n\nSecundus asked advice from his brother's son, called Secundus the Less, who told him to leave the whole affair to God. Secundus then asked the three bishops who had not been accused for their judgement. They were Victor of Garba, Felix of Rotarium and Nabor of Centurio. They said a case like this should be reserved to the Lord.\n\n\"Sit down, all,\" Secundus said. \"Thanks be to God,\" the assembly answered, and sat. No one was found guilty, and no one was cleared."
+telling: "Before the quarrel over Caecilian began, the bishops of Numidia met at Cirta to make a bishop of their own. The year is disputed, 305 or 307 or later. Optatus, our opponent, tells the story of that meeting.\n\nSecundus of Tigisis presided. He asked whether any of them had handed over the scriptures in the persecution. One by one, several said they had. It was the same charge we would soon bring against Felix, the bishop who made Caecilian.\n\nThen Purpurius turned the question back on Secundus. He taunted him for being let go only after a long time among the soldiers. The room began to mutter that Secundus too had given up the sacred books to buy his release.\n\nSecundus asked advice from his brother's son, called Secundus the Less, who told him to leave the whole affair to God. Secundus then asked the three bishops who had not been accused for their judgement. They were Victor of Garba, Felix of Rotarium and Nabor of Centurio. They said a case like this should be reserved to the Lord.\n\n\"Sit down, all,\" Secundus said. \"Thanks be to God,\" the assembly answered, and sat. No one was found guilty, and no one was cleared."
 absent_detail: No record of this council from our own side survives - no minute, no later defence, no explanation
   of what the phrase "reserved to the Lord" was understood to mean by the men who said it. Whether the
   admissions were what Optatus takes them to be, and what the assembly thought it was doing when it sat
@@ -105,24 +105,3 @@ use_note:
   years: {from: 305, to: 307}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory007_council-of-
-cirta.md (Doc_09 story index row donstory007, Tier 1), whose narrative
-text is carried forward rather than re-derived.
-
-A GENUINELY COMPLICATING STORY, KEPT AS ONE. The chunk's own usage
-guidance asks a Representative to sit with the complication rather than
-resolve it toward whichever side is more comfortable; that instruction
-is carried into modern_contrast above rather than dropped in
-compilation, because it is where a reader's own pressure will land.
-
-THE THIRD-NAMED BISHOP HERE IS ANOTHER FELIX. Felix of Rotarium, one of
-the three unaccused bishops asked for judgement, is neither Felix of
-Aptungi nor the deacon Felix of don.story.lucilla-affair. Three
-different Felixes appear across the founding-era stories in this
-inventory.
-
-SILVANUS OF CIRTA IS NOT NARRATED HERE. He is the bishop of Cirta whose
-traditio is established at don.story.gesta-apud-zenophilum, and Cirta is
-this council's own seat, so the temptation to place him in this room is
-real. Optatus I.14 as read at the cited lines does not put him there,
-and this record does not.

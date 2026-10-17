@@ -117,20 +117,3 @@ use_note:
   years: {from: 347, to: 348}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory003_macrobius-
-letter-isaac-maximianus.md (Doc_09 story index row donstory003, Tier 1),
-whose narrative text is carried forward rather than re-derived.
-
-HOMONYM, LOAD-BEARING - don.core.donatism cautions item 7. The
-Maximianus of this letter is a martyr of the Macarian repression,
-347-348. He is NOT Maximian of Cebarsussi, the deacon deposed and made a
-rival primate in 393 whose schism don.story.bagai-reconciliation
-concerns. Two separate figure records carry the two men -
-don.figure.maximianus-martyr and don.figure.maximian-of-cebarsussi - and
-each states the distinction on its own face, so that a retrieval landing
-on either one cannot silently collapse them.
-
-FOUR TEXTS SPEAK AS US RATHER THAN ABOUT US (don.core.donatism cautions
-item 2), and this letter is one of them. That is what makes its
-evidentiary character different in kind, not merely in degree of
-embellishment, from the two Passiones beside it.
