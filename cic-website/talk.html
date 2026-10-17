@@ -48,6 +48,7 @@ a{color:var(--action)}
   border:1px solid var(--rule);border-radius:999px;min-height:34px;display:inline-flex;align-items:center}
 .feature-btn:hover,.feature-btn:focus-visible,.feature-btn[aria-current="page"]{border-color:var(--action);color:var(--action)}
 .frame-wrap{flex:1 1 auto;min-height:0}
+body.in-conversation .bar,body.in-conversation .feature-bar{display:none}
 iframe{display:block;width:100%;height:100%;border:0}
 .js-note{padding:2rem 1.25rem;max-width:34rem;margin:0 auto;text-align:center;font-family:var(--sans);color:var(--muted)}
 </style>
@@ -127,6 +128,15 @@ window.addEventListener('message', function(ev) {
   if (ev.source !== frame.contentWindow) return;
   if (!ev.data || ev.data.type !== 'cic:leave') return;
   window.location.href = document.getElementById('back-link').getAttribute('href');
+});
+
+// Once the conversation has started, the app's own bar (portrait and names)
+// is the only thing above the transcript; "Leave for now" and "Tell us what
+// you think" sit under the app's message box.
+window.addEventListener('message', function(ev) {
+  if (ev.source !== frame.contentWindow) return;
+  if (!ev.data || ev.data.type !== 'cic:started') return;
+  document.body.classList.toggle('in-conversation', ev.data.started === true);
 });
 })();
 </script>

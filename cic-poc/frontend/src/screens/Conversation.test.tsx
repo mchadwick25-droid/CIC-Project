@@ -163,6 +163,35 @@ describe('Conversation - the screen once the conversation starts', () => {
     }
   });
 
+  it('keeps the question at rest when the screen changes height, until the reader scrolls', () => {
+    const scrollTo = vi.fn();
+    const original = HTMLElement.prototype.scrollTo;
+    HTMLElement.prototype.scrollTo = scrollTo as unknown as typeof original;
+    let resized = () => {};
+    vi.stubGlobal(
+      'ResizeObserver',
+      class {
+        constructor(callback: () => void) {
+          resized = callback;
+        }
+        observe() {}
+        disconnect() {}
+      },
+    );
+    try {
+      const { container } = render(<Conversation {...baseProps} turns={asked} />);
+      const calls = scrollTo.mock.calls.length;
+      resized();
+      expect(scrollTo.mock.calls.length).toBe(calls + 1);
+      fireEvent.wheel(container.querySelector('.conversation__transcript') as HTMLElement);
+      resized();
+      expect(scrollTo.mock.calls.length).toBe(calls + 1);
+    } finally {
+      HTMLElement.prototype.scrollTo = original;
+      vi.unstubAllGlobals();
+    }
+  });
+
   it('keeps the feedback button once the conversation is closed', () => {
     const { container } = render(<Conversation {...baseProps} turns={asked} closed />);
     expect(container.querySelector('.conversation__composer .experience-feedback__toggle')).not.toBeNull();
