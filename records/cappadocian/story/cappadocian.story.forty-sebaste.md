@@ -52,6 +52,7 @@ text: >-
   acquiring relics of the Forty and enshrining them at the family's own
   estate chapel at Annisa, tying our freshest martyr memory
   directly into our own household.
+telling: "It was around the year 320, in one of the last persecutions across the whole empire. At Sebaste in Lesser Armenia, forty soldiers were condemned for being Christians.\n\nAs our church remembers it, they were stripped and made to stand through a winter night on a frozen lake. A warm bath steamed on the shore. It was offered to any man who would deny the faith and step out of the cold.\n\nThe tradition says one of the forty broke before the night ended and went to the warm water. It says a guard set to watch them was moved by what he saw. He took off his own clothes and joined the rest on the ice. He confessed the faith the other man had just abandoned, so the martyrs still numbered forty. All of them died.\n\nBasil and Gregory of Nyssa both preached on the feast of the Forty. Their mother, Emmelia, is credited with gaining relics of the Forty and enshrining them in the family's estate chapel at Annisa."
 absent_detail: "No account survives from any of the Forty themselves, or from the guard who is remembered as joining them; the specific narrative details belong to the tradition that grew up around the cult, not to a contemporary eyewitness record."
 modern_contrast: >-
   A modern reader might expect a martyr story this vivid to come from a

@@ -875,3 +875,27 @@ The project lead ruled on 14 October (option C) that an honest-limit sentence na
 - `cappadocian.dw.customs-from-the-apostles` `text`: "most of us not even knowing why." now reads "most of us not even knowing why we faced east."
 
 `engine.m10.cli records cappadocian` and `regate cappadocian --base origin/main` pass. Package rebuilt and repinned: `packages/cappadocian/2026-10-14T20-18-46Z`, `manifest_hash` `sha256:405ced30579e226bc2b1ce239572c4ca0a655b22cfa8602d15f2b55f2c5675c0`. Status: CLOSED.
+
+### OG-48. Atlas story pass: shorter story, ten card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built tradition's Atlas story to run four to five minutes, with the other episodes moved into stories on the card. He approved the Cappadocia story and card list, then the tellings, then a sample recording. `orientation.story` is now 11 units and 700 words, down from 11 units and about 1,330 words. `documented_stories` shows ten story records in date order. Each of those records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 24 short notes; place notes cite Pleiades for modern locations (checked 2026-10-17). Episodes cut with no story record of their own stay in their records: Eupsychius's martyrdom in 362, the Eustathius and Gangra arc, the brotherhood day (a reconstruction), the fishermen question and the Letter 38 authorship dispute. Review: `Build/Ministry/Operations/Audits/cappadocian_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/cappadocian/2026-10-17T10-41-16Z`, `manifest_hash` `sha256:845764585e91ded6af66c140b4997394e94f694429fce0c265db1922f1789864`. This pin supersedes the one in OG-47. The story and the ten tellings were recorded in the existing Cappadocia voice.
+
+**Open:**
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+### OG-49. Record disagreements found during the Atlas story pass, 2026-10-17.
+
+The pass followed the more cautious record in each case and changed no record. Each needs a ruling on which wording is right:
+- `cappadocian.story.doxology-stand` gives "for the sake of the church's peace" as Basil's motive in `text`, while its `divergence_note` calls that motive contested. The telling leaves the motive out.
+- `cappadocian.story.athens-friendship` `text` uses the bee-and-honey image, while its `not_for` sends that argument to `cappadocian.term.paideia-philosophia`. The telling leaves it out.
+- The Sasima records differ on "close friend" (`cappadocian.story.sasima-wound`) and "closest friend" (`cappadocian.demo.never-settled`). The card follows the story record.
+- `cappadocian.figure.macrina` and the Macrina highlight say her own words do not survive, while `cappadocian.story.macrina-deathbed` leaves open how much of the dialogue is hers. The telling keeps the open question in place.
+- `cappadocian.story.gregory-constantinople`'s body note flags a misattributed scholarly caution (McGuckin for McLynn).
+
+Status: OPEN for the project lead.
+
+### OG-50. Other world_front sections keep AI tells and "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" wording and dash asides. The same holds for the Donatist and Alexandria records.
+
+Status: OPEN for the project lead to schedule.
