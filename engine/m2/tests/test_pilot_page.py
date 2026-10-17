@@ -36,7 +36,7 @@ def test_the_offer_is_the_words_mark_approved():
         and b.endswith("conversations.")
         for b in blocks
     )
-    assert any(b.startswith("In return, we ask you to answer a short questionnaire after") and b.endswith("You do not need to give your name or email.") for b in blocks)
+    assert any(b.startswith("Try a few conversations and explore the Church Family Tree. Then tell us what you found in a short questionnaire. It is open now and stays open until") and b.endswith("You do not need to give your name or email.") for b in blocks)
     assert any(b.startswith("Places are limited to") and b.endswith("One pack per person.") for b in blocks)
     assert 'id="pilot-button"' in PAGE.read_text() and ">Get my free pack<" in PAGE.read_text()
 
