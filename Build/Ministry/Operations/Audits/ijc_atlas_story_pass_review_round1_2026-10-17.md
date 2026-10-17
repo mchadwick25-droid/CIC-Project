@@ -41,7 +41,7 @@ Reviewers: Opus 5.5, site-editing thread, and an independent Opus 5.5 subagent t
 
 ## Left open
 
-- The recordings of the new story and the ten tellings wait on the project lead's approval of a sample.
+- Recordings: the project lead approved a sample by ear; the story and ten tellings were then recorded (12039 characters, 5837 credits). The story runs 3:57.
 - Other world_front sections keep "this world" wording (Open_Gaps entry 40).
 
 Verdict: PASS.

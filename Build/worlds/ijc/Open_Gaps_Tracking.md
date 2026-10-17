@@ -382,7 +382,7 @@ Status: items (1) and (2) of entry 33 CLOSED by subject; the rest of entry 33 st
 Cut from the story with no story record, so they have no card story; they stay in the records named: the one damaged Homoian fragment (`ijc.source.auxentius-letter-ulfila`, `ijc.force.transmission-schism-selection`); Damasus's violent election in 366 (`ijc.figure.damasus` and its quote records); Nicaea's choice of homoousios and Eusebius of Caesarea's letter home (`ijc.term.homoousios`, `ijc.figure.eusebius-caesarea`); the two grounds of authority (`ijc.gravity.sacramental-institutional-tension`). Two old-story claims had no record at all and are gone: Constantine as "sole ruler of the West" after the 312 battle, and a "looser, more scriptural-sounding word" passed over at Nicaea. The old story's "Damasus built that same claim into stone" rests only on `ijc.story.letter-that-outranked-a-council` `text` ("Long before Damasus built in stone") and Jerome's notice of his verses; no record describes inscriptions at the martyrs' graves.
 
 **Open:**
-- The card's recordings of the main story and of the ten tellings are not yet made.
+- The main story and the ten tellings were recorded on 2026-10-17 after the project lead approved a sample by ear: 12039 characters, 5837 credits, settings from the world's own manifest entry. The story runs 3:57. Closed.
 - The package change makes the next promotion's admission stale. The project lead rules on that run.
 
 Status: OPEN.
