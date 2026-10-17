@@ -5803,3 +5803,21 @@ phone widths with the card open. The app's cards are covered by component tests.
 
 Mark reviews the draft pull request and the privacy paragraph. On merge: name the weekly
 owner of the queue, and write the first Corrections entry when the first flag closes.
+
+## 2026-10-17 — Past conversations wait for accounts; the team's test sessions leave the counts
+
+**Past conversations.** Today a conversation lives in its browser tab: a reload brings it
+back, closing the tab loses the way back, though the server keeps it 90 days for review.
+Mark weighed three ways to let a person return to earlier conversations: a list kept only
+on their device, a private save-this-conversation link, or accounts. **Decision (Mark):
+wait for accounts.** Nothing is built for it in the pilot. When accounts are designed, they
+carry the conversation list, sign-in, and the privacy rewrite that linking conversations to
+a person requires (identity, deletion, retention, what the team can see).
+
+**The team's own test sessions.** The admin dashboard counted Mark's testing as visitors.
+The engine stores no IP addresses, and the app runs in an iframe on the site, so the
+visitor cookie cannot reliably tell the team apart. **Decision (Mark):** a private link,
+`talk.html?ours=1`, marks a browser as the team's; its new sessions carry `internal: true`
+and the dashboard leaves them out of people, time, sessions and the questions list, and
+says how many it left out. Cost still counts every call. It works from the day it ships;
+earlier sessions cannot be sorted, so the dashboard's range starts at launch day.
