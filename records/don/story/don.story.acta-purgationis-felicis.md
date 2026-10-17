@@ -80,7 +80,7 @@ text: >-
   denied that he had been to Numidia. With the forgery exposed, the case
   against Felix collapsed. The proconsul ruled that nothing had been
   proved against Felix, and cleared him.
-telling: "The whole split rests on one charge against Felix, the bishop of Aptungi who had made Caecilian bishop of Carthage. Our side said Felix had handed over the scriptures in the persecution. If that was true, he had no right to make anyone a bishop, and Caecilian's office was void from its first day.\n\nThe emperor Constantine ordered the charge looked into, and the proconsul Aelianus heard witnesses on the record. At the center of the case was a letter to Felix from a magistrate named Caecilianus. Its closing lines seemed to prove the charge, but Caecilianus said he had never dictated them.\n\nA town councillor named Ingentius was questioned, and under the threat of torture he broke. He admitted that he had added to the letter himself, out of grief over Maurus, his guest. A counsel named Apronianus charged that he had travelled through Numidia and Mauritania as our party's agent. Ingentius denied that he had been to Numidia. The proconsul ruled that nothing had been proved against Felix, and he cleared him.\n\nThis record survives because Optatus, who wrote against us, kept it with his other documents. The confession came under threat of torture, and that is a real reason to hold it loosely. Even so, the inquiry did not find in our favor. Our tradition said instead that the wider dispute took in far more people than one case could settle. No account of this inquiry from our own side survives."
+telling: "At the center of the case lay a letter to Felix, the bishop of Aptungi who had made Caecilian bishop of Carthage. Our side said Felix had handed over the scriptures in the persecution. If that was true, he had no right to make anyone a bishop, and Caecilian's office was void from its first day. The letter's closing lines seemed to prove it.\n\nThe emperor Constantine ordered the charge looked into, and the proconsul Aelianus heard named witnesses on the record. Their words survive in the dossier of documents Optatus kept. The letter came from a magistrate, Caecilianus. He told the court he had never dictated its closing lines.\n\nThen a town official named Ingentius was questioned. Under the threat of torture, he broke. He admitted that he had added to the letter himself, out of grief over Maurus, his guest. A counsel named Apronianus charged that he had travelled through Numidia and Mauritania as our party's agent. Ingentius denied that he had been to Numidia.\n\nThe proconsul ruled that nothing had been proved against Felix, and he cleared him."
 absent_detail: Nothing survives of what Felix himself said, or of what Ingentius said before the threat
   was made. No account of this inquiry from our own side exists at all - not a defence of the accusation,
   not a challenge to the proceeding, not an explanation of who sent Ingentius or on whose authority.
@@ -102,22 +102,3 @@ use_note:
   years: {from: 314, to: 315}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory006_acta-
-purgationis-felicis.md (Doc_09 story index row donstory006, Tier 1),
-whose narrative text is carried forward rather than re-derived.
-
-THE UNFAVOURABLE FINDING IS THE POINT OF KEEPING THIS RECORD. Doc_09
-leaves standing (L2) the chunk's own handling of Ingentius's
-torture threat; this record keeps it and adds it to modern_contrast,
-where a modern reader's first objection belongs. The story must not be
-retrieved defensively. A Representative asked directly how strong the
-case against Felix was should reach this record and say what it found.
-
-TWO NAMED FELIXES - see don.story.lucilla-affair's own body note and
-don.figure.felix-of-aptungi. The deacon Felix who hides in Mensurius's
-house in the Lucilla story is a different man entirely.
-
-TWO NAMED CAECILIANS, ALSO IN THIS STORY. Alfius Caecilianus, the first
-deponent named above, is not Caecilian of Carthage, the bishop whose
-consecration is what the inquiry is about. The transcript names both
-within a few lines of each other.

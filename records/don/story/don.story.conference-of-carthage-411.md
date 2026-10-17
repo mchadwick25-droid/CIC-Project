@@ -152,7 +152,7 @@ text: >-
   reserved. He put his name to the notary's account of his own words and
   refused, in the same stroke, to accept the proceeding they were being
   recorded for.
-telling: "What survives of this meeting is a court record, taken down by imperial notaries. In the summer of 411 the emperor ordered our whole quarrel settled at law. He sent Flavius Marcellinus, a tribune and notary, to Carthage to judge it. Our bishops came, and the roll of their mandates was read out name by name.\n\nMarcellinus offered our bishops chairs, because it weighed on him to sit while so many venerable men stood. Petilian thanked him and refused. Christ himself had stood before his governor, he said, so how could we refuse to stand? Our bishops stood for three days.\n\nEmeritus of Caesarea carried our argument, and he held the court to its procedure before its substance. The other side claimed the name Catholic, and Petilian answered that the name meant nothing until the case was decided. Marcellinus agreed that the name belonged to whichever side the truth was found with. Then he said he was bound by the emperor's written order, which had already given them that name.\n\nOn the third day the argument reached Scripture, and Augustine argued from the wheat and the weeds that the church holds good and bad together. Emeritus answered him verse for verse from the same books. He signed the record of his words again and again with his appeal reserved. The verdict is not in what we have, because the acts break off before any sentence is given."
+telling: "The judge sat, and our bishops stood. Flavius Marcellinus offered them chairs, and said it weighed on him to sit while so many venerable men stood. Petilian thanked him and refused. We do not blush and we do not fear, he said. Christ himself stood before the governor, so how could we refuse to stand? Our bishops stood for three days.\n\nThis was Carthage in the summer of 411. The emperor had ordered our whole quarrel settled at law, and imperial notaries took down what was said.\n\nEmeritus of Caesarea carried our argument. He would not let the court touch the case itself until it had settled the day, the mandates and who was bringing the charge. When the other side claimed the name Catholic, Petilian answered that it meant nothing until the case was decided. Marcellinus agreed that the name belonged to whichever side the truth was found with. Then he said he was bound by the emperor's written order, which had already given them that name.\n\nOn the third day Augustine argued from the wheat and the weeds that the church holds good and bad together. Emeritus answered him verse for verse from the same books. He signed the notary's record of most of what he said. At times he added that he kept his right to appeal.\n\nIn the end Marcellinus ruled against us, though the acts we have break off before his sentence."
 absent_detail: The verdict is not here. In the printing read for this record the numbered acts break off
   before any sentence is pronounced, and what follows is a later editor's own narrative history of the
   conference, not the court's own words. Nothing survives of what our bishops said to one another between
@@ -176,71 +176,3 @@ use_note:
   years: {from: 411, to: 411}
   status: reviewed
 ---
-NEW AT B-4: this is the one story in this world's inventory that Doc_09
-did not build. Doc_09 Section 8 item 2 names it as an Absent Story and
-states exactly why it was absent - not because the source could not be
-found, but because the vendored transcript had not been read. Registry
-row 14's own "confirmed unavailable in the public domain"
-determination was made without working network access; a full Migne
-Patrologia Latina printing has since been located and vendored as
-Registry row 55. Doc_02 Section 9 item 1a(i) then named
-a systematic reading of the Donatist bishops' recorded interventions as
-real, substantive future work. This record is that reading, performed
-directly against cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_
-migne.txt at the line ranges enumerated in the sources[] block above.
-
-WHAT WAS ACTUALLY READ, STATED PRECISELY. Roughly nineteen hundred lines
-of a 144,733-line volume, located by direct search on the speakers' own
-names and then read in continuous blocks around each hit. Every named
-element of the story text above sits inside one of those blocks. The
-transcript was NOT read in full and this record does not summarize
-material it did not open. Two things that a confident secondary
-paraphrase would supply are therefore withheld here: the verdict, and
-the third day's closing proceedings, neither of which appears in the
-numbered acts read.
-
-THE TWO BISHOP-COUNTS. Doc_02 Section 1 corrected this world's long-
-standing "284 Donatist against 286 Catholic" figure to 279 against 286,
-citing line 73363 of the vendored file, and that line was re-read
-directly for this record and confirmed: "...licis 286, et ex
-Donatistarum parte 279." But that line sits in the volume's own
-editorial summary, not in the acts. The acts' own roll-call, read at
-lines 124975-125010, has the scribe report the Catholic subscription
-tally as two hundred and sixty-six, with twenty more bishops present who
-said they had not yet subscribed - which, if the twenty are added, lands
-close to but not on 286. The two numbers are counting different things
-at different moments and neither is treated here as correcting the
-other; the story text uses the 279/286 figure that this world's own
-documents already carry, and the divergence_note records the roll-call
-tally beside it rather than quietly dropping it.
-
-HOMONYM CARE (don.core.donatism cautions item 7, plus one more this
-reading found). The Marcellinus who presides here is Flavius
-Marcellinus, the imperial tribune and notary of 411 - NOT the tribune
-Marcellinus named alongside Leontius and Ursatius in the Passio Donati
-sermon, a different man at a different persecution roughly a century
-earlier (see don.story.passio-donati-sermon and don.figure.marcellinus).
-The Optatus named in the transcript's Catholic ranks is likewise not
-Optatus of Milevis. Emeritus's own later dialogue with Augustine at
-Caesarea in 418, the Gesta cum Emerito, is a different work from this
-Collatio and was neither vendored nor read.
-
-LATIN RENDERINGS. Every phrase given in English above was read against
-the Latin in the vendored scan: "Tibi enim, judicum verissime, nihil
-aliud incumbit quam tenere veritatem"; "judica, vir sublimis, in negotio
-Christiano: quia huic causae judicat Deus"; "magno argumento veritas
-occultatur"; "A personis incipit omnis causa"; "Accusatoris loco stare
-voluisti"; "Mandavi et subscripsi"; "Traditores vero in plebe mea et
-omni dioecesi mea non habeo"; "Ipse sibi obstrepit, dum longa
-prosequitur"; "Emeritus episcopus salva appellatione recognovi". None is
-offered as a certified translation - the same discipline donstory001 and
-donstory003 already applied to their own short Latin renderings - and
-the OCR caution above governs all of them.
-
-FEC / GRAVITY LINKAGE (parked for a later step, following the precedent
-set in the cappadocian story records): this story is the terminal
-instance of G4 (parallel institutional hierarchy) meeting G5 and Doc_08
-Cell 3A - the imperial-legal resolution acting directly on that
-hierarchy - and it is T1 (principled refusal against pragmatic recourse
-to imperial power) at its sharpest, since our own bishops both denied
-the court's standing and argued inside it for three days.
