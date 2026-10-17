@@ -40,9 +40,7 @@ skim:
 orientation:
   story:
   - text: >-
-      This story runs from 1517 to 1580 and begins at Wittenberg, where Martin
-      Luther taught at the university. The sources run deepest to about 1531 and
-      thin sharply after that. The years after Luther's death reach us only through a book of 1580.
+      From 1517 to 1580, a reform grew out of Wittenberg. Martin Luther taught there at the university.
     grounded_in: [witt.core.witt, witt.story.letter-to-albrecht-and-theses-circulation]
   - text: >-
       At the heart of this tradition sits a frightened conscience. The commandments teach a person to despair of his own powers, and then
@@ -53,18 +51,18 @@ orientation:
       church gives no explanation of how.
     grounded_in: [witt.gravity.terrified-and-comforted-conscience, witt.gravity.justified-by-faith-alone, witt.gravity.promise-and-sign, witt.term.confession-and-absolution, witt.gravity.bodily-presence, witt.term.transubstantiation]
   - text: >-
-      On 31 October 1517 Luther, a friar who taught theology, wrote to Albrecht, the Archbishop of Mainz. Indulgences for building St. Peter's in Rome were being
-      preached under the archbishop's name, and Luther was troubled by what the
-      hearers now believed. He asked the archbishop to withdraw the instruction the preachers worked from. He sent ninety-five statements for debate with it, the Ninety-Five Theses. The letter asks for correction and says
-      nothing about a door or a hammer. That scene comes from a much later editor, and scholars dispute it.
+      On 31 October 1517 Luther, a friar, wrote to Albrecht, the Archbishop of Mainz. Preachers were offering indulgences in the archbishop's name, to help build St. Peter's in Rome. Luther was troubled by what their hearers now believed. He asked the archbishop to withdraw the instruction the preachers worked from. He sent ninety-five statements for debate with it, the Ninety-Five Theses.
     grounded_in: [witt.story.letter-to-albrecht-and-theses-circulation, witt.contested.theses-door-posting, witt.core.witt]
+  - text: >-
+      In 1518 Luther was summoned to Augsburg. By his own account, told years
+      later at his table, he knelt before Cardinal Cajetan. He would not say the
+      one word an Italian urged on him, Revoco, which means I recant.
+    grounded_in: [witt.story.augsburg-before-cajetan]
   - text: >-
       In 1521 Luther stood before the Emperor and the Electors at the Diet of
       Worms. Years afterward he told the story to his students at his own table.
       By his account, he would not take back his books of teaching. If he had been
-      too violent in his books against opponents, he was willing to be corrected. The next day he would accept instruction in everything except what touches Holy Scripture. The famous words "Here I stand" are absent from his own account.
-      They reach us only secondhand, in a nineteenth-century writer's translation.
-      A later hymn-book editor quoted that translation, and scholars dispute the words.
+      too violent in his books against opponents, he was willing to be corrected. The next day he would accept instruction in everything except what touches Holy Scripture.
     grounded_in: [witt.story.worms-1521]
   - text: >-
       The reform ran ahead of its founder. In March 1522 Luther left the
@@ -74,23 +72,28 @@ orientation:
       congregation he saw no signs of love among them.
     grounded_in: [witt.story.return-and-the-eight-sermons]
   - text: >-
+      On 1 July 1523 two young monks, John and Henry, were burned at Brussels
+      after they refused to give up their teaching. Within months Luther wrote a
+      ballad about them.
+    grounded_in: [witt.story.brussels-martyrs]
+  - text: >-
+      The reform also taught people in their own language. German hymns were sung
+      inside the Mass. Wittenberg's first hymn-book was printed in 1524 and held
+      eight hymns, four of them Luther's. Johann Walter later remembered Luther
+      keeping him three weeks at Wittenberg to set the Gospel and Epistle in
+      German, until the first German Mass was sung.
+    grounded_in: [witt.gravity.german-for-the-people, witt.story.speratus-hymn-under-the-window, witt.story.first-german-mass-sung]
+  - text: >-
       The reform's chief tool for forming people was a household catechism,
       written in 1529. Its three parts were the Ten Commandments, the Creed and
       the Lord's Prayer. A father was to question his children and servants at
-      least once a week. The young were to recite the parts daily and get neither
-      food nor drink until they could. That is the program as written, and no
-      source at hand shows any household keeping it.
-    grounded_in: [witt.gravity.household-catechism, witt.story.household-catechism-lesson-typical-practice]
+      least once a week. The young were to recite the parts daily and get neither food nor drink until they could. After each part came the question, what does this mean? At Luther's own table, a student remembered his wife, Katharina von Bora, asking why the old church prayed with such fervor and their own household so coldly.
+    grounded_in: [witt.gravity.household-catechism, witt.story.household-catechism-lesson-typical-practice, witt.term.what-does-this-mean, witt.story.household-and-kate-on-prayer]
   - text: >-
-      In 1530 the Emperor called a Diet to Augsburg. Melanchthon wrote the Augsburg Confession for it. An elector, several princes and the senates of two cities signed it, but Luther's name is not among them.
-      The year before, at Marburg, this church had broken with the cities that
-      read the Supper differently. The Confession rejected those who taught otherwise about it.
-    grounded_in: [witt.story.diet-of-augsburg-1530, witt.figure.melanchthon, witt.force.reformed-rival-by-absence, witt.gravity.bodily-presence, witt.core.witt]
+      In 1530 the Emperor called a Diet to Augsburg, to deal with the Turk and to hear the quarrels over religion. Melanchthon wrote the Augsburg Confession for it. An elector, several princes and the senates of two cities signed it. Luther's name is not among them. The Confession rejected those who taught otherwise about the Supper.
+    grounded_in: [witt.story.diet-of-augsburg-1530, witt.figure.melanchthon, witt.gravity.bodily-presence, witt.core.witt]
   - text: >-
-      Two parts of this history cannot be quoted. In 1525 Luther wrote
-      against the peasants' rising, and in 1543 he wrote a treatise against the
-      Jews. Both are real, and neither is denied, but neither text is among these
-      sources. Scholars disagree about the treatise's effect in later centuries.
+      In 1525 Luther wrote against the peasants' rising, and in 1543 he wrote a treatise against the Jews. Scholars disagree about that book's effect in later centuries.
     grounded_in: [witt.core.witt, witt.force.absent-inputs-1525-and-1555, witt.contested.1543-treatise-later-effect, witt.limit.record-thinnest, witt.force.parishes-state-as-reported]
   - text: >-
       Luther died in the mid-1540s. In 1580 a fuller book of confessions was
@@ -104,8 +107,7 @@ orientation:
     title: A Letter to an Archbishop
     when: 31 October 1517, Wittenberg
     teaser: >-
-      A friar wrote to the archbishop in whose name indulgences were being preached. He
-      asked for correction. The famous door and hammer come from a later editor, and Luther's letter never mentions them.
+      A friar wrote to the archbishop in whose name indulgences were being preached. He asked for correction and sent ninety-five statements for debate.
     grounded_in: [witt.story.letter-to-albrecht-and-theses-circulation, witt.contested.theses-door-posting]
   - story_id: witt.story.augsburg-before-cajetan
     title: Kneeling Before a Cardinal
@@ -118,7 +120,7 @@ orientation:
     when: 1521, Worms, as Luther told it years later at his table
     teaser: >-
       Luther told his students he went to Worms despite warnings. He said he would
-      accept correction in everything except what touches Scripture. The famous "Here I stand" is absent from his own account and comes only through a later translation.
+      accept correction in everything except what touches Scripture.
     grounded_in: [witt.story.worms-1521]
   - story_id: witt.story.return-and-the-eight-sermons
     title: Eight Days of Preaching
@@ -152,7 +154,7 @@ orientation:
     when: 1529, as the catechisms prescribed
     teaser: >-
       A father was to question his children and servants every week. The young were to
-      get no food or drink until they could say the parts. No source at hand shows any household doing this.
+      get no food or drink until they could say the parts.
     grounded_in: [witt.story.household-catechism-lesson-typical-practice]
   - story_id: witt.story.diet-of-augsburg-1530
     title: A Confession Signed by Princes
@@ -314,7 +316,7 @@ orientation:
   - phrase: "at his own table"
     label: "Table Talk"
     kind: term
-    note: "Sayings of Luther that his students wrote down at his table. Named editors gathered and edited the notes after his death, and some passed through several hands."
+    note: "Sayings of Luther that his students wrote down at his table."
     grounded_in: [witt.story.worms-1521, witt.story.augsburg-before-cajetan, witt.story.household-and-kate-on-prayer]
   - phrase: "Diet of Worms"
     kind: council
@@ -348,7 +350,7 @@ orientation:
     grounded_in: [witt.term.sacrament-of-the-altar, witt.gravity.bodily-presence]
   - phrase: "conscience"
     kind: term
-    note: "The inner court where this teaching plays out. The Law terrifies it, and God's promise comforts it."
+    note: "The Law terrifies it, and God's promise comforts it."
     grounded_in: [witt.term.conscience]
   - phrase: "Melanchthon"
     kind: person
@@ -369,10 +371,6 @@ orientation:
     url: https://pleiades.stoa.org/places/118580
     verified_on: "2026-10-17"
     grounded_in: [witt.story.diet-of-augsburg-1530, witt.story.augsburg-before-cajetan]
-  - phrase: "Marburg"
-    kind: place
-    note: "Where this church broke with the cities that read the Supper differently, in 1529."
-    grounded_in: [witt.force.reformed-rival-by-absence, witt.core.witt]
   - phrase: "Book of Concord"
     kind: term
     note: "A book of confessions gathered in 1580. It joined the catechisms and the confession of 1530 in one book."
@@ -388,7 +386,7 @@ orientation:
     grounded_in: [witt.figure.katharina-von-bora]
   - phrase: "Johann Walter"
     kind: person
-    note: "Luther's collaborator in music. His letter in old age is the one account of Wittenberg's worship that does not come from Luther."
+    note: "Luther's partner in music. He helped Luther set the German Mass to music at Wittenberg."
     grounded_in: [witt.figure.johann-walter]
   - phrase: "Paul Speratus"
     kind: person
