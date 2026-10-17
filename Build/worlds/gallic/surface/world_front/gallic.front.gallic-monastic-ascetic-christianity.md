@@ -19,33 +19,31 @@ skim:
     text: >-
       Between about 360 and 450 CE, two households of monks in Roman
       Gaul lived out the same idea. In both, a monk who was made a
-      bishop went on living as a monk. In the Loire valley, a soldier
-      named Martin left the army to serve Christ. He gathered monks
-      around him, and the people of Tours drew him out of his
-      monastery by a trick and made him their bishop. As bishop, he
-      kept living like a monk. In the years after his death, other
-      monks built houses on Lérins, an island off the Mediterranean
-      coast, and in the city of Marseilles. No evidence shows that the
-      two households ever wrote to each other. One of the southern
-      monks, John Cassian, had lived among the monks of Egypt. He
-      wrote down their teaching for Gaul, changing it only where
-      Gaul's climate or habits made it too hard. He also wrote down a
-      question that troubled him and his friend at prayer. It asked
-      how much of a monk's progress is God's gift and how much his own
-      effort. Another monk, Vincent of Lérins, wrote a short rule for
-      telling true growth in the faith from a corruption dressed up as
-      one.
+      bishop went on living as a monk. In the Loire valley, the first
+      household grew around Martin, a soldier who had left the army to
+      serve Christ. The people of Tours drew him out of his monastery
+      by a trick and made him their bishop. As bishop, he kept living
+      like a monk. In the years after his death, other monks built
+      houses on Lérins, an island off the Mediterranean coast, and in
+      the city of Marseilles. No evidence shows that the two
+      households ever wrote to each other. One of the southern monks,
+      John Cassian, had lived among the monks of Egypt. He wrote down
+      their teaching for Gaul, changing it only where Gaul's climate
+      or habits made it too hard. He also wrote down a question that
+      troubled him and his friend at prayer. It asked how much of a
+      monk's progress is God's gift and how much his own effort.
+      Another monk, Vincent of Lérins, wrote a short rule for telling
+      true growth in the faith from a corruption dressed up as one.
     grounded_in: [gallic.core.gallic, gallic.gravity.monk-bishop, gallic.figure.martin, gallic.story.election-at-tours, gallic.figure.cassian, gallic.quote.cassian-adapts-egypt-to-gaul, gallic.story.germanus-scruple-at-morning-service, gallic.figure.vincent]
 orientation:
   story:
   - text: >-
       In Roman Gaul, between about 360 and 450 CE, two households of
       monks lived out the same idea. In both, a monk who was made a
-      bishop went on living as a monk. One grew up in the Loire
-      valley, around the town of Tours. The other grew up on Lérins, a
-      small island off the Mediterranean coast, and in the city of
-      Marseilles. No evidence shows that the two ever wrote to each
-      other.
+      bishop went on living as a monk. One grew up around Tours, in
+      the Loire valley. The other grew up on Lérins, a small island
+      off the Mediterranean coast, and in the city of Marseilles. No
+      evidence shows that the two ever wrote to each other.
     grounded_in: [gallic.core.gallic, gallic.gravity.monk-bishop]
   - text: >-
       The northern household began with a soldier named Martin. Before
@@ -56,17 +54,17 @@ orientation:
       and many of the monks he trained were later made bishops.
     grounded_in: [gallic.gravity.soldier-of-christ, gallic.story.discharge-before-caesar, gallic.figure.martin, gallic.gravity.monk-bishop, gallic.story.election-at-tours]
   - text: >-
-      In the years after Martin's death, a man named Honoratus took
-      his followers to Lérins. The island stood empty, because it was
-      filthy and no one went near it for fear of snakes. His disciple
-      Hilary preached that Honoratus went in unafraid, with a psalm on
-      his lips, and the snakes gave way. Honoratus had run from church
-      office, but on the island the priesthood caught up with him. In
+      After Martin's death, Honoratus took his followers to Lérins.
+      The island stood empty, because it was filthy and no one went
+      near it for fear of snakes. His disciple Hilary preached that
+      Honoratus went in unafraid, with a psalm on his lips, and the
+      snakes gave way. As far as Hilary's sermon can be read, the
+      priesthood he had run from caught up with him on the island. In
       time he became a bishop himself.
     grounded_in: [gallic.gravity.monk-bishop, gallic.story.honoratus-and-the-island, gallic.figure.honoratus, gallic.figure.martin]
   - text: >-
-      Both households measured themselves against the monks of Egypt,
-      in different ways. The south took Egypt's customs as a rule to
+      Both households measured themselves against Egypt's monks, in
+      different ways. The south took Egypt's customs as a rule to
       keep. John Cassian had lived among the Egyptian monks and
       brought their customs home to Gaul. He changed them only where
       Gaul's harsh climate or different habits made them impossible or
@@ -78,30 +76,31 @@ orientation:
       From the fathers of Egypt, the south received a goal called
       purity of heart, and fasting and night prayer were only aids
       toward it. The monk was kept on course by discretion, the
-      judgment that tells when a practice goes too far. The Egyptian
-      fathers called it the mother of all virtues. On Lérins, Vincent
-      wrote that the true faith is what has been believed everywhere,
-      always, by everyone.
+      judgment that keeps him between too much and too little. The
+      Egyptian fathers called it the mother of all virtues. On Lérins,
+      Vincent wrote that the true faith is what has been believed
+      everywhere, always, by everyone.
     grounded_in: [gallic.gravity.interior-road, gallic.term.purity-of-heart, gallic.term.discretion, gallic.gravity.received-not-invented, gallic.figure.vincent, gallic.quote.believed-everywhere-always-by-all]
   - text: >-
-      Cassian refused to tell stories of wonders. In Cassian's
+      In his Institutes, Cassian chose not to write up the wonders he
+      had seen, since they teach nothing about how to live. In his
       Conferences, an Egyptian elder says the fathers never counted a
       monk good if he showed off his power over demons. Tours told its
-      story through power instead. Sulpitius tells how Martin brought
-      a dead catechumen, a new believer not yet baptized, back to
-      life. He also tells how the devil once came to Martin dressed as
-      Christ. Martin refused him. He would believe only in a Christ
-      who bore the marks of his wounds.
+      story through power. Sulpitius tells how Martin brought a dead
+      catechumen, a new believer not yet baptized, back to life. He
+      also tells how the devil once came to Martin dressed as Christ.
+      Martin refused him. He would believe only in a Christ who bore
+      the marks of his wounds.
     grounded_in: [gallic.gravity.virtus, gallic.figure.cassian, gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles, gallic.quote.humility-mistress-of-virtues-not-exorcism, gallic.story.raising-of-the-catechumen, gallic.quote.martin-on-the-christ-with-wounds]
   - text: >-
       By Cassian's own account, the south's best-known argument began
       as a worry at prayer. In Egypt, an old man named Chaeremon told
-      Cassian and his friend Germanus that no one masters the good by
-      effort alone. When Germanus objected, Chaeremon answered with a
-      farmer. A farmer who never plows gets no crop, yet even the
-      hardest worker needs rain he cannot make. The wish to do good,
-      the old man said, comes first from God. That answer grew into a
-      whole Conference on grace and effort.
+      Cassian and Germanus that no one masters the good by effort
+      alone. When Germanus objected, Chaeremon answered with a farmer.
+      A farmer who never plows gets no crop, yet even the hardest
+      worker needs rain he cannot make. The wish to do good, the old
+      man said, comes first from God. That answer grew into a whole
+      Conference on grace and effort.
     grounded_in: [gallic.gravity.grace-and-effort, gallic.story.germanus-scruple-at-morning-service, gallic.contested.beginning-of-good-will]
   - text: >-
       At Tours, some bishops had opposed Martin's election. Later, at
@@ -113,14 +112,14 @@ orientation:
     grounded_in: [gallic.gravity.authority-ambivalence, gallic.story.election-at-tours, gallic.story.trier-and-the-ithacian-communion, gallic.figure.martin, gallic.quote.council-over-rashness-and-ignorance]
   - text: >-
       Almost everything known about Tours comes from Sulpitius
-      Severus, an Aquitanian who visited Martin there. He was not
-      present for most of what he tells, and says he learned it from
-      Martin and those who lived with him. Knowing his end was near,
-      Martin went to make peace among the quarreling clergy at
-      Condate. As he lay dying, his monks asked to put straw under
-      him. He kept to sackcloth and ashes, so as not to leave them a
-      different example. Almost two thousand monks, it is said, came
-      to his funeral.
+      Severus, who visited Martin there. He was not present for most
+      of what he tells, and says he learned it from Martin and those
+      who lived with him. Knowing his end was near, Martin went to
+      make peace among the quarreling clergy at Condate. As he lay
+      dying, his monks asked to put straw under him. He kept to
+      sackcloth and ashes, so as not to leave them a different
+      example. Almost two thousand monks, it is said, came to his
+      funeral.
     grounded_in: [gallic.gravity.named-example, gallic.figure.sulpitius, gallic.story.death-of-martin-at-condate]
   documented_stories:
   - story_id: gallic.story.the-cloak-at-amiens
@@ -146,7 +145,7 @@ orientation:
   - story_id: gallic.story.trier-and-the-ithacian-communion
     title: "Martin Yields Once, at the Emperor's Court"
     when: "After Priscillian was put to death, while Maximus ruled at Trier; the text gives no year"
-    teaser: "To save lives, a bishop takes communion with men he had refused. He also stops officers from being sent to hunt heretics in Spain. He never fully forgives himself."
+    teaser: "To save lives, a bishop takes communion with men he had refused. In return, the officers sent to hunt heretics in Spain are called back. He never fully forgives himself."
     grounded_in: [gallic.story.trier-and-the-ithacian-communion, gallic.figure.martin]
   - story_id: gallic.story.brictio-in-the-courtyard
     title: "If Christ Bore with Judas"
@@ -171,20 +170,20 @@ orientation:
   - story_id: gallic.story.honoratus-and-the-island
     title: "Honoratus and the Island of Snakes"
     when: "Told in a funeral sermon by his successor at Arles; the text gives no year"
-    teaser: "A founder walks unafraid onto an island shunned for its filth and snakes, a psalm on his lips. The snakes give way. Then, his disciple says, the priesthood he had run from catches up with him there."
+    teaser: "A founder walks unafraid onto an island shunned for its filth and snakes, a psalm on his lips. The snakes give way. Then, as far as his disciple's sermon can be read, the priesthood he had run from catches up with him there."
     grounded_in: [gallic.story.honoratus-and-the-island, gallic.figure.honoratus]
   voices:
   - figure: gallic.figure.martin
     text: >-
       Martin left the army to serve Christ, telling his commander it
       was not lawful for him to fight. Sulpitius says he could not
-      easily be drawn out of his monastery, so the people of Tours
-      made him their bishop by a trick. As bishop, he kept living like
-      a monk, with his brothers two miles outside the city. Sulpitius
-      tells of him healing the sick and raising the dead. Martin felt
-      that power weaken after he once took communion with bishops he
-      had refused, to save lives. After that he stayed away from every
-      gathering of bishops.
+      easily be drawn out of his monastery. The people of Tours drew
+      him out by a trick and made him their bishop. As bishop, he kept
+      living like a monk, with his brothers two miles outside the
+      city. Sulpitius tells of him healing the sick and raising the
+      dead. Martin felt that power weaken after he once took communion
+      with bishops he had refused, to save lives. After that he stayed
+      away from every gathering of bishops.
     grounded_in: [gallic.figure.martin, gallic.story.discharge-before-caesar, gallic.story.election-at-tours, gallic.core.gallic, gallic.gravity.virtus, gallic.story.trier-and-the-ithacian-communion]
     hedge: >-
       Almost everything we tell of Martin comes from one writer,
@@ -195,12 +194,12 @@ orientation:
     text: >-
       Cassian lived among the monks of Egypt as a young man. Later he
       founded two houses at Marseilles, one for men and one for women.
-      He wrote down what the Egyptian fathers taught, and on principle
-      he told no stories of wonders. From them he passed on purity of
-      heart as the monk's goal and discretion as his guide. He listed
-      eight faults for a monk to fight in turn. And he wrote down how
-      a question about grace and effort troubled his friend Germanus
-      and him at morning prayer.
+      He wrote down what the Egyptian fathers taught, and in his
+      Institutes he chose not to write up the wonders he had seen.
+      From them he passed on purity of heart as the monk's goal and
+      discretion as his guide. He listed eight faults for a monk to
+      fight in turn. And he wrote down how a question about grace and
+      effort troubled his friend Germanus and him at morning prayer.
     grounded_in: [gallic.figure.cassian, gallic.gravity.interior-road, gallic.gravity.grace-and-effort, gallic.story.germanus-scruple-at-morning-service]
     hedge: >-
       Cassian never mentions Martin. No story we have shows a monk of
@@ -213,14 +212,15 @@ orientation:
       because it was filthy and no one went near it for fear of
       snakes. His disciple Hilary says he went in unafraid, with a
       psalm on his lips, and set up a camp of God there. He had run
-      from church office, but on the island the priesthood caught up
-      with him. In time he became a bishop.
+      from church office, but on the island, as far as the sermon can
+      be read, the priesthood caught up with him. In time he became a
+      bishop.
     grounded_in: [gallic.figure.honoratus, gallic.story.honoratus-and-the-island]
     hedge: >-
-      All we can tell of our founder comes from the funeral sermon his
-      disciple Hilary preached. It tells how he came to the island and
-      was made a priest there. Of our days on the island in between,
-      it says nothing.
+      Almost all we can tell of our founder comes from part of
+      Hilary's funeral sermon. Its Latin is hard to read. It tells how
+      he came to the island and was made a priest there. What he or
+      anyone did on the island in between, we cannot tell you.
   - figure: gallic.figure.sulpitius
     text: >-
       Sulpitius Severus came from Aquitaine, from a leading family by
@@ -268,19 +268,20 @@ orientation:
     text: >-
       Most of what survives is one man's account of another. Sulpitius
       Severus wrote about Martin, and Cassian wrote down what Egypt's
-      monks taught him. Both households left much writing on virtue
-      and on the saint's power, and little on daily life. Nothing
-      survives of the island's daily life, and the books from Tours do
-      not say what the brothers sang or when. Both houses kept
-      communities of women, yet no woman's own words survive.
-      Cassian's English translator also left out three of his texts on
-      the body and its discipline.
+      monks taught him. Both households wrote much about virtue. Tours
+      also wrote of Martin's power, while Cassian set down Egypt's
+      customs more than the days of his own houses. The island's daily
+      life is known least of all, and the books from Tours do not say
+      what the brothers sang or when. Both houses kept communities of
+      women, yet no woman's own words survive. Cassian's English
+      translator also left out three of his texts on the body and its
+      discipline.
     grounded_in: [gallic.core.gallic, gallic.limit.only-on-paper, gallic.figure.cassian]
   read_first:
   - source: gallic.source.sulpitius-vita-martini
     note: "Martin's life from soldier to bishop, by a man who knew him and heard the stories from Martin and his brothers."
   - source: gallic.source.cassian-institutes
-    note: "Egypt's customs, set down for a new house in Gaul and changed only where its climate or habits made them too hard."
+    note: "Egypt's customs, set down for a new house in Gaul and changed only where Gaul's climate or habits made them too hard."
   - source: gallic.source.vincent-commonitory
     note: "A short book written as a rule for telling true growth in the faith from a corruption dressed up as one."
   highlights:
@@ -304,11 +305,11 @@ orientation:
   - phrase: "a traveler just back from Egypt"
     label: "Postumianus"
     kind: person
-    note: "This is Postumianus, who speaks in the Dialogues of Sulpitius. Sulpitius wrote his praise of Martin."
+    note: "This is Postumianus, a speaker in the Dialogues. Sulpitius wrote the words of praise he says about Martin."
     grounded_in: [gallic.contested.egypt-two-measures, gallic.quote.postumianus-you-have-conquered-all-the-eremites, gallic.force.egyptian-standard]
   - phrase: "Chaeremon"
     kind: person
-    note: "An old man whose cell stood near Panephysis in Egypt. Cassian wrote down his words decades later in Gaul, setting out in his own composition what he had heard."
+    note: "An old man whose cell stood near Panephysis in Egypt. Cassian wrote down his words years later in Gaul, setting out in his own composition what he had heard."
     grounded_in: [gallic.story.germanus-scruple-at-morning-service, gallic.figure.cassian]
   - phrase: "synod"
     kind: term
@@ -398,9 +399,10 @@ narrative:
       his monastery to be made a bishop. Sulpitius Severus admired him
       and wrote almost everything known about him, much of it from
       what Martin and his brothers told him. Cassian lived among
-      Egypt's monks and carried their teaching to Marseilles, though
-      he refused to write of wonders. Honoratus founded a community on
-      an island of snakes, and there the priesthood he had fled caught
+      Egypt's monks and carried their teaching to Marseilles. In his
+      Institutes he chose not to write of wonders. Honoratus founded a
+      community on an island of snakes. There, as far as his
+      disciple's sermon can be read, the priesthood he had fled caught
       up with him.
     figures: [gallic.figure.martin, gallic.figure.sulpitius, gallic.figure.cassian, gallic.figure.honoratus]
   quiet: gallic.limit.only-on-paper
