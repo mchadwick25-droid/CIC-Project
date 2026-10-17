@@ -21,10 +21,12 @@ interface ChatInputProps {
   turns?: ConversationTurn[];
   // Shown beside "Leave for now", under the box.
   endExtra?: ReactNode;
+  // Text already in the box when it first appears.
+  initialMessage?: string;
 }
 
-export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns = [], endExtra }: ChatInputProps) {
-  const [message, setMessage] = useState('');
+export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns = [], endExtra, initialMessage = '' }: ChatInputProps) {
+  const [message, setMessage] = useState(initialMessage);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const askAgainRef = useRef<HTMLButtonElement>(null);
   const { pending, submit, confirm, decline } = useAskAgain(turns, onSend);
