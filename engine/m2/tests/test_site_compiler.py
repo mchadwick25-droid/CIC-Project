@@ -8,6 +8,8 @@ import json
 
 from engine.m2.site_compiler import compile_world_front
 
+CHECKED_ON = "2026-10-16"
+
 STORY = {
     "id": "fix.story.the-long-road",
     "record_type": "story",
@@ -160,6 +162,29 @@ def test_documented_story_pulls_its_own_curated_fields_and_the_story_records_tel
     assert "text" not in entry
     assert entry["confidence"] == "Widely Accepted"
     assert STORY["text"] not in json.dumps(out)
+
+
+def test_documented_story_carries_the_story_records_telling_and_never_its_text():
+    out = _compile()
+    assert out["orientation"]["documented_stories"][0]["telling"] is None
+    told = {**STORY, "telling": "The story told in plain modern English."}
+    payload = compile_world_front(WORLD_FRONT, {**RECORDS, STORY["id"]: told}, {}, compiler_version="v", records_commit="c")
+    entry = json.loads(payload)["orientation"]["documented_stories"][0]
+    assert entry["telling"] == told["telling"]
+    assert STORY["text"] not in payload.decode("utf-8")
+
+
+def test_highlights_pass_through_with_their_grounding_or_link_but_not_the_check_date():
+    highlights = [
+        {"phrase": "the elder", "kind": "person", "note": "Who the elder was.", "grounded_in": [STORY["id"]]},
+        {"phrase": "Cirta", "kind": "place", "note": "Today Constantine.", "url": "https://pleiades.stoa.org/places/1", "verified_on": CHECKED_ON},
+    ]
+    world_front = {**WORLD_FRONT, "orientation": {**WORLD_FRONT["orientation"], "highlights": highlights}}
+    payload = compile_world_front(world_front, RECORDS, {}, compiler_version="v", records_commit="c")
+    emitted = json.loads(payload)["orientation"]["highlights"]
+    assert emitted[0] == highlights[0]
+    assert emitted[1] == {k: v for k, v in highlights[1].items() if k != "verified_on"}
+    assert _compile()["orientation"]["highlights"] == []
 
 
 def test_floor_note_mode3_unit_resolves_from_into_grounded_in():
