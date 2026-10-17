@@ -876,3 +876,11 @@ Fixed: the tile now says no one held a bishop's office (not any church office), 
 Status: CLOSED for this review.
 
 The same two claims in the census copy (`cic-website/data/world-census.json`, `index.html`, `atlas-v3.html` and the tradition page) were corrected in the recheck: Marcella's standing is now attributed to Jerome.
+
+## OG-27. Unclear honest-limit endings, 2026-10-17.
+
+Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put the object first and ended on a bare verb, so the ending did not say what is unknown. Each now puts the subject first and ends on what is not known. Wording and facts are the records' own; nothing was added.
+
+- `records/hal/story/hal.story.day-at-monastery.md`: "Which psalms they sang, and how the two houses shared their worship, no one wrote down, or nothing that was written survived." -> "Either no one wrote down which psalms they sang and how the two houses shared their worship, or nothing that was written survived."
+
+Status: CLOSED for this review.
