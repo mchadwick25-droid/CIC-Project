@@ -39,6 +39,8 @@ interface ConversationProps {
   onEnd: () => void;
   onRestart: () => void;
   onDelete?: () => Promise<void>;
+  // A question brought in from the site, waiting in the box until sent.
+  carriedQuestion?: string;
 }
 
 // How far below the top of the transcript a just-asked question comes to rest.
@@ -48,7 +50,7 @@ function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
 
-export function Conversation({ world, turns, streamed = [], sessionId = null, sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart, onDelete }: ConversationProps) {
+export function Conversation({ world, turns, streamed = [], sessionId = null, sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart, onDelete, carriedQuestion = '' }: ConversationProps) {
   const [deleted, setDeleted] = useState(false);
   const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
@@ -66,6 +68,8 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
   const started = participantTurns > 0;
   const lastAsked = turns.map((t) => t.speaker).lastIndexOf('participant');
   const replyBegun = Boolean(reply);
+  // Loading also covers the room opening; only a sent question awaits a reply.
+  const awaitingReply = isLoading && turns.length > 0 && turns[turns.length - 1].speaker === 'participant';
 
   // Room under the newest exchange, so its question can reach the top of the
   // transcript; it shrinks as the reply fills the screen.
@@ -212,7 +216,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
         {started && <div className="conversation__room" ref={roomRef} aria-hidden="true" />}
       </div>
 
-      {isLoading && !closed && !reply && (
+      {awaitingReply && !closed && !reply && (
         <p className="waiting-note sans" role="status">
           {world.representativeName} is considering
           <span className="typing-dots" aria-hidden="true">
@@ -270,7 +274,9 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
             turns={turns}
             onEnd={onEnd}
             disabled={isLoading}
+            sending={awaitingReply}
             placeholder={`Ask ${world.representativeName} anything…`}
+            initialMessage={started ? '' : carriedQuestion}
             endExtra={started ? <ExperienceFeedbackButton open={feedbackOpen} onToggle={() => setFeedbackOpen((o) => !o)} /> : undefined}
           />
         </>

@@ -21,10 +21,14 @@ interface ChatInputProps {
   turns?: ConversationTurn[];
   // Shown beside "Leave for now", under the box.
   endExtra?: ReactNode;
+  // Text already in the box when it first appears.
+  initialMessage?: string;
+  // A sent message is waiting for its reply; without it, a disabled box reads as sending.
+  sending?: boolean;
 }
 
-export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns = [], endExtra }: ChatInputProps) {
-  const [message, setMessage] = useState('');
+export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns = [], endExtra, initialMessage = '', sending = disabled }: ChatInputProps) {
+  const [message, setMessage] = useState(initialMessage);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const askAgainRef = useRef<HTMLButtonElement>(null);
   const { pending, submit, confirm, decline } = useAskAgain(turns, onSend);
@@ -99,7 +103,7 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns 
           rows={1}
         />
         <button type="submit" disabled={disabled || !message.trim()}>
-          {disabled ? 'Sending…' : 'Send'}
+          {sending ? 'Sending…' : 'Send'}
         </button>
       </form>
       {pending !== null && (
