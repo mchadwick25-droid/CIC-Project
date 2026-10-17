@@ -362,11 +362,12 @@
  "donatism": {
   "story": {
    "file": "donatism/story.mp3",
-   "chars": 11177,
+   "chars": 3850,
    "voiceId": "vKnhz1CSirDNQVFqLbul",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
@@ -376,11 +377,12 @@
   },
   "docstory-don.story.gesta-apud-zenophilum": {
    "file": "donatism/docstory-don.story.gesta-apud-zenophilum.mp3",
-   "chars": 2695,
+   "chars": 1237,
    "voiceId": "vKnhz1CSirDNQVFqLbul",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
@@ -390,11 +392,12 @@
   },
   "docstory-don.story.bagai-reconciliation": {
    "file": "donatism/docstory-don.story.bagai-reconciliation.mp3",
-   "chars": 1803,
+   "chars": 1240,
    "voiceId": "vKnhz1CSirDNQVFqLbul",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
@@ -404,11 +407,12 @@
   },
   "docstory-don.story.conference-of-carthage-411": {
    "file": "donatism/docstory-don.story.conference-of-carthage-411.mp3",
-   "chars": 4246,
+   "chars": 1355,
    "voiceId": "vKnhz1CSirDNQVFqLbul",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
@@ -423,6 +427,96 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-don.story.council-of-cirta": {
+   "file": "donatism/docstory-don.story.council-of-cirta.mp3",
+   "chars": 1382,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-don.story.lucilla-affair": {
+   "file": "donatism/docstory-don.story.lucilla-affair.mp3",
+   "chars": 1418,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-don.story.acta-purgationis-felicis": {
+   "file": "donatism/docstory-don.story.acta-purgationis-felicis.mp3",
+   "chars": 1406,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-don.story.passio-marculi": {
+   "file": "donatism/docstory-don.story.passio-marculi.mp3",
+   "chars": 1191,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-don.story.macrobius-letter": {
+   "file": "donatism/docstory-don.story.macrobius-letter.mp3",
+   "chars": 1403,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-don.story.tyconius-condemnation": {
+   "file": "donatism/docstory-don.story.tyconius-condemnation.mp3",
+   "chars": 1253,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
