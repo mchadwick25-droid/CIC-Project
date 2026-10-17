@@ -51,6 +51,7 @@ text: >-
   Numidian bishops about it. He did not order the buildings seized, and he did
   not send troops. He left the Donatists where they were, and he paid for
   another church to be built for the Catholics - again at his own expense. He also ordered that the Catholic lower clergy be freed again from forced public service. The Donatists had maneuvered them into it. In a dispute he had summoned two councils to settle, he in the end built a second church and let the matter rest.
+telling: "When Constantine stepped into the quarrel in Africa's church, he did what emperors do and called a hearing. The matter had already been heard at Rome. In 314 he sent Caecilian and his accusers to Arles, and the councils duly ruled against the Donatists.\n\nIt settled nothing. Sixteen years later, in 330, the Donatists still held basilicas that the Catholics said belonged to them. One of those buildings was a church that Constantine had built himself, for Catholic use.\n\nHe wrote to the bishops of Numidia about it, but he did not order the buildings seized, and he did not send troops. He left the Donatists where they were. Instead he paid for another church to be built for the Catholics, once again at his own expense.\n\nHe also ordered that the Catholic lower clergy be freed again from forced public service, which the Donatists had maneuvered them into."
 use_note:
   means: "In 330 Constantine left the Donatists holding a basilica he had built and paid for another for the Catholics rather than send soldiers."
   not_for:
