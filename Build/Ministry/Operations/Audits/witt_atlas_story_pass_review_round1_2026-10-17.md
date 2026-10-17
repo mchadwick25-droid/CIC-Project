@@ -35,7 +35,7 @@ Reviewers: Opus 5.5, site-editing thread, and independent Opus 5.5 subagents tha
 
 ## Left open
 
-- The recordings wait on the project lead's approval of a sample.
+- Recordings: the project lead approved a sample by ear; the story and ten tellings were then recorded (13733 characters, 6659 credits). The story runs 4:28.
 - The Speratus telling runs 92 words because its record is short; it is not padded.
 - Other world_front sections keep "this world" wording (Open_Gaps OG-75).
 

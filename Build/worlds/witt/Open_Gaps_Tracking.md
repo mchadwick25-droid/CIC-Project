@@ -2666,7 +2666,7 @@ The project lead asked for each built world's Atlas story to run four to five mi
 Cut from the story with no story record, so they have no card story; they stay in the records named: the 1520 bull and its forty-one articles (`witt.force.papal-force-initiating`); "what is free should never be made compulsory" and liberty turned on careless pastors (`witt.gravity.must-and-free`); the Mass kept with examination before the Supper (`witt.gravity.promise-and-sign`); the Confession as a loyal address answered by Rome and the Apology (`witt.dw.a-confession-answered-not-a-vote`); the Saxon visitation and ordinary people's thin record (`witt.limit.record-thinnest`). The old story's "young" university has no record.
 
 **Open:**
-- The card's recordings of the main story and of the ten tellings are not yet made.
+- The main story and the ten tellings were recorded on 2026-10-17 after the project lead approved a sample by ear: 13733 characters, 6659 credits, settings from the world's own manifest entry. The story runs 4:28. Closed.
 - The package change makes the next promotion's admission stale. The project lead rules on that run.
 
 Status: OPEN.
