@@ -290,8 +290,8 @@ export function renderQuestions(compiled, ctx) {
       if (!participantTurn) return "";
       const questionText = participantTurn.text;
       const from = (q.cite || []).map((c) => citeExcerpt(c, 160)).filter(Boolean).join(" &middot; ");
-      const href = `../talk.html?worlds=${encodeURIComponent(slug)}&mode=interview&from=traditions%2F${encodeURIComponent(slug)}.html`;
-      let li = `<li><a href="${href}" data-ask>${escapeHtml(questionText)}<span class="vh"> — ask ${escapeHtml(repName)}</span></a>`;
+      const href = `../talk.html?worlds=${encodeURIComponent(slug)}&mode=interview&from=traditions%2F${encodeURIComponent(slug)}.html#q=${encodeURIComponent(questionText)}`;
+      let li = `<li><a href="${escapeHtml(href)}" data-question>${escapeHtml(questionText)}<span class="vh"> — ask ${escapeHtml(repName)}</span></a>`;
       if (from) li += `<span class="from">${from}</span>`;
       li += "</li>";
       return li;

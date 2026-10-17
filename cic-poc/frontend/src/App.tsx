@@ -23,6 +23,19 @@ const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
 // "Tell us what you think"; the app's first-screen bar drops its copies.
 if (isEmbedded) document.documentElement.classList.add('is-framed');
 
+// A question carried in from the site - a tradition page's question link, or
+// the home page's held question - arrives as #q=. It waits in the message box;
+// the participant sends it.
+function readCarriedQuestion(): string {
+  const hash = window.location.hash;
+  if (!hash.startsWith('#q=')) return '';
+  try {
+    return decodeURIComponent(hash.slice(3)).trim().slice(0, 280);
+  } catch {
+    return '';
+  }
+}
+
 /**
  * The deep-link grammar - the ONE contract between the discovery surfaces
  * (cic-website's world cards, the Atlas) and this app:
@@ -87,6 +100,13 @@ function App() {
   const table = useTable();
   const { worlds, isLoading: worldsLoading, error: worldsError } = useWorlds();
   const [screen, setScreen] = useState<Screen>(() => (expectsRoom() ? 'arriving' : 'launch'));
+  const [carriedQuestion] = useState(readCarriedQuestion);
+  // Read once; a reload should not put the question back in the box.
+  useEffect(() => {
+    if (window.location.hash.startsWith('#q=')) {
+      window.history.replaceState(window.history.state, '', window.location.pathname + window.location.search);
+    }
+  }, []);
   const [selectedWorldKey, setSelectedWorldKey] = useState<string | null>(null);
   const [seated, setSeated] = useState<string[]>([]);
   const [tableFocus, setTableFocus] = useState(false);
@@ -298,6 +318,7 @@ function App() {
           error={conversation.error}
           errorRecoverable={conversation.errorRecoverable}
           onSend={conversation.send}
+          carriedQuestion={carriedQuestion}
           onEnd={handleLeave}
           onRestart={handleLeave}
           onDelete={async () => {
