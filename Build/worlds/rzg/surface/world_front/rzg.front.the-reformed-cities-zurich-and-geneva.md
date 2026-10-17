@@ -65,7 +65,7 @@ orientation:
   - text: >-
       Zwingli left Zurich for the front on 11 October 1531, as a field
       chaplain in the Second War of Kappel. He was killed that same afternoon.
-      His close friend Oswald Myconius was in the city that day and later wrote down what he remembered. He was not on the battlefield. He wrote that Zwingli was reported to have said as he fell, "What harm is there in this? It is true, they can kill the body, but not the soul." Heinrich Bullinger succeeded Zwingli and led
+      His close friend Oswald Myconius was in the city that day and later wrote down what he remembered. He was not on the battlefield. He wrote that Zwingli was reported to have said, after he fell, "What harm is there in this? It is true, they can kill the body, but not the soul." Heinrich Bullinger succeeded Zwingli and led
       Zurich's pastorate for forty-four years.
     grounded_in: [rzg.story.myconius-account-of-zwinglis-death, rzg.quote.zwinglis-last-words, rzg.force.wars-of-kappel-zwinglis-death, rzg.witness.not-a-death-he-sought, rzg.figure.bullinger]
   - text: >-
@@ -75,7 +75,7 @@ orientation:
       Institutes and Catechism. The Catechism was taught to all the people.
     grounded_in: [rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival, rzg.figure.calvin, rzg.witness.one-conviction-two-enactments, rzg.term.catechism]
   - text: >-
-      In 1541 Geneva's church ordinances set up a Consistory of pastors and lay elders. It could censure people, and it did not answer to the city council alone. Zurich's council ruled church and city as one. Geneva's Consistory fought to stay free of that kind of control. The Perrinist party stood against the Consistory, but by 1555 it had mostly won.
+      In 1541 Geneva's church ordinances set up a Consistory of pastors and lay elders. It could censure people. It did not answer to the city council alone. Zurich's council ruled church and city as one. It fought to stay free of that control. The Perrinist party opposed the Consistory. By 1555 the fight was mostly settled in Calvin's favor.
     grounded_in: [rzg.force.1541-ecclesiastical-ordinances-consistory-founding, rzg.gravity.council-led-authority-vs-consistorial-independence, rzg.force.perrinist-crisis, rzg.gravity.consistorial-church-discipline]
   - text: >-
       Both cities refused two claims about the Lord's Supper. They rejected
@@ -98,7 +98,7 @@ orientation:
   - story_id: rzg.story.first-zurich-disputation
     title: "Six Hundred People and a Council That Ruled"
     when: "29 January 1523, Zurich's Town Hall"
-    teaser: "Enemies of the new preaching mocked the gathering as a \"tinker's day.\" A schoolmaster named Erhart Hegenwald sat through the whole day and wrote an account of it. At the end of the day, the council ruled for the reform."
+    teaser: "Enemies of the new preaching mocked the gathering as a \"tinker's day.\" A schoolmaster, Erhart Hegenwald, sat through it and wrote it down. The council ruled for the reform."
     grounded_in: [rzg.story.first-zurich-disputation, rzg.figure.hegenwald]
   - story_id: rzg.story.myconius-account-of-zwinglis-death
     title: "What His Friend Remembered of the Day He Died"
@@ -149,11 +149,11 @@ orientation:
     hedge: "Bullinger wrote decades after Zwingli's own founding moment, in a settled, mature register very different from the urgency of 1523. His own confession should not be read backward as though it were Zwingli's own words, even where it restates the same underlying conviction."
   - figure: rzg.figure.myconius
     text: >-
-      Myconius was Zwingli's own close friend, in Zurich on the day
+      Myconius was Zwingli's own close friend. He was in Zurich on the day
       Zwingli rode out to the Second War of Kappel and was killed. He
-      later wrote down what he remembered: a sudden pain of heart as he
-      watched his friend leave, and the words Zwingli was reported to
-      have said as he fell.
+      later wrote down what he remembered. He felt a sudden pain of heart as he
+      watched his friend leave. He also recorded the words Zwingli was reported to
+      have said after he fell.
     grounded_in: [rzg.figure.myconius, rzg.story.myconius-account-of-zwinglis-death, rzg.quote.zwinglis-last-words]
     hedge: >-
       Myconius was in Zurich, not on the battlefield, and his own
@@ -275,7 +275,7 @@ orientation:
     note: "The 1531 war in which Zwingli was killed. It was fought between Reformed and Catholic Swiss cantons."
     grounded_in: [rzg.force.wars-of-kappel-zwinglis-death]
   - phrase: "Savoy"
-    kind: place
+    kind: term
     note: "Geneva broke politically from Savoy and the Prince-Bishop in 1536."
     grounded_in: [rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival]
   - phrase: "Consistory"
@@ -340,7 +340,7 @@ orientation:
     grounded_in: [rzg.core.the-reformed-cities-zurich-and-geneva]
   - phrase: "Strasbourg"
     kind: place
-    note: "Today's Strasbourg, in France. Pleiades lists it as the ancient Roman outpost of Argentorate. Calvin was exiled there from 1538 to 1541."
+    note: "Today's Strasbourg, in France. In ancient times a Roman outpost called Argentorate stood there. Calvin was exiled there from 1538 to 1541."
     url: https://pleiades.stoa.org/places/108754
     verified_on: "2026-10-17"
     grounded_in: [rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival]
