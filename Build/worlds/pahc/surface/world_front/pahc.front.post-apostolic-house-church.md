@@ -109,12 +109,12 @@ orientation:
   documented_stories:
   - story_id: pahc.story.nero-scapegoating
     title: "Nero Blames the Christians for the Fire"
-    when: "64 (Tacitus wrote about fifty years later; scholars dispute whether a separate persecution tied to the fire took place in 64)"
+    when: "64 (Tacitus wrote about fifty years later; we cannot be sure a separate persecution tied to the fire took place in 64)"
     teaser: "Rome burns in a great fire. The Roman historian Tacitus reports that Nero blamed a group the crowd called Christians, and had them put to death with cruelty."
     grounded_in: [pahc.story.nero-scapegoating, pahc.figure.tacitus]
   - story_id: pahc.story.didache-eucharist
     title: "Thanks Over the Cup Before the Bread"
-    when: "c. 80-120 (the usual dating of the Didache; scholars have argued for anywhere from 50 to 150)"
+    when: "c. 80-120 (the usual dating of the Didache; we cannot fix it closer than 50 to 150)"
     teaser: "This scene is pieced together from the Didache. A community following its order gives thanks over the cup first, then the bread. No story of a supper appears in its prayers."
     grounded_in: [pahc.story.didache-eucharist, pahc.contested.didache-dating]
   - story_id: pahc.story.grandsons-before-domitian
@@ -124,17 +124,17 @@ orientation:
     grounded_in: [pahc.story.grandsons-before-domitian]
   - story_id: pahc.story.first-clement-corinthian-dispute
     title: "Rome Writes to Corinth About Removed Elders"
-    when: "c. 96 (the traditional dating; scholars have argued for anywhere from before 70 to 140)"
+    when: "c. 96 (the traditional dating; we cannot fix it closer than before 70 to 140)"
     teaser: "The church at Rome writes at length to Corinth, which has removed several elders from office. It argues that men who served blamelessly should not have been removed."
     grounded_in: [pahc.story.first-clement-corinthian-dispute, pahc.contested.first-clement-dating]
   - story_id: pahc.story.ignatius-guarded-journey
     title: "A Condemned Bishop Asks Rome Not to Save Him"
-    when: "c. 107-117 (traditional dating; scholars dispute who wrote the letters and when)"
+    when: "c. 107-117 (traditional dating; we cannot be sure who wrote the letters or when)"
     teaser: "Letters under Ignatius's name say that he, a bishop of Antioch, was marched under armed guard toward Rome. He writes ahead to urge the church there not to try to save him."
     grounded_in: [pahc.story.ignatius-guarded-journey, pahc.figure.ignatius]
   - story_id: pahc.story.polycarp-forwards-letters
     title: "Polycarp Sends Ignatius's Letters to Philippi"
-    when: "c. 107-140 (the letter's date is uncertain, and some scholars read it as two letters joined)"
+    when: "c. 107-140 (the letter's date is uncertain, and it may be two letters joined)"
     teaser: "Polycarp writes to the church at Philippi. He is sending them the letters of Ignatius that his church has collected, as they had asked."
     grounded_in: [pahc.story.polycarp-forwards-letters, pahc.figure.polycarp]
   - story_id: pahc.story.pliny-interrogation
