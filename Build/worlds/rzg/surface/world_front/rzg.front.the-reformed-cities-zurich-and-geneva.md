@@ -75,7 +75,7 @@ orientation:
       Institutes and Catechism. The Catechism was taught to all the people.
     grounded_in: [rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival, rzg.figure.calvin, rzg.witness.one-conviction-two-enactments, rzg.term.catechism]
   - text: >-
-      In 1541 Geneva's church ordinances set up a Consistory of pastors and lay elders. It could censure people. It did not answer to the city council alone. Zurich's council ruled church and city as one. It fought to stay free of that control. The Perrinist party opposed the Consistory. By 1555 the fight was mostly settled in Calvin's favor.
+      In 1541 Geneva's church ordinances set up a Consistory of pastors and lay elders. It could censure people. It did not answer to the city council alone. Zurich's council ruled church and city as one. Geneva's Consistory fought to stay free of that control. The Perrinist party opposed the Consistory. By 1555 the fight was mostly settled in Calvin's favor.
     grounded_in: [rzg.force.1541-ecclesiastical-ordinances-consistory-founding, rzg.gravity.council-led-authority-vs-consistorial-independence, rzg.force.perrinist-crisis, rzg.gravity.consistorial-church-discipline]
   - text: >-
       Both cities refused two claims about the Lord's Supper. They rejected
