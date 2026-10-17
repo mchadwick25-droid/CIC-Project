@@ -11,19 +11,31 @@ test('splitParagraphs: one part when it fits; balanced parts, in order, none ove
   assert.equal(parts.join('\n\n'), paras.join('\n\n'));
 });
 
-test('worldPieces: story, documented stories and legacy only; blank text skipped', () => {
+test('worldPieces: story, documented-story tellings keyed by story id, and legacy only', () => {
   const compiled = { orientation: {
     story: [{ text: 'one' }, { text: 'two' }],
-    documented_stories: [{ text: 'ds0', teaser: 'no' }, { text: ' ' }, { text: 'ds2' }],
+    documented_stories: [
+      { story_id: 'w.story.a', telling: 'told a', tellable_as: 'short a', teaser: 'no' },
+      { story_id: 'w.story.b', tellable_as: 'short b' },
+      { story_id: 'w.story.c', telling: ' ' },
+      { story_id: 'w.story.d', telling: 'first\n\nsecond' },
+    ],
     legacy: [{ text: 'leg' }], voices: [{ bio: 'skip' }],
   } };
-  assert.deepEqual(worldPieces(compiled).map((p) => p.key), ['story', 'docstory-0', 'docstory-2', 'legacy']);
+  const pieces = worldPieces(compiled);
+  assert.deepEqual(pieces.map((p) => p.key), ['story', 'docstory-w.story.a', 'docstory-w.story.d', 'legacy']);
+  assert.deepEqual(pieces[2].parts, ['first\n\nsecond']);
 });
 
 test('parseArgs: paid settings only from flags', () => {
   const o = parseArgs(['--world', 'w', '--voice-id', 'v', '--model', 'm', '--api-speed', '1.12', '--tempo', '1.15', '--settings-json', '{}']);
   assert.deepEqual([o.world, o.voiceId, o.model, o.apiSpeed, o.tempo], ['w', 'v', 'm', 1.12, 1.15]);
   assert.throws(() => parseArgs(['--bogus']), /unrecognized/);
+});
+
+test('parseArgs: --only lists the pieces to record', () => {
+  assert.deepEqual(parseArgs(['--only', 'story, docstory-w.story.a']).only, ['story', 'docstory-w.story.a']);
+  assert.equal(parseArgs([]).only, null);
 });
 
 test('parseArgs: --prefix is read from the command and defaults to empty', () => {

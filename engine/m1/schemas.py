@@ -251,6 +251,43 @@ _DOCUMENTED_STORY_ENTRY = {
     "additionalProperties": False,
 }
 
+# orientation.highlights: a word or phrase in the story or a documented
+# story's telling, marked on the page with a short note a reader sees on
+# hover or tap. A person, term or council is grounded in the world's own
+# records; a place's modern location is referenced to an outside gazetteer
+# (url + verified_on, as experience_today's live claims are), alongside any
+# records its other claims rest on. `label`
+# names what a hinted phrase refers to ("the great church" -> the church
+# it is), shown as the note's heading in place of the phrase. The note is
+# page-only and never narrated.
+_HIGHLIGHT_GROUNDED = {
+    "type": "object",
+    "properties": {
+        "phrase": {"type": "string", "minLength": 1},
+        "label": {"type": "string", "minLength": 1},
+        "kind": {"enum": ["person", "term", "council", "place"]},
+        "note": {"type": "string", "minLength": 1},
+        "grounded_in": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    },
+    "required": ["phrase", "kind", "note", "grounded_in"],
+    "additionalProperties": False,
+}
+_HIGHLIGHT_REFERENCED = {
+    "type": "object",
+    "properties": {
+        "phrase": {"type": "string", "minLength": 1},
+        "label": {"type": "string", "minLength": 1},
+        "kind": {"const": "place"},
+        "note": {"type": "string", "minLength": 1},
+        "url": {"type": "string", "minLength": 1},
+        "verified_on": {"type": "string", "minLength": 1},
+        "grounded_in": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    },
+    "required": ["phrase", "kind", "note", "url", "verified_on"],
+    "additionalProperties": False,
+}
+_HIGHLIGHT_ENTRY = {"anyOf": [_HIGHLIGHT_GROUNDED, _HIGHLIGHT_REFERENCED]}
+
 _READ_FIRST_ENTRY = {
     "type": "object",
     "properties": {
@@ -760,6 +797,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
                 "relations_summary": _UNIT,
                 "sourcing": _UNIT,
                 "read_first": {"type": "array", "items": _READ_FIRST_ENTRY},
+                "highlights": {"type": "array", "items": _HIGHLIGHT_ENTRY},
             },
             "additionalProperties": False,
         },
