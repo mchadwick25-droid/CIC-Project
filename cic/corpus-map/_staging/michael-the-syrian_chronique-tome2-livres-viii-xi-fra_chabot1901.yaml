@@ -1,0 +1,38 @@
+source_file: michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt
+
+authors_ruled:
+  michael-the-syrian:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The
+      author is real and named on the title page (file lines 37 to 59): Michael the Syrian
+      (Michael Rabo, 1126-1199), Syriac Orthodox patriarch of Antioch; Chabot is the
+      translator. A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901--chronicle-books-viii-to-xi-french
+    work: "Chronique de Michel le Syrien, tome II: Books VIII to XI, French translation"
+    author: michael-the-syrian
+    locus: "whole file; Book VIII from file line 73; table of contents from 51298"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). The Syriac Orthodox patriarch's own world
+      chronicle, Books VIII-XI (Arcadius to the eighth century), in Chabot's French: the
+      tradition's own voice for the fifth to eighth centuries, including Chalcedon and
+      the Arab conquest as that tradition remembered them.
+  - row_id: michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901--chronicle-books-viii-to-xi-french-2
+    work: "Chronique de Michel le Syrien, tome II: Books VIII to XI, French translation"
+    author: michael-the-syrian
+    locus: "Book VIII, chapter 1: Marutha and the Persian Christians 161 and 228; the death of Yazdgard 927"
+    atlas_ids:
+      - persian-church-of-the-east-early
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). A twelfth-century West Syriac memory of the
+      Persian church's peace under Yazdgard I through Marutha, drawing on Socrates; the
+      synods of 410 and 424 are not narrated. The view from a neighbouring tradition,
+      never evidence of the events.

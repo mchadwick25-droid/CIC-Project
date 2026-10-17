@@ -1,0 +1,25 @@
+source_file: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt
+
+authors_ruled:
+  labourt:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The
+      author is real and named on the title page (file line 363): Jérôme Labourt
+      (1874-1957). A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904--le-christianisme-dans-l-empire-perse
+    work: "Le christianisme dans l'empire perse sous la dynastie sassanide, 224-632 (1904)"
+    author: labourt
+    locus: "whole file; 'Le concile de Séleucie (410)' 5728; Dadisho's synod at Markabta (424) 7162; the Papa affair as the 424 acts tell it 1912 to 1974"
+    atlas_ids:
+      - persian-church-of-the-east-early
+      - the-church-of-the-east-under-persia
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). Secondary, 1904, French, Roman Catholic
+      standpoint: the standard older narrative of the Persian church built directly on the
+      Synodicon, the Chronicle of Seert and the Arabic histories, and a finding aid to
+      them, never evidence of the events.

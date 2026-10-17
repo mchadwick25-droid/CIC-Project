@@ -1,0 +1,27 @@
+source_file: amr-ibn-matta_de-patriarchis-nestorianorum-pars-altera-textus-ara_gismondi1896.txt
+
+authors_ruled:
+  amr-ibn-matta:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The
+      work is named for Amr ibn Matta of Tirhan (fourteenth century), printed by Gismondi
+      together with Sliba ibn Yuhanna's recension ("Amri et Slibae textus", file line 67).
+      Ruled under Amr's name as the primary author, with Sliba named here. A mechanical
+      index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: amr-ibn-matta_de-patriarchis-nestorianorum-pars-altera-textus-ara_gismondi1896--lives-of-the-patriarchs-arabic-text
+    work: "De patriarchis Nestorianorum (Amr and Sliba), the lives of the patriarchs of the East, Arabic text"
+    author: amr-ibn-matta
+    locus: "whole file; the synod of forty bishops under Isaac and Marutha in Yazdgard's eleventh year at file lines 4813 to 4818; the vacancy after Isaac at 4788"
+    atlas_ids:
+      - persian-church-of-the-east-early
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). Primary original-language witness for the
+      Arabic patriarchal histories of the Church of the East, a fourteenth-century memory
+      of the catholicoi; never evidence of 410 or 424 on its own. Arabic OCR has frequent
+      errors; verify against the page image before quotation.

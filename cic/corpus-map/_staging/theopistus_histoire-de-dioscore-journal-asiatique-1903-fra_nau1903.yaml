@@ -1,0 +1,36 @@
+source_file: theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt
+assignments:
+- row_id: theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903--histoire-de-dioscore-miaphysite
+  work: Theopistus, History of Dioscorus (Syriac version of a Coptic anti-Chalcedonian history), French
+    with Syriac (Nau, Journal asiatique X.1, 1903)
+  author: theopistus
+  locus: the article from file line 162; Dioscorus's stories of Chalcedon told at Gangra from 388; Nau
+    on the Coptic Panegyric of Macarius of Tkow at 739
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-christianity
+  role: tradition
+  confidence: provisional
+  note: Shared-Events Era 2 batch (Chalcedon 451). The Egyptian non-Chalcedonian tradition's own legend-history
+    of its deposed patriarch, in which the exiled Dioscorus tells Chalcedon from his side, with miracles
+    and polemic; written after the event. A reception and legend witness, never evidence of the sessions.
+    French recovered; Syriac not recovered. The rest of the journal volume is unrelated and not assigned.
+- row_id: theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903--histoire-de-dioscore-syriac-orthodox
+  work: Theopistus, History of Dioscorus (Nau, 1903)
+  author: theopistus
+  locus: the article from file line 162
+  atlas_ids:
+  - syriac-orthodox-west-syriac-christianity
+  role: transmission
+  confidence: provisional
+  note: 'Custody: the text is known in a Syriac translation preserved by the Syriac Orthodox. Voice assigned
+    to the Egyptian entry.'
+- row_id: theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903--histoire-de-dioscore-imperial-juridical
+  work: Theopistus, History of Dioscorus (Nau, 1903)
+  author: theopistus
+  locus: the article from file line 162
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: provisional
+  note: Marcian, Pulcheria and the council seen from the deposed patriarch's exile, as later Egyptian
+    memory told it. Context.

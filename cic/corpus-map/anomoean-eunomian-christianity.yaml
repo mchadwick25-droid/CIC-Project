@@ -47,6 +47,17 @@ works:
 
     '
   source_file: eunomius_first-apology_whiston1711.txt
+- row_id: gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858--orations-27-45-pg-36-greek-2
+  work: Orations 27-45, PG 36, Greek
+  author: gregory-nazianzen
+  locus: the five Theological Orations (27-31), the opening of the volume
+  role: context
+  confidence: provisional
+  note: 'The Theological Orations argue against the Eunomians by name. A contemporary opponent''s
+    view of that movement, in Greek; context, not its own voice.
+
+    '
+  source_file: gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858.txt
 - row_id: npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31-2
   work: The Five Theological Orations (Orations 27-31)
   author: gregory_naz

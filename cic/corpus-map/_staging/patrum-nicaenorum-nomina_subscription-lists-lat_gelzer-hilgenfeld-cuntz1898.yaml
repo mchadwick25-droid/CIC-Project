@@ -1,0 +1,23 @@
+source_file: patrum-nicaenorum-nomina_subscription-lists-lat_gelzer-hilgenfeld-cuntz1898.txt
+
+authors_ruled:
+  council-of-nicaea-325:
+    kind: anonymous
+    evidence: 'The subscription lists of the Council of Nicaea (325) as transmitted in Latin, Greek, Coptic, Syriac, Arabic and Armenian recensions; no individual author. Editors Gelzer, Hilgenfeld and Cuntz (1898).'
+
+assignments:
+  - row_id: patrum-nicaenorum-nomina_subscription-lists-lat_gelzer-hilgenfeld-cuntz1898--nicene-subscription-lists-latin-recensions
+    work: "Patrum Nicaenorum nomina: the Nicene subscription lists (Latin recensions legible; the five non-Latin columns not recovered in this OCR)"
+    author: council-of-nicaea-325
+    locus: "whole file; Latin lists from about file line 4780"
+    atlas_ids:
+      - imperial-juridical-christianity
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. The critical edition of who signed at Nicaea, a document of
+      the council's membership and of how later churches transmitted it. Closes the Wants-
+      register item 'Nicaea subscription lists' (cappadocian). Only the Latin recensions are
+      recovered in this OCR; the Greek, Coptic, Syriac, Arabic and Armenian lists need the
+      page images. Not a narrative source; a primary document for 'who came'.

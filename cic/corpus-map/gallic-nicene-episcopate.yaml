@@ -3,6 +3,36 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: gallic-nicene-episcopate
 works:
+- row_id: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35--libellus-precum-of-faustinus-and-marcellinus-383-384-latin
+  work: Libellus precum ad imperatores (Faustinus and Marcellinus, 383-384), Latin
+  author: faustinus-and-marcellinus
+  locus: Ariminum at file lines 5622 and 5631; Hosius and Potamius at 5796-5853; Gregory of
+    Elvira at 5908; the whole petition to about 7443
+  role: context
+  confidence: provisional
+  note: 'The Luciferian memory of the council of Ariminum (359), of the lapse of Hosius and
+    Potamius and of the bishops who signed and were later readmitted, written twenty-five
+    years after by a party that refused the reconciliation Hilary and the Gallic bishops made.
+    A contemporary dissenting view of the Gallic Nicene settlement; context, not its voice.
+    Reception source: dated 383-384, standpoint Luciferian.
+
+    '
+  source_file: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt
+- row_id: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65--collectanea-antiariana-parisina-fragmenta-historica-latin
+  work: Collectanea antiariana Parisina (Fragmenta historica), with Liber I and II ad Constantium
+    and Hymni (CSEL 65), Latin
+  author: hilary_poit
+  locus: whole file; the series tables at file lines 1159-1208; Liber I ad Constantium at
+    6685 and 14728; Hymni from 15789
+  role: tradition
+  confidence: provisional
+  note: 'Hilary of Poitiers''s own dossier of the Arian controversy (356-367), in the Latin
+    original: the Gallic Nicene bishop''s compilation and framing notes. Primary original-language
+    voice; the OCR is rough in the preface and usable in the text, so verify any quotation
+    against the page image. Latin only, no public-domain English.
+
+    '
+  source_file: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt
 - row_id: npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils
   work: De Synodis (On the Councils)
   author: hilary_poit
@@ -15,6 +45,21 @@ works:
     home. Same home question as De Trinitate: gallic-nicene-episcopate now holds Hilary''s
     own Gallic church. The homoian half of the assignment stands alongside it.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
+- row_id: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844--de-synodis-ad-constantium-contra-constantium-contra-auxentium-latin
+  work: De Synodis seu de fide Orientalium; Ad Constantium I-II; Contra Constantium imperatorem;
+    Contra Auxentium (PL 10), Latin
+  author: hilary_poit
+  locus: De Synodis from file line 38488; Ad Constantium I at 45057, II at 45637; Contra Constantium
+    at 46205; Contra Auxentium at 48549
+  role: tradition
+  confidence: provisional
+  note: 'Latin originals of Hilary''s council writings: De Synodis (the English is held in
+    npnf209), the two appeals to Constantius and the Contra Constantium of 360-361, which
+    no vendored English volume carries. Primary original-language voice in the Maurist text
+    as Migne reprinted it; Migne OCR with letter errors, verify against the page.
+
+    '
+  source_file: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt
 - row_id: npnf209_hilary-poitiers-john-damascus--de-trinitate-on-the-trinity
   work: De Trinitate (On the Trinity)
   author: hilary_poit
@@ -40,3 +85,47 @@ works:
   note: Pastoral exegesis with no anti-Arian frame, so the homoian bucket does not fit. gallic-nicene-episcopate
     holds Hilary's own home entry, and carries all three of his works alike.
   source_file: npnf209_hilary-poitiers-john-damascus.xml
+- row_id: lucifer-cagliari_opuscula-lat_hartel1886-csel14--opuscula-and-the-gallic-exiles-latin
+  work: Opuscula (CSEL 14), Latin, with the letters of Liberius to Lucifer
+  author: lucifer-of-cagliari
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'Lucifer was Sardinian, not Gallic, but he stood with Hilary, Eusebius of Vercelli
+    and Dionysius of Milan in the exiles of 355-360 and the Gallic census entry''s own text
+    names him; his later refusal to receive the bishops who had signed at Ariminum is the
+    schism Jerome''s Dialogue (held) answers. A fellow traveller''s voice, so context. NEEDS
+    A CHECK by the corpus-assignment thread: whether a Luciferian or Sardinian entry exists
+    in the census that should hold this as tradition.
+
+    '
+  source_file: lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt
+- row_id: phoebadius-agen_contra-arianos-with-caesarius-didymus-lat_caillau1836--liber-contra-arianos-357-358-latin
+  work: Liber contra Arianos (357-358), with the Libellus fidei, Latin
+  author: phoebadius-of-agen
+  locus: Phoebadius section from file line 15473; Contra Arianos from 15614; Libellus fidei
+    at 17790
+  role: tradition
+  confidence: provisional
+  note: 'The Gallic Nicene argument against the second creed of Sirmium (357), by a bishop
+    who then sat at Ariminum (359), was deceived into signing and recanted (Sulpicius, Chron.
+    II.44, held; Jerome, De viris 108, held). Primary original-language voice of the Gallic
+    Nicene world before the council. The Caesarius and Didymus texts bound with it are not
+    assigned here. Latin only; the De fide orthodoxa printed with it is of disputed authorship.
+
+    '
+  source_file: phoebadius-agen_contra-arianos-with-caesarius-didymus-lat_caillau1836.txt
+- row_id: sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1--chronica-vita-martini-epistulae-dialogi-latin
+  work: Chronica, Vita Martini, Epistulae, Dialogi (CSEL 1), Latin
+  author: sulpiciusseverus
+  locus: Chronica from file line 497; book II on Ariminum at 5388, Seleucia at 5451, Phoebadius
+    at 5582, Hilary's return at 5664
+  role: tradition
+  confidence: provisional
+  note: 'The Latin original behind npnf211_sulpitius-severus-vincent-lerins-cassian.xml: the
+    Aquitanian memory of Ariminum (the Gallic and British bishops who refused the emperor''s
+    rations), Seleucia and Hilary''s exile, written about 403. Primary original-language voice
+    of the Gallic Nicene world; Google OCR with letter errors, verify against the page image.
+
+    '
+  source_file: sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt

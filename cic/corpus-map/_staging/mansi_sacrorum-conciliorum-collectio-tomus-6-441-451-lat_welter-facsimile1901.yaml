@@ -1,0 +1,43 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt
+authors_ruled:
+  council-of-chalcedon-451:
+    kind: anonymous
+    evidence: Mansi tom. 6 prints "CONCILIUM CHALCEDONENSE" (file line 784) with "ACTIO PRIMA" at 53711;
+      a council text, no single author. Same slug as npnf214.
+  council-of-ephesus-449:
+    kind: anonymous
+    evidence: Mansi tom. 6 prints the acts of Ephesus II as read into Chalcedon's first session, "EPHESI
+      ACTA SUB DIOSCORO" (file line 77925); a council text, no single author.
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901--chalcedon-sessions-i-iii
+  work: Council of Chalcedon (451), sessions I-III, Latin and Greek, in Mansi tom. 6
+  author: council-of-chalcedon-451
+  locus: file line 784 (heading); Actio prima at 53711
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: provisional
+  note: Shared-Events Era 2 batch (Chalcedon 451). The council's own acts in the original languages, following
+    the npnf214 placement of Chalcedon in ijc. Leo's Tome and letters of 449-451 are also in this volume
+    (Tome noted at 91406). Long s rendered as f; Greek column partly recovered.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901--chalcedon-sessions-i-iii-cyrilline
+  work: Council of Chalcedon (451), sessions I-III, in Mansi tom. 6
+  author: council-of-chalcedon-451
+  locus: file line 784; the trial of Dioscorus in sessions I-III
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: context
+  confidence: provisional
+  note: The council that deposed Dioscorus, told in the winners' record; following the npnf214 context
+    placement.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901--ephesus-449-acts-in-chalcedon
+  work: Acts of the Second Council of Ephesus (449), as read at Chalcedon, in Mansi tom. 6
+  author: council-of-ephesus-449
+  locus: file line 77925
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: tradition
+  confidence: provisional
+  note: Dioscorus's council of 449, the Cyrilline-Alexandrian party's own synod, in the Greek acts preserved
+    by its opponents' re-reading. The Syriac acts of its second session are vendored separately (Perry
+    1881; Flemming 1917).
