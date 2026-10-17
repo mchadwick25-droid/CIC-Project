@@ -376,3 +376,17 @@ Status: items (1) and (2) of entry 33 CLOSED by subject; the rest of entry 33 st
 - `ijc.dw.baptism-threshold` `use_note.means`: "our sources do not always say why." now reads "our sources do not always say why they waited."
 
 `engine.m10.cli records ijc` and `regate ijc --base origin/main` pass. Package rebuilt and repinned: `packages/ijc/2026-10-14T20-20-37Z`, `manifest_hash` `sha256:6245be4ded1a5b59e2d58176ac0884a5868b49b9dbabe569c0d4f3ae059ebd58`. Status: CLOSED.
+
+39. **Atlas story pass: shorter story, ten card stories with tellings, highlights, 2026-10-17.** The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card, and approved the Imperial Church text. `orientation.story` is now 8 units and 662 words, down from 11 units and about 1,500. `documented_stories` shows ten stories in date order. Each of those story records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 35 short notes; place locations cite Pleiades (checked 2026-10-17). Review: `Build/Ministry/Operations/Audits/ijc_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/ijc/2026-10-17T03-00-50Z`, `manifest_hash` `sha256:7057567f5f809cbcd808683f3e52317a1c2d7a777b04cc6576501b4a40a9df8a`. This pin supersedes the one in entry 38.
+
+Cut from the story with no story record, so they have no card story; they stay in the records named: the one damaged Homoian fragment (`ijc.source.auxentius-letter-ulfila`, `ijc.force.transmission-schism-selection`); Damasus's violent election in 366 (`ijc.figure.damasus` and its quote records); Nicaea's choice of homoousios and Eusebius of Caesarea's letter home (`ijc.term.homoousios`, `ijc.figure.eusebius-caesarea`); the two grounds of authority (`ijc.gravity.sacramental-institutional-tension`). Two old-story claims had no record at all and are gone: Constantine as "sole ruler of the West" after the 312 battle, and a "looser, more scriptural-sounding word" passed over at Nicaea. The old story's "Damasus built that same claim into stone" rests only on `ijc.story.letter-that-outranked-a-council` `text` ("Long before Damasus built in stone") and Jerome's notice of his verses; no record describes inscriptions at the martyrs' graves.
+
+**Open:**
+- The card's recordings of the main story and of the ten tellings are not yet made.
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+40. **Other world_front sections keep "this world" wording, 2026-10-17.** The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `narrative.who_speaks`, `legacy`, `skim.tile` and the envelope's `divergence_note` still say "this world" or "this world's record". Several voice-craft fields also fail the readability gate at the base, as `regate ijc` reports.
+
+Status: OPEN for the project lead to schedule.
