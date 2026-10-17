@@ -3117,3 +3117,455 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "Shared-Events Era 2 worker B, 2026-10-17: archive.org search listing only (1899, Greek and English); metadata and text not read"
     status: not-yet-downloaded
+
+  - title: "Nestorius, The Bazaar of Heracleides"
+    author: "Nestorius of Constantinople"
+    translator: "G. R. Driver and Leonard Hodgson"
+    year: 1925
+    world: "antiochene-exegetical-christianity-chrysostom-ce (shared event ephesus-431)"
+    why: >
+      The dissenting side of Ephesus 431 in its own words: the deposed patriarch's
+      apology, surviving only in Syriac. Found on archive.org by the Shared-Events
+      Era 2 worker D; title page (1925, Clarendon Press) read in the OCR.
+    url: "https://archive.org/details/nestoriusbazaaro0000nest"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org metadata and title page in the OCR; byte count equal to the host's listed size)"
+    status: downloaded
+    vendored_as: "nestorius_bazaar-of-heracleides_driver-hodgson1925.txt"
+
+  - title: "Le livre d'Héraclide de Damas (French translation of the Book of Heracleides, with three appendices)"
+    author: "Nestorius of Constantinople"
+    translator: "François Nau, with Paul Bedjan and Maurice Brière"
+    year: 1910
+    world: "antiochene-exegetical-christianity-chrysostom-ce (shared event ephesus-431)"
+    why: >
+      French counterpart of the English Bazaar, with the letter to Cosmas on Nestorius's
+      deposition, the Alexandrian presents list and Nestorius's letter to the
+      Constantinopolitans as appendices. Letouzey et Ané, 1910.
+    url: "https://archive.org/details/lelivredheraclid00nestuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (host tag NOT_IN_COPYRIGHT; title page read)"
+    status: downloaded
+    vendored_as: "nestorius_livre-d-heraclide-de-damas-fra_nau1910.txt"
+
+  - title: "Nestoriana: die Fragmente des Nestorius"
+    author: "Nestorius of Constantinople"
+    translator: "Friedrich Loofs (ed.), with S. A. Cook and G. Kampffmeyer"
+    year: 1905
+    world: "antiochene-exegetical-christianity-chrysostom-ce (shared event ephesus-431)"
+    why: >
+      The Greek and Latin fragments of Nestorius's letters (to Cyril, Celestine, John
+      of Antioch, Theodosius), counter-anathemas and sermons. Halle, Niemeyer, 1905.
+      Greek recovered in this scan; the Syriac texts are not.
+    url: "https://archive.org/details/nestorianadiefra00nest"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17"
+    status: downloaded
+    vendored_as: "nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt"
+
+  - title: "Five Tomes against Nestorius; Scholia on the Incarnation; Christ is One; fragments against Diodore and Theodore (Library of Fathers 47)"
+    author: "Cyril of Alexandria"
+    translator: "P. E. Pusey"
+    year: 1881
+    world: "cyrilline-miaphysite-egyptian-tradition (shared event ephesus-431)"
+    why: >
+      Cyril's case against Nestorius in English, quoting Nestorius's sermons at length.
+      Oxford, Parker, 1881.
+    url: "https://archive.org/details/fivetomesagainst47cyri"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (host tag NOT_IN_COPYRIGHT)"
+    status: downloaded
+    vendored_as: "cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt"
+
+  - title: "The Three Epistles of S. Cyril, Archbishop of Alexandria, with revised text and English translation"
+    author: "Cyril of Alexandria"
+    translator: "P. E. Pusey"
+    year: 1872
+    world: "cyrilline-miaphysite-egyptian-tradition (shared event ephesus-431)"
+    why: >
+      The second and third letters to Nestorius (with the twelve anathemas) and the
+      letter to John of Antioch of 433 (Formula of Reunion), Greek with English.
+    url: "https://archive.org/details/thethreeepistleso00cyriuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (host tag NOT_IN_COPYRIGHT)"
+    status: downloaded
+    vendored_as: "cyril-alexandria_three-epistles-grc-eng_pusey1872.txt"
+
+  - title: "Sacrorum conciliorum nova et amplissima collectio, tomus 5 (431-441)"
+    author: "Giovanni Domenico Mansi (ed.)"
+    translator: ""
+    year: 1901
+    world: "imperial-juridical-christianity (shared event ephesus-431)"
+    why: >
+      The Antiochene counter-council's acts, John of Antioch's letters, the reunion of
+      433 and the Synodicon adversus tragoediam Irenaei. Welter facsimile (1901) of the
+      1761 Zatta edition, matching tomus 2-4 already vendored.
+    url: "https://archive.org/details/sacrorumconcilio0005joan"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (Welter imprint read in the OCR; no host rights tag)"
+    status: downloaded
+    vendored_as: "mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt"
+
+  - title: "Marii Mercatoris opera omnia (Patrologia Latina 48)"
+    author: "Marius Mercator"
+    translator: "J.-P. Migne (ed.), after Garnier and Baluze"
+    year: 1846
+    world: "pelagianism (shared event ephesus-431)"
+    why: >
+      Nestorius's sermons and letters and Cyril's anathemas in the Latin a contemporary
+      made for Rome, plus the anti-Pelagian Commonitoria: the Latin West's hearing of
+      Ephesus and the Pelagian strand of the council.
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_048"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (Public Domain Mark 1.0 on the item; 1846 title page read)"
+    status: downloaded
+    vendored_as: "marius-mercator_opera-omnia-lat_migne-pl48.txt"
+
+  - title: "Patrologia Orientalis 9, fascicle 5: La seconde partie de l'Histoire ecclésiastique de Barhadbesabba 'Arbaia"
+    author: "Barhadbeshabba 'Arbaya"
+    translator: "François Nau"
+    year: 1913
+    world: "the-church-of-the-east-under-persia (shared event ephesus-431)"
+    why: >
+      The Church of the East's own account (c. 600) of Diodore, Theodore, Nestorius and
+      the Council of Ephesus from the losing side. French recovered; Syriac not.
+    url: "https://archive.org/details/patrologiaorien09pari"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (1913 fascicle title page read)"
+    status: downloaded
+    vendored_as: "po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt"
+
+
+  - title: "Sacrorum conciliorum nova et amplissima collectio, tomus 6 (441-451)"
+    author: "Giovanni Domenico Mansi (ed.)"
+    translator: ""
+    year: 1901
+    world: "imperial-juridical-christianity (shared event chalcedon-451)"
+    why: >
+      Leo's letters and Tome, Chalcedon sessions I-III with the acts of Ephesus 449 and
+      of the 448 synod read into them. Welter facsimile 1901.
+    url: "https://archive.org/details/sacrorumconcilio0006joan"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (facsimile imprint 'M.D.CCCCI' read in the OCR)"
+    status: downloaded
+    vendored_as: "mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt"
+
+  - title: "Sacrorum conciliorum nova et amplissima collectio, tomus 7 (451-492)"
+    author: "Giovanni Domenico Mansi (ed.)"
+    translator: ""
+    year: 1901
+    world: "imperial-juridical-christianity (shared event chalcedon-451)"
+    why: >
+      Chalcedon from session V: the Definition, the canons with canon 28, the letters to
+      Leo, and the Codex Encyclius of 457-458. Welter facsimile 1901.
+    url: "https://archive.org/details/sacrorumconcilio0007joan"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (facsimile imprint 'MDCCCCI' read in the OCR)"
+    status: downloaded
+    vendored_as: "mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt"
+
+  - title: "The Second Synod of Ephesus, together with certain extracts relating to it, from Syriac MSS. in the British Museum"
+    author: "Second Council of Ephesus (449)"
+    translator: "S. G. F. Perry"
+    year: 1881
+    world: "cyrilline-miaphysite-egyptian-tradition (shared event chalcedon-451)"
+    why: >
+      The only English of the Syriac acts of the second session of Ephesus II (Ibas,
+      Irenaeus, Theodoret, Domnus), the session the Greek acts do not cover.
+    url: "https://archive.org/details/secondsynodofeph00perruoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (host tag NOT_IN_COPYRIGHT; title page garbled in the OCR, date from the host record)"
+    status: downloaded
+    vendored_as: "council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt"
+
+  - title: "Akten der ephesinischen Synode vom Jahre 449, syrisch mit Georg Hoffmanns deutscher Übersetzung"
+    author: "Second Council of Ephesus (449)"
+    translator: "Johannes Flemming (ed.); Georg Hoffmann (trans.)"
+    year: 1917
+    world: "cyrilline-miaphysite-egyptian-tradition (shared event chalcedon-451)"
+    why: >
+      The critical edition of the same Syriac acts with German. German recovered;
+      Syriac not.
+    url: "https://archive.org/details/aktenderephesini00flemuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (host tag NOT_IN_COPYRIGHT; 1917 title page read)"
+    status: downloaded
+    vendored_as: "council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917.txt"
+
+  - title: "Timotheus Älurus, Widerlegung der auf der Synode zu Chalcedon festgesetzten Lehre (Armenian text)"
+    author: "Timothy Aelurus of Alexandria"
+    translator: "Karapet Ter-Mekerttschian and Erwand Ter-Minassiantz (eds.)"
+    year: 1908
+    world: "cyrilline-miaphysite-egyptian-christianity (shared event chalcedon-451)"
+    why: >
+      The anti-Chalcedonian side in its own words: Timothy's refutation of Chalcedon
+      and Leo's Tome, surviving only in Armenian. Armenian recovered; the German
+      preface is not in this scan (see the lead below).
+    url: "https://archive.org/details/timotheuslurusde0000timo"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (1908 on the Armenian title page in the OCR)"
+    status: downloaded
+    vendored_as: "timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908.txt"
+
+  - title: "Patrologia Orientalis 8, fascicle 1: Jean Rufus, Plérophories (syriaque et français)"
+    author: "John Rufus of Maiuma"
+    translator: "François Nau"
+    year: 1912
+    world: "syriac-orthodox-west-syriac-christianity (shared event chalcedon-451)"
+    why: >
+      The anti-Chalcedonian memory stories of c. 512. French recovered; the Syriac
+      column is garbled. Supersedes Nau's 1899 translation-only offprint.
+    url: "https://archive.org/details/patrologiaorien08pari"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (1912 fascicle title page read)"
+    status: downloaded
+    vendored_as: "po08_john-rufus-plerophories-and-others-fra_1912.txt"
+
+  - title: "Petrus der Iberer: syrische Übersetzung einer um das Jahr 500 verfassten griechischen Biographie"
+    author: "Anonymous (Syriac Life of Peter the Iberian)"
+    translator: "Richard Raabe"
+    year: 1895
+    world: "syriac-orthodox-west-syriac-christianity (shared event chalcedon-451)"
+    why: >
+      Near-contemporary anti-Chalcedonian Life: the Palestinian revolt against Juvenal,
+      Timothy Aelurus's consecration. German recovered; Syriac not.
+    url: "https://archive.org/details/petrusderiberer00raabgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (host tag NOT_IN_COPYRIGHT; 1895 title page read)"
+    status: downloaded
+    vendored_as: "life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt"
+
+  - title: "Histoire de Dioscore, patriarche d'Alexandrie, écrite par son disciple Théopiste (Journal asiatique X.1, 1903)"
+    author: "Theopistus (attributed)"
+    translator: "François Nau"
+    year: 1903
+    world: "cyrilline-miaphysite-egyptian-christianity (shared event chalcedon-451)"
+    why: >
+      The Coptic tradition's legend-history of Dioscorus telling Chalcedon from exile,
+      in Syriac with French. The whole journal volume is in the file.
+    url: "https://archive.org/details/journalasiatique.ser.10v.11903"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (Public Domain Mark 1.0 on the item; 'Janvier-Février 1903' read in the OCR)"
+    status: downloaded
+    vendored_as: "theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt"
+
+  - title: "The Ecclesiastical History of Evagrius with the Scholia (Greek text)"
+    author: "Evagrius Scholasticus"
+    translator: "J. Bidez and L. Parmentier (eds.)"
+    year: 1898
+    world: "byzantine-imperial-church-justinianic (shared events ephesus-431 and chalcedon-451)"
+    why: >
+      Greek original behind the Walford English already vendored; Books I-II carry
+      Ephesus 431, Ephesus 449 and Chalcedon, with the Euphemia shrine chapters. The
+      earlier Nicaea dossier noted this item as unverified; verified this pass: Greek
+      recovered, English front matter garbled.
+    url: "https://archive.org/details/ecclesiasticalhi00evag"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (Greek chapter headings and II.3 read in the OCR; date from the host record)"
+    status: downloaded
+    vendored_as: "evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt"
+
+
+  - title: "Timotheus Älurus, Widerlegung ... (second scan, German title page and preface recovered)"
+    author: "Timothy Aelurus of Alexandria"
+    translator: "Ter-Mekerttschian and Ter-Minassiantz (eds.)"
+    year: 1908
+    world: "cyrilline-miaphysite-egyptian-christianity (shared event chalcedon-451)"
+    why: >
+      This scan recovers the editors' German title page and preface (and no Armenian);
+      the vendored scan recovers the Armenian and no German. Fetch if the preface is
+      needed.
+    url: "https://archive.org/details/TimotheusAelurusArm"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (downloaded and character-counted; not vendored)"
+    status: not-yet-downloaded
+
+  - title: "Patrologia Graeca 84: Theodoret vol. 4, with Garnier's Auctarium and the Synodicon adversus tragoediam Irenaei"
+    author: "Theodoret of Cyrrhus; Jean Garnier"
+    translator: "J.-P. Migne (ed.)"
+    year: 1860
+    world: "antiochene-exegetical-christianity-chrysostom-ce (shared event ephesus-431)"
+    why: >
+      A second printing of the Synodicon (dissertation V, file contents read) and
+      Garnier's dissertations on Theodoret and the Orientals. Latin recovered only.
+      Not fetched: 4.5 MB and the Synodicon is already in Mansi 5.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_084"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (downloaded and grepped; not vendored)"
+    status: not-yet-downloaded
+
+  - title: "Sancti Leonis Magni opera omnia, tomus 1 (Migne reprint of Ballerini: sermons and letters)"
+    author: "Leo the Great"
+    translator: "Ballerini brothers (eds.); Migne"
+    year: 1865
+    world: "imperial-juridical-christianity (shared event chalcedon-451)"
+    why: >
+      The full Latin corpus of Leo's letters (the Chalcedon dossier) behind the
+      selection in npnf212. 5.5 MB; not fetched for size, and Mansi 6-7 carry the
+      council-related letters.
+    url: "https://archive.org/details/sanctileonismagn01leoi"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org metadata only)"
+    status: not-yet-downloaded
+
+  - title: "Verhandlungen der Kirchenversammlung zu Ephesus am 22. August 449, aus einer syrischen Handschrift"
+    author: "Second Council of Ephesus (449)"
+    translator: "Georg Hoffmann"
+    year: 1873
+    world: "cyrilline-miaphysite-egyptian-tradition (shared event chalcedon-451)"
+    why: >
+      Hoffmann's first German translation of the Syriac acts, superseded by the 1917
+      Flemming edition vendored this pass.
+    url: "https://archive.org/details/verhandlungende00ofgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org metadata; host tag NOT_IN_COPYRIGHT)"
+    status: not-yet-downloaded
+
+  - title: "Actes du brigandage d'Éphèse, traduction faite sur le texte syriaque du manuscrit 14530 du Musée britannique"
+    author: "Second Council of Ephesus (449)"
+    translator: "J. P. P. Martin"
+    year: 1874
+    world: "cyrilline-miaphysite-egyptian-tradition (shared event chalcedon-451)"
+    why: >
+      French translation of the same Syriac acts (Amiens, 1874); Perry's English and
+      Flemming's German are vendored instead.
+    url: "https://archive.org/details/actesdubrigandag00coun"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org metadata)"
+    status: not-yet-downloaded
+
+  - title: "An ancient Syriac document, purporting to be the record of the second Synod of Ephesus"
+    author: "S. G. F. Perry"
+    translator: ""
+    year: 1867
+    world: "cyrilline-miaphysite-egyptian-tradition (shared event chalcedon-451)"
+    why: >
+      Perry's first notice of the Syriac acts, reprinted inside the 1881 volume
+      vendored this pass. Not needed separately.
+    url: "https://archive.org/details/anancientsyriac00ofgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org metadata; host tag NOT_IN_COPYRIGHT)"
+    status: not-yet-downloaded
+
+  - title: "Les plérophories de Jean, évêque de Maïouma (translation only, from the Revue de l'Orient chrétien)"
+    author: "John Rufus of Maiuma"
+    translator: "François Nau"
+    year: 1899
+    world: "syriac-orthodox-west-syriac-christianity (shared event chalcedon-451)"
+    why: >
+      Nau's first French translation; superseded by his 1912 PO edition vendored this
+      pass. Downloaded and checked (Marcian and Juvenal passages present), not vendored.
+    url: "https://archive.org/details/lesplrophories00joanuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (downloaded and grepped; host tag NOT_IN_COPYRIGHT)"
+    status: not-yet-downloaded
+
+  - title: "Evagrii Scholastici Ecclesiasticae historiae libri sex (Valesius text, Oxford reprint)"
+    author: "Evagrius Scholasticus"
+    translator: "Henri de Valois (ed.)"
+    year: 1844
+    world: "byzantine-imperial-church-justinianic (shared event chalcedon-451)"
+    why: >
+      Older Greek text; Greek recovered, Latin garbled, same as the Bidez-Parmentier
+      scan vendored instead. Downloaded for comparison, not vendored.
+    url: "https://archive.org/details/ecclesiasticaehi00evag"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (downloaded and character-counted)"
+    status: not-yet-downloaded
+
+  - title: "Nestorius and his place in the history of Christian doctrine"
+    author: "Friedrich Loofs"
+    translator: ""
+    year: 1914
+    world: "antiochene-exegetical-christianity-chrysostom-ce (shared event ephesus-431)"
+    why: >
+      Secondary (Cambridge lectures) by the editor of Nestoriana; a finding aid to the
+      fragments. Not fetched: secondary, and the primary texts are vendored.
+    url: "https://archive.org/details/nestoriushisplac00loofrich"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org metadata; host tag NOT_IN_COPYRIGHT)"
+    status: not-yet-downloaded
+
+  - title: "Nestorius and his teaching: a fresh examination of the evidence, with special reference to the newly recovered Apology of Nestorius"
+    author: "J. F. Bethune-Baker"
+    translator: ""
+    year: 1908
+    world: "antiochene-exegetical-christianity-chrysostom-ce (shared event ephesus-431)"
+    why: >
+      Secondary (Cambridge, 1908), with English extracts from the Bazaar before
+      Driver-Hodgson. Not fetched: secondary.
+    url: "https://archive.org/details/nestoriushisteac00beth"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org metadata; host tag NOT_IN_COPYRIGHT)"
+    status: not-yet-downloaded
+
+  - title: "Conciliengeschichte, Bd. 2 (2nd ed.; 326 to 451 in the German original)"
+    author: "Karl Joseph von Hefele"
+    translator: ""
+    year: 1875
+    world: "imperial-juridical-christianity (shared events ephesus-431 and chalcedon-451)"
+    why: >
+      German original behind the English vol. III (Ephesus and Chalcedon) already
+      vendored. Not fetched: secondary and 3 MB; the Nicaea dossier already lists it.
+    url: "https://archive.org/details/conciliengeschic02hefeuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org metadata; host tag NOT_IN_COPYRIGHT)"
+    status: not-yet-downloaded
+
+  - title: "Collection des historiens anciens et modernes de l'Arménie, tome 2 (Elishe, Lazar of Pharpi and others, French)"
+    author: "Elishe; Lazar P'arpec'i; others"
+    translator: "Victor Langlois (ed.)"
+    year: 1869
+    world: "armenian-christianity-after-avarayr (shared event chalcedon-451)"
+    why: >
+      The fifth-century Armenian historians of the Avarayr war (451) in French.
+      Downloaded and searched: the word Chalcedon occurs only in Langlois's own
+      introduction (file line 3093), not in Elishe or Lazar; the Armenian rejection of
+      Chalcedon belongs to the Dvin councils (Era 3). Not vendored for this event.
+    url: "https://archive.org/details/collectiondeshis02lang"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (downloaded and grepped)"
+    status: not-yet-downloaded
+
+  - title: "S.P.N. Cyrilli Alexandriae archiepiscopi opera in VI tomos tributa (Aubert)"
+    author: "Cyril of Alexandria"
+    translator: "Jean Aubert (ed.)"
+    year: 1638
+    world: "cyrilline-miaphysite-egyptian-tradition (shared event ephesus-431)"
+    why: >
+      The seventeenth-century Greek-Latin Cyril behind Migne PG 68-77; the only full
+      Cyril corpus located on archive.org (PG 77, the letters, was not found there).
+      Not fetched: 3.6 MB, seventeenth-century type, OCR quality unchecked.
+    url: "https://archive.org/details/bub_gb_3Xxp7r0dBOkC"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org metadata; Public Domain Mark 1.0)"
+    status: not-yet-downloaded
+
+  - title: "S. Cyrilli De recta fide ad Imperatorem; De incarnatione unigeniti; De recta fide ad Principissas et ad Augustas; Quod unus Christus; Apologeticus ad imperatorem (Pusey's Greek edition)"
+    author: "Cyril of Alexandria"
+    translator: "P. E. Pusey (ed.)"
+    year: 1877
+    world: "cyrilline-miaphysite-egyptian-tradition (shared event ephesus-431)"
+    why: >
+      Pusey's Oxford Greek text of the treatises Cyril addressed to Theodosius and the
+      princesses in 430 and of his defence after the council. Greek recovery not
+      checked. 1.8 MB.
+    url: "https://archive.org/details/SPNCyrilli7"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org metadata; Public Domain Mark 1.0)"
+    status: not-yet-downloaded
+
+  - title: "Synaxarium, das ist Heiligen-Kalender der coptischen Christen"
+    author: "Coptic Synaxarium (anonymous)"
+    translator: "Ferdinand Wüstenfeld"
+    year: 1879
+    world: "coptic-christianity-under-early-islam (shared event chalcedon-451)"
+    why: >
+      German translation of the Arabic Coptic Synaxarium, the Coptic church's liturgical
+      memory (Dioscorus, 7 Tut). Basset's PO edition (1904-1929) was not located on
+      archive.org by title search. Not fetched this pass; the Ethiopic Synaxarium
+      (Budge 1928) vendored by a sibling worker carries the same Dioscorus entry.
+    url: "https://archive.org/details/synaxariumdasis00synagoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org search result only; metadata not read)"
+    status: not-yet-downloaded

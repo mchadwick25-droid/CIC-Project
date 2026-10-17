@@ -1,0 +1,43 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt
+authors_ruled:
+  council-of-chalcedon-451:
+    kind: anonymous
+    evidence: Mansi tom. 7 continues the Chalcedon acts from "ACTIO QUINTA" (file line 9189) with the
+      Definition ("Sequentes igitur", 10861) and the canons (index 238); a council text, no single author.
+  codex-encyclius:
+    kind: anonymous
+    evidence: Mansi tom. 7 prints the "Codex Encyclius sive Collectio" (index at file line 396), the replies
+      of the provincial synods of 457-458 to the emperor Leo; a collection of many hands, no single author.
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901--chalcedon-sessions-v-onward
+  work: 'Council of Chalcedon (451), sessions V onward: Definition of Faith, canons, letters, in Mansi
+    tom. 7'
+  author: council-of-chalcedon-451
+  locus: Actio quinta at file line 9189; Definition at 10861; canons indexed at 238
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: provisional
+  note: Shared-Events Era 2 batch (Chalcedon 451). The Definition, canon 28 and the council's letters
+    to Leo and Marcian in Latin and Greek; following the npnf214 placement. Long s rendered as f.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901--chalcedon-sessions-v-onward-miaphysite
+  work: Council of Chalcedon (451), sessions V onward, in Mansi tom. 7
+  author: council-of-chalcedon-451
+  locus: Actio quinta at file line 9189
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-christianity
+  role: context
+  confidence: provisional
+  note: 'The Definition the non-Chalcedonian Egyptian tradition rejected, in its own text: context for
+    that entry (its window opens at 451).'
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901--codex-encyclius
+  work: Codex Encyclius (457-458), in Mansi tom. 7
+  author: codex-encyclius
+  locus: index at file line 396
+  atlas_ids:
+  - byzantine-imperial-church-justinianic
+  role: tradition
+  confidence: provisional
+  note: 'The imperial church''s first collective reception of Chalcedon: the bishops of the provinces
+    answering the emperor Leo on the council and on Timothy Aelurus. The Byzantine imperial church''s
+    own voice in the years just after 451.'
