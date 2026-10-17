@@ -94,7 +94,7 @@ text: >-
   This is how we remember Marculus: not as a man who died, but as a man
   shown, in advance, what completing his own formation would look like,
   and then given exactly that.
-telling: "Our account of Marculus's suffering, the Passio Marculi, names no author and records the day of his death but no year. We remember a man of unusual virtue who had already refused worldly advancement and given his life to the church.\n\nWhen the persecution of Macarius came into Numidia, ten of our bishops were sent to Macarius, and Marculus was among them. He was seized at a place called Vegesela, bound to columns and flogged. The account says he bore it without visible pain and praised God the whole time. He was paraded through several towns of Numidia, and then he was held for four days at a cliff called Novapetra.\n\nIn that waiting, the account says, he fasted and was shown a vision of a cup, a crown and a palm. Before dawn he was thrown from the cliff, and the tradition holds that his body did not break in the fall. It came down gently, the tradition says, and a bright cloud covered it. Flashes of light showed the brothers where he lay, so that they could take him for burial.\n\nThis is the tradition's own testimony, and no outside witness confirms the vision, the fall or the light. Our opponents say only that he was killed, and they argue about whether that killing counts."
+telling: "We remember Marculus as a man who had already turned from worldly advancement and given his life to the church. Our account of his suffering, the Passio Marculi, names no author. It gives a day but no year.\n\nWhen Macarius's persecution came into Numidia, ten of our bishops were sent to meet him, and Marculus was among them. He was seized at Vegesela, bound to columns and flogged. The account says he bore it without visible pain and praised God the whole time. Then he was paraded through several towns of Numidia and held four days at a cliff called Novapetra.\n\nThere, the account says, he fasted and was given a vision. A cup, a crown and a palm were shown to him together. Before dawn he was thrown from the cliff.\n\nWe hold that his body did not break in the fall. It came down gently, we say, as though something carried it. A bright cloud covered it, and flashes of light showed the brothers where he lay, so that they could take him for burial."
 absent_detail: The Passio names no author and gives no year - only a day. Nothing survives of what Marculus
   himself said under interrogation in his own words, and no independent witness confirms the vision, the
   fall, or the light. What the hostile record supplies is only that he was killed, and an argument about
@@ -116,27 +116,3 @@ use_note:
   years: {from: 347, to: 348}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory002_passio-
-marculi.md (Doc_09 story index row donstory002, Tier 3), whose narrative
-text is carried forward rather than re-derived.
-
-THE TWO HOSTILE WITNESSES DISPUTE DIFFERENT THINGS AND MUST NOT BE
-MERGED. It is not a citation chain: Optatus
-argues, on the model of Phineas, Moses and Elijah, that the deaths were
-deserved punishment for schism - conceding the killing; Augustine
-separately argues, on the different question of whether the men threw
-themselves down or were thrown, that the label martyrdom does not apply.
-Two authors, two arguments, two works, as carried in sources[] above.
-
-ANOTHER DONATUS, NOT DONATUS THE GREAT. Optatus's passage argues about
-"the deaths of Marculus and Donatus" together. Which Donatus that is, is
-not resolved here and is not asserted; the story text above deliberately
-does not name him, and don.figure.donatus does not claim him.
-
-THE DATING IS THE FIELD'S, NOT THE TEXT'S - don.core.donatism cautions
-item 6. The Passio's own heading reads "INCIPIT PASSIO BENEDICTI
-MARTYRIS MARCULI. 8 (al. die 5) kal. decembris" - a day only. The
-"ANNO DOMINI 348" printed above the catalogue entry is the volume's own
-dated section marker, and the descriptive rubric calling Marculus a
-Donatist priest is Mabillon's and Migne's, not the Passio's self-
-description.
