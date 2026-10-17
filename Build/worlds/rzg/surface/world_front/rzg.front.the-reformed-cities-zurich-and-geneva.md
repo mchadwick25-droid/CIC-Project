@@ -53,7 +53,7 @@ orientation:
   - text: >-
       On 29 January 1523, six hundred people filled Zurich's Town Hall for a
       public Disputation. They came from across the territory, priests and
-      laymen alike. Zwingli said only Scripture could correct him. Enemies of the new preaching had mocked the gathering in advance. Their scorn moved a schoolmaster who had sat through the day, Erhart Hegenwald, to write an account. When the arguments were done, the council ruled for the reform. It told every priest in its territory
+      laymen alike. Zwingli said only Scripture could correct him. Enemies of the new preaching mocked the gathering as a "tinker's day." Their scorn moved a schoolmaster who had sat through the day, Erhart Hegenwald, to write an account. When the arguments were done, the council ruled for the reform. It told every priest in its territory
       to preach the same way.
     grounded_in: [rzg.story.first-zurich-disputation, rzg.quote.taught-better-from-scripture, rzg.figure.hegenwald, rzg.ambient.disputation-crowd-scale]
   - text: >-
@@ -100,7 +100,7 @@ orientation:
   - story_id: rzg.story.first-zurich-disputation
     title: "Six Hundred People and a Council That Ruled"
     when: "29 January 1523, Zurich's Town Hall"
-    teaser: "Enemies of the new preaching mocked the gathering in advance. A schoolmaster named Erhart Hegenwald sat through the whole day and wrote an account of it. At the end of the day, the council ruled for the reform."
+    teaser: "Enemies of the new preaching mocked the gathering as a \"tinker's day.\" A schoolmaster named Erhart Hegenwald sat through the whole day and wrote an account of it. At the end of the day, the council ruled for the reform."
     grounded_in: [rzg.story.first-zurich-disputation, rzg.figure.hegenwald]
   - story_id: rzg.story.myconius-account-of-zwinglis-death
     title: "What His Friend Remembered of the Day He Died"
