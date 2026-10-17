@@ -279,6 +279,132 @@ orientation:
     note: "Egypt's customs, carried west and adapted for a colder climate and a bishop's new house."
   - source: gallic.source.vincent-commonitory
     note: "A short book written as a rule for telling true growth in the faith from a corruption dressed up as one."
+  highlights:
+  - phrase: "Sulpitius"
+    kind: person
+    note: "An Aquitanian of an illustrious family who wrote the Life of Martin. He says he learned the facts partly from Martin and partly from people who lived with him."
+    grounded_in: [gallic.figure.sulpitius, gallic.source.sulpitius-vita-martini]
+  - phrase: "Julian"
+    kind: person
+    note: "The text calls this commander only Julian Caesar. One editor of the English edition names him Julian the Apostate. The text never says so."
+    grounded_in: [gallic.story.discharge-before-caesar, gallic.figure.martin, gallic.source.npnf-editorial-apparatus]
+  - phrase: "Priscillian"
+    kind: person
+    note: "A man put to death after the bishop Ithacius accused him. The account says little of his followers. A hostile writer sums up the charges."
+    grounded_in: [gallic.story.trier-and-the-ithacian-communion, gallic.force.court-at-trier]
+  - phrase: "the emperor's court"
+    label: "Maximus"
+    kind: hint
+    note: "The emperor was Maximus. The record calls him a usurper. At Trier he took the side of Ithacius, who had accused Priscillian."
+    grounded_in: [gallic.force.court-at-trier, gallic.story.trier-and-the-ithacian-communion]
+  - phrase: "a traveler from Egypt"
+    label: "Postumianus"
+    kind: hint
+    note: "This is Postumianus, a character in the Dialogues of Sulpitius. He has just come back from Egypt. His praise of Martin was written by Sulpitius."
+    grounded_in: [gallic.contested.egypt-two-measures, gallic.quote.postumianus-you-have-conquered-all-the-eremites, gallic.force.egyptian-standard]
+  - phrase: "an elder"
+    label: "Chaeremon"
+    kind: hint
+    note: "Chaeremon, an old man whose cell stood near Panephysis in Egypt. Cassian wrote down his answer much later in Gaul, so the speeches are Cassian's own composition."
+    grounded_in: [gallic.story.germanus-scruple-at-morning-service, gallic.figure.cassian]
+  - phrase: "synod"
+    kind: term
+    note: "A meeting of bishops. After Trier, Martin stayed away from them. At Lérins, ancient councils were trusted to guard the faith. The record leaves both views standing."
+    grounded_in: [gallic.term.council-synod, gallic.story.trier-and-the-ithacian-communion]
+  - phrase: "communion"
+    kind: term
+    note: "Fellowship in the church, and the sacrament within it. To withhold it was the church's sharpest penalty. Martin said that one forced communion cost him some of his power."
+    grounded_in: [gallic.term.communion, gallic.story.trier-and-the-ithacian-communion]
+  - phrase: "sackcloth"
+    kind: term
+    note: "A coarse robe. Martin wore it to pray, to cast out demons and to die in. Cassian's Egyptian fathers refused it as too showy."
+    grounded_in: [gallic.term.sackcloth-and-ashes]
+  - phrase: "discretion"
+    kind: term
+    note: "Cassian's word for the judgment that keeps each virtue from going wrong. A monk gained it through humility, by testing his thoughts against the advice of the elders."
+    grounded_in: [gallic.term.discretion]
+  - phrase: "purity of heart"
+    kind: term
+    note: "The monk's nearest goal, short of the kingdom of heaven itself. Cassian ranked fasting and night prayer as aids to it, never as the point."
+    grounded_in: [gallic.term.purity-of-heart]
+  - phrase: "grace"
+    kind: term
+    note: "God's help, without which no effort reaches its goal. Whether grace or the human will begins the good is disputed, and scholars still disagree about what Cassian held."
+    grounded_in: [gallic.term.grace, gallic.contested.beginning-of-good-will]
+  - phrase: "virgins"
+    kind: term
+    note: "Women who had taken a consecrated state, with its own dress. The record names none of them, and not one of them speaks."
+    grounded_in: [gallic.term.virgin-virginity, gallic.story.death-of-martin-at-condate]
+  - phrase: "heretics"
+    kind: term
+    note: "People judged to have left the ancient, universal church. Martin held that bishops could expel them, and that an emperor's sword had no place in the matter."
+    grounded_in: [gallic.term.heretic-heresy, gallic.force.court-at-trier]
+  - phrase: "Tours"
+    kind: place
+    note: "The city of Tours in France, where Martin became bishop. The Romans knew it as Caesarodunum."
+    url: https://pleiades.stoa.org/places/138255
+    verified_on: "2026-10-17"
+    grounded_in: [gallic.figure.martin]
+  - phrase: "Marseilles"
+    kind: place
+    note: "Founded by Greeks around 600 BCE as Massalia, now Marseille in France. Cassian is said to have founded two houses here, one for men and one for women."
+    url: https://pleiades.stoa.org/places/148127
+    verified_on: "2026-10-17"
+    grounded_in: [gallic.figure.cassian]
+  - phrase: "Lérins"
+    kind: place
+    note: "The island is now Île Saint-Honorat, off the coast of France. Honoratus founded a monastery there."
+    url: https://pleiades.stoa.org/places/157906
+    verified_on: "2026-10-17"
+    grounded_in: [gallic.figure.honoratus]
+  - phrase: "Lerins"
+    kind: place
+    note: "The island is now Île Saint-Honorat, off the coast of France. Honoratus founded a monastery there."
+    url: https://pleiades.stoa.org/places/157906
+    verified_on: "2026-10-17"
+    grounded_in: [gallic.figure.honoratus]
+  - phrase: "Amiens"
+    kind: place
+    note: "Roman Samarobriva, now the city of Amiens in France. Martin met the beggar at its gate."
+    url: https://pleiades.stoa.org/places/109321
+    verified_on: "2026-10-17"
+    grounded_in: [gallic.story.the-cloak-at-amiens]
+  - phrase: "Trier"
+    kind: place
+    note: "A Roman city, now Trier in Germany. The emperor Maximus held his court there."
+    url: https://pleiades.stoa.org/places/108894
+    verified_on: "2026-10-17"
+    grounded_in: [gallic.force.court-at-trier]
+  - phrase: "Arles"
+    kind: place
+    note: "A city of Roman Gaul, now Arles in France. Honoratus became its bishop. Hilary came after him."
+    url: https://pleiades.stoa.org/places/148217
+    verified_on: "2026-10-17"
+    grounded_in: [gallic.figure.honoratus, gallic.story.honoratus-and-the-island, gallic.force.episcopal-recruitment]
+  - phrase: "Riez"
+    kind: place
+    note: "A Roman town in the territory of the Reii, now Riez in France. Faustus of Lérins became its bishop."
+    url: https://pleiades.stoa.org/places/157805
+    verified_on: "2026-10-17"
+    grounded_in: [gallic.force.episcopal-recruitment, gallic.contested.massilian-label]
+  - phrase: "Condate"
+    kind: place
+    note: "The church where Martin went to settle a quarrel among the clergy, and where he died. It is probably today's Candes-Saint-Martin in France."
+    url: https://pleiades.stoa.org/places/138305
+    verified_on: "2026-10-17"
+    grounded_in: [gallic.story.death-of-martin-at-condate]
+  - phrase: "Andethanna"
+    kind: place
+    note: "A village near Trier, where Martin sat grieving in the woods. It is probably Niederanven in Luxembourg, though an editor calls the surviving text of the name corrupt."
+    url: https://pleiades.stoa.org/places/108743
+    verified_on: "2026-10-17"
+    grounded_in: [gallic.story.trier-and-the-ithacian-communion, gallic.source.npnf-editorial-apparatus]
+  - phrase: "Panephysis"
+    kind: place
+    note: "A town in Egypt, at what is now el-Manzala. The old man's cell stood near it."
+    url: https://pleiades.stoa.org/places/727184
+    verified_on: "2026-10-17"
+    grounded_in: [gallic.story.germanus-scruple-at-morning-service]
 narrative:
   who_speaks:
     text: >-
