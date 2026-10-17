@@ -768,3 +768,37 @@ The project lead ruled on 14 October (option C) that an honest-limit sentence na
 - `pahc.demo.lament-suffering` representative turn: "We will not tell you why." now reads "We will not tell you why God allows such suffering."
 
 `engine.m10.cli records pahc` and `regate pahc --base origin/main` pass. Package rebuilt and repinned: `packages/pahc/2026-10-14T20-20-58Z`, `manifest_hash` `sha256:79a508813ec8e95437d6fcec6b8d1bd865323578b2fe7d5b4e8e5a11f4f2bca8`. Status: CLOSED.
+
+### OG-32. Atlas story pass: shorter story, ten card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card. He approved the House Churches story and the ten tellings in conversation on 17 October. `orientation.story` is now 8 units and 642 words, down from 8 units and 917 words. `documented_stories` shows ten stories in date order, seven of them new. Each of the ten story records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 22 short notes, and place notes cite Pleiades (checked 2026-10-17). The tile now says the communities gathered in households, after the project lead caught "ordinary houses", which no record supports. Review: `Build/Ministry/Operations/Audits/pahc_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/pahc/2026-10-17T03-09-11Z`, `manifest_hash` `sha256:efa796fd3dbeeb10658545e583c04fba2bb89c99d918ce5d7df0bc6b37d612a7`. This pin supersedes the one in OG-31.
+
+**Open:**
+- The card's recordings of the main story and of the ten tellings are not yet made. The project lead approves a sample first.
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+### OG-33. Five story records' own text disagrees with the vendored source, 2026-10-17.
+
+A source check during the Atlas story pass read the tellings against the vendored texts. The tellings now follow the source, but the records' own `text` (and in one case `tellable_as`) still carries the errors:
+- `pahc.story.pliny-interrogation`: the text puts the torture of the two women before the account of the meetings. In Pliny's letter (`cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml`, around line 19487) former Christians describe the meetings first. Pliny then tortures the women "in order to ascertain the truth". As written, a reader can take the account to be the women's words, against the record's own `use_note.not_for`.
+- `pahc.story.quintus-recantation`: the text and `tellable_as` say the letter names Quintus before it praises Polycarp. The letter praises Polycarp in chapter 1 and names Germanicus before Quintus (`cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml`, chapters 1 to 4). The text also says Polycarp "spent his last days" at "a quiet house in the country". The source says "a country house not far distant from the city", and in chapter 6 he moves to another dwelling.
+- `pahc.story.martyrdom-of-polycarp`: "the games were already finished". Chapter 12 says the shows of wild beasts were finished.
+- `pahc.story.grandsons-before-domitian`: "some thirty-nine plethra" drops the source's "only", and the text drops "only 9000 denaria".
+
+These are reviewed records, so the pass did not change them. The project lead rules on correcting them.
+
+Status: OPEN for the project lead.
+
+### OG-34. The readability gate does not score story tellings, 2026-10-17.
+
+`engine.m10.cli regate` scores the fields `gates._readability_checks` names and the world_front prose. A story's `telling` is not among them, so a telling that fails FK 10 or FRE 60 would pass the gate. The House Churches tellings were scored by hand with `gates.grade_text`: all ten pass (FK 5.7 to 8.6, FRE 64.5 to 78.7). The Donatist tellings were not scored this way. This is shared tooling, so the fix belongs to the thread that owns the compiler's `telling` support.
+
+Status: OPEN.
+
+### OG-35. Other world_front sections keep AI tells and "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the tile, the story, the card stories and highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first`, `narrative` and the body notes still use "this world" and dash asides. One body note is now false: it says the story quotes "a crude and excessive superstition" as the Pliny quote's modern rendering. The record's rendering is "nothing but a depraved superstition that went too far", which the story now quotes.
+
+Status: OPEN for the project lead to schedule.
