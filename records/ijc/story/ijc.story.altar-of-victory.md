@@ -49,6 +49,7 @@ text: >-
   removed. The exchange is our establishment speaking at its most
   confident. It is also the rare place in our record where the defeated side
   is heard making its own case, in its own words, at full strength.
+telling: "The altar of Victory stood in the Senate house in Rome. Constantius had it removed and Julian put it back, and then Gratian removed it again.\n\nIn the year 384, Symmachus petitioned the young emperor to bring the altar back. He was prefect of Rome and the old religion's most eloquent voice, and his plea survives. Rome's ancient worship, he said, had guarded Rome's ancient greatness, and so great a secret could not be reached by one road alone.\n\nAmbrose answered him twice in writing, and both answers survive beside the plea. A Christian emperor's state, Ambrose argued, may not fund what the faith knows to be false. What Symmachus called reverence for the past was, to Ambrose, the past's own long error.\n\nThe altar stayed removed."
 absent_detail: Ordinary pagans' religion - as against a senatorial orator's - is not what the Memorial
   preserves; and the emperor's own deliberation survives only as its outcome. The wider legal
   suppression of the old cults is carried at the level the sources allow (the laws' existence is

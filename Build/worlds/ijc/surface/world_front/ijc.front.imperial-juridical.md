@@ -47,73 +47,53 @@ orientation:
     grounded_in: [ijc.core.imperial-juridical, ijc.gravity.sacramental-institutional-tension]
   - text: >-
       In 312 Constantine fought the battle at the Milvian Bridge. Eusebius
-      tells what Constantine himself told him long afterward. About noon the
-      emperor saw a cross of light in the sky with the words Conquer by
-      this. His whole army saw it too. Lactantius wrote earlier and
+      tells what Constantine himself told him long afterward. About noon, he said, he saw a cross of light with the words "Conquer by this." His whole army saw it too. Lactantius wrote earlier and
       tells it differently. In his account a dream told Constantine to mark
-      Christ's sign on his soldiers' shields. Neither is ranked above the
-      other. The emperor stopped hunting the church,
+      Christ's sign on his soldiers' shields. The emperor stopped hunting the church,
       and within a year toleration was law.
     grounded_in: [ijc.story.vision-and-alliance, ijc.story.dream-before-battle, ijc.contested.constantine-conversion, ijc.force.constantine-alliance]
   - text: >-
-      In 341 a council in the East deposed Athanasius, the bishop of
-      Alexandria. Julius, bishop of Rome, wrote back that the custom was to
+      A council in the East deposed Athanasius, the bishop of Alexandria. In 341 Julius, bishop of Rome, wrote back that the custom was to
       write to Rome first. His letter survives because Athanasius quoted it.
-      It is the earliest surviving voice of Rome's claim. Those he wrote to
+      From these years, it is the earliest surviving voice of Rome's claim. Those he wrote to
       disputed how old and settled that custom was.
     grounded_in: [ijc.story.letter-that-outranked-a-council, ijc.quote.julius-custom, ijc.figure.julius, ijc.gravity.primacy-claiming]
   - text: >-
       The alliance never kept one shape. Under Constantius II the empire's
       own church confessed that the Son is like the Father. That creed is
       called Homoian. Valens enforced it again in the East. For roughly two
-      decades it was the official faith, and bishops who held the Nicene faith were deposed and exiled. From 380 Theodosius used the same
-      machinery to enforce the Nicene confession.
+      decades it was the official faith, and bishops who held the Nicene faith were deposed and exiled.
     grounded_in: [ijc.force.imperial-policy-oscillation, ijc.term.homoios, ijc.gravity.orthodoxy-enforcement, ijc.figure.constantius, ijc.figure.valens, ijc.core.imperial-juridical]
   - text: >-
       Ambrose set a limit on the alliance. In 386 the imperial
       court wanted one of his churches for the Homoian confession it held.
-      It acted under a law of January 386 allowing Homoians to assemble for
-      worship. Ambrose refused. He told his sister, I cannot give up the
-      basilica, but I must not fight. Soldiers stood around the building. He
-      stayed inside with the people, who kept guard, ready to die with their
-      bishop. Augustine, then in the city, remembered that Milan began to
-      sing hymns and psalms in the Eastern way. Ambrose preached that the
+      It acted under a law of January 386 allowing Homoians to assemble for worship. Ambrose refused to give the church up. "I cannot give up the basilica, but I must not fight," he told his sister. Soldiers stood around the building, and Ambrose stayed inside with the people. Augustine, then in the city, remembered that they kept guard, ready to die with their bishop. He wrote that Milan then began to sing hymns and psalms in the Eastern way. Ambrose preached that the
       emperor is within the Church, not above it. The court did not take
       the building.
     grounded_in: [ijc.story.vigil-in-basilica, ijc.quote.ambrose-cannot-surrender, ijc.quote.augustine-vigil-hymns, ijc.quote.ambrose-emperor-in-church, ijc.gravity.church-state-alliance]
   - text: >-
       In 388 Christians burned the synagogue at Callinicum, on the eastern
       frontier. Theodosius ordered the local bishop to pay for a new one.
-      Ambrose wrote to have the order reversed. When it stood, he would not
-      offer the sacrament until the emperor promised to change it.
-      Theodosius gave in. The Jewish community has no voice in the record.
+      Ambrose would not offer the sacrament until the emperor promised to change it, and Theodosius gave in. Here Ambrose used his power to shield the people who set the fire. The Jewish community has no voice in the sources.
     grounded_in: [ijc.story.callinicum-synagogue]
   - text: >-
       In 390 a riot at Thessalonica killed one of the emperor's generals.
-      Theodosius ordered revenge. His soldiers killed a crowd in the circus
-      with no trial. Theodoret writes that seven thousand are said to have died. Ambrose sent the emperor a private letter. I dare not
-      offer the sacrifice if you intend to be present, he wrote. He asked
+      Theodosius ordered revenge, and his soldiers killed a crowd in the circus with no trial. Theodoret writes that seven thousand are said to have died. Ambrose sent the emperor a private letter. "I dare not offer the sacrifice if you intend to be present," he wrote. He asked
       the emperor to repent before he stood at the altar again. Decades
       later, Sozomen and Theodoret wrote that he did public penance.
     grounded_in: [ijc.story.emperor-penance, ijc.quote.ambrose-dare-not-offer, ijc.figure.theodosius, ijc.gravity.episcopal-independence]
   - text: >-
-      Leo of Rome did not go to the Council of Chalcedon in 451. His legates
+      Leo of Rome did not go to the council at Chalcedon in 451. His legates
       went in his place, and his letter, the Tome, was read. The session
       record has the bishops crying out that Peter has spoken so through
       Leo. Three weeks later the council passed Canon 28. It gave
       Constantinople privileges equal to old Rome's, and rank just after
-      her. The fathers, it said, rightly gave Rome privileges
-      because it was the royal city. The new royal city, it said, should be
+      her. Earlier bishops, it said, had rightly given Rome privileges because it was the royal city. The new royal city, it said, should be
       honored the same way. Leo's legates objected, and Leo refused the
       canon. He wrote to the emperor that
       things secular stand on a different basis from things divine. He said
-      Constantinople was a royal city and could never be an apostolic see.
-    grounded_in: [ijc.story.tome-that-would-not-bend, ijc.quote.peter-has-spoken, ijc.quote.canon28-equal-privileges, ijc.quote.leo-things-secular, ijc.force.leo-rejects-canon-28, ijc.term.tomus]
-  - text: >-
-      So the council that defined who Christ is left open where the church's
-      final authority sits. Both claims were still held. Almost every voice that survives is a bishop,
-      an emperor or a court. Ordinary believers do not speak for themselves. Neither do Justina and Pulcheria, two women with real power.
-    grounded_in: [ijc.story.tome-that-would-not-bend, ijc.quote.chalcedon-definition, ijc.core.imperial-juridical, ijc.figure.justina, ijc.figure.pulcheria]
+      Constantinople was a royal city and could never be an apostolic see. The council that defined who Christ is left open where the church's final authority sits.
+    grounded_in: [ijc.story.tome-that-would-not-bend, ijc.quote.peter-has-spoken, ijc.quote.canon28-equal-privileges, ijc.quote.leo-things-secular, ijc.force.leo-rejects-canon-28, ijc.term.tomus, ijc.quote.chalcedon-definition]
   documented_stories:
   - story_id: ijc.story.dream-before-battle
     title: "Constantine's Dream at the Milvian Bridge"
@@ -138,7 +118,7 @@ orientation:
   - story_id: ijc.story.altar-of-victory
     title: "The Altar of Victory: Rome's Old Religion Makes Its Case"
     when: "384, the Senate house at Rome"
-    teaser: "Symmachus, prefect of Rome, asks the young emperor to bring back the Altar of Victory. Ambrose answers him twice in writing. The altar stays removed, and the plea survives beside the answers."
+    teaser: "Symmachus, prefect of Rome, asks the young emperor to bring back the Altar of Victory. Ambrose answers him twice in writing. The altar stays removed."
     grounded_in: [ijc.story.altar-of-victory, ijc.figure.ambrose]
   - story_id: ijc.story.vigil-in-basilica
     title: "A Milan Congregation Holds Its Church"
@@ -148,7 +128,7 @@ orientation:
   - story_id: ijc.story.callinicum-synagogue
     title: "Ambrose Defends the Men Who Burned a Synagogue"
     when: "388, on the eastern frontier"
-    teaser: "Christians burn a synagogue at Callinicum. The emperor orders the bishop to pay for a new one, but Ambrose gets the order changed. The Jewish community has no voice in the sources."
+    teaser: "Christians burn a synagogue at Callinicum. The emperor orders the bishop to pay for a new one, but Ambrose gets the order changed."
     grounded_in: [ijc.story.callinicum-synagogue, ijc.figure.ambrose]
   - story_id: ijc.story.emperor-penance
     title: "Thessalonica and the Emperor's Penance"
@@ -336,11 +316,11 @@ orientation:
     grounded_in: [ijc.term.primatus]
   - phrase: "Athanasius"
     kind: person
-    note: "Bishop of Alexandria. A council in the East deposed him in 341. Years later he quoted Julius's letter to defend himself."
+    note: "Bishop of Alexandria. A council in the East deposed him. Years later he quoted Julius's letter of 341 to defend himself."
     grounded_in: [ijc.story.letter-that-outranked-a-council, ijc.source.athanasius-apologia-contra-arianos]
   - phrase: "Julius"
     kind: person
-    note: "Bishop of Rome from 337 to 352. His letter of 341 is the earliest surviving voice of Rome's claim to review other churches' judgments."
+    note: "Bishop of Rome from 337 to 352. His letter of 341 is the earliest surviving voice, from these years, of Rome's claim to review other churches' judgments."
     grounded_in: [ijc.figure.julius]
   - phrase: "Constantius II"
     kind: person
@@ -372,7 +352,7 @@ orientation:
     grounded_in: [ijc.figure.leo, ijc.story.tome-that-would-not-bend]
   - phrase: "Symmachus"
     kind: person
-    note: "Prefect of Rome in 384 and a pagan senator. His plea for the altar survives in his own words."
+    note: "Prefect of Rome in 384 and a pagan senator."
     grounded_in: [ijc.source.symmachus-memorial]
   - phrase: "Eutropius"
     kind: person
@@ -381,19 +361,11 @@ orientation:
   - phrase: "Bishop John"
     label: "John Chrysostom"
     kind: person
-    note: "A bishop of the imperial capital from 398. He gave two sermons about Eutropius in 399."
+    note: "He was bishop of Constantinople from 398. He preached about Eutropius twice in 399. The first time, the man lay at the altar in front of him."
     grounded_in: [ijc.source.chrysostom-eutropius, ijc.story.eutropius-at-the-altar]
-  - phrase: "Justina"
-    kind: person
-    note: "Mother of the young emperor Valentinian II at Milan. She held a Homoian faith of her own. Her own words do not survive."
-    grounded_in: [ijc.figure.justina]
-  - phrase: "Pulcheria"
-    kind: person
-    note: "An empress, named Augusta in 414. With the emperor Marcian she called the council at Chalcedon. Her own words do not survive."
-    grounded_in: [ijc.figure.pulcheria, ijc.figure.marcian]
   - phrase: "Homoian"
     kind: term
-    note: "Greek for like. It names the creed that the Son is like the Father, as the scriptures say. For years it was the empire's official faith."
+    note: "From homoios, meaning like. It names the creed that the Son is like the Father, as the scriptures say. For years it was the empire's official faith."
     grounded_in: [ijc.term.homoios]
   - phrase: "Nicene faith"
     kind: term
@@ -422,20 +394,20 @@ orientation:
   - phrase: "Canon 28"
     kind: term
     note: "A rule passed at Chalcedon. It ranked the emperor's city next after Rome, since he reigned there. Leo refused it."
-    grounded_in: [ijc.quote.canon28-equal-privileges, ijc.force.leo-rejects-canon-28]
+    grounded_in: [ijc.quote.canon28-equal-privileges, ijc.force.leo-rejects-canon-28, ijc.term.presbeia]
   - phrase: "apostolic see"
     kind: term
     note: "A see is a bishop's seat. Rome held Peter's seat. No apostle had founded Constantinople."
     grounded_in: [ijc.term.primatus, ijc.term.presbeia]
+  - phrase: "Altar of Victory"
+    kind: term
+    note: "An old altar in the Senate house at Rome. Constantius had it removed, Julian put it back, and Gratian removed it again."
+    grounded_in: [ijc.story.altar-of-victory]
   - phrase: "the new royal city"
     label: "Constantinople"
     kind: term
     note: "In the canon this means Constantinople. It was called New Rome, since the emperor ruled from it."
     grounded_in: [ijc.term.nea-rhome, ijc.quote.canon28-equal-privileges]
-  - phrase: "Altar of Victory"
-    kind: term
-    note: "An old altar in the Senate house at Rome. Emperors removed it and put it back more than once before 384."
-    grounded_in: [ijc.story.altar-of-victory]
   - phrase: "Constantinople"
     kind: place
     note: "Constantine founded this city in 330 as the capital of the East. Today it is Istanbul, in Turkey."
@@ -444,7 +416,7 @@ orientation:
     grounded_in: [ijc.figure.constantine]
   - phrase: "Milan"
     kind: place
-    note: "A city in Italy that was later a capital of the Western Roman empire. Ambrose was its bishop."
+    note: "First a Celtic town, it later became a Western Roman capital. Today it is Milan, in Italy. Ambrose was its bishop."
     url: https://pleiades.stoa.org/places/383706
     verified_on: "2026-10-17"
     grounded_in: [ijc.figure.ambrose]

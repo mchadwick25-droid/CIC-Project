@@ -48,6 +48,7 @@ text: >-
   earliest surviving example of the claim. (Rome had asserted its standing
   before this - Victor around 190, Stephen in 256 - but outside our
   own years.) Rome did not keep it. Athanasius did, the man it had helped.
+telling: "Long before Leo wrote his Tome, Rome's claim to lead had already been made once, in a letter.\n\nA council in the East had condemned Athanasius of Alexandria and removed him from office. Julius, bishop of Rome, was expected to accept that decision. Instead he wrote back, questioning the council's right to settle the matter before Rome had heard it.\n\nHe put it to them as a question. \"Are you unaware that the custom has been to write to us first, and then for a just decision to be passed from this place?\" Julius had not attended their council, yet he wrote as though his absence were their fault.\n\nThe letter survives only because Athanasius quoted it at length years later, while he was defending his own restored standing. Rome did not keep the letter. Athanasius did, the man it had helped.\n\nRome had asserted its standing before this, under Victor around 190 and Stephen in 256. From these years, though, this letter is the earliest surviving example of the claim."
 absent_detail: The Eusebian party's own letter to Julius (the anti-Nicene faction named for Eusebius of
   Nicomedia, not Eusebius of Caesarea the historian) - the one he was answering - does not survive
   independently; their side of the argument reaches the record only through their opponents. And whether
