@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useConversation } from './hooks/useConversation';
+import { useVisibleHeight } from './hooks/useVisibleHeight';
 import { useTable } from './hooks/useTable';
 import { useWorlds } from './hooks/useWorlds';
 import { findWorld, findWorldByCensusId } from './data/worlds';
@@ -18,6 +19,9 @@ type Screen = 'arriving' | 'launch' | 'conversation' | 'table';
 // reads as "the site broke and reverted to the old design" when rendered
 // inside a themed iframe dressed up to look like part of the new site.
 const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
+// The site page around the frame already carries the wordmark and its own
+// "Tell us what you think"; the app's first-screen bar drops its copies.
+if (isEmbedded) document.documentElement.classList.add('is-framed');
 
 /**
  * The deep-link grammar - the ONE contract between the discovery surfaces
@@ -79,6 +83,7 @@ function sameSeats(a: string[], b: string[]): boolean {
 
 function App() {
   const conversation = useConversation();
+  useVisibleHeight();
   const table = useTable();
   const { worlds, isLoading: worldsLoading, error: worldsError } = useWorlds();
   const [screen, setScreen] = useState<Screen>(() => (expectsRoom() ? 'arriving' : 'launch'));
@@ -236,6 +241,13 @@ function App() {
     }
     setScreen('launch');
   };
+
+  // Once a conversation has started, the site page around the frame hides
+  // its own bars, so only the portrait and names sit above the transcript.
+  const conversationStarted = screen === 'conversation' && conversation.turns.some((t) => t.speaker === 'participant');
+  useEffect(() => {
+    if (isEmbedded) window.parent.postMessage({ type: 'cic:started', started: conversationStarted }, '*');
+  }, [conversationStarted]);
 
   const world = selectedWorldKey ? findWorld(worlds, selectedWorldKey) : undefined;
   const seatedWorlds = (screen === 'table' && table.worldKeys.length > 0 ? table.worldKeys : seated)

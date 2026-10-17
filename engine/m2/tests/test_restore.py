@@ -23,14 +23,16 @@ def _strip_to_manifest(location: pathlib.Path) -> int:
 def test_a_checkout_with_only_manifests_can_rebuild_the_pinned_package(tmp_path):
     reg = load_registry()
     entry = reg["fix"]
-    location = pathlib.Path(entry["package"]["location"])
-    manifest = json.loads((location / "manifest.json").read_text())
+    pinned = pathlib.Path(entry["package"]["location"])
+    manifest = json.loads((pinned / "manifest.json").read_text())
 
-    removed = _strip_to_manifest(location)
-    assert removed > 0
+    # a checkout of its own, holding the pinned package's manifest and nothing else
+    location = tmp_path / pinned
+    location.mkdir(parents=True)
+    (location / "manifest.json").write_text((pinned / "manifest.json").read_text())
     assert sorted(p.name for p in location.rglob("*")) == ["manifest.json"]
 
-    result = restore_package("fix", registry=reg)
+    result = restore_package("fix", registry=reg, repo_root=tmp_path)
     assert result["restored"] is True
     # every file is back, and every hash matches the committed contract
     for rel, digest in manifest["files"].items():
