@@ -488,6 +488,16 @@ button {
   color: var(--color-text-muted);
 }
 
+.is-framed .conversation__bar {
+  justify-content: center;
+  padding: 6px var(--spacing-lg);
+}
+
+.is-framed .conversation__bar > svg,
+.is-framed .conversation__bar-right .experience-feedback__toggle {
+  display: none;
+}
+
 /* BrandMark stays pinned left; the not-saved note sits grouped on the right. */
 .conversation__bar-right {
   display: flex;
