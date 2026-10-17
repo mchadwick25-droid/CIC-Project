@@ -32,6 +32,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative) for the 
   told him (''so he told me'').'
 tellable_as: Palladius's own account of meeting Didymus, the blind author of Alexandria
 text: 'Palladius visited Didymus four times over ten years. The teacher was old, and blind, and had been blind since he was four - too young ever to have learned letters. What others took in with their eyes he had taken in through his ears and held. Later tradition called him the seer, a name set against his blindness. He died at eighty-five. He told Palladius himself the age at which he was blinded.'
+telling: "Didymus lost his sight at four, he told Palladius, too young ever to have learned to read. Palladius met him four times over ten years and wrote down what he saw.\n\nBy then Didymus was old. What others took in with their eyes, he had taken in through his ears and held on to. He interpreted Scripture word by word. Palladius calls him the blind author.\n\nLater tradition called him the seer, a name set against his blindness. Most of the books he wrote are lost to us, and only fragments were recovered, centuries later.\n\nHe died at the age of eighty-five."
 absent_detail: 'What Didymus''s lessons were actually like - his classroom, his methods hour to hour -
   Palladius does not record; and Didymus''s own books, which survived him, are lost to us except in fragments
   recovered centuries later (the sharpest source absence in this world - see the search record). The ''seer''

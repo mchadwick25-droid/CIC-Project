@@ -183,11 +183,12 @@
  "alexandria-catechetical": {
   "story": {
    "file": "alexandria-catechetical/story.mp3",
-   "chars": 6329,
+   "chars": 3630,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -197,11 +198,12 @@
   },
   "docstory-alx.story.plague-nursing": {
    "file": "alexandria-catechetical/docstory-alx.story.plague-nursing.mp3",
-   "chars": 754,
+   "chars": 660,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -211,11 +213,12 @@
   },
   "docstory-alx.story.arsinoite-conference": {
    "file": "alexandria-catechetical/docstory-alx.story.arsinoite-conference.mp3",
-   "chars": 1128,
+   "chars": 1183,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -225,11 +228,12 @@
   },
   "docstory-alx.story.origen-daring-deed": {
    "file": "alexandria-catechetical/docstory-alx.story.origen-daring-deed.mp3",
-   "chars": 1035,
+   "chars": 1189,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -244,6 +248,96 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.john-young-robber": {
+   "file": "alexandria-catechetical/docstory-alx.story.john-young-robber.mp3",
+   "chars": 1108,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.leonides-martyrdom": {
+   "file": "alexandria-catechetical/docstory-alx.story.leonides-martyrdom.mp3",
+   "chars": 822,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.potamiaena": {
+   "file": "alexandria-catechetical/docstory-alx.story.potamiaena.mp3",
+   "chars": 968,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.origen-demetrius": {
+   "file": "alexandria-catechetical/docstory-alx.story.origen-demetrius.mp3",
+   "chars": 587,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.gregory-formation": {
+   "file": "alexandria-catechetical/docstory-alx.story.gregory-formation.mp3",
+   "chars": 1059,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.didymus-meeting": {
+   "file": "alexandria-catechetical/docstory-alx.story.didymus-meeting.mp3",
+   "chars": 554,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -897,11 +991,12 @@
  "the-reformed-cities-zurich-and-geneva": {
   "story": {
    "file": "the-reformed-cities-zurich-and-geneva/story.mp3",
-   "chars": 7362,
+   "chars": 3767,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -911,11 +1006,12 @@
   },
   "docstory-rzg.story.first-zurich-disputation": {
    "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.first-zurich-disputation.mp3",
-   "chars": 978,
+   "chars": 786,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -925,11 +1021,12 @@
   },
   "docstory-rzg.story.calvins-journey-to-zurich": {
    "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.calvins-journey-to-zurich.mp3",
-   "chars": 879,
+   "chars": 919,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -939,11 +1036,12 @@
   },
   "docstory-rzg.story.myconius-account-of-zwinglis-death": {
    "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.myconius-account-of-zwinglis-death.mp3",
-   "chars": 993,
+   "chars": 1149,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -1150,11 +1248,12 @@
  "lutheran-wittenberg-and-its-congregations": {
   "story": {
    "file": "lutheran-wittenberg-and-its-congregations/story.mp3",
-   "chars": 6639,
+   "chars": 3759,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -1164,11 +1263,12 @@
   },
   "docstory-witt.story.letter-to-albrecht-and-theses-circulation": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.letter-to-albrecht-and-theses-circulation.mp3",
-   "chars": 2684,
+   "chars": 1250,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -1178,11 +1278,12 @@
   },
   "docstory-witt.story.return-and-the-eight-sermons": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.return-and-the-eight-sermons.mp3",
-   "chars": 1840,
+   "chars": 1037,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -1192,11 +1293,12 @@
   },
   "docstory-witt.story.diet-of-augsburg-1530": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.diet-of-augsburg-1530.mp3",
-   "chars": 1476,
+   "chars": 1028,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -1211,6 +1313,111 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.augsburg-before-cajetan": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.augsburg-before-cajetan.mp3",
+   "chars": 1049,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.worms-1521": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.worms-1521.mp3",
+   "chars": 1077,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.brussels-martyrs": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.brussels-martyrs.mp3",
+   "chars": 870,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.speratus-hymn-under-the-window": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.speratus-hymn-under-the-window.mp3",
+   "chars": 542,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.first-german-mass-sung": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.first-german-mass-sung.mp3",
+   "chars": 977,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.household-catechism-lesson-typical-practice": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.household-catechism-lesson-typical-practice.mp3",
+   "chars": 1205,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.household-and-kate-on-prayer": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.household-and-kate-on-prayer.mp3",
+   "chars": 939,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
