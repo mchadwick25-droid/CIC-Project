@@ -864,11 +864,12 @@
  "imperial-juridical-christianity": {
   "story": {
    "file": "imperial-juridical-christianity/story.mp3",
-   "chars": 6919,
+   "chars": 3536,
    "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.8,
     "similarity_boost": 0.8,
@@ -878,11 +879,12 @@
   },
   "docstory-ijc.story.callinicum-synagogue": {
    "file": "imperial-juridical-christianity/docstory-ijc.story.callinicum-synagogue.mp3",
-   "chars": 1072,
+   "chars": 940,
    "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.8,
     "similarity_boost": 0.8,
@@ -892,11 +894,12 @@
   },
   "docstory-ijc.story.altar-of-victory": {
    "file": "imperial-juridical-christianity/docstory-ijc.story.altar-of-victory.mp3",
-   "chars": 868,
+   "chars": 671,
    "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.8,
     "similarity_boost": 0.8,
@@ -906,11 +909,12 @@
   },
   "docstory-ijc.story.eutropius-at-the-altar": {
    "file": "imperial-juridical-christianity/docstory-ijc.story.eutropius-at-the-altar.mp3",
-   "chars": 1134,
+   "chars": 1139,
    "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.8,
     "similarity_boost": 0.8,
@@ -925,6 +929,111 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "settings": {
+    "stability": 0.8,
+    "similarity_boost": 0.8,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-ijc.story.dream-before-battle": {
+   "file": "imperial-juridical-christianity/docstory-ijc.story.dream-before-battle.mp3",
+   "chars": 550,
+   "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.8,
+    "similarity_boost": 0.8,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-ijc.story.vision-and-alliance": {
+   "file": "imperial-juridical-christianity/docstory-ijc.story.vision-and-alliance.mp3",
+   "chars": 705,
+   "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.8,
+    "similarity_boost": 0.8,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-ijc.story.emperor-builds-another-basilica": {
+   "file": "imperial-juridical-christianity/docstory-ijc.story.emperor-builds-another-basilica.mp3",
+   "chars": 860,
+   "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.8,
+    "similarity_boost": 0.8,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-ijc.story.letter-that-outranked-a-council": {
+   "file": "imperial-juridical-christianity/docstory-ijc.story.letter-that-outranked-a-council.mp3",
+   "chars": 503,
+   "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.8,
+    "similarity_boost": 0.8,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-ijc.story.vigil-in-basilica": {
+   "file": "imperial-juridical-christianity/docstory-ijc.story.vigil-in-basilica.mp3",
+   "chars": 1043,
+   "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.8,
+    "similarity_boost": 0.8,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-ijc.story.emperor-penance": {
+   "file": "imperial-juridical-christianity/docstory-ijc.story.emperor-penance.mp3",
+   "chars": 980,
+   "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.8,
+    "similarity_boost": 0.8,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-ijc.story.tome-that-would-not-bend": {
+   "file": "imperial-juridical-christianity/docstory-ijc.story.tome-that-would-not-bend.mp3",
+   "chars": 1112,
+   "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.8,
     "similarity_boost": 0.8,
