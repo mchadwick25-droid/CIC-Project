@@ -1,0 +1,28 @@
+source_file: gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858.txt
+
+assignments:
+  - row_id: gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858--orations-27-45-pg-36-greek
+    work: "Orations 27-45, PG 36, Greek"
+    author: gregory-nazianzen
+    locus: "whole volume; Oration 42, the Farewell before the 150 bishops, heading at file line 38916, first words at file line 38925; Oration 45 at file line 52337"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: provisional
+    note: >
+      Primary original-language voice: the Greek of the Theological Orations preached at
+      Constantinople in 380 and of Oration 42, spoken to the Council of Constantinople in 381
+      as Gregory resigned. Greek original behind the English in npnf207. Second witness for
+      quotation until checked against the page image: Greek legible, Latin column garbled, kappa
+      and chi confused.
+  - row_id: gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858--orations-27-45-pg-36-greek-2
+    work: "Orations 27-45, PG 36, Greek"
+    author: gregory-nazianzen
+    locus: "the five Theological Orations (27-31), the opening of the volume"
+    atlas_ids:
+      - anomoean-eunomian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      The Theological Orations argue against the Eunomians by name. A contemporary opponent's
+      view of that movement, in Greek; context, not its own voice.

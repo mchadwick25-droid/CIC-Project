@@ -2903,3 +2903,217 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "Shared-Events source-research thread, 2026-10-17: archive.org metadata read (Leipzig 1859, volumes 4.1, 4.2, 5); not opened"
     status: not-yet-downloaded
+
+  - title: "Patrologia Graeca 37: Gregory of Nazianzus, Letters and Poems (De vita sua; on himself and the bishops; Letters 101-102 to Cledonius)"
+    author: "Gregory of Nazianzus"
+    translator: "J.-P. Migne (ed.); Greek with garbled Latin column"
+    year: 1857
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Shared event constantinople-381. The autobiographical poem is the one account of the
+      council written from inside it; no public-domain English is known. Greek recovered in the
+      OCR, Latin column garbled; second witness until checked against the page image.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_037"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: metadata read (Public Domain Mark), djvu.txt fetched, byte count equal to listed size, poem headings read at raw lines 85693 and 97036"
+    status: downloaded
+    vendored_as: "gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt"
+
+  - title: "Patrologia Graeca 36: Gregory of Nazianzus, Orations 27-45 (Theological Orations; Oration 42, the Farewell before the 150 bishops)"
+    author: "Gregory of Nazianzus"
+    translator: "J.-P. Migne (ed.); Greek with garbled Latin column"
+    year: 1858
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Shared event constantinople-381. Greek original of Oration 42 behind the English in
+      npnf207. Second witness, same OCR pattern as PG 37.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_036"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: metadata read (Public Domain Mark), djvu.txt fetched, byte count equal, 'LOGOS MB' heading read at raw line 38904"
+    status: downloaded
+    vendored_as: "gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858.txt"
+
+  - title: "Apollinaris von Laodicea und seine Schule: Texte und Untersuchungen, I"
+    author: "Apollinaris of Laodicea and his school"
+    translator: "Hans Lietzmann (ed.); Greek texts with German study"
+    year: 1904
+    world: "apollinarian-christianity"
+    why: >
+      Shared event constantinople-381: the Apollinarian side in its own words (canon 1
+      anathematizes them). Greek and German both recovered.
+    url: "https://archive.org/details/apollinarisvonl00apolgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: metadata read (NOT_IN_COPYRIGHT), title page read (1904), djvu.txt fetched, byte count equal"
+    status: downloaded
+    vendored_as: "apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt"
+
+  - title: "Epiphanius, Panarion haer. 34-64 (GCS 31), vol. 2"
+    author: "Epiphanius of Salamis"
+    translator: "Karl Holl (ed.); Greek with German apparatus"
+    year: 1922
+    world: "alexandria-catechetical"
+    why: >
+      Shared event origenist-controversy-oak-400-403: heresy 64, the refutation of Origen that
+      framed the controversy. The archive.org record is dated 1915 (volume 1); this volume's
+      title page and preface read 1922.
+    url: "https://archive.org/details/epiphanius02epip"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: title page and preface read (1922), djvu.txt fetched, byte count equal"
+    status: downloaded
+    vendored_as: "epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+
+  - title: "Sozomeni Ecclesiastica Historia, tomus II (Books V-IX), Greek"
+    author: "Sozomen"
+    translator: "Robert Hussey (ed.); Greek with Latin version (Latin not recovered)"
+    year: 1860
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Shared events constantinople-381 (Book VII) and origenist-controversy-oak-400-403 (Book
+      VIII). Greek original behind npnf202. Second witness: Latin and title page garbled.
+    url: "https://archive.org/details/sozomeniecclesia02sozo"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: metadata read (Hussey, Oxford, 1860), djvu.txt fetched, byte count equal, book headings read"
+    status: downloaded
+    vendored_as: "sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860.txt"
+
+  - title: "Patrologia Graeca 47: Chrysostom, Opera I, with Palladius, Dialogus historicus de vita Chrysostomi"
+    author: "Palladius of Helenopolis; John Chrysostom"
+    translator: "J.-P. Migne (ed.); Greek with garbled Latin column"
+    year: 1863
+    world: "antiochene-exegetical-christianity-chrysostom-ce"
+    why: >
+      Shared event origenist-controversy-oak-400-403: Greek original of the eyewitness
+      Dialogue behind the held Moore translation. Second witness, same OCR pattern.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_047"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: metadata read (Public Domain Mark), djvu.txt fetched, byte count equal, Dialogue heading read at raw line 7049"
+    status: downloaded
+    vendored_as: "john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863.txt"
+
+  - title: "Patrologia Graeca 52: Chrysostom, letters from exile (to Innocent, to Olympias) and homilies of 399-404"
+    author: "John Chrysostom"
+    translator: "J.-P. Migne (ed.); Greek with garbled Latin column"
+    year: 1862
+    world: "antiochene-exegetical-christianity-chrysostom-ce"
+    why: >
+      Shared event origenist-controversy-oak-400-403: Chrysostom's own voice on the Oak in the
+      original; English of the letters to Innocent and Olympias is in npnf109. Second witness.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_052"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: metadata read (Public Domain Mark), djvu.txt fetched, byte count equal, Olympias and Cucusus letters located"
+    status: downloaded
+    vendored_as: "john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862.txt"
+
+  - title: "Gregorii Barhebraei Chronicon Ecclesiasticum, tomus I (patriarchs of Antioch)"
+    author: "Bar Hebraeus"
+    translator: "J.-B. Abbeloos and T. J. Lamy (eds., Latin translation; Syriac not recovered)"
+    year: 1872
+    world: "syriac-orthodox-west-syriac-christianity"
+    why: >
+      Shared events constantinople-381 and origenist-controversy-oak-400-403: thirteenth-century
+      Syriac Orthodox memory of Meletius, Nectarius, Theophilus's synod and Chrysostom's exile.
+      Completes the set with the vol. III file already vendored.
+    url: "https://archive.org/details/bub_gb_pDgyzvNwNjUC"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: metadata read (Public Domain Mark), title page read (Tomus I, 1872), djvu.txt fetched, byte count equal"
+    status: downloaded
+    vendored_as: "barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt"
+
+  - title: "The Book of the Saints of the Ethiopian Church, vol. I (Maskaram, Tekemt, Khedar)"
+    author: "Ethiopic Synaxarium (anonymous)"
+    translator: "E. A. Wallis Budge"
+    year: 1928
+    world: "the-ethiopian-monastic-flowering"
+    why: >
+      Shared event origenist-controversy-oak-400-403: Ethiopian commemorations of Theophilus of
+      Alexandria (his anathema on Origen) and of the translation of Chrysostom's body.
+    url: "https://archive.org/details/bookofsaintsofet0001unse"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: title page read (MCMXXVIII, Cambridge), djvu.txt fetched, byte count equal, entries located"
+    status: downloaded
+    vendored_as: "ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt"
+
+  - title: "The Book of the Saints of the Ethiopian Church, vol. II (Takhshash, Ter, Yakatit)"
+    author: "Ethiopic Synaxarium (anonymous)"
+    translator: "E. A. Wallis Budge"
+    year: 1928
+    world: "the-ethiopian-monastic-flowering"
+    why: >
+      Shared event constantinople-381: the Ethiopian commemoration of Gregory the Theologian.
+    url: "https://archive.org/details/bookofsaintsofet0002unse"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: title page read (MCMXXVIII, Cambridge), djvu.txt fetched, byte count equal, entry located at raw line 12768"
+    status: downloaded
+    vendored_as: "ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt"
+
+  - title: "Patrologia Graeca 35: Gregory of Nazianzus, Orations 1-26 (Orations 25 and 26 on Maximus the Cynic)"
+    author: "Gregory of Nazianzus"
+    translator: "J.-P. Migne (ed.)"
+    year: 1857
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Shared event constantinople-381: Orations 25 (in praise of 'Hero', that is Maximus) and 26
+      (after Maximus's attempted ordination) are Gregory's own words on the Maximus affair that
+      canon 4 settled. Not fetched: size discipline (about 7 MB) after two other PG volumes of
+      Gregory were taken; expect the same Greek-legible, Latin-garbled OCR.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_035"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: archive.org search listing only (identifier, 1857, Greek); metadata and text not read"
+    status: not-yet-downloaded
+
+  - title: "Epiphanius, Ancoratus und Panarion haer. 1-33 (GCS 25), vol. 1"
+    author: "Epiphanius of Salamis"
+    translator: "Karl Holl (ed.)"
+    year: 1915
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Shared event constantinople-381: the Ancoratus (374) carries the creed that the
+      npnf214 excursus compares with the creed of 381. Not fetched: the 381 creed question is
+      already documented in npnf214 and npnf205; fetch when a story needs the Greek.
+    url: "https://archive.org/details/epiphanius01epip"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: metadata read (volume 1, 1915, Leipzig, Hinrichs); text not fetched"
+    status: not-yet-downloaded
+
+  - title: "Gregorii Barhebraei Chronicon Ecclesiasticum, tomus II"
+    author: "Bar Hebraeus"
+    translator: "J.-B. Abbeloos and T. J. Lamy"
+    year: 1874
+    world: "syriac-orthodox-west-syriac-christianity"
+    why: >
+      Continuation of the Antiochene patriarchs after volume I; outside this batch's events.
+      Not fetched; listed so the set can be completed later.
+    url: "https://archive.org/details/bub_gb_NN0DG5Nb5ucC"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: metadata read (1874, Public Domain Mark); text not fetched"
+    status: not-yet-downloaded
+
+  - title: "Primitive Christianity Reviv'd, vol. I (with Eunomius's Apologetick subjoined)"
+    author: "William Whiston; Eunomius"
+    translator: "William Whiston"
+    year: 1711
+    world: "anomoean-eunomian-christianity"
+    why: >
+      Verified that Whiston's English of Eunomius's Apology sits here (title page, raw line
+      497; the text from raw line 33186). Not fetched: the same translation is already vendored
+      as eunomius_first-apology_whiston1711.txt from Pearse's transcription. Neither this volume
+      nor volume IV (primitivechristi04whis, also checked) carries the Eunomian confession of
+      383.
+    url: "https://archive.org/details/primitivechristi01whis"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: metadata read (NOT_IN_COPYRIGHT), djvu.txt fetched to scratch and searched; not vendored (duplicate)"
+    status: not-yet-downloaded
+
+  - title: "The Five Theological Orations of Gregory of Nazianzus (Greek text with English introduction and notes)"
+    author: "Gregory of Nazianzus"
+    translator: "A. J. Mason (ed.)"
+    year: 1899
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      A clean Cambridge Greek text of Orations 27-31, an alternative to the garbled Latin-column
+      PG 36 scan for those five orations. Not fetched: the orations precede the council and
+      PG 36 was taken for Oration 42.
+    url: "https://archive.org/details/fivetheologicalo00greg_0"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker B, 2026-10-17: archive.org search listing only (1899, Greek and English); metadata and text not read"
+    status: not-yet-downloaded
