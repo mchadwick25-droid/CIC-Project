@@ -160,6 +160,14 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 .orient-pull-quote{margin:0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--action)}
 .orient-pull-quote p{font-style:italic;font-size:1.1rem;margin:0 0 .3rem}
 .orient-pull-quote cite{font-family:var(--sans);font-style:normal;font-size:.85rem;color:var(--muted)}
+.hl{position:relative;background:color-mix(in srgb,var(--action) 13%,transparent);border-bottom:1.5px dotted var(--action);border-radius:2px;cursor:help;padding:0 .08em}
+.hl:focus-visible{outline:2px solid var(--action);outline-offset:2px}
+.hl-note{display:none;position:absolute;left:0;top:calc(100% + 6px);z-index:20;width:min(18rem,80vw);background:var(--text);color:var(--surface);font-family:var(--sans,system-ui,sans-serif);font-size:.875rem;font-style:normal;font-weight:400;line-height:1.45;padding:.55rem .7rem;border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,.2);text-align:left}
+.hl-note b{display:block;margin-bottom:.15rem}
+.hl-note small{display:block;margin-top:.3rem;opacity:.75;font-size:.75rem}
+.hl:hover .hl-note,.hl:focus .hl-note{display:block}
+@media (hover:none){.hl{cursor:pointer}}
+@media (max-width:600px){.hl-note{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));top:auto;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:auto}}
 /* END orientation-content-css */
 
 /* Persistent feature header: Church Family Tree / Conversation with One */
@@ -299,7 +307,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <p class="teaser">Enemies of the new preaching mocked the gathering in advance as fit only for tinkers. A schoolmaster sat through the whole day and wrote down why they were wrong.</p>
       <details class="docstory-item" id="the-reformed-cities-zurich-and-geneva-story-0">
       <summary><span class="docstory-title">Read the full account</span></summary>
-      <div class="docstory"><div class="narration"><audio controls preload="none" src="../audio/worlds/the-reformed-cities-zurich-and-geneva/docstory-0.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>In 1523, six hundred people filled Zurich&#39;s own Town Hall to test our founder&#39;s own case against Scripture, and the council ruled for it, binding every priest in its territory to preach the same way.</p></div>
+      <div class="docstory"><div class="narration"><audio controls preload="none" src="../audio/worlds/the-reformed-cities-zurich-and-geneva/docstory-rzg.story.first-zurich-disputation.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>In 1523, six hundred people met in Zurich&#39;s Town Hall to test our founder&#39;s case against Scripture. The council ruled for it and told every priest in its land to preach the same way.</p></div>
       </details>
       </div>
       <div class="docstory-entry">
@@ -308,7 +316,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <p class="teaser">Worried that Geneva&#39;s and Zurich&#39;s own teaching on the Supper might quietly disagree, Calvin did not trust a letter. He went to Zurich in person, with Farel at his side.</p>
       <details class="docstory-item" id="the-reformed-cities-zurich-and-geneva-story-1">
       <summary><span class="docstory-title">Read the full account</span></summary>
-      <div class="docstory"><div class="narration"><audio controls preload="none" src="../audio/worlds/the-reformed-cities-zurich-and-geneva/docstory-1.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>In 1549, worried whether Geneva&#39;s and Zurich&#39;s own teaching on the Supper actually agreed, Calvin travelled to Zurich himself rather than trust a letter, and what he and Farel worked out there became the Consensus Tigurinus.</p></div>
+      <div class="docstory"><div class="narration"><audio controls preload="none" src="../audio/worlds/the-reformed-cities-zurich-and-geneva/docstory-rzg.story.calvins-journey-to-zurich.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>In 1549, many feared that Geneva and Zurich taught different things about the Supper. Calvin went to Zurich with Farel to talk it out. That meeting led to the Consensus Tigurinus.</p></div>
       </details>
       </div>
       <div class="docstory-entry">
@@ -317,7 +325,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <p class="teaser">Zwingli rode out to battle and was killed that same afternoon. His closest friend wrote down what he remembered - and was careful to say which parts he saw and which he was only told.</p>
       <details class="docstory-item" id="the-reformed-cities-zurich-and-geneva-story-2">
       <summary><span class="docstory-title">Read the full account</span></summary>
-      <div class="docstory"><div class="narration"><audio controls preload="none" src="../audio/worlds/the-reformed-cities-zurich-and-geneva/docstory-2.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>Our founder rode out to battle on 11 October 1531 and was killed that same afternoon; his close friend Myconius wrote down what he remembered of that day.</p></div>
+      <div class="docstory"><div class="narration"><audio controls preload="none" src="../audio/worlds/the-reformed-cities-zurich-and-geneva/docstory-rzg.story.myconius-account-of-zwinglis-death.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>Our founder rode out to battle on 11 October 1531 and was killed that afternoon. His friend Myconius wrote down what he remembered.</p></div>
       </details>
       </div>
       </div>
@@ -341,9 +349,9 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <h2 id="sourcing-title">What this account is built from</h2>
         <div class="reading"><p>This world&#39;s own record is richest in confession and doctrine: Calvin&#39;s Institutes and Catechism, Zwingli&#39;s own founding statements, the jointly signed Consensus Tigurinus, and Bullinger&#39;s Second Helvetic Confession all survive and are well documented. It goes thin or silent elsewhere. No surviving account describes an ordinary Sunday service, a Consistory summons, or an ordinary citizen&#39;s own experience of either reform. Geneva&#39;s own consistory registers - the very archive this world was selected for, and the reason it has been described elsewhere as one of the best ordinary-life archives in Christian history - remain unacquired; the general doctrine of discipline is Documented, but no single real case currently survives in this world&#39;s own record. Three of this world&#39;s own most consequential disputes - the Marburg Colloquy, the Bolsec controversy, and the Perrinist crisis - have no surviving primary narrative comparable to this world&#39;s own three built stories. And no woman&#39;s own words survive: Marie Dentiere wrote in Geneva&#39;s own defense and was prosecuted for it, but her own argument has not yet reached us.</p>
       <ul class="orient-read-first">
-      <li><span class="orient-read-first-work">John Calvin, Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining the Grace of Christ)</span> <span class="orient-read-first-note">Geneva&#39;s own load-bearing doctrinal core - Christ the Redeemer, faith, and predestination. Calvin&#39;s own surviving corpus runs roughly four times Zwingli&#39;s by volume in this world&#39;s own record, a disclosed concentration worth reading with that asymmetry in mind.</span></li>
-      <li><span class="orient-read-first-work">Huldrych Zwingli, The Sixty-Seven Articles (1523)</span> <span class="orient-read-first-note">Zurich&#39;s own founding doctrinal statement, defended article by article at the First Disputation in 1523. Article XVIII carries the earlier, sharper pole of this world&#39;s own unresolved tension over what the Supper actually is.</span></li>
-      <li><span class="orient-read-first-work">John Calvin and the Zurich pastors (jointly negotiated and signed), Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)</span> <span class="orient-read-first-note">The one document in this world&#39;s entire corpus that both cities&#39; own hands actually touched - a jointly negotiated 1549 statement on the Supper, not a record of prior contact between Zwingli and Calvin, who never met.</span></li>
+      <li><span class="orient-read-first-work">John Calvin, Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining the Grace of Christ), trans. Henry Beveridge (Edinburgh: Calvin Translation Society, 1845)</span> <span class="orient-read-first-note">Geneva&#39;s own load-bearing doctrinal core - Christ the Redeemer, faith, and predestination. Calvin&#39;s own surviving corpus runs roughly four times Zwingli&#39;s by volume in this world&#39;s own record, a disclosed concentration worth reading with that asymmetry in mind.</span></li>
+      <li><span class="orient-read-first-work">Huldrych Zwingli, The Sixty-Seven Articles (1523), in the collective volume Selected Works (Jackson 1901)</span> <span class="orient-read-first-note">Zurich&#39;s own founding doctrinal statement, defended article by article at the First Disputation in 1523. Article XVIII carries the earlier, sharper pole of this world&#39;s own unresolved tension over what the Supper actually is.</span></li>
+      <li><span class="orient-read-first-work">John Calvin and the Zurich pastors, Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554), trans. Henry Beveridge (1844)</span> <span class="orient-read-first-note">The one document in this world&#39;s entire corpus that both cities&#39; own hands actually touched - a jointly negotiated 1549 statement on the Supper, not a record of prior contact between Zwingli and Calvin, who never met.</span></li>
       </ul></div>
       </section>
 
@@ -358,15 +366,15 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <p class="eyebrow">In this world's own words</p>
         <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
         <div class="orient-pull-quotes">
-      <blockquote class="orient-pull-quote"><p>We reject those who seek, apart from Christ, whether they are chosen. Let Christ be the mirror in which we behold our own election.</p><cite>Heinrich Bullinger</cite></blockquote>
-      <blockquote class="orient-pull-quote"><p>Christ sacrificed himself once. That sacrifice is, to eternity, a certain and valid offering for the sins of all the faithful. From this it follows that the Mass is not a sacrifice. It is a remembrance of that sacrifice, and an assurance of the salvation Christ has given us.</p><cite>Huldrych Zwingli</cite></blockquote>
-      <blockquote class="orient-pull-quote"><p>What evil is there in this? It is true, they can kill the body, but not the soul.</p><cite>Huldrych Zwingli, as reported by Oswald Myconius</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.</p><cite>Heinrich Bullinger</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>Christ sacrificed himself once. He is forever a sure and valid sacrifice for the sins of all the faithful. From this it follows that the mass is not a sacrifice. It is a remembrance of the sacrifice and an assurance of the salvation which Christ has given us.</p><cite>Huldrych Zwingli</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>What harm is there in this? It is true, they can kill the body, but not the soul.</p><cite>Huldrych Zwingli, as reported by Oswald Myconius</cite></blockquote>
       </div><dl class="orient-glossary">
-      <div class="orient-glossary-item"><dt>Sola Scriptura</dt><dd>Scripture alone, not church tradition or a pope&#39;s decree, settles what we believe and how we govern our churches. Zurich tested this in public debate. Geneva built it up through sustained teaching. Both cities held the same conviction.</dd></div>
+      <div class="orient-glossary-item"><dt>Sola Scriptura</dt><dd>Scripture alone, not church tradition or a pope&#39;s decree, settled what we believed and how we governed our churches. Zurich tested this in public debate. Geneva built it up through sustained teaching. Both cities held the same conviction.</dd></div>
       <div class="orient-glossary-item"><dt>Predestination and Election</dt><dd>God chose, before the world began and by his own free will alone, who would be saved. Both Zurich and Geneva held this. Geneva built it into a full system. Zurich stated it more briefly, as pastoral comfort.</dd></div>
-      <div class="orient-glossary-item"><dt>The Lord&#39;s Supper and Spiritual Presence</dt><dd>We refuse two claims about the Lord&#39;s Supper. It does not repeat Christ&#39;s own sacrifice. His body does not sit physically inside the bread. What we affirm took two cities and a 1549 agreement to state together: Christ is truly given, by the Spirit, to whoever receives him believing.</dd></div>
-      <div class="orient-glossary-item"><dt>Consistory</dt><dd>At Geneva, the Consistory is our body of pastors and lay elders. It holds our whole population&#39;s daily conduct to account. Zurich has no equivalent. Its council governs church and city directly.</dd></div>
-      <div class="orient-glossary-item"><dt>Disputation</dt><dd>A Disputation was a public debate held before Zurich&#39;s own city council. Our reforming side defended its case from Scripture. The old church&#39;s side answered. This is how Zurich actually decided to reform - not a private argument, a civic one.</dd></div>
+      <div class="orient-glossary-item"><dt>The Lord&#39;s Supper and Spiritual Presence</dt><dd>We refused two claims about the Lord&#39;s Supper. It did not repeat Christ&#39;s sacrifice. His body did not sit in the bread. What we affirmed took two cities and a 1549 agreement to state together. Christ is truly given, by the Spirit, to whoever receives him believing.</dd></div>
+      <div class="orient-glossary-item"><dt>Consistory</dt><dd>At Geneva, the Consistory was our body of pastors and lay elders. It held everyone to account for how they lived each day. Our record shows no such body at Zurich. There the council ruled church and city directly.</dd></div>
+      <div class="orient-glossary-item"><dt>Disputation</dt><dd>A Disputation was a public debate before Zurich&#39;s own city council. Our reforming side defended its case from Scripture. The old church&#39;s side answered. This was how Zurich chose to reform.</dd></div>
       </dl>
       </section>
 

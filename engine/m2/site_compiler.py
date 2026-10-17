@@ -80,6 +80,7 @@ def _resolve_story(story_id: str | None, records: dict) -> dict | None:
     return {
         "id": story_id,
         "tellable_as": rec.get("tellable_as"),
+        "telling": rec.get("telling"),
         "confidence": _confidence_label(rec),
     }
 
@@ -215,11 +216,14 @@ def _orientation(world_front: dict, records: dict) -> dict:
                 "story_id": entry.get("story_id"),
                 # title/when/teaser are the world_front's OWN curated
                 # framing (the story record itself has no such fields) -
-                # tellable_as/confidence are pulled from the story record.
+                # tellable_as/telling/confidence are pulled from the story
+                # record. `telling` is the story's reviewed modern-English
+                # narration; `text` (the source wording) is never emitted.
                 "title": entry.get("title"),
                 "when": entry.get("when"),
                 "teaser": entry.get("teaser"),
                 "tellable_as": story.get("tellable_as") if story else None,
+                "telling": story.get("telling") if story else None,
                 "confidence": story.get("confidence") if story else None,
             }
         )
@@ -257,6 +261,12 @@ def _orientation(world_front: dict, records: dict) -> dict:
         "relations_summary": _resolve_unit(orientation.get("relations_summary")),
         "sourcing": _resolve_unit(orientation.get("sourcing")),
         "read_first": read_first,
+        # A highlight's verified_on is the build's own check date; the page
+        # shows the gazetteer link, never the date.
+        "highlights": [
+            {k: entry[k] for k in ("phrase", "label", "kind", "note", "grounded_in", "url") if k in entry}
+            for entry in orientation.get("highlights") or []
+        ],
     }
 
 
