@@ -153,6 +153,7 @@ def create_table_session(
     require_admitted: bool = False,
     package_cache_dir: Path | None = None,
     visitor_id: str | None = None,
+    internal: bool = False,
 ) -> tuple[str, str]:
     """Returns (session_id, raw_code), same contract as the interview's
     create_session. Every seated world is loaded (and its manifest hash
@@ -192,6 +193,7 @@ def create_table_session(
         # create_session) - one per seat, same reason.
         package_locations={k: str(registry[k]["package"]["location"]) for k in world_keys},
         visitor_id=visitor_id,
+        internal=internal,
     )
     seated = [
         {

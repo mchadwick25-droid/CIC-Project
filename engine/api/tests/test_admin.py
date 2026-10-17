@@ -112,3 +112,32 @@ def test_pilot_summary_reads_a_resumed_idle_session_as_open(store, usage_store, 
     assert body["total_sessions"] == 1
     assert body["open_sessions"] == 1
     assert body["closed_by_reason"] == {}
+
+
+def test_sessions_marked_internal_are_left_out_of_the_admin_summaries(store, usage_store, world_loader, registry):
+    client = _table_client(selector_script=[], stream_scripts=[])
+    http = _http(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
+        admin_token="the-real-token", deeper=None,
+    )
+    admin_headers = {"Authorization": "Bearer the-real-token"}
+    ours_interview = http.post("/api/session", json={"world_key": "fix", "internal": True})
+    ours_table = http.post("/api/session", json={"world_keys": ["alx", "desert"], "internal": True})
+    real = http.post("/api/session", json={"world_key": "fix"})
+    assert {ours_interview.status_code, ours_table.status_code, real.status_code} == {201}
+
+    def started(resp):
+        return store.read_events(resp.json()["session_id"])[0].payload
+
+    assert started(ours_interview)["internal"] is True
+    assert started(ours_table)["internal"] is True
+    assert "internal" not in started(real)
+
+    pilot = http.get("/api/admin/pilot-summary", headers=admin_headers).json()
+    assert pilot["total_sessions"] == 1
+    assert pilot["by_mode"] == {"interview": 1}
+    assert pilot["open_sessions"] == 1
+    assert pilot["internal_sessions_left_out"] == 2
+    usage = http.get("/api/admin/usage-summary", headers=admin_headers).json()
+    assert usage["visitors"]["internal_sessions_left_out"] == 2
+    assert usage["visitors"]["sessions_without_a_message"] == 1

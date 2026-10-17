@@ -201,6 +201,10 @@ class SessionCreateRequest(BaseModel):
     # 2-3 world keys creates a table session (Artifact-7 SS1/SS6); mutually
     # exclusive with world_key. Omit both for the default interview world.
     world_keys: list[str] | None = None
+    # Sent by a browser the team marked as its own (the app's ?ours=1
+    # link); the admin dashboard leaves these sessions out of its headline
+    # numbers.
+    internal: bool = False
 
 
 class SessionCreateResponse(BaseModel):
@@ -301,6 +305,7 @@ class PilotSummaryResponse(BaseModel):
     table_round_counts_on_cap: dict[str, int]
     earliest_session_at: str | None
     latest_session_at: str | None
+    internal_sessions_left_out: int = 0
 
 
 class VisitorUsageResponse(BaseModel):
@@ -312,6 +317,7 @@ class VisitorUsageResponse(BaseModel):
     average_session_seconds: float | None
     median_visitor_total_seconds: float | None
     average_visitor_total_seconds: float | None
+    internal_sessions_left_out: int = 0
 
 
 class WorldUsageResponse(BaseModel):
@@ -637,7 +643,7 @@ def create_app(
                 session_id, code = table_wiring.create_table_session(
                     store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_keys=req.world_keys,
                     require_admitted=deps.enforce_admission, package_cache_dir=deps.package_cache_dir,
-                    visitor_id=visitor_id,
+                    visitor_id=visitor_id, internal=req.internal,
                 )
             except wiring.UnknownWorldError as exc:
                 raise HTTPException(status_code=400, detail=f"unknown world_key {exc.args[0]!r}")
@@ -662,7 +668,7 @@ def create_app(
             session_id, code = wiring.create_session(
                 store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_key=world_key,
                 require_admitted=deps.enforce_admission, package_cache_dir=deps.package_cache_dir,
-                visitor_id=visitor_id,
+                visitor_id=visitor_id, internal=req.internal,
             )
         except wiring.UnknownWorldError:
             raise HTTPException(status_code=400, detail=f"unknown world_key {world_key!r}")
