@@ -1,0 +1,42 @@
+source_file: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt
+
+assignments:
+  - row_id: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844--de-synodis-ad-constantium-contra-constantium-contra-auxentium-latin
+    work: "De Synodis seu de fide Orientalium; Ad Constantium I-II; Contra Constantium imperatorem; Contra Auxentium (PL 10), Latin"
+    author: hilary_poit
+    locus: "De Synodis from file line 38488; Ad Constantium I at 45057, II at 45637; Contra Constantium at 46205; Contra Auxentium at 48549"
+    atlas_ids:
+      - gallic-nicene-episcopate
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin originals of Hilary's council writings: De Synodis (the English is held in
+      npnf209), the two appeals to Constantius and the Contra Constantium of 360-361, which
+      no vendored English volume carries. Primary original-language voice in the Maurist
+      text as Migne reprinted it; Migne OCR with letter errors, verify against the page.
+  - row_id: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844--fragmenta-ex-opere-historico-maurist-text-latin
+    work: "Fragmenta ex opere historico I-XV (PL 10), Latin, the Maurist text of the Collectanea antiariana"
+    author: hilary_poit
+    locus: "Fragmentum I at file line 50120, II at 50422, III at 53435, XV at 57700"
+    atlas_ids:
+      - homoian-arian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Second witness to the documents re-edited by Feder in CSEL 65 (vendored alongside):
+      the Eastern Sardica encyclical, Liberius's letters, Germinius, the Ariminum letters.
+      Embedded opponents' voices inside a Nicene compilation; context for the Homoian
+      world, per the corpus-map README's embedded-voice rule. Use Feder's text first and
+      this as a check.
+  - row_id: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844--contra-constantium-and-the-council-dossier-imperial-church
+    work: "Contra Constantium imperatorem and the council dossier (PL 10), Latin"
+    author: hilary_poit
+    locus: "Contra Constantium from file line 46205; the Fragmenta from 50120"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A Western bishop's open attack on a Christian emperor's church policy, written after
+      Ariminum and Constantinople 360: the imperial-juridical world's central question put
+      by a contemporary opponent. Context, not that world's own voice.

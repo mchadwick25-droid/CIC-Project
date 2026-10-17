@@ -371,6 +371,20 @@ works:
 
     '
   source_file: pachomius_rules-ethiopic_schodde1885.txt
+- row_id: john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863--dialogue-on-the-life-of-john-chrysostom-greek-pg-47-2
+  work: Dialogue on the Life of John Chrysostom (Dialogus historicus), Greek, PG 47
+  author: palladius
+  locus: the account of Theophilus, Isidore and the Tall Brothers (Theophilus named from file
+    line 4115 on)
+  role: context
+  confidence: provisional
+  note: 'Palladius was himself a monk of Nitria and the author of the Lausiac History, but
+    here he writes as Chrysostom''s partisan about Theophilus''s war on the Nitrian monks.
+    Placed as context for the desert world; a build thread may judge it the desert''s own
+    voice (the Lausiac History already sits there as tradition). Named, not decided.
+
+    '
+  source_file: john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863.txt
 - row_id: palladius_lausiac-history--lausiac-history
   work: Lausiac History
   author: palladius

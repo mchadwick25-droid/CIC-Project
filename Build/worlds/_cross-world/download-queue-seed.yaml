@@ -3860,3 +3860,215 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "Shared-Events Era 2 worker C: archive.org search listing only (title, 1725); item metadata not opened, 2026-10-17"
     status: not-yet-downloaded
+
+  - title: "S. Hilarii episcopi Pictaviensis Opera, Pars IV: Tractatus mysteriorum; Collectanea antiariana Parisina (Fragmenta historica); Liber I and II ad Constantium; Hymni (CSEL 65)"
+    author: "Hilary of Poitiers (compiler); the Eastern bishops at Sardica/Philippopolis, Liberius, Germinius, Valens and Ursacius, the synod of Ariminum (documents preserved)"
+    translator: "Alfred Feder S.J. (ed.); Latin, no translation"
+    year: 1916
+    world: "gallic-nicene-episcopate (events tyre-rome-sardica-335-343 and ariminum-seleucia-359)"
+    why: >
+      The only edition of the Eastern bishops' encyclical from Sardica/Philippopolis (343),
+      the dissenting side of the Sardica story, and of the Liberius letters, Germinius's
+      letter and the Ariminum (359) documents. Found by title search on archive.org after the
+      Hilary-by-creator searches failed; item identifier is simply CSEL65.
+    url: "https://archive.org/details/CSEL65"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: title page read in the djvu.txt (MDCCCCXVI), Public Domain Mark on the item, 2026-10-17"
+    status: downloaded
+    vendored_as: "hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt"
+
+  - title: "Sancti Hilarii Pictaviensis episcopi Opera omnia, tomus posterior (Patrologia Latina 10): De Synodis, Ad Constantium I-II, Contra Constantium, Contra Auxentium, Fragmenta ex opere historico"
+    author: "Hilary of Poitiers"
+    translator: "J.-P. Migne (ed.), after the Maurist edition; Latin, no translation"
+    year: "1844 (archive.org catalogue; conventionally 1845)"
+    world: "gallic-nicene-episcopate (event ariminum-seleucia-359)"
+    why: >
+      Latin of De Synodis (English held in npnf209), and the Contra Constantium, Hilary's
+      own denunciation of the emperor after Ariminum, Seleucia and Constantinople 360, which
+      no vendored English volume carries. Also the older Maurist text of the Fragmenta.
+    url: "https://archive.org/details/patrologiaecurs197unkngoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: title page read in the djvu.txt ('S. Hilarii tomus posterior, Parisiis, excudebat Vrayet'), NOT_IN_COPYRIGHT tag, 2026-10-17; the title-page year is not legible"
+    status: downloaded
+    vendored_as: "hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt"
+
+  - title: "Luciferi Calaritani Opuscula (CSEL 14)"
+    author: "Lucifer of Cagliari"
+    translator: "Wilhelm von Hartel (ed.); Latin, no translation"
+    year: 1886
+    world: "gallic-nicene-episcopate (events tyre-rome-sardica-335-343 and ariminum-seleucia-359)"
+    why: >
+      The hard-line Western Nicene dissent of 355-361 in its own words: De sancto Athanasio
+      I-II (against condemning the absent at Milan 355), De non conveniendo, De regibus
+      apostaticis, De non parcendo, Moriendum esse pro Dei Filio, with Liberius's letters to
+      Lucifer in exile. No English translation is public domain.
+    url: "https://archive.org/details/corpusscriptorum14luciuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: title page read in the djvu.txt (MDCCCLXXXVI), NOT_IN_COPYRIGHT tag, 2026-10-17"
+    status: downloaded
+    vendored_as: "lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt"
+
+  - title: "Epistulae imperatorum pontificum aliorum ... Avellana quae dicitur collectio, Pars I: Prolegomena, Epistulae I-CIV (CSEL 35)"
+    author: "Anonymous (Gesta inter Liberium et Felicem); Faustinus and Marcellinus (Libellus precum); emperors and popes 367-"
+    translator: "Otto Günther (ed.); Latin, no translation"
+    year: 1895
+    world: "imperial-juridical-christianity (event ariminum-seleucia-359)"
+    why: >
+      The Luciferian Libellus precum (383-384) remembers Ariminum, the fall of Hosius and
+      Potamius, and the Luciferian schism; the Gesta Liberii tell Liberius's exile and the
+      Roman schism after it from the loyalist side. Dissenting memory of 355-360.
+    url: "https://archive.org/details/epistulaeimperat01gnth"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: title page read in the djvu.txt (MDCCCLXXXXV; preface Berlin October 1895), 2026-10-17; the item has no rights tag"
+    status: downloaded
+    vendored_as: "collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt"
+
+  - title: "Sulpicii Severi libri qui supersunt (CSEL 1): Chronica, Vita Martini, Epistulae, Dialogi"
+    author: "Sulpicius Severus"
+    translator: "Karl Halm (ed.); Latin, no translation"
+    year: 1866
+    world: "gallic-nicene-episcopate (event ariminum-seleucia-359)"
+    why: >
+      Latin original behind the English Sulpitius Severus in npnf211: Chronicle II on
+      Ariminum (the Gallic and British bishops who refused the emperor's rations), Seleucia,
+      Hilary's exile and return. The Aquitanian memory one generation after the events.
+    url: "https://archive.org/details/sulpiciiseveril00halmgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: title page read in the djvu.txt (MDCCCLXVI; preface Munich August 1866), NOT_IN_COPYRIGHT tag, 2026-10-17"
+    status: downloaded
+    vendored_as: "sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt"
+
+  - title: "Collectio selecta SS. Ecclesiae Patrum, t. LIII: S. Caesarii Dialogi IV; Didymi De Spiritu Sancto, Contra Manichaeos; S. Phoebadii Contra Arianos, De fide orthodoxa, De fide"
+    author: "Phoebadius of Agen (with pseudo-Caesarius and Didymus)"
+    translator: "A. B. Caillau and M. N. S. Guillon (eds.); Latin, no translation"
+    year: "1836 (archive.org catalogue; not legible in the OCR)"
+    world: "gallic-nicene-episcopate (event ariminum-seleucia-359)"
+    why: >
+      Phoebadius's Contra Arianos (357-358) is the Gallic Nicene argument against the second
+      Sirmian creed, by the bishop who then sat at Ariminum, was deceived into signing and
+      recanted. The one public-domain Latin text of it found on archive.org (PL 20 was not
+      located).
+    url: "https://archive.org/details/scaesariidialogi00caes"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: title page and Phoebadius section read in the djvu.txt, 2026-10-17; the item has no rights tag"
+    status: downloaded
+    vendored_as: "phoebadius-agen_contra-arianos-with-caesarius-didymus-lat_caillau1836.txt"
+
+  - title: "Eusebii Pamphili Chronici canones, Latine vertit, adauxit, ad sua tempora produxit S. Eusebius Hieronymus"
+    author: "Jerome, after Eusebius of Caesarea"
+    translator: "John Knight Fotheringham (ed.); Latin, no translation"
+    year: 1923
+    world: "hieronymian-ascetic-literary (event ariminum-seleucia-359)"
+    why: >
+      Jerome's Chronicle entry for 359 ('Synodus apud Ariminum et Seleuciam Isauriae facta
+      ... omnium proditione damnata est') and 'Gallia per Hilarium Ariminensis perfidiae
+      dolos damnat': the oldest Latin year-by-year record, written 380-381.
+    url: "https://archive.org/details/jerome-eusebii_chronici_canones_fotheringham_1923"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: title page read in the djvu.txt (MCMXXIII, London, Humphrey Milford), Public Domain Mark on the item, 2026-10-17"
+    status: downloaded
+    vendored_as: "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+
+  - title: "Chronique de Michel le Syrien, patriarche jacobite d'Antioche (1166-1199), tome I (Books I-VII, French translation)"
+    author: "Michael the Syrian"
+    translator: "Jean-Baptiste Chabot (ed. and French trans.)"
+    year: 1899
+    world: "syriac-orthodox-west-syriac-christianity (events tyre-rome-sardica-335-343 and ariminum-seleucia-359)"
+    why: >
+      Syriac Orthodox twelfth-century memory of Nicaea, Tyre and the Arsenius hand, Sardica,
+      Sirmium, Seleucia, Milan and Rimini (Book VII). Tome II was vendored by worker C; this
+      is tome I. The Toronto scan (chroniquedemiche01mich) is the 1963 Brussels reprint and
+      was not used; the Pearse upload is the 1899 printing.
+    url: "https://archive.org/details/ChroniqueDeMichelLeSyrienT.1Fasc.1translation"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: title page read in the djvu.txt (Paris, Ernest Leroux, 1899), 2026-10-17; the item has no rights tag"
+    status: downloaded
+    vendored_as: "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt"
+
+  - title: "Patrologia Orientalis, tomus XVI: Le Synaxaire arménien de Ter Israël (mois de Tré); Le Synaxaire arabe jacobite (Barmahat, Barmoudah, Bachons); Homélies mariales byzantines; La Perle précieuse; Sévère d'Antioche, homélie LXXVII"
+    author: "Copto-Arabic Synaxarium (anonymous); Ter Israel; others"
+    translator: "René Basset; G. Bayan; M. Jugie; J. Périer; M.-A. Kugener and E. Triffaux (French)"
+    year: 1922
+    world: "coptic-christianity-under-early-islam (event tyre-rome-sardica-335-343)"
+    why: >
+      The Coptic Church's liturgical memory of Athanasius (7 Bachons): his exile under the
+      Arian Constantius, the intrusion of George, his imprisonment 'with the pope of Rome and
+      the patriarch of Antioch', his flight under Julian. Coptic and Armenian memory for part
+      8 of the event stories; never evidence of the events.
+    url: "https://archive.org/details/patrologiaorien16pari"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: title page read in the djvu.txt (Paris, Firmin-Didot, 1922), 2026-10-17; the item has no rights tag; Arabic and Armenian columns not recovered"
+    status: downloaded
+    vendored_as: "patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt"
+
+  - title: "Corporis haereseologici tomus secundus: S. Epiphanii Panariorum liber primus et secundus, tomi secundi pars posterior (Panarion haer. 48-69, Greek with Petavius's Latin)"
+    author: "Epiphanius of Salamis"
+    translator: "Franz Oehler (ed.); Dionysius Petavius (Latin trans.)"
+    year: 1860
+    world: "alexandria-catechetical (event tyre-rome-sardica-335-343)"
+    why: >
+      Adds Panarion heresies 65-69 (Paul of Samosata, Melitians, Arius) in Greek to the Holl
+      volume (haer. 34-64) vendored this batch; Holl's third volume is 1933 and in copyright.
+      Heresy 68 is the fullest ancient account of the Melitian schism whose bishops accused
+      Athanasius at Tyre. Heresy 73 (Homoiousians) is in Oehler's next part, not located.
+    url: "https://archive.org/details/pt2corporishaere02epip"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: title page read in the djvu.txt (Berolini, A. Asher, MDCCCLX), Greek recovery confirmed by character count, 2026-10-17; the duplicate scan p2corporishaereseo02epipuoft is tagged NOT_IN_COPYRIGHT"
+    status: downloaded
+    vendored_as: "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+
+  - title: "Eusebi Chronicorum canonum quae supersunt (vol. II of Eusebi Chronicorum libri duo)"
+    author: "Jerome, after Eusebius of Caesarea"
+    translator: "Alfred Schoene (ed.); Latin with the Armenian version in Latin"
+    year: 1866
+    world: "hieronymian-ascetic-literary (event ariminum-seleucia-359)"
+    why: >
+      The older critical edition of Jerome's Chronicle, with the Ariminum/Seleucia entry
+      (djvu line 127853 'Synodus aput Ariminum et Seleuciam Isauriae facta'). Verified on
+      archive.org; not fetched because Fotheringham 1923 was vendored instead.
+    url: "https://archive.org/details/bub_gb_AF10M3CHOisC"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: djvu.txt fetched to scratch and title page read (MDCCCLXVI, Schoene), Public Domain Mark on the item, 2026-10-17"
+    status: not-yet-downloaded
+
+  - title: "Epistulae imperatorum pontificum aliorum ... Avellana quae dicitur collectio, Pars II: Epistulae CV-CCXLIIII (CSEL 35)"
+    author: "Emperors, popes and others, 367-553"
+    translator: "Otto Günther (ed.); Latin"
+    year: 1895
+    world: "imperial-juridical-christianity"
+    why: >
+      Second half of the Avellana (the Laurentian-schism and Acacian-schism letters). Verified
+      on archive.org; outside the four Era 2 events of this worker, so not fetched.
+    url: "https://archive.org/details/epistulaeimperat02gnth"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: item metadata read (1895, Vindobonae, F. Tempsky, volume 2), 2026-10-17; the item has no rights tag"
+    status: not-yet-downloaded
+
+  - title: "Canones apostolorum et conciliorum veterum selecti (Bibliotheca ecclesiastica), 2 volumes in 1"
+    author: "Councils (Nicaea to the sixth century), including Arles 314 and Sardica"
+    translator: "Hermann Theodor Bruns (ed.); Greek and Latin"
+    year: 1839
+    world: "imperial-juridical-christianity (events arles-314 and tyre-rome-sardica-335-343)"
+    why: >
+      The nineteenth-century collection of ancient canons that Lauchert's student edition
+      (held) was made to replace; pars I is already vendored as
+      codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt. The Arles 314 and Sardica canons
+      are already held in Lauchert, Mansi and NPNF 2.14, so the second volume was not fetched.
+    url: "https://archive.org/details/canonesapostolo00brungoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: item metadata read (1839, Berlin, G. Reimer; '2 volumes in 1'), NOT_IN_COPYRIGHT tag, 2026-10-17"
+    status: not-yet-downloaded
+
+  - title: "Ecclesiae Occidentalis monumenta iuris antiquissima, tomus II pars prior (1907): Ancyra, Neocaesarea, Gangra in their Latin versions"
+    author: "Councils of Ancyra, Neocaesarea and Gangra"
+    translator: "Cuthbert Hamilton Turner (ed.); Latin"
+    year: 1907
+    world: "imperial-juridical-christianity"
+    why: >
+      Located while looking for Turner's Sardica canons (tom. I fasc. 2 pars 3, 1930), which
+      were not found on archive.org. This part holds other councils' Latin versions and is
+      outside this worker's four events; not fetched.
+    url: "https://archive.org/details/ecclesiaeocciden02turn"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, Era 2 worker A: djvu.txt fetched to scratch and title page read ('Tomus II ... MCMVII'), 2026-10-17"
+    status: not-yet-downloaded
