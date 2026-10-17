@@ -10,6 +10,7 @@
 import { codeHeaders, currentCode, freeLeftFromHeader, remainingFromHeader, reportBalance, reportFreeLeft } from './deeper';
 import type { CreateSessionResponse, MessageResponse, TableMessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
 import type { StreamedSentence } from './streamedReply';
+import { internalField } from './ours';
 
 const API_BASE = '/api';
 
@@ -102,7 +103,7 @@ export async function createSession(worldKey: string): Promise<CreateSessionResp
   const response = await fetch(`${API_BASE}/session`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', ...codeHeaders() },
-    body: JSON.stringify({ world_key: worldKey }),
+    body: JSON.stringify({ world_key: worldKey, ...internalField() }),
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
@@ -116,7 +117,7 @@ export async function createTableSession(worldKeys: string[]): Promise<CreateSes
   const response = await fetch(`${API_BASE}/session`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', ...codeHeaders() },
-    body: JSON.stringify({ world_keys: worldKeys }),
+    body: JSON.stringify({ world_keys: worldKeys, ...internalField() }),
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
