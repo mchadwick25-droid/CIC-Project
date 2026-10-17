@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useConversation } from './hooks/useConversation';
+import { useVisibleHeight } from './hooks/useVisibleHeight';
 import { useTable } from './hooks/useTable';
 import { useWorlds } from './hooks/useWorlds';
 import { findWorld, findWorldByCensusId } from './data/worlds';
@@ -79,6 +80,7 @@ function sameSeats(a: string[], b: string[]): boolean {
 
 function App() {
   const conversation = useConversation();
+  useVisibleHeight();
   const table = useTable();
   const { worlds, isLoading: worldsLoading, error: worldsError } = useWorlds();
   const [screen, setScreen] = useState<Screen>(() => (expectsRoom() ? 'arriving' : 'launch'));
