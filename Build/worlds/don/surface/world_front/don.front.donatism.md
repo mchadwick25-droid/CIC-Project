@@ -340,7 +340,7 @@ orientation:
   - phrase: "persecution of 303 to 305"
     label: "Diocletian's persecution"
     kind: term
-    note: "Diocletian and his fellow emperors hunted Christians in these years. They ordered clergy to hand over the scriptures and church vessels to be destroyed."
+    note: "Diocletian and his fellow emperors hunted Christians in these years. Clergy had to hand over the scriptures and sacred vessels. These were to be destroyed."
     grounded_in: [don.force.diocletianic-persecution-traditio-demand]
   - phrase: "Vandal"
     kind: term
