@@ -290,11 +290,12 @@
  "cappadocian-nicene-pastoral-monastic-tradition": {
   "story": {
    "file": "cappadocian-nicene-pastoral-monastic-tradition/story.mp3",
-   "chars": 7881,
+   "chars": 4028,
    "voiceId": "FIyUTNCZsXy4pNX0KVXy",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1.1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.3,
     "similarity_boost": 0.95,
@@ -304,11 +305,12 @@
   },
   "docstory-cappadocian.story.famine-open-barns": {
    "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.famine-open-barns.mp3",
-   "chars": 982,
+   "chars": 831,
    "voiceId": "FIyUTNCZsXy4pNX0KVXy",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1.1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.3,
     "similarity_boost": 0.95,
@@ -318,11 +320,12 @@
   },
   "docstory-cappadocian.story.macrina-deathbed": {
    "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.macrina-deathbed.mp3",
-   "chars": 1377,
+   "chars": 1072,
    "voiceId": "FIyUTNCZsXy4pNX0KVXy",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1.1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.3,
     "similarity_boost": 0.95,
@@ -332,11 +335,12 @@
   },
   "docstory-cappadocian.story.sasima-wound": {
    "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.sasima-wound.mp3",
-   "chars": 1161,
+   "chars": 1023,
    "voiceId": "FIyUTNCZsXy4pNX0KVXy",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1.1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.3,
     "similarity_boost": 0.95,
@@ -351,6 +355,111 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1.1,
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-cappadocian.story.forty-sebaste": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.forty-sebaste.mp3",
+   "chars": 908,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-cappadocian.story.athens-friendship": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.athens-friendship.mp3",
+   "chars": 908,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-cappadocian.story.julian-schools": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.julian-schools.mp3",
+   "chars": 1269,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-cappadocian.story.valens-caesarea": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.valens-caesarea.mp3",
+   "chars": 1321,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-cappadocian.story.doxology-stand": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.doxology-stand.mp3",
+   "chars": 1407,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-cappadocian.story.nyssa-exile": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.nyssa-exile.mp3",
+   "chars": 690,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-cappadocian.story.gregory-constantinople": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.gregory-constantinople.mp3",
+   "chars": 1085,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.3,
     "similarity_boost": 0.95,
