@@ -95,7 +95,7 @@ orientation:
   - text: >-
       By Cassian's own account, the south's best-known argument began
       as a worry at prayer. In Egypt, an old man named Chaeremon told
-      Cassian and Germanus that no one masters the good by effort
+      Cassian and his friend Germanus that no one masters the good by effort
       alone. When Germanus objected, Chaeremon answered with a farmer.
       A farmer who never plows gets no crop, yet even the hardest
       worker needs rain he cannot make. The wish to do good, the old
@@ -196,7 +196,7 @@ orientation:
       founded two houses at Marseilles, one for men and one for women.
       He wrote down what the Egyptian fathers taught, and in his
       Institutes he chose not to write up the wonders he had seen.
-      From them he passed on purity of heart as the monk's goal and
+      From the fathers he passed on purity of heart as the monk's goal and
       discretion as his guide. He listed eight faults for a monk to
       fight in turn. And he wrote down how a question about grace and
       effort troubled his friend Germanus and him at morning prayer.
@@ -212,13 +212,13 @@ orientation:
       because it was filthy and no one went near it for fear of
       snakes. His disciple Hilary says he went in unafraid, with a
       psalm on his lips, and set up a camp of God there. He had run
-      from church office, but on the island, as far as the sermon can
+      from church office, but on the island, as far as Hilary's sermon can
       be read, the priesthood caught up with him. In time he became a
       bishop.
     grounded_in: [gallic.figure.honoratus, gallic.story.honoratus-and-the-island]
     hedge: >-
       Almost all we can tell of our founder comes from part of
-      Hilary's funeral sermon. Its Latin is hard to read. It tells how
+      Hilary's funeral sermon. The copy we have of its Latin is hard to read. It tells how
       he came to the island and was made a priest there. What he or
       anyone did on the island in between, we cannot tell you.
   - figure: gallic.figure.sulpitius
@@ -305,7 +305,7 @@ orientation:
   - phrase: "a traveler just back from Egypt"
     label: "Postumianus"
     kind: person
-    note: "This is Postumianus, a speaker in the Dialogues. Sulpitius wrote the words of praise he says about Martin."
+    note: "This is Postumianus, a speaker in the Dialogues. His praise of Martin is in words Sulpitius wrote."
     grounded_in: [gallic.contested.egypt-two-measures, gallic.quote.postumianus-you-have-conquered-all-the-eremites, gallic.force.egyptian-standard]
   - phrase: "Chaeremon"
     kind: person

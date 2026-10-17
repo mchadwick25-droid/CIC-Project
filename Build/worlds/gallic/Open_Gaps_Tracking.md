@@ -1097,3 +1097,44 @@ Status: OPEN.
 The Atlas story pass did not touch `voices`, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` or `narrative.who_speaks`. They still use "this world" and dash asides.
 
 Status: OPEN for the project lead to schedule.
+
+### OG-42. Atlas story pass: independent review failed the approved text; fixed over three rounds, 2026-10-17.
+
+The project lead asked for an Opus review of the rigor and craft of this pass. The author's own check had recorded a PASS (`Build/Ministry/Operations/Audits/gallic_atlas_story_pass_review_round1_2026-10-17.md`). OG-40 relied on that check, and it was wrong.
+
+**Independent rounds:**
+- Round 1 failed the text with 19 blocking findings: `gallic_atlas_story_pass_independent_review_round1_2026-10-17.md`.
+- Round 2 (`..._round2_...`) found 4 blocking findings.
+- Round 3 (`..._round3_...`) approved, with five one-line fixes. Those were applied as written.
+- The fixer's report, with before and after text for every finding, is `gallic_atlas_story_pass_fixes_report_2026-10-17.md`.
+
+**What was wrong and is now fixed:**
+- Faustus was made bishop of Riez, which falls past the 450 cut-off.
+- Honoratus's offices and his going "alone".
+- Wonders were stated as fact.
+- The exorcist line was misattributed.
+- Egypt's teaching was presented as Gaul's own.
+- Unsupported dates and details.
+- Unread sermon text was presented as silence.
+- "Cassian refused wonders" was claimed beyond his Institutes.
+
+**Other changes:**
+- Following the project lead's ruling to "remove all the add on tails that dont say anything", every telling now ends on its last real event.
+- The tellings no longer share one template.
+- The same defects were fixed across the tile, voices, legacy, relations, sourcing, read-first and who-speaks fields.
+- The build-commentary bodies of the front file and the ten story records were deleted.
+
+**Corrects OG-40:**
+- Faustus was cut only now.
+- Only three of the ten card stories are dated, and they are placed by Martin's life or Egypt.
+
+**Record defects, logged and not edited:**
+- Five records overstate Cassian's refusal of wonders: `gallic.gravity.virtus`, `gallic.force.power-displayed-disowned`, `gallic.gravity.egypt-as-measure`, `gallic.story.raising-of-the-catechumen`, and `gallic.contested.egypt-two-measures`.
+- `gallic.figure.honoratus` understates the evidence for his see at Arles. Gennadius ch. LXX names Hilary as bishop of Arles and Honoratus as his predecessor. Only the year 426 is editorial.
+- `gallic.gravity.monk-bishop` and `gallic.force.army-and-rank-before` say Hilary's Latin "survives only in a rough copy". The roughness is in this project's scanned copy, not in the survival of the sermon.
+- `gallic.force.synodal-commission` says "survives here only in a poor copy" and states a change in the 470s as fact.
+- `gallic.force.arian-scattering` uses "Ligugé", a name the core record bars as editorial.
+- The story `text` fields of the cloak and Honoratus records still carry the old claims.
+- "this world" appears in about 163 gallic record files, some in fields participants see.
+
+Status: OPEN for the record-level defects. CLOSED for the participant-facing text of this pass.
