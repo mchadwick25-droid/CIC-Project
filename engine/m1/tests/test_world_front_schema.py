@@ -190,6 +190,11 @@ def test_place_highlight_may_cite_an_outside_gazetteer_with_a_checked_date():
     assert _errors(WORLD_FRONT_SCHEMA, _with_highlights(entry)) == []
 
 
+def test_place_highlight_may_cite_the_gazetteer_and_records_together():
+    entry = {"phrase": "Cirta", "kind": "place", "note": "Today Constantine.", "url": "https://pleiades.stoa.org/places/1", "verified_on": CHECKED_ON, "grounded_in": ["fix.term.the-way"]}
+    assert _errors(WORLD_FRONT_SCHEMA, _with_highlights(entry)) == []
+
+
 def test_highlight_without_grounding_or_reference_is_rejected():
     assert _errors(WORLD_FRONT_SCHEMA, _with_highlights({"phrase": "x", "kind": "term", "note": "n"}))
     # an outside reference stands only for a place's modern location

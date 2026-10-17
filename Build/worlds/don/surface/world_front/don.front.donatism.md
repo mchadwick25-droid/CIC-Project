@@ -426,31 +426,45 @@ orientation:
     grounded_in: [don.force.macarian-repression]
   - phrase: "Numidia"
     kind: place
-    note: "A Roman province of North Africa and the heartland of this church, where it far outnumbered its rival."
+    note: "A Roman province of North Africa and the heartland of this church. Its towns in these stories, such as Cirta and Bagai, lie in today's Algeria."
+    url: https://pleiades.stoa.org/places/981539
+    verified_on: "2026-10-17"
     grounded_in: [don.core.donatism]
   - phrase: "Cirta"
     kind: place
-    note: "An ancient city of Numidia, now the city of Constantine. Bishops met there in a council whose date is disputed, 305, 307 or later."
+    note: "An ancient city of Numidia, now the city of Constantine in Algeria. Bishops met there in a council whose date is disputed, 305, 307 or later."
+    url: https://pleiades.stoa.org/places/305064
+    verified_on: "2026-10-17"
     grounded_in: [don.story.council-of-cirta, don.source.monceaux-histoire-litteraire-tome6]
   - phrase: "Aptungi"
     kind: place
-    note: "Town of the bishop Felix, who consecrated Caecilian. A 1912 study places it at the ruins of Henchir Es-Souar."
+    note: "Town of the bishop Felix, who consecrated Caecilian. Its ruins, at Henchir es Souar, lie in today's Tunisia."
+    url: https://pleiades.stoa.org/places/314843
+    verified_on: "2026-10-17"
     grounded_in: [don.figure.felix-of-aptungi, don.source.monceaux-histoire-litteraire-tome4]
   - phrase: "Bagai"
     kind: place
-    note: "A town in Numidia where 310 bishops met in 394."
+    note: "A town in Numidia where 310 bishops met in 394. Its ruins, at Ksar Baghai, lie in today's Algeria."
+    url: https://pleiades.stoa.org/places/334501
+    verified_on: "2026-10-17"
     grounded_in: [don.term.concilium, don.force.maximianist-fracture]
   - phrase: "Cebarsussi"
     kind: place
-    note: "The place where a council of this church elected Maximian rival primate in 393."
+    note: "A town in the Roman province of Byzacena, where Maximian was made rival head of the church in 393. Its exact site is unknown."
+    url: https://pleiades.stoa.org/places/329199
+    verified_on: "2026-10-17"
     grounded_in: [don.term.concilium, don.force.maximianist-fracture]
   - phrase: "Novapetra"
     kind: place
-    note: "A cliff where the Passio Marculi says Marculus was held four days and then thrown to his death."
+    note: "The cliff where Marculus was held and killed. It is probably the site now called Henchir Encedda, in today's Algeria."
+    url: https://pleiades.stoa.org/places/334604
+    verified_on: "2026-10-17"
     grounded_in: [don.story.passio-marculi, don.figure.marculus]
   - phrase: "Vegesela"
     kind: place
-    note: "A place in Numidia where Marculus was seized, according to the account of his death."
+    note: "The place in Numidia where Marculus was seized. It is identified with Ksar el Kelb, in today's Algeria."
+    url: https://pleiades.stoa.org/places/334661
+    verified_on: "2026-10-17"
     grounded_in: [don.figure.marculus, don.story.passio-marculi]
   - phrase: "The emperor"
     label: "Constantine"
@@ -461,6 +475,12 @@ orientation:
     kind: person
     note: "A bishop of this church who used soldiers to bring the two condemned bishops back. He is a different man from Optatus of Milevis."
     grounded_in: [don.story.bagai-reconciliation]
+  - phrase: "Carthage"
+    kind: place
+    note: "The chief city of Roman Africa, where both rival churches had their bishop. Its ruins lie in today's Tunis, in Tunisia."
+    url: https://pleiades.stoa.org/places/314921
+    verified_on: "2026-10-17"
+    grounded_in: [don.core.donatism]
 narrative:
   who_speaks:
     text: >-

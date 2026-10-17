@@ -255,7 +255,8 @@ _DOCUMENTED_STORY_ENTRY = {
 # story's telling, marked on the page with a short note a reader sees on
 # hover or tap. A person, term or council is grounded in the world's own
 # records; a place's modern location is referenced to an outside gazetteer
-# (url + verified_on, as experience_today's live claims are). `label`
+# (url + verified_on, as experience_today's live claims are), alongside any
+# records its other claims rest on. `label`
 # names what a hinted phrase refers to ("the great church" -> the church
 # it is), shown as the note's heading in place of the phrase. The note is
 # page-only and never narrated.
@@ -280,6 +281,7 @@ _HIGHLIGHT_REFERENCED = {
         "note": {"type": "string", "minLength": 1},
         "url": {"type": "string", "minLength": 1},
         "verified_on": {"type": "string", "minLength": 1},
+        "grounded_in": {"type": "array", "items": {"type": "string"}, "minItems": 1},
     },
     "required": ["phrase", "kind", "note", "url", "verified_on"],
     "additionalProperties": False,

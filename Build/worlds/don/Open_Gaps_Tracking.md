@@ -1926,7 +1926,7 @@ The project lead ruled on 14 October (option C) that an honest-limit sentence na
 The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card, and approved the Donatist text. `orientation.story` is now 9 units and 672 words, down from 13 units and 1,888 words. `documented_stories` shows nine stories in date order. Each story record gained a `telling`, which the card shows and plays. `orientation.highlights` adds 28 short notes. Review: `Build/Ministry/Operations/Audits/don_atlas_story_pass_review_round1_2026-10-16.md` (PASS). Package rebuilt and repinned: `packages/don/2026-10-16T23-27-51Z`, `manifest_hash` `sha256:4b874dfe221490205f72ae2f992c8147ee32e0e5117ffdbf2ffd9a396c052272`. The site JSON was recompiled. This pin supersedes the one in OG-38.
 
 **Open:**
-- Modern locations for the highlights on Carthage, Numidia, Bagai, Cebarsussi, Novapetra and Vegesela wait for a gazetteer. The environment's network policy blocks pleiades.stoa.org.
+- Modern locations for the place highlights now cite Pleiades (checked 2026-10-17): Carthage, Numidia, Cirta, Aptungi, Bagai, Cebarsussi (unlocated), Novapetra (a probable identification) and Vegesela. Closed.
 - The card's recordings of the main story and of the nine tellings are not yet made.
 - The package change makes the next promotion's admission stale. The project lead rules on that run.
 
