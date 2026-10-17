@@ -35,7 +35,7 @@ Reviewer: Opus 5.5, site-editing thread, with three independent Opus reviews tha
 
 ## Recordings
 
-Voice `9iUwwAQbShIkp628a5fO`, model `eleven_v4`, speed 1, tempo 1, stability 0.7, similarity 0.75, style 0, speaker boost on, read from the run's printed settings. The project lead approved a sample of story unit 1 (515 characters, 250 credits). Full run: the story and ten tellings, 14,122 characters, 6,848 credits. Durations by ffprobe: story 4 min 17 s; tellings 45 s to 93 s.
+Voice `9iUwwAQbShIkp628a5fO`, model `eleven_v4`, speed 1, tempo 1, stability 0.7, similarity 0.75, style 0, speaker boost on, read from the run's printed settings. The project lead approved a sample of story unit 1 (515 characters, 250 credits). Full run: the story and ten tellings, 14,122 characters, 6,848 credits. Durations by ffprobe: story 4 min 17 s; tellings 45 s to 93 s. The M9 check then found two telling lines the horizon and voice gates reject: roll-and-vine dated Palladius to 420, after the window closes, and the Basil quote's "this world's wisdom" read as outside talk. Both were fixed (the date dropped, the quote given as reported speech) and the two tellings re-recorded: 2,269 characters, 1,100 credits.
 
 ## Left open
 
