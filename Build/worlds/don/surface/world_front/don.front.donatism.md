@@ -22,30 +22,33 @@ skim:
       ordination. The split began with a charge. The bishop who
       consecrated the new bishop of Carthage was said to have handed the
       scriptures over to be burned. If that hand was tainted, the
-      Donatists held, all it gave afterward was empty. So a whole rival
-      church grew up around one demand, to be washed again by a hand
-      that had never failed. It called itself the Church of the Martyrs.
-      Persecution came again, at the rival church's urging. The church
-      kept the names of its dead and read their stories aloud each year
-      at the grave. It denied any emperor the right to say which church
-      was true. Yet three times, when it served the case, it turned to
-      the emperor's power. Nearly everything known of it comes from two
-      bishops who wrote against it. Its own voice survives in four short
-      texts, in its bishops' words at the hearing of 411, and in two
-      words cut into stone.
-    grounded_in: [don.core.donatism, don.term.traditor-traditio, don.term.rebaptism, don.force.macarian-repression, don.gravity.martyr-cult-identity, don.gravity.principled-refusal-vs-pragmatic-recourse, don.quote.deo-laudes]
+      Donatists held, all it gave afterward was empty. So a rival church
+      grew up with its own bishops. Anyone who came over to it was
+      washed again by a hand that had never failed. It called itself the
+      Church of the Martyrs. Persecution came again, at the rival
+      church's urging. The Donatists kept the names of their dead and
+      read their stories aloud each year at the grave. They denied any
+      emperor the right to say which church was true. Yet three times,
+      when it served their case, they turned to the emperor's power.
+      Nearly everything known of them comes from two bishops who wrote
+      against them. Most of their own words survive as quotations in
+      those books. Beyond those, they speak in four short texts, in
+      their bishops' words at the hearing of 411, and in two words cut
+      into stone.
+    grounded_in: [don.core.donatism, don.term.traditor-traditio, don.term.rebaptism, don.force.macarian-repression, don.gravity.martyr-cult-identity, don.gravity.principled-refusal-vs-pragmatic-recourse, don.gravity.rebaptism-boundary-marking, don.quote.deo-laudes, don.figure.petilian]
 orientation:
   story:
   - text: >-
       From around 311, two rival churches stood side by side in Roman
-      North Africa, centered on Carthage and Numidia. This account
-      follows them to 439. Both held the same faith in the Trinity and
-      in Christ, in the same Latin words. They split over one question.
-      Could a bishop's conduct under persecution void what his hand
-      later gave? One side said yes. It called itself the Church of the
-      Martyrs, the one pure, persecuted and true church. History calls
-      its members Donatists, after an early bishop. In court, its
-      bishops called themselves 'the party of Donatus'.
+      North Africa, centered on Carthage and Numidia. Both held the same
+      faith in the Trinity and in Christ, in the same Latin words. They
+      split over one question. Could a bishop's conduct under
+      persecution void what his hand later gave? One side said yes. It
+      called itself the Church of the Martyrs, the one pure, persecuted
+      and true church. History calls its members Donatists, after an
+      early bishop. Optatus, an opponent, says its bishops called
+      themselves 'the party of Donatus' when questioned in court. What
+      they called themselves among themselves is not known.
     grounded_in: [don.core.donatism, don.dw.the-creed-we-shared, don.term.pars-donati]
   - text: >-
       The quarrel began in the persecution of 303 to 305. Officials
@@ -65,47 +68,47 @@ orientation:
       The doctrine had one public consequence, repeated for a century.
       Anyone who crossed over from the rival church was washed again.
       The Donatists did not count it as a second baptism. A hand from a
-      broken line had given nothing the first time. So their font gave a
-      convert the first real baptism of their life. Imperial edicts
-      named the practice as an offense.
+      broken line had given nothing the first time. So the Donatist font
+      gave a convert his first real baptism. Imperial edicts named the
+      practice as an offense.
     grounded_in: [don.gravity.rebaptism-boundary-marking, don.term.rebaptism]
   - text: >-
       Persecution came again in 347 and 348. This time it came at the
       rival church's urging, through the emperor's commissioners. The
-      church's own account says that Bishop Marculus was held four days
-      at a cliff called Novapetra. There he fasted and was shown a
+      Donatists' own account says that Bishop Marculus was held four
+      days at a cliff called Novapetra. There he fasted and was shown a
       vision of a cup, a crown and a palm. Then he was thrown down. Two
       laymen of Carthage, Isaac and Maximianus, were flogged and sunk in
-      the sea. Every year, at the grave, the church read such accounts
-      aloud again.
+      the sea. Every year, at the grave, they read such accounts aloud
+      again.
     grounded_in: [don.gravity.martyr-cult-identity, don.force.macarian-repression, don.story.passio-marculi, don.story.macrobius-letter]
   - text: >-
-      By the later fourth century this was a full parallel church. It
-      had its own bishops, basilicas and councils, and it contested the
-      same towns as its rival. In Numidia it had far more people than
-      its rival. There it was the ordinary church of the village.
+      By the later fourth century it was a full parallel church, with
+      its own bishops, basilicas and councils in the same towns as its
+      rival. In Numidia it far outnumbered the other church. There it
+      was the ordinary church of the village.
     grounded_in: [don.gravity.parallel-institutional-hierarchy, don.dw.two-churches-in-one-town, don.core.donatism]
   - text: >-
-      Optatus, who wrote against the Donatists, reports that their
-      bishop Donatus once asked what the emperor had to do with the
-      church. The hearing at Rome in 313 and the Council of Arles in 314
-      ruled against them, and they rejected both rulings. A council
-      called and enforced by a state that already favored their rival
-      was not, in their view, the church judging itself. Still, three
-      times they turned to the state when that served their case. They
-      petitioned Constantine in 313 and Julian in 361. In the 390s they
-      invoked imperial law against their own breakaway Maximianists.
+      Optatus also reports that their bishop Donatus once asked what the
+      emperor had to do with the church. The hearing at Rome in 313 and
+      the Council of Arles in 314 ruled against them, and they rejected
+      both rulings. A council called and enforced by a state that
+      already favored their rival was not, in their view, the church
+      judging itself. Still, three times they turned to the state when
+      that served their case. They petitioned Constantine in 313 and
+      Julian in 361. In the 390s they invoked imperial law against their
+      own breakaway Maximianists.
     grounded_in: [don.term.refusal-of-imperial-legitimacy, don.quote.donatus-quid-est-imperatori, don.gravity.principled-refusal-vs-pragmatic-recourse, don.figure.donatus, don.figure.optatus-of-milevis]
   - text: >-
       At the Conference of Carthage in 411, about two hundred and eighty
-      Donatist bishops faced a slightly larger number from the other
-      side. The imperial judge offered them chairs, and they refused.
-      Christ had stood before his governor, said Petilian, one of their
-      spokesmen, and so would they. The judge granted that the name
-      Catholic belonged to whichever side held the truth. Then he said
-      he was bound by an imperial rescript that had already given the
-      name to the other side. He ruled against the Donatists, and penal
-      laws against them followed.
+      Donatist bishops faced a slightly larger number of rivals. The
+      imperial judge offered them chairs, and they refused. Christ had
+      stood before his governor, said their spokesman Petilian, and so
+      would they. The judge granted that the name Catholic belonged to
+      whichever side held the truth. Then he said he was bound by an
+      imperial rescript that had already given the name to the other
+      side. He ruled against the Donatists, and penal laws against them
+      followed.
     grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.figure.marcellinus, don.gravity.parallel-institutional-hierarchy, don.force.conference-of-411-verdict]
   - text: >-
       This story ends in 439, when a Vandal army took Carthage. That
@@ -116,11 +119,11 @@ orientation:
     grounded_in: [don.core.donatism, don.force.vandal-capture-of-carthage]
   - text: >-
       Almost everything known about the Donatists was written by two men
-      arguing against them. Their own voice survives in four short texts
-      and in their bishops' words at the hearing of 411. It survives too
-      in two words cut into pillars near Bagai, Deo laudes, praise to
-      God.
-    grounded_in: [don.core.donatism, don.quote.deo-laudes, don.term.deo-laudes]
+      arguing against them. Most of their own words survive only as
+      quotations in those men's books. Four short texts speak for them
+      directly, and so do their bishops at the hearing of 411. So do two
+      words cut into pillars near Bagai, Deo laudes, praise to God.
+    grounded_in: [don.core.donatism, don.quote.deo-laudes, don.term.deo-laudes, don.figure.augustine, don.figure.petilian]
   documented_stories:
   - story_id: don.story.council-of-cirta
     title: "Bishops Who Left the Question to God"
@@ -165,7 +168,7 @@ orientation:
   - story_id: don.story.conference-of-carthage-411
     title: "Three Days Standing Before a Judge Bound by the Emperor's Word"
     when: "June 411"
-    teaser: "Bishops refuse the chairs a judge offers them. For three days they argue before a judge bound by an order that already calls the other side Catholic."
+    teaser: "Bishops refuse the chairs a judge offers them. For three days they argue before a court bound by an order that already calls the other side Catholic."
     grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.figure.emeritus, don.figure.marcellinus]
   voices:
   - figure: don.figure.donatus
@@ -209,16 +212,15 @@ orientation:
       court touch the case itself until it had settled the day, the
       mandates and who was bringing the charge. When the argument
       reached Scripture, he answered a reading of the wheat and the
-      weeds verse for verse, from the same books. Each time, he signed
-      the notary's record of his words and added that he kept his right
+      weeds verse for verse, from the same books. He signed the notary's
+      record of most of what he said, and added that he kept his right
       to appeal.
     grounded_in: [don.figure.emeritus, don.quote.emeritus-magno-argumento, don.story.conference-of-carthage-411]
     hedge: >-
-      Even this voice has limits. The transcript survives in a badly
-      damaged printed copy. Only about nineteen hundred of its 144,733
-      lines have been read, found by searching for his name. His later
-      debate with Augustine in 418 is a separate work that has not been
-      read.
+      The transcript survives in a badly damaged printed copy. Only
+      about nineteen hundred of its 144,733 lines have been read, found
+      by searching for his name. His later debate with Augustine in 418
+      is a separate work that has not been read.
   - figure: don.figure.marculus
     text: >-
       Marculus is remembered as a man who had given up worldly
@@ -230,12 +232,12 @@ orientation:
       he was thrown from the cliff.
     grounded_in: [don.figure.marculus, don.story.passio-marculi]
     hedge: >-
-      Even hostile writers confirm that he was killed, though for two
-      different reasons. Optatus argues that the killing was a just
-      punishment for schism. Augustine argues that the word martyr does
-      not apply. The vision, the unbroken fall and the light over the
-      place are his church's own testimony about what his death meant.
-      No outside witness confirms them.
+      Two hostile writers confirm his death, and each disputes its
+      meaning in a different way. Optatus argues that the killing was a
+      just punishment for schism. Augustine argues that the word martyr
+      does not apply. The vision, the unbroken fall and the light over
+      the place are his church's own testimony about what his death
+      meant. No outside witness confirms them.
   - figure: don.figure.tyconius
     text: >-
       Tyconius was a Donatist writer and preacher, and the one Donatist
@@ -256,22 +258,22 @@ orientation:
   floor_note:
     text: >-
       The Donatists confessed the same faith as their rivals, in the
-      same Latin words. Father, Son and Holy Spirit were one God. For
-      most of a century their opponents called them schismatics, not
-      heretics, because the creed was the same on both sides. From about
-      400 Augustine called them heretics, and only for their separation,
-      and the emperor's law of 405 placed them beside the Manichaeans.
-      Even so, in 417 Augustine wrote that most of them held the same
-      faith as his church. What divided the two churches was a narrower
-      question. Could a bishop's conduct under persecution void what his
-      hand later gave?
+      same Latin words. They confessed Father, Son and Holy Spirit as
+      one God. For most of a century their opponents called them
+      schismatics, not heretics, because the creed was the same on both
+      sides. From about 400 Augustine called them heretics, and only for
+      their separation. The emperor's law of 405 placed them beside the
+      Manichaeans. Even so, in 417 Augustine wrote that most of them
+      held the same faith as his church. What divided the two churches
+      was a narrower question. Could a bishop's conduct under
+      persecution void what his hand later gave?
     grounded_in: [don.core.donatism, don.dw.the-creed-we-shared, don.term.ecclesia]
   legacy:
   - text: >-
       Tyconius wrote the Book of Rules. A council of his own party is
       reported to have condemned him, but the book lasted longer than
-      that party. It passed to the side that had beaten the Donatists,
-      and it shaped how Augustine read Scripture.
+      that party. It passed to the rival church, and it shaped how
+      Augustine read Scripture.
     grounded_in: [don.term.liber-regularum, don.figure.tyconius, don.story.tyconius-condemnation]
   - text: >-
       The contest between the two churches did not end in 439. It went
@@ -298,16 +300,15 @@ orientation:
     text: >-
       Nearly all the written evidence passed through two Catholic
       writers, Optatus of Milevis and Augustine of Hippo, before it
-      reached us. That is the central problem with the sources, not a
-      side note. Four short texts speak as Donatists rather than about
-      them. The transcript of the 411 hearing also keeps their bishops'
-      own words, chosen by no opponent. The clearest exception was never
-      a text at all. It is two words, Deo laudes, cut into stone. No
-      report or plan of the Numidian churches where such words were
-      spoken is among the sources. One more scholarly dispute runs
-      through all the evidence. Was the hostile picture of the
-      Circumcellions, rural members of the movement, true to them, or
-      mainly their opponents' polemic? That question is left open.
+      reached us. That is the central problem with the sources. Four
+      short texts speak as Donatists rather than about them. The
+      transcript of the 411 hearing also keeps their bishops' own words,
+      chosen by no opponent. The clearest exception is two words, Deo
+      laudes, cut into stone. No report or plan of the Numidian churches
+      where such words were spoken is among the sources. One more
+      scholarly dispute runs through all the evidence. Was the hostile
+      picture of the Circumcellions, rural members of the movement, true
+      to them, or mainly their opponents' polemic?
     grounded_in: [don.core.donatism, don.limit.the-room-we-cannot-show-you, don.contested.circumcellion-character, don.quote.deo-laudes]
   read_first:
   - source: don.source.optatus-against-the-donatists
@@ -388,7 +389,7 @@ orientation:
     grounded_in: [don.figure.optatus-of-milevis, don.figure.optatus]
   - phrase: "Flavius Marcellinus"
     kind: person
-    note: "The imperial officer sent to judge the hearing of 411. He was the emperor's officer, not a cleric of either church. He was put to death in 413 on another charge."
+    note: "The imperial officer sent to judge the hearing of 411. He was not a cleric of either church. He was put to death in 413 on another charge."
     grounded_in: [don.figure.marcellinus]
   - phrase: "the emperor's commissioners"
     label: "Paul and Macarius"
@@ -427,7 +428,7 @@ orientation:
     grounded_in: [don.term.concilium, don.force.maximianist-fracture]
   - phrase: "Novapetra"
     kind: place
-    note: "Where Marculus was held four days at a cliff and thrown from it. The place is probably the site now called Henchir Encedda, in today's Algeria."
+    note: "Where, by his church's account, Marculus was held four days at a cliff and thrown from it. The place is probably the site now called Henchir Encedda, in today's Algeria."
     url: https://pleiades.stoa.org/places/334604
     verified_on: "2026-10-17"
     grounded_in: [don.story.passio-marculi, don.figure.marculus]
@@ -458,14 +459,13 @@ narrative:
       Five figures carry the Donatist voice across its recorded life.
       Donatus gave the movement its name and left nothing of his own but
       one question, reported by the man who argued against him. Petilian
-      is its fullest surviving voice and its most filtered. Augustine
-      quoted him clause by clause to refute him, but at the Conference
-      of Carthage he spoke in the open. Emeritus argued that same
-      hearing for three days, and his words were taken down as he spoke
-      them. His church remembers Marculus as a man shown, before he
-      died, what a finished life looks like. Tyconius was told by his
-      own bishop to stop preaching, and his book later shaped
-      Augustine's reading of Scripture.
+      is its fullest surviving voice. Augustine quoted him clause by
+      clause to refute him, but at the Conference of Carthage he spoke
+      in the open. Emeritus argued that same hearing for three days, and
+      his words were taken down as he spoke them. His church remembers
+      Marculus as a man shown, before he died, what a finished life
+      looks like. Tyconius was told by his own bishop to stop preaching,
+      and his book later shaped Augustine's reading of Scripture.
     figures: [don.figure.donatus, don.figure.petilian, don.figure.emeritus, don.figure.marculus, don.figure.tyconius]
   quiet: don.limit.womens-own-voice
   questions:
