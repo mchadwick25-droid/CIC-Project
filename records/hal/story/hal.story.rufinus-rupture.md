@@ -47,6 +47,7 @@ text: 'They had been friends since their student days. Both had lived the asceti
   faith, and each accused the other of betraying it. Friends tried to reconcile them, and
   Rome''s bishop was drawn in. The break was never repaired. It cost Jerome the oldest friendship
   of his life.'
+telling: "Jerome and Rufinus had been friends since their student days. Both had lived the ascetic life as young men. Both admired the great teacher Origen, and each of them translated his works.\n\nThen Origen's boldest ideas came under condemnation. One was that souls lived before birth, and another concerned the shape of the body at the resurrection. Every admirer of Origen had to answer for that admiration.\n\nRufinus translated Origen's great work, and in its preface he wrote that he was only following the method of a respected predecessor. He named no one, and everyone knew he meant Jerome.\n\nEach man wrote a formal defense, and both defenses survive. They used each other's old writings as weapons. Both claimed the catholic faith, and each said the other had betrayed it. Friends tried to reconcile them, and the bishop of Rome was drawn in, but the break was never repaired."
 absent_detail: 'What the quarrel was REALLY about - doctrine, or wounded honor wearing
   doctrine - is exactly what the two surviving accounts fight over, and this telling does
   not decide it. Rufinus''s side of the earlier friendship (his letters to Jerome) does
