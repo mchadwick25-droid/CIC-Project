@@ -142,6 +142,7 @@ text: >-
   the great men of this age lead captives, bound, before their chariots, those who followed Martin had
   overcome the world under his guidance, not been dragged behind him in chains. This funeral, he says,
   was Martin's own triumph, sung that day in psalm and hymn.
+telling: "Martin had long known when he would die, Sulpitius writes, and he had told the brothers so. When the clergy at Condate fell to quarreling, he went to make peace among them. One more church at peace, he judged, would be a fitting end to his life.\n\nPeace was made, but as he was about to return to the monastery, his strength failed. The brothers wept and begged him not to leave them, and Martin wept too. He prayed that he would not refuse more work if he was still needed, and he left the choice to God.\n\nFor some days he lay in fever on sackcloth and ashes, praying through whole nights. When his disciples asked to put some ordinary straw under him, he refused. A Christian should die among ashes, he said, and he would be sinning if he left them a different example. Those who were there told us that he saw the devil standing near and rebuked him without fear. Then he died, and they said his face looked like an angel's.\n\nThe whole city his body was brought to poured out to meet it, with people from the villages and towns around. Almost two thousand monks, it is said, came to his funeral. Old men walked with young soldiers of Christ, and a choir of virgins kept their grief hidden."
 absent_detail: >-
   The letter never names the city the body was brought to; Sulpitius was not present at the death; the
   numbers at the funeral are report. The "choir of virgins" is the only trace of the women who chose
@@ -165,7 +166,3 @@ use_note:
   years: {from: 397, to: 397}
   status: reviewed
 ---
-Sourced from Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii), Sulpitius Severus's
-own account of Martin's death at Condate and burial, written within months of the event. This record
-paraphrases that letter in its own voice; the letter's own wording, verified against the vendored
-source, is carried in full in the `gallic.quote.*` records named in `relations`.
