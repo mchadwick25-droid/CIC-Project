@@ -1138,3 +1138,11 @@ The project lead asked for an Opus review of the rigor and craft of this pass. T
 - "this world" appears in about 163 gallic record files, some in fields participants see.
 
 Status: OPEN for the record-level defects. CLOSED for the participant-facing text of this pass.
+
+### OG-43. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: four teasers (cloak, catechumen, angel and psalms, Honoratus) now attribute the miracle or vision to the source; the Trier telling gives "sixteen more years" as Gallus's figure; the teaser no longer claims Martin never forgave himself; Vincent's formula reads "by all"; the Julian note is plain; ten long notes trimmed.
+
+Status: CLOSED for this review.

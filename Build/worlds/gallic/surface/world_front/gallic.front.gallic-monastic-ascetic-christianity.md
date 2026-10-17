@@ -79,7 +79,7 @@ orientation:
       judgment that keeps him between too much and too little. The
       Egyptian fathers called it the mother of all virtues. On Lérins,
       Vincent wrote that the true faith is what has been believed
-      everywhere, always, by everyone.
+      everywhere, always, by all.
     grounded_in: [gallic.gravity.interior-road, gallic.term.purity-of-heart, gallic.term.discretion, gallic.gravity.received-not-invented, gallic.figure.vincent, gallic.quote.believed-everywhere-always-by-all]
   - text: >-
       In his Institutes, Cassian chose not to write up the wonders he
@@ -125,7 +125,7 @@ orientation:
   - story_id: gallic.story.the-cloak-at-amiens
     title: "Half a Cloak at the Gate of Amiens"
     when: "While Martin was still a soldier and not yet baptized; the text gives no year"
-    teaser: "A soldier cuts his cloak in two for a naked beggar at the city gate. That night he sees Christ wearing the half he gave away."
+    teaser: "A soldier cuts his cloak in two for a naked beggar at the city gate. That night, Sulpitius says, he sees Christ in his sleep, wearing the half he gave away."
     grounded_in: [gallic.story.the-cloak-at-amiens, gallic.figure.martin]
   - story_id: gallic.story.discharge-before-caesar
     title: "Martin Asks Caesar for His Discharge"
@@ -135,7 +135,7 @@ orientation:
   - story_id: gallic.story.raising-of-the-catechumen
     title: "Martin Brings a Dead Catechumen Back"
     when: "After Martin left the army and set up his monastery; the text gives no year"
-    teaser: "Martin returns to find a new believer dead before baptism. He bolts the door and stretches himself over the body. Two hours later the man opens his eyes."
+    teaser: "Martin returns to find a new believer dead before baptism. He bolts the door and stretches himself over the body. Sulpitius says that two hours later the man opens his eyes."
     grounded_in: [gallic.story.raising-of-the-catechumen]
   - story_id: gallic.story.election-at-tours
     title: "The Monk Lured Out to Be Made Bishop"
@@ -145,7 +145,7 @@ orientation:
   - story_id: gallic.story.trier-and-the-ithacian-communion
     title: "Martin Yields Once, at the Emperor's Court"
     when: "After Priscillian was put to death, while Maximus ruled at Trier; the text gives no year"
-    teaser: "To save lives, a bishop takes communion with men he had refused. In return, the officers sent to hunt heretics in Spain are called back. He never fully forgives himself."
+    teaser: "To save lives, a bishop takes communion with men he had refused. In return, the officers sent to hunt heretics in Spain are called back. He never goes to a synod again."
     grounded_in: [gallic.story.trier-and-the-ithacian-communion, gallic.figure.martin]
   - story_id: gallic.story.brictio-in-the-courtyard
     title: "If Christ Bore with Judas"
@@ -160,7 +160,7 @@ orientation:
   - story_id: gallic.story.the-angel-and-the-twelve-psalms
     title: "The Angel Who Set the Number of Psalms"
     when: "Set in the early days of Egypt's monks, no year given; Cassian wrote it down in Gaul"
-    teaser: "Egyptian fathers cannot agree how many psalms to sing each evening. The hour for prayer arrives, and one father sings twelve and vanishes. They take twelve as the number."
+    teaser: "Egyptian fathers cannot agree how many psalms to sing each evening. At the hour of prayer, Cassian reports, one father sings twelve and vanishes. They take twelve as the number."
     grounded_in: [gallic.story.the-angel-and-the-twelve-psalms]
   - story_id: gallic.story.germanus-scruple-at-morning-service
     title: "The Farmer Who Still Needs the Rain"
@@ -170,7 +170,7 @@ orientation:
   - story_id: gallic.story.honoratus-and-the-island
     title: "Honoratus and the Island of Snakes"
     when: "Told in a funeral sermon by his successor at Arles; the text gives no year"
-    teaser: "A founder walks unafraid onto an island shunned for its filth and snakes, a psalm on his lips. The snakes give way. Then, as far as his disciple's sermon can be read, the priesthood he had run from catches up with him there."
+    teaser: "A founder walks unafraid onto an island shunned for its filth and snakes, a psalm on his lips. His disciple Hilary says the snakes gave way."
     grounded_in: [gallic.story.honoratus-and-the-island, gallic.figure.honoratus]
   voices:
   - figure: gallic.figure.martin
@@ -287,11 +287,11 @@ orientation:
   highlights:
   - phrase: "Sulpitius"
     kind: person
-    note: "An Aquitanian, from a leading family by his editors' account, who wrote the Life of Martin. He says he learned the facts partly from Martin and partly from people who lived with him."
+    note: "The Aquitanian who wrote the Life of Martin. He says he learned it partly from Martin and partly from those who lived with him."
     grounded_in: [gallic.figure.sulpitius, gallic.source.sulpitius-vita-martini]
   - phrase: "Julian"
     kind: person
-    note: "The text calls this commander only Julian Caesar. One editor of the English edition names him Julian the Apostate. The text never says so."
+    note: "Sulpitius calls him just Julian Caesar. That is all. A modern editor says he is Julian the Apostate. Sulpitius does not."
     grounded_in: [gallic.story.discharge-before-caesar, gallic.figure.martin, gallic.source.npnf-editorial-apparatus]
   - phrase: "Priscillian"
     kind: person
@@ -309,15 +309,15 @@ orientation:
     grounded_in: [gallic.contested.egypt-two-measures, gallic.quote.postumianus-you-have-conquered-all-the-eremites, gallic.force.egyptian-standard]
   - phrase: "Chaeremon"
     kind: person
-    note: "An old man whose cell stood near Panephysis in Egypt. Cassian wrote down his words years later in Gaul, setting out in his own composition what he had heard."
+    note: "An old man whose cell stood near Panephysis in Egypt. Years later, in Gaul, Cassian set down his teaching in his own words."
     grounded_in: [gallic.story.germanus-scruple-at-morning-service, gallic.figure.cassian]
   - phrase: "synod"
     kind: term
-    note: "A meeting of bishops. After Trier, Martin stayed away from them. Vincent, a monk of Lérins, trusted the decrees of an ancient general council to guard the faith."
+    note: "A meeting of bishops. After Trier, Martin stayed away from them. Vincent of Lérins trusted an ancient general council's decrees to guard the faith."
     grounded_in: [gallic.term.council-synod, gallic.story.trier-and-the-ithacian-communion]
   - phrase: "communion"
     kind: term
-    note: "Fellowship in the church, and the sacrament within it. To withhold it was the church's sharpest penalty. Martin felt that one forced communion cost him some of his power."
+    note: "Fellowship in the church, and the sacrament within it. To withhold it was the church's sharpest penalty. Martin felt that one forced communion weakened his power."
     grounded_in: [gallic.term.communion, gallic.story.trier-and-the-ithacian-communion]
   - phrase: "sackcloth"
     kind: term
@@ -325,15 +325,15 @@ orientation:
     grounded_in: [gallic.term.sackcloth-and-ashes]
   - phrase: "discretion"
     kind: term
-    note: "The Egyptian fathers' word, passed on by Cassian, for the judgment that keeps each virtue from going wrong. A monk gained it through humility, by testing his thoughts against the advice of the elders."
+    note: "The Egyptian fathers' word, passed on by Cassian, for the judgment that keeps each virtue from going wrong. A monk gained it through humility."
     grounded_in: [gallic.term.discretion]
   - phrase: "purity of heart"
     kind: term
-    note: "The monk's nearest goal, short of the kingdom of heaven itself. The Egyptian fathers, as Cassian reports them, ranked fasting and night prayer as aids to it, never as the point."
+    note: "The monk's nearest goal, short of heaven itself. Cassian's Egyptian fathers ranked fasting and night prayer as aids to it, never the point."
     grounded_in: [gallic.term.purity-of-heart]
   - phrase: "grace"
     kind: term
-    note: "God's help, without which no effort reaches its goal. Whether grace or the human will begins the good is disputed, and scholars still disagree about what Cassian held."
+    note: "God's help, without which no effort reaches its goal. Scholars still disagree on whether Cassian held that grace or the will begins the good."
     grounded_in: [gallic.term.grace, gallic.contested.beginning-of-good-will]
   - phrase: "virgins"
     kind: term
@@ -341,7 +341,7 @@ orientation:
     grounded_in: [gallic.term.virgin-virginity, gallic.story.death-of-martin-at-condate]
   - phrase: "heretics"
     kind: term
-    note: "People judged to have left the ancient, universal church. Martin held that bishops could expel them, and that an emperor's sword had no place in the matter."
+    note: "People judged to have left the ancient, universal church. Martin held that bishops might expel them, but an emperor's sword had no place."
     grounded_in: [gallic.term.heretic-heresy, gallic.force.court-at-trier]
   - phrase: "Tours"
     kind: place
@@ -351,7 +351,7 @@ orientation:
     grounded_in: [gallic.figure.martin]
   - phrase: "Marseilles"
     kind: place
-    note: "Founded by Greeks around 600 BCE as Massalia, now Marseille in France. Cassian is said to have founded two houses here, one for men and one for women."
+    note: "Greek Massalia, founded around 600 BCE, now Marseille in France. Cassian is said to have founded two houses here, one for men, one for women."
     url: https://pleiades.stoa.org/places/148127
     verified_on: "2026-10-17"
     grounded_in: [gallic.figure.cassian]
@@ -381,7 +381,7 @@ orientation:
     grounded_in: [gallic.story.death-of-martin-at-condate]
   - phrase: "Andethanna"
     kind: place
-    note: "A village near Trier, where Martin sat grieving in the woods. It is probably Niederanven in Luxembourg, though an editor calls the surviving text of the name corrupt."
+    note: "A village near Trier where Martin sat grieving in the woods. It is probably Niederanven in Luxembourg, though an editor calls the text corrupt."
     url: https://pleiades.stoa.org/places/108743
     verified_on: "2026-10-17"
     grounded_in: [gallic.story.trier-and-the-ithacian-communion, gallic.source.npnf-editorial-apparatus]
