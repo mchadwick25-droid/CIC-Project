@@ -158,11 +158,3 @@ use_note:
   years: {from: 397, to: 406}
   status: reviewed
 ---
-The record id keeps the technical slug "trier-..." as a stable identifier, though the vendored volume's
-own spelling is "Treves," which every in-record use of the place name follows.
-
-The narrative's verbatim wording is carried in three quote records, each re-verified directly against
-the vendored npnf211 file: gallic.quote.gallus-on-the-tribunes-for-the-spains (Dialogues III.11),
-gallic.quote.gallus-on-the-forced-communion-and-the-angel (Dialogues III.12-13), and
-gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause (Sacred History II.50, a related,
-distinct telling of an earlier phase, not independent corroboration).

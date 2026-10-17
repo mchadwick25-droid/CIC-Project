@@ -17,26 +17,25 @@ export:
 skim:
   tile:
     text: >-
-      Between about 360 and 450 CE, two households in Roman Gaul lived
-      out one shared idea in different ways: a monk does not stop
-      being a monk just because the Church makes him a bishop. In the
-      Loire valley, a soldier named Martin left the army to serve
-      Christ instead. He gathered followers in the woods near Tours,
-      and the townspeople later seized him and made him their bishop.
-      He never gave up his monk's life. Two generations later, on an
-      island called Lérins off the Mediterranean coast, and in the
-      nearby city of Marseilles, other monks built communities of
-      their own. One of them, John Cassian, had lived among the monks
-      of Egypt. He wrote down what he learned there and adapted it for
-      a colder land and a different church. Another, Vincent, wrote a
-      short rule for telling true growth in the faith from a
-      corruption dressed up as one. Running through both households
-      was one argument, never fully settled: how much of a monk's
-      progress is God's own gift, and how much is his own effort. The
-      two households never had any contact with each other that the
-      surviving evidence can show. The story closes around 450, before
-      that argument hardened into fixed camps.
-    grounded_in: [gallic.core.gallic]
+      Between about 360 and 450 CE, two households of monks in Roman
+      Gaul lived out the same idea. In both, a monk who was made a
+      bishop went on living as a monk. In the Loire valley, a soldier
+      named Martin left the army to serve Christ. He gathered monks
+      around him, and the people of Tours drew him out of his
+      monastery by a trick and made him their bishop. As bishop, he
+      kept living like a monk. In the years after his death, other
+      monks built houses on Lérins, an island off the Mediterranean
+      coast, and in the city of Marseilles. No evidence shows that the
+      two households ever wrote to each other. One of the southern
+      monks, John Cassian, had lived among the monks of Egypt. He
+      wrote down their teaching for Gaul, changing it only where
+      Gaul's climate or habits made it too hard. He also wrote down a
+      question that troubled him and his friend at prayer. It asked
+      how much of a monk's progress is God's gift and how much his own
+      effort. Another monk, Vincent of Lérins, wrote a short rule for
+      telling true growth in the faith from a corruption dressed up as
+      one.
+    grounded_in: [gallic.core.gallic, gallic.gravity.monk-bishop, gallic.figure.martin, gallic.story.election-at-tours, gallic.figure.cassian, gallic.quote.cassian-adapts-egypt-to-gaul, gallic.story.germanus-scruple-at-morning-service, gallic.figure.vincent]
 orientation:
   story:
   - text: >-
@@ -177,112 +176,111 @@ orientation:
   voices:
   - figure: gallic.figure.martin
     text: >-
-      Martin left the army to serve Christ instead, telling his commander
-      it was not right for him to fight. He gathered followers in the
-      woods near Tours, then was made bishop against his own will. As
-      bishop, he never stopped living like a monk. He healed the sick and
-      raised the dead, by his own account, yet felt that power lessen once
-      he took a communion he believed was wrong, just to save two men's
-      lives. He never sat with a group of bishops again.
-    grounded_in: [gallic.figure.martin, gallic.story.discharge-before-caesar, gallic.story.trier-and-the-ithacian-communion]
-    hedge: "Everything told about Martin comes from one writer, Sulpitius Severus, who loved him and was never present for any of it. Sulpitius says so himself. That single-author risk runs through every story this world tells about its own founder."
+      Martin left the army to serve Christ, telling his commander it
+      was not lawful for him to fight. Sulpitius says he could not
+      easily be drawn out of his monastery, so the people of Tours
+      made him their bishop by a trick. As bishop, he kept living like
+      a monk, with his brothers two miles outside the city. Sulpitius
+      tells of him healing the sick and raising the dead. Martin felt
+      that power weaken after he once took communion with bishops he
+      had refused, to save lives. After that he stayed away from every
+      gathering of bishops.
+    grounded_in: [gallic.figure.martin, gallic.story.discharge-before-caesar, gallic.story.election-at-tours, gallic.core.gallic, gallic.gravity.virtus, gallic.story.trier-and-the-ithacian-communion]
+    hedge: >-
+      Almost everything we tell of Martin comes from one writer,
+      Sulpitius Severus, who admired him. Sulpitius visited Martin,
+      but he was not there for most of what he tells. He says he
+      learned it from Martin and from those who lived with him.
   - figure: gallic.figure.cassian
     text: >-
-      Cassian lived for years among the monks of Egypt before founding two
-      communities of his own at Marseilles. He wrote down what he had
-      learned there, refusing on principle to tell any tale of wonders or
-      signs. He passed on Egypt's own program: purity of heart as the goal,
-      discretion as the guide, and eight faults for a monk to fight in
-      order. He also passed on an unresolved question, one he did not shy
-      from: how much of a monk's progress is God's own gift, and how much
-      is his own effort.
-    grounded_in: [gallic.figure.cassian, gallic.gravity.interior-road, gallic.gravity.grace-and-effort]
+      Cassian lived among the monks of Egypt as a young man. Later he
+      founded two houses at Marseilles, one for men and one for women.
+      He wrote down what the Egyptian fathers taught, and on principle
+      he told no stories of wonders. From them he passed on purity of
+      heart as the monk's goal and discretion as his guide. He listed
+      eight faults for a monk to fight in turn. And he wrote down how
+      a question about grace and effort troubled his friend Germanus
+      and him at morning prayer.
+    grounded_in: [gallic.figure.cassian, gallic.gravity.interior-road, gallic.gravity.grace-and-effort, gallic.story.germanus-scruple-at-morning-service]
     hedge: >-
-      Cassian never mentions Martin, and no surviving story shows a
-      Gallic monk actually keeping the Egyptian program he wrote down.
-      By his own complaint, no one in his own monasteries kept it even
-      for a year.
+      Cassian never mentions Martin. No story we have shows a monk of
+      Gaul keeping the Egyptian way he wrote down. By his own
+      admission, he could recall no one in our monasteries who kept up
+      the Egyptian perseverance unbroken even for a year.
   - figure: gallic.figure.honoratus
     text: >-
-      Honoratus went alone to an island so overrun with snakes that no one
-      else would live there, and built a community in a place made for no
-      life at all. He wanted nothing more than to stay a monk. The office
-      of bishop found him anyway, and he ended his life leading the church
-      at Arles instead of the island he founded.
+      Honoratus took his followers to an island that stood empty,
+      because it was filthy and no one went near it for fear of
+      snakes. His disciple Hilary says he went in unafraid, with a
+      psalm on his lips, and set up a camp of God there. He had run
+      from church office, but on the island the priesthood caught up
+      with him. In time he became a bishop.
     grounded_in: [gallic.figure.honoratus, gallic.story.honoratus-and-the-island]
     hedge: >-
-      The only story told of Honoratus comes from a funeral sermon
-      preached by his own disciple, read today only in rough,
-      hard-to-read Latin. What survives can tell how he arrived on the
-      island and how he left it - nothing of what happened in between.
+      All we can tell of our founder comes from the funeral sermon his
+      disciple Hilary preached. It tells how he came to the island and
+      was made a priest there. Of our days on the island in between,
+      it says nothing.
   - figure: gallic.figure.sulpitius
     text: >-
-      Sulpitius Severus was rich and well-educated. He gave up his own
-      career to follow Martin. He wrote Martin's Life while Martin was
-      still alive. He says plainly that he was never there for any of the
-      events in it. His real sources were Martin's own household, and
-      sometimes Martin himself.
+      Sulpitius Severus came from Aquitaine, from a leading family by
+      his editors' account, and he visited Martin at Tours. He wrote
+      Martin's Life so that its readers would be stirred to follow
+      him. He also wrote a letter on Martin's death and the Dialogues,
+      in which his friend Gallus tells more stories of Martin. He says
+      he learned what he tells partly from Martin himself and partly
+      from those who lived with him.
     grounded_in: [gallic.figure.sulpitius]
     hedge: >-
-      Nearly everything this world knows about its own northern half
-      passes through this one author's hand. He was not a neutral
-      reporter - he loved Martin and wrote to make readers admire him.
-      Every surviving claim about Tours carries that single-author
-      risk.
+      Nearly everything we know of Tours passes through this one
+      writer. He admired Martin and wrote to make his readers follow
+      him, so he was never a neutral reporter.
   floor_note:
     text: >-
-      This world confessed what the wider Church confessed about Christ.
-      But its own life rarely argued about it. Vincent, writing from the
-      island, gave one formula as an example of a settled faith, not a
-      live debate: one substance but three Persons in God, two substances
-      but one Person in Christ. He wrote it to defend a different point.
-      Mary should be called the mother of God, he said, not only of the
-      man Christ. A council had already ruled on that, three years before
-      he wrote. This world's real argument lay elsewhere: how much of a
-      monk's own progress comes from God's gift, and how much from his own
-      effort. On that question, this world's own record never reaches a
-      settled answer.
-    grounded_in: [gallic.dw.one-person-two-substances, gallic.quote.one-substance-three-persons, gallic.contested.beginning-of-good-will]
+      The two households confessed what the wider Church confessed
+      about Christ, and they treated it as settled. Vincent, writing
+      on the island, gave the faith in one formula. In God there is
+      one substance but three Persons, and in Christ two substances
+      but one Person. He used it as an example of his rule, that the
+      true faith is what has been believed everywhere, always, by
+      everyone. One man had wanted Mary called the mother of Christ
+      but not the mother of God. The bishops at Ephesus refused him,
+      three years before Vincent wrote.
+    grounded_in: [gallic.dw.one-person-two-substances, gallic.quote.one-substance-three-persons, gallic.quote.believed-everywhere-always-by-all]
   legacy:
   - text: >-
-      This world's own record stops before its central argument was
-      settled. It says so itself: what comes after is not its to tell. One
-      generation later, the argument about grace and effort continued. But
-      it was no longer monks writing to fellow monks. A bishop trained on
-      the same island took it up instead, writing at the direct request of
-      two church councils. This world's own record ends at the edge of
-      that change, not inside it.
-    grounded_in: [gallic.core.gallic, gallic.force.synodal-commission, gallic.force.transmission-in-ending]
+      After 450 the argument over grace and effort went on, but it was
+      no longer one monk writing to another. In the 470s Faustus, once
+      abbot of Lérins and by then a bishop, took it up. He says he
+      wrote at the request of church councils at Arles and Lyons, as a
+      bishop writing for other bishops.
+    grounded_in: [gallic.force.synodal-commission, gallic.gravity.monk-bishop, gallic.core.gallic]
   relations_summary:
     text: >-
-      This world grew up on ground another community had already fought
-      to hold. Before Martin's own household took shape, a bishop named
-      Hilary of Poitiers was sent into exile. He had refused to accept a
-      creed backed by the emperor. Once he came home, Hilary was the
-      bishop near whom Martin first gathered his own followers. This
-      world's own record does not say what happened to Gaul's church after
-      its own span closes in 450. It says nothing about monasticism
-      elsewhere, either.
-    grounded_in: [gallic.core.gallic, gallic.force.arian-scattering, gallic.figure.martin]
+      Martin's household grew up in a church torn by heresy. Sulpitius
+      says Martin found the church in Gaul in turmoil, because
+      heretics had driven the bishop Hilary into exile. At Milan, a
+      man named Auxentius drove Martin out as well, and he went to
+      live on a small island. When Hilary came home, Martin followed
+      him and built a monastery near his town.
+    grounded_in: [gallic.force.arian-scattering, gallic.story.raising-of-the-catechumen, gallic.figure.martin, gallic.core.gallic]
   sourcing:
     text: >-
-      This world's record is richest in one man's telling of another.
-      Sulpitius Severus wrote about Martin. Cassian wrote down what
-      Egypt's monks taught him. Both households left rich writing
-      about ideas and virtues. But both leave two things almost
-      entirely dark: the island's own daily life, and Tours's own
-      daily worship. No one wrote down what the brethren sang, or
-      when. No woman's own word survives from either house, though
-      both kept communities of women alongside the men. And a later
-      editor cut three whole sections on the body's own discipline
-      from the one edition of Cassian that survives. That is a gap in
-      what survives, not in what this world itself said.
-    grounded_in: [gallic.core.gallic, gallic.limit.only-on-paper]
+      Most of what survives is one man's account of another. Sulpitius
+      Severus wrote about Martin, and Cassian wrote down what Egypt's
+      monks taught him. Both households left much writing on virtue
+      and on the saint's power, and little on daily life. Nothing
+      survives of the island's daily life, and the books from Tours do
+      not say what the brothers sang or when. Both houses kept
+      communities of women, yet no woman's own words survive.
+      Cassian's English translator also left out three of his texts on
+      the body and its discipline.
+    grounded_in: [gallic.core.gallic, gallic.limit.only-on-paper, gallic.figure.cassian]
   read_first:
   - source: gallic.source.sulpitius-vita-martini
-    note: "The whole of Martin's own story, told by a man who loved him and was never present for any of it."
+    note: "Martin's life from soldier to bishop, by a man who knew him and heard the stories from Martin and his brothers."
   - source: gallic.source.cassian-institutes
-    note: "Egypt's customs, carried west and adapted for a colder climate and a bishop's new house."
+    note: "Egypt's customs, set down for a new house in Gaul and changed only where its climate or habits made them too hard."
   - source: gallic.source.vincent-commonitory
     note: "A short book written as a rule for telling true growth in the faith from a corruption dressed up as one."
   highlights:
@@ -395,14 +393,15 @@ orientation:
 narrative:
   who_speaks:
     text: >-
-      Four figures anchor this world's own voice. Martin was the soldier
-      who left the army for Christ. He was made a bishop against his own
-      will. Sulpitius Severus was the admirer who wrote almost everything
-      we know about him. He admits he was never present for it himself.
-      Cassian lived among Egypt's monks and carried their teaching to
-      Marseilles. He refused to write of wonders. Honoratus founded a
-      community on an island of snakes. Like Martin, he was overtaken by
-      an office he never sought.
+      Four figures carry the voice of the two households. Martin was
+      the soldier who left the army for Christ and was drawn out of
+      his monastery to be made a bishop. Sulpitius Severus admired him
+      and wrote almost everything known about him, much of it from
+      what Martin and his brothers told him. Cassian lived among
+      Egypt's monks and carried their teaching to Marseilles, though
+      he refused to write of wonders. Honoratus founded a community on
+      an island of snakes, and there the priesthood he had fled caught
+      up with him.
     figures: [gallic.figure.martin, gallic.figure.sulpitius, gallic.figure.cassian, gallic.figure.honoratus]
   quiet: gallic.limit.only-on-paper
   questions:

@@ -150,12 +150,3 @@ use_note:
   years: {from: 426, to: 426}
   status: reviewed
 ---
-"Chaeremon" is spelled without the ligature for plain ASCII; the vendored volume prints the ae ligature.
-Germanus here is Cassian's own companion, never Germanus of Auxerre.
-
-The narrative's verbatim wording is carried in four quote records, each independently verified
-against the vendored npnf211 file: gallic.quote.germanus-troubled-after-the-nights-teaching
-(Conference XIII.1), gallic.quote.germanus-and-chaeremon-on-the-husbandman (Conference XIII.2-3),
-gallic.quote.chaeremon-grace-requires-our-effort (Conference XIII.13), and
-gallic.quote.chaeremon-three-stages-of-grace (Conference XIII.18) - two separate teachings from two
-non-adjacent chapters of the same Conference, each carried as its own record rather than joined.

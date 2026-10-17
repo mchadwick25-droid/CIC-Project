@@ -166,7 +166,3 @@ use_note:
   years: {from: 397, to: 397}
   status: reviewed
 ---
-Sourced from Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii), Sulpitius Severus's
-own account of Martin's death at Condate and burial, written within months of the event. This record
-paraphrases that letter in its own voice; the letter's own wording, verified against the vendored
-source, is carried in full in the `gallic.quote.*` records named in `relations`.

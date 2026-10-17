@@ -132,8 +132,3 @@ use_note:
   years: {from: 415, to: 426}
   status: reviewed
 ---
-The origin - the tradition Cassian handed on to Gaul, from the fathers of Egypt - is disclosed in the
-telling itself. Illustrates gallic.gravity.received-not-invented most literally: on Cassian's own
-account, the number of psalms was not any man's invention but was given to the fathers through an
-angel. Also touches gallic.gravity.interior-road, as the temporal skeleton the daily office organizes,
-and gallic.gravity.egypt-as-measure, as the reception frame for the whole story.

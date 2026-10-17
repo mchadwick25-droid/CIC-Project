@@ -138,14 +138,3 @@ use_note:
   years: {from: 429, to: 430}
   status: reviewed
 ---
-Grounded in Hilary of Arles's Sermo de Vita Sancti Honorati (Migne PL 50, vendored file lines c.
-660-722, rough OCR); the disclosure of the wording's own Inferential-Thin status, the unrendered OCR
-word, and Gennadius's independent attestation of the sermon are all carried above in the
-divergence_note. Nothing is supplied from outside those lines: nothing about Honoratus at Arles,
-nothing about the island's daily life. Cross-node pairing with gallic.story.election-at-tours and
-gallic.story.bishop-archebius is declared as story-to-story associated-with relations; the
-resemblance is this record's own finding, not the sermon's own claim - it does not mention Martin,
-and Sulpitius never mentions Lerins.
-
-This story's own relations to this world's gravities are declared in full in its `relations[]`
-field above, reciprocal edges declared on each target.

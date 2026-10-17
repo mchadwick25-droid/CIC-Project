@@ -120,10 +120,3 @@ use_note:
   years: {from: 397, to: 397}
   status: reviewed
 ---
-Neither "Ligugé" nor "Poitiers" appears in the narrative: Sulpitius names the monastery only as "not
-far from the town," and those identifications are editorial, not his own words (see absent_detail).
-
-The raising itself, from Martin's return to the moment the brethren see the man alive, is carried in
-full, verbatim, in gallic.quote.martin-raises-the-catechumen; the man's becoming Martin's first witness
-and the growth of Martin's reputation are carried in gallic.quote.the-catechumens-testimony. This
-record paraphrases both in its own voice and points to those records for the exact wording.

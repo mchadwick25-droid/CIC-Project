@@ -126,13 +126,3 @@ use_note:
   years: {from: 397, to: 397}
   status: reviewed
 ---
-"The city of Amiens" is part of the translation's own main text (npnf211, the sentence naming where
-Martin met the beggar), not its endnote - it is quoted here in full, along with everything else the
-main text says. The endnote at that point only glosses the underlying Latin ("Ambianensium civitas")
-and an alternate ancient name (Samarobriva); it is not itself quoted. The id keeps "amiens" as a
-stable technical identifier regardless.
-
-Martin's conduct as a soldier before the cloak, and the cloak-and-vision scene itself, are carried in
-full, verbatim, in gallic.quote.the-soldier-who-served-his-servant and
-gallic.quote.the-cloak-divided-and-the-vision-of-christ; this record paraphrases both in its own voice
-and points to those records for the exact wording.

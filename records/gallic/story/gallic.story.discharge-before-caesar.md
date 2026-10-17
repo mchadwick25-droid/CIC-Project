@@ -122,10 +122,3 @@ use_note:
   years: {from: 397, to: 397}
   status: reviewed
 ---
-The ancient text's own "Julian Caesar" and "the city of the Vaugiones" are kept, not Roberts's
-editorial identification of the city as Worms.
-
-Martin's two speeches - refusing the donative, and offering to stand unarmed before the enemy line -
-are carried in full, verbatim, in gallic.quote.martin-refuses-the-donative and
-gallic.quote.martin-offers-to-stand-unarmed; this record paraphrases them in its own voice and points
-to those records for the exact wording.

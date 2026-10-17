@@ -137,6 +137,3 @@ use_note:
   years: {from: 404, to: 406}
   status: reviewed
 ---
-No separate figure record exists for Brictio: he appears in this single story and nowhere else in the
-world's built evidence, and nothing may be asserted about him beyond this locus - he is fully carried
-here.

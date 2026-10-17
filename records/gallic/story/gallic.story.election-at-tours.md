@@ -131,10 +131,3 @@ use_note:
   years: {from: 397, to: 397}
   status: reviewed
 ---
-The cross-node pairing with gallic.story.bishop-archebius and gallic.story.honoratus-and-the-island,
-declared as story-to-story relations above, is a finding of the construction - the three capture
-stories are retrieved alongside one another - never a comparison the world's own sources make
-themselves. Illustrates gallic.gravity.monk-bishop as the founding narrative of the office made against
-bishops at the Tours node, and gallic.gravity.authority-ambivalence in its northern valence at the
-moment of origin; associated-with gallic.gravity.virtus, since the psalter opened at random is virtus
-applied to a book.
