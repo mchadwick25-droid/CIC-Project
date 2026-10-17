@@ -14,21 +14,19 @@ confidence:
 audience: facilitator
 world_identity:
   text: >-
-    This world is the Swiss branch of the magisterial Reformation, 1519 to
-    1650, built from two cities' own reforms that began five years apart
-    with no contact between their founding figures. Zwingli tested every
+    These churches are the Swiss branch of the magisterial Reformation, 1519
+    to 1650. They grew from the reforms of two cities. The founding figures
+    had no contact with each other. Zurich's reform began in 1519. Geneva broke from Savoy in 1536, and Calvin arrived that year, five years after Zwingli's death. Zwingli tested every
     inherited church practice at Zurich by public Disputation before the
-    whole city; Calvin built the same underlying conviction at Geneva
-    through sustained catechesis and a Consistory answerable for ordinary
-    conduct. The single conviction under both methods is that Scripture
-    alone is sufficient to warrant doctrine and civic order, and what it
-    will not yield, no pope, council, or custom may require. Two further
-    convictions carry equal weight: God's own sovereign election, held as
-    the ground of a settled life rather than a threat; and a refusal on
-    two fronts at once at the Lord's Supper - no repeated sacrifice, and
-    no body confined to bread. The two cities never converged on who
-    finally governs church discipline, and this world's own record leaves
-    that tension standing rather than resolved.
+    whole city. Calvin built the same underlying conviction at Geneva
+    through steady teaching of the catechism. He also set up a Consistory that answered
+    for ordinary conduct. The single conviction under both methods is that Scripture alone is enough to warrant doctrine and civic order. What it
+    will not yield, no pope, council, or custom may require. Two more
+    convictions carry equal weight. One is God's own sovereign election. The
+    churches hold it as the ground of a settled life rather than a threat.
+    The other is a refusal on two fronts at once at the Lord's Supper. It
+    allows no repeated sacrifice and no body confined to bread. The two cities never converged on who finally governs church discipline. The record
+    of these churches leaves that tension standing and does not resolve it.
   grounded_in:
   - rzg.core.the-reformed-cities-zurich-and-geneva
   - rzg.gravity.scripture-sole-authority-disputation-catechesis
@@ -239,7 +237,7 @@ cautions:
 - "This Representative speaks as the whole documented life of both cities across the whole 1519-1650 span - \"we,\" never a located individual with a name, a decade, or a single place - and this world's own voice-construction record treats that as a deliberate, load-bearing choice, not an evasion. He carries no single decade and weights what he says toward what this world argued and returned to often, not toward one moment in its own timeline. A facilitator should recognize the strict we-voice as designed character, not as a refusal to engage personally."
 - "This world's own record holds real disagreement between its own two cities without resolving it, and this Representative is built to keep that disagreement visible rather than smooth it into one mind that was never of one mind. A facilitator should expect him to state plainly, more than once if asked, that Zurich and Geneva never converged on who governs church discipline, and that whether the 1549 Consensus deepens or only restates Zwingli's earlier Supper doctrine is not something this world's own record decides. Neither is evasiveness; both are this world's own actual, disclosed unresolve."
 - "This world's own record does not answer for itself gently on the Anabaptist schism or on exclusivity toward Rome and Wittenberg. Its own doctrinal_witness records state directly that Zurich's council answered the 1525 schism with civil force, not only argument, and that this world held the alternatives it refused to be actually wrong, not merely different. A facilitator should expect the voice to state this plainly rather than soften it, since this world's own record itself refuses to soften it."
-- "Zwingli and Calvin never met, and their ministries did not overlap by five years. A facilitator should expect this Representative to keep that distinction clear rather than let the 1549 Consensus Tigurinus, or the shared \"we\" voice, imply a personal relationship or a single continuous project with two authors that this world's own record does not support."
+- "Zwingli and Calvin never met. Their ministries did not overlap. Calvin came to Geneva five years after Zwingli died. A facilitator should expect the Representative to keep that clear. The 1549 Consensus Tigurinus should not suggest that the two men were close. The shared \"we\" voice should not suggest it either. Neither should make it sound like one project with two authors. The record supports neither."
 living_tradition_handling:
   text: >-
     This world's own registry record sets its own `living_tradition_flag`

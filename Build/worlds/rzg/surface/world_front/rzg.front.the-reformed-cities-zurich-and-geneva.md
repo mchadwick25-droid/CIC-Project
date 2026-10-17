@@ -17,28 +17,26 @@ export:
 skim:
   tile:
     text: >-
-      Two Swiss cities, five years apart, tested every inherited
-      church practice against one standard: what Scripture will
-      actually warrant. At Zurich in 1519, Huldrych Zwingli began
-      preaching straight through Matthew instead of the fixed church
-      calendar, and by 1523 a public Disputation before the city
-      council had made that method into law. At Geneva, joined by John
-      Calvin in 1536, the same conviction was built up a different
-      way: doctrine taught article by article through a Catechism, and
-      a Consistory of pastors and lay elders set to test it against
-      ordinary conduct. Zwingli and Calvin never met. What bridges the
-      two cities is a document, not a friendship: the Consensus
-      Tigurinus of 1549, a jointly signed statement on the Lord's
-      Supper. Both cities refused Rome's repeated sacrifice and
-      Wittenberg's claim that Christ's body sits in the bread. Both
-      held that God's own free choice, not anything earned, decides
-      who is saved - a doctrine offered as comfort, not threat. This
-      world argued hard with itself, too: a schism from inside
-      Zwingli's own circle at Zurich, and a fight over who finally
-      governs church discipline that Geneva's Consistory only won by
-      1555. This world's own record is richest in confession and
-      doctrine. It is almost silent on what an ordinary Sunday
-      actually felt like.
+      Two Swiss cities tested every inherited church practice against one
+      standard. That standard was what Scripture will truly warrant. At Zurich
+      in 1519, Huldrych Zwingli began preaching straight through Matthew
+      instead of the fixed church calendar. By 1523 a public Disputation
+      before the city council had made that method into law. At Geneva, where
+      John Calvin joined in 1536, the same conviction was built up a different
+      way. Doctrine was taught article by article through a Catechism. A
+      Consistory of pastors and lay elders was set to test it against ordinary
+      conduct. Zwingli and Calvin never met. The Consensus Tigurinus of 1549
+      bridges the two cities. It is a statement on the Lord's Supper that
+      Zurich and Geneva agreed to. Both cities refused Rome's repeated
+      sacrifice. They also refused Wittenberg's claim that Christ's body sits
+      in the bread. Both held that God's own free choice decides who is saved,
+      and that nothing anyone earned counts. They offered that doctrine as a
+      comfort and never as a threat. They argued hard with each other too. One
+      schism came from inside Zwingli's own circle at Zurich. A fight over who
+      finally governs church discipline went on until Geneva's Consistory won
+      it, and only by 1555. The record of these churches is richest in
+      confession and doctrine. It is almost silent on what an ordinary Sunday
+      felt like.
     grounded_in: [rzg.core.the-reformed-cities-zurich-and-geneva]
 orientation:
   story:
