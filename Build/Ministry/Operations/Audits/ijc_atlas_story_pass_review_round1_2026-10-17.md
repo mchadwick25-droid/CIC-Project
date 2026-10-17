@@ -5,10 +5,10 @@ Reviewers: Opus 5.5, site-editing thread, and an independent Opus 5.5 subagent t
 ## What changed
 
 - `Build/worlds/ijc/surface/world_front/ijc.front.imperial-juridical.md`
-  - `orientation.story`: 11 units, about 1,500 words, became 8 units, 662 words, under five minutes aloud. The project lead read and approved it, then approved the corrected text below.
+  - `orientation.story`: 11 units, about 1,500 words, became 8 units, 623 words, under five minutes aloud. The project lead read and approved it, then approved the corrected text below.
   - `orientation.documented_stories`: 3 entries became 10, in date order. Seven episodes cut from the story are added. The three existing teasers lose their dash asides and contrast setups.
   - `orientation.highlights`: 35 notes on people, terms, councils and places (new field). Place locations cite Pleiades.
-- `records/ijc/story/*.md`: a `telling` on the ten stories shown on the card, authored by Opus. Under decision 24 the card shows and plays a story's modern telling, never its `text`. The project lead read and approved all ten.
+- `records/ijc/story/*.md`: a `telling` on the ten stories shown on the card, authored by Opus. Under decision 24 the card shows and plays a story's modern telling, never its `text`. The project lead read and approved all ten, and approved the second tails review.
 
 ## Checks
 
