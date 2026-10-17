@@ -116,12 +116,12 @@ orientation:
   - story_id: syr.story.abgar-addai-legend
     title: "The Story We Told of Our Own Beginning"
     when: "set around the year 30; first attested in writing centuries later"
-    teaser: "In the story, the sick King Abgar of Edessa writes to Jesus for healing. Jesus promises to send a disciple, and Addai comes. Scholars judge the tale a later legend about how the church began."
+    teaser: "In the story, the sick King Abgar of Edessa writes to Jesus for healing. Jesus promises to send a disciple, and Addai comes. The church told it as the story of its own beginning, in a form written down later."
     grounded_in: [syr.story.abgar-addai-legend, syr.contested.edessa-origins]
   - story_id: syr.story.edessa-flood-201
     title: "The Flood and the Church at Edessa"
     when: "201 (one edition counts it as 202)"
-    teaser: "The Chronicle of Edessa, compiled about 340 years later, says a river flood broke the city wall in the night. It says more than two thousand people died and the waters destroyed the king's palace and a church building. Scholars dispute whether the church line is original."
+    teaser: "The Chronicle of Edessa, compiled about 340 years later, says a river flood killed more than two thousand people. It says the waters destroyed a church building. Where that line came from is not settled."
     grounded_in: [syr.story.edessa-flood-201, syr.source.chronicle-of-edessa]
   - story_id: syr.story.jacob-nicaea
     title: "Jacob of Nisibis at Nicaea"
@@ -131,37 +131,37 @@ orientation:
   - story_id: syr.story.ephrem-roll-and-vine
     title: "Two Dreams About Ephrem"
     when: "undated, within Ephrem's life of about 306 to 373; the second dream is from his youth"
-    teaser: "In one dream, angels search for someone fit to be trusted with a written roll, and they choose Ephrem. In another, a vine grows out of his tongue and fills the whole space beneath the heavens. These dreams appear in the Syriac Paradise but not in the Greek text of Palladius."
+    teaser: "In one dream, angels choose Ephrem to be trusted with a written roll. In another, a vine grows from his tongue. Both dreams appear only in the Syriac Paradise."
     grounded_in: [syr.story.ephrem-roll-and-vine, syr.figure.ephrem]
   - story_id: syr.story.qyama-morning
     title: "A Morning of the Covenant at Nisibis"
     when: "337 to 363 (a typical morning built from separate sources, not one recorded day)"
-    teaser: "A typical morning at Nisibis begins before dawn. Men and women of the covenant gather for the vigil. The daughters of the covenant sing a teaching hymn, and the Gospel is read as one story. Afterward the covenant members go back to their homes and their work."
+    teaser: "Before dawn at Nisibis, men and women of the covenant gather for the vigil. The daughters of the covenant sing a teaching hymn, and the Gospel is read as one story."
     grounded_in: [syr.story.qyama-morning]
   - story_id: syr.story.jacob-deliverance
     title: "Jacob of Nisibis and the Siege"
     when: "338, 346, or 350 (which siege is not settled)"
-    teaser: "Theodoret, writing about a century later, says a Persian army turns the river against the city walls. Ephrem begs the old bishop Jacob to climb a tower and curse them. Jacob calls down only gnats and mosquitoes, and the Persians flee."
+    teaser: "Theodoret wrote about a century later. He says Jacob of Nisibis cursed the Persians, and only gnats and mosquitoes came. In his telling, they flee."
     grounded_in: [syr.story.jacob-deliverance, syr.figure.jacob-of-nisibis]
   - story_id: syr.story.simeon-martyrdom
     title: "Simeon Before the King of Persia"
     when: "341 by the traditional count (some argue about 344)"
-    teaser: "The tradition tells that Simeon, bishop of Seleucia-Ctesiphon, is arrested, accused of siding with Rome, and brought before King Shapur. He refuses the king's gifts and threats and will not worship the sun. He is put to death with his clergy."
+    teaser: "The tradition tells that Simeon, bishop of Seleucia-Ctesiphon, is brought in chains before King Shapur. He will not worship the sun, and he is put to death with his clergy."
     grounded_in: [syr.story.simeon-martyrdom, syr.figure.simeon-bar-sabbae]
   - story_id: syr.story.basil-legend
     title: "The Meeting of Ephrem and Basil"
     when: "set in Ephrem's lifetime, between 340 and 373 (a later legend)"
-    teaser: "A later Life of Ephrem says a vision sends him to Caesarea to meet the great bishop Basil, who ordains him a deacon. Scholars now judge the meeting a legend. The praise of a Syrian that the tradition found in Basil's writings is about another man."
+    teaser: "A later Life of Ephrem says a vision sends him to meet Basil, who ordains him a deacon. The praise of a Syrian in Basil's writings is about another man."
     grounded_in: [syr.story.basil-legend, syr.figure.ephrem]
   - story_id: syr.story.choirs-tradition
     title: "Ephrem and the Women's Choirs"
     when: "340 to 373 (first told about 500, more than a century after Ephrem's death)"
-    teaser: "A later tradition says Ephrem gathered the daughters of the covenant. He taught them to sing the true faith in the sweet forms of Bardaisan and Mani. In Ephrem's own time, we know only that these women sang his hymns in church."
+    teaser: "A later tradition says Ephrem founded the choirs of the daughters of the covenant. In his own time, we know only that these women sang his hymns."
     grounded_in: [syr.story.choirs-tradition, syr.figure.ephrem]
   - story_id: syr.story.ephrem-famine-death
     title: "Ephrem Leaves His Cell for the Famine"
     when: "372-373 (the last year of Ephrem's life)"
-    teaser: "A famine strikes Edessa in the last year of Ephrem's life. Palladius and Sozomen tell that he rebukes the rich, takes their money and sets up some three hundred beds in the public porches. He nurses the starving and buries the dead until the famine ends, and he dies within a month."
+    teaser: "Palladius and Sozomen tell that in Edessa's famine, Ephrem takes money from the rich and sets up some three hundred beds. He nurses the starving, and he dies within a month."
     grounded_in: [syr.story.ephrem-famine-death, syr.figure.ephrem]
   highlights:
   - phrase: "Edessa"
@@ -172,7 +172,7 @@ orientation:
     grounded_in: [syr.force.frontier-plural-milieu]
   - phrase: "Nisibis"
     kind: place
-    note: "A fortress city, Roman from 298 until it was ceded to Persia in 363. Its site is now Nusaybin, on the border between today's Turkey and Syria."
+    note: "A fortress city, Roman from 298 until 363, when it was ceded to Persia. Its site is Nusaybin, on today's Turkey–Syria border."
     url: https://pleiades.stoa.org/places/874623
     verified_on: "2026-10-17"
     grounded_in: [syr.force.two-empires-frontier]
@@ -190,7 +190,7 @@ orientation:
     grounded_in: [syr.story.jacob-nicaea]
   - phrase: "Syriac"
     kind: term
-    note: "The language of these churches. Ephrem wrote hymns in it, and most of Aphrahat's letters follow its alphabet."
+    note: "The language of these churches. Ephrem wrote hymns in it. Aphrahat's first twenty-two letters each begin with the next letter of its alphabet."
     grounded_in: [syr.core.syriac, syr.term.madrasha, syr.term.tahwyata]
   - phrase: "city chronicle"
     label: "Chronicle of Edessa"
@@ -241,7 +241,7 @@ orientation:
     grounded_in: [syr.figure.tatian]
   - phrase: "Bardaisan"
     kind: person
-    note: "A courtier and philosopher at the court of Abgar VIII of Edessa. He lived from 154 to 222. His own words survive only through his student's dialogue and Ephrem's refutations."
+    note: "A philosopher at the court of Abgar VIII of Edessa, 154 to 222. His words survive only in a student's dialogue and in Ephrem's replies."
     grounded_in: [syr.figure.bardaisan, syr.core.syriac]
   - phrase: "Marcion"
     kind: person
@@ -253,7 +253,7 @@ orientation:
     grounded_in: [syr.gravity.heresiological-self-definition, syr.force.rival-movements]
   - phrase: "Papa"
     kind: person
-    note: "Papa bar Aggai was a bishop around the year 300. Later writers gave him the title Catholicos. No one used that title in his own time."
+    note: "Papa bar Aggai was a bishop around 300. Later writers called him Catholicos, a title no one used in his time."
     grounded_in: [syr.figure.papa-bar-aggai, syr.term.catholicos]
   - phrase: "Shapur II"
     kind: person
@@ -290,7 +290,7 @@ orientation:
     grounded_in: [syr.figure.jacob-of-nisibis, syr.contested.jacob-death-year]
   - phrase: "Theodoret"
     kind: person
-    note: "A church historian who lived from about 393 to about 460. He told the story of Jacob and the gnats about a century after the sieges."
+    note: "A church historian, about 393 to about 460. He told of Jacob and the gnats about a century after the sieges."
     grounded_in: [syr.source.theodoret-historia-ecclesiastica, syr.story.jacob-deliverance]
   - phrase: "Palladius"
     kind: person
