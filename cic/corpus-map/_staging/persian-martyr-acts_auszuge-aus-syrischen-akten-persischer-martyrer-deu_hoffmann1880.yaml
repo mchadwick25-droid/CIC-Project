@@ -1,0 +1,27 @@
+source_file: persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880.txt
+
+authors_ruled:
+  persian-martyr-acts:
+    kind: anonymous
+    evidence: >
+      The Syriac acts of the Persian martyrs are anonymous hagiographic texts of the
+      fourth to sixth centuries; Hoffmann is translator and commentator (title page, file
+      lines 106 to 154). Ruled as a collection entity, the same shape as the acta-martyrum
+      rulings already in UNATTRIBUTED.yaml.
+
+assignments:
+  - row_id: persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880--excerpts-from-the-syriac-persian-martyr-acts-german
+    work: "Auszüge aus syrischen Akten persischer Märtyrer: German excerpts from the Syriac acts of the Persian martyrs with topographical commentary"
+    author: persian-martyr-acts
+    locus: "whole file; Narsai 2038; acts in the days of King Yazdgard 2042; Karka de Beth Slokh under Yazdgard II from 2799"
+    atlas_ids:
+      - persian-church-of-the-east-early
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). The Persian church's own voice about its
+      martyrs, in German excerpt: hagiography written after the events, shaped for
+      veneration. Context for the peace of Yazdgard I and the persecutions around the
+      synods of 410 and 424; not a record of the synods. Hoffmann's commentary is
+      nineteenth-century secondary work.

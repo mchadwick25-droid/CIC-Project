@@ -1,0 +1,27 @@
+source_file: chronicle-of-arbela_die-chronik-von-arbela-deu_sachau1915.txt
+
+authors_ruled:
+  chronicle-of-arbela:
+    kind: pseudonymous
+    evidence: >
+      The chronicle is attributed to Mshiha-zkha (sixth century) in Mingana's 1907
+      edition, which Sachau translates (file line 77); the authenticity of the text as a
+      sixth-century work has been contested since the 1920s (possible modern composition)
+      and is not settled. Ruled pseudonymous in the sense "attributed to a named figure
+      whose authorship is not secure".
+
+assignments:
+  - row_id: chronicle-of-arbela_die-chronik-von-arbela-deu_sachau1915--chronicle-of-arbela-german-translation
+    work: "Die Chronik von Arbela (the Chronicle of Arbela attributed to Mshiha-zkha), German translation"
+    author: chronicle-of-arbela
+    locus: "whole file; the bishop Ishaq of Arbela at file line 1963; Sachau's notes citing canon 21 of the synod of Isaac (410) at 800 and 938"
+    atlas_ids:
+      - persian-church-of-the-east-early
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). AUTHENTICITY CONTESTED: an uncertain witness
+      that can never carry a claim alone; any use must say so. If genuine, the Persian
+      church's own local history of Adiabene; if not, a modern composition. The German is
+      cleanly recovered; Mingana's Syriac edition was not vendored (its French column is
+      not recovered by the OCR).

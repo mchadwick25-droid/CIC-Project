@@ -3569,3 +3569,294 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "Shared-Events Era 2 worker D, 2026-10-17 (archive.org search result only; metadata not read)"
     status: not-yet-downloaded
+
+  - title: "Synodicon orientale ou Recueil de synodes nestoriens (Notices et extraits des manuscrits, tome 37)"
+    author: "The synods of the Church of the East (ninth-century compilation)"
+    translator: "J.-B. Chabot (ed. and French trans.)"
+    year: 1902
+    world: "persian-church-of-the-east-early"
+    why: >
+      The acts of the synods of Isaac (410) and Dadisho (424) in Syriac with French: the
+      primary document for the event church-of-the-east-synods-410-424, which the
+      Candidates table found almost unsourced. Found by archive.org search on the title;
+      the Beth Mardutho scan is the only one of three that recovers the Syriac.
+    url: "https://archive.org/details/noticesetextrait0037laca"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: archive.org metadata and title page (MDCCCCII) read, djvu.txt fetched, byte count equal to listed size, 2026-10-17"
+    status: downloaded
+    vendored_as: "synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+
+  - title: "Das Buch der Synhados, nach einer Handschrift des Museo Borgiano"
+    author: "The synods of the Church of the East (Synodicon Orientale)"
+    translator: "Oskar Braun (German trans.)"
+    year: 1900
+    world: "persian-church-of-the-east-early"
+    why: >
+      Second translation of the same acts (German, 1900), for cross-checking Chabot's
+      French; Braun's notes carry his own dating arguments. Princeton copy of the 1900
+      printing; the other archive.org scan is the 1975 reprint.
+    url: "https://archive.org/details/dasbuchdersynhad00assy"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: title page (Stuttgart und Wien, 1900) read, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "synodicon-orientale_das-buch-der-synhados-deu_braun1900.txt"
+
+  - title: "De sancta Nicaena synodo: Syrische Texte des Maruta von Maipherkat"
+    author: "Attributed to Marutha of Maipherqat"
+    translator: "Oskar Braun (German trans.)"
+    year: 1898
+    world: "persian-church-of-the-east-early"
+    why: >
+      The Syriac memory of Nicaea that the synod of 410 received as the canons of the
+      Western Fathers; reception witness for part 3 and part 8 of the event story.
+    url: "https://archive.org/details/DeSanctaNicaenaSynodo"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: title page (Münster 1898) and imprimatur read, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt"
+
+  - title: "Eliae metropolitae Nisibeni Opus chronologicum (Latin translation, both parts; CSCO Scriptores Syri III.7-8)"
+    author: "Elias of Nisibis"
+    translator: "E. W. Brooks and J.-B. Chabot (Latin trans.)"
+    year: 1910
+    world: "persian-church-of-the-east-early"
+    why: >
+      Eleventh-century Church of the East chronography that dates the synod of Isaac and
+      Marutha to A.Gr. 721 and names its source; memory witness for part 8.
+    url: "https://archive.org/details/CSCO63"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: both title pages (MDCCCCX) read, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt"
+
+  - title: "Maris de patriarchis Nestorianorum commentaria, pars prior (Arabic text and Latin version)"
+    author: "Mari ibn Sulayman"
+    translator: "Henricus Gismondi S.J. (ed. and Latin trans.)"
+    year: 1899
+    world: "persian-church-of-the-east-early"
+    why: >
+      Twelfth-century Arabic lives of the catholicoi, including Isaac, Ahai and Yahballaha;
+      memory witness. Only the Latin is recovered by the OCR, and its pages are in
+      reverse order.
+    url: "https://archive.org/details/marisamrietslib1v2mari"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: preface date (Idibus Februarii 1899) and imprint read, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt"
+
+  - title: "Amri et Slibae de patriarchis Nestorianorum commentaria, pars altera (Arabic text 1896 and Latin version 1897)"
+    author: "Amr ibn Matta and Sliba ibn Yuhanna"
+    translator: "Henricus Gismondi S.J. (ed. and Latin trans.)"
+    year: 1897
+    world: "persian-church-of-the-east-early"
+    why: >
+      Fourteenth-century Arabic lives of the patriarchs with Isaac, Yahballaha and
+      Dadisho; memory witness. Latin recovered (pages reversed), Arabic not.
+    url: "https://archive.org/details/marisamrietslib3v4mari"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: preface date (Idibus Aprilis 1896) and Latin-version imprint (MDCCCXCVII) read, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt"
+
+  - title: "Amri et Slibae de patriarchis Nestorianorum, pars altera: textus (Arabic text)"
+    author: "Amr ibn Matta and Sliba ibn Yuhanna"
+    translator: "Henricus Gismondi S.J. (ed.)"
+    year: 1896
+    world: "persian-church-of-the-east-early"
+    why: >
+      The same Arabic text in a Beth Mardutho scan that recovers the Arabic (about
+      102,000 Arabic characters), with the synod of forty bishops under Isaac and Marutha
+      in Yazdgard's eleventh year. Original-language memory witness.
+    url: "https://archive.org/details/amrietslibaedepa0000henr"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: imprint (Roma 1896) read, Arabic script counted, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "amr-ibn-matta_de-patriarchis-nestorianorum-pars-altera-textus-ara_gismondi1896.txt"
+
+  - title: "Patrologia orientalis, tomus 5 (Chronicle of Seert, first part, fasc. 2, Arabic and French; with Evetts, History of the Patriarchs, and others)"
+    author: "Anonymous (Chronicle of Seert)"
+    translator: "Addai Scher and Pierre Dib (ed. and French trans.)"
+    year: 1910
+    world: "persian-church-of-the-east-early"
+    why: >
+      The chapters on Yazdgard I and Mar Isaac, with Marutha's embassy and the council at
+      Seleucia-Ctesiphon; compilation memory witness. Toronto scan chosen over the
+      accented one whose uploader attaches a CC BY-NC-ND claim. French recovered without
+      accents; Arabic not recovered.
+    url: "https://archive.org/details/patrologiaorien05pari"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: title page (Tomus quintus, 1910) read, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt"
+
+  - title: "Die Chronik von Arbela (Abhandlungen der Preussischen Akademie, 1915, phil.-hist. Kl. Nr. 6)"
+    author: "Attributed to Mshiha-zkha; authenticity contested"
+    translator: "Eduard Sachau (German trans.)"
+    year: 1915
+    world: "persian-church-of-the-east-early"
+    why: >
+      German translation of the Chronicle of Arbela from Mingana's 1907 manuscript;
+      uncertain witness (possible modern composition), vendored with that stated.
+    url: "https://archive.org/details/diechronikvonarb00meshuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: title page (Berlin 1915) read, NOT_IN_COPYRIGHT tag, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "chronicle-of-arbela_die-chronik-von-arbela-deu_sachau1915.txt"
+
+  - title: "Auszüge aus syrischen Akten persischer Märtyrer (Abhandlungen für die Kunde des Morgenlandes VII.3)"
+    author: "Anonymous Syriac acts of the Persian martyrs"
+    translator: "Georg Hoffmann (German trans. and commentary)"
+    year: 1880
+    world: "persian-church-of-the-east-early"
+    why: >
+      German excerpts from the Persian martyr acts (Narsai, Karka de Beth Slokh under
+      Yazdgard II) with topographical commentary; context for the peace and persecutions
+      around 410 and 424.
+    url: "https://archive.org/details/auszgeaussyris00hoff"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: title page (Leipzig 1880) and preface date read, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880.txt"
+
+  - title: "Ausgewählte Akten persischer Märtyrer, mit einem Anhang: Ostsyrisches Mönchsleben (Bibliothek der Kirchenväter 22)"
+    author: "Anonymous Syriac acts of the Persian martyrs"
+    translator: "Oskar Braun (German trans.)"
+    year: 1915
+    world: "persian-church-of-the-east-early"
+    why: >
+      The martyrs at the end of Yazdgard I's peace ('Abda, Narse, Jakob der Notar) and
+      under Yazdgard II, in German; context between the synods of 410 and 424.
+    url: "https://archive.org/details/ausgewahlteakten00brau"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: series note (Band 22) and garbled title-page year read against the catalogue date 1915, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915.txt"
+
+  - title: "An Introduction to the History of the Assyrian Church, 100-640 A.D."
+    author: "W. A. Wigram"
+    translator: ""
+    year: 1910
+    world: "persian-church-of-the-east-early"
+    why: >
+      English secondary history with chapters on the council of Mar Isaac (410) and the
+      councils of Yahballaha and Dadisho; finding aid and reception witness.
+    url: "https://archive.org/details/introductiontohi0000wawi"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: title page (SPCK, London, 1910) read, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt"
+
+  - title: "Le christianisme dans l'empire perse sous la dynastie sassanide (224-632)"
+    author: "Jérôme Labourt"
+    translator: ""
+    year: 1904
+    world: "persian-church-of-the-east-early"
+    why: >
+      French secondary history with the council of Seleucia (410) and the synod of
+      Dadisho at Markabta (424); the standard older narrative and a finding aid.
+    url: "https://archive.org/details/lechristianismed0000labo"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: title page (Paris, Lecoffre, 1904) read, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt"
+
+  - title: "Chronique de Michel le Syrien, tome II (Books VIII-XI, French translation)"
+    author: "Michael the Syrian"
+    translator: "J.-B. Chabot (French trans.)"
+    year: 1901
+    world: "syriac-orthodox-west-syriac-christianity"
+    why: >
+      Syriac Orthodox memory witness: Book VIII.1 on Marutha and the Persian Christians
+      under Yazdgard I; the synods themselves are not narrated. Also serves the Syriac
+      Orthodox entry for the fifth to eighth centuries.
+    url: "https://archive.org/details/MichelLeSyrien2"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: title page (Tome II, Paris, Leroux, 1901) read, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+
+  - title: "Histoire littéraire de l'Afrique chrétienne, tomes VI (1922) and VII (1923): Littérature donatiste au temps de saint Augustin; Saint Augustin et le donatisme"
+    author: "Paul Monceaux"
+    translator: ""
+    year: 1923
+    world: "donatism"
+    why: >
+      Tome VII (new to the Library) carries Augustine's campaign against Donatism and the
+      Conference of Carthage of 411 with the writings about it; tome VI duplicates a file
+      already vendored because the Toronto scan binds both. Event carthage-conference-411.
+    url: "https://archive.org/details/histoirelittra0607moncuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: both title pages (1922, 1923) read, NOT_IN_COPYRIGHT tag, djvu.txt fetched, byte count equal, 2026-10-17"
+    status: downloaded
+    vendored_as: "monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923.txt"
+
+
+  - title: "Patrologia orientalis, tomus 4 (Chronicle of Seert, first part, fasc. 1, Arabic and French; also Barhadbeshabba, Cause of the Foundation of the Schools)"
+    author: "Anonymous (Chronicle of Seert); Barhadbeshabba Arbaya"
+    translator: "Addai Scher (ed. and French trans.)"
+    year: 1908
+    world: "persian-church-of-the-east-early"
+    why: >
+      The first fascicle of the Chronicle of Seert (to the mid-fourth century) and
+      Scher's introduction naming the lost portion that covered Dadisho; context for the
+      Papa affair the synod of 424 retells. Not vendored: it does not reach 410.
+    url: "https://archive.org/details/patrologiaorien00unkngoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: archive.org metadata (1908, NOT_IN_COPYRIGHT) read and djvu.txt downloaded and grepped (Histoire nestorienne heading, Marouta, Dadiso in the introduction), 2026-10-17; not vendored"
+    status: not-yet-downloaded
+
+  - title: "Patrologia orientalis, tomus 7 (Chronicle of Seert, second part, fasc. 1, 484 onward)"
+    author: "Anonymous (Chronicle of Seert)"
+    translator: "Addai Scher (ed. and French trans.)"
+    year: 1911
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      The second part of the Chronicle of Seert resumes in 484; its introduction states the
+      lacuna that swallowed Dadisho. Serves the Church of the East under Persia, not the
+      410-424 event itself.
+    url: "https://archive.org/details/patrologiaorien07pari"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: Toronto item metadata read (volume 7); a second scan, patrologia-orientalis-volume-7 (1911), downloaded and grepped for the Seert heading, 2026-10-17; neither vendored"
+    status: not-yet-downloaded
+
+  - title: "Patrologia orientalis, tomus 9 (La seconde partie de l'histoire ecclésiastique de Barhadbesabba Arbaia, Syriac and French)"
+    author: "Barhadbeshabba Arbaya"
+    translator: "F. Nau (ed. and French trans.)"
+    year: 1913
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Church of the East's own sixth-century ecclesiastical history (Nestorius to the
+      School of Nisibis). Downloaded and grepped: it does not mention the synods of 410
+      or 424, so not vendored for this event; a lead for the later Church of the East
+      entries.
+    url: "https://archive.org/details/patrologia-orientalis-volume-9"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: title page (1913) read in the downloaded djvu.txt; the uploader attaches a CC BY-NC-ND 4.0 licence URL to the upload, 2026-10-17"
+    status: not-yet-downloaded
+
+  - title: "Chronique de Michel le Syrien, tome I (Books I-VII) and tome III (Books XII-XXI), French translation"
+    author: "Michael the Syrian"
+    translator: "J.-B. Chabot (French trans.)"
+    year: 1899
+    world: "syriac-orthodox-west-syriac-christianity"
+    why: >
+      The rest of Chabot's French translation; tome I downloaded and grepped (no Persian
+      synod material; indexes only). For the Syriac Orthodox entries, not this event.
+    url: "https://archive.org/details/chroniquedemiche01mich"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: tome I metadata (1899, Leroux) read and djvu.txt downloaded, 2026-10-17; tome III seen only in the archive.org listing (item MichelLeSyrien3, Pearse)"
+    status: not-yet-downloaded
+
+  - title: "Bibliotheca Orientalis Clementino-Vaticana, tomus III pars 1 (De scriptoribus Syris Nestorianis)"
+    author: "Giuseppe Simone Assemani"
+    translator: ""
+    year: 1725
+    world: "persian-church-of-the-east-early"
+    why: >
+      The eighteenth-century Latin repertory of East Syriac writers, with Ebedjesus's
+      catalogue and notices of Marutha and the synods; the reference Braun, Chabot and
+      Labourt all cite. Not fetched this pass.
+    url: "https://archive.org/details/india.history.resource.71763"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events Era 2 worker C: archive.org search listing only (title, 1725); item metadata not opened, 2026-10-17"
+    status: not-yet-downloaded

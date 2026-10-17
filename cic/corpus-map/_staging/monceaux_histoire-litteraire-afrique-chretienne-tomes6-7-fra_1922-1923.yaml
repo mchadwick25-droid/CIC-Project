@@ -1,0 +1,31 @@
+source_file: monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923.txt
+
+assignments:
+  - row_id: monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923--histoire-litteraire-tome-vii-saint-augustin-et-le-donatisme
+    work: "Histoire littéraire de l'Afrique chrétienne, Tome VII: Saint Augustin et le donatisme (1923)"
+    author: monceaux
+    locus: "file lines 21985 to the end (title page 21972 to 21976); the writings of 411-430 and the Conference of Carthage in the table of contents at 38884 to 39034"
+    atlas_ids:
+      - donatism
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). Monceaux's own study (1923, French) of
+      Augustine's campaign against Donatism, including the Conference of Carthage of 411
+      and the Breviculus, Ad Donatistas post collationem, the Emeritus writings and Contra
+      Gaudentium: modern secondary scholarship, a finding aid to the Latin sources, never
+      evidence of 411. Completes the series whose tomes I-VI are already in the map.
+  - row_id: monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923--histoire-litteraire-tome-vi-duplicate-of-vendored-file
+    work: "Histoire littéraire de l'Afrique chrétienne, Tome VI: Littérature donatiste au temps de saint Augustin (1922), duplicate scan"
+    author: monceaux
+    locus: "file lines 142 to about 21970"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). The same text as
+      monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt, carried because the
+      Toronto scan binds tomes VI and VII as one item. Cite the earlier file for tome VI;
+      this row exists so the duplicate is visible, not hidden.
