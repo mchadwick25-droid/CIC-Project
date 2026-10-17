@@ -6634,3 +6634,18 @@ The reason for the divine-speaker guard, in the project lead's words (14 October
 **Records fixed.** Before the fix the gate found 17 sentences in 15 voiced records across nine worlds; after it, none fleet-wide. Each now names its question with words its record or the participant's own question already holds; no claim, name or date is added. Per-world entries ("Honest limits name their question", 2026-10-14) in alx, cappadocian, desert, don, ijc, pahc, syr and witt list each sentence. The fixture's `fix.limit.trinity-language` changed the same way ("see fix.term.the-three for how we spoke of them"). `don.term.reception-without-reordination` `senses.translational` ("It does not preserve anyone explaining why.") was also fixed by hand: it is shown on the term's gloss card but is not in `engine/m1/spoken_fields.py`, so the gate does not read it. Whether gloss-card fields join the spoken-field registry is left open as its own task.
 
 **Packages.** Registering a gate changes every package's gates report, so all twelve built worlds were rebuilt and repinned in `records/worlds/<code>.yaml`.
+
+## 2026-10-17 - Cap ruling: don Atlas story pass
+
+The independent Opus review of the Donatist Atlas story pass used all three rounds:
+- `Build/Ministry/Operations/Audits/don_atlas_story_pass_independent_review_round1_2026-10-17.md`: 14 blocking findings.
+- `..._round2_...`: 1 blocking finding.
+- `..._round3_...`: 0 blocking findings and 4 should-fix, each with exact wording.
+
+At the cap, the project lead ruled on 17 October (option A) that the four fixes be applied as the round 3 reviewer wrote them, with no fourth review. The records and readability gates check the result on rebuild.
+
+Two parts of the applied wording were adjusted:
+- Two words were cut to hold the 700-word cap.
+- In the Acta telling, "the dossier Optatus attached to his books against us" became "the dossier of documents Optatus kept". This follows the reviewer's note on the repeated provenance line.
+
+The fixer's report, with before and after text, is `don_atlas_story_pass_fixes_report_2026-10-17.md`.

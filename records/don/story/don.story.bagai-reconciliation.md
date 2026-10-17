@@ -89,7 +89,7 @@ text: >-
   own authority, then the absolute rule - that a sacrament from a
   condemned hand is void - did not hold even for the party that preached
   it most fiercely.
-telling: "Augustine, who wrote against us, quotes this council's decree word for word. Apart from that decree, no account of the affair from our own side survives.\n\nIn 393 a deacon named Maximian was elected as a rival primate at Cebarsussi, against Primian, the sitting primate at Carthage. In miniature, it repeated the act our founders had once taken against Caecilian.\n\nIn 394 a much larger council of three hundred and ten bishops met at Bagai. It condemned the followers of Maximian in the harshest terms it had. The decree calls them shipwrecked men, thrown by the waves of truth onto the sharp rocks. Their bodies cover the shore, it says, and they cannot even find a grave.\n\nWithin a few years our party took back two of those condemned bishops, Felicianus of Musti and Praetextatus of Assuris. Neither was baptized again or ordained again, and Optatus Gildonianus, one of our bishops, enforced their return with military force. Augustine made this contradiction the center of his argument against us. If baptisms given in schism could stand, he argued, then our own rule did not hold even for us. We never hid the exception, but we do not know what was said in the room. Nor do we know whether anyone there named the contradiction out loud."
+telling: "In 393 a deacon named Maximian was made rival primate at Cebarsussi, against Primian, our primate at Carthage. In miniature, it was the act our founders had once taken against Caecilian.\n\nThe answer came the next year at Bagai. Three hundred and ten of our bishops met there and condemned the followers of Maximian in the harshest terms they had. Augustine quotes the decree word for word in his books against us. It calls them shipwrecked men, dashed by the waves of truth onto the sharp rocks. Their bodies cover the shore, it says, and they cannot even find a grave.\n\nLater our party took back two of those condemned bishops, Felicianus of Musti and Praetextatus of Assuris. Neither was baptized again or ordained again. Optatus Gildonianus, one of our bishops, used soldiers to enforce their return.\n\nThese two had baptized while in schism. Augustine made this the center of his case against us. If their baptisms could stand on our own authority, he argued, then our rule did not hold even for us."
 absent_detail: No account of the Bagai council from our own side survives beyond the decree Augustine quotes,
   and nothing at all survives of the reasoning by which the same council that wrote those words received
   Felicianus and Praetextatus back unrepeated. We do not know what was said in the room, or whether anyone
@@ -113,33 +113,3 @@ use_note:
   years: {from: 393, to: 398}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory008_bagai-
-reconciliation.md (Doc_09 story index row donstory008, Tier 1), whose
-narrative text is carried forward rather than re-derived.
-
-HOMONYM, LOAD-BEARING - don.core.donatism cautions item 7. The Maximian
-of this story is a deacon deposed in 393 and made a rival primate at
-Cebarsussi. He is NOT the martyr Maximianus of the Passio Isaac et
-Maximiani, killed in the Macarian repression roughly forty-five years
-earlier and commemorated as one of our own dead. See
-don.figure.maximian-of-cebarsussi and don.figure.maximianus-martyr,
-which each carry the distinction on their own face, and
-don.story.macrobius-letter, which tells the martyr's story.
-
-A SECOND HOMONYM IN THE SAME PARAGRAPH. Optatus Gildonianus, the
-Donatist bishop of Thamugadi who enforced the reconciliation with
-troops, is not Optatus of Milevis, the Catholic polemicist through whom
-most of our founding narrative survives - the second trap
-don.core.donatism cautions item 7 names by name. The story text above
-uses only the epithet form, deliberately.
-
-THE REFUSAL IS DOMINANT, NOT ABSOLUTE (don.core.donatism cautions item
-8). This episode is one of three named points at which this communion
-turned to imperial or proconsular machinery, here against its own
-dissidents. It is not an embarrassment to be managed; modern_contrast
-above states the position that our own record actually holds.
-
-A SECOND WOMAN STANDS BEHIND THIS SCHISM AND IS NEVER NAMED. Augustine
-draws the parallel to Lucilla himself, by name, in the same paragraph,
-and leaves the other woman unnamed - see don.figure.lucilla's own body
-note and don.source.lucilla-and-the-second-unnamed-woman.

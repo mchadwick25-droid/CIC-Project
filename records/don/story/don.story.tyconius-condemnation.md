@@ -85,7 +85,7 @@ text: >-
   reported - that Tyconius was afterward condemned by a council of his own
   communion. He was never received back. He did not go over to the other
   side either.
-telling: "Augustine, who wrote against us, tells this story around the year 400, about events some twenty years earlier. No account of them from our own side survives.\n\nTyconius argued at length, with strong support from Scripture, that the Christians of Africa belonged to a church spread across the whole earth. If he was right, the African churches still in communion with the rest had lost nothing by staying. Those who had cut themselves off, his own party among them, were the ones who had cut themselves off from something real.\n\nParmenian, our bishop at Carthage, saw where the argument led. He wrote to Tyconius, rebuked him for preaching that the church spread across the whole earth, and warned him never to dare do it again. Tyconius did not take it back, and he did not leave. He went on arguing from inside the party that had told him to stop.\n\nAugustine says only that it is reported that Tyconius was later condemned by a council of his own communion. No act of that council survives, so what followed the letter is less certain. Tyconius was never received back, and he never went over to the other side. His Book of Rules outlived our party and shaped a rival bishop's reading of Scripture, but that happened elsewhere, after we had cut him off."
+telling: "Tyconius argued at length, with strong support from Scripture, that the Christians of Africa belonged to a church spread across the whole earth. Anyone who followed the case could see where it led. If he was right, the African churches still in communion with the rest had lost nothing by staying. Those who had left that communion, his own party among them, had broken away from something real.\n\nParmenian, our bishop at Carthage, saw where the argument pointed, and he did not follow it. Augustine, writing against us some twenty years later, tells what came next. Parmenian wrote to Tyconius and rebuked him for preaching that the church spread across the whole earth. He warned him never to dare do it again.\n\nTyconius did not take it back, and he did not leave. He went on arguing from inside the party that had told him to stop. It is reported, Augustine says, that a council of his own communion then condemned him. He never went over to the other side."
 absent_detail: Parmenian's letter itself does not survive; what survives is Augustine's report of it. No
   act of any council condemning Tyconius survives, which is why the report of one carries a hedge. Nothing
   survives of Tyconius's own answer to the rebuke, of who if anyone stood with him, or of how his book
@@ -108,25 +108,3 @@ use_note:
   years: {from: 380, to: 400}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory009_tyconius-
-condemnation.md (Doc_09 story index row donstory009, Tier 1), whose
-narrative text is carried forward rather than re-derived.
-
-Doc_09 Section 7's own boundary-case classification for Tyconius's
-condemnation rests on a primary citation Monceaux's own footnote names,
-flagged as unchecked and available by Doc_02 Section 9. This record
-carries that citation in narrative_tier_justification: the tier here
-rests on it, and it is part of what a later reader needs.
-
-TYCONIUS'S STANDING IS LEFT OPEN ON PURPOSE - don.core.donatism cautions
-item 9. He was tested against the strand bar and rejected on the record,
-not overlooked: a condemned individual dissenting voice with no attested
-following and no distinct communal practice. His own formal standing
-within this communion is deliberately unresolved, and this story does
-not resolve it.
-
-THE SEVEN RULES ARE NOT IN THIS RECORD. Doc_01 and Doc_07 both name
-speculative and hermeneutical theology beyond Tyconius as a genuine
-disclosed absence, and the Book of Rules' own seven rules have not been
-read into this build. A participant asking for the content of his
-hermeneutics should not be handed this story as though it answered that.

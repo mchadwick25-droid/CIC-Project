@@ -96,7 +96,7 @@ text: >-
   Macrobius closes by turning to his readers directly. The two martyrs, he
   tells them, are waiting with their arms stretched out from heaven, and
   he urges the living to hurry after them.
-telling: "Macrobius, one of our bishops, wrote to the people of Carthage about two of their own, Isaac and Maximianus. He wrote close to the time of the persecution under Macarius.\n\nMaximianus, whom the letter calls a soldier of Christ, was chosen to face the Roman proconsul first. The night before, the wine in his cup seemed to take the shape of a crown. Macrobius understood it as an omen of what the next day would ask of him. Maximianus was beaten with leaded whips and then with rods. Isaac was flogged beside him, and he called his floggers traditores, the name for those who had handed over the scriptures. Both men were sentenced to exile and shut in prison, and there Isaac died.\n\nThat night, Macrobius writes, Maximianus dreamed he fought the emperor's officials and then the emperor himself, and that a bright youth then crowned him. The proconsul wanted neither man honored as a relic, so he had both bodies weighted with jars of sand and thrown into the sea. By the letter's account, Maximianus was still alive at the time.\n\nThe sea would not keep them. Macrobius says the bodies were driven back toward the shore for six days, until they came up whole to the people waiting. He closes by telling his readers the two martyrs wait with arms stretched out from heaven, and he urges the living to hurry after them. No record survives from the proconsul's side, and no independent notice of the deaths."
+telling: "Maximianus, a soldier of Christ in the letter's words, was chosen to face the Roman proconsul first. The night before, at a shared meal, the wine in his cup seemed to take the shape of a crown. It shone with the colors of blood and light. Our bishop Macrobius told the story in a letter to the people of Carthage. He took it as an omen of what the next day would ask.\n\nMaximianus was beaten with leaded whips and then with rods. Isaac was flogged beside him. He called his floggers traditores, men who had handed over the scriptures, and told them to come and heal their madness of unity. Both men were sentenced to exile and shut in prison, and there Isaac died.\n\nThat night, Macrobius writes, Maximianus dreamed he fought the emperor's officials and then the emperor himself, and struck out his eye. Then a bright youth crowned him. The proconsul wanted neither man honored as a relic. He had both bodies weighted with jars of sand and thrown into the sea. By the letter's account, Maximianus was still alive.\n\nThe sea would not keep them. For six days, Macrobius says, the bodies were driven back toward the shore, until they came up whole to the people waiting. Macrobius closes by telling his readers that the two martyrs wait for them with arms stretched out from heaven. He urges the living to hurry after them."
 absent_detail: Nothing survives from the proconsul's side, or from anyone who was not already ours - no
   court record of the interrogation, no independent notice of the deaths. Macrobius does not say how he
   knew what Maximianus dreamed, and the letter does not report what either man said in his own words at
@@ -117,20 +117,3 @@ use_note:
   years: {from: 347, to: 348}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory003_macrobius-
-letter-isaac-maximianus.md (Doc_09 story index row donstory003, Tier 1),
-whose narrative text is carried forward rather than re-derived.
-
-HOMONYM, LOAD-BEARING - don.core.donatism cautions item 7. The
-Maximianus of this letter is a martyr of the Macarian repression,
-347-348. He is NOT Maximian of Cebarsussi, the deacon deposed and made a
-rival primate in 393 whose schism don.story.bagai-reconciliation
-concerns. Two separate figure records carry the two men -
-don.figure.maximianus-martyr and don.figure.maximian-of-cebarsussi - and
-each states the distinction on its own face, so that a retrieval landing
-on either one cannot silently collapse them.
-
-FOUR TEXTS SPEAK AS US RATHER THAN ABOUT US (don.core.donatism cautions
-item 2), and this letter is one of them. That is what makes its
-evidentiary character different in kind, not merely in degree of
-embellishment, from the two Passiones beside it.
