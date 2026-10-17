@@ -49,6 +49,14 @@ a{color:var(--action)}
 .feature-btn:hover,.feature-btn:focus-visible,.feature-btn[aria-current="page"]{border-color:var(--action);color:var(--action)}
 .frame-wrap{flex:1 1 auto;min-height:0}
 body.in-conversation .bar,body.in-conversation .feature-bar{display:none}
+@media (max-width:600px){
+  .bar{flex-wrap:nowrap;padding:.3rem .75rem;gap:.5rem}
+  .wordmark{display:none}
+  .bar .feedback-toggle{margin-left:auto;min-height:36px;padding:.3rem .85rem;font-size:.8rem}
+  .feature-bar{flex-wrap:nowrap;overflow-x:auto;padding:.35rem .75rem;scrollbar-width:none}
+  .feature-bar::-webkit-scrollbar{display:none}
+  .feature-btn{flex:none;min-height:36px;padding:.3rem .8rem}
+}
 iframe{display:block;width:100%;height:100%;border:0}
 .js-note{padding:2rem 1.25rem;max-width:34rem;margin:0 auto;text-align:center;font-family:var(--sans);color:var(--muted)}
 </style>
