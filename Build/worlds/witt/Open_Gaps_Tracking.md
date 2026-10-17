@@ -2658,3 +2658,27 @@ The project lead ruled on 14 October (option C) that an honest-limit sentence na
 - `witt.voice.craft` `characteristic_concerns`: "held without asking how." now reads "held without asking how Christ is present."
 
 `engine.m10.cli records witt` and `regate witt --base origin/main` pass. `witt.voice.craft` stays inside its 1500-word ceiling. Package rebuilt and repinned: `packages/witt/2026-10-14T20-21-26Z`, `manifest_hash` `sha256:698293cd5c09568c7a3670d179a0e4ce35177fc50c4d32d9e1d7249727aaf657`. Status: CLOSED.
+
+## OG-73. Atlas story pass: shorter story, ten card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card, and approved the Wittenberg text. `orientation.story` is now 12 units and 645 words, down from 12 units and about 1,170. `documented_stories` shows ten stories in date order. Each of those story records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 25 short notes; place locations cite Pleiades where it has an entry (Mainz, Worms, Augsburg), checked 2026-10-17. Review: `Build/Ministry/Operations/Audits/witt_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/witt/2026-10-17T03-46-27Z`, `manifest_hash` `sha256:fd0f9f133b9acb1e55da39e7425b613967f278c0465a27e75f649e8c5ff0a19e`. This pin supersedes the one in OG-72.
+
+Cut from the story with no story record, so they have no card story; they stay in the records named: the 1520 bull and its forty-one articles (`witt.force.papal-force-initiating`); "what is free should never be made compulsory" and liberty turned on careless pastors (`witt.gravity.must-and-free`); the Mass kept with examination before the Supper (`witt.gravity.promise-and-sign`); the Confession as a loyal address answered by Rome and the Apology (`witt.dw.a-confession-answered-not-a-vote`); the Saxon visitation and ordinary people's thin record (`witt.limit.record-thinnest`). The old story's "young" university has no record.
+
+**Open:**
+- The card's recordings of the main story and of the ten tellings are not yet made.
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+## OG-74. Marburg break not narrated, and a figure record that disagrees with itself, 2026-10-17.
+
+The old story said Wittenberg broke with the Swiss cities at Marburg in 1529. `witt.force.reformed-rival-by-absence` is rated Inferential-Thin and says the claim is not yet well supported by anything in the library, which holds neither the Marburg Articles nor any text naming Zwingli. The story and its Marburg highlight now leave it out; the Augsburg Confession's rejection of other teaching on the Supper stays, grounded in AC 322-324. Separately, `witt.figure.speratus` says "four hymns" in its `sources.locus` and "eight" in its `divergence_note`; `witt.story.speratus-hymn-under-the-window` says eight, which the card follows. The figure record wants its locus corrected by the build thread.
+
+Status: OPEN.
+
+## OG-75. Other world_front sections keep "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `narrative.who_speaks`, `legacy`, `sourcing`, `read_first`, `skim.tile` and the envelope's `divergence_note` still say "this world", "this record" or "this library". Several voice-craft fields also fail the readability gate at the base, as `regate witt` reports.
+
+Status: OPEN for the project lead to schedule.
