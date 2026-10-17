@@ -109,6 +109,7 @@ text: >-
   came to him. He appeared there a presbyter worthy of honour not twofold only but manifold. And he
   kept a monk's humility as entire in the priesthood as, when a monk, he had fully possessed the
   merits of the priesthood.
+telling: "When our founder Honoratus died, his disciple and successor Hilary preached his life. Honoratus, Hilary says, left his homeland because he longed for the desert. There was an island that stood empty, because it was filthy and no one could go near it for fear of poisonous snakes. He was drawn there by the chance of solitude, and by the nearness of the holy bishop Leontius, whom he loved. Many people tried to hold him back by warning him how terrible the place was. But he wanted to be cut off from the world, even by the sea.\n\nHe carried a psalm in his heart and on his lips. It promised that he would tread on the asp and the basilisk, and trample the lion and the dragon. So he went in unafraid, Hilary says, and his calm scattered the fear of his own people. The horror of the empty place fled, and the snakes gave way. Snakes were often met in those parts, Hilary adds, yet they never harmed or even frightened anyone, and he counts this among his master's miracles.\n\nThere Honoratus set up a camp of God. And there, as far as Hilary's sermon can be read, the priesthood caught up with the man who had run from it. He was made a presbyter, a priest, and he kept a monk's humility inside the priesthood."
 absent_detail: >-
   What a participant might reasonably expect here, and cannot have, is a story from inside Lerins - a
   day, a rule kept, a novice received, an elder's saying, a monk's prayer on the island. This is the
@@ -137,14 +138,3 @@ use_note:
   years: {from: 429, to: 430}
   status: reviewed
 ---
-Grounded in Hilary of Arles's Sermo de Vita Sancti Honorati (Migne PL 50, vendored file lines c.
-660-722, rough OCR); the disclosure of the wording's own Inferential-Thin status, the unrendered OCR
-word, and Gennadius's independent attestation of the sermon are all carried above in the
-divergence_note. Nothing is supplied from outside those lines: nothing about Honoratus at Arles,
-nothing about the island's daily life. Cross-node pairing with gallic.story.election-at-tours and
-gallic.story.bishop-archebius is declared as story-to-story associated-with relations; the
-resemblance is this record's own finding, not the sermon's own claim - it does not mention Martin,
-and Sulpitius never mentions Lerins.
-
-This story's own relations to this world's gravities are declared in full in its `relations[]`
-field above, reciprocal edges declared on each target.
