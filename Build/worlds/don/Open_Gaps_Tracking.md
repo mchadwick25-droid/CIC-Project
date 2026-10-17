@@ -1988,3 +1988,11 @@ The round files, the fixer's report and the cap ruling are named in "Cap ruling:
 - The Cirta story `divergence_note` says the story comes only through Optatus, against the Augustine evidence.
 
 Status: OPEN for the record-level defects. CLOSED for the participant-facing text of this pass.
+
+### OG-43. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the story is 696 words, under its cap; the setup-and-reveal question is gone; the Passio Marculi teaser is shorter; the Cebarsussi note no longer names a province no record carries; the Maximianists, Petilian and ten other notes trimmed.
+
+Status: CLOSED for this review.
