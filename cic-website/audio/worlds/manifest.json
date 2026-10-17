@@ -2,7 +2,7 @@
  "post-apostolic-house-church": {
   "story": {
    "file": "post-apostolic-house-church/story.mp3",
-   "chars": 3701,
+   "chars": 3632,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -17,7 +17,7 @@
   },
   "docstory-pahc.story.ignatius-guarded-journey": {
    "file": "post-apostolic-house-church/docstory-pahc.story.ignatius-guarded-journey.mp3",
-   "chars": 1239,
+   "chars": 1248,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -32,7 +32,7 @@
   },
   "docstory-pahc.story.grandsons-before-domitian": {
    "file": "post-apostolic-house-church/docstory-pahc.story.grandsons-before-domitian.mp3",
-   "chars": 1273,
+   "chars": 1271,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -76,7 +76,7 @@
   },
   "docstory-pahc.story.nero-scapegoating": {
    "file": "post-apostolic-house-church/docstory-pahc.story.nero-scapegoating.mp3",
-   "chars": 1102,
+   "chars": 1089,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -106,7 +106,7 @@
   },
   "docstory-pahc.story.first-clement-corinthian-dispute": {
    "file": "post-apostolic-house-church/docstory-pahc.story.first-clement-corinthian-dispute.mp3",
-   "chars": 819,
+   "chars": 808,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -121,7 +121,7 @@
   },
   "docstory-pahc.story.polycarp-forwards-letters": {
    "file": "post-apostolic-house-church/docstory-pahc.story.polycarp-forwards-letters.mp3",
-   "chars": 688,
+   "chars": 702,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -136,7 +136,7 @@
   },
   "docstory-pahc.story.pliny-interrogation": {
    "file": "post-apostolic-house-church/docstory-pahc.story.pliny-interrogation.mp3",
-   "chars": 1372,
+   "chars": 1365,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -228,7 +228,7 @@
   },
   "docstory-alx.story.origen-daring-deed": {
    "file": "alexandria-catechetical/docstory-alx.story.origen-daring-deed.mp3",
-   "chars": 1189,
+   "chars": 1183,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -272,7 +272,7 @@
   },
   "docstory-alx.story.leonides-martyrdom": {
    "file": "alexandria-catechetical/docstory-alx.story.leonides-martyrdom.mp3",
-   "chars": 822,
+   "chars": 827,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -302,7 +302,7 @@
   },
   "docstory-alx.story.origen-demetrius": {
    "file": "alexandria-catechetical/docstory-alx.story.origen-demetrius.mp3",
-   "chars": 587,
+   "chars": 772,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -317,7 +317,7 @@
   },
   "docstory-alx.story.gregory-formation": {
    "file": "alexandria-catechetical/docstory-alx.story.gregory-formation.mp3",
-   "chars": 1059,
+   "chars": 1045,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -332,7 +332,7 @@
   },
   "docstory-alx.story.didymus-meeting": {
    "file": "alexandria-catechetical/docstory-alx.story.didymus-meeting.mp3",
-   "chars": 554,
+   "chars": 671,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -466,7 +466,7 @@
   },
   "docstory-syr.story.abgar-addai-legend": {
    "file": "syriac-edessa-nisibis/docstory-syr.story.abgar-addai-legend.mp3",
-   "chars": 1284,
+   "chars": 1296,
    "voiceId": "9iUwwAQbShIkp628a5fO",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -495,7 +495,7 @@
   },
   "docstory-syr.story.edessa-flood-201": {
    "file": "syriac-edessa-nisibis/docstory-syr.story.edessa-flood-201.mp3",
-   "chars": 988,
+   "chars": 982,
    "voiceId": "9iUwwAQbShIkp628a5fO",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -525,7 +525,7 @@
   },
   "docstory-syr.story.ephrem-roll-and-vine": {
    "file": "syriac-edessa-nisibis/docstory-syr.story.ephrem-roll-and-vine.mp3",
-   "chars": 1287,
+   "chars": 1312,
    "voiceId": "9iUwwAQbShIkp628a5fO",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -570,7 +570,7 @@
   },
   "docstory-syr.story.basil-legend": {
    "file": "syriac-edessa-nisibis/docstory-syr.story.basil-legend.mp3",
-   "chars": 982,
+   "chars": 988,
    "voiceId": "9iUwwAQbShIkp628a5fO",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -602,7 +602,7 @@
  "cappadocian-nicene-pastoral-monastic-tradition": {
   "story": {
    "file": "cappadocian-nicene-pastoral-monastic-tradition/story.mp3",
-   "chars": 4028,
+   "chars": 4000,
    "voiceId": "FIyUTNCZsXy4pNX0KVXy",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -676,7 +676,7 @@
   },
   "docstory-cappadocian.story.forty-sebaste": {
    "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.forty-sebaste.mp3",
-   "chars": 908,
+   "chars": 884,
    "voiceId": "FIyUTNCZsXy4pNX0KVXy",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -691,7 +691,7 @@
   },
   "docstory-cappadocian.story.athens-friendship": {
    "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.athens-friendship.mp3",
-   "chars": 908,
+   "chars": 851,
    "voiceId": "FIyUTNCZsXy4pNX0KVXy",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -721,7 +721,7 @@
   },
   "docstory-cappadocian.story.valens-caesarea": {
    "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.valens-caesarea.mp3",
-   "chars": 1321,
+   "chars": 1334,
    "voiceId": "FIyUTNCZsXy4pNX0KVXy",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -736,7 +736,7 @@
   },
   "docstory-cappadocian.story.doxology-stand": {
    "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.doxology-stand.mp3",
-   "chars": 1407,
+   "chars": 1390,
    "voiceId": "FIyUTNCZsXy4pNX0KVXy",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -751,7 +751,7 @@
   },
   "docstory-cappadocian.story.nyssa-exile": {
    "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.nyssa-exile.mp3",
-   "chars": 690,
+   "chars": 747,
    "voiceId": "FIyUTNCZsXy4pNX0KVXy",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -766,7 +766,7 @@
   },
   "docstory-cappadocian.story.gregory-constantinople": {
    "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-cappadocian.story.gregory-constantinople.mp3",
-   "chars": 1085,
+   "chars": 1081,
    "voiceId": "FIyUTNCZsXy4pNX0KVXy",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -783,7 +783,7 @@
  "donatism": {
   "story": {
    "file": "donatism/story.mp3",
-   "chars": 4096,
+   "chars": 3985,
    "voiceId": "vKnhz1CSirDNQVFqLbul",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -950,7 +950,7 @@
  "gallic-monastic-ascetic-christianity": {
   "story": {
    "file": "gallic-monastic-ascetic-christianity/story.mp3",
-   "chars": 3886,
+   "chars": 3881,
    "voiceId": "XvE13Da9dSLvpuCLoEBV",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -980,7 +980,7 @@
   },
   "docstory-gallic.story.trier-and-the-ithacian-communion": {
    "file": "gallic-monastic-ascetic-christianity/docstory-gallic.story.trier-and-the-ithacian-communion.mp3",
-   "chars": 1439,
+   "chars": 1445,
    "voiceId": "XvE13Da9dSLvpuCLoEBV",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1309,7 +1309,7 @@
  "the-reformed-cities-zurich-and-geneva": {
   "story": {
    "file": "the-reformed-cities-zurich-and-geneva/story.mp3",
-   "chars": 3767,
+   "chars": 3772,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1324,7 +1324,7 @@
   },
   "docstory-rzg.story.first-zurich-disputation": {
    "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.first-zurich-disputation.mp3",
-   "chars": 786,
+   "chars": 784,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1339,7 +1339,7 @@
   },
   "docstory-rzg.story.calvins-journey-to-zurich": {
    "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.calvins-journey-to-zurich.mp3",
-   "chars": 919,
+   "chars": 939,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1354,7 +1354,7 @@
   },
   "docstory-rzg.story.myconius-account-of-zwinglis-death": {
    "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.myconius-account-of-zwinglis-death.mp3",
-   "chars": 1149,
+   "chars": 1154,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1385,7 +1385,7 @@
  "imperial-juridical-christianity": {
   "story": {
    "file": "imperial-juridical-christianity/story.mp3",
-   "chars": 3536,
+   "chars": 3657,
    "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1474,7 +1474,7 @@
   },
   "docstory-ijc.story.vision-and-alliance": {
    "file": "imperial-juridical-christianity/docstory-ijc.story.vision-and-alliance.mp3",
-   "chars": 705,
+   "chars": 711,
    "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1489,7 +1489,7 @@
   },
   "docstory-ijc.story.emperor-builds-another-basilica": {
    "file": "imperial-juridical-christianity/docstory-ijc.story.emperor-builds-another-basilica.mp3",
-   "chars": 860,
+   "chars": 932,
    "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1504,7 +1504,7 @@
   },
   "docstory-ijc.story.letter-that-outranked-a-council": {
    "file": "imperial-juridical-christianity/docstory-ijc.story.letter-that-outranked-a-council.mp3",
-   "chars": 503,
+   "chars": 514,
    "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1519,7 +1519,7 @@
   },
   "docstory-ijc.story.vigil-in-basilica": {
    "file": "imperial-juridical-christianity/docstory-ijc.story.vigil-in-basilica.mp3",
-   "chars": 1043,
+   "chars": 1132,
    "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1534,7 +1534,7 @@
   },
   "docstory-ijc.story.emperor-penance": {
    "file": "imperial-juridical-christianity/docstory-ijc.story.emperor-penance.mp3",
-   "chars": 980,
+   "chars": 981,
    "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1549,7 +1549,7 @@
   },
   "docstory-ijc.story.tome-that-would-not-bend": {
    "file": "imperial-juridical-christianity/docstory-ijc.story.tome-that-would-not-bend.mp3",
-   "chars": 1112,
+   "chars": 1122,
    "voiceId": "iLVmqjzCGGvqtMCk6vVQ",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1566,7 +1566,7 @@
  "lutheran-wittenberg-and-its-congregations": {
   "story": {
    "file": "lutheran-wittenberg-and-its-congregations/story.mp3",
-   "chars": 3759,
+   "chars": 3711,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1596,7 +1596,7 @@
   },
   "docstory-witt.story.return-and-the-eight-sermons": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.return-and-the-eight-sermons.mp3",
-   "chars": 1037,
+   "chars": 1040,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1640,7 +1640,7 @@
   },
   "docstory-witt.story.augsburg-before-cajetan": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.augsburg-before-cajetan.mp3",
-   "chars": 1049,
+   "chars": 1035,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1655,7 +1655,7 @@
   },
   "docstory-witt.story.worms-1521": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.worms-1521.mp3",
-   "chars": 1077,
+   "chars": 1062,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1685,7 +1685,7 @@
   },
   "docstory-witt.story.speratus-hymn-under-the-window": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.speratus-hymn-under-the-window.mp3",
-   "chars": 542,
+   "chars": 596,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1700,7 +1700,7 @@
   },
   "docstory-witt.story.first-german-mass-sung": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.first-german-mass-sung.mp3",
-   "chars": 977,
+   "chars": 990,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1715,7 +1715,7 @@
   },
   "docstory-witt.story.household-catechism-lesson-typical-practice": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.household-catechism-lesson-typical-practice.mp3",
-   "chars": 1205,
+   "chars": 1226,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -1730,7 +1730,7 @@
   },
   "docstory-witt.story.household-and-kate-on-prayer": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.household-and-kate-on-prayer.mp3",
-   "chars": 939,
+   "chars": 940,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
