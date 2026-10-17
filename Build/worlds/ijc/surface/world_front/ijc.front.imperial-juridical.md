@@ -293,11 +293,11 @@ orientation:
     grounded_in: [ijc.figure.ambrose]
   - phrase: "Constantine"
     kind: person
-    note: "Emperor who won at the Milvian Bridge in 312. He called the Nicaea council in 325. He was baptized as he lay dying, in 337."
+    note: "Emperor who won at the Milvian Bridge in 312. He called the council at Nicaea in 325. He was baptized as he lay dying, in 337."
     grounded_in: [ijc.figure.constantine]
   - phrase: "Eusebius"
     kind: person
-    note: "Bishop of Caesarea and the emperor's historian. He wrote a life of Constantine after his death. It praises its hero and leaves some things out."
+    note: "Bishop of Caesarea and the emperor's historian. He wrote a life of Constantine after the emperor died. It praises its hero and leaves some things out."
     grounded_in: [ijc.figure.eusebius-caesarea, ijc.figure.constantine]
   - phrase: "Lactantius"
     kind: person
@@ -427,7 +427,7 @@ orientation:
     grounded_in: [ijc.story.letter-that-outranked-a-council]
   - phrase: "Thessalonica"
     kind: place
-    note: "A city in north Greece, now Thessaloniki. After a massacre here in 390, Ambrose told the emperor to repent."
+    note: "A city in northern Greece, now Thessaloniki. In 390 a massacre took place here. Ambrose told the emperor to repent."
     url: https://pleiades.stoa.org/places/491741
     verified_on: "2026-10-17"
     grounded_in: [ijc.story.emperor-penance]
