@@ -17,7 +17,7 @@
   },
   "docstory-pahc.story.ignatius-guarded-journey": {
    "file": "post-apostolic-house-church/docstory-pahc.story.ignatius-guarded-journey.mp3",
-   "chars": 1318,
+   "chars": 1239,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -47,7 +47,7 @@
   },
   "docstory-pahc.story.quintus-recantation": {
    "file": "post-apostolic-house-church/docstory-pahc.story.quintus-recantation.mp3",
-   "chars": 1190,
+   "chars": 1037,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -76,7 +76,7 @@
   },
   "docstory-pahc.story.nero-scapegoating": {
    "file": "post-apostolic-house-church/docstory-pahc.story.nero-scapegoating.mp3",
-   "chars": 1280,
+   "chars": 1102,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -91,7 +91,7 @@
   },
   "docstory-pahc.story.didache-eucharist": {
    "file": "post-apostolic-house-church/docstory-pahc.story.didache-eucharist.mp3",
-   "chars": 1112,
+   "chars": 1038,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -106,7 +106,7 @@
   },
   "docstory-pahc.story.first-clement-corinthian-dispute": {
    "file": "post-apostolic-house-church/docstory-pahc.story.first-clement-corinthian-dispute.mp3",
-   "chars": 1077,
+   "chars": 819,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
@@ -121,7 +121,7 @@
   },
   "docstory-pahc.story.polycarp-forwards-letters": {
    "file": "post-apostolic-house-church/docstory-pahc.story.polycarp-forwards-letters.mp3",
-   "chars": 819,
+   "chars": 688,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
