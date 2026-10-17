@@ -53,6 +53,7 @@ text: >-
   present and grieving. What we hear is a bereaved, literarily accomplished
   brother's account of his sister's death, in words he gives her, so far as
   any of them can be called hers rather than his.
+telling: "In 379, Gregory of Nyssa traveled to see his sister Macrina. She was the eldest of the family's children, and we called her simply the Teacher. He found her already dying.\n\nShe lay on a plank set on the ground instead of a couch. She was wrapped in a rough garment, with no possessions around her.\n\nAs she was dying, brother and sister talked about the soul, about the resurrection, and about whether death should be feared. Everything we have of this comes through Gregory's own pen. He wrote a Life of Macrina soon after. He also shaped their last talk into a full dialogue, On the Soul and Resurrection. He staged it at her deathbed, in the manner of Plato's account of the last hours of Socrates. How much of her part there is her own, and how much is his, we cannot say.\n\nMacrina died that evening. Gregory says plainly that he wept, and that he struggled through the funeral rites. A crowd gathered for her burial at the family chapel at Annisa, where earlier generations already lay. Gregory says the company of virgins she had gathered and led came with the crowd."
 absent_detail: "Macrina's own words survive nowhere except inside her brother's literary composition; no independent account of her deathbed or funeral exists from any other witness."
 modern_contrast: >-
   A modern reader might treat "eyewitness account" as settling the
