@@ -1,0 +1,33 @@
+source_file: nestorius_livre-d-heraclide-de-damas-fra_nau1910.txt
+assignments:
+- row_id: nestorius_livre-d-heraclide-de-damas-fra_nau1910--livre-d-heraclide-antiochene
+  work: Le livre d'Héraclide de Damas, French (Nau, 1910), with three appendices of Nestorius material
+  author: nestorius
+  locus: whole file; appendices from file line 19027
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: tradition
+  confidence: provisional
+  note: Shared-Events Era 2 batch (Ephesus 431). French translation of the same Syriac work as the Driver-Hodgson
+    English, from Bedjan's edition, plus the letter to Cosmas on Nestorius's deposition, the Alexandrian
+    presents list and Nestorius's letter to the Constantinopolitans. Primary dissenting voice at one remove;
+    same provisional placement as the English.
+- row_id: nestorius_livre-d-heraclide-de-damas-fra_nau1910--livre-d-heraclide-church-of-the-east
+  work: Le livre d'Héraclide de Damas, French (Nau, 1910)
+  author: nestorius
+  locus: whole file
+  atlas_ids:
+  - the-church-of-the-east-under-persia
+  role: transmission
+  confidence: provisional
+  note: 'Custody: the Church of the East''s Syriac translation is the only surviving text. Voice assigned
+    to the Antiochene entry.'
+- row_id: nestorius_livre-d-heraclide-de-damas-fra_nau1910--livre-d-heraclide-cyrilline
+  work: Le livre d'Héraclide de Damas, French (Nau, 1910)
+  author: nestorius
+  locus: whole file
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: context
+  confidence: provisional
+  note: The opponent's account of Cyril and the council, from outside the Cyrilline tradition.

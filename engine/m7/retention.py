@@ -4,7 +4,7 @@ module docstring says why it cannot be a separate Render service):
 conversations inactive for 90 days are deleted from the event log, answer
 text older than 90 days is deleted from the quality-control store, and M7
 audit runs (operator copies of participant text) older than 90 days are
-deleted.
+deleted, and feedback items closed more than 90 days ago are deleted.
 Questions and scores in the QC store are kept. The 14-day backup rotation
 (engine/api/db_backup.py) carries each deletion into the backups.
 
@@ -21,6 +21,7 @@ from collections.abc import Callable
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from engine.feedback.store import FeedbackStore
 from engine.m4.store import Store
 from engine.m7 import erase
 from engine.m7.qc_store import QCStore
@@ -38,7 +39,8 @@ def _none_exempt(_session_id: str) -> bool:
 
 
 def run_once(events_db_path: str, qc_db_path: str, status_dir: Path, *, audit_root: Path | None = None,
-             now: datetime | None = None, is_exempt: Callable[[str], bool] = _none_exempt) -> dict:
+             now: datetime | None = None, is_exempt: Callable[[str], bool] = _none_exempt,
+             feedback_store: FeedbackStore | None = None) -> dict:
     """One retention pass; records its counts in status_dir. Never raises:
     a failed pass is logged and retried the next day."""
     now = now or datetime.now(timezone.utc)
@@ -49,6 +51,8 @@ def run_once(events_db_path: str, qc_db_path: str, status_dir: Path, *, audit_ro
         status["qc_answers_cleared"] = QCStore(qc_db_path).expire_answers(now.date())
         if audit_root is not None:
             status["audit_runs_pruned"] = erase.prune_older_than(audit_root, now.date(), CONVERSATION_RETENTION_DAYS)
+        if feedback_store is not None:
+            status["feedback_purged"] = feedback_store.purge_closed_older_than(CONVERSATION_RETENTION_DAYS, now=now)
         status["outcome"] = "ok"
     except Exception as exc:  # noqa: BLE001 - the loop must survive its own job failing
         logger.exception("retention run failed")
@@ -60,12 +64,14 @@ def run_once(events_db_path: str, qc_db_path: str, status_dir: Path, *, audit_ro
 
 
 def start_background_scheduler(events_db_path: str, qc_db_path: str, status_dir: Path, audit_root: Path | None = None,
-                               is_exempt: Callable[[str], bool] = _none_exempt) -> None:
+                               is_exempt: Callable[[str], bool] = _none_exempt,
+                               feedback_store: FeedbackStore | None = None) -> None:
     def _loop() -> None:
         while True:
             now = datetime.now(timezone.utc)
             next_run = _next_run_at(now, _HOUR, _MINUTE)
             time.sleep(max(0.0, (next_run - now).total_seconds()))
-            run_once(events_db_path, qc_db_path, status_dir, audit_root=audit_root, is_exempt=is_exempt)
+            run_once(events_db_path, qc_db_path, status_dir, audit_root=audit_root, is_exempt=is_exempt,
+                     feedback_store=feedback_store)
 
     threading.Thread(target=_loop, name="retention-daily", daemon=True).start()

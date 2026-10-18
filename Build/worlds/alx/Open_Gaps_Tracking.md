@@ -716,3 +716,46 @@ In the 14 October retest alx Q5 said "We do not have the teacher's name." That o
 alx Q4's "They believed it because..." (the third person after "your people") has no record cause; it is addressed in the engine's pronoun rule (System Hub Decision Log, 14 October second fix slice).
 
 Status: CLOSED.
+
+### OG-27. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `alx.demo.woman-authority` representative turn: "and we have told you why." now reads "and we have told you why so little is left."
+
+`engine.m10.cli records alx` and `regate alx --base origin/main` pass. Package rebuilt and repinned: `packages/alx/2026-10-14T20-18-29Z`, `manifest_hash` `sha256:1ad35a46e0ff50299da1c005b7fcfb917cf513c13ce1ae76733fec0cfb944dc4`. Status: CLOSED.
+
+### OG-28. Atlas story pass: shorter story, nine card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built tradition's Atlas story to run four to five minutes, with the other episodes moved into stories on the card. He approved the Alexandria story and card list, then the tellings, then a sample recording. `orientation.story` is now 10 units and 622 words, down from 12 units and about 1,070 words. `documented_stories` shows all nine story records in date order. Each story record gained a `telling`, which the card shows and plays. `orientation.highlights` adds 29 short notes; place notes cite Pleiades for modern locations (checked 2026-10-17). At his ruling, add-on endings that only say what does not survive are cut, including the closing unit on women's, non-readers' and enslaved people's missing voices, which stays in `alx.limit.f5-women-own-words` and `alx.core.alexandria`. Review: `Build/Ministry/Operations/Audits/alx_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/alx/2026-10-17T03-06-15Z`, `manifest_hash` `sha256:9ac3f31fbee7ff76109be3e3f368b99730bdcc207e942d6d1254452913208401`. This pin supersedes the one in OG-27. The story and the nine tellings were recorded in the existing Alexandria voice.
+
+**Open:**
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+### OG-29. Record disagreements found during the Atlas story pass, 2026-10-17.
+
+The pass followed the more cautious record in each case and changed no record. Each needs a ruling on which wording is right:
+- `alx.story.plague-nursing`: `text` says "about the year 260", but `use_note.years` is 262 to 263. The card follows the text.
+- `alx.story.didymus-meeting` `absent_detail` says Didymus's books are lost "except in fragments"; `alx.core.alexandria` `thin_topics` says his De Trinitate was transmitted on its own and printed in 1769. The story and telling say "most of his books".
+- `alx.term.homoousios` says Athanasius spent "forty-six years" defending the word, without the attribution `alx.figure.athanasius` gives it (Socrates; the scholarly dates are 328 to 373).
+- `alx.figure.pantaenus` cites Eusebius HE V.10, while its own precision note puts the bee identification at HE V.11.
+- `alx.figure.gregory-thaumaturgus` says most scholars hold to the Address's authorship and date; `alx.source.gregory-address-to-origen` says later scholarship reaffirmed Nautin's doubt. The telling says only that scholars have questioned it.
+
+Status: OPEN for the project lead.
+
+### OG-30. Other world_front sections keep AI tells and "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" and dash asides, and several fail the readability gate at the base, as `regate alx` reports. The same holds for the Donatist record (don OG-40).
+
+Status: OPEN for the project lead to schedule.
+
+### OG-31. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the tile no longer states Origen's act as fact; Leonides's card no longer contradicts the source on Origen's age ("not yet seventeen", also in the record `text`); two short tellings reached 120 words; the two "scholars" hedges in the cards are emic; the Arsinoe note says "probably"; build wording and long highlight notes are trimmed.
+**Open:**
+- `alx.story.plague-nursing` telling is 119 words; the review did not flag it.
+- The Leonides teaser keeps "sixteen-year-old", which fits the source.
+
+Status: CLOSED for this review; the open items above are for the project lead.

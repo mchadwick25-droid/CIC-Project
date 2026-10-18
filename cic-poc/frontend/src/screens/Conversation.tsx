@@ -3,12 +3,16 @@ import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
 import { DeleteConversation, DeletedNotice } from '../components/DeleteConversation';
 import { DoorNarration } from '../components/DoorNarration';
+import { ExperienceFeedbackButton, ExperienceFeedbackCard } from '../components/ExperienceFeedback';
+import { PageFeedback } from '../components/PageFeedback';
 import { ModernTermMark } from '../components/ModernTermMark';
+import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import type { ConversationTurn } from '../hooks/useConversation';
+import { pageFeedbackId } from '../lib/api';
 import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import type { WorldEntry, WorldStarter } from '../data/worlds';
-import { useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 // Up to 3 starters spanning distinct cell tags (basic/identity, personal,
 // critical/etic) rather than the first 3 alphabetically - carried from the
@@ -27,6 +31,7 @@ interface ConversationProps {
   turns: ConversationTurn[];
   // The reply so far while the voice is still writing it; empty otherwise.
   streamed?: StreamedSentence[];
+  sessionId?: string | null;
   sessionCode: string | null;
   closed: boolean;
   isLoading: boolean;
@@ -36,40 +41,132 @@ interface ConversationProps {
   onEnd: () => void;
   onRestart: () => void;
   onDelete?: () => Promise<void>;
+  // A question brought in from the site, waiting in the box until sent.
+  carriedQuestion?: string;
 }
+
+// How far below the top of the transcript a just-asked question comes to rest.
+const ASKED_TOP_GAP = 16;
 
 function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
 
-export function Conversation({ world, turns, streamed = [], sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart, onDelete }: ConversationProps) {
+export function Conversation({ world, turns, streamed = [], sessionId = null, sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart, onDelete, carriedQuestion = '' }: ConversationProps) {
   const [deleted, setDeleted] = useState(false);
+  const [feedbackOpen, setFeedbackOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(false);
+  const transcriptRef = useRef<HTMLDivElement>(null);
+  const askedRef = useRef<HTMLDivElement>(null);
+  const roomRef = useRef<HTMLDivElement>(null);
+  // Where the newest question was brought to rest, until the reader scrolls.
+  const restingAt = useRef<number | null>(null);
   const handleDelete = async () => {
     await onDelete?.();
     setDeleted(true);
   };
   const participantTurns = turns.filter((t) => t.speaker === 'participant').length;
   const reply = streamedReply(streamed, world.worldKey);
+  const started = participantTurns > 0;
+  const lastAsked = turns.map((t) => t.speaker).lastIndexOf('participant');
+  const replyBegun = Boolean(reply);
+  // Loading also covers the room opening; only a sent question awaits a reply.
+  const awaitingReply = isLoading && turns.length > 0 && turns[turns.length - 1].speaker === 'participant';
+
+  // Room under the newest exchange, so its question can reach the top of the
+  // transcript; it shrinks as the reply fills the screen.
+  const fitRoom = () => {
+    const box = transcriptRef.current;
+    const asked = askedRef.current;
+    const room = roomRef.current;
+    if (!box || !asked || !room) return;
+    const exchange = room.offsetTop - asked.offsetTop;
+    room.style.height = `${Math.max(0, box.clientHeight - exchange - ASKED_TOP_GAP)}px`;
+  };
+  useLayoutEffect(fitRoom);
+
+  const bringAskedToRest = (smooth: boolean) => {
+    const box = transcriptRef.current;
+    const asked = askedRef.current;
+    if (!box || !asked || typeof box.scrollTo !== 'function') return;
+    const top = Math.max(0, asked.offsetTop - ASKED_TOP_GAP);
+    restingAt.current = top;
+    box.scrollTo({ top, behavior: smooth ? 'smooth' : 'auto' });
+  };
+
+  // Each question rises to the top of the transcript once it is sent, and
+  // again when the reply begins, so the answer has the screen below it.
+  useEffect(() => {
+    const still = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    bringAskedToRest(!still);
+  }, [participantTurns, replyBegun]);
+
+  // The screen can change height under a resting question (the site's bars
+  // fold away, a keyboard opens); keep it at rest unless the reader has
+  // scrolled away from it.
+  useEffect(() => {
+    const box = transcriptRef.current;
+    if (!box || typeof ResizeObserver === 'undefined') return;
+    const observer = new ResizeObserver(() => {
+      fitRoom();
+      if (restingAt.current !== null) bringAskedToRest(false);
+    });
+    const leaveRest = () => {
+      restingAt.current = null;
+    };
+    const moves = ['wheel', 'touchmove', 'keydown'] as const;
+    observer.observe(box);
+    moves.forEach((type) => box.addEventListener(type, leaveRest, { passive: true }));
+    return () => {
+      observer.disconnect();
+      moves.forEach((type) => box.removeEventListener(type, leaveRest));
+    };
+  }, []);
 
   return (
     <div className="conversation">
-      <div className="conversation__bar">
-        <BrandMark size={16} />
-        <div className="conversation__bar-right">
-          {sessionCode && (
-            <div className="conversation__bar-note sans">
-              Not saved to an account — this conversation lives in this tab
-            </div>
-          )}
+      {started ? (
+        <button
+          type="button"
+          className="conversation__who"
+          aria-expanded={aboutOpen}
+          aria-controls="conversation-about"
+          onClick={() => setAboutOpen((o) => !o)}
+        >
+          <img className="conversation__who-portrait" src={world.portraitImage} alt="" style={{ borderColor: world.accentColor }} />
+          <span className="conversation__who-names">
+            <span className="conversation__who-name">{world.representativeName}</span>
+            <span className="conversation__who-world sans" style={{ color: world.accentColor }}>
+              {world.cardName}
+            </span>
+          </span>
+        </button>
+      ) : (
+        <div className="conversation__bar">
+          <BrandMark size={16} />
+          <div className="conversation__bar-right">
+            <ExperienceFeedbackButton open={feedbackOpen} onToggle={() => setFeedbackOpen((o) => !o)} />
+            {sessionCode && <NotSavedNote />}
+          </div>
         </div>
-      </div>
+      )}
+      {started && aboutOpen && (
+        <div id="conversation-about" className="conversation__about">
+          <Arrival world={world} />
+          {sessionCode && <NotSavedNote />}
+          <button type="button" className="conversation__about-close sans" onClick={() => setAboutOpen(false)}>
+            Back to the conversation
+          </button>
+        </div>
+      )}
+      {feedbackOpen && <ExperienceFeedbackCard page={world.worldKey} onClose={() => setFeedbackOpen(false)} />}
 
-      <div className="conversation__transcript" role="log" aria-label="Conversation">
+      <div className="conversation__transcript" role="log" aria-label="Conversation" ref={transcriptRef}>
         <Arrival world={world} />
         {turns.map((turn, i) => {
           if (turn.speaker === 'participant') {
             return (
-              <div key={i} className="turn turn--participant">
+              <div key={i} className="turn turn--participant" ref={i === lastAsked ? askedRef : undefined}>
                 <div className="turn__speaker sans">You</div>
                 <div className="turn__body">{turn.text}</div>
               </div>
@@ -96,6 +193,16 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
                 {world.representativeName} · {world.cardName}
               </div>
               <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} figuresUsed={turn.figuresUsed ?? []} glosses={turn.glosses ?? []} transparency={turn.transparency} />
+              {sessionId && sessionCode && (
+                <TurnFeedback
+                  sessionId={sessionId}
+                  sessionCode={sessionCode}
+                  turnIndex={i}
+                  text={turn.text}
+                  transparency={turn.transparency}
+                  representativeName={world.representativeName}
+                />
+              )}
             </div>
           );
         })}
@@ -108,9 +215,10 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
             <VoiceTurnBody text={reply.text} citations={[]} transparency={reply.transparency} />
           </div>
         )}
+        {started && <div className="conversation__room" ref={roomRef} aria-hidden="true" />}
       </div>
 
-      {isLoading && !closed && !reply && (
+      {awaitingReply && !closed && !reply && (
         <p className="waiting-note sans" role="status">
           {world.representativeName} is considering
           <span className="typing-dots" aria-hidden="true">
@@ -138,20 +246,27 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
           <button type="button" className="doorway__begin" onClick={onRestart}>
             Meet another world
           </button>
+          {started && (
+            <div className="conversation__end">
+              <ExperienceFeedbackButton open={feedbackOpen} onToggle={() => setFeedbackOpen((o) => !o)} />
+            </div>
+          )}
         </div>
       ) : (
         <>
-          {!turns.some((t) => t.speaker === 'participant') && world.starters.length > 0 && (
+          {!started && world.starters.length > 0 && (
             <div className="starter-chips">
               <div className="starter-chips__label sans">Questions you might ask</div>
-              {sampleStarters(world.starters).map((s) => (
-                <button key={s.cell} type="button" className="starter-chip" disabled={isLoading} onClick={() => onSend(s.text)}>
-                  {s.text}
-                </button>
-              ))}
+              <div className="starter-chips__row">
+                {sampleStarters(world.starters).map((s) => (
+                  <button key={s.cell} type="button" className="starter-chip" disabled={isLoading} onClick={() => onSend(s.text)}>
+                    {s.text}
+                  </button>
+                ))}
+              </div>
             </div>
           )}
-          {!turns.some((t) => t.speaker === 'participant') && (
+          {!started && (
             <p className="ai-note sans">
               {world.representativeName} is an AI voice built only from the surviving writings of this tradition. It is not a real person, and it does not speak for any church today.
             </p>
@@ -161,11 +276,19 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
             turns={turns}
             onEnd={onEnd}
             disabled={isLoading}
+            sending={awaitingReply}
             placeholder={`Ask ${world.representativeName} anything…`}
+            initialMessage={started ? '' : carriedQuestion}
+            endExtra={started ? <ExperienceFeedbackButton open={feedbackOpen} onToggle={() => setFeedbackOpen((o) => !o)} /> : undefined}
           />
         </>
       )}
-      {!deleted && sessionCode && onDelete && <DeleteConversation onDelete={handleDelete} />}
+      {!deleted && started && <PageFeedback page={pageFeedbackId('conversation', [world.worldKey])} />}
+      {!deleted && started && sessionCode && onDelete && <DeleteConversation onDelete={handleDelete} />}
     </div>
   );
+}
+
+function NotSavedNote() {
+  return <div className="conversation__bar-note sans">Not saved to an account — this conversation lives in this tab</div>;
 }

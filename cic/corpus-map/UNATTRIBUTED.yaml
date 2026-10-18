@@ -94,6 +94,17 @@ authors:
     evidence: div2 title 'From the Iambics of St. Amphilochius the Bishop to Seleucus'; npnf214
       carries no DC.Creator at all, so every author in it is a metadata omission.
     from_file: npnf214_seven-ecumenical-councils.xml
+  amr-ibn-matta:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The work is named for Amr ibn Matta of Tirhan (fourteenth century), whose text Gismondi
+      prints together with the recension of Sliba ibn Yuhanna of Mosul, marking Sliba''s additions
+      in brackets (Gismondi''s preface, file lines 6388 to 6400). Ruled under Amr''s name
+      as the primary author, with Sliba named here. A mechanical index-coverage gap, not an
+      attribution dispute.
+
+      '
+    from_file: amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt
   anagnostes:
     kind: metadata-omission
     evidence: 'The title page names ''Ioannes Anagnostes'' among the chroniclers in this volume;
@@ -145,6 +156,12 @@ authors:
 
       '
     from_file: optatus_against-the-donatists.txt
+  antiochene-counter-council-ephesus-431:
+    kind: anonymous
+    evidence: Mansi tom. 5 prints the acts of the Antiochene bishops' rival assembly at Ephesus
+      under the heading "CONCILIABULUM EPHESINUM" (file line 46711; index 325); a council
+      text, no single author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt
   apocalypse-of-paul:
     kind: pseudonymous
     evidence: 'div2 7.40 "Revelation of Paul": first-person apocalypse in Paul''s name with
@@ -172,6 +189,17 @@ authors:
 
       '
     from_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+  apollinaris-laodicea:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
+      markup only) has not seen the author. Apollinaris of Laodicea (c. 310-c. 390) is a real,
+      well-attested author; his surviving Greek texts and fragments are what Lietzmann''s
+      1904 edition collects (title page, file line 173; ''Schriften des Apollinaris'', file
+      line 6688). Kept distinct from the existing slug claudius-apollinaris (Claudius Apollinaris
+      of Hierapolis, second century), a different person.
+
+      '
+    from_file: apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt
   apollonius:
     kind: metadata-omission
     evidence: div2 10.14 'Apollonius' (anti-Montanist writer, per the fragments).
@@ -233,6 +261,12 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  barhadbeshabba-arbaya:
+    kind: metadata-omission
+    evidence: Series volume, plain text; fascicle V's title page names "Barhadbesabba 'Arbaia"
+      as author of the Ecclesiastical History (file lines 243 and 31511), with Nau as editor
+      and translator.
+    from_file: po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt
   barnabas:
     kind: metadata-omission
     evidence: 'div1 6 title "BARNABAS" over "The Epistle of Barnabas"; anf01 DC.Creator names
@@ -313,6 +347,16 @@ authors:
 
       '
     from_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
+  chronicle-of-arbela:
+    kind: pseudonymous
+    evidence: 'The chronicle is attributed to Mshiha-zkha (sixth century) in Mingana''s 1907
+      edition, which Sachau translates (file line 77); the authenticity of the text as a sixth-century
+      work has been contested since the 1920s (possible modern composition) and is not settled.
+      Ruled pseudonymous in the sense "attributed to a named figure whose authorship is not
+      secure".
+
+      '
+    from_file: chronicle-of-arbela_die-chronik-von-arbela-deu_sachau1915.txt
   chronicle-of-edessa:
     kind: anonymous
     evidence: 'File header reads "Creator(s): Anonymous (Syriac, composed c. 540s CE)". Assemani''s
@@ -322,6 +366,14 @@ authors:
 
       '
     from_file: chronicle-of-edessa_cowper.txt
+  chronicle-of-seert:
+    kind: anonymous
+    evidence: 'The "Histoire nestorienne (Chronique de Séert)" is an anonymous Arabic compilation
+      of the Church of the East, later than the ninth century; Scher and Dib are editors and
+      translators (title page, file lines 253 to 256). No individual author is named.
+
+      '
+    from_file: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt
   church-of-england-anon-1687:
     kind: anonymous
     evidence: 'No author is named on the title page or anywhere in the body text. The vendored
@@ -371,6 +423,12 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  codex-encyclius:
+    kind: anonymous
+    evidence: Mansi tom. 7 prints the "Codex Encyclius sive Collectio" (index at file line
+      396), the replies of the provincial synods of 457-458 to the emperor Leo; a collection
+      of many hands, no single author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt
   collatio-carthaginiensis:
     kind: anonymous
     evidence: 'The official notarial acts of the 411 conference, recorded by the proceeding''s
@@ -389,6 +447,15 @@ authors:
 
       '
     from_file: npnf201_eusebius-church-history-life-of-constantine.xml
+  copto-arabic-synaxarium:
+    kind: anonymous
+    evidence: 'Basset prints ''Le Synaxaire arabe jacobite (rédaction copte)'' as an anonymous
+      medieval compilation of the Coptic Church (heading at file line 10402); its own preface
+      names compilers of parts (Michael of Malij and other fathers, file line 10470) but no
+      single author.
+
+      '
+    from_file: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt
   council-in-trullo-692:
     kind: anonymous
     evidence: 'div1 title "The Canons of the Council in Trullo; Often Called The Quinisext
@@ -403,6 +470,11 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  council-of-arles-314:
+    kind: anonymous
+    evidence: 'Mansi tom. 2 prints "CONCILIUM ARELATENSE" as a council text (file line 430:
+      canons, synodal letter to Silvester); no individual author is named.'
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901.txt
   council-of-carthage-419:
     kind: anonymous
     evidence: 'div2 title "The Canons of the CCXVII Blessed Fathers who assembled at Carthage.
@@ -431,11 +503,9 @@ authors:
     from_file: npnf214_seven-ecumenical-councils.xml
   council-of-chalcedon-451:
     kind: anonymous
-    evidence: 'div1 title "The Fourth Ecumenical Council. The Council of Chalcedon."; no DC.Creator
-      in the volume.
-
-      '
-    from_file: npnf214_seven-ecumenical-councils.xml
+    evidence: Mansi tom. 6 prints "CONCILIUM CHALCEDONENSE" (file line 784) with "ACTIO PRIMA"
+      at 53711; a council text, no single author. Same slug as npnf214.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt
   council-of-constantinople-381:
     kind: anonymous
     evidence: 'div1 title "The Second Ecumenical Council: The First Council of Constantinople.";
@@ -471,6 +541,11 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  council-of-ephesus-449:
+    kind: anonymous
+    evidence: Mansi tom. 6 prints the acts of Ephesus II as read into Chalcedon's first session,
+      "EPHESI ACTA SUB DIOSCORO" (file line 77925); a council text, no single author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt
   council-of-gangra:
     kind: anonymous
     evidence: 'div2 title "The Council of Grangra." (sic) under div1 8; no DC.Creator in the
@@ -492,12 +567,10 @@ authors:
     from_file: npnf214_seven-ecumenical-councils.xml
   council-of-nicaea-325:
     kind: anonymous
-    evidence: 'div1 title "The First Ecumenical Council: The First Council of Nice."; npnf214
-      has no DC.Creator metadata (AUTHORS.md: none). Conciliar acts are a collective work-entity
-      per brief §6.4.
-
-      '
-    from_file: npnf214_seven-ecumenical-councils.xml
+    evidence: 'Mansi tom. 2 prints "CONCILIUM NICAENUM GENERALE" as a council text (file line
+      599: creed, canons, synodal letter, Constantine letters, subscriptions); no individual
+      author is named.'
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901.txt
   council-of-nicaea-787:
     kind: anonymous
     evidence: 'div1 title "The Seventh Ecumenical Council. The Second Council of Nice."; no
@@ -521,15 +594,11 @@ authors:
     from_file: wesley-j_journal-v1_curnock1909.txt
   cyril_alexandria:
     kind: metadata-omission
-    evidence: 'div2 titles "The Epistle of Cyril to Nestorius" (10.5), "The Epistle of Cyril
-      to Nestorius with the XII. Anathematisms" (10.8), "The Letter of Cyril to John of Antioch"
-      (11.5), and "The Canonical Epistle of Our Holy Father Among the Saints, Cyril, Archbishop
-      of Alexandria" (17.30) all name Cyril of Alexandria as author; the volume has no DC.Creator
-      and AUTHORS.md has no slug for him (cyril_jer is Cyril of Jerusalem, a different man).
-      Slug minted for the author the titles themselves name.
-
-      '
-    from_file: npnf214_seven-ecumenical-councils.xml
+    evidence: Plain-text file; the title page names "S. Cyril, Archbishop of Alexandria" and
+      the works are his (file lines 99-103 for the 1881 imprint). The existing ruled slug
+      cyril_alexandria (npnf214) is used rather than the filename token cyril-alexandria,
+      so one author is not split across two slugs.
+    from_file: cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt
   decretals-pseudo-isidore:
     kind: pseudonymous
     evidence: 'div1 8; the volume''s own introductory notice and footnotes call these "this
@@ -578,6 +647,33 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  elias-of-nisibis:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The author is real and named on both title pages (file lines 51 and 8824): Elias bar
+      Shinaya, metropolitan of Nisibis (975-1046), Church of the East. Brooks and Chabot are
+      translators. A mechanical index-coverage gap, not an attribution dispute.
+
+      '
+    from_file: elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt
+  epiphanius:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
+      markup only) has not seen the author. Epiphanius of Salamis (c. 315-403) is a real,
+      well-attested author; the title page names him and the work (file lines 309-328: ''Epiphanius
+      (Ancoratus und Panarion) ... Zweiter Band, Panarion haer. 34-64'').
+
+      '
+    from_file: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt
+  ethiopian-synaxarium:
+    kind: anonymous
+    evidence: 'The Ethiopic Synaxarium (Mashafa Senkesar) is an anonymous liturgical compilation,
+      a translation and expansion of the Arabic Synaxarium of the Coptic church; the title
+      page names only the translator, E. A. Wallis Budge (file lines 93-115). A work, not
+      a person; Budge is the translator, not the author.
+
+      '
+    from_file: ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt
   ethiopic_homily_on_the_ten_associations:
     kind: anonymous
     evidence: 'Part III of the Ethiopic collection, pp. 685-689, carried under Pachomius''
@@ -611,6 +707,16 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  faustinus-and-marcellinus:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
+      markup only) has not seen the authors. The Libellus precum is addressed to the emperors
+      by the presbyters Faustinus and Marcellinus (Günther''s prolegomena, file lines 3417-3463,
+      ''libellum Marcellini et Faustini presbyterorum a. 383 uel 384''); real, attested Luciferian
+      clerics, named in the text itself.
+
+      '
+    from_file: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt
   fowler_brothers:
     kind: metadata-omission
     evidence: 'The file is plain text and carries no markup to hold a creator, so the extractor
@@ -641,6 +747,14 @@ authors:
     evidence: Mansi tom. 4 prints "Gesta collationis Carthaginensis" at file line 1382; a
       court transcript with named speakers, no single author.
     from_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
+  gesta-inter-liberium-et-felicem:
+    kind: anonymous
+    evidence: 'Günther prints ''Quae gesta sunt inter Liberium et Felicem episcopos'' as the
+      first item of the Avellana (file line 5040) without an author; the text speaks for the
+      Roman clergy loyal to Liberius in 355-367 and names no writer.
+
+      '
+    from_file: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt
   gospel-of-nativity-of-mary:
     kind: anonymous
     evidence: 'div2 7.6; a Latin reworking of the Protevangelium material transmitted without
@@ -726,6 +840,15 @@ authors:
     kind: anonymous
     evidence: div2 7.7; no authorial claim in title or text frame.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  history-of-the-patriarchs-of-alexandria:
+    kind: anonymous
+    evidence: 'Evetts''s "History of the Patriarchs of the Coptic Church of Alexandria" in
+      the same volume (title page, file lines 247 to 249) is a compiled Coptic-Arabic work
+      of many hands, traditionally attributed to Severus ibn al-Muqaffa; ruled as a collection
+      entity. Named here only so the volume''s Coptic item can be placed.
+
+      '
+    from_file: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt
   ignatius:
     kind: metadata-omission
     evidence: 'div1 5 title "IGNATIUS" over the epistles in shorter, longer and Syriac recensions;
@@ -767,6 +890,12 @@ authors:
 
       '
     from_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+  john-rufus:
+    kind: metadata-omission
+    evidence: Series volume, plain text; fascicle I's title names "Jean Rufus, évêque de Maïouma"
+      as author of the Plerophories (file lines 218-239), with Nau as editor and translator.
+      Not the same man as the Roman historian Rufus or any existing slug.
+    from_file: po08_john-rufus-plerophories-and-others-fra_1912.txt
   justin_martyr:
     kind: metadata-omission
     evidence: 'div1 8 title "JUSTIN MARTYR" over the apologies, the Dialogue and the shorter
@@ -774,6 +903,14 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  labourt:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The author is real and named on the title page (file line 363): Jérôme Labourt (1874-1957).
+      A mechanical index-coverage gap, not an attribution dispute.
+
+      '
+    from_file: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt
   letter-churches-lyons-vienne:
     kind: anonymous
     evidence: 'div2 10.16 "Pseud-Irenaeus" — the section itself explains the piece is the
@@ -844,6 +981,17 @@ authors:
 
       '
     from_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  lucifer-of-cagliari:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
+      markup only) has not seen the author. Lucifer, bishop of Cagliari (d. c. 370), is a
+      real, well-attested author; the title page names him and the edition (file lines 36-56:
+      ''Luciferi Calaritani Opuscula, recensuit ... Guilelmus Hartel, Vindobonae MDCCCLXXXVI''),
+      and Jerome''s De viris illustribus and Dialogue against the Luciferians (held in npnf203
+      and npnf206) attest him and these works.
+
+      '
+    from_file: lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt
   mara-bar-serapion:
     kind: metadata-omission
     evidence: 'div2 9.17 "A Letter of Mara, Son of Serapion" — the title names the author,
@@ -851,6 +999,16 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  mari-ibn-sulayman:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The author is real and named: Mari ibn Sulayman (twelfth century), whose Kitab al-Majdal
+      carries the section on the patriarchs of the East that Gismondi edits ("Maris Ibn Salomonis",
+      file line 16163). Gismondi is editor and translator. A mechanical index-coverage gap,
+      not an attribution dispute.
+
+      '
+    from_file: mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt
   marot-beze:
     kind: metadata-omission
     evidence: 'Not CCEL-derived markup - a plain-text archive.org extract of the 1562 title
@@ -887,6 +1045,16 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  maruta-of-maipherqat:
+    kind: pseudonymous
+    evidence: 'The Syriac Nicene dossier is transmitted under the name of Marutha, bishop
+      of Maipherqat (fl. c. 400-420), but the attribution is traditional and Braun himself
+      discusses the several bearers of the name and the doubts (file lines 270 to 331). Ruled
+      pseudonymous in the sense "attributed to a named figure whose authorship is not secure",
+      not as a claim that the attribution is false.
+
+      '
+    from_file: maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt
   mathetes:
     kind: metadata-omission
     evidence: 'div1 3 title "MATHETES" over "Epistle to Diognetus"; anf01 DC.Creator names
@@ -906,6 +1074,17 @@ authors:
     kind: metadata-omission
     evidence: div2 10.5 'Melito, the Philosopher' (of Sardis, per the notice).
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  michael-the-syrian:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
+      markup only) has not seen the author. Michael the Syrian (Michael Rabo, 1126-1199),
+      Syriac Orthodox patriarch of Antioch, is a real, well-attested author; the title page
+      names him (file lines 58-68: ''Chronique de Michel le Syrien, patriarche jacobite d''Antioche
+      (1166-1199) ... traduite en français par J.-B. Chabot, tome premier, Paris 1899'').
+      The same slug was ruled this batch for tome II.
+
+      '
+    from_file: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt
   moses-of-chorene:
     kind: metadata-omission
     evidence: 'div2 9.13 "Moses of Chorene: History of Armenia" — the section title names
@@ -997,6 +1176,25 @@ authors:
 
       '
     from_file: anf03_tertullian.xml
+  persian-martyr-acts:
+    kind: anonymous
+    evidence: 'The Syriac acts of the Persian martyrs are anonymous hagiographic texts of
+      the fourth to fifth centuries; Braun is translator (title page, file lines 26 to 62).
+      Ruled as a collection entity, the same shape as the acta-martyrum rulings already in
+      UNATTRIBUTED.yaml.
+
+      '
+    from_file: persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915.txt
+  phoebadius-of-agen:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
+      markup only) has not seen the author. Phoebadius, bishop of Agen (fl. 357-392), is a
+      real, attested author: the volume''s own section title ''S. Phoebadii Aginnensis episcopi
+      opuscula adversus Arianos'' (file lines 15473-15480) and Jerome, De viris illustribus
+      108 (held in npnf203) name him and the Contra Arianos.
+
+      '
+    from_file: phoebadius-agen_contra-arianos-with-caesarius-didymus-lat_caillau1836.txt
   pilate-cycle:
     kind: pseudonymous
     evidence: 'div2 7.18-7.24: letters and reports purporting to be Pilate''s own (Letter
@@ -1207,6 +1405,20 @@ authors:
 
       '
     from_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
+  synodicon-adversus-tragoediam-irenaei:
+    kind: anonymous
+    evidence: Mansi tom. 5 prints the Latin dossier "SYNODICON ADVERSUS TRAGOEDIAM IRENAEI"
+      (heading at file line 72980; its manuscript source noted at 73060); a sixth-century
+      anonymous compilation built around Irenaeus of Tyre's lost Tragoedia, no single author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt
+  synodicon-orientale:
+    kind: anonymous
+    evidence: 'The acts of the synods of the Church of the East, compiled as a collection
+      in the ninth century; no individual author. Braun is translator and commentator (title
+      page, file line 42), not the work''s author.
+
+      '
+    from_file: synodicon-orientale_das-buch-der-synhados-deu_braun1900.txt
   teaching-of-simon-cephas:
     kind: anonymous
     evidence: 'div2 9.8 ''The Teaching of Simon Cephas in the City of Rome'' — a Syriac doctrina
@@ -1218,6 +1430,16 @@ authors:
     kind: anonymous
     evidence: div2 9.7 'The Teaching of the Apostles' (Syriac); no author.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  ter-israel:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
+      markup only) has not seen the author. The Armenian Synaxarion is printed under the name
+      of Ter Israel (thirteenth century) by its editor G. Bayan (''Le Synaxaire arménien de
+      Ter Israël, IV: mois de Tré'', file lines 61 and 93-96), the traditional compiler the
+      edition itself credits.
+
+      '
+    from_file: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt
   testament-of-abraham:
     kind: anonymous
     evidence: 'div1 9: third-person narrative about Abraham; a Jewish pseudepigraphon in Christian
@@ -1329,3 +1551,12 @@ authors:
 
       '
     from_file: wesley-j_large-minutes_1850.txt
+  wigram:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The author is real and named on the title page (file line 97): William Ainger Wigram
+      (1872-1953), Anglican missionary to the Assyrian Christians. A mechanical index-coverage
+      gap, not an attribution dispute.
+
+      '
+    from_file: wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt

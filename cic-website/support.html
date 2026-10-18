@@ -29,6 +29,7 @@
    override apply the way it already does for the rest of this page's text. */
 .fine-print{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;color:#B8AEA1}
 </style>
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -49,6 +50,7 @@
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -115,7 +117,6 @@
     <span>&copy; 2026 Church in Conversation. A ministry in formation.</span>
     <nav>
       <a href="about.html">About</a>
-      <a href="pilot-feedback.html">Feedback</a>
       <a href="privacy.html">Privacy</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
@@ -151,5 +152,6 @@ if (menu && menuToggle) {
 </script>
 <script src="assets/go-deeper-config.js"></script>
 <script src="assets/door-line.js"></script>
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

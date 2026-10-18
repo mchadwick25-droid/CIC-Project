@@ -43,7 +43,7 @@ exchange:
   text: >-
     No. We would not call it that, and we refused that very word, which we called a monstrous word for
     a monstrous idea. We held something plainer instead. Christ's true body and blood are truly present,
-    in and under the bread and wine, and we did not explain how. We took him at his word, and we were
+    in and under the bread and wine, and we did not explain how they are present. We took him at his word, and we were
     glad that the simple faith of this was still found among common people, who did not dispute what they
     never tried to make a puzzle of. This meal was not a memorial only. It was food for the daily fight,
     a daily pasture for the soul. Its gate was examined and none came to it unquestioned, yet no one was

@@ -3,6 +3,33 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: palestinian-ascetic-monasticism-early
 works:
+- row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--panarion-heresies-34-64-gcs-31-greek-2
+  work: Panarion, heresies 34-64 (GCS 31, Holl 1922), Greek
+  author: epiphanius
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Epiphanius founded a monastery near Eleutheropolis in Palestine before his Cypriot
+    episcopate, and his campaign against Origen ran through the Palestinian monasteries of
+    Jerome and Rufinus. Placed as context for that world; whether it is better read as the
+    world''s own voice is a build-thread call, named here and not decided.
+
+    '
+  source_file: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt
+- row_id: epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860--panarion-heresies-48-69-greek-and-latin
+  work: Panarion, heresies 48-69 (Oehler 1860), Greek with Petavius's Latin
+  author: epiphanius
+  locus: whole file; heresy 65 (Paul of Samosata) at 29244
+  role: tradition
+  confidence: provisional
+  note: 'Epiphanius founded and led a monastery near Eleutheropolis in Palestine (c. 335-367)
+    before his Cypriot episcopate, and the Panarion is the one great literary work of that
+    early Palestinian monastic milieu; placed here as its voice, provisionally. NEEDS A CHECK
+    by the corpus-assignment thread against how the Holl volume (haer. 34-64, vendored this
+    batch) was placed, so the two Epiphanius files are placed alike.
+
+    '
+  source_file: epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt
 - row_id: npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk
   work: The Life of Malchus, the Captive Monk
   author: jerome

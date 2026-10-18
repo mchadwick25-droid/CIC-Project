@@ -1,0 +1,18 @@
+source_file: socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt
+
+assignments:
+  - row_id: socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853--historia-ecclesiastica-greek-tomus-2
+    work: "Socrates Scholasticus, Historia ecclesiastica, Greek text with Latin version, Hussey 1853, tomus 2"
+    author: socrates
+    locus: "Books V-VII; Book VI the Synod of the Oak, Book VII Nestorius and Ephesus 431"
+    atlas_ids:
+      - imperial-juridical-christianity
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. Greek original behind the English of npnf202_socrates-
+      sozomen-ecclesiastical-histories.xml. Books V-VII (Theodosius I to 439: Constantinople
+      381, the Oak 403, Nestorius and Ephesus 431). Near-contemporary Constantinopolitan
+      narrative (c. 440), not eyewitness. Primary original-language witness; Greek and Latin
+      both recovered in the OCR; verify against the page image before quoting.

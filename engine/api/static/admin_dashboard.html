@@ -188,6 +188,16 @@
           <div class="caveat" id="t-deeper-pilot-detail"></div>
         </div>
         <div class="tile">
+          <div class="label">Tester codes today</div>
+          <div class="value" id="t-deeper-tester">—</div>
+          <div class="caveat" id="t-deeper-tester-detail"></div>
+        </div>
+        <div class="tile">
+          <div class="label">Pilot joins by role</div>
+          <div class="caveat" id="t-deeper-pilot-roles">—</div>
+          <div class="caveat">A count per role per audience only. No role is tied to a code or an address.</div>
+        </div>
+        <div class="tile">
           <div class="label">Door right now</div>
           <div class="value" id="t-deeper-door">—</div>
           <div class="caveat" id="t-deeper-door-detail"></div>
@@ -213,6 +223,12 @@
         <button id="mint-submit" type="button">Make codes</button>
       </div>
       <div class="caveat" id="mint-limits"></div>
+      <div style="margin-top: 8px;">
+        <label>Tester code: tokens <input id="tester-tokens" type="number" min="1" value="20000" style="width: 7em;" /></label>
+        <label>days <input id="tester-days" type="number" min="1" value="30" style="width: 5em;" /></label>
+        <button id="tester-submit" type="button">Make a tester code</button>
+      </div>
+      <div class="caveat" id="tester-limits"></div>
       <div style="margin-top: 8px;">
         <input id="void-id" type="text" placeholder="Mint id or payment id to cancel" style="width: 22em;" autocomplete="off" />
         <button id="void-submit" type="button">Cancel its codes</button>
@@ -249,6 +265,8 @@
           <div class="caveat">Summed across all of a visitor's sessions in this range. Average <span id="t-average-visitor-total">—</span></div>
         </div>
       </div>
+      <div class="caveat" id="t-internal-left-out" style="margin-top: 8px;"></div>
+      <div class="caveat" style="margin-top: 4px;">To keep your own tests out of these numbers, open this link once on each browser or phone you test with: <a href="https://churchinconversation.com/talk.html?ours=1">churchinconversation.com/talk.html?ours=1</a>. To undo it on a browser, open the same link with ours=0.</div>
     </section>
 
     <section>
@@ -291,6 +309,16 @@
       <h2>Questions people ask</h2>
       <div class="caveat" id="asks-freshness" style="margin-bottom: 8px;"></div>
       <div id="asks-table-wrap"></div>
+      <h3 style="margin-top: 16px;">Every question, last 7 days</h3>
+      <div class="caveat" id="recent-questions-note" style="margin-bottom: 8px;"></div>
+      <div id="recent-questions-wrap" style="overflow-x: auto;"></div>
+    </section>
+
+    <section>
+      <h2>Feedback</h2>
+      <div class="caveat" style="margin-bottom: 8px;">Reply to the person before you close, if they left an email. Closing removes the email.</div>
+      <label class="caveat"><input id="feedback-show-closed" type="checkbox" /> Show closed</label>
+      <div id="feedback-table-wrap" style="margin-top: 8px; overflow-x: auto;"></div>
     </section>
   </div>
 
@@ -454,6 +482,102 @@
     wrap.appendChild(table);
   }
 
+  function renderRecentQuestions(questions, total) {
+    const wrap = document.getElementById("recent-questions-wrap");
+    wrap.innerHTML = "";
+    document.getElementById("recent-questions-note").textContent =
+      "Word for word, newest first, live. Your own marked browsers are left out." +
+      (total > questions.length ? " Showing the newest " + fmtNumber(questions.length) + " of " + fmtNumber(total) + "." : "");
+    if (!questions || questions.length === 0) {
+      wrap.appendChild(el("div", { class: "empty", text: "No questions in the last 7 days." }));
+      return;
+    }
+    const table = el("table", {});
+    table.appendChild(el("thead", {}, [el("tr", {}, [
+      el("th", { text: "When (UTC)" }),
+      el("th", { text: "World" }),
+      el("th", { text: "Question" }),
+    ])]));
+    const tbody = el("tbody", {});
+    questions.forEach((q) => {
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: q.asked_at.slice(0, 16).replace("T", " ") }),
+        el("td", { text: q.world_keys.join(", ") }),
+        el("td", { text: q.text }),
+      ]));
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+  }
+
+  const FEEDBACK_OUTCOMES = [
+    ["corrected", "Corrected"], ["checked_stands", "Checked, stands"], ["open_lead", "Open lead"],
+    ["conviction", "A conviction, not an error"], ["no_action", "No action"],
+  ];
+  const FEEDBACK_REASONS = {
+    fact_wrong: "Fact wrong", source_mismatch: "Source does not say this", overcertain: "Too certain", unclear: "Not clear",
+    accuracy: "Accuracy", craft: "Craft",
+  };
+
+  async function closeFeedback(id, outcome, note) {
+    const resp = await fetch("/api/admin/feedback/" + encodeURIComponent(id) + "/close", {
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ outcome, note: note || null }),
+    });
+    if (!resp.ok) throw new Error("close returned " + resp.status);
+  }
+
+  function renderFeedback(items, closed) {
+    const wrap = document.getElementById("feedback-table-wrap");
+    wrap.innerHTML = "";
+    if (!items || items.length === 0) {
+      wrap.appendChild(el("div", { class: "empty", text: closed ? "Nothing closed yet." : "Nothing waiting." }));
+      return;
+    }
+    const heads = ["Kind", "Page", "When", "Reason", "Turn", "Sentence", "Records", "Confidence", "Text", "Email", "Quote consent", "First name"];
+    heads.push(closed ? "Outcome" : "Close");
+    const table = el("table", {});
+    table.appendChild(el("thead", {}, [el("tr", {}, heads.map((h) => el("th", { text: h })))]));
+    const tbody = el("tbody", {});
+    items.forEach((item) => {
+      const cells = [
+        item.kind, item.page || "", (item.created_at || "").slice(0, 16).replace("T", " "),
+        FEEDBACK_REASONS[item.reason] || "", item.turn_index === null ? "" : String(item.turn_index),
+        item.sentence_index === null ? "" : String(item.sentence_index), (item.record_ids || []).join(", "),
+        item.confidence ? Object.entries(item.confidence).map(([k, v]) => k + ": " + (typeof v === "string" ? v : JSON.stringify(v))).join("; ") : "",
+        item.text || "", item.email || "", item.quote_consent || "", item.first_name || "",
+      ].map((t) => el("td", { text: t }));
+      if (closed) {
+        const label = (FEEDBACK_OUTCOMES.find((o) => o[0] === item.outcome) || [null, item.outcome || ""])[1];
+        cells.push(el("td", { text: label + (item.outcome_note ? " - " + item.outcome_note : "") }));
+      } else {
+        const select = el("select", {}, FEEDBACK_OUTCOMES.map(([value, label]) => el("option", { value, text: label })));
+        const note = el("input", { type: "text", placeholder: "Note", maxlength: "2000" });
+        const button = el("button", { type: "button", text: "Close" });
+        button.addEventListener("click", async () => {
+          button.disabled = true;
+          try {
+            await closeFeedback(item.id, select.value, note.value.trim());
+            await loadFeedback();
+          } catch (err) {
+            button.disabled = false;
+            document.getElementById("banners").appendChild(banner(String(err.message || err), true));
+          }
+        });
+        cells.push(el("td", {}, [select, note, button]));
+      }
+      tbody.appendChild(el("tr", {}, cells));
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+  }
+
+  async function loadFeedback() {
+    const closed = document.getElementById("feedback-show-closed").checked;
+    const body = await fetchJSON("/api/admin/feedback?status=" + (closed ? "closed" : "open"));
+    renderFeedback(body.items, closed);
+  }
+
   async function load() {
     const banners = document.getElementById("banners");
     banners.innerHTML = "";
@@ -479,6 +603,9 @@
     document.getElementById("t-average-session").textContent = fmtDuration(v.average_session_seconds);
     document.getElementById("t-median-visitor-total").textContent = fmtDuration(v.median_visitor_total_seconds);
     document.getElementById("t-average-visitor-total").textContent = fmtDuration(v.average_visitor_total_seconds);
+    const leftOut = v.internal_sessions_left_out || 0;
+    document.getElementById("t-internal-left-out").textContent =
+      fmtNumber(leftOut) + " of our own test sessions " + (leftOut === 1 ? "is" : "are") + " left out of these numbers and the counts below.";
 
     document.getElementById("t-total-sessions").textContent = fmtNumber(pilot.total_sessions);
     document.getElementById("t-open-sessions").textContent = fmtNumber(pilot.open_sessions);
@@ -500,11 +627,17 @@
 
     renderSpendSplit(usage.live_use, usage.named_tests);
     renderAsksTable(usage.top_asks);
+    renderRecentQuestions(usage.recent_questions || [], usage.recent_questions_total || 0);
     const freshness = document.getElementById("asks-freshness");
     freshness.textContent = usage.asks_as_of_run
       ? "From the daily rollup run at " + usage.asks_as_of_run + " (generated " + (usage.asks_generated_at || "unknown") + ") — not live, updates once a day."
       : "No daily rollup has produced output yet.";
     await loadDeeper();
+    try {
+      await loadFeedback();
+    } catch (err) {
+      banners.appendChild(banner("Feedback could not be loaded: " + String(err.message || err), true));
+    }
   }
 
   const REFUSAL_LABELS = {
@@ -535,7 +668,7 @@
     document.getElementById("t-deeper-refused").textContent = fmtNumber(refusalTotal(today));
     document.getElementById("t-deeper-gap").textContent = fmtNumber(gaps[today.day] || 0);
     const todayRecon = (body.reconciliation || []).find((r) => r.day === today.day) || {};
-    renderGrantTiles({ ...today, admin_codes_minted: todayRecon.admin_codes_minted, pilot_codes_minted: todayRecon.pilot_codes_minted });
+    renderGrantTiles({ ...today, admin_codes_minted: todayRecon.admin_codes_minted, pilot_codes_minted: todayRecon.pilot_codes_minted, tester_codes_minted: todayRecon.tester_codes_minted });
     const wrap = document.getElementById("deeper-table-wrap");
     wrap.innerHTML = "";
     if (rows.length === 0) {
@@ -571,8 +704,9 @@
   }
   function renderGrantTiles(today) {
     document.getElementById("t-deeper-admin").textContent = fmtNumber((today || {}).admin_codes_minted || 0);
-    document.getElementById("t-deeper-admin-detail").textContent = fmtNumber(((today || {}).tokens_granted) || 0) + " tokens granted today, admin and pilot";
+    document.getElementById("t-deeper-admin-detail").textContent = fmtNumber(((today || {}).tokens_granted) || 0) + " tokens granted today, admin, pilot and tester";
     document.getElementById("t-deeper-pilot-detail").dataset.today = String((today || {}).pilot_codes_minted || 0);
+    document.getElementById("t-deeper-tester").textContent = fmtNumber((today || {}).tester_codes_minted || 0);
   }
   function deeperNotice(message, isError) {
     const slot = document.getElementById("deeper-notice");
@@ -586,7 +720,7 @@
       if (!resp.ok) return;
       const rows = (await resp.json()).grants;
       slot.textContent = rows.length
-        ? "Grants, last two days: " + rows.map((g) => g.grant_id + " (" + g.day + ", " + g.codes + " codes, " + fmtNumber(g.tokens) + " tokens" + (g.codes_void ? ", " + g.codes_void + " cancelled" : "") + ")").join("; ")
+        ? "Grants, last two days: " + rows.map((g) => g.grant_id + " (" + g.day + ", " + g.codes + " codes, " + fmtNumber(g.tokens) + " tokens" + (g.expires_on ? ", works until the end of " + g.expires_on + " UTC" : "") + (g.codes_void ? ", " + g.codes_void + " cancelled" : "") + ")").join("; ")
         : "No grants in the last two days.";
     } catch (e) { slot.textContent = ""; }
   }
@@ -603,6 +737,10 @@
       document.getElementById("t-deeper-pilot-detail").textContent =
         pilot.audiences.map((a) => a.audience + " " + a.given + "/" + a.cap + (a.open ? " open" : " closed") + (!a.public && !a.link_set ? " (no link key set)" : "")).join(" · ") +
         " · ends " + pilot.end_date + " · " + (document.getElementById("t-deeper-pilot-detail").dataset.today || "0") + " today";
+      const shown = pilot.audiences.filter((a) => a.open || a.given > 0);
+      document.getElementById("t-deeper-pilot-roles").textContent = shown.length
+        ? shown.map((a) => a.audience + ": " + a.roles.map((r) => r.label + " " + fmtNumber(r.count)).join(", ")).join(" · ")
+        : "No audience is open.";
     }
     const door = status.door;
     document.getElementById("t-deeper-door").textContent = door ? "Stage " + door.stage : "—";
@@ -620,6 +758,22 @@
     document.getElementById("mint-limits").textContent = status.mint_limits
       ? "Limits: " + fmtNumber(status.mint_limits.tokens_per_request) + " tokens a request, " + fmtNumber(status.mint_limits.tokens_per_day) + " a day. Each grant counts toward the door as a gift of the packs' price."
       : "";
+    const tester = status.tester;
+    if (tester) {
+      const tokensBox = document.getElementById("tester-tokens");
+      const daysBox = document.getElementById("tester-days");
+      if (!tokensBox.dataset.set) {
+        tokensBox.value = String(tester.default_tokens);
+        tokensBox.max = String(tester.max_tokens);
+        daysBox.value = String(tester.default_days);
+        daysBox.max = String(tester.max_days);
+        tokensBox.dataset.set = "1";
+      }
+      document.getElementById("tester-limits").textContent =
+        "One code for a professor or deep tester. Up to " + fmtNumber(tester.max_tokens) + " tokens and " + tester.max_days + " days, " + tester.per_day +
+        " codes a day. It stops working at the end of its last day, UTC. It counts toward the door as a gift, at the largest pack's price a token.";
+      document.getElementById("t-deeper-tester-detail").textContent = "Limit " + tester.per_day + " a day. Cancel one with its mint id.";
+    }
   }
   async function loadStatus() {
     try {
@@ -667,6 +821,30 @@
     deeperNotice("", false);
     await loadDeeper();
   }
+  async function makeTesterCode() {
+    const tokens = parseInt(document.getElementById("tester-tokens").value, 10);
+    const days = parseInt(document.getElementById("tester-days").value, 10);
+    if (!(tokens >= 1) || !(days >= 1)) { deeperNotice("Enter tokens and days of 1 or more.", true); return; }
+    if (!window.confirm("Make one tester code of " + fmtNumber(tokens) + " tokens that works for " + days + " days? This is a grant with no payment.")) return;
+    const resp = await fetch("/api/admin/deeper/tester", {
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ tokens: tokens, days: days }),
+    });
+    if (!resp.ok) {
+      let detail = "";
+      try { detail = (await resp.json()).detail || ""; } catch (e) {}
+      deeperNotice("No code was made (" + resp.status + "). " + detail, true);
+      return;
+    }
+    const made = await resp.json();
+    shownCodes = made.code;
+    document.getElementById("mint-codes").textContent = shownCodes;
+    document.getElementById("mint-result-note").textContent =
+      "Shown once; it cannot be shown again. " + fmtNumber(made.tokens) + " tokens. It works until the end of " + made.expires_on + " UTC. Mint id " + made.mint_id + " (paste it into the box below to cancel it).";
+    document.getElementById("mint-result").classList.remove("hidden");
+    deeperNotice("", false);
+    await loadDeeper();
+  }
   async function voidPayment() {
     const id = document.getElementById("void-id").value.trim();
     if (!id) { deeperNotice("Paste a mint id or payment id first.", true); return; }
@@ -684,6 +862,7 @@
   document.getElementById("void-submit").addEventListener("click", voidPayment);
   document.getElementById("deeper-pause-toggle").addEventListener("click", toggleDeeperPause);
   document.getElementById("mint-submit").addEventListener("click", makeCodes);
+  document.getElementById("tester-submit").addEventListener("click", makeTesterCode);
   document.getElementById("mint-hide").addEventListener("click", hideCodes);
   document.addEventListener("visibilitychange", () => { if (document.hidden) hideCodes(); });
   document.getElementById("mint-copy").addEventListener("click", async () => {
@@ -834,6 +1013,9 @@
     app.classList.add("hidden");
     gate.classList.remove("hidden");
     checkAuthStatus();
+  });
+  document.getElementById("feedback-show-closed").addEventListener("change", () => {
+    loadFeedback().catch((err) => document.getElementById("banners").appendChild(banner(String(err.message || err), true)));
   });
   document.getElementById("refresh").addEventListener("click", () => { showApp(); });
   document.getElementById("since-select").addEventListener("change", () => { showApp(); });

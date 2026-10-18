@@ -237,7 +237,7 @@ describe('GoDeeperPanel, pilot', () => {
       'fetch',
       vi.fn().mockResolvedValue({ status: 200, ok: true, json: async () => ({ joined: true, code: 'ABCD 2345 EFGH 6789 JKLM', tokens: 1100, conversations: 10 }) })
     );
-    window.history.replaceState(null, '', '/#cic-pilot=general');
+    window.history.replaceState(null, '', '/#cic-pilot=general&role=academic');
     const { GoDeeperPanel } = await import('./GoDeeperPanel');
     render(<GoDeeperPanel />);
     const panel = await screen.findByRole('complementary', { name: 'Go deeper' });
@@ -252,7 +252,7 @@ describe('GoDeeperPanel, pilot', () => {
     vi.resetModules();
     vi.stubEnv('VITE_DEEPER_ENABLED', 'on');
     vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ status: 409, ok: false, json: async () => ({ joined: false, reason: 'address_limit' }) }));
-    window.history.replaceState(null, '', '/#cic-pilot=general');
+    window.history.replaceState(null, '', '/#cic-pilot=general&role=academic');
     const { GoDeeperPanel } = await import('./GoDeeperPanel');
     render(<GoDeeperPanel />);
     expect(await screen.findByText('This connection has already taken the free packs the pilot allows.')).toBeInTheDocument();

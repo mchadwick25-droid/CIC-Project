@@ -6623,6 +6623,60 @@ The targeted recheck of item 4 found two false passes, both fixed with tests. A 
 
 The reason for the divine-speaker guard, in the project lead's words (14 October): "i dont think Jesus would have a quote from the source, only when bible passages are quoted in the text". So an introduction may name the Lord's words only where the story's own telling quotes Scripture: "Here are the Lord's words, as we keep them" holds on the Antony call story, whose telling quotes the Gospel, and fails on the Moses story, which quotes none. The divine-acts question above is not decided; nothing is changed for it.
 
+## 2026-10-14 - Honest limits name their question: records check and writing rule
+
+**Ruling (the project lead, 14 October, option C, relayed by the coordinating session).** A pahc record ended "We cannot tell you we had settled how.", and a participant could not tell what "how" asked; it was fixed by naming the question ("...how he could be God when the Father is God, and God is one."). The project lead asked for this class of defect to be stopped everywhere: an honest-limit sentence names the question it cannot answer and does not end on a bare question word.
+
+**The records check.** `engine/m1/question_endings.py` flags a sentence in a voiced record's spoken field that ends on a bare how, why, when, what, which, where or who. It reads the fields the readability gate grades (so not quote or story source wording, and not a participant's own turn) and the use note's `means`. To keep it precise, it does not flag a question word after a form of "be" ("Person is who.", "which is which"), after "not" ("is who, not what"), after another question word in the same clause ("who reads what"), closing a list of questions the sentence already opened ("who wrote them, and when"), "which" choosing among alternatives the sentence names, "the how", a hyphenated word, or a sentence ending in a question mark. It runs as the M1 gate `question-ending` (in `GATES`, so in the M9 enforcement battery and in every package's `validation/gates-report.json`) and in `engine.m10.cli records <code>`. Tests: `engine/m1/tests/test_question_endings.py`, and one in `engine/m10/tests/test_regate.py`.
+
+**The writing rule.** `Build/reference/method/Pass2-decisions/VR_1A_Writing_Standard_2026-08-09.md` now says that an honest limit names the question it cannot answer and never ends on a bare "how", "why" or "when". Its title and adoption line no longer carry the adoption date (9 August 2026), which the live-surface check requires of any edited file; the date stays in its file name and here.
+
+**Records fixed.** Before the fix the gate found 17 sentences in 15 voiced records across nine worlds; after it, none fleet-wide. Each now names its question with words its record or the participant's own question already holds; no claim, name or date is added. Per-world entries ("Honest limits name their question", 2026-10-14) in alx, cappadocian, desert, don, ijc, pahc, syr and witt list each sentence. The fixture's `fix.limit.trinity-language` changed the same way ("see fix.term.the-three for how we spoke of them"). `don.term.reception-without-reordination` `senses.translational` ("It does not preserve anyone explaining why.") was also fixed by hand: it is shown on the term's gloss card but is not in `engine/m1/spoken_fields.py`, so the gate does not read it. Whether gloss-card fields join the spoken-field registry is left open as its own task.
+
+**Packages.** Registering a gate changes every package's gates report, so all twelve built worlds were rebuilt and repinned in `records/worlds/<code>.yaml`.
+
+## 2026-10-17 - Cap ruling: don Atlas story pass
+
+The independent Opus review of the Donatist Atlas story pass used all three rounds:
+- `Build/Ministry/Operations/Audits/don_atlas_story_pass_independent_review_round1_2026-10-17.md`: 14 blocking findings.
+- `..._round2_...`: 1 blocking finding.
+- `..._round3_...`: 0 blocking findings and 4 should-fix, each with exact wording.
+
+At the cap, the project lead ruled on 17 October (option A) that the four fixes be applied as the round 3 reviewer wrote them, with no fourth review. The records and readability gates check the result on rebuild.
+
+Two parts of the applied wording were adjusted:
+- Two words were cut to hold the 700-word cap.
+- In the Acta telling, "the dossier Optatus attached to his books against us" became "the dossier of documents Optatus kept". This follows the reviewer's note on the repeated provenance line.
+
+The fixer's report, with before and after text, is `don_atlas_story_pass_fixes_report_2026-10-17.md`.
+
+## 2026-10-17 - Cap ruling: alx Atlas story pass
+
+The review of the Alexandria Atlas story pass ran four rounds, all recorded in one file, `Build/Ministry/Operations/Audits/alx_atlas_story_pass_review_round1_2026-10-17.md`:
+- Round 1, a full review: claims the records do not support were found and fixed.
+- Round 2, a targeted recheck: wording clashes were found and fixed.
+- Round 3: the tellings were rewritten after the project lead's mid-pass ruling to cut add-on tails, then reviewed again.
+- Round 4, a targeted recheck of those rewrites: approved to proceed.
+
+Round 3 followed a change to the brief, not a failure to converge. Round 4 still ran without first escalating at the cap. The project lead accepted round 4 after the fact on 17 October. He also ruled that a world may take more rounds when that is what it needs to be right, in his words: "if this world has to be longer to get it right thats ok". This ruling covers only the alx story pass review named above.
+
+## 2026-10-17 - Library store trigger moves to 4 GB
+
+This is a change order to decision 23, which set the `cic/texts/` planning triggers at 1 GB (re-read the plan) and 1.5 GB (act on it).
+
+**Ruling (the project lead, 17 October).** The trigger moves to 4 GB, and acting is overdue at 5 GB. The library has moved to a public repository on GitHub, so plain git storage costs nothing. The project lead: "we can change the 1 GB limit now we have moved the library to public on github".
+
+**What still applies.**
+- GitHub's soft guidance applies to public repositories too: it warns above about 5 GB. The hard limit is 100 MB for a single file.
+- Every session clones the whole repository, so a larger store means slower session starts. The plan's request to measure a fresh session's start time still stands.
+
+The store was 801 MB when the ruling was made, after the Shared Events Era 2 batch. `cic/engine/texts_registry.py`, `PLAN-texts-store-scaling.md`, the `_cross-world` README and the Shared Events Era 3 handoff now carry the new numbers.
+
+
+## 2026-10-17 - Honest limits put the subject first
+
+The project lead ruled that an honest limit puts the subject first and ends on what is not known, never on a bare verb such as "kept" or "wrote down", and never on "such" pointing back past the sentence before. The rule is added to `VR_1A_Writing_Standard_2026-08-09.md` beside the 14 October honest-limit rule. The records that broke it are rewritten and logged in each world's Open_Gaps_Tracking.md.
+
 ## 2026-10-15 - The gloss card speaks from outside the world
 
 A term's gloss card shows the participant `senses.translational` and each `false_friend` line (`engine/m4/term_glosses.py`, `GlossMark.tsx`). `engine/m1/spoken_fields.py` did not declare either field, so no prose gate read them. They are now declared under a new `gloss-card` role. No gate reads that role yet.

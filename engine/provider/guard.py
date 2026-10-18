@@ -1,9 +1,9 @@
 """The live-test guard (System Hub decision 56): the only model spend is
 conversations. A model client is handed out in exactly two cases:
 
-  (a) to the conversation path in engine/api, which declares itself with
-      conversation_scope() and gets the SDK client itself, unwrapped, as it
-      always has; and
+  (a) to the conversation path in engine/api running on Render, which
+      declares itself with conversation_scope() and gets the SDK client
+      itself, unwrapped; and
   (b) to a command that carries both --live-test "<name>" and --cap-usd <n>.
 
 A command without both prints RULE and exits non-zero before any network
@@ -19,6 +19,7 @@ import argparse
 import contextvars
 import json
 import math
+import os
 import sys
 import threading
 from contextlib import contextmanager
@@ -27,6 +28,7 @@ from dataclasses import dataclass
 LIVE_TEST_FLAG = "--live-test"
 CAP_FLAG = "--cap-usd"
 EXIT_REFUSED = 2
+RENDER_ENV = "RENDER"  # set by Render on every service it runs
 
 RULE = (
     "Model calls outside a conversation need an approved live test (System Hub decision 56).\n"
@@ -80,7 +82,9 @@ def _emit(text: str) -> None:
 def conversation_scope():
     """The conversation path in engine/api builds its client inside this. A
     test conversation Mark runs goes through the live engine and needs no
-    flags; nothing outside engine/api opens this scope (a test enforces it)."""
+    flags; nothing outside engine/api opens this scope (a test enforces it).
+    The scope exempts only a process running on Render: the same engine
+    started anywhere else needs both flags, like any other command."""
     token = _conversation.set(True)
     try:
         yield
@@ -118,9 +122,10 @@ def parse_live_test(argv: list[str]) -> LiveTest | None:
 
 
 def admit() -> LiveTest | None:
-    """None inside the conversation scope; the LiveTest the command carries
-    otherwise. Exits non-zero, with the rule printed, when it carries none."""
-    if _conversation.get():
+    """None inside the conversation scope on Render; the LiveTest the command
+    carries otherwise. Exits non-zero, with the rule printed, when it carries
+    none."""
+    if _conversation.get() and os.environ.get(RENDER_ENV):
         return None
     live_test = parse_live_test(sys.argv[1:])
     if live_test is None:

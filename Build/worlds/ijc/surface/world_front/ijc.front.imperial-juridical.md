@@ -20,171 +20,124 @@ skim:
       Between 312 and 451 CE, the Christian church in Rome, Constantinople,
       and Milan went from a hunted community to a partner of imperial power.
       In 312 the emperor Constantine allied himself with a church he had
-      once persecuted. Bishops who once met in secret now gathered in
-      councils an emperor called and paid for. The church gained legal
+      once persecuted. Bishops now gathered in councils an emperor summoned and paid for. The church gained legal
       standing, wealth, and a seat near the throne. It also had to decide
       what that nearness would cost. Three claims competed for who held
       final authority in the church. Rome traced its standing back to the
       apostle Peter. Constantinople claimed rank because the emperor now
       reigned there. And Ambrose of Milan argued that the emperor stood
       inside the church, not above it. For roughly two decades, the
-      empire's own church confessed the Son as merely like the Father, not
-      equal to him - the official faith, not a fringe belief, and bishops
-      who refused it went into exile. This world closes at the Council of
-      Chalcedon in 451, its own last attempt to settle everything. It
-      settled who Christ is. It did not settle where authority itself
-      belonged.
+      empire's own church confessed that the Son is like the Father. That
+      was the official faith, and bishops who refused it went into exile.
+      This story closes at the Council of Chalcedon in 451, which settled
+      who Christ is.
     grounded_in: [ijc.core.imperial-juridical]
 orientation:
   story:
   - text: >-
-      This world's own record runs from 312 to 451 CE, in Rome,
-      Constantinople, and Milan. It opens when the emperor Constantine
-      allied himself with a church he had once hunted. It closes at the
-      Council of Chalcedon, the last council of the age to legislate as
-      though everyone could still agree. Three claims run through the whole
-      span. Rome grounds its authority in the apostle Peter. Constantinople
-      grounds its rank in nearness to the emperor. And a third voice, from
-      Milan, grounds authority in a bishop's own sacramental and moral
-      standing over any ruler.
-    grounded_in: [ijc.core.imperial-juridical]
+      From 312 to 451, in Rome, Constantinople and Milan, the church fought over who had the last word. The emperor, a council and the bishop of Rome each had a claim. Three answers competed over what that authority rested on. Rome traced its standing to
+      the apostle Peter. Constantinople based its rank on being near the
+      emperor. Ambrose of Milan held that a bishop's sacraments and moral
+      standing gave him leverage over any ruler.
+    grounded_in: [ijc.core.imperial-juridical, ijc.gravity.sacramental-institutional-tension]
   - text: >-
-      In 312, at the Milvian Bridge, Constantine won the battle that made
-      him sole ruler of the West. What exactly turned him toward Christ is
-      not settled, even in this world's own record. Eusebius, his own
-      admiring historian, says he saw a cross of light at midday, with his
-      whole army watching. Lactantius, writing earlier and independently,
-      has him ordered in a dream, the night before, to mark his soldiers'
-      shields with Christ's sign. The two stories do not agree, and this
-      world does not force them to. What is certain is the consequence.
-      Within a year, toleration was law, and a persecuted church became a
-      funded one.
-    grounded_in: [ijc.force.constantine-alliance, ijc.story.vision-and-alliance, ijc.contested.constantine-conversion]
+      In 312 Constantine fought the battle at the Milvian Bridge. Eusebius
+      tells what Constantine himself told him long afterward. About noon, he said, he saw a cross of light with the words "Conquer by this." His whole army, he said, saw it too. Lactantius wrote earlier and
+      tells it differently. In his account a dream told Constantine to mark
+      Christ's sign on his soldiers' shields. The emperor stopped hunting the church,
+      and within a year toleration was law.
+    grounded_in: [ijc.story.vision-and-alliance, ijc.story.dream-before-battle, ijc.contested.constantine-conversion, ijc.force.constantine-alliance]
   - text: >-
-      That alliance is the fact everything else in this world moves
-      within. Emperors now protected bishops. They asked for their advice.
-      They made laws about their faith. And they expected obedience in
-      return. But the alliance never held one shape for long. Which faith
-      the empire favored changed with whoever wore the crown. Every side
-      in this world had to live inside that instability.
-    grounded_in: [ijc.gravity.church-state-alliance]
+      A council in the East deposed Athanasius, the bishop of Alexandria. In 341 Julius, bishop of Rome, wrote back that the custom was to
+      write to Rome first. Those he wrote to disputed how old and settled that custom was.
+    grounded_in: [ijc.story.letter-that-outranked-a-council, ijc.quote.julius-custom, ijc.figure.julius, ijc.gravity.primacy-claiming]
   - text: >-
-      For roughly two decades, under the emperors Constantius II and
-      Valens, the empire's own church held a different creed. It confessed
-      the Son as merely "like" the Father, not of one substance with him.
-      This confession was called Homoian. It was not a fringe belief in
-      this window. It was the establishment itself, held at the emperor's
-      own command. Bishops who confessed the rival word - homoousios, "of
-      one substance" - were the ones removed and exiled. What survives of
-      the Homoian side's own voice is almost nothing. One damaged fragment
-      survives. A fellow believer preserved it, then partly erased it as
-      heresy before it reached later readers. Nearly everything else comes
-      down through the account of the side that eventually won.
-    grounded_in: [ijc.gravity.orthodoxy-enforcement, ijc.term.homoios, ijc.force.imperial-policy-oscillation]
+      Imperial favor did not stay with one creed. Under Constantius II the empire's
+      own church confessed that the Son is like the Father. That creed is
+      called Homoian. Valens enforced it again in the East. For roughly two
+      decades it was the official faith, and bishops who held the Nicene faith were deposed and exiled.
+    grounded_in: [ijc.force.imperial-policy-oscillation, ijc.term.homoios, ijc.gravity.orthodoxy-enforcement, ijc.figure.constantius, ijc.figure.valens, ijc.core.imperial-juridical]
   - text: >-
-      Ambrose, bishop of Milan, answered that whole imperial logic from
-      inside it. In 386, an imperial court that itself held the Homoian
-      faith demanded one of Milan's churches for its own worship. Ambrose
-      refused to give it up. Soldiers surrounded the building. His
-      congregation stayed inside with him, not knowing whether the orders
-      outside meant to wait or to storm. Augustine, then a young man in the
-      same city, remembered that it was during that siege that Milan's
-      people first sang hymns in a manner borrowed from the Eastern
-      churches, so the waiting did not pass in silence - a practice, he
-      wrote, that was kept from then on. In the middle of it, Ambrose
-      preached the sentence this world remembers him for: the emperor is
-      within the church, not above it. The court did not take the
-      building.
-    grounded_in: [ijc.gravity.episcopal-independence, ijc.story.vigil-in-basilica, ijc.term.imperator-intra-ecclesiam]
+      Ambrose set a limit on the alliance. In 386 the imperial
+      court wanted one of his churches for the Homoian confession it held.
+      It acted under a law of January 386 allowing Homoians to assemble for worship. The printed edition of Ambrose's letters dates the law a year earlier. Ambrose refused to give the church up. "I cannot give up the basilica, but I must not fight," he told his sister. Soldiers stood around the building, and Ambrose stayed inside with the people. Augustine, then in the city, remembered that they kept guard, ready to die with their bishop. He wrote that Milan then began to sing hymns and psalms in the Eastern way. Ambrose preached that the
+      emperor is within the Church, not above it. The court did not take
+      the building.
+    grounded_in: [ijc.story.vigil-in-basilica, ijc.quote.ambrose-cannot-surrender, ijc.quote.augustine-vigil-hymns, ijc.quote.ambrose-emperor-in-church, ijc.gravity.church-state-alliance]
   - text: >-
-      That same leverage was not always used to restrain power. Two years
-      earlier, in 388, a Christian mob burned a synagogue at Callinicum,
-      on the eastern frontier. The local bishop had urged them on. Monks
-      separately burned a meeting-house that belonged to a different
-      Christian group, the Valentinians. The emperor Theodosius ordered
-      the normal remedy. The bishop would pay to rebuild the synagogue.
-      The monks would be punished. Ambrose wrote to have that order
-      reversed. He did not deny the burning. He judged it intolerable for
-      a bishop to be made to fund a synagogue. When the order stood, he
-      refused the emperor the sacrament. Theodosius gave in and withdrew
-      it. The same tool this world elsewhere shows restraining a throne
-      here shielded the men who burned a Jewish community's synagogue. It
-      left that community no recourse. This world's own record does not
-      soften that.
+      In 388 Christians burned the synagogue at Callinicum, on the eastern
+      frontier. Theodosius ordered the local bishop to pay for a new one.
+      Ambrose would not offer the sacrament until the emperor promised to change the order. Theodosius gave in. Here Ambrose used his power to shield the people who set the fire.
     grounded_in: [ijc.story.callinicum-synagogue]
   - text: >-
-      Two years later, the same leverage was turned the other way. In
-      390, Theodosius's soldiers massacred the crowd at Thessalonica. It
-      is said seven thousand died. Ambrose wrote him a private letter. He
-      dared not offer the sacrifice with the emperor present, he said.
-      Theodosius had to do public penance before he could stand at the
-      altar again. A bishop with no soldiers had closed the altar to the
-      man who commanded them all. And the man submitted.
-    grounded_in: [ijc.story.emperor-penance]
+      In 390 a riot at Thessalonica killed one of the emperor's generals.
+      Theodosius ordered revenge, and his soldiers killed a crowd in the circus with no trial. Theodoret writes that seven thousand are said to have died. Ambrose sent the emperor a private letter. "I dare not offer the sacrifice if you intend to be present," he wrote. He asked
+      the emperor to repent before he stood at the altar again. Decades
+      later, Sozomen and Theodoret wrote that he did public penance.
+    grounded_in: [ijc.story.emperor-penance, ijc.quote.ambrose-dare-not-offer, ijc.figure.theodosius, ijc.gravity.episcopal-independence]
   - text: >-
-      On a different front, the bishops of Rome built a rival kind of
-      authority. This was not sacramental leverage. It was a legal claim:
-      the right to review any church's own judgment. In 341, a council in
-      the East deposed the bishop of Alexandria. It did not consult Rome
-      first. Julius, bishop of Rome, wrote back. He questioned the
-      council's right to decide the matter at all. Decades later, Damasus
-      built that same claim into stone. He paid for verses to be carved
-      at the martyrs' graves. Pilgrims could then read Rome's own memory
-      of its descent from the apostles, for themselves. His own election
-      to that see, in 366, turned violent. A hostile pagan witness records
-      a hundred and thirty-seven bodies, in one church, in one day.
-    grounded_in: [ijc.gravity.primacy-claiming, ijc.story.letter-that-outranked-a-council, ijc.figure.damasus]
-  - text: >-
-      Behind every one of these contests stood a drive to say the faith in
-      words exact enough to bind. At Nicaea in 325, the council chose the
-      word homoousios: "of one substance." That word is not in scripture.
-      The council chose it over a looser, more scriptural-sounding word,
-      because the looser word left the door open to error. Even a bishop
-      who signed the creed at Nicaea itself, Eusebius of Caesarea, wrote
-      home to explain his own hesitation over that word. The argument
-      over what it meant, and whether it was needed, ran on for the rest
-      of this world's span.
-    grounded_in: [ijc.gravity.precision-seeking, ijc.term.homoousios]
-  - text: >-
-      Two different grounds of authority ran through this whole world.
-      They never merged. One ground was sanctity and sacrament - a
-      bishop's own moral leverage. The other was office and legal
-      standing - a see's own rank. Ambrose used the first kind directly
-      against an emperor. Damasus did something different. He folded the
-      memory of dead martyrs into Rome's own claim to rank, using their
-      sanctity to argue for the living see's own standing. The tension
-      was never resolved. Different men only ever managed it, each in his
-      own way.
-    grounded_in: [ijc.gravity.sacramental-institutional-tension]
-  - text: >-
-      This world closes at Chalcedon in 451. Leo, bishop of Rome, did not
-      attend; his letter went in his place. When it was read to the
-      assembled bishops, the session record has them crying out that Peter
-      had spoken through Leo. But before the council dispersed, it also
-      granted Constantinople rank just after Rome - not because an apostle
-      had ever taught there, but because the emperor now reigned there.
-      Leo's own representatives objected on the spot. Leo himself, once
-      word reached him, refused to accept it. The council that had just
-      settled who Christ is left open the very question it had spent this
-      world's whole span arguing over: where, on earth, the church's own
-      final authority actually sits.
-    grounded_in: [ijc.story.tome-that-would-not-bend, ijc.force.leo-rejects-canon-28]
+      Leo of Rome did not go to the council at Chalcedon in 451. His legates
+      went in his place, and his letter, the Tome, was read. The session
+      record has the bishops crying out that Peter has spoken so through
+      Leo. Three weeks later the council passed Canon 28. It gave
+      Constantinople privileges equal to old Rome's, and rank just after
+      her. Earlier bishops, it said, had rightly given Rome privileges because it was the royal city. The new royal city, it said, should be
+      honored the same way. Leo's legates objected, and Leo refused the
+      canon. He wrote to the emperor that
+      things secular stand on a different basis from things divine. He said
+      Constantinople was a royal city and could never be an apostolic see.
+    grounded_in: [ijc.story.tome-that-would-not-bend, ijc.quote.peter-has-spoken, ijc.quote.canon28-equal-privileges, ijc.quote.leo-things-secular, ijc.force.leo-rejects-canon-28, ijc.term.tomus, ijc.quote.chalcedon-definition]
   documented_stories:
-  - story_id: ijc.story.callinicum-synagogue
-    title: "Ambrose Defends the Men Who Burned a Synagogue"
-    when: "388, on the eastern frontier"
-    teaser: "A Christian mob burns a Jewish community's synagogue. The same bishop who elsewhere makes an emperor kneel uses his leverage here to shield the arsonists from paying for it."
-    grounded_in: [ijc.story.callinicum-synagogue, ijc.figure.ambrose]
+  - story_id: ijc.story.dream-before-battle
+    title: "Constantine's Dream at the Milvian Bridge"
+    when: "312, before the battle at the Milvian Bridge"
+    teaser: "Lactantius writes that a dream told Constantine to mark Christ's sign on his soldiers' shields before the battle at the bridge."
+    grounded_in: [ijc.story.dream-before-battle, ijc.figure.constantine]
+  - story_id: ijc.story.vision-and-alliance
+    title: "Eusebius and the Cross of Light"
+    when: "312, the Milvian Bridge"
+    teaser: "Eusebius reports what Constantine told him long afterward. The emperor said he saw a cross of light in the sky, and his whole army saw it too. Within a year, toleration was law."
+    grounded_in: [ijc.story.vision-and-alliance, ijc.figure.constantine, ijc.figure.eusebius-caesarea]
+  - story_id: ijc.story.emperor-builds-another-basilica
+    title: "Constantine Builds a Second Church for Africa's Catholics"
+    when: "330, Africa"
+    teaser: "In a church quarrel in Africa, Constantine does not send troops. He leaves one side holding a basilica he had built, and pays for another church for the Catholics."
+    grounded_in: [ijc.story.emperor-builds-another-basilica, ijc.figure.constantine]
+  - story_id: ijc.story.letter-that-outranked-a-council
+    title: "Julius of Rome Writes to the East"
+    when: "341, a letter from Rome"
+    teaser: "A council in the East removes Athanasius. Julius, bishop of Rome, says the custom is to write to Rome first."
+    grounded_in: [ijc.story.letter-that-outranked-a-council, ijc.figure.julius]
   - story_id: ijc.story.altar-of-victory
     title: "The Altar of Victory: Rome's Old Religion Makes Its Case"
     when: "384, the Senate house at Rome"
-    teaser: "A pagan senator asks the state to fund the old rites again. The bishop of Milan answers him twice - and the establishment wins, with the loser's own eloquent plea preserved right beside it."
+    teaser: "Symmachus, prefect of Rome, asks the young emperor to bring back the Altar of Victory. Ambrose answers him twice in writing. The altar stays removed."
     grounded_in: [ijc.story.altar-of-victory, ijc.figure.ambrose]
+  - story_id: ijc.story.vigil-in-basilica
+    title: "A Milan Congregation Holds Its Church"
+    when: "386, Milan"
+    teaser: "Acting under a new law, the imperial court wants a church in Milan for its own confession. Ambrose refuses. The people stay inside with him and sing, and the court does not take it."
+    grounded_in: [ijc.story.vigil-in-basilica, ijc.figure.ambrose]
+  - story_id: ijc.story.callinicum-synagogue
+    title: "Ambrose Defends the Men Who Burned a Synagogue"
+    when: "388, on the eastern frontier"
+    teaser: "Christians burn a synagogue at Callinicum. The emperor orders the bishop to pay for a new one, but Ambrose gets the order changed."
+    grounded_in: [ijc.story.callinicum-synagogue, ijc.figure.ambrose]
+  - story_id: ijc.story.emperor-penance
+    title: "Thessalonica and the Emperor's Penance"
+    when: "390, Thessalonica and Milan"
+    teaser: "The emperor's soldiers kill a crowd. Ambrose writes that he dares not offer the sacrifice if the emperor is there. Later writers say the emperor did public penance."
+    grounded_in: [ijc.story.emperor-penance, ijc.figure.theodosius, ijc.figure.ambrose]
   - story_id: ijc.story.eutropius-at-the-altar
     title: "The Man Who Abolished Sanctuary Has to Use It"
     when: "399, Constantinople"
-    teaser: "A fallen chamberlain who stripped the church of its right of refuge runs to the altar himself. The bishop who shelters him preaches his ruin as a warning - and loses him to execution anyway."
+    teaser: "Eutropius, the emperor's chamberlain, has ended the church's right of refuge. When he falls, he runs to the altar himself. Bishop John shelters him and preaches on his ruin. Eutropius is later executed."
     grounded_in: [ijc.story.eutropius-at-the-altar]
+  - story_id: ijc.story.tome-that-would-not-bend
+    title: "The Tome Is Acclaimed and Canon 28 Is Refused"
+    when: "451, Chalcedon"
+    teaser: "At Chalcedon the bishops cry out that Peter has spoken through Leo's Tome. Weeks later the council ranks Constantinople next after Rome, and Leo refuses it."
+    grounded_in: [ijc.story.tome-that-would-not-bend, ijc.figure.leo]
   voices:
   - figure: ijc.figure.constantine
     text: >-
@@ -333,6 +286,163 @@ orientation:
     note: "The see of Rome's fullest surviving voice, closing in the Tome and the Canon 28 rejection - documents that assert the very authority they are offered as evidence for."
   - source: ijc.source.chalcedon-acts
     note: "This world's own closing scene in its own words: the Tome received, and the canon Rome's own legates refused on the spot, both preserved in the same conciliar record."
+  highlights:
+  - phrase: "Ambrose"
+    kind: person
+    note: "Bishop of Milan from 374 until his death in 397. A former provincial governor, he was chosen bishop by the people of Milan."
+    grounded_in: [ijc.figure.ambrose]
+  - phrase: "Constantine"
+    kind: person
+    note: "Emperor who won at the Milvian Bridge in 312. He called the council at Nicaea in 325. He was baptized as he lay dying, in 337."
+    grounded_in: [ijc.figure.constantine]
+  - phrase: "Eusebius"
+    kind: person
+    note: "Bishop of Caesarea and the emperor's historian. He wrote a life of Constantine after the emperor died. It praises its hero and leaves some things out."
+    grounded_in: [ijc.figure.eusebius-caesarea, ijc.figure.constantine]
+  - phrase: "Lactantius"
+    kind: person
+    note: "A Christian writer who taught at Constantine's court. His account of the dream is the earlier one."
+    grounded_in: [ijc.source.lactantius-de-mortibus, ijc.story.dream-before-battle]
+  - phrase: "the apostle Peter"
+    kind: person
+    note: "Rome held that what was given to Peter passed to each later bishop in his seat. Its standing was an inheritance."
+    grounded_in: [ijc.term.primatus]
+  - phrase: "Athanasius"
+    kind: person
+    note: "Bishop of Alexandria. A council in the East deposed him. Years later he quoted Julius's letter of 341 to defend himself."
+    grounded_in: [ijc.story.letter-that-outranked-a-council, ijc.source.athanasius-apologia-contra-arianos]
+  - phrase: "Julius"
+    kind: person
+    note: "Bishop of Rome from 337 to 352. His letter of 341 claimed Rome's right to review other churches' judgments."
+    grounded_in: [ijc.figure.julius]
+  - phrase: "Constantius II"
+    kind: person
+    note: "Constantine's son, and sole emperor from 353 to 361. Under him the imperial church said the Son is like the Father."
+    grounded_in: [ijc.figure.constantius]
+  - phrase: "Valens"
+    kind: person
+    note: "Emperor of the East from 364 to 378. Under him the Homoian creed ruled again, and bishops loyal to Nicaea went into exile once more."
+    grounded_in: [ijc.figure.valens]
+  - phrase: "Theodosius"
+    kind: person
+    note: "Emperor from 379 to 395. He made the Nicene faith the law of the empire. His soldiers killed a crowd at Thessalonica in 390."
+    grounded_in: [ijc.figure.theodosius]
+  - phrase: "Augustine"
+    kind: person
+    note: "A young professor in Milan in 386. He recalled the standoff in his Confessions."
+    grounded_in: [ijc.source.augustine-confessions, ijc.quote.augustine-vigil-hymns]
+  - phrase: "Theodoret"
+    kind: person
+    note: "A bishop whose church history covers 325 to 429. He tells the fullest story of the penance, written decades later."
+    grounded_in: [ijc.source.theodoret-he, ijc.figure.theodosius]
+  - phrase: "Sozomen"
+    kind: person
+    note: "A lawyer who wrote a church history. He tells of the penance decades after it."
+    grounded_in: [ijc.source.sozomen-he, ijc.story.emperor-penance]
+  - phrase: "Leo"
+    kind: person
+    note: "Bishop of Rome from 440 to 461. He wrote the Tome in 449. Leo did not attend Chalcedon."
+    grounded_in: [ijc.figure.leo, ijc.story.tome-that-would-not-bend]
+  - phrase: "Symmachus"
+    kind: person
+    note: "Prefect of Rome in 384 and a pagan senator."
+    grounded_in: [ijc.source.symmachus-memorial]
+  - phrase: "Eutropius"
+    kind: person
+    note: "Chamberlain to the emperor Arcadius. In 399 he became the first eunuch to be made consul."
+    grounded_in: [ijc.story.eutropius-at-the-altar]
+  - phrase: "John"
+    label: "John Chrysostom"
+    kind: person
+    note: "John Chrysostom, bishop of Constantinople from 398. He preached on Eutropius twice in 399, the first time with the man at the altar before him."
+    grounded_in: [ijc.source.chrysostom-eutropius, ijc.story.eutropius-at-the-altar]
+  - phrase: "Homoian"
+    kind: term
+    note: "From homoios, meaning like. The creed that the Son is like the Father, as the scriptures say. For years it was the empire's official faith."
+    grounded_in: [ijc.term.homoios]
+  - phrase: "Nicene faith"
+    kind: term
+    note: "The faith set out at the council of Nicaea. Its key word says the Son shares the Father's own being."
+    grounded_in: [ijc.term.homoousios, ijc.figure.constantine]
+  - phrase: "toleration"
+    kind: term
+    note: "A law that let Christians and all others follow the religion each thought best. Constantine and Licinius agreed it at Milan in 313."
+    grounded_in: [ijc.quote.milan-edict, ijc.force.constantine-alliance]
+  - phrase: "basilica"
+    kind: term
+    note: "A large hall-style church. Emperors began to fund such buildings, and in Milan in 386 one became the prize in a fight."
+    grounded_in: [ijc.term.basilica]
+  - phrase: "the sacrifice"
+    kind: term
+    note: "Here it means the Eucharist, which a bishop offers at the altar."
+    grounded_in: [ijc.quote.ambrose-dare-not-offer, ijc.story.emperor-penance]
+  - phrase: "legates"
+    kind: term
+    note: "Envoys who spoke for Leo at the council, since he stayed away."
+    grounded_in: [ijc.story.tome-that-would-not-bend]
+  - phrase: "Tome"
+    kind: term
+    note: "A letter that settles doctrine and carries the full weight of the church that sends it. Leo's reached Chalcedon without him."
+    grounded_in: [ijc.term.tomus]
+  - phrase: "Canon 28"
+    kind: term
+    note: "A rule passed at Chalcedon. It ranked the emperor's city next after Rome, since he reigned there. Leo refused it."
+    grounded_in: [ijc.quote.canon28-equal-privileges, ijc.force.leo-rejects-canon-28, ijc.term.presbeia]
+  - phrase: "apostolic see"
+    kind: term
+    note: "A see is a bishop's seat. Rome held Peter's seat. No apostle had founded Constantinople."
+    grounded_in: [ijc.term.primatus, ijc.term.presbeia]
+  - phrase: "altar of Victory"
+    kind: term
+    note: "An old altar in the Senate house at Rome. In 384 Symmachus asked the emperor to bring it back."
+    grounded_in: [ijc.story.altar-of-victory]
+  - phrase: "the new royal city"
+    label: "Constantinople"
+    kind: term
+    note: "In the canon this means Constantinople. It was called New Rome, since the emperor ruled from it."
+    grounded_in: [ijc.term.nea-rhome, ijc.quote.canon28-equal-privileges]
+  - phrase: "Constantinople"
+    kind: place
+    note: "Constantine founded this city in 330 as the capital of the East. Today it is Istanbul, in Turkey."
+    url: https://pleiades.stoa.org/places/520998
+    verified_on: "2026-10-17"
+    grounded_in: [ijc.figure.constantine]
+  - phrase: "Milan"
+    kind: place
+    note: "First a Celtic town, it later became a Western Roman capital. Today it is Milan, in Italy. Ambrose was its bishop."
+    url: https://pleiades.stoa.org/places/383706
+    verified_on: "2026-10-17"
+    grounded_in: [ijc.figure.ambrose]
+  - phrase: "Milvian Bridge"
+    kind: place
+    note: "A Roman bridge over the Tiber River, now called Ponte Milvio, in Italy. Constantine won a battle here in 312."
+    url: https://pleiades.stoa.org/places/423008
+    verified_on: "2026-10-17"
+    grounded_in: [ijc.figure.constantine]
+  - phrase: "Alexandria"
+    kind: place
+    note: "A port city in Egypt's Nile Delta. Athanasius was its bishop."
+    url: https://pleiades.stoa.org/places/727070
+    verified_on: "2026-10-17"
+    grounded_in: [ijc.story.letter-that-outranked-a-council]
+  - phrase: "Thessalonica"
+    kind: place
+    note: "A city in northern Greece, now Thessaloniki. In 390 a massacre took place here. Ambrose told the emperor to repent."
+    url: https://pleiades.stoa.org/places/491741
+    verified_on: "2026-10-17"
+    grounded_in: [ijc.story.emperor-penance]
+  - phrase: "Chalcedon"
+    kind: place
+    note: "The city where the council of 451 met. Its site is now Kadıköy, in Turkey."
+    url: https://pleiades.stoa.org/places/520988
+    verified_on: "2026-10-17"
+    grounded_in: [ijc.source.chalcedon-acts, ijc.figure.marcian]
+  - phrase: "Callinicum"
+    kind: place
+    note: "A town on the eastern frontier where a synagogue was burned in 388. It may be the same place as Nicephorium, now Raqqa in Syria."
+    url: https://pleiades.stoa.org/places/668318
+    verified_on: "2026-10-17"
+    grounded_in: [ijc.story.callinicum-synagogue]
 narrative:
   who_speaks:
     text: >-

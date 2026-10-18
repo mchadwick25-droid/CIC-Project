@@ -1,0 +1,29 @@
+source_file: gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt
+
+assignments:
+  - row_id: gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857--letters-and-poems-pg-37-greek
+    work: "Letters and Poems (Epistulae; Carmina), PG 37, Greek"
+    author: gregory-nazianzen
+    locus: "whole volume; Letter 101 to Cledonius at file line 13148; Letter 202 to Nectarius at file line 26163; the poem on his own life (De vita sua) at file line 85705; the poem on himself and the bishops at file line 97048"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: provisional
+    note: >
+      Primary original-language voice: the Greek of Gregory's letters and poems, including the
+      autobiographical poem that is the one inside-the-council account of Constantinople 381.
+      Second witness for quotation until checked against the page image: the Greek is legible,
+      the Latin column is garbled and the OCR confuses kappa and chi. No public-domain English
+      of the poems is held; the Cledonius letters are in English in npnf207.
+  - row_id: gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857--letters-and-poems-pg-37-greek-2
+    work: "Letters and Poems (Epistulae; Carmina), PG 37, Greek"
+    author: gregory-nazianzen
+    locus: "Letters 101 and 102 to Cledonius against Apollinarius (file line 13148 on); Letter 202 to Nectarius (file line 26163)"
+    atlas_ids:
+      - apollinarian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A contemporary opponent's account of Apollinarian teaching, in Greek. Context, not the
+      movement's own voice; the Apollinarian side's own words are in the Lietzmann file vendored
+      alongside this one.

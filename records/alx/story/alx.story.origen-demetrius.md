@@ -45,6 +45,7 @@ text: >-
   The church kept both memories: the office that had to be honored, and the
   teacher. What each man said, and with what
   heart, the record does not let us hear. What remains is the wound itself.
+telling: "For years the teacher and the bishop held together. Demetrius governed our church and Origen taught, and the fame of the school filled the city.\n\nNearly all we know of what came next comes from Eusebius. He admired Origen, and he was hostile to the memory of Demetrius.\n\nThe break came over authority. On a journey through Palestine, Origen was ordained a presbyter by the bishops there. His own bishop had not agreed to it. Demetrius condemned the ordination, and the teacher with it.\n\nAround his forty-sixth year, Origen left Alexandria for Caesarea. He never taught in the city again.\n\nThe church kept both memories, the office that had to be honored and the teacher. What each man said, and with what heart, we cannot hear. The synods' rulings from the break are lost."
 absent_detail: Nearly every particular reaches us through Eusebius's selection, and he is an interested
   narrator (an admirer of Origen, hostile to Demetrius's memory). The inner motives of both men are unrecoverable;
   this telling deliberately refuses them. The synodal documents are lost.

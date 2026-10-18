@@ -193,6 +193,7 @@ p{margin:0 0 1rem}
 .feature-btn[aria-current="page"]{border-color:var(--action)}
 @media (max-width:640px){.feature-bar{gap:.5rem}.feature-btn{font-size:.8rem;padding:.45rem .9rem}}
 </style>
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -205,6 +206,7 @@ p{margin:0 0 1rem}
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html" aria-current="page">Build a Table</a>
     </nav>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -260,7 +262,7 @@ p{margin:0 0 1rem}
 
       <p class="ai-line">Each voice you seat is a representative voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out.</p>
       <p class="count" id="convene-count" aria-live="polite">0 of 3 seats filled.</p>
-      <noscript><p class="noscript-note">Choosing seats here needs JavaScript. You can still <a href="https://cic-engine.onrender.com/?mode=table">open an empty table and choose there →</a></p></noscript>
+      <noscript><p class="noscript-note">Choosing seats here needs JavaScript. You can still <a href="https://app.churchinconversation.com/?mode=table">open an empty table and choose there →</a></p></noscript>
     </section>
 
     <div class="launch-action">
@@ -288,10 +290,9 @@ p{margin:0 0 1rem}
 
 <footer class="site-footer">
   <div class="row">
-    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <span>&copy; 2026 Church in Conversation, part of Faithways Studio, Inc. Creating safe spaces to explore faith and the story of Jesus.</span>
     <nav aria-label="Footer">
       <a href="about.html">About</a>
-      <a href="pilot-feedback.html">Feedback</a>
       <a href="privacy.html">Privacy</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
@@ -508,5 +509,6 @@ if (menu && menuToggle) {
 }
 })();
 </script>
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

@@ -22,8 +22,9 @@ tokens:
     - {price_usd: 15, tokens: 2750}
     - {price_usd: 30, tokens: 6600}
 door:
-  observe: true
-  base_weekly_usd: 150
+  observe: false
+  base_weekly_usd: 75
+  daily_share: 0.333
   gift_share: 0.8
   purchase_share: 0.5
   invoice_factor: 1.35
@@ -39,25 +40,34 @@ paid:
 admin:
   mint_max_tokens_per_request: 6600
   mint_max_tokens_per_day: 13200
+tester:
+  default_tokens: 20000
+  max_tokens: 20000
+  default_days: 30
+  max_days: 90
+  max_per_day: 2
 pilot:
   pack_usd: 7
   pilot_end_date: 2026-12-31
   audiences:
     general:
-      pilot_open: false
-      pilot_cap: 50
-      per_address: 2
+      pilot_open: true
+      pilot_cap: 100
+      per_address: 1
       public: true
+      questionnaire_url: https://tally.so/r/68Xe1e
     pastors:
       pilot_open: false
       pilot_cap: 25
       per_address: 2
       public: false
+      questionnaire_url: null
     historians:
       pilot_open: false
       pilot_cap: 25
       per_address: 2
       public: false
+      questionnaire_url: null
 words:
   limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
   notes:

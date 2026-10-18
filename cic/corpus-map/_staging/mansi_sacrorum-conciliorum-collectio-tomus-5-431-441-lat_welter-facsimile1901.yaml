@@ -1,0 +1,45 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt
+authors_ruled:
+  antiochene-counter-council-ephesus-431:
+    kind: anonymous
+    evidence: Mansi tom. 5 prints the acts of the Antiochene bishops' rival assembly at Ephesus under
+      the heading "CONCILIABULUM EPHESINUM" (file line 46711; index 325); a council text, no single author.
+  synodicon-adversus-tragoediam-irenaei:
+    kind: anonymous
+    evidence: Mansi tom. 5 prints the Latin dossier "SYNODICON ADVERSUS TRAGOEDIAM IRENAEI" (heading at
+      file line 72980; its manuscript source noted at 73060); a sixth-century anonymous compilation built
+      around Irenaeus of Tyre's lost Tragoedia, no single author.
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901--conciliabulum-ephesinum
+  work: Acts of the Antiochene counter-council at Ephesus (Conciliabulum Ephesinum, 431), in Mansi tom.
+    5
+  author: antiochene-counter-council-ephesus-431
+  locus: file line 46711 (index at 325); the letters of John of Antioch from 28921
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Ephesus 431). The Eastern bishops'' own synodal acts and letters against
+    Cyril and Memnon, in Latin and Greek: the dissenting side''s primary documents. Long s rendered as
+    f in the OCR.'
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901--synodicon-adversus-tragoediam-irenaei
+  work: Synodicon adversus tragoediam Irenaei, in Mansi tom. 5
+  author: synodicon-adversus-tragoediam-irenaei
+  locus: file line 72980 (index 360)
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: tradition
+  confidence: provisional
+  note: The Latin collection of the Antiochene party's correspondence of 431-435 (Theodoret, John of Antioch,
+    Alexander of Hierapolis, Irenaeus), the fullest record of the dissent and the reunion from the dissenters'
+    own letters. Antiochene voice in a later Latin compilation.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901--synodicon-imperial-juridical
+  work: Synodicon adversus tragoediam Irenaei and the 431-441 documents, in Mansi tom. 5
+  author: synodicon-adversus-tragoediam-irenaei
+  locus: whole volume (431-441, span at file line 85); the Synodicon from 72980
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: provisional
+  note: 'How the court, the counts and the bishops handled a divided council and its aftermath, in the
+    documents: ijc''s own question, here largely in the losing party''s papers. Context.'

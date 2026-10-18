@@ -1912,6 +1912,99 @@ Status: CLOSED for the five fields. The words named above stay open for the proj
 
 The 13 October eleven-world live test ended don Q6 ("What would you want me to understand?") with "So yes, you could come back to us.", lifted from `don.dw.becoming-one-of-us`, where it answered a question about wrongdoers that the participant had not asked. The witness now reads "So a wrongdoer could come back to us. It depended on who the wrongdoer was, and no rule of ours survives that explains the difference." Same facts and the same hedge; only the address to the participant is gone. `engine.m10.cli records don` and `regate don` pass. Package rebuilt and repinned: `packages/don/2026-10-14T00-42-54Z`, `manifest_hash` `sha256:355603939df97557fb54b804d5dd477ab5e508d9ec2bddc9a165ee28238b56f9`; the site JSON was recompiled. This pin supersedes the one in OG-36. Decision Log: "2026-10-14 - Eleven-world fix slice". Status: CLOSED.
 
-### OG-38. Gloss-card text in the world's we-voice, 2026-10-15.
+### OG-38. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `don.dw.forgiving-a-man-and-trusting-a-hand` `text`: "We just never wrote down when." now reads "We just never wrote down when to stop pressing it."
+- `don.term.reception-without-reordination` `senses.translational`: "It does not preserve anyone explaining why." now reads "It does not preserve anyone explaining why the rule was set aside."
+
+`engine.m10.cli records don` and `regate don --base origin/main` pass. `senses.translational` is shown on the term's gloss card; it is not in the spoken-field registry, so the gate does not read it, and it was fixed by hand. Package rebuilt and repinned: `packages/don/2026-10-14T20-19-16Z`, `manifest_hash` `sha256:a3af4244d529d8499ed897e10fd9c6b455f4b1490e73092850e992992d4f9e8a`. Status: CLOSED.
+
+### OG-39. Atlas story pass: shorter story, nine card stories with tellings, highlights, 2026-10-16.
+
+The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card, and approved the Donatist text. `orientation.story` is now 9 units and 672 words, down from 13 units and 1,888 words. `documented_stories` shows nine stories in date order. Each story record gained a `telling`, which the card shows and plays. `orientation.highlights` adds 28 short notes. Review: `Build/Ministry/Operations/Audits/don_atlas_story_pass_review_round1_2026-10-16.md` (PASS). Package rebuilt and repinned: `packages/don/2026-10-16T23-27-51Z`, `manifest_hash` `sha256:4b874dfe221490205f72ae2f992c8147ee32e0e5117ffdbf2ffd9a396c052272`. The site JSON was recompiled. This pin supersedes the one in OG-38.
+
+**Open:**
+- Modern locations for the place highlights now cite Pleiades (checked 2026-10-17): Carthage, Numidia, Cirta, Aptungi, Bagai, Cebarsussi (unlocated), Novapetra (a probable identification) and Vegesela. Closed.
+- The card's recordings of the main story and of the nine tellings are not yet made.
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+### OG-40. Other world_front sections keep AI tells and "this world" wording, 2026-10-16.
+
+The Atlas story pass touched only the story, the card stories and highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" and dash asides. Several of them also fail the readability gate at the base, as `regate don` reports.
+
+Status: OPEN for the project lead to schedule.
+
+### OG-41. Notes moved out of the story and world-front bodies, Atlas story fixes, 2026-10-17.
+
+The Atlas story fixes (branch `site/atlas-story-don-fixes`) deleted the build-commentary bodies of `don.front.donatism` and of nine story records under the live-surface rule. The text stays in git history at commit 8afababd9. Three notes from those bodies are still needed and are kept here.
+
+1. **Latin behind the 411 renderings.** OG-33 ("Record wording pass: problems found and not fixed, 2026-10-13") points to "the Latin phrases listed in the body note" of `don.story.conference-of-carthage-411`. That body note no longer exists. This list replaces it. The English renderings in the record's `text` were read against these phrases in `cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt`:
+   - "Tibi enim, judicum verissime, nihil aliud incumbit quam tenere veritatem"
+   - "judica, vir sublimis, in negotio Christiano: quia huic causae judicat Deus"
+   - "magno argumento veritas occultatur"
+   - "A personis incipit omnis causa"
+   - "Accusatoris loco stare voluisti"
+   - "Mandavi et subscripsi"
+   - "Traditores vero in plebe mea et omni dioecesi mea non habeo"
+   - "Ipse sibi obstrepit, dum longa prosequitur"
+   - "Emeritus episcopus salva appellatione recognovi"
+
+   The loci named in the record's `sources` are the editor's summary, Marcellinus's edicts, the roll-call and subscription tally, acts 144-145 (the chairs) and acts 265-271 (wheat and tares). The body note gave two line numbers. Line 73364 (cited as 73363 elsewhere in the don records; off by one in the current file) holds the editor's 279/286 count. Lines 124975-125010 hold the acts' own roll-call tally of 266 subscribed, with 20 more present. None of the renderings is a certified translation, and the OCR caution in the record's `divergence_note` governs all of them. The re-verification gap that OG-33 records is still open.
+2. **Why `don.quote.the-shores-are-covered` is not in `pull_quotes`.** The record's own `modern_lens_note` says the shipwreck image describes no real event, and a reader who takes it as a report of violence will misread it. A pull quote shows only `modern_rendering`, with no room for that note. So the world front keeps the quote out of `pull_quotes`. A later pass should not add it back without a way to carry the note.
+3. **Homonyms that only the deleted story bodies named.**
+   - There are three Felixes in the founding stories: Felix of Aptungi (the consecrator), the deacon Felix who hid in Mensurius's house (`don.story.lucilla-affair`), and Felix of Rotarium, one of the three unaccused bishops at Cirta.
+   - In `don.story.acta-purgationis-felicis`, Alfius Caecilianus, a witness, is not Caecilian of Carthage.
+
+   Core caution 7 and the figure records carry the other homonyms (Maximian and Maximianus, the two Optatuses and the two Marcellini).
+
+The same branch also rewrote every `world_front` section that OG-40 names. OG-40 closes when that branch merges.
+
+Status: OPEN for item 1 (the re-verification in OG-33). Items 2 and 3 are kept here for reference.
+
+### OG-42. Atlas story pass: independent review failed the live text; fixed over three rounds, 2026-10-17.
+
+The project lead asked for an Opus review of the rigor and craft of this pass after it went live. Round 1 failed the live text with 14 blocking findings. Among them:
+- "Nicene faith", which no record supports and which predates Nicaea;
+- "or die";
+- 347 called the second persecution, when 317 came before it;
+- the name the Donatists "never chose";
+- Marculus's vision stated as fact;
+- "traitors" for traditores, which the term record's not_for bars.
+
+The round files, the fixer's report and the cap ruling are named in "Cap ruling: don Atlas story pass" (System Hub Decision Log, 2026-10-17). OG-39's review record called the pass a PASS. That was the author's own check, and it was wrong.
+
+**What changed beyond the story:** the same false claims were corrected in the tile, the voices and hedges, the legacy, floor_note, relations_summary, sourcing, read_first and who_speaks. The build-commentary bodies of the front file and the nine story records were deleted. Each telling now ends on its last real event, following the project lead's ruling to "remove all the add on tails that dont say anything".
+
+**Record defects, logged and not edited:**
+- `don.story.passio-marculi` contradicts itself on the length of the fast.
+- The 411 story `text` and `don.figure.emeritus` disagree on how often Emeritus reserved his appeal.
+- `don.story.tyconius-condemnation` `modern_contrast` says "we cut off", against its own divergence_note.
+- Three records state the 279/286 bishop count as settled, while the Conference story holds it open.
+- `don.core.donatism` calls 347 the second persecution.
+- The Cirta story `divergence_note` says the story comes only through Optatus, against the Augustine evidence.
+
+Status: OPEN for the record-level defects. CLOSED for the participant-facing text of this pass.
+
+### OG-43. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the story is 696 words, under its cap; the setup-and-reveal question is gone; the Passio Marculi teaser is shorter; the Cebarsussi note no longer names a province no record carries; the Maximianists, Petilian and ten other notes trimmed.
+
+Status: CLOSED for this review.
+
+### OG-44. Unclear honest-limit endings, 2026-10-17.
+
+Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put the object first and ended on a bare verb, so the ending did not say what is unknown. Each now puts the subject first and ends on what is not known. Wording and facts are the records' own; nothing was added.
+
+- `records/don/doctrinal_witness/don.dw.the-creed-we-shared.md`: "Whether he died to take our punishment, in our place, for our sins, nobody among us wrote down, for or against." -> "Nobody among us wrote down, for or against, whether he died to take our punishment, in our place, for our sins."
+
+Status: CLOSED for this review.
+
+### OG-45. Gloss-card text in the world's we-voice, 2026-10-15.
 
 On 15 October the project lead ruled that a term's gloss card speaks from outside the world, like every card that describes it; only the Representative's own speech says "we" (System Hub Decision Log, "2026-10-15 - The gloss card speaks from outside the world"). The card shows `senses.translational` and each `false_friend` line. Two `senses.translational` lines speak as "we": `don.term.liber-regularum` ("one book of interpretation that we can show") and `don.term.reception-without-reordination` ("set aside once for our own"). The second also ends "It does not preserve anyone explaining why.", which talks about the record instead of the world; whether a check should catch that sentence is a separate, open question. These lines stay as written. The project lead ruled the same day that nothing already voiced is changed in bulk, and that only a line that is significantly a problem is rewritten. A card in the we-voice is not, by itself, such a problem. A modern question in quotation marks ("Is that what we call transubstantiation?") is right as written. No gate checks the card's voice. Status: OPEN, held as written.

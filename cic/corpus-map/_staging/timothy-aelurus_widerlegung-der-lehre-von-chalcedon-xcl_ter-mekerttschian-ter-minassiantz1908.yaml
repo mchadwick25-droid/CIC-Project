@@ -1,0 +1,39 @@
+source_file: timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908.txt
+assignments:
+- row_id: timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908--timothy-aelurus-refutation-miaphysite
+  work: Timothy Aelurus, Refutation of the doctrine defined at Chalcedon (and of Leo's Tome), Classical
+    Armenian text (Ter-Mekerttschian and Ter-Minassiantz, 1908)
+  author: timothy-aelurus
+  locus: whole file; Chalcedon named from file line 207; the sections against Leo in the table of contents
+    at 1686-1687
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Chalcedon 451). The anti-Chalcedonian patriarch of Alexandria''s own
+    refutation of the council and the Tome, written in exile in the 460s: the dissenting side of Chalcedon
+    in its own words, the non-Chalcedonian Egyptian tradition''s first great theological statement. Primary
+    original-language voice, in the Armenian translation that alone preserves it; verify against the page
+    image before quoting. DELIBERATELY NOT the existing slug timothy_alexandria, which is Timothy I of
+    Alexandria (d. 385), author of the Canonical Answers.'
+- row_id: timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908--timothy-aelurus-refutation-armenian
+  work: Timothy Aelurus, Refutation of Chalcedon, Armenian text (1908)
+  author: timothy-aelurus
+  locus: whole file
+  atlas_ids:
+  - armenian-christianity-after-avarayr
+  role: transmission
+  confidence: provisional
+  note: 'Custody, and more: the Greek is lost and the work survives only in the Armenian translation made
+    and kept by a church that rejected Chalcedon on the same grounds. Recorded as transmission (the voice
+    is Alexandrian, assigned above); whether the Armenian entry should also hold it as tradition, as a
+    text it adopted, is a call for that entry''s builder.'
+- row_id: timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908--timothy-aelurus-refutation-imperial-juridical
+  work: Timothy Aelurus, Refutation of Chalcedon, Armenian text (1908)
+  author: timothy-aelurus
+  locus: whole file
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: provisional
+  note: The council that closes ijc's era refuted by its chief contemporary opponent. Context.

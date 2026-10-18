@@ -29,7 +29,7 @@ has its own set of documents.
 | `download-queue-seed.yaml` | The hand-maintained half of the queue above — real verified urls and rights bases, append-only. Edit this, not `DOWNLOAD-QUEUE.md` directly. |
 | `discovery_helper.py` | Candidate finder for the queue above — takes an author/title want, queries Internet Archive / Google Books / Open Library live and Hathifiles / Gutenberg from a local offline dump, prints a paste-ready (unverified) stub for `download-queue-seed.yaml`. Never downloads a text; never writes the seed file itself. Run on Mark's machine or a research thread with real network — build threads never run it. |
 | `CORPUS-PARTITION-BRIEF.md` | **Superseded** by `BRIEF-corpus-assignment-thread.md`. Kept for its reasoning, not as instructions — it predates the decision that the map lives outside the built worlds, and the `corpus_review` record type it describes no longer exists. |
-| `PLAN-texts-store-scaling.md` | git-lfs vs. a separate `cic-texts` repository vs. doing nothing, for when `cic/texts/` outgrows plain git — the reasoning, the trigger (1 GB), and what has to change first. Hand-written, planning only, nothing executed yet. |
+| `PLAN-texts-store-scaling.md` | git-lfs vs. a separate `cic-texts` repository vs. doing nothing, for when `cic/texts/` outgrows plain git — the reasoning, the trigger (4 GB), and what has to change first. Hand-written, planning only, nothing executed yet. |
 
 ## The source readiness gate
 

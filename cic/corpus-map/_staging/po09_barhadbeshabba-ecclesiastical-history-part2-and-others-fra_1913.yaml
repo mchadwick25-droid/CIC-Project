@@ -1,0 +1,41 @@
+source_file: po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt
+authors_ruled:
+  barhadbeshabba-arbaya:
+    kind: metadata-omission
+    evidence: Series volume, plain text; fascicle V's title page names "Barhadbesabba 'Arbaia" as author
+      of the Ecclesiastical History (file lines 243 and 31511), with Nau as editor and translator.
+assignments:
+- row_id: po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913--barhadbeshabba-church-of-the-east
+  work: Barhadbeshabba 'Arbaya, Ecclesiastical History, part 2 (Diodore, Theodore, Nestorius, Ephesus
+    431), French with Syriac (Nau, PO 9.5, 1913)
+  author: barhadbeshabba-arbaya
+  locus: fascicle V from file line 31511; chapters XX-XXX listed at 31905-31964
+  atlas_ids:
+  - the-church-of-the-east-under-persia
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Ephesus 431). The Church of the East''s own account, written about
+    600, of "the pious Mar Nestorius" and "the impious Cyril" and of what was done at Ephesus: reception
+    from the losing side, a century and a half after the event, and the source of the Syriac Nestorius
+    legend. French recovered; Syriac not recovered in this OCR. The other four fascicles of the volume
+    (Esther, Acta Pilati, Testament in Galilee, Ethiopian Synaxarium) are not assigned.'
+- row_id: po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913--barhadbeshabba-cyrilline
+  work: Barhadbeshabba 'Arbaya, Ecclesiastical History, part 2 (PO 9.5)
+  author: barhadbeshabba-arbaya
+  locus: fascicle V from file line 31511
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: context
+  confidence: provisional
+  note: 'A hostile later account of Cyril and of Alexandria''s part at Ephesus: the view from the Church
+    of the East. Context.'
+- row_id: po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913--barhadbeshabba-antiochene
+  work: Barhadbeshabba 'Arbaya, Ecclesiastical History, part 2 (PO 9.5)
+  author: barhadbeshabba-arbaya
+  locus: fascicle V from file line 31511; chapters on Diodore and Theodore from 31865
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: context
+  confidence: provisional
+  note: 'How the Antiochene school''s heirs in Persia remembered Diodore, Theodore and Nestorius: a later
+    tradition''s memory of this entry, not the entry''s own voice. Context.'

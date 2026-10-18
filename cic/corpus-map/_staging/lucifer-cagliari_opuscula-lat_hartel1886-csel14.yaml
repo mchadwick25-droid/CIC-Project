@@ -1,0 +1,55 @@
+source_file: lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt
+
+authors_ruled:
+  lucifer-of-cagliari:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML markup
+      only) has not seen the author. Lucifer, bishop of Cagliari (d. c. 370), is a real,
+      well-attested author; the title page names him and the edition (file lines 36-56:
+      'Luciferi Calaritani Opuscula, recensuit ... Guilelmus Hartel, Vindobonae
+      MDCCCLXXXVI'), and Jerome's De viris illustribus and Dialogue against the Luciferians
+      (held in npnf203 and npnf206) attest him and these works.
+
+assignments:
+  - row_id: lucifer-cagliari_opuscula-lat_hartel1886-csel14--opuscula-de-sancto-athanasio-de-non-conveniendo-moriendum-esse-latin
+    work: "Opuscula: De non conveniendo cum haereticis; De regibus apostaticis; De sancto Athanasio I-II; De non parcendo in Deum delinquentibus; Moriendum esse pro Dei Filio (CSEL 14), Latin"
+    author: lucifer-of-cagliari
+    locus: "De non conveniendo at file line 2628; De regibus apostaticis at 4039; De sancto Athanasio I at 5463 and II at 9342; De non parcendo at 12300; Moriendum esse at 15818; Liberius's letters to Lucifer at 17490"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Pamphlets written in exile (355-361) against Constantius II after the synod of Milan
+      condemned Athanasius unheard: a contemporary opponent's answer to the imperial-church
+      settlement, in the Latin original. Context for ijc (the view from outside its
+      establishment), not its voice. Cleanly recovered; ready to quote once verified
+      against the scan. No public-domain English exists.
+  - row_id: lucifer-cagliari_opuscula-lat_hartel1886-csel14--de-sancto-athanasio-i-ii-latin
+    work: "De sancto Athanasio I-II (Quia absentem nemo debet iudicare nec damnare), Latin"
+    author: lucifer-of-cagliari
+    locus: "file lines 5463-12299"
+    atlas_ids:
+      - alexandria-catechetical
+    role: context
+    confidence: provisional
+    note: >
+      A Western bishop's defence of Athanasius against the judgments of Tyre (335) and
+      Milan (355): a contemporary ally's view of the Alexandrian bishop's trials from
+      outside Egypt. Context, not Alexandria's own voice.
+  - row_id: lucifer-cagliari_opuscula-lat_hartel1886-csel14--opuscula-and-the-gallic-exiles-latin
+    work: "Opuscula (CSEL 14), Latin, with the letters of Liberius to Lucifer"
+    author: lucifer-of-cagliari
+    locus: "whole file"
+    atlas_ids:
+      - gallic-nicene-episcopate
+    role: context
+    confidence: provisional
+    note: >
+      Lucifer was Sardinian, not Gallic, but he stood with Hilary, Eusebius of Vercelli
+      and Dionysius of Milan in the exiles of 355-360 and the Gallic census entry's own text
+      names him; his later refusal to receive the bishops who had signed at Ariminum is the
+      schism Jerome's Dialogue (held) answers. A fellow traveller's voice, so context.
+      NEEDS A CHECK by the corpus-assignment thread: whether a Luciferian or Sardinian
+      entry exists in the census that should hold this as tradition.

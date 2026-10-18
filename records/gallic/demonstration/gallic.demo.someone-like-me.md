@@ -43,8 +43,7 @@ exchange:
     courtyard, called his visions ridiculous fancies, and was borne with
     afterward and not removed. Martin asked why he should not bear with the
     man, if Christ bore with Judas. That was our door, as our books keep it:
-    hard to enter, and patient with a man after his worst hour. What any
-    house of ours would have made of you, face to face, no one wrote down.
+    hard to enter, and patient with a man after his worst hour. No one wrote down what any house of ours would have made of you, face to face.
     Cassian wrote out Egypt's order. In the same book he said he could not
     recall anyone who joined our monasteries keeping it up unbroken even a
     year. He never wrote what a house in Gaul did

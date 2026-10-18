@@ -29,3 +29,11 @@ rule that a PR editing a live file also removes its commentary: the
 passage was verified verbatim against the vendored
 npnf208_basil-letters-select-works.xml on 2026-09-02, and its
 `modern_rendering` was first authored the same day.
+
+### 2026-10-18 — Record-note history moved from the world_core record body
+
+Moved here from the body of `records/cappadocian/world_core/cappadocian.core.cappadocian.md` under the standing rule that a PR editing a live file also removes its commentary. The record itself now ends at its front matter. Text as it stood, verbatim:
+
+> No Representative content appears in this record (Doc_01 constraint honored).
+>
+> world_id is cappadocian-trinitarian, and this record's own id is cappadocian.core.cappadocian (matching desert.core.desert's own precedent for a world whose code and its world_core slug are the same word). display_name is "Cappadocian Christianity," matching the fleet's own dominant "[X] Christianity" convention (Alexandrian, Hieronymian Ascetic-Literary, Imperial and Juridical, Post-Apostolic House-Church) - the temporal/geographic bounding Doc_01's own Label Test worked out (c. 325-394; Cappadocia, Pontus, and Armenia Minor, not the wider pro-Nicene movement and not the Byzantine-era province) lives in this record's own time_window/horizon/geographic fields and the registry's doorway copy, exactly as it does for every sibling world - none of them fold a date range into their own display name either.

@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: "Documented for the core (imperial pressure on Caesarea in 371-372, Modestus's mission, the province's ecclesiastical stakes, Basil's continuation in office), which converges with this world's independently documented policy arc rather than resting on Oration 43 alone. Contested/encomium-flagged for the celebrated dialogue and the Epiphany scene's own texture, which come entirely from Gregory's public telling at Basil's funeral - within living memory of eyewitnesses, but genre-shaped and not verifiable as stenography."
+  divergence_note: "Documented for the core (imperial pressure on Caesarea in 371-372, Modestus's mission, the province's ecclesiastical stakes, Basil's continuation in office), which converges with this world's independently documented policy arc rather than resting on Oration 43 alone. Contested/encomium-flagged for the celebrated dialogue and the Epiphany scene's own texture, which come entirely from Gregory's telling in his funeral speech for Basil - within living memory of eyewitnesses, but genre-shaped and not verifiable as stenography."
 sources:
 - source_id: cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil
   locus: "the Modestus confrontation and the Epiphany liturgy scene"
@@ -37,7 +37,7 @@ relations:
 - type: associated-with
   target: cappadocian.figure.modestus
 narrative_tier: 1
-narrative_tier_justification: "Tier 1 for both halves of this entry, as Doc_09's own current text states - not a separate '1-as-encomium' tier (a non-canonical label Doc_09's own light-fix pass corrected, moving the genre caution to the Confidence column instead; this project's rule is Tiers 1-4 only). The core - the provincial pressure, Modestus's mission, the Epiphany visitation, Basil's continuation in office - converges with this world's independently documented policy arc; it does not rest on Gregory's telling alone. The celebrated dialogue is Gregory's own public telling, delivered within living memory of eyewitnesses at Basil's funeral, and is genre-shaped (encomium) - not verifiable as court stenography, and not claimed as such here."
+narrative_tier_justification: "Tier 1 for both halves of this entry, as Doc_09's own current text states - not a separate '1-as-encomium' tier (a non-canonical label Doc_09's own light-fix pass corrected, moving the genre caution to the Confidence column instead; this project's rule is Tiers 1-4 only). The core - the provincial pressure, Modestus's mission, the Epiphany visitation, Basil's continuation in office - converges with this world's independently documented policy arc; it does not rest on Gregory's telling alone. The celebrated dialogue is Gregory's own public telling, delivered in his funeral speech for Basil, years later, within living memory of eyewitnesses, and is genre-shaped (encomium) - not verifiable as court stenography, and not claimed as such here."
 tellable_as: >-
   A hostile prefect threatens a bishop, who answers that he owns nothing
   left to lose. The emperor comes to the Epiphany liturgy and is shaken.
@@ -61,7 +61,8 @@ text: >-
   shaken by what he saw. Gregory of Nazianzus's funeral speech says a decree
   of exile was later signed and never carried out, because the emperor's son
   fell ill. Basil was not removed.
-absent_detail: "No account of the confrontation or the visitation survives from Modestus's or Valens's own side; both scenes come entirely through Gregory's public telling, delivered at Basil's funeral to an audience that included people who had been present."
+telling: "As Gregory of Nazianzus told it in his funeral speech for Basil, Modestus threatened the bishop with confiscation, exile, torture and death. Modestus was the praetorian prefect of the emperor Valens, and the emperor had sent him to bring Basil of Caesarea into line.\n\nThis was in 371 and 372. Valens backed a different creed from Basil's. In those same years he split Cappadocia into two provinces, with real consequences for the churches. The prefect came ahead of the emperor's own visit.\n\nBasil replied, the story goes, that a man who owns nothing has nothing to confiscate. No place is exile, he said, to one who counts the whole earth as God's. A man already given over to God in this life has nothing left that death can take.\n\nThe prefect, astonished, is said to have reported that no one had ever spoken to him that way. Basil is remembered replying that perhaps the prefect had never yet met a bishop.\n\nThe next Epiphany, Valens came to Caesarea himself. Gregory says he found the church crowded to its doors for the feast. The singing filled the whole building like the sea, and Basil presided in full order, unafraid. The emperor was shaken by what he saw, Gregory says.\n\nAccording to Gregory, a decree of exile was later signed. It was never carried out, he says, because the emperor's son fell ill. Basil was not removed."
+absent_detail: "No account of the confrontation or the visitation survives from Modestus's or Valens's own side; both scenes come entirely through Gregory's public telling, given in his funeral speech for Basil, years later, to an audience that included people who had been present."
 modern_contrast: >-
   A modern reader might expect a confrontation this famous to rest on a
   court transcript. This world's own record is a friend's funeral oration,

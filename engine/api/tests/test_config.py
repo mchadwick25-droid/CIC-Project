@@ -70,3 +70,11 @@ def test_streaming_truthy_values_turn_it_on(monkeypatch, value):
 def test_streaming_any_other_value_leaves_it_off(monkeypatch, value):
     _env(monkeypatch, CIC_API_STREAMING=value)
     assert Settings.from_env().streaming_enabled is False
+
+
+def test_normalize_environ_strips_stray_whitespace_from_the_services_own_settings():
+    from engine.api.config import normalize_environ
+
+    env = {"CIC_API_BACKUP_BUCKET_ACCESS_KEY_ID": "abc\n", "AWS_REGION": " us-east-1 ", "PATH": " /bin ", "CIC_API_REGION": "us-east-1"}
+    assert sorted(normalize_environ(env)) == ["AWS_REGION", "CIC_API_BACKUP_BUCKET_ACCESS_KEY_ID"]
+    assert env == {"CIC_API_BACKUP_BUCKET_ACCESS_KEY_ID": "abc", "AWS_REGION": "us-east-1", "PATH": " /bin ", "CIC_API_REGION": "us-east-1"}

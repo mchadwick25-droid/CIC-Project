@@ -31,7 +31,34 @@ def test_health(store, usage_store, world_loader, registry):
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
     resp = http.get("/health")
     assert resp.status_code == 200
-    assert resp.json() == {"status": "ok"}
+    assert resp.json() == {"status": "ok", "commit": "unknown", "backup": None, "disk_used_percent": None}
+
+
+def test_health_names_the_commit_and_the_last_backup(store, usage_store, world_loader, registry, tmp_path):
+    (tmp_path / "last_run.json").write_text(
+        '{"run_at": "2026-10-15T04:41:00+00:00", "results": {"events": {"outcome": "ok", "object_key": "k"}}}'
+    )
+    http = _client(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        build_commit="abc123", backup_staging_dir=tmp_path, data_dir=tmp_path,
+    )
+    resp = http.get("/health")
+    assert resp.status_code == 200
+    body = resp.json()
+    disk = body.pop("disk_used_percent")
+    assert body == {
+        "status": "ok", "commit": "abc123", "backup": {"uploaded": True, "last_run_at": "2026-10-15T04:41:00+00:00"},
+    }
+    assert isinstance(disk, int) and 0 <= disk <= 100
+
+
+def test_health_stays_ok_when_the_backup_did_not_upload(store, usage_store, world_loader, registry, tmp_path):
+    http = _client(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, backup_staging_dir=tmp_path,
+    )
+    resp = http.get("/health")
+    assert resp.status_code == 200
+    assert resp.json()["backup"] == {"uploaded": False, "last_run_at": None}
 
 
 def test_list_worlds(store, usage_store, world_loader, registry):

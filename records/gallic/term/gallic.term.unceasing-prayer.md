@@ -114,8 +114,7 @@ senses:
     hurried prostration "in this country," the loud Gloria "we have never heard anywhere throughout
     the East," the morning office "in the monasteries of Gaul," and some "in this province" going back
     to bed. Gennadius corroborates the title. Unceasing prayer as aim is attested at Tours (Life chs.
-    X, XXVI; Letter III; Dialogues II.2) - the aim without the system. What Marmoutier sang, and at
-    what hours, no one wrote down; Gibson's footnotes supplying synaxis, missa and the later
+    X, XXVI; Letter III; Dialogues II.2) - the aim without the system. No one wrote down what Marmoutier sang, or at what hours; Gibson's footnotes supplying synaxis, missa and the later
     office-names are editorial and excluded from the world's voice.
   personal: >-
     One thing in the office is ours outright - the loud "Glory be to the Father" sung standing at the

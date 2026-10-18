@@ -4,8 +4,8 @@
  * TableRoom.test.tsx pins its own table-route rendering, so the interview
  * route's own facilitator-turn branch is covered too.
  */
-import { fireEvent, render } from '@testing-library/react';
-import { describe, expect, it } from 'vitest';
+import { act, cleanup, fireEvent, render } from '@testing-library/react';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { Conversation } from './Conversation';
 import type { WorldEntry } from '../data/worlds';
 import type { ConversationTurn } from '../hooks/useConversation';
@@ -106,12 +106,119 @@ describe('Conversation', () => {
     expect(container.querySelectorAll('.modern-term-mark')).toHaveLength(0);
   });
 
+  it('does not read as sending, or as the voice considering, while the room is still opening', () => {
+    const { container } = render(<Conversation {...baseProps} turns={[]} isLoading />);
+    const send = container.querySelector('.composer-row button') as HTMLButtonElement;
+    expect(send.textContent).toBe('Send');
+    expect(send.disabled).toBe(true);
+    expect(container.querySelector('.waiting-note')).toBeNull();
+  });
+
+  it('reads as sending while a sent question waits for its reply', () => {
+    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
+    const { container } = render(<Conversation {...baseProps} turns={turns} isLoading />);
+    expect((container.querySelector('.composer-row button') as HTMLButtonElement).textContent).toBe('Sending…');
+  });
+
   it('states that the voice is AI before the first message, and not after', () => {
     const { container, rerender } = render(<Conversation {...baseProps} turns={[]} />);
     expect(container.querySelector('.ai-note')?.textContent).toContain('Vera is an AI voice');
     const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Hello' }];
     rerender(<Conversation {...baseProps} turns={turns} />);
     expect(container.querySelector('.ai-note')).toBeNull();
+  });
+});
+
+describe('Conversation - the screen once the conversation starts', () => {
+  afterEach(() => {
+    cleanup();
+  });
+
+  const asked: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
+
+  it('keeps the brand bar and the feedback button at the top before the first message', () => {
+    const { container } = render(<Conversation {...baseProps} turns={[]} />);
+    expect(container.querySelector('.conversation__bar-right .experience-feedback__toggle')).not.toBeNull();
+    expect(container.querySelector('.conversation__who')).toBeNull();
+  });
+
+  it('shows only the portrait and the two names at the top after the first message', () => {
+    const { container } = render(<Conversation {...baseProps} turns={asked} />);
+    const who = container.querySelector('.conversation__who') as HTMLElement;
+    expect(who.textContent).toBe('VeraFixture');
+    expect(who.querySelector('img')?.getAttribute('src')).toBe('/x.png');
+    expect(container.querySelector('.conversation__bar')).toBeNull();
+    expect(container.querySelector('.conversation__end .experience-feedback__toggle')).not.toBeNull();
+    expect(container.querySelector('.conversation__end')?.textContent).toContain('Leave for now');
+  });
+
+  it('opens and closes the arrival again from the portrait', () => {
+    const { container, getByText } = render(<Conversation {...baseProps} turns={asked} />);
+    const who = container.querySelector('.conversation__who') as HTMLElement;
+    fireEvent.click(who);
+    expect(who.getAttribute('aria-expanded')).toBe('true');
+    expect(container.querySelector('#conversation-about .arrival__disclosure')).not.toBeNull();
+    fireEvent.click(getByText('Back to the conversation'));
+    expect(container.querySelector('#conversation-about')).toBeNull();
+  });
+
+  it('raises the newest question to the top of the transcript', () => {
+    const scrollTo = vi.fn();
+    const original = HTMLElement.prototype.scrollTo;
+    HTMLElement.prototype.scrollTo = scrollTo as unknown as typeof original;
+    try {
+      const { rerender } = render(<Conversation {...baseProps} turns={[]} />);
+      expect(scrollTo).not.toHaveBeenCalled();
+      rerender(<Conversation {...baseProps} turns={asked} />);
+      expect(scrollTo).toHaveBeenCalledTimes(1);
+      expect(scrollTo.mock.calls[0][0]).toMatchObject({ top: 0 });
+    } finally {
+      HTMLElement.prototype.scrollTo = original;
+    }
+  });
+
+  it('keeps the question at rest when the screen changes height, until the reader scrolls', () => {
+    const scrollTo = vi.fn();
+    const original = HTMLElement.prototype.scrollTo;
+    HTMLElement.prototype.scrollTo = scrollTo as unknown as typeof original;
+    let resized = () => {};
+    vi.stubGlobal(
+      'ResizeObserver',
+      class {
+        constructor(callback: () => void) {
+          resized = callback;
+        }
+        observe() {}
+        disconnect() {}
+      },
+    );
+    try {
+      const { container } = render(<Conversation {...baseProps} turns={asked} />);
+      const calls = scrollTo.mock.calls.length;
+      resized();
+      expect(scrollTo.mock.calls.length).toBe(calls + 1);
+      fireEvent.wheel(container.querySelector('.conversation__transcript') as HTMLElement);
+      resized();
+      expect(scrollTo.mock.calls.length).toBe(calls + 1);
+    } finally {
+      HTMLElement.prototype.scrollTo = original;
+      vi.unstubAllGlobals();
+    }
+  });
+
+  it('keeps the feedback button once the conversation is closed', () => {
+    const { container } = render(<Conversation {...baseProps} turns={asked} closed />);
+    expect(container.querySelector('.conversation__composer .experience-feedback__toggle')).not.toBeNull();
+  });
+
+  it('lays the suggested questions in one row', () => {
+    const starters = [
+      { cell: 'C-I', text: 'Who was Jesus, to you and your people?' },
+      { cell: 'C-P', text: 'How did you come to believe in Jesus?' },
+      { cell: 'C-E', text: 'How did it reach you?' },
+    ];
+    const { container } = render(<Conversation {...baseProps} world={world({ starters })} turns={[]} />);
+    expect(container.querySelectorAll('.starter-chips__row .starter-chip')).toHaveLength(3);
   });
 });
 
@@ -125,5 +232,70 @@ describe('Conversation - a pause at a limit', () => {
     expect(container.querySelector('.turn__note')?.textContent).toBe('Your tokens have run out. Add more to carry on.');
     expect(container.querySelector('textarea')).not.toBeDisabled();
     expect(queryByText('Meet another world')).toBeNull();
+  });
+});
+
+describe('Conversation - feedback controls', () => {
+  afterEach(() => {
+    cleanup();
+    vi.unstubAllGlobals();
+  });
+
+  const turns: ConversationTurn[] = [
+    { speaker: 'participant', text: 'Who was Jesus?' },
+    { speaker: 'fix', text: 'We told what we had been told.' },
+  ];
+  const streamed = [{ index: 0, speaker: 'fix', lead: '', text: 'Still writing.', text_start: 0, text_end: 14, elements: [], cards: [] }];
+
+  it('puts the feedback row under a finished voice turn only, not under the streaming reply', () => {
+    const { container } = render(<Conversation {...baseProps} sessionId="s1" turns={turns} streamed={streamed} isLoading />);
+    expect(container.querySelectorAll('.turn--voice')).toHaveLength(2);
+    expect(container.querySelectorAll('.turn-feedback')).toHaveLength(1);
+    expect(container.querySelector('.turn--voice .turn-feedback')).not.toBeNull();
+    expect(container.querySelector('.turn--voice .turn-feedback__like')).not.toBeNull();
+  });
+
+  it('shows no feedback row without a session code', () => {
+    const { container } = render(<Conversation {...baseProps} sessionId="s1" sessionCode={null} turns={turns} />);
+    expect(container.querySelectorAll('.turn-feedback')).toHaveLength(0);
+  });
+
+  it('posts the like against the index of the turn in the transcript', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
+    vi.stubGlobal('fetch', fetchMock);
+    const { container } = render(<Conversation {...baseProps} sessionId="s1" turns={turns} />);
+    await act(async () => {
+      fireEvent.click(container.querySelector('.turn--voice .turn-feedback__like') as HTMLElement);
+    });
+    expect(JSON.parse(fetchMock.mock.calls[0][1].body).turn_index).toBe(1);
+  });
+
+  it('puts the page like and report row above the delete link once the conversation has started', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
+    vi.stubGlobal('fetch', fetchMock);
+    const { container } = render(<Conversation {...baseProps} turns={turns} onDelete={async () => {}} />);
+    const row = container.querySelector('.page-feedback') as HTMLElement;
+    expect(row.nextElementSibling?.classList.contains('delete-conversation')).toBe(true);
+    await act(async () => {
+      fireEvent.click(row.querySelector('.turn-feedback__like') as HTMLElement);
+    });
+    expect(JSON.parse(fetchMock.mock.calls[0][1].body)).toEqual({ kind: 'like', page: 'conversation:fix' });
+  });
+
+  it('shows no page like or report row before the first question', () => {
+    const { container } = render(<Conversation {...baseProps} turns={[]} />);
+    expect(container.querySelector('.page-feedback')).toBeNull();
+  });
+
+  it('opens the experience card from the bar and posts the world key as the page', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
+    vi.stubGlobal('fetch', fetchMock);
+    const { container, getByLabelText } = render(<Conversation {...baseProps} turns={turns} />);
+    fireEvent.click(container.querySelector('.conversation__end .experience-feedback__toggle') as HTMLElement);
+    fireEvent.change(getByLabelText('What was this like for you? What should we do better?'), { target: { value: 'Good.' } });
+    await act(async () => {
+      fireEvent.click(container.querySelector('#experience-feedback-send') as HTMLElement);
+    });
+    expect(JSON.parse(fetchMock.mock.calls[0][1].body).page).toBe('fix');
   });
 });

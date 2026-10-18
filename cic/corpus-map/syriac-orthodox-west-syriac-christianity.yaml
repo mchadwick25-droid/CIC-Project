@@ -17,6 +17,18 @@ works:
     the class is. Compiled from Syriac sources and transmitted in Arabic through that milieu;
     custody, not composition.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872--chronicon-ecclesiasticum-volume-i-the-patriarchs-of-antioch-2
+  work: Chronicon Ecclesiasticum, Volume I (the patriarchs of Antioch), Latin translation
+  author: bar-hebraeus
+  locus: whole volume
+  role: tradition
+  confidence: provisional
+  note: 'The Syriac Orthodox maphrian''s own account of his church''s patriarchal line from
+    the apostles. Written long after that world''s window (451-640); a later witness to how
+    the tradition remembers its own past, provisional for the world''s builders to confirm.
+
+    '
+  source_file: barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt
 - row_id: chronicle-of-edessa_cowper--the-chronicle-of-edessa-2
   work: The Chronicle of Edessa
   author: chronicle-of-edessa
@@ -31,6 +43,25 @@ works:
 
     '
   source_file: chronicle-of-edessa_cowper.txt
+- row_id: council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917--akten-449-syriac-orthodox
+  work: Akten der ephesinischen Synode vom Jahre 449 (Flemming, 1917)
+  author: council-of-ephesus-449
+  locus: whole file
+  role: transmission
+  confidence: provisional
+  note: 'Custody: preserved in a Syriac Orthodox manuscript tradition (see the Perry row).
+    Voice assigned to the Cyrilline entry.'
+  source_file: council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917.txt
+- row_id: council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881--ephesus-449-syriac-acts-syriac-orthodox
+  work: The Second Synod of Ephesus (449), Syriac acts (Perry, 1881)
+  author: council-of-ephesus-449
+  locus: whole file
+  role: transmission
+  confidence: provisional
+  note: 'Custody: the acts survive only in a Syriac Orthodox manuscript (BM Add. 14530, sixth
+    century) whose scribes preserved them because their church approved of the council. Voice
+    assigned to the Cyrilline entry.'
+  source_file: council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt
 - row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--a-canticle-of-mar-jacob-the-teacher-on-edessa
   work: A Canticle of Mar Jacob the Teacher on Edessa
   author: jacob-of-sarug
@@ -203,6 +234,21 @@ works:
 
     '
   source_file: john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt
+- row_id: po08_john-rufus-plerophories-and-others-fra_1912--plerophories-syriac-orthodox
+  work: John Rufus, Plerophories (anti-Chalcedonian testimonies and revelations, c. 512),
+    French with Syriac (Nau, PO 8.1, 1912)
+  author: john-rufus
+  locus: fascicle I from file line 224; text from 612; appendix at 11873
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Chalcedon 451). Eighty-nine memory stories against Chalcedon
+    from the Gaza circle of Peter the Iberian, written in Greek about 512 and preserved in
+    Syriac within the Syriac Orthodox tradition, whose own anti-Chalcedonian literature it
+    joined. A reception and legend witness, two generations after 451; never evidence of the
+    council itself. French recovered; the Syriac column is garbled in this OCR. ROLE IS A
+    JUDGMENT CALL: Palestinian in origin, Syriac Orthodox in survival and use; recorded as
+    tradition for the tradition that kept and read it, provisional.'
+  source_file: po08_john-rufus-plerophories-and-others-fra_1912.txt
 - row_id: joshua-the-stylite_chronicle_wright1882--the-chronicle-of-joshua-the-stylite
   work: The Chronicle of Joshua the Stylite
   author: joshua-the-stylite
@@ -225,6 +271,21 @@ works:
 
     '
   source_file: joshua-the-stylite_chronicle_wright1882.txt
+- row_id: life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895--peter-the-iberian-syriac-orthodox
+  work: The Syriac Life of Peter the Iberian (c. 500), German with Syriac (Raabe, 1895)
+  author: life-of-peter-the-iberian
+  locus: whole file; Chalcedon as "object of abhorrence" at file line 338; Juvenal 2726-2806;
+    Proterius 3111
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Chalcedon 451). The anti-Chalcedonian Life of the Georgian
+    prince-bishop of Maiuma, written in Greek in the Gaza circle of John Rufus about 500 and
+    preserved in Syriac within the Syriac Orthodox tradition. A near-contemporary anti-Chalcedonian
+    narrative of the Palestinian revolt against Juvenal and of Timothy Aelurus''s consecration;
+    reception, not evidence of the sessions. German recovered; Syriac not recovered. ROLE
+    IS A JUDGMENT CALL as for the Plerophories: tradition for the tradition that kept and
+    read it, provisional.'
+  source_file: life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-james
   work: The Divine Liturgy of James
   author: liturgy-of-st-james
@@ -238,6 +299,33 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- row_id: michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901--chronicle-books-viii-to-xi-french
+  work: 'Chronique de Michel le Syrien, tome II: Books VIII to XI, French translation'
+  author: michael-the-syrian
+  locus: whole file; Book VIII from file line 73; table of contents from 51298
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). The Syriac Orthodox patriarch''s own world
+    chronicle, Books VIII-XI (Arcadius to the eighth century), in Chabot''s French: the tradition''s
+    own voice for the fifth to eighth centuries, including Chalcedon and the Arab conquest
+    as that tradition remembered them.
+
+    '
+  source_file: michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt
+- row_id: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899--chronique-tome-i-books-i-vii-french
+  work: Chronique, tome I, Books I-VII (Chabot's French translation, 1899)
+  author: michael-the-syrian
+  locus: whole file; Book VII from file line 55190
+  role: tradition
+  confidence: provisional
+  note: 'A Syriac Orthodox patriarch''s world chronicle from the creation to the sons of Constantine,
+    in French translation (the Syriac is in Chabot''s tome IV, not held). The West Syriac
+    tradition''s own historical self-account; English translation does not exist in the public
+    domain, so this French is the readable witness. Reception source for every fourth-century
+    event it tells.
+
+    '
+  source_file: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt
 - row_id: philoxenus-of-mabbug_discourses_budge1894--the-discourses-of-philoxenus
   work: The Discourses of Philoxenus
   author: philoxenus-of-mabbug
@@ -284,6 +372,17 @@ works:
 
     '
   source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
+- row_id: po08_john-rufus-plerophories-and-others-fra_1912--severus-cathedral-homilies-58-69
+  work: Severus of Antioch, Cathedral Homilies LVIII-LXIX, Syriac version of Jacob of Edessa,
+    French (Brière, PO 8.2, 1912)
+  author: severus-of-antioch
+  locus: fascicle II (volume contents at file lines 27-45)
+  role: tradition
+  confidence: provisional
+  note: 'A second Syriac Orthodox voice in the same volume: Severus''s own homilies. Not read
+    for this batch beyond the contents list; placed with the Select Letters already in the
+    map.'
+  source_file: po08_john-rufus-plerophories-and-others-fra_1912.txt
 - row_id: severus-of-antioch_select-letters-book6-part1_brooks1903--the-sixth-book-of-the-select-letters-of-severus-of-antioch
   work: The Sixth Book of the Select Letters of Severus of Antioch
   author: severus-of-antioch
@@ -310,3 +409,12 @@ works:
 
     '
   source_file: severus-of-antioch_select-letters-book6-part2_brooks1904.txt
+- row_id: theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903--histoire-de-dioscore-syriac-orthodox
+  work: Theopistus, History of Dioscorus (Nau, 1903)
+  author: theopistus
+  locus: the article from file line 162
+  role: transmission
+  confidence: provisional
+  note: 'Custody: the text is known in a Syriac translation preserved by the Syriac Orthodox.
+    Voice assigned to the Egyptian entry.'
+  source_file: theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt

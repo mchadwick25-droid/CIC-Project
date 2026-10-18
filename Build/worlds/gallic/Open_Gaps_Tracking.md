@@ -1082,6 +1082,87 @@ The horizon gate now reads years written "about 495", "in the 470s" or as a rang
 
 Status: OPEN.
 
-### OG-40. Gloss-card text in the world's we-voice, 2026-10-15.
+### OG-40. Atlas story pass: shorter story, ten card stories with tellings, highlights, 2026-10-17.
+
+The project lead approved the Gallic story, card list and tellings. `orientation.story` is now 8 units and 659 words, down from 11 units and 1,655 words. `documented_stories` shows ten stories in date order. Only three are dated (360s, 385/386, 397), so the rest are placed by their position in Martin's life or in Egypt. Each card story's record gained a `telling`. `orientation.highlights` adds 25 notes, and eleven places cite Pleiades. The new story and the ten tellings are recorded in the Gallic voice. Review: `Build/Ministry/Operations/Audits/gallic_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package repinned to `packages/gallic/2026-10-17T02-29-42Z`, `manifest_hash` `sha256:eb6870e65622918cffe715067665a79bb5921381f19d73063e2af3daaf50c42f`. The site JSON was recompiled.
+
+**Open:**
+- Cut details with no story record stay in the records only: Martin going to Hilary of Poitiers, Cassian's eight faults, Vincent's purpose in writing, and Faustus of Riez.
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+### OG-41. Other world_front sections keep AI tells and "this world" wording, 2026-10-17.
+
+The Atlas story pass did not touch `voices`, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` or `narrative.who_speaks`. They still use "this world" and dash asides.
+
+Status: OPEN for the project lead to schedule.
+
+### OG-42. Atlas story pass: independent review failed the approved text; fixed over three rounds, 2026-10-17.
+
+The project lead asked for an Opus review of the rigor and craft of this pass. The author's own check had recorded a PASS (`Build/Ministry/Operations/Audits/gallic_atlas_story_pass_review_round1_2026-10-17.md`). OG-40 relied on that check, and it was wrong.
+
+**Independent rounds:**
+- Round 1 failed the text with 19 blocking findings: `gallic_atlas_story_pass_independent_review_round1_2026-10-17.md`.
+- Round 2 (`..._round2_...`) found 4 blocking findings.
+- Round 3 (`..._round3_...`) approved, with five one-line fixes. Those were applied as written.
+- The fixer's report, with before and after text for every finding, is `gallic_atlas_story_pass_fixes_report_2026-10-17.md`.
+
+**What was wrong and is now fixed:**
+- Faustus was made bishop of Riez, which falls past the 450 cut-off.
+- Honoratus's offices and his going "alone".
+- Wonders were stated as fact.
+- The exorcist line was misattributed.
+- Egypt's teaching was presented as Gaul's own.
+- Unsupported dates and details.
+- Unread sermon text was presented as silence.
+- "Cassian refused wonders" was claimed beyond his Institutes.
+
+**Other changes:**
+- Following the project lead's ruling to "remove all the add on tails that dont say anything", every telling now ends on its last real event.
+- The tellings no longer share one template.
+- The same defects were fixed across the tile, voices, legacy, relations, sourcing, read-first and who-speaks fields.
+- The build-commentary bodies of the front file and the ten story records were deleted.
+
+**Corrects OG-40:**
+- Faustus was cut only now.
+- Only three of the ten card stories are dated, and they are placed by Martin's life or Egypt.
+
+**Record defects, logged and not edited:**
+- Five records overstate Cassian's refusal of wonders: `gallic.gravity.virtus`, `gallic.force.power-displayed-disowned`, `gallic.gravity.egypt-as-measure`, `gallic.story.raising-of-the-catechumen`, and `gallic.contested.egypt-two-measures`.
+- `gallic.figure.honoratus` understates the evidence for his see at Arles. Gennadius ch. LXX names Hilary as bishop of Arles and Honoratus as his predecessor. Only the year 426 is editorial.
+- `gallic.gravity.monk-bishop` and `gallic.force.army-and-rank-before` say Hilary's Latin "survives only in a rough copy". The roughness is in this project's scanned copy, not in the survival of the sermon.
+- `gallic.force.synodal-commission` says "survives here only in a poor copy" and states a change in the 470s as fact.
+- `gallic.force.arian-scattering` uses "Ligugé", a name the core record bars as editorial.
+- The story `text` fields of the cloak and Honoratus records still carry the old claims.
+- "this world" appears in about 163 gallic record files, some in fields participants see.
+
+Status: OPEN for the record-level defects. CLOSED for the participant-facing text of this pass.
+
+### OG-43. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: four teasers (cloak, catechumen, angel and psalms, Honoratus) now attribute the miracle or vision to the source; the Trier telling gives "sixteen more years" as Gallus's figure; the teaser no longer claims Martin never forgave himself; Vincent's formula reads "by all"; the Julian note is plain; ten long notes trimmed.
+
+Status: CLOSED for this review.
+
+### OG-44. Unclear honest-limit endings, 2026-10-17.
+
+Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put the object first and ended on a bare verb, so the ending did not say what is unknown. Each now puts the subject first and ends on what is not known. Wording and facts are the records' own; nothing was added.
+
+- `records/gallic/voice_craft/gallic.voice.craft.md`: "What was said when our grace teaching reached Africa and Rome, none of us wrote down." -> "None of us wrote down what was said when our grace teaching reached Africa and Rome."
+- `records/gallic/voice_craft/gallic.voice.craft.md`: "And the controversy carried to Africa and Rome, none of us wrote down." -> "And none of us wrote down what was said when the controversy was carried to Africa and Rome."
+- `records/gallic/demonstration/gallic.demo.who-chose-bishops.md`: "Those bishops left no account; what their case was beyond clothes and hair, no one kept." -> "Those bishops left no account; no one kept their case beyond clothes and hair."
+- `records/gallic/demonstration/gallic.demo.who-chose-bishops.md`: "Whether every reluctance was as whole as our stories say, the men who could have contradicted them never wrote." -> "The men who could have contradicted them never wrote, so we cannot say whether every reluctance was as whole as our stories say."
+- `records/gallic/demonstration/gallic.demo.someone-like-me.md`: "What any house of ours would have made of you, face to face, no one wrote down." -> "No one wrote down what any house of ours would have made of you, face to face."
+- `records/gallic/demonstration/gallic.demo.record-thinnest.md`: "And what was said and done when our teaching on grace was carried to Africa and Rome - ... - no one among us wrote down as a story." -> "And no one among us wrote down as a story what was said and done when our teaching on grace was carried to Africa and Rome - ..."
+- `records/gallic/demonstration/gallic.demo.want-to-leave.md`: "Whether any brother walked out of one of our own houses in Gaul, and where he went, no one among us wrote down;" -> "No one among us wrote down whether any brother walked out of one of our own houses in Gaul, or where he went;"
+- `records/gallic/term/gallic.term.unceasing-prayer.md`: "What Marmoutier sang, and at what hours, no one wrote down;" -> "No one wrote down what Marmoutier sang, or at what hours;"
+- `records/gallic/doctrinal_witness/gallic.dw.laughed-at-and-reported.md`: "what was said and done when our teaching was carried there no one among us wrote down as a story" -> "no one among us wrote down as a story what was said and done when our teaching was carried there"
+
+Status: CLOSED for this review.
+
+### OG-45. Gloss-card text in the world's we-voice, 2026-10-15.
 
 On 15 October the project lead ruled that a term's gloss card speaks from outside the world, like every card that describes it; only the Representative's own speech says "we" (System Hub Decision Log, "2026-10-15 - The gloss card speaks from outside the world"). The card shows `senses.translational` and each `false_friend` line. A word match finds "we", "our" or "us" in 55 `senses.translational` and 9 `false_friend` lines, on 55 term records. Some hits may sit inside a quoted modern question; each needs a read. These lines stay as written. The project lead ruled the same day that nothing already voiced is changed in bulk, and that only a line that is significantly a problem is rewritten. A card in the we-voice is not, by itself, such a problem. A modern question in quotation marks ("Is that what we call transubstantiation?") is right as written. No gate checks the card's voice. Status: OPEN, held as written.

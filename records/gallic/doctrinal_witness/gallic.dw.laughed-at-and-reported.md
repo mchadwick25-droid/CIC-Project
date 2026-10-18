@@ -105,7 +105,7 @@ tensions:
 - no pagan neighbour speaks anywhere in our record; every mocking or accusing voice reaches us through our own writers, and the bishops at the election and at Treves are heard only through the man who opposed them
 - the countryside the saint's power was shown for never speaks; what the rustics of Gaul said of us is not held
 - the Carthage crowd is Salvian's report of Africa, in a preacher's indictment; no Gallic town's reaction to a monk survives in anyone's words
-- the reporters to Africa and Rome are heard from the other side, and what was said and done when our teaching was carried there no one among us wrote down as a story
+- the reporters to Africa and Rome are heard from the other side, and no one among us wrote down as a story what was said and done when our teaching was carried there
 relations: []
 use_note:
   means: "This witness says the Gallic monks met no persecution but faced derision at dress, hair and visions, and accusation by bishops and reporters to Africa."

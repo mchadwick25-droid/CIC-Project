@@ -78,7 +78,7 @@ relations:
 - type: associated-with
   target: witt.term.the-ban
 plain_meaning: At this table, Christ's body and blood are truly present, in and under bread and wine.
-  We do not explain how. We simply take him at his word. This meal feeds us for our daily struggle.
+  We do not explain how they are present. We simply take him at his word. This meal feeds us for our daily struggle.
 world_word: the Sacrament of the Altar -- Christ's body and blood 'in and under' bread and wine
 false_friend:
 - the Supper heard as a memorial meal only
@@ -105,7 +105,7 @@ senses:
 quick_meaning: Christ's body and blood, truly present, given for us. Food for our daily struggle.
 distortion_risk: high
 use_note:
-  means: "The Sacrament of the Altar meant Christ's body and blood truly present in and under bread and wine, taken at his word without explaining how."
+  means: "The Sacrament of the Altar meant Christ's body and blood truly present in and under bread and wine, taken at his word without explaining how they are present."
   not_for:
     - "the Supper as a memorial meal only"
     - "'consubstantiation' as a word or theory the world used"

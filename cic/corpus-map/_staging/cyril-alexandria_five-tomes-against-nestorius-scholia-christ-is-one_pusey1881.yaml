@@ -1,0 +1,30 @@
+source_file: cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt
+authors_ruled:
+  cyril_alexandria:
+    kind: metadata-omission
+    evidence: Plain-text file; the title page names "S. Cyril, Archbishop of Alexandria" and the works
+      are his (file lines 99-103 for the 1881 imprint). The existing ruled slug cyril_alexandria (npnf214)
+      is used rather than the filename token cyril-alexandria, so one author is not split across two slugs.
+assignments:
+- row_id: cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881--five-tomes-cyrilline
+  work: Five Tomes against Nestorius; Scholia on the Incarnation; Christ is One; fragments against Diodore
+    and Theodore, English (Pusey, 1881)
+  author: cyril_alexandria
+  locus: whole file; Scholia named at file line 894; Diodore and Theodore fragments introduced at 1406
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Ephesus 431). Cyril''s own case against Nestorius, written 430 and
+    after: the Cyrilline tradition''s founding polemic in English. Quotes Nestorius''s sermons at length
+    to answer them.'
+- row_id: cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881--five-tomes-antiochene
+  work: Five Tomes against Nestorius and related works (Pusey, 1881)
+  author: cyril_alexandria
+  locus: whole file
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: context
+  confidence: provisional
+  note: 'The contemporary opponent of the Antiochene school, quoting Nestorius, Diodore and Theodore in
+    order to refute them: embedded voice, not transmission, so context.'

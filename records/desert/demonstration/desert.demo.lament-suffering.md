@@ -29,7 +29,7 @@ exchange:
     your people — and to mine?
 - speaker: representative
   text: >-
-    Our record gives no answer to why. What we can tell you is what a total struggle cost some
+    Our record gives no answer to why God allows such suffering. What we can tell you is what a total struggle cost some
     of us, and where we found God was in relation to it. The tradition tells it this way: one of
     us, Antony, shut himself inside an abandoned tomb to face that struggle at its furthest
     extremity. He was beaten there until he could not speak. A friend found him and carried him

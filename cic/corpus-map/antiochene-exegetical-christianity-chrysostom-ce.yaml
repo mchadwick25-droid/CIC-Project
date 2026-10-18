@@ -34,6 +34,17 @@ works:
 
     '
   source_file: ammianus-marcellinus_roman-history_yonge1862.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901--conciliabulum-ephesinum
+  work: Acts of the Antiochene counter-council at Ephesus (Conciliabulum Ephesinum, 431),
+    in Mansi tom. 5
+  author: antiochene-counter-council-ephesus-431
+  locus: file line 46711 (index at 325); the letters of John of Antioch from 28921
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Ephesus 431). The Eastern bishops'' own synodal acts and
+    letters against Cyril and Memnon, in Latin and Greek: the dissenting side''s primary documents.
+    Long s rendered as f in the OCR.'
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--constitutions-of-the-holy-apostles-apostolic-constitutions
   work: Constitutions of the Holy Apostles (Apostolic Constitutions)
   author: apostolic-constitutions
@@ -49,6 +60,28 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- row_id: barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872--chronicon-ecclesiasticum-volume-i-the-patriarchs-of-antioch-3
+  work: Chronicon Ecclesiasticum, Volume I (the patriarchs of Antioch), Latin translation
+  author: bar-hebraeus
+  locus: Meletius and the Antiochene schism (file lines 7749-7754); Nectarius (file line 7946);
+    Theophilus's synod and John Chrysostom's condemnation and exile (file lines 8276-8600)
+  role: context
+  confidence: provisional
+  note: 'Thirteenth-century Syriac Orthodox memory of Meletius, Flavian and Chrysostom: a
+    reception witness for how the Antiochene fourth century was remembered, never evidence
+    of it. Context, not that world''s own voice.
+
+    '
+  source_file: barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt
+- row_id: po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913--barhadbeshabba-antiochene
+  work: Barhadbeshabba 'Arbaya, Ecclesiastical History, part 2 (PO 9.5)
+  author: barhadbeshabba-arbaya
+  locus: fascicle V from file line 31511; chapters on Diodore and Theodore from 31865
+  role: context
+  confidence: provisional
+  note: 'How the Antiochene school''s heirs in Persia remembered Diodore, Theodore and Nestorius:
+    a later tradition''s memory of this entry, not the entry''s own voice. Context.'
+  source_file: po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt
 - row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de-2
   work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian
@@ -93,6 +126,18 @@ works:
   role: tradition
   confidence: assigned
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863--early-treatises-pg-47-greek
+  work: Early treatises (to Theodore, On the Priesthood, On compunction and others), Greek,
+    PG 47
+  author: chrysostom
+  locus: the volume after the Dialogue, from about file line 16500
+  role: tradition
+  confidence: provisional
+  note: 'Chrysostom''s own early works in the original Greek; the English of several is in
+    npnf109. Second witness for quotation, same OCR caveat.
+
+    '
+  source_file: john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863.txt
 - row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--eulogy-on-s-ignatius
   work: Eulogy on S. Ignatius
   author: chrysostom
@@ -291,6 +336,22 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
+- row_id: john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862--letters-from-exile-and-homilies-of-399-404-greek-pg-52
+  work: Letters from exile (to Innocent of Rome, to Olympias, from Cucusus) and homilies of
+    399-404, Greek, PG 52
+  author: chrysostom
+  locus: the letter to Innocent, garbled Latin running head at file line 17800; letters to
+    Olympias at file lines 20121 and 26076; letters from Cucusus at file line 28445; the homily
+    on the exile of Saturninus and Aurelian at file line 3675
+  role: tradition
+  confidence: provisional
+  note: 'Chrysostom''s own voice on the Synod of the Oak and his exile, in the original Greek:
+    the letter to Innocent is his own account of the synod. English of the letters to Innocent
+    and to Olympias is in npnf109. Second witness for quotation: Greek legible, Latin column
+    garbled, kappa and chi confused in the OCR.
+
+    '
+  source_file: john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862.txt
 - row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-st-chrysostom-to-innocent-bishop-of-rome
   work: Letters of St. Chrysostom to Innocent, Bishop of Rome
   author: chrysostom
@@ -404,6 +465,15 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881--five-tomes-antiochene
+  work: Five Tomes against Nestorius and related works (Pusey, 1881)
+  author: cyril_alexandria
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'The contemporary opponent of the Antiochene school, quoting Nestorius, Diodore and
+    Theodore in order to refute them: embedded voice, not transmission, so context.'
+  source_file: cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt
 - row_id: npnf214_seven-ecumenical-councils--the-epistles-of-cyril-of-alexandria-second-and-third-letters-2
   work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
     Anathematisms, and the Letter to John of Antioch)
@@ -417,6 +487,30 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: cyril-alexandria_three-epistles-grc-eng_pusey1872--three-epistles-antiochene
+  work: The Three Epistles of Cyril (Pusey, 1872)
+  author: cyril_alexandria
+  locus: whole file; the letter to John of Antioch
+  role: context
+  confidence: provisional
+  note: The letters addressed to and against the Antiochene side; the 433 letter carries the
+    Antiochene-drafted Formula of Reunion inside Cyril's text (embedded, so context).
+  source_file: cyril-alexandria_three-epistles-grc-eng_pusey1872.txt
+- row_id: ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928--ethiopic-synaxarium-maskaram-tekemt-khedar-english-2
+  work: The Ethiopic Synaxarium, volume I (Maskaram, Tekemt, Khedar), English translation
+    by Budge
+  author: ethiopian-synaxarium
+  locus: the Tekemt commemoration of Theophilus of Alexandria (file line 13717, his anathema
+    on Origen's books at file lines 13850-13857); the Khedar commemoration of the translation
+    of John Chrysostom's body (file lines 17887-17931)
+  role: context
+  confidence: provisional
+  note: 'Late Ethiopian liturgical memory of Theophilus''s campaign against Origen and of
+    John Chrysostom''s relics. A reception witness that names its own standpoint; never evidence
+    of the events of 400-403 themselves.
+
+    '
+  source_file: ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt
 - row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-innocent-of-rome-concerning-chrysostom
   work: Letters of Innocent of Rome concerning Chrysostom
   author: innocent_rome
@@ -445,6 +539,53 @@ works:
 
     '
   source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+- row_id: marius-mercator_opera-omnia-lat_migne-pl48--mercator-antiochene
+  work: 'Marius Mercator, Opera omnia, PL 48: Nestorius''s sermons and letters in Latin'
+  author: marius-mercator
+  locus: the Nestorius translations from about file line 677
+  role: context
+  confidence: provisional
+  note: 'Nestorius in his opponent''s Latin translation: embedded voice inside a hostile work,
+    so context rather than transmission. The Latin West''s first hearing of Nestorius.'
+  source_file: marius-mercator_opera-omnia-lat_migne-pl48.txt
+- row_id: nestorius_livre-d-heraclide-de-damas-fra_nau1910--livre-d-heraclide-antiochene
+  work: Le livre d'Héraclide de Damas, French (Nau, 1910), with three appendices of Nestorius
+    material
+  author: nestorius
+  locus: whole file; appendices from file line 19027
+  role: tradition
+  confidence: provisional
+  note: Shared-Events Era 2 batch (Ephesus 431). French translation of the same Syriac work
+    as the Driver-Hodgson English, from Bedjan's edition, plus the letter to Cosmas on Nestorius's
+    deposition, the Alexandrian presents list and Nestorius's letter to the Constantinopolitans.
+    Primary dissenting voice at one remove; same provisional placement as the English.
+  source_file: nestorius_livre-d-heraclide-de-damas-fra_nau1910.txt
+- row_id: nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905--nestoriana-antiochene
+  work: 'Nestoriana: the fragments of Nestorius, Greek and Latin with German introduction
+    (Loofs, 1905)'
+  author: nestorius
+  locus: whole file; the letter list from file line 428; the two letters to Celestine located
+    at 1084-1085
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Ephesus 431). Nestorius''s letters, counter-anathemas
+    and sermon fragments in the original Greek and in Marius Mercator''s Latin: primary original-language
+    voice of the dissenting side, in fragments preserved largely by opponents. Greek and Latin
+    recovered; the Syriac texts (edition pp. 368-388) are not in this OCR. Placement provisional
+    as for the Bazaar.'
+  source_file: nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt
+- row_id: nestorius_bazaar-of-heracleides_driver-hodgson1925--bazaar-of-heracleides-antiochene
+  work: The Bazaar (Book) of Heracleides, English (Driver and Hodgson, 1925)
+  author: nestorius
+  locus: whole file; the editors' chronology of Ephesus 431 from file line 264
+  role: tradition
+  confidence: provisional
+  note: Shared-Events Era 2 batch (Ephesus 431). Nestorius's own apology written in exile
+    in the 440s, surviving only in Syriac; the Antiochene school's last great voice speaking
+    for himself. English translation of the Syriac; a primary dissenting voice at one remove.
+    Nestorius's placement in this Antiochene entry rests on his training and theology, not
+    on the entry's own text, so the role is provisional.
+  source_file: nestorius_bazaar-of-heracleides_driver-hodgson1925.txt
 - row_id: palladius_dialogue-life-of-chrysostom_moore1921--dialogue-concerning-the-life-of-chrysostom
   work: Dialogue Concerning the Life of Chrysostom
   author: palladius
@@ -460,6 +601,20 @@ works:
 
     '
   source_file: palladius_dialogue-life-of-chrysostom_moore1921.txt
+- row_id: john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863--dialogue-on-the-life-of-john-chrysostom-greek-pg-47
+  work: Dialogue on the Life of John Chrysostom (Dialogus historicus), Greek, PG 47
+  author: palladius
+  locus: heading at file line 7061; the summons of the Synod of the Oak at file line 10370;
+    Olympias at file line 14225
+  role: tradition
+  confidence: provisional
+  note: 'The eyewitness defence of Chrysostom by a bishop of his own party, written about
+    408: the Johannite side''s own account of the Synod of the Oak and the exile. Greek original
+    behind palladius_dialogue-life-of-chrysostom_moore1921.txt. Second witness for quotation:
+    Greek legible, Latin column garbled, kappa and chi confused in the OCR.
+
+    '
+  source_file: john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863.txt
 - row_id: palladius_lausiac-history--lausiac-history-6
   work: Lausiac History
   author: palladius
@@ -485,6 +640,21 @@ works:
 
     '
   source_file: palladius_lausiac-history_clarke1918.txt
+- row_id: socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853--historia-ecclesiastica-greek-tomus-2
+  work: Socrates Scholasticus, Historia ecclesiastica, Greek text with Latin version, Hussey
+    1853, tomus 2
+  author: socrates
+  locus: Books V-VII; Book VI the Synod of the Oak, Book VII Nestorius and Ephesus 431
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Greek original behind the English of npnf202_socrates-
+    sozomen-ecclesiastical-histories.xml. Books V-VII (Theodosius I to 439: Constantinople
+    381, the Oak 403, Nestorius and Ephesus 431). Near-contemporary Constantinopolitan narrative
+    (c. 440), not eyewitness. Primary original-language witness; Greek and Latin both recovered
+    in the OCR; verify against the page image before quoting.
+
+    '
+  source_file: socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt
 - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
   work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
@@ -503,6 +673,20 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- row_id: sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860--ecclesiastical-history-books-v-ix-greek-2
+  work: Ecclesiastical History, Books V-IX, Greek (Hussey 1860, tomus II)
+  author: sozomen
+  locus: 'Book VIII, from file line 26089: Theophilus and the Tall Brothers, Epiphanius at
+    Constantinople, the Synod of the Oak (file line 30387), the exile and death of John, Innocent''s
+    letters'
+  role: context
+  confidence: provisional
+  note: 'The near-contemporary narrative of Chrysostom''s episcopate, the Synod of the Oak
+    and the exile, by a sympathetic outsider writing a generation later. Context, not the
+    Antiochene world''s own voice. Same OCR caveat as above.
+
+    '
+  source_file: sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860.txt
 - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2
   work: The Ecclesiastical History of Sozomen
   author: sozomen
@@ -520,6 +704,16 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901--synodicon-adversus-tragoediam-irenaei
+  work: Synodicon adversus tragoediam Irenaei, in Mansi tom. 5
+  author: synodicon-adversus-tragoediam-irenaei
+  locus: file line 72980 (index 360)
+  role: tradition
+  confidence: provisional
+  note: The Latin collection of the Antiochene party's correspondence of 431-435 (Theodoret,
+    John of Antioch, Alexander of Hierapolis, Irenaeus), the fullest record of the dissent
+    and the reunion from the dissenters' own letters. Antiochene voice in a later Latin compilation.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--dialogues-eranistes
   work: Dialogues (Eranistes)
   author: theodoret

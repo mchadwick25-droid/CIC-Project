@@ -3,6 +3,34 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: coptic-christianity-under-early-islam
 works:
+- row_id: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922--synaxaire-arabe-jacobite-barmahat-barmoudah-bachons-french
+  work: 'Le Synaxaire arabe jacobite (rédaction copte), IV: les mois de Barmahat, Barmoudah
+    et Bachons (Basset, French translation)'
+  author: copto-arabic-synaxarium
+  locus: from file line 10402; the commemoration of Athanasius on 7 Bachons at 18317-18400
+  role: tradition
+  confidence: provisional
+  note: 'The Coptic Church''s own liturgical calendar of saints, compiled in Arabic in the
+    Middle Ages: the tradition''s own voice about its past. Only the French translation is
+    recovered in this OCR; the Arabic column is not, so this is a readable witness, not the
+    original text. Reception source for the fourth-century saints it commemorates.
+
+    '
+  source_file: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt
+- row_id: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910--history-of-the-patriarchs-agatho-to-michael-i
+  work: History of the Patriarchs of the Coptic Church of Alexandria, Agatho to Michael I
+    (Evetts), in the same volume
+  author: history-of-the-patriarchs-of-alexandria
+  locus: file lines about 300 to 10700 (the first item of the volume), English translation
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). Carried in the same Patrologia orientalis volume;
+    the Coptic church''s own patriarchal history for the seventh and eighth centuries in Evetts''s
+    English. Not part of the Era 2 event; placed because the file holds it and INTAKE asks
+    for every entry a volume could serve. To be confirmed by that entry''s own thread.
+
+    '
+  source_file: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt
 - row_id: severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904--history-of-the-patriarchs-of-the-coptic-church-of-alexandria
   work: History of the Patriarchs of the Coptic Church of Alexandria
   author: severus-al-muqaffa

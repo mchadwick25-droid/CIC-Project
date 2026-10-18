@@ -14,7 +14,10 @@ With CIC_DEEPER_ENABLED set, Go Deeper is mounted as on the real server, with it
 meter and claims databases under cic_dev_deeper/ and the same refusals to start
 (webhook secret, free key, visitor cap and its secret). Off by default.
 
-Run: uvicorn engine.api.dev_server:app --port 8000
+There is no module-level app: uvicorn builds it from the factory at startup,
+so importing this module (as pytest does while collecting) opens no database.
+
+Run: uvicorn engine.api.dev_server:build_dev_app --factory --port 8000
 """
 import os
 from types import SimpleNamespace
@@ -133,6 +136,3 @@ def build_dev_app() -> FastAPI:
         default_world_key="alx",
         **deeper_kwargs,
     )
-
-
-app = build_dev_app()
