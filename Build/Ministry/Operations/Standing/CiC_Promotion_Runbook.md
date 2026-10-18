@@ -98,7 +98,12 @@ and exits before a client exists. To get one:
    the command's own arguments. Before its first call it prints the name, the cap,
    every model id and the route. Check that print against the approval.
 4. It stops before any call that could carry the priced total past the cap, and writes
-   the name into every usage record. A live-turn report carries the name, cap, route,
+   the name into every usage record. Every call is also appended to a ledger file
+   (`CIC_LIVE_TEST_LEDGER`, else `cic-live-test-ledger.jsonl` in the temp directory; the
+   header prints its path): a `hold` line before the call and a `settle` line with the
+   priced usage after it. A call is refused if the ledger cannot be written. Run the
+   command with its output going to a file, never into a pipe that can close, and keep
+   the ledger when the session ends. A live-turn report carries the name, cap, route,
    priced total and per-call usage, and the admin dashboard lists it under named live
    tests as internal.
 
