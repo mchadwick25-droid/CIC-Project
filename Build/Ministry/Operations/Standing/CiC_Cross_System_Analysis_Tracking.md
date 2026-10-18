@@ -1998,3 +1998,32 @@ item; the first part is each world's.
 **Status:** OPEN. Filed as a gap, not an `engine/m9` `ACCEPTED_OPEN` waiver, for the
 reason already accepted in `Build/worlds/rzg/Open_Gaps_Tracking.md` item 47: no check
 runs for this defect yet, and that registry is keyed to checks that run.
+
+## 2026-10-18 — Two paths drop a message before the safety call runs
+
+**Found by** a read-only trace of the deployed code (`live` at 919f4a894), after crisis
+test messages the project lead sent in the week of 11 October did not all appear in the
+dashboard's question list. **Not fixed here**: the fix touches the safety protocol and is
+the project lead's to decide. Logged so a known safety gap never lives only in a
+conversation.
+
+**The defect.** System Hub decision 35 runs the safety call before any refusal, so a
+message the service will turn away still gets the Facilitator's crisis turn when it needs
+one. Two paths reject a message before that call, so the message is not recorded, no
+safety turn runs, and the person sees an error instead of the crisis resources:
+
+1. **A world's package fails to load.** `_load_world` raises `PackageRefused` before the
+   message is recorded: `engine/api/wiring.py` around line 988 (interview) and
+   `engine/api/table_wiring.py` around line 1163 (Table, `_seated_worlds`). The route
+   answers 503. Most likely when a world is repinned while a conversation is open.
+2. **The per-network burst limit.** `engine/api/ratelimit.py` around lines 157-167 and
+   188-193 answers 429 ("The room is full for a moment") in middleware, before the
+   route runs. The refused-message limiter (`engine/api/app.py` around lines 699-705)
+   does the same for a burst of messages that were already going to be refused.
+
+**What is not affected.** A closed conversation, an over-long message, an open Table
+round and the daily cap all run the safety call first, as decision 35 requires. The Go
+Deeper grant check never rejects before the message is recorded.
+
+**Which of these explains the missing test messages is not established**; the project
+lead did not recall what the screen showed. Status: OPEN, for the project lead.
