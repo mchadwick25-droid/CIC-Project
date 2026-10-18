@@ -22,8 +22,8 @@ representative: {name: "Mar Yausep", role_label: "Teacher of the Covenant Order"
 state: admitted
 census_id: "syriac-edessa-nisibis"
 package:
-  manifest_hash: "sha256:c260a81e5bebb3cd49d93a47c89f56057930518f4248fc8e420e1e3e37e4b04a"
-  location: "packages/syr/2026-10-17T20-41-50Z"
+  manifest_hash: "sha256:105db2f8e004af1b6687fd4de768e70f841f81aff41210204c3471681d120bf9"
+  location: "packages/syr/2026-10-18T03-54-10Z"
 thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
 living_tradition_flag: true
 story_placement: false
