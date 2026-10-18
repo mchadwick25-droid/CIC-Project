@@ -6682,3 +6682,13 @@ The project lead ruled that an honest limit puts the subject first and ends on w
 The project lead approved a named, capped admission run in conversation on 18 October: name "fleet re-admission, 18 October"; cap $8.00; Bedrock us-east-1; voice model `us.anthropic.claude-sonnet-4-5`; the eleven formation worlds in one invocation. The run started at 12:57 UTC and its output was piped through `head`, which closed the pipe and ended the process at about 13:03 UTC before the report was written. The guard kept its priced tally only in memory and the report was its only record, so the amount spent is unrecorded. The run's preflight estimate for the whole fleet was $5.96, and the process ran long enough for one to two worlds. The figure has to be read from AWS (Bedrock `InvokeModel` charges, 12:57 to 13:03 UTC, 18 October). No admission evidence came from the attempt, and admission conformance still reports all eleven worlds stale.
 
 Change: `engine.provider.guard` now appends every call of an approved live test to a ledger file as it happens, a `hold` line before the call and a `settle` line after it, and refuses a call when the ledger cannot be written. The header prints the ledger path. The promotion runbook's named-run section says to send the run's output to a file and keep the ledger. The conversation path on Render is unchanged. Whether to re-run the admission run or waive the gate for the full promotion is the project lead's decision.
+
+## 2026-10-18 - Fleet admission run: spend outside the approved scope, and answers not kept
+
+The project lead approved "fleet re-admission, 18 October" at $6.50 in total, after a sample. Two things went wrong on the run itself.
+
+First, the run was started without `--save-transcripts`, although the project lead had asked to see the conversations. Four worlds passed 28 of 28 (alx, hal, pahc, rzg) and their graded answers were discarded; the reports hold pass and fail results only.
+
+Second, after the project lead asked to see the conversations, a further paid run (pahc, with answers saved, cap $0.85) was started without asking for approval of that run by name. It was stopped by hand after 8 calls. It cost $0.24 and kept nothing, because a report is written only when a world finishes.
+
+Recorded spend for the named test on 18 October is $5.75 of the $6.50 approved. Gallic, Ijc and Syriac failed on dropped connections (pull request 975 fixes the cause) and Witt, Cappadocian, Desert and Don were not run. No further paid call is made without the project lead's approval of that run by name, with its cap and settings printed first. Whether to re-run the missing worlds or waive the gate is the project lead's decision.
