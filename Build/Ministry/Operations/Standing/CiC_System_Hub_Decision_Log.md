@@ -6714,3 +6714,9 @@ The one finding in the fleet was `alx.term.eucharistia` `senses.translational`, 
 The project lead chose option A on 18 October: the cross-world id-leak check (`ui-field-leak`) reads the gloss card's `senses.translational` and `false_friend` lines, and the one line it flagged is fixed. A raw record id or build reference on a card is a defect a participant would see. The check runs on the record files at build time, never during a conversation.
 
 The only hit in the fleet was in the fixture, which may carry no waiver: `fix.term.the-three` `false_friend[0]` read "a hiking trail (unrelated meaning of an unrelated word - see fix.term.the-way for the real false-friend case)", a builder's note naming a record id. It now reads "a hiking trail, which has nothing to do with this world's word". No real world's card has a hit. Still to decide: whether the attribution scan reads the card.
+
+## 2026-10-18 - The attribution scan stays off the gloss card
+
+The project lead chose option A on 18 October: `gate_no_build_attribution` keeps reading only the voice's prompt fields, not the gloss card. Its patterns are tuned for what the model reads as its own voice. On the cards its only hit was a false alarm, `gallic.term.kingdom-within` ("actively ruled by one of two kings"), which is theology. Raw ids and build references on a card are caught by the id-leak check. Nothing changed.
+
+This closes the brief that opened with `don.term.reception-without-reordination`: the gloss card's fields are declared in `engine/m1/spoken_fields.py` under the `gloss-card` role. The readability, question-ending and id-leak checks read the card. The perspective, horizon, scaffolding and attribution checks do not.
