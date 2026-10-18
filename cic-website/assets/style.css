@@ -450,7 +450,3 @@ ol.convictions li::before { border-color: #E08C74; }
 }
 .door-line { max-width: 46rem; margin: 1rem auto 0; line-height: 1.5; text-align: center; }
 
-/* The five outcomes on the Corrections page. */
-.page-section ul.outcomes { margin: 0 0 1.1rem; padding-left: 1.3rem; color: #B8AEA1; }
-.page-section ul.outcomes li { margin: 0 0 .6rem; }
-.page-section ul.outcomes strong { color: #F1E9DD; }

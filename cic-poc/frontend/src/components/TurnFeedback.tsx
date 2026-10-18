@@ -103,7 +103,7 @@ export function TurnFeedback({ sessionId, sessionCode, turnIndex, text, transpar
       </div>
       {sent && (
         <p className="feedback-card__thanks sans" role="status">
-          Thank you. We check every one of these against the sources. What we find goes on our Corrections page.
+          Thank you. A person will check it against the sources.
         </p>
       )}
       {open && !sent && (
