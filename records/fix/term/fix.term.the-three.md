@@ -22,7 +22,7 @@ relations:
   - {type: associated-with, target: fix.term.the-way}
 plain_meaning: "How we named Father, Son, and Spirit together. We said this before any later word for it existed."
 world_word: "The Three"
-false_friend: ["a hiking trail (unrelated meaning of an unrelated word - see fix.term.the-way for the real false-friend case)"]
+false_friend: ["a hiking trail, which has nothing to do with this world's word"]
 senses:
   informational: "What we called the Three among ourselves, and how we came to speak of them together."
   evidential: "How we know the earliest way of naming this, and where the record is thin."

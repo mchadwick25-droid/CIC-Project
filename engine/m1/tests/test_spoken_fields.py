@@ -54,7 +54,7 @@ def test_perspective_fields_relocated_unchanged():
 def test_participant_fields_relocated_unchanged():
     assert cross_world._PARTICIPANT_FIELDS == {
         "figure": ["bridge_line"],
-        "term": ["world_word"],
+        "term": ["world_word", "senses.translational", "false_friend"],
         "story": ["tellable_as", "telling"],
         "gravity": ["name"],
         "force": ["name"],
@@ -195,6 +195,13 @@ def test_question_ending_reads_the_gloss_card_and_scaffolding_does_not():
         ("false_friend[0]", "You asked how."),
     ]
     assert scaffolding_hits({"zzz.term.a": term}) == []
+
+
+def test_id_leak_check_reads_the_gloss_card():
+    term = _card(world_word="The Way", senses={"translational": "See zzz.term.other."}, false_friend=["a trail", "Doc_03 says so"])
+    findings = cross_world.check_participant_field_leaks(records={"zzz": {"zzz.term.a": term}}, worlds=["zzz"])
+    assert len(findings) == 1
+    assert "2 participant-facing field(s)" in findings[0].message
 
 
 def test_field_texts_reads_the_gloss_card_paths():

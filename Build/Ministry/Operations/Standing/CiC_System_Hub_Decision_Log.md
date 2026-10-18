@@ -6708,3 +6708,9 @@ Sonnet drafted the 27. An independent Opus review (`Build/Ministry/Operations/Au
 The project lead chose option A on 18 October: the question-ending gate reads the gloss card, and the one line it flagged is fixed. A participant opens the card to understand a word, so a sentence ending on a bare "how" works against the card's job. The gate now reads every field the readability gate grades, the card included. The spoken-scaffolding check still reads only spoken text, because a translational card opens with a modern question by design.
 
 The one finding in the fleet was `alx.term.eucharistia` `senses.translational`, which ended "and gave no account of how." It now ends "and gave no account of how the bread could be his flesh." The card has no audio, and nothing runs at conversation time or calls a model. Still to decide: whether the attribution and id-leak checks read the card.
+
+## 2026-10-18 - The id-leak check reads the gloss card
+
+The project lead chose option A on 18 October: the cross-world id-leak check (`ui-field-leak`) reads the gloss card's `senses.translational` and `false_friend` lines, and the one line it flagged is fixed. A raw record id or build reference on a card is a defect a participant would see. The check runs on the record files at build time, never during a conversation.
+
+The only hit in the fleet was in the fixture, which may carry no waiver: `fix.term.the-three` `false_friend[0]` read "a hiking trail (unrelated meaning of an unrelated word - see fix.term.the-way for the real false-friend case)", a builder's note naming a record id. It now reads "a hiking trail, which has nothing to do with this world's word". No real world's card has a hit. Still to decide: whether the attribution scan reads the card.

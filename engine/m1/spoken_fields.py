@@ -257,7 +257,7 @@ PERSPECTIVE_FIELDS: dict[str, list[str]] = {
 # engine/m1/cross_world.py check_participant_field_leaks's own field scan.
 PARTICIPANT_FIELDS: dict[str, list[str]] = {
     "figure": ["bridge_line"],
-    "term": ["world_word"],
+    "term": ["world_word", "senses.translational", "false_friend"],
     "story": ["tellable_as", "telling"],
     "gravity": ["name"],
     "force": ["name"],

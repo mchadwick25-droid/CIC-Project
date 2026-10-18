@@ -40,7 +40,7 @@ import statistics
 
 from engine.m1.loader import RECORDS_ROOT, load_world_records
 from engine.m1.registry import REPO_ROOT, formation_world_keys, load_registry
-from engine.m1.spoken_fields import PARTICIPANT_FIELDS, SPOKEN_FIELDS, fields_with_role
+from engine.m1.spoken_fields import PARTICIPANT_FIELDS, SPOKEN_FIELDS, field_texts, fields_with_role
 from engine.m7.instruments import _strip_quoted
 
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
@@ -752,7 +752,7 @@ _BUILD_REF = re.compile(
 # them would bury the real findings.
 # Relocated to engine/m1/spoken_fields.py (PARTICIPANT_FIELDS) -
 # one declared spoken-field registry instead of six/seven independent
-# lists; see that module's own docstring. Same values, same behavior.
+# lists; see that module's own docstring.
 _PARTICIPANT_FIELDS = PARTICIPANT_FIELDS
 
 
@@ -761,7 +761,7 @@ def check_participant_field_leaks(*, records, worlds, **_) -> list[Finding]:
     for w in worlds:
         hits = []
         for rid, rec in sorted(records[w].items()):
-            texts = [(f, rec.get(f)) for f in _PARTICIPANT_FIELDS.get(rec["record_type"], [])]
+            texts = [(f, t) for f in _PARTICIPANT_FIELDS.get(rec["record_type"], []) for t in field_texts(rec, f)]
             if rec["record_type"] == "figure":
                 texts += [(f"dates.{k}", v) for k, v in (rec.get("dates") or {}).items()]
             for field, text in texts:
