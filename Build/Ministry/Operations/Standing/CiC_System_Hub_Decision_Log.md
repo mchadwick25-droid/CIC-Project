@@ -6702,3 +6702,9 @@ The gate change alters every package's gates report, so all twelve built worlds 
 The project lead chose, on 18 October, to rewrite the gloss cards scoring FK 18 or more: 27 card texts, in witt (16), gallic (4), hal (4) and rzg (3). He asked first what the cards are and whether they are recorded. They are the click-through panel on a marked term in the conversation app. No audio exists for them, and the public site's glossary shows only the term and its `plain_meaning`.
 
 Sonnet drafted the 27. An independent Opus review (`Build/Ministry/Operations/Audits/gloss_card_fk18_rewrites_review_2026-10-18.md`) passed 17 and corrected 10, mostly where a plainer word shifted the meaning. Each card keeps its claims and its quotations, which are verbatim in the vendored texts, and speaks from outside the world. All 27 pass the gate; each scores below FK 8, reported and not failed. The readability waivers fall to gallic 233, hal 148, rzg 108 and witt 291. The four packages were rebuilt and repinned. Cards below FK 18 stay as written.
+
+## 2026-10-18 - The question-ending gate reads the gloss card
+
+The project lead chose option A on 18 October: the question-ending gate reads the gloss card, and the one line it flagged is fixed. A participant opens the card to understand a word, so a sentence ending on a bare "how" works against the card's job. The gate now reads every field the readability gate grades, the card included. The spoken-scaffolding check still reads only spoken text, because a translational card opens with a modern question by design.
+
+The one finding in the fleet was `alx.term.eucharistia` `senses.translational`, which ended "and gave no account of how." It now ends "and gave no account of how the bread could be his flesh." The card has no audio, and nothing runs at conversation time or calls a model. Still to decide: whether the attribution and id-leak checks read the card.

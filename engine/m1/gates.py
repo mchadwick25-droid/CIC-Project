@@ -530,7 +530,7 @@ def _readability_checks(record_type: str, rec: dict, roles: tuple[str, ...] = _R
     hand-maintained field list, so this stays in sync with whatever
     actually compiles into a turn instead of silently drifting from it.
     `roles` narrows it; _SPOKEN_PROSE_ROLES leaves out the gloss card,
-    which is read, never spoken."""
+    which is read, never spoken (the scaffolding check uses it)."""
     checks: list[tuple[str, str]] = []
     for field in fields_with_role(record_type, *roles):
         if (record_type, field) in _READABILITY_EXCLUDED_FIELDS:

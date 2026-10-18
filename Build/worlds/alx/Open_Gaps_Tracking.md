@@ -759,3 +759,7 @@ Fixed: the tile no longer states Origen's act as fact; Leonides's card no longer
 - The Leonides teaser keeps "sixteen-year-old", which fits the source.
 
 Status: CLOSED for this review; the open items above are for the project lead.
+
+### OG-32. A gloss card that ended on a bare question word, 2026-10-18.
+
+On 18 October the project lead ruled that the question-ending gate reads the gloss card (`senses.translational` and each `false_friend` line), and that the one line it flagged in the fleet is fixed (System Hub Decision Log, "2026-10-18 - The question-ending gate reads the gloss card"). `alx.term.eucharistia` `senses.translational` ended "and gave no account of how." It now ends "and gave no account of how the bread could be his flesh." No other word changed. The card already passed readability and still does. `engine.m10.cli records alx` and `regate alx` pass. Package rebuilt and repinned. Status: CLOSED.

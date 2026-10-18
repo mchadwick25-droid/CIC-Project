@@ -184,13 +184,16 @@ def test_readability_grades_the_gloss_card():
     assert any("false_friend[1] scores FRE" in f for f in findings)
 
 
-def test_spoken_checks_leave_the_gloss_card_out():
-    from engine.m1.question_endings import spoken_texts
+def test_question_ending_reads_the_gloss_card_and_scaffolding_does_not():
+    from engine.m1.question_endings import bare_question_hits
     from engine.m1.spoken_scaffolding import scaffolding_hits
 
-    term = _card(senses={"translational": "'Was he God?' We cannot tell you why."}, false_friend=["You asked how."])
+    term = _card(senses={"translational": "'Was he God?' This world gave no account of how."}, false_friend=["You asked how."])
     assert gates._readability_checks("term", term, gates._SPOKEN_PROSE_ROLES) == []
-    assert spoken_texts(term) == []
+    assert [(label, sentence) for _, label, sentence in bare_question_hits({"zzz.term.a": term})] == [
+        ("senses.translational", "This world gave no account of how."),
+        ("false_friend[0]", "You asked how."),
+    ]
     assert scaffolding_hits({"zzz.term.a": term}) == []
 
 

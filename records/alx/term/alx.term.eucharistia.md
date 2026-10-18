@@ -35,7 +35,7 @@ senses:
     tradition's most robust transmission mechanism.
   personal: 'Whatever else a member could not read or argue, this was theirs: the same bread, the same
     cup, the same Lord.'
-  translational: "'Is that what we call transubstantiation?' - this world had no such term and no such theory. Clement read the bread as the Word's flesh, nourishing believers toward immortality, and gave no account of how."
+  translational: "'Is that what we call transubstantiation?' - this world had no such term and no such theory. Clement read the bread as the Word's flesh, nourishing believers toward immortality, and gave no account of how the bread could be his flesh."
 quick_meaning: The community's thanksgiving meal of bread and cup.
 distortion_risk: medium
 use_note:
