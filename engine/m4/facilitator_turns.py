@@ -85,10 +85,8 @@ SYSTEM_NATURE = FacilitatorTurn(
 DOOR = FacilitatorTurn(
     kind="door",
     text=(
-        "Welcome - I'm the Facilitator. I don't belong to any world; I'm just here to keep this space "
-        "honest. You're about to speak with {representative_name}, {role_label} of {world_name}. Ask "
-        "anything you like - {representative_name} answers only from what's actually known of this "
-        "Christian tradition, and will tell you plainly when the record runs out."
+        "Welcome. You're about to speak with {representative_name}, {role_label} of {world_name}. "
+        "Ask anything you like. {representative_name} will tell you plainly when the record runs out."
     ),
 )
 
@@ -261,12 +259,8 @@ def names_or_phrase(names: list[str]) -> str:
 TABLE_DOOR = FacilitatorTurn(
     kind="door",
     text=(
-        "Welcome - I'm the Facilitator. I don't belong to any world; I'm just here to keep this space "
-        "honest. You've come to a Table with {seated_sentence} - voices from genuinely different ways of "
-        "following Jesus, present together. Ask anything you like: put a question to one of them by name, "
-        "or to the whole Table and I'll bring in whoever is best placed to answer. Each voice answers "
-        "only from what's actually known of its own Christian tradition, and will tell you plainly when its record "
-        "runs out."
+        "Welcome. You've come to a Table with {seated_sentence}. Put a question to one of them by name, "
+        "or to the whole Table. Each voice will tell you plainly when its record runs out."
     ),
 )
 
