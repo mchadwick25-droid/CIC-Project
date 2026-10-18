@@ -21,7 +21,9 @@ import json
 import math
 import os
 import sys
+import tempfile
 import threading
+from datetime import datetime, timezone
 from contextlib import contextmanager
 from dataclasses import dataclass
 
@@ -29,6 +31,7 @@ LIVE_TEST_FLAG = "--live-test"
 CAP_FLAG = "--cap-usd"
 EXIT_REFUSED = 2
 RENDER_ENV = "RENDER"  # set by Render on every service it runs
+LEDGER_ENV = "CIC_LIVE_TEST_LEDGER"
 
 RULE = (
     "Model calls outside a conversation need an approved live test (System Hub decision 56).\n"
@@ -76,6 +79,12 @@ _state_lock = threading.Lock()
 
 def _emit(text: str) -> None:
     print(text, flush=True)
+
+
+def ledger_path() -> str:
+    """Where an approved run appends each call as it happens. A process that
+    dies before its report is written still leaves this file."""
+    return os.environ.get(LEDGER_ENV) or os.path.join(tempfile.gettempdir(), "cic-live-test-ledger.jsonl")
 
 
 @contextmanager
@@ -211,6 +220,18 @@ class _Run:
         self.announced: list[str] | None = None
         self.cap_notice_given = False
         self.lock = threading.Lock()
+        self.ledger = ledger_path()
+
+    def _record(self, event: str, **fields) -> None:
+        line = {
+            "at": datetime.now(timezone.utc).isoformat(timespec="milliseconds"),
+            "live_test": self.live_test.name, "cap_usd": self.live_test.cap_usd,
+            "event": event, **fields,
+        }
+        with open(self.ledger, "a", encoding="utf-8") as f:
+            f.write(json.dumps(line, default=str) + "\n")
+            f.flush()
+            os.fsync(f.fileno())
 
     def _price(self, model_id: str):
         from engine.m8.price_tables import price_for_route
@@ -230,7 +251,8 @@ class _Run:
             f"LIVE TEST: {self.live_test.name}\n"
             f"CAP: ${self.live_test.cap_usd:.2f}\n"
             f"MODELS: {', '.join(self.announced)}\n"
-            f"ROUTE: {route}"
+            f"ROUTE: {route}\n"
+            f"LEDGER: {self.ledger}"
         )
 
     def reserve(self, kwargs: dict) -> float:
@@ -252,6 +274,10 @@ class _Run:
                     self.cap_notice_given = True
                     _emit(f"LIVE TEST CAP REACHED: {self.live_test.name}: priced total ${self.spent:.4f} of ${self.live_test.cap_usd:.2f}; no further calls.")
                 raise LiveTestCapReached(f"live test {self.live_test.name!r}: the next call could pass the ${self.live_test.cap_usd:.2f} cap")
+            try:
+                self._record("hold", model_id=model_id, hold_usd=round(ceiling, 6), spent_usd=round(self.spent, 6))
+            except OSError as error:
+                raise LiveTestGuardError(f"cannot write the ledger {self.ledger}: {error}; a capped run records every call before it makes it") from error
             self.reserved += ceiling
             return ceiling
 
@@ -278,6 +304,10 @@ class _Run:
             self.reserved -= hold
             self.spent += dollars
             self.calls.append(entry)
+            try:
+                self._record("settle", spent_usd=round(self.spent, 6), **entry)
+            except OSError as error:
+                _emit(f"LEDGER WRITE FAILED: {self.ledger}: {error}; this call's priced usage was ${dollars:.4f}")
 
 
 class _GuardedStream:

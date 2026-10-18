@@ -6677,6 +6677,12 @@ The store was 801 MB when the ruling was made, after the Shared Events Era 2 bat
 
 The project lead ruled that an honest limit puts the subject first and ends on what is not known, never on a bare verb such as "kept" or "wrote down", and never on "such" pointing back past the sentence before. The rule is added to `VR_1A_Writing_Standard_2026-08-09.md` beside the 14 October honest-limit rule. The records that broke it are rewritten and logged in each world's Open_Gaps_Tracking.md.
 
+## 2026-10-18 - Fleet re-admission attempt lost its record; live-test calls are now ledgered
+
+The project lead approved a named, capped admission run in conversation on 18 October: name "fleet re-admission, 18 October"; cap $8.00; Bedrock us-east-1; voice model `us.anthropic.claude-sonnet-4-5`; the eleven formation worlds in one invocation. The run started at 12:57 UTC and its output was piped through `head`, which closed the pipe and ended the process at about 13:03 UTC before the report was written. The guard kept its priced tally only in memory and the report was its only record, so the amount spent is unrecorded. The run's preflight estimate for the whole fleet was $5.96, and the process ran long enough for one to two worlds. The figure has to be read from AWS (Bedrock `InvokeModel` charges, 12:57 to 13:03 UTC, 18 October). No admission evidence came from the attempt, and admission conformance still reports all eleven worlds stale.
+
+Change: `engine.provider.guard` now appends every call of an approved live test to a ledger file as it happens, a `hold` line before the call and a `settle` line after it, and refuses a call when the ledger cannot be written. The header prints the ledger path. The promotion runbook's named-run section says to send the run's output to a file and keep the ledger. The conversation path on Render is unchanged. Whether to re-run the admission run or waive the gate for the full promotion is the project lead's decision.
+
 ## 2026-10-15 - The gloss card speaks from outside the world
 
 A term's gloss card shows the participant `senses.translational` and each `false_friend` line (`engine/m4/term_glosses.py`, `GlossMark.tsx`). `engine/m1/spoken_fields.py` did not declare either field, so no prose gate read them. They are now declared under a new `gloss-card` role. No gate reads that role yet.
