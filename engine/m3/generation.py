@@ -34,6 +34,10 @@ from engine.m4.turn import apply_net
 from engine.m4.story_placement import with_placeable_stories
 from engine.m4.world_loader import LoadedWorld
 
+# A live probe whose reply stream fails is asked again, so one dropped
+# connection costs one probe and not the world run; each attempt is a recorded call.
+_VOICE_CALL_ATTEMPTS = 3
+
 _TYPE_PRIORITY = ["doctrinal_witness", "quote", "story", "term"]
 
 
@@ -185,7 +189,10 @@ class LiveModelAnswerer:
         evidence_block = m4_evidence.render_evidence_block(turn_evidence)
         user_message = f"{evidence_block}\n{probe_text}" if turn_evidence["candidates"] else probe_text
 
-        stream_outcome = stream_voice_turn(self.client, self.model_id, system_prompt=self.world.prompt_text, message=user_message)
+        for _attempt in range(_VOICE_CALL_ATTEMPTS):
+            stream_outcome = stream_voice_turn(self.client, self.model_id, system_prompt=self.world.prompt_text, message=user_message)
+            if stream_outcome.status == "ok":
+                break
         if stream_outcome.status != "ok":
             raise RuntimeError(f"LiveModelAnswerer: voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
 
