@@ -5893,3 +5893,9 @@ and each Church Family Tree page. This also touches two items:
 **Done in this change.** The page and every footer and body link to it are removed, along
 with its sitemap entry, its README line and its unused outcomes styling. The privacy page
 describes what the page-level like and report store.
+
+## 2026-10-18 - The Facilitator's welcome is short and silent
+
+The project lead ruled that the Facilitator's welcome is too long, and that a participant who has heard it once does not need it again. The recorded welcome no longer plays by itself, and its "Hear the welcome" button is gone with it. The welcome is now two short sentences of text: who the participant is about to speak with, and that the Representative will say plainly when the record runs out. A Table's welcome is the same shape. The Facilitator's self-introduction and its explanation of its role are dropped from both. This is a change order to the 2026-08 decision that gave each world a spoken door.
+
+The recorded door files under `cic-poc/frontend/public/audio/door/` and `Build/tools/generate_door_narration.py` stay in the repository, unused, until the project lead decides whether to delete them.
