@@ -1,20 +1,23 @@
 """Feedback endpoints: a participant's like or flag on one Representative
-reply, a comment from the app or the public site, and the operator's queue.
+reply, a comment, a page like or a page report from the app or the public
+site, and the operator's queue.
 
 Storage only. The server reads the record ids and confidence tags for a flagged
 sentence from the conversation's own stored plan, so the client never names
 them, and it never copies the reply's words into the store. No model is called.
 """
-from typing import Callable, Literal
+from typing import Annotated, Any, Callable, Literal
 
 from fastapi import FastAPI, Header, HTTPException, Request, Response
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Discriminator, Field, Tag
 
 from engine.feedback.store import OUTCOMES, FeedbackStore
 
 MAX_FLAG_LINE = 600
 MAX_COMMENT = 2000
 MAX_PAGE = 80
+MAX_PAGE_ID = 120
+PAGE_ID_PATTERN = r"^[A-Za-z0-9/_.:-]+$"
 MAX_NAME = 60
 MAX_EMAIL = 200
 
@@ -35,6 +38,30 @@ class CommentRequest(BaseModel):
     quote_consent: Literal["no", "anonymous", "first_name"] = "no"
     first_name: str | None = Field(default=None, max_length=MAX_NAME)
     email: str | None = Field(default=None, max_length=MAX_EMAIL)
+
+
+class PageLikeRequest(BaseModel):
+    kind: Literal["like"]
+    page: str = Field(min_length=1, max_length=MAX_PAGE_ID, pattern=PAGE_ID_PATTERN)
+
+
+class PageReportRequest(BaseModel):
+    kind: Literal["report"]
+    page: str = Field(min_length=1, max_length=MAX_PAGE_ID, pattern=PAGE_ID_PATTERN)
+    reason: Literal["accuracy", "craft"]
+    text: str = Field(min_length=1, max_length=MAX_FLAG_LINE)
+    email: str | None = Field(default=None, max_length=MAX_EMAIL)
+
+
+def _site_kind(body: Any) -> str:
+    kind = body.get("kind") if isinstance(body, dict) else getattr(body, "kind", None)
+    return kind if kind in ("like", "report") else "comment"
+
+
+SiteFeedbackRequest = Annotated[
+    Annotated[CommentRequest, Tag("comment")] | Annotated[PageLikeRequest, Tag("like")] | Annotated[PageReportRequest, Tag("report")],
+    Discriminator(_site_kind),
+]
 
 
 class CloseRequest(BaseModel):
@@ -152,10 +179,20 @@ def install(
         response.status_code = 204
 
     @app.post("/api/feedback", status_code=201)
-    def comment(req: CommentRequest, request: Request, response: Response):
-        """A comment about the experience, from the app or the public site."""
+    def comment(req: SiteFeedbackRequest, request: Request, response: Response):
+        """A comment about the experience, or a like or a report on one page,
+        from the app or the public site. None of them needs a session."""
         store = _enabled()
         _cors(request, response)
+        if isinstance(req, PageLikeRequest):
+            return {"id": store.add({"kind": "like", "page": req.page})}
+        if isinstance(req, PageReportRequest):
+            text = _blank_to_none(req.text)
+            if text is None:
+                raise HTTPException(status_code=422, detail="text is required")
+            return {"id": store.add({
+                "kind": "report", "page": req.page, "reason": req.reason, "text": text, "email": _blank_to_none(req.email),
+            })}
         text = _blank_to_none(req.text)
         page = _blank_to_none(req.page)
         if text is None or page is None:

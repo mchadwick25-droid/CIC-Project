@@ -4,10 +4,12 @@ import { ChatInput } from '../components/ChatInput';
 import { DeleteConversation, DeletedNotice } from '../components/DeleteConversation';
 import { DoorNarration } from '../components/DoorNarration';
 import { ExperienceFeedbackButton, ExperienceFeedbackCard } from '../components/ExperienceFeedback';
+import { PageFeedback } from '../components/PageFeedback';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import type { ConversationTurn } from '../hooks/useConversation';
+import { pageFeedbackId } from '../lib/api';
 import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import type { WorldEntry, WorldStarter } from '../data/worlds';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
@@ -281,6 +283,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
           />
         </>
       )}
+      {!deleted && started && <PageFeedback page={pageFeedbackId('conversation', [world.worldKey])} />}
       {!deleted && started && sessionCode && onDelete && <DeleteConversation onDelete={handleDelete} />}
     </div>
   );

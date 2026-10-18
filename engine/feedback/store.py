@@ -4,9 +4,10 @@ from the site. A separate SQLite file, sharing no key with the event log.
 A row is a pointer, never conversation text: the session, the turn and
 sentence indexes, the record ids and confidence tags behind that sentence, a
 reason from a fixed set, and the optional line the person typed. A like is
-one row per session and turn. A comment names the page it was left on.
+one row per session and turn. A comment names the page it was left on. A page
+like and a page report carry the page and no session, turn or record id.
 
-A waiting item is a flag or a comment waiting for a person. Closing it records
+A waiting item is a flag, a comment or a report waiting for a person. Closing it records
 one of five outcomes and clears the email, so a contact address never outlives
 the reply it was left for. A like needs no answer: it is never in the queue and
 is deleted with the conversations it points to. Closed items older than the
@@ -18,14 +19,14 @@ import uuid
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-KINDS = ("like", "flag", "comment")
-REASONS = ("fact_wrong", "source_mismatch", "overcertain", "unclear")
+KINDS = ("like", "flag", "comment", "report")
+REASONS = ("fact_wrong", "source_mismatch", "overcertain", "unclear", "accuracy", "craft")
 QUOTE_CONSENTS = ("no", "anonymous", "first_name")
 OUTCOMES = ("corrected", "checked_stands", "open_lead", "conviction", "no_action")
 CLOSED_RETENTION_DAYS = 90
 
-DDL = f"""
-CREATE TABLE IF NOT EXISTS feedback (
+_TABLE = f"""
+CREATE TABLE {{name}} (
   id            TEXT PRIMARY KEY,
   kind          TEXT NOT NULL CHECK (kind IN {KINDS!r}),
   created_at    TEXT NOT NULL,
@@ -43,9 +44,8 @@ CREATE TABLE IF NOT EXISTS feedback (
   outcome       TEXT CHECK (outcome IS NULL OR outcome IN {OUTCOMES!r}),
   outcome_note  TEXT,
   closed_at     TEXT
-);
-CREATE INDEX IF NOT EXISTS feedback_like_idx ON feedback (session_id, turn_index) WHERE kind = 'like';
-"""
+)"""
+_LIKE_INDEX = "CREATE INDEX IF NOT EXISTS feedback_like_idx ON feedback (session_id, turn_index) WHERE kind = 'like'"
 
 _COLUMNS = (
     "id", "kind", "created_at", "page", "session_id", "turn_index", "sentence_index", "record_ids", "confidence",
@@ -63,8 +63,35 @@ def _item(row) -> dict:
 class FeedbackStore:
     def __init__(self, db_path: str | Path):
         self.db_path = str(db_path)
-        with self._connect() as conn:
-            conn.executescript(DDL)
+        conn = self._connect()
+        try:
+            self._ensure_schema(conn)
+        finally:
+            conn.close()
+
+    @staticmethod
+    def _ensure_schema(conn: sqlite3.Connection) -> None:
+        """Creates the table, or rebuilds one made before the page-level kind
+        and reasons existed: rows are copied across unchanged, then the
+        indexes are made again. Safe to run on every start."""
+        conn.isolation_level = None
+        conn.execute("BEGIN IMMEDIATE")
+        try:
+            row = conn.execute("SELECT sql FROM sqlite_master WHERE type = 'table' AND name = 'feedback'").fetchone()
+            if row is None:
+                conn.execute(_TABLE.format(name="feedback"))
+            elif "'report'" not in row[0] or "'craft'" not in row[0]:
+                conn.execute("DROP TABLE IF EXISTS feedback_rebuilt")
+                conn.execute(_TABLE.format(name="feedback_rebuilt"))
+                columns = ", ".join(_COLUMNS)
+                conn.execute(f"INSERT INTO feedback_rebuilt ({columns}) SELECT {columns} FROM feedback")
+                conn.execute("DROP TABLE feedback")
+                conn.execute("ALTER TABLE feedback_rebuilt RENAME TO feedback")
+            conn.execute(_LIKE_INDEX)
+            conn.execute("COMMIT")
+        except BaseException:
+            conn.execute("ROLLBACK")
+            raise
 
     def _connect(self) -> sqlite3.Connection:
         conn = sqlite3.connect(self.db_path, timeout=5.0)

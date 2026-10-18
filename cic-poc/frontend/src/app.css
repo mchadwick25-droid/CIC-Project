@@ -1884,6 +1884,7 @@ button {
 }
 
 .turn-feedback button,
+.page-feedback__row button,
 .experience-feedback__toggle {
   background: none;
   border: none;
@@ -1891,6 +1892,29 @@ button {
   color: inherit;
   font: inherit;
   cursor: pointer;
+}
+
+.page-feedback {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  box-sizing: border-box;
+}
+
+.page-feedback__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--spacing-xs) var(--spacing-md);
+  font-family: var(--font-family-ui);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--color-text-muted);
+}
+
+.page-feedback .feedback-card__thanks:empty {
+  display: none;
 }
 
 .turn-feedback__like {
@@ -1914,6 +1938,7 @@ button {
 }
 
 .turn-feedback button:focus-visible,
+.page-feedback__row button:focus-visible,
 .experience-feedback__toggle:focus-visible,
 .feedback-card__actions button:focus-visible,
 .feedback-card__field:focus-visible,

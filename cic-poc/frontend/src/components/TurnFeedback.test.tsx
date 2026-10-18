@@ -120,7 +120,7 @@ describe('TurnFeedback', () => {
       kind: 'flag', turn_index: 3, sentence_index: 1, reason: 'source_mismatch', text: 'Check Irenaeus.', email: 'a@b.org',
     });
     expect(screen.getByRole('status').textContent).toBe(
-      'Thank you. We check every one of these against the sources. What we find goes on our Corrections page.'
+      'Thank you. A person will check it against the sources.'
     );
     expect(screen.queryByText('Tell us what was not clear or accurate')).toBeNull();
     expect((link as HTMLButtonElement).disabled).toBe(true);

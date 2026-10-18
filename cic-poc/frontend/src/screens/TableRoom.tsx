@@ -16,11 +16,13 @@ import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
 import { DeleteConversation, DeletedNotice } from '../components/DeleteConversation';
 import { ExperienceFeedbackButton, ExperienceFeedbackCard } from '../components/ExperienceFeedback';
+import { PageFeedback } from '../components/PageFeedback';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry } from '../data/worlds';
+import { pageFeedbackId } from '../lib/api';
 import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import { useState } from 'react';
 
@@ -217,6 +219,9 @@ export function TableRoom({
           disabled={isLoading || roundOpen}
           placeholder={roundOpen ? 'The table is still speaking…' : 'Bring your question to the table…'}
         />
+      )}
+      {!deleted && turns.some((t) => t.speaker === 'participant') && (
+        <PageFeedback page={pageFeedbackId('table', seatedWorlds.map((w) => w.worldKey).sort())} />
       )}
       {!deleted && sessionCode && onDelete && <DeleteConversation onDelete={handleDelete} />}
     </div>
