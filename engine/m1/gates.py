@@ -17,7 +17,7 @@ from .fk import fk_grade, fre_score
 from .loader import home_for_record_type, voiced_records
 from .quote_verbatim import gate_quote_verbatim
 from .schemas import RELATION_INVERSE, build_schema
-from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, field_texts, fields_with_role, shared_fields_with_role
+from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, field_texts, field_value, fields_with_role, shared_fields_with_role
 
 FK_CEILING = 10
 
@@ -480,7 +480,8 @@ def gate_canonical_address(records, fleet, registry) -> list[str]:
 # grades (engine/m1/spoken_fields.py's own prose-bearing roles:
 # "instruction", "voice-diet", "evidence-head" reach the participant
 # through the world's own voice; "facilitator-spoken" reaches them
-# through the Facilitator's own composed text instead). "participant-
+# through the Facilitator's own composed text instead; "gloss-card" is
+# the text a term's gloss card shows). "participant-
 # label" fields (a term's world_word, a figure's names, a quote's
 # speaker_or_author/sources, a source's work, gravity/force's own name)
 # are short labels or proper nouns by design, not composed prose -
@@ -489,7 +490,7 @@ def gate_canonical_address(records, fleet, registry) -> list[str]:
 # tag inside a gravity/force name is a build-vocabulary leak, checked by
 # tools/check_live_commentary.py's own SPOKEN_VOCAB_PATTERNS - a
 # different problem from readability, not this gate's to solve.
-_READABILITY_ROLES = ("instruction", "voice-diet", "evidence-head", "facilitator-spoken")
+_READABILITY_ROLES = ("instruction", "voice-diet", "evidence-head", "facilitator-spoken", "gloss-card")
 
 # quote.text and story.text each carry a role this gate would otherwise
 # grade (evidence-head and voice-diet respectively), but both are the
@@ -531,7 +532,7 @@ def _readability_checks(record_type: str, rec: dict) -> list[tuple[str, str]]:
     for field in fields_with_role(record_type, *_READABILITY_ROLES):
         if (record_type, field) in _READABILITY_EXCLUDED_FIELDS:
             continue
-        value = rec.get(field)
+        value = field_value(rec, field)
         if not value:
             continue
         list_key = _READABILITY_LIST_TEXT_KEY.get((record_type, field))

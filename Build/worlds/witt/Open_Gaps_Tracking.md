@@ -2646,3 +2646,7 @@ Added after the independent review of #875 and the project lead's rulings of 13 
 - \`witt.term.gospel\`: both \`plain_meaning\` and \`means\` say the Gospel "had been buried"; the hymnal preface does not say so ("hath again risen"). OPEN.
 
 Status: CLOSED for the fixes above; the registered items stay OPEN.
+
+## OG-72. Gloss-card text in the world's we-voice, 2026-10-15.
+
+On 15 October the project lead ruled that a term's gloss card speaks from outside the world, like every card that describes it; only the Representative's own speech says "we" (System Hub Decision Log, "2026-10-15 - The gloss card speaks from outside the world"). The card shows `senses.translational` and each `false_friend` line. A word match finds "we", "our" or "us" in 72 `senses.translational` and 32 `false_friend` lines, on 72 term records; every witt card is written in the we-voice. Some hits may sit inside a quoted modern question; each needs a read. These lines stay as written. The project lead ruled the same day that nothing already voiced is changed in bulk, and that only a line that is significantly a problem is rewritten. A card in the we-voice is not, by itself, such a problem. A modern question in quotation marks ("Is that what we call transubstantiation?") is right as written. No gate checks the card's voice. Status: OPEN, held as written.

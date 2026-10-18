@@ -760,3 +760,7 @@ The independent review of the entry Use notes that contradicted the corrected wo
 Still OPEN, not edited: the `senses.informational` text of `pahc.term.diakonos` gives deacons the work for the widow, the orphan and the prisoner, which Justin (First Apology 67) gives to the president; the deacons there carry the elements to the absent.
 
 Status: CLOSED for the `means` changes; OPEN for `pahc.term.diakonos` `senses.informational`.
+
+### OG-31. Gloss-card text in the world's we-voice, 2026-10-15.
+
+On 15 October the project lead ruled that a term's gloss card speaks from outside the world, like every card that describes it; only the Representative's own speech says "we" (System Hub Decision Log, "2026-10-15 - The gloss card speaks from outside the world"). The card shows `senses.translational` and each `false_friend` line. Two `senses.translational` lines may speak as "we": `pahc.term.diakonos` ("what we cannot know") and `pahc.term.ekklesia` ("the first time we know of", which may be the historian's "we"). `pahc.term.eucharistia` quotes Ignatius ("our Saviour") and a modern question, and is right as written. These lines stay as written. The project lead ruled the same day that nothing already voiced is changed in bulk, and that only a line that is significantly a problem is rewritten. A card in the we-voice is not, by itself, such a problem. A modern question in quotation marks ("Is that what we call transubstantiation?") is right as written. No gate checks the card's voice. Status: OPEN, held as written.

@@ -59,6 +59,14 @@ because the same field can reach different surfaces differently:
   hears, and grading it for reading level is exactly the job
   `gate_readability` already does for every other spoken-prose role.
 
+- "gloss-card": text a term's gloss card shows the participant
+  (`engine/m4/term_glosses.py` carries it, `GlossMark.tsx` shows it) and
+  the voice never reads. A card describes the world from outside it, so
+  the perspective scan, which holds the Representative to "we", does not
+  read it. It is composed prose a participant reads, so `gate_readability`
+  grades it. Its fields name later ideas on purpose (a false friend is the
+  modern sense read backward), so the horizon gate does not read it.
+
 A field carrying more than one role is deliberate, not an error — most
 fields reach a participant through more than one surface at once.
 """
@@ -68,7 +76,7 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class SpokenField:
-    role: str  # "instruction" | "voice-diet" | "evidence-head" | "participant-label" | "facilitator-spoken"
+    role: str  # "instruction" | "voice-diet" | "evidence-head" | "participant-label" | "facilitator-spoken" | "gloss-card"
     note: str = ""
 
 
@@ -102,6 +110,8 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
         "plain_meaning": SpokenField("voice-diet", "build_prompt + _chunk_text + evidence-head"),
         "quick_meaning": SpokenField("voice-diet"),
         "world_word": SpokenField("participant-label", "prompt section header + citation-card label + _chunk_text"),
+        "senses.translational": SpokenField("gloss-card", "the gloss card's 'translational_sense'"),
+        "false_friend": SpokenField("gloss-card", "list[str]"),
     },
     "gravity": {
         "name": SpokenField("participant-label", "build_prompt's Gravities list + citation-card label fallback"),
@@ -170,12 +180,18 @@ def shared_fields_with_role(*roles: str) -> list[str]:
     return [name for name, sf in SHARED_SPOKEN_FIELDS.items() if not roles or sf.role in roles]
 
 
-def field_texts(record: dict, field: str) -> list[str]:
-    """The strings a record holds at a field name or dotted path: the value
-    itself when it is a string, its string items when it is a list."""
+def field_value(record: dict, field: str):
+    """The value a record holds at a field name or dotted path, or None."""
     value = record
     for part in field.split("."):
         value = value.get(part) if isinstance(value, dict) else None
+    return value
+
+
+def field_texts(record: dict, field: str) -> list[str]:
+    """The strings a record holds at a field name or dotted path: the value
+    itself when it is a string, its string items when it is a list."""
+    value = field_value(record, field)
     if isinstance(value, str):
         return [value]
     if isinstance(value, list):

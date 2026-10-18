@@ -26,7 +26,7 @@ learns about, because nobody wrote it down in one place. Extending real
 AST enforcement to these three sites is a later, separately-scoped step.
 """
 from engine.m1 import cross_world, gates
-from engine.m1.spoken_fields import SPOKEN_FIELDS, fields_with_role
+from engine.m1.spoken_fields import SPOKEN_FIELDS, field_texts, fields_with_role
 
 
 def test_attribution_fields_relocated_unchanged():
@@ -148,6 +148,28 @@ _CITATION_LABEL_READS = {
 _MODERN_TERM_CARD_READS = {
     "modern_term": ["modern_sense", "distinguishing_claim"],
 }
+
+
+# Hand-verified against engine/m4/term_glosses.py find_glosses_used(), the
+# fields the gloss card carries to the participant.
+_GLOSS_CARD_READS = {
+    "term": ["plain_meaning", "quick_meaning", "senses.translational", "false_friend"],
+}
+
+
+def test_gloss_card_reads_are_all_declared():
+    _assert_all_declared("term_glosses.find_glosses_used", _GLOSS_CARD_READS)
+
+
+def test_gloss_card_fields_carry_only_their_own_role():
+    assert fields_with_role("term", "gloss-card") == ["senses.translational", "false_friend"]
+    assert not set(fields_with_role("term", "gloss-card")) & set(gates._PERSPECTIVE_FIELDS["term"])
+
+
+def test_field_texts_reads_the_gloss_card_paths():
+    term = {"senses": {"translational": "One."}, "false_friend": ["Two.", 3, "Four."]}
+    assert field_texts(term, "senses.translational") == ["One."]
+    assert field_texts(term, "false_friend") == ["Two.", "Four."]
 
 
 def test_build_prompt_reads_are_all_declared():
