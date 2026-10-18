@@ -38,9 +38,12 @@ relations:
   target: cappadocian.term.hesychia
 - type: associated-with
   target: cappadocian.term.koinonia
-plain_meaning: We took the word for an athlete's training and applied it to fasting, vigil, poverty,
-  and obedience. These practices were valued, but also disciplined. Anyone who fasted so hard they broke
-  up a household, or scorned the church's own feasts, was corrected, not praised.
+plain_meaning: >-
+  We took the word for an athlete's training and used it for fasting, night
+  vigils, poverty and obedience. We prized these practices, but we also
+  kept them in check. Some broke up a home for the sake of giving things
+  up, and some fasted on the Lord's day or scorned the martyrs' feasts.
+  They were corrected, not praised.
 world_word: askēsis
 false_friend:
 - a self-improvement regimen

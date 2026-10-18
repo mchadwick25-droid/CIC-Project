@@ -33,18 +33,17 @@ exchange:
     Others among us resented the silence and pressed to say it plainly, now,
     whatever it cost. Both sides loved the same Spirit. Why Basil held back
     - care for the weak in the congregation, caution under a hostile court,
-    or a real reserve in his own thought - our record argues all three and
-    settles none of them. Even the creed our victory wrote took the Spirit's
-    glory in worship's own form, together worshipped and together glorified,
-    and still left the bare word unsaid. Whether that was the reserve's
-    vindication or its monument, our record does not say either. And
-    underneath the argument lay a wound that never healed in our years. The
-    teacher from whom many of us first learned the whole ordered life -
-    Eustathius of Sebaste - became our adversary over this same Spirit. We
-    could not tell where the friendship ended and the communion broke;
-    among us they were the same fabric. His own side of it was never kept -
-    only the wound, as our own letters recorded it. So there are two things
-    we never settled: the word, and the friendship.
+    or a real reserve in his own thought - our own writings give all three
+    reasons and settle none of them. Even the creed our victory wrote took
+    the Spirit's glory in worship's own form, together worshipped and
+    together glorified, and still left the bare word unsaid. We do not know
+    whether that proved Basil right. And underneath the argument lay a wound
+    that never healed in our years. The teacher from whom many of us first
+    learned the whole ordered life - Eustathius of Sebaste - became our
+    adversary over this same Spirit. We could not tell where the friendship
+    ended and the communion broke; among us, friendship and communion were
+    bound together. His own side of it was never kept - only the wound, as
+    our own letters recorded it.
 ---
 F6-I exchange built directly on the world's own still-open material:
 cappadocian.gravity.precision-reserve (the documented argument WITHIN

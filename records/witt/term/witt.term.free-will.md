@@ -18,18 +18,19 @@ confidence:
     before being voiced as settled.
 sources:
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: Babylonian Captivity, cited among this entry's Registry rows (Doc_06 SS5 entry 2.9)
+  locus: Babylonian Captivity
   license: public-domain
 - source_id: witt.source.luther-deutsche-geistliche-lieder-the-hymns
   locus: the hymns -- 'Free-will against God's judgment fought, and dead to good remained'
   license: public-domain
 - source_id: witt.source.luther-on-the-bondage-of-the-will
-  locus: Bondage of the Will (OCR-degraded) -- the two kingdoms mutually militating, and 'we delight in
-    assertions'
+  locus: >-
+    Bondage of the Will (OCR-degraded) -- the two kingdoms mutually militating, and 'delight in assertions'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession XVIII -- some liberty in civil righteousness, none toward God without
-    the Spirit
+  locus: >-
+    the Augsburg Confession XVIII -- some liberty in civil righteousness, none toward God without the
+    Spirit
   license: public-domain
 retrieval:
   tier: 2

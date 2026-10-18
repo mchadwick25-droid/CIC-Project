@@ -8,7 +8,7 @@ register: etic
 canon_cells: []
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
   divergence_note: null
@@ -16,14 +16,20 @@ sources: []
 relations: []
 author: Gregory of Nyssa
 work: Gregory of Nyssa, the Life of Gregory Thaumaturgus
-edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, Ascetic, and
-  Moral Treatises, Letters), ed. Schaff, vendored as cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt'
-kind: vendored
-rights_status: "public-domain; vendored, rights independently confirmed"
+edition: >-
+  Not in the vendored npnf205, which only refers to it (lines 1246 and
+  21346). The seventeen-to-seventeen claim is reported in the editor's
+  introduction to the Library's Ante-Nicene Fathers vol. 6 (anf06), on
+  Gregory Thaumaturgus. An acquisition gap.
+citation: >-
+  Gregory of Nyssa, Life of Gregory Thaumaturgus
+kind: unvendored
+rights_status: >-
+  not independently verified; not yet acquired as an open text
 attribution_status: attributed
-discovery_channel: builder-prior-knowledge; Source Registry row 51; a named, vendored text already sitting
-  in cic/texts/ (present since an earlier session), not reopened to recheck this specific citation this
-  session.
+discovery_channel: >-
+  builder-prior-knowledge; Source Registry row 51. npnf205 only refers to
+  the Life; it has not been acquired.
 external_ids:
   cappadocian_source_registry_row: 51
 ---

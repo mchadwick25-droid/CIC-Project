@@ -63,30 +63,32 @@ name: "The churches' recruitment of monks as bishops [2A - ongoing/external]"
 kind: ongoing
 matrix_cell: 2A
 description: >-
-  Throughout the window, the Gallic churches drew their bishops from these houses, and the houses'
-  own texts record the drain in every voice. At Tours: 'we have seen numbers of these afterwards
-  made bishops. For what city or church would there be that would not desire to have its priests
-  from among those in the monastery of Martin?' (Vita X); Martin himself lured out by a citizen
-  'pretending that his wife was ill,' 'under a kind of guard escorted to the city,' and made bishop
-  while some bishops resisted (Vita IX). In the south: the Conferences' dedicatee turns from
-  'presiding as he does over a large monastery' to 'a Bishop blessed in name as well as merits'
-  between two prefaces; Honoratus, Hilary, and Faustus go to Arles and Riez; Eucherius's sons,
-  taught by Honoratus, Hilary, Salvian, and Vincent, become bishops (Doc_08 Cell 2A, Force 2A-2).
-  WORLD'S OWN EXPERIENCE (Layer 2): the dignity came to the man who had fled it. The churches came
-  to the monastery for their priests; the citizens laid an ambush of kindness and escorted the monk
-  to the city under guard; bishops resisted and were confounded by a psalm. The formed man did not
-  seek it: to want holy orders was vainglory's suggestion, and the man who wanted to rule had 'grown
-  cold through pride.' Yet the office, once it came, was kept as a monk keeps it - 'a monk's
-  humility as entire in the priesthood as, when a monk, he had fully possessed the merits of the
-  priesthood' (Hilary on Honoratus). The brethren expected to lose their best men upward and told
-  the loss as a capture. FORMATION IMPACT (Layer 3): G1 is this force's product - 'the drain and the
-  gravity cannot be told apart.' The community received the force by making the desire for office a
-  fault and the office itself a destiny - G9's opposed valences inside one house (2B-3). It shaped
-  the affect (a formation logic of 'not I' that extends to office: seized, never sought), the
-  narrative form (every founder's elevation told as capture), and the social escalator (descent
-  forced on the noble, elevation forced by the Church). It made the monk-bishop 'the world's exit
-  mechanism' and so is the ongoing force most directly continuous with the ending cells. Cross-node,
-  with insider Latin in the south.
+  Throughout this period, the Gallic churches drew bishops from these houses, and the houses' texts
+  record the drain at Tours and in the south.
+
+  At Tours the Life says: 'we have seen numbers of these afterwards made bishops. For what city or
+  church would there be that would not desire to have its priests from among those in the monastery
+  of Martin?' (Vita X). Martin himself was lured out by a citizen 'pretending that his wife was
+  ill.' He was 'under a kind of guard escorted to the city,' and made bishop while some bishops
+  resisted (Vita IX). In the south, the Conferences' dedicatee changes between two prefaces. First
+  he is 'presiding as he does over a large monastery.' Then he is 'a Bishop blessed in name as well
+  as merits.' Honoratus, Hilary and Faustus go to Arles and Riez. Eucherius's sons, taught by
+  Honoratus, Hilary, Salvian and Vincent, become bishops.
+
+  The dignity came to the man who had fled it. The churches came to the monastery for their priests.
+  The citizens laid an ambush of kindness and escorted the monk to the city under guard. Bishops
+  resisted and were confounded by a psalm. The formed man did not seek office. To want holy orders
+  was vainglory's suggestion, and the man who wanted to rule had 'grown cold through pride.' Yet
+  once the office came, it was kept as a monk keeps it. Hilary's sermon, as far as its rough Latin
+  can be read, says Honoratus kept a monk's humility whole in the priesthood. The brethren expected to lose their best men upward, and told the loss as a capture.
+
+  The monk-bishop pattern is this force's product; the drain and the pattern cannot be told apart.
+  The community answered it by making the desire for office a fault and the office itself a destiny.
+  So the ambivalence toward authority pulled both ways inside one house. The force shaped how office
+  felt: seized, never sought, in a formation that always says 'not I.' It shaped the form of the
+  stories: every founder's rise told as a capture. It shaped the social ladder: the noble forced
+  down, then forced up by the Church. It made the monk-bishop the way out of this world, and so is
+  the ongoing force that runs most directly into its ending.
 manifestations:
 - "Martin lured from Marmoutier on a pretext and 'under a kind of guard escorted to the city' to be made bishop (Vita IX)"
 - "'What city or church would there be that would not desire to have its priests from among those in the monastery of Martin?' (Vita X)"

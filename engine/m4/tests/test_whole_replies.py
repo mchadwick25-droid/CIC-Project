@@ -1,14 +1,12 @@
-"""A participant never reads a reply that is broken because sentences were
-cut out of it. Each case is a real reply shape, in the voice's own words: a
-sentence the net flags, and a sentence beside it that leans on it. Cutting
-the flagged one leaves the other pointing at nothing. The one regeneration
-is a rewrite of the voice's own answer that mends what leaned on the
-flagged material; a rewrite that still carries a flagged sentence is set
-aside for the Facilitator's line, never shown cut. Fake clients only."""
+"""What a participant reads when the net flags sentences in a real reply
+shape, in the voice's own words. Nothing is regenerated. A quotation the
+voice gave on its own, or a quote marker the turn did not offer, is cut with
+its lead-in, and a sentence beside it that pointed back stays as written. Any
+other flagged sentence is shown as written. Fake clients only."""
 import pytest
 
 from engine.m4 import grounding_net
-from engine.m4.tests.test_turn import FakeBedrockClient, _directive_text, _reader, _safety
+from engine.m4.tests.test_turn import FakeBedrockClient, _reader, _safety
 from engine.m4.turn import apply_net, run_voice_turn_for_world
 from engine.m4.world_loader import LoadedWorld
 
@@ -16,8 +14,7 @@ RID = "fix.witness.w"
 QUOTE_RID = "fix.quote.creed"
 
 # (sentences kept, each tagged to the world's one witness record; the
-# flagged sentence; where it sits among the kept ones; a whole rewrite
-# without it)
+# flagged sentence; where it sits among the kept ones)
 CASES = {
     "alx-t6-both-were-real": (
         [
@@ -28,15 +25,12 @@ CASES = {
         ],
         "The depth-formation Gregory walked belonged to the few who could read and argue.",
         0,
-        "What reached everyone was the water and the table: baptism, the bread and cup, the calendar [[fix.witness.w]]. "
-        "Those asked nothing of letters [[fix.witness.w]].",
     ),
     "alx-t4-that-was-the-deposit": (
         ["That was the deposit we were given to keep.", "We inherited him."],
         "The apostles handed it down: baptism into Father, Son, and Holy Spirit, the bread broken, the scriptures read, "
         "the teaching given to those being formed.",
         0,
-        "We were given a deposit to keep [[fix.witness.w]]. We inherited him [[fix.witness.w]].",
     ),
     "ijc-t4-that-is-a-bishop": (
         [
@@ -46,7 +40,6 @@ CASES = {
         "Eusebius of Caesarea hesitated at Nicaea over the word homoousios, thought it through, and signed - then "
         "wrote home to explain himself, so no one would question his motives.",
         1,
-        "A century of councils spent itself making the words exact because everything hung on them [[fix.witness.w]].",
     ),
     "ijc-t1-our-creed-answers-first": (
         [
@@ -56,7 +49,6 @@ CASES = {
         "In substance it says: very God of very God, of one substance with the Father, who for us men and for our "
         "salvation came down and was made man; he suffered, and the third day he rose again.",
         1,
-        "A century of councils spent itself making those words exact, because everything hung on them [[fix.witness.w]].",
     ),
     "cappadocian-t5-cost-him-a-friendship": (
         [
@@ -67,7 +59,6 @@ CASES = {
         "The teacher from whom many of us first learned the whole ordered life -- Eustathius of Sebaste -- became our "
         "adversary over this same Spirit.",
         2,
-        "Basil lived it [[fix.witness.w]]. Both sides loved the same Spirit [[fix.witness.w]].",
     ),
 }
 
@@ -102,7 +93,7 @@ def _cut_as_written(name):
 
 
 def _draft(name):
-    kept, _cut, at, _rewrite = CASES[name]
+    kept, _cut, at = CASES[name]
     tagged = [_tagged(s) for s in kept]
     return " ".join(tagged[:at] + [_cut_as_written(name)] + tagged[at:])
 
@@ -118,53 +109,14 @@ def _turn(name, scripts):
 
 
 @pytest.mark.parametrize("name", list(CASES))
-def test_cutting_the_flagged_sentence_leaves_the_broken_reply_the_re_reading_showed(name):
-    """The hazard itself: the flagged sentence cut out of this reply leaves
-    exactly the kept sentences, one of which leans on what was cut, as the
-    reply a participant would have read."""
-    kept, cut, _at, _rewrite = CASES[name]
-    records = {r["id"]: r for r in _world(kept).repository["records"]}
-    shown, _citations, _net_result = apply_net(
-        grounding_net.drop_flagged_sentences(_draft(name), {cut}), repository_records=records, thin_topics=None,
-    )
-    assert shown == " ".join(kept)
-
-
-@pytest.mark.parametrize("name", list(CASES))
-def test_a_rewrite_still_carrying_the_flagged_sentence_is_set_aside_not_cut(name):
-    kept, cut, _at, _rewrite = CASES[name]
+def test_one_call_shows_the_reply_with_only_a_quotation_cut(name):
+    kept, _cut, _at = CASES[name]
     draft = _draft(name)
-    voice_event, client = _turn(name, [[draft], [draft]])
-    assert len(client.messages.captured_stream_calls) == 2  # one regeneration, never a second
-    assert voice_event["sentence_enforcement"]["flagged"] == [cut]
-    assert voice_event["sentence_enforcement"]["still_flagged"] == [cut]
-    assert voice_event["sentence_enforcement_exhausted"] is True
-    assert voice_event["text"] == ""
-    assert voice_event["citations"] == []
-
-
-@pytest.mark.parametrize("name", list(CASES))
-def test_a_whole_rewrite_without_the_flagged_sentence_is_shown_as_written(name):
-    _kept, cut, _at, rewrite = CASES[name]
-    voice_event, client = _turn(name, [[_draft(name)], [rewrite]])
-    assert len(client.messages.captured_stream_calls) == 2
-    assert voice_event["sentence_enforcement"]["still_flagged"] == []
-    assert voice_event["sentence_enforcement_exhausted"] is False
-    assert voice_event["text"] == grounding_net.strip_tags(rewrite)
-
-
-@pytest.mark.parametrize("name", list(CASES))
-def test_the_one_regeneration_asks_for_a_whole_rewrite_of_the_voices_own_answer(name):
-    _kept, cut, _at, rewrite = CASES[name]
-    draft = _draft(name)
-    _voice_event, client = _turn(name, [[draft], [rewrite]])
-    retry_system, _messages = client.messages.captured_stream_calls[1]
-    directive = _directive_text(retry_system)
-    assert f'"{_cut_as_written(name)}" - ' in directive  # the flagged sentence, as written, with its reason
-    assert f"YOUR LAST ANSWER:\n{draft}" in directive  # the voice's own answer, given back whole, tags and all
-    assert "mend every sentence that introduced, pointed back to, counted on or finished what you took out" in directive
-    first_system, _m = client.messages.captured_stream_calls[0]
-    assert "YOUR LAST ANSWER" not in _directive_text(first_system)
+    voice_event, client = _turn(name, [[draft]])
+    assert len(client.messages.captured_stream_calls) == 1
+    expected = " ".join(kept) if name.startswith("ijc-t1") else grounding_net.strip_tags(draft)
+    assert voice_event["text"] == expected
+    assert voice_event["answer_record_fallback"] is None
 
 
 def test_a_clean_reply_makes_no_extra_call_and_is_shown_whole():
@@ -172,7 +124,6 @@ def test_a_clean_reply_makes_no_extra_call_and_is_shown_whole():
     whole = " ".join(_tagged(s) for s in CASES[name][0])
     voice_event, client = _turn(name, [[whole]])
     assert len(client.messages.captured_stream_calls) == 1
-    assert voice_event["sentence_enforcement"]["regenerated"] is False
     assert voice_event["text"] == " ".join(CASES[name][0])
 
 
@@ -180,19 +131,17 @@ def test_a_clean_reply_makes_no_extra_call_and_is_shown_whole():
 # way the voice wrote it: after its own lead-in, or standing alone in its
 # paragraph, where the sentence a participant would have seen is empty.
 # (kept sentences, tagged to the witness record; the marker as written;
-# the draft; a whole rewrite without the marker)
+# the draft)
 QUOTE_CASES = {
     "cappadocian-t1-lead-in-and-marker": (
         ["We counted three: Father, Son, and Holy Spirit, each a real someone."],
         "Our teachers said it this way: [[quote:cappadocian.quote.ousia-and-hypostasis]]",
         "{kept0} Our teachers said it this way: [[quote:cappadocian.quote.ousia-and-hypostasis]]",
-        "We counted three: Father, Son, and Holy Spirit, each a real someone [[fix.witness.w]].",
     ),
     "cappadocian-t2-marker-alone": (
         ["Our preaching held his words about the hungry and the naked at full strength."],
         "[[quote:cappadocian.quote.basil-on-common-life]]",
         "{kept0}\n\n[[quote:cappadocian.quote.basil-on-common-life]]",
-        "Our preaching held his words about the hungry and the naked at full strength [[fix.witness.w]].",
     ),
     "gallic-t1-lead-in-and-marker": (
         ["At Tours he was the one who sought the unpitied."],
@@ -200,19 +149,16 @@ QUOTE_CASES = {
         "[[quote:gallic.quote.cassian-adapts-egypt-to-gaul]]",
         "{kept0}\n\nAmong the brethren at Marseilles the fathers of Egypt taught us this of him: "
         "[[quote:gallic.quote.cassian-adapts-egypt-to-gaul]]",
-        "At Tours he was the one who sought the unpitied [[fix.witness.w]].",
     ),
     "gallic-t2-marker-alone": (
         ["He went among the poor and healed them."],
         "[[quote:gallic.quote.gennadius-martin-famous-for-signs]]",
         "{kept0}\n\n[[quote:gallic.quote.gennadius-martin-famous-for-signs]]",
-        "He went among the poor and healed them [[fix.witness.w]].",
     ),
     "ijc-t2-marker-alone": (
         ["He came for us and for our salvation, and we held it as the ground of everything."],
         "[[quote:ijc.quote.nicene-creed]]",
         "{kept0}\n\n[[quote:ijc.quote.nicene-creed]]",
-        "He came for us and for our salvation, and we held it as the ground of everything [[fix.witness.w]].",
     ),
 }
 
@@ -228,37 +174,14 @@ def _quote_turn(name, scripts):
 
 
 def _quote_draft(name):
-    kept, _marker, template, _rewrite = QUOTE_CASES[name]
+    kept, _marker, template = QUOTE_CASES[name]
     return template.format(kept0=_tagged(kept[0]))
 
 
 @pytest.mark.parametrize("name", list(QUOTE_CASES))
-def test_the_correction_names_an_unoffered_quote_marker_as_written_with_its_reason(name):
-    _kept, marker, _template, rewrite = QUOTE_CASES[name]
-    _voice_event, client = _quote_turn(name, [[_quote_draft(name)], [rewrite]])
-    assert len(client.messages.captured_stream_calls) == 2
-    directive = _directive_text(client.messages.captured_stream_calls[1][0])
-    named = directive.split("cannot be shown, each for the reason given:\n", 1)[1].split("\nType no quotation", 1)[0]
-    assert f'- "{marker}" - its quote marker names a quote that is not offered in this turn\'s ground.' in named
-    assert "Remove the [[quote:...]] marker and the lead-in that introduces it" in named
-    assert '- "" -' not in named and '- "." -' not in named  # never an empty stub
-    assert "Keep every sentence not named above as it is, with its tags." in directive
-    assert "not from the participant" in directive and "no preamble" in directive
-
-
-@pytest.mark.parametrize("name", list(QUOTE_CASES))
-def test_a_rewrite_that_removes_the_unoffered_marker_is_shown_clean(name):
-    _kept, _marker, _template, rewrite = QUOTE_CASES[name]
-    voice_event, _client = _quote_turn(name, [[_quote_draft(name)], [rewrite]])
-    assert voice_event["sentence_enforcement"]["still_flagged"] == []
-    assert voice_event["sentence_enforcement_exhausted"] is False
-    assert voice_event["reply_shape"]["removed"] == []
-    assert voice_event["text"] == grounding_net.strip_tags(rewrite)
-
-
-@pytest.mark.parametrize("name", list(QUOTE_CASES))
-def test_a_rewrite_that_keeps_the_unoffered_marker_is_set_aside(name):
-    draft = _quote_draft(name)
-    voice_event, _client = _quote_turn(name, [[draft], [draft]])
-    assert voice_event["sentence_enforcement_exhausted"] is True
-    assert voice_event["text"] == ""
+def test_an_unoffered_quote_marker_is_cut_with_its_lead_in_in_one_call(name):
+    kept, _marker, _template = QUOTE_CASES[name]
+    voice_event, client = _quote_turn(name, [[_quote_draft(name)]])
+    assert len(client.messages.captured_stream_calls) == 1
+    assert voice_event["text"] == kept[0]
+    assert voice_event["reply_shape"]["placed"] == []

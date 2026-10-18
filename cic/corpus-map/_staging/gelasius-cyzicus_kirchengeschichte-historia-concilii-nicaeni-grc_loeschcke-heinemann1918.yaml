@@ -1,0 +1,18 @@
+source_file: gelasius-cyzicus_kirchengeschichte-historia-concilii-nicaeni-grc_loeschcke-heinemann1918.txt
+
+assignments:
+  - row_id: gelasius-cyzicus_kirchengeschichte-historia-concilii-nicaeni-grc_loeschcke-heinemann1918--historia-ecclesiastica-on-the-council-of-nicaea
+    work: "Gelasius of Cyzicus, Historia ecclesiastica (Syntagma on the Council of Nicaea), Greek (GCS, 1918)"
+    author: gelasius-cyzicus
+    locus: "whole file; Greek text begins after the German introduction; the philosopher disputation at about file line 4093; the Spyridon chapter at about file line 6243"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. A fifth-century (c. 475) Greek compilation on Nicaea,
+      reworking Eusebius, Socrates, Theodoret and lost sources, with elaborated council
+      scenes (the bishops' disputation with a philosopher; speeches). Reception witness for
+      how Nicaea was remembered a century and a half later, never evidence of 325 itself.
+      Primary original-language text, Greek recovered in the OCR; verify against the page
+      image before quoting.

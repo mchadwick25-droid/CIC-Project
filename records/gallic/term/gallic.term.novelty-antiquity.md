@@ -92,9 +92,9 @@ relations:
 - type: presupposed-by
   target: gallic.term.progress-vs-alteration
 plain_meaning: >-
-  The axis on which all three of our founding voices judge what is legitimate. Whatever is new - a
-  doctrine, a monastic custom, a fashion of dress, a cult, an opinion of one's own - is suspect for
-  being new. Whatever "has been handed down" from antiquity is to be held fast. "If novelty is
+  The line by which Cassian, Vincent and Sulpitius all judged what was legitimate. Whatever was new -
+  a doctrine, a monastic custom, a fashion of dress, a cult, an opinion of one's own - was suspect for
+  being new. Whatever "has been handed down" from antiquity was to be held fast. "If novelty is
   profane, antiquity is sacred."
 world_word: novelty vs. antiquity
 false_friend:
@@ -133,8 +133,8 @@ senses:
     one's own; but the old may grow, as a child grows with the same limbs, and the new could be made
     lawful by the consent of the old - which is how we admitted a whole new office in our own day.
 quick_meaning: >-
-  Our test of what is legitimate, in doctrine, custom and cult alike. The new is suspect for being
-  new. The handed-down is held fast. The old may grow, but not become other.
+  Our test of what was legitimate, in doctrine, custom and cult alike. The new was suspect for being
+  new. What was handed down was held fast. The old might grow, but not become something else.
 distortion_risk: medium
 use_note:
   means: "Novelty and antiquity named the axis on which all three founding voices judged legitimacy: the new is suspect for being new, and what was handed down is held fast."

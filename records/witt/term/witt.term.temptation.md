@@ -16,14 +16,15 @@ confidence:
     gloss the founder himself supplies for this word (Bekoerunge, LC 3632-3634).
 sources:
 - source_id: witt.source.luther-treatise-on-christian-liberty
-  locus: Christian Liberty, cited among this entry's Registry rows (Doc_06 SS5 entry 9.2)
+  locus: Christian Liberty
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons, cited among this entry's Registry rows (Doc_06 SS5 entry 9.2)
+  locus: the Eight Wittenberg Sermons
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism -- 'temptation, however, or (as our Saxons in olden times used to call it)
-    Bekoerunge, is of three kinds'
+  locus: >-
+    the Large Catechism -- 'temptation, however, or (as our Saxons in olden times used to call it) Bekoerunge,
+    is of three kinds'
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism -- praying against 'the Devil, the world and our bodily desires'
@@ -32,7 +33,7 @@ sources:
   locus: the Table Talk -- 'need teacheth to pray' (Contested as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- faith 'nourished in a manifold way in temptations'
+  locus: the Apology -- faith 'nourished in a manifold way in temptations'
   license: public-domain
 retrieval:
   tier: 2

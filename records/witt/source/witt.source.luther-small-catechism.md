@@ -18,6 +18,7 @@ author: Luther
 work: The Small Catechism
 edition: (1529), trans. Robert E. Smith, Project Wittenberg (1994/2002/2004) — without Luther's 1529 preface;
   vendored as cic/texts/luther_small-catechism_smith1994.txt
+citation: Luther, The Small Catechism (1529), trans. Robert E. Smith, Project Wittenberg (1994/2002/2004)
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

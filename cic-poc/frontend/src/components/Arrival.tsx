@@ -12,6 +12,7 @@
  * not relocated - it extends this existing disclosure rather than
  * adding a new first-tap UI element (no new component, no new state).
  */
+import { useState } from 'react';
 import type { WorldEntry } from '../data/worlds';
 
 interface ArrivalProps {
@@ -19,6 +20,9 @@ interface ArrivalProps {
 }
 
 export function Arrival({ world }: ArrivalProps) {
+  // On a phone the doorway folds to its first two lines, so the message box
+  // and the disclosure share the first screen; its words never change.
+  const [horizonOpen, setHorizonOpen] = useState(false);
   return (
     <div className="arrival">
       <div className="arrival__portrait" style={{ background: world.accentColor }}>
@@ -39,15 +43,16 @@ export function Arrival({ world }: ArrivalProps) {
         {world.roleLabel} · <span className="sans">{world.place}</span>
       </p>
 
-      {world.doorwayDescription && <p className="arrival__horizon">{world.doorwayDescription}</p>}
-
-      <div className="arrival__thinness">
-        <div className="arrival__thinness-label sans">What this voice knows well — and doesn't</div>
-        <p>{world.thinnessStatement}</p>
-        {world.livingTraditionFlag && (
-          <p className="arrival__living-tradition">This is a bounded historical reconstruction, not today's church of the same name.</p>
-        )}
-      </div>
+      {world.doorwayDescription && (
+        <>
+          <p className={horizonOpen ? 'arrival__horizon arrival__horizon--open' : 'arrival__horizon'}>{world.doorwayDescription}</p>
+          {!horizonOpen && (
+            <button type="button" className="arrival__horizon-more sans" onClick={() => setHorizonOpen(true)}>
+              Read more
+            </button>
+          )}
+        </>
+      )}
 
       <div className="arrival__disclosure sans">
         <p>
@@ -59,6 +64,14 @@ export function Arrival({ world }: ArrivalProps) {
         <p>{world.representativeName}'s name is ours; every quote and claim is theirs, and you can check each one.</p>
         <p>Look for the ✲ mark after a claim — tap it to see exactly where it comes from.</p>
       </div>
+
+      <details className="arrival__thinness">
+        <summary className="arrival__thinness-label sans">What this voice knows well — and doesn't</summary>
+        <p>{world.thinnessStatement}</p>
+      </details>
+      {world.livingTraditionFlag && (
+        <p className="arrival__living-tradition">This is a bounded historical reconstruction, not today's church of the same name.</p>
+      )}
     </div>
   );
 }

@@ -35,6 +35,10 @@ doors-open switch (`"1"` = only admitted/open worlds are listed or seated;
 the config surface for the running service; it lives here so it stays
 documented.
 
+The real app's model client is built unguarded only on Render (where
+`RENDER` is set). Started anywhere else, `engine.api.app` needs
+`--live-test` and `--cap-usd`, like every other command that calls a model.
+
 `CIC_API_ANON_CAP_ENABLED` (`engine/api/anon_cap.py`'s own module
 docstring has the full rationale):
 `"1"` turns on a per-visitor daily cap on session creation and conversation
@@ -117,6 +121,17 @@ curl -s localhost:8000/api/session/<session_id>/round-close-reasons \
 # Liveness check (no downstream calls)
 curl -s localhost:8000/health
 ```
+
+## Feedback
+
+`CIC_API_FEEDBACK_DB` (default `./cic_api_feedback.db`) is the feedback store, backed up daily with the other
+databases. `POST /api/session/<id>/feedback` takes a like or a flag on one Representative reply (`kind`,
+`turn_index` as the reply's position in the transcript, `sentence_index`, `reason`, `text`, `email`) with the
+session's own code; the server reads the record ids and confidence tags from the stored reply and keeps no reply
+text. `POST /api/feedback` takes a comment (`page`, `text`, `quote_consent`, `first_name`, `email`) from the app or
+from the public site, whose origin is `CIC_API_SITE_ORIGIN` (falling back to `CIC_DEEPER_SITE_ORIGIN`).
+`GET /api/admin/feedback?status=open|closed` and `POST /api/admin/feedback/<id>/close` (`outcome`, `note`) are
+the operator's queue, on the dashboard; closing clears the email, and closed items are deleted after 90 days.
 
 ## Streaming
 

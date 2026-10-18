@@ -27,15 +27,15 @@ sources:
 names:
 - name: Donatus, our bishop at Carthage
   tag: in-world
-- name: Donatus of Casae Nigrae, called Donatus the Great (primate c. 313 - c. 347)
+- name: Donatus the Great, Donatist bishop of Carthage (primate c. 313 - c. 347)
   tag: scholarly
 dates:
   display: 'primate of this communion from c. 313, succeeding Majorinus, until c. 347; exiled after the
     Macarian repression and dead in exile. Birth date unknown; the byname Magnus is the tradition''s, not
     a title he is recorded claiming.'
 narratable: true
-bridge_line: The bishop the whole movement is named after - who is remembered asking an emperor's own commissioners
-  what the emperor had to do with the church, and who left not one page of his own behind.
+bridge_line: The bishop the movement is named after. He is remembered asking an emperor's
+  commissioners what the emperor had to do with the church. Not one page of his own survives.
 relations:
 - type: associated-with
   target: don.story.passio-donati-sermon

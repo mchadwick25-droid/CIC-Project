@@ -26,6 +26,7 @@ work: 'Appendix of Documents (the anti-Donatist dossier): Acta Purgationis Felic
 edition: Within cic/texts/optatus_against-the-donatists.txt (the appendix printed with the 1917 Vassall-Phillips
   translation, mapped as Appendices I-XVI); a related but not confirmed-identical ten-document appendix
   stands in Ziwsa's critical edition (Registry row 38)
+citation: Appendix of Documents (the anti-Donatist dossier), transmitted as Optatus of Milevis's own appendix, Vassall-Phillips translation (1917)
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: documentary. The individual items are genuine court acts, conciliar acts, and imperial

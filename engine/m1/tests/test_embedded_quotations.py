@@ -28,6 +28,13 @@ def test_a_long_quoted_span_at_or_above_the_word_floor_is_flagged():
     assert hits[0]["field"] == "text"
 
 
+def test_a_story_telling_is_never_surveyed_but_its_text_still_is():
+    """A telling's speech is an owned rendering, like a quote record's."""
+    span = '"Take ye heed, then, to have but one Eucharist, for there is one flesh."'
+    record = {"record_type": "story", "telling": f"He said, {span}", "text": f"He writes, {span}"}
+    assert [h["field"] for h in find_embedded_quotations(record)] == ["text"]
+
+
 def test_a_quote_record_is_never_surveyed_even_with_a_long_embedded_span():
     """quote records own this question through their own modern_rendering
     field and engine.m1.gates's existing quote-specific check - excluded
@@ -98,7 +105,7 @@ def test_fleet_survey_world_counts_match_the_og10_baseline():
     pairing/self-quote fixes land)."""
     baseline = {
         "pahc": 14, "syr": 0, "desert": 0, "hal": 0, "alx": 8, "ijc": 7,
-        "cappadocian": 0, "don": 5, "rzg": 9, "witt": 48, "gallic": 53,
+        "cappadocian": 0, "don": 5, "rzg": 9, "witt": 48, "gallic": 51,
     }
     for world, expected in baseline.items():
         result = survey_world(world)

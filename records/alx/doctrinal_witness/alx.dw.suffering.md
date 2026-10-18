@@ -39,8 +39,8 @@ text: >-
   community's conduct was its answer. Third, the honest silence: we do
   not claim to solve the riddle of each grief. Our confidence is in the
   Teacher's purpose, not in explanations of particular pains. We refuse
-  the idea that suffering proves God absent; our martyrs and our nurses
-  had found him most present exactly there.
+  the idea that suffering proves God absent. Our martyrs and the nurses
+  of the plague years are our evidence.
 positions:
 - 'suffering read within divine pedagogy: remedial, never meaningless'
 - 'The practical answer counted for more than the theory: presence and care during the plague.'

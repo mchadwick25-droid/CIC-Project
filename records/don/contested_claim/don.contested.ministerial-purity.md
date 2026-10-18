@@ -42,8 +42,9 @@ claim: >-
 held_against:
 - The founding accusation's own documentary record tells against it. The Acta Purgationis Felicis (314/315),
   the formal proconsular inquiry Constantine ordered into whether Felix had handed over the scriptures,
-  ended with the notary Ingentius confessing under threat of torture that he had forged the letter that
-  proved the charge, and that he had forged it working for the accusing side. The confession's own extraction
+  ended with a town councillor, Ingentius, confessing under threat of torture that he had added false lines
+  to the letter that proved the charge. The Acta also record the charge that he acted as an agent for the
+  accusing side, and he denied having been to Numidia. The confession's own extraction
   under threat is a real reason to hold the finding loosely; it is not a reason to say the inquiry found
   in this communion's favour, which it did not (don.story.acta-purgationis-felicis)
 - The doctrine's own councils did not apply it to themselves. At Bagai in 394 the same body that condemned
@@ -68,8 +69,8 @@ held_against:
   don.source.augustine-answer-to-petilian)
 concedes: >-
   Two things, and neither is softened here. First, the founding case is lost on its own documents: the
-  one formal inquiry into the traditio charge against Felix returned a forged letter and a confessed forger
-  working for the accusers, and this communion's own eventual answer to that was not that the inquiry had
+  one formal inquiry into the traditio charge against Felix returned a forged letter and a confessed forger,
+  and this communion's own eventual answer to that was not that the inquiry had
   been won but that the wider traditio dispute involved far more people and incidents across that founding
   decade than one proceeding settles, and that the principle at stake did not stand or fall on one man's
   case. Second, the doctrine's own institutional practice contains a named exception it never denied -

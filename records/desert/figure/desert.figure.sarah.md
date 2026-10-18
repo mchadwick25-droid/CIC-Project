@@ -32,9 +32,7 @@ names:
 - name: Amma Sarah (4th-early 5th c.)
   tag: scholarly
 narratable: true
-bridge_line: one of a small number of women remembered by name in this world's own teaching tradition
-  - six of her sayings survive, including the one where she told the brethren that she was the man among
-  them and they the women
+bridge_line: one of a few women remembered by name in the desert's teaching tradition. The Syriac collection keeps six sayings under her name. In one, she used to say to her brothers that she was a man and they were women.
 relations:
 - type: associated-with
   target: desert.term.geron-abba-amma
@@ -49,22 +47,13 @@ relations:
 - type: associated-with
   target: desert.story.virgin-who-hid-athanasius
 ---
-Two changes follow from the arrival of a vendored edition, and the
-first is a correction.
-
-THE BRIDGE LINE ASSERTED SOMETHING THE TEXT DOES NOT. It read that Sarah
-was remembered "for telling visiting monks who had come to test her that
-she was a woman by nature but not by her thoughts, and that she was the
-man among them." That first clause is the GREEK alphabetical form of the
-saying. Budge's Syriac §525 does not contain it. The bridge_line is a
-participant-facing field - it is what a reader is told about her - so it
-has been cut back to what a vendored file supports. The fuller Greek
-wording may well be older and better; this world simply cannot show it,
-because no public-domain English of the Greek exists
+The bridge_line carries only what Budge's Syriac section 525 supports.
+The Greek alphabetical collection gives a fuller form of the saying, with a
+clause about her being a woman by nature but not in thought; that clause is not in the vendored
+recension, and no public-domain English of the Greek exists
 (desert.search.greek-alphabetical-pd-english).
 
-SHE HAS SIX SAYINGS, NOT ONE. The record previously cited a single
-saying re-derived from consult-only renderings. Budge carries six under
+Budge carries six sayings under
 "Mother Sarah", and they are various: setting her death before her eyes
 each time she climbed a ladder; sending a rebuke to Abba Paphnutius for
 letting a brother be reviled; on alms given for human approval still
@@ -73,9 +62,8 @@ fornication on her roof; and a prayer that her own heart be pure rather
 than that others be edified through her. That is a teaching voice with
 range, not a single epigram.
 
-confidence moves from C / verified-via-authority to A / verified-direct
-for the sayings themselves. Everything the old divergence_note bounded
-beyond them still stands.
+Confidence is A / verified-direct for the sayings themselves; the
+divergence_note bounds every claim beyond them.
 
 Formation significance: desert.term.geron-abba-amma's own evidential
 sense already states the asymmetry this record makes concrete - "named
@@ -88,9 +76,8 @@ alone. desert.gravity.elder-authority's own third manifestation names
 "the amma tradition (Syncletica, Theodora, Sarah) as the same authority
 mode attested for women, thin but genuine in the surviving record" -
 this record supplies the one case that authority mode can be shown
-rather than only asserted: a woman answering a direct social challenge
-to her own standing with the same discernment (diakrisis) the tradition
-elsewhere credits to male elders.
+rather than only asserted: a woman teaching her brothers with the same
+discernment (diakrisis) the tradition elsewhere credits to male elders.
 
 Roster note: Syncletica and Theodora are not built as figure records at
 this step. Both are named and genuinely attested (Widely Accepted for
@@ -104,12 +91,8 @@ not a silent omission - revisit if a later step's own work (a story or
 quote record citing either by name, independently verified) supplies
 the concrete basis this one currently has for Sarah.
 
-No verbatim quotation is made anywhere in this record: the paraphrase
-above ("she was the man among them, and they the women") restates the
-saying's substance in this record's own words rather than reproducing
-Doc_09a's quoted English, consistent with desert.source.apophthegmata-patrum's
-own hard rule that no vendored, machine-checkable file exists for this
-source and no citation of it may claim verbatim status.
+The bridge_line paraphrases Budge's Syriac section 525 ("It is I who am
+a man, and ye who are women"); it does not quote it.
 
 The scholarly name's "4th-early 5th c." matches desert.source.apophthegmata-patrum's
 own dating of the tradition generally, marked as derived, consistent

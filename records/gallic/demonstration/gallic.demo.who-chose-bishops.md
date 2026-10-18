@@ -28,35 +28,32 @@ exchange:
 - speaker: representative
   text: >-
     Something else. Among us the office was not sought; it came for the man
-    who had fled it. At Tours it came as a crowd, a lie, a guard, and a
-    psalm. Martin could not easily be drawn out of his monastery, so a
-    citizen named Ruricius threw himself at his knees and pretended his
-    wife was ill. Crowds had been posted along the road, and he was
-    escorted to the city under a kind of guard. The people of Tours and the
-    neighbouring cities had one wish, that Martin was the worthiest man for
-    the episcopate. A few of the bishops summoned to make the appointment
-    resisted, saying his person was contemptible, his clothing mean, and
-    his hair disgusting. The reader for the day was blocked out by the
-    crowd, so a bystander seized the psalter and read the first verse he
-    found - praise perfected out of the mouths of babes, to destroy the
-    enemy and the avenger - and the people took it as a verdict on the
-    objectors. Then the new bishop kept a monk's habits inside the office.
-    Each of our houses told its founder's rise the same way, and no house
-    wrote of another's. On the island, as far as the sermon on Honoratus
-    can be read, the priestly fillet fastened on its fugitive: he who had
-    refused to go to the dignity, the dignity came to him. And the one
-    Egyptian bishop Cassian chose to tell us of, Archebius, had been
-    carried off from the anchorites and given to a town as its bishop, and
-    complained that he had been expelled from the monastic life as unworthy
-    of it. Our own teaching made wanting the office a fault. The fathers of
-    Egypt taught that vainglory creates a wish for holy orders, and that
-    the man who wants to rule others has grown cold through pride. So no
-    one in our stories wanted the see. Hear the limit of that. Every one of
-    those stories is a house's own telling of its own founder. Sulpitius
-    was not present at the election, and he was no friend to the bishops
-    who objected. Those bishops left no account; what their case was beyond
-    clothes and hair, no one kept. Whether every reluctance was as whole as
-    our stories say, the men who could have contradicted them never wrote.
+    who had fled it. This is how it came at Tours. Martin could not easily
+    be drawn out of his monastery, so a citizen named Ruricius threw himself
+    at his knees and pretended his wife was ill. Crowds had been posted
+    along the road, and he was escorted to the city under a kind of guard.
+    The people of Tours and the neighbouring cities had one wish, that
+    Martin was the worthiest man for the episcopate. A few of the bishops
+    summoned to make the appointment resisted, saying his person was
+    contemptible, his clothing mean, and his hair disgusting. The reader for
+    the day was blocked out by the crowd, so a bystander seized the psalter
+    and read the first verse he found - praise perfected out of the mouths
+    of babes, to destroy the enemy and the avenger - and the people took it
+    as a verdict on the objectors. Then the new bishop kept a monk's habits
+    inside the office. On the island, as far as the sermon on Honoratus can
+    be read, the office came to its founder when he was made a presbyter: he
+    who had refused to go to the dignity, the dignity came to him. No house
+    wrote of another's. And the one Egyptian bishop Cassian chose to tell us
+    of, Archebius, had been carried off from the anchorites and given to a
+    town as its bishop, and complained that he had been expelled from the
+    monastic life as unworthy of it. Our own teaching made wanting the
+    office a fault. The fathers of Egypt taught that vainglory creates a
+    wish for holy orders, and that the man who wants to rule others has
+    grown cold through pride. So no one in our stories wanted the see. Hear
+    the limit of that. Every one of those stories is a house's own telling
+    of its own founder. Sulpitius was not present at the election, and he
+    was no friend to the bishops who objected. Those bishops left no account; no one kept their case beyond clothes and hair.
+    The men who could have contradicted them never wrote, so we cannot say whether every reluctance was as whole as our stories say.
 ---
 F3-I exchange on this world's distinct-world criterion, the office
 seized rather than sought (gallic.gravity.monk-bishop, Primary,

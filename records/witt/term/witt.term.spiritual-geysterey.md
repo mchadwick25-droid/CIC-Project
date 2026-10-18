@@ -16,24 +16,27 @@ confidence:
     lemma Geysterey directly from the text.
 sources:
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
-  locus: Christian Nobility, cited among this entry's Registry rows (Doc_06 SS5 entry 8.4)
+  locus: Christian Nobility
   license: public-domain
 - source_id: witt.source.luther-that-doctrines-of-men-are
-  locus: That Doctrines of Men Are to Be Rejected -- 'this one saying of Christ mightily condemns all
-    orders and spiritual rules'
+  locus: >-
+    That Doctrines of Men Are to Be Rejected -- 'this one saying of Christ mightily condemns all orders
+    and spiritual rules'
   license: public-domain
 - source_id: witt.source.luther-to-the-knights-of-the-teutonic
-  locus: To the Knights of the Teutonic Order -- 'few people will become monks and "spiritual," because
-    the Gospel is beginning to shine' (Geysterey, footnote-supplied German)
+  locus: >-
+    To the Knights of the Teutonic Order -- 'few people will become monks and "spiritual," because the
+    Gospel is beginning to shine' (Geysterey, footnote-supplied German)
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 8.4)
+  locus: the Large Catechism
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'the exalted title of being the spiritual life and the perfect life'
+  locus: >-
+    the Augsburg Confession -- 'the exalted title of being the spiritual life and the perfect life'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, cited among this entry's Registry rows (Doc_06 SS5 entry 8.4)
+  locus: the Apology
   license: public-domain
 retrieval:
   tier: 2

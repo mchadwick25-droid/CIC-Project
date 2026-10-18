@@ -23,27 +23,22 @@ confidence:
     the specific violence that scattered Martin, and is not this record's to carry.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "ch. VI (ii.ii.vii): Martin scourged at Milan, expelled by Auxentius, finding the Church in Gaul 'in a distracted condition through the departure also of the holy Hilarius, whom the violence of the heretics had driven into exile'; the withdrawal to the island Gallinaria"
+  locus: "ch. VI (ii.ii.vii): Martin scourged in Illyria, then expelled from Milan by Auxentius, finding the Church in Gaul 'in a distracted condition through the departure also of the holy Hilarius, whom the violence of the heretics had driven into exile'; the withdrawal to the island Gallinaria"
   license: public-domain
 relations: []
 name: "Arian violence and the exile of Hilary of Poitiers - Layer 1 only [1A - initiating/external]"
 kind: initiating
 matrix_cell: 1A
 description: >-
-  Before Ligugé, Vita ch. VI has Martin scourged at Milan, expelled by Auxentius, and finding the
-  Church in Gaul 'in a distracted condition through the departure also of the holy Hilarius, whom
-  the violence of the heretics had driven into exile,' so that he 'withdrew to the island
-  Gallinaria' (Doc_08 Cell 1A, Force 1A-4). LAYER 1 ONLY, by Doc_08's stated Proportionality
-  decision: its formative trace on the founding at Tours is the scattering - it delayed and
-  displaced the founding - and nothing in that founding's own gravities, vocabulary, practices, or
-  affect is organized by it, so no World's-Own-Experience or Formation-Impact layer is developed. 'A
-  full three-layer treatment of this force - the scattering - would still manufacture a formation
-  impact the record does not show and would risk importing the adjacent world's content.' The
-  narrower claim: the Arian crisis is not absent from
-  this world's record generally (Vincent's rule takes it as a worked example), but that use is
-  1B-2's, not this force's.
+  Before Ligugé, Martin was publicly scourged in Illyria. He found the Church in Gaul 'in a
+  distracted condition through the departure also of the holy Hilarius, whom the violence of the
+  heretics had driven into exile.' At Milan, Auxentius drove him out of the city. Then he 'withdrew
+  to the island Gallinaria' (Vita VI).
+
+  So the Arian crisis held back the founding at Tours, and moved it. But it does not shape what that
+  house held, said or did. Elsewhere Vincent uses the Arian crisis as a worked example of his rule.
 manifestations:
-- "Martin scourged at Milan and expelled by Auxentius (Vita VI)"
+- "Martin scourged in Illyria, then expelled from Milan by Auxentius (Vita VI)"
 - "The Church in Gaul 'in a distracted condition' through Hilary's exile 'driven ... by the violence of the heretics' (Vita VI)"
 - "The withdrawal to the island Gallinaria before Ligug\u00e9 - the founding delayed and displaced"
 ---

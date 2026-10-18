@@ -36,16 +36,15 @@ text: 'I do not deny, when I consider the ostentation that reigns at Rome, that 
   drinking, and plainness of apparel, and eyes always cast on the ground, recommend to the everlasting
   Deity and his true worshippers as pure and sober-minded men.'
 modern_rendering: >-
-  I do not deny this: when I consider the show of wealth that rules in Rome, I think those
-  who want such rank and power may be right to work for it with all the effort and force
-  they can. Once they succeed, they will be secure for the rest of their lives. They grow
-  rich from gifts given by married women. They ride in carriages. They dress in splendid
-  clothes. They feast so lavishly that their banquets outdo even royal ones. They might
-  truly be happy if they scorned the vastness of the city, which their own vices provoke
-  against them, and lived instead like some of the priests in the provinces. Those priests
-  are recommended to the everlasting God and to his true worshippers as pure, sober-minded
-  men, by their strict abstinence in food and drink, their plain clothing, and their eyes
-  always cast down.
+  Those who want such rank and power may be right to work with all possible effort and intensity to
+  get what they wish. I do not deny this when I consider the showy display that reigns at Rome. For
+  once they have succeeded, they will be secure for the future. They will be made rich by offerings
+  from married women. They will ride in carriages, dress splendidly, and feast so lavishly that their
+  dinner parties surpass even royal banquets. And they might be really happy if they despised the
+  vastness of the city and lived like some of the priests in the provinces. By their vices, they stir
+  up that vast city against themselves. Those priests are recommended to the everlasting Deity and his
+  true worshippers as pure and sober-minded men. What recommends them is the strictest restraint in
+  food and drink, plain clothing, and eyes always cast on the ground.
 speaker_or_author: "Ammianus Marcellinus, Res Gestae XXVII.3 (a pagan historian's outside verdict on the 366 election's stakes)"
 license: verbatim
 modern_lens_note: >-

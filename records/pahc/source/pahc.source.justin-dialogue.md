@@ -16,6 +16,7 @@ sources: []
 author: "Justin Martyr"
 work: "Dialogue with Trypho; written before his death c. 165 CE (Minns and Parvis)"
 edition: "Ante-Nicene Fathers vol. 1 (1885), trans. George Reith per the standard ANF bibliography - the vendored file itself carries no translator credit at the head of this work (its in-file 'Translated by' credits cover only the minor Justin works); vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 viii, div2 viii.iv)"
+citation: Justin Martyr, Dialogue with Trypho, trans. George Reith, Ante-Nicene Fathers vol. 1 (1885)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

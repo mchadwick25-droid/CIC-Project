@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Epistula 107, to Laeta (c. 403): on the education of the infant Paula the younger, vowed to virginity from birth - the community's fullest surviving statement of its pedagogy (letters as playthings, scripture-reading order, dress, companions), written from Bethlehem to Rome"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id v.CVII"
+citation: Jerome, Epistula 107, to Laeta, trans. W.H. Fremantle, Nicene and Post-Nicene Fathers, 2nd series, vol. 6 (1893)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

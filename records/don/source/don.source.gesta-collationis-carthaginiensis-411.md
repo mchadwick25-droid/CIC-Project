@@ -26,6 +26,7 @@ edition: 'The modern critical editions -- Serge Lancel (ed.), Actes de la Confer
   anno 411, CCSL 149A (Turnhout: Brepols, 1974) -- are in copyright and NOT vendored. The public-domain
   route actually held is the Migne Patrologia Latina Tomus XI printing, vendored as cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
   (Registry row 55).'
+citation: Gesta Collationis Carthaginiensis, the acts of the 411 Conference of Carthage, Patrologia Latina Tomus XI (Migne)
 kind: vendored
 rights_status: "in-copyright; confirmed unavailable in the public domain. Not vendored and not a vendoring candidate - committing it would be redistribution. Consultable through a library without being vendored"
 attribution_status: documentary -- an imperial court transcript, not an authored work. Its mediation is

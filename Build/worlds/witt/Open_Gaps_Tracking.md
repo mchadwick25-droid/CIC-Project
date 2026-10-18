@@ -2561,3 +2561,138 @@ All seven `records/witt/quote/` records were checked against the vendored source
 **Gates.** `engine.m10.cli records witt` and `regate witt --base origin/main`: pass. The package is rebuilt and `records/worlds/witt.yaml` pins `packages/witt/2026-10-12T14-47-27Z`. The check used the vendored English only; no German or Latin original was consulted.
 
 Status: CLOSED for the three changed records. The minor items stay OPEN.
+
+## OG-66. Record audit fixes: source drift, AI-tell wording, readability and loci, 2026-10-13.
+
+Same method as syr (OG-27 there), cappadocian, gallic and rzg, inside the standard converged with Mark on 13 October. A read-only audit of the spoken fields, citation loci and build-record facts of all of `records/witt/` found 338 findings (9 blocking, 117 moderate, 212 minor); the audit page was published as the Artifact "witt Record Audit". Facts were checked by grep against `cic/texts/` and the cited source records. Reviews: `Build/Ministry/Operations/Audits/witt_record_audit_fixes_review_round1_2026-10-13.md` and `..._round2_2026-10-13.md` (Opus, round 2 a targeted recheck). Renderings of the seven quotes were authored by Opus; everything else was drafted on Sonnet.
+
+**Changed, by record type** (field in brackets; every change is in a spoken field, a `sources[].locus`, or a verified factual correction):
+- **doctrinal_witness** (13): a-confession-answered-not-a-vote [sources, text]; a-death-begun-that-a-child-receives [text]; a-narrow-word-plainly-spoken [text]; born-in-sin-fed-at-the-table [text]; cold-and-careless-among-us [sources, text]; how-the-promise-reached-us [text]; nothing-against-scripture-or-the-church-catholic [sources, text]; one-holy-church-forever [sources, text]; scripture-judges-every-other-voice [text]; the-household-we-can-describe [text]; true-priests-of-gods-own-making [sources, text]; truly-god-and-truly-man [sources, text]; what-we-have-never-settled [text]
+- **story** (12): augsburg-before-cajetan [sources, tellable_as, text]; brussels-martyrs [sources, tellable_as, text]; composing-the-magnificat [sources, tellable_as, text]; diet-of-augsburg-1530 [sources, tellable_as, text]; first-german-mass-sung [sources, tellable_as, text]; household-and-kate-on-prayer [sources, tellable_as, text]; household-catechism-lesson-typical-practice [sources, tellable_as, text]; letter-to-albrecht-and-theses-circulation [sources, tellable_as, text]; prayer-for-rain-1532 [sources, tellable_as, text]; return-and-the-eight-sermons [sources, tellable_as, text]; speratus-hymn-under-the-window [confidence.divergence_note, sources, text]; worms-1521 [sources, tellable_as, text]
+- **demonstration** (9): bread-and-cup [sources, exchange]; faith-alone [exchange]; record-thinnest [sources, exchange]; scripture-alone [exchange]; someone-like-me [sources, exchange]; the-way-in [sources, exchange]; true-priests-by-no-ordination [sources, exchange]; who-held-authority [exchange]; women-own-words [sources]
+- **quote** (7): article-ii-of-original-sin [sources, modern_rendering]; article-ix-of-baptism [sources, modern_rendering]; christs-return-to-judgment [sources, modern_rendering]; congregation-of-saints [sources, modern_rendering]; nothing-that-varies [sources, modern_rendering]; second-article-of-the-creed [sources, modern_rendering]; the-poor-man-who-comes-to-you [sources, modern_rendering]
+- **figure** (6): brussels-martyrs-john-and-henry [names, bridge_line]; johann-walter [bridge_line]; katharina-von-bora [bridge_line]; luther [names, bridge_line]; melanchthon [bridge_line]; speratus [confidence.divergence_note, names, bridge_line]
+- **honest_limit** (2): no-outsider-witness [sources, statement]; record-thinnest [sources, statement]
+- **term** (66): assurance [sources, plain_meaning]; baptism [sources]; both-kinds [sources]; calling [sources, senses]; catechism [sources, plain_meaning, senses]; chastity [sources]; christ-alone [sources, senses]; christendom [sources, plain_meaning]; comfort [sources]; confession-and-absolution [sources, quick_meaning]; congregation [sources]; conscience [sources, senses]; contrition [sources]; death [sources]; doctrines-of-men [sources]; faith [sources]; fasting [sources]; fear-and-love-god [sources, plain_meaning, senses, quick_meaning]; free-will [sources]; given-for-you [sources, plain_meaning, quick_meaning]; good-works [sources]; gospel [sources, senses]; grace [sources, senses]; household [sources, plain_meaning, quick_meaning]; hymn [sources]; images [sources]; indulgence [sources, plain_meaning]; insurrection [sources]; justification [sources, plain_meaning, senses]; letter-and-spirit [sources]; marriage [sources]; martyr [sources]; merit [sources]; must-and-free [sources]; neighbor [sources, quick_meaning]; obedience [sources, quick_meaning]; office [sources, plain_meaning]; pastor [sources, plain_meaning]; patience [sources, plain_meaning, quick_meaning]; perfection [sources]; pope-and-antichrist [sources, plain_meaning, quick_meaning]; prayer [sources, plain_meaning, senses]; promise-and-testament [sources, senses]; purgatory [sources]; repentance [sources]; sacrament [sources]; sacrament-of-the-altar [sources]; saints [sources]; satisfaction [sources, senses]; scripture-against-tradition [sources, senses]; sects-and-new-spirits [sources, plain_meaning, senses]; spiritual-and-temporal-estate [sources, plain_meaning, quick_meaning]; spiritual-geysterey [sources]; temptation [sources]; the-devil [sources, quick_meaning]; the-keys [sources]; the-mass [sources, quick_meaning]; the-sword [sources]; the-turk [sources, plain_meaning, senses, quick_meaning]; the-two-governments [sources, senses]; the-word [sources]; to-have-a-god-is-to-trust [sources]; vows [sources]; we-are-all-priests [sources, quick_meaning]; what-does-this-mean [sources]; worthy-unworthy [sources]
+- **force** (4): confessional-territorial-transformation [sources, description, manifestations]; imperial-frame [sources, description]; inheritance-refused [sources, manifestations]; territorial-princely-force [description]
+- **gravity** (2): bodily-presence [sources]; promise-and-sign [sources, description]
+
+**What the changes were.**
+- *Source drift removed or softened* (not derivable from the cited text or the world): the Saxon-visitation and weekly-practice claims stated as what households did (they are prescription only); invented scene detail (a "Sunday evening", a stumbling child, a coin striking a box in the Albrecht letter, a rain-prayer petition, "excommunication was announced"); "hypocrites" in `witt.dw.cold-and-careless-among-us` (the sources say negligent and cold, and the Table Talk is Contested as verbatim); "tithes named once" (twice); Speratus's "three of the four hymns" (Bacon: three of the eight, 1524 book); the Brussels martyrs called "Augustinian-house monks"; the Worms "unless shown from Scripture" formula; Luther kneeling "three times" at Augsburg; unsourced names (Hendrik Vos, Johann van Esschen) removed from `witt.figure.brussels-martyrs-john-and-henry`; "one of the devil's three instruments" in `witt.term.the-turk`; the confession "naming" Rome as adversary in `witt.term.pope-and-antichrist`.
+- *Quote renderings* (all seven re-rendered by Opus against `text`): "condemn" restored where it had become "reject"; "disease, or vice of origin", "and so on" for the source's "etc.", "in eternity", "also truly man" and the Conclusion's clauses kept; sentences over 25 words split; the poor-man passage kept as one conditional. Locus label of `witt.quote.nothing-that-varies` corrected from "following Article XXI" to "following Article XXVIII".
+- *Loci* (159 source-card loci): build vocabulary ("Doc_06 SS5 entry", "read this pass", "OCR-degraded", file line numbers, "this library") removed; wrong attributions corrected (the "mighty hunting of the Roman bishop" line is in the Babylonian Captivity, v2 l.6512, not the Papacy at Rome; "a testament is a promise made by one about to die", Babylonian Captivity v2 l.7307; Christian Nobility and Papacy loci swapped in `witt.term.christendom`).
+- *AI tells and tense*: coined closers, not-X-but-Y pivots and dash chains with trailing hedges cut; build vocabulary ("our library", "this record", "census", "register") removed from we-voice text; the community's own past practice moved to the past tense; present tense kept for who God is.
+- *Build records, verified factual errors only*: `witt.force.inheritance-refused` and `witt.gravity.promise-and-sign` cited `v1 2271-2272` (the three parts of baptism) for the cut from seven sacraments to three and then two; the lines are `v2 6695-6701; 10362-10364` (Babylonian Captivity). `witt.force.confessional-territorial-transformation` and `witt.force.imperial-frame` quoted "the German estates" as the 1520 treatise's address; the treatise reads "the Christian Nobility of the German Nation". `witt.force.territorial-princely-force` put Duke George's complaint to the Elector in 1522; the vendored editor dates the ban on the September Testament to 7 November 1522, and the complaint to March 1523 about Secular Authority. `witt.gravity.bodily-presence` cited the 1519 Baptism treatise for a Babylonian Captivity passage; now cites `witt.source.luther-babylonian-captivity-of-the-church`. `witt.figure.speratus` `confidence.divergence_note` and its body carried the same "four hymns" error. No hedge, confidence qualifier or attribution was removed; no new claim was added.
+- *Source records*: 89 `citation:` lines added (author, title, translator or edition, series, date, from each record's own fields only); the `m9:source-citation/witt` waiver (89) is deleted.
+
+**Gates.** `engine.m10.cli records witt` and `regate witt --base origin/main`: pass. Package rebuilt; `records/worlds/witt.yaml` re-pinned; site JSON recompiled. The witt readability waiver in `engine/m9/enforce.py` is tightened from 186 to 117 and no other witt waiver was raised. The remaining readability findings are in build records and in fields outside this pass's list (OG-67, OG-68).
+
+Status: CLOSED for the records changed. Out-of-scope items found in the audit are registered as OG-67 to OG-70.
+
+## OG-67. Doctrinal-witness `positions` fail the readability gate, 2026-10-13.
+
+The 14 `witt.dw.*` `positions` lists (evidence-head field) account for about 40 readability findings (FK up to 16, FRE down to 22). `positions` is not in the field list of the 13 October record-wording standard, so they were not rewritten and stay in the `m1:readability/witt` waiver. Whether `positions` should be rewritten as spoken text, or exempted from the gate, is a methodology question for Mark.
+
+Status: OPEN.
+
+## OG-68. Build vocabulary and readability in build-record fields, 2026-10-13.
+
+Found by the audit and left alone because build records are not restyled: `divergence_note` and `senses.informational` on many terms still say "read this pass", "Doc_03", "Ap 6365-6378"; `witt.term.christendom` `senses.informational` repeats the swapped Nobility/Papacy quotation fixed in its loci; many `force` and `gravity` descriptions and the `divergence_note` of several records say "this library"; five force and gravity descriptions (`territorial-princely-force`, `imperial-frame`, `confessional-territorial-transformation`, `promise-and-sign`, `inheritance-refused`) already failed the readability gate on FRE (56 to 59) before this pass and still do. These stay in the readability waiver.
+
+Status: OPEN.
+
+## OG-69. Non-blocking review items not applied, 2026-10-13.
+
+From the two review files: `witt.quote.congregation-of-saints` `text` ends at "etc." with no elision marker, and the rendering says "and so on"; `witt.quote.nothing-that-varies` `use_note.means` drops "ungodly"; `witt.term.justification` locus quotes "the merits of another, namely, of Christ alone", and the vendored text has no "alone"; `witt.term.free-will` and `witt.term.martyr` loci should carry the same "(OCR-degraded)" disclosure; `witt.limit.record-thinnest` and `witt.demo.record-thinnest` say the names of the Reformed cities "barely appear", while `witt.force.reformed-rival-by-absence` finds none; `witt.dw.cold-and-careless-among-us` keeps "He spoke of pastors and preachers of our own" just before the 1522 line, which rebukes the hearers; the sentences in `witt.term.fear-and-love-god` `personal` and `witt.term.the-turk` `senses.translational` scored slightly worse on readability and want splitting; the poor-man rendering's "When ..." clauses end in full stops and read as fragments; `witt.force.territorial-princely-force` says "the same petition" for Large Catechism lines 92-97, which are the preface and not the Fourth Petition; in the rewritten `witt.force.confessional-territorial-transformation`, "These entered the Book of Concord in 1580" can be read as covering all four documents named before it, not only the two catechisms (third review round).
+
+Status: OPEN.
+
+## OG-70. Tense of term definitions, 2026-10-13.
+
+The term records state the community's standing convictions in the present tense ("We reject ...", "We honor ..."). witt is a living tradition (`living_tradition_flag: true`), so this pass moved only the community's own past practice and experience to the past tense and left the standing convictions as they were. Whether the Representative should speak those convictions in the past tense, as the syr rule does for a dead tradition, is a cross-world methodology question for Mark.
+
+Status: OPEN.
+
+## OG-71. Review fixes, use-note corrections and a change order, 2026-10-13.
+
+Added after the independent review of #875 and the project lead's rulings of 13 October. It corrects two statements in OG-66 and OG-68 and records the fixes made on top of them. Entries OG-66 to OG-70 are left as written.
+
+**Corrections to earlier entries.** OG-66 says every change was in a spoken field, a locus or a verified fact; that is incomplete, because four build-record `description` fields were rewritten for readability and two force `name` fields lost their matrix-cell tags (see the change order below). OG-68 says five force and gravity descriptions "still fail" the readability gate; four of them (`territorial-princely-force`, `imperial-frame`, `confessional-territorial-transformation`, `promise-and-sign`) were touched, rewritten and now pass. The fifth, `inheritance-refused`, was not rewritten and stays on the waiver.
+
+**Change order (kept by the project lead's ruling, 13 Oct).** The \`description\` fields of \`witt.force.confessional-territorial-transformation\`, \`witt.force.imperial-frame\`, \`witt.force.territorial-princely-force\` and \`witt.gravity.promise-and-sign\` were rewritten in plain short sentences, because each had to be touched for a verified factual fix and the regate gate does not accept a touched field below the readability floor. The \`[1B - initiating/internal]\` and \`[2A - ongoing/external]\` tags were removed from the \`name\` of \`witt.force.inheritance-refused\` and \`witt.force.territorial-princely-force\` (matrix-cell codes are commentary on a live surface). Review round 3 (\`Build/Ministry/Operations/Audits/witt_record_audit_fixes_review_round3_2026-10-13.md\`) checked the four rewrites: no hedge, qualifier, quotation or citation was lost and no claim was added; its one blocking item (an orphaned "its initiating phase" in \`imperial-frame\`) was fixed. Kept by the project lead's ruling, 13 Oct.
+
+**Fixes from the review.**
+- *One Elector.* The Augsburg Confession signatures (lines 1557-1567 of the vendored text) give one Elector, princes, and the senates of Nuremberg and Reutlingen. "Electors" is now "an Elector, princes, and two city councils" in \`witt.dw.a-confession-answered-not-a-vote\` (\`text\` and story locus), \`witt.quote.congregation-of-saints\` (\`speaker_or_author\`) and \`witt.figure.melanchthon\` (\`bridge_line\`).
+- *Qualifiers restored on loci.* "(Contested as verbatim)" on the Table Talk locus of \`witt.term.catechism\`; "(OCR-degraded)" on the Bondage of the Will locus of \`witt.term.the-two-governments\`; the unread Kurze Form loci of \`witt.term.catechism\` and \`witt.term.prayer\`, and the unread Decalogue exposition in \`witt.term.good-works\`, now say plainly that they were not read.
+- *Readability on touched senses.* Long sentences split in the \`personal\` fields of calling, conscience, fear-and-love-god, prayer and sects-and-new-spirits and the \`translational\` fields of justification, satisfaction, sects-and-new-spirits and the-turk; all pass FK <= 10 and FRE >= 60.
+- *Over-flattening.* The Representative turns of \`witt.demo.bread-and-cup\`, \`witt.demo.faith-alone\` and \`witt.demo.who-held-authority\` and the \`bridge_line\` of the Luther, Katharina von Bora, Brussels martyrs and Melanchthon figures were rejoined into connected sentences. In bread-and-cup, "we were glad" was put back for "our founder rejoiced"; in faith-alone, "counted right" replaces "made right" (the justification wording is contested). The poor-man quote rendering was first re-rendered as one 75-word conditional chain; that broke the 25-word rule and was replaced, on the coordinating session's correction, by full sentences under 25 words (Opus), with the supposed case put as "may" and no clause dropped or added.
+- *Small wording.* \`witt.term.fear-and-love-god\` reads "The First Commandment's own explanation adds 'trust.'" (the Small Catechism has "fear, love, and trust" there); "scholar" is removed from \`witt.term.christ-alone\` (not in the source).
+- *Reformed cities.* \`witt.limit.record-thinnest\`, \`witt.demo.record-thinnest\` and \`witt.dw.one-holy-church-forever\` now say the same thing the sources support: no text held names Zwingli or Marburg, and the only trace is the single word "Sacramentarians" in the Bondage of the Will.
+
+**Use notes** (\`use_note.means\`, changed only where it contradicted the corrected fields or the source; \`not_for\`, \`years\` and \`status\` untouched). 124 records were compared; 10 changed.
+- \`witt.story.worms-1521\`: no longer says Luther would recant only "unless shown from Scripture"; it says he accepted correction in everything except what touches Holy Scripture.
+- \`witt.story.diet-of-augsburg-1530\`: "an elector, princes and two city councils" for "electors".
+- \`witt.story.household-catechism-lesson-typical-practice\`: food withheld "from the children until they repeat the parts" (the Large Catechism names the children, not servants).
+- \`witt.term.catechism\`, \`witt.term.household\`: the weekly and daily household practice is stated as what the books told the household to do, not as practice.
+- \`witt.term.fear-and-love-god\`: "each commandment after the first" and "nine times over" (Small Catechism lines 61 to 143; the First Commandment reads "fear, love, and trust").
+- \`witt.term.patience\`: the Table Talk remark is "said" to be Luther's (Contested as verbatim).
+- \`witt.term.the-turk\`: the "devil's instruments" and "alongside the pope and unbelief" wording is gone; \`witt.term.pope-and-antichrist\`: matches the corrected courteous-Rome wording.
+- \`witt.quote.nothing-that-varies\`: "ungodly" restored in "no new and ungodly doctrine".
+
+**Registered, not fixed.**
+- \`witt.term.sects-and-new-spirits\` once said the radicals were "people our own side helped suppress". No vendored text and no witt record supports a suppression claim, so the pass replaced it with "whose own account we do not have". This is a self-critical disclosure the world may owe, but it has no source in this library; it is kept out of the voice until one is found. OPEN.
+- \`witt.term.the-two-governments\` \`evidential\` still says "unread by this build", and \`witt.term.christ-alone\` \`plain_meaning\` and \`use_note\` still say "scholars" (original wording). OPEN.
+- \`witt.demo.who-held-authority\`: the sentence on the Council calling the founder to preach rests on v2 14778-14779 and was not rechecked against the original demo wording. OPEN.
+- \`witt.term.gospel\`: both \`plain_meaning\` and \`means\` say the Gospel "had been buried"; the hymnal preface does not say so ("hath again risen"). OPEN.
+
+Status: CLOSED for the fixes above; the registered items stay OPEN.
+
+## OG-72. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `witt.demo.bread-and-cup` representative turn: "and we did not explain how." now reads "and we did not explain how they are present."
+- `witt.term.sacrament-of-the-altar` `plain_meaning`: "We do not explain how." now reads "We do not explain how they are present."
+- `witt.term.sacrament-of-the-altar` `use_note.means`: "without explaining how." now reads "without explaining how they are present."
+- `witt.term.insurrection` `plain_meaning`: "and we understood why." now reads "and we understood their anger."
+- `witt.voice.craft` `characteristic_concerns`: "held without asking how." now reads "held without asking how Christ is present."
+
+`engine.m10.cli records witt` and `regate witt --base origin/main` pass. `witt.voice.craft` stays inside its 1500-word ceiling. Package rebuilt and repinned: `packages/witt/2026-10-14T20-21-26Z`, `manifest_hash` `sha256:698293cd5c09568c7a3670d179a0e4ce35177fc50c4d32d9e1d7249727aaf657`. Status: CLOSED.
+
+## OG-73. Atlas story pass: shorter story, ten card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card, and approved the Wittenberg text. `orientation.story` is now 12 units and 645 words, down from 12 units and about 1,170. `documented_stories` shows ten stories in date order. Each of those story records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 25 short notes; place locations cite Pleiades where it has an entry (Mainz, Worms, Augsburg), checked 2026-10-17. Review: `Build/Ministry/Operations/Audits/witt_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/witt/2026-10-17T03-46-27Z`, `manifest_hash` `sha256:fd0f9f133b9acb1e55da39e7425b613967f278c0465a27e75f649e8c5ff0a19e`. This pin supersedes the one in OG-72.
+
+Cut from the story with no story record, so they have no card story; they stay in the records named: the 1520 bull and its forty-one articles (`witt.force.papal-force-initiating`); "what is free should never be made compulsory" and liberty turned on careless pastors (`witt.gravity.must-and-free`); the Mass kept with examination before the Supper (`witt.gravity.promise-and-sign`); the Confession as a loyal address answered by Rome and the Apology (`witt.dw.a-confession-answered-not-a-vote`); the Saxon visitation and ordinary people's thin record (`witt.limit.record-thinnest`). The old story's "young" university has no record.
+
+**Open:**
+- The main story and the ten tellings were recorded on 2026-10-17 after the project lead approved a sample by ear: 13733 characters, 6659 credits, settings from the world's own manifest entry. The story runs 4:28. Closed.
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+## OG-74. Marburg break not narrated, and a figure record that disagrees with itself, 2026-10-17.
+
+The old story said Wittenberg broke with the Swiss cities at Marburg in 1529. `witt.force.reformed-rival-by-absence` is rated Inferential-Thin and says the claim is not yet well supported by anything in the library, which holds neither the Marburg Articles nor any text naming Zwingli. The story and its Marburg highlight now leave it out; the Augsburg Confession's rejection of other teaching on the Supper stays, grounded in AC 322-324. Separately, `witt.figure.speratus` says "four hymns" in its `sources.locus` and "eight" in its `divergence_note`; `witt.story.speratus-hymn-under-the-window` says eight, which the card follows. The figure record wants its locus corrected by the build thread.
+
+Status: OPEN.
+
+## OG-75. Other world_front sections keep "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `narrative.who_speaks`, `legacy`, `sourcing`, `read_first`, `skim.tile` and the envelope's `divergence_note` still say "this world", "this record" or "this library". Several voice-craft fields also fail the readability gate at the base, as `regate witt` reports.
+
+Status: OPEN for the project lead to schedule.
+
+## OG-76. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: Katharina's question is Luther's own report (story, teaser, voice); the Elector note no longer names Frederick for 1530; "Baptism is daily" now says the old self is drowned by daily repentance; "young university" removed from the tile; the five old-translation quotes are reported speech; long sentences and notes trimmed.
+**Open:**
+- No witt record gives a modern location for Wittenberg or the Wartburg; both notes are unchanged.
+- The Walter teaser and voice still say Luther "worked out" the Gospel and Epistle settings, which drifts slightly from Bacon 766-768.
+- Authoring modern renderings for the Wittenberg quotes would let the tellings quote them directly.
+
+Status: OPEN for the project lead on the three items above.
+
+The recheck also removed "young university" from the census copy of the tile (`cic-website/data/world-census.json`, `index.html`, `atlas-v3.html` and the tradition page).

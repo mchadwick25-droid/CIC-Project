@@ -42,9 +42,9 @@ relations:
   target: don.term.martyr-martyrdom
 - type: associated-with
   target: don.term.church-of-the-martyrs
-plain_meaning: '''Praise to God'' -- what we cry out where our rival says ''Deo gratias'', thanks to God. It is
-  not just a phrase in worship. It names who you are when you say it. It is cut in stone at Bagai and elsewhere,
-  in our own words, with no enemy holding the pen.'
+plain_meaning: '''Praise to God'': what we cried out where our rival said ''Deo gratias'', thanks to God.
+  It was not just a phrase in worship. It named who you were when you said it. It is cut in stone at Bagai
+  and elsewhere, in our own words, with no enemy holding the pen.'
 world_word: Deo laudes
 false_friend:
 - an ordinary liturgical response with no party meaning attached
@@ -58,8 +58,8 @@ senses:
     and the words. Doc_03 SS2 names it as the one clearly non-Augustine-mediated anchor in the whole lexicon.
     The limits are narrow but real -- the epigraphic readings come via the Registry''s citation of CIL rather
     than a directly opened edition, and the stones say the words without saying how they were used.'
-  personal: There is a particular weight to this term precisely because everything else in the record was written
-    by opponents. Here the community speaks in its own voice, briefly, in two words, permanently.
+  personal: This term carries a particular weight, because opponents wrote everything else in the record.
+    Here the community speaks in its own voice, briefly, in two words, for good.
   translational: '''Isn''t that just the same as saying thanks be to God?'' -- semantically, nearly. In practice
     it was the audible line between two churches: say one, and you have declared which side of a century-long
     dispute you stand on.'

@@ -20,6 +20,7 @@ relations: []
 author: Karl Ziwsa (editor); Optatus of Milevis (author)
 work: S. Optati Milevitani libri VII, Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL) 26
 edition: 'Prague/Vienna/Leipzig: F. Tempsky / G. Freytag, 1893; vendored as cic/texts/optatus_libri-vii-critical_ziwsa1893.txt'
+citation: 'Optatus of Milevis, S. Optati Milevitani libri VII, ed. Karl Ziwsa, Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL) 26 (Prague/Vienna/Leipzig: F. Tempsky / G. Freytag, 1893)'
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: 'attributed. Title page confirmed: EX RECOGNITIONE CAROLI ZIWSA, MDCCCLXXXXIII.'

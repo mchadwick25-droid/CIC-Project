@@ -75,32 +75,30 @@ tellable_as: >-
   the body. He perceives that power is present, and two hours later the man opens his eyes. Afterward
   the man tells of the tribunal and the two angels that sent him back.
 text: >-
-  This is how the tradition of Tours remembers the first of Martin's virtutes - what it believed a man
-  given wholly to God could do, and what it believed that doing made him.
+  This is how the tradition of Tours remembers the first of Martin's virtutes. It shows what the
+  tradition believed a man given wholly to God could do, and what it believed that doing made him.
 
   Martin followed Hilarius once he had gone, and set up a monastery for himself not far from the town.
   A catechumen joined him there, wanting to be shaped by the teaching and habits of so holy a man.
   Within a few days the man caught a fever. Martin was away for three days, and came back to find he
-  had died so suddenly that he had not been baptized. The body lay out for mourning when Martin arrived
-  in tears and grief (the tradition's own account of what follows, word for word, is kept in
-  gallic.quote.martin-raises-the-catechumen).
+  had died so suddenly that he had not been baptized. The body lay out for mourning when Martin
+  arrived in tears and grief.
 
   Then, as the tradition tells it, Martin took hold of the Holy Spirit with the whole power of his
   mind. He sent everyone else out of the cell, bolted the door, and stretched himself full length on
-  the dead man's body. He prayed for a time, and rose again once he sensed that power was present. Then
-  he waited without doubt for the Lord's mercy to answer his prayer. Scarcely two hours passed before
-  the dead man began to stir and open his eyes. Martin cried out in thanks so loudly that the brethren
-  outside rushed in and saw the man alive whom they had left dead. The catechumen was baptized at once,
-  and lived many years afterward. He became, the tradition says, the first person to offer himself both
-  as someone who had experienced Martin's power and as a witness to it (this closing line, and what
-  follows it, is kept word for word in gallic.quote.the-catechumens-testimony).
+  the dead man's body. He prayed for a time, and rose again once he sensed that power was present.
+  Then he waited without doubt for the Lord's mercy to answer his prayer. Scarcely two hours passed
+  before the dead man began to stir and open his eyes. Martin cried out in thanks so loudly that the
+  brethren outside rushed in and saw the man alive whom they had left dead. The catechumen was
+  baptized at once, and lived many years afterward. He became, the tradition says, the first person to
+  offer himself both as someone who had experienced Martin's power and as a witness to it.
 
-  The man himself used to tell what had happened to him: that when he left the body he was brought
-  before the tribunal of the Judge and assigned "to gloomy regions and vulgar crowds," and that two
-  angels of the Judge said this was the man for whom Martin was praying, and he was ordered back by
-  the same angels and "given up to Martin." From that day, the tradition says, Martin's name grew so
-  well known that people came to regard him as not only holy, but genuinely powerful and apostolic in
-  his own right.
+  The man himself used to tell what had happened to him. When he left the body, he was brought before
+  the tribunal of the Judge. He was assigned "to gloomy regions and vulgar crowds." Then two angels of
+  the Judge said this was the man for whom Martin was praying. He was ordered back by the same angels
+  and "given up to Martin." From that day, the tradition says, Martin's name grew so well known that
+  all people reckoned him holy. They also held him to be powerful and truly apostolic.
+telling: "Martin had set up a monastery for himself not far from the town. A catechumen, a man still preparing for baptism, came to live with him and learn from his teaching and his life. Within a few days the man fell ill with fever. Martin was away for three days, and when he came back the man was dead, so suddenly that he had never been baptized.\n\nAs Sulpitius tells it, Martin sent everyone out of the cell, bolted the door and stretched himself full length on the body. He prayed, and when he sensed that power was present, he rose and waited for the Lord's mercy. Within two hours the dead man began to stir and opened his eyes. Martin cried out his thanks so loudly that the brothers rushed in and found alive the man they had left dead. He was baptized at once and lived for many years.\n\nHe used to tell us what had happened to him. He had stood before the Judge and been sent to a gloomy place among common crowds. Then two angels said that he was the man Martin was praying for, and he was given back to Martin. From that day, people counted Martin holy, powerful and truly apostolic."
 absent_detail: >-
   The catechumen is never named; the monastery is named only as "not far from the town" (the
   identifications Ligugé and Poitiers are editorial, not in Sulpitius's chapter). Nothing at this locus
@@ -122,10 +120,3 @@ use_note:
   years: {from: 397, to: 397}
   status: reviewed
 ---
-Neither "Ligugé" nor "Poitiers" appears in the narrative: Sulpitius names the monastery only as "not
-far from the town," and those identifications are editorial, not his own words (see absent_detail).
-
-The raising itself, from Martin's return to the moment the brethren see the man alive, is carried in
-full, verbatim, in gallic.quote.martin-raises-the-catechumen; the man's becoming Martin's first witness
-and the growth of Martin's reputation are carried in gallic.quote.the-catechumens-testimony. This
-record paraphrases both in its own voice and points to those records for the exact wording.

@@ -1,0 +1,36 @@
+source_file: evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt
+assignments:
+- row_id: evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898--evagrius-grc-justinianic
+  work: The Ecclesiastical History of Evagrius (431-594), Greek text with scholia (Bidez and Parmentier,
+    1898)
+  author: evagrius-scholasticus
+  locus: whole file; Book I chapter headings on Nestorius from file line 1044; the Euphemia shrine, II.3,
+    at 4379
+  atlas_ids:
+  - byzantine-imperial-church-justinianic
+  role: tradition
+  confidence: provisional
+  note: Shared-Events Era 2 batch (Ephesus 431 and Chalcedon 451). The Greek original behind the Walford
+    English already in the map as this entry's own voice; same placement. Greek recovered; the English
+    front matter and Latin-script apparatus are garbled into Greek glyphs.
+- row_id: evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898--evagrius-grc-imperial-juridical
+  work: The Ecclesiastical History of Evagrius, Greek (Bidez and Parmentier, 1898)
+  author: evagrius-scholasticus
+  locus: Books I-II (431-451)
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: provisional
+  note: 'A Chalcedonian lawyer-historian of the late sixth century narrating Ephesus 431, Ephesus 449
+    and Chalcedon from documents: near-contemporary at a century''s distance, so context for ijc, not
+    voice.'
+- row_id: evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898--evagrius-grc-miaphysite
+  work: The Ecclesiastical History of Evagrius, Greek (Bidez and Parmentier, 1898)
+  author: evagrius-scholasticus
+  locus: Books I-II
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-christianity
+  role: context
+  confidence: provisional
+  note: A Chalcedonian outsider's account of Dioscorus, Timothy Aelurus and Proterius (II.8), following
+    the Walford row's context placement.

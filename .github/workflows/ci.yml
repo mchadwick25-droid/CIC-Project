@@ -369,6 +369,7 @@ jobs:
       - run: python cic/engine/works_registry.py --check
       - run: python cic/engine/author_ids.py --check
       - run: python cic/engine/texts_registry.py
+      - run: python cic/engine/texts_registry.py --check-readme
       - run: python cic/engine/tests_corpus_index.py
       - run: python cic/engine/tests_corpus_structure.py
       # tests_corpus_map.py fails four checks on the current corpus map. The
@@ -666,7 +667,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install pytest
-      - run: python -m pytest tools/tests/test_check_live_commentary.py tools/tests/test_check_live_commentary_scope.py tools/tests/test_check_paths.py -q
+      - run: python -m pytest tools/tests/test_check_live_commentary.py tools/tests/test_check_live_commentary_scope.py tools/tests/test_check_paths.py tools/tests/test_live_watch.py -q
 
   docker-build:
     needs: changes

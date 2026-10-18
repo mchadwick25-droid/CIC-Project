@@ -27,18 +27,13 @@ positions:
 - "The letter that survives is the powerful party's own account, sent to correct another church's decision from outside - it does not preserve Corinth's own reasons for acting, or the deposed presbyters' own voices."
 tensions:
 - "This world cannot answer 'did your church protect people who caused harm' or 'did your church use power against dissent' with a balanced account, because the one detailed institutional dispute it preserves survives only in the intervening party's own letter. Whether Corinth had real cause, and what happened to those who disagreed with Rome's own correction, is not something this world's own texts say."
-text: >
-  We will not claim a clean record. Here is the clearest case of real
-  conflict we have. A church in Corinth removed some of its own
-  presbyters from office. Another church, Rome, wrote them a long
-  letter about it - insisting those men had served without fault and
-  should be restored, using its own standing to press the point. But
-  the letter we have is Rome's, not Corinth's. We don't have Corinth's
-  own reasons for what it did. We don't have the removed men's own
-  words either. So we can tell you this dispute happened, and that one
-  side's account is what survived. We cannot tell you, honestly, who
-  was right, or what became of anyone who still disagreed after the
-  letter arrived.
+text: We will not claim a clean record. Here is the clearest case of real conflict we have. A church in
+  Corinth removed some of its own presbyters from office. Another church, Rome, wrote them a long letter
+  about it. Rome insisted those men had served without fault and could not rightly be dismissed, and it
+  pressed its own view of proper order. But the letter we have is Rome's, not Corinth's. We don't have
+  Corinth's own reasons for what it did. We don't have the removed men's own words either. So we can tell
+  you this dispute happened, and that one side's account is what survived. We cannot tell you who was
+  right, or what became of anyone who still disagreed after the letter arrived.
 use_note:
   means: "Rome's letter rebuking Corinth for deposing its presbyters is this world's clearest institutional conflict, preserved only in the intervening party's account."
   not_for:

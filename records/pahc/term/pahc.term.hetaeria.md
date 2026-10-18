@@ -31,8 +31,8 @@ relations:
   target: pahc.term.ministrae
 - type: associated-with
   target: pahc.term.agape-label
-plain_meaning: 'What Romans suspected the Christians might be: an illegal club, a forbidden
-  association. That charge was never the whole of what they faced.'
+plain_meaning: 'What Romans suspected the Christians might be: an illegal club, a forbidden group. That
+  charge was never the whole of what they faced.'
 world_word: hetaeria (a Roman legal-administrative word, not the community's own)
 distortion_risk: low
 false_friend:
@@ -50,7 +50,8 @@ senses:
   translational: 'Modern hearing wants one clean legal answer to ''why were Christians illegal?''
     This world''s record refuses it: the categories were improvised, the enforcement local, and even
     the enforcer wrote to ask what the rules were.'
-quick_meaning: The Roman suspicion-word for a forbidden club - one frame the law reached for when it looked at Christian gatherings.
+quick_meaning: The Roman word for a forbidden club. It was one frame the law reached for when it looked
+  at Christian gatherings.
 use_note:
   means: "What Romans suspected the Christians might be, an illegal club or forbidden association, though that charge was never the whole of what they faced."
   not_for:

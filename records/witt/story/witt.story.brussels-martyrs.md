@@ -21,9 +21,10 @@ confidence:
     anywhere in that text in connection with them.'
 sources:
 - source_id: witt.source.luther-ein-neues-lied-wir-heben
-  locus: Hymn V, "A Song of the Two Christian Martyrs burnt at Brussels by the Sophists of Louvain in
-    the year MDXXII [July 1, 1523]" - stanzas 1-6 read and verified verbatim, including the naming of
-    John and Henry, the Louvain proceedings, and "true priests of God's own making"
+  locus: >-
+    Hymn V, "A Song of the Two Christian Martyrs burnt at Brussels by the Sophists of Louvain in the year
+    MDXXII [July 1, 1523]" - stanzas 1-6, including the naming of John and Henry, the Louvain proceedings,
+    and "true priests of God's own making"
   license: public-domain
 retrieval:
   tier: 1
@@ -59,33 +60,32 @@ narrative_tier_justification: 'Split, and carried at the tier of the story''s ow
   reportage - the same discipline Doc_09 witt-S04''s usage guidance states directly, and the same split
   this world''s own Doc_02 §10 first drew without yet naming the hagiographic-convention reason Doc_09
   supplied.'
-tellable_as: In July of 1523, two young Augustinian-house monks named John and Henry were burned at Brussels
-  for refusing to take back what they had come to believe - and within months, Luther, in Wittenberg,
-  wrote a ballad about it, the first and only martyr-song this library holds.
-text: 'On the first of July, 1523, two young monks - one named John, the other Henry - were burned at
-  Brussels. They had been examined by theologians from Louvain, pressed to give up the evangelical teaching
-  they had come to hold, and had refused. Word of their deaths reached Wittenberg quickly enough that
-  Luther, within months of the burning, wrote a ballad about it - the only martyr-song this library holds
-  from his own hand, and the only story in this whole inventory in which the movement''s teaching cost
-  two people their lives.
+tellable_as: >-
+  In July of 1523, two young monks named John and Henry were burned at Brussels for refusing to take back
+  what they had come to believe. Within months, Luther wrote a ballad about them in Wittenberg.
+text: >-
+  On the first of July, 1523, two young monks - one named John, the other Henry - were burned at Brussels.
+  They had been examined by theologians from Louvain, pressed to give up the evangelical teaching they
+  had come to hold, and had refused. Word of their deaths reached Wittenberg quickly. Within months, Luther
+  wrote a ballad about them. It is the only martyr-song we have from his hand, and the only story here
+  in which the movement's teaching cost two people their lives.
 
-  The ballad itself does not read like a news report, and it was never meant to. It opens by calling itself
-  "a new and wondrous story," sung "to his great praise and glory" - God''s own glory, worked out through
-  "two youths, highly gifted with rich and heavenly graces." It names them - "one of these youths was
-  called John, and Henry was the other" - and says of their end only that "for God''s dear Word they shed
-  their blood, and from the world departed... they won the crown of martyrs." It tells, in the ballad''s
-  own voice, of Louvain''s theologians trying every device to make them recant, and of the two young men
-  standing firm "like rocks"; of their monks'' habits stripped from them before the burning, and the ballad''s
-  own claim that they answered this with "a cheerful Amen," glad, in the song''s own telling, to be free
-  of what it calls Satan''s disguise. The ballad''s own high point is not the fire itself but a single
-  line about what their deaths meant: "thus by the power of grace they were true priests of God''s own
-  making."
+  The ballad itself does not read like a news report. It opens by calling itself "a new and wondrous story,"
+  sung "to his great praise and glory" - God's own glory, worked out through "two youths, highly gifted
+  with rich and heavenly graces." It names them - "one of these youths was called John, and Henry was
+  the other" - and says of their deaths that "for God's dear Word they shed their blood, and from the
+  world departed... they won the crown of martyrs." It tells how theologians from Louvain tried every
+  device to make them recant. It says the two young men stood firm "like rocks." It says their monks'
+  habits were stripped from them before the burning, and that they answered with "a cheerful Amen," glad
+  to be free of "Satan's mock and masquerade." One line of the ballad says what the stripping meant: "thus
+  by the power of grace they were true priests of God's own making."
 
   What can be said as documented fact is this: two named men died at Brussels on a given day in 1523,
   for refusing to recant a teaching, and Luther wrote about it within the year. What the ballad adds -
-  the exact words at the stake, the precise sequence of the Louvain proceedings, the martyrs'' own cheerfulness
-  in the moment of death - is the ballad''s own telling, in its own commemorative voice, not an independent
-  eyewitness report.'
+  the exact words at the stake, the precise sequence of the Louvain proceedings, the martyrs' own cheerfulness
+  in the moment of death - is the ballad's own telling, in its own commemorative voice, not an independent
+  eyewitness report.
+telling: "Luther's ballad opens by calling itself \"a new and wondrous story,\" sung \"to his great praise and glory,\" the glory of God.\n\nOn the first of July, 1523, two young monks named John and Henry were burned at Brussels. Theologians from Louvain had examined them and pressed them to give up the evangelical teaching, and they refused. Word reached Wittenberg quickly, and within months Luther had written his song.\n\nIt calls them \"two youths, highly gifted with rich and heavenly graces.\" In the song, the Louvain theologians try every device to make them recant, and the two stand firm \"like rocks.\" In its words, \"for God's dear Word they shed their blood,\" and \"they won the crown of martyrs.\"\n\nThe ballad says their monks' habits were stripped from them before the burning. They answered, it says, with \"a cheerful Amen,\" glad to be free of \"Satan's mock and masquerade.\""
 absent_detail: The vendored text does not give either man's family name, age, or any biographical detail
   beyond "John" and "Henry," and does not call them "Augustinian" anywhere in its own wording - that identification,
   where it appears elsewhere, is a historical identification made outside this text, not this text's own

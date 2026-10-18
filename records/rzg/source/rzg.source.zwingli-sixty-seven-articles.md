@@ -23,6 +23,7 @@ attribution_status: attributed to Huldrych Zwingli. No attribution dispute exist
 discovery_channel: Source_Registry.md row 6, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.
 external_ids:
   rzg_source_registry_row: 6
+citation: Huldrych Zwingli, The Sixty-Seven Articles (1523), in the collective volume Selected Works (Jackson 1901)
 kind: vendored
 ---
 Zwingli's own founding doctrinal statement - Zurich-strand Practice/Authority evidence, and Article XVIII's own remembrance language is T2's own first, earlier pole. Verified directly against the vendored file at the cited line range, per Source_Registry.md's own Verification Note. Carried as its own row, separate from row 7's own collective Selected Works bucket, since it is independently vendored-and-verified rather than merely named within that collective volume.

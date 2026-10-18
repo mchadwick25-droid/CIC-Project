@@ -17,6 +17,7 @@ relations: []
 author: Anders Cavallin, Reinhard Hubner, and Johannes Zachhuber
 work: Scholarship arguing Epistle 38's reassignment from Basil to Gregory of Nyssa
 edition: In-copyright modern scholarship, not vendored
+citation: Anders Cavallin, Reinhard Hubner, and Johannes Zachhuber, scholarship on the reassignment of Epistle 38 from Basil to Gregory of Nyssa
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

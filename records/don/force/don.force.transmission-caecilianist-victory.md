@@ -17,16 +17,16 @@ confidence:
     weakened -- named directly at Layer 2 as a genuine absence, not an inference offered in its place.
 sources:
 - source_id: don.source.tyconius-liber-regularum
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the Liber Regularum, the one substantial interpretive text of this world that survives on its own'
   license: public-domain
 - source_id: don.source.passio-marculi
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the Passion of Marculus, known through Mabillon''s edition'
   license: public-domain
 - source_id: don.source.passio-isaac-et-maximiani
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Macrobius''s letter on the deaths of Isaac and Maximianus'
   license: public-domain
 - source_id: don.source.deo-laudes-acclamation-cil8
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the Deo laudes inscriptions, cut in stone'
   license: public-domain
 relations:
 - type: associated-with

@@ -21,8 +21,8 @@ confidence:
     independent of Augustine preserves the decree, so what is verified is the wording he quotes rather
     than the wording that was voted.
 sources:
-- source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: Book III (the Bagai decree quoted, followed immediately by Optatus Gildonianus advancing with
+- source_id: don.source.augustine-answer-to-letters-of-petilian
+  locus: Book I, chapter 10 (the Bagai decree quoted, followed immediately by Optatus Gildonianus advancing with
     a military force to bring Felicianus and Praetextatus back)
   license: public-domain
 - source_id: don.source.augustine-contra-cresconium
@@ -48,7 +48,7 @@ modern_lens_note: >-
   two of the very men covered by this sentence, Felicianus of Musti and
   Praetextatus of Assuris, were restored to office by the same
   communion - with neither their baptism nor their ordination repeated,
-  and with a general's troops enforcing the reconciliation. The
+  and with troops that came with a bishop enforcing the reconciliation. The
   ferocity of the language and the quietness of the reversal sit in the
   same record, unreconciled, and that is precisely why the decree
   survives: the man quoting it built his central case on the gap.

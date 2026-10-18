@@ -19,6 +19,7 @@ work: 'The Letters (three undisputed: to Eusebius, to Aurelius, to Bassula -- Ep
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 11 (Sulpitius Severus, Vincent of Lerins, John
   Cassian), tr. Alexander Roberts / C. A. Heurtley / Edgar C. S. Gibson, ed. Schaff and Wace, vendored
   as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+citation: Sulpitius Severus, The Letters (to Eusebius, to Aurelius, to Bassula), trans. Alexander Roberts, Nicene and Post-Nicene Fathers, 2nd series, vol. 11, ed. Schaff and Wace
 kind: vendored
 rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
 attribution_status: attributed

@@ -21,6 +21,7 @@ edition: (H. E. Jacobs, 1915), and the per-work introductions by C. M. Jacobs, A
   as general editors; vol. III under Muhlenberg Press / ULCA Board of Publication (1930); vendored as
   cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt, cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt,
   cic/texts/luther_works-v3-selected_various1930.txt
+citation: 'Philadelphia Edition editorial apparatus, vols. I–III: general introduction and translators'' note (H. E. Jacobs, 1915), and the per-work introductions by C. M. Jacobs, A. T. W. Steinhaeuser, W. A. Lambert, J. J. Schindel, A. Steimle, T. E. Schmauk, J. L. Neve, with H. E. Jacobs and A. Spaeth as general editors; vol. III under Muhlenberg Press / ULCA Board of Publication (1930)'
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

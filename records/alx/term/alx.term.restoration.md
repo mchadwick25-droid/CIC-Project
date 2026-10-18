@@ -43,11 +43,8 @@ senses:
     always meant to grow into, not backward to an earlier state.
   evidential: Athanasius reads the Logos's entry as the beginning of this restorative reversal; Clement
     reads formation as the image being progressively conformed to the likeness it is aimed at.
-  personal: A person being formed is not being returned to who they were before they went wrong - they
-    are being carried further, into something the earlier version of themselves had not yet become.
-  translational: >-
-    Isn't restoration just putting something back the way it was, like a cleaned painting? This world
-    meant something that moves forward, not backward - completion, not a reset to a prior condition.
+  personal: "A person being formed was not returned to who they were before they went wrong. They were carried further, into something their earlier self had not yet become."
+  translational: "Isn't restoration just putting something back as it was, like a cleaned painting? This world meant something that moved forward. It was completion, not a reset."
 quick_meaning: God's work repairing what sin damaged - and carrying it further, not just back to before.
 distortion_risk: high
 use_note:

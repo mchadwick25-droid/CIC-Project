@@ -116,13 +116,13 @@ description: |-
 
   Of the eighty disciples at Marmoutier, numbers were afterwards made bishops (Vita, ch. X). The disciples were trained after their master's example.
 
-  Everything Cassian wrote was addressed to bishops, or to men who became bishops. His formation writing was for a bishop's new monastery. Honoratus moves from monk to bishop between two of his dedications (Conferences, prefaces II and III).
+  Most of what Cassian wrote was addressed to bishops, or to men who became bishops. His formation writing was for a bishop's new monastery. Honoratus moves from monk to bishop between two of his dedications (Conferences, prefaces II and III).
 
   Archebius is the Egyptian counter-case. He counted his appointment as expulsion from the monastic system, as unworthy of it. Cassian carried his story west (Conferences XI.2).
 
-  Hilary of Arles preached on Honoratus in the south's own Latin. He tells how the priest's headband fastened on a man who fled from it, and how the honor came to him. The Latin is there in the source, but this English wording of it is rated Inferential/Thin.
+  Hilary of Arles preached on Honoratus in the south's own Latin. He tells how the dignity came to the man who had fled from it. His Latin survives only in a rough copy, so the exact wording is uncertain.
 
-  What sets this world apart is a seminary that looked like a monastery. Every primary voice attests this pattern, and Gennadius confirms it independently. It holds in both north and south, more strongly than any other pattern in this world. It is the only one that a Latin insider in the south, Hilary, attests apart from Cassian.
+  This pattern sets this world apart. Sulpitius, Cassian and Hilary all attest this pattern, and Gennadius confirms it independently. It holds in both north and south, more strongly than any other pattern in this world. It is the only one that a Latin insider in the south, Hilary, attests apart from Cassian.
 
   It explains three things. The withdrawal stayed close to the city. The grace argument reached Rome. The ending was a change in how the institution spoke, not a collapse.
 
@@ -130,7 +130,7 @@ description: |-
 
   By the 470s a bishop formed at Lérins, Faustus, carried the argument at the commission of synods. Under barbarian pressure this was the institution left standing. Gennadius, writing from the same city about 495, reports two monasteries still standing.
 
-  These pressures did not change the pattern. They made it the way the world ended.
+  These pressures did not change the pattern. It was the form in which the world ended.
 manifestations:
 - "Martin in the army 'regarded not so much as being a soldier as a monk' (Vita II); made bishop while some bishops objected that 'his clothing was mean, and his hair disgusting' (Vita IX); keeping 'the objects and virtues of a monk' in office (Vita X)"
 - "Marmoutier's eighty disciples, 'numbers of these afterwards made bishops' - 'what city or church would there be that would not desire to have its priests from among those in the monastery of Martin?' (Vita X)"

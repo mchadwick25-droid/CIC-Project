@@ -16,6 +16,7 @@ sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
 work: "Vita Antonii (Life of Antony), c. 356-362 CE - hagiographic genre; the formation ideal it communicates is credible evidence, its miracle episodes are not historical reporting"
 edition: "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+citation: Athanasius of Alexandria, Vita Antonii (Life of Antony), trans. H. Ellershaw, in Robertson's Nicene and Post-Nicene Fathers ser. 2 vol. 4 (1892)
 kind: vendored
 work_id: athanasius-vita-antonii
 rights_status: public-domain

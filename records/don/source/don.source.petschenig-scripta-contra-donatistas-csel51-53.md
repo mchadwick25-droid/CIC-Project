@@ -24,6 +24,7 @@ relations: []
 author: Michael Petschenig (editor); Augustine of Hippo (author)
 work: Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53
 edition: 'Vienna: Tempsky / Leipzig: Freytag, 1908 and 1910; vendored as cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt'
+citation: 'Augustine of Hippo, Sancti Aureli Augustini Scripta contra Donatistas, ed. Michael Petschenig, CSEL 51 and 53 (Vienna: Tempsky / Leipzig: Freytag, 1908 and 1910)'
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed

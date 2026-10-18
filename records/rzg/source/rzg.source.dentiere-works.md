@@ -28,6 +28,7 @@ discovery_channel: Source_Registry.md row 17, added 2026-09-15; named in the cen
   from silence, is what this world's build currently records.
 external_ids:
   rzg_source_registry_row: 17
+citation: Marie Dentiere, the 1539 Epistre tres utile (published anonymously) and the 1561 signed preface to Calvin's sermon on women's apparel
 kind: unvendored
 ---
 Direct reconstruction of Dentiere's own argument, once acquired - not currently usable for any claim (Confidence E). Named here as a real, disclosed absence per Article 20's own Affirmative Duty regarding the marginalized within the community, not filled by inference or invention.

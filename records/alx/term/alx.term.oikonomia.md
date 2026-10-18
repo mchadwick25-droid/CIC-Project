@@ -48,12 +48,8 @@ senses:
     (Origen's Incarnation chapter is De Principiis II.6, "On the Incarnation of Christ" - not I.6, "On
     the End or Consummation," which is eschatological restoration material quarantined at
     alx.term.apokatastasis).
-  personal: A person's own formation - reading Scripture, praying, gathering for the Eucharist - is not
-    a private project running alongside God's plan. It is that plan, currently at work in one particular
-    life.
-  translational: >-
-    Doesn't "economy" just mean the financial system - production and markets? This world used the word
-    for something else entirely: God's whole, unimprovised arrangement for creation's restoration.
+  personal: "A person's own formation, in reading Scripture, praying and gathering for the Eucharist, was no private project alongside God's plan. It was that plan at work in one life."
+  translational: "Doesn't \"economy\" just mean money and markets? This world meant something else by the word: God's whole plan for restoring creation, never made up as he went."
 quick_meaning: God's whole plan for saving creation, not a last-minute rescue.
 distortion_risk: high
 use_note:

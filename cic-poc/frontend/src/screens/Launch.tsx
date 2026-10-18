@@ -7,9 +7,11 @@
  * sitting.
  */
 import { ArrivingLockup } from '../components/ArrivingLockup';
+import { ExperienceFeedbackButton, ExperienceFeedbackCard } from '../components/ExperienceFeedback';
 import { GoDeeperPanel } from '../components/GoDeeperPanel';
 import { PAIRINGS, suggestionsFor } from '../data/pairings';
 import type { WorldEntry } from '../data/worlds';
+import { useState } from 'react';
 
 const TABLE_SEAT_LIMIT = 3;
 
@@ -31,6 +33,7 @@ export function Launch({
   worlds, isLoading, error, seated, tableFocus, convening, tableError,
   onBeginInterview, onToggleSeat, onSeatPairing, onConvene,
 }: LaunchProps) {
+  const [feedbackOpen, setFeedbackOpen] = useState(false);
   const byKey = new Map(worlds.map((w) => [w.worldKey, w]));
   const seatedWorlds = seated.map((k) => byKey.get(k)).filter((w): w is WorldEntry => w !== undefined);
   const suggestions = seated.length === 0 ? PAIRINGS : suggestionsFor(seated);
@@ -141,6 +144,10 @@ export function Launch({
         </div>
       </div>
       <GoDeeperPanel />
+      <div className="launch__foot">
+        <ExperienceFeedbackButton open={feedbackOpen} onToggle={() => setFeedbackOpen((o) => !o)} />
+        {feedbackOpen && <ExperienceFeedbackCard page="launch" onClose={() => setFeedbackOpen(false)} />}
+      </div>
     </div>
   );
 }

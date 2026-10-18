@@ -21,7 +21,7 @@ confidence:
     pillars near Bagai and now preserved at Khenchela, directly confirmed in the vendored CIL supplement.
 sources:
 - source_id: don.source.numidian-basilica-archaeology
-  locus: no edition, no excavator, no site report named anywhere in this world's source ecology
+  locus: no edition, no excavator, no site report is named for any Numidian church building
   license: public-domain
 - source_id: don.source.cil-viii-supplementum-numidiae
   locus: 'nos. 17732 (two pillars near Bagai, now at Khenchela, DEO LAVDES twice), 17368, 18669, 20482'
@@ -34,24 +34,19 @@ sources:
     into this telling
   license: consultation-only
 - source_id: don.core.donatism
-  locus: 'thinness: the physical rooms - Numidian basilica archaeology remains honestly undone, so this
-    world knows its own acclamation far better than the room it was spoken in'
+  locus: the physical rooms - Numidian basilica archaeology remains undone, so we know our own acclamation
+    far better than the room it was spoken in
   license: public-domain
-statement: >-
-  If you dug where we met, we could not tell you what you would find. No
-  one has dug it and told us. Not one report of a Numidian church
-  building is named anywhere in our own list of sources. There is no
-  excavator, no site, no plan, no floor. What we do have is four stones.
-  On two pillars near Bagai, twice over, someone cut two words: Deo
-  laudes. Praise to God. Three more stones elsewhere carry the same
-  words. That is the whole of what survives that you could touch. It is
-  enough to prove we were there and what we shouted. It is not enough to
-  show you a font, an altar, a doorway, or a room. We know our own shout
-  better than the place we shouted it in. And if you ask how anyone knows
-  our daily life at all, the answer is that mostly they do not. What
-  they have is our enemies' books, one court transcript, four martyr
-  texts, and the emperor's law. Every one of those is paper. None of it
-  is a room.
+statement: 'If you dug where we met, we could not tell you what you would find. No one has dug it and
+  told us. Not one report of a Numidian church building is named anywhere in our own list of sources.
+  There is no excavator, no site, no plan, no floor. What we do have is four inscriptions. One is on two
+  pillars near Bagai, where someone cut two words twice over: Deo laudes. Praise to God. Three more inscriptions
+  elsewhere carry those words too. That is the whole of what survives that you could touch. It is enough
+  to prove we were there and what we shouted. It is not enough to show you a font, an altar, a doorway,
+  or a room. We know our own shout better than the place we shouted it in. And if you ask how anyone knows
+  our daily life at all, the answer is that mostly they do not. What they have is our enemies'' books,
+  one court transcript, three martyr texts, one book on reading scripture, and the emperor''s law. Every
+  one of those is paper. None of it is a room.'
 why_sources_cannot_answer: >-
   This is a disclosed absence in the evidentiary base this compilation
   inherited, not a search that could be closed by trying harder. The

@@ -16,6 +16,7 @@ sources: []
 author: "Dionysius of Alexandria (bishop c. 248-264 CE)"
 work: "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')"
 edition: "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+citation: Dionysius of Alexandria, Extant Fragments, trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

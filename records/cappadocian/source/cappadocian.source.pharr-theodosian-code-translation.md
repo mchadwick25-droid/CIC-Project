@@ -17,6 +17,7 @@ relations: []
 author: Clyde Pharr (translator)
 work: The Theodosian Code (1952) -- the full English translation
 edition: In-copyright, 1952 translation, not vendored
+citation: Clyde Pharr, trans., The Theodosian Code (1952)
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

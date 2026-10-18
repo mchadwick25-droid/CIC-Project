@@ -19,11 +19,11 @@ sources:
     outside the vendored corpus'
   license: public-domain
 relations: []
-statement: 'One woman in our own record carried real authority, and paid for it. Marie Dentiere wrote
-  in defense of our own reform at Geneva, and was prosecuted for having written at all. That much is directly
-  attested: she had standing enough to be worth silencing. What she actually argued -- her own words,
-  her own reasoning, in full -- has not reached us. I can tell you she spoke. I cannot yet show you what
-  she said.'
+statement: Could a woman carry real authority among us, and what did it cost her? One woman in our record
+  stands out. She is Marie Dentiere. In 1539 a work defending women's voice came out with no name on it.
+  Our record links it to her. Geneva's authorities seized it, and its printer was prosecuted. What it
+  cost her herself, our record does not say. What she actually argued, in her own words and her own reasoning,
+  has not reached us. We can tell you she wrote. We cannot yet show you what she said.
 why_sources_cannot_answer: 'Doc_02_Source_Ecology.md SS6 states this world''s own gender finding directly:
   Marie Dentiere wrote and was prosecuted for it, a real, consequential act of authority independently
   attested, but ''her own argument is not reconstructed beyond the bare fact of her having written and
@@ -35,7 +35,7 @@ nearest_material:
 - rzg.core.the-reformed-cities-zurich-and-geneva
 - rzg.gravity.consistorial-church-discipline
 use_note:
-  means: "The record attests that Marie Dentiere wrote in defense of Geneva's reform and that the authorities moved to silence her for it, but not what she actually argued."
+  means: "The record links the anonymous 1539 work defending women's voice to Marie Dentiere and says Geneva's authorities seized it and prosecuted its printer, but it does not hold what she argued."
   not_for:
     - "a claim that her arguments or reasoning can be reconstructed from this record"
   years: {from: 1519, to: 1650}

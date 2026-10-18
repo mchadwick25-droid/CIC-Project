@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: The Eight Wittenberg Sermons
 edition: (March 1522), intro./trans. Steimle, vol. II; vendored as cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt
+citation: Luther, The Eight Wittenberg Sermons (March 1522), intro./trans. Steimle, vol. II
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

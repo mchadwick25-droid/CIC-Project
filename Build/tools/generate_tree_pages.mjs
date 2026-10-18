@@ -283,6 +283,7 @@ li{margin-bottom:.5rem}
 .site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
 .site-footer .row{max-width:var(--wide);margin:0 auto}
 </style>
+<link rel="stylesheet" href="../assets/feedback.css">
 </head>
 <body>
 <a href="../index.html" class="skip-link">Skip to home</a>
@@ -290,6 +291,7 @@ li{margin-bottom:.5rem}
 <header class="site-header">
   <div class="row">
     <a href="../index.html" class="wordmark">Church <em>in</em> Conversation</a>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
   </div>
 </header>
 
@@ -354,10 +356,11 @@ li{margin-bottom:.5rem}
 
 <footer class="site-footer">
   <div class="row">
-    <p>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</p>
+    <p>&copy; 2026 Church in Conversation, part of Faithways Studio, Inc. Creating safe spaces to explore faith and the story of Jesus.</p>
   </div>
 </footer>
-${narrated ? '<script src="../assets/narration-player.js" defer></script>\n' : ''}</body>
+${narrated ? '<script src="../assets/narration-player.js" defer></script>\n' : ''}<script src="../assets/feedback.js" defer></script>
+</body>
 </html>`;
 
   return html;
@@ -389,6 +392,7 @@ const sitemapUrls = [
   'https://churchinconversation.com/index.html',
   'https://churchinconversation.com/about.html',
   'https://churchinconversation.com/support.html',
+  'https://churchinconversation.com/corrections.html',
   'https://churchinconversation.com/atlas.html',
   ...Array.from(builtWorlds).map(id => `https://churchinconversation.com/traditions/${id}.html`),
   ...census.movements.map(m => `https://churchinconversation.com/tree/${m.id}.html`)

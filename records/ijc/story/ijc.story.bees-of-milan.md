@@ -31,11 +31,10 @@ narrative_tier_justification: 'Tier 3 (attributed tradition): explicitly hagiogr
   death, using a recognizable infancy-omen topos that recurs in other late-antique saints'' lives. A
   real source, really attributed - and the claimed event is legend, not documented biography, told only
   with that character audible.'
-tellable_as: the tradition of the bees at the infant Ambrose's mouth, as Paulinus told it after Ambrose's
-  death - legend, and named as such
+tellable_as: the bees at baby Ambrose's mouth, as Paulinus told it after Ambrose died, a legend that we name as one.
 text: >-
   Paulinus, who had been Ambrose's own secretary, tells it this way. While
-  Ambrose lay as a baby in the courtyard of his father's house, a swarm of
+  Ambrose lay as a baby in the courtyard of the governor's residence, where his father held office, a swarm of
   bees settled on his face. They went in and out of his open mouth, then rose
   again without harming him. His father, seeing it, said that if the child
   lived, he would become something great. So the tradition tells it - a story

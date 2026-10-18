@@ -23,7 +23,7 @@ retrieval:
   retrieve_when:
   - baptism questions
   - born-again translational questions
-plain_meaning: 'Illumination: the light given at baptism. To be baptized was called being enlightened.'
+plain_meaning: "The light given at baptism. People called being baptized being enlightened."
 world_word: photismos
 false_friend:
 - a private mystical experience
@@ -32,10 +32,8 @@ senses:
   informational: 'Baptism''s oldest Alexandrian name: illumination - the washing that opens the eyes,
     the entry into light shared with the whole community.'
   evidential: The illumination language for baptism is standard across the tradition's catechetical material.
-  personal: 'The promise at the water was new sight: the world after baptism was supposed to look different,
-    because the one seeing it had been changed.'
-  translational: '''Were you born again?'' - this world said enlightened: baptism as new birth spoken
-    of as new sight.'
+  personal: "The promise at the water was new sight. Life after baptism was meant to look different, because the one seeing it had been changed."
+  translational: "'Were you born again?' - this world spoke of regeneration and of enlightenment together, and Clement named the washing by its light: baptism as new birth and new sight."
 quick_meaning: 'The light of baptism: new birth spoken of as new sight.'
 distortion_risk: medium
 use_note:

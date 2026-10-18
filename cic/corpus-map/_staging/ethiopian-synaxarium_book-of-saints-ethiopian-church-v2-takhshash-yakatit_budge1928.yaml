@@ -1,0 +1,27 @@
+source_file: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt
+
+assignments:
+  - row_id: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928--ethiopic-synaxarium-takhshash-ter-yakatit-english
+    work: "The Ethiopic Synaxarium, volume II (Takhshash, Ter, Yakatit), English translation by Budge"
+    author: ethiopian-synaxarium
+    locus: "whole volume; the months at file line 113"
+    atlas_ids:
+      - the-ethiopian-monastic-flowering
+    role: tradition
+    confidence: provisional
+    note: >
+      Second volume of the same translation as the volume I file; the author ruling for
+      ethiopian-synaxarium is stated in that file's staging. Same provisional shelf assignment,
+      for the builders to confirm.
+  - row_id: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928--ethiopic-synaxarium-takhshash-ter-yakatit-english-2
+    work: "The Ethiopic Synaxarium, volume II (Takhshash, Ter, Yakatit), English translation by Budge"
+    author: ethiopian-synaxarium
+    locus: "the Ter commemoration of Gregory the Theologian, file line 12779"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: provisional
+    note: >
+      Late Ethiopian liturgical memory of Gregory of Nazianzus, a one-line commemoration. A
+      reception witness for how the Cappadocian president of Constantinople 381 is remembered
+      in Ethiopia; never evidence of the council.

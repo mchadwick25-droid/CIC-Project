@@ -21,6 +21,7 @@ author: Rene Cagnat and Johannes Schmidt (editors)
 work: 'Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II: Inscriptionum Provinciae Numidiae
   Latinarum Supplementum'
 edition: 'Berlin: Reimer, 1894; vendored as cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt'
+citation: 'Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II: Inscriptionum Provinciae Numidiae Latinarum Supplementum, ed. Rene Cagnat and Johannes Schmidt (Berlin: Reimer, 1894)'
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed

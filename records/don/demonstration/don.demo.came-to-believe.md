@@ -16,7 +16,7 @@ sources:
   - {source_id: don.dw.walking-to-one-font, locus: "the two-of-everything town, the public dated act, the refusal on personal devotion, the conscience of the giver", license: public-domain}
   - {source_id: don.quote.petilian-conscience-of-the-giver, locus: "Petilian's clause, quoted verbatim", license: public-domain}
   - {source_id: don.term.rebaptism, locus: "the first true baptism rather than a repetition", license: public-domain}
-  - {source_id: don.core.donatism, locus: "thin_topics: the ordinary believer's own interior life", license: public-domain}
+  - {source_id: don.core.donatism, locus: "the ordinary believer's own interior life is not recorded in the surviving texts", license: public-domain}
 canon_question_id: _fleet.canon.c-p-01
 tags: [center, honest-limit]
 exchange:
@@ -32,8 +32,8 @@ exchange:
     are two of everything. Two bishops. Two basilicas. Two men who will say
     the words over you, and you have to choose which set of hands goes into
     the water with you. Coming to believe was not a private settling of the
-    mind among us. It was a public act with a date on it, and everyone in the
-    street knew which way you had walked.
+    mind among us. It was a public act with a date on it, and everyone in
+    the street knew which way you had walked.
 
 
     If you came to us from the other communion, we washed you. We did not
@@ -53,8 +53,7 @@ exchange:
     What we did think through to the bottom was the other half of it. We did
     not examine the person coming. We examined the hand. For what we look to
     is the conscience of the giver, to cleanse that of the recipient — our
-    own bishop's own words. Whatever you have done, it was never your record
-    that was on trial at our font. It was ours.
+    own bishop's own words.
 ---
 Worked exchange for C-P, from `don.dw.walking-to-one-font`. The cell's
 three variants get three different treatments and the differences are

@@ -31,12 +31,64 @@ export function escapeHtml(s) {
     .replace(/'/g, "&#39;");
 }
 
-function paragraphs(text) {
+function paragraphs(text, marks) {
   if (!text) return "";
   return String(text)
     .split(/\n\n+/)
-    .map((p) => `<p>${escapeHtml(p.trim())}</p>`)
+    .map((p) => `<p>${marks ? marks.mark(p.trim()) : escapeHtml(p.trim())}</p>`)
     .join("\n");
+}
+
+function sourceHost(url) {
+  try {
+    return url ? new URL(url).hostname.replace(/^www\./, "") : "";
+  } catch (e) {
+    return "";
+  }
+}
+
+const HIGHLIGHT_KIND_LABEL = { person: "Person", term: "Term", council: "Council", place: "Place" };
+
+// A world's orientation.highlights, applied to one stretch of reading (the
+// story, or one documented story's telling): each phrase is marked at its
+// first appearance in that stretch only, longest phrase first, never inside
+// another mark. The note shows on hover, on keyboard focus, and on tap
+// (a tap focuses the mark), with no script.
+function highlighter(compiled) {
+  const entries = ((compiled.orientation && compiled.orientation.highlights) || [])
+    .filter((h) => h && h.phrase && h.note)
+    .sort((a, b) => b.phrase.length - a.phrase.length);
+  if (!entries.length) return null;
+  const used = new Set();
+  return {
+    mark(text) {
+      const spans = [];
+      for (const h of entries) {
+        if (used.has(h.phrase)) continue;
+        const re = new RegExp(`(?<![\\p{L}\\p{N}])${h.phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\p{L}\\p{N}])`, "gu");
+        let m;
+        while ((m = re.exec(text))) {
+          const start = m.index, end = start + m[0].length;
+          if (spans.some((s) => start < s.end && end > s.start)) continue;
+          spans.push({ start, end, h });
+          used.add(h.phrase);
+          break;
+        }
+      }
+      spans.sort((a, b) => a.start - b.start);
+      let out = "", at = 0;
+      for (const { start, end, h } of spans) {
+        const kind = HIGHLIGHT_KIND_LABEL[h.kind] || "";
+        out += escapeHtml(text.slice(at, start))
+          + `<span class="hl" tabindex="0">${escapeHtml(text.slice(start, end))}`
+          + `<span class="hl-note" role="tooltip"><b>${escapeHtml(h.label || h.phrase)}</b>${escapeHtml(h.note)}`
+          + `<small>${[kind, sourceHost(h.url)].filter(Boolean).join(" \u00b7 ")}</small>`
+          + "</span></span>";
+        at = end;
+      }
+      return out + escapeHtml(text.slice(at));
+    },
+  };
 }
 
 // A figure's own in-world name (falls back to the first name entry, then
@@ -73,12 +125,13 @@ function narrationPlayer(url) {
   ].join("");
 }
 
-// opts.narration = { story: url, legacy: url, documented: [url|null, ...] },
+// opts.narration = { story: url, legacy: url, documented: { [story_id]: url } },
 // built by the caller from cic-website/audio/worlds/manifest.json.
 export function renderStory(compiled, opts) {
   const story = (compiled.orientation && compiled.orientation.story) || [];
   const player = narrationPlayer(opts && opts.narration && opts.narration.story);
-  return player + story.map((unit) => paragraphs(unit.text)).join("\n");
+  const marks = highlighter(compiled);
+  return player + story.map((unit) => paragraphs(unit.text, marks)).join("\n");
 }
 
 export function renderVoices(compiled, opts) {
@@ -103,9 +156,9 @@ export function renderVoices(compiled, opts) {
   return ['<div class="orient-voices">', ...blocks, "</div>"].join("\n");
 }
 
-// title/when/teaser are always visible - only the full text (the actual
-// documented account) sits behind the disclosure. Reuses atlas-v3.html's
-// own docstory-item/docstory naming convention for visual consistency,
+// title/when/teaser are always visible - only the story's own telling
+// (its tellable_as where it has no telling yet) sits behind the
+// disclosure. Reuses atlas-v3.html's own docstory-item/docstory naming convention for visual consistency,
 // but not its exact hide/show split: the Atlas panel's own pre-existing
 // pattern puts the teaser behind a hover tooltip on the collapsed
 // summary, while this shared renderer (used by both surfaces, so they
@@ -121,7 +174,9 @@ export function renderDocumentedStories(compiled, opts) {
     const head = [`<h4>${escapeHtml(s.title || "")}</h4>`];
     if (s.when) head.push(`<p class="meta">${escapeHtml(s.when)}</p>`);
     if (s.teaser) head.push(`<p class="teaser">${escapeHtml(s.teaser)}</p>`);
-    const body = (s.tellable_as ? narrationPlayer(opts && opts.narration && opts.narration.documented && opts.narration.documented[i]) : "") + (s.tellable_as ? paragraphs(s.tellable_as) : "");
+    const account = s.telling || s.tellable_as;
+    const documented = (opts && opts.narration && opts.narration.documented) || {};
+    const body = account ? narrationPlayer(documented[s.story_id]) + paragraphs(account, highlighter(compiled)) : "";
     return [
       '<div class="docstory-entry">',
       ...head,
@@ -162,7 +217,7 @@ export function renderSourcing(compiled) {
   if (readFirst.length) {
     const items = readFirst.map((entry) => {
       const source = entry.source || {};
-      const work = [source.author, source.work].filter(Boolean).join(", ");
+      const work = source.citation || [source.author, source.work].filter(Boolean).join(", ");
       const note = entry.note ? ` <span class="orient-read-first-note">${escapeHtml(entry.note)}</span>` : "";
       return `<li><span class="orient-read-first-work">${escapeHtml(work)}</span>${note}</li>`;
     });
@@ -235,8 +290,8 @@ export function renderQuestions(compiled, ctx) {
       if (!participantTurn) return "";
       const questionText = participantTurn.text;
       const from = (q.cite || []).map((c) => citeExcerpt(c, 160)).filter(Boolean).join(" &middot; ");
-      const href = `../talk.html?worlds=${encodeURIComponent(slug)}&mode=interview&from=traditions%2F${encodeURIComponent(slug)}.html`;
-      let li = `<li><a href="${href}" data-ask>${escapeHtml(questionText)}<span class="vh"> — ask ${escapeHtml(repName)}</span></a>`;
+      const href = `../talk.html?worlds=${encodeURIComponent(slug)}&mode=interview&from=traditions%2F${encodeURIComponent(slug)}.html#q=${encodeURIComponent(questionText)}`;
+      let li = `<li><a href="${escapeHtml(href)}" data-question>${escapeHtml(questionText)}<span class="vh"> — ask ${escapeHtml(repName)}</span></a>`;
       if (from) li += `<span class="from">${from}</span>`;
       li += "</li>";
       return li;
@@ -276,9 +331,11 @@ export function renderPullQuotes(compiled) {
 export function narrationUrls(entry, base) {
   if (!entry) return null;
   const url = (k) => (entry[k] ? base + entry[k].file : null);
-  const last = Math.max(-1, ...Object.keys(entry).map((k) => (/^docstory-(\d+)$/.exec(k) || [])[1]).filter((n) => n !== undefined).map(Number));
-  const documented = [];
-  for (let i = 0; i <= last; i++) documented.push(url(`docstory-${i}`));
+  const documented = {};
+  for (const k of Object.keys(entry)) {
+    const m = /^docstory-(.+)$/.exec(k);
+    if (m) documented[m[1]] = url(k);
+  }
   return { story: url("story"), legacy: url("legacy"), documented };
 }
 

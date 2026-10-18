@@ -33,8 +33,7 @@ dates:
   floruit: 'c. 180-202/3 teaching in Alexandria (left during the Severan persecution); Jerome De viris
     38: pupil of Pantaenus, led the school after his master''s death (that the school was a formal institution is contested)'
 narratable: false
-bridge_line: the teacher whose books survive where his life does not - his words are kept, his days are
-  not
+bridge_line: the teacher whose books survive, though almost nothing of his life does
 ---
 narratable: false is deliberate and carried from the prior build's
 accepted refusal: almost nothing narratable survives about Clement's

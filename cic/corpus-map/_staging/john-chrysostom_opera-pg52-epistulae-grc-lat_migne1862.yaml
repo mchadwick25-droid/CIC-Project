@@ -1,0 +1,28 @@
+source_file: john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862.txt
+
+assignments:
+  - row_id: john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862--letters-from-exile-and-homilies-of-399-404-greek-pg-52
+    work: "Letters from exile (to Innocent of Rome, to Olympias, from Cucusus) and homilies of 399-404, Greek, PG 52"
+    author: chrysostom
+    locus: "the letter to Innocent, garbled Latin running head at file line 17800; letters to Olympias at file lines 20121 and 26076; letters from Cucusus at file line 28445; the homily on the exile of Saturninus and Aurelian at file line 3675"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: provisional
+    note: >
+      Chrysostom's own voice on the Synod of the Oak and his exile, in the original Greek: the
+      letter to Innocent is his own account of the synod. English of the letters to Innocent
+      and to Olympias is in npnf109. Second witness for quotation: Greek legible, Latin column
+      garbled, kappa and chi confused in the OCR.
+  - row_id: john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862--letters-from-exile-and-homilies-of-399-404-greek-pg-52-2
+    work: "Letters from exile (to Innocent of Rome, to Olympias, from Cucusus) and homilies of 399-404, Greek, PG 52"
+    author: chrysostom
+    locus: "the letter to Innocent (file line 17800 on) and the letters from exile"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A deposed bishop's appeal to Rome against an imperially enforced synod and exile: the
+      imperial-juridical world's question stated by the man it was used against. Context, not
+      that world's voice.

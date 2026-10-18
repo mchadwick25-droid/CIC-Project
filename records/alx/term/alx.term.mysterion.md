@@ -42,8 +42,7 @@ senses:
   evidential: Clement treats mystery as the movement from surface to depth in both Scripture and
     formation; Origen reads Scripture's depths as genuinely present but received only as far as the
     reader's formation allows.
-  personal: The most formed person is not the one who has finally explained everything - they are the
-    one most aware how much of God still exceeds what they have been able to receive.
+  personal: "The most formed person was not the one who had explained everything. It was the one most aware of how much of God still lay beyond what they had received."
   translational: >-
     Isn't a mystery just something not yet explained, a gap waiting to be filled in? This world meant
     something that does not dissolve when explained - a depth entered further, not a problem solved once.

@@ -23,6 +23,7 @@ author: Anonymous African compiler
 work: Liber Genealogus -- transmitted as Additamentum II to the Chronographus Anni CCCLIIII
 edition: 'Theodor Mommsen (ed.), Chronica Minora Saec. IV-VII, Vol. I, MGH Auctores Antiquissimi IX (Berlin:
   Weidmann, 1892), vendored as cic/texts/chronica-minora-liber-genealogus_mommsen1892.txt'
+citation: 'Liber Genealogus, Additamentum II to the Chronographus Anni CCCLIIII, in Chronica Minora Saec. IV-VII, Vol. I, ed. Theodor Mommsen, MGH Auctores Antiquissimi IX (Berlin: Weidmann, 1892)'
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: anonymous. Donatist provenance is ASSUMED by Doc_01 SS5 Cell 3B and is not asserted

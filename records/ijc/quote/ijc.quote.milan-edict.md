@@ -23,12 +23,10 @@ text: When we, Constantine and Licinius, emperors, had an interview at Milan, an
   attention, and that it was proper that the Christians and all others should have liberty to follow
   that mode of religion which to each of them appeared best...
 modern_rendering: >-
-  We, Constantine and Licinius, emperors, met together at Milan. We discussed matters
-  concerning the good and safety of the common good. Among the things that benefit mankind
-  in general, one thing seemed to us to deserve our first and chief attention. That thing
-  was the reverence paid to God. It also seemed proper to us that Christians, and everyone
-  else, should have the freedom to follow whichever form of religion seemed best to each
-  of them...
+  We, Constantine and Licinius, emperors, met at Milan. We talked together about the good and safety
+  of the state. Among the things that help mankind in general, the reverence paid to the Divinity
+  seemed to us to deserve our first and chief attention. And it seemed proper that the Christians and
+  all others should be free to follow the form of religion that each of them thought best...
 speaker_or_author: ijc.figure.constantine
 license: verbatim
 modern_lens_note: >-

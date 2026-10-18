@@ -18,6 +18,7 @@ author: Augustine of Hippo
 work: De Doctrina Christiana, Book III
 edition: 'Nicene and Post-Nicene Fathers, 1st series, vol. 2 (Augustine: City of God, Christian Doctrine),
   ed. Schaff, vendored as cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml'
+citation: 'Augustine of Hippo, De Doctrina Christiana, Book III, Nicene and Post-Nicene Fathers, 1st series, vol. 2 (Augustine: City of God, Christian Doctrine), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed

@@ -60,9 +60,9 @@ relations:
 - type: associated-with
   target: gallic.term.the-monks-dress
 plain_meaning: >-
-  For us the sign of the cross is a gesture with real force. It is the thing Martin will go into
-  battle "protected by ... and not by shield or helmet." It halts a funeral crowd in its tracks and
-  turns a falling pine. Cassian's monk, armed with his staff, uses it to "beat off" invisible beasts.
+  For us the sign of the cross was a gesture with real force. It was the thing Martin would go into
+  battle "protected by ... and not by shield or helmet." It halted a funeral crowd in its tracks and
+  turned a falling pine. Cassian's monk, armed with his staff, used it to "beat off" invisible beasts.
   An act of power against demons and elements, not a devotional habit.
 world_word: sign of the cross
 false_friend:

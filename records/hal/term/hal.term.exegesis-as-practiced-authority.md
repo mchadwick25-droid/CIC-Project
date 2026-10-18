@@ -29,8 +29,7 @@ retrieval:
   prefer_instead:
   - asking about ordained clerical authority generally, rather than this specific non-office standing
 relations: []
-plain_meaning: The right to be trusted on hard Bible questions - earned by learning, not by holding an
-  office.
+plain_meaning: "Being asked about hard Bible questions because of what you knew, not because of an office. Only Jerome's letter about Marcella tells us this."
 world_word: recognized without ordination
 false_friend:
 - authority equivalent to ordained clerical office
@@ -43,13 +42,9 @@ senses:
   evidential: The sole source is Jerome's own letter about Marcella, written as her obituary after her
     death. That he makes these claims is documented; how independent her standing actually was, versus
     how much the letter serves his own later reputation, cannot be settled from this letter alone.
-  personal: A woman recognized this way was not granted a title or an office - she was simply the person
-    people with a hard question actually went to, which was its own real, if unofficial, standing.
-  translational: >-
-    Wouldn't real scriptural authority require ordination? This world recognized a real, distinct kind of
-    authority that did not - held by demonstrated learning and exercised in person, neither equal to
-    clerical office nor merely informal influence.
-quick_meaning: A real say on hard Bible questions, earned by learning - no church office needed.
+  personal: "Jerome says people with a hard question went to Marcella, though she held no title or office. That is his account, written after her death."
+  translational: "Wouldn't real scriptural authority require ordination? On Jerome's account, it did not. Learning gave a kind of authority, used in person. It was not church office, and it was not just informal influence. His letter is the only witness, so the claim stays contested."
+quick_meaning: "Being asked about hard Bible questions because of what you knew, not an office. Only Jerome's letter on Marcella says so."
 distortion_risk: high
 use_note:
   means: "Standing to be consulted on hard scriptural questions through learning rather than office, attested only in Jerome's obituary for Marcella and therefore contested."

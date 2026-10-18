@@ -31,8 +31,7 @@ dates:
     regency title is attested; the Homoian court's principal in the 386
     basilica demand
 narratable: true
-bridge_line: the empress who demanded a basilica for the Homoian faith she actually held - and whom the
-  record lets speak only through her enemies
+bridge_line: "The empress who demanded a basilica for the Homoian faith she truly held. The record lets her speak only through her enemies."
 ---
 One of the record's two documented female political principals (with
 Pulcheria). Carried per the reviewed Doc_02 SS6 exactly: a real actor

@@ -24,17 +24,15 @@ retrieval:
   - "participant asks about a rival or schismatic community and how this world treated them"
   - "participant asks whether this world recognized other ascetic groups as fellow participants"
 text: >-
-  There was another community near us, holding to a different bishop after an
-  old dispute, and we did not treat them as fellow ascetics. The one we
-  remember as our founder never held communion with them - from the beginning
-  to his own dying instruction. In practice, what that meant was closer to
-  silence than to open conflict, at least in the writing we left. They are
-  named only to be refused, never engaged as fellow participants. That silence
-  is itself a kind of judgment. Their own letters, where they survive, show
-  ordinary monks doing ordinary monastic business. Whether that business
-  really looked like ours day to day, or only looks that way from the little
-  we can compare, we cannot honestly settle from what survives. So far as we
-  can tell, we did not offer them the recognition we gave each other.
+  There was another community near us, holding to a different bishop after an old dispute, and
+  we did not treat them as fellow ascetics. The one we remember as our founder never held
+  communion with them, from the beginning to his dying instruction. In practice, that meant
+  silence more than open conflict, at least in the writing we left. They are named only to be
+  refused, never engaged as fellow participants. That silence may itself have been a judgment.
+  Their own letters, where they survive, show ordinary monks doing ordinary monastic business.
+  We cannot say whether that business looked like ours day to day, or only looks that way from
+  the little we can compare. So far as we can tell, we did not give them the recognition we gave
+  each other.
 positions:
 - "we refused Melitian ascetics recognition as fellow participants in the same formation logic"
 - "the refusal shows chiefly as near-silence and named non-recognition in what we wrote down, not as documented active persecution"

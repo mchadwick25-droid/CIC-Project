@@ -22,6 +22,7 @@ work: 'The Deo laudes acclamation: CIL VIII 17732 (two pillars near Bagai, now p
   reading DEO LAVDES twice), with CIL VIII 20482, 17368, and 18669'
 edition: Within CIL VIII, Supplementum, Pars II (Cagnat and Schmidt, 1894), vendored as cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt
   (Registry row 48)
+citation: 'The Deo laudes acclamation: CIL VIII 17732, with CIL VIII 20482, 17368, and 18669, in CIL VIII, Supplementum, Pars II, ed. Cagnat and Schmidt (1894)'
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: 'anonymous and epigraphic. The Donatist identification is the CIL editors'' own, stated

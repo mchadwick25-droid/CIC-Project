@@ -16,6 +16,7 @@ sources: []
 author: "The bishops assembled at the Council of Nicaea, 325 CE"
 work: "The Creed of Nicaea (325) - the original, pre-Constantinopolitan creed text (as distinct from the expanded Niceno-Constantinopolitan Creed of 381), preserved in the Acts of the Ecumenical Councils of Ephesus and Chalcedon, in the Epistle of Eusebius of Caesarea to his own Church, in the Epistle of Athanasius Ad Jovianum, and in the Ecclesiastical Histories of Theodoret and Socrates"
 edition: "trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml - creed text at div id=\"vii.iii\" (\"The Nicene Creed\"), paragraph vii.iii-p7, lines 2408-2429; the \"of one substance (homoousion, consubstantialem) with the Father\" formula spans lines 2412-2413"
+citation: The bishops assembled at the Council of Nicaea, The Creed of Nicaea, trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

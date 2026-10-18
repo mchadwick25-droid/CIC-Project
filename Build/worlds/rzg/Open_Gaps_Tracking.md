@@ -205,3 +205,147 @@ Status: CLOSED for the two changed records. The two minor items stay OPEN.
 **Gates.** `records rzg` and `regate rzg --base origin/main`: pass. Package rebuilt and repinned; site JSON recompiled (the Zurich and Geneva pull quote on the public page now carries the corrected rendering).
 
 Status: CLOSED for the splice. The voice-own errors stay OPEN under the 9 October entry; the `rzg.quote.taught-better-from-scripture` item of the 2026-10-12 quote-rendering entry stays OPEN.
+
+65. **Record wording pass, 2026-10-13.** Spoken fields of 55 records checked against the vendored sources and the completed world, and corrected where a real defect was found. Build records (force, gravity, source body text, voice_craft, world_core, contested_claim) were not rewritten. Every source `text`, `locus` and `use_note` stands. Quote `text` was checked word for word against `cic/texts/` and needed no change. Audit published as the "rzg Record Audit" Artifact.
+
+**Source citations.** All 18 `records/rzg/source/` records gained one `citation:` line built only from words in their own author, work and edition fields. The `m9:source-citation/rzg` waiver is removed.
+
+**Changed, by record** (field, defect kind: drift = not derivable from the cited source or the world, or stronger than its confidence; tense; tell; readability; rendering). Quote renderings were authored by Opus.
+- `rzg.witness.a-quieted-mind`: `text` (tense)
+- `rzg.witness.defending-the-anabaptist-suppression`: `text` (tell)
+- `rzg.witness.not-a-death-he-sought`: `text` (drift)
+- `rzg.witness.one-conviction-two-enactments`: `text` (drift)
+- `rzg.witness.one-supper-two-poles`: `text` (drift)
+- `rzg.witness.one-thing-not-in-dispute`: `text` (drift)
+- `rzg.witness.triple-refusal`: `text` (readability)
+- `rzg.witness.what-a-stranger-would-notice`: `text` (drift)
+- `rzg.witness.what-we-have-not-agreed`: `text` (tell)
+- `rzg.witness.what-we-have-of-christ`: `text` (tense)
+- `rzg.witness.why-the-children-too`: `text` (tell)
+- `rzg.story.calvins-journey-to-zurich`: `text` (drift), `tellable_as` (drift)
+- `rzg.story.first-zurich-disputation`: `text` (drift), `tellable_as` (readability)
+- `rzg.story.myconius-account-of-zwinglis-death`: `text` (drift), `tellable_as` (readability)
+- `rzg.demo.consensus-contest`: `exchange[1].text` (drift)
+- `rzg.demo.predestination-and-dread`: `exchange[1].text` (tense)
+- `rzg.demo.why-we`: `exchange[1].text` (readability)
+- `rzg.quote.christ-the-mirror-of-election`: `modern_rendering` (rendering)
+- `rzg.quote.mass-not-a-sacrifice`: `modern_rendering` (rendering)
+- `rzg.quote.seniors-selected-from-the-people`: `modern_rendering` (rendering)
+- `rzg.quote.signs-and-things-signified`: `modern_rendering` (rendering)
+- `rzg.quote.taught-better-from-scripture`: `modern_rendering` (rendering)
+- `rzg.quote.zwinglis-last-words`: `modern_rendering` (rendering)
+- `rzg.figure.beza`: `bridge_line` (drift/readability)
+- `rzg.figure.bullinger`: `bridge_line` (readability)
+- `rzg.figure.calvin`: `bridge_line` (readability)
+- `rzg.figure.faber`: `bridge_line` (drift)
+- `rzg.figure.farel`: `bridge_line` (drift/readability)
+- `rzg.figure.zwingli`: `bridge_line` (drift/readability)
+- `rzg.limit.consistory-case-narrative`: `statement` (drift)
+- `rzg.limit.dentiere-and-womens-voice`: `statement` (drift)
+- `rzg.limit.doubt-and-assurance`: `statement` (drift)
+- `rzg.limit.hagiography-refused`: `statement` (drift)
+- `rzg.limit.marburg-bolsec-perrinist-narrative`: `statement` (drift)
+- `rzg.limit.material-culture-and-worship-space`: `statement` (tell)
+- `rzg.limit.no-teaching-on-wealth-or-marriage`: `statement` (drift)
+- `rzg.limit.ordinary-daily-practice`: `statement` (drift/readability)
+- `rzg.limit.what-scripture-asked-of-a-modern-reader`: `statement` (tell)
+- `rzg.term.antistes`: `plain_meaning` (readability), `quick_meaning` (readability), `senses.personal` (drift), `senses.translational` (readability)
+- `rzg.term.catechism`: `plain_meaning` (tense), `quick_meaning` (drift), `senses.personal` (readability), `senses.translational` (tense)
+- `rzg.term.confession-of-faith`: `plain_meaning` (readability), `quick_meaning` (readability), `senses.personal` (drift), `senses.translational` (readability)
+- `rzg.term.consistory`: `plain_meaning` (readability), `quick_meaning` (tense), `senses.personal` (drift), `senses.translational` (readability)
+- `rzg.term.disputation`: `plain_meaning` (tense), `quick_meaning` (readability), `senses.personal` (drift), `senses.translational` (readability)
+- `rzg.term.elder`: `plain_meaning` (readability), `quick_meaning` (readability), `senses.personal` (drift), `senses.translational` (readability)
+- `rzg.term.excommunication`: `plain_meaning` (readability), `quick_meaning` (readability), `senses.personal` (tense)
+- `rzg.term.heads-of-agreement`: `quick_meaning` (readability), `senses.personal` (tense)
+- `rzg.term.memorial-commemoration`: `senses.personal` (readability)
+- `rzg.term.mutual-consent`: `plain_meaning` (drift), `quick_meaning` (drift), `senses.personal` (readability), `senses.translational` (drift)
+- `rzg.term.predestination-election`: `senses.personal` (drift), `senses.translational` (drift)
+- `rzg.term.providence`: `quick_meaning` (readability), `senses.personal` (tense), `senses.translational` (drift)
+- `rzg.term.reformation`: `plain_meaning` (tense), `quick_meaning` (tense), `senses.personal` (tense), `senses.translational` (readability)
+- `rzg.term.sign-and-the-thing-signified`: `plain_meaning` (tense), `quick_meaning` (tense), `senses.personal` (tell)
+- `rzg.term.sixty-seven-articles`: `plain_meaning` (readability), `quick_meaning` (readability), `senses.personal` (tense)
+- `rzg.term.sola-scriptura`: `plain_meaning` (tense), `quick_meaning` (drift), `senses.personal` (readability), `senses.translational` (readability)
+- `rzg.term.the-lords-supper-spiritual-presence`: `plain_meaning` (tense), `quick_meaning` (readability), `senses.personal` (tense), `senses.translational` (readability)
+
+**Source drift worth naming.**
+- `rzg.story.calvins-journey-to-zurich`: the story gave the worry to Calvin and added "a letter would not settle it" and "not a new invention". Calvin's prefatory letter (Consensus Tigurinus file, lines 84-146) says the two churches agree in judgment, that Farel "had suggested and advised the visit", and that colleagues under Geneva's jurisdiction approved the text by subscription. The text and `tellable_as` now follow the letter. This closes the item flagged for the project lead in the identity-and-scaffolding entry of 2026-10-08 (item 7 of the nine-defects entry of 2026-10-04).
+- `rzg.witness.not-a-death-he-sought`: "field chaplain" and "a war neither of our cities chose alone" are not in Myconius SS12. Removed. The reported words now carry Myconius's own hedge (he was in Zurich that day).
+- `rzg.witness.one-conviction-two-enactments`: present-tense claims about Zurich and an unsourced description of the Consistory's accountability removed; the Geneva/Consistory 1555 limit stays.
+- `rzg.witness.what-a-stranger-would-notice`: the worship-space claims are now reasoned from doctrine and say no source describes the rooms; the organ claim carries the hedge the ambient record has.
+- `rzg.limit.dentiere-and-womens-voice`: Dentiere was not prosecuted; her printer was, and the anonymous 1539 work was seized. The statement now says only that.
+- `rzg.limit.no-teaching-on-wealth-or-marriage`: the absence claim was too wide; the Sixty-Seven Articles (XXIII, XXVIII-XXX, XXXIII) and Zwingli's marriage-of-priests petition do address wealth and marriage. The statement is narrowed to ordinary married life and ordinary people's wealth and poverty. The claim that Zwingli was married is removed (no rzg record or vendored text supports it).
+- `rzg.demo.consensus-contest`: Zurich's 1549 position is no longer stated as settled; the Contested record decides that, and the Consensus is not "a single page".
+- Quote renderings: all six corrected (misleading 'evil', 'confess', 'reality', 'sentence'; the 'bishops' substitution; a changed subject in the Article XVIII rendering). This closes the open item `rzg.quote.taught-better-from-scripture` of the 2026-10-12 quote-rendering entry.
+
+**Demonstration bodies now describe reworded turns, not verbatim test exchanges.** The prose body of `rzg.demo.consensus-contest`, `rzg.demo.predestination-and-dread` and `rzg.demo.why-we` used to say the turn was trimmed from the construction-notes test exchange with no substantive change. That is no longer true, because the Representative turns were reworded. Each body now says the turn was condensed from that exchange, then reworded for readability and source fidelity, and is no longer verbatim.
+
+**Fixes after the independent review of the pull request.**
+- `rzg.figure.farel` `bridge_line`: "first urged Calvin to stay at Geneva" is in no rzg record or vendored text. It now reads "Calvin's colleague at Geneva. He later went with him to Zurich to frame the Consensus." (drift, not only readability).
+- `rzg.limit.dentiere-and-womens-voice` `statement`: "Scholars later traced it to her" is in no record, and the statement no longer says what the 1539 work argued. It now says a work defending women's voice came out unsigned and the record links it to her. The printer and seizure correction and the closing limit stand.
+- `rzg.limit.ordinary-daily-practice` `statement`: the record of daily life "has not reached us", matching `rzg.limit.consistory-case-narrative`, instead of "does not survive".
+- `rzg.witness.what-a-stranger-would-notice` `text`: the added closer ("Rome did not simply withdraw...") is cut; the text ends at the 1590s.
+- `rzg.term.the-lords-supper-spiritual-presence` `quick_meaning`: the staccato ending is one sentence again.
+
+**Gates.** See the review file `Build/Ministry/Operations/Audits/rzg_record_audit_fixes_review_round1_2026-10-13.md`.
+
+Status: CLOSED for the spoken fields listed. The out-of-scope items are registered in the next entry.
+
+66. **Defects found by the 2026-10-13 wording pass and not fixed (outside the spoken-field scope), 2026-10-13.** Not corrected because the fields are not spoken fields or are build records; each needs a decision on what the record should hold.
+
+Term `senses.informational` and `senses.evidential`:
+- `rzg.term.confession-of-faith` `senses.informational`: Says the SHC was 'written at Zurich in 1566'. Schaff (vendored volume, 'COMPOSITION'): composed 1562 for Bullinger's own use, elaborated 1564, published 1566.
+- `rzg.term.predestination-election` `senses.evidential`: 'two reforms that never had the chance to compare notes' is false for the 1549 Consensus Tigurinus and the Calvin-Bullinger correspondence (Schaff: Bullinger 'in friendly correspondence with Calvin'). Founders Zwingli and Calvin never met (Doc_05 line 32), but the sentence says 'two reforms'.
+- `rzg.term.sola-scriptura` `senses.evidential`: 'Neither city borrowed the other's own method. Both arrived, independently, at the same governing principle' is unsourced and conflicts with the world's own premise (Consensus Tigurinus 1549; Bullinger-Calvin correspondence). Doc_05 line 32 supports only that Zwingli and Calvin never met.
+- `rzg.term.mutual-consent` `senses.informational`: 'In 1549 ... published a formal agreement together': the vendored title page reads 'NOW PUBLISHED BY THOSE WHO FRAMED IT. M.D.LIV.' (1554); the letters are dated 1 and 30 August 1549. 1549 is the agreement, 1554 the publication.
+- `rzg.term.reformation` `senses.evidential`: 'Our own record uses this word ... throughout, from the earliest disputations onward': the word appears only in Jackson's editorial matter (e.g. line 1594: the First Disputation marks 'the official beginning of the Reformation in German Switzerland'), not in the Acts or Articles themselves.
+- `rzg.term.sign-and-the-thing-signified` `senses.evidential`: 'did not exist before 1549 ... in either city's own prior confession' is a negative claim no vendored source establishes, and 'each recognizing in the other's own confession something they could not disown' is not in the Consensus letters.
+- `rzg.term.elder` `senses.informational`: 'Our founder's own vendored words' here means Calvin, but 'our founder' means Zwingli in the Disputation and Sixty-Seven records. The 'almost exactly' quote also changes 'the people' to 'our own people' and 'bishops' to 'pastors'.
+
+Reference and note fields that repeat a claim corrected in the previous entry:
+- `rzg.story.calvins-journey-to-zurich` `modern_contrast` repeats the invented "a letter would not settle it" reading and should say the same as the corrected text.
+- `rzg.story.first-zurich-disputation` `modern_contrast` ("in advance as certain to fail") was not checked line by line against the Hegenwald preface.
+- `rzg.limit.dentiere-and-womens-voice` and `rzg.limit.no-teaching-on-wealth-or-marriage`: `use_note` and `why_sources_cannot_answer` repeat the overclaims (Dentiere "silenced"; "no teaching" on marriage and wealth) and need the same narrowing. The Sixty-Seven Articles (XXIII, XXVIII-XXX, XXXIII) and the marriage-of-priests petition could ground new records; that is a content decision for the project lead.
+- `rzg.witness.one-supper-two-poles` `sources[].locus` (Article XVIII line span), unchanged from the two-defects entry of 2026-10-04, item (a).
+- `rzg.gravity.sovereignty-of-god-predestination-election` `locus` quotes the spliced confession wording; the voice does not speak it.
+- `rzg.figure.faber`, `beza`, `bullinger`: `sources` is empty; the bridge lines now follow the world records and the vendored texts, but carry no citation of their own.
+
+Unchanged fields that now sit beside corrected wording (found by the round 1 review):
+- `rzg.term.mutual-consent` `use_note.means` still says the cities "signed" it and that it settled the Supper; `senses.informational` dates publication to 1549 where the vendored title page reads 1554.
+- `rzg.term.consistory` `use_note.means` repeats "Zurich had nothing like it", which the world's own wording hedges (no distinct lay-inclusive disciplinary court is attested there in the vendored record).
+- `rzg.term.sixty-seven-articles` `use_note.means` says "founding statement"; the vendored volume calls the 1522 sermon on fasting the first published reformation document in Switzerland.
+- `rzg.term.confession-of-faith` `senses.informational` says "written at Zurich in 1566" while `senses.personal` now says 1562 for Bullinger's own use and 1566 for publication.
+
+Status: OPEN.
+
+67. **Use notes that contradicted the corrected wording, 2026-10-13.** The record wording pass (merged under the entry Record wording pass, 2026-10-13) corrected spoken fields but left `use_note.means`, which the evidence block gives the voice, unchanged. Mark ruled on 13 October that `means` changes only where it contradicts the record's own corrected fields or its vendored source. Six records changed; `not_for`, `years`, `status` and every other field are untouched. (1) `rzg.witness.not-a-death-he-sought`: `means` said Zwingli died "as a field chaplain"; the pass removed that phrase because Myconius does not give it. Now says he left Zurich for the front and Myconius reported the words. (2) `rzg.limit.hagiography-refused`: `means` said the absence was "deliberate rather than a gap"; the pass cut "this is not a hole in our own record" from the statement. Now says only that the cities refused the reverence a saint's life is written to produce. (3) `rzg.limit.no-teaching-on-wealth-or-marriage`: `means` said the record has no teaching on either and holds Zwingli and Calvin as married men; the pass found the Sixty-Seven Articles and the marriage-of-priests petition do address them and removed the claim that Zwingli was married. Now says the record does not yet hold our teachers' writing, nor any account of ordinary lives. (4) `rzg.limit.dentiere-and-womens-voice`: `means` said the authorities moved to silence her; the pass found Dentiere was not prosecuted, her printer was, and the anonymous 1539 work was seized. Now follows the statement. (5) `rzg.term.mutual-consent`: `means` said the cities "signed" it and that it "settle[d]" the Supper; `plain_meaning` now says they agreed to it and it stated what they held about the sacraments. This closes the first item flagged unchanged in the entry Record wording pass, 2026-10-13. (6) `rzg.term.sixty-seven-articles`: `means` said "founding statement"; `plain_meaning` now says the Articles set out Zwingli's teaching at the start of the reform. This closes the third such item. Still open from that entry: the 1549 date in `rzg.term.mutual-consent` `senses.informational`, the `senses.informational` year in `rzg.term.confession-of-faith`, and `rzg.term.consistory` (its `means` does not repeat the "nothing like it" claim; the spoken fields stay as corrected). Status: CLOSED for the six records above.
+
+68. **Correction to the use-note entry, 2026-10-13.** The independent review of the entry Use notes that contradicted the corrected wording, 2026-10-13 required these changes, now applied to `use_note.means` only. (a) The claim in item (1) of that entry that the pass removed "field chaplain" is corrected: the record wording pass removed it from the doctrinal witness `text` only; the `positions[0]` of `rzg.witness.not-a-death-he-sought` still says "as a field chaplain, in a war neither city had chosen alone" (see the open item below). `means` now reads that Zwingli left Zurich for the front and was killed that afternoon, and that the last words Myconius reported show resolve, not a wish for death. (b) `rzg.limit.hagiography-refused`: "from their first founding statement" is restored, because the statement still says it. (c) `rzg.limit.no-teaching-on-wealth-or-marriage`: "our teachers" is now "the cities' teachers", in the third person like the other rzg notes. Still OPEN, not edited: `rzg.limit.no-teaching-on-wealth-or-marriage` `not_for` and `why_sources_cannot_answer` still deny any marriage teaching, against the statement and the Sixty-Seven Articles; `rzg.witness.not-a-death-he-sought` `positions[0]` still says "as a field chaplain" and "a war neither city had chosen alone", which the vendored Myconius text (SS12) does not give. Status: CLOSED for the `means` changes; OPEN for the two records named.
+
+69. **Honest limits spoke as "I", after the eleven-world live test, 2026-10-14.** The 13 October eleven-world live test had the voice say "what I have said" (Q3) and "What I cannot give you" (Q5), against the fleet's strict we-voice. The cause was in the records: nine honest-limit statements were written in the first person singular, and Q5 cited `rzg.limit.ordinary-daily-practice`. Each "I", "me" and "my" in the `statement` of `rzg.limit.dentiere-and-womens-voice`, `rzg.limit.doubt-and-assurance`, `rzg.limit.material-culture-and-worship-space`, `rzg.limit.hagiography-refused`, `rzg.limit.consistory-case-narrative`, `rzg.limit.what-scripture-asked-of-a-modern-reader`, `rzg.limit.no-teaching-on-wealth-or-marriage`, `rzg.limit.marburg-bolsec-perrinist-narrative` and `rzg.limit.ordinary-daily-practice` is now "we", "us" or "our"; no other word changed. `rzg.craft.theophilus-voice` was already right. `engine.m10.cli records rzg` and `regate rzg` pass. Package rebuilt and repinned: `packages/rzg/2026-10-14T00-43-00Z`, `manifest_hash` `sha256:1376142232bc2c8adaf9ebdc6522f67690da3e27b1790b52e4bf8a2d64aecb51`; the site JSON was recompiled. Decision Log: "2026-10-14 - Eleven-world fix slice". Status: CLOSED.
+
+70. **Atlas story pass: shorter story, three card stories with tellings, highlights, 2026-10-17.** The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card, and approved the Zurich and Geneva text. `orientation.story` is now 9 units and 641 words, down from 12 units and about 1,200. `documented_stories` keeps its three stories in date order, with teasers reworded to their records. Each story record gained a `telling`, which the card shows and plays. `orientation.highlights` adds 26 short notes; Zurich, Geneva and Strasbourg cite Pleiades (checked 2026-10-17). The story and the three tellings were recorded after the project lead approved a sample by ear: 6,629 characters, 3,214 credits; the story runs 4:24. After the quote-mark fidelity gate required Zwingli's last words in their `modern_rendering` form, the story alone was re-recorded with the same settings: 3,767 characters, 1,826 credits. Review: `Build/Ministry/Operations/Audits/rzg_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/rzg/2026-10-17T11-29-34Z`, `manifest_hash` `sha256:4c8f4b9dbe74f95ee12893a3ccdd61d1b020624644b461cfa3d5dd8fa62a9071`. This pin supersedes the one in the entry Honest limits spoke as "I", 2026-10-14.
+
+Only three story records exist, so most episodes cut from the story have no card story. They stay in the records named: the 1522 Lenten fast detail beyond the act itself (no record holds the printer's house or the council's attention); the Sixty-Seven Articles (`rzg.term.sixty-seven-articles`); Geneva's 1526 Bern alliance (`rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival`); one conviction, two enactments (`rzg.witness.one-conviction-two-enactments`); election's history (`rzg.gravity.sovereignty-of-god-predestination-election`); Bolsec, 1551 (`rzg.force.bolsec-controversy`); Marburg 1529 and Calvin's absence (`rzg.force.marburg-colloquy`); the Mass and Consensus quotes (`rzg.quote.mass-not-a-sacrifice`, `rzg.quote.signs-and-things-signified`); the Heidelberg Catechism (`rzg.force.second-helvetic-confession-heidelberg-catechism`); Beza (`rzg.figure.beza`); Dort's Swiss delegates, unverified; the old closing paragraph on saints, worship space and the Counter-Reformation (`rzg.limit.hagiography-refused`, `rzg.witness.what-a-stranger-would-notice`, `rzg.limit.material-culture-and-worship-space`, `rzg.force.counter-reformation-sustained-pressure`).
+
+**Open:**
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+71. **"Five years apart" contradicts the records' own dates, and "in advance" rests on no claim field, 2026-10-17.** `rzg.core` `horizon` says the two reforms began "five years apart", and `skim.tile` opens "Two Swiss cities, five years apart"; the records date Zurich's reform from 1519 and Geneva's from 1536. `rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival` says Geneva's origin was "five years after Zwingli's death", which may be the source of the phrase. The new story does not repeat it; the tile and the core horizon want the build thread's correction. Separately, "mocked the gathering in advance" stands in `rzg.figure.hegenwald` `bridge_line` and in the Disputation story's `modern_contrast`, but not in its `text`, and the vendored preface places the mockery at the hearing (Doc_09 Round 1, Finding 6, already ruled it unsupported). The story and teaser now follow the record's `text`; the figure record's `bridge_line` wants the same correction.
+
+Status: OPEN.
+
+72. **Other world_front sections keep "this world" wording and build-process commentary, 2026-10-17.** The Atlas story pass touched only the story, the card stories and the highlights. `voices`, `legacy`, `sourcing`, `read_first` and `skim.tile` keep "this world's own" wording, and the record's body note is build-process narration that now cites story paragraphs which no longer exist. Every world_front body carries a note of this kind, so removing them is a fleet-level decision.
+
+Status: OPEN for the project lead to schedule.
+
+73. **"Five years apart" and "in advance" corrected in the records, 2026-10-17.** This closes the entry "Five years apart" contradicts the records' own dates, 2026-10-17. `rzg.core` `horizon` now says Calvin's ministry joined Geneva's reform in 1536, five years after Zwingli's death, and `skim.tile` and the facilitator brief's `world_identity` and fourth caution say the same. `rzg.figure.hegenwald` `bridge_line` and the First Zurich Disputation story's `modern_contrast` now follow the record's `text`: Hegenwald wrote to answer those who mocked the gathering as a "tinker's day", with no "in advance". The edited `horizon`, `thinness` and `cautions` fields and the brief's caution were rewritten in short sentences to clear the readability gate, keeping every qualifier the earlier text carried; their build-label commentary was removed. The construction documents that first used "five years apart" are untouched: `Doc_01_World_Identification_Boundaries_Orientation.md`, `Doc_05_Ecological_Reconstruction.md` and `CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md`. Whether to correct them is the project lead's call.
+
+Status: CLOSED for the records; OPEN for the three construction documents.
+
+74. **"Five years apart" corrected in the construction documents, 2026-10-17.** At the project lead's direction, Doc_01 §4, Doc_05 §6.1 and the Doc_01 scope-confirmation record now give the origins' dates (1519; 1526/1536) instead of "five years apart". This closes the construction-document part of the entry "Five years apart" and "in advance" corrected in the records, 2026-10-17. The commentary in those three files was cleared at the same time, with the removed provenance kept in `rzg_Decision_Log.md`. Two consequences: the entry The Marburg cross-reference with Lutheran Wittenberg remains one-sided, 2026-09-15, closes, since Lutheran Wittenberg's Doc_01 now engages the Marburg break (§7, §8.1) and Doc_01 §7 cites it; and the closer reading of Zwingli's 1527 *Refutation of the Tricks of the Baptists*, beyond the election material in Doc_04 §3.1, is now tracked here (Doc_04 §7). One copy of "five years apart" remains, in `scripts/wb_rzg_s21.py`'s `HORIZON` constant, which no longer matches the live record either.
+
+Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for the *Refutation* reading and the build script.
+
+75. **Atlas final-check fixes, 2026-10-17.** Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout. Fixed: the Perrinist sentence says the fight was settled in Calvin's favor; the tellings use a third-person narrator; Zwingli spoke after he fell to his knees; the Strasbourg note drops gazetteer wording; Savoy is a term, not a place; the Disputation teaser is shorter. **Open:** the card list still has three cards. Reaching six to ten needs new story records under Doc_09, which is build work. Status: OPEN for the project lead on the card list.

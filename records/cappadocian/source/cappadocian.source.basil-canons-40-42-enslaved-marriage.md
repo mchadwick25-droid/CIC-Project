@@ -18,6 +18,7 @@ author: Basil of Caesarea
 work: Basil, canons 40 and 42 (on marriages of enslaved persons contracted without an owner's consent)
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
+citation: 'Basil of Caesarea, canons 40 and 42, on marriages of enslaved persons contracted without an owner''s consent, Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

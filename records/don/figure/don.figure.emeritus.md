@@ -20,9 +20,8 @@ confidence:
     dedicated chapter rather than on the transcript itself.'
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: 'cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt, read directly for this record:
-    acts 20, 22, 24, 26, 46, 50, 52, 99, 108, 114-115, 121, 175, 253, 266 and 268, at the line ranges enumerated
-    on don.story.conference-of-carthage-411'
+  locus: Gesta of the Conference of Carthage (411), chapters 20, 22, 24, 26, 46, 50, 52, 99, 108,
+    114-115, 121, 175, 253, 266 and 268
   license: public-domain
 - source_id: don.source.gesta-collationis-carthaginiensis-411
   locus: the acts of the 411 Conference themselves
@@ -42,8 +41,8 @@ dates:
     at the height of his reputation at the 411 Conference; older and embittered at a further dialogue with
     Augustine at Caesarea itself in 418
 narratable: true
-bridge_line: The bishop of Caesarea who argued our case for three days before an imperial judge, and signed
-  the record of every word - his appeal reserved.
+bridge_line: The bishop of Caesarea who argued our case for three days before an imperial judge. He
+  signed the notaries' record of his words, at times with his appeal reserved.
 relations:
 - type: associated-with
   target: don.story.conference-of-carthage-411

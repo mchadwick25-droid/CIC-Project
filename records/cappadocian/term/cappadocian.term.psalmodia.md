@@ -28,9 +28,10 @@ relations:
   target: cappadocian.term.panegyris
 - type: associated-with
   target: cappadocian.term.penthos-paraklesis
-plain_meaning: We sang more psalms from memory than anything else. Some critics called the practice
-  of singing through the night in two answering choirs a new invention. Basil defended it instead as the
-  churches' own common custom.
+plain_meaning: >-
+  We sang the psalms by night as well as by day. Some critics called the
+  practice of singing through the night in two answering choirs a new
+  invention. Basil defended it instead as the churches' own common custom.
 world_word: psalmōdia
 false_friend:
 - reducing this to a modern debate about 'worship style'

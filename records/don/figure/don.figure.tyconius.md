@@ -39,9 +39,9 @@ dates:
     and, it is reported, condemned by a council around 380; the Liber Regularum written in the same period
     and never suppressed
 narratable: true
-bridge_line: The one theologian among us whose own book survives entire - who argued the church was spread
-  through the whole earth, was told to stop, would not, and was cut off without ever going over to the
-  other side.
+bridge_line: The one theologian among us whose own book survives entire. He argued that the church
+  was spread through the whole earth, and he was told to stop. He would not. He is reported to have
+  been condemned by his own side, but he never went over to the other side.
 relations:
 - type: associated-with
   target: don.story.tyconius-condemnation

@@ -19,22 +19,19 @@ confidence:
     do not claim more agreement among our own three teachers than the record can bear.
 sources:
 - source_id: cappadocian.contested.homoian-nicene-reversal
-  locus: "the Homoian court church, a real, named rival for most of this world's own lifetime"
+  locus: the Homoian court church, a real, named rival for most of this world's own lifetime
   license: public-domain
 - source_id: cappadocian.contested.agennetos-transmission
-  locus: "the Eunomian movement's own rebaptizing rival church"
+  locus: the Eunomian movement's own rebaptizing rival church
   license: public-domain
 - source_id: cappadocian.term.homoousios
-  locus: "defended as the faith of the 318 fathers against both rivals"
+  locus: defended as the faith of the 318 fathers against both rivals
   license: public-domain
 - source_id: cappadocian.term.symbolon
-  locus: "the faith of the 318 fathers, held as catholic in the plain sense"
+  locus: the faith of the 318 fathers, held as catholic in the plain sense
   license: public-domain
 - source_id: cappadocian.contested.settlement-historiography
-  locus: "the disputed claim that three teachers shared one agreed technical scheme"
-  license: public-domain
-- source_id: cappadocian.force.canonization-sieve
-  locus: "the corpus becoming curriculum, liturgy, and law for later tradition"
+  locus: the disputed claim that three teachers shared one agreed technical scheme
   license: public-domain
 retrieval:
   tier: 2
@@ -43,29 +40,25 @@ retrieval:
   - "participant asks whether this world had denominations, or other communities calling on Christ
     differently"
 text: >-
-  We held our own confession as catholic in the plain sense: the same
-  faith, held everywhere. It was not one local custom among others. It
-  was the faith of the 318 fathers of Nicaea, defended and finally
-  established under a later emperor. We had real neighbors who called on
-  Christ differently than we did, not straw men invented for argument.
-  Some confessed the Son merely like the Father, not fully what the
-  Father is. Our court backed that creed for most of our own lifetime. A
-  sharper rival claimed one word could capture God's whole essence and
-  built rebaptism into practice on that claim. Others had once been
-  close enough to us to have been our own ascetic movement's own
-  reformer. They came to deny the Spirit's own full standing and were
-  finally condemned alongside the rest. The teachers who formed us
-  became curriculum, liturgy, and law for the traditions that trace
-  themselves back through the councils. We lived through those councils
-  and helped write them. Orthodox and Catholic dogmatics still argue in
-  vocabulary this circle fought to place. So, more distantly, does
-  Protestant dogmatics.
+  We held our own confession as catholic in the plain sense: the same faith,
+  held everywhere. It was not one local custom among others. It was the
+  faith of the 318 fathers of Nicaea, defended and finally established under
+  a later emperor. We had real neighbors who called on Christ differently
+  than we did. Some confessed the Son merely like the Father, not fully what
+  the Father is. Our court backed that creed for most of our lifetime. A
+  sharper rival claimed one word could capture God's whole essence, and his
+  church rebaptized those who joined it. Others had been close to us. One of
+  their leaders had once shaped our own ascetic life. They came to deny the
+  Spirit's full standing and were finally condemned with the rest. We lived
+  through one great council, at Constantinople. Whether any church today is
+  ours reaches past what we can see. We speak from before the splits that
+  made today's map.
 positions:
-- rival Christian confessions (Homoian, Eunomian, Pneumatomachian) were real, named, argued-with
-  neighbors, not invented opponents
+- rival Christian confessions (Homoian, Eunomian, Pneumatomachian) were real, named, argued-with neighbors,
+  not invented opponents
 - the Nicene confession was held and defended as the one common faith, not a preferred local custom
-- the teachers of this world became curriculum, liturgy, and law for later traditions that would
-  recognize them as their own
+- this world lived through the council of Constantinople, and does not speak for the churches that came
+  after it
 tensions:
 - the neat later story of "the Cappadocian settlement" - one shared, agreed technical scheme - is itself
   a live scholarly dispute; we do not claim more agreement among our own three teachers than the record

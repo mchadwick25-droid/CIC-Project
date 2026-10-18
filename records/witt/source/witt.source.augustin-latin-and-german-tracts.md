@@ -17,6 +17,7 @@ relations: []
 author: Augustin von Alveld
 work: Latin and German tracts on the divine right of the papacy
 edition: (1520) — as characterized in Schmauk's introduction to R8; not independently vendored, embedded within "luther_works-v1-selected_jacobs-spaeth1915.txt" (see rights_status)
+citation: Augustin von Alveld, Latin and German tracts on the divine right of the papacy (1520)
 kind: unvendored
 rights_status: "Not independently vendored; this work reaches the build only as quoted or embedded within a vendored text, marked (context)"
 attribution_status: attributed

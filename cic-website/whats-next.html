@@ -26,6 +26,7 @@
 .queued-list .name{font-weight:700;font-size:1.05rem;display:block}
 .queued-list .meta{font-family:'Alegreya Sans',sans-serif;font-size:.88rem;color:var(--muted)}
 </style>
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -46,6 +47,7 @@
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -69,7 +71,7 @@
     <p class="eyebrow">Representative Modes</p>
     <h2>Choose how the conversation meets you</h2>
     <p>A pastor preparing a sermon and a student working through doubt need different pacing and depth from the same conversation — one default mode can't serve both well. We designed and built four modes for this: General, Pastor/Teacher, Academic, and Reevaluation, for someone actively re-examining their faith. The Representative wouldn't know anything different or say anything different in substance — it would adjust pacing, which examples it reaches for first, and how deep it goes into contested debate.</p>
-    <p>Right now, every conversation runs on the plain, single-mode Representative &mdash; Representative Modes, including General, haven't shipped yet. We designed and built all four once already, and testing found real, specific problems worth fixing before any of them meet a participant. That build was against an earlier version of this system, ahead of this year's full rebuild of the underlying engine, so before Representative Modes ships it needs to be re-integrated and re-validated against what's actually live today, not just picked back up where it left off. If you're a pastor, teacher, or academic using the pilot as yourself, real feedback from you is exactly what tells us it's worth prioritizing that work &mdash; <a href="pilot-feedback.html">the feedback form</a> is how that reaches us.</p>
+    <p>Right now, every conversation runs on the plain, single-mode Representative &mdash; Representative Modes, including General, haven't shipped yet. We designed and built all four once already, and testing found real, specific problems worth fixing before any of them meet a participant. That build was against an earlier version of this system, ahead of this year's full rebuild of the underlying engine, so before Representative Modes ships it needs to be re-integrated and re-validated against what's actually live today, not just picked back up where it left off. If you're a pastor, teacher, or academic using the pilot as yourself, real feedback from you is exactly what tells us it's worth prioritizing that work &mdash; the &ldquo;Tell us what you think&rdquo; button in the top bar is how that reaches us.</p>
   </section>
 
   <section class="page-section" id="more-traditions">
@@ -103,10 +105,10 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <span>&copy; 2026 Church in Conversation, part of Faithways Studio, Inc. Creating safe spaces to explore faith and the story of Jesus.</span>
     <nav>
       <a href="about.html">About</a>
-      <a href="pilot-feedback.html">Feedback</a>
+      <a href="corrections.html">Corrections</a>
       <a href="privacy.html">Privacy</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
@@ -140,5 +142,6 @@ if (menu && menuToggle) {
 }
 })();
 </script>
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

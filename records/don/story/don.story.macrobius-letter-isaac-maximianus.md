@@ -17,8 +17,8 @@ confidence:
     caveats (Story-Chunks/donstory003, Tier Justification).
 sources:
 - source_id: don.source.passio-isaac-et-maximiani
-  locus: the whole letter, preserved twice in the vendored file from two source manuscripts; cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt,
-    lines 1367-2609
+  locus: Macrobius, letter on the passion of Isaac and Maximianus, in Monumenta
+    Vetera ad Donatistarum historiam pertinentia (Migne, Patrologia Latina 8)
   license: public-domain
 retrieval:
   tier: 1
@@ -47,35 +47,42 @@ narrative_tier_justification: 'Tier 1 (Doc_09 SS3): Macrobius names himself, ide
   This is a disclosed departure from Doc_05 SS11''s own handoff, which grouped all three Macarian-persecution
   martyr texts together as ''Tier 2/3 material''; this text alone, of the three, carries a named author
   writing in his own voice to a real, identified audience (Story-Chunks/donstory003, Tier Justification).'
-tellable_as: Macrobius's own letter to his Carthage congregation, telling them what happened to Isaac
-  and Maximianus
-text: 'Macrobius wrote to his own congregation at Carthage as their bishop, in the aftermath of what he
-  had witnessed, to tell them what had happened to two of their own.
+tellable_as: A bishop named Macrobius writes to the people of Carthage. He tells
+  them how two of their own, Isaac and Maximianus, died.
+text: >-
+  Macrobius, a bishop of ours, wrote to the people of Carthage to tell
+  them what had happened to two of their own.
 
 
-  Maximianus, a soldier of Christ in the tradition''s own description, was chosen to face the Roman proconsul
-  first. The night before, at a shared meal, wine in his cup seemed to take the shape of a ring, shining
-  with the mingled colors of blood and light -- an omen, Macrobius wrote, of what the next day would ask
-  of him. He was beaten with leaded whips, then with rods. Isaac was flogged alongside him, and in the
-  middle of it he called out to the men doing the flogging, naming them traditores and telling them to
-  come and see what their so-called unity''s madness had brought them to. He did not survive the beating.
+  Maximianus, a soldier of Christ in the tradition's own description, was
+  chosen to face the Roman proconsul first. The night before, at a shared
+  meal, wine in his cup seemed to take the shape of a crown, shining with
+  the mingled colors of blood and light -- an omen, Macrobius wrote, of
+  what the next day would ask of him. He was beaten with leaded whips,
+  then with rods. Isaac was flogged alongside him, and in the middle of it
+  he called out to the men doing the flogging, naming them traditores and
+  telling them to come and be cured of their madness of 'unity'. Both men
+  were condemned to exile and shut in prison, and there Isaac died.
 
 
-  Maximianus, still living, had his own vision that night: he saw himself in combat, first against the
-  emperor''s own ministers, and then against the emperor himself, who in the dream struck out one of his
-  eyes -- and then a bright youth appeared and crowned him. The Roman proconsul, wanting neither of them
-  venerated as relics afterward, ordered both bodies thrown into the sea, weighted down with jars filled
-  with sand.
+  Maximianus, still living, had his own vision that night: he saw himself
+  in combat, first against the emperor's own ministers, and then against
+  the emperor himself, whose eye he struck out in the dream -- and then a
+  bright youth appeared and crowned him. The Roman proconsul, wanting
+  neither of them venerated as relics afterward, ordered both bodies
+  thrown into the sea, weighted down with jars filled with sand.
 
 
-  The sea would not keep them. Macrobius''s letter says the bodies rose and were driven back toward shore
-  again and again, for six days, until finally both were delivered up whole to the congregation waiting
-  for them, who took them and buried them with the same rites and the same joy they would have given the
-  living.
+  The sea would not keep them. Macrobius's letter says the bodies rose and
+  were driven back toward shore again and again, for six days, until
+  finally both were delivered up whole to the congregation waiting for
+  them, who received them with embraces and joy and gave them a proper
+  burial.
 
 
-  Macrobius closes his letter by turning to his own congregation directly: what happened to Isaac and
-  Maximianus, he tells them, is what may yet be asked of any of them.'
+  Macrobius closes his letter by turning to his readers directly. The two
+  martyrs, he tells them, are waiting with their arms stretched out from
+  heaven, and he urges the living to hurry after them.
 absent_detail: 'The wine-cup omen and Maximianus''s combat-vision are Macrobius''s own reported interpretation
   of these events, not independently verified occurrences. Isaac''s own cry to his tormentors is rendered
   here as reported speech, not verbatim quotation: no established published English translation of this
@@ -83,7 +90,7 @@ absent_detail: 'The wine-cup omen and Maximianus''s combat-vision are Macrobius'
   improvised rendering as a certified verbatim quotation.'
 modern_contrast: 'A modern reader may assume a bishop writing to comfort a grieving congregation would
   soften what happened. Macrobius''s letter does the opposite: it closes by telling the living that the
-  same fate may be asked of any of them -- using a specific, recent death as a direct formation instrument
+  two are waiting for them and that they should hurry after them -- using a specific, recent death as a direct formation instrument
   for those still alive, not a private consolation kept separate from what it asks of them next.'
 use_note:
   means: "Macrobius wrote to the Carthage congregation about the deaths of Isaac and Maximianus, including an omen and a vision that are his own interpretation."

@@ -68,13 +68,22 @@ def resolve_model_id(pattern: str, region: str) -> str:
     return matches[0]["inferenceProfileId"]
 
 
+CONVERSATION_MAX_RETRIES = 1
+
+
 def make_client(region: str) -> AnthropicBedrock:
     """No explicit aws_access_key/aws_secret_key passed - AnthropicBedrock
     falls through to botocore's standard credential resolution chain. The
     conversation path gets the SDK client itself; any other command gets one
-    only under an approved live test (engine.provider.guard)."""
+    only under an approved live test (engine.provider.guard).
+
+    max_retries: one retry rides out a brief throttle or dropped connection.
+    The SDK default is two, and each retry can be billed again and holds a
+    participant's request open for another full call timeout."""
     live_test = guard.admit()
-    return guard.wrap(AnthropicBedrock(aws_region=region), live_test, provider="bedrock", region=region)
+    return guard.wrap(
+        AnthropicBedrock(aws_region=region, max_retries=CONVERSATION_MAX_RETRIES), live_test, provider="bedrock", region=region,
+    )
 
 
 def normalize_usage(usage) -> NormalizedUsage:

@@ -48,8 +48,7 @@ senses:
     word: every scriptural phrase offered had been accepted by the Arians with a private meaning; the
     word closed the loophole.'
   personal: 'What was defended was not a formula but the gospel''s ground: only God can join us to God.'
-  translational: '''Did a council vote Jesus into being God?'' - the council''s own participants said
-    the opposite: they found no new thing, but fenced what the churches had always worshiped.'
+  translational: "'Did a council vote Jesus into being God?' - Athanasius, writing decades later, said the opposite: the bishops found no new thing, but fenced what the churches had received."
 quick_meaning: 'The Nicene word: the Son is fully God, not made.'
 distortion_risk: high
 use_note:

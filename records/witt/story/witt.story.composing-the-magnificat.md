@@ -20,9 +20,10 @@ confidence:
     usage.'
 sources:
 - source_id: witt.source.luther-magnificat-translated-and-explained
-  locus: The editor's introduction's own dating argument - John Frederick's letters, Spalatin's December
-    31 report, Luther's February 27, 1521 letter to Spalatin, and the Easter Sunday sending of three quires
-    three days before the departure for Worms - read and verified verbatim at this pass
+  locus: >-
+    The editor's introduction, on the dating of the work: John Frederick's letters, Spalatin's report
+    of December 31, Luther's letter to Spalatin of February 27, 1521, and the sending of three quires
+    on Easter Sunday, three days before the departure for Worms
   license: public-domain
 retrieval:
   tier: 2
@@ -48,28 +49,28 @@ narrative_tier_justification: 'Tier 1, Documented Historical Narrative: a databl
   standard directly ("datable with reasonable confidence... historically credible"). The confidence carried
   is Widely Accepted rather than Documented specifically because the dating is an editorial reconstruction
   from primary letters, not a directly dated colophon on the work itself (Doc_09 witt-S06).'
-tellable_as: In the last months before Worms, with his own future already in danger, Luther kept a promise
-  made months earlier to a seventeen-year-old prince who had written him in sympathy, and worked - between
-  interruptions he called "the troublesome quarrels of many adversaries" - on an exposition of Mary's
-  own song of praise, sending what he had finished just three days before he left Wittenberg to answer
-  for his life at the Diet.
-text: 'After Luther''s excommunication was announced in the papal bull Exsurge Domine, a young prince
-  named John Frederick - seventeen years old, the Elector''s own nephew - wrote to Luther assuring him
-  of his sympathy, and told him he had pleaded Luther''s case with his own uncle. Luther wrote back that
-  October, in 1520, moved by the young man''s zeal "for the sacred truth of God," and by the end of the
-  year had promised him something in return: an exposition, written for the young prince himself, of the
-  Magnificat, Mary''s own song of praise in the Gospel of Luke.
+tellable_as: >-
+  Before Worms, in danger, Luther kept a promise to a seventeen-year-old prince who had written to support
+  him. He worked on a book about Mary's song of praise, between interruptions he called "the troublesome
+  quarrels of many adversaries." Three days before he left Wittenberg for the Diet, he sent the prince
+  what was printed.
+text: >-
+  When the papal bull Exsurge Domine appeared against Luther, a seventeen-year-old prince named John Frederick,
+  nephew of the Elector, wrote to assure him of his sympathy. He sent Luther a copy of his letter pleading
+  Luther's case with his uncle. Luther wrote back on 30 October 1520. He was glad of the young man's zeal
+  "for the sacred truth of God." By the end of the year he had promised the prince an exposition of the
+  Magnificat, Mary's song of praise in the Gospel of Luke.
 
   The work went slowly. A letter from Spalatin to the Elector, dated the last day of December, reports
   that Luther "has also begun to expound the Magnificat and to dedicate it to the young lord." By late
   February, Luther himself wrote to Spalatin that he was busy on it, "as an answer, though a tardy one"
-  to the prince''s own gracious letter - and admitted the work kept being interrupted by what he called
-  "the troublesome quarrels of many adversaries." The most serious interruption of all came next: his
-  own citation to appear at the Diet of Worms, which stopped his writing entirely for a time.
+  to the prince's gracious letter. He said the work kept being interrupted by "the troublesome quarrels
+  of many adversaries." The most serious interruption came next. He was cited to appear at the Diet of
+  Worms, and that stopped his writing for a time.
 
-  He did not leave the work unfinished before he left. On Easter Sunday, three days before his departure
-  from Wittenberg for Worms - not knowing, so far as this library shows, whether he would return - Luther
-  sent his young prince three quires of the exposition, as far as he had carried it.'
+  Before he left, he sent on what he had. On Easter Sunday, three days before he left Wittenberg for Worms,
+  Luther sent his young prince three quires of the exposition. A quire is a gathering of printed pages.
+  The letter of dedication went with them.
 absent_detail: This library does not hold a colophon or any other direct date on the Magnificat exposition
   itself - the composition history given here is the editor's own reconstruction from Luther's dated correspondence,
   not a date stated by the work. It does not say when, or whether, Luther finished the exposition after

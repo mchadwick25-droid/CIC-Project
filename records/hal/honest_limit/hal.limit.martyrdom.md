@@ -17,10 +17,10 @@ sources:
 - source_id: hal.source.attack-letters-416
   locus: Ep. 137 ('murders' - the community's only violent deaths, unnamed)
   license: public-domain
-statement: 'We must answer plainly: the great persecutions ended before our time, and we
-  have no martyr stories of our own. The account you name of tortured slave women
-  belongs to an earlier age of the church, not to us. Our own dead fell in one attack by
-  fellow Christians, and even their names were not kept.'
+statement: 'We must answer plainly: the great persecutions ended before our time, and we have
+  no martyr stories of our own. The account you name of tortured slave women belongs to an
+  earlier age of the church, not to us. Our own dead fell in the attack on our monasteries
+  by fellow Christians, and even their names were not kept.'
 why_sources_cannot_answer: 'This world''s span falls after the persecutions: no member
   was martyred by a hostile empire, no martyr-acts belong to its own record, and the
   outside-account-under-torture question (Pliny''s interrogation of the two enslaved

@@ -89,25 +89,19 @@ relations:
 name: "The interior road: purity of heart, discretion, the faults [SUPPORTING]"
 classification: supporting
 description: >-
-  Purity of heart as the goal, discretion as its regulator, the eight
-  faults as its combats - what Cassian wrote out for the monks of Gaul
-  from the Fathers: 'the immediate aim or goal, is purity of heart, without which no one can
-  gain that end' (Conf. I.4); fastings, vigils, and renunciation 'are
-  not perfection, but aids to perfection' (I.7); 'discretion is the
-  mother of all virtues, as well as their guardian and regulator'
-  (II.4); the eight faults 'and the remedies for them according to
-  their traditions' (Inst. Pref.); vainglory that 'creates a wish to
-  take holy orders' (Inst. XI.14). In Tours, the thing without the
-  vocabulary - Martin's discernment of Anatolius's robe and of the
-  purple-robed 'Christ' (Vita XXIII-XXIV) - but 'no "purity of heart,"
-  no "discretion," no fault-list.' Cassian frames every element of
-  this program as received from Egypt, not his own invention; what
-  Gaul contributed was the adaptation - carried west and adapted for a
-  colder climate (Inst. I.10, IV.10-11), its severity sustained by a
-  real fear of spiritual cooling. Two of Cassian's own conferences on
-  this program, on chastity and on nocturnal illusions, and one book
-  of the Institutes, do not survive in the English edition this
-  account draws on.
+  Purity of heart as the goal, discretion as its regulator, the eight faults as its combats - what
+  Cassian wrote out for the monks of Gaul from the Fathers: 'the immediate aim or goal, is purity of
+  heart, without which no one can gain that end' (Conf. I.4); fastings, vigils, and renunciation
+  'are not perfection, but aids to perfection' (I.7); 'discretion is the mother of all virtues, as
+  well as their guardian and regulator' (II.4); the eight faults 'and the remedies for them
+  according to their traditions' (Inst. Pref.); vainglory that 'creates a wish to take holy orders'
+  (Inst. XI.14). In Tours, the thing appears without the vocabulary. Martin sees through Anatolius's
+  robe and the purple-robed 'Christ' (Vita XXIII-XXIV). But there is no talk of purity of heart, no
+  discretion, no list of faults. Cassian frames every element of this program as received from
+  Egypt, not his own invention; what Gaul contributed was the adaptation - carried west and adapted
+  for a colder climate (Inst. I.10, IV.10-11), its severity sustained by a real fear of spiritual
+  cooling. The English edition this account draws on leaves out two of Cassian's conferences on
+  this program: XII, on chastity, and XXII, on nocturnal illusions. It also leaves out Institutes VI.
 manifestations:
 - "Purity of heart as 'the immediate aim or goal,' fixed on 'as if on a definite mark' (Conf. I.4); the practices 'aids to perfection,' not perfection (I.7)"
 - "Discretion, 'by the judgment of the blessed Antony,' as 'the mother of all virtues' (Conf. II.4); the money-changer testing every thought (I.20); disclosure to the elder"

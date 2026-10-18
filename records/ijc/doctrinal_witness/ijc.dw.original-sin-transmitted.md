@@ -18,18 +18,15 @@ sources:
   locus: Ep. LIX.4 (to the clergy and people of Constantinople)
   license: public-domain
 text: >-
-  Yes, we thought people were born already guilty - and our
-  own record says so in plain words, in a letter written against a different
-  error entirely. Writing to Constantinople against Eutyches, Leo states why
-  the Word had to become flesh at all. The state of everyone descended from
-  our first parents was this: original sin passed down to all, and no one
-  would have escaped condemnation if the Word had not become flesh and lived
-  among us. Leo reaches for Paul to say it twice over. As by one man's
-  disobedience many were made sinners, so by one man's obedience many will be
-  made righteous. As in Adam all die, so in Christ all will be made alive.
-  Guilt inherited from Adam, needing a second Adam to undo it - stated as
-  settled doctrine, not as one side of a live argument. This was not a
-  question our century needed to invent an answer to.
+  Yes, we taught that original sin passed down from Adam to everyone. Our own record says so in plain
+  words, in a letter written against a different error entirely. Writing to Constantinople against
+  Eutyches, Leo states why the Word had to become flesh at all. The state of everyone descended from
+  our first parents was this: original sin passed down to all. No one would have escaped condemnation
+  if the Word had not become flesh and lived among us. Leo reaches for Paul to say it twice over. As
+  by one man's disobedience many were made sinners, so by one man's obedience many will be made
+  righteous. As in Adam all die, so in Christ all will be made alive. Sin passed down from Adam,
+  needing a second Adam to undo it. Leo states it as settled doctrine, not as one side of a live
+  argument.
 positions:
 - humanity's condemnation is inherited from Adam by transmission, prior to and apart from any individual's
   own act

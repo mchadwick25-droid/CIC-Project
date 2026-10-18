@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: An Open Letter to the Christian Nobility of the German Nation
 edition: (1520), trans. C. M. Jacobs, vol. II; vendored as cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt
+citation: Luther, An Open Letter to the Christian Nobility of the German Nation (1520), trans. C. M. Jacobs, vol. II
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

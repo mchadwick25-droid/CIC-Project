@@ -1,0 +1,19 @@
+source_file: hefele_history-of-the-councils-v2-326-429_oxenham1876.txt
+
+assignments:
+  - row_id: hefele_history-of-the-councils-v2-326-429_oxenham1876--history-of-the-councils-vol-2
+    work: "Hefele, A History of the Councils of the Church, vol. 2 (326 to 429), English translation, 1876"
+    author: hefele
+    locus: "whole file; 326 to 429"
+    atlas_ids:
+      - imperial-juridical-christianity
+      - homoian-arian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. Nineteenth-century Roman Catholic scholarly reconstruction
+      of Tyre 335, Rome and Antioch 341, Sardica 343, Sirmium, Ariminum and Seleucia 359,
+      Aquileia and Constantinople 381, the Synod of the Oak 403 and the African councils to
+      429, in Clark's English series. Secondary: a finding aid to the primary documents and
+      a witness to nineteenth-century reading of the councils, never evidence of the events.
+      Same footing as the hefele-leclercq French slices already in the map.

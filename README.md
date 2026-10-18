@@ -36,9 +36,10 @@ of promotion. See "How things move" for the promotion path.
 ## Build — everything that builds or governs the system, not itself part of what runs it
 
 Moved under one top-level `Build/` (2026-09-26, Live/Build split) so the root shows only
-the Live zone plus `Archive/` by default. `tools/` splits across this line: the 5 scripts
-CI actually runs (`check_paths.py`, `check_live_commentary.py`,
-`check_no_embedded_world_data.py`, `repin_stale_worlds.py`, `validate-census.mjs`) stay at
+the Live zone plus `Archive/` by default. `tools/` splits across this line: the 6 scripts
+GitHub workflows actually run (`check_paths.py`, `check_live_commentary.py`,
+`check_no_embedded_world_data.py`, `repin_stale_worlds.py`, `validate-census.mjs`, and
+`live_watch.py`, the scheduled check on the production engine) stay at
 root `tools/`; everything else in `tools/` — scripts nothing in CI invokes — moved to
 `Build/tools/` with the rest below.
 

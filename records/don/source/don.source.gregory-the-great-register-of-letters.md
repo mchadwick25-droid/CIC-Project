@@ -27,6 +27,7 @@ edition: Partially held via the 1907 Turchi themed selection, which draws its te
   critical edition with explicit concordance to it, vendored as cic/texts/gregory-great_epistolae-selectae_turchi1907.txt
   (Registry row 54). The complete Ewald-Hartmann Registrum Epistolarum Tomus I (Libri I-VII, Berlin, 1891)
   remains unvendored.
+citation: Gregory the Great (Pope Gregory I), Register of Letters (Registrum Epistolarum), via the Turchi themed selection (1907)
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed

@@ -27,7 +27,8 @@ sources:
 names:
 - name: Optatus, who wrote against us
   tag: in-world
-- name: Optatus of Milevis, Catholic bishop and polemicist (fl. c. 364-385; seven books against Parmenian)
+- name: Optatus of Milevis, Catholic bishop and polemicist (fl. c. 366-385; seven books against
+    Parmenian)
   tag: scholarly
 dates:
   display: Catholic bishop of Milevis in Numidia; wrote his books against Parmenian in the 360s, with a

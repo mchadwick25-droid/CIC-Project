@@ -18,6 +18,7 @@ work: 'The Doctrine of Addai, the Apostle - this world''s own foundation legend:
   and Addai''s mission to Edessa'
 edition: 'trans. George Phillips (London: Trubner, 1876); vendored as cic/texts/addai_doctrine-of-addai.txt
   (translator attribution external-only, per the file''s own header note)'
+citation: 'The Doctrine of Addai, the Apostle, trans. George Phillips (London: Trubner, 1876)'
 kind: vendored
 rights_status: public-domain
 attribution_status: 'the legend''s historical claims are rejected (Widely Accepted: a retrojected apostolic-foundation

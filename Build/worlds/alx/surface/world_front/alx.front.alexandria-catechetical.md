@@ -17,166 +17,154 @@ export:
 skim:
   tile:
     text: >-
-      Between about 150 and 400 CE, Christians in Alexandria built a faith
-      around teaching. Teachers led seekers through Scripture, layer by
-      layer: the plain story first, then a deeper meaning underneath it,
-      opening onto Christ himself. That reached the literate few. Ordinary
-      believers met the same faith another way, through baptism, the shared
-      meal, and the yearly round of fasts. Clement and Origen were confident
-      that Greek learning could serve Christ, not threaten him. Two real
-      authorities never merged here: the teacher's, earned by demonstrated
-      wisdom, and the bishop's, handed down by office. When a young Origen
-      took a hard verse from Matthew too literally and acted on it, his
-      bishop first praised his zeal, then turned the same act against him
-      years later. When plague struck the city, the bishop wrote that his
-      own people nursed the dying while others fled. When villages came to
-      disagree over how to read Scripture, another bishop sat with them for
-      three days until they agreed. This world's own record was kept almost
-      entirely by literate men. No woman's own words survive.
+      Between about 150 and 400 CE, Christians in Alexandria built a
+      faith around teaching. Teachers led seekers through Scripture
+      layer by layer. The plain story came first, then a deeper
+      meaning that opened onto Christ himself. That reached the
+      literate few. Ordinary believers met the same faith another way,
+      through baptism, the shared meal, and the yearly round of fasts.
+      Clement and Origen were confident that Greek learning could
+      serve Christ. A teacher and a bishop each held real authority,
+      and the two never became one. The teacher's came from the wisdom
+      people saw in him. The bishop's was an office handed down.
+      Eusebius reports that a young Origen took a hard verse from
+      Matthew literally and acted on it. His bishop first admired his
+      daring, then later turned the act against him. When plague
+      struck the city, the bishop wrote that his own people nursed the
+      dying while others fled. When villages came to disagree over how
+      to read Scripture, another bishop sat with them for three days
+      until they agreed. What survives was written almost entirely by
+      literate men. No woman's own words survive.
     grounded_in: [alx.core.alexandria]
 orientation:
   story:
   - text: >-
-      This world's own record runs from about 150 to 400 CE, centered on
-      Alexandria and the wider Egyptian church. Two channels carried the
-      same faith to two different populations. A school channel formed the
-      literate few through years of teaching, argument, and study. A
-      whole-community channel - baptism, the shared meal, and the yearly
-      round of fasts and feasts - reached everyone else, with no reading
-      required. Both channels answered to one center: Christ the Logos,
-      God's own Word, in whom Scripture, learning, worship, and change all
-      became one movement.
-    grounded_in: [alx.core.alexandria]
+      From about 150 to 400 CE, Christians in Alexandria and across
+      Egypt passed on one faith in two ways. Through long study
+      together, teachers formed the few who could read. Baptism, the
+      Eucharist and the yearly round of fasts and feasts reached
+      everyone else.
+    grounded_in: [alx.core.alexandria, alx.term.eucharistia]
   - text: >-
-      The first teacher whose name survived here was Pantaenus, a Stoic
-      philosopher who had converted to the faith. His pupil Clement
-      remembered him as a bee, gathering honey from the prophets and the
-      apostles. Clement came next, then Origen, then others after them. Was
-      this one continuous school, with an official line of heads? Or was it
-      a looser run of private teachers, only strung together later into one
-      tidy story? That is genuinely disputed. Clement's own writing never
-      once describes a formal school that he led.
-    grounded_in: [alx.figure.pantaenus, alx.contested.didaskaleion-institution]
+      Both ways answered to one center, the Logos. He is God's Word,
+      through whom all things were made, and who became flesh. Through
+      him, Scripture, learning, worship and the remaking of a person
+      became one movement toward one God.
+    grounded_in: [alx.gravity.logos-unity, alx.term.logos]
   - text: >-
-      Scripture was this world's deepest instrument of change. Origen read
-      it in layers: the plain story first, then a moral sense, then a
-      spiritual meaning that opened onto Christ. Clement and Origen called
-      this method allegoria. God himself was always teaching, they said,
-      through Scripture's own difficulty and through the discipline of
-      being taught. Reading well was never just gathering information. It
-      was supposed to change the reader.
-    grounded_in: [alx.gravity.scripture-formative, alx.gravity.divine-pedagogy, alx.term.allegoria]
+      Origen taught that Scripture, like a person, has body, soul and
+      spirit. It has a plain sense and deeper senses that point to
+      Christ and the soul. This way of reading is called allegoria. But
+      the bishop Nepos wrote a book against it, and village churches in
+      the Arsinoite district followed his book. After Nepos died, Bishop
+      Dionysius answered them with three days of open argument, and the
+      leader of the other side was persuaded.
+    grounded_in: [alx.gravity.scripture-formative, alx.quote.origen-scripture-senses, alx.term.allegoria, alx.contested.allegory-from-within, alx.story.arsinoite-conference]
   - text: >-
-      The reader who kept reading this way was meant to be transformed, not
-      just informed: purified, then given new sight, then drawn into God's
-      own life. Athanasius put the whole hope in one line, late in this
-      world's story: God became human so that humans could share God's own
-      life. Underneath every part of this - the reading, the teaching, the
-      worship, the change itself - stood one center. The Logos, God's own
-      Word, was the single reason all four were really one movement, not
-      four separate practices.
-    grounded_in: [alx.gravity.soul-transformation, alx.gravity.logos-unity]
+      Alexandria had a long tradition of Christian teachers and their
+      pupils. The first name kept is Pantaenus, a Stoic philosopher who
+      became a Christian. Clement taught in the city from about 180. He
+      praised his last teacher as the true bee. That teacher gathered
+      from the flowers of the prophets and apostles, and left a
+      deathless knowledge in his hearers' souls. Clement gives no name,
+      and Eusebius says it was Pantaenus. Origen came after Clement, and
+      Eusebius says he led the teaching of those preparing for baptism
+      from his eighteenth year. Scholars disagree on whether a formal
+      school stood behind these names before Origen's time.
+    grounded_in: [alx.figure.pantaenus, alx.quote.clement-bee, alx.figure.clement, alx.figure.origen, alx.term.katechesis, alx.contested.didaskaleion-institution]
   - text: >-
-      For the school's own students, learning itself was formation. It was
-      not preparation for formation; it was the thing itself. One student,
-      Gregory, later a bishop, described it from the inside. Origen tested
-      his mind first, the way a farmer tests soil. Then came logic, then
-      the natural world, then ethics lived out as habit. Only then did
-      theology come. Gregory said something else happened underneath all
-      of this. It felt, he said, like a spark landing on his own soul: love
-      for the Word, and for the man who was the Word's own friend.
-    grounded_in: [alx.gravity.learning-formation, alx.story.gregory-formation, alx.figure.gregory-thaumaturgus]
+      A teacher and a bishop each held real authority, and the two never
+      became one. The teacher's standing came from the wisdom people saw
+      in him. The bishop held an office handed down. In the early 230s,
+      Eusebius tells us, bishops in Palestine ordained Origen, the
+      city's greatest teacher. His own bishop, Demetrius, had not
+      agreed. He condemned the ordination and the teacher with it.
+      Origen left for Caesarea and never taught in the city again.
+    grounded_in: [alx.gravity.teacher-bishop-tension, alx.story.origen-demetrius, alx.force.origen-demetrius-conflict, alx.figure.demetrius]
   - text: >-
-      Teacher and bishop were two real authorities here, and this world
-      never made them one. The strain showed early. As a young man, Origen
-      took a hard verse about self-denial too literally and acted on it
-      himself. His bishop, Demetrius, first admired his zeal and told him
-      to keep teaching. Years later, once Origen had grown famous,
-      Demetrius used that same youthful act against him, denouncing an
-      ordination he had never approved. Origen left the city for good. He
-      never taught in Alexandria again, and he later judged the hard verse
-      differently himself, in writing.
-    grounded_in: [alx.gravity.teacher-bishop-tension, alx.story.origen-daring-deed, alx.story.origen-demetrius, alx.force.origen-demetrius-conflict]
+      Persecution came more than once. Origen's father was beheaded
+      about 202. Origen himself was jailed and tortured under Decius.
+      The church held two pictures of a life fully formed. One was the
+      martyr's witness unto death. The other was the soul's long climb
+      toward God. About 260, plague struck Alexandria. Bishop Dionysius
+      wrote that most of his people did not run. They nursed the sick,
+      and many caught the sickness and died.
+    grounded_in: [alx.force.persecution, alx.story.leonides-martyrdom, alx.figure.origen, alx.gravity.martyrdom-contemplative-tension, alx.story.plague-nursing]
   - text: >-
-      Persecution reached this world's teachers as well as its ordinary
-      members. Origen's own father, Leonides, was beheaded when Origen was
-      sixteen. The boy wanted to die beside him. His mother stopped him the
-      only way she could: she hid his clothes. A young woman named
-      Potamiaena was executed by boiling pitch. The soldier who led her out
-      was moved by her courage. He converted, and was later martyred
-      himself. Two pictures of a formed life stood side by side here, never
-      merged: dying as a witness, and the soul's own long, quiet climb
-      toward God.
-    grounded_in: [alx.gravity.martyrdom-contemplative-tension, alx.story.leonides-martyrdom, alx.story.potamiaena, alx.force.persecution]
+      Then the danger came from inside, as brothers argued over the very
+      confession of the Word. Arius taught that the Son was the highest
+      creature and not fully God. In 325 the council at Nicaea answered
+      with the word homoousios, meaning of one substance with the
+      Father. Athanasius, bishop from 328 to 373, defended it through
+      five exiles. Later he wrote that the bishops had added nothing
+      new. They had fenced what the churches had received. He also wrote
+      that the Word became human so that people could share God's own
+      life.
+    grounded_in: [alx.force.arian-controversy, alx.term.homoousios, alx.figure.athanasius, alx.source.nicene-creed-325, alx.quote.athanasius-made-god]
   - text: >-
-      Disagreement inside the household did not always end in
-      condemnation. Whole villages in the Arsinoite district had come to
-      read Scripture's promises as a literal, thousand-year kingdom on
-      earth, following a bishop they loved. When Bishop Dionysius
-      disagreed, he did not send a ruling from the city. He went out to the
-      villages and sat with the people for three days, testing the
-      argument point by point, in the open. The leader of the other side
-      changed his mind in front of everyone, and the account says it ended
-      in agreement, not a split.
-    grounded_in: [alx.story.arsinoite-conference, alx.contested.allegory-from-within]
+      After Nicaea, the bishop of Alexandria became the guard of the
+      creed across Egypt. His tools were letters, councils and exile.
+      Among those who could read, the long bond between teacher and
+      student was no longer the main way faith was formed.
+    grounded_in: [alx.force.post-nicene-authority-shift, alx.force.transmission-ending, alx.gravity.learning-formation]
   - text: >-
-      When plague struck Alexandria, Bishop Dionysius wrote to his own
-      churches about who had stayed. Most of his people, he wrote, did not
-      flee. They nursed the sick without fear, day after day, and many
-      caught the disease and died from it. He wrote that they died gladly,
-      carrying their neighbors' suffering onto themselves. He also wrote,
-      in the same letter, that many of the city's pagans thrust their own
-      sick out into the street at the first sign of illness. That
-      difference, he said, was not an argument. It was a practice the whole
-      city could see.
-    grounded_in: [alx.story.plague-nursing]
+      Later tradition ends the line of teachers with Didymus and says he
+      headed the school in its last years. Didymus was blind from the
+      age of four, too young to have learned letters. He died about 398,
+      at eighty-five.
+    grounded_in: [alx.figure.didymus, alx.story.didymus-meeting, alx.core.alexandria]
   - text: >-
-      For most of this world's life, the church confessed Jesus as God's
-      own Word without needing a single fixed formula. That changed under
-      real pressure. When Arius taught that the Son was the highest
-      created being, not truly God, the council of Nicaea answered with
-      one new word: homoousios, of one same substance with the Father.
-      Athanasius, bishop for forty-six embattled years, defended that word
-      through five exiles. The word was new. The worship it defended, this
-      world's own record insists, was not.
-    grounded_in: [alx.gravity.speculative-doctrinal-tension, alx.force.arian-controversy, alx.figure.athanasius, alx.term.homoousios]
-  - text: >-
-      This world's teaching tradition closes with Didymus, blind since the
-      age of four, too young ever to have read a written word himself. He
-      held the whole of Scripture in memory instead, weighed and ordered
-      by ear. Visitors came to him for decades. Later tradition remembers
-      him heading the school in its final generation, though no eyewitness
-      account actually says so. His own books, once thought entirely lost,
-      turned up centuries later, buried in the Egyptian sand. Even now,
-      most of them still cannot be read in English.
-    grounded_in: [alx.figure.didymus, alx.story.didymus-meeting]
-  - text: >-
-      Almost everything above comes from one narrow group: literate,
-      Greek-educated men. Did the same Scripture, and the same change,
-      also shape the whole community? What about rural believers,
-      people who could not read, or people held as slaves? That is a
-      real, open question. This world's own record cannot answer it
-      from the inside. The whole-community channel itself is well
-      attested: baptism, the shared meal, the yearly fasts. What that
-      channel actually felt like from within it is not, and this
-      world's own record does not pretend otherwise.
-    grounded_in: [alx.contested.ecology-wide-primacy, alx.gravity.learning-community-tension, alx.core.alexandria]
+      The Nicene creed and the hope of sharing God's life reached
+      Eastern Christianity. So did the habit of reading Scripture with
+      Christ at its center. Origen's work was carried forward too, and
+      people loved it and argued over it.
+    grounded_in: [alx.force.transmission-ending, alx.figure.origen]
   documented_stories:
-  - story_id: alx.story.plague-nursing
-    title: "Nursing the Sick While Others Fled"
-    when: "c. 260 (a plague year in Alexandria)"
-    teaser: "When the pestilence came, one bishop wrote of his own people who stayed to nurse the dying - and of a city that had shown them little kindness in return."
-    grounded_in: [alx.story.plague-nursing, alx.figure.dionysius]
+  - story_id: alx.story.john-young-robber
+    title: "The Apostle John and the Young Robber"
+    when: "Told by Clement, between about 180 and 215"
+    teaser: "Clement passes on a tradition about the apostle John, who rides out to bring back a young man turned robber chief. Clement calls it a true account handed down."
+    grounded_in: [alx.story.john-young-robber]
+  - story_id: alx.story.leonides-martyrdom
+    title: "A Father in Prison and a Son Kept Home"
+    when: "About 202, under the emperor Severus"
+    teaser: "Origen's father, Leonides, is arrested and held for beheading. His sixteen-year-old son wants to die beside him, and the boy's mother hides his clothes to keep him home."
+    grounded_in: [alx.story.leonides-martyrdom]
+  - story_id: alx.story.potamiaena
+    title: "Potamiaena, as the Church Remembered Her"
+    when: "Under the emperor Severus, between 203 and 211"
+    teaser: "Eusebius records a tradition about Potamiaena, a young woman put to death under Severus. It says she stood fast, and that the soldier who led her out later died a Christian."
+    grounded_in: [alx.story.potamiaena]
+  - story_id: alx.story.origen-daring-deed
+    title: "A Hard Verse and a Young Teacher, as Eusebius Tells It"
+    when: "Origen's early teaching years; used against him in 231 or 232"
+    teaser: "Eusebius reports that young Origen took a hard verse in Matthew at its word. His bishop first praised him and later denounced him, and some have doubted the act happened."
+    grounded_in: [alx.story.origen-daring-deed, alx.figure.origen, alx.figure.demetrius, alx.quote.demetrius-accused-him-bitterly]
+  - story_id: alx.story.origen-demetrius
+    title: "The Break Between Origen and His Bishop"
+    when: "Between 231 and 234"
+    teaser: "Origen is ordained away from home, and his own bishop has not agreed to it. The bishop condemns it, and Origen never teaches in his city again."
+    grounded_in: [alx.story.origen-demetrius, alx.figure.origen, alx.figure.demetrius]
+  - story_id: alx.story.gregory-formation
+    title: "A Student's Farewell to Origen"
+    when: "About 233 to 238"
+    teaser: "At Caesarea, a student named Gregory thanks Origen in a farewell speech. He says the teaching came in stages, and that it kindled his love for the Word."
+    grounded_in: [alx.story.gregory-formation, alx.figure.gregory-thaumaturgus]
   - story_id: alx.story.arsinoite-conference
     title: "Three Days of Argument in the Villages"
-    when: "c. 255 (after Bishop Nepos's death)"
-    teaser: "A bishop travels to villages that loved a teaching he thought was wrong, and stays three days until the argument is settled in the open, not from a distance."
+    when: "In the years Dionysius was bishop, about 248 to 264"
+    teaser: "In the Arsinoite district, villages follow the book of their late bishop Nepos. Dionysius comes out and sits with them for three days, going through it argument by argument."
     grounded_in: [alx.story.arsinoite-conference, alx.figure.dionysius]
-  - story_id: alx.story.origen-daring-deed
-    title: "Origen's Youthful Act, and How His Bishop Later Used It"
-    when: "c. 205 (the act itself); reused against him after his ordination, c. 230s"
-    teaser: "A young teacher takes a hard verse about self-denial too literally. His bishop first admires him for it, then turns the same act against him years later."
-    grounded_in: [alx.story.origen-daring-deed, alx.figure.origen, alx.figure.demetrius]
+  - story_id: alx.story.plague-nursing
+    title: "Nursing the Sick in the Plague"
+    when: "About 260, while Dionysius was bishop"
+    teaser: "Bishop Dionysius writes to the churches that most of his people did not run from the plague. They visited the sick and tended them, and many caught the sickness and died."
+    grounded_in: [alx.story.plague-nursing, alx.figure.dionysius]
+  - story_id: alx.story.didymus-meeting
+    title: "The Blind Teacher Palladius Met"
+    when: "Between 380 and 398"
+    teaser: "Palladius visits Didymus four times over ten years. The old teacher has been blind since the age of four, too young to have learned letters."
+    grounded_in: [alx.story.didymus-meeting, alx.figure.didymus]
   voices:
   - figure: alx.figure.origen
     text: >-
@@ -285,6 +273,137 @@ orientation:
     note: "Origen's boldest speculative work, reaching us only through Rufinus's own softened Latin translation - read alongside the Greek-derived Philocalia where the two overlap."
   - source: alx.source.eusebius-historia-ecclesiastica
     note: "The backbone story for this world's own people and events. Written a century later from Caesarea, with its own agenda. It is strongest where it quotes real documents, and weakest on tidy lists of who held office when."
+  highlights:
+  - phrase: "Alexandria"
+    kind: place
+    note: "A port city in Egypt's Nile Delta, founded by Alexander the Great in 332 or 331 BCE. Its modern name is Iskandariya."
+    url: https://pleiades.stoa.org/places/727070
+    verified_on: "2026-10-17"
+    grounded_in: [alx.core.alexandria]
+  - phrase: "Caesarea"
+    kind: place
+    note: "A city on the coast of Roman Palestine. Its site, Qesaria, is in today's Israel. Origen lived and taught here."
+    url: https://pleiades.stoa.org/places/678401
+    verified_on: "2026-10-17"
+    grounded_in: [alx.story.origen-demetrius, alx.figure.origen]
+  - phrase: "Arsinoite district"
+    kind: place
+    note: "The capital here was probably Arsinoe. It stood at Medinet el-Fayum, in Egypt today. The villages that followed Nepos lay here."
+    url: https://pleiades.stoa.org/places/736948
+    verified_on: "2026-10-17"
+    grounded_in: [alx.story.arsinoite-conference]
+  - phrase: "Nicaea"
+    kind: place
+    note: "A Greek city of northwestern Anatolia, now İznik in Turkey. The council of 325 met here."
+    url: https://pleiades.stoa.org/places/511268
+    verified_on: "2026-10-17"
+    grounded_in: [alx.source.nicene-creed-325]
+  - phrase: "the council at Nicaea"
+    label: "Council of Nicaea"
+    kind: council
+    note: "A meeting of bishops in 325. It answered the teaching of Arius with the word homoousios."
+    grounded_in: [alx.source.nicene-creed-325, alx.term.homoousios, alx.force.arian-controversy]
+  - phrase: "Pantaenus"
+    kind: person
+    note: "The first teacher in this tradition whose name was kept. He taught about 180 to 200."
+    grounded_in: [alx.figure.pantaenus]
+  - phrase: "Clement"
+    kind: person
+    note: "Clement was born about 150 and died about 215. He taught in the city from about 180. He left when persecution came under Severus."
+    grounded_in: [alx.figure.clement]
+  - phrase: "Origen"
+    kind: person
+    note: "Origen lived from about 185 to about 253. He taught in Alexandria until he broke with his bishop. Then he taught in Caesarea."
+    grounded_in: [alx.figure.origen, alx.core.alexandria]
+  - phrase: "Demetrius"
+    kind: person
+    note: "He was bishop of Alexandria for forty-three years, until about 232."
+    grounded_in: [alx.figure.demetrius]
+  - phrase: "Dionysius"
+    kind: person
+    note: "Bishop of Alexandria from about 248 to 264. Before that he led the teaching. He led the church through persecution and plague."
+    grounded_in: [alx.figure.dionysius]
+  - phrase: "Nepos"
+    kind: person
+    note: "An Egyptian bishop who wrote a book against the allegorists. He read the promises in Scripture as a thousand-year kingdom on earth."
+    grounded_in: [alx.story.arsinoite-conference, alx.contested.allegory-from-within]
+  - phrase: "Arius"
+    kind: person
+    note: "He taught that the Son was the highest creature. The dispute over his teaching ran from about 318 to 381."
+    grounded_in: [alx.force.arian-controversy]
+  - phrase: "Athanasius"
+    kind: person
+    note: "Born about 296, he was bishop of Alexandria from 328 to 373. He was exiled five times."
+    grounded_in: [alx.figure.athanasius, alx.quote.athanasius-made-god]
+  - phrase: "Didymus"
+    kind: person
+    note: "Didymus the Blind, about 309 or 313 to about 398. Later tradition says he headed the school. Palladius, Jerome and Socrates do not say so."
+    grounded_in: [alx.figure.didymus, alx.story.didymus-meeting]
+  - phrase: "Eusebius"
+    kind: person
+    note: "Eusebius of Caesarea, about 260 to 339. His Church History is the main source here. He is more reliable when he quotes documents."
+    grounded_in: [alx.source.eusebius-historia-ecclesiastica, alx.contested.didaskaleion-institution]
+  - phrase: "Palladius"
+    kind: person
+    note: "Palladius of Galatia, about 363 to about 430. He wrote the Lausiac History in 419 and 420. It tells of his visits to Didymus."
+    grounded_in: [alx.source.palladius-lausiac-history]
+  - phrase: "Potamiaena"
+    kind: person
+    note: "A young woman put to death under Severus. Her story comes to us as a tradition that devotion has shaped."
+    grounded_in: [alx.story.potamiaena]
+  - phrase: "Gregory"
+    label: "Gregory of Neocaesarea"
+    kind: person
+    note: "About 213 to about 270. He studied with Origen at Caesarea from about 233 to 238. People question the date and author of his farewell speech."
+    grounded_in: [alx.figure.gregory-thaumaturgus, alx.source.gregory-address-to-origen]
+  - phrase: "Logos"
+    kind: term
+    note: "Greek for the Word. It names God's own reason and speech, through whom all things were made and who became flesh in Jesus."
+    grounded_in: [alx.term.logos]
+  - phrase: "allegoria"
+    kind: term
+    note: "Reading Scripture at more than one level. There is a plain sense, and deeper senses about Christ and the soul. Egyptian Christians disagreed about it."
+    grounded_in: [alx.term.allegoria, alx.contested.allegory-from-within]
+  - phrase: "homoousios"
+    kind: term
+    note: "Greek for of one substance. The council at Nicaea used it to say the Son is fully God. Critics said it is not in Scripture."
+    grounded_in: [alx.term.homoousios]
+  - phrase: "Eucharist"
+    kind: term
+    note: "The thanksgiving meal of bread and cup at the center of worship. Members shared it whether or not they could read."
+    grounded_in: [alx.term.eucharistia]
+  - phrase: "Nicene creed"
+    kind: term
+    note: "The statement of faith from the council at Nicaea in 325. It says the Son is of one substance with the Father."
+    grounded_in: [alx.source.nicene-creed-325]
+  - phrase: "Decius"
+    kind: person
+    note: "The persecution of 249 to 251 bears his name. Origen was jailed and tortured in it."
+    grounded_in: [alx.force.persecution, alx.figure.origen]
+  - phrase: "Severus"
+    kind: person
+    note: "A Roman emperor. In his reign, about 202, the hunt for Christians struck Alexandria, and Origen's father was put to death."
+    grounded_in: [alx.force.persecution, alx.story.leonides-martyrdom]
+  - phrase: "Basilides"
+    kind: person
+    note: "The soldier who led Potamiaena to her death. Eusebius counts him among Origen's disciples who died for the faith."
+    grounded_in: [alx.story.potamiaena]
+  - phrase: "presbyter"
+    kind: term
+    note: "An office in the church. Clement taught that a good life came first, and the office came after it."
+    grounded_in: [alx.term.episkopos, alx.story.origen-demetrius]
+  - phrase: "Ephesus"
+    kind: place
+    note: "A great city of Ionia. Its ruins lie by Selçuk, in today's Turkey. Clement's story of John is set in a city near it."
+    url: https://pleiades.stoa.org/places/599612
+    verified_on: "2026-10-17"
+    grounded_in: [alx.story.john-young-robber]
+  - phrase: "Neo-Caesarea"
+    kind: place
+    note: "Gregory's home city, in Pontus. Its site is Niksar, in today's Turkey."
+    url: https://pleiades.stoa.org/places/857177
+    verified_on: "2026-10-17"
+    grounded_in: [alx.story.gregory-formation, alx.figure.gregory-thaumaturgus]
 narrative:
   who_speaks:
     text: >-

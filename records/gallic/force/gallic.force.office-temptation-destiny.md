@@ -46,24 +46,26 @@ name: "The office as temptation and destiny inside the house [2B - ongoing/inter
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  The community wrote the churches' drain (2A-2) into its own formation program as a fault and into
-  its own stories as a fate. Vainglory 'creates a wish to take holy orders, and a desire for the
-  priesthood or diaconate' (Inst. XI.14); the devil 'incites a man to desire the holy office of the
-  clergy under the pretext of edifying many people ... to draw us away from the humility and
-  strictness of our life' (Conf. I.20); the proud monk 'has grown cold through pride' and wants to
-  rule (Inst. XII.30). At Tours the bishop 'allowed himself to be wronged by the lowest clerics with
-  impunity' (Vita XXVI), reported less power as bishop than before the office (Dial. II.4), and
-  found 'some of his calumniators ... no others than bishops' (Vita XXVII) (Doc_08 Cell 2B, Force
-  2B-3). WORLD'S OWN EXPERIENCE (Layer 2): to want the office was to have gone cold; to be given it
-  was to be posted. The brethren were taught to suspect in themselves any wish to be set over
-  others, and taught by their stories that the churches would come for them anyway. The bishop who
-  was a monk did not use his office against the clerics who wronged him, and knew he had had more
-  power as a monk than he had now. The house held both at once and did not feel it as contradiction:
-  'the thing one must not desire was the thing one would be seized for.' FORMATION IMPACT (Layer 3):
-  'G1 x G9 as one internal structure' - the ecology 'produces bishops and distrusts the episcopate
-  at once.' It is the internal response to the external force 2A-2 and the from-within form of the
-  capture narrative. It reshaped G6 in the north - power lessened by office. Cross-node in the fault
-  and the fate.
+  The community wrote the churches' drain into its own formation program as a fault, and into its
+  own stories as a fate. Vainglory 'creates a wish to take holy orders, and a desire for the
+  priesthood or diaconate' (Inst. XI.14). The devil 'incites a man to desire the holy office of the
+  clergy under the pretext of edifying many people.' His aim is 'to draw us away from the humility
+  and strictness of our life' (Conf. I.20). The proud monk 'has grown cold through pride' and wants
+  to rule (Inst. XII.30). At Tours the bishop 'allowed himself to be wronged by the lowest clerics
+  with impunity' (Vita XXVI). He reported less power as bishop than before the office (Dial. II.4).
+  He found 'some of his calumniators ... no others than bishops' (Vita XXVII).
+
+  To want the office was to have gone cold. To be given it was to be posted. The brethren were
+  taught to suspect in themselves any wish to be set over others. Their stories taught them that the
+  churches would come for them anyway. The bishop who was a monk did not use his office against the
+  clerics who wronged him. He knew he had had more power as a monk than he had now. The house held
+  both at once and did not feel it as a contradiction. The thing one must not desire was the thing
+  one would be seized for.
+
+  The houses produced bishops and distrusted the office in the same breath. This is the inner answer
+  to the churches' drain, the capture story told from inside. At Tours it also meant that office
+  lessened the saint's power. It held in the north and the south alike, in the fault and in the
+  fate.
 manifestations:
 - "Vainglory's wish for holy orders (Inst. XI.14); the devil's incitement to the clerical office 'under the pretext of edifying many people' (Conf. I.20)"
 - "The proud monk 'grown cold through pride' who wants to rule (Inst. XII.30)"

@@ -17,7 +17,7 @@ confidence:
     no divergence flagged for this force's own bare occurrence.
 sources:
 - source_id: don.source.optatus-appendix-of-documents
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the Acta Purgationis Felicis (314/315), the hearing of the traditio accusation against Felix of Aptungi'
   license: public-domain
 relations:
 - type: associated-with

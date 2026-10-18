@@ -113,6 +113,9 @@ services:
     dockerfilePath: ./engine/Dockerfile
     dockerContext: .
     plan: standard
+    healthCheckPath: /health
+    domains:
+      - app.churchinconversation.com
     disk:
       name: cic-engine-data
       mountPath: /data
@@ -126,6 +129,8 @@ services:
         value: /data/cic_api_usage.db
       - key: CIC_API_QC_DB
         value: /data/cic_api_qc.db
+      - key: CIC_API_FEEDBACK_DB
+        value: /data/cic_api_feedback.db
       # Stage 0d (Build-Plan.md): pinned to the EXACT profile id the safety
       # battery's last real tally ran against (engine/m5/reports/safety-
       # script-run-*.json), not left at the loose "us.anthropic.claude-
@@ -204,6 +209,18 @@ services:
         sync: false
       - key: CIC_API_BACKUP_BUCKET_SECRET_ACCESS_KEY
         sync: false
+      - key: CIC_DEEPER_ENABLED
+        value: "1"
+      - key: CIC_DEEPER_SITE_ORIGIN
+        value: https://churchinconversation.com
+      - key: CIC_DEEPER_FREE_KEY
+        sync: false
+      - key: CIC_DEEPER_WEBHOOK_SECRET
+        sync: false
+      - key: VITE_DEEPER_ENABLED
+        value: "on"
+      - key: VITE_DEEPER_SITE_ORIGIN
+        value: https://churchinconversation.com
 
   # STAGING (D3, phase 3, 2026-09-15). Deploys every push to `main` -
   # the integration sandbox - so a change is running here before it is
@@ -223,6 +240,7 @@ services:
     dockerfilePath: ./engine/Dockerfile
     dockerContext: .
     plan: starter
+    healthCheckPath: /health
     disk:
       name: cic-engine-staging-data
       mountPath: /data
@@ -236,6 +254,8 @@ services:
         value: /data/cic_api_usage.db
       - key: CIC_API_QC_DB
         value: /data/cic_api_qc.db
+      - key: CIC_API_FEEDBACK_DB
+        value: /data/cic_api_feedback.db
       - key: CIC_ENFORCE_ADMISSION
         value: "0"
       - key: CIC_SELF_REVISION

@@ -17,137 +17,245 @@ export:
 skim:
   tile:
     text: >-
-      Between about 70 and 200 CE, Christians in Antioch, the cities of Asia
-      Minor, and Rome gathered in ordinary houses. No central power ruled
-      them. Letters carried by hand held the network together instead. Once
-      the apostles died, this world never settled who should lead:
-      some communities followed one bishop with elders beside him, others a
-      council of elders alone. At Corinth, some elders were removed from
-      office - an act we know only from Rome's own letter asking for them
-      back, since Corinth's own side did not survive. Communities marked the
-      Lord's table differently, too. One community's own manual gives thanks
-      over the cup before the bread, and tells no story of a supper at all.
-      Following this way could mean real danger. In one province, a governor
-      had two enslaved women tortured for answers. In another, a bishop was
-      marched under armed guard toward execution. But this danger came and
-      went. It was never constant, and never empire-wide.
-    grounded_in: [pahc.core.house-church]
+      From about 70 to 200 CE, Christians in Antioch, the cities of Asia
+      Minor and Rome gathered in households. No central body ruled them.
+      Letters carried by hand held them together. After the apostles died,
+      these churches had not yet settled who should lead.
+      Ignatius's letters urged one bishop with elders beside him, while at
+      Rome, early letters show a council of elders leading. At Corinth, some
+      elders were removed from office. We know this only from Rome's letter,
+      which argued that men who had served blamelessly should not have been
+      removed. Corinth's side does not survive. Communities kept the Lord's
+      table differently, too. One community's manual gives thanks over the
+      cup before the bread, and tells no story of a supper. Being a Christian could at times bring real danger. In one province, a governor
+      had two enslaved women tortured for answers. In another, Ignatius's
+      letters say he was marched under armed guard toward death.
+    grounded_in: [pahc.core.house-church, pahc.story.first-clement-corinthian-dispute, pahc.story.didache-eucharist, pahc.story.pliny-interrogation, pahc.story.ignatius-guarded-journey, pahc.gravity.state-pressure]
 orientation:
   story:
   - text: >-
-      This world's own record runs from about 70 to 200 CE. It covers
-      Antioch and Syria, the cities of western Asia Minor, and Rome.
-      The apostles had died, one by one, in the years right before
-      this account opens. No one could simply point to someone who had
-      walked with Jesus anymore. What replaced that direct link was
-      argument: a letter insisting its own writer carried the
-      apostles' own teaching forward, a bishop insisting his own
-      office did the same. This was not a settled inheritance, quietly
-      received. It was something actively and urgently claimed,
-      community by community, letter by letter.
-    grounded_in: [pahc.core.house-church, pahc.force.apostolic-testimony-inheritance]
+      From about 70 to 200 CE, Christians gathered in households. They
+      lived in Antioch and Syria, in the cities of western Asia Minor,
+      and in Rome. Letters and travelers kept them joined as one. The
+      last of the apostles' generation was passing, and no central body
+      ruled these churches.
+    grounded_in: [pahc.core.house-church]
   - text: >-
-      Who should lead, once the apostles were gone? This world never agreed.
-      In the communities behind Ignatius's own letters, one bishop stood at
-      the center, with elders and deacons beside him. Obeying him was the
-      very shape of staying united - one letter compares it to strings tuned
-      to a harp. In Rome, a council of elders governed together instead, and
-      nothing was felt to be missing from that arrangement. The same man,
-      Polycarp, was addressed as a bishop by one correspondent while naming
-      himself, in his own letter, only as one of the elders beside him. Both
-      patterns held, side by side, for this whole world's own life. Neither
-      one ever settled the question for the other.
-    grounded_in: [pahc.gravity.authority-consolidation]
+      These churches held that legitimate teaching and practice must
+      trace back to what the apostles had testified. Rome's letter to
+      Corinth sets out a chain. God sent Christ, Christ sent the
+      apostles, and the apostles appointed successors. Ignatius, a bishop of Antioch, writes to several churches. He tells them to be subject to the bishop, as the apostles were subject to Christ.
+    grounded_in: [pahc.force.apostolic-testimony-inheritance]
   - text: >-
-      What actually held these scattered households together was letters,
-      not any office. Rome wrote a long letter to Corinth after Corinth
-      removed some of its own elders from office. Rome insisted the men be
-      restored - though Rome had no real power to force it. Ignatius wrote
-      seven letters of his own. He wrote them across a guarded journey
-      toward his own execution. Polycarp forwarded a collected copy of those
-      letters on to Philippi, simply because Philippi had asked for them.
-      None of these three events depended on the others. Each shows the
-      same thing on its own: this world stayed one people by writing to
-      each other, whenever there was reason to.
-    grounded_in: [pahc.gravity.translocal-network, pahc.story.first-clement-corinthian-dispute]
+      The surviving letters give two different answers to who should lead once the apostles were gone. Ignatius's letters put one
+      bishop at the center, with elders and deacons beside him. One
+      letter says the elders fit the bishop as strings fit a harp. In
+      Rome, the surviving letters show a council of elders leading
+      together. Ignatius addresses Polycarp, a church leader at Smyrna,
+      as a bishop. Polycarp's own letter names him only beside the
+      elders with him.
+    grounded_in: [pahc.gravity.authority-consolidation, pahc.term.presbyterion]
   - text: >-
-      The one thing every community did was give thanks over bread and cup -
-      and the shape of that thanksgiving varied from house to house. One
-      manual gives thanks over the cup before the bread, and tells no story
-      of a betrayal or a body given at all; its prayer is about the vine of
-      David and the knowledge God made known. In the communities Ignatius
-      addressed, only the bishop's own eucharist was considered valid, and
-      refusing any other was inseparable from staying loyal to him. In Rome,
-      Justin describes something fuller still: reading, a sermon, common
-      prayer, a collection for the needy. The table stayed constant. Its
-      exact shape never did.
-    grounded_in: [pahc.gravity.liturgical-practice]
+      Letters held these scattered households together. The church at
+      Rome wrote at length to Corinth, which had removed some of its
+      elders from office. Rome argued that men who had served
+      blamelessly should not have been removed. Seven surviving letters
+      under Ignatius's name say he wrote them on a guarded journey
+      toward Rome. Later, Polycarp sent the Philippians the letters of
+      Ignatius that his church held, because they had asked for them.
+    grounded_in: [pahc.gravity.translocal-network, pahc.story.first-clement-corinthian-dispute, pahc.story.ignatius-guarded-journey, pahc.story.polycarp-forwards-letters]
   - text: >-
-      This world also had to decide what it would not accept. Ignatius wrote
-      against a rival teaching that said Christ's body only seemed real -
-      not truly born, not truly suffering, not truly raised. He answered it
-      as hard as it could be answered: truly born, truly crucified, truly
-      raised. But this argument survives from essentially one voice. Whether
-      the same danger felt as urgent in Rome, or only in the cities Ignatius
-      wrote to directly, this world's own record does not say.
-    grounded_in: [pahc.gravity.boundary-drawing]
+      Giving thanks over bread and cup stood at the center of these
+      gatherings, and its order changed from one household to the next.
+      One community's manual, the Didache, gives thanks over the cup
+      before the bread. It tells no story of a supper or a betrayal.
+      Ignatius says that only a thanksgiving the bishop leads, or
+      entrusts to another, counts as proper. Justin, a philosopher in
+      Rome, describes a fuller Sunday gathering there.
+    grounded_in: [pahc.gravity.liturgical-practice, pahc.story.didache-eucharist, pahc.story.justin-sunday-gathering]
   - text: >-
-      Danger from the state was real. But it never became constant, and it
-      never covered the whole empire. A fire in Rome gave Nero a group to
-      blame. Christians were executed with real cruelty - though no source
-      names a single one of them. Decades later, a governor in a different
-      province had two enslaved women tortured to learn what these
-      communities actually did. He found, in his own words, only "a crude
-      and excessive superstition." Ignatius himself was marched under armed
-      guard the length of Asia Minor, toward his own execution in Rome.
-      Three very different provinces. Three very different moments. No
-      single, standing policy connects them.
-    grounded_in: [pahc.gravity.state-pressure]
+      The danger from the state was always there, but the actual
+      incidents came and went. Tacitus, a Roman historian, reports that
+      Nero blamed the Great Fire of Rome in 64 on a group the crowd
+      called Christians. A great number, he says, were convicted and put
+      to death. No source names one of them. About fifty years later,
+      Pliny, the governor of Bithynia and Pontus, wrote to the emperor
+      Trajan for guidance. He found, in his words, "nothing but a
+      depraved superstition that went too far." Trajan replied that
+      Christians were not to be sought out, though those accused and
+      convicted were to be punished.
+    grounded_in: [pahc.gravity.state-pressure, pahc.story.nero-scapegoating, pahc.story.pliny-interrogation, pahc.quote.two-female-slaves-who-were-called-deaconesses, pahc.figure.tacitus, pahc.figure.pliny]
   - text: >-
-      For some in this world, dying for the name became the clearest sign
-      that a whole life had been well spent. Ignatius, on his own way to
-      execution, wrote that he wanted to be ground like wheat between the
-      teeth of wild beasts, so that he might be found the pure bread of
-      Christ. Another community kept its own bishop's bones afterward. It
-      gathered every year at the place they were kept. But that same
-      community recorded a caution too, right beside its own admiration. It
-      remembers a man who volunteered for trial and then lost his nerve. The
-      community's own verdict on him is plain: wanting to die was never the
-      thing it held up to imitate. Both witnesses come from exactly two
-      moments, both from the same region. Whether Rome held anything like
-      this same belief, this world's own record does not say.
-    grounded_in: [pahc.gravity.martyrdom-meaning, pahc.story.quintus-recantation]
+      Some communities read a death for the name as the completion of a
+      life. Ignatius writes that he wants to be ground by the teeth of
+      wild beasts, so that he may be found the pure bread of Christ. The
+      church at Smyrna told how Polycarp died. Its letter says the
+      community kept his bones in a fitting place. They hoped to gather
+      there each year, as they were able, to keep the day of his death.
+      The same letter names Quintus, who came forward for trial and lost
+      his nerve at the sight of the beasts. It says the gospel does not
+      teach people to give themselves up. Only these two inside accounts
+      survive, Ignatius's letters and Smyrna's letter, and both come
+      from Antioch and Asia Minor.
+    grounded_in: [pahc.gravity.martyrdom-meaning, pahc.story.martyrdom-of-polycarp, pahc.story.quintus-recantation]
   - text: >-
-      This world's own record ends around 200 CE. Its central question was
-      never settled from the inside. By then, one bishop had become the
-      common pattern almost everywhere, even in Rome. Rome had once been
-      led by a council of elders instead. No text says how or when that
-      change was actually felt. Only the older, argued option's own quiet
-      disappearance is visible. At almost the same time, in regions this
-      world never mentions, a new kind of argument appeared. It argued from
-      an already-secured chain back to the apostles. This world's own
-      letters, by contrast, were still actively building that chain,
-      community by community. This world could not survive its own defining
-      question actually being settled. And by the time that settling began
-      to arrive, this world's own way of holding the question was already
-      ending.
-    grounded_in: [pahc.force.monepiscopacy-consolidation, pahc.force.systematic-theological-mode-elsewhere]
+      By about 200, one bishop was becoming the dominant pattern, even
+      in Rome. One modern scholar, Peter Lampe, thinks Rome may not have
+      had a single bishop before Victor, its bishop from 189 to 199. The
+      texts of these churches do not say how or when Rome changed. From
+      about 180, writers in other regions argued from an apostolic line
+      they treated as already secure. 
+    grounded_in: [pahc.force.monepiscopacy-consolidation, pahc.force.systematic-theological-mode-elsewhere, pahc.contested.rome-monepiscopacy-dating]
   documented_stories:
-  - story_id: pahc.story.ignatius-guarded-journey
-    title: "A Condemned Bishop Asks Rome Not to Save Him"
-    when: "c. 107-117 (traditional dating; a three-way scholarly dispute over authenticity and dating is carried at full strength)"
-    teaser: "Marched under armed guard toward execution, a bishop writes ahead to forbid the church at Rome from trying to save him."
-    grounded_in: [pahc.story.ignatius-guarded-journey, pahc.figure.ignatius]
+  - story_id: pahc.story.nero-scapegoating
+    title: "Nero Blames the Christians for the Fire"
+    when: "64 (Tacitus wrote about fifty years later; we cannot be sure a separate persecution tied to the fire took place in 64)"
+    teaser: "Rome burns in a great fire. The Roman historian Tacitus reports that Nero blamed a group the crowd called Christians, and had them put to death with cruelty."
+    grounded_in: [pahc.story.nero-scapegoating, pahc.figure.tacitus]
+  - story_id: pahc.story.didache-eucharist
+    title: "Thanks Over the Cup Before the Bread"
+    when: "c. 80-120 (the usual dating of the Didache; we cannot fix it closer than 50 to 150)"
+    teaser: "This scene is pieced together from the Didache. A community following its order gives thanks over the cup first, then the bread. No story of a supper appears in its prayers."
+    grounded_in: [pahc.story.didache-eucharist, pahc.contested.didache-dating]
   - story_id: pahc.story.grandsons-before-domitian
     title: "Two Farmers Before the Emperor"
-    when: "c. 90-96 (under Domitian)"
-    teaser: "An emperor fearing a rival king summons two grandsons of Jesus' own family - and finds two callus-handed smallholders not worth his attention."
+    when: "c. 81-96 (under Domitian)"
+    teaser: "Hegesippus, writing long afterward, tells how Domitian hears that kin of Jesus, of David's line, are alive. Two grandsons of Judas, called the brother of Jesus, show him rough farmers' hands, and he lets them go."
     grounded_in: [pahc.story.grandsons-before-domitian]
+  - story_id: pahc.story.first-clement-corinthian-dispute
+    title: "Rome Writes to Corinth About Removed Elders"
+    when: "c. 96 (the traditional dating; we cannot fix it closer than before 70 to 140)"
+    teaser: "The church at Rome writes at length to Corinth, which has removed several elders from office. It argues that men who served blamelessly should not have been removed."
+    grounded_in: [pahc.story.first-clement-corinthian-dispute, pahc.contested.first-clement-dating]
+  - story_id: pahc.story.ignatius-guarded-journey
+    title: "A Condemned Bishop Asks Rome Not to Save Him"
+    when: "c. 107-117 (traditional dating; we cannot be sure who wrote the letters or when)"
+    teaser: "Letters under Ignatius's name say that he, a bishop of Antioch, was marched under armed guard toward Rome. He writes ahead to urge the church there not to try to save him."
+    grounded_in: [pahc.story.ignatius-guarded-journey, pahc.figure.ignatius]
+  - story_id: pahc.story.polycarp-forwards-letters
+    title: "Polycarp Sends Ignatius's Letters to Philippi"
+    when: "c. 107-140 (the letter's date is uncertain, and it may be two letters joined)"
+    teaser: "Polycarp writes to the church at Philippi. He is sending them the letters of Ignatius that his church has collected, as they had asked."
+    grounded_in: [pahc.story.polycarp-forwards-letters, pahc.figure.polycarp]
+  - story_id: pahc.story.pliny-interrogation
+    title: "A Governor Writes to the Emperor About Christians"
+    when: "c. 111-113"
+    teaser: "Pliny, a Roman governor, is not sure how to treat Christians brought before him. He has two enslaved women tortured to learn what the community did. Then he writes to the emperor Trajan for advice."
+    grounded_in: [pahc.story.pliny-interrogation, pahc.figure.pliny]
+  - story_id: pahc.story.justin-sunday-gathering
+    title: "A Sunday Gathering as Justin Describes It"
+    when: "c. 153-157"
+    teaser: "Justin tells the emperor what happens when his community gathers on the day named for the sun. They hear readings and a talk, pray, give thanks over bread and wine, and make a collection for the needy."
+    grounded_in: [pahc.story.justin-sunday-gathering, pahc.figure.justin]
   - story_id: pahc.story.quintus-recantation
     title: "The Man Who Volunteered and Broke"
     when: "c. 155-156 (traditional dating; Eusebius's Chronicon gives 167)"
-    teaser: "Before it honors its own bishop's courage, a community's letter names a man who came forward for trial on his own and lost his nerve when he saw the beasts."
+    teaser: "The letter from Smyrna that honors Polycarp also names Quintus. He came forward for trial and lost his nerve at the sight of the beasts. The letter says the gospel does not teach people to give themselves up."
     grounded_in: [pahc.story.quintus-recantation, pahc.gravity.martyrdom-meaning]
+  - story_id: pahc.story.martyrdom-of-polycarp
+    title: "Polycarp Refuses to Curse Christ"
+    when: "c. 155-156 (traditional dating; Eusebius's Chronicon gives 167)"
+    teaser: "The church at Smyrna tells how Polycarp, its aged leader, refused to curse Christ and was put to death. The account says the fire arched around him. The community kept his bones."
+    grounded_in: [pahc.story.martyrdom-of-polycarp, pahc.contested.martyrdom-polycarp-dating]
+  highlights:
+  - phrase: "Antioch"
+    kind: place
+    note: "A great trading city of Syria, and the city of the bishop Ignatius. Its site is now Antakya, in today's Turkey."
+    url: https://pleiades.stoa.org/places/658381
+    verified_on: "2026-10-17"
+    grounded_in: [pahc.figure.ignatius]
+  - phrase: "Smyrna"
+    kind: place
+    note: "An ancient city of Asia Minor, now Izmir in today's Turkey. Polycarp led its church."
+    url: https://pleiades.stoa.org/places/550893
+    verified_on: "2026-10-17"
+    grounded_in: [pahc.figure.polycarp]
+  - phrase: "Corinth"
+    kind: place
+    note: "An ancient Greek city in the Peloponnese, whose church removed some elders and drew Rome's letter. Its site is Archaia Korinthos, in Greece."
+    url: https://pleiades.stoa.org/places/570182
+    verified_on: "2026-10-17"
+    grounded_in: [pahc.story.first-clement-corinthian-dispute]
+  - phrase: "Philippi"
+    kind: place
+    note: "An ancient city founded by Philip II of Macedon. Its church asked Polycarp for the letters of Ignatius. Its ruins lie in today's Greece."
+    url: https://pleiades.stoa.org/places/501482
+    verified_on: "2026-10-17"
+    grounded_in: [pahc.story.polycarp-forwards-letters]
+  - phrase: "Bithynia and Pontus"
+    kind: place
+    note: "A Roman province on the Black Sea coast. Pliny governed it. Its lands lie in today's Turkey."
+    url: https://pleiades.stoa.org/places/981512
+    verified_on: "2026-10-17"
+    grounded_in: [pahc.figure.pliny]
+  - phrase: "elders"
+    kind: term
+    note: "Leaders who shared in ruling a community. In some churches they acted as a council. In others they served beside one overseer."
+    grounded_in: [pahc.term.presbyteros]
+  - phrase: "bishop"
+    kind: term
+    note: "From the Greek episkopos, an overseer. Some churches had one bishop. Whether every church should have one was still argued."
+    grounded_in: [pahc.term.episkopos]
+  - phrase: "deacons"
+    kind: term
+    note: "People set apart to serve. In Justin's Rome they carried a share of the thanksgiving meal to members who could not come."
+    grounded_in: [pahc.term.diakonos]
+  - phrase: "bread and cup"
+    kind: term
+    note: "The thanksgiving meal, called eucharistia in Greek. Its prayers and order were not the same in every household."
+    grounded_in: [pahc.term.eucharistia, pahc.gravity.liturgical-practice]
+  - phrase: "Didache"
+    kind: term
+    note: "A short teaching manual, likely from one community. One copy of 1056 keeps almost all of it. Scholars date it between about 50 and 150."
+    grounded_in: [pahc.source.didache, pahc.contested.didache-dating]
+  - phrase: "Ignatius"
+    kind: person
+    note: "Bishop of Antioch. Seven letters in his name say he was marched under guard toward death in Rome. Their author and date are disputed."
+    grounded_in: [pahc.figure.ignatius, pahc.contested.ignatius-dating]
+  - phrase: "Polycarp"
+    kind: person
+    note: "A church leader at Smyrna. His own letter to the Philippians survives, and his church told how he was put to death."
+    grounded_in: [pahc.figure.polycarp]
+  - phrase: "Justin"
+    kind: person
+    note: "A philosopher who kept wearing his gown as a Christian. He described a Sunday gathering in a letter to the emperor. He died about 165."
+    grounded_in: [pahc.figure.justin]
+  - phrase: "Tacitus"
+    kind: person
+    note: "A Roman historian who despised Christians. Around 116, he wrote about the Great Fire of 64."
+    grounded_in: [pahc.figure.tacitus]
+  - phrase: "Nero"
+    kind: person
+    note: "Roman emperor at the Great Fire of Rome in 64. Tacitus says rumor blamed him, and he turned the blame on Christians."
+    grounded_in: [pahc.story.nero-scapegoating]
+  - phrase: "Pliny"
+    kind: person
+    note: "A Roman governor, not a Christian. He wrote to the emperor about Christians around 111 to 113."
+    grounded_in: [pahc.figure.pliny]
+  - phrase: "Trajan"
+    kind: person
+    note: "The Roman emperor who received Pliny's letter and answered it."
+    grounded_in: [pahc.story.pliny-interrogation]
+  - phrase: "Peter Lampe"
+    kind: person
+    note: "A modern scholar of the early church at Rome. He reads it as many small household groups that only slowly came under one bishop."
+    grounded_in: [pahc.contested.rome-monepiscopacy-dating]
+  - phrase: "Quintus"
+    kind: person
+    note: "A man from Phrygia, named in the letter from Smyrna. He came forward for trial and then lost his nerve."
+    grounded_in: [pahc.story.quintus-recantation]
+  - phrase: "Domitian"
+    kind: person
+    note: "The Roman emperor in this account. Hegesippus says he dreaded the coming of Christ, and that this is why he had the two men questioned."
+    grounded_in: [pahc.story.grandsons-before-domitian]
+  - phrase: "Judas"
+    kind: person
+    note: "The man called the brother of Jesus in this account. Domitian questions his two grandsons."
+    grounded_in: [pahc.story.grandsons-before-domitian]
+  - phrase: "Hegesippus"
+    kind: person
+    note: "A writer of the second century. We know his work because a later bishop, Eusebius, quoted it."
+    grounded_in: [pahc.story.grandsons-before-domitian, pahc.source.second-third-century-remains]
   voices:
   - figure: pahc.figure.ignatius
     text: >-

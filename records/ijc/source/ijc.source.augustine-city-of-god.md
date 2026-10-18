@@ -16,6 +16,7 @@ sources: []
 author: "Augustine of Hippo (354-430), writing from within the imperial church and against its own triumphalism"
 work: "De Civitate Dei (The City of God), begun 413 after the sack of Rome - used here for Book V.24-26 (what a happy Christian emperor is) and Book XIX.17 (what the two cities share and where they part)"
 edition: "trans. Marcus Dods, Nicene and Post-Nicene Fathers ser. 1 vol. 2 (1887), vendored as cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml"
+citation: Augustine of Hippo, De Civitate Dei (The City of God), trans. Marcus Dods, Nicene and Post-Nicene Fathers, series 1, vol. 2 (1887)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

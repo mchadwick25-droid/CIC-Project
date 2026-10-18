@@ -18,11 +18,11 @@ confidence:
     sermon.
 sources:
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: The Eight Wittenberg Sermons (March 1522), First Sermon, verified verbatim at "Let us beware
-    lest Wittenberg become Capernaum" and "I see no signs of love among you," and at "God does not want
-    hearers and repeaters of words, but doers and followers"; Kessler's eyewitness corroboration, as cited
-    in Steimle's introduction to the same volume, that the extant printed text omits the sermon's own
-    opening exposition
+  locus: >-
+    The Eight Wittenberg Sermons (March 1522), First Sermon, at "Let us beware lest Wittenberg become
+    Capernaum," "I see no signs of love among you," and "God does not want hearers and repeaters of words,
+    but doers and followers"; Kessler's eyewitness report, cited in Steimle's introduction to the same
+    volume, and the note that the printed text omits the sermon's opening exposition
   license: public-domain
 retrieval:
   tier: 1
@@ -50,19 +50,20 @@ narrative_tier_justification: 'Tier 1, Documented Historical Narrative: directly
   own dating and Kessler''s independent eyewitness corroboration. This matches CF V7.4''s own Tier 1 standard
   - "the story claims to describe specific events" and is "historically credible" - without resting on
   collected or attributed tradition (Doc_09 witt-S05).'
-tellable_as: Luther leaves the safety of the Wartburg without his prince's leave, rides back into a Wittenberg
-  turned disorderly under a colleague's own zealous leadership, and preaches eight days running, telling
-  his own congregation to their faces that they have learned the words of the reform and not yet its love.
-text: 'In March of 1522, Luther left the Wartburg - the fortress where he had been sheltered, against
-  his own will, after Worms - and rode back to Wittenberg without the Elector''s leave. The reform he
-  had set moving had begun to run ahead of him in his absence, under the leadership of his own colleague
-  Karlstadt, and Wittenberg, by the account this library holds, had fallen into disorder over exactly
-  how fast the old forms of worship should be swept away.
+tellable_as: >-
+  Against his prince's wishes, Luther leaves the Wartburg and returns to a Wittenberg in disorder. He
+  preaches eight days running and tells his congregation to their faces that they have learned the words
+  of the reform but not yet its love.
+text: >-
+  In March of 1522, Luther left the Wartburg, where he had been hidden since Worms, and returned to Wittenberg
+  against the Elector's instruction to stay. In his absence the reform had begun to run ahead of him,
+  under his colleague Karlstadt and others. Wittenberg had fallen into disorder over how fast the old
+  forms of worship should be swept away.
 
-  Luther preached eight days running on his return, and the first of those sermons survives in this library,
-  though not from its very beginning - a witness named Kessler, who was present, recalled afterward that
-  Luther set aside his prepared opening and spoke directly to "the present affair" instead, and the printed
-  text as this library holds it begins already inside that address.
+  Luther preached eight days running after his return. The first sermon survives, though not from its
+  very beginning. A witness named Kessler, who was present, reported that Luther first explained the day's
+  Gospel, then "dropped the text and took up the present affair." The printed text begins already inside
+  that address.
 
   What Luther told his own congregation, in that sermon, was not gentle. "And here, dear friends," he
   said, "have you not grievously failed? I see no signs of love among you." He told them plainly that
@@ -73,9 +74,10 @@ text: 'In March of 1522, Luther left the Wartburg - the fortress where he had be
   the faith that worketh by love." A faith without love, he told them, was not faith at all - "a counterfeit
   of faith."
 
-  That sermon, and the seven that followed it across the same week, are this library''s clearest single
-  instance of Luther restraining his own movement''s fastest wing rather than driving it forward - returning,
-  uninvited, to slow down a change he himself had set in motion.'
+  That sermon, and the seven that followed it in the same week, show Luther restraining his own movement's
+  fastest wing rather than driving it forward. He returned, against the Elector's instruction, to slow
+  down a change he himself had set in motion.
+telling: "In March of 1522, Luther left the Wartburg, where he had been hidden since Worms. The Elector had told him to stay, and he came back to Wittenberg anyway.\n\nWhile he was away, the reform had run ahead of him under his colleague Karlstadt and others. The town had fallen into disorder over how fast the old forms of worship should be swept away.\n\nLuther preached eight days running. A witness named Kessler was there, and he said Luther first explained the day's Gospel. Then he \"dropped the text and took up the present affair.\"\n\n\"And here, dear friends,\" Luther said, \"have you not grievously failed? I see no signs of love among you.\" They had learned the doctrine, he told them plainly, without living it. \"Let us beware lest Wittenberg become Capernaum.\"\n\nThe kingdom of God, he said, lies in deeds and works. \"God does not want hearers and repeaters of words, but doers and followers,\" he said. They were to practice the faith that works by love. A faith without love, he told them, was no faith at all. It was \"a counterfeit of faith.\""
 absent_detail: The printed sermon text this library holds begins mid-address, missing its own opening
   exposition - Kessler's own eyewitness note is what tells us that omission exists, not the sermon text
   itself. This library does not independently document Karlstadt's own account of the same events, only

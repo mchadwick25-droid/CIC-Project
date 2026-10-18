@@ -1,0 +1,48 @@
+source_file: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt
+
+authors_ruled:
+  gesta-inter-liberium-et-felicem:
+    kind: anonymous
+    evidence: >
+      Günther prints 'Quae gesta sunt inter Liberium et Felicem episcopos' as the first item
+      of the Avellana (file line 5040) without an author; the text speaks for the Roman
+      clergy loyal to Liberius in 355-367 and names no writer.
+  faustinus-and-marcellinus:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML markup
+      only) has not seen the authors. The Libellus precum is addressed to the emperors by
+      the presbyters Faustinus and Marcellinus (Günther's prolegomena, file lines 3417-3463,
+      'libellum Marcellini et Faustini presbyterorum a. 383 uel 384'); real, attested
+      Luciferian clerics, named in the text itself.
+
+assignments:
+  - row_id: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35--collectio-avellana-pars-i-imperial-and-papal-letters-latin
+    work: "Collectio Avellana, pars I: epistulae I-CIV (CSEL 35), Latin"
+    author: gesta-inter-liberium-et-felicem
+    locus: "whole file; the Gesta inter Liberium et Felicem from file line 5040; the Libellus precum from about 5100; imperial and papal letters of 367 onward after 7443"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      A late-antique Roman collection of imperial rescripts and papal letters on church
+      order from 367 to the sixth century: the imperial-juridical world's own paperwork in
+      the Latin original. The author slug names the collection's first (anonymous) item,
+      since the collection has no author; the corpus-assignment thread may prefer a
+      collection-level slug. Cleanly recovered; ready to quote once verified against the
+      scan.
+  - row_id: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35--libellus-precum-of-faustinus-and-marcellinus-383-384-latin
+    work: "Libellus precum ad imperatores (Faustinus and Marcellinus, 383-384), Latin"
+    author: faustinus-and-marcellinus
+    locus: "Ariminum at file lines 5622 and 5631; Hosius and Potamius at 5796-5853; Gregory of Elvira at 5908; the whole petition to about 7443"
+    atlas_ids:
+      - gallic-nicene-episcopate
+    role: context
+    confidence: provisional
+    note: >
+      The Luciferian memory of the council of Ariminum (359), of the lapse of Hosius and
+      Potamius and of the bishops who signed and were later readmitted, written twenty-five
+      years after by a party that refused the reconciliation Hilary and the Gallic bishops
+      made. A contemporary dissenting view of the Gallic Nicene settlement; context, not
+      its voice. Reception source: dated 383-384, standpoint Luciferian.

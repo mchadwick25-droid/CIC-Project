@@ -23,15 +23,16 @@ confidence:
     law of 405, and even then the charge rested on separation and not on any difference of creed.
 sources:
 - source_id: don.source.augustine-answer-to-petilian
-  locus: Book II, dated A.D. 400 (line 665) - "you are heretics" (line 16579); "it is dissension and division that
-    make you heretics" (line 17835)
+  locus: Book II, dated A.D. 400 - "you are heretics"; "it is dissension and division that make
+    you heretics"
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
-  locus: 16.5.38, 405 February 12 - the law names Donatists beside Manichaeans (line 87341)
+  locus: 16.5.38, 405 February 12 - the law names Donatists beside Manichaeans
   license: public-domain
 - source_id: don.source.augustine-correction-of-donatists-letter-185
-  locus: Letter 185, ch. 1 (line 19321) - most of them held the same belief on the Father, Son and Holy Spirit, and
-    this was not the question in dispute; ch. 7 (line 19635) - Augustine's own phrase "the heresy of the Donatists"
+  locus: Letter 185, ch. 1 - most of them held the same belief on the Father, Son and Holy Spirit,
+    and this was not the question in dispute; ch. 7 - Augustine's own phrase "the heresy of the
+    Donatists"
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
   locus: the 411 acts - Petilian on standing before the governor; Emeritus answering Augustine verse against
@@ -44,11 +45,11 @@ sources:
   locus: Maximianus as a soldier of Christ; the crowning by a bright youth; the closing turn to the congregation
   license: public-domain
 - source_id: don.source.passio-marculi
-  locus: the cup, the crown and the palm shown four days before the cliff
+  locus: the cup, the crown and the palm shown on the last night before the cliff
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'horizon: the confession here is standard North African Latin Trinitarian and Christological orthodoxy,
-    and what is contested is legitimacy'
+  locus: the confession here is standard North African Latin Trinitarian and Christological orthodoxy,
+    and what is contested is legitimacy
   license: public-domain
 retrieval:
   tier: 1
@@ -59,13 +60,12 @@ retrieval:
 text: >-
   Christ, to us, was the Christ of the creed we shared with our
   opponents: the Son, one God with the Father and the Spirit, who died
-  and was raised. We confessed him in the same Latin words they did,
-  word for word, creed for creed. For most of a century the charge
-  against us was schism, not heresy, because both sides said the same
-  creed. Then Augustine's pen and the emperor's law of 405 called us
-  heretics. Even then it rested on our separation, not on anything we
-  said about Christ. The quarrel was never about who Christ
-  is. It was about who may hand on what he gave.
+  and was raised. We confessed him in the same standard Latin terms they
+  did. For most of a century the charge against us was schism, not
+  heresy, because both sides said the same creed. Then Augustine's pen
+  and the emperor's law of 405 called us heretics. Even then it rested
+  on our separation, not on anything we said about Christ. The quarrel
+  was never about who Christ is.
 
 
   What of him we kept nearest shows up wherever our own people are
@@ -80,24 +80,23 @@ text: >-
   authority and lost the case, and was right.
 
 
-  The good news, as we told it, ran along the same line. A church is not
-  known by whose favour it enjoys. When the argument at Carthage finally
-  reached the Scriptures, our own bishop of Caesarea answered verse
-  against verse: the world did not know him; if you were of the world,
-  the world would love its own, but because you are not of it, therefore
-  it hates you. Read that in a town with two bishops and an emperor
-  backing one of them, and it is not a devotional sentiment. It is a
-  test, and we thought we could pass it.
+  The good news, as we told it, ran along the same line. We held that a
+  church was not known by the favour it enjoyed. When the argument at
+  Carthage finally reached the Scriptures, our own bishop of Caesarea
+  answered verse against verse: the world did not know him; if you were
+  of the world, the world would love its own, but because you are not of
+  it, therefore it hates you. Read in a town with two bishops and an
+  emperor backing one of them, it was an accusation. The church the
+  world listened to, our bishop said, belonged to the world.
 
 
-  His death meant that the end of a faithful life is not an interruption
-  of it. Our own martyr was shown a cup, a crown and a palm four days
-  before he was thrown from a cliff - shown, in advance, what finishing
-  looked like. And a bishop writing to his own congregation about two of
-  their number tortured to death closed by telling them plainly that the
-  same might yet be asked of any of them. That is our gospel in its
-  working form: he stood, he was condemned, he was raised, and the day
-  they come for you is not the day it all went wrong.
+  We left no treatise on what his death meant. What our martyr texts
+  show is how we read a faithful death. Our own martyr was shown a cup,
+  a crown and a palm on the last night before he was thrown from a cliff -
+  shown, in advance, what finishing looked like. And a bishop writing to
+  the people of Carthage about two of their number put to death closed by urging them to hurry after the two, who were waiting for
+  them. In those texts the end of a faithful life is not an interruption
+  of it.
 positions:
 - our confession about Christ was identical with our opponents' and was never the matter in dispute; both
   African hierarchies held the same Trinitarian and Christological faith

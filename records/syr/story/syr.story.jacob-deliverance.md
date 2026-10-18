@@ -44,6 +44,7 @@ text: >-
   turned against the city. The tradition tells that Ephrem begged the aged bishop Jacob to climb the wall, look at the enemy, and curse them. The old man agreed and went up into a tower. Looking out over the
   numberless camp, he called down no other curse than the smallest of plagues: mosquitoes and gnats. The clouds of them came. They
   maddened the elephants and the horses. The Persians left their camp and fled. The city sang of its rescue afterward.
+telling: "Ephrem's hymns sing that Nisibis was saved when Shapur, king of Persia, laid siege to it. They say nothing of gnats. The story of Jacob's prayer comes from Theodoret of Cyrus, a Greek church historian, writing about a century later. Even the siege it belongs to is unsettled, whether that of 338, 346 or 350.\n\nShapur's army lay against the walls, and the river had been turned against the city. In Theodoret's telling, Ephrem begged the aged bishop Jacob to go up on the wall and curse the enemy. The old man agreed and climbed into a tower, where he looked out over the numberless camp.\n\nThen, Theodoret writes, \"he called down no other curse on them than that mosquitoes and gnats should be sent against them.\" Clouds of them came after his prayer and drove the elephants and the horses wild, until the Persians left their camp and fled."
 absent_detail: 'The miracle is the tradition''s own telling, not verified event; even which siege it belongs
   to (338, 346, or 350) is unsettled. The roles must never be reversed: the tradition credits Jacob''s
   prayer, with Ephrem as the one who urges and later sings - crediting the miracle to Ephrem is a documented
@@ -55,7 +56,7 @@ modern_contrast: 'A modern reader might take the account of insect swarms routin
   which Ephrem''s own in-window hymns commemorate without narrating this specific
   miracle''s particulars.'
 use_note:
-  means: "Theodoret, writing about 444-450, tells that Bishop Jacob's prayer brought gnats that broke Shapur's siege of Nisibis, a hagiographic tradition, not attested event."
+  means: "Later tradition, as Theodoret tells it, says that Bishop Jacob's prayer brought gnats that broke Shapur's siege of Nisibis, a hagiographic tradition, not attested event."
   not_for:
     - "a claim that the gnat miracle is attested history"
     - "a claim that the siege year is known, as 338, 346 and 350 are candidates"

@@ -1,0 +1,40 @@
+source_file: barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt
+
+assignments:
+  - row_id: barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872--chronicon-ecclesiasticum-volume-i-the-patriarchs-of-antioch
+    work: "Chronicon Ecclesiasticum, Volume I (the patriarchs of Antioch), Latin translation"
+    author: bar-hebraeus
+    locus: "whole volume (Sectio prima from file line 1682); fourth-century entries at file lines 7749-8600"
+    atlas_ids:
+      - syriac-renaissance
+    role: tradition
+    confidence: provisional
+    note: >
+      Bar Hebraeus (1226-1286) is the central author of the Syriac Renaissance; this is his own
+      history of the church of Antioch. Latin translation of the Syriac (Abbeloos and Lamy,
+      1872); the Syriac column was not recovered in the OCR, so this is a translation witness,
+      not an original-language one. Volume III is already assigned elsewhere.
+  - row_id: barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872--chronicon-ecclesiasticum-volume-i-the-patriarchs-of-antioch-2
+    work: "Chronicon Ecclesiasticum, Volume I (the patriarchs of Antioch), Latin translation"
+    author: bar-hebraeus
+    locus: "whole volume"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      The Syriac Orthodox maphrian's own account of his church's patriarchal line from the
+      apostles. Written long after that world's window (451-640); a later witness to how the
+      tradition remembers its own past, provisional for the world's builders to confirm.
+  - row_id: barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872--chronicon-ecclesiasticum-volume-i-the-patriarchs-of-antioch-3
+    work: "Chronicon Ecclesiasticum, Volume I (the patriarchs of Antioch), Latin translation"
+    author: bar-hebraeus
+    locus: "Meletius and the Antiochene schism (file lines 7749-7754); Nectarius (file line 7946); Theophilus's synod and John Chrysostom's condemnation and exile (file lines 8276-8600)"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: context
+    confidence: provisional
+    note: >
+      Thirteenth-century Syriac Orthodox memory of Meletius, Flavian and Chrysostom: a reception
+      witness for how the Antiochene fourth century was remembered, never evidence of it.
+      Context, not that world's own voice.

@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Church in Conversation: The First Centuries</title>
-<meta name="description" content="Twenty centuries of the Church's story, one era at a time. Christian traditions you can sit down with today, each with its own voice. Come and join us at the Table.">
-<meta property="og:title" content="Church in Conversation: The First Centuries">
-<meta property="og:description" content="Twenty centuries of the Church&#x27;s story, one era at a time. Christian traditions you can sit down with today, each with its own voice. Come and join us at the Table.">
+<title>Church in Conversation</title>
+<meta name="description" content="Talk with voices from two thousand years of Christian history, each built from its own tradition's writings.">
+<meta property="og:title" content="Church in Conversation">
+<meta property="og:description" content="Talk with voices from two thousand years of Christian history, each built from its own tradition&#x27;s writings.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://churchinconversation.com/">
 <meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
@@ -215,7 +215,7 @@ p{margin:0 0 1rem}
    orange color, restyled to italic sentence case) -- matches
    .atlas-showcase-copy's own Name/tagline/text order and colors. */
 .flow-card h2{font-size:1.2rem;margin:1.1rem 1.2rem 0}
-.flow-card .eyebrow{font-size:.95rem;font-style:italic;font-weight:400;text-transform:none;letter-spacing:normal;margin:.4rem 1.2rem 0}
+.flow-card .eyebrow{font-size:1.05rem;font-style:italic;font-weight:400;text-transform:none;letter-spacing:normal;margin:.4rem 1.2rem 0}
 .flow-card p{font-family:var(--sans);font-size:.9rem;color:var(--text);line-height:1.55;margin:.5rem 1.2rem 0}
 .flow-card .cta-link{margin:.7rem 1.2rem 1.2rem;margin-top:auto}
 .cta-link{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-weight:600;color:var(--action);border-bottom:1px solid currentColor;padding-bottom:.15rem;text-decoration:none}
@@ -227,23 +227,8 @@ p{margin:0 0 1rem}
   .hero-dek{font-size:.85rem}
 }
 
-/* ::after fade sits outside the scrolling .who-gallery entirely (a sibling
-   in paint order, pinned to .who's own bottom edge, which .who-gallery sits
-   flush against as its last child) rather than trying to stick an element
-   to the bottom of the scrolling box itself -- simpler and more reliable
-   than position:sticky here, and it doesn't scroll away with the content
-   since it's not part of the scrollable element. Marks the bottom edge
-   as scrollable so it doesn't read as the list's own hard stop. */
-.who{padding:.3rem 0 0;position:relative}
-.who::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4.5rem;background:linear-gradient(to bottom,transparent,var(--surface) 75%);pointer-events:none}
+.who{padding:.3rem 0 0}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .8rem;max-width:var(--measure);color:var(--action)}
-/* Fixed-height scroll box, not a card that just keeps growing as more
-   worlds and eras are added. min(vh,px) so it never eats the whole
-   viewport on a short screen -- same idiom as .atlas-showcase-media's
-   own height cap. overscroll-behavior-y:contain (already set) stops a
-   scroll that hits the top/bottom of this box from chaining into a
-   scroll of the whole page behind it. */
-.who-gallery{overflow-y:auto;overscroll-behavior-y:contain;padding-right:.3rem;margin:0 -.3rem 0 0}
 .era-group:not(:first-child){margin-top:1.8rem}
 .era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.3rem;margin:0}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
@@ -334,6 +319,7 @@ p{margin:0 0 1rem}
 .feature-btn[aria-current="page"]{border-color:var(--action)}
 @media (max-width:640px){.feature-bar{gap:.5rem}.feature-btn{font-size:.8rem;padding:.45rem .9rem}}
 </style>
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -351,6 +337,7 @@ p{margin:0 0 1rem}
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -382,7 +369,7 @@ p{margin:0 0 1rem}
 <main id="main" tabindex="-1">
 
   <section class="hero" aria-labelledby="hook">
-    <h1 id="hook"><span class="hero-lead">Explore hundreds of historical Christian traditions</span><span class="hero-dek">and have conversations with representative voices built from their own letters, sermons, and records.</span></h1>
+    <h1 id="hook"><span class="hero-lead">Explore hundreds of Christian traditions and stories across two thousand years.</span><span class="hero-dek">Then talk to representatives from a growing number of those traditions, each built from its own historical records.</span></h1>
     <p id="door-line" class="door-line" role="status" hidden></p>
   </section>
 
@@ -404,8 +391,8 @@ p{margin:0 0 1rem}
     </a>
     <div class="atlas-showcase-copy">
       <h2 id="atlas-showcase-title">Church Family Tree</h2>
-      <p class="tagline">An interactive map of Christian tradition, from the first house-churches to today</p>
-      <p>This map traces the movements, revivals, and divisions of Christian history as rivers that wind and widen across time. Click any name, river, or icon to read its documented story: who carried it, its legacy, and where the record comes from. A growing number of Christian traditions are fully built, each with its own representative voice you can have a conversation with.</p>
+      <p class="tagline">Hundreds of Traditions, One Family Tree</p>
+      <p>Click any tradition on the map to read its story and the sources behind it. Many traditions also open into documented stories from inside their own history. The book icons mark true stories that sit between the traditions and never became movements of their own. Some traditions are fully built, with a voice you can talk to. More will be added over time.</p>
       <a class="cta-link" href="atlas-v3.html">Open Church Family Tree →</a>
     </div>
   </section>
@@ -414,13 +401,12 @@ p{margin:0 0 1rem}
     <div class="feature-card conversation-card">
     <div class="conversation-intro">
       <h2>Conversation with One</h2>
-      <p class="tagline">An in-depth conversation with a Representative Voice</p>
-      <p>Choose a representative from one of the several Christian traditions. Each is built from their own letters, sermons, and records. Start the conversation and explore their beliefs, practices, and the challenges they faced.</p>
+      <p class="tagline">One Voice, One Conversation</p>
+      <p>Choose a representative of a Christian tradition below. Each one is built from that tradition's own writings, so you can ask what they believed and how they followed Jesus.</p>
     </div>
     <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
     <h2 id="who-title">Who would you like to talk with?</h2>
 
-    <div class="who-gallery" id="who-gallery">
     <div class="era-group" id="era-1">
     <h3 class="era-head">The Early Church Era<span class="dates">70–312 CE</span></h3>
     <ol class="chairs" id="era-1-chairs">
@@ -443,7 +429,7 @@ p{margin:0 0 1rem}
             <h4>Theon<span class="role">Catechetical Teacher</span></h4>
             <p class="trad">Alexandrian Christianity <span class="trad-academic">(Alexandrian Catechetical Tradition)</span></p>
             <p class="meta">c. 150–400 CE · Alexandria, Egypt</p>
-            <p class="tile">In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared life of reading Scripture. They believed its surface pointed toward a deeper meaning, one that opened onto the Logos himself. Persecution reached even its own teachers—Origen's own father was martyred while Origen was still a boy. Some called it one continuous school; others say it was simply a series of private teachers, grouped together only in hindsight.</p>
+            <p class="tile">In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared life of reading Scripture. They believed its surface pointed toward a deeper meaning, one that opened onto the Logos himself. Persecution reached even its teachers. Origen's father was martyred while Origen was still a boy. Some called it one continuous school; others say it was simply a series of private teachers, grouped together only in hindsight.</p>
           </a>
           <a class="launch" href="talk.html?worlds=alexandria-catechetical&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
         </div>
@@ -455,7 +441,7 @@ p{margin:0 0 1rem}
             <h4>Mar Yausep<span class="role">Teacher of the Covenant Order</span></h4>
             <p class="trad">Syriac Christianity <span class="trad-academic">(Syriac Christianity of Edessa and Nisibis)</span></p>
             <p class="meta">200–410 CE · Edessa &amp; Nisibis</p>
-            <p class="tile">In Edessa and Nisibis, from 200 to 410 CE, Christians taught their faith in hymn and read Scripture as a world of types answering type. At the community's ascetic core stood the covenant: men and women vowed to celibacy for life who served their own congregation instead of withdrawing to the desert. On the Persian side of the frontier, the king's own persecution took the bishop Simeon bar Sabbae and left the church's chief seat empty for twenty years. Whether authority rested more in that vow or in a bishop's office was never settled in their own record.</p>
+            <p class="tile">In Edessa and Nisibis, from 200 to 410 CE, Christians taught their faith in hymn and read Scripture as a world of types answering type. At the community's ascetic core stood the covenant. Its men and women vowed to celibacy for life and served their own congregation instead of withdrawing to the desert. On the Persian side of the frontier, the king's persecution took the bishop Simeon bar Sabbae and left the church's chief seat empty for twenty years. Whether authority rested more in that vow or in a bishop's office was never settled in their own record.</p>
           </a>
           <a class="launch" href="talk.html?worlds=syriac-edessa-nisibis&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
         </div>
@@ -473,7 +459,7 @@ p{margin:0 0 1rem}
             <h4>Fidelis<span class="role">Bishop of the Unbroken Line</span></h4>
             <p class="trad">The Church of the Martyrs <span class="trad-academic">(Donatism)</span></p>
             <p class="meta">c. 311–439 CE · Carthage &amp; Numidia, Roman North Africa</p>
-            <p class="tile">In 311/312, Caecilian was consecrated bishop of Carthage by a man accused of surrendering his copy of the scriptures when ordered to — and a rival was consecrated beside him because of it, not in his place. From that day the same see held two bishops at once, two parallel hierarchies contesting town after town across Roman North Africa, each holding its own basilicas and its own unbroken line of ordination. This is the rigorist alternative communion that grew from that refusal: not a doctrinal heresy — its confession is standard North African Latin Trinitarian and Christological orthodoxy — but a communion built on one unyielding conviction, that a tainted hand cannot give what it claims to give. It closes in 439, when a Vandal army took Carthage and removed the Roman state this whole refusal was defined against.</p>
+            <p class="tile">In 311/312, Caecilian was consecrated bishop of Carthage by a man accused of surrendering his copy of the scriptures when ordered to. Because of it, a rival was consecrated beside him, not in his place. From that day the same see held two bishops at once. Two parallel hierarchies contested town after town across Roman North Africa, each holding its own basilicas and its own unbroken line of ordination. This rigorist, alternative communion grew from that refusal. Its confession is standard North African Latin Trinitarian and Christological orthodoxy, so it is no doctrinal heresy. What set it apart was one unyielding conviction, that a tainted hand cannot give what it claims to give. It closes in 439, when a Vandal army took Carthage and removed the Roman state this whole refusal was defined against.</p>
           </a>
           <a class="launch" href="talk.html?worlds=donatism&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
         </div>
@@ -485,7 +471,7 @@ p{margin:0 0 1rem}
             <h4>Marius<span class="role">Deacon of the Letters</span></h4>
             <p class="trad">Church and Empire <span class="trad-academic">(Imperial and Juridical Christianity)</span></p>
             <p class="meta">c. 312-451 · Rome, Constantinople, Milan</p>
-            <p class="tile">In Rome, Constantinople, and Milan, from Constantine's toleration of the church in 312 to the Council of Chalcedon in 451, Christian bishops became office-holders beside a throne rather than outlaws beneath a sword — hearing lawsuits, administering imperial funds, summoned to councils at the emperor's own expense. Three claims to final authority over the church contested that whole century and a half — Rome's claim from Peter, Constantinople's claim from nearness to the throne, and a bishop's claim to stand in moral judgment over any ruler — and the window closed without settling which one was right. This world's own worst hours were not suffered but caused: a bloody contest over the bishopric of Rome, and a massacre an emperor ordered and then, at his own bishop's insistence, did public penance for.</p>
+            <p class="tile">In Rome, Constantinople, and Milan, from Constantine's toleration of the church in 312 to the Council of Chalcedon in 451, Christian bishops became office-holders beside a throne rather than outlaws beneath a sword. They heard lawsuits and administered imperial funds. The emperor summoned them to councils at his own expense. Three claims to final authority over the church contested that whole century and a half. Rome claimed it from Peter, and Constantinople from its nearness to the throne. A bishop could also claim to stand in moral judgment over any ruler. The period closed without settling which claim was right. Its worst hours came from harm the church itself caused. One was a bloody contest over the bishopric of Rome. Another was a massacre an emperor ordered, then did public penance for at his own bishop's insistence.</p>
           </a>
           <a class="launch" href="talk.html?worlds=imperial-juridical-christianity&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
         </div>
@@ -497,7 +483,7 @@ p{margin:0 0 1rem}
             <h4>Papnoute<span class="role">Abba (Elder)</span></h4>
             <p class="trad">Desert Fathers and Mothers <span class="trad-academic">(Desert Monasticism)</span></p>
             <p class="meta">c. 320–430 CE · Nile Valley &amp; Desert, Egypt</p>
-            <p class="tile">In the Nile Valley and the desert of Egypt, Christians left their villages between about 320 and 430 CE. They waged a lifelong combat against the thoughts that trouble a person from within. Authority came two ways at once, and this was never resolved. One way was earned through a lifetime of discipline under one elder, as with Antony. The other was conferred by a written rule and an appointed office, as with Pachomius. Withdrawal cost everything ordinary life offered: land, family, the safety of a settled place. All of it was surrendered by stages, and never reclaimed.</p>
+            <p class="tile">In the Nile Valley and the desert of Egypt, Christians left their villages between about 320 and 430 CE. They waged a lifelong combat against the thoughts that trouble a person from within. Authority came two ways at once, and this was never resolved. One way was earned through a lifetime of discipline under one elder, as with Antony. The other was conferred by a written rule and an appointed office, as with Pachomius. Withdrawal cost everything ordinary life offered, down to land and family. All of it, even the safety of a settled place, was surrendered by stages and never reclaimed.</p>
           </a>
           <a class="launch" href="talk.html?worlds=desert-monasticism&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
         </div>
@@ -509,7 +495,7 @@ p{margin:0 0 1rem}
             <h4>Chilo<span class="role">Elder of the Brotherhoods</span></h4>
             <p class="trad">The Cappadocian Churches <span class="trad-academic">(Cappadocian Pastoral-Monastic and Trinitarian Tradition)</span></p>
             <p class="meta">c. 325-394 CE · Cappadocia / Anatolia</p>
-            <p class="tile">The Nicene-confessing churches of Cappadocia and Pontus, from about 325 to 394 CE, were carried by one family and one friendship: Basil of Caesarea, his sister Macrina, his brother Gregory of Nyssa, and Basil's friend Gregory of Nazianzus. A radical ascetic ferment had already dissolved households and turned slaves against masters before Basil built something else instead: brotherhoods bound by rule, obedience, and an open guest-door. Julian's brief pagan revival cost them a martyr at Caesarea in 362; the Homoian church that followed under Valens drove Gregory of Nyssa into exile, before this Nicene minority inherited the empire's favor in 381.</p>
+            <p class="tile">The Nicene-confessing churches of Cappadocia and Pontus, from about 325 to 394 CE, were carried by one family and one friendship: Basil of Caesarea, his sister Macrina, his brother Gregory of Nyssa, and Basil's friend Gregory of Nazianzus. A radical ascetic ferment had already dissolved households and turned slaves against masters. Basil built something else instead, brotherhoods bound by rule and obedience, with an open guest-door. Julian's brief pagan revival cost them a martyr at Caesarea in 362. Under Valens, the Homoian church that followed drove Gregory of Nyssa into exile. Then, in 381, this Nicene minority inherited the empire's favor.</p>
           </a>
           <a class="launch" href="talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
         </div>
@@ -521,7 +507,7 @@ p{margin:0 0 1rem}
             <h4>Renatus<span class="role">Bishop</span></h4>
             <p class="trad">The Monk-Bishops of Gaul <span class="trad-academic">(Gallic Monastic-Ascetic Christianity)</span></p>
             <p class="meta">c. 360–450 CE · Loire Valley, Lérins &amp; Marseilles, Gaul</p>
-            <p class="tile">This is the church of the ascetic bishop and the received wisdom of Egypt, carried west. In the Loire valley, a soldier named Martin of Tours left the army. He gathered followers in the woods and became a bishop. He never stopped living like a monk. Two generations later, monks built communities on an island off the Mediterranean coast and in the city of Marseilles. These monks had lived among the fathers of Egypt. Their communities trained abbots and bishops for the churches of southern Gaul. One of them, John Cassian, adapted the customs of the Egyptian desert for a colder climate and a different church. Another, Vincent of Lérins, wrote a rule for telling the true faith from every novelty. Through both households ran one argument, never fully settled: how much of a monk's progress is God's own gift, and how much is his own effort.</p>
+            <p class="tile">It was a church of ascetic bishops, carrying the received wisdom of Egypt west. In the Loire valley, a soldier named Martin of Tours left the army. He gathered followers in the woods and became a bishop. He never stopped living like a monk. Two generations later, monks built communities on an island off the Mediterranean coast and in the city of Marseilles. These monks had lived among the fathers of Egypt. Their communities trained abbots and bishops for the churches of southern Gaul. One of them, John Cassian, adapted the customs of the Egyptian desert for a colder climate and a different church. Another, Vincent of Lérins, wrote a rule for telling the true faith from every novelty. One argument ran through both households and was never fully settled. How much of a monk's progress is God's own gift, and how much is his own effort?</p>
           </a>
           <a class="launch" href="talk.html?worlds=gallic-monastic-ascetic-christianity&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
         </div>
@@ -533,7 +519,7 @@ p{margin:0 0 1rem}
             <h4>Albina<span class="role">Widow of the Household</span></h4>
             <p class="trad">The Bethlehem Circle <span class="trad-academic">(Hieronymian Ascetic-Literary Christianity)</span></p>
             <p class="meta">c. 382–420 CE · Rome &amp; Bethlehem</p>
-            <p class="tile">In Rome and then Bethlehem, from 382 to 420 CE, a circle of wealthy women and one scholar-priest practiced renunciation and scholarship as a single discipline — fortunes converted into text, hospitality, and care for the sick, a Latin Bible built word by word against the Hebrew it was first written in. The women funded it, founded it, and by Jerome's own account pressed him with scriptural questions for decades; but Jerome wrote nearly every surviving page himself, and how much independent authority his account of them actually reflects is a question this world's own record cannot settle. The cost was concrete: in 384 a daughter of the household died within four months of taking up Jerome's own fasting regime, and Rome's outrage over it helped drive the whole circle out of the city.</p>
+            <p class="tile">In Rome and then Bethlehem, from 382 to 420 CE, a circle of wealthy women and one scholar-priest practiced renunciation and scholarship as a single discipline. Their fortunes went into texts and hospitality, and into care for the sick. A Latin Bible was built word by word against the Hebrew it was first written in. The women funded it and founded it, and by Jerome's own account they pressed him with scriptural questions for decades. But Jerome wrote nearly every surviving page himself. How much independent authority his account of them really reflects is a question the surviving record cannot settle. It also had a cost. In 384 a daughter of the household died within four months of taking up Jerome's fasting regime. Rome's outrage over it helped drive the whole circle out of the city.</p>
           </a>
           <a class="launch" href="talk.html?worlds=hieronymian-ascetic-literary&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
         </div>
@@ -551,7 +537,7 @@ p{margin:0 0 1rem}
             <h4>Nikolaus<span class="role">Sexton-Schoolmaster</span></h4>
             <p class="trad">The Catechized Households of Wittenberg <span class="trad-academic">(Lutheran Wittenberg &amp; Its Congregations)</span></p>
             <p class="meta">1517–1580 · Wittenberg, Electoral Saxony</p>
-            <p class="tile">In 1517, Martin Luther sent theses against the sale of indulgences to his archbishop. He was an Augustinian friar and professor at the young university of Wittenberg. His theses opened a movement that challenged the old order in two ways. It set Scripture's own authority against an intervening hierarchy. And it held that a person stands before God by a gift received through faith, not earned by works. Princes and city councils carried the reform into their own territories, not bishops. Wittenberg's own theology faculty advised them, not a separate church government. The reform's most complete instrument was the household catechism. It had three parts, recited at rising, at table, and at night. A father or a schoolmaster examined each household every week. The commandments had terrified a conscience; a promise spoken from outside it made that conscience sure. German hymns were sung inside a Mass that was kept, not abolished. The story runs from the Ninety-Five Theses to a confession signed before the emperor at Augsburg in 1530. It closes with a fuller confessional book gathered by 1580. By then the movement's own founder had been dead some three decades.</p>
+            <p class="tile">In 1517, Martin Luther sent theses against the sale of indulgences to his archbishop. He was an Augustinian friar who taught theology at the university of Wittenberg. His theses opened a movement that challenged the old order in two ways. It set Scripture's own authority against an intervening hierarchy. And it held that a person stands before God by a gift received through faith, not earned by works. Princes and city councils, rather than bishops, carried the reform into their own territories. Wittenberg's theology faculty advised them in place of a separate church government. The reform's most complete instrument was the household catechism. It had three parts, recited at rising, at table, and at night. A father or a schoolmaster examined each household every week. The commandments had terrified a conscience; a promise spoken from outside it made that conscience sure. The Mass was kept, and German hymns were sung inside it. The story runs from the Ninety-Five Theses to a confession signed before the emperor at Augsburg in 1530. It closes with a fuller confessional book gathered by 1580. By then the movement's founder had been dead some three decades.</p>
           </a>
           <a class="launch" href="talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
         </div>
@@ -563,13 +549,12 @@ p{margin:0 0 1rem}
             <h4>Theophilus<span class="role">Pastor</span></h4>
             <p class="trad">The Reformed Cities <span class="trad-academic">(Zurich &amp; Geneva)</span></p>
             <p class="meta">1519–1650 · Zurich &amp; Geneva, Swiss Confederacy</p>
-            <p class="tile">On 1 January 1519, Huldrych Zwingli began preaching straight through the Gospel of Matthew at Zurich's Grossmünster rather than following the fixed lectionary — the first act of a reform that tested every inherited practice against Scripture and kept only what the text would warrant. Geneva's own reform opened separately and was joined in 1536 by John Calvin, whose ministry built a Consistory of pastors and lay elders to hold the whole city's ordinary conduct to account. Zwingli and Calvin never met; what bridges the two cities is the Consensus Tigurinus (1549), two reforms arriving independently at language neither could disown. This pattern continues unbroken into the Scottish Kirk, the Huguenots, the Dutch Reformed, and English Puritanism.</p>
+            <p class="tile">On 1 January 1519, Huldrych Zwingli began preaching straight through the Gospel of Matthew at Zurich's Grossmünster rather than following the fixed lectionary. It was the first act of a reform that tested every inherited practice against Scripture and kept only what the text would warrant. Geneva's reform opened separately and was joined in 1536 by John Calvin. His ministry built a Consistory of pastors and lay elders to hold the whole city's ordinary conduct to account. Zwingli and Calvin never met. The two cities are bridged by the Consensus Tigurinus (1549), where two reforms arrived independently at language neither could disown. The pattern continues unbroken into the Scottish Kirk, the Huguenots, the Dutch Reformed, and English Puritanism.</p>
           </a>
           <a class="launch" href="talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
         </div>
       </li>
     </ol>
-    </div>
     </div>
   </section>
     </div>
@@ -578,16 +563,16 @@ p{margin:0 0 1rem}
     <a class="flow-card" href="table.html">
       <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="lazy" decoding="async">
       <h2>Build a Table</h2>
-      <p class="eyebrow">Three traditions, one conversation</p>
-      <p>Join a conversation with up to three Christian traditions from the two-thousand-year story of the church. Ask questions, make comments, and listen to the representatives discuss their views. Watch them draw out where they agree — and where they don't.</p>
+      <p class="eyebrow">Three Voices, One Conversation</p>
+      <p>Seat up to three traditions from across the church's history. Put a question to the table and hear each one answer and discuss. You will hear where they agree, and where they part ways.</p>
       <span class="cta-link"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Build the table →</span>
     </a>
 
     <section class="support" aria-labelledby="support-title">
       <div class="support-card">
         <h2 id="support-title">Keep the Door Open</h2>
-        <p class="support-desc">We believe that encountering the authentic story of the Church broadens how we know Jesus. Help us open the door wide so others can experience this two-thousand-year story of Christ working through His people.</p>
-        <p class="support-desc">Every contribution directly offsets our operational costs and allows us to welcome more people to the table.</p>
+        <p class="support-desc">We believe the Church's real story helps people know Jesus more fully. Your gift keeps the door open so others can hear of His faithfulness to His people, and their journey of following Him.</p>
+        <p class="support-desc">Every gift helps pay the cost of running these conversations, so more people can sit down at the table.</p>
         <p class="support-links">
           <a class="support-btn" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Give once</a>
           <a class="support-btn" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Give monthly</a>
@@ -605,8 +590,8 @@ p{margin:0 0 1rem}
     <h2 id="story-title">For two thousand years, people have followed Jesus across vastly different worlds and cultures.</h2>
     <div class="narration"><audio controls preload="none" src="audio/site/unfolding-story.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div>
     <p>They gathered in modest homes and workshops, navigating the suspicion of their neighbors and the pressure of hostile rulers. They followed Him into mountain monasteries and remote deserts, along ancient trade routes across Asia, and into the cathedrals and university halls of Europe. They stood at the stake in Reformation squares, sang through forced labor in colonial fields, knelt in Latin American village chapels, and gathered inside modern churches across the world.</p>
-    <p>Like the ancient story of Israel, the story of the Church calls for honesty. It is not a tale of heroes who marched in lockstep and got everything right. It is a historically grounded record of real people: wrestling with political power, arguing over hard questions, fracturing, and failing often—proving at every turn that humanity cannot fix itself. Yet God never worked from a safe distance, nor did He wait for people to become perfect before meeting them. He stepped directly into their everyday lives, languages, and cultures, guiding them by His Spirit, shaping their human gifts for His purposes, and using their human hands to heal the fractured and restore His creation.</p>
-    <p>Through all those scattered eras and divergent paths, each community discovered distinct perspectives of who Jesus is and how to follow Him. You are invited to explore these stories. Trace forgotten routes across a living atlas, uncover the stories that shaped the Church, and pull up a chair with representative voices from across these traditions. In conversation with them, you can hear where they stand in deep agreement, listen as they wrestle with where they see things differently, and discover where your own story connects with theirs.</p>
+    <p>Like the ancient story of Israel, the story of the Church calls for honesty. Its people did not march in lockstep, and they did not get everything right. They wrestled with political power and argued over hard questions. They fractured, and they failed often. At every turn, their story proves that humanity cannot fix itself. Yet God never worked from a safe distance, nor did He wait for people to become perfect before meeting them. He stepped directly into their everyday lives, in their own languages and cultures. By His Spirit He guided them and shaped their human gifts for His purposes. He used their human hands to heal the fractured and restore His creation.</p>
+    <p>Through all those scattered eras and divergent paths, each community discovered its own view of who Jesus is and how to follow Him. You are invited to explore these stories. Trace forgotten routes across a living atlas and uncover the stories that shaped the Church. Then pull up a chair with representative voices from across these traditions. You can hear where they stand in deep agreement and listen as they wrestle with where they see things differently. Along the way, you may discover where your own story connects with theirs.</p>
   </div>
   <p class="ai-note">These are AI voices built only from the surviving writings of each tradition. They are not real people, and they do not speak for any church today.</p>
 </main>
@@ -614,10 +599,10 @@ p{margin:0 0 1rem}
 <footer class="site-footer">
   <p class="photo-credits">Historical images, top of page, left to right: <a href="https://commons.wikimedia.org/wiki/File:Catacombe_di_Priscilla,_Rome_-_Fresco_of_a_Christian_Agape_feast_-_Fractio_panis_-_Greek_chapel_-_2nd_-_4th_century.jpg">Fresco, Catacombs of Priscilla</a>, public domain · <a href="https://commons.wikimedia.org/wiki/File:Etchmiadzin_cathedral.jpg">Etchmiadzin Cathedral</a> (CC BY 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Jerusalem_Holy_Sepulchre_BW_23.JPG">Church of the Holy Sepulchre</a>, photo by Berthold Werner (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Monastery_of_Saint_Macarius_the_Great,_Egypt-15.JPG">Monastery of Saint Macarius</a>, photo by Faris El-Gwely (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Rock-Hewn_Churches,_Lalibela-107572.jpg">Rock-Hewn Churches, Lalibela</a>, photo by Francesco Bandarin/UNESCO (CC BY-SA 3.0 IGO) · <a href="https://archive.org/details/mma_large_figures_on_the_north_porch_chartres_cathedral_266284">Chartres Cathedral</a>, 1852, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/mma_illuminated_gospel_317618">Illuminated Gospel</a>, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St_Francis_Church_Fort_Kochi_DSC_1048.JPG">St. Francis Church, Fort Kochi</a>, photo by Ranjith Siji (CC BY-SA 4.0) · <a href="https://archive.org/details/mma_martin_luther_with_doctoral_cap_430193">Martin Luther</a>, engraving, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St._Basil%27s_Cathedral,_Moscow.jpg">St. Basil's Cathedral, Moscow</a>, photo by Zeynel Cebeci (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg">St. Peter's Basilica</a>, photo by Alvesgaspar (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:AFM_on_azusa_street.jpg">The Apostolic Faith Mission, Azusa Street</a>, 1907, photographer unknown, public domain. Photo in the contribution card: <a href="https://commons.wikimedia.org/wiki/File:The_Holy_Doors,_St._Peter%27s_Basilica,_Rome_(45510156425).jpg">The Holy Door, St. Peter's Basilica</a>, photo by Deb Nystrom (CC BY 2.0).</p>
   <div class="row">
-    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <span>&copy; 2026 Church in Conversation, part of Faithways Studio, Inc. Creating safe spaces to explore faith and the story of Jesus.</span>
     <nav aria-label="Footer">
       <a href="about.html">About</a>
-      <a href="pilot-feedback.html">Feedback</a>
+      <a href="corrections.html">Corrections</a>
       <a href="privacy.html">Privacy</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
@@ -627,22 +612,6 @@ p{margin:0 0 1rem}
 <script>
 (function(){
 "use strict";
-var gallery = document.getElementById('who-gallery');
-var eraGroups = Array.prototype.slice.call(document.querySelectorAll('.era-group'));
-function sizeGallery(){
-  if (eraGroups.length < 3) { gallery.style.maxHeight = 'none'; return; }
-  var second = eraGroups[1];
-  gallery.style.maxHeight = (second.offsetTop + second.offsetHeight - eraGroups[0].offsetTop) + 'px';
-}
-if (gallery && eraGroups.length) {
-  sizeGallery();
-  var resizeTimer = null;
-  window.addEventListener('resize', function(){
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(sizeGallery, 150);
-  });
-}
-
 var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // Plays once (no loop); resting on era 10's own frame afterward read as the
@@ -714,5 +683,6 @@ if (menu && menuToggle) {
 <script src="assets/narration-player.js" defer></script>
 <script src="assets/go-deeper-config.js"></script>
 <script src="assets/door-line.js"></script>
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

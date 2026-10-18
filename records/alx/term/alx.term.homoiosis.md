@@ -54,8 +54,7 @@ senses:
     Athanasius traces the same image''s damage and restoration from the Incarnation side (De Inc. 3, the
     "supra-natural gift of being in God''s Image"; 6-7, the image "being effaced" and humanity "restored
     to the Grace of God''s Image").'
-  personal: Two people can perform the same generous act - one who decided to, and one whose desire has
-    been genuinely reordered by years of formation. Only the second is the likeness; the first is imitation.
+  personal: "Likeness to God was not good behavior copied from others. It was what a person became when years of formation had reordered desire. Imitation alone fell short of it."
   translational: '''Isn''t "becoming like God" just about copying good behavior?'' - the moral qualities
     are real, but they are fruit, not the program itself; the likeness is what the self looks like once
     formation has actually changed what the self is.'

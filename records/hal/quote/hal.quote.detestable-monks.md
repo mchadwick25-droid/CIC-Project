@@ -23,10 +23,10 @@ text: 'Is not this what we have often said. She weeps for her daughter, killed w
   must we refrain from driving these detestable monks out of Rome? Why do we not stone
   them or hurl them into the Tiber?'
 modern_rendering: >-
-  Isn't this what we have said all along? She weeps for her daughter, killed
-  by fasting. She wanted her to marry again, so that she might have
-  grandchildren. How long must we refrain from driving these detestable
-  monks out of Rome? Why don't we stone them, or throw them into the Tiber?
+  Isn't this what we have often said? She weeps for her daughter, killed by fasting. She
+  wanted her to marry again, so that she might have grandchildren. How long must we
+  refrain from driving these detestable monks out of Rome? Why don't we stone them, or
+  throw them into the Tiber?
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote; "monks" reads cleanly to a modern ear (see hal.term.monachus, one of the few terms in this corpus with low translation distortion).'

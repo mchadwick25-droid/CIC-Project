@@ -19,6 +19,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -39,6 +40,7 @@
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -67,7 +69,7 @@
     <p><em>We are committed to representing each Christian movement as completely as possible — its testimony, lived reality, beauty and humanity.</em></p>
     <div class="callout">
       <p class="label">Where we are today</p>
-      <p>That's the full scope of what this project is for. What's actually built and live right now is its first chapter — <strong>Church in Conversation: The First Centuries</strong> — traditions from the Church's own first four hundred years. Later centuries are planned, each its own careful, review-gated build, not a shortcut on top of the first.</p>
+      <p>That's the full scope of what this project is for. What's built and live right now covers the early Church and the Reformation. More eras are planned, and each one is built with the same care and review.</p>
     </div>
   </section>
 
@@ -127,10 +129,10 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <span>&copy; 2026 Church in Conversation, part of Faithways Studio, Inc. Creating safe spaces to explore faith and the story of Jesus.</span>
     <nav>
       <a href="about.html">About</a>
-      <a href="pilot-feedback.html">Feedback</a>
+      <a href="corrections.html">Corrections</a>
       <a href="privacy.html">Privacy</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
@@ -165,5 +167,6 @@ if (menu && menuToggle) {
 })();
 </script>
 <script src="assets/narration-player.js" defer></script>
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

@@ -44,8 +44,8 @@ relations:
   target: don.term.martyr-martyrdom
 - type: associated-with
   target: don.term.deo-laudes
-plain_meaning: This is what we call ourselves, and not for effect. We are not a group defined by what we left.
-  We are the one communion that has actually suffered, and gone on suffering, for the truth.
+plain_meaning: This is what we called ourselves, and not for effect. We did not see ourselves as a group
+  defined by what we left. We believed we were the communion that had gone on suffering for the truth.
 world_word: the Church of the Martyrs
 false_friend:
 - a boast about spiritual superiority, rather than a claim about what actually happened
@@ -59,8 +59,8 @@ senses:
   evidential: The underlying self-understanding is about as well attested as anything in this world, because it
     survives in texts this communion wrote itself. The phrase used to name it is a modern scholarly summary, and
     this record does not present it as a quotation.
-  personal: 'Held against the rival''s position this is not a boast but an argument: one side has the emperor''s
-    favour, the other has its dead. Doc_05 SS2 places this at the centre of what belonging felt like.'
+  personal: Set against the rival's case, this was an argument and not a boast. One side had the emperor's
+    favour. The other had its dead.
   translational: '''Every church honours its martyrs'' -- but few define themselves by the claim that the other
     church''s favour with the ruling power is exactly what disqualifies it. That inversion is what this name is
     doing.'

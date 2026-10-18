@@ -100,6 +100,21 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
+- row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-eusebius-translated-and-continued-by-jerome-latin
+  work: 'Chronici canones: Eusebius''s Chronicle translated and continued to 378 by Jerome
+    (Fotheringham 1923), Latin'
+  author: jerome
+  locus: whole file; the Ariminum and Seleucia entry at file line 45810; 'Gallia per Hilarium
+    Ariminensis perfidiae dolos damnat' at 45885
+  role: tradition
+  confidence: provisional
+  note: 'Jerome''s own Latin Chronicle, written 380-381 in Constantinople: the Hieronymian
+    world''s own voice, in the original. Primary original-language text; cleanly recovered,
+    ready to quote once verified against the scan. The English of the fourth- century entries
+    is not held in any vendored file.
+
+    '
+  source_file: jerome_eusebii-chronici-canones-lat_fotheringham1923.txt
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-s-apology-for-himself-against-the-books-of-rufinus
   work: Jerome's Apology for Himself Against the Books of Rufinus
   author: jerome

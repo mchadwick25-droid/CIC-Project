@@ -226,6 +226,13 @@ defects:
     mutation: {op: set_field, path: text, value: "We did not claim to have seen him ourselves, and the Council of Chalcedon settled the rest."}
     expected_failure: "the fixture's window closes in 100; a voiced witness naming the Council of Chalcedon (451) must fail the horizon gate"
 
+  - id: question-ending-bare-why
+    gate: question-ending
+    layer: M1
+    target_record: records/fix/honest_limit/fix.limit.trinity-language.md
+    mutation: {op: set_field, path: statement, value: "You ask about a word our sources never use. We cannot tell you why."}
+    expected_failure: "an honest limit that ends on a bare 'why' leaves the participant to guess the question - the question-ending gate must fail it"
+
   - id: id-convention-cell-code-in-slug
     gate: id-convention
     layer: M1
@@ -342,6 +349,22 @@ defects:
   # increment 3 builds engine/m9/confinement.py's own battery, minus
   # locus-within-work (held for a later increment, once CM-4's locus_ids
   # exists on real data - no seeded defect for it here).
+
+  - id: m9-source-citation-missing
+    gate: source-citation
+    layer: M9
+    target_kind: record
+    target_record: records/fix/source/fix.source.witness-scroll.md
+    mutation: {op: delete_field, path: citation}
+    expected_failure: "fix.source.witness-scroll: no citation, so its source line shows author, work and rights_status as written"
+
+  - id: m9-source-citation-build-text
+    gate: source-citation
+    layer: M9
+    target_kind: record
+    target_record: records/fix/source/fix.source.secondary-summary.md
+    mutation: {op: set_field, path: citation, value: "Synthetic Summarizer B, A Later Summary (fixture); vendored as cic/texts/fixture-synthetic_later-summary.txt"}
+    expected_failure: "fix.source.secondary-summary: citation carries build text ('vendored')"
 
   - id: m9-source-kind-missing-kind
     gate: source-kind

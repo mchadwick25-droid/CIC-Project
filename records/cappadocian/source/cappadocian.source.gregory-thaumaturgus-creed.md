@@ -19,6 +19,7 @@ work: The creed attributed to Gregory Thaumaturgus, transmitted only via Gregory
   Thaumaturgus, a century later
 edition: Transmitted solely inside cappadocian.source.gregory-nyssa-life-of-gregory-thaumaturgus (NPNF205,
   row 51)
+citation: 'Creed attributed to Gregory Thaumaturgus (authenticity contested), transmitted in Gregory of Nyssa, Life of Gregory Thaumaturgus, Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, Ascetic, and Moral Treatises, Letters), ed. Schaff'
 kind: unvendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: contested (authenticity Contested, per Doc_01 SS1)

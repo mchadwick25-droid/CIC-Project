@@ -16,6 +16,7 @@ sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
 work: "De Decretis (Defence of the Nicene Definition), c. 352 CE, written after Nicaea"
 edition: "NPNF series 2 vol. 4 (1892, ed. Robertson; per-work translator to be re-read from the division's own front matter at first quote, given this volume's documented translator splits), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+citation: Athanasius of Alexandria, De Decretis (Defence of the Nicene Definition), ed. Robertson, Nicene and Post-Nicene Fathers ser. 2 vol. 4 (1892)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

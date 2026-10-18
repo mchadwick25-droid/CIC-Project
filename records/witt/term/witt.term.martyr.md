@@ -16,7 +16,8 @@ confidence:
     evidentiary base of any entry in our whole lexicon, disclosed plainly.
 sources:
 - source_id: witt.source.luther-ein-neues-lied-wir-heben
-  locus: Hymn V -- 'two young monks... burnt at Brussels by the Sophists of Louvain'
+  locus: >-
+    Hymn V -- 'A Song of the Two Christian Martyrs burnt at Brussels by the Sophists of Louvain'
   license: public-domain
 retrieval:
   tier: 3

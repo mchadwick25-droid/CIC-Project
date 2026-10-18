@@ -19,15 +19,17 @@ sources:
   locus: To the Knights of the Teutonic Order -- 'give up your unchaste chastity and to marry'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism -- 'where nature has its course... it is not possible to remain chaste without
+  locus: >-
+    the Large Catechism -- 'where nature has its course... it is not possible to remain chaste without
     marriage'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'it is not unknown to what extent perpetual chastity is in the power
-    of man'
+  locus: >-
+    the Augsburg Confession -- 'it is not unknown to what extent perpetual chastity is in the power of
+    man'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, cited among this entry's Registry rows (Doc_06 SS5 entry 8.2)
+  locus: the Apology
   license: public-domain
 retrieval:
   tier: 2

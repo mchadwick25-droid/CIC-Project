@@ -1,0 +1,34 @@
+source_file: nestorius_bazaar-of-heracleides_driver-hodgson1925.txt
+assignments:
+- row_id: nestorius_bazaar-of-heracleides_driver-hodgson1925--bazaar-of-heracleides-antiochene
+  work: The Bazaar (Book) of Heracleides, English (Driver and Hodgson, 1925)
+  author: nestorius
+  locus: whole file; the editors' chronology of Ephesus 431 from file line 264
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: tradition
+  confidence: provisional
+  note: Shared-Events Era 2 batch (Ephesus 431). Nestorius's own apology written in exile in the 440s,
+    surviving only in Syriac; the Antiochene school's last great voice speaking for himself. English translation
+    of the Syriac; a primary dissenting voice at one remove. Nestorius's placement in this Antiochene
+    entry rests on his training and theology, not on the entry's own text, so the role is provisional.
+- row_id: nestorius_bazaar-of-heracleides_driver-hodgson1925--bazaar-of-heracleides-church-of-the-east
+  work: The Bazaar (Book) of Heracleides, English (Driver and Hodgson, 1925)
+  author: nestorius
+  locus: whole file
+  atlas_ids:
+  - the-church-of-the-east-under-persia
+  role: transmission
+  confidence: provisional
+  note: 'Custody, not voice: the Greek is lost and the work survives only because the Church of the East
+    translated it into Syriac and kept it. The voice is assigned to the Antiochene entry above.'
+- row_id: nestorius_bazaar-of-heracleides_driver-hodgson1925--bazaar-of-heracleides-cyrilline
+  work: The Bazaar (Book) of Heracleides, English (Driver and Hodgson, 1925)
+  author: nestorius
+  locus: whole file
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: context
+  confidence: provisional
+  note: 'The contemporary opponent''s own account of Cyril and of Ephesus 431: the view from outside the
+    Cyrilline tradition.'

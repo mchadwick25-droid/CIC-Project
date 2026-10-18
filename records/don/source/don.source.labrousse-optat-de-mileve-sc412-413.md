@@ -21,6 +21,7 @@ author: Mireille Labrousse (editor and translator); Optatus of Milevis (author)
 work: 'Optat de Mileve: Traite contre les donatistes, Sources Chretiennes 412-413'
 edition: 'Paris: Cerf, 1995-1996 -- in copyright, recorded not requested (Source_Acquisition_Manifest.md
   SS2). Not vendored.'
+citation: 'Optatus of Milevis, Optat de Mileve: Traite contre les donatistes, ed. and trans. Mireille Labrousse, Sources Chretiennes 412-413 (Paris: Cerf, 1995-1996)'
 kind: unvendored
 rights_status: "in-copyright; confirmed unavailable in the public domain. Not vendored and not a vendoring candidate - committing it would be redistribution. Consultable through a library without being vendored"
 attribution_status: attributed

@@ -29,6 +29,7 @@ from engine.m8.usage import SYSTEM_SESSION_ID
 logger = logging.getLogger("cic.deeper")
 
 WINDOW_DAYS = 7
+DAY_WINDOW = timedelta(hours=24)
 REFRESH_SECONDS = 60.0
 STATE_KEY = "door"
 
@@ -47,17 +48,26 @@ DEAREST = PriceTable(
 )
 
 
-def week_spend_usd(usage_store: UsageLogStore, now: datetime) -> float:
-    """List-price cost of every participant call in the last seven days."""
-    since = (now - timedelta(days=WINDOW_DAYS)).isoformat()
+def _list_price_usd(records) -> float:
     total = 0.0
-    for record in usage_store.read_since(since):
+    for record in records:
         if record.session_id == SYSTEM_SESSION_ID:
             continue
         table = price_tables.price_for_call(record.call_kind, record.model_id) or DEAREST
-        estimate = estimate_cost(record.usage, table)
-        total += estimate.dollars or 0.0
+        total += estimate_cost(record.usage, table).dollars or 0.0
     return total
+
+
+def spend_usd(usage_store: UsageLogStore, now: datetime) -> tuple[float, float]:
+    """List-price cost of every participant call in the last seven days, and in the last 24 hours."""
+    week = _list_price_usd(usage_store.read_since((now - timedelta(days=WINDOW_DAYS)).isoformat()))
+    day = _list_price_usd(usage_store.read_since((now - DAY_WINDOW).isoformat()))
+    return week, day
+
+
+def week_spend_usd(usage_store: UsageLogStore, now: datetime) -> float:
+    """List-price cost of every participant call in the last seven days."""
+    return spend_usd(usage_store, now)[0]
 
 
 def _same_stage(a: DoorState, b: DoorState) -> bool:
@@ -117,8 +127,8 @@ class DoorMonitor:
         if self._computed_at is not None and now - self._computed_at < self._refresh:
             return self._state
         try:
-            spend = week_spend_usd(self._usage_store, self._clock())
-            fresh = door_module.compute(self._settings, spend, self._funds())
+            week, day = spend_usd(self._usage_store, self._clock())
+            fresh = door_module.compute(self._settings, week, self._funds(), day)
         except Exception:  # noqa: BLE001 - a fault keeps the last state, never opens it
             logger.exception("door could not be worked out; the last state stands")
             self._computed_at = now

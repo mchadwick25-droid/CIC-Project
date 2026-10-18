@@ -31,7 +31,7 @@ dates:
   died: "January 399, at Kellia - communicating in church at Epiphany, per Palladius ch. XXXVIII (the year itself from desert.source.evagrius-praktikos and Doc_01 SS2.3) - shortly before the Origenist controversy that would scatter his intellectual circle broke fully open (Doc_01 SS2.3)"
   floruit: "ordained reader by Basil of Caesarea, then deacon by Gregory Nazianzen (Palladius ch. XXXVIII), at Constantinople specifically (Socrates IV.23); withdrew to Nitria, then to Kellia c. 385 for fourteen years until his death - this world's most systematic participant-author and, by education, its most atypical"
 narratable: true
-bridge_line: "the most formally educated man this world produced, who took its raw, occasion-bound wisdom about tempting thoughts and organized it into the most complete scheme the desert ever wrote down - a scheme his own circle would be scattered for, in a controversy that broke open only after he had already died"
+bridge_line: the most formally educated man our desert produced. He took its raw wisdom about tempting thoughts and built it into the fullest scheme it ever wrote down. His own circle was scattered in a controversy that broke open only after he died.
 relations:
 - type: associated-with
   target: desert.gravity.evagrian-systematization

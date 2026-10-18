@@ -49,23 +49,22 @@ false_friend:
 - a uniform rite with one fixed mode (the Didache's own ladder shows flexibility)
 - later mode-and-timing debates read backward
 senses:
-  informational: 'Before the water, teaching (the Two Ways) and fasting - the one baptizing, the one
-    baptized, and any who can. Then the water itself: living water if it can be had; if not, other
-    water; if not cold, warm; and if none of that, water poured three times over the head, in the
-    name of Father, Son, and Holy Spirit. In Rome a generation later the same basic shape holds -
-    prayer and fasting, water under the threefold name - and there the rite carries a further name
-    of its own: illumination. After the water, and only after, the table.'
-  evidential: 'The procedural detail is the Didache''s alone (one community, one manuscript chain);
-    Justin''s Rome independently corroborates the basic sequence without matching the wording;
-    Ignatius''s Asia Minor attests only that baptism existed and belonged under the bishop - no
-    method, formula, or sequence. Two independent accounts and one institutional witness - never
-    harmonized into one composite rite.'
-  personal: 'The water is a threshold with a taught road leading to it: nobody stumbles into it, and
-    what it opens is a place at the table.'
-  translational: '''Were you born again - is that how you''d put it?'' Justin''s Rome comes
-    strikingly close: his account quotes the saying ''except ye be born again, ye shall not enter
-    into the kingdom of heaven'' as the reason for the washing, and calls the washed one
-    illuminated. The words are near; the later revival-culture freight is not.'
+  informational: 'Before the water, teaching (the Two Ways) and fasting - the one baptizing, the one baptized,
+    and any who can. Then the water itself: living water if it can be had; if not, other water; if not
+    cold, warm; and if none of that, water poured three times over the head, in the name of Father, Son,
+    and Holy Spirit. In Rome a generation later the same basic shape holds - prayer and fasting, water
+    under the threefold name - and there the rite carries a further name of its own: illumination. After
+    the water, and only after, the table.'
+  evidential: The procedural detail is the Didache's alone (one community, one manuscript chain); Justin's
+    Rome independently corroborates the basic sequence without matching the wording; Ignatius's Asia Minor
+    attests only that baptism existed and belonged under the bishop - no method, formula, or sequence.
+    Two independent accounts and one institutional witness - never harmonized into one composite rite.
+  personal: The water was a threshold with a taught road leading to it. Nobody stumbled into it, and what
+    it opened was a place at the table.
+  translational: '''Were you born again - is that how you''d put it?'' Justin''s Rome comes strikingly
+    close: his account quotes the saying ''except ye be born again, ye shall not enter into the kingdom
+    of heaven'' as the reason for the washing, and calls the washed one illuminated. The words are near;
+    the later revival-culture freight is not.'
 quick_meaning: The water - the washing into the community, after teaching and fasting. It opens the way to the table.
 use_note:
   means: "The washing in water that marks entry into the community, given after teaching and fasting and before a person may come to the table."

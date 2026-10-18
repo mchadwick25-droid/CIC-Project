@@ -223,6 +223,22 @@ def short_head(text: str) -> str:
     return (text or "").split(";")[0].split(" (")[0].strip()
 
 
+# A locus's machine apparatus: a vendored file or line reference, or a
+# build-document note. Never part of the place in the work a reader looks up.
+_LOCUS_APPARATUS = r"(?:[\w.-]+\.(?:xml|txt)\b|cic/texts/|\bfile lines? \d|\b(?:a?npnf|anf)\d{2,3}\b|\blines? \d|\bDoc_\d|\blegacy\b)"
+_LOCUS_APPARATUS_PAREN = re.compile(r"\s*\((?=[^()]*" + _LOCUS_APPARATUS + r")[^()]*\)")
+_LOCUS_FILE_LINES_TAIL = re.compile(r",\s*file lines? [\d-]+.*$")
+
+
+def display_locus(locus: str) -> str:
+    """The place in the work as a reader looks it up: the locus with any
+    parenthetical carrying a file reference or build note removed, and a
+    trailing ", file lines ..." clause cut. "Demonstration XXI (Of
+    Persecution), secs. 1-2 (npnf213_...xml)" reads "Demonstration XXI (Of
+    Persecution), secs. 1-2"."""
+    return _LOCUS_FILE_LINES_TAIL.sub("", _LOCUS_APPARATUS_PAREN.sub("", locus or "")).strip()
+
+
 # The closed vocabulary a build-taxonomy tag's own bracket content actually
 # starts with, fleet-wide (confirmed by grepping every gravity and force
 # `name` field's own bracket content) - gravity: PRIMARY/SUPPORTING/

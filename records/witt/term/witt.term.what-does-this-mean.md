@@ -16,7 +16,7 @@ confidence:
     a genuinely thin entry Doc_06 itself folds under the catechism proper.
 sources:
 - source_id: witt.source.luther-large-catechism
-  locus: per Doc_06 §5 entry 4.3's own Key Sources line
+  locus: the Large Catechism -- the father's staged question
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism -- the question after every commandment, article and petition

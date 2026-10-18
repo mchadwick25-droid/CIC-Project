@@ -16,6 +16,7 @@ sources: []
 author: "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)"
 work: "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)"
 edition: "Ante-Nicene Fathers vol. 7 (1886), ed. M. B. Riddle; the translation the volume prints is Hall and Napier's (1884), per the corpus registry's own entry for this file. Vendored as cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml"
+citation: The Didache (The Teaching of the Twelve Apostles), ed. M. B. Riddle, trans. Hall and Napier (1884), Ante-Nicene Fathers vol. 7 (1886)
 kind: vendored
 rights_status: public-domain
 attribution_status: anonymous-composite

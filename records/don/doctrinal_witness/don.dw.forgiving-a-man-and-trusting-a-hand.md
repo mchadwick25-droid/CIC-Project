@@ -31,7 +31,7 @@ sources:
   locus: the Council of Cirta - a charge nobody could settle, reserved to the Lord rather than pressed
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'thin_topics: the ordinary believer''s own interior life; fear, doubt, wavering, quiet defection'
+  locus: 'no surviving record of the ordinary believer''s own interior life: fear, doubt, wavering, quiet defection'
   license: public-domain
 retrieval:
   tier: 3
@@ -44,23 +44,23 @@ text: >-
   on, and you may not like where we came out.
 
 
-  We split forgiveness in two. Whether a man was pardoned was never
-  actually our fight. Go and read the whole enormous argument between us
-  and the other side and you will find it never once turns on whether the
-  bishop who handed the scriptures over was sorry afterwards. That was
-  not the hinge. The hinge was whether his hand could still give what he
-  claimed to give. So a man might be forgiven, by God or by the people he
-  had failed, and still be a man who could no longer ordain, because
-  those are two different questions and our doctrine only ever answered
-  the second. A modern hearer asks why we did not simply forgive him and
-  move on. Forgiving him was never what was being refused.
+  We split forgiveness in two. As we read our own argument, whether a
+  man was pardoned was never our fight. Go and read the long argument
+  between us and the other side, and you will find it does not turn on
+  whether the bishop who handed the scriptures over was sorry
+  afterwards. That was not the hinge. The hinge was whether his hand
+  could still give what he claimed to give. So a man might be forgiven,
+  by God or by the people he had failed, and still be a man who could no
+  longer ordain, because those are two different questions and our
+  doctrine only ever answered the second. A modern hearer asks why we
+  did not simply forgive him and move on. Forgiving him was never what
+  was being refused.
 
 
   That has a cost. It means an unrepentant man is not owed your trust
   merely because you owe him no grudge. And it means the reverse too:
   you can genuinely let go of the anger and still refuse to hand him the
-  thing he broke. We would say that is not bitterness. It is keeping two
-  separate accounts separate.
+  thing he broke.
 
 
   We were not steady about it. Our own council at Bagai took back two
@@ -69,15 +69,14 @@ text: >-
   founding bishops at Cirta sat in a room where several admitted the
   worst thing a bishop could admit, and instead of finishing the case
   they gave it to God and sat down. So we knew perfectly well how to
-  stop pressing a charge. We just never wrote down when.
+  stop pressing a charge. We just never wrote down when to stop pressing it.
 
 
   Two things we cannot take up: what we offered a person whose own mind
   would not go quiet, and whether we knew the silence of praying and
-  hearing nothing back. Not one of us left a word on either. It is not
-  that our people had no inner life. It is that what survives of us was
-  kept by people arguing with us, and a man arguing with you does not
-  write down your bad nights.
+  hearing nothing back. Not one of us left a word on either. That does
+  not mean our people had no inner life. Whoever kept our record was
+  arguing against us and had no reason to write that down.
 positions:
 - we held pardoning a person and trusting his office to be two separate questions, and our whole argument
   turns on the second rather than the first

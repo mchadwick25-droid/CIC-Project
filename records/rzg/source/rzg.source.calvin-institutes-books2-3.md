@@ -25,6 +25,7 @@ attribution_status: attributed to John Calvin, 1559 final Latin edition, in the 
 discovery_channel: Source_Registry.md row 2, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.
 external_ids:
   rzg_source_registry_row: 2
+citation: 'John Calvin, Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining the Grace of Christ), trans. Henry Beveridge (Edinburgh: Calvin Translation Society, 1845)'
 kind: vendored
 ---
 Christ the Redeemer; faith, justification, predestination - this world's own load-bearing doctrinal core (G1). Verified directly against the vendored file, whole file, per Source_Registry.md's own Verification Note.

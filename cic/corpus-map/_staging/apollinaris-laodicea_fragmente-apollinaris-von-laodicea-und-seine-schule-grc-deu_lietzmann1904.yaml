@@ -1,0 +1,39 @@
+source_file: apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt
+
+authors_ruled:
+  apollinaris-laodicea:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML markup only)
+      has not seen the author. Apollinaris of Laodicea (c. 310-c. 390) is a real, well-attested
+      author; his surviving Greek texts and fragments are what Lietzmann's 1904 edition
+      collects (title page, file line 173; 'Schriften des Apollinaris', file line 6688). Kept
+      distinct from the existing slug claudius-apollinaris (Claudius Apollinaris of Hierapolis,
+      second century), a different person.
+
+assignments:
+  - row_id: apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904--texts-and-fragments-of-apollinaris-and-his-school
+    work: "Texts and fragments of Apollinaris of Laodicea and his school (Lietzmann, 1904), Greek with German study"
+    author: apollinaris-laodicea
+    locus: "the Texts, pages 167-322 of the edition: the Kata meros pistis (heading at file line 8381; section 22 at file line 8983); the discourse against Diodore at file line 12118; the study of the writings from file line 6688"
+    atlas_ids:
+      - apollinarian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      The movement's own voice: the one collected edition of what Apollinaris and his followers
+      wrote, most of it preserved under orthodox names. Primary original-language witness; Greek
+      and German both recovered in the OCR. The attributions are Lietzmann's reconstructions,
+      argued in his German study, and a quote record must say so.
+  - row_id: apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904--texts-and-fragments-of-apollinaris-and-his-school-2
+    work: "Texts and fragments of Apollinaris of Laodicea and his school (Lietzmann, 1904), Greek with German study"
+    author: apollinaris-laodicea
+    locus: "whole file"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: provisional
+    note: >
+      The contemporary opponent the Cappadocians wrote against (Gregory of Nazianzus, Letters
+      101-102; Gregory of Nyssa, Antirrheticus), speaking for himself. Context for that world,
+      not its own voice.

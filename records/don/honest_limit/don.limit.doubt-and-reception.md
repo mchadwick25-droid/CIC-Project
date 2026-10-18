@@ -15,17 +15,16 @@ confidence:
   divergence_note: null
 sources:
 - source_id: don.core.donatism
-  locus: 'this world''s own thinness field: ''the ordinary believer''s interior life -- doubt, fear, a
-    traditor''s own account of surrendering scripture -- is a register a hostile-mediated record structurally
-    does not preserve'''
+  locus: '''the ordinary believer''s interior life -- doubt, fear, a traditor''s own account of surrendering
+    scripture -- is a register a hostile-mediated record structurally does not preserve'''
   license: public-domain
 relations: []
 statement: Was there room among us for doubt? I will not pretend our record can answer that from the inside.
   What survives is the record of those who held firm -- the martyrs, the councils, the bishops who argued
   the case. What a believer felt who wavered, who feared, or who quietly drifted back to the rival church
   -- none of that is in our own words anywhere. Nor can I tell you how our own people received the ruling
-  against us at Carthage in 411, or the day the empire that had so long ruled against us fell to another
-  power entirely. Those days happened. What they felt like from inside, our own record does not say.
+  against us at Carthage in 411, or the day the Vandals took Carthage from the empire that had so long
+  ruled against us. Those days happened. What they felt like from inside, our own record does not say.
 why_sources_cannot_answer: 'Doc_08_Forces_Document.md''s own governing-principles synthesis (SS8) states
   the community''s reception of the 411 verdict, the Vandal conquest, and this world''s own later institutional
   attrition ''is not recoverable from surviving sources'' at Forces 3A-1, 3A-2, 3B-1, and 3B-2 -- each

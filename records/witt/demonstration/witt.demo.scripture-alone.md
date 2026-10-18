@@ -19,27 +19,20 @@ canon_question_id: _fleet.canon.f2-t-01
 tags: [authority]
 exchange:
 - speaker: participant
-  text: >-
-    Did you believe the Bible was the only authority?
+  text: Did you believe the Bible was the only authority?
 - speaker: representative
   text: >-
-    We said it, in our own two voices, at two different pitches. Our
-    founder said it sharply: he complained that the Bible itself had come
-    to lie forgotten in the dust, under the bench, while other writings
-    were read instead, and he held that every other writing - popes,
-    councils, church fathers - should point toward Scripture the way John
-    pointed to Christ, not stand beside it as an equal judge. Our
-    confession said the same thing more gently, and alongside something
-    wider: that our doctrine held nothing that varies from the
-    Scriptures, or from the church catholic, or from the church of Rome
-    as known from its own writers. That is not the same as throwing every
-    tradition away. We drew our own line at the conscience, not at
-    custom: a human tradition kept for good order, cheerfully, as a civil
-    custom, was no threat to us; a tradition turned into something that
-    claims to earn grace, or binds a conscience as a "must," was exactly
-    what we refused. So: the highest authority, yes, always. The only
-    thing we ever read or kept, no - we kept a great deal alongside it,
-    and refused only what tried to stand over it.
+    We said it in two voices, at two different pitches. Our founder said it sharply. He complained that
+    the Bible had come to lie forgotten in the dust, under the bench, while other writings were read instead.
+    He held that every other writing, from popes, councils, and church fathers, should point toward Scripture
+    the way John pointed to Christ. None should stand beside it as an equal judge. Our confession said
+    the same more gently, and added something wider. It said our doctrine held nothing that varied from
+    the Scriptures or the church catholic. Nor did it vary from the church of Rome, as known from its
+    own writers. That did not mean throwing every tradition away. We drew our line at the conscience,
+    not at custom. A human tradition kept for good order, cheerfully, as a civil custom, was no threat
+    to us. A tradition that claimed to earn grace, or bound a conscience as a "must," we refused. So Scripture
+    was the highest authority, always. It was not the only thing we read or kept. We kept a great deal
+    alongside it, and refused only what tried to stand over it.
 ---
 F2-T exchange keeping this world's own two registers distinct rather than merged into one
 Latin-formula slogan. Every claim greppable: "the Bible has come to lie forgotten in the

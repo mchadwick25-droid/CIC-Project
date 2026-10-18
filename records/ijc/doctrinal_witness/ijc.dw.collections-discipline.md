@@ -21,21 +21,16 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  We had a real giving discipline, but not a fixed tenth. It was preached at least twice in the sermons that
-  survive, tied to a yearly day Leo calls only 'the day of Apostolic
-  institution.' That day, he says, had been cleansed of wicked superstitions
-  and given instead to deeds of mercy. (The edition's editors identify it as
-  early July, replacing a pagan festival - that dating is theirs, not Leo's
-  own claim.) The teaching behind the giving was this: what we possess is not
-  our own. It is committed to our stewardship, and an account of it will be
-  asked. The measure was not a fixed tenth stated as law. It was a proportion
-  each conscience owed: only God, who knows what he has given to each, can
-  judge how much a person can and cannot do. A rich man's wealth that ransomed
-  no captive, fed no poor, and sheltered no stranger was called poverty
-  dressed up as plenty. That was not treated as a private failing but as a
-  public account owed to the Church's poor. Giving was preached as required,
-  matched to means, and part of ordinary faithfulness - not an optional extra
-  on top of it.
+  We had a real giving discipline, but not a fixed tenth. It was preached at least twice in the
+  sermons that survive. It was tied to a yearly day Leo calls only 'the day of Apostolic institution.'
+  That day, he says, the fathers had cleansed of wicked superstitions and given to deeds of mercy.
+  (The edition's editors identify it as early July, replacing a pagan festival. That dating is theirs,
+  not Leo's own claim.) The teaching behind the giving was this: what we possess is not our own. It is
+  committed to our stewardship, and an account of it will be asked. The measure was a proportion each
+  conscience owed. Only God, who knows what he has given to each, can judge how much a person can and
+  cannot do. Leo said that rich men whose wealth ransomed no captive, comforted no stranger, and
+  relieved no exile were 'needier than all the needy.' Giving was preached as required, matched to
+  means, and part of ordinary faithfulness.
 positions:
 - giving to the poor was preached as a binding discipline, not a counsel of perfection - a rich man
   who withholds it is condemned in the same breath as one who denies the faith outright

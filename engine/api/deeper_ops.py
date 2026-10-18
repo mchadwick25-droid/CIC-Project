@@ -11,6 +11,7 @@ from datetime import date, datetime
 import yaml
 
 from engine.deeper.door import DoorSettings, Stage
+from engine.deeper.meter import MAX_TOKENS_PER_CODE
 from engine.deeper.tokens import Pack, TokenRates
 
 OPS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "deeper", "ops", "go-deeper.yaml")
@@ -22,12 +23,13 @@ FREE_KEYS = ("window_tokens", "window_days", "rounds_per_conversation")
 LATER_ROUNDS_FROM = 4
 MINIMUM_PACK_USD = 7
 LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
-DOOR_KEYS = ("observe", "base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
+DOOR_KEYS = ("observe", "base_weekly_usd", "daily_share", "gift_share", "purchase_share", "invoice_factor", "stages")
 PAID_KEYS = ("round_cap", "provisional")
 PILOT_KEYS = ("pack_usd", "pilot_end_date", "audiences")
-AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "per_address", "public")
+AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "per_address", "public", "questionnaire_url")
 AUDIENCE_NAME = re.compile(r"^[a-z][a-z0-9-]{0,23}$")
 ADMIN_KEYS = ("mint_max_tokens_per_request", "mint_max_tokens_per_day")
+TESTER_KEYS = ("default_tokens", "max_tokens", "default_days", "max_days", "max_per_day")
 STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_share", "free_voice", "paid_voice"}
 
 
@@ -42,6 +44,8 @@ class PilotAudience:
     per_address: int
     # A public audience is joined by its name; any other only by a secret link key held in the server's environment.
     public: bool
+    # The questionnaire a joiner answers. An audience cannot open without one.
+    questionnaire_url: str | None = None
 
 
 @dataclass(frozen=True)
@@ -60,6 +64,11 @@ class DeeperOps:
     paid_round_cap_provisional: bool
     admin_mint_max_tokens_per_request: int
     admin_mint_max_tokens_per_day: int
+    tester_default_tokens: int
+    tester_max_tokens: int
+    tester_default_days: int
+    tester_max_days: int
+    tester_max_per_day: int
     pilot_pack_usd: int
     pilot_end_date: date
     pilot_audiences: dict[str, PilotAudience]
@@ -127,6 +136,7 @@ def _door(section) -> DoorSettings:
     if not isinstance(section["observe"], bool):
         raise OpsFileError("door.observe must be true or false")
     base = _number(section["base_weekly_usd"], "door.base_weekly_usd", low=0, inclusive_low=False)
+    daily = _number(section["daily_share"], "door.daily_share", low=0, high=1, inclusive_low=False)
     gift = _number(section["gift_share"], "door.gift_share", low=0, high=1)
     purchase = _number(section["purchase_share"], "door.purchase_share", low=0, high=1)
     factor = _number(section["invoice_factor"], "door.invoice_factor", low=1)
@@ -170,7 +180,9 @@ def _door(section) -> DoorSettings:
         if item.get("paid_voice") is False and not free_closed:
             raise OpsFileError("paid voice cannot close before free voice does")
         stages.append(Stage(**fields))
-    return DoorSettings(base_usd=base, gift_share=gift, purchase_share=purchase, invoice_factor=factor, stages=tuple(stages))
+    return DoorSettings(
+        base_usd=base, gift_share=gift, purchase_share=purchase, invoice_factor=factor, stages=tuple(stages), daily_share=daily,
+    )
 
 
 def _audiences(raw) -> dict[str, PilotAudience]:
@@ -188,7 +200,12 @@ def _audiences(raw) -> dict[str, PilotAudience]:
             raise OpsFileError(f"pilot audience {name}: public must be true or false")
         _whole(item["pilot_cap"], f"pilot audience {name} pilot_cap")
         _whole(item["per_address"], f"pilot audience {name} per_address")
-        audiences[name] = PilotAudience(item["pilot_open"], item["pilot_cap"], item["per_address"], item["public"])
+        url = item["questionnaire_url"]
+        if url is not None and not (isinstance(url, str) and url.startswith("https://") and len(url) > len("https://")):
+            raise OpsFileError(f"pilot audience {name}: questionnaire_url must be an https:// link or null")
+        if item["pilot_open"] and url is None:
+            raise OpsFileError(f"pilot audience {name}: pilot_open needs a questionnaire_url; the pilot does not open before its questionnaire exists")
+        audiences[name] = PilotAudience(item["pilot_open"], item["pilot_cap"], item["per_address"], item["public"], url)
     return audiences
 
 
@@ -199,8 +216,8 @@ def load_ops(path: str | None = None) -> DeeperOps:
             data = yaml.safe_load(handle)
     except (OSError, yaml.YAMLError) as exc:
         raise OpsFileError(f"cannot read {path}: {exc}") from exc
-    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "paid", "admin", "pilot", "words"}:
-        raise OpsFileError("the file must hold exactly limits, tokens, door, paid, admin, pilot and words")
+    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "paid", "admin", "tester", "pilot", "words"}:
+        raise OpsFileError("the file must hold exactly limits, tokens, door, paid, admin, tester, pilot and words")
     limits = _section(data, "limits", LIMIT_KEYS)
     for key, value in limits.items():
         if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
@@ -225,6 +242,15 @@ def load_ops(path: str | None = None) -> DeeperOps:
         _whole(value, f"admin.{key}")
     if admin["mint_max_tokens_per_request"] > admin["mint_max_tokens_per_day"]:
         raise OpsFileError("admin.mint_max_tokens_per_request cannot exceed admin.mint_max_tokens_per_day")
+    tester = _section(data, "tester", TESTER_KEYS)
+    for key, value in tester.items():
+        _whole(value, f"tester.{key}")
+    if tester["default_tokens"] > tester["max_tokens"]:
+        raise OpsFileError("tester.default_tokens cannot exceed tester.max_tokens")
+    if tester["max_tokens"] > MAX_TOKENS_PER_CODE:
+        raise OpsFileError(f"tester.max_tokens cannot exceed {MAX_TOKENS_PER_CODE}")
+    if tester["default_days"] > tester["max_days"]:
+        raise OpsFileError("tester.default_days cannot exceed tester.max_days")
     pilot = _section(data, "pilot", PILOT_KEYS)
     _whole(pilot["pack_usd"], "pilot.pack_usd")
     if pilot["pack_usd"] not in [p.price_usd for p in packs]:
@@ -238,5 +264,7 @@ def load_ops(path: str | None = None) -> DeeperOps:
         group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
         door_observe=data["door"]["observe"], paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
         admin_mint_max_tokens_per_request=admin["mint_max_tokens_per_request"], admin_mint_max_tokens_per_day=admin["mint_max_tokens_per_day"],
+        tester_default_tokens=tester["default_tokens"], tester_max_tokens=tester["max_tokens"], tester_default_days=tester["default_days"],
+        tester_max_days=tester["max_days"], tester_max_per_day=tester["max_per_day"],
         pilot_pack_usd=pilot["pack_usd"], pilot_end_date=end, pilot_audiences=audiences,
     )

@@ -677,3 +677,149 @@ Traces the voice errors logged under "Voice errors found in the record pass stag
 **Gates.** `records pahc` and `regate pahc --base origin/main`: pass. Package rebuilt and repinned. The two readability findings the rewrite removed cut the pahc count from 160 to 158, so the `m1:readability/pahc` waiver in `engine/m9/enforce.py` is tightened to 158.
 
 Status: CLOSED for the one record cause. The voice-own errors stay OPEN under the 9 October entry.
+
+### OG-27. Record audit fixes: source drift, AI-tell wording and source citation lines, 2026-10-13.
+
+A read-only audit of `records/pahc/` checked the spoken fields against the cited sources and the vendored texts in `cic/texts/`, and the build records for factual errors only. It found 156 items: 13 in build records, 143 in doctrinal witnesses, stories, demonstrations, figures, honest limits, terms and quote renderings. 109 are fixed here. The other 47 are outside the spoken-field scope and are registered in OG-28. The audit page is the Artifact "pahc Record Audit". Quote renderings were written by Opus; the rest by Sonnet. Reviews: `Build/Ministry/Operations/Audits/pahc_record_audit_fixes_review_round1_2026-10-13.md` (FAIL, 2 blocking, 16 non-blocking; both blocking items and 14 of the non-blocking fixed) and `..._round2_2026-10-13.md` (PASS, one non-blocking whitespace item, fixed). Opus 5.5 reviewed both.
+
+**Source citations.** `citation:` added to all 23 `records/pahc/source/` records, using only words in each record's own author, work and edition fields. The `m9:source-citation/pahc` waiver is removed from `engine/m9/enforce.py`.
+
+**Changed, build records (factual errors only, every hedge and caveat kept).**
+- `pahc.force.selective-canonization` (`description`, `manifestations`, `confidence.divergence_note`, `sources` locus for Hermas and the Didache): the description also has a few sentences split and two clauses shortened so the edited field passes the readability gate, with no change of content. Hermas is placed outside the canon among books read to newcomers (Athanasius, Festal Letter XXXIX, 7), not "excluded". "Roughly eighteen centuries" for the Didache becomes "until its rediscovery in 1873".
+- `pahc.force.apostolic-testimony-inheritance` (`description`): rewritten in plain short sentences, because the field failed the readability gate and the gate fails any edited field. Corrected: Ignatius asks for submission to the presbytery "as to the apostle of Jesus Christ" (Trallians 2) and to the bishop as the apostles were subject to Christ (Magnesians 13); the old text made submission owed to Christ himself. Review round 3 (`..._review_round3_2026-10-13.md`, FAIL, 6 blocking) found the first rewrite changed several claims; its six word-level fixes are applied (1 Clement rebukes the Corinthians who put out their presbyters; "legitimate" kept; "about time" kept on the defining assumption; "mature concern"; "legal risk" for "precarity"; "Antioch and Asia Minor above all" for the one-bishop label, which Doc_01 holds contested). The cap of three reviews is reached, so these applied fixes were not independently re-confirmed. Three non-blocking suggestions ("God sent Christ", "exactly", "gave urgency to") are not applied because each drops the field under FRE 60. The coordinating session ruled that a build record may be rewritten when that is the only way to fix a checked factual error.
+- `pahc.force.contemporary-rival-movements` (`description`, `manifestations[2]`, `sources` loci for Tertullian and the anti-Montanist fragments): `description` rewritten in plain short sentences for the same reason, with the process wording ("read by this build", "Strand A members") removed and the caveat that the reading is an interpretive extension kept. Montanism was "examined and rejected by gatherings of the faithful across Asia" (Eusebius, Church History V.16.10: "the faithful in Asia met often in many places"), not "contested by synods of Asia Minor bishops". The Tertullian locus now says Adversus Marcionem 1.19 places Marcion in the Antonine period, about 115 years and 6.5 months after Tiberius, and does not state the c. 144 CE date.
+- `pahc.gravity.boundary-drawing` (`description`): Eusebius, Church History V.16.10 has "the faithful in Asia met often in many places", not synods of bishops.
+- `pahc.source.anti-montanist-fragments` (body): same Asia correction. `pahc.source.justin-first-apology` (body): First Apology 26 reads "many of every nation". `pahc.source.shepherd-hermas` (body): Hermas and Athanasius as above. `pahc.source.tertullian-adversus-marcionem` (`work`): I.19 as above. `pahc.source.anti-montanist-fragments` (`work`): "the opposition of the churches of Asia" for "the synodical opposition of Asia Minor's churches".
+
+**Changed, spoken fields.**
+- Quote `modern_rendering` (15): `appointed-to-be-read`, `asia-rejected-new-prophecy`, `first-clement-apostolic-chain`, `ignatius-marriage-bishop`, `jesus-christ-our-god`, `justin-reasonable-livers`, `lucian-all-brothers`, `lucian-orphans-and-widows`, `melito-no-phantom`, `moses-is-more-ancient`, `tacitus-hatred-against-mankind`, `the-memoirs-of-the-apostles-are-read`, `they-appointed-those-already-mentioned`, `those-who-lived-reasonably-are-christians`, `two-female-slaves-who-were-called-deaconesses`. No quote `text` changed; all 25 match the vendored files word for word.
+- `doctrinal_witness` `text` (16): `apostolic-practice`, `coming-to-belief`, `doubt-and-asking`, `hard-texts`, `how-we-know`, `jesus-as-god`, `marriage-and-wealth`, `our-own-failures`, `outside-our-community`, `outsider-view`, `prayer-and-struggle`, `reading-scripture`, `scholarly-standing`, `scripture-and-testimony`, `what-we-never-settled`, `who-was-jesus`. Main corrections: the outsider-view claim that torture of the ministrae gave Pliny the account of the meetings (Pliny 10.96 says torture found only "a superstition depraved and immoderate"); 1 Clement 44 does not say Rome insisted on restoring the presbyters; Hermas Mandate 9 is no longer softened; Didache 15.3 is no longer called silent; a Philippians 2 import is removed.
+- `story` `tellable_as` and `text` (15 records): `day-under-bishop-and-presbyters`, `didache-eucharist`, `first-clement-corinthian-dispute`, `grandsons-before-domitian`, `hermas-visions`, `ignatius-guarded-journey`, `justin-sunday-gathering`, `martyrdom-of-polycarp`, `mutual-aid-prisoner`, `nero-scapegoating`, `one-eucharist-under-bishop`, `pliny-interrogation`, `polycarp-forwards-letters`, `quintus-recantation`, `two-ways-catechumen`. Main corrections: 1 Clement answers a letter the Corinthians sent ("consulted us"), so "unrequested" is wrong; Smyrnaeans 8 says follow the bishop as Christ follows the Father; Tacitus says the crowd called them Christians; in Lucian the Christians' own officials bribed the jailers; the Quintus quotation now matches Martyrdom 4; Hermas "freedman" and "his own household" removed; the yearly gathering at Polycarp's bones is a hope in Martyrdom 18, not a practice.
+- `demonstration` Representative turns (9 records, participant turns untouched): `becoming-one-of-us`, `center-coming-to-belief`, `center-how-we-know`, `center-jesus-as-god`, `center-who-was-jesus`, `honest-limit-material-remains`, `identity-collision-someone-like-me`, `identity-collision-womens-authority`, `lament-suffering`. Invented detail removed (a "real cost" to women leaders, "more than one household uses those words", a yearly gathering at the bones, "went looking for us").
+- `figure` `bridge_line` (8): `hermas`, `ignatius`, `justin`, `ministrae`, `network`, `pliny`, `polycarp`, `tacitus`.
+- `honest_limit` `statement` (2): `enslaved-voices`, `ordinary-majority`.
+- `term` (11): `agape-label`, `baptisma`, `diakonos`, `ekklesia`, `episkopos`, `hetaeria`, `ministrae`, `pertinacia`, `presbyteros`, `prophetes`, `two-ways`. `diakonos` no longer gives deacons the care of widows and prisoners (Justin, First Apology 67, gives it to the president); `two-ways` no longer says the choice was "kept daily" (not in the Didache).
+
+**Changed, citation loci** (coordinating session's ruling: a wrong locus shows to participants on the source card). `pahc.quote.jesus-christ-our-god`: `sources[0].locus` and `speaker_or_author` now cite Trallians ch. VII, not Ephesians (anf01 line 6505). `pahc.quote.appointed-to-be-read`: file line 68817 for section 7, not 68714 (the letter's start). A check of about 180 loci across the world's records found no others provably wrong.
+
+**Not changed.** Quote `text`; every non-spoken field of a quote; build records beyond the factual lines above; `pahc.dw.*` `positions`.
+
+**Test.** Two assertions in `engine/m4/tests/test_citation_cards.py` read the card of `pahc.quote.ignatius-truly-born` for `author` and `work`; with a citation line the card carries `citation` instead, so they now check the citation line and the locus (CI run on the first push of this branch).
+
+**Changed after the independent review of the pull request.** (a) `pahc.quote.melito-no-phantom` `modern_rendering` (Opus): the text says there is no need, to persons of intelligence, to prove it; the rendering now opens "For people of sense, there is no need to try to prove" and restores "likewise" in "God and perfect man likewise"; the long sentence on the two natures is split in three. (b) The assistant-cadence "honestly" is removed from the Representative turns of `pahc.demo.identity-collision-someone-like-me`, `pahc.demo.identity-collision-womens-authority`, `pahc.demo.lament-suffering` and `pahc.demo.identity-collision-divorce` (same closing line), and from `pahc.witness.our-own-failures`. (c) Tense: `pahc.story.pliny-interrogation` `tellable_as` says the community "did"; `pahc.witness.marriage-and-wealth` `text` puts the rich man helping and the poor man praying in the past. (d) `pahc.quote.asia-rejected-new-prophecy` `modern_rendering`: the bare "they" is kept ("they were thrown out of the Church").
+
+**Gates.** `records pahc`, `regate pahc --base origin/main`, `engine.m9.cli check`, both staleness checks, the path check and the live-surface check pass; the package is rebuilt and repinned, the site page recompiled, and `m1:readability/pahc` tightened.
+
+Status: CLOSED for the records named above. OG-28 holds what was found and not fixed.
+
+### OG-28. Found in the pahc record audit and not fixed, 2026-10-13.
+
+Outside the spoken-field scope of OG-27, or left by choice. Each item names the record and the source it was checked against.
+
+1. `pahc.quote.jesus-christ-our-god`: the locus and `speaker_or_author` are fixed in OG-27. The `modern_lens_note` calls the context "a warning about factions", but the passage warns against false teachers, and the `use_note` repeats it.
+2. `pahc.quote.appointed-to-be-read`: the locus is fixed in OG-27. The `modern_lens_note` says the Didache "disappeared for roughly eighteen centuries"; 367 to the 1873 find is about fifteen. `pahc.force.transmission-network` repeats "roughly eighteen centuries".
+3. `modern_lens_note` errors: `pahc.quote.moses-is-more-ancient` (First Apology 59 has Plato taking his account of creation from Moses, so the note's claim that Justin's world did not read Genesis as an account of nature is wrong); `pahc.quote.not-every-one-that-speaketh-in-the-spirit` (Didache 11.1-2 tests doctrine and 15.1 tells the community to appoint bishops); `pahc.quote.polycrates-to-victor` (Victor's excommunication of Asia is disputed, not settled); `pahc.quote.the-memoirs-of-the-apostles-are-read` (First Apology 66 calls them Gospels); `pahc.quote.they-appointed-those-already-mentioned` (stray backslashes in a folded block). `pahc.quote.those-who-lived-reasonably-are-christians` body says four figures from Daniel; only three are.
+4. Story `use_note.means` repeats drift fixed in the spoken fields: `pahc.story.first-clement-corinthian-dispute`, `pahc.story.hermas-visions`, `pahc.story.one-eucharist-under-bishop`. `pahc.story.first-clement-corinthian-dispute` `modern_contrast` still says "unrequested".
+5. `pahc.witness.*` `positions[]` (33 entries): 27 fail the readability gate and 6 carry wording the audit flagged (most seriously `marriage-and-wealth` positions[1], `scholarly-standing` positions[0], `doubt-and-asking` positions[0]). They are third-person reference text, read only when `text` is absent, so they are left.
+6. Story `text` (source wording, not graded by the engine): `didache-eucharist`, `polycarp-forwards-letters`, `day-under-bishop-and-presbyters`, `first-clement-corinthian-dispute`, `mutual-aid-prisoner` and `nero-scapegoating` do not reach FK 10 and FRE 60.
+7. `pahc.limit.material-remains` carries the Pliny wording that was corrected in `pahc.demo.honest-limit-material-remains`; it should be checked against Pliny 10.96.
+8. The edit tool rewrote each touched front-matter key with PyYAML, so the line diff of the 84 files is much larger than the 109 changed values.
+
+9. Loci that cannot be checked in the vendored file and are left as they are: `pahc.quote.lucian-all-brothers` ("p. 83"), `pahc.quote.lucian-orphans-and-widows` ("p. 82") and `pahc.story.mutual-aid-prisoner` ("12-13"): the vendored Fowler file has no page or section numbers; all three passages sit in the one paragraph at file line 1049. `pahc.contested.martyrdom-polycarp-dating` `sources[1].locus` cites the Chronicon's 167 CE date; the Chronicon is not vendored, and the date appears only in McGiffert's note at Church History IV.15 (npnf201 line 23047).
+
+10. "Synodical" is still used for the Asia-wide response to Montanism in the `locus` of `pahc.quote.asia-rejected-new-prophecy`, `pahc.witness.god-and-argument` and `pahc.gravity.boundary-drawing`, and in the body of `pahc.witness.god-and-argument` and `pahc.quote.asia-rejected-new-prophecy`. Eusebius V.16.10 has "the faithful in Asia met often in many places"; the synods are McGiffert's inference.
+
+11. Cap-ruling recheck of the two rewritten force descriptions (`..._review_cap-ruling_2026-10-13.md`, PASS): remaining non-blocking wording, each of which would drop the field under FRE 60 if restored: "Christ came from God" where 1 Clement 42 has "sent"; "exactly" dropped; "drove the push" (a slightly stronger causal link); "specifically" became "above all". Separately, the sentence that Ignatius's anti-docetic argument answers rivals who came after his conventional date is copied word for word from the approved Doc_08 (l.127); the fix belongs in Doc_08.
+
+Status: OPEN.
+
+### OG-29. Use notes that contradicted the corrected wording, 2026-10-13.
+
+The record audit fixes (merged under the entry Record audit fixes: source drift, AI-tell wording and source citation lines, 2026-10-13) corrected the spoken fields but left `use_note.means`, which the evidence block gives the voice, unchanged. Mark ruled on 13 October that `means` changes only where it contradicts the record's own corrected fields or its vendored source. Eight records changed; `not_for`, `years`, `status` and every other field are untouched.
+
+- `pahc.story.first-clement-corinthian-dispute`: `means` said the letter was "unrequested" and argued the elders "should be restored"; `tellable_as` now says only that Rome argues men who served blamelessly should not have been removed.
+- `pahc.story.martyrdom-of-polycarp`: `means` said a "yearly gathering where his bones were kept"; `tellable_as` now says the church hoped to gather each year where his bones were laid.
+- `pahc.story.nero-scapegoating`: `means` said Tacitus calls them "Chrestiani"; the corrected text says the crowd called them Christians.
+- `pahc.story.one-eucharist-under-bishop`: `means` said only "the bishop's own eucharist" is valid and that members follow the bishop "as one follows Christ"; the corrected `tellable_as` says the eucharist the bishop led or allowed, and that the bishop is followed as Jesus Christ follows the Father.
+- `pahc.story.hermas-visions`: `means` said "a freedman"; the corrected text says Hermas says he was once sold as a slave.
+- `pahc.witness.reading-scripture`: `means` said "chiefly the prophets read as pointing to Christ, alongside apostolic memoirs"; the corrected text follows Justin: the memoirs of the apostles or the writings of the prophets, as time allowed.
+- `pahc.term.diakonos`: `means` said deacons carry help to the widow, the prisoner and the stranger; the corrected fields say only that in Justin's Rome they carried a share of the thanksgiving meal to members who could not come.
+- `pahc.term.two-ways`: `means` said the choice is "chosen daily"; the corrected fields drop that and say there are two ways, one of life and one of death, with a great difference between them.
+
+Checked and left alone: every other `means` in the records changed by the wording passes agrees with its corrected fields.
+
+Status: CLOSED.
+
+### OG-30. Correction to the use-note entry, 2026-10-13.
+
+The independent review of the entry Use notes that contradicted the corrected wording, 2026-10-13 required these changes, now applied to `use_note.means` only.
+
+- `pahc.story.nero-scapegoating`: the attribution is restored. `means` says Tacitus wrote that Nero blamed the group, since whether it happened is Contested.
+- `pahc.story.first-clement-corinthian-dispute` and `pahc.story.hermas-visions`: past tense ("wrote ... arguing", "reported").
+
+Still OPEN, not edited: the `senses.informational` text of `pahc.term.diakonos` gives deacons the work for the widow, the orphan and the prisoner, which Justin (First Apology 67) gives to the president; the deacons there carry the elements to the absent.
+
+Status: CLOSED for the `means` changes; OPEN for `pahc.term.diakonos` `senses.informational`.
+
+### OG-31. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `pahc.demo.lament-suffering` representative turn: "We will not tell you why." now reads "We will not tell you why God allows such suffering."
+
+`engine.m10.cli records pahc` and `regate pahc --base origin/main` pass. Package rebuilt and repinned: `packages/pahc/2026-10-14T20-20-58Z`, `manifest_hash` `sha256:79a508813ec8e95437d6fcec6b8d1bd865323578b2fe7d5b4e8e5a11f4f2bca8`. Status: CLOSED.
+
+### OG-32. Atlas story pass: shorter story, ten card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card. He approved the House Churches story and the ten tellings in conversation on 17 October. `orientation.story` is now 8 units and 642 words, down from 8 units and 917 words. `documented_stories` shows ten stories in date order, seven of them new. Each of the ten story records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 22 short notes, and place notes cite Pleiades (checked 2026-10-17). The tile now says the communities gathered in households, after the project lead caught "ordinary houses", which no record supports. Review: `Build/Ministry/Operations/Audits/pahc_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/pahc/2026-10-17T03-51-40Z`, `manifest_hash` `sha256:3e11eaca20ff64189f949714f711809680b013c009aaedfdc246a0c1519d7bf2`. This pin supersedes the one in OG-31. The story and the ten tellings are recorded in the House Churches voice (`1gkXJMvrzBWAwt0XqBaa`, `eleven_v3`, speed 1.12, tempo 1.15), after the project lead approved a sample of the first unit. The full run was 15,480 characters and 7,505 credits. A targeted recheck then found a factual error and empty tails in six tellings. The project lead had those six fixed and re-recorded: 5,923 characters, 2,872 credits.
+
+**Open:**
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+### OG-33. Six story records' own text disagrees with the vendored source, 2026-10-17.
+
+A source check during the Atlas story pass read the tellings against the vendored texts. The tellings now follow the source, but the records' own `text` (and in one case `tellable_as`) still carries the errors:
+- `pahc.story.pliny-interrogation`: the text puts the torture of the two women before the account of the meetings. In Pliny's letter (`cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml`, around line 19487) former Christians describe the meetings first. Pliny then tortures the women "in order to ascertain the truth". As written, a reader can take the account to be the women's words, against the record's own `use_note.not_for`.
+- `pahc.story.quintus-recantation`: the text and `tellable_as` say the letter names Quintus before it praises Polycarp. The letter praises Polycarp in chapter 1 and names Germanicus before Quintus (`cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml`, chapters 1 to 4). The text also says Polycarp "spent his last days" at "a quiet house in the country". The source says "a country house not far distant from the city", and in chapter 6 he moves to another dwelling.
+- `pahc.story.martyrdom-of-polycarp`: "the games were already finished". Chapter 12 says the shows of wild beasts were finished.
+- `pahc.story.grandsons-before-domitian`: "some thirty-nine plethra" drops the source's "only", and the text drops "only 9000 denaria".
+- `pahc.story.first-clement-corinthian-dispute`: `modern_contrast` calls the letter "unrequested". 1 Clement 1 answers "the points respecting which you consulted us", so Corinth had asked.
+
+These are reviewed records, so the pass did not change them. The project lead rules on correcting them.
+
+Status: OPEN for the project lead.
+
+### OG-34. The readability gate does not score story tellings, 2026-10-17.
+
+`engine.m10.cli regate` scores the fields `gates._readability_checks` names and the world_front prose. A story's `telling` is not among them, so a telling that fails FK 10 or FRE 60 would pass the gate. The House Churches tellings were scored by hand with `gates.grade_text`: all ten pass (FK 5.7 to 8.6, FRE 64.5 to 78.7). The Donatist tellings were not scored this way. This is shared tooling, so the fix belongs to the thread that owns the compiler's `telling` support.
+
+Status: OPEN.
+
+### OG-35. Other world_front sections keep AI tells and "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the tile, the story, the card stories and highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first`, `narrative` and the body notes still use "this world" and dash asides. One body note is now false: it says the story quotes "a crude and excessive superstition" as the Pliny quote's modern rendering. The record's rendering is "nothing but a depraved superstition that went too far", which the story now quotes.
+
+Status: OPEN for the project lead to schedule.
+
+### OG-36. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the Quintus teaser no longer puts him before the praise of Polycarp, and the cards now run Quintus then Polycarp; the Ignatius, Polycarp, 1 Clement, Nero and Pliny tellings keep the "we" voice with emic doubts; Polycarp's bishop title is traced to Ignatius and Smyrna's letter; denarii and acres replace denaria and plethra in the Domitian telling; the main story drops its aphorism ending; six notes trimmed.
+**Open:** the Domitian record's tellable notes and source notes still use "plethra" and "denaria" as internal references.
+
+Status: CLOSED for this review except the open item.
+
+### OG-37. House Churches intro, ministrae wording and unclear endings, 2026-10-17.
+
+The project lead found these in a live app conversation. `records/worlds/pahc.yaml` no longer says "ordinary houses" and no longer ends on an abstraction: the intro keeps the household as the community's ethos and says what the churches were still settling (who should lead, and how scattered households could stay one church by letter). `pahc.term.ministrae` now reads "No one wrote down what the women called themselves." `pahc.witness.outsider-view` no longer says "not ours": it says ministrae was Pliny's Latin word and that whether the community used it is not known, which matches the term record. `pahc.witness.jesus-as-god` and `pahc.force.state-pressure` lead with their subject and name the demand.
+
+**Open:**
+- The Facilitator's welcome says "answers only from what's actually known of this world". It is fixed template text in `engine/m4/facilitator_turns.py` (`DOOR` and `TABLE_DOOR`), so it needs an engine change, which was ruled out for this pass.
+- Build/Ministry design drafts still carry "ordinary houses" (for example `Build/Ministry/Features/Website-V2/Sandbox/D1-directions/05-product-led-clarity/meet-chloe.html`).
+
+Status: CLOSED for the records; OPEN for the Facilitator welcome text.
+
+The two readability findings the `pahc.force.state-pressure` rewrite removed cut the pahc count from 113 to 111, so the `m1:readability/pahc` waiver in `engine/m9/enforce.py` is tightened to 111.

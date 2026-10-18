@@ -84,8 +84,8 @@ senses:
     register of eyewitness testimony, alongside Martin's power; at Marseilles the angel most spoken
     of is the devil's disguise.
 quick_meaning: >-
-  At Tours, Martin's visitors - warriors at a temple, a messenger at sea, Agnes and Thecla in his
-  cell. At Marseilles, mostly the devil's false angel of light.
+  At Tours, angels came to Martin often: two armed like warriors at a temple, and one on a ship who
+  told him what a synod had decided. At Marseilles, mostly the devil's false angel of light.
 distortion_risk: medium
 use_note:
   means: "Angels meant, at Tours, Martin's frequent visitors and messengers, and at Marseilles chiefly the devil's counterfeit angel of light."

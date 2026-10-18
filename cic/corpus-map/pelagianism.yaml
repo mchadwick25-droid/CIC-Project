@@ -209,6 +209,17 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
+- row_id: marius-mercator_opera-omnia-lat_migne-pl48--mercator-pelagianism
+  work: Marius Mercator, Opera omnia (Commonitoria against Caelestius and Julian; the Nestorian
+    dossier in Latin), PL 48
+  author: marius-mercator
+  locus: whole file; the Nestorius sermon list from file line 677
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Ephesus 431). A Latin opponent of Pelagius and Caelestius
+    writing in Constantinople in the 420s-430s: the contemporary opponent''s view of the Pelagians,
+    and the main Latin witness to their condemnation alongside Nestorius at Ephesus. Context.'
+  source_file: marius-mercator_opera-omnia-lat_migne-pl48.txt
 - row_id: pelagius_epistula-ad-demetriadem-lat_migne--epistola-i-ad-demetriadem
   work: 'Epistola I: Ad Demetriadem'
   author: pelagius

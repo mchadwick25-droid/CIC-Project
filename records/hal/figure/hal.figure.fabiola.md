@@ -29,9 +29,10 @@ dates:
     short amid fear of a Hunnic invasion); with Pammachius founded the travelers'' hospice
     at Portus; her funeral drew crowds through Rome'
 narratable: true
-bridge_line: the Roman who had divorced and remarried, did public penance, and then spent
-  her fortune gathering the sick in from the streets - the network's Rome-based
-  charitable founder, never a Bethlehem resident
+bridge_line: >-
+  the Roman woman who divorced and married again, did public penance, and then
+  spent her fortune bringing the sick in from the streets. She founded that
+  work in Rome and never lived at Bethlehem
 ---
 Time-limited and Rome-based by the record's own finding: a genuine node in
 the network's patronage and charitable dimension, never smoothed into

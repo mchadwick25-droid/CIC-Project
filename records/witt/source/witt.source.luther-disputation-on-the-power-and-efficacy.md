@@ -18,6 +18,7 @@ author: Luther
 work: Disputation on the Power and Efficacy of Indulgences
 edition: (Ninety-Five Theses, 1517), with the letter to Albrecht of Mainz and three explanatory letters,
   trans. C. M. Jacobs, Philadelphia Ed. vol. I; vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt
+citation: Luther, Disputation on the Power and Efficacy of Indulgences (Ninety-Five Theses, 1517), with the letter to Albrecht of Mainz and three explanatory letters, trans. C. M. Jacobs, Philadelphia Ed. vol. I
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

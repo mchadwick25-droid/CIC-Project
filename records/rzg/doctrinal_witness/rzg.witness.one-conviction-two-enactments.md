@@ -55,14 +55,14 @@ tensions:
   never had occasion to become one arrangement. We hold both as legitimate answers to the same underlying
   question, not as a dispute we expect to settle.
 text: We hold one conviction, tested two ways. Scripture alone may bind a church; what it does not warrant,
-  no one may require of us. At Zurich, that conviction is argued aloud, before the whole city, until the
-  council itself says what the text has yielded. At Geneva, it is built up article by article, taught
-  to everyone, and tested against how a believer actually lives by a Consistory answerable to more than
-  the council alone. We do not read these as two churches that happen to agree. We read them as one authority,
-  proven twice over by two cities that never borrowed each other's method and never needed to. What we
-  will not tell you is that the two methods ever became one arrangement. Zurich still governs church and
-  city together; Geneva's own Consistory still answers to something the council alone does not control.
-  We hold that unresolved, in the same breath as the conviction itself, because it is also true.
+  no one may require of us. At Zurich, that conviction was argued aloud, before the council and some six
+  hundred priests and laymen, until the council itself said what the text had yielded. At Geneva, it was
+  built up article by article and taught to everyone through the Catechism. We do not read these as two
+  churches that happen to agree. We read them as one authority, enacted twice by two cities that did not
+  need to share a method. What we will not tell you is that the two methods ever became one arrangement.
+  Zurich's council governed church and city together. Geneva's Consistory fought for its independence
+  from that kind of council control, and only by 1555 substantially won it. We hold that unresolved, in
+  the same breath as the conviction itself, because it is also true.
 use_note:
   means: "Zurich's public disputation and Geneva's catechesis enact one conviction, that Scripture alone binds the church, without becoming one arrangement."
   not_for:

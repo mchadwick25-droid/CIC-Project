@@ -69,6 +69,7 @@ def open_session(
     package_manifest_hashes: dict[str, str] | None = None,
     package_locations: dict[str, str] | None = None,
     visitor_id: str | None = None,
+    internal: bool = False,
 ) -> int:
     """One sealed writer, two mode shapes (Artifact-7 SS1): an interview
     passes world_key/package_manifest_hash, a table passes world_keys/
@@ -98,7 +99,13 @@ def open_session(
     anon_cap is disabled, for a non-HTTP caller (the CLI battery
     harnesses), or for any session_started event written before this
     field existed - all three fold the same way as an absent
-    package_location above, not as an error."""
+    package_location above, not as an error.
+
+    internal: True when the session came from a browser the team marked as
+    its own (the app's ?ours=1 link). Written only when True, so every
+    other session, and every session_started written before this field
+    existed, reads as not internal. The admin dashboard leaves internal
+    sessions out of its headline numbers."""
     existing = store.read_events(session_id)
     if any(e.event_type == SESSION_STARTED_EVENT_TYPE for e in existing):
         raise SecondWriterError(
@@ -120,6 +127,8 @@ def open_session(
         payload["package_locations"] = package_locations
     if visitor_id is not None:
         payload["visitor_id"] = visitor_id
+    if internal:
+        payload["internal"] = True
     events.validate(SESSION_STARTED_EVENT_TYPE, payload)
     return store.append(
         session_id=session_id, event_uuid=event_uuid, event_type=SESSION_STARTED_EVENT_TYPE, payload=payload

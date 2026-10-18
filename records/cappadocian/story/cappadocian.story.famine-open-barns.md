@@ -35,7 +35,9 @@ relations:
   target: cappadocian.gravity.bishop-patron
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: the preaching is the preacher's own homiletic record, delivered at the time of the crisis, not a later retelling. Oration 43's narrative frame corroborates from a documented eyewitness within Basil's own circle, but it is an encomium with a case to make, and its scene-level detail is flagged rather than treated as independent record. Widely Accepted rather than Documented at full strength: the homily text itself has not been independently checked against an acquired edition (see divergence_note); the event's broad shape is not in serious doubt."
-tellable_as: "A famine strikes Caesarea, and a young priest's preaching shames the rich into opening their granaries."
+tellable_as: >-
+  A famine strikes Caesarea. A priest's preaching shames the rich into
+  opening their barns.
 text: >-
   In the years before Basil became bishop, drought struck Caesarea and its
   countryside. The harvest failed, and grain grew scarce and dear. Those who
@@ -51,6 +53,7 @@ text: >-
   lasted. When his own funeral oration recalled it years later, it was named
   as proof of the kind of bishop we already knew he would be, before
   he ever held the office.
+telling: "The harvest failed. Drought had struck Caesarea and the country around it in the years before Basil became bishop, and grain grew scarce and dear.\n\nThose with full storehouses held their grain back, waiting for the price to climb higher before they would sell.\n\nBasil, a priest then, preached against them and did not soften the charge. To hoard a neighbor's bread while that neighbor starves is theft, he taught, whatever the law calls it. He pointed to the man in the Gospel parable who tore down his barns to build bigger ones. That man learned the lesson too late.\n\nBasil preached against lending at interest for the same reason. To profit from another person's desperate need was the same kind of wrong.\n\nThen the granaries opened. Relief was organized for the hungry, paid for and handed out for as long as the crisis lasted."
 absent_detail: "The homilies' own exact wording is not verified against a checked edition, so no phrase from them is quoted here. No account survives from any one household actually fed during the famine - only the preacher's own record of the preaching and its effect."
 modern_contrast: >-
   A modern reader might picture organized disaster relief - a charity with a

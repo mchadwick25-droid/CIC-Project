@@ -39,8 +39,8 @@ relations:
   target: pahc.term.episkopos
 - type: associated-with
   target: pahc.term.eucharistia
-plain_meaning: 'The assembly: the called-out gathering of people. It is not a building, and not
-  an institution. Letters and a shared table join it to every other such gathering.'
+plain_meaning: 'The assembly: the called-out gathering of people. It was not a building, and it was not
+  an institution. Letters and a shared table tied it to every other such gathering.'
 world_word: ekklesia
 distortion_risk: high
 false_friend:
@@ -63,7 +63,8 @@ senses:
     we know of - ''wherever Jesus Christ is, there is the catholic church'' - meaning the whole
     church, everywhere, not a denomination. No church body of any later name exists yet to join or
     to visit.'
-quick_meaning: The assembly - the gathered people, under whatever roof holds them. Letters and a shared table join them to every other assembly.
+quick_meaning: 'The assembly: the people who gathered, in any house. Letters and a shared table tied each
+  assembly to the others.'
 use_note:
   means: "The assembly: a called-out gathering of people, joined by letters and a shared table to every other such gathering."
   not_for:
