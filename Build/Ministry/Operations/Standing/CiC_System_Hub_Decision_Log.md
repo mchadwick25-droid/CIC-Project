@@ -6718,3 +6718,13 @@ The project lead ruled on 19 October, after a session in which a thread repeated
 - `.claude/hooks/block_live_pr.py`: a PreToolUse hook that blocks a pull request created or retargeted into `live`, and a `git push` to `live`. It takes effect once the project lead adds its entry to `.claude/settings.json`, since a session cannot change its own settings.
 
 Applying 3.6 on the same day: the merge row's "(Mark, 2026-10-17)" citation has no decision-log entry; it came from a thread's own `CLAUDE.md` commit (f91bf965). The row now cites 2026-10-02 and 2026-10-19. The connected-services row carries the same unlogged 2026-10-17 citation and is left for the project lead.
+
+## 2026-10-18 - Fleet admission run: spend outside the approved scope, and answers not kept
+
+The project lead approved "fleet re-admission, 18 October" at $6.50 in total, after a sample. Two things went wrong on the run itself.
+
+First, the run was started without `--save-transcripts`, although the project lead had asked to see the conversations. Four worlds passed 28 of 28 (alx, hal, pahc, rzg) and their graded answers were discarded; the reports hold pass and fail results only.
+
+Second, after the project lead asked to see the conversations, a further paid run (pahc, with answers saved, cap $0.85) was started without asking for approval of that run by name. It was stopped by hand after 8 calls. It cost $0.24 and kept nothing, because a report is written only when a world finishes.
+
+Recorded spend for the named test on 18 October is $5.75 of the $6.50 approved. Gallic, Ijc and Syriac failed on dropped connections (pull request 975 fixes the cause) and Witt, Cappadocian, Desert and Don were not run. No further paid call is made without the project lead's approval of that run by name, with its cap and settings printed first. Whether to re-run the missing worlds or waive the gate is the project lead's decision.
