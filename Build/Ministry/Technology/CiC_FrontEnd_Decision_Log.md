@@ -5870,3 +5870,26 @@ their placement changed. New words: "Read more" and "Back to the conversation".
 
 Mark tries it on his own phone after the deploy, including the keyboard on iPhone, which
 could not be tested here.
+
+## 2026-10-18 — Change order: the public Corrections and Leads page is deleted
+
+**Decision (Mark, project lead).** The public Corrections and Leads page is deleted
+completely. The site needs only a place to give a heads-up about accuracy or craft, or to
+click a like.
+
+**What this supersedes in the 2026-10-16 entry:**
+
+- Items 7 and 8: nothing is listed on a public page any more. The person's reply promise
+  now reads "A person will check it against the sources."
+- The workflow where Mark adds closed items to the Corrections page weekly. It ends.
+  Closed flags are still triaged in the admin dashboard, but no public ledger exists.
+
+**What replaces it.** A like and a report form sit at the bottom of a conversation, a Table
+and each Church Family Tree page. This also touches two items:
+
+- Item 12: the page-level control asks only about accuracy or craft.
+- Item 15: a like stays private. There is no public count.
+
+**Done in this change.** The page and every footer and body link to it are removed, along
+with its sitemap entry, its README line and its unused outcomes styling. The privacy page
+describes what the page-level like and report store.

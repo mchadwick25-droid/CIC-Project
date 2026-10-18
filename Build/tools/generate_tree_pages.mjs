@@ -392,7 +392,6 @@ const sitemapUrls = [
   'https://churchinconversation.com/index.html',
   'https://churchinconversation.com/about.html',
   'https://churchinconversation.com/support.html',
-  'https://churchinconversation.com/corrections.html',
   'https://churchinconversation.com/atlas.html',
   ...Array.from(builtWorlds).map(id => `https://churchinconversation.com/traditions/${id}.html`),
   ...census.movements.map(m => `https://churchinconversation.com/tree/${m.id}.html`)

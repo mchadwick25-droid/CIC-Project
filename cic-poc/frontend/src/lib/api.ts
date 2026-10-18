@@ -154,6 +154,12 @@ export interface ExperienceFeedbackBody {
   email: string | null;
 }
 
+export type PageReportReason = 'accuracy' | 'craft';
+
+export type PageFeedbackBody =
+  | { kind: 'like'; page: string }
+  | { kind: 'report'; page: string; reason: PageReportReason; text: string; email: string | null };
+
 // A like or a flag on one stored turn, authorised by the session code.
 export async function sendTurnFeedback(sessionId: string, sessionCode: string, body: TurnFeedbackBody): Promise<void> {
   const response = await fetch(`${API_BASE}/session/${sessionId}/feedback`, {
@@ -168,6 +174,25 @@ export async function sendTurnFeedback(sessionId: string, sessionCode: string, b
 
 // A comment about the experience; needs no session.
 export async function sendExperienceFeedback(body: ExperienceFeedbackBody): Promise<void> {
+  const response = await fetch(`${API_BASE}/feedback`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+}
+
+// The id a page-level like or report names its page by: letters, digits and
+// / _ . : - only, at most 120 characters.
+export function pageFeedbackId(prefix: string, keys: string[]): string {
+  const id = `${prefix}:${keys.join('-')}`.replace(/[^A-Za-z0-9/_.:-]/g, '-');
+  return id.length <= 120 ? id : prefix;
+}
+
+// A like or a report on a whole page; needs no session.
+export async function sendPageFeedback(body: PageFeedbackBody): Promise<void> {
   const response = await fetch(`${API_BASE}/feedback`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

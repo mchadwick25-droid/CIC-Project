@@ -248,11 +248,11 @@ describe('Conversation - feedback controls', () => {
   const streamed = [{ index: 0, speaker: 'fix', lead: '', text: 'Still writing.', text_start: 0, text_end: 14, elements: [], cards: [] }];
 
   it('puts the feedback row under a finished voice turn only, not under the streaming reply', () => {
-    const { container, getByText } = render(<Conversation {...baseProps} sessionId="s1" turns={turns} streamed={streamed} isLoading />);
+    const { container } = render(<Conversation {...baseProps} sessionId="s1" turns={turns} streamed={streamed} isLoading />);
     expect(container.querySelectorAll('.turn--voice')).toHaveLength(2);
     expect(container.querySelectorAll('.turn-feedback')).toHaveLength(1);
     expect(container.querySelector('.turn--voice .turn-feedback')).not.toBeNull();
-    expect(getByText('This helped')).toBeInTheDocument();
+    expect(container.querySelector('.turn--voice .turn-feedback__like')).not.toBeNull();
   });
 
   it('shows no feedback row without a session code', () => {
@@ -263,11 +263,28 @@ describe('Conversation - feedback controls', () => {
   it('posts the like against the index of the turn in the transcript', async () => {
     const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
     vi.stubGlobal('fetch', fetchMock);
-    const { getByText } = render(<Conversation {...baseProps} sessionId="s1" turns={turns} />);
+    const { container } = render(<Conversation {...baseProps} sessionId="s1" turns={turns} />);
     await act(async () => {
-      fireEvent.click(getByText('This helped'));
+      fireEvent.click(container.querySelector('.turn--voice .turn-feedback__like') as HTMLElement);
     });
     expect(JSON.parse(fetchMock.mock.calls[0][1].body).turn_index).toBe(1);
+  });
+
+  it('puts the page like and report row above the delete link once the conversation has started', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
+    vi.stubGlobal('fetch', fetchMock);
+    const { container } = render(<Conversation {...baseProps} turns={turns} onDelete={async () => {}} />);
+    const row = container.querySelector('.page-feedback') as HTMLElement;
+    expect(row.nextElementSibling?.classList.contains('delete-conversation')).toBe(true);
+    await act(async () => {
+      fireEvent.click(row.querySelector('.turn-feedback__like') as HTMLElement);
+    });
+    expect(JSON.parse(fetchMock.mock.calls[0][1].body)).toEqual({ kind: 'like', page: 'conversation:fix' });
+  });
+
+  it('shows no page like or report row before the first question', () => {
+    const { container } = render(<Conversation {...baseProps} turns={[]} />);
+    expect(container.querySelector('.page-feedback')).toBeNull();
   });
 
   it('opens the experience card from the bar and posts the world key as the page', async () => {
