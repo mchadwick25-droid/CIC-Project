@@ -6696,3 +6696,9 @@ New findings by world, added to each `m1:readability` waiver: alx 4 (18 to 22), 
 Two other checks read the fields the readability gate grades: the question-ending gate and the spoken-scaffolding check. Both are for text the voice says back. They now read only the spoken roles, so their coverage is unchanged and the card stays out of them. A translational card opens with a modern question by design, which the scaffolding check would have failed in 49 alx cards alone. Whether the question-ending gate should read the card is a separate question; it would add one finding, `alx.term.eucharistia` ("gave no account of how.").
 
 The gate change alters every package's gates report, so all twelve built worlds were rebuilt and repinned. No world's records changed apart from the fixture line.
+
+## 2026-10-18 - The worst gloss cards rewritten
+
+The project lead chose, on 18 October, to rewrite the gloss cards scoring FK 18 or more: 27 card texts, in witt (16), gallic (4), hal (4) and rzg (3). He asked first what the cards are and whether they are recorded. They are the click-through panel on a marked term in the conversation app. No audio exists for them, and the public site's glossary shows only the term and its `plain_meaning`.
+
+Sonnet drafted the 27. An independent Opus review (`Build/Ministry/Operations/Audits/gloss_card_fk18_rewrites_review_2026-10-18.md`) passed 17 and corrected 10, mostly where a plainer word shifted the meaning. Each card keeps its claims and its quotations, which are verbatim in the vendored texts, and speaks from outside the world. All 27 pass the gate; each scores below FK 8, reported and not failed. The readability waivers fall to gallic 233, hal 148, rzg 108 and witt 291. The four packages were rebuilt and repinned. Cards below FK 18 stay as written.

@@ -31,9 +31,7 @@ claim_guards:
 plain_meaning: "The monastery. At Bethlehem it meant a men's house and a women's house under one project. The women lived in three companies that met to pray. Paula, then Eustochium, led the women."
 world_word: monasterium
 false_friend:
-- '"double monastery" as a formal institution (that label belongs to later medieval arrangements;
-  here it is modern shorthand for two households sharing a place, a purpose, and a funder - not one
-  institution)'
+- '"double monastery" as a formal institution. That label belongs to later forms from the Middle Ages. Here it is modern shorthand. It means two households that shared a place, a purpose, and a funder. They were not one institution.'
 senses:
   informational: 'Two households, under one project, sharing a place but not a roof: the men directed
     by the scholar, the women by the widow and then her daughter, with a hospice for travelers alongside

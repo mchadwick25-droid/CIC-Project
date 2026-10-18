@@ -115,10 +115,7 @@ senses:
     what a sacrament is used by, why the conscience can be at rest, and what makes one worthy at the table.
     Our own confession can say the whole doctrine ''is to be referred to that conflict of the terrified
     conscience.'''
-  translational: 'Do not hear ''faith alone'' as a license that works do not matter, and do not hear faith
-    as private belief we produce in ourselves: we mean trust in a promise spoken from outside, received
-    not produced, standing on Word and sacrament, followed necessarily by love and works that earn nothing
-    -- and a formula we ourselves had to fence against our own radicals by 1529.'
+  translational: 'Do not hear ''faith alone'' as a license that works do not matter. Do not hear faith as private belief that people produce in themselves. The Wittenberg reformers meant trust in a promise spoken from outside. It is received, not produced. It stands on Word and sacrament. Love and works follow it necessarily, and they earn nothing. ''Faith alone'' was also a formula the reformers had to fence against their own radicals by 1529.'
 quick_meaning: Trust that holds God's promise. It alone makes us right with God, and it always rests on
   something outside us.
 distortion_risk: high

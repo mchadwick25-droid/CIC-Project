@@ -95,10 +95,7 @@ senses:
     world to watch it not keep them. He does not write about a monk's cell going cold. He writes
     about a church standing empty on its own feast day while the circus next door is full - and he
     names that, not a monk's private lukewarmness, the deeper wound.
-  translational: >-
-    Not "some people skipped church" as a mild modern shrug - Salvian's charge is closer to: people
-    who had just promised, at their own baptism, to renounce exactly this, walked out mid-service the
-    moment they heard the games had started, on the same day they were supposedly keeping a feast.
+  translational: 'This is not "some people skipped church," a mild modern shrug. Salvian''s charge is closer to this. At their own baptism, people had just promised to renounce exactly these shows. Yet they walked out mid-service the moment they heard the games had started. They did so on the same day they were supposedly keeping a feast.'
 quick_meaning: >-
   Salvian's own charge against us: on a feast day, when the games were on as well, the church emptied
   and the circus filled. He made it of his own cities.

@@ -118,9 +118,7 @@ senses:
     two absent are named rather than papered over.
   personal: 'This is the agent hub of our whole ecology: the thing that ''must do it'' everywhere we look
     -- our sacraments, our catechism, our office, our liberty, our song.'
-  translational: 'Do not hear ''the Word'' as a book we read alone, or ''the Word did it all'' as modesty:
-    we mean a living, external speech-act of God that begets, makes sacraments, drives off the devil and
-    reforms churches on its own -- heard, not merely read, and the reason a preacher may not use force.'
+  translational: 'Do not hear ''the Word'' as a book read alone. Do not hear ''the Word did it all'' as modesty. The Wittenberg reformers meant a living, external speech-act of God. It begets, makes sacraments, drives off the devil, and reforms churches on its own. It is heard, not merely read. It is the reason a preacher may not use force.'
 quick_meaning: God's own speech. It makes our sacraments, and does the work of reform on its own.
 distortion_risk: high
 use_note:

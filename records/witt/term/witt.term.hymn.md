@@ -97,9 +97,7 @@ senses:
     on).
   personal: This is the register with the widest reach among our own people -- teaching set to old tunes
     so the unlearned may learn or pray while the learned keep their Latin.
-  translational: 'Do not hear our hymns as mere ornament, or the German hymn as abolishing Latin, or ''A
-    Mighty Fortress'' as a defiant anthem at Worms: we mean teaching set to memorable tunes, a household
-    work-song, a burial comfort, and a weapon against the devil.'
+  translational: 'Do not hear the hymns as mere ornament. Do not hear the German hymn as abolishing Latin. Do not hear ''A Mighty Fortress'' as a defiant anthem at Worms. The Wittenberg reformers meant teaching set to memorable tunes. A hymn was a household work-song, a burial comfort, and a weapon against the devil.'
 quick_meaning: Songs in our own language, teaching those who cannot read Latin.
 distortion_risk: high
 use_note:

@@ -34,8 +34,7 @@ plain_meaning: Mutual Consent was our name for the Consensus Tigurinus. Zurich a
   in 1549. It stated what we held about the sacraments.
 world_word: Mutual Consent (the Consensus Tigurinus)
 false_friend:
-- a modern ecumenical statement of general Christian unity, rather than a specific negotiated doctrinal
-  agreement
+- 'a modern statement, in general terms, that all Christians are one. It was in fact a specific agreement on doctrine, worked out by both sides.'
 senses:
   informational: In 1549, the Ministers of the Church of Zurich and John Calvin, Minister of the Church
     of Geneva, published a formal agreement together. This is the single most direct evidence that our

@@ -89,10 +89,7 @@ senses:
     its public form documented as changing.
   personal: 'This word carries our own history of restraint: refusing to force a right reform ahead of
     the Word, even against our own impatience.'
-  translational: 'Do not assume we abolished the mass, or that our earlier and later statements contradict
-    each other: we mean the mass kept as a testament and refused as a sacrifice, its private form abolished
-    and its public form retained ''with the highest reverence'' -- one doctrine, a documented change of
-    public form.'
+  translational: 'Do not assume the Wittenberg reformers abolished the mass. Do not assume their earlier and later statements contradict each other. They meant the mass kept as a testament and refused as a sacrifice. Its private form was abolished. Its public form was retained ''with the highest reverence.'' This is one doctrine, with a documented change of public form.'
 quick_meaning: Kept as God's promise, never as a sacrifice. Private masses ended; public worship stays.
 distortion_risk: high
 use_note:

@@ -87,9 +87,7 @@ senses:
     through the household catechism to the confession's own rule of reading.
   personal: Nearly everything else we hold runs on this grammar -- repentance's two parts, the Word's
     whole authority, the catechism's own order, the conscience's whole sequence.
-  translational: 'Do not hear ''Law and Gospel'' as a labelled system, or as Old Testament against New,
-    or as legalism against grace in general: we mean two kinds of speech found throughout all of Scripture,
-    read in order on a single person -- first the illness, then the remedy.'
+  translational: 'Do not hear ''Law and Gospel'' as a labelled system. Do not hear it as Old Testament against New. Do not hear it as legalism against grace in general. The Wittenberg reformers meant two kinds of speech found throughout all of Scripture. They are read in order on a single person: first the illness, then the remedy.'
 quick_meaning: Scripture as command and promise. First the diagnosis, then the cure.
 distortion_risk: high
 use_note:

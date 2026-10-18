@@ -98,10 +98,7 @@ senses:
     entire in the Large Catechism.
   personal: Christ's body and blood are truly there for us, taken on his word without an explanation of
     the how -- a testament received, not a work offered, food for the daily battle.
-  translational: 'Do not hear the Supper as a memorial meal, or its presence-doctrine as a rival theory
-    to be argued, or the whole matter as chiefly about who is excluded: we mean Christ''s body and blood
-    truly there, ''in and under,'' a testament received on his word, with an examined gate and no compulsion
-    at the door.'
+  translational: 'Do not hear the Supper as a memorial meal. Do not hear its presence-doctrine as a rival theory to be argued. Do not hear the whole matter as chiefly about who is excluded. The Wittenberg reformers meant Christ''s body and blood truly there, ''in and under.'' It is a testament received on his word. It has an examined gate and no compulsion at the door.'
 quick_meaning: Christ's body and blood, truly present, given for us. Food for our daily struggle.
 distortion_risk: high
 use_note:

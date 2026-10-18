@@ -79,10 +79,7 @@ senses:
     At Tours the angels are part of what the disciple sees, and part of what Brictio sneers at. At
     Marseilles the same category is the shape of a counterfeit the monk must learn to tell from the
     true.
-  translational: >-
-    Not generic legend, and not a shared convention: at Tours angelic visits are reported in the
-    register of eyewitness testimony, alongside Martin's power; at Marseilles the angel most spoken
-    of is the devil's disguise.
+  translational: 'This is not generic legend. It is not a shared convention. At Tours, the visits of angels are told as eyewitness testimony, next to Martin''s power. At Marseilles, the angel most spoken of is the devil''s disguise.'
 quick_meaning: >-
   At Tours, angels came to Martin often: two armed like warriors at a temple, and one on a ship who
   told him what a synod had decided. At Marseilles, mostly the devil's false angel of light.

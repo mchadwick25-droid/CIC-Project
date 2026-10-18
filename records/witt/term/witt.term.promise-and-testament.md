@@ -92,10 +92,7 @@ senses:
   personal: >-
     Our sacraments and our prayer are grounded the same way. A promise comes first, and faith takes hold
     of it second.
-  translational: >-
-    Do not hear 'promise' as a hope for later, and do not hear 'testament' as a book of the Bible: we
-    mean a word God speaks first, now, to be taken by faith, and, at the altar, Christ's own bequest received
-    by heirs, never a work rendered to God.
+  translational: 'Do not hear ''promise'' as a hope for later. Do not hear ''testament'' as a book of the Bible. The Wittenberg reformers meant a word God speaks first and now, to be taken by faith. At the altar, it is Christ''s own bequest, received by heirs. It is never a work rendered to God.'
 quick_meaning: God's word, given first. At the altar, a gift we receive, never a sacrifice we offer.
 distortion_risk: high
 use_note:

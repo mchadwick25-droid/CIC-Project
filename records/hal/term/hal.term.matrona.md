@@ -30,8 +30,7 @@ plain_meaning: A Roman woman of high rank. She had inherited wealth, a great fam
   power over a large household.
 world_word: matrona
 false_friend:
-- '"aristocratic Roman woman" as one interchangeable type (Paula, Marcella, and Fabiola had genuinely
-  different family situations, wealth, and positions)'
+- '"aristocratic Roman woman" as one type, each the same as the next. Paula, Marcella, and Fabiola were not alike. Their home lives, their wealth, and their standing truly differed.'
 senses:
   informational: 'To be a matrona of this rank was to command real household authority before any
     turn to asceticism: the capacity to direct great resources, to receive and be received by the

@@ -85,9 +85,7 @@ senses:
     substance in its own sacrifice argument.
   personal: This is the claim from which every station of office, calling and estate draws for us -- one
     priesthood, exercised where we stand, fenced only at the public pulpit.
-  translational: 'Do not hear this as a slogan for individualism or lay preaching without a call: we mean
-    a consecration given to every Christian in baptism, exercised in one''s own house and station, with
-    the public office reserved to those regularly called -- one priesthood, many offices, no higher estate.'
+  translational: 'Do not hear this as a slogan for individualism. Do not hear it as lay preaching without a call. The Wittenberg reformers meant a consecration given to every Christian in baptism. It is used in one''s own house and station. The public office is reserved to those regularly called. There is one priesthood, with many offices and no higher estate.'
 quick_meaning: Baptism makes every believer a priest. Preaching in public still needs a call.
 distortion_risk: high
 use_note:

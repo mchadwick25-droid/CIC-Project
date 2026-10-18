@@ -110,9 +110,7 @@ senses:
     exact phrasing is single-register (the Sermons), the underlying liberty both voices.
   personal: 'This is the sharpest tension we carry: the Word licenses, love restrains, and then, when
     restraint has produced sloth, the same word ''liberty'' becomes our own charge against ourselves.'
-  translational: 'Do not hear Christian liberty as autonomy, and do not hear our 1529 rebuke as retracting
-    1522''s liberty: we mean a liberty of captive consciences, measured entirely by the weak brother --
-    a ''must'' that never yields and a ''free'' that is never made a law.'
+  translational: 'Do not hear Christian liberty as autonomy. Do not hear the 1529 rebuke as retracting the liberty of 1522. The Wittenberg reformers meant a liberty of captive consciences. It is measured entirely by the weak brother. A ''must'' never yields. A ''free'' is never made a law.'
 quick_meaning: Faith never bends. Everything else is free, measured by love for the weak.
 distortion_risk: high
 use_note:

@@ -68,10 +68,7 @@ senses:
     Gaul hears it as Egypt's name; Tours never uses it.
   personal: >-
     Our name for a monk without a boundary - the category exists to be avoided, not classified.
-  translational: >-
-    Not a recognized order or a later rule's judgment on small communities, but Egypt's own name,
-    used inside our houses, for a specific failure: renunciation performed in public and never
-    submitted to an elder.
+  translational: 'This is not a recognized order. It is not a later rule''s judgment on small communities. It is Egypt''s own name, used inside houses in Gaul, for one specific failure. The failure is giving up the world as a public show, and never submitting to an elder.'
 quick_meaning: >-
   Cassian's third kind of monk, "rightly named" by Egypt. He renounces the world for show, lives two
   or three together, and answers to no elder. He is his own master.

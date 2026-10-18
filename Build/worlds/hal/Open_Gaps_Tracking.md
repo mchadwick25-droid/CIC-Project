@@ -884,3 +884,7 @@ Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put t
 - `records/hal/story/hal.story.day-at-monastery.md`: "Which psalms they sang, and how the two houses shared their worship, no one wrote down, or nothing that was written survived." -> "Either no one wrote down which psalms they sang and how the two houses shared their worship, or nothing that was written survived."
 
 Status: CLOSED for this review.
+
+## OG-28. The worst gloss cards rewritten, 2026-10-18.
+
+Rewritten: `hal.term.grammaticus` (`senses.translational` and `false_friend[0]`), `hal.term.matrona` and `hal.term.monasterium` (`false_friend[0]`). On 17 October the project lead ruled that the readability gate grades the gloss card (`senses.translational` and each `false_friend` line), and that only cards scoring FK 18 or more are rewritten now (System Hub Decision Log, "2026-10-18 - The worst gloss cards rewritten"). Sonnet drafted; an independent Opus review checked each card against the record and, where it quotes one, the vendored text (`Build/Ministry/Operations/Audits/gloss_card_fk18_rewrites_review_2026-10-18.md`), and corrected 3 of this world's 4. Each card keeps every claim and quotation, adds nothing, and speaks from outside the world. Every rewritten card now scores FK 10 or below and FRE 60 or above; each scores below FK 8, which is reported, not failed. The `m1:readability/hal` waiver falls from 156 to 148. Cards below FK 18 stay as written. Package rebuilt and repinned. Status: CLOSED.

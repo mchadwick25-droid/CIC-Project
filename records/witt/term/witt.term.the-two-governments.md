@@ -106,11 +106,7 @@ senses:
   personal: >-
     This distinction keeps the conscience from being ruled by the sword, and the sword from being the
     Church's instrument. We prayed for the prince in the petition for daily bread.
-  translational: >-
-    Do not hear 'the two kingdoms doctrine' as a settled system, or assume it separates church and state
-    as moderns do: we mean two governments, both God's, distinguished so the conscience is not ruled by
-    the sword nor the sword by the Word -- and a second, different 'two kingdoms' of Christ and Satan
-    that must not be merged with the first.
+  translational: 'Do not hear ''the two kingdoms doctrine'' as a settled system. Do not assume it separates church and state as moderns do. The Wittenberg reformers meant two governments, both God''s. They are distinguished so that the sword does not rule the conscience, and the Word does not rule the sword. There is also a second, different ''two kingdoms,'' of Christ and Satan. It must not be merged with the first.'
 quick_meaning: 'God''s two rules: the Word governs Christians, the sword restrains evil. Never confused.'
 distortion_risk: high
 use_note:

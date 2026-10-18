@@ -35,8 +35,7 @@ plain_meaning: A catechism is a fixed, memorizable statement of doctrine. We tau
   We held more than one. They were not all the same voice.
 world_word: Catechism
 false_friend:
-- a single, uniform genre repeated identically across every Reformed city, rather than several distinct
-  catechetical voices
+- 'a single type of text, repeated the same way in all Reformed cities. In fact, there were several catechism voices. Each was distinct.'
 senses:
   informational: 'We hold at least three distinct catechetical voices: Calvin''s own Geneva Catechism,
     the Heidelberg Catechism, and Zwingli''s own earlier, less formally catechetical instruction. This

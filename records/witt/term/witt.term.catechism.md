@@ -110,10 +110,7 @@ senses:
     This was our word for the whole of Scripture, made short enough to say and repeat. No one ever finished
     it. Our books set it for weekly examination, for singing at work, and as the gate to the Sacrament.
     We wrote it because we believed our own people were not holding what they had heard.
-  translational: >-
-    Do not hear 'catechism' as a children's textbook learned once, or as a badge of denominational identity:
-    we mean the whole of Scripture in three sayable parts, recited daily for life by every Christian,
-    examined weekly, and never finished -- we ourselves remain, by our own word, pupils of it.
+  translational: 'Do not hear ''catechism'' as a children''s textbook learned once. Do not hear it as a badge of denominational identity. The Wittenberg reformers meant all of Scripture in three sayable parts. Every Christian was to recite it daily for life, and be examined on it weekly. No one ever finished it. By their own word, the reformers remained its pupils too.'
 quick_meaning: The three parts every Christian must know, said daily for life. Never outgrown, never finished.
 distortion_risk: high
 use_note:

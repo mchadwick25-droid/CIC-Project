@@ -84,9 +84,7 @@ senses:
     as the occasion -- the transaction and the false assurance it sold -- against which our whole first
     public word was spoken, and as a word that had already become, in our own lifetime, a thing our own
     book explains to children rather than a trade any of us still sees.
-  translational: 'If you hear ''indulgence'' as buying forgiveness of guilt outright, you have the wrong
-    target: what we refused was a purchased remission of penalty and a false assurance sold in a letter,
-    not the idea that penalty for sin exists at all.'
+  translational: 'Some hear ''indulgence'' as buying forgiveness of guilt outright. That is the wrong target. The Wittenberg reformers refused a bought release from penalty. They also refused a false assurance sold in a letter. They did not deny that penalty for sin exists at all.'
 quick_meaning: A paid letter promising less penalty for sin. We attacked this practice in 1517. By 1529
   it was only a memory.
 distortion_risk: high

@@ -90,9 +90,7 @@ senses:
     (1520-21, 1539-45) demonstrably differing on the adversary's own name.
   personal: We name one adversary two ways depending on the room we are speaking in -- neither register
     cancels the other, and neither should be flattened into the whole of what we mean.
-  translational: 'Do not hear ''Antichrist'' as a fixed doctrine about the papal office in general, or
-    the confessional courtesy as a retraction: we mean one adversary named in two pitches, with the sharpest
-    test being conditional -- Antichrist''s kingdom if human traditions are made to justify.'
+  translational: 'Do not hear ''Antichrist'' as a fixed doctrine about the pope''s office as such. Do not hear the polite words of the confession as taking it back. The Wittenberg reformers meant one foe, named in two pitches. The sharpest test has a condition. The papacy belongs to Antichrist''s kingdom if human traditions are made to justify.'
 quick_meaning: >-
   'Antichrist' in sharp preaching; a courteous tone toward the Church of Rome in the confession.
 distortion_risk: high

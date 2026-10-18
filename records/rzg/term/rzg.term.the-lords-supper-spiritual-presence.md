@@ -51,9 +51,7 @@ plain_meaning: We refused two claims about the Lord's Supper. It did not repeat 
   Christ is truly given, by the Spirit, to whoever receives him believing.
 world_word: The Lord's Supper and Spiritual Presence
 false_friend:
-- a minor liturgical or theological technicality - a dispute over whether communion bread is 'really'
-  the body of Christ that modern ears, used to treating such questions as symbolic by default, are likely
-  to find hard to take seriously
+- 'a minor technicality of worship or theology. It is a dispute over whether communion bread is ''really'' the body of Christ. Modern ears treat such questions as symbolic by default. They are likely to find it hard to take seriously.'
 senses:
   informational: Christ, having sacrificed himself once, is a sacrifice sufficient for eternity - so the
     Mass is not a sacrifice, but a remembrance of the sacrifice, and any priest who claims to offer Christ

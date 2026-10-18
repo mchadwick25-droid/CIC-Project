@@ -122,13 +122,7 @@ senses:
     the hours is to be exceeded: continual prayer joined to work is worth more, "and more acceptable as
     a free gift than the duties which are performed by the compulsion of a rule." To belong among us is
     to be allowed to pray with the brethren.
-  translational: >-
-    'Did you all pray the Divine Office, with Lauds and Prime and Compline?' - the later names are a
-    nineteenth-century editor's; what Cassian's houses had was an Egyptian pattern of twelve psalms
-    received as angelic and still being argued over (a new morning office was admitted "after long
-    discussion" in his own day), kept imperfectly in Gaul with one loud Gallic addition, and what
-    Martin's own house sang is unknown - the aim, prayer that never stops, is the only part attested
-    everywhere.
+  translational: 'A modern reader may ask: ''Did you all pray the Divine Office, with Lauds and Prime and Compline?'' Those later names are a nineteenth-century editor''s. Cassian''s houses had an Egyptian pattern of twelve psalms. They received it as angelic, and people were still arguing over it. A new morning office was admitted "after long discussion" in his own day. Gaul kept the pattern imperfectly, with one loud Gallic addition. What Martin''s own house sang is unknown. The aim, prayer that never stops, is the only part attested everywhere.'
 quick_meaning: >-
   Prayer that never stops, the aim of every monk. At Marseilles, a received Egyptian system of twelve
   psalms at fixed hours built to serve that aim.

@@ -94,9 +94,7 @@ senses:
     only from the father's side, no woman's own voice on this term is in our library.
   personal: The noblest estate of all, before which even the clerical and civil estates bow -- and the
     household in which our whole formation is meant to happen.
-  translational: 'Do not hear marriage as a private romantic bond, or our teaching as merely permitting
-    clergy to marry: we mean the noblest and commonest estate of all, ordained at creation, the household
-    of formation, a public cause for which priests were killed.'
+  translational: 'Do not hear marriage as a private romantic bond. Do not hear the teaching as merely permitting clergy to marry. The Wittenberg reformers meant the noblest and commonest estate of all, ordained at creation. It is the household of formation. It was a public cause for which priests were killed.'
 quick_meaning: The most common and, we say, the noblest estate. Ordained by God at creation.
 distortion_risk: high
 use_note:

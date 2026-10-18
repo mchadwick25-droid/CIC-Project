@@ -93,9 +93,7 @@ senses:
   personal: This word explains, in one breath, why we kept private confession and refused the sale of
     pardons at the same time -- both answer to the same two-part shape, terror then comfort, that our
     whole doctrine runs on.
-  translational: 'Do not hear ''repentance'' as an episode of feeling sorry, and do not hear ''penance''
-    as a penalty a priest assigns: we hold one word, a lifelong turning with two parts, daily in baptism
-    and sacramental in absolution, never a work that earns anything.'
+  translational: 'Do not hear ''repentance'' as an episode of feeling sorry. Do not hear ''penance'' as a penalty a priest assigns. For the Wittenberg reformers these were one word. It named a lifelong turning with two parts. It is daily in baptism and sacramental in absolution. It is never a work that earns anything.'
 quick_meaning: A whole-life turning, not a single ritual. First comes fear under the Law. Then comes trust
   in the promise.
 distortion_risk: high

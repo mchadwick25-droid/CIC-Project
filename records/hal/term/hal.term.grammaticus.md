@@ -30,8 +30,7 @@ retrieval:
 plain_meaning: "The Roman school stage of Latin training in language and books. Jerome studied under a famous teacher, Donatus."
 world_word: grammaticus
 false_friend:
-- equal certainty about the grammar training and the later Hebrew mastery (the grammar training is
-  solidly attested; the Hebrew fluency it supposedly enabled is separately and seriously contested)
+- 'equal certainty about the grammar training and the later Hebrew mastery. The grammar training is well attested. The claim that it made him fluent in Hebrew is a separate one. It is seriously contested.'
 senses:
   informational: Before there was a translator of Hebrew, there was a schoolboy of Latin grammar
     and literature, trained under a teacher whose name he kept, decades later, calling him simply
@@ -42,8 +41,7 @@ senses:
   personal: The whole later labor - the ear for a word's exact weight, the instinct to defend a rendering
     letter by letter - was first formed on Virgil and Cicero, not on scripture. That debt became
     this world's own sharpest inner conflict.
-  translational: 'Roughly: elite secondary education in language and literature - the prerequisite
-    of every scholarly practice this world fused with its asceticism.'
+  translational: 'Roughly, this is elite secondary schooling in language and books. It is what each scholarly practice rests on. This world fused those practices with its asceticism.'
 quick_meaning: Latin school under Donatus, which was the base for all of Jerome's later work.
 distortion_risk: medium
 use_note:

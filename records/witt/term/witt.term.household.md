@@ -86,10 +86,7 @@ senses:
     this word; the catechization practice generally is both voices.
   personal: 'This is our own chosen site of formation: the place where the Word is recited, the Sacrament
     prepared for, the conscience examined, the prince prayed for, the devil driven off.'
-  translational: 'Do not hear ''household'' as the modern nuclear family, and do not hear the father''s
-    weekly examination as abuse: we mean a stratified house of kin and servants under one head answerable
-    to God, prescribed as the place where every Christian is formed -- stated as a duty, unattested as
-    any actual house''s practice.'
+  translational: 'Do not hear ''household'' as the modern nuclear family. Do not hear the father''s weekly examination as abuse. The Wittenberg reformers meant a house with ranks, of kin and servants, under one head answerable to God. They prescribed it as the place where every Christian is formed. This is stated as a duty. No actual house''s practice is attested.'
 quick_meaning: >-
   Where the catechism was taught. The father was to question his family and servants each week.
 distortion_risk: high
