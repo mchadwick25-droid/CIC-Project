@@ -48,10 +48,7 @@ exchange:
     with them he never wrote, beyond saying that no one here kept the
     fathers' perseverance unbroken a year. The people of the countryside were the
     ones the saint's power was for, converted in crowds by a hand laid on
-    all of them; not one of them speaks. And what was said and done when our
-    teaching on grace was carried to Africa and Rome - the reports going
-    out, the sentence from the Apostolic See coming back - no one among us
-    wrote down as a story. Vincent argued about what that sentence meant;
+    all of them; not one of them speaks. And no one among us wrote down as a story what was said and done when our teaching on grace was carried to Africa and Rome - the reports going out, the sentence from the Apostolic See coming back. Vincent argued about what that sentence meant;
     nobody told of its arrival. One more thing belongs with all of this, and
     you should weigh it. What we know of Tours comes from one man's telling
     of one saint. He visited Martin, and had his story partly from Martin

@@ -2682,3 +2682,17 @@ Status: OPEN.
 The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `narrative.who_speaks`, `legacy`, `sourcing`, `read_first`, `skim.tile` and the envelope's `divergence_note` still say "this world", "this record" or "this library". Several voice-craft fields also fail the readability gate at the base, as `regate witt` reports.
 
 Status: OPEN for the project lead to schedule.
+
+## OG-76. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: Katharina's question is Luther's own report (story, teaser, voice); the Elector note no longer names Frederick for 1530; "Baptism is daily" now says the old self is drowned by daily repentance; "young university" removed from the tile; the five old-translation quotes are reported speech; long sentences and notes trimmed.
+**Open:**
+- No witt record gives a modern location for Wittenberg or the Wartburg; both notes are unchanged.
+- The Walter teaser and voice still say Luther "worked out" the Gospel and Epistle settings, which drifts slightly from Bacon 766-768.
+- Authoring modern renderings for the Wittenberg quotes would let the tellings quote them directly.
+
+Status: OPEN for the project lead on the three items above.
+
+The recheck also removed "young university" from the census copy of the tile (`cic-website/data/world-census.json`, `index.html`, `atlas-v3.html` and the tradition page).

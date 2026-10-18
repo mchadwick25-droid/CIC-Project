@@ -20,6 +20,8 @@ speaks etically, may use the standard's own phrasing directly.
 it cannot answer — "We cannot tell you why God allows such suffering," not
 "We cannot tell you why." Never end on a bare "how", "why" or "when".
 
+**Put the subject first.** An honest limit ends on what is not known, never on a bare verb such as "kept" or "wrote down", and never on "such" pointing back past the sentence before.
+
 Instruments wired with it (see `scripts/phase2_checkpoint.py`):
 per-turn B2 hard edge (already ruled); facilitator readability report;
 sentence-discipline report (avg ≤ 20 guard, > 25-word sentences listed);

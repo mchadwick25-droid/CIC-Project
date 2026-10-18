@@ -1988,3 +1988,19 @@ The round files, the fixer's report and the cap ruling are named in "Cap ruling:
 - The Cirta story `divergence_note` says the story comes only through Optatus, against the Augustine evidence.
 
 Status: OPEN for the record-level defects. CLOSED for the participant-facing text of this pass.
+
+### OG-43. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the story is 696 words, under its cap; the setup-and-reveal question is gone; the Passio Marculi teaser is shorter; the Cebarsussi note no longer names a province no record carries; the Maximianists, Petilian and ten other notes trimmed.
+
+Status: CLOSED for this review.
+
+### OG-44. Unclear honest-limit endings, 2026-10-17.
+
+Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put the object first and ended on a bare verb, so the ending did not say what is unknown. Each now puts the subject first and ends on what is not known. Wording and facts are the records' own; nothing was added.
+
+- `records/don/doctrinal_witness/don.dw.the-creed-we-shared.md`: "Whether he died to take our punishment, in our place, for our sins, nobody among us wrote down, for or against." -> "Nobody among us wrote down, for or against, whether he died to take our punishment, in our place, for our sins."
+
+Status: CLOSED for this review.

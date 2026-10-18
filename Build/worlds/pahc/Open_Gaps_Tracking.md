@@ -802,3 +802,24 @@ Status: OPEN.
 The Atlas story pass touched only the tile, the story, the card stories and highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first`, `narrative` and the body notes still use "this world" and dash asides. One body note is now false: it says the story quotes "a crude and excessive superstition" as the Pliny quote's modern rendering. The record's rendering is "nothing but a depraved superstition that went too far", which the story now quotes.
 
 Status: OPEN for the project lead to schedule.
+
+### OG-36. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the Quintus teaser no longer puts him before the praise of Polycarp, and the cards now run Quintus then Polycarp; the Ignatius, Polycarp, 1 Clement, Nero and Pliny tellings keep the "we" voice with emic doubts; Polycarp's bishop title is traced to Ignatius and Smyrna's letter; denarii and acres replace denaria and plethra in the Domitian telling; the main story drops its aphorism ending; six notes trimmed.
+**Open:** the Domitian record's tellable notes and source notes still use "plethra" and "denaria" as internal references.
+
+Status: CLOSED for this review except the open item.
+
+### OG-37. House Churches intro, ministrae wording and unclear endings, 2026-10-17.
+
+The project lead found these in a live app conversation. `records/worlds/pahc.yaml` no longer says "ordinary houses" and no longer ends on an abstraction: the intro keeps the household as the community's ethos and says what the churches were still settling (who should lead, and how scattered households could stay one church by letter). `pahc.term.ministrae` now reads "No one wrote down what the women called themselves." `pahc.witness.outsider-view` no longer says "not ours": it says ministrae was Pliny's Latin word and that whether the community used it is not known, which matches the term record. `pahc.witness.jesus-as-god` and `pahc.force.state-pressure` lead with their subject and name the demand.
+
+**Open:**
+- The Facilitator's welcome says "answers only from what's actually known of this world". It is fixed template text in `engine/m4/facilitator_turns.py` (`DOOR` and `TABLE_DOOR`), so it needs an engine change, which was ruled out for this pass.
+- Build/Ministry design drafts still carry "ordinary houses" (for example `Build/Ministry/Features/Website-V2/Sandbox/D1-directions/05-product-led-clarity/meet-chloe.html`).
+
+Status: CLOSED for the records; OPEN for the Facilitator welcome text.
+
+The two readability findings the `pahc.force.state-pressure` rewrite removed cut the pahc count from 113 to 111, so the `m1:readability/pahc` waiver in `engine/m9/enforce.py` is tightened to 111.

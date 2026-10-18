@@ -41,8 +41,8 @@ orientation:
       From around 311, two rival churches stood side by side in Roman
       North Africa, centered on Carthage and Numidia. Both held the same
       faith in the Trinity and in Christ, in the same Latin words. They
-      split over one question. Could a bishop's conduct under
-      persecution void what his hand later gave? One side said yes. It
+      split over whether a bishop's conduct under persecution could
+      void what his hand later gave. One side said it could. It
       called itself the Church of the Martyrs, the one pure, persecuted
       and true church. History calls its members Donatists, after an
       early bishop. Optatus, an opponent, says its bishops called
@@ -63,12 +63,10 @@ orientation:
       cleared.
     grounded_in: [don.force.diocletianic-persecution-traditio-demand, don.term.traditor-traditio, don.term.purity-ministerial, don.figure.caecilian, don.figure.felix-of-aptungi, don.figure.majorinus, don.gravity.ministerial-purity, don.story.acta-purgationis-felicis, don.core.donatism]
   - text: >-
-      The doctrine had one public consequence, repeated for a century.
-      Anyone who crossed over from the rival church was washed again.
-      The Donatists did not count it as a second baptism. A hand from a
-      broken line had given nothing the first time. So the Donatist font
-      gave a convert his first real baptism. Imperial edicts named the
-      practice as an offense.
+      For a century, anyone who crossed over from the rival church was
+      washed again. The Donatists did not count it as a second baptism.
+      A hand from a broken line had given nothing the first time.
+      Imperial edicts named the practice as an offense.
     grounded_in: [don.gravity.rebaptism-boundary-marking, don.term.rebaptism]
   - text: >-
       Persecution came again in 347 and 348. This time it came at the
@@ -143,7 +141,7 @@ orientation:
   - story_id: don.story.passio-marculi
     title: "A Cup, a Crown and a Palm at Novapetra"
     when: "347-348 (the Macarian persecution; the text gives a day but no year)"
-    teaser: "In his church's own account, a bishop who gave up worldly advancement is flogged, shown a cup, a crown and a palm, and thrown from a cliff."
+    teaser: "In his church's own account, a bishop is flogged, shown a cup, a crown and a palm, and thrown from a cliff."
     grounded_in: [don.story.passio-marculi]
   - story_id: don.story.macrobius-letter
     title: "A Bishop Writes About Two Men Sunk in the Sea"
@@ -313,7 +311,7 @@ orientation:
   highlights:
   - phrase: "traditores"
     kind: term
-    note: "Latin for those who handed over. It names clergy said to have given up the scriptures in the persecution. Donatists held that such a man could no longer baptize or ordain."
+    note: "Latin for those who handed over the scriptures in the persecution. Donatists held that such a man could no longer baptize or ordain."
     grounded_in: [don.term.traditor-traditio]
   - phrase: "primate"
     kind: term
@@ -333,24 +331,24 @@ orientation:
     grounded_in: [don.term.catholicus, don.term.caecilianist]
   - phrase: "the same faith"
     kind: term
-    note: "The faith in the Trinity and in Christ held across Latin North Africa. Both churches confessed it in the same Latin words. They split over which bishops were valid."
+    note: "The faith in the Trinity and in Christ, which both churches confessed in the same Latin words. They split over which bishops were valid."
     grounded_in: [don.core.donatism, don.dw.the-creed-we-shared]
   - phrase: "Maximianists"
     kind: term
-    note: "People who followed Maximian, a deacon made rival head of the church in 393. A larger meeting of bishops at Bagai condemned them in 394."
+    note: "They followed Maximian, a deacon. He was made rival primate at Cebarsussi in 393. In 394, 310 bishops met at Bagai. They condemned him."
     grounded_in: [don.force.maximianist-fracture, don.figure.maximian-of-cebarsussi, don.term.concilium]
   - phrase: "persecution of 303 to 305"
     label: "Diocletian's persecution"
     kind: term
-    note: "Diocletian and the emperors who ruled with him hunted Christians in these years. They ordered clergy to hand over the scriptures and church vessels to be destroyed."
+    note: "Diocletian and his fellow emperors hunted Christians in these years. Clergy had to hand over the scriptures and sacred vessels. These were to be destroyed."
     grounded_in: [don.force.diocletianic-persecution-traditio-demand]
   - phrase: "Vandal"
     kind: term
-    note: "The Vandals invaded Roman North Africa in 429 and took Carthage in 439. That took away the Roman power that had judged the Donatists and used force on them."
+    note: "The Vandals invaded Roman North Africa in 429 and took Carthage in 439. That ended the Roman power that had judged the Donatists and coerced them."
     grounded_in: [don.force.vandal-capture-of-carthage, don.core.donatism]
   - phrase: "hearing at Rome"
     kind: council
-    note: "A hearing at Rome in 313. The Donatists had asked Constantine for a ruling, and he sent the case there. It went against them, and they rejected it."
+    note: "A hearing at Rome in 313. Constantine sent the Donatists' case there. It ruled against them, and they rejected it."
     grounded_in: [don.figure.constantine, don.dw.who-decides-a-disputed-case]
   - phrase: "Council of Arles"
     kind: council
@@ -362,15 +360,15 @@ orientation:
     grounded_in: [don.story.conference-of-carthage-411, don.figure.marcellinus, don.force.conference-of-411-verdict]
   - phrase: "Donatus"
     kind: person
-    note: "Primate at Carthage from about 313. He was exiled about 347 and died in exile. The movement is named for him. Not one page of his own survives."
+    note: "Primate at Carthage from about 313. Exiled about 347, he died in exile. The movement bears his name. Not one page of his survives."
     grounded_in: [don.figure.donatus]
   - phrase: "Petilian"
     kind: person
-    note: "A Donatist bishop at Constantina. He and Emeritus spoke for his church in 411. His letters live on only in the books Augustine wrote to answer them."
+    note: "A Donatist bishop of Constantina, which was the new name for Cirta. He spoke for his church in 411. His letters survive only inside Augustine's replies."
     grounded_in: [don.figure.petilian]
   - phrase: "Tyconius"
     kind: person
-    note: "A Donatist writer of the 370s and 380s. He wrote the Book of Rules, seven rules for reading scripture. A council is said to have condemned him around 380."
+    note: "A Donatist writer of the 370s and 380s. His Book of Rules gives seven rules to read scripture by. A council reportedly condemned him about 380."
     grounded_in: [don.figure.tyconius, don.term.liber-regularum]
   - phrase: "Augustine"
     kind: person
@@ -378,11 +376,11 @@ orientation:
     grounded_in: [don.figure.augustine]
   - phrase: "Optatus"
     kind: person
-    note: "A Catholic bishop of Milevis who wrote seven books against the Donatists in the 360s. He revised them about 385. Most of their early history reaches us through him."
+    note: "A Catholic bishop of Milevis. In the 360s he wrote seven books against the Donatists, and later revised them. Most of their early story comes through him."
     grounded_in: [don.figure.optatus-of-milevis, don.figure.optatus]
   - phrase: "Flavius Marcellinus"
     kind: person
-    note: "The imperial officer sent to judge the hearing of 411. He was not a cleric of either church. He was put to death in 413 on another charge."
+    note: "The imperial officer who judged the hearing of 411, a cleric of neither church. He was put to death in 413 on another charge."
     grounded_in: [don.figure.marcellinus]
   - phrase: "the emperor's commissioners"
     label: "Paul and Macarius"
@@ -397,7 +395,7 @@ orientation:
     grounded_in: [don.core.donatism]
   - phrase: "Cirta"
     kind: place
-    note: "An ancient city of Numidia, now the city of Constantine in Algeria. Bishops met there in a council whose date is disputed, 305, 307 or later."
+    note: "An old city of Numidia, now Constantine in Algeria. Bishops met there in a council. Its date is disputed: 305, 307 or later."
     url: https://pleiades.stoa.org/places/305064
     verified_on: "2026-10-17"
     grounded_in: [don.story.council-of-cirta, don.source.monceaux-histoire-litteraire-tome6]
@@ -415,13 +413,13 @@ orientation:
     grounded_in: [don.term.concilium, don.force.maximianist-fracture]
   - phrase: "Cebarsussi"
     kind: place
-    note: "A town in the Roman province of Byzacena, where Maximian was made rival head of the church in 393. Its exact site is unknown."
+    note: "The town where Maximian was made rival primate in 393. Its site is unknown."
     url: https://pleiades.stoa.org/places/329199
     verified_on: "2026-10-17"
     grounded_in: [don.term.concilium, don.force.maximianist-fracture]
   - phrase: "Novapetra"
     kind: place
-    note: "Where, by his church's account, Marculus was held four days at a cliff and thrown from it. The place is probably the site now called Henchir Encedda, in today's Algeria."
+    note: "The cliff where, by his church's account, Marculus was held four days and thrown down. It is probably Henchir Encedda, in today's Algeria."
     url: https://pleiades.stoa.org/places/334604
     verified_on: "2026-10-17"
     grounded_in: [don.story.passio-marculi, don.figure.marculus]

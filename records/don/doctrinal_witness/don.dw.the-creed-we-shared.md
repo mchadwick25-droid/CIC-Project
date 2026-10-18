@@ -71,8 +71,7 @@ text: >-
   right to say the words at all.
 
 
-  Whether he died to take our punishment, in our place, for our sins,
-  nobody among us wrote down, for or against. Our whole surviving
+  Nobody among us wrote down, for or against, whether he died to take our punishment, in our place, for our sins. Our whole surviving
   argument is about one thing - whose hand may give what the church
   gives - and we never turned it toward how the cross saves. We would
   rather tell you we do not know what we thought than hand you a

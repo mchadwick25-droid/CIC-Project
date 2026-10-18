@@ -6671,3 +6671,8 @@ This is a change order to decision 23, which set the `cic/texts/` planning trigg
 - Every session clones the whole repository, so a larger store means slower session starts. The plan's request to measure a fresh session's start time still stands.
 
 The store was 801 MB when the ruling was made, after the Shared Events Era 2 batch. `cic/engine/texts_registry.py`, `PLAN-texts-store-scaling.md`, the `_cross-world` README and the Shared Events Era 3 handoff now carry the new numbers.
+
+
+## 2026-10-17 - Honest limits put the subject first
+
+The project lead ruled that an honest limit puts the subject first and ends on what is not known, never on a bare verb such as "kept" or "wrote down", and never on "such" pointing back past the sentence before. The rule is added to `VR_1A_Writing_Standard_2026-08-09.md` beside the 14 October honest-limit rule. The records that broke it are rewritten and logged in each world's Open_Gaps_Tracking.md.

@@ -866,3 +866,21 @@ Status: OPEN for the project lead.
 The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" wording and dash asides. The same holds for the Alexandria and Cappadocia records.
 
 Status: OPEN for the project lead to schedule.
+
+## OG-26. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the tile now says no one held a bishop's office (not any church office), attributes Marcella's standing to Jerome, and no longer claims everything comes through Jerome's pen; tile rhythm, build wording and long highlight notes trimmed. No record changed.
+
+Status: CLOSED for this review.
+
+The same two claims in the census copy (`cic-website/data/world-census.json`, `index.html`, `atlas-v3.html` and the tradition page) were corrected in the recheck: Marcella's standing is now attributed to Jerome.
+
+## OG-27. Unclear honest-limit endings, 2026-10-17.
+
+Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put the object first and ended on a bare verb, so the ending did not say what is unknown. Each now puts the subject first and ends on what is not known. Wording and facts are the records' own; nothing was added.
+
+- `records/hal/story/hal.story.day-at-monastery.md`: "Which psalms they sang, and how the two houses shared their worship, no one wrote down, or nothing that was written survived." -> "Either no one wrote down which psalms they sang and how the two houses shared their worship, or nothing that was written survived."
+
+Status: CLOSED for this review.

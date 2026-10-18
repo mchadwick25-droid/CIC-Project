@@ -20,15 +20,14 @@ skim:
       From about 70 to 200 CE, Christians in Antioch, the cities of Asia
       Minor and Rome gathered in households. No central body ruled them.
       Letters carried by hand held them together. After the apostles died,
-      these churches did not settle in these years who should lead.
+      these churches had not yet settled who should lead.
       Ignatius's letters urged one bishop with elders beside him, while at
       Rome, early letters show a council of elders leading. At Corinth, some
       elders were removed from office. We know this only from Rome's letter,
       which argued that men who had served blamelessly should not have been
       removed. Corinth's side does not survive. Communities kept the Lord's
       table differently, too. One community's manual gives thanks over the
-      cup before the bread, and tells no story of a supper. Following this
-      way could at times bring real danger. In one province, a governor
+      cup before the bread, and tells no story of a supper. Being a Christian could at times bring real danger. In one province, a governor
       had two enslaved women tortured for answers. In another, Ignatius's
       letters say he was marched under armed guard toward death.
     grounded_in: [pahc.core.house-church, pahc.story.first-clement-corinthian-dispute, pahc.story.didache-eucharist, pahc.story.pliny-interrogation, pahc.story.ignatius-guarded-journey, pahc.gravity.state-pressure]
@@ -45,14 +44,10 @@ orientation:
       These churches held that legitimate teaching and practice must
       trace back to what the apostles had testified. Rome's letter to
       Corinth sets out a chain. God sent Christ, Christ sent the
-      apostles, and the apostles appointed successors. Ignatius, a
-      bishop of Antioch, tells the churches he writes to that they
-      should be subject to the bishop as the apostles were subject to
-      Christ.
+      apostles, and the apostles appointed successors. Ignatius, a bishop of Antioch, writes to several churches. He tells them to be subject to the bishop, as the apostles were subject to Christ.
     grounded_in: [pahc.force.apostolic-testimony-inheritance]
   - text: >-
-      Who should lead, once the apostles were gone? The surviving
-      letters show two different answers. Ignatius's letters put one
+      The surviving letters give two different answers to who should lead once the apostles were gone. Ignatius's letters put one
       bishop at the center, with elders and deacons beside him. One
       letter says the elders fit the bishop as strings fit a harp. In
       Rome, the surviving letters show a council of elders leading
@@ -109,18 +104,17 @@ orientation:
       had a single bishop before Victor, its bishop from 189 to 199. The
       texts of these churches do not say how or when Rome changed. From
       about 180, writers in other regions argued from an apostolic line
-      they treated as already secure. These churches had still been
-      building that line, letter by letter.
+      they treated as already secure. 
     grounded_in: [pahc.force.monepiscopacy-consolidation, pahc.force.systematic-theological-mode-elsewhere, pahc.contested.rome-monepiscopacy-dating]
   documented_stories:
   - story_id: pahc.story.nero-scapegoating
     title: "Nero Blames the Christians for the Fire"
-    when: "64 (Tacitus wrote about fifty years later; scholars dispute whether a separate persecution tied to the fire took place in 64)"
-    teaser: "Rome burns in a great fire. The Roman historian Tacitus reports that Nero blamed a group the crowd called Christians. He had them put to death with cruelty."
+    when: "64 (Tacitus wrote about fifty years later; we cannot be sure a separate persecution tied to the fire took place in 64)"
+    teaser: "Rome burns in a great fire. The Roman historian Tacitus reports that Nero blamed a group the crowd called Christians, and had them put to death with cruelty."
     grounded_in: [pahc.story.nero-scapegoating, pahc.figure.tacitus]
   - story_id: pahc.story.didache-eucharist
     title: "Thanks Over the Cup Before the Bread"
-    when: "c. 80-120 (the usual dating of the Didache; scholars have argued for anywhere from 50 to 150)"
+    when: "c. 80-120 (the usual dating of the Didache; we cannot fix it closer than 50 to 150)"
     teaser: "This scene is pieced together from the Didache. A community following its order gives thanks over the cup first, then the bread. No story of a supper appears in its prayers."
     grounded_in: [pahc.story.didache-eucharist, pahc.contested.didache-dating]
   - story_id: pahc.story.grandsons-before-domitian
@@ -130,17 +124,17 @@ orientation:
     grounded_in: [pahc.story.grandsons-before-domitian]
   - story_id: pahc.story.first-clement-corinthian-dispute
     title: "Rome Writes to Corinth About Removed Elders"
-    when: "c. 96 (the traditional dating; scholars have argued for anywhere from before 70 to 140)"
+    when: "c. 96 (the traditional dating; we cannot fix it closer than before 70 to 140)"
     teaser: "The church at Rome writes at length to Corinth, which has removed several elders from office. It argues that men who served blamelessly should not have been removed."
     grounded_in: [pahc.story.first-clement-corinthian-dispute, pahc.contested.first-clement-dating]
   - story_id: pahc.story.ignatius-guarded-journey
     title: "A Condemned Bishop Asks Rome Not to Save Him"
-    when: "c. 107-117 (traditional dating; scholars dispute who wrote the letters and when)"
+    when: "c. 107-117 (traditional dating; we cannot be sure who wrote the letters or when)"
     teaser: "Letters under Ignatius's name say that he, a bishop of Antioch, was marched under armed guard toward Rome. He writes ahead to urge the church there not to try to save him."
     grounded_in: [pahc.story.ignatius-guarded-journey, pahc.figure.ignatius]
   - story_id: pahc.story.polycarp-forwards-letters
     title: "Polycarp Sends Ignatius's Letters to Philippi"
-    when: "c. 107-140 (the letter's date is uncertain, and some scholars read it as two letters joined)"
+    when: "c. 107-140 (the letter's date is uncertain, and it may be two letters joined)"
     teaser: "Polycarp writes to the church at Philippi. He is sending them the letters of Ignatius that his church has collected, as they had asked."
     grounded_in: [pahc.story.polycarp-forwards-letters, pahc.figure.polycarp]
   - story_id: pahc.story.pliny-interrogation
@@ -153,16 +147,16 @@ orientation:
     when: "c. 153-157"
     teaser: "Justin tells the emperor what happens when his community gathers on the day named for the sun. They hear readings and a talk, pray, give thanks over bread and wine, and make a collection for the needy."
     grounded_in: [pahc.story.justin-sunday-gathering, pahc.figure.justin]
+  - story_id: pahc.story.quintus-recantation
+    title: "The Man Who Volunteered and Broke"
+    when: "c. 155-156 (traditional dating; Eusebius's Chronicon gives 167)"
+    teaser: "The letter from Smyrna that honors Polycarp also names Quintus. He came forward for trial and lost his nerve at the sight of the beasts. The letter says the gospel does not teach people to give themselves up."
+    grounded_in: [pahc.story.quintus-recantation, pahc.gravity.martyrdom-meaning]
   - story_id: pahc.story.martyrdom-of-polycarp
     title: "Polycarp Refuses to Curse Christ"
     when: "c. 155-156 (traditional dating; Eusebius's Chronicon gives 167)"
     teaser: "The church at Smyrna tells how Polycarp, its aged leader, refused to curse Christ and was put to death. The account says the fire arched around him. The community kept his bones."
     grounded_in: [pahc.story.martyrdom-of-polycarp, pahc.contested.martyrdom-polycarp-dating]
-  - story_id: pahc.story.quintus-recantation
-    title: "The Man Who Volunteered and Broke"
-    when: "c. 155-156 (traditional dating; Eusebius's Chronicon gives 167)"
-    teaser: "Before praising Polycarp, the letter from Smyrna names Quintus. He came forward for trial and lost his nerve at the sight of the beasts. The letter says the gospel does not teach people to give themselves up."
-    grounded_in: [pahc.story.quintus-recantation, pahc.gravity.martyrdom-meaning]
   highlights:
   - phrase: "Antioch"
     kind: place
@@ -178,13 +172,13 @@ orientation:
     grounded_in: [pahc.figure.polycarp]
   - phrase: "Corinth"
     kind: place
-    note: "An ancient Greek city in the Peloponnese. The church there removed some elders, and Rome wrote to it. The ancient city lies at Archaia Korinthos, in today's Greece."
+    note: "An ancient Greek city in the Peloponnese, whose church removed some elders and drew Rome's letter. Its site is Archaia Korinthos, in Greece."
     url: https://pleiades.stoa.org/places/570182
     verified_on: "2026-10-17"
     grounded_in: [pahc.story.first-clement-corinthian-dispute]
   - phrase: "Philippi"
     kind: place
-    note: "An ancient city founded by Philip II of Macedon. Its church asked Polycarp for the letters of Ignatius. Its ruins, at Krenides, lie in today's Greece."
+    note: "An ancient city founded by Philip II of Macedon. Its church asked Polycarp for the letters of Ignatius. Its ruins lie in today's Greece."
     url: https://pleiades.stoa.org/places/501482
     verified_on: "2026-10-17"
     grounded_in: [pahc.story.polycarp-forwards-letters]
@@ -196,7 +190,7 @@ orientation:
     grounded_in: [pahc.figure.pliny]
   - phrase: "elders"
     kind: term
-    note: "Leaders who shared the governing of a community. In some churches they acted as a council. In others they stood beside one overseer. The Greek word is presbyteros."
+    note: "Leaders who shared in ruling a community. In some churches they acted as a council. In others they served beside one overseer."
     grounded_in: [pahc.term.presbyteros]
   - phrase: "bishop"
     kind: term
@@ -212,11 +206,11 @@ orientation:
     grounded_in: [pahc.term.eucharistia, pahc.gravity.liturgical-practice]
   - phrase: "Didache"
     kind: term
-    note: "A short teaching manual. It likely comes from one community. Almost all of it survives in one copy made in 1056. Scholars date it between about 50 and 150."
+    note: "A short teaching manual, likely from one community. One copy of 1056 keeps almost all of it. Scholars date it between about 50 and 150."
     grounded_in: [pahc.source.didache, pahc.contested.didache-dating]
   - phrase: "Ignatius"
     kind: person
-    note: "A bishop of Antioch, according to seven letters that say he was taken under guard toward Rome, where he expected to die. Scholars dispute who wrote them, and when."
+    note: "Bishop of Antioch. Seven letters in his name say he was marched under guard toward death in Rome. Their author and date are disputed."
     grounded_in: [pahc.figure.ignatius, pahc.contested.ignatius-dating]
   - phrase: "Polycarp"
     kind: person
@@ -232,7 +226,7 @@ orientation:
     grounded_in: [pahc.figure.tacitus]
   - phrase: "Nero"
     kind: person
-    note: "The Roman emperor at the time of the Great Fire of Rome in 64. Tacitus says rumor blamed him, and he turned the blame on Christians."
+    note: "Roman emperor at the Great Fire of Rome in 64. Tacitus says rumor blamed him, and he turned the blame on Christians."
     grounded_in: [pahc.story.nero-scapegoating]
   - phrase: "Pliny"
     kind: person

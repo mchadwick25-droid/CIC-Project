@@ -899,3 +899,11 @@ Status: OPEN for the project lead.
 The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" wording and dash asides. The same holds for the Donatist and Alexandria records.
 
 Status: OPEN for the project lead to schedule.
+
+### OG-51. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: Gregory no longer stands at Basil's funeral (cards, and the records `valens-caesarea` and `athens-friendship`: Gregory was ill and spoke after his return, years later); the Forty are no longer placed in an empire-wide persecution (card, `when` field, record `text`); the tile no longer says Basil named landowners; "Homoian" is explained; tells, build wording and long notes trimmed.
+
+Status: CLOSED for this review.
