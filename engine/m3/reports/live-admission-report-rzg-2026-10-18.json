@@ -1,0 +1,711 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "run_settings": {
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "voice_max_tokens": 2048,
+    "voice_temperature": "API default (not set by stream_voice_turn)",
+    "safety_model_id": null,
+    "safety_call": "not made - LiveModelAnswerer answers each sealed probe with the voice call only",
+    "reader_call": "not made - not in the admission harness path",
+    "self_revision": "off - not in the admission harness path",
+    "region": "us-east-1",
+    "package_manifest_hash": {
+      "rzg": "sha256:910bb03b27d0db321af56e83037ae4d6b5e952a8557b4328066eb2f0212bcd96"
+    },
+    "package_content_hash": {
+      "rzg": "sha256:3f5c39bbdd0ae21f2fb235f3305a8a00b850350c6676debd319213a319e16223"
+    },
+    "shape_hash": "sha256:4b285d569c53328c5c83a1157047377396f8a5eca4bf00faa635491fc565aeca",
+    "seal_hash": "sha256:6168a4de56b7f5d332452555437e212811a98ae204a9d91a69ac05bf707aaa47",
+    "battery_size": 28,
+    "probe_limit": null,
+    "max_usd": 1.6883,
+    "save_transcripts": false,
+    "repo_commit": "0b0d635624e711db2389df69fec85f7d44f5c6f3"
+  },
+  "protocol": "blind",
+  "worlds": {
+    "rzg": {
+      "battery_size": 28,
+      "pass_count": 28,
+      "overall_pass": true,
+      "per_probe": [
+        {
+          "probe_id": "c-i-probe-01",
+          "cell": "C-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1912,
+            "output_tokens": 504,
+            "cache_creation_input_tokens": 12364,
+            "cache_read_input_tokens": 1776
+          }
+        },
+        {
+          "probe_id": "c-e-probe-01",
+          "cell": "C-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3316,
+            "output_tokens": 405,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "c-p-probe-01",
+          "cell": "C-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 951,
+            "output_tokens": 271,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "c-t-probe-01",
+          "cell": "C-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1211,
+            "output_tokens": 459,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f1-i-probe-01",
+          "cell": "F1-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3355,
+            "output_tokens": 537,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f1-e-probe-01",
+          "cell": "F1-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f1-e-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.bolsec-controversy does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.figure.beza', 'rzg.force.bolsec-controversy'] - an address error on real content, not a fabrication",
+                "probe f1-e-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.gravity.consistorial-church-discipline'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3123,
+            "output_tokens": 475,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f1-p-probe-01",
+          "cell": "F1-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2052,
+            "output_tokens": 284,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f1-t-probe-01",
+          "cell": "F1-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3965,
+            "output_tokens": 341,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f2-i-probe-01",
+          "cell": "F2-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3305,
+            "output_tokens": 569,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f2-e-probe-01",
+          "cell": "F2-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3198,
+            "output_tokens": 516,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f2-p-probe-01",
+          "cell": "F2-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1151,
+            "output_tokens": 400,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f2-t-probe-01",
+          "cell": "F2-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1611,
+            "output_tokens": 362,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f3-i-probe-01",
+          "cell": "F3-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f3-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.1541-ecclesiastical-ordinances-consistory-founding does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.force.1541-ecclesiastical-ordinances-consistory-founding', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication",
+                "probe f3-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.contested.anabaptist-schism-legitimacy', 'rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.demo.consensus-contest'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1703,
+            "output_tokens": 481,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f3-e-probe-01",
+          "cell": "F3-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 509,
+            "output_tokens": 215,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f3-p-probe-01",
+          "cell": "F3-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f3-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.anabaptist-schism does not exist, but its sentence's content verifies against ['rzg.contested.anabaptist-schism-legitimacy', 'rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.force.anabaptist-schism'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2944,
+            "output_tokens": 492,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f3-t-probe-01",
+          "cell": "F3-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 4130,
+            "output_tokens": 341,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f4-i-probe-01",
+          "cell": "F4-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2910,
+            "output_tokens": 486,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f4-e-probe-01",
+          "cell": "F4-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1769,
+            "output_tokens": 319,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f4-p-probe-01",
+          "cell": "F4-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2023,
+            "output_tokens": 347,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f4-t-probe-01",
+          "cell": "F4-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1432,
+            "output_tokens": 252,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f5-i-probe-01",
+          "cell": "F5-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f5-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.contested.anabaptist-schism-legitimacy', 'rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.demo.consensus-contest'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2287,
+            "output_tokens": 294,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f5-e-probe-01",
+          "cell": "F5-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3209,
+            "output_tokens": 304,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f5-p-probe-01",
+          "cell": "F5-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f5-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.perrinist-crisis does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.force.perrinist-crisis', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication",
+                "probe f5-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.force.perrinist-crisis', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2291,
+            "output_tokens": 441,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f5-t-probe-01",
+          "cell": "F5-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 600,
+            "output_tokens": 285,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f6-i-probe-01",
+          "cell": "F6-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f6-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.contested.zwinglis-remembrance-vs-negotiated-consensus', 'rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 749,
+            "output_tokens": 390,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f6-e-probe-01",
+          "cell": "F6-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 574,
+            "output_tokens": 252,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f6-p-probe-01",
+          "cell": "F6-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2070,
+            "output_tokens": 356,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        },
+        {
+          "probe_id": "f6-t-probe-01",
+          "cell": "F6-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2094,
+            "output_tokens": 310,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14140
+          }
+        }
+      ],
+      "actual_usd": 0.5030838,
+      "total_input_tokens": 60444,
+      "total_output_tokens": 10688,
+      "total_cache_creation_input_tokens": 12364,
+      "total_cache_read_input_tokens": 383556
+    }
+  },
+  "overall_pass": true,
+  "authorized_by": "Mark (project lead), in conversation, 2026-10-18: run it at $6.50 total, not more",
+  "max_usd": 1.6883,
+  "per_world_estimated_usd": {
+    "rzg": 0.35611905
+  },
+  "estimated_usd_preflight": 0.35611905,
+  "actual_usd_spent": 0.5030838,
+  "aborted_reason": null,
+  "note": "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation call, once per probe, for every probe in the sealed battery, per world. Token counts are measured directly from each call's own usage and priced against the same real, sourced rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE documents - a $/token figure is fair game here (spec principle 13), though it is an estimate against a published rate card, not a reconciled AWS invoice. Preflight-estimated per world against max_usd before any billed call was made, then checked again, running, before each next world's own calls, against the actual spend recorded so far."
+}
