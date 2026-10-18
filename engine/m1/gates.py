@@ -490,7 +490,8 @@ def gate_canonical_address(records, fleet, registry) -> list[str]:
 # tag inside a gravity/force name is a build-vocabulary leak, checked by
 # tools/check_live_commentary.py's own SPOKEN_VOCAB_PATTERNS - a
 # different problem from readability, not this gate's to solve.
-_READABILITY_ROLES = ("instruction", "voice-diet", "evidence-head", "facilitator-spoken", "gloss-card")
+_SPOKEN_PROSE_ROLES = ("instruction", "voice-diet", "evidence-head", "facilitator-spoken")
+_READABILITY_ROLES = _SPOKEN_PROSE_ROLES + ("gloss-card",)
 
 # quote.text and story.text each carry a role this gate would otherwise
 # grade (evidence-head and voice-diet respectively), but both are the
@@ -523,13 +524,15 @@ _READABILITY_LIST_TEXT_KEY = {
 }
 
 
-def _readability_checks(record_type: str, rec: dict) -> list[tuple[str, str]]:
+def _readability_checks(record_type: str, rec: dict, roles: tuple[str, ...] = _READABILITY_ROLES) -> list[tuple[str, str]]:
     """(field_label, text) pairs to grade for one record - driven entirely
     by spoken_fields.py's own SPOKEN_FIELDS registry rather than a second,
     hand-maintained field list, so this stays in sync with whatever
-    actually compiles into a turn instead of silently drifting from it."""
+    actually compiles into a turn instead of silently drifting from it.
+    `roles` narrows it; _SPOKEN_PROSE_ROLES leaves out the gloss card,
+    which is read, never spoken."""
     checks: list[tuple[str, str]] = []
-    for field in fields_with_role(record_type, *_READABILITY_ROLES):
+    for field in fields_with_role(record_type, *roles):
         if (record_type, field) in _READABILITY_EXCLUDED_FIELDS:
             continue
         value = field_value(rec, field)

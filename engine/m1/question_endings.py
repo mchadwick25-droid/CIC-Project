@@ -67,12 +67,12 @@ def ends_on_bare_question_word(sentence: str) -> bool:
 
 
 def spoken_texts(rec: dict) -> list[tuple[str, str]]:
-    """(field label, text) for every spoken field of a record: the fields the
-    readability gate grades, then the shared nested fields such as the use
-    note's meaning."""
+    """(field label, text) for every spoken field of a record: the spoken
+    fields the readability gate grades, then the shared nested fields such
+    as the use note's meaning."""
     from engine.m1 import gates
 
-    found = list(gates._readability_checks(rec.get("record_type"), rec))
+    found = list(gates._readability_checks(rec.get("record_type"), rec, gates._SPOKEN_PROSE_ROLES))
     for field in shared_fields_with_role("voice-diet", "evidence-head"):
         found += [(field, text) for text in field_texts(rec, field)]
     return found

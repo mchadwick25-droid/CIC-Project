@@ -22,7 +22,7 @@ relations:
   - {type: associated-with, target: fix.term.the-three}
 plain_meaning: "the name this community used for its own shared practice of life"
 world_word: "The Way"
-false_friend: ["a hiking or walking trail - unrelated to this world's sense, flagged so the voice never lets the modern reading slip in unglossed"]
+false_friend: ["a hiking or walking trail, which is not what this world meant by the name"]
 senses:
   informational: "What we called our shared practice among ourselves."
   evidential: "How the name shows up in the record, and how sure we are of that."

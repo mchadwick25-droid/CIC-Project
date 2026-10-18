@@ -38,7 +38,7 @@ def scaffolding_hits(records: dict[str, dict]) -> list[tuple[str, str, str]]:
         record_type = rec.get("record_type")
         if record_type not in SPOKEN_TYPES:
             continue
-        for label, text in gates._readability_checks(record_type, rec):
+        for label, text in gates._readability_checks(record_type, rec, gates._SPOKEN_PROSE_ROLES):
             if _ends_in_question(_first_sentence(text)):
                 hits.append((rid, label, "the first sentence ends in a question mark"))
             if match := _STAGE_DIRECTION.search(text):

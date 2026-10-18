@@ -166,6 +166,34 @@ def test_gloss_card_fields_carry_only_their_own_role():
     assert not set(fields_with_role("term", "gloss-card")) & set(gates._PERSPECTIVE_FIELDS["term"])
 
 
+_DENSE = ("Notwithstanding considerable historiographical disagreement regarding institutional "
+          "periodization, ecclesiastical administrative consolidation demonstrably preceded "
+          "comprehensive doctrinal systematization throughout the predominantly Mediterranean provinces.")
+
+
+def _card(**fields):
+    return {"id": "zzz.term.a", "record_type": "term", **fields}
+
+
+def test_readability_grades_the_gloss_card():
+    term = _card(senses={"translational": _DENSE}, false_friend=["short", _DENSE])
+    labels = [label for label, _ in gates._readability_checks("term", term)]
+    assert labels == ["senses.translational", "false_friend[0]", "false_friend[1]"]
+    findings = gates._grade_records([("zzz.term.a", term)])
+    assert any("senses.translational scores FK" in f for f in findings)
+    assert any("false_friend[1] scores FRE" in f for f in findings)
+
+
+def test_spoken_checks_leave_the_gloss_card_out():
+    from engine.m1.question_endings import spoken_texts
+    from engine.m1.spoken_scaffolding import scaffolding_hits
+
+    term = _card(senses={"translational": "'Was he God?' We cannot tell you why."}, false_friend=["You asked how."])
+    assert gates._readability_checks("term", term, gates._SPOKEN_PROSE_ROLES) == []
+    assert spoken_texts(term) == []
+    assert scaffolding_hits({"zzz.term.a": term}) == []
+
+
 def test_field_texts_reads_the_gloss_card_paths():
     term = {"senses": {"translational": "One."}, "false_friend": ["Two.", 3, "Four."]}
     assert field_texts(term, "senses.translational") == ["One."]
