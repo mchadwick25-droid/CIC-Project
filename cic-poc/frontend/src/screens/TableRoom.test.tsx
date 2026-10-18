@@ -125,6 +125,20 @@ describe('TableRoom feedback controls', () => {
     expect(container.querySelectorAll('.turn-feedback')).toHaveLength(1);
   });
 
+  it('puts the page like and report row at the foot once the sitting has started, with the sorted seats as its page', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
+    vi.stubGlobal('fetch', fetchMock);
+    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
+    const { container } = render(<TableRoom {...baseProps} turns={turns} />);
+    await act(async () => {
+      fireEvent.click(container.querySelector('.page-feedback .turn-feedback__like') as HTMLElement);
+    });
+    const body = JSON.parse(fetchMock.mock.calls[0][1].body);
+    expect(body.kind).toBe('like');
+    expect(body.page).toMatch(/^table:[A-Za-z0-9._-]+$/);
+    expect(render(<TableRoom {...baseProps} turns={[]} />).container.querySelector('.page-feedback')).toBeNull();
+  });
+
   it('posts the sorted table key as the page of an experience comment', async () => {
     const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
     vi.stubGlobal('fetch', fetchMock);

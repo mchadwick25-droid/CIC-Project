@@ -1,6 +1,7 @@
 """Feedback endpoints: a like or flag on one reply (the session's own code), a
-comment from the app or the site (CORS against the site origin), and the
-operator's queue (admin credential)."""
+comment, a page like or a page report from the app or the site (CORS against
+the site origin), and the operator's queue (admin credential)."""
+import sqlite3
 from datetime import datetime, timedelta, timezone
 
 import pytest
@@ -259,3 +260,215 @@ def test_settings_read_the_feedback_paths(monkeypatch):
     assert Settings.from_env().site_origin == "https://a.example"
     monkeypatch.setenv("CIC_API_SITE_ORIGIN", "https://b.example")
     assert Settings.from_env().site_origin == "https://b.example"
+
+
+OLD_TABLE = """
+CREATE TABLE feedback (
+  id TEXT PRIMARY KEY,
+  kind TEXT NOT NULL CHECK (kind IN ('like', 'flag', 'comment')),
+  created_at TEXT NOT NULL,
+  page TEXT,
+  session_id TEXT,
+  turn_index INTEGER,
+  sentence_index INTEGER,
+  record_ids TEXT NOT NULL DEFAULT '[]',
+  confidence TEXT,
+  reason TEXT CHECK (reason IS NULL OR reason IN ('fact_wrong', 'source_mismatch', 'overcertain', 'unclear')),
+  text TEXT,
+  quote_consent TEXT CHECK (quote_consent IS NULL OR quote_consent IN ('no', 'anonymous', 'first_name')),
+  first_name TEXT,
+  email TEXT,
+  outcome TEXT CHECK (outcome IS NULL OR outcome IN ('corrected', 'checked_stands', 'open_lead', 'conviction', 'no_action')),
+  outcome_note TEXT,
+  closed_at TEXT
+);
+CREATE INDEX feedback_like_idx ON feedback (session_id, turn_index) WHERE kind = 'like';
+"""
+
+
+def _report(page="tree/donatism", reason="accuracy", text="The date looks wrong.", **extra):
+    return {"kind": "report", "page": page, "reason": reason, "text": text, **extra}
+
+
+def test_page_like_is_stored_with_no_text_reason_email_or_session(http, feedback):
+    resp = http.post("/api/feedback", json={"kind": "like", "page": "tree/donatism"}, headers={"Origin": SITE})
+    assert resp.status_code == 201 and resp.headers["access-control-allow-origin"] == SITE
+    item = feedback.get(resp.json()["id"])
+    assert item["kind"] == "like" and item["page"] == "tree/donatism"
+    for field in ("text", "reason", "email", "session_id", "turn_index", "sentence_index", "first_name", "quote_consent"):
+        assert item[field] is None
+    assert item["record_ids"] == []
+
+
+def test_page_like_ignores_extra_fields_and_can_repeat(http, feedback):
+    body = {"kind": "like", "page": "atlas", "text": "hello", "email": "a@b.org", "reason": "craft"}
+    assert http.post("/api/feedback", json=body).status_code == 201
+    assert http.post("/api/feedback", json=body).status_code == 201
+    with sqlite3.connect(feedback.db_path) as conn:
+        rows = conn.execute("SELECT text, reason, email FROM feedback WHERE kind = 'like'").fetchall()
+    assert rows == [(None, None, None)] * 2
+
+
+def test_page_report_is_stored_with_reason_text_and_email(http, feedback):
+    resp = http.post("/api/feedback", json=_report(text="  Wrong century.  ", reason="craft", email=" a@b.org "), headers={"Origin": SITE})
+    assert resp.status_code == 201 and resp.headers["access-control-allow-origin"] == SITE
+    item = feedback.get(resp.json()["id"])
+    assert (item["kind"], item["page"], item["reason"], item["text"], item["email"]) == ("report", "tree/donatism", "craft", "Wrong century.", "a@b.org")
+    assert item["session_id"] is None and item["turn_index"] is None and item["record_ids"] == []
+
+
+def test_page_report_email_is_optional_and_blank_is_dropped(http, feedback):
+    assert http.post("/api/feedback", json=_report()).status_code == 201
+    assert http.post("/api/feedback", json=_report(email="   ")).status_code == 201
+    assert [i["email"] for i in feedback.list_open()] == [None, None]
+
+
+@pytest.mark.parametrize("body", [
+    {"kind": "report", "page": "p", "text": "t"},
+    {"kind": "report", "page": "p", "reason": "unclear", "text": "t"},
+    {"kind": "report", "page": "p", "reason": "fact_wrong", "text": "t"},
+    {"kind": "report", "page": "p", "reason": None, "text": "t"},
+    {"kind": "report", "page": "p", "reason": "accuracy"},
+    {"kind": "report", "page": "p", "reason": "accuracy", "text": ""},
+    {"kind": "report", "page": "p", "reason": "accuracy", "text": "   "},
+    {"kind": "report", "page": "p", "reason": "accuracy", "text": "x" * 601},
+    {"kind": "report", "page": "p", "reason": "accuracy", "text": "t", "email": "x" * 201},
+    {"kind": "report", "reason": "accuracy", "text": "t"},
+])
+def test_page_report_validation(http, feedback, body):
+    assert http.post("/api/feedback", json=body).status_code == 422
+    assert feedback.list_open() == []
+
+
+@pytest.mark.parametrize("page", ["", "x" * 121, "tree/don atism", "tree/donatism?x=1", "a#b", "tree\\x", "tr\u00e9e", "<b>", "a,b", "a+b", "tree/x\n"])
+@pytest.mark.parametrize("make", [lambda page: {"kind": "like", "page": page}, lambda page: _report(page=page)])
+def test_page_id_charset_and_length_are_enforced(http, feedback, page, make):
+    assert http.post("/api/feedback", json=make(page)).status_code == 422
+    with sqlite3.connect(feedback.db_path) as conn:
+        assert conn.execute("SELECT COUNT(*) FROM feedback").fetchone()[0] == 0
+
+
+@pytest.mark.parametrize("page", ["tree/donatism", "atlas-v3", "conversation:donatism", "table:alx-syr", "table", "a.b_c-d/e:f", "x" * 120])
+def test_page_ids_in_the_allowed_set_are_accepted(http, page):
+    assert http.post("/api/feedback", json={"kind": "like", "page": page}).status_code == 201
+    assert http.post("/api/feedback", json=_report(page=page)).status_code == 201
+
+
+def test_other_kinds_are_refused_and_a_missing_kind_is_a_comment(http, feedback):
+    assert http.post("/api/feedback", json={"kind": "flag", "page": "p", "text": "t"}).status_code == 422
+    assert http.post("/api/feedback", json={"kind": "bogus", "page": "p"}).status_code == 422
+    assert http.post("/api/feedback", json=["like"]).status_code == 422
+    assert feedback.list_open() == []
+    assert http.post("/api/feedback", json={"page": "p", "text": "t"}).status_code == 201
+    assert feedback.list_open()[0]["kind"] == "comment"
+
+
+def test_comment_with_old_page_text_is_unchanged_by_the_page_id_rules(http, feedback):
+    assert http.post("/api/feedback", json={"page": "my page (1).html", "text": "t"}).status_code == 201
+    assert feedback.list_open()[0]["page"] == "my page (1).html"
+
+
+def test_preflight_still_answers_for_the_new_kinds(http):
+    pre = http.options("/api/feedback", headers={"Origin": SITE, "Access-Control-Request-Method": "POST"})
+    assert pre.status_code == 204 and pre.headers["access-control-allow-origin"] == SITE
+    assert pre.headers["access-control-allow-headers"] == "content-type"
+
+
+def test_page_likes_and_reports_share_the_feedback_rate_limit(store, usage_store, world_loader, registry, feedback):
+    http = _http(store, usage_store, world_loader, registry, feedback, rate_limit=True)
+    codes = [http.post("/api/feedback", json={"kind": "like", "page": "atlas"}).status_code for _ in range(15)]
+    codes += [http.post("/api/feedback", json=_report()).status_code for _ in range(10)]
+    assert codes[:20] == [201] * 20 and set(codes[20:]) == {429}
+
+
+def test_admin_list_shows_a_report_and_never_a_page_like(http, feedback):
+    like = http.post("/api/feedback", json={"kind": "like", "page": "tree/donatism"}).json()["id"]
+    report = http.post("/api/feedback", json=_report(reason="craft", email="a@b.org")).json()["id"]
+    listed = http.get("/api/admin/feedback", headers=ADMIN).json()["items"]
+    assert [i["id"] for i in listed] == [report] and like not in [i["id"] for i in listed]
+    assert listed[0]["page"] == "tree/donatism" and listed[0]["reason"] == "craft" and listed[0]["turn_index"] is None
+    assert http.get("/api/admin/feedback?status=closed", headers=ADMIN).json() == {"items": []}
+
+
+def test_closing_a_report_clears_the_email_and_files_it_as_closed(http, feedback):
+    report = http.post("/api/feedback", json=_report(email="a@b.org")).json()["id"]
+    closed = http.post(f"/api/admin/feedback/{report}/close", headers=ADMIN, json={"outcome": "corrected", "note": "fixed"})
+    assert closed.status_code == 200 and closed.json()["email"] is None and closed.json()["reason"] == "accuracy"
+    assert [i["id"] for i in http.get("/api/admin/feedback?status=closed", headers=ADMIN).json()["items"]] == [report]
+    assert http.get("/api/admin/feedback", headers=ADMIN).json() == {"items": []}
+
+
+def test_retention_pass_purges_old_page_likes_and_closed_reports(tmp_path, feedback, store):
+    now = datetime(2026, 10, 16, tzinfo=timezone.utc)
+    old_like = feedback.add({"kind": "like", "page": "atlas"})
+    closed_report = feedback.add({"kind": "report", "page": "atlas", "reason": "craft", "text": "t"})
+    open_report = feedback.add({"kind": "report", "page": "atlas", "reason": "accuracy", "text": "t"})
+    fresh_like = feedback.add({"kind": "like", "page": "atlas"})
+    feedback.close(closed_report, "no_action", None)
+    old, recent = (now - timedelta(days=91)).isoformat(), (now - timedelta(days=5)).isoformat()
+    with sqlite3.connect(feedback.db_path) as conn:
+        conn.execute("UPDATE feedback SET created_at = ?, closed_at = ?", (old, None))
+        conn.execute("UPDATE feedback SET closed_at = ? WHERE id = ?", (old, closed_report))
+        conn.execute("UPDATE feedback SET created_at = ? WHERE id = ?", (recent, fresh_like))
+    qc = QCStore(tmp_path / "qc.db")
+    status = retention.run_once(store.db_path, qc.db_path, tmp_path / "status", now=now, feedback_store=feedback)
+    assert status["feedback_purged"] == 2
+    assert feedback.get(old_like) is None and feedback.get(closed_report) is None
+    assert feedback.get(open_report) is not None and feedback.get(fresh_like) is not None
+
+
+def _old_database(path):
+    with sqlite3.connect(path) as conn:
+        conn.executescript(OLD_TABLE)
+        conn.execute(
+            "INSERT INTO feedback (id, kind, created_at, page, session_id, turn_index, record_ids, reason, text, email) VALUES "
+            "('a', 'flag', 'day-1', 'fix', 's1', 2, '[\"r.one\"]', 'unclear', 'old flag', 'x@y.org')"
+        )
+        conn.execute("INSERT INTO feedback (id, kind, created_at, session_id, turn_index) VALUES ('b', 'like', 'day-1', 's1', 2)")
+        conn.execute("INSERT INTO feedback (id, kind, created_at, page, text, quote_consent) VALUES ('c', 'comment', 'day-2', 'p', 'old comment', 'anonymous')")
+        conn.execute("UPDATE feedback SET outcome = 'corrected', closed_at = 'day-3', email = NULL WHERE id = 'c'")
+
+
+def test_an_older_database_is_rebuilt_with_every_row_and_index_kept(tmp_path):
+    path = tmp_path / "old.db"
+    _old_database(path)
+    store = FeedbackStore(path)
+    flag = store.get("a")
+    assert flag["kind"] == "flag" and flag["record_ids"] == ["r.one"] and flag["email"] == "x@y.org" and flag["turn_index"] == 2
+    assert store.like_exists("s1", 2) and store.get("c")["outcome"] == "corrected" and store.get("c")["quote_consent"] == "anonymous"
+    assert [i["id"] for i in store.list_open()] == ["a"] and [i["id"] for i in store.list_closed()] == ["c"]
+    report = store.add({"kind": "report", "page": "atlas", "reason": "craft", "text": "t"})
+    assert store.get(report)["reason"] == "craft"
+    with sqlite3.connect(path) as conn:
+        assert conn.execute("SELECT name FROM sqlite_master WHERE type = 'index' AND name = 'feedback_like_idx'").fetchone()
+        assert conn.execute("SELECT name FROM sqlite_master WHERE name = 'feedback_rebuilt'").fetchone() is None
+        with pytest.raises(sqlite3.IntegrityError):
+            conn.execute("INSERT INTO feedback (id, kind, created_at, reason) VALUES ('z', 'comment', 'now', 'bogus')")
+
+
+def test_the_rebuild_is_idempotent_and_leaves_a_current_database_alone(tmp_path):
+    path = tmp_path / "old.db"
+    _old_database(path)
+    FeedbackStore(path)
+    with sqlite3.connect(path) as conn:
+        before = conn.execute("SELECT sql FROM sqlite_master WHERE name = 'feedback'").fetchone()
+    again = FeedbackStore(path)
+    with sqlite3.connect(path) as conn:
+        assert conn.execute("SELECT sql FROM sqlite_master WHERE name = 'feedback'").fetchone() == before
+        assert conn.execute("SELECT COUNT(*) FROM feedback").fetchone()[0] == 3
+    assert again.get("a") is not None
+
+
+def test_a_failed_rebuild_leaves_the_old_table_untouched(tmp_path, monkeypatch):
+    from engine.feedback import store as store_module
+    path = tmp_path / "old.db"
+    _old_database(path)
+    monkeypatch.setattr(store_module, "_COLUMNS", store_module._COLUMNS + ("missing_column",))
+    with pytest.raises(sqlite3.OperationalError):
+        FeedbackStore(path)
+    monkeypatch.undo()
+    with sqlite3.connect(path) as conn:
+        assert conn.execute("SELECT COUNT(*) FROM feedback").fetchone()[0] == 3
+        assert "'report'" not in conn.execute("SELECT sql FROM sqlite_master WHERE name = 'feedback'").fetchone()[0]
+        assert conn.execute("SELECT name FROM sqlite_master WHERE name = 'feedback_rebuilt'").fetchone() is None
+    assert FeedbackStore(path).get("a") is not None
