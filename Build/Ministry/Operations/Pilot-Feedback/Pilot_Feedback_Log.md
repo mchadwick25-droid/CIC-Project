@@ -66,3 +66,4 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 - Correction (Mark, 2026-10-19): research round 1 for Theme D was a quick scan read as support for the draft, which is not how research is done here. Corrected in Pilot_Feedback_Decisions.md. Proper research is pending.
 - Mark's first look (2026-10-19): likes the simplicity and scrolling of Google Arts and Culture and the simple selection of BibleProject. Idea: a rotating few on the first page, new each time, very clean. Recorded as an amendment to Theme D in Pilot_Feedback_Decisions.md; not research evidence.
 - Coordination (Mark, 2026-10-19): the chooser thread owns the cards and landing order; this thread supplies inputs and stops editing index.html. See Pilot_Feedback_Decisions.md.
+- Decision (2026-10-19): Theme B (items 8, 16, 20) converged by Mark. Record: Pilot_Feedback_Decisions.md. Nothing built or tested.

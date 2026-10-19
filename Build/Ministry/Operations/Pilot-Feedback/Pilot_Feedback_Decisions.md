@@ -78,3 +78,30 @@ Open
 
 ## Coordination with the chooser thread — 2026-10-19
 Decision (Mark): the "Conversation chooser research and design" thread owns the cards and the landing page order. The feedback thread's Theme D decisions and the C3, C4, C5 and C6 needs go to it as inputs, and the feedback thread makes no further edits to cic-website/index.html. The chooser decisions above are that thread's record.
+
+## Theme B: answer the question, honestly, briefly — 2026-10-19
+
+Status: converged (Mark: "Converged, auto mode"). Nothing built or tested.
+
+Covers feedback items 8, 16 and 20 (the Luke 9:27 case, answers that describe the group instead of answering, rambling at the table, and the wish for the tradition's own wisdom).
+
+Decisions
+- No direct answer: the voice says so in one line and offers the nearest real source, cited. The nearest source must be real and close, never a stretch. If nothing is close, the honest line stands alone.
+- Length: layers on the answer. One line first, then a short answer, then the full answer on request. This applies the 1, 3, 5 minute layers (Theme D) to a reply.
+- Enforcement: approved text for the honest limit, written per world, so it cannot invent; plus a check after the answer for length and filler, with a redo when the check fails. The redo costs a second model call only when needed.
+- At the table: a voice with nothing direct to add stays silent, with a one-line note or a small "nothing to add" mark. Only voices with something real speak at length.
+
+What must hold
+- No invention. Honest limits stay. Each world keeps its own voice, and an over-short reply that flattens the voice is a failure too.
+- Contested claims keep their confidence tag; brevity must not drop it.
+- The tester liked that nothing was made up. That is not to be broken.
+
+Evidence used
+- One tester's case, Mark's reading of user discussions, and another thread's measurement of past runs: 1,848 answers, median 264 words, mean 288, longest 1,425 words in the 19 October gallic sample. The feedback thread did not re-measure and did not read the voice's current instructions. No research round was run for this theme.
+
+Open and not decided here
+- Wording of the approved honest-limit line for each of the eleven worlds, who drafts it and how it is reviewed. The line is participant-facing voice text and is held to the accessibility, distinct-voice and no-invention rules.
+- The thresholds for the length and filler check.
+- How often voices have no direct answer, and whether layered replies fit every question type. Measuring this needs a named, capped live test approved by Mark; none has been run.
+- How the silent "nothing to add" mark looks at the table, which belongs with the chooser and room design.
+- This changes the engine and the voice text. It is a governance and methodology change, so it needs Mark's go-ahead before any build.
