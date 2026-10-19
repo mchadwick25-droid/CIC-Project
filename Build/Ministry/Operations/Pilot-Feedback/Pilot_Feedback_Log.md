@@ -1,0 +1,20 @@
+# Pilot Feedback Log
+
+Append-only. Entries are numbered; a merged entry's number never changes. Status changes are added as new lines under the entry, never edits.
+
+## Batch 1 — 2026-10-19
+Source: one pilot tester (name not given), notes passed on by Mark.
+
+| # | Part of product | What they said | Sort | Status |
+|---|---|---|---|---|
+| 1 | Participant app: main screen | Main screen does not fit the screen (photo attached; not yet seen). | Quick fix | Open |
+| 2 | Participant app: waiting state | While the AI is thinking, animate something so it does not look stalled. | Quick fix | Open |
+| 3 | Participant app: reading area | Wondered where the answer went. Reading space was very small. Zoom did not work. | Quick fix | Open |
+| 4 | Participant app: text selection | Copy/paste is glitchy: can highlight backwards but not forwards. | Quick fix | Open |
+| 5 | Public site: page order | The table app is the biggest element; highlight it at the top instead of the bottom. | Quick fix | Open |
+| 6 | World content: table choices | Choices at the table are lesser known and lack Ignatius, Irenaeus, Tertullian, Athanasius, Augustine, Clement. Why? | Bigger issue | Open |
+| 7 | World content: scope | Would it make sense to add Jewish rabbis? Josephus? | Bigger issue | Open |
+| 8 | Voice and answer behaviour | Asked about Luke 9:27. None of the three had an answer (good: nothing invented), then they described what their group generally represents. Asks whether that is wanted or whether they should just answer. Dislikes 400 words where 4 suffice. | Bigger issue | Open |
+| 9 | Funding and product direction | Loves the 300 free tokens. Assumes a paywall comes after. | Bigger issue | Open |
+| 10 | Participant app: disclaimer | Loves the disclaimer before conversation. | Praise | No action |
+| 11 | Overall | Loves it. Great tool to go right to the source. | Praise | No action |
