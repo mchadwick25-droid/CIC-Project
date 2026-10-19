@@ -186,11 +186,9 @@ corpus index.
 - The review cap and its one exception are in CLAUDE.md 3.4. Name each file `Doc_NN_<Topic>_<Kind>_Round<N>.md`, where `<Kind>`
   is `Review`, `Recheck` or `SpotCheck` and `N` is 1, 2 or 3 in order
   (`Step0_...` for Step 0).
-- Governance vocabulary and closure: CLAUDE.md 4.4.
-
+- Governance vocabulary and closure: CLAUDE.md 4.4. Only Mark closes a world.
 - Every open item in a review or phase document gets an entry in
   `Open_Gaps_Tracking.md`. Entries are append-only.
-
 
 ## Fabrication and voice
 
@@ -214,8 +212,11 @@ corpus index.
 ## Paid runs
 
 Model calls outside a conversation (live interviews, blind probes, grading)
-and paid bulk runs (text-to-speech and the like) follow CLAUDE.md 3.2. Ask
-first. Record the dollars in Ledger 2.
+and paid bulk runs (text-to-speech and the like) follow CLAUDE.md 3.2 and the
+Promotion Runbook's "A named, capped run". Check the run's printed name, cap,
+model ids and route against Mark's approval before you call the run valid.
+Stay under the world's metered ceiling (Process V2.0, Section 9). Record the
+dollars in Ledger 2.
 
 ## Ledger entries
 
@@ -245,7 +246,7 @@ steps (Opus review rounds, Fable drafts) early in the weekly window.
 
 ## Stop and ask Mark only for
 
-- Any paid run or model call outside a conversation (CLAUDE.md 3.2).
+- The metered ceiling number, a paid run that would pass it, or any model call outside a conversation (CLAUDE.md 3.2).
 - A budget number that would thin the work.
 - A missing input you cannot supply or derive yourself.
 - The pilot world choices.
@@ -280,5 +281,5 @@ Hand Mark one package:
 - the fleet sweep result
 - the world-boundary completion summary
 
-Hand off as CLAUDE.md 3.5 sets out. Do not edit the Standing dashboard
+Send a summary to the System Hub thread, and hand off as CLAUDE.md 3.5 sets out. Do not edit the Standing dashboard
 files, the Task Board or the Gantt. Mark decides Frozen status.

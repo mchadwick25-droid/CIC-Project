@@ -45,7 +45,7 @@ that reaches "Built & Live" after them:**
 4. The conversation/Table's own opening introduction — **not yet
    located**; it isn't in the website repo. It's authored somewhere
    inside that world's own build records under `worlds/<code>/`. Tracing
-   down exactly where, for each of the 8 worlds, is this thread's first
+   down exactly where, for each of the currently built worlds, is this thread's first
    concrete task.
 
 **Out of scope:** the ~285 remaining unbuilt/atlas-only traditions'
@@ -54,7 +54,7 @@ thread, which is mid-rewrite there (PR #246). **Confirmed, not
 assumed:** diffed PR #246 against its actual merge-base and parsed both
 versions of `world-census.json` as JSON — for all built worlds, PR
 #246 changes neither `tile` nor `longDescription`. Its only touch to 6
-of the 8 is a new structured `doctrine` field (a list of
+of the worlds built at the time is a new structured `doctrine` field (a list of
 belief-statement objects, not prose). Decide early whether `doctrine`
 becomes part of this thread's own shared source per world or stays
 Atlas-side structured data the Atlas thread owns independently — it is
@@ -69,13 +69,13 @@ that are actually built.
 
 Mark's own words: *"it will continue its role to ensure new worlds are
 also meeting this standard"* — more worlds are coming online after
-these 8. This workstream does not close once the current 8 are aligned.
+those. This workstream does not close once the currently built worlds are aligned.
 Its ongoing job is to catch every future world at the moment it flips
 to "Built & Live" and bring its four surfaces up to the same standard
 *before* or immediately as it goes live — not let a backlog of
 unaligned worlds accumulate for a future cleanup pass.
 
-Concretely: once the initial 8 are done and the shared-source
+Concretely: once the initially built worlds are done and the shared-source
 architecture is decided, propose to Mark where this check belongs in
 the standing build pipeline — e.g. a required step in the
 `cic-build-cycle` skill's own late-stage sequence (after a
@@ -119,7 +119,7 @@ one shared source.
 
 ## Governing standard
 
-The standard is CLAUDE.md 1.2 and the files it names. `reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md` is this workstream's working guide; where they differ, CLAUDE.md 1.2 wins — read it first, in full, before
+The standard is CLAUDE.md 1.2 and the files it names. `reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md` is this workstream's working guide; where they differ, CLAUDE.md 1.2 wins — read both first, in full, before
 drafting anything. Treat PR #246's actual rewritten Atlas prose (once
 you've read it) as the working example of what this style guide looks
 like applied to real text, not just theory. If this thread discovers a
