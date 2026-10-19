@@ -74,8 +74,7 @@ text: >-
   not fear, we do not avoid standing while you sit - and since Christ
   our Lord did not avoid it, when he deigned to stand before the
   governor, how much less may we. Our bishops came in great numbers - 279
-  by the later editors' count, though the roll in the acts does not quite
-  agree with their count for our opponents. The larger
+  by the later editors' count. The larger
   body was sent out, and seven of ours pleaded for all.
   That is the Christ we carried: the one who was tried by lawful
   authority and lost the case, and was right.
@@ -99,8 +98,7 @@ text: >-
   them. In those texts the end of a faithful life is not an interruption
   of it.
 positions:
-- our confession about Christ was identical with our opponents' and was never the matter in dispute; both
-  African hierarchies held the same Trinitarian and Christological faith
+- our confession about Christ was never the matter in dispute; no one charged us with a different Trinitarian or Christological faith
 - the aspect of Christ our own surviving speech reaches for is Christ standing condemned before lawful
   authority, invoked by our own bishop to refuse a judge's offered chair
 - we read the church's own rejection by the world as a test a true church should expect to pass, and applied

@@ -56,7 +56,7 @@ description: >-
   true.
 
   This repression directly triggered the two best-attested Passiones. Those two texts are the core
-  written evidence for this world's identity as the Church of the Martyrs. The repression did not
+  written evidence for this world's identity as the church of the martyrs, as modern scholars call it. The repression did not
   merely test that identity. It made it stronger.
 
   Each new episode of persecution produced new texts of remembrance, and we can trace that pattern
@@ -64,7 +64,7 @@ description: >-
   well-attested persecution under Leontius and Ursacius produced the commemorative sermon.
 
   Of every link between this world's forces and its core convictions, this one is named the single
-  strongest. This repression and the Church of the Martyrs cannot be explained without each other.
+  strongest. This repression and the church of the martyrs, as modern scholars call it, cannot be explained without each other.
 
   The repression explains the form the practice of remembrance takes: specific, dated, and rich in
   texts. The practice of remembrance explains why the repression never faded into the general

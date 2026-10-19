@@ -52,7 +52,7 @@ description: >-
 
   More than any other single force, this one shapes what this account can and cannot know about
   this world. The surviving texts of this world's martyr cult are, in large part, this world's own
-  surviving voice: its identity as "the Church of the Martyrs."
+  surviving voice: its identity as the church of the martyrs, as modern scholars call it.
 
   That is precisely because the martyr texts and the inscriptions sit outside the manuscript
   channel this force otherwise controls, partly or wholly.

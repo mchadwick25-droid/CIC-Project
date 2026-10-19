@@ -52,5 +52,5 @@ disguises as a claim the underlying sources make directly.
 SS69, inside this record's own cited range, shows Antony summoned by
 the bishops to Alexandria to publicly argue against the Arians, teaching
 the Nicene position in positive terms - argument, at episcopal summons.
-The third position states both forms this world's record shows: refusal
+The third position states what the record shows of Antony: refusal
 of communion at home, and summoned public argument in the city.

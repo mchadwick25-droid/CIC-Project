@@ -38,7 +38,7 @@ description: >-
   remember something finished. It is to be shown, again, what this world already believes itself
   to be. It is the church that suffers, goes on suffering, and is proved true by it.
 
-  This practice keeps this world's identity as the Church of the Martyrs alive at all times. It is
+  This practice keeps this world's identity as the church of the martyrs, as modern scholars call it, alive at all times. It is
   the means by which the Macarian repression, a sharp episode of persecution, turned into lasting
   formation. Through this ongoing practice, a single act of repression became a permanent fact of
   worship.

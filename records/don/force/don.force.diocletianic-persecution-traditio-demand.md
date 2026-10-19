@@ -46,7 +46,7 @@ description: >-
 
   This force is the deep root of two core commitments. One is ministerial purity: the doctrine
   that a sacrament's validity depends on the minister's own unbroken purity. The other is this
-  world's identity as "the Church of the Martyrs."
+  world's identity as the church of the martyrs, as modern scholars call it.
 
   The persecution produced the charge of being a traditor, one who handed over the scriptures. The
   whole purity doctrine turns on that charge.

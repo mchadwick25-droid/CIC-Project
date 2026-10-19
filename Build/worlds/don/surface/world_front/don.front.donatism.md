@@ -251,8 +251,7 @@ orientation:
       Both churches confessed one faith in the Trinity and in Christ.
       They confessed Father, Son and Holy Spirit as
       one God. For most of a century their opponents called them
-      schismatics, not heretics, because the creed was the same on both
-      sides. From about 400 Augustine called them heretics, and only for
+      schismatics, not heretics, because no one charged them with a different creed. From about 400 Augustine called them heretics, and only for
       their separation. The emperor's law of 405 placed them beside the
       Manichaeans. Even so, in 417 Augustine wrote that most of them
       held the same faith as his church. What divided the two churches
