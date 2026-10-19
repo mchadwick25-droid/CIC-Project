@@ -28,3 +28,11 @@ Source: one pilot tester (name not given), notes passed on by Mark.
 
 ## Status updates — 2026-10-19 (photos)
 - Item 1: Mark sent six iPad photos of the table room and home page and confirmed the table room is the screen that does not fit. In the photo the page is cropped at both edges, which fits a zoomed page. The page that frames the table room sized itself to the zoomed viewport, the same fault as item 3. Fixed in talk.html; not yet confirmed on an iPad.
+
+## Batch 2 — 2026-10-19 (Mark's own observations, divergent phase)
+Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before any build starts.
+
+| # | Part of product | What was observed | Sort | Status |
+|---|---|---|---|---|
+| 12 | Participant app: under the question box | Five small controls stack below the box (Leave for now, free tokens and Go deeper, This helped, Report a problem, Delete this conversation). Mark finds the visuals struggling and overwhelming. | Not sorted | Collecting |
+| 13 | Participant app: visual load | Mark's view: the visuals are overwhelming overall. Conceptual items to follow from Mark. | Not sorted | Collecting |
