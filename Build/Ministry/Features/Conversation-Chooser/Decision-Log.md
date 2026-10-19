@@ -57,3 +57,9 @@ Dated entries. Mark's own words are quoted where he gave them. Reasoning, includ
 **Why.** The first prototype card looked like an app tile, not a card. A collector's card gives each tradition a thing to hold: the era band and the stat block are the baseball-card grammar, and the parchment, gold rules and serif are the project's own manuscript finish, which the portraits already use.
 
 **Still open from this change.** The portrait thumbnails are 192 px; the build uses the full portraits. The back's summary texts are drafts under the same review as the taglines.
+
+## 2026-10-19 — Refinement (Mark): a current collector's card, not a property card
+
+**Mark's words.** "Really good, but looks a little too much like a Monopoly card, can we make it a little more current, collector cards."
+
+**What changed.** The parchment face and flat band gave way to the grammar of a current collector's card: a full-bleed portrait under a slim era bar, the tradition name and dates over the image, a dark name plate at the foot carrying the Representative's name, title and tagline, a gold-foil edge, and a set number ("06 / 11"). The back keeps the stat block, the longer summary, the record line and the actions on the same dark face. Proportion and square corners unchanged. The prototype template in `Prototype/` carries it.
