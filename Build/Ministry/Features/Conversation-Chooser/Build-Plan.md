@@ -80,7 +80,7 @@ Sonnet 5.5 drafts and builds. Opus 5.5 reviews the card words and the accessibil
 ## 5. Open items the build thread settles first
 
 1. **Why a world matched.** A search for "Augustine" matches Donatism through its `voices` text, because Augustine wrote against that church. The result must say so, for example "Augustine: argued against this church", taken from the first sentence of the matching voice string. Confirm the voice strings carry that sentence for every live world before relying on it; if not, add a `card.matches` list to the registry.
-2. **Where the story teasers sit.** Theme D places a short headline, the story teasers and the three doors on the landing page. The hand replaces the chairs section; whether it sits above or below the teasers is Mark's call when the Theme D page is laid out.
+2. **Where the story teasers sit.** Decided 2026-10-19 (Mark): above the hand. Landing page order is headline, story teasers, the hand with its deck controls, then the three doors as one line each. The build mounts the chooser below the teasers' section once that section exists; until the story pool is written, the chooser mounts where the chairs section is today.
 3. **The era tones.** Proposals until measured.
 4. **A deck of ten.** If Donatism moves to the Family Tree only, the deck is ten. The hand and Shuffle work unchanged at ten (Shuffle hides only at five or fewer); the set number on each card reads "of 10".
 5. **The landing page's own tab order.** Today thirty-three stops for eleven chairs; the target is one named stop per card plus the controls.

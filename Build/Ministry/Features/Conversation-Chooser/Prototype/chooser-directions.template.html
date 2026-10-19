@@ -98,6 +98,12 @@ input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--madder)}
 .deck .eras{display:flex;gap:.4rem;flex-wrap:wrap}
 .deck .erachip[aria-pressed="true"]{background:var(--surface2);border-color:var(--era)}
 .deck .count{color:var(--muted);font-size:.9rem;margin:0;font-variant-numeric:tabular-nums}
+.pageorder{border:1px dashed var(--rule);border-radius:6px;padding:.6rem .8rem;margin:0 0 1rem;color:var(--muted)}
+.po-label{margin:0 0 .4rem;font-size:.85rem;max-width:none}
+.po-teasers{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem}
+.po-teasers span{display:block;border:1px dashed var(--rule);border-radius:4px;padding:1.1rem .5rem;text-align:center;font-size:.8rem;letter-spacing:.04em;text-transform:uppercase}
+.po-note{margin:.4rem 0 0;font-size:.78rem;max-width:none}
+.narrow .po-teasers{grid-template-columns:1fr}
 .deckrow{margin:.6rem 0 0;border-top:1px solid var(--rule);padding-top:.5rem}
 .deckrow .card.inhand{opacity:.6}
 .deckrow .card.inhand .face{box-shadow:0 0 0 3px var(--gold),0 10px 26px #000a}
@@ -199,6 +205,11 @@ th{color:var(--muted);font-size:.75rem;letter-spacing:.06em;text-transform:upper
 <li><b>7. The room is unchanged.</b> Its welcome, disclosure and safety handling follow as today.</li>
 </ol>
 <div class="stage" id="stageB">
+  <div class="pageorder" aria-label="Where this sits on the landing page">
+    <p class="po-label">Landing page order (Mark, 2026-10-19): headline, story teasers, then the hand, then the three doors.</p>
+    <div class="po-teasers"><span>Story teaser</span><span>Story teaser</span><span>Story teaser</span></div>
+    <p class="po-note">Placeholders. The one-minute story pool is not written yet; the teasers rotate, a few each visit.</p>
+  </div>
   <h2>Who would you like to talk with?</h2>
   <p class="sub">Five voices this visit. Shuffle for five more, find a name you know, or see the whole deck.</p>
   <div class="deck">

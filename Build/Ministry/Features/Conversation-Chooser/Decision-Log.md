@@ -81,3 +81,9 @@ Dated entries. Mark's own words are quoted where he gave them. Reasoning, includ
 **Decision (Mark).** "Let's keep it as it is."
 
 **Carried into the build plan.** The build records which control launched each room (hand, scroll, search, Tree), so after the pilot the hand can be judged against a row of five on evidence, not taste.
+
+## 2026-10-19 — The story teasers sit above the hand (Mark)
+
+**Mark's words.** "Put the story teasers above the hand."
+
+**What it settles.** The Theme D landing page order, top to bottom: the short headline, the story teasers (a rotating few, per the Theme D amendment), the hand with its deck controls, then the three doors as one line each. This closes the build plan's open item on the teasers' placement. The teasers' own words are not written yet; the one-minute story pool is a Theme D task, not this feature's.

@@ -72,3 +72,6 @@ Evidence used
 Open
 - Where the story teasers sit relative to the hand on the landing page.
 - A name search must say why a world matched (Augustine matches Donatism as an opponent).
+
+### Theme D, page order — 2026-10-19
+- Mark: "Put the story teasers above the hand." Landing page order: headline, story teasers, the hand of cards with its deck controls, then the three doors. This resolves the open item under "Theme D, the chooser" above. The story pool itself is still unwritten.
