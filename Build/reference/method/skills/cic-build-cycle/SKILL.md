@@ -101,7 +101,7 @@ An adversarial review, specific to the document, runs in an isolated session. It
 A revision is **substantial** if it changes a claim's substance, a confidence rating, a sourcing conclusion, or a scope boundary. It is **not substantial** if it is wording, tone, formatting, or a typo.
 
 - If substantial: revise, then review again. A substantial revision needs a new review file, and **a document gets at most three review files in all.** A finding that the document could be stronger, with nothing wrong, unsupported, or misleading, is not substantial and starts no new review.
-- If the document has not cleared after its third review file, that is an unresolved tension the pipeline cannot close alone. Stop and escalate to Mark with the third file's findings. Never write a fourth file. A revision made after the third file is not reviewed by a fourth file. `python -m engine.m10.cli roundcount <code> N --check-new` counts every review file (Review, Recheck or SpotCheck), whatever its verdict, and exits non-zero when a fourth would be written.
+- If the document has not cleared after its third review file, that is an unresolved tension the pipeline cannot close alone. Stop and escalate to Mark with the third file's findings. Never write a fourth file, except a review Mark orders in a Cap ruling (CLAUDE.md 3.4). A revision made after the third file is not reviewed by a fourth file. `python -m engine.m10.cli roundcount <code> N --check-new` counts every review file (Review, Recheck or SpotCheck), whatever its verdict, and exits non-zero when a fourth would be written.
 - The second and third review files are targeted rechecks of the prior findings and the diff, at medium effort.
 - If cosmetic only: apply it, note that it was applied, and move on.
 - If two reviews of the same document disagree, log the disagreement. Do not quietly side with the later one.
@@ -113,9 +113,9 @@ Check these before any disposition. If one applies, stop and escalate to Mark, h
 - **Representative identity, name, or title.** Every decision, including a later change. Use the grounded-options format: 2-4 named candidates (identity and image decided together), an explicit trade-off for each, a recommendation, and a dedicated decision file. Discuss with Mark before the decision is used anywhere else.
 - **Portfolio-level or cross-world decisions.** Anything decided for a reason outside this world's own ecology. Label it portfolio-level in whatever records it.
 - **Governance or methodology decisions.** Anything that changes how the build process works.
-- **Unresolved tensions.** Two reviews disagreeing, a contradiction between two cleared documents, a finding that cuts against an earlier decision, or a document that has not cleared after three rounds. A defect class that keeps returning across rounds is named in the review file and escalated. Do not chase it one instance at a time.
+- **Unresolved tensions.** Two reviews disagreeing, a contradiction between two cleared documents, a finding that cuts against an earlier decision, or a document that has not cleared after its third review file. A defect class that keeps returning across rounds is named in the review file and escalated. Do not chase it one instance at a time.
 
-Also escalate a missing input, the metered-spend ceiling for the validation set, and any change to a settled decision. A change to a frozen or settled item is a named, reasoned change order, never a quiet edit.
+Also escalate a missing input, any model call outside a conversation (CLAUDE.md 3.2), and any change to a settled decision. A change to a frozen or settled item is a named, reasoned change order, never a quiet edit.
 
 ## Naming and term propagation
 
@@ -142,7 +142,7 @@ When two documents state the same claim (a fact, number, quoted phrase, term) fr
 ## Budget and pacing
 
 - One world at a time by default. A second concurrent session runs only when the cost ledger shows the weekly allowance allows it.
-- Keep two ledgers per world. (1) Weekly allowance share: note the /usage percent at world start and at freeze, plus tokens by model tier, review rounds, and hours. (2) Metered API spend in dollars: live interview, blind probes, any TTS. The paid-bulk-run gate in CLAUDE.md applies.
+- Keep two ledgers per world. (1) Weekly allowance share: note the /usage percent at world start and at freeze, plus tokens by model tier, review rounds, and hours. (2) Metered API spend in dollars. Model calls outside a conversation need a test Mark approved by name, with a cap; paid bulk runs such as TTS follow the paid-bulk-run rule. Both are in CLAUDE.md 3.2.
 - Read /usage before starting a world. Start only if the remaining build allocation covers a typical world plus reserve.
 - Heavy steps (Opus review rounds, Fable drafts) go early in the weekly window. Pause only at document boundaries. Keep a compact state file so the world can resume after the weekly reset.
 - The process version is stamped on each world at start. A change after that is a named change order.
@@ -153,7 +153,7 @@ When two documents state the same claim (a fact, number, quoted phrase, term) fr
 
 A coach thread checks in across a batch of already-disposed work, not per document. It runs after every five worlds (Process V2.0, Section 11) and across any batch Mark names. It verifies that review files exist and support what cites them, that escalation triggers were not missed, that the decision log matches disk, and that decisions match the governing designs. It reports to Mark and does not draft or revise world documents.
 
-Editing authority over non-world files (Construction Framework, Representative Construction Framework, build process and completion standard, change-order register, L3B and L4 templates) belongs to a coach thread. A build thread writes only inside its own world's folder.
+Editing authority over non-world files (Construction Framework, Representative Construction Framework, build process and completion standard, change-order register, L3B and L4 templates) belongs to a coach thread. A build thread writes only inside its own world's folder, plus its handoff (CLAUDE.md 3.5). Pull requests, merging and promotion follow CLAUDE.md 4.1 and Part 5; questions to Mark follow 4.2.
 
 A coach may make small technical corrections inside a world file (a citation misattribution, a broken cross-reference, a propagation fix) if the correction changes no claim, finding, or decision and is logged with its date in the Build/Ministry decision log, never as a note inside the world file. Anything touching substance stays with the build thread or goes through escalation.
 

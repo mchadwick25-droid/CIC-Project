@@ -183,29 +183,20 @@ corpus index.
 - The bar is what a church history scholar would call good. A finding
   that a document could be stronger, with nothing wrong, unsupported or
   misleading, is not substantial. It does not justify another round.
-- Every review file on a document counts toward a cap of three. A Review,
-  a Recheck and a SpotCheck each count as one. If the document has not
-  cleared after its third review file, stop and send it to Mark. Do not write
-  a fourth. Name each file `Doc_NN_<Topic>_<Kind>_Round<N>.md`, where `<Kind>`
+- The review cap and its one exception are in CLAUDE.md 3.4. Name each file `Doc_NN_<Topic>_<Kind>_Round<N>.md`, where `<Kind>`
   is `Review`, `Recheck` or `SpotCheck` and `N` is 1, 2 or 3 in order
   (`Step0_...` for Step 0).
-- Say "Approved to proceed." Never say "finalized."
+- Governance vocabulary and closure: CLAUDE.md 4.4.
+
 - Every open item in a review or phase document gets an entry in
   `Open_Gaps_Tracking.md`. Entries are append-only.
-- A document proceeding does not close anything. Only Mark closes a
-  world, and only after Phase Five boundary testing and full-system
-  review.
+
 
 ## Fabrication and voice
 
-- Invent nothing. A Representative has no family, age, personal history
-  or anecdote beyond what the completed world supports.
-- Public-facing text must pass readability (Flesch-Kincaid grade 8 to 10,
-  Flesch Reading Ease 60 or higher). Read every such field for AI tells
-  against `records/syr/demonstration/syr.demo.room-for-doubt.md`.
-- The Representative never handles real distress. The Facilitator
-  redirects. Never make a redirect depend on the participant confirming
-  they are fine.
+- Never invent, readability and safety: CLAUDE.md Part 1. Read every
+  public-facing field for AI tells against `records/syr/demonstration/syr.demo.room-for-doubt.md`.
+
 - Label every probe result observed (with a transcript reference) or
   authored. An authored result never scores PASS or FAIL.
 - Test `packages/<code>/<pin>/compiled/prompt.txt` only.
@@ -222,15 +213,9 @@ corpus index.
 
 ## Paid runs
 
-Live interviews, blind probes and any text-to-speech spend real money.
-Before each paid run:
-
-1. Run a small sample and show it to Mark. Get his approval.
-2. Pass every paid setting explicitly on the command line. Never inherit
-   from the environment.
-3. Let the run print its settings with item and character counts.
-   Confirm them from that printed output before you call the run valid.
-4. Stay under the world's metered ceiling. Record the dollars in Ledger 2.
+Model calls outside a conversation (live interviews, blind probes, grading)
+and paid bulk runs (text-to-speech and the like) follow CLAUDE.md 3.2. Ask
+first. Record the dollars in Ledger 2.
 
 ## Ledger entries
 
@@ -260,21 +245,21 @@ steps (Opus review rounds, Fable drafts) early in the weekly window.
 
 ## Stop and ask Mark only for
 
-- The metered ceiling number, or a paid run that would pass it.
+- Any paid run or model call outside a conversation (CLAUDE.md 3.2).
 - A budget number that would thin the work.
 - A missing input you cannot supply or derive yourself.
 - The pilot world choices.
 - The Representative's identity and title. Offer 2 to 4 named candidates
   with trade-offs and one recommendation, all checked against the naming
-  discipline document. Ask for identity and image together, once.
+  discipline document. Ask for identity and image together, once, as CLAUDE.md 4.2 sets out.
 - Any cross-world or portfolio decision.
 - Any governance or methodology change not already decided in Process
   V2.0. Route a framework or template gap as a flagged finding.
 - An unresolved tension after three review files.
 - Frozen status. Never assign it yourself.
 
-Do not create the registry entry. Do not go live. Commit at each green checkpoint, with the step ID. Push only on Mark's
-word.
+Do not create the registry entry. Do not go live. Commit at each green checkpoint, with the step ID. Pushes, PRs and merging
+follow CLAUDE.md Part 5 and 4.1.
 
 ## When done
 
@@ -295,5 +280,5 @@ Hand Mark one package:
 - the fleet sweep result
 - the world-boundary completion summary
 
-Send a summary to the System Hub thread. Do not edit the Standing dashboard
+Hand off as CLAUDE.md 3.5 sets out. Do not edit the Standing dashboard
 files, the Task Board or the Gantt. Mark decides Frozen status.

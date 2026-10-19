@@ -1,4 +1,4 @@
-# Launch Prompt — Website V2 Design (divergent / struggle / convergent)
+# Launch Prompt — Website V2 Design (divergent / groan zone / convergent)
 
 **Standing launch prompt.** Mark pastes everything below the line into a
 new thread to open the Website V2 design workstream. Coordination model:
@@ -24,7 +24,7 @@ designs, serving those who visit and drawing them into the fascinating
 and life-changing journey of the church and how Jesus is faithful to us.
 
 This is explicitly **not a jump-to-decisions straight line.** It is a
-divergent, struggle, and convergent process. Quality and rigor take
+divergent, groan zone, and convergent process. Quality and rigor take
 precedence over cost. Good professional design, as an expert would do
 it, is key.
 
@@ -41,11 +41,10 @@ it, is key.
   Messiness is allowed there and only there; nothing in `Sandbox/` is
   ever compiled, served, or merged into deliverable documents.
 - Everything outside `Sandbox/` follows the standing file discipline
-  (Build Process V1.3): files carry only what they exist to carry.
+  (CLAUDE.md 2.1): files carry only what they exist to carry.
 - Never touch the branch `claude/pilot-launch-website-access-j640i1`.
   Push with `git push -u origin claude/website-v2-sandbox`; merge
-  commits only, never squash or rebase shared history; no PRs unless
-  Mark asks.
+  commits only, never squash or rebase shared history; PRs follow CLAUDE.md Part 5.
 
 ## Model routing (Mark's ruling)
 
@@ -116,7 +115,7 @@ accommodate another; the coordinator must not smooth them toward each
 other. If two come back similar, send one back to be made genuinely
 different.
 
-### D2 — STRUGGLE
+### D2 — GROAN ZONE
 
 Opus reviews every direction adversarially — reviews land as files in
 `Sandbox/D2-struggle/`. Each review tries to kill the direction: where
@@ -151,8 +150,9 @@ not quiet edits.
 Sonnet builds the frozen design in increments on the sandbox branch —
 each increment a coherent surface, with the full test suite green
 before any push. Opus reviews each increment against the frozen design.
-**Mark reads each built surface before it merges** — and merge means
-live, because Render auto-deploys main. Open item for Mark before D4
+**Mark reads each built surface before it merges** — and a merge to
+`main` is live for `cic-website` (Cloudflare production is on `main`; the engine
+goes to staging first, per the Promotion Runbook). Open item for Mark before D4
 starts: whether to add a Render preview environment or switch the
 service to manual deploys for the build window (his console action;
 noted in the workstream decision log).
@@ -167,12 +167,12 @@ noted in the workstream decision log).
   reasoning: this site exists to draw people into the story of the
   church and Jesus' faithfulness, and design choices should be argued
   in those terms as well as craft terms.
+- Ask decisions as CLAUDE.md 4.2 sets out.
 - Dated ledger entries in `Ministry/Features/Website-V2/Decision-Log.md`
   for every gate and ruling; cross-link to
   `Ministry/Technology/CiC_FrontEnd_Decision_Log.md` for anything that
   binds beyond this workstream.
-- No live/billed generative-model calls against the CiC engine without
-  Mark's explicit per-run authorization. (Design subagent work inside
+- Model calls against the CiC engine follow CLAUDE.md 3.2. (Design subagent work inside
   the thread is not a billed engine call; probing the live site's
   conversation engine is.)
 - Report costs as labeled rate-card estimates when asked; never present
