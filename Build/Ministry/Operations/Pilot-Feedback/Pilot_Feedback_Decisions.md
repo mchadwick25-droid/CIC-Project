@@ -34,3 +34,7 @@ Open and not decided here
 - How the Church Family Tree collects up to three picks (theme E).
 - Which layer gets audio first (theme F).
 - Q5 in PR 976 places the Build a Table card first on the current page; this decision may move it.
+
+### Correction to Theme D evidence — 2026-10-19
+- Research round 1 was a quick scan of four web searches, read for what supported the draft. It did not test the draft, look for counter-examples, open the products, or record what was not found beyond a short gap note. It is not research evidence and does not support the Theme D decision. The Theme D decision stands only as Mark's judgment until proper research is done.
+- Proper research, to be agreed with Mark: questions written first, systems chosen by stated criteria, each one actually opened and recorded in a comparison grid, evidence against the draft sought as hard as evidence for it, and a list of what could not be found.

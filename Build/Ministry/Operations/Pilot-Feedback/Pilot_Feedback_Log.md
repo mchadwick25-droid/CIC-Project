@@ -63,3 +63,4 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 
 ## Decision — 2026-10-19
 - Theme D (items 5, 12, 13, 19, 21, 22, 23, 24, 26): Mark converged. Record: Pilot_Feedback_Decisions.md. Nothing built.
+- Correction (Mark, 2026-10-19): research round 1 for Theme D was a quick scan read as support for the draft, which is not how research is done here. Corrected in Pilot_Feedback_Decisions.md. Proper research is pending.
