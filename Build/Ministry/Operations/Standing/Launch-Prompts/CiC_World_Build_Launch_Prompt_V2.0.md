@@ -194,7 +194,6 @@ corpus index.
 
 - Never invent, readability and safety: CLAUDE.md Part 1. Read every
   public-facing field for AI tells against `records/syr/demonstration/syr.demo.room-for-doubt.md`.
-
 - Label every probe result observed (with a transcript reference) or
   authored. An authored result never scores PASS or FAIL.
 - Test `packages/<code>/<pin>/compiled/prompt.txt` only.

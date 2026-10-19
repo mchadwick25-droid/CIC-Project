@@ -152,7 +152,7 @@ before any push. Opus reviews each increment against the frozen design.
 **Mark reads each built surface before it merges** — and a merge to
 `main` is live for `cic-website` (Cloudflare production is on `main`; the engine
 goes to staging first, per the Promotion Runbook). Open item for Mark before D4
-starts: whether `cic-website` needs a preview or a manual-deploy window while D4 runs (his console action;
+starts: whether a manual-deploy window is needed while D4 runs (his console action;
 noted in the workstream decision log).
 
 ## Working with Mark

@@ -68,8 +68,7 @@ that are actually built.
 ## This is a standing role, not a one-time cleanup
 
 Mark's own words: *"it will continue its role to ensure new worlds are
-also meeting this standard"* — more worlds are coming online after
-those. This workstream does not close once the currently built worlds are aligned.
+also meeting this standard"* — more worlds are coming online after the currently built ones. This workstream does not close once the currently built worlds are aligned.
 Its ongoing job is to catch every future world at the moment it flips
 to "Built & Live" and bring its four surfaces up to the same standard
 *before* or immediately as it goes live — not let a backlog of
