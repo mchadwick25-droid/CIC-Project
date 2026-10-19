@@ -884,3 +884,15 @@ Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put t
 - `records/hal/story/hal.story.day-at-monastery.md`: "Which psalms they sang, and how the two houses shared their worship, no one wrote down, or nothing that was written survived." -> "Either no one wrote down which psalms they sang and how the two houses shared their worship, or nothing that was written survived."
 
 Status: CLOSED for this review.
+
+## OG-28. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-hal-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 43 own-voice, 2 outsider's account, 8 unsupported, 0 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `records/hal/doctrinal_witness/hal.dw.suffering.md` lines 48 and 56 ("grief itself honored, never condemned as unbelief") are contradicted by Jerome's Letter 39 ("unbelieving tears").
+- `records/hal/world_core/hal.core.hieronymian.md` lines 44 to 45 and `records/hal/voice_craft/hal.voice.craft.md` line 25: the fasting comparison carries no source.
+- `records/hal/doctrinal_witness/hal.dw.record.md` line 29 ("the Hebrew we held truest") conflicts with the term record's ban on presenting the principle as the world's consensus.
+- `records/hal/honest_limit/hal.limit.f5-women-own-words.md` line 28 states Epistle 46 authorship as settled; `hal.contested.ep46-authorship` forbids that.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.

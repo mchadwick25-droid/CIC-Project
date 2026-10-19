@@ -759,3 +759,14 @@ Fixed: the tile no longer states Origen's act as fact; Leonides's card no longer
 - The Leonides teaser keeps "sixteen-year-old", which fits the source.
 
 Status: CLOSED for this review; the open items above are for the project lead.
+
+### OG-32. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-alx-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 26 own-voice, 3 outsider's account voiced as the world's own, 5 unsupported, 0 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `records/alx/doctrinal_witness/alx.dw.jesus.md` lines 32 to 33, "Athanasius closes the era with the same conviction", misleads on chronology: the vendored edition dates De Incarnatione to about 318.
+- `records/alx/figure/alx.figure.gregory-thaumaturgus.md` line 27 ("most scholars hold to" the Address's authorship) conflicts with `records/alx/source/alx.source.gregory-address-to-origen.md` line 17 ("doubted by Nautin, and later scholarship has reaffirmed the doubt"). One of them is wrong.
+- Engine question, not a record defect: in two replies, sentences marked `verdict: withhold` in the grounding still appeared in the shipped text.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.
