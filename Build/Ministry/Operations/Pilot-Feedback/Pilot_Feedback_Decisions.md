@@ -45,3 +45,4 @@ Source: Mark's own look at two of the ten sites. These are his preferences, not 
 - BibleProject: he likes the simple selection.
 - His idea: not everything has to be on the first page. Show a rotating few, something new each time, very clean.
 - Effect on the draft: the story teasers become a rotating few drawn from a larger set, not a fixed three or four. How the rotation works is open. The research grid still has to be filled and the six claims tested.
+- Rotation (Mark): a new random few each visit, skipping stories that visitor has already seen. The browser remembers what was seen; no account. Needs a larger set of one-minute stories than the three or four first drafted.
