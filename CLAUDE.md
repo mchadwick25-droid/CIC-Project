@@ -132,6 +132,14 @@ Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
    - Exception: a review Mark orders in a "Cap ruling" entry in the System Hub Decision Log doesn't count.
    - Mechanics: the `cic-build-cycle` skill. Why: `CiC_Governance_Rationale_Log.md`.
 
+### 3.5 Hand off to the next thread
+
+1. Hand off at a stopping point where you can: a document approved, a PR merged, a batch done.
+2. Fill in `Build/reference/L4-Templates/Session_Handoff_Template.md`. Keep it to one page.
+3. Save it as `Build/Ministry/Operations/Handoffs/<YYYY-MM-DD>_<topic>.md` and commit it with the work.
+4. Point to decisions, files, and PRs. Never copy a rule from this file into a handoff or launch prompt.
+5. Starting from a handoff: read it first, then re-check its section 3 before building on it. If a claim fails, log it in `Open_Gaps_Tracking.md` and tell Mark.
+
 ---
 
 ## Part 4 — When you need Mark
@@ -182,3 +190,4 @@ Add a row only when a real new case shows up.
 - [ ] "Approved to proceed," never "finalized." Nothing closes until Phase Five boundary testing and full-system review are both complete.
 - [ ] A blocking finding cleared only by independent re-confirmation, never self-certification.
 - [ ] One draft PR for the batch, pushed once after local checks pass, then marked ready (ruled 2026-10-05).
+- [ ] If another thread picks this up, a handoff saved in `Build/Ministry/Operations/Handoffs/` (3.5).

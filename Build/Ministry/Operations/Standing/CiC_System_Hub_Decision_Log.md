@@ -6696,3 +6696,7 @@ The project lead approved a restructure of `CLAUDE.md` on 19 October, after thre
 **Moved, not deleted.**
 - Mark's own account practices (extra usage off, `/usage`, the shared pool, session batching, spreading heavy days) → `CiC_Usage_Discipline.md`.
 - The proactive source-research method → `CiC_Source_Research_Practice.md`. It was meant for `Build/worlds/_cross-world/README.md`, but editing that canonical file would oblige removing another thread's build narrative from it, so it lives here instead.
+
+## 2026-10-19 - Session handoffs follow one template
+
+The project lead approved a standard handoff for work passing between threads, after seeing quality drop at each handoff. A thread fills in `Build/reference/L4-Templates/Session_Handoff_Template.md` (done and how it was checked; not done; what to re-check before trusting; waiting on Mark; next step; spend), saves it in `Build/Ministry/Operations/Handoffs/`, and points to decisions instead of copying rules. The next thread re-checks section 3 before building on it. The rule is `CLAUDE.md` 3.5. The template sits beside `World_Build_Handoff_Manifest_Template.md`, which stays the gate for a world moving from the Library thread to its build thread.
