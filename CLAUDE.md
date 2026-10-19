@@ -1,139 +1,258 @@
 # CIC-Project — Working Rules
 
-These rules apply to every session in this repo. Read them before doing anything else. The first two sections are principles that hold together: neither is ever traded against the other, and neither is traded away for speed, cost, or convenience. The third, Safety, is a working protocol that is kept and built to be proportionate. The sections after them are listed in priority order — where two of those would pull in different directions, the higher one wins.
+Read this before doing anything else. The program succeeds or fails on two things: scholarly rigor and clear, accessible conversation.
 
-This program succeeds or fails on exactly two things: scholarly rigor and clear, accessible conversation. That's not one section among the others below — it's what "Trust and source fidelity" and "Accessible and rigorous" (below) are actually protecting, and it's why they outrank everything about cost, automation, and scale. The cost and scaling discipline further down exists to buy more of both, never to trade against either. A build that's cheaper, faster, or more automated but weaker on rigor or clarity is not a win — it's a failure the process didn't catch.
+- **1.1 and 1.2 are principles.** They hold together. Never trade one against the other, and never trade either away for speed, cost, or convenience.
+- **1.3 Safety is a working protocol,** kept and built to be proportionate.
+- The cost and scaling rules exist to buy more rigor and clarity, never to trade against either. A build that is cheaper, faster, or more automated but weaker on rigor or clarity is a failure the process didn't catch.
 
-## Trust and source fidelity — never invent
+This file is laid out in working order:
 
-The people in these conversations rely on what we say and on how we read them. Accessibility (the next section) holds together with this.
+1. **What never changes** — fidelity, voice, safety
+2. **Before you start** — where things go, which model, budget
+3. **While you work** — fixing, spending, building, handing off
+4. **When you need Mark** — ask or act, how to ask, governance vocabulary
+5. **Before you finish** — one checklist
 
-- Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes.
-- No invented family, age, personal history, or anecdote for a Representative. If a detail isn't derivable from the completed world, it doesn't belong.
-- A uniformly polished "generic AI voice" is itself a fabrication risk — no less than an invented personal quirk would be.
-- Every quote must be re-verified verbatim against the vendored source file before a record passes review. A record marked "quotes verified" is a claim to re-check, not a fact to trust.
-- Contested or uncertain claims get tagged with the project's five-level `formation_confidence` vocabulary (Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential-Thin), with a `contested_claim` record where warranted. Never present a disputed claim as settled. "Not Attested" is not a sixth confidence level — it names an absent claim, not a confidence rating on a claim that exists (`honest_limit` / `absent_detail` / `kind: absence` records already model this).
-- Don't confuse a world's intended "historical otherness" fierceness or disorientation (part of the design) with genuine participant distress (a safety event) — treating the former as the latter defeats the mechanism meant to catch the latter.
+**Priority order is separate from that layout.** When two rules pull in different directions, the one higher in this list wins:
 
-## Accessible and rigorous — participant-facing content
+1. Never invent (1.1) and Write for the participant (1.2)
+2. Safety (1.3)
+3. Fix it right (3.1)
+4. Governance vocabulary and closure (4.4)
+5. Keep the live/canonical surfaces clean (2.1)
+6. Track gaps and exceptions (2.1)
+7. How we work with Mark (4.1–4.3, 3.5)
+8. Building a world (3.4, and the world-start rules in 2.3)
+9. Usage and cost (2.2, 2.3, 3.2, 3.3) — these never override anything above them.
 
-- The target, as a principle to write toward — not a script this file runs: **CEFR B2 / Flesch-Kincaid grade 8–10, Flesch Reading Ease ≥ 60**, in the register of BBC News or National Geographic — serious, adult, vivid, clear, readable by a non-native speaker without simplifying the substance. Treat grade 8 as a floor worth staying above, not a target to hit exactly — too-simple isn't the risk this guards against; flattening the world's own voice is. The actual per-turn scoring and hard-fail enforcement of this live in the engineering (`engine/m7/turn_readability.py`, the NorthStar decision) — full detail in `Build/reference/method/Pass2-decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md` and `VR_1A_Writing_Standard_2026-08-09.md`.
-- Three things have to hold together, never traded against each other: **accessible** (the reading-level target above), **distinctive** (the world's own imagery, convictions, and flavor survive — clear but generic has failed differently, not better), and **held** (zero fabrication, doesn't cave or go hollow under real pushback).
-- Practical shape: short sentences (roughly 12–20 words average), one idea per paragraph (1–4 sentences), technical terms introduced before they're used naturally, active voice and concrete verbs over passive and nominalizations, no unnecessary Greek/Latin, nothing nested or running past ~25 words. Uncertainty is stated plainly rather than hedged into vagueness, and evidence is shown naturally ("we believe this because...") rather than argued at length. Precise language beats impressive language — say the complex idea plainly rather than trading it for a simpler one. Not simplifying the scholarship; lowering the barrier to entering it.
-- A Representative's hedge language is emic, not etic — a world's own way of naming its own uncertainty, not the generic academic phrasing ("historians disagree") that a Facilitator, speaking from outside every world, may use directly.
-- No AI tells. Nothing should read as generated — no hedging filler, no assistant-voice cadence, no telltale LLM phrasing, no disclaimer-as-crutch. If a participant can hear the chatbot instead of the world's own voice, that's a defect, independent of whether the content is otherwise accurate.
-- This applies to everything participant-facing, not just Representative dialogue — UI text, instructions, and onboarding flow are held to the same bar.
+---
 
-## Safety
+## Part 1 — What never changes
 
-- A Representative never handles real crisis or distress itself. Recognizing risk and directing a participant to real human help is entirely the Facilitator's role, governed outside any world's own voice — a Representative may speak warmly in-character, but the actual redirect is Facilitator-governed and template-anchored, not freely generated.
-- Near anything safety-adjacent, default to caution over assuming resilience, and never make a redirect conditional on the participant confirming they're okay.
-- The protocol is built to be proportionate: as cheap as it can be while still reliably catching the real event. A rare event does not raise the cost of ordinary turns beyond what detection needs.
-- The safety protocol is functioning: the Facilitator classifies acute distress and harmful dynamics on each turn, the Representative stays silent on those turns, and the template-anchored crisis resources are appended by code. The governing doc is `CiC_L3D_Facilitator_Governance_V3.6`, a Word file at `Archive/Syriac-Build-2026-07/L3D-Encounter-Methodology/CiC_L3D_Facilitator_Governance_V3.6.docx`.
+### 1.1 Never invent
 
-## Fix it right
+- Do not invent family, age, history, or anecdote for a Representative. If a detail can't be derived from the completed world, leave it out.
+- Re-verify every quote word for word against the vendored source file before a record passes review. Treat "quotes verified" as a claim to re-check.
+- Tag contested or uncertain claims with `formation_confidence`: Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential-Thin. Add a `contested_claim` record where warranted. Never present a disputed claim as settled.
+- Record an absent claim with `honest_limit`, `absent_detail`, or `kind: absence`. "Not Attested" is not a sixth confidence level.
+- Treat a polished, generic AI voice as a fabrication risk too.
 
-- No easy fixes. No band-aids, no workarounds, no "good enough for now."
-- No fix on a fix. If a previous fix was wrong or incomplete, undo it and redo it right — don't stack a second patch on top of it.
-- Find and fix the root cause, not the symptom. If the root cause isn't clear yet, say so and investigate before touching code.
-- No shortcuts that trade correctness or completeness for speed.
+Why: fabrication at moments of maximum stakes is the most serious failure this project recognizes.
 
-## Governance vocabulary and closure
+### 1.2 Write for the participant
 
-- "Approved to proceed" — not "finalized." That word is retired; don't use it.
-- Nothing closes until both Phase Five boundary testing and full-system review are complete — this is the whole-system/portfolio closure gate, a different and much rarer scope than a single document's own "Approved to proceed" under the build-cycle's per-document self-governance ("Scaling the build," below). One document proceeding doesn't mean anything has closed.
-- A blocking review finding can't be dismissed by self-certification — it needs independent re-confirmation.
-- Truncation checks use two independent methods, not one.
+Applies to everything a participant sees: dialogue, UI text, instructions, onboarding.
 
-## Keep the live/canonical surfaces clean
+- Write toward **CEFR B2, Flesch-Kincaid grade 8–10, Flesch Reading Ease ≥ 60**.
+  - Register: BBC News or National Geographic. Serious, adult, vivid, clear, readable by a non-native speaker without simplifying the substance.
+  - This is a principle to write toward, not a script this file runs.
+  - Grade 8 is a floor worth staying above, not a target to hit exactly. Flattening the world's own voice is the real risk.
+- Hold three things at once: **accessible**, **distinctive** (the world's own imagery and convictions), and **held** (no fabrication, no caving under pushback).
+- Keep sentences short, averaging roughly 12–20 words. Nothing nested, nothing running past ~25 words. One idea per paragraph (1–4 sentences). Introduce a technical term before using it naturally. Use active voice and concrete verbs, not passives and nominalizations. Skip unnecessary Greek and Latin.
+- State uncertainty plainly rather than hedging it into vagueness. Show evidence naturally ("we believe this because…") rather than arguing at length.
+- Precise language beats impressive language. Say the complex idea plainly rather than trading it for a simpler one. Don't simplify the scholarship; lower the barrier to entering it.
+- A Representative's hedge language is emic, not etic: the world's own way of naming its own uncertainty. Generic academic phrasing ("historians disagree") belongs to the Facilitator, who speaks from outside every world.
+- Remove every AI tell: hedging filler, assistant-voice cadence, telltale LLM phrasing, disclaimers as a crutch. If a participant can hear the chatbot instead of the world's own voice, that is a defect, even if the content is accurate.
 
-The following are **live and used by the program, or are canonical build output**. They contain only what runs the program or constitutes the finished record — no notes, commentary, change history, review discussion, or process narration embedded in them:
+Scoring and enforcement: `engine/m7/turn_readability.py`. Full standard: `Build/reference/method/Pass2-decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md` and `VR_1A_Writing_Standard_2026-08-09.md`.
+
+### 1.3 Safety
+
+- Never let a Representative handle real crisis or distress. The Facilitator recognizes risk and directs the person to human help, from a template, not free text. The Representative may stay warm in character.
+- Near anything safety-adjacent, choose caution. Never make a redirect depend on the participant saying they're okay.
+- Don't mistake a world's designed fierceness or disorientation for participant distress.
+- Keep the protocol proportionate: as cheap as it can be while still reliably catching the real event. A rare event does not raise the cost of ordinary turns beyond what detection needs.
+
+How it runs now: the Facilitator classifies acute distress and harmful dynamics every turn, the Representative stays silent on those turns, and code appends the crisis resources. Governing doc: `Archive/Syriac-Build-2026-07/L3D-Encounter-Methodology/CiC_L3D_Facilitator_Governance_V3.6.docx`.
+
+---
+
+## Part 2 — Before you start
+
+### 2.1 Know where things go
+
+| What you have | Where it goes |
+|---|---|
+| Code, data, or finished record | The live/canonical folders below. Nothing else goes in them. |
+| Notes, decision logs, audits, review rounds, status reports | `Build/Ministry/` |
+| A gap, open question, or review outcome | That world's `Open_Gaps_Tracking.md`, numbered, append-only. Never left to live only in a conversation. |
+| A fleet defect you aren't fixing now | An `ACCEPTED_OPEN` waiver with its owning finding |
+| Something superseded | `Archive/`. Never delete without instruction. |
+| Something for Mark to react to | An Artifact, not a repo file (see 4.2) |
+
+**Live/canonical folders:**
 
 - `engine/`, `cic/engine/` — the core engine and the corpus tools
-- `records/`, `packages/`, `canon/`, `fixtures/` — structured world data, compiled build output, sealed probes, the fixture world
-- `cic/texts/`, `cic/corpus-map/` — the Library: vendored source editions and the map of which works belong to which tradition
-- `cic-poc/frontend/`, `cic-website/` — the participant-facing app and the public site; what Render and Cloudflare serve
-- `Build/worlds/` — one home per world, keyed by registry code (repo-structure cleanup phase 2, 2026-09-15): the canonical construction documents (Doc_01–Doc_09 per world, their reviews, chunks and Representative) once approved to proceed at `Build/worlds/<code>/`, each world's own indexes/build log/source manifests at `Build/worlds/<code>/build/`, and the fleet-level `_cross-world/` documents. Worlds without a registry code yet still live at `Build/World-Builds/<long-name>/` until they get one.
-- `Build/reference/` — the method and spec library: the Level documents, the Redesign-Spec, the current-era method documents, the fleet-voice exemplar. Read constantly, edited rarely; a template exists once, here.
-- `Sandbox/` — next-version work in progress: pure code only, held to the same discipline as everything above (decided 2026-09-26). Support material for `Sandbox/<project>/` lives in `Build/Ministry/Features/<project>/`, never inline here.
+- `records/`, `packages/`, `canon/`, `fixtures/` — world data, compiled packages, sealed probes, the fixture world
+- `cic/texts/`, `cic/corpus-map/` — the Library
+- `cic-poc/frontend/`, `cic-website/` — what Render and Cloudflare serve
+- `Build/worlds/` — one home per world by registry code: construction documents once approved to proceed at `Build/worlds/<code>/`, the world's indexes, build log and source manifests at `Build/worlds/<code>/build/`, and the fleet-level `_cross-world/` documents. Worlds without a registry code stay at `Build/World-Builds/<long-name>/` until they get one.
+- `Build/reference/` — the method and spec library. Read constantly, edited rarely. A template exists once, here.
+- `Sandbox/` — next-version code only; its notes go in `Build/Ministry/Features/<project>/`
 
-Notes, decision logs, audit trails, adversarial-review rounds, status reports, and strategy discussion belong in `Build/Ministry/` (e.g. `Build/Ministry/Operations/Audits/`, the various `*_Decision_Log.md` files) — never inline in the files listed above. If you find commentary, changelog cruft, or leftover process notes in a live/canonical file, treat that as corruption: remove it, don't add to it. Superseded material goes to `Archive/`; nothing is deleted without instruction.
+The root `README.md` is the map of the whole tree, and this list follows it. If they disagree, fix the README first, log it in `Build/Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`, then fix this list.
 
-Any PR that edits a live or canonical file also removes the commentary already in that file; the check in tools/check_live_commentary.py shows what is there.
+- If you find commentary or change history inside a live file, remove it. Don't add to it.
+- If you edit a live file, also remove the commentary already in it. `tools/check_live_commentary.py` shows what's there.
+- In gap entries, never renumber a merged entry. Cross-reference by subject and date, not number.
+- An unlisted fleet defect is new drift and fails the run. A stale waiver for something already fixed also fails; remove it.
 
-The root `README.md` is the map of the whole tree — every top-level entry, its kind, and what reads it. This list follows the map; if they disagree, fix the map first (and log it in `Build/Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`), then this list.
+### 2.2 Use the right model
 
-## Track gaps and exceptions explicitly — don't let them go quiet
+| Task | Model |
+|---|---|
+| Drafting and revising | Sonnet 5.5 |
+| Doc_04 (Gravity Discovery), Doc_10 (Representative), and other frame-setting design and research (below) | Fable |
+| Every adversarial review round | Opus 5.5. From round 2, a targeted recheck of what changed, at lower effort. |
+| Every `modern_rendering` and re-rendering | Opus 5.5. Every clause, nothing added, one thought per sentence, nothing past ~25 words, no word whose modern sense misleads. |
+| Package rebuilds, citation and log fixes, formatting, indexing | Haiku |
 
-- Every known gap, open question, or review outcome belongs in that world's `Open_Gaps_Tracking.md` — never left to live only in a conversation thread. Entries are append-only and numbered; a merged entry's number never changes, and cross-references cite subject + date, not a bare number.
-- Every known fleet-level defect that isn't being fixed right now must be registered as an `ACCEPTED_OPEN` waiver with its owning finding. An unlisted defect is new drift and fails the run; a stale waiver for something already fixed also fails — remove it.
+**Fable is reserved** for complex design and research that sets the frame downstream:
 
-## How we work — Sam Kaner's model: diverge, struggle, converge, then auto mode
+- system or front-end redesign proposals
+- comparative source-ecology and world-strategy research
+- org and funding strategy
 
-Exploring, analyzing, or designing something follows Sam Kaner's facilitation model (the Diamond of Participation), not a jump straight to a conclusion:
+Use it where getting the frame right the first time avoids many cheaper rounds of rework later. Never use it for routine drafting or anything that repeats.
 
-- **Divergent** — go wide first. Surface the real range of possibilities before narrowing to any one of them.
-- **Groan zone** — struggle with it honestly. Explore options, ask "what if," sit with the tradeoffs rather than resolving them prematurely.
-- **Convergent** — narrow down together, to an actual decision Mark has actually reached, not one reasoned through alone and handed over as settled.
+### 2.3 Check the budget
 
-This is Mark's own established practice, not a new process being imported — worked example and provenance: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
+- Treat Max-200 as a hard cap. Get everything possible out of the flat fee; never fall back on paid overage.
+- Context-window management matters at least as much as model choice. A bloated context costs more than a clean one, regardless of tier.
+- The allowance resets Friday at 2:00 pm. Give at least half to building. Schedule heavy steps early in the week.
+- Keep two ledgers per world: allowance share and metered dollars.
+- Start a world only when the remaining build allocation covers a typical world plus a reserve.
+- Build one world at a time by default. Run a second concurrent session only when the ledger shows the week can carry it.
+- These are human-supervised sessions, not automated multi-agent orchestration.
 
-Ground rules for all three phases: one question at a time, not several stacked at once. Present real options with explanations and a recommendation — never a flat conclusion with no alternatives shown. Say explicitly which phase the conversation is in whenever it isn't obvious. Nothing gets written into a canonical record, committed, or treated as decided until convergence is actually reached with Mark.
+Mark's own account practices: `Build/Ministry/Operations/Standing/CiC_Usage_Discipline.md`.
 
-Anything for Mark to review or approve — options to choose between, a draft to react to, a comparison — renders in the right panel as an Artifact, never as a file written into the repo that then has to be saved, tracked, and cleaned up. A file gets written only once it's the actual converged-on output, not as a vehicle for getting there. This doesn't apply to the project's own permanent review artifacts (adversarial-review rounds, decision logs, `Open_Gaps_Tracking.md`) — those are intentional, lasting audit trail, not scratch material for one conversation's approval step.
+---
 
-**Implementation is a different mode — auto mode.** Once something has genuinely converged — a decision just reached together, or an already-negotiated framework like the build-cycle's own self-governance under "Scaling the build" below — execute it without asking permission step by step; don't make Mark push buttons one at a time. A converged plan isn't a license to drift from it, though: once something is frozen or otherwise settled, a real change to it is a **change order** — named and reasoned — never a quiet edit that erodes what was actually agreed. Drop out of auto mode back to divergent/groan/convergent only for a real decision that wasn't already made, a need for direction, or a need for clarification. Everything else inside a converged plan, just do.
+## Part 3 — While you work
 
-### Convergence signal and default actions
+### 3.1 Fix it right
 
-**The literal trigger.** "Converged, auto mode" — or an unambiguous equivalent Mark states directly — means the decision is final. A thread that hears it executes the full scope without re-asking. Absent that phrase, keep checking. This doesn't replace divergent/groan-zone/convergent above; it's the signal that closes it.
+- Find and fix the root cause. If it isn't clear, say so and investigate before touching code.
+- If an earlier fix was wrong, undo it and redo it. Never stack a fix on a fix.
+- No band-aids, workarounds, or "good enough for now." No shortcut that trades correctness or completeness for speed.
+- If a path turns out wrong, back out of it with a checkpoint or `/rewind` rather than patching over it. That is "no fix on a fix," enforced mechanically.
 
-**Default actions**, so a thread checks this instead of guessing under uncertainty:
+### 3.2 Spend money only like this
 
-| Action | Default |
+**Model calls (metered).**
+
+1. Conversations are the only spend (ruled 2026-10-06, decisions 54 and 56).
+2. Outside a conversation, call the model only for a live quality test Mark has approved by name, with a cap.
+3. Nothing else qualifies: no admission battery, grading run, meaning-fit measurement, baseline, or experiment, unless Mark has approved that run as a live test.
+4. If a gate in the engine can't pass without a model call, stop and ask rather than run it.
+5. Keys may stay in the shared environment. The engine refuses a model call outside a conversation unless the command carries `--live-test "<name>"` and `--cap-usd <n>`. It prints its settings first, stops at the cap, and logs the name.
+
+**Paid bulk runs:** anything that spends real money in bulk on a metered outside service — text-to-speech, image or model batches, anything charged per item or character.
+
+1. Run a small sample. Get Mark's approval by ear or eye.
+2. Pass every paid setting (voice or model id, generation settings) on the command. Never inherit them from the environment.
+3. Make the run print its settings with item and character counts. Confirm from that output.
+4. Verify the thing that was paid for. Matching files prove nothing about what produced them.
+
+Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
+
+### 3.3 Keep the context lean
+
+- Use `/compact` or `/clear` between unrelated pieces of work. Reach for these before reaching for a cheaper model.
+- Send exploration and research to subagents so they don't bloat the main thread.
+- On uncertain scope, use Plan Mode and explore read-only before implementing.
+- Batch related work into one longer session instead of many short restarted ones. Short sessions lose the prompt cache and pay for context again every time.
+- Spread heavy build and review days across the week instead of bursting most of a week's work into one or two days.
+- Wait on PR and CI events. Don't poll.
+
+### 3.4 Build a world
+
+1. Kick off a world end-to-end: "build [World] end-to-end per cic-build-cycle discipline; self-govern per its own rules; stop only for an escalation category or a missing input."
+2. Let the build self-govern. Stop only for a missing input or one of the four escalation categories: Representative identity or title, cross-world or portfolio-level decisions, governance or methodology changes, and tensions the pipeline can't close on its own. Never self-assign Frozen status.
+3. Present Representative identity and image as one packaged choice: 2–4 named candidates with trade-offs (`Representative_Construction_Notes_Template.md`). Ask once.
+4. Doc_02 (Source Ecology) belongs to the Library thread. Source it ahead of need, following `Build/Ministry/Operations/Standing/CiC_Source_Research_Practice.md`.
+5. Cap review at three rounds.
+   - The bar is acceptable scholarly rigor. "Could be stronger," with nothing wrong, unsupported, or misleading, is not a finding.
+   - After three rounds of substantial revision without clearing review, stop and escalate. Don't attempt a fourth.
+   - Every review file on a document counts toward the three, whatever its kind or verdict (the `roundcount` gate enforces it).
+   - The one exception: once a document has escalated to Mark at the cap, a review he orders in his ruling does not count, when a "Cap ruling" entry in the System Hub Decision Log names its file.
+   - Mechanics: the `cic-build-cycle` skill. Why: `CiC_Governance_Rationale_Log.md`.
+
+### 3.5 Hand off to the next thread
+
+1. Hand off at a stopping point where you can: a document approved, a PR merged, a batch done.
+2. Fill in `Build/reference/L4-Templates/Session_Handoff_Template.md`. Keep it to one page.
+3. Save it as `Build/Ministry/Operations/Handoffs/<YYYY-MM-DD>_<topic>.md` and commit it with the work.
+4. Point to decisions, files, and PRs. Never copy a rule from this file into a handoff or launch prompt.
+5. Starting from a handoff: read it first, then re-check its section 3 before building on it. If a claim fails, log it in `Open_Gaps_Tracking.md` and tell Mark.
+
+---
+
+## Part 4 — When you need Mark
+
+### 4.1 Ask or act?
+
+| Situation | Do this |
 |---|---|
 | CI/infra mechanical fix (config, workflow YAML, build script) | Just do it |
 | Package rebuild after a `records/` edit | Just do it |
-| Merging your own pull request once its CI is green (into `live` first, then `main`), bringing it up to date when it falls behind, and checking the deploy | Just do it (Mark, 2026-10-17) |
-| Making a change Mark approved in chat in a connected service (Tally and the like), including publishing it | Just do it (Mark, 2026-10-17) |
+| Your own PR is green: merge into `live`, then `main`; update it if it falls behind; check the deploy | Just do it (2026-10-17) |
+| A change Mark approved in chat, in a connected service (Tally and the like), including publishing | Just do it (2026-10-17) |
 | Anything only a dashboard can do (Render, AWS, Cloudflare, GitHub settings) | Give Mark the exact steps |
-| Doc-hygiene fix on content that isn't your own thread's | Flag it, don't touch it |
-| Cross-world or portfolio-level decision | Always ask |
-| Governance or methodology change | Always ask |
+| Session permissions (`.claude/settings.json`) | Give Mark the exact steps. A session can't change its own permissions. |
+| Doc-hygiene problem in another thread's content | Flag it. Don't touch it. |
+| Representative identity or title | Ask |
+| Cross-world or portfolio-level decision | Ask |
+| Governance or methodology change | Ask |
+| A tension the pipeline can't close (including the review cap) | Ask |
 
-Starts here, grows only when a real new case shows up — not speculatively.
+This table starts here and grows only when a real new case shows up, never speculatively.
 
-## Scaling the build — many worlds, mostly autonomous
+### 4.2 How to ask
 
-The build-cycle discipline already self-governs: escalation is limited to four categories (Representative identity/title decisions, portfolio-level/cross-world decisions, governance/methodology changes, and unresolved tensions the pipeline can't close on its own) plus never self-assigning Frozen status. Use that as designed, instead of re-approving every document by hand:
+1. Follow Sam Kaner's Diamond of Participation, Mark's own practice (`CiC_Governance_Rationale_Log.md`), and say which phase you're in when it isn't obvious:
+   - **Divergent** — go wide first. Surface the real range of possibilities before narrowing to any one.
+   - **Groan zone** — struggle with it honestly. Explore options, ask "what if," and sit with the trade-offs rather than resolving them too early.
+   - **Convergent** — narrow down together, to a decision Mark has actually reached, not one reasoned through alone and handed over as settled.
+2. Ask one decision at a time.
+3. Ask with the `AskUserQuestion` tool, not in plain text.
+   - One question per call, with 2–4 options.
+   - Give each option a short label and a one-line trade-off in its description.
+   - Put your recommendation first, with "(Recommended)" at the end of its label.
+   - Use a 12-character-or-shorter header that names the decision.
+   - Turn on multi-select only when the choices really combine.
+   - Mark can always answer in his own words instead.
+4. To compare options side by side (two wordings, two layouts, code), use the tool's preview on each option. If the material is too big even for that (a whole draft), show it as an Artifact first, then ask in the box.
+5. Don't write a repo file just to get approval. A file gets written only once it is the actual converged-on output. Permanent review records (review rounds, decision logs, `Open_Gaps_Tracking.md`) are the exception: they are lasting audit trail, not scratch material.
 
-- Kick off a build end-to-end per world — "build [World] end-to-end per cic-build-cycle discipline; self-govern per its own rules; stop only for an escalation category or a missing input" — rather than one document at a time. Most of a world's build should run without a reply from the project lead at all.
-- Build one world at a time by default, each kicked off the same way. A second concurrent session runs only when the world's cost ledger shows the weekly usage allowance can carry it. This is human-supervised sessions, not automated multi-agent orchestration.
-- Source acquisition for new worlds should be **proactive, not reactive**: the dedicated source-research thread should search, rights-verify, and download against upcoming worlds' time-windows/regions *before* their Doc_02 stage starts — adding rows to `Build/worlds/_cross-world/download-queue-seed.yaml` and vendoring into `cic/texts/` ahead of need, the same distinction `DOWNLOAD-QUEUE.md` already draws between its proactive and reactive (`WANTS-REGISTER.md`) halves. Check `CORPUS-USE.md`'s existing tier method (named-never-opened / same time-place / same time-different-region / out-of-window) against the new worlds first — much of what's needed may already sit unused among the vendored files. (The sandbox blocks the patristic text hosts outright regardless of real scarcity — widening that network policy is a live open item.) A single research pass serves every future world whose window it covers, since the corpus is shared — that's higher leverage than a per-world manifest.
-- The source-research thread runs long and accumulates enormous context (multi-day continuous sessions have run past a billion cached tokens). Split its work into fresh sessions per batch (an era/region at a time) rather than growing one thread indefinitely — an ever-larger context makes every later turn more expensive regardless of how good the research is.
-- Representative identity and image are decided together, once, as a single packaged choice among 2–4 named candidates with trade-offs (per `Representative_Construction_Notes_Template.md`) — never open-ended, never split across two separate interruptions.
-- Doc_04 (Gravity Discovery) and Doc_10 (Representative construction) are the build's instances of the "complex design and research" framing work described under Fable, below — the strategic classification and the voice the rest of a world depends on. Doc_02 (Source Ecology) belongs to the Library thread.
-- **Review cycles are capped, not open-ended.** The bar is acceptable scholarly rigor, not perfection — a review flagging that a document *could* be stronger or more thorough, with nothing in it actually wrong, unsupported, or misleading, is not a substantial finding and does not justify another revision round. Three rounds of substantial revision on the same document without it clearing review is itself an "unresolved tension the pipeline can't close on its own" (an existing escalation category) — stop and escalate rather than attempt a fourth round. Every review file on a document counts toward the three, whatever its kind or verdict (the `roundcount` gate enforces it). The one exception: once a document has escalated to Mark at the cap, a review he orders in his ruling does not count, when a "Cap ruling" entry in the System Hub Decision Log names its file. Why this cap exists: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`. Full mechanics: the `cic-build-cycle` skill's own Revision decision section.
+### 4.3 After Mark decides
 
-## Usage/credit discipline
+- "Converged, auto mode", or a clear equivalent Mark says directly, means final. Without it, keep checking.
+- Once converged, execute the full scope without asking step by step.
+- To change something already settled, name it as a **change order** with a reason. Never edit it quietly.
+- Return to asking only for a decision not yet made, or a real need for direction or clarification.
+- Until convergence, write nothing to a canonical record, commit nothing, and treat nothing as decided.
 
-Weekly usage credits keep running out. To fix that without losing quality (and without touching anything above this line). This is a Max-200 plan on a genuinely tight budget — $200/month is a real financial stretch, not a comfortable ceiling with room to spend past. Treat it as a hard cap: the goal is to get everything possible out of the flat fee, not to fall back on paid overage. Context-window management matters at least as much as model choice — a bloated context costs more than a clean one regardless of tier:
+### 4.4 Governance vocabulary and closure
 
-- **Metered model spend is only for live testing of quality that Mark approves by name, with a cap.** No build thread calls the model for anything else: not an admission battery, a grading run, a meaning-fit measurement, a baseline or an experiment, unless Mark has approved that run as a live test. If a gate in the engine cannot pass without a model call, the thread stops and asks rather than runs it. Keys may stay in the shared environment: the engine refuses a model call outside a conversation unless the command carries a live-test name and a cap, prints its settings first, stops at the cap, and logs the name. Conversations are the only spend (ruled 2026-10-06, decisions 54 and 56).
-- **Paid bulk runs are gated.** Before any run that spends real money in bulk on a metered outside service (text-to-speech, image or model batches, anything charged per item or character), run a small sample first and get Mark's approval of it by ear or eye. Only then run the rest. Pass every paid setting (voice or model id, generation settings) explicitly on the command, never inherited from the environment. The run must print those settings, with item and character counts, and they are confirmed from that printed output before the run is called valid. A check that files match each other proves nothing about what produced them; verify the thing that was paid for. Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
-- Manage context actively: `/compact` or `/clear` between unrelated pieces of work, and delegate research/investigation to subagents so exploration doesn't bloat the main thread. Reach for these before reaching for a cheaper model.
-- Use Plan Mode before committing to implementation on anything with uncertain scope — explore read-only first rather than burning implementation-priced turns on discovery.
-- When a path turns out wrong, back out of it with a checkpoint/`/rewind` instead of patching over it — this is "no fix on a fix" (above), enforced mechanically.
-- Fable is reserved for complex design and research — the strategic thinking that sets the frame for everything downstream (system/front-end redesign proposals, comparative source-ecology and world-strategy research, org/funding strategy). Use it where getting the frame right the first time avoids many cheaper rounds of rework later, not for routine drafting or anything that repeats.
-- Opus 5.5 reviews every adversarial-review round; Sonnet 5.5 drafts and revises, except that Fable drafts Doc_04 and Doc_10. From round 2 onward, review is a targeted recheck at lower effort.
-- The weekly allowance resets Friday at 2:00 pm, and at least half of it goes to building. Every world keeps two ledgers: allowance share, and metered spend in dollars. Start a world only when the remaining build allocation covers a typical world plus a reserve; heavy steps go early in the week.
-- One exception: modern-English renderings the voice speaks (a quote's `modern_rendering`, and any re-rendering of it) are authored by Opus. Sonnet did not hold the rendering bar on them (every clause, nothing added, one thought per sentence, nothing past about 25 words, no word whose modern sense misleads). Everything else still drafts on Sonnet.
-- From round 2 onward, do a targeted recheck (only what changed, against prior findings) instead of a full re-review from scratch.
-- Push mechanical work — package rebuilds, citation/log fixes, formatting, indexing — to Haiku.
-- Batch related work into one longer session instead of many short restarted ones; short sessions lose the prompt cache and re-pay for context every time.
-- Spread heavy build/review days across the week instead of bursting most of a week's work into 1–2 days.
-- Use event-driven waits (PR/CI subscriptions) instead of manual polling loops.
-- Pull requests cost CI minutes and waiting time by the push, not by the size: batch related slices into one pull request, open it as a draft, push once after the local checks pass, then mark it ready. One full CI run per pull request is the target; three speculative pushes pay for three (ruled 2026-10-05).
-- Check `/usage` periodically to catch a runaway pattern before it costs the rest of the week.
-- Max-200 draws Claude chat, Claude Code, and Cowork from one shared usage pool — if more than one surface is in use, watch total burn across all of them, not just this session.
-- Confirm "extra usage" is OFF in Settings → Usage (or capped at $0). On a tight budget, hitting the weekly ceiling is a signal to spend less via the discipline above, not a cue to let paid overage kick in — don't leave it toggled on "just in case." A session's own internal cost telemetry (what work would have cost at raw API rates) is not a bill by itself; only actual overage usage is. If overage is ever needed for something genuinely unavoidable, turn it on deliberately, do the one thing, and turn it back off.
+- Say "Approved to proceed," never "finalized." That word is retired; don't use it.
+- Nothing closes until both Phase Five boundary testing and full-system review are complete.
+  - This is the whole-system and portfolio closure gate.
+  - It is a much rarer scope than one document's own "Approved to proceed" under the build cycle's per-document self-governance.
+  - One document proceeding doesn't mean anything has closed.
+- A blocking review finding can't be dismissed by self-certification. It needs independent re-confirmation.
+- Truncation checks use two independent methods, not one.
+
+---
+
+## Part 5 — Before you finish
+
+- [ ] Every quote re-verified word for word against its vendored source.
+- [ ] Contested claims tagged with `formation_confidence`.
+- [ ] No commentary left in any live file you touched (`tools/check_live_commentary.py`).
+- [ ] Every gap logged in `Open_Gaps_Tracking.md`; every unfixed fleet defect waived; no stale waivers.
+- [ ] Governance vocabulary, closure, blocking findings, and truncation handled as 4.4 says.
+- [ ] One draft PR for the batch, pushed once after local checks pass, then marked ready (ruled 2026-10-05).
+- [ ] If another thread picks this up, a handoff saved in `Build/Ministry/Operations/Handoffs/` (3.5).

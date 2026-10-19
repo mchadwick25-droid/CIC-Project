@@ -6682,3 +6682,25 @@ The project lead ruled that an honest limit puts the subject first and ends on w
 The project lead approved a named, capped admission run in conversation on 18 October: name "fleet re-admission, 18 October"; cap $8.00; Bedrock us-east-1; voice model `us.anthropic.claude-sonnet-4-5`; the eleven formation worlds in one invocation. The run started at 12:57 UTC and its output was piped through `head`, which closed the pipe and ended the process at about 13:03 UTC before the report was written. The guard kept its priced tally only in memory and the report was its only record, so the amount spent is unrecorded. The run's preflight estimate for the whole fleet was $5.96, and the process ran long enough for one to two worlds. The figure has to be read from AWS (Bedrock `InvokeModel` charges, 12:57 to 13:03 UTC, 18 October). No admission evidence came from the attempt, and admission conformance still reports all eleven worlds stale.
 
 Change: `engine.provider.guard` now appends every call of an approved live test to a ledger file as it happens, a `hold` line before the call and a `settle` line after it, and refuses a call when the ledger cannot be written. The header prints the ledger path. The promotion runbook's named-run section says to send the run's output to a file and keep the ledger. The conversation path on Render is unchanged. Whether to re-run the admission run or waive the gate for the full promotion is the project lead's decision.
+
+## 2026-10-19 - CLAUDE.md reorganized around a thread's working order
+
+The project lead approved a restructure of `CLAUDE.md` on 19 October, after threads were losing track of its rules. The file had grown to 3,596 words of stacked rules and exceptions. No principle changes.
+
+**What changed.**
+- The file is now five parts in the order a thread meets them: what never changes (fidelity, voice, safety), before you start, while you work, when you need Mark, and a finishing checklist. Each rule is written as a direction.
+- Asking: choices go through the `AskUserQuestion` tool, one question per call, 2–4 options with trade-offs and a marked recommendation; previews for side-by-side comparisons; an Artifact only for material too big for the box. The earlier wording ("one question at a time" with review material sent to an Artifact) had thinned the question boxes.
+- The escalation categories joined the default-actions table. A new row: session permissions go to Mark as steps, since a session cannot change its own permissions (two such writes were refused on 19 October, even with his approval).
+- The duplicated "from round 2 onward, targeted recheck" rule and the scattered model assignments are merged into one table.
+
+**Moved, not deleted.**
+- Mark's own account practices (extra usage off, `/usage`, the shared pool, session batching, spreading heavy days) → `CiC_Usage_Discipline.md`.
+- The proactive source-research method → `CiC_Source_Research_Practice.md`. It was meant for `Build/worlds/_cross-world/README.md`, but editing that canonical file would oblige removing another thread's build narrative from it, so it lives here instead.
+
+## 2026-10-19 - Session handoffs follow one template
+
+The project lead approved a standard handoff for work passing between threads, after seeing quality drop at each handoff. A thread fills in `Build/reference/L4-Templates/Session_Handoff_Template.md` (done and how it was checked; not done; what to re-check before trusting; waiting on Mark; next step; spend), saves it in `Build/Ministry/Operations/Handoffs/`, and points to decisions instead of copying rules. The next thread re-checks section 3 before building on it. The rule is `CLAUDE.md` 3.5. The template sits beside `World_Build_Handoff_Manifest_Template.md`, which stays the gate for a world moving from the Library thread to its build thread.
+
+## 2026-10-19 - Correction: the CLAUDE.md reorganization had changed meaning
+
+The entry "CLAUDE.md reorganized around a thread's working order" above says no principle changed. An independent review the same day found that untrue. The reorganization had replaced the priority order with "the earlier part wins", which ranked budget rules above Fix it right and moved closure to the end. It had also folded Safety into the principles, loosened the review-cap exception, and dropped several spend, concurrency, Fable, folder, and writing-standard qualifiers. It had renamed Kaner's groan zone, and moved thread rules (batching sessions, spreading heavy days, `/compact`) into Mark's own account page. The project lead ruled that every lost item be restored before merge. `CLAUDE.md` now carries an explicit priority list in the old order, separate from its working-order layout, and a 4.4 for governance vocabulary and closure. Every dropped qualifier is back in its section. `CiC_Usage_Discipline.md` now holds only Mark's own account settings. Still open for the project lead: the review cap counts both "every review file" and "three substantial rounds" (inherited from the old text), and five launch prompts and the `cic-build-cycle` skill conflict with the current rules.
