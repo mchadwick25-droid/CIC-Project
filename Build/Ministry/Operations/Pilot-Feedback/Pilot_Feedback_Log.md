@@ -54,3 +54,4 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 
 ## Clarification — 2026-10-19
 - Item 25: Mark says ElevenLabs is the fixed voice for all audio quality. Any generation still follows the paid bulk-run rule in CLAUDE.md (sample first, Mark approves by ear, settings passed explicitly and printed).
+- Item 25 (further): Mark says funding exists for ElevenLabs audio of fixed text (stable content such as stories, descriptions and intros), and does not exist for audio of generated conversations. Audio of live conversation replies waits for funding; text always stays.
