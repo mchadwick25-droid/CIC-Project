@@ -75,3 +75,6 @@ Open
 
 ### Theme D, page order — 2026-10-19
 - Mark: "Put the story teasers above the hand." Landing page order: headline, story teasers, the hand of cards with its deck controls, then the three doors. This resolves the open item under "Theme D, the chooser" above. The story pool itself is still unwritten.
+
+## Coordination with the chooser thread — 2026-10-19
+Decision (Mark): the "Conversation chooser research and design" thread owns the cards and the landing page order. The feedback thread's Theme D decisions and the C3, C4, C5 and C6 needs go to it as inputs, and the feedback thread makes no further edits to cic-website/index.html. The chooser decisions above are that thread's record.
