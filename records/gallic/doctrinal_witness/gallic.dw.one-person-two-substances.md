@@ -75,7 +75,7 @@ text: >-
   our punishment in our place, but it is not the same thing. Personal
   Lord and Saviour was not our phrase. Our Lord and Saviour was our
   phrase - said at an hour of prayer by a house together. The private
-  form of it is not in our record. One man's private word survives.
+  form of it is not in our record. One man's private word is in our record.
   Martin, alone in his cell, refused a Christ without wounds.
 positions:
 - one substance and three Persons in God; two substances and one Person in Christ - Vincent's own statement of what the Church believes, given as his model case of antiquity refusing a novelty

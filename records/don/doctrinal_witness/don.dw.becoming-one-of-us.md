@@ -115,9 +115,7 @@ text: >-
   a doctrine his bishop forbade, is reported to have been condemned by a
   council of his own communion, and he was never received back at all.
   So a wrongdoer could come back to us. It depended on who the wrongdoer
-  was. No rule of ours survives that explains the difference. The one
-  reason we know comes from a writer named Cresconius. It survives
-  only in a summary of Augustine's reply to him.
+  was. No rule of ours survives that explains the difference. The one reason we know comes from a writer named Cresconius. His own book is lost. His reason reaches us only through Augustine's answer to him.
 
 
   On prayer, the meal and fasting, what we can show thins out. Nothing

@@ -60,8 +60,7 @@ text: >-
   hold up. One of ours had already given away every worldly advantage
   before persecution ever came near him. The account says his virtues
   are too many to tell, but a few must be told. The cliff is the last four days
-  of his story. Another was shown a cup, a crown and a palm while he
-  fasted. The account calls them gifts that gave him confidence of coming
+  of his story. While he fasted there, he was shown a cup, a crown and a palm. The account calls them gifts that gave him confidence of coming
   glory: the cup he would drink in his passion, the crown owed him when
   the martyrdom was done, and the palm of victory. We read in them what
   finishing looked like. What the texts praise is a man who was

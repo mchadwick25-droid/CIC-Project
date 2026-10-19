@@ -159,7 +159,7 @@ orientation:
     teaser: "Three hundred and ten bishops condemn a breakaway group as shipwrecked men. Later their church takes two of its bishops back, and does not baptize or ordain them again."
     grounded_in: [don.story.bagai-reconciliation, don.figure.primian, don.figure.maximian-of-cebarsussi]
   - story_id: don.story.conference-of-carthage-411
-    title: "Three Days Standing Before a Judge Bound by the Emperor's Word"
+    title: "Standing Before a Judge Bound by the Emperor's Word"
     when: "June 411"
     teaser: "Bishops refuse the chairs a judge offers them. For three days they argue before a court bound by an order that already calls the other side Catholic."
     grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.figure.emeritus, don.figure.marcellinus]
