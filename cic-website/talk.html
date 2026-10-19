@@ -114,12 +114,14 @@ var frame = document.getElementById('talk-frame');
 frame.src = target.toString();
 
 // A phone keyboard shrinks only the visual viewport; size the page to it so
-// the framed app's message box stays just above the keyboard.
+// the framed app's message box stays just above the keyboard. Pinch-zoom
+// shrinks the visual viewport too, so a zoomed page keeps its normal layout.
 var view = window.visualViewport;
 if (view) {
   var fit = function() {
-    document.body.style.height = Math.round(view.height) + 'px';
-    document.body.style.transform = view.offsetTop ? 'translateY(' + Math.round(view.offsetTop) + 'px)' : '';
+    var zoomed = view.scale > 1.01;
+    document.body.style.height = zoomed ? '' : Math.round(view.height) + 'px';
+    document.body.style.transform = !zoomed && view.offsetTop ? 'translateY(' + Math.round(view.offsetTop) + 'px)' : '';
   };
   view.addEventListener('resize', fit);
   view.addEventListener('scroll', fit);

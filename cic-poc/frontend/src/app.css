@@ -1673,6 +1673,16 @@ button {
   max-width: var(--max-width);
 }
 
+.waiting-note .typing-dots {
+  gap: 5px;
+  margin-left: 6px;
+}
+
+.waiting-note .typing-dots span {
+  width: 7px;
+  height: 7px;
+}
+
 .arriving-hold {
   flex: 1;
   display: flex;

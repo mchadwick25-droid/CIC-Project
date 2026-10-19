@@ -20,6 +20,7 @@ import { PageFeedback } from '../components/PageFeedback';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
+import { useAskedAtRest } from '../hooks/useAskedAtRest';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry } from '../data/worlds';
 import { pageFeedbackId } from '../lib/api';
@@ -62,6 +63,9 @@ export function TableRoom({
   const streamingSeat = streamed.length ? byKey.get(streamed[0].speaker) : undefined;
   const reply = streamingSeat ? streamedReply(streamed, streamingSeat.worldKey) : null;
   const tablePage = `table:${seatedWorlds.map((w) => w.worldKey).sort().join('+')}`;
+  const participantTurns = turns.filter((t) => t.speaker === 'participant').length;
+  const lastAsked = turns.map((t) => t.speaker).lastIndexOf('participant');
+  const { transcriptRef, askedRef, roomRef } = useAskedAtRest(participantTurns, Boolean(reply));
   const anyLivingTradition = seatedWorlds.some((w) => w.livingTraditionFlag);
   return (
     <div className="conversation">
@@ -78,7 +82,7 @@ export function TableRoom({
       </div>
       {feedbackOpen && <ExperienceFeedbackCard page={tablePage} onClose={() => setFeedbackOpen(false)} />}
 
-      <div className="conversation__transcript" role="log" aria-label="Conversation">
+      <div className="conversation__transcript" role="log" aria-label="Conversation" ref={transcriptRef}>
         <div className="arrival arrival--table">
           <div className="arrival__seats">
             {seatedWorlds.map((w) => (
@@ -130,7 +134,7 @@ export function TableRoom({
           }
           if (turn.speaker === 'participant') {
             return (
-              <div key={i} className="turn turn--participant">
+              <div key={i} className="turn turn--participant" ref={i === lastAsked ? askedRef : undefined}>
                 <div className="turn__speaker sans">You</div>
                 <div className="turn__body">{turn.text}</div>
               </div>
@@ -179,7 +183,17 @@ export function TableRoom({
           </div>
         )}
 
-        {isLoading && !closed && !reply && <p className="waiting-note sans" role="status">The table is speaking — voices answer in turn…</p>}
+        {isLoading && !closed && !reply && (
+          <p className="waiting-note sans" role="status">
+            The table is speaking — voices answer in turn
+            <span className="typing-dots" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </p>
+        )}
+        {participantTurns > 0 && <div className="conversation__room" ref={roomRef} aria-hidden="true" />}
       </div>
 
       {error && (

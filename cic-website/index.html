@@ -132,38 +132,15 @@ p{margin:0 0 1rem}
 .door-line{max-width:46rem;margin:1rem auto 0;font-family:var(--sans);font-size:1rem;line-height:1.5;color:var(--muted);text-align:center}
 .hero-dek{display:block;font-family:var(--sans);font-size:clamp(1.15rem,1rem + .7vw,1.4rem);font-weight:400;color:var(--muted);line-height:1.55;max-width:70rem;margin:.8rem auto 0}
 .home-flow{max-width:var(--wide);margin:0 auto;padding:.5rem 1.25rem 0}
-/* Table (2/3) + the contribution card (1/3), side by side -- the
-   contribution card sits here rather than beside "The Unfolding Story"
-   text, which runs full width on its own with the door photo dropped
-   entirely (see .flow-story below and the removed .give-photo). */
-/* Name (large, white) / tagline (italic, orange) / rest of the text
-   (white) -- the same pattern as .atlas-showcase-copy and the Table
-   card below, so all three features (Church Family Tree / Conversation
-   with One / Build a Table) read consistently. The chairs gallery right
-   below this is Conversation with One's own "image section," the same
-   role the video plays for Church Family Tree and the portrait plays
-   for Build a Table. */
-/* .feature-card: the one bordered-container look shared by all three
-   features, standardizing the spacing and differentiation between them
-   -- Build a Table already looked like this via .flow-card, but Church
-   Family Tree and Conversation with One had no container at all and ran
-   straight into whatever came next. Same border/radius/background/
-   overflow as .flow-card, reused here rather than duplicated with
-   different values, so "standardized" is actually true and not just
-   three rules that happen to look similar. */
+/* .feature-card: the bordered container shared by the three features (Build a Table, Church Family Tree, Conversation with One). */
 .feature-card{margin:3rem 0 0;background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
 .conversation-card{padding:1.75rem}
 .conversation-intro{margin:0 0 1.5rem}
 .conversation-intro h2{font-size:clamp(1.6rem,3vw,2.1rem);margin:0 0 .4rem}
 .conversation-intro .tagline{font-family:var(--sans);font-style:italic;color:var(--action);font-size:1.05rem;margin:0 0 1rem}
 .conversation-intro p{font-family:var(--sans);color:var(--text)}
-.table-give{display:grid;grid-template-columns:2fr 1fr;gap:2.5rem;margin:3rem 0 0}
+.table-give{max-width:34rem;margin:3rem auto 0}
 @media (max-width:48rem){
-  .table-give{grid-template-columns:1fr}
-  /* Single column here means each card sizes to its own content, not a
-     shared row height, so .support-photo's flex:1 (which fills whatever
-     blank space stretching to the Table card's height leaves) has no
-     extra space to fill. */
   .support-photo{flex:none;min-height:0}
 }
 
@@ -208,18 +185,8 @@ p{margin:0 0 1rem}
 .narration audio{display:block;height:1.9rem;max-width:220px;width:220px;flex:0 0 auto}
 .flow-story .narration-disclosure{font-family:var(--sans,sans-serif);font-size:.78rem;color:var(--muted,#B8AEA1);margin:0}
 .ai-note{max-width:var(--col);margin:2.5rem auto 0;padding:1.2rem 1.25rem 0;border-top:1px solid var(--rule);font-family:var(--sans);font-size:.95rem;color:var(--muted);text-align:center}
-.flow-card{display:flex;flex-direction:column;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
-.flow-card:hover,.flow-card:focus-visible{border-color:var(--action)}
-.flow-card img{width:100%;aspect-ratio:1200/655;object-fit:cover;display:block;background:var(--ground)}
-/* Name (h2) right after the image, then the tagline (.eyebrow's own
-   orange color, restyled to italic sentence case) -- matches
-   .atlas-showcase-copy's own Name/tagline/text order and colors. */
-.flow-card h2{font-size:1.2rem;margin:1.1rem 1.2rem 0}
-.flow-card .eyebrow{font-size:1.05rem;font-style:italic;font-weight:400;text-transform:none;letter-spacing:normal;margin:.4rem 1.2rem 0}
-.flow-card p{font-family:var(--sans);font-size:.9rem;color:var(--text);line-height:1.55;margin:.5rem 1.2rem 0}
-.flow-card .cta-link{margin:.7rem 1.2rem 1.2rem;margin-top:auto}
 .cta-link{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-weight:600;color:var(--action);border-bottom:1px solid currentColor;padding-bottom:.15rem;text-decoration:none}
-.flow-card:hover .cta-link,.flow-card:focus-visible .cta-link{color:var(--action-hover)}
+.cta-link:hover,.cta-link:focus-visible{color:var(--action-hover)}
 .cta-link .arriving{width:20px;flex:0 0 20px;color:var(--mark-ink)}
 @media (max-width:640px){
   .hero{padding:1.75rem 1.25rem 1rem}
@@ -371,6 +338,18 @@ p{margin:0 0 1rem}
   <section class="hero" aria-labelledby="hook">
     <h1 id="hook"><span class="hero-lead">Explore hundreds of Christian traditions and stories across two thousand years.</span><span class="hero-dek">Then talk to representatives from a growing number of those traditions, each built from its own historical records.</span></h1>
     <p id="door-line" class="door-line" role="status" hidden></p>
+  </section>
+
+  <section class="atlas-showcase feature-card table-showcase" aria-labelledby="table-showcase-title">
+    <a class="atlas-showcase-media" href="table.html" aria-label="Open Build a Table">
+      <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="eager" decoding="async">
+    </a>
+    <div class="atlas-showcase-copy">
+      <h2 id="table-showcase-title">Build a Table</h2>
+      <p class="tagline">Three Voices, One Conversation</p>
+      <p>Seat up to three traditions from across the church's history. Put a question to the table and hear each one answer and discuss. You will hear where they agree, and where they part ways.</p>
+      <a class="cta-link" href="table.html"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Build the table →</a>
+    </div>
   </section>
 
   <section class="atlas-showcase feature-card" aria-labelledby="atlas-showcase-title">
@@ -560,14 +539,6 @@ p{margin:0 0 1rem}
     </div>
 
   <div class="table-give">
-    <a class="flow-card" href="table.html">
-      <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="lazy" decoding="async">
-      <h2>Build a Table</h2>
-      <p class="eyebrow">Three Voices, One Conversation</p>
-      <p>Seat up to three traditions from across the church's history. Put a question to the table and hear each one answer and discuss. You will hear where they agree, and where they part ways.</p>
-      <span class="cta-link"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Build the table →</span>
-    </a>
-
     <section class="support" aria-labelledby="support-title">
       <div class="support-card">
         <h2 id="support-title">Keep the Door Open</h2>
