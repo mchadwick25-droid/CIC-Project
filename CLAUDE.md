@@ -198,7 +198,8 @@ Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
 |---|---|
 | CI/infra mechanical fix (config, workflow YAML, build script) | Just do it |
 | Package rebuild after a `records/` edit | Just do it |
-| Your own PR is green: merge into `live`, then `main`; update it if it falls behind; check the deploy | Just do it (2026-10-17) |
+| Your own PR is green: merge into `main`; update it if it falls behind; check the staging deploy | Just do it (2026-10-02, 2026-10-17) |
+| Promoting `main` to `live` (production) | Mark's call, through `Build/Ministry/Operations/Standing/CiC_Promotion_Runbook.md`. Never open a PR into `live` yourself. |
 | A change Mark approved in chat, in a connected service (Tally and the like), including publishing | Just do it (2026-10-17) |
 | Anything only a dashboard can do (Render, AWS, Cloudflare, GitHub settings) | Give Mark the exact steps |
 | Session permissions (`.claude/settings.json`) | Give Mark the exact steps. A session can't change its own permissions. |
