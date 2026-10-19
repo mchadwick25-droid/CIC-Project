@@ -51,3 +51,6 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 | 23 | Product direction: start from the familiar | Mark's view: people want to see and engage with what they already know, and learn new things from there. Overlaps items 6, 7 (well-known figures at the table), 14 and 19. | Not sorted | Collecting |
 | 24 | Design model: timed layers | Mark's idea, from speaker training: prepare each message at 1, 3, 5 and 10 to 15 minutes, built from modules and stories that are themed together. A possible model for the layers of engagement in items 19 and 22, and a link to the story repository (Doc_09). | Not sorted | Collecting |
 | 25 | Audio: scope and cost | Mark's view: everything should be available as audio, but not through generated, paid-API audio for now. If funding comes, generated audio follows. Text is never given up. The three-level transparency stays. Exact reading to be confirmed with Mark (see item 18, which notes the paid bulk-run rule). | Not sorted | Collecting |
+
+## Clarification — 2026-10-19
+- Item 25: Mark says ElevenLabs is the fixed voice for all audio quality. Any generation still follows the paid bulk-run rule in CLAUDE.md (sample first, Mark approves by ear, settings passed explicitly and printed).
