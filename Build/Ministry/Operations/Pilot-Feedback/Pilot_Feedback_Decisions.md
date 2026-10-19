@@ -46,3 +46,7 @@ Source: Mark's own look at two of the ten sites. These are his preferences, not 
 - His idea: not everything has to be on the first page. Show a rotating few, something new each time, very clean.
 - Effect on the draft: the story teasers become a rotating few drawn from a larger set, not a fixed three or four. How the rotation works is open. The research grid still has to be filled and the six claims tested.
 - Rotation (Mark): a new random few each visit, skipping stories that visitor has already seen. The browser remembers what was seen; no account. Needs a larger set of one-minute stories than the three or four first drafted.
+
+## Coordination with the chooser thread — 2026-10-19
+Decision (Mark): the "Conversation chooser research and design" thread owns the cards and the landing page order. This thread's Theme D decisions and the C3, C4, C5 and C6 needs go to it as inputs (sent as a message). This thread makes no further edits to cic-website/index.html. The Q5 move in PR 976 (Build a Table card first) yields to the chooser thread's landing order.
+Not seen: whether Mark has chosen a chooser direction (A, B or C) in that thread. Its Directions page showed all three open.
