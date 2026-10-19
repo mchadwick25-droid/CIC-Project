@@ -10,7 +10,7 @@ This file is laid out in working order:
 
 1. **What never changes** — fidelity, voice, safety
 2. **Before you start** — where things go, which model, budget
-3. **While you work** — fixing, spending, building, handing off
+3. **While you work** — fixing, spending, building, handing off, checking
 4. **When you need Mark** — ask or act, how to ask, governance vocabulary
 5. **Before you finish** — one checklist
 
@@ -18,7 +18,7 @@ This file is laid out in working order:
 
 1. Never invent (1.1) and Write for the participant (1.2)
 2. Safety (1.3)
-3. Fix it right (3.1)
+3. Fix it right (3.1) and Check, then say (3.6)
 4. Governance vocabulary and closure (4.4)
 5. Keep the live/canonical surfaces clean (2.1)
 6. Track gaps and exceptions (2.1)
@@ -188,6 +188,14 @@ Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
 4. Point to decisions, files, and PRs. Never copy a rule from this file into a handoff or launch prompt.
 5. Starting from a handoff: read it first, then re-check its section 3 before building on it. If a claim fails, log it in `Open_Gaps_Tracking.md` and tell Mark.
 
+### 3.6 Check, then say
+
+1. Before you state something about the repo, a rule, a decision, or what a change affects, check it in this session against its source: the file, the decision-log entry, the config, the diff.
+2. Name the source when you state it: "the 2026-10-02 ruling says…", "per `engine/Dockerfile`…".
+3. If you haven't checked it, say so: "I haven't checked this; I assume…". Never present an assumption as fact.
+4. Memory, an earlier thread, a handoff, or a launch prompt is a lead to check, not a source.
+5. Don't attribute a rule to Mark unless a decision-log entry or his own words show he made it. Otherwise say "CLAUDE.md says…".
+
 ---
 
 ## Part 4 — When you need Mark
@@ -198,7 +206,8 @@ Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
 |---|---|
 | CI/infra mechanical fix (config, workflow YAML, build script) | Just do it |
 | Package rebuild after a `records/` edit | Just do it |
-| Your own PR is green: merge into `live`, then `main`; update it if it falls behind; check the deploy | Just do it (2026-10-17) |
+| Your own PR is green: merge into `main`; update it if it falls behind; check the staging deploy | Just do it (2026-10-02, 2026-10-19) |
+| Promoting `main` to `live` (production) | Mark's call, through `Build/Ministry/Operations/Standing/CiC_Promotion_Runbook.md`. Never open a PR into `live` yourself. |
 | A change Mark approved in chat, in a connected service (Tally and the like), including publishing | Just do it (2026-10-17) |
 | Anything only a dashboard can do (Render, AWS, Cloudflare, GitHub settings) | Give Mark the exact steps |
 | Session permissions (`.claude/settings.json`) | Give Mark the exact steps. A session can't change its own permissions. |
@@ -243,6 +252,7 @@ This table starts here and grows only when a real new case shows up, never specu
   - It is a much rarer scope than one document's own "Approved to proceed" under the build cycle's per-document self-governance.
   - One document proceeding doesn't mean anything has closed.
 - A blocking review finding can't be dismissed by self-certification. It needs independent re-confirmation.
+- A change to CLAUDE.md, a skill, a launch prompt, or a governance doc gets an independent review against the old text before anyone tells Mark what changed, or that nothing did.
 - Truncation checks use two independent methods, not one.
 
 ---
