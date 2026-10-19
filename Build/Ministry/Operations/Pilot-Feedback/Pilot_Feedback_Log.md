@@ -18,3 +18,10 @@ Source: one pilot tester (name not given), notes passed on by Mark.
 | 9 | Funding and product direction | Loves the 300 free tokens. Assumes a paywall comes after. | Bigger issue | Open |
 | 10 | Participant app: disclaimer | Loves the disclaimer before conversation. | Praise | No action |
 | 11 | Overall | Loves it. Great tool to go right to the source. | Praise | No action |
+
+## Status updates — 2026-10-19
+- Mark approved quick fixes 2 to 5 as one batch (item 1 waits for the photo).
+- Item 2: built. The waiting note now shows larger animated dots in the table room and the interview room.
+- Item 3: built. The table room now brings the newest question to the top so the answer opens below it, as the interview room already did. The zoom fault was the app's height tracking: pinch-zoom shrank it. It now allows for the zoom level.
+- Item 4: not fixed. Nothing in the code blocks forward selection; it needs a reproduction (device and browser).
+- Item 5: built. The Build a Table card now sits first on the home page, above Church Family Tree.

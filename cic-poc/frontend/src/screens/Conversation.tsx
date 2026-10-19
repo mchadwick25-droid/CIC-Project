@@ -7,11 +7,12 @@ import { PageFeedback } from '../components/PageFeedback';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
+import { useAskedAtRest } from '../hooks/useAskedAtRest';
 import type { ConversationTurn } from '../hooks/useConversation';
 import { pageFeedbackId } from '../lib/api';
 import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import type { WorldEntry, WorldStarter } from '../data/worlds';
-import { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { useState } from 'react';
 
 // Up to 3 starters spanning distinct cell tags (basic/identity, personal,
 // critical/etic) rather than the first 3 alphabetically - carried from the
@@ -44,9 +45,6 @@ interface ConversationProps {
   carriedQuestion?: string;
 }
 
-// How far below the top of the transcript a just-asked question comes to rest.
-const ASKED_TOP_GAP = 16;
-
 function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
@@ -55,11 +53,6 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
   const [deleted, setDeleted] = useState(false);
   const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
-  const transcriptRef = useRef<HTMLDivElement>(null);
-  const askedRef = useRef<HTMLDivElement>(null);
-  const roomRef = useRef<HTMLDivElement>(null);
-  // Where the newest question was brought to rest, until the reader scrolls.
-  const restingAt = useRef<number | null>(null);
   const handleDelete = async () => {
     await onDelete?.();
     setDeleted(true);
@@ -69,58 +62,9 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
   const started = participantTurns > 0;
   const lastAsked = turns.map((t) => t.speaker).lastIndexOf('participant');
   const replyBegun = Boolean(reply);
+  const { transcriptRef, askedRef, roomRef } = useAskedAtRest(participantTurns, replyBegun);
   // Loading also covers the room opening; only a sent question awaits a reply.
   const awaitingReply = isLoading && turns.length > 0 && turns[turns.length - 1].speaker === 'participant';
-
-  // Room under the newest exchange, so its question can reach the top of the
-  // transcript; it shrinks as the reply fills the screen.
-  const fitRoom = () => {
-    const box = transcriptRef.current;
-    const asked = askedRef.current;
-    const room = roomRef.current;
-    if (!box || !asked || !room) return;
-    const exchange = room.offsetTop - asked.offsetTop;
-    room.style.height = `${Math.max(0, box.clientHeight - exchange - ASKED_TOP_GAP)}px`;
-  };
-  useLayoutEffect(fitRoom);
-
-  const bringAskedToRest = (smooth: boolean) => {
-    const box = transcriptRef.current;
-    const asked = askedRef.current;
-    if (!box || !asked || typeof box.scrollTo !== 'function') return;
-    const top = Math.max(0, asked.offsetTop - ASKED_TOP_GAP);
-    restingAt.current = top;
-    box.scrollTo({ top, behavior: smooth ? 'smooth' : 'auto' });
-  };
-
-  // Each question rises to the top of the transcript once it is sent, and
-  // again when the reply begins, so the answer has the screen below it.
-  useEffect(() => {
-    const still = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-    bringAskedToRest(!still);
-  }, [participantTurns, replyBegun]);
-
-  // The screen can change height under a resting question (the site's bars
-  // fold away, a keyboard opens); keep it at rest unless the reader has
-  // scrolled away from it.
-  useEffect(() => {
-    const box = transcriptRef.current;
-    if (!box || typeof ResizeObserver === 'undefined') return;
-    const observer = new ResizeObserver(() => {
-      fitRoom();
-      if (restingAt.current !== null) bringAskedToRest(false);
-    });
-    const leaveRest = () => {
-      restingAt.current = null;
-    };
-    const moves = ['wheel', 'touchmove', 'keydown'] as const;
-    observer.observe(box);
-    moves.forEach((type) => box.addEventListener(type, leaveRest, { passive: true }));
-    return () => {
-      observer.disconnect();
-      moves.forEach((type) => box.removeEventListener(type, leaveRest));
-    };
-  }, []);
 
   return (
     <div className="conversation">
