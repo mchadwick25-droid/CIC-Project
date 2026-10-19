@@ -1,12 +1,30 @@
 # CIC-Project — Working Rules
 
-Read this before doing anything else. The program succeeds or fails on two things: scholarly rigor and clear, accessible conversation. Part 1 protects them. Never trade Part 1 for speed, cost, or convenience. Where rules in Parts 2–5 conflict, the earlier part wins.
+Read this before doing anything else. The program succeeds or fails on two things: scholarly rigor and clear, accessible conversation.
+
+- **1.1 and 1.2 are principles.** They hold together. Never trade one against the other, and never trade either away for speed, cost, or convenience.
+- **1.3 Safety is a working protocol,** kept and built to be proportionate.
+- The cost and scaling rules exist to buy more rigor and clarity, never to trade against either. A build that is cheaper, faster, or more automated but weaker on rigor or clarity is a failure the process didn't catch.
+
+This file is laid out in working order:
 
 1. **What never changes** — fidelity, voice, safety
 2. **Before you start** — where things go, which model, budget
-3. **While you work** — fixing, spending, building
-4. **When you need Mark** — ask or act, how to ask
+3. **While you work** — fixing, spending, building, handing off
+4. **When you need Mark** — ask or act, how to ask, governance vocabulary
 5. **Before you finish** — one checklist
+
+**Priority order is separate from that layout.** When two rules pull in different directions, the one higher in this list wins:
+
+1. Never invent (1.1) and Write for the participant (1.2)
+2. Safety (1.3)
+3. Fix it right (3.1)
+4. Governance vocabulary and closure (4.4)
+5. Keep the live/canonical surfaces clean (2.1)
+6. Track gaps and exceptions (2.1)
+7. How we work with Mark (4.1–4.3, 3.5)
+8. Building a world (3.4, and the world-start rules in 2.3)
+9. Usage and cost (2.2, 2.3, 3.2, 3.3) — these never override anything above them.
 
 ---
 
@@ -28,10 +46,11 @@ Applies to everything a participant sees: dialogue, UI text, instructions, onboa
 
 - Aim for **CEFR B2, Flesch-Kincaid grade 8–10, Flesch Reading Ease ≥ 60**, in the register of BBC News or National Geographic. Grade 8 is a floor; flattening the world's voice is the real risk.
 - Hold three things at once: **accessible**, **distinctive** (the world's own imagery and convictions), and **held** (no fabrication, no caving under pushback).
-- Write sentences of about 12–20 words, never past ~25. One idea per paragraph. Introduce a term before using it. Use active voice and concrete verbs. Skip needless Greek and Latin.
-- State uncertainty plainly. Show evidence naturally ("we believe this because…"). Say the complex idea plainly; don't swap it for a simpler one.
-- Give a Representative its world's own hedges. Generic phrasing like "historians disagree" belongs to the Facilitator.
-- Remove every AI tell: hedging filler, assistant cadence, disclaimers as a crutch.
+- Keep sentences short, averaging roughly 12–20 words. Nothing nested, nothing running past ~25 words. One idea per paragraph (1–4 sentences). Introduce a technical term before using it naturally. Use active voice and concrete verbs, not passives and nominalizations. Skip unnecessary Greek and Latin.
+- State uncertainty plainly rather than hedging it into vagueness. Show evidence naturally ("we believe this because…") rather than arguing at length.
+- Precise language beats impressive language. Say the complex idea plainly rather than trading it for a simpler one. Don't simplify the scholarship; lower the barrier to entering it.
+- A Representative's hedge language is emic, not etic: the world's own way of naming its own uncertainty. Generic academic phrasing ("historians disagree") belongs to the Facilitator, who speaks from outside every world.
+- Remove every AI tell: hedging filler, assistant-voice cadence, telltale LLM phrasing, disclaimers as a crutch. If a participant can hear the chatbot instead of the world's own voice, that is a defect, even if the content is accurate.
 
 Scoring and enforcement: `engine/m7/turn_readability.py`. Full standard: `Build/reference/method/Pass2-decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md` and `VR_1A_Writing_Standard_2026-08-09.md`.
 
@@ -40,7 +59,7 @@ Scoring and enforcement: `engine/m7/turn_readability.py`. Full standard: `Build/
 - Never let a Representative handle real crisis or distress. The Facilitator recognizes risk and directs the person to human help, from a template, not free text. The Representative may stay warm in character.
 - Near anything safety-adjacent, choose caution. Never make a redirect depend on the participant saying they're okay.
 - Don't mistake a world's designed fierceness or disorientation for participant distress.
-- Keep the protocol proportionate: as cheap as it can be while still catching the real event.
+- Keep the protocol proportionate: as cheap as it can be while still reliably catching the real event. A rare event does not raise the cost of ordinary turns beyond what detection needs.
 
 How it runs now: the Facilitator classifies acute distress and harmful dynamics every turn, the Representative stays silent on those turns, and code appends the crisis resources. Governing doc: `Archive/Syriac-Build-2026-07/L3D-Encounter-Methodology/CiC_L3D_Facilitator_Governance_V3.6.docx`.
 
@@ -59,28 +78,40 @@ How it runs now: the Facilitator classifies acute distress and harmful dynamics 
 | Something superseded | `Archive/`. Never delete without instruction. |
 | Something for Mark to react to | An Artifact, not a repo file (see 4.2) |
 
-**Live/canonical folders:** `engine/`, `cic/engine/`, `records/`, `packages/`, `canon/`, `fixtures/`, `cic/texts/`, `cic/corpus-map/`, `cic-poc/frontend/`, `cic-website/`, `Build/worlds/` (worlds without a registry code: `Build/World-Builds/<long-name>/`), `Build/reference/`, `Sandbox/` (code only; its notes go in `Build/Ministry/Features/<project>/`). The root `README.md` describes each one. If this list and the README disagree, fix the README first and log it in `Build/Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`.
+**Live/canonical folders:**
+
+- `engine/`, `cic/engine/` — the core engine and the corpus tools
+- `records/`, `packages/`, `canon/`, `fixtures/` — world data, compiled packages, sealed probes, the fixture world
+- `cic/texts/`, `cic/corpus-map/` — the Library
+- `cic-poc/frontend/`, `cic-website/` — what Render and Cloudflare serve
+- `Build/worlds/` — one home per world by registry code: construction documents once approved to proceed at `Build/worlds/<code>/`, the world's indexes, build log and source manifests at `Build/worlds/<code>/build/`, and the fleet-level `_cross-world/` documents. Worlds without a registry code stay at `Build/World-Builds/<long-name>/` until they get one.
+- `Build/reference/` — the method and spec library. Read constantly, edited rarely. A template exists once, here.
+- `Sandbox/` — next-version code only; its notes go in `Build/Ministry/Features/<project>/`
+
+The root `README.md` is the map of the whole tree, and this list follows it. If they disagree, fix the README first, log it in `Build/Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`, then fix this list.
 
 - If you find commentary or change history inside a live file, remove it. Don't add to it.
 - If you edit a live file, also remove the commentary already in it. `tools/check_live_commentary.py` shows what's there.
 - In gap entries, never renumber a merged entry. Cross-reference by subject and date, not number.
+- An unlisted fleet defect is new drift and fails the run. A stale waiver for something already fixed also fails; remove it.
 
 ### 2.2 Use the right model
 
 | Task | Model |
 |---|---|
 | Drafting and revising | Sonnet 5.5 |
-| Doc_04 (Gravity Discovery), Doc_10 (Representative), and frame-setting design or research | Fable |
+| Doc_04 (Gravity Discovery), Doc_10 (Representative), and other complex design and research that sets the frame downstream: system or front-end redesign proposals, comparative source-ecology and world-strategy research, org and funding strategy | Fable, reserved for this. Never for routine drafting or anything that repeats. |
 | Every adversarial review round | Opus 5.5. From round 2, a targeted recheck of what changed, at lower effort. |
 | Every `modern_rendering` and re-rendering | Opus 5.5. Every clause, nothing added, one thought per sentence, nothing past ~25 words, no word whose modern sense misleads. |
 | Package rebuilds, citation and log fixes, formatting, indexing | Haiku |
 
 ### 2.3 Check the budget
 
-- Treat Max-200 as a hard cap. Never fall back on paid overage.
+- Treat Max-200 as a hard cap. Get everything possible out of the flat fee; never fall back on paid overage.
+- Context-window management matters at least as much as model choice. A bloated context costs more than a clean one, regardless of tier.
 - The allowance resets Friday at 2:00 pm. Give at least half to building. Schedule heavy steps early in the week.
 - Keep two ledgers per world: allowance share and metered dollars.
-- Start a world only when the remaining build allocation covers a typical world plus a reserve. Build one world at a time. Run a second session only when the ledger shows the week can carry it.
+- Start a world only when the remaining build allocation covers a typical world plus a reserve. Build one world at a time by default. Run a second concurrent session only when the ledger shows the week can carry it. These are human-supervised sessions, not automated multi-agent orchestration.
 
 Mark's own account practices: `Build/Ministry/Operations/Standing/CiC_Usage_Discipline.md`.
 
@@ -92,19 +123,20 @@ Mark's own account practices: `Build/Ministry/Operations/Standing/CiC_Usage_Disc
 
 - Find and fix the root cause. If it isn't clear, say so and investigate before touching code.
 - If an earlier fix was wrong, undo it and redo it. Never stack a fix on a fix.
-- No band-aids, workarounds, or "good enough for now." No shortcut that trades correctness for speed.
+- No band-aids, workarounds, or "good enough for now." No shortcut that trades correctness or completeness for speed.
 - If a path turns out wrong, rewind out of it rather than patching over it.
 
 ### 3.2 Spend money only like this
 
 **Model calls (metered).**
 
-1. Call the model only for a live quality test Mark has approved by name, with a cap.
-2. Nothing else qualifies: no admission battery, grading run, meaning-fit measurement, baseline, or experiment.
-3. If a gate can't pass without a model call, stop and ask.
-4. The engine enforces this: a call outside a conversation needs `--live-test "<name>"` and `--cap-usd <n>` (decisions 54 and 56).
+1. Conversations are the only spend (ruled 2026-10-06, decisions 54 and 56).
+2. Outside a conversation, call the model only for a live quality test Mark has approved by name, with a cap.
+3. Nothing else qualifies: no admission battery, grading run, meaning-fit measurement, baseline, or experiment, unless Mark has approved that run as a live test.
+4. If a gate in the engine can't pass without a model call, stop and ask rather than run it.
+5. Keys may stay in the shared environment. The engine refuses a model call outside a conversation unless the command carries `--live-test "<name>"` and `--cap-usd <n>`. It prints its settings first, stops at the cap, and logs the name.
 
-**Paid bulk runs** (text-to-speech, image or model batches).
+**Paid bulk runs:** anything that spends real money in bulk on a metered outside service — text-to-speech, image or model batches, anything charged per item or character.
 
 1. Run a small sample. Get Mark's approval by ear or eye.
 2. Pass every paid setting (voice or model id, generation settings) on the command. Never inherit them from the environment.
@@ -115,21 +147,24 @@ Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
 
 ### 3.3 Keep the context lean
 
-- Send exploration and research to subagents.
-- On uncertain scope, explore read-only before implementing.
+- Use `/compact` or `/clear` between unrelated pieces of work. Reach for these before reaching for a cheaper model.
+- Send exploration and research to subagents so they don't bloat the main thread.
+- On uncertain scope, use Plan Mode and explore read-only before implementing.
+- Batch related work into one longer session instead of many short restarted ones. Short sessions lose the prompt cache and pay for context again every time.
+- Spread heavy build and review days across the week instead of bursting most of a week's work into one or two days.
 - Wait on PR and CI events. Don't poll.
 
 ### 3.4 Build a world
 
 1. Kick off a world end-to-end: "build [World] end-to-end per cic-build-cycle discipline; self-govern per its own rules; stop only for an escalation category or a missing input."
-2. Let the build self-govern. Stop only for the escalations in 4.1. Never self-assign Frozen status.
+2. Let the build self-govern. Stop only for a missing input or one of the four escalation categories: Representative identity or title, cross-world or portfolio-level decisions, governance or methodology changes, and tensions the pipeline can't close on its own. Never self-assign Frozen status.
 3. Present Representative identity and image as one packaged choice: 2–4 named candidates with trade-offs (`Representative_Construction_Notes_Template.md`). Ask once.
 4. Doc_02 (Source Ecology) belongs to the Library thread. Source it ahead of need, following `Build/Ministry/Operations/Standing/CiC_Source_Research_Practice.md`.
 5. Cap review at three rounds.
    - The bar is acceptable scholarly rigor. "Could be stronger," with nothing wrong, unsupported, or misleading, is not a finding.
-   - Every review file counts toward three (the `roundcount` gate enforces it).
-   - After three substantial rounds without clearing, stop and escalate. Don't run a fourth.
-   - Exception: a review Mark orders in a "Cap ruling" entry in the System Hub Decision Log doesn't count.
+   - After three rounds of substantial revision without clearing review, stop and escalate. Don't attempt a fourth.
+   - Every review file on a document counts toward the three, whatever its kind or verdict (the `roundcount` gate enforces it).
+   - The one exception: once a document has escalated to Mark at the cap, a review he orders in his ruling does not count, when a "Cap ruling" entry in the System Hub Decision Log names its file.
    - Mechanics: the `cic-build-cycle` skill. Why: `CiC_Governance_Rationale_Log.md`.
 
 ### 3.5 Hand off to the next thread
@@ -181,6 +216,13 @@ Add a row only when a real new case shows up.
 - Return to asking only for a decision not yet made, or a real need for direction or clarification.
 - Until convergence, write nothing to a canonical record, commit nothing, and treat nothing as decided.
 
+### 4.4 Governance vocabulary and closure
+
+- Say "Approved to proceed," never "finalized." That word is retired; don't use it.
+- Nothing closes until both Phase Five boundary testing and full-system review are complete. This is the whole-system and portfolio closure gate, a much rarer scope than one document's own "Approved to proceed" under the build cycle's self-governance. One document proceeding doesn't mean anything has closed.
+- A blocking review finding can't be dismissed by self-certification. It needs independent re-confirmation.
+- Truncation checks use two independent methods, not one.
+
 ---
 
 ## Part 5 — Before you finish
@@ -189,8 +231,6 @@ Add a row only when a real new case shows up.
 - [ ] Contested claims tagged with `formation_confidence`.
 - [ ] No commentary left in any live file you touched (`tools/check_live_commentary.py`).
 - [ ] Every gap logged in `Open_Gaps_Tracking.md`; every unfixed fleet defect waived; no stale waivers.
-- [ ] Truncation checked by two independent methods.
-- [ ] "Approved to proceed," never "finalized." Nothing closes until Phase Five boundary testing and full-system review are both complete.
-- [ ] A blocking finding cleared only by independent re-confirmation, never self-certification.
+- [ ] Governance vocabulary, closure, blocking findings, and truncation handled as 4.4 says.
 - [ ] One draft PR for the batch, pushed once after local checks pass, then marked ready (ruled 2026-10-05).
 - [ ] If another thread picks this up, a handoff saved in `Build/Ministry/Operations/Handoffs/` (3.5).

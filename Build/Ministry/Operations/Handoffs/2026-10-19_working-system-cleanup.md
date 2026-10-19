@@ -11,11 +11,13 @@ From session: https://claude.ai/code/session_015rsp39dUPEQUpy1RrBWNo4 · Workstr
 | `.claude/settings.json` project allow list, with paid-call and destructive commands set to ask | Committed by Mark through GitHub; valid JSON; matched the approved file exactly |
 | Product Management plugin removed; Indeed and Webflow disconnected | Done by Mark in claude.ai settings; Indeed and Webflow tools dropped from this session as each was disconnected |
 | Session handoff template and CLAUDE.md 3.5 | Approved by Mark (handoff artifact) |
+| Losses from the reorganization restored (priority order, Safety, closure, review-cap exception, spend, Fable, folders, writing standard) | Independent Opus review against `git show origin/main:CLAUDE.md`, then a targeted recheck of the restore |
 | All of the above logged | `CiC_System_Hub_Decision_Log.md`, 2026-10-19 entries |
 
 ## 2. Not done
 
-- Audit of the 8 launch prompts in `Operations/Standing/Launch-Prompts/` against the new CLAUDE.md. Not started.
+- The review cap counts both "every review file" and "three substantial rounds"; which unit governs is Mark's call (inherited from the old text).
+- Five launch prompts (`GoLive_Pipeline_Coordinator`, `lpc_Representative_Construction`, `World_Build_Launch_Prompt_V2.0`, `Website_V2_Design_Launch`, `Built_World_Voice_Alignment`) restate merge, model, spend, or Kaner rules in ways that conflict with the current CLAUDE.md.
 - The `cic-build-cycle` skill uses the retired word "finalize" five times in its description, and does not mention the cap-ruling exception or that every review file counts toward three. Skills are edited on claude.ai, not in the repo.
 
 ## 3. Re-check before you trust it
