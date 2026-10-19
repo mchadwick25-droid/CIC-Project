@@ -1,57 +1,44 @@
 # Handoff — conversation chooser, research and design — 2026-10-19
 
-From session: https://claude.ai/code/session_01DieKxWNS33gUktGHTTiGeS · Workstream: Conversation-Chooser (landing page and table launch) · Branch / PR: `claude/conversation-chooser-design`, PR link in the thread
+From session: https://claude.ai/code/session_01DieKxWNS33gUktGHTTiGeS · Workstream: Conversation-Chooser (landing page and table launch) · Branch / PR: PRs 982, 983 and 984, all merged into `main`; this file lands with PR 985
 
 ## 1. Done, and how it was checked
 
 | What was done | How it was checked |
 |---|---|
-| Research plan (deliverable 1): questions first, six criteria, fourteen systems, network routes. Mark accepted it and chose "Allow hosts, I open them". | `Build/Ministry/Features/Conversation-Chooser/Research/Research-Plan.md`; the private page `https://claude.ai/artifact/HzrgjJunooHwsMXaqWwVX2`; Mark's answer in the thread. |
-| Comparison grid (deliverable 2): fifteen rows, each labelled opened, partly opened or indexed only; the six claims judged; gaps listed. | `Research/Comparison-Grid.md`; private page `https://claude.ai/artifact/PLbWFDty3LibDKNv6TQZ27`. Fetched sources are named in its section 5. The harness (`Research/harness/open.mjs`) ran against the live CiC pages and the Rijksmuseum; its JSON output is in the session scratchpad only. |
-| Prototype (deliverable 3): three directions on the real eleven cards, era tints, seat tray, reduced-motion and phone fallbacks; direction B revised to deal from a deck with era chips, a search box, a written count and a Tree link. | `Prototype/chooser-directions.template.html` plus its README; private page `https://claude.ai/artifact/Npf19NpmiF9hKsPKcsj5ah`. The script parses (`node --check`), and a local Playwright run found no page errors; the deck search for "augustine" returned one match and the era II deal showed "5 of 6". |
-| Convergence: Mark chose B, then "it replaces the chair strips and multi-voice table launch", then "Converged, write the build plan". | `Decision-Log.md` in the feature folder, quoting him. |
-| Build plan (deliverable 4). | `Build-Plan.md`. Line numbers were read from `main` at `97f80128` this session. |
-| Records: feature folder, Features index row, Theme D chooser entry in `Pilot_Feedback_Decisions.md`, an entry in `CiC_FrontEnd_Decision_Log.md`. | Files on the branch. |
+| Research plan, comparison grid (fifteen rows, each labelled opened, partly opened or indexed only) and a browser harness. | `Build/Ministry/Features/Conversation-Chooser/Research/`; private pages linked from the feature README. The harness ran against the live CiC pages and the Rijksmuseum. Seven systems stayed indexed only: the allowed-hosts change never reached the session. |
+| Three design directions as a clickable prototype; Mark chose B, a hand of five dealt from a deck. | `Prototype/chooser-directions.template.html` with its README; private page `https://claude.ai/artifact/Npf19NpmiF9hKsPKcsj5ah`. Script parses; local Playwright runs found no page errors. |
+| Converged design and later change orders, all in Mark's words. | `Decision-Log.md` in the feature folder, with the reasoning beside each. |
+| Build plan for a later thread. | `Build-Plan.md`. Line numbers were read from `main` at `97f80128`. |
+| Records: Features index row, Theme D entries in `Pilot_Feedback_Decisions.md`, an entry in `CiC_FrontEnd_Decision_Log.md`. | On `main` through PRs 982 to 984. `check_paths.py` 0 new unresolved; `check_live_commentary.py` exit 0. |
+
+The converged design, in short: a collector's card per world (standard proportion, era bar, title strip, full-bleed portrait, name plate with the tagline; stat block, longer summary and record line on the back). A hand of five dealt from a deck; Shuffle; a search that brings matches into the hand; "See all" as a scroll of the whole deck under the hand; a tray that seats two or three for the table; a list fallback for phones and reduced motion. It replaces the chair strips and the table launch. The story teasers sit above the hand. Donatism stays live; the deck is eleven. The hand stays as it is, to be judged after the pilot on which control launches each room. Every path lands on the existing talk page, so the room's welcome, disclosure and safety handling are unchanged.
 
 ## 2. Not done
 
-- Seven systems stayed indexed only (Google Arts and Culture rendered only through Mark's two screenshots; BibleProject, Material's site, Spotify, Netflix, Duolingo, Khan Academy, Europeana not opened). Mark's Allowed-domains change had not reached this session. The host list he was given is in the thread; the harness is ready.
-- The grid's Google Arts and Culture row does not say what a card opens, how it behaves on a phone or with the keyboard, or whether the hand holds more than five.
 - Nothing is built. No live or canonical file was edited.
-- The "What the record holds" lines in the prototype are first drafts derived from each world's thinness statement; they have had no readability score and no review.
+- The eleven taglines and the back summaries are drafts under their own review on the Gateway Cards page; Mark has signed off none.
+- The claim-check fixes to the world records (the other thread's audit; Desert weakest) are not done. A card back ships only after its world's fixes.
+- Google Arts and Culture, BibleProject, Material's site, Spotify, Netflix, Duolingo, Khan Academy and Europeana were not opened; the harness is ready when the hosts clear.
+- The prototype uses the 192 px thumbnails and one crop point for all portraits.
 
 ## 3. Re-check before you trust it
 
-- Build-plan line numbers (`index.html` 199 to 245 and 386 to 539; `table.html` 232 to 236, 241 to 289, 272, 305 to 418; `census_sync.py` 47) — `main` moves; re-read before editing.
-- "The other six chairs →" footer string — reported by a read-only agent from `traditions/desert-monasticism.html`; a plain grep of `templates/tradition.html` and `generate_tradition_pages.py` did not find it. Find where it is produced.
-- The claim that every live world's `voices` strings open with a sentence that explains the figure's relation to the world — checked for Donatism only (`Donatus succeeded Majorinus…`). Check all eleven before the "why it matched" line relies on it.
-- The three era tones — proposals, unmeasured. Measure against `#17130F` and `#1E1913` as `World-Accent-Colours.md` does.
-- The verdict that B scales to a hundred worlds — reasoned, not tested. No system in the grid was opened at that scale.
+- Build-plan line numbers — `main` moves; re-read before editing.
+- "The other six chairs →" on the tradition pages — reported by a read-only agent; not found by a plain grep of the template or generator. Find where it is produced.
+- That every live world's census `voices` strings open with a sentence giving the figure's relation to the world — checked for Donatism only. The "why it matched" line depends on it.
+- The three era tones — proposals, unmeasured against the dark ground.
+- That B scales to a hundred worlds — reasoned, not tested.
+- The registry `card:` block and the census sync extension — designed, not written; `census_sync.py` line 47 is the hook.
 
 ## 4. Waiting on Mark
 
-- Merge of this PR (Ministry files only; see `git diff --stat`).
-- Where the story teasers sit relative to the hand on the Theme D landing page — options not yet shown.
-- The Donatism live-status decision, which decides whether its card ships.
-- The eleven intro lines, under their own review on the Gateway Cards page.
+- Sign-off on the eleven taglines once their review clears. Nothing else waits on him.
 
 ## 5. Next step
 
-A build thread opens `Build/Ministry/Features/Conversation-Chooser/Build-Plan.md`, re-checks section 3 above, and starts at step 1 (data). Before that, if the allowed hosts have cleared, run `node Research/harness/open.mjs gac https://artsandculture.google.com/` and amend the grid's row 1.
+A build thread opens `Build/Ministry/Features/Conversation-Chooser/Build-Plan.md`, re-checks section 3 above, and starts at step 1 (data). Schedule it early in a week after the Friday reset; it is a heavy step. If the allowed hosts have cleared, run `node Research/harness/open.mjs gac https://artsandculture.google.com/` first and amend the grid's row 1.
 
 ## 6. Spend
 
-Allowance share used: one long research-and-design session with three artifacts and one read-only subagent. Metered: none.
-
-## 7. Addendum, later the same day
-
-Decisions Mark made after this handoff was written, all recorded in the feature decision log with his words:
-
-- Change order: the card is a collector's card at standard proportion, current grammar (full-bleed portrait, slim era bar, title strip above the portrait, dark name plate with the tagline, gold edge, set number). Back: stat block, longer summary, record line, actions.
-- "Shuffle" replaces "Deal another hand"; a search brings matches into the hand the visitor holds; "See all" opens the whole deck as a scroll under the hand to pick from.
-- The hand stays as it is; the build records which control launched each room so it can be judged after the pilot.
-- The story teasers sit above the hand. Landing page order: headline, teasers, hand, three doors.
-- Donatism stays a live conversation. The deck is eleven; no provisional flag.
-- From the sibling thread: a claim-check gate on every card back before it ships; the taglines and summaries stay drafts until their review clears.
-
-PRs 982 and 983 are merged into `main`; PR 984 carries the last three items. Section 4's "merge of this PR" and the Donatism and teaser items are done. Still waiting on Mark: sign-off on the eleven taglines after their review.
+Allowance share used: one long session, one read-only subagent, no metered calls. Metered: none.
