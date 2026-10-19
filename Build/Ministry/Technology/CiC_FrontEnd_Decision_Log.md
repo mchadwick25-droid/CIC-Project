@@ -5899,3 +5899,29 @@ describes what the page-level like and report store.
 The project lead ruled that the Facilitator's welcome is too long, and that a participant who has heard it once does not need it again. The recorded welcome no longer plays by itself, and its "Hear the welcome" button is gone with it. The welcome is now two short sentences of text: who the participant is about to speak with, and that the Representative will say plainly when the record runs out. A Table's welcome is the same shape. The Facilitator's self-introduction and its explanation of its role are dropped from both. This is a change order to the 2026-08 decision that gave each world a spoken door.
 
 The recorded door files under `cic-poc/frontend/public/audio/door/` and `Build/tools/generate_door_narration.py` stay in the repository, unused, until the project lead decides whether to delete them.
+
+## 2026-10-19 — The conversation chooser: a hand of five dealt from a deck
+
+**Problem.** The landing page chooses a conversation through three sideways strips of
+eleven chairs, and the Build a Table page through a seat ring with its own copy of the
+world list. Mark wants the Google Arts and Culture hand of cards: portraits that sit like a
+hand, the chosen card rising, a turn for the next level, interview or table from the card.
+
+**Decision (Mark).** Direction B of three: a hand of five cards dealt from a deck narrowed by
+era or by a name, the count always written, the Church Family Tree one step away. "It
+replaces the chair strips and multi-voice table launch." "Converged, write the build plan."
+Record, research and build plan: `Build/Ministry/Features/Conversation-Chooser/`.
+
+**The heart of it.** The first screen should feel like being dealt a hand, simple and a little
+surprising, with the depth one turn away. The deck and the Tree keep that honest at a
+hundred worlds: the hand never pretends to be everything.
+
+**Why not the whole hand.** Apple's collection guidance, Google's own carousel research, the
+Oslo carousel studies and Cover Flow's removal all run against a wheel of eleven unfamiliar
+cards. The standards (WCAG reflow, dragging, animation; the ARIA carousel pattern) write the
+fallback: buttons, cards that fit 320 px, no auto-motion, a list under reduced motion.
+
+### Next action
+
+A build thread works `Build-Plan.md` in the feature folder, data first, then the component,
+then the card words under their own review.
