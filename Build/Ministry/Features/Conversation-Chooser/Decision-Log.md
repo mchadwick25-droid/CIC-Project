@@ -71,3 +71,13 @@ Dated entries. Mark's own words are quoted where he gave them. Reasoning, includ
 **What changed.** "Deal another hand" is now "Shuffle". A search brings the matching cards into the hand the visitor already holds, first match to the front, instead of replacing the hand; the hand holds up to eight. "See all" opens the whole deck as a sideways scroll under the hand (direction C's row, with buttons and a visible scrollbar); tapping a card there takes it into the hand and brings it to the front. Cards already in the hand are marked in the scroll. The build plan's component row should carry these three behaviours.
 
 **Why.** The hand is what the visitor holds; the scroll is the deck laid out on the table. Both are needed at a hundred worlds, and the scroll is the pattern the standards favour.
+
+## 2026-10-19 — The hand stays as it is (Mark)
+
+**Mark's question.** "What is the 5 hand doing, it looks great, but is it adding real value to a typical user?"
+
+**The assessment given.** The value is mostly in three plainer things the fan carries: five cards instead of eleven or a hundred, so the visitor starts; a fresh deal that puts an unfamiliar tradition in front of someone who came for a familiar name; and a first screen that reads as an invitation without instructions. The costs: the fan hides parts of four cards, a returning visitor must search for a card they held before, and shuffle, deck and "See all" are three more ideas before a conversation. The fan earns its place only if the list fallback and the one-tap path to "Talk with" are flawless and it does not push Theme D's stories down the page.
+
+**Decision (Mark).** "Let's keep it as it is."
+
+**Carried into the build plan.** The build records which control launched each room (hand, scroll, search, Tree), so after the pilot the hand can be judged against a row of five on evidence, not taste.

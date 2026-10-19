@@ -53,6 +53,7 @@ Not changed: `cic-website/atlas-v3.html` and `tree/*` (the Tree stays the librar
 - The harness in `Research/harness/open.mjs` against the preview deploy, at 1280 and 390 px and with reduced motion: page width overflow 0 at 390; every portrait link named; the hand's scroller carries `tabindex="0"`, `role="group"` and `aria-roledescription`; no element uses a 3D transform under reduced motion; the tab order visits each card once, not three times.
 - Keyboard only: roll the hand with arrow keys, turn a card with Enter, seat two, reach "Go to the table".
 - Screen reader pass (VoiceOver on an iPhone): the dealt cards read as a list; the back is unreachable until turned; the tray's count is announced.
+- The `from` parameter on every launch link names the control that launched the room (`hand`, `scroll`, `search`, `tree`, `table-tray`), so the admin dashboard can report where conversations start. Mark's 2026-10-19 decision keeps the hand as it is, to be judged on this evidence after the pilot.
 - `tools/check_live_commentary.py --enforce --base origin/main` exit 0.
 - Existing site tests under `Build/tools/*.test.mjs` still pass.
 - Mark views the Cloudflare preview on his iPad and phone before merge (the zoom fault from feedback item 1 is separate and still open).
