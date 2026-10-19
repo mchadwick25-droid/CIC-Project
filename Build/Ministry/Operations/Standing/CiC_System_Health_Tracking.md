@@ -1578,3 +1578,11 @@ Found by the independent review of the eleven-world fix slice (System Hub Decisi
 - What a fix would involve: the stream holding a sentence while a quotation mark it opened is still unclosed, the same hold-back it already applies to demonstration runs.
 - Must be fixed before streaming is turned on anywhere participants are.
 - Status: OPEN.
+
+## 2026-10-19 - Admission sends the voice no turn directive, so it does not measure a live turn's length or opening
+
+Found while reading the gallic sample run of 19 October. A live participant turn sends the voice a private turn directive (`engine/m4/turn_prep.py`, sent in `engine/m4/turn.py`). It carries the length rule (`CONCISION_DIRECTIVE`: "Most replies run between 120 and 220 words"), the opening rule, the question-kind line, the quote and story offers and the no-new-figure rule. The admission run (`engine/m3/generation.py`, `LiveModelAnswerer`) calls `stream_voice_turn` with the world prompt and the question only. Its docstring says it is the live pipeline "minus the safety gate"; it also leaves out the whole directive and the session history.
+- Measured effect: admission answers run longer than the live rule asks. Gallic on 19 October: median 337 words, longest 1,425; fleet median across the 2, 3, 4 and 9 October runs: 264. How long a live turn runs for the same questions has not been measured.
+- Exposure: every admission result on record has this gap. They show source citation and register on the voice without the directive. They do not show those on a live turn.
+- What a fix would involve: admission building the same directive a live turn builds, then re-running admission. A methodology change, so it needs the project lead's decision.
+- Status: OPEN.
