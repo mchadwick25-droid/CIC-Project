@@ -46,3 +46,29 @@ Source: Mark's own look at two of the ten sites. These are his preferences, not 
 - His idea: not everything has to be on the first page. Show a rotating few, something new each time, very clean.
 - Effect on the draft: the story teasers become a rotating few drawn from a larger set, not a fixed three or four. How the rotation works is open. The research grid still has to be filled and the six claims tested.
 - Rotation (Mark): a new random few each visit, skipping stories that visitor has already seen. The browser remembers what was seen; no account. Needs a larger set of one-minute stories than the three or four first drafted.
+
+## Theme D, the chooser — 2026-10-19
+
+Status: converged (Mark: "Converged, write the build plan"). Nothing built.
+
+Covers how a visitor chooses a conversation on the landing page and the Build a Table page. Full record: `Build/Ministry/Features/Conversation-Chooser/` (decision log, research plan, comparison grid, prototype, build plan).
+
+Decisions
+- A hand of five cards, dealt from a deck the visitor can narrow by era or by a place or a name they know. The count is always written. The Church Family Tree is one step away as the full map.
+- It replaces the chair strips and the multi-voice table launch (Mark's words). One world list feeds both.
+- Card front: portrait, Representative's name and title, the world's name and era. The intro line and the two actions are on the back.
+- A seated card keeps a mark and a ring; the tray counts to three; "Go to the table" turns on at two.
+- Era colour is a tint with the era name always written. Three tones proposed, to be measured before they enter the census.
+- Reduced motion and phones get a list of the same cards.
+- Every path lands on the existing talk page. The room's welcome, disclosure and safety handling are unchanged.
+
+What must hold
+- The eleven intro lines stay drafts under their own review. Donatism stays provisional.
+- The "What the record holds" line on each card is derived from the world's own thinness statement and passes the readability check before it ships.
+
+Evidence used
+- The research plan, the fourteen-system comparison grid (each row labelled by how it was seen) and the three-direction prototype, all in the feature folder. Seven systems stayed indexed only because the session's network blocked them; the harness is ready to re-run when the hosts open.
+
+Open
+- Where the story teasers sit relative to the hand on the landing page.
+- A name search must say why a world matched (Augustine matches Donatism as an opponent).
