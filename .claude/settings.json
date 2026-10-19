@@ -25,6 +25,16 @@
       "Bash(*--live-test*)", "Bash(*--cap-usd*)",
       "Bash(git push --force*)", "Bash(git push -f *)", "Bash(git push *--force*)",
       "Bash(git reset --hard*)", "Bash(rm -rf *)"
+      ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__github__create_pull_request|mcp__github__update_pull_request|Bash",
+        "hooks": [
+          { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/block_live_pr.py" }
+        ]
+      }
     ]
   }
 }
