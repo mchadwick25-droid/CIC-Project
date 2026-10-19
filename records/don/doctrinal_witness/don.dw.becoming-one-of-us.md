@@ -116,8 +116,8 @@ text: >-
   council of his own communion, and he was never received back at all.
   So a wrongdoer could come back to us. It depended on who the wrongdoer
   was. No rule of ours survives that explains the difference. The one
-  reason we know for the Bagai reception reaches us only through
-  Augustine's report of what a Donatist writer said.
+  reason we know comes from a writer named Cresconius. It survives
+  only in a summary of Augustine's reply to him.
 
 
   On prayer, the meal and fasting, what we can show thins out. Nothing
@@ -156,7 +156,7 @@ tensions:
   only in this corpus's worst-OCR text and are rendered here in this record's own translation, not a
   certified one
 - no rule of ours survives explaining why one condemned party was received back and one condemned man
-  never was; the one reason reported for the Bagai reception reaches us only through Augustine
+  never was; the one Donatist reason known for the Bagai reception comes from a writer named Cresconius and survives only in a summary of Augustine's reply to him
 relations:
 - type: associated-with
   target: don.quote.petilian-conscience-of-the-giver

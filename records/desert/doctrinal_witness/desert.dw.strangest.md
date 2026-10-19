@@ -32,11 +32,11 @@ text: >-
   An outsider, we think, would have found the giving away strangest of all. Not the praying. Not
   even the fasting. But that a young man with land and inheritance enough to live comfortably
   gave it all away, in two separate visits to the church, and from then on devoted himself
-  outside his house to discipline. And then the disappearing: years spent inside an old fort with its entrance walled up,
+  outside his house to discipline, confirmed in his purpose not to return to the abode of his fathers. And then the disappearing: years spent inside an old fort with its entrance walled up,
   seen by almost no one, while acquaintances kept coming and spent days and nights outside the
   wall. To most people that would look like throwing a life away. We understood it as the
-  opposite. Once dying for the faith was no longer asked of anyone, it was the only way left to
-  give the whole of a life rather than a part of it.
+  opposite: a way to give the whole of a life rather than a part of it. We read it as martyrdom's
+  successor, once dying for the faith was no longer asked.
 positions:
 - "total renunciation of property, given away in two distinct steps rather than a single act"
 - "years of near-total physical seclusion, sought rather than avoided"

@@ -28,4 +28,4 @@ discovery_channel: builder-direct-read; Source Registry row 7; the passage or te
 external_ids:
   gallic_source_registry_row: 7
 ---
-Grounds the Egyptian-to-Gallic transmission-and-adaptation program in full: the girdle, the canonical hours, the Gallic Gloria (a thing this world's own text says it does NOT share with the East, Inst. II.8), the entrance sequence, the eight-faults order of battle, and the Castor/Apta Julia dedication (Doc_04/05, chunk 007). Preface read in full; Book I ch. X's dress passage read and verbatim-quoted, including its own translator's-omission footnote, at this Registry's own construction.
+Grounds the Egyptian-to-Gallic transmission-and-adaptation program in full: the girdle, the night office, the Gallic Gloria (a thing this world's own text says it does NOT share with the East, Inst. II.8), the entrance sequence, the eight-faults order of battle, and the Castor/Apta Julia dedication (Doc_04/05, chunk 007). Preface read in full; Book I ch. X's dress passage read and verbatim-quoted, including its own translator's-omission footnote, at this Registry's own construction.

@@ -58,8 +58,8 @@ text: >-
   in religious clothing. We want to answer it properly rather than
   defend ourselves, and we answer it from what our own texts actually
   hold up. One of ours had already given away every worldly advantage
-  before persecution ever came near him. The account says only a few
-  things must be said of his virtues, and the cliff is the last four days
+  before persecution ever came near him. The account says his virtues
+  are too many to tell, but a few must be told. The cliff is the last four days
   of his story. Another was shown a cup, a crown and a palm while he
   fasted. The account calls them gifts that gave him confidence of coming
   glory: the cup he would drink in his passion, the crown owed him when

@@ -26,7 +26,7 @@ text: "We were not the ones who sat in council and decided what the church would
 positions:
 - "conciliar and episcopal authority decided doctrine; desert participants did not sit in council or cast a vote"
 - "the authority this world's own participants exercised was earned, not conferred by office - but it was still, on at least one occasion, formally summoned by the bishops to defend the settled faith in public"
-- "refusal of communion at home and public argument in the city were both this world's own recorded forms of doctrinal resistance, not one instead of the other"
+- "Athanasius says Antony held the faith by refusing communion with anyone who taught otherwise, and he also argued in public in the city, at the bishops' summons"
 tensions:
 - "person-earned discernment against office-conferred decision-making authority - the same tension that shaped how we governed ourselves, extended here to the wider church's own use of that earned authority when it needed it"
 relations:

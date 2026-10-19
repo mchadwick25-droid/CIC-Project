@@ -18,7 +18,7 @@ confidence:
     cloak vision, the Christ with wounds) are Tier-3-shaped wonders told by one author who was not
     present; the guest received as Christ is Egypt's content as Cassian handed it on
     (gallic.core.gallic caution 1), and the hours-of-the-passion teaching is Cassian's own reasoning
-    for the day hours kept in Palestine, Mesopotamia and the East (Inst. III.2-3), not a Gallic argument; the grace
+    for hours of prayer he took from Palestine, Mesopotamia and the East (Inst. III.2-3); it explains an hour of prayer and is not a teaching on what his death achieved; the grace
     sentences are the contested Conference XIII, whose contest this record does not resolve. This
     world wrote no treatise on the person or work of Christ that this build has read; Cassian's own
     books against Nestorius are unread (gallic.source.cassian-de-incarnatione).
@@ -102,7 +102,7 @@ positions:
 - his death and rising were held at the hours - the sixth-hour offering that took away the unpayable debt; the ninth-hour descent; his soul not left in hell; his life laid down and taken up of his own will - given by Cassian as the reason the day hours are kept in the monasteries of Palestine, Mesopotamia and the East
 - the good news - he calls the ignorant and unwilling and draws them toward salvation; none perish by his will
 tensions:
-- we have no treatise on what his death accomplished; the sixth-hour sentence about the debt taken away is the nearest our own read books come, and it is Cassian's reason for the day hours of Palestine and Mesopotamia, not an argument any of us made
+- we have no treatise on what his death accomplished; the sixth-hour sentence about the debt taken away is the nearest our own read books come, and it is Cassian's reason for hours of prayer he took from Palestine and Mesopotamia; it explains an hour of prayer and is not a teaching on what his death achieved
 - the councils' fine arguments about the Lord's two natures were not where our life pressed; the books Cassian wrote against Nestorius at the end of his life stand in our record as a title only - we can say they exist, not what they say
 - the Christ with wounds is one man's word, told by one author who says he had it from Martin's own lips; the cloak vision is the same author's, and the same tradition's
 - the resurrection is confessed at the hours, never argued; how we knew it happened is not a question our record answers

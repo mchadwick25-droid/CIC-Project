@@ -32,10 +32,10 @@ text: >-
   all. And Antony did not think this rested on his say-so. Read the accounts, he told those who came
   to test him, and see that the deeds of Christ prove him to be God come to earth for our
   salvation. Antony said the cross had already done something. The old oracles fell silent
-  when it rose. The knowledge of God spread. And death came to be despised. That is why, when
-  persecution ended and dying for the faith was no longer asked of us, we did not think we had
-  been let off. The same fight had moved inward, against our own thoughts rather than against
-  the sword. And the enemy we fought there was one Christ had already beaten. Antony told the
+  when it rose. The knowledge of God spread. And death came to be despised. When
+  persecution ended, Athanasius says, Antony went back to his cell and was there daily a martyr
+  to his conscience. We read that as the same fight moving inward, against our own thoughts
+  rather than against the sword. And the enemy we fought there was one Christ had already beaten. Antony told the
   monks how Satan once came to his cell door. He told Satan that the coming of Christ had made
   him weak, cast him down, and stripped him. That is why we never spoke of the healings among us
   as ours. We are not the doers of these things, one of us told the philosophers who had just

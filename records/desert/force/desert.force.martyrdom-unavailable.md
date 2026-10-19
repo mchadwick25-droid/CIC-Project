@@ -40,7 +40,7 @@ relations:
 - type: associated-with
   target: desert.story.antony-tomb-combat
 ---
-The link between the end of persecution and ascetic struggle is this record's own inference. No single source in this corpus states it. The end of persecution is documented. The succession of martyrdom by interior struggle is not.
+Athanasius makes the link once, for Antony alone (Life 46 to 47). No source in this corpus states it for the movement as a whole. The end of persecution is documented.
 
 Re-derived from the prior build's cleared Doc_08 Cell 1A-i (three review
 rounds), itself drawing on Doc_01 SS7's own framing of this world's

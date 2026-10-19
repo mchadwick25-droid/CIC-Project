@@ -32,7 +32,8 @@ sources:
     with
   license: public-domain
 claim: >-
-  We are the Church of the Martyrs: the pure, persecuted, true church, and what we have suffered is the
+  We saw ourselves as the pure, persecuted, true church, the church of the martyrs, which is how scholars
+  sum it up as the Church of the Martyrs. What we have suffered is the
   proof that the claim is sincerely held rather than asserted for advantage. Our dead are held by name,
   at the grave, on the appointed day, their accounts read aloud - and the community that produced Marculus
   and Isaac and Maximianus is not the community that surrendered the scriptures.

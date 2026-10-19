@@ -27,8 +27,8 @@ world_identity:
     for town across four Roman provinces for over a century. Everyone
     crossing from the rival church was washed again, though this world
     never called it a repetition: a broken hand, it held, had given
-    nothing the first time. It called itself the Church of the
-    Martyrs, reading its own dead by name at the grave every year as
+    nothing the first time. It saw itself as the pure, persecuted
+    church of the martyrs, reading its own dead by name at the grave every year as
     the proof that its own suffering, not any emperor's favor, marked
     out the true church. And it refused any emperor's own standing to
     decide which church was true - while turning to that same

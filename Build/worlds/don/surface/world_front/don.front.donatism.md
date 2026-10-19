@@ -23,8 +23,8 @@ skim:
       consecrated the new bishop of Carthage was said to have handed the
       scriptures over to be burned. If that hand was tainted, the
       Donatists held, all it gave afterward was empty. So they built a church of their own, with its own bishops. Anyone who came over to it was
-      washed again by a hand that had never failed. It called itself the
-      Church of the Martyrs. Persecution came again, at the rival
+      washed again by a hand that had never failed. It saw itself as
+      the pure, persecuted church of the martyrs. Persecution came again, at the rival
       church's urging. The Donatists kept the names of their dead and
       read their stories aloud each year at the grave. They denied any
       emperor the right to say which church was true. Yet three times,
@@ -39,12 +39,12 @@ orientation:
   story:
   - text: >-
       From around 311, two rival churches stood side by side in Roman
-      North Africa, centered on Carthage and Numidia. Both held the same
-      faith in the Trinity and in Christ, in the same Latin words. They
+      North Africa, centered on Carthage and Numidia. Both churches
+      confessed one faith in the Trinity and in Christ. They
       split over whether a bishop's conduct under persecution could
       void what his hand later gave. One side said it could. It
-      called itself the Church of the Martyrs, the one pure, persecuted
-      and true church. History calls its members Donatists, after an
+      saw itself as the pure, persecuted church of the martyrs, the one
+      true church. History calls its members Donatists, after an
       early bishop. Optatus, an opponent, says its bishops called
       themselves 'the party of Donatus' when questioned in court. Whether they used that name among themselves is not known.
     grounded_in: [don.core.donatism, don.dw.the-creed-we-shared, don.term.pars-donati]
@@ -248,8 +248,8 @@ orientation:
       rebuke, is left open.
   floor_note:
     text: >-
-      The Donatists confessed the same faith as their rivals, in the
-      same Latin words. They confessed Father, Son and Holy Spirit as
+      Both churches confessed one faith in the Trinity and in Christ.
+      They confessed Father, Son and Holy Spirit as
       one God. For most of a century their opponents called them
       schismatics, not heretics, because the creed was the same on both
       sides. From about 400 Augustine called them heretics, and only for
@@ -331,7 +331,7 @@ orientation:
     grounded_in: [don.term.catholicus, don.term.caecilianist]
   - phrase: "the same faith"
     kind: term
-    note: "The faith in the Trinity and in Christ, which both churches confessed in the same Latin words. They split over which bishops were valid."
+    note: "Both churches confessed one faith in the Trinity and in Christ. They split over which bishops were valid."
     grounded_in: [don.core.donatism, don.dw.the-creed-we-shared]
   - phrase: "Maximianists"
     kind: term

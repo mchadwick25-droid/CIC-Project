@@ -60,7 +60,7 @@ text: >-
   men we spent a century fighting held it. No creed of ours survives, so
   we cannot show you our words.
   For most of a century our opponents called us schismatics, not
-  heretics, because the creed was identical on both sides. By about 400
+  heretics, because no one charged us with a different creed. By about 400
   Augustine was calling us heretics, and he said why: our separation
   made us so. The emperor's law of 405 then placed us beside the
   Manichaeans. Yet in 417 Augustine himself wrote that we held one
