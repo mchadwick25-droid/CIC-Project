@@ -98,6 +98,9 @@ input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--madder)}
 .deck .eras{display:flex;gap:.4rem;flex-wrap:wrap}
 .deck .erachip[aria-pressed="true"]{background:var(--surface2);border-color:var(--era)}
 .deck .count{color:var(--muted);font-size:.9rem;margin:0;font-variant-numeric:tabular-nums}
+.deckrow{margin:.6rem 0 0;border-top:1px solid var(--rule);padding-top:.5rem}
+.deckrow .card.inhand{opacity:.6}
+.deckrow .card.inhand .face{box-shadow:0 0 0 3px var(--gold),0 10px 26px #000a}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .stage a{color:var(--gold)}
 .erachip{font:inherit;font-size:.8rem;border-radius:999px;border:1px solid var(--rule);background:transparent;color:var(--ink);padding:.3rem .7rem;cursor:pointer;min-height:36px}
@@ -180,7 +183,7 @@ th{color:var(--muted);font-size:.75rem;letter-spacing:.06em;text-transform:upper
 <section class="direction on" id="dirB" role="tabpanel" aria-labelledby="tabB">
 <div class="brief">
 <div><h2>B. A hand of five</h2>
-<p>The same hand, but it holds five cards at a time, drawn from the eleven so that each era is present. "Deal another hand" brings the next five; the browser remembers what this visitor has seen. "See all eleven" opens the full grid. This is Theme D's amendment made literal: a rotating few, not everything on the first page.</p></div>
+<p>The same hand, but it holds five cards at a time, drawn from the eleven so that each era is present. "Shuffle" brings the next five; the browser remembers what this visitor has seen. A search brings matching cards into the hand you hold. "See all" lays the whole deck out as a scroll under the hand; tap a card there and it rises into your hand. This is Theme D's amendment made literal: a rotating few, not everything on the first page.</p></div>
 <div><h3>What the grid says</h3><ul>
 <li>For: five is the count Google's hand uses, and the count at which nothing has to hide. The whole page stays short.</li>
 <li>Against: a visitor who wants Augustine's century must deal twice or open the grid. The random deal must never drop a seated card.</li>
@@ -188,7 +191,7 @@ th{color:var(--muted);font-size:.75rem;letter-spacing:.06em;text-transform:upper
 </div>
 <ol class="process" aria-label="The process, step by step">
 <li><b>1. A hand is dealt.</b> Five cards, one from each era first. New each visit.</li>
-<li><b>2. Narrow or deal again.</b> Era chips, or a name you know. The count is always written. "Deal another hand" brings five more.</li>
+<li><b>2. Shuffle, narrow, or find.</b> "Shuffle" brings five more. Era chips, or a name you know, bring matching cards into your hand. "See all" lays the whole deck out to pick from.</li>
 <li><b>3. Raise a card.</b> Hover, tab, or the arrows bring one to the front.</li>
 <li><b>4. Turn it.</b> The back reads the intro line and what the record holds.</li>
 <li><b>5. Talk, or seat.</b> "Talk with [name]" opens that room now. "Seat at the table" keeps the card and counts it in the tray.</li>
@@ -197,7 +200,7 @@ th{color:var(--muted);font-size:.75rem;letter-spacing:.06em;text-transform:upper
 </ol>
 <div class="stage" id="stageB">
   <h2>Who would you like to talk with?</h2>
-  <p class="sub">Five voices this visit. Deal again for five more, narrow the deck, or find a name you know.</p>
+  <p class="sub">Five voices this visit. Shuffle for five more, find a name you know, or see the whole deck.</p>
   <div class="deck">
     <label class="visually-hidden" for="deckq">Find a tradition, a place, or a name you know</label>
     <input type="search" id="deckq" placeholder="Find a tradition, a place, or a name you know, like Augustine" autocomplete="off">
@@ -205,6 +208,7 @@ th{color:var(--muted);font-size:.75rem;letter-spacing:.06em;text-transform:upper
     <p class="count" id="deckcount" aria-live="polite"></p>
   </div>
   <div class="handwrap" data-hand="B"></div>
+  <div class="deckrow" id="deckrow" hidden></div>
   <p class="hint">The whole map is one step away: <a href="#" id="treelink">Browse every tradition on the Church Family Tree</a>.</p>
 </div>
 </section>
@@ -362,12 +366,12 @@ function buildHand(wrap, ids, opts={}){
       <button class="btn" data-nav="-1" aria-label="Previous card">‹ Previous</button>
       <span class="count"></span>
       <button class="btn" data-nav="1" aria-label="Next card">Next ›</button>
-      ${opts.deal?'<button class="btn quiet" data-deal="1">Deal another hand</button><button class="btn quiet" data-all="1">See all eleven</button>':''}
+      ${opts.deal?'<button class="btn quiet" data-deal="1">Shuffle</button><button class="btn quiet" data-all="1">See all eleven</button>':''}
     </div>
     <div class="list" hidden></div>
     <p class="hint">Hover or tab to raise a card. Click to bring it to the front, and click again to turn it.</p>`;
   const hand = wrap.querySelector('.hand'), cards = [...hand.querySelectorAll('.card')], count = wrap.querySelector('.count');
-  let active = Math.floor(ids.length/2);
+  let active = (opts.activeId && ids.includes(opts.activeId)) ? ids.indexOf(opts.activeId) : Math.floor(ids.length/2);
   const spacing = ids.length>6 ? 50 : 84;
   function layout(){
     cards.forEach((c,i)=>{
@@ -464,21 +468,62 @@ rm.addEventListener('change', applyModes); ph.addEventListener('change', applyMo
 
 // ---------- boot ----------
 buildHand(wrapA, allIds);
-function dealB(){
-  const deck = deckIds(), hand = dealFive(deck);
-  const c = document.getElementById('deckcount');
-  if (!deck.length) { c.textContent = 'Nothing matches that yet. Try an era, a place, or another name.'; wrapB.innerHTML=''; wrapB._mode=null; return; }
-  c.textContent = deck.length<=5 ? `Showing all ${deck.length} that match.` : `Showing ${hand.length} of ${deck.length}. Deal again for ${Math.min(5, deck.length-hand.length)} more.`;
-  buildHand(wrapB, hand, {deal:dealB, all:()=>{ buildHand(wrapB, deck, {deal:dealB, all:()=>{}}); c.textContent = `Showing all ${deck.length}.`; }});
+let handIds = [];   // the cards the visitor holds
+let deckOpen = false;
+const bOpts = ()=>({deal:()=>dealB('shuffle'), all:()=>{ deckOpen=!deckOpen; renderDeckRow(deckIds()); }});
+function dealB(reason){
+  const deck = deckIds(), c = document.getElementById('deckcount');
+  if (!deck.length) { c.textContent = 'Nothing matches that yet. Try an era, a place, or another name.'; wrapB.innerHTML=''; wrapB._mode=null; renderDeckRow(deck); return; }
+  let activeId = null;
+  if (reason==='search' && deckState.q.trim()) {
+    // keep the hand; bring the matches in, first match to the front; at most eight cards held
+    let next = [...new Set([...handIds.filter(id=>allIds.includes(id)), ...deck])];
+    while (next.length>8) { const i = next.findIndex(id=>!seated.includes(id) && !deck.includes(id)); if (i<0) break; next.splice(i,1); }
+    handIds = next.sort((x,y)=>allIds.indexOf(x)-allIds.indexOf(y)); activeId = deck[0];
+    c.textContent = `${deck.length} ${deck.length===1?'match':'matches'}, brought into your hand of ${handIds.length}.`;
+  } else {
+    handIds = dealFive(deck);
+    c.textContent = deck.length<=5 ? `Showing all ${deck.length} that match.` : `Showing ${handIds.length} of ${deck.length}. Shuffle for ${Math.min(5, deck.length-handIds.length)} more.`;
+  }
+  buildHand(wrapB, handIds, {...bOpts(), activeId});
   const dealBtn = wrapB.querySelector('[data-deal]'); if (dealBtn) dealBtn.hidden = deck.length<=5;
-  const allBtn = wrapB.querySelector('[data-all]'); if (allBtn) { allBtn.textContent = `See all ${deck.length}`; allBtn.hidden = deck.length<=5; }
+  renderDeckRow(deck);
   applyModes();
 }
+function pickFromDeck(id){
+  if (!handIds.includes(id)) { handIds.push(id); handIds.sort((x,y)=>allIds.indexOf(x)-allIds.indexOf(y)); }
+  buildHand(wrapB, handIds, {...bOpts(), activeId:id});
+  const deck = deckIds();
+  const dealBtn = wrapB.querySelector('[data-deal]'); if (dealBtn) dealBtn.hidden = deck.length<=5;
+  renderDeckRow(deck);
+  applyModes();
+  const target = wrapB.querySelector('.hand:not([hidden]), .list:not([hidden])');
+  if (target) target.scrollIntoView({behavior: document.body.classList.contains('rm')?'auto':'smooth', block:'center'});
+}
+function renderDeckRow(deck){
+  const box = document.getElementById('deckrow');
+  const allBtn = wrapB.querySelector('[data-all]'); if (allBtn) allBtn.textContent = deckOpen ? 'Hide the deck' : `See all ${deck.length}`;
+  box.hidden = !deckOpen;
+  if (!deckOpen) { box.innerHTML=''; return; }
+  box.innerHTML = `<p class="hint" style="text-align:left">The whole deck, in order of time. Tap a card to take it into your hand.</p>
+    <div class="rownav"><div></div><div><button class="btn" data-nav="-1" aria-label="Scroll the deck back">‹</button> <button class="btn" data-nav="1" aria-label="Scroll the deck forward">›</button></div></div>
+    <div class="row" tabindex="0" role="group" aria-roledescription="row of cards" aria-label="${deck.length} cards in order of time. Scroll sideways, or use the buttons. Activate a card to take it into your hand.">${deck.map(id=>cardHTML(byId(id))).join('')}</div>`;
+  const row = box.querySelector('.row');
+  box.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>row.scrollBy({left:+b.dataset.nav*430,behavior:document.body.classList.contains('rm')?'auto':'smooth'})));
+  row.querySelectorAll('.card').forEach(card=>{
+    const w = byId(card.dataset.id);
+    card.classList.toggle('seated', seated.includes(card.dataset.id));
+    card.classList.toggle('inhand', handIds.includes(card.dataset.id));
+    const b = card.querySelector('.cardbtn');
+    b.setAttribute('aria-label', `${w.rep}, ${w.world}. ${handIds.includes(card.dataset.id)?'Already in your hand. Activate to bring it to the front.':'Take this card into your hand.'}`);
+    b.addEventListener('click', ev=>{ ev.stopPropagation(); pickFromDeck(card.dataset.id); });
+  });
+}
 document.getElementById('deckeras').innerHTML = `<button class="erachip" data-era="0" aria-pressed="true">All eras</button>` + Object.entries(ERAS).map(([n,e])=>`<button class="erachip" data-era="${n}" aria-pressed="false" style="--era:${e.tint}"><i aria-hidden="true"></i>${e.no}. ${esc(e.name)}, ${e.dates}</button>`).join('');
-document.querySelectorAll('#deckeras [data-era]').forEach(b=>b.addEventListener('click',()=>{ deckState.era = +b.dataset.era; document.querySelectorAll('#deckeras [data-era]').forEach(x=>x.setAttribute('aria-pressed', x===b?'true':'false')); dealB(); }));
-let qT; document.getElementById('deckq').addEventListener('input', e=>{ clearTimeout(qT); qT = setTimeout(()=>{ deckState.q = e.target.value; dealB(); }, 250); });
+document.querySelectorAll('#deckeras [data-era]').forEach(b=>b.addEventListener('click',()=>{ deckState.era = +b.dataset.era; document.querySelectorAll('#deckeras [data-era]').forEach(x=>x.setAttribute('aria-pressed', x===b?'true':'false')); dealB('era'); }));
+let qT; document.getElementById('deckq').addEventListener('input', e=>{ clearTimeout(qT); qT = setTimeout(()=>{ deckState.q = e.target.value; dealB(e.target.value.trim()?'search':'shuffle'); }, 250); });
 document.getElementById('treelink').addEventListener('click', e=>{ e.preventDefault(); toast('Would open the Church Family Tree: every tradition on one map, each live one with its own "Have a Conversation" link.'); });
-dealB();
+dealB('shuffle');
 buildRow(wrapC);
 renderTray();
 

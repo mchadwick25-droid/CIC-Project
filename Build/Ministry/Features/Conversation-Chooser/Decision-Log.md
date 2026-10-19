@@ -63,3 +63,11 @@ Dated entries. Mark's own words are quoted where he gave them. Reasoning, includ
 **Mark's words.** "Really good, but looks a little too much like a Monopoly card, can we make it a little more current, collector cards."
 
 **What changed.** The parchment face and flat band gave way to the grammar of a current collector's card: a full-bleed portrait under a slim era bar, the tradition name and dates over the image, a dark name plate at the foot carrying the Representative's name, title and tagline, a gold-foil edge, and a set number ("06 / 11"). The back keeps the stat block, the longer summary, the record line and the actions on the same dark face. Proportion and square corners unchanged. The prototype template in `Prototype/` carries it.
+
+## 2026-10-19 — Refinements (Mark): shuffle, find, and a scroll of the whole deck
+
+**Mark's questions.** "Do we have a way to shuffle the deck or find the cards they want in the hand?" and "Is there a way to select from a scroll of all of them, not the hand?" Then: "Yes, do that."
+
+**What changed.** "Deal another hand" is now "Shuffle". A search brings the matching cards into the hand the visitor already holds, first match to the front, instead of replacing the hand; the hand holds up to eight. "See all" opens the whole deck as a sideways scroll under the hand (direction C's row, with buttons and a visible scrollbar); tapping a card there takes it into the hand and brings it to the front. Cards already in the hand are marked in the scroll. The build plan's component row should carry these three behaviours.
+
+**Why.** The hand is what the visitor holds; the scroll is the deck laid out on the table. Both are needed at a hundred worlds, and the scroll is the pattern the standards favour.
