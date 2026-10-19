@@ -105,3 +105,34 @@ Open and not decided here
 - How often voices have no direct answer, and whether layered replies fit every question type. Measuring this needs a named, capped live test approved by Mark; none has been run.
 - How the silent "nothing to add" mark looks at the table, which belongs with the chooser and room design.
 - This changes the engine and the voice text. It is a governance and methodology change, so it needs Mark's go-ahead before any build.
+
+## Theme C: who am I talking to — 2026-10-19
+
+Status: converged (Mark: "Converged, auto mode"). Nothing built.
+
+Covers feedback items 6, 7, 14, 15, 16 and 23 (the missing well-known names, rabbis and Josephus, scholarly voices first, who a Representative stands for, the tradition's own wisdom, starting from what people know).
+
+Decisions
+- Real voices at selection: each card carries one line naming the writers the voice is built from. A person chooses the names per world and checks them against the records. Figure records are not listed automatically, since some are a church, a network or a group, not a person.
+- Name search: a visitor who types a name sees the worlds that hold it, with a plain note on why each matched (a source, or an opponent as Augustine is in Donatism).
+- Representative on the card: no "not a person" or AI statement. That disclosure already sits in the room's welcome and the site's AI note. The card says who the voice speaks for through the one line above.
+- People with no world: if someone is genuinely a source in a world, include them there. If they have no world, the name search says plainly that while they were influential across the Christian traditions, there is no single tradition they are clearly part of.
+- Representative names are not changed here. Naming and image remain a packaged decision of their own.
+- The deeper "who is behind this voice" panel (names, dates, sources, using the room's figure mark) is a later layer, not part of the card.
+
+What must hold
+- No invented family, age or personal history for a Representative.
+- Real voices named only as the records support them, with confidence tags kept.
+- Card text meets the reading-level target and each world's own voice.
+- Contested or uncertain claims never shown as settled.
+
+Evidence used
+- A check of the world records, by file name and by counting files that mention a name; the records were not read. Findings: Ignatius is a figure in the House Church world; Athanasius and Clement in Alexandria; Augustine in Donatism and Hieronymian and in a Latin pastoral record set not among the live tradition pages. Irenaeus has no figure record but runs through the House Church world as sources, quotes, stories and doctrinal witnesses. Tertullian is a source in several worlds. Josephus appears in none.
+- One tester's complaint and Mark's reading of user discussions. No research round was run for this theme.
+
+Open and not decided here
+- Which writers each world's line names, and the review of those lines.
+- The wording of the no-world statement, including for Josephus, who is a source for the early church and not a teacher the traditions followed.
+- Whether Irenaeus should get a figure record in the House Church world (a records task with review).
+- Which worlds to build next, whether around well-known names, and whether Jewish or rabbinic voices belong in the Library. Not decided; belongs to the world-building plan.
+- Where the names line sits on the chooser's card, which belongs to the chooser thread.
