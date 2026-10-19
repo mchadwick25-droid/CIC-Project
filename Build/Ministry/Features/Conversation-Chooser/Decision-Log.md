@@ -47,3 +47,13 @@ Dated entries. Mark's own words are quoted where he gave them. Reasoning, includ
 - Where Theme D's story teasers sit relative to the hand on the landing page.
 - The "What the record holds" line on each card back is new participant-visible text, derived from each world's thinness statement. It needs its own draft and readability pass.
 - The era tones are proposals. They enter the census only when the build thread confirms contrast on the dark ground.
+
+## 2026-10-19 — Change order (Mark): the card is a collector's card
+
+**Mark's words.** "I want each tradition to have a collectors card, square with the era band across the top, the tradition name a dates, picture and the taglines we just developed in the front and the longer detail to fit on the back of the card, patterned after like baseball cards or pokemon cards, but with a church history aesthetic that matches the portraits." Then: "squarish, dimensions of standard cards."
+
+**What changes in the converged design.** The card front now carries the tagline (the intro line) as well as the portrait, the tradition name and dates, and the era band; the back carries the longer summary, a stat block (years, place, shaped by) and the actions. The hand, the deck, the tray, the fallbacks and the hand-off are unchanged. The build plan's component and card-words rows are updated.
+
+**Why.** The first prototype card looked like an app tile, not a card. A collector's card gives each tradition a thing to hold: the era band and the stat block are the baseball-card grammar, and the parchment, gold rules and serif are the project's own manuscript finish, which the portraits already use.
+
+**Still open from this change.** The portrait thumbnails are 192 px; the build uses the full portraits. The back's summary texts are drafts under the same review as the taglines.
