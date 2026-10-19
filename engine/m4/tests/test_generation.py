@@ -66,3 +66,15 @@ def test_the_production_limit_is_sixteen():
     from engine.m4 import generation
 
     assert generation.MAX_CONCURRENT_VOICE_CALLS == 16
+
+
+def test_a_connection_dropped_mid_stream_ends_the_call_as_an_error_not_a_crash():
+    from engine.m4 import generation
+
+    class _Dropped(_Client):
+        def stream(self, **kwargs):
+            raise generation._TRANSPORT_ERRORS[0]("peer closed connection without sending complete message body")
+
+    outcome = stream_voice_turn(_Dropped(), "m", system_prompt="WORLD", message="hi")
+    assert outcome.status == "error"
+    assert "connection dropped" in outcome.value["error"]
