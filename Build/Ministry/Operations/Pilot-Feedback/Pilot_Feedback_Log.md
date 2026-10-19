@@ -25,3 +25,6 @@ Source: one pilot tester (name not given), notes passed on by Mark.
 - Item 3: built. The table room now brings the newest question to the top so the answer opens below it, as the interview room already did. The zoom fault was the app's height tracking: pinch-zoom shrank it. It now allows for the zoom level.
 - Item 4: not fixed. Nothing in the code blocks forward selection; it needs a reproduction (device and browser).
 - Item 5: built. The Build a Table card now sits first on the home page, above Church Family Tree.
+
+## Status updates — 2026-10-19 (photos)
+- Item 1: Mark sent six iPad photos of the table room and home page and confirmed the table room is the screen that does not fit. In the photo the page is cropped at both edges, which fits a zoomed page. The page that frames the table room sized itself to the zoomed viewport, the same fault as item 3. Fixed in talk.html; not yet confirmed on an iPad.
