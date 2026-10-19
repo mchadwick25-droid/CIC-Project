@@ -39,7 +39,7 @@ sources:
   locus: seven books on the washing, and the Bagai reception of Felicianus and Praetextatus
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: Book I, ch. 5, section 6 - Donatist laity's own reluctance to be rebaptized, and secret efforts to be spared it
+  locus: Book V, ch. 5, section 6 - Donatist laity's own reluctance to be rebaptized, and secret efforts to be spared it
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
   locus: first cognitio, act 154 - the Donatist bishop Adeodatus, asked at Carthage in 411 whether his
@@ -115,7 +115,9 @@ text: >-
   a doctrine his bishop forbade, is reported to have been condemned by a
   council of his own communion, and he was never received back at all.
   So a wrongdoer could come back to us. It depended on who the wrongdoer
-  was, and no rule of ours survives that explains the difference.
+  was. No rule of ours survives that explains the difference. The one
+  reason we know for the Bagai reception reaches us only through
+  Augustine's report of what a Donatist writer said.
 
 
   On prayer, the meal and fasting, what we can show thins out. Nothing
@@ -154,7 +156,7 @@ tensions:
   only in this corpus's worst-OCR text and are rendered here in this record's own translation, not a
   certified one
 - no rule of ours survives explaining why one condemned party was received back and one condemned man
-  never was
+  never was; the one reason reported for the Bagai reception reaches us only through Augustine
 relations:
 - type: associated-with
   target: don.quote.petilian-conscience-of-the-giver
@@ -188,7 +190,7 @@ Paired with `don.quote.petilian-conscience-of-the-giver` (which also pairs with
 `don.dw.walking-to-one-font`); reciprocal relations declared on the quote.
 
 Donatist laity's own reluctance to rebaptize is sourced to Augustine,
-*On Baptism* I.5.6 (`cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml`
+*On Baptism* V.5.6 (`cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml`
 line 12744), using the source's own quantifiers, "almost all" and "many."
 A Donatist bishop's own words at the 411 Conference are sourced to
 `don.source.migne-pl11-collatio-carthaginiensis`, first cognitio act 154,

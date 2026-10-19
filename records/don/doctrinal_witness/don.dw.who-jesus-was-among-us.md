@@ -60,8 +60,7 @@ retrieval:
 text: >-
   Christ, to us, was the Christ of the creed we shared with our
   opponents: the Son, one God with the Father and the Spirit, who died
-  and was raised. We confessed him in the same standard Latin terms they
-  did. For most of a century the charge against us was schism, not
+  and was raised. We confessed him as they did. For most of a century the charge against us was schism, not
   heresy, because both sides said the same creed. Then Augustine's pen
   and the emperor's law of 405 called us heretics. Even then it rested
   on our separation, not on anything we said about Christ. The quarrel

@@ -58,11 +58,13 @@ text: >-
   in religious clothing. We want to answer it properly rather than
   defend ourselves, and we answer it from what our own texts actually
   hold up. One of ours had already given away every worldly advantage
-  before persecution ever came near him; the account spends its length
-  on the life, and the cliff is the last four days of it. Another was
-  shown a cup, a crown and a palm while he fasted, and the point of
-  showing them was that he was being told what finishing looked like,
-  not that dying was the goal. What the texts praise is a man who was
+  before persecution ever came near him. The account says only a few
+  things must be said of his virtues, and the cliff is the last four days
+  of his story. Another was shown a cup, a crown and a palm while he
+  fasted. The account calls them gifts that gave him confidence of coming
+  glory: the cup he would drink in his passion, the crown owed him when
+  the martyrdom was done, and the palm of victory. We read in them what
+  finishing looked like. What the texts praise is a man who was
   already what he was before anyone came for him. Death is where that
   becomes visible.
 
