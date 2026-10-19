@@ -42,3 +42,16 @@ A build thread opens `Build/Ministry/Features/Conversation-Chooser/Build-Plan.md
 ## 6. Spend
 
 Allowance share used: one long research-and-design session with three artifacts and one read-only subagent. Metered: none.
+
+## 7. Addendum, later the same day
+
+Decisions Mark made after this handoff was written, all recorded in the feature decision log with his words:
+
+- Change order: the card is a collector's card at standard proportion, current grammar (full-bleed portrait, slim era bar, title strip above the portrait, dark name plate with the tagline, gold edge, set number). Back: stat block, longer summary, record line, actions.
+- "Shuffle" replaces "Deal another hand"; a search brings matches into the hand the visitor holds; "See all" opens the whole deck as a scroll under the hand to pick from.
+- The hand stays as it is; the build records which control launched each room so it can be judged after the pilot.
+- The story teasers sit above the hand. Landing page order: headline, teasers, hand, three doors.
+- Donatism stays a live conversation. The deck is eleven; no provisional flag.
+- From the sibling thread: a claim-check gate on every card back before it ships; the taglines and summaries stay drafts until their review clears.
+
+PRs 982 and 983 are merged into `main`; PR 984 carries the last three items. Section 4's "merge of this PR" and the Donatism and teaser items are done. Still waiting on Mark: sign-off on the eleven taglines after their review.
