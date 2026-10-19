@@ -93,3 +93,15 @@ Dated entries. Mark's own words are quoted where he gave them. Reasoning, includ
 **Mark's words.** "Keep Donatism as a live conversation."
 
 **What it settles for this feature.** The deck is eleven. Donatism's card is no longer provisional: the badge comes off the prototype and the registry card block carries no provisional flag. The build plan's item on a deck of ten is closed. The card's back still says plainly that nearly everything known of this church comes through its opponents, which is the world's own honest limit, not a reason to hold the card back.
+
+## 2026-10-19 — Build-thread re-check of the handoff (corrections, no decision)
+
+Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, table.html, census_sync.py) are unchanged since 97f80128.
+
+**Footer string.** "The other N chairs →" is not produced by `templates/tradition.html` or `Build/tools/generate_tradition_pages.py`. The generator keeps each page's door and footer byte-identical from the existing hand-built file (its header comment, lines 10–11). The string lives only in the eleven `cic-website/traditions/*.html` pages, with hand-written counts (six, seven, eight, nine). The build edits those eleven files directly.
+
+**Voices strings.** The claim that every live world's voice strings open with a sentence on the figure's relation to the world is false. Only Donatism's was checked and holds (Petilian's letters survive only as clauses Augustine quotes). The others open differently: Gallic, Lutheran and Reformed use "Name — role" lists; Post-apostolic, Alexandria, Syriac, Desert, Cappadocian, Imperial and Hieronymian open with biography. I read the opening of each string, not every string in full. The "why it matched" line cannot be taken from the first sentence, so the build adds `card.matches` to the registry, as the plan's fallback says.
+
+**Era tones.** Measured against #17130F and #1E1913 (World-Accent-Colours.md thresholds: 5.3 and 5.07). I #C9973A: 7.01, 6.62. II #7E9B6E: 5.98, 5.65. VII #6C8DB5: 5.38, 5.08. All clear; VII clears the surface by 0.01.
+
+**Still unchecked.** Scaling to a hundred worlds (reasoned only); the seven unopened systems in the grid.
