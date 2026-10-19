@@ -2,7 +2,6 @@ import { Arrival } from '../components/Arrival';
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
 import { DeleteConversation, DeletedNotice } from '../components/DeleteConversation';
-import { DoorNarration } from '../components/DoorNarration';
 import { ExperienceFeedbackButton, ExperienceFeedbackCard } from '../components/ExperienceFeedback';
 import { PageFeedback } from '../components/PageFeedback';
 import { ModernTermMark } from '../components/ModernTermMark';
@@ -182,7 +181,6 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
                   </p>
                 ))}
                 {turn.note && <p className="turn__note sans">{turn.note}</p>}
-                {turn.kind === 'door' && <DoorNarration worldKey={world.worldKey} participantTurns={participantTurns} />}
               </div>
             );
           }
