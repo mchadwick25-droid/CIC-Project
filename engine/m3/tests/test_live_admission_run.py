@@ -5,6 +5,7 @@ here aborts before loader/client construction. The one case that runs
 _run_world (the running-check trip) replaces it with a fake, so this
 still never touches the network or needs credentials.
 """
+import json
 import pytest
 
 import engine.m3.live_admission_run as lar
@@ -152,7 +153,7 @@ class _FakeClient:
         self.messages = _Messages()
 
 
-def _run_alx_with_fake_client(monkeypatch, save_transcripts):
+def _run_alx_with_fake_client(monkeypatch, save_transcripts, answers_path=None):
     from engine.m1.loader import load_world_records
     from engine.m1.registry import load_registry
     from engine.m4.world_loader import LazyWorldLoader
@@ -162,6 +163,7 @@ def _run_alx_with_fake_client(monkeypatch, save_transcripts):
     return lar._run_world(
         "alx", registry=load_registry(), loader=LazyWorldLoader(), voice_model_id="fake-model-id",
         region="us-east-1", canon_questions=lar.load_fleet_records(), save_transcripts=save_transcripts,
+        answers_path=answers_path,
     )
 
 
@@ -181,6 +183,15 @@ def test_save_transcripts_keeps_every_probe_and_leaves_grading_unchanged(monkeyp
     assert transcript["stop_reason"] == "end_turn"
     assert transcript["seconds_to_first_text"] is not None and transcript["seconds_total"] is not None
     assert isinstance(transcript["citations"], list) and transcript["answer_text"]
+
+
+def test_each_answer_is_written_to_the_answers_file_as_it_returns(monkeypatch, tmp_path):
+    answers_path = tmp_path / "run.json.answers.jsonl"
+    saved = _run_alx_with_fake_client(monkeypatch, save_transcripts=True, answers_path=answers_path)
+
+    lines = [json.loads(line) for line in answers_path.read_text(encoding="utf-8").splitlines()]
+    assert [line["index"] for line in lines] == list(range(saved["battery_size"]))
+    assert [line["answer_text"] for line in lines] == [p["transcript"]["answer_text"] for p in saved["per_probe"]]
 
 
 def test_settings_only_exits_before_any_billed_call(monkeypatch, capsys):
