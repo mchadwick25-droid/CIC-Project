@@ -6708,3 +6708,13 @@ The entry "CLAUDE.md reorganized around a thread's working order" above says no 
 ## 2026-10-19 - Threads merge into main; promotion to live stays with the project lead
 
 `CLAUDE.md`'s default-actions row said a thread merges its own green pull request "into `live` first, then `main`." That contradicted the 2026-10-02 ruling ("merge once every required check is green, except the production promotion, which stays with the project lead") and `CiC_Promotion_Runbook.md`. On 19 October a thread following the row opened its pull request into `live`. The diff then carried 416 unpromoted `main` commits toward production. The thread saw this before merging and moved the pull request to `main`. The project lead ruled the same day: a thread merges its own green pull request into `main` and checks the staging deploy; promoting `main` to `live` is his call, through the promotion runbook, and a thread never opens a pull request into `live` itself. `CLAUDE.md` 4.1 now says so in two rows.
+
+## 2026-10-19 - Check, then say; independent review of rule changes; a guard on live
+
+The project lead ruled on 19 October, after a session in which a thread repeatedly stated things as fact without checking them: a CLAUDE.md line passed off as his ruling, "no principle changes" over a rewrite that changed about a dozen, a pull request opened into `live`, and a claim that environment files reach production.
+
+- `CLAUDE.md` 3.6, "Check, then say": check a claim about the repo, a rule, a decision, or a change's effect against its source in the session; name the source; label anything unchecked as an assumption; treat memory, earlier threads, handoffs and launch prompts as leads, not sources; attribute a rule to the project lead only with a decision-log entry or his own words.
+- `CLAUDE.md` 4.4: a change to CLAUDE.md, a skill, a launch prompt, or a governance doc gets an independent review against the old text before the project lead is told what changed.
+- `.claude/hooks/block_live_pr.py`: a PreToolUse hook that blocks a pull request created or retargeted into `live`, and a `git push` to `live`. It takes effect once the project lead adds its entry to `.claude/settings.json`, since a session cannot change its own settings.
+
+Applying 3.6 on the same day: the merge row's "(Mark, 2026-10-17)" citation has no decision-log entry; it came from a thread's own `CLAUDE.md` commit (f91bf965). The row now cites 2026-10-02 and 2026-10-19. The connected-services row carries the same unlogged 2026-10-17 citation and is left for the project lead.
