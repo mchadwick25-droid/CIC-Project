@@ -38,3 +38,5 @@ package:
   manifest_hash: "sha256:910bb03b27d0db321af56e83037ae4d6b5e952a8557b4328066eb2f0212bcd96"
   location: "packages/rzg/2026-10-17T20-52-05Z"
 story_placement: false
+card:
+  portrait: "assets/portraits/theophilus.jpg"

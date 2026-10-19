@@ -27,3 +27,5 @@ package:
 thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
 living_tradition_flag: true
 story_placement: false
+card:
+  portrait: "assets/portraits/syriac.png"

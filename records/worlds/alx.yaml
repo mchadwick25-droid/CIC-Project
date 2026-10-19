@@ -23,3 +23,5 @@ package:
 thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
 living_tradition_flag: true
 story_placement: false
+card:
+  portrait: "assets/portraits/alexandria.png"

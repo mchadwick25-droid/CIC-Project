@@ -25,3 +25,5 @@ package:
 thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
 living_tradition_flag: true
 story_placement: false
+card:
+  portrait: "assets/portraits/house-churches.png"

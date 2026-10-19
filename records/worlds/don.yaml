@@ -31,3 +31,5 @@ package:
   manifest_hash: "sha256:327c91c6cdd868a4852110661a67ef125eeb9acc9d78d4940b69db20edd3e9ce"
   location: "packages/don/2026-10-18T02-38-59Z"
 story_placement: false
+card:
+  portrait: "assets/portraits/donatism.png"

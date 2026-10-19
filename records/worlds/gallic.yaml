@@ -30,3 +30,5 @@ package:
   manifest_hash: "sha256:d15fb3bb379dab64fc32a504fdbfa8bbeeb36537a6cb121b3b1297ff0688826e"
   location: "packages/gallic/2026-10-17T23-35-48Z"
 story_placement: false
+card:
+  portrait: "assets/portraits/gallic.jpg"

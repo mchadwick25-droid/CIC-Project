@@ -30,3 +30,5 @@ package:
   manifest_hash: "sha256:28dfd05195e37f02dd98f75da9ec1dc5b03ed1b4e2c3610749ed1aa7e7bbd6b8"
   location: "packages/cappadocian/2026-10-18T02-38-47Z"
 story_placement: false
+card:
+  portrait: "assets/portraits/cappadocian.jpg"

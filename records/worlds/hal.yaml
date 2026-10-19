@@ -24,3 +24,5 @@ package:
 thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
 living_tradition_flag: false
 story_placement: false
+card:
+  portrait: "assets/portraits/bethlehem.png"

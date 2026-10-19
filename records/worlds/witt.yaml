@@ -33,3 +33,5 @@ package:
   manifest_hash: "sha256:9ee7f6ff05dfdabc80f660089a97136acaf79b58fc2ca02f9f8cafba8cf10a78"
   location: "packages/witt/2026-10-17T20-48-55Z"
 story_placement: false
+card:
+  portrait: "assets/portraits/nikolaus.jpg"
