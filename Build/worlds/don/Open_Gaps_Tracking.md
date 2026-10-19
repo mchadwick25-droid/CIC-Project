@@ -2004,3 +2004,21 @@ Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put t
 - `records/don/doctrinal_witness/don.dw.the-creed-we-shared.md`: "Whether he died to take our punishment, in our place, for our sins, nobody among us wrote down, for or against." -> "Nobody among us wrote down, for or against, whether he died to take our punishment, in our place, for our sins."
 
 Status: CLOSED for this review.
+
+### OG-45. Live-reply claim check, and the decision to keep Donatism live, 2026-10-19.
+
+Decision (Mark): "Keep Donatism as a live conversation." It is recorded in the conversation-chooser thread's Decision Log (2026-10-19 entry, PR 984) and noted here for the world's own records. It reached this thread second-hand. Nothing in `records/` was changed.
+
+Opus claim check of the six recorded 13 October replies (`engine/m4/reports/live-turn-report-don-2026-10-13-eleven-world-test.json`), against `records/don/` and the vendored texts. 49 claims: 24 rest on Donatist-voiced sources (Petilian's few recorded sentences, the 411 acts, the Marculus and Macrobius texts, and Donatist words that survive only inside Augustine's quotations); 11 rest only on an opponent's report but are voiced as the church's own; 2 are marked as an opponent's charge; 10 are unsupported or contradicted; 2 are unverified or a record-backed absence. The findings were not re-confirmed by a second reader.
+
+Record defects, logged and not edited (see also OG-42, which already logs the 279/286 count):
+- `don.dw.who-jesus-was-among-us` (line 78) and a story record say "279 of us ... stood for three days". The acts show the larger body had been sent out and seven per side pleaded.
+- `don.dw.the-creed-we-shared` (line 60) says the creed was held "in the same Latin words". No record supports it, and the record rests the shared creed on Augustine, Letter 185, which also reports some saying the Son was inferior.
+- `don.demo.death-wish` (line 34) and `don.dw.not-a-death-wish` (line 61) say the account of Marculus spends its whole length on his chosen life. The Passio says "a few things must be said". The same records read the vision as "not a promise", where the Passio calls it a reward of martyrdom.
+- `don.contested.maximianist-reception` records a Donatist justification for the Bagai reception; `don.dw.becoming-one-of-us` says no rule survives. One is wrong.
+- `don.dw.becoming-one-of-us` cites Augustine, On Baptism I.5.6; the passage is V.5.6.
+- `don.core.donatism` (about line 87) says this world "calls itself the Church of the Martyrs"; `don.term.church-of-the-martyrs` says the phrase is a modern summary, not a quoted title.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md` (branch `claude/gracious-knuth-pf8u7m`).
+
+Status: OPEN.
