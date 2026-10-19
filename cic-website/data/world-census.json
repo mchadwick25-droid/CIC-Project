@@ -37,7 +37,8 @@
    "stepStatus": "Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council",
    "ground": "#EFDDB3",
    "groundDark": "#241A0C",
-   "rec": "Part of Phase One — the Step 0 selection record is on file."
+   "rec": "Part of Phase One — the Step 0 selection record is on file.",
+   "chooserTint": "#C9973A"
   },
   {
    "no": "II",
@@ -54,7 +55,8 @@
    "stepStatus": "Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council",
    "ground": "#E3E0CB",
    "groundDark": "#1E1C16",
-   "rec": "Part of Phase One — the Step 0 selection record is on file."
+   "rec": "Part of Phase One — the Step 0 selection record is on file.",
+   "chooserTint": "#7E9B6E"
   },
   {
    "no": "III",
@@ -71,7 +73,8 @@
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#D8E4E5",
    "groundDark": "#151A1E",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "IV",
@@ -88,7 +91,8 @@
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#EFDDB3",
    "groundDark": "#241A0C",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "V",
@@ -105,7 +109,8 @@
    "stepStatus": "Step 0 run complete — era frozen (III.1→IV.22 spine question open)",
    "ground": "#E3E0CB",
    "groundDark": "#1E1C16",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "VI",
@@ -122,7 +127,8 @@
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#D8E4E5",
    "groundDark": "#151A1E",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "VII",
@@ -139,7 +145,8 @@
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#EFDDB3",
    "groundDark": "#241A0C",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": "#6C8DB5"
   },
   {
    "no": "VIII",
@@ -156,7 +163,8 @@
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#E3E0CB",
    "groundDark": "#1E1C16",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "IX",
@@ -173,7 +181,8 @@
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#D8E4E5",
    "groundDark": "#151A1E",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "X",
@@ -190,7 +199,8 @@
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#EFDDB3",
    "groundDark": "#241A0C",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   }
  ],
  "statusMeta": {

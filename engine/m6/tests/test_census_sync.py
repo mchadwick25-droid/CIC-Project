@@ -189,3 +189,34 @@ def test_real_repo_data_is_currently_in_sync():
     census = json.loads(CENSUS_PATH.read_text(encoding="utf-8"))
     _new_census, changes = sync_census(registry, census)
     assert changes == [], changes
+
+
+def test_card_block_syncs_to_entry_fields():
+    registry, census = _registry(), _census()
+    registry["abc"]["card"] = {
+        "intro": "An intro line.",
+        "shaped": ["A", "B", "C"],
+        "record_holds": "What the record holds.",
+        "matches": [{"term": "Augustine", "why": "argued against this church"}],
+    }
+    new_census, changes = sync_census(registry, census)
+    entry = _by_id(new_census, "abc-census-id")["entry"]
+    assert entry["intro"] == "An intro line."
+    assert entry["shaped"] == ["A", "B", "C"]
+    assert entry["recordHolds"] == "What the record holds."
+    assert entry["matches"] == [{"term": "Augustine", "why": "argued against this church"}]
+    assert {"entry.intro", "entry.shaped", "entry.recordHolds", "entry.matches"} <= {c["field"] for c in changes}
+
+
+def test_absent_card_block_adds_no_card_fields():
+    registry, census = _registry(), _census()
+    new_census, _ = sync_census(registry, census)
+    entry = _by_id(new_census, "abc-census-id")["entry"]
+    assert not {"intro", "shaped", "recordHolds", "matches"} & set(entry)
+
+
+def test_card_block_on_unadmitted_world_is_ignored():
+    registry, census = _registry(), _census()
+    registry["notyet"]["card"] = {"intro": "Should not appear."}
+    new_census, _ = sync_census(registry, census)
+    assert _by_id(new_census, "notyet-census-id")["entry"] is None
