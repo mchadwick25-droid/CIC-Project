@@ -111,6 +111,8 @@ input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--madder)}
 .tray .go{margin-left:auto}
 .toast{position:fixed;left:50%;bottom:6.5rem;transform:translateX(-50%);background:var(--ink);color:var(--ground);padding:.7rem 1rem;border-radius:6px;max-width:min(40rem,90vw);font-size:.9rem;z-index:600;display:none;line-height:1.35}
 .toast.on{display:block}
+.process{list-style:none;margin:0 auto 1rem;padding:.8rem 1rem;max-width:72rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.6rem 1rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;font-size:.92rem}
+.process li{margin:0}.process b{display:block;color:var(--gold);font-weight:700}
 .note{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:.9rem 1.1rem;margin:1rem 0;max-width:48rem}
 .note p:last-child{margin:0}
 table{border-collapse:collapse;width:100%;font-size:.9rem;max-width:48rem}
@@ -127,8 +129,8 @@ th{color:var(--muted);font-size:.75rem;letter-spacing:.06em;text-transform:upper
 
 <div class="controls" role="toolbar" aria-label="Prototype controls">
   <div class="tabs" role="tablist" aria-label="Directions">
-    <button class="tab" role="tab" id="tabA" aria-selected="true" aria-controls="dirA">A. The whole hand</button>
-    <button class="tab" role="tab" id="tabB" aria-selected="false" aria-controls="dirB">B. A hand of five</button>
+    <button class="tab" role="tab" id="tabA" aria-selected="false" aria-controls="dirA">A. The whole hand</button>
+    <button class="tab" role="tab" id="tabB" aria-selected="true" aria-controls="dirB">B. A hand of five</button>
     <button class="tab" role="tab" id="tabC" aria-selected="false" aria-controls="dirC">C. Row and grid</button>
   </div>
   <label class="sw"><input type="checkbox" id="rm"> Reduced motion</label>
@@ -136,7 +138,7 @@ th{color:var(--muted);font-size:.75rem;letter-spacing:.06em;text-transform:upper
 </div>
 
 <!-- ============ A ============ -->
-<section class="direction on" id="dirA" role="tabpanel" aria-labelledby="tabA">
+<section class="direction" id="dirA" role="tabpanel" aria-labelledby="tabA">
 <div class="brief">
 <div><h2>A. The whole hand</h2>
 <p>Mark's idea at full strength. All eleven cards sit in one fanned hand. The card under the pointer rises. Previous and next roll the hand; so do the arrow keys and a sideways swipe. Click a raised card to turn it over. The back carries the next level and the two actions. A seated card keeps its rise and a mark.</p></div>
@@ -153,7 +155,7 @@ th{color:var(--muted);font-size:.75rem;letter-spacing:.06em;text-transform:upper
 </section>
 
 <!-- ============ B ============ -->
-<section class="direction" id="dirB" role="tabpanel" aria-labelledby="tabB">
+<section class="direction on" id="dirB" role="tabpanel" aria-labelledby="tabB">
 <div class="brief">
 <div><h2>B. A hand of five</h2>
 <p>The same hand, but it holds five cards at a time, drawn from the eleven so that each era is present. "Deal another hand" brings the next five; the browser remembers what this visitor has seen. "See all eleven" opens the full grid. This is Theme D's amendment made literal: a rotating few, not everything on the first page.</p></div>
@@ -162,6 +164,15 @@ th{color:var(--muted);font-size:.75rem;letter-spacing:.06em;text-transform:upper
 <li>Against: a visitor who wants Augustine's century must deal twice or open the grid. The random deal must never drop a seated card.</li>
 <li>Fallback: as in A. The list shows the dealt five, with the grid one tap away.</li></ul></div>
 </div>
+<ol class="process" aria-label="The process, step by step">
+<li><b>1. A hand is dealt.</b> Five cards, one from each era first. New each visit.</li>
+<li><b>2. Narrow or deal again.</b> Era chips, or a name you know. The count is always written. "Deal another hand" brings five more.</li>
+<li><b>3. Raise a card.</b> Hover, tab, or the arrows bring one to the front.</li>
+<li><b>4. Turn it.</b> The back reads the intro line and what the record holds.</li>
+<li><b>5. Talk, or seat.</b> "Talk with [name]" opens that room now. "Seat at the table" keeps the card and counts it in the tray.</li>
+<li><b>6. Two or three seated, then go.</b> "Go to the table" opens the multi-voice room with those cards.</li>
+<li><b>7. The room is unchanged.</b> Its welcome, disclosure and safety handling follow as today.</li>
+</ol>
 <div class="stage" id="stageB">
   <h2>Who would you like to talk with?</h2>
   <p class="sub">Five voices this visit. Deal again for five more, narrow the deck, or find a name you know.</p>
