@@ -33,39 +33,39 @@ input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--madder)}
 .stage .sub{text-align:center;color:var(--muted);margin:0 auto .6rem;font-size:.95rem}
 /* ---------- card ---------- */
 /* Collector's card, current grammar: full-bleed portrait, slim era bar, dark name plate, gold-foil edge, set number. Standard 2.5 x 3.5 proportion. */
-.card{--tint:var(--gold);--x:0px;--y:0px;--r:0deg;--s:1;--lift:0px;--cink:#1B1611;--cink2:#241D16;--ctext:#EDE4D3;--cmuted:#B9AD99;--cgold:#D9B35C;position:relative;width:230px;height:322px;perspective:1200px}
+.card{--tint:var(--gold);--x:0px;--y:0px;--r:0deg;--s:1;--lift:0px;--cink:#1B1611;--cink2:#241D16;--ctext:#EDE4D3;--cmuted:#B9AD99;--cgold:#D9B35C;position:relative;width:230px;height:322px;perspective:1200px;zoom:1.75}
 .card .inner{position:relative;width:100%;height:100%;transition:transform .5s;transform-style:preserve-3d}
 .card.turned .inner{transform:rotateY(180deg)}
 .face{position:absolute;inset:0;overflow:hidden;background:var(--cink);color:var(--ctext);border-radius:8px;box-shadow:0 10px 26px #000a;backface-visibility:hidden;-webkit-backface-visibility:hidden}
 .face::before{content:"";position:absolute;inset:0;border-radius:8px;padding:3px;background:linear-gradient(135deg,#f4e4ab 0%,#a8822f 30%,#f7eecb 50%,#8a6a22 72%,#e9d28e 100%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;z-index:5}
 .face.back{transform:rotateY(180deg);display:flex;flex-direction:column;padding:3px}
-.pic{position:absolute;left:3px;right:3px;top:71px;height:calc(62% - 71px);overflow:hidden;background:#2a2018}
+.pic{position:absolute;left:3px;right:3px;top:71px;height:calc(57% - 71px);overflow:hidden;background:#2a2018}
 .pic img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
 .pic::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0000 50%,var(--cink) 100%)}
 .band{position:absolute;left:3px;right:3px;top:3px;z-index:2;background:var(--era);color:#1a140e;font-size:.56rem;letter-spacing:.09em;text-transform:uppercase;font-weight:700;padding:.28rem .5rem;display:flex;justify-content:space-between;gap:.4rem;border-radius:5px 5px 0 0}
 .band span:last-child{font-variant-numeric:tabular-nums}
 .front .head{position:absolute;left:3px;right:3px;top:25px;height:46px;z-index:2;background:var(--cink);padding:.22rem .55rem 0;border-bottom:1px solid #d9b35c55}
 .front .tname{margin:0;font-family:var(--serif);font-weight:600;font-size:.76rem;line-height:1.05;text-align:left;color:var(--ctext);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.front .tdates{margin:.05rem 0 0;font-size:.58rem;color:var(--cmuted);font-variant-numeric:tabular-nums;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.front .plate{position:absolute;left:3px;right:3px;bottom:3px;top:62%;z-index:2;padding:.35rem .6rem .5rem;display:flex;flex-direction:column}
+.front .tdates{margin:.05rem 0 0;font-size:.62rem;color:var(--cmuted);font-variant-numeric:tabular-nums;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.front .plate{position:absolute;left:3px;right:3px;bottom:3px;top:57%;z-index:2;padding:.35rem .6rem .5rem;display:flex;flex-direction:column}
 .front .rep{font-family:var(--serif);font-size:1.05rem;font-weight:600;line-height:1.05;margin:0;color:var(--cgold)}
-.front .role{font-size:.56rem;letter-spacing:.1em;text-transform:uppercase;color:var(--cmuted);margin:.1rem 0 .3rem;padding-bottom:.3rem;border-bottom:1px solid #d9b35c55}
-.front .tag{font-size:.6rem;line-height:1.3;margin:0;color:var(--ctext);overflow:hidden}
+.front .role{font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--cmuted);margin:.1rem 0 .3rem;padding-bottom:.3rem;border-bottom:1px solid #d9b35c55}
+.front .tag{font-size:.64rem;line-height:1.3;margin:0;color:var(--ctext);overflow:hidden}
 .num{position:absolute;right:9px;bottom:6px;z-index:3;font-size:.52rem;letter-spacing:.06em;color:var(--cgold);font-variant-numeric:tabular-nums}
 .back .band{position:static;margin:0}
 .back .btitle{font-family:var(--serif);font-size:.9rem;font-weight:600;line-height:1.1;margin:.4rem .55rem .2rem;color:var(--cgold)}
-.back .stats{margin:.1rem .55rem .3rem;font-size:.58rem;border-top:1px solid #d9b35c55;border-bottom:1px solid #d9b35c55}
+.back .stats{margin:.1rem .55rem .3rem;font-size:.62rem;border-top:1px solid #d9b35c55;border-bottom:1px solid #d9b35c55}
 .back .stats div{display:flex;gap:.4rem;padding:.14rem 0;border-bottom:1px dotted #d9b35c33}
 .back .stats div:last-child{border-bottom:0}
 .back .stats b{flex:0 0 4rem;text-transform:uppercase;letter-spacing:.08em;font-size:.5rem;color:var(--cmuted);padding-top:.1rem}
-.back .body{font-size:.6rem;line-height:1.32;margin:0 .55rem;overflow-y:auto;scrollbar-width:thin;flex:1;min-height:0;color:var(--ctext)}
+.back .body{font-size:.66rem;line-height:1.34;margin:0 .55rem;overflow-y:auto;scrollbar-width:thin;flex:1;min-height:0;color:var(--ctext)}
 .back .body p{margin:0 0 .3rem;max-width:none}
 .back .body .rec{color:var(--cmuted)}
 .back .acts{margin:.3rem .5rem .4rem;display:grid;gap:.22rem}
 .back .acts .btn{min-height:28px;padding:.25rem .5rem;font-size:.68rem;border-radius:4px;border-color:#d9b35c66;background:var(--cink2);color:var(--ctext)}
 .back .acts .btn.primary{background:var(--madder);border-color:var(--madder);color:#fff}
 .back .acts .btn.quiet{background:transparent}
-.card.turned{--s:1.18}
+.card.turned{--s:1.08}
 .hand .card.turned{z-index:300}
 .card.seated .face{box-shadow:0 0 0 3px var(--madder),0 10px 26px #000a}
 .card.provisional .front::after{content:"Provisional";position:absolute;right:9px;top:75px;z-index:3;background:#000a;color:var(--gold);font-size:.58rem;padding:.1rem .4rem;border-radius:3px}
@@ -80,7 +80,7 @@ input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--madder)}
 .card.seated .seatmark{display:block}
 /* ---------- hand (A, B) ---------- */
 .handwrap{position:relative}
-.hand{position:relative;height:450px;margin:0 auto;outline:none;touch-action:pan-y}
+.hand{position:relative;height:660px;margin:0 auto;outline:none;touch-action:pan-y}
 .hand .card{position:absolute;left:50%;top:40px;margin-left:-100px;transform:translate(var(--x),calc(var(--y) + var(--lift))) rotate(var(--r)) scale(var(--s));transition:transform .45s cubic-bezier(.2,.7,.2,1);z-index:var(--z)}
 .hand .card:hover,.hand .card:focus-within{--lift:-18px;z-index:200}
 .hand .card.active{--lift:-28px}
@@ -90,7 +90,7 @@ input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--madder)}
 /* ---------- row (C) ---------- */
 .rowwrap{position:relative}
 .row{display:flex;gap:.9rem;overflow-x:auto;scroll-snap-type:x proximity;padding:.4rem .2rem 1rem;scrollbar-width:thin;scrollbar-color:var(--rule) transparent}
-.row .card{flex:0 0 200px;scroll-snap-align:center}
+.row .card{flex:0 0 230px;scroll-snap-align:center}
 .rownav{display:flex;justify-content:space-between;align-items:center;gap:.6rem;margin:.2rem 0}
 .rownav .eras{display:flex;gap:.4rem;flex-wrap:wrap}
 .deck{display:grid;gap:.5rem;max-width:44rem;margin:0 auto .4rem}
@@ -105,7 +105,7 @@ input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--madder)}
 /* ---------- list fallback (reduced motion or narrow) ---------- */
 .list{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.9rem;justify-items:center}
 .narrow .list{grid-template-columns:1fr}
-.narrow .list .card{width:100%;max-width:300px;height:auto;aspect-ratio:63/88}
+.narrow .list .card{zoom:1.25;width:280px;max-width:none;height:auto;aspect-ratio:63/88}
 
 
 
@@ -368,13 +368,13 @@ function buildHand(wrap, ids, opts={}){
     <p class="hint">Hover or tab to raise a card. Click to bring it to the front, and click again to turn it.</p>`;
   const hand = wrap.querySelector('.hand'), cards = [...hand.querySelectorAll('.card')], count = wrap.querySelector('.count');
   let active = Math.floor(ids.length/2);
-  const spacing = ids.length>6 ? 74 : 150;
+  const spacing = ids.length>6 ? 50 : 84;
   function layout(){
     cards.forEach((c,i)=>{
       const d = i-active, ad = Math.abs(d);
       c.style.setProperty('--x', (d*spacing)+'px');
-      c.style.setProperty('--y', (ad*ad*(ids.length>6?3.2:6))+'px');
-      c.style.setProperty('--r', (d*(ids.length>6?3:4))+'deg');
+      c.style.setProperty('--y', (ad*ad*(ids.length>6?2.2:4))+'px');
+      c.style.setProperty('--r', (d*(ids.length>6?2.5:3.5))+'deg');
       c.style.setProperty('--s', d===0?'1.08':'1');
       c.style.setProperty('--z', 100-ad);
       c.classList.toggle('active', d===0);
