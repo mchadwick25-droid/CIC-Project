@@ -44,6 +44,7 @@ Not changed: `cic-website/atlas-v3.html` and `tree/*` (the Tree stays the librar
 |---|---|---|
 | Tagline (front) | The eleven intro drafts on the Gateway Cards page, under their own review for attachment of "shaped by" and reading level. | None enters `records/` until its review clears. Until then the card falls back to `entry.subtitle`. |
 | Longer summary (back) | The grey summary drafts on the same page, about 80 to 100 words each, marked there as not yet reworked. | Same review as the tagline; readability scored; nothing added beyond the world's records. |
+| Claim check before any back text ships | The sibling thread's claim check of the 13 October live replies (saved as the 2026-10-19 live-reply claim check in the Operations audits folder, on branch `claude/gracious-knuth-pf8u7m`, no PR yet) found unsupported claims in every world, many starting in the world records; Desert is weakest. | A world's back text ships only after its record fixes from that audit are done and the text is re-checked against the records. |
 | "What the record holds" (back) | One or two sentences per world derived from `thinness_statement` in `records/worlds/<code>.yaml`. The prototype carries first drafts. | Draft with Sonnet, score with `engine/m7/turn_readability.py`, one Opus review round. Nothing added that the statement does not say. |
 | Era names (front) | Census `eras[].title` shortened: "I. The Early Church", "II. The Imperial Church", "VII. The Reformation", with dates. | Keep the census titles as the source; shorten only by dropping "Era". |
 | Control words | "Talk with [name]", "Seat at the table", "Leave the table", "Turn the card", "Turn the card back", "Deal another hand", "See all [n]", "Go to the table", "Find a tradition, a place, or a name you know". | CLAUDE.md 1.2. |
@@ -81,8 +82,9 @@ Sonnet 5.5 drafts and builds. Opus 5.5 reviews the card words and the accessibil
 1. **Why a world matched.** A search for "Augustine" matches Donatism through its `voices` text, because Augustine wrote against that church. The result must say so, for example "Augustine: argued against this church", taken from the first sentence of the matching voice string. Confirm the voice strings carry that sentence for every live world before relying on it; if not, add a `card.matches` list to the registry.
 2. **Where the story teasers sit.** Theme D places a short headline, the story teasers and the three doors on the landing page. The hand replaces the chairs section; whether it sits above or below the teasers is Mark's call when the Theme D page is laid out.
 3. **The era tones.** Proposals until measured.
-4. **The landing page's own tab order.** Today thirty-three stops for eleven chairs; the target is one named stop per card plus the controls.
-5. **Per-portrait crop point.** The prototype crops every portrait at one point, anchored to the top of the head, and uses the 192 px thumbnails. The build uses the full portraits and sets the crop point per world in the registry `card:` block, so each face sits in the frame.
+4. **A deck of ten.** If Donatism moves to the Family Tree only, the deck is ten. The hand and Shuffle work unchanged at ten (Shuffle hides only at five or fewer); the set number on each card reads "of 10".
+5. **The landing page's own tab order.** Today thirty-three stops for eleven chairs; the target is one named stop per card plus the controls.
+6. **Per-portrait crop point.** The prototype crops every portrait at one point, anchored to the top of the head, and uses the 192 px thumbnails. The build uses the full portraits and sets the crop point per world in the registry `card:` block, so each face sits in the frame.
 
 ## 6. Where the design came from
 
