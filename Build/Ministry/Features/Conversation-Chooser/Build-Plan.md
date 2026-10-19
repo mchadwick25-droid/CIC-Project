@@ -81,6 +81,7 @@ Sonnet 5.5 drafts and builds. Opus 5.5 reviews the card words and the accessibil
 2. **Where the story teasers sit.** Theme D places a short headline, the story teasers and the three doors on the landing page. The hand replaces the chairs section; whether it sits above or below the teasers is Mark's call when the Theme D page is laid out.
 3. **The era tones.** Proposals until measured.
 4. **The landing page's own tab order.** Today thirty-three stops for eleven chairs; the target is one named stop per card plus the controls.
+5. **Per-portrait crop point.** The prototype crops every portrait at one point, anchored to the top of the head, and uses the 192 px thumbnails. The build uses the full portraits and sets the crop point per world in the registry `card:` block, so each face sits in the frame.
 
 ## 6. Where the design came from
 
