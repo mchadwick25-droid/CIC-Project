@@ -4,7 +4,7 @@ The cost rules threads follow live in `CLAUDE.md` (2.2 models, 2.3 budget, 3.2 s
 
 ## The plan
 
-- The account is on Max-200. $200 a month is a real financial stretch, not a comfortable ceiling with room to spend past. Treat it as a hard cap: get everything possible from the flat fee, never fall back on paid overage.
+- The account is on Max-200. $200 a month is a real financial stretch, not a comfortable ceiling with room to spend past. The hard-cap rule itself is `CLAUDE.md` 2.3.
 - Max-200 draws Claude chat, Claude Code, and Cowork from one shared usage pool. When more than one surface is in use, watch the total burn across all of them, not just one session.
 
 ## Settings to keep
