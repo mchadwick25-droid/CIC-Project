@@ -164,7 +164,10 @@ Add a row only when a real new case shows up.
 
 ### 4.2 How to ask
 
-1. Say which phase you're in: **diverge** (go wide), **struggle** (sit with the trade-offs), or **converge** (narrow to Mark's decision). This is Sam Kaner's Diamond of Participation, Mark's own practice (`CiC_Governance_Rationale_Log.md`).
+1. Follow Sam Kaner's Diamond of Participation, Mark's own practice (`CiC_Governance_Rationale_Log.md`), and say which phase you're in when it isn't obvious:
+   - **Divergent** — go wide first. Surface the real range of possibilities before narrowing to any one.
+   - **Groan zone** — struggle with it honestly. Explore options, ask "what if," and sit with the trade-offs rather than resolving them too early.
+   - **Convergent** — narrow down together, to a decision Mark has actually reached, not one reasoned through alone and handed over as settled.
 2. Ask one decision at a time.
 3. Ask with the `AskUserQuestion` tool, not in plain text. One question per call, with 2–4 options. Give each option a short label and a one-line trade-off in its description. Put your recommendation first, with "(Recommended)" at the end of its label. Use a 12-character-or-shorter header that names the decision. Turn on multi-select only when the choices really combine. Mark can always answer in his own words instead.
 4. To compare options side by side (two wordings, two layouts, code), use the tool's preview on each option. If the material is too big even for that (a whole draft), show it as an Artifact first, then ask in the box.
