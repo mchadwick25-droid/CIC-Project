@@ -39,13 +39,14 @@ input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--madder)}
 .face{position:absolute;inset:0;overflow:hidden;background:var(--cink);color:var(--ctext);border-radius:8px;box-shadow:0 10px 26px #000a;backface-visibility:hidden;-webkit-backface-visibility:hidden}
 .face::before{content:"";position:absolute;inset:0;border-radius:8px;padding:3px;background:linear-gradient(135deg,#f4e4ab 0%,#a8822f 30%,#f7eecb 50%,#8a6a22 72%,#e9d28e 100%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;z-index:5}
 .face.back{transform:rotateY(180deg);display:flex;flex-direction:column;padding:3px}
-.pic{position:absolute;left:3px;right:3px;top:3px;height:64%;overflow:hidden;background:#2a2018;border-radius:5px 5px 0 0}
-.pic img{width:100%;height:100%;object-fit:cover;object-position:50% 15%;display:block}
+.pic{position:absolute;left:3px;right:3px;top:71px;height:calc(62% - 71px);overflow:hidden;background:#2a2018}
+.pic img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
 .pic::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0000 50%,var(--cink) 100%)}
 .band{position:absolute;left:3px;right:3px;top:3px;z-index:2;background:var(--era);color:#1a140e;font-size:.56rem;letter-spacing:.09em;text-transform:uppercase;font-weight:700;padding:.28rem .5rem;display:flex;justify-content:space-between;gap:.4rem;border-radius:5px 5px 0 0}
 .band span:last-child{font-variant-numeric:tabular-nums}
-.front .tname{position:absolute;left:3px;right:3px;top:26px;z-index:2;margin:0;padding:.3rem .5rem .25rem;background:linear-gradient(180deg,#1b1611cc,#1b161100);font-family:var(--serif);font-weight:600;font-size:.84rem;line-height:1.1;text-align:left;color:#fff;text-shadow:0 1px 2px #000c}
-.front .tdates{position:absolute;left:3px;right:3px;top:46px;z-index:2;margin:0;padding:0 .5rem;font-size:.6rem;color:#e6dcc8;text-shadow:0 1px 2px #000c;font-variant-numeric:tabular-nums;text-align:left}
+.front .head{position:absolute;left:3px;right:3px;top:25px;height:46px;z-index:2;background:var(--cink);padding:.22rem .55rem 0;border-bottom:1px solid #d9b35c55}
+.front .tname{margin:0;font-family:var(--serif);font-weight:600;font-size:.76rem;line-height:1.05;text-align:left;color:var(--ctext);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.front .tdates{margin:.05rem 0 0;font-size:.58rem;color:var(--cmuted);font-variant-numeric:tabular-nums;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .front .plate{position:absolute;left:3px;right:3px;bottom:3px;top:62%;z-index:2;padding:.35rem .6rem .5rem;display:flex;flex-direction:column}
 .front .rep{font-family:var(--serif);font-size:1.05rem;font-weight:600;line-height:1.05;margin:0;color:var(--cgold)}
 .front .role{font-size:.56rem;letter-spacing:.1em;text-transform:uppercase;color:var(--cmuted);margin:.1rem 0 .3rem;padding-bottom:.3rem;border-bottom:1px solid #d9b35c55}
@@ -67,7 +68,7 @@ input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--madder)}
 .card.turned{--s:1.18}
 .hand .card.turned{z-index:300}
 .card.seated .face{box-shadow:0 0 0 3px var(--madder),0 10px 26px #000a}
-.card.provisional .front::after{content:"Provisional";position:absolute;left:9px;top:28px;z-index:3;background:#000a;color:var(--gold);font-size:.58rem;padding:.1rem .4rem;border-radius:3px}
+.card.provisional .front::after{content:"Provisional";position:absolute;right:9px;top:75px;z-index:3;background:#000a;color:var(--gold);font-size:.58rem;padding:.1rem .4rem;border-radius:3px}
 .btn{font:inherit;font-weight:700;border-radius:6px;border:1px solid var(--rule);background:var(--surface2);color:var(--ink);padding:.5rem .7rem;cursor:pointer;min-height:40px;text-align:center;line-height:1.1}
 .btn.primary{background:var(--madder);border-color:var(--madder);color:#fff}
 .btn.quiet{background:transparent}
@@ -290,8 +291,7 @@ function cardHTML(w){
       <div class="face front">
         <div class="pic"><img src="${THUMBS[w.img]}" alt="" width="224" height="206"></div>
         <div class="band"><span>${e.no}. ${esc(e.name)}</span><span>${esc(e.dates)}</span></div>
-        <p class="tname">${esc(w.world)}</p>
-        <p class="tdates">${esc(w.dates)} · ${esc(w.place)}</p>
+        <div class="head"><p class="tname">${esc(w.world)}</p><p class="tdates">${esc(w.dates)} · ${esc(w.place)}</p></div>
         <div class="plate"><p class="rep">${esc(w.rep)}</p><p class="role">${esc(w.role)}</p><p class="tag">${esc(w.intro)}</p></div>
         <span class="num">${String(WORLDS.indexOf(w)+1).padStart(2,'0')} / ${WORLDS.length}</span>
       </div>
