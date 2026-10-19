@@ -87,3 +87,9 @@ Dated entries. Mark's own words are quoted where he gave them. Reasoning, includ
 **Mark's words.** "Put the story teasers above the hand."
 
 **What it settles.** The Theme D landing page order, top to bottom: the short headline, the story teasers (a rotating few, per the Theme D amendment), the hand with its deck controls, then the three doors as one line each. This closes the build plan's open item on the teasers' placement. The teasers' own words are not written yet; the one-minute story pool is a Theme D task, not this feature's.
+
+## 2026-10-19 — Donatism stays a live conversation (Mark)
+
+**Mark's words.** "Keep Donatism as a live conversation."
+
+**What it settles for this feature.** The deck is eleven. Donatism's card is no longer provisional: the badge comes off the prototype and the registry card block carries no provisional flag. The build plan's item on a deck of ten is closed. The card's back still says plainly that nearly everything known of this church comes through its opponents, which is the world's own honest limit, not a reason to hold the card back.
