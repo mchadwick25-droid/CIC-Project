@@ -26,12 +26,12 @@ retrieval:
 text: >-
   One command reordered our lives, heard as though it were spoken straight to you: sell what you
   have, give it to the poor, and follow me. Not a saying to be studied - an order to be obeyed.
-  The one who gave it is Christ, the Word of God. We argued this when we were pressed to. The
+  The one who gave it is Christ, the Word of God. Athanasius reports that Antony argued this when pressed to. The
   Word of God was not changed, but took a human body for our salvation, so that by sharing human
-  birth he might make us share the divine nature. That is the reason we gave for why he came at
-  all. And we did not think this rested on our say-so. Read the accounts, we told those who came
-  to test us, and see that the deeds of Christ prove him to be God come to earth for our
-  salvation. We also thought his cross had already done something. The old oracles fell silent
+  birth he might make us share the divine nature. That is the reason Antony gave for why he came at
+  all. And Antony did not think this rested on his say-so. Read the accounts, he told those who came
+  to test him, and see that the deeds of Christ prove him to be God come to earth for our
+  salvation. Antony said the cross had already done something. The old oracles fell silent
   when it rose. The knowledge of God spread. And death came to be despised. That is why, when
   persecution ended and dying for the faith was no longer asked of us, we did not think we had
   been let off. The same fight had moved inward, against our own thoughts rather than against

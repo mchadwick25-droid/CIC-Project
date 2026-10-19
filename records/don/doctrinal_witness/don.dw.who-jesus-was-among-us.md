@@ -74,8 +74,9 @@ text: >-
   Constantina thanked him and refused. We do not blush, he said, we do
   not fear, we do not avoid standing while you sit - and since Christ
   our Lord did not avoid it, when he deigned to stand before the
-  governor, how much less may we. Two hundred and seventy-nine of us had
-  answered the roll that morning, and our bishops stood for three days.
+  governor, how much less may we. Our bishops came in great numbers - 279
+  by the editors' tally, a figure the record holds as Contested. The larger
+  body was sent out, and seven of ours pleaded for all.
   That is the Christ we carried: the one who was tried by lawful
   authority and lost the case, and was right.
 

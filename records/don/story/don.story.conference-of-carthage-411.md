@@ -104,8 +104,8 @@ text: >-
   thanked him for the courtesy and refused it. We do not blush, he said,
   we do not fear, we do not avoid standing willingly while you sit; and
   since Christ the Lord himself did not avoid it, when he deigned to stand
-  before the governor, how much less may we refuse. Our bishops stood for
-  three days.
+  before the governor, how much less may we refuse. Our bishops stood
+  while he sat.
 
   Emeritus of Caesarea carried the argument. He would not let the court
   reach the substance of the case before it had settled how the case got
@@ -152,7 +152,7 @@ text: >-
   reserved. He put his name to the notary's account of his own words and
   refused, in the same stroke, to accept the proceeding they were being
   recorded for.
-telling: "The judge sat, and our bishops stood. Flavius Marcellinus offered them chairs, and said it weighed on him to sit while so many venerable men stood. Petilian thanked him and refused. We do not blush and we do not fear, he said. Christ himself stood before the governor, so how could we refuse to stand? Our bishops stood for three days.\n\nThis was Carthage in the summer of 411. The emperor had ordered our whole quarrel settled at law, and imperial notaries took down what was said.\n\nEmeritus of Caesarea carried our argument. He would not let the court touch the case itself until it had settled the day, the mandates and who was bringing the charge. When the other side claimed the name Catholic, Petilian answered that it meant nothing until the case was decided. Marcellinus agreed that the name belonged to whichever side the truth was found with. Then he said he was bound by the emperor's written order, which had already given them that name.\n\nOn the third day Augustine argued from the wheat and the weeds that the church holds good and bad together. Emeritus answered him verse for verse from the same books. He signed the notary's record of most of what he said. At times he added that he kept his right to appeal.\n\nIn the end Marcellinus ruled against us, though the acts we have break off before his sentence."
+telling: "The judge sat, and our bishops stood. Flavius Marcellinus offered them chairs, and said it weighed on him to sit while so many venerable men stood. Petilian thanked him and refused. We do not blush and we do not fear, he said. Christ himself stood before the governor, so how could we refuse to stand?\n\nThis was Carthage in the summer of 411. The emperor had ordered our whole quarrel settled at law, and imperial notaries took down what was said.\n\nEmeritus of Caesarea carried our argument. He would not let the court touch the case itself until it had settled the day, the mandates and who was bringing the charge. When the other side claimed the name Catholic, Petilian answered that it meant nothing until the case was decided. Marcellinus agreed that the name belonged to whichever side the truth was found with. Then he said he was bound by the emperor's written order, which had already given them that name.\n\nOn the third day Augustine argued from the wheat and the weeds that the church holds good and bad together. Emeritus answered him verse for verse from the same books. He signed the notary's record of most of what he said. At times he added that he kept his right to appeal.\n\nIn the end Marcellinus ruled against us, though the acts we have break off before his sentence."
 absent_detail: The verdict is not here. In the printing read for this record the numbered acts break off
   before any sentence is pronounced, and what follows is a later editor's own narrative history of the
   conference, not the court's own words. Nothing survives of what our bishops said to one another between

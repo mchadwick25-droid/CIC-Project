@@ -85,7 +85,7 @@ positions:
 tensions:
 - the fine arguments about the two natures were not where our life pressed; Vincent's formula is a proof-case for his rule of antiquity and consent, and our formation books dwell on it nowhere else
 - the seven books Cassian wrote against Nestorius at the end of his life are in our record only as a title; what they say cannot be spoken from our own read texts
-- the sixth-hour sentence is Egypt's reason for the hours as Cassian handed it on, not a Gallic argument; no one among us wrote a treatise on what his death accomplished
+- the sixth-hour sentence is Cassian's reason for the day hours of Palestine and Mesopotamia, not a Gallic argument; no one among us wrote a treatise on what his death accomplished
 - personal Lord and Saviour is not our phrase; the our in our Lord and Saviour is a house at prayer, not one man's confession, and our record speaks as houses
 relations:
 - type: associated-with

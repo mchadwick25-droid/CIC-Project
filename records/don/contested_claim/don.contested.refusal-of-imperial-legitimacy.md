@@ -35,7 +35,7 @@ claim: >-
   Quid est imperatori cum ecclesia? The state has no standing to adjudicate who the true church is, and
   a verdict reached through a state-aligned process is not thereby a church verdict. That is why Rome in
   313 and Arles in 314 were rejected rather than accepted, why our bishops refused the chairs at Carthage
-  in 411 and stood for three days, and why no imperial favour shown to our rival has ever amounted to an
+  in 411 and stood while the judge sat, and why no imperial favour shown to our rival has ever amounted to an
   argument.
 held_against:
 - The interpretive frame is the most heavily synthesised thing in this world's gravity discovery. That

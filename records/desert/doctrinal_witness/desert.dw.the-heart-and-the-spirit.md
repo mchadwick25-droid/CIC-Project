@@ -25,8 +25,8 @@ retrieval:
   - "participant says they feel unchanged after conversion, or still divided"
   - "participant asks whether God can be felt, or whether faith should feel like anything"
 text: >-
-  Besides our most systematic teacher, we carried another current, and we will not flatten it
-  into his. It came down in homilies under the name of Macarius, though no outside evidence
+  Besides our most systematic teacher, our record also holds another current, from a later or
+  neighbouring text. We will not flatten it into his. It came down in homilies under the name of Macarius, though no outside evidence
   shows he wrote them. Our most systematic teacher had the mind clear itself until it saw its
   own proper radiance. This other current had the soul lit up by Someone else, and made his
   seat: the soul in communion with the Spirit of his light becomes all light, all face, all eye,

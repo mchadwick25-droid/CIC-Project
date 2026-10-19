@@ -16,8 +16,9 @@ confidence:
     Every locus cited was read at its own line in the vendored file for this record or is carried
     by an already-verified record. The strength is mixed, and named: the two Tours pieces (the
     cloak vision, the Christ with wounds) are Tier-3-shaped wonders told by one author who was not
-    present; the hours-of-the-passion teaching and the guest received as Christ are Egypt's content
-    as Cassian handed it on (gallic.core.gallic caution 1), not a Gallic argument; the grace
+    present; the guest received as Christ is Egypt's content as Cassian handed it on
+    (gallic.core.gallic caution 1), and the hours-of-the-passion teaching is Cassian's own reasoning
+    for the day hours kept in Palestine, Mesopotamia and the East (Inst. III.2-3), not a Gallic argument; the grace
     sentences are the contested Conference XIII, whose contest this record does not resolve. This
     world wrote no treatise on the person or work of Christ that this build has read; Cassian's own
     books against Nestorius are unread (gallic.source.cassian-de-incarnatione).
@@ -74,8 +75,10 @@ text: >-
   And it was that without him we can do nothing. Cassian sets that
   sentence under every virtue a monk feels he has gained. He sets it
   beside the Apostle's not I, but the grace of God with me. We wrote no
-  treatise on his death. We kept its hours. Cassian handed us from Egypt
-  the reason for the hours of prayer. At the third hour the Spirit came
+  treatise on his death. We kept its hours. Cassian handed us
+  the reason for the day hours of prayer. They belong to the monasteries
+  of Palestine and Mesopotamia and the East. The Egyptians keep no
+  separate day hours. At the third hour the Spirit came
   down on the apostles. At the sixth the spotless Sacrifice, our Lord
   and Saviour, was offered up to the Father. He went up on the cross for
   the salvation of the whole world, taking away the debt that could not
@@ -96,10 +99,10 @@ positions:
 - the Christ we confessed is the crucified one - Martin would not own a Christ in purple and a crown, only one bearing the marks of his wounds (his own words as Sulpitius reports them from his lips)
 - Christ is met in the poor and the guest - the beggar's half of the cloak at Tours; the fast broken in Egypt because receiving Christ in the guest we ought to refresh him, carried to Gaul in Cassian's book
 - what he taught that mattered most - what is done to the least is done to him; without me ye can do nothing, set under every virtue beside not I, but the grace of God with me
-- his death and rising were held at the hours - the sixth-hour offering that took away the unpayable debt; the ninth-hour descent; his soul not left in hell; his life laid down and taken up of his own will - received from Egypt as the reason the hours are kept
+- his death and rising were held at the hours - the sixth-hour offering that took away the unpayable debt; the ninth-hour descent; his soul not left in hell; his life laid down and taken up of his own will - given by Cassian as the reason the day hours are kept in the monasteries of Palestine, Mesopotamia and the East
 - the good news - he calls the ignorant and unwilling and draws them toward salvation; none perish by his will
 tensions:
-- we have no treatise on what his death accomplished; the sixth-hour sentence about the debt taken away is the nearest our own read books come, and it is Cassian handing on Egypt's reason for the hours, not an argument any of us made
+- we have no treatise on what his death accomplished; the sixth-hour sentence about the debt taken away is the nearest our own read books come, and it is Cassian's reason for the day hours of Palestine and Mesopotamia, not an argument any of us made
 - the councils' fine arguments about the Lord's two natures were not where our life pressed; the books Cassian wrote against Nestorius at the end of his life stand in our record as a title only - we can say they exist, not what they say
 - the Christ with wounds is one man's word, told by one author who says he had it from Martin's own lips; the cloak vision is the same author's, and the same tradition's
 - the resurrection is confessed at the hours, never argued; how we knew it happened is not a question our record answers
@@ -129,7 +132,8 @@ Conf. XIII.7 line 37760, Conf. XIII.17 lines 38532-38535. The Conf. I.13
 kingdom-within clause and the soldier-of-Christ material are cited
 through their term records and were not re-read for this record.
 
-The hours, the guest as Christ and the grace sentences are named in the
-text as what Cassian handed on from Egypt or the fathers. The contested
+The guest as Christ and the grace sentences are named in the text as what
+Cassian handed on from Egypt or the fathers. The reason for the day hours
+is Cassian's own, for the monasteries of Palestine, Mesopotamia and the East. The contested
 Conference XIII is used only for two sentences neither side of its
 argument disputes (God draws the unwilling; none perish by his will).
