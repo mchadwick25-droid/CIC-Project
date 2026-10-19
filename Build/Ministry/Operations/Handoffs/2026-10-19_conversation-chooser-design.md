@@ -1,6 +1,6 @@
 # Handoff — conversation chooser, research and design — 2026-10-19
 
-From session: https://claude.ai/code/session_01DieKxWNS33gUktGHTTiGeS · Workstream: Conversation-Chooser (landing page and table launch) · Branch / PR: PRs 982, 983 and 984, all merged into `main`; this file lands with PR 985
+From session: https://claude.ai/code/session_01DieKxWNS33gUktGHTTiGeS · Workstream: Conversation-Chooser (landing page and table launch) · Branch / PR: PRs 982, 983 and 984, all merged into `main`; this file lands with PR 986
 
 ## 1. Done, and how it was checked
 
