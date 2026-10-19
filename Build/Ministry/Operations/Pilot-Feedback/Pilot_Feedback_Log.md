@@ -44,3 +44,4 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 
 ## Clarification — 2026-10-19
 - Item 18: Mark says the audio problem applies only to the 11 built worlds, because their stories are much longer and more complex.
+| 19 | First engagement | Mark's view: what exists is strong but too complex and hard to enter for people with short attention spans. Wants a simpler, easier start that layers down into depth. Most people are less deep and less interested than Mark, so first engagements should be simple draws. Asks what other programs with this rigor do. Overlaps items 8, 12 and 13. | Not sorted | Collecting |
