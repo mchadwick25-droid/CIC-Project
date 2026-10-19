@@ -44,7 +44,10 @@ Why: fabrication at moments of maximum stakes is the most serious failure this p
 
 Applies to everything a participant sees: dialogue, UI text, instructions, onboarding.
 
-- Write toward **CEFR B2, Flesch-Kincaid grade 8–10, Flesch Reading Ease ≥ 60**, in the register of BBC News or National Geographic: serious, adult, vivid, clear, readable by a non-native speaker without simplifying the substance. This is a principle to write toward, not a script this file runs. Grade 8 is a floor worth staying above, not a target to hit exactly; flattening the world's own voice is the real risk.
+- Write toward **CEFR B2, Flesch-Kincaid grade 8–10, Flesch Reading Ease ≥ 60**.
+  - Register: BBC News or National Geographic. Serious, adult, vivid, clear, readable by a non-native speaker without simplifying the substance.
+  - This is a principle to write toward, not a script this file runs.
+  - Grade 8 is a floor worth staying above, not a target to hit exactly. Flattening the world's own voice is the real risk.
 - Hold three things at once: **accessible**, **distinctive** (the world's own imagery and convictions), and **held** (no fabrication, no caving under pushback).
 - Keep sentences short, averaging roughly 12–20 words. Nothing nested, nothing running past ~25 words. One idea per paragraph (1–4 sentences). Introduce a technical term before using it naturally. Use active voice and concrete verbs, not passives and nominalizations. Skip unnecessary Greek and Latin.
 - State uncertainty plainly rather than hedging it into vagueness. Show evidence naturally ("we believe this because…") rather than arguing at length.
@@ -100,10 +103,18 @@ The root `README.md` is the map of the whole tree, and this list follows it. If 
 | Task | Model |
 |---|---|
 | Drafting and revising | Sonnet 5.5 |
-| Doc_04 (Gravity Discovery), Doc_10 (Representative), and other complex design and research that sets the frame downstream: system or front-end redesign proposals, comparative source-ecology and world-strategy research, org and funding strategy | Fable, reserved for this: use it where getting the frame right the first time avoids many cheaper rounds of rework later. Never for routine drafting or anything that repeats. |
+| Doc_04 (Gravity Discovery), Doc_10 (Representative), and other frame-setting design and research (below) | Fable |
 | Every adversarial review round | Opus 5.5. From round 2, a targeted recheck of what changed, at lower effort. |
 | Every `modern_rendering` and re-rendering | Opus 5.5. Every clause, nothing added, one thought per sentence, nothing past ~25 words, no word whose modern sense misleads. |
 | Package rebuilds, citation and log fixes, formatting, indexing | Haiku |
+
+**Fable is reserved** for complex design and research that sets the frame downstream:
+
+- system or front-end redesign proposals
+- comparative source-ecology and world-strategy research
+- org and funding strategy
+
+Use it where getting the frame right the first time avoids many cheaper rounds of rework later. Never use it for routine drafting or anything that repeats.
 
 ### 2.3 Check the budget
 
@@ -111,7 +122,9 @@ The root `README.md` is the map of the whole tree, and this list follows it. If 
 - Context-window management matters at least as much as model choice. A bloated context costs more than a clean one, regardless of tier.
 - The allowance resets Friday at 2:00 pm. Give at least half to building. Schedule heavy steps early in the week.
 - Keep two ledgers per world: allowance share and metered dollars.
-- Start a world only when the remaining build allocation covers a typical world plus a reserve. Build one world at a time by default. Run a second concurrent session only when the ledger shows the week can carry it. These are human-supervised sessions, not automated multi-agent orchestration.
+- Start a world only when the remaining build allocation covers a typical world plus a reserve.
+- Build one world at a time by default. Run a second concurrent session only when the ledger shows the week can carry it.
+- These are human-supervised sessions, not automated multi-agent orchestration.
 
 Mark's own account practices: `Build/Ministry/Operations/Standing/CiC_Usage_Discipline.md`.
 
@@ -204,7 +217,13 @@ This table starts here and grows only when a real new case shows up, never specu
    - **Groan zone** — struggle with it honestly. Explore options, ask "what if," and sit with the trade-offs rather than resolving them too early.
    - **Convergent** — narrow down together, to a decision Mark has actually reached, not one reasoned through alone and handed over as settled.
 2. Ask one decision at a time.
-3. Ask with the `AskUserQuestion` tool, not in plain text. One question per call, with 2–4 options. Give each option a short label and a one-line trade-off in its description. Put your recommendation first, with "(Recommended)" at the end of its label. Use a 12-character-or-shorter header that names the decision. Turn on multi-select only when the choices really combine. Mark can always answer in his own words instead.
+3. Ask with the `AskUserQuestion` tool, not in plain text.
+   - One question per call, with 2–4 options.
+   - Give each option a short label and a one-line trade-off in its description.
+   - Put your recommendation first, with "(Recommended)" at the end of its label.
+   - Use a 12-character-or-shorter header that names the decision.
+   - Turn on multi-select only when the choices really combine.
+   - Mark can always answer in his own words instead.
 4. To compare options side by side (two wordings, two layouts, code), use the tool's preview on each option. If the material is too big even for that (a whole draft), show it as an Artifact first, then ask in the box.
 5. Don't write a repo file just to get approval. A file gets written only once it is the actual converged-on output. Permanent review records (review rounds, decision logs, `Open_Gaps_Tracking.md`) are the exception: they are lasting audit trail, not scratch material.
 
@@ -219,7 +238,10 @@ This table starts here and grows only when a real new case shows up, never specu
 ### 4.4 Governance vocabulary and closure
 
 - Say "Approved to proceed," never "finalized." That word is retired; don't use it.
-- Nothing closes until both Phase Five boundary testing and full-system review are complete. This is the whole-system and portfolio closure gate, a much rarer scope than one document's own "Approved to proceed" under the build cycle's per-document self-governance. One document proceeding doesn't mean anything has closed.
+- Nothing closes until both Phase Five boundary testing and full-system review are complete.
+  - This is the whole-system and portfolio closure gate.
+  - It is a much rarer scope than one document's own "Approved to proceed" under the build cycle's per-document self-governance.
+  - One document proceeding doesn't mean anything has closed.
 - A blocking review finding can't be dismissed by self-certification. It needs independent re-confirmation.
 - Truncation checks use two independent methods, not one.
 
