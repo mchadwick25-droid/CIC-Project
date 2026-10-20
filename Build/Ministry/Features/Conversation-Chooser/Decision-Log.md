@@ -133,3 +133,9 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Not decided.** The search box and era chips still sit above the hand, so the cards begin about 690 px down at desktop width. Whether the hand comes first and the controls move below it is open.
 
 **Change to the build plan.** The plan's landing order (headline, story teasers, hand, three doors) is superseded: there is no Table door, and the teasers are still unwritten.
+
+## 2026-10-20 — Deck controls move below the cards (Mark)
+
+**Mark's words.** "move the controls below the cards".
+
+**What it settles.** The open item from the layout entry above is closed. On the landing page and on Build a Table the order is now: the hand, its Previous, Next, Shuffle and See all buttons, the "See all" scroll when open, then the search box, era chips, written count and match reasons, then the Tree link. The cards begin about 490 px down at desktop width, from about 690.

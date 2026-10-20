@@ -147,11 +147,11 @@ function init(mount, census) {
     el("div", { class: "in" }, [el("strong", { text: "Your table" }), seatsEl, statusEl, facilitator, goBtn])
   ]);
 
-  mount.appendChild(deckBox);
   mount.appendChild(hand);
   mount.appendChild(nav);
   mount.appendChild(hint);
   mount.appendChild(deckRow);
+  mount.appendChild(deckBox);
   mount.appendChild(tree);
   mount.appendChild(tray);
 
