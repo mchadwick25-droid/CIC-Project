@@ -72,3 +72,8 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 - Thread ownership (Mark, 2026-10-20): working set is four threads; triage thread settles the 7 shared commits; Theme B engine work on hold. See Pilot_Feedback_Decisions.md.
 - Decision (2026-10-20): Theme F (items 18, 25) converged by Mark. Record: Pilot_Feedback_Decisions.md. Nothing written, generated or spent.
 - Decision (2026-10-20): Theme G (item 9, and the funding half of item 25) converged by Mark. Landing line: "Free to start. Add more any time." Record: Pilot_Feedback_Decisions.md. Nothing built.
+
+## Status update — 2026-10-20 (items 9 and 17, list control)
+- Item 9 (Theme G): the landing line "Free to start. Add more any time." is built, under the hand.
+- Item 17 (Theme E): only the button's wording is decided ("Add to the table"). The tree button, shared seat store and tree tray are not built; the tray's look and how long a seat is remembered are still open.
+- A control that switches the hand to a top-to-bottom list on any device is built (Mark's item 27 as relayed; the log above stops at item 26). Record: `Build/Ministry/Features/Conversation-Chooser/Decision-Log.md`, 2026-10-20.
