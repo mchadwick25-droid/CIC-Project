@@ -173,3 +173,8 @@ Decision (Mark): the working set is four threads: Paused workstreams triage, Con
 - Theme B engine work is on hold until the triage thread reports, because that retry change may interact with the planned check-and-redo.
 - Theme F audio and the Theme D story pool have no owner thread yet.
 - Pull requests from this thread go to main, not live (CLAUDE.md 4.1). PR 976 targeted live before that rule was in place; it is merged.
+
+### Correction to the thread ownership entry — 2026-10-20
+The Paused workstreams triage thread reported on the seven commits. By hash none is an ancestor of origin/main, but by content main already has them: PR 869 was merged on 2026-10-13 (head 226da0aeb), the sentence-enforcement code is gone from the engine code on main, the added lines are mostly present, and all 40 records/syr/source records carry a citation line. It did not merge anything and recommends that the Library branches be rebased or merged onto current main so the seven drop out as duplicates. It checked line matches, not every file: engine/m4/turn.py has 35 of 52 added lines present and engine/m9/enforce.py 2 of 12, and it did not read turn.py to confirm the fallback to the world's answer record is intact.
+- The earlier statement here that the seven are "in neither origin/main nor origin/live" was true by hash only. The duplication risk is smaller than stated: the content is on main.
+- Theme B stays on hold, for a different reason. The removed retry is part of PR 869, "quotes by code, no rewrite". The title suggests a deliberate choice not to rewrite replies after generation. Theme B plans a check after the answer with a redo, which may contradict it. Nobody has read PR 869's reasoning against Theme B. That has to happen before Theme B is built.
