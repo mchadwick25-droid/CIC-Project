@@ -326,3 +326,5 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** "that give us more space, can we increase the font size of the text at the bottom to 14, it is now to small to read for some".
 
 **What changed.** The tagline and the "Shaped by" line on the front of the card are never smaller than 14 px; on larger cards they keep their scaled size. Checked on the cards in the hand at 1434x717, 1440x900 and 1024x768: no text runs past the bottom of the card.
+
+**Follow-up, same day (Mark: "yes, switch to rem and check the contrast").** The floor is now `.875rem`, so it follows the reader's browser text-size setting (14 px by default). Contrast was measured on the rendered pixels behind the text for the five cards in the hand at 1434x717: tagline (#EDE4D3) 14.2:1, "Shaped by" line (#D9B35C) 9.0:1, both against the card's dark ground. WCAG asks for 4.5:1. The 14 px size is above the usual floor for secondary text; 16 px is the usual body size and is not applied.
