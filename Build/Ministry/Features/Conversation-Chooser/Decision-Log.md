@@ -462,3 +462,5 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Follow-up, same day (Mark: "get rid of the dash, use a comma").** The statement now reads: "Each representative you add to the table is an AI-generated voice, not a person who lived, built from that tradition's own letters and records."
 
 **Follow-up, same day (Mark: "two sendences").** The statement is two sentences: "Each representative you add to the table is an AI-generated voice, not a person who lived. Each is built from that tradition's own letters and records."
+
+**Follow-up, same day (Mark: "lets add 'each tradition is built from...' to the second sentence").** The second sentence now opens "Each tradition is built from its own letters and records." ("that tradition's own" became "its own", since the subject is now the tradition.) The statement: "Each representative you add to the table is an AI-generated voice, not a person who lived. Each tradition is built from its own letters and records."
