@@ -168,6 +168,10 @@ function init(mount, census) {
   }
 
   // ---------- cards ----------
+  var ICON_TALK = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h16v11H10l-5 4v-4H4z"/></svg>';
+  var ICON_SEAT = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v8M8 9h8M6 21v-5h12v5"/></svg>';
+  function icon(svg) { var s = el("span", { class: "ico" }); s.innerHTML = svg; return s; }
+
   function cardEl(w) {
     var e = eras[w.era] || { no: "", name: "", dates: "", tint: FALLBACK_TINT };
     var card = el("article", { class: "card", "data-id": w.id });
@@ -176,28 +180,26 @@ function init(mount, census) {
     var front = el("button", { type: "button", class: "cfront", "data-act": "front",
       "aria-label": w.rep + ", " + w.world + ", " + e.name + ". " + w.dates + ". Press to bring the card forward, then again to turn it over." });
     var img = el("img", { src: w.img, alt: "", loading: "lazy", decoding: "async" });
+    var talk = el("a", { class: "sidebtn left", "data-act": "talk", "aria-label": "Talk with " + w.rep }, [icon(ICON_TALK), el("span", { class: "lbl", text: "Talk" })]);
+    var seat = el("button", { type: "button", class: "sidebtn right", "data-act": "seat", "aria-pressed": "false", "aria-label": "Seat " + w.rep + " at the table" }, [icon(ICON_SEAT), el("span", { class: "lbl", text: "Seat" })]);
+    (mode === "table" ? seat : talk).classList.add("primary");
     var frontFace = el("div", { class: "face front" }, [
       el("div", { class: "band" }, [el("span", { text: bandText }), el("span", { text: e.dates })]),
       el("div", { class: "head" }, [el("p", { class: "tname", text: w.world }), el("p", { class: "tdates", text: w.dates + " · " + w.place })]),
-      el("div", { class: "pic" }, [img]),
+      el("div", { class: "pic" }, [img, talk, seat]),
       el("div", { class: "plate" }, [el("p", { class: "rep", text: w.rep }), w.tag ? el("p", { class: "tag", text: w.tag }) : null, w.shapedList.length ? el("p", { class: "shapedby", text: "Shaped by " + joinNames(w.shapedList) + " among others." }) : null]),
       front
     ]);
 
-    var talk = el("a", { class: "cbtn", "data-act": "talk", text: "Talk with " + w.rep });
-    var seat = el("button", { type: "button", class: "cbtn", "data-act": "seat", "aria-pressed": "false", text: "Seat at the table" });
-    var about = el("a", { class: "cbtn quiet", href: "traditions/" + w.id + ".html", text: "About this tradition" });
-    var back = el("button", { type: "button", class: "cbtn quiet", "data-act": "back", text: "Turn the card back" });
-    if (mode === "table") { seat.classList.add("primary"); } else { talk.classList.add("primary"); }
-    var acts = mode === "table" ? [seat, talk, about, back] : [talk, seat, about, back];
+    var about = el("a", { class: "cbtn quiet", href: "traditions/" + w.id + ".html", text: "Get more information" });
 
-    var body = el("div", { class: "bbody", tabindex: "0", role: "group", "aria-label": "About " + w.world },
+    var body = el("div", { class: "bbody", tabindex: "0", role: "group", "aria-label": "About " + w.world + ". Press Enter to turn the card back." },
       [w.summary ? el("p", { text: w.summary }) : null, w.record ? el("p", { class: "rec", text: "What the record holds: " + w.record }) : null]);
     var backFace = el("div", { class: "face back", inert: true }, [
       el("div", { class: "band" }, [el("span", { text: bandText }), el("span", { text: e.dates })]),
       el("p", { class: "btitle", text: w.subtitle || w.name }),
       body,
-      el("div", { class: "acts" }, acts)
+      el("div", { class: "acts" }, [about])
     ]);
 
     card.appendChild(el("span", { class: "seatmark", "aria-hidden": "true", text: "Seated" }));
@@ -210,10 +212,13 @@ function init(mount, census) {
     card.addEventListener("keydown", function (ev) {
       if (ev.key === "Escape" && card.classList.contains("turned")) { turn(card, false); ev.stopPropagation(); }
     });
-    acts.forEach(function (a) {
-      var act = a.getAttribute("data-act");
-      if (act === "back") a.addEventListener("click", function () { turn(card, false); });
-      if (act === "seat") a.addEventListener("click", function () { toggleSeat(w.id); });
+    seat.addEventListener("click", function () { toggleSeat(w.id); });
+    backFace.addEventListener("click", function (ev) {
+      if (ev.target.closest("a")) return;
+      turn(card, false);
+    });
+    body.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); turn(card, false); }
     });
     return card;
   }
@@ -223,7 +228,7 @@ function init(mount, census) {
     card.classList.toggle("turned", on);
     if (on) {
       frontFace.setAttribute("inert", ""); backFace.removeAttribute("inert");
-      var first = backFace.querySelector(".acts .cbtn"); if (first) first.focus();
+      backFace.querySelector(".bbody").focus();
     } else {
       backFace.setAttribute("inert", ""); frontFace.removeAttribute("inert");
       card.querySelector(".cfront").focus();
@@ -238,9 +243,9 @@ function init(mount, census) {
       card.classList.toggle("seated", on);
       var seat = card.querySelector('[data-act="seat"]');
       seat.setAttribute("aria-pressed", on ? "true" : "false");
-      seat.textContent = on ? "Leave the table" : "Seat at the table";
+      seat.querySelector(".lbl").textContent = on ? "Seated" : "Seat";
+      seat.setAttribute("aria-label", on ? "Remove " + w.rep + " from the table" : "Seat " + w.rep + " at the table");
       card.querySelector('[data-act="talk"]').setAttribute("href", talkHref([id], "interview", via[id] || "hand"));
-      void w;
     });
   }
 
@@ -254,7 +259,7 @@ function init(mount, census) {
       card.classList.toggle("peek", Math.abs(d) === FAN + 1);
       card.classList.toggle("off", Math.abs(d) > FAN + 1);
       card.setAttribute("aria-current", d === 0 ? "true" : "false");
-      card.querySelector(".cfront").setAttribute("tabindex", (d === 0 || listMode()) ? "0" : "-1");
+      [].forEach.call(card.querySelectorAll(".cfront, .sidebtn"), function (c) { c.setAttribute("tabindex", (d === 0 || listMode()) ? "0" : "-1"); });
     });
     posEl.textContent = cards.length ? (active + 1) + " of " + cards.length : "";
     prevBtn.setAttribute("aria-disabled", active <= 0 ? "true" : "false");
