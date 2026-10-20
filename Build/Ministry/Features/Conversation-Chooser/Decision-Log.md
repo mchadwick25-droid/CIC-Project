@@ -314,3 +314,13 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** In the pilot-feedback thread: "the cards scroll and click to pull forward". Told that the built hand moved only by the buttons and arrow keys, he chose "Yes, scroll and swipe both". Then here: "add the scroll now before merging".
 
 **What changed.** A mouse wheel or trackpad scroll over the hand rolls it one card per notch, in either axis, with small ticks ignored and a short pause between moves. It acts only while the pointer is over the hand, so scrolling the page elsewhere is untouched. A finger swipe of more than 40 px was already built. The hint under the deck now says "Scroll, swipe or use the arrow keys to roll the hand."
+
+## 2026-10-20 — Change order (Mark): all eleven in the hand, in order, five showing
+
+**Mark's words.** "I know the research said that if it's not on screen it's lost from memory. It was a justification of just five selected cards as the main display, but it seems to me to be creating confusion and extra steps. Can we just put all 11 in the hand, 5 at a time still visible as they are, but instead of random picking, we scroll the rest in order. So visually the only change is more cards scrolling around, so all 11 are accessible, but the screen changes minimally to see there are more cards to the right or left."
+
+**Decision (Mark).** "All eleven in order, five showing." Supersedes "The hand stays as it is" (2026-10-19). Chosen over the same with a Shuffle that jumps to a random card, and over keeping the dealt hand of five.
+
+**What changed.** The hand holds every live world in time order. The fan shows five, with the next card at each side showing as a faded sliver and the rest hidden; the count reads "n of 11". The hand opens on the third card so the first five are in view. Scroll, swipe, the arrow keys and Previous and Next move through all eleven. Shuffle is gone, and with it the random deal and the browser's memory of dealt cards. A search narrows the row to its matches, first match to the front, and still says why each matched. An era chip narrows the row to that era. "See all" stays as the grid; its cards mark the one showing now, and tapping one brings it to the front, clearing any narrowing first. The phone and reduced-motion list shows all eleven. A pre-seated table link opens on the first seated card.
+
+**Why the research still holds.** The evidence was against hidden items with no order, count or cue. Here the order is time, the count is written, the next card peeks at each edge, and the grid is one tap away. What goes is the part that needed explaining.
