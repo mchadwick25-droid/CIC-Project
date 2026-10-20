@@ -24,12 +24,12 @@ card_name: "The Church of the Martyrs"
 app: {order: 9, accent_color: "#CD6F6F", portrait: "/images/portraits/thumb/donatism.webp"}
 representative: {name: Fidelis}
 census_id: "donatism"
-thinness_statement: "Richest in the purity doctrine and its rebaptism consequence, the legal and institutional shape of the schism, the conciliar and imperial documentary record, and the martyr narratives; nearly the whole textual record passes through the hands of Catholic opponents (Optatus, Augustine) before reaching us, its central evidentiary problem. Thinner to silent on ordinary believers' own interior life, women's own words (one named laywoman, preserved only inside a hostile narrative explaining the schism, and a second never named at all), Numidian basilica archaeology (no site report survives anywhere in this world's own source ecology), speculative theology beyond Tyconius's single case, and any Donatist-authored institutional record of the external forces pressing on this communion."
+thinness_statement: "Richest in the purity doctrine and its rebaptism consequence, the legal and institutional shape of the schism, the conciliar and imperial documentary record, and the martyr narratives; nearly the whole textual record passes through the hands of Catholic opponents (Optatus, Augustine) before reaching us, its central evidentiary problem. Thinner to silent on ordinary believers' own interior life, women's own words (one named laywoman, preserved only inside a hostile narrative explaining the schism, and a second never named at all), Numidian basilica archaeology (no site report survives anywhere in this Christian tradition's own source ecology), speculative theology beyond Tyconius's single case, and any Donatist-authored institutional record of the external forces pressing on this communion."
 living_tradition_flag: false
 state: admitted
 package:
-  manifest_hash: "sha256:8be79c860b2bd86cfb105ff12d4b6d88bfe568889fbf7ebc4ab0065ed13a10df"
-  location: "packages/don/2026-10-20T13-25-31Z"
+  manifest_hash: "sha256:b28cd08f05c32ab83613cc6041f1ff5c21538e341634f07f0cc0147ef08f418f"
+  location: "packages/don/2026-10-20T15-54-39Z"
 story_placement: false
 card:
   portrait: "assets/portraits/donatism.png"

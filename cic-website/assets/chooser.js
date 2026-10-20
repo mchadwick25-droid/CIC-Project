@@ -133,13 +133,14 @@ function init(mount, census) {
   var allBtn = el("button", { type: "button", class: "cbtn quiet", "aria-expanded": "false" });
   var viewBtn = el("button", { type: "button", class: "cbtn quiet viewbtn", hidden: true });
   var nav = el("div", { class: "chooser-nav" }, [posEl, allBtn, viewBtn]);
+  var tableLine = el("p", { class: "chooser-tableline", text: "Choose Table on two or three cards to build a table, then put one question to all of them." });
   var hint = el("details", { class: "chooser-how" }, [
     el("summary", { text: "How this works" }),
     el("ul", null, [
       el("li", { text: "Click a card to bring it forward. Click it again to turn it over." }),
       el("li", { text: "Talk starts a conversation with that one representative." }),
       el("li", { text: "Table adds the representative to a table of two or three. When you have two or three, choose Go to the table." }),
-      el("li", { text: "Scroll, swipe or use the arrows to see more cards. Search or pick an era to narrow them." })
+      el("li", { text: "Swipe or use the arrows to see more cards. Search or pick an era to narrow them." })
     ])
   ]);
   var deckRow = el("div", { class: "chooser-deckrow", hidden: true });
@@ -158,6 +159,7 @@ function init(mount, census) {
   mount.appendChild(stage);
   mount.appendChild(deckBox);
   mount.appendChild(nav);
+  if (mode !== "table") mount.appendChild(tableLine);
   mount.appendChild(deckRow);
   mount.appendChild(hint);
   mount.appendChild(tray);
@@ -265,7 +267,7 @@ function init(mount, census) {
     posEl.textContent = cards.length ? (active + 1) + " of " + cards.length : "";
     prevBtn.setAttribute("aria-disabled", active <= 0 ? "true" : "false");
     nextBtn.setAttribute("aria-disabled", active >= cards.length - 1 ? "true" : "false");
-    hand.setAttribute("aria-label", handIds.length + " representatives in order of time. Use the arrow keys, scroll or swipe to roll the hand.");
+    hand.setAttribute("aria-label", handIds.length + " representatives in order of time. Use the arrow buttons, the arrow keys or swipe to roll the hand.");
     var minis = deckRow.querySelectorAll(".mini");
     [].forEach.call(minis, function (m) { m.classList.toggle("inhand", m.getAttribute("data-id") === handIds[active]); });
   }
@@ -294,21 +296,6 @@ function init(mount, census) {
     if (ev.key === "ArrowRight") { setActive(active + 1, true); ev.preventDefault(); }
     if (ev.key === "ArrowLeft") { setActive(active - 1, true); ev.preventDefault(); }
   });
-  var wheelAt = 0, wheelAcc = 0;
-  hand.addEventListener("wheel", function (ev) {
-    if (listMode()) return;
-    var d = Math.abs(ev.deltaX) > Math.abs(ev.deltaY) ? ev.deltaX : ev.deltaY;
-    if (!d) return;
-    ev.preventDefault();
-    var now = Date.now();
-    if (now - wheelAt > 400) wheelAcc = 0;
-    wheelAt = now;
-    wheelAcc += d;
-    if (Math.abs(wheelAcc) < 60) return;
-    setActive(active + (wheelAcc > 0 ? 1 : -1), false);
-    wheelAcc = 0;
-    wheelAt = now + 250;
-  }, { passive: false });
   var px = null;
   hand.addEventListener("pointerdown", function (ev) { px = ev.clientX; });
   hand.addEventListener("pointerup", function (ev) {

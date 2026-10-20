@@ -14,7 +14,7 @@ doorway_description: >-
   the ordinary congregation instead of leaving for a monastery. The story
   opens with the first trace of a church in Edessa, a building lost to
   flood in the year 201. It closes in 410, when the church inside Persia
-  took on a formal structure and this world's own way of life gave way to
+  took on a formal structure and this Christian tradition's own way of life gave way to
   something more official.
 card_name: "Syriac Christianity"
 app: {order: 5, accent_color: "#5493A0", portrait: "/images/portraits/thumb/syriac.webp"}
@@ -22,8 +22,8 @@ representative: {name: "Mar Yausep"}
 state: admitted
 census_id: "syriac-edessa-nisibis"
 package:
-  manifest_hash: "sha256:44bb5db1ac004bbd80e792a88b8985d0e14f67625d6ce31656c11d7c20814f72"
-  location: "packages/syr/2026-10-20T13-28-01Z"
+  manifest_hash: "sha256:01c3f056c0ed9025148200a9df27c838e5aceade573c3f4bbebc8b2d4762680d"
+  location: "packages/syr/2026-10-20T15-54-25Z"
 thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
 living_tradition_flag: true
 story_placement: false

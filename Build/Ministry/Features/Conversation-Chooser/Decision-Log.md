@@ -524,3 +524,56 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Left for later, because they are outside the landing page and cards.** The same header, footer and narration fixes on Build a Table, About, the tradition pages and the rest, and the compact Build a Table tray (about 230 px on a phone, covering the first cards). Mark has not ruled on them.
 
 **Not fixed.** At 360 px wide the Menu button wraps to its own row (header about 152 px). Real devices were not tested; the headless runs at 360, 390, 768, 820, 1024 and 1280 px had no sideways scroll and every landing-page target measured 44 px or more.
+
+## 2026-10-20 — "Tradition" in place of "world" in text people read (Mark)
+
+**Mark's words.** Asked "are we using tradition and not world everywhere", I found we were not, and asked which text should change. He chose "Everything people read". He added: "or Christian tradition if its the first reference to tradition".
+
+**The rule applied.** In each piece of text, the first reference to the tradition says "Christian tradition" (for example "this Christian tradition's own record") and later ones say "tradition", unless the word "tradition" already came earlier in that same text. Short button labels say "tradition" alone.
+
+**What changed.**
+- Census (`cic-website/data/world-census.json`): 41 strings that said "this world", "that world", "the world's own word", "its own world", "the Built & Live worlds", "two separate worlds" or "Indian Christian worlds" for a tradition; the same strings in the copy embedded in `atlas-v3.html` (25), and the Atlas legend ("between traditions").
+- Registry (`records/worlds/`): the arrival-page descriptions of Alexandria, Cappadocia and Syria; the search notes for Gaul, Church and Empire and Pahc ("ekklesia"); the Wittenberg summary; and the "what is thin" statements for Donatism, Zurich and Geneva, and Wittenberg.
+- Facilitator (`engine/m4/facilitator_turns.py`): the AI statement ("Each Christian tradition you can speak with is built from a fixed set of records ... when the tradition was built"), the dependency-check lines ("a way of meeting a historical Christian tradition"), the two "outside its own world" lines, and the bridge line ("than this Christian tradition knew"). Two engine tests that quote these lines were updated.
+- App (`cic-poc/frontend`): "We couldn't find that Christian tradition here", "Gathering the traditions", "Meet another tradition", "Return to the traditions", "Could not load the traditions", "This Christian tradition's records are briefly unavailable", and the tests that quote them.
+- Packages: the six whose registry text changed (alx, cappadocian, syr, don, rzg, witt) were rebuilt and repinned; the other six did not change.
+
+**Left as it was, Mark's call.** (1) Idiom: "the ancient world", "the world groaned", "the Roman world's great city", "The Many Worlds of Peter Mohyla", "World Christianity". (2) The instructions the engine gives the model about "your own world" (`engine/api/table_wiring.py`), which shape the model's replies but are not read by people. (3) The 97 generated tradition pages and the story texts and audio they quote, which still say "this world's ..." in the stories themselves; changing them means editing canonical story records and re-recording audio. (4) Internal names: files, folders, the registry key `worlds`, code and URL parameters. (5) The word "voice" in the Facilitator's lines, which Mark's earlier "representative, not voice" was not applied to.
+
+**Checked.** The census check and the registry-to-census match pass; the census validator reports 0 errors; the app type check and 245 app tests pass; the site staleness check passes. The package staleness check and the engine tests were still running when this was committed.
+
+## 2026-10-20 — A line under the cards says a table is possible (Mark)
+
+**Mark's words.** Shown the journey for building a table and told that the only plain sign of it (the "Talk with one voice, or build a table of two or three" line) had been removed, Mark said: "yes, add a line under the cards".
+
+**What changed.** On the landing page, a quiet line sits under the count and "See all 11", above "How this works": "Choose Table on two or three cards to build a table, then put one question to all of them." It reads at about grade 5.5 (Flesch-Kincaid) and Reading Ease 90. It does not show on the Build a Table page, which is already about the table. "Put one question to all of them" follows the Facilitator's welcome at the table: "Put a question to one of them by name, or to the whole Table."
+
+## 2026-10-20 — The tradition pages are laid out around the tradition (Mark)
+
+**Mark's words.** About the "Get more information" page: "the page needs some real layout work. it can fill the page, the launch interview should be an icon, same as the card maybe bigger and the flow should be informitive, not all the ai and inside information, just tell about the world, not what its missing or short on". Then: "this is about the tradition not the representitive, so the portriat should be connected to the talk and table, not the tradition." And: "lets use the full width of screen for each devise". And: "build it and regenerate the 11 pages without changing recorded text (the recordings need to still work)".
+
+**What changed on the eleven pages.**
+- The page fills the screen at every width. It opens with a band in the era's colour, then the tradition's name, its formal name and its short description, with an "At a glance" panel on the right: a line from 0 to 2000 CE with the tradition's span marked, the period, the place, the era, the other names it is known by, who shaped it, and the Church Family Tree link.
+- The Representative is a small card under the panel: a small portrait and the name, with Talk and Table as the same icons as on the cards (Talk is the page's existing conversation link, with the held-question handling; Table opens the Build a Table page with this tradition already chosen).
+- The story, the people, the stories told in full, what came after, the related traditions and the terms follow, with an "On this page" list on wide screens. On a wide screen the story runs in two columns, the people and stories as rows of cards.
+- Gone from the pages: the AI line, the line about distress, the status line, "What this account is built from" and "Start with the hard one". The door at the foot says "The other traditions".
+
+**What did not change.** The recorded text and the recordings: the story, the people, the stories told in full, what came after, the related traditions and the terms are the same word for word as before, and each page links the same audio files as before (checked page by page against the previous version: 0 differences). The short description under the name is each page's own existing text; the only change in it is Mark's rule, "tradition" in place of "world", on the three pages that had "this world" in it.
+
+**How.** A one-time script (`Build/tools/migrate_tradition_chrome.py`) rewrote the top of each page; the article template and generator (`cic-website/templates/tradition.html`, `Build/tools/generate_tradition_pages.py`) now draw the layout and the "On this page" list, and the pages were regenerated from them.
+
+**Left as it was, Mark's call.** (1) The recorded stories still say "this world's ..." inside their text; the recordings would no longer match. (2) The old page style rules for the removed blocks (`.titleblock`, `.plate`, `.ai-line`, `.seat`, `.distress`) are still in each page's own style block. (3) The timeline's 0 to 2000 CE scale is my choice; it shows where each tradition sits in the whole history. (4) The "hard question" starters and the sources list are no longer on the pages; they are still in the compiled records.
+
+## 2026-10-20 — The stories keep "world" until the rewrite and re-recording (Mark)
+
+**Mark's words.** "leave the worlds for now, we will do a deeper re-write in the near future and then re-record".
+
+**What this settles.** The recorded stories, and the other recorded text on the tradition pages, keep the word "world" as written. Nothing in them changes now. The wording will be reworked in the planned rewrite, and the pages will be re-recorded after it. No code or page changed with this entry.
+
+## 2026-10-20 — The hand rolls by the arrows, not the wheel (Mark)
+
+**Mark's words.** "so when scrolling on the fan, its lost its spacing and order, remove the wheel scroll for the selection it doesnt work smoothly, let them scroll by the arrows. also when you go to the next one the ones scrolling out do not always go down and behind. they stay over others"
+
+**What changed.** The mouse wheel no longer moves the hand. The side arrows, the arrow keys and a swipe still do. The "How this works" line now says "Swipe or use the arrows". A card under the pointer used to jump above its neighbours, so a card rolling out stayed on top; now only the front card lifts, and every other card keeps its place in the stack by distance from the front.
+
+**Checked.** In a headless browser a wheel turn left the front card unchanged, and after three arrow clicks the stack rose evenly to the front card. Not checked: a touch screen.
