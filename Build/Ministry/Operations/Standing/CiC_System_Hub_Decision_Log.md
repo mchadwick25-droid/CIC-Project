@@ -6683,6 +6683,12 @@ The project lead approved a named, capped admission run in conversation on 18 Oc
 
 Change: `engine.provider.guard` now appends every call of an approved live test to a ledger file as it happens, a `hold` line before the call and a `settle` line after it, and refuses a call when the ledger cannot be written. The header prints the ledger path. The promotion runbook's named-run section says to send the run's output to a file and keep the ledger. The conversation path on Render is unchanged. Whether to re-run the admission run or waive the gate for the full promotion is the project lead's decision.
 
+## 2026-10-20 - No further paid run from the design thread; the second admission run is withdrawn
+
+The project lead, on the loss above: "so again you spent money with no results, not acceptable" and "no more money spent by you." The approval of "fleet re-admission, 20 October, second run" (below) is withdrawn; that run never started and no call was made for it. The design thread (session_01DieKxWNS33gUktGHTTiGeS) makes no further model call of any kind. The engine promotion stays blocked at the admission gate; whether anyone runs the fleet again, and when, is the project lead's decision. The harness fix that keeps completed worlds on a cap stop (pull request 998) stands on its own and costs nothing.
+
+The fault was the thread's: the 18 October entry already said a report is written only when a world finishes, and the run was started without reading how the harness handled a cap stop and with a cap only $2 above an estimate known to be stale.
+
 ## 2026-10-20 - Second fleet admission run approved by name, to start after the harness fix
 
 On reading the entry below, the project lead approved, once, in conversation: name "fleet re-admission, 20 October, second run"; cap $10.00; Bedrock us-east-1; voice model `us.anthropic.claude-sonnet-4-5`; the eleven formation worlds. It starts only once the harness fix is on `main` (`engine.m3.live_admission_run` keeps the completed worlds on a cap stop and writes its report after every world), so a stop keeps whatever completed. The expected cost at the day's real rate is about $8.40. Output to a file, ledger kept, as before.
