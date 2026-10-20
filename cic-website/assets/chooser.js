@@ -524,6 +524,7 @@ function init(mount, census) {
   // ---------- list fallback ----------
   var narrowMq = matchMedia("(max-width: 699px)"), rmMq = matchMedia("(prefers-reduced-motion: reduce)");
   function applyMode() {
+    q.setAttribute("placeholder", narrowMq.matches ? "Search traditions or topics" : "Search traditions, topics, people");
     mount.classList.toggle("is-list", narrowMq.matches || rmMq.matches);
     layout();
   }

@@ -225,3 +225,15 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** "we can remove the 11/11 number, it serves no purpose and will be a problem when we add the next worlds".
 
 **What it settles.** The card front no longer shows its place in the deck ("07 / 11"). The number was in the collector's-card change order of 2026-10-19 as a "set number". It was computed from the live list, so it would have changed on every card each time a world was added. The gold edge, era band and title strip stay.
+
+## 2026-10-20 — Change order: the title block comes off; the cards land on the first screen (Mark)
+
+**Source.** The chooser design thread relayed Mark's decision and his words from its own thread: "this is not working, do we need the title? can we get it with a tweek to the who would you like to converse with? we need the cards to land on the landing page for computers and ipads." and his choice "Drop the title, tighten the heading". That message was not from Mark in this thread, so Mark was asked here and confirmed: "Yes, drop the title". He then shared a screenshot of Google Arts & Culture's "Who's your favorite?" page and said "i like the space on this".
+
+**What it changes.** The two-sentence title block is removed, and its two sentences with it. The question heading opens the page and becomes the page's one `h1` (same look; `id="who-title"` and `id="who"` are kept, so the Back link and tradition pages still work). The line under it now reads "Each voice is built from its own tradition's records. Talk with one, or seat two or three at a table." The hidden free-conversations status line (`#door-line`, written by `door-line.js` when that feature is on) moves from the title block to under that line, so the feature is not lost. This reverses the title reordering earlier the same day, by Mark's decision.
+
+**Measured on this build.** Before: the cards started about 590 px down, so on a 900 px laptop and on an iPad held sideways most of the hand was below the first screen. After: they start about 325 px down, and the centre card ends at 804 px on 1440 by 900, 763 px on 1180 by 820 (iPad), 736 px on 1024 by 768 (iPad) and 711 px on 1280 by 720. The whole hand is in view at each.
+
+**Two calls made here, from the Google page and the design thread.** (1) The card width is capped at 36% of the viewport height, so the hand fits shorter screens; on a tall monitor the cards stay at their 380 px maximum. The design thread suggested a version of this and left it to the build thread. (2) More air above the card and between the sub-line and the hand, in the spirit of "i like the space on this". Neither was put to Mark as such; both are one-line CSS changes that can be reversed.
+
+**Phones.** The list layout is unchanged. The search placeholder is shortened to "Search traditions or topics" on narrow screens so it is not cut off.
