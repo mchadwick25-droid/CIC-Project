@@ -587,3 +587,11 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 - The landing page always shows a scroll bar on the right, 16 pixels wide, in the page's own colours, so it does not fade away on a laptop trackpad. It is set in the page's own styles in `index.html`, so no other page changes.
 
 **Checked.** In a headless browser the eras with 3, 6 and 2 cards put card 2, 3 and 1 in front, and the page showed a 16 pixel bar with no sideways scroll at 1440 and 390 pixels wide. Not checked: Safari on a Mac, where the bar is drawn by the system.
+
+## 2026-10-20 — The landing page holds the cards' space while they load (Mark)
+
+**Mark's words.** "can i see the landing page now, i am getting the family tree flashing then the cards appearing when i open the thread"
+
+**What changed.** Until the cards have loaded, the chooser on the landing page now keeps 90% of the screen height free, so the Family Tree preview stays below the first screen instead of showing right under the headline and then being pushed down. When the cards arrive, or the load fails and the fallback line shows, the reserved space is released. Only the landing page's chooser is affected.
+
+**Checked.** In a headless browser on a slowed connection, the preview started about 234 pixels down before the change and about 1,048 pixels down after it, below the first screen on a 900-pixel window and on a phone. Once loaded, the page measures as before. Not checked: a real phone on a slow network.
