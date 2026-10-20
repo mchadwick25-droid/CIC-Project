@@ -230,3 +230,14 @@ Open and not decided here
 - Whether the buy button is live and a Stripe Payment Link is set. An earlier log entry says it stays hidden until one is set; not checked.
 - What the tester's "300 free tokens left" was counted from. It fits a 550 allowance partly used, which is not confirmed.
 - Who builds the landing line. It sits with the chooser thread's landing page work.
+
+## Change orders to Theme D — 2026-10-20
+
+Source: Mark, after seeing the built landing page (PR 987).
+
+1. **Story teasers are dropped from the landing page.** Mark: he chose the spacing and the card descriptions rather than the story teaser, and wants the cards on the landing screen. This supersedes three earlier entries: the Theme D decision that the first invitation is a short story, the amendment for a rotating few story teasers, and the chooser thread's "Put the story teasers above the hand" page order. Reason: Mark's choice once he saw the built page.
+   - Still standing: layers by time as the model for depth, and sources one click away at every layer.
+   - The "rotating few" idea now describes the hand's deal of five cards. Whether the deal skips cards the visitor has already seen is for the chooser thread to confirm; this thread has not checked.
+   - The one-minute story pool is no longer needed for the landing page. Whether it is still wanted for the tree or the Theme F hooks is open.
+2. **"Tell us what you think" stays in the masthead.** PR 987's description records a later change order by Mark: one masthead row with the wordmark, the three feature links, "Tell us what you think" and Menu. This supersedes the Theme D header decision that moved it into the Menu. Source: the PR description; the chooser decision log was not read here.
+3. **Where Theme G's landing line goes is open.** It was to sit near the doors. The doors are now plain text links in the masthead and the line "Free to start. Add more any time." is not on the page. Mark has not said where it goes.
