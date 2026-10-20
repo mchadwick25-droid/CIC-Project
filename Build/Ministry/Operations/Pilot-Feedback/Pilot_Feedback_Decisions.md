@@ -241,3 +241,6 @@ Source: Mark, after seeing the built landing page (PR 987).
    - The one-minute story pool is no longer needed for the landing page. Whether it is still wanted for the tree or the Theme F hooks is open.
 2. **"Tell us what you think" stays in the masthead.** PR 987's description records a later change order by Mark: one masthead row with the wordmark, the three feature links, "Tell us what you think" and Menu. This supersedes the Theme D header decision that moved it into the Menu. Source: the PR description; the chooser decision log was not read here.
 3. **Where Theme G's landing line goes is open.** It was to sit near the doors. The doors are now plain text links in the masthead and the line "Free to start. Add more any time." is not on the page. Mark has not said where it goes.
+
+### Clarification to Theme E, card behaviour — 2026-10-20
+Mark: "the cards scroll and click to pull forward." The hand scrolls through the cards, and clicking a card pulls it forward. This describes how a visitor moves through and brings a card to the front, and sits beside the Theme E seating rule (a card chosen for the table stays raised and counted). Not checked: whether the built hand scrolls and pulls forward on click as described, or on hover or focus, and how a click that pulls a card forward differs from the act of seating it. This thread did not use the built hand.
