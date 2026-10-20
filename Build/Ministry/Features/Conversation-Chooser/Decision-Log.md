@@ -219,3 +219,9 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** "no the names have to be on the front of the card".
 
 **What it settles.** The shortened tagline no longer carries the "shaped by" names, so the front now shows them on their own line under the two sentences, in the approved words: "Shaped by Ignatius, Justin and Polycarp among others." The names come from the approved `card.shaped` lists, unchanged, and "among others" is kept from the approved tagline. The back still lists them in its stats block. The taglines stay at two short sentences. Mark read "the names" as the shaped-by names; if he meant them inside the tagline sentence, say so.
+
+## 2026-10-20 — The set number comes off the card (Mark)
+
+**Mark's words.** "we can remove the 11/11 number, it serves no purpose and will be a problem when we add the next worlds".
+
+**What it settles.** The card front no longer shows its place in the deck ("07 / 11"). The number was in the collector's-card change order of 2026-10-19 as a "set number". It was computed from the live list, so it would have changed on every card each time a world was added. The gold edge, era band and title strip stay.

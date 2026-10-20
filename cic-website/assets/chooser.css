@@ -50,7 +50,6 @@
 .role{font-size:1.05em;letter-spacing:.1em;text-transform:uppercase;color:var(--cmuted);margin:.2em 0 .45em;padding-bottom:.45em;border-bottom:1px solid #d9b35c55;text-shadow:0 1px 2px #000;line-height:1.2}
 .tag{font-size:.9em;line-height:1.28;margin:0;color:var(--ctext)}
 .shapedby{font-size:.88em;line-height:1.3;margin:.5em 0 0;color:var(--cgold);font-style:italic}
-.num{position:absolute;right:1.6em;bottom:.9em;z-index:3;font-size:.9em;letter-spacing:.06em;color:var(--cgold);font-variant-numeric:tabular-nums}
 .seatmark{position:absolute;top:2.4em;right:.8em;z-index:6;background:var(--madder);color:#fff;border-radius:999px;font-size:1em;font-weight:700;padding:.2em .8em;display:none;pointer-events:none}
 .card.seated .seatmark{display:block}
 .btitle{font-family:var(--serif);font-size:1.55em;font-weight:600;line-height:1.1;margin:.6em .95em .3em;color:var(--cgold)}
