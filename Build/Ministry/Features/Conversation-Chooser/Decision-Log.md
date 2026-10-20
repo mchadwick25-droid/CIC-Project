@@ -539,3 +539,11 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Mark's words.** "leave the worlds for now, we will do a deeper re-write in the near future and then re-record".
 
 **What this settles.** The recorded stories, and the other recorded text on the tradition pages, keep the word "world" as written. Nothing in them changes now. The wording will be reworked in the planned rewrite, and the pages will be re-recorded after it. No code or page changed with this entry.
+
+## 2026-10-20 — The hand rolls by the arrows, not the wheel (Mark)
+
+**Mark's words.** "so when scrolling on the fan, its lost its spacing and order, remove the wheel scroll for the selection it doesnt work smoothly, let them scroll by the arrows. also when you go to the next one the ones scrolling out do not always go down and behind. they stay over others"
+
+**What changed.** The mouse wheel no longer moves the hand. The side arrows, the arrow keys and a swipe still do. The "How this works" line now says "Swipe or use the arrows". A card under the pointer used to jump above its neighbours, so a card rolling out stayed on top; now only the front card lifts, and every other card keeps its place in the stack by distance from the front.
+
+**Checked.** In a headless browser a wheel turn left the front card unchanged, and after three arrow clicks the stack rose evenly to the front card. Not checked: a touch screen.
