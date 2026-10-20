@@ -29,7 +29,7 @@ living_tradition_flag: true
 story_placement: false
 card:
   portrait: "assets/portraits/syriac.png"
-  intro: Mar Yausep is a representative voice for the Christian tradition of Edessa and Nisibis (200–410 CE), where doctrine was sung in hymns, shaped by Ephrem, Aphrahat and Jacob of Nisibis among others.
+  intro: Mar Yausep is a representative voice for the Christian tradition of Edessa and Nisibis (200–410 CE). Doctrine was sung in hymns.
   shaped:
   - Ephrem
   - Aphrahat

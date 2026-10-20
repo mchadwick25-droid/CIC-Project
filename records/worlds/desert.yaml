@@ -27,7 +27,7 @@ living_tradition_flag: true
 story_placement: true
 card:
   portrait: "assets/portraits/desert.png"
-  intro: Papnoute is a representative voice for the Christian tradition of the Egyptian desert (c. 320–430 CE), where Christians left their villages to wrestle with tempting thoughts, alone or in community, shaped by Antony, Pachomius and Evagrius among others.
+  intro: Papnoute is a representative voice for the Christian tradition of the Egyptian desert (c. 320–430 CE). Christians left their villages for the desert to wrestle with tempting thoughts, alone or in community.
   shaped:
   - Antony
   - Pachomius

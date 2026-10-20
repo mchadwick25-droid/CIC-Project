@@ -33,7 +33,7 @@ package:
 story_placement: false
 card:
   portrait: "assets/portraits/donatism.png"
-  intro: Fidelis is a representative voice for the Donatist church of Roman North Africa (c. 311–439 CE), shaped by Donatus, Petilian and Emeritus among others, where two rival churches contested the same towns, and one saw itself as the church of the martyrs.
+  intro: Fidelis is a representative voice for the Donatist church of Roman North Africa (c. 311–439 CE). Two rival churches contested the same towns; one saw itself as the church of the martyrs.
   shaped:
   - Donatus
   - Petilian

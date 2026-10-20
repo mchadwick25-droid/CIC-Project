@@ -26,7 +26,7 @@ living_tradition_flag: true
 story_placement: false
 card:
   portrait: "assets/portraits/empire.png"
-  intro: Marius is a representative voice for the imperial church of Rome, Milan and Constantinople (c. 312–451 CE), shaped by Constantine, Ambrose and Leo among others, where bishops went from a hunted church to a seat beside the throne.
+  intro: Marius is a representative voice for the imperial church of Rome, Milan and Constantinople (c. 312–451 CE). Bishops went from a hunted church to a seat beside the throne.
   shaped:
   - Constantine
   - Ambrose

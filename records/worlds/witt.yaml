@@ -35,7 +35,7 @@ package:
 story_placement: false
 card:
   portrait: "assets/portraits/nikolaus.jpg"
-  intro: Nikolaus is a representative voice for the Christian tradition of Wittenberg (1517–1580), shaped by Luther, Melanchthon and Johann Walter among others, where Luther wrote a Small Catechism for each household to teach at home.
+  intro: Nikolaus is a representative voice for the Christian tradition of Wittenberg (1517–1580). Luther wrote a Small Catechism for each household to teach at home.
   shaped:
   - Luther
   - Melanchthon

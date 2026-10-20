@@ -27,7 +27,7 @@ living_tradition_flag: true
 story_placement: false
 card:
   portrait: "assets/portraits/house-churches.png"
-  intro: Chloe is a representative voice for the Christian tradition of the household churches after the apostles (70–200 CE), shaped by Ignatius, Justin and Polycarp among others, where there was no fixed hierarchy and no finished New Testament.
+  intro: Chloe is a representative voice for the Christian tradition of the household churches after the apostles (70–200 CE). These churches had no fixed hierarchy and no finished New Testament.
   shaped:
   - Ignatius
   - Justin

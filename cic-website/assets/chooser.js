@@ -17,6 +17,10 @@ function el(tag, attrs, kids) {
   (kids || []).forEach(function (c) { if (c) n.appendChild(c); });
   return n;
 }
+function joinNames(list) {
+  if (list.length < 2) return list.join("");
+  return list.slice(0, -1).join(", ") + " and " + list[list.length - 1];
+}
 function pad2(n) { return (n < 10 ? "0" : "") + n; }
 function shuffleIndex(len) { return Math.floor(Math.random() * len); }
 
@@ -55,6 +59,7 @@ function init(mount, census) {
         thumb: (en.portrait || en.icon || "").replace(/portraits\/([^/]+)\.[a-z]+$/, "portraits/thumb/$1.webp"),
         tag: en.intro || en.subtitle || "",
         shaped: Array.isArray(en.shaped) ? en.shaped.join(", ") : (en.shaped || ""),
+        shapedList: Array.isArray(en.shaped) ? en.shaped : [],
         summary: en.summary || en.tile || "",
         record: en.recordHolds || "",
         matches: Array.isArray(en.matches) ? en.matches : [],
@@ -184,7 +189,7 @@ function init(mount, census) {
       el("div", { class: "band" }, [el("span", { text: bandText }), el("span", { text: e.dates })]),
       el("div", { class: "head" }, [el("p", { class: "tname", text: w.world }), el("p", { class: "tdates", text: w.dates + " · " + w.place })]),
       el("div", { class: "pic" }, [img]),
-      el("div", { class: "plate" }, [el("p", { class: "rep", text: w.rep }), el("p", { class: "role", text: w.role }), w.tag ? el("p", { class: "tag", text: w.tag }) : null]),
+      el("div", { class: "plate" }, [el("p", { class: "rep", text: w.rep }), el("p", { class: "role", text: w.role }), w.tag ? el("p", { class: "tag", text: w.tag }) : null, w.shapedList.length ? el("p", { class: "shapedby", text: "Shaped by " + joinNames(w.shapedList) + " among others." }) : null]),
       el("span", { class: "num", "aria-hidden": "true", text: pad2(allIds.indexOf(w.id) + 1) + " / " + pad2(allIds.length) }),
       front
     ]);

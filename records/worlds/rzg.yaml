@@ -40,7 +40,7 @@ package:
 story_placement: false
 card:
   portrait: "assets/portraits/theophilus.jpg"
-  intro: Theophilus is a representative voice for the Christian tradition of Zurich and Geneva (1519–1650), where Scripture alone was held to test every church practice, shaped by Zwingli, Calvin and Bullinger among others.
+  intro: Theophilus is a representative voice for the Christian tradition of Zurich and Geneva (1519–1650). Scripture alone was held to test every church practice.
   shaped:
   - Zwingli
   - Calvin

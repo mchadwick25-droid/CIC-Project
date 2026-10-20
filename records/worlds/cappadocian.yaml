@@ -32,7 +32,7 @@ package:
 story_placement: false
 card:
   portrait: "assets/portraits/cappadocian.jpg"
-  intro: Chilo is a representative voice for the Christian tradition of Cappadocia and Pontus (c. 325–394 CE), shaped by Basil, Gregory of Nyssa and Gregory of Nazianzus among others, where churches held the Nicene faith through hostile years and cared for the poor.
+  intro: Chilo is a representative voice for the Christian tradition of Cappadocia and Pontus (c. 325–394 CE). Its churches held the Nicene faith through hostile years and cared for the poor.
   shaped:
   - Basil
   - Gregory of Nyssa

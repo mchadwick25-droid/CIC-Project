@@ -25,7 +25,7 @@ living_tradition_flag: true
 story_placement: false
 card:
   portrait: "assets/portraits/alexandria.png"
-  intro: Theon is a representative voice for the Christian tradition of Alexandria (c. 150–400 CE), shaped by Clement, Origen and Athanasius among others, where teachers drew on Greek and Jewish learning to read Scripture in layers and find Christ, the Logos, beneath the surface.
+  intro: Theon is a representative voice for the Christian tradition of Alexandria (c. 150–400 CE). Teachers drew on Greek and Jewish learning to read Scripture in layers and find Christ, the Logos, beneath the surface.
   shaped:
   - Clement
   - Origen

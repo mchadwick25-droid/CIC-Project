@@ -201,3 +201,21 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Readability.** Scored with the project's scorer, 13 of the 33 approved pieces are over FK 10 or under FRE 60. Most are taglines: each is one sentence of about 40 words ("X is a representative voice for the Christian tradition of … shaped by … among others, where …"). The worst are the household churches (FK 19.4), Wittenberg (17.7), Zurich and Geneva (17.4) and Syriac (16.7). CLAUDE.md 1.2 asks for sentences averaging 12 to 20 words and none past about 25. The text is Mark's to change; it was not altered.
 
 **Card layout.** The long approved taglines would have been cut after four lines. The card front now shows each in full (smaller type, no line limit), and the card back lays its four buttons in two rows of two so the summary has room.
+
+## 2026-10-20 — Change order: the eleven taglines shortened to two sentences (Mark)
+
+**Mark's words.** "shorten the taglines to two short sentences"; then "apply the shortened taglines".
+
+**What it changes.** The taglines Mark approved earlier the same day (see the entry above) are replaced by two-sentence versions. Reason: the long taglines were single sentences of about 40 words and scored FK 10 to 19 and FRE 20 to 55 on the project's scorer (CLAUDE.md 1.2). Each new tagline is a first sentence naming the voice and its tradition, and a second sentence carrying the one distinctive clause. The "shaped by" names are dropped from the tagline because the card back lists them. Drafted by Sonnet 5.5 from the approved text only, with nothing added; one Opus 5.5 round checked each line clause by clause against the approved tagline. It found four lines to fix and none that added anything or lost a ruled phrase: household churches ("These churches had no fixed hierarchy and no finished New Testament."), Alexandria ("beneath the surface" restored), Desert ("for the desert" restored) and Cappadocia ("Its churches held the Nicene faith…"). All four fixes were applied.
+
+**Rulings kept word for word.** Cappadocia "through hostile years"; Donatism "two rival churches contested the same towns"; Bethlehem "a senatorial fortune founding monasteries at Bethlehem and sustaining Jerome's translation of the Old Testament from the Hebrew"; Alexandria "Greek and Jewish learning"; Gaul as written, with its claim-check finding still open by Mark's ruling.
+
+**Result.** The household churches go from FK 19.4 to 10.5, Wittenberg from 17.7 to 8.9, Zurich and Geneva from 17.4 to 9.6, Syriac from 16.7 to 7.8. Five taglines now pass the scorer outright (Alexandria, Cappadocia, Donatism, Imperial and Gaul). The other six are much closer but long names and dates keep them under FRE 60 or above FK 10: household churches, Syriac, Desert, Bethlehem, Wittenberg, Zurich and Geneva. Bethlehem's second sentence is the longest at 21 words because Mark ruled its wording.
+
+**Elsewhere.** `Card-Words/Approved-Card-Words.yaml` (on main, from the design thread) still holds the long taglines, and the prototype template follows it; they now differ from the registry. The design thread has been told.
+
+## 2026-10-20 — The "shaped by" names go on the front of the card (Mark)
+
+**Mark's words.** "no the names have to be on the front of the card".
+
+**What it settles.** The shortened tagline no longer carries the "shaped by" names, so the front now shows them on their own line under the two sentences, in the approved words: "Shaped by Ignatius, Justin and Polycarp among others." The names come from the approved `card.shaped` lists, unchanged, and "among others" is kept from the approved tagline. The back still lists them in its stats block. The taglines stay at two short sentences. Mark read "the names" as the shaped-by names; if he meant them inside the tagline sentence, say so.
