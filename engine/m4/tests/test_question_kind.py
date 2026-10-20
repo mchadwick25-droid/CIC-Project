@@ -106,7 +106,7 @@ def _world(oblique):
     return LoadedWorld(
         world_key="fix", manifest_hash="sha256:test", prompt_text="## Identity\nVera.", capsule_text="capsule",
         repository={"records": [witness]}, quotes={"quotes": []}, figures={"figures": []}, coverage={},
-        frame={"representative": {"name": "Vera", "role_label": "Witness"}},
+        frame={"representative": {"name": "Vera"}},
     )
 
 

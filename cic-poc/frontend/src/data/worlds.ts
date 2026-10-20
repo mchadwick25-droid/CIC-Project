@@ -14,7 +14,6 @@ export interface WorldEntry {
   displayName: string; // scholarly name ("to show rigor")
   cardName: string; // friendly name ("the right picture in their mind")
   representativeName: string;
-  roleLabel: string;
   place: string;
   eraStart: number;
   eraEnd: number;

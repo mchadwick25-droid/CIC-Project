@@ -1816,7 +1816,6 @@ const DATA = {
    "entry": {
     "representativeId": "chloe",
     "representativeName": "Chloe",
-    "representativeTitle": "Household Leader",
     "worldName": "The Scattered Households",
     "subtitle": "Post-Apostolic Household-Church Christianity",
     "color": "#955FF0",
@@ -2676,7 +2675,6 @@ const DATA = {
    "entry": {
     "representativeId": "theon",
     "representativeName": "Theon",
-    "representativeTitle": "Catechetical Teacher",
     "worldName": "Alexandrian Christianity",
     "subtitle": "Alexandrian Catechetical Tradition",
     "color": "#3B83BF",
@@ -3115,7 +3113,6 @@ const DATA = {
    "entry": {
     "representativeId": "mar-yausep",
     "representativeName": "Mar Yausep",
-    "representativeTitle": "Teacher of the Covenant Order",
     "worldName": "Syriac Christianity",
     "subtitle": "Syriac Christianity of Edessa and Nisibis",
     "color": "#CC5E0A",
@@ -4494,7 +4491,6 @@ const DATA = {
    "entry": {
     "representativeId": "papnoute",
     "representativeName": "Papnoute",
-    "representativeTitle": "Abba (Elder)",
     "worldName": "Desert Fathers and Mothers",
     "subtitle": "Desert Monasticism",
     "color": "#128D84",
@@ -4609,7 +4605,6 @@ const DATA = {
    "entry": {
     "representativeId": "fidelis",
     "representativeName": "Fidelis",
-    "representativeTitle": "Bishop of the Unbroken Line",
     "worldName": "The Church of the Martyrs",
     "subtitle": "Donatism",
     "color": "#4C946A",
@@ -5045,7 +5040,6 @@ const DATA = {
    "entry": {
     "representativeId": "chilo",
     "representativeName": "Chilo",
-    "representativeTitle": "Elder of the Brotherhoods",
     "worldName": "The Cappadocian Churches",
     "subtitle": "Cappadocian Pastoral-Monastic and Trinitarian Tradition",
     "color": "#C46437",
@@ -5488,7 +5482,6 @@ const DATA = {
    "entry": {
     "representativeId": "marius",
     "representativeName": "Marius",
-    "representativeTitle": "Deacon of the Letters",
     "worldName": "Church and Empire",
     "subtitle": "Imperial and Juridical Christianity",
     "color": "#C36060",
@@ -5758,7 +5751,6 @@ const DATA = {
    "entry": {
     "representativeId": "albina",
     "representativeName": "Albina",
-    "representativeTitle": "Widow of the Household",
     "worldName": "The Bethlehem Circle",
     "subtitle": "Hieronymian Ascetic-Literary Christianity",
     "color": "#E23B7F",
@@ -6663,7 +6655,6 @@ const DATA = {
    "entry": {
     "representativeId": "renatus",
     "representativeName": "Renatus",
-    "representativeTitle": "Bishop",
     "worldName": "The Monk-Bishops of Gaul",
     "subtitle": "Gallic Monastic-Ascetic Christianity",
     "color": "#8FA3AC",
@@ -17631,7 +17622,6 @@ const DATA = {
    "entry": {
     "representativeId": "nikolaus",
     "representativeName": "Nikolaus",
-    "representativeTitle": "Sexton-Schoolmaster",
     "worldName": "The Catechized Households of Wittenberg",
     "subtitle": "Lutheran Wittenberg & Its Congregations",
     "color": "#579C40",
@@ -17713,7 +17703,6 @@ const DATA = {
    "entry": {
     "representativeId": "theophilus",
     "representativeName": "Theophilus",
-    "representativeTitle": "Pastor",
     "worldName": "The Reformed Cities",
     "subtitle": "The Reformed Cities - Zurich & Geneva",
     "color": "#8787A1",
@@ -41338,7 +41327,7 @@ function openPanel(m){
   // their own `entry` record -- the whole point of "Built & Live" -- but until
   // now nothing on the map ever showed it. A click landed on the same bare
   // status/edges template as an unbuilt entry.
-  if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b>, ${esc(entry.representativeTitle)} — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>
+  if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>
     <button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
   h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>`;
   h+=`<p class="tree-link"><a href="tree/${m.id}.html">${esc(m.name)}</a> in the Family Tree</p>`;

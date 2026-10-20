@@ -15,8 +15,8 @@ DOOR gives the conversation screen its first-ever opening line -
 the event catalog was written, but nothing emitted one before this.
 
 DEPENDENCY_CHECK's `{representative_name}` slot (and DOOR's
-`{representative_name}`/`{role_label}`) are filled at call time from
-`world.frame["representative"]["name"]`/`["role_label"]` - the same
+`{representative_name}`) are filled at call time from
+`world.frame["representative"]["name"]` - the same
 registry-authored fields records/worlds.yaml carries per world (compiled
 into compiled/frame.json by engine.m2.builders.build_frame_json) and
 already used for the doorway screen. The Facilitator names itself plainly
@@ -85,7 +85,7 @@ SYSTEM_NATURE = FacilitatorTurn(
 DOOR = FacilitatorTurn(
     kind="door",
     text=(
-        "Welcome. You're about to speak with {representative_name}, {role_label} of {world_name}. "
+        "Welcome. You're about to speak with {representative_name} of {world_name}. "
         "Ask anything you like. {representative_name} will tell you plainly when the record runs out."
     ),
 )
@@ -172,10 +172,10 @@ def dependency_check_turn(representative_name: str) -> dict:
     return {"kind": DEPENDENCY_CHECK.kind, "text": text, "resources_appended": False}
 
 
-def door_turn(*, representative_name: str, role_label: str, world_name: str) -> dict:
-    """representative_name/role_label come from world.frame (registry-
+def door_turn(*, representative_name: str, world_name: str) -> dict:
+    """representative_name comes from world.frame (registry-
     authored, compiled by engine.m2.builders.build_frame_json) - the same
-    fields the doorway screen already showed before the participant clicked
+    field the doorway screen already showed before the participant clicked
     "Begin", not composed here.
 
     world_name is deliberately NOT world.frame["display_name"] - that field
@@ -187,7 +187,7 @@ def door_turn(*, representative_name: str, role_label: str, world_name: str) -> 
     and Empire"), and the Facilitator's own words should align with that
     text - so callers pass registry[world_key]["card_name"], falling back
     to display_name only for an entry that has none (the fix fixture)."""
-    text = DOOR.text.format(representative_name=representative_name, role_label=role_label, world_name=world_name)
+    text = DOOR.text.format(representative_name=representative_name, world_name=world_name)
     return {"kind": DOOR.kind, "text": text}
 
 
@@ -267,11 +267,11 @@ TABLE_DOOR = FacilitatorTurn(
 
 def table_door_turn(seated: list[dict]) -> dict:
     """seated: one dict per world in seating order, each carrying
-    representative_name/role_label straight from that world's compiled
+    representative_name straight from that world's compiled
     frame.json and world_name per door_turn's own card_name/display_name
     rule - the same registry-authored fields the interview's door_turn
     fills its slots from, composed here only with punctuation."""
-    parts = [f"{s['representative_name']}, {s['role_label']} of {s['world_name']}" for s in seated]
+    parts = [f"{s['representative_name']} of {s['world_name']}" for s in seated]
     if len(parts) == 2:
         seated_sentence = f"{parts[0]}, and {parts[1]}"
     else:

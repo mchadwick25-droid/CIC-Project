@@ -18,7 +18,6 @@ function world(overrides: Partial<WorldEntry> = {}): WorldEntry {
     displayName: 'Alexandrian Christianity',
     cardName: 'Alexandrian Christianity',
     representativeName: 'Theon',
-    roleLabel: 'Teacher',
     place: 'Alexandria',
     eraStart: 150,
     eraEnd: 400,

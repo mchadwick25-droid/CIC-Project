@@ -375,3 +375,22 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 ## 2026-10-20 — Fix: the hand of eleven scrolled the page sideways
 
 The merged hand (commit bca8e31b9) left the hidden cards transformed far to the right, so the page scrolled sideways by 809 px at 1434, 857 px at 1280 and 1054 px at 1024 (the table page by 156 to 351 px). `clip-path` on the hand does not remove them from the scrollable area. The hand now uses `overflow-x:clip;overflow-y:visible`, the fix the design thread found in its rebase; the raised card's lift and shadow stay whole. Measured after: 0 px at 1434, 1280, 1024 and 390 on both pages. I found this only after the design thread reported it; my earlier size tests ran before the all-eleven hand was merged.
+
+## 2026-10-20 — The Representative's role is removed everywhere (Mark)
+
+**Mark's words.** "i think the role description is a distraction, it adds no real value ... the portrait and name is enought". Then "not even include it in the build". Asked whether to drop it from the census and registry as well, he said "yes". Told that the role is also spoken in the Facilitator's welcome ("You're about to speak with Theophilus, Pastor of Zurich and Geneva."), he chose "Everywhere, including the welcome", over "Cards and census only" and "Leave the data as it is".
+
+**What changed.**
+- Registry: `role_label` removed from all twelve `records/worlds/*.yaml` (the eleven live worlds and the fixture).
+- Census, sync and gates: `representativeTitle` removed from `world-census.json`, from the census sync's field map and from the fleet check that compared it to the registry.
+- Facilitator: the welcome now reads "You're about to speak with Theophilus of Zurich and Geneva." The table welcome reads "Theon of Alexandrian Christianity, and Chloe of The Scattered Households." The Facilitator's seated-voices line in the table prompt drops it too.
+- Compiled packages: the capsule no longer carries the role, the frame no longer carries it, and the placeholder portrait shows the name only. All twelve packages were rebuilt and repinned in the registry; the twelve old manifests were removed.
+- Atlas: the panel's Representative line shows the name, then the tradition.
+- App (`cic-poc/frontend`): the arrival screen, the world cards and the table seats no longer show it.
+
+**Checked.** `engine.m2.cli staleness-check` passes (all twelve fresh); `engine.m6.cli check` passes; the app's type check passes and its 245 tests pass on a clean run (one embedded-page test failed once under load and passed on re-run). The engine tests for m4, api, m10, m6, m2 and the cross-world gate were still running when this was committed; CI will run them.
+
+**Not done, and why.**
+- No live model call was made. The compiled capsule and the Facilitator's welcome both changed, so any live admission test written against the old capsule has not been re-run on the new one. That needs Mark's approval by name, per CLAUDE.md 3.2.
+- `hal.voice.craft.md` still cites the registry's role_label (logged as OG-28 in `Build/worlds/hal/Open_Gaps_Tracking.md`).
+- Facilitator wording is governed by `CiC_L3D_Facilitator_Governance_V3.6.docx`; the change was not reviewed against that document or by an independent reviewer, as CLAUDE.md 4.4 asks for governance changes.

@@ -15,12 +15,12 @@ doorway_description: >-
   It closes at the Council of Chalcedon in 451.
 card_name: "Church and Empire"
 app: {order: 6, accent_color: "#B67D50", portrait: "/images/portraits/thumb/empire.webp"}
-representative: {name: Marius, role_label: "Deacon of the Letters"}
+representative: {name: Marius}
 state: admitted
 census_id: "imperial-juridical-christianity"
 package:
-  manifest_hash: "sha256:0e90958a9fe0f23d43bdf7b245807a393bff1c039537843818c573be5b3dc83e"
-  location: "packages/ijc/2026-10-17T20-52-18Z"
+  manifest_hash: "sha256:a6634cb891ef42c283b04ec2d6655ff6d0526ac2e3c2150cb5459b257794ec39"
+  location: "packages/ijc/2026-10-20T13-27-15Z"
 thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
 living_tradition_flag: true
 story_placement: false
