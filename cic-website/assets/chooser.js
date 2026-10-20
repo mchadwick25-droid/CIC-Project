@@ -155,9 +155,9 @@ function init(mount, census) {
   if (slot) { slot.textContent = ""; slot.appendChild(searchBox); }
   else mount.appendChild(el("div", { class: "chooser-top" }, [searchBox]));
   mount.appendChild(stage);
+  mount.appendChild(deckBox);
   mount.appendChild(nav);
   mount.appendChild(deckRow);
-  mount.appendChild(deckBox);
   mount.appendChild(hint);
   mount.appendChild(tray);
 

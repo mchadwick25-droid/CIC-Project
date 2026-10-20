@@ -484,3 +484,5 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Mark's words.** "lets swap the how it works and the era selection".
 
 **What changed.** Under the hand, the order is now the count and "See all 11", the era chips (with the count and the reasons a search matched, when one is showing), then the "How this works" control.
+
+**Correction to the entry above, same day (Mark: "actually the era selection should be directly under the cards as it interacts with them, then the see all 11 and other things, then the how it works").** Under the hand the order is now: the era chips (with the count and the reasons a search matched, when one is showing), then the count "3 of 11" and "See all 11" (and the full deck when it is open), then "How this works". The era row has a little more space above it so it does not touch the cards.
