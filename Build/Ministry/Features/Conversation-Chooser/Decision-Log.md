@@ -394,3 +394,103 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 - No live model call was made. The compiled capsule and the Facilitator's welcome both changed, so any live admission test written against the old capsule has not been re-run on the new one. That needs Mark's approval by name, per CLAUDE.md 3.2.
 - `hal.voice.craft.md` still cites the registry's role_label (logged as OG-28 in `Build/worlds/hal/Open_Gaps_Tracking.md`).
 - Facilitator wording is governed by `CiC_L3D_Facilitator_Governance_V3.6.docx`; the change was not reviewed against that document or by an independent reviewer, as CLAUDE.md 4.4 asks for governance changes.
+
+## 2026-10-20 — The card back carries new information and the full text (Mark)
+
+**Mark's words.** "the back of the card should have new information on it, not just a spaced out repeat of the front. it should have the era and name of the christian tradition, but doesnt need what is on the front, to make room for the full text that is currently hidden under everything."
+
+**Mark's choice on room.** Measured: with the repeats gone, the full text still needs 260 to 350 px; the back had about 200 px at the hand's card size. Asked how the back should get the room, he chose "Turned card opens larger", over "All cards grow taller" and "Keep size, text scrolls".
+
+**What changed.** The back now shows the era band, the tradition's formal name (the census `subtitle`, for example "Imperial and Juridical Christianity" where the front says "Church and Empire"), the full summary, the line on what the record holds, and the four buttons. The Representative's name, the years, the place and the "Shaped by" names are gone from the back; they stay on the front. The summary no longer scrolls. In the hand, cards keep their size. A turned card widens to 24 rem (never narrower than its hand size, never wider than the page) and takes the height its text needs, then folds back. The other cards in the hand keep their size while one is turned. The phone list also shows the whole text.
+
+## 2026-10-20 — Talk and Seat move to the front; one button on the back; click turns the card back (Mark)
+
+**Mark's words.** "to make more room, lets 1) put the choices to talk with and select for table on the front, on each side of the portraite. then have a single get more information at the bottom and take a way the box for turn card over and just have a click on the card turn it back over like it did to turn it over the first time, that should create more room for text".
+
+**What changed.** On the front of the card, "Talk" sits on the left of the portrait and "Seat" on the right, each a button with an icon and a one-word label. They show on the card at the front of the hand; the other cards in the fan keep a clean face and a click brings them forward. Seat shows "Seated" once the Representative has a chair. On the Build a Table page Seat is the red button; on the landing page Talk is. The back has one button at the bottom, "Get more information", which opens the tradition's page. "Turn the card back" is gone: a click anywhere on the back (except that button) turns the card over, and from the keyboard Enter on the text, or Escape, does the same. The phone list shows both buttons on every card.
+
+**Left as it was.** The spoken names stay full: "Talk with Marius" and "Seat Marius at the table" are the buttons' accessible names.
+
+## 2026-10-20 — Quieter Talk and Seat; the record line leaves the back; bigger back text (Mark)
+
+**Mark's words.** "lets make the buttons more suttle, not a button by a click on an image or short word. i dont want to distract from the cleaness and impact of the card as a collector or valueable card". Then: "get rid of the what the record holds, that is very ai, just make the text bigger to fit,".
+
+**What changed.** Talk and Seat on the front are no longer boxed buttons: each is a small icon and one word on the portrait, white with a soft dark glow behind it, turning gold on hover, on focus and once seated. The red fill is gone, so Talk and Seat look the same on both pages. The back no longer shows "What the record holds: ...". The summary on a turned card is set larger (17 px or more) and fills the room the line and the button row freed.
+
+**Checked.** Contrast of the two labels was measured on the rendered pixels behind them, for all eleven portraits: the worst single pixel behind a label is 4.2:1, and 21 of the 22 labels are at or above 4.5:1 at their worst pixel. The soft dark glow behind the text adds to this and is not counted. All eleven turned cards fit their text and button with no clipping at 1434x717; the other sizes are listed in the run after this entry.
+
+**Not changed.** The "record holds" text is still in the registry (`card.record_holds`) and the census (`recordHolds`). Mark said to remove it from the card; whether it leaves the data is a separate decision.
+
+## 2026-10-20 — Scrolling turns a card back; a seated card stays raised in its place (Mark)
+
+**Mark's words.** "also on the scroll, if the card is turned over and then the user scrolls on flip it back over so it doesn't stand out, if it has been selected for a table keep is facing front and elevated to mark it has been selected, but still sitting in the scroll in it place not over anything."
+
+**What changed.** When the hand moves by wheel, swipe, either arrow or the arrow keys, any card that is turned over flips back to its front, so the enlarged back never stays on screen while the hand rolls. A card chosen for the table sits face-front and raised about 16 px above its neighbours, in its own place in the row, with the same layering as the cards around it, so it never covers another card. The raised card at the front of the hand is still the highest. The red ring around a seated card is unchanged.
+
+**Checked.** In a headless browser: a turned card flips back on the arrow, and on a wheel notch; a seated card two places left of the front card sits about 16 px higher than its neighbours with the layer order of its place (98, between 97 and 99).
+
+## 2026-10-20 — The word "Seat" becomes "Table" on the card (Mark)
+
+**Mark's words.** "lets change the word seat to table".
+
+**What changed.** The second front-of-card action reads "Table"; once chosen it reads "On table", and the badge on a chosen card reads "On table" (was "Seated"). The spoken names read "Add Marius to the table" and "Remove Marius from the table".
+
+**Left as it was.** The tray's own wording ("Your table", "1 of 3 seated. Seat one more to open the table.", "Three is the most a table can seat.") still uses seat and seated. Mark named the word on the card; whether the tray follows is his call.
+
+## 2026-10-20 — The tray follows "table" (Mark: "yes, change the tray to match")
+
+**What changed.** The tray's lines now say table where they said seat: "No one is on the table yet. Add two or three voices, then go." / "1 of 3 on the table. Add one more to open the table." / "2 of 3 on the table. Ready when you are." / "A table holds three at most. Remove one to add another." The list of chosen voices is named "On your table" for screen readers. Each line reads at about grade 1 to 3 (Flesch-Kincaid) and Reading Ease 86 to 103.
+
+**Left as it was.** On the Build a Table page, the AI statement ("Each voice you seat is a representative voice, not a person who lived ...") and the no-script note ("Choosing seats here needs JavaScript ...") still say seat. The AI statement is wording Mark ruled should stay as it is, so it was not touched; a change to it is his call.
+
+## 2026-10-20 — The AI statement on the Build a Table page says "add to your table" (Mark)
+
+**Mark's words.** Asked whether the AI statement should read "Each voice you add to your table ...", he said "yes that sounds better".
+
+**What changed.** On the Build a Table page the statement now reads "Each voice you add to your table is a representative voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out." Only the verb phrase changed; the rest of the sentence is as it was. The no-script note on the same page, which Mark did not name, now says "Choosing voices here needs JavaScript." so that no word on the page says seat.
+
+**Follow-up, same day (Mark: "each representitive you add").** The statement's opening noun is now "representative": "Each representative you add to your table is a representative voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out." The repeat of "representative" is Mark's wording as given; the shorter "Each representative you add to your table is a voice, not a person who lived" was not made.
+
+**Follow-up, same day (Mark: "you add to the table").** "your table" becomes "the table": "Each representative you add to the table is a representative voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out."
+
+**Follow-up, same day (Mark: "is a ai generated voice, not a person who lived").** The statement now reads: "Each representative you add to the table is an AI-generated voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out." The article is "an" before "AI-generated", and "AI-generated" is hyphenated as a single describing word.
+
+**Follow-up, same day (Mark: "drop the tail").** The statement now ends after "not a person who lived": "Each representative you add to the table is an AI-generated voice, not a person who lived." The clause "built from that tradition's own letters and records, and honest about where they run out" is gone from this page.
+
+**Follow-up, same day (Mark: "no keep build brom, but drop and hones about").** The statement keeps the "built from" clause and drops "and honest about where they run out": "Each representative you add to the table is an AI-generated voice, not a person who lived — built from that tradition's own letters and records."
+
+**Follow-up, same day (Mark: "get rid of the dash, use a comma").** The statement now reads: "Each representative you add to the table is an AI-generated voice, not a person who lived, built from that tradition's own letters and records."
+
+**Follow-up, same day (Mark: "two sendences").** The statement is two sentences: "Each representative you add to the table is an AI-generated voice, not a person who lived. Each is built from that tradition's own letters and records."
+
+**Follow-up, same day (Mark: "lets add 'each tradition is built from...' to the second sentence").** The second sentence now opens "Each tradition is built from its own letters and records." ("that tradition's own" became "its own", since the subject is now the tradition.) The statement: "Each representative you add to the table is an AI-generated voice, not a person who lived. Each tradition is built from its own letters and records."
+
+## 2026-10-20 — The "All 11 voices, in order of time" line is removed (Mark)
+
+**Mark's words.** "we can delete the 11 voices in order of time".
+
+**What changed.** The line under the era chips that read "All 11 voices, in order of time." is gone, and its empty space with it. When a search or an era chip narrows the row, the count and the reasons it matched still show ("2 matches, in order of time.", "Showing 2 of 11, in order of time."). The hand's spoken label for screen readers is unchanged.
+
+## 2026-10-20 — The map link and the one-voice line go; instructions open and close (Mark)
+
+**Mark's words.** "we can also drop the family tree link (it right underneath and the talk with one voice, the are repetitive. we do need a instructions that can open and close".
+
+**What changed.** Two lines are gone from the landing page: "The whole map is one step away: browse every tradition on the Church Family Tree." (the Church Family Tree box sits right below it, and the header has the link) and "Talk with one voice, or build a table of two or three." The one-line hint under the hand is replaced by a "How this works" control, closed by default, that opens and closes on a click or on Enter and Space: "Click a card to bring it forward. Click it again to turn it over." / "Talk starts a conversation with that one voice." / "Table adds the voice to a table of two or three. When you have two or three, choose Go to the table." / "Scroll, swipe or use the arrows to see more cards. Search or pick an era to narrow them." The block reads at about grade 2 (Flesch-Kincaid) and Reading Ease 97. The same control shows on the Build a Table page.
+
+**Checked.** In a headless browser the control starts closed, opens on a click and closes on Enter; neither removed line is on the page; no sideways scroll at 1434 or 390 px; no script errors.
+
+## 2026-10-20 — The era chips come before "How this works" (Mark)
+
+**Mark's words.** "lets swap the how it works and the era selection".
+
+**What changed.** Under the hand, the order is now the count and "See all 11", the era chips (with the count and the reasons a search matched, when one is showing), then the "How this works" control.
+
+**Correction to the entry above, same day (Mark: "actually the era selection should be directly under the cards as it interacts with them, then the see all 11 and other things, then the how it works").** Under the hand the order is now: the era chips (with the count and the reasons a search matched, when one is showing), then the count "3 of 11" and "See all 11" (and the full deck when it is open), then "How this works". The era row has a little more space above it so it does not touch the cards.
+
+## 2026-10-20 — "Representative" in place of "voice" in the page's own words (Mark)
+
+**Mark's words.** "lets use representitive and not voice."
+
+**What changed.** In the chooser's own words: the "How this works" lines ("Talk starts a conversation with that one representative." / "Table adds the representative to a table of two or three. ..."), the tray line ("No one is on the table yet. Add two or three representatives, then go."), the hand's spoken label ("11 representatives in order of time ...") and, on the Build a Table page, the load-failure note ("The representatives could not load just now. ...") and the no-script note ("Choosing representatives here needs JavaScript.").
+
+**Left as it was, Mark's call.** (1) The approved card taglines in the registry, each of which says "is a representative voice for the Christian tradition of ..."; they are approved text. (2) The Build a Table statement, "an AI-generated voice, not a person who lived", which is Mark's own wording from earlier today. (3) The lede on that page, "each speaks from its own record, in its own voice", where "voice" means manner of speaking.

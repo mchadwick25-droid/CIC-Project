@@ -25,7 +25,6 @@ function shuffleIndex(len) { return Math.floor(Math.random() * len); }
 function init(mount, census) {
   var mode = mount.getAttribute("data-mode") === "table" ? "table" : "landing";
   var fromPage = mount.getAttribute("data-from") || "index.html#who";
-  var treeHref = mount.getAttribute("data-tree") || "atlas-v3.html";
 
   var eras = {};
   census.eras.forEach(function (e) {
@@ -58,7 +57,6 @@ function init(mount, census) {
         shaped: Array.isArray(en.shaped) ? en.shaped.join(", ") : (en.shaped || ""),
         shapedList: Array.isArray(en.shaped) ? en.shaped : [],
         summary: en.summary || en.tile || "",
-        record: en.recordHolds || "",
         matches: Array.isArray(en.matches) ? en.matches : [],
         voices: (m.voices || []).filter(function (v) { return typeof v === "string"; }),
         start: m.start,
@@ -134,16 +132,19 @@ function init(mount, census) {
   var stage = el("div", { class: "chooser-stage" }, [hand, prevBtn, nextBtn]);
   var allBtn = el("button", { type: "button", class: "cbtn quiet", "aria-expanded": "false" });
   var nav = el("div", { class: "chooser-nav" }, [posEl, allBtn]);
-  var hint = el("p", { class: "chooser-hint", text: "Hover or tab to raise a card. Press Enter on a raised card to turn it over. Scroll, swipe or use the arrow keys to roll the hand." });
-  var deckRow = el("div", { class: "chooser-deckrow", hidden: true });
-  var tree = el("p", { class: "chooser-tree" }, [
-    document.createTextNode("The whole map is one step away: "),
-    el("a", { href: treeHref, text: "browse every tradition on the Church Family Tree" }),
-    document.createTextNode(".")
+  var hint = el("details", { class: "chooser-how" }, [
+    el("summary", { text: "How this works" }),
+    el("ul", null, [
+      el("li", { text: "Click a card to bring it forward. Click it again to turn it over." }),
+      el("li", { text: "Talk starts a conversation with that one representative." }),
+      el("li", { text: "Table adds the representative to a table of two or three. When you have two or three, choose Go to the table." }),
+      el("li", { text: "Scroll, swipe or use the arrows to see more cards. Search or pick an era to narrow them." })
+    ])
   ]);
+  var deckRow = el("div", { class: "chooser-deckrow", hidden: true });
 
   // ---------- tray ----------
-  var seatsEl = el("ul", { class: "seats", "aria-label": "Seated at your table" });
+  var seatsEl = el("ul", { class: "seats", "aria-label": "On your table" });
   var statusEl = el("span", { class: "status", "aria-live": "polite" });
   var goBtn = el("button", { type: "button", class: "cbtn primary go", text: "Go to the table" });
   var facilitator = el("a", { class: "cbtn quiet facilitator", text: "Have the Facilitator set the table →" });
@@ -154,11 +155,10 @@ function init(mount, census) {
   if (slot) { slot.textContent = ""; slot.appendChild(searchBox); }
   else mount.appendChild(el("div", { class: "chooser-top" }, [searchBox]));
   mount.appendChild(stage);
+  mount.appendChild(deckBox);
   mount.appendChild(nav);
   mount.appendChild(deckRow);
   mount.appendChild(hint);
-  mount.appendChild(deckBox);
-  mount.appendChild(tree);
   mount.appendChild(tray);
 
   // ---------- links ----------
@@ -168,43 +168,41 @@ function init(mount, census) {
   }
 
   // ---------- cards ----------
+  var ICON_TALK = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h16v11H10l-5 4v-4H4z"/></svg>';
+  var ICON_SEAT = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v8M8 9h8M6 21v-5h12v5"/></svg>';
+  function icon(svg) { var s = el("span", { class: "ico" }); s.innerHTML = svg; return s; }
+
   function cardEl(w) {
     var e = eras[w.era] || { no: "", name: "", dates: "", tint: FALLBACK_TINT };
     var card = el("article", { class: "card", "data-id": w.id });
     card.style.setProperty("--era", e.tint);
     var bandText = (e.no ? e.no + ". " : "") + e.name;
-    var statRows = [["Years", w.dates], ["Place", w.place]];
-    if (w.shaped) statRows.push(["Shaped by", w.shaped]);
-
     var front = el("button", { type: "button", class: "cfront", "data-act": "front",
       "aria-label": w.rep + ", " + w.world + ", " + e.name + ". " + w.dates + ". Press to bring the card forward, then again to turn it over." });
     var img = el("img", { src: w.img, alt: "", loading: "lazy", decoding: "async" });
+    var talk = el("a", { class: "sidebtn left", "data-act": "talk", "aria-label": "Talk with " + w.rep }, [icon(ICON_TALK), el("span", { class: "lbl", text: "Talk" })]);
+    var seat = el("button", { type: "button", class: "sidebtn right", "data-act": "seat", "aria-pressed": "false", "aria-label": "Add " + w.rep + " to the table" }, [icon(ICON_SEAT), el("span", { class: "lbl", text: "Table" })]);
+    (mode === "table" ? seat : talk).classList.add("primary");
     var frontFace = el("div", { class: "face front" }, [
       el("div", { class: "band" }, [el("span", { text: bandText }), el("span", { text: e.dates })]),
       el("div", { class: "head" }, [el("p", { class: "tname", text: w.world }), el("p", { class: "tdates", text: w.dates + " · " + w.place })]),
-      el("div", { class: "pic" }, [img]),
+      el("div", { class: "pic" }, [img, talk, seat]),
       el("div", { class: "plate" }, [el("p", { class: "rep", text: w.rep }), w.tag ? el("p", { class: "tag", text: w.tag }) : null, w.shapedList.length ? el("p", { class: "shapedby", text: "Shaped by " + joinNames(w.shapedList) + " among others." }) : null]),
       front
     ]);
 
-    var talk = el("a", { class: "cbtn", "data-act": "talk", text: "Talk with " + w.rep });
-    var seat = el("button", { type: "button", class: "cbtn", "data-act": "seat", "aria-pressed": "false", text: "Seat at the table" });
-    var about = el("a", { class: "cbtn quiet", href: "traditions/" + w.id + ".html", text: "About this tradition" });
-    var back = el("button", { type: "button", class: "cbtn quiet", "data-act": "back", text: "Turn the card back" });
-    if (mode === "table") { seat.classList.add("primary"); } else { talk.classList.add("primary"); }
-    var acts = mode === "table" ? [seat, talk, about, back] : [talk, seat, about, back];
+    var about = el("a", { class: "cbtn quiet", href: "traditions/" + w.id + ".html", text: "Get more information" });
 
-    var body = el("div", { class: "bbody", tabindex: "0", role: "group", "aria-label": "About " + w.world },
-      [w.summary ? el("p", { text: w.summary }) : null, w.record ? el("p", { class: "rec", text: "What the record holds: " + w.record }) : null]);
+    var body = el("div", { class: "bbody", tabindex: "0", role: "group", "aria-label": "About " + w.world + ". Press Enter to turn the card back." },
+      [w.summary ? el("p", { text: w.summary }) : null]);
     var backFace = el("div", { class: "face back", inert: true }, [
       el("div", { class: "band" }, [el("span", { text: bandText }), el("span", { text: e.dates })]),
-      el("p", { class: "btitle", text: w.rep + " · " + w.world }),
-      el("div", { class: "stats" }, statRows.map(function (r) { return el("div", null, [el("b", { text: r[0] }), el("span", { text: r[1] })]); })),
+      el("p", { class: "btitle", text: w.subtitle || w.name }),
       body,
-      el("div", { class: "acts" }, acts)
+      el("div", { class: "acts" }, [about])
     ]);
 
-    card.appendChild(el("span", { class: "seatmark", "aria-hidden": "true", text: "Seated" }));
+    card.appendChild(el("span", { class: "seatmark", "aria-hidden": "true", text: "On table" }));
     card.appendChild(el("div", { class: "inner" }, [frontFace, backFace]));
 
     front.addEventListener("click", function () {
@@ -214,23 +212,26 @@ function init(mount, census) {
     card.addEventListener("keydown", function (ev) {
       if (ev.key === "Escape" && card.classList.contains("turned")) { turn(card, false); ev.stopPropagation(); }
     });
-    acts.forEach(function (a) {
-      var act = a.getAttribute("data-act");
-      if (act === "back") a.addEventListener("click", function () { turn(card, false); });
-      if (act === "seat") a.addEventListener("click", function () { toggleSeat(w.id); });
+    seat.addEventListener("click", function () { toggleSeat(w.id); });
+    backFace.addEventListener("click", function (ev) {
+      if (ev.target.closest("a")) return;
+      turn(card, false);
+    });
+    body.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); turn(card, false); }
     });
     return card;
   }
 
-  function turn(card, on) {
+  function turn(card, on, quiet) {
     var frontFace = card.querySelector(".face.front"), backFace = card.querySelector(".face.back");
     card.classList.toggle("turned", on);
     if (on) {
       frontFace.setAttribute("inert", ""); backFace.removeAttribute("inert");
-      var first = backFace.querySelector(".acts .cbtn"); if (first) first.focus();
+      backFace.querySelector(".bbody").focus();
     } else {
       backFace.setAttribute("inert", ""); frontFace.removeAttribute("inert");
-      card.querySelector(".cfront").focus();
+      if (!quiet) card.querySelector(".cfront").focus();
     }
   }
 
@@ -242,9 +243,9 @@ function init(mount, census) {
       card.classList.toggle("seated", on);
       var seat = card.querySelector('[data-act="seat"]');
       seat.setAttribute("aria-pressed", on ? "true" : "false");
-      seat.textContent = on ? "Leave the table" : "Seat at the table";
+      seat.querySelector(".lbl").textContent = on ? "On table" : "Table";
+      seat.setAttribute("aria-label", on ? "Remove " + w.rep + " from the table" : "Add " + w.rep + " to the table");
       card.querySelector('[data-act="talk"]').setAttribute("href", talkHref([id], "interview", via[id] || "hand"));
-      void w;
     });
   }
 
@@ -258,19 +259,21 @@ function init(mount, census) {
       card.classList.toggle("peek", Math.abs(d) === FAN + 1);
       card.classList.toggle("off", Math.abs(d) > FAN + 1);
       card.setAttribute("aria-current", d === 0 ? "true" : "false");
-      card.querySelector(".cfront").setAttribute("tabindex", (d === 0 || listMode()) ? "0" : "-1");
+      [].forEach.call(card.querySelectorAll(".cfront, .sidebtn"), function (c) { c.setAttribute("tabindex", (d === 0 || listMode()) ? "0" : "-1"); });
     });
     posEl.textContent = cards.length ? (active + 1) + " of " + cards.length : "";
     prevBtn.setAttribute("aria-disabled", active <= 0 ? "true" : "false");
     nextBtn.setAttribute("aria-disabled", active >= cards.length - 1 ? "true" : "false");
-    hand.setAttribute("aria-label", handIds.length + " voices in order of time. Use the arrow keys, scroll or swipe to roll the hand.");
+    hand.setAttribute("aria-label", handIds.length + " representatives in order of time. Use the arrow keys, scroll or swipe to roll the hand.");
     var minis = deckRow.querySelectorAll(".mini");
     [].forEach.call(minis, function (m) { m.classList.toggle("inhand", m.getAttribute("data-id") === handIds[active]); });
   }
 
   function setActive(i, focus) {
     if (!handIds.length) return;
-    active = Math.max(0, Math.min(handIds.length - 1, i));
+    var next = Math.max(0, Math.min(handIds.length - 1, i));
+    if (next !== active) [].forEach.call(hand.querySelectorAll(".card.turned"), function (c) { turn(c, false, true); });
+    active = next;
     layout();
     if (focus) { var c = hand.children[active]; if (c) c.querySelector(".cfront").focus(); }
   }
@@ -406,7 +409,7 @@ function init(mount, census) {
       activeId = deck[0];
       countEl.textContent = "Showing " + deck.length + " of " + allIds.length + ", in order of time.";
     } else {
-      countEl.textContent = "All " + deck.length + " voices, in order of time.";
+      countEl.textContent = "";
     }
     renderHand(activeId);
     renderDeckRow(deck);
@@ -460,7 +463,7 @@ function init(mount, census) {
   function toggleSeat(id) {
     var i = seated.indexOf(id);
     if (i >= 0) seated.splice(i, 1);
-    else if (seated.length >= MAX_SEATS) { statusEl.textContent = "Three is the most a table can seat. Leave a seat to take another."; return; }
+    else if (seated.length >= MAX_SEATS) { statusEl.textContent = "A table holds three at most. Remove one to add another."; return; }
     else seated.push(id);
     decorateCards();
     renderTray();
@@ -483,9 +486,9 @@ function init(mount, census) {
       rm.addEventListener("click", function () { toggleSeat(id); });
       seatsEl.appendChild(el("li", { class: "chip" }, [document.createTextNode(w.rep), rm]));
     });
-    statusEl.textContent = n === 0 ? "No one seated yet. Seat two or three voices, then go."
-      : n === 1 ? "1 of " + MAX_SEATS + " seated. Seat one more to open the table."
-      : n + " of " + MAX_SEATS + " seated. Ready when you are.";
+    statusEl.textContent = n === 0 ? "No one is on the table yet. Add two or three representatives, then go."
+      : n === 1 ? "1 of " + MAX_SEATS + " on the table. Add one more to open the table."
+      : n + " of " + MAX_SEATS + " on the table. Ready when you are.";
     goBtn.disabled = n < 2;
     goBtn.setAttribute("aria-disabled", n < 2 ? "true" : "false");
     facilitator.hidden = !(mode === "table" && n === 0);
