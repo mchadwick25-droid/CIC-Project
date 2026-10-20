@@ -14,7 +14,12 @@
  * Usage:
  *   ELEVENLABS_API_KEY=... node Build/tools/generate_world_narration.mjs \
  *     --world <census-id> --voice-id <id> --model <model_id> \
- *     --api-speed <n> --tempo <n> --settings-json '<voice_settings>' [--prefix '[audio tag] '] [--only <key,...>] [--dry-run] [--force]
+ *     --api-speed <n> --tempo <n> --settings-json '<voice_settings>' \
+ *     --approved-run "<name>" --char-cap <n> [--prefix '[audio tag] '] [--only <key,...>] [--dry-run] [--force]
+ *
+ * --approved-run (the run Mark approved after hearing its sample) and
+ * --char-cap (its character limit, counting the prefix on every request) are
+ * required except with --dry-run; a run that plans more refuses to start.
  *
  * --prefix puts an instruction (e.g. an accent tag) in front of every request's
  * text; it is printed and recorded in the manifest.
@@ -33,7 +38,7 @@ import path from 'path';
 import os from 'os';
 import { execFileSync } from 'child_process';
 import { fileURLToPath } from 'url';
-import { NARRATION_BITRATE, NARRATION_OUTPUT_FORMAT, requirePaidSettings, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
+import { NARRATION_BITRATE, NARRATION_OUTPUT_FORMAT, requireApprovedRun, requirePaidSettings, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -42,7 +47,7 @@ export const worldManifestPath = path.join(worldAudioDir, 'manifest.json');
 export const MAX_CHARS_PER_REQUEST = 4500;
 
 export function parseArgs(argv) {
-  const o = { world: null, voiceId: null, model: null, apiSpeed: null, tempo: null, settingsJson: null, prefix: '', only: null, dryRun: false, force: false };
+  const o = { world: null, voiceId: null, model: null, apiSpeed: null, tempo: null, settingsJson: null, prefix: '', only: null, dryRun: false, force: false, approvedRun: null, charCap: null };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') o.dryRun = true;
@@ -55,6 +60,8 @@ export function parseArgs(argv) {
     else if (a === '--settings-json') o.settingsJson = argv[++i];
     else if (a === '--prefix') o.prefix = argv[++i];
     else if (a === '--only') o.only = argv[++i].split(',').map((k) => k.trim()).filter(Boolean);
+    else if (a === '--approved-run') o.approvedRun = argv[++i];
+    else if (a === '--char-cap') o.charCap = Number(argv[++i]);
     else throw new Error(`unrecognized argument: ${a}`);
   }
   return o;
@@ -97,6 +104,13 @@ function tempoFile(inFiles, outFile, tempo) {
   fs.rmSync(dir, { recursive: true, force: true });
 }
 
+/** Characters the run will send: the pieces it does not skip, each request with its prefix. */
+export function billableChars(pieces, entry, { prefix = '', force = false, only = null } = {}) {
+  return pieces
+    .filter((p) => !(entry[p.key] && !force && !only))
+    .reduce((n, p) => n + p.parts.reduce((m, t) => m + prefix.length + t.length, 0), 0);
+}
+
 async function run() {
   const opts = parseArgs(process.argv.slice(2));
   if (!opts.world) throw new Error('--world is required');
@@ -115,6 +129,7 @@ async function run() {
   if (opts.dryRun) return;
 
   requirePaidSettings(opts);
+  requireApprovedRun(opts, billableChars(pieces, manifest[opts.world] || {}, opts));
   for (const [flag, v] of [['--api-speed', opts.apiSpeed], ['--tempo', opts.tempo], ['--settings-json', opts.settingsJson]]) {
     if (!v) throw new Error(`${flag} is required and is never read from the environment.`);
   }
@@ -125,6 +140,7 @@ async function run() {
   fs.mkdirSync(outDir, { recursive: true });
 
   console.log('=== PAID RUN, settings as actually used ===');
+  console.log(`approved run : ${opts.approvedRun}   char cap: ${opts.charCap}`);
   console.log(`voice id : ${opts.voiceId}\nmodel    : ${opts.model}\nsettings : ${JSON.stringify(settings)}\nprefix   : ${opts.prefix ? JSON.stringify(opts.prefix) : '(none)'}\nformat   : ${NARRATION_OUTPUT_FORMAT}, re-encoded at ${NARRATION_BITRATE} mono\ntempo    : ${opts.tempo}x after synthesis\nchars    : ${chars}`);
   console.log('===========================================');
 
