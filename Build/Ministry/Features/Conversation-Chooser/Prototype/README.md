@@ -24,4 +24,4 @@ open('/tmp/chooser-directions.html', 'w').write(out)
 EOF
 ```
 
-The page is a prototype, not the build. Its card words are drafts; Donatism is provisional. The design the build follows is in `../Build-Plan.md`.
+The page is a prototype, not the build. Its card words are the drafts at the state Mark has approved so far (see `../Decision-Log.md`, 2026-10-20); they are not yet in `records/`. The design the build follows is in `../Build-Plan.md`.

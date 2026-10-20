@@ -257,3 +257,34 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** On the question of the three header buttons, he replied "looks great" (about the current page). Later: "i had two threads going and i am moving to landing page and card selection to finish this".
 
 **What it settles.** The three header buttons are unchanged on every page. Mark is finishing the landing page and card selection in the thread of that name, so the build thread stopped making changes and left `Build/Ministry/Operations/Handoffs/2026-10-20_conversation-chooser-build.md`. The centred, unboxed layout relayed by the design thread was not built here: it conflicts with the layout Mark approved in this thread, and he had not answered which he wants.
+
+## 2026-10-20 — Change order (Mark): the landing page opens with the chooser, not a title
+
+**Mark's words.** "This is not working, do we need the title? Can we get it with a tweak to the who would you like to converse with? We need the cards to land on the landing page for computers and iPads."
+
+**What was measured** on the build's page (PR 987, commit `e3bfe484`, rendered locally): the masthead ends at 111 px; the title block takes 270 px; the chooser heading sits at 444 px; the cards start at 630 px. On a 900 px laptop or a 768 px iPad on its side, the cards are below the first screen. With the title block removed and nothing else changed, the cards start at about 360 px: the whole hand shows on an iPad held upright (1180 px), a laptop at 900 px shows all but the lowest 60 px of the fan, and a 768 px screen shows the top 400 px of the cards. Tightening the chooser's own padding saves only 9 px more; the hand itself is 590 px tall.
+
+**Decision (Mark).** Drop the title. The chooser heading opens the page, and its sub-line carries the title's point: "Each voice is built from its own tradition's records. Talk with one, or seat two or three at a table." Chosen over keeping a one-line title (the cards would still start at 510 px) and over dropping the title alone.
+
+**Carried to the build thread.** The `.hero` block and its two sentences go; the chooser section keeps `id="who"`; the sub-line is the sentence above. Still open, not yet put to Mark: whether the hand scales down by about a tenth on screens under 950 px tall so the whole fan fits a 900 px laptop. Recommended, since the fan's lowest edge is the only part cut.
+
+**Why.** The cards are the invitation; a title above them says what the cards already show. Theme D's rule is a clean page with the few in front.
+
+## 2026-10-20 — Change order (Mark): the page takes the feel of the Google Arts and Culture home
+
+**Mark's words.** "I really like this layout, can we learn from it", with a screenshot of the Google Arts and Culture home ("Who's your favorite?" over a hand of five portrait cards). Then: "keeping the hand and search, just the feel of the page." Then, on the mock: "I would like you to merge this with the new deck design conversation chooser research, and this layout with the tell us what you think to the left of menu, not next to the logo."
+
+**What was learned from the Google page** (read from the screenshot, not opened: the host is still blocked). One short centred question and nothing else above the cards. The hand runs the content width with no box, border or panel around it, and the raised card is nearly a screen tall. No controls in the first screen. A thin one-row masthead of text links. The lightness comes from space and fewer elements. The Google card itself is bare, a portrait and a name; the collector's card Mark chose stays as it is.
+
+**Decision (Mark).** The build's landing page takes this feel, keeping the hand and the search:
+- The chooser loses its panel: no border, background or padding. The heading "Who would you like to have a conversation with?" sits centred, light weight, in the text colour, with the search bubble centred under it and the hint line removed. The sub-line decided earlier today moves out of the first screen or goes.
+- The hand runs the content width, cards about 390 px wide on a laptop, so the fan fills a 1280 by 900 screen with the controls just under the fold.
+- Previous, the count, Next, Shuffle, See all, the era chips and the written count sit under the hand in one quiet row.
+- The masthead is one row: the wordmark at the left; the three feature links as plain text links; "Tell us what you think" immediately to the left of Menu at the right, not beside the wordmark.
+- Not taken: a larger raised card beyond the hand's own lift.
+
+**Measured on the mock** (browser style overrides on the build's page at `e3bfe484`, nothing built): masthead 0 to 68 px; heading at 111 px; search 171 to 219 px; cards 228 to 854 px; the control row at 841 px.
+
+**Carried to the build thread** as one change order with the title change above. This closes the "merge the two threads" ask: the design thread's findings and the build thread's deck both land in PR 987.
+
+**Why.** The first screen should be the invitation and nothing else. Theme D asked for a clean page with a rotating few in front; the Google page shows what that looks like at full strength.
