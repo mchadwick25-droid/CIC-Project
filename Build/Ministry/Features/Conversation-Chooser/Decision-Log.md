@@ -442,3 +442,9 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** The tray's lines now say table where they said seat: "No one is on the table yet. Add two or three voices, then go." / "1 of 3 on the table. Add one more to open the table." / "2 of 3 on the table. Ready when you are." / "A table holds three at most. Remove one to add another." The list of chosen voices is named "On your table" for screen readers. Each line reads at about grade 1 to 3 (Flesch-Kincaid) and Reading Ease 86 to 103.
 
 **Left as it was.** On the Build a Table page, the AI statement ("Each voice you seat is a representative voice, not a person who lived ...") and the no-script note ("Choosing seats here needs JavaScript ...") still say seat. The AI statement is wording Mark ruled should stay as it is, so it was not touched; a change to it is his call.
+
+## 2026-10-20 — The AI statement on the Build a Table page says "add to your table" (Mark)
+
+**Mark's words.** Asked whether the AI statement should read "Each voice you add to your table ...", he said "yes that sounds better".
+
+**What changed.** On the Build a Table page the statement now reads "Each voice you add to your table is a representative voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out." Only the verb phrase changed; the rest of the sentence is as it was. The no-script note on the same page, which Mark did not name, now says "Choosing voices here needs JavaScript." so that no word on the page says seat.
