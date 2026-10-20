@@ -131,7 +131,8 @@ function init(mount, census) {
   var nextBtn = el("button", { type: "button", class: "chooser-arrow next", "aria-label": "Next card" });
   var stage = el("div", { class: "chooser-stage" }, [hand, prevBtn, nextBtn]);
   var allBtn = el("button", { type: "button", class: "cbtn quiet", "aria-expanded": "false" });
-  var nav = el("div", { class: "chooser-nav" }, [posEl, allBtn]);
+  var viewBtn = el("button", { type: "button", class: "cbtn quiet viewbtn", hidden: true });
+  var nav = el("div", { class: "chooser-nav" }, [posEl, allBtn, viewBtn]);
   var hint = el("details", { class: "chooser-how" }, [
     el("summary", { text: "How this works" }),
     el("ul", null, [
@@ -391,7 +392,10 @@ function init(mount, census) {
     whyEl.textContent = "";
     var activeId = null;
     if (!deck.length) {
-      countEl.textContent = "Nothing matches that yet. Try an era, a place, or another name.";
+      var elsewhere = deckState.era && allIds.some(function (id) { var t = deckState.q.trim().toLowerCase(); return haystack(byId[id], !isTopicTerm(t)).indexOf(t) >= 0 || inYears(byId[id], t); });
+      countEl.textContent = !term ? "Nothing matches that yet. Try an era, a place, or another name."
+        : elsewhere ? "Nothing in this era matches that. Choose All eras to see the rest."
+        : "There is no conversation built around " + term + " right now.";
       hand.textContent = ""; posEl.textContent = ""; handIds = [];
       renderDeckRow(deck);
       return;
@@ -504,9 +508,22 @@ function init(mount, census) {
 
   // ---------- list fallback ----------
   var narrowMq = matchMedia("(max-width: 699px)"), rmMq = matchMedia("(prefers-reduced-motion: reduce)");
+  var VIEW_KEY = "cic-chooser-view", plain = false;
+  try { plain = localStorage.getItem(VIEW_KEY) === "list"; } catch (e) {}
+  viewBtn.addEventListener("click", function () {
+    plain = !plain;
+    try { localStorage.setItem(VIEW_KEY, plain ? "list" : "cards"); } catch (e) {}
+    applyMode();
+    viewBtn.focus();
+  });
   function applyMode() {
+    var forced = narrowMq.matches || rmMq.matches;
     q.setAttribute("placeholder", narrowMq.matches ? "Search traditions or topics" : "Search traditions, topics, people");
-    mount.classList.toggle("is-list", narrowMq.matches || rmMq.matches);
+    [].forEach.call(hand.querySelectorAll(".card.turned"), function (c) { turn(c, false, true); });
+    mount.classList.toggle("is-list", forced || plain);
+    mount.classList.toggle("is-plain", !forced && plain);
+    viewBtn.hidden = forced;
+    viewBtn.textContent = plain ? "View as cards" : "View as list";
     layout();
   }
   [narrowMq, rmMq].forEach(function (mq) { (mq.addEventListener ? mq.addEventListener("change", applyMode) : mq.addListener(applyMode)); });
