@@ -200,7 +200,7 @@ Evidence used
 - A count of the audio files in cic-website/audio: 990 files, 644 MB (516 documented stories, 282 tree narrations, 62 stories, 11 to 12 per built world, 7 site files). The 2026-09-27 and 2026-09-28 entries in the front-end decision log; the site audio manifest, which records one ElevenLabs voice id, the model eleven_v4 and fixed settings. No audio was played. The cost estimate of $50 to $100 per million characters comes from the System Hub log and was not rechecked. No research round was run for this theme.
 
 Open and not decided here
-- The 11 voice picks. The 2026-09-27 log entry says the per-world voice ids in tools/tree-narration-voices.mjs were blank pending Mark's picks; the file was not checked. Which voice id is current for the tree is also not checked.
+- The 11 voice picks. Checked 2026-10-20: all 11 per-world voice overrides in Build/tools/tree-narration-voices.mjs are empty, so every tree narration uses the single default narrator until Mark picks voices. Which voice id the default narrator uses for the tree is not checked.
 - Who writes and reviews the 11 hooks, and how each is checked against its world's record.
 - Whether the repo or object storage holds the new files. The storage question in the 2026-09-27 log entry was not checked for a ruling.
 - No thread owns this work yet. A site audio thread is proposed.
