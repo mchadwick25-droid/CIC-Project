@@ -408,7 +408,7 @@ function init(mount, census) {
       activeId = deck[0];
       countEl.textContent = "Showing " + deck.length + " of " + allIds.length + ", in order of time.";
     } else {
-      countEl.textContent = "All " + deck.length + " voices, in order of time.";
+      countEl.textContent = "";
     }
     renderHand(activeId);
     renderDeckRow(deck);

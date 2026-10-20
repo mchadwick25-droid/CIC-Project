@@ -464,3 +464,9 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Follow-up, same day (Mark: "two sendences").** The statement is two sentences: "Each representative you add to the table is an AI-generated voice, not a person who lived. Each is built from that tradition's own letters and records."
 
 **Follow-up, same day (Mark: "lets add 'each tradition is built from...' to the second sentence").** The second sentence now opens "Each tradition is built from its own letters and records." ("that tradition's own" became "its own", since the subject is now the tradition.) The statement: "Each representative you add to the table is an AI-generated voice, not a person who lived. Each tradition is built from its own letters and records."
+
+## 2026-10-20 — The "All 11 voices, in order of time" line is removed (Mark)
+
+**Mark's words.** "we can delete the 11 voices in order of time".
+
+**What changed.** The line under the era chips that read "All 11 voices, in order of time." is gone, and its empty space with it. When a search or an era chip narrows the row, the count and the reasons it matched still show ("2 matches, in order of time.", "Showing 2 of 11, in order of time."). The hand's spoken label for screen readers is unchanged.
