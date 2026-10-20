@@ -2335,3 +2335,20 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 **Disposition: Approved to proceed (build-thread self-disposition, CO-022).** No escalation category applies. **This unblocks Part 5 (contested_claim records).**
 
 ---
+
+### 2026-10-20 — Project-lead decisions: a topic map organizes lpc's records; Augustine's complete works are sourced through the Library; OCR ruling "a" stands
+
+**Context.** The project lead's goal for this world, in his words: "people want to see the tradition and hear augustine and others on a wide range of topics, so the sources have to be rendered and organized to do that in our newest system." On `main` on 2026-10-20, `records/lpc/` holds 7 stories, 5 quotes, 19 terms, 18 doctrinal witnesses, 8 gravities, 17 forces and 208 source records, compiled document-led from Doc_01–Doc_09 between 2026-09-24 and 2026-09-25. The V2.0 re-baseline stands at L0, before stop point 1 (`build/lpc_Build_State.yaml`). A blind discovery test found 108 stories attested at source against those 7 (OG-28).
+
+**Decided (project lead, 2026-10-20), one question at a time:**
+
+1. **Topic map first:** "yes, topic map first." The map sets out the topics participants are likely to ask about, which voices in this world speak to each (Augustine, Cyprian, Pontius, Possidius, the councils), where the vendored sources answer each, and which construction material anchors it. Existing records are organized against it, and new records extend coverage from it. The other options shown were document-led and corpus-led. The map's proposed shape (six columns, thirteen sample rows) is under the project lead's review at <https://claude.ai/artifact/SzZL2GvTyDWeES3WZ1YQs3>. The full map waits for his approval of that shape.
+2. **Steps 0–2 deepened with the Library thread:** "we need to work with the library thread to deepen steps 0 - 2 to incorporate and organize all the augustine sourcing."
+3. **Scope, all of Augustine's works:** "all works." The other options shown were sermons plus named gaps, and sermons only. Already vendored and in lpc scope on 2026-10-20: Migne PL 33, 36–37, 38, 39, 40 and 43; Morin 1917 and 1930; Caillau 1842; CSEL 33, 34, 36, 40, 41, 44, 51–53 and 57; NPNF Series I. No file for Migne PL 32, 34, 35, 41, 42 or 44–47 was found in `cic/texts/` (PL 35 has a seed row, OG-24).
+4. **OCR: ruling "a" stands.** Asked whether the 2026-09-25 ruling governs Augustine's works, or whether page-image correction of Migne OCR should be allowed (a proposal from the same conversation, earlier agreed to in principle), the project lead chose "Keep ruling a." No corrections are made to vendored text. The cleanest public-domain or open-licence witness of each work is preferred (CSEL texts from `csel-dev` where they exist, Migne for the rest). Garbled passages stay second witness. The page-image correction proposal is withdrawn.
+
+**Already settled, applied as is.** Translation of Latin-only works follows the 2026-09-25 Library ruling ("Non-English originals can be primary evidence"): the spoken English is an Opus translation of the original, independently Opus-checked, and labelled as rendered from the original.
+
+**Handoffs.** `Build/Ministry/Operations/Handoffs/2026-10-20_augustine-complete-works-library.md` (Library thread: the remaining volumes, a works inventory, Doc_02 and Registry organization, corpus-map proposals). `Build/Ministry/Operations/Handoffs/2026-10-20_lpc-topic-map-and-steps-0-1.md` (this world's build: Step 0 and Doc_01 edges, then the topic map). Product direction for participant access to sources is logged in `Build/Ministry/Features/Source-Library/Decision-Log.md`, 2026-10-20.
+
+---
