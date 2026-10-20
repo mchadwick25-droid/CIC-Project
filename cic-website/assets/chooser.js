@@ -397,7 +397,7 @@ function init(mount, census) {
         whyEl.appendChild(el("li", null, [el("b", { text: w.rep + ", " + w.world + ". " }), document.createTextNode(whyMatched(w, term))]));
       });
     } else if (deckState.era) {
-      activeId = deck[0];
+      activeId = deck.length > 2 ? deck[Math.floor((deck.length - 1) / 2)] : deck[0];
       countEl.textContent = "Showing " + deck.length + " of " + allIds.length + ", in order of time.";
     } else {
       countEl.textContent = "";
