@@ -394,3 +394,11 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 - No live model call was made. The compiled capsule and the Facilitator's welcome both changed, so any live admission test written against the old capsule has not been re-run on the new one. That needs Mark's approval by name, per CLAUDE.md 3.2.
 - `hal.voice.craft.md` still cites the registry's role_label (logged as OG-28 in `Build/worlds/hal/Open_Gaps_Tracking.md`).
 - Facilitator wording is governed by `CiC_L3D_Facilitator_Governance_V3.6.docx`; the change was not reviewed against that document or by an independent reviewer, as CLAUDE.md 4.4 asks for governance changes.
+
+## 2026-10-20 — The card back carries new information and the full text (Mark)
+
+**Mark's words.** "the back of the card should have new information on it, not just a spaced out repeat of the front. it should have the era and name of the christian tradition, but doesnt need what is on the front, to make room for the full text that is currently hidden under everything."
+
+**Mark's choice on room.** Measured: with the repeats gone, the full text still needs 260 to 350 px; the back had about 200 px at the hand's card size. Asked how the back should get the room, he chose "Turned card opens larger", over "All cards grow taller" and "Keep size, text scrolls".
+
+**What changed.** The back now shows the era band, the tradition's formal name (the census `subtitle`, for example "Imperial and Juridical Christianity" where the front says "Church and Empire"), the full summary, the line on what the record holds, and the four buttons. The Representative's name, the years, the place and the "Shaped by" names are gone from the back; they stay on the front. The summary no longer scrolls. In the hand, cards keep their size. A turned card widens to 24 rem (never narrower than its hand size, never wider than the page) and takes the height its text needs, then folds back. The other cards in the hand keep their size while one is turned. The phone list also shows the whole text.

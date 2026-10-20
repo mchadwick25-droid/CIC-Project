@@ -173,9 +173,6 @@ function init(mount, census) {
     var card = el("article", { class: "card", "data-id": w.id });
     card.style.setProperty("--era", e.tint);
     var bandText = (e.no ? e.no + ". " : "") + e.name;
-    var statRows = [["Years", w.dates], ["Place", w.place]];
-    if (w.shaped) statRows.push(["Shaped by", w.shaped]);
-
     var front = el("button", { type: "button", class: "cfront", "data-act": "front",
       "aria-label": w.rep + ", " + w.world + ", " + e.name + ". " + w.dates + ". Press to bring the card forward, then again to turn it over." });
     var img = el("img", { src: w.img, alt: "", loading: "lazy", decoding: "async" });
@@ -198,8 +195,7 @@ function init(mount, census) {
       [w.summary ? el("p", { text: w.summary }) : null, w.record ? el("p", { class: "rec", text: "What the record holds: " + w.record }) : null]);
     var backFace = el("div", { class: "face back", inert: true }, [
       el("div", { class: "band" }, [el("span", { text: bandText }), el("span", { text: e.dates })]),
-      el("p", { class: "btitle", text: w.rep + " · " + w.world }),
-      el("div", { class: "stats" }, statRows.map(function (r) { return el("div", null, [el("b", { text: r[0] }), el("span", { text: r[1] })]); })),
+      el("p", { class: "btitle", text: w.subtitle || w.name }),
       body,
       el("div", { class: "acts" }, acts)
     ]);
