@@ -6683,6 +6683,12 @@ The project lead approved a named, capped admission run in conversation on 18 Oc
 
 Change: `engine.provider.guard` now appends every call of an approved live test to a ledger file as it happens, a `hold` line before the call and a `settle` line after it, and refuses a call when the ledger cannot be written. The header prints the ledger path. The promotion runbook's named-run section says to send the run's output to a file and keep the ledger. The conversation path on Render is unchanged. Whether to re-run the admission run or waive the gate for the full promotion is the project lead's decision.
 
+## 2026-10-20 - Fleet admission run approved by name for the engine promotion
+
+The project lead asked to promote `main` to `live` on 20 October. The public site already carried the day's landing page from `main` through Cloudflare, so the promotion moves only the engine, 508 commits behind `main` since pull request 969, including the 13 and 14 October fix slices to reply generation. Run from `main`, `python -m engine.m3.admission_conform --enforce` reported all eleven worlds without a live admission report on their pinned packages, so the promotion gate was red. Offered a named run, a waiver, or a hold, the project lead chose the run.
+
+Approved, once, in conversation: name "fleet re-admission, 20 October"; cap $8.00; Bedrock us-east-1; voice model `us.anthropic.claude-sonnet-4-5`; the eleven formation worlds. The run's output goes to a file, never a pipe, and the ledger is kept, as the promotion runbook's named-run section requires after the 18 October loss. The promotion pull request opens only once `admission_conform --enforce` exits 0 on the committed reports.
+
 ## 2026-10-19 - CLAUDE.md reorganized around a thread's working order
 
 The project lead approved a restructure of `CLAUDE.md` on 19 October, after threads were losing track of its rules. The file had grown to 3,596 words of stacked rules and exceptions. No principle changes.
