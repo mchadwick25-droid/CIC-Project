@@ -139,3 +139,11 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** "move the controls below the cards".
 
 **What it settles.** The open item from the layout entry above is closed. On the landing page and on Build a Table the order is now: the hand, its Previous, Next, Shuffle and See all buttons, the "See all" scroll when open, then the search box, era chips, written count and match reasons, then the Tree link. The cards begin about 490 px down at desktop width, from about 690.
+
+## 2026-10-20 — Title reversed, question heading, one-line sub-heading (Mark)
+
+**Mark's words.** "1) the talk with one voice or... can be one line accross the page 2) we will have to reverse the title statements now that we are putting the conversation first and the explore second. 3) who would you like to have a conversation with (call to product name)".
+
+**What it settles.** (1) The line under the question heading, "Talk with one voice, or seat two or three at a table. Each is built from that tradition's own writings.", runs on one line across the card at desktop width. (2) The page title now leads with talking: "Talk to representatives from a growing number of Christian traditions." Beneath it: "Each is built from its own historical records. Then explore hundreds of traditions and stories across two thousand years." Every claim from the old title is kept; only the order changed, and the sentence that said "those traditions" was reworded so it no longer points back to a line that now comes second. (3) The heading over the cards reads "Who would you like to have a conversation with?", echoing the product name. I read "(call to product name)" as that echo; if Mark meant the heading should carry the name itself, say so. The old width limit on that heading is removed so it also sits on one line.
+
+**Not changed.** The page's meta description already led with talking and is unchanged.

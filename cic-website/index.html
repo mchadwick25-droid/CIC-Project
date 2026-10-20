@@ -125,7 +125,7 @@ p{margin:0 0 1rem}
 /* .feature-card: the bordered container shared by the Church Family Tree and Conversation with One. */
 .feature-card{margin:3rem 0 0;background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
 .conversation-card{padding:1.75rem;margin-top:1.25rem}
-.who-sub{font-family:var(--sans);color:var(--muted);margin:0 0 1.2rem;max-width:var(--measure)}
+.who-sub{font-family:var(--sans);color:var(--muted);margin:0 0 1.2rem;max-width:none}
 .table-give{max-width:34rem;margin:3rem auto 0}
 @media (max-width:48rem){
   .support-photo{flex:none;min-height:0}
@@ -181,7 +181,7 @@ p{margin:0 0 1rem}
 }
 
 .who{padding:.3rem 0 0}
-.who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .8rem;max-width:var(--measure);color:var(--action)}
+.who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .8rem;color:var(--action)}
 .more-link{margin:1.5rem 0 0;font-family:var(--sans);font-size:.9rem}
 .more-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
 
@@ -261,14 +261,14 @@ p{margin:0 0 1rem}
 <main id="main" tabindex="-1">
 
   <section class="hero" aria-labelledby="hook">
-    <h1 id="hook"><span class="hero-lead">Explore hundreds of Christian traditions and stories across two thousand years.</span><span class="hero-dek">Then talk to representatives from a growing number of those traditions, each built from its own historical records.</span></h1>
+    <h1 id="hook"><span class="hero-lead">Talk to representatives from a growing number of Christian traditions.</span><span class="hero-dek">Each is built from its own historical records. Then explore hundreds of traditions and stories across two thousand years.</span></h1>
     <p id="door-line" class="door-line" role="status" hidden></p>
   </section>
 
   <div class="home-flow">
     <div class="feature-card conversation-card">
     <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
-    <h2 id="who-title">Who would you like to talk with?</h2>
+    <h2 id="who-title">Who would you like to have a conversation with?</h2>
     <p class="who-sub">Talk with one voice, or seat two or three at a table. Each is built from that tradition's own writings.</p>
     <div data-chooser data-mode="landing" data-from="index.html#who" data-tree="atlas-v3.html">
       <div data-chooser-fallback hidden>

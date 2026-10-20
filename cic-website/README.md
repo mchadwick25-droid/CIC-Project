@@ -7,7 +7,7 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 
 ## Pages
 
-- `index.html` — Home. Its "Who would you like to talk with?" section is the chooser (below).
+- `index.html` — Home. Its "Who would you like to have a conversation with?" section is the chooser (below).
 - `table.html` — Build a Table. The same chooser, with the seat tray always open.
 - `about.html` — Mission, the Five Convictions, How It Works, Safety & Disclosure, About Us
 - `support.html` — "Get Involved," rewritten with real cost figures; see its own
