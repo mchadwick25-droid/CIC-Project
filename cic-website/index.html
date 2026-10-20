@@ -39,6 +39,12 @@
   --wide:64rem; --col:44rem; --measure:38rem;
 }*{box-sizing:border-box}
 html{scroll-padding-top:1rem}
+html{overflow-y:scroll}
+html::-webkit-scrollbar{width:16px}
+html::-webkit-scrollbar-track{background:var(--surface);border-left:1px solid var(--rule)}
+html::-webkit-scrollbar-thumb{background:var(--control);border:3px solid var(--surface);border-radius:999px;min-height:3rem}
+html::-webkit-scrollbar-thumb:hover{background:var(--action)}
+@supports (-moz-appearance:none){html{scrollbar-width:auto;scrollbar-color:var(--control) var(--surface)}}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
 a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
 a:hover{color:var(--action-hover)}

@@ -547,3 +547,13 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** The mouse wheel no longer moves the hand. The side arrows, the arrow keys and a swipe still do. The "How this works" line now says "Swipe or use the arrows". A card under the pointer used to jump above its neighbours, so a card rolling out stayed on top; now only the front card lifts, and every other card keeps its place in the stack by distance from the front.
 
 **Checked.** In a headless browser a wheel turn left the front card unchanged, and after three arrow clicks the stack rose evenly to the front card. Not checked: a touch screen.
+
+## 2026-10-20 — An era puts the middle card in front; the landing page keeps a visible scroll bar (Mark)
+
+**Mark's words.** "when we click on a era have it centered if there are more than 2, if just two then the first one." And: "we need a scroll bar on the right of the landing page, i often work on my labtop without a mouse and it gets hard to navigate without it."
+
+**What changed.**
+- Choosing an era brings the middle card of that era to the front when the era has three or more cards (the second of three, the third of six). With two cards, or one, the first comes to the front. A search still brings the first match forward.
+- The landing page always shows a scroll bar on the right, 16 pixels wide, in the page's own colours, so it does not fade away on a laptop trackpad. It is set in the page's own styles in `index.html`, so no other page changes.
+
+**Checked.** In a headless browser the eras with 3, 6 and 2 cards put card 2, 3 and 1 in front, and the page showed a 16 pixel bar with no sideways scroll at 1440 and 390 pixels wide. Not checked: Safari on a Mac, where the bar is drawn by the system.
