@@ -15,7 +15,7 @@
 .chooser-count{color:var(--muted);font-size:.95rem;margin:0;font-variant-numeric:tabular-nums}
 .chooser-why{list-style:none;margin:0;padding:0;display:grid;gap:.3rem;font-size:.88rem;color:var(--muted)}
 .chooser-why b{color:var(--text);font-weight:600}
-.chooser-hand{position:relative;display:grid;justify-items:center;padding-bottom:.9rem;margin:1.6rem auto 0;touch-action:pan-y;clip-path:inset(-4rem 0 -4rem 0)}
+.chooser-hand{position:relative;display:grid;justify-items:center;padding-bottom:.9rem;margin:1.6rem auto 0;touch-action:pan-y;overflow-x:clip;overflow-y:visible}
 .chooser-hand .card.peek{opacity:.55}
 .chooser-hand .card.off{visibility:hidden;pointer-events:none}
 .chooser.is-list .chooser-hand .card.peek{opacity:1}
