@@ -511,3 +511,9 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Left as it was, Mark's call.** (1) Idiom: "the ancient world", "the world groaned", "the Roman world's great city", "The Many Worlds of Peter Mohyla", "World Christianity". (2) The instructions the engine gives the model about "your own world" (`engine/api/table_wiring.py`), which shape the model's replies but are not read by people. (3) The 97 generated tradition pages and the story texts and audio they quote, which still say "this world's ..." in the stories themselves; changing them means editing canonical story records and re-recording audio. (4) Internal names: files, folders, the registry key `worlds`, code and URL parameters. (5) The word "voice" in the Facilitator's lines, which Mark's earlier "representative, not voice" was not applied to.
 
 **Checked.** The census check and the registry-to-census match pass; the census validator reports 0 errors; the app type check and 245 app tests pass; the site staleness check passes. The package staleness check and the engine tests were still running when this was committed.
+
+## 2026-10-20 — A line under the cards says a table is possible (Mark)
+
+**Mark's words.** Shown the journey for building a table and told that the only plain sign of it (the "Talk with one voice, or build a table of two or three" line) had been removed, Mark said: "yes, add a line under the cards".
+
+**What changed.** On the landing page, a quiet line sits under the count and "See all 11", above "How this works": "Choose Table on two or three cards to build a table, then put one question to all of them." It reads at about grade 5.5 (Flesch-Kincaid) and Reading Ease 90. It does not show on the Build a Table page, which is already about the table. "Put one question to all of them" follows the Facilitator's welcome at the table: "Put a question to one of them by name, or to the whole Table."

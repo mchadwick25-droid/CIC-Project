@@ -132,6 +132,7 @@ function init(mount, census) {
   var stage = el("div", { class: "chooser-stage" }, [hand, prevBtn, nextBtn]);
   var allBtn = el("button", { type: "button", class: "cbtn quiet", "aria-expanded": "false" });
   var nav = el("div", { class: "chooser-nav" }, [posEl, allBtn]);
+  var tableLine = el("p", { class: "chooser-tableline", text: "Choose Table on two or three cards to build a table, then put one question to all of them." });
   var hint = el("details", { class: "chooser-how" }, [
     el("summary", { text: "How this works" }),
     el("ul", null, [
@@ -157,6 +158,7 @@ function init(mount, census) {
   mount.appendChild(stage);
   mount.appendChild(deckBox);
   mount.appendChild(nav);
+  if (mode !== "table") mount.appendChild(tableLine);
   mount.appendChild(deckRow);
   mount.appendChild(hint);
   mount.appendChild(tray);
