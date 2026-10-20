@@ -6683,6 +6683,14 @@ The project lead approved a named, capped admission run in conversation on 18 Oc
 
 Change: `engine.provider.guard` now appends every call of an approved live test to a ledger file as it happens, a `hold` line before the call and a `settle` line after it, and refuses a call when the ledger cannot be written. The header prints the ledger path. The promotion runbook's named-run section says to send the run's output to a file and keep the ledger. The conversation path on Render is unchanged. Whether to re-run the admission run or waive the gate for the full promotion is the project lead's decision.
 
+## 2026-10-20 - Fleet admission run reached its cap and wrote no report
+
+The run "fleet re-admission, 20 October" (approved above: cap $8.00, Bedrock us-east-1, `us.anthropic.claude-sonnet-4-5`, eleven worlds, preflight estimate $5.96) started at 12:36 UTC after the eleven packages were restored from records with `engine.m2.cli restore` (the compiled bytes are not in git, and the first attempt stopped before any call because alx's compiled files were missing). It ran the worlds in the order alx, cappadocian, desert, don, gallic, hal, ijc, pahc, rzg, syr, witt. At 13:36 UTC, after 287 of 308 calls, the guard refused the next call because it could carry the total past $8.00 and raised `LiveTestCapReached`. The ledger records $7.79 settled; the output went to a file and the ledger is kept.
+
+`engine.m3.live_admission_run` writes its report only after every world has run, and the exception left `run()` before that, so no report exists: the ten worlds whose batteries completed have no admission evidence, and `admission_conform --enforce` still reports all eleven stale. The 14 October harness fix covered the live-turn run, not this one. The real cost ran about thirty percent over the preflight estimate, which prices each world from the rate card and an older usage profile.
+
+Ruled by the project lead on reading this: whether to fix the harness to write a report after each world and on a cap stop (unmetered), and whether to approve a further run by name for the worlds without evidence. No further paid call is made without that approval.
+
 ## 2026-10-20 - Fleet admission run approved by name for the engine promotion
 
 The project lead asked to promote `main` to `live` on 20 October. The public site already carried the day's landing page from `main` through Cloudflare, so the promotion moves only the engine, 508 commits behind `main` since pull request 969, including the 13 and 14 October fix slices to reply generation. Run from `main`, `python -m engine.m3.admission_conform --enforce` reported all eleven worlds without a live admission report on their pinned packages, so the promotion gate was red. Offered a named run, a waiver, or a hold, the project lead chose the run.
