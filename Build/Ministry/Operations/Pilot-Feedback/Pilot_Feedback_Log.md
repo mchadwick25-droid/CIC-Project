@@ -85,3 +85,4 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 - Item 9 (Theme G): the landing line "Free to start. Add more any time." is built, under the hand.
 - Item 17 (Theme E): only the button's wording is decided ("Add to the table"). The tree button, shared seat store and tree tray are not built; the tray's look and how long a seat is remembered are still open.
 - A control that switches the hand to a top-to-bottom list on any device is built (Mark's item 27 as relayed; the log above stops at item 26). Record: `Build/Ministry/Features/Conversation-Chooser/Decision-Log.md`, 2026-10-20.
+- Item 29 (Mark, 2026-10-20): the conversation pages are too chaotic and confusing. Mark wants a simpler layout showing only needed information, with the rest optional under "go deeper", plus the token and pay-as-you-go options. A new thread is to take this. Overlaps items 1, 2, 4, 9 and 12. Not sorted. Nothing built.
