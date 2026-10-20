@@ -533,8 +533,6 @@ def check_census_agreement(*, registry, worlds, **_) -> list[Finding]:
             findings.append(_defect("census-living-flag", w, f"census living={entry.get('living')} != registry living_tradition_flag={registry[w].get('living_tradition_flag')}"))
         if e.get("representativeName") and e["representativeName"] != rep.get("name"):
             findings.append(_defect("census-representative-name", w, f"census representativeName {e['representativeName']!r} != registry representative.name {rep.get('name')!r}"))
-        if e.get("representativeTitle") and e["representativeTitle"] != rep.get("role_label"):
-            findings.append(_defect("census-role-label", w, f"census representativeTitle {e['representativeTitle']!r} != registry representative.role_label {rep.get('role_label')!r}"))
         if entry.get("name") and entry["name"] != registry[w].get("display_name"):
             findings.append(_defect("census-display-name", w, f"census name {entry['name']!r} != registry display_name {registry[w].get('display_name')!r}"))
         # The friendly card name (entry.worldName - what the homepage card

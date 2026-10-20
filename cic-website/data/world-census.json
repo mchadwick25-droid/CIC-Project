@@ -797,7 +797,6 @@
    "entry": {
     "representativeId": "chloe",
     "representativeName": "Chloe",
-    "representativeTitle": "Household Leader",
     "worldName": "The Scattered Households",
     "subtitle": "Post-Apostolic Household-Church Christianity",
     "color": "#955FF0",
@@ -1258,7 +1257,6 @@
    "entry": {
     "representativeId": "theon",
     "representativeName": "Theon",
-    "representativeTitle": "Catechetical Teacher",
     "worldName": "Alexandrian Christianity",
     "subtitle": "Alexandrian Catechetical Tradition",
     "color": "#3B83BF",
@@ -1461,7 +1459,6 @@
    "entry": {
     "representativeId": "mar-yausep",
     "representativeName": "Mar Yausep",
-    "representativeTitle": "Teacher of the Covenant Order",
     "worldName": "Syriac Christianity",
     "subtitle": "Syriac Christianity of Edessa and Nisibis",
     "color": "#CC5E0A",
@@ -2770,7 +2767,6 @@
    "entry": {
     "representativeId": "papnoute",
     "representativeName": "Papnoute",
-    "representativeTitle": "Abba (Elder)",
     "worldName": "Desert Fathers and Mothers",
     "subtitle": "Desert Monasticism",
     "color": "#128D84",
@@ -3025,7 +3021,6 @@
    "entry": {
     "representativeId": "fidelis",
     "representativeName": "Fidelis",
-    "representativeTitle": "Bishop of the Unbroken Line",
     "worldName": "The Church of the Martyrs",
     "subtitle": "Donatism",
     "color": "#4C946A",
@@ -3192,7 +3187,6 @@
    "entry": {
     "representativeId": "chilo",
     "representativeName": "Chilo",
-    "representativeTitle": "Elder of the Brotherhoods",
     "worldName": "The Cappadocian Churches",
     "subtitle": "Cappadocian Pastoral-Monastic and Trinitarian Tradition",
     "color": "#C46437",
@@ -3413,7 +3407,6 @@
    "entry": {
     "representativeId": "marius",
     "representativeName": "Marius",
-    "representativeTitle": "Deacon of the Letters",
     "worldName": "Church and Empire",
     "subtitle": "Imperial and Juridical Christianity",
     "color": "#C36060",
@@ -3591,7 +3584,6 @@
    "entry": {
     "representativeId": "albina",
     "representativeName": "Albina",
-    "representativeTitle": "Widow of the Household",
     "worldName": "The Bethlehem Circle",
     "subtitle": "Hieronymian Ascetic-Literary Christianity",
     "color": "#E23B7F",
@@ -4612,7 +4604,6 @@
    "entry": {
     "representativeId": "renatus",
     "representativeName": "Renatus",
-    "representativeTitle": "Bishop",
     "worldName": "The Monk-Bishops of Gaul",
     "subtitle": "Gallic Monastic-Ascetic Christianity",
     "color": "#8FA3AC",
@@ -15694,7 +15685,6 @@
    "entry": {
     "representativeId": "nikolaus",
     "representativeName": "Nikolaus",
-    "representativeTitle": "Sexton-Schoolmaster",
     "worldName": "The Catechized Households of Wittenberg",
     "subtitle": "Lutheran Wittenberg & Its Congregations",
     "color": "#579C40",
@@ -15897,7 +15887,6 @@
    "entry": {
     "representativeId": "theophilus",
     "representativeName": "Theophilus",
-    "representativeTitle": "Pastor",
     "worldName": "The Reformed Cities",
     "subtitle": "The Reformed Cities - Zurich & Geneva",
     "color": "#8787A1",

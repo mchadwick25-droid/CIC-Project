@@ -40,7 +40,7 @@ export function Arrival({ world }: ArrivalProps) {
       )}
       <h1 className="arrival__name">{world.representativeName}</h1>
       <p className="arrival__role">
-        {world.roleLabel} · <span className="sans">{world.place}</span>
+        <span className="sans">{world.place}</span>
       </p>
 
       {world.doorwayDescription && (

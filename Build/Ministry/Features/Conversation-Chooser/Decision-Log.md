@@ -314,3 +314,83 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** In the pilot-feedback thread: "the cards scroll and click to pull forward". Told that the built hand moved only by the buttons and arrow keys, he chose "Yes, scroll and swipe both". Then here: "add the scroll now before merging".
 
 **What changed.** A mouse wheel or trackpad scroll over the hand rolls it one card per notch, in either axis, with small ticks ignored and a short pause between moves. It acts only while the pointer is over the hand, so scrolling the page elsewhere is untouched. A finger swipe of more than 40 px was already built. The hint under the deck now says "Scroll, swipe or use the arrow keys to roll the hand."
+
+## 2026-10-20 — The role line leaves the card and the build (Mark)
+
+**Mark's words.** "i think the role description is a distraction, it adds no real value (i originally though it would be a connection point, but the portrait and name is enought and we don't have to make it more complex". Then: "no i think i am going to get rid of it all together, not even include it in the build".
+
+**What changed.** The chooser no longer reads, shows, speaks or searches the Representative's role. The line is gone from the front of the card, from the card's spoken label, from the search text and from the "why this matched" line. The name keeps its divider rule. Nothing in the registry or the census changed: the role is still the Representative's title there, and other pages use it. A decision to drop it from the data is a separate change order.
+
+## 2026-10-20 — Card text on the front is at least 14 px (Mark)
+
+**Mark's words.** "that give us more space, can we increase the font size of the text at the bottom to 14, it is now to small to read for some".
+
+**What changed.** The tagline and the "Shaped by" line on the front of the card are never smaller than 14 px; on larger cards they keep their scaled size. Checked on the cards in the hand at 1434x717, 1440x900 and 1024x768: no text runs past the bottom of the card.
+
+**Follow-up, same day (Mark: "yes, switch to rem and check the contrast").** The floor is now `.875rem`, so it follows the reader's browser text-size setting (14 px by default). Contrast was measured on the rendered pixels behind the text for the five cards in the hand at 1434x717: tagline (#EDE4D3) 14.2:1, "Shaped by" line (#D9B35C) 9.0:1, both against the card's dark ground. WCAG asks for 4.5:1. The 14 px size is above the usual floor for secondary text; 16 px is the usual body size and is not applied.
+
+## 2026-10-20 — Card size follows rem; back text lifted (Mark: "yes, fix 1 and 2 together")
+
+**What changed.** The card width floor is now `17rem` and the cap `25rem` (was 210 px and 400 px), so the card grows when the reader's text size grows. On the back, the summary, the Years/Place/Shaped by rows and the buttons are at least `.875rem`; the row labels at least `.75rem`.
+
+**Checked** (five cards in the hand, front and turned, headless browser): at default text size no overlap, clipping or sideways scroll at 1434x717, 1440x900, 1024x768, 390x844 or 320x568. At 200% text size the same holds at 1434x717 and 1440x900.
+
+**Not fixed.** At 200% text size on 390 px and 320 px screens the card is wider than the screen and its text overruns the card; at 1024x768 the page scrolls sideways by 276 px (not traced to its cause). Under the WCAG text-spacing stress test (line height 1.5, letter spacing .12em, word spacing .16em), the name overlaps the card header and the back's text area shrinks, at every size tested. Both need the card faces to grow in height instead of keeping a fixed ratio; that is a layout change not yet decided.
+
+## 2026-10-20 — The card grows taller with its text (Mark: "yes, make the cards grow taller")
+
+**What changed.** The hand is one grid cell, so every card takes the height of the tallest. Each card's front and back share one height and never fall below the old 5:7 shape. The photo and the back's text area have a minimum height and give way to the text before the card grows: the back text area scrolls. On narrow screens the card width is capped at the container, and the list layout's card width follows the reader's text size.
+
+**Checked** (five cards in the hand, front and turned, headless browser, at 1434x717, 1440x900, 1024x768, 390x844 and 320x568): at default text size, at 200% text size and under the WCAG text-spacing stress test, no name over the header, no text past the card's bottom edge, buttons inside the card. Under the stress test the back's text area is 63 px high on phone widths, which scrolls.
+
+**Found, not fixed.** At 200% text size the page scrolls sideways at 1024 px (276 px), 390 px (80 px) and 320 px (150 px). The cause is the site header, not the chooser: the Menu and feedback buttons at 1024 px, the wordmark at 390 px. The header is shared by every page and is a separate change.
+
+## 2026-10-20 — The header fits at large text sizes on the landing and table pages (Mark: "fix all")
+
+**What changed** in `index.html` and `table.html`: the wide-screen header grid now switches on at `62.5rem` instead of `1000px`, so a reader with a larger browser text size gets the wrapping row; the wordmark may wrap and the brand block may shrink; under 640 px the three feature buttons and the feedback button may wrap their text.
+
+**Checked** (headless browser, both pages, 1434, 1024, 768, 390 and 320 px wide, 100% and 200% text): no sideways scroll except 1024 px at 200%. That one is a limit of the test: forcing 200% text through `html{font-size}` does not move a `rem` media query, so the grid stayed on. With the row forced to the wrapping layout that a real 200% text setting produces, the overflow is 0. A real browser text-size setting has not been tried.
+
+**Not changed.** The same inline header block is in about 300 other pages (the tradition pages, the tree, and so on) and has the same fixed `1000px` breakpoint and non-wrapping wordmark. Changing them is a sweep of the whole site and is not done.
+## 2026-10-20 — Change order (Mark): all eleven in the hand, in order, five showing
+
+**Mark's words.** "I know the research said that if it's not on screen it's lost from memory. It was a justification of just five selected cards as the main display, but it seems to me to be creating confusion and extra steps. Can we just put all 11 in the hand, 5 at a time still visible as they are, but instead of random picking, we scroll the rest in order. So visually the only change is more cards scrolling around, so all 11 are accessible, but the screen changes minimally to see there are more cards to the right or left."
+
+**Decision (Mark).** "All eleven in order, five showing." Supersedes "The hand stays as it is" (2026-10-19). Chosen over the same with a Shuffle that jumps to a random card, and over keeping the dealt hand of five.
+
+**What changed.** The hand holds every live world in time order. The fan shows five, with the next card at each side showing as a faded sliver and the rest hidden; the count reads "n of 11". The hand opens on the third card so the first five are in view. Scroll, swipe, the arrow keys and Previous and Next move through all eleven. Shuffle is gone, and with it the random deal and the browser's memory of dealt cards. A search narrows the row to its matches, first match to the front, and still says why each matched. An era chip narrows the row to that era. "See all" stays as the grid; its cards mark the one showing now, and tapping one brings it to the front, clearing any narrowing first. The phone and reduced-motion list shows all eleven. A pre-seated table link opens on the first seated card.
+
+**Why the research still holds.** The evidence was against hidden items with no order, count or cue. Here the order is time, the count is written, the next card peeks at each edge, and the grid is one tap away. What goes is the part that needed explaining.
+
+## 2026-10-20 — One system: all eleven in the hand, with an arrow on each side (Mark)
+
+**Mark's words.** "i want to make sure we have one system now with all 11 in the hand, but the same visual of five seen clearly and others hidden, we need arrows on each side to make scrolling the 11 easy".
+
+**What changed.** The design thread's change (PR 995, "All eleven in order, five showing") was merged into this branch, so the hand of eleven and the taller, rem-sized cards are one build. The Previous and Next buttons below the hand are replaced by a round arrow on each side of the hand: the left arrow steps back, the right steps forward, each dims at its end, both are 56 px, keyboard-focusable and labelled "Previous card" and "Next card". The count "n of 11" and "See all 11" stay under the hand. The phone and reduced-motion list shows all eleven cards and no arrows.
+
+**Left as it was.** The faded sliver of the next card at each edge, which PR 995 added by Mark's earlier choice. Mark's new words say "others hidden"; if he wants the slivers gone, that is one rule.
+
+**Mark's answer on the slivers.** Asked "Do you want the faded sliver of the next card at each edge of the hand, or only the five cards?", he chose "Keep the slivers". They stay.
+
+## 2026-10-20 — Fix: the hand of eleven scrolled the page sideways
+
+The merged hand (commit bca8e31b9) left the hidden cards transformed far to the right, so the page scrolled sideways by 809 px at 1434, 857 px at 1280 and 1054 px at 1024 (the table page by 156 to 351 px). `clip-path` on the hand does not remove them from the scrollable area. The hand now uses `overflow-x:clip;overflow-y:visible`, the fix the design thread found in its rebase; the raised card's lift and shadow stay whole. Measured after: 0 px at 1434, 1280, 1024 and 390 on both pages. I found this only after the design thread reported it; my earlier size tests ran before the all-eleven hand was merged.
+
+## 2026-10-20 — The Representative's role is removed everywhere (Mark)
+
+**Mark's words.** "i think the role description is a distraction, it adds no real value ... the portrait and name is enought". Then "not even include it in the build". Asked whether to drop it from the census and registry as well, he said "yes". Told that the role is also spoken in the Facilitator's welcome ("You're about to speak with Theophilus, Pastor of Zurich and Geneva."), he chose "Everywhere, including the welcome", over "Cards and census only" and "Leave the data as it is".
+
+**What changed.**
+- Registry: `role_label` removed from all twelve `records/worlds/*.yaml` (the eleven live worlds and the fixture).
+- Census, sync and gates: `representativeTitle` removed from `world-census.json`, from the census sync's field map and from the fleet check that compared it to the registry.
+- Facilitator: the welcome now reads "You're about to speak with Theophilus of Zurich and Geneva." The table welcome reads "Theon of Alexandrian Christianity, and Chloe of The Scattered Households." The Facilitator's seated-voices line in the table prompt drops it too.
+- Compiled packages: the capsule no longer carries the role, the frame no longer carries it, and the placeholder portrait shows the name only. All twelve packages were rebuilt and repinned in the registry; the twelve old manifests were removed.
+- Atlas: the panel's Representative line shows the name, then the tradition.
+- App (`cic-poc/frontend`): the arrival screen, the world cards and the table seats no longer show it.
+
+**Checked.** `engine.m2.cli staleness-check` passes (all twelve fresh); `engine.m6.cli check` passes; the app's type check passes and its 245 tests pass on a clean run (one embedded-page test failed once under load and passed on re-run). The engine tests for m4, api, m10, m6, m2 and the cross-world gate were still running when this was committed; CI will run them.
+
+**Not done, and why.**
+- No live model call was made. The compiled capsule and the Facilitator's welcome both changed, so any live admission test written against the old capsule has not been re-run on the new one. That needs Mark's approval by name, per CLAUDE.md 3.2.
+- `hal.voice.craft.md` still cites the registry's role_label (logged as OG-28 in `Build/worlds/hal/Open_Gaps_Tracking.md`).
+- Facilitator wording is governed by `CiC_L3D_Facilitator_Governance_V3.6.docx`; the change was not reviewed against that document or by an independent reviewer, as CLAUDE.md 4.4 asks for governance changes.

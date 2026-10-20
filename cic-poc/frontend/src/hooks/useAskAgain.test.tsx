@@ -27,7 +27,7 @@ const safety: ConversationTurn[] = [
 
 function world(key: string): WorldEntry {
   return {
-    worldKey: key, censusId: null, displayName: 'Fixture', cardName: 'Fixture', representativeName: 'Vera', roleLabel: 'Witness', place: 'Nowhere',
+    worldKey: key, censusId: null, displayName: 'Fixture', cardName: 'Fixture', representativeName: 'Vera', place: 'Nowhere',
     eraStart: 100, eraEnd: 200, thinnessStatement: 'Thin.', doorwayDescription: null, livingTraditionFlag: false, starters: [], portraitImage: '/x.png', accentColor: '#000',
   };
 }

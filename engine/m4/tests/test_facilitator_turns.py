@@ -14,7 +14,7 @@ from engine.m4.facilitator_turns import SYSTEM_NATURE
 
 def test_door_turn_interpolates_world_name_not_display_name():
     event = facilitator_turns.door_turn(
-        representative_name="Marius", role_label="Deacon of the Letters", world_name="Church and Empire"
+        representative_name="Marius", world_name="Church and Empire"
     )
     assert event["kind"] == "door"
     assert "Church and Empire" in event["text"]
@@ -23,8 +23,8 @@ def test_door_turn_interpolates_world_name_not_display_name():
 
 def test_table_door_turn_interpolates_each_seat_world_name():
     seated = [
-        {"representative_name": "Theon", "role_label": "Catechetical Teacher", "world_name": "Alexandrian Christianity"},
-        {"representative_name": "Chloe", "role_label": "Household Leader", "world_name": "The Scattered Households"},
+        {"representative_name": "Theon", "world_name": "Alexandrian Christianity"},
+        {"representative_name": "Chloe", "world_name": "The Scattered Households"},
     ]
     event = facilitator_turns.table_door_turn(seated)
     assert "Alexandrian Christianity" in event["text"]

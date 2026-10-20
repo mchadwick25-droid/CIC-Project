@@ -95,7 +95,7 @@ def _world():
         quotes={"quotes": []},
         figures={},
         coverage={},
-        frame={"representative": {"name": "Vera", "role_label": "Witness"}},
+        frame={"representative": {"name": "Vera"}},
     )
 
 

@@ -91,7 +91,6 @@ export function TableRoom({
                   <img src={w.portraitImage} alt={w.representativeName} />
                 </div>
                 <div className="arrival__seat-name">{w.representativeName}</div>
-                <div className="arrival__seat-detail sans">{w.roleLabel}</div>
                 <div className="arrival__seat-detail sans" style={{ color: w.accentColor }}>
                   {w.cardName} · c. {w.eraStart}–{w.eraEnd}
                 </div>

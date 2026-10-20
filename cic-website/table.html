@@ -53,7 +53,7 @@ p{margin:0 0 1rem}
    alongside the rest in one row at this header's own 1024px width. */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
-.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;padding:.5rem 0;display:inline-block;min-width:0}
 .wordmark em{font-style:italic;font-weight:400}
 .menu{position:relative;margin-left:auto}
 /* Centered in the space actually available between the logo and the menu
@@ -64,7 +64,7 @@ p{margin:0 0 1rem}
    middle column is whatever's genuinely left, with no risk of
    overlapping either side -- only turned on above the width where the
    whole row fits unwrapped. */
-@media (min-width:1000px){
+@media (min-width:62.5rem){
   .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
   .menu{margin-left:0}
   .feature-bar{justify-self:center}
@@ -117,7 +117,7 @@ p{margin:0 0 1rem}
 .feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:600;color:var(--text);background:none;text-decoration:none;padding:.5rem .45rem;border:1px solid transparent;border-radius:999px;min-height:38px;display:inline-flex;align-items:center;white-space:nowrap}
 .feature-btn:hover,.feature-btn:focus-visible{background:none;border-color:transparent;color:var(--action);text-decoration:underline;text-underline-offset:.2em}
 .feature-btn[aria-current="page"]{color:var(--action)}
-@media (max-width:640px){.feature-bar{gap:.1rem}.feature-btn{font-size:.85rem;padding:.45rem .55rem}}
+@media (max-width:640px){.feature-bar{gap:.1rem}.feature-btn{font-size:.85rem;padding:.45rem .55rem}.feature-btn{white-space:normal;text-align:center}.site-header .feedback-toggle{white-space:normal;max-width:100%}}
 </style>
 <link rel="stylesheet" href="assets/chooser.css">
 <link rel="stylesheet" href="assets/feedback.css">

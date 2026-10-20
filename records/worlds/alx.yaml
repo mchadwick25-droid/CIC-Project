@@ -14,12 +14,12 @@ doorway_description: >-
   study, questions, and a teacher's patient guidance.
 card_name: "Alexandrian Christianity"
 app: {order: 1, accent_color: "#DE670B", portrait: "/images/portraits/thumb/alexandria.webp"}
-representative: {name: Theon, role_label: "Catechetical Teacher"}
+representative: {name: Theon}
 state: admitted
 census_id: "alexandria-catechetical"
 package:
-  manifest_hash: "sha256:f2dc592f6b07ef08c067f103bf7a8fb9e294a11380e23a1ce23799cf0033bf4c"
-  location: "packages/alx/2026-10-17T20-47-31Z"
+  manifest_hash: "sha256:f086e75719ddce686db6bf7429cf6ab080d022557ef91753c000daefc1ebfe81"
+  location: "packages/alx/2026-10-20T13-24-33Z"
 thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
 living_tradition_flag: true
 story_placement: false

@@ -246,7 +246,7 @@ export interface WorldSummary {
   // Friendly participant-facing name; display_name is the scholarly one
   // (both registers are kept, for different contexts).
   card_name: string | null;
-  representative: { name: string; role_label: string } | null;
+  representative: { name: string } | null;
   time_window: { start: number; end: number } | null;
   place: string | null;
   thinness_statement: string | null;

@@ -18,12 +18,12 @@ doorway_description: >-
   something more official.
 card_name: "Syriac Christianity"
 app: {order: 5, accent_color: "#5493A0", portrait: "/images/portraits/thumb/syriac.webp"}
-representative: {name: "Mar Yausep", role_label: "Teacher of the Covenant Order"}
+representative: {name: "Mar Yausep"}
 state: admitted
 census_id: "syriac-edessa-nisibis"
 package:
-  manifest_hash: "sha256:c260a81e5bebb3cd49d93a47c89f56057930518f4248fc8e420e1e3e37e4b04a"
-  location: "packages/syr/2026-10-17T20-41-50Z"
+  manifest_hash: "sha256:44bb5db1ac004bbd80e792a88b8985d0e14f67625d6ce31656c11d7c20814f72"
+  location: "packages/syr/2026-10-20T13-28-01Z"
 thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
 living_tradition_flag: true
 story_placement: false

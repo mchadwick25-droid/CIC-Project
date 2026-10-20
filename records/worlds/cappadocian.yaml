@@ -21,14 +21,14 @@ doorway_description: >-
   victory.
 card_name: "The Cappadocian Churches"
 app: {order: 7, accent_color: "#CB7247", portrait: "/images/portraits/thumb/cappadocian.webp"}
-representative: {name: Chilo, role_label: "Elder of the Brotherhoods"}
+representative: {name: Chilo}
 census_id: "cappadocian-nicene-pastoral-monastic-tradition"
 thinness_statement: "Richest in the letters, orations, and treatises of Basil, Gregory of Nazianzus, and Gregory of Nyssa; thinner on women's own words (none survive in their own hand), the plateau's non-elite and non-Greek-speaking faithful, the enslaved (never heard in their own voice despite one preacher's own sharp protest against the institution), and the defeated parties (Eustathius, the Homoian church, the Eunomian movement) who survive almost only inside their opponents' polemic."
 living_tradition_flag: true
 state: admitted
 package:
-  manifest_hash: "sha256:28dfd05195e37f02dd98f75da9ec1dc5b03ed1b4e2c3610749ed1aa7e7bbd6b8"
-  location: "packages/cappadocian/2026-10-18T02-38-47Z"
+  manifest_hash: "sha256:b569ae48247c990a1b197f928bcdcaaeb340bebe346cca708d3b1f50bfd33391"
+  location: "packages/cappadocian/2026-10-20T13-24-53Z"
 story_placement: false
 card:
   portrait: "assets/portraits/cappadocian.jpg"

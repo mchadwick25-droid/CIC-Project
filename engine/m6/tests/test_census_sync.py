@@ -18,7 +18,7 @@ def _registry():
             "census_id": "abc-census-id",
             "time_window": {"start": 100, "end": 200},
             "living_tradition_flag": True,
-            "representative": {"name": "Rep", "role_label": "Role Label"},
+            "representative": {"name": "Rep"},
         },
         "notyet": {
             "state": "built",
@@ -27,7 +27,7 @@ def _registry():
             "census_id": "notyet-census-id",
             "time_window": {"start": 300, "end": 400},
             "living_tradition_flag": False,
-            "representative": {"name": "Rep2", "role_label": "Role2"},
+            "representative": {"name": "Rep2"},
         },
         "noncensus": {
             "state": "admitted",
@@ -36,7 +36,7 @@ def _registry():
             "census_id": None,
             "time_window": {"start": 1, "end": 2},
             "living_tradition_flag": False,
-            "representative": {"name": "Rep3", "role_label": "Role3"},
+            "representative": {"name": "Rep3"},
         },
     }
 
@@ -89,12 +89,11 @@ def test_admitted_world_advances_to_live_and_populates_derived_fields():
     assert entry["end"] == 200
     assert entry["entry"] == {
         "representativeName": "Rep",
-        "representativeTitle": "Role Label",
         "worldName": "The Friendly Name",
     }
     assert {c["field"] for c in changes if c["world"] == "abc"} == {
         "status", "chip", "glyph", "statusWord", "statusDescription", "start", "end",
-        "entry.representativeName", "entry.representativeTitle", "entry.worldName",
+        "entry.representativeName", "entry.worldName",
     }
 
 

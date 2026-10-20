@@ -24,14 +24,14 @@ doorway_description: >-
   the movement's own founder had been dead some three decades.
 card_name: "The Catechized Households of Wittenberg"
 app: {order: 11, accent_color: "#579C40", portrait: "/images/portraits/thumb/nikolaus.webp"}
-representative: {name: Nikolaus, role_label: Sexton-Schoolmaster}
+representative: {name: Nikolaus}
 state: admitted
 census_id: "lutheran-wittenberg-and-its-congregations"
 thinness_statement: "Richest in the founder's own catechisms, treatises, and confessional documents and in the movement's own account of its founding decade (1517-1531); thinner on any household's or parish's own report of receiving that formation (the Saxon visitation records exist but are not in this library), women's own formation and voice (no text a woman wrote survives here), the felt experience of the 1529 Marburg break with the Reformed cities, the years after 1531 within the window's own declared close of 1580, material culture and lived worship independent of the movement's own account of itself, and the 1525 tract against the peasants and the 1543 treatise against the Jews - both real and disclosed as this world's own history, but not available here to quote from directly."
 living_tradition_flag: true
 package:
-  manifest_hash: "sha256:9ee7f6ff05dfdabc80f660089a97136acaf79b58fc2ca02f9f8cafba8cf10a78"
-  location: "packages/witt/2026-10-17T20-48-55Z"
+  manifest_hash: "sha256:9db3e4bd118dec35eda57d21dbb4769de1a35a5177a9a39832eef5e6f3874dbd"
+  location: "packages/witt/2026-10-20T13-28-14Z"
 story_placement: false
 card:
   portrait: "assets/portraits/nikolaus.jpg"

@@ -63,7 +63,7 @@ export function Launch({
                 </div>
                 <div className="world-card__header">
                   <div className="world-card__name">
-                    {world.representativeName} <span className="world-card__role">· {world.roleLabel}</span>
+                    {world.representativeName}
                   </div>
                   <div className="world-card__era sans">
                     c. {world.eraStart}–{world.eraEnd}

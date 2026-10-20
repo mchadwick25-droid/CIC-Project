@@ -61,7 +61,7 @@ def _world():
     return LoadedWorld(
         world_key="fix", manifest_hash="sha256:test", prompt_text="## Identity\nVera.", capsule_text="capsule",
         repository={"records": records}, quotes={"quotes": []}, figures={"figures": FIGURES}, coverage=_coverage(),
-        frame={"representative": {"name": "Vera", "role_label": "Witness"}},
+        frame={"representative": {"name": "Vera"}},
     )
 
 
