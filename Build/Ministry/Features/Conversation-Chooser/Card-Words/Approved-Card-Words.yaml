@@ -1,0 +1,148 @@
+# Approved card words — the conversation chooser — 2026-10-20
+#
+# The eleven taglines, "shaped by" names, back summaries and "What the record
+# holds" lines at the state Mark approved. Source of the words: the prototype
+# template in ../Prototype/chooser-directions.template.html at the same commit,
+# which is the page Mark reviewed (https://claude.ai/artifact/Npf19NpmiF9hKsPKcsj5ah,
+# version 14). Mark's approval, in the build thread, 2026-10-20: "i have
+# approved the taglines and text for the back for all 11 we need to make sure
+# its on main, the thread is updating the cards on prototype". His rulings on
+# the four tagline findings are in ../Decision-Log.md (2026-10-20).
+#
+# Known limits, recorded so the build thread and Mark can see them:
+# - Gaul: Mark kept the tagline and summary as written; the claim-check finding
+#   on "went on living as monks" stays open (Decision-Log, 2026-10-20).
+# - Summaries: the records-based claim check sent eight summary findings to the
+#   Gateway Cards review thread (session_01NvZARad7yEyT7iBYxKPQZf); none is
+#   applied here. Mark's approval above covers the text as it stands.
+# - record_holds: these are the short lines on the prototype back, with the
+#   women's-own-words clauses removed under Mark's rule of 2026-10-19 ("for all
+#   worlds that have this text we can remove the no womans own words survive,
+#   that will come out in different depth"). The longer reviewed lines in
+#   Card-Words/Record-Holds-Review.md (branch claude/zen-cori-x2c5yp) have not
+#   had that rule applied. Which line ships is for Mark; this file records what
+#   he saw on the card.
+#
+# Keyed by registry code. Nothing here is in records/ yet.
+
+pahc:
+  census_id: post-apostolic-house-church
+  representative: Chloe
+  title: Household Leader
+  tagline: Chloe is a representative voice for the Christian tradition of the household churches after the apostles (70–200 CE), shaped by Ignatius, Justin and Polycarp among others, where there was no fixed hierarchy and no finished New Testament.
+  shaped:
+  - Ignatius
+  - Justin
+  - Polycarp
+  summary: From about 70 to 200 CE, Christians in Antioch, the cities of Asia Minor and Rome gathered in households. No central body ruled them. Letters carried by hand held them together. After the apostles died, these churches had not yet settled who should lead. Ignatius's letters urged one bishop with elders beside him. At Rome, early letters show a council of elders leading. Being a Christian could bring real danger. Ignatius's letters say he was marched under guard toward death.
+  record_holds: Rich in letters, church order and worship. Thin on enslaved members and the people who could not write.
+alx:
+  census_id: alexandria-catechetical
+  representative: Theon
+  title: Catechetical Teacher
+  tagline: Theon is a representative voice for the Christian tradition of Alexandria (c. 150–400 CE), shaped by Clement, Origen and Athanasius among others, where teachers drew on Greek and Jewish learning to read Scripture in layers and find Christ, the Logos, beneath the surface.
+  shaped:
+  - Clement
+  - Origen
+  - Athanasius
+  summary: Between about 150 and 400 CE, Christians in Alexandria built a faith around teaching. Teachers led seekers through Scripture layer by layer. The plain story came first. Then came a deeper meaning that opened onto Christ. Clement and Origen were sure that Greek learning could serve Christ. When plague struck, the bishop wrote that his own people nursed the dying while others fled. Literate men wrote almost all of what survives.
+  record_holds: Rich in teaching and argument. Thin on ordinary believers and rural Egypt.
+syr:
+  census_id: syriac-edessa-nisibis
+  representative: Mar Yausep
+  title: Teacher of the Covenant Order
+  tagline: Mar Yausep is a representative voice for the Christian tradition of Edessa and Nisibis (200–410 CE), where doctrine was sung in hymns, shaped by Ephrem, Aphrahat and Jacob of Nisibis among others.
+  shaped:
+  - Ephrem
+  - Aphrahat
+  - Jacob of Nisibis
+  summary: Between about 200 and 410, Syriac-speaking Christians lived on the border of the Roman and Persian empires, at Edessa and Nisibis. They taught the faith through hymns and symbols. Men and women of the covenant promised to stay unmarried for life. They lived in town with their families. Ephrem, a deacon, answered rival teachers by name. In the 340s, King Shapur II turned on the Christians of Persia. Bishop after bishop was killed.
+  record_holds: Rich in hymns and teaching. Thin on ordinary believers and the years after Ephrem.
+desert:
+  census_id: desert-monasticism
+  representative: Papnoute
+  title: Abba (Elder)
+  tagline: Papnoute is a representative voice for the Christian tradition of the Egyptian desert (c. 320–430 CE), where Christians left their villages to wrestle with tempting thoughts, alone or in community, shaped by Antony, Pachomius and Evagrius among others.
+  shaped:
+  - Antony
+  - Pachomius
+  - Evagrius
+  summary: Between about 320 and 430, Christians in Egypt left their villages for the desert's edge. Some lived alone, as Antony did after he gave away his inheritance. Others lived in settlements such as Nitria and Kellia. They kept small cells and met once a week to worship. Pachomius gathered monks into houses governed by the Pachomian rule. Elders guided the hermits and the settlements. Both kinds of authority stood side by side.
+  record_holds: Rich in the elders' sayings and Antony's life. Thin on ordinary monks and the later life of Pachomius's houses.
+don:
+  census_id: donatism
+  representative: Fidelis
+  title: Bishop of the Unbroken Line
+  tagline: Fidelis is a representative voice for the Donatist church of Roman North Africa (c. 311–439 CE), shaped by Donatus, Petilian and Emeritus among others, where two rival churches contested the same towns, and one saw itself as the church of the martyrs.
+  shaped:
+  - Donatus
+  - Petilian
+  - Emeritus
+  summary: From around 311, in Roman North Africa, two churches stood in town after town, each with its own bishop, altar and line of ordination. The split began with a charge. A bishop was said to have handed the scriptures over to be burned. If that hand was tainted, the Donatists held, all it gave afterward was empty. They called their church the Church of the Martyrs. Nearly everything known of them comes from two bishops who wrote against them. Most of their own words survive as quotations in those books.
+  record_holds: Nearly everything comes through the hands of their opponents. Thin to silent on ordinary believers.
+cappadocian:
+  census_id: cappadocian-nicene-pastoral-monastic-tradition
+  representative: Chilo
+  title: Elder of the Brotherhoods
+  tagline: Chilo is a representative voice for the Christian tradition of Cappadocia and Pontus (c. 325–394 CE), shaped by Basil, Gregory of Nyssa and Gregory of Nazianzus among others, where churches held the Nicene faith through hostile years and cared for the poor.
+  shaped:
+  - Basil
+  - Gregory of Nyssa
+  - Gregory of Nazianzus
+  summary: Between about 325 and 394 CE, Christians in Cappadocia and Pontus fought two contests at once. One was public. Emperors kept switching which creed they favored, and bishops were threatened and exiled. The other asked how far the words of worship could go in naming the Holy Spirit. They held that the Son and the Spirit are fully what the Father is. The same exactness reordered how these churches treated the poor. Basil, then a priest, preached against landowners who hoarded grain.
+  record_holds: Rich in the three bishops' letters and sermons. Thin on the enslaved and the parties they defeated.
+ijc:
+  census_id: imperial-juridical-christianity
+  representative: Marius
+  title: Deacon of the Letters
+  tagline: Marius is a representative voice for the imperial church of Rome, Milan and Constantinople (c. 312–451 CE), shaped by Constantine, Ambrose and Leo among others, where bishops went from a hunted church to a seat beside the throne.
+  shaped:
+  - Constantine
+  - Ambrose
+  - Leo
+  summary: Between 312 and 451 CE, the church in Rome, Constantinople, and Milan went from a hunted community to a partner of the emperor's power. Bishops now met in councils that an emperor called and paid for. The church gained legal standing, wealth, and a seat near the throne. It also had to decide what that nearness would cost. Rome traced its standing to Peter. Constantinople claimed rank because the emperor reigned there. Ambrose of Milan argued that the emperor stood inside the church, not above it.
+  record_holds: Rich in councils, canons and letters. Thin on daily life and the defeated side's own voice.
+hal:
+  census_id: hieronymian-ascetic-literary
+  representative: Albina
+  title: Widow of the Household
+  tagline: Albina is a representative voice for the Christian tradition of the Bethlehem circle (c. 382–420 CE), shaped by Jerome, Paula and Marcella among others, where Roman women spent a senatorial fortune founding monasteries at Bethlehem and sustaining Jerome's translation of the Old Testament from the Hebrew.
+  shaped:
+  - Jerome
+  - Paula
+  - Marcella
+  summary: In the early 380s Jerome came to Rome and joined a circle of women already meeting around the widow Marcella to study Scripture. Paula and her daughters belonged to it. These were women of senatorial rank. When Jerome left Rome in 385, Paula and Eustochium sailed east and founded monasteries at Bethlehem, a house for men, houses for women, and a hostel for pilgrims, with Jerome installed beside them to work. Paula sold her property and spent her fortune on the foundations and on charity. She led the women's community until her death; Eustochium led it after her. Out of it came Jerome's Latin Old Testament, made from the Hebrew, part of what was later called the Vulgate.
+  record_holds: Rich in Jerome's letters. Thin on daily life beyond one letter.
+gallic:
+  census_id: gallic-monastic-ascetic-christianity
+  representative: Renatus
+  title: Bishop
+  tagline: Renatus is a representative voice for the Christian tradition of Roman Gaul (c. 360–450 CE), where monks who were made bishops went on living as monks, shaped by Martin, Cassian and Honoratus among others.
+  shaped:
+  - Martin
+  - Cassian
+  - Honoratus
+  summary: Between about 360 and 450 CE, two households of monks in Roman Gaul lived out the same idea. In both, a monk who was made a bishop went on living as a monk. Martin, a soldier who had left the army to serve Christ, was drawn out of his monastery by a trick and made bishop of Tours. As bishop, he kept living like a monk. Cassian had lived among the monks of Egypt. He wrote down their teaching for Gaul. No evidence shows that the two households ever wrote to each other.
+  record_holds: Rich in a bishop's life story and Cassian's teaching. Thin on the island's daily customs.
+witt:
+  census_id: lutheran-wittenberg-and-its-congregations
+  representative: Nikolaus
+  title: Sexton-Schoolmaster
+  tagline: Nikolaus is a representative voice for the Christian tradition of Wittenberg (1517–1580), shaped by Luther, Melanchthon and Johann Walter among others, where Luther wrote a Small Catechism for each household to teach at home.
+  shaped:
+  - Luther
+  - Melanchthon
+  - Johann Walter
+  summary: In 1517, Luther, an Augustinian friar who taught theology at Wittenberg, wrote to his archbishop against the sale of indulgences. It held that a person stands before God by a gift received through faith, apart from works. Princes and city councils took the reform into their lands in place of bishops. This world's chief tool was the household catechism. It had three parts, to be said at rising, at table, and at night. The record is rich on the founding decade. It is thin on how any household or parish lived this.
+  record_holds: Rich in Luther's catechisms and confessions. Thin on how any household or parish received them.
+rzg:
+  census_id: the-reformed-cities-zurich-and-geneva
+  representative: Theophilus
+  title: Pastor
+  tagline: Theophilus is a representative voice for the Christian tradition of Zurich and Geneva (1519–1650), where Scripture alone was held to test every church practice, shaped by Zwingli, Calvin and Bullinger among others.
+  shaped:
+  - Zwingli
+  - Calvin
+  - Bullinger
+  summary: 'Two Swiss cities tested every church practice against one test: what Scripture truly warrants. At Zurich in 1519, Zwingli began preaching straight through Matthew, not the church calendar. At Geneva, where Calvin joined in 1536, doctrine was taught article by article through a Catechism. A Consistory of pastors and lay elders judged daily conduct by it. Zwingli and Calvin never met. The record is rich in doctrine. It says almost nothing of an ordinary Sunday.'
+  record_holds: Rich in doctrine and confessions. Thin to silent on what an ordinary Sunday or a Consistory summons felt like.
