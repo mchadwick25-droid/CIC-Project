@@ -336,3 +336,11 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Checked** (five cards in the hand, front and turned, headless browser): at default text size no overlap, clipping or sideways scroll at 1434x717, 1440x900, 1024x768, 390x844 or 320x568. At 200% text size the same holds at 1434x717 and 1440x900.
 
 **Not fixed.** At 200% text size on 390 px and 320 px screens the card is wider than the screen and its text overruns the card; at 1024x768 the page scrolls sideways by 276 px (not traced to its cause). Under the WCAG text-spacing stress test (line height 1.5, letter spacing .12em, word spacing .16em), the name overlaps the card header and the back's text area shrinks, at every size tested. Both need the card faces to grow in height instead of keeping a fixed ratio; that is a layout change not yet decided.
+
+## 2026-10-20 — The card grows taller with its text (Mark: "yes, make the cards grow taller")
+
+**What changed.** The hand is one grid cell, so every card takes the height of the tallest. Each card's front and back share one height and never fall below the old 5:7 shape. The photo and the back's text area have a minimum height and give way to the text before the card grows: the back text area scrolls. On narrow screens the card width is capped at the container, and the list layout's card width follows the reader's text size.
+
+**Checked** (five cards in the hand, front and turned, headless browser, at 1434x717, 1440x900, 1024x768, 390x844 and 320x568): at default text size, at 200% text size and under the WCAG text-spacing stress test, no name over the header, no text past the card's bottom edge, buttons inside the card. Under the stress test the back's text area is 63 px high on phone widths, which scrolls.
+
+**Found, not fixed.** At 200% text size the page scrolls sideways at 1024 px (276 px), 390 px (80 px) and 320 px (150 px). The cause is the site header, not the chooser: the Menu and feedback buttons at 1024 px, the wordmark at 390 px. The header is shared by every page and is a separate change.
