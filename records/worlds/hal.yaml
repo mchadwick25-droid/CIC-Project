@@ -26,3 +26,36 @@ living_tradition_flag: false
 story_placement: false
 card:
   portrait: "assets/portraits/bethlehem.png"
+  topics:
+  - word: The Bible and how to read it
+    note: They held the Hebrew text truest and spent a lifetime correcting and translating scripture.
+  - word: Saints and holy places
+    note: They lived beside the cave of Christ's birth and treated the land as witness.
+  - word: Jesus
+    note: God's Word became flesh in Bethlehem; his poverty taught renunciation.
+  - word: Salvation and grace
+    note: No one lives without sin; they held grace is needed in every act.
+  - word: Sin and forgiveness
+    note: Public penance restored the fallen fully; Fabiola confessed her fault and returned to communion.
+  - word: Heaven, hell and judgment
+    note: They taught real punishment; Jerome, under attack, renounced the hope that all are restored.
+  - word: Money and the poor
+    note: Giving away wealth was itself the way of faith; those fortunes built the monasteries.
+  - word: Marriage and family
+    note: Remarriage while a spouse lived was a fault for both sexes; penance restored.
+  - word: Women
+    note: Noble women led this ascetic life; none of their own words survive.
+  - word: Suffering and death
+    note: They met Rome's fall and a daughter's death with old answers, and honored grief.
+  - word: Monks and nuns
+    note: They adapted Egyptian monastic patterns into Latin monasteries for men and women at Bethlehem.
+  - word: Learning and education
+    note: They taught and guided people by letter, and studied Hebrew to read scripture truly.
+  - word: Caring for the sick
+    note: Jerome praised Fabiola for founding a hospital and nursing the sick from the streets.
+  - word: Church leaders
+    note: Jerome openly mocked clergy who chased fine clothes, women's company and gifts.
+  - word: The emperor and the state
+    note: Under Christian emperors, they said, the church grew rich and weak in virtue.
+  - word: Heresy and false teaching
+    note: They fought Origen's followers and the Pelagians fiercely, and these disputes shaped their writing.

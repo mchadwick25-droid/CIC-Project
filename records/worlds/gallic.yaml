@@ -32,3 +32,49 @@ package:
 story_placement: false
 card:
   portrait: "assets/portraits/gallic.jpg"
+  topics:
+  - word: Prayer
+    note: Monks aim to pray without ceasing; Marseilles kept Egypt's twelve psalms at set hours.
+  - word: The Bible and how to read it
+    note: Scripture is complete, Vincent says, but needs the Church's ancient, shared reading.
+  - word: Saints and holy places
+    note: Martin doubted a local martyr's tomb, since no steady tradition about it came down.
+  - word: Fasting and self-denial
+    note: 'For Cassian, fasts and vigils only serve the real goal: a pure heart.'
+  - word: Jesus
+    note: This world finds Christ in the beggar no one pities and in the guest.
+  - word: Salvation and grace
+    note: Cassian teaches that grace works with real human effort, beyond what reason grasps.
+  - word: Sin and forgiveness
+    note: Cassian's monks fight eight faults in fixed order, gluttony first and pride last.
+  - word: Free will and predestination
+    note: Cassian says God wills all to be saved; whether he opposed Augustine is disputed.
+  - word: Heaven, hell and judgment
+    note: Three voices feel judgment near; Salvian sees it already falling on ruined Gaul.
+  - word: Tradition and authority
+    note: Truth is what the fathers handed down; anything new is suspect for being new.
+  - word: Money and the poor
+    note: Salvian calls the rich murderers of the poor, since taxes fell on the weakest.
+  - word: Suffering and death
+    note: 'Martin refused straw as he died: a Christian, he said, should die among ashes.'
+  - word: Miracles
+    note: Sulpitius tells of Martin's wonders; Cassian refuses to weave a tale of miracles.
+  - word: The devil and demons
+    note: Martin sees and speaks to the devil; Cassian's elders meet him in hidden thoughts.
+  - word: Monks and nuns
+    note: A monk gives up marriage, kin, property and the world to serve Christ.
+  - word: Church leaders
+    note: Bishops were often drawn from monasteries, and Martin stayed a monk as bishop.
+  - word: The emperor and the state
+    note: Martin left the army for Christ; he said rulers must not judge church cases.
+  - word: Heresy and false teaching
+    note: Heretics leave the ancient shared faith; bishops expel them but must never kill them.
+  - word: Church councils
+    note: Vincent trusts ancient councils that add nothing new; Martin never attended a synod again.
+  aliases:
+  - name: Massilians
+    kind: outsider
+    note: Hostile label from Prosper, Augustine's ally; naming Marseilles. No monk used it.
+  - name: Semi-Pelagians
+    kind: later
+    note: Sixteenth-century coinage, not ancient; contested and misleading for these monks.

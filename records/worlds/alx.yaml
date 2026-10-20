@@ -25,3 +25,60 @@ living_tradition_flag: true
 story_placement: false
 card:
   portrait: "assets/portraits/alexandria.png"
+  topics:
+  - word: Baptism
+    note: Clement called baptism illumination, a real change in body and soul.
+  - word: Communion
+    note: Bread and cup, received with thanks, were a real sharing in Christ every week.
+  - word: Prayer
+    note: Prayer was conversation with God, spoken or silent, the soul turning toward him.
+  - word: The Bible and how to read it
+    note: Scripture has body, soul and spirit, so teachers read it in layers.
+  - word: Fasting and self-denial
+    note: Fasting trained the soul's wanting through the body's hunger; it was no diet.
+  - word: Jesus
+    note: Jesus is the Logos, God's own Word, who came in flesh to heal creation.
+  - word: The Trinity
+    note: God's Word and Spirit are his own, but clear words came only after Nicaea.
+  - word: The Holy Spirit
+    note: The Spirit is always at work in the soul's change, not an occasional visitor.
+  - word: Salvation and grace
+    note: Salvation is a step-by-step turning of the whole person toward sharing God's life.
+  - word: Sin and forgiveness
+    note: Sin is the soul turned from God toward lesser goods, more wound than debt.
+  - word: Free will and predestination
+    note: The soul can truly choose; without that, teaching would be manipulation, not growth.
+  - word: Heaven, hell and judgment
+    note: Origen hoped healing punishment might restore all, but how firmly is unclear.
+  - word: Creeds
+    note: The rule of faith was a short summary of what the apostles handed down.
+  - word: Tradition and authority
+    note: Teachers held the apostles' teaching was handed down in order; other questions stayed open.
+  - word: Suffering and death
+    note: God's hand in pain is a physician's; suffering is never meaningless, they said.
+  - word: Learning and education
+    note: Study with a teacher was itself the path of faith, though this faded later.
+  - word: Caring for the sick
+    note: In the plague of about 260, most believers nursed the sick; many died.
+  - word: Church leaders
+    note: Teachers and bishops held two real kinds of authority, never fully merged.
+  - word: The emperor and the state
+    note: Constantine's peace brought protection but also coercion; they held both without resolving it.
+  - word: Persecution
+    note: Many gave way under persecution; the church chose to restore them, after bitter struggle.
+  - word: Martyrs
+    note: A martyr was a witness who held fast; Clement faulted rushing toward death.
+  - word: Heresy and false teaching
+    note: They drew real lines against Gnostic schools and Arian churches, by argument and exclusion.
+  - word: Church councils
+    note: Deciding disputed belief moved from teachers to bishops to councils like Nicaea.
+  aliases:
+  - name: Catechetical School of Alexandria
+    kind: later
+    note: Eusebius's tidy picture of a formal school; historians dispute that it existed.
+  - name: Didaskaleion
+    kind: later
+    note: Greek word for the supposed school; whether a formal school existed is disputed.
+  - name: Alexandrian teaching tradition
+    kind: scholarly
+    note: 'Safer modern label: a remembered line of teachers, not a proven institution.'

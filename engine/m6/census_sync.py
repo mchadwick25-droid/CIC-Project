@@ -53,6 +53,8 @@ _ENTRY_FIELDS = (
     ("recordHolds", ("card", "record_holds")),
     ("matches", ("card", "matches")),
     ("portrait", ("card", "portrait")),
+    ("topics", ("card", "topics")),
+    ("aliases", ("card", "aliases")),
 )
 
 

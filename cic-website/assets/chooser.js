@@ -58,7 +58,11 @@ function init(mount, census) {
         summary: en.tile || "",
         record: en.recordHolds || "",
         matches: Array.isArray(en.matches) ? en.matches : [],
-        voices: (m.voices || []).filter(function (v) { return typeof v === "string"; })
+        voices: (m.voices || []).filter(function (v) { return typeof v === "string"; }),
+        start: m.start,
+        end: m.end,
+        topics: Array.isArray(en.topics) ? en.topics : [],
+        aliases: Array.isArray(en.aliases) ? en.aliases : []
       };
     });
   if (!worlds.length) return;
@@ -283,16 +287,35 @@ function init(mount, census) {
   });
 
   // ---------- deck: filtering, dealing, search ----------
-  function haystack(w) {
-    return [w.rep, w.role, w.world, w.name, w.informal, w.subtitle, w.place, w.tag, w.shaped]
-      .concat(w.voices).concat(w.matches.map(function (m) { return m && m.term; })).join(" ").toLowerCase();
+  function eraName(w) { var e = eras[w.era]; return e ? e.name : ""; }
+  function haystack(w, withVoices) {
+    var parts = [w.rep, w.role, w.world, w.name, w.informal, w.subtitle, w.place, w.tag, w.shaped, w.dates, eraName(w)]
+      .concat(w.matches.map(function (m) { return m && m.term; }))
+      .concat(w.topics.map(function (t) { return t.word + " " + t.note; }))
+      .concat(w.aliases.map(function (a) { return a.name; }));
+    if (withVoices) parts = parts.concat(w.voices);
+    return parts.join(" ").toLowerCase();
+  }
+  var topicWords = [];
+  worlds.forEach(function (w) { w.topics.forEach(function (t) { var k = t.word.toLowerCase(); if (topicWords.indexOf(k) < 0) topicWords.push(k); }); });
+  function isTopicTerm(term) { return topicWords.some(function (k) { return k.indexOf(term) >= 0; }); }
+  function yearRange(term) {
+    var m = /^(\d{2,4})$/.exec(term);
+    if (m) return [+m[1], +m[1]];
+    m = /^(\d{1,2})(?:st|nd|rd|th)?\s+century(?:\s+(?:ce|ad))?$/.exec(term);
+    if (m) return [(+m[1] - 1) * 100 + 1, +m[1] * 100];
+    return null;
+  }
+  function inYears(w, term) {
+    var r = yearRange(term);
+    return !!r && typeof w.start === "number" && typeof w.end === "number" && w.start <= r[1] && w.end >= r[0];
   }
   function deckIds() {
     var term = deckState.q.trim().toLowerCase();
     return allIds.filter(function (id) {
       var w = byId[id];
       if (deckState.era && w.era !== deckState.era) return false;
-      return !term || haystack(w).indexOf(term) >= 0;
+      return !term || haystack(w, !isTopicTerm(term)).indexOf(term) >= 0 || inYears(w, term);
     });
   }
 
@@ -302,8 +325,16 @@ function init(mount, census) {
       var m = w.matches[i];
       if (m && m.term && m.term.toLowerCase().indexOf(t) >= 0) return m.term + ": " + (m.why || "");
     }
-    var names = [["its name", w.world + " " + w.name + " " + w.informal + " " + w.subtitle], ["its place", w.place], ["its Representative", w.rep + " " + w.role]];
+    var tw = w.topics.filter(function (x) { return x.word.toLowerCase().indexOf(t) >= 0; });
+    if (tw.length) return tw.slice(0, 2).map(function (x) { return x.word + ": " + x.note; }).join(" ");
+    for (var a = 0; a < w.aliases.length; a++) {
+      if (w.aliases[a].name.toLowerCase().indexOf(t) >= 0) return "Also known as " + w.aliases[a].name + ". " + w.aliases[a].note;
+    }
+    var names = [["its name", w.world + " " + w.name + " " + w.informal + " " + w.subtitle], ["its place", w.place], ["its Representative", w.rep + " " + w.role], ["its era", eraName(w)]];
     for (var n = 0; n < names.length; n++) if (names[n][1].toLowerCase().indexOf(t) >= 0) return "Matches " + names[n][0] + ".";
+    if (inYears(w, t) || (w.dates || "").toLowerCase().indexOf(t) >= 0) return "Active " + w.dates + ".";
+    var tn = w.topics.filter(function (x) { return x.note.toLowerCase().indexOf(t) >= 0; });
+    if (tn.length) return tn[0].word + ": " + tn[0].note;
     for (var v = 0; v < w.voices.length; v++) {
       var voice = w.voices[v], at = voice.toLowerCase().indexOf(t);
       if (at < 0) continue;

@@ -199,6 +199,8 @@ def test_card_block_syncs_to_entry_fields():
         "record_holds": "What the record holds.",
         "matches": [{"term": "Augustine", "why": "argued against this church"}],
         "portrait": "assets/portraits/abc.png",
+        "topics": [{"word": "Baptism", "note": "A note."}],
+        "aliases": [{"name": "Abcists", "kind": "outsider", "note": "A caution."}],
     }
     new_census, changes = sync_census(registry, census)
     entry = _by_id(new_census, "abc-census-id")["entry"]
@@ -207,14 +209,16 @@ def test_card_block_syncs_to_entry_fields():
     assert entry["recordHolds"] == "What the record holds."
     assert entry["matches"] == [{"term": "Augustine", "why": "argued against this church"}]
     assert entry["portrait"] == "assets/portraits/abc.png"
-    assert {"entry.intro", "entry.shaped", "entry.recordHolds", "entry.matches", "entry.portrait"} <= {c["field"] for c in changes}
+    assert entry["topics"] == [{"word": "Baptism", "note": "A note."}]
+    assert entry["aliases"] == [{"name": "Abcists", "kind": "outsider", "note": "A caution."}]
+    assert {"entry.intro", "entry.shaped", "entry.recordHolds", "entry.matches", "entry.portrait", "entry.topics", "entry.aliases"} <= {c["field"] for c in changes}
 
 
 def test_absent_card_block_adds_no_card_fields():
     registry, census = _registry(), _census()
     new_census, _ = sync_census(registry, census)
     entry = _by_id(new_census, "abc-census-id")["entry"]
-    assert not {"intro", "shaped", "recordHolds", "matches", "portrait"} & set(entry)
+    assert not {"intro", "shaped", "recordHolds", "matches", "portrait", "topics", "aliases"} & set(entry)
 
 
 def test_card_block_on_unadmitted_world_is_ignored():

@@ -105,3 +105,13 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Era tones.** Measured against #17130F and #1E1913 (World-Accent-Colours.md thresholds: 5.3 and 5.07). I #C9973A: 7.01, 6.62. II #7E9B6E: 5.98, 5.65. VII #6C8DB5: 5.38, 5.08. All clear; VII clears the surface by 0.01.
 
 **Still unchecked.** Scaling to a hundred worlds (reasoned only); the seven unopened systems in the grid.
+
+## 2026-10-20 — Topic search: a shared everyday list, written to the registry (Mark)
+
+**Mark's words.** "these are not things the user would naturally search for"; then, choosing the shared list: one list of everyday words every world is tagged against. On the strict test: "make sure the topics of a world are topics they have a significant view, not just a mention". On pruning: "we dont need perfection just distinction." On names: "also inlcude other names the traditions might be known by." Then: "converged, write the topics and keywords to the registry".
+
+**What it settles.** Search reads a shared list of 35 everyday words. Each world is tagged with the words on which its own records hold a view of their own, each with a plain note on that view (184 tags). A word many worlds hold stays, because the notes carry the distinction. Alternate names come from the records, each labelled own, outsider, scholarly or later. A search for a topic word matches topics, names and alternate names, and not free voice text, so "communion" does not find Donatism through "led this communion". A year or a century finds the worlds whose dates cover it. The record ids are in `Card-Words/Topic-Tags-Trace.md`.
+
+**Not settled.** Hidden search-only keywords for everyday names the records do not carry. Mark approved the approach, not a list. None is written until Mark approves each.
+
+**Change to the build plan.** `card.topics` and `card.aliases` are added to the registry and synced to the census; the plan's `card.matches` stays for names with a stated reason.

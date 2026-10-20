@@ -27,3 +27,38 @@ living_tradition_flag: true
 story_placement: false
 card:
   portrait: "assets/portraits/house-churches.png"
+  topics:
+  - word: Baptism
+    note: After teaching and fasting came baptism in running water; only then the shared table.
+  - word: Communion
+    note: Households gave thanks over bread and cup, in an order that varied by place.
+  - word: Prayer
+    note: Hermas says ask without doubting; a slow answer is not a refusal.
+  - word: The Bible and how to read it
+    note: Believers heard the apostles' memoirs and the prophets read aloud at the weekly gathering.
+  - word: Jesus
+    note: Ignatius stresses Jesus was truly born, truly crucified and truly raised.
+  - word: Sin and forgiveness
+    note: One community's manual asks believers to confess and make peace before the offering.
+  - word: Tradition and authority
+    note: Rome's letter says God sent Christ, Christ sent the apostles, and they appointed leaders.
+  - word: Money and the poor
+    note: Hermas pictures rich and poor as elm and vine, each needing the other.
+  - word: Marriage and family
+    note: Ignatius says couples should marry with the bishop's approval.
+  - word: Church leaders
+    note: Some places had one bishop, others a group of elders; this was never settled.
+  - word: Martyrs
+    note: Ignatius longed to die for Christ; Smyrna honored Polycarp. Not every church held this.
+  - word: Heresy and false teaching
+    note: Ignatius fought teachers who denied Jesus truly suffered; how widely this mattered is unclear.
+  aliases:
+  - name: House churches
+    kind: scholarly
+    note: Modern scholars' label for these household assemblies; the world's own word is ekklesia.
+  - name: Ekklesia
+    kind: own
+    note: 'Every surviving voice uses it for itself: the assembly, not a building.'
+  - name: The Catholic Church (Ignatius)
+    kind: own
+    note: Ignatius's phrase for the whole church everywhere, not the later denomination.
