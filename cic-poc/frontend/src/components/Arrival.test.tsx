@@ -17,7 +17,6 @@ function world(overrides: Partial<WorldEntry> = {}): WorldEntry {
     displayName: 'Fixture World',
     cardName: 'Fixture',
     representativeName: 'Theon',
-    roleLabel: 'Teacher',
     place: 'Nowhere',
     eraStart: 100,
     eraEnd: 200,

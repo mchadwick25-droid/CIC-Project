@@ -22,12 +22,56 @@ doorway_description: >-
   removed the Roman state this whole refusal was defined against.
 card_name: "The Church of the Martyrs"
 app: {order: 9, accent_color: "#CD6F6F", portrait: "/images/portraits/thumb/donatism.webp"}
-representative: {name: Fidelis, role_label: "Bishop of the Unbroken Line"}
+representative: {name: Fidelis}
 census_id: "donatism"
-thinness_statement: "Richest in the purity doctrine and its rebaptism consequence, the legal and institutional shape of the schism, the conciliar and imperial documentary record, and the martyr narratives; nearly the whole textual record passes through the hands of Catholic opponents (Optatus, Augustine) before reaching us, its central evidentiary problem. Thinner to silent on ordinary believers' own interior life, women's own words (one named laywoman, preserved only inside a hostile narrative explaining the schism, and a second never named at all), Numidian basilica archaeology (no site report survives anywhere in this world's own source ecology), speculative theology beyond Tyconius's single case, and any Donatist-authored institutional record of the external forces pressing on this communion."
+thinness_statement: "Richest in the purity doctrine and its rebaptism consequence, the legal and institutional shape of the schism, the conciliar and imperial documentary record, and the martyr narratives; nearly the whole textual record passes through the hands of Catholic opponents (Optatus, Augustine) before reaching us, its central evidentiary problem. Thinner to silent on ordinary believers' own interior life, women's own words (one named laywoman, preserved only inside a hostile narrative explaining the schism, and a second never named at all), Numidian basilica archaeology (no site report survives anywhere in this Christian tradition's own source ecology), speculative theology beyond Tyconius's single case, and any Donatist-authored institutional record of the external forces pressing on this communion."
 living_tradition_flag: false
 state: admitted
 package:
-  manifest_hash: "sha256:327c91c6cdd868a4852110661a67ef125eeb9acc9d78d4940b69db20edd3e9ce"
-  location: "packages/don/2026-10-18T02-38-59Z"
+  manifest_hash: "sha256:b28cd08f05c32ab83613cc6041f1ff5c21538e341634f07f0cc0147ef08f418f"
+  location: "packages/don/2026-10-20T15-54-39Z"
 story_placement: false
+card:
+  portrait: "assets/portraits/donatism.png"
+  intro: Fidelis is a representative voice for the Donatist church of Roman North Africa (c. 311–439 CE). Two rival churches contested the same towns; one saw itself as the church of the martyrs.
+  shaped:
+  - Donatus
+  - Petilian
+  - Emeritus
+  summary: From around 311, in Roman North Africa, two churches stood in town after town, each with its own bishop, altar and line of ordination. The split began with a charge. A bishop was said to have handed the scriptures over to be burned. If that hand was tainted, the Donatists held, all it gave afterward was empty. They called their church the Church of the Martyrs. Nearly everything known of them comes from two bishops who wrote against them. Most of their own words survive as quotations in those books.
+  record_holds: Nearly everything comes through the hands of their opponents. Thin to silent on ordinary believers.
+  topics:
+  - word: Baptism
+    note: They baptized newcomers anew, holding that baptism outside their church was no baptism.
+  - word: The Bible and how to read it
+    note: 'They read scripture for a mark of the true church: the world hates it.'
+  - word: Saints and holy places
+    note: They honored their own martyrs at the graves, where the community gathered to remember.
+  - word: Feast days and remembering the dead
+    note: Each year they gathered at a martyr's grave to hear the death read again.
+  - word: Tradition and authority
+    note: They claimed descent from Cyprian's African council on baptism; opponents denied his authority.
+  - word: Church leaders
+    note: They kept a complete rival line of bishops, ordained by hands free of betrayal.
+  - word: The emperor and the state
+    note: They denied emperors any right to judge the church, yet sometimes sought their help.
+  - word: Persecution
+    note: Bishops who handed scriptures to persecutors, they held, could no longer give sacraments.
+  - word: Martyrs
+    note: They saw a persecuted church as the true one, and kept their martyrs' stories.
+  - word: Church splits
+    note: They formed a full rival church, bishop against bishop, across North Africa's towns.
+  - word: Church councils
+    note: Their councils judged bishops; they rejected councils run and enforced by the emperor.
+  aliases:
+  - name: Donatists
+    kind: outsider
+    note: Name given by the people who defeated them; not a neutral label.
+  - name: Party of Donatus
+    kind: own
+    note: Used by bishops in a 313 petition; Optatus turned it into a charge.
+  keywords:
+  - optatus
+  - rebaptism
+  - circumcellions
+  - constantine

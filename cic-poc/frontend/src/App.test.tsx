@@ -11,7 +11,7 @@ const worldSummary = {
   census_id: 'donatism',
   display_name: 'Donatism',
   card_name: 'Donatist Africa',
-  representative: { name: 'Fidelis', role_label: 'Reader' },
+  representative: { name: 'Fidelis' },
   time_window: { start: 311, end: 411 },
   place: 'Carthage',
   thinness_statement: '',
@@ -81,7 +81,7 @@ describe('first screen', () => {
 
     releaseWorlds();
     await waitFor(() => expect(container.querySelector('.launch')).not.toBeNull());
-    expect(screen.getByRole('alert')).toHaveTextContent("We couldn't find that world here");
+    expect(screen.getByRole('alert')).toHaveTextContent("We couldn't find that Christian tradition here");
   });
 
   it('opens on the launch screen when there is no deep link and nothing to resume', () => {

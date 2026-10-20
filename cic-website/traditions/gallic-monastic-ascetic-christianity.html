@@ -168,14 +168,63 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 .hl:hover .hl-note,.hl:focus .hl-note{display:block}
 @media (hover:none){.hl{cursor:pointer}}
 @media (max-width:600px){.hl-note{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));top:auto;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:auto}}
+/* Wide layout: the page is about the tradition and fills the screen. */
+:root{--gold:#D9B35C}
+.site-header .row,.site-footer .row{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
+.door{padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
+main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
+.era-band{background:var(--era,#D9B35C);color:#1a140e;font-family:var(--sans);font-weight:700;font-size:.875rem;letter-spacing:.12em;text-transform:uppercase;display:flex;justify-content:space-between;gap:1rem;padding:.55rem 1rem;border-radius:.3rem .3rem 0 0;margin-top:1rem}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) clamp(19rem,26vw,30rem);gap:clamp(1.4rem,4vw,3.5rem);align-items:start;border:1px solid var(--rule);border-top:0;border-radius:0 0 .3rem .3rem;background:var(--surface);padding:clamp(1.4rem,4vw,3rem)}
+.hero h1{font-size:clamp(2.6rem,6vw,4.6rem);line-height:1.02;font-weight:600;margin:0 0 .3rem}
+.hero .ident{font-family:var(--sans);font-size:.875rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:0 0 .6rem}
+.hero .formal{font-style:italic;color:var(--muted);font-size:1.3rem;margin:0 0 1.2rem}
+.hero .tile{font-size:clamp(1.1rem,1.3vw,1.3rem);line-height:1.6;max-width:64rem;margin:0}
+.hero .to-story{margin:1.4rem 0 0;font-family:var(--sans);font-weight:700}
+.side{display:grid;gap:1.2rem}
+.facts{border:1px solid var(--gold);border-radius:.5rem;background:var(--ground);padding:1.2rem 1.3rem;font-family:var(--sans);font-size:1rem;line-height:1.45}
+.facts h2{font-family:var(--serif);font-size:1.4rem;margin:0 0 .8rem}
+.facts dl{margin:0;display:grid;gap:.85rem}
+.facts dt{font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.facts dd{margin:.1rem 0 0}
+.facts .tree{display:inline-block;margin-top:1rem;font-weight:700}
+.facts .span{margin:0 0 1.1rem}
+.facts .span svg{display:block;width:100%;height:auto}
+.facts .span text{font-family:var(--sans);font-size:11px;fill:var(--muted)}
+.facts .span .bar{fill:var(--gold)}
+.facts .span .axis{stroke:var(--rule);stroke-width:2}
+.meet{border:1px solid var(--rule);border-radius:.5rem;background:var(--ground);padding:1rem 1.1rem;display:grid;grid-template-columns:auto 1fr;gap:.6rem 1rem;align-items:center;font-family:var(--sans)}
+.meet img{width:4.6rem;height:5.6rem;object-fit:cover;object-position:50% 12%;border-radius:.35rem;border:1px solid var(--gold)}
+.meet-name{font-family:var(--serif);font-size:1.25rem;line-height:1.2;margin:0}
+.meet .acts{grid-column:1/-1;display:flex;gap:1.4rem;justify-content:center}
+.act{display:flex;flex-direction:column;align-items:center;gap:.3rem;width:4.6rem;text-decoration:none;color:var(--text);font-weight:700;font-size:.95rem}
+.act .disc{width:3.4rem;height:3.4rem;border-radius:50%;border:1.5px solid var(--gold);display:grid;place-items:center;background:var(--surface);color:var(--gold)}
+.act.primary .disc{background:var(--btn-fill);border-color:var(--btn-edge);color:var(--btn-text)}
+.act svg{width:1.5rem;height:1.5rem;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.act:hover .disc,.act:focus-visible .disc{box-shadow:0 0 0 3px var(--gold)}
+.article{display:grid;grid-template-columns:clamp(11rem,12vw,16rem) minmax(0,1fr);column-gap:clamp(1.2rem,3vw,3rem);margin-top:3rem;align-items:start}
+.article>.rail{grid-column:1;grid-row:1/span 12;position:sticky;top:1rem;font-family:var(--sans);font-size:.98rem}
+.article>section{grid-column:2;margin:0 0 3.5rem;scroll-margin-top:1rem}
+.rail p{margin:0 0 .6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem;color:var(--muted)}
+.rail ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--rule)}
+.rail li a{display:block;padding:.35rem .9rem;color:var(--muted);text-decoration:none}
+.rail li a:hover,.rail li a:focus-visible{color:var(--text)}
+.article h2{font-size:2rem;margin:0 0 1rem}
+.article .reading{column-width:34rem;column-gap:clamp(2rem,4vw,4.5rem);max-width:none}
+.article .reading>.narration{column-span:all}
+.article .reading p{break-inside:avoid-column}
+.orient-voices{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,18rem),1fr));gap:1.2rem}
+.orient-voice{max-width:none;border:1px solid var(--rule);border-top:3px solid var(--gold);border-radius:.4rem;background:var(--surface);padding:1rem 1.2rem}
+.docstories-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,24rem),1fr));gap:1.2rem;max-width:none}
+.orient-relations,.orient-read-first,.orient-pull-quotes{max-width:none}
+@media (max-width:1180px){.article{display:block}.article>.rail{display:none}}
+@media (max-width:900px){.hero{grid-template-columns:1fr}}
 /* END orientation-content-css */
 
-/* Persistent feature header: Church Family Tree / Conversation with One */
-.feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
-.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--vellum);background:var(--madder);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--madder);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
-.feature-btn:hover,.feature-btn:focus-visible{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
-.feature-btn[aria-current="page"]{border-color:var(--action)}
-@media (max-width:640px){.feature-bar{gap:.5rem}.feature-btn{font-size:.8rem;padding:.45rem .9rem}}
+.feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.2rem}
+.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:600;color:var(--text);background:none;text-decoration:none;padding:.5rem .45rem;border:1px solid transparent;border-radius:999px;min-height:38px;display:inline-flex;align-items:center;white-space:nowrap}
+.feature-btn:hover,.feature-btn:focus-visible{background:none;border-color:transparent;color:var(--action);text-decoration:underline;text-underline-offset:.2em}
+.feature-btn[aria-current="page"]{color:var(--action)}
+@media (max-width:640px){.feature-bar{gap:.1rem}.feature-btn{font-size:.85rem;padding:.45rem .55rem}}
 .tree-link{font-family:var(--sans);font-size:.95rem;margin:1rem 0;padding:.8rem 1rem;background:var(--surface);border-left:3px solid var(--action);border-radius:4px}
 .tree-link a{font-weight:600;color:var(--action)}
 .tree-link a:hover{color:var(--action-hover)}
@@ -216,48 +265,51 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </ol>
     </nav>
 
-    <div class="titleblock">
-      <div>
-        <p class="ident">The Imperial Church Era · c. 360–450 CE · Loire Valley, Lérins &amp; Marseilles, Gaul</p>
+    <div class="era-band" style="--era:#7E9B6E"><span>II. The Imperial Church</span><span>312-451 CE</span></div>
+    <div class="hero">
+      <div class="hero-main">
+        <p class="ident">c. 360-450 &middot; Tours, Lérins, Marseilles</p>
         <h1>The Monk-Bishops of Gaul</h1>
         <p class="formal">Gallic Monastic-Ascetic Christianity</p>
-        <p class="status">Open for conversation — you can sit down with this tradition now.</p>
-        <p class="tile">This tradition grew up around bishops who never stopped living as monks, and around wisdom first learned in the deserts of Egypt. Its first figure, Martin, was a Roman soldier. Almost everything we know of him comes from one admirer's writing — Sulpitius Severus was not present for the events he describes. Martin told Caesar that he was now a soldier of Christ, and asked to leave the army; he even offered to walk unarmed toward the enemy line. By about 360, he had gathered a few companions near Poitiers. Some years later, the people of Tours seized him and made him their bishop. He kept living as a monk outside the city walls. Two generations later, Honoratus founded a monastery on the island of Lérins, off the Mediterranean coast. He became bishop of Arles himself, and other monks from the island followed him into the office, at Arles and at Riez. Around the same years, John Cassian founded two houses at Marseilles. He had spent years among the fathers of Egypt. He wrote down what he had learned there, adapting their customs to a colder climate and a different church. At Lérins, the monk Vincent wrote a rule for telling real growth in the faith from a corruption dressed up as one. Augustine had written to a monastery in North Africa about grace and human effort. Word of his treatise reached Gaul. It was the monks of Marseilles, not Martin's own Tours, who pushed back hardest. Augustine then wrote two more treatises answering them directly. Through the southern houses ran one argument, never fully settled: how much of a monk's progress comes from God's own gift, and how much from his own effort. The story ends around the year 450, with that question still open.</p>
+        <p class="tile">This tradition grew up around bishops who never stopped living as monks, and around wisdom first learned in the deserts of Egypt. Its first figure, Martin, was a Roman soldier. Almost everything we know of him comes from one admirer&#x27;s writing — Sulpitius Severus was not present for the events he describes. Martin told Caesar that he was now a soldier of Christ, and asked to leave the army; he even offered to walk unarmed toward the enemy line. By about 360, he had gathered a few companions near Poitiers. Some years later, the people of Tours seized him and made him their bishop. He kept living as a monk outside the city walls. Two generations later, Honoratus founded a monastery on the island of Lérins, off the Mediterranean coast. He became bishop of Arles himself, and other monks from the island followed him into the office, at Arles and at Riez. Around the same years, John Cassian founded two houses at Marseilles. He had spent years among the fathers of Egypt. He wrote down what he had learned there, adapting their customs to a colder climate and a different church. At Lérins, the monk Vincent wrote a rule for telling real growth in the faith from a corruption dressed up as one. Augustine had written to a monastery in North Africa about grace and human effort. Word of his treatise reached Gaul. It was the monks of Marseilles, not Martin&#x27;s own Tours, who pushed back hardest. Augustine then wrote two more treatises answering them directly. Through the southern houses ran one argument, never fully settled: how much of a monk&#x27;s progress comes from God&#x27;s own gift, and how much from his own effort. The story ends around the year 450, with that question still open.</p>
+        <p class="to-story"><a href="#story">Listen to the story</a></p>
       </div>
-      <aside class="plate" aria-label="Portrait">
-        <figure>
-          <img src="../assets/portraits/gallic.jpg" alt="Renatus: an older man with white, close-cropped hair in a plain undyed wool robe with a rope belt, holding a closed psalter in both hands at his chest, painted against a warm neutral ground." width="720" height="720">
-          <figcaption><b>Renatus, Bishop.</b> A representative voice for the monk-bishops of Gaul — a household of soldiers-turned-monks at Tours, and a school at Lérins and Marseilles that carried Egypt's teaching west and refit it for a colder climate.</figcaption>
-        </figure>
-      </aside>
+      <div class="side">
+        <aside class="facts" aria-labelledby="facts-title">
+          <h2 id="facts-title">At a glance</h2>
+          <div class="span"><svg viewBox="0 0 300 54" role="img" aria-label="c. 360-450 on a line from 0 to 2000 CE"><line class="axis" x1="10" y1="22" x2="290" y2="22"/><rect class="bar" x="60.4" y="14" width="12.6" height="16" rx="3"/><text x="10.0" y="46" text-anchor="start">0</text><text x="80.0" y="46" text-anchor="middle">500</text><text x="150.0" y="46" text-anchor="middle">1000</text><text x="220.0" y="46" text-anchor="middle">1500</text><text x="290.0" y="46" text-anchor="end">2000</text></svg></div>
+          <dl>
+          <div><dt>Period</dt><dd>c. 360-450</dd></div>
+          <div><dt>Place</dt><dd>Tours, Lérins, Marseilles</dd></div>
+          <div><dt>Era</dt><dd>II. The Imperial Church</dd></div>
+          <div><dt>Also known as</dt><dd>Massilians; Semi-Pelagians</dd></div>
+          <div><dt>Shaped by</dt><dd>Martin, Cassian, Honoratus</dd></div>
+          </dl>
+          <a class="tree" href="../tree/gallic-monastic-ascetic-christianity.html">See it on the Church Family Tree &rarr;</a>
+        </aside>
+        <div class="meet" role="group" aria-label="Meet Renatus">
+          <img src="../assets/portraits/gallic.jpg" alt="Renatus: an older man with white, close-cropped hair in a plain undyed wool robe with a rope belt, holding a closed psalter in both hands at his chest, painted against a warm neutral ground." width="573" height="573">
+          <p class="meet-name">Renatus</p>
+          <div class="acts">
+            <a class="act primary" id="seat-begin" href="../talk.html?worlds=gallic-monastic-ascetic-christianity&amp;mode=interview&amp;from=traditions%2Fgallic-monastic-ascetic-christianity.html" data-ask aria-label="Talk with Renatus"><span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h16v11H10l-5 4v-4H4z"/></svg></span>Talk</a>
+            <a class="act" href="../table.html?worlds=gallic-monastic-ascetic-christianity" aria-label="Add Renatus to a table"><span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v8M8 9h8M6 21v-5h12v5"/></svg></span>Table</a>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <p class="tree-link"><a href="../tree/gallic-monastic-ascetic-christianity.html">View this tradition in the Church Family Tree</a></p>
-
-
-
-    <p class="ai-line">Renatus is a representative voice for this tradition, not a person who lived — built from its own letters and records, and honest about where they run out.</p>
 
     <div class="held" id="held" hidden>
       <p class="k">Your question, held:</p>
       <p class="q" id="held-q"></p>
       <a class="edit" id="held-edit" href="../index.html">Edit it</a>
     </div>
-
-    <div class="seat" role="region" aria-label="Renatus is seated">
-      <p class="seated">Renatus is seated. Begin when you're ready — or read on.</p>
-      <a class="btn quiet" id="seat-begin" href="../talk.html?worlds=gallic-monastic-ascetic-christianity&amp;mode=interview&amp;from=traditions%2Fgallic-monastic-ascetic-christianity.html" data-ask>Begin a conversation with Renatus</a>
-    </div>
   </div>
 
   <div class="page">
     <div class="article">
-      <!-- This is a safety disclosure, not
-           gap/thinness content, and CLAUDE.md's own safety priority holds
-           regardless of what else moves. -->
-      <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+      <nav class="rail" aria-label="On this page"><p>On this page</p><ol><li><a href="#story">The story</a></li><li><a href="#people">People</a></li><li><a href="#stories">Stories in full</a></li><li><a href="#after">What came after</a></li><li><a href="#related">Related traditions</a></li><li><a href="#terms">Terms and quotes</a></li></ol></nav>
 
-      <section aria-labelledby="story-title">
+      <section id="story" aria-labelledby="story-title">
         <p class="eyebrow">The Story</p>
         <h2 id="story-title">How this tradition took shape</h2>
         <div class="reading"><div class="narration"><audio controls preload="none" src="../audio/worlds/gallic-monastic-ascetic-christianity/story.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>In Roman Gaul, between about 360 and 450 CE, two households of monks lived out the same idea. In both, a monk who was made a bishop went on living as a monk. One grew up around <span class="hl" tabindex="0">Tours<span class="hl-note" role="tooltip"><b>Tours</b>The city of Tours in France, where Martin became bishop. The Romans knew it as Caesarodunum.<small>Place · pleiades.stoa.org</small></span></span>, in the Loire valley. The other grew up on <span class="hl" tabindex="0">Lérins<span class="hl-note" role="tooltip"><b>Lérins</b>The island is now Île Saint-Honorat, off the coast of France. Honoratus founded a monastery there.<small>Place · pleiades.stoa.org</small></span></span>, a small island off the Mediterranean coast, and in the city of <span class="hl" tabindex="0">Marseilles<span class="hl-note" role="tooltip"><b>Marseilles</b>Greek Massalia, founded around 600 BCE, now Marseille in France. Cassian is said to have founded two houses here, one for men, one for women.<small>Place · pleiades.stoa.org</small></span></span>. No evidence shows that the two ever wrote to each other.</p>
@@ -271,8 +323,8 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <p>Almost everything known about Tours comes from Sulpitius Severus, who visited Martin there. He was not present for most of what he tells, and says he learned it from Martin and those who lived with him. Knowing his end was near, Martin went to make peace among the quarreling clergy at <span class="hl" tabindex="0">Condate<span class="hl-note" role="tooltip"><b>Condate</b>The settlement where Martin went to make peace among the clergy of its church, and where he died. It is probably today&#39;s Candes-Saint-Martin in France.<small>Place · pleiades.stoa.org</small></span></span>. As he lay dying, his monks asked to put straw under him. He kept to <span class="hl" tabindex="0">sackcloth<span class="hl-note" role="tooltip"><b>sackcloth</b>A coarse robe. Martin wore it to pray, to cast out demons and to die in. Cassian&#39;s Egyptian fathers refused it as too showy.<small>Term</small></span></span> and ashes, so as not to leave them a different example. Almost two thousand monks, it is said, came to his funeral.</p></div>
       </section>
 
-      <section aria-labelledby="voices-title">
-        <p class="eyebrow">Voices</p>
+      <section id="people" aria-labelledby="voices-title">
+        <p class="eyebrow">People</p>
         <h2 id="voices-title">The people behind this account</h2>
         <div class="orient-voices">
       <div class="orient-voice">
@@ -294,7 +346,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </div>
       </section>
 
-      <section aria-labelledby="documented-stories-title">
+      <section id="stories" aria-labelledby="documented-stories-title">
         <p class="eyebrow">Documented stories</p>
         <h2 id="documented-stories-title">Stories worth telling in full</h2>
         <div class="docstories-row">
@@ -414,38 +466,20 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </div>
       </section>
 
-      <section aria-labelledby="legacy-title">
+      <section id="after" aria-labelledby="legacy-title">
         <p class="eyebrow">Legacy</p>
         <h2 id="legacy-title">What came after</h2>
         <div class="reading"><div class="narration"><audio controls preload="none" src="../audio/worlds/gallic-monastic-ascetic-christianity/legacy.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>After 450 the argument over grace and effort went on, but it was no longer one monk writing to another. In the 470s Faustus, once abbot of Lérins and by then a bishop, took it up. He says he wrote at the request of church councils at Arles and Lyons, as a bishop writing for other bishops.</p></div>
       </section>
 
-      <section aria-labelledby="relations-summary-title">
-        <p class="eyebrow">In its own record</p>
-        <h2 id="relations-summary-title">How this world relates to others</h2>
+      <section id="related" aria-labelledby="relations-summary-title">
+        <p class="eyebrow">Related traditions</p>
+        <h2 id="relations-summary-title">How this tradition relates to others</h2>
         <p class="orient-relations"><i>Martin&#39;s household grew up in a church torn by heresy. Sulpitius says Martin found the church in Gaul in turmoil, because heretics had driven the bishop Hilary into exile. At Milan, a man named Auxentius drove Martin out as well, and he went to live on a small island. When Hilary came home, Martin followed him and built a monastery near his town.</i></p>
       </section>
 
-      <section aria-labelledby="sourcing-title">
-        <p class="eyebrow">Sources</p>
-        <h2 id="sourcing-title">What this account is built from</h2>
-        <div class="reading"><p>Most of what survives is one man&#39;s account of another. Sulpitius Severus wrote about Martin, and Cassian wrote down what Egypt&#39;s monks taught him. Both households wrote much about virtue. Tours also wrote of Martin&#39;s power, while Cassian set down Egypt&#39;s customs more than the days of his own houses. The island&#39;s daily life is known least of all, and the books from Tours do not say what the brothers sang or when. Both houses kept communities of women, yet no woman&#39;s own words survive. Cassian&#39;s English translator also left out three of his texts on the body and its discipline.</p>
-      <ul class="orient-read-first">
-      <li><span class="orient-read-first-work">Sulpitius Severus, On the Life of St. Martin (Vita Martini), trans. Alexander Roberts, Nicene and Post-Nicene Fathers, 2nd series, vol. 11, ed. Schaff and Wace</span> <span class="orient-read-first-note">Martin&#39;s life from soldier to bishop, by a man who knew him and heard the stories from Martin and his brothers.</span></li>
-      <li><span class="orient-read-first-work">John Cassian, The Twelve Books on the Institutes of the Coenobia, trans. Edgar C. S. Gibson, Nicene and Post-Nicene Fathers, 2nd series, vol. 11, ed. Schaff and Wace</span> <span class="orient-read-first-note">Egypt&#39;s customs, set down for a new house in Gaul and changed only where Gaul&#39;s climate or habits made them too hard.</span></li>
-      <li><span class="orient-read-first-work">Vincent of Lerins, The Commonitory, trans. C. A. Heurtley, Nicene and Post-Nicene Fathers, 2nd series, vol. 11, ed. Schaff and Wace</span> <span class="orient-read-first-note">A short book written as a rule for telling true growth in the faith from a corruption dressed up as one.</span></li>
-      </ul></div>
-      </section>
-
-      <!-- Judgment call (flagged in this generator's own report): the glossary
-           and pull-quotes fields are the two world_front units with no
-           dedicated section of their own. Rather than two more
-           full-width sections, they share one compact strip - pull quotes as
-           blockquotes, then a small glossary grid - placed after Sources and
-           before the closing Questions section. -->
-
-      <section aria-labelledby="glossary-and-quotes-title">
-        <p class="eyebrow">In this world's own words</p>
+      <section id="terms" aria-labelledby="glossary-and-quotes-title">
+        <p class="eyebrow">In its own words</p>
         <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
         <div class="orient-pull-quotes">
       <blockquote class="orient-pull-quote"><p>In God there is one substance but three Persons. In Christ there are two substances but one Person.</p><cite>Vincent, presbyter of the island, who wrote as Peregrinus</cite></blockquote>
@@ -460,17 +494,6 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </dl>
       </section>
 
-      <section aria-labelledby="questions-title">
-        <p class="eyebrow">Questions people bring to this table</p>
-        <h2 id="questions-title">Start with the hard one</h2>
-        <ul class="questions">
-      <li><a href="../talk.html?worlds=gallic-monastic-ascetic-christianity&amp;mode=interview&amp;from=traditions%2Fgallic-monastic-ascetic-christianity.html#q=Did%20you%20believe%20people%20are%20saved%20by%20faith%20alone%2C%20not%20works%3F" data-question>Did you believe people are saved by faith alone, not works?<span class="vh"> — ask Renatus</span></a><span class="from">contested claim: “The monks and clergy of Marseilles and Lerins were &quot;the Massilians&quot; - &quot;the remnants of the Pelagians,&quot; the semi-Pelagian party - a school of one doctrine,…”</span></li>
-      <li><a href="../talk.html?worlds=gallic-monastic-ascetic-christianity&amp;mode=interview&amp;from=traditions%2Fgallic-monastic-ascetic-christianity.html#q=Your%20church%20used%20power%20against%20Christians%20who%20disagreed.%20Defend%20that." data-question>Your church used power against Christians who disagreed. Defend that.<span class="vh"> — ask Renatus</span></a><span class="from">story: “To stop tribunes from hunting heretics in the Spains, Martin takes communion once with the bishops he had refused. An angel tells him his remorse is just.”</span></li>
-      <li><a href="../talk.html?worlds=gallic-monastic-ascetic-christianity&amp;mode=interview&amp;from=traditions%2Fgallic-monastic-ascetic-christianity.html#q=What%20did%20your%20way%20of%20life%20offer%20someone%20who%20struggled%20to%20quiet%20their%20own%20mind%3F" data-question>What did your way of life offer someone who struggled to quiet their own mind?<span class="vh"> — ask Renatus</span></a><span class="from">core conviction: “Purity of heart as the goal, discretion as its regulator, the eight faults as its combats - what Cassian wrote out for the monks of Gaul from the Fathers: &#39;the…”</span></li>
-      <li><a href="../talk.html?worlds=gallic-monastic-ascetic-christianity&amp;mode=interview&amp;from=traditions%2Fgallic-monastic-ascetic-christianity.html#q=Who%20chose%20your%20leaders%20%E2%80%94%20were%20bishops%20appointed%2C%20elected%2C%20or%20something%20else%3F" data-question>Who chose your leaders — were bishops appointed, elected, or something else?<span class="vh"> — ask Renatus</span></a><span class="from">story: “A citizen lures a monk out of his monastery by pretending his wife is ill. The monk is taken to the city under a kind of guard.” &middot; contested claim: “The monk-bishop came to office as a captive, never as a candidate.”</span></li>
-      </ul>
-      </section>
-
     </div>
   </div>
 </main>
@@ -482,7 +505,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
     <a class="btn" id="door-begin" href="../talk.html?worlds=gallic-monastic-ascetic-christianity&amp;mode=interview&amp;from=traditions%2Fgallic-monastic-ascetic-christianity.html" data-ask>Begin a conversation with Renatus</a>
   </div>
   <p class="also">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
-  <p class="also"><a href="../index.html#who">The other seven chairs →</a></p>
+  <p class="also"><a href="../index.html#who">The other traditions →</a></p>
 </section>
 
 <footer class="site-footer">

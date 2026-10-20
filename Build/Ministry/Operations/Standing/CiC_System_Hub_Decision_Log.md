@@ -6683,6 +6683,30 @@ The project lead approved a named, capped admission run in conversation on 18 Oc
 
 Change: `engine.provider.guard` now appends every call of an approved live test to a ledger file as it happens, a `hold` line before the call and a `settle` line after it, and refuses a call when the ledger cannot be written. The header prints the ledger path. The promotion runbook's named-run section says to send the run's output to a file and keep the ledger. The conversation path on Render is unchanged. Whether to re-run the admission run or waive the gate for the full promotion is the project lead's decision.
 
+## 2026-10-20 - No further paid run from the design thread; the second admission run is withdrawn
+
+The project lead, on the loss above: "so again you spent money with no results, not acceptable" and "no more money spent by you." The approval of "fleet re-admission, 20 October, second run" (below) is withdrawn; that run never started and no call was made for it. The design thread (session_01DieKxWNS33gUktGHTTiGeS) makes no further model call of any kind. The engine promotion stays blocked at the admission gate; whether anyone runs the fleet again, and when, is the project lead's decision. The harness fix that keeps completed worlds on a cap stop (pull request 998) stands on its own and costs nothing.
+
+The fault was the thread's: the 18 October entry already said a report is written only when a world finishes, and the run was started without reading how the harness handled a cap stop and with a cap only $2 above an estimate known to be stale.
+
+## 2026-10-20 - Second fleet admission run approved by name, to start after the harness fix
+
+On reading the entry below, the project lead approved, once, in conversation: name "fleet re-admission, 20 October, second run"; cap $10.00; Bedrock us-east-1; voice model `us.anthropic.claude-sonnet-4-5`; the eleven formation worlds. It starts only once the harness fix is on `main` (`engine.m3.live_admission_run` keeps the completed worlds on a cap stop and writes its report after every world), so a stop keeps whatever completed. The expected cost at the day's real rate is about $8.40. Output to a file, ledger kept, as before.
+
+## 2026-10-20 - Fleet admission run reached its cap and wrote no report
+
+The run "fleet re-admission, 20 October" (approved above: cap $8.00, Bedrock us-east-1, `us.anthropic.claude-sonnet-4-5`, eleven worlds, preflight estimate $5.96) started at 12:36 UTC after the eleven packages were restored from records with `engine.m2.cli restore` (the compiled bytes are not in git, and the first attempt stopped before any call because alx's compiled files were missing). It ran the worlds in the order alx, cappadocian, desert, don, gallic, hal, ijc, pahc, rzg, syr, witt. At 13:36 UTC, after 287 of 308 calls, the guard refused the next call because it could carry the total past $8.00 and raised `LiveTestCapReached`. The ledger records $7.79 settled; the output went to a file and the ledger is kept.
+
+`engine.m3.live_admission_run` writes its report only after every world has run, and the exception left `run()` before that, so no report exists: the ten worlds whose batteries completed have no admission evidence, and `admission_conform --enforce` still reports all eleven stale. The 14 October harness fix covered the live-turn run, not this one. The real cost ran about thirty percent over the preflight estimate, which prices each world from the rate card and an older usage profile.
+
+Ruled by the project lead on reading this: whether to fix the harness to write a report after each world and on a cap stop (unmetered), and whether to approve a further run by name for the worlds without evidence. No further paid call is made without that approval.
+
+## 2026-10-20 - Fleet admission run approved by name for the engine promotion
+
+The project lead asked to promote `main` to `live` on 20 October. The public site already carried the day's landing page from `main` through Cloudflare, so the promotion moves only the engine, 508 commits behind `main` since pull request 969, including the 13 and 14 October fix slices to reply generation. Run from `main`, `python -m engine.m3.admission_conform --enforce` reported all eleven worlds without a live admission report on their pinned packages, so the promotion gate was red. Offered a named run, a waiver, or a hold, the project lead chose the run.
+
+Approved, once, in conversation: name "fleet re-admission, 20 October"; cap $8.00; Bedrock us-east-1; voice model `us.anthropic.claude-sonnet-4-5`; the eleven formation worlds. The run's output goes to a file, never a pipe, and the ledger is kept, as the promotion runbook's named-run section requires after the 18 October loss. The promotion pull request opens only once `admission_conform --enforce` exits 0 on the committed reports.
+
 ## 2026-10-19 - CLAUDE.md reorganized around a thread's working order
 
 The project lead approved a restructure of `CLAUDE.md` on 19 October, after threads were losing track of its rules. The file had grown to 3,596 words of stacked rules and exceptions. No principle changes.

@@ -10,7 +10,7 @@ function summary(world_key: string, app: WorldSummary['app']): WorldSummary {
     census_id: world_key,
     display_name: world_key,
     card_name: world_key,
-    representative: { name: 'Rep', role_label: 'Role' },
+    representative: { name: 'Rep' },
     time_window: { start: 100, end: 200 },
     place: 'Place',
     thinness_statement: '',

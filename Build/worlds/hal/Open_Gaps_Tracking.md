@@ -884,3 +884,9 @@ Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put t
 - `records/hal/story/hal.story.day-at-monastery.md`: "Which psalms they sang, and how the two houses shared their worship, no one wrote down, or nothing that was written survived." -> "Either no one wrote down which psalms they sang and how the two houses shared their worship, or nothing that was written survived."
 
 Status: CLOSED for this review.
+
+## OG-28. Voice-craft record still cites the registry's role_label, 2026-10-20.
+
+Mark's ruling of 2026-10-20 removed the Representative's role label from the registry, the compiled packages, the Facilitator's welcome and the site. `records/hal/voice_craft/hal.voice.craft.md` (line 64) still says Albina's naming is "true to the registry's role_label in spirit without restating it recognizably". The field no longer exists, so the sentence points at nothing. A voice-craft record is a canonical record and goes through its own review, so it was not edited in the removal. It needs a reworded line that keeps the naming-collision ruling without the field.
+
+Status: OPEN.

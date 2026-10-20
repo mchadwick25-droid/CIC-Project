@@ -10,7 +10,7 @@ const worldSummary = {
   census_id: 'donatism',
   display_name: 'Donatism',
   card_name: 'Donatist Africa',
-  representative: { name: 'Fidelis', role_label: 'Reader' },
+  representative: { name: 'Fidelis' },
   time_window: { start: 311, end: 411 },
   place: 'Carthage',
   thinness_statement: '',

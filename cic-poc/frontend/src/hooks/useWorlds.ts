@@ -17,7 +17,6 @@ function toEntry(summary: WorldSummary): WorldEntry | null {
     displayName: summary.display_name ?? summary.world_key,
     cardName: summary.card_name ?? summary.display_name ?? summary.world_key,
     representativeName: summary.representative.name,
-    roleLabel: summary.representative.role_label,
     place: summary.place ?? '',
     eraStart: summary.time_window.start,
     eraEnd: summary.time_window.end,
@@ -53,7 +52,7 @@ export function useWorlds() {
       })
       .catch(() => {
         if (cancelled) return;
-        setState({ worlds: [], isLoading: false, error: 'Could not load the worlds.' });
+        setState({ worlds: [], isLoading: false, error: 'Could not load the traditions.' });
       });
     return () => {
       cancelled = true;

@@ -533,8 +533,6 @@ def check_census_agreement(*, registry, worlds, **_) -> list[Finding]:
             findings.append(_defect("census-living-flag", w, f"census living={entry.get('living')} != registry living_tradition_flag={registry[w].get('living_tradition_flag')}"))
         if e.get("representativeName") and e["representativeName"] != rep.get("name"):
             findings.append(_defect("census-representative-name", w, f"census representativeName {e['representativeName']!r} != registry representative.name {rep.get('name')!r}"))
-        if e.get("representativeTitle") and e["representativeTitle"] != rep.get("role_label"):
-            findings.append(_defect("census-role-label", w, f"census representativeTitle {e['representativeTitle']!r} != registry representative.role_label {rep.get('role_label')!r}"))
         if entry.get("name") and entry["name"] != registry[w].get("display_name"):
             findings.append(_defect("census-display-name", w, f"census name {entry['name']!r} != registry display_name {registry[w].get('display_name')!r}"))
         # The friendly card name (entry.worldName - what the homepage card
@@ -857,28 +855,37 @@ def check_site_portraits(*, registry, worlds, **_) -> list[Finding]:
 
 
 def check_table_html_worlds(*, registry, worlds, **_) -> list[Finding]:
-    """cic-website/table.html carries its OWN hand-maintained `WORLDS` array
-    (id/name/trad/portrait/tint/description) for the Table's seat-picker -
-    a third registration point independent of both the app's WORLD_ASSETS
-    and the site's traditions pages, and the one no check here has ever
-    covered. Found live: Renatus/gallic worked for the
-    Atlas card and Interview but was silently absent from the Table's own
-    picker for four days after admission, because nobody added it here.
-    A world missing from this file is fully admitted, fully wired
-    everywhere else, and simply never offered as a seat - no error, no
-    broken image, just absent."""
+    """cic-website/table.html offers every live world as a Table seat through
+    the chooser (assets/chooser.js), which reads world-census.json at run time
+    and seats each 'Built & Live' entry that carries a Representative name.
+    The page therefore must mount the chooser in table mode and must not
+    carry a hand-maintained world list of its own: a second list is the gap
+    that once left gallic admitted, live, and working for Interview but
+    never offered as a Table seat for four days. Each admitted or open world
+    must also have the census fields the chooser needs to seat it: live
+    status, a Representative name and a portrait. A world missing any of
+    these is fully admitted, wired everywhere else, and simply never offered
+    as a seat - no error, no broken image, just absent."""
     findings = []
     if not SITE_TABLE_HTML.is_file():
         return [_defect("table-html-file", "fleet", f"{SITE_TABLE_HTML} not found")]
     text = SITE_TABLE_HTML.read_text(encoding="utf-8")
-    array_match = re.search(r"var\s+WORLDS\s*=\s*\[(.*?)\n\];", text, re.S)
-    ids = set(re.findall(r"id:\s*'([^']+)'", array_match.group(1))) if array_match else set()
+    if "data-chooser" not in text or 'data-mode="table"' not in text or "assets/chooser.js" not in text:
+        findings.append(_defect("table-html-chooser", "fleet", "table.html does not mount the chooser in table mode (data-chooser, data-mode=\"table\", assets/chooser.js) - no world is offered as a Table seat"))
+    if re.search(r"var\s+WORLDS\s*=\s*\[", text):
+        findings.append(_defect("table-html-chooser", "fleet", "table.html carries its own WORLDS array again - a second world list drifts from the census the chooser reads"))
+    live = _census_live_entries()
     for w in worlds:
+        if registry[w].get("state") not in ("admitted", "open"):
+            continue
         cid = registry[w].get("census_id")
         if not cid:
             continue
-        if cid not in ids:
-            findings.append(_defect("table-html-world", w, f"census_id {cid!r} has no entry in table.html's own WORLDS array - never offered as a Table seat, though it may work fine for Interview"))
+        entry = (live.get(cid) or {}).get("entry") or {}
+        if cid not in live:
+            findings.append(_defect("table-html-world", w, f"census_id {cid!r} is not a 'Built & Live' entry in world-census.json - the chooser never offers it as a Table seat, though it may work fine for Interview"))
+        elif not entry.get("representativeName") or not (entry.get("portrait") or entry.get("icon")):
+            findings.append(_defect("table-html-world", w, f"census entry {cid!r} lacks a Representative name or a portrait - the chooser cannot seat it at a Table"))
     return findings
 
 
