@@ -369,3 +369,5 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **What changed.** The design thread's change (PR 995, "All eleven in order, five showing") was merged into this branch, so the hand of eleven and the taller, rem-sized cards are one build. The Previous and Next buttons below the hand are replaced by a round arrow on each side of the hand: the left arrow steps back, the right steps forward, each dims at its end, both are 56 px, keyboard-focusable and labelled "Previous card" and "Next card". The count "n of 11" and "See all 11" stay under the hand. The phone and reduced-motion list shows all eleven cards and no arrows.
 
 **Left as it was.** The faded sliver of the next card at each edge, which PR 995 added by Mark's earlier choice. Mark's new words say "others hidden"; if he wants the slivers gone, that is one rule.
+
+**Mark's answer on the slivers.** Asked "Do you want the faded sliver of the next card at each edge of the hand, or only the five cards?", he chose "Keep the slivers". They stay.
