@@ -74,3 +74,4 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 - Decision (2026-10-20): Theme G (item 9, and the funding half of item 25) converged by Mark. Landing line: "Free to start. Add more any time." Record: Pilot_Feedback_Decisions.md. Nothing built.
 - Change order (Mark, 2026-10-20): story teasers dropped from the landing page in favour of the chooser's spacing and card descriptions; "Tell us what you think" stays in the masthead. See Pilot_Feedback_Decisions.md.
 - Clarification (Mark, 2026-10-20): the cards scroll and click to pull forward. Recorded under Theme E in Pilot_Feedback_Decisions.md.
+- Status (2026-10-20): PR 987 merged into main (51cbfb4c). Landing page, names line, seating and scroll built. Open: free-tokens line, card text size, tree seat button, device checks. See Pilot_Feedback_Decisions.md.
