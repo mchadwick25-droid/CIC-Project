@@ -180,7 +180,7 @@ function init(mount, census) {
       "aria-label": w.rep + ", " + w.world + ", " + e.name + ". " + w.dates + ". Press to bring the card forward, then again to turn it over." });
     var img = el("img", { src: w.img, alt: "", loading: "lazy", decoding: "async" });
     var talk = el("a", { class: "sidebtn left", "data-act": "talk", "aria-label": "Talk with " + w.rep }, [icon(ICON_TALK), el("span", { class: "lbl", text: "Talk" })]);
-    var seat = el("button", { type: "button", class: "sidebtn right", "data-act": "seat", "aria-pressed": "false", "aria-label": "Seat " + w.rep + " at the table" }, [icon(ICON_SEAT), el("span", { class: "lbl", text: "Seat" })]);
+    var seat = el("button", { type: "button", class: "sidebtn right", "data-act": "seat", "aria-pressed": "false", "aria-label": "Add " + w.rep + " to the table" }, [icon(ICON_SEAT), el("span", { class: "lbl", text: "Table" })]);
     (mode === "table" ? seat : talk).classList.add("primary");
     var frontFace = el("div", { class: "face front" }, [
       el("div", { class: "band" }, [el("span", { text: bandText }), el("span", { text: e.dates })]),
@@ -201,7 +201,7 @@ function init(mount, census) {
       el("div", { class: "acts" }, [about])
     ]);
 
-    card.appendChild(el("span", { class: "seatmark", "aria-hidden": "true", text: "Seated" }));
+    card.appendChild(el("span", { class: "seatmark", "aria-hidden": "true", text: "On table" }));
     card.appendChild(el("div", { class: "inner" }, [frontFace, backFace]));
 
     front.addEventListener("click", function () {
@@ -242,8 +242,8 @@ function init(mount, census) {
       card.classList.toggle("seated", on);
       var seat = card.querySelector('[data-act="seat"]');
       seat.setAttribute("aria-pressed", on ? "true" : "false");
-      seat.querySelector(".lbl").textContent = on ? "Seated" : "Seat";
-      seat.setAttribute("aria-label", on ? "Remove " + w.rep + " from the table" : "Seat " + w.rep + " at the table");
+      seat.querySelector(".lbl").textContent = on ? "On table" : "Table";
+      seat.setAttribute("aria-label", on ? "Remove " + w.rep + " from the table" : "Add " + w.rep + " to the table");
       card.querySelector('[data-act="talk"]').setAttribute("href", talkHref([id], "interview", via[id] || "hand"));
     });
   }

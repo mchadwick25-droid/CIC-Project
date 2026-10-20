@@ -428,3 +428,11 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** When the hand moves by wheel, swipe, either arrow or the arrow keys, any card that is turned over flips back to its front, so the enlarged back never stays on screen while the hand rolls. A card chosen for the table sits face-front and raised about 16 px above its neighbours, in its own place in the row, with the same layering as the cards around it, so it never covers another card. The raised card at the front of the hand is still the highest. The red ring around a seated card is unchanged.
 
 **Checked.** In a headless browser: a turned card flips back on the arrow, and on a wheel notch; a seated card two places left of the front card sits about 16 px higher than its neighbours with the layer order of its place (98, between 97 and 99).
+
+## 2026-10-20 — The word "Seat" becomes "Table" on the card (Mark)
+
+**Mark's words.** "lets change the word seat to table".
+
+**What changed.** The second front-of-card action reads "Table"; once chosen it reads "On table", and the badge on a chosen card reads "On table" (was "Seated"). The spoken names read "Add Marius to the table" and "Remove Marius from the table".
+
+**Left as it was.** The tray's own wording ("Your table", "1 of 3 seated. Seat one more to open the table.", "Three is the most a table can seat.") still uses seat and seated. Mark named the word on the card; whether the tray follows is his call.
