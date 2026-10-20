@@ -533,3 +533,9 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **How.** A one-time script (`Build/tools/migrate_tradition_chrome.py`) rewrote the top of each page; the article template and generator (`cic-website/templates/tradition.html`, `Build/tools/generate_tradition_pages.py`) now draw the layout and the "On this page" list, and the pages were regenerated from them.
 
 **Left as it was, Mark's call.** (1) The recorded stories still say "this world's ..." inside their text; the recordings would no longer match. (2) The old page style rules for the removed blocks (`.titleblock`, `.plate`, `.ai-line`, `.seat`, `.distress`) are still in each page's own style block. (3) The timeline's 0 to 2000 CE scale is my choice; it shows where each tradition sits in the whole history. (4) The "hard question" starters and the sources list are no longer on the pages; they are still in the compiled records.
+
+## 2026-10-20 — The stories keep "world" until the rewrite and re-recording (Mark)
+
+**Mark's words.** "leave the worlds for now, we will do a deeper re-write in the near future and then re-record".
+
+**What this settles.** The recorded stories, and the other recorded text on the tradition pages, keep the word "world" as written. Nothing in them changes now. The wording will be reworked in the planned rewrite, and the pages will be re-recorded after it. No code or page changed with this entry.
