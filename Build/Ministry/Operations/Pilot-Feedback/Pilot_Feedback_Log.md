@@ -70,3 +70,4 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 - Decision (2026-10-19): Theme C (items 6, 7, 14, 15, 16, 23) converged by Mark. Record: Pilot_Feedback_Decisions.md. Nothing built.
 - Decision (2026-10-20): Theme E (item 17) converged by Mark. Change order: reverses the earlier ruling that kept tables off the tree. Record: Pilot_Feedback_Decisions.md. Nothing built.
 - Thread ownership (Mark, 2026-10-20): working set is four threads; triage thread settles the 7 shared commits; Theme B engine work on hold. See Pilot_Feedback_Decisions.md.
+- Decision (2026-10-20): Theme F (items 18, 25) converged by Mark. Record: Pilot_Feedback_Decisions.md. Nothing written, generated or spent.

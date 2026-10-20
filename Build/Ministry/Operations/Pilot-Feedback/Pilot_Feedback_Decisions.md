@@ -178,3 +178,30 @@ Decision (Mark): the working set is four threads: Paused workstreams triage, Con
 The Paused workstreams triage thread reported on the seven commits. By hash none is an ancestor of origin/main, but by content main already has them: PR 869 was merged on 2026-10-13 (head 226da0aeb), the sentence-enforcement code is gone from the engine code on main, the added lines are mostly present, and all 40 records/syr/source records carry a citation line. It did not merge anything and recommends that the Library branches be rebased or merged onto current main so the seven drop out as duplicates. It checked line matches, not every file: engine/m4/turn.py has 35 of 52 added lines present and engine/m9/enforce.py 2 of 12, and it did not read turn.py to confirm the fallback to the world's answer record is intact.
 - The earlier statement here that the seven are "in neither origin/main nor origin/live" was true by hash only. The duplication risk is smaller than stated: the content is on main.
 - Theme B stays on hold, for a different reason. The removed retry is part of PR 869, "quotes by code, no rewrite". The title suggests a deliberate choice not to rewrite replies after generation. Theme B plans a check after the answer with a redo, which may contradict it. Nobody has read PR 869's reasoning against Theme B. That has to happen before Theme B is built.
+
+## Theme F: audio for the fixed text — 2026-10-20
+
+Status: converged (Mark: "Converged, auto mode"). Nothing written, generated or spent.
+
+Covers feedback items 18 and 25 and the audio parts of 24 (the Church Family Tree audio is too technical; audio for everything fixed, not for generated conversation; ElevenLabs as the voice).
+
+Decisions
+- What to voice first: new short hooks for the 11 built tree worlds. Each is a 30 to 60 second plain-language hook at the top of that world's tree page, in text and in audio, followed by the long story and its existing audio. The one-minute story pool from Theme D is voiced after it is written.
+- Whose voice: each built world's own voice, keeping Mark's 2026-09-27 ruling that gave the 11 built worlds distinct voices for tree narration. The script is documentary and sourced, never in character, so it cannot read as invented speech from a Representative.
+- Delivery: a play button beside the hook. The hook text is always shown, and audio plays only when pressed. The line "Read by a synthesized voice, not a recording" stays.
+- Scope: audio only for fixed, reviewed text. None for generated conversation replies, until funding exists for it.
+
+What must hold
+- Text is always kept. Audio never replaces it.
+- A paid bulk run starts with a small sample that Mark approves by ear. The voice and every setting are passed on the command and printed with item and character counts (CLAUDE.md 3.2). Nothing is generated before then.
+- Hook text meets the reading-level target and each world's record, with no invented speech.
+
+Evidence used
+- A count of the audio files in cic-website/audio: 990 files, 644 MB (516 documented stories, 282 tree narrations, 62 stories, 11 to 12 per built world, 7 site files). The 2026-09-27 and 2026-09-28 entries in the front-end decision log; the site audio manifest, which records one ElevenLabs voice id, the model eleven_v4 and fixed settings. No audio was played. The cost estimate of $50 to $100 per million characters comes from the System Hub log and was not rechecked. No research round was run for this theme.
+
+Open and not decided here
+- The 11 voice picks (the voice ids in tools/tree-narration-voices.mjs are blank), and which voice id is current for the tree. Not checked.
+- Who writes and reviews the 11 hooks, and how each is checked against its world's record.
+- Whether the repo or object storage holds the new files. The storage question in the 2026-09-27 log entry was not checked for a ruling.
+- No thread owns this work yet. A site audio thread is proposed.
+- The story pool for Theme D has no owner and is not written.
