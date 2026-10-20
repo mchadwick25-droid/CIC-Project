@@ -93,3 +93,19 @@ Dated entries. Mark's own words are quoted where he gave them. Reasoning, includ
 **Mark's words.** "Keep Donatism as a live conversation."
 
 **What it settles for this feature.** The deck is eleven. Donatism's card is no longer provisional: the badge comes off the prototype and the registry card block carries no provisional flag. The build plan's item on a deck of ten is closed. The card's back still says plainly that nearly everything known of this church comes through its opponents, which is the world's own honest limit, not a reason to hold the card back.
+
+## 2026-10-20 — Tagline claim check: Mark's rulings on the four findings
+
+**What was checked.** The same records-based claim check run on the ten back summaries was run on the eleven taglines: each clause against the world's `not_for` lines, `honest_limit`, `formation_confidence` and world-core cautions, with the census allowed to support a claim but never to outrank a record. Seven passed as written (Chloe, Theon with the revised Greek-and-Jewish line, Mar Yausep, Desert, Imperial, Wittenberg, Rzg). Four carried a finding. The verdicts and proposed lines went to the Gateway Cards review thread.
+
+**Mark's words.** "Don't change Bethlehem, we are getting too minute. Cappadocia is getting long on explanation. Gaul again is too specific. Donatism is fine to change."
+
+**Rulings.**
+- Bethlehem: no change. The line stays as revised the day before (a senatorial fortune; the Latin Old Testament made from the Hebrew).
+- Cappadocia: "under hostile emperors" becomes "through hostile years". Mark chose the shorter of two offered lines: "…where churches held the Nicene faith through hostile years and cared for the poor."
+- Gaul: keep as written. Mark declined both shorter lines as too specific. The finding stays open on the review page as a noted exception: the "went on living as monks" half rests on the Contested and Inferential-Thin Honoratus story, and Cassian was never a bishop.
+- Donatism: "side by side" becomes "where two rival churches contested the same towns", since the first leaned toward a coexistence the `ecclesia` term record forbids.
+
+**Why it matters.** The taglines are the first words a visitor reads on a card. The check holds them to the same bar as the summaries (CLAUDE.md 1.1) without letting the explanation grow past what a card front can carry (1.2). Mark's rulings set that balance: the fix must fit the line, or the line stays and the gap is logged.
+
+**Still open.** The seven passing taglines are not yet signed off; Mark replied only on the four. Two record faults found in passing belong to the records audit, not the cards: the census names Clement of Rome as a writer where `pahc.figure.church-of-rome` forbids the attribution, and `gallic.gravity.monk-bishop` contradicts its own source and the story record.
