@@ -165,3 +165,9 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** "yes its there, sorry i missed it its the search we are looking describing and in the right place, maybe make the search field a little larger and text".
 
 **What it settles.** The position is confirmed: upper right of the card, above the cards. The bubble grows from 352 px to 480 px wide and from 44 px to 56 px tall; its text goes from 16 px to about 19 px, and the hint under it from about 14 px to 16 px. On a phone it is full width at the same height.
+
+## 2026-10-20 — Sub-heading back to two lines (Mark)
+
+**Mark's words.** "with the larger the other text talk with a ... is to long so move it back to two lines".
+
+**What it settles.** The line "Talk with one voice, or seat two or three at a table. Each is built from that tradition's own writings." wraps onto two lines at desktop width again, at the page's reading width. This reverses the one-line request from earlier the same day, because the larger search bubble above it made the long line look too wide.
