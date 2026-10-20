@@ -160,8 +160,8 @@ function init(mount, census) {
   else mount.appendChild(el("div", { class: "chooser-top" }, [searchBox]));
   mount.appendChild(hand);
   mount.appendChild(nav);
-  mount.appendChild(hint);
   mount.appendChild(deckRow);
+  mount.appendChild(hint);
   mount.appendChild(deckBox);
   mount.appendChild(tree);
   mount.appendChild(tray);
@@ -447,7 +447,7 @@ function init(mount, census) {
     deckRow.textContent = "";
     if (!deckOpen) return;
     var row = el("div", { class: "chooser-row", tabindex: "0", role: "group", "aria-roledescription": "row of cards",
-      "aria-label": deck.length + " cards in order of time. Scroll sideways, or use the buttons. Activate a card to take it into your hand." });
+      "aria-label": deck.length + " cards in order of time. Activate a card to take it into your hand." });
     deck.forEach(function (id) {
       var w = byId[id], e = eras[w.era] || { no: "", name: "", tint: FALLBACK_TINT };
       var inHand = handIds.indexOf(id) >= 0;
@@ -461,12 +461,7 @@ function init(mount, census) {
       b.addEventListener("click", function () { pickFromDeck(id); });
       row.appendChild(b);
     });
-    var scrollBy = function (dir) { row.scrollBy({ left: dir * 340, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }); };
-    var back = el("button", { type: "button", class: "cbtn", "aria-label": "Scroll the deck back", text: "‹" });
-    var fwd = el("button", { type: "button", class: "cbtn", "aria-label": "Scroll the deck forward", text: "›" });
-    back.addEventListener("click", function () { scrollBy(-1); });
-    fwd.addEventListener("click", function () { scrollBy(1); });
-    deckRow.appendChild(el("div", { class: "head2" }, [el("p", { text: "The whole deck, in order of time. Tap a card to take it into your hand." }), el("div", null, [back, document.createTextNode(" "), fwd])]));
+    deckRow.appendChild(el("div", { class: "head2" }, [el("p", { text: "The whole deck, in order of time. Tap a card to take it into your hand." })]));
     deckRow.appendChild(row);
   }
 
