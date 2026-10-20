@@ -109,3 +109,15 @@ Dated entries. Mark's own words are quoted where he gave them. Reasoning, includ
 **Why it matters.** The taglines are the first words a visitor reads on a card. The check holds them to the same bar as the summaries (CLAUDE.md 1.1) without letting the explanation grow past what a card front can carry (1.2). Mark's rulings set that balance: the fix must fit the line, or the line stays and the gap is logged.
 
 **Still open.** The seven passing taglines are not yet signed off; Mark replied only on the four. Two record faults found in passing belong to the records audit, not the cards: the census names Clement of Rome as a writer where `pahc.figure.church-of-rome` forbids the attribution, and `gallic.gravity.monk-bishop` contradicts its own source and the story record.
+
+## 2026-10-20 — Change order (Mark): the landing page opens with the chooser, not a title
+
+**Mark's words.** "This is not working, do we need the title? Can we get it with a tweak to the who would you like to converse with? We need the cards to land on the landing page for computers and iPads."
+
+**What was measured** on the build's page (PR 987, commit `e3bfe484`, rendered locally): the masthead ends at 111 px; the title block takes 270 px; the chooser heading sits at 444 px; the cards start at 630 px. On a 900 px laptop or a 768 px iPad on its side, the cards are below the first screen. With the title block removed and nothing else changed, the cards start at about 360 px: the whole hand shows on an iPad held upright (1180 px), a laptop at 900 px shows all but the lowest 60 px of the fan, and a 768 px screen shows the top 400 px of the cards. Tightening the chooser's own padding saves only 9 px more; the hand itself is 590 px tall.
+
+**Decision (Mark).** Drop the title. The chooser heading opens the page, and its sub-line carries the title's point: "Each voice is built from its own tradition's records. Talk with one, or seat two or three at a table." Chosen over keeping a one-line title (the cards would still start at 510 px) and over dropping the title alone.
+
+**Carried to the build thread.** The `.hero` block and its two sentences go; the chooser section keeps `id="who"`; the sub-line is the sentence above. Still open, not yet put to Mark: whether the hand scales down by about a tenth on screens under 950 px tall so the whole fan fits a 900 px laptop. Recommended, since the fan's lowest edge is the only part cut.
+
+**Why.** The cards are the invitation; a title above them says what the cards already show. Theme D's rule is a clean page with the few in front.
