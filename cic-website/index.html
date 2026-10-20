@@ -181,7 +181,11 @@ p{margin:0 0 1rem}
 }
 
 .who{padding:.3rem 0 0}
-.who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .8rem;color:var(--action)}
+.who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0;color:var(--action)}
+.who-head{display:flex;gap:1rem 2rem;align-items:flex-start;justify-content:space-between;margin:0 0 .8rem}
+.who-head h2{flex:1 1 0;min-width:0}
+.who-search{flex:0 0 22rem;max-width:100%}
+@media (max-width:760px){.who-head{flex-direction:column}.who-search{flex-basis:auto;width:100%}}
 .more-link{margin:1.5rem 0 0;font-family:var(--sans);font-size:.9rem}
 .more-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
 
@@ -268,9 +272,12 @@ p{margin:0 0 1rem}
   <div class="home-flow">
     <div class="feature-card conversation-card">
     <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
-    <h2 id="who-title">Who would you like to have a conversation with?</h2>
+    <div class="who-head">
+      <h2 id="who-title">Who would you like to have a conversation with?</h2>
+      <div class="who-search" id="chooser-search-slot"></div>
+    </div>
     <p class="who-sub">Talk with one voice, or seat two or three at a table. Each is built from that tradition's own writings.</p>
-    <div data-chooser data-mode="landing" data-from="index.html#who" data-tree="atlas-v3.html">
+    <div data-chooser data-mode="landing" data-from="index.html#who" data-tree="atlas-v3.html" data-search-slot="#chooser-search-slot">
       <div data-chooser-fallback hidden>
         <p>The voices could not load just now. You can still <a href="atlas-v3.html">browse every tradition on the Church Family Tree</a> and start a conversation from there.</p>
       </div>

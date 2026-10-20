@@ -94,14 +94,19 @@ function init(mount, census) {
   mount.textContent = "";
 
   // ---------- deck controls ----------
-  var q = el("input", { type: "search", id: "chooser-q-" + mode, placeholder: "Find a tradition, a place, or a name you know, like Augustine", autocomplete: "off" });
+  var helpId = "chooser-help-" + mode;
+  var q = el("input", { type: "search", id: "chooser-q-" + mode, placeholder: "Search topics, names, places, dates", autocomplete: "off", "aria-describedby": helpId });
   var erasBox = el("div", { class: "chooser-eras", role: "group", "aria-label": "Narrow by era" });
   var countEl = el("p", { class: "chooser-count", "aria-live": "polite" });
   var whyEl = el("ul", { class: "chooser-why" });
-  var deckBox = el("div", { class: "chooser-deck" }, [
-    el("label", { class: "vh", for: q.id, text: "Find a tradition, a place, or a name you know" }),
-    q, erasBox, countEl, whyEl
+  var deckBox = el("div", { class: "chooser-deck" }, [erasBox, countEl, whyEl]);
+  var searchBox = el("div", { class: "chooser-search" }, [
+    el("label", { class: "vh", for: q.id, text: "Search the traditions by topic, name, place or date" }),
+    q,
+    el("p", { class: "chooser-help", id: helpId, text: "Try a topic (baptism, monks), a name (Augustine), a place (Geneva) or a date (400, fourth century)." })
   ]);
+  var slotSel = mount.getAttribute("data-search-slot");
+  var slot = slotSel ? document.querySelector(slotSel) : null;
 
   function eraChip(num, label, tint) {
     var b = el("button", { type: "button", class: "chooser-erachip", "aria-pressed": num === 0 ? "true" : "false", "data-era": String(num) });
@@ -147,6 +152,8 @@ function init(mount, census) {
     el("div", { class: "in" }, [el("strong", { text: "Your table" }), seatsEl, statusEl, facilitator, goBtn])
   ]);
 
+  if (slot) { slot.textContent = ""; slot.appendChild(searchBox); }
+  else mount.appendChild(el("div", { class: "chooser-top" }, [searchBox]));
   mount.appendChild(hand);
   mount.appendChild(nav);
   mount.appendChild(hint);

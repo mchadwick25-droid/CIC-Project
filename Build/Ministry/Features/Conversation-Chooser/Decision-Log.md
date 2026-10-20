@@ -147,3 +147,9 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **What it settles.** (1) The line under the question heading, "Talk with one voice, or seat two or three at a table. Each is built from that tradition's own writings.", runs on one line across the card at desktop width. (2) The page title now leads with talking: "Talk to representatives from a growing number of Christian traditions." Beneath it: "Each is built from its own historical records. Then explore hundreds of traditions and stories across two thousand years." Every claim from the old title is kept; only the order changed, and the sentence that said "those traditions" was reworded so it no longer points back to a line that now comes second. (3) The heading over the cards reads "Who would you like to have a conversation with?", echoing the product name. I read "(call to product name)" as that echo; if Mark meant the heading should carry the name itself, say so. The old width limit on that heading is removed so it also sits on one line.
 
 **Not changed.** The page's meta description already led with talking and is unchanged.
+
+## 2026-10-20 — Search bubble in the upper right (Mark)
+
+**Mark's words.** "we need the serch bubble in the upper right, with a brief explanation of things to search for".
+
+**What it settles.** The search box is a rounded bubble with a magnifier icon in the upper right of the card, on the same row as the heading. Under it: "Try a topic (baptism, monks), a name (Augustine), a place (Geneva) or a date (400, fourth century)." The placeholder reads "Search topics, names, places, dates". The era chips and the written count stay below the cards. On a phone the bubble sits under the heading at full width. On Build a Table, which has no heading row, the bubble sits right-aligned above the cards. The chooser takes an optional `data-search-slot` so a page can place the bubble in its own heading row.
