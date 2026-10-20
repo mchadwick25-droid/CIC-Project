@@ -60,7 +60,7 @@ header.site-header {
   background: var(--vellum);
 }
 .site-header .wrap {
-  max-width: 60rem;
+  max-width: 64rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -422,31 +422,33 @@ ol.convictions li::before { border-color: #E08C74; }
   .brand .wordmark { font-size: 1.05rem; }
 }
 
-/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- part of the single header row, not its own row. Filled rust so the three stand out, matching this file's own .btn.primary fill rather than inventing a new color. */
-.feature-bar { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; }
+.feature-bar { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.2rem; }
 .feature-btn {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--vellum);
-  background: var(--madder);
+  font-weight: 600;
+  color: #F1E9DD;
+  background: none;
   text-decoration: none;
-  padding: 0.5rem 1.1rem;
-  border: 1px solid var(--madder);
+  padding: 0.5rem 0.45rem;
+  border: 1px solid transparent;
   border-radius: 999px;
   min-height: 38px;
   display: inline-flex;
   align-items: center;
+  white-space: nowrap;
 }
 .feature-btn:hover, .feature-btn:focus-visible {
-  background: #7E2F20;
-  border-color: #7E2F20;
-  color: var(--vellum);
+  background: none;
+  border-color: transparent;
+  color: #E08C74;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
-.feature-btn[aria-current="page"] { border-color: #E08C74; }
+.feature-btn[aria-current="page"] { color: #E08C74; }
 @media (max-width: 640px) {
-  .feature-bar { gap: 0.5rem; }
-  .feature-btn { font-size: 0.8rem; padding: 0.45rem 0.9rem; }
+  .feature-bar { gap: 0.1rem; }
+  .feature-btn { font-size: 0.85rem; padding: 0.45rem 0.55rem; }
 }
 .door-line { max-width: 46rem; margin: 1rem auto 0; line-height: 1.5; text-align: center; }
 

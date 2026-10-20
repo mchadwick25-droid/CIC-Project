@@ -27,10 +27,7 @@
 /* Site header: the button sits beside Menu, at the right end of the row. */
 .site-header > :has(> .feedback-toggle) .feedback-toggle { margin-left: auto; }
 .site-header > :has(> .feedback-toggle) .feedback-toggle + .menu { margin-left: 0; }
-@media (min-width: 1000px) and (max-width: 1179px) {
-  .site-header > :has(> .feedback-toggle + .menu) { display: flex; flex-wrap: wrap; }
-}
-@media (min-width: 1180px) {
+@media (min-width: 1000px) {
   .site-header > :has(> .feedback-toggle + .menu) {
     display: grid;
     grid-template-columns: max-content 1fr max-content max-content;

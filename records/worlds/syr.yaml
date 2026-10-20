@@ -27,3 +27,52 @@ package:
 thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
 living_tradition_flag: true
 story_placement: false
+card:
+  portrait: "assets/portraits/syriac.png"
+  intro: Mar Yausep is a representative voice for the Christian tradition of Edessa and Nisibis (200–410 CE). Doctrine was sung in hymns.
+  shaped:
+  - Ephrem
+  - Aphrahat
+  - Jacob of Nisibis
+  summary: Between about 200 and 410, Syriac-speaking Christians lived on the border of the Roman and Persian empires, at Edessa and Nisibis. They taught the faith through hymns and symbols. Men and women of the covenant promised to stay unmarried for life. They lived in town with their families. Ephrem, a deacon, answered rival teachers by name. In the 340s, King Shapur II turned on the Christians of Persia. Bishop after bishop was killed.
+  record_holds: Rich in hymns and teaching. Thin on ordinary believers and the years after Ephrem.
+  topics:
+  - word: Hymns and music
+    note: They taught doctrine in sung hymns; the congregation learned the faith by its tune.
+  - word: The Bible and how to read it
+    note: Ephrem read Scripture and nature through symbols, each pointing to the truth it showed.
+  - word: Jesus
+    note: Jesus, the Only-Begotten, became truly human and heals sin and death like a physician.
+  - word: Salvation and grace
+    note: Christ nailed sin to the cross, and salvation heals as much as it pardons.
+  - word: Sin and forgiveness
+    note: Aphrahat likens the sinner to the wounded and Christ to a physician who heals.
+  - word: Free will and predestination
+    note: No fate compels the soul; on this, even their rival Bardaisan agreed.
+  - word: Heaven, hell and judgment
+    note: Hymns sing death's rule broken and judgment just, but map no one's fate.
+  - word: Suffering and death
+    note: Sufferers stand in line with Jesus and hope for resurrection, not escape.
+  - word: Monks and nuns
+    note: Men and women took covenant vows of celibacy but stayed inside the ordinary congregation.
+  - word: Church leaders
+    note: Bishops and vowed celibates both held authority; the record never settles who ranked higher.
+  - word: The emperor and the state
+    note: Once Rome turned Christian, Persia suspected its Christians as friends of Rome.
+  - word: Persecution
+    note: Christians in Persia endured state violence, and endurance became a shared ideal.
+  - word: Martyrs
+    note: Martyred bishops and clergy became the Persian church's models of holding fast.
+  - word: Heresy and false teaching
+    note: Ephrem fought Bardaisan, Marcion and Mani, and his writing shapes how we see them.
+  aliases:
+  - name: Sons and Daughters of the Covenant
+    kind: own
+    note: 'Bnay and bnat qyama: the vowed order inside the congregation. Not monks or nuns.'
+  - name: Ihidaye
+    kind: own
+    note: The Single Ones; Aphrahat's name for vowed celibates. Not hermits or monks.
+  keywords:
+  - church of the east
+  - diatessaron
+  - assyrian

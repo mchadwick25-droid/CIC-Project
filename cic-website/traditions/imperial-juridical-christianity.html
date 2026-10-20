@@ -170,12 +170,11 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 @media (max-width:600px){.hl-note{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));top:auto;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:auto}}
 /* END orientation-content-css */
 
-/* Persistent feature header: Church Family Tree / Conversation with One */
-.feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
-.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--vellum);background:var(--madder);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--madder);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
-.feature-btn:hover,.feature-btn:focus-visible{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
-.feature-btn[aria-current="page"]{border-color:var(--action)}
-@media (max-width:640px){.feature-bar{gap:.5rem}.feature-btn{font-size:.8rem;padding:.45rem .9rem}}
+.feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.2rem}
+.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:600;color:var(--text);background:none;text-decoration:none;padding:.5rem .45rem;border:1px solid transparent;border-radius:999px;min-height:38px;display:inline-flex;align-items:center;white-space:nowrap}
+.feature-btn:hover,.feature-btn:focus-visible{background:none;border-color:transparent;color:var(--action);text-decoration:underline;text-underline-offset:.2em}
+.feature-btn[aria-current="page"]{color:var(--action)}
+@media (max-width:640px){.feature-bar{gap:.1rem}.feature-btn{font-size:.85rem;padding:.45rem .55rem}}
 .tree-link{font-family:var(--sans);font-size:.95rem;margin:1rem 0;padding:.8rem 1rem;background:var(--surface);border-left:3px solid var(--action);border-radius:4px}
 .tree-link a{font-weight:600;color:var(--action)}
 .tree-link a:hover{color:var(--action-hover)}
@@ -498,7 +497,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
     <a class="btn" id="door-begin" href="../talk.html?worlds=imperial-juridical-christianity&amp;mode=interview&amp;from=traditions%2Fimperial-juridical-christianity.html" data-ask>Begin a conversation with Marius</a>
   </div>
   <p class="also">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
-  <p class="also"><a href="../index.html#who">The other six chairs →</a></p>
+  <p class="also"><a href="../index.html#who">The other voices →</a></p>
 </section>
 
 <footer class="site-footer">

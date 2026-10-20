@@ -31,3 +31,47 @@ package:
   manifest_hash: "sha256:327c91c6cdd868a4852110661a67ef125eeb9acc9d78d4940b69db20edd3e9ce"
   location: "packages/don/2026-10-18T02-38-59Z"
 story_placement: false
+card:
+  portrait: "assets/portraits/donatism.png"
+  intro: Fidelis is a representative voice for the Donatist church of Roman North Africa (c. 311–439 CE). Two rival churches contested the same towns; one saw itself as the church of the martyrs.
+  shaped:
+  - Donatus
+  - Petilian
+  - Emeritus
+  summary: From around 311, in Roman North Africa, two churches stood in town after town, each with its own bishop, altar and line of ordination. The split began with a charge. A bishop was said to have handed the scriptures over to be burned. If that hand was tainted, the Donatists held, all it gave afterward was empty. They called their church the Church of the Martyrs. Nearly everything known of them comes from two bishops who wrote against them. Most of their own words survive as quotations in those books.
+  record_holds: Nearly everything comes through the hands of their opponents. Thin to silent on ordinary believers.
+  topics:
+  - word: Baptism
+    note: They baptized newcomers anew, holding that baptism outside their church was no baptism.
+  - word: The Bible and how to read it
+    note: 'They read scripture for a mark of the true church: the world hates it.'
+  - word: Saints and holy places
+    note: They honored their own martyrs at the graves, where the community gathered to remember.
+  - word: Feast days and remembering the dead
+    note: Each year they gathered at a martyr's grave to hear the death read again.
+  - word: Tradition and authority
+    note: They claimed descent from Cyprian's African council on baptism; opponents denied his authority.
+  - word: Church leaders
+    note: They kept a complete rival line of bishops, ordained by hands free of betrayal.
+  - word: The emperor and the state
+    note: They denied emperors any right to judge the church, yet sometimes sought their help.
+  - word: Persecution
+    note: Bishops who handed scriptures to persecutors, they held, could no longer give sacraments.
+  - word: Martyrs
+    note: They saw a persecuted church as the true one, and kept their martyrs' stories.
+  - word: Church splits
+    note: They formed a full rival church, bishop against bishop, across North Africa's towns.
+  - word: Church councils
+    note: Their councils judged bishops; they rejected councils run and enforced by the emperor.
+  aliases:
+  - name: Donatists
+    kind: outsider
+    note: Name given by the people who defeated them; not a neutral label.
+  - name: Party of Donatus
+    kind: own
+    note: Used by bishops in a 313 petition; Optatus turned it into a charge.
+  keywords:
+  - optatus
+  - rebaptism
+  - circumcellions
+  - constantine
