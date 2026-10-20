@@ -58,7 +58,6 @@ function init(mount, census) {
         shaped: Array.isArray(en.shaped) ? en.shaped.join(", ") : (en.shaped || ""),
         shapedList: Array.isArray(en.shaped) ? en.shaped : [],
         summary: en.summary || en.tile || "",
-        record: en.recordHolds || "",
         matches: Array.isArray(en.matches) ? en.matches : [],
         voices: (m.voices || []).filter(function (v) { return typeof v === "string"; }),
         start: m.start,
@@ -194,7 +193,7 @@ function init(mount, census) {
     var about = el("a", { class: "cbtn quiet", href: "traditions/" + w.id + ".html", text: "Get more information" });
 
     var body = el("div", { class: "bbody", tabindex: "0", role: "group", "aria-label": "About " + w.world + ". Press Enter to turn the card back." },
-      [w.summary ? el("p", { text: w.summary }) : null, w.record ? el("p", { class: "rec", text: "What the record holds: " + w.record }) : null]);
+      [w.summary ? el("p", { text: w.summary }) : null]);
     var backFace = el("div", { class: "face back", inert: true }, [
       el("div", { class: "band" }, [el("span", { text: bandText }), el("span", { text: e.dates })]),
       el("p", { class: "btitle", text: w.subtitle || w.name }),

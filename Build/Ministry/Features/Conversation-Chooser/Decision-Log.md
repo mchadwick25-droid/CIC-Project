@@ -410,3 +410,13 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** On the front of the card, "Talk" sits on the left of the portrait and "Seat" on the right, each a button with an icon and a one-word label. They show on the card at the front of the hand; the other cards in the fan keep a clean face and a click brings them forward. Seat shows "Seated" once the Representative has a chair. On the Build a Table page Seat is the red button; on the landing page Talk is. The back has one button at the bottom, "Get more information", which opens the tradition's page. "Turn the card back" is gone: a click anywhere on the back (except that button) turns the card over, and from the keyboard Enter on the text, or Escape, does the same. The phone list shows both buttons on every card.
 
 **Left as it was.** The spoken names stay full: "Talk with Marius" and "Seat Marius at the table" are the buttons' accessible names.
+
+## 2026-10-20 — Quieter Talk and Seat; the record line leaves the back; bigger back text (Mark)
+
+**Mark's words.** "lets make the buttons more suttle, not a button by a click on an image or short word. i dont want to distract from the cleaness and impact of the card as a collector or valueable card". Then: "get rid of the what the record holds, that is very ai, just make the text bigger to fit,".
+
+**What changed.** Talk and Seat on the front are no longer boxed buttons: each is a small icon and one word on the portrait, white with a soft dark glow behind it, turning gold on hover, on focus and once seated. The red fill is gone, so Talk and Seat look the same on both pages. The back no longer shows "What the record holds: ...". The summary on a turned card is set larger (17 px or more) and fills the room the line and the button row freed.
+
+**Checked.** Contrast of the two labels was measured on the rendered pixels behind them, for all eleven portraits: the worst single pixel behind a label is 4.2:1, and 21 of the 22 labels are at or above 4.5:1 at their worst pixel. The soft dark glow behind the text adds to this and is not counted. All eleven turned cards fit their text and button with no clipping at 1434x717; the other sizes are listed in the run after this entry.
+
+**Not changed.** The "record holds" text is still in the registry (`card.record_holds`) and the census (`recordHolds`). Mark said to remove it from the card; whether it leaves the data is a separate decision.
