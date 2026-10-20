@@ -511,16 +511,16 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 
 **Checked.** In headless Chromium at 1280x800, 820x1180 and 390x844: tagline and "Shaped by" at 16 px; no sideways scroll; the button toggles, the choice survives a reload, and the plain list is one column; the new sentence shows for "josephus" and "augustine" still finds two matches; no script errors. `engine/m1/tests/test_cross_world.py` 22 pass; `tools/validate-census.mjs` 0 errors; `tools/check_live_commentary.py --enforce --base origin/main` exit 0. Not checked: real iPad or iPhone Safari, a screen reader, and the free line on a phone, where it sits below all eleven cards (about 5,500 px down).
 
-## 2026-10-20 — Header, touch targets and trays left to my judgment (Mark)
+## 2026-10-20 — Landing page and cards only; the list control stays (Mark)
 
-**Mark's words.** "do what is easiest and cleanest to navigate, looks good and complete (know half pages in a resting state) each feature or block fits on a page or easy scroll for phones". He had been shown the report on the header height and the 38 to 40 px targets, and the free line sitting far down a phone page, and ruled none of them. This entry is his delegation applied; each choice below is mine and is open to a change order.
+**Mark's words.** First, "do what is easiest and cleanest to navigate, looks good and complete (know half pages in a resting state) each feature or block fits on a page or easy scroll for phones". Then, after a relayed correction that feedback item 28 covers the landing page and cards only: "Keep the list control, pull the rest back to landing and cards".
 
-**What changed.**
-- Header on iPads and phones: "Tell us what you think" shows as "Feedback" below 1000 px (the full words stay as its accessible name). On a phone the header is two rows (brand with Feedback and Menu, then the three feature links), 108 px at 390 wide (was 201 px). On an iPad in portrait it is one row, 64 to 68 px (was 114 px).
-- Touch targets of 44 px: the header links, Feedback and Menu, the wordmark link, the logo-replay button on the landing page, the footer links, and the narration player's play button, position bar and speed buttons.
-- Free line: on a phone it sits straight under the search bubble, above the list, instead of below all eleven cards. On wider screens it stays under "How this works".
-- Build a Table's tray: on a phone it is a compact block of about 130 px (was about 230 px, and covered the first cards); on an iPad it is one row of 64 to 69 px. The page's bottom padding follows the tray's real height.
+**What changed.** The first version of this work also changed the header on every page, the footer links, the narration player on the tradition pages and the Build a Table tray. Those are reverted: every file outside the landing page and the chooser is back as it was. What stays, on the landing page and the cards only:
+- The header (in `index.html`'s own styles): "Tell us what you think" shows as "Feedback" below 1000 px; the header is two compact rows on a phone (108 px at 390 wide, was 201 px) and one row on an iPad (64 px, was 114 px).
+- 44 px targets on the landing page's header, footer links, logo-replay button and narration controls.
+- The free line sits straight under the search on a phone.
+- The list control, the 16 px card front text and the no-world sentence, as in the entry above.
 
-**Checked.** Headless Chromium with the real Google fonts at 360, 390, 768, 820, 1024 and 1280 px wide on the landing page, Build a Table, About and one tradition page: no sideways scroll; the header, footer and narration controls measure 44 px or more except where listed below.
+**Left for later, because they are outside the landing page and cards.** The same header, footer and narration fixes on Build a Table, About, the tradition pages and the rest, and the compact Build a Table tray (about 230 px on a phone, covering the first cards). Mark has not ruled on them.
 
-**Not fixed.** At 360 px wide (a common Android width) the Menu button wraps to its own row and the header is about 152 px. The About page's own header keeps its older layout (it uses 40 px links). Real devices were not tested.
+**Not fixed.** At 360 px wide the Menu button wraps to its own row (header about 152 px). Real devices were not tested; the headless runs at 360, 390, 768, 820, 1024 and 1280 px had no sideways scroll and every landing-page target measured 44 px or more.

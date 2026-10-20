@@ -181,6 +181,32 @@ p{margin:0 0 1rem}
 .who-search .chooser-help{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:760px){.who-search{width:100%}}
 @media (max-width:699px){.who{display:flex;flex-direction:column}.who>.free-line{order:1}.who>[data-chooser]{order:2}}
+.feedback-toggle .fb-short{display:none}
+.site-header .feedback-toggle,.site-header .menu-toggle,.site-header .feature-btn{min-height:44px}
+.site-header .brand .wordmark{display:inline-block;line-height:44px;padding-block:0}
+@media (max-width:999px){
+  .site-header .feedback-toggle .fb-full{display:none}
+  .site-header .feedback-toggle .fb-short{display:inline}
+  .site-header .feedback-toggle{padding-inline:.9rem}
+  .site-header > :is(.row,.wrap){column-gap:.5rem;padding-inline:1rem}
+  .site-header .menu-toggle{padding-inline:.8rem}
+  .site-header .feature-btn{padding-inline:.35rem}
+}
+.site-footer nav a{min-width:44px;justify-content:center}
+body .cicp-play{min-height:44px}
+body .cicp-rail{height:44px}
+body .cicp-speeds button{min-height:44px;min-width:44px;padding:0 .3rem}
+@media (max-width:860px){.site-header .feature-btn{font-size:.8rem}.site-header .brand .wordmark{font-size:1rem}}
+@media (max-width:640px){
+  .site-header > :is(.row,.wrap){display:flex;flex-wrap:wrap;align-items:center;gap:0 .4rem;padding-inline:1rem}
+  .site-header > :is(.row,.wrap) .brand{flex:1 1 auto;min-width:0}
+  .site-header .brand .wordmark{font-size:.9rem}
+  .site-header .brand{gap:.3rem}
+  .site-header .feedback-toggle,.site-header .menu-toggle{font-size:.8rem;padding-inline:.65rem}
+  .site-header .feedback-toggle,.site-header .menu{margin-left:0}
+  .site-header .feature-bar{order:3;flex:1 0 100%;justify-content:space-between;gap:0}
+  .site-header .feature-btn{padding:.3rem .25rem;font-size:.85rem}
+}
 .more-link{margin:1.5rem 0 0;font-family:var(--sans);font-size:.9rem}
 .more-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
 

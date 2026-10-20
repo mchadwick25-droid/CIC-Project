@@ -15,7 +15,7 @@ From session: https://claude.ai/code/session_01GSkmJBxTD77vXWGm6syanq · Workstr
 
 - Real iPad and iPhone Safari, VoiceOver or another screen reader, and the staging deploy (not reachable from the cloud session). The step 4 screen-reader items are still open.
 - The tree's "Add to the table" button, its seat store and tray (needs Theme E's open items ruled).
-- Header height and touch targets: fixed under Mark's "easiest and cleanest" delegation (see the Decision Log). Still open: the header at 360 px wide (3 rows, about 152 px) and the About page's older header.
+- Header, footer and narration-player fixes and the compact Build a Table tray were built and then reverted from every page except the landing page, since Mark limited item 28 to the landing page and cards. Open: the header at 360 px wide (about 152 px); the same fixes elsewhere if Mark wants them.
 - The list control differs from the approved drawing in two ways (compact rows; no return to cards on a phone). See the Decision Log entry.
 - Feedback items 27 and 28 and the "Change orders to Theme D" section named in the launch prompt are not in the repo. Item 28 (every device) is only as the prompt states it.
 
@@ -27,7 +27,7 @@ From session: https://claude.ai/code/session_01GSkmJBxTD77vXWGm6syanq · Workstr
 ## 4. Waiting on Mark
 
 - Whether the list rows should be compact, and whether a phone user can switch back to cards.
-- Whether the "Feedback" short label and the layout choices in the Decision Log's last entry are what he wants.
+- Whether the "Feedback" short label and the landing header layout are what he wants.
 - Real-device and screen-reader testing, and promotion to `live` (his call through the runbook).
 
 ## 5. Next step
