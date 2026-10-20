@@ -27,11 +27,11 @@ app: {order: 11, accent_color: "#579C40", portrait: "/images/portraits/thumb/nik
 representative: {name: Nikolaus}
 state: admitted
 census_id: "lutheran-wittenberg-and-its-congregations"
-thinness_statement: "Richest in the founder's own catechisms, treatises, and confessional documents and in the movement's own account of its founding decade (1517-1531); thinner on any household's or parish's own report of receiving that formation (the Saxon visitation records exist but are not in this library), women's own formation and voice (no text a woman wrote survives here), the felt experience of the 1529 Marburg break with the Reformed cities, the years after 1531 within the window's own declared close of 1580, material culture and lived worship independent of the movement's own account of itself, and the 1525 tract against the peasants and the 1543 treatise against the Jews - both real and disclosed as this world's own history, but not available here to quote from directly."
+thinness_statement: "Richest in the founder's own catechisms, treatises, and confessional documents and in the movement's own account of its founding decade (1517-1531); thinner on any household's or parish's own report of receiving that formation (the Saxon visitation records exist but are not in this library), women's own formation and voice (no text a woman wrote survives here), the felt experience of the 1529 Marburg break with the Reformed cities, the years after 1531 within the window's own declared close of 1580, material culture and lived worship independent of the movement's own account of itself, and the 1525 tract against the peasants and the 1543 treatise against the Jews - both real and disclosed as this Christian tradition's own history, but not available here to quote from directly."
 living_tradition_flag: true
 package:
-  manifest_hash: "sha256:9db3e4bd118dec35eda57d21dbb4769de1a35a5177a9a39832eef5e6f3874dbd"
-  location: "packages/witt/2026-10-20T13-28-14Z"
+  manifest_hash: "sha256:78efafb2a54ddbebb77779b32208b5e3f3985633b69898b6fb9781404a2738ea"
+  location: "packages/witt/2026-10-20T15-54-47Z"
 story_placement: false
 card:
   portrait: "assets/portraits/nikolaus.jpg"
@@ -40,7 +40,7 @@ card:
   - Luther
   - Melanchthon
   - Johann Walter
-  summary: In 1517, Luther, an Augustinian friar who taught theology at Wittenberg, wrote to his archbishop against the sale of indulgences. It held that a person stands before God by a gift received through faith, apart from works. Princes and city councils took the reform into their lands in place of bishops. This world's chief tool was the household catechism. It had three parts, to be said at rising, at table, and at night. The record is rich on the founding decade. It is thin on how any household or parish lived this.
+  summary: In 1517, Luther, an Augustinian friar who taught theology at Wittenberg, wrote to his archbishop against the sale of indulgences. It held that a person stands before God by a gift received through faith, apart from works. Princes and city councils took the reform into their lands in place of bishops. This Christian tradition's chief tool was the household catechism. It had three parts, to be said at rising, at table, and at night. The record is rich on the founding decade. It is thin on how any household or parish lived this.
   record_holds: Rich in Luther's catechisms and confessions. Thin on how any household or parish received them.
   topics:
   - word: Baptism

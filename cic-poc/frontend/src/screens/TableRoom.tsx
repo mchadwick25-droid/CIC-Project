@@ -212,7 +212,7 @@ export function TableRoom({
       )}
 
       {deleted ? (
-        <DeletedNotice onRestart={onRestart} restartLabel="Return to the worlds" />
+        <DeletedNotice onRestart={onRestart} restartLabel="Return to the traditions" />
       ) : closed ? (
         <div className="conversation__composer">
           <p className="conversation__bar-note sans" style={{ marginBottom: 'var(--spacing-sm)' }}>

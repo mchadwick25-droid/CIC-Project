@@ -40,6 +40,7 @@
 .chooser-arrow:focus-visible{outline:3px solid var(--cgold);outline-offset:3px}
 .chooser-arrow[aria-disabled="true"]{opacity:.35;cursor:default}
 .chooser.is-list .chooser-arrow{display:none}
+.chooser-tableline{text-align:center;margin:.2rem auto 0;max-width:36rem;font-family:var(--sans);font-size:.95rem;line-height:1.4;color:var(--muted)}
 .chooser-how{max-width:34rem;margin:.4rem auto 0;text-align:center;font-family:var(--sans);font-size:.92rem;color:var(--muted)}
 .chooser-how summary{display:inline-flex;align-items:center;gap:.45rem;min-height:44px;padding:0 .9rem;cursor:pointer;list-style:none;color:var(--muted)}
 .chooser-how summary::-webkit-details-marker{display:none}
