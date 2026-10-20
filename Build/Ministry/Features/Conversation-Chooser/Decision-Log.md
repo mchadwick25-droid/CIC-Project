@@ -454,3 +454,5 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Follow-up, same day (Mark: "you add to the table").** "your table" becomes "the table": "Each representative you add to the table is a representative voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out."
 
 **Follow-up, same day (Mark: "is a ai generated voice, not a person who lived").** The statement now reads: "Each representative you add to the table is an AI-generated voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out." The article is "an" before "AI-generated", and "AI-generated" is hyphenated as a single describing word.
+
+**Follow-up, same day (Mark: "drop the tail").** The statement now ends after "not a person who lived": "Each representative you add to the table is an AI-generated voice, not a person who lived." The clause "built from that tradition's own letters and records, and honest about where they run out" is gone from this page.
