@@ -302,3 +302,9 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** On the branch preview: "So this is really good. For the See all, can we get the text on the page and move up so there isn't wasted space."
 
 **What changed.** "See all" no longer opens a sideways scroll with cards cut off at the edge and its own scroll buttons. The whole deck wraps onto the page under the hand's buttons, every card with its name and tradition visible, six and five to a row on a laptop, two to a row on a phone. The rule and the gap above it are gone, and the row sits directly under Previous, Next, Shuffle and Hide the deck; the hand hint moves below it. Tapping a card still takes it into the hand.
+
+## 2026-10-20 — The deck's small cards: portrait to the top, shaping names on the plate (Mark)
+
+**Mark's words.** On the "See all" deck: "You can see on the cards there is a blank space at the top of the picture, can we raise the whole picture and then make space for at least the shaping names."
+
+**What changed.** The small cards in the deck lose their era strip, which had no readable tint there and read as a blank band. The portrait now fills the card from the top. The name plate at the foot carries the Representative's name, the tradition, and a "Shaped by …" line with the same three names as the front of the full card. The era still shows on the full card and in the era chips.

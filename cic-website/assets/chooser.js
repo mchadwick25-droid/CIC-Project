@@ -453,9 +453,8 @@ function init(mount, census) {
       var inHand = handIds.indexOf(id) >= 0;
       var b = el("button", { type: "button", class: "mini" + (inHand ? " inhand" : "") + (seated.indexOf(id) >= 0 ? " seated" : ""), "data-id": id,
         "aria-label": w.rep + ", " + w.world + ", " + e.name + ". " + (inHand ? "Already in your hand. Activate to bring it to the front." : "Take this card into your hand.") }, [
-        el("span", { class: "mband", text: (e.no ? e.no + ". " : "") + e.name }),
         el("img", { src: w.thumb || w.img, alt: "", loading: "lazy", decoding: "async" }),
-        el("span", { class: "mname" }, [document.createTextNode(w.rep), el("small", { text: w.world })])
+        el("span", { class: "mname" }, [document.createTextNode(w.rep), el("small", { text: w.world }), w.shapedList.length ? el("small", { class: "mshaped", text: "Shaped by " + joinNames(w.shapedList) }) : null])
       ]);
       b.style.setProperty("--era", e.tint);
       b.addEventListener("click", function () { pickFromDeck(id); });
