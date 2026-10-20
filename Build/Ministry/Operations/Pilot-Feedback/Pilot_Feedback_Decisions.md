@@ -205,3 +205,28 @@ Open and not decided here
 - Whether the repo or object storage holds the new files. The storage question in the 2026-09-27 log entry was not checked for a ruling.
 - No thread owns this work yet. A site audio thread is proposed.
 - The story pool for Theme D has no owner and is not written.
+
+## Theme G: after the free tokens — 2026-10-20
+
+Status: converged (Mark: "Converged, auto mode"). Nothing built.
+
+Covers feedback item 9 (the tester loves the 300 free tokens and asks whether it goes to a paywall after) and the funding half of item 25.
+
+Decisions
+- The landing page line, near the doors (placement from Theme D): "Free to start. Add more any time." No price on it. Mark chose this over "Free to start. Gifts keep it open.", which I had recommended.
+- The room keeps its small token count, off the stack under the question box (Theme D). The existing limit wording stays: "To carry on in this conversation, add tokens or enter a code." and "Your tokens have run out. Add more to carry on."
+- The answer to the tester: it is not a wall. After the free allowance a visitor can add tokens, enter a sponsor's code, or wait. Free conversations are kept open by gifts.
+- Funding strategy, the bridge funding and the legal structure are not decided here. They belong to the funding workstream.
+
+What must hold
+- No price in the app; Stripe shows the amount.
+- A number shown to visitors is read from the operations file, so the page and the allowance cannot drift.
+- The line meets the reading-level target.
+
+Evidence used
+- The Go Deeper decision log (Build/Ministry/Features/Go-Deeper/Decision-Log.md) and engine/deeper/ops/go-deeper.yaml, read on 2026-10-20: a free allowance of 550 tokens in a 30-day window per visitor and 3 rounds per free conversation; packs of $7, $15 and $30; a weekly gift-funded ceiling with stages; sponsor and tester codes. The yaml was last changed three days earlier in a commit titled "Open the pilot to the general audience". No research round was run for this theme.
+
+Open and not decided here
+- Whether the buy button is live and a Stripe Payment Link is set. An earlier log entry says it stays hidden until one is set; not checked.
+- What the tester's "300 free tokens left" was counted from. It fits a 550 allowance partly used, which is not confirmed.
+- Who builds the landing line. It sits with the chooser thread's landing page work.
