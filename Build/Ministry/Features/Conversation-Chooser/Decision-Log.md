@@ -458,3 +458,5 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Follow-up, same day (Mark: "drop the tail").** The statement now ends after "not a person who lived": "Each representative you add to the table is an AI-generated voice, not a person who lived." The clause "built from that tradition's own letters and records, and honest about where they run out" is gone from this page.
 
 **Follow-up, same day (Mark: "no keep build brom, but drop and hones about").** The statement keeps the "built from" clause and drops "and honest about where they run out": "Each representative you add to the table is an AI-generated voice, not a person who lived — built from that tradition's own letters and records."
+
+**Follow-up, same day (Mark: "get rid of the dash, use a comma").** The statement now reads: "Each representative you add to the table is an AI-generated voice, not a person who lived, built from that tradition's own letters and records."
