@@ -40,9 +40,16 @@
 .chooser-arrow:focus-visible{outline:3px solid var(--cgold);outline-offset:3px}
 .chooser-arrow[aria-disabled="true"]{opacity:.35;cursor:default}
 .chooser.is-list .chooser-arrow{display:none}
+.chooser-how{max-width:34rem;margin:.4rem auto 0;text-align:center;font-family:var(--sans);font-size:.92rem;color:var(--muted)}
+.chooser-how summary{display:inline-flex;align-items:center;gap:.45rem;min-height:44px;padding:0 .9rem;cursor:pointer;list-style:none;color:var(--muted)}
+.chooser-how summary::-webkit-details-marker{display:none}
+.chooser-how summary::after{content:"";width:.5rem;height:.5rem;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .2s}
+.chooser-how[open] summary::after{transform:rotate(225deg) translateY(-2px)}
+.chooser-how summary:hover{color:var(--text)}
+.chooser-how summary:focus-visible{outline:3px solid var(--action);outline-offset:2px;border-radius:6px}
+.chooser-how ul{list-style:none;margin:.2rem 0 0;padding:0;display:grid;gap:.4rem;line-height:1.45}
 .chooser-nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.5rem .8rem;margin:.4rem 0}
 .chooser-nav .pos{color:var(--muted);font-variant-numeric:tabular-nums;min-width:4.5rem;text-align:center}
-.chooser-hint{text-align:center;color:var(--muted);font-size:.88rem;margin:.2rem auto 0;max-width:none}
 .cbtn{font-family:var(--sans);font-weight:700;font-size:.95rem;border-radius:6px;border:1px solid var(--rule);background:var(--surface);color:var(--text);padding:.5rem .9rem;cursor:pointer;min-height:44px;display:inline-flex;align-items:center;justify-content:center;text-align:center;line-height:1.15;text-decoration:none}
 .cbtn:hover{border-color:var(--action);color:var(--text)}
 .cbtn.primary{background:var(--madder);border-color:var(--madder);color:#fff}
@@ -101,7 +108,6 @@
 .mini .mname small.mshaped{font-size:.52rem;font-style:italic;color:var(--cgold);margin-top:.15rem}
 .mini.inhand{opacity:.7;box-shadow:0 0 0 3px var(--action)}
 .mini.seated{box-shadow:0 0 0 3px var(--madder)}
-.chooser-tree{text-align:center;margin:1rem 0 0;font-size:.95rem}
 .chooser-tray{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--rule);padding:.6rem max(16px,env(safe-area-inset-right,0px)) calc(.6rem + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));z-index:500;container-type:normal}
 .chooser-tray .in{max-width:64rem;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .chooser-tray .seats{list-style:none;margin:0;padding:0;display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}
@@ -118,5 +124,4 @@
 .chooser.is-list .face.back{transform:none;display:none}
 .chooser.is-list .card.turned .face.back{display:flex}
 .chooser.is-list .card.turned .face.front{display:none}
-.chooser.is-list .chooser-hint{display:none}
 @media (prefers-reduced-motion:reduce){.card .inner,.chooser-hand .card{transition:none}}

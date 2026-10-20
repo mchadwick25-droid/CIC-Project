@@ -25,7 +25,6 @@ function shuffleIndex(len) { return Math.floor(Math.random() * len); }
 function init(mount, census) {
   var mode = mount.getAttribute("data-mode") === "table" ? "table" : "landing";
   var fromPage = mount.getAttribute("data-from") || "index.html#who";
-  var treeHref = mount.getAttribute("data-tree") || "atlas-v3.html";
 
   var eras = {};
   census.eras.forEach(function (e) {
@@ -133,13 +132,16 @@ function init(mount, census) {
   var stage = el("div", { class: "chooser-stage" }, [hand, prevBtn, nextBtn]);
   var allBtn = el("button", { type: "button", class: "cbtn quiet", "aria-expanded": "false" });
   var nav = el("div", { class: "chooser-nav" }, [posEl, allBtn]);
-  var hint = el("p", { class: "chooser-hint", text: "Hover or tab to raise a card. Press Enter on a raised card to turn it over. Scroll, swipe or use the arrow keys to roll the hand." });
-  var deckRow = el("div", { class: "chooser-deckrow", hidden: true });
-  var tree = el("p", { class: "chooser-tree" }, [
-    document.createTextNode("The whole map is one step away: "),
-    el("a", { href: treeHref, text: "browse every tradition on the Church Family Tree" }),
-    document.createTextNode(".")
+  var hint = el("details", { class: "chooser-how" }, [
+    el("summary", { text: "How this works" }),
+    el("ul", null, [
+      el("li", { text: "Click a card to bring it forward. Click it again to turn it over." }),
+      el("li", { text: "Talk starts a conversation with that one voice." }),
+      el("li", { text: "Table adds the voice to a table of two or three. When you have two or three, choose Go to the table." }),
+      el("li", { text: "Scroll, swipe or use the arrows to see more cards. Search or pick an era to narrow them." })
+    ])
   ]);
+  var deckRow = el("div", { class: "chooser-deckrow", hidden: true });
 
   // ---------- tray ----------
   var seatsEl = el("ul", { class: "seats", "aria-label": "On your table" });
@@ -157,7 +159,6 @@ function init(mount, census) {
   mount.appendChild(deckRow);
   mount.appendChild(hint);
   mount.appendChild(deckBox);
-  mount.appendChild(tree);
   mount.appendChild(tray);
 
   // ---------- links ----------
