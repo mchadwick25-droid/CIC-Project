@@ -328,3 +328,11 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **What changed.** The tagline and the "Shaped by" line on the front of the card are never smaller than 14 px; on larger cards they keep their scaled size. Checked on the cards in the hand at 1434x717, 1440x900 and 1024x768: no text runs past the bottom of the card.
 
 **Follow-up, same day (Mark: "yes, switch to rem and check the contrast").** The floor is now `.875rem`, so it follows the reader's browser text-size setting (14 px by default). Contrast was measured on the rendered pixels behind the text for the five cards in the hand at 1434x717: tagline (#EDE4D3) 14.2:1, "Shaped by" line (#D9B35C) 9.0:1, both against the card's dark ground. WCAG asks for 4.5:1. The 14 px size is above the usual floor for secondary text; 16 px is the usual body size and is not applied.
+
+## 2026-10-20 — Card size follows rem; back text lifted (Mark: "yes, fix 1 and 2 together")
+
+**What changed.** The card width floor is now `17rem` and the cap `25rem` (was 210 px and 400 px), so the card grows when the reader's text size grows. On the back, the summary, the Years/Place/Shaped by rows and the buttons are at least `.875rem`; the row labels at least `.75rem`.
+
+**Checked** (five cards in the hand, front and turned, headless browser): at default text size no overlap, clipping or sideways scroll at 1434x717, 1440x900, 1024x768, 390x844 or 320x568. At 200% text size the same holds at 1434x717 and 1440x900.
+
+**Not fixed.** At 200% text size on 390 px and 320 px screens the card is wider than the screen and its text overruns the card; at 1024x768 the page scrolls sideways by 276 px (not traced to its cause). Under the WCAG text-spacing stress test (line height 1.5, letter spacing .12em, word spacing .16em), the name overlaps the card header and the back's text area shrinks, at every size tested. Both need the card faces to grow in height instead of keeping a fixed ratio; that is a layout change not yet decided.
