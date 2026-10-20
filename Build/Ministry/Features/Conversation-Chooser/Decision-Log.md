@@ -420,3 +420,11 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Checked.** Contrast of the two labels was measured on the rendered pixels behind them, for all eleven portraits: the worst single pixel behind a label is 4.2:1, and 21 of the 22 labels are at or above 4.5:1 at their worst pixel. The soft dark glow behind the text adds to this and is not counted. All eleven turned cards fit their text and button with no clipping at 1434x717; the other sizes are listed in the run after this entry.
 
 **Not changed.** The "record holds" text is still in the registry (`card.record_holds`) and the census (`recordHolds`). Mark said to remove it from the card; whether it leaves the data is a separate decision.
+
+## 2026-10-20 — Scrolling turns a card back; a seated card stays raised in its place (Mark)
+
+**Mark's words.** "also on the scroll, if the card is turned over and then the user scrolls on flip it back over so it doesn't stand out, if it has been selected for a table keep is facing front and elevated to mark it has been selected, but still sitting in the scroll in it place not over anything."
+
+**What changed.** When the hand moves by wheel, swipe, either arrow or the arrow keys, any card that is turned over flips back to its front, so the enlarged back never stays on screen while the hand rolls. A card chosen for the table sits face-front and raised about 16 px above its neighbours, in its own place in the row, with the same layering as the cards around it, so it never covers another card. The raised card at the front of the hand is still the highest. The red ring around a seated card is unchanged.
+
+**Checked.** In a headless browser: a turned card flips back on the arrow, and on a wheel notch; a seated card two places left of the front card sits about 16 px higher than its neighbours with the layer order of its place (98, between 97 and 99).

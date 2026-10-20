@@ -222,7 +222,7 @@ function init(mount, census) {
     return card;
   }
 
-  function turn(card, on) {
+  function turn(card, on, quiet) {
     var frontFace = card.querySelector(".face.front"), backFace = card.querySelector(".face.back");
     card.classList.toggle("turned", on);
     if (on) {
@@ -230,7 +230,7 @@ function init(mount, census) {
       backFace.querySelector(".bbody").focus();
     } else {
       backFace.setAttribute("inert", ""); frontFace.removeAttribute("inert");
-      card.querySelector(".cfront").focus();
+      if (!quiet) card.querySelector(".cfront").focus();
     }
   }
 
@@ -270,7 +270,9 @@ function init(mount, census) {
 
   function setActive(i, focus) {
     if (!handIds.length) return;
-    active = Math.max(0, Math.min(handIds.length - 1, i));
+    var next = Math.max(0, Math.min(handIds.length - 1, i));
+    if (next !== active) [].forEach.call(hand.querySelectorAll(".card.turned"), function (c) { turn(c, false, true); });
+    active = next;
     layout();
     if (focus) { var c = hand.children[active]; if (c) c.querySelector(".cfront").focus(); }
   }

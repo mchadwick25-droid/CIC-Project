@@ -21,6 +21,7 @@
 .chooser.is-list .chooser-hand .card.peek{opacity:1}
 .chooser.is-list .chooser-hand .card.off{visibility:visible;pointer-events:auto}
 .chooser-hand .card{grid-area:1/1;margin-top:1.3rem;transform:translate(calc(var(--d,0) * var(--step)),calc(var(--ad,0) * var(--ad,0) * var(--cw) * .011 + var(--lift,0px))) rotate(calc(var(--d,0) * 1.8deg)) scale(var(--s,1));transition:transform .45s cubic-bezier(.2,.7,.2,1),width .5s ease;z-index:calc(100 - var(--ad,0))}
+.chooser-hand .card.seated{--lift:-16px}
 .chooser-hand .card:hover,.chooser-hand .card:focus-within{--lift:-18px;z-index:200}
 .chooser-hand .card.active{--lift:-26px;--s:1.06}
 .chooser-hand .card.turned{--cw:min(100cqw,max(24rem,var(--cw0)));--ch:0px;z-index:300}
