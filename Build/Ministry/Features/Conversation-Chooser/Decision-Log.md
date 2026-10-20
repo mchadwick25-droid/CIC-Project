@@ -436,3 +436,9 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** The second front-of-card action reads "Table"; once chosen it reads "On table", and the badge on a chosen card reads "On table" (was "Seated"). The spoken names read "Add Marius to the table" and "Remove Marius from the table".
 
 **Left as it was.** The tray's own wording ("Your table", "1 of 3 seated. Seat one more to open the table.", "Three is the most a table can seat.") still uses seat and seated. Mark named the word on the card; whether the tray follows is his call.
+
+## 2026-10-20 — The tray follows "table" (Mark: "yes, change the tray to match")
+
+**What changed.** The tray's lines now say table where they said seat: "No one is on the table yet. Add two or three voices, then go." / "1 of 3 on the table. Add one more to open the table." / "2 of 3 on the table. Ready when you are." / "A table holds three at most. Remove one to add another." The list of chosen voices is named "On your table" for screen readers. Each line reads at about grade 1 to 3 (Flesch-Kincaid) and Reading Ease 86 to 103.
+
+**Left as it was.** On the Build a Table page, the AI statement ("Each voice you seat is a representative voice, not a person who lived ...") and the no-script note ("Choosing seats here needs JavaScript ...") still say seat. The AI statement is wording Mark ruled should stay as it is, so it was not touched; a change to it is his call.

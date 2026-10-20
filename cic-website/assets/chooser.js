@@ -142,7 +142,7 @@ function init(mount, census) {
   ]);
 
   // ---------- tray ----------
-  var seatsEl = el("ul", { class: "seats", "aria-label": "Seated at your table" });
+  var seatsEl = el("ul", { class: "seats", "aria-label": "On your table" });
   var statusEl = el("span", { class: "status", "aria-live": "polite" });
   var goBtn = el("button", { type: "button", class: "cbtn primary go", text: "Go to the table" });
   var facilitator = el("a", { class: "cbtn quiet facilitator", text: "Have the Facilitator set the table →" });
@@ -462,7 +462,7 @@ function init(mount, census) {
   function toggleSeat(id) {
     var i = seated.indexOf(id);
     if (i >= 0) seated.splice(i, 1);
-    else if (seated.length >= MAX_SEATS) { statusEl.textContent = "Three is the most a table can seat. Leave a seat to take another."; return; }
+    else if (seated.length >= MAX_SEATS) { statusEl.textContent = "A table holds three at most. Remove one to add another."; return; }
     else seated.push(id);
     decorateCards();
     renderTray();
@@ -485,9 +485,9 @@ function init(mount, census) {
       rm.addEventListener("click", function () { toggleSeat(id); });
       seatsEl.appendChild(el("li", { class: "chip" }, [document.createTextNode(w.rep), rm]));
     });
-    statusEl.textContent = n === 0 ? "No one seated yet. Seat two or three voices, then go."
-      : n === 1 ? "1 of " + MAX_SEATS + " seated. Seat one more to open the table."
-      : n + " of " + MAX_SEATS + " seated. Ready when you are.";
+    statusEl.textContent = n === 0 ? "No one is on the table yet. Add two or three voices, then go."
+      : n === 1 ? "1 of " + MAX_SEATS + " on the table. Add one more to open the table."
+      : n + " of " + MAX_SEATS + " on the table. Ready when you are.";
     goBtn.disabled = n < 2;
     goBtn.setAttribute("aria-disabled", n < 2 ? "true" : "false");
     facilitator.hidden = !(mode === "table" && n === 0);
