@@ -288,3 +288,11 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Carried to the build thread** as one change order with the title change above. This closes the "merge the two threads" ask: the design thread's findings and the build thread's deck both land in PR 987.
 
 **Why.** The first screen should be the invitation and nothing else. Theme D asked for a clean page with a rotating few in front; the Google page shows what that looks like at full strength.
+
+## 2026-10-20 — The design thread takes over PR 987; masthead is text links in one row (Mark)
+
+**Mark's words.** In the build thread: "I had two threads going and I am moving to landing page and card selection to finish this." In the design thread, on the two threads' records of the masthead disagreeing: "Text links, one row."
+
+**What it settles.** The design thread (session_01DieKxWNS33gUktGHTTiGeS) finishes PR 987 on this branch: main merged in, the two change orders above built as one push. The entry "The header buttons stay" above is superseded: the three feature links are plain text links on one row with the wordmark, "Tell us what you think" and Menu, on every page that carries the masthead (the landing page, Build a Table, the eleven tradition pages, and the pages on the shared stylesheet). The Church Family Tree's own bar and the conversation page's bar are not changed. Mark chose this over keeping the red buttons on one row and over dropping them on the landing page only.
+
+**What was built, measured locally at `e3bfe484` plus this change.** Landing page at 1280 by 900: masthead 68 px; heading at 144 px; search 204 to 252 px; cards 254 to 826 px; the control row at 820 px. At 1434 by 717 the cards end at 718 px with the controls just under the fold. The chooser has no panel; the heading is centred in the text colour at weight 400; the search sits under it with its hint read only by screen readers; the sub-line "Talk with one voice, or build a table of two or three." sits under the hand's controls; the hand's card width rises to 400 px at most; era chips and the count sit in one centred row.
