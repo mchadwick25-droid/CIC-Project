@@ -371,3 +371,7 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Left as it was.** The faded sliver of the next card at each edge, which PR 995 added by Mark's earlier choice. Mark's new words say "others hidden"; if he wants the slivers gone, that is one rule.
 
 **Mark's answer on the slivers.** Asked "Do you want the faded sliver of the next card at each edge of the hand, or only the five cards?", he chose "Keep the slivers". They stay.
+
+## 2026-10-20 — Fix: the hand of eleven scrolled the page sideways
+
+The merged hand (commit bca8e31b9) left the hidden cards transformed far to the right, so the page scrolled sideways by 809 px at 1434, 857 px at 1280 and 1054 px at 1024 (the table page by 156 to 351 px). `clip-path` on the hand does not remove them from the scrollable area. The hand now uses `overflow-x:clip;overflow-y:visible`, the fix the design thread found in its rebase; the raised card's lift and shadow stay whole. Measured after: 0 px at 1434, 1280, 1024 and 390 on both pages. I found this only after the design thread reported it; my earlier size tests ran before the all-eleven hand was merged.
