@@ -486,3 +486,11 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** Under the hand, the order is now the count and "See all 11", the era chips (with the count and the reasons a search matched, when one is showing), then the "How this works" control.
 
 **Correction to the entry above, same day (Mark: "actually the era selection should be directly under the cards as it interacts with them, then the see all 11 and other things, then the how it works").** Under the hand the order is now: the era chips (with the count and the reasons a search matched, when one is showing), then the count "3 of 11" and "See all 11" (and the full deck when it is open), then "How this works". The era row has a little more space above it so it does not touch the cards.
+
+## 2026-10-20 — "Representative" in place of "voice" in the page's own words (Mark)
+
+**Mark's words.** "lets use representitive and not voice."
+
+**What changed.** In the chooser's own words: the "How this works" lines ("Talk starts a conversation with that one representative." / "Table adds the representative to a table of two or three. ..."), the tray line ("No one is on the table yet. Add two or three representatives, then go."), the hand's spoken label ("11 representatives in order of time ...") and, on the Build a Table page, the load-failure note ("The representatives could not load just now. ...") and the no-script note ("Choosing representatives here needs JavaScript.").
+
+**Left as it was, Mark's call.** (1) The approved card taglines in the registry, each of which says "is a representative voice for the Christian tradition of ..."; they are approved text. (2) The Build a Table statement, "an AI-generated voice, not a person who lived", which is Mark's own wording from earlier today. (3) The lede on that page, "each speaks from its own record, in its own voice", where "voice" means manner of speaking.
