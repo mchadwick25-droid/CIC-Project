@@ -1,4 +1,4 @@
-# Approved card words — the conversation chooser — 2026-10-20
+# Approved card words — the conversation chooser — 2026-10-20 (taglines: change order, two sentences)
 #
 # The eleven taglines, "shaped by" names, back summaries and "What the record
 # holds" lines at the state Mark approved. Source of the words: the prototype
@@ -24,12 +24,19 @@
 #   he saw on the card.
 #
 # Keyed by registry code. Nothing here is in records/ yet.
+#
+# Change order (Mark, 2026-10-20, in the build thread): each tagline is two short
+# sentences, and the card front carries a separate "Shaped by … among others." line.
+# The taglines below are copied from records/worlds/<code>.yaml card.intro on branch
+# claude/zen-cori-x2c5yp (PR 987) at commit e3bfe484. Summaries, shaped lists and
+# record_holds there are identical to the ones here.
+
 
 pahc:
   census_id: post-apostolic-house-church
   representative: Chloe
   title: Household Leader
-  tagline: Chloe is a representative voice for the Christian tradition of the household churches after the apostles (70–200 CE), shaped by Ignatius, Justin and Polycarp among others, where there was no fixed hierarchy and no finished New Testament.
+  tagline: Chloe is a representative voice for the Christian tradition of the household churches after the apostles (70–200 CE). These churches had no fixed hierarchy and no finished New Testament.
   shaped:
   - Ignatius
   - Justin
@@ -40,7 +47,7 @@ alx:
   census_id: alexandria-catechetical
   representative: Theon
   title: Catechetical Teacher
-  tagline: Theon is a representative voice for the Christian tradition of Alexandria (c. 150–400 CE), shaped by Clement, Origen and Athanasius among others, where teachers drew on Greek and Jewish learning to read Scripture in layers and find Christ, the Logos, beneath the surface.
+  tagline: Theon is a representative voice for the Christian tradition of Alexandria (c. 150–400 CE). Teachers drew on Greek and Jewish learning to read Scripture in layers and find Christ, the Logos, beneath the surface.
   shaped:
   - Clement
   - Origen
@@ -51,7 +58,7 @@ syr:
   census_id: syriac-edessa-nisibis
   representative: Mar Yausep
   title: Teacher of the Covenant Order
-  tagline: Mar Yausep is a representative voice for the Christian tradition of Edessa and Nisibis (200–410 CE), where doctrine was sung in hymns, shaped by Ephrem, Aphrahat and Jacob of Nisibis among others.
+  tagline: Mar Yausep is a representative voice for the Christian tradition of Edessa and Nisibis (200–410 CE). Doctrine was sung in hymns.
   shaped:
   - Ephrem
   - Aphrahat
@@ -62,7 +69,7 @@ desert:
   census_id: desert-monasticism
   representative: Papnoute
   title: Abba (Elder)
-  tagline: Papnoute is a representative voice for the Christian tradition of the Egyptian desert (c. 320–430 CE), where Christians left their villages to wrestle with tempting thoughts, alone or in community, shaped by Antony, Pachomius and Evagrius among others.
+  tagline: Papnoute is a representative voice for the Christian tradition of the Egyptian desert (c. 320–430 CE). Christians left their villages for the desert to wrestle with tempting thoughts, alone or in community.
   shaped:
   - Antony
   - Pachomius
@@ -73,7 +80,7 @@ don:
   census_id: donatism
   representative: Fidelis
   title: Bishop of the Unbroken Line
-  tagline: Fidelis is a representative voice for the Donatist church of Roman North Africa (c. 311–439 CE), shaped by Donatus, Petilian and Emeritus among others, where two rival churches contested the same towns, and one saw itself as the church of the martyrs.
+  tagline: Fidelis is a representative voice for the Donatist church of Roman North Africa (c. 311–439 CE). Two rival churches contested the same towns; one saw itself as the church of the martyrs.
   shaped:
   - Donatus
   - Petilian
@@ -84,7 +91,7 @@ cappadocian:
   census_id: cappadocian-nicene-pastoral-monastic-tradition
   representative: Chilo
   title: Elder of the Brotherhoods
-  tagline: Chilo is a representative voice for the Christian tradition of Cappadocia and Pontus (c. 325–394 CE), shaped by Basil, Gregory of Nyssa and Gregory of Nazianzus among others, where churches held the Nicene faith through hostile years and cared for the poor.
+  tagline: Chilo is a representative voice for the Christian tradition of Cappadocia and Pontus (c. 325–394 CE). Its churches held the Nicene faith through hostile years and cared for the poor.
   shaped:
   - Basil
   - Gregory of Nyssa
@@ -95,7 +102,7 @@ ijc:
   census_id: imperial-juridical-christianity
   representative: Marius
   title: Deacon of the Letters
-  tagline: Marius is a representative voice for the imperial church of Rome, Milan and Constantinople (c. 312–451 CE), shaped by Constantine, Ambrose and Leo among others, where bishops went from a hunted church to a seat beside the throne.
+  tagline: Marius is a representative voice for the imperial church of Rome, Milan and Constantinople (c. 312–451 CE). Bishops went from a hunted church to a seat beside the throne.
   shaped:
   - Constantine
   - Ambrose
@@ -106,7 +113,7 @@ hal:
   census_id: hieronymian-ascetic-literary
   representative: Albina
   title: Widow of the Household
-  tagline: Albina is a representative voice for the Christian tradition of the Bethlehem circle (c. 382–420 CE), shaped by Jerome, Paula and Marcella among others, where Roman women spent a senatorial fortune founding monasteries at Bethlehem and sustaining Jerome's translation of the Old Testament from the Hebrew.
+  tagline: Albina is a representative voice for the Christian tradition of the Bethlehem circle (c. 382–420 CE). Roman women spent a senatorial fortune founding monasteries at Bethlehem and sustaining Jerome's translation of the Old Testament from the Hebrew.
   shaped:
   - Jerome
   - Paula
@@ -117,7 +124,7 @@ gallic:
   census_id: gallic-monastic-ascetic-christianity
   representative: Renatus
   title: Bishop
-  tagline: Renatus is a representative voice for the Christian tradition of Roman Gaul (c. 360–450 CE), where monks who were made bishops went on living as monks, shaped by Martin, Cassian and Honoratus among others.
+  tagline: Renatus is a representative voice for the Christian tradition of Roman Gaul (c. 360–450 CE). Monks who were made bishops went on living as monks.
   shaped:
   - Martin
   - Cassian
@@ -128,7 +135,7 @@ witt:
   census_id: lutheran-wittenberg-and-its-congregations
   representative: Nikolaus
   title: Sexton-Schoolmaster
-  tagline: Nikolaus is a representative voice for the Christian tradition of Wittenberg (1517–1580), shaped by Luther, Melanchthon and Johann Walter among others, where Luther wrote a Small Catechism for each household to teach at home.
+  tagline: Nikolaus is a representative voice for the Christian tradition of Wittenberg (1517–1580). Luther wrote a Small Catechism for each household to teach at home.
   shaped:
   - Luther
   - Melanchthon
@@ -139,7 +146,7 @@ rzg:
   census_id: the-reformed-cities-zurich-and-geneva
   representative: Theophilus
   title: Pastor
-  tagline: Theophilus is a representative voice for the Christian tradition of Zurich and Geneva (1519–1650), where Scripture alone was held to test every church practice, shaped by Zwingli, Calvin and Bullinger among others.
+  tagline: Theophilus is a representative voice for the Christian tradition of Zurich and Geneva (1519–1650). Scripture alone was held to test every church practice.
   shaped:
   - Zwingli
   - Calvin
