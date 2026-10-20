@@ -478,3 +478,9 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** Two lines are gone from the landing page: "The whole map is one step away: browse every tradition on the Church Family Tree." (the Church Family Tree box sits right below it, and the header has the link) and "Talk with one voice, or build a table of two or three." The one-line hint under the hand is replaced by a "How this works" control, closed by default, that opens and closes on a click or on Enter and Space: "Click a card to bring it forward. Click it again to turn it over." / "Talk starts a conversation with that one voice." / "Table adds the voice to a table of two or three. When you have two or three, choose Go to the table." / "Scroll, swipe or use the arrows to see more cards. Search or pick an era to narrow them." The block reads at about grade 2 (Flesch-Kincaid) and Reading Ease 97. The same control shows on the Build a Table page.
 
 **Checked.** In a headless browser the control starts closed, opens on a click and closes on Enter; neither removed line is on the page; no sideways scroll at 1434 or 390 px; no script errors.
+
+## 2026-10-20 — The era chips come before "How this works" (Mark)
+
+**Mark's words.** "lets swap the how it works and the era selection".
+
+**What changed.** Under the hand, the order is now the count and "See all 11", the era chips (with the count and the reasons a search matched, when one is showing), then the "How this works" control.

@@ -157,8 +157,8 @@ function init(mount, census) {
   mount.appendChild(stage);
   mount.appendChild(nav);
   mount.appendChild(deckRow);
-  mount.appendChild(hint);
   mount.appendChild(deckBox);
+  mount.appendChild(hint);
   mount.appendChild(tray);
 
   // ---------- links ----------
