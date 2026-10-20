@@ -139,7 +139,7 @@ function init(mount, census) {
   var shuffleBtn = el("button", { type: "button", class: "cbtn quiet", text: "Shuffle" });
   var allBtn = el("button", { type: "button", class: "cbtn quiet", "aria-expanded": "false" });
   var nav = el("div", { class: "chooser-nav" }, [prevBtn, posEl, nextBtn, shuffleBtn, allBtn]);
-  var hint = el("p", { class: "chooser-hint", text: "Hover or tab to raise a card. Press Enter on a raised card to turn it over. The arrow keys roll the hand." });
+  var hint = el("p", { class: "chooser-hint", text: "Hover or tab to raise a card. Press Enter on a raised card to turn it over. Scroll, swipe or use the arrow keys to roll the hand." });
   var deckRow = el("div", { class: "chooser-deckrow", hidden: true });
   var tree = el("p", { class: "chooser-tree" }, [
     document.createTextNode("The whole map is one step away: "),
@@ -289,6 +289,21 @@ function init(mount, census) {
     if (ev.key === "ArrowRight") { setActive(active + 1, true); ev.preventDefault(); }
     if (ev.key === "ArrowLeft") { setActive(active - 1, true); ev.preventDefault(); }
   });
+  var wheelAt = 0, wheelAcc = 0;
+  hand.addEventListener("wheel", function (ev) {
+    if (listMode()) return;
+    var d = Math.abs(ev.deltaX) > Math.abs(ev.deltaY) ? ev.deltaX : ev.deltaY;
+    if (!d) return;
+    ev.preventDefault();
+    var now = Date.now();
+    if (now - wheelAt > 400) wheelAcc = 0;
+    wheelAt = now;
+    wheelAcc += d;
+    if (Math.abs(wheelAcc) < 60) return;
+    setActive(active + (wheelAcc > 0 ? 1 : -1), false);
+    wheelAcc = 0;
+    wheelAt = now + 250;
+  }, { passive: false });
   var px = null;
   hand.addEventListener("pointerdown", function (ev) { px = ev.clientX; });
   hand.addEventListener("pointerup", function (ev) {

@@ -308,3 +308,9 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** On the "See all" deck: "You can see on the cards there is a blank space at the top of the picture, can we raise the whole picture and then make space for at least the shaping names."
 
 **What changed.** The small cards in the deck lose their era strip, which had no readable tint there and read as a blank band. The portrait now fills the card from the top. The name plate at the foot carries the Representative's name, the tradition, and a "Shaped by …" line with the same three names as the front of the full card. The era still shows on the full card and in the era chips.
+
+## 2026-10-20 — The hand rolls on scroll and swipe (Mark)
+
+**Mark's words.** In the pilot-feedback thread: "the cards scroll and click to pull forward". Told that the built hand moved only by the buttons and arrow keys, he chose "Yes, scroll and swipe both". Then here: "add the scroll now before merging".
+
+**What changed.** A mouse wheel or trackpad scroll over the hand rolls it one card per notch, in either axis, with small ticks ignored and a short pause between moves. It acts only while the pointer is over the hand, so scrolling the page elsewhere is untouched. A finger swipe of more than 40 px was already built. The hint under the deck now says "Scroll, swipe or use the arrow keys to roll the hand."
