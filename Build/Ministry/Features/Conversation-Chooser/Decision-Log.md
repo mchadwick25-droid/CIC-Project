@@ -344,3 +344,11 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Checked** (five cards in the hand, front and turned, headless browser, at 1434x717, 1440x900, 1024x768, 390x844 and 320x568): at default text size, at 200% text size and under the WCAG text-spacing stress test, no name over the header, no text past the card's bottom edge, buttons inside the card. Under the stress test the back's text area is 63 px high on phone widths, which scrolls.
 
 **Found, not fixed.** At 200% text size the page scrolls sideways at 1024 px (276 px), 390 px (80 px) and 320 px (150 px). The cause is the site header, not the chooser: the Menu and feedback buttons at 1024 px, the wordmark at 390 px. The header is shared by every page and is a separate change.
+
+## 2026-10-20 — The header fits at large text sizes on the landing and table pages (Mark: "fix all")
+
+**What changed** in `index.html` and `table.html`: the wide-screen header grid now switches on at `62.5rem` instead of `1000px`, so a reader with a larger browser text size gets the wrapping row; the wordmark may wrap and the brand block may shrink; under 640 px the three feature buttons and the feedback button may wrap their text.
+
+**Checked** (headless browser, both pages, 1434, 1024, 768, 390 and 320 px wide, 100% and 200% text): no sideways scroll except 1024 px at 200%. That one is a limit of the test: forcing 200% text through `html{font-size}` does not move a `rem` media query, so the grid stayed on. With the row forced to the wrapping layout that a real 200% text setting produces, the overflow is 0. A real browser text-size setting has not been tried.
+
+**Not changed.** The same inline header block is in about 300 other pages (the tradition pages, the tree, and so on) and has the same fixed `1000px` breakpoint and non-wrapping wordmark. Changing them is a sweep of the whole site and is not done.
