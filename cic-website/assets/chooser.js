@@ -527,11 +527,12 @@ function boot() {
   if (!mounts.length) return;
   var src = mounts[0].getAttribute("data-census") || "data/world-census.json";
   fetch(src).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function (census) { [].forEach.call(mounts, function (m) { init(m, census); }); })
+    .then(function (census) { [].forEach.call(mounts, function (m) { init(m, census); m.setAttribute("data-ready", ""); }); })
     .catch(function () {
       [].forEach.call(mounts, function (m) {
         var fb = m.querySelector("[data-chooser-fallback]");
         if (fb) fb.hidden = false;
+        m.setAttribute("data-ready", "");
       });
     });
 }
