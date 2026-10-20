@@ -75,3 +75,6 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 - Change order (Mark, 2026-10-20): story teasers dropped from the landing page in favour of the chooser's spacing and card descriptions; "Tell us what you think" stays in the masthead. See Pilot_Feedback_Decisions.md.
 - Clarification (Mark, 2026-10-20): the cards scroll and click to pull forward. Recorded under Theme E in Pilot_Feedback_Decisions.md.
 - Status (2026-10-20): PR 987 merged into main (51cbfb4c). Landing page, names line, seating and scroll built. Open: free-tokens line, card text size, tree seat button, device checks. See Pilot_Feedback_Decisions.md.
+- Item 27: Mark asks for a vertical scroll for people without a mouse wheel, on the landing page hand of cards.
+- Item 28: Mark requires the landing page and cards to work on phones, iPads, laptops and desktop computers, with no exceptions.
+- Decision (2026-10-20): Items 27 and 28 converged by Mark. Item 27 is a visible control that switches the hand to a plain top-to-bottom list on any device. Owner: the new landing page thread, with the step 4 device checks. Nothing built.
