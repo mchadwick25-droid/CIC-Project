@@ -107,7 +107,7 @@ function init(mount, census) {
   var searchBox = el("div", { class: "chooser-search" }, [
     el("label", { class: "vh", for: q.id, text: "Search for a tradition, a topic or a person" }),
     q,
-    el("p", { class: "chooser-help", id: helpId, text: "Look for a tradition, a topic or a person. Try Lutheran, baptism or Augustine." })
+    el("p", { class: "chooser-help", id: helpId, text: "Try a tradition, a topic or a person: Lutheran, baptism, Augustine." })
   ]);
   var slotSel = mount.getAttribute("data-search-slot");
   var slot = slotSel ? document.querySelector(slotSel) : null;
