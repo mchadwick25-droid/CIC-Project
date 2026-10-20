@@ -165,3 +165,11 @@ Open and not decided here
 - How the tray looks on the tree and on a phone.
 - How long a held seat is remembered in the browser.
 - How a visitor on the tree tells which traditions can be seated. Mark chose the card behaviour above and did not pick a map mark or a note on other panels.
+
+## Thread ownership — 2026-10-20
+Decision (Mark): the working set is four threads: Paused workstreams triage, Conversation chooser, Landing page and card selection, and Pilot feedback. The landing page thread finished (its four PRs merged) and the chooser thread built on its work.
+- Chooser thread: cards, hand, tray, landing order, raised-card seating, the names line. This thread sends inputs and makes no product edits.
+- Paused workstreams triage thread: settles 7 commits (1012af273, 111a5f906, 226da0aeb, 28d6642a5, 8ebb3fd78, c09c77288, c5fee0752) carried by 34 remote branches, including three dormant Library branches. By hash and a message search for "sentence-enforcement", they are in neither origin/main nor origin/live. Contents not read. One of them, c5fee0752, removes the sentence-enforcement retry in engine reply handling.
+- Theme B engine work is on hold until the triage thread reports, because that retry change may interact with the planned check-and-redo.
+- Theme F audio and the Theme D story pool have no owner thread yet.
+- Pull requests from this thread go to main, not live (CLAUDE.md 4.1). PR 976 targeted live before that rule was in place; it is merged.
