@@ -95,15 +95,15 @@ function init(mount, census) {
 
   // ---------- deck controls ----------
   var helpId = "chooser-help-" + mode;
-  var q = el("input", { type: "search", id: "chooser-q-" + mode, placeholder: "Search topics, names, places, dates", autocomplete: "off", "aria-describedby": helpId });
+  var q = el("input", { type: "search", id: "chooser-q-" + mode, placeholder: "Search traditions, topics, people", autocomplete: "off", "aria-describedby": helpId });
   var erasBox = el("div", { class: "chooser-eras", role: "group", "aria-label": "Narrow by era" });
   var countEl = el("p", { class: "chooser-count", "aria-live": "polite" });
   var whyEl = el("ul", { class: "chooser-why" });
   var deckBox = el("div", { class: "chooser-deck" }, [erasBox, countEl, whyEl]);
   var searchBox = el("div", { class: "chooser-search" }, [
-    el("label", { class: "vh", for: q.id, text: "Search the traditions by topic, name, place or date" }),
+    el("label", { class: "vh", for: q.id, text: "Search for a tradition, a topic or a person" }),
     q,
-    el("p", { class: "chooser-help", id: helpId, text: "Try a topic (baptism, monks), a name (Augustine), a place (Geneva) or a date (400, fourth century)." })
+    el("p", { class: "chooser-help", id: helpId, text: "Look for a tradition, a topic or a person. Try Lutheran, baptism or Augustine." })
   ]);
   var slotSel = mount.getAttribute("data-search-slot");
   var slot = slotSel ? document.querySelector(slotSel) : null;

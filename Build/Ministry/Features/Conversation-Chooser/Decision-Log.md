@@ -153,3 +153,9 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** "we need the serch bubble in the upper right, with a brief explanation of things to search for".
 
 **What it settles.** The search box is a rounded bubble with a magnifier icon in the upper right of the card, on the same row as the heading. Under it: "Try a topic (baptism, monks), a name (Augustine), a place (Geneva) or a date (400, fourth century)." The placeholder reads "Search topics, names, places, dates". The era chips and the written count stay below the cards. On a phone the bubble sits under the heading at full width. On Build a Table, which has no heading row, the bubble sits right-aligned above the cards. The chooser takes an optional `data-search-slot` so a page can place the bubble in its own heading row.
+
+## 2026-10-20 — Search hint names traditions, topics and people (Mark)
+
+**Mark's words.** "no above the cards, it is searching for traditions that the user is looking for or topics or people".
+
+**What it settles.** The search bubble sits above the cards. Its placeholder reads "Search traditions, topics, people". The hint under it reads "Look for a tradition, a topic or a person. Try Lutheran, baptism or Augustine." The first version of the hint listed places and dates; those still work in search but are no longer in the hint. Mark's wording was read as naming what the box is for; if he meant a different position, the Decision Log should record it.
