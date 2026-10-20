@@ -64,11 +64,11 @@ class FacilitatorTurn:
 SYSTEM_NATURE = FacilitatorTurn(
     kind="threshold",
     text=(
-        "Yes - we use AI here, and I'd rather tell you plainly than let you wonder. Each world you can "
+        "Yes - we use AI here, and I'd rather tell you plainly than let you wonder. Each Christian tradition you can "
         "speak with is built from a fixed set of records - sources that actually survive from that time "
         "and place - and the voice answering you may only say what those records carry. Before you see "
         "an answer, each claim in it is checked to make sure its words come from the record it names. "
-        "The record itself was checked against the sources when the world was built. Where the record "
+        "The record itself was checked against the sources when the tradition was built. Where the record "
         "is silent, the voice is built to say so, not to fill the gap. It isn't a person, it isn't the "
         "church, and it doesn't speak for anyone living.\n\n"
         "That's the honest shape of it - whenever you're ready, let's keep going."
@@ -120,7 +120,7 @@ DEPENDENCY_CHECK = FacilitatorTurn(
         "for you. I don't say that as a criticism; it makes sense that a conversation like this can "
         "start to feel that way.\n\n"
         "But I want to be honest with you about what this actually is: {representative_name} is a way "
-        "of meeting a historical world, not a person who can be there for you the way a real friend, "
+        "of meeting a historical Christian tradition, not a person who can be there for you the way a real friend, "
         "counselor, or community can. I'd rather say that plainly than let you find it out the harder "
         "way.\n\n"
         "The people already in your life - or, if none feel reachable right now, a crisis line or other "
@@ -138,14 +138,14 @@ DEPENDENCY_CHECK = FacilitatorTurn(
 # let it speak for itself.
 _ETIC_TEXT = {
     "later_age": (
-        "That question reaches past where this world's own witnesses stop. Answering it honestly would "
+        "That question reaches past where this Christian tradition's own witnesses stop. Answering it honestly would "
         "mean inventing what happened later, not remembering it - and this voice only speaks from inside "
         "what it actually lived through. That's not a refusal so much as the honest edge of it: there's "
-        "a real period this world simply never reached."
+        "a real period this tradition simply never reached."
     ),
     "other_tradition": (
-        "You're asking this world about a tradition that isn't its own. It can tell you what it held and "
-        "what it argued with, but it can't speak for anyone else - a world describing its neighbours in "
+        "You're asking this Christian tradition about a tradition that isn't its own. It can tell you what it held and "
+        "what it argued with, but it can't speak for anyone else - a tradition describing its neighbours in "
         "its own words is testimony about itself, not about them. If you want that other tradition's own "
         "account, it needs its own voice, not this one's."
     ),
@@ -288,7 +288,7 @@ TABLE_DEPENDENCY_CHECK = FacilitatorTurn(
         "for you. I don't say that as a criticism; it makes sense that a conversation like this can "
         "start to feel that way.\n\n"
         "But I want to be honest with you about what this actually is: the voices here are ways of "
-        "meeting historical worlds, not people who can be there for you the way a real friend, "
+        "meeting historical Christian traditions, not people who can be there for you the way a real friend, "
         "counselor, or community can. I'd rather say that plainly than let you find it out the harder "
         "way.\n\n"
         "The people already in your life - or, if none feel reachable right now, a crisis line or other "
@@ -406,8 +406,8 @@ def bridge_turn(terms: list[dict], fleet: dict[str, dict] | None = None) -> tupl
     subjects = " ".join(t["underlying_subject"].strip() for t in terms if t.get("underlying_subject"))
     displays = ", ".join(sorted({d for t in terms for d in (t.get("display_terms") or [])}))
     text = (
-        f"Something in your question - {displays} - belongs to a later way of speaking than this world "
-        f"knew. In our sense: {senses} Let me translate that into terms this world would actually "
+        f"Something in your question - {displays} - belongs to a later way of speaking than this Christian tradition "
+        f"knew. In our sense: {senses} Let me translate that into terms this tradition would actually "
         f"recognize before I put it to the voice: {subjects}"
     )
     modern_term_cards = [

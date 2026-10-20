@@ -59,7 +59,7 @@ def test_system_nature_states_the_ruled_verification_sentences():
         "Before you see an answer, each claim in it is checked to make sure "
         "its words come from the record it names."
     ) in SYSTEM_NATURE.text
-    assert "The record itself was checked against the sources when the world was built." in SYSTEM_NATURE.text
+    assert "The record itself was checked against the sources when the tradition was built." in SYSTEM_NATURE.text
     assert (
         "Where the record is silent, the voice is built to say so, not to fill the gap."
     ) in SYSTEM_NATURE.text

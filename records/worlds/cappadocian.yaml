@@ -8,7 +8,7 @@ doorway_description: >-
   In the fourth century, the churches of Cappadocia and Pontus fought to
   defend the faith declared at Nicaea - one God, three who truly are.
   Basil of Caesarea, his friend Gregory of Nazianzus, and his brother
-  Gregory of Nyssa became this world's most remembered voices, but the
+  Gregory of Nyssa became this Christian tradition's most remembered voices, but the
   faith they defended was lived by a whole people: households and
   congregations, and communities newly ordered into a common life built
   around a door kept open for the poor. The same exactness that shaped
@@ -27,8 +27,8 @@ thinness_statement: "Richest in the letters, orations, and treatises of Basil, G
 living_tradition_flag: true
 state: admitted
 package:
-  manifest_hash: "sha256:b569ae48247c990a1b197f928bcdcaaeb340bebe346cca708d3b1f50bfd33391"
-  location: "packages/cappadocian/2026-10-20T13-24-53Z"
+  manifest_hash: "sha256:3784fc7b639e52addc398b9c136e77f9640c3ea8f8cd1f0ee80c0c7c596062b2"
+  location: "packages/cappadocian/2026-10-20T15-54-01Z"
 story_placement: false
 card:
   portrait: "assets/portraits/cappadocian.jpg"

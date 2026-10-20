@@ -52,7 +52,7 @@ export function useWorlds() {
       })
       .catch(() => {
         if (cancelled) return;
-        setState({ worlds: [], isLoading: false, error: 'Could not load the worlds.' });
+        setState({ worlds: [], isLoading: false, error: 'Could not load the traditions.' });
       });
     return () => {
       cancelled = true;
