@@ -68,3 +68,4 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 - Coordination (Mark, 2026-10-19): the chooser thread owns the cards and landing order; this thread supplies inputs and stops editing index.html. See Pilot_Feedback_Decisions.md.
 - Decision (2026-10-19): Theme B (items 8, 16, 20) converged by Mark. Record: Pilot_Feedback_Decisions.md. Nothing built or tested.
 - Decision (2026-10-19): Theme C (items 6, 7, 14, 15, 16, 23) converged by Mark. Record: Pilot_Feedback_Decisions.md. Nothing built.
+- Decision (2026-10-20): Theme E (item 17) converged by Mark. Change order: reverses the earlier ruling that kept tables off the tree. Record: Pilot_Feedback_Decisions.md. Nothing built.

@@ -136,3 +136,32 @@ Open and not decided here
 - Whether Irenaeus should get a figure record in the House Church world (a records task with review).
 - Which worlds to build next, whether around well-known names, and whether Jewish or rabbinic voices belong in the Library. Not decided; belongs to the world-building plan.
 - Where the names line sits on the chooser's card, which belongs to the chooser thread.
+
+## Theme E: the Church Family Tree to the table — 2026-10-20
+
+Status: converged (Mark: "Converged, auto mode"). Nothing built.
+
+Covers feedback item 17 (users want to reach the multi-voice Table from the Church Family Tree and pick all three traditions first).
+
+Change order
+- This reverses an earlier ruling, recorded in a comment in `cic-website/atlas-v3.html`, that launching a multi-voice Table from the tree is confusing without more context-setting. Reason: the chooser's seating tray now supplies that context. The comment is not edited here.
+
+Decisions
+- One seating behaviour everywhere. A card chosen for the table raises, like a card pulled from a hand, and stays raised and counted in the tray. The visitor can click up to two more cards, which raise too. When the table launches, it seats the two or three raised cards. "Go to the table" turns on at two.
+- Searching again: the visitor can choose a card from the hand, then search, narrow by era or shuffle for another world for the table, and again. Seated cards stay held and are never dropped by a new deal.
+- The tree feeds the chooser's hand. A "Seat at the table" button in each built tradition's panel raises that tradition's card into the same hand, held in the browser. Seats chosen on the tree and in the chooser are one table. The table launches from the chooser or from the tray on the tree.
+- The first click never jumps to table selection. Only built worlds can be seated.
+- The map itself is not changed: no new mode and no marks on the dots.
+
+What must hold
+- The tree stays calm. No overlays and no mode a visitor has to leave.
+- The room's welcome, disclosure and safety handling are unchanged.
+- The chooser thread owns the cards and the tray. Any change to the tree goes through it.
+
+Evidence used
+- A code comment in atlas-v3.html recording the earlier ruling, the chooser thread's build plan (which leaves the tree unchanged and records the tree as one launch source), and Mark's description. The tree was not run and no phone screen was checked. No research round was run for this theme.
+
+Open and not decided here
+- How the tray looks on the tree and on a phone.
+- How long a held seat is remembered in the browser.
+- How a visitor on the tree tells which traditions can be seated. Mark chose the card behaviour above and did not pick a map mark or a note on other panels.
