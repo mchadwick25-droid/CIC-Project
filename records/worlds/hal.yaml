@@ -26,6 +26,13 @@ living_tradition_flag: false
 story_placement: false
 card:
   portrait: "assets/portraits/bethlehem.png"
+  intro: Albina is a representative voice for the Christian tradition of the Bethlehem circle (c. 382–420 CE), shaped by Jerome, Paula and Marcella among others, where Roman women spent a senatorial fortune founding monasteries at Bethlehem and sustaining Jerome's translation of the Old Testament from the Hebrew.
+  shaped:
+  - Jerome
+  - Paula
+  - Marcella
+  summary: In the early 380s Jerome came to Rome and joined a circle of women already meeting around the widow Marcella to study Scripture. Paula and her daughters belonged to it. These were women of senatorial rank. When Jerome left Rome in 385, Paula and Eustochium sailed east and founded monasteries at Bethlehem, a house for men, houses for women, and a hostel for pilgrims, with Jerome installed beside them to work. Paula sold her property and spent her fortune on the foundations and on charity. She led the women's community until her death; Eustochium led it after her. Out of it came Jerome's Latin Old Testament, made from the Hebrew, part of what was later called the Vulgate.
+  record_holds: Rich in Jerome's letters. Thin on daily life beyond one letter.
   topics:
   - word: The Bible and how to read it
     note: They held the Hebrew text truest and spent a lifetime correcting and translating scripture.

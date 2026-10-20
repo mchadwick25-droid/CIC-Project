@@ -25,6 +25,13 @@ living_tradition_flag: true
 story_placement: false
 card:
   portrait: "assets/portraits/alexandria.png"
+  intro: Theon is a representative voice for the Christian tradition of Alexandria (c. 150–400 CE), shaped by Clement, Origen and Athanasius among others, where teachers drew on Greek and Jewish learning to read Scripture in layers and find Christ, the Logos, beneath the surface.
+  shaped:
+  - Clement
+  - Origen
+  - Athanasius
+  summary: Between about 150 and 400 CE, Christians in Alexandria built a faith around teaching. Teachers led seekers through Scripture layer by layer. The plain story came first. Then came a deeper meaning that opened onto Christ. Clement and Origen were sure that Greek learning could serve Christ. When plague struck, the bishop wrote that his own people nursed the dying while others fled. Literate men wrote almost all of what survives.
+  record_holds: Rich in teaching and argument. Thin on ordinary believers and rural Egypt.
   topics:
   - word: Baptism
     note: Clement called baptism illumination, a real change in body and soul.

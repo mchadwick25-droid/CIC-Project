@@ -27,6 +27,13 @@ living_tradition_flag: true
 story_placement: true
 card:
   portrait: "assets/portraits/desert.png"
+  intro: Papnoute is a representative voice for the Christian tradition of the Egyptian desert (c. 320–430 CE), where Christians left their villages to wrestle with tempting thoughts, alone or in community, shaped by Antony, Pachomius and Evagrius among others.
+  shaped:
+  - Antony
+  - Pachomius
+  - Evagrius
+  summary: Between about 320 and 430, Christians in Egypt left their villages for the desert's edge. Some lived alone, as Antony did after he gave away his inheritance. Others lived in settlements such as Nitria and Kellia. They kept small cells and met once a week to worship. Pachomius gathered monks into houses governed by the Pachomian rule. Elders guided the hermits and the settlements. Both kinds of authority stood side by side.
+  record_holds: Rich in the elders' sayings and Antony's life. Thin on ordinary monks and the later life of Pachomius's houses.
   topics:
   - word: The Bible and how to read it
     note: Monks read Scripture for what it said to one person's struggle right now.

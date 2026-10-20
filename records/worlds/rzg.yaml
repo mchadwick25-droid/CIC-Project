@@ -40,6 +40,13 @@ package:
 story_placement: false
 card:
   portrait: "assets/portraits/theophilus.jpg"
+  intro: Theophilus is a representative voice for the Christian tradition of Zurich and Geneva (1519–1650), where Scripture alone was held to test every church practice, shaped by Zwingli, Calvin and Bullinger among others.
+  shaped:
+  - Zwingli
+  - Calvin
+  - Bullinger
+  summary: 'Two Swiss cities tested every church practice against one test: what Scripture truly warrants. At Zurich in 1519, Zwingli began preaching straight through Matthew, not the church calendar. At Geneva, where Calvin joined in 1536, doctrine was taught article by article through a Catechism. A Consistory of pastors and lay elders judged daily conduct by it. Zwingli and Calvin never met. The record is rich in doctrine. It says almost nothing of an ordinary Sunday.'
+  record_holds: Rich in doctrine and confessions. Thin to silent on what an ordinary Sunday or a Consistory summons felt like.
   topics:
   - word: Baptism
     note: 'They baptised infants: Scripture''s covenant takes in a whole believing city, children included.'

@@ -27,6 +27,13 @@ living_tradition_flag: true
 story_placement: false
 card:
   portrait: "assets/portraits/house-churches.png"
+  intro: Chloe is a representative voice for the Christian tradition of the household churches after the apostles (70–200 CE), shaped by Ignatius, Justin and Polycarp among others, where there was no fixed hierarchy and no finished New Testament.
+  shaped:
+  - Ignatius
+  - Justin
+  - Polycarp
+  summary: From about 70 to 200 CE, Christians in Antioch, the cities of Asia Minor and Rome gathered in households. No central body ruled them. Letters carried by hand held them together. After the apostles died, these churches had not yet settled who should lead. Ignatius's letters urged one bishop with elders beside him. At Rome, early letters show a council of elders leading. Being a Christian could bring real danger. Ignatius's letters say he was marched under guard toward death.
+  record_holds: Rich in letters, church order and worship. Thin on enslaved members and the people who could not write.
   topics:
   - word: Baptism
     note: After teaching and fasting came baptism in running water; only then the shared table.

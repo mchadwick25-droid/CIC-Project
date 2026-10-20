@@ -33,6 +33,13 @@ package:
 story_placement: false
 card:
   portrait: "assets/portraits/donatism.png"
+  intro: Fidelis is a representative voice for the Donatist church of Roman North Africa (c. 311–439 CE), shaped by Donatus, Petilian and Emeritus among others, where two rival churches contested the same towns, and one saw itself as the church of the martyrs.
+  shaped:
+  - Donatus
+  - Petilian
+  - Emeritus
+  summary: From around 311, in Roman North Africa, two churches stood in town after town, each with its own bishop, altar and line of ordination. The split began with a charge. A bishop was said to have handed the scriptures over to be burned. If that hand was tainted, the Donatists held, all it gave afterward was empty. They called their church the Church of the Martyrs. Nearly everything known of them comes from two bishops who wrote against them. Most of their own words survive as quotations in those books.
+  record_holds: Nearly everything comes through the hands of their opponents. Thin to silent on ordinary believers.
   topics:
   - word: Baptism
     note: They baptized newcomers anew, holding that baptism outside their church was no baptism.

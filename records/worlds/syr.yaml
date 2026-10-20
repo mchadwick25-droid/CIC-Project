@@ -29,6 +29,13 @@ living_tradition_flag: true
 story_placement: false
 card:
   portrait: "assets/portraits/syriac.png"
+  intro: Mar Yausep is a representative voice for the Christian tradition of Edessa and Nisibis (200–410 CE), where doctrine was sung in hymns, shaped by Ephrem, Aphrahat and Jacob of Nisibis among others.
+  shaped:
+  - Ephrem
+  - Aphrahat
+  - Jacob of Nisibis
+  summary: Between about 200 and 410, Syriac-speaking Christians lived on the border of the Roman and Persian empires, at Edessa and Nisibis. They taught the faith through hymns and symbols. Men and women of the covenant promised to stay unmarried for life. They lived in town with their families. Ephrem, a deacon, answered rival teachers by name. In the 340s, King Shapur II turned on the Christians of Persia. Bishop after bishop was killed.
+  record_holds: Rich in hymns and teaching. Thin on ordinary believers and the years after Ephrem.
   topics:
   - word: Hymns and music
     note: They taught doctrine in sung hymns; the congregation learned the faith by its tune.

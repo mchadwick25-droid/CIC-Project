@@ -35,6 +35,13 @@ package:
 story_placement: false
 card:
   portrait: "assets/portraits/nikolaus.jpg"
+  intro: Nikolaus is a representative voice for the Christian tradition of Wittenberg (1517–1580), shaped by Luther, Melanchthon and Johann Walter among others, where Luther wrote a Small Catechism for each household to teach at home.
+  shaped:
+  - Luther
+  - Melanchthon
+  - Johann Walter
+  summary: In 1517, Luther, an Augustinian friar who taught theology at Wittenberg, wrote to his archbishop against the sale of indulgences. It held that a person stands before God by a gift received through faith, apart from works. Princes and city councils took the reform into their lands in place of bishops. This world's chief tool was the household catechism. It had three parts, to be said at rising, at table, and at night. The record is rich on the founding decade. It is thin on how any household or parish lived this.
+  record_holds: Rich in Luther's catechisms and confessions. Thin on how any household or parish received them.
   topics:
   - word: Baptism
     note: Baptism is water joined to God's word, a daily drowning of the old self.

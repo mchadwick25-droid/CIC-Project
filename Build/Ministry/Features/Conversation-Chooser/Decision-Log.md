@@ -187,3 +187,17 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** "with the larger the other text talk with a ... is to long so move it back to two lines".
 
 **What it settles.** The line "Talk with one voice, or seat two or three at a table. Each is built from that tradition's own writings." wraps onto two lines at desktop width again, at the page's reading width. This reverses the one-line request from earlier the same day, because the larger search bubble above it made the long line look too wide.
+
+## 2026-10-20 — The approved taglines and back texts go into the registry (Mark)
+
+**Mark's words.** "i have approved the taglines and text for the back for all 11 we need to make sure its on main, the thread is updating the cards on prototype".
+
+**What it settles.** The eleven taglines, "shaped by" names, back summaries and "What the record holds" lines are in each live world's `card:` block (`intro`, `shaped`, `summary`, `record_holds`) and synced to the census. They were taken programmatically from `Card-Words/Approved-Card-Words.yaml` (branch `claude/chooser-prototype-wording`, commit 4a9c5e13, written by the chooser design thread from the prototype page Mark reviewed, version 14), and the census text was checked to be identical to that file, character for character. Nothing was retyped. Rulings carried: Cappadocia "through hostile years"; Donatism "where two rival churches contested the same towns"; Bethlehem as revised on 2026-10-19; Gaul as written, with its claim-check finding still open by Mark's ruling.
+
+**The record line.** The line shipped is the short one Mark saw on the prototype back, with the women's-own-words clauses removed under his 2026-10-19 rule. It replaces the longer lines in `Record-Holds-Review.md`, which are no longer used on cards and never had that rule applied. If Mark wants the longer, Opus-reviewed lines instead, they must first have that rule applied.
+
+**Not applied.** The records-based claim check sent eight summary findings to the Gateway Cards review thread. None is applied; Mark's approval covers the text as it stands.
+
+**Readability.** Scored with the project's scorer, 13 of the 33 approved pieces are over FK 10 or under FRE 60. Most are taglines: each is one sentence of about 40 words ("X is a representative voice for the Christian tradition of … shaped by … among others, where …"). The worst are the household churches (FK 19.4), Wittenberg (17.7), Zurich and Geneva (17.4) and Syriac (16.7). CLAUDE.md 1.2 asks for sentences averaging 12 to 20 words and none past about 25. The text is Mark's to change; it was not altered.
+
+**Card layout.** The long approved taglines would have been cut after four lines. The card front now shows each in full (smaller type, no line limit), and the card back lays its four buttons in two rows of two so the summary has room.

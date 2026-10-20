@@ -32,6 +32,13 @@ package:
 story_placement: false
 card:
   portrait: "assets/portraits/cappadocian.jpg"
+  intro: Chilo is a representative voice for the Christian tradition of Cappadocia and Pontus (c. 325–394 CE), shaped by Basil, Gregory of Nyssa and Gregory of Nazianzus among others, where churches held the Nicene faith through hostile years and cared for the poor.
+  shaped:
+  - Basil
+  - Gregory of Nyssa
+  - Gregory of Nazianzus
+  summary: Between about 325 and 394 CE, Christians in Cappadocia and Pontus fought two contests at once. One was public. Emperors kept switching which creed they favored, and bishops were threatened and exiled. The other asked how far the words of worship could go in naming the Holy Spirit. They held that the Son and the Spirit are fully what the Father is. The same exactness reordered how these churches treated the poor. Basil, then a priest, preached against landowners who hoarded grain.
+  record_holds: Rich in the three bishops' letters and sermons. Thin on the enslaved and the parties they defeated.
   topics:
   - word: Baptism
     note: They called baptism new birth and light; preachers fought the habit of delaying it.

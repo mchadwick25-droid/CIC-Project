@@ -26,6 +26,13 @@ living_tradition_flag: true
 story_placement: false
 card:
   portrait: "assets/portraits/empire.png"
+  intro: Marius is a representative voice for the imperial church of Rome, Milan and Constantinople (c. 312–451 CE), shaped by Constantine, Ambrose and Leo among others, where bishops went from a hunted church to a seat beside the throne.
+  shaped:
+  - Constantine
+  - Ambrose
+  - Leo
+  summary: Between 312 and 451 CE, the church in Rome, Constantinople, and Milan went from a hunted community to a partner of the emperor's power. Bishops now met in councils that an emperor called and paid for. The church gained legal standing, wealth, and a seat near the throne. It also had to decide what that nearness would cost. Rome traced its standing to Peter. Constantinople claimed rank because the emperor reigned there. Ambrose of Milan argued that the emperor stood inside the church, not above it.
+  record_holds: Rich in councils, canons and letters. Thin on daily life and the defeated side's own voice.
   topics:
   - word: Baptism
     note: Baptism was the decisive threshold; some famous men, Constantine among them, put it off.

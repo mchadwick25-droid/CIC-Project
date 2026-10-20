@@ -32,6 +32,13 @@ package:
 story_placement: false
 card:
   portrait: "assets/portraits/gallic.jpg"
+  intro: Renatus is a representative voice for the Christian tradition of Roman Gaul (c. 360–450 CE), where monks who were made bishops went on living as monks, shaped by Martin, Cassian and Honoratus among others.
+  shaped:
+  - Martin
+  - Cassian
+  - Honoratus
+  summary: Between about 360 and 450 CE, two households of monks in Roman Gaul lived out the same idea. In both, a monk who was made a bishop went on living as a monk. Martin, a soldier who had left the army to serve Christ, was drawn out of his monastery by a trick and made bishop of Tours. As bishop, he kept living like a monk. Cassian had lived among the monks of Egypt. He wrote down their teaching for Gaul. No evidence shows that the two households ever wrote to each other.
+  record_holds: Rich in a bishop's life story and Cassian's teaching. Thin on the island's daily customs.
   topics:
   - word: Prayer
     note: Monks aim to pray without ceasing; Marseilles kept Egypt's twelve psalms at set hours.
