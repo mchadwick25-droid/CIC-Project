@@ -39,12 +39,15 @@
   --wide:64rem; --col:44rem; --measure:38rem;
 }*{box-sizing:border-box}
 html{scroll-padding-top:1rem}
-html{overflow-y:scroll}
-html::-webkit-scrollbar{width:16px}
-html::-webkit-scrollbar-track{background:var(--surface);border-left:1px solid var(--rule)}
-html::-webkit-scrollbar-thumb{background:var(--control);border:3px solid var(--surface);border-radius:999px;min-height:3rem}
-html::-webkit-scrollbar-thumb:hover{background:var(--action)}
-@supports (-moz-appearance:none){html{scrollbar-width:auto;scrollbar-color:var(--control) var(--surface)}}
+html{scrollbar-width:none}
+html::-webkit-scrollbar{display:none}
+.page-rail{position:fixed;top:0;right:0;bottom:0;width:18px;z-index:600;background:var(--surface);border-left:1px solid var(--rule);touch-action:none;cursor:pointer}
+.page-rail[hidden]{display:none}
+body:has(.page-rail:not([hidden])){margin-right:18px}
+.page-rail-thumb{position:absolute;top:0;left:3px;right:3px;border-radius:999px;background:var(--control);cursor:grab}
+.page-rail:hover .page-rail-thumb,.page-rail.dragging .page-rail-thumb{background:var(--action)}
+.page-rail.dragging .page-rail-thumb{cursor:grabbing}
+.page-rail:focus-visible{outline:3px solid var(--action);outline-offset:-3px}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
 a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
 a:hover{color:var(--action-hover)}
@@ -435,6 +438,7 @@ if (menu && menuToggle) {
 <script src="assets/go-deeper-config.js"></script>
 <script src="assets/door-line.js"></script>
 <script src="assets/chooser.js" defer></script>
+<script src="assets/page-rail.js" defer></script>
 <script src="assets/feedback.js" defer></script>
 </body>
 </html>
