@@ -49,6 +49,7 @@ _ENTRY_FIELDS = (
     ("representativeTitle", ("representative", "role_label")),
     ("worldName", ("card_name",)),
     ("intro", ("card", "intro")),
+    ("summary", ("card", "summary")),
     ("shaped", ("card", "shaped")),
     ("recordHolds", ("card", "record_holds")),
     ("matches", ("card", "matches")),

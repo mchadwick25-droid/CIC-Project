@@ -55,7 +55,7 @@ function init(mount, census) {
         thumb: (en.portrait || en.icon || "").replace(/portraits\/([^/]+)\.[a-z]+$/, "portraits/thumb/$1.webp"),
         tag: en.intro || en.subtitle || "",
         shaped: Array.isArray(en.shaped) ? en.shaped.join(", ") : (en.shaped || ""),
-        summary: en.tile || "",
+        summary: en.summary || en.tile || "",
         record: en.recordHolds || "",
         matches: Array.isArray(en.matches) ? en.matches : [],
         voices: (m.voices || []).filter(function (v) { return typeof v === "string"; }),
