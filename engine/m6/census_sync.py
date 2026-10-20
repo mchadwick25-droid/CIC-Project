@@ -55,6 +55,7 @@ _ENTRY_FIELDS = (
     ("portrait", ("card", "portrait")),
     ("topics", ("card", "topics")),
     ("aliases", ("card", "aliases")),
+    ("keywords", ("card", "keywords")),
 )
 
 

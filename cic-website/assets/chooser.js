@@ -62,7 +62,8 @@ function init(mount, census) {
         start: m.start,
         end: m.end,
         topics: Array.isArray(en.topics) ? en.topics : [],
-        aliases: Array.isArray(en.aliases) ? en.aliases : []
+        aliases: Array.isArray(en.aliases) ? en.aliases : [],
+        keywords: Array.isArray(en.keywords) ? en.keywords : []
       };
     });
   if (!worlds.length) return;
@@ -292,19 +293,25 @@ function init(mount, census) {
     var parts = [w.rep, w.role, w.world, w.name, w.informal, w.subtitle, w.place, w.tag, w.shaped, w.dates, eraName(w)]
       .concat(w.matches.map(function (m) { return m && m.term; }))
       .concat(w.topics.map(function (t) { return t.word + " " + t.note; }))
-      .concat(w.aliases.map(function (a) { return a.name; }));
+      .concat(w.aliases.map(function (a) { return a.name; }))
+      .concat(w.keywords);
     if (withVoices) parts = parts.concat(w.voices);
     return parts.join(" ").toLowerCase();
   }
   var topicWords = [];
   worlds.forEach(function (w) { w.topics.forEach(function (t) { var k = t.word.toLowerCase(); if (topicWords.indexOf(k) < 0) topicWords.push(k); }); });
   function isTopicTerm(term) { return topicWords.some(function (k) { return k.indexOf(term) >= 0; }); }
+  var CENTURY_WORDS = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth", "thirteenth", "fourteenth", "fifteenth", "sixteenth", "seventeenth"];
   function yearRange(term) {
     var m = /^(\d{2,4})$/.exec(term);
     if (m) return [+m[1], +m[1]];
     m = /^(\d{1,2})(?:st|nd|rd|th)?\s+century(?:\s+(?:ce|ad))?$/.exec(term);
-    if (m) return [(+m[1] - 1) * 100 + 1, +m[1] * 100];
-    return null;
+    var c = m ? +m[1] : 0;
+    if (!c) {
+      m = /^([a-z]+)\s+century(?:\s+(?:ce|ad))?$/.exec(term);
+      if (m) c = CENTURY_WORDS.indexOf(m[1]) + 1;
+    }
+    return c > 0 ? [(c - 1) * 100 + 1, c * 100] : null;
   }
   function inYears(w, term) {
     var r = yearRange(term);
@@ -343,6 +350,9 @@ function init(mount, census) {
       var s = voice.slice(start, end);
       if (s.length > 170) s = s.slice(0, 167).replace(/\s+\S*$/, "") + "…";
       return "In its record: “" + s + "”";
+    }
+    for (var k = 0; k < w.keywords.length; k++) {
+      if (w.keywords[k].toLowerCase().indexOf(t) >= 0) return "Matches this tradition.";
     }
     return "Mentioned in its record.";
   }

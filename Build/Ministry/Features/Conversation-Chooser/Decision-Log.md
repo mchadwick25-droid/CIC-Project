@@ -115,3 +115,11 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Not settled.** Hidden search-only keywords for everyday names the records do not carry. Mark approved the approach, not a list. None is written until Mark approves each.
 
 **Change to the build plan.** `card.topics` and `card.aliases` are added to the registry and synced to the census; the plan's `card.matches` stays for names with a stated reason.
+
+## 2026-10-20 — Hidden search keywords approved and written (Mark)
+
+**Mark's words.** "draft the keywords"; then chose "Group A, and B except Byzantine".
+
+**What it settles.** 37 hidden keywords are in `card.keywords` in the eleven registry files and synced to the census. They make a card appear in search and show no claim: the reason line reads "Matches this tradition." Group A (names the world's own records use but search missed): irenaeus, tertullian, didache, athanasius, arius, coptic, allegory, church of the east, diatessaron, assyrian, hermit, nitria, sayings of the desert fathers, optatus, rebaptism, circumcellions, constantine, basil of caesarea, nicaea, council of nicaea, christian empire, vulgate, lerins, pelagius, sulpicius severus, ninety-five theses, small catechism. Group B (not in the world's own records): lutheranism, protestant, calvinist, calvinism, apostolic fathers, desert mothers, bible translation, monk bishop, roman empire. Left out on purpose: byzantine (the imperial world's window, 312 to 451, predates it), nestorian (one record mention and anachronistic for 200 to 410) and huguenot.
+
+**Also.** Written-out centuries ("first century") now search by date, like "4th century" and years.
