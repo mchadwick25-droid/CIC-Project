@@ -2,8 +2,7 @@
 "use strict";
 
 var MAX_SEATS = 3;
-var HAND_SIZE = 5;
-var HAND_CAP = 8;
+var FAN = 2;
 var FALLBACK_TINT = "#D9B35C";
 
 function el(tag, attrs, kids) {
@@ -81,9 +80,6 @@ function init(mount, census) {
   var active = 0;
   var deckOpen = false;
   var deckState = { era: 0, q: "" };
-  var seen = [];
-  try { seen = JSON.parse(localStorage.getItem("cic-dealt") || "[]"); } catch (e) { seen = []; }
-  if (!Array.isArray(seen)) seen = [];
 
   if (mode === "table") {
     var pre = new URLSearchParams(window.location.search).get("worlds");
@@ -133,11 +129,11 @@ function init(mount, census) {
   // ---------- hand ----------
   var hand = el("div", { class: "chooser-hand", role: "group", "aria-roledescription": "hand of cards" });
   var posEl = el("span", { class: "pos", "aria-hidden": "true" });
-  var prevBtn = el("button", { type: "button", class: "cbtn roll", "aria-label": "Previous card", text: "‹ Previous" });
-  var nextBtn = el("button", { type: "button", class: "cbtn roll", "aria-label": "Next card", text: "Next ›" });
-  var shuffleBtn = el("button", { type: "button", class: "cbtn quiet", text: "Shuffle" });
+  var prevBtn = el("button", { type: "button", class: "chooser-arrow prev", "aria-label": "Previous card" });
+  var nextBtn = el("button", { type: "button", class: "chooser-arrow next", "aria-label": "Next card" });
+  var stage = el("div", { class: "chooser-stage" }, [hand, prevBtn, nextBtn]);
   var allBtn = el("button", { type: "button", class: "cbtn quiet", "aria-expanded": "false" });
-  var nav = el("div", { class: "chooser-nav" }, [prevBtn, posEl, nextBtn, shuffleBtn, allBtn]);
+  var nav = el("div", { class: "chooser-nav" }, [posEl, allBtn]);
   var hint = el("p", { class: "chooser-hint", text: "Hover or tab to raise a card. Press Enter on a raised card to turn it over. Scroll, swipe or use the arrow keys to roll the hand." });
   var deckRow = el("div", { class: "chooser-deckrow", hidden: true });
   var tree = el("p", { class: "chooser-tree" }, [
@@ -157,7 +153,7 @@ function init(mount, census) {
 
   if (slot) { slot.textContent = ""; slot.appendChild(searchBox); }
   else mount.appendChild(el("div", { class: "chooser-top" }, [searchBox]));
-  mount.appendChild(hand);
+  mount.appendChild(stage);
   mount.appendChild(nav);
   mount.appendChild(deckRow);
   mount.appendChild(hint);
@@ -259,11 +255,17 @@ function init(mount, census) {
       card.style.setProperty("--d", String(d));
       card.style.setProperty("--ad", String(Math.abs(d)));
       card.classList.toggle("active", d === 0);
+      card.classList.toggle("peek", Math.abs(d) === FAN + 1);
+      card.classList.toggle("off", Math.abs(d) > FAN + 1);
       card.setAttribute("aria-current", d === 0 ? "true" : "false");
       card.querySelector(".cfront").setAttribute("tabindex", (d === 0 || listMode()) ? "0" : "-1");
     });
     posEl.textContent = cards.length ? (active + 1) + " of " + cards.length : "";
-    hand.setAttribute("aria-label", handIds.length + " voices in your hand. Use the arrow keys to roll the hand.");
+    prevBtn.setAttribute("aria-disabled", active <= 0 ? "true" : "false");
+    nextBtn.setAttribute("aria-disabled", active >= cards.length - 1 ? "true" : "false");
+    hand.setAttribute("aria-label", handIds.length + " voices in order of time. Use the arrow keys, scroll or swipe to roll the hand.");
+    var minis = deckRow.querySelectorAll(".mini");
+    [].forEach.call(minis, function (m) { m.classList.toggle("inhand", m.getAttribute("data-id") === handIds[active]); });
   }
 
   function setActive(i, focus) {
@@ -276,7 +278,7 @@ function init(mount, census) {
   function renderHand(activeId) {
     hand.textContent = "";
     handIds.forEach(function (id) { hand.appendChild(cardEl(byId[id])); });
-    active = activeId && handIds.indexOf(activeId) >= 0 ? handIds.indexOf(activeId) : Math.floor(handIds.length / 2);
+    active = activeId && handIds.indexOf(activeId) >= 0 ? handIds.indexOf(activeId) : Math.min(FAN, Math.max(0, handIds.length - 1));
     layout();
     decorateCards();
   }
@@ -381,30 +383,6 @@ function init(mount, census) {
     return "Mentioned in its record.";
   }
 
-  function dealFive(deck) {
-    if (deck.length <= HAND_SIZE) return deck.slice();
-    var pool = deck.filter(function (id) { return seated.indexOf(id) < 0; });
-    var unseen = pool.filter(function (id) { return seen.indexOf(id) < 0; });
-    if (!unseen.length) { seen = seen.filter(function (id) { return deck.indexOf(id) < 0; }); unseen = pool; }
-    var pick = seated.filter(function (id) { return deck.indexOf(id) >= 0; });
-    var keep = function (id) { return pick.indexOf(id) < 0; };
-    var eraList = []; deck.forEach(function (id) { if (eraList.indexOf(byId[id].era) < 0) eraList.push(byId[id].era); });
-    eraList.forEach(function (era) {
-      if (pick.length >= HAND_SIZE) return;
-      var c = unseen.filter(function (id) { return byId[id].era === era && keep(id); });
-      if (c.length) pick.push(c[shuffleIndex(c.length)]);
-    });
-    while (pick.length < HAND_SIZE) {
-      var c2 = unseen.filter(keep);
-      if (!c2.length) c2 = pool.filter(keep);
-      if (!c2.length) break;
-      pick.push(c2[shuffleIndex(c2.length)]);
-    }
-    pick.forEach(function (id) { if (seen.indexOf(id) < 0) seen.push(id); });
-    try { localStorage.setItem("cic-dealt", JSON.stringify(seen)); } catch (e) {}
-    return pick.sort(order);
-  }
-
   function deal(reason) {
     var deck = deckIds(), term = deckState.q.trim();
     whyEl.textContent = "";
@@ -412,45 +390,33 @@ function init(mount, census) {
     if (!deck.length) {
       countEl.textContent = "Nothing matches that yet. Try an era, a place, or another name.";
       hand.textContent = ""; posEl.textContent = ""; handIds = [];
-      shuffleBtn.hidden = true;
       renderDeckRow(deck);
       return;
     }
+    handIds = deck.slice();
+    handIds.forEach(function (id) { via[id] = reason === "search" ? "search" : "hand"; });
     if (reason === "search" && term) {
-      var next = [];
-      handIds.concat(deck).forEach(function (id) { if (next.indexOf(id) < 0) next.push(id); });
-      while (next.length > HAND_CAP) {
-        var drop = -1;
-        for (var i = 0; i < next.length; i++) if (seated.indexOf(next[i]) < 0 && deck.indexOf(next[i]) < 0) { drop = i; break; }
-        if (drop < 0) break;
-        next.splice(drop, 1);
-      }
-      next.sort(order);
-      deck.forEach(function (id) { if (handIds.indexOf(id) < 0) via[id] = "search"; });
-      handIds = next; activeId = deck[0];
-      countEl.textContent = deck.length + (deck.length === 1 ? " match" : " matches") + ", brought into your hand of " + handIds.length + ".";
+      activeId = deck[0];
+      countEl.textContent = deck.length + (deck.length === 1 ? " match." : " matches, in order of time.");
       deck.forEach(function (id) {
         var w = byId[id];
         whyEl.appendChild(el("li", null, [el("b", { text: w.rep + ", " + w.world + ". " }), document.createTextNode(whyMatched(w, term))]));
       });
+    } else if (deckState.era) {
+      activeId = deck[0];
+      countEl.textContent = "Showing " + deck.length + " of " + allIds.length + ", in order of time.";
     } else {
-      handIds = dealFive(deck);
-      handIds.forEach(function (id) { via[id] = "hand"; });
-      countEl.textContent = deck.length <= HAND_SIZE
-        ? "Showing all " + deck.length + (deck.length === 1 ? " that matches." : " that match.")
-        : "Showing " + handIds.length + " of " + deck.length + ". Shuffle for " + Math.min(HAND_SIZE, deck.length - handIds.length) + " more.";
+      countEl.textContent = "All " + deck.length + " voices, in order of time.";
     }
-    shuffleBtn.hidden = deck.length <= HAND_SIZE;
     renderHand(activeId);
     renderDeckRow(deck);
   }
 
-  var qTimer;
+  var qTimer = null;
   q.addEventListener("input", function () {
     clearTimeout(qTimer);
-    qTimer = setTimeout(function () { deckState.q = q.value; deal(q.value.trim() ? "search" : "shuffle"); }, 250);
+    qTimer = setTimeout(function () { deckState.q = q.value; deal(q.value.trim() ? "search" : "reset"); }, 250);
   });
-  shuffleBtn.addEventListener("click", function () { deal("shuffle"); });
   allBtn.addEventListener("click", function () { deckOpen = !deckOpen; renderDeckRow(deckIds()); if (deckOpen) { var r = deckRow.querySelector(".chooser-row"); if (r) r.focus(); } });
 
   function renderDeckRow(deck) {
@@ -464,9 +430,9 @@ function init(mount, census) {
       "aria-label": deck.length + " cards in order of time. Activate a card to take it into your hand." });
     deck.forEach(function (id) {
       var w = byId[id], e = eras[w.era] || { no: "", name: "", tint: FALLBACK_TINT };
-      var inHand = handIds.indexOf(id) >= 0;
-      var b = el("button", { type: "button", class: "mini" + (inHand ? " inhand" : "") + (seated.indexOf(id) >= 0 ? " seated" : ""), "data-id": id,
-        "aria-label": w.rep + ", " + w.world + ", " + e.name + ". " + (inHand ? "Already in your hand. Activate to bring it to the front." : "Take this card into your hand.") }, [
+      var showing = id === handIds[active];
+      var b = el("button", { type: "button", class: "mini" + (showing ? " inhand" : "") + (seated.indexOf(id) >= 0 ? " seated" : ""), "data-id": id,
+        "aria-label": w.rep + ", " + w.world + ", " + e.name + ". " + (showing ? "Showing now." : "Bring this card to the front.") }, [
         el("img", { src: w.thumb || w.img, alt: "", loading: "lazy", decoding: "async" }),
         el("span", { class: "mname" }, [document.createTextNode(w.rep), el("small", { text: w.world }), w.shapedList.length ? el("small", { class: "mshaped", text: "Shaped by " + joinNames(w.shapedList) }) : null])
       ]);
@@ -474,14 +440,18 @@ function init(mount, census) {
       b.addEventListener("click", function () { pickFromDeck(id); });
       row.appendChild(b);
     });
-    deckRow.appendChild(el("div", { class: "head2" }, [el("p", { text: "The whole deck, in order of time. Tap a card to take it into your hand." })]));
+    deckRow.appendChild(el("div", { class: "head2" }, [el("p", { text: "The whole deck, in order of time. Tap a card to bring it to the front." })]));
     deckRow.appendChild(row);
   }
 
   function pickFromDeck(id) {
-    if (handIds.indexOf(id) < 0) { handIds.push(id); handIds.sort(order); via[id] = "scroll"; }
-    renderHand(id);
-    renderDeckRow(deckIds());
+    if (handIds.indexOf(id) < 0) {
+      deckState.era = 0; deckState.q = ""; q.value = "";
+      [].forEach.call(erasBox.children, function (x) { x.setAttribute("aria-pressed", x.getAttribute("data-era") === "0" ? "true" : "false"); });
+      deal("reset");
+    }
+    via[id] = "scroll";
+    setActive(handIds.indexOf(id), false);
     hand.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
     var c = hand.children[active]; if (c) c.querySelector(".cfront").focus({ preventScroll: true });
   }
@@ -538,11 +508,10 @@ function init(mount, census) {
   }
   [narrowMq, rmMq].forEach(function (mq) { (mq.addEventListener ? mq.addEventListener("change", applyMode) : mq.addListener(applyMode)); });
 
-  // seated cards from a pre-seated table link join the first hand
-  handIds = seated.slice();
   allBtn.textContent = "See all " + allIds.length;
   applyMode();
-  deal("shuffle");
+  deal("reset");
+  if (seated.length) setActive(handIds.indexOf(seated[0]), false);
   renderTray();
 }
 
