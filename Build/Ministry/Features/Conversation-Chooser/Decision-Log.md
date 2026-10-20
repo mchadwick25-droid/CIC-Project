@@ -320,3 +320,9 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** "i think the role description is a distraction, it adds no real value (i originally though it would be a connection point, but the portrait and name is enought and we don't have to make it more complex". Then: "no i think i am going to get rid of it all together, not even include it in the build".
 
 **What changed.** The chooser no longer reads, shows, speaks or searches the Representative's role. The line is gone from the front of the card, from the card's spoken label, from the search text and from the "why this matched" line. The name keeps its divider rule. Nothing in the registry or the census changed: the role is still the Representative's title there, and other pages use it. A decision to drop it from the data is a separate change order.
+
+## 2026-10-20 — Card text on the front is at least 14 px (Mark)
+
+**Mark's words.** "that give us more space, can we increase the font size of the text at the bottom to 14, it is now to small to read for some".
+
+**What changed.** The tagline and the "Shaped by" line on the front of the card are never smaller than 14 px; on larger cards they keep their scaled size. Checked on the cards in the hand at 1434x717, 1440x900 and 1024x768: no text runs past the bottom of the card.
