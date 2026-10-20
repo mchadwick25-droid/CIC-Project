@@ -352,3 +352,13 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Checked** (headless browser, both pages, 1434, 1024, 768, 390 and 320 px wide, 100% and 200% text): no sideways scroll except 1024 px at 200%. That one is a limit of the test: forcing 200% text through `html{font-size}` does not move a `rem` media query, so the grid stayed on. With the row forced to the wrapping layout that a real 200% text setting produces, the overflow is 0. A real browser text-size setting has not been tried.
 
 **Not changed.** The same inline header block is in about 300 other pages (the tradition pages, the tree, and so on) and has the same fixed `1000px` breakpoint and non-wrapping wordmark. Changing them is a sweep of the whole site and is not done.
+
+## 2026-10-20 — Change order (Mark): all eleven in the hand, in order, five showing
+
+**Mark's words.** "I know the research said that if it's not on screen it's lost from memory. It was a justification of just five selected cards as the main display, but it seems to me to be creating confusion and extra steps. Can we just put all 11 in the hand, 5 at a time still visible as they are, but instead of random picking, we scroll the rest in order. So visually the only change is more cards scrolling around, so all 11 are accessible, but the screen changes minimally to see there are more cards to the right or left."
+
+**Decision (Mark).** "All eleven in order, five showing." Supersedes "The hand stays as it is" (2026-10-19). Chosen over the same with a Shuffle that jumps to a random card, and over keeping the dealt hand of five.
+
+**What changed.** The hand holds every live world in time order. The fan shows five, with the next card at each side showing as a faded sliver and the rest hidden; the count reads "n of 11". The hand opens on the third card so the first five are in view. Scroll, swipe, the arrow keys and Previous and Next move through all eleven. Shuffle is gone, and with it the random deal and the browser's memory of dealt cards. A search narrows the row to its matches, first match to the front, and still says why each matched. An era chip narrows the row to that era. "See all" stays as the grid; its cards mark the one showing now, and tapping one brings it to the front, clearing any narrowing first. The phone and reduced-motion list shows all eleven. A pre-seated table link opens on the first seated card.
+
+**Why the research still holds.** The evidence was against hidden items with no order, count or cue. Here the order is time, the count is written, the next card peeks at each edge, and the grid is one tap away. What goes is the part that needed explaining.

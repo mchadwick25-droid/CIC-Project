@@ -15,7 +15,11 @@
 .chooser-count{color:var(--muted);font-size:.95rem;margin:0;font-variant-numeric:tabular-nums}
 .chooser-why{list-style:none;margin:0;padding:0;display:grid;gap:.3rem;font-size:.88rem;color:var(--muted)}
 .chooser-why b{color:var(--text);font-weight:600}
-.chooser-hand{position:relative;display:grid;justify-items:center;padding-bottom:.9rem;margin:1.6rem auto 0;touch-action:pan-y}
+.chooser-hand{position:relative;display:grid;justify-items:center;padding-bottom:.9rem;margin:1.6rem auto 0;touch-action:pan-y;clip-path:inset(-4rem 0 -4rem 0)}
+.chooser-hand .card.peek{opacity:.55}
+.chooser-hand .card.off{visibility:hidden;pointer-events:none}
+.chooser.is-list .chooser-hand .card.peek{opacity:1}
+.chooser.is-list .chooser-hand .card.off{visibility:visible;pointer-events:auto}
 .chooser-hand .card{grid-area:1/1;margin-top:1.3rem;transform:translate(calc(var(--d,0) * var(--step)),calc(var(--ad,0) * var(--ad,0) * var(--cw) * .011 + var(--lift,0px))) rotate(calc(var(--d,0) * 1.8deg)) scale(var(--s,1));transition:transform .45s cubic-bezier(.2,.7,.2,1);z-index:calc(100 - var(--ad,0))}
 .chooser-hand .card:hover,.chooser-hand .card:focus-within{--lift:-18px;z-index:200}
 .chooser-hand .card.active{--lift:-26px;--s:1.06}
