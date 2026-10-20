@@ -47,7 +47,6 @@ function init(mount, census) {
         id: m.id,
         era: m.era,
         rep: en.representativeName,
-        role: en.representativeTitle || "",
         world: en.worldName || m.informalName || m.name,
         subtitle: en.subtitle || "",
         name: m.name,
@@ -182,13 +181,13 @@ function init(mount, census) {
     if (w.shaped) statRows.push(["Shaped by", w.shaped]);
 
     var front = el("button", { type: "button", class: "cfront", "data-act": "front",
-      "aria-label": w.rep + ", " + w.role + ", " + w.world + ", " + e.name + ". " + w.dates + ". Press to bring the card forward, then again to turn it over." });
+      "aria-label": w.rep + ", " + w.world + ", " + e.name + ". " + w.dates + ". Press to bring the card forward, then again to turn it over." });
     var img = el("img", { src: w.img, alt: "", loading: "lazy", decoding: "async" });
     var frontFace = el("div", { class: "face front" }, [
       el("div", { class: "band" }, [el("span", { text: bandText }), el("span", { text: e.dates })]),
       el("div", { class: "head" }, [el("p", { class: "tname", text: w.world }), el("p", { class: "tdates", text: w.dates + " · " + w.place })]),
       el("div", { class: "pic" }, [img]),
-      el("div", { class: "plate" }, [el("p", { class: "rep", text: w.rep }), el("p", { class: "role", text: w.role }), w.tag ? el("p", { class: "tag", text: w.tag }) : null, w.shapedList.length ? el("p", { class: "shapedby", text: "Shaped by " + joinNames(w.shapedList) + " among others." }) : null]),
+      el("div", { class: "plate" }, [el("p", { class: "rep", text: w.rep }), w.tag ? el("p", { class: "tag", text: w.tag }) : null, w.shapedList.length ? el("p", { class: "shapedby", text: "Shaped by " + joinNames(w.shapedList) + " among others." }) : null]),
       front
     ]);
 
@@ -315,7 +314,7 @@ function init(mount, census) {
   // ---------- deck: filtering, dealing, search ----------
   function eraName(w) { var e = eras[w.era]; return e ? e.name : ""; }
   function haystack(w, withVoices) {
-    var parts = [w.rep, w.role, w.world, w.name, w.informal, w.subtitle, w.place, w.tag, w.shaped, w.dates, eraName(w)]
+    var parts = [w.rep, w.world, w.name, w.informal, w.subtitle, w.place, w.tag, w.shaped, w.dates, eraName(w)]
       .concat(w.matches.map(function (m) { return m && m.term; }))
       .concat(w.topics.map(function (t) { return t.word + " " + t.note; }))
       .concat(w.aliases.map(function (a) { return a.name; }))
@@ -362,7 +361,7 @@ function init(mount, census) {
     for (var a = 0; a < w.aliases.length; a++) {
       if (w.aliases[a].name.toLowerCase().indexOf(t) >= 0) return "Also known as " + w.aliases[a].name + ". " + w.aliases[a].note;
     }
-    var names = [["its name", w.world + " " + w.name + " " + w.informal + " " + w.subtitle], ["its place", w.place], ["its Representative", w.rep + " " + w.role], ["its era", eraName(w)]];
+    var names = [["its name", w.world + " " + w.name + " " + w.informal + " " + w.subtitle], ["its place", w.place], ["its Representative", w.rep], ["its era", eraName(w)]];
     for (var n = 0; n < names.length; n++) if (names[n][1].toLowerCase().indexOf(t) >= 0) return "Matches " + names[n][0] + ".";
     if (inYears(w, t) || (w.dates || "").toLowerCase().indexOf(t) >= 0) return "Active " + w.dates + ".";
     var tn = w.topics.filter(function (x) { return x.note.toLowerCase().indexOf(t) >= 0; });

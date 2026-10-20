@@ -314,3 +314,9 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** In the pilot-feedback thread: "the cards scroll and click to pull forward". Told that the built hand moved only by the buttons and arrow keys, he chose "Yes, scroll and swipe both". Then here: "add the scroll now before merging".
 
 **What changed.** A mouse wheel or trackpad scroll over the hand rolls it one card per notch, in either axis, with small ticks ignored and a short pause between moves. It acts only while the pointer is over the hand, so scrolling the page elsewhere is untouched. A finger swipe of more than 40 px was already built. The hint under the deck now says "Scroll, swipe or use the arrow keys to roll the hand."
+
+## 2026-10-20 — The role line leaves the card and the build (Mark)
+
+**Mark's words.** "i think the role description is a distraction, it adds no real value (i originally though it would be a connection point, but the portrait and name is enought and we don't have to make it more complex". Then: "no i think i am going to get rid of it all together, not even include it in the build".
+
+**What changed.** The chooser no longer reads, shows, speaks or searches the Representative's role. The line is gone from the front of the card, from the card's spoken label, from the search text and from the "why this matched" line. The name keeps its divider rule. Nothing in the registry or the census changed: the role is still the Representative's title there, and other pages use it. A decision to drop it from the data is a separate change order.
