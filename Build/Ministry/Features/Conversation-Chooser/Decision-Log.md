@@ -159,3 +159,9 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Mark's words.** "no above the cards, it is searching for traditions that the user is looking for or topics or people".
 
 **What it settles.** The search bubble sits above the cards. Its placeholder reads "Search traditions, topics, people". The hint under it reads "Look for a tradition, a topic or a person. Try Lutheran, baptism or Augustine." The first version of the hint listed places and dates; those still work in search but are no longer in the hint. Mark's wording was read as naming what the box is for; if he meant a different position, the Decision Log should record it.
+
+## 2026-10-20 — Search bubble larger (Mark)
+
+**Mark's words.** "yes its there, sorry i missed it its the search we are looking describing and in the right place, maybe make the search field a little larger and text".
+
+**What it settles.** The position is confirmed: upper right of the card, above the cards. The bubble grows from 352 px to 480 px wide and from 44 px to 56 px tall; its text goes from 16 px to about 19 px, and the hint under it from about 14 px to 16 px. On a phone it is full width at the same height.
