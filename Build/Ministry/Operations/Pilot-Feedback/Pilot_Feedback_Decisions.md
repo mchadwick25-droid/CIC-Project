@@ -230,3 +230,21 @@ Open and not decided here
 - Whether the buy button is live and a Stripe Payment Link is set. An earlier log entry says it stays hidden until one is set; not checked.
 - What the tester's "300 free tokens left" was counted from. It fits a 550 allowance partly used, which is not confirmed.
 - Who builds the landing line. It sits with the chooser thread's landing page work.
+
+## Change orders to Theme D — 2026-10-20
+
+Source: Mark, after seeing the built landing page (PR 987).
+
+1. **Story teasers are dropped from the landing page.** Mark: he chose the spacing and the card descriptions rather than the story teaser, and wants the cards on the landing screen. This supersedes three earlier entries: the Theme D decision that the first invitation is a short story, the amendment for a rotating few story teasers, and the chooser thread's "Put the story teasers above the hand" page order. Reason: Mark's choice once he saw the built page.
+   - Still standing: layers by time as the model for depth, and sources one click away at every layer.
+   - The "rotating few" idea now describes the hand's deal of five cards. Whether the deal skips cards the visitor has already seen is for the chooser thread to confirm; this thread has not checked.
+   - The one-minute story pool is no longer needed for the landing page. Whether it is still wanted for the tree or the Theme F hooks is open.
+2. **"Tell us what you think" stays in the masthead, as a button to the left of the Menu, not inside it** (Mark, 2026-10-20). PR 987's description records a later change order by Mark: one masthead row with the wordmark, the three feature links, "Tell us what you think" and Menu. This supersedes the Theme D header decision that moved it into the Menu. Source: the PR description; the chooser decision log was not read here.
+3. **Where Theme G's landing line goes is open.** It was to sit near the doors. The doors are now plain text links in the masthead and the line "Free to start. Add more any time." is not on the page. Mark has not said where it goes.
+
+### Clarification to Theme E, card behaviour — 2026-10-20
+Mark: "the cards scroll and click to pull forward." The hand scrolls through the cards, and clicking a card pulls it forward. This describes how a visitor moves through and brings a card to the front, and sits beside the Theme E seating rule (a card chosen for the table stays raised and counted). Checked by the chooser build thread against cic-website/assets/chooser.js on the PR 987 branch (reported to this thread; not read here): a click on a side card pulls it forward; a click on the active card flips it to the back; the hand also moves with the Previous and Next buttons and the arrow keys. It found no mouse-wheel or swipe handler, so "the cards scroll" is not built for the hand; the only horizontal scroll is the "See all" mini-card row. Seating is separate: the "Seat at the table" button on the card back toggles the seat tray, and the click that pulls a card forward never seats it. Card body text is 1.1em on a card font of 4% of card width: about 9 px at a 210 px card and about 17 px at the 380 px maximum. Open: whether Mark wants scroll and swipe added to the hand.
+- Decision (Mark, 2026-10-20): scroll and swipe are added to the hand, besides the Previous and Next buttons and the arrow keys. A wheel or trackpad scroll must act only while the pointer is over the hand, so it cannot trap a visitor scrolling the page. Passed to the design thread, which now holds PR 987, as a request. Nothing built here.
+
+### Status after PR 987 merged — 2026-10-20
+PR 987 is on origin/main at 51cbfb4c (checked on main: a wheel handler is in cic-website/assets/chooser.js). Reported by the chooser design thread and not all read here: cards on the landing screen with no teasers; "Tell us what you think" as a button left of the Menu on every page with the masthead; scroll and swipe on the hand (the wheel rolls one card per notch over the hand and leaves page scroll alone elsewhere; swipe was already there). Not done: the "Free to start. Add more any time." line (no home chosen), the card body text size (no ruling), the tree's "Seat at the table" button, and the iPad, phone and screen-reader pass. Decisions are in Build/Ministry/Features/Conversation-Chooser/Decision-Log.md.
