@@ -237,3 +237,9 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **Two calls made here, from the Google page and the design thread.** (1) The card width is capped at 36% of the viewport height, so the hand fits shorter screens; on a tall monitor the cards stay at their 380 px maximum. The design thread suggested a version of this and left it to the build thread. (2) More air above the card and between the sub-line and the hand, in the spirit of "i like the space on this". Neither was put to Mark as such; both are one-line CSS changes that can be reversed.
 
 **Phones.** The list layout is unchanged. The search placeholder is shortened to "Search traditions or topics" on narrow screens so it is not cut off.
+
+## 2026-10-20 — The sub-line under the heading shortened; the AI statement stays at the bottom (Mark)
+
+**Mark's words.** "lets delete the subtext we state at the bottom that these are ai, so we dont need it, talk with one and another build a table (or something like that)".
+
+**How it was read.** The line under the question heading said "Each voice is built from its own tradition's records. Talk with one, or seat two or three at a table." The page already states at the bottom that these are AI voices built from each tradition's surviving writings, so the "built from its records" half repeats it. That half is removed. The sub-line now reads "Talk with one voice, or build a table of two or three." The AI statement at the bottom of the page (`.ai-note`) is unchanged, and so is the table page's own line about representative voices. If Mark meant the bottom statement should go, the page needs that disclosure somewhere else first; it was not removed.
