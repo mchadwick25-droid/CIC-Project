@@ -209,3 +209,75 @@ def test_settings_only_exits_before_any_billed_call(monkeypatch, capsys):
     assert set(settings["package_manifest_hash"]) == {"alx"}
     assert settings["save_transcripts"] is True
     assert '"run_settings"' in capsys.readouterr().err
+
+
+def _fake_world_result(cost: float) -> dict:
+    return {
+        "battery_size": 1, "pass_count": 1, "overall_pass": True, "per_probe": [],
+        "actual_usd": cost,
+        "total_input_tokens": 0, "total_output_tokens": 0,
+        "total_cache_creation_input_tokens": 0, "total_cache_read_input_tokens": 0,
+    }
+
+
+def test_a_cap_stop_part_way_through_a_world_keeps_the_worlds_already_run(monkeypatch, tmp_path):
+    """The live-test guard refuses a call that could pass the cap by raising
+    LiveTestCapReached from inside a world's own battery. The 20 October
+    fleet run lost ten completed worlds that way, because the exception
+    left run() before any report was written. Now the completed worlds
+    stay in the report, the stop is named, and the report is on disk."""
+    from engine.provider import guard
+
+    fake_costs = {"alx": 0.10, "desert": 0.10}
+    monkeypatch.setattr(lar, "real_world_costs", lambda: fake_costs)
+    monkeypatch.setattr(lar, "resolve_model_id", lambda model, region: "fake-model-id")
+    monkeypatch.setattr(lar, "load_fleet_records", lambda: {})
+
+    def fake_run_world(world_key, **kwargs):
+        if world_key == "desert":
+            raise guard.LiveTestCapReached("live test 'x': the next call could pass the $1.00 cap")
+        return _fake_world_result(0.40)
+
+    monkeypatch.setattr(lar, "_run_world", fake_run_world)
+    out = tmp_path / "report.json"
+
+    report = run("us-east-1", world_keys=["alx", "desert"], max_usd=1.00, authorized_by="test-harness", report_path=out)
+
+    assert list(report["worlds"]) == ["alx"]
+    assert report["overall_pass"] is False
+    assert "desert" in report["aborted_reason"] and "cap" in report["aborted_reason"]
+    assert report["actual_usd_spent"] == pytest.approx(0.40)
+    on_disk = json.loads(out.read_text(encoding="utf-8"))
+    assert list(on_disk["worlds"]) == ["alx"]
+    assert on_disk["aborted_reason"] == report["aborted_reason"]
+
+
+def test_the_report_is_written_after_every_world(monkeypatch, tmp_path):
+    """A crash or a kill between worlds must not lose the worlds already
+    paid for: the report on disk is refreshed after each one, marked in
+    progress until the run ends."""
+    fake_costs = {"alx": 0.10, "desert": 0.10}
+    monkeypatch.setattr(lar, "real_world_costs", lambda: fake_costs)
+    monkeypatch.setattr(lar, "resolve_model_id", lambda model, region: "fake-model-id")
+    monkeypatch.setattr(lar, "load_fleet_records", lambda: {})
+    out = tmp_path / "report.json"
+    seen = []
+
+    def fake_run_world(world_key, **kwargs):
+        if out.exists():
+            seen.append((world_key, json.loads(out.read_text(encoding="utf-8"))))
+        return _fake_world_result(0.10)
+
+    monkeypatch.setattr(lar, "_run_world", fake_run_world)
+
+    report = run("us-east-1", world_keys=["alx", "desert"], max_usd=1.00, authorized_by="test-harness", report_path=out)
+
+    # when desert started, alx's result was already on disk and marked in progress
+    assert [w for w, _ in seen] == ["desert"]
+    assert list(seen[0][1]["worlds"]) == ["alx"]
+    assert seen[0][1]["aborted_reason"].startswith("in progress")
+    # the final file is the finished report
+    final = json.loads(out.read_text(encoding="utf-8"))
+    assert list(final["worlds"]) == ["alx", "desert"]
+    assert final["aborted_reason"] is None
+    assert final["overall_pass"] is True and report["overall_pass"] is True
