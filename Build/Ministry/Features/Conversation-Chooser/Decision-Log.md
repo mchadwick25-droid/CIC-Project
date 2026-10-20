@@ -123,3 +123,13 @@ Checked against `main` at 6851bb40. Line numbers in the build plan (index.html, 
 **What it settles.** 37 hidden keywords are in `card.keywords` in the eleven registry files and synced to the census. They make a card appear in search and show no claim: the reason line reads "Matches this tradition." Group A (names the world's own records use but search missed): irenaeus, tertullian, didache, athanasius, arius, coptic, allegory, church of the east, diatessaron, assyrian, hermit, nitria, sayings of the desert fathers, optatus, rebaptism, circumcellions, constantine, basil of caesarea, nicaea, council of nicaea, christian empire, vulgate, lerins, pelagius, sulpicius severus, ninety-five theses, small catechism. Group B (not in the world's own records): lutheranism, protestant, calvinist, calvinism, apostolic fathers, desert mothers, bible translation, monk bishop, roman empire. Left out on purpose: byzantine (the imperial world's window, 312 to 451, predates it), nestorian (one record mention and anachronistic for 200 to 410) and huguenot.
 
 **Also.** Written-out centuries ("first century") now search by date, like "4th century" and years.
+
+## 2026-10-20 — Landing page layout: cards first, Table card and photo strip removed (Mark)
+
+**Mark's words.** "the scroll is fantastic when we get the tagline and back texts completed, for layout, we can remove the multi-voice image and click, we can now go to the table directly from the cards. remove the pictures and references at the bottom, we want to make the cards the top and primary visual under the title, the church family tree under". Asked which pictures and references at the bottom, he chose the photo credits line and the top history photo strip. The give photo and the Unfolding Story stay.
+
+**What it settles.** Landing page order: title, the cards (with their deck controls), the Church Family Tree, the giving section, the Unfolding Story. The "Build a Table" showcase (its painted image and its click-through) is gone, because a table is now seated and launched from the cards. The row of twelve historical photos at the top and the footer line crediting them are gone. The "Conversation with One" intro box above the cards is replaced by one line under the heading. The Build a Table page and its header button stay.
+
+**Not decided.** The search box and era chips still sit above the hand, so the cards begin about 690 px down at desktop width. Whether the hand comes first and the controls move below it is open.
+
+**Change to the build plan.** The plan's landing order (headline, story teasers, hand, three doors) is superseded: there is no Table door, and the teasers are still unwritten.

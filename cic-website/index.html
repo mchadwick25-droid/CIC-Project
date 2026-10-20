@@ -101,16 +101,6 @@ p{margin:0 0 1rem}
 .site-nav a[aria-current="page"]{color:var(--action)}
 .site-nav a[hidden]{display:none}
 
-.history-strip{display:flex;max-width:var(--wide);margin:1.5rem auto 0;height:1.15in;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scroll-snap-type:x proximity;background:var(--surface)}
-.history-strip>a,.history-strip>img{flex:0 0 1.725in;width:1.725in;height:1.15in;scroll-snap-align:start}
-.history-strip>a{display:block;position:relative;overflow:hidden}
-.history-strip img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.85);transition:filter .2s,transform .2s}
-.history-strip>a:hover img,.history-strip>a:focus-visible img{filter:saturate(1);transform:scale(1.03)}
-@media (max-width:640px){
-  .history-strip{height:1.4in}
-  .history-strip>a,.history-strip>img{flex-basis:2.1in;width:2.1in;height:1.4in}
-}
-@media (prefers-reduced-motion:reduce){ .history-strip>a:hover img,.history-strip>a:focus-visible img{transform:none} }
 
 .hero{max-width:76rem;margin:0 auto;padding:2.5rem 1.25rem .6rem;text-align:center}
 .arriving-ring{fill:none;stroke:currentColor;stroke-width:11;stroke-linecap:round;stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
@@ -132,13 +122,10 @@ p{margin:0 0 1rem}
 .door-line{max-width:46rem;margin:1rem auto 0;font-family:var(--sans);font-size:1rem;line-height:1.5;color:var(--muted);text-align:center}
 .hero-dek{display:block;font-family:var(--sans);font-size:clamp(1.15rem,1rem + .7vw,1.4rem);font-weight:400;color:var(--muted);line-height:1.55;max-width:70rem;margin:.8rem auto 0}
 .home-flow{max-width:var(--wide);margin:0 auto;padding:.5rem 1.25rem 0}
-/* .feature-card: the bordered container shared by the three features (Build a Table, Church Family Tree, Conversation with One). */
+/* .feature-card: the bordered container shared by the Church Family Tree and Conversation with One. */
 .feature-card{margin:3rem 0 0;background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
-.conversation-card{padding:1.75rem}
-.conversation-intro{margin:0 0 1.5rem}
-.conversation-intro h2{font-size:clamp(1.6rem,3vw,2.1rem);margin:0 0 .4rem}
-.conversation-intro .tagline{font-family:var(--sans);font-style:italic;color:var(--action);font-size:1.05rem;margin:0 0 1rem}
-.conversation-intro p{font-family:var(--sans);color:var(--text)}
+.conversation-card{padding:1.75rem;margin-top:1.25rem}
+.who-sub{font-family:var(--sans);color:var(--muted);margin:0 0 1.2rem;max-width:var(--measure)}
 .table-give{max-width:34rem;margin:3rem auto 0}
 @media (max-width:48rem){
   .support-photo{flex:none;min-height:0}
@@ -187,7 +174,6 @@ p{margin:0 0 1rem}
 .ai-note{max-width:var(--col);margin:2.5rem auto 0;padding:1.2rem 1.25rem 0;border-top:1px solid var(--rule);font-family:var(--sans);font-size:.95rem;color:var(--muted);text-align:center}
 .cta-link{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-weight:600;color:var(--action);border-bottom:1px solid currentColor;padding-bottom:.15rem;text-decoration:none}
 .cta-link:hover,.cta-link:focus-visible{color:var(--action-hover)}
-.cta-link .arriving{width:20px;flex:0 0 20px;color:var(--mark-ink)}
 @media (max-width:640px){
   .hero{padding:1.75rem 1.25rem 1rem}
   .hero-lead{font-size:1.6rem}
@@ -228,8 +214,6 @@ p{margin:0 0 1rem}
 .site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
 .site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
 .site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
-.photo-credits{max-width:var(--wide);margin:0 auto;padding:0 1.25rem 1.4rem;font-size:.75rem;line-height:1.7;color:var(--graphite)}
-.photo-credits a{color:var(--graphite);min-height:auto}
 @media print{ .site-header,.support,.skip-link{display:none} }
 
 /* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- part of the single header row, not its own row. Centered via the grid rule above at wide widths; filled rust so the three stand out, matching the site's existing solid-button pattern (.support-btn) rather than inventing a new fill color. flex-shrink stays at its default (1), not 0 -- a fixed-width feature-bar can't shrink to wrap its own buttons on narrow screens, which would push "Build a Table" off the edge of the viewport. */
@@ -272,19 +256,6 @@ p{margin:0 0 1rem}
   </div>
 </header>
 
-<div class="history-strip" role="group" aria-label="Images from across the Church's 2000-year history">
-  <img src="assets/history-era-spanning/priscilla-fresco.jpg" alt="Fresco of a Christian Agape feast, Catacombs of Priscilla, Rome, 2nd-4th century" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/etchmiadzin-cathedral.jpg" alt="Etchmiadzin Cathedral, Armenia, founded 301 CE" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/holy-sepulchre.jpg" alt="The Church of the Holy Sepulchre, Jerusalem" loading="eager" decoding="async">
-  <a href="traditions/desert-monasticism.html"><img src="assets/history/desert.jpg" alt="The Monastery of Saint Macarius, Egypt" loading="eager" decoding="async"></a>
-  <img src="assets/history-era-spanning/lalibela.jpg" alt="The rock-hewn churches of Lalibela, Ethiopia, 12th-13th century" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/chartres-cathedral.jpg" alt="Large figures on the north porch, Chartres Cathedral, 1852 salted-paper print" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/book-of-kells.jpg" alt="An illuminated Gospel manuscript, Metropolitan Museum of Art, c. 1400" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/st-francis-kochi.jpg" alt="St. Francis Church, Fort Kochi, India, founded 1503" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/martin-luther-portrait.jpg" alt="Engraved portrait of Martin Luther in a doctoral cap, Metropolitan Museum of Art" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/st-basils-moscow.jpg" alt="Saint Basil's Cathedral, Moscow, built 1555-1561" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/st-peters-basilica.jpg" alt="St. Peter's Basilica, Vatican City, consecrated 1626" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/azusa-street.jpg" alt="The Apostolic Faith Mission on Azusa Street, Los Angeles, photographed 1907" loading="eager" decoding="async">
 </div>
 
 <main id="main" tabindex="-1">
@@ -294,17 +265,20 @@ p{margin:0 0 1rem}
     <p id="door-line" class="door-line" role="status" hidden></p>
   </section>
 
-  <section class="atlas-showcase feature-card table-showcase" aria-labelledby="table-showcase-title">
-    <a class="atlas-showcase-media" href="table.html" aria-label="Open Build a Table">
-      <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="eager" decoding="async">
-    </a>
-    <div class="atlas-showcase-copy">
-      <h2 id="table-showcase-title">Build a Table</h2>
-      <p class="tagline">Three Voices, One Conversation</p>
-      <p>Seat up to three traditions from across the church's history. Put a question to the table and hear each one answer and discuss. You will hear where they agree, and where they part ways.</p>
-      <a class="cta-link" href="table.html"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Build the table →</a>
+  <div class="home-flow">
+    <div class="feature-card conversation-card">
+    <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
+    <h2 id="who-title">Who would you like to talk with?</h2>
+    <p class="who-sub">Talk with one voice, or seat two or three at a table. Each is built from that tradition's own writings.</p>
+    <div data-chooser data-mode="landing" data-from="index.html#who" data-tree="atlas-v3.html">
+      <div data-chooser-fallback hidden>
+        <p>The voices could not load just now. You can still <a href="atlas-v3.html">browse every tradition on the Church Family Tree</a> and start a conversation from there.</p>
+      </div>
+      <noscript><p>Choosing a voice here needs JavaScript. You can still <a href="atlas-v3.html">browse every tradition on the Church Family Tree</a>.</p></noscript>
     </div>
   </section>
+    </div>
+  </div>
 
   <section class="atlas-showcase feature-card" aria-labelledby="atlas-showcase-title">
     <a class="atlas-showcase-media" href="atlas-v3.html" aria-label="Open Church Family Tree">
@@ -331,23 +305,6 @@ p{margin:0 0 1rem}
   </section>
 
   <div class="home-flow">
-    <div class="feature-card conversation-card">
-    <div class="conversation-intro">
-      <h2>Conversation with One</h2>
-      <p class="tagline">One Voice, One Conversation</p>
-      <p>Choose a representative of a Christian tradition below. Each one is built from that tradition's own writings, so you can ask what they believed and how they followed Jesus.</p>
-    </div>
-    <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
-    <h2 id="who-title">Who would you like to talk with?</h2>
-    <div data-chooser data-mode="landing" data-from="index.html#who" data-tree="atlas-v3.html">
-      <div data-chooser-fallback hidden>
-        <p>The voices could not load just now. You can still <a href="atlas-v3.html">browse every tradition on the Church Family Tree</a> and start a conversation from there.</p>
-      </div>
-      <noscript><p>Choosing a voice here needs JavaScript. You can still <a href="atlas-v3.html">browse every tradition on the Church Family Tree</a>.</p></noscript>
-    </div>
-  </section>
-    </div>
-
   <div class="table-give">
     <section class="support" aria-labelledby="support-title">
       <div class="support-card">
@@ -378,7 +335,6 @@ p{margin:0 0 1rem}
 </main>
 
 <footer class="site-footer">
-  <p class="photo-credits">Historical images, top of page, left to right: <a href="https://commons.wikimedia.org/wiki/File:Catacombe_di_Priscilla,_Rome_-_Fresco_of_a_Christian_Agape_feast_-_Fractio_panis_-_Greek_chapel_-_2nd_-_4th_century.jpg">Fresco, Catacombs of Priscilla</a>, public domain · <a href="https://commons.wikimedia.org/wiki/File:Etchmiadzin_cathedral.jpg">Etchmiadzin Cathedral</a> (CC BY 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Jerusalem_Holy_Sepulchre_BW_23.JPG">Church of the Holy Sepulchre</a>, photo by Berthold Werner (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Monastery_of_Saint_Macarius_the_Great,_Egypt-15.JPG">Monastery of Saint Macarius</a>, photo by Faris El-Gwely (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Rock-Hewn_Churches,_Lalibela-107572.jpg">Rock-Hewn Churches, Lalibela</a>, photo by Francesco Bandarin/UNESCO (CC BY-SA 3.0 IGO) · <a href="https://archive.org/details/mma_large_figures_on_the_north_porch_chartres_cathedral_266284">Chartres Cathedral</a>, 1852, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/mma_illuminated_gospel_317618">Illuminated Gospel</a>, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St_Francis_Church_Fort_Kochi_DSC_1048.JPG">St. Francis Church, Fort Kochi</a>, photo by Ranjith Siji (CC BY-SA 4.0) · <a href="https://archive.org/details/mma_martin_luther_with_doctoral_cap_430193">Martin Luther</a>, engraving, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St._Basil%27s_Cathedral,_Moscow.jpg">St. Basil's Cathedral, Moscow</a>, photo by Zeynel Cebeci (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg">St. Peter's Basilica</a>, photo by Alvesgaspar (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:AFM_on_azusa_street.jpg">The Apostolic Faith Mission, Azusa Street</a>, 1907, photographer unknown, public domain. Photo in the contribution card: <a href="https://commons.wikimedia.org/wiki/File:The_Holy_Doors,_St._Peter%27s_Basilica,_Rome_(45510156425).jpg">The Holy Door, St. Peter's Basilica</a>, photo by Deb Nystrom (CC BY 2.0).</p>
   <div class="row">
     <span>&copy; 2026 Church in Conversation, part of Faithways Studio, Inc. Creating safe spaces to explore faith and the story of Jesus.</span>
     <nav aria-label="Footer">
@@ -405,23 +361,6 @@ if (showcaseVideo) {
   showcaseVideo.addEventListener('ended', function(){
     showcaseVideo.currentTime = 0;
   });
-}
-
-var tableCue = document.getElementById('table-cue');
-if (tableCue) {
-  if (!reduceMotion && 'IntersectionObserver' in window) {
-    tableCue.classList.add('pending');
-    var cueObserver = new IntersectionObserver(function(entries){
-      entries.forEach(function(entry){
-        if (entry.isIntersecting) {
-          tableCue.classList.remove('pending');
-          tableCue.classList.add('play');
-          cueObserver.unobserve(tableCue);
-        }
-      });
-    }, { threshold: 0.6 });
-    cueObserver.observe(tableCue);
-  }
 }
 
 var headerMark = document.getElementById('header-mark');
