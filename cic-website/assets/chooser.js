@@ -499,8 +499,11 @@ function init(mount, census) {
     facilitator.setAttribute("href", talkHref(randomTrio(), "table", "table-tray"));
     var show = mode === "table" || n > 0;
     tray.hidden = !show;
-    document.body.style.paddingBottom = show ? "5.5rem" : "";
+    document.body.style.paddingBottom = show ? (tray.offsetHeight + 16) + "px" : "";
   }
+  if (window.ResizeObserver) new ResizeObserver(function () {
+    if (!tray.hidden) document.body.style.paddingBottom = (tray.offsetHeight + 16) + "px";
+  }).observe(tray);
   goBtn.addEventListener("click", function () {
     if (seated.length < 2) return;
     window.location.href = talkHref(seated, "table", "table-tray");

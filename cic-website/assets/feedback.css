@@ -323,3 +323,32 @@
     max-height: calc(100vh - 1.6rem);
   }
 }
+
+/* Header on iPads and phones: 44 px targets, a short feedback label, and two compact rows on a phone. */
+.feedback-toggle .fb-short{display:none}
+.site-header .feedback-toggle,.site-header .menu-toggle,.site-header .feature-btn{min-height:44px}
+@media (max-width:999px){
+  .site-header .feedback-toggle .fb-full{display:none}
+  .site-header .feedback-toggle .fb-short{display:inline}
+  .site-header .feedback-toggle{padding-inline:.9rem}
+  .site-header > :is(.row,.wrap){column-gap:.5rem;padding-inline:1rem}
+  .site-header .menu-toggle{padding-inline:.8rem}
+  .site-header .feature-btn{padding-inline:.35rem}
+}
+@media (max-width:860px){.site-header .feature-btn{font-size:.8rem}.site-header .brand .wordmark{font-size:1rem}}
+.site-header .brand .wordmark{display:inline-block;line-height:44px}
+@media (max-width:640px){
+  .site-header > :is(.row,.wrap){display:flex;flex-wrap:wrap;align-items:center;gap:0 .4rem;padding-inline:1rem}
+  .site-header > :is(.row,.wrap) .brand{flex:1 1 auto;min-width:0}
+  .site-header .brand .wordmark{font-size:.9rem}
+  .site-header .brand{gap:.3rem}
+  .site-header .feedback-toggle,.site-header .menu-toggle{font-size:.8rem}
+  .site-header .feedback-toggle{margin-left:0}
+  .site-header .menu{margin-left:0}
+  .site-header .feedback-toggle,.site-header .menu-toggle{padding-inline:.65rem}
+  .site-header .feature-bar{order:3;flex:1 0 100%;justify-content:space-between;gap:0}
+  .site-header .feature-btn{padding:.3rem .25rem;font-size:.85rem}
+}
+
+.site-footer a{min-width:44px;justify-content:center}
+footer.site-footer nav a{min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center}

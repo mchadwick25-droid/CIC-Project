@@ -510,3 +510,17 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Not built, and why.** The tree's "Add to the table" button. Theme E recorded it as nothing built, and `atlas-v3.html` has no seat store and no tray. Building it means a shared seat store between the tree and the chooser and a tray on the tree, and Theme E left open how the tray looks on the tree and a phone and how long a held seat is remembered. Only the wording is decided here.
 
 **Checked.** In headless Chromium at 1280x800, 820x1180 and 390x844: tagline and "Shaped by" at 16 px; no sideways scroll; the button toggles, the choice survives a reload, and the plain list is one column; the new sentence shows for "josephus" and "augustine" still finds two matches; no script errors. `engine/m1/tests/test_cross_world.py` 22 pass; `tools/validate-census.mjs` 0 errors; `tools/check_live_commentary.py --enforce --base origin/main` exit 0. Not checked: real iPad or iPhone Safari, a screen reader, and the free line on a phone, where it sits below all eleven cards (about 5,500 px down).
+
+## 2026-10-20 — Header, touch targets and trays left to my judgment (Mark)
+
+**Mark's words.** "do what is easiest and cleanest to navigate, looks good and complete (know half pages in a resting state) each feature or block fits on a page or easy scroll for phones". He had been shown the report on the header height and the 38 to 40 px targets, and the free line sitting far down a phone page, and ruled none of them. This entry is his delegation applied; each choice below is mine and is open to a change order.
+
+**What changed.**
+- Header on iPads and phones: "Tell us what you think" shows as "Feedback" below 1000 px (the full words stay as its accessible name). On a phone the header is two rows (brand with Feedback and Menu, then the three feature links), 108 px at 390 wide (was 201 px). On an iPad in portrait it is one row, 64 to 68 px (was 114 px).
+- Touch targets of 44 px: the header links, Feedback and Menu, the wordmark link, the logo-replay button on the landing page, the footer links, and the narration player's play button, position bar and speed buttons.
+- Free line: on a phone it sits straight under the search bubble, above the list, instead of below all eleven cards. On wider screens it stays under "How this works".
+- Build a Table's tray: on a phone it is a compact block of about 130 px (was about 230 px, and covered the first cards); on an iPad it is one row of 64 to 69 px. The page's bottom padding follows the tray's real height.
+
+**Checked.** Headless Chromium with the real Google fonts at 360, 390, 768, 820, 1024 and 1280 px wide on the landing page, Build a Table, About and one tradition page: no sideways scroll; the header, footer and narration controls measure 44 px or more except where listed below.
+
+**Not fixed.** At 360 px wide (a common Android width) the Menu button wraps to its own row and the header is about 152 px. The About page's own header keeps its older layout (it uses 40 px links). Real devices were not tested.

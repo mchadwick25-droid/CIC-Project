@@ -131,3 +131,17 @@
 .chooser.is-plain .chooser-nav .pos,.chooser.is-plain .chooser-nav .quiet:not(.viewbtn),.chooser.is-plain .chooser-deckrow{display:none}
 .chooser.is-plain .chooser-hand{grid-template-columns:minmax(0,26rem);justify-content:center}
 .chooser.is-plain .chooser-hand .card{--lw:min(26rem,100cqw)}
+
+@media (max-width:640px){
+  .chooser-tray{padding-block:.4rem calc(.4rem + env(safe-area-inset-bottom,0px))}
+  .chooser-tray .in{gap:.2rem .6rem}
+  .chooser-tray .in>strong{display:none}
+  .chooser-tray .status{flex:1 0 100%;font-size:.9rem;line-height:1.3}
+  .chooser-tray .facilitator{flex:1 1 auto;border:0;background:none;padding-inline:0;justify-content:flex-start;text-align:left}
+  .chooser-tray .go{margin-left:auto}
+}
+@media (min-width:641px) and (max-width:999px){
+  .chooser-tray .in>strong{display:none}
+  .chooser-tray .status{flex:1 1 12rem}
+  .chooser-tray .in{flex-wrap:nowrap}
+}
