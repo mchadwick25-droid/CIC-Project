@@ -89,7 +89,16 @@ and exits before a client exists. To get one:
 
 1. The thread that needs a run stops and asks Mark in the conversation, giving the
    command, what it will measure, the models and the route (Bedrock regional or global
-   profile, or the Anthropic API), and a proposed cap.
+   profile, or the Anthropic API), and a proposed cap. With the ask, the thread writes
+   three things it has checked in this session, not recalled from memory or a log:
+   what the harness keeps if the run stops early, shown by running its tests or a dry
+   run here (the admission run keeps every completed world and writes its report
+   after each one since pull request 998; the live-turn run keeps the turns already
+   paid for); the cap's margin over the run's real cost, read from the latest ledger
+   or report for the same worlds and model, since the preflight estimate ran a third
+   under the real cost on 20 October; and that the output goes to a file and the
+   ledger path is set. A run started without that record is a breach, logged in the
+   System Hub Decision Log and named to the thread, whatever it cost.
 2. Mark approves it by name with a dollar cap, once. The approval is logged in the
    System Hub Decision Log before the run starts, so the monthly reconciliation can
    match each charge to it.

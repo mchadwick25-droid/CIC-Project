@@ -148,6 +148,7 @@ Mark's own account practices: `Build/Ministry/Operations/Standing/CiC_Usage_Disc
 3. Nothing else qualifies: no admission battery, grading run, meaning-fit measurement, baseline, or experiment, unless Mark has approved that run as a live test.
 4. If a gate in the engine can't pass without a model call, stop and ask rather than run it.
 5. Keys may stay in the shared environment. The engine refuses a model call outside a conversation unless the command carries `--live-test "<name>"` and `--cap-usd <n>`. It prints its settings first, stops at the cap, and logs the name.
+6. Before asking Mark to approve a run, check three things in this session and write them in the conversation with the ask: what the harness keeps if the run stops early, shown by a dry run or a test in this session, not recalled; the cap's margin over the run's real cost, taken from the latest ledger or report, not from an estimate; and that the output goes to a file and the ledger is kept. A run started without that record is a breach: log it in the System Hub Decision Log, named to the thread, whatever the run cost. Three runs were lost this way on 18 and 20 October.
 
 **Paid bulk runs:** anything that spends real money in bulk on a metered outside service — text-to-speech, image or model batches, anything charged per item or character.
 
