@@ -6659,3 +6659,22 @@ decides fleet-wide whether to (a) delete `statusWord` from
 meant to be. Either way, `tools/validate-census.mjs` and
 `engine/m6/tests/test_census_sync.py` need updating alongside whichever
 choice is made.
+
+---
+
+## 2026-10-21 — Church Family Tree input remapped: scrolling first, zoom second, click or tap third (option A)
+
+**Decided (Mark: "A now, B later").** Option A is a remap of today's map. The scrolling landing page (B) and the phone era feed (C) are not approved. B waits on the week 3 pilot gate, which has no numbers yet.
+
+**Built in `cic-website/atlas-v3.html`:**
+- The wheel and trackpad swipe move the map. Ctrl or Cmd with the wheel zooms, which also covers trackpad pinch.
+- New + and − buttons sit beside "Reset view".
+- Keys: arrows, Page Up, Page Down, Home and End move the map; + and − zoom. Keys do nothing while the story panel, the feedback form or a text field has focus.
+- The corner hint and the intro note now describe the new order. The hint shows the pinch line only on touch screens.
+- One-finger pan, two-finger pinch, mouse drag and the existing marker click and keys are unchanged.
+
+**Checked:** Chromium, a 1280×800 window and a 390×844 touch window, with simulated wheel, Ctrl-wheel, button clicks and key presses. Every transform changed as expected and no page errors appeared.
+
+**Not checked:** real phones, a real trackpad pinch, a screen reader, and the keys while the panel is open.
+
+**Next action:** Mark tries it on his own devices. Nothing was deployed.
