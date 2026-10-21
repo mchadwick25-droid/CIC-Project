@@ -121,3 +121,15 @@ Finding 1's remaining steps, done by Mark from the dashboards and the `cic-engin
 2. A restore drill brought each backup back into a scratch folder and matched every table's row count to the live file (`CiC_Backup_Restore_Runbook.md`, "First production upload and restore drill"). Run on production into `/tmp`, not on staging, to add no cost.
 
 Still open on finding 1: the full suspend-overwrite-resume restore has not been run for real; Go Deeper claims and the admin login file are not in the backup.
+
+## Change order — door ceiling lowered to $12 a week — 2026-10-21
+
+Converged (Mark). Change order against batch B choice 1, which set the base at $75 a week "until the pilot shows what real use costs".
+
+Reason: Mark's monthly budget is $300 ($200 Claude Code, $50 web and tools, $50 API), up to $350 if needed. The model line is $50 a month, about $12 a week. A $75 base allows about $325 a month, more than six times that line. Mark chose $12 over $23 a week (the $350 stretch spent on model calls) and over keeping $75.
+
+Changed: `door.base_weekly_usd` 75 to 12 in `engine/deeper/ops/go-deeper.yaml`, and the two assertions that pin it in `engine/api/tests/test_deeper_ops.py`. `door.daily_share` stays 0.333, so any 24 hours may spend about $4 at the base. The ceiling still grows with gifts and purchases. `engine/api/tests/test_deeper_ops.py` and `engine/deeper/tests` pass (272).
+
+Known trade-off: on a busy day the door can close early, so some visitors reach the closed-door message. Revisit at the week 3 pilot gate, once the usage ledger shows the real cost per tester.
+
+Not done here: promotion to `live` (Mark's call, `CiC_Promotion_Runbook.md`). The AWS Budget with the deny action at $50 a month is a dashboard step for Mark, and its existence is unchecked.
