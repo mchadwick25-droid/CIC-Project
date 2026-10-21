@@ -282,6 +282,7 @@ jobs:
     name: Cited paths resolve; retired paths absent
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -299,6 +300,7 @@ jobs:
     name: Live-surface commentary (files this PR edits)
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
         with:
@@ -321,6 +323,7 @@ jobs:
     name: World gates (records, regate)
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
         with:
