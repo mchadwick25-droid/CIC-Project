@@ -116,7 +116,7 @@ describe('the words', () => {
   afterEach(() => vi.unstubAllEnvs());
 
   it('leave out the token sentence when Go Deeper is off', () => {
-    render(<ChatInput onSend={vi.fn()} onEnd={vi.fn()} placeholder="" turns={answered} />);
+    render(<ChatInput onSend={vi.fn()} placeholder="" turns={answered} />);
     type(ask);
     expect(screen.getByText(askAgainCopy.bodyFree)).toBeInTheDocument();
   });
@@ -125,7 +125,7 @@ describe('the words', () => {
     vi.resetModules();
     vi.stubEnv('VITE_DEEPER_ENABLED', 'on');
     const { ChatInput: Input } = await import('../components/ChatInput');
-    render(<Input onSend={vi.fn()} onEnd={vi.fn()} placeholder="" turns={answered} />);
+    render(<Input onSend={vi.fn()} placeholder="" turns={answered} />);
     type(ask);
     expect(screen.getByText(askAgainCopy.body)).toBeInTheDocument();
   });
