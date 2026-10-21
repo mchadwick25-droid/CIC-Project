@@ -823,3 +823,15 @@ The project lead found these in a live app conversation. `records/worlds/pahc.ya
 Status: CLOSED for the records; OPEN for the Facilitator welcome text.
 
 The two readability findings the `pahc.force.state-pressure` rewrite removed cut the pahc count from 113 to 111, so the `m1:readability/pahc` waiver in `engine/m9/enforce.py` is tightened to 111.
+
+### OG-38. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-pahc-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 38 own-voice, 2 outsider's account marked as such, 8 unsupported, 0 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `records/pahc/quote/pahc.quote.the-memoirs-of-the-apostles-are-read.md` line 32 ("he does not call them that") is false; Justin, 1 Apology 66, says "which are called Gospels".
+- `records/pahc/story/pahc.story.quintus-recantation.md` lines 35, 38 and 57 say the letter "names a different man first"; Polycarp and Germanicus precede Quintus.
+- `records/pahc/doctrinal_witness/pahc.witness.god-and-argument.md` lines 56 to 57 ("our real fight was who should lead") conflicts with `pahc.force.boundary-drawing` line 29.
+- `records/pahc/force/pahc.force.neronian-persecution.md` lines 38 to 43: the "world's own experience" prose has no source yet is retrieved as emic.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.

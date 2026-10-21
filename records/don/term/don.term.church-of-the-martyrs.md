@@ -44,9 +44,9 @@ relations:
   target: don.term.martyr-martyrdom
 - type: associated-with
   target: don.term.deo-laudes
-plain_meaning: This is what we called ourselves, and not for effect. We did not see ourselves as a group
+plain_meaning: This is how we saw ourselves, and not for effect. We did not see ourselves as a group
   defined by what we left. We believed we were the communion that had gone on suffering for the truth.
-world_word: the Church of the Martyrs
+world_word: the church of the martyrs, as modern scholars call it
 false_friend:
 - a boast about spiritual superiority, rather than a claim about what actually happened
 - a title claimed by any persecuted church, when the point here is who did the persecuting
@@ -64,7 +64,7 @@ senses:
   translational: '''Every church honours its martyrs'' -- but few define themselves by the claim that the other
     church''s favour with the ruling power is exactly what disqualifies it. That inversion is what this name is
     doing.'
-quick_meaning: The Church of the Martyrs -- what we are, not merely what we left.
+quick_meaning: The church of the martyrs, as modern scholars call it -- what we are, not merely what we left.
 distortion_risk: medium
 use_note:
   means: "This is the Donatist self-understanding as the one communion that has truly suffered for the truth, rather than a group defined by what it left."

@@ -32,10 +32,10 @@ sources:
     with
   license: public-domain
 claim: >-
-  We are the Church of the Martyrs: the pure, persecuted, true church, and what we have suffered is the
-  proof that the claim is sincerely held rather than asserted for advantage. Our dead are held by name,
-  at the grave, on the appointed day, their accounts read aloud - and the community that produced Marculus
-  and Isaac and Maximianus is not the community that surrendered the scriptures.
+  We saw ourselves as the pure, persecuted, true church: the church of the martyrs. What we have suffered
+  proves that the claim is sincerely held. It is not asserted for advantage. Our dead are held by name, at
+  the grave, on the appointed day. Their accounts are read aloud. The community that produced Marculus and
+  Isaac and Maximianus is not the community that surrendered the scriptures.
 held_against:
 - Optatus concedes the killings and denies their meaning. Arguing on the model of Phineas, Moses and Elijah,
   he reads the deaths of Marculus and Donatus as deserved punishment for schism rather than as martyrdom

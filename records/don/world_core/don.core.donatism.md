@@ -84,7 +84,8 @@ horizon: >-
   No unbroken line to any church of today is on record at any point. This is not a living tradition
   today: no church now living holds a documented line back to it.
 
-  This world calls itself the Church of the Martyrs: the pure, persecuted, true church. In its own
+  This world sees itself as the pure, persecuted, true church. Modern scholars sum this up as the
+  Church of the Martyrs, but that phrase is their summary, not a quoted title. In its own
   eyes, it holds an unbroken line of ordination, free of any traditor. It sees its rival as tainted
   and, from 312 onward, as in favor with the state.
 formation_logic: >-

@@ -10,8 +10,8 @@ confidence:
   citation_specificity: B
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
-  formation_confidence: Documented
-  divergence_note: "Documented for the historical fact itself (the Diocletianic persecution's end and Constantine's toleration, 311-313) - among the best-attested facts of this period, per Doc_01 SS7, though this build carries no dedicated vendored or consult-only source specifically on the persecution/toleration as a general historical event; this is background history, not desert-corpus material, and is cited to Doc_01 SS7 rather than to a registered source record. Reported-Experience Status applies to the world's-own-experience half: this world's own vocabulary of ascetic struggle as martyrdom's successor is formationally central and consistently attested in the tradition's own idiom (Antony's combat, the sayings tradition's own terms), even though no single source in this corpus states the equivalence as formal doctrine - documented here as this world's own self-understanding, not asserted as settled historical thesis. The specific 'white martyrdom' phrase itself remains without a citable anchor anywhere in this corpus and is not used in this record's own compiled fields for that reason."
+  formation_confidence: Inferential-Thin
+  divergence_note: "Documented for the historical fact itself (the Diocletianic persecution's end and Constantine's toleration, 311-313) - among the best-attested facts of this period, per Doc_01 SS7, though this build carries no dedicated vendored or consult-only source specifically on the persecution/toleration as a general historical event; this is background history, not desert-corpus material, and is cited to Doc_01 SS7 rather than to a registered source record. Reported-Experience Status applies to the world's-own-experience half: this world's own vocabulary of ascetic struggle as martyrdom's successor is formationally central and consistently attested in the tradition's own idiom (Antony's combat, the sayings tradition's own terms), even though no single source in this corpus states the equivalence as formal doctrine - documented here as this world's own self-understanding, not asserted as settled historical thesis. Because that equivalence is this record's own inference, the record as a whole is rated Inferential-Thin. The specific 'white martyrdom' phrase itself remains without a citable anchor anywhere in this corpus and is not used in this record's own compiled fields for that reason."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS8-9, SS12-13, SS23 - the combat and general spiritual-warfare vocabulary this world's own tradition uses for interior struggle; SS46-47 - the vendored daily-martyrdom passage itself ('there daily a martyr to his conscience'), this corpus's single nearest textual instance of the succession this force exists to document"
@@ -20,7 +20,7 @@ sources:
   locus: "the sayings tradition's own recurring combat idiom, applied cross-strand (compiler-mediated, per this source's own compiler screen)"
 name: "The end of persecution, closing off martyrdom as an available path [1A - initiating/external]"
 kind: initiating
-description: "The last empire-wide persecution (303-311/313) ended and Constantine's toleration removed the political conditions under which martyrdom had been a live, structurally available path to total Christian self-offering. In the world's own experience, this was not felt as a neutral relief: the tradition's own vocabulary of demonic combat and interior warfare - Antony's own struggle at the tombs and in the fort - reads as this world's own chosen continuity with martyrdom, total confrontation relocated from an external persecutor to the interior life, rather than an imported analogy supplied from outside the tradition."
+description: "The last empire-wide persecution (303-311/313) ended. Constantine's toleration then removed the political conditions that had made martyrdom a live path. It had been a structurally available way for a Christian to give all. In the world's own experience, this was not a neutral relief. The tradition speaks of demonic combat and inner war. Antony's struggle at the tombs and in the fort is one case. This record infers that the world chose this as its own link to martyrdom. The total confrontation moved from an outside persecutor to the inner life. It was not an analogy from outside the tradition."
 matrix_cell: 1A
 manifestations:
 - "the systematic persecution's own end, c. 311-313, removing an external total-offering path that had previously existed"
@@ -40,6 +40,8 @@ relations:
 - type: associated-with
   target: desert.story.antony-tomb-combat
 ---
+Athanasius makes the link once, for Antony alone (Life 46 to 47). No source in this corpus states it for the movement as a whole. The end of persecution is documented.
+
 Re-derived from the prior build's cleared Doc_08 Cell 1A-i (three review
 rounds), itself drawing on Doc_01 SS7's own framing of this world's
 founding problem: "the practical and theological problem of how to

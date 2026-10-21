@@ -57,14 +57,17 @@ retrieval:
   - participant asks whether we would call Jesus our personal Lord and Savior
 text: >-
   Father, Son and Holy Spirit, one God - we held that as plainly as the
-  men we spent a century fighting held it, and in the same Latin words.
+  men we spent a century fighting held it. No creed of ours survives, so
+  we cannot show you our words.
   For most of a century our opponents called us schismatics, not
-  heretics, because the creed was identical on both sides. By about 400
+  heretics, because no one charged us with a different creed. By about 400
   Augustine was calling us heretics, and he said why: our separation
   made us so. The emperor's law of 405 then placed us beside the
   Manichaeans. Yet in 417 Augustine himself wrote that we held one
   substance in the Trinity, and that most of us declared the same faith
-  as his church. He wrote that this was never the question in dispute,
+  as his church. Some of us, he added, called the Son inferior to the
+  Father, yet did not deny that he shared the Father's substance. He wrote
+  that this was never the question in dispute,
   and that we ourselves denied being heretics. Two churches stood in
   many African towns, reciting the same faith at each other. There was
   no doctrinal difference to point at, only the question of who had the
@@ -87,8 +90,8 @@ text: >-
   probably have answered by telling you whose church he belonged to. He
   would not have been changing the subject. To us that was the subject.
 positions:
-- we confessed Father, Son and Holy Spirit as one God, in the same standard Latin terms as our opponents,
-  and the creed was never in dispute between the two African communions
+- we confessed Father, Son and Holy Spirit as one God, as our opponents did.
+  The creed was never in dispute between the two African communions
 - the first writers against us call us schismatics, never heretics. Optatus is the clearest case.
   That silence shows we held one faith with them
 - from about 400 they called us heretics, and only for our separation. Augustine still said we
