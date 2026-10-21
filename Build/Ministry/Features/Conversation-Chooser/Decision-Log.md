@@ -595,3 +595,11 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** Until the cards have loaded, the chooser on the landing page now keeps 90% of the screen height free, so the Family Tree preview stays below the first screen instead of showing right under the headline and then being pushed down. When the cards arrive, or the load fails and the fallback line shows, the reserved space is released. Only the landing page's chooser is affected.
 
 **Checked.** In a headless browser on a slowed connection, the preview started about 234 pixels down before the change and about 1,048 pixels down after it, below the first screen on a 900-pixel window and on a phone. Once loaded, the page measures as before. Not checked: a real phone on a slow network.
+
+## 2026-10-20 — The landing page draws its own scroll rail (Mark)
+
+**Mark's words.** "i still dont see a way to scroll the page on a computer without a mouse". Asked which to add, he chose "Drawn scroll rail".
+
+**What changed.** The landing page now draws a slim scroll rail on the right edge, 18 pixels wide, in the page's own colours. Drag the thumb, or click the rail above or below it to move a screen at a time. With the rail focused, the arrow keys, Page Up, Page Down, Home and End also move the page. The thumb has a minimum size so it stays easy to grab. The rail hides when the page is shorter than the window. The browser's own scroll bar is hidden on this page, so the two never show together; the trackpad, wheel and touch still scroll as before. This replaces the browser-drawn bar added earlier today, which some browsers hide. Landing page only: `index.html` and the new `assets/page-rail.js`.
+
+**Checked.** In a headless browser at 1440, 1024 and 390 pixels wide: dragging the thumb, clicking the rail and the keys all moved the page, the wheel still worked, nothing scrolled sideways and there were no script errors. Not checked: a real trackpad, Safari on a Mac, a screen reader.
