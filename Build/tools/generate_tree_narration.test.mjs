@@ -1,18 +1,18 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'path';
-import { parseArgs, requirePaidSettings, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings } from './generate_tree_narration.mjs';
+import { parseArgs, requireApprovedRun, requirePaidSettings, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings } from './generate_tree_narration.mjs';
 
 function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
 }
 
 test('parseArgs: defaults with no flags', () => {
-  assert.deepEqual(parseArgs([]), { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null });
+  assert.deepEqual(parseArgs([]), { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null });
 });
 
 test('parseArgs: recognizes every flag', () => {
-  assert.deepEqual(parseArgs(['--dry-run', '--only', 'alx', '--limit', '5', '--char-budget', '20000', '--force', '--voice-id', 'v1', '--model', 'm1']), {
+  assert.deepEqual(parseArgs(['--dry-run', '--only', 'alx', '--limit', '5', '--char-budget', '20000', '--force', '--voice-id', 'v1', '--model', 'm1', '--approved-run', 'tree batch 3', '--char-cap', '9000']), {
     dryRun: true,
     only: 'alx',
     limit: 5,
@@ -20,6 +20,8 @@ test('parseArgs: recognizes every flag', () => {
     force: true,
     voiceId: 'v1',
     model: 'm1',
+    approvedRun: 'tree batch 3',
+    charCap: 9000,
   });
 });
 
@@ -263,4 +265,18 @@ test('requirePaidSettings: refuses a missing voice or model, never reads the env
   } finally {
     if (saved === undefined) delete process.env.ELEVENLABS_VOICE_ID; else process.env.ELEVENLABS_VOICE_ID = saved;
   }
+});
+
+test('requireApprovedRun: refuses a run with no approved name or no cap', () => {
+  assert.throws(() => requireApprovedRun({ approvedRun: null, charCap: 1000 }, 10), /--approved-run/);
+  assert.throws(() => requireApprovedRun({ approvedRun: '', charCap: 1000 }, 10), /--approved-run/);
+  assert.throws(() => requireApprovedRun({ approvedRun: '--char-cap', charCap: 1000 }, 10), /--approved-run/);
+  for (const charCap of [null, 0, -5, 2.5, NaN]) {
+    assert.throws(() => requireApprovedRun({ approvedRun: 'r', charCap }, 10), /--char-cap/);
+  }
+});
+
+test('requireApprovedRun: refuses a run that plans more characters than its cap', () => {
+  assert.throws(() => requireApprovedRun({ approvedRun: 'r', charCap: 100 }, 101), /plans 101 characters, over its --char-cap of 100/);
+  requireApprovedRun({ approvedRun: 'r', charCap: 100 }, 100);
 });
