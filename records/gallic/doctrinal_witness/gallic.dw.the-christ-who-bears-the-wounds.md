@@ -99,7 +99,7 @@ positions:
 - the Christ we confessed is the crucified one - Martin would not own a Christ in purple and a crown, only one bearing the marks of his wounds (his own words as Sulpitius reports them from his lips)
 - Christ is met in the poor and the guest - the beggar's half of the cloak at Tours; the fast broken in Egypt because receiving Christ in the guest we ought to refresh him, carried to Gaul in Cassian's book
 - what he taught that mattered most - what is done to the least is done to him; without me ye can do nothing, set under every virtue beside not I, but the grace of God with me
-- his death and rising were held at the hours - the sixth-hour offering that took away the unpayable debt; the ninth-hour descent; his soul not left in hell; his life laid down and taken up of his own will - given by Cassian as the reason the day hours are kept in the monasteries of Palestine, Mesopotamia and the East
+- his death and rising were held at the hours. The sixth-hour offering took away the debt. The ninth-hour descent did not leave his soul in hell. He laid down his life and took it up of his own will. Cassian gives this as the reason for the day hours of the East
 - the good news - he calls the ignorant and unwilling and draws them toward salvation; none perish by his will
 tensions:
 - we have no treatise on what his death accomplished; the sixth-hour sentence about the debt taken away is the nearest our own read books come, and it is Cassian's reason for hours of prayer he took from Palestine and Mesopotamia; it explains an hour of prayer and is not a teaching on what his death achieved
