@@ -168,6 +168,56 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 .hl:hover .hl-note,.hl:focus .hl-note{display:block}
 @media (hover:none){.hl{cursor:pointer}}
 @media (max-width:600px){.hl-note{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));top:auto;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:auto}}
+/* Wide layout: the page is about the tradition and fills the screen. */
+:root{--gold:#D9B35C}
+.site-header .row,.site-footer .row{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
+.door{padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
+main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
+.era-band{background:var(--era,#D9B35C);color:#1a140e;font-family:var(--sans);font-weight:700;font-size:.875rem;letter-spacing:.12em;text-transform:uppercase;display:flex;justify-content:space-between;gap:1rem;padding:.55rem 1rem;border-radius:.3rem .3rem 0 0;margin-top:1rem}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) clamp(19rem,26vw,30rem);gap:clamp(1.4rem,4vw,3.5rem);align-items:start;border:1px solid var(--rule);border-top:0;border-radius:0 0 .3rem .3rem;background:var(--surface);padding:clamp(1.4rem,4vw,3rem)}
+.hero h1{font-size:clamp(2.6rem,6vw,4.6rem);line-height:1.02;font-weight:600;margin:0 0 .3rem}
+.hero .ident{font-family:var(--sans);font-size:.875rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:0 0 .6rem}
+.hero .formal{font-style:italic;color:var(--muted);font-size:1.3rem;margin:0 0 1.2rem}
+.hero .tile{font-size:clamp(1.1rem,1.3vw,1.3rem);line-height:1.6;max-width:64rem;margin:0}
+.hero .to-story{margin:1.4rem 0 0;font-family:var(--sans);font-weight:700}
+.side{display:grid;gap:1.2rem}
+.facts{border:1px solid var(--gold);border-radius:.5rem;background:var(--ground);padding:1.2rem 1.3rem;font-family:var(--sans);font-size:1rem;line-height:1.45}
+.facts h2{font-family:var(--serif);font-size:1.4rem;margin:0 0 .8rem}
+.facts dl{margin:0;display:grid;gap:.85rem}
+.facts dt{font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.facts dd{margin:.1rem 0 0}
+.facts .tree{display:inline-block;margin-top:1rem;font-weight:700}
+.facts .span{margin:0 0 1.1rem}
+.facts .span svg{display:block;width:100%;height:auto}
+.facts .span text{font-family:var(--sans);font-size:11px;fill:var(--muted)}
+.facts .span .bar{fill:var(--gold)}
+.facts .span .axis{stroke:var(--rule);stroke-width:2}
+.meet{border:1px solid var(--rule);border-radius:.5rem;background:var(--ground);padding:1rem 1.1rem;display:grid;grid-template-columns:auto 1fr;gap:.6rem 1rem;align-items:center;font-family:var(--sans)}
+.meet img{width:4.6rem;height:5.6rem;object-fit:cover;object-position:50% 12%;border-radius:.35rem;border:1px solid var(--gold)}
+.meet-name{font-family:var(--serif);font-size:1.25rem;line-height:1.2;margin:0}
+.meet .acts{grid-column:1/-1;display:flex;gap:1.4rem;justify-content:center}
+.act{display:flex;flex-direction:column;align-items:center;gap:.3rem;width:4.6rem;text-decoration:none;color:var(--text);font-weight:700;font-size:.95rem}
+.act .disc{width:3.4rem;height:3.4rem;border-radius:50%;border:1.5px solid var(--gold);display:grid;place-items:center;background:var(--surface);color:var(--gold)}
+.act.primary .disc{background:var(--btn-fill);border-color:var(--btn-edge);color:var(--btn-text)}
+.act svg{width:1.5rem;height:1.5rem;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.act:hover .disc,.act:focus-visible .disc{box-shadow:0 0 0 3px var(--gold)}
+.article{display:grid;grid-template-columns:clamp(11rem,12vw,16rem) minmax(0,1fr);column-gap:clamp(1.2rem,3vw,3rem);margin-top:3rem;align-items:start}
+.article>.rail{grid-column:1;grid-row:1/span 12;position:sticky;top:1rem;font-family:var(--sans);font-size:.98rem}
+.article>section{grid-column:2;margin:0 0 3.5rem;scroll-margin-top:1rem}
+.rail p{margin:0 0 .6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem;color:var(--muted)}
+.rail ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--rule)}
+.rail li a{display:block;padding:.35rem .9rem;color:var(--muted);text-decoration:none}
+.rail li a:hover,.rail li a:focus-visible{color:var(--text)}
+.article h2{font-size:2rem;margin:0 0 1rem}
+.article .reading{column-width:34rem;column-gap:clamp(2rem,4vw,4.5rem);max-width:none}
+.article .reading>.narration{column-span:all}
+.article .reading p{break-inside:avoid-column}
+.orient-voices{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,18rem),1fr));gap:1.2rem}
+.orient-voice{max-width:none;border:1px solid var(--rule);border-top:3px solid var(--gold);border-radius:.4rem;background:var(--surface);padding:1rem 1.2rem}
+.docstories-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,24rem),1fr));gap:1.2rem;max-width:none}
+.orient-relations,.orient-read-first,.orient-pull-quotes{max-width:none}
+@media (max-width:1180px){.article{display:block}.article>.rail{display:none}}
+@media (max-width:900px){.hero{grid-template-columns:1fr}}
 /* END orientation-content-css */
 
 .feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.2rem}
@@ -215,48 +265,51 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </ol>
     </nav>
 
-    <div class="titleblock">
-      <div>
-        <p class="ident">The Early Church Era · 70–200 CE · Antioch, Asia Minor, Rome</p>
+    <div class="era-band" style="--era:#C9973A"><span>I. The Early Church</span><span>70-312 CE</span></div>
+    <div class="hero">
+      <div class="hero-main">
+        <p class="ident">70–200 CE &middot; Antioch, Asia Minor, Rome</p>
         <h1>The Scattered Households</h1>
         <p class="formal">Post-Apostolic Household-Church Christianity</p>
-        <p class="status">Open for conversation — you can sit down with this tradition now.</p>
-        <p class="tile">In Antioch, Asia Minor, and Rome, between about 70 and 200 CE, house churches grew up on their own. No single power ruled over them — letters carried by couriers held the network together instead. Once the apostles died, how to lead a church was never settled. Some followed a single bishop with elders beside him, others a council of elders alone. In Corinth, some elders were removed from office — an account that survives only in Rome's own letter asking for them back. That letter used real command language — “submit,” “receive correction” — but Rome claimed no formal power to force it. Corinth's own side is not preserved. They marked the Lord's Supper in different ways, too. One early manual gives thanks over the cup before the bread. Neither blessing tells the story of the Last Supper. Following Jesus could mean real danger: in one province, a governor had members questioned under torture, and in another, a bishop was marched under armed guard toward Rome. But this danger came and went — never constant, never empire-wide.</p>
+        <p class="tile">In Antioch, Asia Minor, and Rome, between about 70 and 200 CE, house churches grew up on their own. No single power ruled over them — letters carried by couriers held the network together instead. Once the apostles died, how to lead a church was never settled. Some followed a single bishop with elders beside him, others a council of elders alone. In Corinth, some elders were removed from office — an account that survives only in Rome&#x27;s own letter asking for them back. That letter used real command language — “submit,” “receive correction” — but Rome claimed no formal power to force it. Corinth&#x27;s own side is not preserved. They marked the Lord&#x27;s Supper in different ways, too. One early manual gives thanks over the cup before the bread. Neither blessing tells the story of the Last Supper. Following Jesus could mean real danger: in one province, a governor had members questioned under torture, and in another, a bishop was marched under armed guard toward Rome. But this danger came and went — never constant, never empire-wide.</p>
+        <p class="to-story"><a href="#story">Listen to the story</a></p>
       </div>
-      <aside class="plate" aria-label="Portrait">
-        <figure>
-          <img src="../assets/portraits/house-churches.png" alt="Chloe: a woman in a veil drawn up over her head and a rose-colored tunic, holding a plain cup in both hands, painted against a warm neutral ground." width="530" height="530">
-          <figcaption><b>Chloe, Household Leader.</b> A representative voice for an uncommon faith in scattered households, one body connected by letters and a shared table.</figcaption>
-        </figure>
-      </aside>
+      <div class="side">
+        <aside class="facts" aria-labelledby="facts-title">
+          <h2 id="facts-title">At a glance</h2>
+          <div class="span"><svg viewBox="0 0 300 54" role="img" aria-label="70–200 CE on a line from 0 to 2000 CE"><line class="axis" x1="10" y1="22" x2="290" y2="22"/><rect class="bar" x="19.8" y="14" width="18.2" height="16" rx="3"/><text x="10.0" y="46" text-anchor="start">0</text><text x="80.0" y="46" text-anchor="middle">500</text><text x="150.0" y="46" text-anchor="middle">1000</text><text x="220.0" y="46" text-anchor="middle">1500</text><text x="290.0" y="46" text-anchor="end">2000</text></svg></div>
+          <dl>
+          <div><dt>Period</dt><dd>70–200 CE</dd></div>
+          <div><dt>Place</dt><dd>Antioch, Asia Minor, Rome</dd></div>
+          <div><dt>Era</dt><dd>I. The Early Church</dd></div>
+          <div><dt>Also known as</dt><dd>House churches; Ekklesia; The Catholic Church (Ignatius)</dd></div>
+          <div><dt>Shaped by</dt><dd>Ignatius, Justin, Polycarp</dd></div>
+          </dl>
+          <a class="tree" href="../tree/post-apostolic-house-church.html">See it on the Church Family Tree &rarr;</a>
+        </aside>
+        <div class="meet" role="group" aria-label="Meet Chloe">
+          <img src="../assets/portraits/house-churches.png" alt="Chloe: a woman in a veil drawn up over her head and a rose-colored tunic, holding a plain cup in both hands, painted against a warm neutral ground." width="573" height="573">
+          <p class="meet-name">Chloe</p>
+          <div class="acts">
+            <a class="act primary" id="seat-begin" href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html" data-ask aria-label="Talk with Chloe"><span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h16v11H10l-5 4v-4H4z"/></svg></span>Talk</a>
+            <a class="act" href="../table.html?worlds=post-apostolic-house-church" aria-label="Add Chloe to a table"><span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v8M8 9h8M6 21v-5h12v5"/></svg></span>Table</a>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <p class="tree-link"><a href="../tree/post-apostolic-house-church.html">View this tradition in the Church Family Tree</a></p>
-
-
-
-    <p class="ai-line">Chloe is a representative voice for this tradition, not a person who lived — built from its own letters and records, and honest about where they run out.</p>
 
     <div class="held" id="held" hidden>
       <p class="k">Your question, held:</p>
       <p class="q" id="held-q"></p>
       <a class="edit" id="held-edit" href="../index.html">Edit it</a>
     </div>
-
-    <div class="seat" role="region" aria-label="Chloe is seated">
-      <p class="seated">Chloe is seated. Begin when you're ready — or read on.</p>
-      <a class="btn quiet" id="seat-begin" href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html" data-ask>Begin a conversation with Chloe</a>
-    </div>
   </div>
 
   <div class="page">
     <div class="article">
-      <!-- This is a safety disclosure, not
-           gap/thinness content, and CLAUDE.md's own safety priority holds
-           regardless of what else moves. -->
-      <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+      <nav class="rail" aria-label="On this page"><p>On this page</p><ol><li><a href="#story">The story</a></li><li><a href="#people">People</a></li><li><a href="#stories">Stories in full</a></li><li><a href="#after">What came after</a></li><li><a href="#related">Related traditions</a></li><li><a href="#terms">Terms and quotes</a></li></ol></nav>
 
-      <section aria-labelledby="story-title">
+      <section id="story" aria-labelledby="story-title">
         <p class="eyebrow">The Story</p>
         <h2 id="story-title">How this tradition took shape</h2>
         <div class="reading"><div class="narration"><audio controls preload="none" src="../audio/worlds/post-apostolic-house-church/story.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>From about 70 to 200 CE, Christians gathered in households. They lived in <span class="hl" tabindex="0">Antioch<span class="hl-note" role="tooltip"><b>Antioch</b>A great trading city of Syria, and the city of the bishop Ignatius. Its site is now Antakya, in today&#39;s Turkey.<small>Place · pleiades.stoa.org</small></span></span> and Syria, in the cities of western Asia Minor, and in Rome. Letters and travelers kept them joined as one. The last of the apostles&#39; generation was passing, and no central body ruled these churches.</p>
@@ -269,8 +322,8 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <p>By about 200, one bishop was becoming the dominant pattern, even in Rome. One modern scholar, <span class="hl" tabindex="0">Peter Lampe<span class="hl-note" role="tooltip"><b>Peter Lampe</b>A modern scholar of the early church at Rome. He reads it as many small household groups that only slowly came under one bishop.<small>Person</small></span></span>, thinks Rome may not have had a single bishop before Victor, its bishop from 189 to 199. The texts of these churches do not say how or when Rome changed. From about 180, writers in other regions argued from an apostolic line they treated as already secure.</p></div>
       </section>
 
-      <section aria-labelledby="voices-title">
-        <p class="eyebrow">Voices</p>
+      <section id="people" aria-labelledby="voices-title">
+        <p class="eyebrow">People</p>
         <h2 id="voices-title">The people behind this account</h2>
         <div class="orient-voices">
       <div class="orient-voice">
@@ -292,7 +345,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </div>
       </section>
 
-      <section aria-labelledby="documented-stories-title">
+      <section id="stories" aria-labelledby="documented-stories-title">
         <p class="eyebrow">Documented stories</p>
         <h2 id="documented-stories-title">Stories worth telling in full</h2>
         <div class="docstories-row">
@@ -419,39 +472,21 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </div>
       </section>
 
-      <section aria-labelledby="legacy-title">
+      <section id="after" aria-labelledby="legacy-title">
         <p class="eyebrow">Legacy</p>
         <h2 id="legacy-title">What came after</h2>
         <div class="reading"><div class="narration"><audio controls preload="none" src="../audio/worlds/post-apostolic-house-church/legacy.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>This world&#39;s own authority question did not stay open forever. By around 200 CE, one bishop had become the common pattern almost everywhere, including in Rome. Rome had once been led by a council of elders, with nothing felt to be missing. No text says how or when that change was actually felt. Only the older, argued option&#39;s own quiet disappearance is visible.</p>
       <p>This world&#39;s own texts did not survive evenly. Ignatius&#39;s letters mattered so much to the later, settled office he argued for that it took a two-century scholarly fight just to prove they were genuine. First Clement was copied into a great Bible manuscript. The Shepherd of Hermas was once read as scripture by three major later teachers. Later, it was moved instead to the shelf newcomers were given to read - a real demotion, though not the outright ban later memory sometimes assumes. The Didache, this world&#39;s own teaching manual, disappeared from use for roughly eighteen centuries. What survived best was not always what mattered most at the time. It was what a later settlement found useful to keep.</p></div>
       </section>
 
-      <section aria-labelledby="relations-summary-title">
-        <p class="eyebrow">In its own record</p>
-        <h2 id="relations-summary-title">How this world relates to others</h2>
+      <section id="related" aria-labelledby="relations-summary-title">
+        <p class="eyebrow">Related traditions</p>
+        <h2 id="relations-summary-title">How this tradition relates to others</h2>
         <p class="orient-relations"><i>This world&#39;s own record closes just as a different Christian world takes shape in Alexandria. That world formed people through one teacher&#39;s close relationship with a student, not through letters and household worship. This world&#39;s own texts never mention it at all. One figure here, Justin, also belongs to a second, not-yet-built tradition: philosophers who argued directly with Roman emperors. This world uses only what his writing happens to say about worship and about rival teachers. It does not use his fuller philosophical argument.</i></p>
       </section>
 
-      <section aria-labelledby="sourcing-title">
-        <p class="eyebrow">Sources</p>
-        <h2 id="sourcing-title">What this account is built from</h2>
-        <div class="reading"><p>This world&#39;s record is moderate to rich on communal life - letters, church order, worship practice - but its most vivid material leans on one contested corpus: Ignatius&#39;s seven letters, whose authorship and dating remain a genuine, three-way dispute among scholars. Individual, first-person voice stays thin throughout. No woman speaks in her own words. No enslaved member does either - two enslaved women are named only by their torturer&#39;s own word for their office. No non-literate believer, who made up most of this movement, speaks for themselves at all. What survives is a city record, written by the literate few.</p>
-      <ul class="orient-read-first">
-      <li><span class="orient-read-first-work">Ignatius of Antioch, the seven letters (shorter recension), Ante-Nicene Fathers vol. 1 (1885), Roberts-Donaldson series</span> <span class="orient-read-first-note">This world&#39;s sharpest surviving voice, and its most contested - a corpus urgently arguing for one-bishop unity, under a genuine three-way scholarly dispute over who wrote it and when.</span></li>
-      <li><span class="orient-read-first-work">First Epistle of Clement to the Corinthians, trans. Roberts-Donaldson, Ante-Nicene Fathers vol. 1 (1885); the portion recovered from Codex Hierosolymitanus, rev. John Keith, Ante-Nicene Fathers vol. 9 (1896)</span> <span class="orient-read-first-note">Rome&#39;s own long letter correcting a sister church, in a plural elders&#39; own voice - this world&#39;s earliest surviving Christian writing outside the New Testament, and its clearest picture of a council-governed community.</span></li>
-      <li><span class="orient-read-first-work">Pliny the Younger, Letters 10.96-10.97, with Trajan&#39;s rescript, as printed in A. C. McGiffert&#39;s note to Eusebius, Church History III.33, Nicene and Post-Nicene Fathers, 2nd series, vol. 1 (1890)</span> <span class="orient-read-first-note">The one outside account of this world&#39;s worship, and its harshest evidence: what a Roman governor learned about a Sunday gathering by torturing two enslaved women, and the emperor&#39;s own reply telling him not to go looking for more.</span></li>
-      </ul></div>
-      </section>
-
-      <!-- Judgment call (flagged in this generator's own report): the glossary
-           and pull-quotes fields are the two world_front units with no
-           dedicated section of their own. Rather than two more
-           full-width sections, they share one compact strip - pull quotes as
-           blockquotes, then a small glossary grid - placed after Sources and
-           before the closing Questions section. -->
-
-      <section aria-labelledby="glossary-and-quotes-title">
-        <p class="eyebrow">In this world's own words</p>
+      <section id="terms" aria-labelledby="glossary-and-quotes-title">
+        <p class="eyebrow">In its own words</p>
         <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
         <div class="orient-pull-quotes">
       <blockquote class="orient-pull-quote"><p>So I thought it all the more needed to question two female slaves. They were called deaconesses, ministrae. I did this even with torture, to find out the truth. But I found nothing but a depraved superstition that went too far. So I have put off further inquiry, and I have turned to you for advice.</p><cite>Pliny the Younger, governor of Bithynia, to the emperor Trajan</cite></blockquote>
@@ -467,16 +502,6 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </dl>
       </section>
 
-      <section aria-labelledby="questions-title">
-        <p class="eyebrow">Questions people bring to this table</p>
-        <h2 id="questions-title">Start with the hard one</h2>
-        <ul class="questions">
-      <li><a href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html#q=Who%20was%20Jesus%2C%20to%20you%20and%20your%20people%3F" data-question>Who was Jesus, to you and your people?<span class="vh"> — ask Chloe</span></a><span class="from">doctrinal witness: “One of us, Ignatius, put it with great force. Jesus was truly born, of Mary, from the line of David. He truly ate and drank.”</span></li>
-      <li><a href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html#q=Was%20Jesus%20God%3F%20Did%20you%20believe%20in%20the%20Trinity%3F" data-question>Was Jesus God? Did you believe in the Trinity?<span class="vh"> — ask Chloe</span></a><span class="from">doctrinal witness: “Ignatius called Jesus Christ our God again and again, in how he opened his letters and in how he closed them.”</span></li>
-      <li><a href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html#q=I%20want%20to%20believe%20in%20Jesus%2C%20but%20I%20can&#39;t.%20What%20would%20you%20say%20to%20me%3F" data-question>I want to believe in Jesus, but I can&#39;t. What would you say to me?<span class="vh"> — ask Chloe</span></a><span class="from">doctrinal witness: “We cannot promise you a moment of sudden certainty. For the one among us who wrote about it, belief came at the end of a long search.”</span></li>
-      </ul>
-      </section>
-
     </div>
   </div>
 </main>
@@ -488,7 +513,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
     <a class="btn" id="door-begin" href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html" data-ask>Begin a conversation with Chloe</a>
   </div>
   <p class="also">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
-  <p class="also"><a href="../index.html#who">The other voices →</a></p>
+  <p class="also"><a href="../index.html#who">The other traditions →</a></p>
 </section>
 
 <footer class="site-footer">

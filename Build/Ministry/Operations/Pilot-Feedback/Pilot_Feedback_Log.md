@@ -72,3 +72,17 @@ Source: Mark, from his iPad photos. Not sorted yet; Mark is collecting before an
 - Thread ownership (Mark, 2026-10-20): working set is four threads; triage thread settles the 7 shared commits; Theme B engine work on hold. See Pilot_Feedback_Decisions.md.
 - Decision (2026-10-20): Theme F (items 18, 25) converged by Mark. Record: Pilot_Feedback_Decisions.md. Nothing written, generated or spent.
 - Decision (2026-10-20): Theme G (item 9, and the funding half of item 25) converged by Mark. Landing line: "Free to start. Add more any time." Record: Pilot_Feedback_Decisions.md. Nothing built.
+- Change order (Mark, 2026-10-20): story teasers dropped from the landing page in favour of the chooser's spacing and card descriptions; "Tell us what you think" stays in the masthead. See Pilot_Feedback_Decisions.md.
+- Clarification (Mark, 2026-10-20): the cards scroll and click to pull forward. Recorded under Theme E in Pilot_Feedback_Decisions.md.
+- Status (2026-10-20): PR 987 merged into main (51cbfb4c). Landing page, names line, seating and scroll built. Open: free-tokens line, card text size, tree seat button, device checks. See Pilot_Feedback_Decisions.md.
+- Item 27: Mark asks for a vertical scroll for people without a mouse wheel, on the landing page hand of cards.
+- Item 28: Mark requires the landing page and cards to work on phones, iPads, laptops and desktop computers, with no exceptions.
+- Decision (2026-10-20): Items 27 and 28 converged by Mark. Item 27 is a visible control that switches the hand to a plain top-to-bottom list on any device. Owner: the new landing page thread, with the step 4 device checks. Nothing built.
+- Decision (2026-10-20): Mark rules that the landing page thread (session_01GSkmJBxTD77vXWGm6syanq, draft PR 1004) owns edits to the chooser code from now on: chooser.js, chooser.css and index.html. The Conversation chooser research thread builds nothing until Mark says. Reason: the landing thread's branch already changes those files.
+- Correction (2026-10-20): the entry above that says the landing thread owns chooser code edits is withdrawn as a standing rule. Mark's role for the pilot-feedback thread is to track conflicts between build threads and answer ideas and questions, not to assign build ownership. Which thread builds what is Mark's call with those threads.
+
+## Status update — 2026-10-20 (items 9 and 17, list control)
+- Item 9 (Theme G): the landing line "Free to start. Add more any time." is built, under the hand.
+- Item 17 (Theme E): only the button's wording is decided ("Add to the table"). The tree button, shared seat store and tree tray are not built; the tray's look and how long a seat is remembered are still open.
+- A control that switches the hand to a top-to-bottom list on any device is built (Mark's item 27 as relayed; the log above stops at item 26). Record: `Build/Ministry/Features/Conversation-Chooser/Decision-Log.md`, 2026-10-20.
+- Item 29 (Mark, 2026-10-20): the conversation pages are too chaotic and confusing. Mark wants a simpler layout showing only needed information, with the rest optional under "go deeper", plus the token and pay-as-you-go options. A new thread is to take this. Overlaps items 1, 2, 4, 9 and 12. Not sorted. Nothing built.

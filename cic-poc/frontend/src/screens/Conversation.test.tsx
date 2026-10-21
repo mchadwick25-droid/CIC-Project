@@ -230,7 +230,7 @@ describe('Conversation - a pause at a limit', () => {
     const { container, queryByText } = render(<Conversation {...baseProps} turns={turns} />);
     expect(container.querySelector('.turn__note')?.textContent).toBe('Your tokens have run out. Add more to carry on.');
     expect(container.querySelector('textarea')).not.toBeDisabled();
-    expect(queryByText('Meet another world')).toBeNull();
+    expect(queryByText('Meet another tradition')).toBeNull();
   });
 });
 
