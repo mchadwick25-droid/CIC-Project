@@ -26,7 +26,7 @@ text: "We were not the ones who sat in council and decided what the church would
 positions:
 - "conciliar and episcopal authority decided doctrine; desert participants did not sit in council or cast a vote"
 - "the authority this world's own participants exercised was earned, not conferred by office - but it was still, on at least one occasion, formally summoned by the bishops to defend the settled faith in public"
-- "refusal of communion at home and public argument in the city were both this world's own recorded forms of doctrinal resistance, not one instead of the other"
+- "Athanasius says Antony held the faith. He refused communion with anyone who taught otherwise. He also argued in public. This was in the city, at the bishops' summons."
 tensions:
 - "person-earned discernment against office-conferred decision-making authority - the same tension that shaped how we governed ourselves, extended here to the wider church's own use of that earned authority when it needed it"
 relations:
@@ -52,5 +52,5 @@ disguises as a claim the underlying sources make directly.
 SS69, inside this record's own cited range, shows Antony summoned by
 the bishops to Alexandria to publicly argue against the Arians, teaching
 the Nicene position in positive terms - argument, at episcopal summons.
-The third position states both forms this world's record shows: refusal
+The third position states what the record shows of Antony: refusal
 of communion at home, and summoned public argument in the city.

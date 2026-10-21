@@ -4,8 +4,8 @@
  * TableRoom.test.tsx pins its own table-route rendering, so the interview
  * route's own facilitator-turn branch is covered too.
  */
-import { act, cleanup, fireEvent, render } from '@testing-library/react';
-import { afterEach, describe, expect, it, vi } from 'vitest';
+import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { Conversation } from './Conversation';
 import type { WorldEntry } from '../data/worlds';
 import type { ConversationTurn } from '../hooks/useConversation';
@@ -42,32 +42,259 @@ const baseProps = {
   onRestart: () => {},
 };
 
-describe('Conversation', () => {
-  it('shows the reply so far while the voice is still writing, and drops the waiting note', () => {
-    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
-    const { container, queryByText } = render(
-      <Conversation {...baseProps} turns={turns} isLoading streamed={[{ index: 0, speaker: 'w', lead: '', text: 'We told what we had been told.', text_start: 0, text_end: 30, elements: [], cards: [] }]} />
-    );
-    expect(container.querySelectorAll('.turn--voice')).toHaveLength(1);
-    expect(container.querySelector('.turn--voice')?.textContent).toContain('We told what we had been told.');
-    expect(queryByText(/is considering/)).toBeNull();
-  });
+const openMenu = () => fireEvent.click(screen.getByRole('button', { name: 'More' }));
+const choose = (name: string) => {
+  openMenu();
+  fireEvent.click(screen.getByRole('menuitem', { name }));
+};
 
-  it('keeps the waiting note until the first sentence of the reply arrives', () => {
-    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
-    const { container, queryByText } = render(<Conversation {...baseProps} turns={turns} isLoading streamed={[]} />);
-    expect(container.querySelectorAll('.turn--voice')).toHaveLength(0);
+const asked: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
+const sentence = (text: string) => [{ index: 0, speaker: 'fix', lead: '', text, text_start: 0, text_end: text.length, elements: [], cards: [] }];
+
+afterEach(() => {
+  cleanup();
+  vi.useRealTimers();
+  vi.unstubAllGlobals();
+});
+
+describe('Conversation - the reply', () => {
+  beforeEach(() => vi.useFakeTimers());
+
+  it('rolls the reply out word by word, and keeps the waiting note until the first words show', () => {
+    const { container, queryByText } = render(<Conversation {...baseProps} turns={asked} isLoading streamed={sentence('We told what we had been told by those who saw.')} />);
     expect(queryByText(/is considering/)).not.toBeNull();
+    expect(container.querySelector('.turn--voice')).toBeNull();
+    act(() => {
+      vi.advanceTimersByTime(400);
+    });
+    const shown = container.querySelector('.turn--voice .turn__body')?.textContent ?? '';
+    expect(shown.length).toBeGreaterThan(0);
+    expect('We told what we had been told by those who saw.'.startsWith(shown)).toBe(true);
+    expect(shown).not.toBe('We told what we had been told by those who saw.');
+    act(() => {
+      vi.advanceTimersByTime(3000);
+    });
+    expect(container.querySelector('.turn--voice .turn__body')?.textContent).toBe('We told what we had been told by those who saw.');
   });
 
+  it('hands the streamed reply on to the finished turn without starting it over', () => {
+    const text = 'We told what we had been told by those who saw.';
+    const { container, rerender } = render(<Conversation {...baseProps} turns={asked} isLoading streamed={sentence(text)} />);
+    act(() => {
+      vi.advanceTimersByTime(600);
+    });
+    const before = container.querySelector('.turn--voice .turn__body')?.textContent ?? '';
+    expect(before.length).toBeGreaterThan(0);
+    rerender(<Conversation {...baseProps} sessionId="s1" turns={[...asked, { speaker: 'fix', text }]} streamed={[]} />);
+    expect(container.querySelector('.turn--voice')?.closest('.enter')).toHaveClass('enter--open');
+    const after = container.querySelector('.turn--voice .turn__body')?.textContent ?? '';
+    expect(after.length).toBeGreaterThanOrEqual(before.length);
+    expect(after.length).toBeLessThan(text.length);
+    act(() => {
+      vi.advanceTimersByTime(5000);
+    });
+    expect(container.querySelector('.turn--voice')?.textContent).toContain(text);
+  });
+
+  it('keeps the box shut while a reply is still rolling out, then opens it', () => {
+    const text = 'One two three four five six seven eight nine ten eleven twelve.';
+    const { container, rerender } = render(<Conversation {...baseProps} turns={asked} isLoading />);
+    rerender(<Conversation {...baseProps} turns={[...asked, { speaker: 'fix', text }]} />);
+    act(() => {
+      vi.advanceTimersByTime(120);
+    });
+    expect((container.querySelector('textarea') as HTMLTextAreaElement).disabled).toBe(true);
+    for (let t = 0; t < 2500; t += 100) {
+      act(() => {
+        vi.advanceTimersByTime(100);
+      });
+    }
+    expect((container.querySelector('textarea') as HTMLTextAreaElement).disabled).toBe(false);
+  });
+
+  it('shows replies already in the record whole, with no rolling out', () => {
+    const turns: ConversationTurn[] = [...asked, { speaker: 'fix', text: 'An answer that was already here.' }];
+    const { container } = render(<Conversation {...baseProps} turns={turns} />);
+    expect(container.querySelector('.turn--voice')?.textContent).toContain('An answer that was already here.');
+  });
+
+  it('rolls out a reply that arrives whole after the screen opened', () => {
+    const text = 'One two three four five six seven eight nine ten eleven twelve.';
+    const { container, rerender } = render(<Conversation {...baseProps} turns={asked} isLoading />);
+    rerender(<Conversation {...baseProps} turns={[...asked, { speaker: 'fix', text }]} />);
+    act(() => {
+      vi.advanceTimersByTime(300);
+    });
+    const shown = container.querySelector('.turn--voice .turn__body')?.textContent ?? '';
+    expect(shown.length).toBeGreaterThan(0);
+    expect(shown.length).toBeLessThan(text.length);
+  });
+
+  it('shows a reply whole at once when the reader asks for less motion', () => {
+    vi.stubGlobal('matchMedia', (query: string) => ({ matches: query.includes('reduce'), media: query, addEventListener() {}, removeEventListener() {}, addListener() {}, removeListener() {}, dispatchEvent: () => false }));
+    const text = 'One two three four five six seven eight nine ten eleven twelve.';
+    const { container, rerender } = render(<Conversation {...baseProps} turns={asked} isLoading />);
+    rerender(<Conversation {...baseProps} turns={[...asked, { speaker: 'fix', text }]} />);
+    expect(container.querySelector('.turn--voice')?.textContent).toContain(text);
+  });
+});
+
+describe('Conversation - the page', () => {
+  it('shows one card for the voice, a slim bar, and the box under the conversation', () => {
+    const { container } = render(<Conversation {...baseProps} turns={[]} />);
+    expect(container.querySelector('.conversation__title')?.textContent).toBe('Church in Conversation');
+    expect(container.querySelectorAll('.conv-card')).toHaveLength(1);
+    expect(container.querySelector('.conv-card__name')?.textContent).toBe('Vera');
+    expect(container.querySelector('.conv-card__band')?.textContent).toBe('I. Early Church');
+    expect(container.querySelector('.conversation__transcript')?.nextElementSibling).not.toBeNull();
+    expect(container.querySelector('textarea')?.getAttribute('placeholder')).toBe('Ask Vera…');
+  });
+
+  it('shows the engine\'s welcome line until the first question, then lets it go', () => {
+    vi.useFakeTimers();
+    const door: ConversationTurn = { speaker: 'facilitator', text: 'Welcome. Ask anything you like.', kind: 'door' };
+    const { container, rerender } = render(<Conversation {...baseProps} turns={[door]} />);
+    expect(container.querySelector('.turn--welcome')?.textContent).toBe('Welcome. Ask anything you like.');
+    rerender(<Conversation {...baseProps} turns={[door, ...asked]} isLoading />);
+    expect(container.querySelector('.enter:not(.enter--open) .turn--welcome')).not.toBeNull();
+    act(() => {
+      vi.advanceTimersByTime(900);
+    });
+    expect(container.querySelector('.turn--welcome')).toBeNull();
+  });
+
+  it('carries no AI note, no suggested questions and no disclosure paragraphs on the page', () => {
+    const starters = [{ cell: 'C-I', text: 'Who was Jesus, to you and your people?' }];
+    const { container } = render(<Conversation {...baseProps} world={world({ starters })} turns={[]} />);
+    expect(container.querySelector('.ai-note')).toBeNull();
+    expect(container.querySelector('.starter-chips')).toBeNull();
+    expect(container.querySelector('.arrival__disclosure')).toBeNull();
+    expect(container.textContent).not.toMatch(/AI voice|Questions you might ask|Look for the ✲/);
+  });
+
+  it('says in one small line under the box that the voice is AI, outside the conversation', () => {
+    const { container } = render(<Conversation {...baseProps} turns={[]} />);
+    const line = container.querySelector('.conversation__ai-line') as HTMLElement;
+    expect(line.textContent).toBe('This is an AI-generated voice.');
+    expect(container.querySelector('.conversation__transcript')?.contains(line)).toBe(false);
+    expect(container.querySelector('textarea')?.compareDocumentPosition(line)).toBe(Node.DOCUMENT_POSITION_FOLLOWING);
+  });
+
+  it('keeps the AI line once the conversation is closed, and drops it when the conversation is deleted', async () => {
+    const { container, rerender } = render(<Conversation {...baseProps} turns={asked} closed />);
+    expect(container.querySelector('.conversation__ai-line')).not.toBeNull();
+    rerender(<Conversation {...baseProps} turns={asked} onDelete={async () => {}} />);
+    choose('Delete this conversation');
+    await act(async () => {
+      fireEvent.click(screen.getByRole('button', { name: 'Delete' }));
+    });
+    expect(container.querySelector('.conversation__ai-line')).toBeNull();
+  });
+
+  it('lifts the card while a sent question waits for its reply, and lets it rest otherwise', () => {
+    const { container, rerender } = render(<Conversation {...baseProps} turns={asked} />);
+    expect(container.querySelector('.conv-card--speaking')).toBeNull();
+    rerender(<Conversation {...baseProps} turns={asked} isLoading />);
+    expect(container.querySelector('.conv-card--speaking')).not.toBeNull();
+  });
+
+  it('names the arrow Send, and Sending… while a sent question waits', () => {
+    const { container, rerender } = render(<Conversation {...baseProps} turns={[]} isLoading />);
+    const send = () => container.querySelector('.composer-row button') as HTMLButtonElement;
+    expect(send().getAttribute('aria-label')).toBe('Send');
+    expect(send().disabled).toBe(true);
+    expect(container.querySelector('.waiting-note')).toBeNull();
+    rerender(<Conversation {...baseProps} turns={asked} isLoading />);
+    expect(send().getAttribute('aria-label')).toBe('Sending…');
+  });
+
+  it('offers a new conversation once it is closed', () => {
+    const { getByText } = render(<Conversation {...baseProps} turns={asked} closed />);
+    expect(getByText('Meet another world')).toBeInTheDocument();
+  });
+});
+
+describe('Conversation - the more menu', () => {
+  it('opens About with the voice and a way back', () => {
+    const { container } = render(<Conversation {...baseProps} turns={asked} />);
+    choose('About Vera');
+    const panel = container.querySelector('.conversation__panel') as HTMLElement;
+    expect(within(panel).getByText('Vera')).toBeInTheDocument();
+    expect(panel.textContent).toContain('Not saved to an account');
+    fireEvent.click(within(panel).getByText('Back to the conversation'));
+    expect(container.querySelector('.conversation__panel')).toBeNull();
+    expect(screen.getByRole('button', { name: 'More' })).toHaveFocus();
+  });
+
+  it('keeps Leave for now working while a reply is in flight', () => {
+    const onEnd = vi.fn();
+    render(<Conversation {...baseProps} turns={asked} isLoading onEnd={onEnd} />);
+    choose('Leave for now');
+    expect(onEnd).toHaveBeenCalledTimes(1);
+  });
+
+  it('offers Report a problem and Delete only once the conversation has started', () => {
+    const { rerender } = render(<Conversation {...baseProps} turns={[]} onDelete={async () => {}} />);
+    openMenu();
+    expect(screen.queryByRole('menuitem', { name: 'Report a problem' })).toBeNull();
+    expect(screen.queryByRole('menuitem', { name: 'Delete this conversation' })).toBeNull();
+    fireEvent.keyDown(screen.getAllByRole('menuitem')[0], { key: 'Escape' });
+    rerender(<Conversation {...baseProps} turns={asked} onDelete={async () => {}} />);
+    openMenu();
+    expect(screen.getByRole('menuitem', { name: 'Report a problem' })).toBeInTheDocument();
+    expect(screen.getByRole('menuitem', { name: 'Delete this conversation' })).toBeInTheDocument();
+  });
+
+  it('asks before deleting, deletes on confirm, and then says so', async () => {
+    const onDelete = vi.fn().mockResolvedValue(undefined);
+    const { container } = render(<Conversation {...baseProps} turns={asked} onDelete={onDelete} />);
+    choose('Delete this conversation');
+    expect(screen.getByText('Delete this conversation?')).toBeInTheDocument();
+    expect(onDelete).not.toHaveBeenCalled();
+    await act(async () => {
+      fireEvent.click(screen.getByRole('button', { name: 'Delete' }));
+    });
+    expect(onDelete).toHaveBeenCalledTimes(1);
+    expect(container.textContent).toContain('The conversation has been deleted.');
+  });
+
+  it('posts a problem report against the conversation page', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
+    vi.stubGlobal('fetch', fetchMock);
+    render(<Conversation {...baseProps} turns={asked} />);
+    choose('Report a problem');
+    fireEvent.click(screen.getByLabelText('Accuracy'));
+    fireEvent.change(screen.getByLabelText('What did you see?'), { target: { value: 'A date looks wrong.' } });
+    await act(async () => {
+      fireEvent.click(within(screen.getByRole('dialog')).getByRole('button', { name: 'Send' }));
+    });
+    expect(JSON.parse(fetchMock.mock.calls[0][1].body)).toMatchObject({ kind: 'report', page: 'conversation:fix', reason: 'accuracy' });
+    expect(screen.getByText('Thank you. A person will read it.')).toBeInTheDocument();
+  });
+
+  it('posts the world key as the page of an experience comment', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
+    vi.stubGlobal('fetch', fetchMock);
+    const { container, getByLabelText } = render(<Conversation {...baseProps} turns={asked} />);
+    choose('Tell us what you think');
+    fireEvent.change(getByLabelText('What was this like for you? What should we do better?'), { target: { value: 'Good.' } });
+    await act(async () => {
+      fireEvent.click(container.querySelector('#experience-feedback-send') as HTMLElement);
+    });
+    expect(JSON.parse(fetchMock.mock.calls[0][1].body).page).toBe('fix');
+  });
+});
+
+describe('Conversation - facilitator turns', () => {
   it('does not render a modern-term mark for a facilitator turn with no cards', () => {
-    const turns: ConversationTurn[] = [{ speaker: 'facilitator', text: 'Welcome.', kind: 'door' }];
+    const turns: ConversationTurn[] = [...asked, { speaker: 'facilitator', text: 'Welcome.', kind: 'door' }];
     const { container } = render(<Conversation {...baseProps} turns={turns} />);
     expect(container.querySelectorAll('.modern-term-mark')).toHaveLength(0);
   });
 
   it('renders a modern-term mark with its modern_sense and distinguishing_claim for a bridge turn', () => {
     const turns: ConversationTurn[] = [
+      ...asked,
       {
         speaker: 'facilitator',
         text: "Let me put that in plain terms.",
@@ -94,6 +321,7 @@ describe('Conversation', () => {
 
   it('never renders a modern-term mark for a non-bridge facilitator turn even if modernTerms is somehow set', () => {
     const turns: ConversationTurn[] = [
+      ...asked,
       {
         speaker: 'facilitator',
         text: 'This conversation is closed.',
@@ -105,124 +333,7 @@ describe('Conversation', () => {
     expect(container.querySelectorAll('.modern-term-mark')).toHaveLength(0);
   });
 
-  it('does not read as sending, or as the voice considering, while the room is still opening', () => {
-    const { container } = render(<Conversation {...baseProps} turns={[]} isLoading />);
-    const send = container.querySelector('.composer-row button') as HTMLButtonElement;
-    expect(send.textContent).toBe('Send');
-    expect(send.disabled).toBe(true);
-    expect(container.querySelector('.waiting-note')).toBeNull();
-  });
-
-  it('reads as sending while a sent question waits for its reply', () => {
-    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
-    const { container } = render(<Conversation {...baseProps} turns={turns} isLoading />);
-    expect((container.querySelector('.composer-row button') as HTMLButtonElement).textContent).toBe('Sending…');
-  });
-
-  it('states that the voice is AI before the first message, and not after', () => {
-    const { container, rerender } = render(<Conversation {...baseProps} turns={[]} />);
-    expect(container.querySelector('.ai-note')?.textContent).toContain('Vera is an AI voice');
-    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Hello' }];
-    rerender(<Conversation {...baseProps} turns={turns} />);
-    expect(container.querySelector('.ai-note')).toBeNull();
-  });
-});
-
-describe('Conversation - the screen once the conversation starts', () => {
-  afterEach(() => {
-    cleanup();
-  });
-
-  const asked: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
-
-  it('keeps the brand bar and the feedback button at the top before the first message', () => {
-    const { container } = render(<Conversation {...baseProps} turns={[]} />);
-    expect(container.querySelector('.conversation__bar-right .experience-feedback__toggle')).not.toBeNull();
-    expect(container.querySelector('.conversation__who')).toBeNull();
-  });
-
-  it('shows only the portrait and the two names at the top after the first message', () => {
-    const { container } = render(<Conversation {...baseProps} turns={asked} />);
-    const who = container.querySelector('.conversation__who') as HTMLElement;
-    expect(who.textContent).toBe('VeraFixture');
-    expect(who.querySelector('img')?.getAttribute('src')).toBe('/x.png');
-    expect(container.querySelector('.conversation__bar')).toBeNull();
-    expect(container.querySelector('.conversation__end .experience-feedback__toggle')).not.toBeNull();
-    expect(container.querySelector('.conversation__end')?.textContent).toContain('Leave for now');
-  });
-
-  it('opens and closes the arrival again from the portrait', () => {
-    const { container, getByText } = render(<Conversation {...baseProps} turns={asked} />);
-    const who = container.querySelector('.conversation__who') as HTMLElement;
-    fireEvent.click(who);
-    expect(who.getAttribute('aria-expanded')).toBe('true');
-    expect(container.querySelector('#conversation-about .arrival__disclosure')).not.toBeNull();
-    fireEvent.click(getByText('Back to the conversation'));
-    expect(container.querySelector('#conversation-about')).toBeNull();
-  });
-
-  it('raises the newest question to the top of the transcript', () => {
-    const scrollTo = vi.fn();
-    const original = HTMLElement.prototype.scrollTo;
-    HTMLElement.prototype.scrollTo = scrollTo as unknown as typeof original;
-    try {
-      const { rerender } = render(<Conversation {...baseProps} turns={[]} />);
-      expect(scrollTo).not.toHaveBeenCalled();
-      rerender(<Conversation {...baseProps} turns={asked} />);
-      expect(scrollTo).toHaveBeenCalledTimes(1);
-      expect(scrollTo.mock.calls[0][0]).toMatchObject({ top: 0 });
-    } finally {
-      HTMLElement.prototype.scrollTo = original;
-    }
-  });
-
-  it('keeps the question at rest when the screen changes height, until the reader scrolls', () => {
-    const scrollTo = vi.fn();
-    const original = HTMLElement.prototype.scrollTo;
-    HTMLElement.prototype.scrollTo = scrollTo as unknown as typeof original;
-    let resized = () => {};
-    vi.stubGlobal(
-      'ResizeObserver',
-      class {
-        constructor(callback: () => void) {
-          resized = callback;
-        }
-        observe() {}
-        disconnect() {}
-      },
-    );
-    try {
-      const { container } = render(<Conversation {...baseProps} turns={asked} />);
-      const calls = scrollTo.mock.calls.length;
-      resized();
-      expect(scrollTo.mock.calls.length).toBe(calls + 1);
-      fireEvent.wheel(container.querySelector('.conversation__transcript') as HTMLElement);
-      resized();
-      expect(scrollTo.mock.calls.length).toBe(calls + 1);
-    } finally {
-      HTMLElement.prototype.scrollTo = original;
-      vi.unstubAllGlobals();
-    }
-  });
-
-  it('keeps the feedback button once the conversation is closed', () => {
-    const { container } = render(<Conversation {...baseProps} turns={asked} closed />);
-    expect(container.querySelector('.conversation__composer .experience-feedback__toggle')).not.toBeNull();
-  });
-
-  it('lays the suggested questions in one row', () => {
-    const starters = [
-      { cell: 'C-I', text: 'Who was Jesus, to you and your people?' },
-      { cell: 'C-P', text: 'How did you come to believe in Jesus?' },
-      { cell: 'C-E', text: 'How did it reach you?' },
-    ];
-    const { container } = render(<Conversation {...baseProps} world={world({ starters })} turns={[]} />);
-    expect(container.querySelectorAll('.starter-chips__row .starter-chip')).toHaveLength(3);
-  });
-});
-
-describe('Conversation - a pause at a limit', () => {
-  it('shows the Facilitator\'s pause with the reason beneath it and keeps the room open for another message', () => {
+  it("shows the Facilitator's pause with the reason beneath it and keeps the room open for another message", () => {
     const turns: ConversationTurn[] = [
       { speaker: 'participant', text: 'May I go on?' },
       { speaker: 'facilitator', kind: 'limit', text: 'This sitting has reached its limit for now.', note: 'Your tokens have run out. Add more to carry on.' },
@@ -234,24 +345,17 @@ describe('Conversation - a pause at a limit', () => {
   });
 });
 
-describe('Conversation - feedback controls', () => {
-  afterEach(() => {
-    cleanup();
-    vi.unstubAllGlobals();
-  });
-
-  const turns: ConversationTurn[] = [
-    { speaker: 'participant', text: 'Who was Jesus?' },
-    { speaker: 'fix', text: 'We told what we had been told.' },
-  ];
-  const streamed = [{ index: 0, speaker: 'fix', lead: '', text: 'Still writing.', text_start: 0, text_end: 14, elements: [], cards: [] }];
+describe('Conversation - turn feedback', () => {
+  const turns: ConversationTurn[] = [...asked, { speaker: 'fix', text: 'We told what we had been told.' }];
 
   it('puts the feedback row under a finished voice turn only, not under the streaming reply', () => {
-    const { container } = render(<Conversation {...baseProps} sessionId="s1" turns={turns} streamed={streamed} isLoading />);
+    vi.useFakeTimers();
+    const { container } = render(<Conversation {...baseProps} sessionId="s1" turns={turns} streamed={sentence('Still writing.')} isLoading />);
+    act(() => {
+      vi.advanceTimersByTime(1500);
+    });
     expect(container.querySelectorAll('.turn--voice')).toHaveLength(2);
     expect(container.querySelectorAll('.turn-feedback')).toHaveLength(1);
-    expect(container.querySelector('.turn--voice .turn-feedback')).not.toBeNull();
-    expect(container.querySelector('.turn--voice .turn-feedback__like')).not.toBeNull();
   });
 
   it('shows no feedback row without a session code', () => {
@@ -267,34 +371,5 @@ describe('Conversation - feedback controls', () => {
       fireEvent.click(container.querySelector('.turn--voice .turn-feedback__like') as HTMLElement);
     });
     expect(JSON.parse(fetchMock.mock.calls[0][1].body).turn_index).toBe(1);
-  });
-
-  it('puts the page like and report row above the delete link once the conversation has started', async () => {
-    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
-    vi.stubGlobal('fetch', fetchMock);
-    const { container } = render(<Conversation {...baseProps} turns={turns} onDelete={async () => {}} />);
-    const row = container.querySelector('.page-feedback') as HTMLElement;
-    expect(row.nextElementSibling?.classList.contains('delete-conversation')).toBe(true);
-    await act(async () => {
-      fireEvent.click(row.querySelector('.turn-feedback__like') as HTMLElement);
-    });
-    expect(JSON.parse(fetchMock.mock.calls[0][1].body)).toEqual({ kind: 'like', page: 'conversation:fix' });
-  });
-
-  it('shows no page like or report row before the first question', () => {
-    const { container } = render(<Conversation {...baseProps} turns={[]} />);
-    expect(container.querySelector('.page-feedback')).toBeNull();
-  });
-
-  it('opens the experience card from the bar and posts the world key as the page', async () => {
-    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
-    vi.stubGlobal('fetch', fetchMock);
-    const { container, getByLabelText } = render(<Conversation {...baseProps} turns={turns} />);
-    fireEvent.click(container.querySelector('.conversation__end .experience-feedback__toggle') as HTMLElement);
-    fireEvent.change(getByLabelText('What was this like for you? What should we do better?'), { target: { value: 'Good.' } });
-    await act(async () => {
-      fireEvent.click(container.querySelector('#experience-feedback-send') as HTMLElement);
-    });
-    expect(JSON.parse(fetchMock.mock.calls[0][1].body).page).toBe('fix');
   });
 });

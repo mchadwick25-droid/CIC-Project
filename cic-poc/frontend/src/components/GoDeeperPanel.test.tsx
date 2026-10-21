@@ -11,7 +11,7 @@ async function load(enabled: boolean) {
   return { GoDeeperPanel, deeper };
 }
 
-const openPanel = () => fireEvent.click(screen.getByRole('button', { name: 'Go deeper' }));
+const openPanel = () => fireEvent.click(screen.getByRole('button', { name: 'Get more conversations' }));
 
 beforeEach(() => localStorage.clear());
 afterEach(() => {
@@ -33,7 +33,7 @@ describe('GoDeeperPanel', () => {
     render(<GoDeeperPanel />);
     expect(screen.queryByRole('complementary')).not.toBeInTheDocument();
     openPanel();
-    expect(screen.getByRole('complementary', { name: 'Go deeper' })).toHaveTextContent(
+    expect(screen.getByRole('complementary', { name: 'Get more conversations' })).toHaveTextContent(
       'Tokens pay for each new conversation and each round. Add more any time. Your conversation stays open.'
     );
     fireEvent.keyDown(window, { key: 'Escape' });
@@ -47,7 +47,7 @@ describe('GoDeeperPanel', () => {
     const { GoDeeperPanel, deeper } = await load(true);
     render(<GoDeeperPanel />);
     act(() => deeper.noteLimit());
-    expect(screen.getByRole('complementary', { name: 'Go deeper' })).toBeInTheDocument();
+    expect(screen.getByRole('complementary', { name: 'Get more conversations' })).toBeInTheDocument();
   });
 
   it('takes a code in the panel and says it is saved', async () => {
@@ -77,40 +77,64 @@ describe('GoDeeperPanel', () => {
     deeper.saveCode(CODE);
     const { container } = render(<GoDeeperPanel />);
     act(() => deeper.reportBalance(CODE, 1100, false));
-    expect(await screen.findByText('1,100 tokens left.')).toBeInTheDocument();
+    expect(await screen.findByText('1,100 tokens left')).toBeInTheDocument();
     act(() => deeper.reportBalance(CODE, 40, false));
-    expect(await screen.findByText('40 tokens left.')).toBeInTheDocument();
+    expect(await screen.findByText('40 tokens left')).toBeInTheDocument();
     openPanel();
     expect(container.textContent).not.toMatch(/[$€£]|price|\bcost/i);
   });
 
-  it('shows a free visitor their free tokens left in the strip, and a code holder their code count instead', async () => {
+  it('shows a free visitor their free tokens left in the ribbon, and a code holder their code count instead', async () => {
     const { GoDeeperPanel, deeper } = await load(true);
     render(<GoDeeperPanel />);
-    expect(screen.queryByText(/free tokens left/)).not.toBeInTheDocument();
+    expect(screen.queryByText(/tokens left/)).not.toBeInTheDocument();
     act(() => deeper.reportFreeLeft(1100));
-    expect(await screen.findByText('1,100 free tokens left.')).toBeInTheDocument();
+    expect(await screen.findByText('1,100 tokens left')).toBeInTheDocument();
     act(() => deeper.reportFreeLeft(440));
-    expect(await screen.findByText('440 free tokens left.')).toBeInTheDocument();
+    expect(await screen.findByText('440 tokens left')).toBeInTheDocument();
     act(() => {
       deeper.saveCode(CODE);
       deeper.reportBalance(CODE, 1100, false);
     });
-    expect(await screen.findByText('1,100 tokens left.')).toBeInTheDocument();
-    expect(screen.queryByText(/free tokens left/)).not.toBeInTheDocument();
+    expect(await screen.findByText('1,100 tokens left')).toBeInTheDocument();
+    expect(screen.queryByText('440 tokens left')).not.toBeInTheDocument();
   });
 
   it('forgets a free count when a code is added or removed, so a stale one cannot come back', async () => {
     const { GoDeeperPanel, deeper } = await load(true);
     render(<GoDeeperPanel />);
     act(() => deeper.reportFreeLeft(440));
-    expect(await screen.findByText('440 free tokens left.')).toBeInTheDocument();
+    expect(await screen.findByText('440 tokens left')).toBeInTheDocument();
     act(() => {
       deeper.saveCode(CODE);
       deeper.reportBalance(CODE, 1100, false);
     });
     act(() => deeper.removeCode());
-    expect(screen.queryByText(/free tokens left/)).not.toBeInTheDocument();
+    expect(screen.queryByText(/tokens left/)).not.toBeInTheDocument();
+  });
+
+  it('draws a gold line as long as the tokens left are of the most seen, and slides it as they change', async () => {
+    const { GoDeeperPanel, deeper } = await load(true);
+    deeper.saveCode(CODE);
+    const { container } = render(<GoDeeperPanel />);
+    expect(container.querySelector('.go-deeper__line')).toBeNull();
+    act(() => deeper.reportBalance(CODE, 1100, false));
+    const line = () => container.querySelector('.go-deeper__line') as HTMLElement;
+    expect(line().style.width).toBe('100%');
+    act(() => deeper.reportBalance(CODE, 275, false));
+    expect(line().style.width).toBe('25%');
+    expect(await screen.findByText('275 tokens left')).not.toHaveClass('go-deeper__count--low');
+  });
+
+  it('turns the count white under 100 tokens and keeps the link gold', async () => {
+    const { GoDeeperPanel, deeper } = await load(true);
+    deeper.saveCode(CODE);
+    render(<GoDeeperPanel />);
+    act(() => deeper.reportBalance(CODE, 100, false));
+    expect(await screen.findByText('100 tokens left')).not.toHaveClass('go-deeper__count--low');
+    act(() => deeper.reportBalance(CODE, 99, false));
+    expect(await screen.findByText('99 tokens left')).toHaveClass('go-deeper__count--low');
+    expect(screen.getByRole('button', { name: 'Get more conversations' })).toBeInTheDocument();
   });
 
   it('shows no free count while the module is off', async () => {
@@ -127,8 +151,9 @@ describe('GoDeeperPanel', () => {
     deeper.saveCode(CODE);
     render(<GoDeeperPanel />);
     act(() => deeper.reportBalance(CODE, 90, true));
-    expect(await screen.findAllByText(/90 tokens left\. Your tokens are running low\./)).not.toHaveLength(0);
+    expect(await screen.findByText('90 tokens left')).toHaveClass('go-deeper__count--low');
     openPanel();
+    expect(screen.getByText(/90 tokens left\. Your tokens are running low\./)).toBeInTheDocument();
     fireEvent.click(screen.getByRole('button', { name: 'Get more tokens' }));
     expect(open).toHaveBeenCalledWith('https://churchinconversation.com/go-deeper.html', 'cic-get-code', expect.any(String));
     vi.unstubAllGlobals();
@@ -167,7 +192,7 @@ describe('GoDeeperPanel', () => {
     expect(container.textContent).toContain('ABCD 2345');
     fireEvent.click(screen.getByRole('button', { name: 'Close' }));
     act(() => deeper.noteLimit());
-    expect(screen.getByRole('complementary', { name: 'Go deeper' })).toBeInTheDocument();
+    expect(screen.getByRole('complementary', { name: 'Get more conversations' })).toBeInTheDocument();
     expect(container.textContent).not.toContain('ABCD');
     expect(screen.getByRole('button', { name: 'Show my code' })).toBeInTheDocument();
   });
@@ -177,10 +202,10 @@ describe('GoDeeperPanel', () => {
     render(<GoDeeperPanel />);
     openPanel();
     fireEvent.click(screen.getByRole('button', { name: 'Close' }));
-    expect(screen.getByRole('button', { name: 'Go deeper' })).toHaveFocus();
+    expect(screen.getByRole('button', { name: 'Get more conversations' })).toHaveFocus();
     openPanel();
     fireEvent.keyDown(window, { key: 'Escape' });
-    expect(screen.getByRole('button', { name: 'Go deeper' })).toHaveFocus();
+    expect(screen.getByRole('button', { name: 'Get more conversations' })).toHaveFocus();
   });
 
   it('removes the code in use', async () => {
@@ -240,7 +265,7 @@ describe('GoDeeperPanel, pilot', () => {
     window.history.replaceState(null, '', '/#cic-pilot=general&role=academic');
     const { GoDeeperPanel } = await import('./GoDeeperPanel');
     render(<GoDeeperPanel />);
-    const panel = await screen.findByRole('complementary', { name: 'Go deeper' });
+    const panel = await screen.findByRole('complementary', { name: 'Get more conversations' });
     await vi.waitFor(() => expect(panel).toHaveTextContent('Your free pack is ready'));
     expect(panel).toHaveTextContent('You have 1,100 tokens, about 10 conversations. They are saved in this browser, so there is nothing to copy.');
     fireEvent.click(screen.getByRole('button', { name: 'Start a conversation' }));

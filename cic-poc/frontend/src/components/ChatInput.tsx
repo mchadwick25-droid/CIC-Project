@@ -1,13 +1,5 @@
-/**
- * Text input for participant messages.
- *
- * "Leave for now" (not "End the conversation"): MessageRequest is only
- * {text, client_msg_id} - there is no close-intent field, so this can only
- * navigate away client-side. The session is not actually closed server-side
- * and stays resumable by its code, so the label says what really happens.
- */
-import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
-import { GoDeeperPanel } from './GoDeeperPanel';
+/** Text input for participant messages. */
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { useAskAgain } from '../hooks/useAskAgain';
 import type { ConversationTurn } from '../hooks/useConversation';
 import { deeperEnabled } from '../lib/deeper';
@@ -15,19 +7,16 @@ import { askAgainCopy } from '../lib/deeperCopy';
 
 interface ChatInputProps {
   onSend: (message: string) => void;
-  onEnd: () => void;
   placeholder: string;
   disabled?: boolean;
   turns?: ConversationTurn[];
-  // Shown beside "Leave for now", under the box.
-  endExtra?: ReactNode;
   // Text already in the box when it first appears.
   initialMessage?: string;
   // A sent message is waiting for its reply; without it, a disabled box reads as sending.
   sending?: boolean;
 }
 
-export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns = [], endExtra, initialMessage = '', sending = disabled }: ChatInputProps) {
+export function ChatInput({ onSend, placeholder, disabled = false, turns = [], initialMessage = '', sending = disabled }: ChatInputProps) {
   const [message, setMessage] = useState(initialMessage);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const askAgainRef = useRef<HTMLButtonElement>(null);
@@ -102,8 +91,8 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns 
           disabled={disabled}
           rows={1}
         />
-        <button type="submit" disabled={disabled || !message.trim()}>
-          {sending ? 'Sending…' : 'Send'}
+        <button type="submit" aria-label={sending ? 'Sending…' : 'Send'} disabled={disabled || !message.trim()}>
+          <span aria-hidden="true">↑</span>
         </button>
       </form>
       {pending !== null && (
@@ -119,16 +108,6 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns 
           </div>
         </div>
       )}
-      <div className={endExtra ? 'conversation__end conversation__end--with-extra' : 'conversation__end'}>
-        {endExtra}
-        {/* Stage 0b (Build-Plan.md): Leave never takes `disabled` - a
-            participant mid-turn or inside an open Table round must still
-            be able to walk away. Only Send/the textarea gate on it. */}
-        <button type="button" onClick={onEnd}>
-          Leave for now
-        </button>
-      </div>
-      <GoDeeperPanel />
     </div>
   );
 }

@@ -349,3 +349,14 @@ Status: CLOSED for the records; OPEN for the three construction documents.
 Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for the *Refutation* reading and the build script.
 
 75. **Atlas final-check fixes, 2026-10-17.** Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout. Fixed: the Perrinist sentence says the fight was settled in Calvin's favor; the tellings use a third-person narrator; Zwingli spoke after he fell to his knees; the Strasbourg note drops gazetteer wording; Savoy is a term, not a place; the Disputation teaser is shorter. **Open:** the card list still has three cards. Reaching six to ten needs new story records under Doc_09, which is build work. Status: OPEN for the project lead on the card list.
+
+76. **Live-reply claim check, 2026-10-19.** Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-rzg-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 37 own-voice, 0 outsider's account, 4 unsupported, 2 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `records/rzg/contested_claim/rzg.contested.anabaptist-schism-legitimacy.md` lines 44 to 45 misdescribes Zwingli's 1527 Refutation, which records the drowning decree.
+- `records/rzg/honest_limit/rzg.limit.marburg-bolsec-perrinist-narrative.md` line 39 ("found no mention" of Bolsec) is false; Calvin's vendored letters discuss him.
+- `records/rzg/doctrinal_witness/rzg.witness.triple-refusal.md` line 18 and `records/rzg/honest_limit/rzg.limit.hagiography-refused.md` line 18 attribute the image polemic to Article XVIII; it is in Second Helvetic Confession ch. IV.
+- `records/rzg/term/rzg.term.providence.md` line 42 does not acknowledge Zwingli's providence treatise (over 100 pages).
+- Two force records carry `sources: []` while marked `verified-direct`.
+
+   Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+   Status: OPEN.

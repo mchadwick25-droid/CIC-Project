@@ -6762,3 +6762,14 @@ On 21 October the project lead was asked to approve a named, capped admission ru
 - Unchanged: the section "A named, capped run (decision 56)", which still governs any live test the project lead approves by name. The runtime admission gate in `render.yaml` and the registry's admitted or open states are unchanged too.
 - Still worded as promotion requirements, left for the project lead to decide: the `admission_conform` report step and comment in `.github/workflows/ci.yml` (lines 474 to 478), the wording in `engine/m3/admission_conform.py` (lines 16 and 17, and 146), and the docstring in `engine/api/required_secrets.py` (lines 8 and 9).
 - The secrets list came from the 2026-10-15 pre-pilot review, batch A choice 4 ("a printed pre-promotion checklist"), after three crashed deploys on 14 and 15 October. The engine's start-up check (`required_secrets.check`, called from `engine/api/app.py`) still names, in one message, every missing secret that a switch in `render.yaml` needs, and refuses a short `CIC_API_ADMIN_TOKEN`. It does not cover `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`. Those two were checked only by the deleted step. Start-up looks the models up on Bedrock with them, so a missing key should fail the start at that lookup, with an error outside the one list. This was read, not run.
+
+## 2026-10-21 - Asking for any spend: the explanation step and the $5 say-back
+
+The pilot feedback manager thread reports that the project lead, answering its question in conversation on 2026-10-21, kept the rule in CLAUDE.md 3.2, "Asking for any spend", step 3 as his: when a run's cap is $5 or more, he is asked to say back in a line what the run does and what it costs. The same applies when the same run lost its results or went past its estimate before. The step is dated 2026-10-20. The project lead's original words are not in this log, and this entry is the thread's report of his answer.
+
+By the same report, he chose these on 2026-10-21:
+- The spend step wins over 4.3: a converged plan or "auto mode" is never a yes to spend.
+- The spend box offers "Approve" and "Not now". His own words under "Other" ask for more explanation. Alternatives go in the explanation.
+- The explanation comes before a paid sample, not only before the full run.
+- Part 5 carries a checklist line for spend.
+- The cap's margin over the latest real cost, and where the output and ledger go, are part of the explanation. A paid run started without it is a breach.

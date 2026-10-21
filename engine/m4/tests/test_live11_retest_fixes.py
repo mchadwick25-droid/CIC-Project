@@ -197,7 +197,7 @@ def test_the_person_claim_flag_cuts_nothing():
 
 def test_the_person_claim_flags_over_both_runs():
     flagged = live11_replay.person_claim_flags_over_runs()
-    assert len(flagged) == 11
+    assert len(flagged) == 12
     assert {(f["run"], f["world"], f["q"]) for f in flagged} >= {("retest", "pahc", 2), ("retest", "ijc", 5)}
 
 

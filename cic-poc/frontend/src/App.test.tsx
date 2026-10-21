@@ -57,7 +57,7 @@ describe('first screen', () => {
     expect(container.querySelector('.launch')).toBeNull();
 
     releaseWorlds();
-    await waitFor(() => expect(container.querySelector('.arrival')).not.toBeNull());
+    await waitFor(() => expect(container.querySelector('.conv-card')).not.toBeNull());
     expect(container.querySelector('.launch')).toBeNull();
   });
 
@@ -68,7 +68,7 @@ describe('first screen', () => {
     expect(window.location.search).toBe('?worlds=donatism&mode=interview');
 
     releaseWorlds();
-    await waitFor(() => expect(container.querySelector('.arrival')).not.toBeNull());
+    await waitFor(() => expect(container.querySelector('.conv-card')).not.toBeNull());
     const box = container.querySelector('.composer-row textarea') as HTMLTextAreaElement;
     expect(box.value).toBe("What did you make of the Traditores' bishops?");
     expect(container.querySelector('.turn--participant')).toBeNull();

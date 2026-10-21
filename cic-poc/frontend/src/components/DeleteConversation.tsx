@@ -2,23 +2,13 @@ import { useState } from 'react';
 
 interface DeleteConversationProps {
   onDelete: () => Promise<void>;
+  onCancel: () => void;
 }
 
-// The participant's own deletion request.
-export function DeleteConversation({ onDelete }: DeleteConversationProps) {
-  const [confirming, setConfirming] = useState(false);
+// The participant's own deletion request, asked once before it is done.
+export function DeleteConversation({ onDelete, onCancel }: DeleteConversationProps) {
   const [deleting, setDeleting] = useState(false);
   const [failed, setFailed] = useState(false);
-
-  if (!confirming) {
-    return (
-      <div className="delete-conversation sans">
-        <button type="button" className="delete-conversation__link" onClick={() => setConfirming(true)}>
-          Delete this conversation
-        </button>
-      </div>
-    );
-  }
 
   const confirm = async () => {
     setDeleting(true);
@@ -40,7 +30,7 @@ export function DeleteConversation({ onDelete }: DeleteConversationProps) {
         <button type="button" className="delete-conversation__delete" disabled={deleting} onClick={confirm}>
           Delete
         </button>
-        <button type="button" className="delete-conversation__keep" disabled={deleting} onClick={() => setConfirming(false)}>
+        <button type="button" className="delete-conversation__keep" autoFocus disabled={deleting} onClick={onCancel}>
           Keep it
         </button>
       </div>

@@ -1162,3 +1162,14 @@ Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put t
 - `records/gallic/doctrinal_witness/gallic.dw.laughed-at-and-reported.md`: "what was said and done when our teaching was carried there no one among us wrote down as a story" -> "no one among us wrote down as a story what was said and done when our teaching was carried there"
 
 Status: CLOSED for this review.
+
+### OG-45. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-gallic-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 33 own-voice, 5 outsider's account marked as such, 9 unsupported, 2 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `gallic.force.army-and-rank-before` lines 85 to 86 ("a man who changes service does not leave the service; he can be posted") is the builders' argument stored as the world's voice.
+- `gallic.dw.christ-in-the-beggar-and-the-guest` lines 76 to 79 ("only one man's private word about Christ survives"): Cassian's books against Nestorius exist, though unread.
+- `gallic.dw.the-christ-who-bears-the-wounds` lines 19, 77 and 99 say the hours-of-prayer teaching came from Egypt; Cassian, Institutes III.2 to III.3, says the Egyptians keep no separate day hours and the reasoning is Cassian's own.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.
