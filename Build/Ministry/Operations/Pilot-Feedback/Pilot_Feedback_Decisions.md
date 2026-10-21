@@ -248,3 +248,35 @@ Mark: "the cards scroll and click to pull forward." The hand scrolls through the
 
 ### Status after PR 987 merged — 2026-10-20
 PR 987 is on origin/main at 51cbfb4c (checked on main: a wheel handler is in cic-website/assets/chooser.js). Reported by the chooser design thread and not all read here: cards on the landing screen with no teasers; "Tell us what you think" as a button left of the Menu on every page with the masthead; scroll and swipe on the hand (the wheel rolls one card per notch over the hand and leaves page scroll alone elsewhere; swipe was already there). Not done: the "Free to start. Add more any time." line (no home chosen), the card body text size (no ruling), the tree's "Seat at the table" button, and the iPad, phone and screen-reader pass. Decisions are in Build/Ministry/Features/Conversation-Chooser/Decision-Log.md.
+
+## Item 29: the conversation pages — 2026-10-21
+
+Status: converged (Mark chose "Converged: build to main" in the option box on 2026-10-21, after working through sketches in a design thread). Built in cic-poc/frontend on branch claude/magical-goodall-ucv6e2. Not yet promoted to live; promotion is Mark's call through the runbook.
+
+Decisions (Mark, from the sketches)
+- One conversation area. A card on top for one voice, three small cards side by side for the Table. Same landing-card look: gold frame, era band, portrait fading into a plate, gold serif name. No greyed or stretched portraits.
+- The page, top to bottom: a slim bar with a ⋯ menu, a flat token ribbon, the cards, the conversation, the box under it.
+- ⋯ menu: About, Tell us what you think, Report a problem, Leave for now, and Delete this conversation in red.
+- The welcome line is the engine's door turn. It shows under the card until the first question, then closes.
+- Thinking: a small book with leafing pages beside "{name} is considering"; at the Table, "The table is considering". No other text beside it.
+- The reply rolls out word by word at a steady pace, in order, and never pops in. The conversation grows down the page from the card; once the box is reached it scrolls, with space left under the newest line.
+- Scrolling back: a gold scroll bar for a mouse or trackpad; a finger scrolls on a touch screen with no bar; a "Latest ↓" button brings the reader back.
+- Token ribbon: "{n} tokens left" in gold at the left, "Get more conversations" in gold at the right, no underline, and a gold line along the bottom that slides when the count changes. Under 100 tokens the count turns white; the link stays gold. The count shows after the first reply (Go Deeper log, 2026-10-05).
+- Table: five or six replies in an uneven order. Each card lifts and glows only while its voice speaks, then hands over. While the table is still thinking no card glows (option B). After the last reply every card rests.
+- Smoothness: new blocks open from nothing and the page follows them, so nothing jumps.
+
+Change orders (Mark's words in the thread; reasons are his)
+1. **The in-room disclosure is removed from the conversation page.** Dropped: the "system exists to reveal Jesus" paragraph, the "name is ours" line, the ✲ line, "What this voice knows well — and doesn't", and the "AI voice" note. Mark: "this idea is in the about page, doesnt need to be on every conversation", "the statement of the ai voice is on the main page, we don't need it on the conversation also, i want this as clean as possible and not this ai transparency focus, we don't need to tell everyone everything". This supersedes the Theme D line "The disclaimer stays" and the Theme C line that the AI disclosure "already sits in the room's welcome and the site's AI note". The About panel keeps the voice, its place and the living-tradition line. **Not checked:** whether any law or platform rule (Apple's guidance on AI features, for one) calls for an AI disclosure inside the conversation. Mark should confirm before promotion.
+2. **The small token count moves from under the box to a ribbon under the top bar** (supersedes the Theme D placement "off the stack under the question box").
+3. **"Go deeper" is freed for depth.** The token panel's name and its button in the room are now "Get more conversations". "Go deeper" is kept for going further into the conversation or the world, which is not built. Mark: "go deeper in this context would assume going deeper in the conversation or world, pay as you go, get more time needs to be the kind of message".
+
+Chosen while building, not by Mark (flag, change if wrong)
+- The gold line's full length is the most tokens this browser has seen (stored in localStorage as cic_balance_peak). Mark asked which scale to use (550 free, or the last top-up) and did not answer.
+- The suggested-question chips and the page-level "This helped" like are gone; the sketches never showed them and Mark never asked for them. The per-reply "This helped" and "Answer was not clear or accurate" links under each finished reply stay as they were.
+- The card band's era comes from the world's time window (eras copied from cic-website/data/world-census.json). The landing page uses the census's own era per world, so a world whose window opens before its census era may show a different band.
+- The panel's wording inside "Get more conversations" is unchanged ("Tokens pay for each new conversation and each round…"). Mark saw only the ribbon.
+- "Latest ↓" shows on touch screens too; Mark did not answer whether it should.
+
+Checks
+- Frontend tests, type check and a run of the real app in Chromium with a mocked API at a phone and a laptop width. Not checked: a real phone or tablet, a screen reader, or the live streaming path (the mock returns whole replies).
+

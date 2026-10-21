@@ -8,11 +8,15 @@ import { useEffect, useRef, useState } from 'react';
 import { acceptClaim, addCode, closePanel, declineClaim, deeperEnabled, formatCode, getCodeUrl, openGetCode, openPanel, removeCode, useDeeper } from '../lib/deeper';
 import { deeperCopy, pilotCopy } from '../lib/deeperCopy';
 import { dismissPilot, usePilot } from '../lib/pilot';
+import { peakBalance } from '../lib/balancePeak';
+
+const LOW_AT = 100;
 
 export function GoDeeperPanel() {
   const { codes, remaining, low, freeLeft, claim, panelOpen } = useDeeper();
   const pilot = usePilot();
   const held = codes.length > 0;
+  const count = held ? remaining : freeLeft;
   const [entering, setEntering] = useState(false);
   const [text, setText] = useState('');
   const [bad, setBad] = useState(false);
@@ -57,21 +61,16 @@ export function GoDeeperPanel() {
 
   return (
     <div className="go-deeper sans">
-      <div className="go-deeper__bar">
-        {held && remaining !== null && (
-          <span className="go-deeper__count" role="status">
-            {deeperCopy.balance(remaining)}
-            {low ? ` ${deeperCopy.low}` : ''}
-          </span>
-        )}
-        {!held && freeLeft !== null && (
-          <span className="go-deeper__count" role="status">
-            {deeperCopy.freeLeft(freeLeft)}
+      <div className="go-deeper__ribbon">
+        {count !== null && (
+          <span className={count < LOW_AT ? 'go-deeper__count go-deeper__count--low' : 'go-deeper__count'} role="status">
+            {deeperCopy.left(count)}
           </span>
         )}
         <button ref={toggleRef} type="button" aria-expanded={panelOpen} aria-controls="go-deeper-panel" onClick={panelOpen ? closePanel : openPanel}>
           {deeperCopy.open}
         </button>
+        {count !== null && <i className="go-deeper__line" style={{ width: `${Math.min(100, (count / peakBalance(count)) * 100)}%` }} />}
       </div>
       {panelOpen && (
         <aside id="go-deeper-panel" className="go-deeper__panel" aria-label={deeperCopy.heading}>

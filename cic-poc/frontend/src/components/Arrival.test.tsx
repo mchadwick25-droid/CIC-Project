@@ -1,10 +1,3 @@
-/**
- * The ✲ mark explainer
- * sentence is new prose in an otherwise verbatim-carried disclosure
- * block (see Arrival.tsx's own header comment) - this test pins that
- * it actually renders, since nothing else in the suite touches this
- * component.
- */
 import { fireEvent, render } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 import { Arrival } from './Arrival';
@@ -31,22 +24,18 @@ function world(overrides: Partial<WorldEntry> = {}): WorldEntry {
 }
 
 describe('Arrival', () => {
-  it('explains the ✲ mark in the existing disclosure block', () => {
-    const { getByText } = render(<Arrival world={world()} />);
-    expect(getByText(/Look for the ✲ mark after a claim/)).toBeInTheDocument();
+  it('carries the voice, its place and its living-tradition line, and no disclosure block', () => {
+    const { container, getByText } = render(<Arrival world={world({ livingTraditionFlag: true })} />);
+    expect(getByText('Theon')).toBeInTheDocument();
+    expect(getByText('Nowhere')).toBeInTheDocument();
+    expect(container.querySelector('.arrival__living-tradition')).not.toBeNull();
+    expect(container.querySelector('.arrival__disclosure')).toBeNull();
+    expect(container.querySelector('.arrival__thinness')).toBeNull();
   });
-});
 
-describe('Arrival order', () => {
-  it('puts the disclosure before the folded "knows well" box, and keeps the living-tradition line outside it', () => {
-    const { container } = render(<Arrival world={world({ livingTraditionFlag: true })} />);
-    const disclosure = container.querySelector('.arrival__disclosure')!;
-    const thinness = container.querySelector('details.arrival__thinness') as HTMLDetailsElement;
-    expect(thinness).not.toBeNull();
-    expect(thinness.open).toBe(false);
-    expect(disclosure.compareDocumentPosition(thinness) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
-    const living = container.querySelector('.arrival__living-tradition')!;
-    expect(thinness.contains(living)).toBe(false);
+  it('leaves out the living-tradition line for a world that is not one', () => {
+    const { container } = render(<Arrival world={world()} />);
+    expect(container.querySelector('.arrival__living-tradition')).toBeNull();
   });
 });
 
