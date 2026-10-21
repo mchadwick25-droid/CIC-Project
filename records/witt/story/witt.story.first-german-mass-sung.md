@@ -75,6 +75,7 @@ text: >-
   It reaches us only because a later editor, Bacon, quoted it from an earlier printing by Rambach, which
   had taken it from Praetorius. It is the one account of Wittenberg's worship we have from someone other
   than Luther himself.
+telling: "Walter remembered Luther choosing the Sixth Tone for the Gospel. \"Our Lord Christ is a good Friend,\" Luther said, \"and his words are full of love,\" and so he chose it.\n\nJohann Walter, Luther's partner in music, set down those words in his old age, some forty years later.\n\nLuther had written to the Elector of Saxony and to Duke Johannsen, Walter recalled. He asked them to send Walter and the old musician Conrad Rupff to Wittenberg. They were to help decide how the church's tones should be set. Luther chose the Eighth Tone for the Epistle.\n\nHe set the notes himself over the Epistles, the Gospels and the Words of Institution. Then he sang them over for Walter's judgment. Luther kept him at Wittenberg for three weeks, Walter wrote. Walter wrote out the notes for some of the Gospels and Epistles. He stayed until the first German Mass was sung in the parish church.\n\nWalter had to stay and hear it. Then he was to carry a copy of the Mass to the Elector at Torgau, from Doctor Luther."
 absent_detail: This library does not hold Walter's letter as a document in its own right - only as quoted
   inside Bacon's introduction, itself drawing on Rambach's 1813 printing of Praetorius. No exact date
   for the first German Mass's own singing is given beyond Walter's own "some forty years ago," and no

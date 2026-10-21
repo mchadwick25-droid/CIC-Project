@@ -1,33 +1,11 @@
 <!--
-  CIC tradition-page CONTENT template (Website V2 world_front design,
-  site cutover stage: tradition pages render the world_front's FULL
-  content).
-
-  This is not a whole HTML document and is never served on its own. It is
-  read and filled by Build/tools/generate_tradition_pages.py, which splices the
-  result into the <div class="article"> block of each built world's own
-  EXISTING page at cic-website/traditions/<slug>.html - the title block,
-  portrait, ai-line, seat/CTA, door, footer and script (everything this
-  file does not contain) is that world's own chrome, preserved byte for
-  byte, never regenerated from this template or from any formula. See the
-  generator script's own module docstring for why: two of that chrome's
-  own fields (the portrait's alt text and the figcaption/ai-line prose)
-  exist nowhere as structured data, and a Representative's own identity
-  is a decision this project always asks about, never guesses at from a
-  formula (CLAUDE.md).
-
-  Simple string substitution, matching this codebase's own "no build
-  step" constraint (cic-website/README.md) - no templating engine, no
-  client-side rendering. Two marker conventions, both handled by the
-  generator:
-    {{TOKEN}}                         replaced with that section's own
-                                       rendered HTML (from
-                                       cic-website/assets/orientation-
-                                       render.mjs, run once at generation
-                                       time via tools/render_orientation_
-                                       cli.mjs - never re-rendered in the
-                                       browser).
-    <!--SECTION:key--> ... <!--/SECTION:key-->
+  Article content for a tradition page. Build/tools/generate_tradition_pages.py
+  fills it and splices it into the <div class="article"> block of each page;
+  everything else on the page (head, header, hero, door, footer, script) is the
+  page's own chrome. {{TOKEN}} is a section's rendered HTML. <!--SECTION:key-->
+  blocks drop whole when a tradition has nothing for that section. {{RAIL}} is
+  the "On this page" list, built from the sections that remain.
+--> ... <!--/SECTION:key-->
                                        the whole block is dropped for a
                                        world whose compiled JSON has
                                        nothing for that section (e.g. a
@@ -84,15 +62,70 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 .orient-pull-quote{margin:0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--action)}
 .orient-pull-quote p{font-style:italic;font-size:1.1rem;margin:0 0 .3rem}
 .orient-pull-quote cite{font-family:var(--sans);font-style:normal;font-size:.85rem;color:var(--muted)}
+.hl{position:relative;background:color-mix(in srgb,var(--action) 13%,transparent);border-bottom:1.5px dotted var(--action);border-radius:2px;cursor:help;padding:0 .08em}
+.hl:focus-visible{outline:2px solid var(--action);outline-offset:2px}
+.hl-note{display:none;position:absolute;left:0;top:calc(100% + 6px);z-index:20;width:min(18rem,80vw);background:var(--text);color:var(--surface);font-family:var(--sans,system-ui,sans-serif);font-size:.875rem;font-style:normal;font-weight:400;line-height:1.45;padding:.55rem .7rem;border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,.2);text-align:left}
+.hl-note b{display:block;margin-bottom:.15rem}
+.hl-note small{display:block;margin-top:.3rem;opacity:.75;font-size:.75rem}
+.hl:hover .hl-note,.hl:focus .hl-note{display:block}
+@media (hover:none){.hl{cursor:pointer}}
+@media (max-width:600px){.hl-note{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));top:auto;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:auto}}
+/* Wide layout: the page is about the tradition and fills the screen. */
+:root{--gold:#D9B35C}
+.site-header .row,.site-footer .row{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
+.door{padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
+main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
+.era-band{background:var(--era,#D9B35C);color:#1a140e;font-family:var(--sans);font-weight:700;font-size:.875rem;letter-spacing:.12em;text-transform:uppercase;display:flex;justify-content:space-between;gap:1rem;padding:.55rem 1rem;border-radius:.3rem .3rem 0 0;margin-top:1rem}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) clamp(19rem,26vw,30rem);gap:clamp(1.4rem,4vw,3.5rem);align-items:start;border:1px solid var(--rule);border-top:0;border-radius:0 0 .3rem .3rem;background:var(--surface);padding:clamp(1.4rem,4vw,3rem)}
+.hero h1{font-size:clamp(2.6rem,6vw,4.6rem);line-height:1.02;font-weight:600;margin:0 0 .3rem}
+.hero .ident{font-family:var(--sans);font-size:.875rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:0 0 .6rem}
+.hero .formal{font-style:italic;color:var(--muted);font-size:1.3rem;margin:0 0 1.2rem}
+.hero .tile{font-size:clamp(1.1rem,1.3vw,1.3rem);line-height:1.6;max-width:64rem;margin:0}
+.hero .to-story{margin:1.4rem 0 0;font-family:var(--sans);font-weight:700}
+.side{display:grid;gap:1.2rem}
+.facts{border:1px solid var(--gold);border-radius:.5rem;background:var(--ground);padding:1.2rem 1.3rem;font-family:var(--sans);font-size:1rem;line-height:1.45}
+.facts h2{font-family:var(--serif);font-size:1.4rem;margin:0 0 .8rem}
+.facts dl{margin:0;display:grid;gap:.85rem}
+.facts dt{font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.facts dd{margin:.1rem 0 0}
+.facts .tree{display:inline-block;margin-top:1rem;font-weight:700}
+.facts .span{margin:0 0 1.1rem}
+.facts .span svg{display:block;width:100%;height:auto}
+.facts .span text{font-family:var(--sans);font-size:11px;fill:var(--muted)}
+.facts .span .bar{fill:var(--gold)}
+.facts .span .axis{stroke:var(--rule);stroke-width:2}
+.meet{border:1px solid var(--rule);border-radius:.5rem;background:var(--ground);padding:1rem 1.1rem;display:grid;grid-template-columns:auto 1fr;gap:.6rem 1rem;align-items:center;font-family:var(--sans)}
+.meet img{width:4.6rem;height:5.6rem;object-fit:cover;object-position:50% 12%;border-radius:.35rem;border:1px solid var(--gold)}
+.meet-name{font-family:var(--serif);font-size:1.25rem;line-height:1.2;margin:0}
+.meet .acts{grid-column:1/-1;display:flex;gap:1.4rem;justify-content:center}
+.act{display:flex;flex-direction:column;align-items:center;gap:.3rem;width:4.6rem;text-decoration:none;color:var(--text);font-weight:700;font-size:.95rem}
+.act .disc{width:3.4rem;height:3.4rem;border-radius:50%;border:1.5px solid var(--gold);display:grid;place-items:center;background:var(--surface);color:var(--gold)}
+.act.primary .disc{background:var(--btn-fill);border-color:var(--btn-edge);color:var(--btn-text)}
+.act svg{width:1.5rem;height:1.5rem;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.act:hover .disc,.act:focus-visible .disc{box-shadow:0 0 0 3px var(--gold)}
+.article{display:grid;grid-template-columns:clamp(11rem,12vw,16rem) minmax(0,1fr);column-gap:clamp(1.2rem,3vw,3rem);margin-top:3rem;align-items:start}
+.article>.rail{grid-column:1;grid-row:1/span 12;position:sticky;top:1rem;font-family:var(--sans);font-size:.98rem}
+.article>section{grid-column:2;margin:0 0 3.5rem;scroll-margin-top:1rem}
+.rail p{margin:0 0 .6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem;color:var(--muted)}
+.rail ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--rule)}
+.rail li a{display:block;padding:.35rem .9rem;color:var(--muted);text-decoration:none}
+.rail li a:hover,.rail li a:focus-visible{color:var(--text)}
+.article h2{font-size:2rem;margin:0 0 1rem}
+.article .reading{column-width:34rem;column-gap:clamp(2rem,4vw,4.5rem);max-width:none}
+.article .reading>.narration{column-span:all}
+.article .reading p{break-inside:avoid-column}
+.orient-voices{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,18rem),1fr));gap:1.2rem}
+.orient-voice{max-width:none;border:1px solid var(--rule);border-top:3px solid var(--gold);border-radius:.4rem;background:var(--surface);padding:1rem 1.2rem}
+.docstories-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,24rem),1fr));gap:1.2rem;max-width:none}
+.orient-relations,.orient-read-first,.orient-pull-quotes{max-width:none}
+@media (max-width:1180px){.article{display:block}.article>.rail{display:none}}
+@media (max-width:900px){.hero{grid-template-columns:1fr}}
 </style>
 
-<!-- This is a safety disclosure, not
-     gap/thinness content, and CLAUDE.md's own safety priority holds
-     regardless of what else moves. -->
-<p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+{{RAIL}}
 
 <!--SECTION:story-->
-<section aria-labelledby="story-title">
+<section id="story" aria-labelledby="story-title">
   <p class="eyebrow">The Story</p>
   <h2 id="story-title">How this tradition took shape</h2>
   <div class="reading">{{STORY}}</div>
@@ -100,15 +133,15 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 <!--/SECTION:story-->
 
 <!--SECTION:voices-->
-<section aria-labelledby="voices-title">
-  <p class="eyebrow">Voices</p>
+<section id="people" aria-labelledby="voices-title">
+  <p class="eyebrow">People</p>
   <h2 id="voices-title">The people behind this account</h2>
   {{VOICES}}
 </section>
 <!--/SECTION:voices-->
 
 <!--SECTION:documented_stories-->
-<section aria-labelledby="documented-stories-title">
+<section id="stories" aria-labelledby="documented-stories-title">
   <p class="eyebrow">Documented stories</p>
   <h2 id="documented-stories-title">Stories worth telling in full</h2>
   {{DOCUMENTED_STORIES}}
@@ -116,7 +149,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 <!--/SECTION:documented_stories-->
 
 <!--SECTION:legacy-->
-<section aria-labelledby="legacy-title">
+<section id="after" aria-labelledby="legacy-title">
   <p class="eyebrow">Legacy</p>
   <h2 id="legacy-title">What came after</h2>
   <div class="reading">{{LEGACY}}</div>
@@ -124,39 +157,21 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 <!--/SECTION:legacy-->
 
 <!--SECTION:relations_summary-->
-<section aria-labelledby="relations-summary-title">
-  <p class="eyebrow">In its own record</p>
-  <h2 id="relations-summary-title">How this world relates to others</h2>
+<section id="related" aria-labelledby="relations-summary-title">
+  <p class="eyebrow">Related traditions</p>
+  <h2 id="relations-summary-title">How this tradition relates to others</h2>
   {{RELATIONS_SUMMARY}}
 </section>
 <!--/SECTION:relations_summary-->
 
-<!--SECTION:sourcing-->
-<section aria-labelledby="sourcing-title">
-  <p class="eyebrow">Sources</p>
-  <h2 id="sourcing-title">What this account is built from</h2>
-  <div class="reading">{{SOURCING}}</div>
-</section>
-<!--/SECTION:sourcing-->
 
-<!-- Judgment call (flagged in this generator's own report): the glossary
-     and pull-quotes fields are the two world_front units with no
-     dedicated section of their own. Rather than two more
-     full-width sections, they share one compact strip - pull quotes as
-     blockquotes, then a small glossary grid - placed after Sources and
-     before the closing Questions section. -->
+
 <!--SECTION:glossary_and_quotes-->
-<section aria-labelledby="glossary-and-quotes-title">
-  <p class="eyebrow">In this world's own words</p>
+<section id="terms" aria-labelledby="glossary-and-quotes-title">
+  <p class="eyebrow">In its own words</p>
   <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
   {{PULL_QUOTES}}{{GLOSSARY}}
 </section>
 <!--/SECTION:glossary_and_quotes-->
 
-<!--SECTION:questions-->
-<section aria-labelledby="questions-title">
-  <p class="eyebrow">Questions people bring to this table</p>
-  <h2 id="questions-title">Start with the hard one</h2>
-  {{QUESTIONS}}
-</section>
-<!--/SECTION:questions-->
+

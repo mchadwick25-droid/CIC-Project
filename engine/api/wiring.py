@@ -269,7 +269,6 @@ def create_session(
     world_name = registry[world_key].get("card_name") or world.frame["display_name"]
     door_event = facilitator_turns.door_turn(
         representative_name=representative["name"],
-        role_label=representative["role_label"],
         world_name=world_name,
     )
     events.validate("facilitator_turn", door_event)

@@ -49,11 +49,12 @@ text: >-
   but they recognized each other in the Spirit. And Basil himself, the story
   says, ordained Ephrem a deacon. It is a story told with love for both men.
   But it does not hold up. The praise of a 'Syrian' in Basil's own writings,
-  which the tradition built on, is now known to be about another man entirely.
+  which the tradition built on, may well be about another man entirely.
   The meeting is judged legend. What is true beneath it is this. Ephrem's fame
   did reach the Greek church in his own century - the historians record
   Basil's admiration of him. And his service as a deacon is attested on its
   own, without any journey.
+telling: "Ephrem's fame reached the Greek church in his own century. Sozomen, a Greek historian of the next century, writes that Basil greatly admired him and was astonished at his learning. Basil later became bishop of Caesarea in Cappadocia. Palladius of Galatia and Jerome both name Ephrem a deacon of the church at Edessa.\n\nA later age built a meeting on a passage in Basil's own writings. There Basil credits an explanation of Scripture to an unnamed Syrian. He says the Syrian knew little of worldly wisdom but much of the knowledge of the Truth.\n\nLater tradition took that Syrian to be Ephrem. Basil never names him, and he may well be another man, Eusebius of Emesa. The meeting itself is a later legend.\n\nThe later Life of Ephrem tells the story with love for both men. A vision prompted the poet to travel to Caesarea to see the great Basil. The two holy men had no common language, yet they recognized each other in the Spirit. And Basil himself, the Life says, ordained Ephrem a deacon."
 absent_detail: The vision, the journey, the wordless recognition, and the ordination-by-Basil are the
   legend's own furniture. The genuine kernel (Basil's recorded admiration; the diaconate attested by Jerome
   and Palladius) stands apart from it.

@@ -15,11 +15,57 @@ doorway_description: >-
   420.
 card_name: "The Bethlehem Circle"
 app: {order: 4, accent_color: "#B77889", portrait: "/images/portraits/thumb/bethlehem.webp"}
-representative: {name: Albina, role_label: "Widow of the Household"}
+representative: {name: Albina}
 state: admitted
 census_id: "hieronymian-ascetic-literary"
 package:
-  manifest_hash: "sha256:2e7e66c5ea7b0c32bf1079b9c4dd45ccf1f4ac03d482079bd8aa65d99e9562fb"
-  location: "packages/hal/2026-10-13T19-40-07Z"
+  manifest_hash: "sha256:cc1a78b20f83ffd84b27da1c95b5a4340dd00dc067d9914e67cbd9c424a42576"
+  location: "packages/hal/2026-10-20T13-26-52Z"
 thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
 living_tradition_flag: false
+story_placement: false
+card:
+  portrait: "assets/portraits/bethlehem.png"
+  intro: Albina is a representative voice for the Christian tradition of the Bethlehem circle (c. 382–420 CE). Roman women spent a senatorial fortune founding monasteries at Bethlehem and sustaining Jerome's translation of the Old Testament from the Hebrew.
+  shaped:
+  - Jerome
+  - Paula
+  - Marcella
+  summary: In the early 380s Jerome came to Rome and joined a circle of women already meeting around the widow Marcella to study Scripture. Paula and her daughters belonged to it. These were women of senatorial rank. When Jerome left Rome in 385, Paula and Eustochium sailed east and founded monasteries at Bethlehem, a house for men, houses for women, and a hostel for pilgrims, with Jerome installed beside them to work. Paula sold her property and spent her fortune on the foundations and on charity. She led the women's community until her death; Eustochium led it after her. Out of it came Jerome's Latin Old Testament, made from the Hebrew, part of what was later called the Vulgate.
+  record_holds: Rich in Jerome's letters. Thin on daily life beyond one letter.
+  topics:
+  - word: The Bible and how to read it
+    note: They held the Hebrew text truest and spent a lifetime correcting and translating scripture.
+  - word: Saints and holy places
+    note: They lived beside the cave of Christ's birth and treated the land as witness.
+  - word: Jesus
+    note: God's Word became flesh in Bethlehem; his poverty taught renunciation.
+  - word: Salvation and grace
+    note: No one lives without sin; they held grace is needed in every act.
+  - word: Sin and forgiveness
+    note: Public penance restored the fallen fully; Fabiola confessed her fault and returned to communion.
+  - word: Heaven, hell and judgment
+    note: They taught real punishment; Jerome, under attack, renounced the hope that all are restored.
+  - word: Money and the poor
+    note: Giving away wealth was itself the way of faith; those fortunes built the monasteries.
+  - word: Marriage and family
+    note: Remarriage while a spouse lived was a fault for both sexes; penance restored.
+  - word: Women
+    note: Noble women led this ascetic life; none of their own words survive.
+  - word: Suffering and death
+    note: They met Rome's fall and a daughter's death with old answers, and honored grief.
+  - word: Monks and nuns
+    note: They adapted Egyptian monastic patterns into Latin monasteries for men and women at Bethlehem.
+  - word: Learning and education
+    note: They taught and guided people by letter, and studied Hebrew to read scripture truly.
+  - word: Caring for the sick
+    note: Jerome praised Fabiola for founding a hospital and nursing the sick from the streets.
+  - word: Church leaders
+    note: Jerome openly mocked clergy who chased fine clothes, women's company and gifts.
+  - word: The emperor and the state
+    note: Under Christian emperors, they said, the church grew rich and weak in virtue.
+  - word: Heresy and false teaching
+    note: They fought Origen's followers and the Pelagians fiercely, and these disputes shaped their writing.
+  keywords:
+  - vulgate
+  - bible translation

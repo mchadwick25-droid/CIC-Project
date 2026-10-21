@@ -15,8 +15,8 @@ DOOR gives the conversation screen its first-ever opening line -
 the event catalog was written, but nothing emitted one before this.
 
 DEPENDENCY_CHECK's `{representative_name}` slot (and DOOR's
-`{representative_name}`/`{role_label}`) are filled at call time from
-`world.frame["representative"]["name"]`/`["role_label"]` - the same
+`{representative_name}`) are filled at call time from
+`world.frame["representative"]["name"]` - the same
 registry-authored fields records/worlds.yaml carries per world (compiled
 into compiled/frame.json by engine.m2.builders.build_frame_json) and
 already used for the doorway screen. The Facilitator names itself plainly
@@ -64,11 +64,11 @@ class FacilitatorTurn:
 SYSTEM_NATURE = FacilitatorTurn(
     kind="threshold",
     text=(
-        "Yes - we use AI here, and I'd rather tell you plainly than let you wonder. Each world you can "
+        "Yes - we use AI here, and I'd rather tell you plainly than let you wonder. Each Christian tradition you can "
         "speak with is built from a fixed set of records - sources that actually survive from that time "
         "and place - and the voice answering you may only say what those records carry. Before you see "
         "an answer, each claim in it is checked to make sure its words come from the record it names. "
-        "The record itself was checked against the sources when the world was built. Where the record "
+        "The record itself was checked against the sources when the tradition was built. Where the record "
         "is silent, the voice is built to say so, not to fill the gap. It isn't a person, it isn't the "
         "church, and it doesn't speak for anyone living.\n\n"
         "That's the honest shape of it - whenever you're ready, let's keep going."
@@ -85,10 +85,8 @@ SYSTEM_NATURE = FacilitatorTurn(
 DOOR = FacilitatorTurn(
     kind="door",
     text=(
-        "Welcome - I'm the Facilitator. I don't belong to any world; I'm just here to keep this space "
-        "honest. You're about to speak with {representative_name}, {role_label} of {world_name}. Ask "
-        "anything you like - {representative_name} answers only from what's actually known of this "
-        "Christian tradition, and will tell you plainly when the record runs out."
+        "Welcome. You're about to speak with {representative_name} of {world_name}. "
+        "Ask anything you like. {representative_name} will tell you plainly when the record runs out."
     ),
 )
 
@@ -122,7 +120,7 @@ DEPENDENCY_CHECK = FacilitatorTurn(
         "for you. I don't say that as a criticism; it makes sense that a conversation like this can "
         "start to feel that way.\n\n"
         "But I want to be honest with you about what this actually is: {representative_name} is a way "
-        "of meeting a historical world, not a person who can be there for you the way a real friend, "
+        "of meeting a historical Christian tradition, not a person who can be there for you the way a real friend, "
         "counselor, or community can. I'd rather say that plainly than let you find it out the harder "
         "way.\n\n"
         "The people already in your life - or, if none feel reachable right now, a crisis line or other "
@@ -140,14 +138,14 @@ DEPENDENCY_CHECK = FacilitatorTurn(
 # let it speak for itself.
 _ETIC_TEXT = {
     "later_age": (
-        "That question reaches past where this world's own witnesses stop. Answering it honestly would "
+        "That question reaches past where this Christian tradition's own witnesses stop. Answering it honestly would "
         "mean inventing what happened later, not remembering it - and this voice only speaks from inside "
         "what it actually lived through. That's not a refusal so much as the honest edge of it: there's "
-        "a real period this world simply never reached."
+        "a real period this tradition simply never reached."
     ),
     "other_tradition": (
-        "You're asking this world about a tradition that isn't its own. It can tell you what it held and "
-        "what it argued with, but it can't speak for anyone else - a world describing its neighbours in "
+        "You're asking this Christian tradition about a tradition that isn't its own. It can tell you what it held and "
+        "what it argued with, but it can't speak for anyone else - a tradition describing its neighbours in "
         "its own words is testimony about itself, not about them. If you want that other tradition's own "
         "account, it needs its own voice, not this one's."
     ),
@@ -174,10 +172,10 @@ def dependency_check_turn(representative_name: str) -> dict:
     return {"kind": DEPENDENCY_CHECK.kind, "text": text, "resources_appended": False}
 
 
-def door_turn(*, representative_name: str, role_label: str, world_name: str) -> dict:
-    """representative_name/role_label come from world.frame (registry-
+def door_turn(*, representative_name: str, world_name: str) -> dict:
+    """representative_name comes from world.frame (registry-
     authored, compiled by engine.m2.builders.build_frame_json) - the same
-    fields the doorway screen already showed before the participant clicked
+    field the doorway screen already showed before the participant clicked
     "Begin", not composed here.
 
     world_name is deliberately NOT world.frame["display_name"] - that field
@@ -189,7 +187,7 @@ def door_turn(*, representative_name: str, role_label: str, world_name: str) -> 
     and Empire"), and the Facilitator's own words should align with that
     text - so callers pass registry[world_key]["card_name"], falling back
     to display_name only for an entry that has none (the fix fixture)."""
-    text = DOOR.text.format(representative_name=representative_name, role_label=role_label, world_name=world_name)
+    text = DOOR.text.format(representative_name=representative_name, world_name=world_name)
     return {"kind": DOOR.kind, "text": text}
 
 
@@ -261,23 +259,19 @@ def names_or_phrase(names: list[str]) -> str:
 TABLE_DOOR = FacilitatorTurn(
     kind="door",
     text=(
-        "Welcome - I'm the Facilitator. I don't belong to any world; I'm just here to keep this space "
-        "honest. You've come to a Table with {seated_sentence} - voices from genuinely different ways of "
-        "following Jesus, present together. Ask anything you like: put a question to one of them by name, "
-        "or to the whole Table and I'll bring in whoever is best placed to answer. Each voice answers "
-        "only from what's actually known of its own Christian tradition, and will tell you plainly when its record "
-        "runs out."
+        "Welcome. You've come to a Table with {seated_sentence}. Put a question to one of them by name, "
+        "or to the whole Table. Each voice will tell you plainly when its record runs out."
     ),
 )
 
 
 def table_door_turn(seated: list[dict]) -> dict:
     """seated: one dict per world in seating order, each carrying
-    representative_name/role_label straight from that world's compiled
+    representative_name straight from that world's compiled
     frame.json and world_name per door_turn's own card_name/display_name
     rule - the same registry-authored fields the interview's door_turn
     fills its slots from, composed here only with punctuation."""
-    parts = [f"{s['representative_name']}, {s['role_label']} of {s['world_name']}" for s in seated]
+    parts = [f"{s['representative_name']} of {s['world_name']}" for s in seated]
     if len(parts) == 2:
         seated_sentence = f"{parts[0]}, and {parts[1]}"
     else:
@@ -294,7 +288,7 @@ TABLE_DEPENDENCY_CHECK = FacilitatorTurn(
         "for you. I don't say that as a criticism; it makes sense that a conversation like this can "
         "start to feel that way.\n\n"
         "But I want to be honest with you about what this actually is: the voices here are ways of "
-        "meeting historical worlds, not people who can be there for you the way a real friend, "
+        "meeting historical Christian traditions, not people who can be there for you the way a real friend, "
         "counselor, or community can. I'd rather say that plainly than let you find it out the harder "
         "way.\n\n"
         "The people already in your life - or, if none feel reachable right now, a crisis line or other "
@@ -412,8 +406,8 @@ def bridge_turn(terms: list[dict], fleet: dict[str, dict] | None = None) -> tupl
     subjects = " ".join(t["underlying_subject"].strip() for t in terms if t.get("underlying_subject"))
     displays = ", ".join(sorted({d for t in terms for d in (t.get("display_terms") or [])}))
     text = (
-        f"Something in your question - {displays} - belongs to a later way of speaking than this world "
-        f"knew. In our sense: {senses} Let me translate that into terms this world would actually "
+        f"Something in your question - {displays} - belongs to a later way of speaking than this Christian tradition "
+        f"knew. In our sense: {senses} Let me translate that into terms this tradition would actually "
         f"recognize before I put it to the voice: {subjects}"
     )
     modern_term_cards = [

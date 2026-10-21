@@ -46,8 +46,8 @@ currently holds from Cassian's Conference XIII alone.
 
 THE ATTRIBUTION PROBLEM IS THE MOST IMPORTANT THING ABOUT THIS RECORD.
 This is not a source that can be quoted as "one of us said". The safe frame
-is that these are homilies the tradition read and transmitted under
-Macarius's name, whose actual author is unknown and whose doctrine was
+is that these are homilies transmitted under
+Macarius's name from a neighbouring eastern monastic milieu, which no record shows desert monks carried, whose actual author is unknown and whose doctrine was
 drawn on by a condemned current. The vendored edition is unusually good
 provenance for exactly this reason: Mason sets out the case against his own
 position, in print, and refuses it - so a reader can watch the argument

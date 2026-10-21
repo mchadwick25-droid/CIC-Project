@@ -1,0 +1,38 @@
+source_file: life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt
+assignments:
+- row_id: life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895--peter-the-iberian-syriac-orthodox
+  work: The Syriac Life of Peter the Iberian (c. 500), German with Syriac (Raabe, 1895)
+  author: life-of-peter-the-iberian
+  locus: whole file; Chalcedon as "object of abhorrence" at file line 338; Juvenal 2726-2806; Proterius
+    3111
+  atlas_ids:
+  - syriac-orthodox-west-syriac-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Chalcedon 451). The anti-Chalcedonian Life of the Georgian prince-bishop
+    of Maiuma, written in Greek in the Gaza circle of John Rufus about 500 and preserved in Syriac within
+    the Syriac Orthodox tradition. A near-contemporary anti-Chalcedonian narrative of the Palestinian
+    revolt against Juvenal and of Timothy Aelurus''s consecration; reception, not evidence of the sessions.
+    German recovered; Syriac not recovered. ROLE IS A JUDGMENT CALL as for the Plerophories: tradition
+    for the tradition that kept and read it, provisional.'
+- row_id: life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895--peter-the-iberian-georgian
+  work: The Syriac Life of Peter the Iberian (Raabe, 1895)
+  author: life-of-peter-the-iberian
+  locus: whole file
+  atlas_ids:
+  - georgian-christianity
+  role: context
+  confidence: provisional
+  note: 'A Georgian-born saint whose Life was written by Palestinian disciples in Greek and survives in
+    Syriac: the Georgian entry''s own later memory of Peter is not this text, and this text is not written
+    from inside Georgia. Context, provisional; the Georgian builder may rule otherwise.'
+- row_id: life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895--peter-the-iberian-chalcedonian-monasticism
+  work: The Syriac Life of Peter the Iberian (Raabe, 1895)
+  author: life-of-peter-the-iberian
+  locus: whole file; Juvenal and the Jerusalem revolt 2726-2806
+  atlas_ids:
+  - chalcedonian-monasticism-judean-desert-and-gaza
+  role: context
+  confidence: provisional
+  note: The contemporary opponent's account of Juvenal and of the Chalcedonian settlement in Palestine.
+    Context.

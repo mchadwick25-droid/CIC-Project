@@ -13,10 +13,13 @@
  *
  * Usage:
  *   ELEVENLABS_API_KEY=... node Build/tools/generate_docstory_narration.mjs \
- *     --voice-id <id> --model <model_id> --output-format <fmt> [options]
+ *     --voice-id <id> --model <model_id> --output-format <fmt> \
+ *     --approved-run "<name>" --char-cap <n> [options]
  *
  * --voice-id, --model and --output-format are required (except --dry-run) and
- * never read from the environment. The run prints the settings it sends and
+ * never read from the environment. So are --approved-run (the run Mark
+ * approved after hearing its sample) and --char-cap (its character limit; a
+ * run that plans more refuses to start). The run prints the settings it sends and
  * one line per request with the credits charged.
  *
  * Options:
@@ -29,7 +32,7 @@ import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
-import { defaultVoiceSettings, requirePaidSettings, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
+import { defaultVoiceSettings, requireApprovedRun, requirePaidSettings, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -38,7 +41,7 @@ export const docStoryAudioDir = path.join(rootDir, 'cic-website/audio/docstories
 export const manifestPath = path.join(docStoryAudioDir, 'manifest.json');
 
 export function parseArgs(argv) {
-  const opts = { dryRun: false, only: null, limit: null, force: false, voiceId: null, model: null, outputFormat: null };
+  const opts = { dryRun: false, only: null, limit: null, force: false, voiceId: null, model: null, outputFormat: null, approvedRun: null, charCap: null };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--dry-run') opts.dryRun = true;
@@ -48,6 +51,8 @@ export function parseArgs(argv) {
     else if (arg === '--voice-id') opts.voiceId = argv[++i];
     else if (arg === '--model') opts.model = argv[++i];
     else if (arg === '--output-format') opts.outputFormat = argv[++i];
+    else if (arg === '--approved-run') opts.approvedRun = argv[++i];
+    else if (arg === '--char-cap') opts.charCap = Number(argv[++i]);
     else throw new Error(`unrecognized argument: ${arg}`);
   }
   if (opts.limit !== null && (!Number.isInteger(opts.limit) || opts.limit < 0)) {
@@ -107,12 +112,14 @@ async function run() {
   if (toGenerate.length === 0) { console.log('Nothing to do.'); return; }
 
   requirePaidSettings(opts);
+  requireApprovedRun(opts, totalChars);
   if (!opts.outputFormat || opts.outputFormat.startsWith('--')) throw new Error('--output-format is required and is never read from the environment.');
   const apiKey = process.env.ELEVENLABS_API_KEY;
   if (!apiKey) throw new Error('ELEVENLABS_API_KEY is not set.');
 
   fs.mkdirSync(docStoryAudioDir, { recursive: true });
   console.log('=== PAID RUN, settings as actually used ===');
+  console.log(`approved run  : ${opts.approvedRun}   char cap: ${opts.charCap}`);
   console.log(`voice id      : ${opts.voiceId}`);
   console.log(`model         : ${opts.model}`);
   console.log(`output format : ${opts.outputFormat}`);

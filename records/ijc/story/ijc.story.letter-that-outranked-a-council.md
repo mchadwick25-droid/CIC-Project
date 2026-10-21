@@ -48,6 +48,7 @@ text: >-
   earliest surviving example of the claim. (Rome had asserted its standing
   before this - Victor around 190, Stephen in 256 - but outside our
   own years.) Rome did not keep it. Athanasius did, the man it had helped.
+telling: "A council in the East had condemned Athanasius of Alexandria and removed him from office. Julius, bishop of Rome, was expected to accept that decision. Instead he wrote back, questioning the council's right to settle the matter before Rome had heard it.\n\nHe put it to them as a question. \"Are you unaware that the custom has been to write to us first, and then for a just decision to be passed from this place?\" Julius had not attended their council. Those he wrote to disputed how old and settled that custom was."
 absent_detail: The Eusebian party's own letter to Julius (the anti-Nicene faction named for Eusebius of
   Nicomedia, not Eusebius of Caesarea the historian) - the one he was answering - does not survive
   independently; their side of the argument reaches the record only through their opponents. And whether

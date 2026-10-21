@@ -46,8 +46,16 @@ _STATUS_META_FIELDS = (
 # census entry.* field -> registry field, applied only once status == LIVE_STATUS
 _ENTRY_FIELDS = (
     ("representativeName", ("representative", "name")),
-    ("representativeTitle", ("representative", "role_label")),
     ("worldName", ("card_name",)),
+    ("intro", ("card", "intro")),
+    ("summary", ("card", "summary")),
+    ("shaped", ("card", "shaped")),
+    ("recordHolds", ("card", "record_holds")),
+    ("matches", ("card", "matches")),
+    ("portrait", ("card", "portrait")),
+    ("topics", ("card", "topics")),
+    ("aliases", ("card", "aliases")),
+    ("keywords", ("card", "keywords")),
 )
 
 

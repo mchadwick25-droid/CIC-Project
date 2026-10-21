@@ -99,6 +99,7 @@ text: >-
   conclusion. He asks who can doubt the victory was due to the saintly man. He reads it as the good
   Lord sparing Martin the sight of others dying. The enemy yielded without bloodshed, and no one was
   killed.
+telling: "Barbarians were pushing into Gaul, and Julian Caesar had gathered his army to meet them. He was handing out a donative, a gift of money, and calling his soldiers forward one by one. When Martin's turn came, he would not take the money. He had served Caesar long enough, he said, and now he asked to serve God. As Christ's soldier, it was not lawful for him to fight.\n\nJulian, whom Sulpitius calls the tyrant, said Martin was running from the coming battle out of fear. The charge only made Martin firmer. If this was cowardice, he said, he would stand before the enemy line the next day with no weapon. The sign of the cross would be his only protection. He was sent back to prison to wait for morning.\n\nThe next day the enemy sent envoys to ask for peace. Sulpitius tells us God was sparing Martin the sight of other men dying. The enemy gave up themselves and everything they had, and no battle was fought."
 absent_detail: >-
   The text gives no year and names the emperor only as "Julian Caesar" and the place only as "the city
   of the Vaugiones"; Sulpitius was not present, and no witness to the scene other than his own Life
@@ -121,10 +122,3 @@ use_note:
   years: {from: 397, to: 397}
   status: reviewed
 ---
-The ancient text's own "Julian Caesar" and "the city of the Vaugiones" are kept, not Roberts's
-editorial identification of the city as Worms.
-
-Martin's two speeches - refusing the donative, and offering to stand unarmed before the enemy line -
-are carried in full, verbatim, in gallic.quote.martin-refuses-the-donative and
-gallic.quote.martin-offers-to-stand-unarmed; this record paraphrases them in its own voice and points
-to those records for the exact wording.

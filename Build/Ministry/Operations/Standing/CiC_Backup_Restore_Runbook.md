@@ -207,6 +207,16 @@ that holds a second connection open with an uncommitted write while the
 backup runs, proving the online-backup-vs-file-copy distinction this runbook
 argues for above rather than just asserting it.
 
+## First production upload and restore drill, 2026-10-16
+
+Run by Mark in the `cic-engine` Shell. No model calls.
+
+- **Upload:** the first manual `backup` pass sent all three databases to `cic-db-backups` (events 6,287,360 bytes, usage 208,896, meter 45,056). `/health` then showed `"uploaded": true`.
+- **Drill:** each newest object was downloaded with `restore --from-key` into a scratch folder (`/tmp/drill`), never over a live file. Every download passed `integrity_check` twice (on download and on copy).
+- **Row counts, backup against live:** `session_events` 1503 / 1503; `usage_log` 535 / 535; meter `daily` 6 / 6, `free_window` 1 / 1, `state` 1 / 1, and `funds`, `meter`, `pilot_joined`, `reconcile`, `voided_payments` 0 / 0. No table missing on either side.
+- **Why production, not staging:** resuming `cic-engine-staging` costs money, and a restore into a scratch path reads the bucket without touching the live databases.
+- **Not yet run for real:** the full sequence above (suspend, overwrite the live files, resume). The RTO estimate stays an estimate until that runs.
+
 ## What this does not cover
 
 - **Point-in-time recovery finer than 24 hours.** See RPO above.

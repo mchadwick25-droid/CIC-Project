@@ -75,7 +75,7 @@ text: >-
   our punishment in our place, but it is not the same thing. Personal
   Lord and Saviour was not our phrase. Our Lord and Saviour was our
   phrase - said at an hour of prayer by a house together. The private
-  form of it is not in our record. One man's private word survives.
+  form of it is not in our record. One man's private word is in our record.
   Martin, alone in his cell, refused a Christ without wounds.
 positions:
 - one substance and three Persons in God; two substances and one Person in Christ - Vincent's own statement of what the Church believes, given as his model case of antiquity refusing a novelty
@@ -85,7 +85,7 @@ positions:
 tensions:
 - the fine arguments about the two natures were not where our life pressed; Vincent's formula is a proof-case for his rule of antiquity and consent, and our formation books dwell on it nowhere else
 - the seven books Cassian wrote against Nestorius at the end of his life are in our record only as a title; what they say cannot be spoken from our own read texts
-- the sixth-hour sentence is Egypt's reason for the hours as Cassian handed it on, not a Gallic argument; no one among us wrote a treatise on what his death accomplished
+- the sixth-hour sentence is Cassian's reason for hours of prayer he took from Palestine and Mesopotamia; it explains an hour of prayer and is not a teaching on what his death achieved; no one among us wrote a treatise on what his death accomplished
 - personal Lord and Saviour is not our phrase; the our in our Lord and Saviour is a house at prayer, not one man's confession, and our record speaks as houses
 relations:
 - type: associated-with

@@ -16,11 +16,62 @@ doorway_description: >-
   person can bear.
 card_name: "Desert Fathers and Mothers"
 app: {order: 3, accent_color: "#9D893B", portrait: "/images/portraits/thumb/desert.webp"}
-representative: {name: Papnoute, role_label: "Abba (Elder)"}
+representative: {name: Papnoute}
 state: admitted
 census_id: "desert-monasticism"
 package:
-  manifest_hash: "sha256:0bb182e27a742c7dcae6eee6428e86499f1488ec8941fb7fa13cba3710174bff"
-  location: "packages/desert/2026-10-14T21-27-17Z"
+  manifest_hash: "sha256:f03999f9e6f88c7790d4a0cb7fe0bf2544c363093b0b9f3c1685ceca28df38b1"
+  location: "packages/desert/2026-10-21T14-59-01Z"
 thinness_statement: "Richest in the Apophthegmata's own elder-and-disciple sayings tradition and Antony's own Vita; thinner on ordinary participants outside the collected-sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus)."
 living_tradition_flag: true
+story_placement: true
+card:
+  portrait: "assets/portraits/desert.png"
+  intro: Papnoute is a representative voice for the Christian tradition of the Egyptian desert (c. 320–430 CE). Christians left their villages for the desert to wrestle with tempting thoughts, alone or in community.
+  shaped:
+  - Antony
+  - Pachomius
+  - Evagrius
+  summary: Between about 320 and 430, Christians in Egypt left their villages for the desert's edge. Some lived alone, as Antony did after he gave away his inheritance. Others lived in settlements such as Nitria and Kellia. They kept small cells and met once a week to worship. Pachomius gathered monks into houses governed by the Pachomian rule. Elders guided the hermits and the settlements. Both kinds of authority stood side by side.
+  record_holds: Rich in the elders' sayings and Antony's life. Thin on ordinary monks and the later life of Pachomius's houses.
+  topics:
+  - word: The Bible and how to read it
+    note: Monks read Scripture for what it said to one person's struggle right now.
+  - word: Fasting and self-denial
+    note: Elders set fasting to what each person could safely bear; no rule fit everyone.
+  - word: Jesus
+    note: Monks heard Christ's command to sell all and follow him as spoken to them.
+  - word: Sin and forgiveness
+    note: A violent past did not bar entry, though change came through long, costly struggle.
+  - word: Heaven, hell and judgment
+    note: They taught certain judgment and resurrection but left no worked-out account of the end.
+  - word: Tradition and authority
+    note: Authority came from an elder's proven discernment; the Pachomian Rule placed it in office.
+  - word: Money and the poor
+    note: Monks claimed full withdrawal yet traded with villages; how widespread this was is contested.
+  - word: The devil and demons
+    note: Monks fought daily against tempting thoughts, a struggle they described as war with demons.
+  - word: Monks and nuns
+    note: Leaving the village for the desert was the whole work of forming the soul.
+  - word: Martyrs
+    note: With martyrdom closed, monks turned the same total self-offering inward, against their own thoughts.
+  - word: Heresy and false teaching
+    note: Antony refused communion with Arians and Melitians, and argued against Arians in Alexandria.
+  - word: Church splits
+    note: They refused to recognize the rival Melitian monks, mostly by silence; much stays uncertain.
+  aliases:
+  - name: Abba and Amma
+    kind: own
+    note: Honored address for proven elders, men and women; not an office.
+  - name: Anchorites
+    kind: scholarly
+    note: Records' word for the solitary strand only, not the whole world.
+  - name: Koinonia
+    kind: own
+    note: Pachomius's own name for his linked houses; names that strand alone.
+  keywords:
+  - hermit
+  - nitria
+  - athanasius
+  - sayings of the desert fathers
+  - desert mothers

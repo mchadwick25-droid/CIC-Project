@@ -5825,3 +5825,103 @@ need to design something we design it fresh."
 
 Mark reads the privacy page's Feedback section on the live site after the redeploy. Then
 the weekly read begins with the first item that arrives.
+
+## 2026-10-17 — Past conversations wait for accounts; the team's test sessions leave the counts
+
+**Past conversations.** Today a conversation lives in its browser tab: a reload brings it
+back, closing the tab loses the way back, though the server keeps it 90 days for review.
+Mark weighed three ways to let a person return to earlier conversations: a list kept only
+on their device, a private save-this-conversation link, or accounts. **Decision (Mark):
+wait for accounts.** Nothing is built for it in the pilot. When accounts are designed, they
+carry the conversation list, sign-in, and the privacy rewrite that linking conversations to
+a person requires (identity, deletion, retention, what the team can see).
+
+**The team's own test sessions.** The admin dashboard counted Mark's testing as visitors.
+The engine stores no IP addresses, and the app runs in an iframe on the site, so the
+visitor cookie cannot reliably tell the team apart. **Decision (Mark):** a private link,
+`talk.html?ours=1`, marks a browser as the team's; its new sessions carry `internal: true`
+and the dashboard leaves them out of people, time, sessions and the questions list, and
+says how many it left out. Cost still counts every call. It works from the day it ships;
+earlier sessions cannot be sorted, so the dashboard's range starts at launch day.
+
+## 2026-10-17 — The opening screen: B's first screen, then A's conversation
+
+**Problem.** About 300–500 words sat above the message box, so a phone needed three to four
+screens of scrolling to reach it, and 65% of conversations never got a message (part of
+that is counting: a session opens on page load). Diagnosis and options were shown to Mark
+as artifacts ("Before the First Message", "Keeping the Box in View").
+
+**Decision (Mark).** B's first screen, then A's conversation, drawn at phone size with the
+Desert Fathers and Mothers text ("Opening Screen, B then A") and approved to build as drawn:
+
+- The message box is always on screen; the column is exactly the visible height and follows
+  the phone keyboard.
+- First screen: portrait, names, the doorway folded to two lines with "Read more" on a
+  phone, the disclosure, the suggested questions in one sideways row, the AI note, the box.
+- Once the conversation starts, nothing at the top but the portrait and the names. Each
+  question scrolls up under that bar. Tapping the bar reopens the arrival.
+- "Tell us what you think" and "Leave for now" sit under the box once the conversation
+  starts. "Delete this conversation" appears once there is something to delete.
+
+The disclosure, the Facilitator's welcome and the AI note keep their approved words; only
+their placement changed. New words: "Read more" and "Back to the conversation".
+
+### Next action
+
+Mark tries it on his own phone after the deploy, including the keyboard on iPhone, which
+could not be tested here.
+
+## 2026-10-18 — Change order: the public Corrections and Leads page is deleted
+
+**Decision (Mark, project lead).** The public Corrections and Leads page is deleted
+completely. The site needs only a place to give a heads-up about accuracy or craft, or to
+click a like.
+
+**What this supersedes in the 2026-10-16 entry:**
+
+- Items 7 and 8: nothing is listed on a public page any more. The person's reply promise
+  now reads "A person will check it against the sources."
+- The workflow where Mark adds closed items to the Corrections page weekly. It ends.
+  Closed flags are still triaged in the admin dashboard, but no public ledger exists.
+
+**What replaces it.** A like and a report form sit at the bottom of a conversation, a Table
+and each Church Family Tree page. This also touches two items:
+
+- Item 12: the page-level control asks only about accuracy or craft.
+- Item 15: a like stays private. There is no public count.
+
+**Done in this change.** The page and every footer and body link to it are removed, along
+with its sitemap entry, its README line and its unused outcomes styling. The privacy page
+describes what the page-level like and report store.
+
+## 2026-10-18 - The Facilitator's welcome is short and silent
+
+The project lead ruled that the Facilitator's welcome is too long, and that a participant who has heard it once does not need it again. The recorded welcome no longer plays by itself, and its "Hear the welcome" button is gone with it. The welcome is now two short sentences of text: who the participant is about to speak with, and that the Representative will say plainly when the record runs out. A Table's welcome is the same shape. The Facilitator's self-introduction and its explanation of its role are dropped from both. This is a change order to the 2026-08 decision that gave each world a spoken door.
+
+The recorded door files under `cic-poc/frontend/public/audio/door/` and `Build/tools/generate_door_narration.py` stay in the repository, unused, until the project lead decides whether to delete them.
+
+## 2026-10-19 — The conversation chooser: a hand of five dealt from a deck
+
+**Problem.** The landing page chooses a conversation through three sideways strips of
+eleven chairs, and the Build a Table page through a seat ring with its own copy of the
+world list. Mark wants the Google Arts and Culture hand of cards: portraits that sit like a
+hand, the chosen card rising, a turn for the next level, interview or table from the card.
+
+**Decision (Mark).** Direction B of three: a hand of five cards dealt from a deck narrowed by
+era or by a name, the count always written, the Church Family Tree one step away. "It
+replaces the chair strips and multi-voice table launch." "Converged, write the build plan."
+Record, research and build plan: `Build/Ministry/Features/Conversation-Chooser/`.
+
+**The heart of it.** The first screen should feel like being dealt a hand, simple and a little
+surprising, with the depth one turn away. The deck and the Tree keep that honest at a
+hundred worlds: the hand never pretends to be everything.
+
+**Why not the whole hand.** Apple's collection guidance, Google's own carousel research, the
+Oslo carousel studies and Cover Flow's removal all run against a wheel of eleven unfamiliar
+cards. The standards (WCAG reflow, dragging, animation; the ARIA carousel pattern) write the
+fallback: buttons, cards that fit 320 px, no auto-motion, a list under reduced motion.
+
+### Next action
+
+A build thread works `Build-Plan.md` in the feature folder, data first, then the component,
+then the card words under their own review.

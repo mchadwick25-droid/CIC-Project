@@ -760,3 +760,78 @@ The independent review of the entry Use notes that contradicted the corrected wo
 Still OPEN, not edited: the `senses.informational` text of `pahc.term.diakonos` gives deacons the work for the widow, the orphan and the prisoner, which Justin (First Apology 67) gives to the president; the deacons there carry the elements to the absent.
 
 Status: CLOSED for the `means` changes; OPEN for `pahc.term.diakonos` `senses.informational`.
+
+### OG-31. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `pahc.demo.lament-suffering` representative turn: "We will not tell you why." now reads "We will not tell you why God allows such suffering."
+
+`engine.m10.cli records pahc` and `regate pahc --base origin/main` pass. Package rebuilt and repinned: `packages/pahc/2026-10-14T20-20-58Z`, `manifest_hash` `sha256:79a508813ec8e95437d6fcec6b8d1bd865323578b2fe7d5b4e8e5a11f4f2bca8`. Status: CLOSED.
+
+### OG-32. Atlas story pass: shorter story, ten card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card. He approved the House Churches story and the ten tellings in conversation on 17 October. `orientation.story` is now 8 units and 642 words, down from 8 units and 917 words. `documented_stories` shows ten stories in date order, seven of them new. Each of the ten story records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 22 short notes, and place notes cite Pleiades (checked 2026-10-17). The tile now says the communities gathered in households, after the project lead caught "ordinary houses", which no record supports. Review: `Build/Ministry/Operations/Audits/pahc_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/pahc/2026-10-17T03-51-40Z`, `manifest_hash` `sha256:3e11eaca20ff64189f949714f711809680b013c009aaedfdc246a0c1519d7bf2`. This pin supersedes the one in OG-31. The story and the ten tellings are recorded in the House Churches voice (`1gkXJMvrzBWAwt0XqBaa`, `eleven_v3`, speed 1.12, tempo 1.15), after the project lead approved a sample of the first unit. The full run was 15,480 characters and 7,505 credits. A targeted recheck then found a factual error and empty tails in six tellings. The project lead had those six fixed and re-recorded: 5,923 characters, 2,872 credits.
+
+**Open:**
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+### OG-33. Six story records' own text disagrees with the vendored source, 2026-10-17.
+
+A source check during the Atlas story pass read the tellings against the vendored texts. The tellings now follow the source, but the records' own `text` (and in one case `tellable_as`) still carries the errors:
+- `pahc.story.pliny-interrogation`: the text puts the torture of the two women before the account of the meetings. In Pliny's letter (`cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml`, around line 19487) former Christians describe the meetings first. Pliny then tortures the women "in order to ascertain the truth". As written, a reader can take the account to be the women's words, against the record's own `use_note.not_for`.
+- `pahc.story.quintus-recantation`: the text and `tellable_as` say the letter names Quintus before it praises Polycarp. The letter praises Polycarp in chapter 1 and names Germanicus before Quintus (`cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml`, chapters 1 to 4). The text also says Polycarp "spent his last days" at "a quiet house in the country". The source says "a country house not far distant from the city", and in chapter 6 he moves to another dwelling.
+- `pahc.story.martyrdom-of-polycarp`: "the games were already finished". Chapter 12 says the shows of wild beasts were finished.
+- `pahc.story.grandsons-before-domitian`: "some thirty-nine plethra" drops the source's "only", and the text drops "only 9000 denaria".
+- `pahc.story.first-clement-corinthian-dispute`: `modern_contrast` calls the letter "unrequested". 1 Clement 1 answers "the points respecting which you consulted us", so Corinth had asked.
+
+These are reviewed records, so the pass did not change them. The project lead rules on correcting them.
+
+Status: OPEN for the project lead.
+
+### OG-34. The readability gate does not score story tellings, 2026-10-17.
+
+`engine.m10.cli regate` scores the fields `gates._readability_checks` names and the world_front prose. A story's `telling` is not among them, so a telling that fails FK 10 or FRE 60 would pass the gate. The House Churches tellings were scored by hand with `gates.grade_text`: all ten pass (FK 5.7 to 8.6, FRE 64.5 to 78.7). The Donatist tellings were not scored this way. This is shared tooling, so the fix belongs to the thread that owns the compiler's `telling` support.
+
+Status: OPEN.
+
+### OG-35. Other world_front sections keep AI tells and "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the tile, the story, the card stories and highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first`, `narrative` and the body notes still use "this world" and dash asides. One body note is now false: it says the story quotes "a crude and excessive superstition" as the Pliny quote's modern rendering. The record's rendering is "nothing but a depraved superstition that went too far", which the story now quotes.
+
+Status: OPEN for the project lead to schedule.
+
+### OG-36. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the Quintus teaser no longer puts him before the praise of Polycarp, and the cards now run Quintus then Polycarp; the Ignatius, Polycarp, 1 Clement, Nero and Pliny tellings keep the "we" voice with emic doubts; Polycarp's bishop title is traced to Ignatius and Smyrna's letter; denarii and acres replace denaria and plethra in the Domitian telling; the main story drops its aphorism ending; six notes trimmed.
+**Open:** the Domitian record's tellable notes and source notes still use "plethra" and "denaria" as internal references.
+
+Status: CLOSED for this review except the open item.
+
+### OG-37. House Churches intro, ministrae wording and unclear endings, 2026-10-17.
+
+The project lead found these in a live app conversation. `records/worlds/pahc.yaml` no longer says "ordinary houses" and no longer ends on an abstraction: the intro keeps the household as the community's ethos and says what the churches were still settling (who should lead, and how scattered households could stay one church by letter). `pahc.term.ministrae` now reads "No one wrote down what the women called themselves." `pahc.witness.outsider-view` no longer says "not ours": it says ministrae was Pliny's Latin word and that whether the community used it is not known, which matches the term record. `pahc.witness.jesus-as-god` and `pahc.force.state-pressure` lead with their subject and name the demand.
+
+**Open:**
+- The Facilitator's welcome says "answers only from what's actually known of this world". It is fixed template text in `engine/m4/facilitator_turns.py` (`DOOR` and `TABLE_DOOR`), so it needs an engine change, which was ruled out for this pass.
+- Build/Ministry design drafts still carry "ordinary houses" (for example `Build/Ministry/Features/Website-V2/Sandbox/D1-directions/05-product-led-clarity/meet-chloe.html`).
+
+Status: CLOSED for the records; OPEN for the Facilitator welcome text.
+
+The two readability findings the `pahc.force.state-pressure` rewrite removed cut the pahc count from 113 to 111, so the `m1:readability/pahc` waiver in `engine/m9/enforce.py` is tightened to 111.
+
+### OG-38. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-pahc-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 38 own-voice, 2 outsider's account marked as such, 8 unsupported, 0 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `records/pahc/quote/pahc.quote.the-memoirs-of-the-apostles-are-read.md` line 32 ("he does not call them that") is false; Justin, 1 Apology 66, says "which are called Gospels".
+- `records/pahc/story/pahc.story.quintus-recantation.md` lines 35, 38 and 57 say the letter "names a different man first"; Polycarp and Germanicus precede Quintus.
+- `records/pahc/doctrinal_witness/pahc.witness.god-and-argument.md` lines 56 to 57 ("our real fight was who should lead") conflicts with `pahc.force.boundary-drawing` line 29.
+- `records/pahc/force/pahc.force.neronian-persecution.md` lines 38 to 43: the "world's own experience" prose has no source yet is retrieved as emic.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.

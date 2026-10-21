@@ -108,6 +108,7 @@ text: >-
 
   And then, Sulpitius goes on in the next chapter, the new bishop did not change. He carried himself
   with the dignity a bishop's office required. Yet he did not give up the plain habits of a monk.
+telling: "The people of Tours wanted Martin as their bishop, but Sulpitius says he could not easily be drawn out of his monastery. So a citizen named Ruricius knelt before him and pretended that his wife was sick. When Martin came out to help, citizens lining the road led him into the city as if under guard. A huge crowd from Tours and the nearby towns had gathered to vote, and nearly all of them wanted Martin.\n\nA few people objected, among them some of the bishops called in to consecrate him. Led by a bishop named Defensor, they said Martin looked contemptible, with his shabby clothes and disgusting hair. The crowd only laughed.\n\nThat day the reader could not get through the crowd. While the officials stood confused, someone picked up the psalter and read the first verse he found. Out of the mouths of babes and infants, it said, God had perfected praise, to destroy the enemy and the avenger. The crowd roared, and Defensor's side fell silent, for people believed God had chosen the verse as a witness against him. Martin became our bishop, and as bishop he kept the dignity of the office and the plain habits of a monk."
 absent_detail: >-
   The text gives no year for the election and does not name the monastery Martin was drawn from. The
   objecting bishops' own side is not heard; Sulpitius is no friend to them. The two nodes never cite
@@ -130,10 +131,3 @@ use_note:
   years: {from: 397, to: 397}
   status: reviewed
 ---
-The cross-node pairing with gallic.story.bishop-archebius and gallic.story.honoratus-and-the-island,
-declared as story-to-story relations above, is a finding of the construction - the three capture
-stories are retrieved alongside one another - never a comparison the world's own sources make
-themselves. Illustrates gallic.gravity.monk-bishop as the founding narrative of the office made against
-bishops at the Tours node, and gallic.gravity.authority-ambivalence in its northern valence at the
-moment of origin; associated-with gallic.gravity.virtus, since the psalter opened at random is virtus
-applied to a book.

@@ -28,14 +28,14 @@ name: The Diocletianic Persecution (303-305) and the *traditio* Demand
 kind: initiating
 description: >-
   From 303 to 305, Diocletian and his fellow emperors carried out a general persecution of
-  Christians. It included a specific demand. Clergy had to hand over scripture and sacred vessels
-  to the persecuting authorities, to be destroyed.
+  Christians. It included a specific demand. Clergy had to hand scripture and sacred vessels to
+  the persecuting authorities. The authorities would destroy them.
 
   This persecution is documented, and our account of how this world began rests on it.
 
-  It is also backed up by specific accusations of traditio, the handing over of scripture.
-  Optatus's Appendix of Documents preserves these accusations, in the Acta Purgationis Felicis of
-  314.
+  Specific accusations of traditio also back it up. Traditio means the handing over of scripture.
+  Optatus's Appendix of Documents preserves these accusations. They appear in the Acta Purgationis
+  Felicis of 314.
 
   As this world saw it, the persecutor did not just ask for property. He asked for the scriptures
   themselves. What a minister did in that moment was not a side issue for his standing afterward.
@@ -44,23 +44,23 @@ description: >-
   claims to give. This was not a judgment reached after the fact. This world's own founders held
   it to be simply true of what had happened.
 
-  This force is the deep root of two core commitments. One is ministerial purity: the doctrine
-  that a sacrament's validity depends on the minister's own unbroken purity. The other is this
-  world's identity as "the Church of the Martyrs."
+  This force is the deep root of two core commitments. One is ministerial purity. This is the
+  doctrine that a sacrament's validity depends on the minister's own unbroken purity. The other is
+  this world's identity as the church of the martyrs, as modern scholars call it.
 
-  The persecution produced the charge of being a traditor, one who handed over the scriptures. The
-  whole purity doctrine turns on that charge.
+  The persecution produced the charge of being a traditor. A traditor is one who handed over the
+  scriptures. The whole purity doctrine turns on that charge.
 
   It also set a pattern: persecution as a test that forms a church. The later Macarian repression
-  repeated that pattern and intensified it, and it is better attested.
+  repeated that pattern and made it stronger. That later repression is better attested.
 
-  Without this force, this world's central question about what makes a sacrament valid would never
-  have arisen.
+  Without this force, this world would never have asked its central question. That question is
+  what makes a sacrament valid.
 
   The two persecutions connect directly. The earlier one was empire-wide. The later one was the
   specifically Macarian repression.
 
-  Both fed the same martyr-cult identity. The second did so with far greater documented intensity
+  Both fed the same martyr-cult identity. The second did so with far greater documented strength
   than the first.
 manifestations:
 - the specific demand that clergy surrender scripture and sacred vessels for destruction (303-305)

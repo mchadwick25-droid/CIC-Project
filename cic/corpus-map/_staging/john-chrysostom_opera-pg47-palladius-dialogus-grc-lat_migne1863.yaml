@@ -1,0 +1,40 @@
+source_file: john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863.txt
+
+assignments:
+  - row_id: john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863--dialogue-on-the-life-of-john-chrysostom-greek-pg-47
+    work: "Dialogue on the Life of John Chrysostom (Dialogus historicus), Greek, PG 47"
+    author: palladius
+    locus: "heading at file line 7061; the summons of the Synod of the Oak at file line 10370; Olympias at file line 14225"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: provisional
+    note: >
+      The eyewitness defence of Chrysostom by a bishop of his own party, written about 408: the
+      Johannite side's own account of the Synod of the Oak and the exile. Greek original behind
+      palladius_dialogue-life-of-chrysostom_moore1921.txt. Second witness for quotation: Greek
+      legible, Latin column garbled, kappa and chi confused in the OCR.
+  - row_id: john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863--dialogue-on-the-life-of-john-chrysostom-greek-pg-47-2
+    work: "Dialogue on the Life of John Chrysostom (Dialogus historicus), Greek, PG 47"
+    author: palladius
+    locus: "the account of Theophilus, Isidore and the Tall Brothers (Theophilus named from file line 4115 on)"
+    atlas_ids:
+      - desert-monasticism
+    role: context
+    confidence: provisional
+    note: >
+      Palladius was himself a monk of Nitria and the author of the Lausiac History, but here
+      he writes as Chrysostom's partisan about Theophilus's war on the Nitrian monks. Placed as
+      context for the desert world; a build thread may judge it the desert's own voice (the
+      Lausiac History already sits there as tradition). Named, not decided.
+  - row_id: john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863--early-treatises-pg-47-greek
+    work: "Early treatises (to Theodore, On the Priesthood, On compunction and others), Greek, PG 47"
+    author: chrysostom
+    locus: "the volume after the Dialogue, from about file line 16500"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: provisional
+    note: >
+      Chrysostom's own early works in the original Greek; the English of several is in npnf109.
+      Second witness for quotation, same OCR caveat.

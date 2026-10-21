@@ -5,21 +5,72 @@ time_window: {start: 70, end: 200}
 place: "Antioch/Syria, Asia Minor, Rome"
 doorway_place: "Antioch, the cities of Asia Minor, and Rome"
 doorway_description: >-
-  After the apostles died, the church lived in ordinary houses.
+  After the apostles died, the church lived in households.
   Greek-speaking believers gathered around household tables in Antioch, in
   the cities of Asia Minor, and in Rome. Letters held these scattered
   communities together. Ignatius, a bishop under guard, wrote ahead to the
   churches on his road to execution. Clement of Rome wrote at length to
-  settle a quarrel in Corinth. There were no church buildings yet, no finished New Testament,
-  no safety in the law. There were only communities working out, generation
-  by generation, what it meant to stay one church across an empire.
+  settle a quarrel in Corinth. These churches had no buildings of their own
+  yet and no finished New Testament, and the law did not protect them. In
+  these years they were still settling who should lead, and how scattered
+  households could stay one church by letter.
 card_name: "The Scattered Households"
 app: {order: 2, accent_color: "#439975", portrait: "/images/portraits/thumb/house-churches.webp"}
-representative: {name: Chloe, role_label: "Household Leader"}
+representative: {name: Chloe}
 state: admitted
 census_id: "post-apostolic-house-church"
 package:
-  manifest_hash: "sha256:8806dd77e2a919a2d48cbd1aed9ceee5bb34c0d9e528db8ced0ab9750e87b897"
-  location: "packages/pahc/2026-10-14T21-28-06Z"
+  manifest_hash: "sha256:5a5f649eeccb5da3d9d39bf72ad15b59c60b95e379b3d31a30614edfe2335122"
+  location: "packages/pahc/2026-10-20T13-27-41Z"
 thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
 living_tradition_flag: true
+story_placement: false
+card:
+  portrait: "assets/portraits/house-churches.png"
+  intro: Chloe is a representative voice for the Christian tradition of the household churches after the apostles (70–200 CE). These churches had no fixed hierarchy and no finished New Testament.
+  shaped:
+  - Ignatius
+  - Justin
+  - Polycarp
+  summary: From about 70 to 200 CE, Christians in Antioch, the cities of Asia Minor and Rome gathered in households. No central body ruled them. Letters carried by hand held them together. After the apostles died, these churches had not yet settled who should lead. Ignatius's letters urged one bishop with elders beside him. At Rome, early letters show a council of elders leading. Being a Christian could bring real danger. Ignatius's letters say he was marched under guard toward death.
+  record_holds: Rich in letters, church order and worship. Thin on enslaved members and the people who could not write.
+  topics:
+  - word: Baptism
+    note: After teaching and fasting came baptism in running water; only then the shared table.
+  - word: Communion
+    note: Households gave thanks over bread and cup, in an order that varied by place.
+  - word: Prayer
+    note: Hermas says ask without doubting; a slow answer is not a refusal.
+  - word: The Bible and how to read it
+    note: Believers heard the apostles' memoirs and the prophets read aloud at the weekly gathering.
+  - word: Jesus
+    note: Ignatius stresses Jesus was truly born, truly crucified and truly raised.
+  - word: Sin and forgiveness
+    note: One community's manual asks believers to confess and make peace before the offering.
+  - word: Tradition and authority
+    note: Rome's letter says God sent Christ, Christ sent the apostles, and they appointed leaders.
+  - word: Money and the poor
+    note: Hermas pictures rich and poor as elm and vine, each needing the other.
+  - word: Marriage and family
+    note: Ignatius says couples should marry with the bishop's approval.
+  - word: Church leaders
+    note: Some places had one bishop, others a group of elders; this was never settled.
+  - word: Martyrs
+    note: Ignatius longed to die for Christ; Smyrna honored Polycarp. Not every church held this.
+  - word: Heresy and false teaching
+    note: Ignatius fought teachers who denied Jesus truly suffered; how widely this mattered is unclear.
+  aliases:
+  - name: House churches
+    kind: scholarly
+    note: Modern scholars' label for these household assemblies; the Christian tradition's own word is ekklesia.
+  - name: Ekklesia
+    kind: own
+    note: 'Every surviving voice uses it for itself: the assembly, not a building.'
+  - name: The Catholic Church (Ignatius)
+    kind: own
+    note: Ignatius's phrase for the whole church everywhere, not the later denomination.
+  keywords:
+  - irenaeus
+  - tertullian
+  - didache
+  - apostolic fathers

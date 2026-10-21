@@ -1578,3 +1578,29 @@ Found by the independent review of the eleven-world fix slice (System Hub Decisi
 - What a fix would involve: the stream holding a sentence while a quotation mark it opened is still unclosed, the same hold-back it already applies to demonstration runs.
 - Must be fixed before streaming is turned on anywhere participants are.
 - Status: OPEN.
+
+## 2026-10-19 - Admission sends the voice no turn directive, so it does not measure a live turn's length or opening
+
+Found while reading the gallic sample run of 19 October. A live participant turn sends the voice a private turn directive (`engine/m4/turn_prep.py`, sent in `engine/m4/turn.py`). It carries the length rule (`CONCISION_DIRECTIVE`: "Most replies run between 120 and 220 words"), the opening rule, the question-kind line, the quote and story offers and the no-new-figure rule. The admission run (`engine/m3/generation.py`, `LiveModelAnswerer`) calls `stream_voice_turn` with the world prompt and the question only. Its docstring says it is the live pipeline "minus the safety gate"; it also leaves out the whole directive and the session history.
+- Measured effect: admission answers run longer than the live rule asks. Gallic on 19 October: median 337 words, longest 1,425; fleet median across the 2, 3, 4 and 9 October runs: 264. How long a live turn runs for the same questions has not been measured.
+- Sample measured on 19 October (named run "gallic live-turn sample, 19 October", cap $0.70, $0.452 spent): six gallic questions through `engine.m4.live_turn_run`, one conversation, F2-E first. Words, admission against live turn: F2-E 1,425 / 491; F4-E 594 / 180; F1-I 639 / 184; C-P 493 / 215; F3-E 100 / 226; F6-P 199 / 445; total 3,450 / 1,741. Four fell by more than half; two rose. F2-E and F6-P stayed over twice the 220-word guide. One world, one run, and the turns ran as a conversation, so this does not separate the directive's effect from chance or from history.
+- Exposure: every admission result on record has this gap. They show source citation and register on the voice without the directive. They do not show those on a live turn.
+- What a fix would involve: admission building the same directive a live turn builds, then re-running admission. A methodology change, so it needs the project lead's decision.
+- Status: OPEN.
+
+## 2026-10-20 - Open gap: the shared AWS keys reach Bedrock outside the repo's code
+
+Found by the charge-path audit of 9 October (Gap 3). The cloud environment that build sessions share holds `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`; CLAUDE.md 3.2 allows that. The live-test guard (`engine/provider/guard.py`) refuses every model client the repo builds without `--live-test` and `--cap-usd`, and since PR #921 it exempts the conversation path only on Render. The guard is code, so it cannot stop a call made outside the repo's code with the same keys: the AWS command line, or a few lines of Python that build their own client.
+- Exposure: a session that calls Bedrock directly, by mistake or on a bad instruction, is uncapped until the AWS Budget stop acts, which is within a day. `CiC_Model_Spend_Budget_Runbook.md` points that stop at the Render identity only.
+- What a fix would involve, all in AWS or the session settings, none in code: the build environment holding no Bedrock keys, or its own IAM user with `CicBedrockInvokeDeny` attached except during an approved live test, and the Budget stop covering every identity that holds keys. None of these is made or decided: no decision record covers them, and the environment still held both keys on 21 October. Until one is, the risk stays registered here.
+- Status: OPEN, accepted.
+
+## 2026-10-20 - Closed: every ElevenLabs narration script needs an approved run name and a character cap
+
+Gap 4 of the same audit. The five scripts that call ElevenLabs (`Build/tools/generate_tree_narration.mjs`, `generate_docstory_narration.mjs`, `generate_site_narration.mjs`, `generate_world_narration.mjs`, `generate_door_narration.py`) now refuse a paid run without `--approved-run "<name>"` and `--char-cap <n>`, or when the run plans more characters than its cap. The check runs before the key is read and before any request; a paid run prints the name and cap with its settings. `--dry-run` needs neither. Checked without any call: each script, run with a placeholder key and network access replaced by a failure, stops at the gate in all three cases (`Build/tools/paid_run_gate.test.mjs`, `Build/tools/tests/test_generate_door_narration.py`).
+
+## 2026-10-20 - Open gap: the narration scripts' tests do not run in CI, and two door tests fail on `main`
+
+Found while gating the narration scripts. `.github/workflows/ci.yml` runs neither `Build/tools/*.test.mjs` nor `Build/tools/tests/test_generate_door_narration.py`, so the ElevenLabs gate above, like the scripts' other tests, is checked only when someone runs it. On `main`, `DoorEntries` fails twice with `KeyError: 'role_label'` at `Build/tools/generate_door_narration.py:62`: a Representative entry no longer carries that field. The gate's own tests do not depend on it.
+- What a fix would involve: a CI job for the Build/tools tests, and `door_entries` reading the field where the Representative records now keep it.
+- Status: OPEN.

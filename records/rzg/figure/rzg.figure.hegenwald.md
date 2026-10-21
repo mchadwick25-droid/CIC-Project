@@ -24,6 +24,6 @@ names:
 dates: {}
 narratable: true
 bridge_line: A Zurich schoolmaster who sat through our own First Disputation and wrote it down to answer
-  those who mocked it in advance.
+  those who mocked it as a "tinker's day."
 ---
 Built from this world's own already-reviewed construction documents (Doc_01, Doc_09's own story cast, Doc_06's own Key Sources). `dates` states only what this compilation pass directly verified this session (nothing dated beyond general attestation) - never filled from general knowledge the vendored record itself does not supply here.

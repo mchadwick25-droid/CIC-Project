@@ -881,3 +881,101 @@ The 13 October eleven-world live test showed desert Q6 ending on "But to hate it
 ### OG-31. Desert Q1's confession still cut as the Antony formula, 2026-10-14.
 
 In the same test the voice answered "Who is Jesus?" with "To us Jesus is the eternal Word and Wisdom of the Father - not a created being, not brought into being out of nothing, but from the Father's own Essence, always existing together with the Father", tagged to `desert.dw.god`. The fix slice no longer cuts the world reciting its own confession, but this sentence still goes: "Wisdom" and "Essence" stand only in `desert.quote.antony-nicene-formula`, in none of desert's own witnesses or terms, so the net reads it as that quote's words (decision 61, option A). `desert.dw.god` gives the confession as "the Eternal Word of the Father's own being". Whether this sentence should stand is for the project lead; the engine change it would need is named in the Decision Log entry above. Status: OPEN.
+
+
+### OG-32. A modern word in the apophthegma guard, after the 14 October retest, 2026-10-14.
+
+desert Q3 in the 14 October retest said a saying was "not a shareable quotable line or a soundbite". The words came from `desert.term.apophthegma` `use_note.not_for`, which the evidence block gives the voice as a guard ("MUST NOT ASSERT"); the voice turned the guard into its own sentence. The guard now reads "Hearing it as a clever line made to be repeated to anyone, rather than a word given to one person". The meaning is unchanged; the modern word is gone. `false_friend` (shown on the World Profile, not to the voice) is unchanged. Package rebuilt and repinned.
+
+The same retest's desert Q4 (Antony unnamed in the quote's lead-in, so the quote is no longer placed) is an engine change, logged in the System Hub Decision Log (14 October second fix slice). desert Q5's Moses saying stays cut: the voice reworded it ("the errors of another man", where `desert.story.moses-leaking-jug` says "faults that are not mine"), and the net lets a saying stand after "he said:" only in the story's own words. desert OG-31 (Q1's confession cut as the Antony formula) is unchanged: those words stand only in the quote.
+
+Status: CLOSED.
+
+### OG-33. Story tellings for code placement: eleven added, kellia-day held back, 2026-10-14.
+
+Mark's approval of 14 October: pilot stories placed by code on the desert world. Each story record gets a `telling` field: the world's own telling, reviewed against the vendored source, which code will later insert word for word after the voice's one-sentence introduction. `text` stays the unvoiced source wording. `telling` is declared in `engine/m1/spoken_fields.py` as evidence-head, so the readability gate grades it, and it is added to the attribution, perspective and participant-leak scans. Placement in a turn is a later engine slice; until then no turn reads the field.
+
+**Added.** `telling` on 11 records: `antony-call`, `antony-withdrawal`, `antony-tomb-combat`, `antony-secret-burial`, `sarapion-anthropomorphite`, `virgin-who-hid-athanasius`, `moses-leaking-jug`, `sarah-answer`, `arsenius-flee`, `pachomius-founding`, `angel-hands-the-tablet`. Drafted by Sonnet from the vendored files, checked clause by clause by two independent Opus reviewers (`StoryTellings_Review_Round1.md`), revised, and rechecked (`StoryTellings_Review_Round2.md`). The one new finding of the recheck (Sarapion's belief called "old" and the bishop's teaching "new" in the narrator's voice) was fixed with the reviewer's own sentence. Two review files of the three allowed.
+
+**Held back.** `desert.story.kellia-day` has no telling. Round 1 found it NOT CLEAR: it is a reconstruction, not a told story; its cell evidence rests on `desert.source.kellia-excavations`, which has no vendored file and no dates, and most excavated Kellia remains may postdate 430; its "Psalms in the cell" claim had no support. Whether a reconstructed day should be placed as the world's own telling at all is a question for Mark. Status: OPEN.
+
+**Reported, not failed.** All 11 tellings grade below FK 8 (FK 3.1 to 7.3; FRE 71 to 91). Narrative with direct speech scores low; both reviewers judged the prose natural, not choppy. Sarah's telling is her one-line saying (20 words), since Budge section 525 has nothing more. Status: OPEN for Mark's view.
+
+**Record defects the reviews found (not telling defects; the tellings follow the source).**
+1. `moses-leaking-jug`, `sarah-answer`, `arsenius-flee`: loci and divergence notes still say no edition is vendored; Budge's Sayings is (also the edition-notes item of the record audit entry, 2026-10-13).
+2. `moses-leaking-jug` `modern_contrast` says "a leaking jug" against its own `not_for`.
+3. `sarah-answer` `absent_detail` and `modern_contrast` still speak of a visit and of men who came to test her; Budge section 525 has neither. Its body says its `text` matches `desert.quote.sarah-man-among-you` exactly; that rendering reads "the man ... the women" where Budge has "a man ... women".
+4. `arsenius-flee` body calls the voice God's; Budge says only "a voice".
+5. `antony-withdrawal` `not_for` and `absent_detail` say the Vita gives no reasons for the moves; section 49 gives one for the last. Its locus says "crowds gathering outside" sections 12-13; the Vita has acquaintances outside and noises inside the fort.
+6. `antony-tomb-combat` locus includes sections 12-13, which belong to the fort episode; it should be sections 8-10.
+7. `antony-secret-burial` `divergence_note` says Athanasius received the account from the two attendants and inherited a sheepskin; sections 91-92 give only Antony's order to give him one.
+8. `kellia-day` apophthegmata locus names no saying, so it cannot be checked; `desert.source.kellia-excavations` gives no dates for its findings.
+
+Status: OPEN.
+
+**Mark's rulings of 14 October on this entry, and what followed.**
+- kellia-day stays held back on `tellable_as`, for the reasons above. The tellings' FK below 8 is accepted (report-only).
+- Speech inside a telling is a rendering. Opus re-rendered every quoted span in the 11 tellings to the rendering bar (every clause, nothing added, one thought per sentence, nothing past about 25 words, no misleading modern word). The Ethiopic rule's opening stays verbatim as the record's named first line. `story.telling` is left out of the embedded-quotation survey on the same ground as quote records (`engine/m1/embedded_quotations.py`).
+- The eight record defects listed above are fixed, along with the traces of the same defects in sibling fields: Sarah's `retrieve_when`, `tellable_as`, `use_note.means`, `modern_contrast` and body; `antony-withdrawal` `use_note.not_for`; `antony-secret-burial` `narrative_tier_justification`.
+- Review file 3 of 3 (`StoryTellings_Review_Round3.md`) cleared the re-rendered spans and the defect fixes, but was NOT CLEAR on one blocking finding. The Sarah record's body claimed the public page matched it, while the page, compiled from the world_front record, still told of elder monks visiting to test her. Mark's ruling applied: the visit is invented and comes out of every participant surface. Fixed: the world_front Sarah voice and hedge, the `desert.figure.sarah` `bridge_line` and body (Budge's wording, no "man among them", which is Greek and not vendored), `desert.quote.sarah-man-among-you`'s "tested or challenged" retrieval trigger (removed) and its line citation (2438, not 2429). The false "page matches" sentence is gone from the story record. The minor fixes M1 (Antony's taunt keeps its last clause), M2, M3 and M5 were applied in the reviewer's wording, as was `moses-leaking-jug` `use_note.means` ("they released", not "the elders"). The site JSON and page were recompiled, and the package rebuilt and repinned.
+- With the cap reached, the B1 fix had a mechanical check only: a grep of every participant-facing desert surface (`records/desert`, the world_front record, the site JSON and HTML page) for visit, test, challenge and "man among" wording about Sarah. It finds none, apart from the guard lines that say no visit or challenge exists. The readability gate and regate pass.
+
+**Still open.**
+1. M4: `antony-secret-burial` `narrative_tier_justification` says Athanasius attended Antony for a long time; the vendored edition's note gives that reading as uncertain (some manuscripts differ).
+2. M6: `kellia-day` `text` still says the Psalms were recited "constantly, or nearly so"; secs. 527 and 637 support set hours in the cell, not constancy. Unvoiced while the story is held back.
+3. `desert.quote.sarah-man-among-you` `modern_rendering` and `desert.demo.identity-collision-womens-authority` `exchange[1]` say "the man ... the women" where Budge has "a man ... women"; the demo's locus still names the Alphabetical Collection, and its body still discusses a "tested" claim the turn no longer makes. A rendering change is Opus's to author.
+4. The page regenerated from current records also carries earlier merged record changes, including the documented-story teasers; the narration audio for those teasers (`cic-website/audio/worlds/desert-monasticism/docstory-*.mp3`) was recorded from the older wording and no longer matches the text. Re-recording is a paid run that needs Mark's sample approval.
+5. Moses, Sarah and Arsenius stories still carry `verification_state: verified-via-authority`, though each saying is now checked against Budge.
+
+**Story placement switched on, 14 October (Mark's approved design).** `records/worlds/desert.yaml` carries `story_placement: true`, compiled into the package's `frame.json` (written only when set, so no other world's package changes). On a desert turn the evidence block lists each story with a telling, not yet told, by its `[[story:<id>]]` marker, and the directive names them. The voice writes one sentence of its own naming the story's subject, ending in the marker; code sets the record's `telling` in after it word for word, each sentence tagged to the record, and the net verifies every placed sentence against the telling. At most one story per reply. A marker for a story not offered, already told, past the first, or after an introduction that shares no word with the story's `tellable_as` or `use_note.means` places nothing, and its sentence goes. Code: `engine/m4/quote_placement.py`, `engine/m4/grounding_net.py`, `engine/m4/turn_prep.py`, `engine/m4/evidence.py`, `engine/m4/turn.py`, `engine/m4/sentence_stream.py`, `engine/m2/builders.py`; tests in `engine/m4/tests/test_story_placement.py`, from the desert voice's 13 October Moses and Jesus replies. `kellia-day` has no telling and is never placed.
+
+**Sarah rendering, closed.** Opus re-rendered `desert.quote.sarah-man-among-you` `modern_rendering` and `desert.demo.identity-collision-womens-authority` `exchange[1]` to Budge's "a man ... women" (item 3 of the still-open list above). The demo's locus now names Budge section 525, and its body no longer discusses a "tested" claim the turn does not make. The site's Sarah pull quote follows. Package rebuilt and repinned: `packages/desert/2026-10-14T10-03-59Z`, after main was merged in.
+
+**Still open from this entry.** M4 (the variant reading), M6 (`kellia-day` "constantly"), the docstory narration audio, and the three stories' `verification_state`, as listed above. A voice sentence of its own tagged to an offered story is still checked only as an ordinary claim; whether it should be withheld when the story could have been placed, as a quote's words are, is for Mark.
+
+**The project lead's rulings on story placement, 14 October.** (1) The introduction's speaker check: an introduction naming anyone the story does not is dropped and the story still placed. (2) A sentence of the voice's own tagged to an offered story the reply did not place is withheld. Both built in `engine/m4/story_placement.py`; System Hub Decision Log, "2026-10-14 - Desert story placement: the introduction's speaker check, and an offered story's paraphrase withheld". The paraphrase question above is CLOSED.
+
+**Not-names allowlist, 14 October.** The project lead ruled option B: God, Lord, Christ, Gospel, Scripture, Saint, Abba and Amma never count as names in a story's introduction; the name after a title still does. Built in `engine/m4/story_placement.py`, with tests; Decision Log entry of the same date, item 3. CLOSED.
+
+**Church vocabulary, 14 October.** The project lead added Jesus, Holy Spirit, Church and other common church terms to the never-a-name list; an introduction must still name the story's own people or the community. The first word of an introduction counts as a name only when the story or the world's records use it as one. Decision Log entry of the same date, item 4. CLOSED.
+
+**Divine acts in a story's introduction, OPEN.** An introduction that gives the story's act, not its words, to a divine person the story does not name ("Our Lord once judged a brother" on the Moses story) still holds, the same shape as the ruled example "God showed Moses his own faults". Not yet decided by the project lead; no change made. The divine-speaker guard itself (a divine person named as speaker must be in the story's own text) is built, with the project lead's reason logged in the Decision Log entry of 14 October.
+
+**The switch declared on every world.** The cross-world registry check requires every formation world's entry to carry the same keys, so the other ten registries now say `story_placement: false`. Nothing they compile changes: `frame.json` carries the key only when it is true.
+
+### OG-34. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `desert.demo.lament-suffering` representative turn: "Our record gives no answer to why." now reads "Our record gives no answer to why God allows such suffering."
+- `desert.gravity.diakrisis` `description`: "but it is not settled why." now reads "but why it recurs is not settled."
+
+`engine.m10.cli records desert` and `regate desert --base origin/main` pass. Package rebuilt and repinned: `packages/desert/2026-10-14T20-18-54Z`, `manifest_hash` `sha256:b49f16218b0ee7dda7506a6f4e74c92c26830db8e82fc74d6b23631700056ae1`. Status: CLOSED.
+
+### OG-35. Atlas story pass, 2026-10-17.
+
+The spoken story, the tile, ten card stories with highlights, and fixes to the placed tellings, all approved by the project lead on 17 October; review record `Build/Ministry/Operations/Audits/desert_atlas_story_pass_review_round1_2026-10-17.md`. The ten card stories and the story are re-recorded, which closes item 4 of "Story tellings for code placement" (2026-10-14) for the stories on the card. Package rebuilt and repinned: `packages/desert/2026-10-17T19-33-36Z`.
+
+Still open:
+
+1. Other world_front sections (`voices`, `floor_note`, `legacy` and the rest) still use "this world" and dash asides; the pass touched only the tile, story, card stories and highlights. Status: OPEN for the project lead to schedule.
+2. `engine.m10.cli regate` does not score a story's `telling`. The Desert tellings were scored by hand with `gates.grade_text`: all pass (FK 3.0 to 7.3, FRE 71.8 to 93.2). The same gap is logged for the House Churches and Syriac worlds on the same date. Status: OPEN.
+3. `virgin-who-hid-athanasius` and `kellia-day` stay off the card. The first's telling carries the approved fixes and is still placed in conversation; the second has no telling. Status: OPEN, no action needed unless the project lead wants either on the card.
+
+### OG-36. The Atlas page has not had the final independent check, 2026-10-18.
+
+On 17 October independent read-only reviewers checked the live Atlas page of ten traditions against their records, the vendored texts and the place data, and checked reading level and AI tells (`Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). Their fixes merged in the pull request "Atlas final-check fixes for ten tradition pages, 2026-10-17". Desert's new story, card stories and recordings went live at 23:34 that day, after those reviews ran, so the Desert page is the one live Atlas page without that check. Nothing is known to be wrong on it. Next step: one independent read-only review of the live Desert page by the same method, then fix and repin anything blocking. Status: OPEN, for the project lead to schedule.
+
+### OG-37. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-desert-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 13 own-voice, 20 outsider's account voiced as the world's own (16 resting on Athanasius's Life of Antony, 4 on the Macarian Homilies), 6 unsupported, 2 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `desert.dw.god` line 31 ("our ordinary way of holding it was refusal") generalises one figure in Athanasius to everyone.
+- `desert.dw.jesus` voices Athanasius's narrative as the collective "we argued, we told those who came to test us".
+- `desert.dw.the-heart-and-the-spirit` line 28 ("we carried another current"): no record shows desert monks carried these homilies in the window; the author is not a desert monk.
+- `desert.dw.strangest` line 34, "did not return to his father's house"; the Vita says only "outside his house".
+- `desert.force.martyrdom-unavailable` is rated Documented, but its own note says no source states the equivalence it describes.
+- Register: the Life of Antony quote records are tagged `register: emic`, but Athanasius was a bishop in Alexandria, not a desert monk.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.

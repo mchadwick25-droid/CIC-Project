@@ -81,7 +81,7 @@ _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 # transcript for transparency markup: one turn's raw text ended inside an
 # unclosed "[[don.dw.room-for-diss", which strip_tags' own re.sub below
 # left untouched, verbatim, brackets and all.
-_DANGLING_TAG = re.compile(r"\[\[(?:\s*quote\s*:\s*)?[a-z0-9_.-]*\Z", re.IGNORECASE)
+_DANGLING_TAG = re.compile(r"\[\[(?:\s*(?:quote|story)\s*:\s*)?[a-z0-9_.-]*\Z", re.IGNORECASE)
 
 
 def _drop_truncated_tail(text: str) -> tuple[str, bool]:
@@ -114,12 +114,15 @@ def _drop_truncated_tail(text: str) -> tuple[str, bool]:
 # A quote marker, [[quote:<record id>]]: where the voice asks for a quote
 # record's rendering to be placed (engine.m4.quote_placement).
 QUOTE_MARKER = re.compile(r"\[\[\s*quote\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORECASE)
-_DISPLAY_TAG = re.compile(rf"\s*(?:\[\[[a-z0-9_.-]+\]\]|(?i:{QUOTE_MARKER.pattern}))")
+# A story marker, [[story:<record id>]]: where the voice asks for a story
+# record's telling to be placed (engine.m4.story_placement).
+STORY_MARKER = re.compile(r"\[\[\s*story\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORECASE)
+_DISPLAY_TAG = re.compile(rf"\s*(?:\[\[[a-z0-9_.-]+\]\]|(?i:{QUOTE_MARKER.pattern})|(?i:{STORY_MARKER.pattern}))")
 
 
 def strip_tags(text: str) -> str:
     """The display transform: what the participant-facing stream emits.
-    Record tags and quote markers both come off."""
+    Record tags and quote and story markers come off."""
     text, _ = _drop_truncated_tail(text)
     return _DISPLAY_TAG.sub("", text)
 
@@ -318,9 +321,12 @@ def _occurrences(tokens: list[str], needle: tuple[str, ...]) -> list[tuple[int, 
 # QUOTE_WORDS_SPAN times the sentence's own count; and at least
 # QUOTE_WORDS_UNEXPLAINED of those words are found in neither any one
 # quote's gist (use_note.means), any one of the participant side's texts,
-# nor, unless the sentence names the quote's speaker, any one record it is
-# tagged to that is not a quote or a demonstration. Words are compared by
-# their stems.
+# nor any one record it is tagged to that is not a quote or a demonstration:
+# wording the sentence's own witness, story or term holds is the world's
+# telling, named speaker or not; words only a quote holds are the quote's.
+# The same measure, against one of those tagged records instead of a quote,
+# finds a sentence that retells its own record (QuotationIndex.own_telling).
+# Words are compared by their stems.
 QUOTE_WORDS_SHARE = 0.55
 QUOTE_WORDS_MIN = 5
 QUOTE_WORDS_SPAN = 2
@@ -379,6 +385,7 @@ class QuotationIndex:
         self._quote_shelf: list[tuple[str, set[str], list[list[str]], set[str]]] | None = None
         self._explanations: list[set[str]] | None = None
         self._record_words: dict[str, set[str]] = {}
+        self._record_sequences: dict[str, list[str]] = {}
         self._quote_words_memo: dict[tuple, str | None] = {}
 
     def _pool(self) -> list[str]:
@@ -412,14 +419,34 @@ class QuotationIndex:
 
     def names_speaker(self, sentence: str, quote_record: dict) -> bool:
         """`sentence` names the figure a quote record's speaker field stands
-        for."""
+        for, or the whole name the voice is offered for it (speaker_name),
+        word for word: no single word of that name stands for it."""
         tokens = _WORD_TOKEN.findall(sentence.lower())
         figures = self._figure_aliases()
         for fid in self.speaker_ids(quote_record):
             aliases = figures.get(fid) or _alias_tokens(quote_record.get("speaker_or_author") or "")
             if any(_occurrences(tokens, alias) for alias in aliases):
                 return True
-        return False
+        whole = tuple(_WORD_TOKEN.findall(self.speaker_name(quote_record).lower()))
+        return bool(whole) and bool(_occurrences(tokens, whole))
+
+    def speaker_name(self, quote_record: dict) -> str:
+        """The name the voice is offered for a quote's speaker, to write in
+        the sentence its marker ends: a figure's in-world name; for a source
+        record, its author, or its work when the author is anonymous; else
+        the speaker field's own name, without the note after it."""
+        head = _name_head(re.split(r"\s+--\s+", quote_record.get("speaker_or_author") or "", maxsplit=1)[0])
+        record = self._records.get(head.split()[0] if head else "") or {}
+        if record.get("record_type") == "figure":
+            names = [e.get("name") for e in record.get("names") or [] if isinstance(e, dict) and e.get("tag") == "in-world"]
+            return _name_head(next((n for n in names if n), "")) or head
+        if record.get("record_type") == "source":
+            author = _name_head(record.get("author") or "")
+            if author and not author.lower().startswith(("anonymous", "unknown")):
+                return author
+            work = re.split(r"\s+-\s+|:", record.get("work") or "", maxsplit=1)[0].strip()
+            return work or head
+        return head
 
     def quote_words_of(self, sentence: str, tags: list[str], paragraph_tags: list[str] = ()) -> str | None:
         """The id of a quote record, not yet voiced, whose words `sentence`
@@ -434,10 +461,10 @@ class QuotationIndex:
             self._quote_words_memo[key] = self._quote_words_of(sentence, tags)
         return self._quote_words_memo[key]
 
-    def _quote_words_of(self, sentence: str, tags: list[str]) -> str | None:
+    def _quote_words_of(self, sentence: str, tags: list[str], *, skip_voiced: bool = True, explained: bool = True) -> str | None:
         words = set(_word_sequence(sentence))
         for record_id, quote_words, sequences, speaker in self._quotes():
-            if record_id in self.voiced:
+            if skip_voiced and record_id in self.voiced:
                 continue
             own = words - speaker
             if len(own & quote_words) < max(QUOTE_WORDS_MIN, QUOTE_WORDS_SHARE * len(own)):
@@ -445,15 +472,53 @@ class QuotationIndex:
             shared = _densest_window(own, sequences, QUOTE_WORDS_SPAN * len(own))
             if len(shared) < max(QUOTE_WORDS_MIN, QUOTE_WORDS_SHARE * len(own)):
                 continue
-            explanations = self._explanation_words()
-            if not self.names_speaker(sentence, self._records[record_id]):
-                explanations += [
-                    self._words_of(t) for t in tags
-                    if (self._records.get(t) or {}).get("record_type") not in _NOT_QUOTABLE_TYPES | {"quote", None}
-                ]
+            if not explained:
+                return record_id
+            explanations = self._explanation_words() + [self._words_of(t) for t in self._telling_tags(tags)]
             if all(len(shared - explained) >= QUOTE_WORDS_UNEXPLAINED for explained in explanations):
                 return record_id
         return None
+
+    def _telling_tags(self, tags: list[str]) -> list[str]:
+        """The tags that name the world's own telling: records that are not a
+        quote, a demonstration or a voice-craft note."""
+        return [t for t in tags if (self._records.get(t) or {}).get("record_type") not in _NOT_QUOTABLE_TYPES | {"quote", None}]
+
+    def own_telling(self, said: str, tags: list[str]) -> bool:
+        """The words a sentence puts after "he said:" (`said`) retell one of
+        its own tagged witness, story or term records: leaving the world's
+        figure names aside, every content word of them stands together in
+        that record's own wording (_sequence_of, outside the record's
+        quotation marks), and
+        they give no quote record's words, voiced or not, however explained.
+        Such words are the world's
+        telling, not someone's quotation: a story that tells a saying no
+        quote record holds lets the voice retell it in the story's words,
+        and in no others."""
+        names = {_stem(token) for aliases in self._figure_aliases().values() for alias in aliases for token in alias}
+        own = set(_word_sequence(said)) - names
+        if not own:
+            return False
+        # every word, since one invented word can turn the saying round
+        told = any(
+            own <= _densest_window(own, [self._sequence_of(t)], QUOTE_WORDS_SPAN * len(own))
+            for t in self._telling_tags(tags)
+        )
+        # Direct speech that gives a quote record's words is that quote, even
+        # when a story or the quote's own gist repeats them: it is placed, or
+        # not said.
+        return told and self._quote_words_of(said, [], skip_voiced=False, explained=False) is None
+
+    def own_wording(self, span: str, tags: list[str]) -> bool:
+        """The quoted span runs word for word in one of the sentence's own
+        tagged witness, story or term records, outside that record's own
+        quotation marks: words the record itself quotes are someone else's."""
+        piece = " ".join(_normalize(span).split())
+        return bool(piece) and any(f" {piece} " in f" {self._telling_text(t)} " for t in self._telling_tags(tags))
+
+    def _telling_text(self, record_id: str) -> str:
+        text = all_text(self._records[record_id])
+        return " ".join(_normalize(_outside_quotations(text, _checked_pairs(text))).split())
 
     def _quotes(self) -> list[tuple[str, set[str], list[list[str]], set[str]]]:
         if self._quote_shelf is None:
@@ -496,9 +561,17 @@ class QuotationIndex:
                 return True
         return False
 
+    def _sequence_of(self, record_id: str) -> list[str]:
+        """The record's own wording, in order: its text without the
+        quotations it sets in marks, which are someone else's words."""
+        if record_id not in self._record_sequences:
+            text = all_text(self._records[record_id])
+            self._record_sequences[record_id] = _word_sequence(_outside_quotations(text, _checked_pairs(text)))
+        return self._record_sequences[record_id]
+
     def _words_of(self, record_id: str) -> set[str]:
         if record_id not in self._record_words:
-            self._record_words[record_id] = set(_word_sequence(all_text(self._records[record_id])))
+            self._record_words[record_id] = set(self._sequence_of(record_id))
         return self._record_words[record_id]
 
     def is_known_name(self, segment: str) -> bool:
@@ -535,12 +608,14 @@ class QuotationIndex:
         return {fid for fid, aliases in figures.items() if any(_occurrences(tokens, alias) for alias in aliases)}
 
     def speaker_ids(self, quote_record: dict) -> set[str]:
-        """The figure ids a quote record's speaker field stands for."""
+        """The figure ids a quote record's speaker field stands for, by the
+        field or by the name the voice is offered for it."""
         speaker = quote_record.get("speaker_or_author") or ""
         figures = self._figure_aliases()
         if speaker in figures:
             return {speaker}
-        return self._speaker_figures(speaker, figures) or {_speaker_key(speaker)}
+        return (self._speaker_figures(speaker, figures) or self._speaker_figures(self.speaker_name(quote_record), figures)
+                or {_speaker_key(speaker)})
 
     def attributed_figures(self, sentence: str) -> list[set[str]]:
         """One entry per attribution verb that has a figure for its subject:
@@ -614,7 +689,11 @@ REASON_QUOTE_RECORD_UNPLACED = "quote record's speaker named without its placed 
 REASON_QUOTE_RECORD_UNVOICED = "tagged to a quote record that has not been placed"
 REASON_QUOTE_WORDS = "gives a quote record's words without placing it"
 REASON_PLACED_MISMATCH = "placed quote does not match its record"
+REASON_LEAD_TYPES_QUOTATION = "lead-in to a placed quote types a quotation of its own"
+REASON_SPEAKER_UNNAMED = "lead-in to a placed quote does not name its speaker"
 WHY_PLACED = "quote placed by code, verbatim to its record"
+REASON_STORY_MISMATCH = "placed story does not match its record"
+WHY_STORY_PLACED = "story placed by code, verbatim to its record"
 
 # A sentence withheld for one of these reasons carries a quote's words, or
 # words attributed to someone, that code did not place. It is dropped from
@@ -622,7 +701,7 @@ WHY_PLACED = "quote placed by code, verbatim to its record"
 QUOTATION_DROP_REASONS = frozenset({
     REASON_TYPED_QUOTATION, REASON_ATTRIBUTION, REASON_ATTRIBUTION_LEAD, REASON_UNPLACED_WORDS, REASON_LEAD_IN,
     REASON_QUOTE_RECORD_UNPLACED, REASON_QUOTE_RECORD_UNVOICED, REASON_QUOTE_WORDS, REASON_PLACED_MISMATCH,
-    REASON_WORDS_WITHOUT_QUOTE_RECORD,
+    REASON_WORDS_WITHOUT_QUOTE_RECORD, REASON_LEAD_TYPES_QUOTATION, REASON_SPEAKER_UNNAMED, REASON_STORY_MISMATCH,
 })
 
 # Attribution formulas. A quotation needs no quotation marks to be one:
@@ -651,6 +730,28 @@ _FORWARD = re.compile(
 # A comma before "and", "but" and the like ends a clause; it does not
 # introduce words: "every hymn he wrote, and the choirs sang them".
 _CLAUSE_JOIN = re.compile(r"\s*(?:and|but|or|nor|yet|so)\b", re.IGNORECASE)
+# Nor does a comma between the deeds in a list: "he taught, healed, called
+# disciples, and went to the cross" (hal Q2, 14 October). Only after a verb
+# of teaching or preaching, never after "said" or "wrote", only when the
+# next item is itself a deed in the past tense, and never with a speech verb
+# later in the sentence, which the list's subject would still govern: "Abba
+# Moses said, brothers, do not judge" and "taught, judged, and said: ..."
+# put words in his mouth.
+_LIST_VERBS = frozenset({"taught", "teaches", "preached", "preaches"})
+_LIST_ITEM = re.compile(r"\s*[a-z]+ed\s*(?:,|\band\b)", re.IGNORECASE)
+# Nor does the comma after a relative clause, before a participle: "the
+# madrashe he wrote, carrying theological argument in verse" (syr Q5, 14
+# October) names what he wrote and goes on describing it.
+_PARTICIPLE = re.compile(r"\s*[a-z]{3,}ing\b", re.IGNORECASE)
+_DETERMINERS = frozenset({"the", "a", "an", "his", "her", "their", "our", "these", "those", "its", "every"})
+_SUBJECT_PRONOUNS = frozenset({"he", "she", "they"})
+
+
+def _relative_clause(subject: str) -> bool:
+    """`subject` ends "the hymns he": a pronoun right after a noun that a
+    determiner opens, so the verb that follows closes a relative clause."""
+    words = [w.lower() for w in subject.split()]
+    return len(words) >= 3 and words[-1] in _SUBJECT_PRONOUNS and words[-3] in _DETERMINERS
 _NAME = r"[A-Z][\w'’.-]*(?:\s+(?:of|the|de|von|van|al|bar|ibn|[A-Z][\w'’.-]*)){0,5}"
 _NAME_COLON = re.compile(rf"^\s*(?P<name>{_NAME})\s*:")
 _TRAILING_NAME = re.compile(
@@ -788,18 +889,23 @@ def reads_as_lead(sentence: str) -> bool:
 
 def _attribution(outside: str, index: "QuotationIndex") -> dict | None:
     """The first attribution form in a sentence's text outside its
-    quotations, as {"opens", "words"}: whether it introduces what follows
-    (a colon, "put it this way."), and whether words follow it in the
-    sentence. None when the sentence attributes nothing to anyone. Formulas
+    quotations, as {"opens", "words", "said"}: whether it introduces what
+    follows (a colon, "put it this way."), whether words follow it in the
+    sentence, and those words. None when the sentence attributes nothing to anyone. Formulas
     spoken by "we" are the world's own voice, not an attribution."""
     text = _TAG.sub("", outside).strip()
     named_colon = _NAME_COLON.match(text)
     if named_colon and _is_name(named_colon.group("name"), index):
-        return {"opens": True, "words": bool(_WORD.search(text[named_colon.end():]))}
+        said = text[named_colon.end():]
+        return {"opens": True, "words": bool(_WORD.search(said)), "said": said}
     for match in _FORMULA.finditer(text):
         comma = match.group(0).rstrip().endswith(",")
         if match.group("verb") and comma and (
-            _CLAUSE_JOIN.match(text, match.end()) or _in_noun_clause(_subject_before(text, match.start()))
+            _CLAUSE_JOIN.match(text, match.end())
+            or not _SPEECH_VERB.search(text, match.end()) and (
+                (_PARTICIPLE.match(text, match.end()) and _relative_clause(_subject_before(text, match.start())))
+                or (match.group("verb").split()[0].lower().rstrip(",:") in _LIST_VERBS and _LIST_ITEM.match(text, match.end())))
+            or _in_noun_clause(_subject_before(text, match.start()))
         ):
             continue
         if match.group("words") and comma and _parenthetical_words(text, match, index):
@@ -816,13 +922,13 @@ def _attribution(outside: str, index: "QuotationIndex") -> dict | None:
             subject = match.group(0) + " " + _subject_before(text, match.start())
         if _names_someone(subject, index):
             rest = text[match.end():]
-            return {"opens": match.group(0).rstrip().endswith(":"), "words": bool(_WORD.search(rest))}
+            return {"opens": match.group(0).rstrip().endswith(":"), "words": bool(_WORD.search(rest)), "said": rest}
     forward = _FORWARD.search(text)
     if forward and _names_someone(_subject_before(text, forward.start()), index):
-        return {"opens": True, "words": False}
+        return {"opens": True, "words": False, "said": ""}
     trailing = _TRAILING_NAME.search(text)
     if trailing and _is_name(trailing.group("name"), index) and _WORD.search(text[: trailing.start()]):
-        return {"opens": False, "words": True}
+        return {"opens": False, "words": True, "said": text[: trailing.start()]}
     return None
 
 
@@ -840,32 +946,68 @@ def placed_key(text: str) -> str:
     return " ".join(text.split())
 
 
+# Marks that open or close a quotation. A straight single mark and the curly
+# closing one are also apostrophes, so they count only paired; the curly
+# opening single mark is never an apostrophe.
+_QUOTATION_MARKS = "\"\u201c\u201d\u2018" + FOREIGN_QUOTE_MARKS
+
+
 def _placed_verdict(text: str, tags: list[str], records: dict[str, dict], index: QuotationIndex, record_id: str) -> dict:
     """A sentence code composed around a quote record's rendering: the
     rendering stands in it word for word, tagged with that record, and the
-    lead-in attributes it to that record's own speaker and types no other
-    quotation."""
+    lead-in attributes it to no one but that record's own speaker, types no
+    quotation of its own (a quotation mark left open counts), and names that
+    speaker (the project lead's ruling of 14 October: code checks the name
+    and adds no words)."""
     record = records.get(record_id) or {}
     rendering = placed_key(record.get("modern_rendering") or "")
     spans = [span for span in _checked_pairs(text) if placed_key(span[2]) == rendering]
-    holds = bool(rendering) and record.get("record_type") == "quote" and record_id in tags and bool(spans)
-    if holds:
+    why = None
+    if not (rendering and record.get("record_type") == "quote" and record_id in tags and spans):
+        why = REASON_PLACED_MISMATCH
+    else:
         others = [span for span in _checked_pairs(text) if placed_key(span[2]) != rendering]
         lead = _outside_quotations(text, spans + others)
         speakers = index.speaker_ids(record)
-        holds = not [s for s in others if len(_normalize(s[2]).split()) >= SINGLE_QUOTE_MIN_WORDS] and all(
+        if [s for s in others if len(_normalize(s[2]).split()) >= SINGLE_QUOTE_MIN_WORDS] or not all(
             fids & speakers for fids in index.attributed_figures(lead)
-        )
-    if not holds:
-        return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_PLACED_MISMATCH}
+        ):
+            why = REASON_PLACED_MISMATCH
+        elif any(mark in lead for mark in _QUOTATION_MARKS):
+            why = REASON_LEAD_TYPES_QUOTATION
+        elif not index.names_speaker(lead, record):
+            why = REASON_SPEAKER_UNNAMED
+    if why is not None:
+        return {"sentence": text, "tags": tags, "verdict": "withhold", "why": why}
     return {"sentence": text, "tags": tags, "verdict": "ok", "why": WHY_PLACED, "placed_quote": record_id}
 
 
-def placed_quote_holds(composed: str, records: dict[str, dict], index: QuotationIndex, record_id: str) -> bool:
-    """A sentence code composed around a quote record (tags included) passes
-    the net's placed-quote check: the one test placement and the net share."""
+def _placed_story_verdict(text: str, tags: list[str], records: dict[str, dict], record_id: str) -> dict:
+    """A sentence of a story record's telling that code placed: it stands
+    in the telling word for word, tagged with that record. The telling's
+    speech is the record's own rendering, so no quotation check applies."""
+    record = records.get(record_id) or {}
+    holds = (
+        record.get("record_type") == "story" and record_id in tags and bool(text.strip())
+        and placed_key(text) in placed_key(record.get("telling") or "")
+    )
+    if not holds:
+        return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_STORY_MISMATCH}
+    return {"sentence": text, "tags": tags, "verdict": "ok", "why": WHY_STORY_PLACED, "placed_story": record_id}
+
+
+def _placed(entry: dict) -> bool:
+    """The sentence is code's: a placed quote, or a sentence of a placed story."""
+    return bool(entry.get("placed_quote") or entry.get("placed_story"))
+
+
+def placed_quote_refusal(composed: str, records: dict[str, dict], index: QuotationIndex, record_id: str) -> str | None:
+    """Why the net's placed-quote check refuses a sentence code composed
+    around a quote record (tags included), or None when it passes: the one
+    test placement and the net share."""
     text = strip_tags(composed).strip()
-    return _placed_verdict(text, _TAG.findall(composed), records, index, record_id)["verdict"] == "ok"
+    verdict = _placed_verdict(text, _TAG.findall(composed), records, index, record_id)
+    return None if verdict["verdict"] == "ok" else verdict["why"]
 
 
 def _quotation_verdict(
@@ -879,19 +1021,26 @@ def _quotation_verdict(
 
     Only code places a quotation. A placed sentence is re-verified against
     its record. Otherwise a quotation of SINGLE_QUOTE_MIN_WORDS or more
-    words is withheld, unless it repeats the participant side's own words;
-    a shorter quoted span found in no record loses its marks; words
-    attributed to someone without quotation marks are withheld; and so is a
-    sentence that gives a quote in other words (_unplaced_quote)."""
+    words is withheld, unless it repeats the participant side's own words,
+    or, in a sentence that attributes nothing, the words of a witness, story
+    or term the sentence tags; a shorter quoted span found in no record
+    loses its marks; words attributed to someone without quotation marks
+    are withheld unless the sentence retells its own tagged witness, story
+    or term (QuotationIndex.own_telling); and so is a sentence that gives a
+    quote in other words (_unplaced_quote)."""
     if placed_id is not None:
+        if (records.get(placed_id) or {}).get("record_type") == "story":
+            return _placed_story_verdict(text, tags, records, placed_id)
         return _placed_verdict(text, tags, records, index, placed_id)
     checked = _checked_pairs(text)
     outside = _outside_quotations(text, checked)
     foreign_unpaired = any(mark in outside for mark in FOREIGN_QUOTE_MARKS)
+    attributes = _attribution(outside, index) is not None or bool(index.attributed_figures(outside))
     typed = [
         span for span in checked
         if len(_normalize(span[2]).split()) >= SINGLE_QUOTE_MIN_WORDS and not index.echoes(span[2])
         and not index.term_gloss(span[2], outside, tags)
+        and (attributes or not index.own_wording(span[2], tags))
     ]
     if typed or foreign_unpaired:
         entry = {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_TYPED_QUOTATION}
@@ -916,6 +1065,10 @@ def _quotation_verdict(
             if any(not (fids & speakers) for fids in attributed):
                 return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_WORDS_WITHOUT_QUOTE_RECORD}
     attribution = _attribution(outside, index)
+    if attribution is not None and attribution["words"] and index.own_telling(attribution["said"], tags):
+        # the words after "he said:" are the sentence's own story or
+        # witness, retold: the world's telling, not a quotation
+        attribution = None
     if attribution is not None:
         if attribution["opens"] and not attribution["words"]:
             return {"lead_only": True}
@@ -962,7 +1115,7 @@ def _apply_quotation_context(entries: list[dict], sizes: list[int]) -> None:
     starts = [sum(sizes[:p]) for p in range(len(sizes))]
 
     def withhold(i: int, why: str) -> None:
-        if not entries[i].get("placed_quote"):
+        if not _placed(entries[i]):
             entries[i].update(verdict="withhold", why=why)
 
     for i, entry in enumerate(entries):
@@ -985,13 +1138,13 @@ def _apply_quotation_context(entries: list[dict], sizes: list[int]) -> None:
         else:
             followers = range(0)
         if lead_only:
-            if followers and entries[followers[0]].get("placed_quote"):
+            if followers and _placed(entries[followers[0]]):
                 continue
             withhold(i, REASON_ATTRIBUTION_LEAD)
         for k in followers:
             # the words end where a placed quote begins, or where the story
             # they were spoken in is narrated again (_narrates_story)
-            if entries[k].get("placed_quote") or (not lead_only and entries[k].get("narrates_story")):
+            if _placed(entries[k]) or (not lead_only and entries[k].get("narrates_story")):
                 break
             withhold(k, REASON_UNPLACED_WORDS)
 
@@ -1323,7 +1476,7 @@ def sentence_spans(tagged_text: str) -> list[str]:
     return [sent["raw"] for paragraph in split_into_paragraphs(tagged_text) for sent in parse_tagged(paragraph)]
 
 
-def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str]) -> str:
+def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str], *, positions: set[int] | None = None) -> str:
     """Removes each named sentence's own raw span - tag included - from
     tagged_text, whole, and rejoins what is left. The one enforcement
     action a caller may take on a flagged sentence that is not "regenerate
@@ -1349,13 +1502,31 @@ def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str]) -> str
     whose own next sentence was the one dropped) can still read as an
     unfinished promise - a semantic dangling fragment this string-level
     operation has no way to see, as opposed to the structural one
-    (broken punctuation, an empty paragraph) it does prevent."""
+    (broken punctuation, an empty paragraph) it does prevent.
+
+    With `positions`, the sentences dropped are those at these indices in
+    the turn's sentence order, not every sentence with a flagged text: a
+    sentence code placed stays when the voice wrote the same words again."""
     kept_paragraphs = []
+    index = 0
     for paragraph in split_into_paragraphs(tagged_text):
-        kept_sentences = [sent["raw"] for sent in parse_tagged(paragraph) if sent["text"] not in flagged_sentences]
+        kept_sentences = []
+        for sent in parse_tagged(paragraph):
+            dropped = index in positions if positions is not None else sent["text"] in flagged_sentences
+            index += 1
+            if not dropped:
+                kept_sentences.append(sent["raw"])
         if kept_sentences:
             kept_paragraphs.append(" ".join(kept_sentences))
     return "\n\n".join(kept_paragraphs)
+
+
+def _placed_id(placed: dict[str, str] | None, sent: dict) -> str | None:
+    """The record code placed in this sentence: its text is a placed
+    sentence's and it carries that record's tag. The same words the voice
+    wrote again, untagged or tagged otherwise, get the ordinary checks."""
+    record_id = (placed or {}).get(placed_key(sent["text"]))
+    return record_id if record_id in sent["tags"] else None
 
 
 def check_turn_with_paragraph_coverage(
@@ -1431,7 +1602,7 @@ def check_turn_with_paragraph_coverage(
                 thin_topics=thin_topics,
                 grounding_floor=grounding_floor,
                 quotation_index=quotation_index,
-                placed_quote_id=(placed or {}).get(placed_key(sent["text"])),
+                placed_quote_id=_placed_id(placed, sent),
                 paragraph_tags=own_record_ids,
             )
             for sent in parsed

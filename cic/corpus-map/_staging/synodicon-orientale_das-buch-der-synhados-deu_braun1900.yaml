@@ -1,0 +1,34 @@
+source_file: synodicon-orientale_das-buch-der-synhados-deu_braun1900.txt
+
+authors_ruled:
+  synodicon-orientale:
+    kind: anonymous
+    evidence: >
+      The acts of the synods of the Church of the East, compiled as a collection in the
+      ninth century; no individual author. Braun is translator and commentator (title page,
+      file line 42), not the work's author.
+
+assignments:
+  - row_id: synodicon-orientale_das-buch-der-synhados-deu_braun1900--synods-of-isaak-410-and-dadiso-424-german
+    work: "Das Buch der Synhados: the synods of Isaak (410), Jahballaha (420) and Dadiso (424), German translation"
+    author: synodicon-orientale
+    locus: "file lines 282 (Erste Synode, Mar Isaak) to 1790; Jahballaha 1793; Dadiso 2242 to about 2972"
+    atlas_ids:
+      - persian-church-of-the-east-early
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). German translation (1900) of the same acts
+      vendored in Syriac and French from Chabot; a second translation for cross-checking,
+      with Braun's own dating notes. The Persian church's own voice in translation.
+  - row_id: synodicon-orientale_das-buch-der-synhados-deu_braun1900--synods-of-akak-486-onward-german
+    work: "Das Buch der Synhados: the synods from Akak (486) onward, German translation"
+    author: synodicon-orientale
+    locus: "file line 2973 (Synode des Katholikos Mar Akak) to the end of the translation"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). The later synods of the same collection in
+      Braun's German; the Church of the East under Persia's own acts in translation.

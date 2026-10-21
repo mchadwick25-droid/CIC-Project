@@ -2646,3 +2646,65 @@ Added after the independent review of #875 and the project lead's rulings of 13 
 - \`witt.term.gospel\`: both \`plain_meaning\` and \`means\` say the Gospel "had been buried"; the hymnal preface does not say so ("hath again risen"). OPEN.
 
 Status: CLOSED for the fixes above; the registered items stay OPEN.
+
+## OG-72. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `witt.demo.bread-and-cup` representative turn: "and we did not explain how." now reads "and we did not explain how they are present."
+- `witt.term.sacrament-of-the-altar` `plain_meaning`: "We do not explain how." now reads "We do not explain how they are present."
+- `witt.term.sacrament-of-the-altar` `use_note.means`: "without explaining how." now reads "without explaining how they are present."
+- `witt.term.insurrection` `plain_meaning`: "and we understood why." now reads "and we understood their anger."
+- `witt.voice.craft` `characteristic_concerns`: "held without asking how." now reads "held without asking how Christ is present."
+
+`engine.m10.cli records witt` and `regate witt --base origin/main` pass. `witt.voice.craft` stays inside its 1500-word ceiling. Package rebuilt and repinned: `packages/witt/2026-10-14T20-21-26Z`, `manifest_hash` `sha256:698293cd5c09568c7a3670d179a0e4ce35177fc50c4d32d9e1d7249727aaf657`. Status: CLOSED.
+
+## OG-73. Atlas story pass: shorter story, ten card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card, and approved the Wittenberg text. `orientation.story` is now 12 units and 645 words, down from 12 units and about 1,170. `documented_stories` shows ten stories in date order. Each of those story records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 25 short notes; place locations cite Pleiades where it has an entry (Mainz, Worms, Augsburg), checked 2026-10-17. Review: `Build/Ministry/Operations/Audits/witt_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/witt/2026-10-17T03-46-27Z`, `manifest_hash` `sha256:fd0f9f133b9acb1e55da39e7425b613967f278c0465a27e75f649e8c5ff0a19e`. This pin supersedes the one in OG-72.
+
+Cut from the story with no story record, so they have no card story; they stay in the records named: the 1520 bull and its forty-one articles (`witt.force.papal-force-initiating`); "what is free should never be made compulsory" and liberty turned on careless pastors (`witt.gravity.must-and-free`); the Mass kept with examination before the Supper (`witt.gravity.promise-and-sign`); the Confession as a loyal address answered by Rome and the Apology (`witt.dw.a-confession-answered-not-a-vote`); the Saxon visitation and ordinary people's thin record (`witt.limit.record-thinnest`). The old story's "young" university has no record.
+
+**Open:**
+- The main story and the ten tellings were recorded on 2026-10-17 after the project lead approved a sample by ear: 13733 characters, 6659 credits, settings from the world's own manifest entry. The story runs 4:28. Closed.
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+## OG-74. Marburg break not narrated, and a figure record that disagrees with itself, 2026-10-17.
+
+The old story said Wittenberg broke with the Swiss cities at Marburg in 1529. `witt.force.reformed-rival-by-absence` is rated Inferential-Thin and says the claim is not yet well supported by anything in the library, which holds neither the Marburg Articles nor any text naming Zwingli. The story and its Marburg highlight now leave it out; the Augsburg Confession's rejection of other teaching on the Supper stays, grounded in AC 322-324. Separately, `witt.figure.speratus` says "four hymns" in its `sources.locus` and "eight" in its `divergence_note`; `witt.story.speratus-hymn-under-the-window` says eight, which the card follows. The figure record wants its locus corrected by the build thread.
+
+Status: OPEN.
+
+## OG-75. Other world_front sections keep "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `narrative.who_speaks`, `legacy`, `sourcing`, `read_first`, `skim.tile` and the envelope's `divergence_note` still say "this world", "this record" or "this library". Several voice-craft fields also fail the readability gate at the base, as `regate witt` reports.
+
+Status: OPEN for the project lead to schedule.
+
+## OG-76. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: Katharina's question is Luther's own report (story, teaser, voice); the Elector note no longer names Frederick for 1530; "Baptism is daily" now says the old self is drowned by daily repentance; "young university" removed from the tile; the five old-translation quotes are reported speech; long sentences and notes trimmed.
+**Open:**
+- No witt record gives a modern location for Wittenberg or the Wartburg; both notes are unchanged.
+- The Walter teaser and voice still say Luther "worked out" the Gospel and Epistle settings, which drifts slightly from Bacon 766-768.
+- Authoring modern renderings for the Wittenberg quotes would let the tellings quote them directly.
+
+Status: OPEN for the project lead on the three items above.
+
+The recheck also removed "young university" from the census copy of the tile (`cic-website/data/world-census.json`, `index.html`, `atlas-v3.html` and the tradition page).
+
+## OG-77. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-witt-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 34 own-voice, 2 outsider's account voiced as the world's own, 4 unsupported, 0 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `records/witt/term/witt.term.sacrament-of-the-altar.md` line 90 and `records/witt/doctrinal_witness/witt.dw.born-in-sin-fed-at-the-table.md` line 53 ("we did not dispute the how") are contradicted by Luther's 1520 iron-and-fire argument.
+- `witt.dw.born-in-sin-fed-at-the-table` lines 56 to 57 ("no other teaching of ours appears in so many of our writings") is a statistic about the project's own word list stated as history.
+- `records/witt/quote/witt.quote.second-article-of-the-creed.md` lines 18 and 120 state household uptake as fact, against `witt.contested.household-catechism-reception` (Contested).
+- `records/witt/story/witt.story.brussels-martyrs.md` gives the 1523 date without saying it comes from the editors, not the hymn.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.

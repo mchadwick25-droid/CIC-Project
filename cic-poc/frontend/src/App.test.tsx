@@ -11,7 +11,7 @@ const worldSummary = {
   census_id: 'donatism',
   display_name: 'Donatism',
   card_name: 'Donatist Africa',
-  representative: { name: 'Fidelis', role_label: 'Reader' },
+  representative: { name: 'Fidelis' },
   time_window: { start: 311, end: 411 },
   place: 'Carthage',
   thinness_statement: '',
@@ -57,7 +57,7 @@ describe('first screen', () => {
     expect(container.querySelector('.launch')).toBeNull();
 
     releaseWorlds();
-    await waitFor(() => expect(container.querySelector('.arrival')).not.toBeNull());
+    await waitFor(() => expect(container.querySelector('.conv-card')).not.toBeNull());
     expect(container.querySelector('.launch')).toBeNull();
   });
 
@@ -68,7 +68,7 @@ describe('first screen', () => {
     expect(window.location.search).toBe('?worlds=donatism&mode=interview');
 
     releaseWorlds();
-    await waitFor(() => expect(container.querySelector('.arrival')).not.toBeNull());
+    await waitFor(() => expect(container.querySelector('.conv-card')).not.toBeNull());
     const box = container.querySelector('.composer-row textarea') as HTMLTextAreaElement;
     expect(box.value).toBe("What did you make of the Traditores' bishops?");
     expect(container.querySelector('.turn--participant')).toBeNull();
@@ -81,7 +81,7 @@ describe('first screen', () => {
 
     releaseWorlds();
     await waitFor(() => expect(container.querySelector('.launch')).not.toBeNull());
-    expect(screen.getByRole('alert')).toHaveTextContent("We couldn't find that world here");
+    expect(screen.getByRole('alert')).toHaveTextContent("We couldn't find that Christian tradition here");
   });
 
   it('opens on the launch screen when there is no deep link and nothing to resume', () => {

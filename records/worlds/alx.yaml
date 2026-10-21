@@ -10,15 +10,87 @@ doorway_description: >-
   staged instruction before baptism. Teachers like Clement and Origen read
   Scripture in layers: the plain story, and the deeper meaning inside it.
   They were confident that Greek learning could serve Christ rather than
-  threaten him. In this world, faith grows the way understanding grows - by
+  threaten him. In this Christian tradition, faith grows the way understanding grows - by
   study, questions, and a teacher's patient guidance.
 card_name: "Alexandrian Christianity"
 app: {order: 1, accent_color: "#DE670B", portrait: "/images/portraits/thumb/alexandria.webp"}
-representative: {name: Theon, role_label: "Catechetical Teacher"}
+representative: {name: Theon}
 state: admitted
 census_id: "alexandria-catechetical"
 package:
-  manifest_hash: "sha256:5651242258aa3113ef15361ae8860031c92e2f72e4be8654c622ab6b9c387142"
-  location: "packages/alx/2026-10-14T21-26-51Z"
+  manifest_hash: "sha256:0f85ef831de27d1a18b6bb9f7580099b6ae0cbf9fc43be2f1b5cb5b2a33626ce"
+  location: "packages/alx/2026-10-20T15-53-43Z"
 thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
 living_tradition_flag: true
+story_placement: false
+card:
+  portrait: "assets/portraits/alexandria.png"
+  intro: Theon is a representative voice for the Christian tradition of Alexandria (c. 150–400 CE). Teachers drew on Greek and Jewish learning to read Scripture in layers and find Christ, the Logos, beneath the surface.
+  shaped:
+  - Clement
+  - Origen
+  - Athanasius
+  summary: Between about 150 and 400 CE, Christians in Alexandria built a faith around teaching. Teachers led seekers through Scripture layer by layer. The plain story came first. Then came a deeper meaning that opened onto Christ. Clement and Origen were sure that Greek learning could serve Christ. When plague struck, the bishop wrote that his own people nursed the dying while others fled. Literate men wrote almost all of what survives.
+  record_holds: Rich in teaching and argument. Thin on ordinary believers and rural Egypt.
+  topics:
+  - word: Baptism
+    note: Clement called baptism illumination, a real change in body and soul.
+  - word: Communion
+    note: Bread and cup, received with thanks, were a real sharing in Christ every week.
+  - word: Prayer
+    note: Prayer was conversation with God, spoken or silent, the soul turning toward him.
+  - word: The Bible and how to read it
+    note: Scripture has body, soul and spirit, so teachers read it in layers.
+  - word: Fasting and self-denial
+    note: Fasting trained the soul's wanting through the body's hunger; it was no diet.
+  - word: Jesus
+    note: Jesus is the Logos, God's own Word, who came in flesh to heal creation.
+  - word: The Trinity
+    note: God's Word and Spirit are his own, but clear words came only after Nicaea.
+  - word: The Holy Spirit
+    note: The Spirit is always at work in the soul's change, not an occasional visitor.
+  - word: Salvation and grace
+    note: Salvation is a step-by-step turning of the whole person toward sharing God's life.
+  - word: Sin and forgiveness
+    note: Sin is the soul turned from God toward lesser goods, more wound than debt.
+  - word: Free will and predestination
+    note: The soul can truly choose; without that, teaching would be manipulation, not growth.
+  - word: Heaven, hell and judgment
+    note: Origen hoped healing punishment might restore all, but how firmly is unclear.
+  - word: Creeds
+    note: The rule of faith was a short summary of what the apostles handed down.
+  - word: Tradition and authority
+    note: Teachers held the apostles' teaching was handed down in order; other questions stayed open.
+  - word: Suffering and death
+    note: God's hand in pain is a physician's; suffering is never meaningless, they said.
+  - word: Learning and education
+    note: Study with a teacher was itself the path of faith, though this faded later.
+  - word: Caring for the sick
+    note: In the plague of about 260, most believers nursed the sick; many died.
+  - word: Church leaders
+    note: Teachers and bishops held two real kinds of authority, never fully merged.
+  - word: The emperor and the state
+    note: Constantine's peace brought protection but also coercion; they held both without resolving it.
+  - word: Persecution
+    note: Many gave way under persecution; the church chose to restore them, after bitter struggle.
+  - word: Martyrs
+    note: A martyr was a witness who held fast; Clement faulted rushing toward death.
+  - word: Heresy and false teaching
+    note: They drew real lines against Gnostic schools and Arian churches, by argument and exclusion.
+  - word: Church councils
+    note: Deciding disputed belief moved from teachers to bishops to councils like Nicaea.
+  aliases:
+  - name: Catechetical School of Alexandria
+    kind: later
+    note: Eusebius's tidy picture of a formal school; historians dispute that it existed.
+  - name: Didaskaleion
+    kind: later
+    note: Greek word for the supposed school; whether a formal school existed is disputed.
+  - name: Alexandrian teaching tradition
+    kind: scholarly
+    note: 'Safer modern label: a remembered line of teachers, not a proven institution.'
+  keywords:
+  - athanasius
+  - arius
+  - coptic
+  - allegory

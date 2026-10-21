@@ -36,7 +36,7 @@ relations:
 - type: associated-with
   target: pahc.term.pertinacia
 plain_meaning: The Latin word a Roman governor used for two enslaved women he had tortured. They were
-  Christians in some known service. What they called it themselves, no one kept.
+  Christians in some known service. No one wrote down what the women called themselves.
 world_word: ministrae (Pliny's word, not the community's own)
 distortion_risk: high
 false_friend:

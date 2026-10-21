@@ -471,12 +471,9 @@ jobs:
       # FixtureRecordAnswerer (a deterministic, no-model stand-in) - no
       # live model call, no cost.
       - run: python -m pytest engine/m3/tests -q -n auto
-      # Admission conformance is a promotion gate, not a merge gate
-      # (decision 58): here it reports which admitted worlds lack a live
-      # admission report on the pinned package under the current voice
-      # shape, and never fails the suite. The promotion runbook runs it
-      # with --enforce on a named, capped admission run before a
-      # promotion to live.
+      # Reports which admitted worlds lack a live admission report on the
+      # pinned package under the current voice shape. It never fails the
+      # suite and is not a requirement for a promotion to live.
       - run: python -m engine.m3.admission_conform
 
       # M4 event log, projection, entrance seal, resume, turn loop.

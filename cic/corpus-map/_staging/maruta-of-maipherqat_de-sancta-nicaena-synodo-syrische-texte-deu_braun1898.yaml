@@ -1,0 +1,40 @@
+source_file: maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt
+
+authors_ruled:
+  maruta-of-maipherqat:
+    kind: pseudonymous
+    evidence: >
+      The Syriac Nicene dossier is transmitted under the name of Marutha, bishop of
+      Maipherqat (fl. c. 400-420), but the attribution is traditional and Braun himself
+      discusses the several bearers of the name and the doubts (file lines 270 to 331).
+      Ruled pseudonymous in the sense "attributed to a named figure whose authorship is
+      not secure", not as a claim that the attribution is false.
+
+assignments:
+  - row_id: maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898--syriac-nicene-dossier-german
+    work: "De sancta Nicaena synodo: the Syriac texts on the Council of Nicaea attributed to Marutha of Maipherqat, German translation"
+    author: maruta-of-maipherqat
+    locus: "whole file; the creed at file line 1086; Braun's introduction on Marutha's embassies and the synod of 410 at 531 to 598"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). Marutha was a Syriac-speaking bishop of the
+      Roman side (Maipherqat, Sophanene); the dossier is Syriac memory of Nicaea in a
+      Mesopotamian voice. Placed here as the nearest entry to Marutha's own milieu;
+      a project-lead call, named not decided.
+  - row_id: maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898--syriac-nicene-dossier-german-2
+    work: "De sancta Nicaena synodo: the Syriac texts on the Council of Nicaea attributed to Marutha of Maipherqat, German translation"
+    author: maruta-of-maipherqat
+    locus: "whole file"
+    atlas_ids:
+      - persian-church-of-the-east-early
+    role: transmission
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). The Persian synod of 410 received these
+      "canons of the Western Fathers" from Marutha and the East Syriac canonical
+      collections are why the dossier survives: custody of a work that originates outside
+      the entry, per the corpus-map README's transmission rule. Reception witness for what
+      Nicaea meant in Persia, not a document of 325.

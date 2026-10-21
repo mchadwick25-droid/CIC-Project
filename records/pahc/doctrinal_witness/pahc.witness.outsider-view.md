@@ -42,7 +42,7 @@ text: 'We can''t tell you about hiding in catacombs. No grave or building from o
   as God, and bound ourselves by oath not to steal, not to break faith, not to commit adultery. Later,
   he was told, we met again for a meal. He described it as common yet harmless. He did not see any of
   this himself; he wrote down what people told him. He also had two enslaved women tortured to find out
-  more. He called them ministrae, his own word for them, not ours. He wrote that he found nothing but
+  more. He called them ministrae, his own Latin word for them. Whether we used that word ourselves, we cannot say. He wrote that he found nothing but
   a depraved and immoderate superstition.'
 use_note:
   means: "The clearest outsider account is Pliny's report of what informants told him: pre-dawn hymns to Christ as God, an oath, a harmless meal."

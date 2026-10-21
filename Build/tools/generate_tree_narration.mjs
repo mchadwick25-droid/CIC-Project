@@ -30,7 +30,8 @@
  * movement picks them up.
  *
  * Usage:
- *   ELEVENLABS_API_KEY=... node Build/tools/generate_tree_narration.mjs --voice-id <id> --model <model_id> [options]
+ *   ELEVENLABS_API_KEY=... node Build/tools/generate_tree_narration.mjs --voice-id <id> --model <model_id> \
+ *     --approved-run "<name>" --char-cap <n> [options]
  *
  * --voice-id is the default narrator used for every movement that has no
  * override in tree-narration-voices.mjs. --voice-id and --model are required
@@ -53,6 +54,10 @@
  *                      movement that would push the running total over budget;
  *                      applied after --limit, so the tighter of the two binds.
  *   --force            Regenerate even for a movement that already has an audio file.
+ *   --approved-run <name>  Required (except --dry-run). The name of the run Mark
+ *                      approved after hearing its sample.
+ *   --char-cap <n>     Required (except --dry-run). The approved character limit;
+ *                      a run that plans more refuses to start.
  */
 import fs from 'fs';
 import path from 'path';
@@ -84,7 +89,7 @@ export const NARRATION_BITRATE = '64k';
 export const defaultVoiceSettings = { stability: 0.95, similarity_boost: 0.68, style: 0.0, use_speaker_boost: true };
 
 export function parseArgs(argv) {
-  const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null };
+  const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--dry-run') opts.dryRun = true;
@@ -94,6 +99,8 @@ export function parseArgs(argv) {
     else if (arg === '--model') opts.model = argv[++i];
     else if (arg === '--limit') opts.limit = Number(argv[++i]);
     else if (arg === '--char-budget') opts.charBudget = Number(argv[++i]);
+    else if (arg === '--approved-run') opts.approvedRun = argv[++i];
+    else if (arg === '--char-cap') opts.charCap = Number(argv[++i]);
     else throw new Error(`unrecognized argument: ${arg}`);
   }
   if (opts.limit !== null && (!Number.isInteger(opts.limit) || opts.limit < 0)) {
@@ -114,6 +121,24 @@ export function requirePaidSettings({ voiceId, model }) {
     if (!value || value.startsWith('--')) {
       throw new Error(`${flag} is required and is never read from the environment.`);
     }
+  }
+}
+
+/**
+ * A paid run names, on the command, the run Mark approved after hearing its
+ * sample and that run's character cap (CLAUDE.md 3.2, paid bulk runs). Without
+ * both, or when the run plans more characters than its cap, it refuses to
+ * start: before the key is read and before any request is sent.
+ */
+export function requireApprovedRun({ approvedRun, charCap }, plannedChars) {
+  if (!approvedRun || approvedRun.startsWith('--')) {
+    throw new Error('--approved-run "<name>" is required: the name of the run Mark approved after hearing its sample.');
+  }
+  if (!Number.isInteger(charCap) || charCap <= 0) {
+    throw new Error('--char-cap <n> is required: the approved character limit for this run, a whole number above 0.');
+  }
+  if (plannedChars > charCap) {
+    throw new Error(`this run plans ${plannedChars} characters, over its --char-cap of ${charCap}. Narrow it with --only or --limit, or get a higher cap approved.`);
   }
 }
 
@@ -256,7 +281,10 @@ async function run() {
   }
 
   const defaultVoiceId = opts.voiceId;
-  if (!opts.dryRun) requirePaidSettings(opts);
+  if (!opts.dryRun) {
+    requirePaidSettings(opts);
+    requireApprovedRun(opts, totalChars);
+  }
 
   if (opts.dryRun) {
     toGenerate.forEach((m) => {
@@ -275,6 +303,7 @@ async function run() {
   fs.mkdirSync(audioDir, { recursive: true });
 
   console.log('=== PAID RUN, settings as actually used ===');
+  console.log(`approved run     : ${opts.approvedRun}   char cap: ${opts.charCap}`);
   console.log(`default voice id : ${defaultVoiceId}`);
   console.log(`model            : ${opts.model}`);
   console.log(`settings         : ${JSON.stringify(defaultVoiceSettings)}`);

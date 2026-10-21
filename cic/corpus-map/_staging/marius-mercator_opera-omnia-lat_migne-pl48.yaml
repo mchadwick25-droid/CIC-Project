@@ -1,0 +1,34 @@
+source_file: marius-mercator_opera-omnia-lat_migne-pl48.txt
+assignments:
+- row_id: marius-mercator_opera-omnia-lat_migne-pl48--mercator-pelagianism
+  work: Marius Mercator, Opera omnia (Commonitoria against Caelestius and Julian; the Nestorian dossier
+    in Latin), PL 48
+  author: marius-mercator
+  locus: whole file; the Nestorius sermon list from file line 677
+  atlas_ids:
+  - pelagianism
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Ephesus 431). A Latin opponent of Pelagius and Caelestius writing
+    in Constantinople in the 420s-430s: the contemporary opponent''s view of the Pelagians, and the main
+    Latin witness to their condemnation alongside Nestorius at Ephesus. Context.'
+- row_id: marius-mercator_opera-omnia-lat_migne-pl48--mercator-antiochene
+  work: 'Marius Mercator, Opera omnia, PL 48: Nestorius''s sermons and letters in Latin'
+  author: marius-mercator
+  locus: the Nestorius translations from about file line 677
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: context
+  confidence: provisional
+  note: 'Nestorius in his opponent''s Latin translation: embedded voice inside a hostile work, so context
+    rather than transmission. The Latin West''s first hearing of Nestorius.'
+- row_id: marius-mercator_opera-omnia-lat_migne-pl48--mercator-imperial-juridical
+  work: Marius Mercator, Opera omnia, PL 48
+  author: marius-mercator
+  locus: whole file
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: provisional
+  note: 'A layman''s dossier of the imperial capital''s doctrinal trials of 428-431, compiled for Rome:
+    the court-and-council process from a Latin bystander. Context.'

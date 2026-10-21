@@ -31,10 +31,13 @@ exchange:
 
 
     One of ours had already given away every worldly advantage before
-    persecution ever came near him. The account of him spends its whole
-    length on the life. The cliff is the last four days of it. While he
-    fasted there he was shown a cup, a crown and a palm, and the account
-    reads them as a sight of what finishing would look like. What these
+    persecution ever came near him. The account says his virtues are too many
+    to tell, but a few must be told. The cliff is the last four days of his story.
+    While he fasted there he was shown a cup, a crown and a palm. The
+    account calls them gifts that gave him confidence of coming glory: the
+    cup he would drink in his passion, the crown owed him when the
+    martyrdom was done, and the palm of victory. We read in them what
+    finishing looked like. What these
     texts praise is a man who was already what he was before anyone came for
     him. His death made that visible.
 

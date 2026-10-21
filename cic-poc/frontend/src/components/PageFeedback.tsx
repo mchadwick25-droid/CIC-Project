@@ -114,7 +114,7 @@ interface ReportCardProps {
   onSent: () => void;
 }
 
-function ReportCard({ page, onCancel, onSent }: ReportCardProps) {
+export function ReportCard({ page, onCancel, onSent }: ReportCardProps) {
   const [reason, setReason] = useState<PageReportReason | null>(null);
   const [note, setNote] = useState('');
   const [email, setEmail] = useState('');

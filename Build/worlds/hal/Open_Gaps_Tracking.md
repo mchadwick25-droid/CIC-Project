@@ -842,3 +842,63 @@ Per Mark's ruling of 13 October, `use_note.means` is in scope where it contradic
 **Checked and left as they were, by request.** `hal.dw.church-failure`'s scorpion wording is not in its means (the change above concerns the violence wording only), and `hal.story.attack-416` (the means speaks of the women's lost report and does not say they wrote a letter), `hal.quote.detestable-monks` (the fasting claim stays with the crowd).
 
 Status: CLOSED.
+
+## OG-23. Atlas story pass: shorter story, nine card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built tradition's Atlas story to run four to five minutes, with the other episodes moved into stories on the card. He approved the Bethlehem Circle story and card list, then the tellings, then a sample recording. `orientation.story` is now 9 units and 691 words, down from 11 units and about 1,150 words. `documented_stories` shows nine story records in date order. Each of those records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 17 short notes; place notes cite Pleiades for modern locations (checked 2026-10-17). Episodes cut with no story record of their own stay in their records: Fabiola and the Portus hostel, Palladius's counter-account, the Hebrew-fluency question, and family resistance to Paula's leaving. Review: `Build/Ministry/Operations/Audits/hal_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/hal/2026-10-17T13-45-54Z`, `manifest_hash` `sha256:f9ca759df95602a5ce7717a7f084083bf83e8f560fd84dde8617866202a63641`. This pin supersedes the previous one. The story and the nine tellings were recorded in the existing voice.
+
+**Open:**
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+## OG-24. Record disagreements found during the Atlas story pass, 2026-10-17.
+
+The pass followed the more cautious record in each case and changed no record. Each needs a ruling on which wording is right:
+- `hal.story.ciceronian-dream` gives `use_note.years` 384 to 384, while `hal.quote.a-follower-of-cicero-and-not-of-christ` locates the dream in the illness of 374. The card dates the dream about 374, told in a letter of 384.
+- `hal.story.paula-epitaph` `use_note.not_for` asks for a closing acknowledgment that her own voice was not kept. Under the project lead's ruling on add-on endings, the telling opens with it instead; he approved that telling on 2026-10-17. The record's wording should follow.
+- `hal.contested.paula-jerome-relationship` gives Paula nineteen years at Bethlehem, while `hal.figure.paula` gives 386 to 404. The story gives no count.
+- `hal.quote.no-one-preferred-to-the-seventy` text has Augustine grant that the Jews call Jerome's work faithful, while its lens note says he "gives away every point". The story follows the quote text.
+- `hal.figure.marcella` bridge_line calls the Aventine household a circle before Jerome came, while `hal.force.marcella-household` rates a multi-woman household as a modern reconstruction. The story and note follow the force record.
+
+Status: OPEN for the project lead.
+
+## OG-25. Other world_front sections keep AI tells and "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" wording and dash asides. The same holds for the Alexandria and Cappadocia records.
+
+Status: OPEN for the project lead to schedule.
+
+## OG-26. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the tile now says no one held a bishop's office (not any church office), attributes Marcella's standing to Jerome, and no longer claims everything comes through Jerome's pen; tile rhythm, build wording and long highlight notes trimmed. No record changed.
+
+Status: CLOSED for this review.
+
+The same two claims in the census copy (`cic-website/data/world-census.json`, `index.html`, `atlas-v3.html` and the tradition page) were corrected in the recheck: Marcella's standing is now attributed to Jerome.
+
+## OG-27. Unclear honest-limit endings, 2026-10-17.
+
+Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put the object first and ended on a bare verb, so the ending did not say what is unknown. Each now puts the subject first and ends on what is not known. Wording and facts are the records' own; nothing was added.
+
+- `records/hal/story/hal.story.day-at-monastery.md`: "Which psalms they sang, and how the two houses shared their worship, no one wrote down, or nothing that was written survived." -> "Either no one wrote down which psalms they sang and how the two houses shared their worship, or nothing that was written survived."
+
+Status: CLOSED for this review.
+
+## OG-28. Voice-craft record still cites the registry's role_label, 2026-10-20.
+
+Mark's ruling of 2026-10-20 removed the Representative's role label from the registry, the compiled packages, the Facilitator's welcome and the site. `records/hal/voice_craft/hal.voice.craft.md` (line 64) still says Albina's naming is "true to the registry's role_label in spirit without restating it recognizably". The field no longer exists, so the sentence points at nothing. A voice-craft record is a canonical record and goes through its own review, so it was not edited in the removal. It needs a reworded line that keeps the naming-collision ruling without the field.
+
+Status: OPEN.
+
+## OG-29. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-hal-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 43 own-voice, 2 outsider's account, 8 unsupported, 0 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `records/hal/doctrinal_witness/hal.dw.suffering.md` lines 48 and 56 ("grief itself honored, never condemned as unbelief") are contradicted by Jerome's Letter 39 ("unbelieving tears").
+- `records/hal/world_core/hal.core.hieronymian.md` lines 44 to 45 and `records/hal/voice_craft/hal.voice.craft.md` line 25: the fasting comparison carries no source.
+- `records/hal/doctrinal_witness/hal.dw.record.md` line 29 ("the Hebrew we held truest") conflicts with the term record's ban on presenting the principle as the world's consensus.
+- `records/hal/honest_limit/hal.limit.f5-women-own-words.md` line 28 states Epistle 46 authorship as settled; `hal.contested.ep46-authorship` forbids that.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.

@@ -82,8 +82,7 @@ description: >-
   into dress at Marseilles. It also gave the monk-bishop pattern its first step, the act of
   renunciation. The formed person saw himself as changing allegiance, not changing nature. The
   north's Life hinges on a discharge. The south's manual opens by calling a monk a soldier of
-  Christ. This is also why the world's withdrawal is modest and its exit an office. A man who
-  changes service does not leave the service; he can be posted.
+  Christ.
 manifestations:
 - "Martin's discharge before Caesar - 'allow me now to become a soldier to God' (Vita IV) - the biography's hinge"
 - "Vincent's harbour reached out of 'the tempests of secular warfare' (Comm. ch. 1 [2])"

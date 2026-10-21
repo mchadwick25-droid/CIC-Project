@@ -1363,7 +1363,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # surface pass and stopped matching. Moved to fresh worlds/ examples,
     # not yet touched by the cleanup program (item 4), to keep this table
     # at >=60 real, currently-matching lines.
-    ("Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md", 1, "REWRITE"),
+    ("Build/worlds/_cross-world/dossiers/anatolian-church-third-century_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("Build/worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md", 279, "REWRITE"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized to
     # content-based matching across any Build/worlds/ .md file): line 562
@@ -1455,7 +1455,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/worlds/hal/hal_Decision_Log.md", 88, "PROTECTED"),
     ("Build/worlds/don/scripts/wb_don_s21.py", 450, "REWRITE"),
     ("Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
-    ("Build/worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md", 80, "REWRITE"),
+    ("Build/worlds/_cross-world/dossiers/devotio-moderna-brethren-of-the-common-life_Source_Readiness_Dossier.md", 11, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): line 109 shifted to 120 once the eleven
@@ -1483,10 +1483,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # tag is still unremediated.
     ("records/cappadocian/force/cappadocian.force.capitals-gravity.md", 25, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 272, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 279, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 162, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 280, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 242, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 287, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 249, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),
     ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 27, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits

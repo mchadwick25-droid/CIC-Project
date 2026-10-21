@@ -109,6 +109,42 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
+- row_id: athanasius_opera-omnia-pg25-grc-lat_migne1857--athanasius-opera-pg-25-greek
+  work: 'Athanasius, Opera omnia, Patrologia Graeca 25 (Migne 1857): Apologia contra Arianos
+    (with the Tyre, Rome and Sardica dossier), Apologia ad Constantium, Apologia de fuga,
+    Historia Arianorum, Epistola encyclica'
+  author: athanasius
+  locus: Greek column; the Arsenius passage of the Apologia contra Arianos at about file line
+    70066
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Greek original behind the English of npnf204_athanasius-
+    select-works-letters.xml. SECOND WITNESS ONLY: in this OCR the Latin translation column
+    is garbled into Greek-looking glyphs throughout and the Greek column is legible only in
+    places; nothing is quotable until verified against the scanned page. Role kept at context
+    (the alx bucket''s own Athanasius rows decide tradition placement; this row only makes
+    the Greek findable). Not a quotable primary witness until a cleaner scan is vendored.
+
+    '
+  source_file: athanasius_opera-omnia-pg25-grc-lat_migne1857.txt
+- row_id: athanasius_opera-omnia-pg26-grc-lat_migne1857--athanasius-opera-pg-26-greek
+  work: 'Athanasius, Opera omnia, Patrologia Graeca 26 (Migne 1857): Orationes contra Arianos,
+    De Decretis Nicaenae Synodi (with Eusebius of Caesarea''s letter), De Synodis (Thalia
+    fragments, Arius''s letter to Alexander, the creeds of 359-360), Epistolae, Vita Antonii,
+    Festal letters'
+  author: athanasius
+  locus: Greek column; homoousios recovered 154 times, e.g. file line 24095
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Greek original behind the English of npnf204_athanasius-
+    select-works-letters.xml. SECOND WITNESS ONLY: in this OCR the Latin translation column
+    is garbled into Greek-looking glyphs throughout and the Greek column is legible only in
+    places; nothing is quotable until verified against the scanned page. Role kept at context
+    (the alx bucket''s own Athanasius rows decide tradition placement; this row only makes
+    the Greek findable). Not a quotable primary witness until a cleaner scan is vendored.
+
+    '
+  source_file: athanasius_opera-omnia-pg26-grc-lat_migne1857.txt
 - row_id: npnf102_augustine-city-of-god-christian-doctrine--city-of-god-2
   work: City of God
   author: augustine
@@ -229,6 +265,19 @@ works:
 
     '
   source_file: npnf111_chrysostom-homilies-acts-romans.xml
+- row_id: john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862--letters-from-exile-and-homilies-of-399-404-greek-pg-52-2
+  work: Letters from exile (to Innocent of Rome, to Olympias, from Cucusus) and homilies of
+    399-404, Greek, PG 52
+  author: chrysostom
+  locus: the letter to Innocent (file line 17800 on) and the letters from exile
+  role: context
+  confidence: provisional
+  note: 'A deposed bishop''s appeal to Rome against an imperially enforced synod and exile:
+    the imperial-juridical world''s question stated by the man it was used against. Context,
+    not that world''s voice.
+
+    '
+  source_file: john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862.txt
 - row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-st-chrysostom-to-innocent-bishop-of-rome
   work: Letters of St. Chrysostom to Innocent, Bishop of Rome
   author: chrysostom
@@ -308,6 +357,28 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901--chalcedon-sessions-i-iii
+  work: Council of Chalcedon (451), sessions I-III, Latin and Greek, in Mansi tom. 6
+  author: council-of-chalcedon-451
+  locus: file line 784 (heading); Actio prima at 53711
+  role: tradition
+  confidence: provisional
+  note: Shared-Events Era 2 batch (Chalcedon 451). The council's own acts in the original
+    languages, following the npnf214 placement of Chalcedon in ijc. Leo's Tome and letters
+    of 449-451 are also in this volume (Tome noted at 91406). Long s rendered as f; Greek
+    column partly recovered.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901--chalcedon-sessions-v-onward
+  work: 'Council of Chalcedon (451), sessions V onward: Definition of Faith, canons, letters,
+    in Mansi tom. 7'
+  author: council-of-chalcedon-451
+  locus: Actio quinta at file line 9189; Definition at 10861; canons indexed at 238
+  role: tradition
+  confidence: provisional
+  note: Shared-Events Era 2 batch (Chalcedon 451). The Definition, canon 28 and the council's
+    letters to Leo and Marcian in Latin and Greek; following the npnf214 placement. Long s
+    rendered as f.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt
 - row_id: npnf214_seven-ecumenical-councils--the-council-of-chalcedon-451-extracts-from-the-acts
   work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
@@ -359,6 +430,25 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917--akten-449-imperial-juridical
+  work: Akten der ephesinischen Synode vom Jahre 449 (Flemming, 1917)
+  author: council-of-ephesus-449
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: The imperially convened council of 449 in its own record; context as for the Perry
+    row.
+  source_file: council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917.txt
+- row_id: council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881--ephesus-449-syriac-acts-imperial-juridical
+  work: The Second Synod of Ephesus (449), Syriac acts (Perry, 1881)
+  author: council-of-ephesus-449
+  locus: whole file; Perry's list of Flavian's appeals to Leo at file lines 843-865
+  role: context
+  confidence: provisional
+  note: 'The council the emperor Theodosius convened and Leo called a robbery, in its own
+    record, with the appeals that reached Rome: ijc''s central question (who judges a council)
+    in the documents. Context.'
+  source_file: council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt
 - row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-gangra
   work: The Canons of the Council of Gangra
   author: council-of-gangra
@@ -380,6 +470,36 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901--council-of-nicaea-325-in-mansi-tom-2
+  work: 'Council of Nicaea (325): creed, canons, synodal letter, Constantine''s letters and
+    the subscriptions, in Mansi tom. 2'
+  author: council-of-nicaea-325
+  locus: heading CONCILIUM NICAENUM GENERALE at file line 599; syllabus 'Symbolum Concilii'
+    and 'Canones xx. Niceni' at file lines 624-626
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. The whole-collection witness to the Nicene documents in
+    Greek and Latin with the editors'' dissertations; the volume also carries Ancyra, Neocaesarea,
+    Gangra, Antioch, Tyre 335, Jerusalem 335, Rome 341 and Antioch 341. Verify every quotation
+    against the page image (long s as f; Greek column recovery not checked line by line).
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901.txt
+- row_id: patrum-nicaenorum-nomina_subscription-lists-lat_gelzer-hilgenfeld-cuntz1898--nicene-subscription-lists-latin-recensions
+  work: 'Patrum Nicaenorum nomina: the Nicene subscription lists (Latin recensions legible;
+    the five non-Latin columns not recovered in this OCR)'
+  author: council-of-nicaea-325
+  locus: whole file; Latin lists from about file line 4780
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. The critical edition of who signed at Nicaea, a document
+    of the council''s membership and of how later churches transmitted it. Closes the Wants-
+    register item ''Nicaea subscription lists'' (cappadocian). Only the Latin recensions are
+    recovered in this OCR; the Greek, Coptic, Syriac, Arabic and Armenian lists need the page
+    images. Not a narrative source; a primary document for ''who came''.
+
+    '
+  source_file: patrum-nicaenorum-nomina_subscription-lists-lat_gelzer-hilgenfeld-cuntz1898.txt
 - row_id: npnf214_seven-ecumenical-councils--the-first-council-of-nicaea-325-creed-canons-synodal-letter
   work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
   author: council-of-nicaea-325
@@ -422,6 +542,45 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: cyril-alexandria_three-epistles-grc-eng_pusey1872--three-epistles-imperial-juridical
+  work: The Three Epistles of Cyril (Pusey, 1872)
+  author: cyril_alexandria
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'The documents a council received and later councils (Chalcedon) re-read as the standard
+    of faith: the material of ijc''s own conciliar process, from the Alexandrian party''s
+    hand. Context, following the hefele and mansi precedents.'
+  source_file: cyril-alexandria_three-epistles-grc-eng_pusey1872.txt
+- row_id: eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908--historia-ecclesiastica-vi-x-greek-with-rufinus-latin
+  work: Eusebius, Historia ecclesiastica Books VI-X and De martyribus Palaestinae, Greek with
+    Rufinus's Latin (GCS, Schwartz and Mommsen 1908)
+  author: eusebius
+  locus: Greek and Latin in parallel; Books VI-X
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Greek original behind the English of npnf201 for Books
+    VI-X (Origen and the Alexandrian school; the persecutions; the peace of the church). Primary
+    original-language witness; both scripts recovered.
+
+    '
+  source_file: eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt
+- row_id: eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902--vita-constantini-greek
+  work: Eusebius, Vita Constantini, Oratio ad sanctos and Laus Constantini, Greek (GCS, Heikel
+    1902)
+  author: eusebius
+  locus: whole file; Vita Constantini Book III (Nicaea) chapter headings from about file line
+    10475
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Greek original behind the English Life of Constantine
+    in npnf201_eusebius-church-history-life-of-constantine.xml, whose staging row carries
+    role tradition for this world; this follows it. The one eyewitness narrative of Nicaea,
+    written as imperial panegyric. Primary original-language witness; Greek recovered; verify
+    against the page image before quoting.
+
+    '
+  source_file: eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt
 - row_id: npnf204_athanasius--letter-of-eusebius-of-caesarea-to-his-flock-epistola-eusebii
   work: Letter of Eusebius of Caesarea to his flock (Epistola Eusebii)
   author: eusebius
@@ -475,6 +634,132 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- row_id: evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898--evagrius-grc-imperial-juridical
+  work: The Ecclesiastical History of Evagrius, Greek (Bidez and Parmentier, 1898)
+  author: evagrius-scholasticus
+  locus: Books I-II (431-451)
+  role: context
+  confidence: provisional
+  note: 'A Chalcedonian lawyer-historian of the late sixth century narrating Ephesus 431,
+    Ephesus 449 and Chalcedon from documents: near-contemporary at a century''s distance,
+    so context for ijc, not voice.'
+  source_file: evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt
+- row_id: gelasius-cyzicus_kirchengeschichte-historia-concilii-nicaeni-grc_loeschcke-heinemann1918--historia-ecclesiastica-on-the-council-of-nicaea
+  work: Gelasius of Cyzicus, Historia ecclesiastica (Syntagma on the Council of Nicaea), Greek
+    (GCS, 1918)
+  author: gelasius-cyzicus
+  locus: whole file; Greek text begins after the German introduction; the philosopher disputation
+    at about file line 4093; the Spyridon chapter at about file line 6243
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. A fifth-century (c. 475) Greek compilation on Nicaea,
+    reworking Eusebius, Socrates, Theodoret and lost sources, with elaborated council scenes
+    (the bishops'' disputation with a philosopher; speeches). Reception witness for how Nicaea
+    was remembered a century and a half later, never evidence of 325 itself. Primary original-language
+    text, Greek recovered in the OCR; verify against the page image before quoting.
+
+    '
+  source_file: gelasius-cyzicus_kirchengeschichte-historia-concilii-nicaeni-grc_loeschcke-heinemann1918.txt
+- row_id: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35--collectio-avellana-pars-i-imperial-and-papal-letters-latin
+  work: 'Collectio Avellana, pars I: epistulae I-CIV (CSEL 35), Latin'
+  author: gesta-inter-liberium-et-felicem
+  locus: whole file; the Gesta inter Liberium et Felicem from file line 5040; the Libellus
+    precum from about 5100; imperial and papal letters of 367 onward after 7443
+  role: tradition
+  confidence: provisional
+  note: 'A late-antique Roman collection of imperial rescripts and papal letters on church
+    order from 367 to the sixth century: the imperial-juridical world''s own paperwork in
+    the Latin original. The author slug names the collection''s first (anonymous) item, since
+    the collection has no author; the corpus-assignment thread may prefer a collection-level
+    slug. Cleanly recovered; ready to quote once verified against the scan.
+
+    '
+  source_file: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt
+- row_id: hefele_history-of-the-councils-v1-to-nicaea_clark1872--history-of-the-councils-vol-1
+  work: Hefele, A History of the Councils of the Church, vol. 1 (to Nicaea 325 (Arles 314
+    at section 15; Book II on Nicaea from file line 492)), English translation, 1872
+  author: hefele
+  locus: whole file; to Nicaea 325 (Arles 314 at section 15; Book II on Nicaea from file line
+    492)
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Nineteenth-century Roman Catholic scholarly reconstruction
+    of the pre-Nicene synods, Arles 314 and the Council of Nicaea, in Clark''s English series.
+    Secondary: a finding aid to the primary documents and a witness to nineteenth- century
+    reading of the councils, never evidence of the events. Same footing as the hefele-leclercq
+    French slices already in the map.
+
+    '
+  source_file: hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt
+- row_id: hefele_history-of-the-councils-v2-326-429_oxenham1876--history-of-the-councils-vol-2
+  work: Hefele, A History of the Councils of the Church, vol. 2 (326 to 429), English translation,
+    1876
+  author: hefele
+  locus: whole file; 326 to 429
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Nineteenth-century Roman Catholic scholarly reconstruction
+    of Tyre 335, Rome and Antioch 341, Sardica 343, Sirmium, Ariminum and Seleucia 359, Aquileia
+    and Constantinople 381, the Synod of the Oak 403 and the African councils to 429, in Clark''s
+    English series. Secondary: a finding aid to the primary documents and a witness to nineteenth-century
+    reading of the councils, never evidence of the events. Same footing as the hefele-leclercq
+    French slices already in the map.
+
+    '
+  source_file: hefele_history-of-the-councils-v2-326-429_oxenham1876.txt
+- row_id: hefele_history-of-the-councils-v3-431-451_clark1883--history-of-the-councils-vol-3
+  work: Hefele, A History of the Councils of the Church, vol. 3 (431 to 451 (Ephesus from
+    file line 439)), English translation, 1883
+  author: hefele
+  locus: whole file; 431 to 451 (Ephesus from file line 439)
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Nineteenth-century Roman Catholic scholarly reconstruction
+    of Ephesus 431, the reunion of 433, Eutyches, Ephesus 449 and Chalcedon 451, in Clark''s
+    English series. Secondary: a finding aid to the primary documents and a witness to nineteenth-century
+    reading of the councils, never evidence of the events. Same footing as the hefele-leclercq
+    French slices already in the map.
+
+    '
+  source_file: hefele_history-of-the-councils-v3-431-451_clark1883.txt
+- row_id: hefele_conciliengeschichte-bd1-deu_2e-aufl1873--conciliengeschichte-bd-1
+  work: Hefele, Conciliengeschichte, Bd. 1, 2nd ed. (German, 1873)
+  author: hefele
+  locus: whole file; to Nicaea
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. German original of the English vol. 1 (hefele_history-of-
+    the-councils-v1-to-nicaea_clark1872.txt). Secondary. Fraktur OCR of poor quality (s/f
+    confusion): second witness to the English, for checking its wording against the original.
+
+    '
+  source_file: hefele_conciliengeschichte-bd1-deu_2e-aufl1873.txt
+- row_id: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65--collectanea-antiariana-parisina-imperial-church-documents
+  work: 'Collectanea antiariana Parisina: letters of Liberius, of the synods of Sardica and
+    Ariminum, and to Constantius II, Latin'
+  author: hilary_poit
+  locus: Series A and B, file lines 1159-1208 (tables) and the texts that follow
+  role: context
+  confidence: provisional
+  note: 'The document trail of Constantius II''s management of the councils (Sardica, Sirmium,
+    Ariminum, Constantinople 360) and of a Roman bishop''s capitulation and recovery, told
+    from inside the losing Nicene party: the imperial-juridical world''s own question seen
+    by its sharpest Western opponent. Context, not the ijc world''s voice.
+
+    '
+  source_file: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt
+- row_id: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844--contra-constantium-and-the-council-dossier-imperial-church
+  work: Contra Constantium imperatorem and the council dossier (PL 10), Latin
+  author: hilary_poit
+  locus: Contra Constantium from file line 46205; the Fragmenta from 50120
+  role: context
+  confidence: provisional
+  note: 'A Western bishop''s open attack on a Christian emperor''s church policy, written
+    after Ariminum and Constantinople 360: the imperial-juridical world''s central question
+    put by a contemporary opponent. Context, not that world''s own voice.
+
+    '
+  source_file: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt
 - row_id: npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils-3
   work: De Synodis (On the Councils)
   author: hilary_poit
@@ -517,6 +802,18 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
+- row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-fourth-century-entries-latin
+  work: Chronici canones, the fourth-century entries (Constantine to 378), Latin
+  author: jerome
+  locus: file lines about 44800-46400
+  role: context
+  confidence: provisional
+  note: 'The oldest Western year-by-year record of the Constantinian and Valentinianic church,
+    written by a Nicene twenty years after Ariminum: dates and verdicts on the emperors''
+    councils, from outside the imperial-juridical establishment. Context.
+
+    '
+  source_file: jerome_eusebii-chronici-canones-lat_fotheringham1923.txt
 - row_id: julian_letter-to-the-athenians_wright1913--letter-to-the-athenians-letter-to-the-senate-and-people-of
   work: Letter to the Athenians (Letter to the Senate and People of Athens)
   author: julian
@@ -602,6 +899,59 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: lucifer-cagliari_opuscula-lat_hartel1886-csel14--opuscula-de-sancto-athanasio-de-non-conveniendo-moriendum-esse-latin
+  work: 'Opuscula: De non conveniendo cum haereticis; De regibus apostaticis; De sancto Athanasio
+    I-II; De non parcendo in Deum delinquentibus; Moriendum esse pro Dei Filio (CSEL 14),
+    Latin'
+  author: lucifer-of-cagliari
+  locus: De non conveniendo at file line 2628; De regibus apostaticis at 4039; De sancto Athanasio
+    I at 5463 and II at 9342; De non parcendo at 12300; Moriendum esse at 15818; Liberius's
+    letters to Lucifer at 17490
+  role: context
+  confidence: provisional
+  note: 'Pamphlets written in exile (355-361) against Constantius II after the synod of Milan
+    condemned Athanasius unheard: a contemporary opponent''s answer to the imperial-church
+    settlement, in the Latin original. Context for ijc (the view from outside its establishment),
+    not its voice. Cleanly recovered; ready to quote once verified against the scan. No public-domain
+    English exists.
+
+    '
+  source_file: lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt
+- row_id: marius-mercator_opera-omnia-lat_migne-pl48--mercator-imperial-juridical
+  work: Marius Mercator, Opera omnia, PL 48
+  author: marius-mercator
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'A layman''s dossier of the imperial capital''s doctrinal trials of 428-431, compiled
+    for Rome: the court-and-council process from a Latin bystander. Context.'
+  source_file: marius-mercator_opera-omnia-lat_migne-pl48.txt
+- row_id: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899--chronique-book-vii-on-the-fourth-century-councils-french
+  work: 'Chronique, Book VII: Nicaea, Tyre, Sardica, Sirmium, Seleucia, Milan and Rimini (Chabot''s
+    French)'
+  author: michael-the-syrian
+  locus: Nicaea chapter at file line 55601; Tyre and the hand of Arsenius at 57275; Sirmium
+    and Seleucia at 58036; Sardica at 58048 and 58056; Milan at 58136; Rimini at 58206 and
+    58212
+  role: context
+  confidence: provisional
+  note: 'Twelfth-century Syriac Orthodox memory of the Constantinian-dynasty councils, compiled
+    from Socrates, Theodoret and lost Syriac sources: how a later non- Chalcedonian tradition
+    remembered the imperial church''s councils. Context, and a reception witness only, never
+    evidence of the events.
+
+    '
+  source_file: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt
+- row_id: nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905--nestoriana-imperial-juridical
+  work: Nestoriana (Loofs, 1905)
+  author: nestorius
+  locus: whole file; letters to Theodosius and to the court
+  role: context
+  confidence: provisional
+  note: 'A deposed patriarch''s letters to emperor, pope and court on how a council should
+    be called and judged: ijc''s own question stated by the man the council condemned. Context,
+    not voice.'
+  source_file: nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-nicene-creed
   work: The Nicene Creed
   author: nicene-creed
@@ -683,6 +1033,55 @@ works:
 
     '
   source_file: philostorgius_ecclesiastical-history_walford1855.txt
+- row_id: eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908--rufinus-historia-ecclesiastica-x-xi-latin
+  work: Rufinus of Aquileia, Historia ecclesiastica Books X-XI (his own Latin continuation,
+    402-403)
+  author: rufinus
+  locus: after the Eusebian books; 'De Pafnutio confessore' at file line 26386; 'Fuit praeterea
+    in illo concilio et Pafnutius' at file line 26727
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Rufinus''s own Latin narrative of the fourth-century church,
+    the earliest Latin account of Nicaea and the first written source for the Paphnutius scene
+    and the confessor who converts a philosopher. Role tradition for aquileian- christianity
+    because it is Rufinus''s own voice (his Apology rows in npnf203 carry the same role);
+    context for ijc. No public-domain English translation of Books X-XI is vendored. Primary
+    original-language witness; Latin recovered.
+
+    '
+  source_file: eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt
+- row_id: socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853--historia-ecclesiastica-greek-tomus-1
+  work: Socrates Scholasticus, Historia ecclesiastica, Greek text with Latin version, Hussey
+    1853, tomus 1
+  author: socrates
+  locus: Books I-IV; Book I carries Nicaea (Paphnutius at file lines 6225 and 9952)
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Greek original behind the English of npnf202_socrates-
+    sozomen-ecclesiastical-histories.xml. Book I (Nicaea, the Arian dispute, Constantine),
+    Books II-IV (Constantius, Julian, Valens). Socrates records Novatian traditions sympathetically,
+    which is why novatianism is listed; that is a context placement, not the movement''s own
+    voice. Near-contemporary Constantinopolitan narrative (c. 440), not eyewitness. Primary
+    original-language witness; Greek and Latin both recovered in the OCR; verify against the
+    page image before quoting.
+
+    '
+  source_file: socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt
+- row_id: socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853--historia-ecclesiastica-greek-tomus-2
+  work: Socrates Scholasticus, Historia ecclesiastica, Greek text with Latin version, Hussey
+    1853, tomus 2
+  author: socrates
+  locus: Books V-VII; Book VI the Synod of the Oak, Book VII Nestorius and Ephesus 431
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Greek original behind the English of npnf202_socrates-
+    sozomen-ecclesiastical-histories.xml. Books V-VII (Theodosius I to 439: Constantinople
+    381, the Oak 403, Nestorius and Ephesus 431). Near-contemporary Constantinopolitan narrative
+    (c. 440), not eyewitness. Primary original-language witness; Greek and Latin both recovered
+    in the OCR; verify against the page image before quoting.
+
+    '
+  source_file: socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt
 - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus
   work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
@@ -697,6 +1096,19 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- row_id: sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860--ecclesiastical-history-books-v-ix-greek-3
+  work: Ecclesiastical History, Books V-IX, Greek (Hussey 1860, tomus II)
+  author: sozomen
+  locus: 'Books VII-VIII: Theodosius''s laws and councils, the emperor''s part in 381 and
+    in the deposition of John'
+  role: context
+  confidence: provisional
+  note: 'Sozomen dedicates the work to Theodosius II and narrates the emperors'' dealings
+    with bishops and councils throughout. Context for the imperial-juridical world, in Greek;
+    the English is already assigned from npnf202.
+
+    '
+  source_file: sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860.txt
 - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen
   work: The Ecclesiastical History of Sozomen
   author: sozomen
@@ -709,6 +1121,18 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- row_id: sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1--chronica-book-ii-on-the-arian-crisis-latin
+  work: Chronica, book II, on the councils of 355-360, Latin
+  author: sulpiciusseverus
+  locus: file lines 5388-5664
+  role: context
+  confidence: provisional
+  note: 'A near-contemporary Western narrative of Constantius II''s councils and their coercion,
+    one generation after the events: the imperial-juridical world seen from the Gallic side.
+    Context, not its voice.
+
+    '
+  source_file: sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt
 - row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica
   work: The Sacred History (Chronica)
   author: sulpiciusseverus
@@ -762,6 +1186,15 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901--synodicon-imperial-juridical
+  work: Synodicon adversus tragoediam Irenaei and the 431-441 documents, in Mansi tom. 5
+  author: synodicon-adversus-tragoediam-irenaei
+  locus: whole volume (431-441, span at file line 85); the Synodicon from 72980
+  role: context
+  confidence: provisional
+  note: 'How the court, the counts and the bishops handled a divided council and its aftermath,
+    in the documents: ijc''s own question, here largely in the losing party''s papers. Context.'
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-2
   work: The Ecclesiastical History of Theodoret
   author: theodoret
@@ -812,3 +1245,20 @@ works:
 
     '
   source_file: codex-theodosianus_latinlibrary.txt
+- row_id: theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903--histoire-de-dioscore-imperial-juridical
+  work: Theopistus, History of Dioscorus (Nau, 1903)
+  author: theopistus
+  locus: the article from file line 162
+  role: context
+  confidence: provisional
+  note: Marcian, Pulcheria and the council seen from the deposed patriarch's exile, as later
+    Egyptian memory told it. Context.
+  source_file: theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt
+- row_id: timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908--timothy-aelurus-refutation-imperial-juridical
+  work: Timothy Aelurus, Refutation of Chalcedon, Armenian text (1908)
+  author: timothy-aelurus
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: The council that closes ijc's era refuted by its chief contemporary opponent. Context.
+  source_file: timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908.txt

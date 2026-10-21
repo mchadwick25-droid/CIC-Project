@@ -24,6 +24,15 @@ from typing import Callable
 
 from anthropic import APIError, APITimeoutError
 
+try:
+    import httpx2 as _http
+except ImportError:
+    import httpx as _http
+
+# A connection that closes while a reply is streaming raises the HTTP
+# library's own transport error, which the SDK does not wrap in APIError.
+_TRANSPORT_ERRORS = (_http.TransportError,)
+
 from engine.m4.voice_request import build_voice_request
 from engine.m5.failure import CallOutcome
 
@@ -108,6 +117,8 @@ def _stream(
         return CallOutcome(status="timeout")
     except APIError as e:
         return CallOutcome(status="error", value={"error": str(e)})
+    except _TRANSPORT_ERRORS as e:
+        return CallOutcome(status="error", value={"error": f"connection dropped while streaming: {e}"})
 
     full_text = "".join(chunks)
     return CallOutcome(status="ok", value=StreamResult(text=full_text, empty=(full_text.strip() == "")), raw_usage=final_usage)

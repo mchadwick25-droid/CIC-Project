@@ -10,7 +10,7 @@ const worldSummary = {
   census_id: 'donatism',
   display_name: 'Donatism',
   card_name: 'Donatist Africa',
-  representative: { name: 'Fidelis', role_label: 'Reader' },
+  representative: { name: 'Fidelis' },
   time_window: { start: 311, end: 411 },
   place: 'Carthage',
   thinness_statement: '',
@@ -67,19 +67,19 @@ afterEach(() => {
 describe('framed in talk.html', () => {
   it('says the conversation has started once there is a question', async () => {
     const { container, post } = await renderFramed([door, { speaker: 'participant', text: 'Who are you?' }]);
-    await waitFor(() => expect(container.querySelector('.conversation__who')).not.toBeNull());
+    await waitFor(() => expect(container.querySelector('.turn--participant')).not.toBeNull());
     expect(startedMessages(post).slice(-1)[0]).toEqual({ type: 'cic:started', started: true });
   });
 
   it('marks the page as framed, so the first-screen bar drops the site\'s duplicates', async () => {
     const { container } = await renderFramed([door]);
-    await waitFor(() => expect(container.querySelector('.arrival')).not.toBeNull());
+    await waitFor(() => expect(container.querySelector('.conv-card')).not.toBeNull());
     expect(document.documentElement.classList.contains('is-framed')).toBe(true);
   });
 
   it('says it has not started while only the welcome is there', async () => {
     const { container, post } = await renderFramed([door]);
-    await waitFor(() => expect(container.querySelector('.arrival')).not.toBeNull());
+    await waitFor(() => expect(container.querySelector('.conv-card')).not.toBeNull());
     expect(startedMessages(post).slice(-1)[0]).toEqual({ type: 'cic:started', started: false });
   });
 });

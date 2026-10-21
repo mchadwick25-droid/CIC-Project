@@ -1,0 +1,16 @@
+source_file: hefele_conciliengeschichte-bd1-deu_2e-aufl1873.txt
+
+assignments:
+  - row_id: hefele_conciliengeschichte-bd1-deu_2e-aufl1873--conciliengeschichte-bd-1
+    work: "Hefele, Conciliengeschichte, Bd. 1, 2nd ed. (German, 1873)"
+    author: hefele
+    locus: "whole file; to Nicaea"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. German original of the English vol. 1 (hefele_history-of-
+      the-councils-v1-to-nicaea_clark1872.txt). Secondary. Fraktur OCR of poor quality (s/f
+      confusion): second witness to the English, for checking its wording against the
+      original.

@@ -53,6 +53,7 @@ text: >-
   lasted. When his own funeral oration recalled it years later, it was named
   as proof of the kind of bishop we already knew he would be, before
   he ever held the office.
+telling: "The harvest failed. Drought had struck Caesarea and the country around it in the years before Basil became bishop, and grain grew scarce and dear.\n\nThose with full storehouses held their grain back, waiting for the price to climb higher before they would sell.\n\nBasil, a priest then, preached against them and did not soften the charge. To hoard a neighbor's bread while that neighbor starves is theft, he taught, whatever the law calls it. He pointed to the man in the Gospel parable who tore down his barns to build bigger ones. That man learned the lesson too late.\n\nBasil preached against lending at interest for the same reason. To profit from another person's desperate need was the same kind of wrong.\n\nThen the granaries opened. Relief was organized for the hungry, paid for and handed out for as long as the crisis lasted."
 absent_detail: "The homilies' own exact wording is not verified against a checked edition, so no phrase from them is quoted here. No account survives from any one household actually fed during the famine - only the preacher's own record of the preaching and its effect."
 modern_contrast: >-
   A modern reader might picture organized disaster relief - a charity with a

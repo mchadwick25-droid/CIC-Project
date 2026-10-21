@@ -126,6 +126,7 @@ text: >-
   effort from it in return. He also says that all three stages of the good (the desire, the power to
   do it, and holding on to it) are God's gift, yet none of them takes away free will. How both are
   true, he says, the human mind cannot fully grasp.
+telling: "Cassian wrote this down years later, in Gaul. He and his friend Germanus had spent an evening hearing an old man named Chaeremon teach on chastity, at his cell near Panephysis in Egypt. One sentence troubled Germanus. The old man had said that even striving with all one's might cannot make a person master of the good. That must be received as a gift.\n\nThey slept a little and came back for morning prayer, still whispering about it. Chaeremon noticed, cut the service short and asked what was wrong.\n\nGermanus said that chastity is won by long, hard toil. The credit should go mainly to the one who does the work, as a farmer earns his harvest. Chaeremon answered that no farmer can claim his harvest by his labor alone, because he needs rain he cannot control. Yet God gives no rich crop to a farmer who never plows. In the same way, the wish to do good and the chance to do it both come first from God. Our part, he said, is to follow day by day the grace that draws us on.\n\nLater in the same Conference, Chaeremon says that grace works together with our will, and sometimes waits for some effort from it. Elsewhere he says that wanting the good, doing it and holding on to it are all God's gifts. Yet none of them takes away free will, and how both are true, he says, the human mind cannot fully grasp."
 absent_detail: >-
   What the old man actually said about chastity the night before - Conference XII - is not in the
   vendored edition, which marks it "Not translated," so the scruple's occasion is known only from this
@@ -149,12 +150,3 @@ use_note:
   years: {from: 426, to: 426}
   status: reviewed
 ---
-"Chaeremon" is spelled without the ligature for plain ASCII; the vendored volume prints the ae ligature.
-Germanus here is Cassian's own companion, never Germanus of Auxerre.
-
-The narrative's verbatim wording is carried in four quote records, each independently verified
-against the vendored npnf211 file: gallic.quote.germanus-troubled-after-the-nights-teaching
-(Conference XIII.1), gallic.quote.germanus-and-chaeremon-on-the-husbandman (Conference XIII.2-3),
-gallic.quote.chaeremon-grace-requires-our-effort (Conference XIII.13), and
-gallic.quote.chaeremon-three-stages-of-grace (Conference XIII.18) - two separate teachings from two
-non-adjacent chapters of the same Conference, each carried as its own record rather than joined.

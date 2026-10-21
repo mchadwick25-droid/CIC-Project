@@ -466,6 +466,21 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898--syriac-nicene-dossier-german
+  work: 'De sancta Nicaena synodo: the Syriac texts on the Council of Nicaea attributed to
+    Marutha of Maipherqat, German translation'
+  author: maruta-of-maipherqat
+  locus: whole file; the creed at file line 1086; Braun's introduction on Marutha's embassies
+    and the synod of 410 at 531 to 598
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). Marutha was a Syriac-speaking bishop of the
+    Roman side (Maipherqat, Sophanene); the dossier is Syriac memory of Nicaea in a Mesopotamian
+    voice. Placed here as the nearest entry to Marutha''s own milieu; a project-lead call,
+    named not decided.
+
+    '
+  source_file: maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt
 - row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--moses-of-chorene-history-of-armenia-extract
   work: 'Moses of Chorene: History of Armenia (extract)'
   author: moses-of-chorene

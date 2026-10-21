@@ -17,190 +17,164 @@ export:
 skim:
   tile:
     text: >-
-      Between about 325 and 394 CE, Christians in Cappadocia and Pontus
-      fought two contests at once. One was public. Emperors kept
-      switching which creed they favored. This world's own bishops were
+      Between about 325 and 394 CE, Christians in Cappadocia and
+      Pontus fought two contests at once. One was public. Emperors
+      kept switching which creed they favored. Their bishops were
       threatened and exiled. In 381, they were finally vindicated. The
-      other contest was interior. How far can worship's own words go in
-      naming who the Holy Spirit really is? One family and one
+      other contest was interior. It asked how far the words of
+      worship could go in naming the Holy Spirit. One family and one
       friendship carried most of the argument. Basil of Caesarea, his
-      brother Gregory of Nyssa, their sister Macrina, and Basil's friend
-      Gregory of Nazianzus wrote and preached the answer. They defended
-      one claim: the Son and the Spirit are fully what the Father is.
-      The same exactness reordered how this world treated the poor. A
-      famine came. Basil named hoarding landowners from the pulpit. He
-      later built a poorhouse outside his own city's walls. No woman's
-      own words survive on their own. Did the three teachers ever agree
-      on one settled scheme? That is itself an open question today.
+      brother Gregory of Nyssa, their sister Macrina, and Basil's
+      friend Gregory of Nazianzus wrote and preached the answer. They
+      held that the Son and the Spirit are fully what the Father is.
+      The same exactness reordered how these churches treated the
+      poor. When famine came, Basil, then a priest, preached against
+      landowners who hoarded grain. He later built a poorhouse outside
+      his own city's walls. No woman's own words survive. Whether the
+      three teachers ever agreed on one settled scheme is still
+      debated.
     grounded_in: [cappadocian.core.cappadocian]
 orientation:
   story:
   - text: >-
-      This world's own record runs from about 325 to 394 CE. It covers
-      Cappadocia and nearby Pontus. It once called itself the peace
-      after the last martyrs. That description was wrong. Eupsychius, a
-      Christian of Caesarea, was executed under the emperor Julian, in
-      362. That falls well inside this world's own lifetime. One family
-      carried most of what survives. So did one circle of student
-      friends. The family: Basil of Caesarea, his sister Macrina, and
-      his younger brother Gregory of Nyssa. The friend: Gregory of
-      Nazianzus, Basil's own friend from student days.
-    grounded_in: [cappadocian.core.cappadocian, cappadocian.figure.eupsychius]
+      From about 325 to 394, churches in Cappadocia and Pontus held to
+      the faith of the Council of Nicaea. Nearly everything that
+      survives from them was written by three men. Two were brothers,
+      Basil of Caesarea and Gregory of Nyssa. The third, Gregory of
+      Nazianzus, was Basil's friend from student days.
+    grounded_in: [cappadocian.core.cappadocian, cappadocian.dw.catholic-and-its-rivals, cappadocian.limit.whose-voice-we-lack, cappadocian.figure.basil, cappadocian.figure.gregory-of-nyssa, cappadocian.figure.gregory-of-nazianzus]
   - text: >-
-      At the center of this world's life stood one confession. The Son
-      and the Holy Spirit are fully what the Father is, not merely
-      similar to him. Basil defended it under real pressure. At evening
-      prayer, he began giving glory to the Father together with the
-      Son, together with the Holy Spirit. Some worshippers objected.
-      That one small word, they said, claimed too much for the Spirit.
-      Basil wrote a whole book in answer. But inside that book, he chose
-      his own words carefully. He never once, in his own surviving
-      voice, plainly called the Spirit God outright. His own allies
-      argued about that at the time. Was his reserve wisdom, or was it a
-      kind of failure? The confession still held. Years later, bishops
-      gathered again. They wrote the creed the way this world had
-      already been singing it.
-    grounded_in: [cappadocian.gravity.triune-confession, cappadocian.gravity.precision-reserve, cappadocian.story.doxology-stand]
+      These churches held that the Son is fully what the Father is, and
+      that the Holy Spirit is no lesser presence trailing behind them.
+      Two Greek words carried the idea. Ousia meant what God is, one
+      being. Hypostasis meant who God is. Father, Son and Holy Spirit
+      were each a real someone, none a costume and none a creature.
+      Their word for reverence, eusebeia, covered exact words about God.
+      It also covered right living, with money and power included.
+    grounded_in: [cappadocian.dw.was-jesus-god, cappadocian.dw.holy-spirit-honored, cappadocian.term.ousia-hypostasis, cappadocian.term.eusebeia]
   - text: >-
-      The same exactness reordered ordinary life. Basil organized
-      ascetic brotherhoods around a written rule. Prayer had fixed
-      hours. Manual labor was its own discipline. Goods were held in
-      common. A guest-door fed any traveler the same food the house
-      itself ate. Members obeyed a leader. This was not for hierarchy's
-      own sake. The rule argued that obedience itself teaches a humility
-      no one learns alone. Members brought real, ordinary questions to
-      that leader. How far should hospitality stretch? Could a brother
-      fast beyond the house's own measure? The rule was legislation for
-      a live, arguing community. It was not a settled ideal handed down
-      from on high.
-    grounded_in: [cappadocian.gravity.ascetic-reordering, cappadocian.story.brotherhood-day]
+      About 368, drought struck Caesarea and its countryside. Landowners
+      with full storehouses held back their grain and waited for higher
+      prices. Basil, then a priest, preached against them. He charged
+      that to hoard a neighbor's bread while the neighbor starves is
+      theft, whatever the law calls it. Granaries opened, and relief was
+      organized for as long as the crisis lasted.
+    grounded_in: [cappadocian.story.famine-open-barns, cappadocian.force.famine-crisis, cappadocian.figure.basil]
   - text: >-
-      That ordering answered something wilder. Before Basil built his
-      own brotherhoods, a wilder ascetic movement was already loose in
-      the region. It was tied in part to Eustathius of Sebaste. He was
-      once Basil's own mentor and friend. A council at Gangra named this
-      circle and censured it. Marriages were broken up. Enslaved people
-      were urged to leave their households. Fasts were kept against the
-      church's own feast days. Basil did not condemn the impulse itself.
-      Instead, he gave it a rule, an obedience, and an open door.
-      Eustathius left no writing of his own. His side of the story
-      cannot be recovered. Neither can his later break with Basil, over
-      the Spirit's own honor. Only the wound survives, in Basil's own
-      words.
-    grounded_in: [cappadocian.gravity.renunciation-order, cappadocian.figure.eustathius, cappadocian.contested.eustathian-radicals]
+      Basil became bishop of Caesarea in 370. Later he built a poorhouse
+      outside the city walls. It held a guest-house, an infirmary and a
+      house for people with leprosy, and ascetics served there as
+      nurses. Gregory of Nazianzus called it the new city.
+    grounded_in: [cappadocian.figure.basil, cappadocian.term.basileias, cappadocian.story.poorhouse-famine-month, cappadocian.gravity.bishop-patron]
   - text: >-
-      Basil was already a public patron before he ever became bishop. In
-      368, drought struck Caesarea's own countryside. Grain grew scarce.
-      Landowners with full storehouses held their grain back. They were
-      waiting for a higher price. Basil, then only a priest, preached
-      against them. He did not soften the charge: to hoard a neighbor's
-      bread while the neighbor starves is theft, whatever the law calls
-      it. The preaching did not stay preaching. Granaries opened. Relief
-      was organized for as long as the crisis lasted. Once he became
-      bishop, he built a permanent complex outside the city walls. His
-      own ascetics staffed it. He negotiated for it directly with
-      hostile governors. His friend Gregory of Nazianzus called it
-      simply the new city. A later, admiring nickname, "the Basileias,"
-      is not this world's own period phrase. And this world's own record
-      does not claim the complex was the first such institution
-      anywhere.
-    grounded_in: [cappadocian.gravity.bishop-patron, cappadocian.story.famine-open-barns, cappadocian.story.poorhouse-famine-month, cappadocian.term.basileias]
+      For most of this period the court backed a rival creed. It held
+      the Son to be merely like the Father. In 371 or 372 the emperor
+      Valens sent his prefect Modestus to bring Basil into line. As
+      Basil's friend Gregory told it, Modestus threatened him with
+      confiscation, exile, torture and death. Basil is remembered
+      answering that a man who owns nothing has nothing to confiscate.
+    grounded_in: [cappadocian.dw.catholic-and-its-rivals, cappadocian.gravity.contested-church, cappadocian.story.valens-caesarea, cappadocian.figure.valens, cappadocian.figure.modestus]
   - text: >-
-      Leadership in this world rose out of converted households. One
-      household did more than any other. Macrina, the eldest of the
-      family, turned the family estate at Annisa into a community of
-      ascetic women. In 379, her brother Gregory of Nyssa found her
-      dying there. She lay not on a bed but on planks set on the
-      ground. Their last conversation became a philosophical dialogue.
-      He wrote it afterward, in her voice. He was genuinely present, and
-      genuinely grieving - he says so plainly. But how much of the
-      argument he gives her is really hers? That is not settled. It may
-      be his own composition, staged at her deathbed. No line of
-      Macrina's own survives outside her brother's telling.
-    grounded_in: [cappadocian.gravity.household-lineage, cappadocian.story.macrina-deathbed, cappadocian.figure.macrina]
+      One flashpoint in the fight over the Holy Spirit was a prayer.
+      About 375, Basil prayed with his people and gave glory to the
+      Father in two forms. One was with the Son, together with the Holy
+      Spirit, and the other was through the Son, in the Holy Spirit.
+      Basil reports that some who heard him called his words new and
+      contradictory. To glorify the Spirit together with the Father and
+      the Son placed the Spirit on the Creator's side of the line.
+    grounded_in: [cappadocian.story.doxology-stand, cappadocian.quote.basil-on-the-doxology-challenge, cappadocian.term.doxologia]
   - text: >-
-      Basil and Gregory of Nazianzus met as students, most likely at
-      Athens. Gregory later called what grew between them one soul
-      lodged in two bodies. They treated their classical education the
-      way a bee treats a flower: taking only what would make honey. They
-      trained their pagan learning for a Christian purpose. That use of
-      Greek learning was contested from two directions. The emperor
-      Julian was once schooled in Cappadocia himself. Later, he ruled
-      that Christian teachers must either believe the old myths they
-      taught, or stop teaching them at all. This struck directly at the
-      education this world's own leaders had built their lives on. From
-      inside, plainer voices asked a different question. Did fishermen
-      ever need philosophy to know God? This is one of the rare disputes
-      where both sides survive in their own words: Julian's own edict,
-      and Gregory of Nazianzus's furious reply after Julian's death.
-    grounded_in: [cappadocian.gravity.paideia-converted, cappadocian.gravity.athens-fishermen, cappadocian.story.athens-friendship, cappadocian.story.julian-schools]
+      Amphilochius of Iconium, a younger bishop and friend, asked Basil
+      to answer in writing, and the answer became a book, On the Holy
+      Spirit. Basil argued that the words of worship carry what the
+      church believes. In his own writings, though, he never plainly
+      called the Spirit God. His allies argued about this at the time,
+      with some wanting the plain word and others defending his
+      restraint.
+    grounded_in: [cappadocian.story.doxology-stand, cappadocian.figure.amphilochius, cappadocian.gravity.precision-reserve, cappadocian.dw.holy-spirit-honored, cappadocian.term.doxologia]
   - text: >-
-      This world kept its martyrs close. Around 320, forty Roman
-      soldiers at Sebaste were condemned for their faith. They were left
-      exposed all night on a frozen lake. A warm bath waited on the
-      shore, for anyone who would deny Christ and step off the ice.
-      Tradition says one man broke. The guard watching over them took
-      his place, so the number stayed forty. This was fresh memory for
-      this world, not a story from a distant past - it fell within their
-      own grandparents' generation. Basil's and Macrina's own mother,
-      Emmelia, is credited with gathering relics of the Forty. She built
-      the family's own chapel around them. This world buried a martyr
-      from inside its own lifetime too. Eupsychius of Caesarea was
-      executed under Julian in 362. He is remembered every year at an
-      annual feast. No sermon about him has survived - only the feast
-      itself.
-    grounded_in: [cappadocian.gravity.martyrs-land, cappadocian.story.forty-sebaste, cappadocian.figure.eupsychius]
+      Macrina was the family's eldest child, and her circle called her
+      the Teacher. She led a community of ascetic women on the family
+      estate at Annisa. In 379 her brother Gregory of Nyssa found her
+      dying. He later shaped their last talk into a dialogue on the soul
+      and the resurrection. Scholars disagree on how much of it is hers.
+    grounded_in: [cappadocian.figure.macrina, cappadocian.story.macrina-deathbed, cappadocian.gravity.household-lineage]
   - text: >-
-      For most of this world's span, the imperial court was hostile.
-      Under Valens, a prefect named Modestus threatened Basil. He named
-      the threats plainly: seized property, exile, torture, death. Basil
-      answered him just as plainly. A man who owns nothing has nothing
-      left to take, he said. Gregory of Nyssa was Basil's own younger
-      brother. Under the same hostile court, he was removed from his
-      post. The charge was money mismanagement. His own family called
-      the charge invented. He spent roughly two years in exile. He came
-      home only once the political pressure eased.
-    grounded_in: [cappadocian.gravity.contested-church, cappadocian.story.valens-caesarea, cappadocian.story.nyssa-exile]
+      Gregory of Nazianzus carried the argument to Constantinople. In
+      379 he came to lead the small Nicene church there. A rival church,
+      long favored by the court, still held the city's great churches.
+      So his people met in a private house he named Anastasia, which
+      means resurrection. There he preached the five Theological
+      Orations. By his own account, a mob attacked the gathering one
+      Easter.
+    grounded_in: [cappadocian.story.gregory-constantinople, cappadocian.figure.gregory-of-nazianzus]
   - text: >-
-      The cost fell on friendship too. In 372, Basil made his own
-      closest friend a bishop. The posting was Sasima, a small, dusty
-      crossroads. Basil did this to secure his own authority in a local
-      dispute. His friend, Gregory of Nazianzus, felt betrayed. He never
-      fully forgave him for it. Still, the friendship survived, in a
-      damaged form. Years later, Gregory of Nazianzus carried the same
-      argument into a hostile capital, Constantinople. He preached there
-      from a rented house, to a small, embattled congregation. Once the
-      argument was finally won, he was given the bishopric himself.
-      Almost at once, worn out by the whole fight, he resigned it.
-    grounded_in: [cappadocian.gravity.hesychia-summons, cappadocian.story.sasima-wound, cappadocian.story.gregory-constantinople]
+      The tide turned under a new emperor, Theodosius, who favored the
+      Nicene faith. In 381 the Council of Constantinople met. Gregory of
+      Nazianzus was made bishop of the city and given the council's
+      presiding chair, but he did not hold it long. He resigned before
+      the work was done. By his own telling, his election was disputed
+      and he was worn out.
+    grounded_in: [cappadocian.force.theodosian-settlement, cappadocian.story.gregory-constantinople]
   - text: >-
-      In 381, the political weather finally turned, for good. The
-      emperor Theodosius established the Nicene faith by law. The
-      Council of Constantinople confirmed the confession this world had
-      fought two generations to hold. This world's own record puts the
-      change plainly. The word held through the winters became the law
-      of the nations. Those who had held it found the victory strange.
-      Even the letter most often cited as proof of agreement is itself
-      disputed today. Did Basil write it, or did Gregory of Nyssa?
-      Modern scholars disagree. So even this world's own agreement with
-      itself may be less settled than it looks.
-    grounded_in: [cappadocian.force.theodosian-settlement, cappadocian.contested.settlement-historiography]
+      The council ratified the faith of Nicaea. Its creed says the Holy
+      Spirit is worshipped and glorified together with the Father and
+      the Son. The bishops wrote the faith the way these churches had
+      already been singing it. Eastern Orthodox churches still confess
+      this creed. Roman Catholics honor Basil and Gregory of Nazianzus
+      as teachers of the whole church.
+    grounded_in: [cappadocian.dw.holy-spirit-honored, cappadocian.term.doxologia, cappadocian.story.doxology-stand, cappadocian.core.cappadocian]
   documented_stories:
+  - story_id: cappadocian.story.forty-sebaste
+    title: "Forty Soldiers on a Frozen Lake"
+    when: "About 320, in one of the last persecutions"
+    teaser: "Tradition tells of forty soldiers at Sebaste made to stand all night on a frozen lake. A warm bath waits on the shore for anyone who gives up the faith. One man breaks, and a guard takes his place."
+    grounded_in: [cappadocian.story.forty-sebaste, cappadocian.figure.forty-of-sebaste, cappadocian.figure.emmelia]
+  - story_id: cappadocian.story.athens-friendship
+    title: "One Soul in Two Bodies"
+    when: "Their school years, most likely at Athens. Gregory tells it after Basil dies."
+    teaser: "Two students, most likely at Athens, share lodging, books and a single aim. Gregory later calls their friendship one soul in two bodies."
+    grounded_in: [cappadocian.story.athens-friendship, cappadocian.figure.basil, cappadocian.figure.gregory-of-nazianzus]
+  - story_id: cappadocian.story.julian-schools
+    title: "An Emperor Bars Christians From Teaching the Classics"
+    when: "361 to 363, while Julian is emperor"
+    teaser: "Julian rules that Christian teachers must believe in the gods of Homer or stop teaching Homer. Julian dies in 363. Gregory of Nazianzus then writes two angry speeches against him."
+    grounded_in: [cappadocian.story.julian-schools, cappadocian.figure.julian, cappadocian.figure.gregory-of-nazianzus]
   - story_id: cappadocian.story.famine-open-barns
     title: "Basil Preaches Against the Grain-Hoarders"
-    when: "368/9, a regional drought and famine, before Basil's own episcopate"
-    teaser: "A young priest tells the men holding back grain in a famine that hoarding a neighbor's bread is theft, whatever the law calls it."
+    when: "About 368 or 369, before Basil becomes bishop"
+    teaser: "In a drought, Basil, then a priest, tells landowners that to hoard a neighbor's bread is theft, whatever the law calls it. Granaries open."
     grounded_in: [cappadocian.story.famine-open-barns, cappadocian.figure.basil]
-  - story_id: cappadocian.story.macrina-deathbed
-    title: "Macrina Teaches Her Brother From the Floor Where She Is Dying"
-    when: "379, Macrina's death, per her brother's own account"
-    teaser: "Gregory of Nyssa finds his sister dying on bare planks, and their last conversation becomes a book on the soul and the resurrection."
-    grounded_in: [cappadocian.story.macrina-deathbed, cappadocian.figure.macrina, cappadocian.figure.gregory-of-nyssa]
+  - story_id: cappadocian.story.valens-caesarea
+    title: "A Prefect Threatens a Bishop"
+    when: "371 or 372, under the emperor Valens"
+    teaser: "In Gregory's telling, the prefect Modestus threatens Basil with the loss of his goods, with exile, torture and death. Basil answers, he says, that a man who owns nothing has nothing to take."
+    grounded_in: [cappadocian.story.valens-caesarea, cappadocian.figure.valens, cappadocian.figure.modestus, cappadocian.figure.basil]
   - story_id: cappadocian.story.sasima-wound
-    title: "Basil Makes His Own Best Friend a Bishop of a Dusty Crossroads"
-    when: "372, after Cappadocia was divided into two provinces"
-    teaser: "To win a jurisdictional fight, Basil consecrates his closest friend to a posting with no water and no people of its own. Gregory never fully forgives him."
+    title: "Basil Makes His Close Friend a Bishop of a Dusty Crossroads"
+    when: "372, after Cappadocia is divided into two provinces"
+    teaser: "In a fight with a rival bishop, Basil makes his close friend Gregory bishop of Sasima, a dusty crossroads. In Gregory's telling, it is a wound that stays with the friendship."
     grounded_in: [cappadocian.story.sasima-wound, cappadocian.figure.basil, cappadocian.figure.gregory-of-nazianzus]
+  - story_id: cappadocian.story.doxology-stand
+    title: "A Prayer That Brought Charges of New Words"
+    when: "About 375, under the emperor Valens"
+    teaser: "Praying with his people, Basil gives glory to the Father in two forms. Basil reports that some who hear him call his words new and contradictory. His answer becomes the book On the Holy Spirit."
+    grounded_in: [cappadocian.story.doxology-stand, cappadocian.figure.basil, cappadocian.figure.amphilochius]
+  - story_id: cappadocian.story.nyssa-exile
+    title: "A Bishop Deposed on Money Charges"
+    when: "About 376 to 378, under Valens"
+    teaser: "Gregory of Nyssa is removed from his post on charges of mismanaging money. He spends about two years in exile. Basil calls the charges trumped up."
+    grounded_in: [cappadocian.story.nyssa-exile, cappadocian.figure.gregory-of-nyssa, cappadocian.figure.valens]
+  - story_id: cappadocian.story.macrina-deathbed
+    title: "Macrina Teaches Her Brother From the Ground Where She Is Dying"
+    when: "379, Macrina's death, per her brother's own account"
+    teaser: "Gregory of Nyssa finds his sister Macrina dying on a plank set on the ground. He later shapes their last talk into a dialogue on the soul and the resurrection."
+    grounded_in: [cappadocian.story.macrina-deathbed, cappadocian.figure.macrina, cappadocian.figure.gregory-of-nyssa]
+  - story_id: cappadocian.story.gregory-constantinople
+    title: "A House Called Resurrection in a Hostile Capital"
+    when: "379 to 381"
+    teaser: "Gregory of Nazianzus leads a small Nicene church from a private house he calls Anastasia, which means resurrection. In 381 he is made bishop of the city but resigns before the council ends."
+    grounded_in: [cappadocian.story.gregory-constantinople, cappadocian.figure.gregory-of-nazianzus]
   voices:
   - figure: cappadocian.figure.basil
     text: >-
@@ -321,6 +295,115 @@ orientation:
     note: "The most interior voice in this world's own record, including the funeral oration for Basil that also, unmistakably, still carries an old wound."
   - source: cappadocian.source.gregory-nyssa-life-of-macrina
     note: "The only extended portrait of this world's most celebrated woman - entirely her brother's own literary composition, written after her death."
+  highlights:
+  - phrase: "Cappadocia"
+    kind: place
+    note: "A region whose chief town was Caesarea, modern Kayseri in Turkey."
+    url: https://pleiades.stoa.org/places/628949
+    verified_on: "2026-10-17"
+    grounded_in: [cappadocian.core.cappadocian, cappadocian.figure.basil]
+  - phrase: "Pontus"
+    kind: place
+    note: "This province is in Turkey today. It got a new name for Helena after she died. She was Constantine's mother. Basil's family had a home at Annisa, in Pontus."
+    url: https://pleiades.stoa.org/places/1001924
+    verified_on: "2026-10-17"
+    grounded_in: [cappadocian.core.cappadocian]
+  - phrase: "Caesarea"
+    kind: place
+    note: "The chief town of Cappadocia, modern Kayseri in Turkey. Basil was bishop here from 370, and his poorhouse stood outside its walls."
+    url: https://pleiades.stoa.org/places/629035
+    verified_on: "2026-10-17"
+    grounded_in: [cappadocian.figure.basil, cappadocian.term.basileias]
+  - phrase: "Nicaea"
+    kind: place
+    note: "A Greek city of northwestern Anatolia, now İznik in Turkey. A council of bishops met here in 325."
+    url: https://pleiades.stoa.org/places/511268
+    verified_on: "2026-10-17"
+    grounded_in: [cappadocian.force.imperial-church-arrival, cappadocian.term.homoousios]
+  - phrase: "Iconium"
+    kind: place
+    note: "A city in Lycaonia. It is now Konya, in Turkey. Amphilochius was its bishop."
+    url: https://pleiades.stoa.org/places/648647
+    verified_on: "2026-10-17"
+    grounded_in: [cappadocian.figure.amphilochius]
+  - phrase: "Constantinople"
+    kind: place
+    note: "The capital of the Roman Empire in the East. It was founded in 330 by Constantine. Today it is Istanbul, in Turkey."
+    url: https://pleiades.stoa.org/places/520998
+    verified_on: "2026-10-17"
+    grounded_in: [cappadocian.story.gregory-constantinople]
+  - phrase: "Council of Constantinople"
+    kind: council
+    note: "Bishops met in Constantinople in 381 and kept the Nicene faith. Gregory of Nazianzus led them for a short time, then resigned."
+    grounded_in: [cappadocian.force.theodosian-settlement, cappadocian.story.gregory-constantinople]
+  - phrase: "Basil of Caesarea"
+    kind: person
+    note: "Born about 329 or 330, he was bishop of Caesarea from 370. The year of his death is disputed, between 377 and 379."
+    grounded_in: [cappadocian.figure.basil]
+  - phrase: "Gregory of Nyssa"
+    kind: person
+    note: "Basil's younger brother, born about 335. He was bishop of Nyssa from about 372 and the most speculative thinker of the three."
+    grounded_in: [cappadocian.figure.gregory-of-nyssa]
+  - phrase: "Gregory of Nazianzus"
+    kind: person
+    note: "Born about 329 or 330, died about 390. Basil's friend from student days, he was briefly bishop of Constantinople."
+    grounded_in: [cappadocian.figure.gregory-of-nazianzus]
+  - phrase: "Macrina"
+    kind: person
+    note: "Born about 327 and died in 379. Her own words do not survive. She reaches us only through her brother Gregory of Nyssa's writing."
+    grounded_in: [cappadocian.figure.macrina]
+  - phrase: "Amphilochius"
+    kind: person
+    note: "A bishop of Iconium, born about 340 or 345. He was a cousin of Gregory of Nazianzus. Basil wrote On the Holy Spirit for him."
+    grounded_in: [cappadocian.figure.amphilochius]
+  - phrase: "Valens"
+    kind: person
+    note: "Emperor in the East from 364 to 378. He split Cappadocia into two provinces in 372."
+    grounded_in: [cappadocian.figure.valens]
+  - phrase: "Modestus"
+    kind: person
+    note: "Prefect of the East under Valens, from about 369 or 370 to 377. Valens sent him to bring Basil into line."
+    grounded_in: [cappadocian.figure.modestus]
+  - phrase: "Theodosius"
+    kind: person
+    note: "The emperor who established Nicene Christianity in 380 and 381."
+    grounded_in: [cappadocian.force.theodosian-settlement]
+  - phrase: "prefect"
+    kind: term
+    note: "Modestus held this office as prefect of the East under the emperor Valens. Valens sent him to Caesarea before his own visit there."
+    grounded_in: [cappadocian.figure.modestus, cappadocian.story.valens-caesarea]
+  - phrase: "Ousia"
+    kind: term
+    note: "Greek for what God is. These churches used it to say that God is one being."
+    grounded_in: [cappadocian.term.ousia-hypostasis]
+  - phrase: "Hypostasis"
+    kind: term
+    note: "Greek for who God is. Father, Son and Holy Spirit are each a real someone."
+    grounded_in: [cappadocian.term.ousia-hypostasis, cappadocian.quote.ousia-and-hypostasis]
+  - phrase: "eusebeia"
+    kind: term
+    note: "Greek for reverence. It meant careful words about God. It also meant right living, including the just use of money and power."
+    grounded_in: [cappadocian.term.eusebeia]
+  - phrase: "ascetic"
+    kind: term
+    note: "From the Greek word for an athlete's training. It meant fasting, night vigils, poverty and obedience."
+    grounded_in: [cappadocian.term.askesis]
+  - phrase: "the new city"
+    kind: term
+    note: "Gregory of Nazianzus gave Basil's poorhouse this name after Basil died. The later name Basileias was not used in this time."
+    grounded_in: [cappadocian.term.basileias]
+  - phrase: "gave glory"
+    kind: term
+    note: "Giving glory to God in worship is called a doxology. Basil argued that the words of worship carry what the church believes."
+    grounded_in: [cappadocian.term.doxologia, cappadocian.story.doxology-stand]
+  - phrase: "On the Holy Spirit"
+    kind: term
+    note: "Basil's book, written at the request of Amphilochius. It answers those who attacked his prayer."
+    grounded_in: [cappadocian.story.doxology-stand, cappadocian.figure.amphilochius]
+  - phrase: "Theological Orations"
+    kind: term
+    note: "Five talks that Gregory of Nazianzus gave in Constantinople. In them he sets out the Trinity and defends it."
+    grounded_in: [cappadocian.story.gregory-constantinople]
 narrative:
   who_speaks:
     text: >-

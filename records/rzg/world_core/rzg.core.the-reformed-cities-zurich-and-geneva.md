@@ -45,25 +45,25 @@ relations: []
 time_window:
   start: 1519
   end: 1650
-horizon: 'The Swiss branch of the magisterial Reformation, 1519-1650: two cities'' own reforms, begun
-  independently five years apart with no contact between their initiating figures, later bridged but never
-  merged. Zurich''s reform opens 1 January 1519, when Huldrych Zwingli, newly appointed Leutpriester at
-  the Grossmunster, began preaching in continuous exposition through the Gospel of Matthew rather than
-  following the fixed lectionary; it proceeds through the First and Second Zurich Disputations (1523),
-  Zwingli''s death at the Second Battle of Kappel (11 October 1531), and Heinrich Bullinger''s four-decade
-  pastorate (1531-1575). Geneva''s reform opens with its own 1526 alliance with Bern and 1536 break from
-  Savoy, joined that same year by John Calvin''s ministry and consolidated under the 1541 Ecclesiastical
-  Ordinances; Zwingli and Calvin never met and their ministries did not overlap. The two cities'' own
-  traditions are formally bridged by the Consensus Tigurinus (1549), a doctrinal agreement on the Lord''s
-  Supper mediated by Bullinger''s Zurich and Calvin''s Geneva - evidence of a later, deliberate doctrinal
-  bridge, not of prior contact between the two founding figures. The window''s close at 1650 is the census''s
-  own administrative continues-cap for a still-living tradition (Era 7 Freeze), not a historical rupture:
-  the Reformed pattern this world reconstructs continues unbroken past 1650 into descendant traditions
-  this world transmits to, and this distinction must not be flattened into
-  a false ending. The Synod of Dort (1618-19) falls inside this window as a transitional development:
-  its international Reformed dimension (the Canons, this world''s own delegate participation, the Beza
-  throughline) remains internal to this world''s own transmission; the specifically Dutch domestic controversy
-  is the actual point of hand-off, to a neighboring, differently-scoped world.'
+horizon: 'The Swiss branch of the magisterial Reformation, 1519-1650. Two cities began their reforms independently.
+  The men who started them had no contact. The reforms were later formally bridged but never merged. Zurich''s
+  reform opens on 1 January 1519. Huldrych Zwingli had just been appointed Leutpriester at the Grossmunster.
+  He began to preach straight through the Gospel of Matthew. He set aside the fixed cycle of readings. The
+  reform goes on through the First and Second Zurich Disputations (1523). Zwingli died at the Second Battle
+  of Kappel on 11 October 1531. Heinrich Bullinger then served as chief pastor from 1531 to 1575. Geneva''s reform
+  opens with its own 1526 alliance with Bern. It goes on with its 1536 break from Savoy. John Calvin''s ministry
+  joined it that same year, five years after Zwingli''s death. The 1541 Ecclesiastical Ordinances gave it a
+  settled form. Zwingli and Calvin never met, and their ministries did not overlap. The Consensus Tigurinus
+  (1549) formally bridges the two cities'' traditions. It is an agreement on the teaching of the Lord''s Supper.
+  Bullinger in Zurich and Calvin in Geneva worked it out. It shows a later bridge, built on purpose. It does
+  not show that the two founders ever had contact. The window closes at 1650. The census set that date as its
+  own working cut-off, its continues-cap for a still-living tradition, under the Era 7 Freeze. The close marks
+  no historical rupture. The Reformed pattern this world rebuilds goes on unbroken past 1650. It passes into
+  the later traditions this world hands down to. That must not be flattened into a false ending. The Synod
+  of Dort (1618-19) falls inside this window as a transitional development. Its international Reformed side
+  stays within this world''s own transmission. That side covers the Canons, this world''s own delegate role,
+  and the Beza throughline. The Dutch quarrel inside the Netherlands is the true hand-off point. It passes to a neighboring
+  world with a different scope.'
 formation_logic: 'One conviction, tested and enacted two ways. At the center: Scripture alone is sufficient
   to test and warrant both doctrine and civic order, and what it does not warrant no church may require. At
   Zurich, this conviction is enacted through public Disputation: a claim argued aloud before the whole
@@ -82,42 +82,41 @@ formation_logic: 'One conviction, tested and enacted two ways. At the center: Sc
   and T2, Zwingli''s own 1523 ''remembrance'' reading of the Supper against the 1549 Consensus
   Tigurinus''s own negotiated, fuller language - two dated, directly-quoted texts this world holds together
   rather than resolving in favor of either.'
-thinness: 'Richest in confessional and doctrinal content: Calvin''s Institutes and Catechism, Zwingli''s
-  own founding statements and later writings, the Consensus Tigurinus, the Second Helvetic Confession
-  - all directly vendored and verified. Thin to silent on ordinary lived
-  practice and daily texture: no surviving account exists of what an ordinary Sunday service, a Consistory
-  summons, or an ordinary citizen''s own experience of either Reformation actually felt like - a genre asymmetry between richly vendored doctrinal/confessional
-  content and almost entirely absent daily-practice/first-person content, not a gap this build fills with
-  invention. No Tier 2 (collected-tradition), Tier 3 (hagiographic), or Tier 4 (composite-reconstruction,
-  held instead inside this record''s own synthesis per the Framework''s own instruction) story material
-  survives or is built - this world''s own confessional core actively refuses the devotional
-  genre hagiography belongs to (image veneration, cultic memory), and the absence is evidence the refusal
-  worked, not a missing source. Three of this world''s own most consequential documented
-  events - the Marburg Colloquy (1529), the Bolsec controversy (1551), and the Perrinist crisis (1555)
-  - have no vendored primary narrative source comparable to this world''s own three built stories. Geneva''s own specific institutional detail (the Consistory''s weekly case-by-case
-  discipline, the census''s own named selection rationale for this world) rests on thin, unacquired
-  evidence - the general doctrine is well attested, but the vivid, formation-defining
-  detail this world was selected for is not currently sourceable.'
-cautions: 'Single-author concentration is real and disclosed at every load-bearing point: Calvin''s own
-  corpus runs roughly four times Zwingli''s in this world''s vendored base, and the
-  Confidence/Gravity Cross-Check on G1 finds the core doctrine Documented cross-strand while its fully
-  systematized, later double-predestination form is substantially Calvin/Beza-concentrated
-  - not smoothed into an undifferentiated ''both cities teach this equally'' claim. The CT-tagged contested
-  term (Sign and the Thing Signified, rzglex008) rests on no vendored secondary scholarship on the Consensus
-  Tigurinus specifically - its own contest characterization draws on the builder''s own general knowledge
-  of Reformation historiography, disclosed as such rather than presented as text-grounded.
-  T2''s own characterization of whether the 1549 Consensus ''softens'' or merely restates Zwingli''s 1523
-  language in fuller form is this build''s own interpretive judgment, not an inherited scholarly finding.
-  Five Native sources remain unacquired: the Ecclesiastical
-  Ordinances, the Genevan Psalter, Geneva''s own consistory registers, Beza''s own works, Marie Dentiere''s
-  own works - none of this world''s own current claims treats any of them as load-bearing, but a future revision drawing on any of them should re-check claims
-  this record currently states on thin evidence rather than assume they hold unchanged. This world''s
-  own build record has also independently found and adjudicated one Representative-construction/Facilitator-architecture
-  risk not yet named above: in Facilitator-absent construction-time
-  probes P11/P12, Theophilus''s own freely-generated text drifted into performing a crisis-redirect function itself rather than the template-anchored
-  handoff CLAUDE.md reserves for the Facilitator - moot on the real ACUTE_DISTRESS path (voice_event =
-  None, unconditional, per engine/m4/turn.py, independently re-confirmed this pass) but untested on the
-  HARMFUL_DYNAMIC_SIGNAL (Track B) path, where the voice does still speak.'
+thinness: 'The record is richest in confession and doctrine. It has Calvin''s Institutes and Catechism. It
+  has Zwingli''s own founding statements and later writings. It has the Consensus Tigurinus and the Second
+  Helvetic Confession. All are held directly and verified. The record is thin to silent on daily life and practice.
+  No account tells what an ordinary Sunday service or an ordinary Consistory summons felt like. No account
+  tells how an ordinary citizen lived through either reform. Daily practice and first-person voices are almost
+  wholly missing. That is a gap in the kinds of writing that survive. This build does not fill it with invention.
+  Three kinds of story are missing: collected-tradition, hagiographic, and composite-reconstruction stories.
+  None exists or is built. The build method keeps the composite kind inside this record''s own synthesis. The
+  core of these confessions refuses the kind of devotion that saints'' lives belong to, with its image veneration
+  and cultic memory. The gap is evidence the refusal worked. It is not a missing source. Three of this world''s
+  most important documented events are the Marburg Colloquy (1529), the Bolsec controversy (1551) and the Perrinist
+  crisis (1555). None has a primary narrative source on hand like those behind the three built stories. Detail
+  on Geneva''s own church bodies rests on thin evidence. The sources for it are not yet in hand. That covers
+  the Consistory''s weekly discipline, case by case. It also covers why the census chose this world. The general
+  teaching is well attested. The vivid detail that formed this world, and that it was chosen for, has no source
+  yet.'
+cautions: 'Much of the record rests on one author. That is real, and it is disclosed at every point that
+  bears weight. Calvin''s own corpus runs roughly four times Zwingli''s in the vendored base. The confidence
+  cross-check on election finds the core doctrine Documented across both strands. Its fully worked-out, later
+  double-predestination form rests mostly on Calvin and Beza. The record does not smooth this into a claim
+  that both cities teach it equally. The CT-tagged contested term is Sign and the Thing Signified (rzglex008).
+  It rests on no vendored secondary scholarship on the Consensus Tigurinus. Its account of the contest draws
+  on the builder''s own general knowledge of how historians write about the Reformation. The record says so.
+  It does not claim the texts ground it. The build frames the 1549 Consensus as possibly ''softening'' Zwingli''s
+  1523 language. It could instead be only restating it more fully. That framing is the build''s own judgment.
+  It is not a finding handed down by scholars. Five Native sources are not yet acquired: the Ecclesiastical
+  Ordinances, the Genevan Psalter, Geneva''s own consistory registers, Beza''s own works, and Marie Dentiere''s
+  own works. No current claim treats any of them as load-bearing. A future revision that draws on any of them
+  should re-check claims this record states on thin evidence. It should not assume those claims hold unchanged.
+  The build record has also independently found and adjudicated one more risk. It concerns how the Representative
+  is built and how the Facilitator is set up. In construction-time probes P11 and P12, run without a Facilitator,
+  Theophilus''s own freely generated text drifted. It began to do the crisis redirect itself. CLAUDE.md reserves
+  that function for a template-anchored handoff by the Facilitator. The drift is moot on the real ACUTE_DISTRESS
+  path. There voice_event is None, with no condition, per engine/m4/turn.py, and this pass independently re-confirmed
+  that. The drift is untested on the HARMFUL_DYNAMIC_SIGNAL (Track B) path. There the voice does still speak.'
 thin_topics:
 - keywords:
   - ordinary

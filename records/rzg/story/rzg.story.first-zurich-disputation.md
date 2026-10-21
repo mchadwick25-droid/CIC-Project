@@ -51,9 +51,10 @@ text: The city council of Zurich did not simply permit the argument that launche
   the whole disputation. "I was there myself and sat with them," he wrote, "heard and understood and remembered
   all that was said there." When the arguments were finished, the council found for our own side. It ordered
   every priest in the canton to preach the same way.
+telling: "Six hundred people met in Zurich's Town Hall on 29 January 1523. The city council had summoned the meeting itself. Priests and laymen came from across the canton. Delegates from the bishop of Constance came as well. They met to test Zwingli's case against Scripture.\n\nEnemies of the new preaching mocked the gathering. They called it a \"tinker's day,\" and said that nothing but tinkers were attending.\n\nThat mockery moved a Zurich schoolmaster named Erhart Hegenwald to write an account of the day. He had sat through the whole disputation. \"I was there myself and sat with them,\" he wrote, \"heard and understood and remembered all that was said there.\"\n\nWhen the arguments were finished, the council ruled for the reform. It ordered every priest in the canton to preach the same way."
 modern_contrast: 'A modern reader may picture a staged event, decided before it began - the way we now
   assume councils rarely reverse the powerful. We know it differently: the whole point of Hegenwald''s
-  own account is to answer people who mocked the gathering in advance as certain to fail, and our own
+  own account is to answer people who mocked the gathering as a "tinker''s day," and our own
   council''s judgment, reached that day, bound every priest in its territory from then on.'
 use_note:
   means: "In 1523 six hundred people filled Zurich's Town Hall to test Zwingli's case against Scripture, and the council ruled for it, binding every priest in its territory."

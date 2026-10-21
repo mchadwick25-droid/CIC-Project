@@ -1,0 +1,26 @@
+source_file: wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt
+
+authors_ruled:
+  wigram:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The
+      author is real and named on the title page (file line 97): William Ainger Wigram
+      (1872-1953), Anglican missionary to the Assyrian Christians. A mechanical
+      index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910--introduction-to-the-history-of-the-assyrian-church
+    work: "An Introduction to the History of the Assyrian Church, 100-640 A.D. (1910)"
+    author: wigram
+    locus: "whole file; chapter V, Council of Mar Isaac (410), 3882; chapter VI, the Councils of Yahb-Alaha and Dad-Ishu, 5168; the Council of Dad-Ishu 6027"
+    atlas_ids:
+      - persian-church-of-the-east-early
+      - the-church-of-the-east-under-persia
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). Secondary, early twentieth century, English,
+      Anglican missionary standpoint: a finding aid to the Syriac sources and a witness to
+      how the Church of the East's synods were read in 1910, never evidence of the events.
+      Same footing as the Hefele volumes already in the map.

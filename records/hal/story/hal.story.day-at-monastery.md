@@ -49,8 +49,7 @@ text: 'Put together, from scattered notices, a typical day might be told like th
   apart: she prayed at the refectory door and ate alone, in the hope that shame would heal what
   rebuke had not. The men lived in a house of their own, and at its center, by one visitor''s
   account, an old man was always at his books, day and night, reading or writing something.
-  Pilgrims came and went at the guest house. Which psalms they sang, and how the two houses
-  shared their worship, no one wrote down, or nothing that was written survived.'
+  Pilgrims came and went at the guest house. Either no one wrote down which psalms they sang and how the two houses shared their worship, or nothing that was written survived.'
 absent_detail: 'The schedule itself: which hours, which psalms, how the men''s and
   women''s worship divided - not attested; the women''s regimen is one letter''s
   memorial summary, the men''s is a visitor''s sketch of one man. The unnamed members of

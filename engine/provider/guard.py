@@ -1,9 +1,9 @@
 """The live-test guard (System Hub decision 56): the only model spend is
 conversations. A model client is handed out in exactly two cases:
 
-  (a) to the conversation path in engine/api, which declares itself with
-      conversation_scope() and gets the SDK client itself, unwrapped, as it
-      always has; and
+  (a) to the conversation path in engine/api running on Render, which
+      declares itself with conversation_scope() and gets the SDK client
+      itself, unwrapped; and
   (b) to a command that carries both --live-test "<name>" and --cap-usd <n>.
 
 A command without both prints RULE and exits non-zero before any network
@@ -19,14 +19,19 @@ import argparse
 import contextvars
 import json
 import math
+import os
 import sys
+import tempfile
 import threading
+from datetime import datetime, timezone
 from contextlib import contextmanager
 from dataclasses import dataclass
 
 LIVE_TEST_FLAG = "--live-test"
 CAP_FLAG = "--cap-usd"
 EXIT_REFUSED = 2
+RENDER_ENV = "RENDER"  # set by Render on every service it runs
+LEDGER_ENV = "CIC_LIVE_TEST_LEDGER"
 
 RULE = (
     "Model calls outside a conversation need an approved live test (System Hub decision 56).\n"
@@ -76,11 +81,19 @@ def _emit(text: str) -> None:
     print(text, flush=True)
 
 
+def ledger_path() -> str:
+    """Where an approved run appends each call as it happens. A process that
+    dies before its report is written still leaves this file."""
+    return os.environ.get(LEDGER_ENV) or os.path.join(tempfile.gettempdir(), "cic-live-test-ledger.jsonl")
+
+
 @contextmanager
 def conversation_scope():
     """The conversation path in engine/api builds its client inside this. A
     test conversation Mark runs goes through the live engine and needs no
-    flags; nothing outside engine/api opens this scope (a test enforces it)."""
+    flags; nothing outside engine/api opens this scope (a test enforces it).
+    The scope exempts only a process running on Render: the same engine
+    started anywhere else needs both flags, like any other command."""
     token = _conversation.set(True)
     try:
         yield
@@ -118,9 +131,10 @@ def parse_live_test(argv: list[str]) -> LiveTest | None:
 
 
 def admit() -> LiveTest | None:
-    """None inside the conversation scope; the LiveTest the command carries
-    otherwise. Exits non-zero, with the rule printed, when it carries none."""
-    if _conversation.get():
+    """None inside the conversation scope on Render; the LiveTest the command
+    carries otherwise. Exits non-zero, with the rule printed, when it carries
+    none."""
+    if _conversation.get() and os.environ.get(RENDER_ENV):
         return None
     live_test = parse_live_test(sys.argv[1:])
     if live_test is None:
@@ -206,6 +220,18 @@ class _Run:
         self.announced: list[str] | None = None
         self.cap_notice_given = False
         self.lock = threading.Lock()
+        self.ledger = ledger_path()
+
+    def _record(self, event: str, **fields) -> None:
+        line = {
+            "at": datetime.now(timezone.utc).isoformat(timespec="milliseconds"),
+            "live_test": self.live_test.name, "cap_usd": self.live_test.cap_usd,
+            "event": event, **fields,
+        }
+        with open(self.ledger, "a", encoding="utf-8") as f:
+            f.write(json.dumps(line, default=str) + "\n")
+            f.flush()
+            os.fsync(f.fileno())
 
     def _price(self, model_id: str):
         from engine.m8.price_tables import price_for_route
@@ -225,7 +251,8 @@ class _Run:
             f"LIVE TEST: {self.live_test.name}\n"
             f"CAP: ${self.live_test.cap_usd:.2f}\n"
             f"MODELS: {', '.join(self.announced)}\n"
-            f"ROUTE: {route}"
+            f"ROUTE: {route}\n"
+            f"LEDGER: {self.ledger}"
         )
 
     def reserve(self, kwargs: dict) -> float:
@@ -247,6 +274,10 @@ class _Run:
                     self.cap_notice_given = True
                     _emit(f"LIVE TEST CAP REACHED: {self.live_test.name}: priced total ${self.spent:.4f} of ${self.live_test.cap_usd:.2f}; no further calls.")
                 raise LiveTestCapReached(f"live test {self.live_test.name!r}: the next call could pass the ${self.live_test.cap_usd:.2f} cap")
+            try:
+                self._record("hold", model_id=model_id, hold_usd=round(ceiling, 6), spent_usd=round(self.spent, 6))
+            except OSError as error:
+                raise LiveTestGuardError(f"cannot write the ledger {self.ledger}: {error}; a capped run records every call before it makes it") from error
             self.reserved += ceiling
             return ceiling
 
@@ -273,6 +304,10 @@ class _Run:
             self.reserved -= hold
             self.spent += dollars
             self.calls.append(entry)
+            try:
+                self._record("settle", spent_usd=round(self.spent, 6), **entry)
+            except OSError as error:
+                _emit(f"LEDGER WRITE FAILED: {self.ledger}: {error}; this call's priced usage was ${dollars:.4f}")
 
 
 class _GuardedStream:

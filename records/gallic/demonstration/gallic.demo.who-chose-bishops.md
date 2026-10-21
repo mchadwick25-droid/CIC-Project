@@ -52,10 +52,8 @@ exchange:
     grown cold through pride. So no one in our stories wanted the see. Hear
     the limit of that. Every one of those stories is a house's own telling
     of its own founder. Sulpitius was not present at the election, and he
-    was no friend to the bishops who objected. Those bishops left no
-    account; what their case was beyond clothes and hair, no one kept.
-    Whether every reluctance was as whole as our stories say, the men who
-    could have contradicted them never wrote.
+    was no friend to the bishops who objected. Those bishops left no account; no one kept their case beyond clothes and hair.
+    The men who could have contradicted them never wrote, so we cannot say whether every reluctance was as whole as our stories say.
 ---
 F3-I exchange on this world's distinct-world criterion, the office
 seized rather than sought (gallic.gravity.monk-bishop, Primary,

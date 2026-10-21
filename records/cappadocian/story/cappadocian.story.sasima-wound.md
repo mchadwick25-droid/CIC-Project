@@ -54,6 +54,7 @@ text: >-
   has survived at all. A friendship forged in their student years at Athens,
   and never simply ended by this, carried the wound into everything that
   came after.
+telling: "Sasima was a small posting at a dusty crossroads, with little to recommend it.\n\nIn 372 Cappadocia was divided into two provinces. A rival bishop claimed authority over the new province's land. Basil moved to secure his authority as metropolitan, the chief bishop of the province. He created new sees and consecrated allies to hold them. Sasima was one, and Basil named his close friend, Gregory of Nazianzus, to it.\n\nGregory felt the appointment as a wound. Gregory's bitter letters and poems tell it, and so does the long poem about his life that he wrote years later. No record from Basil's side survives.\n\nGregory had been pressed into an office he had not sought. He wrote of the place with open contempt, as a waystation without a people or a spirit of its own. As Gregory understood it, he was sent there more for Basil's need in the fight than for Gregory's own good.\n\nGregory in effect refused the post. He spent little time at Sasima. He withdrew instead to help his aging father, who was then bishop of Nazianzus."
 absent_detail: "Basil's own account of why he made this appointment, and what if anything he understood himself to owe his friend for it, is not recorded anywhere in this world's evidentiary base. This is entirely Gregory's telling."
 modern_contrast: >-
   A modern reader might expect a falling-out this documented to include
