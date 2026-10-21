@@ -11,6 +11,8 @@ From session: https://claude.ai/code/session_016TfsmpqN3i7uRXDPKQLpTz · World o
 | Shortlist of eight atlas stories chosen: Perpetua and Felicity, Cædmon's Hymn, Hildegard preaches, John of Montecorvino, Montesinos's Advent sermon, Walatta Petros, Benjamin Lay, Le Chambon-sur-Lignon. | Teaser, caveat and sources of each read in the atlas JSON. Audio file confirmed for each. |
 | Readability of the eight scored. | `engine.m1.gates.grade_text`, plus a hand count. Both agreed. Seven of eight teasers score grade 18 to 27. Montesinos scores 11.5. Full texts score grade 12 to 20. |
 
+| Social research and link check added to the Artifact (version 5): what works on Facebook, LinkedIn and short video, and whether a post can link to a story. | Three web searches run 2026-10-21, sources are vendor blogs and directional only. Link check read from `cic-website/atlas-v3.html` and a search of `cic-website/tree/*.html`: stories are map markers, only `?world=` deep-links, and no tree page holds a story. |
+
 ## 2. Not done
 
 - No story was rewritten. No audio, image, slide or video was made.
