@@ -170,7 +170,7 @@ Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
    - where the output goes: a file, with the ledger path written in the request;
    - the other ways to get the result (hold, waive the gate, run a smaller sample, use a free check), each with its trade-offs;
    - your own recommendation, including "do not run it now".
-2. Ask with `AskUserQuestion` after the explanation, in the same message. Offer "Explain more" and "Not now" beside the approval.
+2. Ask with `AskUserQuestion` after the explanation, in the same message. Offer "Approve" and "Not now". Mark's own words under "Other" are how he asks for more explanation. Put the alternatives in the explanation, not in the box.
 3. When the cap is $5 or more (Mark, 2026-10-20), ask Mark to say back in a line what the run does and what it costs. Do the same when the same run lost its results or went past its estimate before. If his line does not match, explain again.
 4. A yes covers that one run at the cap Mark approved. It does not carry to a second attempt, a changed cap, or another run. A converged plan or "auto mode" is not a yes to spend. Paid bulk runs still start with the small sample.
 5. A run that lost its results or went past its estimate is not repeated until the cause is fixed. A free check, with no model call, must show the fix works. If no free check can, say so in the request and let Mark decide. The next request says what the cause was and what the check showed.
