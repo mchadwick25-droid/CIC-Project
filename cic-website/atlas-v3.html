@@ -88,6 +88,7 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
    browser behavior from ever measuring the raw child in the first place.*/
 #stage{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}
 #stage.grabbing{cursor:grabbing}
+#stage.pinching svg text{display:none!important}
 /* The era body/break-band rects (render(), below) bleed far past the canvas's
    own edges so they cross the full screen at any pan/zoom -- but the SVG
    element itself carries its own width/height attributes (CANVAS_W x CANVAS_H)
@@ -41717,7 +41718,7 @@ function applyTransform(){
   // hold a constant ON-SCREEN hit size across the whole zoom range. Written
   // every tick regardless of pointer type -- cheap, and harmless where the
   // fine-pointer CSS never references it.
-  gRoot.style.setProperty('--zoom-scale',scale);
+  if(!stage.classList.contains('pinching'))gRoot.style.setProperty('--zoom-scale',scale);
   pinEraCaptions();
 }
 function applyDetail(){
@@ -41843,8 +41844,37 @@ function nudge(dx,dy){ tx+=dx; ty+=dy; applyTransform(); }
   });
 }
 
-let touches={};
+// A pinch changes the SVG scale every move, and each scale change re-lays-out
+// every <text> label and, through --zoom-scale, restyles every node; hiding the
+// labels and holding that write for the length of the pinch keeps it smooth.
+let touches={}, pinched=false, glideRaf=0, flick=[];
+const reduceMotion=matchMedia('(prefers-reduced-motion:reduce)');
+const GLIDE_FRICTION=0.996, GLIDE_MIN_SPEED=0.1, GLIDE_MAX_SPEED=4;
+function stopGlide(){ if(glideRaf){cancelAnimationFrame(glideRaf);glideRaf=0;} }
+function startGlide(vx,vy){
+  let last=performance.now();
+  const step=(now)=>{
+    const dt=Math.min(now-last,50); last=now;
+    const decay=Math.pow(GLIDE_FRICTION,dt);
+    vx*=decay; vy*=decay;
+    tx+=vx*dt; ty+=vy*dt; applyTransform();
+    glideRaf=Math.hypot(vx,vy)>0.02?requestAnimationFrame(step):0;
+  };
+  glideRaf=requestAnimationFrame(step);
+}
+function flickVelocity(){
+  const now=performance.now();
+  const recent=flick.filter(s=>now-s.t<100);
+  if(recent.length<2||now-recent[recent.length-1].t>80)return null;
+  const a=recent[0], b=recent[recent.length-1];
+  const dt=Math.max(1,b.t-a.t);
+  const vx=(b.x-a.x)/dt, vy=(b.y-a.y)/dt, speed=Math.hypot(vx,vy);
+  if(speed<GLIDE_MIN_SPEED)return null;
+  const k=Math.min(1,GLIDE_MAX_SPEED/speed);
+  return [vx*k,vy*k];
+}
 stage.addEventListener('touchstart',(ev)=>{
+  stopGlide(); flick=[];
   Array.from(ev.touches).forEach(t=>touches[t.identifier]={x:t.clientX,y:t.clientY});
 },{passive:true});
 stage.addEventListener('touchmove',(ev)=>{
@@ -41854,8 +41884,11 @@ stage.addEventListener('touchmove',(ev)=>{
     const prev=touches[ts[0].identifier];
     if(prev){tx+=ts[0].clientX-prev.x; ty+=ts[0].clientY-prev.y;}
     touches[ts[0].identifier]={x:ts[0].clientX,y:ts[0].clientY};
+    flick.push({t:performance.now(),x:ts[0].clientX,y:ts[0].clientY});
+    if(flick.length>6)flick.shift();
     applyTransform();
   } else if(ts.length===2){
+    pinched=true; stage.classList.add('pinching');
     const [a,b]=ts;
     const prevA=touches[a.identifier], prevB=touches[b.identifier];
     const dist=(p,q)=>Math.hypot(p.clientX-q.clientX,p.clientY-q.clientY);
@@ -41874,9 +41907,18 @@ stage.addEventListener('touchmove',(ev)=>{
     touches[b.identifier]={x:b.clientX,y:b.clientY};
   }
 },{passive:false});
-stage.addEventListener('touchend',(ev)=>{Array.from(ev.changedTouches).forEach(t=>delete touches[t.identifier]);});
+function releaseTouches(ev,canGlide){
+  Array.from(ev.changedTouches).forEach(t=>delete touches[t.identifier]);
+  if(ev.touches.length<2&&stage.classList.contains('pinching')){stage.classList.remove('pinching');applyTransform();}
+  if(ev.touches.length>0)return;
+  const v=canGlide&&!pinched&&!reduceMotion.matches?flickVelocity():null;
+  pinched=false; flick=[];
+  if(v)startGlide(v[0],v[1]);
+}
+stage.addEventListener('touchend',(ev)=>releaseTouches(ev,true));
+stage.addEventListener('touchcancel',(ev)=>releaseTouches(ev,false));
 
-document.getElementById('resetBtn').addEventListener('click',centerView);
+document.getElementById('resetBtn').addEventListener('click',()=>{stopGlide();centerView();});
 document.getElementById('scopeClose').addEventListener('click',()=>document.getElementById('scopeNote').remove());
 // A fixed `top` for #scopeNote, sized for a topbar that fits on one
 // line, breaks on a narrow screen: when the title/tag/button don't fit and
