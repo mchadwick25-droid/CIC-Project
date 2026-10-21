@@ -259,7 +259,7 @@ This table starts here and grows only when a real new case shows up, never specu
 ### 4.3 After Mark decides
 
 - "Converged, auto mode", or a clear equivalent Mark says directly, means final. Without it, keep checking.
-- Once converged, execute the full scope without asking step by step.
+- Once converged, execute the full scope without asking step by step. The one exception is spend: a converged plan or "auto mode" is never a yes to spend, and 3.2 still applies.
 - To change something already settled, name it as a **change order** with a reason. Never edit it quietly.
 - Return to asking only for a decision not yet made, or a real need for direction or clarification.
 - Until convergence, write nothing to a canonical record, commit nothing, and treat nothing as decided.
