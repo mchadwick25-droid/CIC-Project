@@ -6752,3 +6752,14 @@ First, the run was started without `--save-transcripts`, although the project le
 Second, after the project lead asked to see the conversations, a further paid run (pahc, with answers saved, cap $0.85) was started without asking for approval of that run by name. It was stopped by hand after 8 calls. It cost $0.24 and kept nothing, because a report is written only when a world finishes.
 
 Recorded spend for the named test on 18 October is $5.75 of the $6.50 approved. Gallic, Ijc and Syriac failed on dropped connections (pull request 975 fixes the cause) and Witt, Cappadocian, Desert and Don were not run. No further paid call is made without the project lead's approval of that run by name, with its cap and settings printed first. Whether to re-run the missing worlds or waive the gate is the project lead's decision.
+
+## 2026-10-21 - Asking for any spend: the explanation step and the $5 say-back
+
+The project lead confirmed in the pilot feedback thread that the rule in CLAUDE.md 3.2, "Asking for any spend", step 3 is his: when a run's cap is $5 or more, he is asked to say back in a line what the run does and what it costs. The same applies when the same run lost its results or went past its estimate before. He dated the ruling 2026-10-20. His original words are not in this log.
+
+In the same thread he also decided, on 2026-10-21:
+- The spend step wins over 4.3: a converged plan or "auto mode" is never a yes to spend.
+- The spend box offers "Approve" and "Not now". His own words under "Other" ask for more explanation. Alternatives go in the explanation.
+- The explanation comes before a paid sample, not only before the full run.
+- Part 5 carries a checklist line for spend.
+- The cap's margin over the latest real cost, and where the output and ledger go, are part of the explanation. A paid run started without it is a breach.

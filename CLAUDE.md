@@ -284,5 +284,6 @@ This table starts here and grows only when a real new case shows up, never specu
 - [ ] No commentary left in any live file you touched (`tools/check_live_commentary.py`).
 - [ ] Every gap logged in `Open_Gaps_Tracking.md`; every unfixed fleet defect waived; no stale waivers.
 - [ ] Governance vocabulary, closure, blocking findings, and truncation handled as 4.4 says.
+- [ ] Any spend asked for followed the 3.2 explanation, and each yes covered only its own run.
 - [ ] One draft PR for the batch, pushed once after local checks pass, then marked ready (ruled 2026-10-05).
 - [ ] If another thread picks this up, a handoff saved in `Build/Ministry/Operations/Handoffs/` (3.5).
