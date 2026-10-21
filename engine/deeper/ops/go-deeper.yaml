@@ -23,7 +23,7 @@ tokens:
     - {price_usd: 30, tokens: 6600}
 door:
   observe: false
-  base_weekly_usd: 75
+  base_weekly_usd: 12
   daily_share: 0.333
   gift_share: 0.8
   purchase_share: 0.5

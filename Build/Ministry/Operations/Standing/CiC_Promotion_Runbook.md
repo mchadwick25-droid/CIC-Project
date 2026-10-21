@@ -54,30 +54,18 @@ step 2 actually flips it.
 
 1. Verify on staging first. `cic-engine-staging` already has `main`'s latest — read it,
    run whatever check the change calls for, on the real running service, not just CI.
-2. Run the admission gate on a named, capped run. Admission conformance is a
-   promotion gate, not a merge gate (decision 58): in CI it only reports. Before
-   the promotion PR opens, Mark approves one named, capped admission run under
-   decision 56 (started as described under "A named, capped run" below), for the whole fleet or for the worlds
-   the report lists as stale; its reports are committed on `main`; then
-   `python -m engine.m3.admission_conform --enforce` must exit 0.
-3. Confirm the hand-set secrets. Run `python -m engine.api.required_secrets --service cic-engine`
-   on the branch being promoted. It prints every `sync: false` value in `render.yaml` for
-   production, with the ones the engine cannot start without listed first. Tick each one off
-   in Render → `cic-engine` → Environment. A value declared in `render.yaml` is not thereby
-   set. The command exits 1 if `render.yaml` itself turns a switch on without declaring
-   what that switch needs.
-4. Open a PR from `main` into `live`. Title it plainly ("Promote: <one-line summary of
+2. Open a PR from `main` into `live`. Title it plainly ("Promote: <one-line summary of
    what's shipping>"). The diff is the promotion's own record — no separate log entry
    needed, the PR itself is the deliberate, logged act D3 asks for.
-5. Mark reviews and merges it himself. This is the verification step D3 names — not a
+3. Mark reviews and merges it himself. This is the verification step D3 names — not a
    formality, the actual gate between staging and participants.
-6. Render deploys `cic-engine` from the new `live` tip automatically on merge, the same
+4. Render deploys `cic-engine` from the new `live` tip automatically on merge, the same
    way `main` always deployed to prod before this file existed. Confirm it went live:
    `https://cic-engine.onrender.com/health` reports the commit it runs, and it should be
    the new `live` tip. The Live watch workflow (`.github/workflows/live-watch.yml`) checks
    the same thing every 15 minutes and fails, emailing you, if an older build is still
    serving 30 minutes after the merge.
-7. Rollback, if ever needed: revert the promotion PR (a normal `git revert` PR into
+5. Rollback, if ever needed: revert the promotion PR (a normal `git revert` PR into
    `live`, reviewed the same way) rather than force-pushing or hand-editing `live`
    directly — `live`'s branch protection (setup step 1) blocks a direct push regardless.
 
