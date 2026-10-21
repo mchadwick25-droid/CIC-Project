@@ -6755,9 +6755,9 @@ Recorded spend for the named test on 18 October is $5.75 of the $6.50 approved. 
 
 ## 2026-10-21 - Asking for any spend: the explanation step and the $5 say-back
 
-The project lead confirmed in the pilot feedback thread that the rule in CLAUDE.md 3.2, "Asking for any spend", step 3 is his: when a run's cap is $5 or more, he is asked to say back in a line what the run does and what it costs. The same applies when the same run lost its results or went past its estimate before. He dated the ruling 2026-10-20. His original words are not in this log.
+The pilot feedback manager thread reports that the project lead, answering its question in conversation on 2026-10-21, kept the rule in CLAUDE.md 3.2, "Asking for any spend", step 3 as his: when a run's cap is $5 or more, he is asked to say back in a line what the run does and what it costs. The same applies when the same run lost its results or went past its estimate before. The step is dated 2026-10-20. The project lead's original words are not in this log, and this entry is the thread's report of his answer.
 
-In the same thread he also decided, on 2026-10-21:
+By the same report, he chose these on 2026-10-21:
 - The spend step wins over 4.3: a converged plan or "auto mode" is never a yes to spend.
 - The spend box offers "Approve" and "Not now". His own words under "Other" ask for more explanation. Alternatives go in the explanation.
 - The explanation comes before a paid sample, not only before the full run.

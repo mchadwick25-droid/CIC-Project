@@ -165,16 +165,16 @@ Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
    - why it was asked for: which rule or decision requires it, and who started it;
    - why now: what is still changing, and whether any of that would make the result stale;
    - the cost: the cap, how the estimate was made, what is old or wrong about it, and the likely real cost;
-   - the cap's margin: the cap against the real cost in the latest ledger or report for the same worlds and model, in dollars and as a percent. If there is no such record, say so;
+   - the cap's margin: the cap against the real cost in the latest ledger or report for the same worlds and model. Give dollars and a percent. If there is no such record, say so;
    - what happens if it stops early, and whether partial results are kept, checked by reading the code or a free dry run, never by spending;
    - where the output goes: a file, with the ledger path written in the request;
    - the other ways to get the result (hold, waive the gate, run a smaller sample, use a free check), each with its trade-offs;
    - your own recommendation, including "do not run it now".
-2. Ask with `AskUserQuestion` after the explanation, in the same message. Offer "Approve" and "Not now". Mark's own words under "Other" are how he asks for more explanation. Put the alternatives in the explanation, not in the box.
+2. Ask with `AskUserQuestion` after the explanation, in the same message. Offer "Approve" and "Not now". Mark's own words under "Other" are how he asks for more explanation. Put the alternatives in the explanation, not in the box. If your recommendation is not to run it, put "Not now" first and mark it "(Recommended)".
 3. When the cap is $5 or more (Mark, 2026-10-20), ask Mark to say back in a line what the run does and what it costs. Do the same when the same run lost its results or went past its estimate before. If his line does not match, explain again.
 4. A yes covers that one run at the cap Mark approved. It does not carry to a second attempt, a changed cap, or another run. A converged plan or "auto mode" is not a yes to spend. Paid bulk runs still start with the small sample, and the explanation comes before that sample too.
 5. A run that lost its results or went past its estimate is not repeated until the cause is fixed. A free check, with no model call, must show the fix works. If no free check can, say so in the request and let Mark decide. The next request says what the cause was and what the check showed.
-6. Do not start a paid run while an unresolved item in that world's `Open_Gaps_Tracking.md`, or an unmerged change to files the run reads or to the code that handles its replies, would alter what the run measures. If one does, tell Mark and let him choose.
+6. Do not start a paid run if something open would alter what it measures. That means an unresolved item in the world's `Open_Gaps_Tracking.md`, or an unmerged change to files the run reads or to the code that handles its replies. If one does, tell Mark and let him choose.
 7. A paid run started without this explanation is a breach. Log it in `Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md` and tell the thread that started the run, whatever it cost.
 
 ### 3.3 Keep the context lean
