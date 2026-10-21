@@ -98,7 +98,7 @@ text: >-
   them. In those texts the end of a faithful life is not an interruption
   of it.
 positions:
-- our confession about Christ was never the matter in dispute; no one charged us with a different Trinitarian or Christological faith
+- our confession about Christ was never the matter in dispute. No one charged us with a different faith about the Trinity or about Christ
 - the aspect of Christ our own surviving speech reaches for is Christ standing condemned before lawful
   authority, invoked by our own bishop to refuse a judge's offered chair
 - we read the church's own rejection by the world as a test a true church should expect to pass, and applied

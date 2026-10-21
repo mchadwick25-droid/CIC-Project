@@ -40,36 +40,37 @@ name: The Macarian repression (347-348) [2A - ongoing/external]
 kind: ongoing
 matrix_cell: 2A
 description: >-
-  In 347-348, the imperial commissioners Paul and Macarius forced unification on this world. The
-  record documents their direct coercion, and that at times it killed.
+  In 347-348, the imperial commissioners Paul and Macarius forced union on this world. The record
+  documents their direct coercion. It documents that at times the coercion killed.
 
-  Unusually, the repression is also confirmed in this world's own surviving voice. Two texts
-  witness it. One is the Passio Marculi. The other is Macrobius's own letter to the Carthage
+  Unusually, this world's own surviving voice also confirms the repression. Two texts witness it.
+  One is the Passio Marculi. The other is Macrobius's own letter. He wrote it to the Carthage
   congregation on the deaths of Isaac and Maximianus.
 
-  This was not persecution suffered side by side with the rival church, as the Diocletianic terror
-  had been. This time the suffering came at the urging of that same rival, through the emperor's
-  own commissioners.
+  This was not persecution suffered side by side with the rival church. That had been true of the
+  Diocletianic terror. This time the suffering came at the urging of that same rival, through the
+  emperor's own commissioners.
 
   The dead of this repression are not remembered as casualties of a general disaster. They are
   remembered as this world's own martyrs. What the rival's favored power did to them proved them
   true.
 
   This repression directly triggered the two best-attested Passiones. Those two texts are the core
-  written evidence for this world's identity as the church of the martyrs, as modern scholars call it. The repression did not
-  merely test that identity. It made it stronger.
+  written evidence for this world's identity as the church of the martyrs, as modern scholars call
+  it. The repression did not merely test that identity. It made it stronger.
 
-  Each new episode of persecution produced new texts of remembrance, and we can trace that pattern
-  directly. This repression produced two texts in close succession. The earlier, less
-  well-attested persecution under Leontius and Ursacius produced the commemorative sermon.
+  Each new persecution brought new texts of remembrance. We can trace that pattern directly. This
+  repression brought two texts, close together. An earlier persecution came under Leontius and
+  Ursacius. It is less well attested. It brought the commemorative sermon.
 
   Of every link between this world's forces and its core convictions, this one is named the single
-  strongest. This repression and the church of the martyrs, as modern scholars call it, cannot be explained without each other.
+  strongest. We cannot explain this repression without the church of the martyrs, as modern
+  scholars call it. We cannot explain that church without the repression.
 
-  The repression explains the form the practice of remembrance takes: specific, dated, and rich in
-  texts. The practice of remembrance explains why the repression never faded into the general
-  memory of ancient persecution. It remains this world's most vivid historical force, and the one
-  retold most often.
+  The repression explains the form that remembrance takes. That form is specific, dated, and rich
+  in texts. The practice of remembrance explains why the repression never faded. It did not sink
+  into the general memory of ancient persecution. It remains this world's most vivid historical
+  force. It is also the one retold most often.
 manifestations:
 - the imperial commissioners Paul and Macarius enforcing unification by direct, sometimes lethal coercion
 - the Passio Marculi and the Passio Isaac et Maximiani, produced in close succession after it

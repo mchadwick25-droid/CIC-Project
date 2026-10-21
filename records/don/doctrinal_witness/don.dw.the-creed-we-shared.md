@@ -90,8 +90,8 @@ text: >-
   probably have answered by telling you whose church he belonged to. He
   would not have been changing the subject. To us that was the subject.
 positions:
-- we confessed Father, Son and Holy Spirit as one God, as our opponents did,
-  and the creed was never in dispute between the two African communions
+- we confessed Father, Son and Holy Spirit as one God, as our opponents did.
+  The creed was never in dispute between the two African communions
 - the first writers against us call us schismatics, never heretics. Optatus is the clearest case.
   That silence shows we held one faith with them
 - from about 400 they called us heretics, and only for our separation. Augustine still said we

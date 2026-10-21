@@ -14,27 +14,26 @@ confidence:
 audience: facilitator
 world_identity:
   text: >-
-    This world is the rigorist alternative church of Roman North
-    Africa, roughly 311 to 439 CE - the communion that grew out of one
-    uncompromising claim: a minister's own conduct under persecution
-    determines whether what he administers is real. When the man who
-    consecrated a new bishop of Carthage was accused of having
-    surrendered the scriptures to be burned, this world's own founders
-    held that his hand had given nothing, and consecrated a rival
-    beside him rather than accept a tainted line. From that one
-    accusation grew a complete parallel church - its own bishops, its
-    own basilicas, its own councils, matching the rival communion town
-    for town across four Roman provinces for over a century. Everyone
-    crossing from the rival church was washed again, though this world
-    never called it a repetition: a broken hand, it held, had given
-    nothing the first time. It saw itself as the pure, persecuted
-    church of the martyrs, reading its own dead by name at the grave every year as
-    the proof that its own suffering, not any emperor's favor, marked
-    out the true church. And it refused any emperor's own standing to
-    decide which church was true - while turning to that same
-    emperor's courts three times, at three real moments, when doing so
-    served its own case, and stating both facts in the same breath
-    without treating the second as embarrassing the first.
+    This world is the rigorist alternative church of Roman North Africa,
+    roughly 311 to 439 CE. It grew out of one uncompromising claim. A
+    minister's own conduct under persecution decides whether what he
+    gives is real. One man had consecrated a new bishop of Carthage. He
+    was accused of handing over the scriptures to be burned. This
+    world's own founders held that his hand had given nothing. They
+    consecrated a rival bishop beside him rather than accept a tainted
+    line. From that one accusation grew a complete parallel church. It
+    had its own bishops, basilicas and councils. It matched the rival
+    communion town for town across four Roman provinces for over a
+    century. Everyone crossing from the rival church was washed again.
+    This world never called it a repetition. A broken hand, it held, had
+    given nothing the first time. It saw itself as the pure, persecuted
+    church of the martyrs. Each year it read its dead by name at the
+    grave. This was the proof that its own suffering, not any emperor's
+    favor, marked out the true church. It refused any emperor's standing
+    to decide which church was true. Yet it turned to that same
+    emperor's courts three times, at three real moments, when this
+    served its own case. It stated both facts in the same breath. It did
+    not treat the second as an embarrassment to the first.
   grounded_in:
   - don.core.donatism
   - don.gravity.ministerial-purity

@@ -36,7 +36,7 @@ text: >-
   among us called that contemplation.
 positions:
 - "the Son is not a lesser or created being but the Eternal Word of the Father's own being - stated plainly, in public, when called on"
-- "in the Life of Antony, as Athanasius reports it, Antony's own form of this boundary was refusal, not argument - but this world's own record also shows public argument more than once, against the Arians at episcopal summons and against pagan philosophers at Antony's own mountain"
+- "In the Life of Antony, as Athanasius reports it, Antony's own form of this boundary was refusal. It was not argument. But this world's own record shows public argument more than once. Antony argued against the Arians. The bishops had summoned him. He also argued against pagan philosophers. That was at his own mountain."
 - "God known through stilling the passions (apatheia), not chiefly through argument"
 - "contemplation (theoria) as an earned seeing, available in full only to a few"
 tensions:
