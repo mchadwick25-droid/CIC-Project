@@ -280,3 +280,12 @@ Chosen while building, not by Mark (flag, change if wrong)
 Checks
 - Frontend tests, type check and a run of the real app in Chromium with a mocked API at a phone and a laptop width. Not checked: a real phone or tablet, a screen reader, or the live streaming path (the mock returns whole replies).
 
+
+## Records catch-up — 2026-10-21
+Entries below correct or add to earlier ones. Nothing earlier is edited.
+- **Theme E, scroll and swipe:** the 2026-10-20 decision added wheel and swipe to the hand. The wheel was removed on 2026-10-20 (no wheel handler in `cic-website/assets/chooser.js` on main, checked 2026-10-21). The "Status after PR 987 merged" entry that says a wheel handler is on main is out of date. The visible list control stands in for scrolling without a wheel.
+- **Rulings reported by the other pilot feedback manager (Mark), not read at their source:** (1) one build thread at a time; (2) Theme B's length and filler check only logs and never triggers a paid redo, which also settles the earlier worry that a check-and-redo could contradict PR 869; (3) the in-room AI note is one small light line at the foot (PR 1013). Item 29 change order 1 removed the long in-room disclosure; this is the small line that remains. The unchecked question there (whether a law or platform rule calls for a disclosure in the conversation) is still open for Mark.
+- **Theme G:** "Free to start. Add more any time." is built under the hand (log, 2026-10-20). The Theme D change order saying it has no home on the page is out of date.
+- **Access and payment, new work:** coupons and exceptions for particular people, and pay as you go. Mark has not given the design. Mechanics that exist: free allowance, packs, sponsor codes, tester codes (`engine/deeper/ops/go-deeper.yaml`). A tester code passes the daily cap (`engine/api/anon_cap.py`, checked on main 2026-10-21). Asked first, nothing built.
+- **Daily cap, flagged and not asked:** a conversation counts toward the 5 a day when it is created, even if the first voice reply then fails.
+- **Admission gate:** `python -m engine.m3.admission_conform --enforce` failed for all 11 worlds on 2026-10-21. Mark has not ruled on running, waiving or holding it for the whole fleet. A log entry says it was waived for the conversation pages.
