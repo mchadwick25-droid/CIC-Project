@@ -172,6 +172,25 @@ describe('Conversation - the page', () => {
     expect(container.textContent).not.toMatch(/AI voice|Questions you might ask|Look for the ✲/);
   });
 
+  it('says in one small line under the box that the voice is AI, outside the conversation', () => {
+    const { container } = render(<Conversation {...baseProps} turns={[]} />);
+    const line = container.querySelector('.conversation__ai-line') as HTMLElement;
+    expect(line.textContent).toBe('This is an AI-generated voice.');
+    expect(container.querySelector('.conversation__transcript')?.contains(line)).toBe(false);
+    expect(container.querySelector('textarea')?.compareDocumentPosition(line)).toBe(Node.DOCUMENT_POSITION_FOLLOWING);
+  });
+
+  it('keeps the AI line once the conversation is closed, and drops it when the conversation is deleted', async () => {
+    const { container, rerender } = render(<Conversation {...baseProps} turns={asked} closed />);
+    expect(container.querySelector('.conversation__ai-line')).not.toBeNull();
+    rerender(<Conversation {...baseProps} turns={asked} onDelete={async () => {}} />);
+    choose('Delete this conversation');
+    await act(async () => {
+      fireEvent.click(screen.getByRole('button', { name: 'Delete' }));
+    });
+    expect(container.querySelector('.conversation__ai-line')).toBeNull();
+  });
+
   it('lifts the card while a sent question waits for its reply, and lets it rest otherwise', () => {
     const { container, rerender } = render(<Conversation {...baseProps} turns={asked} />);
     expect(container.querySelector('.conv-card--speaking')).toBeNull();

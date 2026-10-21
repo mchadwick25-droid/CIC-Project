@@ -192,6 +192,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
           initialMessage={started ? '' : carriedQuestion}
         />
       )}
+      {!deleted && <p className="conversation__ai-line sans">This is an AI-generated voice.</p>}
     </div>
   );
 }
