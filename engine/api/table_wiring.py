@@ -198,7 +198,6 @@ def create_table_session(
     seated = [
         {
             "representative_name": w.frame["representative"]["name"],
-            "role_label": w.frame["representative"]["role_label"],
             # card_name over display_name: see door_turn's own docstring
             # (Built-World Voice Alignment).
             "world_name": registry[w.world_key].get("card_name") or w.frame["display_name"],
@@ -750,7 +749,7 @@ def _advance_open_round(
         presentation_order = list(state.world_keys)
         random.shuffle(presentation_order)
         seated_lines = "\n".join(
-            f"- {worlds[k].frame['representative']['name']}, {worlds[k].frame['representative']['role_label']} of {worlds[k].frame['display_name']} (world_key: {k})"
+            f"- {worlds[k].frame['representative']['name']} of {worlds[k].frame['display_name']} (world_key: {k})"
             for k in presentation_order
         )
         transcript_speakers = [t["speaker"] for t in transcript if t.get("speaker") not in ("participant", "facilitator", None)]

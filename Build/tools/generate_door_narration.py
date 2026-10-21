@@ -16,7 +16,12 @@ unless --force.
 Usage:
   ELEVENLABS_API_KEY=... python3 Build/tools/generate_door_narration.py \\
     --voice-id <id> --model <model_id> --output-format <fmt> \\
-    --settings-json '{"stability":0.55,...}' [--only a,b] [--dry-run] [--force]
+    --settings-json '{"stability":0.55,...}' --approved-run "<name>" --char-cap <n> \\
+    [--only a,b] [--dry-run] [--force]
+
+--approved-run (the run Mark approved after hearing its sample) and --char-cap
+(its character limit) are required except with --dry-run; a run that plans more
+characters than its cap refuses to start.
 
 Every paid setting is named on the command and printed before the requests.
 """
@@ -81,6 +86,20 @@ def synthesize(text, *, api_key, voice_id, model, output_format, settings):
         return response.read(), int(response.headers.get("character-cost") or 0)
 
 
+def require_approved_run(approved_run, char_cap, planned_chars):
+    """A paid run names, on the command, the run Mark approved after hearing its
+    sample and that run's character cap (CLAUDE.md 3.2, paid bulk runs). Without
+    both, or when the run plans more characters than its cap, it refuses to
+    start: before the key is read and before any request is sent."""
+    if not approved_run or approved_run.startswith("--"):
+        raise SystemExit('--approved-run "<name>" is required: the name of the run Mark approved after hearing its sample.')
+    if char_cap is None or char_cap <= 0:
+        raise SystemExit("--char-cap <n> is required: the approved character limit for this run, a whole number above 0.")
+    if planned_chars > char_cap:
+        raise SystemExit(f"this run plans {planned_chars} characters, over its --char-cap of {char_cap}. "
+                         "Narrow it with --only, or get a higher cap approved.")
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--voice-id")
@@ -90,6 +109,8 @@ def main(argv=None):
     parser.add_argument("--only")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--approved-run", help="required (except --dry-run): the run Mark approved after hearing its sample")
+    parser.add_argument("--char-cap", type=int, help="required (except --dry-run): the approved character limit for this run")
     args = parser.parse_args(argv)
 
     entries = door_entries()
@@ -110,11 +131,13 @@ def main(argv=None):
                         ("--output-format", args.output_format), ("--settings-json", args.settings_json)]:
         if not value or value.startswith("--"):
             raise SystemExit(f"{flag} is required and is never read from the environment.")
+    require_approved_run(args.approved_run, args.char_cap, total)
     settings = json.loads(args.settings_json)
     api_key = os.environ.get("ELEVENLABS_API_KEY")
     if not api_key:
         raise SystemExit("ELEVENLABS_API_KEY is not set.")
     print("=== PAID RUN, settings as actually used ===")
+    print(f"approved run  : {args.approved_run}   char cap: {args.char_cap}")
     print(f"voice id      : {args.voice_id}")
     print(f"model         : {args.model}")
     print(f"output format : {args.output_format}")

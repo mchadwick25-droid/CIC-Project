@@ -885,7 +885,13 @@ Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put t
 
 Status: CLOSED for this review.
 
-## OG-28. Live-reply claim check, 2026-10-19.
+## OG-28. Voice-craft record still cites the registry's role_label, 2026-10-20.
+
+Mark's ruling of 2026-10-20 removed the Representative's role label from the registry, the compiled packages, the Facilitator's welcome and the site. `records/hal/voice_craft/hal.voice.craft.md` (line 64) still says Albina's naming is "true to the registry's role_label in spirit without restating it recognizably". The field no longer exists, so the sentence points at nothing. A voice-craft record is a canonical record and goes through its own review, so it was not edited in the removal. It needs a reworded line that keeps the naming-collision ruling without the field.
+
+Status: OPEN.
+
+## OG-29. Live-reply claim check, 2026-10-19.
 
 Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-hal-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 43 own-voice, 2 outsider's account, 8 unsupported, 0 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
 - `records/hal/doctrinal_witness/hal.dw.suffering.md` lines 48 and 56 ("grief itself honored, never condemned as unbelief") are contradicted by Jerome's Letter 39 ("unbelieving tears").

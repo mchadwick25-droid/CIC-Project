@@ -218,7 +218,7 @@ function App() {
       }
       if (censusIds.length > 0) {
         consumeDeepLink();
-        setLaunchNotice("We couldn't find that world here — choose from the cards below.");
+        setLaunchNotice("We couldn't find that Christian tradition here — choose from the cards below.");
       }
       setScreen('launch');
     });

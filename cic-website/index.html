@@ -39,6 +39,15 @@
   --wide:64rem; --col:44rem; --measure:38rem;
 }*{box-sizing:border-box}
 html{scroll-padding-top:1rem}
+html{scrollbar-width:none}
+html::-webkit-scrollbar{display:none}
+.page-rail{position:fixed;top:0;right:0;bottom:0;width:18px;z-index:600;background:var(--surface);border-left:1px solid var(--rule);touch-action:none;cursor:pointer}
+.page-rail[hidden]{display:none}
+body:has(.page-rail:not([hidden])){margin-right:18px}
+.page-rail-thumb{position:absolute;top:0;left:3px;right:3px;border-radius:999px;background:var(--control);cursor:grab}
+.page-rail:hover .page-rail-thumb,.page-rail.dragging .page-rail-thumb{background:var(--action)}
+.page-rail.dragging .page-rail-thumb{cursor:grabbing}
+.page-rail:focus-visible{outline:3px solid var(--action);outline-offset:-3px}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
 a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
 a:hover{color:var(--action-hover)}
@@ -62,11 +71,11 @@ p{margin:0 0 1rem}
    four links spelled out inline would run to ~1250px). */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
-.brand{display:flex;align-items:center;gap:.5rem}
-.brand .arriving{width:30px;flex:0 0 30px;color:var(--mark-ink);background:none;border:0;padding:0;cursor:pointer}
+.brand{display:flex;align-items:center;gap:.5rem;min-width:0}
+.brand .arriving{width:44px;flex:0 0 44px;box-sizing:border-box;color:var(--mark-ink);background:none;border:0;padding:7px;cursor:pointer}
 .brand .arriving:hover{color:var(--action)}
 .brand svg{display:block;width:100%;height:auto}
-.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;padding:.5rem 0;display:inline-block;min-width:0}
 .wordmark em{font-style:italic;font-weight:400}
 .menu{position:relative;margin-left:auto}
 /* Centered in the space actually available between the logo and the menu
@@ -80,7 +89,7 @@ p{margin:0 0 1rem}
    the middle column is whatever's genuinely left, with no risk of
    overlapping either side -- only turned on above the width where the
    whole row fits unwrapped. */
-@media (min-width:1000px){
+@media (min-width:62.5rem){
   .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
   .menu{margin-left:0}
   .feature-bar{justify-self:center}
@@ -101,18 +110,7 @@ p{margin:0 0 1rem}
 .site-nav a[aria-current="page"]{color:var(--action)}
 .site-nav a[hidden]{display:none}
 
-.history-strip{display:flex;max-width:var(--wide);margin:1.5rem auto 0;height:1.15in;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scroll-snap-type:x proximity;background:var(--surface)}
-.history-strip>a,.history-strip>img{flex:0 0 1.725in;width:1.725in;height:1.15in;scroll-snap-align:start}
-.history-strip>a{display:block;position:relative;overflow:hidden}
-.history-strip img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.85);transition:filter .2s,transform .2s}
-.history-strip>a:hover img,.history-strip>a:focus-visible img{filter:saturate(1);transform:scale(1.03)}
-@media (max-width:640px){
-  .history-strip{height:1.4in}
-  .history-strip>a,.history-strip>img{flex-basis:2.1in;width:2.1in;height:1.4in}
-}
-@media (prefers-reduced-motion:reduce){ .history-strip>a:hover img,.history-strip>a:focus-visible img{transform:none} }
 
-.hero{max-width:76rem;margin:0 auto;padding:2.5rem 1.25rem .6rem;text-align:center}
 .arriving-ring{fill:none;stroke:currentColor;stroke-width:11;stroke-linecap:round;stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
 .arriving-seat{fill:var(--mark-dot);transform-origin:88.5px 50px;transform:translate(0,0)}
 .arriving.pending .arriving-ring{stroke-dasharray:0 360;opacity:0}
@@ -127,18 +125,11 @@ p{margin:0 0 1rem}
   .arriving.pending .arriving-ring{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
   .arriving.pending .arriving-seat{transform:translate(0,0)}
 }
-.hero h1{font-weight:500;line-height:1.25;max-width:63rem;margin:0 auto .6rem}
-.hero-lead{display:block;font-size:clamp(2rem,1.3rem + 2.8vw,3.25rem);font-weight:600}
 .door-line{max-width:46rem;margin:1rem auto 0;font-family:var(--sans);font-size:1rem;line-height:1.5;color:var(--muted);text-align:center}
-.hero-dek{display:block;font-family:var(--sans);font-size:clamp(1.15rem,1rem + .7vw,1.4rem);font-weight:400;color:var(--muted);line-height:1.55;max-width:70rem;margin:.8rem auto 0}
 .home-flow{max-width:var(--wide);margin:0 auto;padding:.5rem 1.25rem 0}
-/* .feature-card: the bordered container shared by the three features (Build a Table, Church Family Tree, Conversation with One). */
+/* .feature-card: the bordered container shared by the Church Family Tree and Conversation with One. */
 .feature-card{margin:3rem 0 0;background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
-.conversation-card{padding:1.75rem}
-.conversation-intro{margin:0 0 1.5rem}
-.conversation-intro h2{font-size:clamp(1.6rem,3vw,2.1rem);margin:0 0 .4rem}
-.conversation-intro .tagline{font-family:var(--sans);font-style:italic;color:var(--action);font-size:1.05rem;margin:0 0 1rem}
-.conversation-intro p{font-family:var(--sans);color:var(--text)}
+.feature-card.conversation-card{background:transparent;border:0;border-radius:0;overflow:visible;padding:0;margin-top:0}
 .table-give{max-width:34rem;margin:3rem auto 0}
 @media (max-width:48rem){
   .support-photo{flex:none;min-height:0}
@@ -187,62 +178,45 @@ p{margin:0 0 1rem}
 .ai-note{max-width:var(--col);margin:2.5rem auto 0;padding:1.2rem 1.25rem 0;border-top:1px solid var(--rule);font-family:var(--sans);font-size:.95rem;color:var(--muted);text-align:center}
 .cta-link{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-weight:600;color:var(--action);border-bottom:1px solid currentColor;padding-bottom:.15rem;text-decoration:none}
 .cta-link:hover,.cta-link:focus-visible{color:var(--action-hover)}
-.cta-link .arriving{width:20px;flex:0 0 20px;color:var(--mark-ink)}
-@media (max-width:640px){
-  .hero{padding:1.75rem 1.25rem 1rem}
-  .hero-lead{font-size:1.6rem}
-  .hero-dek{font-size:.85rem}
-}
 
-.who{padding:.3rem 0 0}
-.who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .8rem;max-width:var(--measure);color:var(--action)}
-.era-group:not(:first-child){margin-top:1.8rem}
-.era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.3rem;margin:0}
-.era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
-/* Plain native overflow, deliberately with no custom scrollbar CSS or JS
-   of any kind -- several rounds of trying to style or replace the native
-   scrollbar here all ran into a paint bug specific to a sandboxed Linux/
-   Xvfb testing environment, not to real browsers: the plain, unmodified
-   version of this rule already works correctly in production. */
-.chairs{list-style:none;margin:.4rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout}
-.chair{--ring:var(--tint-dark);flex:0 0 auto;width:296px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:.8rem}
-/* Narrower than the container on small screens so the next card peeks in
-   at the edge -- at a 296px fixed width the card would be as wide as or
-   wider than its own mobile scroll container, leaving nothing of the next
-   card showing and no visual hint the row scrolls at all. */
-@media (max-width:48rem){
-  .chair{width:calc(100% - 2.5rem)}
+.who{padding:1.4rem 0 0}
+.who h1,.who h2{font-size:clamp(1.7rem,3.4vw,2.5rem);font-weight:400;line-height:1.15;margin:0;color:var(--text);text-align:center;letter-spacing:-.01em}
+.who-head{display:flex;flex-direction:column;align-items:center;gap:.9rem;margin:0 0 .4rem}
+.who-text{min-width:0;text-align:center}
+.who-search{width:min(26rem,100%)}
+.free-line{margin:.2rem auto 0;text-align:center;font-family:var(--sans);font-size:.95rem;color:var(--muted)}
+.who-search .chooser-search{width:100%}
+.who-search .chooser-search input{min-height:48px;font-size:1.05rem;padding:.6rem 1rem .6rem 2.9rem;background-position:1rem 50%}
+.who-search .chooser-help{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (max-width:760px){.who-search{width:100%}}
+[data-chooser][data-mode="landing"]:not([data-ready]){min-height:90vh}
+@media (max-width:699px){.who{display:flex;flex-direction:column}.who>.free-line{order:1}.who>[data-chooser]{order:2}}
+.feedback-toggle .fb-short{display:none}
+.site-header .feedback-toggle,.site-header .menu-toggle,.site-header .feature-btn{min-height:44px}
+.site-header .brand .wordmark{display:inline-block;line-height:44px;padding-block:0}
+@media (max-width:999px){
+  .site-header .feedback-toggle .fb-full{display:none}
+  .site-header .feedback-toggle .fb-short{display:inline}
+  .site-header .feedback-toggle{padding-inline:.9rem}
+  .site-header > :is(.row,.wrap){column-gap:.5rem;padding-inline:1rem}
+  .site-header .menu-toggle{padding-inline:.8rem}
+  .site-header .feature-btn{padding-inline:.35rem}
 }
-.chair .portrait{width:96px;height:96px;border-radius:50%;overflow:hidden;border:2px solid var(--ring);background:var(--ground);flex:0 0 auto}
-.chair .portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
-/* .chair-body is its own flex column (flex:1, filling whatever extra
-   height row-stretching gives a shorter card) so .launch can anchor to
-   the very bottom with margin-top:auto, instead of sitting stacked right
-   under the brief with dead space below it. */
-.chair-body{display:flex;flex-direction:column;flex:1;width:100%}
-/* The whole name/tradition/dates/brief block is one link to the
-   tradition page -- no separate arrow row. display:flex here (not
-   block) keeps the children stacked exactly as they were as
-   chair-body's own direct children. */
-.chair-link{display:flex;flex-direction:column;color:inherit;text-decoration:none}
-.chair-link:hover h4,.chair-link:focus-visible h4{color:var(--action-hover)}
-.chair h4{font-size:1.1rem;font-weight:700;margin:0}
-.chair h4 .role{display:block;font-family:var(--sans);font-weight:400;font-size:.82rem;color:var(--muted);margin:.15rem 0 0}
-.chair .trad{font-style:italic;font-size:.95rem;margin:0}
-/* The scholarly/outsider name for a tradition, next to the Representative's
-   own (often emic) name for it -- e.g. "The Church of the Martyrs
-   (Donatism)" -- so a visitor who only knows the academic label can still
-   find their way to the world that goes by a different name on its own
-   card. Sourced from each world's own census entry.subtitle field, not
-   composed here. Upright and muted against the italic name it follows,
-   matching how .role and .meta already de-emphasize secondary
-   identifying text on this card. */
-.chair .trad-academic{font-style:normal;color:var(--muted)}
-.chair .meta{font-family:var(--sans);font-size:.8rem;color:var(--muted);margin:0}
-/* Line-clamp raised from 5 to 7 -- removing the separate arrow row freed
-   the space for a line or two more of the brief. */
-.chair .tile{margin:0;font-size:.9rem;line-height:1.5;display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
-.chair .launch{display:inline-flex;align-items:center;min-height:44px;font-family:var(--sans);font-size:.9rem;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor;margin-top:auto;padding-top:.6rem}
+.site-footer nav a{min-width:44px;justify-content:center}
+body .cicp-play{min-height:44px}
+body .cicp-rail{height:44px}
+body .cicp-speeds button{min-height:44px;min-width:44px;padding:0 .3rem}
+@media (max-width:860px){.site-header .feature-btn{font-size:.8rem}.site-header .brand .wordmark{font-size:1rem}}
+@media (max-width:640px){
+  .site-header > :is(.row,.wrap){display:flex;flex-wrap:wrap;align-items:center;gap:0 .4rem;padding-inline:1rem}
+  .site-header > :is(.row,.wrap) .brand{flex:1 1 auto;min-width:0}
+  .site-header .brand .wordmark{font-size:.9rem}
+  .site-header .brand{gap:.3rem}
+  .site-header .feedback-toggle,.site-header .menu-toggle{font-size:.8rem;padding-inline:.65rem}
+  .site-header .feedback-toggle,.site-header .menu{margin-left:0}
+  .site-header .feature-bar{order:3;flex:1 0 100%;justify-content:space-between;gap:0}
+  .site-header .feature-btn{padding:.3rem .25rem;font-size:.85rem}
+}
 .more-link{margin:1.5rem 0 0;font-family:var(--sans);font-size:.9rem}
 .more-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
 
@@ -275,17 +249,15 @@ p{margin:0 0 1rem}
 .site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
 .site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
 .site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
-.photo-credits{max-width:var(--wide);margin:0 auto;padding:0 1.25rem 1.4rem;font-size:.75rem;line-height:1.7;color:var(--graphite)}
-.photo-credits a{color:var(--graphite);min-height:auto}
 @media print{ .site-header,.support,.skip-link{display:none} }
 
-/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- part of the single header row, not its own row. Centered via the grid rule above at wide widths; filled rust so the three stand out, matching the site's existing solid-button pattern (.support-btn) rather than inventing a new fill color. flex-shrink stays at its default (1), not 0 -- a fixed-width feature-bar can't shrink to wrap its own buttons on narrow screens, which would push "Build a Table" off the edge of the viewport. */
-.feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
-.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--vellum);background:var(--madder);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--madder);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
-.feature-btn:hover,.feature-btn:focus-visible{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
-.feature-btn[aria-current="page"]{border-color:var(--action)}
-@media (max-width:640px){.feature-bar{gap:.5rem}.feature-btn{font-size:.8rem;padding:.45rem .9rem}}
+.feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.2rem}
+.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:600;color:var(--text);background:none;text-decoration:none;padding:.5rem .45rem;border:1px solid transparent;border-radius:999px;min-height:38px;display:inline-flex;align-items:center;white-space:nowrap}
+.feature-btn:hover,.feature-btn:focus-visible{background:none;border-color:transparent;color:var(--action);text-decoration:underline;text-underline-offset:.2em}
+.feature-btn[aria-current="page"]{color:var(--action)}
+@media (max-width:640px){.feature-bar{gap:.1rem}.feature-btn{font-size:.85rem;padding:.45rem .55rem}.feature-btn{white-space:normal;text-align:center}.site-header .feedback-toggle{white-space:normal;max-width:100%}}
 </style>
+<link rel="stylesheet" href="assets/chooser.css">
 <link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
@@ -304,7 +276,7 @@ p{margin:0 0 1rem}
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
-    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false"><span class="fb-full">Tell us what you think</span><span class="fb-short" aria-hidden="true">Feedback</span></button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -318,39 +290,30 @@ p{margin:0 0 1rem}
   </div>
 </header>
 
-<div class="history-strip" role="group" aria-label="Images from across the Church's 2000-year history">
-  <img src="assets/history-era-spanning/priscilla-fresco.jpg" alt="Fresco of a Christian Agape feast, Catacombs of Priscilla, Rome, 2nd-4th century" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/etchmiadzin-cathedral.jpg" alt="Etchmiadzin Cathedral, Armenia, founded 301 CE" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/holy-sepulchre.jpg" alt="The Church of the Holy Sepulchre, Jerusalem" loading="eager" decoding="async">
-  <a href="traditions/desert-monasticism.html"><img src="assets/history/desert.jpg" alt="The Monastery of Saint Macarius, Egypt" loading="eager" decoding="async"></a>
-  <img src="assets/history-era-spanning/lalibela.jpg" alt="The rock-hewn churches of Lalibela, Ethiopia, 12th-13th century" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/chartres-cathedral.jpg" alt="Large figures on the north porch, Chartres Cathedral, 1852 salted-paper print" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/book-of-kells.jpg" alt="An illuminated Gospel manuscript, Metropolitan Museum of Art, c. 1400" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/st-francis-kochi.jpg" alt="St. Francis Church, Fort Kochi, India, founded 1503" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/martin-luther-portrait.jpg" alt="Engraved portrait of Martin Luther in a doctoral cap, Metropolitan Museum of Art" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/st-basils-moscow.jpg" alt="Saint Basil's Cathedral, Moscow, built 1555-1561" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/st-peters-basilica.jpg" alt="St. Peter's Basilica, Vatican City, consecrated 1626" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/azusa-street.jpg" alt="The Apostolic Faith Mission on Azusa Street, Los Angeles, photographed 1907" loading="eager" decoding="async">
 </div>
 
 <main id="main" tabindex="-1">
 
-  <section class="hero" aria-labelledby="hook">
-    <h1 id="hook"><span class="hero-lead">Explore hundreds of Christian traditions and stories across two thousand years.</span><span class="hero-dek">Then talk to representatives from a growing number of those traditions, each built from its own historical records.</span></h1>
-    <p id="door-line" class="door-line" role="status" hidden></p>
-  </section>
-
-  <section class="atlas-showcase feature-card table-showcase" aria-labelledby="table-showcase-title">
-    <a class="atlas-showcase-media" href="table.html" aria-label="Open Build a Table">
-      <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="eager" decoding="async">
-    </a>
-    <div class="atlas-showcase-copy">
-      <h2 id="table-showcase-title">Build a Table</h2>
-      <p class="tagline">Three Voices, One Conversation</p>
-      <p>Seat up to three traditions from across the church's history. Put a question to the table and hear each one answer and discuss. You will hear where they agree, and where they part ways.</p>
-      <a class="cta-link" href="table.html"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Build the table →</a>
+  <div class="home-flow">
+    <div class="feature-card conversation-card">
+    <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
+    <div class="who-head">
+      <div class="who-text">
+        <h1 id="who-title">Who would you like to have a conversation with?</h1>
+      </div>
+      <div class="who-search" id="chooser-search-slot"></div>
     </div>
+    <p id="door-line" class="door-line" role="status" hidden></p>
+    <div data-chooser data-mode="landing" data-from="index.html#who" data-search-slot="#chooser-search-slot">
+      <div data-chooser-fallback hidden>
+        <p>The voices could not load just now. You can still <a href="atlas-v3.html">browse every tradition on the Church Family Tree</a> and start a conversation from there.</p>
+      </div>
+      <noscript><p>Choosing a voice here needs JavaScript. You can still <a href="atlas-v3.html">browse every tradition on the Church Family Tree</a>.</p></noscript>
+    </div>
+    <p class="free-line">Free to start. Add more any time.</p>
   </section>
+    </div>
+  </div>
 
   <section class="atlas-showcase feature-card" aria-labelledby="atlas-showcase-title">
     <a class="atlas-showcase-media" href="atlas-v3.html" aria-label="Open Church Family Tree">
@@ -377,167 +340,6 @@ p{margin:0 0 1rem}
   </section>
 
   <div class="home-flow">
-    <div class="feature-card conversation-card">
-    <div class="conversation-intro">
-      <h2>Conversation with One</h2>
-      <p class="tagline">One Voice, One Conversation</p>
-      <p>Choose a representative of a Christian tradition below. Each one is built from that tradition's own writings, so you can ask what they believed and how they followed Jesus.</p>
-    </div>
-    <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
-    <h2 id="who-title">Who would you like to talk with?</h2>
-
-    <div class="era-group" id="era-1">
-    <h3 class="era-head">The Early Church Era<span class="dates">70–312 CE</span></h3>
-    <ol class="chairs" id="era-1-chairs">
-      <li class="chair" style="--tint:#7c3aed;--tint-dark:#955FF0">
-        <div class="portrait"><a href="traditions/post-apostolic-house-church.html"><img src="assets/portraits/thumb/house-churches.webp" alt="Chloe, Representative of The Scattered Households" width="96" height="96" loading="lazy" decoding="async"></a></div>
-        <div class="chair-body">
-          <a class="chair-link" href="traditions/post-apostolic-house-church.html" aria-label="More information — The Scattered Households">
-            <h4>Chloe<span class="role">Household Leader</span></h4>
-            <p class="trad">The Scattered Households <span class="trad-academic">(Post-Apostolic Household-Church Christianity)</span></p>
-            <p class="meta">70–200 CE · Antioch, Asia Minor, Rome</p>
-            <p class="tile">An uncommon faith in scattered households lived as one body, connected by letters and a shared table. Following Jesus meant loss of status, suspicion from neighbors, and even outright persecution at times. Once the apostles were gone, some were led by a single bishop and elders, others by a council of elders.</p>
-          </a>
-          <a class="launch" href="talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
-        </div>
-      </li>
-      <li class="chair" style="--tint:#2B5F8A;--tint-dark:#3B83BF">
-        <div class="portrait"><a href="traditions/alexandria-catechetical.html"><img src="assets/portraits/thumb/alexandria.webp" alt="Theon, Representative of Alexandrian Christianity" width="96" height="96" loading="lazy" decoding="async"></a></div>
-        <div class="chair-body">
-          <a class="chair-link" href="traditions/alexandria-catechetical.html" aria-label="More information — Alexandrian Christianity">
-            <h4>Theon<span class="role">Catechetical Teacher</span></h4>
-            <p class="trad">Alexandrian Christianity <span class="trad-academic">(Alexandrian Catechetical Tradition)</span></p>
-            <p class="meta">c. 150–400 CE · Alexandria, Egypt</p>
-            <p class="tile">In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared life of reading Scripture. They believed its surface pointed toward a deeper meaning, one that opened onto the Logos himself. Persecution reached even its teachers. Origen's father was martyred while Origen was still a boy. Some called it one continuous school; others say it was simply a series of private teachers, grouped together only in hindsight.</p>
-          </a>
-          <a class="launch" href="talk.html?worlds=alexandria-catechetical&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
-        </div>
-      </li>
-      <li class="chair" style="--tint:#b45309;--tint-dark:#CC5E0A">
-        <div class="portrait"><a href="traditions/syriac-edessa-nisibis.html"><img src="assets/portraits/thumb/syriac.webp" alt="Mar Yausep, Representative of Syriac Christianity" width="96" height="96" loading="lazy" decoding="async"></a></div>
-        <div class="chair-body">
-          <a class="chair-link" href="traditions/syriac-edessa-nisibis.html" aria-label="More information — Syriac Christianity">
-            <h4>Mar Yausep<span class="role">Teacher of the Covenant Order</span></h4>
-            <p class="trad">Syriac Christianity <span class="trad-academic">(Syriac Christianity of Edessa and Nisibis)</span></p>
-            <p class="meta">200–410 CE · Edessa &amp; Nisibis</p>
-            <p class="tile">In Edessa and Nisibis, from 200 to 410 CE, Christians taught their faith in hymn and read Scripture as a world of types answering type. At the community's ascetic core stood the covenant. Its men and women vowed to celibacy for life and served their own congregation instead of withdrawing to the desert. On the Persian side of the frontier, the king's persecution took the bishop Simeon bar Sabbae and left the church's chief seat empty for twenty years. Whether authority rested more in that vow or in a bishop's office was never settled in their own record.</p>
-          </a>
-          <a class="launch" href="talk.html?worlds=syriac-edessa-nisibis&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
-        </div>
-      </li>
-    </ol>
-    </div>
-
-    <div class="era-group" id="era-2">
-    <h3 class="era-head">The Imperial Church Era<span class="dates">312–451 CE</span></h3>
-    <ol class="chairs" id="era-2-chairs">
-      <li class="chair" style="--tint:#346548;--tint-dark:#4C946A">
-        <div class="portrait"><a href="traditions/donatism.html"><img src="assets/portraits/thumb/donatism.webp" alt="Fidelis, Representative of The Church of the Martyrs" width="96" height="96" loading="lazy" decoding="async"></a></div>
-        <div class="chair-body">
-          <a class="chair-link" href="traditions/donatism.html" aria-label="More information — The Church of the Martyrs">
-            <h4>Fidelis<span class="role">Bishop of the Unbroken Line</span></h4>
-            <p class="trad">The Church of the Martyrs <span class="trad-academic">(Donatism)</span></p>
-            <p class="meta">c. 311–439 CE · Carthage &amp; Numidia, Roman North Africa</p>
-            <p class="tile">In 311/312, Caecilian was consecrated bishop of Carthage by a man accused of surrendering his copy of the scriptures when ordered to. Because of it, a rival was consecrated beside him, not in his place. From that day the same see held two bishops at once. Two parallel hierarchies contested town after town across Roman North Africa, each holding its own basilicas and its own unbroken line of ordination. This rigorist, alternative communion grew from that refusal. Its confession is standard North African Latin Trinitarian and Christological orthodoxy, so it is no doctrinal heresy. What set it apart was one unyielding conviction, that a tainted hand cannot give what it claims to give. It closes in 439, when a Vandal army took Carthage and removed the Roman state this whole refusal was defined against.</p>
-          </a>
-          <a class="launch" href="talk.html?worlds=donatism&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
-        </div>
-      </li>
-      <li class="chair" style="--tint:#7A2E2E;--tint-dark:#C36060">
-        <div class="portrait"><a href="traditions/imperial-juridical-christianity.html"><img src="assets/portraits/thumb/empire.webp" alt="Marius, Representative of Church and Empire" width="96" height="96" loading="lazy" decoding="async"></a></div>
-        <div class="chair-body">
-          <a class="chair-link" href="traditions/imperial-juridical-christianity.html" aria-label="More information — Church and Empire">
-            <h4>Marius<span class="role">Deacon of the Letters</span></h4>
-            <p class="trad">Church and Empire <span class="trad-academic">(Imperial and Juridical Christianity)</span></p>
-            <p class="meta">c. 312-451 · Rome, Constantinople, Milan</p>
-            <p class="tile">In Rome, Constantinople, and Milan, from Constantine's toleration of the church in 312 to the Council of Chalcedon in 451, Christian bishops became office-holders beside a throne rather than outlaws beneath a sword. They heard lawsuits and administered imperial funds. The emperor summoned them to councils at his own expense. Three claims to final authority over the church contested that whole century and a half. Rome claimed it from Peter, and Constantinople from its nearness to the throne. A bishop could also claim to stand in moral judgment over any ruler. The period closed without settling which claim was right. Its worst hours came from harm the church itself caused. One was a bloody contest over the bishopric of Rome. Another was a massacre an emperor ordered, then did public penance for at his own bishop's insistence.</p>
-          </a>
-          <a class="launch" href="talk.html?worlds=imperial-juridical-christianity&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
-        </div>
-      </li>
-      <li class="chair" style="--tint:#0f766e;--tint-dark:#128D84">
-        <div class="portrait"><a href="traditions/desert-monasticism.html"><img src="assets/portraits/thumb/desert.webp" alt="Papnoute, Representative of the Desert Fathers and Mothers" width="96" height="96" loading="lazy" decoding="async"></a></div>
-        <div class="chair-body">
-          <a class="chair-link" href="traditions/desert-monasticism.html" aria-label="More information — Desert Fathers and Mothers">
-            <h4>Papnoute<span class="role">Abba (Elder)</span></h4>
-            <p class="trad">Desert Fathers and Mothers <span class="trad-academic">(Desert Monasticism)</span></p>
-            <p class="meta">c. 320–430 CE · Nile Valley &amp; Desert, Egypt</p>
-            <p class="tile">In the Nile Valley and the desert of Egypt, Christians left their villages between about 320 and 430 CE. They waged a lifelong combat against the thoughts that trouble a person from within. Authority came two ways at once, and this was never resolved. One way was earned through a lifetime of discipline under one elder, as with Antony. The other was conferred by a written rule and an appointed office, as with Pachomius. Withdrawal cost everything ordinary life offered, down to land and family. All of it, even the safety of a settled place, was surrendered by stages and never reclaimed.</p>
-          </a>
-          <a class="launch" href="talk.html?worlds=desert-monasticism&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
-        </div>
-      </li>
-      <li class="chair" style="--tint:#A0522D;--tint-dark:#C46437">
-        <div class="portrait"><a href="traditions/cappadocian-nicene-pastoral-monastic-tradition.html"><img src="assets/portraits/thumb/cappadocian.webp" alt="Chilo, Representative of The Cappadocian Churches" width="96" height="96" loading="lazy" decoding="async"></a></div>
-        <div class="chair-body">
-          <a class="chair-link" href="traditions/cappadocian-nicene-pastoral-monastic-tradition.html" aria-label="More information — The Cappadocian Churches">
-            <h4>Chilo<span class="role">Elder of the Brotherhoods</span></h4>
-            <p class="trad">The Cappadocian Churches <span class="trad-academic">(Cappadocian Pastoral-Monastic and Trinitarian Tradition)</span></p>
-            <p class="meta">c. 325-394 CE · Cappadocia / Anatolia</p>
-            <p class="tile">The Nicene-confessing churches of Cappadocia and Pontus, from about 325 to 394 CE, were carried by one family and one friendship: Basil of Caesarea, his sister Macrina, his brother Gregory of Nyssa, and Basil's friend Gregory of Nazianzus. A radical ascetic ferment had already dissolved households and turned slaves against masters. Basil built something else instead, brotherhoods bound by rule and obedience, with an open guest-door. Julian's brief pagan revival cost them a martyr at Caesarea in 362. Under Valens, the Homoian church that followed drove Gregory of Nyssa into exile. Then, in 381, this Nicene minority inherited the empire's favor.</p>
-          </a>
-          <a class="launch" href="talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
-        </div>
-      </li>
-      <li class="chair" style="--tint:#5A6B74;--tint-dark:#8FA3AC">
-        <div class="portrait"><a href="traditions/gallic-monastic-ascetic-christianity.html"><img src="assets/portraits/thumb/gallic.webp" alt="Renatus, Representative of The Monk-Bishops of Gaul" width="96" height="96" loading="lazy" decoding="async"></a></div>
-        <div class="chair-body">
-          <a class="chair-link" href="traditions/gallic-monastic-ascetic-christianity.html" aria-label="More information — The Monk-Bishops of Gaul">
-            <h4>Renatus<span class="role">Bishop</span></h4>
-            <p class="trad">The Monk-Bishops of Gaul <span class="trad-academic">(Gallic Monastic-Ascetic Christianity)</span></p>
-            <p class="meta">c. 360–450 CE · Loire Valley, Lérins &amp; Marseilles, Gaul</p>
-            <p class="tile">It was a church of ascetic bishops, carrying the received wisdom of Egypt west. In the Loire valley, a soldier named Martin of Tours left the army. He gathered followers in the woods and became a bishop. He never stopped living like a monk. Two generations later, monks built communities on an island off the Mediterranean coast and in the city of Marseilles. These monks had lived among the fathers of Egypt. Their communities trained abbots and bishops for the churches of southern Gaul. One of them, John Cassian, adapted the customs of the Egyptian desert for a colder climate and a different church. Another, Vincent of Lérins, wrote a rule for telling the true faith from every novelty. One argument ran through both households and was never fully settled. How much of a monk's progress is God's own gift, and how much is his own effort?</p>
-          </a>
-          <a class="launch" href="talk.html?worlds=gallic-monastic-ascetic-christianity&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
-        </div>
-      </li>
-      <li class="chair" style="--tint:#9d174d;--tint-dark:#E23B7F">
-        <div class="portrait"><a href="traditions/hieronymian-ascetic-literary.html"><img src="assets/portraits/thumb/bethlehem.webp" alt="Albina, Representative of The Bethlehem Circle" width="96" height="96" loading="lazy" decoding="async"></a></div>
-        <div class="chair-body">
-          <a class="chair-link" href="traditions/hieronymian-ascetic-literary.html" aria-label="More information — The Bethlehem Circle">
-            <h4>Albina<span class="role">Widow of the Household</span></h4>
-            <p class="trad">The Bethlehem Circle <span class="trad-academic">(Hieronymian Ascetic-Literary Christianity)</span></p>
-            <p class="meta">c. 382–420 CE · Rome &amp; Bethlehem</p>
-            <p class="tile">In Rome and then Bethlehem, from 382 to 420 CE, a circle of wealthy women and one scholar-priest practiced renunciation and scholarship as a single discipline. Their fortunes went into texts and hospitality, and into care for the sick. A Latin Bible was built word by word against the Hebrew it was first written in. The women funded it and founded it, and by Jerome's own account they pressed him with scriptural questions for decades. But Jerome wrote nearly every surviving page himself. How much independent authority his account of them really reflects is a question the surviving record cannot settle. It also had a cost. In 384 a daughter of the household died within four months of taking up Jerome's fasting regime. Rome's outrage over it helped drive the whole circle out of the city.</p>
-          </a>
-          <a class="launch" href="talk.html?worlds=hieronymian-ascetic-literary&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
-        </div>
-      </li>
-    </ol>
-    </div>
-
-    <div class="era-group" id="era-7">
-    <h3 class="era-head">The Reformation Era<span class="dates">1517–1650</span></h3>
-    <ol class="chairs" id="era-7-chairs">
-      <li class="chair" style="--tint:#366B24;--tint-dark:#579C40">
-        <div class="portrait"><a href="traditions/lutheran-wittenberg-and-its-congregations.html"><img src="assets/portraits/thumb/nikolaus.webp" alt="Nikolaus, Representative of Lutheran Wittenberg &amp; Its Congregations" width="96" height="96" loading="lazy" decoding="async"></a></div>
-        <div class="chair-body">
-          <a class="chair-link" href="traditions/lutheran-wittenberg-and-its-congregations.html" aria-label="More information — Lutheran Wittenberg">
-            <h4>Nikolaus<span class="role">Sexton-Schoolmaster</span></h4>
-            <p class="trad">The Catechized Households of Wittenberg <span class="trad-academic">(Lutheran Wittenberg &amp; Its Congregations)</span></p>
-            <p class="meta">1517–1580 · Wittenberg, Electoral Saxony</p>
-            <p class="tile">In 1517, Martin Luther sent theses against the sale of indulgences to his archbishop. He was an Augustinian friar who taught theology at the university of Wittenberg. His theses opened a movement that challenged the old order in two ways. It set Scripture's own authority against an intervening hierarchy. And it held that a person stands before God by a gift received through faith, not earned by works. Princes and city councils, rather than bishops, carried the reform into their own territories. Wittenberg's theology faculty advised them in place of a separate church government. The reform's most complete instrument was the household catechism. It had three parts, recited at rising, at table, and at night. A father or a schoolmaster examined each household every week. The commandments had terrified a conscience; a promise spoken from outside it made that conscience sure. The Mass was kept, and German hymns were sung inside it. The story runs from the Ninety-Five Theses to a confession signed before the emperor at Augsburg in 1530. It closes with a fuller confessional book gathered by 1580. By then the movement's founder had been dead some three decades.</p>
-          </a>
-          <a class="launch" href="talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
-        </div>
-      </li>
-      <li class="chair" style="--tint:#39396A;--tint-dark:#8787A1">
-        <div class="portrait"><a href="traditions/the-reformed-cities-zurich-and-geneva.html"><img src="assets/portraits/thumb/theophilus.webp" alt="Theophilus, Representative of The Reformed Cities" width="96" height="96" loading="lazy" decoding="async"></a></div>
-        <div class="chair-body">
-          <a class="chair-link" href="traditions/the-reformed-cities-zurich-and-geneva.html" aria-label="More information — The Reformed Cities">
-            <h4>Theophilus<span class="role">Pastor</span></h4>
-            <p class="trad">The Reformed Cities <span class="trad-academic">(Zurich &amp; Geneva)</span></p>
-            <p class="meta">1519–1650 · Zurich &amp; Geneva, Swiss Confederacy</p>
-            <p class="tile">On 1 January 1519, Huldrych Zwingli began preaching straight through the Gospel of Matthew at Zurich's Grossmünster rather than following the fixed lectionary. It was the first act of a reform that tested every inherited practice against Scripture and kept only what the text would warrant. Geneva's reform opened separately and was joined in 1536 by John Calvin. His ministry built a Consistory of pastors and lay elders to hold the whole city's ordinary conduct to account. Zwingli and Calvin never met. The two cities are bridged by the Consensus Tigurinus (1549), where two reforms arrived independently at language neither could disown. The pattern continues unbroken into the Scottish Kirk, the Huguenots, the Dutch Reformed, and English Puritanism.</p>
-          </a>
-          <a class="launch" href="talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
-        </div>
-      </li>
-    </ol>
-    </div>
-  </section>
-    </div>
-
   <div class="table-give">
     <section class="support" aria-labelledby="support-title">
       <div class="support-card">
@@ -568,7 +370,6 @@ p{margin:0 0 1rem}
 </main>
 
 <footer class="site-footer">
-  <p class="photo-credits">Historical images, top of page, left to right: <a href="https://commons.wikimedia.org/wiki/File:Catacombe_di_Priscilla,_Rome_-_Fresco_of_a_Christian_Agape_feast_-_Fractio_panis_-_Greek_chapel_-_2nd_-_4th_century.jpg">Fresco, Catacombs of Priscilla</a>, public domain · <a href="https://commons.wikimedia.org/wiki/File:Etchmiadzin_cathedral.jpg">Etchmiadzin Cathedral</a> (CC BY 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Jerusalem_Holy_Sepulchre_BW_23.JPG">Church of the Holy Sepulchre</a>, photo by Berthold Werner (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Monastery_of_Saint_Macarius_the_Great,_Egypt-15.JPG">Monastery of Saint Macarius</a>, photo by Faris El-Gwely (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Rock-Hewn_Churches,_Lalibela-107572.jpg">Rock-Hewn Churches, Lalibela</a>, photo by Francesco Bandarin/UNESCO (CC BY-SA 3.0 IGO) · <a href="https://archive.org/details/mma_large_figures_on_the_north_porch_chartres_cathedral_266284">Chartres Cathedral</a>, 1852, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/mma_illuminated_gospel_317618">Illuminated Gospel</a>, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St_Francis_Church_Fort_Kochi_DSC_1048.JPG">St. Francis Church, Fort Kochi</a>, photo by Ranjith Siji (CC BY-SA 4.0) · <a href="https://archive.org/details/mma_martin_luther_with_doctoral_cap_430193">Martin Luther</a>, engraving, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St._Basil%27s_Cathedral,_Moscow.jpg">St. Basil's Cathedral, Moscow</a>, photo by Zeynel Cebeci (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg">St. Peter's Basilica</a>, photo by Alvesgaspar (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:AFM_on_azusa_street.jpg">The Apostolic Faith Mission, Azusa Street</a>, 1907, photographer unknown, public domain. Photo in the contribution card: <a href="https://commons.wikimedia.org/wiki/File:The_Holy_Doors,_St._Peter%27s_Basilica,_Rome_(45510156425).jpg">The Holy Door, St. Peter's Basilica</a>, photo by Deb Nystrom (CC BY 2.0).</p>
   <div class="row">
     <span>&copy; 2026 Church in Conversation, part of Faithways Studio, Inc. Creating safe spaces to explore faith and the story of Jesus.</span>
     <nav aria-label="Footer">
@@ -595,23 +396,6 @@ if (showcaseVideo) {
   showcaseVideo.addEventListener('ended', function(){
     showcaseVideo.currentTime = 0;
   });
-}
-
-var tableCue = document.getElementById('table-cue');
-if (tableCue) {
-  if (!reduceMotion && 'IntersectionObserver' in window) {
-    tableCue.classList.add('pending');
-    var cueObserver = new IntersectionObserver(function(entries){
-      entries.forEach(function(entry){
-        if (entry.isIntersecting) {
-          tableCue.classList.remove('pending');
-          tableCue.classList.add('play');
-          cueObserver.unobserve(tableCue);
-        }
-      });
-    }, { threshold: 0.6 });
-    cueObserver.observe(tableCue);
-  }
 }
 
 var headerMark = document.getElementById('header-mark');
@@ -653,6 +437,8 @@ if (menu && menuToggle) {
 <script src="assets/narration-player.js" defer></script>
 <script src="assets/go-deeper-config.js"></script>
 <script src="assets/door-line.js"></script>
+<script src="assets/chooser.js" defer></script>
+<script src="assets/page-rail.js" defer></script>
 <script src="assets/feedback.js" defer></script>
 </body>
 </html>

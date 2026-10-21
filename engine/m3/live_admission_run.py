@@ -382,7 +382,11 @@ def _run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, voice
 
 def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DEFAULT_MAX_USD, authorized_by: str,
         voice_model_pattern: str = DEFAULT_VOICE_MODEL_PATTERN, save_transcripts: bool = False,
-        settings_only: bool = False, probe_limit: int | None = None, answers_path: Path | None = None) -> dict:
+        settings_only: bool = False, probe_limit: int | None = None, answers_path: Path | None = None,
+        report_path: Path | None = None) -> dict:
+    """report_path, when given, receives the report after every world and
+    again at the end, so a stop or a crash part way through loses only the
+    world it stopped in, never the worlds already paid for."""
     registry = load_registry()
     formation_keys = set(formation_world_keys(registry))
     requested = world_keys or DEFAULT_WORLD_KEYS
@@ -424,6 +428,17 @@ def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DE
     spent_so_far = 0.0
     aborted_reason = None
 
+    def build_report(stopped: str | None) -> dict:
+        return _assemble_report(voice_model_id=voice_model_id, region=region, settings=settings, per_world=per_world,
+                                authorized_by=authorized_by, max_usd=max_usd, per_world_estimates=per_world_estimates,
+                                preflight_total=preflight_total, spent_so_far=spent_so_far, aborted_reason=stopped)
+
+    def write_so_far(stopped: str | None) -> None:
+        if report_path is None:
+            return
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        report_path.write_text(json.dumps(build_report(stopped), indent=2) + "\n", encoding="utf-8")
+
     for world_key in requested:
         next_estimate = per_world_estimates[world_key]
         if spent_so_far + next_estimate > max_usd:
@@ -434,12 +449,31 @@ def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DE
                 f"in this report's own worlds/actual_usd_spent fields."
             )
             break
-        world_result = _run_world(world_key, registry=registry, loader=loader, voice_model_id=voice_model_id, region=region,
-                                  canon_questions=canon_questions, save_transcripts=save_transcripts, probe_limit=probe_limit,
-                                  answers_path=answers_path)
+        try:
+            world_result = _run_world(world_key, registry=registry, loader=loader, voice_model_id=voice_model_id, region=region,
+                                      canon_questions=canon_questions, save_transcripts=save_transcripts, probe_limit=probe_limit,
+                                      answers_path=answers_path)
+        except guard.LiveTestCapReached as stop:
+            # The live-test cap refused a call part way through this world.
+            # The worlds already run keep their evidence; this world has none,
+            # and the ledger, not this report, holds what its calls cost.
+            aborted_reason = (
+                f"{stop} - stopped during {world_key}'s own billed calls, which are not admission evidence. "
+                f"{len(per_world)} world(s) completed before it and are reported here; the live-test ledger "
+                f"holds the full spend including {world_key}'s calls."
+            )
+            break
         spent_so_far += world_result["actual_usd"]
         per_world[world_key] = world_result
+        write_so_far(f"in progress: {len(per_world)} of {len(requested)} world(s) run" if len(per_world) < len(requested) else None)
 
+    report = build_report(aborted_reason)
+    write_so_far(aborted_reason)
+    return report
+
+
+def _assemble_report(*, voice_model_id: str, region: str, settings: dict, per_world: dict, authorized_by: str, max_usd: float,
+                     per_world_estimates: dict, preflight_total: float, spent_so_far: float, aborted_reason: str | None) -> dict:
     report = {
         "voice_model_id": voice_model_id,
         "region": region,
@@ -497,13 +531,14 @@ def main() -> int:
     world_keys = [k.strip() for k in args.worlds.split(",") if k.strip()]
     if args.probe_limit is not None and Path(args.out).resolve().is_relative_to(REPORTS_DIR.resolve()):
         raise SystemExit("--probe-limit writes a sample, which is not admission evidence; pass --out outside engine/m3/reports")
+    out_path = Path(args.out)
     report = run(args.region, world_keys=world_keys, max_usd=args.max_usd, authorized_by=args.authorized_by,
                  voice_model_pattern=args.voice_model, save_transcripts=args.save_transcripts,
                  settings_only=args.settings_only, probe_limit=args.probe_limit,
-                 answers_path=Path(args.out + ".answers.jsonl") if args.save_transcripts else None)
+                 answers_path=Path(args.out + ".answers.jsonl") if args.save_transcripts else None,
+                 report_path=None if args.settings_only else out_path)
     if report.get("settings_only"):
         return 0
-    out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
 

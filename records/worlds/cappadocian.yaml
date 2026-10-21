@@ -8,7 +8,7 @@ doorway_description: >-
   In the fourth century, the churches of Cappadocia and Pontus fought to
   defend the faith declared at Nicaea - one God, three who truly are.
   Basil of Caesarea, his friend Gregory of Nazianzus, and his brother
-  Gregory of Nyssa became this world's most remembered voices, but the
+  Gregory of Nyssa became this Christian tradition's most remembered voices, but the
   faith they defended was lived by a whole people: households and
   congregations, and communities newly ordered into a common life built
   around a door kept open for the poor. The same exactness that shaped
@@ -21,12 +21,81 @@ doorway_description: >-
   victory.
 card_name: "The Cappadocian Churches"
 app: {order: 7, accent_color: "#CB7247", portrait: "/images/portraits/thumb/cappadocian.webp"}
-representative: {name: Chilo, role_label: "Elder of the Brotherhoods"}
+representative: {name: Chilo}
 census_id: "cappadocian-nicene-pastoral-monastic-tradition"
 thinness_statement: "Richest in the letters, orations, and treatises of Basil, Gregory of Nazianzus, and Gregory of Nyssa; thinner on women's own words (none survive in their own hand), the plateau's non-elite and non-Greek-speaking faithful, the enslaved (never heard in their own voice despite one preacher's own sharp protest against the institution), and the defeated parties (Eustathius, the Homoian church, the Eunomian movement) who survive almost only inside their opponents' polemic."
 living_tradition_flag: true
 state: admitted
 package:
-  manifest_hash: "sha256:28dfd05195e37f02dd98f75da9ec1dc5b03ed1b4e2c3610749ed1aa7e7bbd6b8"
-  location: "packages/cappadocian/2026-10-18T02-38-47Z"
+  manifest_hash: "sha256:3784fc7b639e52addc398b9c136e77f9640c3ea8f8cd1f0ee80c0c7c596062b2"
+  location: "packages/cappadocian/2026-10-20T15-54-01Z"
 story_placement: false
+card:
+  portrait: "assets/portraits/cappadocian.jpg"
+  intro: Chilo is a representative voice for the Christian tradition of Cappadocia and Pontus (c. 325–394 CE). Its churches held the Nicene faith through hostile years and cared for the poor.
+  shaped:
+  - Basil
+  - Gregory of Nyssa
+  - Gregory of Nazianzus
+  summary: Between about 325 and 394 CE, Christians in Cappadocia and Pontus fought two contests at once. One was public. Emperors kept switching which creed they favored, and bishops were threatened and exiled. The other asked how far the words of worship could go in naming the Holy Spirit. They held that the Son and the Spirit are fully what the Father is. The same exactness reordered how these churches treated the poor. Basil, then a priest, preached against landowners who hoarded grain.
+  record_holds: Rich in the three bishops' letters and sermons. Thin on the enslaved and the parties they defeated.
+  topics:
+  - word: Baptism
+    note: They called baptism new birth and light; preachers fought the habit of delaying it.
+  - word: Hymns and music
+    note: Psalms sung again and again at fixed hours formed believers who could not read.
+  - word: The Bible and how to read it
+    note: Teachers read Scripture closely for what it shows of God, not as hidden symbols.
+  - word: Saints and holy places
+    note: Recent local martyrs were the region's patrons; families kept their relics in chapels.
+  - word: Fasting and self-denial
+    note: Fasting served love, not harshness; the church corrected those who fasted to extremes.
+  - word: Feast days and remembering the dead
+    note: Yearly martyrs' feasts at countryside shrines shaped the region's festival life.
+  - word: Jesus
+    note: Jesus is fully what the Father is, not merely like him.
+  - word: The Trinity
+    note: They named one God in three real persons, yet held God beyond human knowing.
+  - word: The Holy Spirit
+    note: The Spirit shares the glory of Father and Son; allies disputed Basil's careful wording.
+  - word: Salvation and grace
+    note: Christ came so humans might become like God by grace, never equal to him.
+  - word: Sin and forgiveness
+    note: Church letters set penance by offense, a time apart, then a path back.
+  - word: Creeds
+    note: They held Nicaea's creed as the one faith held everywhere, not a local custom.
+  - word: Tradition and authority
+    note: They held unwritten customs came from the apostles, though no written chain shows it.
+  - word: Money and the poor
+    note: Surplus wealth belonged to the poor, who bear Christ's image; Basil built a poorhouse.
+  - word: Marriage and family
+    note: Widowed people could remarry after penance; leaving a spouse to remarry counted as adultery.
+  - word: Women
+    note: Macrina led a women's community, but her words reach us only through her brother.
+  - word: Suffering and death
+    note: They held that bodies will rise, and argued that hope at deathbeds.
+  - word: Monks and nuns
+    note: Ascetics shared goods, prayer and work in houses that served the poor.
+  - word: Learning and education
+    note: They claimed Greek classical learning for Christ, though it reached mainly the educated few.
+  - word: Caring for the sick
+    note: Ascetics nursed the sick and lepers in Basil's 'new city' outside Caesarea.
+  - word: Church leaders
+    note: Bishops acted as public patrons, handling grain, tax appeals and pleas to governors.
+  - word: The emperor and the state
+    note: They endured exile under hostile emperors, then gained state backing under Theodosius.
+  - word: Martyrs
+    note: Martyrs like the Forty of Sebaste were fresh memory, from their grandparents' time.
+  - word: Heresy and false teaching
+    note: They fought rival teachings on the Son and Spirit, known mostly from their opponents.
+  - word: Church councils
+    note: A council wrote down what baptism and worship already confessed; it invented nothing.
+  aliases:
+  - name: Cappadocian Fathers
+    kind: later
+    note: Later label for Basil and the two Gregorys; they would not have used it.
+  - name: Pro-Nicene
+    kind: scholarly
+    note: Modern label (Ayres) for shared arguments, c. 360-380; not one settled formula.
+  keywords:
+  - basil of caesarea

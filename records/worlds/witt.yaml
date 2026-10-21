@@ -24,12 +24,77 @@ doorway_description: >-
   the movement's own founder had been dead some three decades.
 card_name: "The Catechized Households of Wittenberg"
 app: {order: 11, accent_color: "#579C40", portrait: "/images/portraits/thumb/nikolaus.webp"}
-representative: {name: Nikolaus, role_label: Sexton-Schoolmaster}
+representative: {name: Nikolaus}
 state: admitted
 census_id: "lutheran-wittenberg-and-its-congregations"
-thinness_statement: "Richest in the founder's own catechisms, treatises, and confessional documents and in the movement's own account of its founding decade (1517-1531); thinner on any household's or parish's own report of receiving that formation (the Saxon visitation records exist but are not in this library), women's own formation and voice (no text a woman wrote survives here), the felt experience of the 1529 Marburg break with the Reformed cities, the years after 1531 within the window's own declared close of 1580, material culture and lived worship independent of the movement's own account of itself, and the 1525 tract against the peasants and the 1543 treatise against the Jews - both real and disclosed as this world's own history, but not available here to quote from directly."
+thinness_statement: "Richest in the founder's own catechisms, treatises, and confessional documents and in the movement's own account of its founding decade (1517-1531); thinner on any household's or parish's own report of receiving that formation (the Saxon visitation records exist but are not in this library), women's own formation and voice (no text a woman wrote survives here), the felt experience of the 1529 Marburg break with the Reformed cities, the years after 1531 within the window's own declared close of 1580, material culture and lived worship independent of the movement's own account of itself, and the 1525 tract against the peasants and the 1543 treatise against the Jews - both real and disclosed as this Christian tradition's own history, but not available here to quote from directly."
 living_tradition_flag: true
 package:
-  manifest_hash: "sha256:9ee7f6ff05dfdabc80f660089a97136acaf79b58fc2ca02f9f8cafba8cf10a78"
-  location: "packages/witt/2026-10-17T20-48-55Z"
+  manifest_hash: "sha256:78efafb2a54ddbebb77779b32208b5e3f3985633b69898b6fb9781404a2738ea"
+  location: "packages/witt/2026-10-20T15-54-47Z"
 story_placement: false
+card:
+  portrait: "assets/portraits/nikolaus.jpg"
+  intro: Nikolaus is a representative voice for the Christian tradition of Wittenberg (1517–1580). Luther wrote a Small Catechism for each household to teach at home.
+  shaped:
+  - Luther
+  - Melanchthon
+  - Johann Walter
+  summary: In 1517, Luther, an Augustinian friar who taught theology at Wittenberg, wrote to his archbishop against the sale of indulgences. It held that a person stands before God by a gift received through faith, apart from works. Princes and city councils took the reform into their lands in place of bishops. This Christian tradition's chief tool was the household catechism. It had three parts, to be said at rising, at table, and at night. The record is rich on the founding decade. It is thin on how any household or parish lived this.
+  record_holds: Rich in Luther's catechisms and confessions. Thin on how any household or parish received them.
+  topics:
+  - word: Baptism
+    note: Baptism is water joined to God's word, a daily drowning of the old self.
+  - word: Communion
+    note: Christ's body and blood are truly present in bread and wine, without explaining how.
+  - word: Prayer
+    note: God commands prayer and promises to hear it; the Lord's Prayer gives its form.
+  - word: Hymns and music
+    note: German hymns, sung at work, at burials and in church, teach ordinary people.
+  - word: The Bible and how to read it
+    note: Scripture outranks pope and councils; the Word itself does the work of reform.
+  - word: Saints and holy places
+    note: Christians remember and copy the saints but never pray to them; Christ alone mediates.
+  - word: Fasting and self-denial
+    note: Fasting is a free, useful discipline; no law may force foods on set days.
+  - word: Jesus
+    note: The catechism confesses Jesus as truly God and man, redeeming us by his blood.
+  - word: Salvation and grace
+    note: God puts sinners right with himself freely, for Christ's sake, through faith alone.
+  - word: Faith and works
+    note: Good works earn nothing; they are any task God commands, done in faith.
+  - word: Sin and forgiveness
+    note: The Law terrifies the conscience over sin; God's promise of forgiveness comforts it.
+  - word: Free will and predestination
+    note: The will is free for ordinary good but bound toward God.
+  - word: Heaven, hell and judgment
+    note: Christ will return, raise the dead, give the godly life and condemn the ungodly.
+  - word: Tradition and authority
+    note: Human traditions may stay, unless they claim to earn grace or force belief.
+  - word: Money and the poor
+    note: The catechism warns that harshness to a poor worker brings God's vengeance.
+  - word: Marriage and family
+    note: Marriage is the noblest way of life, set up at creation; pastors marry too.
+  - word: Suffering and death
+    note: Each person fights death alone, but faith calls it a sweet sleep.
+  - word: The devil and demons
+    note: The devil is a real enemy; Word, sacraments and catechism defend against him daily.
+  - word: Monks and nuns
+    note: Wittenberg rejects the monks' life as higher, and honours married households instead.
+  - word: Learning and education
+    note: Fathers must teach and test their households weekly; whether this worked is disputed.
+  - word: Church leaders
+    note: Every Christian is a priest by baptism; a pastor holds an office only.
+  - word: The emperor and the state
+    note: God gives rulers the sword; obey them, except when they command sin.
+  - word: Martyrs
+    note: Luther's ballad honours two young monks burned at Brussels in 1523 as true priests.
+  - word: Heresy and false teaching
+    note: Wittenberg rejects 'new spirits' who claim the Spirit apart from God's spoken Word.
+  - word: The pope and Rome
+    note: Sermons call the pope Antichrist; the formal confession speaks politely of Rome's Church.
+  keywords:
+  - ninety-five theses
+  - small catechism
+  - lutheranism
+  - protestant

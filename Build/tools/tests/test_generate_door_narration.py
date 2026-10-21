@@ -43,5 +43,41 @@ class Plan(unittest.TestCase):
         self.assertEqual(gen, [])
 
 
+class ApprovedRunGate(unittest.TestCase):
+    paid = ["--voice-id", "v", "--model", "m", "--output-format", "mp3_44100_64", "--settings-json", "{}", "--force"]
+
+    def run_main(self, extra):
+        def no_network(*a, **k):
+            raise AssertionError("network call attempted")
+        saved_urlopen, saved_key = g.urllib.request.urlopen, g.os.environ.get("ELEVENLABS_API_KEY")
+        saved_entries = g.door_entries
+        g.door_entries = lambda: [{"key": "a", "text": "hello", "hash": g.fingerprint("hello")}]
+        g.urllib.request.urlopen = no_network
+        g.os.environ["ELEVENLABS_API_KEY"] = "placeholder-not-a-key"
+        try:
+            with self.assertRaises(SystemExit) as caught:
+                g.main(self.paid + extra)
+            return str(caught.exception)
+        finally:
+            g.urllib.request.urlopen = saved_urlopen
+            g.door_entries = saved_entries
+            if saved_key is None:
+                g.os.environ.pop("ELEVENLABS_API_KEY", None)
+            else:
+                g.os.environ["ELEVENLABS_API_KEY"] = saved_key
+
+    def test_without_an_approved_run_it_stops_before_any_request(self):
+        self.assertIn('--approved-run "<name>" is required', self.run_main([]))
+
+    def test_without_a_char_cap_it_stops_before_any_request(self):
+        self.assertIn("--char-cap <n> is required", self.run_main(["--approved-run", "r"]))
+
+    def test_over_its_cap_it_stops_before_any_request(self):
+        self.assertIn("over its --char-cap of 1", self.run_main(["--approved-run", "r", "--char-cap", "1"]))
+
+    def test_unit_check_accepts_a_run_within_its_cap(self):
+        g.require_approved_run("r", 100, 100)
+
+
 if __name__ == "__main__":
     unittest.main()
