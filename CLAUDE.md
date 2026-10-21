@@ -158,6 +158,25 @@ Mark's own account practices: `Build/Ministry/Operations/Standing/CiC_Usage_Disc
 
 Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
 
+**Asking for any spend.** This covers any request to spend: a model call outside a conversation, a live test, an admission run, or a paid bulk run.
+
+1. Before you ask, explain the request to Mark in plain words. Say each of these:
+   - what the run is and what it should produce;
+   - why it was asked for: which rule or decision requires it, and who started it;
+   - why now: what is still changing, and whether any of that would make the result stale;
+   - the cost: the cap, how the estimate was made, what is old or wrong about it, and the likely real cost;
+   - the cap's margin: the cap against the real cost in the latest ledger or report for the same worlds and model. Give dollars and a percent. If there is no such record, say so;
+   - what happens if it stops early, and whether partial results are kept, checked by reading the code or a free dry run, never by spending;
+   - where the output goes: a file, with the ledger path written in the request;
+   - the other ways to get the result (hold, waive the gate, run a smaller sample, use a free check), each with its trade-offs;
+   - your own recommendation, including "do not run it now".
+2. Ask with `AskUserQuestion` after the explanation, in the same message. Offer "Approve" and "Not now". Mark's own words under "Other" are how he asks for more explanation. Put the alternatives in the explanation, not in the box. If your recommendation is not to run it, put "Not now" first and mark it "(Recommended)".
+3. When the cap is $5 or more (Mark, 2026-10-20), ask Mark to say back in a line what the run does and what it costs. Do the same when the same run lost its results or went past its estimate before. If his line does not match, explain again.
+4. A yes covers that one run at the cap Mark approved. It does not carry to a second attempt, a changed cap, or another run. A converged plan or "auto mode" is not a yes to spend. Paid bulk runs still start with the small sample, and the explanation comes before that sample too.
+5. A run that lost its results or went past its estimate is not repeated until the cause is fixed. A free check, with no model call, must show the fix works. If no free check can, say so in the request and let Mark decide. The next request says what the cause was and what the check showed.
+6. Do not start a paid run while an unresolved item in that world's `Open_Gaps_Tracking.md`, or an unmerged change to files the run reads or to the code that handles its replies, would alter what the run measures. If one does, tell Mark and let him choose.
+7. A paid run started without this explanation is a breach. Log it in `Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md` and tell the thread that started the run, whatever it cost.
+
 ### 3.3 Keep the context lean
 
 - Use `/compact` or `/clear` between unrelated pieces of work. Reach for these before reaching for a cheaper model.
@@ -233,13 +252,14 @@ This table starts here and grows only when a real new case shows up, never specu
    - Use a 12-character-or-shorter header that names the decision.
    - Turn on multi-select only when the choices really combine.
    - Mark can always answer in his own words instead.
+   - A request for spend follows 3.2's explanation first, and only then the question box. The explanation is the one allowed text before the box.
 4. To compare options side by side (two wordings, two layouts, code), use the tool's preview on each option. If the material is too big even for that (a whole draft), show it as an Artifact first, then ask in the box.
 5. Don't write a repo file just to get approval. A file gets written only once it is the actual converged-on output. Permanent review records (review rounds, decision logs, `Open_Gaps_Tracking.md`) are the exception: they are lasting audit trail, not scratch material.
 
 ### 4.3 After Mark decides
 
 - "Converged, auto mode", or a clear equivalent Mark says directly, means final. Without it, keep checking.
-- Once converged, execute the full scope without asking step by step.
+- Once converged, execute the full scope without asking step by step. The one exception is spend: a converged plan or "auto mode" is never a yes to spend, and 3.2 still applies.
 - To change something already settled, name it as a **change order** with a reason. Never edit it quietly.
 - Return to asking only for a decision not yet made, or a real need for direction or clarification.
 - Until convergence, write nothing to a canonical record, commit nothing, and treat nothing as decided.
@@ -264,5 +284,6 @@ This table starts here and grows only when a real new case shows up, never specu
 - [ ] No commentary left in any live file you touched (`tools/check_live_commentary.py`).
 - [ ] Every gap logged in `Open_Gaps_Tracking.md`; every unfixed fleet defect waived; no stale waivers.
 - [ ] Governance vocabulary, closure, blocking findings, and truncation handled as 4.4 says.
+- [ ] Any spend asked for followed the 3.2 explanation, and each yes covered only its own run.
 - [ ] One draft PR for the batch, pushed once after local checks pass, then marked ready (ruled 2026-10-05).
 - [ ] If another thread picks this up, a handoff saved in `Build/Ministry/Operations/Handoffs/` (3.5).
