@@ -43,10 +43,6 @@ class Plan(unittest.TestCase):
         self.assertEqual(gen, [])
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
 class ApprovedRunGate(unittest.TestCase):
     paid = ["--voice-id", "v", "--model", "m", "--output-format", "mp3_44100_64", "--settings-json", "{}", "--force"]
 
@@ -81,3 +77,7 @@ class ApprovedRunGate(unittest.TestCase):
 
     def test_unit_check_accepts_a_run_within_its_cap(self):
         g.require_approved_run("r", 100, 100)
+
+
+if __name__ == "__main__":
+    unittest.main()
