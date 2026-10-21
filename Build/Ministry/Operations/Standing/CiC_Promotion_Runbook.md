@@ -89,7 +89,8 @@ and exits before a client exists. To get one:
 
 1. The thread that needs a run stops and asks Mark in the conversation, giving the
    command, what it will measure, the models and the route (Bedrock regional or global
-   profile, or the Anthropic API), and a proposed cap.
+   profile, or the Anthropic API), and a proposed cap. The ask follows the explanation
+   step in CLAUDE.md 3.2, "Asking for any spend".
 2. Mark approves it by name with a dollar cap, once. The approval is logged in the
    System Hub Decision Log before the run starts, so the monthly reconciliation can
    match each charge to it.

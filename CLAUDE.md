@@ -164,8 +164,9 @@ Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
    - what the run is and what it should produce;
    - why it was asked for: which rule or decision requires it, and who started it;
    - why now: what is still changing, and whether any of that would make the result stale;
-   - the cost: the cap, how the estimate was made, what is old or wrong about it, and the likely real cost;
+   - the cost: the cap, how the estimate was made, what is old or wrong about it, and the likely real cost, with the cap's margin over the real cost of the latest ledger or report for the same worlds and model;
    - what happens if it stops early, and whether partial results are kept, checked by reading the code or a free dry run, never by spending;
+   - where the output goes: to a file, with the ledger path set;
    - the other ways to get the result (hold, waive the gate, run a smaller sample, use a free check), each with its trade-offs;
    - your own recommendation, including "do not run it now".
 2. Ask with `AskUserQuestion` after the explanation, in the same message. Offer "Explain more" and "Not now" beside the approval.
@@ -173,6 +174,7 @@ Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
 4. A yes covers that one run at the cap Mark approved. It does not carry to a second attempt, a changed cap, or another run. A converged plan or "auto mode" is not a yes to spend. Paid bulk runs still start with the small sample.
 5. A run that lost its results or went past its estimate is not repeated until the cause is fixed. A free check, with no model call, must show the fix works. If no free check can, say so in the request and let Mark decide. The next request says what the cause was and what the check showed.
 6. Do not start a paid run while an unresolved item in that world's `Open_Gaps_Tracking.md`, or an unmerged change to files the run reads or to the code that handles its replies, would alter what the run measures. If one does, tell Mark and let him choose.
+7. A paid run started without this explanation is a breach. Log it in `Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md` and name it to the thread, whatever the run cost.
 
 ### 3.3 Keep the context lean
 
