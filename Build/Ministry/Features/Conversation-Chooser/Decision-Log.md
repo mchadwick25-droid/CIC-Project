@@ -494,3 +494,112 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** In the chooser's own words: the "How this works" lines ("Talk starts a conversation with that one representative." / "Table adds the representative to a table of two or three. ..."), the tray line ("No one is on the table yet. Add two or three representatives, then go."), the hand's spoken label ("11 representatives in order of time ...") and, on the Build a Table page, the load-failure note ("The representatives could not load just now. ...") and the no-script note ("Choosing representatives here needs JavaScript.").
 
 **Left as it was, Mark's call.** (1) The approved card taglines in the registry, each of which says "is a representative voice for the Christian tradition of ..."; they are approved text. (2) The Build a Table statement, "an AI-generated voice, not a person who lived", which is Mark's own wording from earlier today. (3) The lede on that page, "each speaks from its own record, in its own voice", where "voice" means manner of speaking.
+
+## 2026-10-20 — Five rulings from the step 4 report, and the tree button's wording (Mark)
+
+**Mark's words and choices.** Asked where "Free to start. Add more any time." goes, he chose "Under the hand". Asked about card text size, he chose "Raise front to 16 px". On the tree panel's button he chose "Add to the table". On the statement when no world holds a searched name he said "so we need to be vauge, but some of the worlds have just not been built yet, and there are influences that are a single voice that wont be built", then chose the sentence "There is no conversation built around (Name) right now." For the list control (feedback item 27) he chose "Yes, build it that way" after seeing the drawing. Asked if all six were converged, he chose "Converged, build it". The hint line was not asked: the "Hover or tab to raise a card…" line was already replaced by the "How this works" control (the entry on the map link and the one-voice line).
+
+**What changed.**
+- Landing page: "Free to start. Add more any time." sits under the hand, below "How this works". No price on it, per Theme G.
+- Card front: the tagline and the "Shaped by" line are at least 16 px (were 14 px at the largest card). No front text was clipped at 1280, 820 or 390 px.
+- Search with no world: when a typed name matches nothing, the count line reads "There is no conversation built around [what was typed] right now." The sentence says nothing about why and promises nothing. If an era chip is on and the name matches in another era, it reads "Nothing in this era matches that. Choose All eras to see the rest." (new wording, not Mark's, for a case his sentence would make false). The old line stays for an empty search.
+- List control: a "View as list" button under the era chips, "View as cards" once pressed. The list is one column of the same cards, top to bottom, with Talk and Table on each; "See all" and the "3 of 11" count are hidden in it. The choice is remembered in this browser (`localStorage`, in try/catch). The button is hidden where the list is already forced: below 700 px and under reduced motion.
+
+**Differences from the drawing Mark approved, for him to rule on.** (1) The drawing showed compact rows with a small portrait. The built list is the site's existing card, one per row, which is what a phone already shows; the compact rows would be a new component. (2) The drawing said a phone user could go back to cards. The fan has not been designed or tested below 700 px, so the button is hidden there. Either is a change order if Mark wants it.
+
+**Not built, and why.** The tree's "Add to the table" button. Theme E recorded it as nothing built, and `atlas-v3.html` has no seat store and no tray. Building it means a shared seat store between the tree and the chooser and a tray on the tree, and Theme E left open how the tray looks on the tree and a phone and how long a held seat is remembered. Only the wording is decided here.
+
+**Checked.** In headless Chromium at 1280x800, 820x1180 and 390x844: tagline and "Shaped by" at 16 px; no sideways scroll; the button toggles, the choice survives a reload, and the plain list is one column; the new sentence shows for "josephus" and "augustine" still finds two matches; no script errors. `engine/m1/tests/test_cross_world.py` 22 pass; `tools/validate-census.mjs` 0 errors; `tools/check_live_commentary.py --enforce --base origin/main` exit 0. Not checked: real iPad or iPhone Safari, a screen reader, and the free line on a phone, where it sits below all eleven cards (about 5,500 px down).
+
+## 2026-10-20 — Landing page and cards only; the list control stays (Mark)
+
+**Mark's words.** First, "do what is easiest and cleanest to navigate, looks good and complete (know half pages in a resting state) each feature or block fits on a page or easy scroll for phones". Then, after a relayed correction that feedback item 28 covers the landing page and cards only: "Keep the list control, pull the rest back to landing and cards".
+
+**What changed.** The first version of this work also changed the header on every page, the footer links, the narration player on the tradition pages and the Build a Table tray. Those are reverted: every file outside the landing page and the chooser is back as it was. What stays, on the landing page and the cards only:
+- The header (in `index.html`'s own styles): "Tell us what you think" shows as "Feedback" below 1000 px; the header is two compact rows on a phone (108 px at 390 wide, was 201 px) and one row on an iPad (64 px, was 114 px).
+- 44 px targets on the landing page's header, footer links, logo-replay button and narration controls.
+- The free line sits straight under the search on a phone.
+- The list control, the 16 px card front text and the no-world sentence, as in the entry above.
+
+**Left for later, because they are outside the landing page and cards.** The same header, footer and narration fixes on Build a Table, About, the tradition pages and the rest, and the compact Build a Table tray (about 230 px on a phone, covering the first cards). Mark has not ruled on them.
+
+**Not fixed.** At 360 px wide the Menu button wraps to its own row (header about 152 px). Real devices were not tested; the headless runs at 360, 390, 768, 820, 1024 and 1280 px had no sideways scroll and every landing-page target measured 44 px or more.
+
+## 2026-10-20 — "Tradition" in place of "world" in text people read (Mark)
+
+**Mark's words.** Asked "are we using tradition and not world everywhere", I found we were not, and asked which text should change. He chose "Everything people read". He added: "or Christian tradition if its the first reference to tradition".
+
+**The rule applied.** In each piece of text, the first reference to the tradition says "Christian tradition" (for example "this Christian tradition's own record") and later ones say "tradition", unless the word "tradition" already came earlier in that same text. Short button labels say "tradition" alone.
+
+**What changed.**
+- Census (`cic-website/data/world-census.json`): 41 strings that said "this world", "that world", "the world's own word", "its own world", "the Built & Live worlds", "two separate worlds" or "Indian Christian worlds" for a tradition; the same strings in the copy embedded in `atlas-v3.html` (25), and the Atlas legend ("between traditions").
+- Registry (`records/worlds/`): the arrival-page descriptions of Alexandria, Cappadocia and Syria; the search notes for Gaul, Church and Empire and Pahc ("ekklesia"); the Wittenberg summary; and the "what is thin" statements for Donatism, Zurich and Geneva, and Wittenberg.
+- Facilitator (`engine/m4/facilitator_turns.py`): the AI statement ("Each Christian tradition you can speak with is built from a fixed set of records ... when the tradition was built"), the dependency-check lines ("a way of meeting a historical Christian tradition"), the two "outside its own world" lines, and the bridge line ("than this Christian tradition knew"). Two engine tests that quote these lines were updated.
+- App (`cic-poc/frontend`): "We couldn't find that Christian tradition here", "Gathering the traditions", "Meet another tradition", "Return to the traditions", "Could not load the traditions", "This Christian tradition's records are briefly unavailable", and the tests that quote them.
+- Packages: the six whose registry text changed (alx, cappadocian, syr, don, rzg, witt) were rebuilt and repinned; the other six did not change.
+
+**Left as it was, Mark's call.** (1) Idiom: "the ancient world", "the world groaned", "the Roman world's great city", "The Many Worlds of Peter Mohyla", "World Christianity". (2) The instructions the engine gives the model about "your own world" (`engine/api/table_wiring.py`), which shape the model's replies but are not read by people. (3) The 97 generated tradition pages and the story texts and audio they quote, which still say "this world's ..." in the stories themselves; changing them means editing canonical story records and re-recording audio. (4) Internal names: files, folders, the registry key `worlds`, code and URL parameters. (5) The word "voice" in the Facilitator's lines, which Mark's earlier "representative, not voice" was not applied to.
+
+**Checked.** The census check and the registry-to-census match pass; the census validator reports 0 errors; the app type check and 245 app tests pass; the site staleness check passes. The package staleness check and the engine tests were still running when this was committed.
+
+## 2026-10-20 — A line under the cards says a table is possible (Mark)
+
+**Mark's words.** Shown the journey for building a table and told that the only plain sign of it (the "Talk with one voice, or build a table of two or three" line) had been removed, Mark said: "yes, add a line under the cards".
+
+**What changed.** On the landing page, a quiet line sits under the count and "See all 11", above "How this works": "Choose Table on two or three cards to build a table, then put one question to all of them." It reads at about grade 5.5 (Flesch-Kincaid) and Reading Ease 90. It does not show on the Build a Table page, which is already about the table. "Put one question to all of them" follows the Facilitator's welcome at the table: "Put a question to one of them by name, or to the whole Table."
+
+## 2026-10-20 — The tradition pages are laid out around the tradition (Mark)
+
+**Mark's words.** About the "Get more information" page: "the page needs some real layout work. it can fill the page, the launch interview should be an icon, same as the card maybe bigger and the flow should be informitive, not all the ai and inside information, just tell about the world, not what its missing or short on". Then: "this is about the tradition not the representitive, so the portriat should be connected to the talk and table, not the tradition." And: "lets use the full width of screen for each devise". And: "build it and regenerate the 11 pages without changing recorded text (the recordings need to still work)".
+
+**What changed on the eleven pages.**
+- The page fills the screen at every width. It opens with a band in the era's colour, then the tradition's name, its formal name and its short description, with an "At a glance" panel on the right: a line from 0 to 2000 CE with the tradition's span marked, the period, the place, the era, the other names it is known by, who shaped it, and the Church Family Tree link.
+- The Representative is a small card under the panel: a small portrait and the name, with Talk and Table as the same icons as on the cards (Talk is the page's existing conversation link, with the held-question handling; Table opens the Build a Table page with this tradition already chosen).
+- The story, the people, the stories told in full, what came after, the related traditions and the terms follow, with an "On this page" list on wide screens. On a wide screen the story runs in two columns, the people and stories as rows of cards.
+- Gone from the pages: the AI line, the line about distress, the status line, "What this account is built from" and "Start with the hard one". The door at the foot says "The other traditions".
+
+**What did not change.** The recorded text and the recordings: the story, the people, the stories told in full, what came after, the related traditions and the terms are the same word for word as before, and each page links the same audio files as before (checked page by page against the previous version: 0 differences). The short description under the name is each page's own existing text; the only change in it is Mark's rule, "tradition" in place of "world", on the three pages that had "this world" in it.
+
+**How.** A one-time script (`Build/tools/migrate_tradition_chrome.py`) rewrote the top of each page; the article template and generator (`cic-website/templates/tradition.html`, `Build/tools/generate_tradition_pages.py`) now draw the layout and the "On this page" list, and the pages were regenerated from them.
+
+**Left as it was, Mark's call.** (1) The recorded stories still say "this world's ..." inside their text; the recordings would no longer match. (2) The old page style rules for the removed blocks (`.titleblock`, `.plate`, `.ai-line`, `.seat`, `.distress`) are still in each page's own style block. (3) The timeline's 0 to 2000 CE scale is my choice; it shows where each tradition sits in the whole history. (4) The "hard question" starters and the sources list are no longer on the pages; they are still in the compiled records.
+
+## 2026-10-20 — The stories keep "world" until the rewrite and re-recording (Mark)
+
+**Mark's words.** "leave the worlds for now, we will do a deeper re-write in the near future and then re-record".
+
+**What this settles.** The recorded stories, and the other recorded text on the tradition pages, keep the word "world" as written. Nothing in them changes now. The wording will be reworked in the planned rewrite, and the pages will be re-recorded after it. No code or page changed with this entry.
+
+## 2026-10-20 — The hand rolls by the arrows, not the wheel (Mark)
+
+**Mark's words.** "so when scrolling on the fan, its lost its spacing and order, remove the wheel scroll for the selection it doesnt work smoothly, let them scroll by the arrows. also when you go to the next one the ones scrolling out do not always go down and behind. they stay over others"
+
+**What changed.** The mouse wheel no longer moves the hand. The side arrows, the arrow keys and a swipe still do. The "How this works" line now says "Swipe or use the arrows". A card under the pointer used to jump above its neighbours, so a card rolling out stayed on top; now only the front card lifts, and every other card keeps its place in the stack by distance from the front.
+
+**Checked.** In a headless browser a wheel turn left the front card unchanged, and after three arrow clicks the stack rose evenly to the front card. Not checked: a touch screen.
+
+## 2026-10-20 — An era puts the middle card in front; the landing page keeps a visible scroll bar (Mark)
+
+**Mark's words.** "when we click on a era have it centered if there are more than 2, if just two then the first one." And: "we need a scroll bar on the right of the landing page, i often work on my labtop without a mouse and it gets hard to navigate without it."
+
+**What changed.**
+- Choosing an era brings the middle card of that era to the front when the era has three or more cards (the second of three, the third of six). With two cards, or one, the first comes to the front. A search still brings the first match forward.
+- The landing page always shows a scroll bar on the right, 16 pixels wide, in the page's own colours, so it does not fade away on a laptop trackpad. It is set in the page's own styles in `index.html`, so no other page changes.
+
+**Checked.** In a headless browser the eras with 3, 6 and 2 cards put card 2, 3 and 1 in front, and the page showed a 16 pixel bar with no sideways scroll at 1440 and 390 pixels wide. Not checked: Safari on a Mac, where the bar is drawn by the system.
+
+## 2026-10-20 — The landing page holds the cards' space while they load (Mark)
+
+**Mark's words.** "can i see the landing page now, i am getting the family tree flashing then the cards appearing when i open the thread"
+
+**What changed.** Until the cards have loaded, the chooser on the landing page now keeps 90% of the screen height free, so the Family Tree preview stays below the first screen instead of showing right under the headline and then being pushed down. When the cards arrive, or the load fails and the fallback line shows, the reserved space is released. Only the landing page's chooser is affected.
+
+**Checked.** In a headless browser on a slowed connection, the preview started about 234 pixels down before the change and about 1,048 pixels down after it, below the first screen on a 900-pixel window and on a phone. Once loaded, the page measures as before. Not checked: a real phone on a slow network.
+
+## 2026-10-20 — The landing page draws its own scroll rail (Mark)
+
+**Mark's words.** "i still dont see a way to scroll the page on a computer without a mouse". Asked which to add, he chose "Drawn scroll rail".
+
+**What changed.** The landing page now draws a slim scroll rail on the right edge, 18 pixels wide, in the page's own colours. Drag the thumb, or click the rail above or below it to move a screen at a time. With the rail focused, the arrow keys, Page Up, Page Down, Home and End also move the page. The thumb has a minimum size so it stays easy to grab. The rail hides when the page is shorter than the window. The browser's own scroll bar is hidden on this page, so the two never show together; the trackpad, wheel and touch still scroll as before. This replaces the browser-drawn bar added earlier today, which some browsers hide. Landing page only: `index.html` and the new `assets/page-rail.js`.
+
+**Checked.** In a headless browser at 1440, 1024 and 390 pixels wide: dragging the thumb, clicking the rail and the keys all moved the page, the wheel still worked, nothing scrolled sideways and there were no script errors. Not checked: a real trackpad, Safari on a Mac, a screen reader.

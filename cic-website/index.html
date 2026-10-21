@@ -39,6 +39,15 @@
   --wide:64rem; --col:44rem; --measure:38rem;
 }*{box-sizing:border-box}
 html{scroll-padding-top:1rem}
+html{scrollbar-width:none}
+html::-webkit-scrollbar{display:none}
+.page-rail{position:fixed;top:0;right:0;bottom:0;width:18px;z-index:600;background:var(--surface);border-left:1px solid var(--rule);touch-action:none;cursor:pointer}
+.page-rail[hidden]{display:none}
+body:has(.page-rail:not([hidden])){margin-right:18px}
+.page-rail-thumb{position:absolute;top:0;left:3px;right:3px;border-radius:999px;background:var(--control);cursor:grab}
+.page-rail:hover .page-rail-thumb,.page-rail.dragging .page-rail-thumb{background:var(--action)}
+.page-rail.dragging .page-rail-thumb{cursor:grabbing}
+.page-rail:focus-visible{outline:3px solid var(--action);outline-offset:-3px}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
 a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
 a:hover{color:var(--action-hover)}
@@ -63,7 +72,7 @@ p{margin:0 0 1rem}
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .brand{display:flex;align-items:center;gap:.5rem;min-width:0}
-.brand .arriving{width:30px;flex:0 0 30px;color:var(--mark-ink);background:none;border:0;padding:0;cursor:pointer}
+.brand .arriving{width:44px;flex:0 0 44px;box-sizing:border-box;color:var(--mark-ink);background:none;border:0;padding:7px;cursor:pointer}
 .brand .arriving:hover{color:var(--action)}
 .brand svg{display:block;width:100%;height:auto}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;padding:.5rem 0;display:inline-block;min-width:0}
@@ -175,10 +184,39 @@ p{margin:0 0 1rem}
 .who-head{display:flex;flex-direction:column;align-items:center;gap:.9rem;margin:0 0 .4rem}
 .who-text{min-width:0;text-align:center}
 .who-search{width:min(26rem,100%)}
+.free-line{margin:.2rem auto 0;text-align:center;font-family:var(--sans);font-size:.95rem;color:var(--muted)}
 .who-search .chooser-search{width:100%}
 .who-search .chooser-search input{min-height:48px;font-size:1.05rem;padding:.6rem 1rem .6rem 2.9rem;background-position:1rem 50%}
 .who-search .chooser-help{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:760px){.who-search{width:100%}}
+[data-chooser][data-mode="landing"]:not([data-ready]){min-height:90vh}
+@media (max-width:699px){.who{display:flex;flex-direction:column}.who>.free-line{order:1}.who>[data-chooser]{order:2}}
+.feedback-toggle .fb-short{display:none}
+.site-header .feedback-toggle,.site-header .menu-toggle,.site-header .feature-btn{min-height:44px}
+.site-header .brand .wordmark{display:inline-block;line-height:44px;padding-block:0}
+@media (max-width:999px){
+  .site-header .feedback-toggle .fb-full{display:none}
+  .site-header .feedback-toggle .fb-short{display:inline}
+  .site-header .feedback-toggle{padding-inline:.9rem}
+  .site-header > :is(.row,.wrap){column-gap:.5rem;padding-inline:1rem}
+  .site-header .menu-toggle{padding-inline:.8rem}
+  .site-header .feature-btn{padding-inline:.35rem}
+}
+.site-footer nav a{min-width:44px;justify-content:center}
+body .cicp-play{min-height:44px}
+body .cicp-rail{height:44px}
+body .cicp-speeds button{min-height:44px;min-width:44px;padding:0 .3rem}
+@media (max-width:860px){.site-header .feature-btn{font-size:.8rem}.site-header .brand .wordmark{font-size:1rem}}
+@media (max-width:640px){
+  .site-header > :is(.row,.wrap){display:flex;flex-wrap:wrap;align-items:center;gap:0 .4rem;padding-inline:1rem}
+  .site-header > :is(.row,.wrap) .brand{flex:1 1 auto;min-width:0}
+  .site-header .brand .wordmark{font-size:.9rem}
+  .site-header .brand{gap:.3rem}
+  .site-header .feedback-toggle,.site-header .menu-toggle{font-size:.8rem;padding-inline:.65rem}
+  .site-header .feedback-toggle,.site-header .menu{margin-left:0}
+  .site-header .feature-bar{order:3;flex:1 0 100%;justify-content:space-between;gap:0}
+  .site-header .feature-btn{padding:.3rem .25rem;font-size:.85rem}
+}
 .more-link{margin:1.5rem 0 0;font-family:var(--sans);font-size:.9rem}
 .more-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
 
@@ -238,7 +276,7 @@ p{margin:0 0 1rem}
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
-    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false"><span class="fb-full">Tell us what you think</span><span class="fb-short" aria-hidden="true">Feedback</span></button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -272,6 +310,7 @@ p{margin:0 0 1rem}
       </div>
       <noscript><p>Choosing a voice here needs JavaScript. You can still <a href="atlas-v3.html">browse every tradition on the Church Family Tree</a>.</p></noscript>
     </div>
+    <p class="free-line">Free to start. Add more any time.</p>
   </section>
     </div>
   </div>
@@ -399,6 +438,7 @@ if (menu && menuToggle) {
 <script src="assets/go-deeper-config.js"></script>
 <script src="assets/door-line.js"></script>
 <script src="assets/chooser.js" defer></script>
+<script src="assets/page-rail.js" defer></script>
 <script src="assets/feedback.js" defer></script>
 </body>
 </html>

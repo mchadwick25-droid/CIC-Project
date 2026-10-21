@@ -182,7 +182,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
       )}
 
       {deleted ? (
-        <DeletedNotice onRestart={onRestart} restartLabel="Meet another world" />
+        <DeletedNotice onRestart={onRestart} restartLabel="Meet another tradition" />
       ) : closed ? (
         <div className="conversation__composer">
           <button type="button" className="doorway__begin" onClick={onRestart}>

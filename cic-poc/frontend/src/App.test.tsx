@@ -81,7 +81,7 @@ describe('first screen', () => {
 
     releaseWorlds();
     await waitFor(() => expect(container.querySelector('.launch')).not.toBeNull());
-    expect(screen.getByRole('alert')).toHaveTextContent("We couldn't find that world here");
+    expect(screen.getByRole('alert')).toHaveTextContent("We couldn't find that Christian tradition here");
   });
 
   it('opens on the launch screen when there is no deep link and nothing to resume', () => {

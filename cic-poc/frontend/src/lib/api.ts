@@ -60,7 +60,7 @@ function participantMessage(status: number, detail: string): { message: string; 
     // own promise ("try again in a moment") instead of leaving only
     // "Leave for now" (see App.tsx's isEmbedded handling of
     // onRestart/onEnd).
-    return { message: "This world's records are briefly unavailable — try again in a moment.", recoverable: true };
+    return { message: "This Christian tradition's records are briefly unavailable — try again in a moment.", recoverable: true };
   }
   return { message: "That didn't go through. Try again in a moment, or begin a new conversation.", recoverable: false };
 }

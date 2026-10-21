@@ -277,7 +277,7 @@ def test_etic_turn_speaks_for_the_class_that_was_pressed():
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="what about the Reformation", pressed={"later_age": True}, anachronistic_term_ids=set())
     assert result.routing_action == "etic_turn"
     assert result.voice_event is None
-    assert "this world's own witnesses stop" in result.facilitator_events[0]["text"]
+    assert "this Christian tradition's own witnesses stop" in result.facilitator_events[0]["text"]
 
 
 def _participant_text(content) -> str:

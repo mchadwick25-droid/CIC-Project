@@ -43,10 +43,10 @@ export function Launch({
     <div className="launch">
       <ArrivingLockup />
       {error && <div className="conversation__error" role="alert" style={{ margin: '0 var(--spacing-lg)' }}>{error}</div>}
-      {isLoading && !error && <p className="world-list__loading sans" role="status">Gathering the worlds…</p>}
+      {isLoading && !error && <p className="world-list__loading sans" role="status">Gathering the traditions…</p>}
       {!isLoading && !error && worlds.length === 0 && (
         <p className="world-list__loading sans" role="status">
-          The doors aren't open just yet — the worlds are being prepared. Please come back soon.
+          The doors aren't open just yet — the traditions are being prepared. Please come back soon.
         </p>
       )}
 

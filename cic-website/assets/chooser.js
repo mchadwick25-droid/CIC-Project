@@ -131,14 +131,16 @@ function init(mount, census) {
   var nextBtn = el("button", { type: "button", class: "chooser-arrow next", "aria-label": "Next card" });
   var stage = el("div", { class: "chooser-stage" }, [hand, prevBtn, nextBtn]);
   var allBtn = el("button", { type: "button", class: "cbtn quiet", "aria-expanded": "false" });
-  var nav = el("div", { class: "chooser-nav" }, [posEl, allBtn]);
+  var viewBtn = el("button", { type: "button", class: "cbtn quiet viewbtn", hidden: true });
+  var nav = el("div", { class: "chooser-nav" }, [posEl, allBtn, viewBtn]);
+  var tableLine = el("p", { class: "chooser-tableline", text: "Choose Table on two or three cards to build a table, then put one question to all of them." });
   var hint = el("details", { class: "chooser-how" }, [
     el("summary", { text: "How this works" }),
     el("ul", null, [
       el("li", { text: "Click a card to bring it forward. Click it again to turn it over." }),
       el("li", { text: "Talk starts a conversation with that one representative." }),
       el("li", { text: "Table adds the representative to a table of two or three. When you have two or three, choose Go to the table." }),
-      el("li", { text: "Scroll, swipe or use the arrows to see more cards. Search or pick an era to narrow them." })
+      el("li", { text: "Swipe or use the arrows to see more cards. Search or pick an era to narrow them." })
     ])
   ]);
   var deckRow = el("div", { class: "chooser-deckrow", hidden: true });
@@ -157,6 +159,7 @@ function init(mount, census) {
   mount.appendChild(stage);
   mount.appendChild(deckBox);
   mount.appendChild(nav);
+  if (mode !== "table") mount.appendChild(tableLine);
   mount.appendChild(deckRow);
   mount.appendChild(hint);
   mount.appendChild(tray);
@@ -264,7 +267,7 @@ function init(mount, census) {
     posEl.textContent = cards.length ? (active + 1) + " of " + cards.length : "";
     prevBtn.setAttribute("aria-disabled", active <= 0 ? "true" : "false");
     nextBtn.setAttribute("aria-disabled", active >= cards.length - 1 ? "true" : "false");
-    hand.setAttribute("aria-label", handIds.length + " representatives in order of time. Use the arrow keys, scroll or swipe to roll the hand.");
+    hand.setAttribute("aria-label", handIds.length + " representatives in order of time. Use the arrow buttons, the arrow keys or swipe to roll the hand.");
     var minis = deckRow.querySelectorAll(".mini");
     [].forEach.call(minis, function (m) { m.classList.toggle("inhand", m.getAttribute("data-id") === handIds[active]); });
   }
@@ -293,21 +296,6 @@ function init(mount, census) {
     if (ev.key === "ArrowRight") { setActive(active + 1, true); ev.preventDefault(); }
     if (ev.key === "ArrowLeft") { setActive(active - 1, true); ev.preventDefault(); }
   });
-  var wheelAt = 0, wheelAcc = 0;
-  hand.addEventListener("wheel", function (ev) {
-    if (listMode()) return;
-    var d = Math.abs(ev.deltaX) > Math.abs(ev.deltaY) ? ev.deltaX : ev.deltaY;
-    if (!d) return;
-    ev.preventDefault();
-    var now = Date.now();
-    if (now - wheelAt > 400) wheelAcc = 0;
-    wheelAt = now;
-    wheelAcc += d;
-    if (Math.abs(wheelAcc) < 60) return;
-    setActive(active + (wheelAcc > 0 ? 1 : -1), false);
-    wheelAcc = 0;
-    wheelAt = now + 250;
-  }, { passive: false });
   var px = null;
   hand.addEventListener("pointerdown", function (ev) { px = ev.clientX; });
   hand.addEventListener("pointerup", function (ev) {
@@ -391,7 +379,10 @@ function init(mount, census) {
     whyEl.textContent = "";
     var activeId = null;
     if (!deck.length) {
-      countEl.textContent = "Nothing matches that yet. Try an era, a place, or another name.";
+      var elsewhere = deckState.era && allIds.some(function (id) { var t = deckState.q.trim().toLowerCase(); return haystack(byId[id], !isTopicTerm(t)).indexOf(t) >= 0 || inYears(byId[id], t); });
+      countEl.textContent = !term ? "Nothing matches that yet. Try an era, a place, or another name."
+        : elsewhere ? "Nothing in this era matches that. Choose All eras to see the rest."
+        : "There is no conversation built around " + term + " right now.";
       hand.textContent = ""; posEl.textContent = ""; handIds = [];
       renderDeckRow(deck);
       return;
@@ -406,7 +397,7 @@ function init(mount, census) {
         whyEl.appendChild(el("li", null, [el("b", { text: w.rep + ", " + w.world + ". " }), document.createTextNode(whyMatched(w, term))]));
       });
     } else if (deckState.era) {
-      activeId = deck[0];
+      activeId = deck.length > 2 ? deck[Math.floor((deck.length - 1) / 2)] : deck[0];
       countEl.textContent = "Showing " + deck.length + " of " + allIds.length + ", in order of time.";
     } else {
       countEl.textContent = "";
@@ -504,9 +495,22 @@ function init(mount, census) {
 
   // ---------- list fallback ----------
   var narrowMq = matchMedia("(max-width: 699px)"), rmMq = matchMedia("(prefers-reduced-motion: reduce)");
+  var VIEW_KEY = "cic-chooser-view", plain = false;
+  try { plain = localStorage.getItem(VIEW_KEY) === "list"; } catch (e) {}
+  viewBtn.addEventListener("click", function () {
+    plain = !plain;
+    try { localStorage.setItem(VIEW_KEY, plain ? "list" : "cards"); } catch (e) {}
+    applyMode();
+    viewBtn.focus();
+  });
   function applyMode() {
+    var forced = narrowMq.matches || rmMq.matches;
     q.setAttribute("placeholder", narrowMq.matches ? "Search traditions or topics" : "Search traditions, topics, people");
-    mount.classList.toggle("is-list", narrowMq.matches || rmMq.matches);
+    [].forEach.call(hand.querySelectorAll(".card.turned"), function (c) { turn(c, false, true); });
+    mount.classList.toggle("is-list", forced || plain);
+    mount.classList.toggle("is-plain", !forced && plain);
+    viewBtn.hidden = forced;
+    viewBtn.textContent = plain ? "View as cards" : "View as list";
     layout();
   }
   [narrowMq, rmMq].forEach(function (mq) { (mq.addEventListener ? mq.addEventListener("change", applyMode) : mq.addListener(applyMode)); });
@@ -523,11 +527,12 @@ function boot() {
   if (!mounts.length) return;
   var src = mounts[0].getAttribute("data-census") || "data/world-census.json";
   fetch(src).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function (census) { [].forEach.call(mounts, function (m) { init(m, census); }); })
+    .then(function (census) { [].forEach.call(mounts, function (m) { init(m, census); m.setAttribute("data-ready", ""); }); })
     .catch(function () {
       [].forEach.call(mounts, function (m) {
         var fb = m.querySelector("[data-chooser-fallback]");
         if (fb) fb.hidden = false;
+        m.setAttribute("data-ready", "");
       });
     });
 }
