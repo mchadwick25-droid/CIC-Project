@@ -1061,3 +1061,9 @@ Read by the build thread, to be confirmed as the slice is designed:
 - The school footing does not cover a non-educational group, so the "educational use" statement of ruling 49 cannot be made for it. The parent's statement must say what the use is. The child's data is still never reused, including for training. The statement shown to the parent for this route is written for it, not borrowed from the school one.
 - Ruling 51's reading for teacher groups is withdrawn.
 - Open: consent for a youth-pastor group's 13-to-17-year-olds. Under ruling 50 each one already has a parent's permission to hold an account; whether the group needs anything more is not settled.
+
+## 2026-10-22 — Youth-group 13-to-17-year-olds need nothing beyond the parent's permission (ruled by Mark)
+
+System Hub decision 63, thirty-sixth addendum. This closes the open point of ruling 52.
+
+53. Ruled: a 13-to-17-year-old in a youth-pastor or other non-educational group needs nothing beyond the parent's permission to hold an account (ruling 50). The group's leader has the adult console of rulings 29 and 31 for the group. The consent rules for groups are now settled: classes admit younger children through the teacher (ruling 44); non-educational groups admit children under 13 only through the parent (ruling 52); everyone 13 to 17 has a parent's permission (ruling 50).
