@@ -25,8 +25,9 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
+from engine.api import accounts_routes, admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings, normalize_environ
+from engine.accounts.config import AccountsConfig
 from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
 from engine.feedback.store import FeedbackStore
@@ -517,6 +518,7 @@ def create_app(
     m7_audit_root: Path | None = None,
     admin_auth_store: admin_auth.AdminAuthStore | None = None,
     deeper: deeper_routes.DeeperRuntime | None = None,
+    accounts: accounts_routes.AccountsRuntime | None = None,
     build_commit: str | None = None,
     backup_staging_dir: Path | None = None,
     data_dir: Path | None = None,
@@ -620,6 +622,9 @@ def create_app(
             )
 
         deeper_routes.install(app, deeper, authenticate_admin=_admin_check)
+
+    if accounts is not None:
+        accounts_routes.install(app, accounts)
 
     @app.get("/api/worlds", response_model=WorldListResponse)
     def list_worlds_endpoint(request: Request):
@@ -999,12 +1004,16 @@ def deeper_for_dev_server(data_dir: Path, usage_store, environ) -> dict | None:
     }
 
 
-def backup_extra_dbs(settings: Settings, meter_db_path: str | None) -> dict[str, str]:
+def backup_extra_dbs(settings: Settings, meter_db_path: str | None, accounts_db_path: str | None = None) -> dict[str, str]:
     """The databases beyond events, usage and quality control that the daily
-    backup copies: the feedback store always, the Go Deeper meter when it runs."""
+    backup copies: the feedback store always, the Go Deeper meter and the
+    durable accounts file when they run. The accounts file's sign-in codes and
+    sessions live in a second file that is never backed up."""
     extra = {"feedback": settings.feedback_db_path}
     if meter_db_path is not None:
         extra["meter"] = meter_db_path
+    if accounts_db_path is not None:
+        extra["accounts"] = accounts_db_path
     return extra
 
 
@@ -1059,11 +1068,20 @@ def _build_real_app() -> FastAPI:
         deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ), usage_store=usage_store)
         deeper_routes.install_access_log_filter()
         deeper_routes.start_retention_thread(deeper_runtime)
+    accounts_config = AccountsConfig.from_env(str(data_dir))
+    accounts_runtime = None
+    if accounts_config.enabled:
+        accounts_runtime = accounts_routes.build_runtime(accounts_config, dict(os.environ))
+        accounts_routes.install_access_log_filter()
+        accounts_routes.start_retention_thread(accounts_runtime)
     backup_staging_dir = data_dir / "backups-staging"
     db_backup.start_background_scheduler(
         settings.events_db_path, settings.usage_db_path, backup_staging_dir,
         qc_db_path=settings.qc_db_path,
-        extra_dbs=backup_extra_dbs(settings, deeper_config.meter_db_path if deeper_runtime is not None else None),
+        extra_dbs=backup_extra_dbs(
+            settings, deeper_config.meter_db_path if deeper_runtime is not None else None,
+            accounts_config.durable_db_path if accounts_runtime is not None else None,
+        ),
     )
 
     # The anonymous quality-control store and the daily retention job
@@ -1101,6 +1119,7 @@ def _build_real_app() -> FastAPI:
         qc_recorder=qc_recorder,
         streaming_enabled=settings.streaming_enabled,
         deeper=deeper_runtime,
+        accounts=accounts_runtime,
         build_commit=os.environ.get("RENDER_GIT_COMMIT"),
         backup_staging_dir=backup_staging_dir,
         data_dir=data_dir,
