@@ -1019,3 +1019,15 @@ System Hub decision 63, thirty-first addendum. This changes the gating in ruling
 Recorded by the build thread:
 - The design follows the rules the FTC publishes, as the leading educational products do: school consent for educational use only, with no commercial reuse of the child's data; and direct verifiable parental consent for anything else. The search summaries behind this are secondary, and the design is read against the FTC's own COPPA FAQ text, Parts M and N, when each slice is specified.
 - The build thread is not a lawyer. Whether to have a lawyer read the finished design before it is used in production is a separate choice, the project lead's, and is not part of designing it.
+
+## 2026-10-22 — A parent permits a child under 13 by certifying educational use and a small card check (ruled by Mark)
+
+System Hub decision 63, thirty-second addendum.
+
+49. Ruled: a parent permits a child under 13 by signing in as an adult, stating that they are the child's parent and that the use is educational, and confirming with a small card transaction. The card check is one of the verification methods the FTC recognises. The child's data is never reused, including for training. A teacher's route is as in ruling 44: the teacher certifies educational use and acts as the parent's agent, and the school is given a notice.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The card check is a small charge or a card-on-file confirmation that does not credit tokens, and is refunded if it is a charge. It proves a card holder, not a parent. The payment provider's actual options are verified before the slice is written.
+- The child's account is the adult-managed account of rulings 29 and 31: the parent reads conversations, sets limits and can close it. The child never buys (ruling 28).
+- Under-13 accounts carry fewer features, as Khan Academy's do. Which features is left to the slice, starting from no sharing with anyone but the adult.
+- The statement shown to the parent is the one drafted in ruling 47, read again for readability when the screen is written.
