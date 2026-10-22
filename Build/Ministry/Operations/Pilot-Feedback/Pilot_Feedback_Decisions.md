@@ -289,3 +289,9 @@ Entries below correct or add to earlier ones. Nothing earlier is edited.
 - **Access and payment, new work:** coupons and exceptions for particular people, and pay as you go. Mark has not given the design. Mechanics that exist: free allowance, packs, sponsor codes, tester codes (`engine/deeper/ops/go-deeper.yaml`). A tester code passes the daily cap (`engine/api/anon_cap.py`, checked on main 2026-10-21). Asked first, nothing built.
 - **Daily cap, flagged and not asked:** a conversation counts toward the 5 a day when it is created, even if the first voice reply then fails.
 - **Admission gate:** `python -m engine.m3.admission_conform --enforce` failed for all 11 worlds on 2026-10-21. Mark has not ruled on running, waiving or holding it for the whole fleet. A log entry says it was waived for the conversation pages.
+
+## Coupons for named people — 2026-10-22
+Decision (Mark, 2026-10-22): a coupon is a sponsor code made for a named person. The name is kept outside the system. Mark mints a code with the existing routes and keeps his own list of who received which code. Nothing is built.
+- Existing routes, read in `Build/Ministry/Features/Go-Deeper/Decision-Log.md` (entries of 2026-10-04 and 2026-10-15) and not run: `POST /api/admin/deeper/mint` (a pack and a count, as separate codes or one code; a gift, not a sale) and `POST /api/admin/deeper/tester` (more tokens and a last day; $0 toward the door).
+- Why outside: the design stores no name, email or note with a code, so the meter and the conversations share no key with a person. A label on the code would be a change order on that ruling and on the privacy page.
+- Pay as you go: already designed and built as Go Deeper. Open items are in the Go Deeper decision log (Stripe stored-value answer, legal and tax questions, refund and expiry wording, AWS budget ceiling). Nothing new decided here.
