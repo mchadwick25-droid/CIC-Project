@@ -6833,3 +6833,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, twenty-fifth addendum of the same day. One free trial per adult, no organisation check; the student count is what the adult names. The group trial is settled. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, twenty-sixth addendum of the same day. Groups are recommended for 13 and over; a parent or teacher can make the call to admit a younger child. The build thread's reading: default 13 and over, and nothing for under-13s is built until the lawyer has said what the route requires. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-seventh addendum of the same day. Only a teacher or a parent can admit a child under 13, and the use is educational; a youth pastor or other non-school leader cannot. Nothing for under-13s is built until the lawyer answers. The Go Deeper Decision-Log entry of the same date carries the ruling.

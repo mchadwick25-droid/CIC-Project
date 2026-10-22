@@ -966,3 +966,9 @@ Consequence recorded by the build thread, not yet settled:
 - An adult's call is not by itself enough in law. For a child under 13 the lawful route is a school authorising educational use, or a parent's verified consent, with no reuse of the child's data (lawyer list). So the call is built as the adult's recorded decision plus whatever the lawyer says the route requires.
 - Nothing for under-13s is built until the lawyer has answered. Slices for groups are built for 13 and over first.
 - Open: whether a youth pastor or other non-school leader may make the call, or only a school teacher or a parent.
+
+## 2026-10-22 — Only a teacher or a parent can admit a child under 13, and it is educational (ruled by Mark)
+
+System Hub decision 63, twenty-seventh addendum. This settles the open point of ruling 43.
+
+44. Ruled: only a teacher or a parent can make the call to admit a child under 13. A youth pastor or other non-school leader cannot. The use is educational. This keeps the under-13 route on the educational footing the law allows for a school, and a parent's own consent for their own child. The default stays 13 and over, and nothing for under-13s is built until the lawyer has said what the route requires (ruling 43).
