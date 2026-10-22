@@ -870,3 +870,14 @@ System Hub decision 63, fifteenth addendum. This limits ruling 31.
 32. Ruled: an adult sign-off reads a child's conversations only when the child has an account under that adult. Conversations held without an account are saved to no one, so there is nothing for an adult to read, and no way is built to monitor them. Minors who use the curriculum, in a class or at home, use it through an account under an adult.
 
 Residual risk, recorded so it does not go quiet: nothing in the app can tell that a person without an account is a child, so a child can still use the system without an account and no adult can see it. What the build can do is make the curriculum, the class join code and the parent link all lead to an account, and keep the adult attestation on anonymous use. Open for the slice design: whether a child under 13 can be a member of a teacher's group, since ruling 27 gives under-13s no account of their own; the school-authorization route in the lawyer list bears on it.
+
+## 2026-10-22 — A group gets its own block: 550 tokens a student, by free trial (ruled by Mark)
+
+System Hub decision 63, sixteenth addendum. This changes the "daily share per student" in rulings 28 and 29: there is no daily limit anywhere (ruling of 2026-10-22, free allowance is monthly).
+
+33. Ruled: a teacher or adult applies for a free trial for a group, names the number of students, and must set up an account to do it. The group receives a block of 550 tokens for each student named, given together as one block for the group. After the block, the group pays as you go, with only adults buying (ruling 28). Group members are not given a separate allowance on top of the block.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The block is one shared pool. The adult sets a per-student share inside it (default 550) so one student cannot empty it, as ruling 29 already provides for limits. The share is monthly or total, never daily.
+- It applies to both kinds of group, adult and minor.
+- Open: who approves a trial (an approval from the project lead each time, or automatic up to a size with larger ones coming to the project lead); the largest number of students; how the number is checked; how long the block lasts and whether it refills; one trial per adult or per organisation.
