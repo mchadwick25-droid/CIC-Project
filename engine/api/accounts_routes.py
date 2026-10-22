@@ -48,7 +48,7 @@ MESSAGES = {
     "send_failed": "We could not send the code. Please try again.",
     "wrong": "That code did not work. Check it, or ask for a new one.",
     "needs_age_answer": "Please tell us if you are 18 or over.",
-    "not_adult": "Accounts are open to people who are 18 or over. The way in for younger people, with a parent or teacher, is not open yet.",
+    "not_adult": "Accounts are open to people who are 18 or over. The way in for younger people, with a parent or teacher, is not available yet.",
     "step_up_needed": "Please confirm your address with a fresh code first.",
     "cannot_use": "That address cannot be used.",
 }

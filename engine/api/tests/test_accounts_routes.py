@@ -118,7 +118,7 @@ def test_a_wrong_code_is_400_and_the_new_account_flow_asks_for_the_age_click(htt
     assert asked.status_code == 200 and asked.json()["status"] == "needs_age_answer" and "set-cookie" not in asked.headers
     declined = http.post("/api/accounts/sign-in/finish", json={**body, "over_18": False}, headers=H)
     assert declined.status_code == 200 and declined.json()["status"] == "not_adult" and "set-cookie" not in declined.headers
-    assert "not open yet" in declined.json()["message"]
+    assert "not available yet" in declined.json()["message"]
     assert http.get("/api/accounts/me").json() == {"signed_in": False}
     typed = http.post("/api/accounts/sign-in/finish", json={**body, "over_18": "yes"}, headers=H)
     assert typed.status_code == 422
