@@ -856,3 +856,9 @@ System Hub decision 63, twelfth addendum.
 System Hub decision 63, thirteenth addendum. This settles the open decision left by ruling 29.
 
 30. Ruled: the adult sign-off of a minor or a group of minors sees crisis flags and usage only. The adult cannot read a child's conversations. The plain words to the child about what the adult can see (ruling 29) say so.
+
+## 2026-10-22 — Change order: the adult sign-off can read a child's conversations (ruled by Mark)
+
+System Hub decision 63, fourteenth addendum. This changes ruling 30, which limited the adult to flags and usage.
+
+31. Ruled: the adult sign-off of a minor or a group of minors can monitor conversations, because the account exists for a class or a parent. Ruling 30 is superseded on this point; the rest of ruling 29 stands. The safeguards in ruling 29 now carry more weight and stay as the build thread's reading, to be confirmed as the slice is designed: a log of each time an adult read a child's conversation, which the child can see; plain words to the child, before they start, about what the adult can read; and no reading of the conversations of adult members of an adult group. Crisis flags and usage stay as in ruling 29. Open for the slice design: whether the adult reads whole conversations or only those they open from the list, and the lawyer's questions on this point (the Go Deeper lawyer list).
