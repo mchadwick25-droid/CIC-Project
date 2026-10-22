@@ -6799,3 +6799,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, eighth addendum of the same day. Change order on decision 53: the sign-in address is kept, encrypted under its own key in its own file, for sending only; names are never stored. Slice A1c builds it after A1a clears review. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, ninth addendum of the same day. Change order on ruling 8: there are three kinds of account (personal, minor, and group with a teacher as the adult sign-off), because minors in schools and homeschool will use the system with CiC-built curriculum. The consent paths, the age line and what an adult can read are open pending the legal research. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, tenth addendum of the same day. Change order on ruling 6: accounts are for 18 and over, or 13 and over with a parent's permission; the age check uses a full date of birth, never stored. A 13-to-17 sign-in is told a parent must give permission; the flow is a later slice. The Go Deeper Decision-Log entry of the same date carries the ruling.

@@ -47,9 +47,10 @@ MESSAGES = {
     "paused": "Sign-in is paused for a moment. Please try again later.",
     "send_failed": "We could not send the code. Please try again.",
     "wrong": "That code did not work. Check it, or ask for a new one.",
-    "needs_birth_year": "Please tell us your year of birth.",
-    "invalid_birth_year": "Please enter a four-digit year of birth.",
-    "under_age": "You need to be 16 or over to open an account.",
+    "needs_birth_date": "Please tell us your date of birth.",
+    "invalid_birth_date": "Please enter your date of birth as year, month and day.",
+    "under_age": "You need to be 13 or over to open an account. A parent or teacher can set up access for younger children.",
+    "needs_parent": "Because you are under 18, a parent or guardian needs to give permission first.",
     "step_up_needed": "Please confirm your address with a fresh code first.",
     "cannot_use": "That address cannot be used.",
 }
@@ -150,7 +151,7 @@ class SignInFinishBody(BaseModel):
     challenge: str = Field(max_length=80)
     address: str = Field(max_length=300)
     code: str = Field(max_length=40)
-    birth_year: int | None = None
+    birth_date: str | None = Field(default=None, max_length=10)
 
 
 class ChallengeBody(BaseModel):
@@ -221,12 +222,12 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     async def sign_in_finish(body: SignInFinishBody, request: Request, response: Response):
         _guard(request)
         result = await run_in_threadpool(
-            service.finish_sign_in, body.challenge, body.address, body.code, _network(request), body.birth_year
+            service.finish_sign_in, body.challenge, body.address, body.code, _network(request), body.birth_date
         )
         if result.status == "ok":
             _set_cookie(response, result.cookie)
             return {"status": "ok", "new_account": result.new_account}
-        if result.status in ("needs_birth_year", "invalid_birth_year", "under_age"):
+        if result.status in ("needs_birth_date", "invalid_birth_date", "under_age", "needs_parent"):
             return {"status": result.status, "message": MESSAGES[result.status]}
         await _refuse(result, delay=True)
 

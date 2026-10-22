@@ -18,7 +18,7 @@ def test_an_address_change_needs_the_old_address_then_a_code_to_the_new_one(svc,
     assert svc.session(other) is None and svc.session(cookie) is not None
     clock.advance(901)
     old = svc.start_sign_in(ADDR, NET).challenge
-    assert svc.finish_sign_in(old, ADDR, mailer.last_code(ADDR), NET).status == "needs_birth_year"  # no account at the old address
+    assert svc.finish_sign_in(old, ADDR, mailer.last_code(ADDR), NET).status == "needs_birth_date"  # no account at the old address
     new = svc.start_sign_in(NEW, NET).challenge
     assert svc.finish_sign_in(new, NEW, mailer.last_code(NEW), NET).status == "ok"
 

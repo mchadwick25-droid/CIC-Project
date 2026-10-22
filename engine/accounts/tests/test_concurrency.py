@@ -36,16 +36,16 @@ def test_concurrent_wrong_guesses_cannot_beat_the_try_limit(svc, mailer, store):
         return row
 
     store.take_try = counting
-    results = _race(30, lambda i: svc.finish_sign_in(challenge, ADDR, wrong, f"198.51.100.{i}", 1990).status)
+    results = _race(30, lambda i: svc.finish_sign_in(challenge, ADDR, wrong, f"198.51.100.{i}", "1990-05-15").status)
     assert set(results) == {"wrong"}
     assert len(counted) <= svc.limits.code_tries
-    assert svc.finish_sign_in(challenge, ADDR, right, NET, 1990).status == "wrong"  # the code was burned
+    assert svc.finish_sign_in(challenge, ADDR, right, NET, "1990-05-15").status == "wrong"  # the code was burned
 
 
 def test_two_simultaneous_right_codes_open_exactly_one_session(svc, mailer, store):
     challenge = svc.start_sign_in(ADDR, NET).challenge
     right = mailer.last_code(ADDR)
-    results = _race(4, lambda i: svc.finish_sign_in(challenge, ADDR, right, f"198.51.100.{i}", 1990).status)
+    results = _race(4, lambda i: svc.finish_sign_in(challenge, ADDR, right, f"198.51.100.{i}", "1990-05-15").status)
     assert results.count("ok") == 1
     assert store._e.execute("SELECT COUNT(*) FROM sessions").fetchone()[0] == 1
     assert store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1
