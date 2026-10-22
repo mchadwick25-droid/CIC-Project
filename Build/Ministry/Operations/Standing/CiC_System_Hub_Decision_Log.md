@@ -6781,3 +6781,5 @@ By the same report, he chose these on 2026-10-21:
 63, addendum of the same day. After a benchmark of the design against thirteen products, the project lead added two choices to decision 63 for the first version: a self-serve export of a person's shelf, token history and coupons with a stated response time, and a passkey offered after the first sign-in as an extra to the typed code. A sub-processor page, a security contact and a device list stay on the later list. The Go Deeper Decision-Log entry of the same date carries the wording.
 
 63, second addendum of the same day. After the Opus review, an account finds its codes by a scan of the meter under the key, storing only the keyed scramble of a code's hash. The Build Plan's plain code hash in A2 is withdrawn. The Go Deeper Decision-Log entry carries the wording and the review's other findings as they are ruled.
+
+63, third addendum of the same day. Purchased tokens lapse after two years unused, and no tokens are sold until the account feature is set up, so the expiry line is shown at every purchase from the first. The Go Deeper Decision-Log entry carries the wording.
