@@ -30,11 +30,13 @@ CREATE TABLE IF NOT EXISTS recovery_codes (
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS pending_changes (
   account_id       TEXT PRIMARY KEY,
-  new_address_hash TEXT NOT NULL UNIQUE,
+  new_address_hash TEXT NOT NULL,
   effective_on     TEXT NOT NULL,
   verified         INTEGER NOT NULL DEFAULT 0,
   made_on          TEXT NOT NULL
 ) WITHOUT ROWID;
+CREATE UNIQUE INDEX IF NOT EXISTS pending_verified_hash ON pending_changes (new_address_hash) WHERE verified = 1;
+CREATE INDEX IF NOT EXISTS pending_by_hash ON pending_changes (new_address_hash);
 CREATE TABLE IF NOT EXISTS deletion_ledger (
   ledger_hash TEXT PRIMARY KEY,
   expires_on  TEXT NOT NULL
@@ -238,16 +240,30 @@ class AccountStore:
             row = self._d.execute("SELECT * FROM pending_changes WHERE account_id = ?", (account_id,)).fetchone()
         return Pending(row[0], row[1], row[2], bool(row[3]), row[4]) if row else None
 
-    def pending_for_hash(self, new_address_hash: str) -> Pending | None:
+    def verified_pending_for_hash(self, new_address_hash: str) -> Pending | None:
+        """The recovery that has proved this address, if any. An unproved one proves nothing."""
         with self._lock:
-            row = self._d.execute("SELECT * FROM pending_changes WHERE new_address_hash = ?", (new_address_hash,)).fetchone()
+            row = self._d.execute(
+                "SELECT * FROM pending_changes WHERE new_address_hash = ? AND verified = 1", (new_address_hash,)
+            ).fetchone()
         return Pending(row[0], row[1], row[2], bool(row[3]), row[4]) if row else None
 
-    def verify_pending(self, new_address_hash: str) -> bool:
+    def pending_of(self, account_id: str, new_address_hash: str) -> Pending | None:
         with self._lock:
-            return self._d.execute(
-                "UPDATE pending_changes SET verified = 1 WHERE new_address_hash = ?", (new_address_hash,)
-            ).rowcount == 1
+            row = self._d.execute(
+                "SELECT * FROM pending_changes WHERE account_id = ? AND new_address_hash = ?", (account_id, new_address_hash)
+            ).fetchone()
+        return Pending(row[0], row[1], row[2], bool(row[3]), row[4]) if row else None
+
+    def verify_pending(self, account_id: str, new_address_hash: str) -> bool:
+        with self._lock:
+            try:
+                return self._d.execute(
+                    "UPDATE pending_changes SET verified = 1 WHERE account_id = ? AND new_address_hash = ?",
+                    (account_id, new_address_hash),
+                ).rowcount == 1
+            except sqlite3.IntegrityError:
+                return False
 
     def delete_pending(self, account_id: str) -> None:
         with self._lock:
@@ -353,7 +369,7 @@ class AccountStore:
         """Removes the codes and counters that carry an address hash."""
         with self._lock:
             self._e.execute("DELETE FROM sign_in_codes WHERE address_hash = ?", (address_hash,))
-            self._e.execute("DELETE FROM counters WHERE key = ?", (address_hash,))
+            self._e.execute("DELETE FROM counters WHERE key LIKE ?", ("%|" + address_hash,))
 
     # counters ---------------------------------------------------------------
 

@@ -279,7 +279,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         await _floor(began)
         if result.status != "sent":
             await _refuse(result, delay=True)
-        return {"status": "sent", "message": MESSAGES["sent"], "effective_on": result.effective_on}
+        return {"status": "sent", "message": MESSAGES["sent"]}
 
     @app.post("/api/accounts/recovery/finish")
     async def recovery_finish(body: NewAddressFinishBody, request: Request):

@@ -104,6 +104,6 @@ def test_deleting_an_account_forgets_its_address_hash_in_the_ephemeral_file(svc,
     session, cookie = stepped_up_session(svc, mailer, clock)
     address_hash = svc.keys.address_hash(ADDR)
     svc.delete_account(svc.session(cookie))
-    assert store._e.execute("SELECT COUNT(*) FROM counters WHERE key = ?", (address_hash,)).fetchone()[0] == 0
+    assert store._e.execute("SELECT COUNT(*) FROM counters WHERE key LIKE ?", ("%|" + address_hash,)).fetchone()[0] == 0
     assert store._e.execute("SELECT COUNT(*) FROM sign_in_codes WHERE address_hash = ?", (address_hash,)).fetchone()[0] == 0
     assert address_hash.encode() not in (tmp_path / "e.db").read_bytes()

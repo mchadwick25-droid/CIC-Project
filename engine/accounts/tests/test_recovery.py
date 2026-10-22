@@ -33,8 +33,9 @@ def test_recovery_waits_a_week_and_then_the_new_address_owns_the_account(svc, ma
     account_id = svc.session(cookie).account_id
     start = svc.recover_start(code, NEW, OTHER_NET)
     week_on = (svc.today() + timedelta(days=7)).isoformat()
-    assert start.status == "sent" and start.effective_on == week_on
-    assert svc.recover_finish(NEW, mailer.last_code(NEW), OTHER_NET).status == "waiting"
+    assert start.status == "sent" and start.effective_on is None
+    finished = svc.recover_finish(NEW, mailer.last_code(NEW), OTHER_NET)
+    assert finished.status == "waiting" and finished.effective_on == week_on
     assert svc.session(cookie).pending_recovery  # the old owner sees the banner
     svc.start_sign_in(NEW, OTHER_NET)
     waiting = svc.finish_sign_in(NEW, mailer.last_code(NEW), OTHER_NET, 1990)
@@ -154,3 +155,31 @@ def test_a_code_for_one_account_s_change_cannot_finish_another(svc, mailer, cloc
     svc.change_address_start(session, NEW, NET)
     code = mailer.last_code(NEW)
     assert svc.change_address_finish(other, NEW, code, NET).status == "wrong"
+
+
+def test_a_stranger_cannot_block_a_recovery_by_starting_one_to_the_same_address(svc, mailer, clock):
+    code, cookie = _recovery_code(svc, mailer, clock)
+    sign_in(svc, mailer, "mallory@example.org", "192.0.2.50")
+    session, mcookie = stepped_up_session(svc, mailer, clock, "mallory@example.org", "192.0.2.50")
+    mallory_code = svc.make_recovery_code(svc.session(mcookie)).recovery_code
+    assert svc.recover_start(mallory_code, NEW, "192.0.2.51").status == "sent"  # unproved, proves nothing
+    assert svc.recover_start(code, NEW, OTHER_NET).status == "sent"
+    assert svc.recover_finish(NEW, mailer.last_code(NEW), OTHER_NET).status == "waiting"
+    assert svc.recover_finish(NEW, mailer.last_code(NEW), "192.0.2.52").status == "wrong"  # one proof, one account
+
+
+def test_an_address_taken_during_the_wait_moves_nothing_and_replaces_no_recovery_code(svc, mailer, clock, store):
+    code, cookie = _recovery_code(svc, mailer, clock)
+    account_id = svc.session(cookie).account_id
+    svc.recover_start(code, NEW, OTHER_NET)
+    svc.recover_finish(NEW, mailer.last_code(NEW), OTHER_NET)
+    other_account_id = store.create_account(__import__("engine.accounts.store", fromlist=["Account"]).Account(
+        "f" * 32, svc.keys.address_hash(NEW), "x", 1, "x", "18+")) and "f" * 32
+    owner_code = svc._issue_recovery_code(other_account_id)
+    clock.advance(7 * 86400)
+    svc.start_sign_in(NEW, OTHER_NET)
+    result = svc.finish_sign_in(NEW, mailer.last_code(NEW), OTHER_NET)
+    assert result.status == "ok" and result.recovery_code is None
+    assert svc.session(result.cookie).account_id == other_account_id
+    assert store.account_by_recovery_hash(__import__("hashlib").sha256(owner_code.encode()).hexdigest()) == other_account_id
+    assert store.account(account_id) is not None and store.pending_for_account(account_id) is None

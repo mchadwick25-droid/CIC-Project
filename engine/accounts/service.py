@@ -149,12 +149,19 @@ class AccountsService:
             and self._allow("send_coarse", self._coarse(network), 900, limits.sends_per_coarse_network_15min)
         )
 
-    def _send_code(self, norm: str, address_hash: str, purpose: str, network: str, account_id: str | None) -> Result:
+    def _admit_send(self, address_hash: str, purpose: str, network: str, scope: str = "") -> Result | None:
+        """Counts a send attempt against every limit that applies and says whether it
+        may go on. It runs before anything is learned about the address, so a refusal
+        is the same for an address with an account and one without. The per-address
+        counters are kept per purpose and, for step-up, address change and recovery,
+        per account, so what the address's own owner did never changes what a
+        stranger's attempts meet."""
         limits = self.limits
+        key = f"{purpose}|{scope}|{address_hash}"
         within = (
             self._count_start(network)
-            and self._allow("send_addr", address_hash, 900, limits.sends_per_address_15min)
-            and self._allow("send_addr_day", address_hash, 86400, limits.sends_per_address_day)
+            and self._allow("send_addr", key, 900, limits.sends_per_address_15min)
+            and self._allow("send_addr_day", key, 86400, limits.sends_per_address_day)
         )
         if not within:
             return Result("throttled")
@@ -164,10 +171,13 @@ class AccountsService:
             limits.sends_global_hour if sign_in else limits.sends_global_hour_other,
         ):
             return Result("paused")
+        return None
+
+    def _deliver(self, norm: str, address_hash: str, purpose: str, account_id: str | None) -> Result:
         code = f"{secrets.randbelow(10**6):06d}"
         self.store.put_code(
             address_hash, purpose, self.keys.mac("code", purpose, address_hash, code),
-            self.now() + limits.code_ttl_seconds, account_id,
+            self.now() + self.limits.code_ttl_seconds, account_id,
         )
         try:
             self.mailer.send_code(norm, code)
@@ -176,6 +186,10 @@ class AccountsService:
             self.store.burn_code(address_hash, purpose)
             return Result("send_failed")
         return Result("sent")
+
+    def _send_code(self, norm: str, address_hash: str, purpose: str, network: str, account_id: str | None) -> Result:
+        refused = self._admit_send(address_hash, purpose, network, account_id or "")
+        return refused or self._deliver(norm, address_hash, purpose, account_id)
 
     def _check_code(self, address_hash: str, purpose: str, code) -> "CodeCheck | None":
         """Counts one try and says whether the code is right. The count and the
@@ -188,7 +202,7 @@ class AccountsService:
         expected = self.keys.mac("code", purpose, address_hash, given)
         if not hmac.compare_digest(expected, row.mac):
             if row.tries >= self.limits.code_tries:
-                self.store.burn_code(address_hash, purpose)
+                self.store.burn_code_if(address_hash, purpose, row.mac)
             return None
         return CodeCheck(row.account_id, row.mac)
 
@@ -216,16 +230,18 @@ class AccountsService:
         checked = self._check_code(ahash, "sign_in", code)
         if checked is None:
             return Result("wrong")
-        pending = self.store.pending_for_hash(ahash)
-        if pending is not None and pending.verified:
+        pending = self.store.verified_pending_for_hash(ahash)
+        if pending is not None:
             if pending.effective_on > self.today().isoformat():
                 return Result("recovery_waiting", effective_on=pending.effective_on)
             if not self._spend_code(ahash, "sign_in", checked):
                 return Result("wrong")
-            self._apply_pending(pending)
+            applied = self._apply_pending(pending)
             account = self.store.account_by_hashes(self.keys.candidate_hashes(norm))
-            issued = self._issue_recovery_code(account.account_id) if account else None
-            return self._sign_in_as(account, ahash, issued) if account else Result("wrong")
+            if account is None:
+                return Result("wrong")
+            issued = self._issue_recovery_code(account.account_id) if applied else None
+            return self._sign_in_as(account, ahash, issued)
         account = self.store.account_by_hashes(self.keys.candidate_hashes(norm))
         if account is not None:
             if not self._spend_code(ahash, "sign_in", checked):
@@ -324,12 +340,19 @@ class AccountsService:
         return norm, self.keys.address_hash(norm)
 
     def step_up_start(self, session: Session, address, network: str) -> Result:
-        if not (self._count_start(network) and self._allow("account", session.account_id, 900, self.limits.account_actions_15min)):
+        if not self._allow("account", session.account_id, 900, self.limits.account_actions_15min):
             return Result("throttled")
+        norm = normalise_address(address)
+        if norm is None:
+            return Result("sent") if self._count_start(network) else Result("throttled")
+        typed = self.keys.address_hash(norm)
+        refused = self._admit_send(typed, "step_up", network, session.account_id)
+        if refused:
+            return refused
         owned = self._owns(session.account_id, address)
         if owned is None:
             return Result("sent")
-        return self._send_code(owned[0], owned[1], "step_up", network, session.account_id)
+        return self._deliver(owned[0], owned[1], "step_up", session.account_id)
 
     def step_up_finish(self, session: Session, address, code, network: str) -> Result:
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
@@ -351,8 +374,9 @@ class AccountsService:
 
     def recover_start(self, recovery_code, new_address, network: str) -> Result:
         """Starts a recovery for a new address. A recovery code that is right always
-        gets the same reply, whether or not the new address already has an account;
-        the code is spent only when the new address is proved, at recover_finish."""
+        gets the same reply, whether or not the new address already has an account, and
+        every limit is counted before that is looked at. The code is spent only when the
+        new address is proved, at recover_finish."""
         if not self._allow("recover_net", self.keys.network_key(network), 3600, self.limits.recoveries_per_network_hour):
             return Result("throttled")
         code = normalise_recovery_code(recovery_code)
@@ -360,20 +384,22 @@ class AccountsService:
         account_id = self.store.account_by_recovery_hash(sha256(code.encode()).hexdigest()) if code else None
         if account_id is None or norm is None:
             return Result("wrong")
-        if not self._count_start(network):
-            return Result("throttled")
         candidates = self.keys.candidate_hashes(norm)
+        refused = self._admit_send(candidates[0], "recover", network, account_id)
+        if refused:
+            return refused
         taken = self.store.account_by_hashes(candidates) is not None
-        other = self.store.pending_for_hash(candidates[0])
-        if taken or (other is not None and other.account_id != account_id):
+        if taken or self.store.verified_pending_for_hash(candidates[0]) is not None:
             return Result("sent")
-        effective_on = (self.today() + timedelta(days=self.limits.recovery_wait_days)).isoformat()
-        self.store.put_pending(Pending(account_id, candidates[0], effective_on, False, self.today().isoformat()))
-        sent = self._send_code(norm, candidates[0], "recover", network, account_id)
+        today = self.today()
+        effective_on = (today + timedelta(days=self.limits.recovery_wait_days)).isoformat()
+        if not self.store.put_pending(Pending(account_id, candidates[0], effective_on, False, today.isoformat())):
+            return Result("sent")
+        sent = self._deliver(norm, candidates[0], "recover", account_id)
         if sent.status != "sent":
             self.store.delete_pending(account_id)
             return sent
-        return Result("sent", effective_on=effective_on)
+        return Result("sent")
 
     def recover_finish(self, new_address, code, network: str) -> Result:
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
@@ -383,13 +409,12 @@ class AccountsService:
             return Result("wrong")
         ahash = self.keys.address_hash(norm)
         checked = self._check_code(ahash, "recover", code)
-        pending = self.store.pending_for_hash(ahash)
-        if checked is None or pending is None or pending.account_id != checked.account_id:
+        pending = self.store.pending_of(checked.account_id, ahash) if checked and checked.account_id else None
+        if pending is None or not self._spend_code(ahash, "recover", checked):
             return Result("wrong")
-        if not self._spend_code(ahash, "recover", checked):
+        if not self.store.verify_pending(pending.account_id, ahash):
             return Result("wrong")
         self.store.delete_recovery_code(pending.account_id)
-        self.store.verify_pending(ahash)
         return Result("waiting", effective_on=pending.effective_on)
 
     def cancel_recovery(self, session: Session) -> Result:
@@ -398,16 +423,18 @@ class AccountsService:
         self.store.delete_pending(session.account_id)
         return Result("ok")
 
-    def _apply_pending(self, pending: Pending) -> None:
+    def _apply_pending(self, pending: Pending) -> bool:
         """The waiting period is over: the account moves to the new address, every
-        session ends, and the old recovery code is gone."""
+        session ends, and the old recovery code is gone. False when the address was
+        taken during the wait, in which case nothing moves."""
         if self.store.account_by_hashes([pending.new_address_hash]) is not None:
             self.store.delete_pending(pending.account_id)
-            return
+            return False
         self.store.set_address_hash(pending.account_id, pending.new_address_hash)
         self.store.delete_sessions_of(pending.account_id)
         self.store.delete_recovery_code(pending.account_id)
         self.store.delete_pending(pending.account_id)
+        return True
 
     # address change ----------------------------------------------------------------
 
@@ -420,12 +447,15 @@ class AccountsService:
         norm = normalise_address(new_address)
         if norm is None:
             return Result("invalid_address")
-        if not (self._count_start(network) and self._allow("account", session.account_id, 900, self.limits.account_actions_15min)):
+        if not self._allow("account", session.account_id, 900, self.limits.account_actions_15min):
             return Result("throttled")
         candidates = self.keys.candidate_hashes(norm)
-        if self.store.account_by_hashes(candidates) is not None or self.store.pending_for_hash(candidates[0]) is not None:
+        refused = self._admit_send(candidates[0], "change", network, session.account_id)
+        if refused:
+            return refused
+        if self.store.account_by_hashes(candidates) is not None or self.store.verified_pending_for_hash(candidates[0]) is not None:
             return Result("sent")
-        return self._send_code(norm, candidates[0], "change", network, session.account_id)
+        return self._deliver(norm, candidates[0], "change", session.account_id)
 
     def change_address_finish(self, session: Session, new_address, code, network: str) -> Result:
         if not session.stepped_up:

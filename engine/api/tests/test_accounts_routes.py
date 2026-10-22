@@ -134,9 +134,9 @@ def test_recovery_over_http(http, mailer, runtime):
     code = http.post("/api/accounts/recovery-code", json={}, headers=H).json()["recovery_code"]
     fresh = TestClient(http.app, base_url="https://testserver")
     start = fresh.post("/api/accounts/recovery/start", json={"recovery_code": code, "new_address": NEW}, headers=H)
-    assert start.status_code == 200 and start.json()["effective_on"]
+    assert start.status_code == 200 and set(start.json()) == {"status", "message"}
     done = fresh.post("/api/accounts/recovery/finish", json={"new_address": NEW, "code": mailer.last_code(NEW)}, headers=H)
-    assert done.json()["status"] == "waiting"
+    assert done.json()["status"] == "waiting" and done.json()["effective_on"]
     assert http.get("/api/accounts/me").json()["pending_recovery"]
     step_up(http, mailer)
     assert http.post("/api/accounts/recovery/cancel", json={}, headers=H).status_code == 200
@@ -225,3 +225,25 @@ def test_a_paused_sign_in_is_503(http, runtime, mailer):
     first = http.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H)
     second = http.post("/api/accounts/sign-in/start", json={"address": NEW}, headers={**H})
     assert first.status_code == 200 and second.status_code == 503
+
+
+def test_recovery_and_address_change_replies_and_limits_are_the_same_for_a_taken_and_a_free_address(http, mailer):
+    sign_in(http, mailer, "bob@example.org")
+    other = TestClient(http.app, base_url="https://testserver")
+    sign_in(other, mailer, ADDR, 1990)
+    step_up(other, mailer, ADDR)
+    code = other.post("/api/accounts/recovery-code", json={}, headers=H).json()["recovery_code"]
+
+    def probe(path, body, forwarded):
+        out = []
+        for _ in range(5):
+            r = other.post(path, json=body, headers={**H, "x-forwarded-for": forwarded})
+            out.append((r.status_code, tuple(sorted(r.json()))))
+        return out
+
+    taken = probe("/api/accounts/recovery/start", {"recovery_code": code, "new_address": "bob@example.org"}, "192.0.2.61")
+    free = probe("/api/accounts/recovery/start", {"recovery_code": code, "new_address": "fresh@example.org"}, "192.0.2.62")
+    assert taken == free and taken[0][0] == 200
+    taken_change = probe("/api/accounts/address/start", {"new_address": "bob@example.org"}, "192.0.2.63")
+    free_change = probe("/api/accounts/address/start", {"new_address": "later@example.org"}, "192.0.2.64")
+    assert taken_change == free_change and taken_change[0][0] == 200

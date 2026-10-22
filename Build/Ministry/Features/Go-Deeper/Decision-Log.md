@@ -741,3 +741,10 @@ Open, not changed by A1a:
 - Old backups can outlive the 16-day ledger if uploads fail for days; the backup runbook step in A5 closes it.
 - Render's platform request logs and disk snapshots are unchecked: whether snapshots copy the ephemeral accounts file, and how long request logs are kept.
 - The sign-in mail provider is not chosen. Start-up refuses with the flag on and no provider, so accounts cannot be switched on in production yet.
+
+A1a, Opus round two (a targeted recheck of the fixes above). It confirmed the race, the recovery-code spending, the backup exclusion and the smaller fixes, and found three defects in the fixes themselves, all fixed in the same pull request:
+- The recovery start reply still carried the date only a free address got, and a taken address skipped the per-address and global send budgets, so throttling answered differently. Now the start reply carries no date, every budget is counted before the taken-or-free check, and a taken address is told nothing more than a free one.
+- Per-address send counters are kept per purpose and per account (the account probing, or the account behind the recovery code), so what an address's own owner did never changes what a stranger meets.
+- A stranger holding any recovery code could leave an unproved pending change on someone else's intended new address and block their recovery. An unproved pending change now proves nothing: uniqueness holds only for a proved one, and each account proves its own.
+- Smaller: the fifth wrong guess burns only the code it read; a recovery whose address was taken during the wait moves nothing and replaces no one's recovery code; each send is counted once, not twice.
+Not changed, recorded: five wrong guesses burn a person's live code, as the first implementation also did, limited by the per-network finish limit; the concurrency tests prove the limits within one process, and the cross-process guarantee rests on the database's immediate transactions.

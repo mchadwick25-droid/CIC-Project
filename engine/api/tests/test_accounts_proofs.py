@@ -42,6 +42,8 @@ REQUIRED = {
         "test_an_address_change_needs_the_old_address_then_a_code_to_the_new_one",
         "test_the_replies_never_say_whether_an_address_has_an_account",
         "test_a_recovery_code_is_spent_when_the_new_address_is_proved",
+        "test_a_stranger_cannot_block_a_recovery_by_starting_one_to_the_same_address",
+        "test_an_address_taken_during_the_wait_moves_nothing_and_replaces_no_recovery_code",
     ],
     "engine/accounts/tests/test_deletion.py": [
         "test_the_ledger_holds_a_hash_of_the_random_id_never_the_address",
@@ -56,6 +58,7 @@ REQUIRED = {
         "test_every_post_needs_the_header_and_json_and_a_matching_origin",
         "test_start_up_refuses_with_no_key_a_short_key_or_no_mail",
         "test_no_log_line_holds_an_address_a_code_or_a_cookie",
+        "test_recovery_and_address_change_replies_and_limits_are_the_same_for_a_taken_and_a_free_address",
     ],
     "engine/api/tests/test_accounts_proofs.py": [
         "test_only_the_api_edge_imports_the_accounts_module",
