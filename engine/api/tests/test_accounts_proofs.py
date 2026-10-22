@@ -81,6 +81,7 @@ REQUIRED = {
         "test_a_waiting_move_whose_notice_was_never_accepted_is_never_carried_out_and_is_cleared_the_next_day",
         "test_an_undone_reservation_restores_nothing_the_owner_has_since_replaced",
         "test_a_recovery_cancelled_while_its_notice_goes_out_is_not_reported_as_waiting",
+        "test_a_notice_that_went_to_an_address_the_owner_has_just_left_does_not_start_the_wait",
     ],
     "engine/api/tests/test_contact_cipher.py": [
         "test_a_sealed_address_opens_with_its_key_and_context_only",

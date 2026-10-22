@@ -337,7 +337,10 @@ def test_a_waiting_move_whose_notice_was_never_accepted_is_never_carried_out_and
     assert svc.me(svc.session(cookie))["recovery_pending"] is None
     challenge = svc.start_sign_in(NEW, NET).challenge
     assert svc.finish_sign_in(challenge, NEW, mailer.last_code(NEW), NET).status == "needs_age_answer"  # no false wait for the address
-    clock.advance(9 * 86400)
+    clock.advance(86400)
+    svc.purge()
+    assert store.pending_of(session.account_id, include_unnotified=True) is not None  # under a full day old: still held
+    clock.advance(2 * 86400)
     svc.purge()
     assert store.account(session.account_id).address_hash == svc.keys.address_hash(ADDR)
     assert store.pending_of(session.account_id, include_unnotified=True) is None and contacts.pending(session.account_id) is None
@@ -378,3 +381,27 @@ def test_a_recovery_cancelled_while_its_notice_goes_out_is_not_reported_as_waiti
     result = svc.recovery_prove(started.challenge, proved, NEW, THIEF)
     assert result.status == "wrong" and "recovery_code" not in result.data
     assert store.pending_of(session.account_id, include_unnotified=True) is None and contacts.pending(session.account_id) is None
+
+
+def test_a_notice_that_went_to_an_address_the_owner_has_just_left_does_not_start_the_wait(svc, mailer, clock, store, contacts):
+    session, cookie, code = _owner_with_code(svc, mailer, clock)
+    started = svc.recovery_start(code, NEW, THIEF)
+    proved = mailer.last_code(NEW)
+    real = mailer.send_notice
+
+    def owner_moves(address, kind, fields):
+        real(address, kind, fields)
+        store.set_address_hash(session.account_id, svc.keys.address_hash("moved@example.org"))
+
+    mailer.send_notice = owner_moves
+    result = svc.recovery_prove(started.challenge, proved, NEW, THIEF)
+    assert result.status == "wrong" and "recovery_code" not in result.data
+    assert store.pending_of(session.account_id, include_unnotified=True) is None and contacts.pending(session.account_id) is None
+    assert store.has_recovery_key(session.account_id)  # the owner's code is back
+
+
+def test_a_waiting_address_with_no_waiting_move_behind_it_is_swept(svc, mailer, clock, store, contacts):
+    session, cookie, code = _owner_with_code(svc, mailer, clock)
+    contacts.put_pending(session.account_id, NEW)
+    svc.purge()
+    assert contacts.pending(session.account_id) is None and contacts.get(session.account_id) == ADDR

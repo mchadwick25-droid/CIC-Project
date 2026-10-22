@@ -102,6 +102,10 @@ class ContactStore:
             self._c.execute("DELETE FROM contacts WHERE account_id = ?", (account_id,))
             self._c.execute("DELETE FROM pending_contacts WHERE account_id = ?", (account_id,))
 
+    def pending_account_ids(self) -> list[str]:
+        with self._lock:
+            return [r[0] for r in self._c.execute("SELECT account_id FROM pending_contacts")]
+
     def account_ids(self) -> list[str]:
         with self._lock:
             ids = {r[0] for r in self._c.execute("SELECT account_id FROM contacts")}

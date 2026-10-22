@@ -630,7 +630,11 @@ class AccountsService:
         # Until the notice is accepted the waiting move never takes effect, even after a crash.
         # If the row is gone, the owner cancelled or replaced the code while the notice was
         # going out, and nothing is waiting.
-        if not self.store.mark_notified(account_id, cancel_hash):
+        # The mark also checks that the account still holds the address the notice went to; if the
+        # owner moved away from it in the meantime, the reservation is taken back.
+        if not self.store.mark_notified(account_id, cancel_hash, self.keys.candidate_hashes(old_address)):
+            if self.store.undo_recovery(account_id, cancel_hash, new_key, checked.bound, today):
+                self.contacts.forget_pending(account_id)
             return Result("wrong")
         self._spend(checked)
         return Result("ok", data={"recovery_code": new_code, "effective_on": effective_on})
@@ -667,9 +671,12 @@ class AccountsService:
         return {"effective_on": pending[2]} if pending else None
 
     def _undo_stale_reservations(self) -> None:
-        """Takes back a recovery reserved on an earlier day whose notice was never accepted,
-        such as after a crash mid-send, so it cannot block a later recovery or hold an address."""
-        for account_id, cancel_hash, new_key, used_key in self.store.stale_reservations(self.today().isoformat()):
+        """Takes back a recovery reserved at least a full day ago whose notice was never accepted,
+        such as after a crash mid-send, so it cannot block a later recovery or hold an address.
+        A whole day is far longer than any send, so a notice still going out is never undone. An
+        owner who is blocked sooner can end it at once by cancelling or making a new recovery code."""
+        cutoff = (self.today() - timedelta(days=1)).isoformat()
+        for account_id, cancel_hash, new_key, used_key in self.store.stale_reservations(cutoff):
             if self.store.undo_recovery(account_id, cancel_hash, new_key, used_key, self.today().isoformat()):
                 if self.contacts is not None:
                     self.contacts.forget_pending(account_id)
@@ -691,12 +698,17 @@ class AccountsService:
 
     def _sweep_contacts(self) -> None:
         """Removes any kept address whose account is gone, such as after a crash between the two
-        files or a contact file restored apart from the account file."""
+        files or a contact file restored apart from the account file, and any waiting address with
+        no waiting move behind it. The move's row is always written before its address, so a row
+        that is missing means the address is left over."""
         if self.contacts is None:
             return
         for account_id in self.contacts.account_ids():
             if self.store.account(account_id) is None:
                 self.contacts.forget(account_id)
+        for account_id in self.contacts.pending_account_ids():
+            if self.store.pending_of(account_id, include_unnotified=True) is None:
+                self.contacts.forget_pending(account_id)
 
     # what an account holds, and deletion ------------------------------------------------
 

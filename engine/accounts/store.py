@@ -264,21 +264,26 @@ class AccountStore:
                 "SELECT account_id, new_address_hash FROM pending_recoveries WHERE effective_on <= ? AND notified = 1", (today,)
             )]
 
-    def mark_notified(self, account_id: str, cancel_hash: str) -> bool:
-        """Records that the mail provider accepted the notice for this waiting move. A move whose
-        notice was never accepted is never carried out."""
+    def mark_notified(self, account_id: str, cancel_hash: str, noticed_address_hashes: list[str]) -> bool:
+        """Records that the mail provider accepted the notice for this waiting move, and that the
+        notice went to the address the account still holds. A notice sent to an address the owner
+        has since left does not count, and a move whose notice was not accepted is never carried
+        out."""
+        marks = ",".join(f"?{i + 3}" for i in range(len(noticed_address_hashes)))
         with self._lock:
             return self._d.execute(
-                "UPDATE pending_recoveries SET notified = 1 WHERE account_id = ? AND cancel_hash = ?", (account_id, cancel_hash)
+                "UPDATE pending_recoveries SET notified = 1 WHERE account_id = ?1 AND cancel_hash = ?2 AND EXISTS ("
+                f"SELECT 1 FROM accounts WHERE account_id = ?1 AND address_hash IN ({marks}))",
+                (account_id, cancel_hash, *noticed_address_hashes),
             ).rowcount == 1
 
-    def stale_reservations(self, today: str) -> list[tuple[str, str, str, str]]:
+    def stale_reservations(self, before: str) -> list[tuple[str, str, str, str]]:
         """(account id, cancel hash, replacement key hash, spent key hash) for each reserved move
-        from an earlier day whose notice was never accepted."""
+        made before the given day whose notice was never accepted."""
         with self._lock:
             return [tuple(r) for r in self._d.execute(
                 "SELECT account_id, cancel_hash, new_key_hash, used_key_hash FROM pending_recoveries "
-                "WHERE notified = 0 AND reserved_on < ?", (today,)
+                "WHERE notified = 0 AND reserved_on < ?", (before,)
             )]
 
     def end_recovery(self, account_id: str) -> bool:
