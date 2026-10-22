@@ -649,3 +649,48 @@ Mark approved the pilot questionnaire after a review draft and asked for it to b
 
 Mark: "go deeper in this context would assume going deeper in the conversation or world, pay as you go, get more time needs to be the kind of message." In the room the strip's link and the panel's heading are now "Get more conversations", beside a flat ribbon under the top bar: "{n} tokens left" in gold, and a gold line along the bottom of the ribbon. The count turns white under 100 tokens. The panel's body wording, the code flow, the pilot pack and the limit lines are unchanged. The name "Go deeper" is kept for going deeper into a conversation or a world, which is not built. Full record: Build/Ministry/Operations/Pilot-Feedback/Pilot_Feedback_Decisions.md, "Item 29".
 
+
+## 2026-10-22 — Change order: the account system, presence, coupons and review (ruled by Mark)
+
+System Hub decision 63. Ruled in conversation on 2026-10-22 and closed with "converged, auto mode". This amends the accounts change order of 2026-10-05 (decision 53) and its plan; it adds rules, and it names four changes to earlier rulings. It changes no code. Accounts remain unbuilt and ship dark behind `CIC_ACCOUNTS_ENABLED`. Review document with the comparison tables and sources: https://claude.ai/artifact/JpA4NnMdL3ceJ4a4HLxRYh
+
+**Ruled (thirteen choices).**
+1. Review stays separate from accounts. The review store takes scrubbed turns only, with no account id, no shared session id and week-level dates. An account holder's turns reach it exactly as anyone's do. Nothing in review reads the shelf. Deleting an account cannot reach the review copy, because the two never connect; the 90-day clock is its only deletion, and the privacy page says so, calling the copy "kept apart and scrubbed", never "anonymous".
+2. Questions in the review store are deleted at 90 days with the answers. Scores and routing flags stay.
+3. A coupon reaches a named person as a pending grant keyed to the keyed hash of the address they sign in with. The project lead types the address once at one approval button; only the hash is kept. The grant attaches at the person's next sign-in, with a notice in the app. It is a promotional ledger entry with an end date, no cash value and an approver, and it counts $0 toward the door, as a tester code does. It reuses the meter's grant path and daily limits. The approval screen keeps the address out of every log and never shows whether an account exists. Coupons wait for accounts.
+4. Presence is a private home, seen only by the person: their conversations, tokens, allowance and coupons. It holds no name.
+5. Memory is the saved shelf and the chapters inside one conversation (2026-10-05). Nothing about the person is carried between conversations.
+6. Accounts open at 16 and over, matching the pilot, with no parent step.
+7. Purchased tokens lapse after two years unused, as ruled on 2026-10-12. Coupons and tester grants are promotional and expire sooner. The first form of this choice (purchased tokens never expire) was withdrawn on choice 13.
+8. One personal account. Churches, schools and sponsors keep using group, batch and sponsor codes. An organiser role is a later, separate decision; it would see counts only, never names or conversations.
+9. Sign-in is a typed emailed code, plus Google and Apple sign-in. There is no magic link and no password. Only a keyed hash of the verified address is kept. The privacy page says the sign-in provider learns that the person uses the service.
+10. Tokens can be bought with or without an account. Codes stay for anyone without one; the panel offers signing in as the more reliable way, and a code can be added to an account later.
+11. Recovery: typing the address again is the main way back. After the first saved conversation a one-time recovery code is offered to download or print, stored only as a hash, never required. A signed-in person can change address by verifying the new one. If both are lost, sign-up says plainly that the shelf cannot be recovered.
+12. Apple's "hide my email" gives a separate account, with the prompt "Already have a shelf? Sign in with your code, then choose Add Apple in Settings." Linking is done while signed in, never by an email match alone, and all sessions are cleared when a method is linked or unlinked.
+13. An account unused for two years is removed with its tokens, as decision 53 ruled. We hold no address, so no warning can be sent.
+
+**Changes to earlier rulings, named.**
+- Decision 34 (review store): questions were kept with no end date; they now expire at 90 days. Reason: a participant's own words are the text most likely to identify them, and the scrubber masks names, emails, phone numbers and web addresses but not places, ages, jobs, denominations or a personal story.
+- Decision 53, age: 13 and over with a parent's confirmation becomes 16 and over with none. Reason: a one-time emailed confirmation proves nothing about who clicked it. 16 and 17-year-olds remain minors under most privacy laws; the lawyer's question below covers it.
+- Decision 53, sign-in: "an emailed one-time code or link" becomes a typed code plus Google and Apple. The link is dropped because mail scanners fetch links and use up single-use tokens.
+- Decision 53 and the Build Plan, sessions: "a signed cookie carrying nothing but a key reference" becomes a signed cookie that points to a server-side session, so "sign out everywhere" works.
+- Order: the log said account slices start after the observe week; the Build Plan amended that on 2026-10-05 so nothing waits on a date. The Build Plan stands.
+- Not changed: the 2026-10-12 working policy on expiry and refunds, which stands as written, including that nothing about expiry is stated at purchase until a lawyer clears it.
+
+**Safety minimum before accounts ship** (from the security research; each is a build requirement): one live sign-in code per address, stored only as a keyed hash, single use, 10-minute expiry, five tries then burned; send limits per address and a global cap, held in a store that survives a restart; the same reply and similar timing whether or not an account exists; server-side sessions with idle and absolute timeouts; a fresh code within ten minutes before deleting an account, showing a code or changing a sign-in method; CSRF protection beyond SameSite; three separate keys (address hashing, session-code encryption, cookie signing), each stored with a key id so rotation does not orphan accounts, with an offline copy held by two people; backups encrypted before upload under their own key, and a hashes-only deletion ledger so a restore does not bring back a deleted account; the privacy page states that deleted data leaves backups within 14 days; a test that fails if an email, a six-digit code or conversation text appears in any log; no analytics or error tracker on conversation pages, enforced by a content security policy; one email provider with short log retention; Google, Apple, Stripe, Render, AWS and the email provider listed on the privacy page, and Bedrock's logging and no-training terms confirmed in writing; no production secrets in builder sessions; a one-page incident runbook. Later: passkeys, a device list, a small outside review before any press, and `security.txt`. Dependency and secret scanning at launch if possible.
+
+**Value order** (what the account is for, by value for effort): carry the conversation in progress into the new account at sign-up; a shelf with titles; bookmarks and saved quotes; export to a file; token and coupon history; search. Reminders are skipped, because they need a stored address. An end-to-end encrypted shelf is not built now; it can be added later as an opt-in with a user-held recovery key.
+
+**Questions for a professional, added to the register (none answered).** These sit beside questions 1 to 9.
+
+10. Whether a scrubbed review copy under a random token, with no account link, is anonymous or personal data, and what GDPR Articles 11 and 17 then require.
+11. Whether EU and UK visitors are in scope and a representative is needed; open access alone is weak evidence of targeting.
+12. Whether religious belief needs explicit consent under GDPR Article 9 for the saved shelf and for the review copy.
+13. Whether California SB 243 or New York General Business Law Article 47 treat the service as a companion chatbot.
+14. Whether an in-service credit falls under Regulation E 1005.20 or California Civil Code 1749.5, and whether the "promotional" label is enough for coupons.
+15. Whether state privacy thresholds and nonprofit exemptions cover the service.
+16. Whether accounts at 16 and over with no parent step are acceptable, and whether COPPA reaches anything below that line.
+17. The breach-notice posture for a store that holds no email address.
+18. Whether the saved shelf needs its own consent and notice.
+
+**What the research could not read.** ecfr.gov, federalregister.gov, eur-lex.europa.eu, leginfo.legislature.ca.gov, law.justia.com, help.openai.com, openai.com/policies and mozillafoundation.org answered with bot-protection pages or errors; the network is open. Regulation E 1005.20 was read through Cornell. GDPR Articles 11 and 17 and California Civil Code 1749.5 were not read at the source and are read by the professional. Claims about OpenAI, Microsoft, Character.AI, Woebot, religious apps, several sign-in help pages, passkey sync, Resend, Mailgun and Amazon SES rest on search summaries. Nothing in this entry is legal advice.

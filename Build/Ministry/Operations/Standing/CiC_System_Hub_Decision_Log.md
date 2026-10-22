@@ -6773,3 +6773,7 @@ By the same report, he chose these on 2026-10-21:
 - The explanation comes before a paid sample, not only before the full run.
 - Part 5 carries a checklist line for spend.
 - The cap's margin over the latest real cost, and where the output and ledger go, are part of the explanation. A paid run started without it is a breach.
+
+## 2026-10-22 - Change order: the account system, presence, coupons and review
+
+63. Ruled by the project lead on 2026-10-22 in conversation and closed with "converged, auto mode". It amends decision 53 and changes decision 34; the full record, with the thirteen rulings, the changes named, the safety minimum and nine new questions for a professional, is the Go Deeper Decision-Log entry of the same date. In short: review stays separate from accounts and takes scrubbed turns only; review questions are deleted at 90 days with the answers (decision 34 changed); coupons reach a named person as a pending grant keyed to the hash of their sign-in address; presence is a private home with no name; memory is the shelf and chapters only; accounts open at 16 and over with no parent step, sign in by typed code plus Google and Apple, and are removed with their tokens after two years unused (decision 53 changed in its age rule and its sign-in); purchased tokens lapse after two years unused, as ruled on 2026-10-12; tokens can be bought with or without an account; there is one personal account type and groups stay as codes. Accounts remain unbuilt and dark behind `CIC_ACCOUNTS_ENABLED`; no engine code changes in this decision.
