@@ -6835,3 +6835,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, twenty-sixth addendum of the same day. Groups are recommended for 13 and over; a parent or teacher can make the call to admit a younger child. The build thread's reading: default 13 and over, and nothing for under-13s is built until the lawyer has said what the route requires. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, twenty-seventh addendum of the same day. Only a teacher or a parent can admit a child under 13, and the use is educational; a youth pastor or other non-school leader cannot. Nothing for under-13s is built until the lawyer answers. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-eighth addendum of the same day. A student in a group signs in with a personal code from the adult who runs the group, shown once and reissuable; the class join code only joins. The build thread's reading is recorded with the ruling, and the credential needs its own review before it is built. The Go Deeper Decision-Log entry of the same date carries the ruling.

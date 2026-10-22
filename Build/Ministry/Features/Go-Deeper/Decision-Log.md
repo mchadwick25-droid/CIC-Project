@@ -972,3 +972,16 @@ Consequence recorded by the build thread, not yet settled:
 System Hub decision 63, twenty-seventh addendum. This settles the open point of ruling 43.
 
 44. Ruled: only a teacher or a parent can make the call to admit a child under 13. A youth pastor or other non-school leader cannot. The use is educational. This keeps the under-13 route on the educational footing the law allows for a school, and a parent's own consent for their own child. The default stays 13 and over, and nothing for under-13s is built until the lawyer has said what the route requires (ruling 43).
+
+## 2026-10-22 — A student signs in with a personal code from the teacher (ruled by Mark)
+
+System Hub decision 63, twenty-eighth addendum.
+
+45. Ruled: a student in a group with no email on the profile signs in with a personal code. The adult who runs the group shares a class join code or QR. Each student picks a handle and is given their own long personal code, shown once. The student signs in with that code on any device. The adult can reissue a code that is lost or shared.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The personal code is long and random, at least as hard to guess as the typed sign-in code with its limits: tries counted per code, and a lockout that the adult can lift. It is stored only as a keyed hash, like an address.
+- Sessions for these profiles are shorter than an adult's (hours, not days), because the devices are often shared.
+- The class join code is for joining only. It signs nobody in.
+- The adult's console, the adult's reading of conversations (ruling 31) and the per-network limits are unchanged, except that joins are counted against the group, not the school's network (the walk-through gap).
+- This is a new credential. It needs its own review before it is built, as the sign-in had.
