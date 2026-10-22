@@ -948,3 +948,9 @@ System Hub decision 63, twenty-third addendum. This replaces the build thread's 
 System Hub decision 63, twenty-fourth addendum. This narrows ruling 40.
 
 41. Ruled: the adult can move only purchased credits between students. Free credits, the trial block of ruling 33, stay with the student they were given to and cannot be moved. The other limits in ruling 40 stand: credits not yet used, and inside the group.
+
+## 2026-10-22 — One trial per adult; the student count is what the adult names (ruled by Mark)
+
+System Hub decision 63, twenty-fifth addendum. This closes the last open points of ruling 33.
+
+42. Ruled: an adult gets one free trial. There is no check at the level of an organisation. The number of students is the number the adult names; the group cannot take more members than that. With rulings 34 to 41, the group trial is settled: 550 tokens a student, once, for 90 days, for a group of 25 or fewer (more than 25 asks the project lead), then pay as you go.
