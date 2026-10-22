@@ -6815,3 +6815,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, sixteenth addendum of the same day. A group gets a free-trial block of 550 tokens for each student the teacher or adult names, once they set up an account; after it, pay as you go with adults buying. This replaces the "daily share per student" in the earlier addenda; there is no daily limit. Approval, size limit, checking and duration are open. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, seventeenth addendum of the same day. A group trial for fewer than 100 students is approved automatically; 100 or more come to the project lead (the build thread's reading of the ruling, to be confirmed). Checking, duration and one trial per adult or organisation remain open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, eighteenth addendum of the same day. Change order to the seventeenth: the group trial block is for 25 students or fewer. What happens above 25 is the build thread's reading, to be confirmed. The Go Deeper Decision-Log entry of the same date carries the ruling.

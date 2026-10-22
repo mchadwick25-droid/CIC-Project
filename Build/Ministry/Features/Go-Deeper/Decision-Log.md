@@ -887,3 +887,9 @@ Read by the build thread, to be confirmed as the slice is designed:
 System Hub decision 63, seventeenth addendum. This settles one of the open points of ruling 33.
 
 34. Ruled: a trial for fewer than 100 students is approved without the project lead, by the build's own rule, once the adult has an account and names the number. Read at the time of ruling: a trial for 100 or more students comes to the project lead for approval. The largest class is therefore set by the project lead's approval, not by a fixed cap. Still open from ruling 33: how the number of students is checked, how long the block lasts and whether it refills, and one trial per adult or per organisation.
+
+## 2026-10-22 — Change order: a group trial is for 25 students or fewer (ruled by Mark)
+
+System Hub decision 63, eighteenth addendum. This changes ruling 34, which set the line at 100.
+
+35. Ruled: the free trial block is for a group of 25 students or fewer. Ruling 34's line at 100 is superseded. Read by the build thread, to be confirmed: a group of 25 or fewer is approved automatically; a group of more than 25 gets no free trial block and starts on pay as you go, with an adult buying; the project lead may still grant a larger group a block by approval, as with a coupon. Still open from ruling 33: how the number is checked, how long the block lasts and whether it refills, and one trial per adult or per organisation.
