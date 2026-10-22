@@ -1879,7 +1879,7 @@ button {
   padding: 0 var(--spacing-lg);
   background: #1F1914;
   border-bottom: 1px solid #3A3024;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .go-deeper__ribbon .go-deeper__count {
@@ -1895,7 +1895,7 @@ button {
   margin-left: auto;
   padding: 0;
   color: #D9B35C;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
 }
@@ -2174,9 +2174,9 @@ button {
 
 .turn--welcome {
   text-align: center;
-  font-size: 0.95rem;
+  font-size: var(--font-size-base);
   line-height: 1.55;
-  color: var(--color-text-muted);
+  color: var(--color-text);
 }
 
 .turn--welcome p {
