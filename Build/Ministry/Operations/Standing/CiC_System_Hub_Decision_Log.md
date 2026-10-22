@@ -6827,3 +6827,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, twenty-second addendum of the same day. The adult who runs a group can move unspent credits between students inside the group's pool; moves are logged and change no totals. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
 
 63, twenty-third addendum of the same day. Change order to the twenty-second: moving credits between students is one feature with two limits (unused credits, inside the group); the build thread's extra points are withdrawn. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-fourth addendum of the same day. Change order to the twenty-third: only purchased credits can be moved between students; free trial credits cannot. The Go Deeper Decision-Log entry of the same date carries the ruling.
