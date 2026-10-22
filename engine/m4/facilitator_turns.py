@@ -222,17 +222,6 @@ def session_cap_turn(representative_name: str, limit_text: str | None = None) ->
     return {"kind": SESSION_CAP.kind, "text": SESSION_CAP.text}
 
 
-DAILY_CAP = FacilitatorTurn(kind="close", text=CAP_CLOSE_TEXT)
-
-
-def daily_cap_turn(limit_text: str | None = None) -> dict:
-    """The visitor's daily message cap, reached on a message that is not a
-    crisis. Names no Representative, so the interview and the Table share it."""
-    if limit_text is not None:
-        return limit_turn(limit_text)
-    return {"kind": DAILY_CAP.kind, "text": DAILY_CAP.text}
-
-
 # --- Table variants (Artifact-7 SS1-2; C1: fixed
 # templates parameterized by the seated worlds, never a live facilitator
 # generation). The Table's turn cap shares the one approved line above; the
