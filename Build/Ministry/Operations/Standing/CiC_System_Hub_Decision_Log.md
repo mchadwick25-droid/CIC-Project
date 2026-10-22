@@ -6785,3 +6785,5 @@ By the same report, he chose these on 2026-10-21:
 63, third addendum of the same day. Purchased tokens lapse after two years unused, and no tokens are sold until the account feature is set up, so the expiry line is shown at every purchase from the first. The Go Deeper Decision-Log entry carries the wording.
 
 63, fourth addendum of the same day. The Opus review's remaining findings are ruled: provider-id keying with an old-address check and a waiting period on a recovery-code reset; a deletion ledger that holds no address hash; account deletion scrubs the matching review rows; farming limits keyed under the meter's secret; key rotation at sign-in with retirement dates. The Build Plan's changed lines are listed in the Go Deeper Decision-Log entry.
+
+63, fifth addendum of the same day. An account has no daily limit; a new account starts with what is left of the browser's current free window and then refills to 550 on its own day. The removal of the daily visitor counts is a separate fix to the live visitor path, built by its own thread. The Go Deeper Decision-Log entry of the same date carries the wording.
