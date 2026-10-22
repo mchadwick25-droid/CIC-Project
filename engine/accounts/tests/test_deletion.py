@@ -43,13 +43,13 @@ def test_a_restored_backup_does_not_bring_a_deleted_account_back(svc, mailer, cl
 def test_export_holds_the_account_s_fields_and_no_code(svc, mailer, clock):
     session, cookie = stepped_up_session(svc, mailer, clock)
     data = svc.export(svc.session(cookie)).data
-    assert set(data) == {"day_created", "refill_day", "week_last_used", "age_band"}
+    assert set(data) == {"day_created", "refill_day", "week_last_used", "age_band", "sign_in_methods"}
 
 
 def test_me_reports_the_account_without_identifying_it(svc, mailer, clock):
     session, cookie = stepped_up_session(svc, mailer, clock)
     info = svc.me(svc.session(cookie))
-    assert set(info) == {"signed_in", "refill_day", "age_band"}
+    assert set(info) == {"signed_in", "refill_day", "age_band", "sign_in_methods"}
 
 
 def test_neither_file_holds_an_address_after_a_hundred_sign_ins(svc, mailer, clock, store, tmp_path):

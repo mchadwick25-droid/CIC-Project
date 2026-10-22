@@ -23,6 +23,22 @@ class FakeMailer:
         return [c for a, c in self.sent if a == address][-1]
 
 
+class FakeVerifier:
+    """A token is "<subject>|<nonce>"; one for another nonce, or one with no subject, is refused."""
+
+    def __init__(self, available=("google", "apple")):
+        self._available = available
+
+    def available(self, provider):
+        return provider in self._available
+
+    def verify(self, provider, id_token, nonce):
+        subject, _, given = id_token.rpartition("|")
+        if not subject or given != nonce:
+            return None
+        return (f"https://{provider}.example", subject)
+
+
 class Clock:
     def __init__(self, now=START):
         self.t = now
@@ -58,7 +74,7 @@ def keys():
 
 @pytest.fixture
 def svc(store, keys, mailer, clock):
-    return AccountsService(store, keys, mailer, clock=clock)
+    return AccountsService(store, keys, mailer, clock=clock, verifier=FakeVerifier())
 
 
 def start_sign_in(svc, mailer, address="ada@example.org", network="203.0.113.5"):
@@ -81,3 +97,15 @@ def stepped_up_session(svc, mailer, clock, address="ada@example.org", network="2
     assert started.status == "sent"
     assert svc.step_up_finish(session, started.challenge, mailer.last_code(address), network).status == "ok"
     return svc.session(cookie), cookie
+
+
+def provider_sign_in(svc, provider="google", subject="g-ada", network="203.0.113.5", over_18=True):
+    nonce = svc.provider_start(network).challenge
+    result = svc.provider_sign_in(provider, f"{subject}|{nonce}", nonce, network, over_18)
+    assert result.status == "ok", result.status
+    return result.cookie
+
+
+def provider_token(svc, subject, network="203.0.113.5"):
+    nonce = svc.provider_start(network).challenge
+    return f"{subject}|{nonce}", nonce
