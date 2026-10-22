@@ -6773,3 +6773,15 @@ By the same report, he chose these on 2026-10-21:
 - The explanation comes before a paid sample, not only before the full run.
 - Part 5 carries a checklist line for spend.
 - The cap's margin over the latest real cost, and where the output and ledger go, are part of the explanation. A paid run started without it is a breach.
+
+## 2026-10-22 - Change order: the account system, presence, coupons and review
+
+63. Ruled by the project lead on 2026-10-22 in conversation and closed with "converged, auto mode". It amends decision 53 and changes decision 34; the full record, with the thirteen rulings, the changes named, the safety minimum and nine new questions for a professional, is the Go Deeper Decision-Log entry of the same date. In short: review stays separate from accounts and takes scrubbed turns only; review questions are deleted at 90 days with the answers (decision 34 changed); coupons reach a named person as a pending grant keyed to the hash of their sign-in address; presence is a private home with no name; memory is the shelf and chapters only; accounts open at 16 and over with no parent step, sign in by typed code plus Google and Apple, and are removed with their tokens after two years unused (decision 53 changed in its age rule and its sign-in); purchased tokens lapse after two years unused, as ruled on 2026-10-12; tokens can be bought with or without an account; there is one personal account type and groups stay as codes. Accounts remain unbuilt and dark behind `CIC_ACCOUNTS_ENABLED`; no engine code changes in this decision.
+
+63, addendum of the same day. After a benchmark of the design against thirteen products, the project lead added two choices to decision 63 for the first version: a self-serve export of a person's shelf, token history and coupons with a stated response time, and a passkey offered after the first sign-in as an extra to the typed code. A sub-processor page, a security contact and a device list stay on the later list. The Go Deeper Decision-Log entry of the same date carries the wording.
+
+63, second addendum of the same day. After the Opus review, an account finds its codes by a scan of the meter under the key, storing only the keyed scramble of a code's hash. The Build Plan's plain code hash in A2 is withdrawn. The Go Deeper Decision-Log entry carries the wording and the review's other findings as they are ruled.
+
+63, third addendum of the same day. Purchased tokens lapse after two years unused, and no tokens are sold until the account feature is set up, so the expiry line is shown at every purchase from the first. The Go Deeper Decision-Log entry carries the wording.
+
+63, fourth addendum of the same day. The Opus review's remaining findings are ruled: provider-id keying with an old-address check and a waiting period on a recovery-code reset; a deletion ledger that holds no address hash; account deletion scrubs the matching review rows; farming limits keyed under the meter's secret; key rotation at sign-in with retirement dates. The Build Plan's changed lines are listed in the Go Deeper Decision-Log entry.
