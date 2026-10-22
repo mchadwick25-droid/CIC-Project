@@ -788,3 +788,27 @@ Changes made, as one decision rather than patches:
 - Step-up mails only the account's own address, so it is counted per account and per network and no longer in a budget other parties can fill; a test shows an owner can prove their address with the shared budget full.
 - Mail is sent from a small queue, so a reply never waits on the provider or learns from it; a failed send is logged without the address or the code and the person asks for a new one.
 The six minor findings and the shared-counter and rotation findings that depended on recovery are gone with it. The Build Plan's A1 loses its recovery lines and A1c gains them.
+
+## 2026-10-22 — Change order: three kinds of account, for minors in schools and homeschool (ruled by Mark)
+
+System Hub decision 63, ninth addendum. A named change order on ruling 8 (one personal account; groups stay as codes) and the age line of ruling 6. Mark said that minors in schools and in homeschool will use the system, that CiC will build curriculum for them, and that they must get access safely. He then added a third category: a group account, where a teacher can be the adult sign-off.
+
+26. Ruled: there are three kinds of account.
+- Personal: an adult's own account, as built in A1a.
+- Minor: an account for a child or teenager, signed off by an adult.
+- Group: an account for a class, a homeschool co-op or a church group, where a teacher (or other leader) is the adult sign-off.
+
+Read at the time of ruling (the build thread's reading, to be confirmed with Mark as the design is worked out):
+- The adult sign-off is the single point of consent, deletion and alert delivery for the minors under it. A minor holds no email and no name of their own; their handle is a nickname or a random one.
+- A group joins by a code or QR; a homeschool parent's own children are a group of one household.
+- Under-13s only ever act inside an adult-managed profile. No minor signs themselves up.
+- A Facilitator crisis flag for a minor reaches the named adult; the two-tier split (imminent risk at once, ordinary flags to a list) is the pattern the education products use.
+- What the group holds as an account (tokens, allowance, coupons) and who pays is not decided.
+
+Open, to be ruled once the legal research on school consent (COPPA school authorization, FERPA, state student-privacy laws, teens outside school, the AI-chatbot rules for minors, religion in public schools) is in:
+- Whether a teacher or a homeschool parent can read a child's full conversations, or only flags and a usage summary. No product documents this clearly; it is Mark's to set.
+- The age at which a person may open a personal account (18, 16, or 13 with a parent) now that minors have their own route.
+- The consent paths: school authorization for educational use, parent consent for homeschool and for teens outside school.
+- How the anonymous free path treats a visitor who says they are a child.
+- Whether public schools can use a Representative that speaks in the first person as a historical tradition; this shapes the curriculum's framing.
+Research so far: the education products compared (Khanmigo, MagicSchool, Gemini for Education, Copilot, ClassDojo, Seesaw) all keep the adult as the account holder and send flags, not whole transcripts, to a named adult; the edtech failures (Edmodo, Illuminate, PowerSchool) came from data held, not from the learning feature.
