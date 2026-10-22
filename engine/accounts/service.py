@@ -1,4 +1,4 @@
-"""Sign-in, sessions, recovery, address change and deletion.
+"""Sign-in, sessions, step-up, address change and deletion.
 
 A person proves they control an address by typing a six-digit code sent to it.
 Every proof is a challenge: it has its own random id, belongs to one action and
@@ -23,12 +23,10 @@ from hashlib import sha256
 from typing import Callable, Protocol
 
 from engine.accounts.keys import KeyRing, normalise_address
-from engine.accounts.store import Account, AccountStore, Challenge, Pending, SessionRow
+from engine.accounts.store import Account, AccountStore, Challenge, SessionRow
 
 logger = logging.getLogger("cic.accounts")
 
-RECOVERY_ALPHABET = "23456789ABCDEFGHJKLMNPQRSTUVWXYZ"
-RECOVERY_LENGTH = 20
 MAX_ID_LENGTH = 64
 
 
@@ -44,7 +42,6 @@ class Limits:
     session_idle_seconds: int = 14 * 86400
     session_absolute_seconds: int = 60 * 86400
     step_up_seconds: int = 600
-    recovery_wait_days: int = 7
     ledger_days: int = 16
     minimum_age: int = 16
     sends_per_address_15min: int = 3
@@ -57,7 +54,6 @@ class Limits:
     sends_global_hour_other: int = 100
     account_actions_15min: int = 20
     finishes_per_network_15min: int = 30
-    recoveries_per_network_hour: int = 5
     new_accounts_per_network_day: int = 5
 
 
@@ -67,8 +63,6 @@ class Result:
     challenge: str | None = None
     cookie: str | None = None
     new_account: bool = False
-    effective_on: str | None = None
-    recovery_code: str | None = None
     data: dict = field(default_factory=dict)
 
 
@@ -77,7 +71,6 @@ class Session:
     account_id: str
     token_hash: str
     stepped_up: bool
-    pending_recovery: bool
 
 
 def _epoch_day(epoch: int) -> date:
@@ -87,15 +80,6 @@ def _epoch_day(epoch: int) -> date:
 def _week(day: date) -> str:
     year, week, _ = day.isocalendar()
     return f"{year}-W{week:02d}"
-
-
-def normalise_recovery_code(raw) -> str | None:
-    if not isinstance(raw, str):
-        return None
-    code = "".join(ch for ch in raw.upper() if ch not in " -\t")
-    if len(code) != RECOVERY_LENGTH or not set(code) <= set(RECOVERY_ALPHABET):
-        return None
-    return code
 
 
 def ledger_hash(account_id: str) -> str:
@@ -146,9 +130,11 @@ class AccountsService:
         """Counts a start attempt against every limit that applies and says whether it may go
         on. It runs before anything is learned about the address, so a refusal is the same for
         an address with an account and one without. A sign-in is counted per address because
-        anyone may start one. A change or a recovery is counted across all accounts per address:
-        an address's own owner never starts one to an address they already hold, so that counter
-        carries no signal. Step-up is counted per account only."""
+        anyone may start one. An address change is counted across all accounts per address: an
+        address's own owner never starts one to an address they already hold, so that counter
+        carries no signal. Step-up mails only the account's own address and is counted per
+        account and per network, never in a budget other parties can fill, so an owner can
+        always prove their address."""
         limits = self.limits
         within = self._allow("send_net", self.keys.network_key(network), 900, limits.sends_per_network_15min)
         within = within and self._allow("send_coarse", self._coarse(network), 900, limits.sends_per_coarse_network_15min)
@@ -160,7 +146,7 @@ class AccountsService:
                 and self._allow("send_addr", f"sign_in|{address_hash}", 900, limits.sends_per_address_15min)
                 and self._allow("send_addr_day", f"sign_in|{address_hash}", 86400, limits.sends_per_address_day)
             )
-        if address_hash is not None and kind in ("change", "recover"):
+        if address_hash is not None and kind == "change":
             within = (
                 within
                 and self._allow("send_addr", f"{kind}|{address_hash}", 900, limits.sends_per_address_open_15min)
@@ -168,6 +154,8 @@ class AccountsService:
             )
         if not within:
             return Result("throttled")
+        if kind == "step_up":
+            return None
         sign_in = kind == "sign_in"
         if not self._allow(
             "send_global_sign_in" if sign_in else "send_global_other", "all", 3600,
@@ -242,18 +230,6 @@ class AccountsService:
         checked = self._check(challenge, "sign_in", code, address_hash=ahash)
         if checked is None:
             return Result("wrong")
-        pending = self.store.pending_for_hash(ahash)
-        if pending is not None:
-            if pending.effective_on > self.today().isoformat():
-                return Result("recovery_waiting", effective_on=pending.effective_on)
-            if not self._spend(checked):
-                return Result("wrong")
-            applied = self._apply_pending(pending)
-            account = self.store.account_by_hashes(self.keys.candidate_hashes(norm))
-            if account is None:
-                return Result("wrong")
-            issued = self._issue_recovery_code(account.account_id) if applied else None
-            return self._sign_in_as(account, ahash, issued)
         account = self.store.account_by_hashes(self.keys.candidate_hashes(norm))
         if account is not None:
             if not self._spend(checked):
@@ -278,12 +254,11 @@ class AccountsService:
             return self._sign_in_as(account, ahash) if account else Result("wrong")
         return self._sign_in_as(account, ahash, new_account=True)
 
-    def _sign_in_as(self, account: Account, ahash: str, recovery_code: str | None = None, new_account: bool = False) -> Result:
+    def _sign_in_as(self, account: Account, ahash: str, new_account: bool = False) -> Result:
         if not self.keys.is_current(account.address_hash):
             self.store.set_address_hash(account.account_id, ahash)
         self.store.touch(account.account_id, _week(self.today()))
-        return Result("ok", cookie=self._open_session(account.account_id), new_account=new_account,
-                      recovery_code=recovery_code)
+        return Result("ok", cookie=self._open_session(account.account_id), new_account=new_account)
 
     def _age_band(self, birth_year) -> str | None:
         year = self.today().year
@@ -321,10 +296,7 @@ class AccountsService:
             self.store.delete_session(token_hash)
             return None
         self.store.slide_session(token_hash, min(now + self.limits.session_idle_seconds, row.abs_expires_at))
-        return Session(
-            row.account_id, token_hash, row.stepped_up_until > now,
-            self.store.pending_for_account(row.account_id) is not None,
-        )
+        return Session(row.account_id, token_hash, row.stepped_up_until > now)
 
     def sign_out(self, session: Session) -> None:
         self.store.delete_session(session.token_hash)
@@ -362,77 +334,6 @@ class AccountsService:
         self.store.step_up_session(session.token_hash, self.now() + self.limits.step_up_seconds)
         return Result("ok")
 
-    # recovery code ----------------------------------------------------------------
-
-    def _issue_recovery_code(self, account_id: str) -> str:
-        code = "".join(secrets.choice(RECOVERY_ALPHABET) for _ in range(RECOVERY_LENGTH))
-        self.store.put_recovery_code(account_id, sha256(code.encode()).hexdigest(), self.today().isoformat())
-        return code
-
-    def make_recovery_code(self, session: Session) -> Result:
-        """A new recovery code, shown once. It replaces any earlier one, and ends any
-        recovery already started with it."""
-        if not session.stepped_up:
-            return Result("step_up_needed")
-        self.store.delete_challenges_of(session.account_id, "recover")
-        return Result("ok", recovery_code=self._issue_recovery_code(session.account_id))
-
-    def recover_start(self, recovery_code, new_address, network: str) -> Result:
-        """Starts a recovery to a new address. A right recovery code always gets the same reply,
-        whether or not the new address already has an account. The recovery code is spent only
-        when the new address is proved."""
-        if not self._allow("recover_net", self.keys.network_key(network), 3600, self.limits.recoveries_per_network_hour):
-            return Result("throttled")
-        code = normalise_recovery_code(recovery_code)
-        norm = normalise_address(new_address)
-        account_id = self.store.account_by_recovery_hash(sha256(code.encode()).hexdigest()) if code else None
-        if account_id is None or norm is None:
-            return Result("wrong")
-        candidates = self.keys.candidate_hashes(norm)
-        refused = self._admit("recover", network, account_id=account_id, address_hash=candidates[0])
-        if refused:
-            return refused
-        taken = self.store.account_by_hashes(candidates) is not None or self.store.pending_for_hash(candidates[0]) is not None
-        return self._open_challenge("recover", candidates[0], account_id, None if taken else norm)
-
-    def recover_finish(self, challenge, code, network: str) -> Result:
-        if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
-            return Result("throttled")
-        checked = self._check(challenge, "recover", code)
-        if checked is None or checked.account_id is None or not self._spend(checked):
-            return Result("wrong")
-        other = self.store.pending_for_hash(checked.address_hash)
-        if other is not None and other.account_id != checked.account_id:
-            return Result("wrong")
-        if not self.store.delete_recovery_code(checked.account_id):  # the recovery code is claimed here, once
-            return Result("wrong")
-        effective_on = (self.today() + timedelta(days=self.limits.recovery_wait_days)).isoformat()
-        if not self.store.put_pending(Pending(checked.account_id, checked.address_hash, effective_on)):
-            return Result("wrong")
-        return Result("waiting", effective_on=effective_on)
-
-    def cancel_recovery(self, session: Session) -> Result:
-        if not session.stepped_up:
-            return Result("step_up_needed")
-        self.store.delete_pending(session.account_id)
-        self.store.delete_challenges_of(session.account_id, "recover")
-        return Result("ok")
-
-    def _apply_pending(self, pending: Pending) -> bool:
-        """The waiting period is over: the account moves to the new address, every session ends,
-        and the old recovery code is gone. False when the address was taken during the wait, in
-        which case nothing moves."""
-        if self.store.account_by_hashes([pending.new_address_hash]) is not None:
-            self.store.delete_pending(pending.account_id)
-            return False
-        moved = self.store.set_address_hash(pending.account_id, pending.new_address_hash)
-        self.store.delete_pending(pending.account_id)
-        if not moved:
-            return False
-        self.store.delete_sessions_of(pending.account_id)
-        self.store.delete_recovery_code(pending.account_id)
-        return True
-
     # address change ----------------------------------------------------------------
 
     def change_address_start(self, session: Session, new_address, network: str) -> Result:
@@ -447,7 +348,7 @@ class AccountsService:
         refused = self._admit("change", network, account_id=session.account_id, address_hash=candidates[0])
         if refused:
             return refused
-        taken = self.store.account_by_hashes(candidates) is not None or self.store.pending_for_hash(candidates[0]) is not None
+        taken = self.store.account_by_hashes(candidates) is not None
         return self._open_challenge("change", candidates[0], session.account_id, None if taken else norm)
 
     def change_address_finish(self, session: Session, challenge, code, network: str) -> Result:
@@ -461,7 +362,6 @@ class AccountsService:
         if not self.store.set_address_hash(session.account_id, checked.address_hash):
             return Result("wrong")
         self.store.delete_sessions_of(session.account_id, except_token_hash=session.token_hash)
-        self.store.delete_pending(session.account_id)
         return Result("ok")
 
     # what an account holds, and deletion ------------------------------------------------
@@ -472,13 +372,11 @@ class AccountsService:
             "signed_in": True,
             "refill_day": account.refill_day,
             "age_band": account.age_band,
-            "pending_recovery": session.pending_recovery,
-            "has_recovery_code": self.store.has_recovery_code(session.account_id),
         }
 
     def export(self, session: Session) -> Result:
         """What the account holds today. It grows as the shelf and the token history are
-        added; it never includes a live code or the recovery code."""
+        added; it never includes a live code."""
         if not session.stepped_up:
             return Result("step_up_needed")
         account = self.store.account(session.account_id)

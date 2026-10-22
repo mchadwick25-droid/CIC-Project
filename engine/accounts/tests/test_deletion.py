@@ -10,11 +10,9 @@ NET = "203.0.113.5"
 
 def test_deleting_an_account_removes_it_its_sessions_and_its_proofs(svc, mailer, clock, store):
     session, cookie = stepped_up_session(svc, mailer, clock)
-    svc.make_recovery_code(svc.session(cookie))
     assert svc.delete_account(svc.session(cookie)).status == "ok"
     assert svc.session(cookie) is None
-    for table in ("accounts", "recovery_codes", "pending_changes"):
-        assert store._d.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] == 0
+    assert store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 0
     for table in ("sessions", "challenges"):
         assert store._e.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] == 0
 
@@ -44,7 +42,6 @@ def test_a_restored_backup_does_not_bring_a_deleted_account_back(svc, mailer, cl
 
 def test_export_holds_the_account_s_fields_and_no_code(svc, mailer, clock):
     session, cookie = stepped_up_session(svc, mailer, clock)
-    svc.make_recovery_code(svc.session(cookie))
     data = svc.export(svc.session(cookie)).data
     assert set(data) == {"day_created", "refill_day", "week_last_used", "age_band"}
 
@@ -52,7 +49,7 @@ def test_export_holds_the_account_s_fields_and_no_code(svc, mailer, clock):
 def test_me_reports_the_account_without_identifying_it(svc, mailer, clock):
     session, cookie = stepped_up_session(svc, mailer, clock)
     info = svc.me(svc.session(cookie))
-    assert set(info) == {"signed_in", "refill_day", "age_band", "pending_recovery", "has_recovery_code"}
+    assert set(info) == {"signed_in", "refill_day", "age_band"}
 
 
 def test_neither_file_holds_an_address_after_a_hundred_sign_ins(svc, mailer, clock, store, tmp_path):
@@ -99,7 +96,6 @@ def test_no_log_line_holds_an_address_or_a_code(svc, mailer, clock, caplog):
         session, cookie = stepped_up_session(svc, mailer, clock)
         started = svc.start_sign_in("nobody@example.org", NET)
         svc.finish_sign_in(started.challenge, "nobody@example.org", "000000", NET)
-        svc.make_recovery_code(svc.session(cookie))
         svc.delete_account(svc.session(cookie))
     text = caplog.text
     assert not re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", text)

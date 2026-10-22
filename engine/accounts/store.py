@@ -1,9 +1,8 @@
 """The two SQLite files.
 
-Durable: accounts, one recovery code each, pending recovery changes, and the
-deletion ledger. A row holds a random account id, a keyed address hash, days
-and weeks (never a time of day), an age band. Nothing else. A pending change is
-written only once the new address has been proved.
+Durable: accounts and the deletion ledger. A row holds a random account id, a
+keyed address hash, days and weeks (never a time of day), an age band. Nothing
+else.
 
 Ephemeral: challenges, sessions and counters. A challenge is one proof of
 control of an address: it has its own random id, belongs to one action, and is
@@ -25,16 +24,6 @@ CREATE TABLE IF NOT EXISTS accounts (
   refill_day    INTEGER NOT NULL,
   week_last_used TEXT NOT NULL,
   age_band      TEXT NOT NULL
-) WITHOUT ROWID;
-CREATE TABLE IF NOT EXISTS recovery_codes (
-  account_id TEXT PRIMARY KEY,
-  code_hash  TEXT NOT NULL UNIQUE,
-  day_made   TEXT NOT NULL
-) WITHOUT ROWID;
-CREATE TABLE IF NOT EXISTS pending_changes (
-  account_id       TEXT PRIMARY KEY,
-  new_address_hash TEXT NOT NULL UNIQUE,
-  effective_on     TEXT NOT NULL
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS deletion_ledger (
   ledger_hash TEXT PRIMARY KEY,
@@ -103,13 +92,6 @@ class SessionRow:
     stepped_up_until: int
 
 
-@dataclass(frozen=True)
-class Pending:
-    account_id: str
-    new_address_hash: str
-    effective_on: str
-
-
 def _open(path: str, ddl: str) -> sqlite3.Connection:
     conn = sqlite3.connect(path, check_same_thread=False, isolation_level=None)
     conn.execute("PRAGMA secure_delete = ON")
@@ -172,14 +154,11 @@ class AccountStore:
             ).fetchone()[0]
 
     def delete_account(self, account_id: str, ledger_hash: str, ledger_expires_on: str) -> bool:
-        """The account, its recovery code and its pending change, and one
-        ledger entry, in one transaction."""
+        """The account and one ledger entry, in one transaction."""
         with self._lock:
             self._d.execute("BEGIN IMMEDIATE")
             try:
                 gone = self._d.execute("DELETE FROM accounts WHERE account_id = ?", (account_id,)).rowcount
-                self._d.execute("DELETE FROM recovery_codes WHERE account_id = ?", (account_id,))
-                self._d.execute("DELETE FROM pending_changes WHERE account_id = ?", (account_id,))
                 if gone:
                     self._d.execute("INSERT OR IGNORE INTO deletion_ledger VALUES (?, ?)", (ledger_hash, ledger_expires_on))
                 self._d.execute("COMMIT")
@@ -198,53 +177,6 @@ class AccountStore:
     def purge_durable(self, today: str) -> int:
         with self._lock:
             return self._d.execute("DELETE FROM deletion_ledger WHERE expires_on < ?", (today,)).rowcount
-
-    # recovery codes -------------------------------------------------------
-
-    def put_recovery_code(self, account_id: str, code_hash: str, day: str) -> None:
-        with self._lock:
-            self._d.execute("INSERT OR REPLACE INTO recovery_codes VALUES (?, ?, ?)", (account_id, code_hash, day))
-
-    def account_by_recovery_hash(self, code_hash: str) -> str | None:
-        with self._lock:
-            row = self._d.execute("SELECT account_id FROM recovery_codes WHERE code_hash = ?", (code_hash,)).fetchone()
-        return row[0] if row else None
-
-    def has_recovery_code(self, account_id: str) -> bool:
-        with self._lock:
-            return self._d.execute("SELECT 1 FROM recovery_codes WHERE account_id = ?", (account_id,)).fetchone() is not None
-
-    def delete_recovery_code(self, account_id: str) -> bool:
-        """True when there was a code to delete, so of several callers exactly one claims it."""
-        with self._lock:
-            return self._d.execute("DELETE FROM recovery_codes WHERE account_id = ?", (account_id,)).rowcount == 1
-
-    # pending recovery changes (proved addresses only) ---------------------
-
-    def put_pending(self, pending: Pending) -> bool:
-        with self._lock:
-            try:
-                self._d.execute(
-                    "INSERT OR REPLACE INTO pending_changes VALUES (?, ?, ?)",
-                    (pending.account_id, pending.new_address_hash, pending.effective_on),
-                )
-            except sqlite3.IntegrityError:
-                return False
-            return True
-
-    def pending_for_account(self, account_id: str) -> Pending | None:
-        with self._lock:
-            row = self._d.execute("SELECT * FROM pending_changes WHERE account_id = ?", (account_id,)).fetchone()
-        return Pending(*row) if row else None
-
-    def pending_for_hash(self, new_address_hash: str) -> Pending | None:
-        with self._lock:
-            row = self._d.execute("SELECT * FROM pending_changes WHERE new_address_hash = ?", (new_address_hash,)).fetchone()
-        return Pending(*row) if row else None
-
-    def delete_pending(self, account_id: str) -> None:
-        with self._lock:
-            self._d.execute("DELETE FROM pending_changes WHERE account_id = ?", (account_id,))
 
     # challenges ---------------------------------------------------------------
 

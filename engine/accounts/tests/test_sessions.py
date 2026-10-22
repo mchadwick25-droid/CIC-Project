@@ -90,12 +90,10 @@ def test_step_up_lapses_after_ten_minutes(svc, mailer, clock):
     assert not svc.session(cookie).stepped_up
 
 
-@pytest.mark.parametrize("action", ["recovery", "cancel", "export", "delete", "change"])
+@pytest.mark.parametrize("action", ["export", "delete", "change"])
 def test_sensitive_actions_need_a_fresh_step_up(svc, mailer, action):
     session = svc.session(sign_in(svc, mailer))
     result = {
-        "recovery": lambda: svc.make_recovery_code(session),
-        "cancel": lambda: svc.cancel_recovery(session),
         "export": lambda: svc.export(session),
         "delete": lambda: svc.delete_account(session),
         "change": lambda: svc.change_address_start(session, "new@example.org", NET),

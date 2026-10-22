@@ -38,16 +38,12 @@ REQUIRED = {
         "test_sensitive_actions_need_a_fresh_step_up",
         "test_a_step_up_challenge_cannot_be_used_by_another_account",
     ],
-    "engine/accounts/tests/test_recovery.py": [
-        "test_recovery_waits_a_week_and_then_the_new_address_owns_the_account",
-        "test_the_old_owner_can_cancel_a_recovery_a_thief_started",
+    "engine/accounts/tests/test_address_change.py": [
         "test_an_address_change_needs_the_old_address_then_a_code_to_the_new_one",
         "test_the_replies_never_say_whether_an_address_has_an_account",
-        "test_a_recovery_code_is_spent_when_the_new_address_is_proved",
-        "test_a_recovery_never_proved_leaves_nothing_behind",
-        "test_a_stranger_cannot_block_replace_or_borrow_a_recovery_to_the_same_address",
+        "test_a_challenge_for_one_account_s_change_cannot_finish_another",
         "test_many_accounts_cannot_send_more_than_a_few_codes_to_one_inbox",
-        "test_an_address_taken_during_the_wait_moves_nothing_and_replaces_no_recovery_code",
+        "test_an_owner_can_always_prove_their_address_however_full_the_shared_budgets_are",
     ],
     "engine/accounts/tests/test_deletion.py": [
         "test_the_ledger_holds_a_hash_of_the_random_id_never_the_address",
@@ -62,7 +58,8 @@ REQUIRED = {
         "test_every_post_needs_the_header_and_json_and_a_matching_origin",
         "test_start_up_refuses_with_no_key_a_short_key_or_no_mail",
         "test_no_log_line_holds_an_address_a_code_or_a_cookie",
-        "test_recovery_and_address_change_replies_and_limits_are_the_same_for_a_taken_and_a_free_address",
+        "test_address_change_replies_and_limits_are_the_same_for_a_taken_and_a_free_address",
+        "test_a_queued_send_never_blocks_the_reply_and_logs_no_address",
     ],
     "engine/api/tests/test_accounts_proofs.py": [
         "test_only_the_api_edge_imports_the_accounts_module",

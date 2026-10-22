@@ -83,7 +83,7 @@ def test_sign_in_sets_a_host_only_http_only_same_site_cookie(http, mailer):
     assert "HttpOnly" in header and "Secure" in header and "SameSite=lax" in header.replace("Lax", "lax") and "Path=/" in header
     assert "Domain" not in header
     me = http.get("/api/accounts/me").json()
-    assert me["signed_in"] and set(me) == {"signed_in", "refill_day", "age_band", "pending_recovery", "has_recovery_code"}
+    assert me["signed_in"] and set(me) == {"signed_in", "refill_day", "age_band"}
 
 
 def test_signed_out_me_says_so_and_a_protected_route_is_401(http):
@@ -131,25 +131,6 @@ def test_sensitive_actions_need_step_up_then_work(http, mailer):
     step_up(http, mailer)
     export = http.post("/api/accounts/export", json={}, headers=H)
     assert export.status_code == 200 and set(export.json()["account"]) == {"day_created", "refill_day", "week_last_used", "age_band"}
-    code = http.post("/api/accounts/recovery-code", json={}, headers=H).json()["recovery_code"]
-    assert len(code) == 20
-    assert http.get("/api/accounts/me").json()["has_recovery_code"]
-
-
-def test_recovery_over_http(http, mailer, runtime):
-    sign_in(http, mailer)
-    step_up(http, mailer)
-    code = http.post("/api/accounts/recovery-code", json={}, headers=H).json()["recovery_code"]
-    assert len(code) == 20
-    fresh = TestClient(http.app, base_url="https://testserver")
-    start = fresh.post("/api/accounts/recovery/start", json={"recovery_code": code, "new_address": NEW}, headers=H)
-    assert start.status_code == 200 and set(start.json()) == {"status", "message", "challenge"}
-    done = fresh.post("/api/accounts/recovery/finish", json={"challenge": start.json()["challenge"], "code": mailer.last_code(NEW)}, headers=H)
-    assert done.json()["status"] == "waiting" and done.json()["effective_on"]
-    assert http.get("/api/accounts/me").json()["pending_recovery"]
-    step_up(http, mailer)
-    assert http.post("/api/accounts/recovery/cancel", json={}, headers=H).status_code == 200
-    assert not http.get("/api/accounts/me").json()["pending_recovery"]
 
 
 def test_address_change_over_http_signs_out_other_devices(http, mailer):
@@ -237,24 +218,44 @@ def test_a_paused_sign_in_is_503(http, runtime, mailer):
     assert first.status_code == 200 and second.status_code == 503
 
 
-def test_recovery_and_address_change_replies_and_limits_are_the_same_for_a_taken_and_a_free_address(http, mailer, runtime):
+def test_address_change_replies_and_limits_are_the_same_for_a_taken_and_a_free_address(http, mailer, runtime):
     runtime.service.limits = dataclasses.replace(runtime.service.limits, account_actions_15min=200)
     sign_in(http, mailer, "bob@example.org")
     other = TestClient(http.app, base_url="https://testserver")
     sign_in(other, mailer, ADDR, 1990)
     step_up(other, mailer, ADDR)
-    code = other.post("/api/accounts/recovery-code", json={}, headers=H).json()["recovery_code"]
 
-    def probe(path, body, forwarded):
+    def probe(address, forwarded):
         out = []
         for _ in range(9):
-            r = other.post(path, json=body, headers={**H, "x-forwarded-for": forwarded})
+            r = other.post("/api/accounts/address/start", json={"new_address": address}, headers={**H, "x-forwarded-for": forwarded})
             out.append((r.status_code, tuple(sorted(r.json())), r.json().get("message")))
         return out
 
-    taken = probe("/api/accounts/recovery/start", {"recovery_code": code, "new_address": "bob@example.org"}, "192.0.2.61")
-    free = probe("/api/accounts/recovery/start", {"recovery_code": code, "new_address": "fresh@example.org"}, "192.0.2.62")
-    assert taken == free and taken[0][0] == 200
-    taken_change = probe("/api/accounts/address/start", {"new_address": "bob@example.org"}, "192.0.2.63")
-    free_change = probe("/api/accounts/address/start", {"new_address": "later@example.org"}, "192.0.2.64")
-    assert taken_change == free_change and taken_change[0][0] == 200
+    taken = probe("bob@example.org", "192.0.2.63")
+    free = probe("later@example.org", "192.0.2.64")
+    assert taken == free and taken[0][0] == 200 and taken[-1][0] == 429
+
+
+def test_a_queued_send_never_blocks_the_reply_and_logs_no_address(caplog):
+    import threading
+
+    from engine.api.accounts_routes import QueuedMailer
+
+    release = threading.Event()
+    done = threading.Event()
+
+    class Slow:
+        def send_code(self, address, code):
+            release.wait(2)
+            done.set()
+            raise RuntimeError("provider down")
+
+    queued = QueuedMailer(Slow(), workers=1)
+    with caplog.at_level(logging.DEBUG):
+        queued.send_code("ada@example.org", "123456")  # returns at once, though the provider is slow
+        release.set()
+        assert done.wait(3)
+        queued._pool.shutdown(wait=True)
+    assert not re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", caplog.text) and "123456" not in caplog.text
+    assert "could not be sent" in caplog.text

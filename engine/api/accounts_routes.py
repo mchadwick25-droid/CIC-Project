@@ -1,5 +1,5 @@
 """The HTTP edge of accounts: sign-in by a typed emailed code, the session
-cookie, step-up, the recovery code, address change, export and deletion.
+cookie, step-up, address change, export and deletion.
 
 Mounted only when CIC_ACCOUNTS_ENABLED is on (engine.api.app.create_app is
 handed an AccountsRuntime, or none). With the flag off no path under
@@ -16,6 +16,7 @@ import asyncio
 import logging
 import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from typing import Callable
 from urllib.parse import urlsplit
@@ -86,9 +87,28 @@ def build_runtime(config: AccountsConfig, env: dict, mailer: Mailer | None = Non
             "CIC_ACCOUNTS_ENABLED is on but no sign-in mail provider is configured; a sign-in code cannot be sent"
         )
     store = AccountStore(config.durable_db_path, config.ephemeral_db_path)
-    service = AccountsService(store, keys, mailer, clock=clock)
+    service = AccountsService(store, keys, QueuedMailer(mailer), clock=clock)
     service.reapply_ledger()
     return AccountsRuntime(service=service)
+
+
+class QueuedMailer:
+    """Hands each send to a small worker pool and returns at once, so a reply never waits on
+    the mail provider and never learns from it. A send that fails is logged without the address
+    or the code; the person asks for a new code."""
+
+    def __init__(self, mailer: Mailer, workers: int = 4):
+        self._mailer = mailer
+        self._pool = ThreadPoolExecutor(max_workers=workers, thread_name_prefix="accounts-mail")
+
+    def send_code(self, address: str, code: str) -> None:
+        self._pool.submit(self._send, address, code)
+
+    def _send(self, address: str, code: str) -> None:
+        try:
+            self._mailer.send_code(address, code)
+        except Exception:  # noqa: BLE001 - the address and code must not reach a log
+            logger.warning("a queued sign-in code could not be sent")
 
 
 class AccessLogFilter(logging.Filter):
@@ -136,11 +156,6 @@ class SignInFinishBody(BaseModel):
 class ChallengeBody(BaseModel):
     challenge: str = Field(max_length=80)
     code: str = Field(max_length=40)
-
-
-class RecoveryStartBody(BaseModel):
-    recovery_code: str = Field(max_length=60)
-    new_address: str = Field(max_length=300)
 
 
 class NewAddressBody(BaseModel):
@@ -210,14 +225,9 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         )
         if result.status == "ok":
             _set_cookie(response, result.cookie)
-            reply = {"status": "ok", "new_account": result.new_account}
-            if result.recovery_code:
-                reply["recovery_code"] = result.recovery_code
-            return reply
+            return {"status": "ok", "new_account": result.new_account}
         if result.status in ("needs_birth_year", "invalid_birth_year", "under_age"):
             return {"status": result.status, "message": MESSAGES[result.status]}
-        if result.status == "recovery_waiting":
-            return {"status": "recovery_waiting", "effective_on": result.effective_on}
         await _refuse(result, delay=True)
 
     @app.get("/api/accounts/me")
@@ -262,40 +272,6 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         )
         if result.status != "ok":
             await _refuse(result, delay=True)
-        return {"status": "ok"}
-
-    @app.post("/api/accounts/recovery-code")
-    async def recovery_code(request: Request):
-        _guard(request)
-        result = await run_in_threadpool(service.make_recovery_code, await _session(request))
-        if result.status != "ok":
-            await _refuse(result, delay=False)
-        return {"status": "ok", "recovery_code": result.recovery_code}
-
-    @app.post("/api/accounts/recovery/start")
-    async def recovery_start(body: RecoveryStartBody, request: Request):
-        _guard(request)
-        began = time.monotonic()
-        result = await run_in_threadpool(service.recover_start, body.recovery_code, body.new_address, _network(request))
-        await _floor(began)
-        if result.status != "sent":
-            await _refuse(result, delay=True)
-        return {"status": "sent", "message": MESSAGES["sent"], "challenge": result.challenge}
-
-    @app.post("/api/accounts/recovery/finish")
-    async def recovery_finish(body: ChallengeBody, request: Request):
-        _guard(request)
-        result = await run_in_threadpool(service.recover_finish, body.challenge, body.code, _network(request))
-        if result.status != "waiting":
-            await _refuse(result, delay=True)
-        return {"status": "waiting", "effective_on": result.effective_on}
-
-    @app.post("/api/accounts/recovery/cancel")
-    async def recovery_cancel(request: Request):
-        _guard(request)
-        result = await run_in_threadpool(service.cancel_recovery, await _session(request))
-        if result.status != "ok":
-            await _refuse(result, delay=False)
         return {"status": "ok"}
 
     @app.post("/api/accounts/address/start")
