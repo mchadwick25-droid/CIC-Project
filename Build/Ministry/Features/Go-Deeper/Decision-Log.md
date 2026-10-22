@@ -997,3 +997,15 @@ Read by the build thread, to be confirmed as the slice is designed:
 - On a minor account with a parent or teacher, the young person's later click does not end the adult's console by itself. It sends the adult a notice to confirm, so a young person cannot remove their own adult (ruling 29). The adult can end it at any time.
 - The parent or teacher process asks the adult, not the young person, how old the young person is (13 and over, or under 13). Under 13 has no account of their own, and groups follow rulings 43 and 44.
 - Code: A1a, merged in the previous change, reads a birth date. The date fields, the exact-age check and the under-age and needs-parent replies are replaced in the next accounts slice, not patched around. The records still describe the click as the rule from now on.
+
+## 2026-10-22 — What parents are told: designed for 13 and over, a parent or teacher can permit a younger child for learning (ruled by Mark)
+
+System Hub decision 63, thirtieth addendum. This extends rulings 43 and 44 from groups to an individual child under a parent, and qualifies ruling 27 for the parent route.
+
+47. Ruled: the message to a parent is that the system is designed for people 13 and over, and that parents and teachers can permit a younger child to use it for educational purposes. The route must be legal.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The default stays 13 and over. A younger child gets an account only through a parent (for their own child) or a teacher (for a class, ruling 44), and only for learning.
+- "Legal" means the lawyer's answer decides the mechanism. A parent's consent for a child under 13 has to be verifiable under COPPA, and a teacher acts as a school authorising educational use. The method of parent consent is still open (lawyer list). Until the lawyer has answered, nothing for under-13s is built, as in ruling 43.
+- The route carries the limits that make it educational: no reuse of the child's data, including training; the data kept small; the adult console and the rule that a child never buys (rulings 28 and 29); and an adult who can read the conversations (ruling 31).
+- Draft wording for the parent, not approved, for the lawyer and then a participant-facing check: "This system is designed for people 13 and over. Parents and teachers can allow a younger child to use it for learning. If you do, you stay in charge: you can read their conversations, set their limits and close the account at any time."
