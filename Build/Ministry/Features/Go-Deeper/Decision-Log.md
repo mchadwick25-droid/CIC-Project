@@ -881,3 +881,195 @@ Read by the build thread, to be confirmed as the slice is designed:
 - The block is one shared pool. The adult sets a per-student share inside it (default 550) so one student cannot empty it, as ruling 29 already provides for limits. The share is monthly or total, never daily.
 - It applies to both kinds of group, adult and minor.
 - Open: who approves a trial (an approval from the project lead each time, or automatic up to a size with larger ones coming to the project lead); the largest number of students; how the number is checked; how long the block lasts and whether it refills; one trial per adult or per organisation.
+
+## 2026-10-22 — Who approves a group trial: automatic under 100 students (ruled by Mark)
+
+System Hub decision 63, seventeenth addendum. This settles one of the open points of ruling 33.
+
+34. Ruled: a trial for fewer than 100 students is approved without the project lead, by the build's own rule, once the adult has an account and names the number. Read at the time of ruling: a trial for 100 or more students comes to the project lead for approval. The largest class is therefore set by the project lead's approval, not by a fixed cap. Still open from ruling 33: how the number of students is checked, how long the block lasts and whether it refills, and one trial per adult or per organisation.
+
+## 2026-10-22 — Change order: a group trial is for 25 students or fewer (ruled by Mark)
+
+System Hub decision 63, eighteenth addendum. This changes ruling 34, which set the line at 100.
+
+35. Ruled: the free trial block is for a group of 25 students or fewer. Ruling 34's line at 100 is superseded. Read by the build thread, to be confirmed: a group of 25 or fewer is approved automatically; a group of more than 25 gets no free trial block and starts on pay as you go, with an adult buying; the project lead may still grant a larger group a block by approval, as with a coupon. Still open from ruling 33: how the number is checked, how long the block lasts and whether it refills, and one trial per adult or per organisation.
+
+## 2026-10-22 — A group of more than 25 sends the project lead a request to approve (ruled by Mark)
+
+System Hub decision 63, nineteenth addendum. This settles what happens above 25 in ruling 35.
+
+36. Ruled: when a group of more than 25 students applies for a trial, the system emails the project lead a request that he can approve. Keep the system simple: one request, one approval, no separate queue or tool.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The approval is the same single approval screen the coupon grant uses (ruling 24), so there is one place and one button. The email tells the project lead a request is waiting and links to that screen, where he signs in and approves. The email itself never approves anything, because a mail scanner or a forwarded message can open a link.
+- The request names the adult's account, the number of students and the group kind, never the students.
+- Until the project lead approves, the group starts on pay as you go, as in ruling 35. If he approves, the block is added.
+- This is mail to the project lead, not mail to account holders; it waits on the mail provider choice (A0) like every other mail.
+
+## 2026-10-22 — How a group buys tokens: card now, invoice later (ruled by Mark)
+
+System Hub decision 63, twentieth addendum.
+
+37. Ruled: a group buys tokens by card, at the same rates and in the same packs as individuals, with the tokens going to the group's pool. Paying by invoice or purchase order comes later, when there is demand. There is no group volume discount.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- Only an adult who runs the group buys (ruling 28), from the adult console, on that adult's own account. The receipt carries the group's name. A child never buys and never draws on an adult's balance.
+- A group pack is separate from the adult's personal balance, so the group's use cannot drain it and the adult's use cannot drain the group's.
+- Open: whether unspent group tokens lapse after two years like personal tokens, whether they can be moved to another group or back to the adult, and what the receipt may show. Invoicing needs the payment provider's facts verified before it is designed.
+
+## 2026-10-22 — A group's trial block is given once and lasts 90 days (ruled by Mark)
+
+System Hub decision 63, twenty-first addendum. This settles one of the open points of ruling 33.
+
+38. Ruled: a group's free trial block of 550 tokens a student is given once and ends after 90 days. It does not refill. Tokens unspent at the end lapse, and the group then pays as you go, with an adult buying (ruling 28). The most the block costs is 550 times the number of students named. Still open from ruling 33: how the number of students is checked, and one trial per adult or per organisation.
+
+## 2026-10-22 — The teacher can move credits between students (ruled by Mark)
+
+System Hub decision 63, twenty-second addendum. This adds to the per-student share in ruling 33.
+
+39. Ruled: the adult who runs a group can move credits from one student to another, so a student who needs more can be given more and one who has less can be given less.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- A move works on the unspent part of each student's share of the group's pool, never on tokens already used, and never takes a share below what that student has used this block.
+- A move stays inside the group. It cannot send credits to a person outside it, to the adult's personal balance, or to another group.
+- Each move is logged with the adult, the two students, the amount and the time. The adult sees the log. It does not show students' conversations.
+- It changes nothing about the 90 days of ruling 38, or about the group pool's total.
+- It applies to groups of minors and groups of adults. A parent's gift to one child (ruling 28) is the child's own and is not moved by a group's adult.
+- Open for the slice design: whether a student is told when their share changes, and whether a move can be reversed.
+
+## 2026-10-22 — Change order: moving credits between students stays simple (ruled by Mark)
+
+System Hub decision 63, twenty-third addendum. This replaces the build thread's reading under ruling 39; the ruling itself stands.
+
+40. Ruled: keep it simple. The adult who runs a group moves credits from one student to another. That is the whole feature. Only two limits remain, because without them the move has no meaning: it works on credits not yet used, and it stays inside the group. The extra points the build thread added under ruling 39 are withdrawn: no notice to the student, no reversing, no special rule for parent gifts, and no separate log screen (the move is recorded in the group's ordinary record of changes, as any change to a group is). Ruling 39's open questions are closed by this.
+
+## 2026-10-22 — Change order: only purchased credits can be moved (ruled by Mark)
+
+System Hub decision 63, twenty-fourth addendum. This narrows ruling 40.
+
+41. Ruled: the adult can move only purchased credits between students. Free credits, the trial block of ruling 33, stay with the student they were given to and cannot be moved. The other limits in ruling 40 stand: credits not yet used, and inside the group.
+
+## 2026-10-22 — One trial per adult; the student count is what the adult names (ruled by Mark)
+
+System Hub decision 63, twenty-fifth addendum. This closes the last open points of ruling 33.
+
+42. Ruled: an adult gets one free trial. There is no check at the level of an organisation. The number of students is the number the adult names; the group cannot take more members than that. With rulings 34 to 41, the group trial is settled: 550 tokens a student, once, for 90 days, for a group of 25 or fewer (more than 25 asks the project lead), then pay as you go.
+
+## 2026-10-22 — Under 13 in a group: 13 and over is recommended, the parent or teacher makes the call (ruled by Mark)
+
+System Hub decision 63, twenty-sixth addendum. This qualifies ruling 27 for groups.
+
+43. Ruled: a group is recommended for students 13 and over, but the parent or the teacher can make the call to admit a younger child. Ruling 27 (no account of their own under 13) still holds for a personal account.
+
+Consequence recorded by the build thread, not yet settled:
+- The default is 13 and over. A group admits nobody under 13 until an adult has made the call for that group.
+- An adult's call is not by itself enough in law. For a child under 13 the lawful route is a school authorising educational use, or a parent's verified consent, with no reuse of the child's data (lawyer list). So the call is built as the adult's recorded decision plus whatever the lawyer says the route requires.
+- Nothing for under-13s is built until the lawyer has answered. Slices for groups are built for 13 and over first.
+- Open: whether a youth pastor or other non-school leader may make the call, or only a school teacher or a parent.
+
+## 2026-10-22 — Only a teacher or a parent can admit a child under 13, and it is educational (ruled by Mark)
+
+System Hub decision 63, twenty-seventh addendum. This settles the open point of ruling 43.
+
+44. Ruled: only a teacher or a parent can make the call to admit a child under 13. A youth pastor or other non-school leader cannot. The use is educational. This keeps the under-13 route on the educational footing the law allows for a school, and a parent's own consent for their own child. The default stays 13 and over, and nothing for under-13s is built until the lawyer has said what the route requires (ruling 43).
+
+## 2026-10-22 — A student signs in with a personal code from the teacher (ruled by Mark)
+
+System Hub decision 63, twenty-eighth addendum.
+
+45. Ruled: a student in a group with no email on the profile signs in with a personal code. The adult who runs the group shares a class join code or QR. Each student picks a handle and is given their own long personal code, shown once. The student signs in with that code on any device. The adult can reissue a code that is lost or shared.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The personal code is long and random, at least as hard to guess as the typed sign-in code with its limits: tries counted per code, and a lockout that the adult can lift. It is stored only as a keyed hash, like an address.
+- Sessions for these profiles are shorter than an adult's (hours, not days), because the devices are often shared.
+- The class join code is for joining only. It signs nobody in.
+- The adult's console, the adult's reading of conversations (ruling 31) and the per-network limits are unchanged, except that joins are counted against the group, not the school's network (the walk-through gap).
+- This is a new credential. It needs its own review before it is built, as the sign-in had.
+
+## 2026-10-22 — Change order: the age line is one click, "18 or over" (ruled by Mark)
+
+System Hub decision 63, twenty-ninth addendum. This changes the mechanism of ruling 27. The line itself stands: personal accounts for 18 and over, or 13 and over with a parent's permission; under 13 has no account of their own.
+
+46. Ruled: the age line is a single click, "I am 18 or over". A yes launches a personal account. Anything else starts the parent or teacher process. No birth date is asked or kept. This also answers the 18th-birthday problem: a young person on a minor account has no date to track, and the same click, made later, starts the hand-off to a personal account.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The click is a declaration, as a typed birth date was. Nothing here checks age, so a young person can click yes and get a personal account with no adult. That was true of the typed birth date too. The lawyer is asked whether a declaration is enough.
+- On a minor account with a parent or teacher, the young person's later click does not end the adult's console by itself. It sends the adult a notice to confirm, so a young person cannot remove their own adult (ruling 29). The adult can end it at any time.
+- The parent or teacher process asks the adult, not the young person, how old the young person is (13 and over, or under 13). Under 13 has no account of their own, and groups follow rulings 43 and 44.
+- Code: A1a, merged in the previous change, reads a birth date. The date fields, the exact-age check and the under-age and needs-parent replies are replaced in the next accounts slice, not patched around. The records still describe the click as the rule from now on.
+
+## 2026-10-22 — What parents are told: designed for 13 and over, a parent or teacher can permit a younger child for learning (ruled by Mark)
+
+System Hub decision 63, thirtieth addendum. This extends rulings 43 and 44 from groups to an individual child under a parent, and qualifies ruling 27 for the parent route.
+
+47. Ruled: the message to a parent is that the system is designed for people 13 and over, and that parents and teachers can permit a younger child to use it for educational purposes. The route must be legal.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The default stays 13 and over. A younger child gets an account only through a parent (for their own child) or a teacher (for a class, ruling 44), and only for learning.
+- "Legal" means the lawyer's answer decides the mechanism. A parent's consent for a child under 13 has to be verifiable under COPPA, and a teacher acts as a school authorising educational use. The method of parent consent is still open (lawyer list). Until the lawyer has answered, nothing for under-13s is built, as in ruling 43.
+- The route carries the limits that make it educational: no reuse of the child's data, including training; the data kept small; the adult console and the rule that a child never buys (rulings 28 and 29); and an adult who can read the conversations (ruling 31).
+- Draft wording for the parent, not approved, for the lawyer and then a participant-facing check: "This system is designed for people 13 and over. Parents and teachers can allow a younger child to use it for learning. If you do, you stay in charge: you can read their conversations, set their limits and close the account at any time."
+
+## 2026-10-22 — The under-13 route is designed here, not sent to a lawyer (ruled by Mark)
+
+System Hub decision 63, thirty-first addendum. This changes the gating in rulings 43 and 47, which held every under-13 slice until the lawyer answered.
+
+48. Ruled: the design of the under-13 route is done by the build thread and the project lead, not sent to a lawyer. The gate "nothing for under-13s is built until the lawyer has answered" is withdrawn.
+
+Recorded by the build thread:
+- The design follows the rules the FTC publishes, as the leading educational products do: school consent for educational use only, with no commercial reuse of the child's data; and direct verifiable parental consent for anything else. The search summaries behind this are secondary, and the design is read against the FTC's own COPPA FAQ text, Parts M and N, when each slice is specified.
+- The build thread is not a lawyer. Whether to have a lawyer read the finished design before it is used in production is a separate choice, the project lead's, and is not part of designing it.
+
+## 2026-10-22 — A parent permits a child under 13 by certifying educational use and a small card check (ruled by Mark)
+
+System Hub decision 63, thirty-second addendum.
+
+49. Ruled: a parent permits a child under 13 by signing in as an adult, stating that they are the child's parent and that the use is educational, and confirming with a small card transaction. The card check is one of the verification methods the FTC recognises. The child's data is never reused, including for training. A teacher's route is as in ruling 44: the teacher certifies educational use and acts as the parent's agent, and the school is given a notice.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The card check is a small charge or a card-on-file confirmation that does not credit tokens, and is refunded if it is a charge. It proves a card holder, not a parent. The payment provider's actual options are verified before the slice is written.
+- The child's account is the adult-managed account of rulings 29 and 31: the parent reads conversations, sets limits and can close it. The child never buys (ruling 28).
+- Under-13 accounts carry fewer features, as Khan Academy's do. Which features is left to the slice, starting from no sharing with anyone but the adult.
+- The statement shown to the parent is the one drafted in ruling 47, read again for readability when the screen is written.
+
+## 2026-10-22 — A parent permits a 13-to-17-year-old by signing in and certifying (ruled by Mark)
+
+System Hub decision 63, thirty-third addendum. This settles the parent-permission method left open by ruling 27.
+
+50. Ruled: a parent permits a young person aged 13 to 17 by signing in as an adult and stating that they are the young person's parent and that they permit the account. There is no card check; that belongs to the under-13 route (ruling 49). The account is the adult-managed account of rulings 29 and 31.
+
+## 2026-10-22 — Change order: a child under 13 needs an extra parent approval (ruled by Mark)
+
+System Hub decision 63, thirty-fourth addendum. This adds to rulings 44 and 49.
+
+51. Ruled: for a child under 13 there is an extra parent approval. A teacher's call to admit a younger child (ruling 44) is not enough alone; the child's parent also approves.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- In a teacher's group, the child is held until the parent signs in as an adult and approves that child's account, in the form of ruling 50 (the parent states parenthood and permission). The teacher's certification of educational use stays.
+- Where the parent is the only consenting adult, as in ruling 49, the parent's certification and card check are already the parent's approval, so nothing more is added.
+- Until both are in place the child has no account and nothing is kept about them but the handle the teacher entered.
+- The consent of a youth-pastor group for 13-to-17-year-olds is not settled by this ruling and remains open.
+
+## 2026-10-22 — Change order: the extra parent approval is for non-educational groups; a teacher in a class can admit a younger child alone (ruled by Mark)
+
+System Hub decision 63, thirty-fifth addendum. This corrects the build thread's reading in ruling 51, which put the extra approval on teachers' groups.
+
+52. Ruled: in a teacher's education class the teacher can legally admit a younger child, so no extra parent approval is added there; ruling 44 stands for classes. The extra parent approval for a child under 13 is for youth pastors and other non-educational settings.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- In a non-educational group, a child under 13 is admitted only after the parent signs in as an adult and approves that child, on the route of ruling 49 (parenthood, permission and the small card check). The leader alone cannot admit the child. This changes ruling 44, which said a youth pastor cannot admit under-13s at all: now a youth pastor can host them, but only through the parent.
+- The school footing does not cover a non-educational group, so the "educational use" statement of ruling 49 cannot be made for it. The parent's statement must say what the use is. The child's data is still never reused, including for training. The statement shown to the parent for this route is written for it, not borrowed from the school one.
+- Ruling 51's reading for teacher groups is withdrawn.
+- Open: consent for a youth-pastor group's 13-to-17-year-olds. Under ruling 50 each one already has a parent's permission to hold an account; whether the group needs anything more is not settled.
+
+## 2026-10-22 — Youth-group 13-to-17-year-olds need nothing beyond the parent's permission (ruled by Mark)
+
+System Hub decision 63, thirty-sixth addendum. This closes the open point of ruling 52.
+
+53. Ruled: a 13-to-17-year-old in a youth-pastor or other non-educational group needs nothing beyond the parent's permission to hold an account (ruling 50). The group's leader has the adult console of rulings 29 and 31 for the group. The consent rules for groups are now settled: classes admit younger children through the teacher (ruling 44); non-educational groups admit children under 13 only through the parent (ruling 52); everyone 13 to 17 has a parent's permission (ruling 50).
+
+## 2026-10-22 — Free allowance: a minor account gets the same 550; no account stays as it is (ruled by Mark)
+
+System Hub decision 63, thirty-seventh addendum.
+
+54. Ruled: a minor account gets the same free allowance as an adult, 550 tokens a month. A visitor with no account keeps the free allowance the live visitor path already gives, with nothing new decided. A group's free allowance is the trial block of rulings 33 to 42. This closes the allowance figures left open by the walk-through of the five ways of using the system.

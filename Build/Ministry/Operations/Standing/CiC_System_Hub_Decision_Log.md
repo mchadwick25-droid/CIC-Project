@@ -6813,3 +6813,45 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, fifteenth addendum of the same day. An adult sign-off reads a child's conversations only inside an account; conversations without an account are saved to no one and cannot be monitored. Minors use the curriculum through an account under an adult. Residual risk: a child can still use the system without an account. Open: whether under-13s can be members of a teacher's group. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, sixteenth addendum of the same day. A group gets a free-trial block of 550 tokens for each student the teacher or adult names, once they set up an account; after it, pay as you go with adults buying. This replaces the "daily share per student" in the earlier addenda; there is no daily limit. Approval, size limit, checking and duration are open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, seventeenth addendum of the same day. A group trial for fewer than 100 students is approved automatically; 100 or more come to the project lead (the build thread's reading of the ruling, to be confirmed). Checking, duration and one trial per adult or organisation remain open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, eighteenth addendum of the same day. Change order to the seventeenth: the group trial block is for 25 students or fewer. What happens above 25 is the build thread's reading, to be confirmed. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, nineteenth addendum of the same day. A group trial for more than 25 students sends the project lead an emailed request to approve; the build thread's reading is the one approval screen already used for coupons, with the email only pointing to it. Until approved the group starts on pay as you go. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twentieth addendum of the same day. A group buys tokens by card at the individual rates, into the group's pool, by the adult who runs it; invoice or purchase order comes later; no volume discount. Lapse, transfer and receipt contents are open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-first addendum of the same day. A group's trial block is given once, lasts 90 days and does not refill; unspent tokens lapse at the end. Checking the student number and one trial per adult or organisation remain open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-second addendum of the same day. The adult who runs a group can move unspent credits between students inside the group's pool; moves are logged and change no totals. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
+
+63, twenty-third addendum of the same day. Change order to the twenty-second: moving credits between students is one feature with two limits (unused credits, inside the group); the build thread's extra points are withdrawn. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-fourth addendum of the same day. Change order to the twenty-third: only purchased credits can be moved between students; free trial credits cannot. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-fifth addendum of the same day. One free trial per adult, no organisation check; the student count is what the adult names. The group trial is settled. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-sixth addendum of the same day. Groups are recommended for 13 and over; a parent or teacher can make the call to admit a younger child. The build thread's reading: default 13 and over, and nothing for under-13s is built until the lawyer has said what the route requires. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-seventh addendum of the same day. Only a teacher or a parent can admit a child under 13, and the use is educational; a youth pastor or other non-school leader cannot. Nothing for under-13s is built until the lawyer answers. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-eighth addendum of the same day. A student in a group signs in with a personal code from the adult who runs the group, shown once and reissuable; the class join code only joins. The build thread's reading is recorded with the ruling, and the credential needs its own review before it is built. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-ninth addendum of the same day. Change order to the age mechanism: one click, "I am 18 or over", launches a personal account; otherwise the parent or teacher process starts; no birth date is asked or kept, and the same click later starts the hand-off at 18. The merged A1a code still reads a birth date and is replaced in the next accounts slice. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
+
+63, thirtieth addendum of the same day. The message to a parent: the system is designed for 13 and over, and a parent or teacher can permit a younger child for educational purposes, kept legal. Nothing for under-13s is built until the lawyer says what the route requires; draft wording is in the Go Deeper Decision-Log entry of the same date, not approved.
+
+63, thirty-first addendum of the same day. The under-13 route is designed by the build thread and the project lead, not sent to a lawyer; the gate in the twenty-sixth and thirtieth addenda is withdrawn. The design follows the FTC's published rules. Whether a lawyer reads the finished design before production use is the project lead's separate choice. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, thirty-second addendum of the same day. A parent permits a child under 13 by signing in as an adult, certifying parenthood and educational use, and a small card check; the child's data is never reused. The teacher route stays as in ruling 44. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
+
+63, thirty-third addendum of the same day. A parent permits a 13-to-17-year-old by signing in as an adult and certifying parenthood and permission, with no card check. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, thirty-fourth addendum of the same day. A child under 13 needs an extra parent approval on top of a teacher's call; where the parent is the only consenting adult, the parent's route already includes it. Consent for youth-pastor groups of 13-to-17-year-olds remains open. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
+
+63, thirty-fifth addendum of the same day. Change order to the thirty-fourth: a teacher in an education class can admit a younger child alone; the extra parent approval for under-13s is for youth pastors and other non-educational settings. Ruling 51's reading for teacher groups is withdrawn. Youth-group 13-to-17 consent remains open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, thirty-sixth addendum of the same day. A 13-to-17-year-old in a non-educational group needs nothing beyond the parent's permission; the consent rules for groups are settled. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, thirty-seventh addendum of the same day. A minor account gets the same 550 tokens a month as an adult; a visitor with no account keeps what the live path gives; a group has the trial block. The Go Deeper Decision-Log entry of the same date carries the ruling.
