@@ -67,9 +67,9 @@ def start_sign_in(svc, mailer, address="ada@example.org", network="203.0.113.5")
     return result.challenge, mailer.last_code(address.strip().lower())
 
 
-def sign_in(svc, mailer, address="ada@example.org", network="203.0.113.5", birth_date="1990-05-15"):
+def sign_in(svc, mailer, address="ada@example.org", network="203.0.113.5"):
     challenge, code = start_sign_in(svc, mailer, address, network)
-    result = svc.finish_sign_in(challenge, address, code, network, birth_date)
+    result = svc.finish_sign_in(challenge, address, code, network, True)
     assert result.status == "ok", result.status
     return result.cookie
 
