@@ -1,4 +1,4 @@
-"""Accounts' HTTP edge: sign-in by a typed code, the cookie, step-up, recovery,
+"""Accounts' HTTP edge: sign-in by a typed code, the cookie, step-up,
 address change, export and deletion, and the proof that with the flag off none
 of the routes exist."""
 import dataclasses

@@ -165,7 +165,7 @@ def test_a_signed_in_address_is_rekeyed_under_the_current_key(store, mailer, clo
     assert store._d.execute("SELECT address_hash FROM accounts").fetchone()[0].startswith("k1:")
 
 
-def test_step_up_and_recovery_have_their_own_hourly_budget(store, keys, mailer, clock):
+def test_step_up_has_its_own_hourly_budget(store, keys, mailer, clock):
     svc = AccountsService(store, keys, mailer, clock=clock, limits=Limits(sends_global_hour=2, sends_global_hour_other=10))
     challenges = [svc.start_sign_in(f"p{i}@example.org", f"198.51.100.{i}").challenge for i in range(2)]
     assert svc.start_sign_in("late@example.org", "198.51.100.77").status == "paused"

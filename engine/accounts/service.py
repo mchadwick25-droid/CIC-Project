@@ -53,6 +53,7 @@ class Limits:
     sends_global_hour: int = 300
     sends_global_hour_other: int = 100
     account_actions_15min: int = 20
+    account_actions_day: int = 60
     finishes_per_network_15min: int = 30
     new_accounts_per_network_day: int = 5
 
@@ -139,7 +140,11 @@ class AccountsService:
         within = self._allow("send_net", self.keys.network_key(network), 900, limits.sends_per_network_15min)
         within = within and self._allow("send_coarse", self._coarse(network), 900, limits.sends_per_coarse_network_15min)
         if account_id is not None:
-            within = within and self._allow("account", account_id, 900, limits.account_actions_15min)
+            within = (
+                within
+                and self._allow("account", account_id, 900, limits.account_actions_15min)
+                and self._allow("account_day", account_id, 86400, limits.account_actions_day)
+            )
         if address_hash is not None and kind == "sign_in":
             within = (
                 within

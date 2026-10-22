@@ -73,3 +73,12 @@ def test_an_owner_can_always_prove_their_address_however_full_the_shared_budgets
     assert started.status == "sent"
     assert svc.step_up_finish(svc.session(cookie), started.challenge, mailer.last_code(ADDR), NET).status == "ok"
     assert svc.session(cookie).stepped_up
+
+
+def test_one_account_cannot_send_more_than_its_daily_share_of_mail(store, keys, mailer, clock):
+    svc = AccountsService(store, keys, mailer, clock=clock, limits=Limits(account_actions_15min=100, account_actions_day=4))
+    session, cookie = stepped_up_session(svc, mailer, clock)  # the helper's own step-up is the first of the four
+    statuses = [svc.step_up_start(svc.session(cookie), ADDR, NET).status for _ in range(5)]
+    assert statuses == ["sent", "sent", "sent", "throttled", "throttled"]
+    clock.advance(86400)
+    assert svc.step_up_start(svc.session(cookie), ADDR, NET).status == "sent"
