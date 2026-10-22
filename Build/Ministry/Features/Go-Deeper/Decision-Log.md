@@ -985,3 +985,15 @@ Read by the build thread, to be confirmed as the slice is designed:
 - The class join code is for joining only. It signs nobody in.
 - The adult's console, the adult's reading of conversations (ruling 31) and the per-network limits are unchanged, except that joins are counted against the group, not the school's network (the walk-through gap).
 - This is a new credential. It needs its own review before it is built, as the sign-in had.
+
+## 2026-10-22 — Change order: the age line is one click, "18 or over" (ruled by Mark)
+
+System Hub decision 63, twenty-ninth addendum. This changes the mechanism of ruling 27. The line itself stands: personal accounts for 18 and over, or 13 and over with a parent's permission; under 13 has no account of their own.
+
+46. Ruled: the age line is a single click, "I am 18 or over". A yes launches a personal account. Anything else starts the parent or teacher process. No birth date is asked or kept. This also answers the 18th-birthday problem: a young person on a minor account has no date to track, and the same click, made later, starts the hand-off to a personal account.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The click is a declaration, as a typed birth date was. Nothing here checks age, so a young person can click yes and get a personal account with no adult. That was true of the typed birth date too. The lawyer is asked whether a declaration is enough.
+- On a minor account with a parent or teacher, the young person's later click does not end the adult's console by itself. It sends the adult a notice to confirm, so a young person cannot remove their own adult (ruling 29). The adult can end it at any time.
+- The parent or teacher process asks the adult, not the young person, how old the young person is (13 and over, or under 13). Under 13 has no account of their own, and groups follow rulings 43 and 44.
+- Code: A1a, merged in the previous change, reads a birth date. The date fields, the exact-age check and the under-age and needs-parent replies are replaced in the next accounts slice, not patched around. The records still describe the click as the rule from now on.
