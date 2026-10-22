@@ -6821,3 +6821,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, nineteenth addendum of the same day. A group trial for more than 25 students sends the project lead an emailed request to approve; the build thread's reading is the one approval screen already used for coupons, with the email only pointing to it. Until approved the group starts on pay as you go. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, twentieth addendum of the same day. A group buys tokens by card at the individual rates, into the group's pool, by the adult who runs it; invoice or purchase order comes later; no volume discount. Lapse, transfer and receipt contents are open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-first addendum of the same day. A group's trial block is given once, lasts 90 days and does not refill; unspent tokens lapse at the end. Checking the student number and one trial per adult or organisation remain open. The Go Deeper Decision-Log entry of the same date carries the ruling.

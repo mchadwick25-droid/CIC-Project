@@ -916,3 +916,9 @@ Read by the build thread, to be confirmed as the slice is designed:
 - Only an adult who runs the group buys (ruling 28), from the adult console, on that adult's own account. The receipt carries the group's name. A child never buys and never draws on an adult's balance.
 - A group pack is separate from the adult's personal balance, so the group's use cannot drain it and the adult's use cannot drain the group's.
 - Open: whether unspent group tokens lapse after two years like personal tokens, whether they can be moved to another group or back to the adult, and what the receipt may show. Invoicing needs the payment provider's facts verified before it is designed.
+
+## 2026-10-22 — A group's trial block is given once and lasts 90 days (ruled by Mark)
+
+System Hub decision 63, twenty-first addendum. This settles one of the open points of ruling 33.
+
+38. Ruled: a group's free trial block of 550 tokens a student is given once and ends after 90 days. It does not refill. Tokens unspent at the end lapse, and the group then pays as you go, with an adult buying (ruling 28). The most the block costs is 550 times the number of students named. Still open from ruling 33: how the number of students is checked, and one trial per adult or per organisation.
