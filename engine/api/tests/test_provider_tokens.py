@@ -159,3 +159,41 @@ def test_key_sets_are_fetched_over_https_only():
 
     with pytest.raises(ValueError):
         fetch_keys("http://www.googleapis.com/oauth2/v3/certs")
+
+
+def test_a_failing_provider_is_tried_again_only_after_the_floor(key):
+    now = [NOW]
+    calls = []
+
+    def fetch(url):
+        calls.append(url)
+        raise OSError("down")
+
+    v = ProviderVerifier({"google": CLIENT}, fetch=fetch, clock=lambda: now[0])
+    for _ in range(5):
+        assert v.verify("google", _token(key), NONCE) is None
+    assert len(calls) == 1
+    now[0] += 301
+    assert v.verify("google", _token(key), NONCE) is None
+    assert len(calls) == 2
+
+
+def test_a_slow_provider_does_not_hold_up_the_other(key):
+    import threading
+
+    release = threading.Event()
+    seen = {}
+
+    def fetch(url):
+        if "google" in url:
+            release.wait(5)
+        return _jwks(key)
+
+    v = ProviderVerifier({"google": CLIENT, "apple": "com.example.web"}, fetch=fetch, clock=lambda: NOW)
+    slow = threading.Thread(target=lambda: seen.setdefault("g", v.verify("google", _token(key), NONCE)))
+    slow.start()
+    apple_token = _token(key, iss="https://appleid.apple.com", aud="com.example.web")
+    assert v.verify("apple", apple_token, NONCE) == (CANONICAL_ISSUER["apple"], "1234")
+    release.set()
+    slow.join()
+    assert seen["g"] == (CANONICAL_ISSUER["google"], "1234")

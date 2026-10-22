@@ -69,29 +69,38 @@ class ProviderVerifier:
         self._fetch = fetch
         self._clock = clock
         self._lock = threading.Lock()
-        self._cache: dict[str, tuple[float, dict[str, dict]]] = {}
+        self._fetching = {p: threading.Lock() for p in KEYS_URL}
+        self._cache: dict[str, tuple[float, dict[str, dict], float]] = {}
 
     def available(self, provider: str) -> bool:
         return provider in self._client_ids
 
+    def _held(self, provider: str, now: float) -> tuple[dict[str, dict], float]:
+        """(the keys held and still fresh, when a fetch was last tried)."""
+        with self._lock:
+            fetched_at, keys, attempted = self._cache.get(provider, (0.0, {}, 0.0))
+        return (keys if now - fetched_at <= KEYS_TTL_SECONDS else {}), attempted
+
     def _key_for(self, provider: str, kid: str):
         now = self._clock()
-        with self._lock:
-            fetched_at, keys = self._cache.get(provider, (0.0, {}))
-            stale = now - fetched_at > KEYS_TTL_SECONDS
-            unknown = kid not in keys and now - fetched_at > REFETCH_FLOOR_SECONDS
-            if stale or unknown:
-                try:
-                    listed = self._fetch(KEYS_URL[provider]).get("keys", [])
-                except Exception:  # noqa: BLE001 - keep serving the keys already held
-                    logger.warning("provider keys could not be fetched (provider=%s)", provider)
-                    listed = None
-                if listed is not None:
-                    keys = {k["kid"]: k for k in listed if isinstance(k, dict) and isinstance(k.get("kid"), str)}
-                    self._cache[provider] = (now, keys)
-                elif stale:
-                    keys = {}
-            jwk = keys.get(kid)
+        keys, attempted = self._held(provider, now)
+        if kid not in keys and now - attempted >= REFETCH_FLOOR_SECONDS:
+            with self._fetching[provider]:
+                # One fetch at a time per provider, outside the cache lock; a request that waited
+                # looks again, because the one ahead of it has probably filled the cache.
+                keys, attempted = self._held(provider, now)
+                if kid not in keys and now - attempted >= REFETCH_FLOOR_SECONDS:
+                    try:
+                        listed = self._fetch(KEYS_URL[provider]).get("keys", [])
+                        fresh = {k["kid"]: k for k in listed if isinstance(k, dict) and isinstance(k.get("kid"), str)}
+                    except Exception:  # noqa: BLE001 - fail closed; try again after the floor
+                        logger.warning("provider keys could not be fetched (provider=%s)", provider)
+                        fresh = None
+                    with self._lock:
+                        old = self._cache.get(provider, (0.0, {}, 0.0))
+                        self._cache[provider] = (now, fresh, now) if fresh is not None else (old[0], old[1], now)
+                    keys = fresh if fresh is not None else keys
+        jwk = keys.get(kid)
         if not jwk or jwk.get("kty") != "RSA":
             return None
         return RSAPublicNumbers(int.from_bytes(_b64(jwk["e"]), "big"), int.from_bytes(_b64(jwk["n"]), "big")).public_key()

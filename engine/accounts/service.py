@@ -31,7 +31,6 @@ MAX_ID_LENGTH = 64
 
 
 PROVIDERS = ("google", "apple")
-NONCE_KIND = "provider_nonce"
 
 
 class ProviderVerifier(Protocol):
@@ -69,7 +68,6 @@ class Limits:
     new_accounts_per_network_day: int = 5
     provider_starts_per_network_15min: int = 30
     provider_starts_per_coarse_network_15min: int = 120
-    provider_starts_global_hour: int = 1000
     nonce_ttl_seconds: int = 600
 
 
@@ -282,33 +280,31 @@ class AccountsService:
     # Google and Apple ------------------------------------------------------------
 
     def provider_start(self, network: str) -> Result:
-        """A one-use nonce the page hands to Google or Apple, so a token made for another
-        sitting cannot be replayed here. It names no one and is counted like a send."""
+        """A nonce the page hands to Google or Apple, so a token made for another sitting cannot
+        be replayed here. It is random, carries its own expiry and is signed under the session
+        key, so issuing one writes nothing and no cap on issuing can be filled to lock people
+        out. A row is written only when a nonce is used."""
         limits = self.limits
         if not (
             self._allow("provider_net", self.keys.network_key(network), 900, limits.provider_starts_per_network_15min)
             and self._allow("provider_coarse", self._coarse(network), 900, limits.provider_starts_per_coarse_network_15min)
         ):
             return Result("throttled")
-        if not self._allow("provider_global", "all", 3600, limits.provider_starts_global_hour):
-            return Result("paused")
-        nonce = secrets.token_urlsafe(24)
-        self.store.put_challenge(
-            Challenge(nonce, NONCE_KIND, "", None, self.keys.mac("nonce", nonce), self.now() + limits.nonce_ttl_seconds, 0)
-        )
-        return Result("sent", challenge=nonce)
+        body = f"{secrets.token_urlsafe(18)}.{self.now() + limits.nonce_ttl_seconds}"
+        return Result("sent", challenge=f"{body}.{self.keys.mac('nonce', body)[:24]}")
 
     def _provider_ready(self, provider) -> bool:
         return provider in PROVIDERS and self.verifier is not None and self.verifier.available(provider)
 
-    def _nonce(self, nonce) -> Challenge | None:
-        """Counts one use against a live nonce, in one step, and returns it."""
+    def _nonce(self, nonce) -> int | None:
+        """The expiry of a nonce this server issued and that has not run out, else None."""
         if not isinstance(nonce, str) or not 0 < len(nonce) <= MAX_ID_LENGTH:
             return None
-        row = self.store.take_try(nonce, self.now(), self.limits.code_tries)
-        if row is None or row.kind != NONCE_KIND or not hmac.compare_digest(self.keys.mac("nonce", nonce), row.mac):
+        body, sep, tag = nonce.rpartition(".")
+        _, _, expiry = body.rpartition(".")
+        if not sep or not expiry.isdigit() or not hmac.compare_digest(self.keys.mac("nonce", body)[:24], tag):
             return None
-        return row
+        return int(expiry) if int(expiry) > self.now() else None
 
     def _identity(self, provider: str, id_token, nonce: str) -> tuple[str, list[str]] | None:
         """(the current-key hash, every live-key hash) of the provider's account id, when the
@@ -333,15 +329,15 @@ class AccountsService:
             return Result("not_available")
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
             return Result("throttled")
-        row = self._nonce(nonce)
-        who = self._identity(provider, id_token, nonce) if row is not None else None
+        expiry = self._nonce(nonce)
+        who = self._identity(provider, id_token, nonce) if expiry is not None else None
         if who is None:
             return Result("wrong")
         current, candidates = who
         found = self.store.account_by_subjects(candidates)
         if found is not None:
             account, stored, _ = found
-            if not self._spend(row):
+            if not self.store.spend_nonce(nonce, expiry):
                 return Result("wrong")
             if stored != current:
                 self.store.rekey_link(stored, current)
@@ -352,7 +348,7 @@ class AccountsService:
             return Result("not_adult")
         if not self._allow("new_account_net", self.keys.network_key(network), 86400, self.limits.new_accounts_per_network_day):
             return Result("throttled")
-        if not self._spend(row):
+        if not self.store.spend_nonce(nonce, expiry):
             return Result("wrong")
         today = self.today()
         account = Account(secrets.token_hex(16), None, today.isoformat(), min(today.day, 28), _week(today), "18+")
@@ -366,16 +362,21 @@ class AccountsService:
         return Result("ok", cookie=self._open_session(account.account_id), new_account=new_account)
 
     def provider_step_up(self, session: Session, provider, id_token, nonce, network: str) -> Result:
-        """A fresh sign-in by a provider the account already has counts as the step-up, for an
-        account that has no address to send a code to."""
+        """A fresh sign-in by a provider the account already has counts as the step-up only for
+        an account with no address, which has no address to send a code to. An account that has
+        an address steps up by a code to it, so a stolen Google or Apple session cannot change
+        the address, link or unlink a method, export or delete."""
         if not self._provider_ready(provider):
             return Result("not_available")
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
             return Result("throttled")
-        row = self._nonce(nonce)
-        who = self._identity(provider, id_token, nonce) if row is not None else None
+        expiry = self._nonce(nonce)
+        who = self._identity(provider, id_token, nonce) if expiry is not None else None
         found = self.store.account_by_subjects(who[1]) if who is not None else None
-        if found is None or found[0].account_id != session.account_id or not self._spend(row):
+        if (
+            found is None or found[0].account_id != session.account_id or found[0].address_hash is not None
+            or not self.store.spend_nonce(nonce, expiry)
+        ):
             return Result("wrong")
         self.store.step_up_session(session.token_hash, self.now() + self.limits.step_up_seconds)
         return Result("ok")
@@ -389,13 +390,13 @@ class AccountsService:
             return Result("not_available")
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
             return Result("throttled")
-        row = self._nonce(nonce)
-        who = self._identity(provider, id_token, nonce) if row is not None else None
+        expiry = self._nonce(nonce)
+        who = self._identity(provider, id_token, nonce) if expiry is not None else None
         if who is None:
             return Result("wrong")
         if self.store.account_by_subjects(who[1]) is not None or provider in self.store.links_of(session.account_id):
             return Result("provider_cannot_use")
-        if not self._spend(row) or not self.store.add_link(session.account_id, who[0], provider):
+        if not self.store.spend_nonce(nonce, expiry) or not self.store.add_link(session.account_id, who[0], provider):
             return Result("wrong")
         self.store.delete_sessions_of(session.account_id, except_token_hash=session.token_hash)
         return Result("ok")
@@ -405,14 +406,9 @@ class AccountsService:
             return Result("step_up_needed")
         if provider not in PROVIDERS:
             return Result("wrong")
-        account = self.store.account(session.account_id)
-        links = self.store.links_of(session.account_id)
-        if account is None or provider not in links:
-            return Result("wrong")
-        if account.address_hash is None and len(links) < 2:
-            return Result("last_method")
-        if not self.store.remove_link(session.account_id, provider):
-            return Result("wrong")
+        outcome = self.store.remove_link(session.account_id, provider)
+        if outcome != "ok":
+            return Result("last_method" if outcome == "last_method" else "wrong")
         self.store.delete_sessions_of(session.account_id, except_token_hash=session.token_hash)
         return Result("ok")
 
@@ -490,8 +486,8 @@ class AccountsService:
     # address change ----------------------------------------------------------------
 
     def change_address_start(self, session: Session, new_address, network: str) -> Result:
-        """Needs a recent step-up, which proved the old address; this sends a code to the new
-        one. A new address that already has an account gets the same reply and no code."""
+        """Needs a recent step-up, which proved the old address (or, for an account with no
+        address, its provider); this sends a code to the new one. A new address that already has an account gets the same reply and no code."""
         if not session.stepped_up:
             return Result("step_up_needed")
         norm = normalise_address(new_address)

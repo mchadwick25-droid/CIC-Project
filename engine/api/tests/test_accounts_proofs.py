@@ -44,6 +44,10 @@ REQUIRED = {
         "test_a_provider_id_already_on_another_account_cannot_be_linked",
         "test_the_last_way_in_cannot_be_unlinked",
         "test_deleting_an_account_removes_its_provider_links",
+        "test_a_provider_cannot_stand_in_for_the_address_code_on_an_account_that_has_an_address",
+        "test_two_unlinks_at_once_cannot_leave_a_provider_only_account_with_no_way_in",
+        "test_issuing_a_nonce_writes_nothing_and_many_networks_cannot_lock_sign_in_out",
+        "test_a_forged_or_changed_nonce_is_refused",
         "test_a_file_made_when_every_account_had_an_address_is_rebuilt_with_the_address_optional",
     ],
     "engine/api/tests/test_provider_tokens.py": [

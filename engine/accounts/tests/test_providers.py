@@ -229,3 +229,66 @@ def test_a_file_made_when_every_account_had_an_address_is_rebuilt_with_the_addre
     assert store.account("a1").address_hash == "k1:abc"
     assert store.create_account(Account("a2", None, "day2", 2, "week1", "18+"))
     store.close()
+
+
+def test_a_provider_cannot_stand_in_for_the_address_code_on_an_account_that_has_an_address(svc, mailer, clock):
+    from engine.accounts.tests.conftest import stepped_up_session
+    session, cookie = stepped_up_session(svc, mailer, clock)
+    token, nonce = provider_token(svc, "g-ada")
+    assert svc.provider_link(session, "google", token, nonce, NET).status == "ok"
+    clock.advance(601)  # the address step-up has run out
+    session = svc.session(cookie)
+    assert not session.stepped_up
+    via_google = svc.session(provider_sign_in(svc, subject="g-ada", network="198.51.100.9"))
+    token, nonce = provider_token(svc, "g-ada")
+    assert svc.provider_step_up(via_google, "google", token, nonce, NET).status == "wrong"
+    assert svc.change_address_start(svc.session(provider_sign_in(svc, subject="g-ada", network="198.51.100.10")), "evil@example.org", NET).status == "step_up_needed"
+
+
+def test_two_unlinks_at_once_cannot_leave_a_provider_only_account_with_no_way_in(svc, store):
+    import threading
+    session, cookie = _stepped_up_by_provider(svc, "g-ada")
+    token, nonce = provider_token(svc, "a-ada")
+    assert svc.provider_link(session, "apple", token, nonce, NET).status == "ok"
+    session = svc.session(cookie)
+    svc.store.step_up_session(session.token_hash, svc.now() + 600)
+    results = []
+
+    def unlink(provider):
+        results.append(svc.provider_unlink(svc.session(cookie), provider).status)
+
+    threads = [threading.Thread(target=unlink, args=(p,)) for p in ("google", "apple")]
+    [t.start() for t in threads]
+    [t.join() for t in threads]
+    assert sorted(results) == ["last_method", "ok"]
+    assert len(store.links_of(session.account_id)) == 1
+
+
+def test_a_link_that_lands_after_the_account_is_deleted_leaves_nothing(svc, store):
+    session, _ = _stepped_up_by_provider(svc)
+    svc.delete_account(session)
+    assert store.add_link(session.account_id, "k1:orphan", "apple") is False
+    assert _count(store, "linked_sign_ins") == 0
+
+
+def test_issuing_a_nonce_writes_nothing_and_many_networks_cannot_lock_sign_in_out(svc, store):
+    for i in range(300):
+        assert svc.provider_start(f"10.{i // 250}.{i % 250}.1").status == "sent"
+    assert [store._e.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0] for t in ("challenges", "spent_nonces")] == [0, 0]
+    assert provider_sign_in(svc)
+
+
+def test_a_forged_or_changed_nonce_is_refused(svc):
+    token, nonce = provider_token(svc, "g-ada")
+    body, _, tag = nonce.rpartition(".")
+    random_part, _, expiry = body.rpartition(".")
+    for forged in (f"{random_part}.{int(expiry) + 99999}.{tag}", f"{body}.{'0' * len(tag)}", "x.1.y", ".", ""):
+        assert svc.provider_sign_in("google", f"g-ada|{forged}", forged, NET, True).status == "wrong"
+
+
+def test_a_spent_nonce_row_is_removed_at_its_expiry(svc, store, clock):
+    provider_sign_in(svc)
+    assert store._e.execute("SELECT COUNT(*) FROM spent_nonces").fetchone()[0] == 1
+    clock.advance(601)
+    svc.purge()
+    assert store._e.execute("SELECT COUNT(*) FROM spent_nonces").fetchone()[0] == 0

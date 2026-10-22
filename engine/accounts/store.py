@@ -63,6 +63,10 @@ CREATE TABLE IF NOT EXISTS sessions (
   stepped_up_until INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE INDEX IF NOT EXISTS sessions_by_account ON sessions (account_id);
+CREATE TABLE IF NOT EXISTS spent_nonces (
+  nonce      TEXT PRIMARY KEY,
+  expires_at INTEGER NOT NULL
+) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS counters (
   scope   TEXT NOT NULL,
   key     TEXT NOT NULL,
@@ -118,14 +122,19 @@ def _allow_accounts_without_address(conn: sqlite3.Connection) -> None:
     column = next((r for r in conn.execute("PRAGMA table_info(accounts)") if r[1] == "address_hash"), None)
     if column is None or not column[3]:
         return
-    conn.executescript(f"""
-        BEGIN IMMEDIATE;
-        ALTER TABLE accounts RENAME TO accounts_before;
-        CREATE TABLE accounts {ACCOUNTS_TABLE};
-        INSERT INTO accounts SELECT * FROM accounts_before;
-        DROP TABLE accounts_before;
-        COMMIT;
-    """)
+    try:
+        conn.executescript(f"""
+            BEGIN IMMEDIATE;
+            ALTER TABLE accounts RENAME TO accounts_before;
+            CREATE TABLE accounts {ACCOUNTS_TABLE};
+            INSERT INTO accounts SELECT * FROM accounts_before;
+            DROP TABLE accounts_before;
+            COMMIT;
+        """)
+    except BaseException:
+        if conn.in_transaction:
+            conn.execute("ROLLBACK")
+        raise
 
 
 class AccountStore:
@@ -184,17 +193,31 @@ class AccountStore:
             return {provider: subject_hash for provider, subject_hash in rows}
 
     def add_link(self, account_id: str, subject_hash: str, provider: str) -> bool:
-        """False when the provider id is already linked anywhere, or the account has one for that provider."""
+        """False when the account is gone, the provider id is already linked anywhere, or the
+        account has one for that provider."""
         with self._lock:
             return self._d.execute(
-                "INSERT OR IGNORE INTO linked_sign_ins VALUES (?, ?, ?)", (subject_hash, account_id, provider)
+                "INSERT OR IGNORE INTO linked_sign_ins SELECT ?, account_id, ? FROM accounts WHERE account_id = ?",
+                (subject_hash, provider, account_id),
             ).rowcount == 1
 
-    def remove_link(self, account_id: str, provider: str) -> bool:
+    def remove_link(self, account_id: str, provider: str) -> str:
+        """'ok', 'missing' when the account has no such link, or 'last_method' when removing it
+        would leave the account with no address and no other link. One statement, so two
+        removals at once cannot both pass the check."""
         with self._lock:
-            return self._d.execute(
-                "DELETE FROM linked_sign_ins WHERE account_id = ? AND provider = ?", (account_id, provider)
-            ).rowcount == 1
+            removed = self._d.execute(
+                "DELETE FROM linked_sign_ins WHERE account_id = ?1 AND provider = ?2 AND ("
+                " EXISTS (SELECT 1 FROM accounts WHERE account_id = ?1 AND address_hash IS NOT NULL)"
+                " OR (SELECT COUNT(*) FROM linked_sign_ins WHERE account_id = ?1) > 1)",
+                (account_id, provider),
+            ).rowcount
+            if removed:
+                return "ok"
+            held = self._d.execute(
+                "SELECT 1 FROM linked_sign_ins WHERE account_id = ? AND provider = ?", (account_id, provider)
+            ).fetchone()
+        return "last_method" if held else "missing"
 
     def rekey_link(self, old_hash: str, new_hash: str) -> None:
         with self._lock:
@@ -358,6 +381,13 @@ class AccountStore:
                 "DELETE FROM sessions WHERE account_id = ? AND token_hash IS NOT ?", (account_id, except_token_hash)
             ).rowcount
 
+    # nonces ------------------------------------------------------------------
+
+    def spend_nonce(self, nonce: str, expires_at: int) -> bool:
+        """Records a provider nonce as used. Of several requests with the same nonce, one gets True."""
+        with self._lock:
+            return self._e.execute("INSERT OR IGNORE INTO spent_nonces VALUES (?, ?)", (nonce, expires_at)).rowcount == 1
+
     # counters ---------------------------------------------------------------
 
     def hit(self, scope: str, key: str, window_seconds: int, limit: int, now: int) -> bool:
@@ -388,4 +418,5 @@ class AccountStore:
                 "DELETE FROM sessions WHERE idle_expires_at <= ? OR abs_expires_at <= ?", (now, now)
             ).rowcount
             removed += self._e.execute("DELETE FROM counters WHERE expires_at <= ?", (now,)).rowcount
+            removed += self._e.execute("DELETE FROM spent_nonces WHERE expires_at <= ?", (now,)).rowcount
         return removed
