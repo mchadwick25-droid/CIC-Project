@@ -2,7 +2,6 @@
 address change, export and deletion, and the proof that with the flag off none
 of the routes exist."""
 import dataclasses
-import datetime
 import logging
 import re
 
@@ -49,12 +48,12 @@ def http(store, usage_store, world_loader, registry, runtime):
     return TestClient(make_app(store, usage_store, world_loader, registry, accounts=runtime), base_url="https://testserver")
 
 
-def sign_in(http, mailer, address=ADDR, birth_date="1990-05-15"):
+def sign_in(http, mailer, address=ADDR):
     started = http.post("/api/accounts/sign-in/start", json={"address": address}, headers=H)
     assert started.status_code == 200, started.text
     r = http.post(
         "/api/accounts/sign-in/finish",
-        json={"challenge": started.json()["challenge"], "address": address, "code": mailer.last_code(address), "birth_date": birth_date},
+        json={"challenge": started.json()["challenge"], "address": address, "code": mailer.last_code(address), "over_18": True},
         headers=H,
     )
     assert r.status_code == 200 and r.json()["status"] == "ok", r.text
@@ -110,14 +109,21 @@ def test_start_says_the_same_thing_for_a_known_and_an_unknown_address(http, mail
     assert set(known.json()) == set(unknown.json()) and known.json()["message"] == unknown.json()["message"]
 
 
-def test_a_wrong_code_is_400_and_the_new_account_flow_asks_for_a_year(http, mailer):
+def test_a_wrong_code_is_400_and_the_new_account_flow_asks_for_the_age_click(http, mailer):
     challenge = http.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H).json()["challenge"]
     wrong = http.post("/api/accounts/sign-in/finish", json={"challenge": challenge, "address": ADDR, "code": "000000"}, headers=H)
     assert wrong.status_code == 400
-    asked = http.post("/api/accounts/sign-in/finish", json={"challenge": challenge, "address": ADDR, "code": mailer.last_code(ADDR)}, headers=H)
-    assert asked.status_code == 200 and asked.json()["status"] == "needs_birth_date"
-    young = http.post("/api/accounts/sign-in/finish", json={"challenge": challenge, "address": ADDR, "code": mailer.last_code(ADDR), "birth_date": (datetime.date.today() - datetime.timedelta(days=5 * 365)).isoformat()}, headers=H)
-    assert young.json()["status"] == "under_age" and "set-cookie" not in young.headers
+    body = {"challenge": challenge, "address": ADDR, "code": mailer.last_code(ADDR)}
+    asked = http.post("/api/accounts/sign-in/finish", json=body, headers=H)
+    assert asked.status_code == 200 and asked.json()["status"] == "needs_age_answer" and "set-cookie" not in asked.headers
+    declined = http.post("/api/accounts/sign-in/finish", json={**body, "over_18": False}, headers=H)
+    assert declined.status_code == 200 and declined.json()["status"] == "not_adult" and "set-cookie" not in declined.headers
+    assert "not open yet" in declined.json()["message"]
+    assert http.get("/api/accounts/me").json() == {"signed_in": False}
+    typed = http.post("/api/accounts/sign-in/finish", json={**body, "over_18": "yes"}, headers=H)
+    assert typed.status_code == 422
+    sent_date = http.post("/api/accounts/sign-in/finish", json={**body, "over_18": True, "birth_date": "1990-05-15"}, headers=H)
+    assert sent_date.status_code == 200 and sent_date.json()["status"] == "ok"
 
 
 def test_sign_out_clears_the_session(http, mailer):
@@ -223,7 +229,7 @@ def test_address_change_replies_and_limits_are_the_same_for_a_taken_and_a_free_a
     runtime.service.limits = dataclasses.replace(runtime.service.limits, account_actions_15min=200)
     sign_in(http, mailer, "bob@example.org")
     other = TestClient(http.app, base_url="https://testserver")
-    sign_in(other, mailer, ADDR, "1990-05-15")
+    sign_in(other, mailer, ADDR)
     step_up(other, mailer, ADDR)
 
     def probe(address, forwarded):

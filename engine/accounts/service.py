@@ -43,8 +43,6 @@ class Limits:
     session_absolute_seconds: int = 60 * 86400
     step_up_seconds: int = 600
     ledger_days: int = 16
-    adult_age: int = 18
-    teen_age: int = 13
     sends_per_address_15min: int = 3
     sends_per_address_day: int = 10
     sends_per_address_open_15min: int = 4
@@ -225,7 +223,7 @@ class AccountsService:
         refused = self._admit("sign_in", network, address_hash=ahash)
         return refused or self._open_challenge("sign_in", ahash, None, norm)
 
-    def finish_sign_in(self, challenge, address, code, network: str, birth_date=None) -> Result:
+    def finish_sign_in(self, challenge, address, code, network: str, over_18=None) -> Result:
         norm = normalise_address(address)
         if norm is None:
             return Result("wrong")
@@ -241,16 +239,11 @@ class AccountsService:
             if not self._spend(checked):
                 return Result("wrong")
             return self._sign_in_as(account, ahash)
-        if birth_date is None:
-            return Result("needs_birth_date")
-        age = self._age(birth_date)
-        if age is None:
-            return Result("invalid_birth_date")
-        if age < self.limits.adult_age:
-            # A person under 18 needs a parent's permission, and under 13 has no account of their own.
-            # Nothing is stored; the code is used up so the answer cannot be tuned by retrying.
-            self._spend(checked)
-            return Result("under_age" if age < self.limits.teen_age else "needs_parent")
+        if over_18 is None:
+            return Result("needs_age_answer")
+        if over_18 is not True:
+            # A no opens nothing and stores nothing, and leaves the proved code unused.
+            return Result("not_adult")
         if not self._allow("new_account_net", net, 86400, self.limits.new_accounts_per_network_day):
             return Result("throttled")
         if not self._spend(checked):
@@ -267,20 +260,6 @@ class AccountsService:
             self.store.set_address_hash(account.account_id, ahash)
         self.store.touch(account.account_id, _week(self.today()))
         return Result("ok", cookie=self._open_session(account.account_id), new_account=new_account)
-
-    def _age(self, birth_date) -> int | None:
-        """Whole years old on today's date, from a date of birth given as year-month-day text.
-        None when it is not a real date, is in the future, or is before 1900. The date is never stored."""
-        if not isinstance(birth_date, str) or len(birth_date) != 10:
-            return None
-        try:
-            born = date.fromisoformat(birth_date)
-        except ValueError:
-            return None
-        today = self.today()
-        if born > today or born.year < 1900:
-            return None
-        return today.year - born.year - ((today.month, today.day) < (born.month, born.day))
 
     # sessions -------------------------------------------------------------------
 
