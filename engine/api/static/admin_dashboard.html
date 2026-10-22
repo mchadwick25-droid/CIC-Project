@@ -750,7 +750,7 @@
     const free = status.free_grant;
     document.getElementById("t-deeper-free").textContent = fmtNumber(free.now_tokens) + " tokens";
     document.getElementById("t-deeper-free-detail").textContent =
-      "Baseline " + fmtNumber(free.baseline_tokens) + " every " + free.window_days + " days, " + free.rounds_per_conversation + " rounds a conversation. Changed by pull request only.";
+      "Baseline " + fmtNumber(free.baseline_tokens) + " every " + free.window_days + " days. Changed by pull request only.";
     const select = document.getElementById("mint-pack");
     if (!select.options.length) {
       status.packs.forEach((pack) => select.appendChild(el("option", { value: String(pack.price_usd), text: "$" + pack.price_usd + " pack — " + fmtNumber(pack.tokens) + " tokens" })));

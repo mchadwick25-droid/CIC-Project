@@ -18,7 +18,7 @@ tokens:
   free:
     window_tokens: 550
     window_days: 30
-    rounds_per_conversation: 3
+    example_conversation_rounds: 3
     network_window_allowances: 5
   packs:
     - {price_usd: 7, tokens: 1100}

@@ -108,11 +108,17 @@ def test_every_figure_on_the_go_deeper_page_is_the_one_in_the_operations_file():
     assert found == expected
 
 
-def test_every_count_of_free_rounds_on_the_page_is_the_operations_files():
+def test_the_example_conversation_length_on_the_page_is_the_operations_files():
     html = (SITE / "go-deeper.html").read_text()
-    spoken = re.findall(r'data-ops="free-rounds">([a-z]+)<', html)
-    assert len(spoken) == 2
-    assert set(spoken) == {NUMBER_WORDS[load_ops().rates.free_rounds]}
+    spoken = re.findall(r'data-ops="example-rounds">([a-z]+)<', html)
+    assert len(spoken) == 1
+    assert set(spoken) == {NUMBER_WORDS[load_ops().rates.example_rounds]}
+
+
+def test_the_page_no_longer_says_a_free_conversation_lasts_a_set_number_of_rounds():
+    html = (SITE / "go-deeper.html").read_text()
+    assert not re.search(r"free conversation lasts", re.sub(r"<[^>]+>", " ", html), re.I)
+    assert "free-rounds" not in html
 
 
 def test_the_pack_lines_say_how_many_three_round_conversations_each_pack_holds():
@@ -123,7 +129,7 @@ def test_the_pack_lines_say_how_many_three_round_conversations_each_pack_holds()
     html = (SITE / "go-deeper.html").read_text()
     lines = re.findall(r"<li>\$.*?</li>", html)
     assert len(lines) == len(ops.packs)
-    per_conversation = tokens.conversation_cost(ops.rates, ops.rates.free_rounds)
+    per_conversation = tokens.conversation_cost(ops.rates, ops.rates.example_rounds)
     for line, pack in zip(lines, ops.packs):
         assert words[pack.tokens // per_conversation] in line
 
