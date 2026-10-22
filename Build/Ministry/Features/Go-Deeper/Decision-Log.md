@@ -881,3 +881,9 @@ Read by the build thread, to be confirmed as the slice is designed:
 - The block is one shared pool. The adult sets a per-student share inside it (default 550) so one student cannot empty it, as ruling 29 already provides for limits. The share is monthly or total, never daily.
 - It applies to both kinds of group, adult and minor.
 - Open: who approves a trial (an approval from the project lead each time, or automatic up to a size with larger ones coming to the project lead); the largest number of students; how the number is checked; how long the block lasts and whether it refills; one trial per adult or per organisation.
+
+## 2026-10-22 — Who approves a group trial: automatic under 100 students (ruled by Mark)
+
+System Hub decision 63, seventeenth addendum. This settles one of the open points of ruling 33.
+
+34. Ruled: a trial for fewer than 100 students is approved without the project lead, by the build's own rule, once the adult has an account and names the number. Read at the time of ruling: a trial for 100 or more students comes to the project lead for approval. The largest class is therefore set by the project lead's approval, not by a fixed cap. Still open from ruling 33: how the number of students is checked, how long the block lasts and whether it refills, and one trial per adult or per organisation.
