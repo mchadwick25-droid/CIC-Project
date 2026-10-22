@@ -316,3 +316,14 @@ Requirement for the build thread:
 4. Related: a conversation counts when created even if its first voice reply fails; fix with the same change. The Go Deeper page sentence "each day has a free allowance" is untrue since 2026-10-04 (log, S2b); check and correct it with Mark's words.
 5. Not a fix: setting `CIC_API_ANON_DAILY_SESSION_LIMIT` and `CIC_API_ANON_DAILY_TURN_LIMIT` very high in Render would work today but is a workaround.
 - AWS cap: Mark says one is set. Not confirmed from the repo; `CiC_Alerting_Runbook.md` describes an AWS Budgets alert and says Mark picks the figure. Whether it blocks spending or only alerts was not checked.
+
+## Correction to the coupon decisions — 2026-10-22
+The entries "Coupons for named people" and "Coupon delivery: one button, inside the system" above are not edited. This entry corrects them.
+- Mark first chose to keep the name outside the system and keep his own list. He then asked for a one-tap grant inside the system with no emailing and nothing sent by hand. The accounts thread's ruling 3 does this: the operator types the person's address once at one button, only its keyed hash is kept, and the coupon attaches at the person's next sign-in. The system never receives a name.
+- At this thread's request the accounts thread put the question to Mark. Reported answer (not read at its source): the design decisions were made; he wants it seamless, no copy and paste and no emails from him. Ruling 3 stands. Recorded in the accounts thread as ruling 24 in the Go Deeper Decision-Log (PR 1033, in review at the time).
+- So "the name is kept outside the system" now means the system never receives a name. It does see an address once. Nothing is built for the grant button; accounts slice A1a is a draft (PR 1033).
+- The statement above that coupons are "a code Mark mints and passes on himself" holds only until accounts are switched on.
+
+## Daily limits and conversation text — built — 2026-10-22
+- The no-daily-reset requirement above is built and merged by PR 1032 (see the log). A build thread handled it; the accounts thread declined it as a change to the live visitor path. Remaining: `cic-website/privacy.html` words (Mark's), the two Render variables (Mark, optional), promotion to live (Mark, through PR 1034).
+- Item 30 text sizes were chosen by Mark in the conversation pages thread: intro 17 px, ribbon 16 px. PR 1031 merged.
