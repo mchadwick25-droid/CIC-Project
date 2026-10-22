@@ -827,3 +827,16 @@ System Hub decision 63, tenth addendum. A named change order on ruling 6 (accoun
 - Until the parent-permission flow exists, a 13-to-17-year-old who signs in is told that a parent or guardian needs to give permission first, and nothing is stored; a person under 13 is told that access for younger children is set up by a parent or teacher. In both cases the code is used up, so retrying cannot tune the answer.
 - This closes the open item "age by year" recorded under A1a, and replaces the lawyer's question 16 with: whether a parent's permission given through a parent's own account (a verified adult, signed in by a code to their address) is enough for 13 to 17 in the US states and the EU and UK countries in scope.
 - Not decided: the parent-permission method, and the consent route for groups of minors led by a non-school leader.
+
+## 2026-10-22 — Pay as you go and minors: a child must not spend an adult's money (ruled by Mark)
+
+System Hub decision 63, eleventh addendum. Mark: he does not want children spending their parents' money. Asked who may buy, he chose to keep buying available without an account, with an adult attestation (the build thread had recommended a signed-in adult account with a fresh code, and said so; this is Mark's ruling).
+
+28. Ruled and built into the design:
+- Only adults buy. A minor account, and a member of a group, never sees a purchase screen or a link to one; they see "ask your parent or teacher".
+- A child never draws on an adult's paid balance automatically. A parent may gift a fixed amount to a child's profile; when spent it is gone, with no top-up. A teacher's group pack is shared with a daily share per student, so one student cannot empty it. Whether a gift can be taken back, and the free allowance for group members, are not decided.
+- No payment method is saved on our side; each purchase is its own Stripe checkout.
+- Buying without an account stays (decision 10), with an adult attestation at the purchase: a plain statement that the buyer is 18 or over, taken on the purchase page or in the Stripe checkout (which of these Stripe supports on a Payment Link is one of the Stripe facts Mark verifies). The attestation is a statement and not a check.
+- A purchase a child made on an adult's card is refunded: the no-refund policy gets that plain exception.
+- An adult who buys while signed in is emailed a receipt note (the address is kept, ruling 25), so an unexpected purchase is seen.
+- Residual risk, accepted by Mark's choice: on a family device, a child can buy as an anonymous visitor using a saved card, Apple Pay or Link, and the attestation does not stop it. The refund exception and the receipt note are the remedies. The stronger option (a signed-in adult account and a fresh code before any purchase) stays available if purchases by children turn up.
