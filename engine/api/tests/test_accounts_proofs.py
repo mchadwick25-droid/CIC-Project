@@ -17,6 +17,7 @@ REQUIRED = {
     "engine/accounts/tests/test_schema.py": [
         "test_no_column_in_either_file_names_anything_personal",
         "test_the_durable_file_holds_no_time_finer_than_a_day",
+        "test_a_file_made_before_recovery_was_removed_loses_its_recovery_tables",
         "test_the_account_files_hold_no_meter_code_hash_and_no_payment_id",
     ],
     "engine/accounts/tests/test_signin.py": [

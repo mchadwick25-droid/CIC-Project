@@ -17,6 +17,8 @@ from dataclasses import dataclass
 from typing import Callable
 
 DURABLE_DDL = """
+DROP TABLE IF EXISTS recovery_codes;
+DROP TABLE IF EXISTS pending_changes;
 CREATE TABLE IF NOT EXISTS accounts (
   account_id    TEXT PRIMARY KEY,
   address_hash  TEXT NOT NULL UNIQUE,

@@ -52,3 +52,21 @@ def test_the_account_files_hold_no_meter_code_hash_and_no_payment_id(svc, mailer
         assert codes.hash_code(minted[0]).encode() not in data
         assert b"pi_account_proof" not in data
     meter.close()
+
+
+def test_a_file_made_before_recovery_was_removed_loses_its_recovery_tables(tmp_path):
+    import sqlite3
+
+    from engine.accounts.store import AccountStore
+
+    durable = str(tmp_path / "old.db")
+    conn = sqlite3.connect(durable)
+    conn.execute("CREATE TABLE recovery_codes (account_id TEXT PRIMARY KEY, code_hash TEXT, day_made TEXT)")
+    conn.execute("CREATE TABLE pending_changes (account_id TEXT PRIMARY KEY, new_address_hash TEXT, effective_on TEXT)")
+    conn.execute("INSERT INTO recovery_codes VALUES ('a', 'h', 'd')")
+    conn.commit()
+    conn.close()
+    store = AccountStore(durable, str(tmp_path / "e.db"))
+    names = {r[0] for r in store._d.execute("SELECT name FROM sqlite_master WHERE type = 'table'")}
+    assert names == {"accounts", "deletion_ledger"}
+    store.close()

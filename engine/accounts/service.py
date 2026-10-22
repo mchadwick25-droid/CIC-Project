@@ -46,8 +46,8 @@ class Limits:
     minimum_age: int = 16
     sends_per_address_15min: int = 3
     sends_per_address_day: int = 10
-    sends_per_address_open_15min: int = 6
-    sends_per_address_open_day: int = 20
+    sends_per_address_open_15min: int = 4
+    sends_per_address_open_day: int = 10
     sends_per_network_15min: int = 30
     sends_per_coarse_network_15min: int = 120
     sends_global_hour: int = 300
