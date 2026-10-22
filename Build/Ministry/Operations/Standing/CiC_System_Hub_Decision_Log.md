@@ -6825,3 +6825,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, twenty-first addendum of the same day. A group's trial block is given once, lasts 90 days and does not refill; unspent tokens lapse at the end. Checking the student number and one trial per adult or organisation remain open. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, twenty-second addendum of the same day. The adult who runs a group can move unspent credits between students inside the group's pool; moves are logged and change no totals. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
+
+63, twenty-third addendum of the same day. Change order to the twenty-second: moving credits between students is one feature with two limits (unused credits, inside the group); the build thread's extra points are withdrawn. The Go Deeper Decision-Log entry of the same date carries the ruling.

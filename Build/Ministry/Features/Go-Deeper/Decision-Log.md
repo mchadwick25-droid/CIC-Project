@@ -936,3 +936,9 @@ Read by the build thread, to be confirmed as the slice is designed:
 - It changes nothing about the 90 days of ruling 38, or about the group pool's total.
 - It applies to groups of minors and groups of adults. A parent's gift to one child (ruling 28) is the child's own and is not moved by a group's adult.
 - Open for the slice design: whether a student is told when their share changes, and whether a move can be reversed.
+
+## 2026-10-22 — Change order: moving credits between students stays simple (ruled by Mark)
+
+System Hub decision 63, twenty-third addendum. This replaces the build thread's reading under ruling 39; the ruling itself stands.
+
+40. Ruled: keep it simple. The adult who runs a group moves credits from one student to another. That is the whole feature. Only two limits remain, because without them the move has no meaning: it works on credits not yet used, and it stays inside the group. The extra points the build thread added under ruling 39 are withdrawn: no notice to the student, no reversing, no special rule for parent gifts, and no separate log screen (the move is recorded in the group's ordinary record of changes, as any change to a group is). Ruling 39's open questions are closed by this.
