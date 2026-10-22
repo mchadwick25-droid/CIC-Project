@@ -893,3 +893,15 @@ System Hub decision 63, seventeenth addendum. This settles one of the open point
 System Hub decision 63, eighteenth addendum. This changes ruling 34, which set the line at 100.
 
 35. Ruled: the free trial block is for a group of 25 students or fewer. Ruling 34's line at 100 is superseded. Read by the build thread, to be confirmed: a group of 25 or fewer is approved automatically; a group of more than 25 gets no free trial block and starts on pay as you go, with an adult buying; the project lead may still grant a larger group a block by approval, as with a coupon. Still open from ruling 33: how the number is checked, how long the block lasts and whether it refills, and one trial per adult or per organisation.
+
+## 2026-10-22 — A group of more than 25 sends the project lead a request to approve (ruled by Mark)
+
+System Hub decision 63, nineteenth addendum. This settles what happens above 25 in ruling 35.
+
+36. Ruled: when a group of more than 25 students applies for a trial, the system emails the project lead a request that he can approve. Keep the system simple: one request, one approval, no separate queue or tool.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The approval is the same single approval screen the coupon grant uses (ruling 24), so there is one place and one button. The email tells the project lead a request is waiting and links to that screen, where he signs in and approves. The email itself never approves anything, because a mail scanner or a forwarded message can open a link.
+- The request names the adult's account, the number of students and the group kind, never the students.
+- Until the project lead approves, the group starts on pay as you go, as in ruling 35. If he approves, the block is added.
+- This is mail to the project lead, not mail to account holders; it waits on the mail provider choice (A0) like every other mail.
