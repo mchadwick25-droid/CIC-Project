@@ -905,3 +905,14 @@ Read by the build thread, to be confirmed as the slice is designed:
 - The request names the adult's account, the number of students and the group kind, never the students.
 - Until the project lead approves, the group starts on pay as you go, as in ruling 35. If he approves, the block is added.
 - This is mail to the project lead, not mail to account holders; it waits on the mail provider choice (A0) like every other mail.
+
+## 2026-10-22 — How a group buys tokens: card now, invoice later (ruled by Mark)
+
+System Hub decision 63, twentieth addendum.
+
+37. Ruled: a group buys tokens by card, at the same rates and in the same packs as individuals, with the tokens going to the group's pool. Paying by invoice or purchase order comes later, when there is demand. There is no group volume discount.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- Only an adult who runs the group buys (ruling 28), from the adult console, on that adult's own account. The receipt carries the group's name. A child never buys and never draws on an adult's balance.
+- A group pack is separate from the adult's personal balance, so the group's use cannot drain it and the adult's use cannot drain the group's.
+- Open: whether unspent group tokens lapse after two years like personal tokens, whether they can be moved to another group or back to the adult, and what the receipt may show. Invoicing needs the payment provider's facts verified before it is designed.
