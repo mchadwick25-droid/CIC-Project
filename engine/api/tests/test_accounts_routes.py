@@ -1,6 +1,7 @@
 """Accounts' HTTP edge: sign-in by a typed code, the cookie, step-up, recovery,
 address change, export and deletion, and the proof that with the flag off none
 of the routes exist."""
+import dataclasses
 import logging
 import re
 
@@ -48,15 +49,21 @@ def http(store, usage_store, world_loader, registry, runtime):
 
 
 def sign_in(http, mailer, address=ADDR, birth_year=1990):
-    assert http.post("/api/accounts/sign-in/start", json={"address": address}, headers=H).status_code == 200
-    r = http.post("/api/accounts/sign-in/finish", json={"address": address, "code": mailer.last_code(address), "birth_year": birth_year}, headers=H)
+    started = http.post("/api/accounts/sign-in/start", json={"address": address}, headers=H)
+    assert started.status_code == 200, started.text
+    r = http.post(
+        "/api/accounts/sign-in/finish",
+        json={"challenge": started.json()["challenge"], "address": address, "code": mailer.last_code(address), "birth_year": birth_year},
+        headers=H,
+    )
     assert r.status_code == 200 and r.json()["status"] == "ok", r.text
     return r
 
 
 def step_up(http, mailer, address=ADDR):
-    http.post("/api/accounts/step-up/start", json={"address": address}, headers=H)
-    r = http.post("/api/accounts/step-up/finish", json={"address": address, "code": mailer.last_code(address)}, headers=H)
+    started = http.post("/api/accounts/step-up/start", json={"address": address}, headers=H)
+    assert started.status_code == 200
+    r = http.post("/api/accounts/step-up/finish", json={"challenge": started.json()["challenge"], "code": mailer.last_code(address)}, headers=H)
     assert r.status_code == 200
 
 
@@ -98,16 +105,17 @@ def test_start_says_the_same_thing_for_a_known_and_an_unknown_address(http, mail
     sign_in(http, mailer)
     known = http.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H)
     unknown = http.post("/api/accounts/sign-in/start", json={"address": "nobody@example.org"}, headers=H)
-    assert known.status_code == unknown.status_code == 200 and known.json() == unknown.json()
+    assert known.status_code == unknown.status_code == 200
+    assert set(known.json()) == set(unknown.json()) and known.json()["message"] == unknown.json()["message"]
 
 
 def test_a_wrong_code_is_400_and_the_new_account_flow_asks_for_a_year(http, mailer):
-    http.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H)
-    wrong = http.post("/api/accounts/sign-in/finish", json={"address": ADDR, "code": "000000"}, headers=H)
+    challenge = http.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H).json()["challenge"]
+    wrong = http.post("/api/accounts/sign-in/finish", json={"challenge": challenge, "address": ADDR, "code": "000000"}, headers=H)
     assert wrong.status_code == 400
-    asked = http.post("/api/accounts/sign-in/finish", json={"address": ADDR, "code": mailer.last_code(ADDR)}, headers=H)
+    asked = http.post("/api/accounts/sign-in/finish", json={"challenge": challenge, "address": ADDR, "code": mailer.last_code(ADDR)}, headers=H)
     assert asked.status_code == 200 and asked.json()["status"] == "needs_birth_year"
-    young = http.post("/api/accounts/sign-in/finish", json={"address": ADDR, "code": mailer.last_code(ADDR), "birth_year": 2020}, headers=H)
+    young = http.post("/api/accounts/sign-in/finish", json={"challenge": challenge, "address": ADDR, "code": mailer.last_code(ADDR), "birth_year": 2020}, headers=H)
     assert young.json()["status"] == "under_age" and "set-cookie" not in young.headers
 
 
@@ -132,10 +140,11 @@ def test_recovery_over_http(http, mailer, runtime):
     sign_in(http, mailer)
     step_up(http, mailer)
     code = http.post("/api/accounts/recovery-code", json={}, headers=H).json()["recovery_code"]
+    assert len(code) == 20
     fresh = TestClient(http.app, base_url="https://testserver")
     start = fresh.post("/api/accounts/recovery/start", json={"recovery_code": code, "new_address": NEW}, headers=H)
-    assert start.status_code == 200 and set(start.json()) == {"status", "message"}
-    done = fresh.post("/api/accounts/recovery/finish", json={"recovery_code": code, "new_address": NEW, "code": mailer.last_code(NEW)}, headers=H)
+    assert start.status_code == 200 and set(start.json()) == {"status", "message", "challenge"}
+    done = fresh.post("/api/accounts/recovery/finish", json={"challenge": start.json()["challenge"], "code": mailer.last_code(NEW)}, headers=H)
     assert done.json()["status"] == "waiting" and done.json()["effective_on"]
     assert http.get("/api/accounts/me").json()["pending_recovery"]
     step_up(http, mailer)
@@ -143,14 +152,15 @@ def test_recovery_over_http(http, mailer, runtime):
     assert not http.get("/api/accounts/me").json()["pending_recovery"]
 
 
-def test_address_change_over_http_signs_out_other_devices(http, mailer, store, usage_store, world_loader, registry, runtime):
+def test_address_change_over_http_signs_out_other_devices(http, mailer):
     sign_in(http, mailer)
     other = TestClient(http.app, base_url="https://testserver")
-    other.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H)
-    other.post("/api/accounts/sign-in/finish", json={"address": ADDR, "code": mailer.last_code(ADDR)}, headers=H)
+    challenge = other.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H).json()["challenge"]
+    other.post("/api/accounts/sign-in/finish", json={"challenge": challenge, "address": ADDR, "code": mailer.last_code(ADDR)}, headers=H)
     step_up(http, mailer)
-    assert http.post("/api/accounts/address/start", json={"new_address": NEW}, headers=H).status_code == 200
-    r = http.post("/api/accounts/address/finish", json={"new_address": NEW, "code": mailer.last_code(NEW)}, headers=H)
+    started = http.post("/api/accounts/address/start", json={"new_address": NEW}, headers=H)
+    assert started.status_code == 200
+    r = http.post("/api/accounts/address/finish", json={"challenge": started.json()["challenge"], "code": mailer.last_code(NEW)}, headers=H)
     assert r.status_code == 200
     assert other.get("/api/accounts/me").json() == {"signed_in": False}
     assert http.get("/api/accounts/me").json()["signed_in"]
@@ -172,7 +182,7 @@ def test_no_log_line_holds_an_address_a_code_or_a_cookie(http, mailer, caplog):
     with caplog.at_level(logging.DEBUG):
         r = sign_in(http, mailer)
         step_up(http, mailer)
-        http.post("/api/accounts/sign-in/finish", json={"address": "x@example.org", "code": "000000"}, headers=H)
+        http.post("/api/accounts/sign-in/finish", json={"challenge": "nope", "address": "x@example.org", "code": "000000"}, headers=H)
     text = caplog.text
     assert not re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", text)
     for _, code in mailer.sent:
@@ -227,7 +237,8 @@ def test_a_paused_sign_in_is_503(http, runtime, mailer):
     assert first.status_code == 200 and second.status_code == 503
 
 
-def test_recovery_and_address_change_replies_and_limits_are_the_same_for_a_taken_and_a_free_address(http, mailer):
+def test_recovery_and_address_change_replies_and_limits_are_the_same_for_a_taken_and_a_free_address(http, mailer, runtime):
+    runtime.service.limits = dataclasses.replace(runtime.service.limits, account_actions_15min=200)
     sign_in(http, mailer, "bob@example.org")
     other = TestClient(http.app, base_url="https://testserver")
     sign_in(other, mailer, ADDR, 1990)
@@ -236,9 +247,9 @@ def test_recovery_and_address_change_replies_and_limits_are_the_same_for_a_taken
 
     def probe(path, body, forwarded):
         out = []
-        for _ in range(5):
+        for _ in range(9):
             r = other.post(path, json=body, headers={**H, "x-forwarded-for": forwarded})
-            out.append((r.status_code, tuple(sorted(r.json()))))
+            out.append((r.status_code, tuple(sorted(r.json())), r.json().get("message")))
         return out
 
     taken = probe("/api/accounts/recovery/start", {"recovery_code": code, "new_address": "bob@example.org"}, "192.0.2.61")

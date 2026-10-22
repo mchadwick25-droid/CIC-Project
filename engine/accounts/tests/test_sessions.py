@@ -42,8 +42,8 @@ def test_a_session_ends_at_the_absolute_limit_however_active(svc, mailer, clock)
 
 def test_sign_out_ends_one_session_and_everywhere_ends_all(svc, mailer, store):
     first = sign_in(svc, mailer)
-    svc.start_sign_in(ADDR, "203.0.113.6")
-    second = svc.finish_sign_in(ADDR, mailer.last_code(ADDR), "203.0.113.6").cookie
+    challenge = svc.start_sign_in(ADDR, "203.0.113.6").challenge
+    second = svc.finish_sign_in(challenge, ADDR, mailer.last_code(ADDR), "203.0.113.6").cookie
     svc.sign_out(svc.session(first))
     assert svc.session(first) is None and svc.session(second) is not None
     svc.sign_out_everywhere(svc.session(second))
@@ -56,22 +56,32 @@ def test_expired_sessions_and_codes_are_purged(svc, mailer, store, clock):
     clock.advance(70 * 86400)
     assert svc.purge() > 0
     assert store._e.execute("SELECT COUNT(*) FROM sessions").fetchone()[0] == 0
-    assert store._e.execute("SELECT COUNT(*) FROM sign_in_codes").fetchone()[0] == 0
+    assert store._e.execute("SELECT COUNT(*) FROM challenges").fetchone()[0] == 0
     assert store._e.execute("SELECT COUNT(*) FROM counters").fetchone()[0] == 0
 
 
-def test_step_up_needs_the_account_s_own_address(svc, mailer, clock):
+def test_step_up_needs_the_account_s_own_address_and_replies_alike_for_any_address(svc, mailer, clock):
     cookie = sign_in(svc, mailer)
     session = svc.session(cookie)
     sent_before = len(mailer.sent)
-    assert svc.step_up_start(session, "someone.else@example.org", NET).status == "sent"
+    stranger = svc.step_up_start(session, "someone.else@example.org", NET)
+    assert stranger.status == "sent" and stranger.challenge
     assert len(mailer.sent) == sent_before  # the same reply, and nothing is sent
-    assert svc.step_up_start(session, ADDR, NET).status == "sent"
-    assert len(mailer.sent) == sent_before + 1
-    assert svc.step_up_finish(svc.session(cookie), ADDR, "000000", NET).status == "wrong"
+    assert svc.step_up_finish(session, stranger.challenge, "000000", NET).status == "wrong"
+    own = svc.step_up_start(session, ADDR, NET)
+    assert own.status == "sent" and len(mailer.sent) == sent_before + 1
+    assert svc.step_up_finish(svc.session(cookie), own.challenge, "000000", NET).status == "wrong"
     assert not svc.session(cookie).stepped_up
-    assert svc.step_up_finish(svc.session(cookie), ADDR, mailer.last_code(ADDR), NET).status == "ok"
+    assert svc.step_up_finish(svc.session(cookie), own.challenge, mailer.last_code(ADDR), NET).status == "ok"
     assert svc.session(cookie).stepped_up
+
+
+def test_a_step_up_challenge_cannot_be_used_by_another_account(svc, mailer, clock):
+    cookie = sign_in(svc, mailer)
+    other = sign_in(svc, mailer, "bob@example.org", "192.0.2.9")
+    started = svc.step_up_start(svc.session(cookie), ADDR, NET)
+    code = mailer.last_code(ADDR)
+    assert svc.step_up_finish(svc.session(other), started.challenge, code, NET).status == "wrong"
 
 
 def test_step_up_lapses_after_ten_minutes(svc, mailer, clock):

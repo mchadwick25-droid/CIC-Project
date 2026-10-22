@@ -126,10 +126,16 @@ class AddressBody(BaseModel):
     address: str = Field(max_length=300)
 
 
-class FinishBody(BaseModel):
+class SignInFinishBody(BaseModel):
+    challenge: str = Field(max_length=80)
     address: str = Field(max_length=300)
     code: str = Field(max_length=40)
     birth_year: int | None = None
+
+
+class ChallengeBody(BaseModel):
+    challenge: str = Field(max_length=80)
+    code: str = Field(max_length=40)
 
 
 class RecoveryStartBody(BaseModel):
@@ -137,19 +143,8 @@ class RecoveryStartBody(BaseModel):
     new_address: str = Field(max_length=300)
 
 
-class RecoveryFinishBody(BaseModel):
-    recovery_code: str = Field(max_length=60)
-    new_address: str = Field(max_length=300)
-    code: str = Field(max_length=40)
-
-
 class NewAddressBody(BaseModel):
     new_address: str = Field(max_length=300)
-
-
-class NewAddressFinishBody(BaseModel):
-    new_address: str = Field(max_length=300)
-    code: str = Field(max_length=40)
 
 
 def install(app: FastAPI, runtime: AccountsRuntime) -> None:
@@ -205,13 +200,13 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         await _floor(began)
         if result.status != "sent":
             await _refuse(result, delay=False)
-        return {"status": "sent", "message": MESSAGES["sent"]}
+        return {"status": "sent", "message": MESSAGES["sent"], "challenge": result.challenge}
 
     @app.post("/api/accounts/sign-in/finish")
-    async def sign_in_finish(body: FinishBody, request: Request, response: Response):
+    async def sign_in_finish(body: SignInFinishBody, request: Request, response: Response):
         _guard(request)
         result = await run_in_threadpool(
-            service.finish_sign_in, body.address, body.code, _network(request), body.birth_year
+            service.finish_sign_in, body.challenge, body.address, body.code, _network(request), body.birth_year
         )
         if result.status == "ok":
             _set_cookie(response, result.cookie)
@@ -257,13 +252,13 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         await _floor(began)
         if result.status != "sent":
             await _refuse(result, delay=False)
-        return {"status": "sent", "message": MESSAGES["sent"]}
+        return {"status": "sent", "message": MESSAGES["sent"], "challenge": result.challenge}
 
     @app.post("/api/accounts/step-up/finish")
-    async def step_up_finish(body: FinishBody, request: Request):
+    async def step_up_finish(body: ChallengeBody, request: Request):
         _guard(request)
         result = await run_in_threadpool(
-            service.step_up_finish, await _session(request), body.address, body.code, _network(request)
+            service.step_up_finish, await _session(request), body.challenge, body.code, _network(request)
         )
         if result.status != "ok":
             await _refuse(result, delay=True)
@@ -285,14 +280,12 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         await _floor(began)
         if result.status != "sent":
             await _refuse(result, delay=True)
-        return {"status": "sent", "message": MESSAGES["sent"]}
+        return {"status": "sent", "message": MESSAGES["sent"], "challenge": result.challenge}
 
     @app.post("/api/accounts/recovery/finish")
-    async def recovery_finish(body: RecoveryFinishBody, request: Request):
+    async def recovery_finish(body: ChallengeBody, request: Request):
         _guard(request)
-        result = await run_in_threadpool(
-            service.recover_finish, body.recovery_code, body.new_address, body.code, _network(request)
-        )
+        result = await run_in_threadpool(service.recover_finish, body.challenge, body.code, _network(request))
         if result.status != "waiting":
             await _refuse(result, delay=True)
         return {"status": "waiting", "effective_on": result.effective_on}
@@ -313,13 +306,13 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         await _floor(began)
         if result.status != "sent":
             await _refuse(result, delay=False)
-        return {"status": "sent", "message": MESSAGES["sent"]}
+        return {"status": "sent", "message": MESSAGES["sent"], "challenge": result.challenge}
 
     @app.post("/api/accounts/address/finish")
-    async def address_finish(body: NewAddressFinishBody, request: Request):
+    async def address_finish(body: ChallengeBody, request: Request):
         _guard(request)
         result = await run_in_threadpool(
-            service.change_address_finish, await _session(request), body.new_address, body.code, _network(request)
+            service.change_address_finish, await _session(request), body.challenge, body.code, _network(request)
         )
         if result.status != "ok":
             await _refuse(result, delay=True)

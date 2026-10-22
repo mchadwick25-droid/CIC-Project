@@ -61,9 +61,15 @@ def svc(store, keys, mailer, clock):
     return AccountsService(store, keys, mailer, clock=clock)
 
 
+def start_sign_in(svc, mailer, address="ada@example.org", network="203.0.113.5"):
+    result = svc.start_sign_in(address, network)
+    assert result.status == "sent", result.status
+    return result.challenge, mailer.last_code(address.strip().lower())
+
+
 def sign_in(svc, mailer, address="ada@example.org", network="203.0.113.5", birth_year=1990):
-    assert svc.start_sign_in(address, network).status == "sent"
-    result = svc.finish_sign_in(address, mailer.last_code(address.strip().lower()), network, birth_year)
+    challenge, code = start_sign_in(svc, mailer, address, network)
+    result = svc.finish_sign_in(challenge, address, code, network, birth_year)
     assert result.status == "ok", result.status
     return result.cookie
 
@@ -71,6 +77,7 @@ def sign_in(svc, mailer, address="ada@example.org", network="203.0.113.5", birth
 def stepped_up_session(svc, mailer, clock, address="ada@example.org", network="203.0.113.5"):
     cookie = sign_in(svc, mailer, address, network)
     session = svc.session(cookie)
-    assert svc.step_up_start(session, address, network).status == "sent"
-    assert svc.step_up_finish(session, address, mailer.last_code(address), network).status == "ok"
+    started = svc.step_up_start(session, address, network)
+    assert started.status == "sent"
+    assert svc.step_up_finish(session, started.challenge, mailer.last_code(address), network).status == "ok"
     return svc.session(cookie), cookie

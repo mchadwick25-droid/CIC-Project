@@ -8,14 +8,14 @@ ADDR = "ada@example.org"
 NET = "203.0.113.5"
 
 
-def test_deleting_an_account_removes_it_its_sessions_and_its_codes(svc, mailer, clock, store):
+def test_deleting_an_account_removes_it_its_sessions_and_its_proofs(svc, mailer, clock, store):
     session, cookie = stepped_up_session(svc, mailer, clock)
     svc.make_recovery_code(svc.session(cookie))
     assert svc.delete_account(svc.session(cookie)).status == "ok"
     assert svc.session(cookie) is None
     for table in ("accounts", "recovery_codes", "pending_changes"):
         assert store._d.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] == 0
-    for table in ("sessions", "sign_in_codes"):
+    for table in ("sessions", "challenges"):
         assert store._e.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] == 0
 
 
@@ -60,11 +60,9 @@ def test_neither_file_holds_an_address_after_a_hundred_sign_ins(svc, mailer, clo
     for i, address in enumerate(addresses):
         sign_in(svc, mailer, address, f"198.51.100.{i % 250}", 1985)
         clock.advance(2)
-    # also exercise a recovery change and an address change, which hold hashes of new addresses
     session, cookie = stepped_up_session(svc, mailer, clock, addresses[0], "198.51.100.200")
-    svc.change_address_start(session, "moved.person@elsewhere.example.net", "198.51.100.201")
-    svc.change_address_finish(svc.session(cookie), "moved.person@elsewhere.example.net",
-                              mailer.last_code("moved.person@elsewhere.example.net"), "198.51.100.201")
+    moved = svc.change_address_start(session, "moved.person@elsewhere.example.net", "198.51.100.201")
+    svc.change_address_finish(svc.session(cookie), moved.challenge, mailer.last_code("moved.person@elsewhere.example.net"), "198.51.100.201")
     store._d.execute("VACUUM")
     store._e.execute("VACUUM")
     for name in ("d.db", "e.db"):
@@ -87,23 +85,23 @@ def test_a_deleted_account_s_bytes_are_overwritten(svc, mailer, clock, store, tm
     assert account_id.encode() not in data and address_hash.encode() not in data
 
 
+def test_deleting_an_account_forgets_its_address_hash_in_the_ephemeral_file(svc, mailer, clock, store, tmp_path):
+    session, cookie = stepped_up_session(svc, mailer, clock)
+    address_hash = svc.keys.address_hash(ADDR)
+    svc.delete_account(svc.session(cookie))
+    assert store._e.execute("SELECT COUNT(*) FROM counters WHERE key LIKE ?", ("%|" + address_hash,)).fetchone()[0] == 0
+    assert store._e.execute("SELECT COUNT(*) FROM challenges WHERE address_hash = ?", (address_hash,)).fetchone()[0] == 0
+    assert address_hash.encode() not in (tmp_path / "e.db").read_bytes()
+
+
 def test_no_log_line_holds_an_address_or_a_code(svc, mailer, clock, caplog):
     with caplog.at_level("DEBUG"):
         session, cookie = stepped_up_session(svc, mailer, clock)
-        svc.start_sign_in("nobody@example.org", NET)
-        svc.finish_sign_in("nobody@example.org", "000000", NET)
+        started = svc.start_sign_in("nobody@example.org", NET)
+        svc.finish_sign_in(started.challenge, "nobody@example.org", "000000", NET)
         svc.make_recovery_code(svc.session(cookie))
         svc.delete_account(svc.session(cookie))
     text = caplog.text
     assert not re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", text)
     for _, code in mailer.sent:
         assert code not in text
-
-
-def test_deleting_an_account_forgets_its_address_hash_in_the_ephemeral_file(svc, mailer, clock, store, tmp_path):
-    session, cookie = stepped_up_session(svc, mailer, clock)
-    address_hash = svc.keys.address_hash(ADDR)
-    svc.delete_account(svc.session(cookie))
-    assert store._e.execute("SELECT COUNT(*) FROM counters WHERE key LIKE ?", ("%|" + address_hash,)).fetchone()[0] == 0
-    assert store._e.execute("SELECT COUNT(*) FROM sign_in_codes WHERE address_hash = ?", (address_hash,)).fetchone()[0] == 0
-    assert address_hash.encode() not in (tmp_path / "e.db").read_bytes()

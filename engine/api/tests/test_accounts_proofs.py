@@ -21,6 +21,7 @@ REQUIRED = {
     ],
     "engine/accounts/tests/test_signin.py": [
         "test_a_code_works_once",
+        "test_a_challenge_proves_only_the_address_and_kind_it_was_made_for",
         "test_a_code_dies_at_ten_minutes",
         "test_five_wrong_tries_burn_the_code_even_for_the_right_one",
         "test_start_reply_is_the_same_whether_or_not_an_account_exists",
@@ -35,6 +36,7 @@ REQUIRED = {
         "test_the_cookie_points_to_a_session_and_holds_no_account_value",
         "test_a_session_ends_at_the_absolute_limit_however_active",
         "test_sensitive_actions_need_a_fresh_step_up",
+        "test_a_step_up_challenge_cannot_be_used_by_another_account",
     ],
     "engine/accounts/tests/test_recovery.py": [
         "test_recovery_waits_a_week_and_then_the_new_address_owns_the_account",
@@ -42,7 +44,8 @@ REQUIRED = {
         "test_an_address_change_needs_the_old_address_then_a_code_to_the_new_one",
         "test_the_replies_never_say_whether_an_address_has_an_account",
         "test_a_recovery_code_is_spent_when_the_new_address_is_proved",
-        "test_a_stranger_cannot_block_or_capture_a_recovery_to_the_same_address",
+        "test_a_recovery_never_proved_leaves_nothing_behind",
+        "test_a_stranger_cannot_block_replace_or_borrow_a_recovery_to_the_same_address",
         "test_many_accounts_cannot_send_more_than_a_few_codes_to_one_inbox",
         "test_an_address_taken_during_the_wait_moves_nothing_and_replaces_no_recovery_code",
     ],
