@@ -91,7 +91,10 @@ def test_no_page_shows_a_price_or_money_figure_outside_the_pack_lines(page):
 def _ops_figures() -> dict:
     ops = load_ops()
     rates = ops.rates
-    figures = {"solo-open": rates.solo_open, "solo-round": rates.solo_round, "solo-round-later": rates.solo_round_later}
+    figures = {
+        "solo-open": rates.solo_open, "solo-round": rates.solo_round, "solo-round-later": rates.solo_round_later,
+        "free-tokens": rates.free_window,
+    }
     for n, pack in enumerate(ops.packs, start=1):
         figures[f"pack-{n}-price"] = pack.price_usd
         figures[f"pack-{n}-tokens"] = pack.tokens
@@ -111,8 +114,21 @@ def test_every_figure_on_the_go_deeper_page_is_the_one_in_the_operations_file():
 def test_the_example_conversation_length_on_the_page_is_the_operations_files():
     html = (SITE / "go-deeper.html").read_text()
     spoken = re.findall(r'data-ops="example-rounds">([a-z]+)<', html)
-    assert len(spoken) == 1
+    assert len(spoken) == 2
     assert set(spoken) == {NUMBER_WORDS[load_ops().rates.example_rounds]}
+
+
+def test_the_free_allowance_line_counts_conversations_as_the_token_prices_do():
+    from engine.deeper import tokens
+
+    rates = load_ops().rates
+    html = (SITE / "go-deeper.html").read_text()
+    long_rounds = re.search(r'data-ops="free-long-rounds">([a-z]+)<', html).group(1)
+    rounds = {word: n for n, word in NUMBER_WORDS.items()}[long_rounds]
+    short = re.search(r'data-ops="free-short-count">([a-z]+)<', html).group(1)
+    long = re.search(r'data-ops="free-long-count">([a-z]+)<', html).group(1)
+    assert short == NUMBER_WORDS[rates.free_window // tokens.conversation_cost(rates, rates.example_rounds)]
+    assert long == NUMBER_WORDS[rates.free_window // tokens.conversation_cost(rates, rounds)]
 
 
 def test_the_page_no_longer_says_a_free_conversation_lasts_a_set_number_of_rounds():

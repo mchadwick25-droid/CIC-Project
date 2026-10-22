@@ -43,3 +43,10 @@ Allowance share used: small, Sonnet only. Metered: none.
 - Mark approved both sets of words (the line and the privacy sentence) on 2026-10-22.
 - Check before trusting: the free-voice dollar figure comes from the repo's own measurements ($0.041 to $0.088 a solo round), not the live usage log.
 - Waiting on Mark: promotion of main to live, which must carry the privacy sentence with the engine change; his AWS Budget check.
+
+
+## Addendum 2 — free 3-round rule removed (same day)
+
+- Branch `claude/free-rounds-removed-2026-10-22`: a free conversation is limited by the visitor's tokens and the engine's own caps (10 solo rounds, 3 at a Table). Details, the page words and the cost with its unmeasured part: `Pilot_Feedback_Log.md`, "Free 3-round rule removed".
+- Waiting on Mark: promotion of main to live, which must carry the Go Deeper page change with the engine change.
+- Check before trusting: the cost per long free round is unmeasured against the live usage log (finding F11).
