@@ -77,6 +77,8 @@ REQUIRED = {
         "test_a_waiting_move_that_was_cancelled_is_not_carried_out",
         "test_signing_in_at_the_new_address_during_the_wait_opens_no_account_and_says_when",
         "test_recovery_and_cancel_codes_survive_a_rotation_of_the_address_key",
+        "test_a_second_challenge_with_the_same_recovery_code_sends_no_decoy_notice_and_leaves_the_real_one_working",
+        "test_a_waiting_move_whose_notice_was_never_accepted_is_never_carried_out",
     ],
     "engine/api/tests/test_contact_cipher.py": [
         "test_a_sealed_address_opens_with_its_key_and_context_only",

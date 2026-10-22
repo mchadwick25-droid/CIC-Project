@@ -48,7 +48,8 @@ CREATE TABLE IF NOT EXISTS pending_recoveries (
   account_id       TEXT PRIMARY KEY,
   new_address_hash TEXT NOT NULL,
   cancel_hash      TEXT NOT NULL,
-  effective_on     TEXT NOT NULL
+  effective_on     TEXT NOT NULL,
+  notified         INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS deletion_ledger (
   ledger_hash TEXT PRIMARY KEY,
@@ -237,7 +238,7 @@ class AccountStore:
                     f"SELECT 1 FROM accounts WHERE address_hash IN ({marks})", new_address_hashes
                 ).fetchone() is None
                 ok = ok and self._d.execute(
-                    "INSERT OR IGNORE INTO pending_recoveries VALUES (?, ?, ?, ?)",
+                    "INSERT OR IGNORE INTO pending_recoveries VALUES (?, ?, ?, ?, 0)",
                     (account_id, new_address_hash, cancel_hash, effective_on),
                 ).rowcount == 1
                 if ok:
@@ -269,8 +270,36 @@ class AccountStore:
         """(account id, new address hash) for each recovery whose day has come."""
         with self._lock:
             return [tuple(r) for r in self._d.execute(
-                "SELECT account_id, new_address_hash FROM pending_recoveries WHERE effective_on <= ?", (today,)
+                "SELECT account_id, new_address_hash FROM pending_recoveries WHERE effective_on <= ? AND notified = 1", (today,)
             )]
+
+    def mark_notified(self, account_id: str, cancel_hash: str) -> bool:
+        """Records that the mail provider accepted the notice for this waiting move. A move whose
+        notice was never accepted is never carried out."""
+        with self._lock:
+            return self._d.execute(
+                "UPDATE pending_recoveries SET notified = 1 WHERE account_id = ? AND cancel_hash = ?", (account_id, cancel_hash)
+            ).rowcount == 1
+
+    def undo_recovery(self, account_id: str, cancel_hash: str, new_key_hash: str, used_key_hash: str, day: str) -> bool:
+        """Takes back a recovery whose notice could not be sent: the waiting move written with
+        this cancel code is removed, the replacement code is removed and the code it spent comes
+        back. Only that attempt's own rows are touched."""
+        with self._lock:
+            self._d.execute("BEGIN IMMEDIATE")
+            try:
+                undone = self._d.execute(
+                    "DELETE FROM pending_recoveries WHERE account_id = ? AND cancel_hash = ? AND notified = 0",
+                    (account_id, cancel_hash),
+                ).rowcount == 1
+                if undone:
+                    self._d.execute("DELETE FROM recovery_keys WHERE key_hash = ?", (new_key_hash,))
+                    self._d.execute("INSERT OR IGNORE INTO recovery_keys VALUES (?, ?, ?)", (used_key_hash, account_id, day))
+                self._d.execute("COMMIT")
+            except BaseException:
+                self._d.execute("ROLLBACK")
+                raise
+            return undone
 
     def delete_pending(self, account_id: str) -> bool:
         with self._lock:

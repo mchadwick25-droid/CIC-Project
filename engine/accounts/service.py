@@ -588,10 +588,10 @@ class AccountsService:
         return self._open_challenge("recovery", candidates[0], account_id, norm if usable else None, bound=used_key)
 
     def recovery_prove(self, challenge, code, new_address, network: str) -> Result:
-        """The new address is proved. The old address is told, with a cancel code, before anything
-        is written: if that notice is not accepted by the mail provider the recovery does not
-        start. Then, in one transaction, the recovery code is spent, the seven-day wait is written
-        and a replacement code is stored; the replacement is shown once."""
+        """The new address is proved. In one transaction the recovery code is spent, the seven-day
+        wait is written and a replacement code is stored; then the old address is told, with a
+        cancel code. If the mail provider does not accept that notice the recovery is taken back
+        and does not start; the move never takes effect without it. The replacement code is shown once."""
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
             return Result("throttled")
         norm = normalise_address(new_address)
@@ -606,21 +606,29 @@ class AccountsService:
             return Result("wrong")
         cancel_code = secrets.token_urlsafe(16)
         new_code = secrets.token_urlsafe(16)
+        cancel_hash = self.keys.secret_hash("cancel", cancel_code)
+        new_key = self.keys.secret_hash("recovery", new_code)
+        today = self.today().isoformat()
         effective_on = (self.today() + timedelta(days=self.limits.recovery_wait_days + 1)).isoformat()
+        # Reserve first: one transaction that checks everything. Only the attempt that wins it
+        # goes on to write the waiting address and send the notice, so a losing attempt can never
+        # send a notice whose cancel code does not work or touch the winner's rows.
+        if not self.store.begin_recovery(
+            account_id, checked.bound, new_key, today, self.keys.candidate_hashes(norm), checked.address_hash,
+            cancel_hash, effective_on,
+        ):
+            return Result("wrong")
+        self.contacts.put_pending(account_id, norm)
         try:
             self.mailer.send_notice(old_address, "recovery_started", {"cancel_code": cancel_code, "effective_on": effective_on})
         except Exception:  # noqa: BLE001 - the address and codes must not reach a log
             logger.warning("a recovery notice could not be sent")
+            if self.store.undo_recovery(account_id, cancel_hash, new_key, checked.bound, today):
+                self.contacts.forget_pending(account_id)
             return Result("send_failed")
-        if not self._spend(checked):
-            return Result("wrong")
-        self.contacts.put_pending(account_id, norm)
-        if not self.store.begin_recovery(
-            account_id, checked.bound, self.keys.secret_hash("recovery", new_code), self.today().isoformat(),
-            self.keys.candidate_hashes(norm), checked.address_hash, self.keys.secret_hash("cancel", cancel_code), effective_on,
-        ):
-            self.contacts.forget_pending(account_id)
-            return Result("wrong")
+        # Until the notice is accepted the waiting move never takes effect, even after a crash.
+        self.store.mark_notified(account_id, cancel_hash)
+        self._spend(checked)
         return Result("ok", data={"recovery_code": new_code, "effective_on": effective_on})
 
     def recovery_cancel(self, address, cancel_code, network: str) -> Result:
@@ -664,11 +672,13 @@ class AccountsService:
         looked up, so neither address finds an account that has already moved."""
         today = self.today().isoformat()
         for account_id, new_hash in self.store.due_pending(today):
-            address = self.contacts.take_pending(account_id) if self.contacts is not None else None
+            address = self.contacts.pending(account_id) if self.contacts is not None else None
             if self.store.apply_pending(account_id, new_hash, today):
                 if address is not None and self.contacts is not None:
                     self.contacts.put(account_id, address)
                 self.store.delete_sessions_of(account_id)
+                if self.contacts is not None:
+                    self.contacts.forget_pending(account_id)
 
     def _sweep_contacts(self) -> None:
         """Removes any kept address whose account is gone, such as after a crash between the two

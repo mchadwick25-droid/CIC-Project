@@ -84,6 +84,10 @@ class ContactStore:
         """The new address of a recovery that has been proved and is waiting out its days."""
         self._put("pending_contacts", account_id, address)
 
+    def pending(self, account_id: str) -> str | None:
+        """The new address of a waiting recovery, without taking it."""
+        return self._get("pending_contacts", account_id)
+
     def take_pending(self, account_id: str) -> str | None:
         address = self._get("pending_contacts", account_id)
         self.forget_pending(account_id)

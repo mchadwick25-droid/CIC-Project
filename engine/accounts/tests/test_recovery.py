@@ -179,7 +179,8 @@ def test_a_recovery_does_not_start_when_the_notice_to_the_old_address_is_not_acc
     assert ADDR not in caplog.text and NEW not in caplog.text and code not in caplog.text
     assert store.pending_of(session.account_id) is None and svc.me(svc.session(cookie))["recovery_pending"] is None
     mailer.fail = False
-    assert svc.recovery_prove(started.challenge, proved, NEW, THIEF).status == "ok"  # the code was not used up
+    assert store.has_recovery_key(session.account_id)  # the code it spent is back
+    assert svc.recovery_prove(started.challenge, proved, NEW, THIEF).status == "ok"  # and the challenge was not used up
 
 
 def test_deleting_an_account_removes_its_recovery_rows(svc, mailer, clock, store, contacts):
@@ -306,3 +307,29 @@ def test_making_a_new_recovery_code_ends_a_recovery_waiting(svc, mailer, clock, 
     svc.store.step_up_session(mine.token_hash, svc.now() + 600)
     svc.recovery_code_make(svc.session(cookie))
     assert store.pending_of(session.account_id) is None and store.has_recovery_key(session.account_id)
+
+
+def test_a_second_challenge_with_the_same_recovery_code_sends_no_decoy_notice_and_leaves_the_real_one_working(svc, mailer, clock, store, contacts):
+    session, cookie, code = _owner_with_code(svc, mailer, clock)
+    first = svc.recovery_start(code, NEW, THIEF)
+    first_code = mailer.last_code(NEW)
+    second = svc.recovery_start(code, "other.new@example.org", THIEF)
+    second_code = mailer.last_code("other.new@example.org")
+    assert svc.recovery_prove(first.challenge, first_code, NEW, THIEF).status == "ok"
+    notices = len(mailer.notices)
+    assert svc.recovery_prove(second.challenge, second_code, "other.new@example.org", THIEF).status == "wrong"
+    assert len(mailer.notices) == notices
+    assert contacts.pending(session.account_id) == NEW
+    assert svc.recovery_cancel(ADDR, mailer.notices[-1][2]["cancel_code"], NET).status == "ok"
+
+
+def test_a_waiting_move_whose_notice_was_never_accepted_is_never_carried_out(svc, mailer, clock, store, contacts):
+    session, cookie, code = _owner_with_code(svc, mailer, clock)
+    key = store._d.execute("SELECT key_hash FROM recovery_keys").fetchone()[0]
+    assert store.begin_recovery(session.account_id, key, "k1:new", "day", [svc.keys.address_hash(NEW)], svc.keys.address_hash(NEW),
+                                "k1:cancel", (svc.today() + timedelta(days=8)).isoformat())
+    contacts.put_pending(session.account_id, NEW)  # a crash here, before the notice is accepted
+    clock.advance(9 * 86400)
+    svc.purge()
+    assert store.account(session.account_id).address_hash == svc.keys.address_hash(ADDR)
+    assert store.pending_of(session.account_id) is not None  # still waiting; it was never carried out
