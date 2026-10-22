@@ -65,26 +65,6 @@ class Product:
     daily_ceiling: int | None = None
 
 
-class BoundedSet:
-    """Session ids this process remembers, oldest forgotten first. They are
-    never written to disk and never reach the meter: the meter still holds no
-    session id."""
-
-    def __init__(self, limit: int = 20_000):
-        self._limit = limit
-        self._items: dict[str, None] = {}
-        self._lock = threading.Lock()
-
-    def add(self, item: str) -> None:
-        with self._lock:
-            self._items[item] = None
-            while len(self._items) > self._limit:
-                del self._items[next(iter(self._items))]
-
-    def __contains__(self, item: str) -> bool:
-        return item in self._items
-
-
 @dataclass
 class DeeperRuntime:
     meter: Meter
@@ -97,8 +77,6 @@ class DeeperRuntime:
     token_rates: TokenRates = field(default_factory=lambda: load_ops().rates)
     group_burst_multiplier: int = field(default_factory=lambda: load_ops().group_burst_multiplier)
     ops: DeeperOps | None = None
-    facilitator_only_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
-    paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
     free: FreeAllowance | None = None
     gift_links: frozenset = frozenset()
     # Secret link keys for the pilot's private audiences: key -> audience name. Never in the repository.

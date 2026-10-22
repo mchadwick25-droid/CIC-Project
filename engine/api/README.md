@@ -41,19 +41,14 @@ The real app's model client is built unguarded only on Render (where
 
 `CIC_API_ANON_CAP_ENABLED` (`engine/api/anon_cap.py`'s own module
 docstring has the full rationale):
-`"1"` turns on a per-visitor daily cap on session creation and conversation
-turns, on top of `ratelimit.py`'s per-IP burst limiter. **Off in every
-deployment today** (`render.yaml` declares it explicitly as `"0"`, not left
-unset, so the switch has a visible, reviewable home once a decision is
-made rather than existing only as an undocumented dashboard toggle) — the
-mechanism and its default numbers (`CIC_API_ANON_DAILY_SESSION_LIMIT`,
-default 5; `CIC_API_ANON_DAILY_TURN_LIMIT`, default 150) are a proposal
-from that audit, not yet a decision Mark has made; see the package's own
-`Report.md`. Turning it on **requires** `CIC_API_ANON_VISITOR_SECRET`
-(any random string — signs the visitor cookie) to already be set — without
-it, `create_app` raises at construction time and the process never comes
-up at all (not a graceful "feature disabled" fallback). Set both together,
-never the flag alone.
+`"1"` issues the signed visitor cookie. The free allowance and the usage
+dashboard's unique-visitor count are keyed on it. It sets no daily limit on
+conversations or messages; burst rate stays with `ratelimit.py`'s per-IP
+limiter. On in both `render.yaml` services. Turning it on **requires**
+`CIC_API_ANON_VISITOR_SECRET` (any random string — signs the visitor cookie)
+to already be set — without it, `create_app` raises at construction time and
+the process never comes up at all (not a graceful "feature disabled"
+fallback). Set both together, never the flag alone.
 
 ## Pinning `CIC_API_SAFETY_MODEL_PATTERN` (Stage 0d, Build-Plan.md)
 

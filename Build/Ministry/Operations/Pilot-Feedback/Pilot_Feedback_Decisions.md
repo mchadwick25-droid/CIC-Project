@@ -280,3 +280,39 @@ Chosen while building, not by Mark (flag, change if wrong)
 Checks
 - Frontend tests, type check and a run of the real app in Chromium with a mocked API at a phone and a laptop width. Not checked: a real phone or tablet, a screen reader, or the live streaming path (the mock returns whole replies).
 
+
+## Records catch-up — 2026-10-21
+Entries below correct or add to earlier ones. Nothing earlier is edited.
+- **Theme E, scroll and swipe:** the 2026-10-20 decision added wheel and swipe to the hand. The wheel was removed on 2026-10-20 (no wheel handler in `cic-website/assets/chooser.js` on main, checked 2026-10-21). The "Status after PR 987 merged" entry that says a wheel handler is on main is out of date. The visible list control stands in for scrolling without a wheel.
+- **Rulings reported by the other pilot feedback manager (Mark), not read at their source:** (1) one build thread at a time; (2) Theme B's length and filler check only logs and never triggers a paid redo, which also settles the earlier worry that a check-and-redo could contradict PR 869; (3) the in-room AI note is one small light line at the foot (PR 1013). Item 29 change order 1 removed the long in-room disclosure; this is the small line that remains. The unchecked question there (whether a law or platform rule calls for a disclosure in the conversation) is still open for Mark.
+- **Theme G:** "Free to start. Add more any time." is built under the hand (log, 2026-10-20). The Theme D change order saying it has no home on the page is out of date.
+- **Access and payment, new work:** coupons and exceptions for particular people, and pay as you go. Mark has not given the design. Mechanics that exist: free allowance, packs, sponsor codes, tester codes (`engine/deeper/ops/go-deeper.yaml`). A tester code passes the daily cap (`engine/api/anon_cap.py`, checked on main 2026-10-21). Asked first, nothing built.
+- **Daily cap, flagged and not asked:** a conversation counts toward the 5 a day when it is created, even if the first voice reply then fails.
+- **Admission gate:** `python -m engine.m3.admission_conform --enforce` failed for all 11 worlds on 2026-10-21. Mark has not ruled on running, waiving or holding it for the whole fleet. A log entry says it was waived for the conversation pages.
+
+## Coupons for named people — 2026-10-22
+Decision (Mark, 2026-10-22): a coupon is a sponsor code made for a named person. The name is kept outside the system. Mark mints a code with the existing routes and keeps his own list of who received which code. Nothing is built.
+- Existing routes, read in `Build/Ministry/Features/Go-Deeper/Decision-Log.md` (entries of 2026-10-04 and 2026-10-15) and not run: `POST /api/admin/deeper/mint` (a pack and a count, as separate codes or one code; a gift, not a sale) and `POST /api/admin/deeper/tester` (more tokens and a last day; $0 toward the door).
+- Why outside: the design stores no name, email or note with a code, so the meter and the conversations share no key with a person. A label on the code would be a change order on that ruling and on the privacy page.
+- Pay as you go: already designed and built as Go Deeper. Open items are in the Go Deeper decision log (Stripe stored-value answer, legal and tax questions, refund and expiry wording, AWS budget ceiling). Nothing new decided here.
+
+### Coupon delivery: one button, inside the system — 2026-10-22
+Decision (Mark, 2026-10-22), superseding "Mark keeps his own list, nothing is built" above for the long run: Mark wants to grant a coupon with one button, approved by him, with no emailing and nothing sent by hand. The coupon is delivered inside the system. Mark chose to wait for accounts rather than build an interim link. Nothing is built.
+- Requirement for the accounts build thread: an admin control to pick an account and grant tokens to it with one tap. It must respect the 2026-10-05 accounts change order (decision 53): no name stored, the account store holds only a scrambled address value. How the admin finds an account without storing a name is for that thread to design and bring to Mark.
+- Until accounts exist, coupons are codes Mark mints (mint or tester route) and passes on himself.
+- State checked 2026-10-22: no accounts module in `engine/`; accounts were designed to ship dark behind `CIC_ACCOUNTS_ENABLED`, after the door's observe week. Whether any accounts branch exists was not checked. The engine has no email sending.
+
+## No daily reset on visitor limits — 2026-10-22
+Decision (Mark, 2026-10-22): the free allowance is monthly with no daily reset. More tokens come through the pilot or a purchase. Mark asked for recommendations on which limits to remove and approved them as written below. Nothing is built from this thread; a build thread does the code change.
+
+Checked 2026-10-22 on `origin/live` (same as main for `engine/deeper` and `engine/api`):
+- Already as ruled: the free allowance is 550 tokens in a rolling 30-day window kept in the meter file (`engine/deeper/free.py`, `go-deeper.yaml` `tokens.free`). Solo cost is 50 to open, 20 a round for rounds 1 to 3, 25 from round 4 (`engine/deeper/tokens.py`, `LATER_ROUNDS_FROM = 4`). The pilot join gives one $7-pack code (1,100 tokens) per address; on live the general audience is open, capped at 100, to 2026-12-31.
+- The fault: `engine/api/deeper_admission.py`, `Admission.provider`, sets `limited = daily_cap_reached or …`, so the daily conversation count (`engine/api/anon_cap.py`: 5 new conversations and 150 messages per visitor per UTC day) closes the free path even when the visitor has free tokens left.
+
+Requirement for the build thread:
+1. Remove the daily visitor counts (5 conversations, 150 messages) and the daily Facilitator-only sitting that exists only because of them. The per-message safety check stays.
+2. Keep the visitor cookie. The free allowance is keyed on it, and the engine refuses to start with the free allowance on and the visitor cap off (`CIC_API_ANON_CAP_ENABLED` stays on); change the counts, not the flag.
+3. Keep: the group code daily ceiling (`group_daily_ceiling` 6,000), the door including `daily_share`, the admin and tester operator caps, the per-minute burst limits (`engine/api/ratelimit.py`), the 3-round free cap and the paid round cap of 40.
+4. Related: a conversation counts when created even if its first voice reply fails; fix with the same change. The Go Deeper page sentence "each day has a free allowance" is untrue since 2026-10-04 (log, S2b); check and correct it with Mark's words.
+5. Not a fix: setting `CIC_API_ANON_DAILY_SESSION_LIMIT` and `CIC_API_ANON_DAILY_TURN_LIMIT` very high in Render would work today but is a workaround.
+- AWS cap: Mark says one is set. Not confirmed from the repo; `CiC_Alerting_Runbook.md` describes an AWS Budgets alert and says Mark picks the figure. Whether it blocks spending or only alerts was not checked.

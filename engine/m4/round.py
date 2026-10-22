@@ -162,9 +162,7 @@ def open_table_round(
     track_a_last: dict | None,
     rounds_completed: int,
     anachronistic_term_ids: set,
-    daily_cap_reached: bool = False,
     round_cap: int | None = None,
-    facilitator_only: bool = False,
     limit_text: str | None = None,
 ) -> RoundOpening:
     """Resolve one gated participant message into the round it opens.
@@ -190,14 +188,6 @@ def open_table_round(
     # completed ROUNDS - see TABLE_SESSION_ROUND_CAP's own comment for the
     # resolution and its measured basis.
     is_safety_route = action in SAFETY_ROUTES
-    if not is_safety_route and (daily_cap_reached or facilitator_only):
-        return RoundOpening(
-            routing_action="session_cap_turn",
-            **{**common, "routing_reason": "visitor daily message cap reached"},
-            facilitator_events=[facilitator_turns.daily_cap_turn(limit_text)],
-            voices_speak=False,
-            session_capped=limit_text is None,
-        )
     round_cap = TABLE_SESSION_ROUND_CAP if round_cap is None else round_cap
     if not is_safety_route and rounds_completed >= round_cap:
         return RoundOpening(
