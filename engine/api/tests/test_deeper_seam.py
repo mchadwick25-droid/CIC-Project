@@ -19,9 +19,11 @@ from engine.api.deeper_routes import DeeperRuntime
 from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
 from engine.deeper import codes, tokens
 from engine.deeper import door as door_module
+from engine.deeper.bound import MessageBound
 from engine.deeper.claims import ClaimStore
 from engine.deeper.free import FreeAllowance
 from engine.deeper.meter import Meter
+from engine.m4 import facilitator_turns
 
 FREE_CAP = 2
 ACUTE = safety_response("ACUTE_DISTRESS", acute_level="a1", risk_subject="self")
@@ -1189,6 +1191,7 @@ def test_overlapping_free_and_paid_sittings_hit_each_stage_in_order_and_spend_st
     settings = dataclasses.replace(load_ops().door, base_usd=base, invoice_factor=1.0, daily_share=None)
     runtime.door = DoorMonitor(settings, usage_store, lambda: {"gift": 0, "purchase": 0, "adjustment": 0}, refresh_seconds=0.0)
     runtime.free = FreeAllowance(runtime.meter, 10_000_000)
+    runtime.bound = MessageBound(runtime.meter, 100_000, 100_000)
     client = RecordingClient()
     http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
     counter = [0]
@@ -1546,3 +1549,230 @@ def test_what_a_visitor_has_drawn_survives_a_deploy_so_the_window_is_not_refille
     finally:
         second.meter.close()
         second.claims.close()
+
+
+# ---- the monthly bound on messages that get a safety check and no voice ------------
+
+
+VISITOR = "ip:testclient"
+NETWORK = "testclient"
+
+
+def bounded(runtime, per_visitor=2, per_network=100):
+    runtime.bound = MessageBound(runtime.meter, per_visitor, per_network)
+    return runtime.bound
+
+
+def reach(runtime, per_visitor=2):
+    bound = bounded(runtime, per_visitor)
+    for _ in range(per_visitor):
+        bound.count(VISITOR, NETWORK)
+
+
+def assert_fixed_line(reply):
+    body = reply.json()
+    assert reply.status_code == 200, reply.text
+    assert body["routing_action"] == "visitor_bound_turn" and body["voice"] is None
+    assert body["facilitator"]["text"] == facilitator_turns.VISITOR_BOUND.text
+    assert body["facilitator"]["resources_appended"]
+    assert "reach out to someone real" in body["facilitator"]["text"]
+
+
+def test_messages_that_get_a_pause_count_and_past_the_count_the_fixed_line_answers(
+    store, usage_store, world_loader, registry, runtime
+):
+    client = RecordingClient()
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+    bounded(runtime, per_visitor=2)
+    session_id, auth = open_session(http)
+    voiced = [say(http, session_id, auth, f"q{i}") for i in range(FREE_CAP)]
+    assert all(r.json()["voice"] is not None for r in voiced)
+    paused = [say(http, session_id, auth, f"more {i}") for i in range(2)]
+    assert all(r.json()["routing_action"] == "session_cap_turn" for r in paused)
+    safety_before, voice_before = client.safety_calls, len(client.voice_requests)
+    assert_fixed_line(say(http, session_id, auth, "and again"))
+    assert (client.safety_calls, len(client.voice_requests)) == (safety_before, voice_before), "no model call past the count"
+
+
+def test_voiced_messages_never_count(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    bounded(runtime, per_visitor=1)
+    for _ in range(3):
+        session_id, auth = open_session(http)
+        assert say(http, session_id, auth, "hello").json()["voice"] is not None
+    assert not runtime.bound.reached(VISITOR, NETWORK)
+
+
+def test_a_crisis_message_past_the_count_gets_the_redirect_from_code_and_no_model_call(
+    store, usage_store, world_loader, registry, runtime
+):
+    client = RecordingClient(safety=ACUTE)
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+    reach(runtime)
+    session_id, auth = open_session(http)
+    reply = say(http, session_id, auth, "I do not want to be here anymore")
+    assert_fixed_line(reply)
+    assert client.safety_calls == 0 and client.voice_requests == []
+
+
+@pytest.mark.parametrize("label,client_kwargs", [("acute", dict(safety=ACUTE)), ("unclear", dict(safety=UNCLEAR)), ("failed", dict(safety_fails=True))])
+def test_every_kind_of_message_past_the_count_gets_the_same_fixed_line(
+    label, client_kwargs, store, usage_store, world_loader, registry, runtime
+):
+    client = RecordingClient(**client_kwargs)
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+    reach(runtime)
+    session_id, auth = open_session(http)
+    assert_fixed_line(say(http, session_id, auth, "I do not know how to say this"))
+    assert client.safety_calls == 0 and client.voice_requests == []
+
+
+def test_a_code_with_tokens_is_outside_the_count(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    reach(runtime)
+    code = code_with(runtime, solo_charge(runtime, 1))
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    assert say(http, session_id, auth, "hello there").json()["voice"] is not None
+
+
+def test_a_spent_code_is_inside_the_count(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    reach(runtime)
+    code = code_with(runtime, 1)
+    runtime.meter.settle(runtime.meter.reserve(code).reservation, True)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    assert_fixed_line(say(http, session_id, auth, "hello there"))
+
+
+def test_paused_codes_leave_a_code_holder_inside_the_count(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    reach(runtime)
+    code = code_with(runtime, 500)
+    runtime.meter.pause(True)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    assert_fixed_line(say(http, session_id, auth, "hello there"))
+
+
+def test_a_network_reaches_its_count_whatever_cookie_each_visitor_holds(store, usage_store, world_loader, registry, runtime):
+    http = capped_app(store, usage_store, world_loader, registry, runtime, RecordingClient())
+    bound = bounded(runtime, per_visitor=100, per_network=2)
+    bound.count("someone-else", NETWORK)
+    bound.count("another", NETWORK)
+    session_id, auth = open_session(http)
+    assert_fixed_line(say(http, session_id, auth, "hello there"))
+    http.cookies.clear()
+    session_id, auth = open_session(http)
+    assert_fixed_line(say(http, session_id, auth, "a fresh cookie changes nothing"))
+
+
+def test_an_ipv6_home_is_one_network_across_its_blocks(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    bound = bounded(runtime, per_visitor=100, per_network=1)
+    bound.count("someone", "2001:db8:1::/56")
+    session_id, auth = open_session(http)
+    reply = http.post(
+        f"/api/session/{session_id}/message", json={"text": "hello"}, headers={**auth, "x-forwarded-for": "2001:db8:1:7::9"}
+    )
+    assert_fixed_line(reply)
+    other = http.post(
+        f"/api/session/{session_id}/message", json={"text": "hello"}, headers={**auth, "x-forwarded-for": "2001:db8:2:7::9"}
+    )
+    assert other.json()["routing_action"] != "visitor_bound_turn"
+
+
+def test_a_message_refused_after_its_safety_check_counts(store, usage_store, world_loader, registry, runtime):
+    from engine.api.wiring import MAX_MESSAGE_LENGTH
+
+    client = RecordingClient()
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+    bounded(runtime, per_visitor=2)
+    session_id, auth = open_session(http)
+    for _ in range(2):
+        say(http, session_id, auth, "x" * (MAX_MESSAGE_LENGTH + 1))
+    assert_fixed_line(say(http, session_id, auth, "hello"))
+
+
+def test_the_fixed_line_is_sent_on_the_stream_path_too(store, usage_store, world_loader, registry, runtime):
+    client = RecordingClient()
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime, streaming_enabled=True)
+    reach(runtime)
+    session_id, auth = open_session(http)
+    reply = http.post(f"/api/session/{session_id}/message", json={"text": "hello"}, headers={**auth, "Accept": "text/event-stream"})
+    events = parse_sse(reply.text)
+    assert [name for name, _ in events] == ["done"]
+    body = events[0][1]
+    assert body["routing_action"] == "visitor_bound_turn" and body["facilitator"]["resources_appended"]
+    assert client.safety_calls == 0 and client.voice_requests == []
+
+
+def test_the_fixed_line_answers_a_table_with_no_model_call(
+    store, usage_store, world_loader, registry, runtime, alx_world, desert_world
+):
+    client = RecordingClient()
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+    reach(runtime)
+    created = http.post("/api/session", json={"world_keys": ["alx", "desert"]}).json()
+    auth = {"Authorization": f"Session {created['session_code']}"}
+    reply = http.post(f"/api/session/{created['session_id']}/message", json={"text": "what is prayer?"}, headers=auth)
+    body = reply.json()
+    assert reply.status_code == 200 and body["routing_action"] == "visitor_bound_turn"
+    assert body["voice"] is None and body["facilitator"][0]["resources_appended"]
+    assert client.safety_calls == 0 and client.voice_requests == []
+
+
+def test_past_the_count_nothing_is_stored_for_the_message(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    reach(runtime)
+    session_id, auth = open_session(http)
+    events_before = len(list(store.read_events(session_id)))
+    say(http, session_id, auth, "a private worry")
+    assert len(list(store.read_events(session_id))) == events_before
+
+
+def test_a_fault_in_the_count_leaves_the_safety_check_running(store, usage_store, world_loader, registry, runtime, monkeypatch):
+    client = RecordingClient(safety=ACUTE)
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+    reach(runtime)
+
+    def down(*_a, **_k):
+        raise RuntimeError("meter down")
+
+    monkeypatch.setattr(runtime.bound, "reached", down)
+    session_id, auth = open_session(http)
+    reply = say(http, session_id, auth, "I do not want to be here anymore")
+    assert reply.json()["routing_action"] == "safety_turn"
+
+
+def test_the_flag_off_has_no_bound(store, usage_store, world_loader, registry):
+    http = build(store, usage_store, world_loader, registry, RecordingClient())
+    for _ in range(FREE_CAP + 3):
+        session_id, auth = open_session(http)
+        assert say(http, session_id, auth, "hello").status_code == 200
+
+
+def test_the_words_past_the_count_read_at_the_target_level_and_name_no_code():
+    from engine.m7.turn_readability import score_turn
+
+    assert score_turn(facilitator_turns.VISITOR_BOUND.text).passed
+    assert not re.search(r"\b(codes?|pay|paid|price|balance|stripe)\b", facilitator_turns.VISITOR_BOUND.text, re.I)
+
+
+# ---- the network free window, through admission --------------------------------------
+
+def test_visitors_with_new_cookies_draw_from_the_networks_pool_and_then_are_paused(
+    store, usage_store, world_loader, registry, runtime
+):
+    first_round = solo_charge(runtime, 1)
+    runtime.free = FreeAllowance(runtime.meter, 2 * first_round, 2 * first_round + first_round // 2)
+    http = capped_app(store, usage_store, world_loader, registry, runtime, RecordingClient())
+    results = []
+    for _ in range(3):
+        http.cookies.clear()
+        session_id, auth = open_session(http)
+        results.append(say(http, session_id, auth, "hello").json())
+    assert [r["voice"] is not None for r in results] == [True, True, False]
+    assert results[-1]["routing_action"] == "session_cap_turn"
+
+
+def test_the_network_pool_is_five_allowances_as_shipped(runtime):
+    assert runtime.free.network_window_amount == 5 * runtime.free.window_amount == 2750

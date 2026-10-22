@@ -1003,9 +1003,9 @@ def test_mint_is_never_a_payment_or_a_sale(http, minting):
     assert minting.meter.owed() == []
 
 
-def test_mint_counts_toward_the_door_as_a_gift_of_the_packs_price(http, minting):
+def test_mint_counts_nothing_toward_the_door(http, minting):
     mint(http, count=3)
-    assert minting.meter.net_funds(7)["gift"] == 2100
+    assert minting.meter.net_funds(7).get("gift", 0) == 0
 
 
 def test_mint_refuses_what_is_not_a_pack_a_bad_mode_or_too_much(http, minting):
@@ -1025,10 +1025,10 @@ def test_mint_stops_at_the_days_token_limit_and_resets_tomorrow(tmp_path, http, 
     refused = mint(http, count=1)
     assert refused.status_code == 429
     assert minting.meter.reconciliation(1)[0]["admin_codes_minted"] == 2
-    assert minting.meter.net_funds(7)["gift"] == 6000
+    assert minting.meter.net_funds(7).get("gift", 0) == 0
 
 
-def test_a_mint_is_voided_by_its_id_and_its_gift_leaves_the_door(http, minting):
+def test_a_mint_is_voided_by_its_id(http, minting):
     made = mint(http, count=2).json()
     voided = http.post("/api/admin/deeper/void", json={"payment_id": made["mint_id"]}, headers=admin()).json()
     assert voided["voided"] == 2
@@ -1265,13 +1265,13 @@ def test_a_press_gives_one_ordinary_pack_code_shown_once(http, runtime):
     assert runtime.meter.reserve(body["code"]).ok
 
 
-def test_a_pilot_code_is_a_gift_not_a_payment_or_a_sale(http, runtime):
+def test_a_pilot_code_is_a_grant_not_a_payment_or_a_sale_and_counts_nothing_toward_the_door(http, runtime):
     open_pilot(runtime)
     join(http)
     day = runtime.meter.reconciliation(1)[0]
     assert (day["pilot_codes_minted"], day["admin_codes_minted"], day["payments_seen"], day["gap"]) == (1, 0, 0, 0)
     assert runtime.meter.measures(1)[0]["tokens_granted"] == 1100 and runtime.meter.measures(1)[0]["tokens_sold"] == 0
-    assert runtime.meter.net_funds(7)["gift"] == 700
+    assert runtime.meter.net_funds(7).get("gift", 0) == 0
     assert runtime.meter.owed() == []
     assert [g["grant_id"][:6] for g in runtime.meter.grants(1)] == ["pilot_"]
 
@@ -1444,7 +1444,7 @@ def test_one_address_across_every_audience_is_bounded_by_their_counts(http, runt
         open_pilot(runtime, name, per_address=2, pilot_cap=50)
     made = [join(http, ip="203.0.113.70", audience=name).status_code for name in ("general", "pastors", "historians") for _ in range(4)]
     assert made.count(200) == 6
-    assert runtime.meter.net_funds(7)["gift"] == 6 * 700
+    assert runtime.meter.net_funds(7).get("gift", 0) == 0
 
 
 def test_the_pilot_preflight_is_a_404_while_no_audience_is_open_and_answers_once_one_is(http, runtime):

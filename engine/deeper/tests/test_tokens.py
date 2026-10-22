@@ -7,7 +7,7 @@ RATES = TokenRates(
     solo_open=50, solo_round=20, solo_round_later=25,
     table_open_per_seat=50, table_round_two=60, table_round_three=100,
     table_round_two_later=75, table_round_three_later=125,
-    later_rounds_from=4, free_window=550, free_window_days=30, free_rounds=3,
+    later_rounds_from=4, free_window=550, free_window_days=30, free_rounds=3, free_network_window=2750,
 )
 
 

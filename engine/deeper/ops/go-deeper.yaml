@@ -2,6 +2,8 @@ limits:
   group_daily_ceiling: 6000
   group_burst_multiplier: 6
   low_balance_at: 100
+  unanswered_messages_per_visitor: 100
+  unanswered_messages_per_network: 200
 tokens:
   solo:
     open: 50
@@ -17,6 +19,7 @@ tokens:
     window_tokens: 550
     window_days: 30
     rounds_per_conversation: 3
+    network_window_allowances: 5
   packs:
     - {price_usd: 7, tokens: 1100}
     - {price_usd: 15, tokens: 2750}

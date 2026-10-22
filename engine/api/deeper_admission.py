@@ -1,9 +1,9 @@
 """Turns the code on a request into the numbers the engine reads.
 
-The engine is handed a TurnGrant (a cap and a Facilitator-only flag) and never
+The engine is handed a TurnGrant (a cap and the words for a pause) and never
 learns why. What a turn draws comes from the round it is and the seats at the
 table (engine.deeper.tokens). The free allowance, a window of tokens a visitor
-draws from over thirty days, covers a conversation's first rounds, narrowed by
+draws from over thirty days, together with the network it connects from, covers a conversation's first rounds, narrowed by
 the door's stage when the week's real spend nears its ceiling; a valid code buys
 what it would refuse: a round past the free rounds, or any turn once the free
 allowance is spent.
@@ -13,6 +13,10 @@ Admission reserves a turn's amount before the turn and settles it after it, so
 nothing is spent for a turn that was answered by the Facilitator alone, and
 nothing is left held when a turn fails.
 
+MessageBoundCheck is the monthly bound on messages that get a safety check and
+no Representative reply. Past it a message is answered with a fixed line and no
+model call; a code with tokens left is outside it.
+
 Any fault here leaves the free grant. Admission never closes the free path.
 """
 import logging
@@ -21,7 +25,7 @@ from typing import Callable
 from fastapi import Request
 
 from engine.api.deeper_routes import DeeperRuntime
-from engine.api.ratelimit import client_ip, network_of
+from engine.api.ratelimit import bound_network_of, client_ip, network_of
 from engine.deeper import codes, tokens
 from engine.deeper import door as door_module
 from engine.m4.grants import TurnGrant, free_grant
@@ -54,6 +58,65 @@ def _status(runtime: DeeperRuntime, request: Request):
 _UNSET = object()
 
 
+def visitor_key(request: Request) -> str:
+    """The key the free allowance and the monthly bound count a visitor under: the
+    visitor cookie's id, or the address when the request carries none."""
+    return getattr(request.state, "visitor_id", None) or f"ip:{network_of(client_ip(request))}"
+
+
+def code_holds_tokens(runtime: DeeperRuntime, request: Request) -> bool:
+    """Whether the code on the request is live with tokens left and codes are not paused.
+    Such a request is bounded by its own tokens and is outside the monthly bound."""
+    info = _status(runtime, request)
+    if info is None or info.status != "live" or info.remaining <= 0:
+        return False
+    try:
+        return not runtime.meter.is_paused()
+    except Exception:  # noqa: BLE001
+        return False
+
+
+class MessageBoundCheck:
+    """One request's place in the monthly bound on messages that get a safety check
+    and no Representative reply. Build it before the message is handled. .reached
+    says the message is past the bound and gets the fixed line with no model call;
+    .count records a message that was checked and not voiced. A fault in either
+    leaves the safety check running and counts nothing."""
+
+    def __init__(self, runtime: DeeperRuntime | None, request: Request):
+        self._bound = runtime.bound if runtime is not None else None
+        self._visitor = visitor_key(request)
+        self._network = bound_network_of(client_ip(request))
+        self.exempt = False
+        if self._bound is not None:
+            try:
+                self.exempt = code_holds_tokens(runtime, request)
+            except Exception:  # noqa: BLE001
+                logger.exception("deeper bound could not read the code")
+
+    @property
+    def active(self) -> bool:
+        return self._bound is not None and not self.exempt
+
+    @property
+    def reached(self) -> bool:
+        if not self.active:
+            return False
+        try:
+            return self._bound.reached(self._visitor, self._network)
+        except Exception:  # noqa: BLE001 - a fault leaves the safety check running
+            logger.exception("deeper bound could not be read")
+            return False
+
+    def count(self) -> None:
+        if not self.active:
+            return
+        try:
+            self._bound.count(self._visitor, self._network)
+        except Exception:  # noqa: BLE001
+            logger.exception("deeper bound could not count a message")
+
+
 def burst_key(runtime: DeeperRuntime, request: Request) -> tuple[str, int] | None:
     """The rate-limit bucket for a request carrying a usable code: its own
     bucket, larger for a pooled group code. None leaves the address bucket."""
@@ -83,12 +146,13 @@ class Admission:
     """One request's admission. Build it, hand .provider to the engine, and
     call .finish(voiced) exactly once when the turn is over."""
 
-    def __init__(self, runtime: DeeperRuntime, code: str | None, *, free_cap: int, seats: int, visitor: str):
+    def __init__(self, runtime: DeeperRuntime, code: str | None, *, free_cap: int, seats: int, visitor: str, network: str | None = None):
         self._runtime = runtime
         self._code = code
         self._free_cap = free_cap
         self._seats = seats
         self._visitor = visitor
+        self._network = network
         self._free_reservation = None
         self._reservation = None
         self._note_key: str | None = None
@@ -161,7 +225,7 @@ class Admission:
         self._free_share = door.free_share
         free_open = door.free_voice and completed < free_rounds
         if free_open:
-            held = self._runtime.free.reserve(self._visitor, cost, door.free_share)
+            held = self._runtime.free.reserve(self._visitor, cost, door.free_share, self._network)
             if held is not None:
                 self._free_reservation = held
                 return TurnGrant(cap=completed + 1)
@@ -223,7 +287,7 @@ class Admission:
             info = meter.status(self._code) if self._code else None
             self.remaining = info.remaining if info is not None and info.status != "void" else None
             if self._code is None and self._free_share is not None:
-                self.free_left = self._runtime.free.left(self._visitor, self._free_share)
+                self.free_left = self._runtime.free.left(self._visitor, self._free_share, self._network)
         except Exception:  # noqa: BLE001
             logger.exception("deeper settle failed")
         self._count_refusal()
@@ -256,5 +320,6 @@ def new_admission(runtime: DeeperRuntime | None, request: Request, *, free_cap: 
         return None
     return Admission(
         runtime, code_from(request), free_cap=free_cap,
-        seats=seats, visitor=getattr(request.state, "visitor_id", None) or f"ip:{network_of(client_ip(request))}",
+        seats=seats, visitor=visitor_key(request),
+        network=bound_network_of(client_ip(request)),
     )

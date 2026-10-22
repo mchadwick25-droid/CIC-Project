@@ -36,6 +36,7 @@ from engine.deeper.claims import ClaimStore, valid_reference
 from engine.deeper.config import DeeperConfig
 from engine.deeper import meter as meter_module
 from engine.deeper.meter import KINDS, AlreadyMinted, Meter, MintLimit, PaymentVoided, PilotRefused, is_grant
+from engine.deeper.bound import MessageBound
 from engine.deeper.free import FreeAllowance
 from engine.deeper.tokens import TokenRates, conversation_cost
 from engine.api.ratelimit import client_ip, network_of
@@ -84,10 +85,13 @@ class DeeperRuntime:
     door: "DoorMonitor | None" = None
     door_observe: bool = False
     paid_round_cap: int | None = None
+    bound: MessageBound | None = None
 
     def __post_init__(self):
         if self.free is None:
-            self.free = FreeAllowance(self.meter, self.token_rates.free_window)
+            self.free = FreeAllowance(self.meter, self.token_rates.free_window, self.token_rates.free_network_window)
+        if self.bound is None and self.ops is not None:
+            self.bound = MessageBound(self.meter, self.ops.unanswered_messages_per_visitor, self.ops.unanswered_messages_per_network)
 
 
 def parse_gift_links(raw: str | None, products: dict[str, Product]) -> frozenset:
@@ -535,10 +539,6 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
                 raise HTTPException(status_code=404)
             response.status_code = 409
             return {"joined": False, "reason": refused.reason}
-        try:
-            runtime.meter.add_funds("gift", pack.price_usd * 100, grant_id, "pilot grant")
-        except Exception:  # noqa: BLE001 - the code is made; a failed count must not take it from the visitor
-            logger.error("pilot grant made but its gift could not be counted toward the door")
         solo = conversation_cost(runtime.token_rates, runtime.token_rates.free_rounds)
         return {"joined": True, "code": codes.display(code), "tokens": pack.tokens, "conversations": pack.tokens // solo}
 
@@ -575,10 +575,6 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             raise HTTPException(status_code=429, detail="today's grant limit is reached; it resets tomorrow")
         except ValueError as exc:
             raise HTTPException(status_code=422, detail=str(exc))
-        try:
-            runtime.meter.add_funds("gift", req.pack_usd * req.count * 100, grant_id, "admin grant")
-        except Exception:  # noqa: BLE001 - the codes are made; a failed count must not hide them from the operator
-            logger.error("admin grant made but its gift could not be counted toward the door")
         response.headers["Cache-Control"] = "no-store"
         return {"mint_id": grant_id, "tokens_each": tokens, "codes": [codes.display(c) for c in made]}
 

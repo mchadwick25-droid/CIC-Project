@@ -170,3 +170,12 @@ def test_the_refused_message_limit_is_ten_a_minute():
     from engine.api.ratelimit import REFUSED_MESSAGE_LIMIT
 
     assert REFUSED_MESSAGE_LIMIT == (60.0, 10)
+
+
+def test_bound_network_of_counts_an_ipv6_home_as_one_and_leaves_the_rest_alone():
+    from engine.api.ratelimit import bound_network_of
+
+    assert bound_network_of("2001:db8:1:2::1") == bound_network_of("2001:db8:1:ff:ffff::9") == "2001:db8:1::/56"
+    assert bound_network_of("2001:db8:1:100::1") != bound_network_of("2001:db8:1:2::1")
+    assert bound_network_of("::ffff:203.0.113.9") == "203.0.113.9"
+    assert bound_network_of("203.0.113.9") == "203.0.113.9" and bound_network_of("unknown") == "unknown"
