@@ -64,7 +64,8 @@ CREATE TABLE IF NOT EXISTS challenges (
   account_id   TEXT,
   mac          TEXT NOT NULL,
   expires_at   INTEGER NOT NULL,
-  tries        INTEGER NOT NULL DEFAULT 0
+  tries        INTEGER NOT NULL DEFAULT 0,
+  bound        TEXT
 ) WITHOUT ROWID;
 CREATE INDEX IF NOT EXISTS challenges_by_address ON challenges (address_hash, kind);
 CREATE INDEX IF NOT EXISTS challenges_by_account ON challenges (account_id);
@@ -110,6 +111,7 @@ class Challenge:
     mac: str
     expires_at: int
     tries: int
+    bound: str | None = None
 
 
 @dataclass(frozen=True)
@@ -156,6 +158,8 @@ class AccountStore:
         self._d = _open(durable_path, DURABLE_DDL)
         _allow_accounts_without_address(self._d)
         self._e = _open(ephemeral_path, EPHEMERAL_DDL)
+        if not any(r[1] == "bound" for r in self._e.execute("PRAGMA table_info(challenges)")):
+            self._e.execute("ALTER TABLE challenges ADD COLUMN bound TEXT")
 
     def close(self) -> None:
         with self._lock:
@@ -199,10 +203,14 @@ class AccountStore:
                 self._d.execute("ROLLBACK")
                 raise
 
-    def account_by_recovery_key(self, key_hash: str) -> str | None:
+    def account_by_recovery_key(self, key_hashes: list[str]) -> tuple[str, str] | None:
+        """(account id, the stored hash) for a recovery code, under any live key."""
+        marks = ",".join("?" * len(key_hashes))
         with self._lock:
-            row = self._d.execute("SELECT account_id FROM recovery_keys WHERE key_hash = ?", (key_hash,)).fetchone()
-        return row[0] if row else None
+            row = self._d.execute(
+                f"SELECT account_id, key_hash FROM recovery_keys WHERE key_hash IN ({marks})", key_hashes
+            ).fetchone()
+        return (row[0], row[1]) if row else None
 
     def has_recovery_key(self, account_id: str) -> bool:
         with self._lock:
@@ -212,13 +220,42 @@ class AccountStore:
         with self._lock:
             self._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (account_id,))
 
-    def start_pending(self, account_id: str, new_address_hash: str, cancel_hash: str, effective_on: str) -> bool:
-        """False when the account already has a recovery waiting."""
+    def begin_recovery(self, account_id: str, used_key_hash: str, new_key_hash: str, day: str,
+                       new_address_hashes: list[str], new_address_hash: str, cancel_hash: str, effective_on: str) -> bool:
+        """The whole of a proved recovery, in one transaction: the recovery code it was opened
+        with is spent, the waiting move is written and a replacement code is stored. False, and
+        nothing changes, when that code is no longer the account's, the account already has a
+        recovery waiting, or the new address now belongs to an account."""
+        marks = ",".join("?" * len(new_address_hashes))
         with self._lock:
-            return self._d.execute(
-                "INSERT OR IGNORE INTO pending_recoveries VALUES (?, ?, ?, ?)",
-                (account_id, new_address_hash, cancel_hash, effective_on),
-            ).rowcount == 1
+            self._d.execute("BEGIN IMMEDIATE")
+            try:
+                ok = self._d.execute(
+                    "DELETE FROM recovery_keys WHERE key_hash = ? AND account_id = ?", (used_key_hash, account_id)
+                ).rowcount == 1
+                ok = ok and self._d.execute(
+                    f"SELECT 1 FROM accounts WHERE address_hash IN ({marks})", new_address_hashes
+                ).fetchone() is None
+                ok = ok and self._d.execute(
+                    "INSERT OR IGNORE INTO pending_recoveries VALUES (?, ?, ?, ?)",
+                    (account_id, new_address_hash, cancel_hash, effective_on),
+                ).rowcount == 1
+                if ok:
+                    self._d.execute("INSERT INTO recovery_keys VALUES (?, ?, ?)", (new_key_hash, account_id, day))
+                self._d.execute("COMMIT" if ok else "ROLLBACK")
+            except BaseException:
+                self._d.execute("ROLLBACK")
+                raise
+            return ok
+
+    def pending_for_address(self, new_address_hashes: list[str]) -> str | None:
+        """The day a waiting recovery to one of these addresses takes effect."""
+        marks = ",".join("?" * len(new_address_hashes))
+        with self._lock:
+            row = self._d.execute(
+                f"SELECT effective_on FROM pending_recoveries WHERE new_address_hash IN ({marks})", new_address_hashes
+            ).fetchone()
+        return row[0] if row else None
 
     def pending_of(self, account_id: str) -> tuple[str, str, str] | None:
         """(new address hash, cancel hash, day it takes effect)."""
@@ -228,33 +265,37 @@ class AccountStore:
             ).fetchone()
         return tuple(row) if row else None
 
-    def due_pending(self, today: str, new_address_hashes: list[str] | None = None) -> list[tuple[str, str]]:
-        """(account id, new address hash) for each recovery whose day has come, optionally only
-        those moving to one of the given address hashes."""
+    def due_pending(self, today: str) -> list[tuple[str, str]]:
+        """(account id, new address hash) for each recovery whose day has come."""
         with self._lock:
-            rows = self._d.execute(
+            return [tuple(r) for r in self._d.execute(
                 "SELECT account_id, new_address_hash FROM pending_recoveries WHERE effective_on <= ?", (today,)
-            ).fetchall()
-        return [(a, h) for a, h in rows if new_address_hashes is None or h in new_address_hashes]
+            )]
 
     def delete_pending(self, account_id: str) -> bool:
         with self._lock:
             return self._d.execute("DELETE FROM pending_recoveries WHERE account_id = ?", (account_id,)).rowcount == 1
 
-    def apply_pending(self, account_id: str, new_address_hash: str) -> bool:
-        """Moves the account to its new address and ends the wait, in one transaction. False,
-        and the wait ends with nothing moved, when the new address now belongs to an account."""
+    def apply_pending(self, account_id: str, new_address_hash: str, today: str) -> bool:
+        """Moves the account to its new address and ends the wait, in one transaction, only if the
+        waiting move is still there, is for this address and its day has come; a cancel or an
+        address change that got there first wins. False, and the wait ends with nothing moved,
+        when the new address now belongs to an account."""
         with self._lock:
             self._d.execute("BEGIN IMMEDIATE")
             try:
                 moved = False
-                try:
-                    moved = self._d.execute(
-                        "UPDATE accounts SET address_hash = ? WHERE account_id = ?", (new_address_hash, account_id)
-                    ).rowcount == 1
-                except sqlite3.IntegrityError:
-                    moved = False
-                self._d.execute("DELETE FROM pending_recoveries WHERE account_id = ?", (account_id,))
+                still_due = self._d.execute(
+                    "DELETE FROM pending_recoveries WHERE account_id = ? AND new_address_hash = ? AND effective_on <= ?",
+                    (account_id, new_address_hash, today),
+                ).rowcount == 1
+                if still_due:
+                    try:
+                        moved = self._d.execute(
+                            "UPDATE accounts SET address_hash = ? WHERE account_id = ?", (new_address_hash, account_id)
+                        ).rowcount == 1
+                    except sqlite3.IntegrityError:
+                        moved = False
                 self._d.execute("COMMIT")
             except BaseException:
                 self._d.execute("ROLLBACK")
@@ -346,8 +387,9 @@ class AccountStore:
         with self._lock:
             return self._d.execute(
                 "SELECT COUNT(*) FROM (SELECT account_id FROM accounts WHERE address_hash NOT LIKE ? "
-                "UNION SELECT account_id FROM linked_sign_ins WHERE subject_hash NOT LIKE ?)",
-                (pattern, pattern),
+                "UNION SELECT account_id FROM linked_sign_ins WHERE subject_hash NOT LIKE ? "
+                "UNION SELECT account_id FROM recovery_keys WHERE key_hash NOT LIKE ?)",
+                (pattern, pattern, pattern),
             ).fetchone()[0]
 
     def delete_account(self, account_id: str, ledger_hash: str, ledger_expires_on: str) -> bool:
@@ -389,9 +431,9 @@ class AccountStore:
                     "DELETE FROM challenges WHERE address_hash = ? AND kind = ?", (challenge.address_hash, challenge.kind)
                 )
             self._e.execute(
-                "INSERT INTO challenges VALUES (?, ?, ?, ?, ?, ?, 0)",
+                "INSERT INTO challenges VALUES (?, ?, ?, ?, ?, ?, 0, ?)",
                 (challenge.challenge_id, challenge.kind, challenge.address_hash, challenge.account_id,
-                 challenge.mac, challenge.expires_at),
+                 challenge.mac, challenge.expires_at, challenge.bound),
             )
 
     def take_try(self, challenge_id: str, now: int, max_tries: int) -> Challenge | None:
@@ -408,7 +450,7 @@ class AccountStore:
                         self._e.execute("DELETE FROM challenges WHERE challenge_id = ?", (challenge_id,))
                     else:
                         self._e.execute("UPDATE challenges SET tries = tries + 1 WHERE challenge_id = ?", (challenge_id,))
-                        result = Challenge(*row[:6], row[6] + 1)
+                        result = Challenge(*row[:6], row[6] + 1, row[7])
                 self._e.execute("COMMIT")
             except BaseException:
                 self._e.execute("ROLLBACK")

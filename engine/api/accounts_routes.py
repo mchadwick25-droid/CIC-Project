@@ -52,6 +52,7 @@ MESSAGES = {
     "wrong": "That code did not work. Check it, or ask for a new one.",
     "needs_age_answer": "Please tell us if you are 18 or over.",
     "not_adult": "Accounts are open to people who are 18 or over. The way in for younger people, with a parent or teacher, is not available yet.",
+    "recovery_waiting": "A recovery to this address is waiting until {day}. You can sign in here after that day.",
     "not_available": "That way of signing in is not available right now.",
     "provider_cannot_use": "That sign-in cannot be added to this account.",
     "last_method": "This is your only way to sign in. Add another way first.",
@@ -122,19 +123,15 @@ class QueuedMailer:
         self._pool.submit(self._send, address, code)
 
     def send_notice(self, address: str, kind: str, fields: dict) -> None:
-        self._pool.submit(self._send_notice, address, kind, fields)
+        """A notice the owner's protection rests on is sent at once and the provider's refusal is
+        raised to the caller, so the thing it warns of does not start unwarned."""
+        self._mailer.send_notice(address, kind, fields)
 
     def _send(self, address: str, code: str) -> None:
         try:
             self._mailer.send_code(address, code)
         except Exception:  # noqa: BLE001 - the address and code must not reach a log
             logger.warning("a queued sign-in code could not be sent")
-
-    def _send_notice(self, address: str, kind: str, fields: dict) -> None:
-        try:
-            self._mailer.send_notice(address, kind, fields)
-        except Exception:  # noqa: BLE001 - the address and codes must not reach a log
-            logger.warning("a queued notice could not be sent (kind=%s)", kind)
 
 
 class AccessLogFilter(logging.Filter):
@@ -285,6 +282,9 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
             return {"status": "ok", "new_account": result.new_account}
         if result.status in ("needs_age_answer", "not_adult"):
             return {"status": result.status, "message": MESSAGES[result.status]}
+        if result.status == "recovery_waiting":
+            return {"status": result.status, "effective_on": result.data["effective_on"],
+                    "message": MESSAGES["recovery_waiting"].format(day=result.data["effective_on"])}
         await _refuse(result, delay=True)
 
     @app.post("/api/accounts/provider/start")
@@ -431,9 +431,11 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     @app.post("/api/accounts/recovery/cancel")
     async def recovery_cancel(body: CancelBody, request: Request):
         _guard(request)
+        began = time.monotonic()
         result = await run_in_threadpool(service.recovery_cancel, body.address, body.cancel_code, _network(request))
+        await _floor(began)
         if result.status != "ok":
-            await _refuse(result, delay=True)
+            await _refuse(result, delay=False)
         return {"status": "ok"}
 
     @app.post("/api/accounts/recovery/cancel-signed-in")

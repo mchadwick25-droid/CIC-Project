@@ -71,8 +71,12 @@ REQUIRED = {
         "test_the_start_reply_is_the_same_for_a_right_and_a_wrong_recovery_code",
         "test_the_owner_cancels_with_the_code_in_the_notice_and_the_thief_s_new_recovery_code_dies",
         "test_cancelling_sends_no_mail_and_works_with_every_sending_limit_used_up",
-        "test_a_recovery_moves_nothing_when_the_new_address_gets_an_account_during_the_wait",
         "test_deleting_an_account_removes_its_recovery_rows",
+        "test_a_recovery_does_not_start_when_the_notice_to_the_old_address_is_not_accepted",
+        "test_a_challenge_opened_with_one_recovery_code_cannot_be_proved_after_that_code_is_gone",
+        "test_a_waiting_move_that_was_cancelled_is_not_carried_out",
+        "test_signing_in_at_the_new_address_during_the_wait_opens_no_account_and_says_when",
+        "test_recovery_and_cancel_codes_survive_a_rotation_of_the_address_key",
     ],
     "engine/api/tests/test_contact_cipher.py": [
         "test_a_sealed_address_opens_with_its_key_and_context_only",

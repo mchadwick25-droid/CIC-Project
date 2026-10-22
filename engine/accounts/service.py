@@ -140,6 +140,7 @@ class AccountsService:
         """Drops expired challenges, sessions, counters and ledger entries, and carries out any
         recovery whose days are up."""
         self._apply_due_recoveries()
+        self._sweep_contacts()
         return self.store.purge_ephemeral(self.now()) + self.store.purge_durable(self.today().isoformat())
 
     def _coarse(self, network: str) -> str:
@@ -195,14 +196,15 @@ class AccountsService:
 
     # challenges ----------------------------------------------------------------
 
-    def _open_challenge(self, kind: str, address_hash: str, account_id: str | None, mail_to: str | None) -> Result:
+    def _open_challenge(self, kind: str, address_hash: str, account_id: str | None, mail_to: str | None,
+                        bound: str | None = None) -> Result:
         """Opens one proof. With no address to mail, the challenge is the same in every
         way except that its code is never sent, so it can never be proved."""
         challenge_id = secrets.token_urlsafe(16)
         code = f"{secrets.randbelow(10**6):06d}"
         self.store.put_challenge(
             Challenge(challenge_id, kind, address_hash, account_id, self.keys.mac("code", challenge_id, code),
-                      self.now() + self.limits.code_ttl_seconds, 0),
+                      self.now() + self.limits.code_ttl_seconds, 0, bound),
             replace_same_address=(kind == "sign_in"),
         )
         if mail_to is not None:
@@ -259,13 +261,19 @@ class AccountsService:
         checked = self._check(challenge, "sign_in", code, address_hash=ahash)
         if checked is None:
             return Result("wrong")
-        self._apply_due_recoveries(self.keys.candidate_hashes(norm))
-        account = self.store.account_by_hashes(self.keys.candidate_hashes(norm))
+        self._apply_due_recoveries()
+        candidates = self.keys.candidate_hashes(norm)
+        account = self.store.account_by_hashes(candidates)
         if account is not None:
             if not self._spend(checked):
                 return Result("wrong")
             self._keep_contact(account.account_id, norm)
             return self._sign_in_as(account, ahash)
+        waiting = self.store.pending_for_address(candidates)
+        if waiting is not None:
+            # The code just proved this address, so naming the wait tells no stranger anything;
+            # opening an account here would make the recovery fail on its seventh day.
+            return Result("recovery_waiting", data={"effective_on": waiting})
         if over_18 is None:
             return Result("needs_age_answer")
         if over_18 is not True:
@@ -288,8 +296,8 @@ class AccountsService:
 
     def _keep_contact(self, account_id: str, address: str) -> None:
         """Keeps the typed address, sealed, for sending to its owner. Written when there is none
-        yet or when it is sealed under an older key."""
-        if self.contacts is not None and not self.contacts.is_current(account_id):
+        yet, cannot be read, differs from the one typed, or is sealed under an older key."""
+        if self.contacts is not None and (self.contacts.get(account_id) != address or not self.contacts.is_current(account_id)):
             self.contacts.put(account_id, address)
 
     def _sign_in_as(self, account: Account, ahash: str, new_account: bool = False) -> Result:
@@ -546,19 +554,23 @@ class AccountsService:
     # recovery -----------------------------------------------------------------------
 
     def recovery_code_make(self, session: Session) -> Result:
-        """A new recovery code for the account, shown once; it replaces any earlier one. It is
-        kept only as a keyed hash."""
+        """A new recovery code for the account, shown once; it replaces any earlier one and ends
+        any recovery waiting, since the owner is here and has just chosen. It is kept only as a
+        keyed hash."""
         if not session.stepped_up:
             return Result("step_up_needed")
+        if self.store.pending_of(session.account_id) is not None:
+            self._end_recovery(session.account_id)
         code = secrets.token_urlsafe(16)
-        self.store.put_recovery_key(session.account_id, self.keys.mac("recovery", code), self.today().isoformat())
+        self.store.put_recovery_key(session.account_id, self.keys.secret_hash("recovery", code), self.today().isoformat())
         return Result("ok", data={"recovery_code": code})
 
     def recovery_start(self, recovery_code, new_address, network: str) -> Result:
         """Starts a recovery for a person who lost their address: the recovery code names the
-        account, and a code is sent to the new address. The reply is the same whether or not the
-        recovery code is right, the new address is free, or the account has an address on file to
-        warn, so it tells a stranger nothing."""
+        account, and a code is sent to the new address. The challenge is bound to that recovery
+        code, so it can be proved only while that same code is still the account's. The reply is
+        the same whether or not the recovery code is right, the new address is free, or the account
+        has an address on file to warn, so it tells a stranger nothing."""
         norm = normalise_address(new_address)
         if norm is None:
             return Result("invalid_address")
@@ -567,39 +579,48 @@ class AccountsService:
         if refused:
             return refused
         known = isinstance(recovery_code, str) and 0 < len(recovery_code) <= 80
-        account_id = self.store.account_by_recovery_key(self.keys.mac("recovery", recovery_code)) if known else None
+        found = self.store.account_by_recovery_key(self.keys.secret_candidates("recovery", recovery_code)) if known else None
+        account_id, used_key = found if found else (None, None)
         usable = (
             account_id is not None and self.contacts is not None and self.contacts.get(account_id) is not None
             and self.store.account_by_hashes(candidates) is None and self.store.pending_of(account_id) is None
         )
-        return self._open_challenge("recovery", candidates[0], account_id, norm if usable else None)
+        return self._open_challenge("recovery", candidates[0], account_id, norm if usable else None, bound=used_key)
 
     def recovery_prove(self, challenge, code, new_address, network: str) -> Result:
-        """The new address is proved. The recovery code is replaced and shown once more, the old
-        address is told with a cancel code, and the move waits seven days."""
+        """The new address is proved. The old address is told, with a cancel code, before anything
+        is written: if that notice is not accepted by the mail provider the recovery does not
+        start. Then, in one transaction, the recovery code is spent, the seven-day wait is written
+        and a replacement code is stored; the replacement is shown once."""
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
             return Result("throttled")
         norm = normalise_address(new_address)
         if norm is None or self.contacts is None:
             return Result("wrong")
         checked = self._check(challenge, "recovery", code, address_hash=self.keys.address_hash(norm))
-        if checked is None or checked.account_id is None:
+        if checked is None or checked.account_id is None or checked.bound is None:
             return Result("wrong")
         account_id = checked.account_id
         old_address = self.contacts.get(account_id)
-        if old_address is None or not self.store.has_recovery_key(account_id) or not self._spend(checked):
+        if old_address is None or not self.store.has_recovery_key(account_id):
             return Result("wrong")
         cancel_code = secrets.token_urlsafe(16)
-        effective_on = (self.today() + timedelta(days=self.limits.recovery_wait_days)).isoformat()
-        if not self.store.start_pending(account_id, checked.address_hash, self.keys.mac("cancel", cancel_code), effective_on):
-            return Result("wrong")
-        self.contacts.put_pending(account_id, norm)
         new_code = secrets.token_urlsafe(16)
-        self.store.put_recovery_key(account_id, self.keys.mac("recovery", new_code), self.today().isoformat())
+        effective_on = (self.today() + timedelta(days=self.limits.recovery_wait_days + 1)).isoformat()
         try:
             self.mailer.send_notice(old_address, "recovery_started", {"cancel_code": cancel_code, "effective_on": effective_on})
-        except Exception:  # noqa: BLE001 - the address and code must not reach a log
+        except Exception:  # noqa: BLE001 - the address and codes must not reach a log
             logger.warning("a recovery notice could not be sent")
+            return Result("send_failed")
+        if not self._spend(checked):
+            return Result("wrong")
+        self.contacts.put_pending(account_id, norm)
+        if not self.store.begin_recovery(
+            account_id, checked.bound, self.keys.secret_hash("recovery", new_code), self.today().isoformat(),
+            self.keys.candidate_hashes(norm), checked.address_hash, self.keys.secret_hash("cancel", cancel_code), effective_on,
+        ):
+            self.contacts.forget_pending(account_id)
+            return Result("wrong")
         return Result("ok", data={"recovery_code": new_code, "effective_on": effective_on})
 
     def recovery_cancel(self, address, cancel_code, network: str) -> Result:
@@ -612,7 +633,8 @@ class AccountsService:
         account = self.store.account_by_hashes(self.keys.candidate_hashes(norm)) if norm else None
         pending = self.store.pending_of(account.account_id) if account else None
         given = cancel_code if isinstance(cancel_code, str) and 0 < len(cancel_code) <= 80 else ""
-        if pending is None or not hmac.compare_digest(self.keys.mac("cancel", given), pending[1]):
+        held = self.keys.secret_candidates("cancel", given)
+        if pending is None or pending[1] not in held:
             return Result("wrong")
         self._end_recovery(account.account_id)
         return Result("ok")
@@ -635,16 +657,27 @@ class AccountsService:
         pending = self.store.pending_of(account_id)
         return {"effective_on": pending[2]} if pending else None
 
-    def _apply_due_recoveries(self, new_address_hashes: list[str] | None = None) -> None:
-        """Carries out each recovery whose seventh day has come: the account moves to the new
-        address, every session ends, and the person signs in there. Called before an address is
-        looked up, so the new address finds the recovered account and does not open a new one."""
-        for account_id, new_hash in self.store.due_pending(self.today().isoformat(), new_address_hashes):
+    def _apply_due_recoveries(self) -> None:
+        """Carries out each recovery whose day has come: the account moves to the new address,
+        every session ends, and the person signs in there. The move is made only if the waiting
+        row is still there, so a cancel that got in first wins. Called whenever an address is
+        looked up, so neither address finds an account that has already moved."""
+        today = self.today().isoformat()
+        for account_id, new_hash in self.store.due_pending(today):
             address = self.contacts.take_pending(account_id) if self.contacts is not None else None
-            if self.store.apply_pending(account_id, new_hash):
+            if self.store.apply_pending(account_id, new_hash, today):
                 if address is not None and self.contacts is not None:
                     self.contacts.put(account_id, address)
                 self.store.delete_sessions_of(account_id)
+
+    def _sweep_contacts(self) -> None:
+        """Removes any kept address whose account is gone, such as after a crash between the two
+        files or a contact file restored apart from the account file."""
+        if self.contacts is None:
+            return
+        for account_id in self.contacts.account_ids():
+            if self.store.account(account_id) is None:
+                self.contacts.forget(account_id)
 
     # what an account holds, and deletion ------------------------------------------------
 
@@ -678,11 +711,11 @@ class AccountsService:
             return Result("step_up_needed")
         expires = (self.today() + timedelta(days=self.limits.ledger_days)).isoformat()
         account = self.store.account(session.account_id)
+        if self.contacts is not None:
+            self.contacts.forget(session.account_id)
         self.store.delete_account(session.account_id, ledger_hash(session.account_id), expires)
         if account is not None and account.address_hash is not None:
             self.store.forget_address(account.address_hash)
-        if self.contacts is not None:
-            self.contacts.forget(session.account_id)
         self.store.delete_sessions_of(session.account_id)
         self.store.delete_challenges_of(session.account_id)
         return Result("ok")
@@ -693,6 +726,5 @@ class AccountsService:
         for account_id in gone:
             self.store.delete_account(account_id, ledger_hash(account_id), self.today().isoformat())
             self.store.delete_sessions_of(account_id)
-            if self.contacts is not None:
-                self.contacts.forget(account_id)
+        self._sweep_contacts()
         return len(gone)

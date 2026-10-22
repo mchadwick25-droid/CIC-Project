@@ -98,6 +98,12 @@ class ContactStore:
             self._c.execute("DELETE FROM contacts WHERE account_id = ?", (account_id,))
             self._c.execute("DELETE FROM pending_contacts WHERE account_id = ?", (account_id,))
 
+    def account_ids(self) -> list[str]:
+        with self._lock:
+            ids = {r[0] for r in self._c.execute("SELECT account_id FROM contacts")}
+            ids |= {r[0] for r in self._c.execute("SELECT account_id FROM pending_contacts")}
+        return sorted(ids)
+
     def on_older_keys(self) -> int:
         with self._lock:
             return self._c.execute("SELECT COUNT(*) FROM contacts WHERE key_id != ?", (self._cipher.key_id,)).fetchone()[0]
