@@ -6795,3 +6795,5 @@ By the same report, he chose these on 2026-10-21:
 ## 2026-10-22 - Cap ruling: accounts slice A1a
 
 Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accounts build had been through three rounds of substantial revision without a clean review, and ordered one more Opus review of the final code. The review's file is `Build/Ministry/Operations/Audits/Accounts_A1a_Opus_Review_Round4_2026-10-22.md`. By the review cap's own exception it does not count toward the three. Anything it finds that is a real defect is fixed in the same pull request; findings that are only matters of strength are recorded and not acted on.
+
+63, eighth addendum of the same day. Change order on decision 53: the sign-in address is kept, encrypted under its own key in its own file, for sending only; names are never stored. Slice A1c builds it after A1a clears review. The Go Deeper Decision-Log entry of the same date carries the ruling.

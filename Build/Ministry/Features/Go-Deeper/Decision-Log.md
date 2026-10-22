@@ -764,3 +764,17 @@ A1a, redesigned at the root (Mark's instruction: no fixes on fixes). Four rounds
 - Sign-in keeps one live challenge per address (a new start replaces the old). Step-up, address change and recovery never replace anyone else's.
 - Limits: sign-in is counted per address (anyone may start one); change and recovery are counted per address across all accounts, which no address owner ever triggers on their own address; step-up is counted per account. Network, wider-block and global limits apply to all.
 The Opus review ordered by the cap ruling was stopped when this redesign began, since it was reading code that no longer exists, and is run again on the redesigned code (the file named in the cap ruling above). Nothing in the Build Plan's slice order changes; its A1 line "sign-in codes" now reads "challenges".
+
+## 2026-10-22 — Change order: the sign-in address is kept, encrypted, for sending only (ruled by Mark)
+
+System Hub decision 63, eighth addendum. A named change order on decision 53, which said the address is used for one send and not kept and that we cannot write to an account holder. Asked whether to keep the sign-in address after sign-in, Mark chose to keep it encrypted, for sending only. Names are still never stored.
+
+25. Ruled:
+- The sign-in address is stored encrypted under its own key (`CIC_ACCOUNTS_CONTACT_KEY`, with a key id; separate from the address-hashing key and the cookie key), in its own SQLite file, keyed by the random account id. It is never written to the account file, the review store, a log or a backup in the clear. The keyed hash stays for lookup.
+- It is used only to send: sign-in, step-up, recovery and address-change codes, a warning before purchased tokens lapse, breach notices, and replies to a person who writes in. Nothing else, and no marketing. Stripe still keeps what it holds about a buyer, and the account store still receives nothing from Stripe; a receipt is Stripe's.
+- It is deleted with the account, and its file has the same encrypted-backup rule as the accounts file before it joins a backup.
+- A leak of the contact file alone, or of the account file alone, exposes no address next to any account or conversation. Someone holding both files and the contact key could join them; the key is held apart from the data and rotated with a key id.
+- Names are never asked for or stored.
+- The privacy page and the sign-in words say plainly that the address is kept, encrypted, and why. The lawyer's questions gain: 19. Whether keeping the address, encrypted and used only for transactional mail, changes the obligations under GDPR and the state laws, including breach notice and retention.
+- Build: a new slice, A1c, after A1a clears review. Authenticated encryption is not in the standard library, so it adds one reviewed dependency (`cryptography`) at the API edge, the same dependency Google and Apple sign-in (A1b) need for token signatures. `engine/accounts` stays standard library only and receives the cipher from the edge.
+- Not decided: the exact warning schedule before tokens lapse, and whether support may read the address.
