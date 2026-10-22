@@ -45,13 +45,35 @@ def test_recovery_waits_a_week_and_then_the_new_address_owns_the_account(svc, ma
     assert result.status == "ok" and not result.new_account
     assert svc.session(result.cookie).account_id == account_id
     assert svc.session(cookie) is None  # every old session ended
-    assert not store.has_recovery_code(account_id)  # the used code is gone
+    assert result.recovery_code and result.recovery_code != code  # the used code is replaced, shown once
+    assert svc.recover_start(code, "late@example.org", OTHER_NET).status == "wrong"
 
 
-def test_a_recovery_code_is_burned_by_its_first_use(svc, mailer, clock):
+def test_a_recovery_code_is_spent_when_the_new_address_is_proved(svc, mailer, clock):
     code, _ = _recovery_code(svc, mailer, clock)
     assert svc.recover_start(code, NEW, OTHER_NET).status == "sent"
+    assert svc.recover_start(code, NEW, OTHER_NET).status == "sent"  # not yet spent; a resend is possible
+    assert svc.recover_finish(NEW, mailer.last_code(NEW), OTHER_NET).status == "waiting"
     assert svc.recover_start(code, "x@example.org", OTHER_NET).status == "wrong"
+
+
+def test_a_failed_send_does_not_spend_the_recovery_code(svc, mailer, clock, store):
+    code, _ = _recovery_code(svc, mailer, clock)
+    mailer.fail = True
+    assert svc.recover_start(code, NEW, OTHER_NET).status == "send_failed"
+    mailer.fail = False
+    assert store.account_by_recovery_hash(__import__("hashlib").sha256(code.encode()).hexdigest()) is not None
+    assert svc.recover_start(code, NEW, OTHER_NET).status == "sent"
+
+
+def test_a_recovery_never_proved_expires_in_a_day(svc, mailer, clock, store):
+    code, cookie = _recovery_code(svc, mailer, clock)
+    svc.recover_start(code, NEW, OTHER_NET)
+    assert svc.session(cookie).pending_recovery
+    clock.advance(2 * 86400)
+    svc.purge()
+    session = svc.session(cookie)
+    assert session is not None and not session.pending_recovery
 
 
 def test_the_old_owner_can_cancel_a_recovery_a_thief_started(svc, mailer, clock):
@@ -72,13 +94,28 @@ def test_the_old_owner_can_cancel_a_recovery_a_thief_started(svc, mailer, clock)
     assert svc.session(result.cookie).account_id != svc.session(cookie).account_id
 
 
-def test_recovery_refuses_a_bad_code_a_taken_address_and_bad_input(svc, mailer, clock):
+def test_recovery_refuses_a_bad_code_and_bad_input(svc, mailer, clock):
     code, _ = _recovery_code(svc, mailer, clock)
-    sign_in(svc, mailer, "bob@example.org", "192.0.2.9")
     assert svc.recover_start("AAAAAAAAAAAAAAAAAAAA", NEW, OTHER_NET).status == "wrong"
     assert svc.recover_start(None, NEW, OTHER_NET).status == "wrong"
-    assert svc.recover_start(code, "bob@example.org", OTHER_NET).status == "wrong"
     assert svc.recover_start(code, "not an address", OTHER_NET).status == "wrong"
+
+
+def test_the_replies_never_say_whether_an_address_has_an_account(svc, mailer, clock):
+    sign_in(svc, mailer, "bob@example.org", "192.0.2.9")
+    code, _ = _recovery_code(svc, mailer, clock)
+    taken = svc.recover_start(code, "bob@example.org", OTHER_NET)
+    free = svc.recover_start(code, NEW, OTHER_NET)
+    assert taken.status == free.status == "sent"
+    sent_to_bob = [c for a, c in mailer.sent if a == "bob@example.org"]
+    assert len(sent_to_bob) == 1  # only his own sign-in code
+    clock.advance(901)
+    session, _ = stepped_up_session(svc, mailer, clock, ADDR, "198.51.100.40")
+    a = svc.change_address_start(session, "bob@example.org", NET)
+    b = svc.change_address_start(session, "carol@example.org", NET)
+    assert a.status == b.status == "sent"
+    assert len([1 for addr, _ in mailer.sent if addr == "bob@example.org"]) == 1
+    assert len([1 for addr, _ in mailer.sent if addr == "carol@example.org"]) == 1
 
 
 def test_recovery_attempts_are_limited_per_network(svc, mailer, clock):
@@ -101,10 +138,14 @@ def test_an_address_change_needs_the_old_address_then_a_code_to_the_new_one(svc,
     assert svc.finish_sign_in(NEW, mailer.last_code(NEW), NET).status == "ok"
 
 
-def test_an_address_change_to_another_account_s_address_is_refused(svc, mailer, clock):
+def test_an_address_change_to_another_account_s_address_sends_nothing_and_changes_nothing(svc, mailer, clock, store):
     sign_in(svc, mailer, "bob@example.org", "192.0.2.9")
-    session, _ = stepped_up_session(svc, mailer, clock)
-    assert svc.change_address_start(session, "bob@example.org", NET).status == "cannot_use"
+    session, cookie = stepped_up_session(svc, mailer, clock)
+    before = len(mailer.sent)
+    assert svc.change_address_start(session, "bob@example.org", NET).status == "sent"
+    assert len(mailer.sent) == before
+    assert svc.change_address_finish(svc.session(cookie), "bob@example.org", "123456", NET).status == "wrong"
+    assert store.account_by_hashes(svc.keys.candidate_hashes(ADDR)) is not None
 
 
 def test_a_code_for_one_account_s_change_cannot_finish_another(svc, mailer, clock):

@@ -89,6 +89,8 @@ class KeyRing:
             raise AccountsKeyError("key ids must be distinct, lower case letters and digits, up to 8 characters")
         if any(p.secret == address_key or p.secret == session_key for p in previous):
             raise AccountsKeyError("a previous key must not repeat a current key")
+        if any(len(p.secret) < MIN_KEY_LENGTH for p in previous) or len({p.secret for p in previous}) != len(previous):
+            raise AccountsKeyError("previous keys must each be at least the minimum length and distinct")
         self._address_key = address_key
         self._session_key = session_key
         self.key_id = key_id

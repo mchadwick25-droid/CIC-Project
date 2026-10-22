@@ -206,3 +206,22 @@ def test_start_up_refuses_with_no_key_a_short_key_or_no_mail(tmp_path, mailer):
 def test_the_flag_off_default_config_is_off(tmp_path, monkeypatch):
     monkeypatch.delenv("CIC_ACCOUNTS_ENABLED", raising=False)
     assert AccountsConfig.from_env(str(tmp_path)).enabled is False
+
+
+def test_sign_out_deletes_the_cookie_with_the_attributes_a_browser_needs(http, mailer):
+    sign_in(http, mailer)
+    header = http.post("/api/accounts/sign-out", json={}, headers=H).headers["set-cookie"]
+    assert header.startswith("__Host-cic_account=") and "Secure" in header and "Path=/" in header
+    assert "Max-Age=0" in header or "expires=" in header.lower()
+
+
+def test_an_origin_with_another_scheme_is_refused(http):
+    bad = http.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers={**H, "origin": "http://testserver"})
+    assert bad.status_code == 403
+
+
+def test_a_paused_sign_in_is_503(http, runtime, mailer):
+    runtime.service.limits = type(runtime.service.limits)(sends_global_hour=1)
+    first = http.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H)
+    second = http.post("/api/accounts/sign-in/start", json={"address": NEW}, headers={**H})
+    assert first.status_code == 200 and second.status_code == 503

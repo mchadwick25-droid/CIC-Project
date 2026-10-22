@@ -27,6 +27,10 @@ REQUIRED = {
         "test_under_sixteen_gets_no_account_and_nothing_is_stored",
         "test_a_network_may_open_only_so_many_new_accounts_a_day",
     ],
+    "engine/accounts/tests/test_concurrency.py": [
+        "test_concurrent_wrong_guesses_cannot_beat_the_try_limit",
+        "test_two_simultaneous_right_codes_open_exactly_one_session",
+    ],
     "engine/accounts/tests/test_sessions.py": [
         "test_the_cookie_points_to_a_session_and_holds_no_account_value",
         "test_a_session_ends_at_the_absolute_limit_however_active",
@@ -36,12 +40,15 @@ REQUIRED = {
         "test_recovery_waits_a_week_and_then_the_new_address_owns_the_account",
         "test_the_old_owner_can_cancel_a_recovery_a_thief_started",
         "test_an_address_change_needs_the_old_address_then_a_code_to_the_new_one",
+        "test_the_replies_never_say_whether_an_address_has_an_account",
+        "test_a_recovery_code_is_spent_when_the_new_address_is_proved",
     ],
     "engine/accounts/tests/test_deletion.py": [
         "test_the_ledger_holds_a_hash_of_the_random_id_never_the_address",
         "test_a_restored_backup_does_not_bring_a_deleted_account_back",
         "test_neither_file_holds_an_address_after_a_hundred_sign_ins",
         "test_a_deleted_account_s_bytes_are_overwritten",
+        "test_deleting_an_account_forgets_its_address_hash_in_the_ephemeral_file",
         "test_no_log_line_holds_an_address_or_a_code",
     ],
     "engine/api/tests/test_accounts_routes.py": [

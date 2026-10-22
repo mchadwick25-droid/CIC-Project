@@ -32,7 +32,8 @@ CREATE TABLE IF NOT EXISTS pending_changes (
   account_id       TEXT PRIMARY KEY,
   new_address_hash TEXT NOT NULL UNIQUE,
   effective_on     TEXT NOT NULL,
-  verified         INTEGER NOT NULL DEFAULT 0
+  verified         INTEGER NOT NULL DEFAULT 0,
+  made_on          TEXT NOT NULL
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS deletion_ledger (
   ledger_hash TEXT PRIMARY KEY,
@@ -102,6 +103,7 @@ class Pending:
     new_address_hash: str
     effective_on: str
     verified: bool
+    made_on: str = ""
 
 
 def _open(path: str, ddl: str) -> sqlite3.Connection:
@@ -184,8 +186,19 @@ class AccountStore:
         return [i for i in ids if hash_of(i) in ledger]
 
     def purge_durable(self, today: str) -> int:
+        """Drops expired ledger entries and recovery changes never verified within a day."""
         with self._lock:
-            return self._d.execute("DELETE FROM deletion_ledger WHERE expires_on < ?", (today,)).rowcount
+            removed = self._d.execute("DELETE FROM deletion_ledger WHERE expires_on < ?", (today,)).rowcount
+            removed += self._d.execute(
+                "DELETE FROM pending_changes WHERE verified = 0 AND made_on < ?", (today,)
+            ).rowcount
+        return removed
+
+    def accounts_on_older_keys(self, current_key_id: str) -> int:
+        with self._lock:
+            return self._d.execute(
+                "SELECT COUNT(*) FROM accounts WHERE address_hash NOT LIKE ?", (current_key_id + ":%",)
+            ).fetchone()[0]
 
     # recovery codes -------------------------------------------------------
 
@@ -212,8 +225,9 @@ class AccountStore:
         with self._lock:
             try:
                 self._d.execute(
-                    "INSERT OR REPLACE INTO pending_changes VALUES (?, ?, ?, ?)",
-                    (pending.account_id, pending.new_address_hash, pending.effective_on, int(pending.verified)),
+                    "INSERT OR REPLACE INTO pending_changes VALUES (?, ?, ?, ?, ?)",
+                    (pending.account_id, pending.new_address_hash, pending.effective_on, int(pending.verified),
+                     pending.made_on),
                 )
             except sqlite3.IntegrityError:
                 return False
@@ -222,12 +236,12 @@ class AccountStore:
     def pending_for_account(self, account_id: str) -> Pending | None:
         with self._lock:
             row = self._d.execute("SELECT * FROM pending_changes WHERE account_id = ?", (account_id,)).fetchone()
-        return Pending(row[0], row[1], row[2], bool(row[3])) if row else None
+        return Pending(row[0], row[1], row[2], bool(row[3]), row[4]) if row else None
 
     def pending_for_hash(self, new_address_hash: str) -> Pending | None:
         with self._lock:
             row = self._d.execute("SELECT * FROM pending_changes WHERE new_address_hash = ?", (new_address_hash,)).fetchone()
-        return Pending(row[0], row[1], row[2], bool(row[3])) if row else None
+        return Pending(row[0], row[1], row[2], bool(row[3]), row[4]) if row else None
 
     def verify_pending(self, new_address_hash: str) -> bool:
         with self._lock:
@@ -256,15 +270,44 @@ class AccountStore:
             ).fetchone()
         return CodeRow(*row) if row else None
 
-    def bump_tries(self, address_hash: str, purpose: str) -> int:
+    def take_try(self, address_hash: str, purpose: str, now: int, max_tries: int) -> CodeRow | None:
+        """Counts one try against a live code and returns the row, in one
+        transaction, so concurrent guesses cannot each read an unspent count. A
+        code that is expired, or already at its limit, is deleted and nothing is
+        returned."""
         with self._lock:
-            self._e.execute(
-                "UPDATE sign_in_codes SET tries = tries + 1 WHERE address_hash = ? AND purpose = ?", (address_hash, purpose)
-            )
-            row = self._e.execute(
-                "SELECT tries FROM sign_in_codes WHERE address_hash = ? AND purpose = ?", (address_hash, purpose)
-            ).fetchone()
-        return row[0] if row else 0
+            self._e.execute("BEGIN IMMEDIATE")
+            try:
+                row = self._e.execute(
+                    "SELECT mac, expires_at, tries, account_id FROM sign_in_codes WHERE address_hash = ? AND purpose = ?",
+                    (address_hash, purpose),
+                ).fetchone()
+                result = None
+                if row is not None:
+                    if row[1] <= now or row[2] >= max_tries:
+                        self._e.execute(
+                            "DELETE FROM sign_in_codes WHERE address_hash = ? AND purpose = ?", (address_hash, purpose)
+                        )
+                    else:
+                        self._e.execute(
+                            "UPDATE sign_in_codes SET tries = tries + 1 WHERE address_hash = ? AND purpose = ?",
+                            (address_hash, purpose),
+                        )
+                        result = CodeRow(row[0], row[1], row[2] + 1, row[3])
+                self._e.execute("COMMIT")
+            except BaseException:
+                self._e.execute("ROLLBACK")
+                raise
+        return result
+
+    def burn_code_if(self, address_hash: str, purpose: str, mac: str) -> bool:
+        """Deletes the code if it is still the one given. Of several requests
+        that present the same right code, exactly one gets True."""
+        with self._lock:
+            return self._e.execute(
+                "DELETE FROM sign_in_codes WHERE address_hash = ? AND purpose = ? AND mac = ?",
+                (address_hash, purpose, mac),
+            ).rowcount == 1
 
     def burn_code(self, address_hash: str, purpose: str) -> None:
         with self._lock:
@@ -305,6 +348,12 @@ class AccountStore:
     def delete_codes_of(self, account_id: str) -> None:
         with self._lock:
             self._e.execute("DELETE FROM sign_in_codes WHERE account_id = ?", (account_id,))
+
+    def forget_address(self, address_hash: str) -> None:
+        """Removes the codes and counters that carry an address hash."""
+        with self._lock:
+            self._e.execute("DELETE FROM sign_in_codes WHERE address_hash = ?", (address_hash,))
+            self._e.execute("DELETE FROM counters WHERE key = ?", (address_hash,))
 
     # counters ---------------------------------------------------------------
 

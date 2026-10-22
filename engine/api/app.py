@@ -1004,16 +1004,14 @@ def deeper_for_dev_server(data_dir: Path, usage_store, environ) -> dict | None:
     }
 
 
-def backup_extra_dbs(settings: Settings, meter_db_path: str | None, accounts_db_path: str | None = None) -> dict[str, str]:
+def backup_extra_dbs(settings: Settings, meter_db_path: str | None) -> dict[str, str]:
     """The databases beyond events, usage and quality control that the daily
-    backup copies: the feedback store always, the Go Deeper meter and the
-    durable accounts file when they run. The accounts file's sign-in codes and
-    sessions live in a second file that is never backed up."""
+    backup copies: the feedback store always, the Go Deeper meter when it runs.
+    The accounts files are not here: backups are uploaded unencrypted, and the
+    accounts runbook requires an encrypted backup before the durable file joins."""
     extra = {"feedback": settings.feedback_db_path}
     if meter_db_path is not None:
         extra["meter"] = meter_db_path
-    if accounts_db_path is not None:
-        extra["accounts"] = accounts_db_path
     return extra
 
 
@@ -1078,10 +1076,7 @@ def _build_real_app() -> FastAPI:
     db_backup.start_background_scheduler(
         settings.events_db_path, settings.usage_db_path, backup_staging_dir,
         qc_db_path=settings.qc_db_path,
-        extra_dbs=backup_extra_dbs(
-            settings, deeper_config.meter_db_path if deeper_runtime is not None else None,
-            accounts_config.durable_db_path if accounts_runtime is not None else None,
-        ),
+        extra_dbs=backup_extra_dbs(settings, deeper_config.meter_db_path if deeper_runtime is not None else None),
     )
 
     # The anonymous quality-control store and the daily retention job

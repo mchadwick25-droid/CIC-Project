@@ -98,3 +98,12 @@ def test_no_log_line_holds_an_address_or_a_code(svc, mailer, clock, caplog):
     assert not re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", text)
     for _, code in mailer.sent:
         assert code not in text
+
+
+def test_deleting_an_account_forgets_its_address_hash_in_the_ephemeral_file(svc, mailer, clock, store, tmp_path):
+    session, cookie = stepped_up_session(svc, mailer, clock)
+    address_hash = svc.keys.address_hash(ADDR)
+    svc.delete_account(svc.session(cookie))
+    assert store._e.execute("SELECT COUNT(*) FROM counters WHERE key = ?", (address_hash,)).fetchone()[0] == 0
+    assert store._e.execute("SELECT COUNT(*) FROM sign_in_codes WHERE address_hash = ?", (address_hash,)).fetchone()[0] == 0
+    assert address_hash.encode() not in (tmp_path / "e.db").read_bytes()

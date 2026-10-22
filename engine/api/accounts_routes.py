@@ -113,6 +113,9 @@ def start_retention_thread(runtime: AccountsRuntime, *, every_seconds: int = 360
             time.sleep(every_seconds)
             try:
                 runtime.service.purge()
+                older = runtime.service.store.accounts_on_older_keys(runtime.service.keys.key_id)
+                if older:
+                    logger.info("accounts still on an older address key: %d", older)
             except Exception:  # noqa: BLE001 - a purge fault must not stop the loop
                 logger.exception("accounts purge failed")
 
@@ -152,17 +155,29 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         if not (request.headers.get("content-type") or "").startswith("application/json"):
             raise HTTPException(status_code=400, detail="bad request")
         origin = request.headers.get("origin")
-        if origin and urlsplit(origin).netloc != request.headers.get("host", ""):
-            raise HTTPException(status_code=403, detail="bad origin")
+        if origin:
+            parts = urlsplit(origin)
+            if parts.scheme != request.url.scheme or parts.netloc != request.headers.get("host", ""):
+                raise HTTPException(status_code=403, detail="bad origin")
 
     def _network(request: Request) -> str:
         return network_of(client_ip(request))
 
-    def _session(request: Request) -> Session:
-        session = service.session(request.cookies.get(runtime.cookie_name))
+    async def _session(request: Request) -> Session:
+        session = await run_in_threadpool(service.session, request.cookies.get(runtime.cookie_name))
         if session is None:
             raise HTTPException(status_code=401, detail="not signed in")
         return session
+
+    async def _floor(began: float) -> None:
+        remaining = runtime.start_floor_seconds - (time.monotonic() - began)
+        if remaining > 0:
+            await asyncio.sleep(remaining)
+
+    def _clear_cookie(response: Response) -> None:
+        response.delete_cookie(
+            runtime.cookie_name, path="/", secure=runtime.secure_cookie, httponly=True, samesite="lax"
+        )
 
     def _set_cookie(response: Response, value: str) -> None:
         response.set_cookie(
@@ -181,9 +196,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         _guard(request)
         began = time.monotonic()
         result = await run_in_threadpool(service.start_sign_in, body.address, _network(request))
-        remaining = runtime.start_floor_seconds - (time.monotonic() - began)
-        if remaining > 0:
-            await asyncio.sleep(remaining)
+        await _floor(began)
         if result.status != "sent":
             await _refuse(result, delay=False)
         return {"status": "sent", "message": MESSAGES["sent"]}
@@ -196,7 +209,10 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         )
         if result.status == "ok":
             _set_cookie(response, result.cookie)
-            return {"status": "ok", "new_account": result.new_account}
+            reply = {"status": "ok", "new_account": result.new_account}
+            if result.recovery_code:
+                reply["recovery_code"] = result.recovery_code
+            return reply
         if result.status in ("needs_birth_year", "invalid_birth_year", "under_age"):
             return {"status": result.status, "message": MESSAGES[result.status]}
         if result.status == "recovery_waiting":
@@ -205,7 +221,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
 
     @app.get("/api/accounts/me")
     async def me(request: Request):
-        session = service.session(request.cookies.get(runtime.cookie_name))
+        session = await run_in_threadpool(service.session, request.cookies.get(runtime.cookie_name))
         if session is None:
             return {"signed_in": False}
         return await run_in_threadpool(service.me, session)
@@ -213,24 +229,26 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     @app.post("/api/accounts/sign-out")
     async def sign_out(request: Request, response: Response):
         _guard(request)
-        session = service.session(request.cookies.get(runtime.cookie_name))
+        session = await run_in_threadpool(service.session, request.cookies.get(runtime.cookie_name))
         if session is not None:
             await run_in_threadpool(service.sign_out, session)
-        response.delete_cookie(runtime.cookie_name, path="/")
+        _clear_cookie(response)
         return {"status": "ok"}
 
     @app.post("/api/accounts/sign-out-everywhere")
     async def sign_out_everywhere(request: Request, response: Response):
         _guard(request)
-        session = _session(request)
+        session = await _session(request)
         await run_in_threadpool(service.sign_out_everywhere, session)
-        response.delete_cookie(runtime.cookie_name, path="/")
+        _clear_cookie(response)
         return {"status": "ok"}
 
     @app.post("/api/accounts/step-up/start")
     async def step_up_start(body: AddressBody, request: Request):
         _guard(request)
-        result = await run_in_threadpool(service.step_up_start, _session(request), body.address, _network(request))
+        began = time.monotonic()
+        result = await run_in_threadpool(service.step_up_start, await _session(request), body.address, _network(request))
+        await _floor(began)
         if result.status != "sent":
             await _refuse(result, delay=False)
         return {"status": "sent", "message": MESSAGES["sent"]}
@@ -239,7 +257,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     async def step_up_finish(body: FinishBody, request: Request):
         _guard(request)
         result = await run_in_threadpool(
-            service.step_up_finish, _session(request), body.address, body.code, _network(request)
+            service.step_up_finish, await _session(request), body.address, body.code, _network(request)
         )
         if result.status != "ok":
             await _refuse(result, delay=True)
@@ -248,7 +266,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     @app.post("/api/accounts/recovery-code")
     async def recovery_code(request: Request):
         _guard(request)
-        result = await run_in_threadpool(service.make_recovery_code, _session(request))
+        result = await run_in_threadpool(service.make_recovery_code, await _session(request))
         if result.status != "ok":
             await _refuse(result, delay=False)
         return {"status": "ok", "recovery_code": result.recovery_code}
@@ -256,7 +274,9 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     @app.post("/api/accounts/recovery/start")
     async def recovery_start(body: RecoveryStartBody, request: Request):
         _guard(request)
+        began = time.monotonic()
         result = await run_in_threadpool(service.recover_start, body.recovery_code, body.new_address, _network(request))
+        await _floor(began)
         if result.status != "sent":
             await _refuse(result, delay=True)
         return {"status": "sent", "message": MESSAGES["sent"], "effective_on": result.effective_on}
@@ -272,7 +292,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     @app.post("/api/accounts/recovery/cancel")
     async def recovery_cancel(request: Request):
         _guard(request)
-        result = await run_in_threadpool(service.cancel_recovery, _session(request))
+        result = await run_in_threadpool(service.cancel_recovery, await _session(request))
         if result.status != "ok":
             await _refuse(result, delay=False)
         return {"status": "ok"}
@@ -280,7 +300,9 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     @app.post("/api/accounts/address/start")
     async def address_start(body: NewAddressBody, request: Request):
         _guard(request)
-        result = await run_in_threadpool(service.change_address_start, _session(request), body.new_address, _network(request))
+        began = time.monotonic()
+        result = await run_in_threadpool(service.change_address_start, await _session(request), body.new_address, _network(request))
+        await _floor(began)
         if result.status != "sent":
             await _refuse(result, delay=False)
         return {"status": "sent", "message": MESSAGES["sent"]}
@@ -289,7 +311,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     async def address_finish(body: NewAddressFinishBody, request: Request):
         _guard(request)
         result = await run_in_threadpool(
-            service.change_address_finish, _session(request), body.new_address, body.code, _network(request)
+            service.change_address_finish, await _session(request), body.new_address, body.code, _network(request)
         )
         if result.status != "ok":
             await _refuse(result, delay=True)
@@ -298,7 +320,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     @app.post("/api/accounts/export")
     async def export(request: Request):
         _guard(request)
-        result = await run_in_threadpool(service.export, _session(request))
+        result = await run_in_threadpool(service.export, await _session(request))
         if result.status != "ok":
             await _refuse(result, delay=False)
         return {"status": "ok", "account": result.data}
@@ -306,8 +328,8 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     @app.post("/api/accounts/delete")
     async def delete(request: Request, response: Response):
         _guard(request)
-        result = await run_in_threadpool(service.delete_account, _session(request))
+        result = await run_in_threadpool(service.delete_account, await _session(request))
         if result.status != "ok":
             await _refuse(result, delay=False)
-        response.delete_cookie(runtime.cookie_name, path="/")
+        _clear_cookie(response)
         return {"status": "ok"}

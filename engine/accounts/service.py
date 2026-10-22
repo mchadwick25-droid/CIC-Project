@@ -9,6 +9,7 @@ person has proved the address is theirs.
 Everything time-based reads one injected clock, so tests set the time.
 """
 import hmac
+import ipaddress
 import logging
 import secrets
 import time
@@ -46,6 +47,9 @@ class Limits:
     sends_per_address_day: int = 10
     sends_per_network_15min: int = 30
     sends_global_hour: int = 300
+    sends_global_hour_other: int = 100
+    sends_per_coarse_network_15min: int = 120
+    account_actions_15min: int = 20
     finishes_per_network_15min: int = 30
     recoveries_per_network_hour: int = 5
     new_accounts_per_network_day: int = 5
@@ -126,17 +130,39 @@ class AccountsService:
 
     # codes -------------------------------------------------------------------
 
-    def _send_code(self, norm: str, address_hash: str, purpose: str, network: str, account_id: str | None) -> Result:
+    def _coarse(self, network: str) -> str:
+        """The wider block a network belongs to (an IPv6 /48 or an IPv4 /24), as a keyed value."""
+        try:
+            ip = ipaddress.ip_address(network.split("/")[0])
+        except ValueError:
+            return self.keys.network_key(network)
+        prefix = 48 if ip.version == 6 else 24
+        block = ipaddress.ip_network(f"{ip}/{prefix}", strict=False)
+        return self.keys.network_key(str(block))
+
+    def _count_start(self, network: str) -> bool:
+        """Counts a start attempt against the network and its wider block, whatever follows."""
+        limits = self.limits
         net = self.keys.network_key(network)
+        return (
+            self._allow("send_net", net, 900, limits.sends_per_network_15min)
+            and self._allow("send_coarse", self._coarse(network), 900, limits.sends_per_coarse_network_15min)
+        )
+
+    def _send_code(self, norm: str, address_hash: str, purpose: str, network: str, account_id: str | None) -> Result:
         limits = self.limits
         within = (
-            self._allow("send_net", net, 900, limits.sends_per_network_15min)
+            self._count_start(network)
             and self._allow("send_addr", address_hash, 900, limits.sends_per_address_15min)
             and self._allow("send_addr_day", address_hash, 86400, limits.sends_per_address_day)
         )
         if not within:
             return Result("throttled")
-        if not self._allow("send_global", "all", 3600, limits.sends_global_hour):
+        sign_in = purpose == "sign_in"
+        if not self._allow(
+            "send_global_sign_in" if sign_in else "send_global_other", "all", 3600,
+            limits.sends_global_hour if sign_in else limits.sends_global_hour_other,
+        ):
             return Result("paused")
         code = f"{secrets.randbelow(10**6):06d}"
         self.store.put_code(
@@ -152,21 +178,24 @@ class AccountsService:
         return Result("sent")
 
     def _check_code(self, address_hash: str, purpose: str, code) -> "CodeCheck | None":
-        """The stored row when the code is right; None otherwise. A wrong try
-        counts, and the fifth burns the code."""
-        row = self.store.get_code(address_hash, purpose)
+        """Counts one try and says whether the code is right. The count and the
+        read are one step, so concurrent guesses cannot beat the limit. A wrong
+        try that uses the last allowed burns the code."""
+        row = self.store.take_try(address_hash, purpose, self.now(), self.limits.code_tries)
         if row is None:
-            return None
-        if row.expires_at <= self.now() or row.tries >= self.limits.code_tries:
-            self.store.burn_code(address_hash, purpose)
             return None
         given = "".join(ch for ch in str(code) if ch.isdigit()) if isinstance(code, (str, int)) else ""
         expected = self.keys.mac("code", purpose, address_hash, given)
         if not hmac.compare_digest(expected, row.mac):
-            if self.store.bump_tries(address_hash, purpose) >= self.limits.code_tries:
+            if row.tries >= self.limits.code_tries:
                 self.store.burn_code(address_hash, purpose)
             return None
-        return CodeCheck(row.account_id)
+        return CodeCheck(row.account_id, row.mac)
+
+    def _spend_code(self, address_hash: str, purpose: str, check: "CodeCheck") -> bool:
+        """Uses the proved code up. Of concurrent requests with the same right
+        code, only one gets True."""
+        return self.store.burn_code_if(address_hash, purpose, check.mac)
 
     # sign-in ------------------------------------------------------------------
 
@@ -184,35 +213,56 @@ class AccountsService:
         if not self._allow("finish_net", net, 900, self.limits.finishes_per_network_15min):
             return Result("throttled")
         ahash = self.keys.address_hash(norm)
-        if self._check_code(ahash, "sign_in", code) is None:
+        checked = self._check_code(ahash, "sign_in", code)
+        if checked is None:
             return Result("wrong")
         pending = self.store.pending_for_hash(ahash)
         if pending is not None and pending.verified:
             if pending.effective_on > self.today().isoformat():
                 return Result("recovery_waiting", effective_on=pending.effective_on)
+            if not self._spend_code(ahash, "sign_in", checked):
+                return Result("wrong")
             self._apply_pending(pending)
+            account = self.store.account_by_hashes(self.keys.candidate_hashes(norm))
+            issued = self._issue_recovery_code(account.account_id) if account else None
+            return self._sign_in_as(account, ahash, issued) if account else Result("wrong")
         account = self.store.account_by_hashes(self.keys.candidate_hashes(norm))
-        new_account = False
-        if account is None:
-            if birth_year is None:
-                return Result("needs_birth_year")
-            band = self._age_band(birth_year)
-            if band == "invalid":
-                return Result("invalid_birth_year")
-            if band is None:
-                self.store.burn_code(ahash, "sign_in")
-                return Result("under_age")
-            if not self._allow("new_account_net", net, 86400, self.limits.new_accounts_per_network_day):
-                return Result("throttled")
-            today = self.today()
-            account = Account(secrets.token_hex(16), ahash, today.isoformat(), min(today.day, 28), _week(today), band)
-            self.store.create_account(account)
-            new_account = True
-        self.store.burn_code(ahash, "sign_in")
+        if account is not None:
+            if not self._spend_code(ahash, "sign_in", checked):
+                return Result("wrong")
+            return self._sign_in_as(account, ahash)
+        if birth_year is None:
+            return Result("needs_birth_year")
+        band = self._age_band(birth_year)
+        if band == "invalid":
+            return Result("invalid_birth_year")
+        if band is None:
+            self._spend_code(ahash, "sign_in", checked)
+            return Result("under_age")
+        if not self._allow("new_account_net", net, 86400, self.limits.new_accounts_per_network_day):
+            return Result("throttled")
+        if not self._spend_code(ahash, "sign_in", checked):
+            return Result("wrong")
+        today = self.today()
+        account = Account(secrets.token_hex(16), ahash, today.isoformat(), min(today.day, 28), _week(today), band)
+        if not self.store.create_account(account):
+            account = self.store.account_by_hashes(self.keys.candidate_hashes(norm))
+            if account is None:
+                return Result("wrong")
+            return self._sign_in_as(account, ahash)
+        return self._sign_in_as(account, ahash, new_account=True)
+
+    def _sign_in_as(self, account: Account, ahash: str, recovery_code: str | None = None, new_account: bool = False) -> Result:
         if not self.keys.is_current(account.address_hash):
             self.store.set_address_hash(account.account_id, ahash)
         self.store.touch(account.account_id, _week(self.today()))
-        return Result("ok", cookie=self._open_session(account.account_id), new_account=new_account)
+        return Result("ok", cookie=self._open_session(account.account_id), new_account=new_account,
+                      recovery_code=recovery_code)
+
+    def _issue_recovery_code(self, account_id: str) -> str:
+        code = "".join(secrets.choice(RECOVERY_ALPHABET) for _ in range(RECOVERY_LENGTH))
+        self.store.put_recovery_code(account_id, sha256(code.encode()).hexdigest(), self.today().isoformat())
+        return code
 
     def _age_band(self, birth_year) -> str | None:
         year = self.today().year
@@ -274,6 +324,8 @@ class AccountsService:
         return norm, self.keys.address_hash(norm)
 
     def step_up_start(self, session: Session, address, network: str) -> Result:
+        if not (self._count_start(network) and self._allow("account", session.account_id, 900, self.limits.account_actions_15min)):
+            return Result("throttled")
         owned = self._owns(session.account_id, address)
         if owned is None:
             return Result("sent")
@@ -283,9 +335,9 @@ class AccountsService:
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
             return Result("throttled")
         owned = self._owns(session.account_id, address)
-        if owned is None or self._check_code(owned[1], "step_up", code) is None:
+        checked = self._check_code(owned[1], "step_up", code) if owned else None
+        if checked is None or not self._spend_code(owned[1], "step_up", checked):
             return Result("wrong")
-        self.store.burn_code(owned[1], "step_up")
         self.store.step_up_session(session.token_hash, self.now() + self.limits.step_up_seconds)
         return Result("ok")
 
@@ -295,13 +347,12 @@ class AccountsService:
         """A new recovery code, shown once. It replaces any earlier one."""
         if not session.stepped_up:
             return Result("step_up_needed")
-        code = "".join(secrets.choice(RECOVERY_ALPHABET) for _ in range(RECOVERY_LENGTH))
-        self.store.put_recovery_code(session.account_id, sha256(code.encode()).hexdigest(), self.today().isoformat())
-        return Result("ok", recovery_code=code)
+        return Result("ok", recovery_code=self._issue_recovery_code(session.account_id))
 
     def recover_start(self, recovery_code, new_address, network: str) -> Result:
-        """Spends a recovery code and starts a waiting period for a new address.
-        The old owner, if still signed in anywhere, sees a banner and can cancel."""
+        """Starts a recovery for a new address. A recovery code that is right always
+        gets the same reply, whether or not the new address already has an account;
+        the code is spent only when the new address is proved, at recover_finish."""
         if not self._allow("recover_net", self.keys.network_key(network), 3600, self.limits.recoveries_per_network_hour):
             return Result("throttled")
         code = normalise_recovery_code(recovery_code)
@@ -309,14 +360,20 @@ class AccountsService:
         account_id = self.store.account_by_recovery_hash(sha256(code.encode()).hexdigest()) if code else None
         if account_id is None or norm is None:
             return Result("wrong")
+        if not self._count_start(network):
+            return Result("throttled")
         candidates = self.keys.candidate_hashes(norm)
-        if self.store.account_by_hashes(candidates) is not None or self.store.pending_for_hash(candidates[0]) is not None:
-            return Result("wrong")
-        self.store.delete_recovery_code(account_id)
+        taken = self.store.account_by_hashes(candidates) is not None
+        other = self.store.pending_for_hash(candidates[0])
+        if taken or (other is not None and other.account_id != account_id):
+            return Result("sent")
         effective_on = (self.today() + timedelta(days=self.limits.recovery_wait_days)).isoformat()
-        self.store.put_pending(Pending(account_id, candidates[0], effective_on, False))
+        self.store.put_pending(Pending(account_id, candidates[0], effective_on, False, self.today().isoformat()))
         sent = self._send_code(norm, candidates[0], "recover", network, account_id)
-        return Result("sent" if sent.status == "sent" else sent.status, effective_on=effective_on)
+        if sent.status != "sent":
+            self.store.delete_pending(account_id)
+            return sent
+        return Result("sent", effective_on=effective_on)
 
     def recover_finish(self, new_address, code, network: str) -> Result:
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
@@ -329,7 +386,9 @@ class AccountsService:
         pending = self.store.pending_for_hash(ahash)
         if checked is None or pending is None or pending.account_id != checked.account_id:
             return Result("wrong")
-        self.store.burn_code(ahash, "recover")
+        if not self._spend_code(ahash, "recover", checked):
+            return Result("wrong")
+        self.store.delete_recovery_code(pending.account_id)
         self.store.verify_pending(ahash)
         return Result("waiting", effective_on=pending.effective_on)
 
@@ -353,15 +412,19 @@ class AccountsService:
     # address change ----------------------------------------------------------------
 
     def change_address_start(self, session: Session, new_address, network: str) -> Result:
-        """Needs a recent step-up, which proved the old address; this sends a code to the new one."""
+        """Needs a recent step-up, which proved the old address; this sends a code to
+        the new one. A new address that already has an account gets the same reply and
+        no code, so the reply never says whether an account exists."""
         if not session.stepped_up:
             return Result("step_up_needed")
         norm = normalise_address(new_address)
         if norm is None:
             return Result("invalid_address")
+        if not (self._count_start(network) and self._allow("account", session.account_id, 900, self.limits.account_actions_15min)):
+            return Result("throttled")
         candidates = self.keys.candidate_hashes(norm)
         if self.store.account_by_hashes(candidates) is not None or self.store.pending_for_hash(candidates[0]) is not None:
-            return Result("cannot_use")
+            return Result("sent")
         return self._send_code(norm, candidates[0], "change", network, session.account_id)
 
     def change_address_finish(self, session: Session, new_address, code, network: str) -> Result:
@@ -371,11 +434,10 @@ class AccountsService:
             return Result("throttled")
         ahash = self.keys.address_hash(new_address)
         checked = self._check_code(ahash, "change", code) if ahash else None
-        if checked is None or checked.account_id != session.account_id:
+        if checked is None or checked.account_id != session.account_id or not self._spend_code(ahash, "change", checked):
             return Result("wrong")
-        self.store.burn_code(ahash, "change")
         if not self.store.set_address_hash(session.account_id, ahash):
-            return Result("cannot_use")
+            return Result("wrong")
         self.store.delete_sessions_of(session.account_id, except_token_hash=session.token_hash)
         self.store.delete_pending(session.account_id)
         return Result("ok")
@@ -409,7 +471,10 @@ class AccountsService:
         if not session.stepped_up:
             return Result("step_up_needed")
         expires = (self.today() + timedelta(days=self.limits.ledger_days)).isoformat()
+        account = self.store.account(session.account_id)
         self.store.delete_account(session.account_id, ledger_hash(session.account_id), expires)
+        if account is not None:
+            self.store.forget_address(account.address_hash)
         self.store.delete_sessions_of(session.account_id)
         self.store.delete_codes_of(session.account_id)
         return Result("ok")
@@ -426,3 +491,4 @@ class AccountsService:
 @dataclass(frozen=True)
 class CodeCheck:
     account_id: str | None
+    mac: str

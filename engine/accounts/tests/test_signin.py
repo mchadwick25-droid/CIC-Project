@@ -164,3 +164,22 @@ def test_a_signed_in_address_is_rekeyed_under_the_current_key(store, mailer, clo
     assert result.status == "ok" and not result.new_account
     row = store._d.execute("SELECT address_hash FROM accounts").fetchone()[0]
     assert row.startswith("k1:")
+
+
+def test_step_up_and_recovery_have_their_own_hourly_budget(store, keys, mailer, clock):
+    svc = AccountsService(store, keys, mailer, clock=clock, limits=Limits(sends_global_hour=2, sends_global_hour_other=10))
+    for i in range(3):
+        svc.start_sign_in(f"p{i}@example.org", f"198.51.100.{i}")
+    cookie = None
+    assert svc.start_sign_in("late@example.org", "198.51.100.77").status == "paused"
+    svc.finish_sign_in("p0@example.org", mailer.last_code("p0@example.org"), "198.51.100.0", 1990)
+    session = svc.session(svc.finish_sign_in("p1@example.org", mailer.last_code("p1@example.org"), "198.51.100.1", 1990).cookie)
+    assert svc.step_up_start(session, "p1@example.org", "198.51.100.1").status == "sent"
+    assert mailer.last_code("p1@example.org")
+
+
+def test_a_wider_block_of_addresses_is_limited_as_well_as_each_network(store, keys, mailer, clock):
+    svc = AccountsService(store, keys, mailer, clock=clock, limits=Limits(sends_per_coarse_network_15min=3))
+    results = [svc.start_sign_in(f"p{i}@example.org", f"203.0.113.{i + 1}").status for i in range(5)]
+    assert results == ["sent", "sent", "sent", "throttled", "throttled"]
+    assert svc.start_sign_in("far@example.org", "198.51.100.9").status == "sent"
