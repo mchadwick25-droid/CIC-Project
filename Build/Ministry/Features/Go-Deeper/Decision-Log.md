@@ -1067,3 +1067,9 @@ Read by the build thread, to be confirmed as the slice is designed:
 System Hub decision 63, thirty-sixth addendum. This closes the open point of ruling 52.
 
 53. Ruled: a 13-to-17-year-old in a youth-pastor or other non-educational group needs nothing beyond the parent's permission to hold an account (ruling 50). The group's leader has the adult console of rulings 29 and 31 for the group. The consent rules for groups are now settled: classes admit younger children through the teacher (ruling 44); non-educational groups admit children under 13 only through the parent (ruling 52); everyone 13 to 17 has a parent's permission (ruling 50).
+
+## 2026-10-22 — Free allowance: a minor account gets the same 550; no account stays as it is (ruled by Mark)
+
+System Hub decision 63, thirty-seventh addendum.
+
+54. Ruled: a minor account gets the same free allowance as an adult, 550 tokens a month. A visitor with no account keeps the free allowance the live visitor path already gives, with nothing new decided. A group's free allowance is the trial block of rulings 33 to 42. This closes the allowance figures left open by the walk-through of the five ways of using the system.
