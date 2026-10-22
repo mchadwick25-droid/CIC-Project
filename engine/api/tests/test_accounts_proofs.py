@@ -57,6 +57,28 @@ REQUIRED = {
         "test_only_rs256_is_accepted",
         "test_an_unsigned_token_is_refused",
     ],
+    "engine/accounts/tests/test_contacts.py": [
+        "test_the_account_file_still_holds_no_address",
+        "test_deleting_an_account_deletes_its_contact",
+        "test_a_restored_backup_does_not_bring_a_deleted_contact_back",
+        "test_a_row_moved_to_another_account_does_not_open",
+        "test_a_wrong_key_reads_nothing",
+        "test_no_log_line_holds_the_kept_address",
+    ],
+    "engine/accounts/tests/test_recovery.py": [
+        "test_a_recovery_waits_seven_days_tells_the_old_address_and_shows_a_banner",
+        "test_after_seven_days_the_new_address_signs_in_to_the_same_account_and_old_sessions_end",
+        "test_the_start_reply_is_the_same_for_a_right_and_a_wrong_recovery_code",
+        "test_the_owner_cancels_with_the_code_in_the_notice_and_the_thief_s_new_recovery_code_dies",
+        "test_cancelling_sends_no_mail_and_works_with_every_sending_limit_used_up",
+        "test_a_recovery_moves_nothing_when_the_new_address_gets_an_account_during_the_wait",
+        "test_deleting_an_account_removes_its_recovery_rows",
+    ],
+    "engine/api/tests/test_contact_cipher.py": [
+        "test_a_sealed_address_opens_with_its_key_and_context_only",
+        "test_the_contact_file_holds_no_address_in_the_clear",
+        "test_a_deleted_contact_leaves_no_bytes",
+    ],
     "engine/accounts/tests/test_concurrency.py": [
         "test_concurrent_wrong_guesses_cannot_beat_the_try_limit",
         "test_two_simultaneous_right_codes_open_exactly_one_session",

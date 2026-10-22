@@ -1,5 +1,6 @@
 import pytest
 
+from engine.accounts.contacts import ContactStore
 from engine.accounts.keys import KeyRing
 from engine.accounts.service import AccountsService, Limits
 from engine.accounts.store import AccountStore
@@ -12,7 +13,13 @@ START = 1_790_000_000
 class FakeMailer:
     def __init__(self):
         self.sent: list[tuple[str, str]] = []
+        self.notices: list[tuple[str, str, dict]] = []
         self.fail = False
+
+    def send_notice(self, address: str, kind: str, fields: dict) -> None:
+        if self.fail:
+            raise RuntimeError("provider down")
+        self.notices.append((address, kind, fields))
 
     def send_code(self, address: str, code: str) -> None:
         if self.fail:
@@ -21,6 +28,22 @@ class FakeMailer:
 
     def last_code(self, address: str) -> str:
         return [c for a, c in self.sent if a == address][-1]
+
+
+class FakeCipher:
+    """Reversible, readable on purpose: the tests that look at the file's bytes use the real cipher."""
+
+    def __init__(self, key_id="c1", known=None):
+        self.key_id = key_id
+        self._known = tuple(known) if known else (key_id,)
+
+    def encrypt(self, plaintext, context):
+        return f"{self.key_id}:{context}:{plaintext[::-1]}"
+
+    def decrypt(self, blob, context):
+        key_id, _, rest = blob.partition(":")
+        bound, _, reversed_text = rest.partition(":")
+        return reversed_text[::-1] if bound == context and key_id in self._known else None
 
 
 class FakeVerifier:
@@ -73,8 +96,15 @@ def keys():
 
 
 @pytest.fixture
-def svc(store, keys, mailer, clock):
-    return AccountsService(store, keys, mailer, clock=clock, verifier=FakeVerifier())
+def contacts(tmp_path):
+    c = ContactStore(str(tmp_path / "c.db"), FakeCipher())
+    yield c
+    c.close()
+
+
+@pytest.fixture
+def svc(store, keys, mailer, clock, contacts):
+    return AccountsService(store, keys, mailer, clock=clock, verifier=FakeVerifier(), contacts=contacts)
 
 
 def start_sign_in(svc, mailer, address="ada@example.org", network="203.0.113.5"):

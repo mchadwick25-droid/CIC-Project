@@ -4,7 +4,9 @@ Durable: accounts, linked sign-ins and the deletion ledger. An account row holds
 a random account id, a keyed address hash (none for an account that signs in
 only with Google or Apple), days and weeks (never a time of day), an age band.
 A linked sign-in holds the keyed hash of a provider's account id and the
-provider's name. Nothing else.
+provider's name. A recovery code is kept as a keyed hash; a waiting recovery
+holds the keyed hash of the new address, of its cancel code, and the day it
+takes effect. Nothing else.
 
 Ephemeral: challenges, sessions and counters. A challenge is one proof of
 control of an address: it has its own random id, belongs to one action, and is
@@ -36,6 +38,17 @@ CREATE TABLE IF NOT EXISTS linked_sign_ins (
   account_id   TEXT NOT NULL,
   provider     TEXT NOT NULL,
   UNIQUE (account_id, provider)
+) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS recovery_keys (
+  key_hash   TEXT PRIMARY KEY,
+  account_id TEXT NOT NULL UNIQUE,
+  day_made   TEXT NOT NULL
+) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS pending_recoveries (
+  account_id       TEXT PRIMARY KEY,
+  new_address_hash TEXT NOT NULL,
+  cancel_hash      TEXT NOT NULL,
+  effective_on     TEXT NOT NULL
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS deletion_ledger (
   ledger_hash TEXT PRIMARY KEY,
@@ -172,6 +185,82 @@ class AccountStore:
                 raise
             return made
 
+    # recovery ---------------------------------------------------------------
+
+    def put_recovery_key(self, account_id: str, key_hash: str, day: str) -> None:
+        """The account's recovery code, as a keyed hash. A new one replaces the old."""
+        with self._lock:
+            self._d.execute("BEGIN IMMEDIATE")
+            try:
+                self._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (account_id,))
+                self._d.execute("INSERT INTO recovery_keys VALUES (?, ?, ?)", (key_hash, account_id, day))
+                self._d.execute("COMMIT")
+            except BaseException:
+                self._d.execute("ROLLBACK")
+                raise
+
+    def account_by_recovery_key(self, key_hash: str) -> str | None:
+        with self._lock:
+            row = self._d.execute("SELECT account_id FROM recovery_keys WHERE key_hash = ?", (key_hash,)).fetchone()
+        return row[0] if row else None
+
+    def has_recovery_key(self, account_id: str) -> bool:
+        with self._lock:
+            return self._d.execute("SELECT 1 FROM recovery_keys WHERE account_id = ?", (account_id,)).fetchone() is not None
+
+    def delete_recovery_key(self, account_id: str) -> None:
+        with self._lock:
+            self._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (account_id,))
+
+    def start_pending(self, account_id: str, new_address_hash: str, cancel_hash: str, effective_on: str) -> bool:
+        """False when the account already has a recovery waiting."""
+        with self._lock:
+            return self._d.execute(
+                "INSERT OR IGNORE INTO pending_recoveries VALUES (?, ?, ?, ?)",
+                (account_id, new_address_hash, cancel_hash, effective_on),
+            ).rowcount == 1
+
+    def pending_of(self, account_id: str) -> tuple[str, str, str] | None:
+        """(new address hash, cancel hash, day it takes effect)."""
+        with self._lock:
+            row = self._d.execute(
+                "SELECT new_address_hash, cancel_hash, effective_on FROM pending_recoveries WHERE account_id = ?", (account_id,)
+            ).fetchone()
+        return tuple(row) if row else None
+
+    def due_pending(self, today: str, new_address_hashes: list[str] | None = None) -> list[tuple[str, str]]:
+        """(account id, new address hash) for each recovery whose day has come, optionally only
+        those moving to one of the given address hashes."""
+        with self._lock:
+            rows = self._d.execute(
+                "SELECT account_id, new_address_hash FROM pending_recoveries WHERE effective_on <= ?", (today,)
+            ).fetchall()
+        return [(a, h) for a, h in rows if new_address_hashes is None or h in new_address_hashes]
+
+    def delete_pending(self, account_id: str) -> bool:
+        with self._lock:
+            return self._d.execute("DELETE FROM pending_recoveries WHERE account_id = ?", (account_id,)).rowcount == 1
+
+    def apply_pending(self, account_id: str, new_address_hash: str) -> bool:
+        """Moves the account to its new address and ends the wait, in one transaction. False,
+        and the wait ends with nothing moved, when the new address now belongs to an account."""
+        with self._lock:
+            self._d.execute("BEGIN IMMEDIATE")
+            try:
+                moved = False
+                try:
+                    moved = self._d.execute(
+                        "UPDATE accounts SET address_hash = ? WHERE account_id = ?", (new_address_hash, account_id)
+                    ).rowcount == 1
+                except sqlite3.IntegrityError:
+                    moved = False
+                self._d.execute("DELETE FROM pending_recoveries WHERE account_id = ?", (account_id,))
+                self._d.execute("COMMIT")
+            except BaseException:
+                self._d.execute("ROLLBACK")
+                raise
+            return moved
+
     # linked sign-ins -------------------------------------------------------
 
     def account_by_subjects(self, hashes: list[str]) -> tuple[Account, str, str] | None:
@@ -268,6 +357,8 @@ class AccountStore:
             try:
                 gone = self._d.execute("DELETE FROM accounts WHERE account_id = ?", (account_id,)).rowcount
                 self._d.execute("DELETE FROM linked_sign_ins WHERE account_id = ?", (account_id,))
+                self._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (account_id,))
+                self._d.execute("DELETE FROM pending_recoveries WHERE account_id = ?", (account_id,))
                 if gone:
                     self._d.execute("INSERT OR IGNORE INTO deletion_ledger VALUES (?, ?)", (ledger_hash, ledger_expires_on))
                 self._d.execute("COMMIT")

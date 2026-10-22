@@ -26,9 +26,11 @@ from pydantic import BaseModel, Field, StrictBool
 from starlette.concurrency import run_in_threadpool
 
 from engine.accounts.config import AccountsConfig
+from engine.accounts.contacts import ContactStore
 from engine.accounts.keys import AccountsKeyError, KeyRing, parse_previous
 from engine.accounts.service import AccountsService, Mailer, Result, Session
 from engine.accounts.store import AccountStore
+from engine.api.contact_cipher import ContactCipher, ContactKeyError, parse_previous as parse_previous_contact
 from engine.api.provider_tokens import ProviderVerifier
 from engine.api.ratelimit import client_ip, network_of
 
@@ -89,10 +91,20 @@ def build_runtime(config: AccountsConfig, env: dict, mailer: Mailer | None = Non
         raise AccountsConfigError(
             "CIC_ACCOUNTS_ENABLED is on but no sign-in mail provider is configured; a sign-in code cannot be sent"
         )
+    try:
+        cipher = ContactCipher(
+            env.get("CIC_ACCOUNTS_CONTACT_KEY", ""), key_id=env.get("CIC_ACCOUNTS_CONTACT_KEY_ID", "c1"),
+            previous=parse_previous_contact(env.get("CIC_ACCOUNTS_CONTACT_KEYS_PREVIOUS")),
+            other_secrets=(env.get("CIC_ACCOUNTS_KEY", ""), env.get("CIC_ACCOUNTS_SESSION_KEY", "")),
+        )
+    except ContactKeyError as exc:
+        raise AccountsConfigError(f"CIC_ACCOUNTS_ENABLED is on but the contact key is not usable: {exc}") from exc
     store = AccountStore(config.durable_db_path, config.ephemeral_db_path)
+    contacts = ContactStore(config.contact_db_path, cipher)
     clients = {"google": env.get("CIC_ACCOUNTS_GOOGLE_CLIENT_ID", ""), "apple": env.get("CIC_ACCOUNTS_APPLE_CLIENT_ID", "")}
     verifier = ProviderVerifier(clients) if any(clients.values()) else None
-    service = AccountsService(store, keys, QueuedMailer(mailer), clock=clock, verifier=verifier)
+    service = AccountsService(store, keys, QueuedMailer(mailer), clock=clock, verifier=verifier,
+                              contacts=contacts)
     service.reapply_ledger()
     return AccountsRuntime(service=service)
 
@@ -109,11 +121,20 @@ class QueuedMailer:
     def send_code(self, address: str, code: str) -> None:
         self._pool.submit(self._send, address, code)
 
+    def send_notice(self, address: str, kind: str, fields: dict) -> None:
+        self._pool.submit(self._send_notice, address, kind, fields)
+
     def _send(self, address: str, code: str) -> None:
         try:
             self._mailer.send_code(address, code)
         except Exception:  # noqa: BLE001 - the address and code must not reach a log
             logger.warning("a queued sign-in code could not be sent")
+
+    def _send_notice(self, address: str, kind: str, fields: dict) -> None:
+        try:
+            self._mailer.send_notice(address, kind, fields)
+        except Exception:  # noqa: BLE001 - the address and codes must not reach a log
+            logger.warning("a queued notice could not be sent (kind=%s)", kind)
 
 
 class AccessLogFilter(logging.Filter):
@@ -141,6 +162,9 @@ def start_retention_thread(runtime: AccountsRuntime, *, every_seconds: int = 360
                 older = runtime.service.store.accounts_on_older_keys(runtime.service.keys.key_id)
                 if older:
                     logger.info("accounts still on an older address key: %d", older)
+                contacts = runtime.service.contacts
+                if contacts is not None and contacts.on_older_keys():
+                    logger.info("contacts still sealed under an older key: %d", contacts.on_older_keys())
             except Exception:  # noqa: BLE001 - a purge fault must not stop the loop
                 logger.exception("accounts purge failed")
 
@@ -179,6 +203,20 @@ class ChallengeBody(BaseModel):
 
 class NewAddressBody(BaseModel):
     new_address: str = Field(max_length=300)
+
+
+class AddressFinishBody(ChallengeBody):
+    new_address: str = Field(max_length=300)
+
+
+class RecoveryStartBody(BaseModel):
+    recovery_code: str = Field(max_length=80)
+    new_address: str = Field(max_length=300)
+
+
+class CancelBody(BaseModel):
+    address: str = Field(max_length=300)
+    cancel_code: str = Field(max_length=80)
 
 
 def install(app: FastAPI, runtime: AccountsRuntime) -> None:
@@ -353,13 +391,57 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         return {"status": "sent", "message": MESSAGES["sent"], "challenge": result.challenge}
 
     @app.post("/api/accounts/address/finish")
-    async def address_finish(body: ChallengeBody, request: Request):
+    async def address_finish(body: AddressFinishBody, request: Request):
         _guard(request)
         result = await run_in_threadpool(
-            service.change_address_finish, await _session(request), body.challenge, body.code, _network(request)
+            service.change_address_finish, await _session(request), body.challenge, body.code, _network(request), body.new_address
         )
         if result.status != "ok":
             await _refuse(result, delay=True)
+        return {"status": "ok"}
+
+    @app.post("/api/accounts/recovery/code")
+    async def recovery_code(request: Request):
+        _guard(request)
+        result = await run_in_threadpool(service.recovery_code_make, await _session(request))
+        if result.status != "ok":
+            await _refuse(result, delay=False)
+        return {"status": "ok", "recovery_code": result.data["recovery_code"]}
+
+    @app.post("/api/accounts/recovery/start")
+    async def recovery_start(body: RecoveryStartBody, request: Request):
+        _guard(request)
+        began = time.monotonic()
+        result = await run_in_threadpool(service.recovery_start, body.recovery_code, body.new_address, _network(request))
+        await _floor(began)
+        if result.status != "sent":
+            await _refuse(result, delay=False)
+        return {"status": "sent", "message": MESSAGES["sent"], "challenge": result.challenge}
+
+    @app.post("/api/accounts/recovery/finish")
+    async def recovery_finish(body: AddressFinishBody, request: Request):
+        _guard(request)
+        result = await run_in_threadpool(
+            service.recovery_prove, body.challenge, body.code, body.new_address, _network(request)
+        )
+        if result.status != "ok":
+            await _refuse(result, delay=True)
+        return {"status": "ok", **result.data}
+
+    @app.post("/api/accounts/recovery/cancel")
+    async def recovery_cancel(body: CancelBody, request: Request):
+        _guard(request)
+        result = await run_in_threadpool(service.recovery_cancel, body.address, body.cancel_code, _network(request))
+        if result.status != "ok":
+            await _refuse(result, delay=True)
+        return {"status": "ok"}
+
+    @app.post("/api/accounts/recovery/cancel-signed-in")
+    async def recovery_cancel_signed_in(request: Request):
+        _guard(request)
+        result = await run_in_threadpool(service.recovery_cancel_signed_in, await _session(request))
+        if result.status != "ok":
+            await _refuse(result, delay=False)
         return {"status": "ok"}
 
     @app.post("/api/accounts/export")

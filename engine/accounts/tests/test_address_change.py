@@ -13,14 +13,14 @@ def test_an_address_change_needs_the_old_address_then_a_code_to_the_new_one(svc,
     other = sign_in(svc, mailer, ADDR, "198.51.100.30")  # a second device
     started = svc.change_address_start(session, NEW, NET)
     assert started.status == "sent"
-    assert svc.change_address_finish(session, started.challenge, "000000", NET).status == "wrong"
-    assert svc.change_address_finish(svc.session(cookie), started.challenge, mailer.last_code(NEW), NET).status == "ok"
+    assert svc.change_address_finish(session, started.challenge, "000000", NET, NEW).status == "wrong"
+    assert svc.change_address_finish(svc.session(cookie), started.challenge, mailer.last_code(NEW), NET, NEW).status == "ok"
     assert svc.session(other) is None and svc.session(cookie) is not None
     clock.advance(901)
     old = svc.start_sign_in(ADDR, NET).challenge
     assert svc.finish_sign_in(old, ADDR, mailer.last_code(ADDR), NET).status == "needs_age_answer"  # no account at the old address
     new = svc.start_sign_in(NEW, NET).challenge
-    assert svc.finish_sign_in(new, NEW, mailer.last_code(NEW), NET).status == "ok"
+    assert svc.finish_sign_in(new, NEW, mailer.last_code(NEW), NET, NEW).status == "ok"
 
 
 def test_an_address_change_to_another_account_s_address_sends_nothing_and_changes_nothing(svc, mailer, clock, store):
@@ -30,7 +30,7 @@ def test_an_address_change_to_another_account_s_address_sends_nothing_and_change
     started = svc.change_address_start(session, "bob@example.org", NET)
     assert started.status == "sent" and len(mailer.sent) == before
     for guess in ("000000", "123456", "654321"):
-        assert svc.change_address_finish(svc.session(cookie), started.challenge, guess, NET).status == "wrong"
+        assert svc.change_address_finish(svc.session(cookie), started.challenge, guess, NET, "bob@example.org").status == "wrong"
     assert store.account_by_hashes(svc.keys.candidate_hashes(ADDR)) is not None
 
 
@@ -51,7 +51,7 @@ def test_a_challenge_for_one_account_s_change_cannot_finish_another(svc, mailer,
     other, other_cookie = stepped_up_session(svc, mailer, clock, "bob@example.org", "192.0.2.9")
     started = svc.change_address_start(session, NEW, NET)
     code = mailer.last_code(NEW)
-    assert svc.change_address_finish(other, started.challenge, code, NET).status == "wrong"
+    assert svc.change_address_finish(other, started.challenge, code, NET, NEW).status == "wrong"
 
 
 def test_many_accounts_cannot_send_more_than_a_few_codes_to_one_inbox(svc, mailer, clock):
