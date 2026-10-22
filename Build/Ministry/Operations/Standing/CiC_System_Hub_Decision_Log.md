@@ -6849,3 +6849,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, thirty-third addendum of the same day. A parent permits a 13-to-17-year-old by signing in as an adult and certifying parenthood and permission, with no card check. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, thirty-fourth addendum of the same day. A child under 13 needs an extra parent approval on top of a teacher's call; where the parent is the only consenting adult, the parent's route already includes it. Consent for youth-pastor groups of 13-to-17-year-olds remains open. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
+
+63, thirty-fifth addendum of the same day. Change order to the thirty-fourth: a teacher in an education class can admit a younger child alone; the extra parent approval for under-13s is for youth pastors and other non-educational settings. Ruling 51's reading for teacher groups is withdrawn. Youth-group 13-to-17 consent remains open. The Go Deeper Decision-Log entry of the same date carries the ruling.

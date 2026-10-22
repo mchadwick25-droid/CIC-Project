@@ -1049,3 +1049,15 @@ Read by the build thread, to be confirmed as the slice is designed:
 - Where the parent is the only consenting adult, as in ruling 49, the parent's certification and card check are already the parent's approval, so nothing more is added.
 - Until both are in place the child has no account and nothing is kept about them but the handle the teacher entered.
 - The consent of a youth-pastor group for 13-to-17-year-olds is not settled by this ruling and remains open.
+
+## 2026-10-22 — Change order: the extra parent approval is for non-educational groups; a teacher in a class can admit a younger child alone (ruled by Mark)
+
+System Hub decision 63, thirty-fifth addendum. This corrects the build thread's reading in ruling 51, which put the extra approval on teachers' groups.
+
+52. Ruled: in a teacher's education class the teacher can legally admit a younger child, so no extra parent approval is added there; ruling 44 stands for classes. The extra parent approval for a child under 13 is for youth pastors and other non-educational settings.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- In a non-educational group, a child under 13 is admitted only after the parent signs in as an adult and approves that child, on the route of ruling 49 (parenthood, permission and the small card check). The leader alone cannot admit the child. This changes ruling 44, which said a youth pastor cannot admit under-13s at all: now a youth pastor can host them, but only through the parent.
+- The school footing does not cover a non-educational group, so the "educational use" statement of ruling 49 cannot be made for it. The parent's statement must say what the use is. The child's data is still never reused, including for training. The statement shown to the parent for this route is written for it, not borrowed from the school one.
+- Ruling 51's reading for teacher groups is withdrawn.
+- Open: consent for a youth-pastor group's 13-to-17-year-olds. Under ruling 50 each one already has a parent's permission to hold an account; whether the group needs anything more is not settled.
