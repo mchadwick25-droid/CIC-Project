@@ -1009,3 +1009,13 @@ Read by the build thread, to be confirmed as the slice is designed:
 - "Legal" means the lawyer's answer decides the mechanism. A parent's consent for a child under 13 has to be verifiable under COPPA, and a teacher acts as a school authorising educational use. The method of parent consent is still open (lawyer list). Until the lawyer has answered, nothing for under-13s is built, as in ruling 43.
 - The route carries the limits that make it educational: no reuse of the child's data, including training; the data kept small; the adult console and the rule that a child never buys (rulings 28 and 29); and an adult who can read the conversations (ruling 31).
 - Draft wording for the parent, not approved, for the lawyer and then a participant-facing check: "This system is designed for people 13 and over. Parents and teachers can allow a younger child to use it for learning. If you do, you stay in charge: you can read their conversations, set their limits and close the account at any time."
+
+## 2026-10-22 — The under-13 route is designed here, not sent to a lawyer (ruled by Mark)
+
+System Hub decision 63, thirty-first addendum. This changes the gating in rulings 43 and 47, which held every under-13 slice until the lawyer answered.
+
+48. Ruled: the design of the under-13 route is done by the build thread and the project lead, not sent to a lawyer. The gate "nothing for under-13s is built until the lawyer has answered" is withdrawn.
+
+Recorded by the build thread:
+- The design follows the rules the FTC publishes, as the leading educational products do: school consent for educational use only, with no commercial reuse of the child's data; and direct verifiable parental consent for anything else. The search summaries behind this are secondary, and the design is read against the FTC's own COPPA FAQ text, Parts M and N, when each slice is specified.
+- The build thread is not a lawyer. Whether to have a lawyer read the finished design before it is used in production is a separate choice, the project lead's, and is not part of designing it.
