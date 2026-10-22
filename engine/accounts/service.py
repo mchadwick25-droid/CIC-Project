@@ -140,6 +140,7 @@ class AccountsService:
         """Drops expired challenges, sessions, counters and ledger entries, and carries out any
         recovery whose days are up."""
         self._apply_due_recoveries()
+        self._undo_stale_reservations()
         self._sweep_contacts()
         return self.store.purge_ephemeral(self.now()) + self.store.purge_durable(self.today().isoformat())
 
@@ -544,8 +545,8 @@ class AccountsService:
             return Result("wrong")
         if not self.store.set_address_hash(session.account_id, checked.address_hash):
             return Result("wrong")
-        if self.store.pending_of(session.account_id) is not None:
-            self._end_recovery(session.account_id)
+        if self.store.end_recovery(session.account_id) and self.contacts is not None:
+            self.contacts.forget_pending(session.account_id)
         if self.contacts is not None:
             self.contacts.put(session.account_id, norm)
         self.store.delete_sessions_of(session.account_id, except_token_hash=session.token_hash)
@@ -559,10 +560,10 @@ class AccountsService:
         keyed hash."""
         if not session.stepped_up:
             return Result("step_up_needed")
-        if self.store.pending_of(session.account_id) is not None:
-            self._end_recovery(session.account_id)
         code = secrets.token_urlsafe(16)
-        self.store.put_recovery_key(session.account_id, self.keys.secret_hash("recovery", code), self.today().isoformat())
+        if self.store.replace_recovery_key(session.account_id, self.keys.secret_hash("recovery", code), self.today().isoformat()):
+            if self.contacts is not None:
+                self.contacts.forget_pending(session.account_id)
         return Result("ok", data={"recovery_code": code})
 
     def recovery_start(self, recovery_code, new_address, network: str) -> Result:
@@ -583,7 +584,7 @@ class AccountsService:
         account_id, used_key = found if found else (None, None)
         usable = (
             account_id is not None and self.contacts is not None and self.contacts.get(account_id) is not None
-            and self.store.account_by_hashes(candidates) is None and self.store.pending_of(account_id) is None
+            and self.store.account_by_hashes(candidates) is None and self.store.pending_of(account_id, include_unnotified=True) is None
         )
         return self._open_challenge("recovery", candidates[0], account_id, norm if usable else None, bound=used_key)
 
@@ -627,7 +628,10 @@ class AccountsService:
                 self.contacts.forget_pending(account_id)
             return Result("send_failed")
         # Until the notice is accepted the waiting move never takes effect, even after a crash.
-        self.store.mark_notified(account_id, cancel_hash)
+        # If the row is gone, the owner cancelled or replaced the code while the notice was
+        # going out, and nothing is waiting.
+        if not self.store.mark_notified(account_id, cancel_hash):
+            return Result("wrong")
         self._spend(checked)
         return Result("ok", data={"recovery_code": new_code, "effective_on": effective_on})
 
@@ -644,26 +648,31 @@ class AccountsService:
         held = self.keys.secret_candidates("cancel", given)
         if pending is None or pending[1] not in held:
             return Result("wrong")
-        self._end_recovery(account.account_id)
-        return Result("ok")
+        return self._end_recovery(account.account_id)
 
     def recovery_cancel_signed_in(self, session: Session) -> Result:
         """A signed-in owner stops a recovery waiting on their account."""
-        if self.store.pending_of(session.account_id) is None:
-            return Result("wrong")
-        self._end_recovery(session.account_id)
-        return Result("ok")
+        return self._end_recovery(session.account_id)
 
-    def _end_recovery(self, account_id: str) -> None:
+    def _end_recovery(self, account_id: str) -> Result:
         """Ends a waiting recovery and the recovery code that was handed out with it."""
-        self.store.delete_pending(account_id)
+        if not self.store.end_recovery(account_id):
+            return Result("wrong")
         if self.contacts is not None:
             self.contacts.forget_pending(account_id)
-        self.store.delete_recovery_key(account_id)
+        return Result("ok")
 
     def _recovery_banner(self, account_id: str) -> dict | None:
         pending = self.store.pending_of(account_id)
         return {"effective_on": pending[2]} if pending else None
+
+    def _undo_stale_reservations(self) -> None:
+        """Takes back a recovery reserved on an earlier day whose notice was never accepted,
+        such as after a crash mid-send, so it cannot block a later recovery or hold an address."""
+        for account_id, cancel_hash, new_key, used_key in self.store.stale_reservations(self.today().isoformat()):
+            if self.store.undo_recovery(account_id, cancel_hash, new_key, used_key, self.today().isoformat()):
+                if self.contacts is not None:
+                    self.contacts.forget_pending(account_id)
 
     def _apply_due_recoveries(self) -> None:
         """Carries out each recovery whose day has come: the account moves to the new address,

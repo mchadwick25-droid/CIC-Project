@@ -323,13 +323,58 @@ def test_a_second_challenge_with_the_same_recovery_code_sends_no_decoy_notice_an
     assert svc.recovery_cancel(ADDR, mailer.notices[-1][2]["cancel_code"], NET).status == "ok"
 
 
-def test_a_waiting_move_whose_notice_was_never_accepted_is_never_carried_out(svc, mailer, clock, store, contacts):
-    session, cookie, code = _owner_with_code(svc, mailer, clock)
-    key = store._d.execute("SELECT key_hash FROM recovery_keys").fetchone()[0]
-    assert store.begin_recovery(session.account_id, key, "k1:new", "day", [svc.keys.address_hash(NEW)], svc.keys.address_hash(NEW),
-                                "k1:cancel", (svc.today() + timedelta(days=8)).isoformat())
+def _reserve_without_notice(svc, store, contacts, session):
+    key = store._d.execute("SELECT key_hash FROM recovery_keys WHERE account_id = ?", (session.account_id,)).fetchone()[0]
+    assert store.begin_recovery(session.account_id, key, "k1:new", svc.today().isoformat(), [svc.keys.address_hash(NEW)],
+                                svc.keys.address_hash(NEW), "k1:cancel", (svc.today() + timedelta(days=8)).isoformat())
     contacts.put_pending(session.account_id, NEW)  # a crash here, before the notice is accepted
+    return key
+
+
+def test_a_waiting_move_whose_notice_was_never_accepted_is_never_carried_out_and_is_cleared_the_next_day(svc, mailer, clock, store, contacts):
+    session, cookie, code = _owner_with_code(svc, mailer, clock)
+    key = _reserve_without_notice(svc, store, contacts, session)
+    assert svc.me(svc.session(cookie))["recovery_pending"] is None
+    challenge = svc.start_sign_in(NEW, NET).challenge
+    assert svc.finish_sign_in(challenge, NEW, mailer.last_code(NEW), NET).status == "needs_age_answer"  # no false wait for the address
     clock.advance(9 * 86400)
     svc.purge()
     assert store.account(session.account_id).address_hash == svc.keys.address_hash(ADDR)
-    assert store.pending_of(session.account_id) is not None  # still waiting; it was never carried out
+    assert store.pending_of(session.account_id, include_unnotified=True) is None and contacts.pending(session.account_id) is None
+    assert store.account_by_recovery_key([key]) is not None  # the code it spent is back
+    assert svc.recovery_start(code, NEW, THIEF).status == "sent" and mailer.sent[-1][0] == NEW  # and a new recovery can start
+
+
+def test_an_undone_reservation_restores_nothing_the_owner_has_since_replaced(svc, mailer, clock, store, contacts):
+    session, cookie, code = _owner_with_code(svc, mailer, clock)
+    key = _reserve_without_notice(svc, store, contacts, session)
+    mine = svc.session(cookie)
+    svc.store.step_up_session(mine.token_hash, svc.now() + 600)
+    fresh = svc.recovery_code_make(svc.session(cookie)).data["recovery_code"]
+    assert store.undo_recovery(session.account_id, "k1:cancel", "k1:new", key, "day") is False
+    assert store.account_by_recovery_key([key]) is None
+    assert store.account_by_recovery_key(svc.keys.secret_candidates("recovery", fresh)) is not None
+
+
+def test_an_undo_restores_nothing_when_the_replacement_code_is_already_gone(svc, mailer, clock, store, contacts):
+    session, cookie, code = _owner_with_code(svc, mailer, clock)
+    key = _reserve_without_notice(svc, store, contacts, session)
+    store._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (session.account_id,))
+    store.undo_recovery(session.account_id, "k1:cancel", "k1:new", key, "day")
+    assert store.account_by_recovery_key([key]) is None
+
+
+def test_a_recovery_cancelled_while_its_notice_goes_out_is_not_reported_as_waiting(svc, mailer, clock, store, contacts):
+    session, cookie, code = _owner_with_code(svc, mailer, clock)
+    started = svc.recovery_start(code, NEW, THIEF)
+    proved = mailer.last_code(NEW)
+    real = mailer.send_notice
+
+    def cancelling(address, kind, fields):
+        real(address, kind, fields)
+        assert svc.recovery_cancel_signed_in(svc.session(cookie)).status == "ok"
+
+    mailer.send_notice = cancelling
+    result = svc.recovery_prove(started.challenge, proved, NEW, THIEF)
+    assert result.status == "wrong" and "recovery_code" not in result.data
+    assert store.pending_of(session.account_id, include_unnotified=True) is None and contacts.pending(session.account_id) is None

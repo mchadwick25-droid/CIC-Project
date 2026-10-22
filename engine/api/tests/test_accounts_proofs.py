@@ -78,7 +78,9 @@ REQUIRED = {
         "test_signing_in_at_the_new_address_during_the_wait_opens_no_account_and_says_when",
         "test_recovery_and_cancel_codes_survive_a_rotation_of_the_address_key",
         "test_a_second_challenge_with_the_same_recovery_code_sends_no_decoy_notice_and_leaves_the_real_one_working",
-        "test_a_waiting_move_whose_notice_was_never_accepted_is_never_carried_out",
+        "test_a_waiting_move_whose_notice_was_never_accepted_is_never_carried_out_and_is_cleared_the_next_day",
+        "test_an_undone_reservation_restores_nothing_the_owner_has_since_replaced",
+        "test_a_recovery_cancelled_while_its_notice_goes_out_is_not_reported_as_waiting",
     ],
     "engine/api/tests/test_contact_cipher.py": [
         "test_a_sealed_address_opens_with_its_key_and_context_only",

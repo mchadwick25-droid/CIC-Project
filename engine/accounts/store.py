@@ -49,7 +49,10 @@ CREATE TABLE IF NOT EXISTS pending_recoveries (
   new_address_hash TEXT NOT NULL,
   cancel_hash      TEXT NOT NULL,
   effective_on     TEXT NOT NULL,
-  notified         INTEGER NOT NULL DEFAULT 0
+  notified         INTEGER NOT NULL DEFAULT 0,
+  used_key_hash    TEXT NOT NULL,
+  new_key_hash     TEXT NOT NULL,
+  reserved_on      TEXT NOT NULL
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS deletion_ledger (
   ledger_hash TEXT PRIMARY KEY,
@@ -192,18 +195,6 @@ class AccountStore:
 
     # recovery ---------------------------------------------------------------
 
-    def put_recovery_key(self, account_id: str, key_hash: str, day: str) -> None:
-        """The account's recovery code, as a keyed hash. A new one replaces the old."""
-        with self._lock:
-            self._d.execute("BEGIN IMMEDIATE")
-            try:
-                self._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (account_id,))
-                self._d.execute("INSERT INTO recovery_keys VALUES (?, ?, ?)", (key_hash, account_id, day))
-                self._d.execute("COMMIT")
-            except BaseException:
-                self._d.execute("ROLLBACK")
-                raise
-
     def account_by_recovery_key(self, key_hashes: list[str]) -> tuple[str, str] | None:
         """(account id, the stored hash) for a recovery code, under any live key."""
         marks = ",".join("?" * len(key_hashes))
@@ -216,10 +207,6 @@ class AccountStore:
     def has_recovery_key(self, account_id: str) -> bool:
         with self._lock:
             return self._d.execute("SELECT 1 FROM recovery_keys WHERE account_id = ?", (account_id,)).fetchone() is not None
-
-    def delete_recovery_key(self, account_id: str) -> None:
-        with self._lock:
-            self._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (account_id,))
 
     def begin_recovery(self, account_id: str, used_key_hash: str, new_key_hash: str, day: str,
                        new_address_hashes: list[str], new_address_hash: str, cancel_hash: str, effective_on: str) -> bool:
@@ -238,8 +225,8 @@ class AccountStore:
                     f"SELECT 1 FROM accounts WHERE address_hash IN ({marks})", new_address_hashes
                 ).fetchone() is None
                 ok = ok and self._d.execute(
-                    "INSERT OR IGNORE INTO pending_recoveries VALUES (?, ?, ?, ?, 0)",
-                    (account_id, new_address_hash, cancel_hash, effective_on),
+                    "INSERT OR IGNORE INTO pending_recoveries VALUES (?, ?, ?, ?, 0, ?, ?, ?)",
+                    (account_id, new_address_hash, cancel_hash, effective_on, used_key_hash, new_key_hash, day),
                 ).rowcount == 1
                 if ok:
                     self._d.execute("INSERT INTO recovery_keys VALUES (?, ?, ?)", (new_key_hash, account_id, day))
@@ -254,15 +241,19 @@ class AccountStore:
         marks = ",".join("?" * len(new_address_hashes))
         with self._lock:
             row = self._d.execute(
-                f"SELECT effective_on FROM pending_recoveries WHERE new_address_hash IN ({marks})", new_address_hashes
+                f"SELECT effective_on FROM pending_recoveries WHERE notified = 1 AND new_address_hash IN ({marks})",
+                new_address_hashes
             ).fetchone()
         return row[0] if row else None
 
-    def pending_of(self, account_id: str) -> tuple[str, str, str] | None:
-        """(new address hash, cancel hash, day it takes effect)."""
+    def pending_of(self, account_id: str, *, include_unnotified: bool = False) -> tuple[str, str, str] | None:
+        """(new address hash, cancel hash, day it takes effect). A move whose notice was never
+        accepted is not counted unless asked for."""
         with self._lock:
             row = self._d.execute(
-                "SELECT new_address_hash, cancel_hash, effective_on FROM pending_recoveries WHERE account_id = ?", (account_id,)
+                "SELECT new_address_hash, cancel_hash, effective_on FROM pending_recoveries WHERE account_id = ?"
+                + ("" if include_unnotified else " AND notified = 1"),
+                (account_id,),
             ).fetchone()
         return tuple(row) if row else None
 
@@ -281,6 +272,45 @@ class AccountStore:
                 "UPDATE pending_recoveries SET notified = 1 WHERE account_id = ? AND cancel_hash = ?", (account_id, cancel_hash)
             ).rowcount == 1
 
+    def stale_reservations(self, today: str) -> list[tuple[str, str, str, str]]:
+        """(account id, cancel hash, replacement key hash, spent key hash) for each reserved move
+        from an earlier day whose notice was never accepted."""
+        with self._lock:
+            return [tuple(r) for r in self._d.execute(
+                "SELECT account_id, cancel_hash, new_key_hash, used_key_hash FROM pending_recoveries "
+                "WHERE notified = 0 AND reserved_on < ?", (today,)
+            )]
+
+    def end_recovery(self, account_id: str) -> bool:
+        """Ends a waiting move, and the recovery code handed out with it, in one transaction.
+        False when nothing was waiting, and then no recovery code is touched."""
+        with self._lock:
+            self._d.execute("BEGIN IMMEDIATE")
+            try:
+                ended = self._d.execute("DELETE FROM pending_recoveries WHERE account_id = ?", (account_id,)).rowcount == 1
+                if ended:
+                    self._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (account_id,))
+                self._d.execute("COMMIT")
+            except BaseException:
+                self._d.execute("ROLLBACK")
+                raise
+            return ended
+
+    def replace_recovery_key(self, account_id: str, key_hash: str, day: str) -> bool:
+        """The owner's new recovery code: any waiting move ends, every earlier code is gone and
+        the new one is stored, in one transaction. True when a waiting move was ended."""
+        with self._lock:
+            self._d.execute("BEGIN IMMEDIATE")
+            try:
+                ended = self._d.execute("DELETE FROM pending_recoveries WHERE account_id = ?", (account_id,)).rowcount == 1
+                self._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (account_id,))
+                self._d.execute("INSERT INTO recovery_keys VALUES (?, ?, ?)", (key_hash, account_id, day))
+                self._d.execute("COMMIT")
+            except BaseException:
+                self._d.execute("ROLLBACK")
+                raise
+            return ended
+
     def undo_recovery(self, account_id: str, cancel_hash: str, new_key_hash: str, used_key_hash: str, day: str) -> bool:
         """Takes back a recovery whose notice could not be sent: the waiting move written with
         this cancel code is removed, the replacement code is removed and the code it spent comes
@@ -292,18 +322,17 @@ class AccountStore:
                     "DELETE FROM pending_recoveries WHERE account_id = ? AND cancel_hash = ? AND notified = 0",
                     (account_id, cancel_hash),
                 ).rowcount == 1
-                if undone:
-                    self._d.execute("DELETE FROM recovery_keys WHERE key_hash = ?", (new_key_hash,))
+                if undone and self._d.execute(
+                    "DELETE FROM recovery_keys WHERE key_hash = ? AND account_id = ?", (new_key_hash, account_id)
+                ).rowcount == 1:
+                    # The spent code comes back only if the replacement is still the account's; if
+                    # the owner has replaced or ended it since, nothing is restored.
                     self._d.execute("INSERT OR IGNORE INTO recovery_keys VALUES (?, ?, ?)", (used_key_hash, account_id, day))
                 self._d.execute("COMMIT")
             except BaseException:
                 self._d.execute("ROLLBACK")
                 raise
             return undone
-
-    def delete_pending(self, account_id: str) -> bool:
-        with self._lock:
-            return self._d.execute("DELETE FROM pending_recoveries WHERE account_id = ?", (account_id,)).rowcount == 1
 
     def apply_pending(self, account_id: str, new_address_hash: str, today: str) -> bool:
         """Moves the account to its new address and ends the wait, in one transaction, only if the
