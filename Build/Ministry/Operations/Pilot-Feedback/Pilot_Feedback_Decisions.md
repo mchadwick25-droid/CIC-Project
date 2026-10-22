@@ -295,3 +295,9 @@ Decision (Mark, 2026-10-22): a coupon is a sponsor code made for a named person.
 - Existing routes, read in `Build/Ministry/Features/Go-Deeper/Decision-Log.md` (entries of 2026-10-04 and 2026-10-15) and not run: `POST /api/admin/deeper/mint` (a pack and a count, as separate codes or one code; a gift, not a sale) and `POST /api/admin/deeper/tester` (more tokens and a last day; $0 toward the door).
 - Why outside: the design stores no name, email or note with a code, so the meter and the conversations share no key with a person. A label on the code would be a change order on that ruling and on the privacy page.
 - Pay as you go: already designed and built as Go Deeper. Open items are in the Go Deeper decision log (Stripe stored-value answer, legal and tax questions, refund and expiry wording, AWS budget ceiling). Nothing new decided here.
+
+### Coupon delivery: one button, inside the system — 2026-10-22
+Decision (Mark, 2026-10-22), superseding "Mark keeps his own list, nothing is built" above for the long run: Mark wants to grant a coupon with one button, approved by him, with no emailing and nothing sent by hand. The coupon is delivered inside the system. Mark chose to wait for accounts rather than build an interim link. Nothing is built.
+- Requirement for the accounts build thread: an admin control to pick an account and grant tokens to it with one tap. It must respect the 2026-10-05 accounts change order (decision 53): no name stored, the account store holds only a scrambled address value. How the admin finds an account without storing a name is for that thread to design and bring to Mark.
+- Until accounts exist, coupons are codes Mark mints (mint or tester route) and passes on himself.
+- State checked 2026-10-22: no accounts module in `engine/`; accounts were designed to ship dark behind `CIC_ACCOUNTS_ENABLED`, after the door's observe week. Whether any accounts branch exists was not checked. The engine has no email sending.
