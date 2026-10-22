@@ -922,3 +922,17 @@ Read by the build thread, to be confirmed as the slice is designed:
 System Hub decision 63, twenty-first addendum. This settles one of the open points of ruling 33.
 
 38. Ruled: a group's free trial block of 550 tokens a student is given once and ends after 90 days. It does not refill. Tokens unspent at the end lapse, and the group then pays as you go, with an adult buying (ruling 28). The most the block costs is 550 times the number of students named. Still open from ruling 33: how the number of students is checked, and one trial per adult or per organisation.
+
+## 2026-10-22 — The teacher can move credits between students (ruled by Mark)
+
+System Hub decision 63, twenty-second addendum. This adds to the per-student share in ruling 33.
+
+39. Ruled: the adult who runs a group can move credits from one student to another, so a student who needs more can be given more and one who has less can be given less.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- A move works on the unspent part of each student's share of the group's pool, never on tokens already used, and never takes a share below what that student has used this block.
+- A move stays inside the group. It cannot send credits to a person outside it, to the adult's personal balance, or to another group.
+- Each move is logged with the adult, the two students, the amount and the time. The adult sees the log. It does not show students' conversations.
+- It changes nothing about the 90 days of ruling 38, or about the group pool's total.
+- It applies to groups of minors and groups of adults. A parent's gift to one child (ruling 28) is the child's own and is not moved by a group's adult.
+- Open for the slice design: whether a student is told when their share changes, and whether a move can be reversed.
