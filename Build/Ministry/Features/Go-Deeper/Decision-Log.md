@@ -954,3 +954,15 @@ System Hub decision 63, twenty-fourth addendum. This narrows ruling 40.
 System Hub decision 63, twenty-fifth addendum. This closes the last open points of ruling 33.
 
 42. Ruled: an adult gets one free trial. There is no check at the level of an organisation. The number of students is the number the adult names; the group cannot take more members than that. With rulings 34 to 41, the group trial is settled: 550 tokens a student, once, for 90 days, for a group of 25 or fewer (more than 25 asks the project lead), then pay as you go.
+
+## 2026-10-22 — Under 13 in a group: 13 and over is recommended, the parent or teacher makes the call (ruled by Mark)
+
+System Hub decision 63, twenty-sixth addendum. This qualifies ruling 27 for groups.
+
+43. Ruled: a group is recommended for students 13 and over, but the parent or the teacher can make the call to admit a younger child. Ruling 27 (no account of their own under 13) still holds for a personal account.
+
+Consequence recorded by the build thread, not yet settled:
+- The default is 13 and over. A group admits nobody under 13 until an adult has made the call for that group.
+- An adult's call is not by itself enough in law. For a child under 13 the lawful route is a school authorising educational use, or a parent's verified consent, with no reuse of the child's data (lawyer list). So the call is built as the adult's recorded decision plus whatever the lawyer says the route requires.
+- Nothing for under-13s is built until the lawyer has answered. Slices for groups are built for 13 and over first.
+- Open: whether a youth pastor or other non-school leader may make the call, or only a school teacher or a parent.
