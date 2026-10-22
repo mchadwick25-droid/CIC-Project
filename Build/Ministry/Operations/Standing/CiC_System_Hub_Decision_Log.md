@@ -6803,3 +6803,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, tenth addendum of the same day. Change order on ruling 6: accounts are for 18 and over, or 13 and over with a parent's permission; the age check uses a full date of birth, never stored. A 13-to-17 sign-in is told a parent must give permission; the flow is a later slice. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, eleventh addendum of the same day. Pay as you go and minors: only adults buy; a child never draws an adult's paid balance automatically; buying without an account stays, with an adult attestation (the build thread's stronger recommendation was not taken); a purchase a child made is refunded. The Go Deeper Decision-Log entry of the same date carries the ruling and the residual risk.
+
+63, twelfth addendum of the same day. Every minor account and every group of minors has an adult sign-off with a console to administer and monitor it; a minor or a group cannot exist without one. What the adult may read of a child's conversations is still open. The Go Deeper Decision-Log entry of the same date carries the ruling.

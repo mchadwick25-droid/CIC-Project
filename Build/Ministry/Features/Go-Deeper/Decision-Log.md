@@ -840,3 +840,13 @@ System Hub decision 63, eleventh addendum. Mark: he does not want children spend
 - A purchase a child made on an adult's card is refunded: the no-refund policy gets that plain exception.
 - An adult who buys while signed in is emailed a receipt note (the address is kept, ruling 25), so an unexpected purchase is seen.
 - Residual risk, accepted by Mark's choice: on a family device, a child can buy as an anonymous visitor using a saved card, Apple Pay or Link, and the attestation does not stop it. The refund exception and the receipt note are the remedies. The stronger option (a signed-in adult account and a fresh code before any purchase) stays available if purchases by children turn up.
+
+## 2026-10-22 — Every minor and every group has an adult who can administer and monitor it (ruled by Mark)
+
+System Hub decision 63, twelfth addendum.
+
+29. Ruled: a minor account (through the parent) and a group account of minors each need an adult, the sign-off, with a console to administer and to monitor. A minor or group cannot exist without one. Read at the time of ruling (the build thread's reading, to be confirmed as the slice is designed):
+- Administer: create, rename and remove the children's profiles (a handle only, never a name or email); issue, rotate and revoke a group's join code or QR; pause a child or a group; set the limits (a daily share per student, hours); gift tokens within the rules of ruling 28; buy a pack (an adult does); see and keep the record of consent (who gave it, when, how); export and delete a child's data; hand the sign-off to another adult when a teacher leaves, and add a second adult (a co-teacher or the other parent) so no child is left without one.
+- Monitor: crisis flags, in two tiers (imminent risk reaches the adult at once, ordinary flags go to a list), and a usage summary (conversations, time, tokens). Whether the adult can read a child's conversations, and on what terms, is the open decision recorded earlier and is not settled by this ruling.
+- Safeguards on the console itself: signing in and a fresh code before anything sensitive; a log of each time an adult looked at a child's data, which the child can see; plain words to the child about what the adult can see; and no monitoring of adult members of an adult group, whose leader sees counts and the roster only.
+- Build: a later slice (the adult console), after the parent-permission and group slices. A1a is the adult account that console sits on.
