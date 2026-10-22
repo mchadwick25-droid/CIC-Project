@@ -6787,3 +6787,29 @@ By the same report, he chose these on 2026-10-21:
 63, fourth addendum of the same day. The Opus review's remaining findings are ruled: provider-id keying with an old-address check and a waiting period on a recovery-code reset; a deletion ledger that holds no address hash; account deletion scrubs the matching review rows; farming limits keyed under the meter's secret; key rotation at sign-in with retirement dates. The Build Plan's changed lines are listed in the Go Deeper Decision-Log entry.
 
 63, fifth addendum of the same day. An account has no daily limit; a new account starts with what is left of the browser's current free window and then refills to 550 on its own day. The removal of the daily visitor counts is a separate fix to the live visitor path, built by its own thread. The Go Deeper Decision-Log entry of the same date carries the wording.
+
+63, sixth addendum of the same day. Mark confirmed ruling 3: the coupon button stays one button with the address typed once, nothing copied and nothing emailed by him. Slice A1a was reviewed by Opus and by a security pass; the Go Deeper Decision-Log entry of the same date records the findings and what each became. The accounts files stay out of backups until encrypted backups exist.
+
+63, seventh addendum of the same day. Slice A1a has had three rounds of substantial revision (a full Opus review, then two targeted rechecks) and has not cleared review: each round's fix introduced a new defect, and the third round's two fixes are untested by any reviewer. This is the review cap's escalation to Mark. The slice is built behind the flag and cannot be switched on in production (no mail provider, no encrypted backup). The Go Deeper Decision-Log entry records every finding.
+
+## 2026-10-22 - Cap ruling: accounts slice A1a
+
+Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accounts build had been through three rounds of substantial revision without a clean review, and ordered one more Opus review of the final code. The review's file is `Build/Ministry/Operations/Audits/Accounts_A1a_Opus_Review_Round4_2026-10-22.md`. By the review cap's own exception it does not count toward the three. Anything it finds that is a real defect is fixed in the same pull request; findings that are only matters of strength are recorded and not acted on.
+
+63, eighth addendum of the same day. Change order on decision 53: the sign-in address is kept, encrypted under its own key in its own file, for sending only; names are never stored. Slice A1c builds it after A1a clears review. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, ninth addendum of the same day. Change order on ruling 8: there are three kinds of account (personal, minor, and group with a teacher as the adult sign-off), because minors in schools and homeschool will use the system with CiC-built curriculum. The consent paths, the age line and what an adult can read are open pending the legal research. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, tenth addendum of the same day. Change order on ruling 6: accounts are for 18 and over, or 13 and over with a parent's permission; the age check uses a full date of birth, never stored. A 13-to-17 sign-in is told a parent must give permission; the flow is a later slice. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, eleventh addendum of the same day. Pay as you go and minors: only adults buy; a child never draws an adult's paid balance automatically; buying without an account stays, with an adult attestation (the build thread's stronger recommendation was not taken); a purchase a child made is refunded. The Go Deeper Decision-Log entry of the same date carries the ruling and the residual risk.
+
+63, twelfth addendum of the same day. Every minor account and every group of minors has an adult sign-off with a console to administer and monitor it; a minor or a group cannot exist without one. What the adult may read of a child's conversations is still open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, thirteenth addendum of the same day. What the adult sign-off of a minor or a group of minors sees is crisis flags and usage only; the adult cannot read a child's conversations. This closes the question left open in the twelfth addendum. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, fourteenth addendum of the same day. Change order to the thirteenth: the adult sign-off of a minor or a group of minors can read a child's conversations, for a class or a parent. The thirteenth addendum is superseded on this point. The Go Deeper Decision-Log entry of the same date carries the ruling and the safeguards.
+
+63, fifteenth addendum of the same day. An adult sign-off reads a child's conversations only inside an account; conversations without an account are saved to no one and cannot be monitored. Minors use the curriculum through an account under an adult. Residual risk: a child can still use the system without an account. Open: whether under-13s can be members of a teacher's group. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, sixteenth addendum of the same day. A group gets a free-trial block of 550 tokens for each student the teacher or adult names, once they set up an account; after it, pay as you go with adults buying. This replaces the "daily share per student" in the earlier addenda; there is no daily limit. Approval, size limit, checking and duration are open. The Go Deeper Decision-Log entry of the same date carries the ruling.
