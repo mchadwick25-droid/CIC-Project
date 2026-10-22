@@ -451,7 +451,7 @@ class VisitorUsage:
     """Two duration measures: the typical single conversation's length
     (session_seconds) and how much of one
     visitor's time the app held across however many sessions they opened
-    (visitor_total_seconds) - anon_cap allows several sessions a day, so
+    (visitor_total_seconds) - a visitor may open several sessions, so
     these can genuinely differ. Median alongside average on both, since a
     few very long or very short sessions would otherwise skew the average
     alone. A session runs from its start to its last message, reply or
@@ -938,7 +938,6 @@ def handle_message(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
-    daily_turn_cap_reached: bool = False,
     grant_for: GrantProvider | None = None,
     on_sentence: Callable[[dict], None] | None = None,
     qc_recorder=None,
@@ -1074,7 +1073,7 @@ def handle_message(
     )
 
     grant = resolve_grant(
-        grant_for, completed=len(history) // 2, free_cap=turn_module.SESSION_TURN_CAP, daily_cap_reached=daily_turn_cap_reached
+        grant_for, completed=len(history) // 2, free_cap=turn_module.SESSION_TURN_CAP
     )
     try:
         result: TurnResult = run_turn(
@@ -1101,9 +1100,7 @@ def handle_message(
             other_tradition_known_in_window=other_tradition_known_in_window,
             other_tradition_revealed=other_tradition_revealed,
             self_revision_enabled=self_revision_enabled,
-            daily_cap_reached=False,
             turn_cap=grant.cap,
-            facilitator_only=grant.facilitator_only,
             limit_text=grant.limit_text,
             on_sentence=on_sentence,
             citation_attach_enabled=citation_attach_enabled,

@@ -236,7 +236,7 @@ def test_backup_includes_the_feedback_database(tmp_path, feedback, monkeypatch):
         region="r", voice_model_pattern="v", safety_model_pattern="s", events_db_path="e", usage_db_path="u",
         worlds_yaml_path=tmp_path, default_world_key="fix", enforce_admission=False, admin_token=None,
         world_idle_unload_seconds=None, package_cache_dir=tmp_path, anon_cap_enabled=False, anon_visitor_secret=None,
-        anon_daily_session_limit=5, anon_daily_turn_limit=150, r27_enforce=False, self_revision_enabled=True,
+        r27_enforce=False, self_revision_enabled=True,
         citation_attach_enabled=False, qc_db_path="q", streaming_enabled=False, feedback_db_path=feedback.db_path, site_origin=None,
     )
     assert backup_extra_dbs(settings, None) == {"feedback": feedback.db_path}

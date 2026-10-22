@@ -65,16 +65,6 @@ def test_a_crisis_in_an_over_long_message_gets_the_safety_turn(store, usage_stor
     assert client.messages.stream_calls == []
 
 
-def test_an_uncertain_safety_call_over_the_daily_cap_gets_the_check_in_not_the_cap(store, usage_store, world_loader, registry):
-    http = _app(
-        anon_cap_enabled=True, secret="s" * 32, daily_turn_limit=0, safety_signal="AMBIGUOUS_LOW_CONFIDENCE",
-        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
-    )
-    created = http.post("/api/session", json={"world_key": "fix"}).json()
-    resp = _send(http, created, text="what if someone didn't want to be here")
-    assert resp.status_code == 200 and resp.json()["routing_action"] == "check_in_turn"
-
-
 def test_a_crisis_typed_while_a_table_round_is_open_closes_the_round_and_gets_the_safety_turn(store, usage_store, world_loader, registry, alx_world, desert_world):
     alx_sentence, _ = grounded_sentence(alx_world)
     client = _table_client(selector_script=[{"next": "alx", "reason": "most directly positioned"}], stream_scripts=[[alx_sentence]])

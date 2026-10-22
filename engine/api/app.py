@@ -485,7 +485,6 @@ def _will_be_refused(state, text: str, request: Request, is_table: bool) -> bool
     return (
         (state.closed and state.close_reason != "idle")
         or len(text) > wiring.MAX_MESSAGE_LENGTH
-        or getattr(request.state, "daily_turn_cap_reached", False)
         or (is_table and state.round_open)
     )
 
@@ -507,8 +506,6 @@ def create_app(
     package_cache_dir: Path | None = None,
     anon_cap_enabled: bool = False,
     anon_visitor_secret: str | None = None,
-    anon_daily_session_limit: int = anon_cap.DEFAULT_DAILY_SESSION_LIMIT,
-    anon_daily_turn_limit: int = anon_cap.DEFAULT_DAILY_TURN_LIMIT,
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
@@ -550,19 +547,10 @@ def create_app(
     # (the last one registered ends up outermost and runs first), so
     # anon_cap is installed BEFORE ratelimit here on purpose - the cheap,
     # no-cookie-read burst check stays the actual first line a request
-    # meets (see anon_cap.install's own docstring for why that matters -
-    # a burst-rejected request should never reach anon_cap's daily-quota
-    # accounting at all).
+    # meets, and a burst-rejected request never mints a visitor token.
     app.state.deeper = deeper
     if anon_cap_enabled:
-        anon_cap.install(
-            app, secret=anon_visitor_secret, daily_session_limit=anon_daily_session_limit, daily_turn_limit=anon_daily_turn_limit,
-            exempt=(
-                (lambda request, is_create: deeper_admission.code_is_usable(deeper, request, strict=is_create))
-                if deeper is not None else None
-            ),
-            session_cap_facilitator_only=deeper is not None,
-        )
+        anon_cap.install(app, secret=anon_visitor_secret)
     if rate_limit:
         ratelimit.install(
             app, bucket_for=(lambda request: deeper_admission.burst_key(deeper, request)) if deeper is not None else None
@@ -603,14 +591,6 @@ def create_app(
             "backup": db_backup.summarize_status(backup_staging_dir) if backup_staging_dir is not None else None,
             "disk_used_percent": _disk_used_percent(data_dir) if data_dir is not None else None,
         }
-
-    def _note_facilitator_only(request: Request, session_id: str) -> None:
-        if deeper is None:
-            return
-        if getattr(request.state, "facilitator_only_session", False):
-            deeper.facilitator_only_sessions.add(session_id)
-        if getattr(request.state, "paid_session", False):
-            deeper.paid_sessions.add(session_id)
 
     if deeper is not None:
         def _admin_check(request: Request, authorization: str | None) -> None:
@@ -660,7 +640,6 @@ def create_app(
             except PackageRefused:
                 logger.warning("table session refused: package unavailable worlds=%s", req.world_keys)
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
-            _note_facilitator_only(request, session_id)
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
             return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
         if req.world_key is None:
@@ -685,7 +664,6 @@ def create_app(
         except PackageRefused:
             logger.warning("session refused: package unavailable world=%s", world_key)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
-        _note_facilitator_only(request, session_id)
         logger.info("session created session=%s mode=interview world=%s", session_id, world_key)
         return SessionCreateResponse(session_id=session_id, session_code=code)
 
@@ -704,7 +682,7 @@ def create_app(
                     headers={"Retry-After": str(int(refused_limiter.window))},
                 )
         admission = deeper_admission.new_admission(
-            deeper, request, session_id=session_id,
+            deeper, request,
             free_cap=round_module.TABLE_SESSION_ROUND_CAP if is_table else turn_module.SESSION_TURN_CAP,
             seats=len(state.world_keys) if is_table else 1,
         )
@@ -725,7 +703,6 @@ def create_app(
             self_revision_enabled=deps.self_revision_enabled,
             citation_attach_enabled=deps.citation_attach_enabled,
             qc_recorder=deps.qc_recorder,
-            daily_turn_cap_reached=getattr(request.state, "daily_turn_cap_reached", False),
             grant_for=admission.provider if admission is not None else None,
         )
         started = time.monotonic()
@@ -1093,8 +1070,6 @@ def _build_real_app() -> FastAPI:
         package_cache_dir=settings.package_cache_dir,
         anon_cap_enabled=settings.anon_cap_enabled,
         anon_visitor_secret=settings.anon_visitor_secret,
-        anon_daily_session_limit=settings.anon_daily_session_limit,
-        anon_daily_turn_limit=settings.anon_daily_turn_limit,
         r27_enforce=settings.r27_enforce,
         self_revision_enabled=settings.self_revision_enabled,
         citation_attach_enabled=settings.citation_attach_enabled,

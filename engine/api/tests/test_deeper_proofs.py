@@ -107,7 +107,7 @@ def test_the_grant_types_know_only_numbers():
     assert not names & {"code", "price", "balance", "payment", "stripe", "money"}
     # the only words a grant carries are the ones the caller handed it
     assert {f.name for f in __import__("dataclasses").fields(__import__("engine.m4.grants", fromlist=["TurnGrant"]).TurnGrant)} == {
-        "cap", "facilitator_only", "limit_text",
+        "cap", "limit_text",
     }
 
 
@@ -217,9 +217,8 @@ REQUIRED = {
         "test_an_ordinary_message_at_a_limit_gets_a_pause_and_no_voice_call",
         "test_admission_is_decided_before_the_voice_and_never_during_it",
         "test_twenty_five_students_behind_one_address_all_get_through_on_a_group_code",
-        "test_a_visitor_past_the_session_limit_gets_one_facilitator_only_sitting_a_day",
-        "test_a_spent_code_does_not_lift_the_session_limit",
-        "test_an_extra_sitting_opened_by_a_live_code_draws_down_from_its_first_turn",
+        "test_a_visitor_with_free_tokens_left_is_never_closed_by_how_many_conversations_they_opened",
+        "test_a_conversation_whose_first_voice_reply_fails_uses_nothing_up",
         "test_the_stored_pause_is_the_same_words_for_a_free_sitting_and_a_paid_one_and_the_reason_is_never_stored",
         "test_a_code_entered_after_the_pause_continues_the_same_conversation",
     ],
