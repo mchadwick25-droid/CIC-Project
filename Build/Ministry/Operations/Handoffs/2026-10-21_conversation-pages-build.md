@@ -1,6 +1,6 @@
 # Handoff — conversation pages build — 2026-10-21
 
-From session: https://claude.ai/code/session_01RnnjAQrYFWSzjZiPnWuYke · Workstream: pilot feedback item 29 · Branch / PR: claude/magical-goodall-ucv6e2, PR to main (linked in the PR list)
+From session: https://claude.ai/code/session_01RnnjAQrYFWSzjZiPnWuYke · Workstream: pilot feedback item 29 · Branch / PRs: claude/magical-goodall-ucv6e2; PRs 1012 (pages), 1013 (AI line), 1031 (text size), all merged into `main`; PR 1034 (`main` into `live`, merged 2026-10-22)
 
 ## 1. Done, and how it was checked
 
@@ -13,8 +13,9 @@ From session: https://claude.ai/code/session_01RnnjAQrYFWSzjZiPnWuYke · Workstr
 
 ## 2. Not done
 
-- Not tested on a real phone, a tablet, a screen reader, or against the live engine's streaming. The mock fulfils a streamed reply in one piece, so only the pacing and ordering are checked, not real network timing.
-- Not promoted to live. Promotion is Mark's call through `Build/Ministry/Operations/Standing/CiC_Promotion_Runbook.md`.
+- Not tested on a real phone, a tablet, a screen reader, or against the live engine's streaming. The mock fulfils a streamed reply in one piece, so only the pacing and order were checked, not real network timing.
+- Where it stands on `live`: the pages and the small AI line (PRs 1012, 1013) went live with Mark's 2026-10-21 promotion (#1021; both commits are ancestors of `live`, checked with `git merge-base --is-ancestor`). The larger welcome line (17 px) and ribbon text (16 px), PR 1031, went live on 2026-10-22 through PR 1034 (merge `36c7b732`), after Mark told the thread to go live. All 16 required checks passed on PR 1034.
+- Not done for that promotion: no check on a running staging service (`https://cic-engine-staging.onrender.com`, recorded in `CiC_FrontEnd_Decision_Log.md` on 2026-09-27, did not load for Mark on 2026-10-22), no approved admission run, and no look at the Render deploy. The build thread cannot see Render. `render.yaml` added no hand-set secrets in that promotion.
 - "Go deeper" as depth in the conversation or world is not built; only the token panel was renamed.
 - The About panel and the panel inside "Get more conversations" were not shown to Mark as sketches.
 
@@ -31,11 +32,12 @@ From session: https://claude.ai/code/session_01RnnjAQrYFWSzjZiPnWuYke · Workstr
 - Keep the per-reply "This helped" and "Answer was not clear or accurate" links? They were not in the sketches and they open a block under each reply. Kept as they were.
 - Keep or drop the suggested-question chips (dropped) and the page-level "This helped" like (dropped).
 - Show "Latest ↓" on touch screens (shown).
-- Promote to live, once he has seen it on staging.
+- Whether the live site now shows the new text sizes and starts a conversation. Mark opens https://churchinconversation.com after Render deploys; the build thread cannot see the deploy.
+- An admission run for the promoted worlds, if he wants one. The build sandbox's `admission_conform --enforce` reported 11 failures because no packages are compiled there; that is not evidence about live.
 
 ## 5. Next step
 
-Open the staging deploy, ask a one-voice question and a Table question on a phone and a laptop, and tell Mark what you see before he decides on promotion.
+Open https://churchinconversation.com on a phone and a laptop, ask a one-voice question and a Table question, and tell Mark what you see. A preview built from `main` is at https://claude.ai/artifact/GMM9nQ9FRWaA7R6SBHTTbC (add `#table` for the Table); it answers with stand-in text, not the engine.
 
 ## 6. Spend
 
