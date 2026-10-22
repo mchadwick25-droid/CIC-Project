@@ -1036,3 +1036,19 @@ def test_the_letterform_normalization_ruling_changes_no_real_fleet_verdict():
             )
             checked += 1
     assert checked > 0, "no real quote record was eligible to check - the fleet loader or registry may be broken"
+
+
+def test_letterform_offsets_trace_each_normalized_character_to_its_raw_one():
+    from engine.m1.quote_verbatim import _normalize_archaic_letterforms_with_offsets
+
+    normalized, offsets = _normalize_archaic_letterforms_with_offsets("aſb þe ðÐ.")
+    assert normalized == "asb the thth."
+    assert list(offsets) == [0, 1, 2, 3, 4, 4, 5, 6, 7, 7, 8, 8, 9]
+
+
+def test_letterform_offsets_are_the_identity_when_no_letterform_is_present():
+    from engine.m1.quote_verbatim import _normalize_archaic_letterforms_with_offsets
+
+    normalized, offsets = _normalize_archaic_letterforms_with_offsets("plain text")
+    assert normalized == "plain text"
+    assert list(offsets) == list(range(10))
