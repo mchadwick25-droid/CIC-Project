@@ -6805,3 +6805,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, eleventh addendum of the same day. Pay as you go and minors: only adults buy; a child never draws an adult's paid balance automatically; buying without an account stays, with an adult attestation (the build thread's stronger recommendation was not taken); a purchase a child made is refunded. The Go Deeper Decision-Log entry of the same date carries the ruling and the residual risk.
 
 63, twelfth addendum of the same day. Every minor account and every group of minors has an adult sign-off with a console to administer and monitor it; a minor or a group cannot exist without one. What the adult may read of a child's conversations is still open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, thirteenth addendum of the same day. What the adult sign-off of a minor or a group of minors sees is crisis flags and usage only; the adult cannot read a child's conversations. This closes the question left open in the twelfth addendum. The Go Deeper Decision-Log entry of the same date carries the ruling.

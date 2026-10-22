@@ -850,3 +850,9 @@ System Hub decision 63, twelfth addendum.
 - Monitor: crisis flags, in two tiers (imminent risk reaches the adult at once, ordinary flags go to a list), and a usage summary (conversations, time, tokens). Whether the adult can read a child's conversations, and on what terms, is the open decision recorded earlier and is not settled by this ruling.
 - Safeguards on the console itself: signing in and a fresh code before anything sensitive; a log of each time an adult looked at a child's data, which the child can see; plain words to the child about what the adult can see; and no monitoring of adult members of an adult group, whose leader sees counts and the roster only.
 - Build: a later slice (the adult console), after the parent-permission and group slices. A1a is the adult account that console sits on.
+
+## 2026-10-22 — What the adult sees of a child's account: flags and usage only (ruled by Mark)
+
+System Hub decision 63, thirteenth addendum. This settles the open decision left by ruling 29.
+
+30. Ruled: the adult sign-off of a minor or a group of minors sees crisis flags and usage only. The adult cannot read a child's conversations. The plain words to the child about what the adult can see (ruling 29) say so.
