@@ -6783,3 +6783,5 @@ By the same report, he chose these on 2026-10-21:
 63, second addendum of the same day. After the Opus review, an account finds its codes by a scan of the meter under the key, storing only the keyed scramble of a code's hash. The Build Plan's plain code hash in A2 is withdrawn. The Go Deeper Decision-Log entry carries the wording and the review's other findings as they are ruled.
 
 63, third addendum of the same day. Purchased tokens lapse after two years unused, and no tokens are sold until the account feature is set up, so the expiry line is shown at every purchase from the first. The Go Deeper Decision-Log entry carries the wording.
+
+63, fourth addendum of the same day. The Opus review's remaining findings are ruled: provider-id keying with an old-address check and a waiting period on a recovery-code reset; a deletion ledger that holds no address hash; account deletion scrubs the matching review rows; farming limits keyed under the meter's secret; key rotation at sign-in with retirement dates. The Build Plan's changed lines are listed in the Go Deeper Decision-Log entry.
