@@ -6791,3 +6791,7 @@ By the same report, he chose these on 2026-10-21:
 63, sixth addendum of the same day. Mark confirmed ruling 3: the coupon button stays one button with the address typed once, nothing copied and nothing emailed by him. Slice A1a was reviewed by Opus and by a security pass; the Go Deeper Decision-Log entry of the same date records the findings and what each became. The accounts files stay out of backups until encrypted backups exist.
 
 63, seventh addendum of the same day. Slice A1a has had three rounds of substantial revision (a full Opus review, then two targeted rechecks) and has not cleared review: each round's fix introduced a new defect, and the third round's two fixes are untested by any reviewer. This is the review cap's escalation to Mark. The slice is built behind the flag and cannot be switched on in production (no mail provider, no encrypted backup). The Go Deeper Decision-Log entry records every finding.
+
+## 2026-10-22 - Cap ruling: accounts slice A1a
+
+Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accounts build had been through three rounds of substantial revision without a clean review, and ordered one more Opus review of the final code. The review's file is `Build/Ministry/Operations/Audits/Accounts_A1a_Opus_Review_Round4_2026-10-22.md`. By the review cap's own exception it does not count toward the three. Anything it finds that is a real defect is fixed in the same pull request; findings that are only matters of strength are recorded and not acted on.
