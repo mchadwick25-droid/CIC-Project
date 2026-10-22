@@ -1037,3 +1037,15 @@ Read by the build thread, to be confirmed as the slice is designed:
 System Hub decision 63, thirty-third addendum. This settles the parent-permission method left open by ruling 27.
 
 50. Ruled: a parent permits a young person aged 13 to 17 by signing in as an adult and stating that they are the young person's parent and that they permit the account. There is no card check; that belongs to the under-13 route (ruling 49). The account is the adult-managed account of rulings 29 and 31.
+
+## 2026-10-22 — Change order: a child under 13 needs an extra parent approval (ruled by Mark)
+
+System Hub decision 63, thirty-fourth addendum. This adds to rulings 44 and 49.
+
+51. Ruled: for a child under 13 there is an extra parent approval. A teacher's call to admit a younger child (ruling 44) is not enough alone; the child's parent also approves.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- In a teacher's group, the child is held until the parent signs in as an adult and approves that child's account, in the form of ruling 50 (the parent states parenthood and permission). The teacher's certification of educational use stays.
+- Where the parent is the only consenting adult, as in ruling 49, the parent's certification and card check are already the parent's approval, so nothing more is added.
+- Until both are in place the child has no account and nothing is kept about them but the handle the teacher entered.
+- The consent of a youth-pastor group for 13-to-17-year-olds is not settled by this ruling and remains open.
