@@ -26,6 +26,7 @@ class TokenRates:
     free_window: int
     free_window_days: int
     free_rounds: int
+    free_network_window: int
 
 
 @dataclass(frozen=True)

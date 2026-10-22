@@ -31,7 +31,7 @@ from engine.accounts.config import AccountsConfig
 from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
 from engine.feedback.store import FeedbackStore
-from engine.m4 import idle_close, session_code
+from engine.m4 import facilitator_turns, idle_close, session_code
 from engine.m4 import round as round_module
 from engine.m4 import turn as turn_module
 from engine.m4.projection import project_fresh
@@ -86,6 +86,33 @@ def _sse(event: str, data: dict) -> str:
     return f"event: {event}\ndata: {json.dumps(jsonable_encoder(data), ensure_ascii=False)}\n\n"
 
 
+BOUND_ROUTING_ACTION = "visitor_bound_turn"
+BOUND_ROUTING_REASON = "monthly count of unanswered messages reached"
+
+
+def _past_the_bound(state, is_table: bool, streamed: bool):
+    """The reply to a message past the monthly bound: the Facilitator's fixed line with the
+    redirect to real people in it, and no model call. Nothing is stored for the message."""
+    turn = facilitator_turns.visitor_bound_turn()
+    if is_table:
+        body = TableMessageResponse(
+            round_no=state.turn_count, round_open=state.round_open, routing_action=BOUND_ROUTING_ACTION,
+            routing_reason=BOUND_ROUTING_REASON, degraded=False, facilitator=[turn], turn_selected=None, voice=None,
+            position=None, turn_no=None, session_closed=False,
+        )
+    else:
+        body = MessageResponse(
+            turn_no=state.turn_count, routing_action=BOUND_ROUTING_ACTION, routing_reason=BOUND_ROUTING_REASON,
+            degraded=False, facilitator=turn, voice=None,
+        )
+    if streamed:
+        return StreamingResponse(
+            iter([_sse("done", body.model_dump())]), media_type="text/event-stream",
+            headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+        )
+    return body
+
+
 def _spoke(voice) -> bool:
     """Whether a voice turn carries words. A reply with none leaves no pair in
     the memory the next turn counts from, so it is not charged either: the round
@@ -94,7 +121,7 @@ def _spoke(voice) -> bool:
     return voice is not None and bool((text or "").strip())
 
 
-def _stream_turn(handle, done_body, voiced, session_id: str, started: float, admission=None) -> StreamingResponse:
+def _stream_turn(handle, done_body, voiced, session_id: str, started: float, admission=None, on_unvoiced=None) -> StreamingResponse:
     """One turn answered as an event stream: a "sentence" event for each
     sentence as the voice finishes writing it, with the marks the finished
     plan gives it (engine.m4.sentence_stream), and a final "done" event
@@ -117,6 +144,8 @@ def _stream_turn(handle, done_body, voiced, session_id: str, started: float, adm
         else:
             if admission is not None:
                 admission.finish(voiced(result))
+            if on_unvoiced is not None and not voiced(result):
+                on_unvoiced()
             events.put(("done", result))
 
     threading.Thread(target=run, daemon=True).start()
@@ -679,13 +708,21 @@ def create_app(
         deps: Deps = request.app.state.deps
         state = _authenticate(deps.store, session_id, authorization)
         is_table = state.mode == "table"
-        if refused_limiter is not None and _will_be_refused(state, req.text, request, is_table):
-            if not refused_limiter.allow(ratelimit.network_of(ratelimit.client_ip(request))):
+        streamed = deps.streaming_enabled and "text/event-stream" in request.headers.get("accept", "")
+        bound = deeper_admission.MessageBoundCheck(deeper, request)
+        if bound.reached:
+            return _past_the_bound(state, is_table, streamed)
+        counted = False
+        if _will_be_refused(state, req.text, request, is_table):
+            if refused_limiter is not None and not refused_limiter.allow(ratelimit.network_of(ratelimit.client_ip(request))):
                 return JSONResponse(
                     status_code=429,
                     content={"detail": ratelimit.RETRY_DETAIL},
                     headers={"Retry-After": str(int(refused_limiter.window))},
                 )
+            # The safety check runs on this message and no voice follows.
+            bound.count()
+            counted = True
         admission = deeper_admission.new_admission(
             deeper, request,
             free_cap=round_module.TABLE_SESSION_ROUND_CAP if is_table else turn_module.SESSION_TURN_CAP,
@@ -728,22 +765,27 @@ def create_app(
                     lambda on_sentence: table_wiring.handle_table_message(**call_kwargs, on_sentence=on_sentence),
                     lambda result: with_balance(TableMessageResponse(**asdict(result)).model_dump(), result),
                     lambda result: result.round_open or result.voice is not None,
-                    session_id, started, admission,
+                    session_id, started, admission, None if counted else bound.count,
                 )
 
             return _stream_turn(
                 lambda on_sentence: wiring.handle_message(**call_kwargs, on_sentence=on_sentence),
                 lambda result: with_balance(MessageResponse(**asdict(result)).model_dump(), result), lambda result: _spoke(result.voice), session_id, started, admission,
+                None if counted else bound.count,
             )
         voiced = False
         try:
             if is_table:
                 result = table_wiring.handle_table_message(**call_kwargs)
                 voiced = result.round_open or result.voice is not None
+                if not voiced and not counted:
+                    bound.count()
                 logger.info("table message handled ms=%d", (time.monotonic() - started) * 1000)
                 return TableMessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
             result = wiring.handle_message(**call_kwargs)
             voiced = _spoke(result.voice)
+            if not voiced and not counted:
+                bound.count()
         except Exception as exc:
             failure = _message_failure(exc, session_id)
             if failure is None:

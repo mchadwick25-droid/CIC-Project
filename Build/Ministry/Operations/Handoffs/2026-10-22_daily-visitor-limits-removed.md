@@ -35,3 +35,11 @@ Mark approves or edits the privacy words; apply them to `cic-website/privacy.htm
 ## 6. Spend
 
 Allowance share used: small, Sonnet only. Metered: none.
+
+
+## Addendum — visitor bound built (same day)
+
+- Branch `claude/visitor-bound-2026-10-22`: the monthly count (100 a visitor, 200 a network), the fixed Facilitator line past it with no model call, the network free window of 5 allowances, and pilot and admin grants at $0 toward the door. Details and dollars: `Pilot_Feedback_Log.md`, "Visitor bound built".
+- Mark approved both sets of words (the line and the privacy sentence) on 2026-10-22.
+- Check before trusting: the free-voice dollar figure comes from the repo's own measurements ($0.041 to $0.088 a solo round), not the live usage log.
+- Waiting on Mark: promotion of main to live, which must carry the privacy sentence with the engine change; his AWS Budget check.

@@ -19,10 +19,12 @@ DOOR_WORD_KEYS = ("limited", "paused", "code_still_works")
 NOTE_KEYS = ("no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use")
 SOLO_KEYS = ("open", "round", "round_from_fourth")
 TABLE_KEYS = ("open_per_seat", "round_two_seats", "round_three_seats", "round_two_seats_from_fourth", "round_three_seats_from_fourth")
-FREE_KEYS = ("window_tokens", "window_days", "rounds_per_conversation")
+FREE_KEYS = ("window_tokens", "window_days", "rounds_per_conversation", "network_window_allowances")
 LATER_ROUNDS_FROM = 4
 MINIMUM_PACK_USD = 7
-LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
+LIMIT_KEYS = (
+    "group_daily_ceiling", "group_burst_multiplier", "low_balance_at", "unanswered_messages_per_visitor", "unanswered_messages_per_network",
+)
 DOOR_KEYS = ("observe", "base_weekly_usd", "daily_share", "gift_share", "purchase_share", "invoice_factor", "stages")
 PAID_KEYS = ("round_cap", "provisional")
 PILOT_KEYS = ("pack_usd", "pilot_end_date", "audiences")
@@ -53,6 +55,8 @@ class DeeperOps:
     group_daily_ceiling: int
     group_burst_multiplier: int
     low_balance_at: int
+    unanswered_messages_per_visitor: int
+    unanswered_messages_per_network: int
     limit_text: str
     notes: dict
     door_words: dict
@@ -105,6 +109,7 @@ def _tokens(section) -> tuple[TokenRates, tuple[Pack, ...]]:
         table_open_per_seat=table["open_per_seat"], table_round_two=table["round_two_seats"], table_round_three=table["round_three_seats"],
         table_round_two_later=table["round_two_seats_from_fourth"], table_round_three_later=table["round_three_seats_from_fourth"],
         later_rounds_from=LATER_ROUNDS_FROM, free_window=free["window_tokens"], free_window_days=free["window_days"], free_rounds=free["rounds_per_conversation"],
+        free_network_window=free["window_tokens"] * free["network_window_allowances"],
     )
     raw = section["packs"]
     if not isinstance(raw, list) or not raw:
@@ -261,7 +266,8 @@ def load_ops(path: str | None = None) -> DeeperOps:
     audiences = _audiences(pilot["audiences"])
     return DeeperOps(
         group_daily_ceiling=limits["group_daily_ceiling"],
-        group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
+        group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"],
+        unanswered_messages_per_visitor=limits["unanswered_messages_per_visitor"], unanswered_messages_per_network=limits["unanswered_messages_per_network"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
         door_observe=data["door"]["observe"], paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
         admin_mint_max_tokens_per_request=admin["mint_max_tokens_per_request"], admin_mint_max_tokens_per_day=admin["mint_max_tokens_per_day"],
         tester_default_tokens=tester["default_tokens"], tester_max_tokens=tester["max_tokens"], tester_default_days=tester["default_days"],
