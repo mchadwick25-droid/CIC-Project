@@ -109,7 +109,7 @@ def test_start_says_the_same_thing_for_a_known_and_an_unknown_address(http, mail
     assert set(known.json()) == set(unknown.json()) and known.json()["message"] == unknown.json()["message"]
 
 
-def test_a_wrong_code_is_400_and_the_new_account_flow_asks_for_the_age_click(http, mailer):
+def test_a_wrong_code_is_400_and_the_new_account_flow_asks_for_the_age_click(http, mailer, tmp_path):
     challenge = http.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H).json()["challenge"]
     wrong = http.post("/api/accounts/sign-in/finish", json={"challenge": challenge, "address": ADDR, "code": "000000"}, headers=H)
     assert wrong.status_code == 400
@@ -124,6 +124,8 @@ def test_a_wrong_code_is_400_and_the_new_account_flow_asks_for_the_age_click(htt
     assert typed.status_code == 422
     sent_date = http.post("/api/accounts/sign-in/finish", json={**body, "over_18": True, "birth_date": "1990-05-15"}, headers=H)
     assert sent_date.status_code == 200 and sent_date.json()["status"] == "ok"
+    for name in ("d.db", "e.db"):
+        assert b"1990" not in (tmp_path / name).read_bytes()
 
 
 def test_sign_out_clears_the_session(http, mailer):
