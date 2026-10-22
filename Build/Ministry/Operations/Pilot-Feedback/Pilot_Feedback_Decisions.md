@@ -289,3 +289,15 @@ Entries below correct or add to earlier ones. Nothing earlier is edited.
 - **Access and payment, new work:** coupons and exceptions for particular people, and pay as you go. Mark has not given the design. Mechanics that exist: free allowance, packs, sponsor codes, tester codes (`engine/deeper/ops/go-deeper.yaml`). A tester code passes the daily cap (`engine/api/anon_cap.py`, checked on main 2026-10-21). Asked first, nothing built.
 - **Daily cap, flagged and not asked:** a conversation counts toward the 5 a day when it is created, even if the first voice reply then fails.
 - **Admission gate:** `python -m engine.m3.admission_conform --enforce` failed for all 11 worlds on 2026-10-21. Mark has not ruled on running, waiving or holding it for the whole fleet. A log entry says it was waived for the conversation pages.
+
+## Coupons for named people — 2026-10-22
+Decision (Mark, 2026-10-22): a coupon is a sponsor code made for a named person. The name is kept outside the system. Mark mints a code with the existing routes and keeps his own list of who received which code. Nothing is built.
+- Existing routes, read in `Build/Ministry/Features/Go-Deeper/Decision-Log.md` (entries of 2026-10-04 and 2026-10-15) and not run: `POST /api/admin/deeper/mint` (a pack and a count, as separate codes or one code; a gift, not a sale) and `POST /api/admin/deeper/tester` (more tokens and a last day; $0 toward the door).
+- Why outside: the design stores no name, email or note with a code, so the meter and the conversations share no key with a person. A label on the code would be a change order on that ruling and on the privacy page.
+- Pay as you go: already designed and built as Go Deeper. Open items are in the Go Deeper decision log (Stripe stored-value answer, legal and tax questions, refund and expiry wording, AWS budget ceiling). Nothing new decided here.
+
+### Coupon delivery: one button, inside the system — 2026-10-22
+Decision (Mark, 2026-10-22), superseding "Mark keeps his own list, nothing is built" above for the long run: Mark wants to grant a coupon with one button, approved by him, with no emailing and nothing sent by hand. The coupon is delivered inside the system. Mark chose to wait for accounts rather than build an interim link. Nothing is built.
+- Requirement for the accounts build thread: an admin control to pick an account and grant tokens to it with one tap. It must respect the 2026-10-05 accounts change order (decision 53): no name stored, the account store holds only a scrambled address value. How the admin finds an account without storing a name is for that thread to design and bring to Mark.
+- Until accounts exist, coupons are codes Mark mints (mint or tester route) and passes on himself.
+- State checked 2026-10-22: no accounts module in `engine/`; accounts were designed to ship dark behind `CIC_ACCOUNTS_ENABLED`, after the door's observe week. Whether any accounts branch exists was not checked. The engine has no email sending.
