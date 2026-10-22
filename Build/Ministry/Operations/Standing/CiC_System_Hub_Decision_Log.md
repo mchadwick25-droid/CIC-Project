@@ -6809,3 +6809,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, thirteenth addendum of the same day. What the adult sign-off of a minor or a group of minors sees is crisis flags and usage only; the adult cannot read a child's conversations. This closes the question left open in the twelfth addendum. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, fourteenth addendum of the same day. Change order to the thirteenth: the adult sign-off of a minor or a group of minors can read a child's conversations, for a class or a parent. The thirteenth addendum is superseded on this point. The Go Deeper Decision-Log entry of the same date carries the ruling and the safeguards.
+
+63, fifteenth addendum of the same day. An adult sign-off reads a child's conversations only inside an account; conversations without an account are saved to no one and cannot be monitored. Minors use the curriculum through an account under an adult. Residual risk: a child can still use the system without an account. Open: whether under-13s can be members of a teacher's group. The Go Deeper Decision-Log entry of the same date carries the ruling.

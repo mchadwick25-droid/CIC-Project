@@ -862,3 +862,11 @@ System Hub decision 63, thirteenth addendum. This settles the open decision left
 System Hub decision 63, fourteenth addendum. This changes ruling 30, which limited the adult to flags and usage.
 
 31. Ruled: the adult sign-off of a minor or a group of minors can monitor conversations, because the account exists for a class or a parent. Ruling 30 is superseded on this point; the rest of ruling 29 stands. The safeguards in ruling 29 now carry more weight and stay as the build thread's reading, to be confirmed as the slice is designed: a log of each time an adult read a child's conversation, which the child can see; plain words to the child, before they start, about what the adult can read; and no reading of the conversations of adult members of an adult group. Crisis flags and usage stay as in ruling 29. Open for the slice design: whether the adult reads whole conversations or only those they open from the list, and the lawyer's questions on this point (the Go Deeper lawyer list).
+
+## 2026-10-22 — Monitoring happens only inside an account (ruled by Mark)
+
+System Hub decision 63, fifteenth addendum. This limits ruling 31.
+
+32. Ruled: an adult sign-off reads a child's conversations only when the child has an account under that adult. Conversations held without an account are saved to no one, so there is nothing for an adult to read, and no way is built to monitor them. Minors who use the curriculum, in a class or at home, use it through an account under an adult.
+
+Residual risk, recorded so it does not go quiet: nothing in the app can tell that a person without an account is a child, so a child can still use the system without an account and no adult can see it. What the build can do is make the curriculum, the class join code and the parent link all lead to an account, and keep the adult attestation on anonymous use. Open for the slice design: whether a child under 13 can be a member of a teacher's group, since ruling 27 gives under-13s no account of their own; the school-authorization route in the lawyer list bears on it.
