@@ -135,7 +135,7 @@ def test_recovery_over_http(http, mailer, runtime):
     fresh = TestClient(http.app, base_url="https://testserver")
     start = fresh.post("/api/accounts/recovery/start", json={"recovery_code": code, "new_address": NEW}, headers=H)
     assert start.status_code == 200 and set(start.json()) == {"status", "message"}
-    done = fresh.post("/api/accounts/recovery/finish", json={"new_address": NEW, "code": mailer.last_code(NEW)}, headers=H)
+    done = fresh.post("/api/accounts/recovery/finish", json={"recovery_code": code, "new_address": NEW, "code": mailer.last_code(NEW)}, headers=H)
     assert done.json()["status"] == "waiting" and done.json()["effective_on"]
     assert http.get("/api/accounts/me").json()["pending_recovery"]
     step_up(http, mailer)

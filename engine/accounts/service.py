@@ -49,6 +49,8 @@ class Limits:
     sends_global_hour: int = 300
     sends_global_hour_other: int = 100
     sends_per_coarse_network_15min: int = 120
+    sends_per_address_open_15min: int = 6
+    sends_per_address_open_day: int = 20
     account_actions_15min: int = 20
     finishes_per_network_15min: int = 30
     recoveries_per_network_hour: int = 5
@@ -163,6 +165,14 @@ class AccountsService:
             and self._allow("send_addr", key, 900, limits.sends_per_address_15min)
             and self._allow("send_addr_day", key, 86400, limits.sends_per_address_day)
         )
+        if within and purpose in ("change", "recover"):
+            # The address's own owner never sends these codes to an address they
+            # already hold, so a counter across all accounts carries no signal and
+            # caps what many accounts can send to one inbox.
+            within = (
+                self._allow("send_addr_open", f"{purpose}|{address_hash}", 900, limits.sends_per_address_open_15min)
+                and self._allow("send_addr_open_day", f"{purpose}|{address_hash}", 86400, limits.sends_per_address_open_day)
+            )
         if not within:
             return Result("throttled")
         sign_in = purpose == "sign_in"
@@ -173,17 +183,24 @@ class AccountsService:
             return Result("paused")
         return None
 
+    @staticmethod
+    def _slot(purpose: str, account_id: str | None) -> str:
+        """The code row an account's change or recovery code lives in. Each account has its own,
+        so a later start by someone else can never replace it."""
+        return f"{purpose}|{account_id}" if purpose in ("change", "recover") else purpose
+
     def _deliver(self, norm: str, address_hash: str, purpose: str, account_id: str | None) -> Result:
         code = f"{secrets.randbelow(10**6):06d}"
+        slot = self._slot(purpose, account_id)
         self.store.put_code(
-            address_hash, purpose, self.keys.mac("code", purpose, address_hash, code),
+            address_hash, slot, self.keys.mac("code", slot, address_hash, code),
             self.now() + self.limits.code_ttl_seconds, account_id,
         )
         try:
             self.mailer.send_code(norm, code)
         except Exception:  # noqa: BLE001 - the address and code must not reach a log
             logger.warning("a sign-in code could not be sent (purpose=%s)", purpose)
-            self.store.burn_code(address_hash, purpose)
+            self.store.burn_code(address_hash, slot)
             return Result("send_failed")
         return Result("sent")
 
@@ -401,20 +418,26 @@ class AccountsService:
             return sent
         return Result("sent")
 
-    def recover_finish(self, new_address, code, network: str) -> Result:
+    def recover_finish(self, recovery_code, new_address, code, network: str) -> Result:
+        """Proves the new address. The account is the one the recovery code belongs to, and the
+        emailed code is checked only against that account's own row, so another account's
+        recovery to the same address can neither replace nor stand in for it."""
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
             return Result("throttled")
+        rcode = normalise_recovery_code(recovery_code)
         norm = normalise_address(new_address)
-        if norm is None:
+        account_id = self.store.account_by_recovery_hash(sha256(rcode.encode()).hexdigest()) if rcode else None
+        if account_id is None or norm is None:
             return Result("wrong")
         ahash = self.keys.address_hash(norm)
-        checked = self._check_code(ahash, "recover", code)
-        pending = self.store.pending_of(checked.account_id, ahash) if checked and checked.account_id else None
-        if pending is None or not self._spend_code(ahash, "recover", checked):
+        slot = self._slot("recover", account_id)
+        checked = self._check_code(ahash, slot, code)
+        pending = self.store.pending_of(account_id, ahash)
+        if checked is None or pending is None or not self._spend_code(ahash, slot, checked):
             return Result("wrong")
-        if not self.store.verify_pending(pending.account_id, ahash):
+        if not self.store.verify_pending(account_id, ahash):
             return Result("wrong")
-        self.store.delete_recovery_code(pending.account_id)
+        self.store.delete_recovery_code(account_id)
         return Result("waiting", effective_on=pending.effective_on)
 
     def cancel_recovery(self, session: Session) -> Result:
@@ -430,10 +453,12 @@ class AccountsService:
         if self.store.account_by_hashes([pending.new_address_hash]) is not None:
             self.store.delete_pending(pending.account_id)
             return False
-        self.store.set_address_hash(pending.account_id, pending.new_address_hash)
+        moved = self.store.set_address_hash(pending.account_id, pending.new_address_hash)
+        self.store.delete_pending(pending.account_id)
+        if not moved:
+            return False
         self.store.delete_sessions_of(pending.account_id)
         self.store.delete_recovery_code(pending.account_id)
-        self.store.delete_pending(pending.account_id)
         return True
 
     # address change ----------------------------------------------------------------
@@ -463,8 +488,9 @@ class AccountsService:
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
             return Result("throttled")
         ahash = self.keys.address_hash(new_address)
-        checked = self._check_code(ahash, "change", code) if ahash else None
-        if checked is None or checked.account_id != session.account_id or not self._spend_code(ahash, "change", checked):
+        slot = self._slot("change", session.account_id)
+        checked = self._check_code(ahash, slot, code) if ahash else None
+        if checked is None or not self._spend_code(ahash, slot, checked):
             return Result("wrong")
         if not self.store.set_address_hash(session.account_id, ahash):
             return Result("wrong")

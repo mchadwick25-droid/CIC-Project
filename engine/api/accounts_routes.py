@@ -137,6 +137,12 @@ class RecoveryStartBody(BaseModel):
     new_address: str = Field(max_length=300)
 
 
+class RecoveryFinishBody(BaseModel):
+    recovery_code: str = Field(max_length=60)
+    new_address: str = Field(max_length=300)
+    code: str = Field(max_length=40)
+
+
 class NewAddressBody(BaseModel):
     new_address: str = Field(max_length=300)
 
@@ -282,9 +288,11 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         return {"status": "sent", "message": MESSAGES["sent"]}
 
     @app.post("/api/accounts/recovery/finish")
-    async def recovery_finish(body: NewAddressFinishBody, request: Request):
+    async def recovery_finish(body: RecoveryFinishBody, request: Request):
         _guard(request)
-        result = await run_in_threadpool(service.recover_finish, body.new_address, body.code, _network(request))
+        result = await run_in_threadpool(
+            service.recover_finish, body.recovery_code, body.new_address, body.code, _network(request)
+        )
         if result.status != "waiting":
             await _refuse(result, delay=True)
         return {"status": "waiting", "effective_on": result.effective_on}

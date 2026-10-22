@@ -34,7 +34,7 @@ def test_recovery_waits_a_week_and_then_the_new_address_owns_the_account(svc, ma
     start = svc.recover_start(code, NEW, OTHER_NET)
     week_on = (svc.today() + timedelta(days=7)).isoformat()
     assert start.status == "sent" and start.effective_on is None
-    finished = svc.recover_finish(NEW, mailer.last_code(NEW), OTHER_NET)
+    finished = svc.recover_finish(code, NEW, mailer.last_code(NEW), OTHER_NET)
     assert finished.status == "waiting" and finished.effective_on == week_on
     assert svc.session(cookie).pending_recovery  # the old owner sees the banner
     svc.start_sign_in(NEW, OTHER_NET)
@@ -54,7 +54,7 @@ def test_a_recovery_code_is_spent_when_the_new_address_is_proved(svc, mailer, cl
     code, _ = _recovery_code(svc, mailer, clock)
     assert svc.recover_start(code, NEW, OTHER_NET).status == "sent"
     assert svc.recover_start(code, NEW, OTHER_NET).status == "sent"  # not yet spent; a resend is possible
-    assert svc.recover_finish(NEW, mailer.last_code(NEW), OTHER_NET).status == "waiting"
+    assert svc.recover_finish(code, NEW, mailer.last_code(NEW), OTHER_NET).status == "waiting"
     assert svc.recover_start(code, "x@example.org", OTHER_NET).status == "wrong"
 
 
@@ -80,7 +80,7 @@ def test_a_recovery_never_proved_expires_in_a_day(svc, mailer, clock, store):
 def test_the_old_owner_can_cancel_a_recovery_a_thief_started(svc, mailer, clock):
     code, cookie = _recovery_code(svc, mailer, clock)
     svc.recover_start(code, "thief@example.org", OTHER_NET)
-    svc.recover_finish("thief@example.org", mailer.last_code("thief@example.org"), OTHER_NET)
+    svc.recover_finish(code, "thief@example.org", mailer.last_code("thief@example.org"), OTHER_NET)
     assert svc.session(cookie).pending_recovery
     session = svc.session(cookie)
     svc.step_up_start(session, ADDR, NET)
@@ -157,22 +157,41 @@ def test_a_code_for_one_account_s_change_cannot_finish_another(svc, mailer, cloc
     assert svc.change_address_finish(other, NEW, code, NET).status == "wrong"
 
 
-def test_a_stranger_cannot_block_a_recovery_by_starting_one_to_the_same_address(svc, mailer, clock):
+def test_a_stranger_cannot_block_or_capture_a_recovery_to_the_same_address(svc, mailer, clock):
     code, cookie = _recovery_code(svc, mailer, clock)
+    victim_id = svc.session(cookie).account_id
     sign_in(svc, mailer, "mallory@example.org", "192.0.2.50")
-    session, mcookie = stepped_up_session(svc, mailer, clock, "mallory@example.org", "192.0.2.50")
+    _, mcookie = stepped_up_session(svc, mailer, clock, "mallory@example.org", "192.0.2.50")
     mallory_code = svc.make_recovery_code(svc.session(mcookie)).recovery_code
-    assert svc.recover_start(mallory_code, NEW, "192.0.2.51").status == "sent"  # unproved, proves nothing
     assert svc.recover_start(code, NEW, OTHER_NET).status == "sent"
-    assert svc.recover_finish(NEW, mailer.last_code(NEW), OTHER_NET).status == "waiting"
-    assert svc.recover_finish(NEW, mailer.last_code(NEW), "192.0.2.52").status == "wrong"  # one proof, one account
+    victims_mail = mailer.last_code(NEW)
+    assert svc.recover_start(mallory_code, NEW, "192.0.2.51").status == "sent"  # started after the victim
+    strangers_mail = mailer.sent[-1][1]
+    assert strangers_mail != victims_mail
+    assert svc.recover_finish(code, NEW, strangers_mail, OTHER_NET).status == "wrong"  # the wrong mail proves nothing for the victim
+    assert svc.recover_finish(code, NEW, victims_mail, OTHER_NET).status == "waiting"
+    clock.advance(7 * 86400)
+    svc.start_sign_in(NEW, OTHER_NET)
+    result = svc.finish_sign_in(NEW, mailer.last_code(NEW), OTHER_NET)
+    assert result.status == "ok" and svc.session(result.cookie).account_id == victim_id
+    assert svc.recover_finish(mallory_code, NEW, victims_mail, "192.0.2.52").status == "wrong"
+
+
+def test_many_accounts_cannot_send_more_than_a_few_codes_to_one_inbox(svc, mailer, clock):
+    victim = "victim@example.org"
+    for i in range(10):
+        network = f"198.51.100.{i + 1}"
+        address = f"attacker{i}@example.org"
+        session, _ = stepped_up_session(svc, mailer, clock, address, network)
+        svc.change_address_start(session, victim, network)
+    assert len([1 for to, _ in mailer.sent if to == victim]) == svc.limits.sends_per_address_open_15min
 
 
 def test_an_address_taken_during_the_wait_moves_nothing_and_replaces_no_recovery_code(svc, mailer, clock, store):
     code, cookie = _recovery_code(svc, mailer, clock)
     account_id = svc.session(cookie).account_id
     svc.recover_start(code, NEW, OTHER_NET)
-    svc.recover_finish(NEW, mailer.last_code(NEW), OTHER_NET)
+    svc.recover_finish(code, NEW, mailer.last_code(NEW), OTHER_NET)
     other_account_id = store.create_account(__import__("engine.accounts.store", fromlist=["Account"]).Account(
         "f" * 32, svc.keys.address_hash(NEW), "x", 1, "x", "18+")) and "f" * 32
     owner_code = svc._issue_recovery_code(other_account_id)

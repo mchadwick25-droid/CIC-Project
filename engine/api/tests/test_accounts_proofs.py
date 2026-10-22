@@ -42,7 +42,8 @@ REQUIRED = {
         "test_an_address_change_needs_the_old_address_then_a_code_to_the_new_one",
         "test_the_replies_never_say_whether_an_address_has_an_account",
         "test_a_recovery_code_is_spent_when_the_new_address_is_proved",
-        "test_a_stranger_cannot_block_a_recovery_by_starting_one_to_the_same_address",
+        "test_a_stranger_cannot_block_or_capture_a_recovery_to_the_same_address",
+        "test_many_accounts_cannot_send_more_than_a_few_codes_to_one_inbox",
         "test_an_address_taken_during_the_wait_moves_nothing_and_replaces_no_recovery_code",
     ],
     "engine/accounts/tests/test_deletion.py": [
