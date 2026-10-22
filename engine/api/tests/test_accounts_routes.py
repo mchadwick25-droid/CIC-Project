@@ -2,6 +2,7 @@
 address change, export and deletion, and the proof that with the flag off none
 of the routes exist."""
 import dataclasses
+import json
 import logging
 import re
 
@@ -12,7 +13,7 @@ from engine.accounts.config import AccountsConfig
 from engine.accounts.keys import KeyRing
 from engine.accounts.service import AccountsService
 from engine.accounts.store import AccountStore
-from engine.accounts.tests.conftest import ADDRESS_KEY, SESSION_KEY, Clock, FakeMailer
+from engine.accounts.tests.conftest import ADDRESS_KEY, SESSION_KEY, Clock, FakeMailer, FakeVerifier
 from engine.api import accounts_routes
 from engine.api.accounts_routes import AccountsConfigError, AccountsRuntime, build_runtime
 from engine.api.app import create_app
@@ -83,7 +84,7 @@ def test_sign_in_sets_a_host_only_http_only_same_site_cookie(http, mailer):
     assert "HttpOnly" in header and "Secure" in header and "SameSite=lax" in header.replace("Lax", "lax") and "Path=/" in header
     assert "Domain" not in header
     me = http.get("/api/accounts/me").json()
-    assert me["signed_in"] and set(me) == {"signed_in", "refill_day", "age_band"}
+    assert me["signed_in"] and set(me) == {"signed_in", "refill_day", "age_band", "sign_in_methods"}
 
 
 def test_signed_out_me_says_so_and_a_protected_route_is_401(http):
@@ -139,7 +140,7 @@ def test_sensitive_actions_need_step_up_then_work(http, mailer):
     assert http.post("/api/accounts/export", json={}, headers=H).status_code == 400
     step_up(http, mailer)
     export = http.post("/api/accounts/export", json={}, headers=H)
-    assert export.status_code == 200 and set(export.json()["account"]) == {"day_created", "refill_day", "week_last_used", "age_band"}
+    assert export.status_code == 200 and set(export.json()["account"]) == {"day_created", "refill_day", "week_last_used", "age_band", "sign_in_methods"}
 
 
 def test_address_change_over_http_signs_out_other_devices(http, mailer):
@@ -268,3 +269,66 @@ def test_a_queued_send_never_blocks_the_reply_and_logs_no_address(caplog):
         queued._pool.shutdown(wait=True)
     assert not re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", caplog.text) and "123456" not in caplog.text
     assert "could not be sent" in caplog.text
+
+
+def provider_finish(http, subject="g-ada", provider="google", **extra):
+    nonce = http.post("/api/accounts/provider/start", json={}, headers=H).json()["nonce"]
+    body = {"provider": provider, "id_token": f"{subject}|{nonce}", "nonce": nonce, **extra}
+    return http.post("/api/accounts/provider/finish", json=body, headers=H), nonce, body
+
+
+def test_a_provider_sign_in_asks_the_age_click_then_sets_the_cookie(http, runtime):
+    runtime.service.verifier = FakeVerifier()
+    asked, nonce, body = provider_finish(http)
+    assert asked.status_code == 200 and asked.json()["status"] == "needs_age_answer" and "set-cookie" not in asked.headers
+    declined = http.post("/api/accounts/provider/finish", json={**body, "over_18": False}, headers=H)
+    assert declined.json()["status"] == "not_adult" and "set-cookie" not in declined.headers
+    typed = http.post("/api/accounts/provider/finish", json={**body, "over_18": "yes"}, headers=H)
+    assert typed.status_code == 422
+    done = http.post("/api/accounts/provider/finish", json={**body, "over_18": True}, headers=H)
+    assert done.status_code == 200 and done.json() == {"status": "ok", "new_account": True}
+    assert "__Host-cic_account" in done.headers["set-cookie"] and "HttpOnly" in done.headers["set-cookie"]
+    me = http.get("/api/accounts/me").json()
+    assert me["signed_in"] and me["sign_in_methods"] == ["google"]
+
+
+def test_a_provider_that_is_not_set_up_is_404_and_a_bad_token_is_400(http, runtime):
+    nonce = http.post("/api/accounts/provider/start", json={}, headers=H).json()["nonce"]
+    body = {"provider": "google", "id_token": f"g|{nonce}", "nonce": nonce, "over_18": True}
+    assert http.post("/api/accounts/provider/finish", json=body, headers=H).status_code == 404
+    runtime.service.verifier = FakeVerifier()
+    bad = http.post("/api/accounts/provider/finish", json={**body, "id_token": "g|other"}, headers=H)
+    assert bad.status_code == 400 and "set-cookie" not in bad.headers
+
+
+def test_the_provider_routes_need_the_header_and_json(http, runtime):
+    runtime.service.verifier = FakeVerifier()
+    full = {"provider": "google", "id_token": "g|n", "nonce": "n"}
+    bodies = {"start": {}, "finish": full, "link": full, "unlink": {"provider": "google"}}
+    for path, body in bodies.items():
+        url = f"/api/accounts/provider/{path}"
+        assert http.post(url, json=body).status_code == 400
+        assert http.post(url, content=json.dumps(body).encode(), headers={"x-cic-accounts": "1"}).status_code in (400, 422)
+    assert http.post("/api/accounts/step-up/provider", json=full).status_code == 400
+
+
+def test_step_up_link_and_unlink_by_provider_over_http(http, mailer, runtime):
+    runtime.service.verifier = FakeVerifier()
+    sign_in(http, mailer)
+    step_up(http, mailer)
+    nonce = http.post("/api/accounts/provider/start", json={}, headers=H).json()["nonce"]
+    link = http.post("/api/accounts/provider/link", json={"provider": "apple", "id_token": f"a-ada|{nonce}", "nonce": nonce}, headers=H)
+    assert link.status_code == 200
+    assert http.get("/api/accounts/me").json()["sign_in_methods"] == ["address", "apple"]
+    unlink = http.post("/api/accounts/provider/unlink", json={"provider": "apple"}, headers=H)
+    assert unlink.status_code == 200
+    assert http.get("/api/accounts/me").json()["sign_in_methods"] == ["address"]
+    last = http.post("/api/accounts/provider/unlink", json={"provider": "apple"}, headers=H)
+    assert last.status_code == 400
+
+
+def test_a_provider_token_is_in_no_log_line(http, runtime, caplog):
+    runtime.service.verifier = FakeVerifier()
+    caplog.set_level(logging.DEBUG)
+    _, nonce, body = provider_finish(http, subject="g-secret-subject", over_18=True)
+    assert "g-secret-subject" not in caplog.text and nonce not in caplog.text

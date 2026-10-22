@@ -1,8 +1,10 @@
 """The two SQLite files.
 
-Durable: accounts and the deletion ledger. A row holds a random account id, a
-keyed address hash, days and weeks (never a time of day), an age band. Nothing
-else.
+Durable: accounts, linked sign-ins and the deletion ledger. An account row holds
+a random account id, a keyed address hash (none for an account that signs in
+only with Google or Apple), days and weeks (never a time of day), an age band.
+A linked sign-in holds the keyed hash of a provider's account id and the
+provider's name. Nothing else.
 
 Ephemeral: challenges, sessions and counters. A challenge is one proof of
 control of an address: it has its own random id, belongs to one action, and is
@@ -16,16 +18,24 @@ import threading
 from dataclasses import dataclass
 from typing import Callable
 
-DURABLE_DDL = """
-DROP TABLE IF EXISTS recovery_codes;
-DROP TABLE IF EXISTS pending_changes;
-CREATE TABLE IF NOT EXISTS accounts (
+ACCOUNTS_TABLE = """(
   account_id    TEXT PRIMARY KEY,
-  address_hash  TEXT NOT NULL UNIQUE,
+  address_hash  TEXT UNIQUE,
   day_created   TEXT NOT NULL,
   refill_day    INTEGER NOT NULL,
   week_last_used TEXT NOT NULL,
   age_band      TEXT NOT NULL
+) WITHOUT ROWID"""
+
+DURABLE_DDL = f"""
+DROP TABLE IF EXISTS recovery_codes;
+DROP TABLE IF EXISTS pending_changes;
+CREATE TABLE IF NOT EXISTS accounts {ACCOUNTS_TABLE};
+CREATE TABLE IF NOT EXISTS linked_sign_ins (
+  subject_hash TEXT PRIMARY KEY,
+  account_id   TEXT NOT NULL,
+  provider     TEXT NOT NULL,
+  UNIQUE (account_id, provider)
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS deletion_ledger (
   ledger_hash TEXT PRIMARY KEY,
@@ -53,6 +63,10 @@ CREATE TABLE IF NOT EXISTS sessions (
   stepped_up_until INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE INDEX IF NOT EXISTS sessions_by_account ON sessions (account_id);
+CREATE TABLE IF NOT EXISTS spent_nonces (
+  nonce      TEXT PRIMARY KEY,
+  expires_at INTEGER NOT NULL
+) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS counters (
   scope   TEXT NOT NULL,
   key     TEXT NOT NULL,
@@ -67,7 +81,7 @@ CREATE TABLE IF NOT EXISTS counters (
 @dataclass(frozen=True)
 class Account:
     account_id: str
-    address_hash: str
+    address_hash: str | None
     day_created: str
     refill_day: int
     week_last_used: str
@@ -102,10 +116,32 @@ def _open(path: str, ddl: str) -> sqlite3.Connection:
     return conn
 
 
+def _allow_accounts_without_address(conn: sqlite3.Connection) -> None:
+    """A durable file made when every account had an address has the column marked required;
+    the table is rebuilt once with it optional, in one transaction."""
+    column = next((r for r in conn.execute("PRAGMA table_info(accounts)") if r[1] == "address_hash"), None)
+    if column is None or not column[3]:
+        return
+    try:
+        conn.executescript(f"""
+            BEGIN IMMEDIATE;
+            ALTER TABLE accounts RENAME TO accounts_before;
+            CREATE TABLE accounts {ACCOUNTS_TABLE};
+            INSERT INTO accounts SELECT * FROM accounts_before;
+            DROP TABLE accounts_before;
+            COMMIT;
+        """)
+    except BaseException:
+        if conn.in_transaction:
+            conn.execute("ROLLBACK")
+        raise
+
+
 class AccountStore:
     def __init__(self, durable_path: str, ephemeral_path: str):
         self._lock = threading.RLock()
         self._d = _open(durable_path, DURABLE_DDL)
+        _allow_accounts_without_address(self._d)
         self._e = _open(ephemeral_path, EPHEMERAL_DDL)
 
     def close(self) -> None:
@@ -115,14 +151,80 @@ class AccountStore:
 
     # accounts -------------------------------------------------------------
 
-    def create_account(self, account: Account) -> bool:
+    def create_account(self, account: Account, link: tuple[str, str] | None = None) -> bool:
+        """The account, and with it the provider link it signs in by, in one transaction. False
+        when the address or the provider id already belongs to an account; nothing is written."""
         with self._lock:
-            cur = self._d.execute(
-                "INSERT OR IGNORE INTO accounts VALUES (?, ?, ?, ?, ?, ?)",
-                (account.account_id, account.address_hash, account.day_created, account.refill_day,
-                 account.week_last_used, account.age_band),
-            )
-            return cur.rowcount == 1
+            self._d.execute("BEGIN IMMEDIATE")
+            try:
+                made = self._d.execute(
+                    "INSERT OR IGNORE INTO accounts VALUES (?, ?, ?, ?, ?, ?)",
+                    (account.account_id, account.address_hash, account.day_created, account.refill_day,
+                     account.week_last_used, account.age_band),
+                ).rowcount == 1
+                if made and link is not None:
+                    made = self._d.execute(
+                        "INSERT OR IGNORE INTO linked_sign_ins VALUES (?, ?, ?)", (link[0], account.account_id, link[1])
+                    ).rowcount == 1
+                self._d.execute("COMMIT" if made else "ROLLBACK")
+            except BaseException:
+                self._d.execute("ROLLBACK")
+                raise
+            return made
+
+    # linked sign-ins -------------------------------------------------------
+
+    def account_by_subjects(self, hashes: list[str]) -> tuple[Account, str, str] | None:
+        """(account, the matching stored hash, provider) for a provider id, under any live key."""
+        if not hashes:
+            return None
+        marks = ",".join("?" * len(hashes))
+        with self._lock:
+            link = self._d.execute(
+                f"SELECT subject_hash, account_id, provider FROM linked_sign_ins WHERE subject_hash IN ({marks})", hashes
+            ).fetchone()
+            row = self._d.execute("SELECT * FROM accounts WHERE account_id = ?", (link[1],)).fetchone() if link else None
+        return (Account(*row), link[0], link[2]) if row else None
+
+    def links_of(self, account_id: str) -> dict[str, str]:
+        """{provider: stored subject hash} for the account."""
+        with self._lock:
+            rows = self._d.execute("SELECT provider, subject_hash FROM linked_sign_ins WHERE account_id = ?", (account_id,))
+            return {provider: subject_hash for provider, subject_hash in rows}
+
+    def add_link(self, account_id: str, subject_hash: str, provider: str) -> bool:
+        """False when the account is gone, the provider id is already linked anywhere, or the
+        account has one for that provider."""
+        with self._lock:
+            return self._d.execute(
+                "INSERT OR IGNORE INTO linked_sign_ins SELECT ?, account_id, ? FROM accounts WHERE account_id = ?",
+                (subject_hash, provider, account_id),
+            ).rowcount == 1
+
+    def remove_link(self, account_id: str, provider: str) -> str:
+        """'ok', 'missing' when the account has no such link, or 'last_method' when removing it
+        would leave the account with no address and no other link. One statement, so two
+        removals at once cannot both pass the check."""
+        with self._lock:
+            removed = self._d.execute(
+                "DELETE FROM linked_sign_ins WHERE account_id = ?1 AND provider = ?2 AND ("
+                " EXISTS (SELECT 1 FROM accounts WHERE account_id = ?1 AND address_hash IS NOT NULL)"
+                " OR (SELECT COUNT(*) FROM linked_sign_ins WHERE account_id = ?1) > 1)",
+                (account_id, provider),
+            ).rowcount
+            if removed:
+                return "ok"
+            held = self._d.execute(
+                "SELECT 1 FROM linked_sign_ins WHERE account_id = ? AND provider = ?", (account_id, provider)
+            ).fetchone()
+        return "last_method" if held else "missing"
+
+    def rekey_link(self, old_hash: str, new_hash: str) -> None:
+        with self._lock:
+            try:
+                self._d.execute("UPDATE linked_sign_ins SET subject_hash = ? WHERE subject_hash = ?", (new_hash, old_hash))
+            except sqlite3.IntegrityError:
+                pass
 
     def account_by_hashes(self, hashes: list[str]) -> Account | None:
         if not hashes:
@@ -150,9 +252,13 @@ class AccountStore:
             self._d.execute("UPDATE accounts SET week_last_used = ? WHERE account_id = ?", (week, account_id))
 
     def accounts_on_older_keys(self, current_key_id: str) -> int:
+        """Accounts holding an address or a provider id under an older key."""
+        pattern = current_key_id + ":%"
         with self._lock:
             return self._d.execute(
-                "SELECT COUNT(*) FROM accounts WHERE address_hash NOT LIKE ?", (current_key_id + ":%",)
+                "SELECT COUNT(*) FROM (SELECT account_id FROM accounts WHERE address_hash NOT LIKE ? "
+                "UNION SELECT account_id FROM linked_sign_ins WHERE subject_hash NOT LIKE ?)",
+                (pattern, pattern),
             ).fetchone()[0]
 
     def delete_account(self, account_id: str, ledger_hash: str, ledger_expires_on: str) -> bool:
@@ -161,6 +267,7 @@ class AccountStore:
             self._d.execute("BEGIN IMMEDIATE")
             try:
                 gone = self._d.execute("DELETE FROM accounts WHERE account_id = ?", (account_id,)).rowcount
+                self._d.execute("DELETE FROM linked_sign_ins WHERE account_id = ?", (account_id,))
                 if gone:
                     self._d.execute("INSERT OR IGNORE INTO deletion_ledger VALUES (?, ?)", (ledger_hash, ledger_expires_on))
                 self._d.execute("COMMIT")
@@ -274,6 +381,13 @@ class AccountStore:
                 "DELETE FROM sessions WHERE account_id = ? AND token_hash IS NOT ?", (account_id, except_token_hash)
             ).rowcount
 
+    # nonces ------------------------------------------------------------------
+
+    def spend_nonce(self, nonce: str, expires_at: int) -> bool:
+        """Records a provider nonce as used. Of several requests with the same nonce, one gets True."""
+        with self._lock:
+            return self._e.execute("INSERT OR IGNORE INTO spent_nonces VALUES (?, ?)", (nonce, expires_at)).rowcount == 1
+
     # counters ---------------------------------------------------------------
 
     def hit(self, scope: str, key: str, window_seconds: int, limit: int, now: int) -> bool:
@@ -304,4 +418,5 @@ class AccountStore:
                 "DELETE FROM sessions WHERE idle_expires_at <= ? OR abs_expires_at <= ?", (now, now)
             ).rowcount
             removed += self._e.execute("DELETE FROM counters WHERE expires_at <= ?", (now,)).rowcount
+            removed += self._e.execute("DELETE FROM spent_nonces WHERE expires_at <= ?", (now,)).rowcount
         return removed

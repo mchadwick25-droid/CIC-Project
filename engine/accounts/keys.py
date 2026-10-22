@@ -116,6 +116,22 @@ class KeyRing:
         out += [self._hash_with(p.key_id, p.secret, normalised) for p in self._previous if today <= p.retire_on]
         return out
 
+    def _provider_hash_with(self, key_id: str, secret: str, provider: str, issuer: str, subject: str) -> str:
+        message = b"cic-accounts-provider-v1|" + "|".join((provider, issuer, subject)).encode()
+        return f"{key_id}:{hmac.new(secret.encode(), message, hashlib.sha256).hexdigest()}"
+
+    def provider_hash(self, provider: str, issuer: str, subject: str) -> str:
+        """A provider's stable account id (issuer and subject) as a keyed value, so a
+        stolen account file does not name anyone's Google or Apple account."""
+        return self._provider_hash_with(self.key_id, self._address_key, provider, issuer, subject)
+
+    def provider_candidates(self, provider: str, issuer: str, subject: str) -> list[str]:
+        """The current hash first, then one per previous key not yet retired."""
+        today = self._today()
+        out = [self.provider_hash(provider, issuer, subject)]
+        out += [self._provider_hash_with(p.key_id, p.secret, provider, issuer, subject) for p in self._previous if today <= p.retire_on]
+        return out
+
     def is_current(self, stored_hash: str) -> bool:
         return stored_hash.startswith(self.key_id + ":")
 

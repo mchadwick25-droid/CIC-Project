@@ -29,6 +29,7 @@ from engine.accounts.config import AccountsConfig
 from engine.accounts.keys import AccountsKeyError, KeyRing, parse_previous
 from engine.accounts.service import AccountsService, Mailer, Result, Session
 from engine.accounts.store import AccountStore
+from engine.api.provider_tokens import ProviderVerifier
 from engine.api.ratelimit import client_ip, network_of
 
 logger = logging.getLogger("cic.accounts")
@@ -49,6 +50,9 @@ MESSAGES = {
     "wrong": "That code did not work. Check it, or ask for a new one.",
     "needs_age_answer": "Please tell us if you are 18 or over.",
     "not_adult": "Accounts are open to people who are 18 or over. The way in for younger people, with a parent or teacher, is not available yet.",
+    "not_available": "That way of signing in is not available right now.",
+    "provider_cannot_use": "That sign-in cannot be added to this account.",
+    "last_method": "This is your only way to sign in. Add another way first.",
     "step_up_needed": "Please confirm your address with a fresh code first.",
     "cannot_use": "That address cannot be used.",
 }
@@ -86,7 +90,9 @@ def build_runtime(config: AccountsConfig, env: dict, mailer: Mailer | None = Non
             "CIC_ACCOUNTS_ENABLED is on but no sign-in mail provider is configured; a sign-in code cannot be sent"
         )
     store = AccountStore(config.durable_db_path, config.ephemeral_db_path)
-    service = AccountsService(store, keys, QueuedMailer(mailer), clock=clock)
+    clients = {"google": env.get("CIC_ACCOUNTS_GOOGLE_CLIENT_ID", ""), "apple": env.get("CIC_ACCOUNTS_APPLE_CLIENT_ID", "")}
+    verifier = ProviderVerifier(clients) if any(clients.values()) else None
+    service = AccountsService(store, keys, QueuedMailer(mailer), clock=clock, verifier=verifier)
     service.reapply_ledger()
     return AccountsRuntime(service=service)
 
@@ -152,6 +158,20 @@ class SignInFinishBody(BaseModel):
     over_18: StrictBool | None = None
 
 
+class ProviderBody(BaseModel):
+    provider: str = Field(max_length=20)
+    id_token: str = Field(max_length=4096)
+    nonce: str = Field(max_length=80)
+
+
+class ProviderFinishBody(ProviderBody):
+    over_18: StrictBool | None = None
+
+
+class ProviderNameBody(BaseModel):
+    provider: str = Field(max_length=20)
+
+
 class ChallengeBody(BaseModel):
     challenge: str = Field(max_length=80)
     code: str = Field(max_length=40)
@@ -203,7 +223,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     async def _refuse(result: Result, *, delay: bool) -> None:
         if delay:
             await asyncio.sleep(runtime.miss_delay_seconds)
-        status = {"throttled": 429, "paused": 503, "send_failed": 503}.get(result.status, 400)
+        status = {"throttled": 429, "paused": 503, "send_failed": 503, "not_available": 404}.get(result.status, 400)
         raise HTTPException(status_code=status, detail=MESSAGES.get(result.status, "That did not work."))
 
     @app.post("/api/accounts/sign-in/start")
@@ -228,6 +248,55 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         if result.status in ("needs_age_answer", "not_adult"):
             return {"status": result.status, "message": MESSAGES[result.status]}
         await _refuse(result, delay=True)
+
+    @app.post("/api/accounts/provider/start")
+    async def provider_start(request: Request):
+        _guard(request)
+        result = await run_in_threadpool(service.provider_start, _network(request))
+        if result.status != "sent":
+            await _refuse(result, delay=False)
+        return {"status": "ok", "nonce": result.challenge}
+
+    @app.post("/api/accounts/provider/finish")
+    async def provider_finish(body: ProviderFinishBody, request: Request, response: Response):
+        _guard(request)
+        result = await run_in_threadpool(
+            service.provider_sign_in, body.provider, body.id_token, body.nonce, _network(request), body.over_18
+        )
+        if result.status == "ok":
+            _set_cookie(response, result.cookie)
+            return {"status": "ok", "new_account": result.new_account}
+        if result.status in ("needs_age_answer", "not_adult"):
+            return {"status": result.status, "message": MESSAGES[result.status]}
+        await _refuse(result, delay=True)
+
+    @app.post("/api/accounts/step-up/provider")
+    async def step_up_provider(body: ProviderBody, request: Request):
+        _guard(request)
+        result = await run_in_threadpool(
+            service.provider_step_up, await _session(request), body.provider, body.id_token, body.nonce, _network(request)
+        )
+        if result.status != "ok":
+            await _refuse(result, delay=True)
+        return {"status": "ok"}
+
+    @app.post("/api/accounts/provider/link")
+    async def provider_link(body: ProviderBody, request: Request):
+        _guard(request)
+        result = await run_in_threadpool(
+            service.provider_link, await _session(request), body.provider, body.id_token, body.nonce, _network(request)
+        )
+        if result.status != "ok":
+            await _refuse(result, delay=True)
+        return {"status": "ok"}
+
+    @app.post("/api/accounts/provider/unlink")
+    async def provider_unlink(body: ProviderNameBody, request: Request):
+        _guard(request)
+        result = await run_in_threadpool(service.provider_unlink, await _session(request), body.provider)
+        if result.status != "ok":
+            await _refuse(result, delay=False)
+        return {"status": "ok"}
 
     @app.get("/api/accounts/me")
     async def me(request: Request):
