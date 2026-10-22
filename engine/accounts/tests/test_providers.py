@@ -134,7 +134,7 @@ def test_adding_an_address_to_a_provider_only_account_needs_the_provider_step_up
     assert svc.change_address_start(svc.session(cookie), ADDR, NET).status == "step_up_needed"
     session, cookie = _stepped_up_by_provider(svc, "g-ada2")
     started = svc.change_address_start(session, ADDR, NET)
-    assert svc.change_address_finish(session, started.challenge, mailer.last_code(ADDR), NET).status == "ok"
+    assert svc.change_address_finish(session, started.challenge, mailer.last_code(ADDR), NET, ADDR).status == "ok"
     assert store.account(session.account_id).address_hash == svc.keys.address_hash(ADDR)
     assert svc.me(svc.session(cookie))["sign_in_methods"] == ["address", "google"]
 

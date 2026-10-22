@@ -49,7 +49,7 @@ def test_export_holds_the_account_s_fields_and_no_code(svc, mailer, clock):
 def test_me_reports_the_account_without_identifying_it(svc, mailer, clock):
     session, cookie = stepped_up_session(svc, mailer, clock)
     info = svc.me(svc.session(cookie))
-    assert set(info) == {"signed_in", "refill_day", "age_band", "sign_in_methods"}
+    assert set(info) == {"signed_in", "refill_day", "age_band", "sign_in_methods", "has_recovery_code", "recovery_pending"}
 
 
 def test_neither_file_holds_an_address_after_a_hundred_sign_ins(svc, mailer, clock, store, tmp_path):
@@ -59,7 +59,7 @@ def test_neither_file_holds_an_address_after_a_hundred_sign_ins(svc, mailer, clo
         clock.advance(2)
     session, cookie = stepped_up_session(svc, mailer, clock, addresses[0], "198.51.100.200")
     moved = svc.change_address_start(session, "moved.person@elsewhere.example.net", "198.51.100.201")
-    svc.change_address_finish(svc.session(cookie), moved.challenge, mailer.last_code("moved.person@elsewhere.example.net"), "198.51.100.201")
+    svc.change_address_finish(svc.session(cookie), moved.challenge, mailer.last_code("moved.person@elsewhere.example.net"), "198.51.100.201", "moved.person@elsewhere.example.net")
     store._d.execute("VACUUM")
     store._e.execute("VACUUM")
     for name in ("d.db", "e.db"):

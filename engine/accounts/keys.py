@@ -132,6 +132,21 @@ class KeyRing:
         out += [self._provider_hash_with(p.key_id, p.secret, provider, issuer, subject) for p in self._previous if today <= p.retire_on]
         return out
 
+    def _secret_hash_with(self, key_id: str, secret: str, purpose: str, value: str) -> str:
+        message = f"cic-accounts-secret-v1|{purpose}|{value}".encode()
+        return f"{key_id}:{hmac.new(secret.encode(), message, hashlib.sha256).hexdigest()}"
+
+    def secret_hash(self, purpose: str, value: str) -> str:
+        """A one-use secret (a recovery code, a cancel code) as a keyed value under the address
+        key, with its key id, so rotating that key does not kill secrets still held."""
+        return self._secret_hash_with(self.key_id, self._address_key, purpose, value)
+
+    def secret_candidates(self, purpose: str, value: str) -> list[str]:
+        today = self._today()
+        out = [self.secret_hash(purpose, value)]
+        out += [self._secret_hash_with(p.key_id, p.secret, purpose, value) for p in self._previous if today <= p.retire_on]
+        return out
+
     def is_current(self, stored_hash: str) -> bool:
         return stored_hash.startswith(self.key_id + ":")
 
