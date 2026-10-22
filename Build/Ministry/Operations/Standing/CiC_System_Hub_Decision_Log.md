@@ -6845,3 +6845,5 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, thirty-first addendum of the same day. The under-13 route is designed by the build thread and the project lead, not sent to a lawyer; the gate in the twenty-sixth and thirtieth addenda is withdrawn. The design follows the FTC's published rules. Whether a lawyer reads the finished design before production use is the project lead's separate choice. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, thirty-second addendum of the same day. A parent permits a child under 13 by signing in as an adult, certifying parenthood and educational use, and a small card check; the child's data is never reused. The teacher route stays as in ruling 44. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
+
+63, thirty-third addendum of the same day. A parent permits a 13-to-17-year-old by signing in as an adult and certifying parenthood and permission, with no card check. The Go Deeper Decision-Log entry of the same date carries the ruling.

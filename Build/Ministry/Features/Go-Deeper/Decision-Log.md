@@ -1031,3 +1031,9 @@ Read by the build thread, to be confirmed as the slice is designed:
 - The child's account is the adult-managed account of rulings 29 and 31: the parent reads conversations, sets limits and can close it. The child never buys (ruling 28).
 - Under-13 accounts carry fewer features, as Khan Academy's do. Which features is left to the slice, starting from no sharing with anyone but the adult.
 - The statement shown to the parent is the one drafted in ruling 47, read again for readability when the screen is written.
+
+## 2026-10-22 — A parent permits a 13-to-17-year-old by signing in and certifying (ruled by Mark)
+
+System Hub decision 63, thirty-third addendum. This settles the parent-permission method left open by ruling 27.
+
+50. Ruled: a parent permits a young person aged 13 to 17 by signing in as an adult and stating that they are the young person's parent and that they permit the account. There is no card check; that belongs to the under-13 route (ruling 49). The account is the adult-managed account of rulings 29 and 31.
