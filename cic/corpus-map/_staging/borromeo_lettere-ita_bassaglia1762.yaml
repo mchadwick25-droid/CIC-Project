@@ -11,3 +11,14 @@ assignments:
     confidence: assigned
     note: >
       Borromeo's own letters, in Italian, dictated to his secretary and annotated and signed by him, to his agent at Rome Cesare Speciano, 1579-1581, copied from the Ambrosiana originals; his autograph additions are marked (a). His own administrative and pastoral voice, including the seminary and the Milan Jesuits. Caveat: a purposeful selection printed in 1762 during the campaign against the Society of Jesus, chosen for his disputes with the Jesuits; not his whole correspondence, and the printer admits leaving letters out. Legible OCR, long s read as f in places; verify against page images before quoting. No English translation exists (a French one of 1762 is on archive.org as 10569301bsb).
+
+  - row_id: borromeo_lettere-ita_bassaglia1762--borromeo-tridentine-context
+    work: Lettere di S. Carlo Borromeo (1762)
+    author: borromeo
+    locus: as in the existing row
+    atlas_ids:
+    - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked to the whole-church
+      world as the model Tridentine bishop writing. Placed on subject only; not read for whole-church matter.

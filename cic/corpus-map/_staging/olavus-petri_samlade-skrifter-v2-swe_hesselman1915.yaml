@@ -1,0 +1,55 @@
+source_file: olavus-petri_samlade-skrifter-v2-swe_hesselman1915.txt
+
+assignments:
+  - row_id: olavus-petri_samlade-skrifter-v2-swe_hesselman1915--een-handbock-paa-swensko-1529
+    work: "Een handbock påå Swensko (the Swedish Manual of 1529: baptism, marriage, churching, visitation of the sick, burial)"
+    author: olavus-petri
+    locus: "contents entry at line 96; the text with the running head 'EEN HANDBOCK PÅÅ SWENSKO' from about line 15448 (pp. 314 ff. of the volume)"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: tradition
+    confidence: assigned
+    note: >
+      The first Swedish-language church manual, published at Stockholm on 28
+      April 1529 (per the English translator's introduction to the 1930s
+      translation, which is not vendored). The ritual of ordinary parish life
+      in the vernacular. Primary voice, OCR clean. No public-domain English
+      translation was found: the English translation by O. V. Anderson, Rock
+      Island, Augustana Book Concern, is recorded in the dossier as a lead
+      whose date cannot be shown to be 1930 or earlier.
+  - row_id: olavus-petri_samlade-skrifter-v2-swe_hesselman1915--then-swenska-messan-and-swenske-songer
+    work: "Then Swenska Messan (the Swedish Mass, 1535 and 1537 printings), the 1531 tract on the mass in the vernacular, and Swenske songer eller wisor (1536)"
+    author: olavus-petri
+    locus: "contents entries at lines 100-110; Orsack hwar före Messan böör wara på thet tungomål from line 100; the running head 'THEN SWENSKA MESSAN' near lines 19720-19771; 'SWENSKE SONGER' from about line 25140"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: tradition
+    confidence: assigned
+    note: >
+      The Swedish mass and the first Swedish hymn collection. The English of
+      the mass beside the Swedish is in yelverton_mass-in-sweden-lat-swe-eng_yelverton1920.txt
+      (the Mass of Olavus Petri, pp. 23-48 of that book).
+  - row_id: olavus-petri_samlade-skrifter-v2-swe_hesselman1915--en-nyttog-postilla-and-the-doctrinal-writings
+    work: "En nyttog postilla (1528), En liten ingong j then helga scrifft (1529), and Een lijten boock ... hwar igenom menniskian får then ewigha salighetena (1535)"
+    author: olavus-petri
+    locus: "contents entries at lines 84-108; En nyttog postilla running head from about line 106 of the body"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: tradition
+    confidence: assigned
+    note: >
+      Olavus Petri's postil (sermons on the Sunday gospels and epistles) and his
+      short books on Scripture and on salvation, in sixteenth-century Swedish.
+      Primary voice, OCR clean.
+  - row_id: olavus-petri_samlade-skrifter-v2-swe_hesselman1915--olavus-petri-manual-mass-hymns-wittenberg
+    work: "Olavus Petri, Samlade skrifter, vol. 2: the Manual (1529), the Swedish Mass, the postil and the hymns"
+    author: olavus-petri
+    locus: "whole file"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Same placement question as volume 1: the Swedish evangelical liturgy and
+      hymns drew on Wittenberg models, and whether they are Wittenberg's voice
+      or only the Scandinavian entry's is not decided here.

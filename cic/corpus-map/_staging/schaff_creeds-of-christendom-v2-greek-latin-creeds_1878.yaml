@@ -64,3 +64,32 @@ assignments:
     the contents list; the Tridentine Church thread already holds the Canons and the Catechism, and Schaff
     also prints the Canons and Decrees of Trent in Latin and English from about line 6897 (a second witness
     beside Waterworth).
+
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--profession-of-the-tridentine-faith
+  work: The Profession of the Tridentine Faith (Professio fidei Tridentinae, 1564), Latin with Schaff's
+    English
+  author: schaff
+  locus: section "II. PROFESSIO FIDEI TRIDENTINAE", pp. 207-210 of the book; contents entry at file lines
+    6879-6881, the English and Latin columns with the running head "PROFESSION OF THE TRIDENTINE FAITH"
+    at line 18263
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: assigned
+  note: 'Read at the opening and middle of the section: the Latin and an English rendering side by side,
+    the creed followed by numbered articles, of which article X (as read) is the vow of obedience to the
+    Roman pontiff. Schaff''s introduction and notes are scholarship. Gives the Latin of the Profession
+    that the 1734 English file (pius-iv_profession-of-catholick-faith_anon1734.txt) lacks. Schaff''s English
+    is a nineteenth-century Protestant editor''s rendering, so it is a cross-check, not a Catholic voice.'
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--canons-and-dogmatic-decrees-of-trent-latin
+  work: The Canons and Dogmatic Decrees of the Council of Trent, Latin text with English (Schaff's selection)
+  author: schaff
+  locus: section "I. CANONES ET DECRETA DOGMATICA CONCILII TRIDENTINI" from file line 6903; Sessio Tertia
+    at 6918, Sessio Quarta at 7095, Sessio Quinta at 7432, and so on through the dogmatic sessions
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: assigned
+  note: The Latin of the dogmatic canons and decrees of Trent, which the Waterworth file has only in English.
+    Schaff selects the dogmatic decrees and canons, not the disciplinary reform decrees, and says the
+    Latin follows editions he names. Use beside council-of-trent_canons-and-decrees_waterworth1848.txt.

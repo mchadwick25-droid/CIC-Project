@@ -129,6 +129,56 @@ works:
 
     '
   source_file: borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt
+- row_id: borromeo_aggiunta-lettere-ita_bassaglia1762--borromeo-tridentine-context
+  work: Aggiunta alle lettere di S. Carlo Borromeo (1762)
+  author: borromeo
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked
+    to the whole-church world as the model Tridentine bishop writing. Placed on subject only;
+    not read for whole-church matter.
+  source_file: borromeo_aggiunta-lettere-ita_bassaglia1762.txt
+- row_id: borromeo_ammaestramenti-alle-persone-religiose-ita_1902--borromeo-tridentine-context
+  work: Ammaestramenti alle persone religiose (Borromeo, 1902)
+  author: borromeo
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked
+    to the whole-church world as the model Tridentine bishop writing. Placed on subject only;
+    not read for whole-church matter.
+  source_file: borromeo_ammaestramenti-alle-persone-religiose-ita_1902.txt
+- row_id: borromeo_lettere-ita_bassaglia1762--borromeo-tridentine-context
+  work: Lettere di S. Carlo Borromeo (1762)
+  author: borromeo
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked
+    to the whole-church world as the model Tridentine bishop writing. Placed on subject only;
+    not read for whole-church matter.
+  source_file: borromeo_lettere-ita_bassaglia1762.txt
+- row_id: borromeo_ricordi-ita_1580--borromeo-tridentine-context
+  work: Ricordi per il vivere christiano (Borromeo, 1580)
+  author: borromeo
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked
+    to the whole-church world as the model Tridentine bishop writing. Placed on subject only;
+    not read for whole-church matter.
+  source_file: borromeo_ricordi-ita_1580.txt
+- row_id: borromeo_terza-raccolta-lettere-ita_agnelli1763--borromeo-tridentine-context
+  work: Terza raccolta di lettere di S. Carlo Borromeo (1763)
+  author: borromeo
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked
+    to the whole-church world as the model Tridentine bishop writing. Placed on subject only;
+    not read for whole-church matter.
+  source_file: borromeo_terza-raccolta-lettere-ita_agnelli1763.txt
 - row_id: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini--papal-constitutions-pius-iv-to-innocent-ix
   work: 'Magnum Bullarium Romanum, Tomus Secundus: papal constitutions of Pius IV, Pius V,
     Gregory XIII, Sixtus V, Gregory XIV and Innocent IX'
@@ -150,6 +200,36 @@ works:
     for and not located by OCR spelling variants, so a build should open the volume on the
     page images rather than assume they are there.
   source_file: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt
+- row_id: canisius_summe-of-christian-doctrine_anon1622--canisius-catechism-tridentine-context
+  work: A Summe of Christian Doctrine (Canisius, English 1622)
+  author: canisius
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: The Jesuit catechism that ran beside the Roman Catechism in the Counter-Reformation
+    parishes; kept to the Jesuit world as its tradition text and cross-linked here as context.
+    Placed on subject and window; not read for how it relates to the Roman Catechism.
+  source_file: canisius_summe-of-christian-doctrine_anon1622.txt
+- row_id: canisius_summa-doctrinae-christianae-lat_1565--canisius-catechism-tridentine-context
+  work: Summa doctrinae christianae (Canisius, Latin 1565)
+  author: canisius
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: The Jesuit catechism that ran beside the Roman Catechism in the Counter-Reformation
+    parishes; kept to the Jesuit world as its tradition text and cross-linked here as context.
+    Placed on subject and window; not read for how it relates to the Roman Catechism.
+  source_file: canisius_summa-doctrinae-christianae-lat_1565.txt
+- row_id: canisius_summa-doctrinae-christianae-lat_1573--canisius-catechism-tridentine-context
+  work: Summa doctrinae christianae (Canisius, Latin 1573)
+  author: canisius
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: The Jesuit catechism that ran beside the Roman Catechism in the Counter-Reformation
+    parishes; kept to the Jesuit world as its tradition text and cross-linked here as context.
+    Placed on subject and window; not read for how it relates to the Roman Catechism.
+  source_file: canisius_summa-doctrinae-christianae-lat_1573.txt
 - row_id: bellarmine_notes-of-the-church_1688--the-notes-of-the-church-de-notis-ecclesiae-examined-a-church
   work: The Notes of the Church (De Notis Ecclesiae) EXAMINED - a Church of England tract
     series refuting Bellarmine's own Notes of the Church
@@ -257,6 +337,39 @@ works:
 
     '
   source_file: jewel_apology-of-the-church-of-england_bacon-morley1888.txt
+- row_id: lainez_epistolae-et-acta-v6-lat_1915--jesuit-at-trent-tridentine-context
+  work: Lainez, Epistolae et acta, vol. 6
+  author: lainez
+  locus: as in the existing row; the Council is named about 107 times in the OCR (a count
+    of the words Council of Trent, Tridentine and Concilio di Trento, not a reading)
+  role: context
+  confidence: provisional
+  note: Jesuit theologians and officers at and after the Council. Kept to the Society of Jesus
+    as its tradition text; cross-linked here as context only. Placed on a mention count; not
+    read.
+  source_file: lainez_epistolae-et-acta-v6-lat_1915.txt
+- row_id: lainez_epistolae-et-acta-v7-lat_1916--jesuit-at-trent-tridentine-context
+  work: Lainez, Epistolae et acta, vol. 7
+  author: lainez
+  locus: as in the existing row; the Council is named about 90 times in the OCR (a count of
+    the words Council of Trent, Tridentine and Concilio di Trento, not a reading)
+  role: context
+  confidence: provisional
+  note: Jesuit theologians and officers at and after the Council. Kept to the Society of Jesus
+    as its tradition text; cross-linked here as context only. Placed on a mention count; not
+    read.
+  source_file: lainez_epistolae-et-acta-v7-lat_1916.txt
+- row_id: lainez_epistolae-et-acta-v8-lat_1917--jesuit-at-trent-tridentine-context
+  work: Lainez, Epistolae et acta, vol. 8
+  author: lainez
+  locus: as in the existing row; the Council is named about 46 times in the OCR (a count of
+    the words Council of Trent, Tridentine and Concilio di Trento, not a reading)
+  role: context
+  confidence: provisional
+  note: Jesuit theologians and officers at and after the Council. Kept to the Society of Jesus
+    as its tradition text; cross-linked here as context only. Placed on a mention count; not
+    read.
+  source_file: lainez_epistolae-et-acta-v8-lat_1917.txt
 - row_id: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858--de-bijenkorf-der-h-roomsche-kerke-2
   work: De Bijenkorf der H. Roomsche Kerke (1569)
   author: marnix
@@ -394,8 +507,8 @@ works:
     throughout'
   role: context
   confidence: assigned
-  note: Nineteenth-century Catholic scholarship (Reusch was an Old Catholic professor) on
-    the history of the Index. Context, never the church's own voice.
+  note: Nineteenth-century Catholic scholarship on the history of the Index. Context, never
+    the church's own voice.
   source_file: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt
 - row_id: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886--sixteenth-century-index-texts
   work: The sixteenth-century Indices librorum prohibitorum as printed by Reusch (1559 Index
@@ -436,6 +549,17 @@ works:
 
     '
   source_file: roman-missal_england1843.txt
+- row_id: salmeron_epistolae-v2-lat_1906--jesuit-at-trent-tridentine-context
+  work: Epistolae P. Alphonsi Salmeronis, tomus primus (1536-1565)
+  author: salmeron
+  locus: as in the existing row; the Council is named about 124 times in the OCR (a count
+    of the words Council of Trent, Tridentine and Concilio di Trento, not a reading)
+  role: context
+  confidence: provisional
+  note: Jesuit theologians and officers at and after the Council. Kept to the Society of Jesus
+    as its tradition text; cross-linked here as context only. Placed on a mention count; not
+    read.
+  source_file: salmeron_epistolae-v2-lat_1906.txt
 - row_id: sarpi_history-of-the-council-of-trent_brent1676--the-history-of-the-council-of-trent
   work: The History of the Council of Trent
   author: sarpi
@@ -452,6 +576,35 @@ works:
 
     '
   source_file: sarpi_history-of-the-council-of-trent_brent1676.txt
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--canons-and-dogmatic-decrees-of-trent-latin
+  work: The Canons and Dogmatic Decrees of the Council of Trent, Latin text with English (Schaff's
+    selection)
+  author: schaff
+  locus: section "I. CANONES ET DECRETA DOGMATICA CONCILII TRIDENTINI" from file line 6903;
+    Sessio Tertia at 6918, Sessio Quarta at 7095, Sessio Quinta at 7432, and so on through
+    the dogmatic sessions
+  role: tradition
+  confidence: assigned
+  note: The Latin of the dogmatic canons and decrees of Trent, which the Waterworth file has
+    only in English. Schaff selects the dogmatic decrees and canons, not the disciplinary
+    reform decrees, and says the Latin follows editions he names. Use beside council-of-trent_canons-and-decrees_waterworth1848.txt.
+  source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--profession-of-the-tridentine-faith
+  work: The Profession of the Tridentine Faith (Professio fidei Tridentinae, 1564), Latin
+    with Schaff's English
+  author: schaff
+  locus: section "II. PROFESSIO FIDEI TRIDENTINAE", pp. 207-210 of the book; contents entry
+    at file lines 6879-6881, the English and Latin columns with the running head "PROFESSION
+    OF THE TRIDENTINE FAITH" at line 18263
+  role: tradition
+  confidence: assigned
+  note: 'Read at the opening and middle of the section: the Latin and an English rendering
+    side by side, the creed followed by numbered articles, of which article X (as read) is
+    the vow of obedience to the Roman pontiff. Schaff''s introduction and notes are scholarship.
+    Gives the Latin of the Profession that the 1734 English file (pius-iv_profession-of-catholick-faith_anon1734.txt)
+    lacks. Schaff''s English is a nineteenth-century Protestant editor''s rendering, so it
+    is a cross-check, not a Catholic voice.'
+  source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
 - row_id: slavata_pameti-1608-1619-dil1-ces_jirecek1866--pam-ti-vil-ma-slavaty-d-l-i-1608-1609-and-1618-1619-2
   work: Paměti Viléma Slavaty, díl I (1608-1609 and 1618-1619)
   author: slavata
@@ -463,6 +616,17 @@ works:
     diacritics; check wording against the page image. The Tridentine placement is on the author''s
     side only and is provisional.'
   source_file: slavata_pameti-1608-1619-dil1-ces_jirecek1866.txt
+- row_id: society-of-jesus_institutum-societatis-iesu-v1-lat_1892--jesuit-at-trent-tridentine-context
+  work: Institutum Societatis Iesu, vol. 1
+  author: society-of-jesus
+  locus: as in the existing row; the Council is named about 57 times in the OCR (a count of
+    the words Council of Trent, Tridentine and Concilio di Trento, not a reading)
+  role: context
+  confidence: provisional
+  note: Jesuit theologians and officers at and after the Council. Kept to the Society of Jesus
+    as its tradition text; cross-linked here as context only. Placed on a mention count; not
+    read.
+  source_file: society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt
 - row_id: teresa-of-avila_book-of-foundations_mason1909--foundations-tridentine
   work: The Book of the Foundations, the chapters naming the Council of Trent and the bishops
     who enforced enclosure

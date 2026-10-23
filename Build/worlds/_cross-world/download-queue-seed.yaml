@@ -8805,3 +8805,152 @@ queue:
     verified_by: direct fetch of metadata (NOT_IN_COPYRIGHT; Gutenberg) and the text, searched for the Claudius
       chapter, 2026-10-23
     status: not-yet-downloaded
+
+  - title: Magnum Bullarium Romanum, Tomus Secundus (Pius IV to Innocent IX)
+    author: Roman Catholic Church (papal constitutions); compiled by Laertius Cherubinus and later editors
+    translator: none (Latin original)
+    year: 1727 (catalogue date)
+    world: the-tridentine-church
+    why: Sixtus V's Immensa aeterni Dei (1588), the census-named reorganised curia, is not in the 1588 Bullarium
+      of Sixtus V (that volume ends in December 1587). It is constitution 74 of this volume, which also
+      prints the constitutions of Pius IV, Pius V, Gregory XIII, Gregory XIV and Innocent IX.
+    url: https://archive.org/details/gri_33125011258403
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched (no rights field,
+      not access-restricted); Immensa rubric and text located in the OCR; five-point OCR sample readable'
+    status: downloaded
+    vendored_as: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt
+  - title: Collectanea S. Congregationis de Propaganda Fide, vol. I (Ann. 1622-1866)
+    author: Sacra Congregatio de Propaganda Fide
+    translator: none (Latin original)
+    year: '1907'
+    world: the-tridentine-church
+    why: Propaganda Fide's founding constitution Inscrutabili (Gregory XV, 22 June 1622) and the Instruction
+      of 1659, both named in the Tridentine request, in the Congregation's own printed collection.
+    url: https://archive.org/details/collectaneascong01unse
+    rights_basis: pd-us-by-date (1907 imprint read in the OCR); host licence CC0 1.0
+    verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched (licenseurl CC0
+      1.0); imprint MCMVII read in the OCR; Inscrutabili and entry 135 located; five-point OCR sample readable'
+    status: downloaded
+    vendored_as: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt
+  - title: Die Indices librorum prohibitorum des sechzehnten Jahrhunderts
+    author: Franz Heinrich Reusch (editor)
+    translator: none (German with Latin texts)
+    year: '1886'
+    world: the-tridentine-church
+    why: 'The Index of Forbidden Books named in the census: Reusch prints the 1559 Index of Paul IV and
+      the 1564 Tridentine Index of Pius IV.'
+    url: https://archive.org/details/bub_gb_W6wLAAAAIAAJ
+    rights_basis: pd-us-by-date; host Public Domain Mark 1.0
+    verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched; preface dated Tuebingen
+      9 February 1886 read in the OCR; contents list read; five-point OCR sample legible but noisy'
+    status: downloaded
+    vendored_as: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt
+  - title: A Profession of Catholick Faith Extracted out of the Council of Trent by Pope Pius IV (with the
+      chief Grounds, by question and answer)
+    author: Pope Pius IV (Profession); author of the Grounds not named
+    translator: none (English)
+    year: '1734'
+    world: the-tridentine-church
+    why: The Tridentine Profession of Faith (1564) in English, as used to receive converts.
+    url: https://archive.org/details/professionofcath0000pope
+    rights_basis: pd-us-by-date (MDCCXXXIV read on the title page)
+    verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched (no rights field,
+      not access-restricted); title page and Profession text read; five-point OCR sample readable'
+    status: downloaded
+    vendored_as: pius-iv_profession-of-catholick-faith_anon1734.txt
+  - title: The Life of Saint Philip Neri, Apostle of Rome, and Founder of the Congregation of the Oratory,
+      vol. 1
+    author: Pietro Giacomo Bacci
+    translator: Rev. F. W. Faber (named in the series prospectus)
+    year: '1847'
+    world: the-tridentine-church
+    why: The Oratory's own account of Philip Neri, in Faber's English, for the new-orders strand of the
+      census.
+    url: https://archive.org/details/book-philip-neri
+    rights_basis: pd-us-by-date (M.D.CCC.XLVII read on the title page)
+    verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched (no rights field);
+      title page read; five-point OCR sample clean'
+    status: downloaded
+    vendored_as: bacci_life-of-st-philip-neri-v1_faber1847.txt
+  - title: Istoria del Concilio di Trento, Parte prima, seconda, terza
+    author: Sforza Pallavicino
+    translator: none (Italian original)
+    year: '1664'
+    world: the-tridentine-church
+    why: The pro-Curia history of Trent, the answer to Sarpi; the Tridentine dossier of 2026-09-15 closed
+      it only for English and said no English translation exists.
+    url: https://archive.org/details/bub_gb_iVsda5kt9jIC ; https://archive.org/details/bub_gb_Cy2j-NuC_wAC
+      ; https://archive.org/details/india.history.resource.74738
+    rights_basis: pd-us-by-date (MDCLXIV read on the title pages); hosts Public Domain Mark 1.0 for the
+      first two, no rights field for the third
+    verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched for all three; title
+      pages read; five-point OCR samples: parts 1 and 2 readable, part 3 garbled in its later half'
+    status: downloaded
+    vendored_as: pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt; pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt;
+      pallavicino_istoria-del-concilio-di-trento-parte3-ita_1664.txt
+  - title: Index librorum prohibitorum cum Regulis confectis per Patres Tridentina Synodo delectos (Pius
+      IV)
+    author: Roman Index of Pius IV (printed with royal decree of the Duke of Alba)
+    translator: none (Latin original)
+    year: 1569 (catalogue date)
+    world: the-tridentine-church
+    why: 'A contemporary print of the Tridentine Index with the ten rules. Not vendored: Reusch 1886 prints
+      the same text and fits the file budget; vendor this if a build wants the sixteenth-century print itself.'
+    url: https://archive.org/details/bub_gb_Qjo8AAAAcAAJ
+    rights_basis: pd-us-by-date; host Public Domain Mark 1.0 (Bavarian State Library)
+    verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched; full text downloaded
+      (62 KB); five-point OCR sample legible with scattered errors; the year is the catalogue''s, not read
+      from the page'
+    status: not-yet-downloaded
+  - title: Of prayer, and meditation (Luis de Granada, English)
+    author: Luis de Granada
+    translator: English translation, translator not named in the OCR front matter I read
+    year: '1582'
+    world: the-tridentine-church
+    why: 'The Elizabethan English of Granada, the Catholic lay devotional voice named in the Tridentine
+      request. Not vendored: file budget; the OCR (long s printed as f) is readable. Vendor if Doc_02 wants
+      a lay devotional voice beyond Bellarmine.'
+    url: https://archive.org/details/bim_early-english-books-1475-1640_of-prayer-and-meditatio_luis-de-granada_1582
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched (no rights field);
+      full text downloaded (1 MB); five-point OCR sample readable'
+    status: not-yet-downloaded
+  - title: Magnum Bullarium Romanum, Tomus Tertius (Clement VIII to Gregory XV)
+    author: Roman Catholic Church (papal constitutions)
+    translator: none (Latin original)
+    year: 1727 (catalogue date)
+    world: the-tridentine-church
+    why: 'Volume 03-04 of the same Luxembourg set: its Tomus Tertius runs from Clement VIII to Gregory XV,
+      so it carries the constitutions of Paul V and of Gregory XV (1621-1623) that Tomus Secundus does not.
+      Not vendored: the Collectanea already carries Inscrutabili.'
+    url: https://archive.org/details/gri_33125011258460
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched (no rights field);
+      full text downloaded (7 MB); title page "TOMUS TERTIUS A CLEMENTE VIII. AD GREGORIUM XV" read'
+    status: not-yet-downloaded
+  - title: Constitutioni de frati minori capuccini di s. Francesco
+    author: Capuchin Order
+    translator: none (Italian original)
+    year: '1609'
+    world: the-tridentine-church
+    why: The Capuchin Constitutions named in the request, but this is the Rome print of 1609, not the 1536
+      text of Albacina; the file does not mention 1536. Not vendored for that reason.
+    url: https://archive.org/details/bub_gb_XlE0KmSkSqoC
+    rights_basis: pd-us-by-date; host Public Domain Mark 1.0 (National Central Library of Rome)
+    verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched; full text downloaded
+      (170 KB); five-point OCR sample partly legible'
+    status: not-yet-downloaded
+  - title: Life of Saint Angela Merici of Brescia, foundress of the Order of Saint Ursula
+    author: Abbe Parenty; account of the Order by John Gilmary Shea
+    translator: Shea (edition)
+    year: '1858'
+    world: the-tridentine-church
+    why: 'The 19th-century English Life that the request pairs with Merici''s Rule. Not vendored: it is
+      a biography with Merici''s maxims and legacies quoted, and does not print her Regola.'
+    url: https://archive.org/details/lifeofsaintangel00pare
+    rights_basis: 'pd-us-by-date; host: "The Library of Congress is unaware of any copyright restrictions
+      for this item."'
+    verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched; full text downloaded
+      (370 KB); five-point OCR sample clean'
+    status: not-yet-downloaded

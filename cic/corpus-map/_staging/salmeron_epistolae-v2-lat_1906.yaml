@@ -18,3 +18,15 @@ assignments:
       file, since it is primary to the movement regardless of language;
       the scan is clean, not flagged as garbled under the Library's own
       OCR-quality rule.
+
+  - row_id: salmeron_epistolae-v2-lat_1906--jesuit-at-trent-tridentine-context
+    work: Epistolae P. Alphonsi Salmeronis, tomus primus (1536-1565)
+    author: salmeron
+    locus: as in the existing row; the Council is named about 124 times in the OCR (a count of the words
+      Council of Trent, Tridentine and Concilio di Trento, not a reading)
+    atlas_ids:
+    - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: Jesuit theologians and officers at and after the Council. Kept to the Society of Jesus as its
+      tradition text; cross-linked here as context only. Placed on a mention count; not read.

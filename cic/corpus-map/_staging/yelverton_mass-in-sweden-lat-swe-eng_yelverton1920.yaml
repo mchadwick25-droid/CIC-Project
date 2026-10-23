@@ -1,0 +1,56 @@
+source_file: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920.txt
+
+assignments:
+  - row_id: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920--mass-of-olavus-petri-and-laurentius-petri
+    work: "The Mass of Olavus Petri (1531) and Laurentius Petri's church-order mass (1571), Swedish with English beside it"
+    author: yelverton
+    locus: "chapters II and III: 'THE MASS OF OLAVUS PETRI' from line 1602 (book pp. 23-48) and 'LAURENTIUS PETRI AND THE MASS' from line 3518 (book pp. 49-64)"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: tradition
+    confidence: assigned
+    note: >
+      The English witness for the Swedish mass: Yelverton prints the sixteenth-century
+      Swedish and his own English side by side, with introductions. He calls his
+      English a close modern rendering without regard to literary effect. It is
+      a translation of the mass only, not of Olavus Petri's Manual of 1529 or his
+      tracts. OCR readable; check every quote against the page image.
+  - row_id: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920--red-book-of-john-iii-and-communion-office-of-charles-ix
+    work: "The Red Book of John III (1576, Latin and English) and the communion office of Charles IX"
+    author: yelverton
+    locus: "chapters IV and V: 'The Mass of John III' (book pp. 65-120) and 'The Communion Office of Charles IX' (book pp. 121-146), after line 4536"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: tradition
+    confidence: assigned
+    note: >
+      The liturgy that the Uppsala Synod of 1593 rejected, and the reforming
+      king's communion office that followed. Yelverton says the Latin text of
+      the Red Book is reprinted here for the first time since the sixteenth
+      century. The dispute over the Red Book (a Catholic-leaning liturgy of the
+      king's own making) is the immediate cause of the 1593 synod.
+  - row_id: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920--medieval-latin-mass-of-sweden
+    work: "The medieval Latin mass of Sweden, as transcribed by Yelverton"
+    author: yelverton
+    locus: "chapter I: 'THE MEDIEVAL MASS IN SWEDEN' from about line 547 (book pp. 1-22)"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: antecedent
+    confidence: provisional
+    note: >
+      The rite the Swedish reformers translated and trimmed. Yelverton transcribes
+      it in some detail to show that the modern mass kept its form. Placed on the
+      preface and contents list, not on a full read, so provisional.
+  - row_id: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920--masses-of-olavus-and-laurentius-petri-wittenberg
+    work: "The Masses of Olavus and Laurentius Petri, Swedish with English"
+    author: yelverton
+    locus: "lines 1602-4535"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Same placement question as the Olavus Petri volumes: Luther's German Mass
+      stands behind the Swedish mass of 1531, and whether the Swedish church's
+      liturgy is Wittenberg's voice or only the Scandinavian entry's is not
+      decided here.

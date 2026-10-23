@@ -13,3 +13,15 @@ assignments:
     margins. Second witness for now, not yet quotable: a 1565 print with the long s read as f, and the
     outer-margin citations interleaved with the main text in the OCR. A cleaner Latin edition would serve
     as the quotable witness. Word-form coverage against a clean Latin vocabulary is 0.70.'
+
+- row_id: canisius_summa-doctrinae-christianae-lat_1565--canisius-catechism-tridentine-context
+  work: Summa doctrinae christianae (Canisius, Latin 1565)
+  author: canisius
+  locus: as in the existing row
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: The Jesuit catechism that ran beside the Roman Catechism in the Counter-Reformation parishes;
+    kept to the Jesuit world as its tradition text and cross-linked here as context. Placed on subject
+    and window; not read for how it relates to the Roman Catechism.

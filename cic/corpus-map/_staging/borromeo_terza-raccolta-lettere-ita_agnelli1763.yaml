@@ -11,3 +11,14 @@ assignments:
     confidence: assigned
     note: >
       Third collection of Borromeo's letters, 1567-1584, on the seminary, the Jesuits of Milan and diocesan government, with letters to and from Cesare Speciano and others; the closing chronological index summarises every letter in all three collections and is the quickest way into them. Same purposeful anti-Jesuit selection of 1762-63; the dedication says so itself. Legible OCR, long s read as f throughout, some broken words; verify against page images before quoting.
+
+  - row_id: borromeo_terza-raccolta-lettere-ita_agnelli1763--borromeo-tridentine-context
+    work: Terza raccolta di lettere di S. Carlo Borromeo (1763)
+    author: borromeo
+    locus: as in the existing row
+    atlas_ids:
+    - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked to the whole-church
+      world as the model Tridentine bishop writing. Placed on subject only; not read for whole-church matter.

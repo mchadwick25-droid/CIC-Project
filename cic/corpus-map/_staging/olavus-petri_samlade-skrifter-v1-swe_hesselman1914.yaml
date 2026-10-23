@@ -1,0 +1,32 @@
+source_file: olavus-petri_samlade-skrifter-v1-swe_hesselman1914.txt
+
+assignments:
+  - row_id: olavus-petri_samlade-skrifter-v1-swe_hesselman1914--olavus-petri-reform-writings-1526-1528
+    work: "Olavus Petri, Samlade skrifter, vol. 1: the reform writings of 1526-1528 (instruction, preface to the New Testament, replies to opponents, the coronation exhortation, the tracts on the sacraments, marriage and the monasteries), Swedish"
+    author: olavus-petri
+    locus: "whole file; the contents list at lines 100-135 (Swar vppa jtt ochristelighit sendebreff 1527 at line 115, Swar paa tolf spörsmål 1527 at line 117, Om gudz ordh och menniskios bodh 1528 at line 134); the running head 'SWAR VPPA JTT OCHRISTELIGHIT SENDEBREFF' from line 8665"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: tradition
+    confidence: assigned
+    note: >
+      The Swedish Reformation's leading preacher and writer in his own
+      sixteenth-century Swedish, edited in 1914 with Westman's introductions.
+      Includes the replies to the Catholic clergy of 1527 and the tracts of
+      1528 that set out the evangelical teaching before the Diet of Vasteras
+      settled the church's property. Primary voice, OCR clean in the sampled
+      pages; ready to quote once each quote is verified against the page image.
+      No public-domain English translation of these tracts was found.
+  - row_id: olavus-petri_samlade-skrifter-v1-swe_hesselman1914--olavus-petri-reform-writings-wittenberg
+    work: "Olavus Petri, Samlade skrifter, vol. 1: the reform writings of 1526-1528"
+    author: olavus-petri
+    locus: "whole file"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Olavus studied at Wittenberg and the volume's introduction says his
+      evangelical teaching came largely from there. Whether the Swedish
+      Reformation is part of Wittenberg's congregations or only its own
+      entry's voice is a mapping decision this pass does not make.

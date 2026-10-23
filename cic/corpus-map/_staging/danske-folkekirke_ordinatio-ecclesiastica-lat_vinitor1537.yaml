@@ -1,0 +1,35 @@
+source_file: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt
+
+assignments:
+  - row_id: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537--ordinatio-ecclesiastica-regnorum-daniae-et-norvegiae-1537
+    work: "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae et Ducatuum Sleswicensis Holtsatiae (the Church Ordinance of 1537), Latin"
+    author: danske-folkekirke
+    locus: "whole file; the title page and the king's preface near line 79, the colophon at line 7374; front matter before it and a bookseller's note after it are not the ordinance"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: tradition
+    confidence: assigned
+    note: >
+      The founding text of the Danish-Norwegian church after the break of
+      1536, issued in the name of Christian III and drawn up with Johannes
+      Bugenhagen (the preface names him as Doctor Pomeranus). Its preface says
+      the draft went to Luther and the Wittenberg theologians for approval.
+      It also governed Iceland. Primary voice in Latin. The 1537 Gothic-type
+      OCR is readable but carries systematic substitutions (long s, and
+      r-rotunda printed as a barred r after p, c and h) and scattered noise, so
+      it is a second witness for exact wording until each quote is checked
+      against the page image. The Danish rendering of 1539 is not vendored
+      and no public-domain English translation was found.
+  - row_id: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537--ordinatio-ecclesiastica-1537-wittenberg
+    work: "Ordinatio ecclesiastica of 1537, the Wittenberg-approved church order sent north"
+    author: danske-folkekirke
+    locus: "the king's preface near line 79 (the draft sent to Luther and approved at Wittenberg; Bugenhagen's part), then the whole ordinance"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Wittenberg's own export: Bugenhagen drafted it with the Danish
+      theologians and Luther approved it. Whether a Danish-Norwegian ordinance
+      belongs to the Wittenberg entry as its voice, or only to the Scandinavian
+      kingdoms entry, is a mapping decision this pass does not make.
