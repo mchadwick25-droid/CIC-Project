@@ -368,3 +368,9 @@ Decision (Mark, 2026-10-23): the Library era builds and the Church Family Tree n
 - Not decided: the Conversation chooser research thread (branch reset to main@30b9463, no new PR) was not named by Mark; it stays idle until he says.
 - Archived the same day, finished work, reversible: account system research, integrity issues, pilot launch recruitment, conversation layout redesign.
 - The big project's active threads: the participant-experience design (Fable), accounts from A1d onward, and the daily-limits thread finishing PR 1050.
+
+## Finish line for the big project — 2026-10-23
+Decision (Mark, 2026-10-23): the tokens and accounts project is done, and LPC can start, when buying works end to end and the visitor experience is approved. Buying works means Stripe is live and a real smallest-pack purchase and refund are proven. Accounts continue after that as one quiet tail thread until the mail provider and the lawyer's answers arrive. Chosen over "everything including accounts switched on" and over "stop now with buying dark."
+- What that finish line needs (from the 2026-10-23 status; each item is open): three Stripe Payment Links and the webhook with the matching Render settings; the buy page changed from one link to three; Stripe's written answer on stored value; the lawyer's answers on expiry and refund wording; one real smallest-pack purchase and refund; dropping `noindex`, linking the Go Deeper page and adding the age line to the pilot page; the participant-experience design approved by Mark; the next promotion (accounts A3 and the cost report) and Mark's reading of the cost report.
+- Accounts tail, not part of the finish line: the mail provider choice, the words-and-screens and backup-and-deletion slices, the sign-in findings F5 to F7, and the coupon grant button.
+- Handoff for this thread: `Build/Ministry/Operations/Handoffs/2026-10-23_system-and-pilot-feedback-management.md`.
