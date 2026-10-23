@@ -2,6 +2,7 @@ import { useRef, useState, type ReactNode } from 'react';
 import { ConversationMenu } from './ConversationMenu';
 import { DeleteConversation } from './DeleteConversation';
 import { ExperienceFeedbackCard } from './ExperienceFeedback';
+import { AccountPanel } from './AccountPanel';
 import { GoDeeperPanel } from './GoDeeperPanel';
 import { ReportCard } from './PageFeedback';
 
@@ -46,6 +47,7 @@ export function ConversationChrome({ title, aboutLabel, about, feedbackPage, rep
           onDelete={onDelete ? open('delete') : undefined}
         />
       </div>
+      <AccountPanel />
       <GoDeeperPanel />
       {panel === 'about' && (
         <div className="conversation__panel">

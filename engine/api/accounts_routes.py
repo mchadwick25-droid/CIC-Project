@@ -563,7 +563,8 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
             described = shelf.describe(deps.store, deps.registry, body.session_id)
             # When it cannot be read, the resources line is shown: caution is the default.
             return {"session_id": body.session_id, "session_code": code,
-                    "holds_crisis_turn": True if described is None else described["holds_crisis_turn"]}
+                    "holds_crisis_turn": True if described is None else described["holds_crisis_turn"],
+                    "resources_text": shelf.resources_text(deps.store, body.session_id)}
 
         opened = await run_in_threadpool(_open)
         if opened is None:

@@ -21,3 +21,11 @@ def test_the_switches_default_to_off_so_an_unset_service_builds_the_module_dark(
 def test_the_build_log_prints_whether_the_switch_arrived_before_the_frontend_build():
     echo = DOCKERFILE.index("RUN echo \"Go Deeper app build: VITE_DEEPER_ENABLED=")
     assert DOCKERFILE.index('ARG VITE_DEEPER_ENABLED=""') < echo < DOCKERFILE.index("RUN npm run build")
+
+
+def test_the_accounts_switch_is_declared_exported_and_printed_before_the_frontend_build():
+    build = DOCKERFILE.index("RUN npm run build")
+    arg = re.search(r'^ARG VITE_ACCOUNTS_ENABLED=""$', DOCKERFILE, re.M)
+    env = re.search(r"^ENV VITE_ACCOUNTS_ENABLED=\$VITE_ACCOUNTS_ENABLED$", DOCKERFILE, re.M)
+    echo = DOCKERFILE.index("RUN echo \"Accounts app build: VITE_ACCOUNTS_ENABLED=")
+    assert arg and env and arg.start() < env.start() < echo < build

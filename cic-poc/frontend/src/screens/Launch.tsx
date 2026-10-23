@@ -8,6 +8,7 @@
  */
 import { ArrivingLockup } from '../components/ArrivingLockup';
 import { ExperienceFeedbackButton, ExperienceFeedbackCard } from '../components/ExperienceFeedback';
+import { AccountPanel } from '../components/AccountPanel';
 import { GoDeeperPanel } from '../components/GoDeeperPanel';
 import { PAIRINGS, suggestionsFor } from '../data/pairings';
 import type { WorldEntry } from '../data/worlds';
@@ -143,6 +144,7 @@ export function Launch({
           </button>
         </div>
       </div>
+      <AccountPanel />
       <GoDeeperPanel />
       <div className="launch__foot">
         <ExperienceFeedbackButton open={feedbackOpen} onToggle={() => setFeedbackOpen((o) => !o)} />

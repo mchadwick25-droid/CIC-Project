@@ -12,6 +12,7 @@ import { ConversationChrome } from '../components/ConversationChrome';
 import { DeletedNotice } from '../components/DeleteConversation';
 import { Enter } from '../components/Enter';
 import { ModernTermMark } from '../components/ModernTermMark';
+import { ResourcesFirst } from '../components/ResourcesFirst';
 import { TranscriptScroll } from '../components/TranscriptScroll';
 import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
@@ -115,6 +116,7 @@ export function TableRoom({
         ))}
       </div>
 
+      <ResourcesFirst turns={turns} sessionId={sessionId} />
       <TranscriptScroll label="Conversation" followSignal={participantTurns}>
         {turns.map((turn, i) => {
           const still = i < initialTurns;
