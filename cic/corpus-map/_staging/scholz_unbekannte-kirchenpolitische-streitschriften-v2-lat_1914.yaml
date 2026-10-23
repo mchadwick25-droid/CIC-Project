@@ -1,0 +1,37 @@
+source_file: scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt
+authors_ruled:
+  scholz:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The author or editor is named
+      on the title page printed in the file. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914--scholz-unbekannte-kirchenpolitische-streitschriften-teil-2
+  work: >-
+    Scholz, Unbekannte kirchenpolitische Streitschriften, Teil 2 (1914): William of Ockham's anti-papal treatises
+  author: scholz
+  locus: >-
+    Section XII, 'Occam', pp. 392-480 of the book: end of the Dialogus, Tractatus contra Iohannem XXII, Tractatus
+    contra Benedictum XII, Allegationes de potestate imperiali, De imperatorum et pontificum potestate
+  atlas_ids:
+  - franciscan-order-era-6
+  role: tradition
+  confidence: needs-ruling
+  note: >-
+    Ockham is a named voice of the Franciscan Order world, but the Michaelists were also imperial polemicists, so
+    the placement between this world and the papal-church world is for the project lead. Primary Latin, readable
+    OCR. Michael of Cesena's own writings are not in this volume. No public-domain English translation found.
+- row_id: >-
+    scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914--scholz-unbekannte-kirchenpolitische-streitschriften-teil-2-2
+  work: >-
+    Scholz, Unbekannte kirchenpolitische Streitschriften, Teil 2 (1914): treatises of the Avignon-Bavarian conflict
+  author: scholz
+  locus: Whole volume; anti-Michaelist and papalist tracts in sections I-XV
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: context
+  confidence: needs-ruling
+  note: >-
+    Latin treatises on the quarrel between John XXII and Louis of Bavaria, mostly from the papal side. Placed on
+    content; whether this belongs to the papal-church world or elsewhere is for the project lead.

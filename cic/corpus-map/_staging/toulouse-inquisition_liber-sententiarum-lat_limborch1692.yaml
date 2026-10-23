@@ -1,0 +1,51 @@
+source_file: toulouse-inquisition_liber-sententiarum-lat_limborch1692.txt
+authors_ruled:
+  toulouse-inquisition:
+    kind: anonymous
+    evidence: >-
+      A register of sentences of the Toulouse inquisition (Bernard Gui named in the entries), printed by Limborch
+      in 1692; a work of an office, not a single author.
+assignments:
+- row_id: >-
+    toulouse-inquisition_liber-sententiarum-lat_limborch1692--liber-sententiarum-inquisitionis-tholosanae-limborch-1692
+  work: >-
+    Liber sententiarum inquisitionis Tholosanae (Limborch, 1692): sentences against Beguins and other heretics
+  author: toulouse-inquisition
+  locus: >-
+    Sections headed 'Culpe beguinorum' and the Beguin recantations; the word 'beguin' recurs on about 256 lines
+  atlas_ids:
+  - fraticelli-spiritual-franciscan-rigorists
+  role: context
+  confidence: provisional
+  note: >-
+    The coerced record: Beguins appear only as the inquisitors questioned and sentenced them. Second witness for
+    exact wording: the OCR reads the long s as 'f' throughout. Latin only; no public-domain English translation
+    found.
+- row_id: >-
+    toulouse-inquisition_liber-sententiarum-lat_limborch1692--liber-sententiarum-inquisitionis-tholosanae-limborch-1692-2
+  work: >-
+    Liber sententiarum inquisitionis Tholosanae (Limborch, 1692): sentences against Waldensians, Cathars and others
+  author: toulouse-inquisition
+  locus: Whole volume
+  atlas_ids:
+  - cathars-albigensians
+  - the-waldensians
+  role: context
+  confidence: provisional
+  note: >-
+    Placed on the register's subject matter (sentences against Waldensians appear in the sample). Second witness
+    for exact wording: long s read as 'f'.
+- row_id: toulouse-inquisition_liber-sententiarum-lat_limborch1692--liber-sententiarum-inquisitionis-tholosanae-limborch-1692-3
+  work: 'Liber sententiarum inquisitionis Tholosanae (Limborch, 1692): sentences on Waldensians and Beguins'
+  author: toulouse-inquisition
+  locus: whole volume
+  atlas_ids:
+  - waldensians-in-the-alps
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: 'Sentences of the Toulouse inquisition under Bernard Gui. For the Alps: Waldensian (''pauperes
+    de Lugduno'') depositions at file lines 22265-25522. For the Free Spirit entry: the section ''Culpe
+    beguinorum'' (file line 34571) and the Beguins'' recantations. Coerced answers recorded by their judges;
+    second witness for wording (long s read as f). Tier: same time-different-region. Already placed on
+    the Waldensians entry (the-waldensians) by the Franciscan pass.'

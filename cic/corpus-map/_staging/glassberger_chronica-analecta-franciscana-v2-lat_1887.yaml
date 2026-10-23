@@ -1,0 +1,32 @@
+source_file: glassberger_chronica-analecta-franciscana-v2-lat_1887.txt
+authors_ruled:
+  glassberger:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The author or editor is named
+      on the title page printed in the file. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    glassberger_chronica-analecta-franciscana-v2-lat_1887--chronica-of-nicolaus-glassberger-analecta-franciscana-ii
+  work: Chronica of Nicolaus Glassberger, Analecta Franciscana II (Quaracchi, 1887)
+  author: glassberger
+  locus: Whole volume; the Quaracchi fathers' preface at the head, the chronicle after it
+  atlas_ids:
+  - observant-reform-and-popular-preaching
+  role: tradition
+  confidence: assigned
+  note: >-
+    An Observant friar's chronicle of the Order, in Latin, written from inside the Observance. Primary voice in
+    readable OCR, ready to quote once checked against the scan. No public-domain English translation found.
+- row_id: >-
+    glassberger_chronica-analecta-franciscana-v2-lat_1887--chronica-of-nicolaus-glassberger-analecta-franciscana-ii-2
+  work: Chronica of Nicolaus Glassberger, Analecta Franciscana II (Quaracchi, 1887)
+  author: glassberger
+  locus: Whole volume
+  atlas_ids:
+  - franciscan-order-era-6
+  role: tradition
+  confidence: provisional
+  note: >-
+    Placed on content: the Observant wing is one of the two named branches of the Franciscan Order world. Not read
+    through for the poverty quarrel.

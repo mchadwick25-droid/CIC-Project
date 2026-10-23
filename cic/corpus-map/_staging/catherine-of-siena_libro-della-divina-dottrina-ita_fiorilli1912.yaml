@@ -1,0 +1,13 @@
+source_file: catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt
+assignments:
+- row_id: catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912--libro-della-divina-dottrina-dialogo-della-divina-provvidenza
+  work: Libro della divina dottrina (Dialogo della divina provvidenza), Italian, Fiorilli's edition
+  author: catherine-of-siena
+  locus: whole text; Capitolo I onward
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: assigned
+  note: Catherine of Siena in the Italian of her own Dialogo, clean proofread text. Primary voice ready
+    to quote once verified against the scan; the English of Thorold (1896) is vendored beside it as a
+    cross-check.

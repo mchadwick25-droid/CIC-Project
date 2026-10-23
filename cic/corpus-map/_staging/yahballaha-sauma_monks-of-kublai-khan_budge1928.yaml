@@ -1,0 +1,18 @@
+source_file: yahballaha-sauma_monks-of-kublai-khan_budge1928.txt
+assignments:
+- row_id: yahballaha-sauma_monks-of-kublai-khan_budge1928--the-monks-of-kublai-khan-life-of-mar-yahballaha-iii-and-rabb
+  work: The Monks of Kublai Khan (Life of Mar Yahballaha III and Rabban Sauma, English)
+  author: yahballaha-sauma
+  locus: chapters I to XIX from file line 5386; the patriarch's last years and death in the closing chapters
+    (XVII to XIX)
+  atlas_ids:
+  - church-of-the-east-timur-to-hakkari
+  - church-of-the-east-under-the-mongols
+  - st-thomas-christians-1300-1517
+  role: antecedent
+  confidence: assigned
+  note: Primary Syriac life in English translation, clean OCR, ready to quote once verified against the
+    scan. It ends at Yahballaha III's death in 1317, so it is the antecedent of the Timur-to-Hakkari window
+    and the core voice of the Mongol-era world; for the Malabar world it is the patriarch who sent bishops
+    to India. The Syriac original is not vendored; Chabot's French translation is vendored beside this
+    one.

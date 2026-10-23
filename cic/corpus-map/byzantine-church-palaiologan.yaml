@@ -14,6 +14,43 @@ works:
     voice, not the church's own. Placed on the entry's window; the file's own treatment of
     the church was not checked for this placement.
   source_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
+- row_id: bessarion_opera-omnia-pg161-grc-lat_migne1866--bessarion-oratio-dogmatica-de-unione-encyclical-to-the
+  work: Bessarion, Oratio dogmatica de unione, Encyclical to the Greeks, Refutation of Mark
+    of Ephesus's syllogistic chapters and defences of the procession, Greek with Latin, in
+    Migne PG 161
+  author: bessarion
+  locus: Refutation of Mark from about file line 15063; Apologia for Beccus's inscriptions
+    from 39100; Encyclical to the Greeks from 57742
+  role: tradition
+  confidence: assigned
+  note: The Greek archbishop who accepted the union at Ferrara-Florence and stayed in Italy
+    as a cardinal, in his own writing, with Mark of Ephesus's chapters quoted in the refutation.
+    A primary voice, ready to quote once checked verbatim against the scan; Greek and Latin
+    are read from the same OCR, and a quote record must be verified against the page image.
+    No public-domain English translation of this work is vendored (see the dossier, section
+    4).
+  source_file: bessarion_opera-omnia-pg161-grc-lat_migne1866.txt
+- row_id: calecas_opera-omnia-pg152-grc-lat_migne1866--manuel-calecas-against-the-errors-of-the-greeks-de-essentia
+  work: Manuel Calecas, Against the errors of the Greeks, De essentia et operatione and De
+    fide, Latin from the Greek, in Migne PG 152
+  author: calecas
+  locus: from the elenchus; De essentia et operatione from file line 19305
+  role: context
+  confidence: provisional
+  note: A Greek theologian of the Order of Preachers who wrote for Rome against the Greek
+    positions (the volume's title). Placed on window and region from the elenchus. The writer
+    is a different man from the patriarch John Calecas.
+  source_file: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
+- row_id: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--matthew-camariotes-narratio-lamentabilis-on-the-capture-of
+  work: Matthew Camariotes, Narratio lamentabilis on the capture of Constantinople, in Migne
+    PG 160
+  author: camariotes
+  locus: from file line 90352
+  role: tradition
+  confidence: provisional
+  note: A Greek churchman's lament for the fall of the City. Placed from the heading; not
+    read through.
+  source_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
 - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-cananus-de-bello-constantinopolitano-greek-with-latin-2
   work: John Cananus, De bello Constantinopolitano, Greek with Latin
   author: cananus
@@ -25,6 +62,73 @@ works:
     voice, not the church's own. Placed on the entry's window; the file's own treatment of
     the church was not checked for this placement.
   source_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
+- row_id: cantacuzenus_historiarum-libri-iv-v2-grc-lat_schopen1831--john-kantakouzenos-historiae-book-iii-1341-1347-greek-with
+  work: John Kantakouzenos, Historiae, Book III (1341-1347), Greek with Latin, Bonn volume
+    2
+  author: cantacuzenus
+  locus: Book III from about file line 1740
+  role: context
+  confidence: provisional
+  note: The civil war, the deposition of Patriarch John Calecas in 1347 and Kantakouzenos's
+    coronation by the patriarch, from the emperor's side. A lay and court voice, not the church's
+    own. Placed on window and the volume's contents; not read through.
+  source_file: cantacuzenus_historiarum-libri-iv-v2-grc-lat_schopen1831.txt
+- row_id: cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832--john-kantakouzenos-historiae-book-iv-1347-1356-greek-with
+  work: John Kantakouzenos, Historiae, Book IV (1347-1356), Greek with Latin, Bonn volume
+    3
+  author: cantacuzenus
+  locus: Book IV from about file line 2064
+  role: context
+  confidence: provisional
+  note: The synod of 1351 and its aftermath, written by the emperor who convened it and later
+    signed the Hagioritic Tome as the monk Joasaph. A lay and court voice, not the church's
+    own. Palamas and Barlaam are named on about 70 and 90 lines; the book was sampled, not
+    read through.
+  source_file: cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt
+- row_id: cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828--john-kantakouzenos-historiae-books-i-ii-to-1341-greek-with-2
+  work: John Kantakouzenos, Historiae, Books I-II (to 1341), Greek with Latin, Bonn volume
+    1
+  author: cantacuzenus
+  locus: as above
+  role: context
+  confidence: provisional
+  note: Court and imperial view of the church's affairs, 1320-1341. A lay and court voice,
+    not the church's own.
+  source_file: cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828.txt
+- row_id: chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866--laonikos-chalkokondyles-historiarum-libri-decem-greek-with
+  work: Laonikos Chalkokondyles, Historiarum libri decem, Greek with Latin, in Migne PG 159
+  author: chalcocondyles
+  locus: from the elenchus; running heads 'LAONICI CHALCOCONDYLAE' from file line 404
+  role: context
+  confidence: provisional
+  note: An Athenian historian of the rise of the Ottomans and the fall of the City. A lay
+    historian, not the church's own voice. Placed on window; not read through.
+  source_file: chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906--acts-of-the-council-of-ferrara-florence-1438-1439-latin-and
+  work: Acts of the Council of Ferrara-Florence (1438-1439), Latin and Greek, with the decree
+    Laetentur caeli, in Mansi tom. 31
+  author: council-of-ferrara-florence-1438-1445
+  locus: index at file lines 1148-1313; the Florentine acts from about 46129 (page 465) to
+    98907 (page 1058); decree near 97371
+  role: tradition
+  confidence: assigned
+  note: The union council's own record, including the sessions on purgatory, the procession
+    of the Holy Spirit, the azymes and the primacy, and the decree of union. Latin is the
+    usable witness (long s read as f); the Greek columns are garbled. Read at the index and
+    the decree; the sessions were sampled.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt
+- row_id: patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927--louis-petit-documents-relatifs-au-concile-de-florence-i-la
+  work: 'Louis Petit, Documents relatifs au concile de Florence I: La question du purgatoire
+    a Ferrare (Greek texts edited and translated into French), in Patrologia Orientalis 15'
+  author: council-of-ferrara-florence-1438-1445
+  locus: file lines 117 to about 25713 (Petit's fascicle); the rest of the volume is other
+    matter
+  role: tradition
+  confidence: assigned
+  note: The Ferrara debate on purgatory, with Mark of Ephesus and Bessarion speaking for the
+    Greeks, in Greek from the manuscripts with Petit's French. Greek OCR partly readable;
+    French clean. Read at the introduction and sampled.
+  source_file: patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt
 - row_id: doukas_historia-byzantina-grc-lat_bekker1834--historia-byzantina-of-doukas-ducas-greek-with-latin-2
   work: Historia Byzantina of Doukas (Ducas), Greek with Latin
   author: doukas
@@ -51,6 +155,229 @@ works:
 
     '
   source_file: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902.txt
+- row_id: gennadius-scholarius_defensio-quinque-capitum-lat_benevento1637--gennadios-scholarios-defensio-quinque-capitum-quae-in
+  work: Gennadios Scholarios, Defensio quinque capitum quae in Florentina synodo continentur,
+    Latin of Fabio Benevento
+  author: gennadius-scholarius
+  locus: whole file; translator's dedication first
+  role: tradition
+  confidence: assigned
+  note: 'Scholarios''s own defence of the Florentine chapters: the pre-1453 voice the census
+    names, in a Latin translation (first printed 1579). The Greek original is not in the file,
+    and the file does not date it. A primary voice in Latin, to be checked against the scan
+    before quoting; no public-domain English is vendored.'
+  source_file: gennadius-scholarius_defensio-quinque-capitum-lat_benevento1637.txt
+- row_id: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--gennadios-scholarios-exhortation-and-orations-to-the-synod
+  work: Gennadios Scholarios, exhortation and orations to the synod at Florence and treatises
+    written before 1453, Greek with Latin, in Migne PG 160
+  author: gennadius-scholarius
+  locus: Adhortatio ad synodum from file line 31627; the orations follow
+  role: tradition
+  confidence: assigned
+  note: 'The pre-1453 voice of Gennadios in Greek with Latin: what he said to the union council.
+    A primary voice, ready to quote once checked verbatim against the scan; Greek and Latin
+    are read from the same OCR, and a quote record must be verified against the page image.
+    No public-domain English translation of this work is vendored (see the dossier, section
+    4).'
+  source_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
+- row_id: gregoras_byzantina-historia-v2-grc-lat_schopen1830--nikephoros-gregoras-historia-byzantina-books-xii-xxiv-to-2
+  work: Nikephoros Gregoras, Historia Byzantina, Books XII-XXIV (to 1351), Greek with Latin,
+    Bonn volume 2
+  author: gregoras
+  locus: as above
+  role: context
+  confidence: provisional
+  note: Court and church politics under Andronikos III and the civil war, by a learned layman
+    who became the patriarchate's leading critic.
+  source_file: gregoras_byzantina-historia-v2-grc-lat_schopen1830.txt
+- row_id: gregoras_byzantina-historia-v3-grc-lat_bekker1855--nikephoros-gregoras-historiae-byzantinae-libri-postremi-2
+  work: Nikephoros Gregoras, Historiae Byzantinae libri postremi, Books XXV-XXXVII (1351-1359),
+    Greek with Latin, Bonn volume 3
+  author: gregoras
+  locus: as above
+  role: context
+  confidence: provisional
+  note: Patriarchal politics 1351-1359 from a critic's side.
+  source_file: gregoras_byzantina-historia-v3-grc-lat_bekker1855.txt
+- row_id: historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849--historia-politica-constantinopoleos-1391-1453-opening-of-the
+  work: Historia politica Constantinopoleos 1391-1453 (opening of the Historia politica),
+    Greek with Latin
+  author: historia-politica-et-patriarchica-constantinopoleos
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Tier: same time-place. The Historia politica runs from 1391 to 1578; its first part
+    is the Palaiologan end, with the Florentine synod named at file lines 537 and 17409 and
+    Constantine Palaiologos at 17112. The Patriarchica (1454-1578) that follows belongs to
+    the Ottoman world. A vernacular chronicle tradition, not the church''s own voice. Placed
+    from the hits; the 1391-1453 stretch was not read through.
+
+    '
+  source_file: historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt
+- row_id: chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866--cardinal-isidore-of-kiev-letter-to-all-the-faithful-on-the
+  work: Cardinal Isidore of Kiev, letter to all the faithful on the fall of Constantinople,
+    Latin, in Migne PG 159
+  author: isidore-of-kiev
+  locus: from file line 55412
+  role: context
+  confidence: provisional
+  note: Isidore had signed the union at Florence and was in the City in 1453. A unionist cardinal's
+    account of the fall. Placed from the heading; not read through.
+  source_file: chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt
+- row_id: chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866--joseph-of-methone-joannes-plusiadenos-on-the-differences
+  work: Joseph of Methone (Joannes Plusiadenos), On the differences between Greeks and Latins,
+    Response to Mark of Ephesus's libel, and the Annexarium of the Council of Florence, Greek
+    with Latin, in Migne PG 159
+  author: joseph-of-methone
+  locus: from file line 56228
+  role: tradition
+  confidence: provisional
+  note: A Greek bishop who defended the union, answering Mark of Ephesus and recording what
+    was done at Florence. Placed from the elenchus and headings; not read through.
+  source_file: chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt
+- row_id: chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866--leonard-of-chios-letter-to-pope-nicholas-v-on-the-capture-of
+  work: Leonard of Chios, letter to Pope Nicholas V on the capture of Constantinople (15 August
+    1453), Latin, in Migne PG 159
+  author: leonard-of-chios
+  locus: from file line 54400
+  role: context
+  confidence: provisional
+  note: An eyewitness account of the fall by a Latin archbishop who was in the City. A Roman
+    churchman's view, not the Greek church's own. Placed from the heading; sampled.
+  source_file: chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt
+- row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--lucaris-s-remarks-on-syropoulos-s-history-of-the-council-of
+  work: Lucaris's remarks on Syropoulos's History of the Council of Florence
+  author: lucaris
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Tier: out-of-window. A seventeenth-century patriarch''s French-printed letters and
+    the editor''s notes cite Syropoulos ''grand Ecclesiarque, Auteur de l''Histoire du Concile
+    de Florence, imprimee a la Haye en 1660'' (file lines 3683-3694 and 33869). A pointer
+    from the Ottoman world back to the Florence memoir now vendored; not a voice of the Palaiologan
+    world.
+
+    '
+  source_file: lucaris_lettres-anecdotes-fra_amsterdam1718.txt
+- row_id: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--gregory-mammas-apology-against-the-confession-of-mark-of
+  work: Gregory Mammas, Apology against the confession of Mark of Ephesus, Greek with Latin,
+    in Migne PG 160
+  author: mammas
+  locus: from file line 658
+  role: tradition
+  confidence: provisional
+  note: The unionist patriarch of Constantinople (1445-1450 by the usual reckoning) answering
+    Mark. Placed from the title page and heading; not read through.
+  source_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
+- row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--documents-relatifs-au-concile-de-florence-documents-vi-xxiv
+  work: 'Documents relatifs au concile de Florence, Documents VI-XXIV: Oeuvres anticonciliaires
+    de Marc d''Ephese (Greek texts edited and translated into French by Louis Petit)'
+  author: mark-of-ephesus
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Tier: same time-place. The Patrologia Orientalis volume 17 on the shelf is a mixed
+    volume; the second fascicle (heading ''OEUVRES ANTICONCILIAIRES DE MARC D''EPHESE'', file
+    lines 17453 to about 49836, with a second heading at 49836) is Mark of Ephesus''s own
+    writing against the union of Florence, in Greek with Petit''s French. It is the census''s
+    ''Mark of Ephesus''s corpus'' and the one voice of the refusal. The file''s bucket author
+    is john-ephesus; the author slug mark-of-ephesus is new and needs an authors_ruled entry
+    (metadata-omission) when the row is merged. The Syriac Lives of the Eastern Saints in
+    the same file are for other worlds. Greek read at lines 17600-17640 and 30000-30020 (readable
+    with slips); the French introduction is clean.
+
+    '
+  source_file: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
+- row_id: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--mark-of-ephesus-writings-and-the-addenda-greek-with-latin-in
+  work: Mark of Ephesus, writings and the Addenda, Greek with Latin, in Migne PG 160
+  author: mark-of-ephesus
+  locus: notice at file line 97787; writings from 98293; Addenda at 103878
+  role: tradition
+  confidence: assigned
+  note: The one Greek bishop who refused to sign, in his own writing. Heads and a sample read.
+    Petit's edition of his anti-conciliar works in Patrologia Orientalis 17 is the fuller
+    and more recent text; this is the older Migne printing. A primary voice, ready to quote
+    once checked verbatim against the scan; Greek and Latin are read from the same OCR, and
+    a quote record must be verified against the page image. No public-domain English translation
+    of this work is vendored (see the dossier, section 4).
+  source_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
+- row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--kimmel-s-latin-prolegomena-on-the-council-of-florence-and
+  work: Kimmel's Latin prolegomena on the Council of Florence and the Greek reception (Bessarion,
+    Scholarios, Mark of Ephesus)
+  author: monumenta-fidei-ecclesiae-orientalis
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Tier: same time-place for the Latin prolegomena (file lines 922-1067 name the Council
+    of Florence, Scholarius, Bessarion and Mark of Ephesus''s syllogistic chapters); out-of-window
+    for the Confessions of Gennadios (lines 124 and 332), which are after 1453 and already
+    belong to the Ottoman world. Placed from the grep hits and a read of the lines named;
+    a nineteenth-century Protestant editor''s account, not a voice of the world.
+
+    '
+  source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: palamas_homiliae-41-grc_jerusalem1857--gregory-palamas-forty-one-homilies-jerusalem-1857
+  work: Gregory Palamas, forty-one homilies, Jerusalem 1857
+  author: palamas
+  locus: as above
+  role: context
+  confidence: needs-ruling
+  note: 'Same cross-world question as the Migne volume: whether Palamas''s own writings are
+    this entry''s voice or only context.'
+  source_file: palamas_homiliae-41-grc_jerusalem1857.txt
+- row_id: palamas_opera-omnia-pg150-grc-lat_migne1865--gregory-palamas-the-hesychast-writings-in-migne-pg-150
+  work: Gregory Palamas, the Hesychast writings, in Migne PG 150
+  author: palamas
+  locus: as above
+  role: context
+  confidence: needs-ruling
+  note: The census lists Palamas among the voices of this entry while treating the hesychast
+    movement and its theology as a separate world. Whether his own writings sit here as the
+    church's voice or only as context is a cross-world question for the lead.
+  source_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
+- row_id: acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860--acta-patriarchatus-constantinopolitani-1315-1402-patriarchal
+  work: Acta patriarchatus Constantinopolitani, 1315-1402 (patriarchal register), Greek with
+    Latin headings, volume 1
+  author: patriarchate-of-constantinople-register-1310-1372
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: The census names the patriarchal register as this entry's institutional source; this
+    is its first volume, the one the Vienna manuscripts supply. Sampled in Greek and Latin
+    at three points.
+  source_file: acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt
+- row_id: calecas_opera-omnia-pg152-grc-lat_migne1866--patriarchal-diplomata-synodal-constitutions-and-letters-of
+  work: Patriarchal diplomata, synodal constitutions and letters of John Glykys, Esaias, John
+    Calecas, Isidore, Callistus and Philotheos (1310-1372), Greek with Latin, in Migne PG
+    152
+  author: patriarchate-of-constantinople-register-1310-1372
+  locus: from file line 81575
+  role: tradition
+  confidence: assigned
+  note: The Patriarchate's own acts across the hesychast decades, in the original Greek with
+    a Latin version. Overlaps the early part of the Miklosich and Muller register vendored
+    beside it; the two editions print different selections.
+  source_file: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
+- row_id: palamas_opera-omnia-pg151-grc-lat_migne1865--philotheos-kokkinos-encomium-of-gregory-palamas-and-the
+  work: Philotheos Kokkinos, Encomium of Gregory Palamas and the Antirrhetici against Gregoras,
+    Greek with Latin, in Migne PG 151
+  author: philotheos-kokkinos
+  locus: named in the elenchus at file lines 301-318; the body was not located
+  role: tradition
+  confidence: provisional
+  note: Philotheos wrote up the council's decree and as patriarch had Palamas proclaimed a
+    saint (1368, per the census). Placed from the elenchus; the text was not read.
+  source_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+- row_id: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--georgios-gemistos-plethon-writings-peloponnesian-memoranda
+  work: Georgios Gemistos Plethon, writings (Peloponnesian memoranda, the Laws, against Scholarios
+    on Aristotle), in Migne PG 160
+  author: plethon
+  locus: from the Plethon section of the elenchus
+  role: context
+  confidence: provisional
+  note: A philosopher of Mistra whose quarrel with Scholarios belongs to the learned world
+    of the Palaiologan decades. Not a church voice. Placed from the elenchus.
+  source_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
 - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--chronicon-of-george-sphrantzes-phrantzes-greek-with-latin-2
   work: Chronicon of George Sphrantzes (Phrantzes), Greek with Latin
   author: sphrantzes
@@ -62,3 +389,51 @@ works:
     voice, not the church's own. Placed on the entry's window; the file's own treatment of
     the church was not checked for this placement.
   source_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
+- row_id: symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866--symeon-of-thessalonica-dialogue-against-heresies-and
+  work: Symeon of Thessalonica, Dialogue against heresies and treatises on the rites, the
+    temple, prayer and the sacraments, Greek with Latin, in Migne PG 155
+  author: symeon-thessalonica
+  locus: Dialogus contra haereses from about file line 1310
+  role: tradition
+  confidence: provisional
+  note: A Palaiologan archbishop of Thessalonica writing for clergy and people on how the
+    liturgy and sacraments are done. A church voice inside the window; placed from the elenchus
+    and headings, and the Dialogue was sampled. A primary voice, ready to quote once checked
+    verbatim against the scan; Greek and Latin are read from the same OCR, and a quote record
+    must be verified against the page image. No public-domain English translation of this
+    work is vendored (see the dossier, section 4).
+  source_file: symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901--the-constantinopolitan-synod-of-1347-and-the-tomos-in-mansi
+  work: The Constantinopolitan synod of 1347 and the Tomos, in Mansi tom. 26
+  author: synod-of-constantinople-1341-1351
+  locus: as above
+  role: tradition
+  confidence: provisional
+  note: The census names the tomoi as this entry's institutional sources. See the note on
+    the Latin editor's label.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt
+- row_id: palamas_opera-omnia-pg151-grc-lat_migne1865--the-three-synodal-tomes-against-barlaam-akindynos-and-their-2
+  work: The three synodal tomes against Barlaam, Akindynos and their followers (1341, 1347,
+    1351), in Migne PG 151
+  author: synod-of-constantinople-1341-1351
+  locus: as above
+  role: tradition
+  confidence: assigned
+  note: The census names the tomoi of 1341, 1347 and 1351 as this entry's institutional sources.
+  source_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+- row_id: syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660--sylvester-syropoulos-vera-historia-unionis-non-verae-memoir
+  work: Sylvester Syropoulos, Vera historia unionis non verae (memoir of the Council of Ferrara-Florence),
+    Greek with Latin, Creyghton 1660
+  author: syropoulos
+  locus: Greek with Creyghton's Latin throughout; the Latin notes at the end
+  role: tradition
+  confidence: provisional
+  note: A church officer (great ecclesiarch) of the Greek delegation who signed, then repudiated
+    the union. An insider and hostile voice, written after the council. Placed on window and
+    region; the book was sampled at three points, not read through. Whether a memoir by a
+    signatory who turned against the union counts as the church's voice or as context is for
+    the lead. A primary voice, ready to quote once checked verbatim against the scan; Greek
+    and Latin are read from the same OCR, and a quote record must be verified against the
+    page image. No public-domain English translation of this work is vendored (see the dossier,
+    section 4).
+  source_file: syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt

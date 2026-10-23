@@ -1,0 +1,16 @@
+source_file: cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt
+assignments:
+- row_id: >-
+    cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832--john-kantakouzenos-historiae-book-iv-1347-1356-greek-with
+  work: John Kantakouzenos, Historiae, Book IV (1347-1356), Greek with Latin, Bonn volume 3
+  author: cantacuzenus
+  locus: Book IV from about file line 2064
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  - byzantine-church-palaiologan
+  role: context
+  confidence: provisional
+  note: >-
+    The synod of 1351 and its aftermath, written by the emperor who convened it and later signed the Hagioritic
+    Tome as the monk Joasaph. A lay and court voice, not the church's own. Palamas and Barlaam are named on about
+    70 and 90 lines; the book was sampled, not read through.

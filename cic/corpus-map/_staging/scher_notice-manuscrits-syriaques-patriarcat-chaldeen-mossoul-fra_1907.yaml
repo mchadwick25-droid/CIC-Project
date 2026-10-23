@@ -35,3 +35,16 @@ assignments:
     note: >
       The catalogue's own account of how the Chaldean patriarchs of the nineteenth century gathered the
       collection. Placed on that paragraph.
+  - row_id: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907--notice-sur-les-manuscrits-syriaques-du-patriarcat-chaldeen
+    work: 'Notice sur les manuscrits syriaques du patriarcat chaldeen de Mossoul: colophons of the fourteenth
+      and fifteenth centuries'
+    author: scher
+    locus: whole volume
+    atlas_ids:
+    - church-of-the-east-timur-to-hakkari
+    role: context
+    confidence: provisional
+    note: Catalogue with colophons. One manuscript finished in the Seleucid year 1806 (AD 1497) in the village
+      of Org, diocese of Seert, in the time of the patriarch Mar Simeon (shelf file line 404). Another notice
+      reads 'in the time of Mar Yahballaha III, patriarch (died 15 November 1317)' (line 986). Placed on
+      those two lines; not read through.

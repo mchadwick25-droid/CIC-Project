@@ -1,0 +1,13 @@
+source_file: lay-folks-mass-book_manner-of-hearing-mass-enm_simmons1879.txt
+assignments:
+- row_id: lay-folks-mass-book_manner-of-hearing-mass-enm_simmons1879--the-lay-folks-mass-book-ed-t-f-simmons-eets-os-71
+  work: The Lay Folks Mass Book, ed. T. F. Simmons (EETS OS 71)
+  author: lay-folks-mass-book
+  locus: contents and introduction from file line 110; appendices from line 269
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: 'The layman''s guide to following the Mass in English: four Middle English texts with the rubrics
+    and prayers for the people, and the York order. What the pew was told to do while the priest said
+    mass. A second witness for exact wording because of the OCR; check page images before quoting.'

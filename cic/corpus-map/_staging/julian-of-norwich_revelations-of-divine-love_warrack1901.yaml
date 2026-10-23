@@ -1,0 +1,14 @@
+source_file: julian-of-norwich_revelations-of-divine-love_warrack1901.txt
+assignments:
+- row_id: julian-of-norwich_revelations-of-divine-love_warrack1901--revelations-of-divine-love-long-text-sloane-manuscript-modernised-ed-grace-warrack
+  work: Revelations of Divine Love (Long Text, Sloane manuscript, modernised), ed. Grace Warrack
+  author: julian-of-norwich
+  locus: the editor's introduction from file line 396; the text in chapters I to LXXXVI from line 1987
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: 'Julian''s own first-person account of the sixteen showings, in the Long Text and in Warrack''s
+    modernised spelling. A proofread Gutenberg transcription, so quotable once checked against the printed
+    page. The wording is the editor''s modernisation, not the fourteenth-century English. Two other witnesses
+    are vendored: Cressy''s seventeenth-century printing and Harford''s edition of the Short Text.'

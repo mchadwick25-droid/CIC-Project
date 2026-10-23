@@ -1,0 +1,13 @@
+source_file: catherine-of-siena_dialogue_thorold1896.txt
+assignments:
+- row_id: catherine-of-siena_dialogue_thorold1896--the-dialogue-treatise-of-divine-providence-of-catherine-of
+  work: The Dialogue (Treatise of Divine Providence) of Catherine of Siena, Thorold's English
+  author: catherine-of-siena
+  locus: whole volume; Thorold's introduction first
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: assigned
+  note: Catherine of Siena speaking in her own Dialogue, in English; clean OCR, quotable once checked
+    against the scan. The census names her among the voices. The Italian original is vendored beside it
+    (Fiorilli 1912) as the primary text.

@@ -1,0 +1,27 @@
+source_file: rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt
+assignments:
+- row_id: rhc-armeniens_documents-armeniens-t1-fra_academie1869--recueil-des-historiens-des-croisades-documents-armeniens-i
+  work: 'Recueil des historiens des croisades, Documents arméniens I: Armenian chroniclers in French'
+  author: rhc-armeniens
+  locus: Hethum II's poem from file line 63745; Sempad's chronicle 67474 with its continuation to about
+    1335; appendix 72578; 'Continuation et fin' on the end of Levon V's reign and the Lusignans of Armenia
+    74692
+  atlas_ids:
+  - armenian-cilicia-after-the-kingdom
+  role: tradition
+  confidence: provisional
+  note: 'Armenian chroniclers in French translation. Only the last parts fall in the window: the poem
+    of Hethum II, the anonymous continuation of the Constable Sempad to about 1335, and the closing section
+    on the Lusignans. Placed on the volume''s own chronological list; the chapters were not read. Mostly
+    earlier material; also serves the earlier Cilician world.'
+- row_id: rhc-armeniens_documents-armeniens-t1-fra_academie1869--recueil-des-historiens-des-croisades-documents-armeniens-i-2
+  work: 'Recueil des historiens des croisades, Documents arméniens I: Armenian chroniclers in French'
+  author: rhc-armeniens
+  locus: the whole volume (the chronological list from Matthew of Edessa to 1335 is at the head)
+  atlas_ids:
+  - armenian-cilicia
+  role: tradition
+  confidence: provisional
+  note: The Armenian chroniclers of the crusade era, from Matthew of Edessa's continuators to the Constable
+    Sempad and his continuator, in French. Placed on the volume's title and chronological list; not read
+    for this entry.

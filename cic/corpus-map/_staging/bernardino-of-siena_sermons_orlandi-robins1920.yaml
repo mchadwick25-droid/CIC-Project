@@ -1,0 +1,23 @@
+source_file: bernardino-of-siena_sermons_orlandi-robins1920.txt
+authors_ruled:
+  bernardino-of-siena:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file. The preacher is named on the title page printed in the file as San Bernardino da
+      Siena, with Banchi as editor. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    bernardino-of-siena_sermons_orlandi-robins1920--saint-bernardine-of-siena-sermons-selected-from-the-italian
+  work: >-
+    Saint Bernardine of Siena: Sermons, selected from the Italian and translated by Helen Josephine Robins (Orlandi,
+    1920)
+  author: bernardino-of-siena
+  locus: Whole file; the contents list at the end gives the sermon titles
+  atlas_ids:
+  - observant-reform-and-popular-preaching
+  role: tradition
+  confidence: assigned
+  note: >-
+    An English selection from the sermons of Bernardino, a human translation of 1920 and the only public-domain
+    English route into his sermons found. Which cycle or cycles it draws on was not checked against Banchi's Italian,
+    vendored beside it. Clean OCR, quotable once checked against the scan. The year rests on the host date alone.

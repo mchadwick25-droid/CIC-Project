@@ -1,0 +1,15 @@
+source_file: assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt
+assignments:
+- row_id: assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719--bibliotheca-orientalis-clementino-vaticana-tomus-i-assemani
+  work: 'Bibliotheca orientalis Clementino-Vaticana, tomus I (Assemani, Rome 1719): the Maronite writers
+    and Gabriel Barclai of Nicosia'
+  author: assemani
+  locus: chapter list for the Maronite writers at file lines 6435-6447; Gabriel Barclai from 116455; his
+    copy of 1495 at 102941
+  atlas_ids:
+  - maronite-christianity-era-6
+  role: context
+  confidence: assigned
+  note: A Roman-side Maronite scholar's catalogue of the Syriac and Arabic writers, with the Maronite
+    patriarchs and the bishop of Nicosia of the sixteenth-century Cyprus Maronites. Read the chapter list.
+    Second witness for exact wording (long s read as f; Syriac and Arabic garbled).

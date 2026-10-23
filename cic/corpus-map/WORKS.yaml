@@ -1072,3 +1072,298 @@ works:
     notes: Same two texts in two nineteenth-century reprints. The RIB vol. 7 OCR garbles the Polish badly;
       the 1874 reprint reads cleanly and is the witness to quote from, after a page-image check. Item addresses
       are placeholders; the RIB locus is from that file's staging row (about file lines 54455-57830).
+
+  - work_id: bernardino-siena-prediche-volgari-1427
+    title: "The vernacular sermons of Bernardino of Siena preached in the Piazza del Campo, 1427"
+    author: bernardino-of-siena
+    original_language: Italian
+    composed: "1427 (preached at Siena from August 1427; taken down by a listener)"
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "none (Italian original, edited by Luciano Banchi)"
+        year: 1880
+        language: Italian
+        recension: "Banchi's edition in three volumes (1880, 1884, one undated in the OCR), sermons I to XLV"
+        items:
+          - "cic:bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt:sermons I-XV"
+          - "cic:bernardino-of-siena_prediche-volgari-1427-v2-ita_banchi1884.txt:sermons XVI-XXX"
+          - "cic:bernardino-of-siena_prediche-volgari-1427-v3-ita_banchi.txt:sermons XXXI-XLV"
+      - translator: "Helen Josephine Robins (selection edited by Nazareno Orlandi)"
+        year: 1920
+        language: English
+        recension: "a selection from the Italian sermons, not the whole cycle"
+        items:
+          - "cic:bernardino-of-siena_sermons_orlandi-robins1920.txt:whole file"
+    notes: >
+      The English is a selection, so most sermons have no public-domain English. The year of the English rests on the host date alone (no year is legible in the OCR). Whether the selection is drawn only from the 1427 cycle was not checked, so the pairing is provisional.
+
+  - work_id: jacopone-da-todi-laude
+    title: "The Laude of Jacopone da Todi"
+    author: jacopone-da-todi
+    original_language: Italian
+    composed: "before 1306 (Jacopone died in 1306)"
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "none (Italian original, Ferri's text of the Florence print of 1490)"
+        year: 1915
+        language: Italian
+        recension: "Florence print of 1490, ed. Giovanni Ferri"
+        items:
+          - "cic:jacopone-da-todi_laude-ita_ferri1915.txt:whole file, laude numbered in Roman numerals"
+      - translator: "Mrs. Theodore Beck (English verse, a selection)"
+        year: 1919
+        language: English
+        recension: "a selection of the laude inside Evelyn Underhill's biography"
+        items:
+          - "cic:underhill_jacopone-da-todi-poet-and-mystic_beck1919.txt:the selection of laude after the biography"
+    notes: >
+      Both files are placed needs-ruling on the Franciscan worlds because only the last years of Jacopone's life (to 1306) fall in the Era VI window.
+
+  - work_id: birgitta-revelationes
+    title: "The Revelations of Saint Birgitta"
+    author: birgitta
+    original_language: Latin (the Revelationes, from Birgitta's Swedish)
+    composed: "before Birgitta's death in 1373"
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "none (Latin text of the Torquemada recension, with notes by Consalvo Duranti)"
+        year: 1628
+        language: Latin
+        recension: "Torquemada recension (Duranti's edition)"
+        items:
+          - "cic:birgitta_revelationes-lat_duranti1628.txt:whole-file"
+      - translator: "anonymous fifteenth-century English translator (Garrett MS.); edited by W. P. Cumming"
+        year: 1929
+        language: Middle English
+        recension: "Latin Revelationes (the manuscript's own selection of books and chapters)"
+        items:
+          - "cic:birgitta_revelations-enm_cumming1929.txt:whole-file"
+
+  - work_id: catherine-of-siena-dialogo
+    title: "The Dialogue (Treatise of Divine Providence) of Catherine of Siena"
+    author: catherine-of-siena
+    original_language: Italian
+    composed: "1370 (completed in the year 1370, per the translator's title page)"
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "none (Italian text, Matilde Fiorilli's edition following a Sienese codex)"
+        year: 1912
+        language: Italian
+        recension: "Fiorilli's edition (Laterza, 1912)"
+        items:
+          - "cic:catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt:whole-file"
+      - translator: "Algar Thorold"
+        year: 1896
+        language: English
+        recension: "translated from the Italian; the edition Thorold used is not named in the volume's title page"
+        items:
+          - "cic:catherine-of-siena_dialogue_thorold1896.txt:whole-file"
+
+  - work_id: theologia-deutsch
+    title: Theologia deutsch (Theologia Germanica)
+    author: theologia-germanica
+    original_language: Middle High German
+    composed: fourteenth century (anonymous; the host and the 1851 title page leave the author unnamed)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Franz Pfeiffer's edition of the Wuerzburg manuscript)
+      year: 1851
+      language: German
+      recension: Pfeiffer's complete edition, Stuttgart 1851
+      items:
+      - cic:theologia-germanica_theologia-deutsch-gmh_pfeiffer1851.txt:whole-file
+    - translator: Susanna Winkworth (from Pfeiffer's text)
+      year: 1893
+      language: English
+      recension: Pfeiffer's edition, Golden Treasury Series printing of 1893 (first English edition 1854)
+      items:
+      - cic:theologia-germanica_theologia-germanica_winkworth1893.txt:whole-file
+    notes: 'The same treatise in its Middle High German text and in a public-domain English made from that
+      text. Luther printed the treatise in 1516 (partial) and 1518 (fuller); neither printing is vendored.
+      The first English edition (1854) is on the host and is not vendored (long s read as f).'
+
+  - work_id: eckhart-german-works-pfeiffer
+    title: Meister Eckhart, German sermons and tractates (Pfeiffer's collection)
+    author: eckhart
+    original_language: Middle High German
+    composed: late thirteenth and early fourteenth century
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Franz Pfeiffer's edition)
+      year: 1857
+      language: German
+      recension: Deutsche Mystiker des 14. Jahrhunderts, vol. 2, Leipzig 1857
+      items:
+      - cic:eckhart_deutsche-mystiker-bd2-gmh_pfeiffer1857.txt:whole-file
+    - translator: C. de B. Evans (with some omissions and additions)
+      year: 1924
+      language: English
+      recension: Pfeiffer's text, volume 1 of Evans's two volumes (volume 2, 1931, is not cleared)
+      items:
+      - cic:eckhart_meister-eckhart-vol1_evans1924.txt:whole-file
+    notes: 'Pfeiffer''s numbering of the sermons and tractates is the common key; Evans keeps it. Evans
+      translates with some omissions and additions, so the English is not a full rendering of the German.'
+
+  - work_id: kempis-orationes-et-meditationes-de-vita-christi
+    title: Prayers and meditations on the life of Christ (Orationes et meditationes de vita Christi)
+    author: kempis
+    original_language: Latin
+    composed: fifteenth century (Mount St Agnes)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Michael Joseph Pohl's edition, Opera omnia vol. 5)
+      year: 1902
+      language: Latin
+      recension: Pohl's critical edition
+      items:
+      - cic:kempis_opera-omnia-tractatus-lat_pohl1902.txt:whole-file
+    - translator: W. Duthoit
+      year: 1904
+      language: English
+      recension: translated from Pohl's text
+      items:
+      - cic:kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt:whole-file
+    notes: 'The Latin file''s own title field reads Tractatus prioris pars prior; the volume title page reads
+      Volumen quintum, Orationes et meditationes de vita Christi. The two files are one Work in two languages.'
+
+  - work_id: kempis-meditatio-de-incarnatione-sermones
+    title: Meditation on the Incarnation of Christ; Sermons on the life and passion of the Lord
+    author: kempis
+    original_language: Latin
+    composed: fifteenth century (Mount St Agnes)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Michael Joseph Pohl's edition, Opera omnia vol. 3)
+      year: 1904
+      language: Latin
+      recension: Pohl's critical edition
+      items:
+      - cic:kempis_opera-omnia-v3-meditatio-incarnatione-sermones-lat_pohl1904.txt:whole-file
+    - translator: Dom Vincent Scully
+      year: 1907
+      language: English
+      recension: translated from Pohl's text
+      items:
+      - cic:kempis_meditation-on-the-incarnation-sermons-life-passion_scully1907.txt:whole-file
+    notes: 'Scully''s volume also holds the short piece on hearing and speaking good words; the Latin volume
+      holds the Alphabetum monachi in Middle Dutch.'
+
+  - work_id: kempis-sermones-ad-novicios
+    title: Sermons to the novices regular (Sermones ad novicios)
+    author: kempis
+    original_language: Latin
+    composed: fifteenth century (Mount St Agnes)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Michael Joseph Pohl's edition, Opera omnia vol. 6)
+      year: 1905
+      language: Latin
+      recension: Pohl's critical edition
+      items:
+      - cic:kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt:sermones-ad-novicios
+    - translator: Dom Vincent Scully
+      year: 1907
+      language: English
+      recension: translated from Pohl's text
+      items:
+      - cic:kempis_sermons-to-the-novices-regular_scully1907.txt:whole-file
+    notes: 'The Latin volume was vendored before this pass. It also holds the Vita Lidewigis virginis, whose
+      English is the next entry.'
+
+  - work_id: kempis-vita-lidewigis
+    title: Life of St Lydwine of Schiedam (Vita Lidewigis virginis)
+    author: kempis
+    original_language: Latin
+    composed: fifteenth century (Mount St Agnes)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Michael Joseph Pohl's edition, Opera omnia vol. 6)
+      year: 1905
+      language: Latin
+      recension: Pohl's critical edition
+      items:
+      - cic:kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt:vita-lidewigis-virginis
+    - translator: Dom Vincent Scully
+      year: 1912
+      language: English
+      recension: Scully's translation with introduction
+      items:
+      - cic:kempis_st-lydwine-of-schiedam_scully1912.txt:whole-file
+    notes: 'Scully''s introduction was not read for how his text relates to the earlier Life by Johannes
+      Brugman, which the host also lists.'
+
+  - work_id: hetum-flos-historiarum-partium-orientis
+    title: "The Flower of Histories of the East (Flos historiarum terre orientis; La flor des estoires de la terre d'Orient)"
+    author: hetum
+    original_language: French (dictated by Het'um at Poitiers; put into Latin by Nicolas Falcon)
+    composed: "1307"
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "none (Latin by Nicolas Falcon, ed. Andreas Muller, 1671)"
+        year: 1671
+        language: Latin
+        recension: Falcon's Latin of 1307
+        items:
+          - "cic:hetum_historia-orientalis-de-tartaris-lat_muller1671.txt:whole-file"
+      - translator: "none (Old and Middle French texts and variants, ed. Academie des inscriptions et belles-lettres)"
+        year: 1906
+        language: French
+        recension: French manuscripts as edited in RHC Documents armeniens II
+        items:
+          - "cic:rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt:hayton"
+      - translator: "Robert Bedrosian"
+        year: 2004
+        language: English
+        recension: Awgerean's Armenian text of 1842, corrected from Burger's Old English edition of Pynson's c. 1520 translation
+        items:
+          - "cic:hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt:whole-file"
+    notes: >
+      Three independent forms of one work in the library: the Latin, the French and a modern English
+      by a translator who declares it public domain. The English rests on a Latin-derived Armenian
+      edition, not on the French, so it is a cross-check on the others and not their translation.
+      The French item address is a locator for the Hayton section of the RHC volume (file lines
+      1556 to 13369), not a section id.

@@ -1,0 +1,14 @@
+source_file: council-of-constance_acta-concilii-constanciensis-bd3-lat_finke1926.txt
+assignments:
+- row_id: council-of-constance_acta-concilii-constanciensis-bd3-lat_finke1926--acta-concilii-constanciensis-band-3-john-xxiii-gregory-xii
+  work: 'Acta Concilii Constanciensis, Band 3: John XXIII, Gregory XII, Benedict XIII and the papal election
+    (Finke, 1926)'
+  author: council-of-constance
+  locus: articles of accusation against John XXIII; the Perpignan negotiations; the cycle on the papal
+    election
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: 'Primary documents of the three obediences at Constance, including the hostile record against
+    John XXIII, in Latin. Second witness for exact wording: the OCR is patchy.'

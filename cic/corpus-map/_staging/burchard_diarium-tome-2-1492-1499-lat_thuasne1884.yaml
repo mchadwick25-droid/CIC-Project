@@ -1,0 +1,12 @@
+source_file: burchard_diarium-tome-2-1492-1499-lat_thuasne1884.txt
+assignments:
+- row_id: burchard_diarium-tome-2-1492-1499-lat_thuasne1884--burchard-diarium-tome-2-1492-1499-thuasne-s-latin-text
+  work: Burchard, Diarium, tome 2 (1492-1499), Thuasne's Latin text
+  author: burchard
+  locus: the diary entries of 1492-1499
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: 'The papal court''s own day-by-day ceremonial diary under Alexander VI, in Latin. Provisional:
+    not read through. Readable OCR; quote after checking the scan.'

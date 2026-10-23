@@ -1,0 +1,106 @@
+source_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+authors_ruled:
+  synod-of-constantinople-1341-1351:
+    kind: anonymous
+    evidence: >-
+      Tomus CLI prints 'TOMI SYNODICI TRES' (file line 14267) and 'TOMUS SYNODICUS I' (14261), the synodal tomes
+      against the Barlaamites and Akindynists, printed from the Jerusalem Tomos Agapes of 1698; synodal texts, no
+      single author.
+    from_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+  akindynos:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CLI names Gregorius Acindynus; running heads 'GREGORII ACINDYNI' from file line 26522;
+      the file's leading slug is palamas.
+    from_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+  barlaam:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CLI names Barlaam ('Barlaami de seminaria opuscula'); 'BARLAAMUS DE SEMINARIA' in
+      the elenchus at file line 374; the file's leading slug is palamas.
+    from_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+  philotheos-kokkinos:
+    kind: metadata-omission
+    evidence: >-
+      Tomus CLI prints Philotheos of Constantinople's encomium of Palamas and his twelve Antirrhetici against Gregoras
+      (elenchus, file lines 301-318); the file's leading slug is palamas.
+    from_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+assignments:
+- row_id: >-
+    palamas_opera-omnia-pg151-grc-lat_migne1865--gregory-palamas-homilies-and-sermons-greek-with-latin-in
+  work: Gregory Palamas, homilies and sermons, Greek with Latin, in Migne PG 151
+  author: palamas
+  locus: homilies from about file line 950 (Homilia III) onward
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: assigned
+  note: >-
+    Palamas as preacher to a Thessalonian congregation, in Greek with Migne's Latin; forty-three homilies from the
+    Jerusalem edition of 1857. A primary voice, ready to quote once checked verbatim against the scan; Greek and
+    Latin are read from the same OCR, and a quote record must be verified against the page image. No public-domain
+    English translation of this work is vendored (see the dossier, section 4).
+- row_id: >-
+    palamas_opera-omnia-pg151-grc-lat_migne1865--the-three-synodal-tomes-against-barlaam-akindynos-and-their
+  work: >-
+    The three synodal tomes against Barlaam, Akindynos and their followers (1341, 1347, 1351), with Palamas's confession,
+    Greek with Latin, in Migne PG 151
+  author: synod-of-constantinople-1341-1351
+  locus: TOMUS SYNODICUS I from file line 14261; the three tomes announced at 14267
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: assigned
+  note: >-
+    The conciliar documents that made the Palamite position the norm, printed from the Jerusalem edition of 1698;
+    the winning side's record. Read at the headings and sampled.
+- row_id: >-
+    palamas_opera-omnia-pg151-grc-lat_migne1865--the-three-synodal-tomes-against-barlaam-akindynos-and-their-2
+  work: >-
+    The three synodal tomes against Barlaam, Akindynos and their followers (1341, 1347, 1351), in Migne PG 151
+  author: synod-of-constantinople-1341-1351
+  locus: as above
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: assigned
+  note: The census names the tomoi of 1341, 1347 and 1351 as this entry's institutional sources.
+- row_id: >-
+    palamas_opera-omnia-pg151-grc-lat_migne1865--philotheos-kokkinos-encomium-of-gregory-palamas-and-the
+  work: >-
+    Philotheos Kokkinos, Encomium of Gregory Palamas and the Antirrhetici against Gregoras, Greek with Latin, in
+    Migne PG 151
+  author: philotheos-kokkinos
+  locus: named in the elenchus at file lines 301-318; the body was not located
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: provisional
+  note: >-
+    Philotheos wrote up the council's decree and as patriarch had Palamas proclaimed a saint (1368, per the census).
+    Placed from the elenchus; the text was not read.
+- row_id: >-
+    palamas_opera-omnia-pg151-grc-lat_migne1865--gregory-akindynos-tracts-and-letters-greek-with-latin-in
+  work: Gregory Akindynos, tracts and letters, Greek with Latin, in Migne PG 151
+  author: akindynos
+  locus: from file line 26522 (running heads)
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: context
+  confidence: assigned
+  note: >-
+    The leading opponent of Palamas, condemned in 1347 and 1351, in his own writing. The census calls the anti-Palamite
+    side largely untranslated; here it is in Greek with a Latin version.
+- row_id: >-
+    palamas_opera-omnia-pg151-grc-lat_migne1865--barlaam-of-calabria-opuscula-greek-with-latin-in-migne-pg
+  work: Barlaam of Calabria, Opuscula, Greek with Latin, in Migne PG 151
+  author: barlaam
+  locus: from the elenchus at file line 374; the body was not located
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: context
+  confidence: provisional
+  note: >-
+    The scholar whose attack on the hesychasts began the controversy. Placed from the elenchus and headings; not
+    read.

@@ -1,0 +1,15 @@
+source_file: stagel_leben-der-schwestern-zu-toess-gmh_vetter1906.txt
+
+assignments:
+  - row_id: stagel_leben-der-schwestern-zu-toess-gmh_vetter1906--das-leben-der-schwestern-zu-toess-the-toess-sister-book
+    work: "Das Leben der Schwestern zu Töss (the Töss sister-book, Vetter's edition)"
+    author: stagel
+    locus: "whole volume; Vetter's introduction, then the lives I to the last"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      A convent's own memory of its sisters, in the genre the census names. Primary once checked against
+      the scan. No public-domain English found; Weinhandl's 1921 modern German rendering is on the host
+      (see the dossier).

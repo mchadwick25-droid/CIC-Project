@@ -1,0 +1,15 @@
+source_file: all-saints-bristol_pre-reformation-records-part2_burgess2000.txt
+assignments:
+- row_id: all-saints-bristol_pre-reformation-records-part2_burgess2000--the-pre-reformation-records-of-all-saints-church-bristol-part-2-the-churchwardens-accounts-ed-clive-burgess-br
+  work: 'The Pre-Reformation Records of All Saints'' Church, Bristol, Part 2: The Churchwardens'' Accounts,
+    ed. Clive Burgess (BRS 53)'
+  author: all-saints-bristol
+  locus: the editor's introduction from file line 185; the records follow
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: 'The churchwardens'' accounts of All Saints'', Bristol, year by year, in the editor''s modern
+    English: payments for the fabric, glass, plaster and labourers, for the General Mind on Ash Wednesday,
+    for the priests and clerks. The parish''s own record. The census names this edition. Open licence
+    CC BY-SA 4.0 on the host item. The wording is the editor''s translation.'

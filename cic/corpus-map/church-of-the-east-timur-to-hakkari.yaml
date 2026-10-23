@@ -3,6 +3,33 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: church-of-the-east-timur-to-hakkari
 works:
+- row_id: amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897--amr-and-sliba-lives-of-the-patriarchs-of-the-east-gismondi-s
+  work: Amr and Sliba, lives of the patriarchs of the East (Gismondi's Latin)
+  author: amr-ibn-matta
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: Fourteenth-century Church of the East memory of its patriarchs. Whether Sliba's text
+    reaches Yahballaha III and Timothy II was not established in this pass; the Latin pages
+    read in descending file order. Placed on subject only.
+  source_file: amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--bibliotheca-orientalis-iii-1-assemani-1725-the-entries-on
+  work: 'Bibliotheca Orientalis III.1 (Assemani, 1725): the entries on the fourteenth- and
+    fifteenth-century patriarchs and writers of the Church of the East, Timotheus II (1318)
+    among them'
+  author: assemani
+  locus: chapter LVI, Timotheus II, at volume page 357 (the contents at file line 1786 and
+    the index at 2619 give the page); the later patriarchs in the series from about file line
+    101030
+  role: context
+  confidence: provisional
+  note: 'Assemani''s eighteenth-century lives of the writers and patriarchs after 1318 are
+    scholarship with printed extracts; the extracts are the source layer. Placed on the contents
+    and index, not read through. Second witness for exact wording until checked against the
+    page image.
+
+    '
+  source_file: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
 - row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--dated-series-of-the-patriarchs-sulaka-to-abdisho-3
   work: 'Bibliotheca Orientalis III.1 (Assemani, 1725): the series of patriarchs from Timotheus
     II to Simeon Bar-Mama'
@@ -71,6 +98,31 @@ works:
 
     '
   source_file: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt
+- row_id: cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914--cathay-and-the-way-thither-vol-iii-montecorvino-s-letters-ra
+  work: Cathay and the Way Thither, vol. III (Montecorvino's letters, Rashiduddin, Pegolotti,
+    Marignolli)
+  author: cathay-and-the-way-thither
+  locus: Montecorvino's letters at the contents entries from file line 244; Marignolli section
+    later in the volume; Quilon is named in some 23 lines
+  role: context
+  confidence: provisional
+  note: 'Outsider records, English, clean OCR: Montecorvino''s letters and Marignolli''s travels
+    including Quilon and the Nestorians. Placed on subject from the contents; not read through.
+    Yule and Cordier''s notes are scholarship.'
+  source_file: cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt
+- row_id: mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838--ebedjesu-s-collection-of-canons-with-the-acts-and-canons-of
+  work: Ebedjesu's collection of canons with the acts and canons of Timothy II's synod of
+    1318 (Mai, Scriptorum veterum tomus X)
+  author: mai
+  locus: Preface from file line 102; index at 11344; Acta synodi Timothei at 11610; Canones
+    synodi Timothei at 11801
+  role: tradition
+  confidence: assigned
+  note: 'Primary Latin for the synod of 1318: the acts and canons of Timothy II in Mai''s
+    translation, inside Ebedjesu''s canon collection. Latin OCR clean; Syriac garbled. Ready
+    to quote once verified against the scan. The rest of the volume is earlier canon law and
+    is context only.'
+  source_file: mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt
 - row_id: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910--chapters-xxxi-xxxii-the-sixteenth-to-nineteenth-centuries-2
   work: 'History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East
     (1910), chapter XXX: Timurlane and the visits of Indian Christians to the patriarch'
@@ -84,6 +136,18 @@ works:
 
     '
   source_file: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt
+- row_id: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907--notice-sur-les-manuscrits-syriaques-du-patriarcat-chaldeen
+  work: 'Notice sur les manuscrits syriaques du patriarcat chaldeen de Mossoul: colophons
+    of the fourteenth and fifteenth centuries'
+  author: scher
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: Catalogue with colophons. One manuscript finished in the Seleucid year 1806 (AD 1497)
+    in the village of Org, diocese of Seert, in the time of the patriarch Mar Simeon (shelf
+    file line 404). Another notice reads 'in the time of Mar Yahballaha III, patriarch (died
+    15 November 1317)' (line 986). Placed on those two lines; not read through.
+  source_file: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907.txt
 - row_id: wigram_assyrians-and-their-neighbours_1929--chapter-vii-schism-of-the-sixteenth-century-2
   work: The Assyrians and their Neighbours (1929), chapter VII, Tamerlane and the Coming of
     the Ottoman
@@ -97,3 +161,27 @@ works:
 
     '
   source_file: wigram_assyrians-and-their-neighbours_1929.txt
+- row_id: yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895--histoire-de-mar-jabalaha-iii-et-du-moine-rabban-cauma-french
+  work: Histoire de Mar Jabalaha III et du moine Rabban Cauma (French translation of the Syriac
+    life, with appendices)
+  author: yahballaha-sauma
+  locus: chapters from file line 1051; appendices after the translation
+  role: antecedent
+  confidence: assigned
+  note: Primary Syriac life in French translation, clean OCR, with documentary appendices;
+    ready to quote once verified against the scan. Second translation of the same life as
+    the Budge English file; ends in 1317.
+  source_file: yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895.txt
+- row_id: yahballaha-sauma_monks-of-kublai-khan_budge1928--the-monks-of-kublai-khan-life-of-mar-yahballaha-iii-and-rabb
+  work: The Monks of Kublai Khan (Life of Mar Yahballaha III and Rabban Sauma, English)
+  author: yahballaha-sauma
+  locus: chapters I to XIX from file line 5386; the patriarch's last years and death in the
+    closing chapters (XVII to XIX)
+  role: antecedent
+  confidence: assigned
+  note: Primary Syriac life in English translation, clean OCR, ready to quote once verified
+    against the scan. It ends at Yahballaha III's death in 1317, so it is the antecedent of
+    the Timur-to-Hakkari window and the core voice of the Mongol-era world; for the Malabar
+    world it is the patriarch who sent bishops to India. The Syriac original is not vendored;
+    Chabot's French translation is vendored beside this one.
+  source_file: yahballaha-sauma_monks-of-kublai-khan_budge1928.txt

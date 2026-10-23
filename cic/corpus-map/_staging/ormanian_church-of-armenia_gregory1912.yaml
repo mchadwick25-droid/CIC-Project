@@ -104,3 +104,15 @@ assignments:
     confidence: provisional
     note: >
       Placed on the chapter list ('A Survey of the Nineteenth Century'); chapter not read.
+  - row_id: ormanian_church-of-armenia_gregory1912--the-church-of-armenia-ormanian-gregory-s-english-1912
+    work: 'The Church of Armenia (Ormanian; Gregory''s English, 1912): chapters XIII-XV'
+    author: ormanian
+    locus: whole volume
+    atlas_ids:
+    - armenian-cilicia-after-the-kingdom
+    role: context
+    confidence: assigned
+    note: 'Proposed change to the existing provisional row: read at file lines 3860 to 3880, where Ormanian
+      says the king called a synod at Sis in 1307, that the catholicos died before it met, and that from
+      then until the see moved to Etchmiadzin in 1441 the desire for union grew. Tier: same time-place.
+      A late Armenian prelate''s history in English.'

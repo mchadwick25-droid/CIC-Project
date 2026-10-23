@@ -1,0 +1,15 @@
+source_file: wright_political-poems-and-songs-v2_1861.txt
+
+assignments:
+  - row_id: wright_political-poems-and-songs-v2_1861--jack-upland-friar-daw-topias-s-reply-with-jack-upland-s
+    work: "Jack Upland; Friar Daw Topias's Reply with Jack Upland's Rejoinder; On the Lollards (in Wright's Political Poems and Songs, vol. II)"
+    author: wright
+    locus: "items 3, 4 and 10 of the contents list; Jack Upland from Rolls page 16"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      A Lollard anti-fraternal tract in the movement's own English, with a friar's reply and the Lollard's
+      rejoinder. The rest of the volume is political verse and does not belong to this world. Authorship
+      of the three pieces is not established. The Rolls text of Jack Upland is Speght's printing.

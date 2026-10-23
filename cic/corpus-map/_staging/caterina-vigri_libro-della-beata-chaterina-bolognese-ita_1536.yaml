@@ -1,0 +1,23 @@
+source_file: caterina-vigri_libro-della-beata-chaterina-bolognese-ita_1536.txt
+authors_ruled:
+  caterina-vigri:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file. The author is named on the title page printed in the file as Chaterina Bolognese
+      (Caterina Vigri of Bologna). A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    caterina-vigri_libro-della-beata-chaterina-bolognese-ita_1536--libro-della-beata-chaterina-bolognese-bologna-1536-the
+  work: 'Libro della Beata Chaterina Bolognese (Bologna, 1536): the Seven Spiritual Weapons'
+  author: caterina-vigri
+  locus: >-
+    Part one of the volume, the book 'which she left written with her own hand', with her prologue to the sisters
+    at Ferrara
+  atlas_ids:
+  - observant-reform-and-popular-preaching
+  role: tradition
+  confidence: assigned
+  note: >-
+    An Observant Poor Clare's own formation book, in Italian. A second witness for exact wording: the long s reads
+    as 'f' in the OCR. Part two of the volume is Paleotti's life of her, not her voice. No public-domain English
+    translation found (the 1926 English edition is not in the public domain here).

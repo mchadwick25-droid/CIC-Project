@@ -1,0 +1,38 @@
+source_file: bullarium-franciscanum_v5-lat_eubel1898.txt
+authors_ruled:
+  bullarium-franciscanum:
+    kind: metadata-omission
+    evidence: >-
+      A collection, named on its title page as the Bullarium Franciscanum begun by Sbaralea and continued by Eubel;
+      no single author, and cic/texts/AUTHORS.md has not seen it.
+assignments:
+- row_id: >-
+    bullarium-franciscanum_v5-lat_eubel1898--bullarium-franciscanum-v-eubel-1898-papal-constitutions-of
+  work: >-
+    Bullarium Franciscanum V (Eubel, 1898): papal constitutions of Benedict XI, Clement V and John XXII, 1303-1334
+  author: bullarium-franciscanum
+  locus: >-
+    No. 297 (Sancta Romana against the Fraticelli) and the entries on Cum inter nonnullos, Ad conditorem canonum
+    and Quia quorundam (for example no. 554), found by search
+  atlas_ids:
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: context
+  confidence: assigned
+  note: >-
+    The hostile and institutional record of the poverty quarrel, in the papacy's own Latin: the bulls that made
+    absolute poverty a heresy and the Fraticelli a legal category. Clean OCR, quotable once checked against the
+    scan. Not the Spirituals' voice. No public-domain English translation found.
+- row_id: >-
+    bullarium-franciscanum_v5-lat_eubel1898--bullarium-franciscanum-v-eubel-1898-papal-constitutions-of-2
+  work: >-
+    Bullarium Franciscanum V (Eubel, 1898): papal constitutions of Benedict XI, Clement V and John XXII, 1303-1334
+  author: bullarium-franciscanum
+  locus: Whole volume; papal letters in numbered entries
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: >-
+    Placed on content: the papal chancery's own letters of the Avignon years. Whether the Latin papal church world
+    wants papal registers as its own voice is for its build.

@@ -1,0 +1,14 @@
+source_file: powell-trevelyan_peasants-rising-and-the-lollards_1899.txt
+
+assignments:
+  - row_id: powell-trevelyan_peasants-rising-and-the-lollards_1899--powell-and-trevelyan-the-peasants-rising-and-the-lollards
+    work: "Powell and Trevelyan, The Peasants' Rising and the Lollards (documents)"
+    author: powell-trevelyan
+    locus: "'Documents relating to Lollards, 1382-1398' (from page 39); the Peasants' Rising documents come first"
+    atlas_ids:
+      - lollardy
+    role: context
+    confidence: assigned
+    note: >
+      Chancery and court records for the movement's first years, in abstract. Hostile-record evidence for
+      the social setting; a small file.

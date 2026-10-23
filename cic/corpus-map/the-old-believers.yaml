@@ -47,6 +47,16 @@ works:
   note: The household piety the Old Believers later defended as the old way; placed on window
     and place. The edition's chapters were not read against the Old Believers' own texts.
   source_file: domostroi_domostroi-rus_yakovlev1867.txt
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-mouravieff-blackmore-s-2
+  work: A History of the Church of Russia (Mouravieff; Blackmore's English, 1842)
+  author: mouravieff
+  locus: the sixteenth-century and seventeenth-century chapters (the name Nikon occurs about
+    189 times)
+  role: context
+  confidence: provisional
+  note: 'Placed on window and place: the same history carries the Stoglav period, the Nikonian
+    reform and the schism. Sampled by name counts only; not read for these entries.'
+  source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
 - row_id: stoglav_stoglav-fra_duchesne1920--le-stoglav-ou-les-cent-chapitres-1551-french-translation-2
   work: Le Stoglav ou les Cent Chapitres (1551), French translation with introduction and
     commentary (Duchesne 1920)

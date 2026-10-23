@@ -1,0 +1,14 @@
+source_file: engelthal_buechlein-von-der-genaden-ueberlast-gmh_schroeder1871.txt
+
+assignments:
+  - row_id: engelthal_buechlein-von-der-genaden-ueberlast-gmh_schroeder1871--der-nonne-von-engelthal-buechlein-von-der-genaden-ueberlast
+    work: "Der Nonne von Engelthal Büchlein von der Genaden Überlast (the Engelthal sister-book, Schröder's edition)"
+    author: engelthal
+    locus: "whole volume; Schröder's introduction, then the text"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      A second convent's book of its sisters' graces, beside Töss. Second witness: the OCR carries
+      frequent letter errors. No public-domain English found.

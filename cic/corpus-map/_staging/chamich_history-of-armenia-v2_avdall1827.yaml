@@ -88,3 +88,16 @@ assignments:
     note: >
       Contents page: 'The origin of the Bagratian potentates', Ashot the First and the
       pontificates that follow. Placed on the contents page; not read.
+  - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-chamich-avdall-s-english-1827-volume-ii
+    work: History of Armenia (Chamich; Avdall's English, 1827), volume II, Part VII, chapters I-V
+    author: chamich
+    locus: whole volume
+    atlas_ids:
+    - armenian-cilicia-after-the-kingdom
+    role: context
+    confidence: assigned
+    note: 'Proposed change to the existing provisional row: read at the cited lines, it fits. The Sis council
+      of 1342 (Armenian era 791) that answered the book of 117 ''heresies'' sent from Avignon is at file
+      line 14107; the fall of Sis at 14504; Grigor of Tatev (''Gregorius Tathevensis'') at 15103; the choice
+      of Kirakus of Khor Virap at Etchmiadzin at 15369 to 15503. A late secondary history from native sources,
+      in English, with errors in names. Tier: same time-place.'

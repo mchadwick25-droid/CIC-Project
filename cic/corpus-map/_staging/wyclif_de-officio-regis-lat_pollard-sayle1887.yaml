@@ -1,0 +1,14 @@
+source_file: wyclif_de-officio-regis-lat_pollard-sayle1887.txt
+
+assignments:
+  - row_id: wyclif_de-officio-regis-lat_pollard-sayle1887--wyclif-tractatus-de-officio-regis-pollard-and-sayle-s
+    work: "Wyclif, Tractatus de Officio Regis (Pollard and Sayle's edition, Latin)"
+    author: wyclif
+    locus: "whole volume; the editors' introduction first"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      Wyclif on the king and the church, the argument behind the movement's later appeals to the crown.
+      Primary once checked against the scan.

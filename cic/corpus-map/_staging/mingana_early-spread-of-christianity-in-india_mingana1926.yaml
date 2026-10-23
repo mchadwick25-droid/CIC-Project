@@ -1,0 +1,16 @@
+source_file: mingana_early-spread-of-christianity-in-india_mingana1926.txt
+assignments:
+- row_id: mingana_early-spread-of-christianity-in-india_mingana1926--the-early-spread-of-christianity-in-india-with-translated-co
+  work: The Early Spread of Christianity in India (with translated colophons of 1301 and the 1490s)
+  author: mingana
+  locus: the 1301 Cranganore colophon at file lines 3520-3565; the bishops' ordination note of 1504 at
+    2040-2056; later colophons at 3575-3627
+  atlas_ids:
+  - st-thomas-christians-1300-1517
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: Scholarly article that prints English translations of the 1301 Cranganore colophon and the bishops'
+    colophons of the 1490s and 1504. The translated colophons are the nearest thing in the library to
+    the community's own written voice; the argument around them is scholarship. English OCR clean. Check
+    against the Syriac before quoting.

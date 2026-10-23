@@ -1,0 +1,24 @@
+source_file: actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902.txt
+authors_ruled:
+  actus-beati-francisci:
+    kind: anonymous
+    evidence: >-
+      The Actus beati Francisci et sociorum eius is an anonymous Latin compilation. The English introduction to
+      the Fioretti vendored beside it attributes it to Ugolino of Monte Giorgio. The ruling here is anonymous.
+assignments:
+- row_id: >-
+    actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902--actus-beati-francisci-et-sociorum-eius-edited-by-paul
+  work: Actus beati Francisci et sociorum eius, edited by Paul Sabatier (1902)
+  author: actus-beati-francisci
+  locus: Whole file; Sabatier's French introduction first, the Latin text after it
+  atlas_ids:
+  - the-franciscan-movement
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: tradition
+  confidence: needs-ruling
+  note: >-
+    Placed needs-ruling because the text is contested in date or attribution and sits between the Franciscan Movement
+    world (to 1300) and the Spirituals worlds. The Latin source of the Fioretti, from the March of Ancona. A second
+    witness for exact wording until checked against the scan. The English Fioretti (Heywood, 1906) is vendored beside
+    it; there is no public-domain English of the Actus itself.

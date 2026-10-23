@@ -3,6 +3,164 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: late-medieval-lay-parish-piety
 works:
+- row_id: all-saints-bristol_pre-reformation-records-part2_burgess2000--the-pre-reformation-records-of-all-saints-church-bristol-part-2-the-churchwardens-accounts-ed-clive-burgess-br
+  work: 'The Pre-Reformation Records of All Saints'' Church, Bristol, Part 2: The Churchwardens''
+    Accounts, ed. Clive Burgess (BRS 53)'
+  author: all-saints-bristol
+  locus: the editor's introduction from file line 185; the records follow
+  role: tradition
+  confidence: assigned
+  note: 'The churchwardens'' accounts of All Saints'', Bristol, year by year, in the editor''s
+    modern English: payments for the fabric, glass, plaster and labourers, for the General
+    Mind on Ash Wednesday, for the priests and clerks. The parish''s own record. The census
+    names this edition. Open licence CC BY-SA 4.0 on the host item. The wording is the editor''s
+    translation.'
+  source_file: all-saints-bristol_pre-reformation-records-part2_burgess2000.txt
+- row_id: all-saints-bristol_pre-reformation-records-part3_burgess2004--the-pre-reformation-records-of-all-saints-church-bristol-part-3-wills-the-halleway-chantry-records-and-deeds-e
+  work: 'The Pre-Reformation Records of All Saints'' Church, Bristol, Part 3: Wills, the Halleway
+    Chantry Records and Deeds, ed. Clive Burgess (BRS 56)'
+  author: all-saints-bristol
+  locus: the editor's introduction from file line 349; the records follow
+  role: tradition
+  confidence: assigned
+  note: The wills of All Saints' parishioners, the Halleway chantry accounts and the parish's
+    deeds, in the editor's modern English. Parishioners' bequests and a chantry's costs (including
+    an obit) in the parish's own records. Open licence CC BY-SA 4.0 on the host item. The
+    wording is the editor's translation.
+  source_file: all-saints-bristol_pre-reformation-records-part3_burgess2004.txt
+- row_id: all-saints-bristol_pre-reformation-records-part1_burgess1995--the-pre-reformation-records-of-all-saints-bristol-part-i-the-church-book-ed-clive-burgess-brs-46
+  work: The Pre-Reformation Records of All Saints', Bristol, Part I (the Church Book), ed.
+    Clive Burgess (BRS 46)
+  author: all-saints-bristol
+  locus: the editor's introduction from file line 196; the records follow
+  role: tradition
+  confidence: assigned
+  note: 'The Church Book of one large Bristol parish and a parish account for 1427-8, in the
+    editor''s modern English: the ordinances, the fraternity of Kalendars, the lights, the
+    school house, the steeple. The parish''s own record of what it paid for and ordained.
+    Open licence CC BY-SA 4.0 on the host item. The wording is the editor''s translation.'
+  source_file: all-saints-bristol_pre-reformation-records-part1_burgess1995.txt
+- row_id: bury-st-edmunds_wills-and-inventories-enm_tymms1850--wills-and-inventories-from-the-registers-of-the-commissary-of-bury-st-edmund-s-and-the-archdeacon-of-sudbury-e
+  work: Wills and Inventories from the Registers of the Commissary of Bury St. Edmund's and
+    the Archdeacon of Sudbury, ed. Samuel Tymms (Camden Society 49)
+  author: bury-st-edmunds
+  locus: the preface from file line 129; the wills follow in date order
+  role: tradition
+  confidence: assigned
+  note: Suffolk will-makers' wills and household inventories. About a third of the dated entries
+    fall inside the window; later wills are included. A second witness for exact wording;
+    check page images before quoting.
+  source_file: bury-st-edmunds_wills-and-inventories-enm_tymms1850.txt
+- row_id: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910--visitation-articles-and-injunctions-vol-ii-1536-1558-the
+  work: 'Visitation Articles and Injunctions, vol. II, 1536-1558: the injunctions on images,
+    pilgrimages, lights, gilds, chantries and primers'
+  author: church-of-england
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'The royal and episcopal injunctions that took parish practice apart after the window
+    closes (the counts in the file: images 88, pilgrimage 22, lights 21, chantr 35, primer
+    41). These are the documents that end the practice the wardens'' accounts record. Out-of-window
+    tier (1536 to 1558), same place; placed on the counts and the title, not read through.'
+  source_file: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt
+- row_id: craft-of-dying_book-of-the-craft-of-dying-and-other-early-english-tracts_comper1917--the-book-of-the-craft-of-dying-and-other-early-english-tracts-concerning-death-ed-f-m-m-comper
+  work: The Book of the Craft of Dying and other early English tracts concerning death, ed.
+    F. M. M. Comper
+  author: craft-of-dying
+  locus: contents from file line 202
+  role: tradition
+  confidence: provisional
+  note: English tracts on dying well, in modern spelling. Placed on the subject and region;
+    this pass read the contents and sampled the text but did not date each tract. Left provisional.
+  source_file: craft-of-dying_book-of-the-craft-of-dying-and-other-early-english-tracts_comper1917.txt
+- row_id: english-gilds_original-ordinances-of-early-english-gilds-enm_toulmin-smith1870--english-gilds-the-original-ordinances-of-more-than-one-hundred-early-english-gilds-ed-toulmin-smith-eets-os-40
+  work: 'English Gilds: the original ordinances of more than one hundred early English gilds,
+    ed. Toulmin Smith (EETS OS 40)'
+  author: english-gilds
+  locus: contents and introduction from file line 99; the gild ordinances from line 486
+  role: tradition
+  confidence: assigned
+  note: The gilds' own ordinances and their returns to the Crown (dated 1389 in the editors'
+    introduction). The fraternity side of the parish, in members' words. The returns come
+    from before the window opens; the gilds run through it. A second witness for exact wording
+    where the OCR is noisy.
+  source_file: english-gilds_original-ordinances-of-early-english-gilds-enm_toulmin-smith1870.txt
+- row_id: foxe_acts-and-monuments-v3_cattley-townsend1837--foxe-acts-and-monuments-vol-iii-arundel-s-constitution-of
+  work: 'Foxe, Acts and Monuments, vol. III: Arundel''s Constitution of 1409'
+  author: foxe
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'The same Constitution is addressed to parsons, vicars, chaplains, clerks in parish
+    churches and ''all laymen'' (the address at about line 19780). Placed for the parish on
+    that address without reading the thirteen articles for parish practice; left provisional.
+    Tier: same time-place.'
+  source_file: foxe_acts-and-monuments-v3_cattley-townsend1837.txt
+- row_id: kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893--the-earliest-english-translation-of-the-imitation-of-christ-ed-john-k-ingram-eets-es-63-3
+  work: The earliest English translation of the Imitation of Christ, ed. John K. Ingram (EETS
+    ES 63)
+  author: kempis
+  locus: the whole file
+  role: context
+  confidence: provisional
+  note: An English devotional book from the last years of the window or just after. The household
+    and parish reach of this translation was not checked; left provisional.
+  source_file: kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893.txt
+- row_id: lay-folks-mass-book_manner-of-hearing-mass-enm_simmons1879--the-lay-folks-mass-book-ed-t-f-simmons-eets-os-71
+  work: The Lay Folks Mass Book, ed. T. F. Simmons (EETS OS 71)
+  author: lay-folks-mass-book
+  locus: contents and introduction from file line 110; appendices from line 269
+  role: tradition
+  confidence: assigned
+  note: 'The layman''s guide to following the Mass in English: four Middle English texts with
+    the rubrics and prayers for the people, and the York order. What the pew was told to do
+    while the priest said mass. A second witness for exact wording because of the OCR; check
+    page images before quoting.'
+  source_file: lay-folks-mass-book_manner-of-hearing-mass-enm_simmons1879.txt
+- row_id: lincoln-diocese_documents-1450-1544-enm_clark1914--lincoln-diocese-documents-1450-1544-ed-andrew-clark-eets-os-149
+  work: Lincoln Diocese Documents, 1450-1544, ed. Andrew Clark (EETS OS 149)
+  author: lincoln-diocese
+  locus: the editor's account of the wills from file line 227
+  role: tradition
+  confidence: provisional
+  note: Wills and probate records of the Lincoln diocese, with the editor's long introduction.
+    The English wills are the will-makers' own words. The volume's other documents (registers,
+    visitations) were sampled, not read through; left provisional. A second witness for exact
+    wording.
+  source_file: lincoln-diocese_documents-1450-1544-enm_clark1914.txt
+- row_id: love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908--the-mirrour-of-the-blessed-lyf-of-jesu-christ-nicholas-love-middle-english-ed-l-f-powell-2
+  work: The Mirrour of the Blessed Lyf of Jesu Christ (Nicholas Love, Middle English), ed.
+    L. F. Powell
+  author: love
+  locus: the prologue from file line 605
+  role: tradition
+  confidence: provisional
+  note: A vernacular life of Christ for lay readers, made before 1410 and placed here on its
+    reach among households, which this pass did not check. Left provisional for the world's
+    own reading.
+  source_file: love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt
+- row_id: mirk_instructions-for-parish-priests-enm_peacock1868--instructions-for-parish-priests-ed-edward-peacock-eets-os-31
+  work: Instructions for Parish Priests, ed. Edward Peacock (EETS OS 31)
+  author: mirk
+  locus: preface from file line 2393; the instructions from near line 8212
+  role: tradition
+  confidence: assigned
+  note: Mirk's verse handbook for the parish priest, from the same hand as the Festial. It
+    is addressed to the priest about his parishioners. The priest's side of the parish; second
+    witness for wording (Middle English OCR).
+  source_file: mirk_instructions-for-parish-priests-enm_peacock1868.txt
+- row_id: mirk_festial-enm_erbe1905--mirk-s-festial-part-i-ed-theodor-erbe-eets-es-96
+  work: Mirk's Festial, Part I, ed. Theodor Erbe (EETS ES 96)
+  author: mirk
+  locus: the table of sermons from file line 406
+  role: tradition
+  confidence: assigned
+  note: 'The era''s most-copied English sermon collection, written for parish priests to preach
+    to their congregations: sermons for the year''s feasts and the saints. The nearest vendored
+    proxy for what the pew heard. A second witness for exact wording (Middle English OCR);
+    check page images before quoting. Part II of Erbe''s edition was never issued in this
+    series.'
+  source_file: mirk_festial-enm_erbe1905.txt
 - row_id: morebath-parish_churchwardens-accounts-1520-1573_binney1904--the-accounts-of-the-wardens-of-the-parish-of-morebath-1520-1573-2
   work: The Accounts of the Wardens of the Parish of Morebath, Devon, 1520-1573 (the pre-1536
     accounts)
@@ -19,3 +177,154 @@ works:
 
     '
   source_file: morebath-parish_churchwardens-accounts-1520-1573_binney1904.txt
+- row_id: norwich-diocese_visitations-1492-1532-lat_jessopp1888--visitations-of-the-diocese-of-norwich-1492-1532-ed-augustus-jessopp-camden-society
+  work: Visitations of the Diocese of Norwich, 1492-1532, ed. Augustus Jessopp (Camden Society)
+  author: norwich-diocese
+  locus: the contents from file line 83
+  role: context
+  confidence: assigned
+  note: 'The bishop''s visitors asking each house and parish how it was kept: complaints of
+    clergy, neglected fabric, quarrels, heresy. Latin depositions with an English introduction.
+    The official outside view of the parishes of Norfolk and Suffolk, not the parishioners''
+    own voice. No English translation is vendored.'
+  source_file: norwich-diocese_visitations-1492-1532-lat_jessopp1888.txt
+- row_id: pecock_repressor-v1_babington1860--pecock-repressor-of-over-much-blaming-of-the-clergy-vol-i-2
+  work: Pecock, Repressor of Over Much Blaming of the Clergy, vol. I
+  author: pecock
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Defends the images, pilgrimages and usages of parish religion. Placed on that subject
+    matter; the volume was sampled, not read through.
+
+    '
+  source_file: pecock_repressor-v1_babington1860.txt
+- row_id: pecock_repressor-v2_babington1860--pecock-repressor-of-over-much-blaming-of-the-clergy-vol-ii-2
+  work: Pecock, Repressor of Over Much Blaming of the Clergy, vol. II
+  author: pecock
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Defends the images, pilgrimages and usages of parish religion. Placed on that subject
+    matter; the volume was sampled, not read through.
+
+    '
+  source_file: pecock_repressor-v2_babington1860.txt
+- row_id: pricke-of-conscience_northumbrian-poem-enm_morris1863--the-pricke-of-conscience-northumbrian-poem-ed-richard-morris
+  work: The Pricke of Conscience (Northumbrian poem), ed. Richard Morris
+  author: pricke-of-conscience
+  locus: Book I from file line 4192
+  role: context
+  confidence: provisional
+  note: A widely read English verse teaching on the last things, of the kind a priest or reading
+    layman could draw on. This pass did not check how widely it was read in parishes; left
+    provisional.
+  source_file: pricke-of-conscience_northumbrian-poem-enm_morris1863.txt
+- row_id: prymer_prymer-or-lay-folks-prayer-book-enm_littlehales1895--the-prymer-or-lay-folks-prayer-book-ed-henry-littlehales-eets-os-105-and-109
+  work: The Prymer or Lay Folks' Prayer Book, ed. Henry Littlehales (EETS OS 105 and 109)
+  author: prymer
+  locus: Part I text from file line 167; Part II introduction near line 6251
+  role: tradition
+  confidence: assigned
+  note: The household prayer book of the window, in English with Latin incipits, arranged
+    by hour and office, with Littlehales's and Bishop's introduction. The ordinary believer's
+    own prayers. A second witness for exact wording (systematic thorn pattern in the OCR);
+    check page images before quoting.
+  source_file: prymer_prymer-or-lay-folks-prayer-book-enm_littlehales1895.txt
+- row_id: somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890--church-wardens-accounts-of-croscombe-pilton-patton-tintinhull-morebath-and-st-michael-s-bath-1349-1560-ed-bish
+  work: Church-wardens' accounts of Croscombe, Pilton, Patton, Tintinhull, Morebath and St
+    Michael's Bath, 1349-1560, ed. Bishop Hobhouse
+  author: somerset-parishes
+  locus: contents and preface from file line 64; the accounts of the six parishes follow
+  role: tradition
+  confidence: assigned
+  note: 'The wardens'' own accounts of six parishes across the whole window and beyond: guilds,
+    the church-house, chantry wardens, the fabric and the poor, as Hobhouse''s own contents
+    list names them. Hobhouse''s preface is a clear guide to how a parish ran. Mostly the
+    parish''s own early English. A second witness for wording because of OCR on the early
+    spelling; check page images before quoting.'
+  source_file: somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890.txt
+- row_id: st-mary-at-hill_medieval-records-of-a-london-city-church-enm_littlehales1904--the-medieval-records-of-a-london-city-church-st-mary-at-hill-1420-1559-part-i-ed-henry-littlehales-eets-os-125
+  work: The Medieval Records of a London City Church (St. Mary at Hill), 1420-1559, Part I,
+    ed. Henry Littlehales (EETS OS 125)
+  author: st-mary-at-hill
+  locus: contents from file line 294; the churchwardens' accounts from line 398
+  role: tradition
+  confidence: assigned
+  note: 'One large London parish''s own accounts and memoranda: the wardens'' receipts and
+    payments (including the lights and the brotherhood of St Anne, in the passages read),
+    through the window and after. A second witness for exact wording (noisy OCR on numerals
+    and abbreviations); check page images before quoting. Part II of the edition is not vendored.'
+  source_file: st-mary-at-hill_medieval-records-of-a-london-city-church-enm_littlehales1904.txt
+- row_id: surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920--horae-eboracenses-the-prymer-of-the-york-use-with-devotions-of-the-lay-folk-ed-canon-wordsworth-surtees-societ
+  work: 'Horae Eboracenses: the Prymer of the York Use with devotions of the lay-folk, ed.
+    Canon Wordsworth (Surtees Society 132)'
+  author: surtees-society
+  locus: the table of contents from file line 92; the litany near line 11356
+  role: tradition
+  confidence: assigned
+  note: 'The prayer book of lay people in the northern province, in the York use: hours of
+    the Virgin and other devotions, in Latin and English. The northern counterpart to the
+    Cambridge Prymer. A second witness for exact wording where the OCR is noisy; check page
+    images before quoting.'
+  source_file: surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt
+- row_id: thoresby_lay-folks-catechism-enm-lat_simmons-nolloth1901--the-lay-folks-catechism-thoresby-s-instruction-of-1357-and-the-wycliffite-version-ed-simmons-and-nolloth-eets
+  work: The Lay Folks' Catechism (Thoresby's Instruction of 1357 and the Wycliffite version),
+    ed. Simmons and Nolloth (EETS OS 118)
+  author: thoresby
+  locus: the whole file; the Latin and English versions run in parallel from near line 6151
+  role: tradition
+  confidence: provisional
+  note: The standing instruction the laity were to be taught, in Latin and English, with the
+    Wycliffite expansion beside it. Written in 1357, before the window, and in use through
+    it; placed on that use and left provisional. A second witness for wording.
+  source_file: thoresby_lay-folks-catechism-enm-lat_simmons-nolloth1901.txt
+- row_id: wyclif_english-works-hitherto-unprinted_matthew1880--matthew-english-works-of-wyclif-hitherto-unprinted-lollard
+  work: 'Matthew, English Works of Wyclif hitherto unprinted: Lollard tracts against pilgrimages,
+    pardons, images and offerings'
+  author: wyclif
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'The volume has Lollard attacks on the practices the parish carried out: ''Prelates
+    deceive men as to pilgrimages and pardons'' (about file line 7210), ''pilgrim'' occurs
+    15 times and ''images'' 11 times in the file. The hostile outside view of the same practice.
+    Placed on a count of those words and the lines read; the tracts were not read through.
+    Tier: same time-place.'
+  source_file: wyclif_english-works-hitherto-unprinted_matthew1880.txt
+- row_id: york-registry_testamenta-eboracensia-v3-enm_raine1865--testamenta-eboracensia-vol-iii-surtees-society-45-wills-registered-at-york-wills-of-about-1380-to-1500-peaking
+  work: 'Testamenta Eboracensia, vol. III (Surtees Society 45): wills registered at York,
+    wills of about 1380 to 1500, peaking in the 1470s and 1480s'
+  author: york-registry
+  locus: the preface from file line 230; the wills follow in registry order
+  role: tradition
+  confidence: assigned
+  note: 'Wills registered at York, in the testators'' own words (the passages read show bequests
+    for torches, masses and a chantry priest). readable Latin and English wills, with many
+    misread letters in the notes. A second witness for exact wording; check page images before
+    quoting. '
+  source_file: york-registry_testamenta-eboracensia-v3-enm_raine1865.txt
+- row_id: york-registry_testamenta-eboracensia-v4-enm_raine1869--testamenta-eboracensia-vol-iv-surtees-society-53-wills-registered-at-york-mostly-of-the-1460s-to-1509
+  work: 'Testamenta Eboracensia, vol. IV (Surtees Society 53): wills registered at York, mostly
+    of the 1460s to 1509'
+  author: york-registry
+  locus: the preface from file line 156; the wills follow in registry order
+  role: tradition
+  confidence: assigned
+  note: 'Wills registered at York, in the testators'' own words (the passages read show bequests
+    for torches, masses and a chantry priest). mostly readable; Latin abstracts of wills and
+    English notes with some misread letters. A second witness for exact wording; check page
+    images before quoting. '
+  source_file: york-registry_testamenta-eboracensia-v4-enm_raine1869.txt
+- row_id: york-registry_testamenta-eboracensia-v5-enm_raine1884--testamenta-eboracensia-vol-v-surtees-society-79-wills-registered-at-york-mostly-of-1510-to-the-1530s-so-only-t
+  work: 'Testamenta Eboracensia, vol. V (Surtees Society 79): wills registered at York, mostly
+    of 1510 to the 1530s, so only the years to 1517 fall in the window'
+  author: york-registry
+  locus: the preface from file line 152; the wills follow in registry order
+  role: tradition
+  confidence: provisional
+  note: 'Wills registered at York, in the testators'' own words (the passages read show bequests
+    for torches, masses and a chantry priest). readable English wills with some misread letters.
+    Only about a third of the wills fall inside the window (1510-1517); the rest are later.
+    A second witness for exact wording; check page images before quoting. '
+  source_file: york-registry_testamenta-eboracensia-v5-enm_raine1884.txt

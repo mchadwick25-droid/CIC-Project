@@ -1,0 +1,15 @@
+source_file: tauler_history-and-life-with-sermons_winkworth1907.txt
+
+assignments:
+  - row_id: tauler_history-and-life-with-sermons_winkworth1907--tauler-life-and-twenty-five-sermons-winkworth-s-translation
+    work: "Tauler, Life and twenty-five sermons (Winkworth's translation)"
+    author: tauler
+    locus: "whole volume; the sermons from SERMON I (First Sunday in Advent)"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      Tauler's preaching to nuns and townspeople in English, with a Victorian life of him. A selection of
+      twenty-five sermons, so a build cannot treat it as the whole corpus. No Middle High German Tauler is
+      vendored (Vetter's 1910 edition was not found on the host).

@@ -1,0 +1,32 @@
+source_file: waldensians_nobla-leicon-pro_destefano1909.txt
+assignments:
+- row_id: waldensians_nobla-leicon-pro_destefano1909--la-nobla-leicon-the-noble-lesson-waldensian-poem-critical
+  work: La Nobla Leiçon (The Noble Lesson), Waldensian poem, critical text
+  author: waldensians
+  locus: the poem begins 'O fraires, entende una nobla leiçon' after the title page; variants beneath
+    each verse group
+  atlas_ids:
+  - waldensians-in-the-alps
+  role: tradition
+  confidence: assigned
+  note: A primary voice of the Waldensian communities in Old Occitan, from the Cambridge, Geneva and Dublin
+    manuscripts. Clean enough to quote once checked against the scan. The edition itself argues the poem's
+    date (1100 or 1400 by the manuscripts' readings), so composition date is contested; the date of the
+    manuscripts themselves is for the build to take from the edition's description. Morland's 1658 volume
+    on the shelf prints the poem with an English rendering (not collated with this edition); the 1888
+    Montet edition (French translation) is a second witness.
+- row_id: waldensians_nobla-leicon-pro_destefano1909--la-nobla-leicon-the-noble-lesson-waldensian-poem-critical-2
+  work: La Nobla Leiçon (The Noble Lesson), Waldensian poem, critical text
+  author: waldensians
+  locus: the poem begins 'O fraires, entende una nobla leiçon' after the title page; variants beneath
+    each verse group
+  atlas_ids:
+  - the-waldensians
+  role: tradition
+  confidence: provisional
+  note: A primary voice of the Waldensian communities in Old Occitan, from the Cambridge, Geneva and Dublin
+    manuscripts. Clean enough to quote once checked against the scan. The edition itself argues the poem's
+    date (1100 or 1400 by the manuscripts' readings), so composition date is contested; the date of the
+    manuscripts themselves is for the build to take from the edition's description. Morland's 1658 volume
+    on the shelf prints the poem with an English rendering (not collated with this edition); the 1888
+    Montet edition (French translation) is a second witness.

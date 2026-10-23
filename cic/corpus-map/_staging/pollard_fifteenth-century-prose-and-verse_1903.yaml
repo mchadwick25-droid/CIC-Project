@@ -1,0 +1,15 @@
+source_file: pollard_fifteenth-century-prose-and-verse_1903.txt
+
+assignments:
+  - row_id: pollard_fifteenth-century-prose-and-verse_1903--william-thorpe-examination-before-archbishop-arundel-1407-in
+    work: "William Thorpe, Examination before Archbishop Arundel, 1407 (in Pollard's Fifteenth Century Prose and Verse)"
+    author: pollard
+    locus: "the Thorpe piece and Pollard's note on the Wycliffite translations"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      A Lollard priest's own account of his interrogation, in Middle English. The rest of the volume does
+      not belong to this world. Thorpe's account is also in Foxe vol. III (already vendored) in modernised
+      spelling.

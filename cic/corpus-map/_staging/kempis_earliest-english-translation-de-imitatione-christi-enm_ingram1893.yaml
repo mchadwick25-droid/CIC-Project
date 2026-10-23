@@ -1,0 +1,35 @@
+source_file: kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893.txt
+assignments:
+- row_id: kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893--the-earliest-english-translation-of-the-imitation-of-christ-ed-john-k-ingram-eets-es-63
+  work: The earliest English translation of the Imitation of Christ, ed. John K. Ingram (EETS ES 63)
+  author: kempis
+  locus: the whole file; Ingram's introduction at the head
+  atlas_ids:
+  - devotio-moderna-brethren-of-the-common-life
+  role: tradition
+  confidence: provisional
+  note: The Devotio Moderna's central book in an early English translation by William Atkinson (died 1509,
+    per the host record), with Lady Margaret Beaufort also listed by the host. The voice is Kempis's own;
+    this is how it reached English readers. Placed on the host record and the edition's title without
+    reading the introduction; left provisional. Middle English OCR; second witness for wording.
+- row_id: kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893--the-earliest-english-translation-of-the-imitation-of-christ-ed-john-k-ingram-eets-es-63-2
+  work: The earliest English translation of the Imitation of Christ, ed. John K. Ingram (EETS ES 63)
+  author: kempis
+  locus: the whole file
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: context
+  confidence: provisional
+  note: The English translation of the Devotio Moderna's central book, near the end of the English mystics'
+    reading world. Placed on the region and on the translator's date of death without reading it for links
+    to the English mystics; left provisional.
+- row_id: kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893--the-earliest-english-translation-of-the-imitation-of-christ-ed-john-k-ingram-eets-es-63-3
+  work: The earliest English translation of the Imitation of Christ, ed. John K. Ingram (EETS ES 63)
+  author: kempis
+  locus: the whole file
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: context
+  confidence: provisional
+  note: An English devotional book from the last years of the window or just after. The household and
+    parish reach of this translation was not checked; left provisional.

@@ -20,3 +20,14 @@ assignments:
       editions either). An additional PD
       lead this world's own Source Readiness Dossier §3 identified beyond
       the census's own named sources.
+  - row_id: wyclif_tracts-and-treatises_vaughan1845--vaughan-john-de-wycliffe-richard-roll-the-hermit-of-hampole
+    work: 'Vaughan, John de Wycliffe: ''Richard Roll, the hermit of Hampole'' engaged in translating the
+      Psalter'
+    author: wyclif
+    locus: whole volume
+    atlas_ids:
+    - the-english-mystics-and-devout
+    role: context
+    confidence: provisional
+    note: 'One passing sentence at about file line 3285 on Rolle''s English Psalter, and an index entry
+      at about line 21884. Placed on that mention only; left provisional. Tier: same time-place.'

@@ -1,0 +1,36 @@
+source_file: craft-of-dying_book-of-the-craft-of-dying-and-other-early-english-tracts_comper1917.txt
+assignments:
+- row_id: craft-of-dying_book-of-the-craft-of-dying-and-other-early-english-tracts_comper1917--the-book-of-the-craft-of-dying-and-other-early-english-tracts-concerning-death-ed-f-m-m-comper
+  work: The Book of the Craft of Dying and other early English tracts concerning death, ed. F. M. M. Comper
+  author: craft-of-dying
+  locus: contents from file line 202
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: provisional
+  note: English tracts on dying well, in modern spelling. Placed on the subject and region; this pass
+    read the contents and sampled the text but did not date each tract. Left provisional.
+- row_id: craft-of-dying_book-of-the-craft-of-dying-and-other-early-english-tracts_comper1917--the-book-of-the-craft-of-dying-and-other-early-english-tracts-concerning-death-ed-f-m-m-comper-2
+  work: The Book of the Craft of Dying and other early English tracts concerning death, ed. F. M. M. Comper
+  author: craft-of-dying
+  locus: contents from file line 202
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: context
+  confidence: provisional
+  note: Includes a chapter from Rolle's Form of Living beside Suso and other devotional pieces on death.
+    Context for the world's reading culture; left provisional.
+- row_id: craft-of-dying_book-of-the-craft-of-dying-and-other-early-english-tracts_comper1917--craft-of-dying-collection-henry-suso-s-chapter-on-death-from
+  work: 'Craft of Dying collection: Henry Suso''s chapter on death from the Horologium sapientiae, in
+    Middle English'
+  author: suso
+  locus: whole volume
+  atlas_ids:
+  - rhineland-mysticism-and-the-friends-of-god
+  role: tradition
+  confidence: provisional
+  note: 'The collection prints ''a chapter by Henry Suso'' (file lines 217 and 260, and 1498: ''from Henry
+    Suso, in his Horologium Sapientiae''), an English reception of Suso in the fifteenth century. Tier:
+    same time-different region. Placed on those lines.
+
+    '

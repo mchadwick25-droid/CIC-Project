@@ -1,0 +1,3823 @@
+Title: Bogomili i Patareni (second part, printed in Rad Jugoslavenske akademije znanosti i umjetnosti, knjiga VIII, pp. 121-187; read to the Academy on 28 November 1868; "Vidi Rad VII str. 84-179")
+Creator: Dr. Franjo Rački (Racki), full member of the Yugoslav Academy of Sciences and Arts
+Publisher: Zagreb: Yugoslav Academy of Sciences and Arts (Rad, knjiga VIII), for sale at the bookshop of Fr. Župan; printed by Dragutin Albrecht
+Publication Date: 1869
+Rights: Public Domain
+Rights basis: pd-us-by-date. The title page of the volume in the scan reads "Knjiga VIII. U ZAGREBU 1869" (host file line 85); the host item record gives date 1869. The item record carries no possible-copyright-status or licence field.
+Language: hrv
+Source: Internet Archive item rad_jugoslavenske_akademije_znanosti_knjiga_8_1869 (archive.org/details/rad_jugoslavenske_akademije_znanosti_knjiga_8_1869), full-text file rad_jugoslavenske_akademije_znanosti_knjiga_8_1869_djvu.txt, fetched directly by the Library thread, October 2026. Contributor named in the OCR front matter: Cornell University Library (Google scan).
+Provenance note: Partial extract. Header prepended; the text that follows is lines 7086 to 10896 of the host file, copied unchanged and cut at the article's first line (the heading "Bogomili i Patareni.") and at the line before the next item ("Komparativna mitologija"). Nothing inside the extract was normalised, stripped, corrected, re-spaced or retyped. OCR sampled at 5, 50 and 95 percent of the extract: readable Croatian with scattered damage to diacritics and Latin footnotes.
+Content note: Partial extract: pages 121 to 187 of Rad VIII, the second part, running from Ban Stephen II Kotromanić and the Franciscans in Bosnia (1339 onward) to the fall of the kingdom and a closing comparison with Bulgaria. The first part is in the Rad VII extract and the third in the Rad X extract. The article is the standard nineteenth-century study of the Bosnian Church and the Bogomil and Patarene question; it is secondary scholarship, written before the identification of the krstjani with Bogomil dualists was rejected, and it quotes Latin and Slavonic sources in its notes and text.
+
+---
+
+Bogomili i Patareni. % 
+
+Čitao u sjednici filologičko-historičkoga razreda jugoslavenske akademije 
+znanosti i umjetnosti 28 studenoga 1868 
+
+PRAVI ČLAN DR. FRANJO RaČKI. 
+
+(Vidi Rad VII str. 84—179) 
+
+Uvjerivši se rimska stolaca, da je ovaj drugi put k cieli ne- 
+vodi, stupi s bosanskim banom Stjepanom u neposredni pregovor. 
+Papa naime Benedikto XII uputi u Bosnu god. 1339 o. Gerarda 
+obćega predstojnika (minister generalis) reda sv. Franje. Poslanik 
+bješe po kralju Karlu Robertu upućen na bana Stjepana, koj ob¬ 
+zirom na ovu preporuku Gerardu „podje u susret, častno ga na 
+putu primi, rado sasluša njegove rieči o istini katoličkoj, odkri 
+mu svoju želju, iz koje razabra poslanik, da bi ban drage volje 
+iztriebio sve u Bosni stanujuće heretike, kada bi ga u tom rimska 
+stolica i kralj ugarski pomogli; jer da mu je njihova podpora po¬ 
+trebita zbog razkolnika stanujućih uz Bosnu, koje bi oni heretici 
+pozvali u pomoć, kada bi doznali da jim radi o glavi. 441 Ovimi se 
+riečmi jasno razlikuju „heretici 44 od „schismatika 44 t. j. od članova 
+istočne crkve; a buduć se i sam ban Stjepan priznavao ovoj 
+crkvi, to se samo „Patareni 44 mogu ovdje razumievati pod imenom 
+„heretika. 4 * Ban se Stjepan izpričavao papinu poslaniku, što nije 
+progonio Patarena tiem, što se bojao, da bi oni u pomoć pozvali 
+
+1 Ap. Theiner: monum. Hung. I, 633: w quod idem banus tibi obviam 
+occurrens in via te honoranter recepit et a te verba catholice veri- 
+tatis et salutis libenter audivit, tibique aperuit propositi sui votum, 
+per quod eviđentius cognovisti, quod bonam voluntatem gerit ad 
+extirpanđum de principatu Bosnensi cunctos hereticos degentes 
+ibidem, dummodo nos et sedes apostolica et idem rex Ungarie šibi 
+super hiis favorabiliter assistamus, quorum favorem šibi opor- 
+tunum existimat propter scismaticos, quos habet sue 
+terre vicinos, quorum scismaticorum a u x i 1 i u m dicti 
+heretici invocarent, si se de terra predicta cogno 
+scerent extirpanđos. w 
+
+
+Digitized by <^.ooQle 
+
+
+
+122 
+
+
+FR. RAČKI. 
+
+
+susjedne nekatolike t. j. Srbe, pak je s tim u savezu obrekao, da 
+će iztriebiti ove heretike u svojoj banovini, ako bi poduprt bio 
+vojskom sa strane Ugarske i rimske, te ovako obezbjedjen bio 
+proti Srbiji. U ovoj je državi vladao tada poslije god. 1336 kralj 
+Stjepan Dušan. Ugarski kralj je već onda Stjepana držao svojim 
+i svoje kraljevine javnim neprijateljem, 1 a glavnim predmetom 
+ovoga neprijateljstva bijaše upravo Bosna i Hum, na koje je 
+srbski vladalac bio bacio svoje oči. S toga nije bila bez razloga 
+ona bojazan bana Stjepana, da bi se kralj srbski rado bio umiešao 
+u razmiricu bosansku, kada bi ga Patareni, proganjani od svoga 
+vladaoca radi vjere, dozvali bili u pomoć, tim više što kralj Stjepan 
+nebijaše onda prijatelj ni rimskoga ni ugarskoga dvora, j 
+
+Poslanik Gerardo izviesti rimsku stolicu o svojem sastanku 
+s bosanskim banom i o njegovoj izjavi. Papa Benedikto XII upravi 
+usljed toga dne 28 veljače 1340 jedno pismo na bana Stjepana, 
+drugo na ugarskoga kralja K. Roberta, a treće na svoga poslanika 
+Gerarda, 2 te jih ovomu priposla kroz malobraćanina Petra iz Otranta. 
+Papa hvali u pismu bana, što se pripravnim očitova sudjelovati, „da 
+se bogoštovje u banovini bosanskoj uzpostavi, kojega je, kako se 
+veli, zbog mnogih ondje stanujućih heretika nestalo, te da se sve 
+crkve, koje su sada srušene i zapuštene, podignu i poprave . u Onda 
+poziva bana, da ostane kod svoje proti heretikom namjere, stavljajuć 
+mu pred oči, „koli opasno može biti za nj i za njegove nasljednike, 
+ako bi se u Bosni oni krivovjerci i na dalje javno trpjeli. Napokon 
+mu obećaje svoju pomoć obričući, da će pozvati tako ugarskoga 
+kralja kako ostale pravovjerne bližnjih zemalja, neka mu idu na 
+ruku u tom podhvatu; a da ostale svoje želje može ban odkriti 
+posebnimi poslanici svojimi. Ovo je pismo papa u priepisu priobćio 
+ugarskomu kralju pozivajuć ga, da banu pomogne „načinom, putem, 
+nastojanjem, savjetom i podporom, kako bi isti ban mogao u Bosni 
+izkorieniti zastarjelu ondje kužnu bolest krivovjerske opačine i 
+opet u nju bogoštovje uvesti . u 
+
+Ovo nastojanje rimske stolice urodi tim plodom, da je bo¬ 
+sanski ban Stjepan pristupio „u jedinstvo sv. rimske i katoličke 
+
+1 Papa napominje u svojem pismu od 27 veljače 1339 ovo: w cum 
+autem idem rex (Carolus), sicut nuper per suas litteras nobis scripsit, 
+asserat propter vi čini ta tem regis Rascie scismatici, ac publici hostis 
+regis eiusdem . . .“ Ibid. p. 631. 
+
+2 Pisma ondje na str. 632 — 34. 
+
+
+Digitized by Cjoogle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+123 
+
+
+i apostolske crkve 4 *, 1 i da su mnogi njegovih podanika obraćeni 
+„na vjeru katoličku 4 *. 2 Ovaj se uspjeh upisuje u zaslugu papinu 
+poslaniku o. Gerardu i njegovim suredovnikom, od kojih se pohvalno 
+napominje o. Ivan de Aragonia. 3 4 5 Nigdje se ne nalazi traga, da bi 
+dvor ugarski bana bio pomagao, ili da bi se vladalac srbski, kao 
+što se Stjepan bješe bojao, bio umiešao u taj vjerozakonski prekret. 
+Oba su kralja imala tada drugoga posla; Karlo bješe upleten u 
+poljsku i austrijsku razmiricu, pa se malo kašnje (16 srpnja 1342) 
+s ovoga svieta prestavi. Stjepan Dušan bješe upravo tada za¬ 
+metnuo krvave ratove s grčko-iztočnim carstvom, pa bi bio težko 
+mogao Patarenom pomagati, da su ga ovi i pozvali bili, o čem u 
+ostalom neima nigdje spomena. 
+
+Prielazu bana Stjepana j obraćenju mnogih podanika njegovih 
+mogla si doisto rimska stolica čestitati, kao što je papa Klement V 
+pismom od 1 listopada 1344 upravljenim banu 4 i učinio. Sada 
+se bosanski biskup Lovro mogao u Bosnu vratiti i nastojati oko 
+zapuštene stolne crkve; i makarski biskup, u bosanskom primorju, 
+mogao posjesti svoju biskupiju, koju su osim Omiša držali „ne¬ 
+vjernici** do dvadeset godina. Ali sve ovo bješe tek početak; niti 
+je u Bosni nestalo Patarena, niti pravoslavje utvrdjeno. Sada je 
+pastao glavni posao. Stjepan je sa svoje strane sve učinio, što je 
+smjeralo na utvrđjenje vjere i ćudorednosti. Bosanskomu biskupu 
+povrati stari prihod, imenito desetine u Usori, Soli i dolnjih kra- 
+jevih, da uzmogne držati božje hramove. Ali glavni je trud spao 
+na bosanske Franjevce, kojim je poslije Gerarda, postavšega medju 
+tim antiohijskim patrijarom, starješinom bio o.JPeregrin de Saxonia, 
+Ali taj namjestnik (vicarius) reda imaše malo pomoćnika. Ban 
+Stjepan išao mu na ruku kao što svjedoči njegovo pismo, 5 uprav¬ 
+ljeno početkom god. 1347 kroz banova poslanika kapetana Gjuru 
+
+1 U poslanici papinoj ondje na str. 675: „te vero fidei luče perfusum 
+ac imbutum doctrina evangelice veritatis ad unitatem s. romane 
+et catholice ac apostolice ecclesie avocavit. Ove 
+rieci svjedoče, da je ban Stjepan prije bio iztočne crkve a nipošto 
+Pataren. 
+
+2 Ibid. p. 671. 
+
+3 Wađing op. cit. XII, 231 seq. 
+
+4 Ap. Theiner: op. cit. I, 675. 
+
+5 I, Šafarik: monum. arch. veneti. Glasnik XI, 412 —16. Vieće je 
+mletačko taj list poslalo dne 3 travnja r. g. preko Amadea, biljež¬ 
+nika u rimskoj kuriji. 
+
+
+Digitized by <^.ooQle 
+
+
+
+124 
+
+
+FR. RAČKI. 
+
+
+de Berito inače de Cipro preko mletačke republike na rimsku 
+stolicu. U ovom pismu moli ban papu Klementa V, da bi Pere- 
+grinu poslao u pomoć „suposlenik&, koji nauk vjere poznaju i koji 
+su vješti slovinskomu jeziku (linguae sclavicae) ili bi mu se bar 
+mogli naučiti ; u nadalje da se istomu vikaru dozvoli da može sam 
+u pomoć pozvati redovnika i svećenika, te da se tako vikaru kako 
+i njegovim pomoćnikom dadu sve one povlasti, koje se davaju 
+svećenikom, „rađećim medju Tatari i nevjernici ili razkolnici za 
+razširenje vjere, pošto oni u istom poslu uz jednaku pogibelj ne s 
+manjim trudom rade u Bosni ; w imenito da ovi redovnici smiju 
+obćiti i^ s onim pukom, koj bi izobćen bio. Znamenito je u ovom 
+pismu i to, što ban moli, da se vikaru dozvoli smjestiti obraćenike 
+(neophitos) u oveće samostane, gdje bi se njeko vrieme poduča¬ 
+vali „u slovnici latinskoj i u nauci sv. rimske crkve. u Na dalje je 
+ban Stjepan želio, da se uprava crkve u Bosni usredotoči; s toga 
+nije dopustio, da kotorski biskup izvršuje pastirsku vlast u Humu, 
+Sani, Lipniku i u drugih prieđjelih i mjestih prama Savi, Dunavu 
+i Drini na srbskoj granici, kao što je biskup Sergio oslanjajuć se 
+na stare povlasti zahtievao. 1 A ovu je upravu Stjepan najradije 
+vidjao u ruku reda sv. Franje, koj se upravo tada najviše u 
+Bosni širio te iz nje u susjedne zemlje. S toga je ban god. 1348 
+apost. stolici preko mletačkoga vieća preporučio pomenutoga Pe- 
+regrina za biskupa bosanskoga 2 mjesto Bon-Ivana, prenesenoga na 
+biskupiju u Fermo. Ovu je preporuku papa Klemente VI uvažio 
+imenovav pohvaljenoga o. Peregrina pismom od 28 siečnja 1349 
+bosanskim biskupom. 3 
+
+Ovi izvodi svjedoče dovoljno, kako je ban Stjepan poslije 
+svoga prielaza kat. crkvi i rimskoj stolici išao svagdje na ruku, 
+gdje j e niogao. Ovu je pripomoć sa strane državne vlasti umio 
+biskup Peregrinus u toliko upotrebiti, da je u kratko vrieme ve¬ 
+liko mnoštvo naroda prešlo u kat. crkvu; a da je medju ovimi 
+bilo takođjer Patarena, može se s razlogom naslućivati. 4 I ono što 
+
+1 Theiner: monum. Slav. merid. I, 216. 
+
+2 J. Šafah'k op. cit. p. 433. 
+
+3 Monum. Hung. I, 768. 
+
+4 Wađing op. cit. Potvrdjuje ugarski ljetopis Ivana Turčanskoga (Chron. 
+Hung. P. III. c. 47) ovimi riečmi: „Paterini de Bozna, qui ni- 
+mium erant multiplicati et diversis erroribus et diversis erroribus im- 
+plicati per d. Peregrinum, episcopum Boznensem, ord. min. virum 
+magnae đevotionis et scientiae, rege (Luđovico) commonente, conver- 
+
+
+Digitized by <^.ooQle 
+
+
+
+
+
+BOGOMILI I PATARENI. 
+
+
+125 
+
+
+se u susjednoj Srbiji pripravljalo, bijaše podobno poduprieti nasto* 
+janja bana Stjepana i biskupa Peregrina. Silni naime srbski car 
+Stjepan Dušan, kao što skadarski biskup Marko izviesti rimsku 
+stolicu, bješe se kat crkvi u toliko približio, da se u Avignonu 
+već zače nada u sjedinjenje srbske s rimskom crkvom; pa se 
+papa Klemente VI poslanicami od 2 ožujka 1347 obrati na careve 
+pouzdanike, protovestijara Nikolu Buću, cesara Grigorija, kneza 
+kotorskoga Mihajla i skadarskoga Petra i barskoga kapetana, da 
+sklone svoga gospodara na sjedinjenje uvjerav ajuć jih, kako će ga 
+rimska stolica „primiti razširenima rukama i ljubeznimi cjelovi. wl 
+Prem car Stjepan tek poslije sedam godina (1354) sam zapodjenu 
+pregovore s rimskom stolicom: 2 to nam ipak sve ovo svjedoči, 
+da je u srbskom dvoru nestajalo u ono doba onih oprieka izmedju 
+jedne i druge crkve, kojih prošle dobe nalazimo; a ovo približenje 
+k zapadnoj crkvi u Srbiji, koje se već u Bosni izvelo, oduže Pa¬ 
+tarenom nadu u pomoć s one strane, u koju su se oni po uvje¬ 
+ravanju bana Stjepana prije uzdali. 
+
+Patareni oćutiše udarac i na drugom kraju bosanske kralje¬ 
+vine, koj bude sada od nje odieljen. Dubrovačka naime obćina 
+dobi ugovorom od 15 ožujka 1333 od bana Stjepana „Rat, Ston, 
+Prevlaku i otoke, koji su okolo Rata i vse, što je od Prevlake do 
+Loišća W3 t. j. sav stonski rt ili poluotok Pelješac. Stanovnici ove 
+zemlje bijahu to pravoslavni to Patareni, dočim se katolikom ne- 
+nalazi traga. 4 Za iztočno-pravoslavnu vjeru pobrinu se srbski kralj 
+Stjepan Uroš, koj potvrdivši dne 19 svibnja r. g. onaj odstup iz- 
+hodi od vieća dubrovačkoga za stanovnike ove crkve podpunu slo¬ 
+bodu vjeroizpoviesti. 5 Ali Dubrovčani posjednuvši poluotok nebri- 
+nuše se mnogo za ovu obvezu, te držeć katoličku vjeru za vlada- 
+juću u cieloj oblasti svojoj nastojaše oko obraćenja tako pravo- 
+
+tuntur et baptizantur. w Ova posljednja rieč takodjer svjedoci, da 
+se je u Ugarskoj dobro razlikovalo izmedju sljedbenika iztočne crkve 
+i izmedju Patarena, koje je valjalo pokrstiti, kada su se obratili, jer 
+u njih nije bilo kraćenja. 
+
+1 Theiner: monum. Hung. I, 734. 
+
+2 Cf. ibid. II, 8. 11 — 16. 
+
+3 Povelja kod Miklošića: monum. serb. p. 105 —107. 
+
+4 Svjedoči spomenica od god. 1394 kod Farlatia: Illyr. sacr. VI, 335. 
+
+5 Ibid. p. 108: ,,H «€i|I€ ce C8 2£AKil€AH KpAA€BbCTB8 MH BAACT6A6 £8- 
+BpOBbYbCI|H, np’KBHBA nOllb CftbEbCKH, H nOI€ B l)fkhKBA]Cb, KOI€ 
+CB 8 CTOHB H B PbTB, KAKO l€CTb nOBBAKBAAb Kf>AA€BbCTBO MH.“ 
+
+
+Digitized by <^.ooQle 
+
+
+
+126 
+
+
+FR. RACKL 
+
+
+slavnih kako Patarena. U tu svrhu predaše bosanskim Franjevcem 
+samostan navještenja u Stonu, u kora su prije kaludjeri sv. Va- 
+silija stanovali, a za tiem jim ondje sazidaše samostan sv. Nikole. 1 
+Franjevci su dakle, poduprti dubrovačkom oblasti, priveli pravo¬ 
+slavne i Patarene onoga poluotoka u kat. crkvu tako, da je ova 
+koncem stoljeća ondje posvema vladala. 2 
+
+Dva su ipak dogadjaja do skora imala oživjeti nade Pata¬ 
+rena bosanskih, smrt naime bana Stjepana i biskupa Peregrina, od 
+kojih prestavi se 3 prvi dne 28 rujna 1353, a drugi dne 28 siečnja 
+1356. Paregrinu je odmah po bosanskom kaptolu izabran nasljednik 
+u osobi njegova štioca kanonika Petra; ali rimska stolica, držeć 
+ovim izborom svoje pravo povriedjeno, iz prva nehtjede Petra po¬ 
+tvrditi, što ipak učini obzirom na okolnosti biskupije pismom od 
+28 veljače r. g. podieliv mu drugim pismom od 7 srpnja dozvolu, 
+da se može rediti po svakom kat. vladici. 
+
+Crkva katolička u Bosni dobi u Petru svoju crkvenu glavu; 
+ali ona nije više nalazila u državnoj oblasti one podpore, koju 
+nadje posljednjih godina Stjepanova banovanja. Novi ban, Stjepan 
+
+1 Vidi pismo pape Klementa VI od 21 ožujka 1347 kod Theinera: 
+monum. Hung. I, 736. Istim su pismom bosanski Franjevci dobili 
+dozvolu, da se smiju u Djakovu nastaniti. 
+
+2 Spomenica kod Farlatia loc. cit.: „cum illa terra (Puncta Stagni) 
+antequam perveniret ad manus dominorum de Ragusio, fuerit subjecta 
+schismaticis et Patarenis per annos forte trecentos, nec erat mentio 
+ibi de cultu catholicae fidei; immo caloghieri et sacerdotes rasciani 
+ibi habitabant . . . Sicut catholici fidem ibi romanam plantaverunt et 
+propterea collocaverunt fratres predictos, et locum eis construxerunt, 
+qui fratres, dei gratia operante, populum illum converterunt et bap- 
+tizaverunt . . .“ 
+
+3 Za Stjepana svjedoči povelja njegova nasljednika bana Tvrdka od 
+1 lipnja 1376 (MikloŠić: monum. serb. p. 176), u kojoj se veli, da 
+je god. 1367 „Nauieiiv rocno^bcres .&i. hhto“, dakle 1367 — 14 
+= 1353. Što se u dubr. ljetopisu (kod Makuševa: Izsljeđovanija ob 
+istoričeskih pamjatnikah Dubrovnika str. 323) piše: „1353 mori ii 
+re (bano) di Bosnia a 18 settembre u , bit će 1355 pogreška mj. 
+1353 t. j. 5 mj. 3, tim više, što se u ljetopisu od god. 1351 pre¬ 
+lazi odmah na onu godinu. Ban Stjepan bješe sahranjen u franjev. 
+samostanu u Maleševu. — Peregrin se još 26 kolovoza 1355 živ 
+napominje (u povelji Ljudevita I kod Katone: Hist. reg. Hung. X, 
+140), dočim se u listini od 6 veljače 1356 Čita: „Bosnensi sede 
+vacante u (ib. p. 154). U martirologiu reda (Farlati: Illyr. sacr. IV, 
+60) slavi se spomen ovoga biskupa dne 28 siečnja, koj je dan ja¬ 
+mačno bio dan njegove smrti. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI 
+
+
+127 
+
+
+Tvrđko, rodjen od Vladislava, brata pokojnoga Stjepana, i Jelene 
+Šubićke, sliedio je vjeru svoga otca t. j. iztočnu crkvu, te je ova 
+ne samo u Bosni podupirana bila državnom vlašću, nego si tiem 
+nov ugled i upliv steče. Neuspjeh dogovora izmedju rimske sto¬ 
+lice i srbskoga dvora o sjedinjenju 1 utvrdi položaj iztočne crkve 
+u Bosni. Istina je, da se u to doba zametnulo obraćanje svuda 
+kamo je slavodobitno oružje ugarsko - hrvatskoga kral ja Ljude¬ 
+vita I dopiralo, te da se ono osobito u Bugarskoj ne bez uspjeha 
+u veliko tjeralo. I o tom nemože biti sumnje, da je isti Ljudevit 
+već u interesu svoje politike nastojao oslabiti iztočnu crkvu u 
+Bosni, s koje vladaocem bijaše dne 17 srpnja 1356 uglavio za se 
+toli povoljan ugovor. 2 Ovo nam se i tiem potvrdjuje, što je banov 
+brat Stjepan Vuk, koj je u smislu onoga ugovora boravio u kr. 
+dvoru ugarskom, doista ne bez ovoga upliva prešao na kat. vjeru. 
+Ova razlikost u vjeroizpoviesti razdvoji još više braću, politikom 
+i onako razdvojenu, te obstojavšu razmiricu poveća u toliko, da 
+je mladji brat pobjegao u Dubrovnik 3 i zaprosio posredovanje 
+rimske stolice. 
+
+Ovo posredovanje prihvati rimska stolica tim radije, što joj 
+bješe podjedno doglašeno, da ban Stjepan Trvdko „sliedeć odurne 
+stope svojih praroditelja, koji su bili većinom razkolnici i krivo¬ 
+vjerci, goji i brani heretike, stičuće se u Bosnu, kano gnjusno ste- 
+čište, s raznih strana svieta; u dočim njegov brat Vuk „mrzi ove 
+heretike te bi jih rado uništio, kada bi to do njega stalo . u Rimskoj 
+se dakle stolici nije moglo na ino nego podupirati Stjepana Vuka, 
+kano katolika („vir catholicus“). S toga je papa Vrban V pismom 4 
+od 14 prosinca 1369 preporučio Vuka kralju Ljudevitu i umolio 
+ga, da nastoji bana obratiti i odvratiti od podupiranja i štićenja 
+heretika, te s bratom pomiriti i izravnati. U drugom pismu, uprav¬ 
+ljenom Stjepanu Vuku, 5 očituje mu papa svoje sažaljenje, što toliko 
+trpi „radi boga i revnosti za svoju vjeru katoličku , w nagovara ga 
+
+1 Osim papinih listina kod Theinera (loc. cit.) vidi Philippi Mazerii: 
+
+Vita s Petri Thomasii. Antverpiae 1659, odlomak priobćen po Gj. 
+
+Daničieu u Glasniku srbskoga uč. društva sv. XXI, str. 279 — 88. 
+
+2 Vidi moje djelo: Pokret na slavenskom jugu koncem XIV i početkom 
+
+X-V stoljeća str. 20. 
+
+3 Svjedoči pismo dubrovačko od 10 veljače 1415 kod Pučiea op. cit. 
+
+I, 126. 
+
+4 Ap. Theiner: monum. Hung. I, 91. 
+
+5 Ibid. p. 91. 92. 
+
+
+Digitized by <^.ooQle 
+
+
+
+
+128 
+
+
+FR. RAČKI. 
+
+
+na strpljivost, i uvjerava ga o svojoj privrženosti, koje budi mu 
+svjedokom preporučno pismo na ug.-hrv. kralja. 
+
+Odavle se vidi dosta jasno, da je ban Tvrdko, upravo kano 
+što njegov stric i predšastnik prvih godina svoga banovanja, trpio 
+Patarene; a ova se njegova snošljivost naprama ovim podanikom 
+druge vjere smatrala očitom zaštitom. Banovu si snošljivost mo¬ 
+žemo Jasno protumačiti: jedno, što kano sljedovatelj iztočne crkve 
+nije si držao za dužnost podupirati onu stranu, koja je već drugo 
+stoljeće nastojala oko obraćenja Patarena; drugo još važnije, što 
+je ban Tvrdko vjerozakonske odnošaje u svojoj zemlji motrio 
+s državnoga gledišta, a ovo mu je savjetovalo, da nepodpiruje 
+vjerozakonskih strasti i nezamiće vjerozakonskoga rata. Ban Tvrdko 
+sam jednom izkusi gorke posljedice gradjanskoga rata, kada mu 
+bijaše (1366) s majkom si Jelenom ostaviti djedovinu, te u nju se 
+vratiti tudjom pomoćju. 1 Osim toga bilo je banu Tvrdku gojiti u 
+zemlji mir i pribrati sve narodne sile, da s jedne strane slaba mu 
+država ne izazove Turčina, koj se poslije bitke na Tainarosu 
+(1371) i osvojenja Niša (1375) njezinim granicam bio približio, a 
+da s druge strane uzmogne u život privesti onu od davna gojenu 
+želju, koju izvede god. 1376 vjenčavši se u Mileševu kraljevskom 
+krunom i proglasivši se kraljem „Srbljem i Bosni i pomorju i za¬ 
+padnim stranam, tt2 čim učini Bosnu jezgrom nove neodvisle jugo¬ 
+slavenske države. 
+
+i/ 
+
+Ova je politika Stjepana Tvrdka išla dakako u prilog Pata¬ 
+renom bosanskim. Ne zna se, koliko su oni sa svoje strane podu¬ 
+pirali svoga gospodara u postizanju njegovih velikih političkih 
+svrha; ali ovo je bez sumnje, da su oni uživali u Bosni podpunu 
+vjerozakonsku i gradjansku ravnopravnost. Služeć se Patareni ta¬ 
+kovim u domovini položajem, prelazili su preko granica u su¬ 
+sjednu Dalmaciju i Dubrovnik tjerajuć trgovinu s njezinim kato¬ 
+ličkim stanovničtvom, koje se bez obzira na crkvene propise dobro 
+pazilo s ovom svojom inovjernom rodnom braćom. Bosanski su 
+heretici u Dalmaciji i po dubrovačkoj zemlji slobodno prolazili 
+kroz gradove i sela, te ondje silazili u kuće i zemljišta pravo¬ 
+vjernih kršćana. S toga se dogadjalo, da su oni „često u prosto- 
+dušnih umovih sijali sjeme smrtonosno .“ Patareni su pače, kako 
+
+1 Vidi Pokret na slav. jugu str. 20. 
+
+2 Ibid. p. 21. 22. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMIIJ I PATARENI. 
+
+
+129 
+
+
+nam spljećanin Kuten pripovieda, 1 umjeli u svojem revnovanju i 
+prozelitstvu upotriebiti naravne pojave i nepogode zračne, koje su 
+se god. 1366 ukazale u Bosni, za dokaz, „kako bog ljubi nji¬ 
+hovu vjeru. 44 
+
+Ovakovo obćenje katolika s heretici probudi sablazan u cr¬ 
+kvenih krugovih, te bude u Rim doglašeno. S toga papa Vrban V 
+sjeti pismom 2 od 13 studenoga 1369 nadbiskupe spljetskoga i du¬ 
+brovačkoga onih crkvenih propisa, kojimi se katolikom pod kaznom 
+izobćenja zabranjuje „trgovinu tjerati 44 s krivovjerci; pak naloži 
+objema pastirima, da svojim vjernim zabrane nositi trg „u rečene 
+strane bosanske, gdje se poraenuti heretici očevidno štite 44 ; pače 
+da proti ovakovim krivovjercem, kada dodju u spljetsku ili du¬ 
+brovačku nadbiskupiju, postupaju po zakonu, i pozovnu, ako je 
+od potrebe, svjetsku vlast u pomoć. 
+
+Dočim su dakle Patareni u vrieme bana Stjepana Tvrdka 
+slobodno svoju vjeru u Bosni izpoviedali, pače pravovjerne u 
+Dalmaciji i Dubrovniku zavadjali: onda nećemo se čuditi, što je 
+rimskoj stolici bilo prijavljeno, da je Bosna postala stečištem kri¬ 
+vovjeraca sa sviju strana svieta. 3 I zbilja nalazimo, da su tali¬ 
+janski Patareni upravo za vladanja Stjepana Tvrdka često doha- 
+djali u Bosnu. Na zapadu se bješe ova sekta sačuvala uz Valdezku 
+jedino u gornjoitalskih alpah, gdje se bješe povukla u hladne do¬ 
+line od Agrogne, Perose, S. Martina, u doline rieke Pada, Magne, 
+Pregelata i Suše. U ovu planinsku zabit bijaše težko doprti in- 
+quisitorom, pa koji onamo dodjoše, izvrgoše se pogibelji života, 
+kao što izkusiše Antonio Pavo i Bartolomeo da Cervere. Ali poje¬ 
+dini inquisitori nisu se niti ovom opasnosti zastrašili; takav bijaše 
+
+1 Summa historiar. c. III: „De anno d. nostri Jesu Christi MCCCLXVI 
+in vigilia s. Catharinae Virginisin partibus orientalibus coelestis ignis 
+maximus de hora tertia in coelo cum intensa luče apparens terribi- 
+liter universo orbi; tune tempore dicunt, quod in Bosna maximos 
+montes cum omnibus lapidibus, animalibus, brutis, feris ac avibus 
+mirabiliter cremavit et combussit, ita ut illi montes in planities con- 
+versi sunt, et ad praesens ibi seminant segetes. Et suntibipo- 
+sitae et situatae multae villae, et ibi manent Pata¬ 
+reni Bosnensium, qui dicuntur Manazei, et ipsi dicunt, quod 
+deus cremavit et combussit illos montes ad utilitatem ipsorum, quia 
+deus diligit fidem ipsorum . . .“ 
+
+2 Theiner: monum. Slav. merid. I, 265. 
+
+3 Ap. Theiner: monum. Hung. II, 91: „haereticos ad illas partes, quasi 
+ad sentinam foetidam de diversis mundi partibus confluentes . . . a 
+
+r. j. a. vra. 9 
+
+
+Digitized by <^.ooQle 
+
+
+
+130 
+
+
+FR. KACKI. 
+
+
+„fr. Antonius de Septo de Savigliano, ordinis fr. predicatorum, 
+inquisitor haeretice pravitatis in Lombardia superiori et marchia 
+Januensi. u Taj inquisitor započe u ožujku 1387 iztragu u Pine- 
+rolu, nastavi u rujnu u Chieriu, u listopadu u Astiu itd. Zname¬ 
+nita je za nas iztraga, koju taj dominikanac povede 23 srpnja i 
+21 kolovoza r. g. u Turinu u biskupskom dvoru pred nadpopom 
+Ivanom i kanonikom Simoninom. Na sudu je stajao Jakov Bech 
+iz Chieria. On je medju ostalima izpovjedio, da je bio po prilici 
+god. 1378 pozvan po Jocerinu de Palata i Petru Patriziu iz Chieria, 
+„i njekom drugom iz Slavonije, kojemu se imena nesjeća, ne bi li 
+htjeo pristupiti u njihovu sljedbu i vjeru, u kojoj se duša može 
+spasiti; a on da jim odgovori, da bi rado čuti njihovu nauku, pa 
+da će učiniti i vjerovati, što god žele, ako bi vidio da je njihova 
+nauka bolja od rimske . u Na pitanje iztraživaoca: što su oni zavo- 
+ditelji učili, izpripovjeda obtuženik sve glavne članke vjere, iz 
+kojih se razgovjetno razabire nauka katarsko-patarenska, kano što: 
+„quod deberet credere, quod deus non creavit seu 
+fecit aliquamrem visibilem, sed mundus iste et 
+omnia alia visibilia a diabolo, qui cecidit de coelo, 
+erant creata et facta . . item quod non est credendum duo- 
+decim articulis fidei, nec in septem sacramentis ecclesiae; item 
+quod crux non est adoranda . . , u Saslušavši ovu nauku zavjeri 
+se Jakov svojim učiteljem, da pristaje uz njihovu vjeru. — U 
+tom očitovanju za nas je znamenito, što je po njem njeki Pataren 
+„de Sclavonia, u kojemu si imena nije Talijanac zapamtio, bio prije 
+desetak godina u gornjoj Italiji; te se ondje svojim jednovjercem 
+pridružio, da zavede tamošnje katolike, a medj ovimi rečenoga 
+gradjana iz Chieria. Ovdje imamo opet nov primjer, da su Pata¬ 
+reni iz balkanskoga poluotoka dolazili medju svoje jednovjerce 
+8 one strane jadranskoga mora. Ali i protivan saobraštaj nalazimo 
+u dalnjem očitovanju pomenutoga obtuženika. On naime izpovjedi, 
+da je „tomu blizu 10 godina, što je od istoga Petra Patrizia bio 
+odaslan u Slavoniju, da ondje savršeno i podpuno nauči 
+nauku od uči telja stanujućih ondj e u mj estu, koje se 
+Bosna zove, i taj je gospodin pod kraljem raškim. A 
+rečeni Petar dade mu (na put) deset forinti, i dodje do blizu Tane 
+i ne podje dalje radi zla vremena ili nepogode na moru, i vrati 
+se u Chieri. w Koliko je Jakov imao nejasne pojmove o Bosni i nje¬ 
+zinu naprama Srbiji odnošaju, toliko ipak iz ovoga očitovanja sliedi, 
+
+
+
+Digitized by <^.ooQle 
+
+
+BOGOMILI I PATARENI. 
+
+
+131 
+
+
+da je on poslije svoga k Patarenom prielaza upućen bio na pata- 
+renske učitelje u Bosni, i da su talijanski Patareni bosansku crkvu 
+držali svojom učiteljicom i skladištem zajedničke vjere. Ovo nam 
+mjesto, u kojem se pod Slavonijom razumjeva skdp ^ižno-slovenskih 
+zemalja, a u njih Bosna kano zemlja, u kojoj su stanovali učitelji 
+patarenski, podjedno razjasnjuje porietlo onoga patarena „de. Sela- 
+vonia, w koj po tom nije bio iz ni jedne druge južno-slovenske 
+zemlje nego iz Bosne. Jakov nije bio prvi talijanski pataren, koj 
+je bio u Bosnu upućen. On je sam, upitan od inquisitora: je da li 
+još tko drugi podje „na rečeno mjesto da taj nauk nauči, w umjeo 
+odgovoriti, da su u ovu svrhu bili u Bosni: Moreto Rabellator iz 
+Chieria prije 40 po prilici godina, okd 1347, Ivan Narro i Gra¬ 
+nom Bencio ok6 1360, rečeni Petar Patrizi oko 1377, Berardo 
+Rascherio okd 1380, te Petrov brat Jaeobini okd 1382; a da ovo 
+znade iz njihovih ustiju. 1 
+
+1 Iz rukopisa u rimskoj dominikanskoj kasanatskoj knjižnici, zabilježena u 
+zapisniku D. III, 18: processus contra Waldenses in Lombardia supe- 
+riori a. 1387. Izdade ga pod ovim naslovom, koj u ostalom sadržaju 
+neodgovara, te bi bolje glasio „contra Catharos M ili „Patarenos u , 
+Grirolamo Amati u Archivio storico italiano. Firenze 1865. Ser. III, 
+tom. I, parte 1. 2. Iz njega vadim sljedeća mjesta; „Dicit (Jacobus 
+Bech), quod a. d. MCCCLXXVIII vel circa invitatus fuit per Joce- 
+rinum de Palata et Petrum Patritii de Chere et quenđam alium 
+de Sclavonia, cuius nomen ignorat, si volebat esse de secta et 
+credentia ipsorum, qui haberet salutem anime . . . Quibus respondit, 
+quod volebat audire doctrinara ipsorum, et si viđeretur šibi melior 
+quam doctrina romane ecclesie, quod ipse faceret et crederet, quic- 
+quid volebant . . . Item dicit dictus Jacobus deponens, quod modo 
+sunt 10 anni vel circa, quod fuit missus per Petrum Patritii pre- 
+dictum in Sclavonia pro doctrina predicta integraliter 
+addiscenda et perfeete a magistris ibidem commoran- 
+tibus in loco, qui dicitur Boxena, qui locus subest 
+cuidam domino, qui vocatur Albanus (i. e. al, el-banus) de 
+Boxena, et subest dictus dominus regi Rassene; et dedit 
+šibi dictus Petrus 10 florenos, etfuitusque prope Tanam, et non tran- 
+sivit ultra propter malum tempus seu fortunam, quam invenit in mari, 
+et reversus est Chere. Interrogatus si scit aliquos de Chere, qui 
+iverunt ad dictum locum pro dicta doctrina adiscenda, respondit: 
+quođ sic; infrascripti videlicet: Moretus Rabellator de Balbis, de 
+Cherio Tjuondam, et sunt XL anni elapsi vel circa quibus ivit, Jo- 
+hannes Narro et Granomis Bencius MCCCLX vel circa fuerunt, Petrus 
+Patritii fuit anno MCCCLXXVH vel circa, Jacobinus eius frater fuit 
+a. MCCCLXXXn vel circa, Berardus Rascherius fuit a. MCCCLXXX 
+
+♦ 
+
+
+Digitized by CjOOQle 
+
+
+
+132 
+
+
+KR. RAČK1. 
+
+
+Ovoliko je talijanskih Patarena kilo došlo u Bosnu samo iz 
+piemontezke varošice Chieri; a jamačno bijaše iz drugih takodjer 
+mjesta takovih hodočastnika, koji su se u daleku Bosnu uputili, 
+da ondje od tamošnjih učitelja patarenskih slušaju čistu nauku 
+svoje vjere. E$o za što je u Rimu bila Bosna u vrieme vladanja 
+Tvrdkova ozloglašena kano „sentina foetida 0 , u kojoj se stiču ta¬ 
+loži krivo vjerstva. 
+
+Opisavši ovako stanje patarenskc heresije u Bosni za prvih 
+deseto-godišta druge polovice XIV stoljeća trieba da navedemo, 
+što se je u isto doba proti njoj radilo od protivne strane. 
+
+Papa Inocencio VI, sliedeć stope svojih pređšastnika, nadaše 
+se pomoći od ugarsko-hrvatske krune, kano suverene nad Bosnom 
+vlasti. Papa se mogao nadati u Ljudevita, od kako ovaj već g. 1356 
+zamoli rimsku stolicu kroz svoje poslanike, Petra biskupa od Pati 
+i Stjepana biskupa zagrebačkoga, da dade propovieđati križarsku 
+vojnu proti „Urošu, koj se kraljem raškim nazivlje, 0 te da njemu 
+podieli vojvodstvo ove vojske. Prihvativ papa ovu prigodu pozva 
+Ljudevita pismi od 11 i 18 kolovoza r. g. da „prije svega iztjera 
+krivovjerce iz Bosne i drugih strana svoje kraljevine, 0 jer da on, 
+„koj odluči svladati krivovjerce u daljih stranah, ne može jih 
+ostaviti u njedra svoje kraljevine. 01 Kako bi papa Ljudevita na 
+ovaj predlog laglje sklonuo, odvraćaše pismom od 17 srpnja mle¬ 
+tačku republiku od saveza sa Srbijom 2 te ju gledaše prieko svoga 
+poslanika biskupa bon-Ivana s Ugarskom izmiriti; 3 s druge strane 
+opunovlasti pismom 4 od 24 travnja 1360 bosanskoga biskupa Petra, 
+da u izvršivanju officii inquisitionis u Bosni slobodno pozove u 
+pomoć državnu vlast, i bez priziva kazni protivnike i buntovnike. 
+
+Ljudevita su političke svrhe vodile u svojem postupanju proti 
+zemljam s one strane Save; i^jerozakonske bjehu mu podredjene, 
+te se prijazni rimske stolice poslužio tako proti mletačkoj repu¬ 
+blici (1358), kako u svojih vojnah proti Srbiji (1359) i Bosni. 
+
+vel circa. Interrogatus, quomodo et qualiter scit, quod predicti fuerint 
+in dicto loco pro iam dicta doctrina addiscenda, respondit, quod hoc 
+šibi ducerunt omnes, excepto dicto Berardo, quando docebant eum et 
+alios in Cherio . . .“ 
+
+1 Theiner: monum. Hung. II, 24—27 : „Ante omnia pelle de Bos- 
+nensi et aliis dicti regni tui partibus hereticam pravitatem . . 
+
+2 Ibid. p. 23. 
+
+3 Ibid. p. 23. 24. 
+
+4 Theiner: monum. Slavor. merid. I, 240. 
+
+
+. Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+133 
+
+
+Ugarski kralj podupiraše katoličtvo onkraj Save u toliko, u ko¬ 
+liko naziraše u njem sgodnu kopču, koja bi one zemlje trajno sve- 
+zala s ugarskom krunom. S toga se i dade sav uspjeh katoličtva, 
+koliko se postigao podporom ugarske politike, svesti na to, što je 
+njekoliko tisuća stanovnika dolnjega Podunavlja prešlo u krilo ka¬ 
+toličke crkve. 1 Ovaj je prielaz tako malo djelovao na Bosnu, da 
+skoro svi njezini stanovnici, kao što bješe rimska stolica g. 1373 
+obavješćena, osim onih, koji su u novije doba bili prešli na kato¬ 
+ličku vjeru, bijahu „razkolnici i krivovjerci." 2 
+
+Rimska stolica, neimajuć od ugarske vlade izdašne pomoći, 
+a nenalazeć je niti u bosanskoga vladaoca Stjepana Tvrdka, stegne 
+se u promicanju kat. vjere u onih stranah na crkvena sredstva 
+brineć se za dovoljne propovjedaoce i učitelje i uredjujuć tamošnje 
+zamršene odnošaje. Redovnici sv. Franje bijahu skoro jedini bla- 
+govjestnici ne samo u Bosni nego i u cielom Podunavlju, kada ga 
+kralj Ljudevit na vrieme posjednuo. Ali broj jim nebijaše onolik, 
+kolik bi bili prijatelji katoličtva rado imali; za samo Podunavlje 
+tražilo se od njihova državnika do 2000 blagovjestnika. 3 S toga 
+je vikar bosanski o. Bartol god. 1372 izaslao o. Berengaria iz 
+Aragonie u Avignon, da kod rimske stolice izhodi po vlast za po- 
+dignuće novih samostana. Ovim je putem bosanskim Franjevcem 
+dozvoljeno, da sagrade samostana ne samo u Bosni, nego i na gra- 
+nicah Ugarske, Vlaške i Hrvatske, imenito u Krbavi i Modruši. 4 
+
+U drugom obziru znamenit je odgovor pape Grgura XI od 
+god. 1373 na pitanja, koja rečeni o. Bartol bješe na apost. stolicu, 
+jamačno prieko rečenoga izaslanika upravio — znamenit je za to ; 
+što nam razsvjetljuje ondašnje vjerozakonsko stanje Bosne. 5 Ovaj 
+
+1 Theiner: monum. Hung. I, 87. 
+
+2 Farlati: Illyr. sacr. IV, 63. 
+
+3 Fejćr: cod. dipl. IX, 3 p. 602. 
+
+4 Farlati loc. cit. God. 1376 bude jim dozvoljeno, da prime ponudu 
+mačvanskoga bana Ivana Horvata. God. 1378, da se na poziv mo- 
+druškoga i senjskoga kneza Stjepana slobodno nastane u Modrušu: 
+„quod (oppidum) prope schismaticos et infideles situm est.“ Kod 
+Theinera: monum. Slavor. merid. I, 308. 336. 
+
+5 U rukopisu knjižnice jugoslav. akademije br. 628 str. 76—78. Ru¬ 
+kopis je iz XIV ili XV vieka. „Dubia“ bosanskoga vikara, kojih 
+imade dvadeset, dade papa njekim učiteljem bogoslovja, da podnesu 
+svoje mnienje. Na svaki „dubium“ sliedi odmah odgovor, koj je pisan 
+u Avignonu, tadanjoj papinskoj stolici. Na 8—10 točke pozvaše se 
+
+
+Digitized by <^.ooQle 
+
+
+
+134 
+
+
+FR. RAČKI. 
+
+
+nam spomenik tabodjer svjedoči, da su se stanovnici Bosne dielil 
+u tri vjeroizpovjesti: katoličku, iztočno-pravoslavnu i patarensku, 
+od kojih se dviju posljednjih oni zovu: „scismatici, greci et scis¬ 
+matici, 1 * ovi „heretici, infideles, Bosnenses u . Iz onih slučajeva, 
+za koje se pita naputak, dade se izvesti, kako je svećenstvo 
+iztočne crkve zapušteno i neizobraženo bilo, jer se dogadjalo 
+da svećenik iztočne crkve prelazeć u katoličku, nije ni znao za 
+sigurno: da li je kršten bio. Mnogi od prostote bijahu redjeni za 
+svećenike, kad sto bez velika obzira na canones. Posljedica ne¬ 
+znanja u svećenstvu bijaše u puku ta, da su mnogi od vjernika 
+jedino „Isukrsta i osnov vjere 11 izpovjediii malo znajuć za razkolje 
+obiju crkava; a kako je u svećenstvu dosta prostote bilo, to su 
+kad što vjernici i bez nužde krstili, te se mogla poroditi sumnja 
+o valjanosti krštenja, jer se nije izvjestno znalo, bješe li po 
+propisu i u duhu crkve podieljeno. Nedostatak dovoljne nauke 
+opažao se i u životu. Patareni sa svojimi nazori o ženidbi podko- 
+paše kršćansku nerazriešivost njezinu; oni su ženidbu sklapali pod 
+uvjetom: ako žena bude dobra i vjerna, i u nakani da će ju od- 
+pustiti, kada mu se uzhtije, tako „daje osim obraćenika jedva 
+jedan od stotine pridržao prvu ženu 11 . I to je ženidbene sveze raz- 
+klimalo, što bi se Patarenka (Bosnensis vel infidelis), postavši 
+katolikinjom, udala za katolika ostavivši prvoga muža Patarena; 
+te se moglo poroditi pitanje: a šta onda, ako taj prvi muž predje 
+kašnje u kat. crkvu? Dočim se nerazriešivost ženidbe nije mnogo 
+štovala, nije ni čudo, što su si trgovci dolazeći u Bosnu, tako 
+„Latini kano Niemci (latini et alii theotonici) w držali javno pri- 
+ležnicii na sablazan vjere. Pohlepi su uzde puštane i tim, što su 
+sljedbenici različitih vjeroizpovjesti držali si slobodno grabiti imetak 
+svoga sugradjanina druge vjere, ne iz vjerozakonske pobude nego 
+iz požude i skuposti. 
+
+Ovakovo vjerozakonsko i ćudoredno stanje Bosne prema koncu 
+XIV stoljeća jest plod vjerskih oprieka, koje su se ne samo u dvijuh 
+crkvah, nego i u dualističkoj, strogo nekršćanskoj, sekti pataren- 
+skoj izražavale — jest plod one dviestoljetne medju kršćanskimi i 
+dualističkim načeli, javno ili tajno, vodjene borbe. Koliko nisu oni 
+neprekinuti ratovi, koji su se za Stjepana Tvrdka, osobito poslije 
+god. 1376 vodili, podupirali pustopašnost i tupili nježnost sviesti? 
+
+bosanski Franjevci u svojoj obrani od god. 1394, koju su dali du¬ 
+brovačkoj republici. Farlati: Ulyr. sacr. VI, 335 — 336. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+485 
+
+
+Moglo se nadati ; da će stanje kat. crkve u Bosni okrenuti 
+na bolje, kada sam kralj Stjepan Tvrdko u njezino krilo pristupi ; 
+on se bar u povelji 1 izdanoj prvostolnoj crkvi spljetskoj dne 30 kolo¬ 
+voza 1390 u Sutjesci zove „fidei catholicae plantula, 44 a spljetskoga 
+nadbiskupa Andriju Gualda zove „svojim duhovnim kapelanom (ca- 
+pellanus noster spiritualis) 44 . Kralj je Tvrdko imao posljednjih go¬ 
+dina svoga vladanja prieći na kat. vjeru, sliedeć u tom primjer svoga 
+predšastnika strica Stjepana, a potaknut kao i ovaj državnimi raz¬ 
+lozi; jer nalazimo, da se on približio zapadu, od kada se stavio na 
+čelo hrvatskomu pokretu, koj mu Dalmaciju i velik diel Hrvatske 
+donese u bosansku zajednicu. U tom nas potvrdjuje i to, što je 
+tražio doći u svojtu s katoličkim domom habsburžkim. 2 
+
+Kao što je bosanska država skorom smrću (23 ožujka 1391) 
+kralja Stjepana Tvrdka ostala nedovršena, tako ni onaj prielaz 
+njegov nije imao znatnih posljedica za vjerozakonske odnošaje u 
+Bosni. Katolici, iztočno-pravoslavni i Patareni ostaše u prijašnjem 
+položaju; a nastale poslije kralja Tvrdka državne okolnosti ne- 
+bješe podobne promieniti bitno ovih odnošaja izmedju triju vjero- 
+izpovješti. Patareni su pače za vladanja Stjepana Dabiše, Stjepana 
+Ostoje i Ostojića, te Stjepana Tvrdka Tvrdkovića došli do ugledna 
+u državnom životu upliva, koj se mogao održati i okriepiti u onih 
+nutrnjih pobunah i vanjskih opasnostih, što no su Bosnom prieko 
+polovice stoljeća (1391-1443) potresale. Sami se vladaoci, otimajuć 
+se poslije Stjepana Dabiše (1395) za priestol, a nesigurni za krunu 
+i državnu vlast, nemogoše odlučiti za ovu ili onu stranku. 
+
+U ovo nam se vrieme Patareni ukazuju u različitih priedjelih 
+bosanske države, od Drine do jadranskoga mora; a imali su u 
+svojem krugu prve porodice i dostojanstvenike državne. Stanovnici 
+grada Srebrnice na srbskoj granici bijahu početkom XV stoljeća, 
+kao što se čita u starom spomeniku, 3 „BhCH epecH EoroMHAhCKM6.“ 
+U primorju t. j. u priedjelu izmedju Stona i Kurila, za tiem u 
+Konavlju, ili u priedjelu izmedju Cavtata i Vitaljine, živjelo je ta- 
+kodjer dosta Patareni u toliko, daje Dubrovnik bio obkoljen nješto 
+ovom sektom nješto pravoslavnimi obćinami. Izmedju ovih dvaju 
+skrajnih točaka bilo je u Bosni od starine dosta Patarena. 
+
+1 Kod Farlata: Illyr. sacr. III, 335 — 336. 
+
+2 Sr. moj „Pokret na slavenskom jugu.“ Str. 134^-138. 
+
+3 Glasnik srb. učenoga društva XX, 148. 
+
+
+Digitized by <^.ooQle 
+
+
+
+186 
+
+
+FR. RAČKI. 
+
+
+Više je od broja sekti nađošlo ugleda od porodica uglednih, 
+koje su ju sliedile. Za njeke od njih svjedoče nam suvremeni spo¬ 
+menici i stari pisci. 0 velikom vojvodi bosanskom Hrvoju, sinu 
+vojvode Vuka a bratu kneza Vojslava i bana Vuka, o tom vel- 
+moži, koj je sudbinu Bosne, Dalmacije i Hrvatske do svoje smrti 
+(f 1415) u svojoj ruci nosio, i za kojega se prijateljstvo otimahu 
+ugarski, napuljski i mletački dvorovi — o tom se velikašu izrično 
+veli: „homo ipse Patarenus est a .* Hrvojev drug i s njim najugledniji 
+bosanski velemoža vojvoda Sandalj Hranić (f 15 ožujka 1434), 
+sin Hranje Vukovića, humskoga vojvode, a sinovac Vlatka, Tvrd- 
+kova bana u Dalmaciji i Hrvatskoj, bijaše takodjer Pataren. 2 On 
+se u toj sekti rodio, te je ciela porodica na nju spadala, jer je i 
+njegov u vlasti i imetku nasljednik, sin brata mu kneza Vuka, 
+vojvoda Stjepan, i poslije 1448 god. herceg sv. Save, ta¬ 
+kodjer bio pristaša ove sekte. I tast vojvode Sandalja po njegovoj 
+prvoj supruzi Katarini, bogati vlastelin Vuk Vučić po svoj prilici 
+izpoviedaše ovu krivu vjeru. Sandaljev imetkom i vlašću sudrug 
+veliki vojvoda Radoslav Pavlović, „sin nasljednik kneza 
+Pavla Radinovića w i brat vojvode Petra, suprug Teodore i otac 
+vojvodi Ivauišu, bijaše takodjer Pataren. 3 
+
+Lasno se dade nagovieštati, da su ovi velmože podupirali pa- 
+tarensku vjeru na onih prostranih zemljah i imanjih, što no su jih 
+u Bosni i Humu držali, te da su jim dvorjanici bili većinom iste 
+vjere. Onaj ljepopisac imenom Hval, koj za vojvodu Hrvoju g. 1404 
+izpisa i slikami ukrasi novi zavjet i saltjer, bijaše „KphcnM&NHNh**. 
+Vojvoda Radoslav Pavlović izašiljaše u svojih državnih poslovih 
+
+1 Bieči Matije de Miniato, tajnika kralja Ladislava, u njegovu pismu 
+od 11 srpnja 1403, koje priobćih u: Pokretu na slavenskom jugu. 
+Str. 243. Matija je Hrvoja lično u Zadru upoznao. 0 Hrvoju se 
+ondje obširnije čita. 
+
+2 Giunio Resti: annali di Ragusa. Rukopis knjižnice jugosl. akademije br. 
+840 str. 650 : „Sandagl fi6. un principe di spirito vivo, di raggionamento 
+forte e di mol ta delicatezza... et avrebbe immortalata la sua memoria, 
+se non avesse maehiata la sua vita et oscurato la fama con li errori 
+di scisma e rito Patareno, nel quale nacque e mori.“ 
+
+3 U naputku dubrovačkoga vieća od 14 rujna 1431 (Lettere e com- 
+missioni di Levante. Rkp. dubrov. arkiva, priobći mi dr. P. Matković) 
+čita se medju ostalimi: „Domino Romanorum et Hungarie regi ex- 
+ponentes gravamina et vexationes, quibus contendimur et opprimimur 
+a perfidtssimo Radossavo Paulovic, heretico Pata¬ 
+reno . . .“ 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI 1 PATARENI. 
+
+
+137 
+
+
+flOYT€NOTA M82KA KphCTktANHNA BAATKA TBMftkAHKIA, t. j. po vjeri patarena, 
+
+kako mu se na drugom mjestu izrično dodaje, 1 za tiem Radina 
+KftkCTkfcHHNA, Radašina KftkCTkUNHNA bbkuihka, 2 Dimitra ,,patarena“ 3 itd. 
+Još se izrično kano „krstijani u god. 1404 navode: Mišljen, Ljelko, 
+Stojan, Ratko, Radosav, Radak i Dobrašin. 4 
+
+Imajuć crkva bosanska toli odličnih u državi pristaša, umjela 
+si steći povlastica, koje bi ju u svakom slučaju obezbiedile od 
+progonstva. Ove se povlasti u državnih spisih dubrovačkih navode 
+pod imenom „Franchigie dei Patarenia od njih se naročito na¬ 
+pominje „ius asyli a , po kojem nije podpadao državnoj kazni, koj 
+se k Patarenom utekao i koga su oni u svoju kuću primili. Tako 
+jedan od urotnika proti kralju Ostoji sigurno prebivaše „u sried 
+Bosne u kući Patareni, dočim drugi, Radišić, čamljaše u tamnici, 
+a vojvoda Pavao Klešić spasi si slobodu utekavši u slobodni Du¬ 
+brovnik. 5 Ova se povlast toliko cienila, da je niti državna vlast 
+nije smjela povriediti i da su ju velemože za svoju sigurnost rado 
+tražili. Tako kada se kralj Ostoja s rečenim u Dubrovniku nala- 
+zećim ee P&vlom izmirio, te mu podielio slobodu povratka i sav 
+imetak, postavi ga za veću sigurnost njegovu pod zaštitu Patarena: 
+„i priemismo mp — piše kralj nedelju na vodokršće 1404 dubro¬ 
+vačkomu vieću iz Visokoga — našom vjerom i rotom, da ga ćemo 
+u tom u vsiem kriepiti i držati; i s timi ga s vsiem priedasino 
+gospodinu djedu i njegoviem strojnikom i vsoj crkvi 
+
+1 Miklošić: monum. serb. p. 306. 308. 323. PuČić: srpski spomenici 
+I, 151, primjetbe IV: „Vlatcho christian u ; ib. XVI: „Vlatcho 
+Tumarlich patareno se ređuxe al mio albergo.“ 
+
+2 Miklošić ibid. p. 323. 399. 
+
+3 G. Resti: annali di Ragusa MSC. p. 559: „Per Radosavo interve- 
+nivano Demetrio patareno . . . M 
+
+4 PuČić op. cit. p. 51. Knez Radosav Obradović, knez Radosav Vladi- 
+mirić, knez Tvrdko Mihajlović, knez Vukašin Mozolić i knez Ostoja 
+Borovinić, koje vojvoda.Radoslav Pavlović u listini od 7 travnja 1423 
+(kod Miklošića ib. p. 322 — 325) zove svojom braćom (epATk MOll), 
+dočim se ostala vlastela navode bez toga dodatka, bijahu po svoj 
+prilici Patareni t. j. vojvodi braća po vjeri. 
+
+5 Pučić op. cit. primj. V: „E vuy defendete cum la libertk de la terra, 
+et pluy gl’ el ha un altro Kadissich in prexon sua, et lo terzo i n 
+mezzo del so regno in una caxa de’ Patareni, et man- 
+zava lo pan vostro, et era franco per le franchigiede 
+Patareni. Se ben fatto a non rornper le franchigie loro: 
+quanto mayormente dee esser libera la franchigia de Raguxa, la qual 
+e cittk murada?" 
+
+
+Digitized by <^.ooQle 
+
+
+
+138 
+
+
+FR. RAČKI. 
+
+
+bosanskoj u njih ruke i u njih obarovanije, i da mu 
+se ne učini nikadare nijedno hudo, što bi ga neogle- 
+dala crkva bosanska i vlastele bosanscie. u 
+
+Već ovakova povlast bješe podobna u ono doba, u koje je 
+pravo jačega rada prevladalo, podići ugled crkve bosanske i nje¬ 
+zine glave, biskupa ili djeda. S toga nalazimo, da je patarenski 
+biskup Radomjer posredovao u onoj razmirici izmedju Ostoje i 
+vojvode Pavla, te izprosivši za nj amnestiju tražio svoga štićenika 
+od dubrovačkoga vieća ovim znamenitim pismom, upravljenim iz 
+Janića dne 8 siečnja r. g. koje kano riedki spomenik ovdje pri- 
+obćujemo: 1 „Mnogo počtenomu vladućomu grada Dubrovnika knezu 
+(Vlahu Sorkočeviću), vlastelom i vsoj općine smjereno i umiljeno 
+pozdravljenje. Oto poslasmo po vojevodu Pavla naše strojnike i 
+krstjani, da priđe opet u svoje, ere mu je bilo bez krivine uzeto. 
+Za to smjerno zahvaljujemo vašoj ljubve i zahvalismo, što ga ste 
+doslej u sebe počteno pridržali; i ošće molimo vašu milost da ga 
+počteno odpravite. I ošće vam pravimo vas cieća, jer nam ste 
+bili općenici, eda vam je takoj vidjeti poslati svoja dva vlasteli- 
+čića s vojevodom Pavlom do kralja, eda biste koj sklad i mir 
+š njim učinili; ere bi nara drago, da biste u ipiru priebivali. 44 
+Ovo i drugo kraljevo pismo donesoše u Dubrovnik Radomjerovi 
+poslanici, sami Patareni, „koji rekoše da jih je poslal kralj Ostoja 
+i gospodin djed, da uzmu vrh sebe gospodina vojevodu Pavla Kle- 
+šića, i da ga na svoje ruke postave u vse njegovo. 44 
+
+Ovi nam izvodi svjedoče: a) da su Patareni u prvoj polo¬ 
+vici XV stoljeća ne samo trpljeni u Bosni bili, nego uživali uz 
+ostala prava gradjanska njeke povlastice, b) da je crkva bosanska 
+državnom vlašću priznana bila, pače bila ugledna u zemlji, te c) da 
+je ova crkva brojila medju svojimi vjernici prve porodice i do¬ 
+stojanstvenike bosanske. 
+
+Na taj način stojaše crkva patarenska u Bosni na vršku svoje 
+slave i moći, kada joj družice u Francezkoj bjehu od davna izu- 
+mrle, a ostanci Patarena talijanskih posljednje boraviše dane u za¬ 
+bitnih alpinskih dolinah. Sto Patareni u Bosni nisu bili u to doba 
+smetani sa nijedne strane, tomu se neće nitko čuditi, koj se obazrie 
+na ondašnje državne i crkvene okolnosti. Mi smo već gore napo- 
+
+1 Ibid. I, 50—51. Ime „episkopa" vadimo iz Hvalova rukopisa, koj 
+je one godine pisan. Ovo ime izmjenjuje Rusko, dubrovački kaneelir, 
+s drugim, naime BOCANCKOrit." 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+139 
+
+
+menuli, za što nisu bosanski vladaoci dirali u svoje patarenske 
+podanike. A kako to, da je rimska stolica prestala nastojati oko 
+iztriebljenja krivovjerstva u Bosni? Na ovo će nam pitanje odgo¬ 
+voriti njezina povjest onoga vremena. Papa Grgur XI brinuo se, 
+kako znamo, okd uredjenja crkvenih u Bosni odnošaja; ali po¬ 
+slije njegove smrti (1378) nastade tako zvano zapadno ili papinsko 
+razkolje. Sav zapad bješe s njega kroz ono četrdeset godina, kojih 
+je trajalo (1378—1418) uzrujan; u dva se protivna tabora razdie- 
+lila katolička Evropa, dočim su njeke zemlje sliedile zakonite pape 
+stolujuće u Rimu (Vrbana VI, Bonifacija IX, Inocencija VII, 
+Grgura XII, Aleksandra V, Ivana XXIII), druge pako pristajale 
+uz nametnike u Avignonu (Klementa VII, Benedikta XIII). Prve 
+glave, učeni i kriepostni muževi, vladaoci, zborovi smišljahu načine, 
+činjahu predloge, kako da se ova sablazan ukloni, zapad ujedini. 
+K tomu započe početkom stoljeća Jan Hus svoje reformatorsko 
+djelo, koje poslije njegove u kostničkom saboru osude (6 srp. 141.5) 
+zametne u srdcu Evrope krvavi rat (14l£—31). Dočim je ono raz¬ 
+kolje vlast rimske stolice oslabilo i njezin ugled ponizilo: to je 
+tako ono, a još su više husitski ratovi odvraćali Sigismunda ugar¬ 
+skoga (1387—1437) i poslije smrti brata mu Vaclava (f 1419) 
+češkoga kralja, od zemalja priekosavskih. Tako rimska stolica bješe 
+bez vlasti i ugleda, ugarska kruna drugdje vezana, kada bi bilo 
+katoličku stvar u Bosni štititi; a znamo, da su ove dvie vlasti 
+prošlih vjekova patarenstvo najviše slabile. S toga i jest sada bila 
+crkva bosanska najuglednija, kada je rimska bila najdublje pala; 
+a kada je glas rimskoga pape oniemio u Bosni, onda se pročulo 
+slovo „episkopa bosanske crkve. u 
+
+U samoj su Bosni redovnici sv. Franje bili jedini učitelji i 
+predstavnici kat. crkve. Ali i oni omalaksaše uz tolike protivštine 
+u toliko, da su mnogi od njih, prinukani „to dosadnošću to na¬ 
+porom u , kao što se vikar o. Bartol god. 1402 tužio, 1 ostavljali 
+Bosnu bez dozvole svoga poglavarstva. 
+
+Nu, ako se i nije križarska vojna dizala na. bosanske Pata¬ 
+rene, ako se i nisu izašiljali, kano prije, inquisitori: to se nije 
+sa kat. strane nijedna zgoda propuštala, da se Patareni, koliko se 
+igdje moglo, obrate. Netrieba istom uvjeravati, da se na odličnije 
+Patarene pozornost obratila; tako se nastojalo, da se vojvoda Her- 
+
+1 Wading: annal. minor. V. ađ a. 1402. 
+
+
+Digitized by 
+
+
+Google 
+
+
+
+140 
+
+
+FR. RAČKI. 
+
+
+voje privede u kat. crkvu, o čem je imao njegov prijatelj arci- 
+biskup spljetski Peregrin, bivši vikar bosanski, osobito raditi. Her- 
+voje kano da se tomu nije protivio nadajuć se, da će kao katolik 
+laglje po kat. kralju Ladislavu postati, banom bosanskim. Odavle 
+su se katolički krugovi-onom prilikom kada je Hervoje dne 10 srp. 
+g. 1404 bio na kraljevu krunitbu došao u Zadar, pouzdano nadali, 
+da će on po papinu poslaniku stožerniku Angjelu biti svečano u 
+krilo kat. crkve primljen. 1 Ali nebismo umjeli ničim utvrditi, da 
+se je ova nada zbilja izpunila. 
+
+Kao što oko obraćenja pojedinih Patarena, tako se nasto¬ 
+jalo, da se ciele obćine odreknu krive vjere. Ovamo idu nastojanja 
+dubrovačke republike u primorju i Konavlju. Kada je ova repu¬ 
+blika dobila god. 1399 od kralja Stjepana Ostoje primorje, a od 
+Sandalja Hranića (1419) i od Radosava Pavlovića (1420) kupila 
+župu Konavlje, 2 i tako došla u posjed morske obale od Stona do 
+Vitaljine: priznala je ona svojim novim podanikom, medju kojimi 
+je bilo i pravoslavnih i Atarena, slobodu vjeroizpovješti. Ali re¬ 
+publika nazirajuć u katoličtvu, kojim bješe svi njezini javni odno- 
+šaji proniknuti, najjaču svezu, koja joj odanost nove stečevine 
+može zajamčiti, stade odmah o tom raditi, da nekatolike u pri¬ 
+morju i Konavlju obrati. 3 U tom ju poslu sa strane crkvene podu- 
+pirahu osobito redovnici sv. Franje; njihov naime stonski samostan 
+u primorju, u Konavlju pako onaj drugi sv. Vlaha, koj jim ondje 
+podignu, 4 čim pridruži onaj priedjel svojoj oblasti. Republika nije 
+štedila ni truda ni troška, da i u svojoj novoj stečevini izvede ono 
+
+1 Mato de S. Miniato u svojem pismu od 11 srpnja 1404: Pokret 
+na slav. jugu str. 234. Sr. ondje na str. 257. 
+
+2 Listine kod Miklošića op. cit. p. 233, 288, 291, 300, 306. 
+
+3 Ovu politiku republike naprama Patarenom u Konavlju izrazi uman 
+Gjone Rastić (annali di Ragusa. MSC. p. 575) sljedećimi riečmi: 
+„Fra gli altri ordini f£i concesso, cbe li Canalesi potessero vivere 
+in quella religione, nella quale ciascuno respettivamente si trovasse, 
+mentre tal concessione (ustup Konavlja) si erra fatta . . . benchč 
+tutto altro ii governo pensasse diquelchenodrirnel 
+proprio seno la peste del rito Patareno, professato da 
+non pocbi Canalesi, comme poi F effetti mostrarono; mentere 
+F aequietatte le cose con delicatezza la republika ridusse quelli po- 
+poli al cattolicismo in aderenza della sua inveterata mas- 
+sima di non tolerare nelli suoi stati scismatico eser- 
+cizio, ne alcun rito riprovato dalla chiesa cattolica.“ 
+
+4 Farlatti: Illyr. sacr. VI, 157. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+141 
+
+
+staro načelo, „po kojem nije u svojoj oblasti trpjela ni jedne vjere 
+ni obreda, odsudjena od crkve katoličke. 4 * Ovo se njezino nasto¬ 
+janje jasno razabire iz pisma, koje je dne 19 prosinca 1403 kralju 
+Sigismundu pricko svojih poslanika Mihajla Rastića i Franje Bav- 
+želića upravila, i u kojem mu napominje troškove, što no jih imaše 
+kod obraćanja svojih u primorju podanika patarenskih „od bosanske 
+vjere na kršćanstvo" i kod podizanja novih crkava. 1 2 Tiem je na¬ 
+činom, sudjelovanjem naime crkvene i državne vlasti, do skora 
+nestalo Patarena u Konavlju i primorju. 
+
+Dubrovačka republika nadje do skora u pobijanju pata- 
+renstva drugoga saveznika, koj je u tom poslu posegnuo prieko 
+njezinih uzkih granica, tražeć izkorjeniti krivu vjeru u Bosni i 
+Humu. Ovaj saveznik bijaše rimska stolica. Izborom (11 stud. 1417) 
+kardinala Otona Colonne za papu pod imenom Martina V prestade 
+ono vlasti rimske stolice ubitačno razkolje. Ali ovaj papa bijaše u 
+toliko zabavljen reformatorskimi poslovi kostničkoga sabora, i po- 
+sljedicami onoga razkolja u toliko sputan, da je tako umirenje 
+Husita kako i obraćanje Patarena ostavio u baštinu svomu na 
+sljeđniku Eugeniju IV (1431—47) Prvo što je ovaj papa za kato¬ 
+ličku stvar u Bosni učinio, bilo je to, da se pobrinuo, kao što 
+mu svjedoči pismo od 2 stud. 1431, za svećenike i učitelje u onoj 
+zemlji. S toga je na njegov poziv izaslan (1432) u Bosnu Fra¬ 
+njevac o. Jakov de Marchia (Picenus), koj se tada u Ugarskoj 
+bavio, da ondje pregleda stanje reda sv. Franje i popravi, što je 
+prošlih godina pokvareno. Još se više očekivalo od sakupljenih u 
+Bazileji otaca za izravnanje vjerozakonskih razmirica na balkan¬ 
+skom poluotoku. Ovomu saboru, otvorenu u Basileji dne 23 srpnja 
+1431, bješe zadatak: iztriebiti krivovjerstvo iz krila crkve, popra¬ 
+viti crkvu u glavi i udih, te izmiriti kršćanske narode. Pod onim 
+se prvim glavno Husova nauka razumjevala; ali da se u Basileji 
+mislilo i na Patarenstvo u Bosni, tomu nam je svjedok Ivan Stoj- 
+ković, rodom Dubrovčanin, redom dominikanac, jedan najučenijih 
+bogoslova, one dobe, prava ureha onoga crkvenoga zbora.® Kao 
+
+1 Lettere e commissione di Ledvante. MSC. ragus. areh. vol. a. 1403 
+—1410: „Et da poi habiudo spexe de grandi denari in convertir 
+li habitanti de la fede bosignana al cliristianesimo, 
+et in edificar ghiexie, et aconzar villani . . .“ 
+
+2 Kratak životopis od L. Kukuljice u „Dubrovniku za god. 1867 u 
+str. 280 — 298. 
+
+
+Digitized by <^.ooQle 
+
+
+
+142 
+
+
+FR. RAČKI. 
+
+
+sto je on bio od glavnih učestnika kod saborskih razprava s hu- 
+sitskimi poslanici iz Češke: 1 tako je on glavno nastojao, da se 
+iztočna crkva izmiri sa zapadnom, da na balkanskom poluotoku 
+nestane vjerozakonskih razmirica, pa da iztočni narodi izmireni i 
+složni udare na glavnoga neprijatelja kršćanstva, koj već bješe dvie 
+države u južno-iztočnoj Evropi razorio, te se spremaše na dvie 
+druge, jošte slobodne ali slabe. Ivan Stojković obrati se dakle na 
+vieće svoga rodnoga mjesta, da posreduje kod bosanskoga i srb- 
+skoga dvora i kod odličnijih velemoža onih zemalja, neka bi u 
+Basileju izaslali poslanike, nadajuć se, da će se živom riečju i pri¬ 
+jateljskim susretom vjerozakonske razmirice izravnati. Vieće rado 
+prihvati ovaj poziv svoga slavnoga zemljaka, jer bi i Dubrovniku 
+bila velika korist potekla iz vjerozakonske zajednice susjednih mu 
+srodnih naroda; te (1433) u tu svrhu uputi poslanike bosanskomu 
+kralju Stjepanu Tvrđku Tvrdkoviću, velikim vojvodam Sandalju 
+Hraniću i Radoslavu Pavloviću, i srbskomu knezu Gjorgju Bran- 
+koviću. Stjepan Tvrdko Tvrdković kano da nije bio protivnik 
+rimskoj crkvi; mletačkoj bar republici bješe arcibiskup spljetski 
+Bartol Zabarelli prijavio, da kralj veoma želi imati katolikinju za 
+ženu, i to iz plemenite obitelji Malatestia, i da moli posredovanje 
+duždevo, 2 koje je Toma Mocenigo, kao što svjedoči njegovo pismo 
+od 4 listopada 1422, zbilja uložio. 3 Ovakova se nakana nebi bila 
+mogla u kralju poroditi, da je mrzio na katoličku vjeru; a dade 
+se lasno protumačiti, ako se na um uzme , da su turske čete već 
+prodirale u Bosnu, pa god. 4430 zauzele njekoliko gradova. 4 Prema 
+tomu bila bi Stjepanu Tvrdku došla u dobar čas svaka zgoda, 
+koja bi ga mogla približiti katoličkomu zapadu, od koga se iztok 
+upravo tada nadao pomoći. S toga mislimo, da namjera Stojkovi- 
+ćeva i poziv dubrovačkoga vieća nije naišao na odpor toliko u 
+
+1 Palacky: Dčjiny narodu českćho. III, 2 str. 230 i sijed. Znamenito 
+je što se Ivan Stojković priznavao Slovjenom i srodnikom češkomu 
+narodu; jer kada je Prokop T&borsky prigovorio na Stojkovićev 
+govor: „conterraneus iste noster iniuria nos afficit, hereticos 
+subinde nos vocans w ; tada mu Dubrovčanin odvrati: „conterra¬ 
+neus vester sum lingua et natione; propterea tam avide 
+cupio, vos ad matrem ecclesiam redire. u 
+
+2 Pismo mlet. dužda Tome Moceniga od 26 svibnja 1422 kod I. Sa- 
+fafika: srpski istor. spomen, u Glasniku XIII, 92. 
+
+3 Ibid. p. 108. 
+
+4 Ibid. Glasnik XIV p. 3. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+143 
+
+
+samoga bosanskoga kralja, koliko u patarenskoj crkvi i u vele- 
+moža ove vjere; a kralj nemogaše prezrieti volje ovih silnih poda¬ 
+nika svojih u onih okolnostih, u kojih su njegovi protivnici na¬ 
+stojali skinuti ga opet s priestolja i na nj pomoćju Turčina uzvi- 
+siti Ostojina sina Radovana. 
+
+Dubrovačko vieće obaviesti Ivana Stojkovića pismom 1 od 
+5 listopada 1433 o neuspjehu svoga posredovanja u Bosni, i izasla 
+u Bazileju Martola Gjorgjića i Lovru Sjerkovića. Prem nije sabor 
+mogao doći s bosanskimi Patareni u neposredni doticaj, kao što 
+dodje s českimi Husiti: nije on ipak zametnuo misli, da posrednim 
+putem izravna vjerozakonske razmirice onih strana. U to ime ime- 
+nova on rečenoga o. Jakova za svoga punomoćnika, podieliv mu 
+vlast prijašnjih inquisitora. Jakov, došavši u Bosnu, nastojaše prije 
+svega uzpostaviti u redu sv. Franje, redovničku stegu, koja bješe 
+prošlih godina veoma popustila. Načelnikom vikarije, kao što se 
+iz pisma 2 vojvode Jurja, sina kneza Vojsava a sinovca Hervojina, 
+od 12 kolovoza 1434 vidi, bijaše Ivan iz Korčule. Bilo je redov¬ 
+nika, koji su izvan samostana u kućah, osobito kod Jajca, živjeli 
+i proti propisu stekli si imetka; ove je strogi izaslanik u samo¬ 
+stane utjerao. Postupanje njegovo probudi medju tim u Bosni ne¬ 
+zadovoljstvo tako, da se isti kralj potuži proti njemu i papi Eu- 
+geniju i kralju Sigismundu. Nenašav Jakov pripravljena u Bosni 
+za svoje djelovanje zemljišta, priedje ovkraj Save, kao što nam 
+svjedoči pismo kralja Sigismunda, izdano 3 početkom god. 1435. 
+Nezadovoljan propovjednik podiže proti bosanskomu kralju tužbu 
+razglasiv ga „za čovjeka ne kršćanina nego kano poganina. “ On 
+je sliedećih godina propoviedao u iztočnoj Ugarskoj i Erdelju, a 
+najpače u Sriemu, 4 gdje je većina pučanstva bila iztočno-pravoslavne 
+
+1 Lettere e commissioni di Levante: vol. 1430 — 35; priobći mi iz 
+dubrov. archiva prof. dr. Matković. Ovaj je valjda list dao povoda 
+krivu mnienju Jakova Lukarića i za njim Farlatia (Illyr. sacr. IV, 66), 
+da su u Bazileju došla četiri patarenska biskupa: „Dieđ, Gost, Staraz, 
+Strinich (cTpOHNHKh). u Ovo nisu imena vlastita, već časti u bosanskoj 
+crkvi; a list upravo protivno tvrdi. 
+
+2 Miklošić: monum. serb. p. 377 — 79: „» f>BK6 rOCno^lMA KHKftfUK 
+
+. . . H BCOH EpAThH CB6T6 l|fthKK6 K3T0ilHYACK6, 
+
+BHf>€ pilMhCKG, f>eA1 CB. <PpANhl|HIIIK<*.“ 
+
+3 Koller: histor. eccl. Quinqueecles. III, 350. 
+
+4 Svjedoče pisma Ivana biskupa varadinskoga od 5 veljače, Jurja er- 
+deljskoga od studenoga 1436 i Jakova sremskoga od 15 ožujka 1437 
+kod Katone: histor. reg. Hung. XII, 739, 740, 771 — 74. 
+
+
+Digitized by <^.ooQle 
+
+
+
+144 
+
+
+FR. RAČKI. 
+
+
+vjere, ali bješe od njekada i Patarena, a od novije dobe i Husita, 
+doselivših se po svoj prilici iz gornje Ugarske, pa su ovdje tajno 
+svoju službu vršili. 1 
+
+Do skora bude Jakovu put u Bosnu otvoren. Prigodom naime 
+onom, kada Stjepan Tvrdko Tvrdković tražaše u dvoru ugarskom 
+pomoć proti Turčinu i njihovu štićeniku Radivoju, iždade on, ja¬ 
+mačno posredovanjem kralja Sigismunda, u Stolnom Biogradu dne 
+25 siečnja 1436 posebnu listinu, 2 kojom dozvoli redovnikom sv. 
+Franje vjeru katoličku u Bosni propoviedati. Tvrdko je pače korak 
+u duhu pomirljivom dalje učinio, pozvav pismeno o. Jakova u svoju 
+kraljevinu. 
+
+Inqursitor se ono doba desio ponajviše u Sriemu; ali i pvdje, 
+prem mu podje za rukom obratiti . više Husita „tako svećenika 
+kako 8vjetovnjaka, u naidje na odpor, kao što svjedoči požežki 
+župan Lađislav u pismu izdanom dne 25 veljače 1437 u Djakovu. 
+Tim radje priedje Jakov u Bosnu. Ovdje on nadje svoju vikariju 
+u žalostnu stanju, jer do šestnaest samostana bilo je turskimi. pro- 
+valami za posljednjih dviju godina razoreno. Pošto se vikar kod 
+rimske stolice, kao što dokazuje njezino pismo 3 od 7 prosinca r. g. 
+pobrinuo za naknadu svoga gubitka, stade sa svojimi drugovi ra¬ 
+diti oko obraćenja Patarena. Osim što inquisitor izdade razpravu, 
+zametne iztraživanje proti bludnjam sekte 4 . „Patareni su u prvih 
+sastancih krili svoje opačine, tumačeć blažije krive nauke. Ali 
+umah se za tiem osmjeliše javno izpovjediti gadne heresije, dizati 
+se na apost. muža, o njem klevetati, ogovarati ga, buniti proti 
+
+1 Svjedoči požežki župan Lađislav u svojem pismu (Koller op. cit. III, 
+361) izdanom dne 25 veljače 1437 u Djakovu, govoreć medju ostalim: 
+„in maiori parte predictarum partium Sirmiae Rasciani habitant; licet 
+tamen quaeđam civitates et villae christiano nomine fungantur, tamen 
+in quam plurjbus Rasciani et etiam B o s n e n s e s (i. e. Patareni) cum 
+christianis (i. e. catholicis) mixti commorantur. Quaedam civitates et 
+villae sectis haereticorum Bosnensium ac Hussitarum 
+iufectae per plurimos annos extiterunt. “ 0 Husitih govori i sremski 
+biskup Jakov u navedenom pismu. 
+
+2 Kod Katone loc. cit. p. 735 — 37. Izmedju ostalih bijahu nazočni ban 
+hrvatski Matko Talovac, mačvanski Lađislav Gorjanski, bosanski knez 
+dvorski Tvrdko Borovinić , koj je bio suprug Katarine, kćeri Balše, 
+sina vojvode Hrvoja. 
+
+3 Pismo kod Theinera: monum. Slavor; raerid. I, 375. 
+
+4 Već prije Jakova ra?našahu se u Bosni protupatarenske razprave, od 
+kojih jednu priobćih u I knjizi „Starina w str. 109 —138. 
+
+
+Digitized by vjOOQle 
+
+
+
+BOGOMILI I PATARENI 
+
+
+145 
+
+
+njemu ne samo puk i prostotu nego i njeke u svećenstvu uglednije**. 1 
+Jakov upotriebi svu vlast, da svoje protivnike u strah satjera, te 
+udari kazne, koje mu „officium inquisitionis“ postavi u ruke. 
+
+Ali kano da nije ovomu inquisitoru ni taj put bilo obstanka 
+u Bosni; oružje, kojim je kretao, bijaše poslije zapadnoga razkolja, 
+te sabora u Piši i Kostnici, mnogo oštrine u kršćanskom svietu iz¬ 
+gubilo. A kako tek u zemlji, u kojoj se n heretička crkva w do ono¬ 
+lika ugleda popela bila! S toga nalazimo o. Jakova već g. 1438 
+opet ovkraj Save. Ali i ovdje stavljahu mu u inquisiciji na put 
+zaprieke ne samo nekatolici nego i „njeki ljudi, koji se u ostalom 
+nazivaju katolici ; w s toga otidje u Rim, gdje se apostolskoj stolici 
+potuži. Papa odpravi o. Jakova u Ugarsku preporučnim na kralja 
+Alberta pismom 2 od 15 studenoga 1438. Inquisitor nastavi svoje 
+djelo u Sriemu i Slavoniji; a kada naidje na prvašnje prepone, 
+obrati se na kralja, koj pismom 3 od 28 svibnja 1439 zabrani do 
+duše uznemirivati Jakova i njegove pomoćnike, ali ne mislimo, da 
+su se njegovi protivnici dali zastrašiti. 
+
+Tako je Patarenstvo u Bosni izbjeglo onaj udarac, koj mu 
+poslanstvom novoga inquisitora bje namienjen. Ali rimska se stolica 
+nedade ni ovim neuspjehom odvratiti od novoga pokusa, komu se 
+povod dade skoro poslije odlazka o. Jakova iz Bosne. Bosanski naime 
+veliki vojvoda Stjepan Vukčić Kosača, koj je vladao Humom, izasla 
+u Rim poslanstvo, po kojem izjavi želju, da će se odreći pataren- 
+stva i preći u kat. crkvu, pa je u tu svrhu molio da mu se biskup 
+pošalje, koj bi ga okrstio i njegove podanike iste vjere obratio. 4 
+Zanimivo je, što se vojvoda bosanski okrenuo k Rimu, kada se 
+rimsko poslanstvo u zemlji njegova gospodara o zapriekah razbilo. 
+Nije li vojvoda već tada težio za podpunoin samostalnosti, te joj 
+se ovim putem nadao? Mi nalazimo, kako je on snubio Mlet- 
+
+1 Wading: annal. minor. X, 231, 271. 
+
+2 Theiner: monum. Hungar. II, 218. 
+
+3 Kod Kollera: historia eccl. Quinqueecl. III, 377. 
+
+4 Svjedoči pismo pape Nikole V od 1 veljače 1448 (kod Raynalda: 
+annal. ad a. 1449 nro 9): „Stephanus, voyvoda . . . licet olim ad 
+prefatum Eugenium oratores suos miserit, ac prelatum aliquem ad se 
+dimittendum pro causa reductionis huiusmodi postulaverit . . .“ Po- 
+tvrdjuje ljetopis dubrovački. Rkp. knjižnice jugoslav. akad. br. 839 
+str. 662, u kojem se kaže, da je Stjepan molio papu Eugenia IV, 
+w che lo volesse prendere in gratia, perche si voleva battezare et esser 
+buon christiano. a 
+
+R. J. A. VIII. 10 
+
+
+Digitized by <^.ooQle 
+
+
+
+146 
+
+
+FR. RAČKI. 
+
+
+čane 1 i kako nastojaše uvući se u Dalmaciju. 2 Ele kakovu je god 
+Stjepan namjeru s ovim poslanstvom skopčao, rimska ga stolica 
+rado prihvati, te izpuniv vojvodinu želju posla, kao što nam svje¬ 
+doči pismo 3 pape Eugenia IV od 12 rujna 1439, Tomu biskupa 
+hvarskoga u Bosnu, Hum i Hrvatsku „za poslanika istine i mira 
+u onih stranah. a 
+
+Toma, koj je u florentinskom saboru pokazao svoju vje¬ 
+štinu i okretnost, te ga ondje papa obljubio, nije kod vojvode 
+Stjepana mogao ništa opraviti. 4 U Bosni nije poslanik našao pri- 
+pravnijih duhova; Turci su ovu zemlju u toliko bili pritisnuli, da 
+je kralj Stjepan Tvrdko Tvrdković upravo ove godine morao sul¬ 
+tanu Muradu II godišnji danak povisiti; a sam se za svoju slo¬ 
+bodu u toliko pobojao, da je početkom god. 1442 tražio u Mletcih 5 
+ne samo posredovanje kod porte, nego i jedan grad u Dalmaciji, 
+u koj bi se, ako dodje do nevolje, mogao uteći. Kako da kralj u 
+takovih okolnostih zametne zadjevicu s toli uglednimi Patareni? 
+
+Tim se odlučnije počelo proti Patarenstvu raditi, čim poslije 
+smrti nestalnoga i neodlučnoga Stjepana Tvrdka Tvrdkovića stupi 
+početkom god. 1444 na priestol bosanski „Stefan Tomaš u . 6 
+
+Dosta je zamršeno pitanje: u kojoj vjeri bijaše ovaj kralj 
+odgojen; a ono je ipak za naše iztraživanje dosta znamenito. 
+Stjepan Toma byaae nezakonit sin kralja -Stjepana Ofttoje, koj ga 
+u braku porodi s tudjom suprugom. 7 Ostoja je za života sakrivao 
+ovaj plod svoga preljublja; a ni Stjepan Toma nije se za vladanja 
+Ostojina i Stjepana Tvrdka Tvrdkovića izdavao za naravsko čedo 
+
+1 Glasnik srb. uč. društva XIV, 29, 32. 
+
+2 Rad jugosl. akad. VII, 242—43. 
+
+3 Kod Farlatia: Illyr. sacr. IV, 256. 
+
+4 Papa Nikola u navedenom pismu biskupu Tomi: n Tuque ad eum 
+remissus . . . neque tamen . . . ad errores huiusmodi deponendos com- 
+pellere potuisti . . . u 
+
+5 Glasnik XIV, 49 — 51. 
+
+6 Posljednja za sada poznata listina kralja Stjepana Tv. Tvrdkovića je 
+od 22 lipnja 1443 (Miklošić: monum. serb. p. 426) prva Stjepana 
+Tome od 16 travnja 1446 (Glasnik XIV, 16). Pošto se u mletačkom 
+naputku od 6 ožujka 1444 (ib. 86) kaže: „quod serenissimus rez 
+Bossine, n u p e r e 1 e c t. u s . . . u to scienim, da je Stjepan Toma počeo 
+god. 1444 kraljevati. 
+
+7 Ovo je sam kralj izpovjedio papi (Theiner: monum. Slavor. merid. 
+I, 388): „ut ipse asseris, pateris de Ostoya, clare memorie rege 
+Bosne, genitore tuo uxorato et eum alia coniugata natus . . . u 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+147 
+
+
+bosanskoga kralja; pa bojeći se svojih protivnika, kralja naime 
+Tvrdka i njegove stranke, prikrio je svoj rod i tiem, što je uzeo 
+ženu iz nizka roda, obećavši joj ženitbu pod uvjetom: ako mu 
+bude dobra i vjerna. 1 S toga i nije Toma u vrieme kraljevanja 
+Tvrdkova nigdje u račun dolazio u onih stranačkih za bosanski 
+priestol borbah; već njegov naravski brat, zakoniti Ostojin sin, Ra- 
+divoj. Toma stajaše u zakutku, nepjiznan a sam se neiztičući iz 
+bojazni za svej život. Glede vjere, u kojoj da je Toma odgojen 
+bio, njegov je poslanik druge godine poslije njegova na priestol 
+uzvišenja, uvjeravao papu Eugenija IV, da je Toma bio „u krš¬ 
+ćanskoj vjeri od mlade dobe odgojen 4 *. 2 Naprotiv se iz očitovanja 
+rimske stolice izvodi, da se Stjepan Toma kano bosanski kralj na¬ 
+stojanjem papina poslanika Tome, hvarskoga biskupa, odrekao pa- 
+tarenske bludnje, te „prvi medju bosanskimi kralji primio svetu 
+katoličku vjeru 4 * i nju javno izpovjedio. 3 Kako da ove protivne 
+izjave u sklad dovedemo? Stjepan Toma, stupivši na priestolje 
+bosanske kraljevine, držaše da mu ono pripada pravom nasljedstva, 
+kano „sinu i nasljedniku mnogo počtenoga spomenutija slavnoga 
+kralja Ostoje, 4 * kano praunuku i unuku svetoga korina 4 predjašnjih 
+vladalaca Kotrmanićeva doma. Stjepan Toma izpoviedaše javno ovaj 
+
+1 I ovo je sam kralj papi izpovjedio : (ibid. p. 389): ff quod dudum 
+ante tui ad culmen regium assumptionem cupiens propter inimicos et 
+invidos ortum tu um occultari, ut sic facilius, que imminebant, peri- 
+cula evitares, quanđam ex infimo genere mulierem etiam ad carnis 
+copulam tibi associasti; eique iuxta morem patriae, quođ, si tibi 
+bona et fidelis esset ac bene faceret, cum ipsa matrimonium contra- 
+heres, promisisti." 
+
+2 Kod Farlatia: Illyr. sacr. IV, 257: „Exposuit autem regem suum 
+vere et sincere de christiana religione sentire, in q u a a tenera 
+infantia fuerit educatus." 
+
+3 Theiner: monum. Hungar. II, 237: „Quođ cum carissimus in Christo 
+filius noster Stephanus Thomas, rex Bosne illustris, spretis atque 
+abiectis Manicheorum erroribus, quibus irretitus fuerat, 
+primus inter reges Bosne sanctam fidem catholicam acceptaverit, 
+ipsamque publice confessus fuerit . . , u U pismu pape Nikole V od 
+1 veljače 1448 čita se: r Stephanus Thomas, rex Bosne illustris, qui a 
+paucis retro temporibus a veritate catholicae fidei devius, Maniche¬ 
+orum haeresis labe infestus cum subiectis šibi populis lon- 
+gius aberrabat . . . .“ Raynaldi: annal. ad a. 1449 n. 9. 
+
+4 U listini izdanoj dne 3 rujna 1444 u Kreševu kod Miklošića: monum. 
+serb. p. 427. U povelji od 16 travnja 1444. (Glasnik loc. cit.) zove 
+Toma Ostoju otcem, a Stjepana Tvrdka stricem. 
+
+* 
+
+
+Digitized by <^.ooQle 
+
+
+
+148 
+
+
+FR. RAČKI. 
+
+
+uslov vladalačke zakonitosti kano „milostiju božijom kralj vsoj 
+Bosni . u Ali s druge si strane nije mogao tajiti, da bi kruna bo¬ 
+sanska bila po ovom pravu pripala njegovu naravskomu bratu Ra- 
+divoju, a ne njemu; ako je dakle njegovu glavu resila, to se 
+dogodilo voljom bosanskoga naroda, imenito možnoga plemstva, 
+koja se valjda za njega za to odlučila, što se Radivoj bijaše još 
+za Tvrdka Tvrdkovića svezao s Turčinom; a sviest državne ne- 
+odvislosti nebijaše još u Bosni utrnula. Ali kao što je Toma nje- 
+kada zbog opasnosti pritajivao svoj rod, tako u prvom početku 
+svoga kraljevanja nehtjede stupiti kano očiti protivnik bud koje 
+vjere udomljene u Bosni. On se imenito Patarenom nehtjede za¬ 
+mjeriti; jer oni bjehu u Bosni „i brojem i snagom ponarasli u ; te 
+se bojao, da „nebi kraljevstva izgubio ; u kada bi jih uvriedio. 
+S toga se kralj s Patareni družio, pače i čast izkazivao njihovim 
+starješinam i odličnjakom. Iz ovakova kraljeva ponašanja naprama 
+Patarenom izvodili su Franjevci, „jedini u kraljevini pravi kato¬ 
+lički svećenici, w da je Stjepan Toma zaštitnik Patarenom, pa da 
+je zato pao pod izobćenje, „koje apostolska stolica od davna svake 
+godine udara na zakloni te lje, zaštitnike i podupiratelje krivovje- 
+raca a , te ga niesu htjeli toga radi pripustiti k svetotajstvom. 
+
+Ovako je Stjepan Toma negdje jeseni 1445 godine uvjeravao 
+apost. stolicu o svojoj prama katoličkoj vjeri odanosti. Ali nitko 
+nemože sumnjati, da je on tada katolikom bio; papa Eugenije IV 
+spomenu već u svojem pismu 1 2 mjeseca rujna 1444, daje kralj bo¬ 
+sanski malo prije primio katoličku vjeru; a u drugom se pismu 
+od 29 svibnja 1445 Stjepanu Tomi „preljubljenomu u Krstu sinu“ 
+raduje, što se on, odkako stupi na priestol, kano katolički vladalac 
+„sačuva neoskvrnjen i čist od lisičje i zavedljive lukavosti i kužnih 
+prievara onih krivovjeraca, koji od davna stanuju u onoj kralje- 
+vini“.‘ i Odavle izvodimo, da je Toma, čim stupi na priestolje, 
+prešao na vjeru katoličku; ali da nije odmah stao proganjati Pa¬ 
+tarena, kao što je sam prieko svoga poslanika priznao, navodeć za 
+svoje opravdanje političke razloge. 3 Ako se dakle u svih ovih spo- 
+menicih (1444 i 1445) govori o prielazu Stjepana Tome na vjeru 
+
+1 Assemam: Kalendarima ecclesiae universae V, 81. čita se u papinu 
+pismu na upravljatelje župne crkve u Gđanskom. 
+
+2 Theiner: monum. Slavor. merid. I, 388. 
+
+3 Farlati loc. cit: „ Itaque sicut vere catholicus ac sincere christianus 
+cupiebat ecclesiae christi communicare sacramentis; verum . . fratres 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+149 
+
+
+katoličku; ako se na dalje o njem izričbo kaže: da je bio „okaljan 
+manihejskom ljagom u , pa da se odrekao manihejske, pata- 
+renske bludnje, u koju bijaše upleten: onda imade razloga uztvrditi, 
+da je Toma prije svoga na priestol uzvišenja pripadao, bilo javno 
+ili tajno, sekti patarenskoj. U tom nas mnienju utvrdjuje i to, što 
+je Toma prije toga uzeo si ženu po običaju, koj je medju bosanskimi 
+Patareni vladao, pod uvjetom naime, bude K mu dabra L vjerna. 1 
+
+Hvarskomu biskupu Tomi pripisuje se u zaslugu, što se Stjepan 
+Toma odrekao Patarenstva i prešao na kat. vjeru. On, kano papin 
+poslanik počam od god. 1439, imao se u Bosni desiti prigodom 
+izbora novoga kralja. Ali onaj prielaz nije se na brzu ruku izveo; 
+već pokle je papin poslanik imao s Tomom „mnoge i različite 
+razprave w . 2 Ako su dosta pouzdane viesti, koje do nas dodjoše o 
+predmetu ovih razprava: to bi rimska stolica bila kralju na uz- 
+darje za njegov prielaz obećala kraljevsku krunu; , ali od njega 
+zahtievala, da dopusti u Bosni više ili bar dvie biskupije rimskoga 
+obreda podići. Onom ponudom htjede rimska stolica Bosnu užje 
+zapadu privezati; ali da je Stjepan Toma nije htio prihvatiti bo¬ 
+jeći se Turaka; na ovaj pako zahtjev činilo mu se opasno za onaj 
+čas pristati zbog Patarena i pravoslavnih, kojih je u Bosni bilo 
+mnogo više od katolika. 3 
+
+minores . . . prefatum regem ad communionem non admittere, quod 
+illum crederent excommunicationum sententiis irretitam . . quia Ma- 
+nicheorum, qui in regno suo et numero et potentia 
+eicrevisse noscuntur, arbitrentur esse fautorem, 
+cum videant eos secum continua conversatione mi- 
+sceri, eumque primariis illorum, quos electos vocant, 
+reverentiam quanda m honorificentiamq ue deferre.." 
+
+1 Theiner: monum. Slavor. merid. I, 389: „eique (mulieri) iuxta 
+morem patriae, quod si tibi bona et fidelis esset ac bene fa- 
+ceret, cum ipsa matrimonium contraheres, promisisti. Ovaj se „mos 
+patriae" odnosi na „Bosnenses" t. j. na sljedbenike vjere i crkve 
+bosanske, kao što se iz odgovora Grgura XI od god. 1373 o. Bar¬ 
+tolu (MSC. u knjižnici jugoslav. akad. br. 628) razabire: „ad quartum 
+articulum, in quo queritur: cum Bosnenses uxores accipiant cum 
+condicione: si eris bona, et intentione dimmittendi, quando šibi vi- 
+debitur; et hoc est manifestum, quod vix de centum unus retinet 
+primam exceptis conversis. . .“ 
+
+2 Theiner: monum. Slavor. merid. I, 396: „post multos diversosque 
+tractatus diu habitos cum ven. fr. nostro episcopo Farensi." 
+
+3 Suvremeni Gobelin (kod Praya: annales Hung. P. III, p. 275) stavlja 
+ove rieči poslanikom Tomina sina Stjepana u usta: „Tuus antecessor 
+
+
+Digitized by <^.ooQle 
+
+
+
+150 
+
+
+FR. RAČKI. 
+
+
+Ako Stjepan Toma i nije iz političkih obzira primio papine 
+ponude glede krune: to je on upotriebio priklonost rimske stolice 
+za učvršćenje ^voje i obitelji si na priestolu. S toga se pobrinu za 
+oprost „super defectu natalium 44 , i da se ona ženitba, koju učini 
+kano Pataren, priznade za nevaljanu. Ovu drugu molbu podkriepi 
+kralj tiem, što „velikaši kraljevine bosanske niesu bili voljni pri¬ 
+znati one žene za svoju kraljicu 44 radi njezina nizkoga roda. Papa 
+je jednoj i drugoj molbi poslanicami 1 od 29 lipnja 1445 zadovoljio; 
+a druga nije mogla naići na zapreke, tim manje što se onakova sveza, 
+koja se sklopila „proti bitnosti ženitbe, 44 nije u crkvi i onako va¬ 
+ljanom i zakonitom priznavala. Ovako riešen kralj svoje obveze 
+naprama onoj ženi, keja mu inače bijaše i ^vjerasi i iz- 
+
+prosi od velikoga vojvode bosanskoga Stjepana KosaČe ruku mla- 
+djabne mu kćeri Katarine, koja usljed toga predje na kat. vjeru 
+odrekavši se patarenske, u kojoj bijaše po ocu rodjena i odgojena. 2 
+
+Ovako je dvor kraljevski u Bosni, kralj naime, kraljica i brat 
+kraljev Radivoj, postao katoličkim. Od plemstva bilo jih malo, koji 
+su od prije katoličkoj crkvi pripadali. O vojvodi Petru Vojsaliću, sinu 
+Jurja Vojsalića, veli se u papinom pismu 3 od 18 lipnja 1447, da 
+je on, „postavljen medju krivovjerci, jedini katolik, koj je medju 
+velikaši kraljevine bosanske sv. katoličku vjeru neoskvrnjenu sa¬ 
+čuvao 44 . Petar je ovu vjeru obaštinio od svojih roditelja i predja, 
+koji su redovnikom sv. Franje bili posagradili više kuća s crkvarai 
+„za njihovo stanovanje i porabu 44 . On je okolo svoga grada Viso¬ 
+koga pobirao desetinu za njegovo utvrdjenje i obranu, jer je ležao 
+„na medji njekih priedjela nevjerničkih 44 . 4 Za ove i slične zasluge 
+bude taj vojvoda dolnjih strana apost. pismom 5 od 28 svibnja 1445 
+uzet s cielim imetkom pod zaštitu rimske stolice. Hvale se još kano 
+
+Eugenius patri meo coronam obtulit et pontificales ecclesias in Bosna 
+voluit erigere. Renuit pater, ne Turcarum in se odium provocaret. w 
+Papa da je bio (Farlati: Illyr. sacr. IV, 68) dva biskupa, Stjepana 
+i Antuna, Bosni namienio. 
+
+1 Monum. Slavor. merid. p. 388 89. 
+
+2 Sliedi iz rieči pape Nikole V u pismu od 1 srpnja 1451 (Monum. 
+Hung. II, 264) „Thomas Stephanus, rex Bosne illustris, ac eius u 
+xor..quoscunque Patarenorum heresis deponentes 
+errores, ac veritatis lumen recognoscentes, quod mater omnium et 
+magistra s. romana ecclesia tenet . . .“ 
+
+3 Ibid. p. 235. 
+
+4 Ibid. p. 230. 
+
+5 Theiner: monum. Slavor. merid. I, 389. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMTLI I PATARENI. 
+
+
+151 
+
+
+katolici knez Restoje, protovestijar kralja Stjepana Tome, koj da 
+je „od mladosti, ostavši katolik medju krivovjerci, mnogo radio za 
+umnožanje i uzdržanje katoličke vjere w ; 1 za tiem knez Sladoje 
+Senković i njegova braća Grgur i Ulrih; 2 napokon vojvoda Pavao 
+Klešić. 3 Ali ovo je doisto malen broj vlastele, o kojoj se znade da 
+su katolici bili, prema nekatoličkoj, tako iztočno-pravoslavne kako 
+bosanske crkve. 
+
+Postavši Stjepan Toma katolikom pustio je katoličkomu sve¬ 
+ćenstvu slobodne ruke ok6 razširenja kat. vjere. Redovnici sv. 
+Franje, kano jedini kat. svećenici u Bosni, uživali su osebitu za¬ 
+štitu rimske stolice, koja je vikariju bosansku gledala kriepiti. 
+S toga papa Eugenio IV uništi pismom 4 od 24 siečnja 1444 raz- 
+deobu vikarije u dvie, bosansku i ugarsko-hrvatsku, kojom bi se 
+bosanska oslabila bila, te izabrana vikara o Fabijana od Bača po¬ 
+tvrdi za načelnika jedinstvene vikarije bosanske s pravomoćjem na 
+samostane ovkraj i onkraj Save; a drugim pismom 5 od sljedećega 
+dana povjeri bosanskoj vikariji „officium inquisitionis w na sva vre¬ 
+mena u Bosni, Srbiji, Hrvatskoj i Slavoniji, Bugarskoj, Moldavskoj 
+i Vlaškoj; te posebnim pismom 6 od 16 veljače preporuči ove in- 
+quisitore vladaocem, biskupom i velemožam onih zemalja balkan¬ 
+skoga poluotoka. 
+
+I ako nastojanju ovih redovnika, kao što uplivu dvora podje 
+za rukom već sada privesti u kat. crkvu gdjekoga velemožu, a 
+poimence Ivaniša Pavlovića, 7 sina vojvode Radosava, poznatoga u 
+Humu Patarena, a brata knezu Petru i Nikoli. Vojvoda Ivaniš na- 
+sliedi sav imetak svoga otca, te bijaše pored vojvode Stjepana 
+
+1 Monum. Hung. II, 251. Knez PeCTOl€ npOTOEHCiapb navodi se još za 
+Stjepana Tvrdka Tvrdkovića kod Miklošića: monum. serb. p. 426. 
+Pučića: srpski spomenici II, 426, za tiem od god. 1444 —1451 kod 
+Miklošića ibid. p. 428. 450. 
+
+2 Monum. Hung. H, 236. Sladoje se zove „dominus de Regui, a mislim 
+mj. n đe Pequi a t. j. Pecite, sela sada u Jezerskoj nahiji kod vrela Sane. 
+
+3 Ibid. p. 265. Navodi se u listinah od god. 1444—51 kod Miklošića 
+p. 428, 440, 450. 
+
+4 Ibid. p. 225. 
+
+5 Ibid. p. 223, 224. 
+
+6 Ibid. p. 228—230. 
+
+1 Svjedoči papa Nikola V u pismu od 1 veljače 1448 (loc. cit.): „Jo- 
+annes vero Paulovich, wayvođa . . a tribus annis citra (1448—3 
+= 1445) catholicam fidern professus . . .“ 
+
+
+Digitized by <^.ooQle 
+
+
+
+152 
+
+
+FR. RAČKI. 
+
+
+najbogatiji i možniji vlastelin u Humu; s toga je i njegov prielaz 
+mogao biti vele koristan kat. crkvi. 
+
+Ali kano da redovnici sv. Franje nebijahu zadovoljni onom 
+slobodom, nitiiugledom, koj kat. crkva po kraljevskom dvoru steče, 
+niti laganim uspjehom njezinim. Oni niesu rado vidjeli, što kralj 
+neproganja Patarena; što jih od sebe neodbija, pače što štuje onaj 
+odnošaj, u kojem je napram njim kano vladalac stojao. Oni su 
+s toga od njega zahtievali, da kano katolički vladalac postupa po 
+propisih kat. crkve proti svojim podanikom patarenske vjere. A 
+kada se on iz političkih razloga uztručavaše, postupahu oni sami 
+po ovih propisih proti kralju , kano proti zaštitniku krivovjeraca. 
+Stjepan se Toma na to posebnim poslanikom prituži kod rimske 
+stolice, uvjeravajuć ju prije svega o svojoj odanosti katoličkoj 
+vjeri, ,,u kojoj da se jedino bog istinito štuje, dočim da sve ostale 
+sekte, osobito pako manihejska, jesu izmišljotine djavolske opačine 
+i prievare.** Kralj nezanijeka, da on obći s Patareni; ali da sve 
+to biva samo vanjskim licem, dočim „se nakana njegova srdca 
+daleko razlikuje od ovoga spoljašnjega prikazivanja. 1 * On se Pata¬ 
+renom prikazuje prijaznim samo na vrieme, jer su sada jaki brojem 
+i moćju; ali čeka zgodu, da jih prisili, neka odsudivši heresiju 
+predju na katoličku vjeru, a da tvrdokorne odsudi na prognanstvo 
+ili smrt. S toga je on papu zamolio, neka mu, „uzev u obzir po¬ 
+božnu i odanu volju njegova srdca 4 *, dopusti pristupati k svetotaj- 
+stvom crkve, ako i obći s Patareni i časti njihove starješine. 
+
+Ovako je kralj Stjepan .Toma/pdkrio^ostolskoj stolici svoju 
+naprama Patarenom qfŠnovu. Papa Eugenio * IV. ocieni ove razloge 
+bosanskoga vladaoca, samo se htjede podpunoma obaviestiti o tom: 
+je li je kralj iskreno privržen katoličkoj crkvi, i jesu li vjerski 
+odnošaji u Bosni zbilja takovi, kako jih kralj kroz poslanika na¬ 
+crta? S toga se pismom 1 od 3 studenoga 1445 obrati na svoga u 
+Bosni poslanika hvarskoga biskupa Tomu nalagajuć mu izmedju 
+ostalih ovo: „Pošto nismo o tih stvarih podpunoma obaviešteni bra- 
+tinstvu tvojemu, koje u Bosni obavlja službu apost. poslanika, 
+kriepošću ovoga lista nalažemo, da o njih marljivo iztražiš, pa 
+ako nadješ, da je rečeni kralj doista katolik a nika¬ 
+ko vim krivovj erstvom okaljan; da.su svetogrdni Maniheji 
+i druge krivovjerske sljedbe tamošnje zbilja u toliku broju i tako 
+
+1 Ovo znamenito pismo priobci Farlati Illyr. sacr. IV, 257 — 8. 
+
+
+Digitized by 
+
+
+Dogle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+153 
+
+
+silne, da jih kralj bez opasnosti gubitka kraljevine nemože iz- 
+triebiti, i da Dn s njimi obći ne iz dobre volje nego iz nužde, a 
+da je ono štovanje, koje on izkazuje starješinam raan ihejskim (Ma- 
+nichaeorum primariis), puka učtivost ljudska, ne pako bogoštovje, 
+kojim bi se bog uvriedio: onda maloj braći bosanskoj apostolskom 
+vlašću zapovjedi, da rečenomu kralju neuzkrate crkvenih sveto- 
+tajstvi, kada jih god uztraži.“ Iz ovih se rieči vidi, kako je papa 
+Eugenio voljan bio popustiti okolnostim, koje je moć patarenske 
+sljedbe bila u Bosni stvorila. 
+
+Ovaj se papa uspjehom, koj se netom u sabo ru basilejskom i flo- 
+rentinskom bio postignuo s umjereni mi Husiti i iztočnom crkvom, 
+osvjedočio da se vjerske oprieke najlaglje izmiriti mogu, ako po¬ 
+mirljivi duh dovede slovo zakona u sklad s postojećimi okolnostmi. 
+S toga nije on od Stjepana Tome zahtievao, da odmah rat naviesti 
+Patarenom ili da bezobzirce prekine onu svezu, koja ga skapčaše 
+s njimi kano bosanskoga vladaoca sa svojimi podanici prem 
+druge vjere. Nu s druge strane nije ova umjerenost pape Eugenija 
+■ išla tako daleko, da bi kralju dopuštala vjerozakonski indiferen- 
+tizam, ili ga njegovih kano vladaoca katoličkoga dužnosti naprama 
+kat. crkvi za uvjek odriešila, te odobravala onakovu naprama ino- 
+vjernim podložnikom popustljivost za sva vremena i sve slučaje. Za to 
+ovako nastavlja papa u svojem pismu: „Hoćemo ipak, da se isti 
+kralj kroz tebe ili rečene otce uputi, koli je gadna manihejska 
+heresija, kako j u valja odsuditi, iz čovječjega đružtva mačem, 
+vatrom i smrću ukloniti; jer je gorja od svih opačina, od svih 
+svetogrdja, i kano od svih više na to odabrana, da djavao otrov 
+svoje zlobe kroz nju u sviet izlije. a Za tiem navodi papa glavne 
+članke patarenske nauke, da se iz njih vidi, kako ona isto krš¬ 
+ćanstvo niječe. Odavle on izvodi, što je kralju činiti: „neka razumije 
+kralj, koliku izazivaju na se od boga sržbu oni, koji se s Mani- 
+heji prijateljski druže; o takovih bo je pisaiio, da zaslužuju smrt; 
+pače ne samo koji rade, nego i koji jim privoljuju. S toga imade 
+i on, ako hoće da bude pravi i iskren kršćanin, nastojati o tom, 
+da sgodom Maniheje prisili prihvatiti katoličku istinu odsudivši 
+nevjerstvo; ili ako bi jim se svidjelo tvrdokorno ostati kod svoje 
+bludnje, da se kazne njihovim krivnjam primjernom smrću; inače 
+bi on dokazao, da je sukrivac njihova nevjerstva, ako nebi u srdcu 
+toga odlučio, i izveo kada bude dosta silan. Propustiti opake, kada 
+jih možeš skinuti, toliko je koliko jih gojiti, a sumnje o tajnoj 
+
+
+Digitized by <^.ooQle 
+
+
+
+154 
+
+
+FR. RAČKI. 
+
+
+sukrivnji nemože se onaj oprostiti, koji, kada može, .nestane krivnji 
+na put u . 
+
+Na ovo je pismo imalo stići u Rim povoljno izvješće* od apo¬ 
+stolskoga poslanika. Papa Eugenio IV. nije više sumnjao o kato- 
+ličtvu kralja bosanskoga i o njegovoj prama apost. stolici iskrenoj 
+odanosti. S toga su na ovu viest radošću klicali tako papa „kako 
+i stožernici, i drugi biskupi i ostali odlični muževi inih strana 
+svieta, posjetivši rimski dvor u . Svoju radost priobći papa ugarskomu 
+kralju, biskupom, velikašem i puku kraljevine u pismu od 30 srp¬ 
+nja 1446, kojim htjede on navezati prijateljske odnošaje izmedju 
+ugarskoga i bosanskoga dvora, te Stjepanu Tomi zajamčiti pomoć 
+s one strane, ako bi ju na korist kat. crkve trebovao. 1 Odavle se 
+razabire, da se u Rimu za stalno držalo, da će bosanski kralj ra¬ 
+diti proti Patarenom u duhu naputka od 3 studenoga 1445, t. j. 
+da će, kada vrieme dodje, i silu proti njimi upotriebiti; a da bi 
+u takovu slučaju mogli nastati zamršaji, kojih nebi mogao kralj 
+bez pomoći ugarske razmrsiti. 
+
+Pa da li je Stjepan Toma odmah udario ovim prisilnim putem? 
+Kada bismo vjerovali jednoj listini od 24 lipnja 1446, kralj 
+Stjepan Toma bio bi o Ivanju ove godifie držao sabor u Konjicu 
+kod Neretve, u kojem da su bili svi prvi crkveni i državni dosto¬ 
+janstvenici kraljevine, a osim njih papin poslanik Toma, bosanski 
+vikar o. Mihajlo i inquisitor o. Eugenio Somma. U ovom saboru 
+da je izdana ustanova, koja se na naše pitanje odnosi, a zauzima 
+prvo mjesto u onoj listini, te glasi ovako: „Maniheji nesmiju ni 
+zidati novih, ni popravljati starih porušenih hramova . u Ovakav bi 
+zakon toliko značio, koliko uztegnuti bosanskoj crkvi slobodu bo- 
+goštovja, koju je ona u Bosni uživala; značio bi da je kralj Stje¬ 
+pan bio odlučio stupiti sa staze umjerenosti te prisiliti Patarene, 
+da se pokatoliče ili da se izsele. 
+
+Ali mi držimo, da je ova listina podmetnuta; a za to ima- 
+demo nutrnjih razloga; 2 pa osim ovih i nesumnjivu listinu istoga 
+
+1 Pismo kod Theinera: monurn. Slavor. merid. I, 395 — 6: „Vos itaque 
+. . in domino exhortamur . . ut supradictum Bosne regem, omnesque 
+regni sui subditos, eiđem in fide catholica consentientes, in cunctis, 
+que quomodolibet occurrant, commendatos suscipientes, necessarios eis 
+favores, et sponte vestra ac quotiens fneritis requisiti, prestare velitis . . “ 
+
+2 Listinu priobći Kačić (razgovor naroda slov. U Beču 1836. I, 141) 
+pod naslovom: decretum Stephani Thomae. Za tiem Farlati (Illyr. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILrl I PATARENI. 
+
+
+155 
+
+
+kralja, izdanu tek poslije dva mjeseca. Stjepan naime Toma po¬ 
+kloni dne 22. kolovoza 1446 knezovom Pavlu, Marku i Jurju, si¬ 
+novom vojvode Ivaniša Dragišića, grad Ključ s mnogimi seli. Ovo 
+svoje darovanje zajamči kralj sljedećom ustanovom : „da im se toj 
+ne ima poreći, ni potvoriti, ni na manje donesti, ni za jednu neviru 
+ni zgrihu kraljevstvu našemu, što nebi ogledano gospo¬ 
+dinom didom i crkvom bosanskom i dobrimi Bošnjani. 
+I s timi sa vsim više pisanim pridasmo ih gospodinu 
+diđu Miloju i didu kon dida u ruke crkovne." Pome- 
+nuti knezovi bijahu po svoj prilici Patareni; te iskahu od kralja, 
+da svoju darovnicu stavi pod zaštitu njihove crkve i njezine glave, 
+
+sacr. IV. 68) dobivši listina od bosanskoga Franjevca o. Luke Vlad- 
+mirovića. Pisana je latinski, prem su sve izprave bosanske pisane 
+našim jezikom. Mnogo se toga u listini navodi, što ju čini sumnjivom. 
+U naslov kraljev nespretno je uvršteno „Bosnensium sive Illyri- 
+corum 44 , koje je ime novoga, dalmat.-dubrovačkoga kova. Stjepan 
+se Kosaca piše „herzegh s. Sabbae u i o toj hercegovini odredjuje 
+5 članak; prem Stjepan dobi taj naslov tek god. 1448; a u povelji 
+od 22 kol. 1446 piše se jošte „B6AHKH Kp&A€KhCTKA ROCANhCKOra BO€KOp 
+CTHflAHh BBKhYHf»h.“ Veli se, da je listina izdana „per manus rev. 
+patris in christo d. Villemir Vladmirović, episcopi Cresovi- 
+ensis et Narentinarum ecclesiarum graecanici ritus, aulae nostrae se- 
+cretarii, et graecanicarum litterarum ac legum doctoris. 44 Kr. listine u 
+Bosni pisahu sada protovestijar, sada dijak dvorski, za Tome bijaše 
+,,KpAA£BkCTBA npOTOBHCTftflh PeCTO€ (Miklošić: mon. serb. p. 428 
+450) i Atfi&Kh TBphTKO CeKKilOBHfih (ibid. p. 440), koji se čitaju na 
+njegovih listinah. Osim toga protivi se navedenim o kraljevu kato- 
+ličtvu okolnostim, da bi njegovim „tajnikom 44 bio biskup iztoČno-pra- 
+voslavne crkve. Od biskupa ove crkve osim pomenutoga navode se 
+patrijar Teofanes, metropolite Maksim srbski, Jovan maČvanski 
+i Teodor „Paugna 44 . Srbskim patrijarom bijaše god. 1444 i 1451 
+Nikodim (Glasnik XXIII, 242); pa prem se u njekih spomenicih na¬ 
+vodi i Teofanes; ali mu je vrieme neizvjestno, a toj neizvjestnosti 
+nesmijemo žrtvovati Nikodima, niti radi nje tvrditi, da je Nikodim 
+god. 1444 različit od Nikodima 1451, te da je Teofan, patrijerevao 
+izmedju obiju. U listini srpskoga kneza Gjorgja od 22 travnja 1426 
+(ibid. XIII, 242) čita se „Phaona dei gratia Grazanicie metropolita 44 ; 
+ime „Phaona 44 slaže se s imenom naše listine „Paugna 44 . Ali patrijar 
+srbski, metropolita srbski i gračanički niesu bili u vlasti bosanskoga 
+kralja nego srbskoga kneza. Na dalje „Michael Jad rensis 44 nije 
+bio god. 1446 „vicarius Bosnae 44 ; jer se za takova navodi poznati 
+o. Fabijan u pismu Eugenia IV od 3 srpnja r. g. (Theiner: mon. 
+Slav. merid. I, 394). Isto tako nije o. Eugenio Summa 44 bio g. 1446 
+inquisitorom, već se navodi tek god. 1451. Velemože i dostojanstve- 
+
+
+Digitized by <^.ooQle 
+
+
+
+156 
+
+
+FR. RAČKI. 
+
+
+pa da ona imade priesuditi, kada bi se učinili krivci „nevire i 
+zgrihe w prama kralju, usljed koje bi mogli biti lišeni onoga dara. 1 
+Stjepan Toma ukriepi dakle svoje darovanje knezovom Dragišićem 
+na onaj isti način, na koj njegov otac Stjepan Ostoja ukriepi god. 
+1404 svoje izmirenje s vojvodom Pavlom Klešićem. Odavle sliedi, 
+da je Stjepan Toma god. 1446 priznavao crkvi bosanskoj i nje¬ 
+zinu djedu Miloju onu istu povlasticu i onaj isti položaj u državi, 
+koje jim njegov otac prizna vaše prije četrdeset godina u vrieme 
+njezine najveće sile i najodlučnijega upliva. A kako se i ovim pri¬ 
+znanjem daje u sklad dovesti onakova ustanova, koja se u čl. 1 
+tobožnje listine od 24 lipnja i. g. sadržaje? U lipnju bio bi Stje- 
+
+venici, koji se navode u listini, dolaze do duše u drugih takođjer 
+spomenicih bosanskih; ali ili u drugo vrieme ili inače. Tako kraljev 
+se brat Radivoj piše „banus Jajce u , a Stjepan Vlatković „Usorae 
+banus" ; doČim se tek u zakonih ugarskih god. 1490 §. 12, 1492 
+čl. 8, 1507 čl. 5 napominje „banatus de Jajca w , u spomenicih pako 
+bosanskih neima mu traga. Banovi bosanski, dok se Stjepan Tvrdko 
+zakralji, nošahu takođjer naslov od Us ore; isto tako ugarski načel¬ 
+nici u Usori koncem XIII stoljeća nošahu taj naslov; ali ni jednomu 
+ni drugomu (ban .jajački, ban usorski) naslovu neima spomena za 
+kraljeva bosanskih. Radivoj „ Vladmirović" navodi se u listini kano 
+„iudex curiae w , dočim bijaše u ono doba po listini od 22 kol. 1446 
+„ABOphCKH KN€j£h CTHlUtNh (UaTKOKHkh 44 ; a knez Ra doje Vladi- 
+mirić (ne Vladmirović), sin kneza Radoslava, bijaše dvorski tek 1461 
+za sina Tomaševa kralja Stjepana (Miklošić op. cit. p. 488) Od dru* 
+guda su nam poznati: Petar Pavlović, sin Pavla Juijevića, voj¬ 
+voda Pavao Čubretić, po listini prvi „dapiferorum“, drugi „pin- 
+cernarum magister"; ovaj bijaše vlastelin (1461) kralja Stjepana 
+Tomaševića. Mjesto Ivana navodi se g. 1446 Petar Kovačević. 
+Nikoli Altom anoviću naše listine odaziva se do duše „voj¬ 
+voda Altomanus" mletačke listine od god. 1435 (Glasnik XIV, 
+20); ali ovaj bijaše u državi Gjorgje Brankovića, kneza srbskoga; kao 
+što s druge strane neima primjera, da bi „praefeetus regni Rasciae „ 
+i „praefeetus regni Serviae, 44 kao što naša listina navodi, spadao medju 
+bosanske velemože. Ako sve ovo uzmemo na um : onda nećemo ni 
+časka o tom posumnjati, da je ovu listinu kasnije pisac sastavio po 
+primjerku ugarskih sličnih izprava, te u nju iz drugih listina uvrstio 
+velemože, koji su živjeli u Bosni ili u bližnjoj Srbiji za vrieme Stje¬ 
+pana Tome, ili nješto bud prije bud poslije. Pri tom nije nemoguće, 
+da je isti pisac imao pri ruci inih ustanova bosanskih, koje je on u 
+ovu listinu sabio, a podvrgao jih kralju Torni. 
+
+1 Matica na pergameni u našem zem. narod, muzeju. Preštampana u 
+arkivu za jugoslav. poviest. II, 39. Kod Miklošića: mon. serb. p. 
+438—440. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+157 
+
+
+pan Toma zabranio Patarenom hramove zidati i porušene dizati, u 
+kolovozu pako podvrgnuo svoj vladalački čin nadziranju crkve bo¬ 
+sanske i njezina načelnika! 
+
+Stjepan Toma, kano što se razgovjetno razabire iz ove li¬ 
+stine, nije god 1446 manje cienio snage svojih patarenskih poda¬ 
+nika, nego liju cienio prije godine dana; a s toga nije mislio, da 
+bi već sada mogao od one osnove odstupiti, koju njegov poslanik 
+u Rimu razloži, i koja steče ondje uvjetno odobrenje. 
+
+S druge strane čini svjedoče, da je Stjepan Toma poslije 
+onoga dogovora, koj zametne s papinim poslanikom povodom pisma 
+od 3 stud. 1445, većma svoje katoličko uvjerenje na javu iznosio. 
+Izmirivši se s redovnici sv. Franje potraži on od apost. stolice 
+dozvolu, te ju pismom 1 od 18 lipnja 1447 zbilja dobije, da si 
+s kraljicom može izabrati dva bosanska redovnika za svoje dvor¬ 
+ske kapelane, te da jih smije za svoja poslanstva upotriebiti i ne- 
+pitavši njihovih poglavara. Tiem je kraljevski dvor došao pod veći 
+upliv ovoga reda; a sve to potaknu ga na ona dobrotvorna prama 
+crkvi djela, koja poče izvoditi. Kralj i kraljica sagradiše 2 crkve 
+sv. Tome pod Vrandukora sv. trojice u Vrili („Verlau u ), kraljev 
+pako brat Radivoj, kojega se odanost prama rimskoj stolici hvali, 
+sagradi crkvu sv. bogorodice u mjestu „Podenubac 443 itd^^ 
+
+Ovo dosta velikim uspjehom započeto u Bosni djelo nastavi 
+Eugenijev nasljednik papa Nikola V, koj zasjedne 6 ožujka 1447 
+stolicu sv. Petra. Ovaj papa bijaše inače muž blage ćudi, tč je 
+kano stožernik i biskup u Bolonji (Toma di Sarzano) češće iza- 
+šiljan bio, da svojom blagošću i razboritošću razmrsi različite 
+crkvene i državne zamršaje one dobe; tako je on na knežev- 
+skom zboru, koj bješe u Frankfurtu dne 1 rujna 1446 otvoren, 
+put utro porazumljenju izmedju Njemačke i apost. stolice. Jedna¬ 
+kom je opreznošću sada pristupio k bosanskomu pitanju. Povod mu je, 
+da se u njega umieša, dalo već samo poslanstvo velikoga vojvode 
+Stjepana Kosače, koje je u Rim došlo „malo kašnje u iza njegova 
+na papinstvo uzvišenja. On je usljed toga imenovao hvarskoga bi¬ 
+skupa Tomu svojim u Bosni poslanikom preporučiv ga pismom 
+od 18 lipnja 1447 svim i svakomu, a potvrdiv mu drugim od 20 
+r. m. sve povlasti, koje mu predšastnik u ovom poslu bijaše po- 
+
+1 Theiner: monum Hungar. II, 235. 
+
+2 Ibid. p. 233—234. 
+
+3 Theiner: monum. Slav. merid. I, 428. 
+
+
+Digitized by <^.ooQle 
+
+
+
+158 
+
+
+FR. RAČKI. 
+
+
+đielio. 1 Papa je na dalje drugimi poveljami 2 uzeo u zaštitu apo¬ 
+stolske stolice tako kralja Stjepana* Tomu kako njeke kat. vele- 
+može, imenito Petra Vojsalića i Sladoja. 
+
+Poslanik Toma imao na njeko vrieme posla u Spljetu, jer ga 
+papa listom 3 od 21 r. m. preporuča spljetskomu nadbiskupu i 
+kaptolu, da mu za njegova ondje boravljenja stan ustupe. Ali 
+Bosna bijaše glavnom svrhom njegova poslanstva, a u njoj kano 
+da je bio humsku zemlju odabrao za početak svoga djelovanja. 
+Stjepan Kosača bijaše na usta svoga poslanstva rimskoj stolici 
+izjavio pokornost („obedientiam verbalem tantummodo u ); tiem su 
+Tomi otvorena vrata u njegovu zemlju; ali sada mu tek valjalo 
+patarenstvo odanle iztriebiti, ili bar njegovu moć slomiti. Papinski 
+poslanik pozove poglavice sljedbe, da se upuste u razpravljanje 
+ovoga vjerskoga pitanja. Oni su izprvice na taj poziv pristali bili; 
+već bješe pače dan i mjesto sastanku odredjen. Ali i taj se sastanak 
+razbi o oporosti Patarena, nehtjevših se poslaniku približiti. Ne može 
+biti sumnje, da su se humski Patareni najviše uzdali u zaštitu 
+svoga gospodara velikoga vojvode Stjepana i njekih velemoža, od 
+kojih vojvoda Ivaniš Pavlović bješe jim se iz nova pridružio ođ- 
+padši od kat. vjere. 
+
+Poslanik Toma neopravivši na taj način u Humu ništa vrati 
+se negdje koncem god. 1447 u Rim. Papa Nikola V odluči upo- 
+triebiti sada strožija proti Patarenom sredstva; odaslav dakle opet 
+u Bosnu hvarskoga biskupa naloži mu pismom 4 od 1 velj. 1448, da 
+Stjepana Kosaču, vojvodu Ivaniša Pavlovića i patarenske starješine, 
+ako se nebi na njegovu opomenu obratili, ne samo izobći, nego 
+da njih, zemlje i gradove njihove predade pravovjernikom na mi¬ 
+lost i nemilost, te ovim pod crkvenom kaznom zabrani ulaziti s trgom 
+u njihove zemlje. 
+
+Biskup se Toma, kano što svjedoči pismo 5 pape od 24 listo¬ 
+pada r. g. uputi u Bosnu. Ali on nije ni sada, sudeć po nadošlih 
+dogadjajih, izveo u Humu nakana rimske stolice. Veliki vojvoda 
+bosanski i „herceg od sv. Save u nije se dao ni obratiti ni zastra¬ 
+šiti. S toga se djelovanje papina poslanika ograničilo na samu 
+
+1 Pisma kud Theinera: monum. Hung. II, 236. 7. 
+
+2 Ibid. 
+
+3 Ibid. p. 238. 
+
+4 Apud Rayhalđi: annal. ad a. 1449, nr. 9. 
+
+5 Kod Theinera loc. cit. p. 250. 
+
+
+Digitized by 
+
+
+Google 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+159 
+
+
+Bosnu. Ovdje je kralj Stjepan Toma, kao što se iz pisma 1 Janka 
+Hunjada od 24 lipnja 1449 razabire, upleten bio u razmiricu sa 
+srbskim knezom Gjorgjem, s druge se strane spremao na Turke, 
+te je u tu svrhu iste godine savez u svojem gradu Doboru uglavio 
+s Ugarskom. 2 Nastali je rat za Bosnu bio tim opasniji, što su ne¬ 
+zadovoljni bosanski Patareni Turčina podupirali i njegove čete 
+ojačali. Pa već s toga nije rimska stolica katoličkomu oružju mogla 
+uzkratiti svoje pripomoći; za to je papa Nikola V, .kao što tvrdi 
+njegovo pismo 3 od 26 siečnja 1450, pozvao odane si velemože, da 
+priteknu u pomoć, ako bi jih hvarski biskup pozvao. On je za 
+tiem punomoćnicom od 11 lipnja r. g. izaslao u Bosnu kostničkoga 
+biskupa Ivana kano svoga izvanrednoga poslanika; a istom je 
+prigodom kralju bosanskomu i njegovoj vojsci pismom od 14 r. m. 
+podielio povlasti i milosti davane križarom, da „u ratu, koj vodi 
+za svoju obranu proti Turkom i krivovjernim Manihejom, obuzda 
+njihovu bjesnoću^. 4 Ove nam kratke viesti svjedoče, kako su se 
+vjerozakonske razmirice u Bosni prevrnule bile u izdajničke osnove, 
+dočim su se Patareni zgrnuli pod zastave medijskoga proroka proti 
+svojoj otačbini. Netrieba dakle istom uvjeravati, da je kralj sada 
+strožije postupao proti ovim odmetnikom i usljed čega su se njeki 
+obratili, a drugi „pred licem Franjevaca izniknuli drugamo se pre¬ 
+selivši^ 5 Ovi bosanski izseljenici, medju kojimi je bilo do 40 sta¬ 
+rješina sljedbe, nadjoše utočište u Humu kod hercega Stjepana, 
+koj je i sam ostao vjeran sekti i svoje jednovjerce branio. Ovdje 
+su oni do skora došli u priliku, da pod stjegovi Stjepanovimi vojuju 
+proti svomu inovjernomu vladaocu. 
+
+Ovomu ratu povod dade zavada hercega s Dubrovačkom 
+obćinom. Dubrovčani su proti Stjepanu tražili pomoć u Ugarskoj, 
+kod rimske stolice, u Italiji i Bosni; a katoličke su oblasti, kano 
+
+1 Kod Schwandtnera: Scriptores rer. hungar. II, 61. 
+
+2 Arkiv za jugosl. povjest. II, 28. 
+
+3 Farlati: Illyr. sacr. IV. 259. 
+
+4 Pisma kod Theinera loc. cit. p. 255 — 6. „Quod tu in bello, quod 
+contra Turcos et hereticos Manicheos pro tua defensione 
+geris . . .“ 
+
+5 Svjedoči hvarski biskup Toma u listu od 19 veljače 1451. Ovdje 
+obilazimo, jer sumnjivo, pismo kralja bosanskoga upravljeno iz Viso¬ 
+koga dne 1 srpnja 1450 knezu Radivoju Vladimiroviću (Katona XIII, 
+738—40), da u smislu Konjičkoga sabora u svojoj oblasti, neret¬ 
+vanskoj župi, postupa proti Patarenom. 
+
+
+Digitized by <^.ooQle 
+
+
+
+160 
+
+
+FR. RACKI. 
+
+
+sto nam svjedoče pisma na rimsku stolicu, od 27 veljače 1451 
+i od srpnja 1452, tiem najviše proti Stjepanu bunili, što je on 
+„opaki Pataren , u a Dubrovnik sa svih strana „obkoljen od opakih 
+Patarena w , s toga od davna njihovu nasrtanju izložen. 1 Ovako- 
+vimi izvještaji htjedoše Dubrovčani dati njeki vjerozakonski značaj 
+ovomu inače jedino političkomu ratu; što se utvrdjuje i tiem, jer 
+su oni od pape Nikole V molili (1451), da bi one milosti, koje on 
+prigodom jubileja (1450) podieli svim pomagajućim vitezove sv. 
+Ivana u njihovu proti Turčinu ratu, podielio takodjer saveznikom 
+kat. dubrovačke obćine. Ovaj je razlog, komu se pridružio i po¬ 
+litički, potaknuo i bosanskoga kralja Stjepana Tomu, da je on na 
+poziv vieća dne 18 prosinca 1451 uglavio u „Stonom mjestu u 
+Bobovcu u s punomoćnikom dubrovačkim Alvizom Gučetićem savez 2 
+obvezav se „početi rat suprotiv hercegu Stjepanu Vukčiću i negovu 
+vladanju i negovim gradovom i negovim slugam sa vsom gospockom 
+kralevstva moćiju. . ne imijuće teškoće ali vojske turske na sebi; 
+i ošće. .ne učiniti mira ni sklada ni jednoga s hercegom Štipanom 
+bez vole i hotinja više rečenih kneza i vlastel vladušćago grada 
+Dubrovnika. u Kako su vjerski obziri poticali bosanskoga kralja na 
+ovaj savez proti Patarenu i glavnomu zaštitniku sljedbe, može se 
+i odavle nagoveštati, što je onaj savez utanačen i zaprisegnut „prid 
+otcem ligatom biskupom hvarskim (Tomom) i prid otcem kuštodom 
+i kapelanom Marinom , u koji kano glavni predstavnici katoličtva u 
+Bosni jamačno mnogo nastojahu oko toga saveza. U taj savez bi- 
+
+1 Lettere e commissioni di Levante. MSC. arch. ragus. vol. a. 1448 
+— 80 : „Perchč la cittk de Ragusa č situata in terra ferma, e da 
+ogni canto delle sue iurisdicioni confina et circumvallata dalli per- 
+fidi Patareni senza alcun altro intramezzo de terra o d’ aqua, 
+per tal che za antiquissimi tempi č stata et sta in tribulacione, 
+perchč lo luogo, dove č situata la detta cittk, fu. luogo de essi in- 
+fedeli. E da poi in quk, che fu cavata de le man de essi infedeli, ć 
+stata mol to inquietata e vexata per essi infedeli, benchč per la gracia 
+de dio se č conseruata e difesa “ 0 hercegu Stjepanu pišu papi: 
+„Sanctitati vestre alias (11 sept. 1451) supplicavinus, quatenus scri- 
+bere dignaretur nonnullas breves apostolicas principibus Italie, qua- 
+tenus nullum favorem vel auxilium darent comiti Stefano, perfido 
+Patareno, cum quo bellum habemus . . u Prvi izvod iz pisma, koje 
+je dubrovački poslanik Ivan Gasula dobio, primiše Annali di Ra¬ 
+gusa: MSC. knjižnice jugoslav. akad. br. 839. p. 660—661 od rieči 
+do rieči. 
+
+2 Listina kod Miklošića: monuin. serb. p. 447 — 50. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+i 61 
+
+
+jahu takodjer povučeni vojvoda humski Ivaniš Vlatković i knez 
+Pavao Petrović, pače isti hercegov sin knez Vladislav. 1 
+
+U sried ratna bjesnila nije se propustilo nastojati o utvrdjenju 
+kat. crkve u Bosni. Papa Nikola V, kao što nam svjedoči nje¬ 
+govo pismo 2 od 26 siečnja 1451 izasla u Bosnu o. Franju de Lara, 
+redovnika sv. Augustina; a mletačku i dubrovačku vladu pozva, 
+da budu bosanskomu biskupu u pomoć, kada god ju on zaprosi. 
+Osim toga povjeri papa dubrovačkim dominikanom propoviedanje 
+u Bosni; a predstojnik reda sv. Franje opunovlasti pismom od 
+30 prosinca r. g. poznatoga nam o. Jakova, žalećega, „što je Bosna, 
+koju on toliko puta proputova, jošte okaljana nevjerom manihej- 
+skom w , da se onamo uputi kano povjerenik reda. Kralj je pako 
+ovomu redu išao toliko na ruku, da je svojim podložnikom na¬ 
+ložio, neka propovjednike hranom obskrbe. Nu i papa nastojaše o 
+tom, da Stjepanu Torai budu čim slobodnije ruke u zatiranju kri- 
+vovjerstva. S toga je on ugarsku vladu opomenuo, da drži mir, 
+koj bješe s bosanskim vladaocem ugovorila. Ali u Ugarskoj kano 
+da su držali Stjepana Tomu odviše mlitavim u proganjanju „one 
+stare odsudjene heresije, koja se u onoj jedino kraljevini goji na 
+veliku ne samo štetu nego i porugu katoličke vjere w . Tako se bar 
+vojvoda Janko Hunjadi tuži u svojem papi dne 18 svibnja 1451 
+pisanom listu. 3 Uspjeh nam ipak daje protivno svjedočanstvo; jer 
+zajedničkomu radu crkvene i državne vlasti podje za rukom pri¬ 
+vesti na katoličtvo više bosanskih velemoža. 4 
+
+Ali ovi pojedini prielazi nemogoše sljedbe uništiti, dok joj 
+sielo u Humu nebješe razoreno, a glavni joj zaštitnik silan i oporan. 
+Ovamo je dakle rimska stolica svoje sile naperila. Papa Nikola V 
+dočuvši kroz Dubrovčane, da „Stjepan vojvoda sv. Save napade du¬ 
+brovačko zemljište i nenaviestivši rata, te mu nebrojene poraze i 
+najveće štete nanese, pače počini njeka zla na sramotu kršćan¬ 
+skoga imena i porugu katoličke vjere w , izasla k njemu Pagamina, 
+olgunskoga biskupa, pozvav ga „da od ova^ovih provala posvema 
+odustane w . Stjepan bješe za kratko obustavio neprijateljstva; pače 
+pripravnim se izkazao, da će se odreći bludnja „smrtonosne he¬ 
+resije w , te je u Rim poslao poklisare, koji će o svem tom obaviestiti 
+
+1 Ibid. p. 444. 451. 
+
+2 Kod Farlata: lllyr. sacr. IV, 71. 
+
+3 Ap. Schwanđtner: script. rer. Hung. II, 104. 
+
+4 Farlati loc. cit. p. 71. 72. 
+
+R. J. A. VIII. U 
+
+
+Digitized by 
+
+
+Google 
+
+
+
+162 
+
+
+FR. RAČKI. 
+
+
+apostolsku stolicu. Papa Nikola V bješe već začeo nadu, da će pata* 
+renska kriva vjera biti iztriebljena iz cieloga Huma; pa je pismom 1 
+od 1 srpnja 1452 svoga u Bosni poslanika biskupa Tomu uputio u 
+Dubrovnik, da kneza i vieće skloni na mir s hercegom Stjepanom. 
+Apostolska je naime stolica držala za potrebito, da se prije svega mir 
+povrati u one razvraćene strane; pa je u toj nakani utvrdila takodjer 
+mir izmedju bosanskoga kralja sjedne i njegovih velemoža vojvode 
+Petra Vojsalića i Vladislava Klešića s druge strane;' 2 jer se za ratna 
+bjesnila nije moglo misliti na izravnanje vjerskih razmirica. Ovomu 
+posredovanju pošlo je za rukom izmiriti ratujuće stranke, a to tim 
+prije što objema bješe rat dosadio. Herceg se Stjepan, kao što se 
+razabire iz listine od 19 srp. 1453, izmiri najprije sa sinom Vlađi- 
+slavom i gospodjom Jelenom, za tiem uglavi dne 10 travnja g. 1454 
+mir s Dubrovnikom. 3 Sa strane hercegove mnogo je k tomu doprineo 
+odličan član patarenske sekte Papinih rocib, jedan glavnijih savjetnika 
+njegovih. 4 Na jednaki je način posredovanjem poslanika uglavljen 
+mir izmedju kralja bosanskoga i hercega sv. Save. 5 
+
+Ovim se mirom nije ipak izravnala vjerozakonska razmirica, 
+koju je rimska stolica glavno pred očima imala. Dogovor u tom 
+poslu jamačno vodjen izmedju hercega Stjepana i papina poslanika 
+nije urodio žudjenim plodom. Ovo izvodimo iz listine hercega Stje¬ 
+pana od 19 srpnja 1453, kojom se on, kako rekosmo, izmiri sa 
+svojim sinom Vladisavom i njegovimi saveznici, vojvodom Sladojem 
+Senkovićem, knezom Jurjem Ratkovićem, vojvodom Ivanišera Jur- 
+jevićem i knezom Vukašinom Sankovićem. Jer se herceg ondje 
+medju ostalim obvezuje: „ako bi se koja godje sumnja našla po 
+kojoj godje rieči medju rečenu gospodu, da ne mogu. ni hoću ja 
+gospodin herceg Stjepan učiniti nijedno zlo ni nepravdu . . dokla 
+godje ne bih obiskao i obnašao pravo i cielo i istino 
+gospodinom djedom crkve bosanske i dvanaest s tro j- 
+nikoma, medju kojemi strojnici bude g. gost Radi-n 
+za svoga života, i k tomu 12 vlastela našijeh poglavitieh, 
+koji hote pravo a . 6 Ova nam obveza, kojom se crkva patarenska 
+
+1 Kod Theinera op. cit. p. 263 — 5. 
+
+' 2 Ibid. p. 265. 
+
+8 Listine kod Miklošića op. cit. p. 457. 460. 465. 
+
+4 Cf. ibid. p. 472. 3. 
+
+6 Sliedi iz pisma pape Pia II god. 1460 kod Farlata IV. 263. 
+
+6 Jdiklošić op. cit. p. 459. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+163 
+
+
+u Bosni, imenito njezin biskup i glavni častnici, postavlja raz- 
+sudnicom i miriteljicom stranaka, dosta razgovjetno svjedoči, da 
+herceg Stjepan nije ni poslije navedenih pokusa sa rimske strane 
+prestao biti vjernikom one crkve; pa da je ova i poslije onoga 
+rata, koj je i njoj o glavi radio, ostala u svojem položaju prvaš- 
+njem bar u humskoj oblasti. Ona i njezini starješine ostaše i kod 
+drugih humskih velikaša ove vjere u prvoj časti. Tako su voj¬ 
+voda Petar i knez Nikola, sinovi vojvode Radosava a unuci Pavla 
+Radinovića, stupili u dogovor s Dubrovnikom „savjetovavše se 
+— kao što pišu u listini 1 od 15 srpnja 1454 — s naširai savit- 
+nici po običaju z gospodom strojnici crkve bosanske. u I kod ugo¬ 
+vora bijahu prisutni „mnogo počteni strojnici gospodin gost Radosav 
+Bradievič i g. starac Radosav. u 
+
+Tako se onom razmiricom nije okoristila ni katolička ni pa- 
+tarenska crkva; njom se jedini lukavi Turčin okoristio. On se 
+okoristio ne samo tiem, što su se ratujuće stranke oslabile, nego 
+i tiem, što je mržnja izraeđju Patarena i katolika prve utjerala u 
+njegov tabor. Učenici Muhamedovi i Bogomilovi sdružiše se proti 
+katolikom pod jednim stiegom, i to žalibože na južnoslovenskoj 
+zemlji. Posljedica ovoga druženja bijaše ta, da se herceg Stjepan 
+niti dva mjeseca poslije osvojena Carigrada (29 svibnja 1453) pisao 
+„milostiju božjom i gospodara velikoga gospodina cara amir-sultan 
+Mehmed-bega herceg od sv. Save“. 2 Pokle je tako Kalifa podigao 
+polumjesec nad aja-Sofijom, a gospodar Huma priznao mu vrhovnu 
+vlast: onda je Bosna nalik zrele jabuke nad njim visjela, sveudilj 
+pripravna da mu padne u krilo. Turska je sila Bosnu po malo 
+opasavala, nastojeć da ostale zemlje balkanskoga poluotoka prije 
+posjedne, pa onda na osvojenje Bosne prieđje. Car Mohamed H 
+zavojšti najprije Podunavlje, osvoji Ostrovicu (1454), obsjede Bio¬ 
+grad (13 lipnja—22 srpnja 1456), podvrgne si Smederovo, i Srbiju 
+svojoj carevini utjelovi (1459). I s juga se Turčin bosanskim gra- 
+nicam približavaše osvojivši Prizren (1458) s Rašom. 
+
+Bosna je sada jedinu polagala nadu u sučuvstvo zapadne 
+Evrope, a osobito rimske stolice. Kralj bosanski Stjepan Toma 
+izasla Nikolu Testia novomu papi Kalistu III, koj se obradova, 
+što od toga poslanika doču, kako kralj podupira katoličtvo u svo- 
+
+1 Ibid. p. 469 — 72. 
+
+* Ibid. p. 460. 
+
+* 
+
+
+Digitized by <^.ooQle 
+
+
+
+164 
+
+
+FR. RAČKI. 
+
+
+joj državi; p k ga pismom od 31 travnja 1455 primi ujedno sa 
+sinom Stjepanom u zaštitu rimske stolice, obećavši mu ujedno, da 
+će mu predati, kada se predobiju one zemlje, koje su mu Turci i 
+nevjerni podanici oteli. 1 Isti papa posla za tiem sliedeće godine 
+hvarskoga biskupa Tomu u Bosnu i Hrvatsku u „njekih važnih 
+poslovih 4 *. 2 
+
+I zbilja sva je težnja rimske stolice išla za tiem, da podigne 
+križarsku vojnu proti Turčinu, pa da prije svega pogranične države 
+združi na zajedničko djelovanje. U tu je svrhu papa Kalisto III, 
+kako nam tvrde njegova pisma 3 od 21 travnja 1457 na Stjepana 
+Tomu i bosanskoga vikara o. Filipa Dubrovčana, izaslao Ivana 
+Gradića Dubrovčana k bosanskomu i ugarskomu kralju i srbskomu 
+despotu. Stjepan Toma izjavi papi pismeno svoju odluku, da će 
+udariti na Turčina; te ga zamoli, da bi mu poslao podporu i osim 
+nje križ i zastavu; na što ga Kalisto pismom 4 od 23 r. m. uputi, 
+na svoga kod ugarskoga dvora poslanika karđ. Ivana od sv. An- 
+gjela; ovomu pako podjedno naloži, da ide kralju na ruku. Nadajuć 
+se Stjepan Toma u pomoć zapada uzkrati sultanu harač, koj mu 
+dotle davaše; pa opet posla u Rim Franjevce oo. Breka i Dimi- 
+trija a Nikolu Testia k zapadnim dvorom 5 , da pospieše obećano su¬ 
+djelovanje kršćanskih vlasti kod budućega rata, koj je kralj bo¬ 
+sanski već u rujnu bio naumio započeti. Papa ne samo utvrdi kralja 
+u toj odluci posebnim listom 6 od 29 srp., ne samo preporuči želje 
+njegove rečenomu poslaniku kard. Ivanu, nego pozove u pomoć mle¬ 
+tačkoga dužda Franju Foskarina, opunovlasti o. Marijana iz Siene 
+da propovieda u Ugarskoj i Bosni križarsku vojnu i sabira novčane 
+priloge za Stjepana Tomu, pa i svu svoju vlast na to upotriebi, da 
+Ugarsku na oružje podigne, 7 i da ovu kraljevinu, za tiem Bosnu, 
+Poljsku i Njemačku prinuka na zajednicu i obranben savez. Ovu 
+namjeru rimske stolice podupiraše Stjepan Toma sa svoje strane, 
+te se u ovu svrhu uputi prvih dana mjeseca prosinca 1458 u Se- 
+gedin, gdje bi urečen sastanak s ugarskim kraljem Matijom. 8 
+
+1 Theiner: monum. Hung. II, 272. Assemani: Calendar. eccl. univ. V, 85. 
+
+. 2 Pismo kod Farlata: Illyr. sacr. IV, 261. 
+
+3 Kod Theinera ibid. p. 290. 91. 
+
+4 Ibid. 
+
+5 Lucius: memor. di Trau p. 451. 
+
+6 Kod Theinera op. cit. p. 298. 
+
+7 Ibid. p. 304—315. 
+
+8 Svjedoči pismo Matije kod Katone op. cit. XIV, 166. 168. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+165 
+
+
+Vojna turska, koju otvori sultan ljeti sliedeće godine (1459) 
+svrši se, kako znamo, s porazom kršćanskih stjegova. Pobjeda 
+polumjeseca bješe kraljevini bosanskoj ubitačna ne samo za to, što 
+se neprijatelj primaknuo granicam njezinim i što je on sada svr¬ 
+nuo osebito na nju svoje oči, nego i za to, što se gubitak grada 
+Smedereva, koj se ne manje od osvojenja Carigrada oplakivao, u 
+grieh Stjepanu Tomi upisivao, 1 a tiem od njega odvratilo sučuvstvo 
+ugarskoga i rimskoga dvora. K tomu dodje u Rim o Stjepanu 
+Tomi druga viest, koja je apost. stolicu još više proti njemu raz- 
+dražila; da je naime Stjepan Toma prekinuvši mir s hercegom 
+Stjepanom napustio u Hum turske čete, pa da još za Turčina traži 
+od hercega grad Cazin. Sve je ovo uzbunilo srdce novoga pape 
+Pia H, poznatoga od prije povjestnika i državnika Eneje Silvija, 
+koj je ljeti 1459 bio u Mantovu sazvao obći zbor kršćanskih vla¬ 
+dalaca, da jih sjedini proti napredujućemu Turčinu. On je sada, 
+kano što se iz njegovih rieči u pismu 2 od 12 ožujka 1460 raza- 
+bire, nazirao u bosanskom kralju protivnika svojih težnja. Ovu je 
+ogorčenost papa očitovao u svojoj naredbi 3 izdanoj dne 18 siečnja, 
+i opetovanoj dne 15 travnja r. g. svomu poslaniku biskupu Tomi, 
+naloživši mu, da saslušavši prije obje stranke razvidi onu osvadu; 
+pak ako je kralj ono zbilja počinio, da izobći njega i učastnike, 
+pače da prema potrebi udari interdikt na zemlju. 
+
+Kako lasno nije moglo već onda doći u Bosni do grozne 
+katastrofe? kada bi se naime kralj bio bacio Turčinu u okrilje. 
+Ali Stjepan Toma udari drugim putem. On je volio s jedne strane 
+ukloniti od sebe onu crnu osvadu, s druge pako jasnim načinom 
+zasvjedočiti svoju naprama katoličkoj crkvi i rimskoj stolici ne- 
+kolebivu vjernost i odanost. Kralj naime odluči strožije proti Pa¬ 
+tarenom postupati, bilo iz protimbe k hercegu Stjepanu, u kom su 
+oni svoga zaštitnika štovali, bilo iz razloga što su se oni s Tur¬ 
+činom dobro pazili. S toga odredi, da se Patareni imadu ili po- 
+
+1 Sr. listove papine od 24 i 30 srpnja 1459 kod Raynalda: annal. 
+XIX. 31. Kaprinaja H. D. P. II, 399. U prvom se o Smederevu 
+veli: „oppidum Zendreu iu Rassia constitutum, insignis custodiae 
+locus, nuper in potestatem Turcorum devenit, eiusque ammis- 
+sione non minor quam a Constantinopoli creditur 
+c lades a ccepta“. 
+
+2 Ap. Katona op. cit. XIV, 343: „Quum et nefarium regis 
+Bosnae facinus sit to ti orbi notissimum ... u 
+
+3 Ap. Farlati: Illyr. sacr. IV, 262. 
+
+
+Digitized by <^.ooQle 
+
+
+
+166 
+
+
+FR. RAČKI. 
+
+
+krstiti ili iz Bosne seliti. 1 Mnogi su od njih voljeli ovo drugo, te 
+se utekli u Hum pod zaštitu hercega Stjepana. S toga je papinski 
+poslanik kard. Ivan zamolio Pia II, da se na hercega obrati, neka 
+ne prima u svoju zemlju ovih izseljenika bosanskih, kako bi ostavši 
+u Bosni prisiljeni bili prieći na katoličtvo. Papa je na to zbilja 
+poslao poslanike s pismom k Stjepanu; prem kao da je odanle 
+slab uspjeh očekivao. 2 
+
+Podjedno je kralj Stjepan Toma god. 1460 negdje u proljeću 
+poslao svoje punomoćnike k papi, da ga pred njim opravdaju i 
+približe apost. stolici. Poslanici su osvadu radi Smedereva tiem 
+obarali, da se onaj dogadjaj „zbio iz nužde a ne po volji kra¬ 
+ljevoj 44 . Odanost su kraljevu prama stvari katoličkoj utvrdili pozi- 
+vajuć se na odluku njegovu, kojom je „pogibeljan puk patarenski 
+izagnao iz svoje države 4 *. Osim toga, da se pokaže, kako se kralj 
+brini za razširenje katoličtva u Bosni, tražili su poslanici u nje¬ 
+govo ime, neka odredi za onu zemlju biskupe, i neka tamo uputi 
+poslanika, „koj bi dobro promotrio 44 tako djela kraljeva, kako i 
+izpitao njegove molbe. Koliko je rimska stolica bila pripravna za¬ 
+dovoljiti zahtjevom bosanskoga vladaoca i uzpostaviti njekadanje 
+bolje odnošaje: toliko je ugarski dvor, smatrajući položaj Bosne 
+s gledišta svoga državnoga prava, nastojao sve ovo prepriečiti ili 
+bar odgoditi. On je pače bio pročuo, da Stjepan Toma traži u Rimu 
+krunu, a takovu sa strane apost. stolice popustljivost bez izrične 
+pri volje apost. kralja bio bi držao za očitu povredu ugarskoga držav¬ 
+noga prava. Ali onaj glas nebijaše istinit, kao što nebijaše po svje¬ 
+dočanstvu 3 samoga hercega Stjepana ni onaj, da je bosanski kralj 
+pomenuti grad za Turčina iskao. S druge strane papi Piju H mnogo 
+bješe stajalo do sporazumljenja s kraljem Matijom, dočim kano da 
+neimaše u Stjepanu Tomi tvrde vjere. S toga je papa pismom 4 
+od 7 lipnja 1460 uvjeravao kralja ugarskoga, da mu je dobro po- 
+
+1 Ap. Theiner: op. cit. II, 358: *quod (rex) perniciosam Pata¬ 
+ren or um gen tem ex omni ditione sua expulerat.. u 
+
+3 Ibid. p. 359.: „Duci Stephano denonrecipiendis Patarenis 
+mandatom, quod suađes, per litteras et oratores nostros diligentissime 
+fecimus; nec quocies occasio fuerit, iterare id obmittemus; atque utinam 
+moniciones nostras ita semper, sicut salutares ut prompte fuerint, 
+ubicunque profuturas cognoscamus . .“ 
+
+3 Sr. odgovor mletačkoga vieća od 26 veljače 1460 poslanikom her¬ 
+cegovim kod dra. J. Šafarika u Glasniku XIV, 190. 
+
+4 Theiner op. cit. II, 358. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+167 
+
+
+znato, „što Toma proti njemu učini i što proti obćoj kršćanskoj 
+stvari sagrieši w : pa da mu nebi bez njegove privolje podielio krune, 
+kada bi ju i bio on zamolio, kao što su ju njegovi predšastnici od 
+apost. stolice prosili, a to tiem manje, što niti je lagan u dieljenju 
+milosti, niti u tih stvarih tako nevješt, da jim nebi zamašaja do¬ 
+kučio. Glede zahtjeva o podignuću novih biskupija odgovori papa, 
+da on dobro ’znade, kako valja dobro promozgati dok se podignu 
+nove biskupije ondje, gdje jih neima. Iz ovih je razloga poslanika 
+u Bosnu uputio, da ga o stanju stvari izviesti a ne da izpuni, što 
+bosanski kralj zamoli. U istom je smislu papa pisao svomu kod 
+ugarskoga dvora poslaniku kard. Ivanu, 1 koj ga bješe još prije 
+obaviestio o tom, „što kralj Matija sumnjaše o dolazku poslanika 
+kralja Tome. a 
+
+Rimska je medju tiem stolica skoro nov dokaz zadobila o 
+pravovjerju bosanskoga kralja. Stjepan naime Toma uputi u Rim 
+tri bosanske velemože vjere patarenske, nernogavši jih sam obratiti, 
+da „se laglje odvrate od bludnje i upoznadu put istine.“ Ovi ve¬ 
+lemože bijahu: Gjuro Kučinić, Stojsav Tvrdković i Radovin Vien- 
+činić. U Rim jih dovede Božo, biskup Ninski, a papa jih smjesti 
+u samostanu, gdje jih kard. Ivan de Turrecremata podučavaše u 
+istinah katoličke vjere. Oni se, poslije ove obuke, svečano ođre- 
+koše patarenstva i biše primljeni u kat. crkvu. Prije svoga u do¬ 
+movinu povratka zamoliše ova vlastela, da jih rimska stolica primi 
+u svoju zaštitu i da jim dozvoli u otačbini podići i obskrbiti nove 
+crkve. Papa Pio II izpuni ovu želju obraćenik^ apost. pismom iz¬ 
+danim jim dne 2 kolovoza 1461. Ali ova nakana, koju očitovaše 
+u Rimu, nije ostala u sve trojice jednako nepokolebiva; jer jedan 
+od njih, čim se dokopa granica domovine, povrati se opet u bo¬ 
+sansku crkvu i priedje ravno u Hum. 2 
+
+Rimska stolica dobivši takovih dokaza odanosti sa strane 
+Stjepana Tome, opet se s njim izmiri i sprijatelji. Papa je sada 
+bio uvjeren, da je taj bosanski vladalac zbilja „vere catholicus u ; 
+pak je njega odredila onim obraćenikom za zaštitnika i branitelja. 
+
+1 Ibid. p. 358. 9. 
+
+9 Ove viesti doznajemo iz navedenoga papina pisma od 2 kolov. 1461 
+kod Theinera ibid. p. 363 i od suvremenoga pisca Gobelina kod 
+Rajnalda; annal. XIX 31, 110. U papinu se pismu kaže: „apud 
+quam (sedem apost.) personaliter constituti ..omnes Maniche- 
+orum errores et illorum heresim abnegantes..." 
+
+
+Digitized by <^.ooQle 
+
+
+
+168 
+
+
+FR. RAČKI. 
+
+
+Ali jedva je Stjepan Toma ovo priznanje doživio, jer se onih dana, 
+svakako prije 20 kolovoza 1461, prestavio. 1 
+
+Stjepana Tomu ide u po vješti Patarenstva svakako znamenito 
+mjesto. On sam bijaše odgojen u toj vjeri; iz zabiti na priestol 
+uzvišen prigrli katoličku, koja u onih okolnostih bijaše od koristi 
+njemu, obitelji i državi. Proti Patarenom, svojim njekadanjim 
+jednovjercem, postupaše veoma oprezno. Iz početka nije dirao u 
+onaj položaj, koj si crkva bosanska bješe u državi, osobito po¬ 
+četkom XV stoljeća, izhodila. Tek onda, kada su Patareni, opa¬ 
+zivši kako jim se njegovanjem katoličtva zemlja izpod nogu otima 
+i kako se kralj sasma u ruke zapada bacio, izdajničke proti Bosni 
+osnove izvodili, tvoreć urotu sada s odmetnikom Stjepanom sada 
+s neprijateljem kršćanstva — tek onda podiže ovaj kralj proti njim 
+progonstvo. 
+
+Stjepan Toma ostavi svomu sinu i nasljedniku Stjepanu Bosnu 
+vjerskimi borbami razvraćenu, vrebajućemu neprijatelju izloženu. 
+Stjepanu Tomaševiću bješe, čim prihvati žezlo, prva briga, da uz- 
+postavi prijateljske odnošaje s vanjskimi vlastmi i da se s her¬ 
+cegom Stjepanom izmiri. Ali prije svega nastavi s rimskom sto¬ 
+licom priegovore, koje bješe njegov otac započeo. S toga umah 
+uputi onamo svoje poslanike. Ovaj je dogovor i za naše pitanje 
+toli znamenit, da ga nesmiemo mdkom obaći. 
+
+Pripovieda se, 2 da su bosanski poslanici, koje bješe kralj 
+Stjepan Tomašević poslao k Piju II, ovako nagovorili papu u ime 
+svoga gospodara: „Bosanski kralj, tvoj sin sveti oče! posla nas 
+k tebi i zapovjedi ovo u njegovo ime reći: obavješćen sam, da 
+turski car Mohamed misli dojdućega ljeta vojskom na me udariti 
+i da je već vojsku i topove pripravio. Tolikoj sili nemogu ja sam 
+odoljeti; s toga zamolih Ugre i Mletčane i Gjorgja (Kastriotu) 
+Arbanasa, da mi u pomoć priteku. Ovo isto molim i tebe; ja ne- 
+prosim zlatnih gora; ali bi rado, da moji neprijatelji i zemljaci 
+znadu, da mi neće uzmanjkati tvoja priklonost. Ako doznadu 
+Bošnjaci, da neću samcat biti u ratu, hrabrije će vojevati; a niti 
+će se Turci osmjeliti moje zemlje napasti, u koje su ulazi veoma 
+
+1 U zaključku mletačkoga se vieća od 20 kolovoza 1461 ovo čita 
+(Glasnik XIV, 192): „quemadmodum notum est, sćrenissimus rex 
+Bossine anteactis diebus ab humanis subtractus est . . 
+
+2 Gobeliinus ap. Pray: annal. P. III, p. 275. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+169 
+
+
+težki, i gradovi na mnogih mjestih skoro nepredobivi. Tvoj pred- 
+šastnik Eugenio ponudi momu otcu krunu i htjede podići u Bosni 
+biskupske crkve. Otac se ustručavaše, da neizazove proti sebi mržnje 
+Turaka; bješe bo nov kršćanin, niti je još bio izagnao Maniheja 
+iz kraljevine. Ja sam pako kano diete kršten bio, i učio latinsku 
+knjigu i čvrsto prihvatio kršćansku vjeru; pa se nebojim, čega se 
+otac bojao. S toga želim, da mi krunu pošalješ i sv. biskupe; što 
+će biti znakom, da me nećeš ostaviti, ako bi rat nastao. Od tebe 
+krunjen, donieti ću pouzdanje podanikom, strah neprijateljem. Za 
+života moga otca bio si naložio, da mu se pošalje oružje, sakup¬ 
+ljeno za križarsku vojsku a bivše u Dalmaciji u mletačkoj ruci; 
+ali to nije mletačkomu vieću po volji bilo; zapovjedi, da se sada 
+meni pošalje. Sada ćeš valjda više naći odziva, pošto i Mletčani 
+drugačije misle, i nakaniše, kako se govori, rat Turčinu naviestiti. 
+Jošte molim, da izašalješ poslanika takodjer u Ugarsku, koj će 
+moju stvar kralju preporučiti i nagovoriti ga, da sa mnom prodje 
+na vojnu. Tim se načinom može Bosna spasiti; inače će poginuti. 
+Turci su u mojoj kraljevini sazidali njekoliko tvrdjava, i ljubezni 
+se naprama seljakom pokazuju; obećavaju, da će svaki njih biti 
+slobodan, koj k njim odpadne. Prost um seljaka nerazumije pre¬ 
+vare (arces mj. artes), i misli, da će ona sloboda vazda trajati. 
+Lahko da će prostota, ovim varanjem zavedena, od mene odpasti, 
+ako nevidi da sam tvojom vlašću ojačan; ni plemići nisu se dugo 
+održali u svojih gradovih, ostavljeni od seljaka. Kada bi Mohamed 
+samo moju kraljevinu tražio, te nebi htjeo dalje poći: onda bi se 
+mogao sudbini propustiti, niti bi triebalo uzbuniti ostalo kršćanstvo 
+radi moje obrane. Ali nezasitljivo gospodoljubje neimade granici; 
+poslije mene napasti će Ugarsku i Dalmaciju podčinjenu Mletčanom, 
+i prieko Kranjske i Istre tražit će Italiju, koju želi svladati. I o 
+Rimu često govori, te mu ovamo srdce čezne. Ako on nemarom 
+kršćani moju kraljevinu osvoji, naći će najprikladniju zemlju i naj¬ 
+zgodnija mjesta da si izpuni želju. Ja prvi očekujem nepogodu; a 
+za menom će Ugri i Mletčani i ostali narodi svoju sudbinu oku¬ 
+siti. Ovako misli neprijatelj; ovo što izkusih, tebi obznanjujem, da 
+nebi jednom rekao, da niesu bila prijavljena, i mene nemarnošću 
+obiedio. Moj je otac tvojemu predšastniku Nikoli i Mletčanom udes 
+Carigrada proricao; kršćanstvo je na svoju veliku štetu izgubilo 
+carski grad, stolicu patrijarkije i stup Grčke. Sada ja o sebi pro¬ 
+ričem; ako mi vjerujete i pomognete, spasit ću se; inače ću propasti 
+
+
+Digitized by <^.ooQle 
+
+
+
+170 
+
+
+FR. RAČKI. 
+
+
+i sa mnom mnogi. Ovo ti Stjepan doglasuje; ti, koji si otac krš¬ 
+ćanske vjere, podaj savjet i pomoć." 
+
+Jesu li, nisu li bosanski poslanici poruku svoga gospodara 
+papi donieli ovimi upravo riečmi, to napokon u našoj stvari neod- 
+lučuju; ali one, kao što nam je drugud poznato, vjerno opisuju 
+položaj kralja Stjepana i njegove države. Nije čudo, što je kralj 
+nada sve iskao zaštitu apost. stolice, pošto je ona tada sva podu¬ 
+zeća kršćanske Evrope proti Turčinu rukovodila; i što je on svoju 
+prama kat. crkvi odanost izticao, te medj ostalim tražio od rimske 
+stolice sebi krunu a kraljevini biskupe. 
+
+Papa Pio II, koj je sav svoj viek ponajviše proveo smišljajuć 
+i izvadjajuć osnove proti Turčinu i shvaćao znamenitost Bosne za 
+kršćanstvo, nije se oglušio željam bosanskoga vladaoca. On izasla u 
+Bosnu svoje poslanike, koji okruniše Stjepana „slobodnom privoljom 
+— kako ovaj oglasi mletačkomu vieću negdje u studenom 1461 — 
+svih njegovih velemoža i vlastele kraljevine". 1 Ovaj državni čin 
+bijaše i tiem znamenit, što mu prisustvovaše herceg Stjepan, za¬ 
+stupan po svojem sinu knezu Vlatku i humskim velemožam. 2 
+
+Jednakim se načinom rimska stolica pobrinula, da se od 
+Bosne odvrati pogibelj turske bujice. Papa Pio II pozva u pomoć 
+vlasti kršćanske u smislu proglasa izdanoga u mantovanskom zboru 
+dne 14 siečnja 1459; a pismom 3 od 7 stud. 1461 naloži ninskomu 
+biskupu Boži, da za obranu Bosne i Huma propovieda križarsku 
+vojnu. Na dalje je papa gledao listom od 21 siečnja 1462 ugar¬ 
+skoga kralja Matiju izmiriti s kraljem Stjepanom; te ovo isto pre¬ 
+poručio biskupu Ivanu Vitezu, mužu velikoga ugleda. Bosanski je 
+kralj u tom išao papinoj namjeri u susret, izaslav sam svoje po¬ 
+slanike u Budim. Matija se dade do duše umiriti; ali on je, kao 
+što se vidi iz njegova papi odgovora, 4 još sveudilj položaj Bosne 
+
+1 „Capitula serenissimi et excellentissimi regis Bossine" u Glasniku 
+XIV, 201. Da su papini poslanici Stjepana okrunili sliedi iz pisma 
+
+kr. Matije od god. 1462 kod Katone XIV. 498. 
+
+3 Glasnik loc. cit. p. 202. 
+
+3 Theiner op. cit. II, 366 — 9. 
+
+4 Kod Katone XIV, 494—99. Kralj se Matija takodjer u naputku, 
+koj je svomu poslaniku Ladislavu podielio, ovako o Bosni izrazi: 
+„Item de regno Boznae, quod pertinuit semper et pertinet ad Hun- 
+gariam, facies improperium cum moderatione summo pontifici, qui 
+forte per inadvertentiam talia facit, quod regi Boznae datur fiducia 
+separandi se ab hoc regno. u Ibid. p. 558. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+171 
+
+
+smatrao s gledišta ugarskoga; s kojim se niesu slagali ni zahtjevi 
+Stjepana, ni posljednji koraci rimske stolice. Ali ova nije prestala 
+spremati Bosnu sa svoje strane za bližnju borbu. Papa Pio II 
+imenova pismom 1 od 23 ožujka spljetskoga arcibiskupa Lovru 
+Zannia, za tiem drugim 2 od 11 prosinca r. g. modruškoga biskupa 
+Nikolu, rodom iz Kotora, za svoje u Bosni poslanike, opunovlastiv 
+prvoga da propovieda križarsku vojnu, „ako bi Turci u onu kra¬ 
+ljevinu provalili." 
+
+Sultan Mohamed II medju tiem je ovih godina uništio obje 
+grane bizantinske carevine, osvojiv Peloponez (1460) i Trapezunt 
+(1461); pa je onda slavodobitno svršio vojnu vlašku i mitilensku 
+(1462). Sada je red na Bosnu došao. Sultan odluči provaliti u 
+Bosnu ljeti 1463. 0 toj nakani bješe bosanski kralj Stjepan oba- 
+viešten kroz njekoga sultanova viečnika, te ju početkom g. 1863 
+putem svojih poslanika priobćio mletačkomu vieću pridodav još 
+ovu viest, da „Turčin misli, pokle osvoji Bosnu, Hura i Dubrovnik 
+prieko Istre zavoj štiti na Mletčane". Odavle se po sebi nudilo, 
+što je Stjepan i predložio vieću, da uglave savez proti zajednič¬ 
+komu neprijatelju. Stjepan se pače ponudi republici za njezina u 
+onih stranah vodju. Osim toga nije od nje tražio ništa drugo, nego 
+da mu pošalje nješto oružja, koje je pripravljeno za križare le¬ 
+žalo u Dalmaciji i njekoliko puškara, te da i Bosnu primi bud u 
+mir ili primirje, bud u rat s Turci. Skoro je nedokučivo, koli 
+hladan odgovor 3 dade mletačko vieće dne 28 veljače r. g. na ove 
+predloge bosanskoga kralja. Republika sliedeć svoju trgovačku po¬ 
+litiku imala je pred očima jedino svoju privremenu korist; ona se 
+nije nakanila ni zaratiti ni miriti s Turčinom, a Stjepana uputi na 
+hercega, na Ugarsku i Njemačku, na rimsku stolicu i ostale krš¬ 
+ćanske vladaoce. 
+
+Ali Stjepan mogaše crpsti utjehu iz đjel& a ne liepih rieči. On 
+je u isto vrieme uputio poslanike k papi; a videć kako ratne priprave 
+sporo idu, posla druge k padiši, da izhode primirje na 15 godina. 
+Nu dok je on kucao na vratih kršćanskih dvorova, silni se car 
+Muhamed H diže početkom proljeća god. 1463 s velikom vojskom 
+
+1 Theiner: monum Hung. II, 374. 
+
+2 Farlati: Iilyr. sacr. IV, 108. 
+
+3 Predloži i odgovor u Glasniku XIV, 220—27. Ondje je godina 
+krivo zabilježena, jer dan 28 veljače 1462 u nalet, izpravi jest po 
+ljetopisu 28 velj. 1463. 
+
+
+Digitized by <^.ooQle 
+
+
+
+172 
+
+
+PR. RAČKI. 
+
+
+(150.000 mom.). U Ugarskoj se mislilo, kao što se vidi iz pisma 1 
+kralja Matije od 14 travnja, da sultan naumi udariti na Biograd i 
+Ugarsku; s toga se ugarska vojska odpravi k Savi. Ali turska 
+vojska, 2 pošto se evropske i azijske ćete sdružiše u Jedreni, krene 
+prieko Skoplja i Vučitrna u Raši k Sjenici na bosansku granicu. 
+U Vučitrnu bješe sultanu doglašeno, da se kralj Stjepan sprema 
+u Bobovcu na obranu. S toga je sultan napried poslao velikoga 
+vezira Mahmuđ-pašu s jakim odjelom vojske, a on sam polaganije 
+pošao i prešao prieko Lima i Drine (valjda kod Priboja i Više- 
+grada). Turska vojska dodje najprije u oblast vojvode Tvrtka Ko- 
+vačevića, 3 koj joj se predao, nebivši tobož pripravan za odpor, jer 
+da „nije znao“ da će car tako iznenada doći. Zla kob po nesretnu 
+Bosnu i nesretna joj kralja. Ovaj, valjda uplašen onom predajom, 
+povuče se u svoj stolni grad Jajce; a turska vojska dodje bez za- 
+prieke pod Bobovac, pa ga topovi zauze. Sultan posla odavle svoga 
+vezira sa 20.000 lakih konjanika kralju u potjeru; ali se ovaj skup- 
+ljajuć sile, koliko uzmože, povuče prama hrvatskoj granici u tvrdi 
+grad Ključ, ležeći kod rieke Sane pod planinom Sišom. Mahmud 
+osvoji Jajce, ondašnju priestolnicu Bosne, a drugi dan su njegovi 
+konjanici dotrčali pred tvrdju, u koju bosanski kralj donese samo 
+živu glavu. Dok je sultan u Jajce stigao, dovede mu vezir zarob¬ 
+ljena kralja „sa još jednim drugim prijateljem njegovim . u Bosanski 
+vladalac pade pod mačem krvnika, kao što su nješto prije pali 
+njegovi drugovi car trapezuijtski i vojvode od Atina i Lesba. Ka¬ 
+tastrofa se ova izvela prije 13 lipnja 1463, kojega ju dana mle¬ 
+tačko vieće đoglasi 4 svomu zapovjedniku mornarice Alviziju Lau- 
+redanu i papi Piju II. 
+
+Štilac će se valjda dosjetiti, iz koga razloga nacrtasmo ovdje 
+posljednje dane bosanske neodvislosti. On će iz ovoga već nacrta 
+
+1 Kod Telekia: Hunyadiak kora XI, 60. 
+
+2 Ovu bosansko-tursku vojnu opisuju: Grk. L. Cbalkondylas (Atc6Bsi£si<; 
+t<jT0pixai ed. Pariš. p. 283 seq.) i turski povjestnici kod Hammera: 
+Geschichte des osman. Reiches I, 477—80. U novije doba stekosmo 
+nov izvor: Mijajla Kbnstantinoviča, Srbina iz Ostrovice ljetopis turski, 
+izdao dr. J. Šafafik u Beogradu 1865. Mijajlo sam bio u toj vojni 
+i to u turskoj vojsci. 
+
+3 M. Konstantinović p. 123. Ovaj se Kovačević navodi uz ostale bo¬ 
+sanske velemože u listini kralja Stjepana od 23 stud. 1461 kod 
+Miklošića op. cit. p. 487. 
+
+4 Pisma u Glasniku XIV. 229 — 231. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+173 
+
+
+razabrati, kako je ova kraljevina bezprimjernom kukavštinom pro¬ 
+pala, i svoga vladaoca bez borbe žrtvovala nezasitljivoj pohlepi i 
+krvoločnosti turskoj. Predaja, izdaja — ove dvie rieči užasne po¬ 
+kazuju put, kojim je sultan Mohamed II došao u posjed ove pre¬ 
+krasne južnoslovenske zemlje. On je, prekoračivši njezine medje, 
+prvu joj oblast predajom, nije li izdajstvom dobio; a „jedva se 
+pročuo glas — kako piše bizantinski povjestnik — da je Bobovac 
+osvojen, ostali su gradovi uplašeni glavu izgubili, i svaki je za se 
+o tom radio, da se prvi predade, nađajuć se da če tim načinom 
+doći kod cara u ne malenu milost.“ Bosna dakle ne može u ovoj 
+proti Turstvu borbi pokazati niti na Kosovo kano Srbija, niti na 
+Carigrad kano Grčka, niti na Kroju kano Arbanaska. Ona se ne 
+može ponositi niti Lazarom i Milošetn, niti Gj. Kastriotom, pače 
+niti Konstantinom i Teofilom Paleologorn. 
+
+Istina je, Bosna je u toj nejednakoj borbi podlegla neravnoj 
+sili; ona bješe osamljena. Kršćanske su vlasti mirno gledale, kako 
+se ona u svojoj krvi kupa. Pozivi se i proglasi rimske stolice 
+razbijahu o njihovoj sebičnosti; ona je i sada dne 30 lipnja po¬ 
+zvala križare, da prelaze prieko Save i Dunava. 1 Ugarska je 
+vojska, dok je sultan Mohamed II osvajao Bosnu, stojala kod Save; 
+a kralj Matija mišljaše 2 ovu zemlju, koju smatraše češću ugarske 
+krune, oteti iz turske ruke, da ju onda svojoj državi utjelovi. Sto 
+još veću sjenu baca na ovu katastrofu, je to, da herceg Stjepan, 
+otac nesretne Katarine, ostavi kralja Stjepana na cjedilu; pa i po¬ 
+slije njegove propasti valjalo ga prieko mletačke vlade umoliti, da 
+pomogne četi bosanske vlastele osloboditi zajarmljenu jim i oko¬ 
+vanu domovinu. 3 
+
+Svi nara ovi znakovi prstom kažu, da je Bosna veoma bo- 
+lestna bila, čim nemogaše ni junački poginuti. Ova bolest ležaše 
+ponajglavnije u vjerskoj i ćudorednoj razvraćenosti, koja se u nje¬ 
+zinu tielu od više viekova zalegla, te ga po malo raztrovala. Vjerske 
+razmirice, osobito izmedju kršćana jedne i druge crkve i Patarena, 
+priedjoše u strasti, koje se medj njima u toliko razplaratiše, da se 
+
+1 Pismo kod Theinera op. cit. II, 378. 
+
+2 Vidi se iz njegova pisma kod Katone XIV 625: „Intenđi animum 
+ad recuperationem Boznae, recenti času amissae, ut, cui opem ferre, 
+ne periret, praeventus dolis, non potui, ei vel perditae, ope dei, 
+qui fraudis đolique vindex est, opportune consulerem . .“ 
+
+3 Vidi odgovor mlet. vieća od 12 kolovoza 1463 u Glasniku XV 139. 
+
+
+Digitized by <^.ooQle 
+
+
+
+174 
+
+
+PR. RAČKI. 
+
+
+Patareni jošte za vlade Stjepana Tome pridružiše Turčinu iz osvete, 
+ili ga u pomoć pozivahu proti svojoj inovjerskoj braći. U Bosni 
+se takodjer obistinilo, što suvremeni bizantinski povjestnik Mihajlo 
+Dukas piše o razjarenosti izmedju Grka i Latina i onda, kada 
+su biesni janičari provalili u priestolnicu: „Kada bi angjeo bio 
+s neba u onaj čas (kada se naime puk uteče u crkvu sv. Sofije) 
+zbilja sišao, te bi bio ove rieči naviestio: prihvatite združenje cr¬ 
+kava, a ja ću tada neprijatelja iz grada iztjerati; oni nebi bili na 
+to pristali, te bi se bili radje Turčinu nego li rimskoj crkvi pre- 
+dali. u Tako su Patareni u Bosni voljeli Turčina. Oni su, kako 
+znamo, prije dvadeset godina bili tako silni, da Stjepan Toma nije 
+smjeo u nje dirati iz straha da kraljevstva neizgubi. A kada jim 
+se položaj stao u Bosni otimati, nadjoše podporište u Humu; 
+gdje u hercegu Stjepanu nadjoše zamjenika Kulinu, Ninoslavu itd. 
+S druge strane bude katolička struja prekasno u Bosnu svedena, 
+da bi bila mogla patarensku vjeru u kratak čas odplaviti. K tomu 
+su tako Stjepan Toma kako i njegov nasljednik badava za Bosnu 
+tražili onakovo ustrojstvo kat. crkve, koje se svagdje ukazalo toli 
+uspješno njezinu učvršćenju. 
+
+Patareni su se još kupili u Humu ok6 hercega Stjepana i 
+njegove obitelji. Ok6 samrtna odra, na kojem ležaše herceg i glavni 
+one dobe Patarena zaštitnik (f 22 svibnja 1466) stajahu pored 
+Davida mitropolite Mileševskoga i kneza Pribisava Vukotića često 
+napominjani „gospodin gost Kadin 44 , koj mu takodjer bijaše „ku- 
+ćanin 44 , za tiem „KpcmtiHNh TBfu^MCJBh i KpCTKiNHNh Yef>hMKO“. Oni 
+bijahu i svjedoci njegove posljednje volje. 1 Ali i u Humu, čim mu 
+više trnula samostalnost, tiem nam više izpred očiju nestaje ove 
+sljedbe. Stjepanovi sinovi Vlatko, Vladisav i Stjepan upravljahu do 
+njekle svoju djedovinu pod vrhovnom vlašću sultana i njegovih 
+namjestnika; prvi se pisao „herceg sv. Save 44 , drugi „veliki voe- 
+voda rusaga bosanskoga 44 . 2 Ali već se ljeti 1470 god. navodi „Ajaz 
+beg, bosanski sanžak, i od hercegove zemlje (Hercegovine) 
+Hamza-beg 44 . 3 
+
+1 Hercegova oporuka s prilozi kod Pučića: spomenici srbski II, 124 
+—136; kod Miklošića: monum. serb. p. 495 — 8. U izvorniku se 
+Tvrdisav piše „ kršćanin a , u lat. prievodu (Pučić. p. 135) „Tver- 
+disavo Patharino. u 
+
+2 Miklošić: ibid. p. 506 seq. 
+
+3 Listina ondje str. 513. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+175 
+
+
+Mnogi se bosanskih i humskih velikaša s kraljicami Kata¬ 
+rinom i Marijom, te s Vlatkom i Vladisavom izseliše iz nesretne 
+jim otačbine. 1 Drugi to iz koristi i lasti to na silu primise vjeru 
+svojih novih gospodara; pa raeđju ovimi bijaše i Stjepan 2 mladji 
+sin hercega Stjepana (Ahmed-beg), i djeca Stjepana Tome i Kata¬ 
+rine Žigmund i Katarina, 3 Ali-beg, „sin kneza Ivana Vlahovića, 
+česnegjer i sklav sultana Mehmeda ul itd. Mislim, da ćemo u toj 
+razpravi naći odgovor na pitanje: kako to, da je bosansko plem¬ 
+stvo u toliku broju prešlo na izlam? kako je u Bosni nestalo Pa¬ 
+tarena, dočim se kršćanska vjera u jednoj i drugoj crkvi do danas 
+sačuvala? Izmienimo bosanske Patarene sa sadašnjimi bosanskimi 
+Moslemini, pa uzpostavisrao staru sliku vjerskih odnošaja u Bosni, 
+jednaku ako ne obrisom a ono mašću. 
+
+IV. 
+
+Posljednja trzanja bogomilske vjere u Bugarskoj i grčkoj carevini . 
+Bogomilska vjera, iz Bugarske prieko Srbije u Bosnu presa- 
+djena, nadje posebno ovdje zemljište i podnebjc, dodje u sukob 
+8 rimskom crkvom i njezinom vlašću, te se ondje u obće razvijala 
+u okolnostih različitih od onih, u kojih ju ostavismo u njezinoj ko- 
+lievci i na iztoku. Mi smo sudbinu ove sljedbe u tih stranah južno- 
+iztočne Evrope pratili do konca XII stoljeća, kada se ona pojavi 
+u Bosni, ovdje osnova posebnu crkvu i sačuva se do u drugu po- 
+
+1 Kraljice je Stjepan poslao iz zemlje, kada se turska vojska pribli¬ 
+žavala. Katarina se prieko Dubrovnika preselila u Rim, gdje je u 
+kući kod crkve sv. Marka do svoje smrti (25 list. 1478) stanovala. 
+U njezinoj se pratnji navode: Radić Ivana Klešić, Gjuro Nikole 
+Zubranić, Abraham Radić, Pavla Mirosava Mirković, Jelena Ivana 
+Semković, Marija Gjure Mišljenović (Theiner: Monum. Slav. merid. I, 
+509 —11). Marija, supruga kralja Stjepana, živila je još u prosincu 
+1466 u Spljetu (Glasnik XV 142. 163), s njom je uz druge vele- 
+može bio vojvoda Ivaniš Vlatković, Nikola ćivatović, Jovan Bakić i 
+Jovan Kučić. (Rad jugoslav. akademije I, 159 —163). Vladisiav i 
+Vlatko nadjoše u Dubrovniku utočište (Miklošić p. 522). Prvi ostavi 
+sina Baošu. Stjepanovi praunuci i praunuke Georgije, Pavao, Stjepan, 
+Katarina i Marija živili su još god. 1566 u Sučavi kod moldavskoga 
+vojvode Alexandra (ibid. p. 556). Ovo je sudbina njekih članova vla- 
+dajuće u Bosni obitelji. 
+
+9 Lud. Tuberonis: commentarior. lib. V, §. 7. Ed. Schwandtner. 
+
+3 Ap. Theiner. loc. cit. 
+
+4 Miklošić op. cit. p. 557. 
+
+
+Digitized by <^.ooQle 
+
+
+
+176 
+
+
+FR. RAČKI. 
+
+
+lovicu XV stoljeća, sada štićena a sada proganjana u samoj državi. 
+U ono je doba bogomilska vjera, uzdržana crkvom carigradskom, 
+plovdivskom, bugarskom i dragovičkom, a raztresena od Ohrida 
+do Dunava i Bosfora, stojala u cielom ovom prostoru naprama bi¬ 
+zantinskoj državnoj vlasti i carigradskoj crkvi. S toga i vidismo, 
+kako pravovjerni Komneni, podupirani grčkimi patrijari i svećen¬ 
+stvom, progone ovu krivu vjeru, gdje se god ona u njihovoj care¬ 
+vini pojavi, tako u Traciji, kako u Maćedoniji. U Bugarskoj ovkraj 
+Balkana nadjosmo donle manje tragova ovoj sekti, jer je i javni 
+život ove grčke pokrajine bio zastrt gušćom koprenom. 
+
+Ali i tudjer nam svjetlo prosieva, čim si bugarski narod iz- 
+vojeva svoju državnu samostalnost, jer mu se tada i crkva osovi 
+na naravnu podlogu. Taj je narod, pokle se iza god. 1019 bješe 
+više puta podignuo. uspeo tek u onom ustanku, koj su braća Petar, 
+Asjen i Joan g. 1186 započeli i predvodili. Bugarskim je ustašam, 
+kano što i srbskomu županu Stjepanu Nemanji, mnogo do konačne 
+pobjede pripomogla razvraćenost bizantinskoga dvora i države za 
+carevanja Izaka II Angela (1185—95) i Aleksije III (1195—1203). 
+Bizantinski dvor bude napokon prisiljen uglaviti (1201) mir s Joanom, 
+koj se bio proglasio carem „Bugarom i Vlahom*. Središte nove dr¬ 
+žave bijaše Bugarska s ove* strane Balkana, a carska priestolnica 
+grad Trnov. 
+
+Car Joan, nazirajuć u crkvi i državi grčkoj najvećega i naj¬ 
+dosljednijega protivnika priestolju i narodu bugarskomu, zametne 
+već god. 1200 „u sried ratne buke i vojenih pogibelji 44 dogovor 
+s rimskom stolicom. Dogovor ovaj, 1 koj su vodili najprije Do¬ 
+minik, grčki nadpop u Brindisu, za tiem Ivan, dvorski kapelan 
+papin, i stožernik Lav, s rimske a Blaž, izabrani biskup Braniče- 
+vački, s bugarske strane, urodio je dobrim plodom u toliko, da je 
+nadbiskup trnovski i zagorski Vasilij 6 studenoga 1203 proglašen 
+prvostolnikom bugarske crkve; a Joan sliedećega dana svečano u 
+bugarskoj priestolnici okrunjen za cara „Bugarom i Vlahom 44 po 
+
+1 Pisma preštampana iz regesta kod Theinera: monum. Slavor. merid. 
+I, 11 seq. Bugarska su pisma bila u bugarskom jeziku, ali preve¬ 
+dena najprije u grčki onda u latinski jezik, kano što se veli (ibid. 
+p. 15) o carevu pismu: „literae Calo-Joannis, domini Bulgarorum 
+et Blachorum, missae domino Inocentio papae III, translatae de 
+bulgarico in graecura et de graeco postea in latinum M . 
+Izvornici se niesu do sada našli. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+177 
+
+
+rečenom stožerniku, kano zastupniku pape Inocencije III. Bugarskoj 
+crkvi bude priznan samostalan položaj; bugarskomu prvostolniku 
+(primas) podčinjeni metropolite velbluždski i prieslavski, i episkopi 
+u Skoplju, Prizrenu, Nišu i Bdinu. A bugarska je crkva sa svoje 
+strane priznala prvenstvo rimskoga pape; novo se pako okru¬ 
+njeni car izručio u zaštitu apostolske stolice. Tako je bugarska 
+crkva i država god. 1203 stupila u kolo ostalih evropskih družica. 
+
+Ali nadošli u iztoku dogadjaji razklimaše do skoro onu svezu, 
+koju car Joan bješe sa zapadom zametnuo. Jedva se zastava latin¬ 
+skoga carstva mjesto bizantinske stane mjeseca travnja 1204 vijati 
+na Bukoleonu i Vlahernah: kada se moglo predvidjeti, da će nova 
+latinska i bugarska država doći do sukoba. Joan je već tada (1204) 
+zamolio papu, neka opomene „Latine 44 , da se Bugarske okane, jer 
+da on odbija od sebe odgovornost za sve posljedice, ako bi oni 
+navalili na Bugarsku. S toga, kada car Balduin obsjedne Jedrenu, 
+grad samim Balkanom od Bugarske odieljen, car Joan plašeći se 
+za neođvislost države, odbije neprijatelja i uhvati Balduina (1405). 
+Papa Inocencio III posredova u ovom neprijaznom sraženju; bu¬ 
+garski je car uvjeravao papu o svojoj prama rimskoj stolici oda¬ 
+nosti, da bi pače „za nju glavu dao, ako bi potrebito bilo 44 ; ali se 
+s carigradskimi Latini nedade izmiriti. Ova je zavada Bugarsku 
+opet približila bizantinskomu dvoru, dok napokon u proljeću g. 1207 
+bude izmeđju bugarskoga cara Joana i grčkoga Theodora I Laska- 
+risa savez proti Latinom uglavljen. 
+
+Joan je medju tiera u izvadjanju ovoga saveza iste godine 
+pred Solunom slavodobitno poginuo. 1 Za njegova su se vladanja 
+sve stranke i sile naroda podčinile jedinoj misli: državne i na¬ 
+rodne neodvislosti i njezinu utvrdjenju. Ali kada poslije Joana 
+stupi mjesto maloljetna mu sina Joana Asjena na bugarski priestol 
+njegov sestrić Boris (1207—17): tada izidjoše na površinu svi oni 
+življi, koji su podobni bili raztrovati i podrovati crkven i državan 
+poredak, uveden umom i značajem uzkrisitelja bugarske države. 
+Pa u onom se metežu, koj proizvede carev rodjak Svetoslav oko 
+Ohrida i velemoža Striez na Vardaru, i u onoj borbi proti Latinom, 
+koju sam Boris nastavi — u ovih se okolnostih nutmjega raz¬ 
+dora i vanjskoga takmenja bogomilska sljedba? pojavi opet iz svoje 
+zabiti. 
+
+1 Osim pisama ibid. p. 40 — 42, 44 vidi nov izvor Roberta de Clary : 
+
+la prise de Constantinople. U „Radu“ jugoslav. akad. V, 155 — 59. 
+
+R. J. A. VIII. . 12 
+
+
+Digitized by <^.ooQle 
+
+
+
+178 
+
+
+FR. RAČKI. 
+
+
+Bugarskoj crkvi ove sekte nadjosmo tragove koneem XII sto¬ 
+ljeća u onoj viesti 1 Nazaria, biskupa patarenskoga u gornjoj Italiji, 
+kojom se on priznao učenikom biskupa i djeda crkve bugarske. U 
+vrieme ovo, kada se naime za cara Borisa početkom XIII vieka 
+sekti u trag ušlo, navode se Dobro, Stjepan, Vasilij i Petar kano 
+starješine i glavni učitelji njezini u Bugarskoj. Ob ovih se krivo- 
+vjercih u ostalom ništa neznade osim njihovih imena. 2 Zanimivo je, 
+što i bugarski Bogomili pomoliše glave upravo u ono doba, kada 
+se proti njihovim jednovjercem u Francezkoj, Italiji i Bosni naj¬ 
+žešći boj vodio. Da li je ovaj dogadjaj slučajan i bez svake sveze? 
+Kada bi crkva i država bugarska bila ostala u onoj s rimskom sto¬ 
+licom svezi, koja je god. 1203 bila ustanovljena: onda bismo već 
+u napried znali, kakova je sudbina bugarske Bogomile čekala. 
+Papa Inocencio III nebi bio jamačno s njim i drugačije postupao, 
+nego li, u smislu propisi zapadne crkve, postupaše s Kathari i 
+Patareni. K tomu dodajmo, da je onaj isti Ivan, koj je proti banu 
+Kulinu i Patarenom u Bosni vodio i s uspjehom dovršio iztragu, 
+bio papinskim poslanikom takodjer na bugarskom carskom dvoru. 3 
+Ali sada, pošto se ona sveza s rimskom stolicom prekinu, preuze 
+
+1 Rad jugoslav. akad. VII, 123. 
+
+2 Što se o tom za sada znade, sačuvalo se jedino u sinodiku cara 
+
+Borisa kod Palauzova str. 7 — 9: Boris „iiOCAA CLEpATH H.Kb (Bo¬ 
+gomile) 110 BLCCH ©EAACTH CB06H, IAKOSKC HUK HA IIALBCAU BL CN©Hhl, 
+H HOBCAL CLNHTH CA CLE©f>Oy. ClUI€£UIHML 5KC CA OlfEO Af>XI€p€©ML 
+BLCLMb, CBAI|I€NNHK©ML SBC H HNOK©Mb, 6I|I€ SKC H BLCKMb EOALfkOMb 
+H MNOffibCTBO MNOrO nf>OY€rO NA(IO£A; IAKO OyEO CH£L BLCL£b CLIU€£- 
+1UH£L CA OyBL£LBb l|Apb, AEIC CL CTBLTAOft EArpLNHI|€ft H^U1€£’L CL£€, 
+BL H5KC TOr£A €£HNOH ©TL B€AHKLIH£b IfflLKOBb. H CLEOpOy CL£Oy H 
+C&£Oy nf>L£LCK£Al|!Oy, IIOBCAL npHB€CTH N€YbCTIA CKATCAA ; H N€ AEIC 
+TtkML HA CL BCAHKO& JCblTfKOCTItt TL£b OyAOBH, fkCKb TLMb 
+
+BLCLKb CTf>A,XL ©TL C€E€ ©TLpHMULTH H CL £pL2£NOB€lTi€ML TAArOAATH 
+X0yAN06 TL^L 0yY6NI6. l|Af>h ffi€, H H5KC CL NNML, M&£pbIMH BLIipOCU 
+TLMb NA MNO^L 6)TLBLT0BAftl|INMh ©Tb EOfttACTBCNNblH.KL IIHCANIH, £ON£€ 
+SKC ©EAHYHUI& 2£AOCAABNO€ TL£b M&£pOBANI€. OlIH SKB, IAKOSKC pblEU 
+Ee^rAACHU CTOrfU|IC, N€£OyMLNI€Mb ©TL BLC&£Oy CL£f>LSKHMH Et?C.L 
+BftArOYbCTHKMH SKC l|Aftb CHJCb IIOCftAMACNU £0 K0NI|A BH£LBL, H £IA- 
+BOAA HA£UIA CA H NH^AOSKCNA, £pHCTA SKC B€AHYA€MA, ffcA£OCTH HCIIALNH 
+CA, H nOBCA« TLJCb EAIOCTH H Tt£b, HSKC ©TI NH£b Ilf> 1 >Abl|l€Nhl,\b. 
+K\kO OyEO ©NH Cl A BH£KIIIjL, IIAKbl llf>HT€KOIII& KL CLE©f>tiLN IfpLKBH ; 
+A H SKC H€ nOKOpHUliL CA ll(IABOCAABNOMOy CLE©pOy, lipL£AMH EbltllAL 
+f»A^AHYNMMb KA^NCMb H ^ATOYCNIOy . .“ 
+
+3 Cf. Theiner op. cit. I, 19. 
+
+
+Digitized by <^.ooQLe 
+
+
+
+BOGOM ILI I PATARENI. 
+
+
+179 
+
+
+sama državna vlast u svoje ruke iz tragu proti krivovjercem, kao što 
+vidjesmo u grčkoj carevini i u Srbiji t. j. u zemljah iztočne crkve. 
+
+Prema tomu car Boris zapovjedi , da se potraže i pohvataju 
+Bogomili po cieloj Bugarskoj; onda sazove u sabor sve bugarske 
+„arhiereje, svećenike, redovnike, boljare i množtvo ostaloga naroda**. 
+Sabor je u nazočnosti cara i carice držan dne 11 veljače g. 1210 
+u jednoj od velikih crkava priestolnoga grada Trnova. Bogomili 
+budu dovedeni pred zbor; najprije se priegovorom nastojalo pobiti 
+krivu vjeru. Nauka popa Bogomila i njegovih učenika bude odsu- 
+djena, te on s rečenimi starješinami sljedbe proklet; 1 a proti kri¬ 
+vovjercem izrečene kazne, od kojih se prognanstvo, zatočenje iz - 
+riekom napominje. Mnogi se medju tim Bogomili obratiše, i „opet 
+pritekoše k zbornoj crkvi w . 
+
+Tko u tom postupku nevidi, kako bješe on sasma nadahnut 
+starijimi ustanovami iztočne crkve i carevine? Car je Boris ustao 
+proti Bogomilom svoje države u duhu Aleksija I Komnena. On ga 
+je na njeki način sliedio i u tom, što je povodom ovoga proti Bo¬ 
+gomilom držanoga sabora zapovjedio „npunHCATH CLEOpNHKh on rp'h'ih- 
+cicaro na EAirApcKU cboh A2£UKh“. Prem se ovaj „sbornik** ne može 
+u tom obziru prispodobiti s Evthymijevom razpravom proti Bogo¬ 
+milom, to su se ipak u njegovu prvom dielu, kao u onoj razpravi, 
+navodile nauke onih sekta, koje su svoju vjeru u Bugarskoj raz- 
+prostirale a crkvom bile odsudjene. 2 Ovaj je sbornik stekao velik 
+ugled u Bugarskoj tiem, što je u trnovskoj prvostolnoj crkvi progla¬ 
+šeno, da crkvene u njem sadržane ustanove, medju kojimi bijaše i 
+ona proti Bogomilom, dobivaju kriepost zakona. A kako su ove 
+ustanove niknule u naručju grčko-istoćne crkve, to su one još više 
+učvršćene, kada malo kašnje za vladanja bugarskoga cara i Bo- 
+risova nasljednika Joana II Asjena (1217—41) „posredovanjem** 
+
+1 U Sinodiku: „TplIMATArO KorOMHAA, H MhJCAHAA OyY€NHKA 6rO, H 
+
+OeOAOftA, H H CTe$ANA, H BACHAfrt. H IleTpA, H nf>OYAA erOBhl 
+
+OyY€HHKbl H €AHNOM&Ap%NHKM, HSK6 ,\(>HCTOKO B'EVIit , EI|l€N16 IIpHBNA*fcNfG 
+BUTH EAAAHBUIHXh a N6 © Tlk CBATblA H ll|>1;YHCTUA BAAA1JYHI|A NAUIA 
+BOrOf>OAHI|A MITE lipHATb, CHXb K'kCtVh ANA#6MA. U 
+
+2 Borisov se sbornik sačuva u rukopisu XIV stoljeća, nadjenom u Tr¬ 
+novu. Opisa ga Palauzov. Prvi je odjel, koj svršuje sa slavospjevom 
+caru Borisu, po svoj prilici pisan odmah poslije sabora god. 1210, 
+samo što je došao u kašnjem do nas priepisu. Ovdje je i onaj o 
+Bogomilih odlomak; ali šteta, što neima u onom rukopisu prvih 
+listova. 
+
+* 
+
+
+Digitized by <^.ooQle 
+
+
+
+180 
+
+
+FR. RAČKI. 
+
+
+njegova po sestri Jeleni šuijaka grčkoga cara Joana Duke Vataca 
+(1222—55) sbor iztočnih patrijara, German carigradski, Atanasij je- 
+rusolimski, Simeon antiobijski i Nikola aleksandrijski, prizna sa¬ 
+mostalnost bugarskoj crkvi i prvostolnika bugarskoga Joakima za 
+patrijara bugarske crkve. 1 
+
+Ime carigradskoga patrijara Germana (1221—39 f 1254) tiesno 
+je skopčano ne samo s crkvenom povješću bugarskom i srbskom tiem, 
+što je on dao glavu bugarskoj crkvi u osobi pohvaljenoga Joakima, 
+a srbskoj u osobi sv. Save, prvoga metropolite srbskoga, 2 nego i 
+s povješću grčkih Bogomila. Znamo, 3 kako su ove progonile obje 
+vlasti u drugoj polovici XII stoljeća osobito za Komnena Manojla; 
+ali niti ova jih progonstva niesu mogla iztriebiti iz carevine. Jer 
+kada je stolica carevine i crkve grčke po zauzeću Carigrada kroz 
+Latine prenesena onkraj bieloga mora, u Niceu: pojaviše se Bogo- 
+mili u maloj Aziji. Patrijar German često se sastajao s ovimi he¬ 
+retici, kojim se čudi, kako su neumorni i vješti u zavadjanju be¬ 
+zazlenih duša, dočim se danom i noćju povlače po kućah, obilaze 
+obitelji, te jih pod plaštom pobožnosti odvraćaju od prave vjere 
+hristove. Ovaj učeni pastir nije propustio zgode, da Bogomile obrati; 
+te jih ne samo podučavaše, kada bi se god s njimi sastao, nego i 
+pobijaše živom riečju pred svojimi pravo vjernim i, kao što nam 
+svjedoče njegove besjede držane „*axa Boyo^Xo)v u . 4 
+
+I ovkraj Bosfora, u novoj carevini latinskoj, sačuvaše se 
+ostanci Bogomila iz minuloga vieka, te su oni u isto doba, kada je 
+patrijar German na nje u maloj Aziji ustao, imali svoje obćine u Ca¬ 
+rigradu i Plovdivu, 5 & na koje su jamačno spadali ostali jednovjerci u 
+Romaniji s one strane Balkana. Nastali za tiem u iztoku dogadjaji 
+dosta su prijali ovoj sekti, koja se po svojoj naravi najviše širila, 
+kada su odnošaji države i vladajuće crkve najneuredjeniji bili. 
+
+A tako je upravo bilo na iztoku. Latinsko se carstvo, omra¬ 
+ženo iztočnim narodom, izloženo napadan]u Bugara i Grka, nutr- 
+njim razdorom raztvoreno, nije moglo održati. Ali i u bizantinskoj 
+
+1 Obširnije u Sinodiku kod Palauzova str. 9—11. 
+
+2 Sr. Žitie sv. Save od Domentijana. Izd. Gj. Daničić. U Biogradu 
+1865. Str. 219. 
+
+3 Rad jugoslav. akad. VII, 117. 
+
+4 Imenito „oratio in exaltationem venerandae crucis et adversus Bogo- 
+
+milo8 w , koju priobći Gretser: de cruce. tom. II, p. 1237. 
+
+& Rad jugoslav. akad. VII, 162. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMIU I PATARENI. 
+
+
+181 
+
+
+carevini uzpostavljenoj počeše iznovice djelovati oni razvratni življi, 
+koji niesu bili podobni odoljeti prvoj navali zapadnih križara, i 
+koji su državu pripravljali ratobornim Osmanlijam. Jurve car Mi¬ 
+hajlo VIII Paleolog (1259—81) dade povoda novim zamršajem 
+svojim naprama Joanu III Laskaru krvoločtvom i razmiricom s pa- 
+trijarom Arsenijem. Ova posljednja, a još više bojazan pred za¬ 
+padom , prinuka cara na sjedinjenje iztočne sa zapadnom crkvom 
+u lugdunskom saboru (1274). Ali kao što je ovo sjedinjenje poteklo 
+samo iz državnih razloga, tako su ga ovi pod sinom i nasljednikom 
+Mihajlovim, carem Andronikom II (1282—1328) do skora razbili. 
+Tiem se ipak nije iztočna crkva ojačala; a niti je ona umjela uje¬ 
+diniti stranke, koje su niknule iz njezina krila. Stranačka se borba 
+još jače razplamtila, kada je car Anđronik III (1328 —41) s rimskom 
+stolicom bio opet zametnuo priegovor o sjedinjenju. Ove su dugo¬ 
+trajne stranačke, vjerske i političke borbe u toliko bile raztrovale 
+sav život u carevini, daje učeni Nikifor Gregoras, i s njim pravi 
+grčki rodoljubi, ovako polovicom XIV vieka oplakivao razvraćenost 
+svoje otačbine: „Sve se je svjetlo vjere i razuma utrnulo. Nered 
+jest obćeniti; mnogi su pali u njeku zvjersku tupost; nitko neshvaća, 
+što vodi k spasu i u čem se razlikuje pobožnost od bezbožtva. u 
+
+U takovu stanju grčke crkve i države mogaše se održati bo- 
+gomilska sekta, koja je nižje slojeve naroda i tihu zabit ljubila. 
+Pa ako i nije crkvena vlast u onakovih okolnostih dovoljno mo¬ 
+trila svaki njezin pokret: to je ipak ona ustala na obranu pravo¬ 
+vjerja, gdje god je na to izazvana bila. Tako je crkven zbor, držan 
+pod heraklijskim metropolitom i exarhom sve Trakije i Maćedonije 
+u lipnju 1316 sudio popu Garijanu, obtuženu da je bio kod Pata¬ 
+rena i prihvatio krivu vjeru bogomilsku. 1 I sinoda od god. 1325 
+držana za carigradskoga patrijara Teotilakta imadjaše s bogo- 
+milskom sektom posla. 2 
+
+Istočna je crkva bila dužna ustati na obranu pravovjerja i 
+u ovih pojedinih slučajevih tim više, što je nauka bogomilska našla 
+privrženika i u onoj samoći, koja se mogla smatrati branikom pra¬ 
+vovjerja, i što se ondje u isto vrieme porodio misticizam, koj je 
+bio podoban proizvesti nov razdor u ono razkalašeno doba. Bilo je 
+
+1 Miklošić et Mtiller: Acta patriarchatus Constantinopolitani I, 59 — 61. 
+„6 Se xaxa<; Fapiavo«; vJX8ev e\q to u; riarepivou?, xai £Ba)xav aoT'ov 
+uxepxupa xevrqxovTa xai oXoycv, xai eyivezo eT$ p.£T’ outou$ . . . a 
+
+2 Ibid. p. 140 — 3. 
+
+
+Digitized by <^.ooQle 
+
+
+
+182 
+
+
+FR. RAČKI. 
+
+
+naime redovnika na sv. gori ("A8to<;), koji su u onom tihom za¬ 
+klonu, što no je u svoje pećine i prodole primao pustinjake od 
+davna a redovnike od X stoljeća, prigrlili nauku i življenje bu¬ 
+garskoga popa. 1 Niti je ovaj tek sada našao učenika u ćelijah i 
+lavrah; on jihje, kako znamo, 2 imao medju grčkimi kaludjeri već 
+u prošlom vieku. Sada je medju svetogorskimi otci bogomilsku 
+vjeru širila jošte i solunska koludrica Irena, koja, upivši ju sama, 
+unijela ju zavedljivim}načinom prenesti u onu svetu sžCmoću. 3 Osim 
+Bogomilstva zametne i zanešenost xeroxerceskoga opata Simeona 
+nov razdor u athonskih samostanih. On je naime uveo med braću 
+krivu askezu, 4 koje su privrženici ‘HTj^aorrai (Quietiste) prozvani* 
+Oni su u monahu Varlaamu i njegovu učeniku Grigoriju Akyn- 
+dinu našli najžešće protivnike, u solunskom pako metropoliti Gri¬ 
+goriju Palami najumnijega branitelja. Varlaam je Hesychiaste, koje 
+porugljivo nazivaše X)|jL<paX6^ux 01 ? držao za srodnike Bogomilom i 
+Massalianom, jer je u njihovoj askezi, osobito u nauci o nestvo- 
+renu svjetlu nazirao ditheizam, nješto preinačeni dualizam. S toga 
+nalazimo, da ista ona sinoda, koja bješe u srpnju 1341 držana u 
+Carigradu, prem se proti Varlaamu očitovala, te Hesychiaste razli¬ 
+kovala od Bogomil&, nije mogla obaći nauke i vjere bugarskoga 
+reformatora. 5 Ovoga se pitanja dotaknuo takodjer patrijar Joan Ka- 
+
+1 Svjedoči Nikifor Gregoras lib. XIV, c. 7. p. 714. ed. Bonn.: „Tbv 
+"48(0 to "Opos žv Tourot; £aXtoxĆTO)v MaaaaXtav(5v xal Bc>Yop.{X(*)v.“ 
+
+2 Rad jugoslav. akad. VII, 116 —17. 
+
+3 Svjedoči 2 Khtho h sRH 2 gNt» npenoAOBNaro ohja Numero Oeo^ocfa, H*e 
+Bi TepROB*, koje sastavi njegov drug a potonji (1354—62) cari¬ 
+gradski patrijar imenom Kalista. Žitie je izvorno pisano grčki; jer- 
+monah Spiridion nadje ga u samostanu sv. Joana Rilskoga, te ga 
+prevede. Žitie priobćiše Tremia npH mockobckom'l YHHBepcHTerB. MocKBa 
+1860. Kh. I. 
+
+4 Simeon je svojim kaludjerom dao ovaj naputak: „Zatvori vrata (će¬ 
+lije) i stavi se s&m u kut; i odvrati svoje srce od svake taštine 
+t. j. od vremenitih stvari. Onda prigni obradak na prsa i upri svoje 
+oČi sa svim čuvstvom u sredinu tiela t. j. na pupak; PosrČi takodjer 
+zrak kroz nos i traži u utrobi mjesto gdje je srce, u kojem stanuju 
+sve duševne sile. Tada ćeš najprije tminu naći i tegotu; ali ako uz- 
+traješ i ako se u tom danom i noćju vježbaš: onda ćeš, o čudo! 
+ćutiti neprestano veselje; jer čim čuvstvo nadje mjesto srea, odmah 
+vidi ono, Čega nije znalo nikada; vidi bo zrak medj srcem i sama 
+sebe svjetla i prozirna." Leo Allatius: de eccl. occid. et orient. per- 
+petuo consensu lib. II, c. 17, p. 826. 
+
+5 Acta se sinode Čitaju kod Miklošića i Mullera op. cit. I, 202 — 216. 
+
+
+Digitized by ^.ooQle 
+
+
+
+BOGOMILI I PATARENI. 
+
+
+183 
+
+
+lekar u svojoj poslanici 1 g. 1344, kojom je redovnikom sv. gorskim 
+oglasio zaključak sinode u priepirci izmedju Varlaama i Palame. 
+I onaj crkveni zbor, koj je mjeseca rujna 1350 držan, 2 unidje u 
+razglabanje bogomilske i masalianske nauke onom prigodom, kada 
+hieromonah Niphon bješe obtužen, da ju i on prigrli. Od prisutnih 
+u ovom zboru vladika, pod kojih je upravom stajalo i slovenskoga 
+puka, navode se Filotej exarha „ciele Trakije i Maćedonije a , Mi- 
+trofanes melenički i Dionisij verejski, vladike dakle onih pokrajina, 
+u kojih se bogomilska nauka već u prvom početku bila udomila. Da 
+su i pravovjerni starješine athonskih samostana upotriebili svu stro¬ 
+gost proti zabludjeloj braći, o tom ne trieba nikoga uvjeravati; pa 
+imamo izrično svjedočanstvo, 3 da su oni sazvali zbor, u kojem su 
+heretici „konačnomu prokletstvu predani , u i iz one sv. pustinje 
+izagnani. 
+
+Iz ovoga se nacrta vidi, da je u prvoj polovici XIV stoljeća 
+bilo Bogomila u bizantinskoj carevini mjestimice na onom istom 
+prostoru medju crnim i egejskim morem, na kojem jih nadjosmo 
+prošlih viekova. Samo što jih sada, koliko znamo, niesu toliko 
+obćine, koliko pojedini ljudi, osobito kaludjeri zastupali; i što jih 
+nije progonila toliko državna koliko crkvena vlast. 
+
+U isto vrieme dolaze Bogomili i u bugarskoj carevini na po¬ 
+vršinu; pa je i onaj pokret, koj se pojavio bješe medju grčkimi 
+Bogomili, djelovao takodjer na bugarske. 
+
+U Bugarskoj je poslije cara Mihajla, pogibšega dne 28 lip. 
+1330 kod Velblužda u bitci s kraljem srbskim Stjepanom Urošem 
+III Dečanskim, 4 vladao Mihajlov nećak Joan Aleksandro. Za ono¬ 
+dobne vjerske odnošaje u Bugarskoj nije bez znamenovanja, što 
+je Aleksandro uzeo za ženu njeku židovkinju, koja dobi na krstu 
+ime Theodora. Prem je carica bila „blagočestiva i pravoslavna . . 
+vjeru imieja čistu u , te u slavu božju dizala crkve i manastire: to 
+su ipak Židovi u Bugarskoj, uzdajuć se u njezino zagovaranje, 
+sada nesnosniji postajali pravoslavnim. 5 Uza to dodje iz Carigrada 
+
+1 Ibid. p. 238—242. 
+
+2 Ibid. p. 296 — 300. 
+
+3 Žitie sv. Teodosija loc. cit. 
+
+4 Sr. Stjepanovu listinu kod Miklošića: moiium. serb. p. 100. Žitie 
+Stjepana Uroša, spisano Grigorijem mnihom u Glasniku društva srb, 
+slovesn. XI, 74. 75. 
+
+5 Žitie sv. Teodosija loc. cit. 
+
+
+Digitized by <^.ooQle 
+
+
+
+184 
+
+
+PB. BAČKI. 
+
+
+„monah njeki imenom Theodorit u Trnovu", i poče „sijati nečistu 
+plevelj nečastivoga Varlaama i Akyndina“ t. j. hesychiastvo, quie- 
+tizam. On zavede mnoge „ne samo od prostih, nego i od odličnih 
+i slavnih ljudi". Tako je i ova grčka biljka vjerska prenesena na 
+bugarsko zemljište. Napokon dobjegoše u Bugarsku i dva od onih 
+prognanika, imenom Lazar i Kiril, koje odsudjene radi bogomilske 
+heresije athonski zbor bješe protjerao. Oni su sada u Bugarskoj 
+probudili i okupili tamošnje Bogomile, te jim nove privrženike 
+prikupljali. Kiril, „prozvaniem Bosota", „huljaše sv. ikone, svetaju 
+popiraše, častni krst". On izmedju ostalih zavede, „skvernago popa 
+Stefana." Kirilov drug Lazar uz to gol hodaše; u monahu Theo- 
+dosiju nadje bezobzirna učenika, koj u Adamovoj odjeći oko sebe 
+sakupljaše sviet, mladiće i žene, te se ovakova ciela družba noćju 
+sastajaše „v edinoj hljevine, tvoreći bezstidnosti." Tako su Lazar 
+i Theođosij bili u Bugarskoj predteče češkoga seljaka imenom Ni¬ 
+kole, kojega je bezstidnu družbu (Nicolaitae, Adamitae), izvodeću 
+svoje orgije na otoku rieke Nezarke dao Jan Žižka (21 list. 1421) 
+što mačem što ognjem uništiti. 1 
+
+Ovo je, ako i nesavršena slika religiosnih odnošaja u Bugar¬ 
+skoj polovicom XIV stoljeća. Bogomili, Hesychiaste i Adamite, na¬ 
+pokon i Židovi naperili su svoje sile proti pravovjerju. Oni su ratno 
+ono doba, kakovo je bilo za Aleksandrova carevanja, upotriebili 
+na zavadjanje lahkoumna i povjerljiva puka; ali tiem izazvaše 
+proti sebi odpor sa strane crkve i države bugarske. Glavni pro¬ 
+tivnik ovim krivovjercem bijaše Teodosij, rodom Bugarin iz Trnova. 
+On se od mladih nogu ukloni svietu, pođje u Bdin u samostan 
+sv. Nikole, Arčar nazvan, gdje ga iguman Job prijazno primi i 
+kašnje zakaluđjeri. Usavršivši se ovdje u pobožnosti i knjizi priedje 
+za tiem u svoje rodno mjesto Trnov, priestolni grad bugarski, 
+„drugi i slovom i djelom po Konstantinovu gradu." Ondje stupi u 
+manastir sv. bogorodice; ali nebavivši se u njem dugo priedje u 
+Thrakiju u samostan mjesta Črvena (Cirrnen ne daleko od rieke 
+Tundže), za tiem u samostan sv. bogorodici („6nHKGpN€B’L arosoirL") 
+na gori Slivnu. Ovdje dočuvši za slavna djela monaha Gregorija 
+Sinaite, koj je tada živio na planini Paraoriji (Ck^utnu) kod jedrene 
+uputi se i Theođosij k ovomu glasovitomu pustinjaku. Gregorij 
+bijaše već na sv. Gori u Maćedoniji, gdje je živio u asceteriju 
+
+1 Palacky: Dčjiny nar. česk. D. III, č. I, str. 429 — 81. 
+
+
+Digitized by <^.ooQle 
+
+
+
+BOGOMIU I PATARENI. 
+
+
+185 
+
+
+Magali, i u drugih mjestih sakupio oko sebe više učenika, grčkoga 
+i slovenskoga roda, koji su kašnje visoke crkvene časti zauzeli, 
+kano što bijahu Kalisto, potonji patrijar carigradski i Jakov, kašnje 
+arhiepiskop srbski. Ovim se sada i Theodosij pridruži; a Gregorij 
+ga do skora tako obljubi, da ga za tiem posla k caru Aleksandru 
+s prosbom, neka onu sv. družbu uzme u zaštitu proti Turčinu, koj 
+napadaše na onu okolicu. Taj „blagostivi, pravoslavni ujedno i bo- 
+goljubivi vladalac a dade zbilja potrebita „na utvrždenije pirgu. w 
+Vraćajuć se Theodosij iz Bugarske dovede medju braću zemljaka 
+si Romana; pa si takovo ime medju pobožnimi žitelji one planine 
+steče, da bude poslije smrti Gregorija Sinaite jednoglasno izabran 
+za njihova starješinu. Ali Theodosij nije rado ravnao drugih; on 
+je volio sobom jedinim upravljati. Opet se dakle s Romanom vrati 
+na Slivno; pohodi Athos i Carigrad, te se nastani u postnici sv. Anto- 
+nija u gradu Mesembriji, gdje je bilo „množtvo postnika. w Malo za 
+tiem izabra si Thedosij s kaludjerom Simeonom za svoje prebiva¬ 
+lište Kiliphar, obronak Balkana kod crnoga mora, ne daleko od 
+Mesembrije. Ovdje se oko njega sakupi do 50 učenika, medju 
+kojimi Dionisij, „božanstvenoe pisanie oboju jazyku, grečeski že 
+i slovenski, na jazice nose, u koj „imeaše že i dar ot boga ot elin- 
+skij na slovenskij jazyk, cielo hitrostnie že i čudne, i mnogi knigi 
+preloživ. 1 
+
+Ovako se Theodosij ojača duhom, dok bude pozvan, da riečju 
+i djelom raztvori .onu smies, koju su pomenuti heretici, osobito 
+Bogomili, proizveli bili u Bugarskoj. Videć naime bugarski patrijar 
+Theodosij II, kako bogomilska sekta mah u narodu uzima, dozove iz 
+Kiliphara monaha Theodosija. Ovaj je i patrijaru i caru Aleksandru 
+savjetovao, da sabor sazovu, u kojem bi se odredilo proti Bogomilom 
+što se nadje za potrebito. Tako je i bilo. Pred sakupljeni zbor, 
+komu predsjedjahu patrijar i car, budu pozvani i „eresi sjejatelje a , 
+imenito glavni joj učitelji Lazar, Kiril i Stjepan. Theodosij, odabran 
+u to ime od zbora, zametne s njimi prepirku o glavnih člancih 
+vjere bogomilske, osobito o dualizmu („aba nayaaa cbtb, 6&HHO heo 
+
+1 Sada se medju bugarskimi redovnici pojavi za cara Ioana Aleksandra 
+veća književna radenost. Tako bude god. 1345 popom Filipom pre¬ 
+veden grčki Manassin ljetopis; god. 1348 napisan sbornik trudom 
+„Lavrentija sveŠtenoinoka u itd. Sr. Sreznevskoga: Svjedenija i za- 
+mjetki. S. Peterb. 1867. IV, 46. Racki: Ocjena starijih izvora, 
+str. 157. 
+
+
+Digitized by <^.ooQle 
+
+
+
+186 
+
+
+FR. RAČKI. 
+
+
+emfo , Ajusroe me ^ao“), o krstu, ikonah, ženidbi itd. Lazar „ra- 
+zumjev prievaru a pokaja se pred zborom i vrati u crkvu. Ne tako 
+ona dva; 8 toga zapovjedi car, da jim se lica željezom prižgu i 
+onda iz države otjeraju. 1 Odavle se vidi, da je u Bugarskoj bila 
+proti heretikom Bogomilom ustanovljena ona ista kazna, koja se 
+u Dušanovu zakoniku proti „eretigu u propisuje. 
+
+Tiem se ipak nije sekta bogomilska do kraja satrla u Bu¬ 
+garskoj, kao što nam svjedoče zaključci dfugoga sabora, kojega 
+su car Joan Aleksandro i patrijar Thedosij urekli god. 1360 u 
+Trnovu. Ovaj je sabor opet sazvan po savjetu monaha Theodo- 
+sija, koj se bio u svoj samostan povratio poslije onoga prvoga 
+zbora; ali u priestolnicu pospieši, čim opazi, da se Bogomili, Židovi 
+i Varlaamovci dižu u zemlji. Na ovaj sabor dodje car „sa svojimi 
+sinovi Sismanom i Asjenom. tf Od prisutnih se vladika i svešte- 
+nika osim patrijara navode: metropolite prieslavski Dorotej, dri- 
+starski Zaharija, ovčjepoljski Lazar, lovčanski Parthenij, plovdivski 
+Manuel, sredečki Leontij, episkop Dorotej, Joanikij arhimandrita ve 
+like lavre svetih 40 mučenika. S Teodosijem dodjoše iz pustinje 
+jeromonasi Sava, Timotej i Dionisije, i množtvo ostalih kaludjera. 
+U tom je saboru, kao što se odavle vidi, bila sakupljena sva bu¬ 
+garska hierarhija, i sve što je bilo u državi odličnije čašću i umom. 
+Pa ovo nam upravo svjedoči, kolika se važnost ondje davala tomu 
+saboru, s koli znamenitih uzroka bješe sazvan i koli znamenita 
+po Bugarsku pitanja imala su se u njem pretresati i odlučiti. 
+
+Sbor je medju ostalimi viećao o židovstvu i njegovu naprama 
+državi odnošaju, o sekti bogomilskoj i o privrženicih monaha Var- 
+laama. Židovi budu odsudjeni; pak jim bješe uzkraćena sva gra- 
+djanska prava. 2 Bogomili i Varlaamovci budu prokleti, a njihovi 
+starješine i „služitelji" izagnani iz zemlje, da „bugarska zemlja u 
+buduće bude čista, od takove nečiste plevelji u . 3 
+
+1 Žitie sv. Theodosija loc. cit.: „Cero pA£H . . i|Af>b . . SKCA'Kgu pAXX6NNM 
+
+AHI|A HCOSR€l|IH llOB6At H ©TI CBOH,VL H^rNAHNU CLTBOf>H. u 
+
+Sr. Rad VII, 133. 
+
+2 Ibid. „IjapcKturL me h nATpfApmecKHirL h Bcero coeopA H^BOACNfeMi 
+
+MAnHCAN’L fcbICTb CBHTOK’L, KIKO JA (h>A€N) llffc€SHBAIOT’b KIKO (tAEH A 
+M€ KIKO BAACT6AH . 
+
+3 Ibid.: „llpOKAAIHA . . H CKB€pN8H> H EOrOlTe^KBIO EOrOMHACKBIO, CHf>*Yb 
+MACAAf ANCKBIO, 6f>€Cb, N 61|I6 »€ H ApBnSIO N0B0ABA6NN8I0 Ba|>AAA- 
+M0B8 H AkImAHN 0B8 FAAFOAIO, €f>€CI»; N TOA CA8SKNT€AHft »0 H lipe*- 
+CTAT6AH npOKAAUlA , H &AA6Y€ ©TI CBOH.TI n^tAOBl ©TFKATH 0C8- 
+
+
+Digitized by <^.ooQLe 
+
+
+BOGOMILI I PATARENI. 
+
+
+187 
+
+
+Jest! Bugarska se očistila od Bogomila, ali onim istim putem, 
+kojim se Bosna očistila od jedno vjernih jim Patarena. Jer poslije 
+smrti cara Aleksandra (g. 1371) zavađiše se njegovi sinovi Joan 
+Šisman i Sracimir za vlast i očinstvo; te prvi dade povoda, da se 
+car Murad I, koj je već poslije g. 1365 stolovao u Jedreni, dakle 
+Bugarskoj na domaku, umieša u ovu nutrnju razmiricu. Pokle 
+Turčin doprie do Balkana i osvoji (1382) bugarski grad Sredec, 
+čekaše i bugarsku državu ona ista sudbina, koja postiže Srbiju 
+na Kosovu (1389). Car Joan Šisman pade kod Nikoplja u turske 
+ruke, kao što kralj Stjepan Tomašević pade u nje kod Ključa. 
+Bugarska je postala osmanskom pokrajinom jedva 30 godina po¬ 
+slije trnovskoga sabora. Od tada neima Bogomilom traga niti u 
+Bugarskoj, niti u ostalih pokrajinah bugarskoga naroda s one 
+strane Balkana. Oni su s vremenom primili ovdje kršćansku, 
+ondje muhamedansku vjeru; jer samo tako možemo si protuma¬ 
+čiti, što jih je nestalo. 
+
+
+&HRUI 6 , KIKO tiNTCVAV EOftl'iipCT'fcH 36 MAH 121X0811X1 M 6 Y.HCTMX’b IM 6 K 6 - 
+A 6 H YHCTfc SCTpOHTH C 6 . . . u 
+
+
+Digitized by <^.ooQle 
+
+
+
+Književne obznane. 
+

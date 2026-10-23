@@ -1,0 +1,14 @@
+source_file: mileham_churches-in-lower-nubia_randall-maciver1910.txt
+assignments:
+- row_id: mileham_churches-in-lower-nubia_randall-maciver1910--churches-in-lower-nubia-archaeological-survey
+  work: Churches in Lower Nubia (archaeological survey)
+  author: mileham
+  locus: whole survey
+  atlas_ids:
+  - terminal-christian-nubia
+  - makurian-nubian-christianity
+  role: context
+  confidence: assigned
+  note: 'Archaeological survey of the churches of Lower Nubia (1907 expedition), English, clean OCR. Context
+    layer, not a voice: it records the buildings and their inscriptions, which is where this world''s
+    evidence mostly lives.'

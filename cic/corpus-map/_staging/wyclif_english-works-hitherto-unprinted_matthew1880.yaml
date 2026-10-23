@@ -13,3 +13,16 @@ assignments:
       A further body of Wyclif's own Middle English writings not covered
       by Arnold's three-volume Select English Works, ed. F. D. Matthew
       (1880), per this world's own Source Readiness Dossier §3.
+  - row_id: wyclif_english-works-hitherto-unprinted_matthew1880--matthew-english-works-of-wyclif-hitherto-unprinted-lollard
+    work: 'Matthew, English Works of Wyclif hitherto unprinted: Lollard tracts against pilgrimages, pardons,
+      images and offerings'
+    author: wyclif
+    locus: whole volume
+    atlas_ids:
+    - late-medieval-lay-parish-piety
+    role: context
+    confidence: provisional
+    note: 'The volume has Lollard attacks on the practices the parish carried out: ''Prelates deceive men
+      as to pilgrimages and pardons'' (about file line 7210), ''pilgrim'' occurs 15 times and ''images''
+      11 times in the file. The hostile outside view of the same practice. Placed on a count of those words
+      and the lines read; the tracts were not read through. Tier: same time-place.'

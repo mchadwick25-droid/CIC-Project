@@ -1,0 +1,27 @@
+source_file: ruusbroec_adornment-spiritual-marriage-sparkling-stone-book-supreme-truth_wynschenk-dom1916.txt
+
+assignments:
+  - row_id: ruusbroec_adornment-spiritual-marriage-sparkling-stone-book-supreme-truth_wynschenk-dom1916--ruysbroeck-adornment-of-the-spiritual-marriage-sparkling
+    work: "Ruysbroeck, Adornment of the Spiritual Marriage, Sparkling Stone, Book of Supreme Truth (Wynschenk Dom's translation)"
+    author: ruusbroec
+    locus: "whole volume; Underhill's introduction first"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: context
+    confidence: needs-ruling
+    note: >
+      Brabant mysticism that bridges this world and the Devotio Moderna. Left for the project lead to
+      place between them: a Rhineland-adjacent voice (context here) or the movement's own antecedent
+      (there).
+  - row_id: ruusbroec_adornment-spiritual-marriage-sparkling-stone-book-supreme-truth_wynschenk-dom1916--ruysbroeck-adornment-of-the-spiritual-marriage-sparkling-2
+    work: "Ruysbroeck, Adornment of the Spiritual Marriage, Sparkling Stone, Book of Supreme Truth (Wynschenk Dom's translation)"
+    author: ruusbroec
+    locus: "whole volume; Underhill's introduction first"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: antecedent
+    confidence: needs-ruling
+    note: >
+      Groote's letters and Kempis's Founders both name Ruysbroeck (the prior of Groenendael) as an
+      influence on the first Brothers. Placement between this world and the Rhineland world is a question
+      for the project lead.

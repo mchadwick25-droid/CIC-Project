@@ -25,3 +25,16 @@ assignments:
   note: >-
     The Jesuit patriarch's own account of the mission. Placed on window and subject without reading the
     whole volume.
+- row_id: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908--expeditio-aethiopica-books-1-and-2-mendes-the-monastic
+  work: 'Expeditio Aethiopica, books 1 and 2 (Mendes): the monastic movement under Takla Haymanot and
+    Eustatheus, and the Sabbath'
+  author: mendes
+  locus: whole volume
+  atlas_ids:
+  - the-ethiopian-monastic-flowering
+  role: context
+  confidence: provisional
+  note: Latin account by the Catholic patriarch of Ethiopia, seventeenth century. Lines 6544 to 6560 of
+    the shelf file name Takla Haymanot and an Abbot Eustatheus as the two founders and say the movement
+    divided into two bodies, the larger at Debra Libanos. Sabbath forms occur 23 times. After the window.
+    The Eustathius at line 10021 is the bishop of Antioch.
