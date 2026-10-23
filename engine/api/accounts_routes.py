@@ -32,6 +32,7 @@ from engine.accounts.keys import AccountsKeyError, KeyRing, parse_previous
 from engine.accounts.service import AccountsService, Mailer, Result, Session
 from engine.accounts.store import AccountStore
 from engine.api.account_admission import account_context, code_index, real_code_hash
+from engine.api import shelf, wiring
 from engine.api.contact_cipher import ContactCipher, ContactKeyError, parse_previous as parse_previous_contact
 from engine.api.provider_tokens import ProviderVerifier
 from engine.api.ratelimit import client_ip, network_of
@@ -57,6 +58,9 @@ MESSAGES = {
     "recovery_waiting": "A recovery to this address is waiting until {day}. You can sign in here after that day.",
     "not_available": "That way of signing in is not available right now.",
     "codes_unavailable": "Codes cannot be added right now.",
+    "shelf_taken": "That conversation is already on another account's shelf.",
+    "shelf_full": "Your shelf is full. Delete a conversation to make room.",
+    "delete_failed": "We could not remove everything, so nothing was deleted. Please try again.",
     "code_taken": "That code belongs to another account.",
     "codes_full": "This account holds as many codes as it can.",
     "provider_cannot_use": "That sign-in cannot be added to this account.",
@@ -76,6 +80,8 @@ class AccountsRuntime:
     secure_cookie: bool = True
     miss_delay_seconds: float = MISS_DELAY_SECONDS
     start_floor_seconds: float = START_FLOOR_SECONDS
+    # Removes one conversation from every store that holds it; set when the app is built.
+    erase_conversation: Callable[[str], object] | None = None
 
     @property
     def cookie_name(self) -> str:
@@ -105,12 +111,21 @@ def build_runtime(config: AccountsConfig, env: dict, mailer: Mailer | None = Non
         )
     except ContactKeyError as exc:
         raise AccountsConfigError(f"CIC_ACCOUNTS_ENABLED is on but the contact key is not usable: {exc}") from exc
+    try:
+        shelf_cipher = ContactCipher(
+            env.get("CIC_ACCOUNTS_SHELF_KEY", ""), key_id=env.get("CIC_ACCOUNTS_SHELF_KEY_ID", "s1"),
+            previous=parse_previous_contact(env.get("CIC_ACCOUNTS_SHELF_KEYS_PREVIOUS")), purpose="shelf",
+            other_secrets=(env.get("CIC_ACCOUNTS_KEY", ""), env.get("CIC_ACCOUNTS_SESSION_KEY", ""),
+                           env.get("CIC_ACCOUNTS_CONTACT_KEY", "")),
+        )
+    except ContactKeyError as exc:
+        raise AccountsConfigError(f"CIC_ACCOUNTS_ENABLED is on but the shelf key is not usable: {exc}") from exc
     store = AccountStore(config.durable_db_path, config.ephemeral_db_path)
     contacts = ContactStore(config.contact_db_path, cipher)
     clients = {"google": env.get("CIC_ACCOUNTS_GOOGLE_CLIENT_ID", ""), "apple": env.get("CIC_ACCOUNTS_APPLE_CLIENT_ID", "")}
     verifier = ProviderVerifier(clients) if any(clients.values()) else None
     service = AccountsService(store, keys, QueuedMailer(mailer), clock=clock, verifier=verifier,
-                              contacts=contacts)
+                              contacts=contacts, shelf_cipher=shelf_cipher)
     service.reapply_ledger()
     return AccountsRuntime(service=service)
 
@@ -155,12 +170,47 @@ def install_access_log_filter() -> None:
         target.addFilter(AccessLogFilter())
 
 
+def sweep_unused_accounts(runtime: AccountsRuntime) -> int:
+    """Removes each account unused for two years, with every conversation on its shelf. With no
+    way to erase a conversation, nothing is removed."""
+    erase_one = runtime.erase_conversation
+    if erase_one is None:
+        return 0
+    removed = 0
+    for account_id in runtime.service.stale_account_ids():
+        if runtime.service.purge_account(account_id, lambda ids: [erase_one(i) for i in ids]).status == "ok":
+            removed += 1
+    return removed
+
+
+def shelve_new_session(request: Request, session_id: str, code: str) -> None:
+    """A conversation opened while signed in goes on the shelf at once. A fault never fails the
+    opening of the conversation."""
+    runtime = getattr(request.app.state, "accounts", None)
+    cookie = request.cookies.get(runtime.cookie_name) if runtime is not None else None
+    if not cookie:
+        return
+    try:
+        session = runtime.service.session(cookie)
+        if session is not None:
+            runtime.service.shelf_add(session, session_id, code)
+    except Exception:  # noqa: BLE001
+        logger.exception("a new conversation could not be put on the shelf")
+
+
 def start_retention_thread(runtime: AccountsRuntime, *, every_seconds: int = 3600) -> None:
     def _loop() -> None:
+        last_sweep = None
         while True:
             time.sleep(every_seconds)
             try:
                 runtime.service.purge()
+                today = runtime.service.today()
+                if today != last_sweep:
+                    last_sweep = today
+                    removed = sweep_unused_accounts(runtime)
+                    if removed:
+                        logger.info("accounts unused for two years removed: %d", removed)
                 older = runtime.service.store.accounts_on_older_keys(runtime.service.keys.key_id)
                 if older:
                     logger.info("accounts still on an older address key: %d", older)
@@ -198,6 +248,15 @@ class ProviderNameBody(BaseModel):
     provider: str = Field(max_length=20)
 
 
+class ShelfAddBody(BaseModel):
+    session_id: str = Field(max_length=64)
+    session_code: str = Field(max_length=80)
+
+
+class ShelfRefBody(BaseModel):
+    session_id: str = Field(max_length=64)
+
+
 class CodeBody(BaseModel):
     code: str = Field(max_length=40)
 
@@ -228,6 +287,23 @@ class CancelBody(BaseModel):
 def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     service = runtime.service
     app.state.accounts = runtime
+
+    def _eraser() -> shelf.ConversationEraser | None:
+        deps = getattr(app.state, "deps", None)
+        if deps is None:
+            return None
+        return shelf.ConversationEraser(
+            deps.store, deps.usage_store, getattr(app.state, "feedback_store", None), deps.qc_recorder, deps.m7_audit_root
+        )
+
+    def _erase_all(ids: list[str]) -> None:
+        eraser = _eraser()
+        if eraser is None and ids:
+            raise RuntimeError("no way to erase a conversation")
+        for session_id in ids:
+            eraser.erase(session_id)
+
+    runtime.erase_conversation = lambda session_id: _erase_all([session_id])
 
     def _seed_allowance(request: Request, result: Result) -> None:
         """A new account starts with what is left of its browser's free window, so signing up
@@ -282,7 +358,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     async def _refuse(result: Result, *, delay: bool) -> None:
         if delay:
             await asyncio.sleep(runtime.miss_delay_seconds)
-        status = {"throttled": 429, "paused": 503, "send_failed": 503, "not_available": 404, "codes_unavailable": 404, "gone": 401}.get(result.status, 400)
+        status = {"throttled": 429, "paused": 503, "send_failed": 503, "not_available": 404, "codes_unavailable": 404, "gone": 401, "delete_failed": 500, "shelf_taken": 400, "shelf_full": 400}.get(result.status, 400)
         raise HTTPException(status_code=status, detail=MESSAGES.get(result.status, "That did not work."))
 
     @app.post("/api/accounts/sign-in/start")
@@ -382,6 +458,82 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         index = code_index(request, deeper)
         if index is not None:
             index.add(code_hash)
+        return {"status": "ok"}
+
+    @app.get("/api/accounts/shelf")
+    async def shelf_list(request: Request):
+        session = await _session(request)
+        deps = request.app.state.deps
+
+        def _read():
+            shown = []
+            for session_id, saved in service.shelf_list(session):
+                described = shelf.describe(deps.store, deps.registry, session_id)
+                if described is None:
+                    service.shelf_remove(session, session_id)  # the conversation is gone; so is its place
+                    continue
+                shown.append({**described, "saved": saved})
+            return shown
+
+        return {"status": "ok", "conversations": await run_in_threadpool(_read)}
+
+    @app.post("/api/accounts/shelf/add")
+    async def shelf_add(body: ShelfAddBody, request: Request):
+        """Puts the conversation open in the browser on the shelf, with the code it was opened with."""
+        _guard(request)
+        session = await _session(request)
+        deps = request.app.state.deps
+        opens = await run_in_threadpool(shelf.code_opens, deps.store, body.session_id, body.session_code)
+        if not opens:
+            await _refuse(Result("wrong"), delay=True)
+        result = await run_in_threadpool(service.shelf_add, session, body.session_id, body.session_code)
+        if result.status != "ok":
+            await _refuse(result, delay=True)
+        return {"status": "ok"}
+
+    @app.post("/api/accounts/shelf/reopen")
+    async def shelf_reopen(body: ShelfRefBody, request: Request):
+        """The conversation's own code, for its owner, to continue it. A conversation that holds a
+        Facilitator safety turn is flagged so the resources line is shown first, every time."""
+        _guard(request)
+        session = await _session(request)
+        deps = request.app.state.deps
+
+        def _open():
+            code = service.shelf_open(session, body.session_id)
+            if code is None or not shelf.code_opens(deps.store, body.session_id, code):
+                if code is not None:
+                    service.shelf_remove(session, body.session_id)  # the conversation is gone
+                return None
+            described = shelf.describe(deps.store, deps.registry, body.session_id)
+            return {"session_id": body.session_id, "session_code": code,
+                    "holds_crisis_turn": bool(described and described["holds_crisis_turn"])}
+
+        opened = await run_in_threadpool(_open)
+        if opened is None:
+            await _refuse(Result("wrong"), delay=True)
+        return {"status": "ok", **opened}
+
+    @app.post("/api/accounts/shelf/delete")
+    async def shelf_delete(body: ShelfRefBody, request: Request):
+        """Deletes one conversation from the shelf and from every store that holds it."""
+        _guard(request)
+        session = await _session(request)
+
+        def _delete():
+            if not service.shelf_has(session, body.session_id):
+                return False
+            _erase_all([body.session_id])
+            service.shelf_remove(session, body.session_id)
+            return True
+
+        try:
+            done = await run_in_threadpool(_delete)
+        except Exception:  # noqa: BLE001
+            logger.exception("a shelved conversation could not be deleted")
+            await _refuse(Result("delete_failed"), delay=False)
+        if not done:
+            await _refuse(Result("wrong"), delay=True)
         return {"status": "ok"}
 
     @app.get("/api/accounts/balance")
@@ -528,15 +680,27 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     @app.post("/api/accounts/export")
     async def export(request: Request):
         _guard(request)
-        result = await run_in_threadpool(service.export, await _session(request))
+        session = await _session(request)
+        result = await run_in_threadpool(service.export, session)
         if result.status != "ok":
             await _refuse(result, delay=False)
-        return {"status": "ok", "account": result.data}
+        deps = request.app.state.deps
+
+        def _conversations():
+            out = []
+            for session_id, saved in service.shelf_list(session):
+                described = shelf.describe(deps.store, deps.registry, session_id)
+                if described is not None:
+                    state = wiring.get_transcript(deps.store, session_id)
+                    out.append({**described, "saved": saved, "transcript": state.transcript})
+            return out
+
+        return {"status": "ok", "account": result.data, "conversations": await run_in_threadpool(_conversations)}
 
     @app.post("/api/accounts/delete")
     async def delete(request: Request, response: Response):
         _guard(request)
-        result = await run_in_threadpool(service.delete_account, await _session(request))
+        result = await run_in_threadpool(service.delete_account, await _session(request), _erase_all)
         if result.status != "ok":
             await _refuse(result, delay=False)
         _clear_cookie(response)

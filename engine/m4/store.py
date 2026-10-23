@@ -64,6 +64,7 @@ class Store:
     def _connect(self) -> sqlite3.Connection:
         conn = sqlite3.connect(self.db_path, timeout=5.0)
         conn.execute("PRAGMA journal_mode=WAL")
+        conn.execute("PRAGMA secure_delete=ON")
         return conn
 
     def _init_schema(self) -> None:
@@ -130,6 +131,7 @@ class Store:
         with self._connect() as conn:
             deleted = conn.execute("DELETE FROM session_events WHERE session_id = ?", (session_id,)).rowcount
             conn.commit()
+            conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")  # the deleted rows leave the journal file too
         return deleted
 
     def purge_inactive(self, cutoff: str, is_exempt: Callable[[str], bool] = lambda _sid: False) -> int:

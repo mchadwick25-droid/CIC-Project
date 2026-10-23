@@ -96,6 +96,7 @@ class FeedbackStore:
     def _connect(self) -> sqlite3.Connection:
         conn = sqlite3.connect(self.db_path, timeout=5.0)
         conn.execute("PRAGMA journal_mode=WAL")
+        conn.execute("PRAGMA secure_delete=ON")
         return conn
 
     def add(self, record: dict) -> str:
@@ -160,6 +161,14 @@ class FeedbackStore:
                 (outcome, note, datetime.now(timezone.utc).isoformat(), item_id),
             )
         return cursor.rowcount == 1
+
+    def delete_session(self, session_id: str) -> int:
+        """Deletes every like, flag and comment that names a deleted conversation."""
+        with self._connect() as conn:
+            deleted = conn.execute("DELETE FROM feedback WHERE session_id = ?", (session_id,)).rowcount
+            conn.commit()
+            conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
+            return deleted
 
     def purge_closed_older_than(self, days: int = CLOSED_RETENTION_DAYS, now: datetime | None = None) -> int:
         """Deletes closed items whose closing is older than `days`, and likes

@@ -25,7 +25,7 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import accounts_routes, admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
+from engine.api import accounts_routes, shelf, admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings, normalize_environ
 from engine.accounts.config import AccountsConfig
 from engine.deeper.config import DeeperConfig
@@ -37,7 +37,6 @@ from engine.m4 import turn as turn_module
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
-from engine.m7 import erase
 from engine.m7 import retention
 from engine.m7 import scheduler as m7_scheduler
 from engine.m7.qc_store import QCStore
@@ -580,6 +579,7 @@ def create_app(
     # no-cookie-read burst check stays the actual first line a request
     # meets, and a burst-rejected request never mints a visitor token.
     app.state.deeper = deeper
+    app.state.feedback_store = feedback_store
     if anon_cap_enabled:
         anon_cap.install(app, secret=anon_visitor_secret)
     if rate_limit:
@@ -675,6 +675,7 @@ def create_app(
                 logger.warning("table session refused: package unavailable worlds=%s", req.world_keys)
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
+            accounts_routes.shelve_new_session(request, session_id, code)
             return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
         if req.world_key is None:
             # POST {} must not fall through to default_world_key -
@@ -699,6 +700,7 @@ def create_app(
             logger.warning("session refused: package unavailable world=%s", world_key)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
         logger.info("session created session=%s mode=interview world=%s", session_id, world_key)
+        accounts_routes.shelve_new_session(request, session_id, code)
         return SessionCreateResponse(session_id=session_id, session_code=code)
 
     @app.post("/api/session/{session_id}/message", response_model=MessageResponse | TableMessageResponse)
@@ -847,14 +849,20 @@ def create_app(
     @app.delete("/api/session/{session_id}", status_code=204)
     def delete_session_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
         """A participant's deletion request, authorised by the session's own
-        code: the conversation leaves the event log and the M7 audit files
-        now, and the daily backups within their 14-day rotation. The
-        anonymous quality-control store holds nothing that links to it."""
+        code: the conversation leaves the event log, the M7 audit files, the
+        feedback rows that name it and the quality-control rows now, and the
+        daily backups within their 14-day rotation. Its id leaves the usage
+        rows; the token counts stay for the cost record. A shelved conversation
+        is also taken off its shelf."""
         deps: Deps = request.app.state.deps
         _authenticate(deps.store, session_id, authorization)
-        events_deleted = deps.store.delete_session(session_id)
-        audit_files = erase.erase_session(deps.m7_audit_root, session_id) if deps.m7_audit_root else 0
-        logger.info("session deleted session=%s events=%d audit_files=%d", session_id, events_deleted, audit_files)
+        counts = shelf.ConversationEraser(
+            deps.store, deps.usage_store, request.app.state.feedback_store, deps.qc_recorder, deps.m7_audit_root
+        ).erase(session_id)
+        accounts = getattr(request.app.state, "accounts", None)
+        if accounts is not None:
+            accounts.service.store.shelf_forget_session(session_id)
+        logger.info("session deleted session=%s %s", session_id, " ".join(f"{k}={v}" for k, v in counts.items()))
         return Response(status_code=204)
 
     @app.get("/api/session/{session_id}/round-close-reasons", response_model=RoundCloseReasonsResponse)
@@ -1101,12 +1109,14 @@ def _build_real_app() -> FastAPI:
     # The anonymous quality-control store and the daily retention job
     # (System Hub decision 34): conversations inactive for 90 days leave
     # the event log; QC answer text older than 90 days is deleted.
-    qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry)
+    qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry, secret=settings.anon_visitor_secret)
     feedback_store = FeedbackStore(settings.feedback_db_path)
+    exempt = {"is_exempt": accounts_runtime.service.is_shelved} if accounts_runtime is not None else {}
     retention.start_background_scheduler(
         settings.events_db_path, settings.qc_db_path, Path(settings.events_db_path).parent / "retention",
         audit_root=Path(settings.events_db_path).parent / "m7-audits",
         feedback_store=feedback_store,
+        **exempt,
     )
 
     return create_app(

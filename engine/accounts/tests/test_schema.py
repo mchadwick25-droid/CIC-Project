@@ -68,5 +68,5 @@ def test_a_file_made_before_recovery_was_removed_loses_its_recovery_tables(tmp_p
     conn.close()
     store = AccountStore(durable, str(tmp_path / "e.db"))
     names = {r[0] for r in store._d.execute("SELECT name FROM sqlite_master WHERE type = 'table'")}
-    assert names == {"accounts", "linked_sign_ins", "account_codes", "recovery_keys", "pending_recoveries", "deletion_ledger"}
+    assert names == {"accounts", "linked_sign_ins", "shelf", "account_codes", "recovery_keys", "pending_recoveries", "deletion_ledger"}
     store.close()

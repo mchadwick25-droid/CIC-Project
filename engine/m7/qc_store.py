@@ -1,8 +1,10 @@
 """The quality-control store (System Hub decisions 7, 19 and 34): one row per
 turn, kept apart from the event log and the usage log and holding nothing
-that leads back to a person. A turn is found by a random conversation
-token that exists only here and in the running server's memory, never in
-the event log; the date is the ISO week, never a time. Questions are kept;
+that leads back to a person. A turn is found by a conversation token, a
+keyed hash of the session id under a server secret, never written to the
+event log, so a deleted conversation's rows can be found and removed and
+the two stores cannot be joined without the secret; the date is the ISO
+week, never a time. Questions are kept;
 answers are deleted after 90 days; scores are kept. A turn the safety call
 flagged keeps its routing flags and no text.
 """
@@ -52,6 +54,7 @@ class QCStore:
     def _connect(self) -> sqlite3.Connection:
         conn = sqlite3.connect(self.db_path, timeout=5.0)
         conn.execute("PRAGMA journal_mode=WAL")
+        conn.execute("PRAGMA secure_delete=ON")
         return conn
 
     def write_turn(self, *, conversation_token: str, round_no: int, world: str, package_hash: str | None,
@@ -65,6 +68,21 @@ class QCStore:
                  json.dumps(marks, sort_keys=True), json.dumps(scores, sort_keys=True), iso_week(day)),
             )
             conn.commit()
+
+    def max_round(self, conversation_token: str) -> int:
+        """The last round written for a conversation, 0 when none."""
+        with self._connect() as conn:
+            row = conn.execute(
+                "SELECT COALESCE(MAX(round), 0) FROM qc_turn WHERE conversation_token = ?", (conversation_token,)
+            ).fetchone()
+        return row[0]
+
+    def delete_conversation(self, conversation_token: str) -> int:
+        with self._connect() as conn:
+            deleted = conn.execute("DELETE FROM qc_turn WHERE conversation_token = ?", (conversation_token,)).rowcount
+            conn.commit()
+            conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
+        return deleted
 
     def expire_answers(self, today: date) -> int:
         """Delete answer text from every week that ended more than 90 days

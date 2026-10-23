@@ -52,6 +52,7 @@ class UsageLogStore:
     def _connect(self) -> sqlite3.Connection:
         conn = sqlite3.connect(self.db_path, timeout=5.0)
         conn.execute("PRAGMA journal_mode=WAL")
+        conn.execute("PRAGMA secure_delete=ON")
         return conn
 
     def _init_schema(self) -> None:
@@ -91,6 +92,17 @@ class UsageLogStore:
                 ),
             )
             conn.commit()
+
+    def forget_session(self, session_id: str) -> int:
+        """Takes a deleted conversation's id off its rows. The token counts stay, for the cost
+        record; nothing on them leads back to the conversation."""
+        with self._connect() as conn:
+            changed = conn.execute(
+                "UPDATE usage_log SET session_id = 'deleted' WHERE session_id = ?", (session_id,)
+            ).rowcount
+            conn.commit()
+            conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
+            return changed
 
     def read_all(self) -> list[UsageRecord]:
         with self._connect() as conn:

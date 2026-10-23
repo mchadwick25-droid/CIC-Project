@@ -22,7 +22,7 @@ from datetime import date, datetime, timedelta, timezone
 from hashlib import sha256
 from typing import Callable, Protocol
 
-from engine.accounts.contacts import ContactStore
+from engine.accounts.contacts import Cipher, ContactStore
 from engine.accounts.keys import KeyRing, normalise_address
 from engine.accounts.store import Account, AccountStore, Challenge, SessionRow
 
@@ -75,6 +75,8 @@ class Limits:
     nonce_ttl_seconds: int = 600
     recovery_wait_days: int = 7
     codes_per_account: int = 50
+    shelf_per_account: int = 500
+    stale_account_years: int = 2
     attaches_per_account_15min: int = 20
     attach_misses_per_network_15min: int = 60
 
@@ -119,6 +121,7 @@ class AccountsService:
         limits: Limits = Limits(),
         verifier: ProviderVerifier | None = None,
         contacts: ContactStore | None = None,
+        shelf_cipher: "Cipher | None" = None,
     ):
         self.store = store
         self.keys = keys
@@ -126,6 +129,7 @@ class AccountsService:
         self.limits = limits
         self.verifier = verifier
         self.contacts = contacts
+        self.shelf_cipher = shelf_cipher
         self._clock = clock
 
     # time and counters -------------------------------------------------------
@@ -478,6 +482,10 @@ class AccountsService:
             self.store.delete_session(token_hash)
             return None
         self.store.slide_session(token_hash, min(now + self.limits.session_idle_seconds, row.abs_expires_at))
+        week = _week(self.today())
+        account = self.store.account(row.account_id)
+        if account is not None and account.week_last_used != week:
+            self.store.touch(row.account_id, week)  # any activity on an account counts as use
         return Session(row.account_id, token_hash, row.stepped_up_until > now)
 
     def sign_out(self, session: Session) -> None:
@@ -752,6 +760,55 @@ class AccountsService:
         return {"account_id": account.account_id, "refill_day": account.refill_day,
                 "scrambles": self.store.code_scrambles_of(account.account_id)}
 
+    # the shelf ----------------------------------------------------------------------
+
+    def _shelf_context(self, account_id: str, session_id: str) -> str:
+        return f"shelf|{account_id}|{session_id}"
+
+    def shelf_add(self, session: Session, session_id, session_code) -> Result:
+        """Puts a conversation on the account's shelf. The conversation's own code is kept
+        sealed so the owner can reopen it; this module never reads it back except for its owner.
+        The edge has already shown the code opens that conversation."""
+        if self.shelf_cipher is None:
+            return Result("not_available")
+        if not isinstance(session_id, str) or not 0 < len(session_id) <= 64 or not isinstance(session_code, str) or not 0 < len(session_code) <= 80:
+            return Result("wrong")
+        sealed = self.shelf_cipher.encrypt(session_code, self._shelf_context(session.account_id, session_id))
+        outcome = self.store.shelf_add(
+            session.account_id, session_id, sealed, self.today().isoformat(), self.limits.shelf_per_account
+        )
+        if outcome in ("ok", "mine"):
+            return Result("ok")
+        return Result({"taken": "shelf_taken", "full": "shelf_full", "gone": "gone"}.get(outcome, "wrong"))
+
+    def shelf_list(self, session: Session) -> list[tuple[str, str]]:
+        return self.store.shelf_rows(session.account_id)
+
+    def shelf_open(self, session: Session, session_id) -> str | None:
+        """The conversation's code, for the account that shelved it and no one else."""
+        if self.shelf_cipher is None or not isinstance(session_id, str):
+            return None
+        sealed = self.store.shelf_sealed(session.account_id, session_id)
+        return self.shelf_cipher.decrypt(sealed, self._shelf_context(session.account_id, session_id)) if sealed else None
+
+    def shelf_has(self, session: Session, session_id) -> bool:
+        return isinstance(session_id, str) and self.store.shelf_sealed(session.account_id, session_id) is not None
+
+    def shelf_remove(self, session: Session, session_id) -> bool:
+        return isinstance(session_id, str) and self.store.shelf_remove(session.account_id, session_id)
+
+    def is_shelved(self, session_id: str) -> bool:
+        """Whether a conversation is on any shelf, so the 90-day clearing leaves it alone."""
+        return self.store.is_shelved(session_id)
+
+    def shelf_ids(self, account_id: str) -> list[str]:
+        return [session_id for session_id, _ in self.store.shelf_rows(account_id)]
+
+    def stale_account_ids(self) -> list[str]:
+        """Accounts unused for two years."""
+        cutoff = self.today() - timedelta(days=365 * self.limits.stale_account_years)
+        return self.store.stale_accounts(_week(cutoff))
+
     # what an account holds, and deletion ------------------------------------------------
 
     def me(self, session: Session) -> dict:
@@ -779,18 +836,31 @@ class AccountsService:
             "sign_in_methods": self._methods(account),
         })
 
-    def delete_account(self, session: Session) -> Result:
+    def delete_account(self, session: Session, before=None) -> Result:
+        """Deletes the account. `before` is given the ids of the conversations on its shelf and
+        removes them from every store that holds them; it runs first, so a failure leaves the
+        account whole and the person can try again, and a crash part-way leaves only shelf links
+        to conversations already gone."""
         if not session.stepped_up:
             return Result("step_up_needed")
+        return self.purge_account(session.account_id, before)
+
+    def purge_account(self, account_id: str, before=None) -> Result:
+        if before is not None:
+            try:
+                before(self.shelf_ids(account_id))
+            except Exception:  # noqa: BLE001 - nothing of the account is touched
+                logger.exception("an account's conversations could not be removed; the account is kept")
+                return Result("delete_failed")
         expires = (self.today() + timedelta(days=self.limits.ledger_days)).isoformat()
-        account = self.store.account(session.account_id)
+        account = self.store.account(account_id)
         if self.contacts is not None:
-            self.contacts.forget(session.account_id)
-        self.store.delete_account(session.account_id, ledger_hash(session.account_id), expires)
+            self.contacts.forget(account_id)
+        self.store.delete_account(account_id, ledger_hash(account_id), expires)
         if account is not None and account.address_hash is not None:
             self.store.forget_address(account.address_hash)
-        self.store.delete_sessions_of(session.account_id)
-        self.store.delete_challenges_of(session.account_id)
+        self.store.delete_sessions_of(account_id)
+        self.store.delete_challenges_of(account_id)
         return Result("ok")
 
     def reapply_ledger(self) -> int:

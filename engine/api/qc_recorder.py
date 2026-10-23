@@ -1,10 +1,13 @@
 """Writes one quality-control row per finished turn (engine.m7.qc_store).
-The conversation token is random, made the first time a session is seen,
-and held only in this process's memory: it is never written to the event
-log, so the QC store and the event log share no key. A restart starts a
-new token for a session that continues, which splits that conversation in
-two for sampling; nothing else depends on the token.
+The conversation token is a keyed hash of the session id under a server
+secret and is never written to the event log, so the QC store and the event
+log share no key and cannot be joined without the secret. The same session
+has the same token across restarts, which is how a deleted conversation's
+rows are found and removed. With no secret given (tests, local runs) the
+token is random and held in this process's memory only.
 """
+import hashlib
+import hmac
 import logging
 import secrets
 import sqlite3
@@ -32,8 +35,9 @@ def text_free(safety: dict | None) -> bool:
 
 
 class QCRecorder:
-    def __init__(self, store: QCStore, registry: dict):
+    def __init__(self, store: QCStore, registry: dict, secret: str | None = None):
         self.store = store
+        self._secret = secret.encode() if secret else None
         self._registry_names = known_names(
             name for entry in registry.values() for name in (entry.get("card_name"), entry.get("name")) if name
         )
@@ -41,9 +45,28 @@ class QCRecorder:
         self._known: dict[str, frozenset] = {}
         self._lock = threading.Lock()
 
+    def token_for(self, session_id: str) -> str | None:
+        """The conversation token for a session, or None where tokens are random per process."""
+        if self._secret is None:
+            return None
+        return hmac.new(self._secret, b"cic-qc-token-v1|" + session_id.encode(), hashlib.sha256).hexdigest()[:32]
+
+    def forget(self, session_id: str) -> int:
+        """Removes a deleted conversation's rows. Where the token is random, only a session this
+        process still remembers can be found."""
+        token = self.token_for(session_id)
+        with self._lock:
+            entry = self._tokens.pop(session_id, None)
+        token = token or (entry[0] if entry else None)
+        return self.store.delete_conversation(token) if token else 0
+
     def _next_round(self, session_id: str) -> tuple[str, int]:
         with self._lock:
-            entry = self._tokens.pop(session_id, None) or [secrets.token_hex(16), 0]
+            entry = self._tokens.pop(session_id, None)
+            if entry is None:
+                fixed = self.token_for(session_id)
+                # A session seen again after a restart carries on from the last round written.
+                entry = [fixed, self.store.max_round(fixed)] if fixed else [secrets.token_hex(16), 0]
             entry[1] += 1
             self._tokens[session_id] = entry
             while len(self._tokens) > TOKENS_HELD:

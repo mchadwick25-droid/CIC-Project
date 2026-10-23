@@ -99,6 +99,22 @@ REQUIRED = {
         "test_a_group_a_spent_and_a_made_up_code_cannot_be_attached",
         "test_a_turn_reserved_in_one_window_is_not_charged_to_the_next",
     ],
+    "engine/accounts/tests/test_shelf_service.py": [
+        "test_a_shelved_conversation_is_listed_and_its_code_comes_back_only_to_its_owner",
+        "test_the_sealed_code_is_bound_to_its_account_and_conversation",
+    ],
+    "engine/api/tests/test_shelf.py": [
+        "test_the_account_files_hold_no_conversation_text_title_world_or_plain_code",
+        "test_deleting_the_account_leaves_no_trace_of_its_conversations_in_any_file",
+        "test_an_account_whose_conversations_cannot_be_removed_is_kept_whole",
+        "test_the_ninety_day_clearing_leaves_a_shelved_conversation_and_removes_an_unshelved_one",
+        "test_an_account_unused_for_two_years_is_removed_with_its_shelf_and_a_used_one_stays",
+        "test_the_review_token_is_the_same_across_a_restart_and_rounds_carry_on",
+        "test_reopening_a_conversation_that_holds_a_safety_turn_flags_it_every_time",
+        "test_an_anonymous_conversation_is_never_shelved_and_a_signed_in_one_is_shelved_once_when_carried_over",
+        "test_nobody_can_delete_a_conversation_from_another_shelf",
+        "test_the_review_copy_holds_no_session_id_or_account_value",
+    ],
     "engine/api/tests/test_contact_cipher.py": [
         "test_a_sealed_address_opens_with_its_key_and_context_only",
         "test_the_contact_file_holds_no_address_in_the_clear",
