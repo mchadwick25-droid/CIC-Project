@@ -2515,3 +2515,11 @@ Alternatives shown: (1) leave `lpc_Decision_Log.md` (694 KB) in `Build/worlds/lp
 ### 2026-10-23 — Review route for CO-LPC-1: full re-review of every touched document (project lead's ruling)
 
 Alternatives shown: (1) a Cap ruling for one targeted Opus recheck of the change order's edits; (2) no recheck; (3) a full re-review of every touched document. The thread recommended 1. Chosen: 3 (project lead, 2026-10-23, "3"). Recorded as a Cap ruling in `CiC_System_Hub_Decision_Log.md`, entry "Cap ruling: lpc change order CO-LPC-1", naming the nine review files. It replaces the Doc_08 Cap ruling of the same day.
+
+---
+
+### 2026-10-23 — `lpcstory006` re-tiered to Tier 1 on the doubly attested core (project lead's ruling; OG-7, OG-49)
+
+**Evidence.** `Review-Artifacts/Doc09_Acta_Proconsularia_Read_lpcstory006_2026-10-23.md`. The Acta Proconsularia (one edition, Hartel's, in three printings) confirms the crowd, the overnight vigil, "Deo gratias", the kneeling, the brothers' cry, and Cyprian's own hand over his eyes. Pontius alone gives the trees, Zacchaeus, the hurried executioner, the hand strengthened "from above" and the centurion. The Acta has the presbyter and the subdeacon Julianus tie the cloths; Pontius has Cyprian do it.
+**Alternatives shown.** (1) retell at Tier 1 on what both attest, Pontius-only details marked as his, the contradiction stated; (2) keep Tier 3 with the Acta's corrections; (3) split into a Tier 1 execution account and a Tier 3 Pontius retelling.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). The retelling edits the story chunk, the story record and Doc_09 §3, and starts only after the Doc_09 review now running returns, so that review reads one state. It is checked independently against the Latin before it proceeds. The general CF V7.4 Tier 3 question (OG-7) stays open.
