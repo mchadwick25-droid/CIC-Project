@@ -22,8 +22,9 @@ from typing import Callable
 from engine.deeper import door as door_module
 from engine.deeper.door import DoorSettings, DoorState
 from engine.m8 import price_tables
-from engine.m8.cost import PriceTable, estimate_cost
+from engine.m8.cost import estimate_cost
 from engine.m8.log_store import UsageLogStore
+from engine.m8.price_tables import DEAREST
 from engine.m8.usage import SYSTEM_SESSION_ID
 
 logger = logging.getLogger("cic.deeper")
@@ -32,20 +33,6 @@ WINDOW_DAYS = 7
 DAY_WINDOW = timedelta(hours=24)
 REFRESH_SECONDS = 60.0
 STATE_KEY = "door"
-
-_APPROVED = (
-    price_tables.SONNET_4_5_PRICE_TABLE,
-    price_tables.SONNET_5_5_PRICE_TABLE,
-    price_tables.OPUS_5_5_PRICE_TABLE,
-    price_tables.HAIKU_4_5_PRICE_TABLE,
-)
-DEAREST = PriceTable(
-    input_per_token=max(t.input_per_token for t in _APPROVED),
-    output_per_token=max(t.output_per_token for t in _APPROVED),
-    cache_write_per_token=max(t.cache_write_per_token for t in _APPROVED),
-    cache_read_per_token=max(t.cache_read_per_token for t in _APPROVED),
-    source="the dearest approved price in each category, for a call whose model has no approved row",
-)
 
 
 def _list_price_usd(records) -> float:
