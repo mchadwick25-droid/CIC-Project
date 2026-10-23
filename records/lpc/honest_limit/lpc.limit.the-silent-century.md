@@ -36,7 +36,7 @@ why_sources_cannot_answer: 'This world''s construction window runs from roughly 
   beginning 391. No ordinary-pastoral voice from in between has been assessed. Nine tractatus in Morin
   1917 (cic/texts/augustine_sermones-guelferbytani-lat_morin1917.txt, from line 10297) are headed as by
   Optatus of Milevis, Quodvultdeus and others of Augustine''s school. A manuscript titles one a sermon of
-  Optatus (lines 10846-10848). They are not yet assessed (OG-54), so the silence is Contested.'
+  Optatus (lines 10849-10850). They are not yet assessed (OG-54), so the silence is Contested.'
 nearest_material:
 - lpc.gravity.pastoral-office-flock-keeping
 - lpc.witness.answerability-as-ground
