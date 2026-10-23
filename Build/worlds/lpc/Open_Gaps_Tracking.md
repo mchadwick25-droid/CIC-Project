@@ -1657,3 +1657,7 @@ Logged 2026-10-23 from `Review-Artifacts/L0_Doc08_Generator_Check_2026-10-23.md`
 - **Round count.** Doc_08 already has eight review files. The reviewer counts this check as a tenth against the cap of three. The Rebaseline Declaration accepted the earlier count; whether an L0 check counts is for the project lead to confirm.
 - **Owner.** The project lead for the review route; the `lpc` build thread for the corrections, with the change order of OG-38.
 - **Closes when** the project lead rules on the route and an independent check confirms each corrected site.
+
+### OG-41. Claims register converted by registration only; verification and the old register's verified rows not carried over (2026-10-23).
+
+Logged 2026-10-23. `lpc_Claims_Register.md` now lists the 102 absence or exclusivity claims the command derives, all UNVERIFIED, and `claims lpc` passes (registration is the control). `Doc09_Claims_Register.md` (133 rows at last count) was not merged: its row ids differ from the derived ones, so its verified states are not carried over. Verification against source waits for the change order of OG-38 and OG-39, because that change order rewords claims and every reworded claim gets a new id. Owner: the `lpc` build thread. Closes when every row is VERIFIED or JUDGEMENT with a named check, and the old register is marked superseded.
