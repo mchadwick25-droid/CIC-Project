@@ -1,0 +1,23 @@
+source_file: book-of-the-himyarites-syr-eng_moberg1924.txt
+
+authors_ruled:
+  book-of-the-himyarites:
+    kind: anonymous
+    evidence: >
+      Moberg's title page calls it a hitherto unknown Syriac work and names no author; the
+      file is named for the work.
+    from_file: book-of-the-himyarites-syr-eng_moberg1924.txt
+
+assignments:
+  - row_id: book-of-the-himyarites-syr-eng_moberg1924--book-of-the-himyarites
+    work: "The Book of the Himyarites (the Najran martyrs of 523 and the Aksumite intervention)"
+    author: book-of-the-himyarites
+    locus: "whole text; the Prayer of King Kaleb around raw line 2072"
+    atlas_ids:
+      - aksumite-christianity
+      - syriac-orthodox-west-syriac-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Context for Aksum (the closest surviving thing to the king's own words); tradition for
+      the West Syriac communion that wrote it, recorded under one row.

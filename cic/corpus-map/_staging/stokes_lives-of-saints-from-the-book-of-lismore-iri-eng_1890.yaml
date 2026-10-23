@@ -1,0 +1,22 @@
+source_file: stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt
+
+authors_ruled:
+  lismore-lives:
+    kind: anonymous
+    evidence: >
+      Anonymous Middle Irish lives in the Book of Lismore; the edition names only its
+      editor.
+    from_file: stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt
+
+assignments:
+  - row_id: stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890--lismore-lives
+    work: "Lives of Irish saints from the Book of Lismore (Patrick, Colum Cille, Brigit, Senan, Findian, Brenainn, Mochua), Irish with English"
+    author: lismore-lives
+    locus: "the lives per the volume's contents list"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+    role: transmission
+    confidence: provisional
+    note: >
+      Middle Irish lives written centuries after the window; transmission with confidence
+      tags.

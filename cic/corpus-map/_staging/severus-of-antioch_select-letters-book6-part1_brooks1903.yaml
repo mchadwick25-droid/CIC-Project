@@ -17,3 +17,17 @@ assignments:
       scattered communion. This is only the Sixth Book of his letters
       (123 letters survive of it); it is not his complete correspondence
       - see REGISTRY.yaml for what else exists and is not yet vendored.
+
+  - row_id: severus-of-antioch_select-letters-book6-part1_brooks1903--egypt-letters-reconciling-groups
+    work: "Select Letters, Book VI part 1: letters on reconciling the separated anti-Chalcedonian groups in Egypt"
+    author: severus-of-antioch
+    locus: "raw file lines ~5200-5590 and the Egyptian correspondents throughout"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Severus writing from his Egyptian exile to and about the Egyptian church of the same
+      communion. Tradition provisionally (the census names this work for the Egyptian
+      entry); the build thread decides tradition versus context. Tier 1 cross-link, Era III
+      Library pass, October 2026.

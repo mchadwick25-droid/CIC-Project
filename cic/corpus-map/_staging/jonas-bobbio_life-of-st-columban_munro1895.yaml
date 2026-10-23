@@ -1,0 +1,24 @@
+source_file: jonas-bobbio_life-of-st-columban_munro1895.txt
+
+authors_ruled:
+  jonas-bobbio:
+    kind: metadata-omission
+    evidence: >
+      The host record names Jonas, of Bobbio, Abbot, d. ca. 665, as creator; the corpus-map
+      has no earlier ruling for the slug.
+    from_file: jonas-bobbio_life-of-st-columban_munro1895.txt
+
+assignments:
+  - row_id: jonas-bobbio_life-of-st-columban_munro1895--life-of-columban
+    work: "Jonas of Bobbio, Life of St. Columban, English"
+    author: jonas-bobbio
+    locus: "chapters"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The Irish continental mission by a Bobbio monk; tradition for the Irish entry, and
+      Luxeuil's Frankish setting makes it a context row for the Merovingian one (one row,
+      role as stated for the Irish entry).

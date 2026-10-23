@@ -1,0 +1,21 @@
+source_file: gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt
+
+authors_ruled:
+  gadla-pantalewon-yared:
+    kind: anonymous
+    evidence: >
+      Anonymous Ge'ez Lives; the edition names only its editor. The file is named for the
+      works.
+    from_file: gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt
+
+assignments:
+  - row_id: gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904--acta-yared-pantalewon
+    work: "Acta Yared et Pantalewon (the Ge'ez Lives of Yared and of Pantalewon, in Latin)"
+    author: gadla-pantalewon-yared
+    locus: "whole text; Pantalewon from around raw line 1778"
+    atlas_ids:
+      - aksumite-christianity
+    role: transmission
+    confidence: assigned
+    note: >
+      Medieval Ethiopian Lives of Aksumite saints; transmission, Latin only.

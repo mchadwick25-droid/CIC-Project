@@ -64,3 +64,98 @@ assignments:
       Own-voice/opponent-voice tagging book-by-book, not a single
       whole-work role, remains Doc_02's own task for the continuator
       material specifically.
+
+  - row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--iii-vi-alexandria-451-491
+    work: "Chronicle Books III-VI (Alexandria after Chalcedon: Proterius, Timothy Aelurus, Peter Mongus, 451-491)"
+    author: zachariah-rhetor
+    locus: "Books III-VI (raw file lines ~2062-7286)"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The epitome of Zacharias's anti-Chalcedonian history of Alexandria: the Egyptian
+      church's own side of 451-491, including the consecration of Timothy Aelurus (III.2).
+      Tier 1 cross-link found by the Era III Library pass, October 2026.
+
+  - row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--iii-3-5-monks-revolt-peter-iberian
+    work: "Chronicle Book III.3-5 (the Palestinian monks' revolt after Chalcedon; Peter the Iberian made bishop of Maiuma)"
+    author: zachariah-rhetor
+    locus: "Book III ch. 3-5 (raw file lines ~2062-2750)"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+      - georgian-christianity
+    role: context
+    confidence: assigned
+    note: >
+      The rival side's account of the revolt the Chalcedonian lauras lived through, by a
+      native of Gaza; Peter the Iberian's episcopate at Maiuma. Era III Library pass,
+      October 2026.
+
+  - row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--viii-3-najran-letter-simeon
+    work: "Chronicle Book VIII.3 (Simeon of Beth Arsham's letter on the Najran martyrs, 523, and the appeal to the king of the Ethiopians)"
+    author: zachariah-rhetor
+    locus: "Book VIII ch. 3 (raw file lines ~9495-10010)"
+    atlas_ids:
+      - aksumite-christianity
+    role: context
+    confidence: assigned
+    note: >
+      The contemporary Syriac letter that brought the Himyarite persecution to the Aksumite
+      king's attention; the one vendored witness to Kaleb's war as it was seen at the time.
+      Era III Library pass, October 2026.
+
+  - row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--ix-anthimus-julianists
+    work: "Chronicle Book IX (Anthimus of Constantinople, Theodora's patronage, the Julianist schism)"
+    author: zachariah-rhetor
+    locus: "Book IX (raw file lines ~10752-14660)"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: >
+      The anti-Chalcedonian view of the capital's church under Justinian and Theodora. Era
+      III Library pass, October 2026.
+
+  - row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--xii-7-armenia-georgia-albania-persia
+    work: "Chronicle Book XII.7 (the Christian peoples of the Caucasus: Armenia's Catholicos at Dvin, Gurzan, Arran; Kardutsat's mission to the Huns; the Persian Catholicos Joseph at court)"
+    author: zachariah-rhetor
+    locus: "Book XII ch. 7 (raw file lines ~16313-16515)"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+      - georgian-christianity
+      - church-of-caucasian-albania
+      - the-church-of-the-east-under-persia
+    role: context
+    confidence: assigned
+    note: >
+      A geographical survey written c. 555 naming the Armenian Catholicos Gregory at Dvin,
+      Georgia's Christian prince under Persia, Albania ("Arran") as a baptized people whose
+      bishop Kardutsat went to the Huns, and the Persian Catholicos Joseph as the king's
+      physician. One short chapter serving four worlds. Era III Library pass, October 2026.
+
+  - row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--ii-5-proclus-tome-armenians
+    work: "Chronicle Book II.5 (Proclus of Constantinople's Tome to the Armenians, c. 435, given in full)"
+    author: zachariah-rhetor
+    locus: "Book II ch. 5 (raw file lines ~1367-2027)"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+    role: antecedent
+    confidence: needs-ruling
+    note: >
+      The doctrinal text the Armenian church argued from against Chalcedon. Antecedent by
+      the corpus-map's own rule only once the Armenian entry's own vendored sources (Elishe,
+      Lazar) are shown to argue from it; needs-ruling until then. Era III Library pass,
+      October 2026.
+
+  - row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--vii-4-albanian-prince-amida
+    work: "Chronicle Book VII.4 (a Christian prince of Arran pleads for the Church of the Forty Martyrs at Amida, 503)"
+    author: zachariah-rhetor
+    locus: "Book VII ch. 4 (raw file lines ~7839-7841)"
+    atlas_ids:
+      - church-of-caucasian-albania
+    role: context
+    confidence: provisional
+    note: >
+      A few lines; the only other vendored notice of an Albanian Christian in action. Era
+      III Library pass, October 2026.

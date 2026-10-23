@@ -1,0 +1,67 @@
+source_file: langlois_collection-historiens-armenie-tome2-fra_1869.txt
+
+authors_ruled:
+  koriun:
+    kind: metadata-omission
+    evidence: >
+      The volume's contents list names Koriun's Life of Mesrop; the host record names only
+      Langlois.
+    from_file: langlois_collection-historiens-armenie-tome2-fra_1869.txt
+  lazar-parpetsi:
+    kind: metadata-omission
+    evidence: >
+      The contents list names Lazar of Parp; the host record names only Langlois.
+    from_file: langlois_collection-historiens-armenie-tome2-fra_1869.txt
+  eznik:
+    kind: metadata-omission
+    evidence: >
+      The contents list names an extract of Eznik; the host record names only Langlois.
+    from_file: langlois_collection-historiens-armenie-tome2-fra_1869.txt
+
+assignments:
+  - row_id: langlois_collection-historiens-armenie-tome2-fra_1869--lazar-of-parp
+    work: "Lazar of Parp, History of Armenia (French)"
+    author: lazar-parpetsi
+    locus: "the Lazar section of the volume"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+    role: tradition
+    confidence: assigned
+    note: >
+      The sober second historian of Avarayr and the settlement of 484; French only.
+
+  - row_id: langlois_collection-historiens-armenie-tome2-fra_1869--elishe-french
+    work: "Elishe, History of Vartan (Langlois's French translation)"
+    author: eghishe
+    locus: "the Elishe section of the volume"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+    role: tradition
+    confidence: assigned
+    note: >
+      A second translation of the work in the Neumann English file; a cross-check.
+
+  - row_id: langlois_collection-historiens-armenie-tome2-fra_1869--koriun-life-of-mashtots
+    work: "Koriun, Life of Mesrop (Mashtots), French"
+    author: koriun
+    locus: "the Koriun section of the volume"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+      - church-of-caucasian-albania
+    role: tradition
+    confidence: assigned
+    note: >
+      The inventor of the Armenian script as his pupil saw him, with the mission to the
+      Albanians and Iberians; the only vendored witness to the Albanian alphabet outside
+      Moses of Khoren.
+
+  - row_id: langlois_collection-historiens-armenie-tome2-fra_1869--eznik-extract
+    work: "Eznik of Kolb, extract from On God (French)"
+    author: eznik
+    locus: "the Eznik section of the volume"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+    role: tradition
+    confidence: provisional
+    note: >
+      A fifth-century Armenian theologian; provisional as the volume prints only an extract.

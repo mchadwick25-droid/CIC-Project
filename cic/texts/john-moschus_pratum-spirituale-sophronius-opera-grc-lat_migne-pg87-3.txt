@@ -1,37 +1,35 @@
-     ______________________________________________________________________
-
-          Title: Doctrinae Diversae (Instructions), in Migne, Patrologiae Cursus
-                  Completus, Series Graeca, Tomus LXXXVIII
-     Creator(s): Dorotheus of Gaza (6th c. CE)
-                 J.-P. Migne (General editor/compiler of this Patrologia Graeca
-                  reprint)
-    Print Basis: Paris: Migne, Patrologiae Cursus Completus, Series Graeca, Tomus
-                  LXXXVIII, 1860
-         Rights: Public Domain
-       Language: grc+lat
-   Rights Basis: The Migne Patrologia Graeca series was compiled and printed in the
-                  1850s-1860s, over 160 years before this session (2026). Confirmed
-                  directly from the Internet Archive scan (identifier bim_early-english-
-                  books-1641-1700_patrologiae-cursus-completus-_1860_88), fetched and
-                  read in full this session.
-Source Collection: Internet Archive (archive.org), identifier bim_early-english-
-                  books-1641-1700_patrologiae-cursus-completus-_1860_88
-   Content note: IMPORTANT DISCLOSED GAP: the source-gap report cited this same
-                  identifier for "Barsanuphius and John, Letters 72-123 to Andrew"
-                  alongside Dorotheus's own Discourses. Dorotheus's own material (his
-                  "Doctrinae") is genuinely and extensively present, confirmed by many
-                  direct textual references. Barsanuphius and John's own correspondence
-                  was NOT confirmed present beyond a single incidental heresiological
-                  cross-reference ("Barsanuphitarum", naming a sect, not quoting a
-                  letter) - real doubt exists whether their Letters to Andrew are
-                  actually in this volume at all (their standard edition history runs
-                  through Nicodemus's 1816 Venice printing, not Migne PG). Filed here
-                  under Dorotheus's own name rather than the joint framing the report
-                  used, since only his material is confirmed. The Barsanuphius/John "I
-                  Carry Half Your Burden" citation this report's story depends on
-                  remains an open, unresolved sourcing gap - not silently closed by this
-                  file.
-     ______________________________________________________________________
+Title: Patrologiae Cursus Completus, Series Graeca, Tomus LXXXVII pars tertia: Procopius of
+    Gaza (end of the Commentarii); John Moschus, Pratum Spirituale (The Spiritual Meadow);
+    Sophronius of Jerusalem, Epistola synodica ad Sergium, Orationes, Miracula Cyri et
+    Joannis, Vita Mariae Aegyptiacae, Anacreontica; Alexander Monachus, De inventione
+    Crucis
+Creator: John Moschus (c. 550-619); Sophronius of Jerusalem (c. 560-638); Procopius of Gaza;
+    Alexander Monachus (J.-P. Migne, compiler; Greek with facing Latin translations)
+Publisher: Paris: Migne, Patrologia Graeca vol. 87 part 3, 1860
+Rights: Public Domain
+Rights basis: A Migne Patrologia Graeca printing of 1860, out of US copyright by date;
+    confirmed from the Internet Archive scan (identifier bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88), per the original 2026-09-25 intake.
+Language: grc (Greek with Latin; the Latin columns are what the OCR reads, the Greek is
+    garbled - SECOND WITNESS ONLY)
+Source: Internet Archive item bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88
+    (archive.org/details/bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88), the
+    item's own _djvu.txt full-text file.
+Provenance note: This file is Patrologia Graeca 87 part 3, not PG 88, and contains no Dorotheus. The host's
+    "Vol 88" counts physical volumes in a serial run, not Migne's tomus numbers: neighbouring items
+    in the same run carry the running heads of PG 87.2 (Procopius of Gaza on Isaiah) and PG 89
+    (Anastasius of Sinai), and this file's own running heads are "PROCOPII GAZEI" (to raw line
+    ~2872), "JOANNES MOSCHUS" (from ~3369, the Notitia, to ~25000), "EPISTOLA SYNODICA AD SERGIUM
+    CP." (~26355) and the other Sophronius works, then Alexander Monachus (~95000). The name
+    Dorotheus occurs only in passing (seventeen times, e.g. "in coenobium abbatis Dorothei prope
+    Gazam"). The real PG 88 is vendored as dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-
+    grc-lat_migne-pg88.txt. Raw djvu OCR, runs of 2+ spaces collapsed, no wording altered. Sections:
+    Migne column numbers in the running text; the Pratum by its numbered chapters (Latin "Caput");
+    Sophronius by work. Credit line: "Patrologia Graeca 87.3 (Migne, 1860)". Whole text republishable
+    (Latin column); no public-domain English of the Pratum or of Sophronius exists.
+Content note: The Pratum Spirituale is the great collection of monastic stories from the
+    Judean desert, Sinai, Egypt and Syria c. 600 by a monk of St Theodosius and the laura
+    of St Sabas - the Chalcedonian Judean-desert world's own voice at its close. Sophronius's
+    Synodical Letter (634) belongs to the Heraclian sibling entry.
 
 NOTE ON THIS TRANSCRIPTION: the source is a raw OCR (djvu) text layer from
 a scanned physical volume, not a clean digital edition. Runs of 2+ spaces

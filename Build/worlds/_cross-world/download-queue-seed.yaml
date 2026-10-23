@@ -2306,9 +2306,7 @@ queue:
     url: "https://archive.org/details/operaomniavolum00alcugoog"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2323,9 +2321,7 @@ queue:
     url: "https://archive.org/details/annalesregnifran00anna"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2340,9 +2336,7 @@ queue:
     url: "https://archive.org/details/ausderschuledes00maxigoog"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2357,9 +2351,7 @@ queue:
     url: "https://archive.org/details/ecclesiasticalh00bede"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2374,9 +2366,7 @@ queue:
     url: "https://archive.org/details/cihm_84747"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2390,9 +2380,7 @@ queue:
     url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_039"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2407,9 +2395,7 @@ queue:
     url: "https://archive.org/details/monument01gese"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2424,11 +2410,12 @@ queue:
     url: "https://archive.org/details/bub_gb_1Z5eE88JWfIC"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
+    vendored_as: "cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681.txt"
+    vendored_note: >-
+      The file holds Cotelier tomus II, which carries the Vita Euthymii only. The Vita Sabae is in tomus III (1686), not vendored: the only located scan, archive.org bub_gb_PLhdE15tQTAC, has unusable OCR.
 
   - title: "Liber Manualis"
     author: "Dhuoda"
@@ -2441,9 +2428,7 @@ queue:
     url: "https://archive.org/details/lemanueldedhuoda00dhuo"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2456,11 +2441,12 @@ queue:
     url: "https://archive.org/details/bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
+    vendored_as: "john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
+    vendored_note: >-
+      This identifier is Patrologia Graeca 87.3 (Moschus, Sophronius) and contains no Dorotheus. The real PG 88, with Dorotheus, is archive.org pg-88, vendored under its own row.
 
   - title: "The Pilgrimage of S. Silvia [Egeria] of Aquitania to the Holy Places"
     author: "Egeria"
@@ -2473,9 +2459,7 @@ queue:
     url: "https://archive.org/details/libraryofpalesti01paleuoft"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2490,9 +2474,7 @@ queue:
     url: "https://archive.org/details/ecclesiasticalhi0000evag"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2506,9 +2488,7 @@ queue:
     url: "https://archive.org/details/historyoffranks0002greg"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2523,9 +2503,7 @@ queue:
     url: "https://archive.org/details/patrologicursusc0050unse"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2540,9 +2518,7 @@ queue:
     url: "https://archive.org/details/ecclesiasticalhi00johnuoft"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2556,9 +2532,7 @@ queue:
     url: "https://archive.org/details/patrologiaorient17pariuoft"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2572,9 +2546,7 @@ queue:
     url: "https://archive.org/details/patrologiaorient18pariuoft"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2589,9 +2561,7 @@ queue:
     url: "https://archive.org/details/patrologiaorient19pariuoft"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2605,9 +2575,7 @@ queue:
     url: "https://archive.org/details/JohnOfNikiuChronicle1916"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2621,9 +2589,7 @@ queue:
     url: "https://archive.org/details/bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_90"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2638,9 +2604,7 @@ queue:
     url: "https://archive.org/details/storiadimoscor00mose"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2655,9 +2619,7 @@ queue:
     url: "https://archive.org/details/nithardihistoria00nithuoft"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2671,9 +2633,7 @@ queue:
     url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_030"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2688,9 +2648,7 @@ queue:
     url: "https://archive.org/details/annalesbertinian00wait"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2705,9 +2663,7 @@ queue:
     url: "https://archive.org/details/origenes-werke.-bd-7-1921"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
@@ -2722,12 +2678,277 @@ queue:
     url: "https://archive.org/details/historyofpatriar0000beve_d4b4"
     rights_basis: pd-us-by-date
     verified_by: >-
-      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      Claude (tech-readiness build thread): source and rights independently confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
 
+  - title: "The Secret History of the Court of Justinian"
+    author: "Procopius of Caesarea"
+    translator: "anonymous (Athenian Society)"
+    year: 1896
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Found by the Era III Library pass (October 2026): Procopius's Anecdota in a public-domain English rendering, the only insider account of Justinian's and Theodora's
+      household; nothing by Procopius was vendored before this pass.
+    url: "https://www.gutenberg.org/ebooks/12916"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 1896
+      imprint and PD statement read, October 2026
+    status: downloaded
+    vendored_as: "procopius_secret-history_athenian-society1896.txt"
+
+  - title: "Of the Buildings of Justinian"
+    author: "Procopius of Caesarea"
+    translator: "Aubrey Stewart"
+    year: 1888
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (October 2026): the one surviving description of Hagia Sophia by a
+      contemporary, plus Justinian's churches in Palestine, Sinai and Africa.
+    url: "https://www.gutenberg.org/ebooks/65404"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 1888
+      imprint and PD statement read, October 2026
+    status: downloaded
+    vendored_as: "procopius_buildings_stewart1888.txt"
+
+  - title: "History of the Wars, Books I and II: The Persian War"
+    author: "Procopius of Caesarea"
+    translator: "H. B. Dewing"
+    year: 1914
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (October 2026): the court historian of Justinian's reign in public-domain English; I.19-20 is also the main outside witness for Nubia and Aksum, I.12 for
+      Christian Iberia.
+    url: "https://www.gutenberg.org/ebooks/16764"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched directly;
+      'First Printed 1914' and PD statement read, October 2026
+    status: downloaded
+    vendored_as: "procopius_wars-1-2-persian_dewing1914.txt"
+
+  - title: "History of the Wars, Books III and IV: The Vandalic War"
+    author: "Procopius of Caesarea"
+    translator: "H. B. Dewing"
+    year: 1916
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (October 2026): the eyewitness narrative of the reconquest of
+      Vandal Africa in 533-34, including the Arian clergy at Cyprian's shrine.
+    url: "https://www.gutenberg.org/ebooks/16765"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched directly;
+      'First Printed 1916' and PD statement read, October 2026
+    status: downloaded
+    vendored_as: "procopius_wars-3-4-vandalic_dewing1916.txt"
+
+  - title: "History of the Wars, Books V and VI: The Gothic War"
+    author: "Procopius of Caesarea"
+    translator: "H. B. Dewing"
+    year: 1919
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (October 2026): the eyewitness narrative of the Gothic war that is
+      the backdrop of Benedict's Italy and of the Ostrogothic Arian kingdom's end.
+    url: "https://www.gutenberg.org/ebooks/20298"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 1919
+      imprint and PD statement read, October 2026
+    status: downloaded
+    vendored_as: "procopius_wars-5-6-gothic_dewing1919.txt"
+
+  - title: "Procopius, History of the Wars, Books VI.16-VII.35 (Loeb vol. IV)"
+    author: "Procopius of Caesarea"
+    translator: "H. B. Dewing"
+    year: 1924
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (October 2026): continues the Gothic War past the Gutenberg volumes
+      (which stop at VI.15); Totila's Italy.
+    url: "https://archive.org/details/procopiuswitheng04procuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT); the
+      volume's own 'First printed 1924' leaf read in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt"
+
+  - title: "Procopius, History of the Wars, Books VII.36-VIII (Loeb vol. V)"
+    author: "Procopius of Caesarea"
+    translator: "H. B. Dewing"
+    year: 1928
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (October 2026): completes the Wars; Book VIII's Lazica chapters are
+      the fullest outside account of the Christian Lazi and the Caucasus front.
+    url: "https://archive.org/details/procopiuswitheng05procuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT); the
+      volume's own 'First printed 1928' leaf read in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt"
+
+  - title: "The Akathist Hymn and Little Compline (Greek text with English rendering)"
+    author: "anonymous (Akathistos hymn)"
+    translator: "unnamed (Greek Church in London series)"
+    year: 1919
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (October 2026): the one great Constantinopolitan hymn of the period
+      available in public-domain English with its Greek; date and authorship contested, so
+      it carries a confidence flag.
+    url: "https://archive.org/details/akathisthymnlitt00londuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT, 1919);
+      title page read in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "akathist-hymn_little-compline-grc-eng_london1919.txt"
+
+  - title: "Library of the Palestine Pilgrims' Text Society, vol. II (Eucherius, Breviarius, Theodosius, Procopius Buildings, Antoninus of Piacenza)"
+    author: "Theodosius; Antoninus of Piacenza; Eucherius (attrib.); Procopius"
+    translator: "Aubrey Stewart"
+    year: 1896
+    world: "chalcedonian-monasticism-judean-desert-and-gaza"
+    why: >
+      Era III Library pass (October 2026): the two 6th-century pilgrim itineraries
+      (Theodosius, the Piacenza pilgrim) are the only outside English witnesses to the
+      Judean-desert and Gaza monasteries in their own day; vol. I was already vendored for
+      Egeria.
+    url: "https://archive.org/details/p2libraryofpales01paleuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT); the
+      four parts' title pages read in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt"
+
+  - title: "Patrologia Graeca 88: Dorotheus of Gaza, Barsanuphius and John (questions), John Climacus, Agathias, Cosmas, John the Faster"
+    author: "Dorotheus of Gaza; John Climacus; Agathias; and others"
+    translator: "Migne (Greek with Latin)"
+    year: 1860
+    world: "chalcedonian-monasticism-judean-desert-and-gaza"
+    why: >
+      Era III Library pass (October 2026): the file vendored September 2026 as "Dorotheus, PG 88"
+      turned out to be PG 87.3 (Moschus and Sophronius). This item is the real volume, with
+      Dorotheus's instructions and his exchange with Barsanuphius and John - the Gaza
+      world's own voice in its only public-domain witness.
+    url: "https://archive.org/details/pg-88"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (no copyright field; 1860
+      imprint); running heads 'S. DOROTHEI ABBATIS' and 'S. JOANNIS CLIMACI' and the
+      Barsanuphius 'Interrogatio' section located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt"
+
+  - title: "Collectio Avellana, pars I (epistulae I-CIV), CSEL 35.1"
+    author: "Collectio Avellana (popes and emperors, 367-553)"
+    translator: "Otto Guenther (ed.)"
+    year: 1895
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (October 2026): the primary Latin record of Rome-Constantinople
+      correspondence through the Acacian schism, and the 535 letter of the restored African
+      church. Latin only.
+    url: "https://archive.org/details/epistulaeimperat01gnth"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1895 Tempsky; no
+      copyright field); title page read in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt"
+
+  - title: "Collectio Avellana, pars II (epistulae CV-CCXLIV), CSEL 35.2"
+    author: "Collectio Avellana (Justinian, Vigilius and others)"
+    translator: "Otto Guenther (ed.)"
+    year: 1898
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (October 2026): Justinian's own church letters and edicts in the
+      Latin of the Roman archive; the emperor's voice is otherwise absent from the corpus.
+    url: "https://archive.org/details/epistulaeimperat02gnth"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Tempsky; no copyright
+      field); 'Exemplum epistolae Iustiniani' located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898.txt"
+
+  - title: "Corpus Iuris Civilis vol. III: Novellae (Justinian's Novels)"
+    author: "Justinian I"
+    translator: "Rudolf Schoell and Wilhelm Kroll (eds.)"
+    year: 1895
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (October 2026): the imperial church's own law code in the emperor's
+      words; nothing of Justinian's legislation was vendored before this pass.
+    url: "https://archive.org/details/corpusiuriscivil03krueuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Weidmann 1892-95), October 2026
+    status: downloaded
+    vendored_as: "justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt"
+
+  - title: "Chronica minora II (MGH Auctores antiquissimi 11): Marcellinus Comes, Victor of Tunnuna, John of Biclaro, Isidore, Marius of Avenches"
+    author: "Marcellinus Comes; Victor of Tunnuna; John of Biclaro; Isidore of Seville; Marius of Avenches"
+    translator: "Theodor Mommsen (ed.)"
+    year: 1894
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (October 2026): six Era III worlds share this one volume; Victor of
+      Tunnuna is the African church's own chronicle, Biclaro the Visigothic one, and
+      Biclaro's single sentence on Makuria is the only Latin witness to Nubia's second
+      conversion.
+    url: "https://archive.org/details/chronicaminorasa11momm"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Weidmann 1894; no
+      copyright field); the Marcellinus, Victor and Biclaro headings located in the fetched
+      text, October 2026
+    status: downloaded
+    vendored_as: "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+
+  - title: "Patrologia Orientalis II: Vie de Sévère par Zacharie le Scholastique; Vie de Sévère par Jean de Beith-Aphthonia"
+    author: "Zacharias Scholasticus; John of Beth Aphthonia"
+    translator: "M.-A. Kugener (Syriac text with French translation)"
+    year: 1903
+    world: "syriac-orthodox-west-syriac-christianity"
+    why: >
+      Era III Library pass (October 2026): the West Syriac dossier (§3) named the Life of
+      Severus as a lead without confirming its edition; this is Kugener's PO 2 edition,
+      confirmed on the host. Serves three Era III worlds.
+    url: "https://archive.org/details/patrologiaorient02pariuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT); 'VIE
+      DE SEVERE, PAR ZACHARIE LE SCHOLASTIQUE' title line read in the fetched text,
+      2026-10-16
+    status: downloaded
+    vendored_as: "zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+
+  - title: "Analecta Bollandiana 7 (1888): Antony of Choziba, Vita sancti Georgii Chozibitae"
+    author: "Antony of Choziba"
+    translator: "C. Houze (ed., Greek)"
+    year: 1888
+    world: "chalcedonian-monasticism-judean-desert-and-gaza"
+    why: >
+      Era III Library pass (October 2026): the only first-hand account of the Judean desert
+      monasteries at the Persian conquest of 614, in its only public-domain edition.
+    url: "https://archive.org/details/sim_analecta-bollandiana_1888_7"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1888; no copyright
+      field); the Life's heading located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt"
   - title: The History of the Evangelical Churches of the Valleys of Piemont
     author: Samuel Morland
     translator: none (English original)
@@ -10757,3 +10978,1253 @@ queue:
       five-point OCR sample'
     status: downloaded
     vendored_as: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt
+
+  - title: "Coptic Apocrypha in the Dialect of Upper Egypt (with the Life of Bishop Pisentius)"
+    author: "John the Elder and anonymous"
+    translator: "E. A. Wallis Budge"
+    year: 1913
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Era III Library pass (October 2026): a Coptic bishop's Life written by his own disciple
+      inside the window, in public-domain English.
+    url: "https://archive.org/details/copticapocryphai00budguoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      British Museum 1913); the Pisentius Life located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt"
+
+  - title: "Miscellaneous Coptic Texts in the Dialect of Upper Egypt (with the Encomium of Theodosius of Alexandria on St Michael)"
+    author: "Theodosius of Alexandria (attrib.); Timothy (attrib.); anonymous"
+    translator: "E. A. Wallis Budge"
+    year: 1915
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Era III Library pass (October 2026): the one text under Patriarch Theodosius's own name
+      in public-domain English, attribution flagged contested.
+    url: "https://archive.org/details/miscellaneouscop00budguoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      British Museum 1915); the Theodosius encomium located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "miscellaneous-coptic-texts-upper-egypt_budge1915.txt"
+
+  - title: "The Monastery of Epiphanius at Thebes, Part II: Coptic Ostraca and Papyri"
+    author: "monks of the monastery of Epiphanius; Patriarch Damian; Bishop Pesynthius"
+    translator: "W. E. Crum; H. G. Evelyn White"
+    year: 1926
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Era III Library pass (October 2026): the everyday documents of a Coptic monastery c. 600
+      in English, with a patriarch's festal letter among them.
+    url: "https://archive.org/details/monasteryofepiph02winl"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1926; no copyright
+      field); the Damian text no. 53 located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt"
+
+  - title: "Patrologia Orientalis I: Le Synaxaire arabe jacobite (Tout, Babeh); Le Synaxaire ethiopien (Sane)"
+    author: "Coptic and Ethiopian Synaxaria (anonymous)"
+    translator: "R. Basset; I. Guidi (French)"
+    year: 1907
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Era III Library pass (October 2026): the Coptic church's own calendar of its saints and
+      patriarchs, months not in the PO 16 or PO 17 fascicles already vendored.
+    url: "https://archive.org/details/patrologiaorient01pari"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Firmin-Didot 1907; no
+      copyright field), October 2026
+    status: downloaded
+    vendored_as: "synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt"
+
+  - title: "Patrologia Orientalis XI: Le Synaxaire arabe jacobite (Toubeh, Amchir)"
+    author: "Coptic Synaxarion (anonymous)"
+    translator: "R. Basset (French)"
+    year: 1916
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Era III Library pass (October 2026): two more months of the Coptic calendar.
+    url: "https://archive.org/details/patrologiaorient11pariuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT);
+      Basset's title line read in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt"
+
+  - title: "The Origins of the Islamic State (Kitab Futuh al-Buldan), vol. I"
+    author: "al-Baladhuri"
+    translator: "Philip Khuri Hitti"
+    year: 1916
+    world: "nubian-christianity"
+    why: >
+      Era III Library pass (October 2026): the earliest account of the Arab-Nubian treaty (the
+      baqt) and of the conquest of Egypt in public-domain English.
+    url: "https://archive.org/details/originsislamics00hittgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Columbia 1916); the Nubia chapter located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt"
+
+  - title: "The Christian Topography of Cosmas, an Egyptian Monk"
+    author: "Cosmas Indicopleustes"
+    translator: "J. W. McCrindle"
+    year: 1897
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (October 2026): the one Greek eyewitness of Aksum in Kaleb's reign,
+      in public-domain English.
+    url: "https://archive.org/details/christiantopogra00cosm"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Hakluyt 1897; no
+      copyright field); the Adulis/Elesbaan passage located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "cosmas-indicopleustes_christian-topography_mccrindle1897.txt"
+
+  - title: "The Library of Photius, vol. I"
+    author: "Photius"
+    translator: "J. H. Freese"
+    year: 1920
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (October 2026): Nonnosus's lost report of Justinian's embassy to
+      the Aksumite king survives only in Photius's summary.
+    url: "https://archive.org/details/libraryofphotius00phot"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; SPCK
+      1920); codex 3 located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "photius_library-v1_freese1920.txt"
+
+  - title: "The Book of the Himyarites (Syriac fragments with English translation)"
+    author: "anonymous (6th-century Syriac)"
+    translator: "Axel Moberg"
+    year: 1924
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (October 2026): the fullest contemporary narrative of the Najran
+      martyrs and Kaleb's war, with the king's reported prayer.
+    url: "https://archive.org/details/bookofhimyarites0000axel"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1924; no copyright
+      field); the Prayer of King Kaleb located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "book-of-the-himyarites-syr-eng_moberg1924.txt"
+
+  - title: "The Book of the Saints of the Ethiopian Church (Ethiopic Synaxarium), vols. II-IV (microform scan)"
+    author: "Ethiopian Synaxarium (anonymous)"
+    translator: "E. A. Wallis Budge"
+    year: 1928
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (October 2026): completes the Synaxarium past the vols. I-II files
+      already vendored; Kaleb's entry (20 Genbot) is in it.
+    url: "https://archive.org/details/bookofsaintsofet00yait"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1928; no copyright
+      field); the VOLUME TWO/THREE/FOUR headings located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt"
+
+  - title: "The Queen of Sheba and her only son Menyelek (Kebra Nagast)"
+    author: "Kebra Nagast (anonymous)"
+    translator: "E. A. Wallis Budge"
+    year: 1922
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (October 2026): the Ethiopian national epic's memory of Kaleb;
+      late, transmission only.
+    url: "https://archive.org/details/queenofshebahero00budgrich"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Medici
+      Society 1922), October 2026
+    status: downloaded
+    vendored_as: "kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt"
+
+  - title: "Vitae sanctorum antiquiorum I: Acta Yared et Pantalewon (CSCO, Latin)"
+    author: "anonymous Ge'ez hagiographers"
+    translator: "Carlo Conti Rossini (Latin)"
+    year: 1904
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (October 2026): the Lives of Yared and of the Nine Saints'
+      Pantalewon, who counselled Kaleb; Latin only.
+    url: "https://archive.org/details/vitaesanctoruman00cont"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Rome 1904; no copyright
+      field); the Pantalewon Life located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt"
+
+  - title: "Recueil des inscriptions grecques-chretiennes d'Egypte"
+    author: "anonymous (Christian inscriptions of Egypt and Nubia)"
+    translator: "Gustave Lefebvre (ed., Greek with French)"
+    year: 1907
+    world: "nubian-christianity"
+    why: >
+      Era III Library pass (October 2026): Nubia's only own-voice texts from the window are
+      inscriptions (Silko, Philae); this is their public-domain corpus.
+    url: "https://archive.org/details/recueildesinscri00egyp"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (IFAO 1907; no copyright
+      field), October 2026
+    status: downloaded
+    vendored_as: "lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907.txt"
+
+  - title: "The Liturgical Homilies of Narsai"
+    author: "Narsai"
+    translator: "R. H. Connolly"
+    year: 1909
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (October 2026): the Church of the East's first named theologian of
+      the Persian period, in public-domain English.
+    url: "https://archive.org/details/liturgicalhomili00narsuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; CUP
+      1909); the homilies located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "narsai_liturgical-homilies_connolly1909.txt"
+
+  - title: "Patrologia Orientalis XIII: Chronique de Seert, seconde partie (II.2)"
+    author: "Chronicle of Seert (anonymous)"
+    translator: "Addai Scher (French)"
+    year: 1919
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (October 2026): the later chapters of the East Syrian church's own
+      history, which the PO 5 volume already vendored does not reach.
+    url: "https://archive.org/details/patrologiaorien13pari"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Firmin-Didot; no
+      copyright field); the Seert chapters located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt"
+
+  - title: "Patrologia Orientalis IV: Barhadbeshabba, La Cause de la fondation des ecoles"
+    author: "Barhadbeshabba 'Arbaya"
+    translator: "Addai Scher (French)"
+    year: 1908
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (October 2026): the school of Nisibis's own account of its
+      founding, the text the census names through Becker's English.
+    url: "https://archive.org/details/patrologiaorien00unkngoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Firmin-Didot 1908); the Cause located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt"
+
+  - title: "The Book of Governors (Thomas of Marga), vol. II, English"
+    author: "Thomas of Marga"
+    translator: "E. A. Wallis Budge"
+    year: 1893
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (October 2026): the main English narrative of East Syrian
+      monasticism and Babai the Great.
+    url: "https://archive.org/details/bookgovernorshi00thomgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Kegan
+      Paul 1893), October 2026
+    status: downloaded
+    vendored_as: "thomas-of-marga_book-of-governors-v2-english_budge1893.txt"
+
+  - title: "Gli statuti della Scuola di Nisibi (Giornale della Societa Asiatica Italiana 4)"
+    author: "School of Nisibis (anonymous)"
+    translator: "Ignazio Guidi (ed., Syriac with Italian)"
+    year: 1890
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (October 2026): the school's constitution, named in the census;
+      Syriac only.
+    url: "https://archive.org/details/GiornaleDellaSocietaAsiaticaItaliana4"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1890; CC Public Domain
+      Mark 1.0), October 2026
+    status: downloaded
+    vendored_as: "school-of-nisibis_statuti-della-scuola-di-nisibi-syr-ita_guidi1890.txt"
+
+  - title: "Chronica minora, pars prior (CSCO Scriptores Syri), Latin version"
+    author: "anonymous Syriac chroniclers"
+    translator: "Ignazio Guidi (ed.)"
+    year: 1903
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (October 2026): the nearest contemporary East Syrian narrative of
+      the 7th-century Persian church, Latin.
+    url: "https://archive.org/details/chronicaminorapa00guid"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Guidi 1903; no copyright
+      field), October 2026
+    status: downloaded
+    vendored_as: "chronica-minora-pars-prior-versio-lat_guidi1903.txt"
+
+  - title: "The History of Vartan and of the Battle of the Armenians"
+    author: "Eghishe (Elishe)"
+    translator: "Charles Friedrich Neumann"
+    year: 1830
+    world: "armenian-christianity-after-avarayr"
+    why: >
+      Era III Library pass (October 2026): Elishe, the census's first named voice, complete in
+      public-domain English.
+    url: "https://archive.org/details/thehistoryofvartan"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1830; CC Public Domain
+      Mark 1.0); title page read in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt"
+
+  - title: "Collection des historiens anciens et modernes de l'Armenie, tome II"
+    author: "Koriun; Moses of Khoren; Elishe; Lazar of Parp; Eznik"
+    translator: "Victor Langlois (ed.); Emine; Ghesarian (French)"
+    year: 1869
+    world: "armenian-christianity-after-avarayr"
+    why: >
+      Era III Library pass (October 2026): Lazar of Parp and Koriun, the entry's other named
+      voices, in the only public-domain translation located (French).
+    url: "https://archive.org/details/collectiondeshi02langgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Firmin-Didot 1869); contents list read in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+
+  - title: "Rituale Armenorum (with the Old Armenian Lectionary)"
+    author: "Armenian Church (anonymous)"
+    translator: "F. C. Conybeare (ed.)"
+    year: 1905
+    world: "armenian-christianity-after-avarayr"
+    why: >
+      Era III Library pass (October 2026): the Armenian church's liturgical texts and the
+      lectionary that carries the Jerusalem rite into Armenia, in English.
+    url: "https://archive.org/details/ritualearmenorum00cony"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Clarendon 1905; no
+      copyright field); Appendix II located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "rituale-armenorum-lectionary_conybeare1905.txt"
+
+  - title: "Histoire d'Heraclius par l'eveque Sebeos"
+    author: "Sebeos"
+    translator: "Frederic Macler (French)"
+    year: 1904
+    world: "armenian-christianity-after-avarayr"
+    why: >
+      Era III Library pass (October 2026): the 7th-century Armenian historian, covering the
+      Caucasus and Persia after the entry's window.
+    url: "https://archive.org/details/HistoireDheracliusParLevequeSebeos"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (no date or copyright
+      field); the OCR title page MDCCCCIV and Macler's name read in the fetched text,
+      2026-10-23
+    status: downloaded
+    vendored_as: "sebeos_histoire-d-heraclius-fra_macler1904.txt"
+
+  - title: "Studia Biblica et Ecclesiastica V.1: The Life of St Nino"
+    author: "Georgian Life of Nino (anonymous)"
+    translator: "Marjory and Oliver Wardrop"
+    year: 1903
+    world: "georgian-christianity"
+    why: >
+      Era III Library pass (October 2026): the Georgian church's own conversion narrative, in
+      public-domain English.
+    url: "https://archive.org/details/studiabiblicaete05oxfouoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; the
+      series date 1885-96); the Life of Nino located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt"
+
+  - title: "Histoire de la Georgie, premiere partie"
+    author: "Georgian chronicles (Kartlis Tskhovreba)"
+    translator: "Marie-Felicite Brosset (French)"
+    year: 1849
+    world: "georgian-christianity"
+    why: >
+      Era III Library pass (October 2026): the Georgian chronicle tradition's account of
+      Vakhtang Gorgasali's reign, in French.
+    url: "https://archive.org/details/bub_gb_TmtpAAAAMAAJ"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Brosset 1849; CC Public
+      Domain Mark 1.0), October 2026
+    status: downloaded
+    vendored_as: "brosset_histoire-de-la-georgie-pt1-fra_1849.txt"
+
+  - title: "The Rule of Saint Benedict"
+    author: "Benedict of Nursia"
+    translator: "Cardinal Gasquet"
+    year: 1925
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (October 2026): the Rule in public-domain English; the entry had no
+      own-voice text in its window before this.
+    url: "https://archive.org/details/ruleofsaintbened0000bene"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Chatto and Windus 1925;
+      no copyright field); the Prologue and chapters located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "benedict_rule-of-saint-benedict_gasquet1925.txt"
+
+  - title: "The Rule of St. Benedict, Latin with English (Hunter Blair)"
+    author: "Benedict of Nursia"
+    translator: "D. Oswald Hunter Blair"
+    year: 1907
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (October 2026): the Latin Rule with a facing English, for verifying
+      the Gasquet English against the original.
+    url: "https://archive.org/details/TheRuleOfStBenedict"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1907; CC Public Domain
+      Mark 1.0), October 2026
+    status: downloaded
+    vendored_as: "benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt"
+
+  - title: "Patrologia Latina 88 (Regula Magistri, Cresconius)"
+    author: "The Master (anonymous); Cresconius"
+    translator: "J.-P. Migne (compiler)"
+    year: 1862
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (October 2026): the Rule of the Master, Benedict's source, in its
+      only public-domain edition; Latin only.
+    url: "https://archive.org/details/patrologiaecur88mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800; the
+      title leaf reads 1862); the Regula Magistri located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "regula-magistri-cresconius-pl88-lat_migne1862.txt"
+
+  - title: "The Life of Saint Severinus"
+    author: "Eugippius"
+    translator: "George W. Robinson"
+    year: 1914
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (October 2026): a contemporary Italian abbot's hagiography from
+      Benedict's generation, in public-domain English.
+    url: "https://archive.org/details/saintseverinus00eugiuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Harvard 1914), October 2026
+    status: downloaded
+    vendored_as: "eugippius_life-of-saint-severinus_robinson1914.txt"
+
+  - title: "The Book of the Popes (Liber Pontificalis), vol. I"
+    author: "Liber Pontificalis (anonymous)"
+    translator: "Louise Ropes Loomis"
+    year: 1916
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (October 2026): the Roman church's own record of its popes through
+      the Gothic war and the Lombard invasion; the Gregorian dossier named it as a gap.
+    url: "https://archive.org/details/LiberPontificalisV1"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1916; CC Public Domain
+      Mark 1.0), October 2026
+    status: downloaded
+    vendored_as: "liber-pontificalis_book-of-the-popes-v1_loomis1916.txt"
+
+  - title: "History of the Langobards"
+    author: "Paul the Deacon"
+    translator: "William Dudley Foulke"
+    year: 1907
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (October 2026): the Lombard side of Benedict's and Gregory's Italy,
+      in public-domain English.
+    url: "https://archive.org/details/historyoflangoba00pauluoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Penn
+      1907), October 2026
+    status: downloaded
+    vendored_as: "paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+
+  - title: "Boethius, The Theological Tractates and The Consolation of Philosophy (Loeb)"
+    author: "Boethius"
+    translator: "H. F. Stewart; E. K. Rand"
+    year: 1918
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (October 2026): the Latin Christology of Gothic Italy, written
+      against the Acacian and Eutychian disputes, in public-domain English.
+    url: "https://archive.org/details/theologicaltrac00testgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Heinemann 1918), October 2026
+    status: downloaded
+    vendored_as: "boethius_theological-tractates-consolation_stewart-rand1918.txt"
+
+  - title: "The Letters of Cassiodorus (Variae), condensed"
+    author: "Cassiodorus"
+    translator: "Thomas Hodgkin"
+    year: 1886
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (October 2026): the Ostrogothic kingdom's own chancery in English,
+      condensed.
+    url: "https://www.gutenberg.org/ebooks/18590"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched; PD statement
+      and 1886 imprint read, October 2026
+    status: downloaded
+    vendored_as: "cassiodorus_variae-letters-hodgkin1886.txt"
+
+  - title: "Patrologia Latina 70 (Cassiodorus, Institutiones)"
+    author: "Cassiodorus"
+    translator: "J.-P. Migne (compiler)"
+    year: 1866
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (October 2026): Cassiodorus's Vivarium handbook, the monastic
+      education counterpart to Benedict's Rule; Latin only.
+    url: "https://archive.org/details/patrologiaecursu70mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800; Migne
+      PL printed 1844-1866); the Institutiones located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "cassiodorus_opera-institutiones-pl70-lat_migne1847.txt"
+
+  - title: "Die Gotische Bibel des Vulfila, nebst der Skeireins, dem Kalender und den Urkunden"
+    author: "Wulfila; anonymous"
+    translator: "Ernst Bernhardt (ed.)"
+    year: 1884
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (October 2026): the Gothic Homoian church's own scripture and its
+      one commentary, in the Goths' language.
+    url: "https://archive.org/details/diegotischebibe00berngoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; 1884),
+      2026-10-23
+    status: downloaded
+    vendored_as: "wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt"
+
+  - title: "Die gotische Bibel, vol. I (Streitberg)"
+    author: "Wulfila"
+    translator: "Wilhelm Streitberg (ed.)"
+    year: 1908
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (October 2026): the critical edition of the Gothic Bible the census
+      names.
+    url: "https://archive.org/details/diegotischebibe02stregoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Winter
+      1908), October 2026
+    status: downloaded
+    vendored_as: "wulfila_gothic-bible-v1-got_streitberg1908.txt"
+
+  - title: "Patrologia Latina 42 (Augustine: Sermo Arianorum, Collatio cum Maximino, Contra Maximinum)"
+    author: "Augustine; Maximinus"
+    translator: "J.-P. Migne (compiler)"
+    year: 1886
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (October 2026): the best preserved Homoian bishop's own arguments,
+      from the Collatio, in Latin.
+    url: "https://archive.org/details/patrologiaecursu0042mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Migne; the 1886 printing
+      noted); the Sermo Arianorum located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt"
+
+  - title: "Historia persecutionis Africanae provinciae (CSEL 7)"
+    author: "Victor of Vita"
+    translator: "Michael Petschenig (ed.)"
+    year: 1881
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (October 2026): the Vandal-era African church in a Catholic
+      bishop's own account; this re-verifies the existing queue row, now vendored.
+    url: "https://archive.org/details/victorisepiscop01victgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; 1881);
+      title page read, October 2026
+    status: downloaded
+    vendored_as: "victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt"
+
+  - title: "MGH Auctores antiquissimi III (Victor Vitensis, Corippus)"
+    author: "Victor of Vita; Corippus"
+    translator: "Karl Halm (ed.)"
+    year: 1879
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (October 2026): Corippus's epic is the one poem of Byzantine
+      Africa; Halm's Victor is the second critical text.
+    url: "https://archive.org/details/monumentagerman03geseuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; MGH
+      volume III), October 2026
+    status: downloaded
+    vendored_as: "mgh-aa-3_victor-vitensis-corippus-halm1879.txt"
+
+  - title: "The memorable and tragical history of the persecution in Africke (Victor of Vita, 1605)"
+    author: "Victor of Vita"
+    translator: "unnamed (1605)"
+    year: 1605
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (October 2026): the only public-domain English of Victor of Vita,
+      from 1605.
+    url: "https://archive.org/details/bim_early-english-books-1475-1640_the-memorable-and-tragic_victor-bp-of-vita_1605"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1605, English secret
+      press; no copyright field), October 2026
+    status: downloaded
+    vendored_as: "victor-of-vita_memorable-and-tragical-history-persecution-eng_1605.txt"
+
+  - title: "Patrologia Latina 65 (Fulgentius of Ruspe, Ferrandus)"
+    author: "Fulgentius of Ruspe; Ferrandus"
+    translator: "J.-P. Migne (compiler)"
+    year: 1847
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (October 2026): the Vandal king Thrasamund's own objections
+      preserved in Fulgentius's replies; Latin only.
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_065"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1847; CC Public Domain
+      Mark 1.0); Thrasamund's objections located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt"
+
+  - title: "Collectio canonum Ecclesiae Hispanae (Madrid, 1808), with the acts of Toledo III"
+    author: "Spanish councils (anonymous acts)"
+    translator: "unnamed editors (1808)"
+    year: 1808
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (October 2026): the complete Toledo III acts, including the former
+      Arian bishops' confession and signatures, which the Bruns edition already vendored
+      omits.
+    url: "https://archive.org/details/A28009301"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1808; CC Public Domain
+      Mark 1.0); the confession and signatures located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+
+  - title: "The Origin and Deeds of the Goths (Jordanes, Getica)"
+    author: "Jordanes"
+    translator: "Charles Christopher Mierow"
+    year: 1908
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (October 2026): the Goths' own origin story as a Roman-Gothic
+      historian told it, with their Arian faith and Vulfila.
+    url: "https://www.gutenberg.org/ebooks/14809"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched; PD statement
+      and 1908 date read, October 2026
+    status: downloaded
+    vendored_as: "jordanes_origin-and-deeds-of-the-goths_mierow1908.txt"
+
+  - title: "Patrologia Latina 67 (Facundus, Ferrandus, Dionysius Exiguus, Caesarius)"
+    author: "Facundus of Hermiane; Ferrandus; Dionysius Exiguus; Caesarius of Arles"
+    translator: "J.-P. Migne (compiler)"
+    year: 1865
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (October 2026): the African church's own writing on the Three
+      Chapters, and Caesarius of Arles's rules; Latin only.
+    url: "https://archive.org/details/patrologiaecursu67mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800; the
+      title leaf reads 1865); Facundus, Ferrandus and the Caesarian rules located in the
+      fetched text, October 2026
+    status: downloaded
+    vendored_as: "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+
+  - title: "Patrologia Latina 68 (Liberatus, Victor of Tunnuna, Primasius, Junillus)"
+    author: "Liberatus; Victor of Tunnuna; Primasius; Junillus"
+    translator: "J.-P. Migne (compiler)"
+    year: 1866
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (October 2026): the Byzantine-African church's own authors, in
+      Latin.
+    url: "https://archive.org/details/patrologiaecur68mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800; Migne
+      PL printed 1844-1866); the contents list located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
+
+  - title: "Mansi, Sacrorum conciliorum collectio, tomus X (Welter facsimile)"
+    author: "Councils (anonymous acts)"
+    translator: "G. D. Mansi (ed.)"
+    year: 1901
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (October 2026): the African church's synod letters of 646, the
+      window's closing statement.
+    url: "https://archive.org/details/sacrorumconcilio0010vari"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1901; no copyright
+      field); the 646 letters located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+
+  - title: "Patrologia Graeca 91 (Maximus the Confessor: Disputation with Pyrrhus)"
+    author: "Maximus the Confessor"
+    translator: "J.-P. Migne (compiler)"
+    year: 1860
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (October 2026): the Carthage disputation of 645.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_1860_91"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1860; no copyright
+      field); the Disputation located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "maximus-confessor_disputatio-cum-pyrrho-pg91-grc-lat_migne1860.txt"
+
+  - title: "Theodor von Mopsuestia und Junilius Africanus (with the Instituta regularia)"
+    author: "Junillus Africanus"
+    translator: "Heinrich Kihn (ed.)"
+    year: 1880
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (October 2026): the critical Latin text of Junillus's Instituta,
+      the African Latin voice at Justinian's court.
+    url: "https://archive.org/details/theodorvonmopsue00kihnuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Herder
+      1880), October 2026
+    status: downloaded
+    vendored_as: "kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt"
+
+  - title: "MGH SRM I: Gregory of Tours, Opera (Latin)"
+    author: "Gregory of Tours"
+    translator: "W. Arndt; B. Krusch (eds.)"
+    year: 1885
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (October 2026): the Latin of Gregory's Histories and, above all,
+      his saints' and miracle books, which exist in no public-domain English.
+    url: "https://archive.org/details/monumentagerman01hann"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Hahn 1885; no copyright
+      field); Pars II and the Gloria martyrum located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+
+  - title: "MGH AA IV: Venantius Fortunatus, Opera"
+    author: "Venantius Fortunatus"
+    translator: "Friedrich Leo; Bruno Krusch (eds.)"
+    year: 1885
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (October 2026): the Merovingian church's hymns, bishop-poems and
+      Radegund's Life in the poet's own Latin.
+    url: "https://archive.org/details/monumentagermani04geseuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; MGH AA
+      IV); Opera pedestria and the Vita Radegundis located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt"
+
+  - title: "MGH SRM II: Fredegar, Liber historiae Francorum, Lives of Clothild and Radegund"
+    author: "Fredegar; anonymous; Baudonivia"
+    translator: "Bruno Krusch (ed.)"
+    year: 1888
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (October 2026): the Frankish chroniclers after Gregory and the two
+      queens' lives, Latin.
+    url: "https://archive.org/details/monumentagerman02hann"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Hahn; the title page
+      1888); the contents list located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt"
+
+  - title: "MGH SRM III: Passiones vitaeque sanctorum aevi merovingici"
+    author: "anonymous hagiographers"
+    translator: "Bruno Krusch (ed.)"
+    year: 1896
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (October 2026): the Life of Caesarius of Arles, the census's
+      pastoral bishop, and the Merovingian saints' lives.
+    url: "https://archive.org/details/passionesvitaequesanctorum1"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Krusch 1896; CC Public
+      Domain Mark 1.0); the Vitae Caesarii listed in the fetched contents, October 2026
+    status: downloaded
+    vendored_as: "passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt"
+
+  - title: "MGH Concilia I: Concilia aevi merovingici"
+    author: "Frankish councils (anonymous acts)"
+    translator: "Friedrich Maassen (ed.)"
+    year: 1893
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (October 2026): the canons by which the Merovingian church governed
+      itself.
+    url: "https://archive.org/details/conciliaaevimero01maas"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Hahn 1893; no copyright
+      field); the Council of Orleans (511) located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt"
+
+  - title: "MGH AA VI.2: Avitus of Vienne, Opera"
+    author: "Avitus of Vienne"
+    translator: "Rudolf Peiper (ed.)"
+    year: 1883
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (October 2026): the bishop of Vienne, advising Clovis and arguing
+      with the Arian Gundobad, in his own Latin.
+    url: "https://archive.org/details/p2monumentagerma06geseuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; MGH AA
+      VI.2); the Contra Arianos fragments located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt"
+
+  - title: "Gregory of Tours, History of the Franks (Brehaut, selections) and Miracles"
+    author: "Gregory of Tours"
+    translator: "Ernest Brehaut"
+    year: 1916
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (October 2026): the only public-domain English of Gregory's miracle
+      books, in short selections.
+    url: "https://archive.org/details/historyoffranks00greguoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Columbia 1916); the Miracles selections located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "gregory-tours_history-of-the-franks-selections_brehaut1916.txt"
+
+  - title: "Bruns, Canones apostolorum et conciliorum, pars altera"
+    author: "Gallic and Spanish councils (anonymous acts)"
+    translator: "Hermann Theodor Bruns (ed.)"
+    year: 1839
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (October 2026): the Gallic and Spanish canons the first Bruns
+      volume (already vendored) does not hold.
+    url: "https://archive.org/details/canonesapostolo01brungoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Reimer
+      1839); the Spanish and Gallic councils located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt"
+
+  - title: "Patrologia Latina 83 (Isidore of Seville: Sententiae, De ecclesiasticis officiis, Historia de regibus Gothorum)"
+    author: "Isidore of Seville"
+    translator: "J.-P. Migne (compiler)"
+    year: 1860
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (October 2026): the Visigothic church's great teacher in his own
+      Latin.
+    url: "https://archive.org/details/patrologiaecursu0083mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1844; the
+      text refers to December 1860); the Historia de regibus Gothorum located in the fetched
+      text, October 2026
+    status: downloaded
+    vendored_as: "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+
+  - title: "Isidori Etymologiarum libri XX (Lindsay)"
+    author: "Isidore of Seville"
+    translator: "W. M. Lindsay (ed.)"
+    year: 1911
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (October 2026): the Etymologies in the standard critical text.
+    url: "https://archive.org/details/isidori01isiduoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Clarendon 1911; public
+      domain licence field); all twenty books confirmed in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "isidore-seville_etymologiae-origines-lat_lindsay1911.txt"
+
+  - title: "An Encyclopedist of the Dark Ages: Isidore of Seville (with English extracts)"
+    author: "Isidore of Seville"
+    translator: "Ernest Brehaut"
+    year: 1912
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (October 2026): the only public-domain English of the Etymologies,
+      as extracts.
+    url: "https://www.gutenberg.org/ebooks/51511"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched; PD statement
+      and the 1912 imprint read, October 2026
+    status: downloaded
+    vendored_as: "isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt"
+
+  - title: "The Visigothic Code (Forum Judicum)"
+    author: "Visigothic kings (anonymous codification)"
+    translator: "S. P. Scott"
+    year: 1910
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (October 2026): the Visigothic kingdom's law in complete public-domain English.
+    url: "https://archive.org/details/cu31924072483419"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Boston Book Co. 1910; no
+      copyright field), October 2026
+    status: downloaded
+    vendored_as: "visigothic-code-forum-judicum_scott1910.txt"
+
+  - title: "Patrologia Latina 72 (John of Biclaro; Leander of Seville)"
+    author: "John of Biclaro; Leander of Seville"
+    translator: "J.-P. Migne (compiler)"
+    year: 1878
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (October 2026): Leander's homily after Toledo III and his rule, in
+      Latin.
+    url: "https://archive.org/details/patrologiaecur72mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800);
+      Leander's Homilia and Regula located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "john-biclaro-leander-pl72-lat_migne1878.txt"
+
+  - title: "Patrologia Latina 80 (Paulus Emeritanus, Sisebut, Braulio)"
+    author: "Paulus Emeritanus; Sisebut; Braulio of Saragossa"
+    translator: "J.-P. Migne (compiler)"
+    year: 1863
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (October 2026): the lives of the Fathers of Merida and Braulio's
+      circle, Latin.
+    url: "https://archive.org/details/patrologiaecursu0080mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1844; the
+      title leaf 1863); Sisebut and Braulio located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+
+  - title: "Patrologia Latina 96 (Ildefonsus, Julian of Toledo)"
+    author: "Ildefonsus of Toledo; Julian of Toledo"
+    translator: "J.-P. Migne (compiler)"
+    year: 1862
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (October 2026): the 7th-century bishops of Toledo, the kingdom's
+      later voices.
+    url: "https://archive.org/details/patrologiaecursu96mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800; the
+      title leaf 1862); Ildefonsus and Julian located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+
+  - title: "Martin von Bracara's De correctione rusticorum"
+    author: "Martin of Braga"
+    translator: "C. P. Caspari (ed.)"
+    year: 1883
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (October 2026): the pastoral voice of the Suevic church, on rural
+      paganism.
+    url: "https://archive.org/details/martinvonbracar00martgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; 1883),
+      2026-10-23
+    status: downloaded
+    vendored_as: "martin-braga_de-correctione-rusticorum-lat_caspari1883.txt"
+
+  - title: "Le Liber mozarabicus sacramentorum"
+    author: "Mozarabic liturgy (anonymous)"
+    translator: "Marius Ferotin (ed.)"
+    year: 1912
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (October 2026): the Visigothic rite's sacramentary, the kingdom's
+      liturgical voice.
+    url: "https://archive.org/details/lelibermozarabic06cath"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Firmin-Didot 1912; no
+      copyright field), October 2026
+    status: downloaded
+    vendored_as: "ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt"
+
+  - title: "St. Patrick, His Writings and Life (with Muirchu's Life)"
+    author: "Patrick; Muirchu"
+    translator: "Newport J. D. White"
+    year: 1920
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (October 2026): Patrick's own Confession and Letter, the founding
+      voice of the Irish church, in public-domain English.
+    url: "https://archive.org/details/StPatrick1920"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1920; CC Public Domain
+      Mark 1.0); the Confession and Letter located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "patrick_writings-and-life-with-muirchu-eng_white1920.txt"
+
+  - title: "Libri Sancti Patricii (Latin)"
+    author: "Patrick"
+    translator: "Newport J. D. White (ed.)"
+    year: 1918
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (October 2026): the Latin original paired with the White English.
+    url: "https://archive.org/details/librisanctipatr00patr"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (SPCK 1918; no copyright
+      field), October 2026
+    status: downloaded
+    vendored_as: "patrick_libri-sancti-patricii-lat_white1918.txt"
+
+  - title: "The Life of Saint Columba (Adamnan), tr. Huyshe"
+    author: "Adomnan of Iona"
+    translator: "Wentworth Huyshe"
+    year: 1905
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (October 2026): the Life of Columba complete in public-domain
+      English.
+    url: "https://archive.org/details/lifeofsaintcolum00adam"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Routledge 1905; no
+      copyright field); title page read, October 2026
+    status: downloaded
+    vendored_as: "adomnan_life-of-saint-columba_huyshe1905.txt"
+
+  - title: "Life of St. Columban (Jonas), tr. Munro"
+    author: "Jonas of Bobbio"
+    translator: "Dana C. Munro"
+    year: 1895
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (October 2026): the Irish continental mission's founding Life, in
+      public-domain English.
+    url: "https://archive.org/details/lifeofstcolumban0207jona"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Penn
+      1895), October 2026
+    status: downloaded
+    vendored_as: "jonas-bobbio_life-of-st-columban_munro1895.txt"
+
+  - title: "The Tripartite Life of Patrick, vol. II (Latin lives and Confession)"
+    author: "Muirchu; Tirechan; Patrick"
+    translator: "Whitley Stokes (ed.)"
+    year: 1887
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (October 2026): the 7th-century Latin lives of Patrick and the Book
+      of the Angel, with the Latin Confession.
+    url: "https://archive.org/details/tripartitept200unknuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Rolls
+      Series 1887); the Muirchu, Tirechan and Confession headings located in the fetched
+      text, October 2026
+    status: downloaded
+    vendored_as: "stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt"
+
+  - title: "Die Bussordnungen der abendlaendischen Kirche (the Latin penitentials)"
+    author: "Vinnian; Columbanus; Cummean; Gildas; anonymous"
+    translator: "F. W. H. Wasserschleben (ed.)"
+    year: 1851
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (October 2026): the Celtic penitentials, the church's everyday
+      discipline, in Latin.
+    url: "https://archive.org/details/diebussordnungen00wass"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Graeger 1851; no
+      copyright field); the Gildas and Vinnian penitentials located in the fetched text,
+      2026-10-23
+    status: downloaded
+    vendored_as: "wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt"
+
+  - title: "Gildas, De excidio Britanniae (with fragments, penitential and Lorica)"
+    author: "Gildas"
+    translator: "Hugh Williams"
+    year: 1899
+    world: "british-welsh-christianity"
+    why: >
+      Era III Library pass (October 2026): the complete Gildas in Latin and English; the
+      Gutenberg Gildas is truncated at section 26.
+    url: "https://archive.org/details/gildaedeexcidiob00gilduoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Cymmrodorion 1899); sections 1-110 and Caradoc's Life located in the fetched text,
+      2026-10-23
+    status: downloaded
+    vendored_as: "gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt"
+
+  - title: "The Life of St. Samson of Dol"
+    author: "anonymous"
+    translator: "Thomas Taylor"
+    year: 1925
+    world: "british-welsh-christianity"
+    why: >
+      Era III Library pass (October 2026): a 6th-century British saint's Life, from Wales to
+      Brittany, in public-domain English.
+    url: "https://archive.org/details/lifeofstsamsonof00sams"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (SPCK 1925; no copyright
+      field); title page read, October 2026
+    status: downloaded
+    vendored_as: "samson-of-dol_life-of-st-samson_taylor1925.txt"
+
+  - title: "Annales Cambriae"
+    author: "anonymous Welsh annalists"
+    translator: "John Williams ab Ithel (ed.)"
+    year: 1860
+    world: "british-welsh-christianity"
+    why: >
+      Era III Library pass (October 2026): the Welsh annals whose 768 entry closes the census
+      window.
+    url: "https://archive.org/details/annalescambri20will"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Rolls Series 1860; no
+      copyright field); the 768 entry located in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
+
+  - title: "Lives of the Cambro British Saints"
+    author: "anonymous Welsh hagiographers"
+    translator: "W. J. Rees (ed. and tr.)"
+    year: 1853
+    world: "british-welsh-christianity"
+    why: >
+      Era III Library pass (October 2026): the Welsh saints' lives with English, late memory
+      of the window's saints.
+    url: "https://archive.org/details/livesofthecambro00reesuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; 1853),
+      2026-10-23
+    status: downloaded
+    vendored_as: "rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt"
+
+  - title: "Lives of Saints from the Book of Lismore"
+    author: "anonymous Irish hagiographers"
+    translator: "Whitley Stokes"
+    year: 1890
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (October 2026): the Irish saints' lives with English, late memory
+      of the Irish monastic founders.
+    url: "https://archive.org/details/livesofsaintsfro00stok"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Clarendon 1890; no
+      copyright field); the contents list read in the fetched text, October 2026
+    status: downloaded
+    vendored_as: "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt"
+
+  - title: "The Antiphonary of Bangor, part II"
+    author: "Bangor (anonymous)"
+    translator: "F. E. Warren (ed.)"
+    year: 1895
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (October 2026): the Irish monastic office, the church's worship in
+      its own Latin.
+    url: "https://archive.org/details/antiphonaryofban02cath"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (HBS 1893-95; no
+      copyright field), October 2026
+    status: downloaded
+    vendored_as: "antiphonary-of-bangor-pt2-lat_warren1895.txt"
+
+  - title: "History of the Britons (Historia Brittonum), tr. J. A. Giles"
+    author: "Nennius (attrib.)"
+    translator: "J. A. Giles"
+    year: undated (translator d. 1884)
+    world: "british-welsh-christianity"
+    why: >
+      Era III Library pass (October 2026): the earliest account of Vortigern, Germanus and
+      Arthur, in public-domain English; late.
+    url: "https://www.gutenberg.org/ebooks/1972"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched; PD statement
+      read, October 2026
+    status: downloaded
+    vendored_as: "nennius_history-of-the-britons-giles.txt"

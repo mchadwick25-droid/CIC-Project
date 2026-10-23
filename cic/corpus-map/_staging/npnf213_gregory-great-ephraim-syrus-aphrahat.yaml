@@ -120,3 +120,76 @@ assignments:
       (Demonstrations 2 and 7, Hallock) is a standalone volume held by
       another worker; the two files' selections overlap in author but not in
       staging ownership.
+
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--letters-eulogius-alexandria
+    work: "Register letters to Eulogius, patriarch of Alexandria"
+    author: gregory
+    locus: "div3 ii.v.xxxv (Ep. LXXVIII), ii.vi.vii-ix, ii.viii.vii, ii.ix.xviii-xix"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Gregory writing to the Chalcedonian patriarch of Alexandria, the rival patriarchate
+      the Cyrilline entry's census note names.
+
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--columbanus-letter-to-gregory
+    work: "Letter of Columbanus to Pope Gregory on the Easter question (Ep. CXXVII in Barmby's numbering)"
+    author: gregory
+    locus: "div3 ii.v.lx (raw ~4172-4596; about 4,650 words with Barmby's notes)"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Not Gregory's letter but Columbanus's own, printed in the Register: the Irish monk's
+      voice, naming Gildas and Finnian. Tradition for the Irish entry; written from Gaul, so
+      also placed with the Merovingian entry. The author slug is the volume's, recorded
+      plainly as not the author of this work.
+
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--responsa-britons-gaul
+    work: "Gregory's answers to Augustine (the Responsa), question IX on the bishops of Gaul and of the Britons"
+    author: gregory
+    locus: "div3 ii.vii.xxx (raw ~7524) and ii.vii.xxxi (~7908)"
+    atlas_ids:
+      - british-welsh-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Rome's view of the British church at Augustine's arrival.
+
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--letters-leander-reccared
+    work: "Register IX.121 to Leander of Seville and IX.122 to Reccared; Reccared's own letter to Gregory (IX.61, of doubtful genuineness)"
+    author: gregory
+    locus: "div3 ii.v.lvi (raw ~3767), ii.v.lvii (~3849); Reccared's letter ~2250-2300"
+    atlas_ids:
+      - nicene-visigothic-iberia
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Rome congratulating the converted Gothic king and his bishop; Reccared's reply, if
+      genuine, is the former Arian kingdom's first word to Rome.
+
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--letters-africa
+    work: "Register letters into Byzantine Africa (Innocent the prefect; Dominicus of Carthage; Columbus of Numidia; Victor)"
+    author: gregory
+    locus: "raw ~4956, ~5290, ~8337, ~8388, ~8558, ~8617"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: context
+    confidence: assigned
+    note: >
+      Rome's correspondence with the African church under the exarchate c. 600.
+
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--letters-agilulf-theodelinda
+    work: "Register letters to Agilulf, king of the Lombards, and Queen Theodelinda"
+    author: gregory
+    locus: "raw ~1931, ~1959, ~9979"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Rome dealing with an Arian Lombard king through his Catholic queen.

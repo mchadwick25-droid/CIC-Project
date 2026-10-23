@@ -1,0 +1,22 @@
+source_file: venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt
+
+authors_ruled:
+  venantius-fortunatus:
+    kind: metadata-omission
+    evidence: >
+      The volume prints Venantius Fortunatus's poetry and prose under his name; the host
+      record names only the Gesellschaft.
+    from_file: venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt
+
+assignments:
+  - row_id: venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881--venantius-poems-and-lives
+    work: "Venantius Fortunatus, Carmina and the prose Lives (Vita Radegundis, Vita Martini), Latin"
+    author: venantius-fortunatus
+    locus: "poems; prose from raw line ~41050; Vita Radegundis ~41871"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The court poet-bishop of Poitiers, whose hymns the whole Latin church still sings;
+      Latin only.

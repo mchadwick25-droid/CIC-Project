@@ -1,0 +1,15 @@
+source_file: procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt
+
+assignments:
+  - row_id: procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924--wars-vi-vii-gothic-war-continued
+    work: "History of the Wars, Books VI.16-VII.35 (the Gothic War, 540-552)"
+    author: procopius
+    locus: "whole text (English pages)"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: >
+      Totila's war in the Italy of Benedict's last years and of Vigilius's papacy, from the
+      imperial side. Context.

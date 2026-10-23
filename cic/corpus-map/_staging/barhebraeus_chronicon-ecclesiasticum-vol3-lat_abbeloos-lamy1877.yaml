@@ -86,3 +86,15 @@ assignments:
       entry; the nineteenth-century lines were not read through.
 
       '
+
+  - row_id: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877--catholicoi-persia
+    work: "Bar Hebraeus, Chronicon ecclesiasticum III: the East Syrian catholicoi from Dadisho (c. 424) to Ishoyahb of Gadala (d. 646), including Barsauma, Narsai's exile and Mar Aba"
+    author: bar-hebraeus
+    locus: "file lines ~3405-7430; Mar Aba at ~5227-5540"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: context
+    confidence: assigned
+    note: >
+      A 13th-century Jacobite author openly hostile to this church; context, tier 4. The
+      same file is tradition for syriac-edessa-nisibis.

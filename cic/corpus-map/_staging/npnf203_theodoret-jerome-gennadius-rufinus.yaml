@@ -458,3 +458,40 @@ assignments:
     since it is modern apparatus, not itself vendored ancient text.
 
     '
+
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--theodoret-i-22-i-23-aksum-iberia
+  work: "Theodoret, Ecclesiastical History I.22 (Frumentius and the Auxumitae) and I.23 (the captive woman and the Iberians)"
+  author: theodoret
+  locus: "div iv.viii.i.xxiii (raw ~7696) and iv.viii.i.xxiv (~7786)"
+  atlas_ids:
+    - aksumite-christianity
+    - georgian-christianity
+  role: context
+  confidence: assigned
+  note: >
+    Theodoret's versions of the two conversion stories; outside witness for both entries'
+    prehistory.
+
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--theodoret-v-38-39-persia
+  work: "Theodoret, Ecclesiastical History V.38 (the persecution in Persia, Bishop Abdas) and V.39 (Theodore of Mopsuestia)"
+  author: theodoret
+  locus: "div iv.viii.v.xxxviii (raw ~18062) and iv.viii.v.xxxix"
+  atlas_ids:
+    - the-church-of-the-east-under-persia
+  role: context
+  confidence: assigned
+  note: >
+    The persecution of 420-422 that preceded the synod of 424, and the life of the
+    theologian this church calls the Interpreter, from the Antiochene side.
+
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lvii-fastidius-britain
+  work: "Gennadius, Lives of Illustrious Men LVII (Fastidius, bishop in Britain)"
+  author: gennadius
+  locus: "div v.iv.lviii (raw ~43168)"
+  atlas_ids:
+    - british-welsh-christianity
+  role: context
+  confidence: provisional
+  note: >
+    The one 5th-century notice of a British bishop as an author; provisional, before the
+    entry's window.

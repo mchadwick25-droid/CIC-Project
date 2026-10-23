@@ -1,0 +1,16 @@
+source_file: victor-of-vita_memorable-and-tragical-history-persecution-eng_1605.txt
+
+assignments:
+  - row_id: victor-of-vita_memorable-and-tragical-history-persecution-eng_1605--persecution-in-africke
+    work: "Victor of Vita, History of the Persecution in Africke (1605 English)"
+    author: victor-of-vita
+    locus: "whole text"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+      - latin-africa-under-byzantium
+    role: context
+    confidence: provisional
+    note: >
+      Public-domain English of the Vandal persecution narrative; early-modern English, so
+      the Latin files are the checking copies. Context for the Homoian entry, antecedent
+      evidence for Africa.

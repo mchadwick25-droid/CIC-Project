@@ -3489,7 +3489,7 @@
     document - a different Capitularia volume - and is not used. Serves carolingian-reform-
     christianity.
 
-- filename: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt
+- filename: cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681.txt
   supplied_by: >-
     Claude (tech-readiness build thread: re-vendored from a stale, unmerged
     PR's own already-located acquisition; not independently re-verified
@@ -3502,13 +3502,17 @@
     critical edition is still in copyright (as the source-gap report itself notes). SECOND
     WITNESS ONLY: zero Greek-script characters are recoverable from this scan, so Cyril's
     own Greek voice is not present here - only Cotelier's Latin translation is genuinely
-    readable. Both vitae confirmed genuinely present in the Latin, but this is a
-    17th-century typeface scan with heavy OCR corruption; the specific ch. 83-90 "New
-    Laura" passage the report cites was NOT pinpointed, and any future quotation drawn from
-    this file needs unusually careful individual eye-verification given the OCR quality -
-    flagged explicitly in the file's own header. Serves
-    chalcedonian-monasticism-judean-desert-and-gaza.
-
+    readable. Both vitae confirmed genuinely present in the Latin, but this is a 17th-century typeface scan with heavy OCR corruption; the specific ch. 83-90 "New Laura"
+    passage the report cites was NOT pinpointed, and any future quotation drawn from this
+    file needs unusually careful individual eye-verification given the OCR quality - flagged
+    explicitly in the file's own header. Serves chalcedonian-monasticism-judean-desert-and-gaza. CORRECTION OF RECORD, 2026-10-16 (Library thread, Era III): the Vita Sabae is NOT
+    in this file. The volume is Cotelier's tomus II (title leaf "TOMUS SECUNDUS"; contents
+    list Asterius, Euthymii Vita, Moschus chapters, Zonaras, Balsamon); the running head
+    "EUTHYMII VITA" recurs and no "SABAE VITA" head occurs. The Vita Sabae is in tomus III
+    (1686), an open lead whose only located scan (archive.org bub_gb_PLhdE15tQTAC) has
+    unusable OCR. Serves chalcedonian-monasticism-judean-desert-and-gaza (Vita Euthymii: tradition, second witness). READER: sections - printed page
+    numbers and Cotelier's chapters; credit - "Cotelier, Ecclesiae Graecae Monumenta II
+    (1681)"; republish - whole text (Latin column).
 - filename: dhuoda_liber-manualis_bondurand1887.txt
   supplied_by: >-
     Claude (tech-readiness build thread: re-vendored from a stale, unmerged
@@ -3522,7 +3526,7 @@
     lemanueldedhuoda00dhuo1887 corrected to lemanueldedhuoda00dhuo. Serves carolingian-
     reform-christianity.
 
-- filename: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt
+- filename: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt
   supplied_by: >-
     Claude (tech-readiness build thread: re-vendored from a stale, unmerged
     PR's own already-located acquisition; not independently re-verified
@@ -3538,9 +3542,16 @@
     all (their standard edition history runs through Nicodemus's 1816 Venice printing, not
     Migne). Filed under Dorotheus's own name rather than the report's joint framing; the
     Barsanuphius/John "I Carry Half Your Burden" citation this report's story needs remains
-    an open, unresolved sourcing gap, not silently closed. Serves chalcedonian-monasticism-
-    judean-desert-and-gaza.
-
+    an open, unresolved sourcing gap, not silently closed. Serves chalcedonian-monasticism-judean-desert-and-gaza. CORRECTION OF RECORD, 2026-10-16 (Library thread, Era III): this
+    file is NOT PG 88 and contains no Dorotheus. It is PG 87 part 3 - John Moschus, Pratum
+    Spirituale, and Sophronius of Jerusalem's works, with the end of Procopius of Gaza and
+    Alexander Monachus - as its own running heads show (checked line by line; "Dorothe"
+    occurs seventeen times in passing only). The real PG 88
+    is vendored as dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt. The Barsanuphius/John gap the note above records is closed by that file (their
+    answers to Dorotheus's questions are in it). Serves chalcedonian-monasticism-judean-desert-and-gaza (Moschus: tradition) and byzantine-imperial-church-heraclian-iconoclast
+    (Sophronius). READER: sections - Migne columns; Pratum by chapter; credit - "Patrologia
+    Graeca 87.3 (Migne, 1860)"; republish - whole text (Latin column; the Greek is not
+    recovered).
 - filename: egeria_pilgrimage-of-silvia_bernard1896.txt
   supplied_by: >-
     Claude (tech-readiness build thread: re-vendored from a stale, unmerged
@@ -6840,6 +6851,202 @@
     header prepended per cic/texts/INTAKE.md, body otherwise unaltered. This volume's
     own closing errata note (retained verbatim) flags one date correction against Vol.
     II (a misprint of 1797 for 1799).
+- filename: procopius_secret-history_athenian-society1896.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; Gutenberg eBook
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Secret History (Anecdota), anonymous English translation privately printed
+    for the Athenian Society, 1896. RIGHTS: public domain by date (1896); Gutenberg's own
+    "Public domain in the USA" statement read. Clean transcription, not OCR. Serves
+    byzantine-imperial-church-justinianic (context: a court historian's hostile account of
+    the imperial couple who ran the church); the Theodora passages need confidence tagging
+    before any record uses them. READER: sections - numbered chapters I-XXX; credit —
+    "Procopius, The Secret History, anon. tr. (Athenian Society, 1896)"; republish - whole
+    text.
+- filename: procopius_buildings_stewart1888.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; Gutenberg eBook
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Buildings (De Aedificiis), tr. Aubrey Stewart (PPTS, 1888), complete in six
+    books. RIGHTS: public domain by date (1888). Clean transcription. Serves byzantine-imperial-church-justinianic (Book I, Hagia Sophia), chalcedonian-monasticism-judean-desert-and-gaza and jerusalem-liturgical-pilgrimage-christianity (Book V), latin-africa-under-byzantium (Book VI). Duplicated as OCR inside the PPTS vol. 2 file; quote
+    from this one. READER: sections - Book and chapter; credit - "Procopius, Of the
+    Buildings of Justinian, tr. Aubrey Stewart (PPTS, 1888)"; republish - whole text.
+- filename: procopius_wars-1-2-persian_dewing1914.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; Gutenberg eBook
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Wars I-II (Persian War), tr. H. B. Dewing, Loeb 1914, English only. RIGHTS:
+    public domain by date (first printed 1914). Clean transcription. Serves byzantine-imperial-church-justinianic (context), nubian-christianity and aksumite-christianity
+    (I.19-20), georgian-christianity (I.12), armenian-christianity-after-avarayr and the-church-of-the-east-under-persia (the Persian frontier). READER: sections - book,
+    chapter, Loeb section numbers; credit - "Procopius, History of the Wars, tr. H. B.
+    Dewing (Loeb, 1914)"; republish - whole text.
+- filename: procopius_wars-3-4-vandalic_dewing1916.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; Gutenberg eBook
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Wars III-IV (Vandalic War), tr. H. B. Dewing, Loeb 1916, English only.
+    RIGHTS: public domain by date (first printed 1916). Clean transcription. Serves latin-africa-under-byzantium and gothic-and-vandal-homoian-christianity (context) and
+    byzantine-imperial-church-justinianic. READER: sections - book, chapter, Loeb section
+    numbers; credit - "Procopius, History of the Wars, tr. H. B. Dewing (Loeb, 1916)";
+    republish - whole text.
+- filename: procopius_wars-5-6-gothic_dewing1919.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; Gutenberg eBook
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Wars V-VI (Gothic War, 535-540), tr. H. B. Dewing, Loeb 1919, English only.
+    RIGHTS: public domain by date (1919). Clean transcription. Serves early-benedictine-italian-monasticism (the Italy Benedict lived in), gothic-and-vandal-homoian-christianity (the Ostrogothic kingdom from outside) and byzantine-imperial-church-justinianic. READER: sections - book, chapter, Loeb section numbers; credit —
+    "Procopius, History of the Wars, tr. H. B. Dewing (Loeb, 1919)"; republish - whole text.
+- filename: procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata and reprint leaf read directly)
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Wars VI.16-VII.35 (Gothic War continued), tr. H. B. Dewing, Loeb vol. IV,
+    first printed 1924 (scan is the 1962 reprint; reprint leaf read). RIGHTS: public domain
+    by date, first printing 1924; archive.org NOT_IN_COPYRIGHT. OCR: English clean, Greek
+    garbled. Serves early-benedictine-italian-monasticism and byzantine-imperial-church-justinianic (context). READER: sections - book, chapter, Loeb sections; credit —
+    "Procopius, History of the Wars, tr. H. B. Dewing (Loeb, 1924)"; republish - whole text
+    (English).
+- filename: procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata and reprint leaf read directly)
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Wars VII.36-VIII, tr. H. B. Dewing, Loeb vol. V, first printed 1928 (scan is
+    the 1962 reprint; reprint leaf read). RIGHTS: public domain by date, first printing
+    1928; archive.org NOT_IN_COPYRIGHT. OCR: English clean, Greek garbled. Serves byzantine-imperial-church-justinianic and, for the Lazica chapters, georgian-christianity
+    (context). READER: sections - book, chapter, Loeb sections; credit - "Procopius, History
+    of the Wars, tr. H. B. Dewing (Loeb, 1928)"; republish - whole text (English).
+- filename: akathist-hymn_little-compline-grc-eng_london1919.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly, NOT_IN_COPYRIGHT)
+  date_added: '2026-10-16'
+  notes: >-
+    The Akathist Hymn and Little Compline, Greek with English prose, London: Williams and
+    Norgate, 1919 (Greek Church in London series). RIGHTS: public domain by date (1919);
+    archive.org NOT_IN_COPYRIGHT. OCR: English clean, Greek mixed. Serves byzantine-imperial-church-justinianic as transmission/tradition pending a ruling on its date
+    (Contested: 6th or 7th century). A 1917 verse rendering (Birkbeck and Woodward,
+    Longmans; archive.org acathisthymnofho00orth) was verified and not vendored. READER:
+    sections - the 24 stanzas of the Akathist (alphabetic acrostic) and the compline order;
+    credit - "The Akathist Hymn and Little Compline (Williams and Norgate, 1919)"; republish
+    - whole text.
+- filename: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly, NOT_IN_COPYRIGHT)
+  date_added: '2026-10-16'
+  notes: >-
+    Palestine Pilgrims' Text Society vol. II (bound: Eucherius and the Breviarius 1890,
+    Theodosius 1893, Procopius Buildings 1888, Antoninus of Piacenza 1896), tr. Aubrey
+    Stewart. RIGHTS: public domain by date; archive.org NOT_IN_COPYRIGHT. OCR clean. Serves
+    jerusalem-liturgical-pilgrimage-christianity (the pilgrim texts) and chalcedonian-monasticism-judean-desert-and-gaza (Theodosius and the Piacenza pilgrim on the desert
+    monasteries, context). The Buildings text is a second witness to the Gutenberg
+    transcription. READER: sections - per part, chapters; Procopius by book/chapter; credit
+    - "PPTS vol. II, tr. A. Stewart (1888-96)"; republish - whole text.
+- filename: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    pg-88 metadata and title leaf read directly; the volume's running heads checked against
+    its contents)
+  date_added: '2026-10-16'
+  notes: >-
+    Migne, Patrologia Graeca 88 (1860/1864): Dorotheus of Gaza's Doctrinae and letters with
+    his questions to Barsanuphius and John and their answers; John Climacus, Ladder;
+    Agathias, Histories; Cosmas Indicopleustes; Gregory of Antioch; John the Faster. Greek
+    with Latin. RIGHTS: public domain by date (Migne 1860-64 printing); the archive.org item
+    carries no copyright field, so the imprint is the basis. OCR: Latin rough but readable,
+    Greek garbled - SECOND WITNESS ONLY, never quotable as Greek. This is the real PG 88,
+    vendored to replace the mislabelled file that had carried Dorotheus's name (see the
+    entry for john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt).
+    Serves chalcedonian-monasticism-judean-desert-and-gaza (Dorotheus, Barsanuphius and
+    John: tradition) and byzantine-imperial-church-justinianic (Agathias: context; John the
+    Faster: tradition). Cosmas is vendored separately in English (cosmas-indicopleustes_christian-topography_mccrindle1897.txt). READER: sections - Migne
+    columns; Doctrina numbers; Interrogatio numbers; Climacus gradus; Agathias books; credit
+    - "Patrologia Graeca 88 (Migne)"; republish - whole text (Latin column).
+- filename: collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata and title page read directly)
+  date_added: '2026-10-16'
+  notes: >-
+    Collectio Avellana part I (CSEL 35.1, Guenther 1895), letters 1-104, Latin. RIGHTS:
+    public domain by date (1895); no copyright field on the item. OCR readable with
+    apparatus interleaved. No PD English. Serves byzantine-imperial-church-justinianic
+    (Hormisdas and the ending of the Acacian schism; imperial letters) and latin-africa-under-byzantium (the 535 Carthage council's letter, ep. 85). READER: sections - letter
+    numbers with headings; credit - "Collectio Avellana, ed. O. Guenther, CSEL 35 (1895)";
+    republish - whole text.
+- filename: collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata and title page read directly)
+  date_added: '2026-10-16'
+  notes: >-
+    Collectio Avellana part II (CSEL 35.2, Guenther 1898), letters 105-244, Latin. RIGHTS:
+    public domain by date (1898); no copyright field on the item. OCR readable. No PD
+    English. Serves byzantine-imperial-church-justinianic (Justinian's own letters and
+    edicts to Rome: tradition) and latin-africa-under-byzantium (the Three Chapters
+    correspondence: context). READER: sections - letter numbers; credit - "Collectio
+    Avellana, ed. O. Guenther, CSEL 35 (1898)"; republish - whole text.
+- filename: justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly, NOT_IN_COPYRIGHT)
+  date_added: '2026-10-16'
+  notes: >-
+    Justinian, Novellae (Corpus Iuris Civilis vol. III, Schoell-Kroll, Weidmann 1895), Greek
+    with Latin. RIGHTS: public domain by date (1895); archive.org NOT_IN_COPYRIGHT. OCR:
+    Latin readable, Greek garbled - second witness for the Greek. No PD English (Scott 1932
+    needs a renewal check). Serves byzantine-imperial-church-justinianic (tradition: the
+    emperor's own church law). READER: sections - Novel and chapter numbers; credit —
+    "Justinian, Novellae, ed. Schoell and Kroll, CIC III (1895)"; republish - whole text.
+- filename: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata and the volume's chronicle headings read directly)
+  date_added: '2026-10-16'
+  notes: >-
+    Mommsen, Chronica minora II (MGH AA 11, 1894): Marcellinus Comes, Victor of Tunnuna,
+    John of Biclaro, Isidore's Chronica and Historia Gothorum, Marius of Avenches and
+    others, Latin. RIGHTS: public domain by date (1894); no copyright field on the item. OCR
+    readable. No PD English. Serves byzantine-imperial-church-justinianic (Marcellinus:
+    context), latin-africa-under-byzantium (Victor of Tunnuna: tradition), nicene-visigothic-iberia (Biclaro, Isidore: tradition), nubian-christianity (Biclaro on
+    Makuria: context), gothic-and-vandal-homoian-christianity (Isidore's History:
+    context), merovingian-gallic-christianity (Marius of Avenches: context). READER:
+    sections - per chronicle, by year/entry number; credit - "Chronica minora II, ed.
+    Mommsen, MGH AA 11 (1894)"; republish - whole text.
+- filename: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly, NOT_IN_COPYRIGHT; fascicle title lines read in the fetched text)
+  date_added: '2026-10-16'
+  notes: >-
+    Patrologia Orientalis 2 (1903-07): Zacharias Scholasticus, Life of Severus, and John of
+    Beth Aphthonia, Life of Severus (Kugener; Syriac with French), plus Revillout's Coptic
+    apocrypha. RIGHTS: public domain by date; archive.org NOT_IN_COPYRIGHT. OCR: French
+    readable, Syriac/Coptic garbled. No PD English. Closes the lead the West Syriac dossier
+    left unverified (which translator/edition of the Life of Severus). Serves syriac-orthodox-west-syriac-christianity (tradition), cyrilline-miaphysite-egyptian-christianity (Severus's Alexandrian years: context) and chalcedonian-monasticism-judean-desert-and-gaza (the rival Gaza circle around Peter the Iberian: context). READER:
+    sections - PO page numbers; credit - "PO 2, ed. Kugener (1903-07)"; republish - whole
+    text.
+- filename: antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly; 'Sancti Georgii conversatio in laura Calamonis' located in the
+    fetched text)
+  date_added: '2026-10-16'
+  notes: >-
+    Analecta Bollandiana 7 (1888), containing Antony of Choziba's Life of George of Choziba
+    (Greek, ed. Houze). RIGHTS: public domain by date (1888); no copyright field on the
+    item. OCR: Greek rough - SECOND WITNESS ONLY. No PD English. Serves chalcedonian-monasticism-judean-desert-and-gaza (tradition: a Judean-desert monk's own account of
+    614). READER: sections - journal pages; the Life by chapter; credit - "Analecta
+    Bollandiana 7 (1888)"; republish - whole text.
 - filename: morland_history-evangelical-churches-piemont_1658.txt
   supplied_by: Claude (library/source-research thread, Era VII session, world VI.10 agent)
   date_added: '2026-10-16'
@@ -12255,3 +12462,1003 @@
     edited by Ernst Julius Kimmel, Carl Hochhausen, Jena, 1843; digital text from Internet Archive item
     librisymbolicie00kimmgoog (Harvard University copy, Google scan)" ; republish - whole text, public
     domain by date.'
+- filename: coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Budge, Coptic Apocrypha in the Dialect of Upper Egypt (British Museum, 1913), Sahidic
+    texts with English including John the Elder's Life of Pisentius of Coptos. RIGHTS:
+    public domain by date (1913); Internet Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: English clean, Coptic pages garbled. Serves cyrilline-miaphysite-egyptian-christianity (the Life of Pisentius, tradition; a Coptic voice from
+    inside the window in public-domain English). READER: sections - by text, with British
+    Museum manuscript folio and page numbers; credit - "Coptic Apocrypha in the Dialect of
+    Upper Egypt, ed. and tr. E. A. Wallis Budge (British Museum, 1913)"; republish - whole
+    text.
+- filename: miscellaneous-coptic-texts-upper-egypt_budge1915.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Budge, Miscellaneous Coptic Texts in the Dialect of Upper Egypt (British Museum, 1915),
+    Sahidic with English, including the Encomium on St Michael attributed to Theodosius of
+    Alexandria. RIGHTS: public domain by date (1915); Internet Archive item metadata states
+    possible-copyright-status NOT_IN_COPYRIGHT. OCR: English clean, Coptic pages garbled.
+    Serves cyrilline-miaphysite-egyptian-christianity (attributions Contested). READER:
+    sections - numbered texts with folio and page numbers; credit - "Miscellaneous Coptic
+    Texts in the Dialect of Upper Egypt, ed. and tr. E. A. Wallis Budge (British Museum,
+    1915)"; republish - whole text.
+- filename: monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Crum and Evelyn White, The Monastery of Epiphanius at Thebes, Part II (Metropolitan
+    Museum, 1926), Coptic and Greek ostraca and papyri with English translations. RIGHTS:
+    public domain by date (1926); the item carries no copyright field of its own, so the
+    imprint date is the basis. OCR: English translations good, Coptic and Greek
+    transcriptions garbled. Serves cyrilline-miaphysite-egyptian-christianity (tradition;
+    documentary voices of Theban monks, Damian's festal letter, Pesynthius's letters).
+    READER: sections - numbered texts (ostraca and papyri) with Crum's commentary; credit —
+    "The Monastery of Epiphanius at Thebes, Part II, ed. and tr. W. E. Crum and H. G. Evelyn
+    White (Metropolitan Museum of Art, 1926)"; republish - whole text.
+- filename: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Patrologia Orientalis I (1904-07), Basset's Synaxaire arabe jacobite (Tout, Babeh) and
+    Guidi's Synaxaire ethiopien (Sane), French. RIGHTS: public domain by date (1907); the
+    item carries no copyright field of its own, so the imprint date is the basis. OCR:
+    French rough but readable, Arabic and Ge'ez garbled. Serves cyrilline-miaphysite-egyptian-christianity (transmission) and aksumite-christianity (the Ethiopian Synaxarion
+    fascicle, transmission, late). READER: sections - PO fascicle and page numbers; the
+    Synaxaria by month and day; credit - "Patrologia Orientalis 1, ed. R. Basset and I.
+    Guidi (Firmin-Didot, 1904-07)"; republish - whole text.
+- filename: synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Patrologia Orientalis XI (1915-16), Basset's Synaxaire arabe jacobite (Toubeh, Amchir),
+    French. RIGHTS: public domain by date (1916); Internet Archive item metadata states
+    possible-copyright-status NOT_IN_COPYRIGHT. OCR: French fair, Arabic garbled. Serves
+    cyrilline-miaphysite-egyptian-christianity (transmission). READER: sections - PO
+    fascicle and page numbers; the Synaxarion by month and day; credit - "Patrologia
+    Orientalis 11, ed. R. Basset (Firmin-Didot, 1915-16)"; republish - whole text.
+- filename: baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    al-Baladhuri, The Origins of the Islamic State, vol. I, tr. P. K. Hitti (Columbia,
+    1916). RIGHTS: public domain by date (1916); Internet Archive item metadata states
+    possible-copyright-status NOT_IN_COPYRIGHT. OCR: English clean, Google front-matter
+    notice retained at the head. Serves nubian-christianity and cyrilline-miaphysite-egyptian-christianity (context, tier 4) and coptic-christianity-under-early-islam.
+    READER: sections - parts and chapters with the Arabic edition's page numbers in the
+    margins; credit - "al-Baladhuri, The Origins of the Islamic State, tr. P. K. Hitti
+    (Columbia University, 1916)"; republish - whole text.
+- filename: cosmas-indicopleustes_christian-topography_mccrindle1897.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Cosmas Indicopleustes, Christian Topography, tr. J. W. McCrindle (Hakluyt Society,
+    1897). RIGHTS: public domain by date (1897); the item carries no copyright field of its
+    own, so the imprint date is the basis. OCR: English clean. Serves aksumite-christianity
+    (the one eyewitness of Kaleb's Aksum in English, context), cyrilline-miaphysite-egyptian-christianity and the-church-of-the-east-under-persia (an Alexandrian layman in
+    Mar Aba's tradition, context, provisional) and st-thomas-christians-of-india. READER:
+    sections - Books I-XII with McCrindle's marginal references to Montfaucon's edition;
+    credit - "Cosmas Indicopleustes, The Christian Topography, tr. J. W. McCrindle (Hakluyt
+    Society, 1897)"; republish - whole text.
+- filename: photius_library-v1_freese1920.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Photius, The Library, vol. I, tr. J. H. Freese (SPCK, 1920). RIGHTS: public domain by
+    date (1920); Internet Archive item metadata states possible-copyright-status
+    NOT_IN_COPYRIGHT. OCR: English clean. Serves aksumite-christianity (codex 3, context)
+    and byzantine-imperial-church-justinianic (summaries of lost 6th-century church
+    writing, context, tier 4). READER: sections - codex numbers (the one volume published);
+    credit - "Photius, The Library, tr. J. H. Freese (SPCK, 1920)"; republish - whole text.
+- filename: book-of-the-himyarites-syr-eng_moberg1924.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Moberg, The Book of the Himyarites (Lund, 1924), Syriac fragments with English. RIGHTS:
+    public domain by date (1924); the item carries no copyright field of its own, so the
+    imprint date is the basis. OCR: English clean, Syriac garbled, cover and plate pages at
+    the head are garbage. Serves aksumite-christianity (Kaleb's war and prayer, context) and
+    syriac-orthodox-west-syriac-christianity (the Syriac author's communion, tradition).
+    READER: sections - chapters and manuscript folio numbers; Moberg's introduction precedes
+    the translation; credit - "The Book of the Himyarites, ed. and tr. Axel Moberg (Gleerup,
+    1924)"; republish - whole text.
+- filename: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Budge, The Book of the Saints of the Ethiopian Church, vols. II-IV (Cambridge University
+    Press, 1928), from a Columbia microform scan. RIGHTS: public domain by date (1928); the
+    item carries no copyright field of its own, so the imprint date is the basis. OCR:
+    English clean (microform scan). Serves aksumite-christianity (transmission). READER:
+    sections - month and day entries with British Museum folio numbers; the three volumes
+    begin at VOLUME TWO, VOLUME THREE, VOLUME FOUR (raw lines ~261, ~17657, ~32417); credit
+    - "The Book of the Saints of the Ethiopian Church, tr. E. A. Wallis Budge (Cambridge
+    University Press, 1928)"; republish - whole text.
+- filename: kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Budge, The Queen of Sheba and her only son Menyelek (Kebra Nagast) (Medici Society,
+    1922). RIGHTS: public domain by date (1922); Internet Archive item metadata states
+    possible-copyright-status NOT_IN_COPYRIGHT. OCR: English clean. Serves aksumite-christianity (transmission, tier 4). READER: sections - numbered chapters 1-117; credit
+    - "The Kebra Nagast, tr. E. A. Wallis Budge (Medici Society, 1922)"; republish - whole
+    text.
+- filename: gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Conti Rossini, Vitae sanctorum antiquiorum I (CSCO Script. Aeth. II.17, Versio, 1904),
+    Latin translation of the Ge'ez Lives of Yared and Pantalewon. RIGHTS: public domain by
+    date (1904); the item carries no copyright field of its own, so the imprint date is the
+    basis. OCR: Latin clean. Serves aksumite-christianity (transmission). READER: sections —
+    the two Lives, each by chapter; credit - "Vitae sanctorum antiquiorum I, tr. C. Conti
+    Rossini, CSCO Script. Aeth. II.17 (1904)"; republish - whole text.
+- filename: lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Lefebvre, Recueil des inscriptions grecques-chretiennes d'Egypte (IFAO, 1907), Greek
+    with French. RIGHTS: public domain by date (1907); the item carries no copyright field
+    of its own, so the imprint date is the basis. OCR: French readable, Greek rough
+    (microform scan). Serves nubian-christianity (Silko and Philae inscriptions, tradition,
+    provisional) and cyrilline-miaphysite-egyptian-christianity (context). READER: sections
+    - numbered inscriptions (nos. 584-591 for Philae); credit - "G. Lefebvre, Recueil des
+    inscriptions grecques-chretiennes d'Egypte (IFAO, 1907)"; republish - whole text.
+- filename: narsai_liturgical-homilies_connolly1909.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Narsai, The Liturgical Homilies, tr. R. H. Connolly (Cambridge University Press, Texts
+    and Studies VIII.1, 1909). RIGHTS: public domain by date (1909); Internet Archive item
+    metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: English clean. Serves
+    the-church-of-the-east-under-persia (Narsai is a census voice; tradition, in public-domain English). READER: sections - homily number and letter (XVII A, XXII B, XXI C,
+    XXXII D) with Connolly's introduction and notes; credit - "The Liturgical Homilies of
+    Narsai, tr. R. H. Connolly (Cambridge University Press, Texts and Studies VIII.1,
+    1909)"; republish - whole text.
+- filename: chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Patrologia Orientalis XIII (1919), the Chronicle of Seert (Histoire nestorienne), second
+    part II.2, ed. and tr. A. Scher, Arabic with French. RIGHTS: public domain by date
+    (1919); the item carries no copyright field of its own, so the imprint date is the
+    basis. OCR: French rough but readable, Arabic garbled. Serves the-church-of-the-east-under-persia (the church's own narrative history; transmission). READER: sections - PO
+    fascicle and page numbers; the Chronicle by numbered chapter (Roman numerals; Ishoyahb
+    of Arzun at ch. XLII); credit - "Patrologia Orientalis 13, Chronique de Seert II.2, ed.
+    and tr. A. Scher (Firmin-Didot, 1919)"; republish - whole text.
+- filename: barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Patrologia Orientalis IV (1908), Barhadbeshabba, La Cause de la fondation des ecoles,
+    ed. and tr. A. Scher, Syriac with French. RIGHTS: public domain by date (1908); Internet
+    Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: French
+    readable, Syriac garbled. Serves the-church-of-the-east-under-persia (tradition: the
+    school's own history). READER: sections - PO fascicle and page numbers; the Cause by its
+    printed sections (raw lines from ~16752); credit - "Patrologia Orientalis 4,
+    Barhadbeshabba, La Cause de la fondation des ecoles, ed. and tr. A. Scher (Firmin-Didot,
+    1908)"; republish - whole text.
+- filename: thomas-of-marga_book-of-governors-v2-english_budge1893.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Thomas of Marga, The Book of Governors, vol. II (the English translation), tr. E. A. W.
+    Budge (Kegan Paul, 1893). RIGHTS: public domain by date (1893); Internet Archive item
+    metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: English clean. Serves
+    the-church-of-the-east-under-persia (transmission; a 9th-century monastic history of the
+    6th-7th-century church). READER: sections - Books I-VI with chapters; Book I (pp.
+    17-116) covers Abraham of Kashkar, Mount Izla and Babai the Great; credit - "The Book of
+    Governors, tr. E. A. Wallis Budge (Kegan Paul, 1893)"; republish - whole text.
+- filename: school-of-nisibis_statuti-della-scuola-di-nisibi-syr-ita_guidi1890.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    I. Guidi, Gli statuti della Scuola di Nisibi, Giornale della Societa Asiatica Italiana 4
+    (1890), Syriac text with Italian introduction. RIGHTS: public domain by date (1890); the
+    item carries the Creative Commons Public Domain Mark 1.0
+    (creativecommons.org/publicdomain/mark/1.0/). OCR: Italian readable, Syriac garbled.
+    Serves the-church-of-the-east-under-persia (tradition: the school's own rule). READER:
+    sections - the journal's articles by page; the statutes by canon (from raw line ~10416);
+    credit - "I. Guidi, Gli statuti della Scuola di Nisibi, Giornale della Societa Asiatica
+    Italiana 4 (1890)"; republish - whole text.
+- filename: chronica-minora-pars-prior-versio-lat_guidi1903.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    I. Guidi, Chronica minora, pars prior (CSCO, Scriptores Syri, 1903), Latin version,
+    including the East Syrian chronicle of Khuzistan. RIGHTS: public domain by date (1903);
+    the item carries no copyright field of its own, so the imprint date is the basis. OCR:
+    Latin readable, Syriac garbled. Serves the-church-of-the-east-under-persia (tradition;
+    an East Syrian chronicler of the 7th century). READER: sections - the chronicles by
+    their own sections (the Khuzistan Chronicle around raw line ~1627); credit - "Chronica
+    minora, pars prior, ed. I. Guidi, CSCO Scriptores Syri (1903)"; republish - whole text.
+- filename: eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Elishe, The History of Vartan and of the Battle of the Armenians, tr. C. F. Neumann
+    (Oriental Translation Fund, 1830). RIGHTS: public domain by date (1830); the item
+    carries the Creative Commons Public Domain Mark 1.0
+    (creativecommons.org/publicdomain/mark/1.0/). OCR: English fair. Serves armenian-christianity-after-avarayr (tradition; the entry's own voice in public-domain English).
+    READER: sections - Chapters I-VII; credit - "Elishe, History of Vartan, tr. C. F.
+    Neumann (Oriental Translation Fund, 1830)"; republish - whole text.
+- filename: langlois_collection-historiens-armenie-tome2-fra_1869.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    V. Langlois, Collection des historiens anciens et modernes de l'Armenie, tome II
+    (Firmin-Didot, 1869), French translations of Koriun, Moses of Khoren, Elishe, Lazar of
+    Parp and Eznik. RIGHTS: public domain by date (1869); Internet Archive item metadata
+    states possible-copyright-status NOT_IN_COPYRIGHT. OCR: French readable. Serves
+    armenian-christianity-after-avarayr (Koriun, Elishe, Lazar, Eznik: tradition) and
+    church-of-caucasian-albania (Koriun on the Albanian alphabet). READER: sections - the
+    authors in the order of the volume's own contents list; credit - "Collection des
+    historiens de l'Armenie, tome II, ed. V. Langlois (Firmin-Didot, 1869)"; republish —
+    whole text.
+- filename: rituale-armenorum-lectionary_conybeare1905.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    F. C. Conybeare, Rituale Armenorum (Clarendon Press, 1905), with the Old Armenian
+    Lectionary in English. RIGHTS: public domain by date (1905); the item carries no
+    copyright field of its own, so the imprint date is the basis. OCR: English readable,
+    Armenian and Greek garbled. Serves armenian-christianity-after-avarayr (transmission).
+    READER: sections - rites by title; Appendix II, the Old Armenian Lectionary (English,
+    around raw line ~679); credit - "Rituale Armenorum, ed. F. C. Conybeare (Clarendon
+    Press, 1905)"; republish - whole text.
+- filename: sebeos_histoire-d-heraclius-fra_macler1904.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Sebeos, Histoire d'Heraclius, tr. F. Macler (1904), French translation of the Armenian.
+    RIGHTS: public domain by date (1904); the item carries no copyright field of its own, so
+    the imprint date is the basis. OCR: French readable. Serves armenian-christianity-after-avarayr, church-of-caucasian-albania, georgian-christianity and the-church-of-the-east-under-persia (tradition for Armenia, context for the others; tier 4). READER: sections —
+    Macler's chapter divisions; credit - "Sebeos, Histoire d'Heraclius, tr. F. Macler
+    (Paris, 1904)"; republish - whole text.
+- filename: studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Studia Biblica et Ecclesiastica, vol. V pt I (Clarendon Press), including the Life of St
+    Nino tr. M. and O. Wardrop. RIGHTS: public domain by date (1903); Internet Archive item
+    metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: English clean. Serves
+    georgian-christianity (transmission). READER: sections - the Life of St Nino from raw
+    line ~166 (about 24,700 words with the Armenian Djouansher version from ~3620); chapter
+    numbers; credit - "Studia Biblica et Ecclesiastica V.1, The Life of St Nino, tr. M. and
+    O. Wardrop (Clarendon Press, c. 1903)"; republish - whole text.
+- filename: brosset_histoire-de-la-georgie-pt1-fra_1849.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    M.-F. Brosset, Histoire de la Georgie, part I (St Petersburg, 1849), French translation
+    of the Georgian chronicles. RIGHTS: public domain by date (1849); the item carries the
+    Creative Commons Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/).
+    OCR: French readable. Serves georgian-christianity (transmission; tier 4). READER:
+    sections - Brosset's chapters and the chronicle's reigns; Vakhtang Gorgasali is indexed
+    at "Gourgaslan"; credit - "M.-F. Brosset, Histoire de la Georgie, part I (St Petersburg,
+    1849)"; republish - whole text.
+- filename: benedict_rule-of-saint-benedict_gasquet1925.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    The Rule of Saint Benedict, tr. Cardinal Gasquet (Chatto and Windus, Medieval Library,
+    1925), a reprint of his 1909 translation. RIGHTS: public domain by date (1925); the item
+    carries no copyright field of its own, so the imprint date is the basis. OCR: English
+    clean. Serves early-benedictine-italian-monasticism (tradition; the entry's defining
+    text). READER: sections - Prologue and Chapters I-LXXIII (raw lines ~775-4256, about
+    20,500 words); credit - "The Rule of Saint Benedict, tr. Cardinal Gasquet (Chatto and
+    Windus, 1925)"; republish - whole text.
+- filename: benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    The Rule of St. Benedict, Latin text with English translation and notes, ed. D. O.
+    Hunter Blair (Sands, 1907). RIGHTS: public domain by date (1907); the item carries the
+    Creative Commons Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/).
+    OCR: rough but readable. Serves early-benedictine-italian-monasticism (tradition; the
+    Latin original with a second English). READER: sections - chapters, with the Latin and
+    English facing; credit - "The Rule of St. Benedict, ed. and tr. D. O. Hunter Blair
+    (Sands, 1907)"; republish - whole text.
+- filename: regula-magistri-cresconius-pl88-lat_migne1862.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Migne, Patrologia Latina 88 (1862), containing the Regula Magistri (the Rule of the
+    Master) and Cresconius's canon collection. RIGHTS: public domain by date (1862); the
+    item carries no copyright field of its own, so the imprint date is the basis. OCR: rough
+    but readable. Serves early-benedictine-italian-monasticism (tradition; the Rule of the
+    Master). READER: sections - Migne columns; the Regula Magistri by chapter (caput) from
+    raw line ~78482 (chapter form at ~82155); credit - "Patrologia Latina 88 (Migne, 1862)";
+    republish - whole text.
+- filename: eugippius_life-of-saint-severinus_robinson1914.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Eugippius, The Life of Saint Severinus, tr. G. W. Robinson (Harvard University Press,
+    1914). RIGHTS: public domain by date (1914); Internet Archive item metadata states
+    possible-copyright-status NOT_IN_COPYRIGHT. OCR: English clean. Serves early-benedictine-italian-monasticism (tradition; an Italian abbot of Benedict's generation)
+    and gothic-and-vandal-homoian-christianity (context). READER: sections - numbered
+    chapters; credit - "Eugippius, The Life of Saint Severinus, tr. G. W. Robinson (Harvard
+    University Press, 1914)"; republish - whole text.
+- filename: liber-pontificalis_book-of-the-popes-v1_loomis1916.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    The Book of the Popes (Liber Pontificalis) I, tr. L. R. Loomis (Columbia University
+    Press, 1916). RIGHTS: public domain by date (1916); the item carries the Creative
+    Commons Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/). OCR:
+    English clean. Serves early-benedictine-italian-monasticism and roman-church-gregorian
+    (context) and gothic-and-vandal-homoian-christianity (the Theoderic passages, context).
+    READER: sections - the lives of the popes in order, ending with Pelagius II (raw line
+    ~13748); credit - "The Book of the Popes (Liber Pontificalis) I, tr. L. R. Loomis
+    (Columbia University Press, 1916)"; republish - whole text.
+- filename: paul-the-deacon_history-of-the-langobards_foulke1907.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Paul the Deacon, History of the Langobards, tr. W. D. Foulke (University of
+    Pennsylvania, 1907). RIGHTS: public domain by date (1907); Internet Archive item
+    metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: English clean. Serves
+    early-benedictine-italian-monasticism and gothic-and-vandal-homoian-christianity
+    (context, tier 4). READER: sections - Books I-VI by chapter (Monte Cassino around raw
+    line ~3244 of the fetched text); credit - "Paul the Deacon, History of the Langobards,
+    tr. W. D. Foulke (University of Pennsylvania, 1907)"; republish - whole text.
+- filename: boethius_theological-tractates-consolation_stewart-rand1918.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Boethius, The Theological Tractates and The Consolation of Philosophy, tr. H. F. Stewart
+    and E. K. Rand (Loeb, 1918). RIGHTS: public domain by date (1918); Internet Archive item
+    metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: English clean, Latin
+    readable. Serves early-benedictine-italian-monasticism (context; a contemporary of
+    Benedict in Gothic Italy) and byzantine-imperial-church-justinianic. READER: sections —
+    tractates and books by number; credit - "Boethius, The Theological Tractates and The
+    Consolation of Philosophy (Loeb Classical Library, 1918)"; republish - whole text.
+- filename: cassiodorus_variae-letters-hodgkin1886.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Cassiodorus, The Letters (Variae), tr. T. Hodgkin (Frowde, 1886), a condensed
+    translation. RIGHTS: public domain by date (1886); Project Gutenberg's own statement on
+    the eBook ("Public domain in the USA") read directly. OCR: Gutenberg transcription.
+    Serves early-benedictine-italian-monasticism and gothic-and-vandal-homoian-christianity
+    (context; the Arian court's own chancery). READER: sections - books and letters (the
+    translation is condensed; it is not complete); credit - "The Letters of Cassiodorus,
+    condensed tr. T. Hodgkin (Frowde, 1886)"; republish - whole text.
+- filename: cassiodorus_opera-institutiones-pl70-lat_migne1847.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Migne, Patrologia Latina 70, Cassiodorus's works including the Institutiones. RIGHTS:
+    public domain by date (1866); the item carries no copyright field of its own, so the
+    imprint date is the basis. OCR: rough but readable. Serves early-benedictine-italian-monasticism (context; the other great Italian monastic founder of the age). READER:
+    sections - Migne columns; the Institutiones near the head of the contents list (raw line
+    ~302); credit - "Patrologia Latina 70 (Migne)"; republish - whole text.
+- filename: wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    E. Bernhardt, Die gotische Bibel des Vulfila nebst der Skeireins, dem Kalender und den
+    Urkunden (Waisenhaus, 1884). RIGHTS: public domain by date (1884); Internet Archive item
+    metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: rough but usable.
+    Serves gothic-and-vandal-homoian-christianity (tradition; the church's own scripture and
+    commentary). READER: sections - biblical books by chapter and verse; the Skeireins at
+    raw lines ~10977-11137; credit - "Die gotische Bibel des Vulfila, ed. E. Bernhardt
+    (Waisenhaus, 1884)"; republish - whole text.
+- filename: wulfila_gothic-bible-v1-got_streitberg1908.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    W. Streitberg, Die gotische Bibel, vol. I (Winter, Heidelberg, 1908). RIGHTS: public
+    domain by date (1908); Internet Archive item metadata states possible-copyright-status
+    NOT_IN_COPYRIGHT. OCR: rough. Serves gothic-and-vandal-homoian-christianity (tradition;
+    the critical edition of the Gothic Bible). READER: sections - biblical books by chapter
+    and verse (Lord's Prayer at raw line ~2871); credit - "Die gotische Bibel, ed. W.
+    Streitberg, vol. I (Winter, 1908)"; republish - whole text.
+- filename: augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Migne, Patrologia Latina 42, Augustine's Sermo Arianorum, Collatio cum Maximino and
+    Contra Maximinum. RIGHTS: public domain by date (1886); the item carries no copyright
+    field of its own, so the imprint date is the basis. OCR: rough but readable. Serves
+    gothic-and-vandal-homoian-christianity (context; the Homoian argument as a Catholic
+    opponent records it, pre-window). READER: sections - Migne columns; the contents at raw
+    lines ~529-533; the Sermo Arianorum at raw line ~51925; credit - "Patrologia Latina 42
+    (Migne, Garnier printing of 1886)"; republish - whole text.
+- filename: victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Victor of Vita, Historia persecutionis Africanae provinciae, ed. M. Petschenig (CSEL 7,
+    1881), with the Passio septem monachorum. RIGHTS: public domain by date (1881); Internet
+    Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: Latin
+    readable. Serves gothic-and-vandal-homoian-christianity (context; the Vandal Arian
+    church as its victim records it) and latin-africa-under-byzantium (antecedent). READER:
+    sections - books and chapters; Huneric's edict in Book III; credit - "Victor of Vita,
+    Historia persecutionis, ed. M. Petschenig, CSEL 7 (1881)"; republish - whole text.
+- filename: mgh-aa-3_victor-vitensis-corippus-halm1879.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    MGH Auctores antiquissimi III (1879, Halm), Victor of Vita, the Passio of the seven
+    monks and Corippus's Iohannis. RIGHTS: public domain by date (1879); Internet Archive
+    item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: readable. Serves
+    latin-africa-under-byzantium (Corippus, tradition) and gothic-and-vandal-homoian-christianity (Victor, context). READER: sections - books and chapters (Huneric's edict
+    around raw line ~1993; Cyrila ~2244-2253; Corippus Iohannis from ~10546); credit —
+    "Monumenta Germaniae Historica, Auctores antiquissimi III, ed. C. Halm (Weidmann,
+    1879)"; republish - whole text.
+- filename: victor-of-vita_memorable-and-tragical-history-persecution-eng_1605.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Victor of Vita, The Memorable and Tragical History of the Persecution in Africke,
+    English translation of 1605 (English secret press). RIGHTS: public domain by date
+    (1605); the item carries no copyright field of its own, so the imprint date is the
+    basis. OCR: rough (microfilm scan, long s). Serves gothic-and-vandal-homoian-christianity (context) and latin-africa-under-byzantium (antecedent). READER: sections —
+    the History by book and chapter; the Life of Fulgentius follows; credit - "The memorable
+    and tragical history of the persecution in Africke (England, 1605)"; republish - whole
+    text.
+- filename: fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Migne, Patrologia Latina 65, Fulgentius of Ruspe's works including Thrasamund's ten
+    objections. RIGHTS: public domain by date (1847); the item carries the Creative Commons
+    Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/). OCR: rough but
+    readable. Serves gothic-and-vandal-homoian-christianity (context; Thrasamund's
+    objections) and latin-africa-under-byzantium (antecedent; Fulgentius and Ferrandus).
+    READER: sections - Migne columns; Thrasamund's objections at raw line ~7049; the
+    persecution under Thrasamund ~9336; credit - "Patrologia Latina 65 (Migne, 1847)";
+    republish - whole text.
+- filename: collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Collectio canonum Ecclesiae Hispanae (Madrid, 1808), including the complete acts of the
+    Third Council of Toledo (589). RIGHTS: public domain by date (1808); the item carries
+    the Creative Commons Public Domain Mark 1.0
+    (creativecommons.org/publicdomain/mark/1.0/). OCR: readable. Serves nicene-visigothic-iberia (tradition; Toledo III) and gothic-and-vandal-homoian-christianity (the Gothic
+    bishops' abjuration, context). READER: sections - councils in order; the Third Council
+    of Toledo with the king's statement of faith, the confession and signatures of the
+    former Homoian Gothic bishops (raw lines ~36800-37142) and the twenty-three anathemas;
+    credit - "Collectio canonum Ecclesiae Hispanae (Madrid, 1808)"; republish - whole text.
+- filename: jordanes_origin-and-deeds-of-the-goths_mierow1908.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Jordanes, The Origin and Deeds of the Goths, tr. C. C. Mierow (1908, Princeton
+    dissertation). RIGHTS: public domain by date (1908); Project Gutenberg's own statement
+    on the eBook ("Public domain in the USA") read directly. OCR: Gutenberg transcription.
+    Serves gothic-and-vandal-homoian-christianity (context, provisional). READER: sections
+    - chapters I-LX (the conversion of the Goths to Arianism under Valens at raw line ~1662;
+    Vulfila at ~3302); credit - "Jordanes, The Origin and Deeds of the Goths, tr. C. C.
+    Mierow (1908)"; republish - whole text.
+- filename: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Migne, Patrologia Latina 67 (1865), Facundus of Hermiane's In defence of the Three
+    Chapters, Ferrandus, Dionysius Exiguus, Caesarius's rules. RIGHTS: public domain by date
+    (1865); the item carries no copyright field of its own, so the imprint date is the
+    basis. OCR: rough but readable. Serves latin-africa-under-byzantium (Facundus and
+    Ferrandus, tradition) and merovingian-gallic-christianity (Caesarius's rules,
+    tradition). READER: sections - Migne columns; Facundus at raw lines ~41800-68620 (about
+    157,000 words); Ferrandus ~68620-74073; Caesarius's Regula ad monachos ~87225 and Regula
+    ad virgines ~87808; credit - "Patrologia Latina 67 (Migne, 1865)"; republish - whole
+    text.
+- filename: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Migne, Patrologia Latina 68, Liberatus's Breviarium, Victor of Tunnuna, Primasius and
+    Junillus. RIGHTS: public domain by date (1866); the item carries no copyright field of
+    its own, so the imprint date is the basis. OCR: rough but readable. Serves latin-africa-under-byzantium (tradition) and byzantine-imperial-church-justinianic (Liberatus,
+    context). READER: sections - Migne columns; the contents at raw lines ~346-467; credit —
+    "Patrologia Latina 68 (Migne)"; republish - whole text.
+- filename: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Mansi, Sacrorum conciliorum collectio, tomus X (Welter facsimile, 1901), including the
+    African synod letters of 646 against the one-will doctrine. RIGHTS: public domain by
+    date (1901); the item carries no copyright field of its own, so the imprint date is the
+    basis. OCR: rough. Serves latin-africa-under-byzantium (tradition; the African councils
+    of 646). READER: sections - councils in order; the African synod letters of 646 at raw
+    lines ~456, ~957, ~964; credit - "Mansi, Sacrorum conciliorum collectio X (Welter
+    facsimile, 1901)"; republish - whole text.
+- filename: maximus-confessor_disputatio-cum-pyrrho-pg91-grc-lat_migne1860.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Migne, Patrologia Graeca 91 (1860), Maximus the Confessor's Disputation with Pyrrhus.
+    RIGHTS: public domain by date (1860); the item carries no copyright field of its own, so
+    the imprint date is the basis. OCR: rough, second witness only. Serves latin-africa-under-byzantium (context; Maximus in Africa). READER: sections - Migne columns; the
+    Disputation at raw lines ~216 and ~15044; credit - "Patrologia Graeca 91 (Migne, 1860)";
+    republish - whole text.
+- filename: kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    H. Kihn, Theodor von Mopsuestia und Junilius Africanus als Exegeten (Herder, 1880), with
+    a critical text of the Instituta regularia. RIGHTS: public domain by date (1880);
+    Internet Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR:
+    clean. Serves latin-africa-under-byzantium (tradition; the Instituta). READER: sections
+    - the German study, then the Instituta by book and chapter; credit - "H. Kihn, Theodor
+    von Mopsuestia und Junilius Africanus (Herder, 1880)"; republish - whole text.
+- filename: gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    MGH Scriptores rerum Merovingicarum I (1885), Gregory of Tours's Opera - the Latin
+    Historiae and the miracle books - ed. W. Arndt and B. Krusch. RIGHTS: public domain by
+    date (1885); the item carries no copyright field of its own, so the imprint date is the
+    basis. OCR: rough to clean. Serves merovingian-gallic-christianity (tradition; the Latin
+    originals). READER: sections - books and chapters; Pars II (Miracula et opera minora)
+    begins at raw line ~35216, the Liber in gloria martyrum at ~37612; credit - "Gregory of
+    Tours, Opera, ed. W. Arndt and B. Krusch, MGH SRM I (1885)"; republish - whole text.
+- filename: venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    MGH Auctores antiquissimi IV (1881-85), Venantius Fortunatus, Opera poetica and Opera
+    pedestria, ed. F. Leo and B. Krusch. RIGHTS: public domain by date (1885); Internet
+    Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: rough.
+    Serves merovingian-gallic-christianity (tradition). READER: sections - books and poems;
+    the prose works (Pars posterior) from raw line ~41050, the Vita Radegundis at ~41871;
+    credit - "Venantius Fortunatus, Opera, ed. F. Leo and B. Krusch, MGH AA IV (1881-85)";
+    republish - whole text.
+- filename: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    MGH Scriptores rerum Merovingicarum II (1888), Fredegar's Chronicle, the Liber historiae
+    Francorum and saints' lives, ed. B. Krusch. RIGHTS: public domain by date (1888); the
+    item carries no copyright field of its own, so the imprint date is the basis. OCR:
+    readable. Serves merovingian-gallic-christianity (tradition; Latin). READER: sections —
+    chronicles by book; the Liber historiae Francorum from page 215, the Vita Chrothildis
+    from page 341, Baudonivia's De vita Radegundis libri II from page 358 (raw line ~28160);
+    credit - "Fredegar et aliorum Chronica; Vitae sanctorum, ed. B. Krusch, MGH SRM II
+    (1888)"; republish - whole text.
+- filename: passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    MGH Scriptores rerum Merovingicarum III (1896), Passiones vitaeque sanctorum aevi
+    merovingici, ed. B. Krusch, including the Vita Caesarii. RIGHTS: public domain by date
+    (1896); the item carries the Creative Commons Public Domain Mark 1.0
+    (creativecommons.org/publicdomain/mark/1.0/). OCR: clean. Serves merovingian-gallic-christianity (tradition; the Life of Caesarius and the other lives). READER: sections —
+    the lives by number (XXVII, Vitae Caesarii episcopi Arelatensis libri duo); credit —
+    "Passiones vitaeque sanctorum, ed. B. Krusch, MGH SRM III (1896)"; republish - whole
+    text.
+- filename: concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    MGH Concilia I (1893), Concilia aevi merovingici, ed. F. Maassen. RIGHTS: public domain
+    by date (1893); the item carries no copyright field of its own, so the imprint date is
+    the basis. OCR: rough. Serves merovingian-gallic-christianity (tradition). READER:
+    sections - councils in order (the Council of Orleans of 511 from raw line ~698); credit
+    - "Concilia aevi merovingici, ed. F. Maassen, MGH Concilia I (1893)"; republish - whole
+    text.
+- filename: avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    MGH Auctores antiquissimi VI.2 (1883), Avitus of Vienne's Opera, ed. R. Peiper. RIGHTS:
+    public domain by date (1883); Internet Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: rough. Serves merovingian-gallic-christianity (tradition;
+    Avitus and Clovis) and gothic-and-vandal-homoian-christianity (context; his arguments
+    against the Arians and the Burgundian Arian court). READER: sections - letters by
+    number; fragments of the books against the Arians at raw line ~1432; letters to Gundobad
+    at ~431 and ~1504; credit - "Alcimi Ecdicii Aviti Opera, ed. R. Peiper, MGH AA VI.2
+    (1883)"; republish - whole text.
+- filename: gregory-tours_history-of-the-franks-selections_brehaut1916.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Gregory of Tours, History of the Franks (selections) and selections from the Eight Books
+    of Miracles, tr. E. Brehaut (Columbia, 1916). RIGHTS: public domain by date (1916);
+    Internet Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR:
+    English clean. Serves merovingian-gallic-christianity (tradition; selections). READER:
+    sections - books and chapters of the abridged History; the Miracles selections at raw
+    lines ~11223-11800; credit - "Gregory of Tours, History of the Franks, selections, tr.
+    E. Brehaut (Columbia University Press, 1916)"; republish - whole text.
+- filename: bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    H. T. Bruns, Canones apostolorum et conciliorum veterum selecti, pars altera (Reimer,
+    1839), with the Gallic and Spanish councils. RIGHTS: public domain by date (1839);
+    Internet Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR:
+    rough. Serves merovingian-gallic-christianity (the Gallic councils) and nicene-visigothic-iberia (the Spanish councils outside Toledo), both as tradition. READER:
+    sections - councils in order (Agde, Orange II at raw line ~13557, Epaon, Orleans, Macon,
+    Tours II, Clermont II; Braga I-III, Seville I-II, Saragossa, Lerida, Valencia, Huesca,
+    Barcelona, Merida, Tarragona, Narbonne); credit - "Canones apostolorum et conciliorum,
+    pars altera, ed. H. T. Bruns (Reimer, 1839)"; republish - whole text.
+- filename: isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Migne, Patrologia Latina 83 (1860), Isidore of Seville's Sententiae, De ecclesiasticis
+    officiis, Synonyma, Regula monachorum and Historia de regibus Gothorum. RIGHTS: public
+    domain by date (1860); the item carries no copyright field of its own, so the imprint
+    date is the basis. OCR: rough but readable. Serves nicene-visigothic-iberia (tradition).
+    READER: sections - Migne columns; the Historia de regibus Gothorum at raw line ~117639;
+    credit - "Patrologia Latina 83 (Migne)"; republish - whole text.
+- filename: isidore-seville_etymologiae-origines-lat_lindsay1911.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Isidore of Seville, Etymologiarum sive Originum libri XX, ed. W. M. Lindsay (Clarendon
+    Press, 1911). RIGHTS: public domain by date (1911); the item carries the Creative
+    Commons Public Domain Mark 1.0 (creativecommons.org/licenses/publicdomain/). OCR: clean.
+    Serves nicene-visigothic-iberia (tradition). READER: sections - Books I-XX by chapter
+    (Book VIII on the church and heresies at raw line ~17315); the host item is titled
+    Volume 1 but holds all twenty books; credit - "Isidori Etymologiarum libri XX, ed. W. M.
+    Lindsay (Clarendon Press, 1911)"; republish - whole text.
+- filename: isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    E. Brehaut, An Encyclopedist of the Dark Ages: Isidore of Seville (Columbia Studies,
+    1912), with English extracts of the Etymologies. RIGHTS: public domain by date (1912);
+    Project Gutenberg's own statement on the eBook ("Public domain in the USA") read
+    directly. OCR: Gutenberg transcription. Serves nicene-visigothic-iberia (tradition;
+    extracts only). READER: sections - Brehaut's study (Part I) and English extracts of the
+    Etymologies (Part II, from raw line ~4934, about 41,500 words mixed with commentary);
+    credit - "E. Brehaut, An Encyclopedist of the Dark Ages (Columbia University, 1912)";
+    republish - whole text.
+- filename: visigothic-code-forum-judicum_scott1910.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    The Visigothic Code (Forum Judicum), tr. S. P. Scott (Boston Book Company, 1910).
+    RIGHTS: public domain by date (1910); the item carries no copyright field of its own, so
+    the imprint date is the basis. OCR: English moderate. Serves nicene-visigothic-iberia
+    (tradition; the kingdom's law, in English). READER: sections - books, titles and laws
+    (Book XII on heretics and Jews); credit - "The Visigothic Code (Forum Judicum), tr. S.
+    P. Scott (Boston Book Company, 1910)"; republish - whole text.
+- filename: john-biclaro-leander-pl72-lat_migne1878.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Migne, Patrologia Latina 72, John of Biclaro's Chronicon and Leander of Seville's Regula
+    and homily. RIGHTS: public domain by date (1878); the item carries no copyright field of
+    its own, so the imprint date is the basis. OCR: rough but readable. Serves nicene-visigothic-iberia (tradition). READER: sections - Migne columns; Leander's Regula (Liber
+    de institutione virginum) at raw line ~85910; his Homilia in laudem Ecclesiae at ~66727;
+    credit - "Patrologia Latina 72 (Migne)"; republish - whole text.
+- filename: paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Migne, Patrologia Latina 80 (1863), Paulus Emeritanus's Vitas Patrum Emeretensium,
+    Braulio of Saragossa, King Sisebut. RIGHTS: public domain by date (1863); the item
+    carries no copyright field of its own, so the imprint date is the basis. OCR: rough but
+    readable. Serves nicene-visigothic-iberia (tradition). READER: sections - Migne
+    columns; Sisebut at raw line ~729; Braulio at ~51492; credit - "Patrologia Latina 80
+    (Migne, 1863)"; republish - whole text.
+- filename: ildefonsus-julian-toledo-pl96-lat_migne1862.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Migne, Patrologia Latina 96 (1862), Ildefonsus of Toledo and Julian of Toledo. RIGHTS:
+    public domain by date (1862); the item carries no copyright field of its own, so the
+    imprint date is the basis. OCR: rough but readable. Serves nicene-visigothic-iberia
+    (tradition). READER: sections - Migne columns; Ildefonsus on the virginity of Mary at
+    raw line ~844; Julian's Prognosticon around ~36807; credit - "Patrologia Latina 96
+    (Migne, 1862)"; republish - whole text.
+- filename: martin-braga_de-correctione-rusticorum-lat_caspari1883.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    C. P. Caspari, Martin von Bracara's Schrift De correctione rusticorum (Christiania,
+    1883). RIGHTS: public domain by date (1883); Internet Archive item metadata states
+    possible-copyright-status NOT_IN_COPYRIGHT. OCR: clean. Serves nicene-visigothic-iberia
+    (tradition; the Suevic Gallaecia question named in the dossier). READER: sections - the
+    sermon by chapter; credit - "Martin of Braga, De correctione rusticorum, ed. C. P.
+    Caspari (Christiania, 1883)"; republish - whole text.
+- filename: ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    M. Ferotin, Le Liber mozarabicus sacramentorum et les manuscrits mozarabes (Firmin-Didot, 1912). RIGHTS: public domain by date (1912); the item carries no copyright field
+    of its own, so the imprint date is the basis. OCR: readable. Serves nicene-visigothic-iberia (tradition; the rite). READER: sections - the sacramentary by the church year
+    (masses and prayers); credit - "Le Liber mozarabicus sacramentorum, ed. M. Ferotin
+    (Firmin-Didot, 1912)"; republish - whole text.
+- filename: patrick_writings-and-life-with-muirchu-eng_white1920.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    St. Patrick, His Writings and Life, tr. N. J. D. White (SPCK, Translations of Christian
+    Literature V, 1920), with Muirchu's Life. RIGHTS: public domain by date (1920); the item
+    carries the Creative Commons Public Domain Mark 1.0
+    (creativecommons.org/publicdomain/mark/1.0/). OCR: English clean. Serves insular-irish-monastic-christianity (tradition; Patrick) and british-welsh-christianity (Patrick was
+    a Briton; shared, see the dossier). READER: sections - the Confession in sections 1-62,
+    the Letter to Coroticus in sections 1-21, the Lorica and sayings, Muirchu's Life by book
+    and chapter; credit - "St. Patrick, His Writings and Life, tr. N. J. D. White (SPCK,
+    1920)"; republish - whole text.
+- filename: patrick_libri-sancti-patricii-lat_white1918.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    N. J. D. White, Libri Sancti Patricii - the Latin writings of St Patrick (SPCK, 1918),
+    revised Latin text. RIGHTS: public domain by date (1918); the item carries no copyright
+    field of its own, so the imprint date is the basis. OCR: clean. Serves insular-irish-monastic-christianity and british-welsh-christianity (tradition; the Latin original).
+    READER: sections - the Confession and the Letter by the same section numbers as the
+    White English of 1920; credit - "Libri Sancti Patricii, ed. N. J. D. White (SPCK,
+    1918)"; republish - whole text.
+- filename: adomnan_life-of-saint-columba_huyshe1905.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Adamnan, The Life of Saint Columba, tr. W. Huyshe (Routledge, 1905). RIGHTS: public
+    domain by date (1905); the item carries no copyright field of its own, so the imprint
+    date is the basis. OCR: English clean. Serves insular-irish-monastic-christianity
+    (tradition; the entry's central hagiography). READER: sections - Books I-III and
+    chapters; credit - "Adamnan, The Life of Saint Columba, tr. W. Huyshe (Routledge,
+    1905)"; republish - whole text.
+- filename: jonas-bobbio_life-of-st-columban_munro1895.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Jonas of Bobbio, Life of St. Columban, tr. D. C. Munro (University of Pennsylvania,
+    Translations and Reprints II.7, 1895). RIGHTS: public domain by date (1895); Internet
+    Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: English
+    clean. Serves insular-irish-monastic-christianity (tradition) and merovingian-gallic-christianity (context; Luxeuil in Burgundy). READER: sections - chapters; credit —
+    "Jonas, Life of St. Columban, tr. D. C. Munro (University of Pennsylvania, 1895)";
+    republish - whole text.
+- filename: stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    W. Stokes, The Tripartite Life of Patrick with other documents, vol. II (Rolls Series
+    89, 1887), including Muirchu's and Tirechan's Latin lives and the Latin Confession.
+    RIGHTS: public domain by date (1887); Internet Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR: fair. Serves insular-irish-monastic-christianity
+    (tradition; Muirchu and Tirechan). READER: sections - Muirchu from raw line ~360;
+    Tirechan's Collections from ~2251; the Book of the Angel (Liber Angueli) ~5638; the
+    Confession ~5914; credit - "The Tripartite Life of Patrick, ed. W. Stokes, vol. II
+    (Rolls Series 89, 1887)"; republish - whole text.
+- filename: wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    F. W. H. Wasserschleben, Die Bussordnungen der abendlaendischen Kirche (Graeger, Halle,
+    1851), the Latin penitentials. RIGHTS: public domain by date (1851); the item carries no
+    copyright field of its own, so the imprint date is the basis. OCR: good. Serves insular-irish-monastic-christianity (tradition; the penitentials) and british-welsh-christianity
+    (tradition; the penitential of Gildas and the Canones Wallici). READER: sections - each
+    penitential by canon (Poenitentiale Gildae at raw line ~515, Vinniai at ~517); credit —
+    "Die Bussordnungen der abendlaendischen Kirche, ed. F. W. H. Wasserschleben (Halle,
+    1851)"; republish - whole text.
+- filename: gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Gildas, De excidio Britanniae, fragments, the penitential and the Lorica, ed. and tr. H.
+    Williams (Cymmrodorion Record Series, 1899). RIGHTS: public domain by date (1899);
+    Internet Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR:
+    fair - "w" is often read as "vv". Serves british-welsh-christianity (tradition; the
+    entry's one substantial own-voice author) and insular-irish-monastic-christianity
+    (Gildas was cited by Columbanus). READER: sections - sections 1-110 of the De excidio,
+    the fragments, the penitential and the Lorica; the Lives of Gildas by the monk of Ruys
+    and by Caradoc of Llancarfan from raw line ~18654; credit - "Gildas, De excidio
+    Britanniae, ed. and tr. H. Williams (Cymmrodorion Record Series 3, 1899-1901)";
+    republish - whole text.
+- filename: samson-of-dol_life-of-st-samson_taylor1925.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    The Life of St. Samson of Dol, tr. T. Taylor (SPCK, Lives of the Celtic Saints, 1925).
+    RIGHTS: public domain by date (1925); the item carries no copyright field of its own, so
+    the imprint date is the basis. OCR: English good. Serves british-welsh-christianity
+    (tradition; Llantwit, Caldey and Dol) and merovingian-gallic-christianity (Samson at the
+    Council of Paris, context). READER: sections - prologue, books and chapters; credit —
+    "The Life of St. Samson of Dol, tr. T. Taylor (SPCK, 1925)"; republish - whole text.
+- filename: annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Annales Cambriae, ed. J. Williams ab Ithel (Rolls Series 20, 1860). RIGHTS: public
+    domain by date (1860); the item carries no copyright field of its own, so the imprint
+    date is the basis. OCR: fair. Serves british-welsh-christianity (tradition;
+    transmission-grade, 10th-century compilation). READER: sections - the annals by year
+    (the Easter reform entry of 768 at raw line ~2964); credit - "Annales Cambriae, ed. J.
+    Williams ab Ithel (Rolls Series 20, 1860)"; republish - whole text.
+- filename: rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    W. J. Rees, Lives of the Cambro-British Saints (Welsh Manuscripts Society, 1853), Latin
+    and Welsh lives with English translations. RIGHTS: public domain by date (1853);
+    Internet Archive item metadata states possible-copyright-status NOT_IN_COPYRIGHT. OCR:
+    Latin fair, English pages not individually sampled. Serves british-welsh-christianity
+    (transmission; late memory). READER: sections - the lives by saint, each with its
+    English translation; credit - "Lives of the Cambro British Saints, ed. W. J. Rees (Welsh
+    Manuscripts Society, 1853)"; republish - whole text.
+- filename: stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    W. Stokes, Lives of Saints from the Book of Lismore (Clarendon Press, 1890), Irish text
+    with English translation. RIGHTS: public domain by date (1890); the item carries no
+    copyright field of its own, so the imprint date is the basis. OCR: fair. Serves insular-irish-monastic-christianity (transmission; late memory). READER: sections - the lives in
+    the volume's own contents order (Patrick pp. 149-167 and Colom-cille pp. 168-181 per its
+    contents list; the later lives follow); credit - "Lives of Saints from the Book of
+    Lismore, ed. and tr. W. Stokes (Clarendon Press, 1890)"; republish - whole text.
+- filename: antiphonary-of-bangor-pt2-lat_warren1895.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    F. E. Warren, The Antiphonary of Bangor, part II (Henry Bradshaw Society, 1895). RIGHTS:
+    public domain by date (1895); the item carries no copyright field of its own, so the
+    imprint date is the basis. OCR: front matter rough, body not sampled. Serves insular-irish-monastic-christianity (tradition; liturgical text). READER: sections - the
+    antiphonary by item number; credit - "The Antiphonary of Bangor, part II, ed. F. E.
+    Warren (Henry Bradshaw Society, 1895)"; republish - whole text.
+- filename: nennius_history-of-the-britons-giles.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-23; the item metadata and
+    title page read directly)
+  date_added: '2026-10-23'
+  notes: >-
+    Nennius (attrib.), History of the Britons (Historia Brittonum), tr. J. A. Giles (Project
+    Gutenberg eBook 1972). RIGHTS: public domain by date (undated (translator d. 1884));
+    Project Gutenberg's own statement on the eBook ("Public domain in the USA") read
+    directly. OCR: Gutenberg transcription. Serves british-welsh-christianity (transmission,
+    tier 4). READER: sections - sections 1-76 as numbered in the translation; credit —
+    "Nennius, History of the Britons, tr. J. A. Giles (Project Gutenberg 1972)"; republish —
+    whole text.

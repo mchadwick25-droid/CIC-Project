@@ -1,0 +1,14 @@
+source_file: gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt
+
+assignments:
+  - row_id: gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885--gregory-tours-historiae-and-miracula
+    work: "Gregory of Tours, Historiarum libri X and the miracle books (Gloria martyrum, Vitae patrum and others), Latin"
+    author: gregory-tours
+    locus: "Pars I Historiae; Pars II from raw line ~35216; Gloria martyrum ~37612"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The bishop of Tours in his own Latin; the saints' books are the entry's richest
+      everyday religious texture and have no public-domain English.

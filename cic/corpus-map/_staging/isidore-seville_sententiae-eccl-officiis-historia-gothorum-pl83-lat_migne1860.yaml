@@ -1,0 +1,14 @@
+source_file: isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt
+
+assignments:
+  - row_id: isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860--isidore-works-pl83
+    work: "Isidore of Seville, Sententiae, De ecclesiasticis officiis, Synonyma, Regula monachorum, Epistolae and Historia de regibus Gothorum (Latin)"
+    author: isidore-seville
+    locus: "Historia de regibus Gothorum at raw line ~117639"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: assigned
+    note: >
+      The Visigothic church's own teacher of doctrine, liturgy and monastic life; Latin
+      only.

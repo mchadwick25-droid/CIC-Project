@@ -1,0 +1,22 @@
+source_file: adomnan_life-of-saint-columba_huyshe1905.txt
+
+authors_ruled:
+  adomnan:
+    kind: metadata-omission
+    evidence: >
+      The host record names Adamnan, Saint, 625?-704, as creator; the corpus-map has no
+      earlier ruling for the slug.
+    from_file: adomnan_life-of-saint-columba_huyshe1905.txt
+
+assignments:
+  - row_id: adomnan_life-of-saint-columba_huyshe1905--life-of-columba
+    work: "Adomnan, Life of Saint Columba, English"
+    author: adomnan
+    locus: "Books I-III"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Written after the entry's 664 end by Iona's own abbot; retrospection flag required for
+      claims about Columba's own century.

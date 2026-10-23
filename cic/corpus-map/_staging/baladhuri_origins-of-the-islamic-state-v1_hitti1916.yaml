@@ -1,0 +1,26 @@
+source_file: baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt
+
+assignments:
+  - row_id: baladhuri_origins-of-the-islamic-state-v1_hitti1916--part-viii-nubia
+    work: "Part VIII, Nubia (the archers; the treaty of 'Abdallah ibn Sa'd with the Nubians)"
+    author: baladhuri
+    locus: "Part VIII (raw lines ~15184-15240)"
+    atlas_ids:
+      - nubian-christianity
+    role: context
+    confidence: assigned
+    note: >
+      The Arab account of Christian Nubia's resistance in 652 and the treaty that followed;
+      two centuries later and outside, but the only narrative of the window's closing event.
+
+  - row_id: baladhuri_origins-of-the-islamic-state-v1_hitti1916--part-vii-egypt
+    work: "Part VII, Egypt (the conquest of 640-642; the terms with the Copts)"
+    author: baladhuri
+    locus: "Part VII"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+      - coptic-christianity-under-early-islam
+    role: context
+    confidence: assigned
+    note: >
+      The conquest that closes the Cyrilline entry's window, from the conquerors' side.

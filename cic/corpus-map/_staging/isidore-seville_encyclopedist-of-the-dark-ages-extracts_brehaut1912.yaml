@@ -1,0 +1,14 @@
+source_file: isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt
+
+assignments:
+  - row_id: isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912--etymologiae-english-extracts
+    work: "Isidore of Seville, Etymologiae, English extracts (Books VI-VIII among them)"
+    author: isidore-seville
+    locus: "Part II from raw line ~4934"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: provisional
+    note: >
+      Extracts in a scholar's English, interleaved with his commentary; the Lindsay Latin is
+      the checking copy.

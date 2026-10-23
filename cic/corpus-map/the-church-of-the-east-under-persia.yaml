@@ -33,6 +33,18 @@ works:
 
     '
   source_file: amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt
+- row_id: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877--catholicoi-persia
+  work: 'Bar Hebraeus, Chronicon ecclesiasticum III: the East Syrian catholicoi from Dadisho
+    (c. 424) to Ishoyahb of Gadala (d. 646), including Barsauma, Narsai''s exile and Mar Aba'
+  author: bar-hebraeus
+  locus: file lines ~3405-7430; Mar Aba at ~5227-5540
+  role: context
+  confidence: assigned
+  note: 'A 13th-century Jacobite author openly hostile to this church; context, tier 4. The
+    same file is tradition for syriac-edessa-nisibis.
+
+    '
+  source_file: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt
 - row_id: po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913--barhadbeshabba-church-of-the-east
   work: Barhadbeshabba 'Arbaya, Ecclesiastical History, part 2 (Diodore, Theodore, Nestorius,
     Ephesus 431), French with Syriac (Nau, PO 9.5, 1913)
@@ -47,6 +59,29 @@ works:
     OCR. The other four fascicles of the volume (Esther, Acta Pilati, Testament in Galilee,
     Ethiopian Synaxarium) are not assigned.'
   source_file: po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt
+- row_id: barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908--cause-fondation-ecoles
+  work: Barhadbeshabba, The Cause of the Foundation of the Schools (La Cause de la fondation
+    des ecoles), with French
+  author: barhadbeshabba-arbaya
+  locus: from raw line ~16752
+  role: tradition
+  confidence: assigned
+  note: 'The school of Nisibis''s account of its own origins and masters, about 600; French
+    only.
+
+    '
+  source_file: barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt
+- row_id: chronicle-of-edessa_cowper--school-of-the-persians-489
+  work: 'Chronicle of Edessa section 73: the school of the Persians eradicated from Edessa
+    (An. 800 = 489)'
+  author: chronicle-of-edessa
+  locus: file line 189
+  role: context
+  confidence: assigned
+  note: 'The expulsion that founded the school of Nisibis, in one line, from Edessa.
+
+    '
+  source_file: chronicle-of-edessa_cowper.txt
 - row_id: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910--chronicle-of-seert-first-part-fasc-2
   work: Chronicle of Seert (Histoire nestorienne), first part, fascicle 2, Arabic text with
     French translation
@@ -64,6 +99,28 @@ works:
 
     '
   source_file: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt
+- row_id: chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919--chronicle-of-seert-ii2
+  work: Chronique de Seert (Histoire nestorienne), II.2, with French
+  author: chronicle-of-seert-ii2
+  locus: from raw line ~25256; Ishoyahb of Arzun at ch. XLII
+  role: transmission
+  confidence: provisional
+  note: 'The East Syrian church''s own narrative memory of its catholicoi, schools and martyrs;
+    late compilation, French only, provisional.
+
+    '
+  source_file: chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt
+- row_id: cosmas-indicopleustes_christian-topography_mccrindle1897--whole-work-alexandrian-cosmography
+  work: 'Christian Topography (whole work): an Alexandrian layman''s cosmography of the 550s'
+  author: cosmas-indicopleustes
+  locus: whole text
+  role: context
+  confidence: provisional
+  note: 'Cosmas''s teacher was the East Syrian Mar Aba; scholarship treats his confession
+    as Nestorian-leaning. Provisional on his affiliation.
+
+    '
+  source_file: cosmas-indicopleustes_christian-topography_mccrindle1897.txt
 - row_id: npnf214_seven-ecumenical-councils--the-second-council-of-constantinople-553-extracts-from-the-2
   work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
     Anathemas Against Origen'
@@ -108,6 +165,43 @@ works:
 
     '
   source_file: elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt
+- row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--vi-21-khosrau-ii-sira
+  work: Ecclesiastical History VI.21 (Khosrau II's offerings to St Sergius and his Christian
+    queen Sira)
+  author: evagrius-scholasticus
+  locus: Book VI ch. 21 (raw file lines ~11951-12070)
+  role: context
+  confidence: assigned
+  note: 'The Persian king''s own letters, as Evagrius quotes them, naming his Christian queen:
+    a rare outside view of Christians at the Sasanian court. Era III Library pass, October
+    2026.
+
+    '
+  source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
+- row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--life-10-simeon-beth-arsham-persian-debater
+  work: 'Lives of the Eastern Saints 10 (Simeon of Beth Arsham, the Persian Debater: his disputes
+    with the Catholicos Babai before the Persian king, c. 499-504)'
+  author: john-ephesus
+  locus: Life 10 (raw file lines ~8279-9423)
+  role: context
+  confidence: assigned
+  note: 'A West Syriac opponent working inside Persia, debating the Church of the East''s
+    catholicos at court: a contemporary hostile witness. Era III Library pass, October 2026.
+
+    '
+  source_file: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
+- row_id: chronica-minora-pars-prior-versio-lat_guidi1903--khuzistan-chronicle
+  work: The East Syrian (Khuzistan) Chronicle, Latin version
+  author: khuzistan-chronicle
+  locus: from around raw line ~1627
+  role: tradition
+  confidence: provisional
+  note: 'An East Syrian chronicler of the 7th century on Khosrau II, Ishoyahb and the Arab
+    conquest. Provisional: the volume''s other chronicles are West Syrian and this row covers
+    the East Syrian one only.
+
+    '
+  source_file: chronica-minora-pars-prior-versio-lat_guidi1903.txt
 - row_id: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904--le-christianisme-dans-l-empire-perse
   work: Le christianisme dans l'empire perse sous la dynastie sassanide, 224-632 (1904)
   author: labourt
@@ -167,6 +261,17 @@ works:
 
     '
   source_file: mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt
+- row_id: narsai_liturgical-homilies_connolly1909--liturgical-homilies
+  work: Narsai, Liturgical Homilies XVII (A), XXII (B), XXI (C), XXXII (D)
+  author: narsai
+  locus: the English translation, raw lines ~5130-9483
+  role: tradition
+  confidence: assigned
+  note: 'The master of Nisibis on the liturgy c. 500, in the church''s own voice; one of the
+    four homilies is doubtfully authentic by Connolly''s own reckoning.
+
+    '
+  source_file: narsai_liturgical-homilies_connolly1909.txt
 - row_id: nestorius_livre-d-heraclide-de-damas-fra_nau1910--livre-d-heraclide-church-of-the-east
   work: Le livre d'Héraclide de Damas, French (Nau, 1910)
   author: nestorius
@@ -216,6 +321,87 @@ works:
 
     '
   source_file: persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880.txt
+- row_id: procopius_wars-1-2-persian_dewing1914--wars-i-ii-armenia-persia-frontier
+  work: History of the Wars I-II (Persarmenia and the Persian frontier under Kawad and Khosrau)
+  author: procopius
+  locus: Books I-II, the Armenian and Mesopotamian chapters
+  role: context
+  confidence: provisional
+  note: 'The Roman-Persian wars as the political frame of Persarmenia and of the Christians
+    inside the Sasanian empire. Provisional: the church-specific material is thin and a build
+    thread should pin exact chapters.
+
+    '
+  source_file: procopius_wars-1-2-persian_dewing1914.txt
+- row_id: school-of-nisibis_statuti-della-scuola-di-nisibi-syr-ita_guidi1890--statutes-of-nisibis
+  work: The Statutes of the School of Nisibis (496; additions of 590 and 602), Syriac
+  author: school-of-nisibis-statutes
+  locus: from raw line ~10416
+  role: tradition
+  confidence: assigned
+  note: 'The school''s constitution: the church''s institutional voice at its centre. Syriac
+    text, Italian introduction only.
+
+    '
+  source_file: school-of-nisibis_statuti-della-scuola-di-nisibi-syr-ita_guidi1890.txt
+- row_id: sebeos_histoire-d-heraclius-fra_macler1904--histoire-d-heraclius
+  work: Sebeos, History (Histoire d'Heraclius), French
+  author: sebeos
+  locus: whole text
+  role: tradition
+  confidence: provisional
+  note: 'Tradition for Armenia (a bishop''s own history); for Albania, Georgia and Persia
+    it is the Armenian view of neighbours and context. Tier 4: composed after the Armenian
+    entry''s window.
+
+    '
+  source_file: sebeos_histoire-d-heraclius-fra_macler1904.txt
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--persian-christians-socrates-vii-8-21
+  work: Socrates VII.8 (Maruthas and the Persian king), VII.18 and VII.21 (Acacius of Amida
+    ransoms the Persian captives)
+  author: socrates
+  locus: div ii.x.viii, ii.x.xviii, ii.x.xxi (raw ~19903)
+  role: context
+  confidence: assigned
+  note: 'Roman-side witnesses to Persian Christians in 410-422, the decade before the synod
+    of 424.
+
+    '
+  source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901--markabta-424
+  work: The synod of the Persian bishops under the catholicos Dadisho (424), declaring the
+    catholicos answerable to no authority in the West
+  author: synod-of-markabta-424
+  locus: file lines ~55606-55684 (columns 553-554); the ruling at ~55624-55626
+  role: tradition
+  confidence: provisional
+  note: 'The event the census names as the church''s founding act; the words survive at third
+    hand, in Latin from an Arabic collection. Provisional.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901--seleucia-410
+  work: The synod of Isaac at Seleucia (410) and the Persian bishops' creed
+  author: synod-of-seleucia-410
+  locus: file lines ~111148-111948; the creed at ~111433-111434
+  role: antecedent
+  confidence: needs-ruling
+  note: 'The assembly that adopted the Nicene Creed for Persia, on which the census floor
+    note rests; before the window opens, so antecedent, needs-ruling on the corpus-map rule.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901--yahballaha-420
+  work: The synod of Yahballaha at Ctesiphon (420)
+  author: synod-of-yahballaha-420
+  locus: file lines ~44134-44307
+  role: antecedent
+  confidence: needs-ruling
+  note: 'Reconfirmed the canons of 410; links 410 to 424. Antecedent only once the Synodicon
+    editions vendored separately are shown to argue from it; needs-ruling.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
 - row_id: synodicon-orientale_das-buch-der-synhados-deu_braun1900--synods-of-akak-486-onward-german
   work: 'Das Buch der Synhados: the synods from Akak (486) onward, German translation'
   author: synodicon-orientale
@@ -241,6 +427,29 @@ works:
 
     '
   source_file: synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--theodoret-v-38-39-persia
+  work: Theodoret, Ecclesiastical History V.38 (the persecution in Persia, Bishop Abdas) and
+    V.39 (Theodore of Mopsuestia)
+  author: theodoret
+  locus: div iv.viii.v.xxxviii (raw ~18062) and iv.viii.v.xxxix
+  role: context
+  confidence: assigned
+  note: 'The persecution of 420-422 that preceded the synod of 424, and the life of the theologian
+    this church calls the Interpreter, from the Antiochene side.
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: thomas-of-marga_book-of-governors-v2-english_budge1893--book-of-governors
+  work: Thomas of Marga, The Book of Governors (Historia Monastica), English
+  author: thomas-of-marga
+  locus: Books I-VI; Book I pp. 17-116 on Abraham of Kashkar, Izla and Babai
+  role: transmission
+  confidence: provisional
+  note: 'A 9th-century monastic history of the church''s 6th-7th-century revival; late, so
+    transmission, provisional.
+
+    '
+  source_file: thomas-of-marga_book-of-governors-v2-english_budge1893.txt
 - row_id: wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910--introduction-to-the-history-of-the-assyrian-church
   work: An Introduction to the History of the Assyrian Church, 100-640 A.D. (1910)
   author: wigram
@@ -255,3 +464,18 @@ works:
 
     '
   source_file: wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt
+- row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--xii-7-armenia-georgia-albania-persia
+  work: 'Chronicle Book XII.7 (the Christian peoples of the Caucasus: Armenia''s Catholicos
+    at Dvin, Gurzan, Arran; Kardutsat''s mission to the Huns; the Persian Catholicos Joseph
+    at court)'
+  author: zachariah-rhetor
+  locus: Book XII ch. 7 (raw file lines ~16313-16515)
+  role: context
+  confidence: assigned
+  note: 'A geographical survey written c. 555 naming the Armenian Catholicos Gregory at Dvin,
+    Georgia''s Christian prince under Persia, Albania ("Arran") as a baptized people whose
+    bishop Kardutsat went to the Huns, and the Persian Catholicos Joseph as the king''s physician.
+    One short chapter serving four worlds. Era III Library pass, October 2026.
+
+    '
+  source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt

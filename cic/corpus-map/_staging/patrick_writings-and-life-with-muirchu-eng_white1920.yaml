@@ -1,0 +1,41 @@
+source_file: patrick_writings-and-life-with-muirchu-eng_white1920.txt
+
+authors_ruled:
+  patrick:
+    kind: metadata-omission
+    evidence: >
+      The host record names Patrick, Saint, 373?-463?, as creator; the corpus-map has no
+      earlier ruling for the slug.
+    from_file: patrick_writings-and-life-with-muirchu-eng_white1920.txt
+  muirchu:
+    kind: metadata-omission
+    evidence: >
+      The host record names Muirchu maccu Machtheni, fl. 697, as creator; the corpus-map has
+      no earlier ruling for the slug.
+    from_file: patrick_writings-and-life-with-muirchu-eng_white1920.txt
+
+assignments:
+  - row_id: patrick_writings-and-life-with-muirchu-eng_white1920--patrick-confession-letter
+    work: "Patrick, Confession and Letter to the soldiers of Coroticus, English (and the Lorica)"
+    author: patrick
+    locus: "Confession sections 1-62; Letter sections 1-21"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+      - british-welsh-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The apostle of Ireland in his own words; a Briton writing about Ireland, so shared
+      between the Irish and British entries (a placement the dossier names).
+
+  - row_id: patrick_writings-and-life-with-muirchu-eng_white1920--muirchu-life-of-patrick
+    work: "Muirchu, Life of Patrick, English"
+    author: muirchu
+    locus: "Muirchu's Life by book and chapter"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      A 7th-century Irish hagiographer's Patrick, written for the see of Armagh; tradition
+      for the Irish entry's late window.
