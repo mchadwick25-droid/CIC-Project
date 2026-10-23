@@ -1683,3 +1683,12 @@ Logged 2026-10-23 from `handoff lpc`. 55 files the holdings report marks "in sco
 ### OG-45. Handoff check 8: 194 quotations in Steps 0 to 2 not found word for word (2026-10-23).
 
 Logged 2026-10-23 from `handoff lpc` (288 quotations of five or more words checked; 27 taken from project documents; 0 confirmed inside a cited `cic:<file>:<locus>` division). Findings by file: Step 0, 55; Doc_01, 44; Doc_02, 15; `Source_Registry.md`, 80. Many appear to quote project documents rather than vendored texts. An independent triage is running into `Review-Artifacts/L1_Quote_Triage_2026-10-23.md`. Owner: the `lpc` build thread. Closes when check 8 passes and every quotation not found is corrected or withdrawn.
+
+### OG-46. The 97-sermon inventory: one Latin start unconfirmed and five English-side misprints (2026-10-23).
+
+Logged 2026-10-23 with `build/lpc_Sermon_Inventory.md`. Two rows spot-checked at source by the build thread (Maurist 54 at PL 38 line 25803, Matt. v. 16; Maurist 90 at line 39023, Matt. xxii. 1 to 14); the rest await an independent check.
+
+- **Unconfirmed.** Maurist 92 in the Gaume printing: its chapter and verses are unreadable in the OCR. PL 38 confirms it.
+- **NPNF misprints against both Latin witnesses.** NPNF 62 prints "[XCII. Ben.]" for Maurist 112 (verified at PL 38 line 44974). NPNF 69 prints Matt. xix. 28 where the Latin reads xi. 28. NPNF 83 prints Matt. xvii. 21 where the Latin reads xviii. NPNF 98 prints Luke vii. 2 where the Latin reads 11 to 15. NPNF 130 prints John vi. 9 where the Latin reads cap. v; only the page images can settle this one.
+- **Gaume file.** The doubtful sermons begin about line 124456 with their own numbering; any search of that file must stop before them.
+- **Owner.** The `lpc` build thread. A quote record citing any of these must give the reference the Latin supports and note the NPNF reading. Closes when an independent check confirms the inventory and NPNF 130 is settled.
