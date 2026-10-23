@@ -2377,3 +2377,10 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 **Alternatives shown.** (1) Restate §7 to Doc_01's narrower test, no surviving ordinary-pastoral voice; (2) keep the wide claim and drop or re-date the contradicting rows; (3) withdraw the claim and say nothing about the gap; (4) another reading.
 
 **Chosen.** Option 1 (project lead, 2026-10-23, "1"). It changes a wording and a scope statement in an approved document, so it is made through the change order recorded in OG-38 and OG-39, not as a quiet edit. Doc_01's own "honest silence" binding is unchanged.
+
+---
+
+### 2026-10-23 — Doc_08 review route: Cap ruling, one targeted recheck (project lead's ruling)
+
+**Alternatives shown.** (1) Cap ruling: one change order for the corrections, then one targeted Opus recheck that does not count toward the cap; (2) treat the corrections as mechanical, no new review file; (3) redraft Doc_08.
+**Chosen.** Option 1 (project lead, 2026-10-23, "1"). The ruling is recorded in `CiC_System_Hub_Decision_Log.md`, entry "2026-10-23 - Cap ruling: lpc Doc_08", and names `Review-Artifacts/Doc_08_CapRuling_Recheck_Round10.md` as the covered file. Reason it is the most defensible: the wrong interval and the stale "unread" claim change a claim's substance, which the build-cycle skill calls substantial, so option 2 would self-certify; option 3 risks Doc_09 and the 17 force records the L0 check found consistent.

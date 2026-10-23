@@ -6855,3 +6855,7 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, thirty-sixth addendum of the same day. A 13-to-17-year-old in a non-educational group needs nothing beyond the parent's permission; the consent rules for groups are settled. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, thirty-seventh addendum of the same day. A minor account gets the same 550 tokens a month as an adult; a visitor with no account keeps what the live path gives; a group has the trial block. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+## 2026-10-23 - Cap ruling: lpc Doc_08, one targeted recheck after the corrections
+
+`lpc` Doc_08 holds eight review files plus the targeted check of 2026-09-29, past the cap of three, accepted by the rebaseline declaration of 2026-09-29. The Phase L0 check of 2026-10-23 (`Build/worlds/lpc/Review-Artifacts/L0_Doc08_Generator_Check_2026-10-23.md`) found two high findings that still reproduce and errors that reach records. The project lead ruled option 1 of the route put to him: the corrections go in one change order, and one targeted Opus recheck of those corrections follows, not a new revision round. The recheck is `Doc_08_CapRuling_Recheck_Round10.md` in `Build/worlds/lpc/Review-Artifacts/`. It is the only review this ruling covers.
