@@ -10,8 +10,9 @@ confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Widely Accepted
-  divergence_note: null
+  formation_confidence: Contested
+  divergence_note: The figure's c. 213-c. 270 dates are traditional; the Address of Thanksgiving, the only first-person
+    account attached to him here, has contested authorship and date (Nautin disputed both).
 sources:
 - source_id: alx.source.gregory-address-to-origen
   locus: whole oration (anf06 div iii.iii.iv, line 2288)

@@ -29,7 +29,7 @@ modern_rendering: On the day called Sunday, everyone who lives in the cities or 
 speaker_or_author: Justin Martyr, First Apology
 license: verbatim
 modern_lens_note: >-
-  "The memoirs of the apostles" is Justin's usual phrase for these writings. Once, in chapter 66, he adds that the memoirs "are called Gospels." A reader should not assume the fixed four-gospel collection that came later, and should not swap the later word in for his. "The president" is the one presiding at that gathering, not an office-holder with a title. And "read... as long as time permits" is a claim about a meeting's shape, not about a lectionary.
+  "The memoirs of the apostles" is Justin's usual phrase for these writings. In chapter 66 he adds that the memoirs "are called Gospels." A reader should not assume the fixed four-gospel collection that came later, and should not swap the later word in for his. "The president" is the one presiding at that gathering, not an office-holder with a title. And "read... as long as time permits" is a claim about a meeting's shape, not about a lectionary.
 retrieval:
   tier: 1
   retrieve_when:

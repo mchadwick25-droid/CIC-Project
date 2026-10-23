@@ -23,6 +23,9 @@ sources:
 - source_id: ijc.source.chalcedon-acts
   locus: Session II extract (the acclamation, npnf214 line 20000); Canon XXVIII (22215)
   license: public-domain
+- source_id: ijc.force.chalcedon-failed-consensus
+  locus: Egypt's rejection of the definition (known through standard scholarship, not witnessed in the vendored extracts)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
@@ -66,7 +69,7 @@ modern_contrast: >-
   A modern reader may expect a 'great church council' to close in tidy agreement once it has spoken
   - one verdict, universally received. This world's own record holds two separate contests apart:
   Chalcedon defined who Christ is, though Egypt rejected the definition at once. At the same council,
-  weeks later, it granted Constantinople contested rank on grounds Rome's own legates rejected.
+  later, it granted Constantinople contested rank on grounds Rome's own legates rejected.
   The definition was not universally received, and the authority question stayed open - this
   record's own ending states both facts rather than smoothing either into success.
 use_note:

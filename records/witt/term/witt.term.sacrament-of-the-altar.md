@@ -78,7 +78,7 @@ relations:
 - type: associated-with
   target: witt.term.the-ban
 plain_meaning: At this table, Christ's body and blood are truly present, in and under bread and wine.
-  We bind no one to a theory of how they are present. Our founder offered a picture, heated iron, but we simply take him at his word. This meal feeds us for our daily struggle.
+  We bind no one to a theory of how they are present. Our founder offered a picture, heated iron, but we simply take Christ at his word. This meal feeds us for our daily struggle.
 world_word: the Sacrament of the Altar -- Christ's body and blood 'in and under' bread and wine
 false_friend:
 - the Supper heard as a memorial meal only

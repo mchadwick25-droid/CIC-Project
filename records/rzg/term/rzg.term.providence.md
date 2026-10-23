@@ -16,10 +16,14 @@ confidence:
     pass at Doc_06 - this world's own disclosed deferral (Doc_06 SS0) for the eleven non-Tier-1 candidates.
     The underlying doctrine is Documented in the cited source, but this specific record's own citation
     was not independently re-verified against the vendored file this pass, hence verified-via-authority
-    rather than verified-direct.
+    rather than verified-direct. The Zwingli quotation alone was read directly in the vendored Latin Works
+    vol. 3 (On True and False Religion, ch. [24] Merit).
 sources:
 - source_id: rzg.source.calvin-institutes-book1
   locus: Book I
+  license: public-domain
+- source_id: rzg.source.zwingli-latin-works-vol3
+  locus: On True and False Religion, ch. [24] Merit ("providence is the mother of predestination, as it were")
   license: public-domain
 retrieval:
   tier: 2

@@ -11,7 +11,7 @@ confidence:
   citation_specificity: B
   verification_state: verified-via-authority
   evidentiary_weight: illustrative
-  formation_confidence: Documented
+  formation_confidence: Widely Accepted
   divergence_note: 'Carried from syr.limit.f5-women-own-words: the choirs'' public liturgical
     role is reported by later accounts; what any one woman made of her own part in it is not attested
     at all, by any surviving text - not a matter of interpretive contest, but of total silence,
@@ -82,7 +82,7 @@ individual-voice silence named as its own, separate, total absence.
 
 The turn answers both halves of the canon question - could a woman
 carry authority, and what did it cost her - in sequence: office-absence,
-then the attested standing (the choirs), then the attested cost
+then the standing later accounts report (the choirs), then the attested cost
 (marriage forgone for good - syr.term.qyama, syr.limit.marriage), then
 the genuinely unattested interior cost ("what the cost felt like from
 the inside"), which stays honestly declined. It attributes the

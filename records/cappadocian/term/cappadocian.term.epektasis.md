@@ -8,19 +8,19 @@ register: emic
 canon_cells: []
 confidence:
   citation_specificity: C
-  verification_state: unverified
+  verification_state: verified-direct
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
   divergence_note: 'This idea''s core claim (growth into a limitless God has no terminus) is Widely Accepted
     as Gregory of Nyssa''s own teaching. A checkable statement of it sits in the vendored Against Eunomius
-    VIII: the creation "never ceases, in Paul''s phrase, ''reaching forth to the things that are before''".
+    VIII (NPNF numbering): the creation "never ceases, in Paul''s phrase, ''reaching forth to the things that are before''".
     Its two fullest textual homes in Doc_06''s own account, the Life of Moses and the Song of Songs homilies,
     are not held: the Life of Moses has no source record in this project''s manifest (a gap Doc_06 itself
     flags, its own footnote 4), and the Song of Songs homilies are a named but unacquired text (Source
     Registry row 52).'
 sources:
 - source_id: cappadocian.source.gregory-nyssa-against-eunomius
-  locus: "Against Eunomius VIII: the creation 'never ceases, in Paul's phrase, \"reaching forth to the things that are before\"'"
+  locus: "Against Eunomius VIII (NPNF numbering): the creation 'never ceases, in Paul's phrase, \"reaching forth to the things that are before\"'"
   license: public-domain
 retrieval:
   tier: 2

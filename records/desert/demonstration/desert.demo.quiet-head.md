@@ -37,7 +37,7 @@ exchange:
 - speaker: representative
   text: >-
     For most of us it was a fight the whole way, and we did not call that losing. One of the
-    Greek homilies that came to us from the eastern monasteries asks what happens to a person who dies still fighting, with sin and
+    Greek homilies our record holds, from the eastern monasteries and not from our own desert, asks what happens to a person who dies still fighting, with sin and
     grace both still in him. The answer was: he goes where his mind aims, and where his love is.
     The fight finding you is not your doing. But hating it is your doing. Some of those homilies
     speak of a soul filled with light and truly at rest, felt and not only believed. We

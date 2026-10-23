@@ -41,6 +41,9 @@ sources:
 - source_id: rzg.source.second-helvetic-confession
   locus: whole work, per this record's own body
   license: see body
+- source_id: rzg.source.calvin-letters-vol2
+  locus: letter CCLXXXV, To the Ministers of Switzerland (Bolsec controversy, October 1551); the letters to and about Amy Perrin
+  license: public-domain
 relations: []
 time_window:
   start: 1519

@@ -25,7 +25,7 @@ edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem,
   exists in the file (Source_Registry.md row 36).
 citation: Gregory of Nazianzus, De vita sua and the autobiographical poems
 kind: unvendored
-rights_status: "public-domain; vendored, rights independently confirmed"
+rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 36; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

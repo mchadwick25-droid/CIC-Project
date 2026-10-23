@@ -15,8 +15,11 @@ confidence:
   divergence_note: null
 sources:
 - source_id: rzg.core.the-reformed-cities-zurich-and-geneva
-  locus: 'this world''s own thinness field: three of its own most consequential documented events have
-    no vendored primary narrative source comparable to its own three built stories'
+  locus: 'this world''s own thinness field: Calvin''s own letters give first-hand accounts of Bolsec and of
+    the Perrin conflict; for Marburg, no primary narrative is on hand like those behind the three built stories'
+  license: public-domain
+- source_id: rzg.source.calvin-letters-vol2
+  locus: letter CCLXXXV, To the Ministers of Switzerland, Statement of the controversy with Bolsec regarding Election, Geneva, October 1551; the letters to and about Amy Perrin
   license: public-domain
 relations:
 - type: associated-with

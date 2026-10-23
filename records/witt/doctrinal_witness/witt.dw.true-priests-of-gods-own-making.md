@@ -48,9 +48,8 @@ text: >-
   Apology. We never have it in its own words.
 
   We do not have a whole cult of martyrdom. So we cannot answer broadly whether wanting to die as a martyr,
-  and calling it faithfulness, is a death wish in religious language. We have exactly one case. The song's
-  heading says 1522, but its editor dates the burning to the first of July, 1523. On that day two young
-  monks, John and Henry, were burned at Brussels after theologians from
+  and calling it faithfulness, is a death wish in religious language. We have exactly one case. On the first of July,
+  1523, two young monks, John and Henry, were burned at Brussels after theologians from
   Louvain pressed them to take back a teaching they had come to hold, and they refused. Our founder, in
   Wittenberg, wrote a ballad about it within the year -- our only martyr-song. The ballad says that, stripped
   of their monks' habits, they were by the power of grace true priests of God's own making. We would not

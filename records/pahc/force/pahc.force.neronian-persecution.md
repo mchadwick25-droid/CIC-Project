@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: contested
   formation_confidence: Contested
-  divergence_note: "The Tacitus passage's basic authenticity is Widely Accepted; a discrete, fire-linked, named-group persecution of Christians specifically is Contested (the Shaw/Jones debate); the Petrine/Pauline martyrdom tradition underlying the sub-apostolic periodization is Dominant Modern Reconstruction."
+  divergence_note: "The Tacitus passage's basic authenticity is Widely Accepted; a discrete, fire-linked, named-group persecution of Christians specifically is Contested (the Shaw/Jones debate); the Petrine/Pauline martyrdom tradition underlying the sub-apostolic periodization is Dominant Modern Reconstruction. In 1 Clement 44, the translator renders the Greek as 'the office of the episcopate' but notes the literal sense is 'the title of the oversight'; the later bishop-against-presbyters meaning of 'episcopate' should not be read back into it."
 sources:
 - source_id: pahc.source.tacitus-annals
   locus: "15.44"

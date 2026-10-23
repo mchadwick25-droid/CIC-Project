@@ -27,7 +27,7 @@ text: >-
   First and above everything, we had the writings about Jesus. The
   whole of scripture was copied, compared, and corrected. The Gospels
   were revised against the Greek. The Old Testament was translated from
-  the Hebrew, which we held truest - the Hebraica veritas.
+  the Hebrew, which Jerome held truest - the Hebraica veritas.
   We worked over the text word by word, because we believed the writings
   were the true treasure handed down, worth a lifetime of exactness.
   More than three centuries stood between us and the events. Our

@@ -10,8 +10,9 @@ confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Documented
-  divergence_note: null
+  formation_confidence: Contested
+  divergence_note: The text's existence and its place in the vendored edition are Documented; its authorship and
+    date are Contested (Nautin disputed both).
 sources: []
 author: "Gregory Thaumaturgus (c. 213-270 CE)"
 work: "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - Nautin disputed its authenticity and dating; the matter is contested"
