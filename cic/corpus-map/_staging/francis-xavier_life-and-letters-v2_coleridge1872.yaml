@@ -21,7 +21,7 @@ assignments:
     locus: Book V from file line 13181 (contents at line 886; the Japan mission 1549-1552, Cagoxima, Yamaguchi,
       Bungo) and Book VI from line 21318 (the China plan and Xavier's death at San Chan)
     atlas_ids:
-    - mission-born-christianities-kirishitan-japan-kon
+    - kirishitan-japan
     role: context
     confidence: assigned
     note: 'The founding of the Japan mission in Xavier''s own letters (Coleridge''s English): the first

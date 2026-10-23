@@ -111,6 +111,51 @@ commit as the dossiers.
 
 ---
 
+## 2026-10-23 — Era VII rulings after the two library passes (Mark, six decisions)
+
+Mark took the six decisions the Era VII dossiers had left to him, one at a
+time, after PR 1071 merged. Each was put as options with a recommendation;
+each answer is recorded here in its own words.
+
+1. **Portfolio.** All 20 build-recommended worlds go into Steps 0 to 2, one
+   at a time: the Anabaptists and the Tridentine Church first (they need only
+   Doc_02), then the other 18 ranked by the dossiers' sourcing, the clean
+   English own-voice worlds first.
+2. **Mission-Born Christianities (VI.13).** Split. The entry stays on the
+   census as a label assessed per region (A3); Kongo and Japan get their own
+   entries and build later; China and New Spain/Andes get entries that stay
+   on the atlas until a public-domain convert text clears. The vendored files
+   are re-mapped to the region each serves.
+3. **The other open-question worlds.** Ethiopia (VI.25) and Armenia (VI.28)
+   build later, with Doc_02 stating the thin inside voice as an absence.
+   Schwenckfelders (VI.15) and the Family of Love (VI.16) stay atlas entries
+   until Mark rules on their floor questions.
+4. **Non-build recommendations accepted.** Anti-Trinitarian Currents (VI.14)
+   is atlas only. The Church of the East schism of 1552 (VI.30) is folded
+   into V.17 as its closing arc; the census marks it within another world.
+5. **Rights.** (a) The 1947 Doctrina Christiana facsimile: the renewal check
+   came back clear, so the whole text may be republished (pd-us-no-renewal).
+   (b) Bossert 1930: kept as vendored; a facsimile reprint adds no copyright
+   to the 1930 text. (c) Anspach's 1858 Heavenly Balm: held as a second
+   witness until an 1858 scan is vendored.
+6. **Placements.** The seven needs-ruling rows are ruled by one principle: a
+   text from before a world's window that the world argued from is
+   `antecedent` to it (Tyndale for VI.4, Arminius for VI.26, the Marian
+   visitation documents for VI.7); a text from after the window is `context`
+   here and `tradition` for the later entry (Baxter's Parts Two and Three for
+   English Old Dissent, the 1760 pasyon for the 1650 to 1815 Philippine
+   entry); Spottiswood is the Kirk's own voice (`tradition`), with the
+   bishops question for Doc_01; Ignatius's Exercises stay `context`,
+   provisional, beside Teresa.
+
+**What changed in the files.** The staging rows above carry the ruling in
+their notes; the registry entries for the Doctrina facsimile and the Anspach
+text carry it as an appended note; the census carries the VI.13 split and the
+VI.30 fold; the two dossiers carry a ruling line. The corpus map and the
+generated ledgers are regenerated.
+
+---
+
 ## 2026-10-23 — Era VII second pass on the unvendored leads
 
 **Instruction.** Mark asked for a second pass on the verified leads the Era VII
