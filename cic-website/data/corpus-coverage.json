@@ -8,8 +8,8 @@
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
     "total_entries": 292,
-    "entries_with_coverage": 136,
-    "entries_zero_coverage": 156
+    "entries_with_coverage": 137,
+    "entries_zero_coverage": 155
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -18674,7 +18674,272 @@
     "the-quakers-religious-society-of-friends": {
       "name": "The Quakers (Religious Society of Friends)",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "A History of New Sweden (1759; Reynolds's English 1874) -- the Quakers of Pennsylvania and the Delaware as the Swedish pastors saw them",
+          "author": "acrelius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "acrelius_history-of-new-sweden_reynolds1874.txt",
+          "rights": "Public Domain (published 1874, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The Journal of the Rev. Francis Asbury, vol. I (1821) -- the Quakers Asbury met on his American circuits",
+          "author": "asbury",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "asbury_journal-v1_1821.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Some Account of the Forepart of the Life of Elizabeth Ashbridge (c. 1755)",
+          "author": "ashbridge",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "ashbridge_some-account-of-the-forepart-of-the-life_curtis1904.txt",
+          "rights": "Public Domain (published 1904, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "An Apology for the True Christian Divinity (Barclay, 1678; 1765 edition)",
+          "author": "barclay",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "barclay_apology-for-the-true-christian-divinity_baskerville1765.txt",
+          "rights": "Public Domain (Project Gutenberg eBook #56487, released as public domain in the USA; the underlying edition was published 1765, more than 95 years ago)"
+        },
+        {
+          "work": "An Account of the Life, Travels, and Christian Experiences of Samuel Bownas (1756)",
+          "author": "bownas",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "bownas_account-of-life-travels-and-christian-experiences_1795.txt",
+          "rights": "Public Domain (published 1795, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "An Account of the Gospel Labours, and Christian Experiences of John Churchman (1779)",
+          "author": "churchman",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "churchman_account-of-gospel-labours_1779.txt",
+          "rights": "Public Domain (published 1779, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "A Salutation to the Seed of God (Josiah Coale, 166-)",
+          "author": "coale-josiah",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667.txt",
+          "rights": "Public Domain (published 1667, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Materials towards a History of the Baptists in Pennsylvania (1770) -- the Keithian Quakers who became Baptists",
+          "author": "edwards-morgan",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "edwards-morgan_materials-history-of-baptists-pennsylvania_1770.txt",
+          "rights": "Public Domain (published 1770, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The History of the Life of Thomas Ellwood, written by his own hand (1714)",
+          "author": "ellwood",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "ellwood_history-of-the-life_crump1900.txt",
+          "rights": "Public Domain (published 1900, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "This is a Short Relation of some of the Cruel Sufferings of Katharine Evans and Sarah Chevers in the Inquisition in Malta (1662)",
+          "author": "evans-and-cheevers",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "evans-and-cheevers_short-relation-of-cruel-sufferings-malta_1662.txt",
+          "rights": "Public Domain (published 1662, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Brief Collection of Remarkable Passages and Occurrences (Fell's Works, 1710)",
+          "author": "fell",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "fell_brief-collection-of-remarkable-passages-works_1710.txt",
+          "rights": "Public Domain (published 1710, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Touch-Stone, or a Perfect Tryal by the Scriptures of all the Priests, Bishops and Ministers (1667)",
+          "author": "fell",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667.txt",
+          "rights": "Public Domain (published 1667, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A tract given forth at Lancaster Castle, by M. F., a prisoner of the Lord (1667)",
+          "author": "fell",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667.txt",
+          "rights": "Public Domain (published 1667, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Womens Speaking Justified, Proved and Allowed of by the Scriptures (1666; 1667 printing)",
+          "author": "fell",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667.txt",
+          "rights": "Public Domain (published 1667, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Piety Promoted, in a Collection of Dying Sayings of many of the People call'd Quakers (1728 printing)",
+          "author": "field-john",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "field-john_piety-promoted-dying-sayings-of-quakers_1728.txt",
+          "rights": "Public Domain (published 1728, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Collection of Many Select and Christian Epistles, Letters and Testimonies (Fox, 1698)",
+          "author": "fox",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "fox_collection-of-epistles_1698.txt",
+          "rights": "Public Domain (published 1698, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The Journal of George Fox, Cambridge edition from the manuscripts, vol. I (1911)",
+          "author": "fox",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "fox_journal-v1_penney1911.txt",
+          "rights": "Public Domain (published 1911, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "The Journal of George Fox, Cambridge edition from the manuscripts, vol. II (1911)",
+          "author": "fox",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "fox_journal-v2_penney1911.txt",
+          "rights": "Public Domain (published 1911, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The Journal of George Fox, vol. 1 (Ellwood text, 1901 edition)",
+          "author": "fox",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "fox_journal-v1_ellwood-text-pickard1901.txt",
+          "rights": "Public Domain (Project Gutenberg eBook #75559, released as public domain in the USA; the underlying edition was published 1901, more than 95 years ago)"
+        },
+        {
+          "work": "The Journal of George Fox, vol. 2 (Ellwood text, 1901 edition)",
+          "author": "fox",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "fox_journal-v2_ellwood-text-pickard1901.txt",
+          "rights": "Public Domain (Project Gutenberg eBook #75590, released as public domain in the USA; the underlying edition was published 1901, more than 95 years ago)"
+        },
+        {
+          "work": "A Collection of the Epistles from the Yearly Meeting of Friends in London, 1675-1805 (1806)",
+          "author": "london-yearly-meeting",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "london-yearly-meeting_collection-of-epistles-1675-1805_baltimore1806.txt",
+          "rights": "Public Domain (published 1806, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Extracts from the Minutes and Advices of the Yearly Meeting of Friends held in London (1783)",
+          "author": "london-yearly-meeting",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "london-yearly-meeting_extracts-from-minutes-and-advices_1783.txt",
+          "rights": "Public Domain (published 1783, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "An epistle to the called and chosen people of the Lord (Charles Marshall, 1673)",
+          "author": "marshall-charles",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667.txt",
+          "rights": "Public Domain (published 1667, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Love to the Lost, and a Hand held forth to the Helpless (Nayler, 1656; 1665 printing)",
+          "author": "nayler",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "nayler_love-to-the-lost_1665.txt",
+          "rights": "Public Domain (published 1665, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Milk for Babes, and Meat for Strong Men (Nayler, 1661)",
+          "author": "nayler",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "nayler_milk-for-babes_1661.txt",
+          "rights": "Public Domain (published 1661, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Some Account of Circumstances in the Life of Mary Penington (c. 1680; printed 1821)",
+          "author": "penington-mary",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "penington-mary_some-account-of-circumstances-in-the-life_1821.txt",
+          "rights": "Public Domain (published 1821, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "A Brief Account of the Rise and Progress of the People called Quakers (Penn, 1694)",
+          "author": "penn",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "penn_brief-account-of-the-rise-and-progress-of-the-quakers_1834.txt",
+          "rights": "Public Domain (Project Gutenberg eBook #19377, released as public domain in the USA; the underlying edition was published 1834, more than 95 years ago)"
+        },
+        {
+          "work": "An Account of W. Penn's Travails in Holland and Germany, 1677 (1694)",
+          "author": "penn",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "penn_account-of-travails-in-holland-and-germany_1694.txt",
+          "rights": "Public Domain (published 1694, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "No Cross, No Crown (Penn, 1669/1682; 1842 edition)",
+          "author": "penn",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "penn_no-cross-no-crown_harvey-darton1842.txt",
+          "rights": "Public Domain (Project Gutenberg eBook #44895, released as public domain in the USA; the underlying edition was published 1842, more than 95 years ago)"
+        },
+        {
+          "work": "Some Fruits of Solitude in Reflections and Maxims (Penn, 1693)",
+          "author": "penn",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "penn_some-fruits-of-solitude_gosse1901.txt",
+          "rights": "Public Domain (published 1901, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Rules of Discipline and Christian Advices of the Yearly Meeting of Friends for Pennsylvania and New Jersey (1797)",
+          "author": "philadelphia-yearly-meeting",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "philadelphia-yearly-meeting_rules-of-discipline-and-christian-advices_1797.txt",
+          "rights": "Public Domain (published 1797, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'This book is not in copyright.')"
+        },
+        {
+          "work": "The Essays of John Woolman: Some Considerations on the Keeping of Negroes, A Plea for the Poor, and the rest (1922 collected)",
+          "author": "woolman",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "woolman_journal-and-essays_gummere1922.txt",
+          "rights": "Public Domain (published 1922, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'The Library of Congress is unaware of any copyright restrictions for this item.')"
+        },
+        {
+          "work": "The Journal of John Woolman (from the manuscripts, 1922)",
+          "author": "woolman",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "woolman_journal-and-essays_gummere1922.txt",
+          "rights": "Public Domain (published 1922, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'The Library of Congress is unaware of any copyright restrictions for this item.')"
+        }
+      ]
     },
     "german-pietism-spener-francke-halle": {
       "name": "German Pietism - Spener, Francke, Halle",
@@ -18831,6 +19096,14 @@
           "confidence": "provisional",
           "source_file": "brumbaugh_history-german-baptist-brethren_1899.txt",
           "rights": "Public Domain (published 1899, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "An Account of W. Penn's Travails in Holland and Germany, 1677 (1694)",
+          "author": "penn",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "penn_account-of-travails-in-holland-and-germany_1694.txt",
+          "rights": "Public Domain (published 1694, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
           "work": "Das Leben Jo. Wilhelmi Petersen, von ihm selbst beschrieben (1717)",

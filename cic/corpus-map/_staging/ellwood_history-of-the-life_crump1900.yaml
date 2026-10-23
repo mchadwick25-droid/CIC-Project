@@ -1,0 +1,11 @@
+source_file: ellwood_history-of-the-life_crump1900.txt
+assignments:
+- row_id: ellwood_history-of-the-life_crump1900--the-history-of-the-life-of-thomas-ellwood-written-by-his-own
+  work: The History of the Life of Thomas Ellwood, written by his own hand (1714)
+  author: ellwood
+  locus: the narrative; Crump's introduction excluded
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: A second-generation Friend's own account of convincement, prison and service.

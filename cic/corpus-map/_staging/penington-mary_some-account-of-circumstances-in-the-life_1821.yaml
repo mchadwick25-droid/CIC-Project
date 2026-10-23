@@ -1,0 +1,11 @@
+source_file: penington-mary_some-account-of-circumstances-in-the-life_1821.txt
+assignments:
+- row_id: penington-mary_some-account-of-circumstances-in-the-life_1821--some-account-of-circumstances-in-the-life-of-mary-penington
+  work: Some Account of Circumstances in the Life of Mary Penington (c. 1680; printed 1821)
+  author: penington-mary
+  locus: whole work
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: A seeker's road into the Society in a woman's own hand, from the first generation.

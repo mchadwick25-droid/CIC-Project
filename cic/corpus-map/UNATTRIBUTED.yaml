@@ -544,6 +544,15 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  coale-josiah:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is fell; the volume binds ''A
+      Salutation to the Seed of God ... by a servant of the Lord, Josiah Coale'', printed
+      for William Warwick (file lines from about 18900), after the Marshall epistle. The title
+      page is in the file.
+
+      '
+    from_file: fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667.txt
   codex-encyclius:
     kind: anonymous
     evidence: Mansi tom. 7 prints the "Codex Encyclius sive Collectio" (index at file line
@@ -1295,6 +1304,14 @@ authors:
 
       '
     from_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
+  marshall-charles:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is fell; the volume binds a 1673
+      epistle signed ''Charles Marshall, Tetherton in Wiltshire'' (file lines about 17900-18900)
+      after the Fell tracts. The signature and imprint are in the file.
+
+      '
+    from_file: fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667.txt
   martyrdom-of-bartholomew:
     kind: anonymous
     evidence: div2 7.35; no authorial claim.

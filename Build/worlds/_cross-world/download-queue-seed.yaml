@@ -10916,3 +10916,355 @@ queue:
     verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
     status: downloaded
     vendored_as: "petersen-jw_leben-deu_1717.txt"
+
+  - title: "The Journal of George Fox, Cambridge edition, vol. I (Penney, 1911)"
+    author: "George Fox"
+    translator: "none; edited by Norman Penney"
+    year: "1911"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      Fox's Journal from the manuscripts: the text behind the Nickalls
+      edition the census cites, in the only public-domain critical
+      edition.
+    url: "https://archive.org/details/journalgeorgefox01foxuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fox_journal-v1_penney1911.txt"
+
+  - title: "The Journal of George Fox, Cambridge edition, vol. II (Penney, 1911)"
+    author: "George Fox"
+    translator: "none; edited by Norman Penney"
+    year: "1911"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      Completes the manuscript text of the Journal.
+    url: "https://archive.org/details/bwb_T5-ANW-255_2"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fox_journal-v2_penney1911.txt"
+
+  - title: "The Journal of George Fox, vol. 1 of 2 (Ellwood text, 1901 edition)"
+    author: "George Fox"
+    translator: "none; Ellwood's text revised by Penney"
+    year: "1901"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      The received text of the Journal, proofread and reader-ready; the
+      words the tradition itself quoted.
+    url: "https://www.gutenberg.org/ebooks/75559"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fox_journal-v1_ellwood-text-pickard1901.txt"
+
+  - title: "The Journal of George Fox, vol. 2 of 2 (Ellwood text, 1901 edition)"
+    author: "George Fox"
+    translator: "none; Ellwood's text revised by Penney"
+    year: "1901"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      Completes the received text of the Journal.
+    url: "https://www.gutenberg.org/ebooks/75590"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fox_journal-v2_ellwood-text-pickard1901.txt"
+
+  - title: "A Collection of Many Select and Christian Epistles (Fox, 1698)"
+    author: "George Fox"
+    translator: "none"
+    year: "1698"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      The epistles to the meetings the census names beside the Journal;
+      Fox governing the Society by letter, in the Society's own folio.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_a-collection-of-many-sel_fox-george-elder_1698"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fox_collection-of-epistles_1698.txt"
+
+  - title: "Womens Speaking Justified, with A Touch-Stone and other tracts (bound volume, 1667)"
+    author: "Margaret Fell"
+    translator: "none"
+    year: "1667"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      The census's second-named source, Women's Speaking Justified, in a
+      contemporary printing, bound with two more Fell tracts of the
+      Lancaster Castle years.
+    url: "https://archive.org/details/womensspeakingju00fell"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667.txt"
+
+  - title: "A Brief Collection of Remarkable Passages (Fell's Works, 1710)"
+    author: "Margaret Fell"
+    translator: "none"
+    year: "1710"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      Fell's Works (1710), named by the census; her own life, her letters
+      to the Crown and her books in one volume.
+    url: "https://archive.org/details/bim_eighteenth-century_a-brief-collection-of-re_fox-margaret-askew-fell_1710"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fell_brief-collection-of-remarkable-passages-works_1710.txt"
+
+  - title: "A Short Relation of the Cruel Sufferings of Katharine Evans and Sarah Cheevers in Malta (1662)"
+    author: "Katharine Evans and Sarah Cheevers"
+    translator: "none"
+    year: "1662"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      The Malta captivity narrative named by the census, in its first
+      printing of 1662 from the women's own hands.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_this-is-a-short-relation_baker-daniel-quaker_1662"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "evans-and-cheevers_short-relation-of-cruel-sufferings-malta_1662.txt"
+
+  - title: "Love to the Lost (Nayler, 1665 printing)"
+    author: "James Nayler"
+    translator: "none"
+    year: "1665"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      The first generation's doctrine by heads from Nayler, whose fall in
+      1656 shaped the movement's turn to discipline.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_love-to-the-lost-_nayler-james_1665"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "nayler_love-to-the-lost_1665.txt"
+
+  - title: "Milk for Babes, and Meat for Strong Men (Nayler, 1661)"
+    author: "James Nayler"
+    translator: "none"
+    year: "1661"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      Nayler's prison meditations after his fall and repentance; the
+      movement's most quoted devotional sentence in its own first
+      printing.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_milk-for-babes-_naylor-james_1661"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "nayler_milk-for-babes_1661.txt"
+
+  - title: "An Apology for the True Christian Divinity (Barclay, Baskerville edition 1765)"
+    author: "Robert Barclay"
+    translator: "none (the author's own English)"
+    year: "1765"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      The doctrinal standard of the Society, in a proofread text of an
+      eighteenth-century edition; what the floor question (Step 0 A1) is
+      answered from.
+    url: "https://www.gutenberg.org/ebooks/56487"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "barclay_apology-for-the-true-christian-divinity_baskerville1765.txt"
+
+  - title: "No Cross, No Crown (Penn, 1842 edition)"
+    author: "William Penn"
+    translator: "none"
+    year: "1842"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      Penn's devotional treatise on the cross, the movement's second
+      classic after the Journal, in a proofread text.
+    url: "https://www.gutenberg.org/ebooks/44895"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "penn_no-cross-no-crown_harvey-darton1842.txt"
+
+  - title: "Some Fruits of Solitude (Penn, 1901 edition)"
+    author: "William Penn"
+    translator: "none"
+    year: "1901"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      Penn's maxims; the Quaker voice in aphorism, short enough to quote
+      whole.
+    url: "https://archive.org/details/somefruitsofsol00pennrich"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "penn_some-fruits-of-solitude_gosse1901.txt"
+
+  - title: "An Account of W. Penn's Travails in Holland and Germany, 1677 (1694)"
+    author: "William Penn"
+    translator: "none"
+    year: "1694"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      A Quaker journal of the 1677 continental journey; the Society
+      meeting the German Pietists, in Penn's own dated entries.
+    url: "https://archive.org/details/accountofwpennst00penn"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "penn_account-of-travails-in-holland-and-germany_1694.txt"
+
+  - title: "A Brief Account of the Rise and Progress of the People called Quakers (Penn, 1834 edition)"
+    author: "William Penn"
+    translator: "none"
+    year: "1834"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      The Society's own first history of itself, in a clean standalone
+      text.
+    url: "https://www.gutenberg.org/ebooks/19377"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "penn_brief-account-of-the-rise-and-progress-of-the-quakers_1834.txt"
+
+  - title: "The Journal and Essays of John Woolman (Gummere, Rancocas edition 1922)"
+    author: "John Woolman"
+    translator: "none; edited by Amelia Mott Gummere"
+    year: "1922"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      Woolman's Journal and essays from the manuscripts, the census's
+      moral-formation classic, with the antislavery essays in full.
+    url: "https://archive.org/details/journalessaysofj00wool"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "woolman_journal-and-essays_gummere1922.txt"
+
+  - title: "Some Account of the Forepart of the Life of Elizabeth Ashbridge (1904 edition)"
+    author: "Elizabeth Ashbridge"
+    translator: "none"
+    year: "1904"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      Ashbridge's Some Account, named by the census; a woman's
+      convincement narrative in her own hand.
+    url: "https://archive.org/details/someaccountoffor00ashbuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "ashbridge_some-account-of-the-forepart-of-the-life_curtis1904.txt"
+
+  - title: "The History of the Life of Thomas Ellwood (1900 edition)"
+    author: "Thomas Ellwood"
+    translator: "none"
+    year: "1900"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      The autobiography of Fox's editor; the Restoration generation's own
+      life-writing.
+    url: "https://archive.org/details/historyoflifeoft00ellwuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "ellwood_history-of-the-life_crump1900.txt"
+
+  - title: "An Account of the Life, Travels, and Christian Experiences of Samuel Bownas (1795 printing)"
+    author: "Samuel Bownas"
+    translator: "none"
+    year: "1795"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      A travelling minister's journal across the Atlantic world; the
+      published Friends' journals corpus the census names as a genre.
+    url: "https://archive.org/details/accountoflifetr00bown"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "bownas_account-of-life-travels-and-christian-experiences_1795.txt"
+
+  - title: "An Account of the Gospel Labours and Christian Experiences of John Churchman (1779)"
+    author: "John Churchman"
+    translator: "none"
+    year: "1779"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      An American Friend's journal from Woolman's own meeting generation,
+      printed by the Society in Philadelphia.
+    url: "https://archive.org/details/accountofgospell00chur"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "churchman_account-of-gospel-labours_1779.txt"
+
+  - title: "Some Account of Circumstances in the Life of Mary Penington (1821)"
+    author: "Mary Penington"
+    translator: "none"
+    year: "1821"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      A first-generation woman's convincement narrative, written for her
+      family; the women's voice the census asks for, from the 1670s.
+    url: "https://archive.org/details/someaccountcirc00penigoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "penington-mary_some-account-of-circumstances-in-the-life_1821.txt"
+
+  - title: "Piety Promoted, in a Collection of Dying Sayings (Field, 1728 printing)"
+    author: "John Field (compiler)"
+    translator: "none"
+    year: "1728"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      Ordinary Friends' last words as the Society preserved them; the lay
+      and women's voice in the Society's own memorial genre.
+    url: "https://archive.org/details/bim_eighteenth-century_piety-promoted-in-a-col_field-john_1728"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "field-john_piety-promoted-dying-sayings-of-quakers_1728.txt"
+
+  - title: "Extracts from the Minutes and Advices of the Yearly Meeting of Friends held in London (1783)"
+    author: "London Yearly Meeting"
+    translator: "none"
+    year: "1783"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      The meeting records the census calls dense, in the form the Society
+      itself printed: its Book of Discipline, dated minute by minute.
+    url: "https://archive.org/details/bim_eighteenth-century_extracts-from-the-minute_society-of-friends-lond_1783"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "london-yearly-meeting_extracts-from-minutes-and-advices_1783.txt"
+
+  - title: "A Collection of the Epistles from the Yearly Meeting of Friends in London, 1675-1805 (1806)"
+    author: "London Yearly Meeting"
+    translator: "none"
+    year: "1806"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      The Society's collective yearly voice across the whole window,
+      1675-1805, in one volume.
+    url: "https://archive.org/details/collectionofepis00lond"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "london-yearly-meeting_collection-of-epistles-1675-1805_baltimore1806.txt"
+
+  - title: "Rules of Discipline and Christian Advices of the Yearly Meeting of Friends for Pennsylvania and New Jersey (1797)"
+    author: "Philadelphia Yearly Meeting"
+    translator: "none"
+    year: "1797"
+    world: "the-quakers-religious-society-of-friends"
+    why: >
+      The American meeting's own discipline, beside London's; the
+      Atlantic-world half of the census's region.
+    url: "https://archive.org/details/rulesdisn00phil"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "philadelphia-yearly-meeting_rules-of-discipline-and-christian-advices_1797.txt"

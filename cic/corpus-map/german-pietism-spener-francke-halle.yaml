@@ -172,6 +172,16 @@ works:
   note: The radical wing's confession, from a preacher formed at Halle under Francke and then
     separated from the church; the view from Halle's radical edge, not Halle's own.
   source_file: brumbaugh_history-german-baptist-brethren_1899.txt
+- row_id: penn_account-of-travails-in-holland-and-germany_1694--an-account-of-w-penn-s-travails-in-holland-and-germany-1677-2
+  work: An Account of W. Penn's Travails in Holland and Germany, 1677 (1694)
+  author: penn
+  locus: the Frankfurt, Kriegsheim and Herford entries and the letters to Princess Elizabeth
+    and the Frankfurt Pietists
+  role: context
+  confidence: provisional
+  note: An English Quaker's account of the Frankfurt Pietist circle in 1677, two years after
+    Pia Desideria; outside witness to Spener's milieu. Provisional.
+  source_file: penn_account-of-travails-in-holland-and-germany_1694.txt
 - row_id: petersen-jw_leben-deu_1717--das-leben-jo-wilhelmi-petersen-von-ihm-selbst-beschrieben
   work: Das Leben Jo. Wilhelmi Petersen, von ihm selbst beschrieben (1717)
   author: petersen-jw

@@ -1,0 +1,12 @@
+source_file: fox_journal-v1_penney1911.txt
+assignments:
+- row_id: fox_journal-v1_penney1911--the-journal-of-george-fox-cambridge-edition-from-the
+  work: The Journal of George Fox, Cambridge edition from the manuscripts, vol. I (1911)
+  author: fox
+  locus: the manuscript text; Penney's notes excluded
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: Fox's own words as the manuscripts give them; the movement's founding journal in its critical
+    text.

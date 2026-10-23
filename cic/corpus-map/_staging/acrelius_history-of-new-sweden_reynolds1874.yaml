@@ -25,3 +25,17 @@ assignments:
   note: A Swedish Lutheran provost's hostile contemporary account of the Moravians among the Delaware
     Swedes and of Zinzendorf's 1742 visit; outside witness, not the community's voice. Cross-link found
     by header search of cic/texts (same time-place).
+
+- row_id: acrelius_history-of-new-sweden_reynolds1874--a-history-of-new-sweden-1759-reynolds-s-english-1874-the-2
+  work: A History of New Sweden (1759; Reynolds's English 1874) -- the Quakers of Pennsylvania and the
+    Delaware as the Swedish pastors saw them
+  author: acrelius
+  locus: the passages on the Quakers' government of Pennsylvania, their dealings with the Swedish congregations
+    and the attempt to introduce Quakerism among the Swedes; chapter headings in the contents at file
+    lines about 1939-1954, body from about line 7890
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: context
+  confidence: assigned
+  note: A Swedish Lutheran provost's account of Quaker Pennsylvania in the 1750s, hostile and first-hand;
+    outside witness, not the Society's voice. Cross-link found by body search of cic/texts (same time-place).

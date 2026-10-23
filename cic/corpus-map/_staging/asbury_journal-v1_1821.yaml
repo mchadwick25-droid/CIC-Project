@@ -24,3 +24,16 @@ assignments:
       movement's own transatlantic extension and its earliest years as an
       organized American connexion, in his own first-person voice.
       Individual dated-entry loci are Doc_03+ scope.
+
+  - row_id: asbury_journal-v1_1821--the-journal-of-the-rev-francis-asbury-vol-i-1821-the-quakers
+    work: The Journal of the Rev. Francis Asbury, vol. I (1821) -- the Quakers Asbury met on his American
+      circuits
+    author: asbury
+    locus: the entries from 1771 onward in which Asbury lodges with, preaches to or debates Quakers (file
+      lines about 709, 898, 997, 1038 and some twenty more)
+    atlas_ids:
+    - the-quakers-religious-society-of-friends
+    role: context
+    confidence: provisional
+    note: A Methodist itinerant's day-by-day notice of American Friends in the 1770s and 1780s; outside
+      witness in passing. Cross-link found by body search of cic/texts (same time-place). Provisional.

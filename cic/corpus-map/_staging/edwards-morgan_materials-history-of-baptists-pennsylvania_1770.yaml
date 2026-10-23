@@ -20,3 +20,17 @@ assignments:
   confidence: assigned
   note: A Philadelphia Baptist minister's own survey of his association's congregations in 1770; the colonial
     Baptists' inside record.
+
+- row_id: edwards-morgan_materials-history-of-baptists-pennsylvania_1770--materials-towards-a-history-of-the-baptists-in-pennsylvania
+  work: Materials towards a History of the Baptists in Pennsylvania (1770) -- the Keithian Quakers who
+    became Baptists
+  author: edwards-morgan
+  locus: the passages on the Keithian separation of the 1690s and the Friends who joined the Baptists
+    (file lines about 680-750)
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: context
+  confidence: provisional
+  note: A Baptist historian's record of the Keithian schism from the receiving side; outside witness to
+    the Society's first American division. Cross-link found by body search of cic/texts (same time-place).
+    Provisional.
