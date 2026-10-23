@@ -6855,3 +6855,7 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 63, thirty-sixth addendum of the same day. A 13-to-17-year-old in a non-educational group needs nothing beyond the parent's permission; the consent rules for groups are settled. The Go Deeper Decision-Log entry of the same date carries the ruling.
 
 63, thirty-seventh addendum of the same day. A minor account gets the same 550 tokens a month as an adult; a visitor with no account keeps what the live path gives; a group has the trial block. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+## 2026-10-23 - Change order: promotion goes from main straight to live
+
+Ruled by the project lead on 2026-10-23 in conversation: "we have suspended staging, we go straight from main to live", then "update the runbook to go straight from main to live". It changes the promotion model of D3 (`CiC_Repo_Structure_Tracking.md`, Decisions 2026-09-14) by dropping the staging verification step. `CiC_Promotion_Runbook.md` now says so. Still his: opening and merging the pull request into `live`. Not changed: `render.yaml`, which still describes the staging service.

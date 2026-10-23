@@ -8,6 +8,10 @@ sync, staging secrets) could not be re-verified as *done* from this sandbox
 this file already names); it is left exactly as this runbook already stated
 it rather than asserted complete without evidence.
 
+**Staging is suspended (Mark, 2026-10-23).** There is no staging stage: a change goes from
+`main` straight to `live`, and CI on the pull request is the check before `main`. The staging
+service and its setup below are kept as history; do not resume them for a promotion.
+
 D3's promotion model (`CiC_Repo_Structure_Tracking.md`, Decisions 2026-09-14; executed
 phase 3, 2026-09-15): `main` is the integration sandbox — every merge deploys to
 `cic-engine-staging`. `live` is the protected branch production actually deploys from.
@@ -52,13 +56,13 @@ step 2 actually flips it.
 
 ## The promotion procedure itself (every time, once set up)
 
-1. Verify on staging first. `cic-engine-staging` already has `main`'s latest — read it,
-   run whatever check the change calls for, on the real running service, not just CI.
+1. Check that CI is green on `main`'s latest commit. There is no staging stage; the
+   check on the running service comes after the merge, at step 4.
 2. Open a PR from `main` into `live`. Title it plainly ("Promote: <one-line summary of
    what's shipping>"). The diff is the promotion's own record — no separate log entry
    needed, the PR itself is the deliberate, logged act D3 asks for.
 3. Mark reviews and merges it himself. This is the verification step D3 names — not a
-   formality, the actual gate between staging and participants.
+   formality, the actual gate between `main` and participants.
 4. Render deploys `cic-engine` from the new `live` tip automatically on merge, the same
    way `main` always deployed to prod before this file existed. Confirm it went live:
    `https://cic-engine.onrender.com/health` reports the commit it runs, and it should be
