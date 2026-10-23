@@ -1,0 +1,46 @@
+source_file: haak_dutch-annotations-narrative-and-front-matter_1657.txt
+
+assignments:
+  - row_id: haak_dutch-annotations-narrative-and-front-matter_1657--haak-s-narrative-of-the-statenvertaling-how-the-synod-of
+    work: "Haak's Narrative of the Statenvertaling: how the Synod of Dort and the States General made the Dutch Bible of 1637, with the ordinance prefixed to The Dutch Annotations (1657)"
+    author: haak
+    locus: "whole file (a front-matter extract); the Narrative from about file line 290, the Synod's resolution and its choice of interpreters around lines 364-440, the petition to the States General at 470, the order of 8 November 1625 at 512, the interpreters' names from 519"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      The nearest English account of the Dutch church's own Bible, the Statenvertaling of 1637,
+      whose Dutch preface is on no reachable host as text: Haak reports the Synod of Dort's
+      resolution, the States General's commission, the six interpreters by name and the method of
+      the work, and the Synod's annotations are the church's own reading of Scripture that the
+      precisianist pulpit preached from. Tradition because the documents reported are the church's
+      own acts; Haak's prose is a contemporary English intermediary. SECOND WITNESS for exact
+      wording (microfilm OCR, f for long s, about 0.74); verify against the page image. The
+      annotated Bible text itself is not vendored (13 MB on the host).
+  - row_id: haak_dutch-annotations-narrative-and-front-matter_1657--haak-s-narrative-of-the-statenvertaling-how-the-synod-of-2
+    work: "Haak's Narrative of the Statenvertaling: how the Synod of Dort and the States General made the Dutch Bible of 1637, with the ordinance prefixed to The Dutch Annotations (1657)"
+    author: haak
+    locus: "the Synod of Dort's resolution on the translation and its choice of interpreters, around file lines 320-470 (citing the Acta Synodalia, Sess. 7)"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: >
+      The Synod of Dort at work on something other than the Remonstrants: its seventh session took
+      up the Bible translation before the doctrinal cause was heard. A side of the Synod the Dort
+      world should know exists; placed on that locus only. Second witness.
+  - row_id: haak_dutch-annotations-narrative-and-front-matter_1657--haak-s-narrative-of-the-statenvertaling-how-the-synod-of-3
+    work: "Haak's Narrative of the Statenvertaling: how the Synod of Dort and the States General made the Dutch Bible of 1637, with the ordinance prefixed to The Dutch Annotations (1657)"
+    author: haak
+    locus: "the Parliamentary ordinance (file lines 130-160) and the English reception, with Parliament's recommendation and the Ordinance of Parliament for Haak's encouragement, around lines 629-660"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      Parliament sponsoring an English rendering of the Dutch church's annotated Bible in the
+      1640s and 1650s: Puritan England reaching for the Dutch Reformed church's exegesis. The
+      Narrative names Parliament, not the Westminster Assembly (searched; the first-pass dossier's
+      mention of the Assembly's attestation was not confirmed in this OCR). Placed on those loci
+      only; the Puritanism build decides its weight. Second witness.

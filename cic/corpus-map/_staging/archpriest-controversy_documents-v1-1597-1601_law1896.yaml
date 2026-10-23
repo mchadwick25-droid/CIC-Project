@@ -1,0 +1,47 @@
+source_file: archpriest-controversy_documents-v1-1597-1601_law1896.txt
+
+assignments:
+  - row_id: archpriest-controversy_documents-v1-1597-1601_law1896--the-archpriest-controversy-vol-i-the-appellant-secular-priests-own-let
+    work: "The Archpriest Controversy, Vol. I: the Appellant secular priests' own letters, memorials and narratives, 1597-1601 (Mush, Bagshaw, Bluet, Watson, Colleton, Charnock, Bishop)"
+    author: archpriest-controversy
+    locus: "the documents from about file line 1186 (group I) through groups II (3607), III (5258) and IV (7759) to the end of the volume; each document's writer is in its heading"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      The missing voice the first-pass dossier named: the secular priests who
+      refused the Jesuit-backed Archpriest, writing from Wisbech, the Clink and
+      Rome about faculties, the Memorial against the Jesuits, the charge of
+      schism, and their appeal to the pope. Inside voice of the community's own
+      quarrel, in the writers' spelling. Primary voice, clean OCR, ready to quote
+      once verified against this file; Law's introduction and notes are not the
+      priests' words.
+  - row_id: archpriest-controversy_documents-v1-1597-1601_law1896--the-archpriest-controversy-vol-i-the-jesuit-and-archpriest-side-garnet
+    work: "The Archpriest Controversy, Vol. I: the Jesuit and Archpriest side (Garnet's circular of 1598, Parsons to Garnet, Blackwell's letters and orders, Holtby's letter to a lady, 1601)"
+    author: archpriest-controversy
+    locus: "within groups I to IV (file lines about 1186 to the end): Garnet's circular and Parsons' letter in group I, Blackwell's letters in groups II and IV, Holtby's letter in group IV"
+    atlas_ids:
+      - recusant-english-catholicism
+      - the-society-of-jesus
+    role: tradition
+    confidence: provisional
+    note: >
+      The other side of the same quarrel in its own words: Garnet and Parsons
+      defending the Society's conduct of the mission, Blackwell asserting his
+      authority, Holtby's long letter from the North. Tradition for the recusant
+      world (the Jesuit party was part of it); for the Society of Jesus a native
+      claim too, placed provisional until that world's thread reads it. Primary
+      voice, clean OCR.
+  - row_id: archpriest-controversy_documents-v1-1597-1601_law1896--the-archpriest-controversy-vol-i-the-appellants-dealings-with-the-gove
+    work: "The Archpriest Controversy, Vol. I: the Appellants' dealings with the government (group V) and the state's letters"
+    author: archpriest-controversy
+    locus: "group V, DEALINGS WITH THE GOVERNMENT, at the end of the volume (running head from about file line 10566); Law's Introduction from 229"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: context
+    confidence: provisional
+    note: >
+      Bancroft's and the Council's use of the quarrel, and the Appellants'
+      approaches to the Bishop of London: the state as a party. Context,
+      provisional; Law's Introduction is nineteenth-century editorial narrative.

@@ -1,0 +1,40 @@
+source_file: almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt
+
+authors_ruled:
+  almeida:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page in the OCR
+      reads "P. Emmanuelis d'Almeida S.I. Historia Aethiopiae, Liber V-VIII" (file lines 100-104); the host
+      catalogue names Beccari as editor. A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: almeida_historia-aethiopiae-liber-5-8-por_beccari1907--historia-aethiopiae-books-v-to-viii
+    work: "Historia Aethiopiae, Books V to VIII (Almeida), Portuguese text edited by Beccari (Rerum Aethiopicarum Scriptores Occidentales Inediti, vol. VI, 1907)"
+    author: almeida
+    locus: "Livro V from file line 710 ('LIVRO V, CAPITULO I'); Livro VII running heads from about 11287; Livro VIII from about 22961; the index of chapters for Books V-VIII from 29579"
+    atlas_ids:
+      - ethiopian-christianity-gragn-to-fasilides
+    role: context
+    confidence: assigned
+    note: >
+      The Jesuit mission's own history of its last decades: the reign of Susenyos, the Catholic
+      years, the revolt and the expulsion under Fasilides, by a Jesuit who was in Ethiopia from
+      1624. A Jesuit outside witness who took part in the mission, and the source Borgia's editors
+      cite for the 1555 correspondence (Borgia tomus 5, file line about 1587). Portuguese, with
+      Beccari's Latin notes; OCR readable at five points with scattered errors and some Latin
+      margin text run into the Portuguese. No public-domain English exists; Tellez 1710 (vendored)
+      abridges the same history in English.
+  - row_id: almeida_historia-aethiopiae-liber-5-8-por_beccari1907--historia-aethiopiae-books-v-to-viii-2
+    work: "Historia Aethiopiae, Books V to VIII (Almeida), Portuguese text edited by Beccari"
+    author: almeida
+    locus: "Livro V from file line 710; Livro VIII from about 22961"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: provisional
+    note: >
+      The Ethiopian mission in the Society's own historian's words, from the patriarch's arrival
+      to the expulsion. Placed on window and subject without reading the whole volume; role
+      tradition because the author is a Jesuit narrating a Jesuit mission, for the Jesuit world's
+      builders to confirm, as the Paez and Mendes rows already are.

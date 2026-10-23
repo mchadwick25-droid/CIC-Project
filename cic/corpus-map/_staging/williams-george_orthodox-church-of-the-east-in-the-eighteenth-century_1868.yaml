@@ -1,0 +1,28 @@
+source_file: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt
+assignments:
+- row_id: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868--the-correspondence-between-the-eastern-patriarchs-and-the
+  work: The correspondence between the Eastern Patriarchs and the Nonjuring bishops, 1716-1725, in English
+  author: williams-george
+  locus: 'CORRESPONDENCE from file line 2835 to file line 8860: the Nonjurors'' proposals at file line
+    3564, the Patriarchs'' answers of 1718 and 1723 with the Jerusalem confession, the reply and the closing
+    letter of 1725'
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: tradition
+  confidence: provisional
+  note: The Patriarchs of Constantinople, Alexandria and Jerusalem answering an Anglican approach in their
+    own terms, printed in the eighteenth-century English translation the Nonjurors used; Williams is the
+    editor, not the voice. Provisional until the later Ottoman thread rules whether an English rendering
+    of a Greek original counts as tradition. Clean OCR.
+- row_id: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868--george-williams-introduction-on-projects-of-reunion-between
+  work: George Williams, introduction on projects of reunion between the Eastern Church and the Anglican
+    Communion (Melanchthon and Jeremias II, Abbot and Lucaris, Basire, the Nonjurors)
+  author: williams-george
+  locus: INTRODUCTION from file line 78 to file line 2067 (Lucar and Abbot at about file lines 337-386)
+    and its appendix from file line 2068
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: context
+  confidence: provisional
+  note: An Anglican scholar's 1868 account of the Lucaris generation's contacts with the West; scholarship,
+    in window only for those pages.

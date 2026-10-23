@@ -107,6 +107,28 @@ authors:
 
       '
     from_file: paiva-manso_historia-do-congo-documentos-por_1877.txt
+  akty-iuzhnoi-i-zapadnoi-rossii:
+    kind: anonymous
+    evidence: 'A documentary series: the title page (file lines 40-77) names only the Archaeographic
+      Commission, and the host record names Kostomarov as editor; each document carries its
+      own issuer. Treated as a work-entity.'
+    from_file: akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt
+  akty-zapadnoi-rossii:
+    kind: anonymous
+    evidence: 'A documentary series: the title page (file lines 11-18) names only the Archaeographic
+      Commission as collector and publisher, and each document carries its own issuer in its
+      heading. Treated as a work-entity, as the vendored Akty arkheograficheskoi ekspeditsii
+      already is.'
+    from_file: akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt
+  almeida:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page in the OCR reads "P. Emmanuelis d''Almeida S.I. Historia Aethiopiae,
+      Liber V-VIII" (file lines 100-104); the host catalogue names Beccari as editor. A mechanical
+      index-coverage gap, not an attribution dispute.
+
+      '
+    from_file: almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt
   ambrose-hypomnemata:
     kind: pseudonymous
     evidence: 'div2 9.18 "Ambrose": "A memorial (hypomnemata) which Ambrose, a chief man of
@@ -287,12 +309,13 @@ authors:
   assemani:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
-      The title page names "Joseph Simonius Assemanus, Syrus Maronita" (file line 82) and
-      the dedication is signed by him (line 119). A mechanical index-coverage gap, not an
-      attribution dispute.
+      The title page in the OCR reads "Joseph Simonius Assemanus ... Bibliotheca Orientalis
+      Clementino-Vaticana ... Tomi Tertii Pars Prima, De Scriptoribus Syris Nestorianis" (file
+      lines about 130-145); the same slug is used by the vendored part 2 (1728). A mechanical
+      index-coverage gap, not an attribution dispute.
 
       '
-    from_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+    from_file: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
   avdall:
     kind: metadata-omission
     evidence: 'The title page names Johannes Avdall as translator and continuer of the narrative;
@@ -300,6 +323,15 @@ authors:
 
       '
     from_file: chamich_history-of-armenia-v2_avdall1827.txt
+  badger:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page in the OCR reads "The Nestorians and their Rituals ... by the Rev. George
+      Percy Badger" (file lines 40-60); the host catalogue gives Badger, George Percy, 1815-1888.
+      A mechanical index-coverage gap, not an attribution dispute.
+
+      '
+    from_file: badger_nestorians-and-their-rituals-v1_1852.txt
   bancroft:
     kind: metadata-omission
     evidence: 'The host''s own creator field names ''Bancroft, Richard, 1544-1610'' beside
@@ -349,6 +381,14 @@ authors:
       table of contents, and 66 on the title page 'THE SHORT ACCOUNT OF BERMUDEZ'). The author
       is not in doubt; the file-name prefix cannot hold him.
     from_file: castanhoso_portuguese-expedition-to-abyssinia_whiteway1902.txt
+  boston-synod:
+    kind: anonymous
+    evidence: 'The 1680 Confession is a synodical document adopted by the Boston Synod, named
+      on its own preface (file line about 1943); the file name carries the 1648 Cambridge
+      Synod.
+
+      '
+    from_file: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850.txt
   boyer:
     kind: metadata-omission
     evidence: 'The volume''s own preface to its Part III (file lines 17058-17083) says the
@@ -438,6 +478,15 @@ authors:
 
       '
     from_file: chamich_history-of-armenia-v2_avdall1827.txt
+  chardin:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page in the OCR reads "Sir John Chardin''s Travels in Persia ... By Edm. Lloyd,
+      Esq." (file lines 12-68); the host catalogue gives Chardin, John, Sir. A mechanical
+      index-coverage gap, not an attribution dispute.
+
+      '
+    from_file: chardin_travels-in-persia-v1_lloyd1720.txt
   chirino:
     kind: metadata-omission
     evidence: The volume's own contents list reads 'Relacion de las Islas Filipinas (to be
@@ -696,6 +745,11 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  covel:
+    kind: metadata-omission
+    evidence: The title page names 'Extracts from the Diaries of Dr John Covel, 1670-1679'
+      as part II (file line 200); the file name carries both diarists.
+    from_file: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt
   curnock-nehemiah:
     kind: metadata-omission
     evidence: 'The header of this plain-text file names Nehemiah Curnock as Editor. The editorial
@@ -710,6 +764,11 @@ authors:
       cyril_alexandria (npnf214) is used rather than the filename token cyril-alexandria,
       so one author is not split across two slugs.
     from_file: cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt
+  dallam:
+    kind: metadata-omission
+    evidence: The title page (file lines 180-200) names 'The Diary of Master Thomas Dallam,
+      1599-1600' as part I; the file name carries both diarists.
+    from_file: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt
   dapontes:
     kind: metadata-omission
     evidence: 'The title page names ''Kaisarios Dapontes'' first among the volume''s authors;
@@ -758,6 +817,11 @@ authors:
 
       '
     from_file: monumenta-vetera-donatistarum_migne-pl8.txt
+  dositheus:
+    kind: metadata-omission
+    evidence: Running head 'Synodus Hierosolymitana' from file line 40197; the prolegomena
+      name Dositheus's confession (file line 4142).
+    from_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
   edessene-martyr-acts:
     kind: anonymous
     evidence: 'div2 9.9 (Acts of Sharbil), 9.11 (Martyrdom of Habib the Deacon), 9.12 (Martyrdom
@@ -878,13 +942,10 @@ authors:
     from_file: ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt
   gennadius-scholarius:
     kind: metadata-omission
-    evidence: 'The volume''s own title page names ''Gennadii Confessiones I. II.'' among its
-      contents; the file''s leading name slug is the editor''s work title, so the author of
-      these two confessions is supplied here from the title page rather than from the file
-      name.
-
-      '
-    from_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+    evidence: The file name carries the collection's title; the host record's contents and
+      the running heads ('Gennadii Confessio I', file line 4553) name Gennadius. Same ruling
+      shape as the vendored 1850 staging.
+    from_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
   gennadius_constantinople:
     kind: metadata-omission
     evidence: div2 title 'The Encyclical Letter of Gennadius, Patriarch of Constantinople'.
@@ -904,6 +965,11 @@ authors:
 
       '
     from_file: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt
+  golubev:
+    kind: metadata-omission
+    evidence: The introductory study is signed 'С. Голубевъ' at file line 5996 with the date
+      15 November 1893; the file name carries the series title.
+    from_file: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893.txt
   gordios:
     kind: metadata-omission
     evidence: 'The title page names ''Anastasios Gordios''; the section heading ''ANASTASIOU
@@ -941,6 +1007,16 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  gouvea:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page in the OCR reads "Por Frey Antonio de Gouuea Religioso da mesma Ordem
+      de Santo Agostinho, lente de Theologia, & Prior do Convento de Goa" (file lines 28-48);
+      the host catalogue gives Gouveia, Antonio de, ca 1568-1628, O.E.S.A. A mechanical index-coverage
+      gap, not an attribution dispute.
+
+      '
+    from_file: gouvea_jornada-do-arcebispo-de-goa-por_1606.txt
   gregory:
     kind: metadata-omission
     evidence: 'div1 title "The Book of Pastoral Rule, and Selected Epistles, of Gregory the
@@ -1039,6 +1115,16 @@ authors:
 
       '
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  howard:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page in the OCR is garbled but the host catalogue gives Howard, George Broadley,
+      and the 1869 Philipos volume (vendored) names him on its title page as "author of The
+      Christians of S. Thomas and their Liturgies". A mechanical index-coverage gap, not an
+      attribution dispute.
+
+      '
+    from_file: howard_christians-of-st-thomas-and-their-liturgies_1864.txt
   ignatius:
     kind: metadata-omission
     evidence: 'div1 5 title "IGNATIUS" over the epistles in shorter, longer and Syriac recensions;
@@ -1062,6 +1148,13 @@ authors:
 
       '
     from_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
+  ivan-iv:
+    kind: metadata-omission
+    evidence: The file name carries Kurbsky alone; the title page (file line 11-16) names
+      the correspondence as 'with Tsar Ivan the Terrible', and the tsar's epistles are headed
+      'ПОСЛАНIЕ ЦАРЯ IОАННА ВАСИЛЬЕВИЧА' (file line 966 and running heads). Supplied from
+      the title page.
+    from_file: kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914.txt
   jacob-of-sarug:
     kind: metadata-omission
     evidence: 'div2 9.4 "A Canticle of Mar Jacob the Teacher on Edessa" and 9.14 "Homilies,
@@ -1137,6 +1230,12 @@ authors:
 
       '
     from_file: chronica-minora-liber-genealogus_mommsen1892.txt
+  lithos-1644:
+    kind: pseudonymous
+    evidence: The Lithos was published under the name Euzebi Pimin; the edition's index (file
+      line 25551) calls 'Пиминъ Евсевій' the pseudonym of the compilers of the Lithos, and
+      the study (file line 2947) says the same. Treated as a work-entity under its own title.
+    from_file: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893.txt
   liturgy-of-addai-and-mari:
     kind: pseudonymous
     evidence: 'div2 12.4 "The Liturgy of the Blessed Apostles", heading "Composed by St. Adaeus
@@ -1199,6 +1298,11 @@ authors:
 
       '
     from_file: fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt
+  lucaris:
+    kind: metadata-omission
+    evidence: Running head 'Cyrilli Lucaris Confessio' at file line 8764; the collection's
+      title page lists him.
+    from_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
   lucifer-of-cagliari:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
@@ -1210,6 +1314,26 @@ authors:
 
       '
     from_file: lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt
+  ludolf:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page in the OCR reads "By the Learned Job Ludolphus, Author of the Ethiopic
+      Lexicon ... Made English by J. P. Gent." (file lines 25-60); the host catalogue gives
+      Ludolf, Hiob. The same slug is used by the vendored Commentarius (1691). A mechanical
+      index-coverage gap, not an attribution dispute.
+
+      '
+    from_file: ludolf_new-history-of-ethiopia_jp1682.txt
+  maclean-browne:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the authors
+      yet. The title page in the OCR reads "by Arthur John Maclean, M.A., Dean of Argyll and
+      the Isles, and William Henry Browne, LL.M." (file lines 30-45); the host catalogue names
+      both. One slug for the joint work, on the pattern of the joint-editor slugs already
+      in use. A mechanical index-coverage gap, not an attribution dispute.
+
+      '
+    from_file: maclean-browne_catholicos-of-the-east-and-his-people_1892.txt
   makraios:
     kind: metadata-omission
     evidence: 'The title page names ''Sergios Makraios''; the section heading ''SERGIOU MAKRAIOU
@@ -1297,6 +1421,23 @@ authors:
 
       '
     from_file: maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt
+  massachusetts-bay-company:
+    kind: anonymous
+    evidence: 'The Company''s records, letters and instructions printed in Chapter III onward
+      are corporate documents of the Massachusetts Bay Company, not the editor''s own; placed
+      on the chapter headings (file line about 984 onward).
+
+      '
+    from_file: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
+  massachusetts-bay-planters:
+    kind: anonymous
+    evidence: 'A collective slug for the several planters whose narratives and letters the
+      editor prints (Higginson, Dudley, Clap, Cotton, Mather, Thacher), each named on its
+      own heading; the volume is Young''s compilation, so the file name carries the editor,
+      not these authors.
+
+      '
+    from_file: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
   mathetes:
     kind: metadata-omission
     evidence: 'div1 3 title "MATHETES" over "Epistle to Diognetus"; anf01 DC.Creator names
@@ -1327,6 +1468,13 @@ authors:
 
       '
     from_file: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt
+  mogila:
+    kind: metadata-omission
+    evidence: The file name carries the series title; the contents list (about file line 34710)
+      and the section heading at file line 2462 read 'Собственноручныя записки Петра Могилы'
+      (Peter Mohyla's autograph notes), with the editor's notes marking what is 'не рукою
+      Могилы'.
+    from_file: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt
   morris-john:
     kind: metadata-omission
     evidence: 'The title page (file line 1 header; Gutenberg transcription of the 1871 title
@@ -1367,6 +1515,17 @@ authors:
 
       '
     from_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  nikonovskaia-letopis:
+    kind: anonymous
+    evidence: The Nikon Chronicle continuation is edited from named manuscript copies with
+      no author (preface, file lines 73-95); a work-entity.
+    from_file: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906.txt
+  novyi-letopisets:
+    kind: anonymous
+    evidence: The edition's preface (file lines 73-110) treats the New Chronicle as an anonymous
+      compilation that closes three Nikon Chronicle manuscripts; no author is named on the
+      title page. Treated as a work-entity.
+    from_file: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt
   odes-of-solomon:
     kind: anonymous
     evidence: 'The Odes'' own authorship is anonymous - see syr.source.odes-of-solomon''s
@@ -1465,6 +1624,16 @@ authors:
       the file name carries Schaff's compendium title, so the author is supplied from the
       contents list and the headnote.
     from_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
+  philipos:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page in the OCR reads "By the Rev. Edavalikel Philipos, Chorepiscopus, Cathanar
+      of the Great Church at Cottayam, in Travancore. Edited by the Rev. G. B. Howard" (file
+      lines 45-60); the host catalogue gives Philipos, Edavalikel. A mechanical index-coverage
+      gap, not an attribution dispute.
+
+      '
+    from_file: philipos_syrian-christians-of-malabar_howard1869.txt
   phoebadius-of-agen:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
@@ -1502,6 +1671,11 @@ authors:
 
       '
     from_file: anf05_hippolytus-cyprian-caius-novatian.xml
+  povest-o-chestnem-zhitii-tsaria-feodora:
+    kind: anonymous
+    evidence: The title page (file lines 21-22) names the Tale without an author and the preface
+      edits it as an anonymous text from the same manuscripts; treated as a work-entity.
+    from_file: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt
   prokopiou:
     kind: metadata-omission
     evidence: 'The title page names ''Demetrios Prokopiou''; the section heading ''DEMETRIOU
@@ -1828,6 +2002,11 @@ authors:
       of Love"; no surname is given; the host catalogue repeats "Tobias, fellow elder with
       H. Niclas". The slug names the signature, not a known person.
     from_file: tobias-familist_mirabilia-opera-dei_1650.txt
+  tsarstvennaia-kniga:
+    kind: anonymous
+    evidence: The title page (file lines 22-23) and the preface (file lines 73-80) name the
+      Tsar's Book as a manuscript chronicle without an author; a work-entity.
+    from_file: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906.txt
   two-epistles-on-virginity:
     kind: pseudonymous
     evidence: 'div1 5; the section''s Introductory Notice heads it "Attributed to Clement
@@ -1866,12 +2045,31 @@ authors:
       priest Vasyl of Ostroh) as author of 'О единой истинной православной вѣрѣ' (1588); about
       file lines 36824-36830.
     from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  vilnius-orthodox-brotherhood:
+    kind: anonymous
+    evidence: The contents list (about file line 34710) describes items VIII, IX, XI, XII
+      and XIII as published by the Vilnius Orthodox brotherhood and item X as published by
+      the Latin-Uniates in 1621, without personal authors; treated as a work-entity for the
+      group, with the Uniate item named in the note.
+    from_file: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt
   voprosy-i-otvety-1603:
     kind: anonymous
     evidence: The manuscript 'Вопросы и отвѣты православному зъ папежникомъ' (1603) is printed
       without an author; the preface says only that an Orthodox wrote it; contents at about
       file lines 103-7378.
     from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  vyshensky:
+    kind: metadata-omission
+    evidence: The section heading at file line 1244 reads 'Неизданныя сочиненія и посланія
+      Іоанна Вишенскаго' and the contents list repeats it; supplied from the volume.
+    from_file: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt
+  walter-henry:
+    kind: metadata-omission
+    evidence: 'The Biographical Notice (file line 317 onward) is the Parker Society editor
+      Henry Walter''s own, named on the title page as editor; the file name carries Tyndale.
+
+      '
+    from_file: tyndale_doctrinal-treatises_walter1848.txt
   walton:
     kind: metadata-omission
     evidence: 'Izaak Walton is named on the file''s own title page ("WITH AN ACCOUNT OF HIS
@@ -1931,6 +2129,14 @@ authors:
 
       '
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt
+  white-john-dorchester:
+    kind: metadata-omission
+    evidence: 'The Planters'' Plea (1630) is John White of Dorchester''s, named on the editor''s
+      heading in Chapter I (file line about 271); the file name carries the compiler Alexander
+      Young.
+
+      '
+    from_file: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
   wigram:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.

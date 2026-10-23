@@ -23,6 +23,43 @@ works:
 
     '
   source_file: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908.txt
+- row_id: allen-william_true-sincere-and-modest-defence-v1_1914--a-true-sincere-and-modest-defence-of-english-catholics-1584-vol-i-pref
+  work: 'A True, Sincere and Modest Defence of English Catholics (1584), Vol. I: Preface to
+    the Reader and chapters I-IV (that the Catholics suffer for religion and not treason;
+    the ''bloody questions''; the seminaries; the priests'' conduct)'
+  author: allen-william
+  locus: the Preface to the Reader from file line 363; CHAPTER I at 695, II at 1399, III at
+    2109, IV at 3166 to the end of the volume
+  role: tradition
+  confidence: assigned
+  note: 'Allen''s answer to Burghley''s Execution of Justice: the community''s own political
+    apologia, in which the leader of the exiles denies that the priests are traitors, describes
+    the examinations and the ''bloody questions'' put to them, and defends the seminaries.
+    Written for Europe in English and Latin in the year of Campion''s trial''s aftermath.
+    Primary voice (modernised spelling, 1914), clean OCR, ready to quote once verified against
+    this file; Cardinal Bourne''s 1914 preface is not Allen''s.
+
+    '
+  source_file: allen-william_true-sincere-and-modest-defence-v1_1914.txt
+- row_id: allen-william_true-sincere-and-modest-defence-v2_1914--a-true-sincere-and-modest-defence-of-english-catholics-1584-vol-ii-cha
+  work: 'A True, Sincere and Modest Defence of English Catholics (1584), Vol. II: chapters
+    V-IX (the deposing power, the pope as arbiter between princes and peoples, the Irish wars,
+    the realm''s fall from the Church as the cause of its fears, the conclusion with a motion
+    for toleration)'
+  author: allen-william
+  locus: CHAPTER V at file line 141, VI at 1355, VII at 2101, VIII at 3279, IX at 5378 to
+    the end of the volume
+  role: tradition
+  confidence: assigned
+  note: 'The second half of Allen''s Defence, where the argument turns from innocence to principle:
+    the pope''s power to excommunicate and depose a heretical prince, defended openly, and
+    a closing plea for toleration. This is the text that made ''Allen''s doctrine'' the state''s
+    proof of Catholic disloyalty, and a build must read it beside the household narratives
+    that disown politics. Primary voice, clean OCR, ready to quote once verified against this
+    file.
+
+    '
+  source_file: allen-william_true-sincere-and-modest-defence-v2_1914.txt
 - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--ancient-editors-note-book
   work: An Ancient Editor's Note Book (nineteen chapters on the penal laws, the prisons, the
     martyrdoms and the devotion of Catholics, compiled by an unnamed Elizabethan Catholic)
@@ -36,6 +73,88 @@ works:
 
     '
   source_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+- row_id: archpriest-controversy_documents-v1-1597-1601_law1896--the-archpriest-controversy-vol-i-the-appellant-secular-priests-own-let
+  work: 'The Archpriest Controversy, Vol. I: the Appellant secular priests'' own letters,
+    memorials and narratives, 1597-1601 (Mush, Bagshaw, Bluet, Watson, Colleton, Charnock,
+    Bishop)'
+  author: archpriest-controversy
+  locus: the documents from about file line 1186 (group I) through groups II (3607), III (5258)
+    and IV (7759) to the end of the volume; each document's writer is in its heading
+  role: tradition
+  confidence: assigned
+  note: 'The missing voice the first-pass dossier named: the secular priests who refused the
+    Jesuit-backed Archpriest, writing from Wisbech, the Clink and Rome about faculties, the
+    Memorial against the Jesuits, the charge of schism, and their appeal to the pope. Inside
+    voice of the community''s own quarrel, in the writers'' spelling. Primary voice, clean
+    OCR, ready to quote once verified against this file; Law''s introduction and notes are
+    not the priests'' words.
+
+    '
+  source_file: archpriest-controversy_documents-v1-1597-1601_law1896.txt
+- row_id: archpriest-controversy_documents-v1-1597-1601_law1896--the-archpriest-controversy-vol-i-the-appellants-dealings-with-the-gove
+  work: 'The Archpriest Controversy, Vol. I: the Appellants'' dealings with the government
+    (group V) and the state''s letters'
+  author: archpriest-controversy
+  locus: group V, DEALINGS WITH THE GOVERNMENT, at the end of the volume (running head from
+    about file line 10566); Law's Introduction from 229
+  role: context
+  confidence: provisional
+  note: 'Bancroft''s and the Council''s use of the quarrel, and the Appellants'' approaches
+    to the Bishop of London: the state as a party. Context, provisional; Law''s Introduction
+    is nineteenth-century editorial narrative.
+
+    '
+  source_file: archpriest-controversy_documents-v1-1597-1601_law1896.txt
+- row_id: archpriest-controversy_documents-v1-1597-1601_law1896--the-archpriest-controversy-vol-i-the-jesuit-and-archpriest-side-garnet
+  work: 'The Archpriest Controversy, Vol. I: the Jesuit and Archpriest side (Garnet''s circular
+    of 1598, Parsons to Garnet, Blackwell''s letters and orders, Holtby''s letter to a lady,
+    1601)'
+  author: archpriest-controversy
+  locus: 'within groups I to IV (file lines about 1186 to the end): Garnet''s circular and
+    Parsons'' letter in group I, Blackwell''s letters in groups II and IV, Holtby''s letter
+    in group IV'
+  role: tradition
+  confidence: provisional
+  note: 'The other side of the same quarrel in its own words: Garnet and Parsons defending
+    the Society''s conduct of the mission, Blackwell asserting his authority, Holtby''s long
+    letter from the North. Tradition for the recusant world (the Jesuit party was part of
+    it); for the Society of Jesus a native claim too, placed provisional until that world''s
+    thread reads it. Primary voice, clean OCR.
+
+    '
+  source_file: archpriest-controversy_documents-v1-1597-1601_law1896.txt
+- row_id: archpriest-controversy_documents-v2-1601-1603_law1898--the-archpriest-controversy-vol-ii-letters-and-memorials-1601-1603-with
+  work: 'The Archpriest Controversy, Vol. II: letters and memorials 1601-1603, with the Protestations
+    of Allegiance of January 1603'
+  author: archpriest-controversy
+  locus: group III from about file line 8064 to the Index; the Protestations of Allegiance
+    are the last document (no. 33)
+  role: tradition
+  confidence: assigned
+  note: 'The quarrel''s end: the letter of expostulation to Blackwell, the Appellants'' letters
+    to the Bishop of London, Garnet''s circular, and the thirteen priests'' Protestation of
+    Allegiance to Elizabeth, the first formal Catholic separation of civil loyalty from religion.
+    The state''s letters (Sir Robert Cecil''s) are the persecutor''s side within the same
+    group. Primary voice, clean OCR.
+
+    '
+  source_file: archpriest-controversy_documents-v2-1601-1603_law1898.txt
+- row_id: archpriest-controversy_documents-v2-1601-1603_law1898--the-archpriest-controversy-vol-ii-the-brevis-relatio-and-the-latin-and
+  work: 'The Archpriest Controversy, Vol. II: the Brevis Relatio and the Latin and Italian
+    memorials of 1602 (the Appellants'' case, Parsons'' responses, the Declaratio status Catholicorum
+    in Anglia, the memorials on liberty of conscience, the papal sentence on schism)'
+  author: archpriest-controversy
+  locus: group II from about file line 3149 to the letters at about 8064
+  role: tradition
+  confidence: provisional
+  note: 'Both parties stating their case to Rome in Latin and Italian: the seculars'' account
+    of the mission since 1587 and their plea for a bishop and for liberty of conscience, Parsons''
+    answers, the Inquisition''s sentence. Original-language primary documents with Law''s
+    English headings only; a quote record would hold the Latin. Provisional on the Society
+    of Jesus side, as in vol. I. Clean OCR.
+
+    '
+  source_file: archpriest-controversy_documents-v2-1601-1603_law1898.txt
 - row_id: barlow_brutum-fulmen_1681--brutum-fulmen-pius-v-s-bull-regnans-in-excelsis-against-2
   work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul
     III's bull against Henry VIII annexed)
@@ -239,6 +358,18 @@ works:
 
     '
   source_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+- row_id: jewel_apologia-ecclesiae-anglicanae-lat_1838--apologia-ecclesiae-anglicanae-1562-the-latin-original-2
+  work: Apologia Ecclesiae Anglicanae (1562), the Latin original
+  author: jewel
+  locus: from about file line 237 to about 5562
+  role: context
+  confidence: provisional
+  note: 'The Latin that Thomas Harding answered from Louvain, the opening of the controversy
+    that shaped the first generation of English Catholic exile writing. The opponent''s book;
+    provisional, mirroring the placement of the English translation. Second-witness OCR.
+
+    '
+  source_file: jewel_apologia-ecclesiae-anglicanae-lat_1838.txt
 - row_id: jewel_apology-of-the-church-of-england_bacon-morley1888--the-apology-of-the-church-of-england-lady-bacon-s-translation-3
   work: The Apology of the Church of England, Lady Anne Bacon's translation of 1564
   author: jewel
@@ -251,6 +382,19 @@ works:
 
     '
   source_file: jewel_apology-of-the-church-of-england_bacon-morley1888.txt
+- row_id: luis-de-granada_of-prayer-and-meditation_hopkins1582--of-prayer-and-meditation-recusant
+  work: Of Prayer, and Meditation, the 1582 Paris English with the translator's epistle to
+    the Inns of Court
+  author: luis-de-granada
+  locus: the translator's epistle to the four Inns of Court, lines 11 to about 1010; the whole
+    book as a recusant devotional import
+  role: context
+  confidence: provisional
+  note: 'A Catholic devotional book printed abroad for English readers in 1582, dedicated
+    to the lawyers of the Inns of Court by an English Catholic exile: evidence of what recusants
+    read, placed on the title page and dedication only, not read against that world''s own
+    sources.'
+  source_file: luis-de-granada_of-prayer-and-meditation_hopkins1582.txt
 - row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--life-of-father-john-gerard
   work: The Life of Father John Gerard (Morris's biography, built on long verbatim translated
     extracts from Gerard's Latin Autobiography)
@@ -309,6 +453,21 @@ works:
 
     '
   source_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+- row_id: archpriest-controversy_documents-v2-1601-1603_law1898--the-archpriest-controversy-vol-ii-mush-s-diary-of-the-appellants-affai
+  work: 'The Archpriest Controversy, Vol. II: Mush''s diary of the Appellants'' affairs at
+    Rome (1602) and the two other English narratives'
+  author: mush-john
+  locus: group I from about file line 1613 (MUSH'S DIARY) to the Brevis Relatio at about 3149
+  role: tradition
+  confidence: assigned
+  note: 'John Mush, the author of the Life of Margaret Clitherow already vendored, keeping
+    a day-book of the appeal at Rome: audiences, cardinals, Parsons'' manoeuvres, the sentence.
+    A first-person inside narrative by a named secular priest; the author slug matches the
+    Clitherow life''s slug in the Morris Third Series staging. Primary voice, clean OCR, ready
+    to quote once verified against this file.
+
+    '
+  source_file: archpriest-controversy_documents-v2-1601-1603_law1898.txt
 - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--notes-by-a-prisoner-in-ousebridge-kidcote
   work: Notes by a Prisoner in Ousebridge Kidcote (with Morris's note on those who died in
     the York and Hull prisons)

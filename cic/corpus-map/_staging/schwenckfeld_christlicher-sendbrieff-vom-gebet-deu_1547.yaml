@@ -1,0 +1,12 @@
+source_file: schwenckfeld_christlicher-sendbrieff-vom-gebet-deu_1547.txt
+assignments:
+- row_id: schwenckfeld_christlicher-sendbrieff-vom-gebet-deu_1547--ain-christlicher-sendbrieff-vom-gebeet-1547
+  work: Ain Christlicher Sendbrieff ... Vom Gebeet (1547)
+  author: schwenckfeld
+  locus: title page at file line 11; opening of the letter at file line 74
+  atlas_ids:
+  - schwenckfelders
+  role: tradition
+  confidence: assigned
+  note: Schwenckfeld on prayer, 1547, in his own words inside the window. Readable microfilm OCR (about 0.8 word-like);
+    quotable once checked against the page image. Role tradition. German; no public-domain English exists.

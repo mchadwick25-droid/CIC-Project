@@ -1,0 +1,13 @@
+source_file: hubmaier_freiwilligkeit-des-menschen-und-von-dem-schwert-deu_1527.txt
+assignments:
+- row_id: hubmaier_freiwilligkeit-des-menschen-und-von-dem-schwert-deu_1527--das-ander-b-chlein-von-der-freiwilligkeit-des-menschen-von-dem-schwert
+  work: Das ander Büchlein von der Freiwilligkeit des Menschen; Von dem Schwert (Nikolsburg, 1527)
+  author: hubmaier
+  locus: the Freiwilligkeit treatise at file line 493; Von dem Schwert begins (the brethren say a Christian may not bear the sword) at file line 4796
+  atlas_ids:
+  - the-anabaptist-movements
+  role: tradition
+  confidence: assigned
+  note: 'The free will and the sword in Hubmaier''s own 1527 prints; the German original of the one Hubmaier treatise
+    already in the corpus in English (Vedder 1905). SECOND WITNESS: microfilm OCR of blackletter, about 0.86 of
+    the text windows read as words; nothing quotable until read on the page images. Role tradition.'

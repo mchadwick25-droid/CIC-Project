@@ -13,6 +13,17 @@ why it exists.
 Scandinavian Reformation text. The five staging files below are written and pass
 `corpus_map_merge.py --check` (15 assignments across 2 Atlas entries), not yet merged.
 
+**Second pass, October 2026.** Two more files vendored with two staging files: Anjou's
+History of the Reformation in Sweden in Mason's English (1859), and Bishop Glostrup's
+visitations of Oslo and Hamar, 1617 to 1637 (Danish, 1895), the Norwegian church's own
+record, extracted from a scan that binds a second book after it. The Danish side was searched
+again: Palladius's Visitatsbog (1872) and the Danish Ordinantz of 1539 were found but their
+Fraktur OCR is unreadable; Palladius's Latin catechism exposition for the Norwegian parish
+priests (1552) is readable and is a new lead whose scan carries a ProQuest banner for the lead
+to rule on; Tausen's scans were re-sampled and are still unusable. Google Books could not be
+used this session (zero API quota, a 429 on the web search after one query). The vendored
+leads moved from section 3 into section 1; section 6 revised.
+
 ## 1. Already assigned
 
 Nothing was assigned to this world before this pass. A grep of every `Title:`
@@ -30,6 +41,8 @@ found only passing mentions (see section 2). Five files were vendored this pass 
 | The Mass in Sweden (Yelverton, 1920): the masses of Olavus and Laurentius Petri, John III's Red Book, Charles IX's communion office, with English beside the Swedish | yelverton | tradition (2 rows); antecedent for the medieval Latin mass | assigned; antecedent provisional | ~458K chars, Latin, Swedish, English | `yelverton_mass-in-sweden-lat-swe-eng_yelverton1920.txt` |
 | Upsala mötes beslut, 20 March 1593 (Företal and the articles) | bensow | tradition | assigned | ~265 lines of a 1.75M-char volume, Swedish | `bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt` |
 | Konkordieboken in Swedish (the rest of the Bensow volume) | bensow | context here (Sweden adopted it only in 1663 and 1686) | provisional | ~1.5M chars, Swedish | same file |
+| The History of the Reformation in Sweden (Anjou, 1850; Mason's English, 1859) | anjou | context (secondary narrative quoting the reformers and the diet acts in English) | assigned | ~1.57M chars, English | `anjou_history-of-the-reformation-in-sweden_mason1859.txt` (second pass) |
+| Bishop Nils Glostrup's visitations of the dioceses of Oslo and Hamar, 1617 to 1637 (Daae and Huitfeldt-Kaas, 1895) | glostrup | tradition | assigned | ~0.28M chars, Danish; the Glostrup book only, extracted from a scan that binds a second book after it | `glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895.txt` (second pass) |
 
 The same files carry rows for the Wittenberg entry (`lutheran-wittenberg-and-its-congregations`,
 VI.1): `tradition`, `needs-ruling` for the Ordinatio, Olavus Petri's volumes and the Petri masses
@@ -44,6 +57,16 @@ second witness for exact wording until a quote is checked against the page image
 gate has no mapping for the r-rotunda glyph (a ruling for the lead; the registry `apparatus`
 mechanism is the likely home). The year of vol. 2 (1915) is the host date only; the OCR title page
 prints no year. Bensow's square-bracket glosses in the 1593 text are the editor's, not the synod's.
+
+The two second-pass files: Anjou reads clean (about 0.93) and is quotable once checked, but it
+is a nineteenth-century narrative, placed as context, and its value is the English it gives for
+the Swedish documents vendored in the original. Glostrup is the Norwegian church's own voice,
+a bishop's parish visitations under the Ordinance a century after the Reformation, readable
+seventeenth-century Danish (read by eye; the project has no Danish baseline) with the editors'
+notes clean; primary in the original, quotable and renderable once checked against the page
+image. The host scan binds a second Kildeskriftfond book (Storm's Historisk-topografiske
+Skrifter, 1895) after the Glostrup book; the vendored file holds scan lines 1 to 9473, the
+Glostrup book entire, and nothing of the second.
 
 **Scale.** About 4.7 million characters in five files: 4.1M Swedish, 0.17M Latin, 0.46M mixed
 Latin, Swedish and English. The Swedish side is deep; the Danish-Norwegian side is one Latin
@@ -97,13 +120,13 @@ are in `seed_fragment.yaml`. The first five were vendored.
 | Samlade skrifter af Olavus Petri, vols. 1 and 2 | Olavus Petri; ed. Bengt Hesselman | none (Swedish) | 1914, 1915 | `olavuspetri0001unse`, `olavuspetri0002unse` | pd-us-by-date; no rights field; Internet Archive | metadata, full text, contents read, four-point sample, October 2026. VENDORED. Vol. 2's year is the host date only. |
 | The Mass in Sweden, its development from the Latin rite from 1531 to 1917 | E. E. Yelverton | Yelverton | 1920 | `massinswedenitsd00petr` | pd-us-by-date; no rights field; PIMS, University of Toronto | metadata, title page "1920" read, contents read, four-point sample, October 2026. VENDORED. |
 | Svenska kyrkans bekännelseskrifter (with Upsala mötes beslut 1593) | Oscar Bensow (ed.) | none (Swedish) | 1912 | `arkivkopia.se-runeberg-bekann12` | pd-us-by-date; no rights field; Arkivkopia copy of Projekt Runeberg | metadata, text, title page "1912" read, the 1593 text read, October 2026. VENDORED. |
-| The History of the Reformation in Sweden | L. A. Anjou | Henry M. Mason | 1859 | `archive.org/details/historyofreforma185900anjo` | pd-us-by-date; NOT_IN_COPYRIGHT; Princeton Theological Seminary | metadata, title page read, full text fetched (1.58M chars), October 2026. Not vendored (size). First lead for the next round. The Swedish original (1850) is `svenskakyrkoref01anjogoog`, `svenskakyrkoref00anjogoog` (Google scans, NOT_IN_COPYRIGHT, not opened beyond the OCR header). |
+| Svenska kyrkoreformationens historia (the Swedish original of Anjou, 1850) | L. A. Anjou | none (Swedish) | 1850 | `svenskakyrkoref01anjogoog`, `svenskakyrkoref00anjogoog` | pd-us-by-date; NOT_IN_COPYRIGHT | Google scans, not opened beyond the OCR header, October 2026. The English (1859) was vendored in the second pass (section 1). |
 | The National Church of Sweden (Hale Lectures, 1910) | John Wordsworth, Bishop of Salisbury | none | 1911 | `archive.org/details/nationalchurchof00wordrich` | pd-us-by-date; NOT_IN_COPYRIGHT; University of California | metadata, title page read, text fetched (1.13M chars), October 2026. Not vendored. An Anglican outside witness. |
 | Diplomatarium Islandicum (Íslenzkt fornbréfasafn), vol. 11, A.D. 1310-1544 | Hið íslenzka bókmentafélag | none (Icelandic) | 1915 (Reykjavik) | `archive.org/details/diplomatariumisl11kaup` (vol. 10: `diplomatariumisl10kaupuoft`) | pd-us-by-date; no rights field; Robarts, University of Toronto | metadata, title page read, text fetched (1.96M chars), "ORDINANZIA 1542" heading at line 6346, October 2026. Not vendored. The body runs on to 1549. The Jon Arason letters were not isolated: the OCR spells his name in several forms. |
 | Samlade skrifter af Olavus Petri, vols. 3 and 4 | Olavus Petri | none (Swedish) | 1916, 1917 (host dates) | `olavuspetri0003unse`, `bwb_T3-BUN-536` | pd-us-by-date; no rights field | metadata and contents pages, October 2026. Not vendored. Vol. 4 holds the Chronicle, Sielenes tröst and Tobie comedia. |
 | Inbjudningsskrifter ... trehundraårsminnet af Upsala möte (essay on the Swedish church reformation and the Uppsala meeting 1593) | S. E. Henschen, A. N. Sundberg and others | none (Swedish) | 1893 | `archive.org/details/inbjudningsskri00univgoog` | pd-us-by-date; NOT_IN_COPYRIGHT; Harvard (Google scan) | metadata, text fetched (758K chars), essay heading at line 358, October 2026. Secondary. Not vendored. |
 | Käsikiria castesta ia muista christikunnan menoista (Agricola's Finnish Manual) | Mikael Agricola | none (Finnish) | 1549 | `archive.org/details/kasikiria-1549` | Public Domain Mark 1.0 on the item; also pd by date | metadata, text fetched (138K chars), three-point sample (readable, long-s), October 2026. Not vendored. Other Agricola items on the host: `rucouskiria-1544`, `p107-06_messu`, `P2106SeWsiTestamentti`, `psalteri` (not opened). |
-| Biskop Nils Glostrups visitatser i Oslo og Hamar Stifter, 1617-1637 | N. S. Glostrup; ed. Daae, Huitfeldt-Kaas | none (Danish-Norwegian) | 1895 | `archive.org/details/biskopnilsglost00huitgoog` | pd-us-by-date; NOT_IN_COPYRIGHT; University of California | metadata, imprint read, text fetched (895K chars), October 2026. One sampled page was genealogical notes, so the visitation text is not confirmed by reading. Not vendored. |
+| Brevis expositio catechismi pro parochis Norvegianis, per Petrum Palladium, cum praefatione Philippi Melanchthonis | Peder Palladius | none (Latin) | 1552 (Veit Kreutzer, per the host) | `archive.org/details/den-kbd-pil-130018161541-001` | pd-us-by-date for the 1552 print; the item carries no rights field and every page of the OCR carries the banner "Early European Books, Copyright 2009 ProQuest LLC. Images reproduced by courtesy of the Royal Library, Copenhagen", so the scan's status is for the lead to rule (INTAKE section 2) | Second pass, October 2026: metadata read; text fetched (136 KB) and sampled at five points, readable Latin with long s as f (about 0.50 against the project's Latin baseline), ninety-eight banner lines. The Danish-Norwegian church's own voice beyond the Ordinance, for Norway's parish priests, with Melanchthon's preface. Not vendored on the rights question. |
 | Olavus Petri, the Church Reformer of Sweden | Nils Forsander | none | 1918 | `archive.org/details/olavuspetrichur00forsgoog` | pd-us-by-date; "COPYRIGHT, 1918" read; NOT_IN_COPYRIGHT | metadata, OCR, October 2026. Secondary English biography. Not vendored. |
 
 **Public-domain English beside the non-English texts.** Found for the Swedish Mass (Yelverton, 1920,
@@ -119,7 +142,11 @@ or Olavus Petri's tracts. These gaps are recorded in section 4.
 | English translation of the 1537 ordinance | The brief asks for English beside every non-English text | Title searches on "church ordinance" with Denmark or Danish, "Kirkeordinans" and "Ordinatio" returned only the two Latin scans and the 1989 Danish volume. E. H. Dunkley, The Reformation in Denmark (SPCK 1948; `reformationinden0000ehdu` and several more scans) is a 1948 history in copyright. No public-domain English found. |
 | Danske Kirkelove (Rørdam, 1883-89) | The census lists Danish church law; the brief names it | archive.org title searches "kirkelove", "Danske Kirkelove", the creator "Rørdam, Holger Frederik" (the University history, Monumenta historiae danicae, Lamentatio ecclesiae and others; nothing titled Kirkelove) and a free-text search returned nothing. The Google Books API returned a quota error, so that host was not searched. Not found. |
 | Hans Thomissøn, Den danske Psalmebog (1569) and a modern edition | The census names hymnals; the brief names it | The only Thomissøn items found are five Royal Library prints of sermons and consolation tracts of 1570-73 (`den-kbd-pil-130018166489-001` to `-005`), not opened. No hymnal and no modern edition of 1569 was found. Open as a lead for another host. |
-| Hans Tausen, Smaaskrifter (Rørdam 1870) | Tausen's own pamphlets, public domain by date | Both scans (`smaaskrifterafha00taus`, `smaaskrifter00tausgoog`) read the Fraktur as Latin letters ("tøom", "tlje", "Ijanb"); the 16th-century Danish is unusable as text. Kept in section 3's seed as a lead for a clean transcription. Also seen, not opened: Tausen's translation of Menius, Oeconomia Christiana (1538, `den-kbd-pil-130017586409-001`, Royal Library). |
+| Hans Tausen, Smaaskrifter (Rørdam 1870) | Tausen's own pamphlets, public domain by date | Both scans (`smaaskrifterafha00taus`, `smaaskrifter00tausgoog`) read the Fraktur as Latin letters ("tøom", "tlje", "Ijanb"); the 16th-century Danish is unusable as text. Kept in section 3's seed as a lead for a clean transcription. Also seen, not opened: Tausen's translation of Menius, Oeconomia Christiana (1538, `den-kbd-pil-130017586409-001`, Royal Library). Second pass, October 2026: `smaaskrifterafha00taus` re-fetched and sampled at five points, still unreadable at every point; a creator search for Tausen and Tavsen on archive.org found no other scan; Google Books could not be searched. Still a lead for a clean transcription. |
+| Peder Palladius, En Visitatz Bog (ed. Svend Grundtvig, Samfundet til den danske literaturs fremme, 1872; `envisitatzbogin00fremgoog`, NOT_IN_COPYRIGHT) | The bishop of Zealand's visitation book of the 1540s, the classic Danish source for the ordinary parish | Second pass, October 2026: metadata read, text fetched (550 KB) and sampled at five points. The 1872 edition prints the old text in Fraktur, which the OCR reads as Latin letters ("bem aff jtælenc c førbe bem"); only the editor's notes in roman type read. Unusable as text; a lead for a clean transcription, like Tausen. |
+| En Ordinantz hvorledis Kirketjenesten skal holdes udi Danmarks og Norges Riger (the Danish Ordinance of 1539, Royal Library `den-kbd-pil-130017049802-001`, printer Hans Barth; the host attributes the translation to Palladius with a query) | The Danish text of the 1539 ordinance, which the first pass found only in the 1989 edition | Second pass, October 2026: metadata read (no rights field, early-european-books collection), text fetched (162 KB) and sampled: Fraktur read as noise at every point (about 0.35 of tokens match any Dutch word, by letter chance). Also seen in the same search: "Den rette Ordinants" printings of 1553, 1562 and 1574 (`den-kbd-pil-130018150655-001` and siblings), not opened. Closed as a text; the Latin Ordinatio of 1537 stays the vendored witness. |
+| Palladius, Formula visitationis provincialis seu praepositorum (1555, `den-kbd-pil-130018161576-001`) | The superintendent's own Latin visitation formula | Second pass, October 2026: text fetched (71 KB) and sampled: garbled at every point (about 0.35), unlike the 1552 catechism exposition (section 3). Closed as a text. |
+| Merle d'Aubigné, History of the Reformation in Europe in the Time of Calvin, vol. VII: Geneva, Denmark, Sweden, Norway (1876; `india.history.resource.86661`) | The only English narrative of the Danish Reformation the title search found | Secondary and not opened; a nineteenth-century Genevan historian, not a Scandinavian source. Noted so the next search does not repeat it. |
 | Schaff, Creeds of Christendom vol. 3 (`bibliothecasymbo03scha`) | The brief names it for the Swedish confessions | Full text fetched (2.5M chars): no hit for Sweden, Swedish, Denmark, Danish or Upsala. It has no Scandinavian confession. (Its Augsburg Confession is already in the corpus in other renderings.) |
 | Kurtzer Bericht von dem Concilio in Upsal, Anno 1593 (Greifswald, 1693; `MN40301ucmf_14`) | A German account of the synod printed a century later | Microfilm of 22K characters of Fraktur read as Latin letters; garbled. Not usable. |
 | Uppsala 1593 as a separate acta printing | The census says the acta are "verified" | Title searches "Upsala möte", "Uppsala möte 1593" found only Henschen's 1893 invitations (section 3). The decisions were found inside the Bensow volume and vendored. |
@@ -176,9 +203,14 @@ has the founding ordinance, but only as a Latin scan with systematic glyph noise
 voice beyond the ordinance (Tausen, Thomissøn's hymnal, the Kirkelove) was found only as garbled
 scans or not found, and every Danish and Norwegian vernacular text is a lead or a gap. Iceland and
 Finland are leads. The ordinary voice the census promises (hymnal tradition and visitation records)
-is in hand for Sweden (the hymns of 1536 in vol. 2) and a lead for Norway (Glostrup). There is no
+is in hand for Sweden (the hymns of 1536 in vol. 2) and, after the second pass, for Norway
+(Glostrup's visitations of 1617 to 1637, the bishop's own Danish). There is no
 public-domain English for the Ordinance, the Uppsala decisions, the Manual or the tracts, so a
-build would work from the Swedish and Latin originals, which the intake rules allow as primary.
+build would work from the Swedish and Latin originals, which the intake rules allow as primary;
+Anjou's narrative (1859) now gives an English cross-check for the Swedish side. The Danish
+vernacular voice is still missing: Tausen, Palladius's Visitatsbog and the Danish Ordinantz all
+exist on the host only as unreadable Fraktur OCR, and the one readable Danish-side voice found,
+Palladius's Latin for the Norwegian priests, waits on a rights ruling.
 
 **Uniqueness (B3).** The sibling most like it is the Lutheran Wittenberg entry (VI.1), which shares the
 confession and the Wittenberg models. This world differs in its mechanism (the crown and the diet
@@ -192,14 +224,18 @@ of Iceland and the Evangelical Lutheran Church of Finland are living bodies whos
 is built on this period; Lutheran emigrant churches in North America (the Augustana Synod that
 published two of the English books found here) keep it too. A real audience exists.
 
-**Scale (B5).** About 4.7 million characters in five vendored files, plus a verified second round of
-about 7 million characters of leads (Anjou, Wordsworth, Diplomatarium vol. 11, Glostrup, Agricola,
-Olavus Petri vols. 3 and 4). Mid-size by the library's scale, Swedish-heavy.
+**Scale (B5).** About 6.6 million characters in seven vendored files after the second pass (4.7M
+in the first five), plus verified leads of about 5 million characters (Wordsworth, Diplomatarium
+vol. 11, Agricola, Olavus Petri vols. 3 and 4, Palladius's Latin). Mid-size by the library's
+scale, Swedish-heavy.
 
-**Recommendation: build.** The Swedish half of the world's own voice is vendored, clean and
-primary, the floor is clear, and the window and mechanism are distinct from Wittenberg's.
-The census's "institutionally rich" holds for Sweden and for the Ordinance, not for the Danish
-vernacular, Iceland or Finland, so the world should be scoped to Sweden and Denmark-Norway at
-Doc_01 and treat the thin edges as honest limits. A second round on the next leads (Anjou, the
-Diplomatarium, Glostrup and a clean Tausen) would be worth doing before Doc_02. This is a
-recommendation for Mark, not a decision.
+**Recommendation: build.** Unchanged by the second pass. The Swedish half of the world's own voice
+is vendored, clean and primary, the floor is clear, and the window and mechanism are distinct
+from Wittenberg's. The second pass added Norway's own voice (Glostrup) and an English narrative
+for Sweden (Anjou), and confirmed that the Danish vernacular is not reachable as text on the
+hosts this sandbox can use. The census's "institutionally rich" holds for Sweden, for the
+Ordinance and now for Norway's visitations, not for the Danish vernacular, Iceland or Finland,
+so the world should be scoped to Sweden and Denmark-Norway at Doc_01 and treat the thin edges as
+honest limits. What is still worth doing before Doc_02 is a rights ruling on the Royal Library
+scans (Palladius 1552) and a clean transcription of Tausen or the Visitatsbog from a host this
+sandbox cannot reach. This is a recommendation for Mark, not a decision.

@@ -1,0 +1,62 @@
+source_file: howard_christians-of-st-thomas-and-their-liturgies_1864.txt
+
+authors_ruled:
+  howard:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page in the OCR
+      is garbled but the host catalogue gives Howard, George Broadley, and the 1869 Philipos volume (vendored)
+      names him on its title page as "author of The Christians of S. Thomas and their Liturgies". A mechanical
+      index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: howard_christians-of-st-thomas-and-their-liturgies_1864--chapter-ii-the-synod-of-diamper
+    work: "The Christians of St. Thomas and their Liturgies (Howard, 1864), chapters I-III: the early history, the Synod of Diamper, the later history"
+    author: howard
+    locus: "Chapter I (the traditions and history to 1502) from file line 843; Chapter II (the Synod of Diamper, Archbishop Menezes, Mar Abraham's death, Archdeacon George) from 1948; Chapter III (the subsequent history, the Church Missionary Society at Cottayam) from 3000"
+    atlas_ids:
+      - st-thomas-christians-under-portuguese-pressure-d
+    role: context
+    confidence: assigned
+    note: >
+      An Anglican clergyman's narrative of 1599-1653 written from Geddes, Raulin and the Syrian
+      manuscripts, with the community's own liturgical books in hand. A secondary witness; read
+      at the chapter headings and the Menezes passages (lines about 1948-2250). Clean body OCR;
+      the scanned front matter is garbled.
+  - row_id: howard_christians-of-st-thomas-and-their-liturgies_1864--chapter-ii-the-synod-of-diamper-2
+    work: "The Christians of St. Thomas and their Liturgies (Howard, 1864): the Ordo Communis and six anaphorae translated from Syriac manuscripts obtained in Travancore"
+    author: howard
+    locus: "Appendix C (analysis of the Ordo Communis) from file line 9772; the translation of the Ordo Communis from 11139; 'The Anaphora of St. James' from 12974, then the anaphorae of St. Peter, the Twelve Apostles, Mar Dionysius, Mar Xystus and Mar Evannis"
+    atlas_ids:
+      - the-malankara-churches-orthodox-and-jacobite
+    role: tradition
+    confidence: provisional
+    note: >
+      The West Syriac rite of the Malankara Jacobites as used in Travancore in the 1860s, in
+      English from local manuscripts: the church's own liturgy in that entry's window. Placed on
+      the translations' source and date; not read for that entry.
+  - row_id: howard_christians-of-st-thomas-and-their-liturgies_1864--chapter-ii-the-synod-of-diamper-3
+    work: "The Christians of St. Thomas and their Liturgies (Howard, 1864): the liturgies of the community after the separation of 1653"
+    author: howard
+    locus: "the translation of the Ordo Communis from file line 11139 and the anaphorae from 12974; Appendix A on doctrine from 9216"
+    atlas_ids:
+      - st-thomas-christians-under-portuguese-pressure-d
+    role: context
+    confidence: provisional
+    note: >
+      The rite the separated (Jacobite) party came to use after 1653 is the West Syriac rite
+      brought by Mar Gregorios in 1665, not the East Syriac rite the Synod of Diamper revised
+      (Raulin's Latin and Neale's English, vendored, carry that). Useful to a build as the
+      liturgical outcome of the oath, two centuries on; a record of the rite, not of the window.
+      Placed on content without a close read.
+  - row_id: howard_christians-of-st-thomas-and-their-liturgies_1864--chapter-ii-the-synod-of-diamper-4
+    work: "The Christians of St. Thomas and their Liturgies (Howard, 1864), chapter I: the early traditions and history to 1502"
+    author: howard
+    locus: "Chapter I from file line 843 to 1947"
+    atlas_ids:
+      - st-thomas-christians-1300-1517
+    role: context
+    confidence: provisional
+    note: >
+      A nineteenth-century Anglican summary of the medieval traditions of the community. Placed
+      on the chapter title; not read for that entry.

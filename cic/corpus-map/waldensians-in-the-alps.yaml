@@ -3,6 +3,21 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: waldensians-in-the-alps
 works:
+- row_id: gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644--histoire-ecclesiastique-des-eglises-reformees-des-valees-de-2
+  work: 'Histoire ecclesiastique des Eglises Reformees des Valees de Piedmont, autrefois appelees
+    Eglises Vaudoises, 1160 to 1643: the first printing, Geneva 1644'
+  author: gilles
+  locus: the medieval chapters (1160 to the 1520s) in the first part of the file, found by
+    phrase against the 1881 tome 1
+  role: tradition
+  confidence: provisional
+  note: 'Mirrors the 1881 tome 1 row for the medieval Waldensian entry: Gilles''s account
+    of the valleys before the union, written in 1644 from the valleys'' own memory. Provisional
+    on the same ground as the 1881 row (the dating of the ''ancient'' documents is contested).
+    Second witness.
+
+    '
+  source_file: gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt
 - row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-i-2
   work: Histoire ecclésiastique des Églises Vaudoises, Tome premier, the chapters on the valleys
     before 1532
@@ -63,6 +78,20 @@ works:
 
     '
   source_file: perrin_histoire-des-vaudois-fra_1619.txt
+- row_id: perrin_histoire-des-vaudois-parties-2-3-fra_1618--histoire-des-vaudois-part-iii-1618-the-doctrine-and-the-2
+  work: 'Histoire des Vaudois, Part III (1618): the doctrine and the discipline the Vaudois
+    held in common, with the old Vaudois texts printed in their own tongue and in French'
+  author: perrin
+  locus: file lines 7317 to the end
+  role: tradition
+  confidence: provisional
+  note: 'The medieval treatises and the Discipline as printed in 1618; the texts themselves
+    belong to the valleys before the union, their dating is the contested point the first-pass
+    dossier names, and Perrin''s framing is the union''s. Mirrors the provisional placement
+    of the 1619 Part I and the 1847 English on this entry. Second witness.
+
+    '
+  source_file: perrin_histoire-des-vaudois-parties-2-3-fra_1618.txt
 - row_id: perrin_history-ancient-christians-valleys-alps_1847--perrin-history-of-the-old-waldenses-and-albigenses-english-2
   work: History of the Old Waldenses anterior to the Reformation (Perrin, English), with the
     ancient catechism and discipline

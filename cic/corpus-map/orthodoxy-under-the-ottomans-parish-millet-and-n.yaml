@@ -16,6 +16,32 @@ works:
 
     '
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+- row_id: akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865--letters-of-patriarch-meletios-pegas-of-alexandria-to-the
+  work: Letters of Patriarch Meletios Pegas of Alexandria to the Ruthenian Orthodox (1590s),
+    in the additions to vols. 1 and 2
+  author: akty-iuzhnoi-i-zapadnoi-rossii
+  locus: 'in the additions (ПРИБАВЛЕНIЯ from file line 12642): the Meletios letters at about
+    file lines 22438-22772 (''Седьмое послание Мелетиево'', dated Constantinople 7105)'
+  role: context
+  confidence: provisional
+  note: 'Meletios Pegas, Patriarch of Alexandria and locum tenens of Constantinople, writing
+    to the Ruthenians against the union in the 1590s: a Greek patriarch''s voice in Ruthenian
+    translation. The Ottoman dossier closed Pegas as not found; this is the one printed trace.
+    Provisional: a translation, in a garbled OCR, read at two points.'
+  source_file: akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt
+- row_id: akty-zapadnoi-rossii_t4-1588-1652-rus_1851--akty-zapadnoi-rossii-vol-4-patriarch-jeremias-ii-s-acts-in
+  work: 'Akty Zapadnoi Rossii vol. 4: Patriarch Jeremias II''s acts in Lithuania and Kyiv,
+    1589-1590'
+  author: akty-zapadnoi-rossii
+  locus: documents 16 to 26 from file line 2109 to about file line 3600 (the circular of July
+    1589, the patriarchal letters of August 1589, the 1590 synod of Brest)
+  role: context
+  confidence: provisional
+  note: 'Patriarch Jeremias II of Constantinople, on his way home from creating the Moscow
+    patriarchate, deposed Metropolitan Onesiphorus, consecrated Michael Rahoza and gave the
+    Lviv brotherhood its stauropegial charter: the Patriarchate acting in the Ruthenian church.
+    Context for the Greek Church under the Ottomans; the acts are in Ruthenian, not Greek.'
+  source_file: akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt
 - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-anagnostes-de-thessalonicensi-excidio-narratio-greek
   work: John Anagnostes, De Thessalonicensi excidio narratio, Greek with Latin
   author: anagnostes
@@ -51,6 +77,25 @@ works:
 
     '
   source_file: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902.txt
+- row_id: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893--extracts-from-the-diaries-of-dr-john-covel-1670-1679-2
+  work: Extracts from the diaries of Dr John Covel, 1670-1679 (Constantinople, the Greek church,
+    Adrianople, Asia Minor)
+  author: covel
+  locus: same as the later-entry row
+  role: context
+  confidence: provisional
+  note: After this world's window (1650) by two decades; recorded here because the first-pass
+    dossier named Covel as a lead for this world. Provisional on date.
+  source_file: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt
+- row_id: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893--the-diary-of-master-thomas-dallam-1599-1600-the-organ-sent
+  work: The diary of Master Thomas Dallam, 1599-1600 (the organ sent to the Sultan)
+  author: dallam
+  locus: from file line 2041 (MASTER THOMAS DALLAM'S DIARY) to file line 6483
+  role: context
+  confidence: provisional
+  note: An English craftsman at Constantinople in 1599-1600, inside the window but with little
+    on the church; placed for completeness, provisional.
+  source_file: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt
 - row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--acts-and-decrees-of-the-synod-of-jerusalem-shield-of
   work: Acts and Decrees of the Synod of Jerusalem (Shield of Orthodoxy), 1672, English translation
   author: dositheus
@@ -67,6 +112,16 @@ works:
 
     '
   source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--acts-of-the-synod-of-jerusalem-1672-and-the-confession-of-2
+  work: Acts of the Synod of Jerusalem (1672) and the confession of Dositheus, Greek with
+    Latin (Kimmel 1843)
+  author: dositheus
+  locus: same as the later-entry row
+  role: tradition
+  confidence: assigned
+  note: 'Mirrors the 1850 row: the Jerusalem synod closes the Lucaris affair and is placed
+    on this world as its ending text.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--acts-of-the-synod-of-jerusalem-1672-greek-with-latin
   work: Acts of the Synod of Jerusalem (1672), Greek with Latin
   author: dositheus
@@ -152,6 +207,19 @@ works:
 
     '
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--confessiones-i-and-ii-of-gennadius-scholarius-greek-with
+  work: Confessiones I and II of Gennadius Scholarius, Greek with Latin (Kimmel 1843)
+  author: gennadius-scholarius
+  locus: Gennadii Confessio I from file line 4553, Confessio II from about file line 6254,
+    to about file line 8763
+  role: tradition
+  confidence: assigned
+  note: 'The first Patriarch under the Sultan''s own statement of the faith made for Mehmed
+    II, in Greek with Kimmel''s Latin. This 1843 first printing holds the same texts as the
+    vendored Kimmel 1850 and is a second scan of the Greek: at the sampled points its Greek
+    column is read whole where the 1850 OCR cuts it, though it holds fewer Greek letters overall.
+    Use whichever scan reads cleanly at the passage, and check against the page images.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678--a-description-of-the-present-state-of-samos-nicaria-patmos
   work: A Description of the Present State of Samos, Nicaria, Patmos, and Mount Athos
   author: georgirenes
@@ -297,6 +365,18 @@ works:
 
     '
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--confession-of-cyril-lucaris-greek-with-latin-kimmel-1843
+  work: Confession of Cyril Lucaris, Greek with Latin (Kimmel 1843)
+  author: lucaris
+  locus: Cyrilli Lucaris Confessio at about file lines 8764-8914
+  role: tradition
+  confidence: assigned
+  note: 'The 1629 Confession in its Greek form, the text the synods of 1638, 1642 and 1672
+    condemned. This 1843 first printing holds the same texts as the vendored Kimmel 1850 and
+    is a second scan of the Greek: at the sampled points its Greek column is read whole where
+    the 1850 OCR cuts it, though it holds fewer Greek letters overall. Use whichever scan
+    reads cleanly at the passage, and check against the page images.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--lettres-anecdotes-de-cyrille-lucar-et-sa-confession-de-foi
   work: Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques
     (Amsterdam, 1718)
@@ -328,6 +408,20 @@ works:
 
     '
   source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
+- row_id: maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910--maxim-the-greek-moral-writings-nravouchitel-nye-sochineniia-2
+  work: Maxim the Greek, moral writings (Nravouchitel'nye sochineniia), in the 1910 Trinity-Sergius
+    Lavra Russian translation
+  author: maxim-the-greek
+  locus: the letter on the poverty of the Vatopedi monastery and the Athonite mission, in
+    the writing at about file line 8700 (printed page 202), and the dedication to Vasily III
+    at the contents entry XXV
+  role: context
+  confidence: provisional
+  note: Maxim was a monk of Vatopedi on Athos sent to Moscow by the Protos in 1516-1518; his
+    letters speak of the Athonite houses under the Turks and their need. Placed on two passages
+    read in sample; the Ottoman thread decides whether a Russian-side witness to Athos belongs
+    here.
+  source_file: maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin
   work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
   author: mogila
@@ -341,6 +435,19 @@ works:
 
     '
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--the-orthodox-confession-confessio-orthodoxa-greek-with-latin
+  work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin (Kimmel 1843)
+  author: mogila
+  locus: Orthodoxa Confessio from about file line 8915 (Greek heading at file line 8915) to
+    about file line 40196
+  role: tradition
+  confidence: assigned
+  note: 'Mogila''s Confession as approved at Jassy in 1642, Greek and Latin. This 1843 first
+    printing holds the same texts as the vendored Kimmel 1850 and is a second scan of the
+    Greek: at the sampled points its Greek column is read whole where the 1850 OCR cuts it,
+    though it holds fewer Greek letters overall. Use whichever scan reads cleanly at the passage,
+    and check against the page images.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: mogila_orthodox-confession_overbeck1898--the-orthodox-confession-of-the-catholic-and-apostolic
   work: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa),
     English version
@@ -558,3 +665,14 @@ works:
 
     '
   source_file: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678.txt
+- row_id: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868--george-williams-introduction-on-projects-of-reunion-between
+  work: George Williams, introduction on projects of reunion between the Eastern Church and
+    the Anglican Communion (Melanchthon and Jeremias II, Abbot and Lucaris, Basire, the Nonjurors)
+  author: williams-george
+  locus: INTRODUCTION from file line 78 to file line 2067 (Lucar and Abbot at about file lines
+    337-386) and its appendix from file line 2068
+  role: context
+  confidence: provisional
+  note: An Anglican scholar's 1868 account of the Lucaris generation's contacts with the West;
+    scholarship, in window only for those pages.
+  source_file: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt

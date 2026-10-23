@@ -3,6 +3,19 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: family-of-love-and-spiritualists-franck-niclaes
 works:
+- row_id: family-of-love_supplication-examined-and-confuted_1606--a-supplication-of-the-family-of-love-examined-and-confuted-1606
+  work: A Supplication of the Family of Love, examined and confuted (1606)
+  author: family-of-love
+  locus: first "The Families Supplication" head with "The Examination" at file line 106; the
+    Familists disclaim the charged errors at file line 168; the examiner on H. N. as a German
+    author at file line 1090
+  role: tradition
+  confidence: assigned
+  note: 'The English Family''s own petition to James I (1604), surviving inside a hostile
+    1606 examination that prints it section by section: the community''s voice after Niclaes,
+    which the dossier recorded as absent. Role tradition for the petition sections; the examiner''s
+    answers are context. Readable microfilm OCR; quotable once checked against the page image.'
+  source_file: family-of-love_supplication-examined-and-confuted_1606.txt
 - row_id: family-of-love-brief-rehersall-of-the-beleef-1575-a-brief-rehersall-of-the-beleef-of-the-goodwilling-in-englan
   work: A brief Rehersall of the Beleef of the Goodwilling in Englande, which are named the
     Familie of Loue, 1575
