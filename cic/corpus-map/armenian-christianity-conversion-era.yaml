@@ -43,3 +43,13 @@ works:
 
     '
   source_file: ormanian_church-of-armenia_gregory1912.txt
+- row_id: serpos_compendio-storico-nazione-armena-t1-ita_1786--compendio-storico-tomo-i-the-conversion-and-early-church-of
+  work: 'Compendio storico, Tomo I: the conversion and early church of Armenia as Serpos tells
+    it'
+  author: serpos
+  locus: the chapters on Gregory the Illuminator and the first patriarchs
+  role: transmission
+  confidence: provisional
+  note: Eighteenth-century reception of the conversion story by an Armenian Catholic; provisional
+    for the conversion-era entry, since it is a late retelling.
+  source_file: serpos_compendio-storico-nazione-armena-t1-ita_1786.txt

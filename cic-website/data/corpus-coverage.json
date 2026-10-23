@@ -8,8 +8,8 @@
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
     "total_entries": 292,
-    "entries_with_coverage": 137,
-    "entries_zero_coverage": 155
+    "entries_with_coverage": 138,
+    "entries_zero_coverage": 154
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -8212,6 +8212,14 @@
           "confidence": "provisional",
           "source_file": "ormanian_church-of-armenia_gregory1912.txt",
           "rights": "Public Domain (published 1912; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Compendio storico, Tomo I: the conversion and early church of Armenia as Serpos tells it",
+          "author": "serpos",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "serpos_compendio-storico-nazione-armena-t1-ita_1786.txt",
+          "rights": "Public Domain (published 1786, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
         }
       ]
     },
@@ -12063,7 +12071,16 @@
     "latin-papal-church-avignon-to-lateran-v": {
       "name": "The Latin Papal Church (Avignon to Fifth Lateran)",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Mansi vol. 35: the supplements to Constance, Florence and Lateran V",
+          "author": "mansi",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+          "rights": "Public Domain (published 1902, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        }
+      ]
     },
     "byzantine-church-palaiologan": {
       "name": "The Byzantine Church, Palaiologan Era",
@@ -17066,6 +17083,14 @@
           "rights": "Public Domain (pre-1930 publication)"
         },
         {
+          "work": "Vetera monumenta Poloniae et Lithuaniae, vol. IV, as a whole",
+          "author": "theiner",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864.txt",
+          "rights": "Public Domain (published 1864, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "Unia Grekov s kostelom Rymskim (a Uniate pamphlet, 1595)",
           "author": "unia-grekov-1595",
           "role": "tradition",
@@ -20644,6 +20669,14 @@
           "rights": "Public Domain (pre-1930 publication); the item record carries no possible-copyright-status field and its date (1851) comes from the host's catalogue record, not from a printed year read in the OCR; see the Provenance note"
         },
         {
+          "work": "Mémoires du Levant, tome III: the Crimea and Circassia letters",
+          "author": "lettres-edifiantes",
+          "role": "context",
+          "confidence": "needs-ruling",
+          "source_file": "lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt",
+          "rights": "Public Domain (published 1780, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "Confessio Christianae fidei (Latin), Cyril Lucaris",
           "author": "lucaris",
           "role": "context",
@@ -20740,6 +20773,14 @@
           "rights": "Public Domain (printed 1872)"
         },
         {
+          "work": "Dissertazione, the Catholic Armenians as loyal Ottoman subjects",
+          "author": "serpos",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt",
+          "rights": "Public Domain (published 1783, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'http://creativecommons.org/publicdomain/mark/1.0/')"
+        },
+        {
           "work": "An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account of the Greek church under Cyrillus Lucaris",
           "author": "smith-thomas",
           "role": "context",
@@ -20762,6 +20803,14 @@
           "confidence": "assigned",
           "source_file": "lucaris_confessio-and-synodal-censures-lat_1645.txt",
           "rights": "Public Domain (pre-1930 publication); the host (Biblioteka Jagiellonska) marks the item 'Domena publiczna (public domain)'"
+        },
+        {
+          "work": "A Voyage into the Levant, vol. II: Constantinople and Georgia",
+          "author": "tournefort",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "tournefort_voyage-into-the-levant-v2_1718.txt",
+          "rights": "Public Domain (published 1718, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads '<a href=\"http://creativecommons.org/publicdomain/mark/1.0/\" rel=\"ugc nofollow\">This work is available under the Creative Commons, Public Domain Mark</a>')"
         }
       ]
     },
@@ -20999,12 +21048,60 @@
           "rights": "Public Domain (published 1876; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "Le couvent de Saint-Lazare à Venise, ou histoire succincte de l'ordre des Méchitaristes arméniens (1837)",
+          "author": "bore",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "bore_couvent-de-saint-lazare-a-venise-fra_1837.txt",
+          "rights": "Public Domain (published 1837, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
           "work": "History of Armenia (Chamich; Avdall's English translation, 1827), volume II, Part VII and Avdall's continuation: the catholicoi to 1780 and 1827",
           "author": "chamich",
           "role": "context",
           "confidence": "provisional",
           "source_file": "chamich_history-of-armenia-v2_avdall1827.txt",
           "rights": "Public Domain (published 1827; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Armenia and the Armenians, vol. II: the eighteenth-century chapters (Mechitar, the patriarchs at Constantinople, the catholicoi)",
+          "author": "issaverdens",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+          "rights": "Public Domain (published 1875, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "The Armenian Ritual, Parts I-IV (liturgy, sacraments, ordinal, rites and calendar)",
+          "author": "issaverdens",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "issaverdens_armenian-ritual-parts1-4_1876.txt",
+          "rights": "Public Domain (published 1876, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Mémoires du Levant, tome III: the Jesuit memoirs on Armenia and the missions of Erivan and Erzurum",
+          "author": "lettres-edifiantes",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt",
+          "rights": "Public Domain (published 1780, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Il Servo di Dio Abate Mechitar: sua vita e suoi tempi (1914)",
+          "author": "nurikhan",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "nurikhan_servo-di-dio-abate-mechitar-ita_1914.txt",
+          "rights": "Public Domain (published 1914, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The Life and Times of the Servant of God Abbot Mechitar (English, 1915)",
+          "author": "nurikhan",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt",
+          "rights": "Public Domain (published 1915, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
         },
         {
           "work": "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapters XVII-XVIII, awakening and the eighteenth century",
@@ -21023,12 +21120,60 @@
           "rights": "Public Domain (pre-1930 publication); the item record (Internet Archive, from the early English books microfilm scans) carries no possible-copyright-status field"
         },
         {
+          "work": "Compendio storico di memorie cronologiche concernenti la religione e la morale della nazione armena, Tomo I (1786)",
+          "author": "serpos",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "serpos_compendio-storico-nazione-armena-t1-ita_1786.txt",
+          "rights": "Public Domain (published 1786, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Compendio storico di memorie cronologiche concernenti la religione e la morale della nazione armena, Tomo II (1786)",
+          "author": "serpos",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt",
+          "rights": "Public Domain (published 1786, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Compendio storico, Tomo III: Libro Sesto, the Armenians of the author's day (1786)",
+          "author": "serpos",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "serpos_compendio-storico-nazione-armena-t3-ita_1786.txt",
+          "rights": "Public Domain (published 1786, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Dissertazione polemico-critica sopra due dubbj di coscienza concernenti gli Armeni cattolici (1783)",
+          "author": "serpos",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt",
+          "rights": "Public Domain (published 1783, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'http://creativecommons.org/publicdomain/mark/1.0/')"
+        },
+        {
           "work": "History of the Armenians in India from the Earliest Times to the Present Day (1897)",
           "author": "seth",
           "role": "context",
           "confidence": "provisional",
           "source_file": "seth_history-of-the-armenians-in-india_1897.txt",
           "rights": "Public Domain (published 1897; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "A Voyage into the Levant, vol. II: the Armenians (1718)",
+          "author": "tournefort",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "tournefort_voyage-into-the-levant-v2_1718.txt",
+          "rights": "Public Domain (published 1718, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads '<a href=\"http://creativecommons.org/publicdomain/mark/1.0/\" rel=\"ugc nofollow\">This work is available under the Creative Commons, Public Domain Mark</a>')"
+        },
+        {
+          "work": "Relation d'un voyage du Levant, tome III: Armenia and Georgia (1717)",
+          "author": "tournefort",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "tournefort_relation-d-un-voyage-du-levant-t3-fra_1717.txt",
+          "rights": "Public Domain (published 1717, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
         },
         {
           "work": "Mémoires historiques sur les Sofis, par le diacre Zakaria de Kanaker (Brosset's French translation, 1876)",
@@ -21060,6 +21205,30 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Apollogia, że Rusi Unitom nie godzi się odstępować od swojego Obrządku ([1772])",
+          "author": "anonymous-uniate",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772.txt",
+          "rights": "Public Domain (published 1772, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'Public Domain')"
+        },
+        {
+          "work": "Codex Constitutionum Ordinis S. Basilii M. (1791)",
+          "author": "basilian-order",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791.txt",
+          "rights": "Public Domain (published 1791, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'Domena publiczna (public domain)')"
+        },
+        {
+          "work": "Brevis notitia fundationis Theodori Koriathovits, Part I (1799)",
+          "author": "basilovits",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "basilovits_brevis-notitia-fundationis-koriathovits-pars1-lat_1799.txt",
+          "rights": "Public Domain (published 1799, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "Annales Ecclesiae Ruthenae (history of the Ruthenian Greek Catholic church, with documents)",
           "author": "harasiewicz",
           "role": "context",
@@ -21068,12 +21237,44 @@
           "rights": "Public Domain (pre-1930 publication)"
         },
         {
+          "work": "Synodus provincialis Ruthenorum (1720), papal confirmation and Propaganda's decrees",
+          "author": "mansi",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+          "rights": "Public Domain (published 1902, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720 (acts, decrees, professions of faith, Metropolitan Kiszka's letters)",
+          "author": "mansi",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+          "rights": "Public Domain (published 1902, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "Geschichte der Union der ruthenischen Kirche mit Rom, Vol. 2 (1596-1879)",
           "author": "pelesz",
           "role": "context",
           "confidence": "provisional",
           "source_file": "pelesz_geschichte-der-union-bd2-deu_1880.txt",
           "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Vetera monumenta Poloniae et Lithuaniae, vol. IV: the documents on the Ruthenian Uniate church and the Basilians",
+          "author": "theiner",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864.txt",
+          "rights": "Public Domain (published 1864, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Katechizm albo Krótkie zebranie Nauki Chrześciańskiey (1792), with the bishop's pastoral letter",
+          "author": "wazynski",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "wazynski_katechizm-albo-krotkie-zebranie-nauki-chrzescianskiey-pol_1792.txt",
+          "rights": "Public Domain (published 1792, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'Domena publiczna (public domain)')"
         }
       ]
     },
@@ -21302,6 +21503,38 @@
           "rights": "Public Domain (published 1827; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "Le couvent de Saint-Lazare à Venise (1837), on the order in the 1830s",
+          "author": "bore",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "bore_couvent-de-saint-lazare-a-venise-fra_1837.txt",
+          "rights": "Public Domain (published 1837, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Armenia and the Armenians, vol. II (1875), as a Zartonk-era Mechitarist work",
+          "author": "issaverdens",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+          "rights": "Public Domain (published 1875, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "The Armenian Ritual, Parts I-IV (liturgy, sacraments, ordinal, rites and calendar)",
+          "author": "issaverdens",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "issaverdens_armenian-ritual-parts1-4_1876.txt",
+          "rights": "Public Domain (published 1876, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Il Servo di Dio Abate Mechitar, as a work of the twentieth-century congregation",
+          "author": "nurikhan",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "nurikhan_servo-di-dio-abate-mechitar-ita_1914.txt",
+          "rights": "Public Domain (published 1914, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapter XIX, the nineteenth century",
           "author": "ormanian",
           "role": "context",
@@ -21355,6 +21588,14 @@
           "confidence": "provisional",
           "source_file": "harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
           "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Synodus provincialis Ruthenorum (1720), later reception",
+          "author": "mansi",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+          "rights": "Public Domain (published 1902, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
           "work": "Geschichte der Union der ruthenischen Kirche mit Rom, Vol. 2 (1596-1879)",

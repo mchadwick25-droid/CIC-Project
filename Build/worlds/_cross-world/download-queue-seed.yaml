@@ -12035,3 +12035,276 @@ queue:
     verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
     status: downloaded
     vendored_as: "conybeare_russian-dissenters_1921.txt"
+
+  - title: "Compendio storico ... della nazione armena, vol. I (1786)"
+    author: "Giovanni de Serpos"
+    translator: "none (Italian original)"
+    year: "1786"
+    world: "armenian-christianity-era-8"
+    why: >
+      An Armenian Catholic's own account, inside the window, of his
+      nation's church for the Roman congregation that governed the
+      Catholic Armenians; the case that the national church's past is
+      orthodox, argued from within the millet tension the entry names.
+    url: "https://archive.org/details/compendiostoric01serpgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "serpos_compendio-storico-nazione-armena-t1-ita_1786.txt"
+
+  - title: "Compendio storico ... della nazione armena, vol. II (1786)"
+    author: "Giovanni de Serpos"
+    translator: "none (Italian original)"
+    year: "1786"
+    world: "armenian-christianity-era-8"
+    why: >
+      The middle of Serpos's argument; needed with the other two volumes
+      so the work is whole.
+    url: "https://archive.org/details/compendiostoric02serpgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt"
+
+  - title: "Compendio storico ... della nazione armena, vol. III (1786)"
+    author: "Giovanni de Serpos"
+    translator: "none (Italian original)"
+    year: "1786"
+    world: "armenian-christianity-era-8"
+    why: >
+      The contemporary state of the Ottoman Armenians' church life in the
+      1780s, described from inside by an Armenian Catholic, with his own
+      reform programme.
+    url: "https://archive.org/details/compendiostoric00serpgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "serpos_compendio-storico-nazione-armena-t3-ita_1786.txt"
+
+  - title: "Dissertazione ... sopra due dubbj di coscienza concernenti gli Armeni cattolici (1783)"
+    author: "Giovanni de Serpos"
+    translator: "none (Italian original)"
+    year: "1783"
+    world: "armenian-christianity-era-8"
+    why: >
+      The entry's central tension, the Catholic Armenians inside the
+      Ottoman millet and their relation to the Apostolic Church, argued in
+      1783 by one of them while the persecutions he describes were going
+      on.
+    url: "https://archive.org/details/bub_gb_jvbJbRJvfqYC"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt"
+
+  - title: "Il Servo di Dio Abate Mechitar (Italian, 1914)"
+    author: "Minas Nurikhan"
+    translator: "none (Italian original)"
+    year: "1914"
+    world: "armenian-christianity-era-8"
+    why: >
+      The congregation's own life of its founder, written at San Lazzaro
+      for his beatification cause, with sixty documents; the nearest thing
+      in print to Mechitar's own record.
+    url: "https://archive.org/details/ilservodidioabat00nuri"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "nurikhan_servo-di-dio-abate-mechitar-ita_1914.txt"
+
+  - title: "The Life and Times of Abbot Mechitar (English, 1915)"
+    author: "Minas Nurikhan"
+    translator: "John McQuillan"
+    year: "1915"
+    world: "armenian-christianity-era-8"
+    why: >
+      The English version of the congregation's own life of its founder,
+      vendored beside the Italian original.
+    url: "https://archive.org/details/lifetimesofserva00nuriiala"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt"
+
+  - title: "Armenia and the Armenians, vol. II: Ecclesiastical History (1875)"
+    author: "James Issaverdens"
+    translator: "none (English original)"
+    year: "1875"
+    world: "armenian-christianity-era-8"
+    why: >
+      San Lazzaro's own account of the Armenian Church in English,
+      including its version of the eighteenth century and of its founder's
+      work.
+    url: "https://archive.org/details/armeniaandarmen03isavgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt"
+
+  - title: "The Armenian Ritual, Parts I-IV (English, 1873-1876)"
+    author: "James Issaverdens"
+    translator: "James Issaverdens"
+    year: "1876"
+    world: "armenian-christianity-era-8"
+    why: >
+      The Armenian rite in the San Lazzaro translators' English: the
+      worship both Apostolic and Catholic Armenians shared, which the
+      eighteenth-century disputes were partly about.
+    url: "https://archive.org/details/ArmenianRitual0104"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "issaverdens_armenian-ritual-parts1-4_1876.txt"
+
+  - title: "A Voyage into the Levant, vol. II (English, 1718)"
+    author: "Joseph Pitton de Tournefort"
+    translator: "unnamed"
+    year: "1718"
+    world: "armenian-christianity-era-8"
+    why: >
+      An outside eyewitness at the very start of the window (1700-1702),
+      among the Armenians of Constantinople and Erzurum, with a
+      description of their religion and of the Catholic-Apostolic
+      division.
+    url: "https://archive.org/details/b30413047_0002"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "tournefort_voyage-into-the-levant-v2_1718.txt"
+
+  - title: "Relation d'un voyage du Levant, tome III (French, 1717)"
+    author: "Joseph Pitton de Tournefort"
+    translator: "none (French original)"
+    year: "1717"
+    world: "armenian-christianity-era-8"
+    why: >
+      The original language of the outside witness vendored in English
+      above.
+    url: "https://archive.org/details/gri_relationdunv00tour"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "tournefort_relation-d-un-voyage-du-levant-t3-fra_1717.txt"
+
+  - title: "Le couvent de Saint-Lazare à Venise (1837)"
+    author: "Eugène Boré"
+    translator: "none (French original)"
+    year: "1837"
+    world: "armenian-christianity-era-8"
+    why: >
+      The order's history as a sympathetic French Catholic member of its
+      academy heard it at San Lazzaro, two decades after the window
+      closes.
+    url: "https://archive.org/details/lecouventdesain00borgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "bore_couvent-de-saint-lazare-a-venise-fra_1837.txt"
+
+  - title: "Lettres édifiantes, Mémoires du Levant, tome III (1780)"
+    author: "Jesuit missionaries (Father Monier and others)"
+    translator: "none (French original)"
+    year: "1780"
+    world: "armenian-christianity-era-8"
+    why: >
+      The Latin missionaries' own reports from the early eighteenth
+      century on the Armenians they sought to bring into union, including
+      their method of dealing with them; the Roman side of the encounter
+      that produced the Catholic Armenians.
+    url: "https://archive.org/details/lettresdifiantes03jesu_0"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt"
+
+  - title: "Mansi, Sacrorum Conciliorum collectio, vol. 35 (1414-1724), with the Synod of Zamość"
+    author: "Giovanni Domenico Mansi (ed.)"
+    translator: "none (Latin original)"
+    year: "1902"
+    world: "ruthenian-uniate-18th-century"
+    why: >
+      The acts of the Synod of Zamość, the entry's founding event and the
+      source its sourcing line names first, in the only complete printing
+      found on an open host.
+    url: "https://archive.org/details/sacrorumconcilio0035joan"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt"
+
+  - title: "Vetera monumenta Poloniae et Lithuaniae, vol. IV, 1697-1775 (1864)"
+    author: "Augustin Theiner (ed.)"
+    translator: "none (Latin and Italian originals)"
+    year: "1864"
+    world: "ruthenian-uniate-18th-century"
+    why: >
+      The papal documents for the entry's window down to 1775, continuing
+      volume III already vendored for the Union of Brest; the Roman side
+      of the church's eighteenth-century government.
+    url: "https://archive.org/details/veteramonumentap04thei"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864.txt"
+
+  - title: "Codex Constitutionum Ordinis S. Basilii M. (Pochaiv, 1791)"
+    author: "Ruthenian Basilian Order"
+    translator: "none (Latin original)"
+    year: "1791"
+    world: "ruthenian-uniate-18th-century"
+    why: >
+      The Basilian order's own constitutions, printed at its Pochaiv press
+      inside the window; the institution through which the Uniate church
+      was governed and Latinised.
+    url: "https://archive.org/details/jbc.bj.uj.edu.pl.NDIGSTDR024052"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791.txt"
+
+  - title: "Apollogia, że Rusi Unitom nie godzi się odstępować od swojego Obrządku ([1772])"
+    author: "anonymous (for the Ruthenian instigator)"
+    translator: "unnamed (translated from Latin into Polish)"
+    year: "1772"
+    world: "ruthenian-uniate-18th-century"
+    why: >
+      The Uniates defending their rite against drift to the Latin church,
+      in a real case of about 1772: the identity tension of the entry,
+      Byzantine rite inside Latin communion, argued by the Ruthenian side
+      itself.
+    url: "https://archive.org/details/rcin.org.pl.WA248_257618_XVIII-1-365_apollogia_o_231925"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772.txt"
+
+  - title: "Katechizm albo Krótkie zebranie Nauki Chrześciańskiey (Pochaiv, 1792)"
+    author: "Porfiriusz Skarbek-Ważyński (bishop issuing it)"
+    translator: "none (Polish original)"
+    year: "1792"
+    world: "ruthenian-uniate-18th-century"
+    why: >
+      What a Uniate diocese taught its people, in the year before the
+      second partition, under its own bishop's name and from the Pochaiv
+      press.
+    url: "https://archive.org/details/jbc.bj.uj.edu.pl.NDIGSTDR022328"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wazynski_katechizm-albo-krotkie-zebranie-nauki-chrzescianskiey-pol_1792.txt"
+
+  - title: "Brevis notitia fundationis Theodori Koriathovits, Part I (1799)"
+    author: "Joannicius Basilovits"
+    translator: "none (Latin original)"
+    year: "1799"
+    world: "ruthenian-uniate-18th-century"
+    why: >
+      The Ruthenian Greek Catholic church of Habsburg Hungary written up
+      by one of its own Basilian superiors in the window, with its
+      documents; the Carpathian branch of the same communion, outside the
+      Polish partitions.
+    url: "https://archive.org/details/brevisnotitiafun01basi"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "basilovits_brevis-notitia-fundationis-koriathovits-pars1-lat_1799.txt"

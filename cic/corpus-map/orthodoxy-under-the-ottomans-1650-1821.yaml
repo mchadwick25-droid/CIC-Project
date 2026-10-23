@@ -94,6 +94,15 @@ works:
   note: Placed on the entry's window (1650-1821). Greek liturgical book; its year rests on
     the host catalogue (front matter suggests the 1830s), so provisional.
   source_file: horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt
+- row_id: lettres-edifiantes_memoires-du-levant-t3-fra_1780--memoires-du-levant-tome-iii-the-crimea-and-circassia-letters
+  work: 'Mémoires du Levant, tome III: the Crimea and Circassia letters'
+  author: lettres-edifiantes
+  locus: the letters on the Crimean mission, the Circassian Tatars and the Nogai journey
+  role: context
+  confidence: needs-ruling
+  note: Jesuit reports from the Black Sea lands; whether any sibling entry wants them is not
+    decided.
+  source_file: lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt
 - row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris-3
   work: Confessio Christianae fidei (Latin), Cyril Lucaris
   author: lucaris
@@ -241,6 +250,15 @@ works:
 
     '
   source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+- row_id: serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783--dissertazione-the-catholic-armenians-as-loyal-ottoman
+  work: Dissertazione, the Catholic Armenians as loyal Ottoman subjects
+  author: serpos
+  locus: the dedicatory letter
+  role: context
+  confidence: provisional
+  note: The same millet system seen from another Christian community; provisional, since the
+    work concerns Armenians, not the Greek Orthodox.
+  source_file: serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt
 - row_id: smith-thomas_account-of-the-greek-church_1680--an-account-of-the-greek-church-as-to-its-doctrine-and-rites-2
   work: An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account
     of the Greek church under Cyrillus Lucaris
@@ -277,3 +295,12 @@ works:
 
     '
   source_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
+- row_id: tournefort_voyage-into-the-levant-v2_1718--a-voyage-into-the-levant-vol-ii-constantinople-and-georgia
+  work: 'A Voyage into the Levant, vol. II: Constantinople and Georgia'
+  author: tournefort
+  locus: the opening letters on Constantinople and the Georgian letters
+  role: context
+  confidence: provisional
+  note: The same traveller on the Ottoman capital and on Georgian Christians; provisional,
+    not read for that entry.
+  source_file: tournefort_voyage-into-the-levant-v2_1718.txt

@@ -16,6 +16,42 @@ works:
 
     '
   source_file: chamich_history-of-armenia-v2_avdall1827.txt
+- row_id: bore_couvent-de-saint-lazare-a-venise-fra_1837--le-couvent-de-saint-lazare-a-venise-1837-on-the-order-in-the
+  work: Le couvent de Saint-Lazare à Venise (1837), on the order in the 1830s
+  author: bore
+  locus: the description of the house and its press
+  role: context
+  confidence: provisional
+  note: San Lazzaro at the start of the Zartonk century; provisional, not read for that entry.
+  source_file: bore_couvent-de-saint-lazare-a-venise-fra_1837.txt
+- row_id: issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875--armenia-and-the-armenians-vol-ii-1875-as-a-zartonk-era
+  work: Armenia and the Armenians, vol. II (1875), as a Zartonk-era Mechitarist work
+  author: issaverdens
+  locus: whole volume
+  role: tradition
+  confidence: provisional
+  note: Printed at San Lazzaro in 1875, inside the Zartonk window; the congregation presenting
+    the national church to English readers.
+  source_file: issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt
+- row_id: issaverdens_armenian-ritual-parts1-4_1876--the-armenian-ritual-parts-i-iv-liturgy-sacraments-ordinal
+  work: The Armenian Ritual, Parts I-IV (liturgy, sacraments, ordinal, rites and calendar)
+  author: issaverdens
+  locus: whole work
+  role: tradition
+  confidence: provisional
+  note: The rite in use, translated and explained by a Mechitarist; provisional because the
+    translation is from the 1870s and the explanatory paragraphs carry San Lazzaro's Catholic
+    reading.
+  source_file: issaverdens_armenian-ritual-parts1-4_1876.txt
+- row_id: nurikhan_servo-di-dio-abate-mechitar-ita_1914--il-servo-di-dio-abate-mechitar-as-a-work-of-the-twentieth
+  work: Il Servo di Dio Abate Mechitar, as a work of the twentieth-century congregation
+  author: nurikhan
+  locus: preface and framing chapters
+  role: transmission
+  confidence: provisional
+  note: San Lazzaro's later self-understanding after the Zartonk century; provisional, since
+    the book falls after that entry's end (1906).
+  source_file: nurikhan_servo-di-dio-abate-mechitar-ita_1914.txt
 - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-9
   work: 'The Church of Armenia (Ormanian; Gregory''s English translation, 1912): chapter XIX,
     the nineteenth century'

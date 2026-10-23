@@ -17,6 +17,16 @@ works:
 
     '
   source_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+- row_id: bore_couvent-de-saint-lazare-a-venise-fra_1837--le-couvent-de-saint-lazare-a-venise-ou-histoire-succincte-de
+  work: Le couvent de Saint-Lazare à Venise, ou histoire succincte de l'ordre des Méchitaristes
+    arméniens (1837)
+  author: bore
+  locus: the history of the order
+  role: context
+  confidence: assigned
+  note: A near-contemporary outside account of the Mechitarists' founding and work, written
+    from close to the house.
+  source_file: bore_couvent-de-saint-lazare-a-venise-fra_1837.txt
 - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-part-vii-the-expatriated-state-3
   work: 'History of Armenia (Chamich; Avdall''s English translation, 1827), volume II, Part
     VII and Avdall''s continuation: the catholicoi to 1780 and 1827'
@@ -30,6 +40,57 @@ works:
 
     '
   source_file: chamich_history-of-armenia-v2_avdall1827.txt
+- row_id: issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875--armenia-and-the-armenians-vol-ii-the-eighteenth-century
+  work: 'Armenia and the Armenians, vol. II: the eighteenth-century chapters (Mechitar, the
+    patriarchs at Constantinople, the catholicoi)'
+  author: issaverdens
+  locus: the last third of the volume (the passages dated 1700 to the 1750s)
+  role: tradition
+  confidence: provisional
+  note: The Mechitarist congregation's own retelling of its founding period, a century and
+    more later; provisional as tradition because it is retrospective.
+  source_file: issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt
+- row_id: issaverdens_armenian-ritual-parts1-4_1876--the-armenian-ritual-parts-i-iv-liturgy-sacraments-ordinal
+  work: The Armenian Ritual, Parts I-IV (liturgy, sacraments, ordinal, rites and calendar)
+  author: issaverdens
+  locus: whole work
+  role: tradition
+  confidence: provisional
+  note: The rite in use, translated and explained by a Mechitarist; provisional because the
+    translation is from the 1870s and the explanatory paragraphs carry San Lazzaro's Catholic
+    reading.
+  source_file: issaverdens_armenian-ritual-parts1-4_1876.txt
+- row_id: lettres-edifiantes_memoires-du-levant-t3-fra_1780--memoires-du-levant-tome-iii-the-jesuit-memoirs-on-armenia
+  work: 'Mémoires du Levant, tome III: the Jesuit memoirs on Armenia and the missions of Erivan
+    and Erzurum'
+  author: lettres-edifiantes
+  locus: from Father Monier's letter at the head to chapter VIII, and the two mission memoirs
+    at the end of the volume
+  role: context
+  confidence: assigned
+  note: Catholic missionaries' contemporary reports on Armenian rite, belief and the mission
+    to them; hostile in its terms ('schismatiques', 'erreurs'), which is itself evidence of
+    the Roman view.
+  source_file: lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt
+- row_id: nurikhan_servo-di-dio-abate-mechitar-ita_1914--il-servo-di-dio-abate-mechitar-sua-vita-e-suoi-tempi-1914
+  work: 'Il Servo di Dio Abate Mechitar: sua vita e suoi tempi (1914)'
+  author: nurikhan
+  locus: whole work; the appended documents carry Mechitar's own letters and the congregation's
+    records
+  role: tradition
+  confidence: assigned
+  note: The Mechitarist congregation telling its founder's life from its own archive; hagiographic
+    in purpose (written for the cause), which the build should weigh.
+  source_file: nurikhan_servo-di-dio-abate-mechitar-ita_1914.txt
+- row_id: nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915--the-life-and-times-of-the-servant-of-god-abbot-mechitar
+  work: The Life and Times of the Servant of God Abbot Mechitar (English, 1915)
+  author: nurikhan
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: The same Mechitarist life in its San Lazzaro English translation; ten fewer documents
+    than the Italian.
+  source_file: nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt
 - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-8
   work: 'The Church of Armenia (Ormanian; Gregory''s English translation, 1912): chapters
     XVII-XVIII, awakening and the eighteenth century'
@@ -55,6 +116,46 @@ works:
 
     '
   source_file: rycaut_present-state-greek-armenian-churches_1679.txt
+- row_id: serpos_compendio-storico-nazione-armena-t1-ita_1786--compendio-storico-di-memorie-cronologiche-concernenti-la
+  work: Compendio storico di memorie cronologiche concernenti la religione e la morale della
+    nazione armena, Tomo I (1786)
+  author: serpos
+  locus: dedicatory letter and the opening books
+  role: tradition
+  confidence: assigned
+  note: Written in 1786 by an Armenian Catholic layman who calls the Armenians his own nation;
+    the eighteenth-century Catholic-Armenian reading of the national church's history, addressed
+    to Propaganda.
+  source_file: serpos_compendio-storico-nazione-armena-t1-ita_1786.txt
+- row_id: serpos_compendio-storico-nazione-armena-t2-ita_1786--compendio-storico-di-memorie-cronologiche-concernenti-la
+  work: Compendio storico di memorie cronologiche concernenti la religione e la morale della
+    nazione armena, Tomo II (1786)
+  author: serpos
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: The same Armenian Catholic voice of 1786 reading the patriarchal and conciliar history
+    of his church.
+  source_file: serpos_compendio-storico-nazione-armena-t2-ita_1786.txt
+- row_id: serpos_compendio-storico-nazione-armena-t3-ita_1786--compendio-storico-tomo-iii-libro-sesto-the-armenians-of-the
+  work: 'Compendio storico, Tomo III: Libro Sesto, the Armenians of the author''s day (1786)'
+  author: serpos
+  locus: whole volume (Libro Sesto)
+  role: tradition
+  confidence: assigned
+  note: The window's own description of Armenian clergy, worship and popular practice under
+    the Ottomans, from the Catholic-Armenian side, with its Tridentine reform proposals.
+  source_file: serpos_compendio-storico-nazione-armena-t3-ita_1786.txt
+- row_id: serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783--dissertazione-polemico-critica-sopra-due-dubbj-di-coscienza
+  work: Dissertazione polemico-critica sopra due dubbj di coscienza concernenti gli Armeni
+    cattolici (1783)
+  author: serpos
+  locus: whole work; the dedicatory letter states the occasion
+  role: tradition
+  confidence: assigned
+  note: A Catholic Armenian's own case to Rome on the conscience questions dividing his community
+    under the Ottomans; the millet conflict in a participant's words.
+  source_file: serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt
 - row_id: seth_history-of-the-armenians-in-india_1897--history-of-the-armenians-in-india-2
   work: History of the Armenians in India from the Earliest Times to the Present Day (1897)
   author: seth
@@ -68,6 +169,23 @@ works:
 
     '
   source_file: seth_history-of-the-armenians-in-india_1897.txt
+- row_id: tournefort_voyage-into-the-levant-v2_1718--a-voyage-into-the-levant-vol-ii-the-armenians-1718
+  work: 'A Voyage into the Levant, vol. II: the Armenians (1718)'
+  author: tournefort
+  locus: the chapter 'Of the Manners, Religion, and Commerce of the Armenians' and the Erzurum
+    letters
+  role: context
+  confidence: assigned
+  note: A French Catholic traveller's eyewitness description of Armenian Christians in 1700-1702.
+  source_file: tournefort_voyage-into-the-levant-v2_1718.txt
+- row_id: tournefort_relation-d-un-voyage-du-levant-t3-fra_1717--relation-d-un-voyage-du-levant-tome-iii-armenia-and-georgia
+  work: 'Relation d''un voyage du Levant, tome III: Armenia and Georgia (1717)'
+  author: tournefort
+  locus: the letters on Erzurum, Armenia and Georgia
+  role: context
+  confidence: assigned
+  note: The French text of Tournefort's eyewitness account of Armenian Christians in 1700-1702.
+  source_file: tournefort_relation-d-un-voyage-du-levant-t3-fra_1717.txt
 - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--memoires-historiques-sur-les-sofis-2
   work: Mémoires historiques sur les Sofis, par le diacre Zakaria de Kanaker (Brosset's French
     translation, 1876)

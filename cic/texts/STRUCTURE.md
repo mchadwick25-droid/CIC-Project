@@ -774,6 +774,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 92,709 | 92,709 | annales-regni-francorum_kurze1895 |
 
+## `anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772.txt`
+
+1 section(s) to level 2 · ~18,700 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 18,700 | 18,700 | anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772 |
+
 ## `aphrahat_demonstrations-2-7_hallock1932.txt`
 
 1 section(s) to level 2 · ~12,564 words of text · ~0 words of apparatus
@@ -1422,6 +1430,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 155,315 | 155,315 | basil_ascetic-works-longer-shorter-rules_clarke1925 |
 
+## `basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791.txt`
+
+1 section(s) to level 2 · ~114,525 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 114,525 | 114,525 | basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791 |
+
+## `basilovits_brevis-notitia-fundationis-koriathovits-pars1-lat_1799.txt`
+
+1 section(s) to level 2 · ~108,488 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 108,488 | 108,488 | basilovits_brevis-notitia-fundationis-koriathovits-pars1-lat_1799 |
+
 ## `bede_ecclesiastical-history-english-people_giles1903.txt`
 
 1 section(s) to level 2 · ~119,143 words of text · ~0 words of apparatus
@@ -1621,6 +1645,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 373,277 | 373,277 | book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911 |
+
+## `bore_couvent-de-saint-lazare-a-venise-fra_1837.txt`
+
+1 section(s) to level 2 · ~40,648 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 40,648 | 40,648 | bore_couvent-de-saint-lazare-a-venise-fra_1837 |
 
 ## `borgia_sanctus-franciscus-borgia-v3-lat_1908.txt`
 
@@ -3718,6 +3750,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 34,298 | 34,298 | ignatius-loyola_spiritual-exercises_mullan1914 |
 
+## `issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt`
+
+1 section(s) to level 2 · ~78,243 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 78,243 | 78,243 | issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875 |
+
+## `issaverdens_armenian-ritual-parts1-4_1876.txt`
+
+1 section(s) to level 2 · ~80,182 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 80,182 | 80,182 | issaverdens_armenian-ritual-parts1-4_1876 |
+
 ## `jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582.txt`
 
 1 section(s) to level 2 · ~79,300 words of text · ~0 words of apparatus
@@ -4542,6 +4590,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 278,845 | 278,845 | leger_histoire-generale-eglises-vaudoises-livre2-fra_1669 |
 
+## `lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt`
+
+1 section(s) to level 2 · ~103,085 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 103,085 | 103,085 | lettres-edifiantes_memoires-du-levant-t3-fra_1780 |
+
 ## `life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt`
 
 1 section(s) to level 2 · ~64,362 words of text · ~0 words of apparatus
@@ -4781,6 +4837,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 596,449 | 596,449 | mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901 |
+
+## `mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt`
+
+1 section(s) to level 2 · ~614,681 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 614,681 | 614,681 | mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902 |
 
 ## `mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt`
 
@@ -8377,6 +8441,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | `18.4` | 2 | 126 | 126 | German Words and Phrases |
 | `18.5` | 2 | 636 | 636 | *Index of Pages of the Print Edition* (apparatus) |
 
+## `nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt`
+
+1 section(s) to level 2 · ~129,272 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 129,272 | 129,272 | nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915 |
+
+## `nurikhan_servo-di-dio-abate-mechitar-ita_1914.txt`
+
+1 section(s) to level 2 · ~124,566 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 124,566 | 124,566 | nurikhan_servo-di-dio-abate-mechitar-ita_1914 |
+
 ## `occom_sermon-at-the-execution-of-moses-paul_1788.txt`
 
 1 section(s) to level 2 · ~13,014 words of text · ~0 words of apparatus
@@ -9321,6 +9401,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 93,948 | 93,948 | sebastiani_seconda-speditione-indie-orientali-ita_1672 |
 
+## `serpos_compendio-storico-nazione-armena-t1-ita_1786.txt`
+
+1 section(s) to level 2 · ~124,281 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 124,281 | 124,281 | serpos_compendio-storico-nazione-armena-t1-ita_1786 |
+
+## `serpos_compendio-storico-nazione-armena-t2-ita_1786.txt`
+
+1 section(s) to level 2 · ~115,651 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 115,651 | 115,651 | serpos_compendio-storico-nazione-armena-t2-ita_1786 |
+
+## `serpos_compendio-storico-nazione-armena-t3-ita_1786.txt`
+
+1 section(s) to level 2 · ~134,830 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 134,830 | 134,830 | serpos_compendio-storico-nazione-armena-t3-ita_1786 |
+
+## `serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt`
+
+1 section(s) to level 2 · ~99,787 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 99,787 | 99,787 | serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783 |
+
 ## `servetus_christianismi-restitutio-lat_murr1790.txt`
 
 1 section(s) to level 2 · ~224,936 words of text · ~0 words of apparatus
@@ -9873,6 +9985,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 552,065 | 552,065 | theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863 |
 
+## `theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864.txt`
+
+1 section(s) to level 2 · ~626,704 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 626,704 | 626,704 | theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864 |
+
 ## `theodosianus-16_mommsen-meyer1905.txt`
 
 1 section(s) to level 2 · ~463,866 words of text · ~0 words of apparatus
@@ -9920,6 +10040,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 85,440 | 85,440 | toulotte_geographie-afrique-chretienne-numidie-fra_1894 |
+
+## `tournefort_relation-d-un-voyage-du-levant-t3-fra_1717.txt`
+
+1 section(s) to level 2 · ~138,877 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 138,877 | 138,877 | tournefort_relation-d-un-voyage-du-levant-t3-fra_1717 |
+
+## `tournefort_voyage-into-the-levant-v2_1718.txt`
+
+1 section(s) to level 2 · ~185,546 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 185,546 | 185,546 | tournefort_voyage-into-the-levant-v2_1718 |
 
 ## `trigault_de-christiana-expeditione-apud-sinas-lat_1615.txt`
 
@@ -10056,6 +10192,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 207,650 | 207,650 | wariston_diary-1632-1639_paul1911 |
+
+## `wazynski_katechizm-albo-krotkie-zebranie-nauki-chrzescianskiey-pol_1792.txt`
+
+1 section(s) to level 2 · ~34,165 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 34,165 | 34,165 | wazynski_katechizm-albo-krotkie-zebranie-nauki-chrzescianskiey-pol_1792 |
 
 ## `webbe_world-english-bible-british-edition.xml`
 

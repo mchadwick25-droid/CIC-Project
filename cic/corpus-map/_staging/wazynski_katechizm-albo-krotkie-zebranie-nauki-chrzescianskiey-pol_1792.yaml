@@ -1,0 +1,12 @@
+source_file: wazynski_katechizm-albo-krotkie-zebranie-nauki-chrzescianskiey-pol_1792.txt
+assignments:
+- row_id: wazynski_katechizm-albo-krotkie-zebranie-nauki-chrzescianskiey-pol_1792--katechizm-albo-krotkie-zebranie-nauki-chrzescianskiey-1792
+  work: Katechizm albo Krótkie zebranie Nauki Chrześciańskiey (1792), with the bishop's pastoral letter
+  author: wazynski
+  locus: whole work
+  atlas_ids:
+  - ruthenian-uniate-18th-century
+  role: tradition
+  confidence: assigned
+  note: Uniate catechesis in Polish at the end of the Commonwealth; the ordinary teaching of the church,
+    not its polemic.

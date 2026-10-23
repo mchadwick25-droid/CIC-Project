@@ -180,6 +180,12 @@ authors:
 
       '
     from_file: anf05_hippolytus-cyprian-caius-novatian.xml
+  anonymous-uniate:
+    kind: anonymous
+    evidence: The title page names no author; the text opens by protesting 'Imieniem Wielebnego
+      Jnstygatora Ruskiego' (in the name of the Reverend Ruthenian Instigator) and the title
+      says it was translated from Latin into Polish.
+    from_file: anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772.txt
   anthony-susanna:
     kind: metadata-omission
     evidence: 'Plain-text vendored file whose leading token is osborn-sarah; the second correspondent,
@@ -350,6 +356,12 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  basilian-order:
+    kind: metadata-omission
+    evidence: The title page names the work as the code of constitutions of the Order of St
+      Basil the Great, collected from the decrees of the chapters of the Congregation of the
+      Ruthenians, printed at the Basilian monastery of Pochaiv; no individual author is named.
+    from_file: basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791.txt
   beissel:
     kind: metadata-omission
     evidence: 'The title page names Conrad Beissel''s Treatise on Music, from his preface
@@ -1217,6 +1229,12 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  lettres-edifiantes:
+    kind: anonymous
+    evidence: The title page names the collection only as letters 'écrites des missions étrangères'
+      by Jesuit missionaries; the opening letter is headed 'Du Père Monier, de la Compagnie
+      de Jésus, au Père Fleuriau'.
+    from_file: lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt
   liber-genealogus:
     kind: anonymous
     evidence: 'An anonymous North African compilation per Mommsen''s own editorial discussion
