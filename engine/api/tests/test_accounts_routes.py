@@ -384,3 +384,18 @@ def test_a_signed_in_owner_cancels_over_http(http, mailer):
     thief.post("/api/accounts/recovery/finish", json={"challenge": started["challenge"], "code": mailer.last_code(NEW), "new_address": NEW}, headers=H)
     assert http.post("/api/accounts/recovery/cancel-signed-in", json={}, headers=H).status_code == 200
     assert http.post("/api/accounts/recovery/cancel-signed-in", json={}, headers=H).status_code == 400
+
+
+def test_the_providers_route_lists_only_the_providers_that_are_turned_on(http, runtime):
+    from engine.api.provider_tokens import ProviderVerifier
+    runtime.service.verifier = None
+    assert http.get("/api/accounts/providers").json() == {"providers": {}}
+    runtime.service.verifier = ProviderVerifier({"google": "g-client", "apple": ""})
+    assert http.get("/api/accounts/providers").json() == {"providers": {"google": "g-client"}}
+
+
+def test_a_refused_provider_token_does_not_talk_about_a_code(http, runtime):
+    runtime.service.verifier = FakeVerifier()
+    nonce = http.post("/api/accounts/provider/start", json={}, headers=H).json()["nonce"]
+    refused = http.post("/api/accounts/provider/finish", json={"provider": "google", "id_token": "bad", "nonce": nonce, "over_18": True}, headers=H)
+    assert refused.status_code == 400 and "code" not in refused.json()["detail"].lower()

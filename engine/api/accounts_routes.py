@@ -65,7 +65,8 @@ MESSAGES = {
     "codes_full": "This account holds as many codes as it can.",
     "provider_cannot_use": "That sign-in cannot be added to this account.",
     "last_method": "This is your only way to sign in. Add another way first.",
-    "step_up_needed": "Please confirm your address with a fresh code first.",
+    "step_up_needed": "Please confirm it is you first.",
+    "provider_wrong": "That sign-in did not work. Please try again.",
     "cannot_use": "That address cannot be used.",
 }
 
@@ -410,6 +411,9 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
             secure=runtime.secure_cookie, httponly=True, samesite="lax",
         )
 
+    def _provider_result(result: Result) -> Result:
+        return Result("provider_wrong") if result.status == "wrong" else result
+
     async def _refuse(result: Result, *, delay: bool) -> None:
         if delay:
             await asyncio.sleep(runtime.miss_delay_seconds)
@@ -443,6 +447,11 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
                     "message": MESSAGES["recovery_waiting"].format(day=result.data["effective_on"])}
         await _refuse(result, delay=True)
 
+    @app.get("/api/accounts/providers")
+    async def providers():
+        verifier = service.verifier
+        return {"providers": verifier.public_ids() if verifier is not None else {}}
+
     @app.post("/api/accounts/provider/start")
     async def provider_start(request: Request):
         _guard(request)
@@ -457,6 +466,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         result = await run_in_threadpool(
             service.provider_sign_in, body.provider, body.id_token, body.nonce, _network(request), body.over_18
         )
+        result = _provider_result(result)
         if result.status == "ok":
             await run_in_threadpool(_seed_allowance, request, result)
             _set_cookie(response, result.cookie)
@@ -471,6 +481,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         result = await run_in_threadpool(
             service.provider_step_up, await _session(request), body.provider, body.id_token, body.nonce, _network(request)
         )
+        result = _provider_result(result)
         if result.status != "ok":
             await _refuse(result, delay=True)
         return {"status": "ok"}
@@ -481,6 +492,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         result = await run_in_threadpool(
             service.provider_link, await _session(request), body.provider, body.id_token, body.nonce, _network(request)
         )
+        result = _provider_result(result)
         if result.status != "ok":
             await _refuse(result, delay=True)
         return {"status": "ok"}

@@ -2425,3 +2425,12 @@ button {
   font-size: 0.85rem;
   color: var(--color-text-light);
 }
+
+.account__code {
+  margin: 0;
+  font-family: var(--font-family-ui);
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  word-break: break-all;
+  color: var(--color-text);
+}

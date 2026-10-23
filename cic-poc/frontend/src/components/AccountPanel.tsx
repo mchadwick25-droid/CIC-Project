@@ -6,16 +6,16 @@
  */
 import { useEffect, useRef, useState } from 'react';
 import {
-  AccountsError, accountsEnabled, attachCode, closeAccountPanel, deleteAccount, deleteShelved, exportData, finishSignIn, finishStepUp,
-  loadShelf, openAccountPanel, openShelved, refresh, signOut, startSignIn, startStepUp, useAccount, type ShelfItem, type SignInResult,
+  accountsEnabled, attachCode, closeAccountPanel, deleteAccount, deleteShelved, exportData, finishSignIn, loadProviders,
+  loadShelf, openAccountPanel, openShelved, providerSignIn, refresh, signOut, startSignIn, useAccount, type ProviderToken, type ShelfItem, type SignInResult,
 } from '../lib/accounts';
 import { normalizeCode } from '../lib/deeper';
 import { accountsCopy as copy } from '../lib/accountsCopy';
-
-function messageOf(error: unknown): string {
-  if (error instanceof AccountsError) return error.status === 0 ? copy.offline : error.message || copy.failed;
-  return copy.failed;
-}
+import { ProviderButtons } from './ProviderButtons';
+import { RecoveryHelp } from './RecoveryHelp';
+import { SignInMethods } from './SignInMethods';
+import { StepUp } from './StepUp';
+import { messageOf, useGuard } from './useGuard';
 
 function dayOf(iso: string | null): string {
   if (!iso) return '';
@@ -32,6 +32,10 @@ export function AccountPanel() {
   useEffect(() => {
     if (accountsEnabled) void refresh();
   }, []);
+
+  useEffect(() => {
+    if (account.panelOpen) void loadProviders();
+  }, [account.panelOpen]);
 
   useEffect(() => {
     if (wasOpen.current && !account.panelOpen) toggleRef.current?.focus();
@@ -79,7 +83,7 @@ export function AccountPanel() {
   );
 }
 
-type Step = 'address' | 'code' | 'age' | 'done';
+type Step = 'address' | 'code' | 'age' | 'done' | 'recovery';
 
 function SignIn() {
   const [step, setStep] = useState<Step>('address');
@@ -89,9 +93,11 @@ function SignIn() {
   const [busy, setBusy] = useState(false);
   const [note, setNote] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [token, setToken] = useState<ProviderToken | null>(null);
 
   const send = async (e: React.FormEvent) => {
     e.preventDefault();
+    setToken(null);
     setBusy(true);
     setError(null);
     try {
@@ -105,6 +111,7 @@ function SignIn() {
   };
 
   const settle = (result: SignInResult) => {
+    if (result.kind !== 'ask_age') setToken(null);
     if (result.kind === 'ask_age') setStep('age');
     else if (result.kind === 'not_adult') {
       setNote(result.message);
@@ -119,8 +126,9 @@ function SignIn() {
     setBusy(true);
     setError(null);
     try {
-      settle(await finishSignIn(challenge, address.trim(), code.trim(), over18));
+      settle(token ? await providerSignIn(token, over18) : await finishSignIn(challenge, address.trim(), code.trim(), over18));
     } catch (err) {
+      if (token) setToken(null);
       setError(messageOf(err));
     } finally {
       setBusy(false);
@@ -130,14 +138,32 @@ function SignIn() {
   return (
     <div className="account__section">
       {step === 'address' && (
+        <ProviderButtons
+          label={copy.continueWith}
+          onError={setError}
+          onToken={async (made) => {
+            setError(null);
+            setToken(made);
+            try {
+              settle(await providerSignIn(made));
+            } catch (err) {
+              setToken(null);
+              setError(messageOf(err));
+            }
+          }}
+        />
+      )}
+      {step === 'address' && (
         <form onSubmit={send}>
           <p>{copy.intro}</p>
           <label htmlFor="account-address">{copy.addressLabel}</label>
           <input id="account-address" type="email" value={address} onChange={(e) => setAddress(e.target.value)} autoComplete="email" required aria-invalid={error !== null} aria-describedby="account-keeps" />
           <p id="account-keeps" className="account__small">{copy.keepsAddress}</p>
           <button type="submit" disabled={busy || address.trim() === ''}>{busy ? copy.sending : copy.sendCode}</button>
+          <button type="button" onClick={() => { setError(null); setStep('recovery'); }}>{copy.lostEmail}</button>
         </form>
       )}
+      {step === 'recovery' && <RecoveryHelp dayOf={dayOf} onBack={() => setStep('address')} />}
       {step === 'code' && (
         <form onSubmit={(e) => { e.preventDefault(); void verify(); }}>
           <p role="status">{copy.codeSent}</p>
@@ -163,7 +189,7 @@ function SignIn() {
   );
 }
 
-type Confirm = null | { action: 'export' | 'delete'; stage: 'address' | 'code' | 'sure'; challenge: string };
+type Confirm = null | { action: 'export' | 'delete'; stage: 'confirm' | 'sure' };
 
 function SignedIn() {
   const account = useAccount();
@@ -172,26 +198,13 @@ function SignedIn() {
   const [text, setText] = useState('');
   const [added, setAdded] = useState(false);
   const [confirm, setConfirm] = useState<Confirm>(null);
-  const [address, setAddress] = useState('');
-  const [code, setCode] = useState('');
-  const [error, setError] = useState<string | null>(null);
-  const [busy, setBusy] = useState(false);
+  const { busy, error, setError, run } = useGuard();
 
   useEffect(() => {
     void loadShelf().catch(() => undefined);
   }, []);
 
-  const guard = async (work: () => Promise<void>) => {
-    setBusy(true);
-    setError(null);
-    try {
-      await work();
-    } catch (err) {
-      setError(messageOf(err));
-    } finally {
-      setBusy(false);
-    }
-  };
+  const guard = (work: () => Promise<void>) => run(work);
 
   const open = (item: ShelfItem) => { setPending(item.session_id); void guard(() => openShelved(item)); };
   const remove = (id: string) => { setSure(null); void guard(() => deleteShelved(id)); };
@@ -202,19 +215,11 @@ function SignedIn() {
     void guard(async () => { await attachCode(normal); setText(''); setAdded(true); });
   };
 
-  const beginConfirm = (action: 'export' | 'delete') => { setError(null); setConfirm({ action, stage: 'address', challenge: '' }); };
-  const sendConfirm = (e: React.FormEvent) => {
-    e.preventDefault();
-    void guard(async () => { const challenge = await startStepUp(address.trim()); setConfirm((c) => c && { ...c, stage: 'code', challenge }); });
-  };
-  const verifyConfirm = (e: React.FormEvent) => {
-    e.preventDefault();
+  const beginConfirm = (action: 'export' | 'delete') => { setError(null); setConfirm({ action, stage: 'confirm' }); };
+  const confirmed = () => {
     if (!confirm) return;
-    void guard(async () => {
-      await finishStepUp(confirm.challenge, code.trim());
-      setCode('');
-      if (confirm.action === 'export') { await exportData(); setConfirm(null); } else setConfirm({ ...confirm, stage: 'sure' });
-    });
+    if (confirm.action === 'export') void guard(async () => { await exportData(); setConfirm(null); });
+    else setConfirm({ ...confirm, stage: 'sure' });
   };
 
   return (
@@ -260,6 +265,7 @@ function SignedIn() {
         <button type="submit" disabled={busy || text.trim() === ''}>{copy.addCode}</button>
         {added && <p role="status">{copy.codeAdded}</p>}
       </form>
+      <SignInMethods />
       <div className="account__section">
         <h3>{copy.dataHeading}</h3>
         {confirm === null && (
@@ -268,21 +274,7 @@ function SignedIn() {
             <button type="button" onClick={() => beginConfirm('delete')}>{copy.deleteAccount}</button>
           </div>
         )}
-        {confirm?.stage === 'address' && (
-          <form onSubmit={sendConfirm}>
-            <p>{copy.confirmIntro}</p>
-            <label htmlFor="account-confirm-address">{copy.addressLabel}</label>
-            <input id="account-confirm-address" type="email" value={address} onChange={(e) => setAddress(e.target.value)} autoComplete="email" required />
-            <button type="submit" disabled={busy || address.trim() === ''}>{copy.sendCode}</button>
-          </form>
-        )}
-        {confirm?.stage === 'code' && (
-          <form onSubmit={verifyConfirm}>
-            <label htmlFor="account-confirm-code">{copy.codeLabel}</label>
-            <input id="account-confirm-code" type="text" inputMode="numeric" autoComplete="one-time-code" value={code} onChange={(e) => setCode(e.target.value)} />
-            <button type="submit" disabled={busy || code.trim() === ''}>{copy.codeSignIn}</button>
-          </form>
-        )}
+        {confirm?.stage === 'confirm' && <StepUp busy={busy} run={run} fail={setError} onCancel={() => setConfirm(null)} onDone={confirmed} />}
         {confirm?.stage === 'sure' && (
           <div role="group" aria-label={copy.deleteWarning}>
             <p>{copy.deleteWarning}</p>
