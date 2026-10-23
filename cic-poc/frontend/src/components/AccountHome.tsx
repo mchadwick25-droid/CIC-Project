@@ -3,7 +3,7 @@
  * out, the same page is the sign-in. Shown only when the app is built with accounts on.
  */
 import { useEffect, useRef, useState } from 'react';
-import { accountsEnabled, attachCode, closeHome, loadShelf, openHome, openShelved, refresh, signOut, signOutEverywhere, cancelRecoverySignedIn, useAccount, readStoredConversation, type ShelfItem } from '../lib/accounts';
+import { accountsEnabled, attachCode, closeHome, deleteShelved, loadShelf, openHome, openShelved, refresh, signOut, signOutEverywhere, cancelRecoverySignedIn, useAccount, readStoredConversation, type ShelfItem } from '../lib/accounts';
 import { normalizeCode } from '../lib/deeper';
 import { accountsCopy as copy } from '../lib/accountsCopy';
 import { AddressScreen, DeleteScreen, ExportScreen, MethodsScreen, RecoveryScreen } from './HomeScreens';
@@ -25,6 +25,7 @@ function shortDay(iso: string | null): string {
 export function AccountHome() {
   const account = useAccount();
   const headRef = useRef<HTMLHeadingElement>(null);
+  const mainRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     if (!accountsEnabled) return;
@@ -38,17 +39,20 @@ export function AccountHome() {
 
   useEffect(() => {
     if (!account.homeOpen) return undefined;
-    const onKey = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') closeHome();
+    const opener = document.activeElement as HTMLElement | null;
+    const page = mainRef.current;
+    const behind = page ? Array.from(page.parentElement?.children ?? []).filter((el) => el !== page) : [];
+    behind.forEach((el) => el.setAttribute('inert', ''));
+    return () => {
+      behind.forEach((el) => el.removeAttribute('inert'));
+      opener?.focus?.();
     };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
   }, [account.homeOpen]);
 
   if (!accountsEnabled || !account.homeOpen || account.status === 'off') return null;
 
   return (
-    <main className="account-home account sans" aria-label={account.status === 'in' ? copy.homeHeading : copy.homeSignedOutHeading}>
+    <main ref={mainRef} className="account-home account sans" aria-label={account.status === 'in' ? copy.homeHeading : copy.homeSignedOutHeading}>
       <div className="account-home__bar">
         <button type="button" onClick={closeHome}>{readStoredConversation() ? copy.backToConversation : copy.backToSite}</button>
       </div>
@@ -73,6 +77,7 @@ function Home({ headRef }: { headRef: React.RefObject<HTMLHeadingElement> }) {
   const [entering, setEntering] = useState(false);
   const [text, setText] = useState('');
   const [added, setAdded] = useState(false);
+  const [sure, setSure] = useState<string | null>(null);
   const { busy, error, setError, run } = useGuard();
   const back = () => setScreen('main');
 
@@ -145,6 +150,15 @@ function Home({ headRef }: { headRef: React.RefObject<HTMLHeadingElement> }) {
                 <>
                   <span className="account__title">{item.worlds.join(', ')}</span>
                   <span className="account__small">{shortDay(item.last_active)} · {copy.ended}</span>
+                  {sure === item.session_id ? (
+                    <div role="group" aria-label={copy.removeSure}>
+                      <p>{copy.removeSure}</p>
+                      <button type="button" disabled={busy} onClick={() => { setSure(null); void run(() => deleteShelved(item.session_id)); }}>{copy.removeYes}</button>
+                      <button type="button" onClick={() => setSure(null)}>{copy.removeNo}</button>
+                    </div>
+                  ) : (
+                    <button type="button" disabled={busy} onClick={() => setSure(item.session_id)}>{copy.remove}</button>
+                  )}
                 </>
               ) : (
                 <button type="button" disabled={busy} onClick={() => open(item)}>

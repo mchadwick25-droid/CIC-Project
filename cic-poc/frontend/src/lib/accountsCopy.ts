@@ -88,6 +88,10 @@ export const accountsCopy = {
   conversationsNote:
     'The voice and the day, nothing from inside. Kept until you delete them, or until this home sits unused for two years. Each conversation has its own delete in the ⋯ menu.',
   opening: 'Opening',
+  remove: 'Delete',
+  removeSure: 'Delete this conversation for good?',
+  removeYes: 'Yes, delete it',
+  removeNo: 'Keep it',
   ended: 'This conversation has ended.',
   settingsHeading: 'Settings',
   changeAddress: 'Change my email address',

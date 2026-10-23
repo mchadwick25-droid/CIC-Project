@@ -20,13 +20,15 @@ export function GoDeeperPanel() {
   const pilot = usePilot();
   const account = useAccount();
   const held = codes.length > 0;
-  const count = held ? remaining : freeLeft;
+  const accountBalance = accountsEnabled && account.status === 'in' ? account.balance : null;
+  const count = accountBalance ? accountBalance.free_left + accountBalance.code_tokens : held ? remaining : freeLeft;
   const [entering, setEntering] = useState(false);
   const [text, setText] = useState('');
   const [bad, setBad] = useState(false);
   const [revealed, setRevealed] = useState(false);
   const toggleRef = useRef<HTMLButtonElement>(null);
   const wasOpen = useRef(false);
+  const headRef = useRef<HTMLHeadingElement>(null);
 
   // A code on screen never outlives the panel: closing hides it, so a panel that
   // opens itself later at a limit starts with the code out of sight.
@@ -49,8 +51,12 @@ export function GoDeeperPanel() {
     return () => window.removeEventListener('keydown', onKey);
   }, [panelOpen]);
 
+  const signingIn = deeperEnabled && accountsEnabled && account.signInOpen && account.status !== 'in';
+  useEffect(() => {
+    if (signingIn) headRef.current?.focus();
+  }, [signingIn]);
+
   if (!deeperEnabled) return null;
-  const signingIn = accountsEnabled && account.signInOpen && account.status !== 'in';
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -83,7 +89,7 @@ export function GoDeeperPanel() {
       {panelOpen && (
         <aside id="go-deeper-panel" className="go-deeper__panel" aria-label={deeperCopy.heading}>
           <div className="go-deeper__head">
-            <h2>{signingIn ? accountsCopy.signInOrUp : deeperCopy.heading}</h2>
+            <h2 ref={headRef} tabIndex={-1}>{signingIn ? accountsCopy.signInOrUp : deeperCopy.heading}</h2>
             {signingIn ? (
               <button type="button" onClick={closeSignIn}>
                 {accountsCopy.back}
@@ -143,7 +149,7 @@ export function GoDeeperPanel() {
             </div>
           ) : (
             <>
-              <p>{deeperCopy.intro}</p>
+              <p>{held ? deeperCopy.introHeld : deeperCopy.intro}</p>
               {held && remaining !== null && (
                 <p className="go-deeper__count">
                   {deeperCopy.balance(remaining)}

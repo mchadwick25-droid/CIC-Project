@@ -414,8 +414,8 @@ describe('ResourcesFirst', () => {
 
   it('shows nothing for another conversation, without the flag, or with the build flag off', async () => {
     let ctx = await load();
-    const first = render(<ctx.ResourcesFirst turns={turns} sessionId="s2" />);
     hold('s1');
+    const first = render(<ctx.ResourcesFirst turns={turns} sessionId="s2" />);
     expect(first.container).toBeEmptyDOMElement();
     first.unmount();
     sessionStorage.clear();
@@ -426,5 +426,89 @@ describe('ResourcesFirst', () => {
     hold('s1');
     const third = render(<ctx.ResourcesFirst turns={turns} sessionId="s1" />);
     expect(third.container).toBeEmptyDOMElement();
+  });
+});
+
+describe('what the room says and shows', () => {
+  it('does not claim a save that failed, and forgets it on sign-out', async () => {
+    sessionStorage.setItem('cic_session', JSON.stringify({ sessionId: 's9', sessionCode: 'c9', mode: 'interview', worldKey: 'w1' }));
+    let signedInNow = false;
+    const calls = serve({
+      ...signedOut(),
+      '/me': () => (signedInNow ? { body: { signed_in: true, recovery_pending: null, sign_in_methods: ['address'], has_recovery_code: true, refill_day: 14 } } : { body: { signed_in: false } }),
+      '/sign-in/start': { body: { status: 'sent', message: 'm', challenge: 'c1' } },
+      '/sign-in/finish': () => ((signedInNow = true), { body: { status: 'ok', new_account: false } }),
+      '/shelf/add': { status: 400, body: { detail: 'That conversation is already on another account\'s shelf.' } },
+      '/sign-out': { body: { status: 'ok' } },
+      '/balance': { body: BALANCE },
+      '/shelf': { body: { conversations: [] } },
+    });
+    const ctx = await load();
+    render(<><ctx.GoDeeperPanel /><ctx.SavedToHome /></>);
+    await act(async () => ctx.accounts.refresh());
+    fireEvent.click(screen.getByRole('button', { name: 'Get more conversations' }));
+    fireEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: ctx.copy.signInOrUp }));
+    fireEvent.change(screen.getByLabelText(ctx.copy.addressLabel), { target: { value: 'a@b.org' } });
+    fireEvent.click(screen.getByRole('button', { name: ctx.copy.sendCode }));
+    fireEvent.change(await screen.findByLabelText(ctx.copy.codeLabel), { target: { value: '123456' } });
+    fireEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: ctx.copy.codeSignIn }));
+    await waitFor(() => expect(calls.some((c) => c.path === '/shelf/add')).toBe(true));
+    await act(async () => undefined);
+    expect(screen.queryByText(ctx.copy.savedToHome)).not.toBeInTheDocument();
+  });
+
+  it('shows the ribbon the account\'s count, free and on codes together', async () => {
+    serve({ ...signedIn(['address']), '/balance': { body: { ...BALANCE, free_left: 440, code_tokens: 1100, codes_held: 1 } } });
+    const ctx = await load();
+    render(<ctx.GoDeeperPanel />);
+    await act(async () => ctx.accounts.refresh());
+    expect(await screen.findByText('1,540 tokens left')).toBeInTheDocument();
+  });
+
+  it('keeps the held-code line for someone holding a code, and the free-allowance pitch for everyone else', async () => {
+    serve(signedOut());
+    const ctx = await load();
+    render(<ctx.GoDeeperPanel />);
+    fireEvent.click(screen.getByRole('button', { name: 'Get more conversations' }));
+    expect(screen.getByRole('complementary')).toHaveTextContent('Every conversation starts free.');
+    cleanup();
+    ctx.deeper.saveCode('ABCD2345EFGH6789JKLM');
+    render(<ctx.GoDeeperPanel />);
+    expect(screen.getByRole('complementary')).toHaveTextContent('Tokens pay for each new conversation and each round.');
+  });
+
+  it('lets someone delete an ended conversation after asking, and Escape does not close the home', async () => {
+    const calls = serve({
+      ...signedIn(['address']),
+      '/shelf': { body: { conversations: [{ session_id: 's2', mode: 'interview', worlds: ['Another voice'], world_keys: ['w2'], title: '', started: 'x', last_active: 'x', turns: 1, closed: true, holds_crisis_turn: false, saved: true }] } },
+      '/shelf/delete': { body: { status: 'ok' } },
+    });
+    const ctx = await load();
+    render(<ctx.AccountHome />);
+    await act(async () => ctx.accounts.refresh());
+    act(() => ctx.accounts.openHome());
+    fireEvent.click(await home().findByRole('button', { name: ctx.copy.remove }));
+    expect(calls.some((c) => c.path === '/shelf/delete')).toBe(false);
+    fireEvent.keyDown(window, { key: 'Escape' });
+    expect(screen.getByRole('main')).toBeInTheDocument();
+    fireEvent.click(home().getByRole('button', { name: ctx.copy.removeYes }));
+    await waitFor(() => expect(calls.find((c) => c.path === '/shelf/delete')?.body).toEqual({ session_id: 's2' }));
+  });
+
+  it('asks again for the confirmation after backing out of it', async () => {
+    const calls = serve({ ...signedIn(['address']), '/step-up/start': { body: { status: 'sent', challenge: 's1' } }, '/step-up/finish': { body: { status: 'ok' } }, '/delete': { body: { status: 'ok' } } });
+    const ctx = await load();
+    render(<ctx.AccountHome />);
+    await act(async () => ctx.accounts.refresh());
+    act(() => ctx.accounts.openHome());
+    fireEvent.click(await home().findByRole('button', { name: ctx.copy.deleteHome }));
+    fireEvent.change(screen.getByLabelText(ctx.copy.addressLabel), { target: { value: 'me@b.org' } });
+    fireEvent.click(home().getByRole('button', { name: ctx.copy.sendCode }));
+    fireEvent.change(await screen.findByLabelText(ctx.copy.codeLabel), { target: { value: '111111' } });
+    fireEvent.click(home().getByRole('button', { name: ctx.copy.codeSignIn }));
+    await home().findByRole('button', { name: ctx.copy.deleteNo }).then((b) => fireEvent.click(b));
+    fireEvent.click(await home().findByRole('button', { name: ctx.copy.deleteHome }));
+    expect(home().queryByRole('button', { name: ctx.copy.deleteYes })).not.toBeInTheDocument();
+    expect(calls.some((c) => c.path === '/delete')).toBe(false);
   });
 });

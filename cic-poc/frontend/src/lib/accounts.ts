@@ -207,7 +207,7 @@ async function carryConversation(): Promise<void> {
     await shelveCurrent(stored.sessionId, stored.sessionCode);
     set({ lastShelved: true });
   } catch {
-    // It stays in this tab; the person can still carry on.
+    set({ lastShelved: false });
   }
 }
 
@@ -216,7 +216,7 @@ export async function signOut(): Promise<void> {
   try {
     await call('/sign-out', { method: 'POST' });
   } finally {
-    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false });
+    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null });
     leaveShelved = forgetShelvedConversation();
   }
   if (leaveShelved) window.location.reload();
@@ -293,6 +293,11 @@ export function resourcesFirst(sessionId: string | null): string | null {
   }
 }
 
+export async function deleteShelved(sessionId: string): Promise<void> {
+  await call('/shelf/delete', { method: 'POST', body: { session_id: sessionId } });
+  set({ shelf: (state.shelf ?? []).filter((c) => c.session_id !== sessionId) });
+}
+
 export async function startStepUp(address: string): Promise<string> {
   const body = await call('/step-up/start', { method: 'POST', body: { address } });
   return String(body.challenge);
@@ -320,7 +325,7 @@ export async function deleteAccount(): Promise<void> {
   await call('/delete', { method: 'POST' });
   clearStored();
   forgetShelvedConversation();
-  set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false });
+  set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null });
 }
 
 /** Which providers the server has turned on. Our own server only; no provider script is touched. */
@@ -419,7 +424,7 @@ export async function signOutEverywhere(): Promise<void> {
   try {
     await call('/sign-out-everywhere', { method: 'POST' });
   } finally {
-    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false });
+    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null });
     if (forgetShelvedConversation()) window.location.reload();
   }
 }
