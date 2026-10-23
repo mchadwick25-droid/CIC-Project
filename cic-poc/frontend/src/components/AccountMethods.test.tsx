@@ -117,7 +117,7 @@ describe('recovery', () => {
       '/me': { body: { signed_in: false } },
       '/providers': { body: { providers: {} } },
       '/recovery/start': { body: { status: 'sent', challenge: 'c9' } },
-      '/recovery/finish': { body: { status: 'ok', recovery_code: 'NEW-CODE', effective_on: '2026-11-01' } },
+      '/recovery/finish': { body: { status: 'ok', recovery_code: 'NEW-CODE', effective_on: 'Nov 1' } },
     });
     const { AccountPanel, accounts, copy } = await load();
     render(<AccountPanel />);
