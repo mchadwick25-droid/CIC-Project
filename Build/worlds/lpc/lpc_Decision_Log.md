@@ -2465,3 +2465,9 @@ Still open: the caption, which opens with the withdrawn label, and the label's p
 
 `safety_adjacent: true` sends `lpc` to full validation. Alternatives shown: (1) name "lpc full validation", $10 cap, now; (2) a $3 to $5 cap now; (3) set the name and cap after Doc_10, with the exact probe count. Precedents shown: "fleet re-admission, 9 October" ($10 cap) and "eleven-world test, 13 October" ($0.90 per world, $2.95 spent). Chosen: 3 (project lead, 2026-10-23, "3"). No metered call runs before then.
 Also recorded: sermon renderings are authored by Opus inside the conversation, against the weekly allowance, not as metered engine calls, so they need no live test unless run through the engine.
+
+---
+
+### 2026-10-23 — Not a pilot world (project lead's ruling, stop point 1 item 5)
+
+Alternatives shown: (1) not a pilot, Fable drafts Doc_10 alone; (2) pilot, Sonnet and Fable both draft Doc_10, graded blind. Chosen: 1 (project lead, 2026-10-23, "1"). `pilot_world: false` in `build/lpc_Build_State.yaml` stands.
