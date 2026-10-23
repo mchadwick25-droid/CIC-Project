@@ -1,0 +1,44 @@
+world_code:
+census_id: devotio-moderna-brethren-of-the-common-life
+world_folder: Build/World-Builds/Devotio-Moderna-Brethren-of-the-Common-Life/
+process_version: V2.0
+completion_standard_version: V1.4
+started: 2026-09-25
+pilot_world: false
+current_step: Library stage resync; Step 0 and Doc_01 at Revision 4 (resync to the Era VI shelf), independent review pending; Doc_02 not started; no registry code yet
+status: in_progress
+pause_point: none
+documents:
+  - id: Step_0
+    status: resync revision 4, review pending (new-material cycle)
+    rounds_used: 3
+    revision_cycle: 2
+    revision_cycle_rounds_used: 0
+    drafter_model: Sonnet 5.5
+    reviewer_model:
+    review_files: [Step0_Review_Round1.md, Step0_Review_Round2.md, Step0_Review_Round3.md]
+    gates_result:
+  - id: Doc_01
+    status: resync revision 4, review pending (new-material cycle)
+    rounds_used: 3
+    revision_cycle: 2
+    revision_cycle_rounds_used: 0
+    drafter_model: Sonnet 5.5
+    reviewer_model:
+    review_files: [Doc_01_Review_Round1.md, Doc_01_Review_Round2.md, Doc_01_Review_Round3.md]
+    gates_result:
+  - id: Doc_02
+    status: not started
+    rounds_used: 0
+    review_files: []
+    gates_result:
+  - id: Representative_identity
+    status: not decided
+    decided_by_mark:
+    decision_date:
+open_items_pointer: Open_Gaps_Tracking.md
+ledger_pointer:
+handoff_manifest_pointer:
+metered_ceiling:
+escalations: []
+freeze_package_pointer:
