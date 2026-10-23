@@ -1626,20 +1626,6 @@ Logged 2026-10-23 from the Phase L0 recheck of the same date.
 - **State.** No condensing pass has been run.
 - **Owner.** The `lpc` build thread, in the same targeted pass that closes the Doc_07 items in OG-22 (NEW-L2, L4, L5, C2; §2F; the V1.3 citation; the stale §8.8 and §8.9).
 - **Closes when** §2 is condensed or the overage is accepted with a stated reason, and §1 and §8.10 agree on one measured figure with its rule.
-
----
-
-## What goes to the project lead
-
-1. The Doc_05 lens spine: options A to D in (2).
-2. Doc_06 at the cap: the review route for OG-32 and OG-33.
-3. OG-34's scope decision on the liturgical candidates.
-4. OG-35, Article 20 applied to personal correspondence.
-5. OG-29 and OG-36, both methodology questions.
-
-Everything else is mechanical: one targeted fix pass per document and the OGT appends.
-
-
 ### OG-38. Doc_04's stale pointers to closed Open Items 6 and 8, repeated in approved downstream files — open, needs one change order (2026-10-23).
 
 Logged 2026-10-23 from `Review-Artifacts/L0_Doc04_Carried_Open_Check_2026-10-23.md` (finding F1, substantial).
