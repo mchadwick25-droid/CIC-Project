@@ -1,0 +1,4488 @@
+Title: Jean Migault; or, The Trials of a French Protestant Family, during the Period of the Revocation of the Edict of Nantes. Translated from the French, with a Historical Introduction
+Creator: Jean Migault (1645-1706); William Anderson (translator and author of the historical introduction; the OCR'd title page gives his post as professor in the Andersonian institution, the word partly garbled)
+Publisher: Edinburgh: Johnstone and Hunter (printed by Johnstone and Hunter, High Street)
+Publication Date: 1852 (M.DCCC.LII on the title page)
+Rights: Public Domain (published 1852, past the 95-year rule; host status NOT_IN_COPYRIGHT)
+Source: Internet Archive item jeanmigaultortr00migagoog, file jeanmigaultortr00migagoog_djvu.txt (Oxford University copy, digitised by Google), fetched directly by the library/source-research thread (Era VII session), 2026-10-16; host rights statement: "possible-copyright-status": "NOT_IN_COPYRIGHT".
+Provenance note: Header prepended; the OCR text follows unchanged; nothing retyped, dropped, corrected or normalised; no long-s characters were present. The Google usage-guidelines notice at the head of the scan is left in place, as in other Google-digitised files in this directory. Rights basis restated: an 1852 Edinburgh publication is public domain by date.
+Content note: Anderson's historical introduction (editorial, 1852) precedes the narrative. Anderson says the French original "was picked up some years since in London"; the translation therefore rests on an earlier printed French text, not on the 1910 Weiss-Clouzot edition from the original manuscript, which is vendored beside this file as migault_journal-fra_weiss-clouzot1910.txt; the French is the primary witness and this English a cross-check. OCR sampled at 10/30/50/70/90 percent: clean, with a few garbled lines at page edges.
+---
+Google 
+
+
+
+This is a digital copy of a book that was preserved for generations on library shelves before it was carefully scanned by Google as part of a project 
+
+to make the world's books discoverable online. 
+
+It has survived long enough for the copyright to expire and the book to enter the public domain. A public domain book is one that was never subject 
+
+to copyright or whose legal copyright term has expired. Whether a book is in the public domain may vary country to country. Public domain books 
+
+are our gateways to the past, representing a wealth of history, culture and knowledge that's often difficult to discover. 
+
+Marks, notations and other maiginalia present in the original volume will appear in this file - a reminder of this book's long journey from the 
+
+publisher to a library and finally to you. 
+
+Usage guidelines 
+
+Google is proud to partner with libraries to digitize public domain materials and make them widely accessible. Public domain books belong to the 
+public and we are merely their custodians. Nevertheless, this work is expensive, so in order to keep providing tliis resource, we liave taken steps to 
+prevent abuse by commercial parties, including placing technical restrictions on automated querying. 
+We also ask that you: 
+
++ Make non-commercial use of the files We designed Google Book Search for use by individuals, and we request that you use these files for 
+personal, non-commercial purposes. 
+
++ Refrain fivm automated querying Do not send automated queries of any sort to Google's system: If you are conducting research on machine 
+translation, optical character recognition or other areas where access to a large amount of text is helpful, please contact us. We encourage the 
+use of public domain materials for these purposes and may be able to help. 
+
++ Maintain attributionTht GoogXt "watermark" you see on each file is essential for in forming people about this project and helping them find 
+additional materials through Google Book Search. Please do not remove it. 
+
++ Keep it legal Whatever your use, remember that you are responsible for ensuring that what you are doing is legal. Do not assume that just 
+because we believe a book is in the public domain for users in the United States, that the work is also in the public domain for users in other 
+countries. Whether a book is still in copyright varies from country to country, and we can't offer guidance on whether any specific use of 
+any specific book is allowed. Please do not assume that a book's appearance in Google Book Search means it can be used in any manner 
+anywhere in the world. Copyright infringement liabili^ can be quite severe. 
+
+About Google Book Search 
+
+Google's mission is to organize the world's information and to make it universally accessible and useful. Google Book Search helps readers 
+discover the world's books while helping authors and publishers reach new audiences. You can search through the full text of this book on the web 
+
+at |http: //books .google .com/I 
+
+
+
+e000245a2R 
+
+
+
+
+i 
+
+
+
+Illllllllll 
+
+e00024S82R 
+
+
+
+r 
+
+
+
+JEAN MIGAULT; 
+
+
+
+OR, THE 
+
+
+
+TEIALS OF A FEENCH PEOTESTANT FAMILY, 
+
+DURING THE PERIOD OF THE REVOCATION 
+OF THE EDICT OF NANTES. 
+
+
+
+TRANSLATED FROM THE FRENCH, WITH A HISTORICAL 
+
+
+
+INTRODUCTION, 
+
+
+
+BY 
+
+WILLIAM ANDEKSON,^ 
+
+PROFESSOR IN THE AfTDERSOXIAN JSTHlWiVl&irr/^hk^J[> J f^^ 
+
+
+
+< 'J ■■■■ - ^■';^>rJ 
+
+
+
+EDINBURGH: 
+JOHNSTONE AND HUNTER. 
+
+
+
+M.DCCO.LII. 
+
+
+
+
+
+
+>i^ ^4 ■ 
+
+
+
+EDIK BURGH : 
+
+FRISTEI) BT JOHNSTONE AND HUNTER, 
+
+HIGH STREET. 
+
+
+
+HISTOEICAL INTfiODUCTION. 
+
+
+
+The little work, of which an English version is now 
+offered to the public, was picked up some years 
+since in London, by the translator, and read by 
+him with great interest, as, in his opinion, bearing 
+the impress of simplicity, truthfulness, and piety. 
+Recent movements among the Roman Catholic 
+party in this country, have led him to think that 
+its publication may not be without use. 
+
+The French title is as follows, " Journal de Jean 
+Migault, ou Malheurs d'une Famille Protestante 
+de Poitou, k Y epoque de la Revocation de T Edit 
+de Nantes" — and the book is dated, Paris 1825. 
+In the preface it is stated, that a member of a 
+benevolent society in Spitalfields (a district of Lon- 
+don once almost entirely inhabited by French Pro- 
+testant refugees, who had fled from the persecu- 
+tion that followed the Revocation of the Edict of 
+Nantes), happening to get into conversation with a 
+poor man, was told by him that he had in his pos- 
+
+
+
+lY HISTORICAL INTRODUCTION. 
+
+session an old manuscript in French, written by 
+one of his forefathers, a victim of the " Revocation." 
+The paper was produced, and, with the consent of 
+the owner, revised, and published in Paris for the 
+use of French Protestants. On perusing the volume, 
+it appeared to the translator that it was different 
+from any thing he had seen on the subject. If one 
+wishes to acquaint himself with the minutisB of the 
+working of such a terrible measure as the Revoca- 
+tion of the Edict of Nantes, he will find consider- 
+able difficulty in obtaining suitable books. He 
+must either refer to formal histories, which treat of 
+the matter " en gros," passing over such little 
+matters as the sorrows and sufferings of an humble 
+family, or he must have recourse to fictitious narra- 
+tives, from which an unvarnished account cannot 
+be expected. Now, Jean Migault's memoir, to a 
+certain extent, supplies this want. It goes into 
+details with the minute exactitude of a Dutch 
+landscape, and gives the reader a vivid idea 
+how poor people are affected by the operation of 
+great state or religious mandates. The style of the 
+original is quaint and formal, with many inelegancies, 
+and not a few repetitions ; but the translator has 
+
+
+
+HISTORICAL INTRODUCTION. V 
+
+not ventured to affect the simplicity of the story by 
+attempting to improve its diction. For the same 
+reason, he has not altered the form of the narrative, 
+although it is sufficiently antiquated ; but has given 
+it as it came from the hand of the good old French- 
+man himself. He sincerely hopes, that whatever 
+opinion may be entertained as to its literary merits, 
+the reader may benefit by the picture of humble 
+piety suffering uncomplainingly, and with an eye 
+turned heavenward, amid heavy and unmerited 
+persecution. 
+
+It may not be out of place here to take a rapid 
+glance at the history of French Protestantism, and 
+also at the causes and effects of the Revocation of 
+the Edict of Nantes, 
+
+From an early period after the commencement of 
+the Reformation in France, the Protestants had to 
+endure severe persecutions. Francis I., notwith- 
+standing his many great and popular qualities, fre- 
+quently treated them with barbarity, scorning them 
+as a wretched heretical rabble, towards whom the 
+observance of the common forms of justice was un- 
+necessary. And it is remarkable, that even while 
+this monarch was in secret alliance with the Ger- 
+
+
+
+VI HISTORICAL INTRODUCTION. 
+
+man Protestant princes against the emperor, his 
+hand was not the less heavy on his own Calvinistic 
+suhjects. Many harsh laws were in existence 
+against these unfortunate persons, and they were 
+rigorously enforced. The new religion, however, 
+continued to spread; and in the reign of the next 
+monarch, Henry II., it was found that the cele- 
+hrated Coligny, together with other distinguished 
+French nohles, belonged to its creed. The perse- 
+cutions which took place afterwards were chiefly 
+confined to persons in humble life. 
+
+On the death of Henry, Francis II., the youth- 
+ful husband of the unfortunate Mary, Queen of 
+Scots, ascended the throne. Francis was much 
+under the influence of his mother, Catherine de 
+Medicis, who, along with the princes of the family of 
+Guise, determined to uproot the Reformed faith. 
+
+The Protestants, or Huguenots, as they were 
+now called, had gradually assumed all the appear- 
+ance of a powerful political party, headed by the 
+Prince of Cond6, the Constable Montmorency, and 
+the Admiral Coligny. Anthony, King of Navarre, 
+too, lent them for a while his hesitating co-operation. 
+Id tracing their history during tlaia bnet* xd^, «ti^ 
+
+
+
+HISTORICAL INTRODUCTION. VH 
+
+during part of that of Charles IX., who succeeded 
+in 1560, we read of little else than conspiracies, 
+stratagems, and military undertakings, in which the 
+right seems to lie, now with the one party and now 
+with the other. Occasionally, however, a polemi- 
+cal discussion took place, with great formality. 
+
+By and by, the Huguenots procured a modi- 
+fication of some of the statutes that remained in 
+force against them ; and, indeed, for a time they 
+appeared to be the dominant power in the state, 
+their leaders having a formidable army, their preach- 
+ers great congregations, and their deputies consi- 
+derable interest in the legislature. The years 1562 
+and 1563 were spent in desultory combats, which 
+resulted in the captivity or death of many of the 
+leaders of both factions. At length negotiation 
+succeeded warfare, and the Protestants obtained 
+terms which do not appear to have been very well 
+calculated to promote their peaceful intercourse 
+with their fellow-subjects. Instead of religious 
+toleration being secured to them by a powerfully 
+administered law, their protection was left in their 
+own hands. They were allowed to garrlwya. «sjAu 
+hold certain cities and fottreasea, «a SS. xJsi^t^ ^^^^ 
+
+
+
+VI 11 HISTORICAL INTRODUCTION. 
+
+something in their creed which must for ever ren- 
+der them incapable of amalgamating with other 
+Frenchmen. Thus the Roman Catholic and the 
+Huguenot now stood, each upon his guard, like 
+enemies breaAiug in the interval of combat. 
+
+Once more attempts were made to withdraw the 
+privileges of the Huguenots, and once more they 
+boldly proposed to take the field. Two of their prin- 
+cipal leaders, Montmorency and Conde, were slain 
+almost at the outset ; but an important auxiliary 
+joined them, in the person of the Prince of Beam, 
+afterwards Henry lY., at the head of a large body 
+of troops. The reigning monarch, Charles IX., 
+a wicked prince, with his still more wicked mother, 
+Catherine de Medicis, now changed their tactics. 
+By a fresh treaty, the Protestants were allowed very 
+great concessions. The young King and Catherine 
+heaped favours and honours on the Admiral Co- 
+ligny and their other leaders ; and a marriage was 
+concluded between the Prince of Beam and Charles's 
+sister, Margaret, which was solemnized on the 17th 
+August 1 572. This event naturally attracted crowds 
+of the Huguenot nobility and gentry to Paris. 
+
+The festival of St Bartholomew occurred on the 
+
+
+
+HISTORICAL INTRODUCTION. IX 
+
+24th August, just seven days after the marriage. 
+On that fatal eye the weather was close and oppres- 
+sive, as if a thunder-storm was ahout to hurst upon 
+Paris. A storm was indeed brewing, more terrible 
+than that of the elements. As night came on, bodies 
+of troops were marched to different parts of the city, 
+where they stood, drawn up in portentous silence. 
+Later still, white crosses were distributed among the 
+men, and placed by them in their hats and helmets. 
+Passers-by gave an anxious glance at these ominous 
+proceedings, and hurried to their homes. Soon the 
+first shots were heard — the first shrieks ! And then 
+Paris presented a picture of horrid butchery. The 
+streets were alive with white-cross soldiers, and with 
+thousands of similarly decorated nobles and citizens, 
+all armed, and engaged in an indiscriminate mas- 
+sacre of the Protestants. Rank availed not to save, 
+although the victim might bear the noblest name 
+in the peerage ; nor patriotism, although he might 
+have bled in a hundred fields for his country; nor 
+female beauty, although the French boasted loudly 
+of their chivalrous gallantry; nor old age, although 
+the martyr s hair was white as the snow •, T^ax xsl- 
+fancfy altbough the helpless \)a\>e vf ^"s ^^ea. \.o ^xsx^^. 
+
+
+
+X HISTORICAL INTRODUCTION. 
+
+and stretch out its arms to the assassin ! The ex- 
+termination of the Huguenots was resolved upon, 
+and none were to be spared except the Prince of 
+Beam and the other members of the rojal family. 
+The work was so pressing, that the King himself 
+aided it by firing at the fugitives from his palace 
+window ; and orders had been given that similar 
+massacres should take place throughout the king- 
+dom. The venerable Coligny fell among the first, 
+and his fellow- victims are variously estimated at 
+from 50,000 to 100,000. 
+
+But still the Huguenots were not entirely de- 
+stroyed. Arousing themselves to exertion, the sur- 
+vivors appeared in arms, and from their fortresses de- 
+fied the enemy. Meanwhile, the wretched King, who 
+had originated or permitted such frightful atrocities, 
+did not escape unpunished. His conscience tor- 
+tured him ; spectres seemed to crowd around his 
+bed ; his agony was such, that blood oozed from the 
+
+surface of his body; and he soon sunk into the grave, 
+" Unwept, unhonoured, and unsung." 
+
+Henry IH., who followed Charles IX., was a fool 
+
+ish and licentious monarch. The Roman Cathc 
+
+lica brought forward what was called " the Leagnp- 
+
+
+
+HISTORICAL INTRODUCTION. XI 
+
+with Guise at their head, for the purpose of sup- 
+pressing Protestantism. An alliance was formed 
+with Spain ; and, finally, the King, seeing that he 
+was becoming a secondary personage to Guise, 
+joined the League, of which he was acknowledged 
+the chief. Henry of Beam, however, now King 
+of Navarre, with a Huguenot army, overthrew their 
+opponents at Coutras. Shortly afterwards Henry III. 
+caused Guise to be assassinated, almost in his own 
+presence ; and he himself next fell under the dagger 
+of a fanatic monk named Jacques Clement. 
+
+Henry of Navarre, as nearest heir, ascended the 
+French throne with the title of Henry IV. Long 
+struggles with the Leaguers marked the early part 
+of his reign ; and the Roman Catholic religion was 
+BO strongly rooted in the prejudices of the people, 
+that the King, imagining he could not reign in peace 
+as a Protestant, entered the bosom of the Popish 
+church. Although separated from their commu- 
+nion, he must still have borne a warm feeling 
+towards his old Huguenot fellow-soldiers; and, 
+accordingly, we find that, in 1598, the Edict of 
+Nantes, the great bulwark of FreTkft\i "Sx^Xfc'^^Jico^^ 
+freedom, was promulgated. 
+
+
+
+Xll HISTORICAL INTRODUCTION. 
+
+By this statute, liberty was ensured to the Hu- 
+guenots to profess and practise their religion, and 
+also to assemble together for the management of 
+ecclesiastical business. They were to have judges 
+of their own creed on the bench, and towns and 
+castles were to be left in their hands as guarantees 
+of these privileges. 
+
+But still the Huguenots were unfortunately situ- 
+ated. Their strongholds and armies gave them 
+the appearance of a hostile, or at least an indepen- 
+dent secular power, existing within the King's do- 
+minions ; while their right of meeting for deliberative 
+purposes must have been looked upon with bitter 
+jealousy by the rest of the nation, whose States-Ge- 
+neral could only be convoked at the royal command. 
+
+The reign of Henry IV. terminated without any 
+material change in their circumstances; but Riche- 
+lieu, the great minister of Louis XIII., after humb- 
+ling his master and the whole nobility of France, 
+attacked the temporal power of the Protestants, be- 
+sieged and took Rochelle and all their other fort- 
+resses, and, from being a strong political party, re- 
+duced them at once to the condition of merely toler- 
+ated dissenters from the national leli^oiv. H^^JXrw- 
+
+
+
+HISTORICAL INTRODUCTION. Xlll 
+
+ed them, however, to enjoy their own forms of wor- 
+ship, arid to manage their church affairs, without 
+molestation; and the Edict of Nantes, although many 
+of its provisions were virtuallynullified, yet remained 
+on the statute book the palladium of their liberty. 
+" They were admissible," says Macaulay, " to political 
+and military employment Some of them com- 
+manded the armies of the state, and others presided 
+over important departments of the civil administra- 
+tion/^ 
+
+The *' bad eminence" arising from the revocation 
+of this protecting edict, belongs to Louis XIV. 
+
+His life had, to a degree beyond that of any 
+of his predecessors, been one of military glory, 
+courtly pomp, and worldly pleasure. Amid his 
+excesses, however, Louis was ever and anon subject 
+to fits of remorse ; and then was seen the strange 
+spectacle of a licentious King, with his mistresses 
+and courtiers, attending all the services and ordi- 
+nances of their church with ascetic exactitude. At 
+one time, indeed, the monarch's life alternated pretty 
+regularly between voluptuousness and penitence. 
+
+From an early age, the King had ?k\i<i^\3L ^ ^^>^^^'fe 
+to the Huguenots^ encroac\\\w» oxi \)ti«vt y^ys^^^'^-» 
+
+
+
+XIV HISTORICAL LSTRODUCTION. 
+
+interfering with the education of their children, and 
+harassing their magistrates and clergy. He dis- 
+missed the Protestant officers from his household, 
+and prevented Protestants from being admitted into 
+the legal profession. "Dragoons," says the eloquent 
+historian already quoted, " were quartered in the 
+towns where the heretics were numerous, and in 
+the country seats of the gentry; and the cruelty and 
+licentiousness of these rude missionaries, were sanc- 
+tioned or leniently censured by government." In 
+1685, Louis was privately married to Madame de 
+Maintenon, a woman of virtue and talent. Two 
+months later, the Edict of Nantes was revoked, and 
+thousands of his best subjects were involved in ruin. 
+St Simon, a noted old French writer, gives the 
+King three motives for this unjust and cruel act — 
+pride, devotion, and policy; and three instigators — 
+Louvois his minister, Madame de Main tenon, and 
+the Jesuits. It is certain that Louvois, in order to 
+render his own services indispensable, was desirous 
+of war, either foreign or civil ; and it is equally so 
+that the Jesuits looked with an evil eye on heretics, 
+who lay under the fiercest anathemas of the Vati- 
+can. But it would be unfair to coiwlct ^la.d3a.\xv^ 
+
+
+
+HISTORICAL INTRODUCTION. Xr 
+
+de Maintenon of such wickedness, on the evidence 
+of St Simon, with whom she was no favourite, 
+since her character seems to have been kind and 
+unbigoted. In writing to her brother, the governor 
+of Amersford, on this very subject, she says — " Be 
+favourable to the Catholics, and be not cruel to the 
+Huguenots. Jesus Christ gained men's hearts by 
+gentleness." We may therefore safely conclude, 
+that, as the King was in a devout mood at the time, 
+he was easily persuaded by his spiritual advisers that, 
+in ridding his realm of heresy, he was offering a meri- 
+torious and expiatory service to God ; while, on the 
+other hand, his pride would be gratified by the humi- 
+liation of a society of men who had so often waged 
+war on their sovereigns. 
+
+The " Grand Monarque" was one of the haughti- 
+est of men. He boasted that he governed without a 
+prime-minister ; and yet it is curious to observe how 
+he was led and guided by the persons around him. 
+St Simon tells us, that, "when they wished to bring 
+him to a particular opinion, the minister and Ma- 
+dame de Maintenon agreed upon it beforehand. If 
+it was a place or post they desired lo ^^^xsx^^^-^^ 
+friend, the minister show edt\iel^\xv^^\"a.X\^'^« ^^Sass^S^^ 
+
+
+
+XVI UI8T0RICAL 12<ilI(»DUCTI0N. 
+
+the monarch happen, at the first glance, to remark 
+their protegee, then they recommended that name, 
+and kept him from going any further. If, however, 
+he stopped at some other, the minister suggested 
+that he should examine the whole list hefore decid- 
+ing ; and he endeavoured to bring him back to the 
+proper person. Seldom did he expressly propose 
+his own favourite ; but he was always provided 
+with several, whose merits he could balance, in 
+case of need, with the view of puzzling the King. 
+Louis would now ask his advice. The minister 
+would once more review the candidates, give his 
+reason for and against each, and at length fix 
+on the one he wished appointed. The King 
+almost always hesitated, and concluded by ask- 
+ing Madame de Maintenon's opinion. She was 
+generally seated in a corner of the room, read- 
+ing or spinning, as if she took no interest in 
+the matter. On hearing Louis's question, she 
+would seem to arouse herself from a reverie, smile, 
+declare her ignorance of such things, say a few words 
+about one or two of the candidates, and, finally, 
+fixing upon him whom the minister had proposed, 
+would almoat always decide the affaix " 
+
+
+
+HISTORICAL INTRODUCTION. XVII 
+
+The thunderbolt was at length launched. De- 
+cree after decree appeared against the Protestants. 
+Children were taken by force from their parents, 
+and sent to convents. The Protestant clergy were 
+ordered to quit France within fourteen days, while 
+the laity were forbidden to leave the kingdom at 
+all; and the coasts, especially towards the west, 
+where Calvinism most prevailed, were strictly 
+guarded. Thousands of inoffensive persons of every 
+rank were reduced to poverty, lodged in prison, or 
+hunted in the woods. Many were cruelly put to 
+death. But, notwithstanding all the efforts of the 
+government, fifty thousand families escaped to 
+foreign lands. "In the list," observes Macaulay, 
+" are to be found names eminent in science, in 
+literature, and in art. Some of the exiles offered 
+their swords to William of Orange, and distin- 
+guished themselves by the fury with which they 
+fought against their persecutor. Others avenged 
+themselves with weapons still more formidable; 
+and, by means of the press of Holland, England, 
+and Germany, inflamed, during thirty years, the 
+public mind of Europe against the French goveru.- 
+ment. A more peaceful cVasa et^cX^^ «^^ ^KCiSKs^.- 
+
+
+
+XVlll HISTORICAL INTRODUCTION. 
+
+factories in the eastern suburbs of London. One 
+detachment of emigrants taught the Saxons to 
+make the stuffs and hats of which France had 
+hitherto enjoyed a monopoly. Another planted 
+the first vines in the neighbourhood of the Cape 
+of Good Hope." 
+
+Thus, good eventually arose out of evil. The 
+Protestant interest was powerfully strengthened by 
+the French refugees, and the breach between Louis 
+and his numerous enemies was rendered irrepar- 
+able. The proud monarch lived to see the heretics 
+whom he had despised and hated, sully the glory 
+of his crown, defeat his armies, tear from him his 
+conquests, and even plant hostile foot on the sacred 
+territory of France itself. That his death was 
+better than his life had been, was but another 
+proof that erring man has to do with One who is 
+full of mercy and forgiveness. 
+
+Glasgow, October 15, 1851. 
+
+
+
+PKEFATORY LETTER TO MY CHILDREN. 
+
+
+
+Amsterdam, September 1689. 
+The tranquillity which I have enjoyed for some 
+time in this city, has led me frequently to reflect 
+on the difi^erent epochs of my sojourn in France — 
+that period of mingled happiness and adversity. 
+And, as the light afflictions with which we are 
+visited leave on our minds an impression stronger 
+and more lasting than the innumerahle blessings 
+that continually surround us, my thoughts seem 
+rather inclined to dwell on the trials I endured 
+during seven or eight years, than on the sixteen or 
+eighteen years of felicity I spent in the society of 
+one who was to me the best of wives, and to you 
+the tenderest of mothers. Thus, since the time 
+when it pleased God to call her to her rest, I often 
+feel a sad pleasure in retracmg "^^tV. ^1 "Ocl^ Xx^^ivs^^^ 
+
+
+
+XX PREFATORY LETTER. 
+
+which she shared with me in 1681, the year of 
+the commencement of the persecutions in France 
+agc'iinst the Christians of the reformed religion. I 
+would not that the youngest of you, my dear chil- 
+dren, should be unacquainted with your mother's 
+virtues. On arriving at maturity, may you profit 
+by the example of the most excellent of wo- 
+men, — of one who has fought the good fight of 
+faith, and has finished her course with joy. 
+
+I commenced my journal at Mauze, and I con- 
+tinue it at Amsterdam, chiefly for my four eldest 
+children, but also for the benefit of the others. 
+They will there see the obstacles I have had to sur- 
+mount, and the difficulties against which I have 
+had to struggle, before escaping from the persecu- 
+tion that desolated our unfortunate land, — a perse- 
+cution in which I found myself plunged with thou- 
+sands of my fellow-countrymen, many of whom are 
+still the victims of a tyranny as cruel as it is un- 
+called for. I hope, also, that the reading of this 
+narrative may lead you to reflect on the goodness 
+of God ; and that when you see how I have been 
+enabled, with part of my family, to escape from 
+France, you may find in it occasion to praise that 
+
+
+
+PREFATORY LETTER. XXI 
+
+merciful Father who has chosen our household, 
+having no especial claim to his protection, that he 
+might make of us monuments of his love, and con- 
+duct us to these happy provinces, where we enjoy, 
+at perfect liberty, the blessings of his holy Word. 
+My family will also find in this journal another 
+motive which ought to fill their hearts with the 
+most lively gratitude. I myself committed a great 
+crime ; nevertheless, the Almighty had pity on me. 
+He pardoned my sin, and enabled me to place in 
+safety my young and helpless children. 
+
+In short, each of you, for himself, will discover 
+ample reason for admiring and adoring the wise 
+providence of God, in the means which he em- 
+ployed to snatch you from dangers, of the existence 
+of which several of you were too young to be aware. 
+
+Here, then, let me bless his holy name for all 
+the mercies shown to me and mine! And let me 
+conjure you, my dear children, to manifest your 
+gratitude by a life consecrated altogether to his 
+service ; even to glorify him in your bodies and in 
+your souls 1 We have deserved his wrath, by ne- 
+glecting his Word, and he has corrected us vwvskjst^'^. 
+He cbastiaeth whom he \oyel\\-, «liv^ \ ^^t^^ Vwss. 
+
+
+
+XXll PREFATORY LETTER. 
+
+ardently to give us grace not to despise his chastise- 
+ments, nor to faint when we are rehuked of him. 
+]\Iay he guide us by his counsel, and afterwards 
+receive us into his glory ! 
+
+
+
+JEAN MIGAULT. 
+
+
+
+Since it pleased God, my dear children, to take to 
+himself your excellent mother, before most of you 
+had known her, and when the youngest of you had 
+scarcely opened his eyes upon the light, it has 
+occurred to me that, one day, you might feel some 
+desire to hear of the sorrows and anxieties which 
+she had to suffer for you; to learn also the circum- 
+stance which forced us to quit Moulle, where we 
+had always resided, and retire to Mougon ; and how 
+the misfortunes which weighed upon a great part of 
+Poitou compelled us at length to leave Mougon too, 
+and to establish ourselves at Mauze, in which 
+p'ace I write these memoirs. 
+
+In commencing, I may remark that your mother 
+and I were married on the 14th January 1663. I 
+was then eighteen years of age, and she nineteen. 
+Immediately subsequent to this event, we settled at 
+Moulin, in the parish of Fressine, in a little house 
+which my father had purchased not lon^ befat^ \sx^ 
+death. We there passed sonie 'jeax^ m ^^ \>ic»»RX» 
+
+
+
+24 JEAN MIGAULT. 
+
+trauquillity; having with us ray mother, who was 
+of great use in our domestic arrangements ; for we 
+were still too young to manage well the numerous 
+boarders and other pupils already committed to our 
+care. 
+
+Like my father, I was a student ; and I suc- 
+ceed od him at the same time in his profession and 
+in the little property of which he was owner. I 
+commenced during his lifetime to officiate as clerk 
+iu our church at Mougon ; and he had the satisfac- 
+tion, on his deathbed, to learn that I was called 
+permanently to that office, the functions of which, 
+as well as those of elder and of secretary, he had 
+fulfilled during more than forty years. Young as 
+I was, I had a strong sense of my insufficiency to 
+the performance of so many and such diversified 
+duties ; but God, on this occasion, as on others, 
+deigned to come to my help. Nor must I forget 
+that I was greatly supported by the presence of my 
+dear mother, who, however, was removed by death 
+five years after my marriage. 
+
+I will not bring before your notice the detail of tlie 
+various circumstances which, during fifteen or seven- 
+teen years, marked our sojourn at Moulle ; my de- 
+sign being solely to inform you of those which obliged 
+us to quit that residence, at the moment when, after 
+many difficulties and expenses, we thought ourselves 
+established in so pleasant a situation. 
+
+
+
+JKAN MIGAULT. 25 
+
+Eleven of you already surrounded us in 1680; 
+and as we began to observe the lowering of the 
+storm which has since burst in so terrible a man- 
+ner, nothing less than divine grace could have sus- 
+tained and preserved us amid the anxiety incident 
+to the care of so large a family. But we were 
+firmly persuaded that even if we, to whom Provi- 
+dence had committed you, should find ourselves 
+compelled to leave our dear ones in the hands of 
+strangers, you would still be objects of the care of 
+your Heavenly Father. During this time, our tem- 
+poral interests were in a flourishing condition. Our 
+establishment became more and more extensive; 
+and the end of each year found us happier than we 
+had been at its commencement. Our time, indeed, 
+flowed on insensibly in joy and gratitude, and with- 
+out our experiencing a feeling of envy at the suc- 
+cess of any around us. 
+
+Notwithstanding the labours inseparable from the 
+direction of a numerous school, I found opportunity 
+also to exercise the functions of notary until 1681. 
+I had received this charge in 1C70, from the Lord 
+of Mougon. But a declaration, published in 1681 
+by the government of his Majesty, excluded the 
+Protestants from all civil employments, suppressed 
+all offices or posts of emolument connected with our 
+religion, and took from the greater i^^xt. ^^ ^"v^- 
+brethren their sole means o^ ^SL\ti\T\« ^Xvs^Sw^^^' 
+
+
+
+26 JEAN MIGAULT. 
+
+It is with sorrow, I am forced to add^ that this 
+rigour induced a large number of them to renounce 
+tlieir faitli ; and, though happily not guilty of this 
+shameful apostasy ourselves, we found it impossible 
+to remain longer in Moulin. A change of residence 
+appeared to be absolutely necessary, if we would 
+preserve our school. 
+
+The members of our consistory now inyited me 
+in the most urgent terms to establish myself at 
+Mougon, and offered me the annual salary of sixty 
+francs, on condition that I should continue to per- 
+form the duties of clerk and secretary. It was not 
+without much hesitation that we accepted their pro- 
+posal, both your mother and myself feeling sad 
+forebodings of the troubles that awaited us at Mou- 
+gon ; but at length I went to that village, and sought 
+a suitable dwelling for my family. The cure, who 
+has since displayed a degree of wickedness and 
+baseness, of which I had then but little suspicion, 
+recommended to me a house belonging to a lady of 
+his acquaintance, which he persuaded me to hire. 
+But, in the month of February, when I was on the 
+point of removing my furniture to it, the c\ii6 not 
+only declared to me that I never should inhabit 
+that house, but also threatened in the most furious 
+manner to bring upon me the severest misfortunes, 
+should I have the audacity to fix my residence 
+within the limita of what he calkd " h\a t^tni^x'^ " 
+
+
+
+JEAN MIGAULT. 27 
+
+I was not, however, to be hindered bj his menaces ; 
+80, applying to a friend who had a house to let, I 
+engaged it, and without farther delay, on the 13th 
+February 1681, took up my abode in Mougonwith 
+my dear wife, you my children, and twelve boarders. 
+
+We lived in Mougon quietly enough for four or 
+five months, until the arrival of a regiment of ca- 
+valry — that regiment which caused the ruin of so 
+many estimable families in Poitou. These troops 
+were distributed among several villages, and always 
+billeted on the Protestants, whom they never left 
+till they had reduced them to a condition of abso- 
+lute destitution, while no soldiers were allowed to 
+be lodged in the houses of the Papists. 
+
+Every day we saw persons, who till then had 
+made profession of the true faith, go in crowds 
+to hear mass — a circumstance the more shameful, 
+that this renunciation of their religion generally 
+took place as soon as the dragoons crossed the 
+threshold of their dwellings, and before they had 
+experienced the slightest inconvenience. I remem- 
+ber seeing, one day, in the parish of Fressine, a 
+private soldier make three of the principal families 
+in the place embrace Papacy in two hours' time. 
+The solj^er, whose regiment was quartered at You- 
+ill^, haoT come to Fressine merely for the purpose 
+of airing his horse, when it occuired \a Vyks. \55» 
+present to the Protestants some «ct^^% '^^ ^«^^^ 
+
+
+
+28 JEAN MIGAULT. 
+
+which he happened to have in his pocket, and 
+which he pretended were hilleting orders. He had 
+no need to seek for other arguments. 
+
+The facility with which so many thus changed their 
+religion, aggravated seriously the sufferings of those 
+who felt strength enough to remain firm and un- 
+shaken. In a few days their houses were crowded 
+with soldiers ; for, according to the plan which the 
+military had adopted, the soldiers lodged with a 
+Protestant family were, upon the apostasy of their 
+host, transferred to the house of the nearest of his 
+brethren who remained true to his faith. Thus 
+the number of these cruel guests continually in- 
+creased in the dwellings of those who consented 
+to suffer the loss of all things that they might 
+win Christ, and who regarded godliness as the 
+greatest gain. 
+
+In general, the troop did not abandon a parish 
+so long as there remained, in the house of a mem- 
+ber of the Reformed Church, a single article of fur- 
+niture or other effects which it was possible to turn 
+into money. They exacted fifteen francs for supe- 
+rior ofl&cers, nine francs for a lieutenant, three francs 
+for a private, and thirty sols for the meanest indi- 
+vidual attached to the regiment. Wjj^n this 
+monstrous extortion ceased to be paid, the goods 
+and cattle of the unfortunates were immediately 
+Bold; or^ if tbey did not possess t\iese, ^xv^ ot\vet 
+
+
+
+JEAN MIGAULT. 29 
+
+property they might haTe, even to their clothes, 
+was mercilessly seized upon. 
+
+That many Papists should have profited by so 
+good an opportunity of replenishing their stables 
+with horses, their farms with cattle, and their houses 
+with furniture, is not surprising ; for the officer 
+rarely paid attention to the real value of what he 
+ordered for sale, and generally sold the goods to 
+the first bidder. 
+
+Thus the faithful servants of Christ, after hav- 
+ing supported their oppressors — some for ten days, 
+others for twenty, or even a longer time — at last 
+endeavoured to evade the fiiry of their enemies by 
+flying during the night, with their wives and chil- 
+dren, and wandering in the woods, without nou- 
+rishment and often even without garments. 
+
+I shall not easily forget a distressing scene of 
+which I was witness, three or four days before the 
+arrival of the soldiers in our village. Being called 
+by business to La Bessiere, I met, in returning, a 
+lady of my acquaintance, who was flying through 
+the fields with three children, one at the breast, 
+and the others holding by their mother's hand. It 
+is impossible to depict the consternation of this un- 
+fortunate woman. She ran on, without knowing 
+whither she went, believing always that the dra- 
+goons were in pursuit ; and as she feared to ^l^sk^^ 
+her pace for a moment, I could oV^ta^T^. ^t^TsvVet. ^^ 
+
+
+
+30 JEAN MIGAULT. 
+
+coherent reply to ray questions. I learned after- 
+wards, however, with true satisfaction, that she 
+managed to escape ; and that, though she passed 
+many days and nights in a bleak country, without 
+shelter, and most of the time without nourishment, 
+these frightful privations did not materially affect 
+her health nor that of her children. 
+
+For some time the tempest had muttered around 
+us, though we did not begin to be ourseWes the object 
+of its fury until Wednesday, 22d August 1681. In 
+the course of the morning of that day, as we came 
+out of church, where we had been offering our ac- 
+customed prayers, we perceived a troop of cavalry, 
+commanded by M. De La Brique, approach us at 
+the gallop, and take position around the church- 
+yard. The hostile demonstration of these men 
+carried terror to the hearts of the most courageous 
+among us. I had scarcely entered my house when 
+the quarter-master presented himself, holding in his 
+hand a billet-order; and, without quitting his saddle, 
+he demanded, in an imperious tone, if it was our 
+intention to become Roman Catholics. This was 
+the accustomed method of conversion 'used by these 
+proselyters. On being solemnly assured by your 
+excellent mother and myself that we would not 
+change our religion, he turned his horse's head and 
+scampered off. 
+
+We were alone in the house, haying takeu (.he 
+
+
+
+JEAN MIGAULT. 31 
+
+precaution of sending you all away some days pre- 
+viously. Your maternal grandmother, with whom 
+you now live, had departed with John and Louis to 
+the ch&teau of Grand Breuil, belonging to Madame 
+De la Bessiere ; Anne, Pierre, and Elizabeth were 
+concealed in the chd,teau of GascongnoUe with M. 
+Magnen ; Jacques was with the widow of my cou- 
+sin Abraham ; Charles and Gabriel with M. Jean 
+Collon ; Jeanne and Marie at Niort, with my cou- 
+sin Tuyonnet ; and Philemon at the Grand Port de 
+P6rign6, with M. Louis Collon. The only one of 
+our children who was not at that time distant from 
+us was Ren^, then an infant of seventeen days' old, 
+whom we had confided to the care of a Papist in 
+our neighbourhood, whose wife had engaged to 
+nurse him till he should be two years of age. 
+
+The quarter-master had not been gone from our 
+door more than a minute, when he returned in 
+company with the commander of the troop, M. de 
+la Brique. This officer demanded of m^ what sum 
+I intended giving him — informing me at the same 
+time, that he should regulate the number of soldiers 
+to be lodged in my house according to the degree of 
+liberality I might show. On my protesting that I 
+really had no money at my disposal, he proceeded, 
+with an air of the greatest coolness, to examine 
+minutely every corner of the house and ^remvaA.'ek^ 
+including the stable, and Vie tYieii V\\5[v^\^>n * 
+
+
+
+32 JEAN MIGAULT. 
+
+Immediately after his departure, we beheld a 
+couple of soldiers approaching, who presented their 
+billet-papers ; and who, after putting their horses 
+into my stable, ordered a dinner sufficient, at the very 
+least, for twenty persons. While this repast was 
+being prepared, two of their comrades entered, pre- 
+senting also their papers ; and these had scarcely 
+left the house, to look after their horses, when the 
+number was increased by the appearance of a fifth. 
+This man, after supplying his steed with all that 
+was necessary, seated himself without ceremony in 
+my parlour. 
+
+The presence and insults of five soldiers, the most 
+overbearing of men, as insatiable in their demands 
+as they were ferocious in their manners, were not 
+considered a sufficient vexation to inflict on a poor 
+and inoffensive individual. The five were joined 
+by other four, who, under pretence that the hay 
+they had found was not of the best quality, excelled 
+their companions in the coarsest and most blas- 
+phemous imprecations. The entire troop now 
+demanded, with horrid menaces, different articles, 
+which it was quite impossible to procure in our 
+little village ; and, upon my informing them that 
+these could not be had without sending to Niort, 
+a distance of two leagues, they permitted me 
+to leave the house in order to obtain them. My 
+£r8t care »vas to go to the residence of some Roman 
+
+
+
+JEAN MIOAULT. 33 
+
+Catholic ladies, whose habitation was adjoining to 
+my own, and indeed communicated with it bj a 
+little hidden door ; and I besought them to aid me 
+in sending to Niort for proyisions. They had only 
+begun to reply to me, when they were interrupted 
+by the appearance of six horsemen at their door, 
+who asked to be directed to my house. The ladies 
+showed it to them ; and then declared to me that 
+my utter ruin was evidently resolved upon, as 
+might be easily seen from the successive arrival of 
+such a number of soldiers. They next counselled 
+me, in the most earnest manner, not to venture to 
+appear again before them, their intention being, 
+without doubt, to drag me by force to the Romish 
+church ; and they insisted that the plan of the cur6 
+aimed at nothing short of my destruction. In fine, 
+they declared that it would be the height of impru- 
+dence in me to re-enter my house, while the worst 
+consequences that could result from my absenting 
+myself would be the loss of my furniture. 
+
+I felt all the force of this reasoning, well know- 
+ing that a great number of our brethren had been 
+compelled to go to Roman Catholic churches ; and 
+that, although they had resisted to the utmost the 
+efibrts made to oblige them to take part in the rites 
+and ceremonies of Romish worship, theiftenemies had 
+nevertheless reported sedulously that ikftt wsX^ ^«^ 
+had obeyed their orders in enteim^ \Jt^^ \svi^^^'^-v 
+
+
+
+34 JEAN MIGAULT. 
+
+but that they had made a formal retractation of the 
+Protestant faith. 
+
+I did not dissemble to the ladies that, in truth, 
+I had little desire to present myself again before 
+these cruel men ; but " My poor wife," I added — 
+" it is impossible for me to quit her !" 
+
+You will easily conceive, my dear children, the 
+Tiolence of my sorrow under such painfiii circum- 
+stances. I saw peace and comfort banished from 
+my home, and at a time, too, when your mother, 
+who had but barely recovered from a confinement, 
+had great need of repose. Had it not been for the 
+brutal invasion of the soldiery, she would have re- 
+mained in bed for some days longer, for she was 
+very weak and delicate ; but, without pitying her 
+condition, our merciless guests compelled her to 
+rise, refusing to leave even our own bedroom at 
+our disposal. 
+
+My obliging neighbours promised that, if I would 
+depart, they would never abandon my wife, assur- 
+ing me in the most solemn manner, that, ere the 
+day was out, they would procure for her the means 
+of escape, in spite of all the difficulties which might 
+attend the enterprise, and the terrible consequences 
+which their protecting her might bring upon them- 
+selves. 
+
+I lifted my heart to God. I implored his bless- 
+iDg and bis wisdom, and I prayed him to direct my 
+
+
+
+JEAN MIOAULT. 35 
+
+footsteps. All the misfortunes which might result 
+from my returning to the house presented them- 
+selyes to my mind ; and I resolved to suhmit my- 
+self implicitly to the counsel of these worthy friends. 
+After repeating their consoling promises regarding 
+your mother, one of the ladies conducted me by a 
+back street to a garden surrounded by high walls, 
+and not more than a hundred yards distant from 
+the house. She left me in this place, carefully 
+locking the door behind her. It was then between 
+three and four o'clock, and I remained in the 
+garden till eight in the evening, my imagina- 
+tion continually tortured by the idea of your poor 
+mother. I seemed to hear her voice ; I thought 
+she reproached me with having abandoned her at 
+the moment when she had the greatest need of sup- 
+port. Alas ! alas ! my dear children, my imagina- 
+tion was far from exaggerating the sufferings of that 
+noble woman. All I had pictured to myself, fright- 
+ful as the picture was, fell short of the treatment 
+she had to suffer during the five or six hours I 
+passed shut up in the garden ; and that she did not 
+expire under the hands of her torturers, I can only 
+attribute to the protection of a kind providence. 
+
+It seems that the soldiers no sooner suspected I 
+had got out of their power, than one of them fol- 
+lowed your mother to an apartment^ vi\i\\3sv^x^ Sxk. 
+jspite of the pain under which. a\ie \«^io^M^^^ ^^ 
+
+
+
+36 JEAN MI6AULT. 
+
+had dragged herself, to fetch them some wine which 
+they demanded, and, striking her a yiolent blow, 
+led her back into the parlour. There this man, 
+mingling the most barbarous irony with his cruelty, 
+represented to her, that, in her condition, it was ne- 
+cessary she should be kept as warm as possible ; 
+and he then, with his companions, put her into the 
+recess of the large chimney-place and heaped fuel 
+upon the fire until the heat was perfectly insupport- 
+able. The soldiers now amused* themselves by 
+throwing parts of our furniture into the fiame, seek- 
+ing, at the same time to overcome the constancy of 
+their victim by outraging the holy name of God, 
+and by threatening to burn her alive if she did not 
+renounce Protestantism. Latterly the heat was so 
+intense that the men themselves could not re- 
+main near the chimney, being forced to relieve each 
+other every two or three minutes in standing guard 
+over your mother. She, knowing Him in whom 
+she believed, never lost for a moment her peace of 
+soul. Mildly and firmly she repelled the impor- 
+tunities with which ''they sought to force her to 
+change her religion ; until at last, losing conscious- 
+ness, she ceased altogether to be sensible of the in- 
+sults and outrages of these monsters. 
+
+I must not forget to inform you that one of the 
+
+ladies before-mentioned was present at this scene 
+
+of horror. She threw herself at the feet of the 
+
+
+
+JEAN MIGAULT. 37 
+
+officer, conjuring him to show mercy to my wife ; 
+but what could her prayers and supplications effect? 
+They were as the breath of an infant opposed to 
+the blast of a hurricane; and your mother would 
+inevitably have perished, had not God in his mercy 
+sent her a protector as devoted as he was unex- 
+pected. 
+
+We were far from imagining, three days before 
+this, on witnessing the departure of the prior, that 
+we should so soon attribute to this circumstance the 
+preservation of her who was so dear to us; but 
+providence acts by means the most unlikely in the 
+estimation of man, and the child of God recognises 
+his Father's hand in incidents to which others deign 
+not to give their attention. Thus he who knows 
+that the hairs of his head are all numbered, and 
+that the Lord keeps him as the apple of his eye, 
+will never overlook nor deem unimportant the small- 
+est event which He brings to pass. 
+
+The vicar, M. Billon, who just at this moment ar- 
+rived in our parish to officiate in absence of the prior, 
+was an excellent man, and had longhonouredmewith 
+his friendship. He was surrounded by a circle of 
+parishioners, when some one entered and mention- 
+ed the treatment to which my wife was exposed. 
+Without the slightest delay the good man ran to 
+our house, and, using the united influence wIv\r.\\ V^js. 
+hi^h character and his professioii ^^ ^ Oict^^TCvasv 
+
+
+
+38 JEAN MIGAULT. 
+
+{jave him, lie contrived to withdraw your mother 
+from the hands of her torturers, though not till he 
+had been obliged to promise to give her up to them 
+again, if he should be unable by his exhortations 
+and arguments to incline her to embrace the Romish 
+religion. Our neighbours, the friendly ladies^ de- 
+termined at all risks to fulfil the promise they had 
+made to me, now seized the opportunity of conduct- 
+ing your mother, more dead than alive, into an- 
+other apartment ; and, when the vicar would have 
+followed, they made him retire, informing him that 
+it was absolutely necessary she should be left alone 
+with them for some time. Immediately on his 
+going out, they led her, with as much promptitude 
+as resolution, to their own house, through the little 
+concealed door of which I have already spoken. 
+She then, with great difl&culty followed them up 
+stairs to the garret, where they concealed her under 
+a quantity of linen which happened to be lying 
+about ; and then these good souls, having finished 
+their precautions, returned to the apartment where 
+they had left the vicar. " Where is my prisoner?" 
+demanded he. " She is no longer within the power 
+of these monsters in human shape," was their re- 
+ply. " Well, well,'' rejoined M. Billon, *' may the 
+Almighty grant his merciful protection to her and 
+her husband!" and without taking leave of the sol- 
+diers, the vicar left the house. 
+
+
+
+JEAN MIGAULT. Si) 
+
+It would be needless to detail the conduct of the 
+dragoons, when they found that both victims had 
+escaped from their tyrannical grasp. Their fury 
+knew no bounds. They carried their search into 
+our neighbours* house, and even the garret did not 
+escape their observation ; but happily the heap of 
+clothes was the only thing they neglected to ex- 
+amine. The unfortunate raised her voice to God, 
+and God heard her prayer. 
+
+After this unavailing scrutiny, their fury was in 
+some degree appeased by the appearance of Jean 
+Dillot, who, perceiving that soldiers had been sent 
+to lodge in my house, had left his own affairs at 
+Boigmartin, and come with all speed to Mougon, 
+to lend me any assistance in his power. Most pro- 
+bably they would have wreaked their rage upon 
+him, had not one of the band remembered that, 
+some time before, this poor man had rendered a 
+service to their oflficer. He remained all night in 
+the house, serving these terrible guests with what- 
+ever they thought good to demand. 
+
+Next morning the whole of our parish made a 
+formal abjuration of their faith, with the exception 
+of about twenty families, who, flying from their 
+houses on the approach of the cavalry, dispersed 
+themselves in the woods. Our beds, our linens, our 
+clothes, all, in short, that we posaes>«»^d.,'^^'t^ ^^^ 
+or destroyed. The property vjYAcVl \)[iO^^ ns"^^^ ^^ 
+
+
+
+40 JEAN MIGAULT. 
+
+left in their dwellings shared the same fate. And 
+when M. de la Brique found that no more mischief 
+could possibly be wrought at Mougon, he led his 
+troop to Souche, where he committed the same acts 
+of tyranny, and overwhelmed with the same cala- 
+mities the faithful Protestants whom he found 
+there. 
+
+But to return to my poor wife. Our generous 
+friends instructed me, without loss of time, of all 
+that had taken place ; and it was agreed that, when 
+night had set in, she and I should rejoin each other 
+in a part of the forest situated near the junction 
+of the roads leading to Mougon and to Niort. At 
+that hour the soldiers were too busily engaged 
+drinking our wine to observe our movements; 
+so, making a circuit by the other side of Tho- 
+rign^, we arrived without much danger at the place 
+of rendezvous. My wife w^as accompanied by two 
+of the ladies, who had taken her in their cabriolet. 
+How blessed did I feel it to see these good Papists 
+unite their voices to ours in thanks to our common 
+Father for having so mercifully delivered us ! 
+
+With hearts overflowing with lively gratitude, 
+we took leave of our inestimable friends, and pro- 
+ceeded to the chateau de Gascongnolles, where 
+we arrived about eleven o'clock. M. Magnien 
+welcomed us in the most hospitable manner ; 
+and, in compliance with his wishes, we laid our- 
+
+
+
+JEAN MIOAULT. 4 1 
+
+selves down to rest ; but our minds were too much 
+shaken to permit of sleep closing our eyelids. 
+Every noise that reached our ears seemed the ter- 
+rible sound of horses' feet, and every voice the cry 
+of the dreadful soldiery. We felt ourselves too 
+near to Mougon, and determined to go to Niort, 
+distant about two leagues, where we arrived at 
+break of day. 
+
+We lodged in the house of the Ladies Monestier, 
+and passed two days without leaving our chamber; 
+at the end of which time I departed for Grand 
+Breuil, to see your grandmother, who had taken 
+charge of Jean and Louis. I then rejoined your 
+mother, who almost immediately returned to Gas- 
+congnoUes, where she had the first information of 
+the destruction of one half of our property and the 
+sale of the rest. Shortly afterwards she returned 
+to Mougon, with Anne, Pierre, and Elizabeth, and 
+repurchased part of our furniture and effects. But 
+very few of those into whose hands they had fallen 
+would relinquish them for the price she was able 
+to offer, although they had bought them for a mere 
+trifle — what had cost us a hundred francs having 
+been sold for five, and other articles in proportion. 
+I now found myself absolutely unemployed, and 
+I knew not how I should provide for the wants 
+of my numerous family. Without any d\&tv\va^ 
+object in view, I went to Gtand. litevvA^ ^^^wsv- 
+
+
+
+42 JEAN MIGAULT. 
+
+panied by Jacques and Grabriel, and from thence 
+I departed for Ln Rochelle. I found in this city 
+many families of our religion, who, in consequence 
+of the bad treatment received from the soldiery, or 
+of the fear which their approach occasioned, had 
+fled thither from different parts of the neighbour- 
+hood. Of these, a great number embarked for 
+Holland, England, and Ireland, and many for Ca- 
+rolina. It is impossible to describe the consterna- 
+tion into which the poor people — none of whom 
+had been guilty of any fault, but who, on the con- 
+trary, were all worthy of esteem — were plunged. 
+Indeed, the deplorable circumstances which forced 
+them to quit their native land, were such as might 
+have melted any heart. The fear of losing their 
+children, if they remained in the country, was 
+what decided the greater number of them to emi- 
+grate. 
+
+I considered the possibility of our own departure ; 
+but, circumstanced as I then was, with so many 
+children scattered over so wide a space, I knew not 
+what measures to adopt for the accomplishment of 
+this object. I took, once more, the road to Grand 
+Breuil, with my eldest boy and girl, and there I 
+spent all the vintage season ; when, perceiving at 
+length that the cavalry had gone to some distance 
+from our village, I yielded to the advice of my 
+fnendsy and, flaUering myself, at the same time^ 
+
+
+
+J KAN MIGAULT. 43 
+
+that we had no reason to fear further persecutions, 
+returned to Mougon. 
+
+I now ventured once more to assemble around 
+me the whole of my family, including your grand- 
+mother ; some of our old boarders, even, returned, 
+eager to place themselves under my care; our 
+school resumed its activity : in short, we comforted 
+ourselves with the hope that henceforth we should 
+be permitted to continue our legitimate and inno- 
+cent occupations. 
+
+This agreeable dream lasted no longer than fif- 
+teen days. In the commencement of October, a 
+troop, commanded by M. de Mal-Fontayne, made 
+its appearance in Thorigne, a neighbouring parish, 
+inbabif'ited principally by Protestants. During 
+the first military persecution that took place, a very 
+small number only were led to renounce their faith. 
+The cur6 of the parish was furious; and he was 
+most eager to excite the soldiers to acts of tyranny 
+and refinements of cruelty, of which he himself 
+made jest, and in comparison with which their 
+former conduct had been innocence and benignity. 
+Once more the inhabitants of Thorign^ displayed a 
+constancy, courage, and patience beyond eulogium. 
+Few were the examples among them of apostasy ; 
+and the forest w^as a second time filled with unfor- 
+tunate fugitives. 
+
+Shuddering at the sight o£ w\\al NS^^a \aJ«Av\^^^^'^ 
+
+
+
+44 JEAN MIGAULT. 
+
+around us, we resolved again to quit Mougon, with 
+all our family, and to put ourselves under the pro- 
+tection of Madame de la Bessiere, who offered us 
+an asylum in her chateau. 
+
+We fixed our departure for the evening of the last 
+day of October. I had borrowed a horse to carry 
+Marie, Elizabeth, and Rene, who were too young to 
+travel on foot. Your poor mother had mad^ up some 
+parcels of what linens and clothes had been left us. 
+At last all our arrangements were completed, and we 
+had no more to do than to commence our journey. 
+Nothing is truer than the old adage that " man 
+proposes and God disposes." It pleased God to 
+overthrow all our projects ; and I love to believe 
+that on this occasion not one of us was guiity of a 
+murmur or complaint, which would indeed have 
+been as useless as impious. The cur6, bent on 
+my ruin, sent to M. de Mal-Fontayne, requiring 
+him to march without delay upon Mougon, where, 
+except M. de la Chaboissiere and M. de la Mori- 
+ni^re, we were then the only Protestant family. 
+My wife was there, with three of the youngest 
+children, when she beheld the soldiers enter by both 
+of our doors at the same time. Surprised at the 
+suddenness of their appearance, she had only time 
+to snatch up Marie and Elizabeth, and to escape 
+bj the little secret passage to which she had on a 
+former occsision owed her safety. Owx Tv^\^V\\N<i^t% 
+
+
+
+JEAN MIGAULT. 45 
+
+did not fail in their wonted friendship. In a twink- 
+ling your mother and the two little ones were hid- 
+den in the protecting garret, and buried under a 
+mass of linen. The soldiers had no sooner alighted 
+from their horses than they commenced a most rigor- 
+ous investigation in our house, as well as in that of 
+our benefactresses. Your mother and I were, as you 
+raay suppose, the principal objects of their research. 
+And here, my dear children, I would have you re- 
+mark the paternal solicitude of God towards us. 
+Your little sisters, who, during the whole of that 
+sad day, and particularly during the three hours 
+which they passed confined and half suffocated 
+under the linen, had been extremely fretful and 
+noisy, seemed, when the wicked cur^ and two of the 
+soldiers were searching the apartment, hardly even 
+to breathe, they were so silent. The parcel of 
+linen gave no suspicion, and was passed by un- 
+touched, as on the former occasion. Also, as one 
+of our enemies, whether the cur^ or a soldier I do 
+not know, entered our house, he found in his way 
+little Pierre, only four years of age, who was weep- 
+ing bitterly and calling upon his mother. The 
+heartless man raised him from the ground, and 
+hurled him with vfolence from one end of the 
+apartment to another ; yet the poor infant received 
+no material wound. His fright, however^ was e^s.- 
+cessire, and he fled into the garden, vi\iet^^v?QTO»s!L 
+
+
+
+46 JEAN MIGA17LT. " 
+
+observing him as he sought to hide himself in a lit 
+avenue of bushes, took him home to her house, or \ 
+unfortunate child must have remained there all nig 
+At the moment when the cavalry arrived, yt 
+grandmother was engaged in preparing the oven 
+baking bread. She took refuge in a neighbour] 
+house, and had the good fortune to gather arou 
+her four of the children who had wandered into l 
+streets. I have said that, as we proposed depa 
+ing, my wife had made up our linen and clotl 
+into parcels for convenience of carriage. Es 
+soldier took what pleased him, and the troop b 
+tered the remainder, as well as the bedding a 
+earthenware, with a new-made Catholic for a £ 
+pints of bad wine, which he would otherwise he 
+found much difficulty in disposing of at any pri 
+The cure took part in their conviviality, althoi] 
+not, I believe, to excess ; and when the wine ii 
+finished, he sent for carpenters and ordered them 
+cut to pieces all the furniture that remained in i 
+house and could not be turned into money. Tl 
+next broke down the partitions and destroyed i 
+windows, thirty-six in number, absolutely anni 
+lating, so far as was in their power, every thing tl 
+came in their way. The house long remained 
+this desolate condition, a worthy monument of 
+indefatigable barbarity which characterised t 
+cruel and undeserved persecution. 
+
+
+
+JEAN MIGAULT. 47 
+
+Your mother was all this while within hearing 
+of the fracas of the work of destruction; for a single 
+wall only separated her from our persecutors, and 
+the cries of her little Pierre, with the horrid impre- 
+cations of the soldiers, fell distinctly upon her ear. 
+In the course of the night she left her retreat, along 
+with her two daughters, and found a temporary 
+refuge in the house of the good woman who was 
+nursing our last infant, aged only three months. 
+
+This hahy was now almost at the point of death ; 
+and my unfortunate wife would not have failed, 
+under other circumstances, to have devoted every 
+moment of her time to the poor innocent. But pru- 
+dence hindered her from remaining in the house ; 
+and, though she felt her heart like to break at leav- 
+ing her expiring infant, still your mother forgot not 
+that eleven others claimed her solicitude and ten- 
+derness. She committed the little one to the care 
+of the nurse, whose kind and compassionate cha- 
+racter inspired her with confidence ; and she her- 
+self went to the house of M. Champion, a Protestant 
+minister, in hopes of there hearing news of me. 
+We had not seen each other since the moment 
+when I left the house to procure a horse, of which 
+we had need in execution of our projected flight. 
+You may easily imagine the anguish that each of 
+us felt in thinking of the other. 
+
+It was rather late in the evening, when, as I re- 
+
+
+
+48 JEAN MIGAULT. 
+
+turned from seeing the friend of whom I meant to 
+horrow the horse, and whose residence was at some 
+little distance, I heard of the second occupation of 
+our house. I was accompanied by the faithful 
+Dillot, who was determined to second us in our in- 
+tended attempt to escape to the chateau of Grand 
+Breuil. We were about a quarter of a league from 
+Mougon, when we were startled by the sudden ap- 
+pearance of a dragoon, who was in conversation 
+with the son of M. de la Chaboissiere. He de- 
+manded gruffly, and not without a torrent of oaths, 
+if we were Catholics ; and truth obliges me to con- 
+fess that I gave an affirmative answer to his ques- 
+tion. Happily he did not push his inquiries far- 
+ther; and the young de la Chaboissiere having 
+stepped aside a pace or two while his dangerous 
+companion was arranging his steed, whispered me 
+to beware of entering Mougon, — that the soldiers 
+were in search of me, and were already masters of 
+my house. On hearing this I immediately alighted 
+from horseback; and, after begging him to take the 
+animal to M. Champion, Dillot and I, favoured by 
+the obscurity of the night, went to the house of the 
+baby's nurse. There I learned that your mother, 
+having eluded the vigilance of the soldiers, had, 
+some minutes previously, paid a visit to the same 
+woman, on her way to the house of M. Champion. 
+I bestowed one glance and one kiss on our dying 
+
+
+
+
+JEAN MIGAULT. 49 
+
+infant. Alas! they were the last; — he expired 
+during the night. 
+
+Shall I be believed when I write, that the suc- 
+ceeding day (1st Nov.) the miserable cur^, imme- 
+diately on receiving intelligence of the death of my 
+child, came to find the husband of the nurse, who 
+was a Papist, and used every influence which his 
+station gave him over the mind of his parishioner, 
+and that, too, in the most eager manner, to persuade 
+him to throw to the dogs the body of the innocent 
+creature ! But this honest man, though he feigned 
+to accede to the horrid proposal, carried the remains 
+of my infant to M. Champion, who caused it to be 
+interred in the portion of the cemetery reserved for 
+Protestants. 
+
+The news of thfe decease of our little one did not 
+reach us till after the lapse of four days. No sooner 
+had I rejoined my wife at the clergyman's, than we 
+felt the necessity of quitting the canton. We sent 
+Dillot along with another person to assemble the 
+children, and he returned with the two eldest and 
+Pierre, having left Louis, Madelon, and your grand- 
+mother, in the house of a friend. We then com- 
+menced our retreat, resolved to travel all night, 
+though we had but one horse, on which I placed 
+my wife, who carried Elizabeth in her arms. Pierre 
+and Marie were in panniers on either side ; and I, 
+along with the two elder, followed on foot. To- 
+
+E 
+
+
+
+50 JEAN MIGAULT. 
+
+wards midnight we reached a farm belonging to 
+one of our acquaintances ; and, after reposing there 
+for a little while, we continued our route till we 
+arrived at the chateau of Grand Breuil. Dillot 
+conducted you all, one after another, as well as 
+your grandmother, to this hospitable asylum, until 
+at length, by the goodness of God, our family saw 
+itself united under the same roof. 
+
+Meanwhile, the persecution, far from subsiding, 
+continued in all its fury. Few days passed without 
+our receiving news from Mougon and the neigh- 
+bouring places. From these districts the unfortu- 
+nate fugitives dispersed themselves through all the 
+province, a great number of them traversing the 
+country where we were. The presentation of billet- 
+papers by the soldiers was a ^^IKiality which was 
+now dispensed with; it sufficed that a family per- 
+sisted in their faith, to give the right to invade their 
+domicile, to devour their substance, and to sell or 
+destroy what the soldiers did not consume. And 
+the thirst of booty was not confined to the military; 
+there were but too many citizens, and above all, 
+those newly converted to Popery, who, animated by 
+the same spirit, played the part of informers, and 
+profited by the pillage. 
+
+It was rarely that the inhabitants who bought 
+
+the stolen effects paid for them above a sous in the 
+
+fraDC of the amount they had really co&t. They 
+
+
+
+JEAN MIGAULT. 51 
+
+did not therefore lack the means, but unfortunately 
+the will, to restore to the innocent yictims of arbi- 
+trary power the property of which they had been 
+despoiled. As to my own goods, which had been 
+given to M. Baulier, in exchange for a few pints of 
+trashy wine, I persuaded myself that it would not 
+be very difficult for me to recover them, especially 
+as he was my debtor for the board and education of 
+his eldest son at Moulle. But our first interview 
+undeceived me : he neither would let me have my 
+property nor pay me what he owed me. There were 
+also many others who retained, unjustly, articles 
+which they knew belonged to me, and for which 
+they had not paid the one-twentieth part of their 
+value. I refrain from recording their names; for 
+I do not wish to inspire the minds of my children 
+with one feeling of enmity. The unjust detention 
+of my furniture and clothes, added little to their 
+wealth and nothing to their happiness; but I pardon 
+them with all my heart; they have not been able 
+to take from us the true riches. We had confided 
+our souls to the eternal faithfulness of our God, and 
+we were persuaded that what he had promised he 
+would perform. And He whose goodness extends 
+over all his works, who gives food to the ravens, 
+and in whom none who put their confidence shall 
+ever know a want unsupplied, did not abandon u& 
+in our time of need: 
+
+
+
+52 JEAN MIGAULT. 
+
+When we quitted Mougon, no doubt we con- 
+sidered ourselves as miserable outlaws, badly clothed, 
+and quite unable to procure necessary food ; never- 
+theless cold never assailed us without our finding 
+the means to secure ourselves from its bitterness, 
+nor hunger without our receiving suflScient to ap- 
+pease it. No sooner was Madame de la Bessiere 
+informed that we had chosen her chateau for our 
+place of refuge, than she hastened to send the keys 
+of it, and to put at our disposal her com, her wine, 
+and her wood. Thus, this worthy and exemplary 
+Christian lady was the instrument of Providence 
+in saving our lives, and in providing us with what 
+was requisite to render existence happy and com- 
+fortable. 
+
+During the whole month of November, Centre 
+Poitou continued to be the theatre of those abomin- 
+able scenes of which I have drawn only a feeble 
+picture; but in the commencement of December, 
+when the regiments were on the point of entering 
+Lower Poitou, there to exercise the same ravages as 
+in High and Centre Poitou, a government order 
+withdrew them at once from that unhappy country; 
+to the undisguised mortification of a great number 
+of people who had not yet managed fully to supply 
+their houses with furniture, or their farms with cattle. 
+
+Towards the end of this month, we began seriously 
+to think of again regaining footing in our unfortu- 
+
+
+
+
+JEAN MIGAULT. 53 
+
+nate Mougon, feeling that it would be indelicate in 
+us to prolong any farther our stay at the chateau. 
+However, we experienced much repugnance at the 
+idea of re-establishing ourselves in a place where, 
+in less than nine months we had suffered such an 
+excess of calamity ; and it was with pleasure that 
+we received from the members of the Consistory of 
+Mauz6 an unexpected invitation to superintend the 
+instruction of the Protestant children of that city, 
+the preceding preceptor having apostatized. On 
+the other hand, I had much pain in resolving to 
+quit my functions in the church, where for twenty 
+years I had been clerk and secretary, and had con- 
+ducted the singing of the holy psalms. I knew not 
+how to separate myself from the brethren of our 
+community, who manifested towards me the warm- 
+est attachment, and so many of whom bad re- 
+mained firm in their faith, notwithstanding the hor- 
+rors by which they were surrounded. The numerous 
+families who had fled from the persecution had re* 
+turned, and waited for me with impatience. My 
+wife and I stood in a painful condition of uncer- 
+tainty and perplexity ; and perhaps we should have 
+decided on resuming our place at Mougon, but, at 
+length, the earnest and repeated entreaties of two 
+friends, whose children were committed to our care, 
+put an end to our irresolution, and induced us to 
+
+give the preference to Mauz6. 
+
+E 2 
+
+
+
+54 JEAN MIGAULT. 
+
+On 3 1st January 1682, we quitted Grand Breuil, 
+and arrived at Mauze, where we established our- 
+selves in a house belonging to M. de Ranques, and 
+which was named " the Breuil of Mauz6." 
+
+Whatever reproaches may be made against us 
+for transplanting our seminary to this city, I assure 
+you, my dear children, that at least we have not 
+to blame ourselves with deciding on the step before 
+asking of God, by the most fervent prayer, grace to 
+do nothing which could compromise our eternal 
+welfare, or turn out contrary to his glory. 
+
+We had no sooner gone to Mauz^ than we re- 
+ceived a number of day-scholars, and the old 
+boarders, whom we had been obliged to send to 
+their homes, returned in crowds to our school. 
+Neither your mother nor I could complain of 
+want of occupation, while the produce of our 
+labour amply sufficed for the support of our fa- 
+mily, and we were blessed with the goodwill of all 
+around us. 
+
+This flow of prosperity continued until the end 
+of the life of my dear companion ; and I ought to 
+render thanks to God that her last days ebbed 
+away in peace, and that she escaped the trials and 
+afflictions which still awaited us. 
+
+On Sunday, 28th February 1G83, my beloved wile 
+yielded her happy spirit to her Saviour. The pre- 
+ceding Sundiiy she had given birtli to Olivier. Her 
+
+
+
+
+JEAN MIGAULT. Tio 
+
+confinement had been easy, and presented no 
+alarming symptom ; but twenty-four hours after- 
+wards she took a fever, which only ceased with her 
+life. During the greater part of this week of sor- 
+row, she was in a state of deep drowsiness ; how- 
+ever she would hold my hand almost constantly 
+pressed in hers; and I saw her from time to time 
+make an effort to regard me with tenderness, as if, 
+in this way, striving to express some thought with 
+which her mind was filled. 
+
+On the second day of her fever, feeling her hand 
+compressing mine with more than usual firmness, 
+I asked her if there was any thing which she de- 
+sired to say to me. *' I die, my dear friend," re- 
+plied she ; " my consolation is in the assurance that 
+our poor children will never cease to be the objects 
+of thy most tender care.'* She had not strength to 
+continue this conversation. Some time subse- 
+quently, perceiving that she opened her eyes, I 
+asked her if she would not like to see her little 
+infant. "Bring him to me,**, she replied, and I 
+immediately brought him. Extending her feeble 
+arms, the dying mother embraced her last-born, 
+and gazing on him with a fond love, *' My dear 
+child," she said, " may God bless thee." She then 
+hasted to return him to me. 
+
+Whenever she heard me sigh, her eyes sought to 
+meet mine, and she strove to console me — " Heaven 
+
+
+
+56 JEAN MIOAULT. 
+
+be praised, my beloved friend," she said, ^' I am firm 
+in the faith ; I die happy." 
+
+M. de la For^t, our good pastor, paid her fre- 
+quent visits, and nothing can equal the kindness of 
+Madame de la For^t. To the last moment, thej 
+lavished upon my dear wife the most touching 
+attentions. 
+
+I am unable to dwell longer on the circumstances 
+of her rapid malady, or on her death, so sad for us 
+all. I feel, in writing, my heart ready to break. 
+Your mother lived in the fear and in the love of 
+God, and the study of his holy Word was her great- 
+est delight even from her infancy. She was equally 
+conversant with the history of the martyrs ; and she 
+read with eagerness all the works that had a ten- 
+dency to fortify her mind against the fear of death. 
+She gave, also, a great part of her time and atten- 
+tion to the psalms, which she knew so well, and 
+which were so deeply engraven on her memory, 
+that in her sleep during the night it was not un- 
+usual for me to hear her sing parts of them. I had 
+taught her the tunes shortly after our marriage. I 
+remember, the second night of her last illness, when 
+a prey to the devouring fever, and apparently in a 
+state of absolute torpor, she began to sing, intelli- 
+gibly, but with a dying voice, these few lines : — 
+
+L'ombre et Pobscurit^, 
+Couvrent sa majeste ; 
+
+
+
+JEAN MIOAULT. 57 
+
+Ses divins jugemens 
+Sont les sdirs fondemens 
+De son tr6ne * 
+
+Observing that she did not finish the last line, I 
+awoke her softly, and, hardly able to restrain my 
+sobs, I besought her to continue — " Continue ! 
+what?*' demanded she. "You were singing just 
+now, my love, and you have not finished the last 
+verse." She made me repeat what she had sung, 
+looked at me with a kind smile, and then sank into 
+her ordinary condition of exhausted drowsiness. 
+
+Imitate, my beloved children, imitate that ^st 
+of mothers ; and forget not, that if you would, like 
+her, die the death of the righteous, your life must 
+resemble hers, in lively and humble faith, and good 
+works. 
+
+That each one of you may live such a life, and 
+die such a death, is the wish dearest to the heart of 
+your affectionate father, 
+
+Jean Migault. 
+Mauze, A'pril 1683. 
+
+
+
+If God, in his providence, had permitted us to 
+remain at Mauze, and there to pursue our occupa* 
+
+• This is a French metrical translation of Psalm xcvii, 
+y. 2 — " Clouds and darkness are round about him; righteousness 
+and judgment are the habitation of his throne.''* 
+
+
+
+58 JEAN MIOAULT. 
+
+tions in peace, perhaps the death of your mother 
+would have heen the limit of my narrative. But in 
+his wisdom and goodness, which I adore with grati- 
+tude, he saw fit to contribute to our eternal salvation, 
+and even to the advancement of our earthly happi- 
+ness, by means which, at the time, were little un- 
+derstood by our limited reason, but which were, 
+without doubt, the most efficacious for the accom- 
+plishment of his merciful intentions regarding us. 
+If he obliged us to quit Mauz6, and at last even 
+our native country, it was to conduct us to a land 
+of^eace and liberty, where we could, without fear 
+or inquietude, worship his holy name. Since the 
+revocation of the Edict of Nantes, the Protestants of 
+France have been plunged in an abyss of misery, in 
+which they struggle at the present moment ; while 
+we enjoy the most perfect safety within the walls of 
+this happy metropolis. I will endeavour, then, to 
+trace, in few words, the toil and sufferings we have 
+endured since the death of your poor mother, until 
+the time of our arrival in Amsterdam. Some of 
+you are still at a distance from me ; some are 
+scarcely out of infancy; but, another day, when you 
+are all more advanced in life, and all united in 
+these provinces, I venture to hope that the divine 
+blessing may accompany the reading of this me- 
+moir ; and that it will not be without its use to you, 
+mjr dear children, in putting you lu uvmd^ oiv the 
+
+
+
+JEAN MIOAULT. 59 
+
+one hand, of the blessings for which you have to 
+thank the Lord, and on the other, in disposing you 
+to walk in the ways of his commandments. 
+
+In order to continue regularly the line of my 
+narrative, I will return to the sad event which ter- 
+minated the first section of it. My new sorrows 
+followed close upon the death of my wife ; alas, I 
+was not destined, after losing her, to enjoy one hour 
+of peace upon the soil of France ! 
+
+Twelve days later than the sad event, there ap- 
+peared a royal declaration, interdicting all Protes- 
+tant teachers from receiving boarders into their 
+houses. Under other circumstances, such an an- 
+nouncement would have occasioned me very seri- 
+ous anxiety, since my boarders were my principal 
+means of support ; but I was then so absorbed in 
+the sorrow which your mother s loss occasioned me, 
+that I heard it spoken of with absolute indifference. 
+
+Our venerable minister M. de la For^t, in ac- 
+quainting me with the news, said that he boped I 
+would support the blow with pious resignation, con- 
+sidering it as one of. those afflictions by which it 
+pleases the Most High to try his people. I did not 
+hesitate to obey the mandate of the King, and dis- 
+tributed my six boarders in different houses, await- 
+ing the instructions of their parents, who lived at 
+considerable distances from each other, and all of 
+them far from Mauz^. They came \TXiT£k»^\^^.^'^ ^-^ 
+
+
+
+60 JEAN MIGAULT. 
+
+visit their children ; and, approving of the manner 
+in which I had placed them, besought me to con- 
+tinue their education, just as when they lived under 
+my own roof. 
+
+But, a few months afterwards, another difficulty 
+arose. The Roman Catholic teacher, who, some 
+time before had renounced Protestantism, got me to 
+be cited by the procurator-fiscal before the judge of 
+Mauz6, for eluding, as he called it, the terms of the 
+King's declaration, in permitting my scholars to sing 
+psalms, and in giving them lessons in music, whilst I 
+ought to confine myself to their instruction in read- 
+ing, writing, and arithmetic. I obeyed the citation ; 
+and, the parties being heard, the judge ordered that 
+each of us should produce our respective memo- 
+rials. Whilst M. Barbolin (such was the name of 
+my adversary) busied himself in investigations ne- 
+cessary to the forwarding of his cause, our Consis- 
+tory, taking the deepest interest in the matter, pre- 
+sented a memorial, which was delivered at the same 
+time to the procurator-fiscal, the judge, and the 
+opposing party, wherein they expressed their inten- 
+tion of making common cause with me, and required 
+that the affair should be remitted to the decision of 
+the Council of State, alleging the incompetency of 
+the judge to try it. This step put an end, at once, 
+to the process ; and the curate of Mauz6 saw him- 
+self deprived, for that time at least, of the pleasure 
+
+
+
+
+JJJAN MIGAULT. 61 
+
+• 
+
+which he expected from the sight of the entire de- 
+struction of our opportunity of worship. 
+
+It was not long after this event, that we received 
+news of several regiments of dragoons being in full 
+march upon Poitou, commissioned to ruin without 
+mercy the Protestant families which the horrible 
+ravages of 1681 had not forced to quit the province. 
+
+We were also informed of the arbitrary and ini- 
+quitous proceedings of the supreme courts, and of the 
+Intendants of provinces, in the exercise of their 
+newly -acquired authority of pronouncing definitely, 
+and without appeal, in all actions commenced against 
+our churches. We very soon perceived that accu- 
+sation and condemnation were with them synony- 
+mous terms. When no real cause of complaint 
+existed, a pretended one was invented ; and by 
+these means all the Reformed Churches, not only in 
+Poitou, but in the entire kingdom, were soon either 
+destroyed, or laid under interdict. 
+
+Our church at Mauze, however, escaped, for the 
+moment, the universal desolation ; and, almost until 
+the period of the revocation of the Edict of Nantes, 
+not only was the little temple suflfered to remain 
+unmolested, but we enjoyed the still more unusual 
+consolation of preserving our pious pastor in the 
+midst of us, and of receiving, as before, the blessing 
+of his spiritual instructions. Thus, temporally freed 
+from the miseries which bore down so many other 
+
+F 
+
+
+
+62 JEAN MIGAULT. 
+
+cities, Mauz^, during a whole year, was crowded 
+with a large number of our Protestant brethren, to 
+such a degree, that, notwithstanding the precautions 
+which we deemed it our duty to take, it became 
+impossible to know all the persons to whom we 
+delivered tokens of admission to the Lord's table. 
+
+Several of you, doubtless, still remember the 
+companies of people by whom our house was filled 
+every Sunday evening. It was the same with all 
+the faithful Protestants in the place ; the inns and 
+lodging-houses were occupied to overflowing ; and 
+more than once I have seen the market-place filled 
+with these zealous Christians, who had been unable 
+to find more agreeable lodgings. The people who 
+thus flocked to Mauze, to hear the preaching of 
+the Wojrd, and to receive the consolation of a spiri- 
+tual ministry, belonged to churches which were under 
+interdict, as those of Hochelle, Marans, La Jarrie, 
+Charante, Thonneboutonne, St Savinien, Arvert, 
+Marrennes, La Tremblade, Annay, Chef boutonne, 
+Niort, St Maixent, Mougon, Cherveux, Fontenay, 
+Coulonge, and even to places more distant, as 
+Poitiers, Bordeaux, Sec, 
+
+Under Providence, it was to her Serene Highnesb 
+the Duchess of Brunswick Lun^bourg and Zell, that 
+we owed this prolongation of liberty in the exercise 
+of our worship. This pious princess had embraced 
+our doctrines with fervour and constancy. M. 
+
+
+
+JEAN MIGAULT. 63 
+
+d'Olbreuze, her worthy brother, and M. de la 
+For^t, our minister, informed her constantly of the 
+rigours meditated by the Goyemment; and her 
+Highness used every effort to turn them aside from 
+us, or, at least, to obtain a delay in their execution. 
+For this object she employed all her interest with 
+the court of France, and even interceded person- 
+ally in our favour with the King. These exertions 
+of the Duchess to deliver Mauz^ from the violence 
+of the storm which swept indiscriminately over all 
+the rest of the country were not, for the time, with- 
+out success ; still we were frequently harassed and 
+subjected to vexatious shiftings and fatigues, much 
+beyond our strength. 
+
+On many occasions, our excellent clergyman was 
+obliged to go with the Intendant to Rochelle or to 
+Rochefort, sometimes accompanied by a number of 
+his elders, and at others by the entire Consistory, of 
+which I was a member. The principal object aimed 
+at in enforcing these repeated journeys, was to dis- 
+appoint the faithful, who, as I have said, came in 
+crowds to our village from all quarters, by depriv- 
+ing them of the blessings of the ministry of M. 
+de la Foret. I pass over the detail of the means 
+by which we sought to ward off the blow that 
+threatened us, and will only give the recital of such 
+sufferings as were peculiar to myself, without even 
+noticing those in which I had but a share in com- 
+
+
+
+64 JEAN MIGAULT. 
+
+mon with other brethren. It was daring the last 
+journey that M. de la For^t made to Rochefort 
+with the Intendant — on this occasion one of you 
+accompanied him — that that disastrous event burst 
+upon Mauz6, which shall never leave the memory 
+of the Protestants of that place : the dragoons com- 
+pleted the work of desolation which had been com- 
+menced in 1681 by the Intendant of Aunis, M. de 
+Demuin. 
+
+Divine Providence had mercifully prepared me 
+for this frightful blow, and I had taken measures 
+to escape from it. On the preceding month I had 
+sent all my scholars, the number of whom, owing 
+to the persecution of the Protestants in other dis- 
+tricts, had increased to twenty, to lodge in differ- 
+ent places. Not only did I now despatch these 
+children to their respective homes, but I got ready 
+to leave my house on the first approach of the 
+dragoons. 
+
+Among other precautions, I had taken that of 
+sending you all to a distance from me. Your 
+grandmother found an asylum with M. de I'Aleigse; 
+my eldest daughter and Olivier were sheltered un- 
+der the roof of M. d'Olbreuze ; M. and Madame 
+de Puyamault had the kindness to take Jeanne, 
+Pierre, and Marie to their house de la Bouillardiere, 
+near to St Jean d'Angely; while my eldest son 
+was at St Maixent, completing his two years* ap- 
+
+
+
+
+JEAN MIOAULT. 65 
+
+prenticeship. On entering that city, the soldiers, 
+giving themselves up to the most atrocious excess 
+of tyranny, his master counselled him to fly, if he 
+could find the means. The gates ^vere guarded 
+day and night, to prevent the egress of any Protes- 
+tant; hut he contrived to escape, and came to 
+Mauz^ eight or ten days before the arrival of the 
+dragoons. M. de Chaban, who honoured me with 
+his particular friendship, took him into his house ; 
+and, about the same time, I lodged Jean with M. 
+de Gayemon, near to Melle, where he was received 
+with the kindest hospitality. I had thus put all my 
+children in safety, and was alone at Mauz^ when 
+the cavalry arrived there, on Sunday 23d September 
+1685. 
+
+I was at home, engaged in conversation with two 
+or three persons who had fled from their native 
+city, when we were interrupted by the noise which 
+announced the approach of these barbarians. It 
+was not difficult for me to leave the house. I 
+had already confided a part of my furniture to 
+Roman Catholics, and to neighbours, who, five 
+years before, had renounced the Protestant religion ; 
+and had also sent a portion of it to M. de la For^t, 
+knowing that, on previous occasions, soldiers had 
+never been lodged either with clergymen or the 
+principal burghers. Other articles I hid among 
+
+some ruins in front of our door, which were covered 
+
+F 2 
+
+
+
+66 JEAN MI6AULT. 
+
+with a thick foliage of ivy. This portion best es- 
+caped the avidity of the soldiers ; while that which 
+I deemed most secure, ran the greatest danger ; for 
+the dwelling of M. de la Foret was occupied by 
+ofl&cers, and pillaged like the others. Our own 
+house was not spared ; at the departure of the sol- 
+diers there was nothing left but the bare walls ; and 
+I learned, with true chagrin, that our neighbours 
+did not forget themselves in the distribution of the 
+spoil. 
+
+The doors of the chapel were forced ; all that it 
+contained was stolen ; and the furniture needful to 
+our worship was broken to pieces or sold. By an 
+interposition of Providence, we had secured the 
+books and papers containing the Acts which estab- 
+lished our rights relative to the public exercise of 
+religion, as well as the titles of certain legacies 
+and donations from the lords of Mauz6 for the sup- 
+port of our ministers ; the documents belonging to 
+the Consistory were, in like manner, saved. The 
+whole of these books and papers had been confided 
+to the care of M. and Madame d'Olbreuze ; and, 
+after their departure from France, the coffer which 
+contained them lay in their house, without any one 
+in the country, except myself, being aware of its 
+existence. However, in consequence of the design 
+I had formed of escaping abroad, I decided on com- 
+municating the secret to the eldest daughter of M. 
+
+
+
+JEAN MIGAITLT. 67 
+
+Galandet, farmer of M. d'Olbreuze. I begged 
+this youDg woman to accompany me to the apart- 
+ment where the chest was hidden ; and, after mak- 
+ing, in her presence, an inventory of its contents, I 
+besought her, in the name of the Lord, never to 
+betray the trust I thus reposed in her, not even to 
+her own family. She protested in the most solemn 
+manner that I might depend upon her fidelity. 
+
+But I must call your attention to the moment 
+when the arrival of the military forced me to aban- 
+don my house. Only one of the persons who were 
+with me at the time thought good to accompany me. 
+Descending into the ditch which surrounded the 
+city, and which happily we found to be dry, and 
+pursuing our route towards the church of Amilly, 
+we were every where met by women and children, 
+seeking, like ourselves, safety in flight. It was 
+rather late in the evening when we reached the 
+chateau de Marsay, where we passed two days, and 
+thence we went to the dwelling of M. de Puyar- 
+nault, which served us as an asylum for a little time 
+longer. Here we learned, that it had been the cus- 
+tom every where, but especially in Poitou, to lodge 
+the military even with the principal inhabitants. 
+
+The friends of M. de Puyamault at St Jean 
+d'Angely, had just recommended him to send 
+from his house whatever was of any value. I 
+judged it prudent, therefore, to cause Marie to set 
+
+
+
+68 JEAN MIOAULT. 
+
+out by the ordinary carrier, a Roman Catholic, to 
+M. de TAIeigne's, and taking with me Jeanne and 
+Pierre, I went to the house of M, d'Olbreuze. As 
+I found, however, that my presence there compro- 
+mised the safety of four of my children who were 
+already under the shelter of M. d'Olbreuze's roof, I 
+was obliged next day to re-enter Poitou, accom- 
+panied by Jeanne and Pierre, both of whom I con- 
+fided to a tried friend. During all October I found 
+myself compelled to wander over the province, 
+hiding in the day time, and never remaining over 
+forty-eight hours in one place. 
+
+It appeared impossible long to elude the vigilance 
+of the cavalry, parties of whom scoured the country 
+every where, and subjected those whose character 
+forhumanity or hospitality rendered them suspected, 
+to almost daily visits. To afford shelter to an un- 
+fortunate fugitive, was to expose one's-self to the 
+utmost danger; terror hung over every head, bro- 
+ther scarcely daring to open the door to brother. 
+I passed three days this month with my own 
+brother; and no one can imagine the continual 
+dread he experienced lest I should be discovered in 
+his house. During all this time the person who 
+had accompanied me at the moment when the 
+dragoons entered Mauz6, had never quitted me; 
+and at the end of the month I returned by night 
+to the house of M. d'Olbreuze, and remained con- 
+
+
+
+
+JEAN MIGAULT. 69 
+
+cealed on his property for eight days. Leaving this 
+retreat, I went next to the house of M. de TAleigne; 
+and thence with your grandmother and Marie to 
+that of M. de la Gauzay Micou, on the border of the 
+ocean, in order that my daughter might make use 
+of sea-bathing, her health being feeble. During 
+the week I spent here, I frequently visited some 
+friends in the environs of Mauz6; none of them 
+ever refusing me admittance to their houses, pro- 
+vided I came by night and was seen by no one ex- 
+cept their own families. 
+
+I now returned to M. de Gauzay Micou's house, 
+and with your grandmother and Marie, whose 
+health was considerably re-established, I gained 
+once more the mansion of M. de I'Aleigne, where 
+however, I dared not remain long. All November 
+I spent among friends, victims like myself of this 
+unrelenting persecution. 
+
+During the early days of December, I found it 
+absolutely needful to remove Jeanne and Pierre 
+from the asylum where I had left them; and I 
+therefore brought them once more to the chS,teau 
+of M. d'Olbreuze, where they slept one night; and 
+afterwards to that of M. de Marsay, in which they 
+remained only two days. The troubles and diffi- 
+culties of this period, in which I suffered so much, 
+ended for the time by leaving me absolutely with- 
+out a shelter for my head, or the knowledge where 
+
+
+
+70 JBAN MIGAULT. 
+
+to find one. In this dilemma, a Roman Catholic 
+friend offered to take Jeanne under his charge. 
+She lived with the worthy man for eight days, un- 
+til, seeing the fear he was in, I hegged him to 
+conduct her to some relations I had at Croizette 
+near to Niort. At Croizette she remained more 
+than a fortnight, and would have stayed still 
+longer, hut for one of the inhahitants who gare in- 
+formation to the commandant of a detachment of 
+cavalry, of her heing in the village. Instantly two 
+dragoons were dispatched, who, during an entire day 
+and night, ransacked the house in every nook and 
+comer, hroke the furniture and even went so far as 
+to inflict personal violence on my unfortunate friends. 
+The following day the soldiers recommenced their 
+search, which they finished hy discovering my 
+daughter, almost dead with terror, under a pile of 
+straw near the stable. She had passed the night 
+in a wood, situated seven or eight hundred paces 
+from the house; but, at daybreak, fearing she was 
+not in safety, she had determined on leaving her 
+hiding' place, and had concealed herself under the 
+heap of straw, which she remembered to have no- 
+ticed in the court-yard. Jeanne was more shocked 
+at their oaths and imprecations than alarmed for 
+her life. Her captors, after taking from her the 
+little money she possessed, dragged her before the 
+curate of Saint Maxire. 
+
+
+
+JEAN MIOAULT. 71 
+
+Mj dear children, we cannot sufficiently praise 
+God for the energy, fortitude, and patience with 
+which, on this occasion, He deigned to inspire our 
+dear Jeanne. In Tain did the priest present the 
+act of ahjuration for her signature; in rain did the 
+soldiers employ threats and yiolence — she remained 
+inflexible. And when the cur^, wearied out by 
+her constancy, inserted in this pretended abjuration 
+the false statement that she did not sign because 
+she could not write, the intrepid girl declared aloud 
+that she could write; and that, if she refused her 
+signature, it was only because she beliered her re- 
+ligion to be the true one, and was resolved never 
+to change it. 
+
+Two days after this, an obliging person offered 
+to escort Jeanne to the house of M. d'Olbreuze, 
+whose chateau was, indeed, our principal head-quar- 
+ters in those days of peril and tribulation. I had 
+remained there myself with Pierre, during all this 
+interval, the excellent nobleman giving out that he 
+had taken me into his service, having need of my 
+assistance in some business he had on hand, and 
+that he intended attaching me permanently to his 
+household. He did not mention what was equally 
+true,^e compassion with which my dreadful situa- 
+tion inspired him, tracked as I had been for three 
+months from retreat to retreat, ^like a wild beast, 
+by dragoons, by priests, and by hostile Papists; and 
+
+
+
+72 JEAN MIGAULT. 
+
+all the while cruelly agitated with the thought of 
+my poor children. 
+
+It was not to our family alone that M. d'Olbreuze 
+afforded a retreat ; for his door was al ways open to 
+whoever claimed his protection, and his house was 
+often filled with fugitives from the surrounding pro- 
+vinces. He did not examine if those who besought 
+his help were or were not of his own acquaintance. 
+That they were objects of persecution, of the tyranny 
+which burdened our province, was a sufficient claim 
+upon his hospitable charity. Madame d'Olbreuze 
+was animated by the same sentiments of humanity, 
+and manifested towards her guests a benevolence 
+which did her infinite honour. Thus their chateau 
+was, for a long time, the principal haven of refuge 
+for many inhabitants of Mauze ; while the barns 
+and outhouses were crowded with persons of all 
+ranks from Saintonge, from Aunis, and from Poitou, 
+on whom they lavished not only what was needful 
+for their subsistence, but the most affectionate con- 
+solation. Almost every hour brought additional 
+assurance to our kind hosts of the visit with which 
+the soldiers threatened them ; but nothing could 
+intimidate them, 'or induce them to abate their 
+generous bounty. ^ 
+
+These truly Christian graces were equally exem- 
+plified by M. and Madame de TAleigne. Daring 
+the three months of which I speak, their vast habi- 
+
+
+
+JEAN MIGAULT. 73 
+
+tation was filled with Protestants of yarious condi- 
+tions, the inhabitants of neighbouring villages, who 
+received the same welcome, and were treated with 
+the same liberality. 
+
+Most of the nobility of Aunis, of Poitou, and of 
+Saintonge, were now involved in the persecution, 
+and felt its terrible effects, except M. d'Olbreuze 
+and M. de I'Aleigne, whose houses had hitherto 
+escaped pillage. But at length they too were 
+marked out, and none remained without feeling 
+the iron hand of despotism. Nobles, as well as 
+peasants, were forced to fly, or were committed to 
+prison by '* lettres de cachet," or even by the mere 
+will of the military commandants. The calamities 
+of September, October, November, and December, 
+in particular, surpassed all that had hitherto taken 
+place. The Edict of Nantes was now definitely 
+revoked ; the last Protestant church was razed to 
+its foundation; and the nobility and others who 
+had hitherto escaped the dragoons, were thrown 
+ignominiously into prison. In November, a " lettre 
+de cachet" sent M. de I'Aleigne to the prison of 
+Loches; and, towards the end of December, M. 
+d'Olbreuze, in obedience to the King, was obliged 
+to pi^ceed to Paris, and to follow the court till far- 
+ther orders. I remained, nevertheless, in the house 
+of M. d*01breuze, with four of my children, includ- 
+ing Philemon, who had lived there for three years. 
+
+
+
+74 JEAN MIGAULT. 
+
+The return of my daughter Jeanne from Crois- 
+ette, contributed not a little to augment the diffi- 
+culties of my situation ; Madame de TAIeigne, 
+after the imprisonment of her husband, having felt 
+herself compelled by the threats of the military to 
+deprive her unfortunate guests of the shelter of her 
+roof. 
+
+New calamities still crowded upon us. Soon 
+after the departure of M. d*01breuze for Paris, a 
+royal proclamation prevented Protestants from hay- 
+ing in their houses any other than Roman Catholic 
+servants. This news brought my embarrassment to 
+its height ; because it was now no longer possible to 
+continue in the house in which my eldest daughter 
+Philemon and I had remained for some time, under 
+the character of domestics. By the same declara- 
+tion of the King, my son Jean found himself ejected 
+from the house of M. de la Gayemon, and had no 
+other resource than to come and augment the num- 
+ber of my dependants, already too great. I had 
+then with me seven children, without knowing by 
+what means it was possible to escape the search of 
+the soldiers. Your grandmother and Marie had 
+quitted Madame de I'AIeigne, and put themselves 
+under the protection of a Roman Catholic, who 
+either wanted the power or the will to keep them any 
+longer. I conducted the poor old woman to Poitou, 
+where some of our friends undertook alternately to 
+
+
+
+JEAN HIGAULT. 75 
+
+receive her ; and, by means of paying well, I ob- 
+tained in the dwellings of two Papists shelter for 
+Marie, Isabelle, and Olivier. 
+
+During the latter days of January, which were 
+also the last of our residence in the house of M. 
+d'Olbreuze, I confess, with shame, that I gave way 
+to the most violent feelings of despair. Madame 
+d'Olbreuze saw herself obliged to dismiss not only 
+the unfortunates whom her hospitable roof had so 
+long sheltered, but also her own servants, and those 
+who had taken that name to escape persecution. 
+Of all the unhappy prescripts, perhaps I was the 
+most embarrassed, for my family was the most 
+numerous ; and while, on the one hand, I sought 
+every possible means of securing the safety of those 
+of my children who were near me, on the other, I 
+was a prey to agonizing uncertainty regarding the 
+fate of those who were more distantly located. My 
+mind was in continual torment. I formed twenty 
+plans, which I immediately abandoned. I con- 
+sulted Madame d'Olbreuze, who knew little better 
+than myself what step to advise; until at length it 
+entered her mind that a cavern or grotto, which 
+was in a neighbouring forest, would afford us a 
+secure retreat. She spoke of it to an old domestic, 
+a Boman Catholic, but fiill of honour and humanity, 
+who said that he bad never visited the interior of 
+th€ cave, but that he knew perfectly where it lay ; 
+
+
+
+76 JEAN MIGAULT. 
+
+SO, when night had arriyed, he and I took the road 
+towards the forest, carrying lanterns for the purpose 
+of examining whether the cavern was suited to our 
+purpose. We struck into the wood, and, at the 
+conclusion of a long walk, arrived at a chasm in 
+the ground, resemhling the mouth of a dried-up 
+well. Here my guide halted, and we entered the 
+opening, scrambling down its almost perpendicular 
+sides, until, after a considerable descent, we reached 
+the bottom. A door-way in the side of the pit 
+now presented itself, on passing through which the 
+space increased considerably, taking a horizontal 
+direction, and we soon had a full view of the object 
+of our investigation. The cavern was composed of 
+a great number of apartments, hewn out from the 
+solid rock, and so formed and ornamented as to 
+prove that their construction had been the work 
+of extraordinary talent and industry. The cham- 
+bers communicated with each other by small door- 
+ways, and contained benches of a brownish-coloured 
+sandstone, which were fashioned with great regu- 
+larity and neatness. "We continued advancing into 
+this singular mansion, until we despaired of finding 
+the end of it. The apartments nearest the entrance 
+contained skeletons of some small quadrupeds, of 
+which the cavern had evidently at one time been 
+the resort. I may mention that the place is situ- 
+ated at about a quarter of a league from any habi- 
+
+
+
+JEAN MIGAULT. 77 
+
+tation^ and that common report attributes its labori- 
+ous formation to the English. 
+
+I inunediately resolved to conc^ my daughters 
+Anne and Jeanne in this hiding-place, which, al- 
+though disagreeable, we regarded as safe, from its 
+being remote and little known. Fourteen other 
+persons, whom persecution had compelled to quit 
+their homes, determined also to seek there a tem- 
+porary refuge. These sixteen, therefore, after 
+taking leave of Madame d'Olbreuze, on Simday 
+1st February, 1686, were guided, an hour before 
+daybreak, to their sad dwelling, by the old servant, 
+who, by his kind lady's command, had already fur- 
+nished it with provisions and some needful furni- 
+ture, and who afterwards visited the party every 
+evening to attend to their wants. But, although 
+all had been done that was possible to purify the 
+apartments and to render them habitable, the re^- 
+gees, after a painful and dangerous trial of three 
+weeks, were forced to abandon so unwholesome a 
+retreat. The air entering only through the aperture 
+of which I have spoken, the want of free respiration 
+caused so rapid a decline of health that I received 
+back my two poor girls more dead than alive. 
+
+After accompanying Anne and Jeanne to the 
+cavern, I departed, along with Philemon, to visit 
+the house of Madame de TAleigne, there to meet 
+
+Jean, whp had gone four days earlier to request a 
+
+G 2 
+
+
+
+78 JFAN MIGAULT. 
+
+lodging from that lady. My plan was to reach 
+Rochelle with my two sons, and to endearour to 
+procure for them a passage thence to England or to 
+Holland. On reaching the chateau at rather a late 
+hour the same eyening, we learned that Jean bad 
+set out for Rochelle the preceding Friday, where, 
+they assured me, I could not miss finding him; 
+accordingly, Philemon and I continued our route, 
+and as we entered V^rine we met Jean, who brought 
+me a letter from a friend in Rochelle, informing 
+me that if I wished to embark, I should find a ship 
+in that port ready to set sail. 
+
+As we proceeded on our journey, my heart be- 
+came burdened with sorrow, at the thought of the 
+dangers to which we were on the point of exposing 
+ourselves ; for I knew that, in Rochelle, it would be 
+next to impossible to escape the vigilant eye of our 
+persecutors. Every evening a strict search was 
+made in all the inns and lodging-houses ; and the 
+inhabitants in general could not, without the greatest 
+peril, give shelter to any Protestants. 
+
+It was very late when we reached Rochelle ; and, 
+leaving my boys with a poor man of my acquaint- 
+ance, who hid them in his barn, I ventured to 
+knock at the door of a merchant with whom I was 
+closely connected. His wife, more humane than 
+himself, asked me where I intended lodging; and on 
+ray informing her, that, in truth, I knew not where 
+
+
+
+JEAN MIGAULT. 79 
+
+to lay my head, " Eh hien !" said she, " you shall 
+lodge here if you will ; you shall have a hed, what- 
+ever he the consequences/' I accepted the generous 
+offer; and, worn out and exhausted in body and 
+mind, yielded myself immediately to repose. 
+
+Next morning this excellent woman was very 
+communicative, giving me an afflicting account of 
+the horrors which were then taking place in that 
+city. I quitted her to call on a couple of friends, 
+by whose help I hoped to succeed in the object 
+then uppermost in my thoughts, the deliverance 
+of my two sons, whom I longed to free from 
+this condition of misery and bondage. I also 
+visited M. du Beignon- Allaire, on the same sub- 
+ject; when, about two o'clock, as I came out of 
+his house and went to that of M. Mouchard, by the 
+great street leading to the gate, I met the governor 
+of Rochelle, accompanied by his guards. I made 
+the ordinary salute, and continued on my way ; 
+but he, stopping short, demanded, in a severe tone, 
+who I was, whence I came, and whither I went ? 
+I replied to these questions without the slightest 
+dissimulation, and he went on, while I proceeded 
+towards the gate. I had not, however, gone two 
+hundred paces when I remarked a man following 
+me. I took no notice of him, but still moved 
+forward, making for the edge of the sea, with this 
+person upon my track. 
+
+
+
+80 JEAN MIGAULT. 
+
+As I mounted the ramparts he accosted me, and 
+I recognised in him one of the guards of the gover- 
+yemor. He intimated that he had positive orders 
+to accompany me to the house of M. Mouchard, and 
+to ascertain what M. M. knew regarding me. I 
+walked hy his side ; and, having found Madame 
+Mouchard at home, the soldier demanded if I was 
+known to her or to her family. The lady replied 
+affirmatively, and confirmed all that 
+
+[^In this part of the narrative four pages are 
+awanting, having been torn from the original manu- 
+script, — pages, too, which must evidently have con- 
+tained most interesting matter. The sequel will 
+show, that the author consented to sign a formal 
+abjuration; being, no doubt, forced to the com- 
+mission of this crime by barbarous treatment at 
+Rochelle, added to anxiety for his two children who 
+were concealed in that city. A new light might 
+have been thrown upon the history of that detestable 
+persecution, had we been informed of the refinement 
+of cruelty which was in all probability put into 
+exercise, in order to compel so sincere and pious a 
+Protestant to affix his signature to stich a docu- 
+ment.^ The narrative continues as follows : — 
+
+Notwithstanding the depth of our trans- 
+gression Thou hast promised, oh, Heavenly Father ! 
+to have pity on us, and Abundantly to pardon. I 
+give myself^ with humility but with confidence, to 
+
+
+
+JEAN MIGAULT. 81 
+
+Thee, in hopes that Thou wilt not reject my broken 
+and contrite heart. Thou wilt thoroughly wash me 
+from my iniquity, and cleanse me from my sin. 
+
+The mercy of God sayed me from the terrible 
+dangers in which my folly had precipitated me; 
+and I was consoled in my sufferings by the intelli- 
+gence that nine of you, my dear children, were 
+remaining faithful to the truth of the Lord, and 
+devoted to his service. 
+
+On coming out of prison, I was conducted by an 
+officer to the convent of the I'Oratoire ; and there it 
+was that I had the baseness to write my name at 
+the foot of a paper which they presented for my 
+signature. I did not read it ; but could I doubt 
+what it contained ? I had found, in my fears for 
+my personal safety, and in the alarms with which 
+my heart was agitated for my family, the most 
+plausible reasons for looking at the affixing of that 
+signature as a very innocent act. But no sooner 
+was I freed from the presence of those who guarded 
+me, and had recovered my liberty, than I felt the 
+deepest contempt for the sophistry by which I had 
+allowed myself to be deceived, and I beheld my 
+sin in all its deformity and blackness. One of my 
+friends, whom I met as I was going out of the town, 
+seeing the condition of misery in which I was, in- 
+vited me to accompany him to his home. He did 
+all he could to calm the agitation of my spirit, 
+
+
+
+82 JEAN MIGAULT. 
+
+pointing out to me different passages of Scripture, 
+from which I might draw consolation. I quitted 
+him the same afternoon, intending to walk all night, 
+and to arrive at Mauze next morning. 
+
+No language is adequate to give jou the faintest 
+idea of the sorrow and shame to which I was a 
+prey, so long as I remained in Mauz6. I sought 
+comfort in prayer ; hut my tongue refused to utter 
+the grief that weighed on my heart. God seemed 
+to hide his face from me. I abandoned myself to 
+bitter reflection; and little more was necessary 
+to drive me to despair. The congratulations of 
+my friends on my deliverance from prison, only 
+served to double my remorse. These manifesta- 
+tions of good were indeed so many dagger-thrusts 
+to my heart, producing all the effects of bitter re- 
+proaches ; and it semed to me that never criminal 
+was so punished. 
+
+I could not possibly avoid paying a visit to our 
+worthy benefactress, Madame d'Olbreuze; but it 
+took me a long time to muster sufficient courage to 
+appear in her presence. I was not ignorant that 
+she had received into her house a great number of 
+persons situated as I had been with regard to per- 
+secution ; but then, there was not one of whom 
+this faithful disciple of Christ had formed a more 
+favourable opinion, or in whom she had been more 
+cruelly deceived. At last I ventured to request 
+
+
+
+JEAN MIGAULT. 83 
+
+permission to offer my respects, and the request 
+was immediately granted. 
+
+On entering the chamber where Madame d*01- 
+breuze was, I found her surrounded by a number of 
+young ladies, who had recently come to put them- 
+selves under ber protection. Oh ! my children, watch 
+carefully against the first approach of sin, that you 
+may never have to experience the shame and con- 
+fusion with which your poor father felt himself 
+overwhelmed at this painful moment ! I remained 
+a long time motionless, fixed to the spot where I 
+stood. My heart beat violently ; and I know not 
+what I should have done, had not a torrent of 
+tears which burst from my eyes in some degree re- 
+lieved me. You cannot conceive the forbearance 
+and charity which were manifested by this little 
+company of Christians. They could not conceal 
+from themselves the enormity of my fault, and they 
+did not attempt to palliate it; but they encour- 
+aged me to hope for pardon ; they quoted the ex- 
+ample of Peter, who denied his Lord, and that of 
+the disciples who forsook Him. My repentance 
+was no less sincere than theirs, and they doubted 
+not that I should receive as full and gracious a 
+forgiveness. Never, I trust, shall the memory of 
+their goodness be effaced from my heart. One of 
+them composed a prayer, admirably adapted to my 
+situation, and which I have preserved. I distri- 
+
+
+
+84 JEAN MIGAULT. 
+
+buted many copies of it among Protestants who 
+had cause to weep oyer the same fault that I had 
+committed ; and I have reason to believe it was to 
+them also a source of blessing. 
+
+Madame d'Olbreuze spoke much to me of you 
+all. She advised me to hire a lodging, and to re- 
+unite my family. As for myself personally, she said 
+I -was at perfect liberty to remain in her house in 
+my former capacity ; adding that, in the absence of 
+her husband, she had a multitude of affairs on hand, 
+which I could help her to attend to. I accepted 
+her kind offer, and lived in her house till her 
+departure for Paris. Your grandmother was of 
+the number of Madame d'Olbreuze's protegees. She 
+had preceded me hither by some days, and, like 
+myself, had signed her abjuration. 
+
+Having now taken a lodging, with the view of 
+gathering my family under one roof, I departed for 
+Poitou, in search of my eldest daughter, who, as I 
+before stated, had remained in that province, under 
+the care of several of our friends. After wandering 
+from house to house, I found, at last, the abode in 
+which she had most recently been, but she had 
+quitted it a few hours previous to my arrival. On 
+my return to the chateau of Madame d'Olbreuze, 
+I had the satisfaction of seeing her there, and in 
+good health. This mansion and that of Grand 
+Breuil, were the principal dwelling-places of my 
+
+
+
+JEAN MIGAULT. 85 
+
+daughter, and of the rest of mj children, until our 
+departure for Holland ; and Jeanne was so happj 
+as never to know the bitter shame of denying her 
+religion. Some days afterwards, a lady in Rochelle 
+offered her a situation, as goyemess to her children ; 
+and having accepted it, she was an inmate of that 
+lady's family at the period of our embarkation. 
+
+Of all my children, my son Jean was the one who 
+gave me the greatest uneasiness, ^nd occasioned me 
+the greatest expense. He was then sixteen years 
+of age ; he had neglected to avail himself of the 
+means of education which I had given him ; and, 
+after much reflection, I resolved to set him to 
+learn a trade. Jean appeared to enter readily into 
+my views, and even to rejoice at the idea of being 
+no longer a burden to me, and I bound him for 
+two years to a serge manufacturer at Saint Maixent, 
+to whom I promised to pay sixty francs as appren- 
+tice fee. You know how Jean has conducted him- 
+self in respect to his trade. 
+
+Shortly after this, at Easter, we were deprived 
+of the protection of Madame d'Olbreuze. This 
+lady went to Paris, and thence to Germany, after 
+her husband, who had obtained permission to quit 
+the kingdom. The loss of her presence and kind- 
+ness affected me deeply. She assured me of her 
+continued friendship, and generously offered to take 
+Philemon with her ; saying that M. d'Olbreuze 
+
+
+
+86 JEAN MIGAULT. 
+
+would charge himself with his future prosperity. I 
+accompanied this valued friend and benefactress to 
+St Maixent, where I took leave of her, my heart 
+the while full of gratitude, and broken with sorrow. 
+I embraced Philemon, uncertain if the government 
+would leave him at liberty to follow his patroness ; 
+but Heaven blessed their enterprise, and delivered 
+them from the miseries which loaded their country; 
+and soon I heard to my joy that Monsieur and 
+Madame d'Olbreuze and Philemon had arrived 
+safely in Germany. 
+
+My satisfaction was still augmented by the re- 
+ceipt of a letter, a few days after Philemon's de- 
+parture, from my eldest son Jacques, who informed 
+me that three months before, he had escaped across 
+the French frontiers, and was now at Amsterdam. 
+I have informed you that, in order to shun the 
+dragoons at Mauz^, he had sought refuge in the 
+house of M. de Chaban, on Christmas day 1685. 
+Towards the end of the following October, this 
+faithful servant of God did not hesitate to leave his 
+house a prey to the soldiers, and take the road to 
+Paris. He had with him his wife, her waiting- 
+woman, a coachman, a valet, and your brother, who 
+preceded them as postilion. They remained there 
+one month ; and then, being informed of the route 
+by which they could the most easily escape from 
+the kingdom, they commenced their journey ; but, 
+
+
+
+JEAN MIGAULT. 87 
+
+when near the frontiers, they were arrested, treated 
+with the utmost indignity, and forced to return to 
+Paris. This disappointment did not discourage 
+Jacques ; he started alone, made a new attempt to 
+cross the frontier and was successful. 
+
+Three of you were now beyond the reach of the 
+iron hand of tyranny. It was to M. de la Foret 
+that Gabriel owed his passage to a happier land 
+than his own. Immediately on the reyocation of 
+the Edict of Nantes, there appeared a royal procla- 
+mation, which banished from the kingdom all Pro- 
+testant clergymen. M. de la Foret, braving the 
+danger of the enterprise, found means to embark 
+his nephew, M. Garribon, and my son, on board the 
+same vessel in which he himself and Madame de la 
+Foret sailed for Holland, and from thence they 
+went to Germany. 
+
+The success with which the eflforts of three of 
+my children had been crowned, encouraged me to 
+venture on the same course with the others, al- 
+though I foresaw the difficulties which must lie in 
+my way. But I could no longer master my impa- 
+tience to fly from a country where permission was 
+refused me to worship the God of my salvation. 
+
+Constantly occupied, therefore, with one thought, 
+I made many journeys to Rochelle, in order to pre- 
+pare for carrying my plan into execution ; but my 
+friends in that city to whom I communicated the 
+
+
+
+88 JEAN MIGAULT. 
+
+desigu, declared that there was not the smallest 
+chance of success, at least for the present. It was, 
+they said, impossible to leave the port, such was 
+the vigilance of the police ; and the mere suspicion 
+of meditating such a step, exposed a person to imme- 
+diate imprisonment. 
+
+My services being about the same time sought 
+for by Madame and Mademoiselle de Misere, I 
+engaged myself to them as steward. I had been 
+preceptor in their family in 1660, when only six- 
+teen years of age. These two ladies had also signed 
+an act of abjuration ; but they were filled with 
+sorrow on account of it ; and, placing confidence in 
+my friendship, made known to me their intention 
+of quitting France. They added, that they hoped 
+I would not refuse to include them in any plan I 
+might form for my own escape, and offered to for- 
+ward the execution of it by whatever pecuniary 
+means might be needful. An entire year passed 
+away in vain attempts to realise our project, not- 
+withstanding my numerous visits to Rochelle. In 
+the interim, I was overwhelmed with an infinity of 
+other matters to which I had to attend in different 
+places. My eldest son, and Pierre (who remained 
+with me almost all the time I spent in the employ- 
+ment of Madame de Miser^), know well the fa- 
+tigues, vexations, and anxieties which I endured 
+during twenty months, which seemed to me so many 
+
+
+
+JEAN MI6AULT. 89 
+
+years. Fifteen of them I passed in continuallj 
+going from one farm to another, selling the crops, 
+and receiving arrears of rents for my mistress. 
+To add to these troubles, the conduct of your poor 
+brother Jean plunged me in the deepest sorrow. 
+You will remember that he quitted his occupation 
+at the end of six or seven months, — that is to say, 
+at the very time when he was beginning to acquire 
+some knowledge of the trade, and to render himself 
+useful to his employer. He left his master's house 
+in October 1686, and went about the country for 
+some time, inventing all manner of pretexts for 
+lodging himself, now with one of my friends and 
+now with another, and putting their credulity and 
+kindness to contribution by a thousand falsehoods 
+and inventions. When I was informed of the 
+shameful life he was leading, I despatched a man 
+in whom I had confidence, for the purpose of tsac- 
+ing him ; and it was only at the expiry of a long 
+search that he found him at the house of M. de la 
+Qrasli^re, whose son had been formerly one of my 
+boarders at Mauz^. During the fifteen days he 
+spent with me after his return, far from behaving 
+more correctly, he exhibited himself in all his per- 
+versity. Neither remonstrances nor prayers could 
+make the least impression on him ; he was without 
+shame, and natural affection seemed extinguished 
+
+in his heart. 
+
+H 2 
+
+
+
+90 JEAN MIGAULT. 
+
+I was now advised to send him to the West 
+Indies for two or three years, where constant em- 
+ployment might have a beneficial effect on his 
+mind. It was not without extreme pain that I 
+took this advice ; and, hearing that a ship belong- 
+ing to M. Louis Massiot was ready to set sail for St 
+Domingo, I demanded of my son if he would go 
+to that island. His reply was, that he was perfectly 
+agreeable to the proposal, his greatest desire being 
+to live at a distance from me ! I embraced the 
+unhappy youth, weeping bitterly; and on 1st Feb- 
+ruary 1 687 he departed. Alas, to this day he is a 
+source of continual anxiety to me, never having 
+written a single line since his arrival in St Domingo. 
+The captain of the vessel that took him out, who 
+returned to Amsterdam on account of the persecu- 
+tion in France, tells me that your brother entered the 
+employment of M. Geofixey, of Port de Paix. 
+
+The affairs of Madame and Mademoiselle de 
+Miser^ now approached their conclusion. They 
+had disposed of their property at Mauz^, and re- 
+ceived a part of the price. I sold also, in virtue of 
+their procuration, some detached houses belonging 
+to their estates, and was so fortunate as to find 
+good tenants for the great farms of Petousse, Beau- 
+lieu, and Touchelonge, who all paid a year's rent 
+in advance. The ladies had therefore a consider- 
+able sum of money in specie at their disposal, 
+
+
+
+JEAN MIGAULT. 91 
+
+which redouhled the eagerness they felt to leave 
+the kingdoin. 
+
+For my own part, I was exhausted with the 
+fatigues occasioned hy my constant attention to 
+their numerous affairs. From the day of my enter- 
+ing their service, I had not enjoyed one moment's 
+repose, my time heing spent in going, without ces- 
+sation, from one place to another; — now to Aunis 
+— then to Saintonge — and the following week to 
+Poitou. I was heart-hroken — ^my patience was ex- 
+hausted — and yet it was to these painful lahours that 
+I eventually owed my safety. I have since felt 
+persuaded that I was thus unconsciously using the 
+hest means for defeating the perfidious machinations 
+of the priests, who had conceived for me a mortal 
+hatred, hecause I made it an invariable rule never 
+to be present at the offices or ceremonies of the 
+Romish Church, and because I showed for the re- 
+formed doctrines an attachment which time only 
+strengthened and increased. Alas ! when shall I 
+be able to live the life of faith, committing myself, 
+and all that concerns me, to the hands of Him who 
+has promised never to abandon His people, but to 
+protect them with unfailing love and care ! How 
+often do we deplore events which Providence has 
+ordained for our salvation, and rejoice in circum- 
+stances which, but for the Divine blessing, would 
+prove the source of misery to us! I speak the Ian- 
+
+
+
+92 JEAN MIGAULT. 
+
+guage of Christian experience when I say, that it is 
+not given to man to appreciate, at their full yalue, the 
+vicissitudes of human life ; that nothing is more sub- 
+ject to error than his speculations upon them, and 
+that there is no true wisdom hut that which refers 
+every thing to Him whose ways are not known, and 
+whose paths are on the great waters. 
+
+The last three months which I passed with 
+Madame and Mademoiselle Miser^ were employed 
+principally in journeys made to Rochelle, on their 
+account. In appearance, their resolution of embark- 
+ing, on the first occasion which should offer itself, 
+was unshaken; and my instructions were to pro- 
+cure them a passage at any price. At length I con- 
+sidered myself fortunate in meeting with a captain, 
+who engaged to convey us to England for eighteen 
+hundred francs; and nothing now remained to be 
+done by these ladies and myself but to meet at 
+Rochelle, and there to await the proper moment for 
+embarkation. 
+
+I found, however, only fluctuation and indecision 
+in the minds of the mother and daughter. For a 
+long time, they had insisted absolutely on the ne- 
+cessity of escaping by sea; but when a dpor of 
+deliverance seemed thus about to be opened, it 
+immediately struck them, for the first time, and 
+apparently by some sudden inspiration, that it 
+was much more prudent to leave the kingdom by 
+
+
+
+JEAN MIGAULT. 93 
+
+way of Paris. A lav^suit, which they had pending 
+there, would, they said, give them a plausihle pre- 
+text for entering the capital, and when a favourable 
+occasion should present itself of passing the fron- 
+tiers^ they would not fail to profit by it. They also 
+offered to take with them the remainder of my 
+family, while, in the mean time, Pierre and I might 
+accompany them as far as Paris, if I thought good. 
+They had given me so many proofs of inconstancy 
+and indecision in their doings, that I excused my- 
+self, without scruple, from accepting an offer which, 
+I doubt not, sprung from real benevolence. They 
+set out for Paris on 24th November 1687, leaving 
+me a procuration to attend to their affairs, and, 
+among others, to two lawsuits at Saint Maixent 
+and Rochelle. 
+
+After their departure, I visited their house at 
+Petousse, and went also to Saint Maixent, Niort, 
+Bougoin, and Mauze. The object of my journey to 
+Mauz^ was to sell some of the ladies' furniture, and 
+to send the rest of it to Paris. 
+
+From Mauz^ I proceeded to Rochelle, to which 
+place I was led by a lawsuit of Madame de Mi- 
+8er6 -against the Count de la Yilledieu; and also 
+by the hope of being there able to find the means 
+of embarking myself and family for a foreign land. 
+The last object, I confess, weighed most with me. 
+For more than a year and half I had been employed 
+
+
+
+94 JEAN MIGAULT. 
+
+by Madame and Mademoiselle de Misery ; and, oc- 
+cupying myself in their concerns with indefatigable 
+zeal, I had too much neglected my own. I still 
+flattered myself, however, that I should eventually 
+be enabled to fly from this land of oppression^ and 
+to enjoy at last that sweet liberty which I had so 
+much at heart. 
+
+My numerous excursions to Roohelle procured 
+me the acquaintance, and even the friendship, of 
+many estimable persons, and especially of Madame 
+de Choisy, who had abandoned, eighteen months 
+before, her house of Chantemerliere, in Poitou, and 
+had settled with her daughter in that city. M. 
+Meneguerre, their agent, a gentleman as active as 
+he was intelligent, resided with them, and watched 
+for a favourable chance of their quitting the king* 
+dom. Madame de Choisy was a near relative of 
+Madame de Miser^, and had come often to see her 
+at Mauz^, where our acquaintance had commenced. 
+It was also at Mauz^ that M. Meneguerre and I 
+became united in a friendship as sincere as it was 
+constant. He and Madame de Choisy thought 
+quite as I did upon the conduct of Madame and 
+Mademoiselle de Misere. Like myself, they had 
+been the dupes of the tiresome irresolutions of these 
+ladies. We resolved therefore, in future, to trust 
+only to our own efforts; and, in the mean time, M. 
+Meneguerre counselled me to return to my children, 
+
+
+
+JEAN MIGAULT. 95 
+
+to prevent suspicion, "which m j presence at Rochelle 
+might occasion. 
+
+FoUowiDg his advice, I went once more to Grand 
+Breuil, where my family then resided ; but, within 
+four, days of my meeting them, a letter from M. 
+Meneguerre recalled me to Rochelle. On my ar- 
+rival, he told me that a Dutch captain had consented 
+to convey us to Holland for the sum of 3000 francs; 
+and that he offered to take on board his ship twenty- 
+four passengers, who might pay this amount among 
+them. 
+
+M. Meneguerre and myself now set out to seek 
+the captain, in order to get him to sign the engage- 
+ment ; but this affair, of which the commencement 
+seemed so fortunate, had a conclusion sufficiently 
+vexatious, as you shall soon see. We left the care 
+of arranging the matter with one of those officious 
+people who think themselves wiser than their neigh- 
+bours; but who, with all their pretended ability, 
+spoil whatever they take in hand. 
+
+Every thing seemed to authorise my believing 
+that I had at last obtained the object of my many 
+journeys to Rochelle : so I returned to my family, 
+and employed my best efforts to induce your grand- 
+mother to accompany us to Holland, where she 
+might worship God without fearing persecution. 
+You know that all my entreaties and arguments 
+were without effect ; nothing could determine her 
+
+
+
+96 JEAN MIGAULT. 
+
+
+
+to quit her country — a country which refused her 
+the privilege of publicly recognising the Saviour, of 
+whom it is said that there is salvation in no other. 
+She was more afraid of the dangers which were 
+connected in her mind with the idea of emigration, 
+than shocked at the thought of passing the rest of 
+her days where she dared not openly confess her 
+Lord. I represented to her, that my life having 
+become insupportable since I had fallen into the 
+shameful sin of abjuring my faith, I was resolved 
+to brave every danger rather than endure longer, 
+with my children, the slavery under which we were 
+sighing. The good old woman could only answer 
+me by tears and sobs, the remembrance of which 
+still throws a cloud of sadness over my mind. 
+
+Finding your grandmother unchangeable in her 
+resolution, I had no other part left than to provide 
+for our voyage without her. I therefore directed 
+your eldest sister to make preparations for our de- 
+parture, so that we might be ready to s^rt at an 
+hour s notice. And here I must bear witness to 
+the intelligence and affectionate zeal with which 
+she set about her task, under very painful circum- 
+stances. Without the help of this good and dutiful 
+girl, I know not how I should have managed, en- 
+cumbered as I was with four children, three of whom 
+could not in any way help themselves, nor be let out 
+of sight for a moment. 
+
+
+
+JEAN MIGADLT. 97 
+
+The Courier now brought me a letter from M. 
+Meneguerre, couched in these terms : ** Immediately 
+on receipt of this letter, I beg you will come to 
+Rochelle, bringing with you all your documents 
+even the least important, as your lawsuit will be 
+judged without delay." I had no diflficulty in in- 
+terpreting the note as the writer meant I should, 
+especially as I had reason to suppose that the Cap- 
+tain only awaited a favourable wind to set sail. 
+
+It happened that a young woman, in the ser- 
+vice of Madame de Misere, had anounced her in- 
+tention of quitting the kingdom ; and Madame 
+de Choisy had kindly given her the use of her 
+house at Rochelle. The woman was aware of the 
+expected speedy departure of our ship ; and as she 
+was going to Rochelle, I took the opportunity of 
+sending Pierre thither under her charge. On their 
+arrival at the house of Madame de Choisy, that 
+lady informed those who had their eyes upon her 
+movemei^Js, that the girl was entering her service, 
+and that the little boy was godson to her late hus- 
+band. Next day I reached Rochelle, where I found 
+that proper meiisures had been taken for our em- 
+barkation ; and that, with the exception of my own 
+family, all who intended going on board were as- 
+sembled in the. city. 
+
+My first care was to address myself to a person who 
+
+kept carriages on hire, and who had four excellent 
+
+I 
+
+
+
+98 JEAN MIOAULT. 
+
+horses. I allowed this man, who bore a good cha- 
+racter, to make his own terms; and these being 
+settled, he engaged to be in Mauz4 at two o'clock 
+next morning, and to return to Rochelle within one 
+hour more at the latest, with mj family — ^bringing 
+them to the house where I lodged, and which I was 
+careful to point out to him. All the following day 
+I confined myself within doors, expecting, with a 
+degree of anxiety beyond expression, the arrival of 
+the carriage ; but night came on, and no appearance 
+of my children. 
+
+At two o'clock on the second morning, I left 
+Rochelle for Mauze; and in the course of the day, 
+I succeeded, by means of paying an exorbitant 
+price, in securing the service of another coachman, 
+although he had but one horse; and I went with 
+him to Grand Breuil, where my family awaited me. 
+We arrived at this latter place about eleven o'clock 
+in the evening. Finding two other carriages near 
+the village, I engaged them also, and in these three 
+vehicles we commenced our journey towards Ro- 
+chelle a little after midnight, on the 15th December 
+1 687, during the prevalence of the most intense cold. 
+
+We left your grandmother in great affliction. 
+For eighteen years she had lived with us. Your 
+mother was the eldest of her three children, and 
+had always been the dearest to her; and well did her 
+superior excellence of character merit the distinc- 
+
+
+
+JBAN MICIAULT. 99 
+
+tion. At the death of jour grand&ther Fourestier, 
+the old lady decided on coming to reside with us ; 
+and you know with what tenderness she loved you, 
+and in what harmony we always lived together. 
+
+We now suffered severely from the cold. Judging 
+from my own experience of it, as well as from the 
+cries of the children, I hegan to fear that some of 
+them would perish on the way. The approach of 
+day brought with it no increase of comfort, the at- 
+mosphere still retaining its keenness. Eight o'clock 
+in the evening arrived : we had been twenty hours 
+in the carriages, and I absolutely knew not what 
+I ought to do, or could do, for my unfortunate 
+family. To enter Rochelle had been the height of 
+imprudence, as a stranger making his appearance 
+in the city with a family was sure to be sent to 
+prison, on suspicion of seeking to emigrate; and 
+I knew no one in the neighbouring village in 
+whom I could confide. It was necessary, how- 
+ever, to make up my mind, and that immediately, 
+as another night was coming on, and the coach- 
+men were impatient. In this predicament, I re- 
+membered having known, at Mougon, a man who 
+now resided at Dampierre, and I conjured the 
+drivers to conduct us thither. It required, however, 
+the sight of the deplorable condition in which my 
+children, and particularly the three youngest were, 
+to overcome the ill-humour of these men, and to 
+
+
+
+1 00 JEAN MIGAULT. 
+
+inspire them with a little pity ; and when they did 
+consent to my wish, I knew not where the house 
+of him I sought was situated, nor was it without 
+much diflSculty we found it. No sooner had'we 
+arrived at the door, than our drivers set us down ; 
+and before we had time to utter a word, they 
+sprang to their seats again and galloped off. 
+
+On knocking at the gate, before which we stood, 
+I found that the woman of the house alone was at 
+home, and to her I represented my situation. "My 
+poor children are lost," I said, "if they pass this 
+night in the open air." " And as for us," she re- 
+plied, " we shall be ruined if we receive you into 
+our house: my husband is employed by a rigid 
+Roman Catholic, who has threatened to dismiss 
+him from his service, if we ever receive a single Pro- 
+testant under our roof." "If you lose his favour," I 
+answered, " for giving shelter to children, who with- 
+out your aid must perish, you will be recompensed 
+for it. Oh, doubt not you will be rewarded by the 
+approbation and blessing of Him in whose name 
+I implore your pity towards these helpless crea- 
+tures. I will cause you no uneasiness for myself; 
+I will seek another lodging." The good woman 
+could not resist this appeal. " If you knew," she 
+said, " the man on whom we are dependant, you 
+would pardon my first refusal. The receiving of 
+these children, and the exposing of my husband 
+
+
+
+JEAN MIGAULT. 101 
+
+and myself to the most appalling porertj, rushed 
+upon my mind as one and the same thing. But I 
+ought not to distrust the promises of God, nor to 
+transgress his commandments, in order to please a 
+man ; for this night, therefore, you may leaye your 
+children with me." 
+
+I am sure it must he needless for me to tell how 
+much relieyed my heart was, as I thanked the 
+woman. Full of joy and gratitude, I ran to Bo- 
+chelle, and was so fortunate as to find a lodging in 
+a dirty little inn, kept hy a Protestant, — a worthy 
+man on the whole, though he and his wife had de- 
+filed themselyes with the same sin of which I was 
+guilty, having ahjured. Next morning I rose early, 
+impatient to know how you had passed the night, 
+and heset with sad forehodings of the difficulties, 
+which seemed to me insurmountahle, in the way of 
+my finding you another dwelling ; hut on arriying 
+at the village, I had another proof of the father- 
+ly goodness of God, and of the solicitude with 
+which He watches over His people. Near to 
+the house in which you were, lived a respectahle 
+old gentleman who had heen for a long time my 
+neighbour in Poitou, and from whom I had re- 
+ceived many marks of esteem. I had lost all trace 
+of him on his quitting that place, and had almost 
+forgotten his name, nor was I now aware even of 
+
+his existence. Had I possessed the wealth of Peru, 
+
+I 2 
+
+
+
+102 JEAN MTGA.ULT. 
+
+I could not have provided a retreat more to my de- 
+sire than the house of this venerahle man ; and he 
+received you, ray children, with a cordiality and 
+kindness which I am sure you never can forget, 
+and which may well serve as a model for our imi- 
+tation, should the feeble or oppressed ever claim our 
+protection. 
+
+All the inhabitants of the canton, with the ex- 
+ception of this benevolent gentleman, and of the 
+persons with whom you had found shelter, were 
+Roman Catholics. Your kind host gave himself 
+out to be your grandfather ; so that, not only had 
+your visit a natural enough appearance, but suspi- 
+cion was allayed as to our ulterior object. 
+
+A strong north wind continuing to blow till near 
+the middle of January, our departure was neces- 
+sarily delayed ; but at last it was fixed for the 16th 
+of that month, the rendezvous named being a small 
+cottage close by the magnificent chateau of Pampin, 
+and at no great distance from the river. The meet- 
+ing-place was within one league of Rochelle, and 
+two of the village where you were living. During 
+all this time I had lodged at Rochelle along with 
+some other intending emigrants ; and, having kept 
+the horse with which Madame de Misere had pre- 
+sented me on her departure for Paris, I intended 
+making use of him to convey my three younger 
+children, as also the luggage, to the place of em- 
+
+
+
+JEAN MIGAULT. 103 
+
+barkation. On the day appointed, therefore, I left 
+Rochelle at three o'clock, and arriying at your lodg- 
+ing by four, commenced preparations for immediate 
+departure. Olivier and Elizabeth I put into pan- 
+niers on either side of the horse, and Marie occu- 
+pied the croup. The baggage, which happily re- 
+quired little room, and was easily packed, we 
+placed in front of the panniers, and Anne, Pierre, 
+and myself followed on foot. We had along with 
+us Jean Dillot, who had remained in our service 
+since we quitted Mauze, and who shared the same 
+hospitality with the children. He also intended 
+emigrating. 
+
+I have spoken of all we had to suffer in our 
+journey from Grand Brieul, and I have represented 
+our position on that occasion as most frightful ; but, 
+although at the risk of being accused of exaggera- 
+tion, I fear not to say, that these sufferings, com- 
+pared with what we endured on this bitter night, 
+were only a trifling inconvenience — an ordinary 
+occurrence. Exaggeration, you may indeed believe, 
+is far from my design, as I do not write for the sake 
+of effect, but simply for your information ; and I 
+should consider my narrative dishonoured by the 
+introduction of the slightest shade of fiction. 
+
+The cold was terrible, the night was extremely 
+dark, and the rain, which had fallen in torrents for 
+several days, had rendered the roads almost impass- 
+
+
+
+104 JEAN MIQAULT. 
+
+able. And, even had it been otherwise, we had 
+been forced, by fear of detection, to avoid the best 
+and most public paths. We were thus obliged to tra- 
+yerse meadows, which were little better than swamps, 
+and to pass over yinejards, the soil of which was 
+so soft that we sunk to our knees almost at every 
+step. Often we walked on the edges of precipices 
+of the great depth of which we were unconscious, 
+and which in daylight we would have been careful 
+to avoid. In truth, nothing less than the hand of 
+a protecting .God could have saved and guided us, 
+travelling as we did in the midst of thick dark> 
+ness, and ignorant of the dangers by which we were 
+surrounded. I have had occasion three times since 
+then to go over the same ground ; and when I in- 
+form you that in some parts of it, even in sunshine, 
+I did not dare to take one step without the utmost 
+precaution, and that I often paused, myself as well 
+as my horse trembling at the sight of the precipices 
+beneath my feet, — ^you may, perhaps, form some 
+idea of the perils we encountered, and the anxieties 
+to which we were the prey, during th^t memorable 
+journey. 
+
+Notwithstanding those obstacles, however, we 
+reached) in safety, the place of rendezvous, owing 
+our arrival without being discovered to the dark- 
+ness of the night, and to the dreadfully inclement 
+state of the weather, or rather to the kindness of 
+
+
+
+
+
+
+JEAN MIGAULT. 105 
+
+Providence. Of all those who, from different di- 
+rections, moved toward the same point, with the 
+intention of embarking, there were but few who 
+wandered from their route and did not come up at 
+the appointed hour ; and when that hour arrived, 
+sixty-five persons were assembled on the shore. 
+
+We were waiting in the little cottage, with the 
+most intense eagerness, for the arrival of the skiff 
+which was to carry us on board our ship, when the 
+sound of loud cries filled our minds with alternate 
+alarm and joy. One while, we thought we could 
+distinguish in them the voices of our mariners, and 
+anon they seemed the vociferations of approaching 
+soldiers. The noise, however, proceeded neither 
+from soldiers nor sailors. Incredible as it may ap- 
+pear, the thing was a jest, — surely of the most in- 
+sane, if not diabolical character, — on the part of some 
+of the individuals who were about to embark with 
+us ! A gentleman, whose name, from a feeling of 
+prudence, I shall not mention, (especially as my 
+papers are not quite beyond risk of accident, and 
+may be read by individuals disposed to injure him,) 
+a man charitable and disinterested, actuated by the 
+most sincere compassion, had voluntarily charged 
+himself with the management of the measures 
+which our project of flight rendered necessary. He 
+had carried his kindness so far as to be present at 
+the place of embarkation, in order to provide, as 
+
+
+
+106 JEAN HIGAULT. " 
+
+much as possible, against the danger and oomfiiBion 
+incident to the meeting of so many persons, unac- 
+quainted with the best mode of proceeding, and 
+each naturally desirous of being the first to reach 
+the ship. In accordance with his advice, the party 
+drew lots, by families, and were to hare embarked 
+in the order indicated by the number drawn; and 
+thus the skiff would hare been properly freighted, 
+and the seTenty-fire passengers hare arriyed on 
+board without running the least hazard. 
+
+The intention of those who created the clamour 
+of which I have spoken, was to imitate the sound of 
+soldiers advancing at a rapid pace ; and it was 
+principally the name of our excellent benefactor 
+which they made the subject of their vociferations. 
+No wonder, then, that he was alarmed ; for an 
+existing royal mandate subjected to the pain of 
+death whoever should favour the flight of Protes- 
+tants; and he knew that, recently, these emigra- 
+tions had been so frequent, that soldiers were con- 
+stantly employed in scouring the country for their 
+prevention. 
+
+Even at this critical moment, however, when his 
+life was at stake, the generous man did not forget 
+the people who were assembled in the house. He 
+ran and warned us of the danger to which he be- 
+lieved we were exposed. "The soldiers are on 
+the beach!" he cried ; " fly, and save yourselves i" 
+
+
+
+JEAN MIGAULT. 107 
+
+The panic had not lasted more than a couple of 
+minutes, when its unworthy authors, having hut too 
+much reason to heliere that they had occasioned 
+the flight of our director, rushed after him, and 
+entered the house to explain the frolic ; hut it was 
+too late, our friend was gone, and in the darkness 
+of the night, it was impossible to tell by what road. 
+A few only of our companions had followed him, 
+the alarm not being general. 
+
+Another quarter of an hour brought the skiff, — 
+when, forgetting entirely the arrangement for em- 
+barkation, the whole company rushed towards it, 
+'^en masse," and the confusion became dreadful. 
+Of course, my being among the first was impossible, 
+as I had the care of Mademoiselle de Choisy and 
+my six children ; and our distress was increased by 
+our wandering from the path, along with twelve 
+others, and finding ourselves at length in a vine* 
+yard at some distance from the shore*— a species of 
+labyrinth from which we were unable to disentangle 
+ourselves, and where we feared we should have to 
+pass the night. It happened, however, that there 
+was in our party a woman whose husband was well 
+acquainted with that part of the country, and he, 
+missing his wife, began searching for her, and found 
+her at last with us in the vineyard. The husband 
+then conducted us to the skiff ; but at that moment 
+it was quitting the beach, having on board thirty- 
+
+
+
+108 JEAN MIOAULT. 
+
+six persons. We were consequently under the 
+necessity of awaiting its return, which did not take 
+place till six o'clock in the morning. 
+
+Its return brought no solace to our troubles. Hay- 
+ing anchored in a little bay, sixty or eighty fathoms 
+from the rock on which we stood, and where we 
+had remained since her first departure, the cries of 
+the seamen were no sooner heard than the whole 
+of us — that is to say, about forty persons — ^precipi- 
+tated ourselves towards the spot. The most active 
+and least embarrassed gained the skiff; but when 
+twenty- five had got on board, the boatmen reso- 
+lutely refused to admit one more, having, as they 
+said, been on the point of sinking during the last 
+trip, from having too many passengers. They pro- 
+mised, however, to return a third time, and to re- 
+ceive those who remained. 
+
+We now saw but too clearly that we had lost our 
+passage^ Day broke before the skiflT had reached 
+the ship, and the increasing light showed us two 
+barges, which we recognised as belonging to the 
+twelve guard boats which, since the revocation of 
+the Edict of Nantes, had been stationed at Rochelle, 
+and whose presence fully justified the precautions 
+taken by those who desired to emigrate. During 
+the ten preceding days, our obliging benefactor had 
+had the coasts watched every morning by trust- 
+worthy persons, and the point at which we had in- 
+
+
+
+JEAN MIGAULT. 109 
+
+tended embarking was chosen on account of its 
+being the only unguarded spot Had the skiff re- 
+turned but once more, as was proposed, the whole 
+affair must have been revealed, those who had 
+quitted the beach would hare been liable, probably, 
+to perpetual imprisonment, and all who had aided 
+them to capital punishment. 
+
+Was eyer oppression more intolerable than that 
+which we experienced — ^harassed almost to madness, 
+if we remained in France, and punished as male- 
+factors if we sought to fly? God forbid that I 
+should speak of my King in a disrespectful manner; 
+but I cannot help saying, that, in the present in- 
+stance, his conduct was neither guided by justice 
+nor by sound policy. There can be little justice in 
+persecuting innocent subjects, who ask no more 
+than to be allowed to lead peaceable lires; and there 
+can be little wise poUcj in exasperating a numer- 
+ous class of individuals, and forcing them to hate 
+a government which they are disposed to love and 
+to support. Doubtless many Protestants have ab- 
+jured their faith. But can our oppressors flatter 
+themselves that they have sincerely and from the 
+heart embraced ihmr communion? The only vic- 
+tory which they can reasonably boast of having 
+gained over these unhappy apostates, is that of 
+leaving them without any religion whatever. 
+
+Our situation was distressing in the extreme. 
+
+K 
+
+
+
+110 JEAN MI6AULT. 
+
+The sight of the soldiers on the sea made us fear 
+that we should find soldiers on shore also ; and thu 
+apprehension brought our terror to its height, a8 
+we knew the inflexible severity of the Governor of 
+Rochelle, and almost imagined ourselves ahreadj in 
+his hands. My companions were single persons, 
+and could easily disperse or conceal themselves, as 
+circumstances might dictate ; but what was I to 
+do with little ones, whom nothing in the world 
+could induce me to abandon, and three of whom 
+could not walk? The house of our charitable host 
+at the village was the only roof under which I 
+dared to venture, and it was necessary to pass the 
+walls of Rochelle in order to reach it ; I feared 
+also that my horse was no longer in a* condition to 
+proceed, as he was lying motionless on the pebbles, 
+where he had passed the night. But in this painful 
+situation, I felt a greater degree of faith than I had 
+at any former time enjoyed. Many of the most 
+precious Scripture promises presented themselves 
+to my mind ; and I had a sort of intuitive percep- 
+tion of their application to my own case ; while 
+others which were familiar to my thoughts, but 
+which I had never before realised, became now a 
+blessed means of comfort. The text, <^ The angel 
+of the Lord encampeth round about those that fear 
+Him, and delivereth them," inspired me, above 
+all, with undaunted courage. Indeed, it had no 
+
+
+
+JEAN MIGAULT. Ill 
+
+sooner come into my thoughts, than I felt my terrors 
+entirely dissipated. " Yes ! " I said to myself — ''Yes ! 
+I shall he deliyered, no matter hy what agency; 
+my heavenly Father hest knows what means of 
+rescue are for my good ; and whether I escape the 
+hands of the Governor df Rochelle or whether I 
+fall into his power, I shall be equally delivered in 
+the Lord's own time. All that can happen to me, 
+joyous or grievous, must alike contribute to my 
+happiness. Fear being sin, I will banish even the 
+slightest shade of it from my breast ; and while I 
+use every faculty I possess, physical or moral, in 
+endeavouring to evade the persecution, I will cast 
+all ray care upon the Lord^ and will keep my soul 
+in peace." 
+
+I must not forget here to note an incident which 
+you have heard me sometime^ recall. At the mo- 
+ment of our departure from the village, little Oli- 
+vier, with his caressing air and insinuating man- 
+ner, said to me, '* Where are we going now, papa? " 
+My heart was full ; and, in order to avoid explana- 
+tion, " My child," I replied, " we are going to 
+Moulin." Next morning, the poor little boy, find- 
+ing himself taken to the edge of the sea, and behold-p 
+ing nothing around him but rocks and waves, said, 
+«« Papa, afe we now at Moulin V* " Yes,** I hasti- 
+ly replied. '^ But, papa, where is our house, is it 
+pulled down ?" My only reason for repeating this 
+
+
+
+1 1 2 JEAN MIGAULT. 
+
+anecdote is to show the bad effects which might J 
+have been produced on my children by the petty 
+untruths I had thus the imprudence to utter; and 
+to express the deep regret I experience at having 
+so wandered from that system of strict veracity 
+which ought to characterise every word of the head 
+of a family. People in general have no idea of the | 
+imperceptible action by which the character of a 
+child is formed ; nor of what a powerful influence 
+the little events and apparently trifling circum- 
+stances composing the history of the first years of 
+life, have upon those that follow, if it were possi- 
+ble to trace the effect to its cause, I doubt not it 
+would often be ascertained that much of the corrup- 
+tion of men's minds has had rise in the deviations 
+from truth in which parents too often indulge in 
+their intercourse with their children. And their 
+example is the more dangerous to their ofi&pring, 
+that it is most natural for the latter to think they 
+cannot do better than follow the example of their 
+parents. 
+
+In making these remarks, I may say that I am 
+merely explaining to you a doctrine which was sin- 
+cerely held by your poor mother. Difficult, indeed, 
+would it be for me to call to memory any point in 
+which her conduct was not irreproachable, for she 
+"lived by faith;" but this I know well, that if 
+ever she felt inclined to yield to sin, the presence 
+
+
+
+JEAN MIGAULT. 113 
+
+of her children would have had the effect of recall- 
+ing her to reflection, and so of disarming the temp- 
+tation. Doubtless, notwithstanding the sweetness 
+and gentleness which formed the groundwork of 
+her character, I have sometimes, during the twenty 
+years of our union, seen her moved by feelings of 
+anger; but never in her children's presence has 
+her countenance displayed aught but the reflection 
+of that heavenly love with which her heart was 
+filled. Nor have you, her children, heard from 
+her lips a single reproach which could be regarded 
+as unjust, or as the eflcct of passion. 
+
+But to resume the narrative. Mademoiselle de 
+Choisy was still with me, when we determined to 
+quit the beach; her mother, however, was of the 
+number of persons whom the false alarm to which 
+I have alluded had terrified into flight. This wor- 
+thy lady wandered all night in a country with 
+which she was totally unacquainted, and it was 
+daybreak when she found shelter in the cottage 
+of a poor woman. She imagined that she had 
+walked at least six miles ; whereas the amount of 
+her journeying did not remove her farther than 
+four hundred paces from the house in which we 
+had assembled for embarkation. In the meantime, 
+I was informed, first, that she was among those 
+whom the skiff at first took out to the ship; and 
+these false tidings embarrassed me exceedingly, as I 
+
+
+
+114 J£AN MIGAULT. 
+
+could not tell how I should convey her daughter 
+to Bochelle, nor to whose hands I ought to confide 
+her were she there, although she had many friends 
+in that city. The poor child, too, was in great 
+sorrow, believing herself for ever separated from an 
+affectionate mother, and imagining what that mo- 
+• ther must feel, when she found that her daughter 
+was not with her. 
+
+Fortunately my horse had enough of strength 
+left to enable him once more to carry the children; 
+and we retired from the edge of the sea in the 
+same order in which we had gone to it, always ac- 
+companied by the faithful Dillot. Our march was 
+a weary one. Mademoiselle Choisy had lost her 
+shoes in the clay during the previous night, and 
+could hardly move a step; while, for my own part, 
+I could not assist her much, being almost exhausted. 
+Dillot was now of great service, as he carried in 
+his arras, alternately, two of the little ones, whose 
+situation was perhaps even more pitiable than that 
+of the young lady. 
+
+Scarcely had we gained the top of the hill, when, 
+near the chateau of Pampin, we were met by a 
+person, who, to our great astonishment, addressed 
+herself to Mademoiselle Choisy, and told her that 
+her mother was in the house, almost distracted 
+with fear lest her daughter should be on board the 
+ship, without protector or guide. Such an appre- 
+
+
+
+JEAN MIGAULT. 1 1 5 
+
+kension, indeed, will appear reasonable enough, 
+when one considers the confusion which prevailed 
+during the embarkation, — friends losing each other 
+in the darkness, and being the less careful to enter 
+the boat together, from the anticipation of meeting 
+again, without fail, on board the ship* There was 
+at that time in the chateau, one of our companions, 
+who, after having assisted his wife, with an infant 
+at the breast, into the skiff, had been thrown into 
+the sea by the crowd which pressed upon him, and 
+ere he could recover himself, the boat had gone 
+and left him behind. This is not the only instance 
+in which members of the same family were forced 
+to remain on the shore, while their friends were on 
+board, and proceeding towards Holland, England, 
+or America. The embarkations necessarily took 
+place during the night, and always with confusion. 
+Some of you will remember poor M. Chabran, our 
+neighbour at Mougon, who was so fond of Pierre. 
+When we left France, he was languishing in the 
+dungeon of a prison, where most likely he still re- 
+mains, having been surprised by a party of dra- 
+goons, as he was waiting for the boat that was to 
+convey him to the ship, on board of which his son 
+and daughter were already gone. Perhaps there 
+never was a kinder man ! His arrangements had 
+been formed with a view to his son, who had made 
+several voyages on sea, taking charge of his younger 
+
+
+
+116 JEAN MIOAULT. 
+
+sister. M. Chabran himself had under his care a 
+little girl, the only child of a widow, whose desti- 
+tute and desolate condition had excited his com- 
+passion. For his own children he had little anidety, 
+the brother being well able to protect the sister. 
+On the approach of the boat, the widow was sepa- 
+rated by the crowd from her child; and while M. 
+Chabran was engaged, with kindly zeal, in endea- 
+vouring to get the girl down to the shore, the boat 
+was filled with passengers, and put to sea, bearing 
+the young Chabrans away from their father. 
+Within half an hour after this event, the poor man 
+was in the hands of the dragoons. 
+
+We arrived, safe and well, at the house of our 
+old host, who treated us with all the kindness and 
+attention we could possibly desire, and of which we 
+had certainly great need. I resolved to return, 
+without loss of time, to Rochelle ; believing that it 
+was of importance for me to be seen there as fre- 
+quently as possible ; for although I feared lest some 
+of those who had been left upon the beach when 
+the others got off might have been seized, and have 
+confessed as to the intended emigration, yet I 
+trusted that, by making my appearance in the city 
+at an early hour next morning, and by seeming to 
+be engaged in Madame de Misery's matters, I 
+might remove all suspicion of my having taken any 
+part in it. 
+
+
+
+JEAN MIGAULT. 117 
+
+I had that evening the pleasure of supping with 
+Madame de Choisy, who had reached Rochelle along 
+with her daughter and M. Meneguerre. This gen- 
+tleman was one of those who fled from the beach at 
+the same moment with our guide. We learned after- 
+wards that all our companions who missed their 
+passage had contrived to escape without mishap. 
+Of the number of those who were lost in the dark- 
+ness, and had not been able to arrive at the place 
+of rendezvous, was the young girl from Mauz^. 
+
+The party at the house of Madame de (Jhoisy was 
+a very delightful one, each of us recounting his par- 
+ticular adventures. It would indeed, I think, have 
+been difficult to discover in all France a happier fire- 
+side. Certainly it could not be found in the King's 
+palace, nor in the houses of those who co-operated 
+with him in this dreadful persecution. No counte- 
+nance betrayed the vexation which ordinarily follows 
+hope deceived ; on the contrary, we all felt that no- 
+thing had happened which was not a cause of sin- 
+cere thanksgiving, and our hearts were turned to 
+the Lord as the heart of one man. We could not, 
+it is true, hide from ourselves the dangers we had 
+been exposed to, nor the sufferings we had endured; 
+but the memory of them served only to redouble 
+our gratitude and love to Him to whom alone we 
+owed our deliverance. The time was passed in 
+
+serious conversation and in fervent prayer. We felt 
+
+k2 
+
+
+
+118 JEAN MIOAULT. 
+
+that our Father had given las another token of His 
+watchful protection; and knowing that ^^Heyrds 
+on our side, and that thus we need not fear what 
+man could do to us/' we determined to persevere in 
+our efforts to get away from our unfortunate country. 
+
+My six children remained with the aged gentle- 
+man so often mentioned, while I immediately took 
+up my residence at Rochelle, from whence I weot 
+twice to Mauz^ to visit your grandmother, whom I 
+always found unshaken in her resolution to remain 
+in France. Time passed on without our beholding 
+the smallest opening for the execution of our pro- 
+ject ; and although M. Meneguerre and I made a 
+voyage to the isle of Rhe in the course of February, 
+we did not succeed in engaging a vessel. 
+
+About this time, I was subjected to a new trial. 
+I received information that M. Massiot, commissary 
+of the Marine, whose residence, de la Mothe, is situ- 
+ated not far from Rochelle, having heard that the 
+children were hid in the house of our friend, had 
+sent him an absolute and positive order to turn 
+them from his door ; adding that if he did not give 
+immediate obedience to this mandate, he should 
+speedily find himself without house or home. The 
+good man received the intimation with great sorrow, 
+although he had still hopes of being able to procure 
+an apartment for his young guests in the dwelling 
+of a Roman Catholic who was under obligations to 
+
+
+
+JEAN MIGAULT. 119 
+
+him at the village of La Valine. There was no 
+time to lose. We went at once to La Valine, where 
+the man consented to receive the whole of us; and 
+I now dwelt under the same roof with my children, 
+and had, besides, almost every day the happiness of 
+receiving some of our brethren, who sought to escape 
+from the cruelty of the Intendant of Poitou, as he, 
+by the hand of the executioner and the sabres of 
+the dragoons, spread desolation and death through 
+all his province. Among the number of those who 
+perished on the scaffold at St Maixent were our 
+good and unfortunate friends, Thomas March^, 
+Jaques Gu^rin, and Pierre Rousseau. At Grand- 
+Ry, the Intendant, putting himself at the head of 
+the dragoons — these tigers athirst for blood — sur- 
+prised and charged an assembly of seven or eight 
+hundred persons, who, one Sunday morning, had 
+assembled in a remote field for the purpose of sing- 
+ing the praises of God. 
+
+The procuration which Madame de Miseri^ had 
+left me to attend to her affairs furnished me with a 
+plausible pretext for frequent visits to Rochelle and 
+its vicinity, while the lawsuit in which I was en- 
+gaged was of particular service in introducing me 
+to the acquaintance of individuals who afterwards 
+aided me in my escape. There were also, at that 
+time, many persons engaged as secret but very ac- 
+tive agents of the Protestants, who made a lucra-i 
+
+
+
+1 20 JEAN MIOAULT. 
+
+tiye trade in engaging passages for those wishing to 
+quit the country. A day seldom passed, during the 
+last two months of our residence in France, with- 
+out M. Meneguerre or I having sums of money to 
+pay to one or other of these agents. 
+
+At length, the Lord, at the time appointed hy 
+His own mercy, heard our prayer, and employed for 
+our deliverance the same person who had procured 
+for us the first ship, and whom I have hitherto de- 
+nominated our guide. He had heen urging me, 
+without ceasing, to hold myself ready for my depar- 
+ture, assuring me that he had found an especially 
+good opportunity for himself, and that, other means 
+failing, he would feel pleasure in receiving me and 
+family on hoard his own vessel. 
+
+On the 16 th April, Easter Sunday, I was gent- 
+ly aroused before daybreak by a young man, a 
+stranger to me, who informed me that he came on 
+the part of three ladies, my friends, whom he named, 
+to request me to meet with them as secretly as pos- 
+sible, in a room which they had hired for the pur- 
+pose, where they desired to have divine service ; 
+adding that they hoped I would not refuse to act as 
+clerk. Dressing myself instantly, I followed this 
+messenger towards the house of which he had 
+spoken, and where I found the three ladies, as well 
+as many other persons who, like myself, had been 
+informed of their pious intention. We immediately 
+
+
+
+JEAN MIGAULT. 121 
+
+engaged in prayer and reading of the Holy Scrip- 
+tures. The service was arranged in accordance 
+with the rites of the French Reformed Churches ; 
+and, to my surprise, the young man delivered two 
+admirable sermons. We felt as though a sweet and 
+comforting dew was descending upon our souls ; 
+and from what I saw of those around me, I was 
+convinced that there was not one present whose 
+heart did not realise the touching words of our Di- 
+vine Saviour, " Where two or three are met toge- 
+ther in my name, there am I in the midst of them/' 
+I returned to my children in the evening, thanking 
+God by the way, and beseeching Him speedily to 
+permit me and mine publicly to worship Him and 
+to praise His holy name without fear and without 
+trouble. 
+
+Next day I went to Rochelle for the last time. 
+When near the city, I met M. Cavat and M. Mene- 
+guerre, who invited me to go with them, as they 
+were waiting the arrival of our guide, who had 
+some news to communicate to them. He joined 
+us in half an hour, and asked us to breakfast with 
+him ; and when we were in his house, he spoke to 
+us in general terms of our approaching emancipa- 
+tion, but without entering into details. After 
+breakfast he desired us to follow him, at some dis- 
+tance. We saw him enter one house and then 
+another, and another, imtil it was two o'clock in 
+
+
+
+122 JEAN MIOAULT. 
+
+the afternoon. At length we learned that, by the 
+goodness of God, all was ready, and that we were 
+to prepare for embarkation that night ! 
+
+This communication embarrassed me considerably, 
+for it was late, and my children were at a distance 
+from me. But the rendezvous being fixed at the 
+same place as formerly, I went to find Jeanne, who 
+lived with a lady in the city, and directed her to go 
+with all speed to La Valine, and prepare every thing 
+for the departure of her brothers and sisters, it being 
+impossible for me to go myself, as I had indispen- 
+sable business to arrange with a person of my ac- 
+quaintance. Jeanne arrived at La Valine about four 
+o'clock, and when I found myself at liberty I fol- 
+lowed her thither. Before I reached the village, 
+however, Isabelle, Anne, Marie, and Olivier, had 
+departed on their journey on foot, accompanied by 
+a youth of the hamlet, who had kindly offered 
+to be their guide, and even occasionally to carry 
+Olivier, he not being yet strong enough to walk 
+two leagues. 
+
+No circumstance could have better favoured our 
+scheme than the celebration of the feasts of Easter ; 
+as, the roads being crowded with people, it was 
+almost impossible that our flight could be remarked, 
+or that the entry of my children into Rochelle could 
+excite the smallest suspicion. Next day was a 
+festival which every one observed, and it appeared 
+
+
+
+JEAN MIOAULT. 123 
+
+quite natural that all should go to the city to pre- 
+pare for its celebration. 
+
+It was five o'clock when I arrived at La Valine, 
+where I found Pierre expecting me. We there also 
+met with two persons who had not succeeded in 
+embarking on the 16th January preceding, and who 
+had remained ever since concealed in this village. 
+Both of these were heads of large families, the one 
+consisting of eight, and the other of ten persons, all 
+of whom had sailed ; but I have told you enough 
+of this frightful persecution to show you how easily 
+such afflicting separations could occur. My first 
+care, on arriving, was to ofi^er them the opportunity 
+of recovering their liberty, and this offer was em- 
+braced with transports of joy, especially as, since 
+the departure of their families, three months be- 
+fore, they had heard no news of them. I now 
+quitted Jeanne, after giving her the necessary di- 
+rections for the sale of our household furniture, part 
+of which was to be disposed of at Grand Breuil, 
+and the remainder at adjoining places. It was not 
+without a feeling of the deepest sorrow that I parted 
+from this excellent and dutiful child, but circum- 
+stances compelled me to the step, and I was com- 
+forted by the hope of her soon joining us, and by 
+the knowledge that I was leaving her in the best 
+of hands. 
+
+Pierre and I next commenced our flight from 
+
+
+
+1 24 JEAN MIGAULT. 
+
+La Valine, and at sunset we found ourselyes at the 
+chateau of Pampin, near to which we overtook 
+Anne and the other children, along with their young 
+guide. The little party, coming to a place where 
+the road divided into four hranches, and, not know- 
+ing which was their proper route, had adopted the 
+wise plan of halting till we should arrive. And 
+here it was that this good hoy, who was as pious as 
+he was intelligent, addressed me with great earnest- 
+ness, entreating me to carry him with us away from 
+France. His manners were so engaging, his language 
+was so expressive, and he urged me with so much 
+warmth, that I could not hut promise him, that if 
+there was room in the hoat he should go with us. 
+On this occasion we arrived first at Pampin, where 
+it had heen agreed that the intended emigrants 
+should assemhle in a house on the edge of the sea. 
+We had a kindly welcome. The entire company 
+soon joined us; and we had just arisen from an 
+excellent supper when it was time to go down to 
+the shore — our good friend " the guide" having 
+made his appearance with a large boat which he 
+had hired at Rochelle. All the travellers being 
+ready, the guide saw us on board the ship, and 
+there we parted from one who had acted towards us 
+so generously, and from such pure motives. May 
+the Lord recompense him ! This happy day, this 
+day of our deliverance, was the 19th April 1688. 
+
+
+
+JEAN MIGAULT. 125 
+
+Among the passengers there were, hesides our 
+own family, the two fugitives, the young hoy from 
+La ValJee, the Captain Jacat and his wife, Monsieur 
+and Madame Boutin and family, M. Deshois, 
+junior, the widow Prevereau and her daughter, 
+Madame and Mademosille de Choisy, M. Cavat 
+and his family, M. Meneguerre, Madame Bahault, 
+Ahel Bonnet and his son, Jean Dillot, Louis Chat- 
+teverre, and Jean Morins. 
+
+Our voyage was long and stormy. We lost many 
+sails and ropes ; and during two days the passen- 
+gers were much alarmed for their safety ; hut Pro- 
+vidence at last guided us to Brille in Holland, where 
+we arrived on the 8 th May, after a passage of 
+nearly three weeks. I paid twenty louis for my 
+herth in the ship, having already paid two for the 
+hoat which put us on board ; and the passage of 
+the young man whom I took with me cost me six*- 
+teen. 
+
+Next day being the Sabbath, all the emigrants 
+attended divine service in the French Protestant 
+church in Rotterdam, every one being impatient to 
+pour out his heart before God. They were now, 
+at last, in a free and Christian country 1 How 
+could they properly appreciate such a blessing ! 
+Oh ! I hope there was not a heart present that did 
+not overflow with gratitude and love ! The sermon 
+was preached by the celebrated M. Jurieu. 
+
+
+
+1 26 JEAN MIGAULT. 
+
+On the following Friday, M. Gilbert gave ns an 
+address appropriate to our circumstances; and when 
+he had ceased speaking, those among us who had 
+signed an abjuration made a public confession of 
+our sin, in presence of the Lord and of all the 
+church. 
+
+Haying been strongly advised to settle in Am- 
+sterdam, I removed with my family to that city, 
+which we reached on the 1st June. 
+
+On our arrival in Holland, I had written to 
+Jeanne by the-ship which had conveyed us thither ; 
+and my letter quickly reaching her, she decided 
+upon taking her passage on board of a large vessel 
+that left Rochelle on the very day which we settled 
+in the capital. Many kind friends hastened to 
+assist her in her preparations ; and it pleased God 
+to remove the ordinary difficulties from her path ; 
+for the vessel had fair winds and a short run, 
+making Brille in five days. Her passage cost me 
+95 livres 10 sols. 
+
+. I have now been seventeen months in Holland, 
+surrounded by the greater part of my family, and 
+in the full and peaceful enjoyment of every spi- 
+ritual blessing. I may even add, that no temporal 
+comfort would have wanted to my happiness, but 
+for 'the wandering of your brother Jean from the 
+right path, and the continued residence of your 
+grandmother in France. Gabriel pursues his pro- 
+
+
+
+JEAN MIQAULT. 1 27 
+
+fession with intelligence and success; and Philemon, 
+by his amiable character, has insured to himself 
+the esteem and protection of M. d'Olbreuze. 
+
+Oh ! my dear children, unite with me in cease- 
+less praise of that merciful Father, who has crown- 
+ed us with loving- kindness and tender mercies ! 
+You know that the love of our God, through His 
+blessed Son, is the most frequent subject of our 
+conversations together; and I would desire that 
+the perusal of each page of this narrative might 
+serve to fill you more and more with that love. 
+For what topic of greater interest can possibly oc- 
+cupy the thoughts of an intelligent being ? And 
+yet one thing I have found to be exceedingly dis- 
+tressing ; and that is, the conversation of a great 
+many of our brethren of the Reformed Church, 
+in which they either indulge in bitter invectives 
+against the government of our country, or in use- 
+less and tiresome debates on doctrinal points ; at- 
+taching to mere words an undue importance, and 
+rather extinguishing than enlivening the feeling of 
+Christian charity in their hearts. It will not be 
+asked of us, on the great day, if we have been Papists 
+or Protestants, but whether God, in Christ Jesus, 
+has been the sole object of our love ; for, though it 
+is true that all gifts, moral or intellectual, come 
+from above, still these leave us on earth, and love 
+alone goes with us to heaven, — love alone unites us 
+
+
+
+128 JEAN MIOAULT. 
+
+to God. No one was ever more submissive to 
+this divine principle than your late mother. She 
+was, under every circumstance, my help and coun- 
+sellor ; but above all, when the furious persecution 
+raged around us. " These things," she would say, 
+" are hard to bear ; but why should we sorrow, as 
+those who have no hope ? Never doubt that the 
+shield of the Almighty is extended over us. No- 
+thing can happen to us except what His wisdom 
+knows to be for our good ; and although we may 
+not now see the blessing that there is in all his 
+providences, we shall see it another day. We 
+love God, and He will never forsake us. Have not 
+Pierre and I been preserved, because we are the 
+objects of his constant solicitude ? — Yes ! my dear 
+husband, I know that, at heart, you would not 
+change your condition with that of the King of 
+France; for you love rather to be the oppressed 
+than the oppressor ; and while you already possess 
+a foretaste of that inheritance incorruptible, unde- 
+filed, and that fadeth* not away, our unhappy King, 
+you may be sure, is a prey to remorse and sorrow. 
+There is no peace for the wicked, and how can he 
+be happy? We ought rather to be inspired by 
+compassion than resentment towards him; and, 
+indeed, we cannot be too thankful that the sun has 
+never gone down upon our wrath, but that we have 
+always been able sincerely to pray the Lord that a 
+
+
+
+JEAN MIGAULT. 129 
+
+true and pious repentance may arrest him in his 
+criminal career, and that he yet may reign in peace 
+and prosperity. Unfortunate Prince ! he has heen 
+all his life tormented by blind ambition and head- 
+long desires ; these have been satisfied, and now he 
+is wearied out by enjoyment." 
+
+My dear children, may the love of God in our 
+blessed Saviour save you from experiencing the 
+bitter anguish attending the commission of sin, — 
+the greatest of all evils, — and render you happy in 
+every condition of life. May each of you know that 
+love as a healing balm, which shall allay the pains 
+of this short life, and render you superior to what 
+men call, with so little truth — ^not to say with so 
+much impiety — Fortune. 
+
+
+
+Jean Mioault. 
+
+
+
+Amsterdam, September 1689. 
+
+
+
+THE END. 
+
+
+
+Ck)mme le tourbillon passe, 
+Ainsi des mechaus perdus 
+L*6clat s^eteint et s^efface, 
+Et les projets ne sont plus, 
+lis pr^f^raient le mensonge 
+D'un brillant mais triste songe 
+Aux paroles du Seigneur! 
+Le fruit de leurs injustices 
+C^est du remords de leurs yices 
+K^pouvantable terreur. 
+
+Cependant rhomme fiddle, 
+De ce d^sastre temoin, 
+A suiyre Christ ayec zele, 
+Met son 6tude et son soin. 
+L^Etemel le fortifie, 
+Sur sa parole 11 s^appule, 
+II se fonde, et ne craint rien : 
+Et dans sa plus dure peine 
+Une esp6rance certaine 
+Est son paisible soutien. 
+
+
+
+Xbsar Malan. 
+
+
+
+■BIITBUSOH : 
+PRIRTIO BT JOHMSTOn AND HURTIB, HIOH STRUT. 
+
+
+
+t. ■ ■ 
+
+
+
+r 
+
+
+
+I 
+
+
+
+V 
+
+
+
+*-l,. 
+
+
+

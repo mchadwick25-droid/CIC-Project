@@ -1,0 +1,29 @@
+source_file: aquino-de-belen_pasyon-and-manga-panalangin-tgl_manila1760.txt
+assignments:
+- row_id: aquino-de-belen_pasyon-and-manga-panalangin-tgl_manila1760--aquino-de-belen-pasyon
+  work: Manga Panalanging Pagtatagobilin sa Caloloua and the Tagalog verse Passion (Manila 1760, fifth
+    edition)
+  author: aquino-de-belen
+  locus: Spanish approbation from file line 314; the verse Passion ('Pafsiong') from about line 7133;
+    'LAVS DEO' at 16277
+  atlas_ids:
+  - philippine-catholicism-era-8
+  role: tradition
+  confidence: assigned
+  note: 'The earliest surviving Tagalog pasyon in its printed form (poem first printed 1704, this is the
+    1760 print), the home-chanted Passion the census names as the Spanish-era Philippines'' inside voice.
+    Second witness: the OCR reads long s as f and is garbled, not quotable from this file alone. A clean
+    scan of any printing is wanted.'
+- row_id: aquino-de-belen_pasyon-and-manga-panalangin-tgl_manila1760--aquino-de-belen-pasyon-2
+  work: Manga Panalanging Pagtatagobilin sa Caloloua and the Tagalog verse Passion (Manila 1760, fifth
+    edition)
+  author: aquino-de-belen
+  locus: Spanish approbation from file line 314; the verse Passion ('Pafsiong') from about line 7133;
+    'LAVS DEO' at 16277
+  atlas_ids:
+  - philippine-catholicism
+  role: context
+  confidence: needs-ruling
+  note: The census says the 1565-1650 account rests on devotional practice, not on this text, which is
+    dated after the window. Whether a later pasyon print may stand as context for the earlier entry is
+    a ruling for Mark.

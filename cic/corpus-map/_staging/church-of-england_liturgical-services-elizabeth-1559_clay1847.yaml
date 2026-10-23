@@ -1,0 +1,77 @@
+source_file: church-of-england_liturgical-services-elizabeth-1559_clay1847.txt
+
+assignments:
+  - row_id: church-of-england_liturgical-services-elizabeth-1559_clay1847--the-book-of-common-prayer-1559-with-the-litany-and-the-ordinal
+    work: "The Book of Common Prayer (1559), with the Litany and Suffrages (1559) and the Form and Manner of making Bishops, Priests and Deacons (1559)"
+    author: church-of-england
+    locus: "Litany from file line 1593 (heading 'THE LITANY AND SUFFRAGES'); the 1559 Prayer Book follows, its own table of contents at line 2660; the Ordinal's 'The form of ordering Priests' at line 17772; the Latin Liber Precum Publicarum (1560) occupies the middle of the file (Latin running text at the 50 per cent sample, about line 22559)"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The Elizabethan Settlement's own book, the text every parish in England was
+      bound to from 1559 to 1645, in the Parker Society's modernised-spelling text
+      with Clay's variants. Primary voice, ready to quote once verified against this
+      file. The Latin Liber Precum of 1560 (for the universities) is a Latin primary
+      beside it.
+
+  - row_id: church-of-england_liturgical-services-elizabeth-1559_clay1847--occasional-forms-of-prayer-1560-1602
+    work: "Occasional Forms of Prayer and Thanksgiving issued in the reign of Elizabeth, 1560-1602 (plague fasts, the Armada prayers of 1588, Accession Day and others)"
+    author: church-of-england
+    locus: "the last third of the file; the edition's list of the forms is in the contents (lines 103 to 215); the 1588 forms are listed at contents lines 198 to 201; 'An order for morning prayer, to be vsed the 17. of Nouember' (Accession Day) at line 37319"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The prayers ordered for plague, dearth, war and thanksgiving, the state
+      church speaking to ordinary parishes in a crisis year. Primary voice, ready to
+      quote once verified against this file; these forms are printed in their
+      original spelling, unlike the Prayer Book above.
+
+  - row_id: church-of-england_liturgical-services-elizabeth-1559_clay1847--the-book-of-common-prayer-1559-with-the-litany-and-the-ordinal-2
+    work: "The Book of Common Prayer (1559), with the Litany and Suffrages (1559) and the Form and Manner of making Bishops, Priests and Deacons (1559)"
+    author: church-of-england
+    locus: "as above: Litany from file line 1593, the 1559 book following, the Ordinal's 'The form of ordering Priests' at line 17772"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      The book the godly conformed to under protest and the Admonition to the
+      Parliament (1572) attacked line by line; its surplice, cross in baptism and
+      ring in marriage are the vestiarian and ceremonial quarrels' object. Placed as
+      the contemporary opponent's own text; provisional because the Puritan world's
+      own vendored sources do not yet exist to show how they read it.
+
+  - row_id: church-of-england_liturgical-services-elizabeth-1559_clay1847--the-book-of-common-prayer-1559-with-the-litany-and-the-ordinal-3
+    work: "The Book of Common Prayer (1559), with the Litany and Suffrages (1559) and the Form and Manner of making Bishops, Priests and Deacons (1559)"
+    author: church-of-england
+    locus: "as above: Litany from file line 1593, the 1559 book following, the Ordinal's 'The form of ordering Priests' at line 17772"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: context
+    confidence: provisional
+    note: >
+      The service recusants were fined for not attending; the Litany's own
+      petition "from all sedition, privy conspiracy and rebellion" and the state
+      prayers are what church papists heard and recusants refused. Placed as the
+      opponent-establishment's text; provisional, placed on window and place
+      without the recusant world's own sources to read against.
+
+  - row_id: church-of-england_liturgical-services-elizabeth-1559_clay1847--the-book-of-common-prayer-1559-puritanism
+    work: The Book of Common Prayer (1559), with the Litany and the Ordinal
+    author: church-of-england
+    locus: 'as the VI.4 row: Litany from file line 1593, the 1559 Prayer Book from its contents at line
+      2660, the Ordinal at line 17772'
+    atlas_ids:
+    - puritanism
+    role: context
+    confidence: provisional
+    note: 'The book the Admonition''s View of Popish Abuses attacks clause by clause (admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt)
+      and the Westminster Directory of 1645 replaced. Placed as the opposed text; provisional because the
+      Puritan objections were not matched to the book''s own wording this pass. Cross-link tier: same time
+      and place.
+
+      '

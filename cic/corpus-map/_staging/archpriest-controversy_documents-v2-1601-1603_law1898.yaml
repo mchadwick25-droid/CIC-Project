@@ -1,0 +1,49 @@
+source_file: archpriest-controversy_documents-v2-1601-1603_law1898.txt
+
+assignments:
+  - row_id: archpriest-controversy_documents-v2-1601-1603_law1898--the-archpriest-controversy-vol-ii-mush-s-diary-of-the-appellants-affai
+    work: "The Archpriest Controversy, Vol. II: Mush's diary of the Appellants' affairs at Rome (1602) and the two other English narratives"
+    author: mush-john
+    locus: "group I from about file line 1613 (MUSH'S DIARY) to the Brevis Relatio at about 3149"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      John Mush, the author of the Life of Margaret Clitherow already vendored,
+      keeping a day-book of the appeal at Rome: audiences, cardinals, Parsons'
+      manoeuvres, the sentence. A first-person inside narrative by a named secular
+      priest; the author slug matches the Clitherow life's slug in the Morris
+      Third Series staging. Primary voice, clean OCR, ready to quote once verified
+      against this file.
+  - row_id: archpriest-controversy_documents-v2-1601-1603_law1898--the-archpriest-controversy-vol-ii-the-brevis-relatio-and-the-latin-and
+    work: "The Archpriest Controversy, Vol. II: the Brevis Relatio and the Latin and Italian memorials of 1602 (the Appellants' case, Parsons' responses, the Declaratio status Catholicorum in Anglia, the memorials on liberty of conscience, the papal sentence on schism)"
+    author: archpriest-controversy
+    locus: "group II from about file line 3149 to the letters at about 8064"
+    atlas_ids:
+      - recusant-english-catholicism
+      - the-society-of-jesus
+    role: tradition
+    confidence: provisional
+    note: >
+      Both parties stating their case to Rome in Latin and Italian: the seculars'
+      account of the mission since 1587 and their plea for a bishop and for
+      liberty of conscience, Parsons' answers, the Inquisition's sentence.
+      Original-language primary documents with Law's English headings only; a
+      quote record would hold the Latin. Provisional on the Society of Jesus side,
+      as in vol. I. Clean OCR.
+  - row_id: archpriest-controversy_documents-v2-1601-1603_law1898--the-archpriest-controversy-vol-ii-letters-and-memorials-1601-1603-with
+    work: "The Archpriest Controversy, Vol. II: letters and memorials 1601-1603, with the Protestations of Allegiance of January 1603"
+    author: archpriest-controversy
+    locus: "group III from about file line 8064 to the Index; the Protestations of Allegiance are the last document (no. 33)"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      The quarrel's end: the letter of expostulation to Blackwell, the Appellants'
+      letters to the Bishop of London, Garnet's circular, and the thirteen
+      priests' Protestation of Allegiance to Elizabeth, the first formal Catholic
+      separation of civil loyalty from religion. The state's letters (Sir Robert
+      Cecil's) are the persecutor's side within the same group. Primary voice,
+      clean OCR.

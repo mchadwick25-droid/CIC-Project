@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Go deeper — Church in Conversation</title>
+<title>Get more conversations — Church in Conversation</title>
 <meta name="description" content="How a code lets a conversation carry on past its free part, and what happens to your payment and your words.">
-<meta property="og:title" content="Go deeper — Church in Conversation">
+<meta property="og:title" content="Get more conversations — Church in Conversation">
 <meta property="og:description" content="How a code lets a conversation carry on past its free part, and what happens to your payment and your words.">
 <meta name="robots" content="noindex">
 <meta property="og:type" content="website">
@@ -22,6 +22,13 @@
 <link rel="stylesheet" href="assets/style.css">
 <style>
 .fine-print{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;color:#B8AEA1}
+.pack-list{list-style:none;margin:0 0 1rem;padding:0;display:grid;gap:.8rem}
+.pack[hidden]{display:none}
+.pack{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.8rem;padding:1rem;border:1px solid rgba(241,233,221,.24);border-radius:6px;background:#1E1913;min-width:0}
+.pack-figures{display:flex;flex-direction:column;gap:.1rem}
+.pack-price{font-size:1.5rem;font-weight:700}
+.pack-size{font-family:'Alegreya Sans',sans-serif}
+@media (min-width:46rem){.pack-list{grid-template-columns:repeat(3,minmax(0,1fr))}.pack{flex-direction:column;align-items:stretch;justify-content:flex-start}}
 .code-list{list-style:none;margin:1.2rem 0;padding:0;display:grid;gap:.8rem}
 .code-list li{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem;min-width:0}
 .code-value{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:1.25rem;letter-spacing:.08em;overflow-wrap:anywhere}
@@ -64,60 +71,67 @@
 
 <main id="main">
   <section class="hero" style="padding-bottom:1rem;">
-    <p class="eyebrow">Go deeper</p>
+    <p class="eyebrow">Get more conversations</p>
     <h1>Keep a conversation going</h1>
-    <p>Every conversation here starts free. Everyone gets <span data-ops="free-tokens">550</span> free tokens each month. That is about <span data-ops="free-short-count">five</span> conversations of <span data-ops="example-rounds">three</span> rounds, or <span data-ops="free-long-count">two</span> of <span data-ops="free-long-rounds">seven</span>. When the free part ends, tokens let you carry on in the same conversation.</p>
-  </section>
-
-  <section class="page-section" id="how">
-    <p class="eyebrow">How it works</p>
-    <h2>Pay, get a code, use it</h2>
-    <p>You pay on Stripe's own pages. We never see your card details.</p>
-    <p>Stripe then sends you back here, and the next page shows your code.</p>
-    <p>In a conversation, open Go deeper beside the message box and enter your code. The conversation carries on from where it stopped.</p>
-  </section>
-
-  <section class="page-section" id="what-a-code-holds">
-    <p class="eyebrow">What tokens pay for</p>
-    <h2>Each new conversation and each round</h2>
-    <p>A new conversation uses <span data-ops="solo-open">50</span> tokens. Each round, one question from you and one answer, uses <span data-ops="solo-round">20</span> tokens, or <span data-ops="solo-round-later">25</span> after the third round. A Table uses more, by the number of voices. We show how many tokens you have left beside the message box.</p>
-  </section>
-
-  <section class="page-section" id="packs">
-    <p class="eyebrow">Three packs</p>
-    <h2>Choose how many tokens</h2>
-    <ul>
-      <li>$<span data-ops="pack-1-price">7</span>: <span data-ops="pack-1-tokens">1,100</span> tokens, about ten conversations of <span data-ops="example-rounds">three</span> rounds</li>
-      <li>$<span data-ops="pack-2-price">15</span>: <span data-ops="pack-2-tokens">2,750</span> tokens, about twenty-five</li>
-      <li>$<span data-ops="pack-3-price">30</span>: <span data-ops="pack-3-tokens">6,600</span> tokens, about sixty</li>
-    </ul>
-    <p>Stripe shows the amount before you pay.</p>
-  </section>
-
-  <section class="page-section" id="keep-it-safe">
-    <p class="eyebrow">Keep it safe</p>
-    <h2>A code works for whoever holds it</h2>
-    <p>A code is not tied to you or to your device. Anyone who has it can use it, so keep it as you would keep cash. If you lose it, we cannot find it again.</p>
-  </section>
-
-  <section class="page-section" id="kept-apart">
-    <p class="eyebrow">Kept apart</p>
-    <h2>What you say stays separate from what you paid</h2>
-    <p>Stripe knows who paid. What you say in a conversation is never stored with your code or your payment.</p>
+    <p>Tokens pay for each new conversation and each reply. Pick a pack, pay on Stripe, and come straight back.</p>
   </section>
 
   <section class="page-section" id="buy">
-    <h2>Get a code</h2>
     <div class="state" id="state-open" hidden>
-      <div class="hero-actions" style="margin:1.2rem 0 1rem;">
-        <button type="button" class="btn primary" id="buy-button">Get a code on Stripe</button>
-      </div>
-      <p class="fine-print">You will leave this site to pay. Stripe shows the amount before you pay.</p>
+      <ul class="pack-list">
+        <li class="pack" hidden>
+          <div class="pack-figures" id="pack-1-figures">
+            <span class="pack-price">$<span data-ops="pack-1-price">7.00</span></span>
+            <span class="pack-size">More conversations: <span data-ops="pack-1-tokens">1,100</span> tokens</span>
+          </div>
+          <button type="button" class="btn primary" id="buy-pack-1" aria-labelledby="buy-pack-1 pack-1-figures" hidden>Choose</button>
+        </li>
+        <li class="pack" hidden>
+          <div class="pack-figures" id="pack-2-figures">
+            <span class="pack-price">$<span data-ops="pack-2-price">15.00</span></span>
+            <span class="pack-size">More conversations: <span data-ops="pack-2-tokens">2,750</span> tokens</span>
+          </div>
+          <button type="button" class="btn primary" id="buy-pack-2" aria-labelledby="buy-pack-2 pack-2-figures" hidden>Choose</button>
+        </li>
+        <li class="pack" hidden>
+          <div class="pack-figures" id="pack-3-figures">
+            <span class="pack-price">$<span data-ops="pack-3-price">30.00</span></span>
+            <span class="pack-size">More conversations: <span data-ops="pack-3-tokens">6,600</span> tokens</span>
+          </div>
+          <button type="button" class="btn primary" id="buy-pack-3" aria-labelledby="buy-pack-3 pack-3-figures" hidden>Choose</button>
+        </li>
+      </ul>
+      <p><span data-ops="solo-open">50</span> tokens launch a new conversation, <span data-ops="solo-round">20</span> to <span data-ops="solo-round-later">25</span> for each question.</p>
+      <p class="fine-print">By paying you confirm you are 18 or over. You pay on Stripe's own page, and Stripe shows the amount first. We never see your card.</p>
     </div>
     <div class="state" id="state-closed">
       <p>Codes are not on sale yet.</p>
     </div>
     <noscript><p class="fine-print">Getting a code needs JavaScript.</p></noscript>
+  </section>
+
+  <section class="page-section" id="how">
+    <p class="eyebrow">How it works</p>
+    <h2>Pay, and carry on</h2>
+    <p>A new conversation uses <span data-ops="solo-open">50</span> tokens. Each reply uses <span data-ops="solo-round">20</span>, or <span data-ops="solo-round-later">25</span> after the third. A Table uses more, by the number of voices. The count sits above the conversation, and it comes down as you go.</p>
+    <p>Without an account, your tokens are saved in this browser. To use them on another device, open Get more conversations in the room and choose Show my code. With an account, your home holds them on every device.</p>
+  </section>
+
+  <section class="page-section" id="free">
+    <p class="eyebrow">Free to start</p>
+    <h2><span data-ops="free-tokens">550</span> free tokens every 30 days</h2>
+    <p>Every conversation starts free. <span data-ops="solo-open">50</span> tokens launch a new conversation, <span data-ops="solo-round">20</span> to <span data-ops="solo-round-later">25</span> go on each question. When the free tokens run out, tokens you buy carry on in the same room.</p>
+  </section>
+
+  <section class="page-section" id="have-a-code">
+    <p class="eyebrow">Already have a code?</p>
+    <p>A code from a sponsor or the pilot goes in the room: open Get more conversations and choose I have a code.</p>
+  </section>
+
+  <section class="page-section" id="kept-apart">
+    <p class="eyebrow">Kept apart</p>
+    <h2>What you say stays separate from what you paid</h2>
+    <p>Stripe knows who paid. What you say in a conversation is never stored with your payment. Without an account, it is never stored with your code either.</p>
   </section>
 </main>
 
@@ -137,20 +151,30 @@
 <script>
 (function(){
 "use strict";
-// The Stripe Payment Link for a code is set here when sales open.
-var PAYMENT_LINK = "";
-var button = document.getElementById('buy-button');
-if (PAYMENT_LINK && button) {
+// Each pack's Stripe Payment Link (https://buy.stripe.com/...) is set here when sales open.
+// A pack with an empty link is not shown; the page stays closed until one link is set.
+var PAYMENT_LINKS = {"1": "", "2": "", "3": ""};
+var anyOpen = false;
+function startPurchase(link){
+  window.GoDeeper.startPurchase(link, {
+    crypto: window.crypto,
+    storage: window.localStorage,
+    now: function(){ return Date.now(); },
+    go: function(url){ window.location.href = url; }
+  });
+}
+Object.keys(PAYMENT_LINKS).forEach(function(pack){
+  var link = PAYMENT_LINKS[pack];
+  var button = document.getElementById('buy-pack-' + pack);
+  if (!link || !button) return;
+  anyOpen = true;
+  button.hidden = false;
+  button.parentNode.hidden = false;
+  button.addEventListener('click', function(){ startPurchase(link); });
+});
+if (anyOpen) {
   document.getElementById('state-open').hidden = false;
   document.getElementById('state-closed').hidden = true;
-  button.addEventListener('click', function(){
-    window.GoDeeper.startPurchase(PAYMENT_LINK, {
-      crypto: window.crypto,
-      storage: window.localStorage,
-      now: function(){ return Date.now(); },
-      go: function(url){ window.location.href = url; }
-    });
-  });
 }
 })();
 </script>

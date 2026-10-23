@@ -70,7 +70,7 @@ def main(argv: list[str] | None = None) -> int:
     print(f"{result.month} {result.route}: {result.calls} calls, {result.unpriced_calls} unpriced")
     print(f"list price ${result.list_dollars:.2f}, route price ${result.route_dollars:.2f}, invoice ${result.invoice_dollars:.2f}")
     if result.list_factor is not None:
-        print(f"invoice / list price = {result.list_factor:.3f}  (the door's invoice factor is compared with this)")
+        print(f"invoice / list price = {result.list_factor:.3f}")
     if result.route_factor is not None:
         print(f"invoice / route price = {result.route_factor:.3f}")
     print("WITHIN TOLERANCE" if result.within_tolerance else "OUT OF TOLERANCE - the price table or the factor needs a decision")

@@ -1,0 +1,41 @@
+source_file: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707.txt
+
+assignments:
+  - row_id: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--narratio-de-vita-studiis-gestis-et-martyrio-cyrilli-lucarii
+    work: "Narratio de vita, studiis, gestis et martyrio Cyrilli Lucarii (Smith's Latin life of Cyril Lucaris), with the tracts De veteris Graecae Ecclesiae hymnis and Theologica de causis remediisque dissidiorum"
+    author: smith-thomas
+    locus: "preface from about file line 410; the Narratio under its running head from about line 1367 to 4404; 'De veteris Graecae Ecclesiae hymnis' from about 7004; the tract on dissensions from about 8647"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: assigned
+    note: >
+      An Oxford divine's Latin life of Lucaris, the fuller original behind the English account
+      in his 1680 volume (vendored). Outside Anglican voice. SECOND WITNESS: Latin readable
+      with long-s and ligature errors; engraved title page and contents list are OCR noise.
+  - row_id: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--appendix-letters-and-papers-of-cyril-lucaris-with-ottoman-command
+    work: "Appendix: letters and papers of Cyril Lucaris in Latin, with an Italian 'Instruttione' and a 'Comandamento' (an Ottoman command concerning the Patriarch) in Italian"
+    author: lucaris
+    locus: "Appendix from about file line 4405 to about 7003; 'INSTRUTTIONE' at about 5796; 'COMANDAMENTO' at about 6797 with 'Turcarum' at 6832"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      Lucaris's own letters as Smith collected them, in Latin, with the Ottoman and Western
+      papers of his case: the one place in the corpus where the sultan's own bureaucracy
+      speaks about the Patriarch (the 'Comandamento'). Overlaps Aymon's 1718 Lettres
+      anecdotes (vendored) but is an earlier and separate collection. Second witness for scan
+      quality; Latin and Italian only, the Greek not recovered by the OCR.
+  - row_id: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--appendix-letters-and-papers-of-cyril-lucaris-with-ottoman-command-2
+    work: "Appendix: letters and papers of Cyril Lucaris in Latin, with an Italian 'Instruttione' and a 'Comandamento' (an Ottoman command concerning the Patriarch) in Italian"
+    author: lucaris
+    locus: "Appendix from about file line 4405 to about 7003"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      Placed beside Aymon's edition of Lucaris's letters on the same footing: the Patriarch's
+      correspondence with the Reformed West; whether Lucaris was a Calvinist is disputed. Not
+      read letter by letter for this placement.

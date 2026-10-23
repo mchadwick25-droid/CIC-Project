@@ -19,3 +19,16 @@ assignments:
       external narrative, not the Tridentine church's own institutional
       voice (per this world's own Source Readiness Dossier §3-4, which
       flags this distinction explicitly).
+
+  - row_id: sarpi_history-of-the-council-of-trent_brent1676--servetus-mentions
+    work: 'The History of the Council of Trent (Sarpi): two mentions of Servetus'
+    author: sarpi
+    locus: file lines 37982 and 84285
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: 'Two passing mentions of Michael Servetus; not read beyond the lines named. Offered only as a
+      record of what the file contains.
+
+      '

@@ -1,0 +1,56 @@
+source_file: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt
+assignments:
+- row_id: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911--formula-of-concord-article-xii-schwenckfeldians
+  work: The Formula of Concord, Article XII (Epitome and Solid Declaration), the Erroneous Articles of
+    the Schwenckfeldians
+  author: book-of-concord
+  locus: Epitome Chapter XII from file line 27704, Anabaptists 27717, Schwenckfeldians 27839; Solid Declaration
+    Chapter XII from 35372, Schwenckfeldians 35534, New Arians 35577; Jacobs's analysis of the article
+    at about 37403
+  atlas_ids:
+  - schwenckfelders
+  role: context
+  confidence: assigned
+  note: 'The hostile contemporary witness: Lutheran condemnation of Schwenckfeld''s Christology and his
+    view of the Word and sacraments, in Jacobs''s 1911 English. Read at the article. English only; German
+    and Latin are in the Concordia Triglotta (1921), not vendored.'
+- row_id: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911--book-of-concord-whole-volume
+  work: 'The Book of Concord (Jacobs 1911): Creeds, Augsburg Confession, Apology, Smalcald Articles, Catechisms,
+    Formula of Concord'
+  author: book-of-concord
+  locus: Part I Creeds from file line 1160; Part II Augsburg Confession 1374; Apology 3270; Part IV Smalcald
+    Articles 15675; Part V Small Catechism 18375; Large Catechism 19583; Formula of Concord Epitome 25352,
+    Solid Declaration 25403; Part VIII analyses and indexes 35627
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: tradition
+  confidence: assigned
+  note: The Lutheran confessional corpus in one English volume; a second expression of the Augsburg Confession,
+    Apology and the two Catechisms already vendored, and the corpus's only text of the Smalcald Articles
+    and the Formula of Concord. English only.
+- row_id: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911--formula-of-concord-article-xii-anabaptists
+  work: The Formula of Concord, Article XII, the Erroneous Articles of the Anabaptists
+  author: book-of-concord
+  locus: Epitome Chapter XII Anabaptists from file line 27717; Solid Declaration Chapter XII from 35372
+  atlas_ids:
+  - the-anabaptist-movements
+  role: context
+  confidence: assigned
+  note: Lutheran confessional condemnation of the Anabaptists, the hostile contemporary frame for the
+    movement; read at the article.
+
+- row_id: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911--augsburg-confession-uppsala-1593
+  work: The Augsburg Confession in Jacobs's 1911 Book of Concord (Part II), the confession the Uppsala
+    Synod of 1593 adopted
+  author: book-of-concord
+  locus: Part II Augsburg Confession from file line 1374; the Apology from line 3270
+  atlas_ids:
+  - scandinavian-reformation-kingdoms
+  role: antecedent
+  confidence: provisional
+  note: 'A second English expression of the confession the Swedish church adopted in 1593 and the Danish
+    ordinance of 1537 presupposes. The rest of the Concordia (the Formula of 1577) was adopted in Sweden
+    only in 1663 and 1686, after this window, per Bensow''s note. Only Part II and the Apology are antecedent
+    to this entry.
+
+    '

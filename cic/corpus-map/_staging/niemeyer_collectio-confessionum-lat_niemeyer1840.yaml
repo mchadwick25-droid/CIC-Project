@@ -1,0 +1,136 @@
+source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+
+assignments:
+  - row_id: "niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-bohemica-of-1535-the-confession-of-the-bohemian-ba"
+    work: "Confessio Bohemica of 1535, the confession of the Bohemian barons and nobles to King Ferdinand (Additamentum 2)"
+    author: niemeyer
+    locus: "from about file line 47952 (preface to Ferdinand from about 47917; running head 'Confessio Bohoemica'), to about line 49850"
+    atlas_ids:
+      - czech-churches-last-century
+    role: tradition
+    confidence: assigned
+    note: "The Brethren-led Bohemian confession of 1535 in Latin, in Niemeyer's 1840 collection. Niemeyer's own note (file line 4067) records that it was sent to Wittenberg and approved by Luther, Melanchthon and others, so it also bears on the Lutheran world. Second witness for now, not quotable: the Latin OCR has systematic letter misreads (Bohoemica for Bohemica). Check every wording against the page image."
+
+  - row_id: "niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-bohemica-of-1535-the-confession-of-the-bohemian-ba-2"
+    work: "Confessio Bohemica of 1535, the confession of the Bohemian barons and nobles to King Ferdinand (Additamentum 2)"
+    author: niemeyer
+    locus: "from about file line 47952 (preface to Ferdinand from about 47917; running head 'Confessio Bohoemica'), to about line 49850"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: context
+    confidence: provisional
+    note: "The Brethren-led Bohemian confession of 1535 in Latin, in Niemeyer's 1840 collection. Niemeyer's own note (file line 4067) records that it was sent to Wittenberg and approved by Luther, Melanchthon and others, so it also bears on the Lutheran world. Second witness for now, not quotable: the Latin OCR has systematic letter misreads (Bohoemica for Bohemica). Check every wording against the page image."
+
+  - row_id: "niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-bohemica-of-1575-latin-frankfurt-1619-printing-add"
+    work: "Confessio Bohemica of 1575 (Latin, Frankfurt 1619 printing; Additamentum 3)"
+    author: niemeyer
+    locus: "from file line 49855 (running head 'Confessio Bohemica') to the end of the volume's text"
+    atlas_ids:
+      - czech-churches-last-century
+    role: tradition
+    confidence: assigned
+    note: "The confession of the three estates of Bohemia that take the sacrament in both kinds, offered to Maximilian II in 1575 and to Rudolf II in 1608, in a Latin translation printed at Frankfurt in 1619. The census names the Confession of 1575 as a primary source. This is a translation from the Czech, not the Czech text. Second witness for now, not quotable: noisy OCR. The Czech text is a lead (dossier section 3)."
+
+  - row_id: "niemeyer_collectio-confessionum-lat_niemeyer1840--consensus-of-sendomir-1570-between-the-polish-reformed-luthe"
+    work: "Consensus of Sendomir (1570) between the Polish Reformed, Lutherans and the Bohemian Brethren"
+    author: niemeyer
+    locus: "'Consensus Mutuus' from file line 36123"
+    atlas_ids:
+      - czech-churches-last-century
+    role: context
+    confidence: provisional
+    note: "The agreement of 1570 in which the Brethren of Great Poland joined the Lutherans and Reformed. Placed here because the Brethren are a party; the Czech church's own voice is not in it. Provisional: placed on the headings and the editor's notes, relevant passages not read. Second witness, noisy OCR."
+
+  - row_id: "niemeyer_collectio-confessionum-lat_niemeyer1840--consensus-tigurinus-1549-and-consensus-genevensis"
+    work: "Consensus Tigurinus (1549) and Consensus Genevensis"
+    author: niemeyer
+    locus: "Consensus Tigurinus from file line 14173; Consensus Genevensis from 15687"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: provisional
+    note: "Zurich and Geneva's agreement on the Lord's Supper and the Geneva consensus on predestination, in Latin. Placed on the headings only. Second witness, noisy OCR."
+
+  - row_id: "niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-fidei-gallicana-1559"
+    work: "Confessio fidei Gallicana (1559)"
+    author: niemeyer
+    locus: "from file line 22247"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: provisional
+    note: "The Gallican Confession in Niemeyer's Latin text (a French original is in the Schaff file already). Placed on the heading only. Second witness, noisy OCR."
+
+  - row_id: "niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-helvetica-posterior-second-helvetic-confession"
+    work: "Confessio Helvetica posterior (Second Helvetic Confession)"
+    author: niemeyer
+    locus: "running heads from file line 30811"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: provisional
+    note: "The Second Helvetic Confession in Latin; the English is in the Schaff file. Placed on the running heads only. Second witness, noisy OCR."
+
+  - row_id: "niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-belgica"
+    work: "Confessio Belgica"
+    author: niemeyer
+    locus: "from file line 23996"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: context
+    confidence: provisional
+    note: "The Belgic Confession in Latin. Placed on the heading only. Second witness, noisy OCR."
+
+  - row_id: "niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-scoticana-prior"
+    work: "Confessio Scoticana prior"
+    author: niemeyer
+    locus: "running heads from file line 23604"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: provisional
+    note: "The Scots Confession in Latin. Placed on the running head only. Second witness, noisy OCR."
+
+  - row_id: "niemeyer_collectio-confessionum-lat_niemeyer1840--anglicana-confessio-fidei-thirty-nine-articles"
+    work: "Anglicana Confessio fidei (Thirty-Nine Articles)"
+    author: niemeyer
+    locus: "from file line 39026"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: provisional
+    note: "The Articles of the English church in Latin. Placed on the heading only. Second witness, noisy OCR."
+
+  - row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--canones-synodi-dordrechtanae-the-canons-of-dort-latin-in
+    work: Canones Synodi Dordrechtanae (the Canons of Dort), Latin, in Niemeyer's Collectio confessionum
+    author: niemeyer
+    locus: the Canons from line 44015 (Sententia de divina praedestinatione et annexis capitibus, Cap. I)
+      through the five Heads with their Reiectio errorum to the Synod's closing Sententia at line 45673,
+      with the delegates' signatures at lines 44660-44705 and 45619-45670; Niemeyer's prolegomena on the
+      editions at line 3748
+    atlas_ids:
+    - the-remonstrants-and-dort
+    role: tradition
+    confidence: provisional
+    note: 'The Latin text of the Canons of 1619 in an 1840 critical collection, the original-language beside
+      the English of Scott 1831 and the Reformed Dutch Church 1840. SECOND WITNESS: the OCR of this passage
+      is garbled throughout (about every second line carries an error such as "Articuhs" or "iudicinm"),
+      so locate passages here and verify against the page image; a cleaner Latin witness is the Acta of
+      1620 (a lead in the dossier). A search of the file (with OCR variants of the name) found no Remonstrant
+      confession or articles in it.
+
+      '
+  - row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--canones-synodi-dordrechtanae-the-canons-of-dort-latin-in-2
+    work: Canones Synodi Dordrechtanae (the Canons of Dort), Latin, in Niemeyer's Collectio confessionum,
+      second placement
+    author: niemeyer
+    locus: lines 44015-45700
+    atlas_ids:
+    - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: provisional
+    note: 'The doctrinal settlement of 1619 binding on the Dutch church of the further-reformation world,
+      in Latin; the signatures include Udemans among the Zeeland delegates. Same witness caveats as the
+      row for the Remonstrants. Placed on that relation.
+
+      '

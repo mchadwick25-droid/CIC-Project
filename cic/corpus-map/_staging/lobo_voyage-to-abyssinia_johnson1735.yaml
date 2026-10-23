@@ -1,0 +1,28 @@
+source_file: lobo_voyage-to-abyssinia_johnson1735.txt
+assignments:
+- row_id: lobo_voyage-to-abyssinia_johnson1735--a-voyage-to-abyssinia-lobo-english-johns
+  work: A Voyage to Abyssinia, Lobo (English, Johnson)
+  author: lobo
+  locus: >-
+    Part I, the voyage (heading at file line 526, chapters I to VIII from 531); Part II, a description
+    of Abyssinia (heading 1591, chapters from 1596); the 1887 introduction at 280
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: assigned
+  note: >-
+    Jerome Lobo, a Jesuit who lived in Ethiopia from 1624 and left after the expulsion of 1634 (the file's
+    own dates), writes of the country, its church and its customs. Eyewitness outside voice from the Susenyos
+    years. Johnson translated from Le Grand's French, not from Lobo's Portuguese, and the file says Le
+    Grand's book was reduced to a fifth, so this is a second-hand English rendering. Clean Gutenberg text.
+- row_id: lobo_voyage-to-abyssinia_johnson1735--a-voyage-to-abyssinia-lobo-english-johns-2
+  work: A Voyage to Abyssinia, Lobo (English, Johnson)
+  author: lobo
+  locus: Whole work
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: >-
+    A Jesuit's own account of the Ethiopian mission in the last years before the expulsion. Placed on
+    window and subject; the Jesuit world's builders will weigh it.

@@ -1,0 +1,19 @@
+source_file: socinus_opera-omnia-exegetica-lat_1656.txt
+
+assignments:
+  - row_id: socinus_opera-omnia-exegetica-lat_1656--socinus-exegetical-and-didactic-works
+    work: "Faustus Socinus, Opera omnia (Bibliotheca Fratrum Polonorum, 1656): the exegetical and didactic volume, with the Vita Authoris"
+    author: socinus
+    locus: "Catalogus at file line 84; Vita Authoris (by 'the Polish knight') at 615; De Auctoritate Sacrae Scripturae at 38593; the letters from 53951 (Dudithius at 72784); Confessio Christiana at 78304; De Justificatione at 89073; De Fide et Operibus at 91835; De Baptismo Aquae at 104845"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: tradition
+    confidence: assigned
+    note: >
+      The movement's chief theologian in his own Latin, as the Polish
+      Brethren themselves printed him in 1656. Primary voice, ready to
+      quote once verified against the page image (readable OCR; long-s
+      read as f). A very large file (about 7 MB); the one English
+      witness in the corpus for any part of it is the 1731 De Auctoritate
+      (socinus_argument-authority-holy-scripture_1731.txt). Which scan is
+      the first tome and which the second is judged from the headings.

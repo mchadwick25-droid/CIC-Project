@@ -1,0 +1,29 @@
+source_file: jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582.txt
+
+assignments:
+  - row_id: jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582--censura-orientalis-ecclesiae-first-answer-of-jeremias-ii-latin
+    work: "Censura Orientalis Ecclesiae: Patriarch Jeremias II's first Answer to the Tuebingen theologians on the Augsburg Confession (1576), in Socolovius's Latin"
+    author: jeremias-ii
+    locus: "title page at about file lines 12-40; Socolovius's dedication to Gregory XIII from about 45; the Answer under running heads 'Caput I.' (from about line 821) through its chapters; Socolovius's notes follow"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      The Patriarch's own first Answer in a second, independent Latin rendering, made by a
+      Catholic translator in 1582 and printed at Cracow two years before the Tuebingen
+      theologians' own Latin (the 1584 Acta, vendored). Two Latin witnesses, no Greek in the
+      corpus, no public-domain English. SECOND WITNESS: roman-type Latin readable with long s
+      read as f, italic front matter garbled; check against page images. Socolovius's
+      dedication and notes are a Catholic polemicist's frame, not the Patriarch's voice.
+  - row_id: jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582--censura-orientalis-ecclesiae-first-answer-of-jeremias-ii-latin-2
+    work: "Censura Orientalis Ecclesiae: Patriarch Jeremias II's first Answer to the Tuebingen theologians on the Augsburg Confession (1576), in Socolovius's Latin"
+    author: jeremias-ii
+    locus: "the Answer under running heads 'Caput I.' from about file line 821"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: context
+    confidence: provisional
+    note: >
+      The Orthodox reply to the Augsburg Confession as a Catholic press printed it against the
+      Lutherans; placed beside the 1584 Acta rows on the same provisional footing.

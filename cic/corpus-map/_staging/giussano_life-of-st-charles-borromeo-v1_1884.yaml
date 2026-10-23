@@ -1,0 +1,23 @@
+source_file: giussano_life-of-st-charles-borromeo-v1_1884.txt
+
+assignments:
+  - row_id: giussano_life-of-st-charles-borromeo-v1_1884--life-of-st-charles-borromeo-vol-i
+    work: "The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. I (Books I-IV)"
+    author: giussano
+    locus: "Manning's preface from file line 233 (editorial, not Giussano's); contents from line 1300 ('BOOK I.' to 'BOOK IV.' at 1300, 1355, 1458, 1502); Giussano's text from the first 'CHAPTER I.' at line 5286 to the end of the file"
+    atlas_ids:
+      - tridentine-parish-renewal-borromean-milan
+    role: tradition
+    confidence: assigned
+    note: >
+      The 1884 English translation of Giussano's Life (Rome, 1610), Books I-IV: Borromeo's birth to 1578, including the Milan plague of 1576. Giussano was an Oblate of St. Ambrose who served under Borromeo and wrote at the Oblates' request; a hagiographic Life by an insider, written for the canonisation, not a neutral record. Primary for this world's own memory of its founder; the Italian original is giussano_vita-di-s-carlo-borromeo-ita_1855.txt. OCR clean; quotable once verified.
+  - row_id: giussano_life-of-st-charles-borromeo-v1_1884--life-of-st-charles-borromeo-vol-i-2
+    work: "The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. I (Books I-IV)"
+    author: giussano
+    locus: "as above: Giussano's text from file line 5286"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: assigned
+    note: >
+      For the Tridentine Church as a whole this is the Life of the bishop the Catholic world took as the model of Trent's reforming prelate, told from inside one diocese. Context here, not the church's own institutional voice: that voice is the Trent decrees and Catechism already in this bucket.

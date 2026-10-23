@@ -14,3 +14,14 @@ assignments:
     once each wording is checked against the page image: the scan is legible with occasional letter-level
     misreads. Word-form coverage against a clean Latin vocabulary is 0.81; the Spanish, Italian and Portuguese
     passages and the notes lower it, so the figure is a comparison across files and not a measure of accuracy.'
+
+- row_id: polanco_chronicon-v5-lat_1897--ethiopian-mission
+  work: 'Polanco''s Chronicon, Tomus 5: the Jesuit mission to Ethiopia'
+  author: polanco
+  locus: Ethiopia passages at file lines 154-256, 29245-29263, 32417-32477, 36131-36344, 36545-36622 (word
+    search; not read in full)
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: provisional
+  note: 'Jesuit chronicle of the mission, from outside. Tier: same time-place.'

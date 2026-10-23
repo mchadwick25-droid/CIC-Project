@@ -1,0 +1,20 @@
+source_file: hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt
+
+assignments:
+  - row_id: hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883--die-geschichts-buecher-der-wiedertaeufer-in-oesterreich-ungarn
+    work: "Die Geschichts-Bücher der Wiedertäufer in Oesterreich-Ungarn, 1526-1785 (Beck, 1883)"
+    author: hutterite-brethren
+    locus: "whole volume: Beck's Vorrede from file line 135, Inhalt from 1918, the chronicle text in Bücher and Abschnitte with 'Anno' year entries from about line 3120 (Anno 1519 at 3193) to Anno 1722 at 32162; Beilage A (the Schleitheim articles, abridged) at 4768; Beilage B (the Brethren's 1545 Rechenschaft to the lords of Moravia, abridged) at 11182"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      The Hutterite Brethren's own chronicles in Beck's 1883 edition, the
+      first printed edition of this material and the one Wolkan's 1923
+      edition answers. Primary voice of the Moravian wing: martyr accounts,
+      the communal order, the Brethren's letters to the Moravian lords.
+      Readable Antiqua OCR with scattered character errors, sampled at
+      five points; quote only after checking the page images. The two
+      Beilagen are marked abridged by Beck himself. No public-domain
+      English translation exists.

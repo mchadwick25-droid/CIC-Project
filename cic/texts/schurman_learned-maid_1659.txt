@@ -1,0 +1,2850 @@
+Title: The Learned Maid; or, Whether a Maid may be a Scholar? A Logick Exercise written in Latine by that incomparable Virgin Anna Maria a Schurman of Utrecht. With some Epistles to the famous Gassendus and others
+Creator: Anna Maria van Schurman; the English translator is not named on the title page (the host catalogue record does not name one either)
+Publisher: London: Printed by John Redmayne
+Publication Date: 1659
+Rights: Public Domain (published 1659; public domain by date under the project's 95-year rule)
+Source: Internet Archive item the-learned-maid, file the-learned-maid_djvu.txt, fetched directly (curl, raw bytes, the item's own _djvu.txt full-text derivative) by the library/source-research thread (Era VII session, world agent VI.9), 2026-10-16; host rights statement: the item carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (uploaded by the Public Domain Review from a Folger Shakespeare Library copy, catalogue record https://catalog.folger.edu/record/142547)
+Provenance note: Header prepended; the OCR text follows unchanged apart from nothing. Rights basis restated: a book printed in London in 1659 is public domain by date, and the uploader also marks it CC0.
+Content note: The whole small volume: title page, the translator's dedication, the "Logicall Exercise" on whether a Christian woman should study letters (an English rendering of the Latin Dissertatio of 1641), and the appended letters (to Gassendi, to a "Most Noble Lady", and others). OCR of a 1659 print with long s rendered as f throughout and some line-interleaving in the dedication: sampled at 10/30/50/70/90 % and found readable but noisy; quote only after checking each passage against the page image. The Latin original is in schurman_opuscula-lat_spanheim1648.txt.
+---
+= rrr sige eS ee Tee =" = a ome aay 
+
+
+SS a as 
+
+
+S| 
+
+
+jj OSs jose 
+
+
+Sl 
+=) 
+re) 
+Sl 
+° 
+© 
+
+
+Cc 
+o 
+2 
+rol 
+° 
+£& 
+= 
+3 | 
+= 
+L 
+o 
+a 
+2) 
+Z 
+3S 
+3 
+
+
+(=) 
+So 
+o 
+
+
+SIGS RR RS EE GE ES 
+
+
+a I ie adie ge nk z- 4) a es Eee 
+
+
+— 
+
+
+—_—— 
+
+
+at 
+j i 
+| 
+i 
+
+i \a) 
+
+
+arene 
+} 
+\ 
+4 SS Po: >. 
+
+
+Wow 
+Sn 
+
+
+= Soe 
+a 
+
+
+ZZ 
+Z 
+
+
+—, 
+we 
+Zz 
+
+
+— 
+
+
+FAIRFAX: OF CAMERON 
+
+
+SS ie eee SS ee . - — = — — 
+
+
+THE 
+
+
+LEARNED MAID; | 
+
+
+: () RK; ‘i 
+
+
+_—————=EE=Ez———— —— 
+
+
+tant 
+
+
+i | 
+
+
+ul 
+
+
+Whether a Mairpd may ‘bea ‘ i 
+| Scholar ? i 
+
+
+ALOGICK EXERCISE | 
+
+
+, mill 
+
+
+| 
+
+; | 
+| Written , 
+In Latine by that incomparable Virgin | 
+
+(Anna Maria & Schurman : 
+| 
+
+| 
+
+
+of Vtrecht. . 
+
+
+With fome Epiftles to the famous Gaflendus 
+and others. be 
+
+
+He Lael 
+
+
+ig 
+
+
+. ' e © 
+* 
+Be. 
+ba) 
+we 
+< Zs - 
+= 
+al , 
+~ 
+- 
+es — — —_ i 
+
+
+| 
+| 
+
+
+E L406 SPOS Este UPWT CLL” Ignat. 
+aterm meter ncaa ater 
+
+
+AN: RTAT LIL. CID DC LIX 
+
+
+| 
+| 
+| 
+| 
+Comitis hic pita nostros In imagine cults: | ae LONDON | 
+Cu hed Jima, “sain =oeNSY dalit . . i . ; | 
+
+
+Printed by Jou Rapmarne. 16992 
+
+
+Jeera He Low-Countries thew 
+
+
+you a Virgin, excellent, 
+not only in the learned 
+
+
+WES FT anouages, but almoft 
+
+
+nall kinds of Literature s whofe 
+
+
+all things, you may juftly call the 
+utmoft Effay of Nature in this Sex. 
+Solargely hath the Divine bounty 
+powred forth it felfupon one per- 
+on. If fhe hath a vaft underftanding 
+
+
+piercing into allthings,fhehathal- _ 
+
+
+r 
+
+
+oaskilful hand marvelloufly obe- 
+dient to that guide,executing & e¢x- 
+prefling in all materialls whatfoever- 
+A 3. | that 
+
+
+admirable witand mind capable of 
+
+
+chat commands. But thefe Gift NED ENDED Cet) 
+are fat inferiour tothofe which thy. To THE 
+accounteth chief ; Piety withou 
+
+
+Oftentation , Modefty beyon! HONOUR AB LE LAD Y, 
+Example, and moft Exemplar ee: oo | 
+Polinefs of Life and Convyerk its ee Siete 
+tion. And though fhe moft te LA Dr LA. H. Sah 
+ferveth Praife , yet ( which isg wont er 
+bove all Praife) She defireth no 
+
+
+thing lefs, &c. dnd 
+
+
+Madam, ) | 
+
+Gx paHis ange sate 
+ks, i being now the 
+a fecond time > 
+ea “deh up in her Englifo 
+Habit, cometh to kifs 
+| jyourhand. She hopes 
+; “Thyou will admit her to 
+your (lofet» and fpeaka 
+
+3 A 4. ae 
+
+
+Ins Hitt ad Lect. 
+
+
+The Honourer ofyour Piety, | 
+more then of your Fortune; — 
+
+
+Ce 
+
+
+> 
+f N N\ \ 
+; AN 
+
+
+‘ 
+HM ; 
+
+
+”) A Logicall Exercife upon 
+
+
+this Queftion. 
+
+
+Whether a Maid may be a 
+| Scholar? $3 
+
+
+et ee 
+. ee 
+
+
+AGE good. .. | 
+GNVQ Thefe Pracognita we pre- 
+mit: Firft on the part of the Subject, 
+
+
+| and then of the Predicate. 
+
+
+By a Maid or. Woman; I underftand 
+
+herthat is a Chri/fian, and that notin 
+
+Profeffion onely, but really and in- 
+
+deed. | 
+
+- Bya Scholar, [mean one thatis given 
+ee, & 8 
+
+
+The Learned Maid, 
+
+
+to the ftudy of Lezters; that 1s, the 
+knowledge of Tongues and Hiffories, all 
+
+
+kinds of Learning, both fuperiour en 
+
+
+titled Faculties ; andinferiour, calfd 
+
+
+~ Philofophy.We except onely Scriptu: 
+
+
+val Theology;properly fo named, as that 
+which without, Controverfie belongs 
+to all Chriftians.. ; 
+
+When we enquire, whether she may 
+be,we mean whether it be convenient; 
+thatis, expedient, fit, decent. 
+
+The words being thus diftinguifhed, 
+Pe Things areto be diftinguifhed al- 
+O. 
+
+
+For fome Maids are imgenwous; 
+
+
+_ others not fo; fome are rich; fome poor: | 
+fome engased in Domeltick cares, o- — 
+
+
+thers at liberty, 
+
+
+The ftudies ofa Scholar areeither — 
+univerjal, when we give our felves to _ 
+
+
+all forts of Learning;or particular, when 
+we learn fome one Language or Sch 
+ence, Or One diltinct Faculty. 
+
+
+Wherefore we make ufe of rhefe 
+
+
+Limitations : i 
+
+
+Firlt; 
+
+
+—— . 
+
+
+—_ —— — 
+
+
+A Logich Exercife. 
+Firft of the Subjeds; and firft, that 
+
+
+| + Of the erudition of Maids you 
+may readin Liv.3.Plin. Epift.17. | 
+l.r.Athen. 1, Plutarch.deeduc. « I) 
+lib.Gord.].16.de Negat.Fornar. 
+
+
+. 
+
+
+endued at leaft 
+with an indiffe- 
+rent good wit,and 
+not unaptforlear- adCaf. 
+1 aaa ae ele eae 
+
+Secondly, that flee be provided -of 
+neceflaries and not opprefled with 
+
+
+want: which exception I therefore 
+
+
+put in, becaufe few are fo happy to 
+have Parents to bread them up in ftu- 
+
+
+dies, and Teachers are chargeable. 
+
+
+Thirdly, that the condition ofthe 
+
+
+Times, and herquality be fuch, that 
+
+
+fhe may have fpare houres from her 
+seneraland fpeciall Calling; that is, 
+from the Exercifes of Piety and houf- 
+
+
+hold Affairs. To which end will con- . 
+
+
+duce; partly her immunity from cares 
+and employments in her yonger yearss 
+partly in her elder age either celibate, 
+orthe Miniftry of handmaids, which 
+are wont to free the richer fort of Ma- 
+trons alfo from Domeftick troubles. 
+Fourthly, let her end be, not vain 
+glory and oftentation, or on 
+ef ‘ 
+
+
+t. a: 4 Agi 
+
+
+A | 
+
+
+i 
+
+
+mi 
+
+
+at 
+a 
+/ ta 
+
+
+i! 
+| 
+Bhi 
+‘ 
+: 
+
+
+_ ne Se 
+
+
+— Fs 
+— 
+= = —— — 
+= = 3 —— - —= ———— 
+
+
+== ? 
+_— -- — 
+
+
+The Learned Maid; — 
+
+
+ble curiofitie. : but befide the Tene. 
+rall end, Gods Glory and the falvati. 
+on of her.own foul ; that both he; 
+felf may be the more vertuous and 
+the more happy, and that fhe may Cif 
+that charge ly upon her ) inftru@ and 
+dire& herFamily, and alfo be ufefull, 
+as much as may be:to her whole Sex. 
+Next, Limitations of the Predicate, 
+Scholarship, or the ftudy of Letters Ifo 
+limit, that I clearly affirm all honeft 
+
+
+Difcipline, or the whole Ek uKdowraidela? 
+
+
+the Circleand Crown of liberal Arts | 
+
+
+and Sciences (as the proper and uni. 
+
+
+verfalGood and Ornament of Man | 
+
+
+A Logick Exerci(e. 
+
+rrvient to’them. In which number 
+wereckon Grammar, Logick; Rhetoricks 
+efpecially Logick, fitly called The Key 
+
+
+of all Sciences: and then, Phyficks, Me- 
+
+
+phyficks, Hiftory, &c. and alfo the 
+ee eaue of Languages, chiefly of 
+
+
+the Hebrew and Greek, All which may 
+
+
+advance to the more facile and full 
+anderftanding Of Holy Scripture : to 
+
+
+fay nothing now of other Books. The 
+
+
+reltsi. e. Mathematicks (to which is alfo 
+referred Mufick) Poefie, Picture, andthe 
+like, not illiberall Arts,may obtain the 
+
+
+nious Recreations. ; 
+
+
+| 
+
+
+Laftly, thofe ftudies which pertain 
+tothe practice of the Law, Military 
+Difcipline, @ratory in the Church; 
+
+
+kind) to be convenient for the Head 
+of our Chriftian Maid: yetfos, that ac 
+cording to the Dignity and Natureof 
+
+
+every Artor Science; and according 
+tothe capacity and condition ofthe 
+
+
+Maid herfelf, al] in their order, place 
+
+
+| 
+| 
+
+
+and time fucceed each other in the 
+
+
+Jearning of them,or be commodioufly _ 
+conjoyned. But efpecially let regard 
+be bad unto thofe Arts which have 
+
+
+: 
+
+
+neereft alliance to Theology and the | 
+
+
+Moral Virtues, and are Principally fub: | 
+| me , fers 
+
+
+Court; Vniverfity, as lefs proper and 
+lefS neceffary, we do not very much 
+urge, And yet wein no wife yield that 
+our Maid fhould be excluded from the 
+Scholaftick knowledgeor Theory of 
+thofe ; efpecially,not from underftand- 
+
+
+_ ing the moft noble DoGrine of the | 
+
+
+Polititks or Civil Government. | 
+‘And when we fay a Maid may be a 
+1G Gears ~ * $eholars 
+
+
+nese ee 
+
+
+d Maid, | | A Logick Exercife. 9 
+Scholar, it is plain wedo not affirn priticiples of all Arts and Sciences, 
+Learning tobe apropertys Orathing maybe a {tudentin all Arts and Scien: 
+requifite, and precifely needfull toe.) ces: . 
+
+ternall falvation: no, nor as fuch, But Maids are naturally endued 
+good thing whica maketh to the very with the Principles, &c. Therefore, 6. 
+Bffence of Happinefs inthis life: but) z at. 
+
+as a mean and very ufefull, conferring) The Propofition is thus proved. 
+much to theintegrity and perfection) = | 
+
+thereof:and as that;Which bythecon| | They thatmay have the knowledge 
+templation of excellent thingswil of Conclufons deduced from Principles 
+promote usto a higher degree inth| may be Students, Gre. = 
+Love of God, and everlafting Fe| .Butthey that are naturally endued — 
+licity. >| with oe Principles may have the know- 
+Therefore ler our Thefis or Propofition | Papas ae $e from thofe 
+
+
+Be eT 
+
+
+| 
+i 
+; 
+| 
+Bil 
+la! 
+\ 
+{ a] 
+| F 
+{ 4 
+. 
+4 aii 
+{ 7 
+¢ 
+Bhi 
+7 ry , 
+
+
+A Maid may be a Scholar. | org BM 
+
+reget | | The affertion may be proved both 
+For the confirmation whereof we) . from the property ofthe form of this 
+bring thefe arguments: 1. On th) Subject, or the rational foul: and from 
+partofthe Sabjed : 2. On the part of the very acts and effects themfelves. 
+the Predicate. For it is manifeft that Maids doe 
+aciually learn any Arts and Sciene 
+
+Ces. | 
+Now, no Atts can be without their 
+Principles, — 
+
+
+™ ————— 0 er 
+é 
+
+
+I. Argument, from the Property 
+of the Subjed. 
+Mh Moher naturally en du’d wit 
+Y the Principles; or powers of che 
+pr inciple : 
+
+
+II, Argument, 
+
+
+‘ 
+
+
+; The Learned: Maid; 
+
+
+II; Argument. Again from the property ; 
+of the Sub:ect. | 
+
+
+j 
+' 
+
+
+_ Whofoever hath naturally a defire of 
+Arts and Sciences, may ftudy the Arts 
+and Sciences. . 
+
+
+Buta Maid hath naturally a defireo e | 
+
+
+Arts and Sciences. Therefore, ee, 
+The Reafon of the Maor is mani. 
+
+feft: becaufe Nature doth nothingin 
+
+vain, 
+
+
+or kind, is in every Individual or pars 
+ticular perfon; in Maids alfo. 
+
+
+But all Mankind have in them by 
+Nature a defire of knowledge. (Arita, | 
+
+
+Metaph. 1:2.) Therefore, @c. 
+
+
+TI. Argument, from the external 
+
+
+Property,or Adjunct. Spl 
+
+
+Whofoever is by God created with 
+
+
+a fublime countenance, and erected COs | 
+
+
+ward Heaven, may (and ought) give 
+himfelf to the contemplation ané 
+
+
+knov: 
+
+
+_ the great Erafmus faith + ) 
+Nothing cakes fo'full pot 
+-feflion of the fair Temple 
+
+
+hing and ftudy, whither, 
+
+
+$$$ $$ 
+
+
+A Lagick Exercife. 
+
+
+| knowledge of {ublime and heavenly 
+
+
+things. 
+But God hath created woman alfo 
+with a fublime and ere@ed counte- 
+nance: Os homint fublime, &c. There- 
+
+
+for ee) CoG 6 
+IV, Argument, 
+
+
+Whofoever is in moft need of folid 
+and continuall employment, may con- 
+
+
+| | veniently give himfelfto learning: 
+|. The Minor isthusconfirmed, _, | 
+That which isin the whole Spesses | 
+
+
+But woman is in moft need of folid 
+and continual employment: There- 
+
+
+fore, Cc. 
+
+
+doth more exercife and intend allthe 
+nerves and powers of the mind; (and as 
+
+
+ofa Virgins breaft,as lear- 
+
+
+on all occafions fhe may 
+fly for refuge. 
+
+
+The Minor is proved by thefe two reafons. 
+(2B Tt. Who 
+
+
+The Major is good,becaufe nothing 
+
+
+T In his Epiftle to 
+Budzus, where he 
+difcourfeth of the In. 
+flitution of Sir Tho. 
+Moores daughters. 
+
+
+The Learned Maid, 
+1. Whofoever through imbecillity 
+and inconftancy of difpofition or tem. 
+per, and the innumerable {nares of the 
+world, is in moft danger of vanitie,is in 
+moft need of folid and perpetual em. 
+ployment. a 
+But woman, through the imbecilli. 
+ty and inconftancy, @c. Therefore, 
+The Major in this Syllogi{m 1s true; 
+~-becaufe. contraries are beft cured by 
+contraries : and nothing doth more 
+effectually oppofe vanity, then ferious 
+and con{tant employment. _ 
+The Minor. wétake to be without 
+
+
+controyerfie: for hardly any, though) 53. oon. seigitt ona tes 
+* i: * - - Jan " be ‘ Ss 8) 4 f, ; ( t = 
+Heroical Vertue can fafely pafs by Jence follow their 
+
+
+the Sirens of the world and: of youth, 
+unleis it be bufied about ferious and 
+folid things, | 
+2. Thefecond reafon to prove the 
+Affumption or Minor of the Iv’. argi- 
+ment is this : CER ree, , 
+They that abound with leifure have 
+
+
+-moft need of folid and continual em 
+
+
+_ ployment: } 
+: But women of higher rank, 
+yy ek : pat 
+
+
+ee 
+
+
+molt 
+
+
+A Logick Exercife. 
+part abound with leifure. Therefore, 
+
+
+The Major of this fyllogifmis good, 
+
+
+becaufe leifure (or idlene fle) is ofi¢ - 
+
+
+felf tedious, yea, burdenfome, fo thar 
+
+
+ Dwine Naztanzen jultly faids xeyse0 
+— meféis i desepgia, Tis the greateft pain to be 
+
+
+‘out of action. And becaufeTdlenefs is the 
+Mother of wickednefs: Hoamines nihil 
+agende male agere difcumt. Men by doing 
+nothing learn to do ill, 
+
+
+Ve Argument. 
+
+
+They that have the happinefs of a 
+more quiet and free courfe of life, ma 
+ftudies : | | 
+
+But Maids for the moft part, have 
+
+
+_ the happinefé ofa more quiet and free 
+| courfeoflife : Therefore. 
+
+
+The reafon of the Major is evident’: 
+for nothing is fo great afriend to ftu- 
+dies as. Franquillicy‘and Liberty, 
+
+The Minor ws proved thus: 
+They which for the. moft part have 
+Hat time to beftow upon themjelves, 
+and are exempe from publick cares 
+B2 and 
+
+
+The Learned Maid, — 
+
+
+of a more quiet and free courfe of 
+life: be 
+But Maids (efpecially during their 
+
+
+their time to,beftow on themfelves 
+ec. Therefore. 
+
+
+VI, Argement. 
+
+
+the principal Sciences, to the fame is alfo 
+agreeable the ftudy of Sciences ip 
+ftrumental and fubfervient : 
+
+But, to a Chriltian woman agres 
+the ftudy of the Principal Sciences 
+Therefore : 
+
+The Major is frm for this reafon: 
+
+To whom the end agrees, to th 
+fame is convenient. alfo the lawful 
+mneans, whereby we are molt ealil) 
+brought unto that end: 
+
+But the inftrumental or fubfervierl 
+Sciences are the lawfull means, c%. 
+. ‘Therefore. 
+
+
+‘ftian woman agrees the ftudy, ora 
+
+
+duo 
+
+
+and employments, have the happine® 
+
+
+celibate, or fingle life) moft part have 
+
+
+To whom is agreeable the ftudy of 
+
+
+The Minor.is true,becaufe to a Chri: 
+
+
+A Logick, Exercife. 
+
+
+ad ferious Meditation of Gods 
+the knowledge of God, and 
+contemplation of his moft beautifull 
+works, as being of moft concernment 
+tall Chriftians whatfoever, 
+
+
+3 
+
+
+duous 4 
+
+
+| words 
+
+
+VII. Argument 
+
+
+The ftudy of Letters is convenient 
+for them, for whom itis more decent 
+‘o find themfelves both bufinels and: 
+Recreation at home and in private,then 
+abroad among others. 
+
+But jt ismore decent fora Chrilti- 
+an Maid to find her felf both worke 
+and recreation at, home then abroad : 
+therefore &c. | 
+
+The Major is moift true: becaufe 
+fudies have this prerogativesto give us 
+adelightfull exercife, and to recreate 
+us when we have no other company; 
+whencein the Greek proverbe; 4 wife 
+man 1s curoerponsper G Koo Luremnwns y felf fuffi- 
+cient. ; 
+
+The Minor is no lefs: becaufe the 
+Apoftle requireth Women to bE 5 Keep- 
+imypodsy tTit.2.¢. And moreo Ver» Expe> evs at 
+
+a B 3 rience home. 
+
+
+_\ The Learned Maid, 
+perience teftifies ; 
+Ears, eyes often travail abroad, huny. 
+ing after pleafures $ their faith, dy. 
+
+
+gence, and modefty too, is generally 
+called into queftion, Bi) 
+
+
+VIII. Argument, from the Genus 
+of the predicate, or, of 
+Learning. 
+
+
+Arts and: Sciences are convenient 
+for thofe, towhom all Virtue in general 
+is convenient : | 
+
+But all Virtue in general is conve 
+‘nient for a Maid. Therefore: 
+_ The Major is evident from the divi. 
+
+
+fion of Virtue into Intellectual and Mo. 
+
+
+whofe tongue, 
+
+
+ral: under the former whereof, the 
+
+
+Philofop 
+Sciences, 
+
+The Minor h 
+for Virtue,as Seneca aith,choofeth her 
+
+
+fervants, neither by their State not 
+Sexe, 
+
+
+IX. Argument; 
+
+
+her comprehendeth Arts and 
+
+
+ath no need of proof: 
+
+
+yes. Sage ms 
+
+
+a 
+
+
+A Logick Exerii/e. 
+
+
+Whatfoever perfeds -and adorns the » 
+
+
+‘ntelleat of Many that is fit and decent 
+fora Chriftian woman 7 Os * 
+But Atrsand Sciences doe perfect 
+
+
+and adorn the intellect. Therefore: © 
+
+
+The reafon ofthe Major iss becaufe. 
+licreatures tend unto their Jatt and 
+higheft perfections as: that which ts. 
+moft convenient for them, 
+
+The Minoris plain, becaufe Arts and 
+Sciences are Habits, and by thefe Ha- 
+bitsare the natural powers and facul- 
+ties of the foul proved and perfected. 
+
+
+AX, Argument. 
+
+
+The things that by theirnature con- 
+duce to the greater Love of God and the 
+KCI his oreater reverence in 
+exciting of his greater ne er 
+sy are convenient and fit for a Chit 
+ftianWoman: : 
+
+But Arts and Sciences by their na- 
+tureconduce, ee. Therefore: 
+
+B 4 The 
+
+
+i) 
+Ml 
+| | 
+
+
+= 
+7 
+== 
+
+
+A 
+
+
+—_- = Ss 
+
+
+————————— 
+i a 
+
+| 
+
+v4 
+
+. 2 
+‘din. @.” ; 
+
+’ 
+7 : 
+
+
+The Learned Maid, 
+
+
+love and reverence of God becometh 
+
+
+all mankind $ fo that none 
+offend in the excefs. 
+_ The Minor is thus confirmed : 
+_ That which, exhibiteth and 
+feth God and his works.to be feen and 
+known by us in a moré eminent de. 
+gree, naturally conduceth -to the fiir. 
+=e upinus the greater love ofGod 
+and reverence: ; 
+But Arts and Sciences exhibiteand 
+propofe God and his Works, ¢¢, 
+Therefore, 
+The Major in this laft fyllogifmis 
+proved by this reafon; 
+Whatfoever is indeed moft. beaut. 
+ful, moft excellent and moft perfeé, 
+
+
+can here 
+
+
+that, the more it is known, the moreit | 
+
+
+is loved, and accounted more worthy 
+of reverence orcelebration: 
+But God and his Works are indeed 
+moift beautifull,¢rc, 5am 
+Therefore- | “8 
+: The Minor likewife may be proved 
+from the end or effects of Sciences 
+which 
+
+
+Prope. 
+
+
+The Verity of the Major is clearey 
+then the Light. For the moft perfeg 
+
+
+—_———— 
+
+
+pore facile and more diftin@ know- 
+
+
+ledge of Godand his Works. 
+XI. Argument. 
+
+
+That which armes us again{t Here- 
+sand detecteth their fraud, is con- 
+venient for a Chriftian Woman ; 
+
+But Sciences arme us;@re, 
+
+Therefore, 
+
+‘The reafon of the Major is evident: 
+becaufe no Chriftians in this common 
+danger, ought to neglect their due- 
+tie. 
+
+The Minor is proved, becaufe found 
+Philofophy is as a hedge and fence (to 
+ufethe words of Clemens » Alexandrinus) 
+of the Lords Vineyard,or of our Saviours 
+DoGrine : Or, being compared with 
+the Gofpel, itis (in Saint Bafil’s fimill- 
+tude) likethe leaves which are an Or- 
+nament and Muniment tothe fruit. In- 
+deed by right reafon, that corrupt and 
+falfe reafon, upon which herefies main- 
+
+
+ly depend, may moft-eafily be refu- 
+_ted., | | 
+
+
+XIIn Are 
+
+
+A Logick Exercife. eee oy Je 
+ybich do all confer fomewhat to the 
+
+
+; 
+; 
+=e == - = = 
+= ¥ — —s 
+: 5 — o— 
+
+
+= = Ss Dea 
+A AES 
+ee 
+
+
+| i | 
+Me ib) 
+aT 
+| | 
+Way 
+17 
+/ | Hh 
+| ig} 
+) i el 
+ie | 
+ip | 
+VS Bl 
+tik 
+tL 
+| \ 
+: Waly 
+CHa 
+Vie | 
+: Ih 
+ie 
+’ 
+| lk 
+
+
+few ome 9 
+‘ wi tet, 
+: | 
+j 
+ee eames —_ = y 
+SE ee ae ee meretmee' 
+; 
+= ; 
+4 . | 
+
+
+y H. 
+i 
+1 
+4 
+e& 
+y 
+- } | 
+a a j 
+4 q | 
+{ i 
+; 4 
+| alii 
+| ‘ : - 
+| iat 
+wy : 
+4 L R 
+| 
+j iat! 
+Ln 
+ga 
+P PIER 
+j | 
+i 
+ia 
+Ti 
+
+
+The Learned Maid, 
+XII. argument. 
+
+
+What teacheth Prudence without any 
+detriment of Fame or Modetty,is con. 
+venient for a Chriftian Woman: 
+
+But the ftudies of good Learhing 
+teach Prudence, ec. ' 
+Therefore : 
+
+
+The Major isconfefled : for no man 
+is ignorant, that the Honour of the 
+Female Sexe is moft tender, and need. 
+eth nothing more then Prudence: and 
+how hard a thing icisand full ofhe 
+zard, to draw Prudence from ufe and: 
+Experience. 
+
+The Minor is proved; becaufe the 
+Writings of Learned men doe offers 
+not onely excellent Precepts, but note 
+ble Examples,and do lead us.as it wert 
+by the hand to Virtue; 
+
+
+XIII, Argument. — 
+
+
+4 
+; 
+ti 
+
+
+~ Thatwhich makes to true Magnani 
+mitie, is Convenient for a Chriltia 
+
+
+Woman: 
+But 
+
+
+A Logick. Exercife, 
+But theftudy of Letters makes to 
+
+
+it rae magnanimity, 
+
+
+Therefore. | 
+
+I prove the Major: becaufe, the more 
+any oné.is bymature prone to the vice 
+of pufillanimity; {o much the more 
+need there is of aid from the oppofite 
+
+
+| Virtue. But a Woman is by Nature 
+: prone, oe. | | 
+
+
+Therefore: 
+The Minor is prov’d, becaufe Learn: 
+
+
+ing erecteth the Mind and puts cou- 
+
+
+rage into the heart, and takes off the 
+vizor from thofe things which are 
+feared by the vulgar, or impotenly 
+
+
+: affected. 
+
+
+That which affe@eth and replent- 
+
+
+fheth the Mind with honeft and in* 
+genuous delight, ig convenient for a 
+Chriftian Woman: | 
+But, Learning doth fo. 
+‘Therefore, | 
+The reafon of the Major is, becaufe 
+
+
+nothing is more agreeable to humane | 
+
+
+natures 
+
+
+: 
+} 
+Dt ih 
+: : 
+ie) || 
+i 
+) 
+
+
+| 
+| 
+| 
+I 
+|| 
+
+
+The Learned Maid, . 
+: nature, then honeft and ingenuousd, , sufe of errour in the underftand- 
+Te oe in Mana certaiy fic ee Aelia teche will ECAH 
+militude of Divine gladnefs, Whi¢, | >’ Chrift; 3 
+Arifiorle alfo highly extolleth. : Bag Ee hr asiay bs 
+Eth, xiii. Pleajure is by nature a Divim| pyr ignorance and want of know- 
+thing tof + se a -lecge if ghee: the caufe of error,0e. 
+eee ore. 
+there is no delight or pleafure (excep | . phe aver wont fyllogifm is: de- 
+che cmere eoneyaton MEE Ce ir eecietett 
+' an ingen: | jn the underitanding ; becaule 1gno- 
+Sekine So taty lees Snaicew rete © poste 4 
+oreou) | calleathe Bye ¢ Or the 4° Hsrd gos evoke If the 
+examples and various reafons might » Soul)is a el{but light thar is in the be 
+eafily be evinced. |} blindnefs, and darknes —darknefssbom great ts that 
+. | whichis the caufe of all datkne}s: mia i: 
+XV, Argument, from the errour. Secondly, in refpe& of vice 
+Oppofite. in the Will or AGion® becaufe, 
+| Whatfoever makes men proud, flerces 
+Where :gnorance and wantofknow| we, tharis the caufe of Vice in the will 
+ledge is not convenient, there these | or-aGion = ; 
+
+
+A Légick Exercife, 3 
+
+
+nan 
+
+
+dy of knowledge isconvenient:. |  Butignorance and want of know- 
+But. ignorance and: want of knov'} edge makes men proud, G*. 
+ledge is not convenient for a Chrilt | te vetoes: | , 
+an Woman. | The Major is evident, the Minor iS 
+* Therefore, | | proved hence; becaufe, thelefs a man 
+The Minor is confirmed thus: knowes himfelf, the more will he pleate 
+
+
+That which is of it felf, not on himfelfand contemn others: And he 
+t | who 
+
+
+—— . — 
+
+
+a Ee 
+
+
+7 The Learned Maid, 1a) 
+who knowes not how much he is jong, 
+rant of, will be wife in his own conceit 
+And then (as to fiercenefs ) nothing ‘ 
+more intractable then ignorance, 
+Etafmus upon. much experience tefi 
+fies: And that I may relate a Sentence 
+of Divine Plato +‘o 2 Gpeome @ erotic uy 
+
+ipbie cugely,.xr, Man well’ bred and inftruttel 
+
+. becomes the mildeft and. Gentleft of Crem 
+
+
+T vi. De 
+Legibus. 
+
+
+’ 
+; poten samee <5 
+. wt. , a | 
+' } 
+i 
+2 5 Se le ST ee a re ey re eet se ee ag ae 
+- — _ = ; 
+} 
+~ 4 | 
+~- — - z 
+
+
+= Ses BE et =a 
+
+
+et: of all the beafts of the Earth. Adde 
+quod ingenuas &c,Learning mollifies. and 
+
+
+of manners. and rufticisy. 
+
+
+refpec of vice, may be fhewn, from 
+the nature of vice and’ vertue, For, 
+Whereas to.every vertuous action is re 
+quired fuch +4 Exaédtne/s, that, ir mut 
+be conformable on every partto the 
+
+
+t “Axpi- 
+Cet. 
+
+
+“v5 of vice evemthe leatt; t Imordinatun, 
+which followeth 
+
+
+fufficienr. 
+
+
+emt for brevity fakes 
+
+
+tures, but being ill brought up. is the will. 
+
+
+fweetens aman and. takes anvay-roughnefe 
+
+
+- Laftly, the danger of ignorance,in | 
+
+
+Rule of right reafons to the Nature 
+ignorances; may be | 
+
+
+Teftimonies- and, Examples L doe here 
+
+
+HEIDI ADSL OD. 
+Gad) CPD CBD LED LED GED 
+A pEEU TA TYLON 
+Woah ef eee | eae 
+ADVERSARIES. 
+
+
+’ 
+
+
+Thefe Precognita are to be 
+premitted. 
+
+
+| (rf, there arefome of the Adverfa- 
+* ies, who being as it were blinded 
+by I know not what prejudices, do 
+not limit our Subje#; but think it fol- 
+lowes from our Thefis, that there ts 
+no choice neither of Wits, nor of Con- 
+ditions, to make the predicate agree 
+UNTO it. 
+Others there are, whofeem to ac- 
+knowledge no other end of ftudies, 
+then either Gain or vain Ghory: which : 
+is the t prime error, and fhamefull Sarvted 
+enough 
+
+
+OF Ata 
+a "VVORCLY « 
+
+
+taph. |. 2. 
+
+
+“the pees Maid, 
+
+
+enough: as if it were fi. | 
+
+Oa we pervacaneous to Philo. 
+
+| fophize for the AVOHle | 
+ing of ignorance. 
+
+And fome there are lafty who a, 
+
+not altogether that {tudies are conve 
+
+nient for a Maid, but onely an eminent 
+
+degree of Knowledge. Who are perhaps 
+
+vexed with Emulation, or certainly 
+
+with'fear, leaft that fhould at any time 
+
+come to pals. 
+
+ITomot masured xseirioves, Aiduona Auy. 
+Many Scholars excell their Maflers: and 
+that other faying of a very ancien 
+Poet, Vos etenim juvenes animos geri | 
+Muliebres : Illa Virago Viri. 
+
+
+Thofe Men are fpirited like Wo 
+
+
+men, that Virgin likea Man, 
+
+
+VS i cn NE SITE IS FT DTI ey ain far a ee eet ee Ee a ek A NT EEE 
+. , 
+
+
+5: fh $5 fs 
+a aes HE 
+THESIS. 
+ge pepe? 
+
+
+' ADVER SARIES. 
+
+
+Chriftian Maid ( or Woman ) ex 
+
+| cept she be perbaps divinely exci 
+ted toit by fome peculiar motion or — 
+inflind,may not conveniently sms her ft 4 | 
+
+
+the ftudy of Letters. 
+
+
+ean | 
+
+
+I. Argument. on the ot of oe 
+: Subject. 
+
+- Whofoever hath a weak wit may — 
+not give’ her felf to the ftudy of pa 
+ters: | 
+
+~ But Wuinett; are of weak wits. 
+_ Therefore. ag 
+
+
+* Sie They 
+
+
+‘vo. + of adifeafe of the Intellect. 
+
+
+reece 
+
+
+The Learned Maid, 
+
+
+They will prove the Major s becanf, | 
+
+
+to the ftudy of Letters is required, | 
+wit firm and ied Je unlefs we will ly. 
+bourin vain, or fall into the dangg 
+
+
+‘The Minor, they thinks needeth 
+no Prgofe. 
+
+
+We anfwer to the Major: that by 
+our limitation fuch are exempted, 
+which by imbegillity of their witar 
+altogether unapt for ftudiess whenve 
+ftate it, that at leaft indifferent good wit 
+arehere required. Thens we Pe 
+alwayes Aeroical. mits are precilely ne 
+
+
+ceflary. to ftudics : for the numba) 
+
+
+even of learned Men, we fee, is mate 
+up in good part, of thofe that areo 
+the middlefort. oe | 
+— Totbe Minor we anfwer: Ic is no 
+
+abfolutely true, but comparatively ont) 
+inrefpedof the male Sex. Forsthou| 
+Women.cannot be equalled for the) 
+wit with thofe more excellent Md 
+
+(who. are. 41 iy, weinys Eagles in 
+
+Clouds :) yet, the matter, it felf be 
+
+
+Inclined, co: ftudiess-.. — 
+
+
+ ALogich Exercife, 
+
+
+thus much s_Not a'fewaré found df fo 
+
+
+good wit, that they may beadmitted: 
+
+
+to ftudies, not without fruit. Bur: 
+
+
+On the contrary weinfer 
+_ They that are lefs able by dexterity 
+of Wit; may moit conveniently addi 
+
+
+themfelves to ftudies:) 
+But Women are lefs able by dexte 
+rity ofwit.. Therefore. 
+
+
+We prove the Major;‘becanfe ftudi¢s 
+
+
+do fupply. us with: aids and helps for © 
+
+
+our weaknefs : 
+Therefore; > 
+
+
+An, objeaion. © 
+
+
+Whofe mind: isnot inclinéd’ to: ftu- 
+dies, they are not fit to ftudys 5 
+But the minds of Women 4te not 
+They prove the Majer; becaufé no- 
+thing-is to'be done invitd Minervésas we 
+lay, Againfithehair, = 
+The Minor they will prove from ufe 
+and cultomes becaufe very feldom‘do © 
+Women apply their mind toftudy 
+We anfwet to the Major. It fhould . 
+| oe ae be 
+
+
+; 29 
+
+
+—seae = ~~ 
+
+
+HER SOGEE A Lag  ALogithk Exercife. 29 — 
+T be Learned Maid, Rese) ey. 
+
+pee | Teachersthey may exercife themfelves 
+
+be thus =: Whofe smind, after all means atho me. | 
+
+duely tried, «15 not inclined to fludies; | pane ae 
+
+otherwife itis denyed, : IV, Objettion, 
+
+To the Minor we fay, no mancay | G80 OS 
+rightly judge ofourInclinationto fy. |. Studies are not fitt for them 
+dics; beforehe hath encouraged usby | whofe labour miffeth of its proper 
+the beft reafonsand means tofetupon | yd, 9 sh 
+them : and withall hath given usfom | But the labour of Women miffeth 
+tafte of their {weetnefs,althoughinthe | 4f its proper End. seep cs ob Ss 
+mean time we donot want examples) | = Therefore. 
+evince the contrary to betrue..— The Major may beproved, becaufe — 
+
+= | | the Endis. that for which all things are 
+
+III. Objection--~ =—=—|_~—s done. BEG hth TIMI ASRS EES ge 
+
+The ftudies of Learning are nt! © They prove the Minor by this; that 
+convenient for thofe that are deftitue | - Women are feldome or never prefer- 
+of means necellary to their ftudies; | ed to publicke ‘Offices, Politicall, 
+
+But Women aredeftirute of mean, Ecclefiafticall, or Academicall. © 
+
+Gre, aVURN OT 18 2O ER OE | We anfwer to the Major: Women, 
+oo Dherefore. 20 °° 9) | in fhecularive Sciences are never fruftra- 
+
+The Major is without controverlit| tedoftheir End: andin the Pratticall © 
+
+» They endeavour to prove the Me} (now fpoken of ) though they attain 
+nor; becaufe there be no:Academit'} notthe Primary, orthat publick Ends 
+and Colledges, wherein they may¢r| yet doc they attain a Secondary End, as | 
+ercife themfelves, Sse 1 may fay, and more private, 
+
+‘But we deny. this confequence ; a ae sass ps Sey dle 
+jt fufficeth, that under the conduéd [POR RAT IG IPAS RN Pd yy Obs 
+sheir Parents; or of fome® privat! ee : 
+
+F a Teacht,) 
+
+
+- -* * 
+—_ 
+
+
+— Lar a 
+
+
+39 ~*~ ue weaTpe NIG, 
+V, Objection. mates: 
+
+
+Towhom, for.their Vocation, iti 
+fufficient to know a little, to them) 
+mot convenient the Encyclepady, or ; 
+more fublime degree of knowledge, 
+
+
+But it is fufficient to Women,¢;, | 
+
+
+vi, rah ORCL ORG gr is. cts oka bist 
+They prove the Majors be aule itis 
+‘not convenient for any oneto ftud 
+things fuperfluous and impertinent 
+his Calling. fee eee 
+
+
+The Minor they will prove$ becauk 
+
+
+. 
+— 
+
+
+forfooth the Vocation, ofa Maid, «| 
+
+
+Woman;,is included in very nartoy 
+limits; the 
+; nomicall life, SHU 
+
+
+_Letthe Myer pa 
+
+
+wt 
+
+
+WOLGss, 
+
+undead the Vacation of a privat 
+lifes op 
+fay, by the fame, reafon. the Bacyelopel 
+ora more fublime degree of Knott 
+
+
+a 2 ~) 
+
+
+ledge is denied all men too, that leada} 
+
+
+private life : When yet, that moft grave 
+| ) ~“Sentenct 
+
+
+termes of a private or Ocft | 
+7 pats we afer tote 
+Minor. There. is an ambiguity i th) 
+
+Firlt, Vocation : Fors, if here thy) 
+
+
+eye to publick Offices, We} 
+
+
+A Logick Exercife. 31 
+
+
+Sa 
+
+
+Sentence of Plutarch is pronounced of 
+
+
+J] men of what yank foever; without 
+
+
+exceptions It becomes 4 
+pafek*Man, to know 
+what étobe knowns and 
+jo doe wihtat ts to be dotie 2 3) 
+
+Bur ifthey un derftand afpectall Vocati-. 
+
+
+eres \ pf < We » 
+
+AY roy PEREioy avd pa 14 
+7 Rs. é ~ A 
+Sewputit:y $1) Toy ovTWYs 
+xo Hexurine Thy JrovTWye 
+
+
+one it ovderto: 2 Family and. Gecono- 
+
+
+micall caress) We fayethat the aniuer- 
+
+
+(al Calling which pertain eth chieflyto 
+
+
+asallyeither as: Chreftians; or at’ leait 
+asmeén) is innowileexc luded by it. 
+Yeay 1may be bold to’ affirm, that’ a 
+Virgin both: may andought efpecially 
+toattend upon this Vaiverfall Calling, 
+asbeing ufually more freefrom the im- — 
+pediments of the former. * Sheirhatis * ae Pe 
+unmarried careth for the things of the Lord: yA ‘' jee 
+1 Gor. vit. 34. Again, there isambi- ra ae 
+
+euity in the words, ét is fufficient which ***” 
+
+
+is fufficiently taken away by whatis 
+
+
+above faid in the limitation of the con- 
+venience and neceflity of {tudies, 
+~ Wherefore our Thefis {tands firm: 
+
+
+A Chriflian Maid, or Woman, may ¢on- 
+
+
+vemently geve her (elf to Learning : : 
+ty Ge 4 Whence 
+
+
+-_-— 
+
+
+a: 
+
+
+r ii 
+
+
+Whence we draw this Confectary,” . we 
+
+
+a 
+
+x y ery = | Roy as -/° 
+That Maids may and ought to hp 
+excited and encouraged by the bef 
+
+
+and ftrongeft Reafons, by the Tefin, | . 4x7 W ay ae << 
+nies of wife men Boa laftly, ken AN NA : MARI A | 
+examples of illuftrions Women, to theemn. | - Se itaiecs tll 
+bracing of this kind of life efpecially aA SCHVRMAXNR — 
+thofe who are above others providedof | ccc iu (eee eine: 3 
+leifure, and other means and aides{y | TO THE 
+
+their ffudies, And, becaufe it is befistht | pe Eins 
+
+the mind be feafoned with Learning | Famous Scholar 
+fromthe very Infancy: thereforeth| = ae 
+Parents themf{elves are chiefly to befin |PETRUS GASS ENDUS 
+red up; as we fuppofe, and to be admo | IE AGRE te: 
+
+
+a A 
+
+
+__ pifhed of their duty, = es 
+7 Rez 310 U have lately in your 
+ai moft courteous ‘Letters 
+| BARS! given fuch a favourable 
+| Character of me, and 
+A N NA | deferibed me after the Pattern of 
+oe | Virtue herfelf, that Iwould not de- 
+
+
+ire any other Statue tobe decreed 
+tomy eternall Memory, if your 
+cn : Good 
+
+
+—_—<———— 
+I 
+
+
+— == =~ eee $e ee ——— 
+Sa ee Se 
+= ———— — - St ge 
+
+
+aA Say ee Learned Maid,  P Adogick,Ewercifz. 35 
+ Good-willherehad not carried yoy fomable. 40 far as Adodeffy would per- 
+beyond the bounds of Trath, By, mit? Butoit is an illuftrious .Argu- 
+
+
+feeing you, that are in other thing) ment of your Love to true Wtfedows, 
+— Amok fevere Patron of Truth, xm thatyouere fo far from contemning 
+fo far tranfported, either by th| theleatt (park of it» even wnomr Sexs 
+fair wind of flattering Fame, or by\ thatyouate pleafed to.cheryhit,and 
+an exceflive Affection to us, that jy raife it up intoia Flame, Wherefore, 
+accumulating: prayfes on me, yo) though for divers reafons, I have — 
+haverather expreffed the Candm|heretofore refolved to fend no 
+of your own Minde, then my#}i Letters unto Strangers s.neyerthe- | 
+figies, 1, fhould offend - agatl| lelss becaufe your Virtae and your 
+your Genius and veracity, unlelle|| excellent Benefits conferred upon 
+did without. delay deliver youou| thewhole World of Learning, ex- 
+of this loving errour. I petceite| empt you Our of that number, I 
+youhave fo kindly interpreted on fhould incur the difpleafure of all 
+fhort Di(ertation of the mote po, the Graces» fhould I not by fome 
+fiteftudies. of the Femsal Sexe, thi Monument or other teftific, how 
+from thence hath proceeded ml) much caufe of joy Ihave, fromthe 
+frill acceffion ‘to your cfeem) -4pprobation you have youchfafed 
+me: Andyet, what I’ pray is greatl] © my courfe of Life, My ambi- 
+to be praifed'in this writing, belitt) "'0n isto pleafe the Few and Good 
+my endeavour ferioufly to mal ( for to pleafetne Many is to difpleafe 
+tain’ a liberal Caufe, and cif Fm the wife) and you efpecially, whom 
+have any fuffrage here) = ie furnifhed with fuch Arms, 
+BP | Onhvr “a rg and 
+
+
+6 = The Learned Mid, Fe banat 
+36. d Maid, Aare Bs 
+ahd Forces, that as of late VOU hie ic3s10% : 
+
+
+excellently ‘vindicated the Repu, cae) OT eae) 
+
+
+tion of ancient Philofophy ; ‘i oy ERD ELD ADDED 
+“need be, you can eafily defendtty 
+A N NA. M AR <i A 
+
+
+‘common Caule of Good _Artsani| | 
+Learning, againft the proteffeds) — 
+
+wemies ereof, or at leatt ues tial es 4 SC Ht y. R MA N, 
+temners of the Female Glory. oT othown sath ite 
+
+
+{ 
+
+
+“Farewell verecht xii. Kale if GUNN. BSB RUE CUAL ot 3: 
+| Ian. C19 Ipc KLTV e no rahe He ae 4 
+
+
+Have feen your Treatite, Of the 
+: excellency of the Féiiale Sexe: 
+
+ \butI have onely feen it, “as w zapde» 
+
+é a  } on the By, both by reafon of vari- 
+
+) | ouslittle bufineffes, wherein Iam 
+
+_... | even againft my will many times 
+
+| engaged; and becaufe I feared, leaft 
+
+| bydetaining it with me, Ifhould be 
+
+2 ee | shindrancetoyou, and have more 
+
+A NM Tegatd to my own defire then your 
+ios Ao bs | defign. Truely, ladmired your 
+PS eer, re overflowing kindeneffe , whereby . 
+
+‘| you have been pleafed, not onely, 
+
+by 
+
+
+i _— 
+
+_ . 7 
+- | ’ 
+2 
+
+
+> Ce The Learned Maid, — A Logick Exercife. — 3D 
+by your moft Elegant ftile, “toaff, sank, whom itis eafie to. conteran, 
+thar, which alone | lately requelyl as Men of great Efteem ) doe be- 
+of you; the glory of Leariinggy pold what tendeth to our praife.So 
+Wifedome to our Sexe : but p) that, they thinke we are well dealt 
+favour our Canfe, 4s to equally with, if wee obtain Pardon. for 
+every where to Men, thar I thy apiting to thefe higher ftudies; 
+notfayto prefer us above them | {0 farre are they from being plea, 
+fomethings. Doe ror think Ja) fed, if they fhould fufpect. me to 
+altogether of your Opinion, ef) have given the leaft Occafion of 
+cially, having raifed up fo mag] founding forth our prayfes after 
+Examples of illuftrious W omenp} that manner. me ae 
+fo high. renown. ,, that. vour di} I need not therefore , ufe ma- 
+courfe feemeth to procure thet ny words to prevaile with you, 
+more Envie then: Admniration,| 10t to give our Adverfaries new 
+Wherefore, I.doo heartily intred) matter of Calumniation, after you 
+you; yea by our inviolable: Frient havedone fo much in thisworke | 
+{hip I befeech you, that you woul, 0 ftoppe their mouthes. But if 
+TOL Cas: according, tO YOUE acc you fecke fome illuftrious Name 
+ftomed favour toward. me; Jol '° preixe in the Fronti{pice of 
+feem to-intend ) Dedicate thi] "8 Booke , you will not finde, 
+Book.tome, Fors you. are not) '" my Opinion, any more aut 
+norant, with. what. evil: eyes. tht) Picious then the Name of 2. LY. 
+ereateit.partof men-(I mean at) ‘> you cannot but receive 
+fo: mach Men. of. the- mead much Favour from this Noble 
+nad rant, | | 4 a Lady, 
+
+
+a Sea ees a eee oo ey ca —- —- _ ea a ~~ : —— — — SS SS SSS SS eS 
+
+
+The Learned Maid, 
+| Lady, who, as fhe is exceedingly 
+
+
+delighted with good Letters, inj enmnnny 
+Ea pace! 
+
+
+the ftudy of Languages, f0 is fh 
+fafely placed above all danger & 
+Envie. 
+
+And , wiley is the Princip A N IN A eA. A R: a - 
+thing, fhe is able both by her Ay | 
+
+thoritie and Example, to affor aA SCHER uA N. 
+
+
+= ——~ arta a, > a 
+ae = ng a ee ae 
+=; — ——— < = == — 
+[=== =; = _— ————— = 4 a wa ae. 
+— — = —— eae te 
+
+S———— —— — < - a 
+
+— 2 = =~ —— —— = SS 
+— =————— ——— a = —SEI SS. 
+
+
+— 
+—— — 
+
+
+Hi 
+il no fmall Honour to our Caufe, 
+i i : : ‘: pains: TO THE, 
+an) ~ Farewell,my excellent Friend, ~ Moft Noble Lady 
+ake ems x 
+fae Noble Lady, 
+
+
+f Our Letters feemed unto’ 
+me {weeter then Near ; 
+to which, beeaufe I am 
+:. highly delighted in con- 
+ctting with you, I had returned a 
+~ | More fpeedy Anfwer ,’‘had I not. 
+“ANS i Waited for the Bearer ‘my Brother's 
+| §0ing that way toward: ‘Eng nd. - ni 
+3 ” WHe Se | 
+
+
+._ 
+‘ 
+
+
+ut hE 
+1) 
+f tt) 
+0) 
+Fi | Hi 
+Wi ee 
+(} tHE iP) 
+a” q 
+0) a 
+we 
+Wh iW 
+“a ] 
+| 
+| } 
+vu 
+i" 
+iW Wile . 
+ye 
+Ba) 
+} 4 | 
+|) Ne 
+iyi Alps 
+Hela! Un 
+I | ‘ 
+(it iff 
+| I iI 
+j i} 
+: 
+} ie 
+} Wig 
+il 
+Wed Wh is 
+{|| BMS 
+14 
+Mite 
+Wb 
+Hi 
+11) Ue 
+I 
+i) Ts 
+WA 
+! 
+Hille. 
+a! 
+MAE 
+i] 
+vit 
+; Pl 
+i} . 
+any 
+NAL 
+| MTN 
+Wie 
+th 
+/ 
+HL | 
+lia 
+! { Ni 
+j WAL 
+yy 
+| 
+ith 
+7] 8 
+Him 
+te 
+TNE 
+if] 
+WHY 
+H i 
+HN 
+| 
+11) 
+
+
+ee 
+
+
+Se ee ee 
+7 
+
+
+The Learned Maid, 
+He will declare unto youthe map. 
+ner of my Life, and open to your 
+view the clofet of my heart, (where 
+you will finde your {elf to. have, 
+
+
+chief place.) Yet I caMnot chuf | 
+but fay fomething to thegraveand 
+ferious Argument of yout Epiftle 
+
+
+Youenquire, how Forder and dif 
+pofe of my affairs, that with leat 
+
+
+offence, I may efpecially in thel 
+
+
+calamitous times, » pals through the 
+troubles of this Life. Though! 
+acknowledge -your fingular Mo 
+defty’and Civility, that you elteem 
+my Example not unworthy of yout 
+Imitation : yet I doubt not, ify 
+Gods Grace} we might once enje) 
+the happinefs.of living rogeme 
+the fame; honfes! we may be abler 
+fo gceatia, Confpiration: of Audits 
+
+
+_andaaffections, to.excite each ot 
+_amnto Virtue; Howeverk will s 
+“youina word, not what alwa) 
+
+
+R “ — + eit al 
+Yattain-toy.-bat. whar matk 4 
+ee & ae } 
+
+
+~s we 
+ec 
+
+
+A Logich Exercife. 
+st, to comeasnearas I can. The 
+compendious and fafeft way is 
+pointed out unto us by the Pole- 
+Statre of Heavenly’ Truth. For 
+it was excellently: id) by’ 'that 
+oreat Earle of CMirandula : Philo- 
+
+
+fophy feeks Truth; Theology finds it, 
+
+
+Religion pofseffeth at. But, that 1 
+may not goe from the purpofe; we 
+determine with the notable Philo- 
+
+
+fopher Epécfetus not amifs ; That 
+
+
+Humane Affaires have two Han- 
+des: yet. not, as He, One con- 
+venient, the othét inconvenient : 
+but, Both moft convenient, if 
+they be well and orderly taken. 
+Thus, W hatfoever pertaineth toa 
+Virtuous and happy life, mutt ei- 
+ther be referred to Divine Provi- 
+dence, or to our Dutie. As tothe 
+
+
+firt, my bufinefs is, that in things 
+outofour power, I may have one 
+
+
+onely cate, namely, to’ caft all my 
+Catesupon God: according to that 
+; t¢ ~p 2 ad- 
+
+
+43 
+
+
+— ~~ 
+
+
+The Learned Maid, 
+
+Advice of the Apoftle ; Caf yea 
+your care upon him, for he careth fur 
+
+ou. For indeed, here. is the Ori. 
+-‘ginall of all our inquietude, thy 
+we.ufe to roull in our minds tog 
+anxioufly the events of things, 
+which alone depend upon the 
+pleafureof Almighty God. . Next 
+asto our Duty: it belongethtou 
+to moderate and govern thot 
+
+
+things onely which fall under out | 
+
+
+deliberation, both by our indufty 
+and prudence. . an 
+Nothing doth fo much: throw 
+us out.of the Caftle of Tranquil 
+tic, asevil Examples, and thefal 
+lacious enticements of this, W orld 
+( That I may. omit the. tedioul | 
+neffe and trouble » perpetually a 
+tending their Condition, whoat 
+as it Were, upon the — public 
+Stage.) And for this, Malady;! 
+find no remedy more prefent att 
+- efte@uall then the retirement 4 
+= Studie 
+
+
+A Logith Exercife 
+
+
+#5 
+
+
+Studies. For; fince the manners © 
+
+
+of Menare focorrupted, one can 
+hardly raife fo much heat in others 
+for the profecution of Virtue; as 
+héfhall abate of his:own, for the 
+mot part, by frequent Conver- 
+ftion with the Men of this Age. 
+But here, in our receffe , the va- 
+nities and deceits of the World, 
+being farre removed, we judge 
+of all things more rightly., and 
+
+
+fecurely contemne the vanities © 
+
+
+that fill prophaner fouls with ad- 
+miration. 
+
+Here, fweetly paffing away our 
+time with the Mufes, we erect 
+our minds to ‘higher matters, and 
+without impediment runne the 
+courfe of Philofophy. Whereof 
+you may. reade more in the Prin- 
+ted Epiftle enclofed. To which 
+Ihave added my Effigies done. 
+to the Life with my own hand : 
+that, every way, fo faras I can, I 
+
+ao ee may 
+
+
+eS 
+
+
+The Learned Maid, 
+
+
+may make my felfe RnOW Unto 
+you. he 
+
+_ Farewell, the immortal] Hono |; 
+of our Sexe , and continue your 
+Love to Her, ‘who loves you mof 
+affectionately. 
+
+
+Vtrecht, Cal. April. MDCXLI, 
+
+
+Y SBaetae 3 Oe M ). 
+
+
+N N is Me A Ne * A 
+To the Hengehre teva 
+
+
+/SEMOND. D EWES: 
+
+
+Havereccived set Tele t - : 
+luftrious Sir, with great Joy; as 
+
+
+| itwasfit to receive Letters that car- 
+
+
+_-—. be 
+SO eh AE ey tt EE Gl TO Re OT OO 
+
+
+ANNA! 
+
+
+| ry with them the pureft candour,, 
+| and moft; polite: Humanity. And 
+
+
+truely, L would not have fo long, 
+delayed. my Anfwer, but that-for 
+
+
+| divers reafons, I have refolved to 
+
+
+Write tomy Countrey Men not of- 
+ten, to ftrangers very feldome. Ne- 
+vertheleffe , having: lately under- | 
+| ftood by the molt. Noble and mott ” 
+faithful. Lord Strickland , how. 
+
+
+much youexcelled in Honour; and. 
+
+
+D 4 all 
+
+
+~The Maid, 
+all kind. of Learning, 
+
+
+to yield very much) blufheth po, 
+to give place to your affable Vj, 
+
+
+tues, as the chiefeft of al]. Where, 
+
+
+fore in Contemplation hereof, | 
+laid hold upon my Pen with ay 
+earneft defireto doe them thatre. 
+verence by my. Letters, Which 
+they juftly require at my hands, 
+AndI wasnot a little encouraged 
+hereunto by your moft equitable 
+
+
+Sentence concerning otit Sexe: 
+which I heartily with 1 coulda 
+well make good by my Example, 
+(according to your too favours 
+rable Cenfire ) ‘as by reafons, and 
+
+
+Arguments. | 
+Asto what you write concer: 
+
+
+ing the moft Learned Matron, Me 
+dam Bath/ua Metkins , that the 
+fo highly commended my Induftri¢ 
+in fublimer ftadies, arid that you 
+
+
+Were upon that account ai 
+: , Wit! 
+
+
+: any Virgin, | 
+bathfulnefle (to which I am upg 
+
+
+ALogick, Exercife, 
+
+
+withan incredible defire of have- 
+
+
+ing conference Withme: All this, 
+I impute both to her undeferved 
+affection toward me, andto your 
+
+
+courtefie in giving fo éafie an At 
+
+
+nt, For youafcribe unto me fuch 
+slory of Learning ,which if] fhould 
+willingly admit, I fhould greatly 
+offendagainft the Lawes of Truth 
+and fobernefle. And yetI will not 
+denie, that! am very much de- 
+lighted with the beft and noblett 
+
+
+things, though fome times they 
+
+
+exceed my capacitie. And I be- 
+
+
+feech you thinke not Iam infenfi- 
+ble ofthat Concuffion and fhaking 
+
+
+49 
+
+
+of your Gommon-wealth : for - 
+
+
+etsarefent upto Heaven. Where- 
+fore, you will doe me a very great 
+favourif.as you promife, you pleafe 
+
+
+whofe fafetie my inceffant Pray- 
+
+
+fOcommunicate unto us (partak- 
+
+
+cts of the fame caufe) whatfo- 
+
+
+ever fhall be atchieved by your. 
+
+
+Honou- 
+
+
+I 
+
+
+‘0 The Learned Maid, =» ‘J 
+
+
+~” Honourable Affemblie Cithet in path HOLS SLL HwAS 
+Peace or Warre.. HOH te cpeeageeseaagesse 
+
+
+Farewell, the great Patron of) «EO THE 
+
+
+Learning, with your, moft P ene. Reverend Do &or : 
+rous Wife, whom I entreat you er te Be 
+
+
+moft humbly tofalure inmyname, | ppeDERICVS SPANHEMIVS 
+
+
+| Vrrecht prid. Calend. Novem, AN N A M A R I A 
+
+
+ MDCXLY. 
+
+
+\ 
+
+
+A SCHVRMAR: 
+
+
+Have received, your Letters, 
+
+
+| 2 Reverend Sir, but faw not the 
+| Miniter whom you commended 
+gong: | tome De meliore mota; asa man of 
+
+
+thebetter mark. Asto the Edition 
+
+ofmy Trifles, which you ftill per- 
+
+| fwademe to yield unto: though 
+
+| have been. hitherto irrefolute, yet 
+“| flow becaufe it is your pleafure, 
+To} 1 cannot any longer refift your 
+
+| Counfels,proceeding from fo much 
+
+| Candour and friendfhip. 
+! Yet 
+
+
+52 
+
+
+Se ——— a 
+
+
+The Learned Maid, 
+Yet becaufe many of the Let 
+
+
+ters containe little befide worg, 
+
+
+and complements, | will take a care 
+thatthebeft ofthem ( fuchas the 
+are) fhall be fele&ed and rédn Gin 
+tedto yourhand. But do youcoy. 
+reét, form and reform them ac 
+cording to your,own mind; and 
+
+
+~ take the fame power over this Ep. 
+
+
+ftle which I fend to 2Y, and if you 
+fufpea any fyllable in it that may 
+
+
+juftly offend him, blot it out, and 
+then be pleafedto feal i it we and e | 
+
+
+liver it. 
+
+
+; i 
+
+
+~ Rarewell my moft ee friend: 
+Wedo alfo very affectionately & 
+lute you and your dear Wife. 
+
+
+Verecht ix. Cal. an MD CX Lvl, 
+
+
+01 
+
+
+abate eeuenens: genee aenae 
+seeerrtr erty estes 8 
+- Out of an Bpile 
+Prghs o> wera 
+ni R I V E T 
+ee hy x 
+
+
+1O conclude, Twill here alledge 
+one Example which is ‘ever 
+before my eyes: the Example of 
+that incomparable » Princefs Jane 
+Grey, to.whom no Nation, no 
+
+
+| Age, (Let me {peak it withthe good 
+
+
+leave of all). will afford: an equall. 
+Michael. Angelo ,..a Florentine 
+
+
+‘whodefcribeth the Hiftorie of her 
+
+
+Life‘and Death fully and patheti- 
+cally, hath among otherthingsno- 
+
+
+| tedthis, inthe Conference fhe had 
+
+
+Which Fecknam the Meffenger of - 
+
+her Death :.. Namely that flight- 
+
+ing mete other ‘excellent endow= 
+MICH 
+
+
+The Learned Maid, 
+ments fhe had received from Goy. 
+fuch as Nobilitic , Beautic, an 
+Youth ; whereby fhe might hay 
+acquired Greatneffe and Glory ty 
+her felfe in this World; She mz 
+nanimoufly pronounced; _ 
+
+
+‘Nothing in all her Life ‘was | 
+
+
+—EEE 
+
+
+A Logick Exercife. 
+
+
+Oh fweet words, pronounced 
+not under fhade of the Schools, 
+but at a laft Aét of a moft Glo- 
+ious Martyrdome ! Who 
+
+would not reverence this | 
+faying, and take it for | 
+an Oracle. 
+
+
+| pleafant to her, as that fhe had th| 
+cnowledge: of the three Learnti\ 
+
+
+_ -wion contrary toall reafon. 
+
+
+Tongues. «And, if the delight, 
+
+
+thence arifing to us in this. Lift) 
+may be called by the name of true | 
+
+
+licity, She “conf effed;: her felfe hu 
+found it'in the ftudy of good Le 
+
+
+ters, and: efpecially of the Holy Sip 
+
+
+ture. And, although many mo 
+doe greatly blame fuch: fludies mi 
+
+
+Woman ; yet fhe, for the great wm) 
+
+
+fort of her Soul which fhe had a 
+lat perceived thence, and fill di 
+‘perceive within, judged. their Op 
+
+
+Oo! 
+
+
+: < a : < ' . 
+
+
+3. 
+
+
+RECORD OF EXHIBITION 
+
+
+is 
+
+
+f 
+f 
+~ 
+. 
+i=) 
+©! 
++ 
+dots per inch (optical 
+
+
+— 
+
+
+{j2ondo0) your sed sjop 
+
+
+MM 
+
+
+EE i re aS eee - : $ SSS 00z 00s 
+
+
+oe sinesntientneilithstnmim 
+
+
+- 
+
+
+Sietieiidiadienndhtmantnendemsseeee ee 
+
+
+= 
+
+
+OE en Fee tee 
+
+
+| 
+} 
+} 
+| 
+} 
+
+
+—~ e 
+
+
+neo 
+
+
+ae oe 
+
+

@@ -1,0 +1,67 @@
+source_file: morland_history-evangelical-churches-piemont_1658.txt
+
+assignments:
+  - row_id: morland_history-evangelical-churches-piemont_1658--the-history-of-the-evangelical-churches-of-the-valleys
+    work: "The History of the Evangelical Churches of the Valleys of Piemont (1658), the whole volume"
+    author: morland
+    locus: "whole file; Book I from 'BOOK I.' at line 4652, Book II from 'SECOND BOOK' at line 21943, Book III from 'THIRD BOOK' at line 33580"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: context
+    confidence: assigned
+    note: >
+      Sir Samuel Morland, Cromwell's envoy to Savoy in 1655, writing in London
+      in 1658 from the documents he carried back and deposited at Cambridge. A
+      sympathetic outsider's advocacy history of the valleys, in English, with
+      the massacre of Easter 1655 and the diplomacy that followed to 1658. The
+      OCR renders long s as f throughout, so every quotation is checked against
+      the page image; second witness for exact wording until a cleaner scan is
+      vendored.
+  - row_id: morland_history-evangelical-churches-piemont_1658--the-valleys-own-documents-printed-by-morland
+    work: "The valleys' own documents as printed by Morland: the brief Confession of Faith made at Angrogna 12 September 1532, the ancient confessions, a brief Confession of Faith of the Reformed Churches of Piemont printed in Italian, the supplications of 1655, and the depositions and attestations of the 1655 massacre"
+    author: morland
+    locus: "Book I ch. IV: the 1532 Angrogna confession, heading just above line 7942 ('the 12. of September of the Year 1532'); 'An ancient Confession of Faith of the Waldenses' at line 8508; 'Another Confession of Faith of the Waldenses' at line 9235; 'A brief Confession of Faith' at line 9438 followed by numbered Italian articles, 'An Abbreviation of that Confession of Faith' at line 9686, and 'A brief Confession of Faith published by the Re[formed Churches]' at line 10820 (which of these is the Confession of 1655 was not settled this pass); Book II ch. V the supplications from line 29837; Book II ch. VI the massacre narrative with the copies of the depositions and attestations from line 31028 (the copies introduced at line 31248)"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: tradition
+    confidence: assigned
+    note: >
+      The community's own words in a 1658 English printing: the 1532 articles
+      (the union with the Reformed), the confessions of faith of the Reformed
+      Churches of Piemont, the churches' supplications to their prince, and
+      sworn survivor depositions. Morland
+      prints the originals in French and Italian beside his English for most of
+      them. These are the only in-window Waldensian confessional and testimonial
+      texts in English in the corpus. Wording is a second witness until checked
+      against the page image (long s as f throughout).
+  - row_id: morland_history-evangelical-churches-piemont_1658--the-ancient-manuscripts-of-the-valleys-in-morland-book-i
+    work: "The ancient manuscripts of the valleys as printed by Morland, Book I chapters V-VIII: the ancient discipline, extracts of the ancient treatises (the Nobla Leyczon and others, in the valleys' own language with English), the treatises on Antichrist, Purgatory, invocation of saints and the sacraments, and the discourse on the Barbes"
+    author: morland
+    locus: "Book I ch. V from line 10107, ch. VI from line 12460, ch. VII from line 17828, ch. VIII from line 21276, to the end of Book I at line 21943"
+    atlas_ids:
+      - waldensians-in-the-alps
+    role: tradition
+    confidence: provisional
+    note: >
+      Medieval and early sixteenth-century Waldensian texts from the Cambridge
+      manuscripts, printed in 1658. Morland dates them to the twelfth century;
+      modern scholarship dates most of these manuscripts to the fifteenth and
+      early sixteenth centuries, inside this entry's window, so the placement
+      holds but the dating of each text is a contested claim a build must
+      carry. Provisional because the file was read for the headings, not the
+      treatises. Occitan with Morland's English; second witness for wording.
+  - row_id: morland_history-evangelical-churches-piemont_1658--the-ancient-manuscripts-of-the-valleys-in-morland-book-i-2
+    work: "The ancient manuscripts of the valleys as printed by Morland, Book I chapters V-VIII"
+    author: morland
+    locus: "Book I ch. V from line 10107 to the end of Book I at line 21943"
+    atlas_ids:
+      - the-waldensians
+    role: context
+    confidence: needs-ruling
+    note: >
+      Morland claims these texts for the twelfth-century origins of the
+      movement; that claim is the contested one (Léger and Morland are the
+      source of the 'ancient' dating that later scholarship rejected). Placed
+      here only so the origins entry can see the material; whether any of it
+      reaches back to the window of this entry is a ruling for the builds, not
+      a library call.

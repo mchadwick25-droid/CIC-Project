@@ -1,0 +1,61 @@
+source_file: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
+
+authors_ruled:
+  assemani:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page in the OCR
+      reads "Joseph Simonius Assemanus ... Bibliotheca Orientalis Clementino-Vaticana ... Tomi Tertii Pars
+      Prima, De Scriptoribus Syris Nestorianis" (file lines about 130-145); the same slug is used by the
+      vendored part 2 (1728). A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--dated-series-of-the-patriarchs-sulaka-to-abdisho
+    work: "Bibliotheca Orientalis III.1, De Scriptoribus Syris Nestorianis (Rome 1725): the dated series of the catholicoi and patriarchs of the East, Simeon Bar-Mama, Joannes Sulaka and Ebedjesus of Gazarta"
+    author: assemani
+    locus: "the series of patriarchs with Roman-side dates at file lines about 101030-101110 (Simeon Bar-Mama invades the see in 1552 'quum catholici Sulakam monachum sibi Patriarcham a Romano Pontifice postulassent' at 101046; Sulaka's arrival at Rome 18 November 1552, profession 20 February 1553, proclamation 9 April, return to Amid 12 November, death early 1555; Ebedjesus's profession at Rome 7 March 1562); the index entries for Sulaka from 101538"
+    atlas_ids:
+      - church-of-the-east-schism-of-1552
+    role: context
+    confidence: assigned
+    note: >
+      Assemani's own dated chronology of 1552-1562 from the Vatican side, the list that Lamy's
+      appendix (Bar Hebraeus vol. III, vendored) and Guriel copy. Read at the lines cited. The
+      OCR is noisy (long s as f, dates mostly legible here, Syriac garbled): second witness for
+      exact wording until checked against the page image. The narrative account is in part 2
+      (vendored); this part adds the catalogue of the church's writers.
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--dated-series-of-the-patriarchs-sulaka-to-abdisho-2
+    work: "Bibliotheca Orientalis III.1 (Assemani, 1725): the catalogue of the Syriac writers of the Church of the East, built on Abdisho of Nisibis's catalogue of books"
+    author: assemani
+    locus: "whole file; Abdisho's catalogue with Assemani's notes runs under the running head 'Catalogus Libror. Syror. Ebedjesu' from file line 4305 to about 63161, with Abdisho's own entry ('EBEDJESU SOBENSIS') at 63715; the series of patriarchs from about 101030"
+    atlas_ids:
+      - persian-church-of-the-east-early
+    role: context
+    confidence: provisional
+    note: >
+      The eighteenth-century reference catalogue of the East Syriac writers from the fourth
+      century onward, with Assemani's dated notes. Placed on subject for the early Persian church
+      entry, whose open seed row names the same book in another scan (india.history.resource.71763,
+      fetched and compared, not cleaner). Not read for that entry.
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--dated-series-of-the-patriarchs-sulaka-to-abdisho-3
+    work: "Bibliotheca Orientalis III.1 (Assemani, 1725): the series of patriarchs from Timotheus II to Simeon Bar-Mama"
+    author: assemani
+    locus: "the series of patriarchs at file lines about 100900-101046 (numbers 87-90: Elias 1502-1504, Simeon 1504, Simeon with his brother Jesujab 1530-1538, Simeon Bar-Mama's uncle to 1551)"
+    atlas_ids:
+      - church-of-the-east-timur-to-hakkari
+    role: context
+    confidence: provisional
+    note: >
+      The hereditary succession of the Simeons before 1552 as Assemani dated it from manuscript
+      colophons. Placed on dates; the entries for the fourteenth and fifteenth centuries were not read.
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--dated-series-of-the-patriarchs-sulaka-to-abdisho-4
+    work: "Bibliotheca Orientalis III.1 (Assemani, 1725): the Chaldean patriarchs after Abdisho IV"
+    author: assemani
+    locus: "the series of patriarchs after file line 101110 (Ahatalla, Simeon Denha and the later lines)"
+    atlas_ids:
+      - church-of-the-east-chaldean-consolidation
+    role: context
+    confidence: provisional
+    note: >
+      Assemani's list runs on past 1562 into the lines the consolidation entry inherits. Placed
+      on dates; not read for that entry.

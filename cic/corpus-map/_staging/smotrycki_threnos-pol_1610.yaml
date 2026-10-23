@@ -1,0 +1,28 @@
+source_file: smotrycki_threnos-pol_1610.txt
+assignments:
+- row_id: smotrycki_threnos-pol_1610--threnos-pol_1610
+  work: Meletij Smotryc'kyj, Threnos, that is the Lament of the one holy universal apostolic Eastern Church
+    (Polish text, 1610)
+  author: smotrycki
+  locus: the whole file; title page at the head; dedication to Michal Wisniowiecki after it; colophon
+    'w Wilnie' at about file line 4403
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: antecedent
+  confidence: provisional
+  note: Smotryc'kyj's Threnos (1610) is the Orthodox lament that the Kyiv-Mohyla revival answers and builds
+    on; written before that entry's window (1615-1700), so provisional and antecedent. The Polish text
+    only, with garbled OCR; second witness. The same man later joined the union (see his Apologia, 1628).
+- row_id: smotrycki_threnos-pol_1610--threnos-pol_1610-2
+  work: Meletij Smotryc'kyj, Threnos, that is the Lament of the one holy universal apostolic Eastern Church
+    (Polish text, 1610)
+  author: smotrycki
+  locus: the whole file; title page at the head; dedication to Michal Wisniowiecki after it; colophon
+    'w Wilnie' at about file line 4403
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: assigned
+  note: 'The Orthodox counter-voice to Brest: the lament of the church the union left, in Polish, by the
+    man who later joined the union. Primary for the Orthodox view of the union in 1610; second witness
+    for exact wording because the OCR of the print is garbled. No public-domain English found.'

@@ -1,0 +1,120 @@
+source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+authors_ruled:
+  kopystenskij:
+    kind: metadata-omission
+    evidence: The volume's table of contents (about file line 336) lists 'Palinodiia. Sochinenie Kievskago
+      ieromonakha Zakharii Kopystenskago, 1621-1622 goda'; the file name carries the series title, so
+      the author is supplied here from the contents list and the running heads (from about file line 20642).
+  krevza:
+    kind: metadata-omission
+    evidence: The contents list (about file line 337) names 'Oborona uni. Sochinenie Vilenskago arkhimandrita
+      Lva Krevzy'; running heads read 'Oborona uni, soch. Lva Krevzy, 1617 goda' (from about file line
+      10994). The author is supplied from the contents list because the file name carries the series title.
+  filippovich-afanasii:
+    kind: metadata-omission
+    evidence: The contents list (about file line 334) names the diary of the Brest hegumen Afanasii Filippovich,
+      1646; running heads read 'Diarush Afanasiia Filippovicha, 1646 goda' (from about file line 4693).
+      The author is supplied from the contents list.
+  kyiv-council-1640-sakovych-account:
+    kind: anonymous
+    evidence: 'Running heads (about file line 1285) read ''Kievskii sobor 1640 goda, po razskazu Sakovicha'':
+      the council''s acts are printed as reported by Sakovych, not as a text of the council itself; treated
+      as a work-entity, not an author''s work.'
+  artemii-starets:
+    kind: pseudonymous
+    evidence: 'The editors'' preface (about file line 262) calls these ''poslaniia, pripisyvaemyia starttsu
+      Artemiiu'': epistles ascribed to the elder Artemii, tried at the Stoglav council; running heads
+      read ''Poslaniia startsa Artemiia, XVI veka'' (about file line 81026). The attribution is the editors''
+      own hedge and is carried here.'
+assignments:
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--palinodiia-ili-kniga-oborony-katholicheskoi-palinodia-or-the
+  work: Palinodiia, ili kniga oborony katholicheskoi (Palinodia, or the Book of Defence of the Catholic
+    Church), 1621-1622
+  author: kopystenskij
+  locus: title page at about file line 20553; text from about line 20570 to about line 80100 (columns
+    313-1200); table of contents at columns 1181-1200
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: assigned
+  note: The Kyiv Caves hieromonk's answer to Krevza's Oborona uni and to Skarga, written 1621-1622 in
+    the Ruthenian of the Kyiv brotherhood milieu, first printed here in 1878 from the Moscow Synodal manuscript
+    collated with two other copies (per the editors). Orthodox Kyiv's own long apology of the pre-Mohyla
+    generation, the works Mogila's college inherited. Readable OCR for the Ruthenian; check quotations
+    against page images (second witness).
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--palinodiia-ili-kniga-oborony-katholicheskoi-palinodia-or-the-2
+  work: Palinodiia, ili kniga oborony katholicheskoi (Palinodia, or the Book of Defence of the Catholic
+    Church), 1621-1622
+  author: kopystenskij
+  locus: same as the Kyiv row
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: provisional
+  note: The Orthodox answer to the Uniate Oborona uni (same volume). Placed from the editors' preface;
+    the Union of Brest thread rules on weight.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--oborona-uni-defence-of-the-union-by-lev-krevza-1617
+  work: Oborona uni (Defence of the Union), by Lev Krevza, 1617
+  author: krevza
+  locus: running heads from about file line 10953 (columns 157-312; detailed contents at columns 309-312)
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: assigned
+  note: The Uniate archimandrite of Vilnius's own defence of the union, 1617, printed in Ruthenian. The
+    inside voice of the other side of the settlement, and the text the Palinodiia answers. Readable OCR
+    with scattered errors; second witness for quotation.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--oborona-uni-defence-of-the-union-by-lev-krevza-1617-2
+  work: Oborona uni (Defence of the Union), by Lev Krevza, 1617
+  author: krevza
+  locus: same as the Union of Brest row
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: provisional
+  note: The text Kopystenskij's Palinodiia (Kyiv, 1621-1622) answers; the argument Mogila's generation
+    inherited. Placed on that link in the editors' preface.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--diarush-diary-of-afanasii-filippovich-hegumen-of-brest-1646
+  work: Diarush (diary) of Afanasii Filippovich, hegumen of Brest, 1646
+  author: filippovich-afanasii
+  locus: title at about file line 3360; running heads from about line 4693 (columns 49-156)
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: assigned
+  note: An Orthodox hegumen's first-person account of life under the union, written before his execution
+    by the Poles in 1646 (editors' preface). Ruthenian, readable OCR with errors; second witness for quotation.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--diarush-diary-of-afanasii-filippovich-hegumen-of-brest-1646-2
+  work: Diarush (diary) of Afanasii Filippovich, hegumen of Brest, 1646
+  author: filippovich-afanasii
+  locus: same as the Union of Brest row
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: provisional
+  note: An Orthodox witness of Mogila's own decade, including his journey to Moscow for alms and his mention
+    of the 1638 Kyiv printing of the Kupiatychi icon (editors' preface). He is a Brest hegumen, not a
+    Kyivan, so placed provisionally; the fit is the Orthodox resistance Mogila led.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--acts-of-the-kyiv-council-of-1640-as-reported-by-sakovych
+  work: Acts of the Kyiv council of 1640, as reported by Sakovych
+  author: kyiv-council-1640-sakovych-account
+  locus: running heads from about file line 1285 (columns 17-48)
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: assigned
+  note: The council that adopted the Confession, reported by Sakovych, who had left the Orthodox for the
+    Uniates. A hostile report of the Kyiv council (the editors note his 'poisonous remarks'), useful for
+    what the other side said, not the council's own record. Garbled in the Polish quotations; second witness.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--poslaniia-startsa-artemiia-epistles-ascribed-to-the-elder
+  work: Poslaniia startsa Artemiia (epistles ascribed to the elder Artemii)
+  author: artemii-starets
+  locus: running heads from about file line 81023 (columns 1201-1448)
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: tradition
+  confidence: provisional
+  note: Epistles ascribed to the Muscovite elder Artemii, tried at the Stoglav council of 1551 and later
+    a refugee in Lithuania (editors' preface). Placed on the Russian Church entry's window; the attribution
+    is the editors' own hedge, and the epistles were written in Lithuania, so a build thread may prefer
+    to rule it context.

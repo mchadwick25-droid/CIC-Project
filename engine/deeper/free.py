@@ -66,40 +66,37 @@ class FreeAllowance:
             return None
         return self._meter.free_key(f"network:{network}")
 
-    def _room(self, key: str, size: int, share: float) -> int:
+    def _room(self, key: str, size: int) -> int:
         """Caller holds the lock."""
-        return max(0, int(size * share) - self._meter.free_window_spent(key) - self._held.get(key, 0))
+        return max(0, size - self._meter.free_window_spent(key) - self._held.get(key, 0))
 
     def account_key(self, account_id: str) -> str:
         return self._meter.free_key(f"account:{account_id}")
 
-    def _account_room(self, key: str, refill_day: int, share: float) -> int:
+    def _account_room(self, key: str, refill_day: int) -> int:
         """Caller holds the lock."""
         spent = self._meter.account_window_spent(key, refill_day)
-        return max(0, int(self.window_amount * share) - spent - self._held.get(key, 0))
+        return max(0, self.window_amount - spent - self._held.get(key, 0))
 
-    def account_left(self, account_id: str, refill_day: int, share: float = 1.0, network: str | None = None) -> int:
-        """What the account may still draw this window, under the share in force and no more
-        than the network window has left."""
+    def account_left(self, account_id: str, refill_day: int, network: str | None = None) -> int:
+        """What the account may still draw this window, and no more than the network window has left."""
         key = self.account_key(account_id)
         nkey = self._network_key(network)
         with self._lock:
-            room = self._account_room(key, refill_day, share)
-            return room if nkey is None else min(room, self._room(nkey, self.network_window_amount, share))
+            room = self._account_room(key, refill_day)
+            return room if nkey is None else min(room, self._room(nkey, self.network_window_amount))
 
-    def account_reserve(self, account_id: str, refill_day: int, amount: int, share: float = 1.0,
+    def account_reserve(self, account_id: str, refill_day: int, amount: int,
                         network: str | None = None) -> FreeReservation | None:
         """Holds amount against the account's window and the network's, or None when it does not fit either."""
         if amount < 1:
             raise ValueError("amount must be at least 1")
-        if not 0 < share <= 1:
-            raise ValueError("share must be above 0 and at most 1")
         key = self.account_key(account_id)
         nkey = self._network_key(network)
         with self._lock:
-            if self._account_room(key, refill_day, share) < amount:
+            if self._account_room(key, refill_day) < amount:
                 return None
-            if nkey is not None and self._room(nkey, self.network_window_amount, share) < amount:
+            if nkey is not None and self._room(nkey, self.network_window_amount) < amount:
                 return None
             self._held[key] = self._held.get(key, 0) + amount
             if nkey is not None:
@@ -116,32 +113,28 @@ class FreeAllowance:
         key = self._meter.free_key(visitor)
         nkey = self._network_key(network)
         with self._lock:
-            room = self._room(key, self.window_amount, 1.0)
-            return room if nkey is None else min(room, self._room(nkey, self.network_window_amount, 1.0))
+            room = self._room(key, self.window_amount)
+            return room if nkey is None else min(room, self._room(nkey, self.network_window_amount))
 
-    def left(self, visitor: str, share: float = 1.0, network: str | None = None) -> int:
-        """What the visitor may still draw under the share in force: the narrowed
-        window less what is spent and held, and no more than the network window
-        has left. Never below zero."""
+    def left(self, visitor: str, network: str | None = None) -> int:
+        """What the visitor may still draw: the window less what is spent and held, and no more
+        than the network window has left. Never below zero."""
         key = self._meter.free_key(visitor)
         nkey = self._network_key(network)
         with self._lock:
-            room = self._room(key, self.window_amount, share)
-            return room if nkey is None else min(room, self._room(nkey, self.network_window_amount, share))
+            room = self._room(key, self.window_amount)
+            return room if nkey is None else min(room, self._room(nkey, self.network_window_amount))
 
-    def reserve(self, visitor: str, amount: int, share: float = 1.0, network: str | None = None) -> FreeReservation | None:
-        """Holds amount against the visitor's window and the network's, or None when it does not fit either.
-        share narrows both windows: 0.5 lets a visitor draw half of each."""
+    def reserve(self, visitor: str, amount: int, network: str | None = None) -> FreeReservation | None:
+        """Holds amount against the visitor's window and the network's, or None when it does not fit either."""
         if amount < 1:
             raise ValueError("amount must be at least 1")
-        if not 0 < share <= 1:
-            raise ValueError("share must be above 0 and at most 1")
         key = self._meter.free_key(visitor)
         nkey = self._network_key(network)
         with self._lock:
-            if self._room(key, self.window_amount, share) < amount:
+            if self._room(key, self.window_amount) < amount:
                 return None
-            if nkey is not None and self._room(nkey, self.network_window_amount, share) < amount:
+            if nkey is not None and self._room(nkey, self.network_window_amount) < amount:
                 return None
             self._held[key] = self._held.get(key, 0) + amount
             if nkey is not None:

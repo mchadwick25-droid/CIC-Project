@@ -13,6 +13,7 @@ import { DeletedNotice } from '../components/DeleteConversation';
 import { Enter } from '../components/Enter';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { ResourcesFirst } from '../components/ResourcesFirst';
+import { SavedToHome } from '../components/SavedToHome';
 import { TranscriptScroll } from '../components/TranscriptScroll';
 import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
@@ -197,6 +198,7 @@ export function TableRoom({
         )}
         <WaitingNote show={waiting} label="The table is considering" />
       </TranscriptScroll>
+      {started && <SavedToHome />}
 
       {error && (
         <div className="conversation__error" role="alert">

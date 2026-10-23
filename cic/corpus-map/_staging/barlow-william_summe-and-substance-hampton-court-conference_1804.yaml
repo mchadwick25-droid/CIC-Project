@@ -1,0 +1,50 @@
+source_file: barlow-william_summe-and-substance-hampton-court-conference_1804.txt
+
+assignments:
+  - row_id: barlow-william_summe-and-substance-hampton-court-conference_1804--the-summe-and-substance-of-the-hampton-court-conference-1604
+    work: "The Summe and Substance of the Conference at Hampton Court, January 1604 (first printed 1604)"
+    author: barlow-william
+    locus: "the reprint's 'ADVERTISEMENT' at file line 127; Barlow's dedication and the conference follow, reported day by day (the second day, 'ON Monday, January sixteen', at line 1214), to the end of the file at line 3754"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The establishment's own account of the Jacobean settlement of the Prayer
+      Book: James I's words with the bishops and the Puritan petitioners, the
+      small changes to the book, the order for the new Bible translation. Barlow
+      wrote for the bishops' side. SECOND WITNESS for exact wording: the OCR
+      renders the long-s as "f" throughout ("pleafed"), so a quote must be checked
+      against the page image. Author slug barlow-william, not the existing
+      `barlow` (Thomas Barlow, 1681).
+
+  - row_id: barlow-william_summe-and-substance-hampton-court-conference_1804--the-summe-and-substance-of-the-hampton-court-conference-1604-2
+    work: "The Summe and Substance of the Conference at Hampton Court, January 1604 (first printed 1604)"
+    author: barlow-william
+    locus: "as above, whole file"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: assigned
+    note: >
+      The Millenary Petition's hearing, as reported by the bishops' man: Reynolds,
+      Chaderton, Knewstubs and Sparks speak for the godly, and the king's own
+      words against presbytery, as Barlow reports them, close the door. A hostile
+      but detailed outside record of
+      the Puritan case at its most official moment. Read directly: assigned. Same
+      OCR caveat.
+
+  - row_id: barlow-william_summe-and-substance-hampton-court-conference_1804--the-hampton-court-conference-1604-puritanism
+    work: The Summe and Substance of the Conference at Hampton Court, January 1604 (the Puritan ministers'
+      requests and the king's answers, as reported by Dean Barlow)
+    author: barlow-william
+    locus: whole file (3754 lines); the Puritans' objections from about file line 192
+    atlas_ids:
+    - puritanism
+    role: context
+    confidence: assigned
+    note: 'The one official record of the Puritan party''s hearing before James I (Reynolds and the ministers
+      of the Millenary Petition), written by a conformist dean and hostile in its framing; what the godly
+      asked for in 1604 survives here only in their opponents'' report. Cross-link tier: same time and place.
+
+      '

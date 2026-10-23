@@ -3,6 +3,253 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-kyiv-mohyla-orthodox-revival
 works:
+- row_id: akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865--akty-iuzhnoi-i-zapadnoi-rossii-vol-2-documents-of-the
+  work: 'Akty Iuzhnoi i Zapadnoi Rossii vol. 2: documents of the Ruthenian Orthodox, 1599-1637
+    (the Vilnius brotherhood''s suits, Smotrytsky as archbishop of Polotsk, Mohyla and the
+    Mogilev brotherhood)'
+  author: akty-iuzhnoi-i-zapadnoi-rossii
+  locus: the documents from about file line 1073 to file line 12641 (table of contents at
+    file line 328); Smotrytsky's letters at about file lines 10182-10380; the Mogilev brotherhood
+    letter listed at contents line 955
+  role: tradition
+  confidence: assigned
+  note: 'The documentary record for the years the first pass could not find in this series
+    (1615-1637 fall inside 1599-1637): brotherhood litigation, the Polotsk archbishopric under
+    Smotrytsky before his turn, and the 1630s. OCR readable with frequent letter errors in
+    the Ruthenian; a second witness for exact wording until checked on the page images.'
+  source_file: akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt
+- row_id: akty-zapadnoi-rossii_t4-1588-1652-rus_1851--akty-zapadnoi-rossii-vol-4-the-orthodox-hierarchy-restored
+  work: 'Akty Zapadnoi Rossii vol. 4: the Orthodox hierarchy restored under Patriarch Theophanes
+    (1620-1621), the brotherhoods and the metropolitans to Peter Mohyla (1620-1652)'
+  author: akty-zapadnoi-rossii
+  locus: from about file line 50818 (document 221, the 1621 oath) to the end of the documents
+    at about file line 53990; Mohyla is named in 82 lines of the file, the brotherhoods in
+    227
+  role: tradition
+  confidence: assigned
+  note: The 1620 restoration of the Orthodox hierarchy by Patriarch Theophanes, the Kyiv and
+    Lutsk brotherhoods, the 1632-1633 settlement under Wladyslaw IV and Mohyla's own years
+    as metropolitan, in the chancery Ruthenian of the time. The documentary spine the census's
+    'academy records, brotherhood statutes' points to, as far as a printed public-domain series
+    carries it. Clean OCR; read the headings (numbered and dated) to find a document.
+  source_file: akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt
+- row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--synodal-decree-of-constantinople-against-lucar-s-chapters-wi
+  work: Synodal decree of Constantinople against Lucar's chapters, with Mogila's signature
+    for the Church in Little Russia
+  author: dositheus
+  locus: signatures at about file lines 3911-3930; the decree itself from line 3022
+  role: context
+  confidence: assigned
+  note: Mogila's own signed adherence to the Orthodox condemnation of the Calvinist-sounding
+    Lucar confession, the quarrel the Kyiv Confession was written into. Read at the signature
+    page; the decree is the Constantinople synod's, not Mogila's voice.
+  source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--diarush-diary-of-afanasii-filippovich-hegumen-of-brest-1646-2
+  work: Diarush (diary) of Afanasii Filippovich, hegumen of Brest, 1646
+  author: filippovich-afanasii
+  locus: same as the Union of Brest row
+  role: tradition
+  confidence: provisional
+  note: An Orthodox witness of Mogila's own decade, including his journey to Moscow for alms
+    and his mention of the 1638 Kyiv printing of the Kupiatychi icon (editors' preface). He
+    is a Brest hegumen, not a Kyivan, so placed provisionally; the fit is the Orthodox resistance
+    Mogila led.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883--kievskii-mitropolit-petr-mogila-i-ego-spodvizhniki-vol-1
+  work: Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 1 (Golubev, narrative)
+  author: golubev
+  locus: chapter list at about file lines 340-430; narrative from about line 430 to the appendix
+    title page at about line 22710
+  role: context
+  confidence: assigned
+  note: Russian scholarship (published 1883) on Mogila's early career, the Mogila college,
+    the 1632 election and the Orthodox-Uniate sejm struggle, read for its chapter list and
+    opening; a modern scholar's narrative, not the revival's own voice. Garbled in places
+    by the old spelling in the OCR; second witness for any quotation.
+  source_file: golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883.txt
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898--kievskii-mitropolit-petr-mogila-i-ego-spodvizhniki-vol-2
+  work: Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 2 (Golubev, narrative)
+  author: golubev
+  locus: chapter list at about file lines 400-580; narrative from about line 580 to the appendix
+    at about line 24193
+  role: context
+  confidence: assigned
+  note: 'Russian scholarship (published 1898) on Mogila''s rule as Metropolitan 1633-1647:
+    the sejms, the polemical literature of his circle, the restoration of the Kyiv churches
+    and the government of the church. Read for its chapter list. A modern scholar''s narrative,
+    not the revival''s voice; the Confession itself is not its subject. Second witness for
+    any quotation.'
+  source_file: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898.txt
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883--materialy-dlia-istorii-zapadno-russkoi-tserkvi-documentary
+  work: Materialy dlia istorii zapadno-russkoi tserkvi (documentary appendix to Golubev vol.
+    1)
+  author: golubev
+  locus: appendix title page at about file line 22710, contents list from about line 22723;
+    numbered documents from 1540 (Golubev prints each with a date and a source note)
+  role: tradition
+  confidence: provisional
+  note: 'Printed documents on the western Ruthenian church from 1540: royal charters, monastery
+    inventories and brotherhood and church records, in Ruthenian, Polish and Latin as issued.
+    Placed on Golubev''s own scope and the contents list; the documents were not read one
+    by one, so the fit of each to the 1615-1700 window is provisional. Ruthenian text is readable;
+    Polish and Latin are garbled in the OCR (second witness).'
+  source_file: golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883.txt
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898--prilozheniia-documentary-appendix-to-golubev-vol-2
+  work: Prilozheniia (documentary appendix to Golubev vol. 2)
+  author: golubev
+  locus: appendix from about file line 24193 (numbered, dated documents; the first is the
+    1632 safe-conduct for the Kyiv school rector Isaia Kopinskii)
+  role: tradition
+  confidence: provisional
+  note: 'Printed documents of Mogila''s time: safe-conducts, royal privileges to the Lublin
+    brotherhood, Mogila''s own protests and letters. Placed from the contents list; the documents
+    were not read one by one. Ruthenian and Russian readable, Latin and Church Slavonic garbled
+    in the OCR (second witness).'
+  source_file: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898.txt
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893--s-golubev-introductory-study-on-sakovych-the-perspektiwa-and
+  work: S. Golubev, introductory study on Sakovych, the Perspektiwa and the Lithos (1893)
+  author: golubev
+  locus: from about file line 70 to file line 5996 (signed Kyiv, 15 November 1893)
+  role: context
+  confidence: assigned
+  note: A Kyiv Academy historian's study of Sakovych's career and of the Lithos, with a Russian
+    summary of the Perspektiwa's charges (for example at file line 2425). Scholarship, readable
+    OCR.
+  source_file: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893.txt
+- row_id: guepin_apotre-de-l-union-des-eglises-fra_1897--guepin-saint-josaphat-and-the-greek-slav-church-mohyla-passa
+  work: 'Guepin, Saint Josaphat and the Greek-Slav Church (Mohyla passages: Book VI on his
+    youth and the Smotrycki meeting of 1627; later chapters on his violence against Uniates)'
+  author: guepin
+  locus: about file lines 36724, 37128-37150 and the index entries at 55832-56074
+  role: context
+  confidence: provisional
+  note: A Catholic biographer's hostile account of Mohyla as a young archimandrite and as
+    Metropolitan (1897). Read at the two passages above only; an outside witness for how the
+    Uniate side saw Mohyla, never the revival's voice. Rated provisional because the book
+    as a whole is the Union of Brest thread's.
+  source_file: guepin_apotre-de-l-union-des-eglises-fra_1897.txt
+- row_id: harasiewicz_annales-ecclesiae-ruthenae-lat_1862--harasiewicz-annales-ecclesiae-ruthenae-passage-on-mohyla-at-
+  work: Harasiewicz, Annales Ecclesiae Ruthenae (passage on Mohyla at Chelm)
+  author: harasiewicz
+  locus: about file lines 16757-16780
+  role: context
+  confidence: provisional
+  note: One Uniate annalist's story of Mohyla's confrontation with the Uniate bishop of Chelm.
+    Read at the passage; a partisan witness, one episode, so a pointer more than a source.
+  source_file: harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt
+- row_id: herberstein_notes-upon-russia-v1_major1851--notes-upon-russia-herberstein-s-rerum-moscoviticarum-2
+  work: Notes upon Russia (Herberstein's Rerum Moscoviticarum Commentarii, Major's translation),
+    Vol. I (1851)
+  author: herberstein
+  locus: Major's introduction from file line 1241; how metropolitans and bishops are chosen
+    from 9800; 'Canons of ... a Metropolitan called the Prophet' at 10334; the bull on baptism
+    among the Russians at 10688; volume ends at 12437
+  role: antecedent
+  confidence: provisional
+  note: The same section names Kyiv twice and prints Latin and Greek church material; placed
+    on window and place for the later Kyivan revival, not read for it.
+  source_file: herberstein_notes-upon-russia-v1_major1851.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--palinodiia-ili-kniga-oborony-katholicheskoi-palinodia-or-the
+  work: Palinodiia, ili kniga oborony katholicheskoi (Palinodia, or the Book of Defence of
+    the Catholic Church), 1621-1622
+  author: kopystenskij
+  locus: title page at about file line 20553; text from about line 20570 to about line 80100
+    (columns 313-1200); table of contents at columns 1181-1200
+  role: tradition
+  confidence: assigned
+  note: The Kyiv Caves hieromonk's answer to Krevza's Oborona uni and to Skarga, written 1621-1622
+    in the Ruthenian of the Kyiv brotherhood milieu, first printed here in 1878 from the Moscow
+    Synodal manuscript collated with two other copies (per the editors). Orthodox Kyiv's own
+    long apology of the pre-Mohyla generation, the works Mogila's college inherited. Readable
+    OCR for the Ruthenian; check quotations against page images (second witness).
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--oborona-uni-defence-of-the-union-by-lev-krevza-1617-2
+  work: Oborona uni (Defence of the Union), by Lev Krevza, 1617
+  author: krevza
+  locus: same as the Union of Brest row
+  role: context
+  confidence: provisional
+  note: The text Kopystenskij's Palinodiia (Kyiv, 1621-1622) answers; the argument Mogila's
+    generation inherited. Placed on that link in the editors' preface.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--acts-of-the-kyiv-council-of-1640-as-reported-by-sakovych
+  work: Acts of the Kyiv council of 1640, as reported by Sakovych
+  author: kyiv-council-1640-sakovych-account
+  locus: running heads from about file line 1285 (columns 17-48)
+  role: context
+  confidence: assigned
+  note: The council that adopted the Confession, reported by Sakovych, who had left the Orthodox
+    for the Uniates. A hostile report of the Kyiv council (the editors note his 'poisonous
+    remarks'), useful for what the other side said, not the council's own record. Garbled
+    in the Polish quotations; second witness.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+- row_id: kyiv-synopsis_sinopsis-chu_1762--sinopsis-ili-kratkoe-opisanie-ot-razlichnykh-letopistsev-the
+  work: Sinopsis, ili kratkoe opisanie ot razlichnykh letopistsev (the Kyiv Synopsis), St
+    Petersburg printing of 1762
+  author: kyiv-synopsis
+  locus: title page and dedication at the head of the file; the history from about file line
+    10 onward ('O nachale drevniago slavenskago naroda'); the printers' note to the reader
+    at about line 9578
+  role: tradition
+  confidence: assigned
+  note: The short history of the Slavs and the Kyivan princes that the Kyiv Caves circle printed,
+    in a St Petersburg reprint; the host attributes it to Innokentii Gizel, which is the traditional
+    attribution and is not settled by the title page. Church Slavonic, readable with scattered
+    errors; title page and headings garbled. Second witness for quotation. It is the circle's
+    own statement of its past, not a doctrinal text.
+  source_file: kyiv-synopsis_sinopsis-chu_1762.txt
+- row_id: likowski_unia-brzeska-pol_1907--edward-likowski-unia-brzeska-r-1596-second-edition-1907-2
+  work: Edward Likowski, Unia brzeska (r. 1596), second edition, 1907
+  author: likowski
+  locus: the later books (KSIĘGA PIĄTA and SZÓSTA, listed at file lines 977-987) on the years
+    after 1596, Smotrytsky and the brotherhoods
+  role: context
+  confidence: provisional
+  note: The hostile narrative of the Orthodox side's resistance in the 1610s-1620s; placed
+    on the contents list only.
+  source_file: likowski_unia-brzeska-pol_1907.txt
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893--lithos-albo-kamien-kyiv-caves-press-1644-the-answer-to
+  work: Lithos albo kamien (Kyiv Caves press, 1644), the answer to Sakovych's Perspektiwa,
+    with Sakovych's marginal notes
+  author: lithos-1644
+  locus: from about file line 6000 (the title read 'лиеосъ' in the OCR) to the indexes; Sakovych's
+    notes in the footnotes
+  role: tradition
+  confidence: assigned
+  note: 'The Mohyla circle''s own defence of Orthodox rite and sacrament against the convert
+    Sakovych, the text the first-pass dossier named as the missing answer to the Perspektiwa.
+    Second witness only: the Polish is garbled throughout (Latin type read as Cyrillic), so
+    nothing is quotable without the page images; vendored because no other copy is in the
+    corpus.'
+  source_file: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893.txt
+- row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--editor-s-remarks-on-mogilas-s-signature-to-the-constantinopl
+  work: Editor's remarks on Mogilas's signature to the Constantinople synodal letter against
+    Lucaris (Lettres anecdotes de Cyrille Lucar, 1718)
+  author: lucaris
+  locus: about file lines 28872-28873, 29099-29118 and 41331
+  role: context
+  confidence: provisional
+  note: An eighteenth-century Lucaris-sympathetic editor argues about Mogilas's place in the
+    signatures and his role as Exarch. Read at those passages; a partisan witness in French,
+    useful for how Mogila's name was used in the Lucaris quarrel, never the revival's voice.
+  source_file: lucaris_lettres-anecdotes-fra_amsterdam1718.txt
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--peter-mohyla-s-autograph-notes-tales-of-miracles-and-notable
+  work: 'Peter Mohyla''s autograph notes: tales of miracles and notable events in the Orthodox
+    church, canons and hymns, reflections on the monastic life, notes on gifts for St Sophia
+    and the Tithe church, book catalogues of 1632-1633'
+  author: mogila
+  locus: 'section IV from file line 2462 (''Собственноручныя записки Петра Могилы''): the
+    tales from file line 2464, the reflections on monastic life at file line 7637, the notes
+    on gifts at file line 8038, then the household notes and book catalogues (contents list
+    at about file line 34710)'
+  role: tradition
+  confidence: assigned
+  note: 'Mohyla in his own hand: the stories of miracles he collected, the canons he composed,
+    his reasoning on the monastic life, what he spent on St Sophia and what books he bought
+    in Warsaw and Krakow in 1632-1633. The friendly inside voice the first-pass dossier said
+    was thin. Readable Cyrillic OCR with the editor''s notes marking what is not in Mohyla''s
+    hand; quote after a page-image check.'
+  source_file: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-2
   work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
   author: mogila
@@ -14,6 +261,18 @@ works:
     entry's own charter. Second witness for exact Greek wording because of the scan's two-column
     layout.
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-2
+  work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin (Kimmel 1843)
+  author: mogila
+  locus: same as the Ottoman row
+  role: tradition
+  confidence: assigned
+  note: 'The Kyiv metropolitan''s own book in its Greek form; mirrors the 1850 rows. This
+    1843 first printing holds the same texts as the vendored Kimmel 1850 and is a second scan
+    of the Greek: at the sampled points its Greek column is read whole where the 1850 OCR
+    cuts it, though it holds fewer Greek letters overall. Use whichever scan reads cleanly
+    at the passage, and check against the page images.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: mogila_orthodox-confession_overbeck1898--the-orthodox-confession-of-the-catholic-and-apostolic-2
   work: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa),
     English version
@@ -26,3 +285,154 @@ works:
     charter (approved at Iasi 1642). English version only, lightly modernised; the exact wording
     is in Kimmel's Greek and Latin.
   source_file: mogila_orthodox-confession_overbeck1898.txt
+- row_id: mogila_orthodox-confession_anon1762--the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church-1762-2
+  work: The Orthodox Confession of the Catholic and Apostolic Eastern-Church, faithfully translated
+    from the originals (the 1762 English, with Nectarius of Jerusalem's approving letter)
+  author: mogila
+  locus: the Confession in three parts from about file line 70 to the end
+  role: tradition
+  confidence: assigned
+  note: 'The revival''s own doctrinal charter in its first English printing; same placement
+    as the Overbeck edition of the same text.
+
+    '
+  source_file: mogila_orthodox-confession_anon1762.txt
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--the-orthodox-confession-of-the-eastern-church-part-i-faith
+  work: The Orthodox Confession of the Eastern Church, Part I (Faith), Greek with Latin
+  author: mogila
+  locus: headnote at about file line 23874 (and 24045); Greek and Latin in parallel from about
+    line 23894; Part I only, Schaff omits Parts II and III
+  role: tradition
+  confidence: assigned
+  note: Schaff reprints the Greek and Latin of Mogila's Confession, Part I, from Kimmel 1850
+    and gives the Jassy 1643 and Jerusalem 1672 approvals in his headnote. A second witness
+    for the Greek beside Kimmel (same text; the Greek OCR here has accent errors too); Parts
+    II and III are only in Kimmel and Overbeck. The Latin and the headnote are readable.
+  source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
+- row_id: pelesz_geschichte-der-union-bd2-deu_1880--pelesz-history-of-the-union-vol-2-passages-on-mohyla-s-rise-
+  work: Pelesz, History of the Union, vol. 2 (passages on Mohyla's rise and metropolitanate)
+  author: pelesz
+  locus: about file lines 14588-14712 and 15438
+  role: context
+  confidence: provisional
+  note: A Greek Catholic historian's account (1880) of Mohyla replacing Kopinskii and leading
+    the Orthodox side. Read at the passage; an outside, partisan witness. Provisional because
+    the volume belongs to the Union of Brest thread.
+  source_file: pelesz_geschichte-der-union-bd2-deu_1880.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--apokrisis-of-christopher-philalethes-1597-1599-2
+  work: Apokrisis of Christopher Philalethes (Polish text 1597 and Western-Rus' text of about
+    1599), the Orthodox answer to Skarga's Brest defence
+  author: philalethes
+  locus: item IX from about file line 57830 to 100815
+  role: tradition
+  confidence: provisional
+  note: The Orthodox side of the argument the Kyiv-Mohyla revival inherited. Written 1597-1599,
+    before that entry's window (1615-1700), so provisional; the Kyiv-Mohyla thread may prefer
+    the antecedent role.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+- row_id: smotrycki_apologia-peregrinatiey-pol_1628--apologia-peregrinatiey-pol_1628-2
+  work: Meletij Smotryc'kyj, Apologia of my journey to the Eastern lands (Polish, 1628)
+  author: smotrycki
+  locus: the whole file; title page at the head; dedication to Tomasz Zamoyski after it; imprint
+    at about file line 11785
+  role: context
+  confidence: provisional
+  note: The Orthodox polemicist's passage over to the union and the Orthodox reaction (the
+    Kyiv council of 1629 is outside this file). Placed on the title page and sample points,
+    not on a full reading.
+  source_file: smotrycki_apologia-peregrinatiey-pol_1628.txt
+- row_id: smotrycki_threnos-pol_1610--threnos-pol_1610
+  work: Meletij Smotryc'kyj, Threnos, that is the Lament of the one holy universal apostolic
+    Eastern Church (Polish text, 1610)
+  author: smotrycki
+  locus: the whole file; title page at the head; dedication to Michal Wisniowiecki after it;
+    colophon 'w Wilnie' at about file line 4403
+  role: antecedent
+  confidence: provisional
+  note: Smotryc'kyj's Threnos (1610) is the Orthodox lament that the Kyiv-Mohyla revival answers
+    and builds on; written before that entry's window (1615-1700), so provisional and antecedent.
+    The Polish text only, with garbled OCR; second witness. The same man later joined the
+    union (see his Apologia, 1628).
+  source_file: smotrycki_threnos-pol_1610.txt
+- row_id: stoglav_stoglav-fra_duchesne1920--le-stoglav-ou-les-cent-chapitres-1551-french-translation-3
+  work: Le Stoglav ou les Cent Chapitres (1551), French translation with introduction and
+    commentary (Duchesne 1920)
+  author: stoglav
+  locus: introduction from file line 91; appendix from 1509; the hundred chapters in translation
+    from 2071 (CHAPITRE PREMIER); tables and indexes from 17271
+  role: context
+  confidence: provisional
+  note: The file names Kyiv about thirty times, among them the Kyivan metropolitans the council's
+    text cites; placed on that count and on window and place, not on a reading for this entry.
+  source_file: stoglav_stoglav-fra_duchesne1920.txt
+- row_id: susza_saulus-et-paulus-lat_rome1666--saulus-et-paulus-ruthenae-unionis-the-life-of-meletij-2
+  work: Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj), the 1666 Rome
+    printing
+  author: susza
+  locus: the whole file
+  role: context
+  confidence: provisional
+  note: The union's account of the Kyiv polemicist who crossed over; mirrors the provisional
+    Kyiv row on the 1864 edition.
+  source_file: susza_saulus-et-paulus-lat_rome1666.txt
+- row_id: susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864--saulus-et-paulus-the-life-of-meletij-smotrycki-2
+  work: Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj, Orthodox archbishop
+    turned Uniate)
+  author: susza
+  locus: the whole file; Smotryc'kyj's Lament (Threnos) is discussed from about file line
+    578; half-title 'Vita Meletii Smotriscii' near the head
+  role: context
+  confidence: provisional
+  note: Smotryc'kyj's Orthodox writings (the Threnos, 1610) and Mohyla's Kyiv circle are the
+    other half of this story; the Kyiv-Mohyla world may use this as the hostile account of
+    its own polemicist. Provisional because the file was not read against that world's window
+    (1615-1700) beyond the discussion of the Lament.
+  source_file: susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--vasyl-of-ostroh-on-the-one-true-orthodox-faith-1588
+  work: Vasyl of Ostroh, On the one true Orthodox faith (1588)
+  author: vasyl-of-ostroh
+  locus: item VII from about file line 36824 to 54455
+  role: tradition
+  confidence: provisional
+  note: An Orthodox priest's handbook against Roman claims (the procession of the Spirit,
+    the primacy, purgatory, the calendar), from the Ostroh circle. Before the Kyiv-Mohyla
+    window, so provisional; the Orthodox polemic the revival built on.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--the-vilnius-pamphlets-of-1621-1632-verificatia-niewinnosci
+  work: The Vilnius pamphlets of 1621-1632 (Verificatia niewinnosci and its Obrona, the Uniate
+    Sowita wina, Iustificatia niewinnosci, the Synopsis of 1632 and its Supplementum), with
+    the Key of the Kingdom of Heaven (1587), Potii's 1605 publication of Misail's letter,
+    and the 1616 reply to the Vilnius Uniates
+  author: vilnius-orthodox-brotherhood
+  locus: sections V to XIII, after the Mohyla notes (from about file line 8300 to the indexes
+    at about file line 32000); exact lines not located because the Polish OCR is garbled;
+    the contents list at about file line 34710 gives the printed pages 193-649
+  role: tradition
+  confidence: provisional
+  note: 'The Vilnius brotherhood''s defence of the hierarchy that Patriarch Theophanes restored
+    in 1620, and its 1632 pleas at the election diet: the Orthodox case in Polish, with the
+    Uniate reply (Sowita wina) between them. Second witness only: the OCR read the Latin type
+    as Cyrillic look-alikes. Provisional because the texts could not be sampled as text.'
+  source_file: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--questions-and-answers-of-an-orthodox-to-a-papist-1603
+  work: Questions and answers of an Orthodox to a papist (manuscript, 1603)
+  author: voprosy-i-otvety-1603
+  locus: item I, from the preface (about file line 103) through about line 7378
+  role: tradition
+  confidence: provisional
+  note: A popular fifty-question Orthodox handbook against Rome, of the kind the revival's
+    brotherhoods used. Date 1603 precedes the entry's window.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--ivan-vyshensky-unpublished-writings-and-epistles-the
+  work: Ivan Vyshensky, unpublished writings and epistles (the Exposure of the devil, the
+    epistle to the Lviv brotherhood, to the nun Domnikiia, to Iov Kniahynytsky, the Mental
+    Spectacle of 1614-1616)
+  author: vyshensky
+  locus: section III from file line 1244 to file line 2461
+  role: antecedent
+  confidence: provisional
+  note: 'The Athonite Ruthenian monk''s letters of about 1600-1616 to the Lviv brotherhood
+    and others, written against the union and against Latin learning: the ascetic Orthodox
+    voice the Kyiv school both inherited and answered. Before the window (1615); the Kyiv
+    thread may prefer context.'
+  source_file: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt

@@ -1,0 +1,47 @@
+source_file: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863.txt
+assignments:
+- row_id: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863--the-union-of-brest-documents-1595-1596
+  work: 'The Union of Brest documents, 1595-1596: the Ruthenian bishops'' articles, their professions
+    of faith, the bull Magnus Dominus et laudabilis (Clement VIII) and the acts of the Synod of Brest
+    (contemporary Latin versions)'
+  author: theiner
+  locus: articles 'Articuli quorum cautionem petimus a dominis Romanis' about file line 21175; Hypatius
+    Pociey's profession of faith about 21496; the bull 'Magnus Dominus et laudabilis' about 21655; the
+    Synod of Brest acts (Nr. CXCV) about 23336; the Argumenta (summaries) at about 1255
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: assigned
+  note: 'The union''s own founding instruments: the conditions the Ruthenian bishops asked of Rome (1595),
+    their professions of faith at Rome, the pope''s bull and the synod decree of October 1596. Latin versions
+    made at the time from the Ruthenian and Polish originals, which the volume does not print (the Argumenta
+    say the originals are omitted). Primary voice, ready to quote once verified against the scan. Latin
+    only; no public-domain English found (the one English item on the host is a machine translation).'
+- row_id: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863--the-union-of-brest-documents-1595-1596-2
+  work: 'The Union of Brest documents, 1595-1596: the Ruthenian bishops'' articles, their professions
+    of faith, the bull Magnus Dominus et laudabilis (Clement VIII) and the acts of the Synod of Brest
+    (contemporary Latin versions)'
+  author: theiner
+  locus: articles 'Articuli quorum cautionem petimus a dominis Romanis' about file line 21175; Hypatius
+    Pociey's profession of faith about 21496; the bull 'Magnus Dominus et laudabilis' about 21655; the
+    Synod of Brest acts (Nr. CXCV) about 23336; the Argumenta (summaries) at about 1255
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: 'The papal side of the same instruments: Clement VIII''s bull and letters as an act of the Tridentine
+    papacy toward the Eastern church. Placed on the document type, not on a reading of the whole volume;
+    the Tridentine world may want only the bull. Latin only.'
+- row_id: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863--papal-and-royal-letters-on-the-ruthenian-church-1596-1696
+  work: Papal, royal and nuncial letters on the Ruthenian church after Brest, 1596-1696 (Latin and Italian)
+  author: theiner
+  locus: after the Synod of Brest (about line 23336) to the end of the volume; the Argumenta list the
+    Ruthenian items; for example the testament of the metropolitan Rutsky (Rucki), 1637, at about line
+    2322 of the Argumenta
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: provisional
+  note: Letters between Rome, the Polish crown and the Ruthenian hierarchy on the union's survival, its
+    bishops' rights and the Orthodox opposition. Mixed with a large amount of Polish-Lithuanian Church
+    and state business; placed on the Argumenta, not on a full reading. Latin and Italian only.

@@ -5,7 +5,10 @@
  * no control, no request, no listener. A request to the account routes never logs an address or a code.
  */
 import { useSyncExternalStore } from 'react';
+import { prepare, type Provider } from './providerScripts';
 import { clearStored, readStored, writeStored } from './sessionStore';
+
+export type { Provider };
 
 export const accountsEnabled = import.meta.env.VITE_ACCOUNTS_ENABLED === 'on';
 
@@ -40,10 +43,18 @@ export interface AccountState {
   status: 'unknown' | 'off' | 'out' | 'in';
   balance: Balance | null;
   shelf: ShelfItem[] | null;
-  panelOpen: boolean;
+  // The sign-in steps inside the Get more conversations panel, and the home page.
+  signInOpen: boolean;
+  homeOpen: boolean;
+  refillDay: number | null;
   // Whether the conversation last opened went on the shelf (null when signed out or not yet known).
   lastShelved: boolean | null;
   recoveryPending: string | null;
+  // How the person signs in now: 'address', 'google', 'apple'.
+  methods: string[];
+  hasRecoveryCode: boolean;
+  // The providers this server has turned on, each with our app's public id there.
+  providers: Record<string, string>;
 }
 
 export class AccountsError extends Error {
@@ -54,7 +65,7 @@ export class AccountsError extends Error {
   }
 }
 
-let state: AccountState = { status: 'unknown', balance: null, shelf: null, panelOpen: false, lastShelved: null, recoveryPending: null };
+let state: AccountState = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {} };
 const listeners = new Set<() => void>();
 
 function set(next: Partial<AccountState>) {
@@ -72,12 +83,21 @@ export function useAccount(): AccountState {
   );
 }
 
-export function openAccountPanel() {
-  set({ panelOpen: true });
+export function openSignIn() {
+  set({ signInOpen: true });
   if (state.status === 'unknown') void refresh();
+  void loadProviders();
 }
-export function closeAccountPanel() {
-  set({ panelOpen: false });
+export function closeSignIn() {
+  set({ signInOpen: false });
+}
+export function openHome() {
+  set({ homeOpen: true, signInOpen: false });
+  if (state.status === 'unknown') void refresh();
+  void loadProviders();
+}
+export function closeHome() {
+  set({ homeOpen: false });
 }
 
 async function call(path: string, init?: { method?: 'GET' | 'POST'; body?: unknown }): Promise<Record<string, unknown>> {
@@ -112,11 +132,17 @@ export async function refresh(): Promise<void> {
   try {
     const me = await call('/me');
     if (me.signed_in !== true) {
-      set({ status: 'out', balance: null, shelf: null, recoveryPending: null });
+      set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null });
       return;
     }
     const pending = me.recovery_pending as { effective_on?: string } | null;
-    set({ status: 'in', recoveryPending: pending?.effective_on ?? null });
+    set({
+      status: 'in',
+      recoveryPending: pending?.effective_on ?? null,
+      methods: Array.isArray(me.sign_in_methods) ? me.sign_in_methods.filter((m): m is string => typeof m === 'string') : [],
+      hasRecoveryCode: me.has_recovery_code === true,
+      refillDay: typeof me.refill_day === 'number' ? me.refill_day : null,
+    });
     await loadBalance();
   } catch (error) {
     if (error instanceof AccountsError && error.status === 404) set({ status: 'off' });
@@ -154,8 +180,13 @@ export async function finishSignIn(challenge: string, address: string, code: str
     method: 'POST',
     body: over18 === undefined ? { challenge, address, code } : { challenge, address, code, over_18: over18 },
   });
+  return settleSignIn(body);
+}
+
+async function settleSignIn(body: Record<string, unknown>): Promise<SignInResult> {
   if (body.status === 'ok') {
     await refresh();
+    await carryConversation();
     return { kind: 'ok', newAccount: body.new_account === true };
   }
   const message = typeof body.message === 'string' ? body.message : '';
@@ -164,12 +195,28 @@ export async function finishSignIn(challenge: string, address: string, code: str
   return { kind: 'not_adult', message };
 }
 
+export function readStoredConversation(): boolean {
+  return readStored() !== null;
+}
+
+/** The conversation open in this tab goes on the shelf when someone signs in, so it comes with them. */
+async function carryConversation(): Promise<void> {
+  const stored = readStored();
+  if (!stored) return;
+  try {
+    await shelveCurrent(stored.sessionId, stored.sessionCode);
+    set({ lastShelved: true });
+  } catch {
+    set({ lastShelved: false });
+  }
+}
+
 export async function signOut(): Promise<void> {
   let leaveShelved = false;
   try {
     await call('/sign-out', { method: 'POST' });
   } finally {
-    set({ status: 'out', balance: null, shelf: null, recoveryPending: null });
+    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null });
     leaveShelved = forgetShelvedConversation();
   }
   if (leaveShelved) window.location.reload();
@@ -207,7 +254,7 @@ export async function attachIfSignedIn(code: string): Promise<void> {
 }
 
 /** Puts the conversation open in this browser on the shelf, with the code it was opened with. */
-export async function shelveCurrent(sessionId: string, sessionCode: string): Promise<void> {
+async function shelveCurrent(sessionId: string, sessionCode: string): Promise<void> {
   await call('/shelf/add', { method: 'POST', body: { session_id: sessionId, session_code: sessionCode } });
 }
 
@@ -278,11 +325,112 @@ export async function deleteAccount(): Promise<void> {
   await call('/delete', { method: 'POST' });
   clearStored();
   forgetShelvedConversation();
-  set({ status: 'out', balance: null, shelf: null, recoveryPending: null });
+  set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null });
+}
+
+/** Which providers the server has turned on. Our own server only; no provider script is touched. */
+async function loadProviders(): Promise<void> {
+  if (!accountsEnabled) return;
+  try {
+    const body = await call('/providers');
+    const listed = (body.providers ?? {}) as Record<string, unknown>;
+    const ids: Record<string, string> = {};
+    for (const name of ['google', 'apple']) if (typeof listed[name] === 'string' && listed[name]) ids[name] = listed[name] as string;
+    set({ providers: ids });
+  } catch {
+    set({ providers: {} });
+  }
+}
+
+export interface ProviderToken {
+  provider: Provider;
+  id_token: string;
+  nonce: string;
+}
+
+/** Asks our server for a one-use nonce and readies the provider's script for it. Returns the nonce. */
+export async function prepareProvider(provider: Provider): Promise<string> {
+  const clientId = state.providers[provider];
+  if (!clientId) throw new AccountsError(404, '');
+  const started = await call('/provider/start', { method: 'POST' });
+  const nonce = String(started.nonce);
+  try {
+    await prepare(provider, clientId, nonce);
+  } catch {
+    throw new AccountsError(0, '');
+  }
+  return nonce;
+}
+
+export async function providerSignIn(token: ProviderToken, over18?: boolean): Promise<SignInResult> {
+  const body = await call('/provider/finish', {
+    method: 'POST',
+    body: over18 === undefined ? token : { ...token, over_18: over18 },
+  });
+  return settleSignIn(body);
+}
+
+export async function providerStepUp(token: ProviderToken): Promise<void> {
+  await call('/step-up/provider', { method: 'POST', body: token });
+}
+
+export async function providerLink(token: ProviderToken): Promise<void> {
+  await call('/provider/link', { method: 'POST', body: token });
+  await refresh();
+}
+
+export async function providerUnlink(provider: Provider): Promise<void> {
+  await call('/provider/unlink', { method: 'POST', body: { provider } });
+  await refresh();
+}
+
+export async function startAddressChange(newAddress: string): Promise<string> {
+  const body = await call('/address/start', { method: 'POST', body: { new_address: newAddress } });
+  return String(body.challenge);
+}
+
+export async function finishAddressChange(challenge: string, code: string, newAddress: string): Promise<void> {
+  await call('/address/finish', { method: 'POST', body: { challenge, code, new_address: newAddress } });
+  await refresh();
+}
+
+/** Makes a new recovery code. It is shown once and not kept here. */
+export async function makeRecoveryCode(): Promise<string> {
+  const body = await call('/recovery/code', { method: 'POST' });
+  await refresh();
+  return String(body.recovery_code);
+}
+
+export async function startRecovery(recoveryCode: string, newAddress: string): Promise<string> {
+  const body = await call('/recovery/start', { method: 'POST', body: { recovery_code: recoveryCode, new_address: newAddress } });
+  return String(body.challenge);
+}
+
+export async function finishRecovery(challenge: string, code: string, newAddress: string): Promise<{ recoveryCode: string; effectiveOn: string }> {
+  const body = await call('/recovery/finish', { method: 'POST', body: { challenge, code, new_address: newAddress } });
+  return { recoveryCode: String(body.recovery_code), effectiveOn: String(body.effective_on) };
+}
+
+export async function cancelRecovery(address: string, cancelCode: string): Promise<void> {
+  await call('/recovery/cancel', { method: 'POST', body: { address, cancel_code: cancelCode } });
+}
+
+export async function cancelRecoverySignedIn(): Promise<void> {
+  await call('/recovery/cancel-signed-in', { method: 'POST' });
+  await refresh();
+}
+
+export async function signOutEverywhere(): Promise<void> {
+  try {
+    await call('/sign-out-everywhere', { method: 'POST' });
+  } finally {
+    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null });
+    if (forgetShelvedConversation()) window.location.reload();
+  }
 }
 
 /** For tests: back to the first state. */
 export function resetAccountsForTest() {
-  state = { status: 'unknown', balance: null, shelf: null, panelOpen: false, lastShelved: null, recoveryPending: null };
+  state = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {} };
   listeners.forEach((l) => l());
 }

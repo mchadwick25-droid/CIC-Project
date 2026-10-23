@@ -1,0 +1,35 @@
+source_file: knox_works-v1_laing1895.txt
+
+assignments:
+  - row_id: knox_works-v1_laing1895--history-of-the-reformation-books-first-and-second
+    work: "The History of the Reformation of Religion within the Realm of Scotland, Books First (1494-1558) and Second (1558-1559)"
+    author: knox
+    locus: "Book First heading at file line 1265 ('THE FIRST BOOKE OF THE HISTORY OF THE REFORMATIOUN'), 'THE END OF THE FIRST BOOK' at 8126; Book Second heading at 8130 ('THE SECOUND BOOK OF THE HISTORYE OF THINGIS DONE IN SCOTLAND'), closing line 'ENDIS THE SECOUND BOOKE' at 13061; Laing's Appendix Nos. I-XVII from 13070; Gutenberg boilerplate before line 37 and after 23988"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      Knox's own partisan first-person history of the Reformation he led: the
+      martyrs from Patrick Hamilton to Walter Myln, Wishart, the castle of St
+      Andrews, Knox's call to preach, the Lords of the Congregation and the
+      rising of 1559. Primary voice in sixteenth-century Scots spelling, ready
+      to quote: this is a proofread Gutenberg transcription of Laing's text,
+      not OCR. Laing's Appendix (from line 13070) is editorial and prints
+      documents (Foxe on the Scottish martyrs, the Provincial Councils of
+      1549-1559) that are themselves witnesses, not Knox's voice.
+  - row_id: knox_works-v1_laing1895--history-of-the-reformation-books-first-and-second-2
+    work: "The History of the Reformation of Religion within the Realm of Scotland, Books First and Second (Knox's English ministry and the English background)"
+    author: knox
+    locus: "Book First, file lines 1265-8126: Knox's ministry at Berwick, Newcastle and the English court under Edward VI (1549-1554) and the Marian exile; Book Second, 8130-13061"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      Knox was a licensed preacher of Edward VI's church and refused an English
+      bishopric; Book First tells those years in his own voice, and Book Second
+      runs up to the English intervention of 1559-1560. Placed on that overlap
+      without reading the English passages for this world, so the fit is
+      provisional. A Scottish witness to the English Reformation, not an
+      English one.

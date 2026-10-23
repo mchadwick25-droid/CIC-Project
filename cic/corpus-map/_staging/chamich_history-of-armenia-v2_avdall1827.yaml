@@ -1,0 +1,90 @@
+source_file: chamich_history-of-armenia-v2_avdall1827.txt
+
+authors_ruled:
+  chamich:
+    kind: metadata-omission
+    evidence: >
+      The title page names Michael Chamich as author of the History and Johannes Avdall as translator.
+    from_file: chamich_history-of-armenia-v2_avdall1827.txt
+  avdall:
+    kind: metadata-omission
+    evidence: >
+      The title page names Johannes Avdall as translator and continuer of the narrative; placed as the translator's own added matter.
+    from_file: chamich_history-of-armenia-v2_avdall1827.txt
+
+
+assignments:
+  - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-part-vii-the-expatriated-state
+    work: "History of Armenia (Chamich; Avdall's English translation, 1827), volume II, Part VII: the Persian conquest, the expatriation and New Julfa"
+    author: chamich
+    locus: "Part VII chapters VI-IX and after: the pontificates of David V, Melchizedek and Srapion (about file line 16240), the invasion by Shah Abas (line 16342), the expatriation (chapters VIII-IX), the founding of New Julpha (line 16905), the later catholicoi and the churches of Julpha (lines 17005-17690)"
+    atlas_ids:
+      - armenian-christianity-new-julfa
+    role: context
+    confidence: assigned
+    note: >
+      The English translation of an eighteenth-century Armenian priest-historian's account of
+      the Persian conquest and the expatriation, with the catholicoi of Etchmiadzin by name.
+      A late secondary history from native sources, not a voice from the period, but the
+      only English-language Armenian-church narrative of the window in clean enough OCR to
+      read. The invasion chapter and the New Julpha passage were read; the rest was
+      sampled. The OCR carries errors in names; check each quotation against the page
+      image. The English is Avdall's rendering, not the Armenian original.
+  - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-part-vii-the-expatriated-state-2
+    work: "History of Armenia (Chamich; Avdall's English translation, 1827), volume II, Part VII, chapters I-V: Tamerlane to the return of the see to Etchmiadzin"
+    author: chamich
+    locus: "Part VII chapters I-V, from Tamerlane to the transfer of the pontifical chair to Etchmiadzin under Kirakus of Khor Virap (printed pages 311-340)"
+    atlas_ids:
+      - armenian-cilicia-after-the-kingdom
+    role: context
+    confidence: provisional
+    note: >
+      The contents page ('The transfer of the pontifical chair to Etchmiadchin') places the
+      return of the see to Etchmiadzin in chapter III. Placed on the contents page; the
+      chapters were not read.
+  - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-part-vii-the-expatriated-state-3
+    work: "History of Armenia (Chamich; Avdall's English translation, 1827), volume II, Part VII and Avdall's continuation: the catholicoi to 1780 and 1827"
+    author: chamich
+    locus: "Part VII chapters after the founding of New Julpha (file lines 16905-23500)"
+    atlas_ids:
+      - armenian-christianity-era-8
+    role: context
+    confidence: provisional
+    note: >
+      The eighteenth-century catholicoi and the Persian, Russian and Ottoman troubles to
+      1780, from the native historian; this entry's window is about 1700-1815. The sources
+      are Etchmiadzin's, not the entry's Constantinople, Venice and Lebanon. Sampled only.
+  - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-part-vii-the-expatriated-state-4
+    work: "History of Armenia (Chamich; Avdall's English translation, 1827): Avdall's continuation 1780-1827"
+    author: avdall
+    locus: "the continuation after 1780 at the end of the volume (A.D. 1800 and 1810 passages at file lines 23534-24182)"
+    atlas_ids:
+      - armenian-christianity-zartonk
+    role: context
+    confidence: provisional
+    note: >
+      The translator's own continuation from 1780 to 1827 lies just before the Armenian
+      revival's window (1815-1906). Placed on the title page; not read.
+  - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-part-vi-the-reubenian-line
+    work: "History of Armenia (Chamich; Avdall's English translation, 1827), volume II, Part VI: the Reubenian line of Cilicia"
+    author: chamich
+    locus: "Part VI (body from file line 7999; contents at line 247), about 300 years of the Reubenian princes and kings"
+    atlas_ids:
+      - armenian-cilicia
+    role: context
+    confidence: provisional
+    note: >
+      The contents page gives Part VI as the Reubenian line, about 300 years, which covers
+      Cilician Armenia from the late eleventh century. A late history from native sources;
+      placed on the contents page, not read.
+  - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-part-v-the-bagratian-kings
+    work: "History of Armenia (Chamich; Avdall's English translation, 1827), volume II, Part V: the Bagratian kings"
+    author: chamich
+    locus: "Part V (body from file line 640; contents at line 121), from the origin of the Bagratians to the loss of the kingdom"
+    atlas_ids:
+      - bagratid-armenian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Contents page: 'The origin of the Bagratian potentates', Ashot the First and the
+      pontificates that follow. Placed on the contents page; not read.

@@ -1,0 +1,29 @@
+source_file: hales_letters-from-the-synod-of-dort_1765.txt
+
+assignments:
+  - row_id: hales_letters-from-the-synod-of-dort_1765--letters-from-the-synod-of-dort-to-sir-dudley-carleton-the
+    work: "Letters from the Synod of Dort to Sir Dudley Carleton, the English Embassador at the Hague (Hales; Foulis printing, 1765)"
+    author: hales
+    locus: "whole file; letters datelined at Dort from November 1618 into January 1619"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: context
+    confidence: assigned
+    note: >
+      An English observer's letters to the ambassador as the Synod met: the sessions, the speeches
+      and the dealings with the Remonstrants as one eyewitness reported them. The outside witness
+      for the Synod: an English chaplain at Dort writing to the ambassador, neither a Remonstrant
+      nor a Contra-Remonstrant. The 1765 printing; the letters date from 1618-1619. Microfilm OCR
+      (about 0.85 of tokens read as words) with long s normalised: locate passages here, verify
+      against the page images before quoting.
+  - row_id: hales_letters-from-the-synod-of-dort_1765--letters-from-the-synod-of-dort-to-sir-dudley-carleton-the-2
+    work: "Letters from the Synod of Dort to Sir Dudley Carleton, the English Embassador at the Hague (Hales; Foulis printing, 1765)"
+    author: hales
+    locus: "whole file"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: context
+    confidence: provisional
+    note: >
+      The same Synod seen from outside, bearing on the settlement of 1619 that framed the Dutch
+      church of this world. Placed on that relation; not read for further-reformation matter.

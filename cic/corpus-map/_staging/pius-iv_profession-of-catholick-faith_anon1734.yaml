@@ -1,0 +1,25 @@
+source_file: pius-iv_profession-of-catholick-faith_anon1734.txt
+assignments:
+- row_id: pius-iv_profession-of-catholick-faith_anon1734--profession-of-faith
+  work: The Profession of Catholic Faith extracted out of the Council of Trent by Pius IV (English text)
+  author: pius-iv
+  locus: the Profession opens the text, beginning "I N. with a firm Faith believe and profess all and
+    every one of those Things" at file line 97
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: assigned
+  note: The English text of the 1564 Profession of Faith, as used for receiving converts in 1734. The
+    wording is the 1734 printing's own English, not Pius IV's Latin; treat as a primary witness to the
+    content of the Profession in English and a second witness for the exact words. The Latin of the Profession
+    is not in this file.
+- row_id: pius-iv_profession-of-catholick-faith_anon1734--grounds-of-the-controverted-articles
+  work: The "chief Grounds of the controverted Articles" by question and answer (1734)
+  author: pius-iv
+  locus: everything after the Profession, to the end of the file
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: assigned
+  note: An eighteenth-century English Catholic apologetic written long after the window; it shows how
+    the Profession was taught to converts, not what the Tridentine church said in 1564. Context only.

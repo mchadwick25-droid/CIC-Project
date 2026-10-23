@@ -1,0 +1,49 @@
+source_file: badger_nestorians-and-their-rituals-v2_1852.txt
+
+authors_ruled:
+  badger:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page in the OCR
+      reads "The Nestorians and their Rituals ... by the Rev. George Percy Badger ... Vol. II" (file lines
+      40-100); the host catalogue gives Badger, George Percy, 1815-1888. A mechanical index-coverage gap, not
+      an attribution dispute.
+
+assignments:
+  - row_id: badger_nestorians-and-their-rituals-v2_1852--the-rituals-and-doctrine-of-the-church-of-the-east-in-english
+    work: "The Nestorians and their Rituals, volume II (Badger, 1852): the creed, doctrine, sacraments, liturgies, ordination, marriage and burial rites of the Church of the East, translated from Syriac manuscripts, with synodal documents"
+    author: badger
+    locus: "the forty chapters listed at file lines 187-462; the synod of Mar Timotheus of 1317 and the election of a patriarch at about 6774-8767"
+    atlas_ids:
+      - church-of-the-east-schism-of-1552
+    role: context
+    confidence: provisional
+    note: >
+      The church's own rituals and canons in an 1852 English translation from the Shimun line's
+      manuscripts: the rite both lines shared in the sixteenth century, and the election canons
+      Wigram says the dissenters of 1552 invoked. A witness to the texts, not to the events;
+      which of these rites were in force in 1552 is for a build to argue from the manuscripts'
+      dates. Placed on content without a close read. Clean OCR.
+  - row_id: badger_nestorians-and-their-rituals-v2_1852--the-rituals-and-doctrine-of-the-church-of-the-east-in-english-2
+    work: "The Nestorians and their Rituals, volume II (Badger, 1852): the rituals of the Nestorians as used in the 1840s"
+    author: badger
+    locus: "whole file; chapters from file line 187"
+    atlas_ids:
+      - church-of-the-east-chaldean-consolidation
+    role: tradition
+    confidence: provisional
+    note: >
+      The living rite of the mountain church in the consolidation entry's own window, translated
+      by a resident missionary. Role tradition because these are the church's own texts; for
+      that entry's builders to confirm.
+  - row_id: badger_nestorians-and-their-rituals-v2_1852--the-rituals-and-doctrine-of-the-church-of-the-east-in-english-3
+    work: "The Nestorians and their Rituals, volume II (Badger, 1852): the synod of Mar Timotheus II (1317) and the election of a patriarch"
+    author: badger
+    locus: "file lines about 6774-8767"
+    atlas_ids:
+      - church-of-the-east-timur-to-hakkari
+    role: context
+    confidence: provisional
+    note: >
+      A fourteenth-century synod's decrees on the patriarchal election, in English; the canon
+      law of that entry's window. Placed on date; not read for that entry.

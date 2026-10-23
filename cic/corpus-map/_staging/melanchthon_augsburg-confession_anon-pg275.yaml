@@ -1,5 +1,3 @@
-# Proactively vendored ahead of the Lutheran Wittenberg build (Atlas
-# VI.1), per this world's own Source Readiness Dossier.
 source_file: melanchthon_augsburg-confession_anon-pg275.txt
 
 assignments:
@@ -21,3 +19,33 @@ assignments:
       (melanchthon_apology-augsburg-confession_bente-dau1921.txt) despite a
       stylistic resemblance - flag before treating the two as one matched
       translation pair in any Doc_02 citation.
+
+  - row_id: melanchthon_augsburg-confession_anon-pg275--augsburg-confession-condemnations-of-the-anabaptists
+    work: 'The Augsburg Confession (1530): the condemnations of the Anabaptists in Articles V, IX, XII,
+      XVI and XVII'
+    author: melanchthon
+    locus: the sentences beginning 'They condemn the Anabaptists' at file lines 253, 314, 351, 418 and 440
+    atlas_ids:
+    - the-anabaptist-movements
+    role: context
+    confidence: assigned
+    note: 'The Lutheran estates'' formal condemnation of the Anabaptists by name on the Spirit, infant baptism,
+      perseverance, civil office and the millennium: the hostile confessional frame the movement lived under
+      in the Empire. Same time, different region.
+
+      '
+
+  - row_id: melanchthon_augsburg-confession_anon-pg275--augsburg-confession-uppsala-1593
+    work: The Augsburg Confession (1530), the confession the Uppsala Synod of 1593 adopted 'unaltered'
+    author: melanchthon
+    locus: whole file
+    atlas_ids:
+    - scandinavian-reformation-kingdoms
+    role: antecedent
+    confidence: provisional
+    note: 'The Uppsala Synod committed the Swedish church to the three ecumenical creeds and the unaltered
+      Augsburg Confession (Bensow''s note, bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt
+      at line 31696). The text existed before this world and is the authority it argued from. Placed on
+      that statement and the census, not on a comparison of the editions.
+
+      '

@@ -1,0 +1,95 @@
+source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
+authors_ruled:
+  philaret:
+    kind: metadata-omission
+    evidence: The volume's table of contents (about file line 232) and Schaff's headnote (about line 38380)
+      name 'The Longer Catechism of the Russian Church, prepared by Philaret'; the file name carries Schaff's
+      compendium title, so the author is supplied from the contents list and the headnote.
+assignments:
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--the-orthodox-confession-of-the-eastern-church-part-i-faith
+  work: The Orthodox Confession of the Eastern Church, Part I (Faith), Greek with Latin
+  author: mogila
+  locus: headnote at about file line 23874 (and 24045); Greek and Latin in parallel from about line 23894;
+    Part I only, Schaff omits Parts II and III
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: assigned
+  note: Schaff reprints the Greek and Latin of Mogila's Confession, Part I, from Kimmel 1850 and gives
+    the Jassy 1643 and Jerusalem 1672 approvals in his headnote. A second witness for the Greek beside
+    Kimmel (same text; the Greek OCR here has accent errors too); Parts II and III are only in Kimmel
+    and Overbeck. The Latin and the headnote are readable.
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--the-orthodox-confession-of-the-eastern-church-part-i-faith-2
+  work: The Orthodox Confession of the Eastern Church, Part I (Faith), Greek with Latin
+  author: mogila
+  locus: same as the Kyiv row
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: tradition
+  confidence: assigned
+  note: Same text and placement as the Kimmel and Overbeck rows for this entry.
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--the-confession-of-dositheus-or-the-eighteen-decrees-of-the
+  work: The Confession of Dositheus, or the Eighteen Decrees of the Synod of Jerusalem, 1672 (Greek and
+    Latin)
+  author: dositheus
+  locus: headnote and text from about file line 34637
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: tradition
+  confidence: assigned
+  note: Schaff's reprint of the Synod's confession; the Synod reaffirmed Mogila's Confession. A second
+    witness beside Kimmel 1850 and Robertson 1899 (English); Greek OCR with accent errors.
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--the-longer-catechism-of-the-orthodox-catholic-eastern-church
+  work: The Longer Catechism of the Orthodox, Catholic, Eastern Church (Philaret, Moscow 1839), English
+    of R. W. Blackmore 1845
+  author: philaret
+  locus: contents entry at about file line 232; headnote and text from about line 38380 (Preliminary Instruction
+    at 38391)
+  atlas_ids:
+  - russian-church-synodal-century
+  role: tradition
+  confidence: assigned
+  note: Schaff's English of the catechism the Russian Synod approved in 1839, which his headnote says
+    'practically superseded' Mogila's Confession in the Russian Church. The Russian Church after 1815
+    is its entry; the English is Blackmore's 1845 translation, not Schaff's. Clean English OCR.
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--profession-of-the-tridentine-faith-creed-of-pius-iv-1564
+  work: Profession of the Tridentine Faith (Creed of Pius IV), 1564, Latin and English
+  author: council-of-trent
+  locus: contents entry at about file line 6872; text from about line 18254
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: The creed every Catholic cleric swore after Trent, in Latin with Schaff's English. Placed from
+    the contents list; the Tridentine Church thread already holds the Canons and the Catechism, and Schaff
+    also prints the Canons and Decrees of Trent in Latin and English from about line 6897 (a second witness
+    beside Waterworth).
+
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--profession-of-the-tridentine-faith
+  work: The Profession of the Tridentine Faith (Professio fidei Tridentinae, 1564), Latin with Schaff's
+    English
+  author: schaff
+  locus: section "II. PROFESSIO FIDEI TRIDENTINAE", pp. 207-210 of the book; contents entry at file lines
+    6879-6881, the English and Latin columns with the running head "PROFESSION OF THE TRIDENTINE FAITH"
+    at line 18263
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: assigned
+  note: 'Read at the opening and middle of the section: the Latin and an English rendering side by side,
+    the creed followed by numbered articles, of which article X (as read) is the vow of obedience to the
+    Roman pontiff. Schaff''s introduction and notes are scholarship. Gives the Latin of the Profession
+    that the 1734 English file (pius-iv_profession-of-catholick-faith_anon1734.txt) lacks. Schaff''s English
+    is a nineteenth-century Protestant editor''s rendering, so it is a cross-check, not a Catholic voice.'
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--canons-and-dogmatic-decrees-of-trent-latin
+  work: The Canons and Dogmatic Decrees of the Council of Trent, Latin text with English (Schaff's selection)
+  author: schaff
+  locus: section "I. CANONES ET DECRETA DOGMATICA CONCILII TRIDENTINI" from file line 6903; Sessio Tertia
+    at 6918, Sessio Quarta at 7095, Sessio Quinta at 7432, and so on through the dogmatic sessions
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: assigned
+  note: The Latin of the dogmatic canons and decrees of Trent, which the Waterworth file has only in English.
+    Schaff selects the dogmatic decrees and canons, not the disciplinary reform decrees, and says the
+    Latin follows editions he names. Use beside council-of-trent_canons-and-decrees_waterworth1848.txt.

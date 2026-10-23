@@ -1,0 +1,19 @@
+source_file: wallington_historical-notices-v1_webb1869.txt
+
+assignments:
+  - row_id: wallington_historical-notices-v1_webb1869--historical-notices-vol-i-wallington-s-notebooks
+    work: "Historical Notices of Events Occurring Chiefly in the Reign of Charles I, Vol. I (Wallington's own notebooks, chapters I-XXII)"
+    author: wallington
+    locus: "Wallington's text in 22 chapters after the editor's introduction (introduction from file line 214, roman-paged; chapter headings as printed, CHAPTER I onward, listed at lines 71-207); the editor's notes are footnoted"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      A London wood-turner's notebooks: providences, judgments, the
+      Sabbath, the sufferings of the godly under Laud (Prynne, Burton,
+      Bastwick), fasts and meetings of 'God's children' in 1640, and the
+      first years of the Long Parliament, in his own words with his own
+      scripture reasoning. Primary voice at the artisan level the census
+      asks for; OCR clean. Vol. II (1642 onward, mostly copied news and
+      papers) is not vendored.

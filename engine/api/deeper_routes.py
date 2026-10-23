@@ -28,8 +28,6 @@ from fastapi import FastAPI, Header, HTTPException, Request, Response
 from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
-from engine.api.deeper_door import STATE_KEY as DOOR_STATE_KEY
-from engine.api.deeper_door import DoorMonitor
 from engine.api.deeper_ops import DeeperOps, load_ops
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
@@ -82,8 +80,6 @@ class DeeperRuntime:
     gift_links: frozenset = frozenset()
     # Secret link keys for the pilot's private audiences: key -> audience name. Never in the repository.
     pilot_links: dict = field(default_factory=dict)
-    door: "DoorMonitor | None" = None
-    door_observe: bool = False
     paid_round_cap: int | None = None
     bound: MessageBound | None = None
 
@@ -201,20 +197,20 @@ def payment_id_of(event: dict) -> str | None:
 
 
 def _record_funds(runtime: DeeperRuntime, kind: str, session: dict) -> None:
-    """The money a paid checkout brought in, for the door's ceiling. Kept apart
+    """The money a paid checkout brought in. Kept apart
     from the codes: the amount and the payment id, nothing about the buyer."""
     payment = payment_id_of({"data": {"object": session}})
     cents = session.get("amount_total")
     if session.get("currency") != "usd":
-        logger.error("paid checkout was not in US dollars; not counted toward the door")
+        logger.error("paid checkout was not in US dollars; not recorded")
         return
     if payment is None or isinstance(cents, bool) or not isinstance(cents, int) or cents <= 0:
-        logger.error("paid checkout carried no payment id or amount; not counted toward the door")
+        logger.error("paid checkout carried no payment id or amount; not recorded")
         return
     try:
         runtime.meter.add_funds(kind, cents, payment)
     except ValueError:
-        logger.error("paid checkout amount out of range; not counted toward the door")
+        logger.error("paid checkout amount out of range; not recorded")
 
 
 # What a working purchase, replay, gift or full refund returns. These leave no log line: a
@@ -252,17 +248,9 @@ def handle_event(runtime: DeeperRuntime, event: dict) -> str:
     return "ignored_type"
 
 
-def _count_door(meter: Meter, state) -> None:
-    """What the door computed, kept as the day's peaks. In observe mode this is
-    the whole report of what it would have done."""
-    meter.measure_peak("door_stage", state.stage)
-    meter.measure_peak("door_ratio_permille", round(state.ratio * 1000))
-    meter.measure_peak("door_spend_cents", round(state.ratio * state.ceiling_usd * 100))
-
-
 def apply_refund(runtime: DeeperRuntime, payment: str) -> int:
-    """Takes a payment back: its codes are void, its money leaves the door's
-    sum, and the reconciliation counts it. The webhook calls this for a full
+    """Takes a payment back: its codes are void, its money leaves the funds,
+    and the reconciliation counts it. The webhook calls this for a full
     refund or a dispute; the admin route calls it for a refund Stripe's event
     cannot report (a partial one, or any made while the module was off)."""
     voided = runtime.meter.void(payment)
@@ -479,21 +467,6 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         paused = await run_in_threadpool(runtime.meter.is_paused)
         return BalanceResponse(kind=info.kind, remaining=info.remaining, paused=paused)
 
-    @app.get("/api/deeper/door")
-    def public_door(request: Request, response: Response):
-        """The one public line about the free path this week: its words and
-        nothing else. No stage number, no ratio, no money."""
-        _cors(request, response)
-        response.headers["Cache-Control"] = "public, max-age=60"
-        words = runtime.ops.door_words if runtime.ops is not None else None
-        state = runtime.door.state() if runtime.door is not None and not runtime.door_observe else None
-        if words is None or state is None or state.stage == 0:
-            return {"state": "open", "line": None}
-        if state.free_voice:
-            return {"state": "limited", "line": words["limited"]}
-        line = words["paused"] + (" " + words["code_still_works"] if state.paid_voice else "")
-        return {"state": "paused", "line": line}
-
     @app.options("/api/deeper/pilot-join")
     def pilot_preflight(request: Request, response: Response):
         if runtime.ops is None or not any(a.pilot_open for a in runtime.ops.pilot_audiences.values()):
@@ -514,7 +487,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         and any closed audience, answers 404 alike. The address is kept only as a
         keyed hash. The person names one role from a fixed list; any other
         answer is a 400 and makes no code, and only a count per role per
-        audience is kept. Counts toward the door as a gift of the pack's price."""
+        audience is kept."""
         _cors(request, response)
         response.headers["Cache-Control"] = "no-store"
         ops = runtime.ops
@@ -552,8 +525,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
     def mint_codes(req: MintRequest, request: Request, response: Response, authorization: str | None = Header(default=None)):
         """Makes codes with no payment: the operator's own grant. The codes come
         back in this response only; the meter keeps their hashes and nothing
-        else, so a lost response is voided by its mint id, never recovered. The
-        grant counts toward the door as a gift of the packs' price, never a sale."""
+        else, so a lost response is voided by its mint id, never recovered."""
         authenticate_admin(request, authorization)
         if runtime.ops is None:
             raise HTTPException(status_code=404)
@@ -585,7 +557,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         is refused as a spent code is. It comes back in this response only, and is
         cancelled by its mint id like any grant. It changes only how many replies
         it carries: every message still has its safety check and the Facilitator
-        first. Counts toward the door as a gift, never a sale."""
+        first."""
         authenticate_admin(request, authorization)
         ops = runtime.ops
         if ops is None:
@@ -617,17 +589,12 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
     def status(request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
         ops = runtime.ops
-        state = runtime.door.state() if runtime.door is not None else None
         window = runtime.token_rates.free_window
-        share = state.free_share if state is not None and not runtime.door_observe else 1.0
         return {
             "paused": runtime.meter.is_paused(),
-            "door": None if state is None else {
-                "stage": state.stage, "observe": runtime.door_observe, "free_voice": state.free_voice, "paid_voice": state.paid_voice,
-            },
             "free_grant": {
                 "baseline_tokens": window, "window_days": runtime.token_rates.free_window_days,
-                "now_tokens": int(window * share),
+                "now_tokens": window,
             },
             "pilot": None if ops is None else {
                 "end_date": ops.pilot_end_date.isoformat(),
@@ -676,15 +643,6 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             raise HTTPException(status_code=404, detail="no such entry, or already reversed")
         return {"reversed": entry_id}
 
-    @app.get("/api/admin/deeper/door")
-    def door_state(request: Request, authorization: str | None = Header(default=None)):
-        authenticate_admin(request, authorization)
-        if runtime.door is None:
-            return {"door": None}
-        state = runtime.door.state()
-        return {"door": {"stage": state.stage, "ratio": round(state.ratio, 3), "ceiling_usd": round(state.ceiling_usd, 2),
-                         "free_voice": state.free_voice, "paid_voice": state.paid_voice, "observe": runtime.door_observe}}
-
     @app.get("/api/admin/deeper/measures")
     def measures(request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
@@ -717,7 +675,7 @@ def _pilot_audience_of(runtime: DeeperRuntime, link: str | None) -> str | None:
     return link if audience is not None and audience.public else None
 
 
-def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None, usage_store=None) -> DeeperRuntime:
+def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None) -> DeeperRuntime:
     """The runtime for a deploy with the flag on. A missing webhook secret
     refuses to start rather than leaving the webhook open, and so does a
     deploy without the visitor cap or the free-allowance key, which the free allowance depends on."""
@@ -741,13 +699,6 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None,
         config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling,
         free_window_days=ops.rates.free_window_days, free_key=free_key.encode("utf-8"),
     )
-    door = None
-    if usage_store is not None:
-        door = DoorMonitor(
-            ops.door, usage_store, lambda: meter.net_funds(7),
-            load=lambda: meter.get_state(DOOR_STATE_KEY), save=lambda raw: meter.set_state(DOOR_STATE_KEY, raw),
-            observe=lambda state: _count_door(meter, state),
-        )
     return DeeperRuntime(
         meter=meter,
         claims=ClaimStore(config.claims_db_path),
@@ -759,7 +710,5 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None,
         token_rates=ops.rates,
         group_burst_multiplier=ops.group_burst_multiplier,
         ops=ops,
-        door=door,
-        door_observe=ops.door_observe,
         paid_round_cap=ops.paid_round_cap,
     )

@@ -1,0 +1,89 @@
+source_file: hough_history-of-christianity-in-india-v2_1839.txt
+authors_ruled:
+  synod-of-diamper:
+    kind: anonymous
+    evidence: 'The acts and decrees are the corporate work of the diocesan Synod of Diamper (1599) convened
+      by Aleixo de Menezes; the translations carry the translator''s name (Geddes, Raulin) but no individual
+      author of the decrees themselves. Geddes''s title page: ''Done out of Portugueze into English'';
+      Raulin''s: ''nunc primum e Lusitano in Latinum versa''.'
+    from_file: hough_history-of-christianity-in-india-v2_1839.txt
+assignments:
+- row_id: hough_history-of-christianity-in-india-v2_1839--the-acts-and-decrees-of-the-synod-of-diamper-sessions-i-ix
+  work: The Acts and Decrees of the Synod of Diamper, Sessions I-IX (Geddes's English reprinted)
+  author: synod-of-diamper
+  locus: Appendix A at file line 29882; Sessions I-IX from 29973, 30310, 30860, 32788, 33860, 35189, 36074,
+    37684, 39215
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: tradition
+  confidence: assigned
+  note: >-
+    Geddes's 1694 translation reprinted in modern type with the heading of each decree restored from the
+    Portuguese original (Hough's own statement, Book IV chapter I). Cleaner scan than Geddes 1694 and
+    the better text to quote from once checked against the page images. A hostile hand on the community;
+    the decrees are Rome's, not the Syrians'.
+- row_id: hough_history-of-christianity-in-india-v2_1839--book-iv-the-synod-of-diamper-hough-s-narrative-and
+  work: Book IV, the Synod of Diamper (Hough's narrative and commentary)
+  author: hough
+  locus: Book IV from line 2336
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: >-
+    Session-by-session narrative of the Synod with Hough's Anglican commentary and his account of the
+    church's tenets before the synod. Secondary, written against Rome.
+- row_id: hough_history-of-christianity-in-india-v2_1839--books-v-and-vi-menezes-s-visitation-the-jesuit-archbishops
+  work: 'Books V and VI: Menezes''s visitation, the Jesuit archbishops, the revolt of 1653 and the Carmelite
+    mission'
+  author: hough
+  locus: Book V from line 10383; Book VI from 18240 (Archdeacon Thomas and the revolt about line 18415)
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: >-
+    Secondary account of 1599-1665 drawing on Gouvea, Raulin, La Croze and the Carmelite travel books.
+    Its Book VI table of contents names the Jesuit prelates, the revolt and the Carmelite arrival. Use
+    as a guide to the sources, not as a voice.
+- row_id: hough_history-of-christianity-in-india-v2_1839--book-v-the-jesuit-missions-and-menezes-s-visitation-hough
+  work: Book V, the Jesuit missions and Menezes's visitation (Hough)
+  author: hough
+  locus: Book V from line 10383
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: >-
+    Placed on window and place; Hough's account of the Jesuit prelates of Malabar is hostile to the Society
+    and was not checked line by line.
+
+- row_id: hough_history-of-christianity-in-india-v2_1839--hough-on-asseman-and-geddes-concerning-simon-sulaka
+  work: 'Hough, History of Christianity in India vol. II (1839): his notes on ''Simon Sulaka'' quoting
+    Geddes and Assemani'
+  author: hough
+  locus: the note at file lines 3424-3450 (Geddes's passage on 'Tum Siud, or Simon Sulacan' quoted in
+    full); the note at 3490 ('a sham Patriarch of Amed, set up also by the Pope'); the Assemani footnote
+    at 4940
+  atlas_ids:
+  - church-of-the-east-schism-of-1552
+  role: context
+  confidence: provisional
+  note: 'Hough prints Geddes''s English passage in clean modern type and adds that Assemani cites Sulaka''s
+    profession of faith on the sacraments. An Anglican writer''s polemic, hostile to Sulaka. The cleaner
+    copy of the Geddes sentence than the 1694 scan. Placed on the three notes read.
+
+    '
+
+- row_id: hough_history-of-christianity-in-india-v2_1839--gouvea-cited-as-the-source-of-the-diamper-acts
+  work: 'History of Christianity in India, vol. II (Hough, 1839): the account of the Synod of Diamper
+    drawn from Gouvea and Geddes'
+  author: hough
+  locus: the Diamper narrative in Book IV and Appendix A, where Hough names Gouvea's Jornada (Coimbra
+    1606) as the book Geddes translated the acts from and says a copy is in the British Museum
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: provisional
+  note: 'Cross-reference only: the Portuguese original Hough cites is now vendored as gouvea_jornada-do-arcebispo-de-goa-por_1606.txt,
+    so a build can check Geddes''s and Hough''s English against it. Hough''s own placement is unchanged.'

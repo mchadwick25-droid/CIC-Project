@@ -1,0 +1,14 @@
+source_file: utraquist-consistory_jednani-a-dopisy-konsistore-pod-oboji-1562-1570-ces_pazout1906.txt
+assignments:
+- row_id: utraquist-consistory_jednani-a-dopisy-konsistore-pod-oboji-1562-1570-ces_pazout1906--jedn-n-a-dopisy-konsisto-e-pod-oboj-1562-1570-pa-out-1906
+  work: Jednání a dopisy konsistoře pod obojí, 1562-1570 (Pažout, 1906)
+  author: utraquist-consistory
+  locus: title page at file line 88; Předmluva at file line 146; a consistory act of 1 September 1564 (no. 176)
+    at file line 5912
+  atlas_ids:
+  - czech-churches-last-century
+  role: tradition
+  confidence: assigned
+  note: 'The Utraquist consistory''s own acts and letters, 1562-1570, in clean Czech: the first Utraquist institutional
+    voice in the corpus, filling the thinness the dossier named. Primary evidence, quotable once checked against
+    the page image. Role tradition.'
