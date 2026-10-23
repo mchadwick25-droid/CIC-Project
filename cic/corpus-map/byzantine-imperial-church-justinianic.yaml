@@ -3,6 +3,42 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: byzantine-imperial-church-justinianic
 works:
+- row_id: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88--agathias-histories
+  work: Agathias, Historiae (the reign of Justinian, 552-558)
+  author: agathias
+  locus: the Agathias section
+  role: context
+  confidence: assigned
+  note: 'Procopius''s continuator, a Constantinopolitan lawyer and poet; outside witness to
+    the capital in Justinian''s last years. Latin second witness; no public-domain English
+    located.
+
+    '
+  source_file: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt
+- row_id: akathist-hymn_little-compline-grc-eng_london1919--akathist-hymn
+  work: The Akathist Hymn (Akathistos), Greek with English
+  author: akathistos-hymn
+  locus: the Akathist section (24 stanzas), after Little Compline
+  role: tradition
+  confidence: needs-ruling
+  note: 'The great Marian hymn of Constantinople. Tradition if the Justinianic dating holds
+    (then a voice of this very church); otherwise it belongs to the Heraclian sibling entry.
+    needs-ruling on the date, which is Contested in the project''s own vocabulary; the hymn''s
+    composition is not placed here by assertion.
+
+    '
+  source_file: akathist-hymn_little-compline-grc-eng_london1919.txt
+- row_id: boethius_theological-tractates-consolation_stewart-rand1918--theological-tractates
+  work: Boethius, Theological Tractates (De Trinitate, Contra Eutychen et Nestorium and others)
+    and the Consolation of Philosophy, Latin with English
+  author: boethius
+  locus: tractates and books by number
+  role: context
+  confidence: provisional
+  note: 'A Roman senator-theologian under the Ostrogoths; context for both entries, provisional.
+
+    '
+  source_file: boethius_theological-tractates-consolation_stewart-rand1918.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901--codex-encyclius
   work: Codex Encyclius (457-458), in Mansi tom. 7
   author: codex-encyclius
@@ -13,6 +49,33 @@ works:
     provinces answering the emperor Leo on the council and on Timothy Aelurus. The Byzantine
     imperial church''s own voice in the years just after 451.'
   source_file: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt
+- row_id: collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895--avellana-i-acacian-schism
+  work: 'Collectio Avellana I: the Hormisdas correspondence and the ending of the Acacian
+    schism (514-521), with earlier letters from 367'
+  author: collectio-avellana
+  locus: epistulae I-CIV; Hormisdas-Justin-Justinian letters in the second half
+  role: context
+  confidence: provisional
+  note: 'Papal and imperial letters in Latin: the view from Rome of the Constantinopolitan
+    church''s reconciliation in 519. Context, since the collection is Roman in perspective;
+    provisional until a build thread pins which letters are Justin''s and Justinian''s own.
+
+    '
+  source_file: collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt
+- row_id: collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898--avellana-ii-justinian-letters
+  work: 'Collectio Avellana II: Justinian''s letters and edicts to Rome and the Vigilius correspondence
+    (Three Chapters)'
+  author: collectio-avellana
+  locus: epistulae CV-CCXLIV; Justinian's letters from the 'Exemplum epistolae Iustiniani'
+    heading
+  role: tradition
+  confidence: provisional
+  note: 'The emperor who governed the church speaking in his own letters, Latin as the Roman
+    archive kept them. Tradition for the imperial church; provisional until a build thread
+    separates Justinian''s letters from the papal ones in the same collection.
+
+    '
+  source_file: collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898.txt
 - row_id: npnf214_seven-ecumenical-councils--the-council-of-chalcedon-451-extracts-from-the-acts
   work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
@@ -108,6 +171,67 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- row_id: john-ephesus_ecclesiastical-history-part3_paynesmith1860--constantinople-justin-ii-tiberius-sophia
+  work: Ecclesiastical History Part III, Books I-III and V-VI (the capital under Justin II,
+    Tiberius and Maurice; the empress Sophia; the persecution of 571)
+  author: john-ephesus
+  locus: Books I-III, V-VI
+  role: context
+  confidence: assigned
+  note: 'The imperial church of 571-585 described by the anti-Chalcedonian bishop it imprisoned.
+    Era III Library pass, 2026-10-16.
+
+    '
+  source_file: john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
+- row_id: john-ephesus_lives-eastern-saints-po18_brooks1924--lives-47-48-theodora-communities-five-patriarchs
+  work: Lives of the Eastern Saints 47-48 (the communities Theodora gathered in Constantinople;
+    the five patriarchs, Severus's death in Egypt, Theodosius)
+  author: john-ephesus
+  locus: Lives 47-48 (raw file lines ~35474-39400)
+  role: context
+  confidence: assigned
+  note: 'Theodora''s palace monastery of exiled anti-Chalcedonians, and the death of Severus
+    "in a city of Egypt called Ksoi": first-hand for the capital''s underside and for the
+    Egyptian succession. Era III Library pass, 2026-10-16.
+
+    '
+  source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
+- row_id: john-nikiu_chronicle_charles1916--constantinople-justinian-heraclius
+  work: Chronicle chapters on Constantinople from Justinian to Phocas (XC-CV passim)
+  author: john-nikiu
+  locus: raw file lines ~8490-9150 and the Phocas chapters
+  role: context
+  confidence: provisional
+  note: 'The capital''s affairs as an Egyptian anti-Chalcedonian bishop remembered them a
+    century later. Era III Library pass, 2026-10-16.
+
+    '
+  source_file: john-nikiu_chronicle_charles1916.txt
+- row_id: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88--john-the-faster
+  work: John IV the Faster, patriarch of Constantinople, penitential and ascetic writings
+    (attrib.)
+  author: john-the-faster
+  locus: the John the Faster section
+  role: tradition
+  confidence: provisional
+  note: 'The patriarch of the "ecumenical" title dispute with Gregory the Great; the works
+    under his name are of disputed authenticity, hence provisional.
+
+    '
+  source_file: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt
+- row_id: justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895--novellae-church-law
+  work: Justinian, Novellae (the Novels), especially the ecclesiastical constitutions (Nov.
+    3, 5, 6, 7, 37, 42, 45, 46, 57, 58, 67, 79, 83, 86, 109, 123, 131, 133, 137, 144, 146)
+  author: justinian
+  locus: whole volume; the church Novels by number
+  role: tradition
+  confidence: assigned
+  note: 'The emperor legislating for bishops, monks, marriage and heresy: the imperial church''s
+    own voice, in the form it most characteristically took. Latin (Authenticum) readable;
+    Greek second witness. No public-domain English.
+
+    '
+  source_file: justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt
 - row_id: npnf212_leo-great-gregory-great--the-letters-of-leo-the-great
   work: The Letters of Leo the Great
   author: leo
@@ -124,3 +248,172 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
+- row_id: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866--liberatus-breviarium
+  work: Liberatus of Carthage, Breviarium causae Nestorianorum et Eutychianorum
+  author: liberatus-carthage
+  locus: contents at raw lines ~346-467
+  role: tradition
+  confidence: provisional
+  note: 'A Carthaginian archdeacon''s history of the controversies, c. 560; tradition for
+    Africa, context for the imperial church. Latin only.
+
+    '
+  source_file: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+- row_id: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--marcellinus-comes
+  work: Marcellinus Comes, Chronicon (379-534) with its continuation to 548
+  author: marcellinus-comes
+  locus: the section headed 'MARCELLINI V. C. COMITIS CHRONICON' (raw file from around line
+    2914)
+  role: context
+  confidence: assigned
+  note: 'A Latin-speaking Illyrian at Justinian''s court, chronicling Constantinople year
+    by year: riots, earthquakes, the Nika revolt, the Chalcedonian restoration under Justin.
+    Context.
+
+    '
+  source_file: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+- row_id: photius_library-v1_freese1920--lost-church-histories
+  work: Bibliotheca, codices summarising lost 5th-6th-century church histories and theological
+    works
+  author: photius
+  locus: codices passim
+  role: context
+  confidence: provisional
+  note: 'Ninth-century summaries of what the Justinianic church read and wrote; tier 4.
+
+    '
+  source_file: photius_library-v1_freese1920.txt
+- row_id: procopius_wars-1-2-persian_dewing1914--wars-i-ii-persian-war
+  work: History of the Wars, Books I-II (the Persian War)
+  author: procopius
+  locus: whole text
+  role: context
+  confidence: assigned
+  note: 'Justinian''s wars with Persia told by his general''s secretary: the Nika riot (I.24),
+    the plague (II.22-23), the frontier the church lived on. Context.
+
+    '
+  source_file: procopius_wars-1-2-persian_dewing1914.txt
+- row_id: procopius_wars-3-4-vandalic_dewing1916--wars-iii-iv-vandalic-war
+  work: History of the Wars, Books III-IV (the Vandalic War)
+  author: procopius
+  locus: whole text; III.8 (Vandal persecution), III.21 (Cyprian's shrine, 533), IV.14 (Arian
+    soldiers)
+  role: context
+  confidence: assigned
+  note: 'Procopius was with Belisarius at Carthage in 533. For Latin Africa under Byzantium
+    this is the founding event seen by a participant; for the Homoian register entry it preserves
+    the last acts of the Vandal Arian clergy (III.21) as reported by an outsider; for the
+    imperial church it is Justinian''s reconquest. Context in all three.
+
+    '
+  source_file: procopius_wars-3-4-vandalic_dewing1916.txt
+- row_id: procopius_wars-5-6-gothic_dewing1919--wars-v-vi-gothic-war
+  work: History of the Wars, Books V-VI (the Gothic War, 535-540)
+  author: procopius
+  locus: whole text
+  role: context
+  confidence: assigned
+  note: 'The war that emptied the Italy of Benedict''s Dialogues; the Ostrogothic Arian court
+    seen by an imperial officer; Justinian''s reconquest. Context in each.
+
+    '
+  source_file: procopius_wars-5-6-gothic_dewing1919.txt
+- row_id: procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924--wars-vi-vii-gothic-war-continued
+  work: History of the Wars, Books VI.16-VII.35 (the Gothic War, 540-552)
+  author: procopius
+  locus: whole text (English pages)
+  role: context
+  confidence: assigned
+  note: 'Totila''s war in the Italy of Benedict''s last years and of Vigilius''s papacy, from
+    the imperial side. Context.
+
+    '
+  source_file: procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt
+- row_id: procopius_wars-7-36-8-gothic-grc-eng_dewing1928--wars-vii-viii-gothic-war-end
+  work: History of the Wars, Books VII.36-VIII (the end of the Gothic War; the Lazic war)
+  author: procopius
+  locus: whole text (English pages); Lazica at VIII.1-17
+  role: context
+  confidence: provisional
+  note: 'The last volume of the Wars. For the imperial church, the close of the reconquest;
+    for Georgia, the Lazi (west Georgia) as a Christian people between Rome and Persia, VIII.1-17.
+    Provisional for Georgia: Lazica is adjacent to, not identical with, the Iberian church
+    the census entry describes.
+
+    '
+  source_file: procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt
+- row_id: procopius_buildings_stewart1888--buildings-book-i-constantinople
+  work: 'Of the Buildings of Justinian, Book I (Constantinople: Hagia Sophia and the churches)'
+  author: procopius
+  locus: Book I
+  role: context
+  confidence: assigned
+  note: 'The court panegyric on Justinian''s building, Book I on Hagia Sophia and the capital''s
+    churches: the fullest contemporary description of the liturgical setting of the imperial
+    church. Context, not voice - Procopius writes as an imperial publicist here.
+
+    '
+  source_file: procopius_buildings_stewart1888.txt
+- row_id: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97--procopius-buildings-ppts
+  work: Procopius, Of the Buildings of Justinian (PPTS printing; second witness)
+  author: procopius
+  locus: the Procopius part (third title page in the volume)
+  role: context
+  confidence: assigned
+  note: 'The same Stewart translation vendored clean from Gutenberg as procopius_buildings_stewart1888.txt;
+    this OCR copy is a second witness only.
+
+    '
+  source_file: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt
+- row_id: procopius_secret-history_athenian-society1896--secret-history
+  work: The Secret History (Anecdota)
+  author: procopius
+  locus: whole text, chapters I-XXX
+  role: context
+  confidence: assigned
+  note: 'Procopius''s private polemic against Justinian and Theodora, c. 550: the view from
+    a court insider who hated the regime, not the church''s own voice. Context for the Justinianic
+    imperial church; chapters on Theodora''s patronage of the anti- Chalcedonians and on Justinian''s
+    religious policy are the relevant loci. Hostile and sensational - records drawing on it
+    need formation_confidence tags.
+
+    '
+  source_file: procopius_secret-history_athenian-society1896.txt
+- row_id: romanos-melodist_cantica-grc_pitra1888--kontakia
+  work: Romanos the Melodist, Cantica (kontakia), ed. Pitra (Greek; Latin apparatus)
+  author: romanos-melodist
+  locus: whole file
+  role: tradition
+  confidence: provisional
+  note: 'The capital''s great hymnographer under Justinian, vendored earlier but assigned
+    to no bucket until the Era III Library pass (2026-10-16). SECOND WITNESS ONLY: the Greek
+    OCR is unusable and only Pitra''s Latin apparatus reads; no public-domain English exists.
+
+    '
+  source_file: romanos-melodist_cantica-grc_pitra1888.txt
+- row_id: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--victor-tunnuna
+  work: Victor of Tunnuna, Chronicon (444-566)
+  author: victor-tunnunensis
+  locus: the section headed 'VICTORIS TONNENNENSIS EPISCOPI CHRONICA' (raw file from around
+    line 17259)
+  role: tradition
+  confidence: assigned
+  note: 'An African bishop exiled for resisting the condemnation of the Three Chapters, writing
+    his own account of the dispute and of Reparatus''s deposition (around raw lines 18728-19039).
+    Tradition for Latin Africa under Byzantium; context for the imperial church it opposed.
+
+    '
+  source_file: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+- row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--ix-anthimus-julianists
+  work: Chronicle Book IX (Anthimus of Constantinople, Theodora's patronage, the Julianist
+    schism)
+  author: zachariah-rhetor
+  locus: Book IX (raw file lines ~10752-14660)
+  role: context
+  confidence: assigned
+  note: 'The anti-Chalcedonian view of the capital''s church under Justinian and Theodora.
+    Era III Library pass, 2026-10-16.
+
+    '
+  source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt

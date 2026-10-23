@@ -14,3 +14,27 @@ assignments:
       narrative source for this atlas entry's own time window (597-793).
       The "Sparrow" passage (Edwin's council, Book II ch.13) confirmed
       present in this file (raw-scan line 4884 before normalization).
+
+  - row_id: bede_ecclesiastical-history-english-people_giles1903--insular-book-iii-whitby
+    work: "Bede, Ecclesiastical History III (Aidan, Iona, Fursey, Whitby, Colman's return) and the Irish chapters (I.13 Palladius, II.4, II.19, V.15, V.22)"
+    author: bede
+    locus: "Book III raw lines ~5559-8696 (~24,000 words); I.13 ~1123; II.4 ~3794-3862; II.19 ~5363; V.15 ~13540; V.22 ~14979; Colman's speech ~7984"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+    role: context
+    confidence: assigned
+    note: >
+      The Northumbrian church's view of the Irish mission, including Colman's own reported
+      speech at Whitby; outside witness, tier 2 for 635-664.
+
+  - row_id: bede_ecclesiastical-history-english-people_giles1903--british-bede-germanus-gildas-oak
+    work: "Bede, Ecclesiastical History I.17-22 (Germanus in Britain; Gildas), II.2 (Augustine's Oak and the Bangor monks), V.18 (Aldhelm), V.23"
+    author: bede
+    locus: "I.17-21 raw lines ~1368-1757; I.22 ~1758-1790; II.2 ~3556-3720 (~3667); V.18 ~13773; V.23 ~15172"
+    atlas_ids:
+      - british-welsh-christianity
+    role: context
+    confidence: assigned
+    note: >
+      The English church's view of the British, including the monks of Bangor-on-Dee who
+      refused Augustine; outside witness, tier 2.

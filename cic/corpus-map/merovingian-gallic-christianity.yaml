@@ -3,6 +3,39 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: merovingian-gallic-christianity
 works:
+- row_id: avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883--avitus-opera
+  work: Avitus of Vienne, Letters, Homilies and the books against the Arians (Latin)
+  author: avitus-vienne
+  locus: letters to Gundobad at raw lines ~431 and ~1504; contra Arianos ~1432
+  role: tradition
+  confidence: assigned
+  note: 'The Burgundian bishop''s letters, including the one to Clovis on his baptism; Latin
+    only.
+
+    '
+  source_file: avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt
+- row_id: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888--lives-chrothildis-radegundis
+  work: Vita Chrothildis and Baudonivia's De vita Radegundis libri II, Latin
+  author: baudonivia
+  locus: Vita Chrothildis from p. 341; Baudonivia from p. 358 (raw line ~28160)
+  role: tradition
+  confidence: assigned
+  note: 'The Life of the queen who brought Clovis to the faith, and a nun''s Life of Radegund;
+    women''s religious lives in the Merovingian church.
+
+    '
+  source_file: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt
+- row_id: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865--caesarius-rules
+  work: Caesarius of Arles, Regula ad monachos and Regula ad virgines
+  author: caesarius-arles
+  locus: raw lines ~87225 and ~87808
+  role: tradition
+  confidence: assigned
+  note: 'The monastic rules of the bishop of Arles; the rule for the convent of his sister
+    Caesaria is the oldest Western rule for women. Latin only.
+
+    '
+  source_file: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt
 - row_id: caesarius-arles_sermons-pseudo-augustinian_migne-pl39--sermones-pseudo-augustinian-attributed-to-caesarius-of-arles
   work: Sermones (Pseudo-Augustinian, attributed to Caesarius of Arles)
   author: caesarius-arles
@@ -16,6 +49,56 @@ works:
 
     '
   source_file: caesarius-arles_sermons-pseudo-augustinian_migne-pl39.txt
+- row_id: capitulatio-de-partibus-saxoniae_pertz1881--clovis-letter-and-merovingian-legislation
+  work: 'Capitularia I, the Merovingian section: Clovis''s letter to the bishops (507-511),
+    the edicts of Childebert I, Guntram (585) and Chlothar II (614)'
+  author: clovis-letter-to-bishops
+  locus: raw lines ~154-2200; Clovis's letter ~617-675 (about 500 words; ~646); Childebert
+    I ~699; Guntram ~1287; Chlothar II ~1917
+  role: tradition
+  confidence: assigned
+  note: 'The file is the whole of MGH Capitularia regum Francorum I (preface dated 1883),
+    not the Saxon capitulary alone. Clovis''s own letter to the bishops, the Merovingian kings''
+    church edicts: the royal voice in the Merovingian church. The Carolingian rows of this
+    file are unaffected.
+
+    '
+  source_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
+- row_id: faustus-riez_de-gratia-and-collected-works_engelbrecht1891--ruricius-limoges-letters
+  work: Ruricius of Limoges, Letters (c. 485-507), including two to Caesarius of Arles
+  author: faustus-riez
+  locus: raw lines ~20013-25132 (about 34,248 words); to Caesarius ~23178
+  role: tradition
+  confidence: needs-ruling
+  note: 'Ruricius is bound into the Faustus volume (CSEL 21) but wrote at the entry''s opening,
+    c. 485-507; the author slug is the file''s, not the work''s. Which Gaul entry holds him
+    is a needs-ruling named in the dossier.
+
+    '
+  source_file: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
+- row_id: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888--fredegar-lhf
+  work: Fredegar, Chronicle, and the Liber historiae Francorum, Latin
+  author: fredegar
+  locus: the chronicle sections; LHF from p. 215
+  role: tradition
+  confidence: provisional
+  note: 'The 7th-8th-century Frankish chroniclers; provisional, since both are secular historians
+    more than church voices.
+
+    '
+  source_file: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt
+- row_id: bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839--gallic-councils
+  work: The Gallic councils of the 6th century (Agde, Orange II, Epaon, Orleans, Macon, Tours
+    II, Clermont II)
+  author: gallic-councils-6th-century
+  locus: Orange II at raw line ~13557
+  role: tradition
+  confidence: assigned
+  note: 'The Gallic church legislating, including Orange II''s settlement of the grace controversy;
+    Latin only.
+
+    '
+  source_file: bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation
   work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
@@ -29,6 +112,20 @@ works:
     kept as context: the direct continuation of Jerome''s literary project, not membership
     of his circle.'
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--columbanus-letter-to-gregory
+  work: Letter of Columbanus to Pope Gregory on the Easter question (Ep. CXXVII in Barmby's
+    numbering)
+  author: gregory
+  locus: div3 ii.v.lx (raw ~4172-4596; about 4,650 words with Barmby's notes)
+  role: tradition
+  confidence: assigned
+  note: 'Not Gregory''s letter but Columbanus''s own, printed in the Register: the Irish monk''s
+    voice, naming Gildas and Finnian. Tradition for the Irish entry; written from Gaul, so
+    also placed with the Merovingian entry. The author slug is the volume''s, recorded plainly
+    as not the author of this work.
+
+    '
+  source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
 - row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i-2
   work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
@@ -60,6 +157,41 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- row_id: gregory-great_epistolae-selectae_turchi1907--brunhild-letters
+  work: The Latin letters to Queen Brunhild and the Frankish kings
+  author: gregory-great
+  locus: locus not pinned in this pass
+  role: context
+  confidence: provisional
+  note: 'Gregory''s correspondence with Merovingian courts; the exact letters in this selection
+    have not been pinned, hence provisional.
+
+    '
+  source_file: gregory-great_epistolae-selectae_turchi1907.txt
+- row_id: gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885--gregory-tours-historiae-and-miracula
+  work: Gregory of Tours, Historiarum libri X and the miracle books (Gloria martyrum, Vitae
+    patrum and others), Latin
+  author: gregory-tours
+  locus: Pars I Historiae; Pars II from raw line ~35216; Gloria martyrum ~37612
+  role: tradition
+  confidence: assigned
+  note: 'The bishop of Tours in his own Latin; the saints'' books are the entry''s richest
+    everyday religious texture and have no public-domain English.
+
+    '
+  source_file: gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt
+- row_id: gregory-tours_history-of-the-franks-selections_brehaut1916--history-selections-and-miracles
+  work: Gregory of Tours, History of the Franks (abridged) and selections from the Eight Books
+    of Miracles
+  author: gregory-tours
+  locus: Miracles selections at raw lines ~11223-11800
+  role: tradition
+  confidence: assigned
+  note: 'An abridged second English of the History and the short English selections from the
+    miracle books.
+
+    '
+  source_file: gregory-tours_history-of-the-franks-selections_brehaut1916.txt
 - row_id: gregory-tours_history-of-the-franks-v2_dalton1927--the-history-of-the-franks-volume-ii
   work: The History of the Franks, Volume II
   author: gregory-tours
@@ -76,6 +208,71 @@ works:
 
     '
   source_file: gregory-tours_history-of-the-franks-v2_dalton1927.txt
+- row_id: jonas-bobbio_life-of-st-columban_munro1895--life-of-columban
+  work: Jonas of Bobbio, Life of St. Columban, English
+  author: jonas-bobbio
+  locus: chapters
+  role: tradition
+  confidence: assigned
+  note: 'The Irish continental mission by a Bobbio monk; tradition for the Irish entry, and
+    Luxeuil''s Frankish setting makes it a context row for the Merovingian one (one row, role
+    as stated for the Irish entry).
+
+    '
+  source_file: jonas-bobbio_life-of-st-columban_munro1895.txt
+- row_id: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--marius-avenches
+  work: Marius of Avenches, Chronicon (455-581)
+  author: marius-avenches
+  locus: the Marius section
+  role: context
+  confidence: provisional
+  note: 'A Burgundian bishop''s short chronicle of the Frankish conquest of Burgundy and the
+    Lombard raids; provisional pending a build thread''s judgement of whether Avenches sits
+    inside or beside the Merovingian entry''s region.
+
+    '
+  source_file: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+- row_id: concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893--merovingian-councils
+  work: The Merovingian councils from Orleans (511) to the 7th century, Latin
+  author: merovingian-councils
+  locus: from raw line ~698
+  role: tradition
+  confidence: assigned
+  note: 'The Frankish bishops legislating for church, clergy and monasteries under the kings.
+
+    '
+  source_file: concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt
+- row_id: passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896--other-merovingian-lives
+  work: The other lives in the volume (Passiones and Vitae of the Merovingian saints)
+  author: merovingian-hagiography
+  locus: the rest of the volume
+  role: tradition
+  confidence: provisional
+  note: 'Merovingian hagiography; provisional until a build thread selects the lives inside
+    the 480-620 window.
+
+    '
+  source_file: passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt
+- row_id: passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896--vita-caesarii
+  work: Vita Caesarii episcopi Arelatensis libri duo, Latin
+  author: merovingian-hagiography
+  locus: item XXVII of the contents
+  role: tradition
+  confidence: assigned
+  note: 'The pastoral bishop of Arles as his disciples remembered him (written c. 542-549).
+
+    '
+  source_file: passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt
+- row_id: prosper_chronica-minora-1-lat_mommsen1892--gallic-chronicle-511
+  work: The Gallic Chronicle of 511
+  author: prosper
+  locus: raw lines ~67797 and ~69109
+  role: context
+  confidence: provisional
+  note: 'A short Gallic chronicle to 511; the author slug is the file''s, not the work''s.
+
+    '
+  source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-easter-de-pascha
   work: On Easter (De Pascha)
   author: venantius
@@ -89,3 +286,26 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- row_id: venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881--venantius-poems-and-lives
+  work: Venantius Fortunatus, Carmina and the prose Lives (Vita Radegundis, Vita Martini),
+    Latin
+  author: venantius-fortunatus
+  locus: poems; prose from raw line ~41050; Vita Radegundis ~41871
+  role: tradition
+  confidence: assigned
+  note: 'The court poet-bishop of Poitiers, whose hymns the whole Latin church still sings;
+    Latin only.
+
+    '
+  source_file: venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt
+- row_id: samson-of-dol_life-of-st-samson_taylor1925--life-of-samson
+  work: Vita Samsonis (The Life of St. Samson of Dol), English
+  author: vita-samsonis
+  locus: prologue and books I-II
+  role: tradition
+  confidence: provisional
+  note: 'A Welsh-trained bishop''s Life crossing into Brittany and Frankish Paris; date Contested,
+    so provisional. Tradition for the British entry, context for the Merovingian one.
+
+    '
+  source_file: samson-of-dol_life-of-st-samson_taylor1925.txt

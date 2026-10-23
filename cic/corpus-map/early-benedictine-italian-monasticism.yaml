@@ -3,6 +3,51 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: early-benedictine-italian-monasticism
 works:
+- row_id: benedict_rule-of-saint-benedict_gasquet1925--rule-of-benedict
+  work: The Rule of Saint Benedict, English
+  author: benedict-of-nursia
+  locus: Prologue and chapters I-LXXIII (raw lines ~775-4256)
+  role: tradition
+  confidence: assigned
+  note: 'The Rule in the entry''s own voice; ch. 73 commends Cassian and Basil.
+
+    '
+  source_file: benedict_rule-of-saint-benedict_gasquet1925.txt
+- row_id: benedict_rule-of-st-benedict-lat-eng_hunter-blair1907--rule-latin-english
+  work: The Rule of Saint Benedict, Latin with English (Hunter Blair)
+  author: benedict-of-nursia
+  locus: chapters, Latin and English facing
+  role: tradition
+  confidence: assigned
+  note: 'The Latin original with a second English translation; the primary-evidence copy for
+    Latin wording.
+
+    '
+  source_file: benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt
+- row_id: boethius_theological-tractates-consolation_stewart-rand1918--theological-tractates
+  work: Boethius, Theological Tractates (De Trinitate, Contra Eutychen et Nestorium and others)
+    and the Consolation of Philosophy, Latin with English
+  author: boethius
+  locus: tractates and books by number
+  role: context
+  confidence: provisional
+  note: 'A Roman senator-theologian under the Ostrogoths; context for both entries, provisional.
+
+    '
+  source_file: boethius_theological-tractates-consolation_stewart-rand1918.txt
+- row_id: cassian_institutes-and-contra-nestorium_petschenig1888--institutes-latin
+  work: John Cassian, De institutis coenobiorum (the Institutes), Latin (CSEL 17)
+  author: cassian
+  locus: the Institutes in Petschenig's critical text
+  role: tradition
+  confidence: provisional
+  note: 'The Latin original of the work the Benedictine entry already holds in the NPNF English
+    (npnf211): the Rule of Benedict (ch. 73) commends Cassian by name. Provisional because
+    the NPNF English row already carries the work; this is the Latin witness for it. Previously
+    assigned to no entry. Era III Library pass, 2026-10-23.
+
+    '
+  source_file: cassian_institutes-and-contra-nestorium_petschenig1888.txt
 - row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian
   work: The Conferences of John Cassian
   author: cassian
@@ -33,6 +78,51 @@ works:
     (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian
     entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+- row_id: cassiodorus_opera-institutiones-pl70-lat_migne1847--institutiones
+  work: Cassiodorus, Institutiones divinarum et saecularium litterarum, Latin
+  author: cassiodorus
+  locus: near the head of the volume (contents at raw line ~302)
+  role: context
+  confidence: provisional
+  note: 'The monastic reading programme of Vivarium; context, since Cassiodorus''s monastery
+    is not Benedict''s. Latin only.
+
+    '
+  source_file: cassiodorus_opera-institutiones-pl70-lat_migne1847.txt
+- row_id: cassiodorus_variae-letters-hodgkin1886--variae-letters
+  work: Cassiodorus, Variae (condensed English translation)
+  author: cassiodorus
+  locus: books I-XII, condensed
+  role: context
+  confidence: provisional
+  note: 'The Ostrogothic court''s letters, from a Roman official in Arian service, who later
+    founded Vivarium; context for both, condensed so not quotable as complete.
+
+    '
+  source_file: cassiodorus_variae-letters-hodgkin1886.txt
+- row_id: eugippius_life-of-saint-severinus_robinson1914--life-of-severinus
+  work: Eugippius, Life of Saint Severinus
+  author: eugippius
+  locus: whole text; ch. VIII on the Rugian queen
+  role: tradition
+  confidence: provisional
+  note: 'Tradition for the Italian monastic world (an abbot of Benedict''s generation); context
+    for the Homoian entry (the Rugian court). One provisional row for both.
+
+    '
+  source_file: eugippius_life-of-saint-severinus_robinson1914.txt
+- row_id: gregory-great_dialogues_gardner1911--book-ii-benedict
+  work: 'Dialogues, Book II: the Life of St Benedict of Nursia'
+  author: gregory
+  locus: Book II (raw lines ~3393-5700, about 18,800 words); Scholastica ~5346; Totila ~4417-4494
+  role: tradition
+  confidence: needs-ruling
+  note: 'The only surviving life of Benedict. Whether Gregory''s Book II is tradition for
+    the Benedictine entry (as for the Gregorian one) is a double-placement the Gregorian dossier
+    named as unsettled; needs-ruling.
+
+    '
+  source_file: gregory-great_dialogues_gardner1911.txt
 - row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i-2
   work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
@@ -64,3 +154,68 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- row_id: liber-pontificalis_book-of-the-popes-v1_loomis1916--popes-hormisdas-to-pelagius-ii
+  work: Liber Pontificalis, the lives from Hormisdas (514) to Pelagius II (590), English
+  author: liber-pontificalis
+  locus: the lives for 514-590; ends at raw line ~13748
+  role: context
+  confidence: provisional
+  note: 'The Roman church''s own chronicle of its bishops across the Gothic and Lombard wars;
+    context for each entry, provisional on which lives each build uses.
+
+    '
+  source_file: liber-pontificalis_book-of-the-popes-v1_loomis1916.txt
+- row_id: paul-the-deacon_history-of-the-langobards_foulke1907--history-of-the-langobards
+  work: Paul the Deacon, History of the Langobards
+  author: paul-the-deacon
+  locus: whole text; IV.42 on Catholic and Arian bishops in each city
+  role: context
+  confidence: provisional
+  note: 'An 8th-century monk of Monte Cassino on the Lombard centuries; tier 4 context for
+    both entries.
+
+    '
+  source_file: paul-the-deacon_history-of-the-langobards_foulke1907.txt
+- row_id: procopius_wars-5-6-gothic_dewing1919--wars-v-vi-gothic-war
+  work: History of the Wars, Books V-VI (the Gothic War, 535-540)
+  author: procopius
+  locus: whole text
+  role: context
+  confidence: assigned
+  note: 'The war that emptied the Italy of Benedict''s Dialogues; the Ostrogothic Arian court
+    seen by an imperial officer; Justinian''s reconquest. Context in each.
+
+    '
+  source_file: procopius_wars-5-6-gothic_dewing1919.txt
+- row_id: procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924--wars-vi-vii-gothic-war-continued
+  work: History of the Wars, Books VI.16-VII.35 (the Gothic War, 540-552)
+  author: procopius
+  locus: whole text (English pages)
+  role: context
+  confidence: assigned
+  note: 'Totila''s war in the Italy of Benedict''s last years and of Vigilius''s papacy, from
+    the imperial side. Context.
+
+    '
+  source_file: procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt
+- row_id: prosper_chronica-minora-1-lat_mommsen1892--anonymus-valesianus-theoderic
+  work: Anonymus Valesianus II (Theoderic's Italy) and the Copenhagen continuation
+  author: prosper
+  locus: raw lines ~39513-41490 (Eugippius quoted ~40376-40395); Lombards from ~42520
+  role: context
+  confidence: assigned
+  note: 'The Arian king''s reign told by a Catholic Roman chronicler, who nonetheless notes
+    his tolerance (~40956); the author slug is the file''s, not the work''s.
+
+    '
+  source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
+- row_id: regula-magistri-cresconius-pl88-lat_migne1862--regula-magistri
+  work: The Rule of the Master (Regula Magistri), Latin
+  author: regula-magistri
+  locus: raw lines ~78482-82155 onward; 'AD MONACHOS MAGISTRI'
+  role: tradition
+  confidence: assigned
+  note: 'The anonymous rule Benedict''s Rule draws on; Latin only, no public-domain English.
+
+    '
+  source_file: regula-magistri-cresconius-pl88-lat_migne1862.txt

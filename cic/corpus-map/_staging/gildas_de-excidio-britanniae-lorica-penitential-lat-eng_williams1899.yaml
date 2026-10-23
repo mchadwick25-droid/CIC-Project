@@ -1,0 +1,34 @@
+source_file: gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt
+
+authors_ruled:
+  gildas:
+    kind: metadata-omission
+    evidence: >
+      The host record names Gildas, 516?-570?, and the editor Hugh Williams; the corpus-map
+      has no earlier ruling for the slug.
+    from_file: gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt
+
+assignments:
+  - row_id: gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899--de-excidio
+    work: "Gildas, De excidio Britanniae (The Ruin of Britain), the fragments, the penitential and the Lorica, Latin with English"
+    author: gildas
+    locus: "sections 1-110; Quid tu enim, insularis draco at raw line ~4668"
+    atlas_ids:
+      - british-welsh-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The British church's one extended own-voice text from the window, a moral sermon
+      against its kings and clergy.
+
+  - row_id: gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899--gildas-irish-context
+    work: "Gildas, De excidio Britanniae and the Penitential (Irish reception)"
+    author: gildas
+    locus: "whole text"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+    role: antecedent
+    confidence: needs-ruling
+    note: >
+      Columbanus cites Gildas and the Irish catalogue of saints names him; antecedent only
+      if the Irish entry's own sources are shown to argue from him; needs-ruling.

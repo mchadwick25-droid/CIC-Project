@@ -3,6 +3,42 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: georgian-christianity
 works:
+- row_id: studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903--life-of-nino
+  work: The Life of St Nino (Georgian), with the Armenian Version of Djouansher
+  author: georgian-life-of-nino
+  locus: from raw line ~166; the Djouansher version from ~3620
+  role: transmission
+  confidence: assigned
+  note: 'The Georgian conversion narrative in 9th-10th-century redactions: transmission, retrospective,
+    confidence tags required.
+
+    '
+  source_file: studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt
+- row_id: john-ephesus_lives-eastern-saints-po18_brooks1924--armenian-synaxarion-shushanik
+  work: Le Synaxaire arménien de Ter Israel (Basset), the notice of St Shushanik, daughter
+    of Vardan, martyred by her husband Vazgen governor of Georgia (bound in this PO volume)
+  author: john-ephesus
+  locus: the Synaxaire arménien section (raw file lines ~5964-5966 for Shushanik)
+  role: transmission
+  confidence: provisional
+  note: 'Not John of Ephesus''s work: PO 18 binds Basset''s French translation of the medieval
+    Armenian Synaxarion before the Lives, and it carries the only vendored notice of Shushanik.
+    Transmission (a medieval Armenian calendar preserving the 5th-century martyr''s memory);
+    the author slug is the file''s, not the work''s, which this note records plainly. Era
+    III Library pass, 2026-10-16.
+
+    '
+  source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
+- row_id: brosset_histoire-de-la-georgie-pt1-fra_1849--georgian-chronicles-vakhtang
+  work: Georgian chronicles, history to the 6th century including Vakhtang Gorgasali (French)
+  author: kartlis-tskhovreba
+  locus: the early reigns; Vakhtang indexed at 'Gourgaslan'
+  role: transmission
+  confidence: provisional
+  note: 'Medieval chronicle memory of the 5th-century king; retrospective, French only.
+
+    '
+  source_file: brosset_histoire-de-la-georgie-pt1-fra_1849.txt
 - row_id: life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895--peter-the-iberian-georgian
   work: The Syriac Life of Peter the Iberian (Raabe, 1895)
   author: life-of-peter-the-iberian
@@ -14,3 +50,100 @@ works:
     and this text is not written from inside Georgia. Context, provisional; the Georgian builder
     may rule otherwise.'
   source_file: life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt
+- row_id: moses-khoren_history-of-armenians-ita_mechitaristi1850--nino-and-georgian-letters
+  work: History II.86 (the blessed Nune and the Iberians) and III.54 (Mesrop's Georgian letters)
+  author: moses-khoren
+  locus: raw file lines ~10064-10068 and ~13992-13996
+  role: context
+  confidence: provisional
+  note: 'Armenian memory of the Georgian conversion and alphabet; date contested, tier 4.
+
+    '
+  source_file: moses-khoren_history-of-armenians-ita_mechitaristi1850.txt
+- row_id: procopius_wars-1-2-persian_dewing1914--wars-i-12-iberians
+  work: History of the Wars I.12 (the Iberians, Christians under Persian pressure; King Gourgenes)
+  author: procopius
+  locus: Book I, chapter 12
+  role: context
+  confidence: assigned
+  note: 'Procopius on the Iberians who "guard the rites of this faith more closely than any
+    other men known to us" and their king''s appeal to Justin against Persian fire-worship.
+    Outside witness from the 520s.
+
+    '
+  source_file: procopius_wars-1-2-persian_dewing1914.txt
+- row_id: procopius_wars-7-36-8-gothic-grc-eng_dewing1928--wars-vii-viii-gothic-war-end
+  work: History of the Wars, Books VII.36-VIII (the end of the Gothic War; the Lazic war)
+  author: procopius
+  locus: whole text (English pages); Lazica at VIII.1-17
+  role: context
+  confidence: provisional
+  note: 'The last volume of the Wars. For the imperial church, the close of the reconquest;
+    for Georgia, the Lazi (west Georgia) as a Christian people between Rome and Persia, VIII.1-17.
+    Provisional for Georgia: Lazica is adjacent to, not identical with, the Iberian church
+    the census entry describes.
+
+    '
+  source_file: procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt
+- row_id: sebeos_histoire-d-heraclius-fra_macler1904--histoire-d-heraclius
+  work: Sebeos, History (Histoire d'Heraclius), French
+  author: sebeos
+  locus: whole text
+  role: tradition
+  confidence: provisional
+  note: 'Tradition for Armenia (a bishop''s own history); for Albania, Georgia and Persia
+    it is the Armenian view of neighbours and context. Tier 4: composed after the Armenian
+    entry''s window.
+
+    '
+  source_file: sebeos_histoire-d-heraclius-fra_macler1904.txt
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--iberians-socrates-i-20-sozomen-ii-7
+  work: Socrates I.20 and Sozomen II.7 (the conversion of the Iberians by a captive woman)
+  author: socrates
+  locus: div ii.iv.xx (raw ~4426) and iii.vii.vii
+  role: context
+  confidence: assigned
+  note: 'The oldest accounts of the conversion Georgian tradition ascribes to Nino, centuries
+    earlier than the Georgian versions.
+
+    '
+  source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--theodoret-i-22-i-23-aksum-iberia
+  work: Theodoret, Ecclesiastical History I.22 (Frumentius and the Auxumitae) and I.23 (the
+    captive woman and the Iberians)
+  author: theodoret
+  locus: div iv.viii.i.xxiii (raw ~7696) and iv.viii.i.xxiv (~7786)
+  role: context
+  confidence: assigned
+  note: 'Theodoret''s versions of the two conversion stories; outside witness for both entries''
+    prehistory.
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--iii-3-5-monks-revolt-peter-iberian
+  work: Chronicle Book III.3-5 (the Palestinian monks' revolt after Chalcedon; Peter the Iberian
+    made bishop of Maiuma)
+  author: zachariah-rhetor
+  locus: Book III ch. 3-5 (raw file lines ~2062-2750)
+  role: context
+  confidence: assigned
+  note: 'The rival side''s account of the revolt the Chalcedonian lauras lived through, by
+    a native of Gaza; Peter the Iberian''s episcopate at Maiuma. Era III Library pass, 2026-10-16.
+
+    '
+  source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
+- row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--xii-7-armenia-georgia-albania-persia
+  work: 'Chronicle Book XII.7 (the Christian peoples of the Caucasus: Armenia''s Catholicos
+    at Dvin, Gurzan, Arran; Kardutsat''s mission to the Huns; the Persian Catholicos Joseph
+    at court)'
+  author: zachariah-rhetor
+  locus: Book XII ch. 7 (raw file lines ~16313-16515)
+  role: context
+  confidence: assigned
+  note: 'A geographical survey written c. 555 naming the Armenian Catholicos Gregory at Dvin,
+    Georgia''s Christian prince under Persia, Albania ("Arran") as a baptized people whose
+    bishop Kardutsat went to the Huns, and the Persian Catholicos Joseph as the king''s physician.
+    One short chapter serving four worlds. Era III Library pass, 2026-10-16.
+
+    '
+  source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt

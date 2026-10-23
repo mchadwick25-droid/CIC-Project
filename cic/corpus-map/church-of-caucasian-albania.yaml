@@ -17,3 +17,65 @@ works:
 
     '
   source_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+- row_id: langlois_collection-historiens-armenie-tome2-fra_1869--koriun-life-of-mashtots
+  work: Koriun, Life of Mesrop (Mashtots), French
+  author: koriun
+  locus: the Koriun section of the volume
+  role: tradition
+  confidence: assigned
+  note: 'The inventor of the Armenian script as his pupil saw him, with the mission to the
+    Albanians and Iberians; the only vendored witness to the Albanian alphabet outside Moses
+    of Khoren.
+
+    '
+  source_file: langlois_collection-historiens-armenie-tome2-fra_1869.txt
+- row_id: moses-khoren_history-of-armenians-ita_mechitaristi1850--albanian-alphabet
+  work: 'History III.54 (Mesrop in Albania: the Albanian script)'
+  author: moses-khoren
+  locus: raw file lines ~14001-14002
+  role: context
+  confidence: provisional
+  note: 'The only Armenian-side notice in this file of the Albanian script; date contested,
+    tier 4.
+
+    '
+  source_file: moses-khoren_history-of-armenians-ita_mechitaristi1850.txt
+- row_id: sebeos_histoire-d-heraclius-fra_macler1904--histoire-d-heraclius
+  work: Sebeos, History (Histoire d'Heraclius), French
+  author: sebeos
+  locus: whole text
+  role: tradition
+  confidence: provisional
+  note: 'Tradition for Armenia (a bishop''s own history); for Albania, Georgia and Persia
+    it is the Armenian view of neighbours and context. Tier 4: composed after the Armenian
+    entry''s window.
+
+    '
+  source_file: sebeos_histoire-d-heraclius-fra_macler1904.txt
+- row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--vii-4-albanian-prince-amida
+  work: Chronicle Book VII.4 (a Christian prince of Arran pleads for the Church of the Forty
+    Martyrs at Amida, 503)
+  author: zachariah-rhetor
+  locus: Book VII ch. 4 (raw file lines ~7839-7841)
+  role: context
+  confidence: provisional
+  note: 'A few lines; the only other vendored notice of an Albanian Christian in action. Era
+    III Library pass, 2026-10-16.
+
+    '
+  source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
+- row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--xii-7-armenia-georgia-albania-persia
+  work: 'Chronicle Book XII.7 (the Christian peoples of the Caucasus: Armenia''s Catholicos
+    at Dvin, Gurzan, Arran; Kardutsat''s mission to the Huns; the Persian Catholicos Joseph
+    at court)'
+  author: zachariah-rhetor
+  locus: Book XII ch. 7 (raw file lines ~16313-16515)
+  role: context
+  confidence: assigned
+  note: 'A geographical survey written c. 555 naming the Armenian Catholicos Gregory at Dvin,
+    Georgia''s Christian prince under Persia, Albania ("Arran") as a baptized people whose
+    bishop Kardutsat went to the Huns, and the Persian Catholicos Joseph as the king''s physician.
+    One short chapter serving four worlds. Era III Library pass, 2026-10-16.
+
+    '
+  source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt

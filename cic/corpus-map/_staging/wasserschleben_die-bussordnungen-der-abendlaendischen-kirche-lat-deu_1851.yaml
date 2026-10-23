@@ -1,0 +1,33 @@
+source_file: wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt
+
+authors_ruled:
+  celtic-penitentials:
+    kind: anonymous
+    evidence: >
+      A collection of penitentials by Vinnian, Columbanus, Cummean, Gildas and unnamed
+      writers; the edition names only its editor.
+    from_file: wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt
+
+assignments:
+  - row_id: wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851--irish-penitentials
+    work: "The Irish penitentials (Vinnian, Columbanus, Cummean and others), Latin"
+    author: celtic-penitentials
+    locus: "Vinniai at raw line ~517 and the Irish section"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The Irish monasteries' penitential discipline in Latin; the German introduction is
+      scholarship.
+
+  - row_id: wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851--gildas-and-welsh-penitentials
+    work: "The Penitential of Gildas and the Canones Wallici, Latin"
+    author: celtic-penitentials
+    locus: "Poenitentiale Gildae at raw line ~515"
+    atlas_ids:
+      - british-welsh-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The British church's penitential discipline in Latin.

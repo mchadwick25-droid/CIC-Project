@@ -29,6 +29,17 @@ works:
 
     '
   source_file: barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt
+- row_id: book-of-the-himyarites-syr-eng_moberg1924--book-of-the-himyarites
+  work: The Book of the Himyarites (the Najran martyrs of 523 and the Aksumite intervention)
+  author: book-of-the-himyarites
+  locus: whole text; the Prayer of King Kaleb around raw line 2072
+  role: context
+  confidence: assigned
+  note: 'Context for Aksum (the closest surviving thing to the king''s own words); tradition
+    for the West Syriac communion that wrote it, recorded under one row.
+
+    '
+  source_file: book-of-the-himyarites-syr-eng_moberg1924.txt
 - row_id: chronicle-of-edessa_cowper--the-chronicle-of-edessa-2
   work: The Chronicle of Edessa
   author: chronicle-of-edessa
@@ -73,6 +84,17 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903--life-of-severus-john-beth-aphthonia
+  work: John of Beth Aphthonia, Life of Severus, Syriac with French
+  author: john-beth-aphthonia
+  locus: PO 2 fasc. 3
+  role: tradition
+  confidence: assigned
+  note: 'The monastic encomium on Severus by the abbot of Qenneshre''s founding community.
+    Tradition.
+
+    '
+  source_file: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt
 - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--lives-of-the-eastern-saints-i
   work: Lives of the Eastern Saints (I)
   author: john-ephesus
@@ -418,3 +440,16 @@ works:
   note: 'Custody: the text is known in a Syriac translation preserved by the Syriac Orthodox.
     Voice assigned to the Egyptian entry.'
   source_file: theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt
+- row_id: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903--life-of-severus-zacharias
+  work: Zacharias Scholasticus, Life of Severus (Vie de Sévère), Syriac with French
+  author: zacharias-scholasticus
+  locus: PO 2 fasc. 1, the first work in the volume
+  role: tradition
+  confidence: provisional
+  note: 'A fellow student''s memoir of Severus at Alexandria and Beirut and of the anti- Chalcedonian
+    circle of Gaza (Peter the Iberian''s disciples). Tradition for the West Syriac world;
+    for Egypt and for the Judean-desert/Gaza entry it is the rival side''s own voice - context
+    there, recorded under one row provisionally until each world''s build splits the role.
+
+    '
+  source_file: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt

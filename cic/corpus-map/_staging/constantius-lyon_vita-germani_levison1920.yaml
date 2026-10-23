@@ -1,0 +1,24 @@
+source_file: constantius-lyon_vita-germani_levison1920.txt
+
+authors_ruled:
+  constantius-lyon:
+    kind: metadata-omission
+    evidence: >
+      The file is Constantius of Lyon's Vita Germani episcopi Autissiodorensis, Levison's
+      MGH edition of 1920; its name slug is the author's, and no earlier ruling covers it.
+    from_file: constantius-lyon_vita-germani_levison1920.txt
+
+assignments:
+  - row_id: constantius-lyon_vita-germani_levison1920--british-missions
+    work: "Constantius of Lyon, Vita Germani: the British missions of Germanus of Auxerre (429 and c. 435-444)"
+    author: constantius-lyon
+    locus: "raw file lines ~2665 (the delegation from the British churches), ~2993 (the Alleluia victory), ~3475 (the second visit)"
+    atlas_ids:
+      - british-welsh-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A Gallic bishop's biographer on the British church's appeal against Pelagianism and
+      the Alleluia victory, c. 480: the only continental witness to the British church
+      before the window. Latin, OCR rough. Before 451, so tier 4 and provisional; the
+      file was previously assigned to no entry. Era III Library pass, 2026-10-23.

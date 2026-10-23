@@ -12073,3 +12073,213 @@ queue:
       copyright field), 2026-10-23
     status: downloaded
     vendored_as: "ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt"
+
+  - title: "St. Patrick, His Writings and Life (with Muirchu's Life)"
+    author: "Patrick; Muirchu"
+    translator: "Newport J. D. White"
+    year: 1920
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): Patrick's own Confession and Letter, the founding
+      voice of the Irish church, in public-domain English.
+    url: "https://archive.org/details/StPatrick1920"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1920; CC Public Domain
+      Mark 1.0); the Confession and Letter located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "patrick_writings-and-life-with-muirchu-eng_white1920.txt"
+
+  - title: "Libri Sancti Patricii (Latin)"
+    author: "Patrick"
+    translator: "Newport J. D. White (ed.)"
+    year: 1918
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Latin original paired with the White English.
+    url: "https://archive.org/details/librisanctipatr00patr"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (SPCK 1918; no copyright
+      field), 2026-10-23
+    status: downloaded
+    vendored_as: "patrick_libri-sancti-patricii-lat_white1918.txt"
+
+  - title: "The Life of Saint Columba (Adamnan), tr. Huyshe"
+    author: "Adomnan of Iona"
+    translator: "Wentworth Huyshe"
+    year: 1905
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Life of Columba complete in public-domain
+      English.
+    url: "https://archive.org/details/lifeofsaintcolum00adam"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Routledge 1905; no
+      copyright field); title page read, 2026-10-23
+    status: downloaded
+    vendored_as: "adomnan_life-of-saint-columba_huyshe1905.txt"
+
+  - title: "Life of St. Columban (Jonas), tr. Munro"
+    author: "Jonas of Bobbio"
+    translator: "Dana C. Munro"
+    year: 1895
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Irish continental mission's founding Life, in
+      public-domain English.
+    url: "https://archive.org/details/lifeofstcolumban0207jona"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Penn
+      1895), 2026-10-23
+    status: downloaded
+    vendored_as: "jonas-bobbio_life-of-st-columban_munro1895.txt"
+
+  - title: "The Tripartite Life of Patrick, vol. II (Latin lives and Confession)"
+    author: "Muirchu; Tirechan; Patrick"
+    translator: "Whitley Stokes (ed.)"
+    year: 1887
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the 7th-century Latin lives of Patrick and the Book
+      of the Angel, with the Latin Confession.
+    url: "https://archive.org/details/tripartitept200unknuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Rolls
+      Series 1887); the Muirchu, Tirechan and Confession headings located in the fetched
+      text, 2026-10-23
+    status: downloaded
+    vendored_as: "stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt"
+
+  - title: "Die Bussordnungen der abendlaendischen Kirche (the Latin penitentials)"
+    author: "Vinnian; Columbanus; Cummean; Gildas; anonymous"
+    translator: "F. W. H. Wasserschleben (ed.)"
+    year: 1851
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Celtic penitentials, the church's everyday
+      discipline, in Latin.
+    url: "https://archive.org/details/diebussordnungen00wass"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Graeger 1851; no
+      copyright field); the Gildas and Vinnian penitentials located in the fetched text,
+      2026-10-23
+    status: downloaded
+    vendored_as: "wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt"
+
+  - title: "Gildas, De excidio Britanniae (with fragments, penitential and Lorica)"
+    author: "Gildas"
+    translator: "Hugh Williams"
+    year: 1899
+    world: "british-welsh-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the complete Gildas in Latin and English; the
+      Gutenberg Gildas is truncated at section 26.
+    url: "https://archive.org/details/gildaedeexcidiob00gilduoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Cymmrodorion 1899); sections 1-110 and Caradoc's Life located in the fetched text,
+      2026-10-23
+    status: downloaded
+    vendored_as: "gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt"
+
+  - title: "The Life of St. Samson of Dol"
+    author: "anonymous"
+    translator: "Thomas Taylor"
+    year: 1925
+    world: "british-welsh-christianity"
+    why: >
+      Era III Library pass (2026-10-23): a 6th-century British saint's Life, from Wales to
+      Brittany, in public-domain English.
+    url: "https://archive.org/details/lifeofstsamsonof00sams"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (SPCK 1925; no copyright
+      field); title page read, 2026-10-23
+    status: downloaded
+    vendored_as: "samson-of-dol_life-of-st-samson_taylor1925.txt"
+
+  - title: "Annales Cambriae"
+    author: "anonymous Welsh annalists"
+    translator: "John Williams ab Ithel (ed.)"
+    year: 1860
+    world: "british-welsh-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Welsh annals whose 768 entry closes the census
+      window.
+    url: "https://archive.org/details/annalescambri20will"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Rolls Series 1860; no
+      copyright field); the 768 entry located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
+
+  - title: "Lives of the Cambro British Saints"
+    author: "anonymous Welsh hagiographers"
+    translator: "W. J. Rees (ed. and tr.)"
+    year: 1853
+    world: "british-welsh-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Welsh saints' lives with English, late memory
+      of the window's saints.
+    url: "https://archive.org/details/livesofthecambro00reesuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; 1853),
+      2026-10-23
+    status: downloaded
+    vendored_as: "rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt"
+
+  - title: "Lives of Saints from the Book of Lismore"
+    author: "anonymous Irish hagiographers"
+    translator: "Whitley Stokes"
+    year: 1890
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Irish saints' lives with English, late memory
+      of the Irish monastic founders.
+    url: "https://archive.org/details/livesofsaintsfro00stok"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Clarendon 1890; no
+      copyright field); the contents list read in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt"
+
+  - title: "The Antiphonary of Bangor, part II"
+    author: "Bangor (anonymous)"
+    translator: "F. E. Warren (ed.)"
+    year: 1895
+    world: "insular-irish-monastic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Irish monastic office, the church's worship in
+      its own Latin.
+    url: "https://archive.org/details/antiphonaryofban02cath"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (HBS 1893-95; no
+      copyright field), 2026-10-23
+    status: downloaded
+    vendored_as: "antiphonary-of-bangor-pt2-lat_warren1895.txt"
+
+  - title: "History of the Britons (Historia Brittonum), tr. J. A. Giles"
+    author: "Nennius (attrib.)"
+    translator: "J. A. Giles"
+    year: undated (translator d. 1884)
+    world: "british-welsh-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the earliest account of Vortigern, Germanus and
+      Arthur, in public-domain English; late.
+    url: "https://www.gutenberg.org/ebooks/1972"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched; PD statement
+      read, 2026-10-23
+    status: downloaded
+    vendored_as: "nennius_history-of-the-britons-giles.txt"
