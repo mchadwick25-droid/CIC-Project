@@ -20,24 +20,26 @@ confidence:
     documented program, not to any claim about what any household actually did.'
 sources:
 - source_id: witt.source.luther-brief-explanation-of-the-ten-commandments
-  locus: the Kurze Form -- preface and Commandments; its Creed and Prayer unread
+  locus: the Kurze Form -- preface and Commandments; its Creed and Prayer not read
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, preface, First Commandment entire, Creed I and III, Prayer entire, Sacrament
+  locus: >-
+    the Large Catechism, preface, First Commandment entire, Creed I and III, Prayer entire, Sacrament
     and Conclusion
   license: public-domain
 - source_id: witt.source.luther-small-catechism
-  locus: the Small Catechism, whole file
+  locus: the Small Catechism
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: the Table Talk, cited among this entry's Registry rows (Doc_06 SS5 entry 4.1; Contested as verbatim)
+  locus: the Table Talk (Contested as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession, cited among this entry's Registry rows (Doc_06 SS5 entry 4.1)
+  locus: the Augsburg Confession
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XV -- 'with us the pastors and ministers of the churches are compelled publicly...
-    to instruct and hear the youth'
+  locus: >-
+    the Apology XV -- 'with us the pastors and ministers of the churches are compelled publicly... to
+    instruct and hear the youth'
   license: public-domain
 retrieval:
   tier: 1
@@ -79,43 +81,54 @@ relations:
   target: witt.term.the-devil
 - type: associated-with
   target: witt.term.must-and-free
-plain_meaning: 'The catechism is instruction every Christian needs: the Ten Commandments, the Creed, and
-  the Lord''s Prayer. Together they hold everything in Scripture. Every household says them daily, for
-  life. No one ever outgrows them, not even our founder.'
+plain_meaning: >-
+  The catechism is the instruction every Christian needs: the Ten Commandments, the Creed, and the Lord's
+  Prayer. Together they hold everything in Scripture. Our books told every household to say them daily,
+  for life. No one ever outgrows them, not even our founder.
 world_word: the catechism -- 'the three parts,' 'the five parts,' said word for word for life
 false_friend:
 - a catechism heard as a children's textbook, learned once and set aside
 - the catechism heard as a doctrinal summary rather than a lifelong daily practice
 - the catechism heard as a denominational identity document
 senses:
-  informational: '''Of old it was called in Greek catechism, i.e., instruction for children, what every
-    Christian must needs know''; the three parts ''contain fully and completely everything that is in
-    the Scriptures,'' and with the sacraments they are ''five parts of the entire Christian doctrine,''
-    ''a Short Summary and Epitome of the Entire Holy Scriptures.'' It is to be said, not owned: our founder
-    reports himself reading it ''every morning, and whenever I have time,'' calling himself ''a child
-    who is being taught the Catechism,'' who ''must remain a child and pupil of the Catechism, and am
-    glad so to remain.'' The book exists because of a failure we report of ourselves: ''many pastors and
-    preachers are very negligent in this,'' and the common people ''throw the book into a corner.'' Our
-    confession claims the practice before the Emperor: ''with us the pastors and ministers of the churches
-    are compelled publicly to instruct and hear the youth; and this ceremony produces the best fruits.'''
-  evidential: Documented as the whole of our 1529 output, in the founder's own voice and the confession's;
-    whether any household or parish actually kept it is a different question our library does not answer
-    from inside any household's own report.
-  personal: This is our own word for the whole of Scripture made sayable and repeatable -- never finished,
-    examined weekly, sung at work, the gate to the Sacrament, and written because we believed our own
-    people were not holding what they had heard.
-  translational: 'Do not hear ''catechism'' as a children''s textbook learned once, or as a badge of denominational
-    identity: we mean the whole of Scripture in three sayable parts, recited daily for life by every Christian,
-    examined weekly, and never finished -- we ourselves remain, by our own word, pupils of it.'
+  informational: >-
+    'Of old it was called in Greek catechism, i.e., instruction for children, what every Christian must
+    needs know'; the three parts 'contain fully and completely everything that is in the Scriptures,'
+    and with the sacraments they are 'five parts of the entire Christian doctrine,' 'a Short Summary and
+    Epitome of the Entire Holy Scriptures.' It is to be said, not owned: our founder reports himself reading
+    it 'every morning, and whenever I have time,' calling himself 'a child who is being taught the Catechism,'
+    who 'must remain a child and pupil of the Catechism, and am glad so to remain.' The book exists because
+    of a failure we report of ourselves: 'many pastors and preachers are very negligent in this,' and
+    the common people 'throw the book into a corner.' Our confession claims the practice before the Emperor:
+    'with us the pastors and ministers of the churches are compelled publicly to instruct and hear the
+    youth; and this ceremony produces the best fruits.'
+  evidential: >-
+    Documented as the whole of our 1529 output, in the founder's own voice and the confession's; whether
+    any household or parish actually kept it is a different question our library does not answer from
+    inside any household's own report.
+  personal: >-
+    This was our word for the whole of Scripture, made short enough to say and repeat. No one ever finished
+    it. Our books set it for weekly examination, for singing at work, and as the gate to the Sacrament.
+    We wrote it because we believed our own people were not holding what they had heard.
+  translational: >-
+    Do not hear 'catechism' as a children's textbook learned once, or as a badge of denominational identity:
+    we mean the whole of Scripture in three sayable parts, recited daily for life by every Christian,
+    examined weekly, and never finished -- we ourselves remain, by our own word, pupils of it.
 quick_meaning: The three parts every Christian must know, said daily for life. Never outgrown, never finished.
 distortion_risk: high
 use_note:
-  means: "The catechism meant the Ten Commandments, Creed and Lord's Prayer said word for word in the household as lifelong instruction that no one outgrows."
+  means: >-
+    The catechism meant the Ten Commandments, Creed and Lord's Prayer that our books told every household
+    to say daily, as lifelong instruction that no one outgrows.
   not_for:
-    - "the catechism as a children's textbook learned once and set aside"
-    - "the household as an institution, which sits in witt.term.household"
-    - "the weekly examination as attested practice, since witt.story.household-catechism-lesson-typical-practice holds the prescription only"
-  years: {from: 1520, to: 1546}
+  - the catechism as a children's textbook learned once and set aside
+  - the household as an institution, which sits in witt.term.household
+  - >-
+    the weekly examination as attested practice, since witt.story.household-catechism-lesson-typical-practice
+    holds the prescription only
+  years:
+    from: 1520
+    to: 1546
   status: reviewed
 ---
 Built from Doc_06 §5 entry 4.1 (catechism / 'the three parts', Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][RT]. Author Gravity: none for the practice; the household mechanism is the household entry's own. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.

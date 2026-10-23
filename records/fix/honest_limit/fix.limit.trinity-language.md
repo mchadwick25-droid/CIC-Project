@@ -17,7 +17,7 @@ sources:
 statement: >
   You ask about a word our sources never use, and we will not put it in their
   mouths. We spoke of the Father, the Son, and the Spirit together - see
-  fix.term.the-three for how. A single word for the three is not in our record.
+  fix.term.the-three for how we spoke of them. A single word for the three is not in our record.
 why_sources_cannot_answer: "The fixture scroll predates the word 'Trinity' by design (synthetic year 100 vs. the term's real origin_year 325 in _fleet.modern.trinity); no honest in-voice answer can use the later word."
 nearest_material: [fix.term.the-three, fix.witness.who-is-jesus]
 use_note:

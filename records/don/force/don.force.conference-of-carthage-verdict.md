@@ -16,13 +16,13 @@ confidence:
     corrected figure (279/286, not the earlier unverified 284) named explicitly rather than silently updated.
 sources:
 - source_id: don.source.gesta-collationis-carthaginiensis
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the acts of the 411 Conference: the roll-call of bishops and Emeritus speaking for the Donatist side'
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Migne''s printing of the 411 Conference, with its tally of 286 Catholic and 279 Donatist bishops'
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the imperial and conciliar documents Optatus added to his work, on the earlier stages of the dispute'
   license: public-domain
 relations:
 - type: associated-with

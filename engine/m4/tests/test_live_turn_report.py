@@ -52,3 +52,31 @@ def test_a_report_made_outside_a_live_test_says_so(monkeypatch):
     report = live_turn_run.run("us-east-1", world_key="fix", messages=["Who was Jesus to your people?"])
     assert report["live_test"] is None
     assert all(row["live_test"] is None and row["world_key"] == "fix" for row in report["usage"])
+
+
+def test_a_run_the_cap_stops_keeps_the_turns_that_ran(monkeypatch):
+    fake = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["Yes [[fix.witness.who-is-jesus]]."])
+    monkeypatch.setattr(live_turn_run, "resolve_model_id", lambda pattern, region: HAIKU)
+    monkeypatch.setattr(live_turn_run, "make_client", lambda region: fake)
+    real_run_turn = live_turn_run.run_turn
+    calls = []
+
+    def run_turn_until_cap(**kwargs):
+        calls.append(kwargs["participant_message"])
+        if len(calls) == 2:
+            raise guard.LiveTestCapReached("the next call could pass the cap")
+        return real_run_turn(**kwargs)
+
+    monkeypatch.setattr(live_turn_run, "run_turn", run_turn_until_cap)
+    report = live_turn_run.run("us-east-1", world_key="fix", messages=["Who was Jesus to your people?", "What did he do?", "Why?"])
+    assert [r["message"] for r in report["results"]] == ["Who was Jesus to your people?"]
+    assert report["stopped_by_cap_at"] == "message-2"
+    assert len(calls) == 2
+
+
+def test_a_run_that_finishes_says_the_cap_did_not_stop_it(monkeypatch):
+    fake = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["Yes [[fix.witness.who-is-jesus]]."])
+    monkeypatch.setattr(live_turn_run, "resolve_model_id", lambda pattern, region: HAIKU)
+    monkeypatch.setattr(live_turn_run, "make_client", lambda region: fake)
+    report = live_turn_run.run("us-east-1", world_key="fix", messages=["Who was Jesus to your people?"])
+    assert report["stopped_by_cap_at"] is None

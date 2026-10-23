@@ -41,13 +41,13 @@ senses:
   informational: "The terse saying is how this world taught: an elder's word, given orally to a specific disciple's specific need, portable enough to be turned over in the mind through a week of solitary work. Outside Evagrius, this world produced almost no sustained treatise - teaching that could not travel as a saying largely did not survive in the world's own idiom."
   evidential: "The collections that preserve the sayings were compiled in writing after this world's own close, by unnamed editors who selected and arranged material from all three strands - so every saying reaches us through a compiler's hands, and honesty about that layer is part of telling any of them. The sayings themselves were spoken and first passed on much earlier, while this way of life was still being lived."
   personal: "A saying was medicine measured for one patient. Asking an elder for a word was a real request with a real weight: what came back was meant to be lived with, not filed."
-  translational: "Not a quote in the modern shareable sense. Its brevity was a formation technique, and its original address was one person - the anthology form is the later editors' doing, not the teaching's own shape."
+  translational: Not a quote in the modern shareable sense. Its brevity was a way of forming a person, and it was first given to one person. The anthology form is the later editors' doing, and the teaching never had that shape.
 quick_meaning: "A short word from an elder, made to be carried and lived with."
 distortion_risk: medium
 use_note:
   means: "An apophthegma was a short word from an elder, given to one person for one moment of need, and it was this world's main way of teaching."
   not_for:
-    - "Hearing it as a shareable quotable aphorism or soundbite"
+    - "Hearing it as a clever line made to be repeated to anyone, rather than a word given to one person"
     - "Presenting a saying as a transcript, when the collections were compiled by later editors"
     - "Treating the anthology form as the shape the teaching originally had"
   years: {from: 320, to: 430}

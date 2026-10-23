@@ -78,8 +78,8 @@ relations:
 - type: associated-with
   target: gallic.term.antichrist
 plain_meaning: >-
-  A false show by which the devil ruins a monk. A robe said to come from heaven, a crowned Christ,
-  an angel's promise at a well. This is the danger our discretion exists to meet.
+  A false show by which the devil ruins a monk. A robe said to come from heaven, a crowned Christ, an
+  angel's promise at a well. This was the danger our discretion was meant to meet.
 world_word: illusion (of the devil)
 false_friend:
 - hallucination or delusion as psychology

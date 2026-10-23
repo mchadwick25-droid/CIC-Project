@@ -19,6 +19,7 @@ work: The Twelve Books on the Institutes of the Coenobia
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 11 (Sulpitius Severus, Vincent of Lerins, John
   Cassian), tr. Alexander Roberts / C. A. Heurtley / Edgar C. S. Gibson, ed. Schaff and Wace, vendored
   as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+citation: John Cassian, The Twelve Books on the Institutes of the Coenobia, trans. Edgar C. S. Gibson, Nicene and Post-Nicene Fathers, 2nd series, vol. 11, ed. Schaff and Wace
 kind: vendored
 rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
 attribution_status: attributed
@@ -27,4 +28,4 @@ discovery_channel: builder-direct-read; Source Registry row 7; the passage or te
 external_ids:
   gallic_source_registry_row: 7
 ---
-Grounds the Egyptian-to-Gallic transmission-and-adaptation program in full: the girdle, the canonical hours, the Gallic Gloria (a thing this world's own text says it does NOT share with the East, Inst. II.8), the entrance sequence, the eight-faults order of battle, and the Castor/Apta Julia dedication (Doc_04/05, chunk 007). Preface read in full; Book I ch. X's dress passage read and verbatim-quoted, including its own translator's-omission footnote, at this Registry's own construction.
+Grounds the Egyptian-to-Gallic transmission-and-adaptation program in full: the girdle, the night office, the Gallic Gloria (a thing this world's own text says it does NOT share with the East, Inst. II.8), the entrance sequence, the eight-faults order of battle, and the Castor/Apta Julia dedication (Doc_04/05, chunk 007). Preface read in full; Book I ch. X's dress passage read and verbatim-quoted, including its own translator's-omission footnote, at this Registry's own construction.

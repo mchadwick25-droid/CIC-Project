@@ -17,6 +17,7 @@ relations: []
 author: Christopher Beeley
 work: A major recent monograph on Nazianzen's Trinitarian theology
 edition: In-copyright modern scholarship, not vendored
+citation: Christopher Beeley, a recent monograph on Gregory of Nazianzus' Trinitarian theology
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

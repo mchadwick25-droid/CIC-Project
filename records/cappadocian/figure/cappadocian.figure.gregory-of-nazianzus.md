@@ -27,7 +27,10 @@ names:
 dates:
   display: "c. 329/30 - c. 390; bishop of Sasima in name only (372), briefly bishop of Constantinople (379-381) before resigning, later returned to Nazianzus and then Arianzus"
 narratable: true
-bridge_line: "The most interior voice in this world's own record - a rhetor-contemplative who defended the Trinity at Constantinople, then walked away from the throne he had just been given."
+bridge_line: >-
+  The most inward voice of the circle. He was a trained speaker who loved
+  prayer and quiet. He defended the Trinity at Constantinople. Then he gave
+  up the bishop's throne he had just been given.
 relations:
 - type: associated-with
   target: cappadocian.story.sasima-wound

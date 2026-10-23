@@ -39,7 +39,7 @@ class AuditSession:
     world_keys: list[str]           # one entry for an interview
     closed: bool
     close_reason: str | None
-    participant_messages: list[dict] = field(default_factory=list)  # {"seq", "text"} - operator-only (Artifact-8 §4)
+    participant_messages: list[dict] = field(default_factory=list)  # {"seq", "text", "at"} - operator-only (Artifact-8 §4)
     gate_decisions: list[dict] = field(default_factory=list)        # payloads verbatim, with "seq"
     voice_turns: list[VoiceTurnRecord] = field(default_factory=list)
     facilitator_turns: list[dict] = field(default_factory=list)     # {"seq", "kind", "text"}
@@ -61,6 +61,9 @@ class AuditSession:
     # an aggregate rollup unlike participant_messages/gate_decisions above -
     # see wiring.get_usage_summary, the one place this is actually read.
     visitor_id: str | None = None
+    # session_started.internal: a session from a browser the team marked as
+    # its own. Absent reads False (engine.m4.entrance.open_session).
+    internal: bool = False
 
 
 ACTIVITY_EVENT_TYPES = frozenset({"participant_message", "facilitator_turn", "voice_turn", "turn_committed"})
@@ -81,6 +84,7 @@ def read_session(store: Store, session_id: str) -> AuditSession | None:
             session = AuditSession(session_id=session_id, mode=mode, world_keys=world_keys, closed=False, close_reason=None)
             session.first_at = ev.created_at
             session.visitor_id = p.get("visitor_id")
+            session.internal = p.get("internal") is True
         if session is None:
             # A log that doesn't start with session_started is itself a
             # finding; collect it as a bare session so nothing is dropped.
@@ -101,7 +105,7 @@ def read_session(store: Store, session_id: str) -> AuditSession | None:
             session.closed = False
             session.close_reason = None
         if ev.event_type == "participant_message":
-            session.participant_messages.append({"seq": ev.seq, "text": p.get("text", "")})
+            session.participant_messages.append({"seq": ev.seq, "text": p.get("text", ""), "at": ev.created_at})
         elif ev.event_type == "gate_decision":
             session.gate_decisions.append({"seq": ev.seq, **p})
         elif ev.event_type == "turn_selected":

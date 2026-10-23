@@ -19,6 +19,7 @@ work: Basil, canonical Epistle 199 (to Amphilochius), specifically canon 21 -- n
   the separate Epistle 21, a different letter entirely
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
+citation: 'Basil of Caesarea, canonical Epistle 199 to Amphilochius, canon 21, Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)"
 work: "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)"
 edition: "trans. W.H. Fremantle, Nicene and Post-Nicene Fathers 2nd ser. vol. 6 (T&T Clark, 1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id v.XXII"
+citation: Jerome, Epistula 22, to Eustochium (De virginitate servanda), trans. W.H. Fremantle, Nicene and Post-Nicene Fathers, 2nd series, vol. 6 (T&T Clark, 1893)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

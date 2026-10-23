@@ -1,13 +1,5 @@
-/**
- * Text input for participant messages.
- *
- * "Leave for now" (not "End the conversation"): MessageRequest is only
- * {text, client_msg_id} - there is no close-intent field, so this can only
- * navigate away client-side. The session is not actually closed server-side
- * and stays resumable by its code, so the label says what really happens.
- */
+/** Text input for participant messages. */
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { GoDeeperPanel } from './GoDeeperPanel';
 import { useAskAgain } from '../hooks/useAskAgain';
 import type { ConversationTurn } from '../hooks/useConversation';
 import { deeperEnabled } from '../lib/deeper';
@@ -15,25 +7,41 @@ import { askAgainCopy } from '../lib/deeperCopy';
 
 interface ChatInputProps {
   onSend: (message: string) => void;
-  onEnd: () => void;
   placeholder: string;
   disabled?: boolean;
   turns?: ConversationTurn[];
+  // Text already in the box when it first appears.
+  initialMessage?: string;
+  // A sent message is waiting for its reply; without it, a disabled box reads as sending.
+  sending?: boolean;
 }
 
-export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns = [] }: ChatInputProps) {
-  const [message, setMessage] = useState('');
+export function ChatInput({ onSend, placeholder, disabled = false, turns = [], initialMessage = '', sending = disabled }: ChatInputProps) {
+  const [message, setMessage] = useState(initialMessage);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const askAgainRef = useRef<HTMLButtonElement>(null);
   const { pending, submit, confirm, decline } = useAskAgain(turns, onSend);
 
-  useEffect(() => {
+  const fitHeight = useCallback(() => {
     const textarea = textareaRef.current;
-    if (textarea) {
-      textarea.style.height = 'auto';
-      textarea.style.height = `${Math.min(textarea.scrollHeight, 200)}px`;
-    }
-  }, [message]);
+    if (!textarea) return;
+    textarea.style.height = 'auto';
+    const border = textarea.offsetHeight - textarea.clientHeight;
+    textarea.style.height = `${Math.min(textarea.scrollHeight + border, 200)}px`;
+  }, []);
+
+  useEffect(fitHeight, [message, fitHeight]);
+
+  // The first measure can run before the web font arrives; measure again then.
+  useEffect(() => {
+    let live = true;
+    document.fonts?.ready.then(() => {
+      if (live) fitHeight();
+    });
+    return () => {
+      live = false;
+    };
+  }, [fitHeight]);
 
   const handleSubmit = useCallback(
     (e: React.FormEvent) => {
@@ -83,8 +91,8 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns 
           disabled={disabled}
           rows={1}
         />
-        <button type="submit" disabled={disabled || !message.trim()}>
-          {disabled ? 'Sending…' : 'Send'}
+        <button type="submit" aria-label={sending ? 'Sending…' : 'Send'} disabled={disabled || !message.trim()}>
+          <span aria-hidden="true">↑</span>
         </button>
       </form>
       {pending !== null && (
@@ -100,15 +108,6 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns 
           </div>
         </div>
       )}
-      <div className="conversation__end">
-        {/* Stage 0b (Build-Plan.md): Leave never takes `disabled` - a
-            participant mid-turn or inside an open Table round must still
-            be able to walk away. Only Send/the textarea gate on it. */}
-        <button type="button" onClick={onEnd}>
-          Leave for now
-        </button>
-      </div>
-      <GoDeeperPanel />
     </div>
   );
 }

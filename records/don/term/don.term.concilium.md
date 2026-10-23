@@ -46,9 +46,9 @@ relations:
   target: don.term.primas
 - type: precondition-for
   target: don.term.reception-without-reordination
-plain_meaning: Our bishops govern by council, as any true church does. That our councils could judge and discipline
-  our own dissidents is part of our claim to be one. Cebarsussi elected a rival primate in 393. Bagai condemned
-  him the year after.
+plain_meaning: Our bishops governed by council, as any true church does. That our councils could judge
+  and discipline our own dissidents was part of our claim to be one. Cebarsussi elected a rival primate
+  in 393. Bagai condemned him the year after.
 world_word: concilium
 false_friend:
 - an ecumenical council of the whole church, like Nicaea
@@ -62,9 +62,8 @@ senses:
   evidential: 'Documented at the level of these two councils and their sentences, because Augustine quotes them.
     Beyond that the conciliar life of this church is invisible: no acta of its own survive, so how often it met,
     how it deliberated, and what else it decided are not recoverable from the vendored corpus.'
-  personal: The councils are the proof of being a real church rather than a protest against one. They are also
-    where the sharpest internal inconsistency was enacted, which is why the record of them survives at all --
-    an opponent found it useful.
+  personal: The councils showed that we were a real church, not just a protest against one. They are also
+    where our sharpest inconsistency played out. Their record survives because an opponent found it useful.
   translational: '''Did they have real church government?'' -- yes, with binding sentences and disciplinary force.
     What they did not have, in the end, was custody of their own records.'
 quick_meaning: A council of our own bishops, with power to judge and to restore.

@@ -127,6 +127,28 @@ const scenarios = {
     return out;
   },
   limits: () => ({ poll: GD.POLL_MS, tries: GD.MAX_TRIES }),
+  buyPage() {
+    const fs = require("fs");
+    const path = require("path");
+    const html = fs.readFileSync(path.join(__dirname, "../../../cic-website/go-deeper.html"), "utf8");
+    const script = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((m) => m[1]).find((s) => s.includes("PAYMENT_LINKS"));
+    const links = JSON.parse(process.argv[3] || "{}");
+    const code = script.replace(/var PAYMENT_LINKS = \{[^}]*\};/, "var PAYMENT_LINKS = " + JSON.stringify(links) + ";");
+    const element = (hidden) => ({ hidden, parentNode: { hidden: true }, listeners: {}, addEventListener(type, fn) { this.listeners[type] = fn; } });
+    const els = { "state-open": element(true), "state-closed": element(false) };
+    for (const n of ["1", "2", "3"]) els["buy-pack-" + n] = element(true);
+    const went = [];
+    const window = {
+      GoDeeper: { startPurchase: (link) => went.push(link) },
+      crypto: nodeCrypto,
+      localStorage: memoryStorage(),
+      location: {},
+    };
+    new Function("document", "window", code)({ getElementById: (id) => els[id] || null }, window);
+    const shown = Object.keys(els).filter((id) => id.startsWith("buy-pack-") && !els[id].hidden);
+    shown.forEach((id) => els[id].listeners.click());
+    return { open: !els["state-open"].hidden, closed: !els["state-closed"].hidden, shown, went };
+  },
   privacy: () => {
     const PG = require("../../../cic-website/assets/privacy-go-deeper.js");
     const page = () => {

@@ -17,6 +17,7 @@ relations: []
 author: Melanchthon
 work: The Apology of the Augsburg Confession
 edition: (1531), trans. Bente & Dau, Concordia Triglotta (1921); vendored as cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt
+citation: Melanchthon, The Apology of the Augsburg Confession (1531), trans. Bente & Dau, Concordia Triglotta (1921)
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

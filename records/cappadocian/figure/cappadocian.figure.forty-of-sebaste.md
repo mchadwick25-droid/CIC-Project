@@ -23,9 +23,11 @@ names:
 - name: the Forty Martyrs of Sebaste (martyred c. 320)
   tag: scholarly
 dates:
-  display: "c. 320, under one of the last empire-wide persecutions; a fixed annual feast kept thereafter, within this world's own living memory of its own martyrs' generation"
+  display: "c. 320, in one of the last persecutions; a fixed annual feast kept thereafter, within this world's own living memory of its own martyrs' generation"
 narratable: true
-bridge_line: "Forty soldiers left to freeze on a lake for their faith - individually unnamed in this world's own attested tradition, remembered and honored as one company."
+bridge_line: >-
+  Forty soldiers left to freeze on a lake for their faith. The tradition
+  does not name them one by one; they were honored as one company.
 relations:
 - type: associated-with
   target: cappadocian.story.forty-sebaste

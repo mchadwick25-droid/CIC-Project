@@ -1,0 +1,40 @@
+source_file: cyril-alexandria_three-epistles-grc-eng_pusey1872.txt
+authors_ruled:
+  cyril_alexandria:
+    kind: metadata-omission
+    evidence: Plain-text file; title page "The Three Epistles of S. Cyril, Archbishop of Alexandria" at
+      file line 382, dated 1872 at 415. Existing ruled slug cyril_alexandria used, as in npnf214.
+assignments:
+- row_id: cyril-alexandria_three-epistles-grc-eng_pusey1872--three-epistles-cyrilline
+  work: The Three Epistles of Cyril (second and third letters to Nestorius with the twelve anathemas;
+    letter to John of Antioch of 433), Greek and English (Pusey, 1872)
+  author: cyril_alexandria
+  locus: whole file; the anathemas in Latin version from about file line 2954
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Ephesus 431). The three letters the councils made canonical, in the
+    original Greek with English: primary document of Ephesus 431 (letter II approved there), of the anathemas
+    controversy (letter III) and of the reunion of 433 (Laetentur caeli). Greek recovered in the OCR.'
+- row_id: cyril-alexandria_three-epistles-grc-eng_pusey1872--three-epistles-antiochene
+  work: The Three Epistles of Cyril (Pusey, 1872)
+  author: cyril_alexandria
+  locus: whole file; the letter to John of Antioch
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: context
+  confidence: provisional
+  note: The letters addressed to and against the Antiochene side; the 433 letter carries the Antiochene-drafted
+    Formula of Reunion inside Cyril's text (embedded, so context).
+- row_id: cyril-alexandria_three-epistles-grc-eng_pusey1872--three-epistles-imperial-juridical
+  work: The Three Epistles of Cyril (Pusey, 1872)
+  author: cyril_alexandria
+  locus: whole file
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: provisional
+  note: 'The documents a council received and later councils (Chalcedon) re-read as the standard of faith:
+    the material of ijc''s own conciliar process, from the Alexandrian party''s hand. Context, following
+    the hefele and mansi precedents.'

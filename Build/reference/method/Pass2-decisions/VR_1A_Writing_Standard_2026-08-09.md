@@ -1,6 +1,6 @@
-# Decision — The CiC Writing Standard (2026-08-09)
+# Decision — The CiC Writing Standard
 
-**Adopted by Mark, 2026-08-09: "yes do it all, commit the standard
+**Adopted by Mark: "yes do it all, commit the standard
 verbatim."** The text below is Mark's recommendation, committed word for
 word. It is the operational companion to the 1A north star
 (`VR_1A_NorthStar_Readability_Target_2026-08-09.md`) and the content
@@ -16,7 +16,13 @@ open." The standard's substance (transparent uncertainty) applies in
 full; its example phrasing translates per world. The Facilitator, who
 speaks etically, may use the standard's own phrasing directly.
 
-Instruments wired the same day (see `scripts/phase2_checkpoint.py`):
+**Honest limits name their question.** An honest limit names the question
+it cannot answer — "We cannot tell you why God allows such suffering," not
+"We cannot tell you why." Never end on a bare "how", "why" or "when".
+
+**Put the subject first.** An honest limit ends on what is not known, never on a bare verb such as "kept" or "wrote down", and never on "such" pointing back past the sentence before.
+
+Instruments wired with it (see `scripts/phase2_checkpoint.py`):
 per-turn B2 hard edge (already ruled); facilitator readability report;
 sentence-discipline report (avg ≤ 20 guard, > 25-word sentences listed);
 term first-use introduction report; evidence-surfacing report

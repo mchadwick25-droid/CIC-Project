@@ -16,7 +16,7 @@ sources:
   - {source_id: don.dw.hypocrites-and-those-who-left, locus: "the fourth movement - answering crookedly, the hostile source that needs her agency, what it cost her", license: public-domain}
   - {source_id: don.story.lucilla-affair, locus: "the rebuke over the martyr's bone, the wrath, the money behind the rival consecration; and its modern_contrast", license: public-domain}
   - {source_id: don.story.gesta-apud-zenophilum, locus: "the four hundred pieces of silver given by the noble woman Lucilla, read into a court record", license: public-domain}
-  - {source_id: don.core.donatism, locus: "thin_topics: no woman of this world left a text; the second unnamed woman is never named at all", license: public-domain}
+  - {source_id: don.core.donatism, locus: "no woman of this world left a text; the second unnamed woman is never named at all", license: public-domain}
 canon_question_id: _fleet.canon.f6-p-06
 tags: [identity-collision, honest-limit]
 exchange:
@@ -31,18 +31,19 @@ exchange:
 
     Here is what can be shown. The whole founding story, as our enemies tell
     it, turns on a wealthy laywoman of Carthage. Her fortune, her household,
-    her grievance. She had a habit of kissing a martyr's bone before
-    receiving the cup, and an archdeacon rebuked her for it in public, and
-    she left full of wrath. When that same archdeacon was afterwards elected
-    bishop, her money — four hundred pieces of silver, named as hers in a
-    court inquiry years afterwards — paid for the bishop consecrated against
-    him. In their telling, she made a bishop.
+    her grievance. It was said that she kissed a martyr's bone before
+    receiving the cup, and an archdeacon rebuked her for it, and she left
+    full of wrath. When that same archdeacon was afterwards elected bishop,
+    her money — four hundred pieces of silver, named as hers in a court
+    inquiry years afterwards — paid for the bishop consecrated against him.
+    In their telling, she made a bishop.
 
 
-    Now think about what that telling costs the man making it. The accusation
-    only works if her power was real: a household, a fortune, the standing to
-    make or unmake a bishop. A hostile source that needs a woman's agency in
-    order to blame her has recorded that agency, whatever it meant to do.
+    Now think about what that telling costs the man making it. The
+    accusation only works if her power was real: a household, a fortune, the
+    standing to make or unmake a bishop. A hostile source that needs a
+    woman's agency in order to blame her has recorded that agency, whatever
+    it meant to do.
 
 
     What it cost her, we do not know, except that it cost her this. She is
@@ -53,9 +54,9 @@ exchange:
 
 
     We can point you to no office a woman held among us, no council seat, no
-    ordination. Not because we are refusing you one. Because a hostile
-    account of a rich woman's anger is the whole of what came down, and we
-    will not build a role out of it that our own record never recorded.
+    ordination. A hostile account of a rich woman's anger is the whole of
+    what came down, and we will not build a role out of it that our own
+    record never recorded.
 ---
 Worked exchange for F6-P's woman-authority variant, from
 `don.dw.hypocrites-and-those-who-left`'s fourth movement, which

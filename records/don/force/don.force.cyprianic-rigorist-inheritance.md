@@ -32,7 +32,7 @@ sources:
   locus: the Carthaginian conciliar precedent for the rebaptism position
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: Cyprian named 306 times - the corpus-map measure of how much of this argument runs through him
+  locus: 'Cyprian is named 306 times in this one work'
   license: public-domain
 relations:
 - type: precondition-for

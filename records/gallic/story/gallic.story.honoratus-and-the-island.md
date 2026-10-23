@@ -76,51 +76,50 @@ narrative_tier_justification: >-
   read of the sermon with a stated translation method would let a future pass confirm, correct, or
   extend it.
 tellable_as: >-
-  Honoratus goes unafraid onto an island shunned for its squalor and serpents, carrying a psalm; the
-  serpents give way, a camp of God rises where no one would live - and there "the priestly fillet
-  fastens on its fugitive."
+  Hilary tells how Honoratus went unafraid onto an island shunned for its filth and its serpents, with
+  a psalm on his lips. The serpents gave way, and a camp of God rose there. There, as far as his
+  sermon can be read, the priest's headband caught the man who had run from it.
 text: >-
-  This is how the tradition of Lerins remembers its founder - as far as these lines can be read, as
-  the disciple who succeeded him at Arles and preached his life at his death told it.
+  This is how the tradition of Lerins remembers its founder, as far as these lines can be read. It is
+  told by the disciple who succeeded him at Arles and preached his life at his death.
 
-  Honoratus, Hilary says, had been drawn from his homeland by desire for the desert, and Christ
-  invited him into a desert near this city - in eremum huic urbi propinquam - an island that stood
-  empty because of the excess of its squalor and was unapproachable for fear of venomous creatures,
-  lying not far under the Alpine ridge. Besides the opportunity of seclusion, he was drawn there by
-  the nearness and love of the bishop Leontius, a holy and most blessed man in Christ - though many,
-  in a new boldness, tried to hold him back, the neighbours telling him of that terrible desolation,
-  competing in the ambition of faith to keep him within their own borders. But he, impatient of
-  human society and longing to be cut off from the world even by the barrier of the sea, carried in
-  heart and mouth, now to himself, now to his own, the psalm Thou shalt walk upon the asp and the
-  basilisk, and trample the lion and the dragon, and the Lord's promise, Behold, I have given you
-  power to tread upon serpents and scorpions. So he goes in unafraid, Hilary says, and scatters the
-  fear of his own by his own security. The horror of the solitude flees; the crowd of serpents gives
-  way. Hilary counts it among his master's miracles and merits - inter miracula ac merita - that the
-  serpents, so often met in those parts, as we have seen, stirred up especially by the sea's heat,
-  were never a danger to anyone, nor even a fear.
+  Honoratus, Hilary says, had been drawn from his homeland by desire for the desert. And Christ
+  invited him into a desert near this city. It was an island that stood empty because of the excess of
+  its squalor. No one could approach it for fear of venomous creatures. It lay not far under the
+  Alpine ridge. Besides the chance of seclusion, he was drawn there by the nearness and love of the
+  bishop Leontius, a holy and most blessed man in Christ. Yet many, in a new boldness, tried to hold
+  him back. The neighbours told him of that terrible desolation. They competed in the ambition of
+  faith to keep him within their own borders. But he was impatient of human society. He longed to be
+  cut off from the world, even by the barrier of the sea. In heart and mouth he carried a psalm, now
+  to himself, now to his own: Thou shalt walk upon the asp and the basilisk, and trample the lion and
+  the dragon. He carried the Lord's promise too: Behold, I have given you power to tread upon serpents
+  and scorpions. So he goes in unafraid, Hilary says, and scatters the fear of his own by his own
+  security. The horror of the solitude flees; the crowd of serpents gives way. Hilary counts one thing
+  among his master's miracles and merits. Serpents were met so often in those parts, as he says he had
+  seen, stirred up especially by the sea's heat. Yet they were never a danger to anyone, nor even a
+  fear.
 
-  The sermon goes on to ask why it should delay longer. With Christ, so to speak, co-operating,
-  every adversity that had deterred men before was overcome, and your Honoratus pitched a certain
-  camp of God there; the place that had long driven men from dwelling in it is lit up by angelic
-  offices. The hiding-place is illuminated while the light is hidden.
+  The sermon goes on to ask why it should delay longer. With Christ, so to speak, co-operating, every
+  adversity that had deterred men before was overcome. Your Honoratus pitched a certain camp of God
+  there. The place that had long driven men from dwelling in it is lit up by angelic offices. The
+  hiding-place is illuminated while the light is hidden.
 
-  And then the sentence the tradition of Lerins is remembered by: here he was first bound to the
-  long-avoided office of the clergy; here the priestly fillet fastens on its fugitive; and he who
-  had refused to go to the dignity - the dignity came to him. Hic primum illigatur diu evitati
-  clericatus officio; hic refugam suum sacerdotalis infula innectit; et qui ire ad dignitatem
-  detrectaverat, ad ipsum dignitas venit. He appeared there a presbyter worthy of honour not twofold
-  only but manifold - and he kept a monk's humility as entire in the priesthood as, when a monk, he
-  had fully possessed the merits of the priesthood.
+  And then Hilary says: here he was first bound to the long-avoided office of the clergy. Here the
+  priestly fillet fastens on its fugitive. And he who had refused to go to the dignity - the dignity
+  came to him. He appeared there a presbyter worthy of honour not twofold only but manifold. And he
+  kept a monk's humility as entire in the priesthood as, when a monk, he had fully possessed the
+  merits of the priesthood.
+telling: "When our founder Honoratus died, his disciple and successor Hilary preached his life. Honoratus, Hilary says, left his homeland because he longed for the desert. There was an island that stood empty, because it was filthy and no one could go near it for fear of poisonous snakes. He was drawn there by the chance of solitude, and by the nearness of the holy bishop Leontius, whom he loved. Many people tried to hold him back by warning him how terrible the place was. But he wanted to be cut off from the world, even by the sea.\n\nHe carried a psalm in his heart and on his lips. It promised that he would tread on the asp and the basilisk, and trample the lion and the dragon. So he went in unafraid, Hilary says, and his calm scattered the fear of his own people. The horror of the empty place fled, and the snakes gave way. Snakes were often met in those parts, Hilary adds, yet they never harmed or even frightened anyone, and he counts this among his master's miracles.\n\nThere Honoratus set up a camp of God. And there, as far as Hilary's sermon can be read, the priesthood caught up with the man who had run from it. He was made a presbyter, a priest, and he kept a monk's humility inside the priesthood."
 absent_detail: >-
   What a participant might reasonably expect here, and cannot have, is a story from inside Lerins - a
   day, a rule kept, a novice received, an elder's saying, a monk's prayer on the island. This is the
   closest our Native corpus comes, and it is a story about the founder's arrival and his elevation,
-  told at his funeral by the man who succeeded him as a bishop: it narrates the island's edges (the
-  serpents at the shore; the fillet that took him off it), not its interior. The silence is partly a
+  told at his funeral by the man who succeeded him as a bishop: it narrates the founder's coming (the
+  serpents at the shore) and his being made a presbyter there, not the island's interior. The silence is partly a
   transmission gap - Hilary's sermon exists in full, unread here beyond these lines; Eucherius's In
   Praise of the Desert is in the same condition - and partly our own: Vincent, the one Lerins voice
   read in full, tells nothing of the island but that he dwells "in the seclusion of a Monastery." The
-  honest position is that we can tell how the founder came to Lerins and how he left it, and not what
+  honest position is that we can tell how the founder came to Lerins and how he was made a presbyter there, and not what
   he or anyone did there in between. One OCR word for the place where serpents were met is left
   unrendered.
 modern_contrast: >-
@@ -130,7 +129,7 @@ modern_contrast: >-
   it. And it admits inside the south what Cassian refused in his own books - a wonder counted inter
   miracula ac merita - so that the refusal of wonder-stories was Cassian's, not the whole south's.
 use_note:
-  means: "Hilary of Arles preached that Honoratus went unafraid onto a serpent-shunned island carrying a psalm, the serpents gave way, and the priestly fillet fastened on its fugitive."
+  means: "Hilary of Arles preached that Honoratus went unafraid onto a serpent-shunned island with a psalm, that the serpents gave way, and that, as far as the sermon can be read, he was made a presbyter there."
   not_for:
     - "daily life at Lerins, whose absence sits in gallic.limit.only-on-paper"
     - "Honoratus's later episcopate at Arles as history, when the sermon is a disciple's eulogy that stops at the island"
@@ -139,14 +138,3 @@ use_note:
   years: {from: 429, to: 430}
   status: reviewed
 ---
-Grounded in Hilary of Arles's Sermo de Vita Sancti Honorati (Migne PL 50, vendored file lines c.
-660-722, rough OCR); the disclosure of the wording's own Inferential-Thin status, the unrendered OCR
-word, and Gennadius's independent attestation of the sermon are all carried above in the
-divergence_note. Nothing is supplied from outside those lines: nothing about Honoratus at Arles,
-nothing about the island's daily life. Cross-node pairing with gallic.story.election-at-tours and
-gallic.story.bishop-archebius is declared as story-to-story associated-with relations; the
-resemblance is this record's own finding, not the sermon's own claim - it does not mention Martin,
-and Sulpitius never mentions Lerins.
-
-This story's own relations to this world's gravities are declared in full in its `relations[]`
-field above, reciprocal edges declared on each target.

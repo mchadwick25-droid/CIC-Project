@@ -23,6 +23,7 @@ discovery_channel: Source_Registry.md row 12, added 2026-09-15; named in the cen
   verified directly against that field this pass; not checked against the actual book.
 external_ids:
   rzg_source_registry_row: 12
+citation: 'Scott Manetsch, Calvin''s Company of Pastors (Oxford: Oxford University Press, 2013)'
 kind: unvendored
 ---
 Background for Geneva's own pastoral/consistorial institutional structure (Doc_01 SS5 Authority-structure limb) - background only, not itself cited for any specific claim in this world's build. Consultation-only, per the census's own citation - not a candidate for cic/texts/ (in-copyright).

@@ -17,6 +17,7 @@ relations: []
 author: John Behr
 work: The Nicene Faith
 edition: In-copyright modern scholarship, not vendored
+citation: John Behr, The Nicene Faith
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

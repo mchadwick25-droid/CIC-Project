@@ -28,6 +28,7 @@ work: 'The Lucilla material: Optatus, Against the Donatists I.16 (''The quarrel 
   and the parallel, unnamed woman behind the Maximianist council against Primian, Augustine, Letter XLIII
   SS26 (a.d. 397)'
 edition: Within cic/texts/optatus_against-the-donatists.txt and cic/texts/npnf101_augustine-confessions-letters.xml
+citation: Optatus, Against the Donatists I.16, and Augustine, Letter XLIII (a.d. 397), on Lucilla and the second, unnamed woman
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attested, not authored. Neither woman left a text; both reach us entirely inside hostile

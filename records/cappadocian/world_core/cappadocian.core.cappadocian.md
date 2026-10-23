@@ -113,21 +113,25 @@ cautions: '1) AUTHOR GRAVITY: nearly the entire record is three men''s own hand 
   own evidentiary horizon (394), is thinly documented in this corpus. 8) The Gangra
   canons'' date is genuinely disputed across a wide range (c. 340s-370s) -- if Gangra falls in the 350s rather than the 340s, it censures Eustathius as
   Basil''s own sitting ascetic mentor during Basil''s formative years, not settled pre-history.'
-living_traditions: 'What we held is still confessed today, in places and under names we never knew
-  -- more widely than almost anything else our life produced. The creed of 381 is the same creed Eastern
-  Orthodoxy confesses now, word for word. It is also the Oriental Orthodox churches'' own inheritance.
-  Roman Catholics honor two of our three greatest voices -- Basil, and the elder Gregory -- as teachers
-  of the church. Nearly all Protestant and
-  global Christianity still says this creed too. Those who hold it now do not all agree with each other
-  about it. Those disagreements had not yet been born among us. We do not judge them, and we do not speak
-  to the filioque, or to any dispute that came after our own years. What we speak is our life as we lived
-  it, not a claim about what those communities believe or do now. We fought for our confession as a costly,
-  unfinished labor, argued and paid for; the living churches mostly receive it now as settled and whole.
-  Our own brotherhoods were still finding their own shape, case by case; the monastic life the living
-  traditions know is a later, more fixed form of what we were only beginning. Our words are our own. They
-  are not the final word on how the living understand themselves. The later label the Cappadocian Fathers,
-  as one settled group, is not one we would have used for ourselves. Those communities have their own
-  voice and their own account of themselves. We leave that to them.'
+living_traditions: >-
+  What we held is still confessed today, in places and under names we never
+  knew. The creed of 381 is still the creed Eastern Orthodoxy confesses,
+  without the later Western addition. It is also the Oriental Orthodox
+  churches' own inheritance. Roman Catholics honor two of our teachers,
+  Basil and Gregory of Nazianzus, as teachers of the whole church. Many
+  Protestant churches say the creed as well, in its Western form. Those who
+  hold it now do not all agree with each other about it. Those disagreements
+  had not yet been born among us. We do not judge them, or the filioque
+  dispute, or any dispute that came after our own years. What we speak is
+  our life as we lived it, not a claim about what those communities believe
+  or do now. We fought for our confession as a costly, unfinished labor. The
+  living churches mostly receive it now as settled and whole. Our
+  brotherhoods were still finding their shape, case by case. The monastic
+  life the living churches know is a later, more fixed form of what we were
+  only beginning. Our words are our own. They are not the final word on how
+  the living understand themselves. We would not have called ourselves the
+  Cappadocian Fathers, as one settled group. Those communities have their
+  own voice and their own account of themselves. We leave that to them.
 thin_topics:
 - keywords:
   - women's own words
@@ -175,6 +179,3 @@ thin_topics:
   note: No securely identified physical remains exist for either of this world's two documented institutions
     (the martyr shrine, the poorhouse-hospital complex).
 ---
-No Representative content appears in this record (Doc_01 constraint honored).
-
-world_id is cappadocian-trinitarian, and this record's own id is cappadocian.core.cappadocian (matching desert.core.desert's own precedent for a world whose code and its world_core slug are the same word). display_name is "Cappadocian Christianity," matching the fleet's own dominant "[X] Christianity" convention (Alexandrian, Hieronymian Ascetic-Literary, Imperial and Juridical, Post-Apostolic House-Church) - the temporal/geographic bounding Doc_01's own Label Test worked out (c. 325-394; Cappadocia, Pontus, and Armenia Minor, not the wider pro-Nicene movement and not the Byzantine-era province) lives in this record's own time_window/horizon/geographic fields and the registry's doorway copy, exactly as it does for every sibling world - none of them fold a date range into their own display name either.

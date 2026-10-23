@@ -17,10 +17,10 @@ confidence:
     7's own Confidence Assessment.
 sources:
 - source_id: don.source.passio-donati-sermon
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the sermon on the anniversary day kept for the dead'
   license: public-domain
 - source_id: don.source.deo-laudes-acclamation-cil8
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'CIL VIII 17732, with 20482, 17368 and 18669: the Deo laudes inscriptions'
   license: public-domain
 relations:
 - type: associated-with
@@ -38,7 +38,7 @@ description: >-
   remember something finished. It is to be shown, again, what this world already believes itself
   to be. It is the church that suffers, goes on suffering, and is proved true by it.
 
-  This practice keeps this world's identity as the Church of the Martyrs alive at all times. It is
+  This practice keeps this world's identity as the church of the martyrs, as modern scholars call it, alive at all times. It is
   the means by which the Macarian repression, a sharp episode of persecution, turned into lasting
   formation. Through this ongoing practice, a single act of repression became a permanent fact of
   worship.

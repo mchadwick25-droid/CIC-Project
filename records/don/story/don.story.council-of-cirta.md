@@ -25,7 +25,7 @@ sources:
   locus: the acts of the Council of Cirta, in the appendix dossier
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
-  locus: Against the Donatists I.14; cic/texts/optatus_against-the-donatists.txt, lines 181-192
+  locus: Optatus, Against the Donatists I.14
   license: public-domain
 retrieval:
   tier: 2
@@ -54,8 +54,9 @@ narrative_tier_justification: Tier 1 - a council proceeding with named, identifi
   exact year without falling out of Tier 1, provided the event's occurrence and substance are not themselves
   in serious doubt, and here they are not. What is genuinely contested is the meaning of the closing act,
   and that contest is carried in the confidence block rather than resolved in the narration.
-tellable_as: The bishops who would go on to make traditor status an absolute disqualification once faced
-  the same question about themselves in a room, and agreed to leave it to God rather than finish it.
+tellable_as: The bishops who later ruled that a traditor could never serve once
+  faced that same question about themselves. They agreed to leave it to God, and
+  sat down.
 text: >-
   Before Caecilian's consecration ever became the dispute it became, a
   council of Numidian bishops met at Cirta to consecrate a successor of
@@ -80,6 +81,7 @@ text: >-
   the assembly answered, and did. No one present was found guilty; no one
   was cleared. The room simply agreed not to finish the question it had
   started.
+telling: "Before the quarrel over Caecilian began, the bishops of Numidia met at Cirta to make a bishop of their own. The year is disputed, 305 or 307 or later. Optatus tells the story of that meeting in his books against us.\n\nSecundus of Tigisis presided. He asked whether any of them had handed over the scriptures in the persecution. One by one, several said they had. It was the same charge we would soon bring against Felix, the bishop who made Caecilian.\n\nThen Purpurius turned the question back on Secundus. He taunted him for being let go only after a long time among the soldiers. The room began to mutter that Secundus too had given up the sacred books to buy his release.\n\nSecundus asked advice from his brother's son, called Secundus the Less, who told him to leave the whole affair to God. Secundus then asked the three bishops who had not been accused for their judgement. They were Victor of Garba, Felix of Rotarium and Nabor of Centurio. They said a case like this should be reserved to the Lord.\n\n\"Sit down, all,\" Secundus said. \"Thanks be to God,\" the assembly answered, and sat. No one was found guilty, and no one was cleared."
 absent_detail: No record of this council from our own side survives - no minute, no later defence, no explanation
   of what the phrase "reserved to the Lord" was understood to mean by the men who said it. Whether the
   admissions were what Optatus takes them to be, and what the assembly thought it was doing when it sat
@@ -95,7 +97,7 @@ modern_contrast: >-
   verified about who had done what under the persecution. The story does
   not settle which, and it should not be told as though it does.
 use_note:
-  means: "At Cirta around 305, bishops who later made traditor status an absolute bar faced that question about themselves and agreed to leave it to God."
+  means: "At Cirta, bishops who later made traditor status an absolute bar faced that question about themselves and agreed to leave it to God."
   not_for:
     - "a claim that the ruling was plainly evasion, as Optatus reads it"
     - "a claim that these founding figures were either consistent or exposed"
@@ -103,24 +105,3 @@ use_note:
   years: {from: 305, to: 307}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory007_council-of-
-cirta.md (Doc_09 story index row donstory007, Tier 1), whose narrative
-text is carried forward rather than re-derived.
-
-A GENUINELY COMPLICATING STORY, KEPT AS ONE. The chunk's own usage
-guidance asks a Representative to sit with the complication rather than
-resolve it toward whichever side is more comfortable; that instruction
-is carried into modern_contrast above rather than dropped in
-compilation, because it is where a reader's own pressure will land.
-
-THE THIRD-NAMED BISHOP HERE IS ANOTHER FELIX. Felix of Rotarium, one of
-the three unaccused bishops asked for judgement, is neither Felix of
-Aptungi nor the deacon Felix of don.story.lucilla-affair. Three
-different Felixes appear across the founding-era stories in this
-inventory.
-
-SILVANUS OF CIRTA IS NOT NARRATED HERE. He is the bishop of Cirta whose
-traditio is established at don.story.gesta-apud-zenophilum, and Cirta is
-this council's own seat, so the temptation to place him in this room is
-real. Optatus I.14 as read at the cited lines does not put him there,
-and this record does not.

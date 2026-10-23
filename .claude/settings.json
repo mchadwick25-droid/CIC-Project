@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Read", "Glob", "Grep", "Edit", "Write",
+      "Bash(ls *)", "Bash(cat *)", "Bash(head *)", "Bash(tail *)", "Bash(wc *)",
+      "Bash(find *)", "Bash(grep *)", "Bash(rg *)", "Bash(sed -n *)", "Bash(diff *)",
+      "Bash(git status *)", "Bash(git diff *)", "Bash(git log *)", "Bash(git show *)",
+      "Bash(git branch *)", "Bash(git fetch *)", "Bash(git pull *)", "Bash(git checkout *)",
+      "Bash(git switch *)", "Bash(git add *)", "Bash(git commit *)", "Bash(git merge *)",
+      "Bash(git push -u origin *)", "Bash(git rev-parse *)",
+      "Bash(pip install -r *)", "Bash(pip install pytest *)", "Bash(pip install pyyaml *)",
+      "Bash(python -m pytest *)", "Bash(python tools/*)", "Bash(python cic/engine/*)",
+      "Bash(python -m engine.m2.cli *)", "Bash(python -m engine.m6.cli check *)",
+      "Bash(python -m engine.m9.cli check *)", "Bash(python -m engine.m3.admission_conform *)",
+      "Bash(python -m engine.canon.check_seal_isolation *)",
+      "Bash(node tools/validate-census.mjs *)", "Bash(npm ci *)", "Bash(npm test *)",
+      "Bash(npx tsc --noEmit *)",
+      "mcp__github__pull_request_read", "mcp__github__get_file_contents", "mcp__github__get_commit",
+      "mcp__github__get_check_run", "mcp__github__get_job_logs", "mcp__github__list_pull_requests",
+      "mcp__github__list_commits", "mcp__github__list_branches", "mcp__github__actions_list",
+      "mcp__github__actions_get", "mcp__github__issue_read", "mcp__github__search_pull_requests"
+    ],
+    "ask": [
+      "Bash(*--live-test*)", "Bash(*--cap-usd*)",
+      "Bash(git push --force*)", "Bash(git push -f *)", "Bash(git push *--force*)",
+      "Bash(git reset --hard*)", "Bash(rm -rf *)"
+      ]
+  }
+}

@@ -12,9 +12,8 @@ that package's compiled hash, computed from the package restored and checked
 against its own manifest.
 
 Run: python -m engine.m3.admission_conform              (a report: lists each
-     stale world and exits 0; the gate's merge-time mode, decision 58)
-     python -m engine.m3.admission_conform --enforce    (exits 1 on any failure;
-     the promotion-runbook step before a promotion to live)
+     stale world and exits 0)
+     python -m engine.m3.admission_conform --enforce    (exits 1 on any failure)
      python -m engine.m3.admission_conform bind --at <commit> <package dir>...
 """
 import json
@@ -143,7 +142,7 @@ def main() -> int:
     if enforce:
         print(f"admission conform (enforced): {len(failures)} failure(s)")
         return 1 if failures else 0
-    print(f"admission conform (report): {len(failures)} stale world(s); enforced before a promotion with --enforce")
+    print(f"admission conform (report): {len(failures)} stale world(s)")
     return 0
 
 

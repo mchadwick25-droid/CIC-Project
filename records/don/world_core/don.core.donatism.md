@@ -38,7 +38,7 @@ sources:
   locus: CIL VIII 17732, with 20482, 17368, 18669
   license: public-domain
 - source_id: don.source.gesta-collationis-carthaginiensis-411
-  locus: the 411 conference acts, via the vendored Migne printing (Registry row 55)
+  locus: 'the acts of the 411 Conference, in Migne''s printing'
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
   locus: 16.5.52 (412 Ian. 30); the 405 Edict of Unity
@@ -48,47 +48,46 @@ time_window:
   start: 311
   end: 439
 horizon: >-
-  The rigorist alternative communion of Roman North Africa, c. 311/312 to 439. This is the church
-  that split from the North African Catholic party over one question. Some clergy were suspected
-  of having surrendered the scriptures under the Diocletianic persecution. Were the sacraments and
-  ordinations they gave valid at all?
+  The rigorist rival church of Roman North Africa, c. 311/312 to 439. It split from the Catholic
+  party of North Africa over one question. In Diocletian's persecution, some clergy were suspected
+  of handing over the scriptures. Were the sacraments and ordinations they gave valid at all?
 
-  This church then lived as a complete parallel church. It had its own bishops, its own basilicas,
-  and its own line of ordination. It contested the rival communion town for town across Africa
-  Proconsularis, Numidia, Byzacena, and Mauretania.
+  This church then lived as a full parallel church. It had its own bishops, basilicas and line of
+  ordination, and it contested the rival church town for town. That contest ran across Africa
+  Proconsularis, Numidia, Byzacena and Mauretania.
 
-  Carthage holds both rival bishoprics from the outset, and it is the site of the decisive 411
-  Conference. Numidia is this communion's own heartland, where it is numerically dominant. Several
-  of its most prominent bishops came from there, and so did the Circumcellion phenomenon. Cirta,
-  as Constantina, is Petilian's see.
+  Carthage holds both rival sees from the start. It is also the site of the decisive 411 Conference.
+  Numidia is this church's own heartland, where it has far more people than its rival. Several of
+  its leading bishops came from there, and so did the Circumcellions. Cirta, as Constantina, is
+  Petilian's see.
 
-  This is not a doctrinal heresy. The confession here is standard North African Latin Trinitarian
-  and Christological orthodoxy. What is contested is legitimacy: who the true church is, and whose
-  hand can validly give what the church gives.
+  This is not a doctrinal heresy. On the Trinity and on Christ, it holds the standard orthodox faith
+  of Latin North Africa. What is at stake is legitimacy: who the true church is, and whose hand can
+  validly give what the church gives.
 
-  Two dates open the window rather than one, because the sources support both and not a choice
-  between them. The disputed election and consecration of Caecilian as bishop of Carthage falls in
-  311 or 312. Which year depends on how the transition from persecution to episcopal election is
-  dated. The traditio accusation against his consecrator, Felix of Aptungi, produced the rival
-  consecration of Majorinus. From c. 313 Majorinus was succeeded by Donatus, from whom the
-  movement takes its name.
+  Two dates open the window rather than one. The sources support both and do not let us choose
+  between them. Caecilian's disputed election and consecration as bishop of Carthage falls in 311 or
+  312. The year turns on how we date the step from persecution to the choice of a bishop. His
+  consecrator was Felix of Aptungi. The charge of traditio against him led to the rival consecration
+  of Majorinus. From c. 313 Majorinus was succeeded by Donatus, who gave the movement its name.
 
-  The window closes at the Vandal capture of Carthage in 439, and that close means one specific
-  thing, not a general end. What 439 removes is the Roman imperial state as the Catholic-aligned
-  power that adjudicates and coerces. This communion's whole pattern of refusing imperial
-  legitimacy is defined against that power. Every one of its historical pressures depends on it.
+  The window closes when the Vandals take Carthage in 439. That close means one exact thing rather
+  than a general end. What 439 removes is the Roman state as the power on the Catholic side that
+  judges and coerces. This church's whole refusal of imperial legitimacy is defined against that
+  power. Every pressure in its history rests on it.
 
-  The two-party contest itself does not end there. It persists under Vandal and then Byzantine
-  rule for roughly a further century and a half. It falls silent only after Gregory the Great's
-  correspondence in the 590s. Four of his letters, directly read, still urge suppression, a
-  council, and an inquiry into Donatist rebaptism in Numidia.
+  The two-party contest itself does not end there. It goes on under Vandal and then Byzantine rule
+  for roughly another century and a half. It falls silent only after Gregory the Great's letters in
+  the 590s. Four of his letters, directly read, still urge suppression, a council and an inquiry.
+  Three of them name Donatist rebaptism, and the 592 letter is addressed to a bishop in Numidia.
 
-  No continuous line to any present-day communion is documented at any point. This is not a
-  living tradition today: no church now living holds a documented line back to it.
+  No unbroken line to any church of today is on record at any point. This is not a living tradition
+  today: no church now living holds a documented line back to it.
 
-  This world's own self-description is the Church of the Martyrs: the pure, persecuted, true
-  church. In its own eyes, it holds an unbroken, traditor-free line of ordination. It sees its
-  rival as tainted and, from 312 onward, as favored by the state.
+  This world sees itself as the pure, persecuted, true church. Modern scholars sum this up as the
+  Church of the Martyrs, but that phrase is their summary, not a quoted title. In its own
+  eyes, it holds an unbroken line of ordination, free of any traditor. It sees its rival as tainted
+  and, from 312 onward, as in favor with the state.
 formation_logic: >-
   One conviction runs through purity, rite, memory, and refusal. These are not four commitments
   that happen to coexist. The conviction is this: we are the pure, persecuted, true church. What
@@ -319,10 +318,3 @@ thin_topics:
     this window, falling silent after Gregory the Great's 590s correspondence. No continuous line to any
     present-day communion is documented at any point.
 ---
-WORLD_ID: `donatism`. This world has no entry in records/worlds.yaml at all, so no registry value is being contradicted; `donatism` matches cic/corpus-map/donatism.yaml's own `atlas_id`, which is the census movement id and the join key, so the record id prefix (`don`), the world_id (`donatism`), and the census join all read consistently. Registering the world in records/worlds.yaml is a later admission-track step, out of scope for this first record-authoring pass, exactly as it was for the sibling world compiled before this one.
-
-TIME_WINDOW: start 311, end 439. The Registry and Doc_01 both carry the opening as 311/312 rather than resolving it - the sources support both years and not a choice between them - and the schema's time_window takes a single integer, so the earlier of the two carried years is used and the doubled opening is stated in `horizon` rather than silently collapsed. The 439 close is Doc_01 SS2's own, and its precise meaning (the removal of the Roman imperial adjudicating power, not the end of the two-party contest) is carried in `horizon` too, because the distinction is one Doc_01 SS2 insists must not be conflated.
-
-WHAT THIS RECORD DOES NOT CLAIM. Living Tradition Status is PENDING and is a project-lead act this compilation cannot perform (Doc_01 SS1); `horizon` states the no-documented-descendant finding without resolving Article 29's gate. The Representative does not appear in this record, and no Representative content is compiled into it.
-
-REGISTRY ROW 29 IS NOT COMPILED AS A SOURCE RECORD FOR THIS WORLD, and the omission is deliberate, not an error to be corrected later. That row - Novatian's De Trinitate and Novatianist material generally - carries Boundary Status "Excluded", Exclusion Reason "Named Comparandum", and a Licensed-For field reading "N/A -- excluded". It exists in the Registry precisely to guard against a concrete temptation: Novatian's De Trinitate sits in the SAME vendored volume as this world's own Cyprianic antecedent corpus (Registry rows 7-10), so a builder working through that volume for Cyprian is already inside the file that contains Novatian, and the corpus map's own note on Cyprian's De Unitate records that it "was written against the Novatianist schism among others." Novatianism is a different, earlier rigorist schism (Rome, c. 251) that also practiced rebaptism - a genuine surface similarity. None of that makes it evidence for, or continuous with, this world's own rebaptism practice or ecclesiology, which arose independently and later, over a different dispute. Emitting it as a `don` source record would assert, in the one field a downstream reader trusts, exactly the thing the row exists to deny. Fifty-five of the Registry's fifty-six rows are compiled; this is the one that is not.

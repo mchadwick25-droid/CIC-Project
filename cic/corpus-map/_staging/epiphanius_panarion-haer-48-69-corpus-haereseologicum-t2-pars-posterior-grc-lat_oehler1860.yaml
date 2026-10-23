@@ -1,0 +1,54 @@
+source_file: epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt
+
+authors_ruled:
+  epiphanius:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML markup
+      only) has not seen the author. Epiphanius of Salamis (c. 315-403) is a real,
+      well-attested author; the title page names him and the work (file lines 29-36:
+      'Corporis haereseologici tomus secundus continens S. Epiphanii episcopi
+      Constantiensis Panariorum librum primum et secundum, edidit Franciscus Oehler,
+      Berolini MDCCCLX'). The same slug was ruled this batch for the Holl volume.
+
+assignments:
+  - row_id: epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860--panarion-heresies-68-melitians-and-69-arians-greek-and-latin
+    work: "Panarion, heresies 68 (Melitians) and 69 (Arians), Greek with Petavius's Latin (Oehler 1860)"
+    author: epiphanius
+    locus: "heresy 68 from file line 43599 (Greek) and 43646 (running head); heresy 69 from 45163; Arius's letters quoted at 45445-45580"
+    atlas_ids:
+      - alexandria-catechetical
+    role: context
+    confidence: provisional
+    note: >
+      The fullest ancient account of the Melitian schism of Egypt (whose bishops accused
+      Athanasius at Tyre in 335) and a near-contemporary account of Arius's career, written
+      374-377 by a Nicene heresiologist outside Egypt. The view from outside the
+      Alexandrian tradition, in the original Greek; context, not its voice. Greek recovered
+      with Google-OCR errors: verify against the page image before quoting.
+  - row_id: epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860--panarion-heresy-69-arians-greek-and-latin
+    work: "Panarion, heresy 69 (the Arians), Greek with Petavius's Latin (Oehler 1860)"
+    author: epiphanius
+    locus: "from file line 45163"
+    atlas_ids:
+      - homoian-arian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A hostile contemporary heresiologist's account of Arius and his followers, preserving
+      Arius's own letters inside the refutation (embedded voice, so the containing work
+      stays Epiphanius's). Context for the Homoian world.
+  - row_id: epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860--panarion-heresies-48-69-greek-and-latin
+    work: "Panarion, heresies 48-69 (Oehler 1860), Greek with Petavius's Latin"
+    author: epiphanius
+    locus: "whole file; heresy 65 (Paul of Samosata) at 29244"
+    atlas_ids:
+      - palestinian-ascetic-monasticism-early
+    role: tradition
+    confidence: provisional
+    note: >
+      Epiphanius founded and led a monastery near Eleutheropolis in Palestine (c. 335-367)
+      before his Cypriot episcopate, and the Panarion is the one great literary work of that
+      early Palestinian monastic milieu; placed here as its voice, provisionally. NEEDS A
+      CHECK by the corpus-assignment thread against how the Holl volume (haer. 34-64,
+      vendored this batch) was placed, so the two Epiphanius files are placed alike.

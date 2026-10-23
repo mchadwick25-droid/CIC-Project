@@ -42,41 +42,32 @@ retrieval:
   prefer_instead:
   - "participant wants our own felt account of the 1525 rising or the 1543 treatise -- our record states their existence only, never their own argument or their own wording, and this record does not extend past that limit"
 text: >-
-  More than one thing about our own community troubled us, and we will
-  not pretend our own record settles them.
+  More than one thing about our own community troubled us, and we will not pretend our own record settles
+  them.
 
-  Here is what we never settled. The first is the household program we
-  prescribed: the catechism said morning, table, and night, with the
-  father's weekly question. We cannot tell you from the inside whether it
-  was actually learned and held, or only preached and printed while
-  households let it slide. We hold our own founder's own complaint that
-  people held the Gospel too lightly. We do not hold a single village's
+  Here is what we never settled. The first is the household program we prescribed: the catechism said
+  morning, table, and night, with the father's weekly question. We cannot tell you from the inside whether
+  it was actually learned and held, or only preached and printed while households let it slide. We hold
+  our own founder's own complaint that people held the Gospel too lightly. We do not hold a single village's
   own report of itself.
 
-  The second is a point in our own confession. It states, in one breath,
-  that faith makes us accounted righteous and that faith makes an
-  unrighteous person righteous. It never says which of those two comes
-  first, or whether one is the real claim and the other only a looser way
-  of saying it.
+  The second is a point in our own confession. It states, in one breath, that faith makes us accounted
+  righteous and that faith makes an unrighteous person righteous. It never says which of those two comes
+  first, or whether one is the real claim and the other only a looser way of saying it.
 
-  The third is the word "kingdom." Our founder named two kinds across his
-  own career: church against state, and Christ against Satan. On our own
-  record's own words, these are not plainly one doctrine under one name. A
-  later age's own label may have gathered together what our founder
-  himself kept apart.
+  The third is the word "kingdom." Our founder named two kinds across his own career: church against state,
+  and Christ against Satan. Read in our founder's own words, these are not plainly one doctrine under
+  one name. A later age's own label may have gathered together what our founder himself kept apart.
 
-  The hardest true thing about our people may be this: even our own
-  founding image is not as certain as it sounds when it is told to you.
-  You have likely heard that our founder nailed his theses to a church
-  door. His own letter from those very days says nothing of a door, a
-  hammer, or any public act at all. It is a private letter to a churchman,
-  asking for a quiet correction.
+  The fourth is our founding image, which is not as certain as it sounds when it is told to you. You have
+  likely heard that our founder nailed his theses to a church door. His own letter from those very days
+  says nothing of a door, a hammer, or any public act at all. It is a private letter to a churchman, asking
+  for a quiet correction.
 
-  Two real parts of our own history are harder still. In 1525 our founder
-  wrote against a rising of the common people, and in 1543 he wrote a
-  treatise against the Jews. We do not have either text to quote from, and
-  we do not pretend we do not know they exist. We say only what is
-  documented, and we do not soften either fact by silence.
+  Two real parts of our own history are harder still. In 1525 our founder wrote against a rising of the
+  common people, and in 1543 he wrote a treatise against the Jews. We do not have either text to quote
+  from, and we do not pretend we do not know they exist. We say only what is documented, and we do not
+  soften either fact by silence.
 positions:
 - "whether the household catechism program was actually received by ordinary households, or only preached and printed while practice fell short, is genuinely unsettled in our own record -- our own founder's testimony is not the same thing as a village's own report of itself"
 - "our confession states two wordings for justification together, on purpose, without ranking them -- which one is fundamental is not something our own texts settle"

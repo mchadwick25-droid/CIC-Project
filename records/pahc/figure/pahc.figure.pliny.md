@@ -24,7 +24,9 @@ names:
 dates:
   display: "c. 61-c. 113 (standard reference dates, not from this world's own record); governor of Bithynia-Pontus c. 111-113, when the letters were written"
 narratable: true
-bridge_line: "A Roman governor, not a Christian. He questioned Christians under threat of death, tortured two enslaved women for details, and wrote to the emperor asking what the rules were."
+bridge_line: A Roman governor, not a Christian. He questioned Christians and threatened them with death.
+  He had two enslaved women tortured to learn the truth, then wrote to the emperor to ask what the rules
+  were.
 ---
 Outside, hostile witness - the only non-Christian description of this
 world's worship, filtered through elite Roman superstitio prejudice,

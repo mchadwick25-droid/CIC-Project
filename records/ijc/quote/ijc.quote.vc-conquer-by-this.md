@@ -22,10 +22,10 @@ text: He said that about noon, when the day was already beginning to decline, he
   this. At this sight he himself was struck with amazement, and his whole army also, which followed him
   on this expedition, and witnessed the miracle.
 modern_rendering: >-
-  He said that around noon, when the day had already begun to decline, he saw with his own
-  eyes a trophy: a cross of light in the sky, above the sun. It bore the inscription
-  'Conquer by this.' At this sight, he himself was struck with amazement. So was his whole
-  army, which was following him on this expedition and witnessed the miracle.
+  He said that he saw with his own eyes, in the sky above the sun, the victory sign of a cross of
+  light. This was about noon, when the day was already beginning to decline. It bore the inscription,
+  "Conquer by this." At this sight he himself was struck with amazement. So was his whole army, which
+  followed him on this expedition and witnessed the miracle.
 speaker_or_author: ijc.figure.eusebius-caesarea
 license: verbatim
 modern_lens_note: >-

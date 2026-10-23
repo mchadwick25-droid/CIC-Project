@@ -41,8 +41,9 @@ retrieval:
 relations:
 - type: illustrates
   target: don.term.martyr-martyrdom
-plain_meaning: Each year, on the day a martyr died, we gather at the grave. The account of the death is read aloud
-  again, or preached. We are not looking back at something finished. We are being formed again by it in the hearing.
+plain_meaning: Each year, on the day a martyr died, we gathered at the grave. The account of the death
+  was read aloud again, or preached. We were not looking back at something finished. We were formed again
+  by it in the hearing.
 world_word: anniversaria commemoratio (the phrase is Mabillon's editorial note, not the sermon's own words)
 false_friend:
 - a later saint's feast day in an established liturgical calendar

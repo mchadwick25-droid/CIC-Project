@@ -24,3 +24,14 @@ works:
     on the entry's window and place; the file's own text was not checked for its treatment
     of the union, so the fit is provisional.
   source_file: mogila_orthodox-confession_overbeck1898.txt
+- row_id: mogila_orthodox-confession_anon1762--the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church-1762-3
+  work: The Orthodox Confession of the Catholic and Apostolic Eastern-Church, faithfully translated
+    from the originals (the 1762 English, with Nectarius of Jerusalem's approving letter)
+  author: mogila
+  locus: the Confession in three parts from about file line 70 to the end
+  role: context
+  confidence: provisional
+  note: 'Same placement and reasoning as the Overbeck and Kimmel editions of the same confession.
+
+    '
+  source_file: mogila_orthodox-confession_anon1762.txt

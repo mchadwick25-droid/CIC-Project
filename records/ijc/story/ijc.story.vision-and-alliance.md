@@ -37,24 +37,23 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): a named
   what the vision was or meant, because Lactantius''s earlier, differently-detailed account is not
   reconcilable with it in specifics - a court panegyrist''s report of his patron''s own account, with
   that limitation carried, not smoothed.'
-tellable_as: Eusebius's account of Constantine's vision before the Milvian Bridge, as the emperor himself
-  told it to him
+tellable_as: the vision Constantine saw, as Eusebius tells it, which the emperor told to him himself.
 text: >-
   Eusebius tells what Constantine himself told him, long afterward and under
-  oath. Before the battle at the Milvian Bridge, about noon, Constantine saw
+  oath. On campaign, about noon, Constantine saw
   with his own eyes a cross of light in the sky, above the sun, carrying the
-  words: Conquer by this. His whole army saw it too. That night, in his sleep,
+  words: Conquer by this. His whole army, he said, saw it too. That night, in his sleep,
   Christ appeared to him with the same sign and commanded him to make a
-  standard of it and carry it before his armies. He did. The army that carried
-  it took the bridge, then Rome, and before long the whole West. Eusebius is
+  standard of it and carry it before his armies. He did. Then came the battle at the Milvian Bridge. Eusebius is
   careful about how he knows this. He is a witness once removed, reporting
   what a ruler wanted remembered about his own rise, after that ruler's death.
   But what followed is not in doubt in anyone's account. An emperor who had
   seen this sign stopped hunting the church that carried it. Within a year,
   toleration was law.
+telling: "Eusebius tells what Constantine himself told him, long afterward and under oath. While he was on campaign, about noon, Constantine said he saw with his own eyes a cross of light in the sky above the sun. It carried the words \"Conquer by this.\" His whole army, he said, saw it too.\n\nThat night, Eusebius says, Christ appeared to Constantine in his sleep with the same sign. Christ commanded him to make a standard of it and to carry it before his armies. Constantine did so, and then came the battle at the Milvian Bridge.\n\nEusebius reports what a ruler wanted remembered about his own rise, and he wrote it after that ruler's death.\n\nConstantine stopped hunting the church, and within a year toleration was law."
 absent_detail: What Constantine actually experienced, and when his own convictions actually changed, is
   not recoverable - the account is his own telling, decades on, through his own admiring historian. The
-  earlier account (Lactantius) has a dream, the night before, and shields, not a standard; the two are
+  earlier account (Lactantius) has a dream, and shields, not a standard; the two are
   told side by side in this world's record, never merged. Even the edition's own notes doubt the daylight
   vision's details. The consequence is documented; the experience is testimony.
 modern_contrast: >-

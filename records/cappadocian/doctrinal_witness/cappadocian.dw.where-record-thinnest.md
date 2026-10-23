@@ -33,23 +33,19 @@ retrieval:
   - "participant asks how much of what this world says would hold up in a university library"
   - "participant asks where this world's own record is thinnest"
 text: >-
-  Our own record is thinnest beyond one family and one circle of
-  friends. Almost everything you have from us comes from them: three
-  men, one household, one circle of students who met at school together.
-  A rule we hold ourselves to says a claim resting on one voice alone
-  must say so. No text composed by any woman of ours survives in her own
-  words. The woman we call our own greatest teacher reaches you entirely
-  through her brother's pen. The countryside beyond our own great sees
-  appears in our record only as an object of famine relief and festival
-  crowds, never as a speaking subject. Our own defeated opponents, the
-  men we argued against hardest, survive almost only inside our own
-  side's case against them. One of them alone left us his own words to
-  check our account against. Even our flagship letter on the words for
-  God is itself disputed between two of our own three teachers. The very
-  passage most often quoted as proof we agreed with each other may in
-  fact be one man's work, not a joint achievement at all. This record
-  would not survive unchallenged in a university library. It shows
-  exactly where a serious reader should press hardest.
+  What we left is thinnest beyond one family and one circle of friends.
+  Almost everything you have from us comes from them: three men, one
+  household, one circle of students who met at school together. No text
+  composed by any woman of ours survives in her own words. The woman her
+  brother called the Teacher reaches you entirely through his pen. The
+  countryside beyond our great sees appears only as people fed in famine and
+  crowds at festivals, never speaking for itself. Our defeated opponents,
+  the men we argued against hardest, survive mostly inside our own side's
+  case against them. Only a few left words of their own to check our account
+  against. Even our best-known letter on the words for God may not be by the
+  man whose name it carries. It has come down as Basil's, and it may be his
+  brother Gregory's. So the passage most often quoted to show we agreed may
+  be one man's work. That is where a serious reader should press hardest.
 positions:
 - almost the entire record comes from one family and one friendship network, a named risk this build
   itself flags at every use

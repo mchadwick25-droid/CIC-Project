@@ -17,6 +17,7 @@ relations: []
 author: Daniel Caner
 work: Wandering, Begging Monks
 edition: In-copyright modern scholarship, not vendored
+citation: Daniel Caner, Wandering, Begging Monks
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

@@ -29,8 +29,8 @@ dates:
   floruit: 347/348, tortured and killed under the Macarian persecution, their bodies thrown into the sea
     and recovered after six days
 narratable: true
-bridge_line: two of our own dead, remembered together the way Macrobius's own letter names them together
-  - a name given like a sign, and a soldier who saw the fight before he fought it
+bridge_line: Two of our own dead, remembered together as Macrobius's letter names them. Isaac has a
+  name given like a sign, and Maximianus is the soldier who saw the fight before he fought it.
 relations:
 - type: associated-with
   target: don.story.macrobius-letter-isaac-maximianus

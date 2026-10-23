@@ -1,0 +1,50 @@
+source_file: synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt
+
+authors_ruled:
+  synodicon-orientale:
+    kind: anonymous
+    evidence: >
+      The acts of the synods of the Church of the East, compiled as a collection in the
+      ninth century; no individual author. Chabot is editor and translator (title page,
+      file line 766), not the work's author. Same ruling shape as the council texts in
+      the Mansi staging files.
+
+assignments:
+  - row_id: synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902--synods-of-isaac-410-yahbalaha-420-and-dadisho-424
+    work: "Synodicon Orientale: the synods of Isaac (410), Yahbalaha (420) and Dadisho (424), Syriac text and French translation"
+    author: synodicon-orientale
+    locus: "Syriac from file line 1883 (synod of Isaac opens 1883, closes 3150; Yahbalaha 3173; Dadisho about 3497); French: synod of Isaac 16074-17925, Yahbalaha 17934, Dadisho 18551-19431"
+    atlas_ids:
+      - persian-church-of-the-east-early
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). Primary original-language voice: the Persian
+      church's own synodal acts, with the Nicene creed as received (16819), the censure of
+      Batai of Mashmahig (17809) and the 424 definition that Easterners may not appeal to
+      the Western patriarchs (19304-19313). Syriac OCR must be checked against the page
+      image before quotation; the French is clean.
+  - row_id: synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902--synods-of-acacius-486-to-henanisho-ii-775
+    work: "Synodicon Orientale: the synods from Acacius (486) to Henanisho II (775), Syriac text and French translation"
+    author: synodicon-orientale
+    locus: "French from file line 19437 (Acacius) through 34739 (Henanisho); Syriac text earlier in the file"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). The same collection's later synods (Acacius,
+      Babai, Aba, Joseph, Ezekiel, Ishoyahb, Sabrisho, Gregory, George, Henanisho) are the
+      Church of the East under Persia's own acts. Primary original-language voice.
+  - row_id: synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902--appendix-synods-of-timothy-i
+    work: "Synodicon Orientale: appendix, the synods of Timothy I (late eighth century)"
+    author: synodicon-orientale
+    locus: "French from file line 39909 (Appendice IV, Synode de Timothée)"
+    atlas_ids:
+      - the-church-of-the-east-on-the-silk-road
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). Timothy I's synodal material in the same
+      collection belongs to the Church of the East of the Abbasid and Silk Road period.
+      Placement to be confirmed by that entry's own build thread.

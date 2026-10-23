@@ -11,26 +11,28 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: illustrative
   formation_confidence: Inferential-Thin
-  divergence_note: 'Inferential-Thin, per Doc_09''s own assignment and per Tier 3''s own Cross-Walk entry
-    for events whose historical occurrence cannot be verified. Bacon''s own language marks this as tradition,
-    not direct report: the anecdote is "related" (twice, at both loci read), not documented by Bacon from
-    his own witness or from a dated primary source. A further,
-    narrower point this record adds on direct re-reading: the vendored text names the singer under Luther''s
-    window only as "a wanderer from Prussia," never as Speratus himself in person - Speratus is named,
-    directly and only, as the hymn''s own author, one of three of Paul Speratus''s hymns among the four
-    in Wittenberg''s earliest hymn-book (1524). Doc_09''s own story title and framing ("Speratus, a wanderer
-    from Prussia, singing beneath Luther''s window") reads the wanderer and the hymn''s author as the
-    same person; the vendored text itself does not make that identification explicit. This record narrates
-    the anecdote as the vendored text actually gives it - an unnamed wanderer singing Speratus''s hymn
-    - rather than importing the identification as settled, the same discipline the Gallic precedent applied
-    to an editorial place-name Sulpitius''s own text did not supply.'
+  divergence_note: >-
+    Inferential-Thin, per Doc_09's own assignment and per Tier 3's own Cross-Walk entry for events whose
+    historical occurrence cannot be verified. Bacon's own language marks this as tradition, not direct
+    report: the anecdote is "related" (twice, at both loci read), not documented by Bacon from his own
+    witness or from a dated primary source. A further, narrower point this record adds on direct re-reading:
+    the vendored text names the singer under Luther's window only as "a wanderer from Prussia," never
+    as Speratus himself in person - Speratus is named, directly and only, as the hymn's own author, one
+    of three of Paul Speratus's hymns among the eight in Wittenberg's earliest hymn-book (1524). Doc_09's
+    own story title and framing ("Speratus, a wanderer from Prussia, singing beneath Luther's window")
+    reads the wanderer and the hymn's author as the same person; the vendored text itself does not make
+    that identification explicit. This record narrates the anecdote as the vendored text actually gives
+    it - an unnamed wanderer singing Speratus's hymn - rather than importing the identification as settled,
+    the same discipline the Gallic precedent applied to an editorial place-name Sulpitius's own text did
+    not supply.
 sources:
 - source_id: witt.source.leonard-introduction-to-the-hymns-of-martin
-  locus: Both loci naming the anecdote - the tune-note ("the singing of which under Luther's window at
-    Wittenberg is related to have made so deep an impression on the Reformer... the anecdote is confirmed
-    by the fact that... Luther's three versions of Psalms are all set to this tune") and the fuller Introduction
+  locus: >-
+    Both places naming the anecdote: the tune-note ("the singing of which under Luther's window at Wittenberg
+    is related to have made so deep an impression on the Reformer... the anecdote is confirmed by the
+    fact that... Luther's three version[s] of Psalms are all set to this tune") and the fuller Introduction
     passage ("Es ist das Heil, which caused Luther such delight when sung beneath his window by a wanderer
-    from Prussia"), both read and verified verbatim; neither locus names the wanderer as Speratus in person
+    from Prussia"). Neither names the wanderer as Speratus in person
   license: public-domain
 retrieval:
   tier: 3
@@ -57,23 +59,22 @@ tellable_as: In Wittenberg, a wanderer down from Prussia is remembered to have s
   hymn, "Es ist das Heil uns kommen her," beneath Luther's window. The tradition says it moved him deeply.
   We have no word of when it happened. We do not know who the singer was. We cannot say the scene
   ever happened at all.
-text: 'Among the four hymns in Wittenberg''s very first hymn-book, printed in 1524, three were not Luther''s
-  own but Paul Speratus''s - a fellow reformer whose hymn "Es ist das Heil uns kommen her" ("Salvation
-  unto us has come") became one of the collection''s best known.
+text: >-
+  Wittenberg's first hymn-book, printed in 1524, held eight hymns. Four were Luther's own, and three were
+  by Paul Speratus. One of those three was "Es ist das Heil uns kommen her."
 
-  The tradition Bacon''s Introduction relates - and relates only as tradition, in his own words, not as
-  a thing he had witnessed or found documented - is that this same hymn was once sung beneath Luther''s
-  own window by a wanderer down from Prussia, and that the singing moved Luther so deeply that he set
-  his own later translations of the Psalms to the same tune, as if in answer. Bacon offers that last fact
-  - Luther''s later use of the tune - as a kind of confirming trace, though it confirms only that Luther
-  loved the tune, not that any particular singer ever stood beneath his window.
+  The tradition Bacon's Introduction relates - and relates only as tradition, in his own words, not as
+  a thing he had witnessed or found documented - is that this same hymn was once sung beneath Luther's
+  own window by a wanderer down from Prussia, and that the singing moved Luther deeply. Bacon points to
+  a trace that seems to bear this out: in the 1524 "Eight Songs," Luther's three versions of Psalms are
+  all set to this tune. That shows only that Luther used the tune. It does not show that any singer stood
+  beneath his window.
 
-  What the account does not do, on a close reading, is say that Speratus himself was the wanderer.
-  He is named only as the hymn''s own author. The singer beneath the window is given no name at all -
-  only a description, "a wanderer from Prussia." The story we can honestly tell, then, is not
-  "Speratus sang under Luther''s window," but something a little smaller and a little stranger: someone
-  unnamed, from somewhere far off, sang a hymn that was Speratus''s own, and the tradition remembers that
-  it reached Luther.'
+  The account does not say that Speratus himself was the wanderer. He is named only as the hymn's author.
+  The singer beneath the window has no name, only a description: "a wanderer from Prussia." So we tell
+  only this much. An unnamed wanderer from Prussia sang Speratus's hymn under Luther's window, and the
+  tradition remembers that it moved Luther.
+telling: "Wittenberg's first hymn-book was printed in 1524, and it held eight hymns. Four of them were Luther's own, and three were by Paul Speratus. One of those three was \"Es ist das Heil uns kommen her.\"\n\nBacon, a later editor of Luther's hymns, notes a detail of the same book, the 1524 \"Eight Songs.\" There, he says, Luther's three versions of Psalms are all set to this hymn's tune.\n\nBacon's Introduction relates a tradition about the hymn. An unnamed wanderer came down from Prussia, the tradition says. He stood beneath Luther's window and sang Speratus's hymn, and the singing moved Luther deeply."
 absent_detail: No date, no name for the singer, and no independent confirmation that the scene happened
   at all - only Bacon's own word that it is "related," twice, in his Introduction. The vendored text nowhere
   states that the wanderer and Speratus were the same person.

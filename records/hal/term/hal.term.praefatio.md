@@ -35,12 +35,9 @@ senses:
     raised, sometimes the objector named.'
   evidential: Dozens survive in Jerome's own hand. By its very genre the preface is a single-voice,
     self-justifying source - it cannot corroborate its own claims.
-  personal: A reader who has heard one of these prefaces has heard this world defending itself under
-    real pressure, in real time - the closest thing it has to a living voice at work.
-  translational: Think of an author's combative reply-to-critics printed at the front of every volume
-    - argument as front matter.
-quick_meaning: The combative prefaces where the translation project argues its own case, book by
-  book.
+  personal: "A reader of these prefaces hears Jerome defending his work under real pressure. They are the closest thing this record has to a living voice at work."
+  translational: "Think of an author's combative reply to critics, printed at the front of each volume."
+quick_meaning: "The fighting prefaces in which Jerome argued the case for each book he translated."
 distortion_risk: medium
 relations:
 - type: associated-with

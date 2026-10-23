@@ -38,10 +38,8 @@ senses:
     Decian years.
   evidential: 'Dionysius''s letters carry the crisis first-hand: the dying lapsed reconciled, the rigorists
     resisted, the bishops held the door open with discipline.'
-  personal: The question under the question was whether failure was final - and this church, against its
-    rigorists, answered no.
-  translational: '''When someone wronged the community, could they come back?'' - the lapsed are this
-    world''s hardest, most documented yes.'
+  personal: "The deeper question was whether failure was final. The church said no, though its rigorists disagreed."
+  translational: "'When someone wronged the community, could they come back?' - the lapsed are this world's well documented yes."
 quick_meaning: Those who fell under persecution - and could return through repentance.
 distortion_risk: medium
 use_note:

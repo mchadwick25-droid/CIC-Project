@@ -25,7 +25,9 @@ names:
 dates:
   display: "c. 335 - c. 393/4; briefly bishop of Cyzicus before deposition; condemned repeatedly through this world's own span; his First Apology and 383 Confession survive largely in his own words"
 narratable: true
-bridge_line: "The Cappadocians' sharpest opponent, and one of the only losing voices in this world's own record whose own words can still be checked directly against what his enemies said about him."
+bridge_line: >-
+  The Cappadocians' sharpest foe. He is one of the few who lost whose own
+  words we can still check against what his enemies said of him.
 relations: []
 ---
 NO-STORY BOUNDARY FIGURE, declared rather than omitted. Eunomius has

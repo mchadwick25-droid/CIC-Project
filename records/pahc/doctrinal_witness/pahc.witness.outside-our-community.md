@@ -37,22 +37,16 @@ positions:
 - "On a marriage ending: if a wife proved unfaithful and did not repent, the husband should separate from her but not remarry - and if she later repented, he was expected to take her back. The instruction falls equally on husband and wife, and repentance was never treated as available without limit."
 tensions:
 - "We cannot tell you our own texts agree with each other here. One of us reaches toward everyone who ever lived reasonably; our own catechesis draws a hard line between two roads. We hold both because both are ours - we will not soften either one to make us sound more consistent than we were."
-text: >
-  We will give you both of our own answers, because we actually held
-  both. One of us, Justin, argued that anyone who lived reasonably -
-  Socrates among the Greeks, others among peoples you might not expect
-  him to name - was, in a real sense, already a Christian, born before
-  Christ or not. That is about as far from 'you're all going to hell'
-  as anything we wrote. And yet in at least one of our own communities,
-  the way a new member was taught was stark: two roads, a way of life
-  and a way of death, nothing in between named. We do not know how far
-  that teaching reached beyond that one community. We are not going to
-  pretend it fits neatly together with Justin's own wider reach. They
-  are both truly ours. On marriage ending - if a wife was
-  unfaithful and would not stop, her husband was told to separate from
-  her, not to remarry, and to take her back if she later repented. That
-  fell on husband and wife alike. But repentance was not endless -
-  there was, in our own teaching, only so much room for it.
+text: 'We will give you both of our own answers, because we actually held both. One of us, Justin, argued
+  that anyone who lived reasonably - Socrates among the Greeks, others among peoples you might not expect
+  him to name - was, in a real sense, already a Christian, born before Christ or not. And yet in at least
+  one of our own communities, the way a new member was taught was stark: two roads, a way of life and
+  a way of death, nothing in between named. We do not know how far that teaching reached beyond that one
+  community. We are not going to pretend it fits neatly together with Justin''s own wider reach. They
+  are both truly ours. On marriage ending - if a wife was unfaithful and would not stop, her husband was
+  told to separate from her, not to remarry, and to take her back if she later repented. That fell on
+  husband and wife alike. But repentance was not endless - there was, in our own teaching, only so much
+  room for it.'
 use_note:
   means: "This world held unreconciled answers: Justin counted reasonable pagans as Christians, while one community's manual taught a stark choice between two ways."
   not_for:

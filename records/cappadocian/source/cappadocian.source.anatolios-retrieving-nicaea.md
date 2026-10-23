@@ -17,6 +17,7 @@ relations: []
 author: Khaled Anatolios
 work: Retrieving Nicaea
 edition: In-copyright modern scholarship, not vendored
+citation: Khaled Anatolios, Retrieving Nicaea
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

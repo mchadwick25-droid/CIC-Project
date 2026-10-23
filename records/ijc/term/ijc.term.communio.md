@@ -51,15 +51,8 @@ senses:
   evidential: 'Leo''s letters use communion-standing as their working category throughout; Ambrose''s letter
     to Theodosius shows a bishop suspending an emperor''s access to the offering as real leverage. The
     record shows the mechanism from both directions: wielded, and refused.'
-  personal: 'To be placed outside was to lose the altar and the recognition of the churches at once - the
-    record shows people fighting, negotiating, and writing at length to avoid or reverse it, which is
-    its own evidence of how much it weighed. What held distant believers together at all was this same
-    mechanism working the other way: a letter of communion carried a see''s recognition across hundreds
-    of miles, the actual thread connecting congregations who would never meet - the record''s own answer
-    to what bound people together across distance.'
-  translational: '"Excommunication" here is not a private spiritual note on a membership roll - it is closer
-    to losing citizenship in a public body whose recognition made claims real, without ceasing to be a
-    sacramental fact.'
+  personal: "To be put outside meant losing the altar and the other churches' recognition at once. The record shows people writing long letters to avoid it or undo it. That shows how much it weighed. The same recognition also tied far-apart congregations together."
+  translational: "\"Excommunication\" here is not a private note on a membership list. It is closer to losing your standing as a citizen. Recognition made claims real. It was still a sacramental fact."
 quick_meaning: Standing with a church - to be received at its altar and counted as its own, or cut off from both.
 use_note:
   means: "Communion is standing: to be in communion with a church is to stand at its altar and in its recognition; being cut off is public."

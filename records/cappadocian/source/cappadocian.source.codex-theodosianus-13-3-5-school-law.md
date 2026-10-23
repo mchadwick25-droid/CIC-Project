@@ -21,6 +21,7 @@ edition: The Mommsen-Meyer Latin text is public domain per Doc_02 SS2, and was a
   present at Book 13, Title 3, Law 5, textually matching this row's own citation ("Magistros studiorum
   doctoresque excellere oportet moribus primum, deinde facundia...", dated in the file 362 Iun. 17).
   Corpus-map staging entry at cic/corpus-map/_staging/theodosianus-16_mommsen-meyer1905.yaml.
+citation: Codex Theodosianus 13.3.5, the general school law of June 362, Latin text ed. Mommsen and Meyer (1905)
 kind: vendored
 rights_status: acquired 2026-09-09; not independently re-verified beyond the textual match noted above.
 attribution_status: attributed

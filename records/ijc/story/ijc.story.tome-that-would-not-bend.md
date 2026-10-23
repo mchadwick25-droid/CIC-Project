@@ -42,7 +42,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): named d
 tellable_as: Leo's Tome at Chalcedon, and the canon he would not receive - our closing argument,
   left open
 text: >-
-  Leo did not go to Chalcedon; his letter went in his place. When the Tome was
+  Leo did not go to Chalcedon. His legates went in his place, and his letter was read. When the Tome was
   read to the assembled bishops, the session record has them crying out: This
   is the faith of the fathers - Peter has spoken thus through Leo. A letter
   received, by those who received it rightly, as the see of Peter speaking.
@@ -52,15 +52,12 @@ text: >-
   had ever taught there. The canon's own words say why: the fathers rightly
   granted privileges to old Rome as the royal city, and the new royal city
   should be honored the same way. Leo's representatives objected in the
-  council itself. Leo, when word reached him, refused to accept it. He wrote
-  to emperor, empress, and bishop alike to say why: things secular stand on a
-  different basis from things divine. Rank near a throne is not the kind of
-  claim an apostle's grave makes, and no vote can make the two the same. So
+  council itself. Leo, when word reached him, refused to accept it. He wrote to the emperor, the empress and the bishop. To the emperor he gave his reason: things secular stand on a different basis from things divine. Constantinople was a royal city, he said, but it could never be an apostolic see. So
   the council that finally settled who Christ is left open the question it
   could not settle: where, on earth, the church's own final authority sits.
   Our record ends with both claims still held, unreconciled.
-absent_detail: The Tome's reception was not unanimous joy - it was questioned in session and examined
-  against Cyril before the acclamation carried, and Percival prints extracts, not the complete acts;
+telling: "Leo did not go to Chalcedon. His legates went in his place, and his letter, the Tome, was read to the assembled bishops. The session record has them crying out, \"This is the faith of the fathers,\" and then, \"Peter has spoken so through Leo.\"\n\nNot every bishop was satisfied. The Tome was questioned in session and compared with the teaching of Cyril.\n\nThree weeks later, the same council did something else. It gave Constantinople equal privileges with old Rome and a rank just after her. It also gave Constantinople the right to ordain the chief bishops of three regions.\n\nNo apostle had taught there, and the canon gave a different reason. Earlier bishops had rightly granted privileges to old Rome as the royal city, and the new royal city should be honored the same way.\n\nLeo's legates objected in the council itself. When word reached Leo, he refused to accept the canon and wrote to the emperor, the empress and the bishop of Constantinople. To the emperor he wrote that \"things secular stand on a different basis from things divine.\" Constantinople was a royal city, he said, but it could never be an apostolic see."
+absent_detail: The Tome's reception was not unanimous joy - it was questioned in session and examined against Cyril, with explanations asked by the Illyrian bishops after the acclamation, and Percival prints extracts, not the complete acts;
   the fuller debates (and the Egyptian bishops' resistance) are in the complete acts this build's base
   does not carry. Canon 28's passage and the Tome's reception happened in different sessions, three
   weeks apart (Session II, 10 October 451; Canon 28, 31 October 451) - the drama is real, the compression

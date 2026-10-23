@@ -3,6 +3,22 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: apollinarian-christianity
 works:
+- row_id: apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904--texts-and-fragments-of-apollinaris-and-his-school
+  work: Texts and fragments of Apollinaris of Laodicea and his school (Lietzmann, 1904), Greek
+    with German study
+  author: apollinaris-laodicea
+  locus: 'the Texts, pages 167-322 of the edition: the Kata meros pistis (heading at file
+    line 8381; section 22 at file line 8983); the discourse against Diodore at file line 12118;
+    the study of the writings from file line 6688'
+  role: tradition
+  confidence: provisional
+  note: 'The movement''s own voice: the one collected edition of what Apollinaris and his
+    followers wrote, most of it preserved under orthodox names. Primary original-language
+    witness; Greek and German both recovered in the OCR. The attributions are Lietzmann''s
+    reconstructions, argued in his German study, and a quote record must say so.
+
+    '
+  source_file: apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt
 - row_id: npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons-2
   work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
@@ -14,6 +30,19 @@ works:
     names, from their condemners. Each now has its own entry, and this work is the record
     of all of them.
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857--letters-and-poems-pg-37-greek-2
+  work: Letters and Poems (Epistulae; Carmina), PG 37, Greek
+  author: gregory-nazianzen
+  locus: Letters 101 and 102 to Cledonius against Apollinarius (file line 13148 on); Letter
+    202 to Nectarius (file line 26163)
+  role: context
+  confidence: provisional
+  note: 'A contemporary opponent''s account of Apollinarian teaching, in Greek. Context, not
+    the movement''s own voice; the Apollinarian side''s own words are in the Lietzmann file
+    vendored alongside this one.
+
+    '
+  source_file: gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt
 - row_id: npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen-2
   work: Select Letters of Saint Gregory Nazianzen
   author: gregory_naz

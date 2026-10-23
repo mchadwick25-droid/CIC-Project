@@ -982,3 +982,1043 @@ The same overstatement (a flat "the only thinker we produced") stood in these th
 **Gates.** `engine.m10.cli records don` and `regate don --base origin/main`: pass. The readability waiver `m1:readability/don` in `engine/m9/enforce.py` is tightened from 326 to 320. Package rebuilt after the last record edit: `records/worlds/don.yaml` pins `packages/don/2026-10-09T00-22-23Z`, `manifest_hash` `sha256:4db3b63e13e7c2eb41b355bdd479c81260d5de60d22621397f36954bb878d7f2`. The site JSON was recompiled; `engine.m2.site_cli staleness-check`: pass.
 
 Status: CLOSED for item (9)'s second claim. The world front lines and the unhedged condemnation listed under "Not changed" stay OPEN for the build thread; the 9 October entry's other items stay OPEN.
+
+### OG-32. Record wording pass: audit fixes to spoken fields, loci and source citations, 2026-10-13.
+
+Method as applied to syr, cappadocian, gallic and rzg. Audit published to the project lead as the Artifact "don Record Audit" (439 findings: 82 serious, 167 tells, tense or renderings, 190 readability or minor loci). Fixes made within the brief's scope: spoken fields, factual corrections in build records with every hedge kept, citation loci, and one `citation:` line on each of the 76 source records. Quote `text` was not changed in any quote record. Quote `modern_rendering` values were written by Opus. Reviews: `Build/Ministry/Operations/Audits/don_record_audit_fixes_review_round1_2026-10-13.md`, `..._round2_...` and `..._round3_...` (Opus 5.5; round 1 did not clear with 12 blocking items, round 2 did not clear with 6, round 3 cleared with none blocking).
+
+Records changed by type: ambient 3, contested_claim 9, demonstration 11, doctrinal_witness 28, figure 25, force 13, gravity 11, honest_limit 6, quote 4, source 76, story 12, term 21, voice_craft 1, world_core 1. Total 221 files.
+
+**Changed, by record.** First the editors' logs, then the two post-review rounds.
+
+
+- `don.quote.petilian-conscience-of-the-giver`
+  - sources: the first source changed from don.source.augustine-answer-to-letters-of-petilian to don.source.npnf104-prolegomena-analysis. The new locus is "Chapter II, 'An Analysis of Augustin's Writings Against the ...
+  - sources: kept don.source.augustine-answer-to-letters-of-petilian as a second entry with the corrected locus "Book II, chapters 3-4 (sections 6 and 8), the same proposition in shorter form, without the bracketed words". ...
+  - modern_rendering: restored the dropped "For" (Latin "Nam"), replaced the old word order "receives not faith, but guilt", and resolved "that of the recipient". FK 8.1 / FRE 72.1.
+
+- `don.quote.emeritus-magno-argumento`
+  - modern_rendering: "argument" became "trick". Latin argumentum here means a ploy; the world's build itself glosses it "great device", and "argument" misleads a modern reader. Also restored "so that" (Latin ut) and ...
+  - sources[0].locus: removed the file path and line number. Also dropped "act 50": in the PL11 scan that number already belongs to Augustine's speech in the same session ...
+
+- `don.quote.donatus-quid-est-imperatori`
+  - sources[0].locus: "Book III, chapter 3 -- the Vassall-Phillips English translation". Removed the path and line number and added the chapter. Source: optatus_against-the-donatists.txt, "III. The pride of Donatus." at ...
+  - sources[1].locus: "Book III, chapter 3 -- the Latin original, in Ziwsa's critical edition (CSEL 26)". Removed the path, line number and OCR notes. Source: optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt line 3357, "quid ...
+
+- `don.quote.the-shores-are-covered`
+  - sources[0]: source_id changed from don.source.augustine-on-baptism-against-the-donatists to don.source.augustine-answer-to-letters-of-petilian, and the locus "Book III (...)" became "Book I, chapter 10 (...)". Why: the ...
+
+- `don.dw.becoming-one-of-us`
+  - text [source-drift, sev 1]: 'We know people prayed kneeling with their eyes closed, because that is' -> 'We know people prayed with their hands stretched out to the Lord and t'. Source: ...
+  - text [overclaim, sev 2]: 'We know one man fasted four days on a cliff before he was thrown off i' -> 'We know one man, held four days before he was thrown from a cliff, end'. Source: ...
+  - text [overclaim, sev 1]: 'a layman of ours who would not stop preaching a doctrine we had forbid' -> 'Tyconius, who would not stop preaching a doctrine his bishop forbade, '. Source: don.story.tyconius-condemnation ...
+  - text [overclaim, sev 2]: "a rich woman used to kiss a martyr's bone before she took it and was r" -> "a woman was said to have kissed a martyr's bone before she took it, an". Source: ...
+  - text [overclaim, sev 3]: 'It happened once, bodily, on a day, and the town knew. There was no qu' -> 'It happened once, bodily, on a day.'. Source: No cited source says the rite was public or that the town knew; the ...
+  - sources[2].locus [locus, sev 3]: "Book I, ch. 5, SS6 - Donatist laity's own reluctance to be rebaptized," -> "Book I, ch. 5, section 6 - Donatist laity's own reluctance to be rebap". Source: Build abbreviation 'SS6' on ...
+  - sources[5].locus [source-drift, sev 1]: 'people killed at prayer on their knees inside the basilica; a dying ca' -> 'people killed at prayer inside the basilica; a dying catechumen not ye'. Source: ...
+  - sources[6].locus [locus, sev 2]: 'the four days of fasting at Novapetra before the cliff' -> "the fast that closed Marculus's four days at Novapetra, before the cli". Source: monumenta-vetera-donatistarum_migne-pl8.txt: ...
+
+- `don.dw.forgiving-a-man-and-trusting-a-hand`
+  - text [tell, sev 2]: 'We would say that is not bitterness. It is keeping two separate accoun' -> ''. Source: 'Not X, it is Y' pivot ending on a coined line, and an attributed saying ('We would say') that no record has; ...
+  - text [tell, sev 2]: 'It is not that our people had no inner life. It is that what survives ' -> 'That does not mean our people had no inner life. Whoever kept our reco'. Source: 'Not X, it is Y' pivot closing on a ...
+  - text [overclaim, sev 2]: 'Whether a man was pardoned was never actually our fight. Go and read t' -> 'As we read our own argument, whether a man was pardoned was never our '. Source: Record's own divergence_note and ...
+
+- `don.dw.how-we-read-and-heard`
+  - text [source-drift, sev 2]: 'No other church in the empire had its scriptures turn into the exact t' -> ''. Source: Comparative claim about every other church in the empire; in no record or vendored source of this world.
+  - text [overclaim, sev 1]: 'and cut him off.' -> 'and are reported to have cut him off.'. Source: don.story.tyconius-condemnation (perhibent hedge, 'reported'; divergence_note: standing 'deliberately left open'); ...
+  - sources[3].locus [locus, sev 3]: 'the critical edition, vendored and not read into this telling beyond i' -> 'the critical edition of the Book of Rules, not drawn on in this tellin'. Source: Leaks build material ...
+
+- `don.dw.hypocrites-and-those-who-left`
+  - text [overclaim, sev 2]: 'Every one of the letters ends the same way. Let no one learn of it.' -> 'Several of the letters end the same way. Let no one learn of it.'. Source: Open_Gaps_Tracking OG item (3): Purpurius's ...
+  - text [contradiction, sev 2]: 'At least two of us wanted to leave, and we treated them differently.' -> 'Two cases of dissent are on record, and we treated them differently.'. Source: don.story.tyconius-condemnation: ...
+  - text [source-drift, sev 2]: 'had two of its bishops quietly taken back a few years later' -> 'had two of its bishops taken back a few years later'. Source: don.story.bagai-reconciliation: the reception was enforced ...
+  - text [overclaim, sev 1]: 'and him we cut off and never received back.' -> 'and a council of ours is reported to have condemned him. He was never '. Source: don.story.tyconius-condemnation (perhibent hedge, 'reported'; ...
+  - text [contradiction, sev 2]: 'A bishop wrote to his own people about two of them beaten to death, an' -> 'A bishop wrote to the church at Carthage about two of them beaten, and'. Source: ...
+  - sources[1].locus [locus, sev 3]: 'Optatus I.16 on Lucilla; Augustine Letter XLIII SS26 on the unnamed wo' -> 'Optatus I.16 on Lucilla; Augustine Letter 43, section 26, on the unnam'. Source: Build abbreviation 'SS26' on ...
+  - sources[3].locus [locus, sev 3]: 'two of a congregation flogged to death, their bodies sunk, and the let' -> 'two of a congregation flogged and sunk in the sea, and the letter writ'. Source: don.story.macrobius-letter: ...
+
+- `don.dw.not-a-death-wish`
+  - text [other, sev 3]: 'and that the one independent record of them' -> 'and the one independent record of them'. Source: Stray 'that' leaves the sentence ungrammatical.
+  - text [tell, sev 2]: 'Death is where the shape of that becomes visible. It is not the shape.' -> 'Death is where that becomes visible.'. Source: Coined closing line with 'not X' pivot.
+  - text [tell, sev 2]: 'Readiness, not appetite.' -> ''. Source: Quotable coined tag with 'not X' pivot repeating the point already made.
+  - text [contradiction, sev 2]: 'the letter our own bishop wrote to his own congregation' -> 'the letter one of our bishops wrote to the church at Carthage'. Source: monumenta-vetera-donatistarum_migne-pl8.txt Variorum ...
+
+- `don.dw.older-than-the-schism`
+  - text [contradiction, sev 1]: 'And beyond him we cannot take you. We can show you an African council ' -> 'Beyond him we can take you only a little way. Cyprian himself pointed '. Source: ...
+  - text [tense, sev 3]: 'That is not our invention. That is the settled mind of the African chu' -> 'That was not our invention. It was the settled mind of the African chu'. Source: Past tense for the community's own past; ...
+  - text [source-drift, sev 2]: 'We were holding the old African position; they had moved off it to kee' -> 'We were holding the old African position, and they had moved off it.'. Source: No record or vendored text gives ...
+  - confidence.divergence_note [contradiction, sev 1]: 'Nothing in this compilation traces any practice of ours past the mid-t' -> 'The earliest precedent in this compilation is the council under Agripp'. Source: npnf104 On ...
+  - tensions[1] [contradiction, sev 1]: 'nothing in our record traces any practice of ours past the middle of t' -> 'nothing in our record traces any practice of ours past the early third'. Source: Same Agrippinus passages ...
+
+- `don.dw.room-for-dissent`
+  - text [contradiction, sev 1]: 'a layman of ours named Tyconius' -> 'a man of ours named Tyconius'. Source: don.story.tyconius-condemnation and don.core.donatism caution 9: Tyconius's formal standing is left open on ...
+  - text [overclaim, sev 1]: 'He kept saying it from inside, and we cut him off, and never took him ' -> 'He kept saying it from inside. It is reported that a council of ours c'. Source: don.story.tyconius-condemnation ...
+  - text [source-drift, sev 2]: 'Another was shown a cup, a crown and a palm while he fasted at the top' -> 'Another was shown a cup, a crown and a palm while he fasted at Novapet'. Source: ...
+  - text [contradiction, sev 3]: 'That night he dreamed he fought the emperor himself' -> 'After the beating he dreamed he fought the emperor himself'. Source: don.story.macrobius-letter: Maximianus had the dream the night ...
+  - text [tell, sev 2]: 'That is not modesty. It is that fear, wavering and quiet leaving are e' -> 'A record kept by our enemies does not preserve fear, wavering or quiet'. Source: 'Not X, it is Y' pivot.
+  - text [overclaim, sev 2]: 'it survives because it sits in the martyr texts nobody edited' -> 'it survives because it sits in the martyr texts our own people wrote'. Source: don.dw.how-we-read-and-heard divergence_note ...
+
+- `don.dw.scripture-and-the-african-fathers`
+  - text [overclaim, sev 3]: 'and at the end of it every man in the room believed exactly what he ha' -> 'and at the end of it neither side had moved'. Source: Source locus and divergence_note say only that 'neither moved' ...
+
+- `don.dw.silver-and-the-goods-of-the-poor`
+  - text [overclaim, sev 1]: 'Lucilla of Carthage gave four hundred pieces of silver, and the bishop' -> 'Lucilla of Carthage was said to have given four hundred pieces of mone'. Source: ...
+  - text [tell, sev 3]: 'On money, honestly, we can show two things, not a doctrine.' -> 'On money, we can show two things, not a doctrine.'. Source: 'honestly' filler.
+  - text [source-drift, sev 2]: 'in Numidia we were the ordinary church of the village' -> 'in Numidia we were the dominant church'. Source: don.core.donatism: Numidia is the communion's heartland, 'numerically dominant'; ...
+  - sources[0].locus [locus, sev 2]: 'the Gesta apud Zenophilum - four hundred pieces of silver from Lucilla' -> 'the Gesta apud Zenophilum - four hundred pieces of money from Lucilla;'. Source: Vendored Gesta text says ...
+  - positions[0] [source-drift, sev 1]: 'four hundred pieces of silver from a Carthaginian laywoman, testified ' -> 'four hundred pieces of money from a Carthaginian laywoman, charged in '. Source: Same Gesta passage: ...
+
+- `don.dw.the-books-they-came-for`
+  - text [tell, sev 2]: 'as though the ending were not the end' -> ''. Source: Adds an interpretation no record gives (term anniversaria-commemoratio says only that the hearing forms us again).
+
+- `don.dw.the-creed-we-shared`
+  - text [overclaim, sev 2]: 'Two churches stood in every African town reciting the same faith at ea' -> 'Two churches stood in many African towns, reciting the same faith at e'. Source: Gesta apud Zenophilum (Optatus ...
+  - text [tell, sev 3]: 'This matters more than it sounds. ' -> ''. Source: Assistant-voice filler.
+  - sources[2].locus [locus, sev 3]: 'Book II, dated A.D. 400 (line 665) - "you are heretics" (line 16579); ' -> 'Book II, dated A.D. 400 - "you are heretics"; "it is dissension and di'. Source: Line numbers on a ...
+  - sources[3].locus [locus, sev 3]: '16.5.38, 405 February 12 - the law names Donatists beside Manichaeans ' -> '16.5.38, 405 February 12 - the law names Donatists beside Manichaeans'. Source: Line number on a ...
+  - sources[4].locus [locus, sev 3]: 'Boyd on the law of 405, which declared the Donatists heretics (line 67' -> 'Boyd on the law of 405, which declared the Donatists heretics'. Source: Line number on a participant-facing ...
+  - sources[5].locus [locus, sev 3]: 'Letter 185, ch. 1 (line 19321) - most of them held the same belief on ' -> 'Letter 185, ch. 1 - most of them held the same belief on the Trinity, '. Source: Line numbers on a ...
+
+- `don.dw.the-emperor-and-the-church`
+  - text [rendering, sev 2]: 'in five words: what has the Emperor to do with the Church?' -> 'in one line: what has the Emperor to do with the Church?'. Source: Five words is the Latin 'Quid est imperatori cum ecclesia?'; ...
+  - text [source-drift, sev 2]: 'two altars, two names for the same God, and not one point of doctrine ' -> 'two altars, and not one point of doctrine between them.'. Source: 'Two names for the same God' is in no record or ...
+  - text [tell, sev 2]: 'Not because a council cannot rule. Because a court convened, staffed a' -> 'A council can rule, but a court convened, staffed and enforced by a po'. Source: 'Not because X. Because Y' pivot.
+  - text [tell, sev 2]: 'That is what persecution looked like for us. Not hiding. Being visited' -> 'That is what persecution looked like for us.'. Source: Staccato coined closer with 'not X' pivot.
+
+- `don.dw.the-line-we-actually-drew`
+  - text [tell, sev 2]: 'That is not a fence around Christianity. It is a fence down the middle' -> ''. Source: 'Not X, it is Y' pivot restating the line two sentences earlier ('through the middle of the church, not around ...
+  - text [contradiction, sev 2]: 'Nobody among us left a page about the fate of anyone after death, and ' -> 'No text of ours says what became of anyone baptized by the other party'. Source: ...
+  - text [overclaim, sev 3]: 'Every ounce of the exclusion you have heard about was aimed at other C' -> 'All the exclusion our record shows was aimed at other Christians'. Source: No source covers how the community treated ...
+
+- `don.dw.the-test-we-took-from-the-text`
+  - text [tense, sev 3]: 'The true church is the one being hated. Look at which of the two doors' -> 'The true church, we held, was the one being hated.'. Source: Present tense for the community's own belief; the 'doors and ...
+  - text [tell, sev 2]: 'Nothing separates those phrases in meaning. They separated everything ' -> 'The two phrases differ very little in meaning. In practice they separa'. Source: don.term.deo-laudes translational field: ...
+
+- `don.dw.the-emperor-and-the-church`
+  - text [source-drift, sev 1]: 'people clubbed to death where they knelt with their eyes shut' -> 'people clubbed to death with their hands stretched out to the Lord and'. Source: ...
+
+- `don.story.acta-purgationis-felicis`
+  - text (sev 1, contradiction): 'At the centre of the case was a letter, supposedly written by Felix hi' -> 'At the centre of the case was a letter from the magistrate Caecilianus to Felix, read alou'. Source: Acta ...
+  - text (sev 1, source-drift): 'Under questioning, and under the threat of torture, Ingentius broke. H' -> 'Under questioning, and under the threat of torture, Ingentius broke. He admitted that he h'. Source: ...
+  - text (sev 1, source-drift): 'The proceeding records his vindication as complete - finally and trium' -> 'The proconsul ruled that nothing had been proved against Felix, and cleared him.'. Source: 'Thus was Felix finally ...
+  - text (sev 2, source-drift): 'Alfius Caecilianus, Maximus, Apronianus, Claudius Saturianus, Superius' -> 'Alfius Caecilianus, Claudius Saturianus, Superius, and a notary named Ingentius'. Source: Optatus I.27 ...
+  - tellable_as (sev 1, source-drift): 'An imperial inquiry into whether the bishop who consecrated Caecilian ' -> 'The emperor orders an inquiry. Felix, who made Caecilian a bishop, is said to have given u'. Source: Same ...
+  - sources[0].locus (sev 3, locus): 'Acta Purgationis Felicis (314/315); cic/texts/optatus_against-the-dona' -> "Acta Purgationis Felicis (314/315), Appendix I of Optatus's Against the Donatists". Source: Locus leaks a ...
+
+- `don.story.bagai-reconciliation`
+  - text (sev 1, contradiction): 'A general named Optatus Gildonianus enforced the reconciliation with m' -> 'Optatus Gildonianus, a bishop of ours, enforced the reconciliation with military force.'. Source: Augustine, ...
+  - text (sev 2, overclaim): "And then, having said this, the council did something its own decree's" -> "And afterwards our party did something its own decree's language did nothing to prepare a ". Source: Augustine, On ...
+  - text (sev 2, source-drift): "if reordination could be waived here, on the mainstream party's own au" -> "if the baptisms these bishops had given in schism could stand, on the mainstream party's o". Source: Augustine, On ...
+  - tellable_as (sev 2, readability): 'Three hundred and ten of our bishops condemn a breakaway party in lang' -> 'Three hundred and ten of our bishops condemn a breakaway party. They say its people are sh'. Source: ...
+  - sources[0].locus (sev 3, locus): 'On Baptism, Against the Donatists I.1.2 and I.5.7; cic/texts/npnf104_a' -> 'Augustine, On Baptism, Against the Donatists I.1.2, I.5.7 and II.11.16'. Source: Leaks file path and line ...
+  - sources[1].locus (sev 3, locus): 'Answer to the Letters of Petilian, quoting the Bagai decree directly; ' -> 'Augustine, Answer to the Letters of Petilian I.10.11, quoting the Bagai decree directly'. Source: Leaks 'same ...
+
+- `don.story.conference-of-carthage-411`
+  - text (sev 3, other): 'the same six words - I gave the mandate and I signed' -> 'the same words - I gave the mandate and I signed'. Source: The English given is seven words; the Latin ('mandavi et subscripsi') is three. ...
+  - tellable_as (sev 2, overclaim): 'Two hundred and seventy-nine of our bishops meet two hundred and eight' -> 'Our bishops face the Catholic bishops before an imperial judge. They refuse the chairs he '. Source: The ...
+  - sources[0].locus (sev 3, locus): 'cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt -- read' -> "Gesta Collationis Carthaginiensis, as printed in Migne, Patrologia Latina 11: the editor's". Source: Locus is ...
+  - sources[1].locus (sev 3, locus): 'the acts of the 411 Conference themselves, reached through the Migne p' -> 'the acts of the 411 Conference themselves, as printed in Migne, Patrologia Latina 11'. Source: 'above' refers ...
+
+- `don.story.council-of-cirta`
+  - tellable_as (sev 2, readability): 'The bishops who would go on to make traditor status an absolute disqua' -> 'The bishops who later ruled that a traditor could never serve once faced that same questio'. Source: ...
+  - sources[1].locus (sev 3, locus): 'Against the Donatists I.14; cic/texts/optatus_against-the-donatists.tx' -> 'Optatus, Against the Donatists I.14'. Source: Leaks file path and line numbers. Passage verified at ...
+
+- `don.story.gesta-apud-zenophilum`
+  - text (sev 3, other): 'He wrote to the clergy and elders of Cirta in the same terms, and clos' -> 'He wrote to the clergy and elders of Cirta in the same terms, and warned them to see that '. Source: ...
+  - text (sev 2, overclaim): 'Every one of the letters ends the same way. Let no one know about it.' -> 'Several of the letters end the same way. Let no one know about it.'. Source: Purpurius's two letters (~6200-6220) do ...
+  - text (sev 1, overclaim): 'Two witnesses, on opposite sides of the schism and decades apart, desc' -> 'Augustine was drawing on the Acts of this same inquiry, so his letter shows that the recor'. Source: Augustine, ...
+  - tellable_as (sev 2, overclaim): 'A Roman official puts named witnesses on oath in 320 and asks where fo' -> 'In 320 a Roman official hears a case against Silvanus, bishop of Cirta. A witness agrees t'. Source: The ...
+  - sources[0].locus (sev 3, locus): 'Gesta apud Zenophilum (320); cic/texts/optatus_against-the-donatists.t' -> "Gesta apud Zenophilum (320), in the appendix to Optatus's Against the Donatists". Source: Leaks file path, ...
+  - sources[1].locus (sev 3, locus): 'Letter XLIII (397); cic/texts/npnf101_augustine-confessions-letters.xm' -> 'Augustine, Letter 43 (397), section 17'. Source: Leaks file path and line numbers.
+
+- `don.story.lucilla-affair`
+  - text (sev 2, source-drift): 'Before there was a schism there was a rebuke, delivered in public, to ' -> 'Before there was a schism there was a rebuke, as Optatus tells it, to a woman who did not '. Source: Optatus I.16 ...
+  - text (sev 2, source-drift): 'The archdeacon Caecilian rebuked her for it - the man had not yet even' -> 'The archdeacon Caecilian rebuked her for it. The dead man had not yet been formally acknow'. Source: Optatus I.16: ...
+  - text (sev 2, source-drift): 'Around the same time, persecution reached Carthage again. A deacon nam' -> 'Around the same time, persecution broke over Carthage. A deacon named Felix went into hidi'. Source: Optatus I.17 ...
+  - text (sev 3, source-drift): 'At a crowded assembly in the Carthage basilica, Caecilian stood and de' -> 'At a crowded assembly in the Carthage basilica, Caecilian demanded that his accusers step '. Source: Optatus I.19 ...
+  - tellable_as (sev 2, readability): "A wealthy woman is publicly rebuked for kissing a martyr's bone before" -> "A rich woman is rebuked for kissing a martyr's bone before communion. Years later the man ". Source: ...
+  - sources[0].locus (sev 3, locus): 'Against the Donatists I.16-20; cic/texts/optatus_against-the-donatists' -> 'Optatus, Against the Donatists I.16-20'. Source: Leaks file path and line numbers.
+
+- `don.story.lucilla-consecration-dispute`
+  - text (sev 2, source-drift): 'Before there was a schism, there was a rebuke, delivered in public, to' -> 'Before there was a schism, there was a rebuke, as Optatus tells it, to a woman who did not'. Source: Same as ...
+  - text (sev 2, source-drift): 'rebuked her for it -- the man had not yet even been formally acknowled' -> 'rebuked her for it. The dead man had not yet been formally acknowledged as a martyr, Optat'. Source: Optatus I.16: ...
+  - text (sev 2, source-drift): 'Around the same time, persecution reached Carthage again. A deacon nam' -> 'Around the same time, persecution broke over Carthage. A deacon named Felix went into hidi'. Source: Optatus I.17: ...
+  - tellable_as (sev 2, overclaim): 'The rebuke, the mishandled treasury, and the rival consecration that a' -> 'As Optatus tells it, a rebuke, a lost treasury and a rival bishop began the schism.'. Source: 'that actually ...
+  - sources[0].locus (sev 3, locus): 'Book I, chapters 16-20; cic/texts/optatus_against-the-donatists.txt, l' -> 'Optatus, Against the Donatists I.16-20'. Source: Leaks file path and line numbers.
+
+- `don.story.macrobius-letter-isaac-maximianus`
+  - text (sev 2, source-drift): 'Macrobius wrote to his own congregation at Carthage as their bishop, i' -> 'Macrobius, a bishop of ours, wrote to the people of Carthage to tell them what had happene'. Source: ...
+  - text (sev 3, rendering): 'wine in his cup seemed to take the shape of a ring' -> 'wine in his cup seemed to take the shape of a crown'. Source: Latin: 'corona descendens intra calicis oras infudit' (pl8.txt ~1425). ...
+  - text (sev 2, rendering): 'naming them traditores and telling them to come and see what their so-' -> "naming them traditores and telling them to come and be cured of their madness of 'unity'.". Source: Latin (pl8.txt ...
+  - text (sev 1, source-drift): 'He did not survive the beating.' -> 'Both men were condemned to exile and shut in prison, and there Isaac died.'. Source: pl8.txt ~1645-1660: 'ambos judex pari sorte conjungens ad exilium ...
+  - text (sev 1, contradiction): 'who in the dream struck out one of his eyes' -> 'whose eye he struck out in the dream'. Source: pl8.txt ~1684-1690: the emperor threatens to put out Maximianus's eye; 'Ipse quoque oculum se ...
+  - text (sev 2, source-drift): 'who took them and buried them with the same rites and the same joy the' -> 'who received them with embraces and joy and gave them a proper burial.'. Source: pl8.txt ~1862-1866: 'cum ...
+  - text (sev 2, source-drift): 'Macrobius closes his letter by turning to his own congregation directl' -> 'Macrobius closes his letter by turning to his readers directly. The two martyrs, he tells '. Source: pl8.txt ...
+  - tellable_as (sev 3, readability): "Macrobius's own letter to his Carthage congregation, telling them what" -> 'A bishop named Macrobius writes to the people of Carthage. He tells them how two of their '. Source: ...
+  - sources[0].locus (sev 3, locus): 'the whole letter, preserved twice in the vendored file from two source' -> 'Macrobius, letter on the passion of Isaac and Maximianus, in Monumenta Vetera ad Donatista'. Source: Leaks ...
+
+- `don.story.macrobius-letter`
+  - text (sev 2, source-drift): 'Macrobius wrote to his own congregation at Carthage as their bishop, i' -> 'Macrobius, a bishop of ours, wrote to the people of Carthage to tell them what had been do'. Source: Same evidence ...
+  - text (sev 3, rendering): 'the wine in his cup seemed to take the shape of a ring' -> 'the wine in his cup seemed to take the shape of a crown'. Source: Latin 'corona' (pl8.txt ~1425): crown or wreath.
+  - text (sev 1, source-drift): 'He did not survive the beating.' -> 'Both men were condemned to exile and shut in prison, and there Isaac died.'. Source: pl8.txt ~1645-1660: 'ambos judex pari sorte conjungens ad exilium ...
+  - text (sev 1, contradiction): 'who in the dream struck out one of his eyes' -> 'whose eye he struck out in the dream'. Source: pl8.txt ~1684-1690 and ~1750: 'oculum violenter eliciens, viduata facie sedem luminis ...
+  - text (sev 2, source-drift): 'who took them and buried them with the same rites and the same joy the' -> 'who received them with embraces and joy and gave them a proper burial.'. Source: pl8.txt ~1862-1866: 'cum ...
+  - text (sev 2, source-drift): 'Macrobius closes by turning to his congregation directly: what happene' -> 'Macrobius closes by turning to his readers directly. The two martyrs, he tells them, are w'. Source: pl8.txt ...
+  - tellable_as (sev 2, source-drift): 'A bishop writes to his own congregation about two of their number tort' -> 'A bishop writes to the people of Carthage about two of their number, Isaac and Maximianus.'. Source: ...
+  - sources[0].locus (sev 3, locus): 'cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 1367-2609' -> 'Macrobius, letter on the passion of Isaac and Maximianus, in Monumenta Vetera ad Donatista'. Source: Leaks ...
+
+- `don.story.passio-donati-sermon`
+  - text (sev 2, source-drift): 'with the bishop Caecilian and a tribune named Marcellinus standing beh' -> 'with a tribune named Marcellinus. The sermon says the bishop Caecilian pressed them on.'. Source: pl8.txt sermon ...
+  - text (sev 2, source-drift): 'while they knelt at prayer with their eyes closed, trusting the ground' -> 'with their hands stretched out to the Lord and their eyes closed.'. Source: Sermon ch. VI: 'Manus contra innocuas ...
+  - text (sev 2, source-drift): "They were buried where they fell, within the building's own walls, bec" -> "Many bodies were buried within the building's own walls.". Source: Sermon ch. VIII: 'intra cujus parietes et ...
+  - tellable_as (sev 3, readability): 'Every twelfth of March we read aloud the account of a day soldiers too' -> 'Every twelfth of March we read aloud the story of a day when soldiers took a basilica at C'. Source: ...
+  - sources[0].locus (sev 3, locus): 'cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 88-664 (t' -> 'The sermon on the passion of Donatus and Advocatus, the whole text, in Monumenta Vetera ad'. Source: Leaks ...
+
+- `don.story.passio-marculi`
+  - text (sev 1, contradiction): "ten bishops were sent either to persuade Marculus's own community to s" -> 'ten of our bishops were sent to Macarius, either to turn him back from his crime or, as th'. Source: pl8.txt ...
+  - text (sev 2, source-drift): 'and that a light settled over the place afterward, bright enough that ' -> 'and that a bright cloud covered his body, with flashes of light that showed the brethren w'. Source: pl8.txt ...
+  - tellable_as (sev 2, source-drift): 'Marculus is shown a cup, a crown and a palm four days before he is thr' -> "On the last night of four days' fasting, Marculus is shown a cup, a crown and a palm. Befo". Source: ...
+  - sources[0].locus (sev 3, locus): 'cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 664-1359 ' -> 'Passio Marculi, the whole text, in Monumenta Vetera ad Donatistarum historiam pertinentia '. Source: Leaks ...
+  - sources[1].locus (sev 3, locus): 'cic/texts/optatus_against-the-donatists.txt, lines 2064-2096 - the arg' -> 'Optatus, Against the Donatists III.6, the argument against the alleged Donatist martyrs'. Source: Leaks file ...
+
+- `don.story.tyconius-condemnation`
+  - text (sev 1, overclaim): ' He simply remained, for whatever years he had left, the head of a sch' -> ''. Source: Augustine, Against the Letter of Parmenian I.1 says only that Parmenian wrote a letter of rebuke and that ...
+  - tellable_as (sev 3, readability): 'A man argues from Scripture that the church is spread through the whol' -> 'A man argues from Scripture that the church spreads across the whole world. His own bishop'. Source: ...
+  - sources[0].locus (sev 3, locus): 'Contra Epistulam Parmeniani I.1; cic/texts/augustini_scripta-contra-do' -> 'Augustine, Against the Letter of Parmenian I.1'. Source: Leaks file path and line numbers.
+  - sources[1].locus (sev 3, locus): 'cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.t' -> "Monceaux, Histoire litteraire de l'Afrique chretienne, vol. 5, the chapter on Tyconius: th". Source: Leaks ...
+
+- `don.demo.bagai-unresolved`
+  - exchange[1].text (sev 2, tense): 'We say a returning cleric must be washed and ordained again -- without' -> 'We said that a returning cleric must be washed and ordained again, without exception, and '. Source: ...
+  - exchange[3].text (sev 2, overclaim): 'In 393 a deacon named Maximian set himself up as a rival primate, the ' -> 'In 393 a deacon named Maximian was made a rival primate, the same act our own founders onc'. Source: ...
+
+- `don.demo.baptism-threshold`
+  - exchange[1].text (sev 2, tense): 'Every soul who comes to us from the rival church crosses through one s' -> 'Everyone who came to us from the rival church crossed through one act, the washing. It was'. Source: The ...
+  - exchange[3].text (sev 2, tense): "We do not set one man's day apart from every other. What we give you i" -> "We did not set one man's day apart from every other. What we gave you was what everyone cr". Source: Present ...
+
+- `don.demo.undiscovered-traditor`
+  - exchange[1].text (sev 1, source-drift): 'It has happened among us, in the sharpest form there is: a bishop disc' -> 'It happened among us. In 320 a Roman official found that Silvanus, our bishop at Cirta, ha'. Source: ...
+  - exchange[3].text (sev 1, contradiction): 'Yes -- not as a judgment on them, but as the same washing we would giv' -> 'Our rule pointed that way. No text of ours says what we did about the people he had baptiz'. Source: ...
+
+- `don.demo.did-the-empire-change-you`
+  - exchange[1].text (sev 2, tell): 'That is not a charge we answer. That is our case, and we are the party' -> 'We do not answer that as a charge. It is our case, and we were the party that said yes.'. Source: 'not a ...
+  - exchange[1].text (sev 2, source-drift): 'They sent soldiers into our buildings in daylight, under orders, to en' -> 'They sent soldiers into our buildings, under orders, to enforce one church. We read the ac'. Source: ...
+  - exchange[1].text (sev 2, tell): 'and we refused both. Not because a council cannot rule. Because a cour' -> 'and we refused both, because a court convened, staffed and enforced by a power that had al'. Source: 'Not ...
+
+- `don.demo.death-wish`
+  - exchange[1].text (sev 2, tell): 'While he fasted there he was shown a cup, a crown and a palm — and the' -> 'While he fasted there he was shown a cup, a crown and a palm, and the account reads them a'. Source: Coined ...
+  - exchange[1].text (sev 1, contradiction): 'And the letter one of our bishops wrote to his own congregation, about' -> 'And the letter one of our bishops wrote to the people of Carthage, about two of their numb'. Source: ...
+
+- `don.demo.mostly-legend`
+  - exchange[1].text (sev 1, source-drift): 'There is a court transcript in which a notary confesses, under threat ' -> 'There is a court transcript in which a notary, under threat of torture, admits that he add'. Source: ...
+  - exchange[1].text (sev 3, tell): ' We know our own shout better than we know the room we shouted it in.' -> ''. Source: Quotable coined closing line.
+
+- `don.demo.never-settled`
+  - exchange[1].text (sev 1, contradiction): 'A general came with soldiers to see it done.' -> 'One of our own bishops, Optatus Gildonianus, came with soldiers to see it done.'. Source: Augustine, Answer to Petilian ...
+  - exchange[1].text (sev 2, source-drift): 'found that test unusable on themselves within the hour.' -> 'found that test unusable on themselves.'. Source: Optatus I.14 gives no time frame; 'within the hour' is invented.
+  - exchange[1].text (sev 2, overclaim): 'Every one of those letters ends the same way. Let no one learn of it.' -> 'Several of those letters end the same way. Let no one learn of it.'. Source: Gesta apud Zenophilum: ...
+
+- `don.demo.power-against-dissenters`
+  - exchange[1].text (sev 1, contradiction): 'a general came with soldiers and enforced the reconciliation.' -> 'one of our own bishops, Optatus Gildonianus, came with soldiers and enforced the reconcili'. Source: Same as ...
+  - exchange[1].text (sev 2, overclaim): 'In the year 320 an official put our own people on oath about where fou' -> 'In the year 320 an official heard sworn witnesses on a charge against one of our bishops, '. Source: ...
+  - exchange[1].text (sev 2, overclaim): 'Every one of those letters ends the same way. Let no one learn of it. ' -> 'Several of those letters end the same way. Let no one learn of it. We were the church that'. Source: ...
+
+- `don.demo.someone-like-me`
+  - exchange[1].text (sev 2, contradiction): "our own bishop's own words, and the whole of our doctrine in one line." -> "our own bishop's own words, and our case in one line.". Source: don.dw.the-emperor-and-the-church and ...
+  - exchange[1].text (sev 2, overclaim): 'Then the same council took two of those same condemned bishops back in' -> 'Afterwards our party took two of those same condemned bishops back into full office, witho'. Source: ...
+
+- `don.demo.woman-authority`
+  - exchange[1].text (sev 2, source-drift): 'an archdeacon rebuked her for it in public, and she left full of wrath' -> 'an archdeacon rebuked her for it, and she left full of wrath.'. Source: Optatus I.16 ...
+  - exchange[1].text (sev 2, tell): 'We can point you to no office a woman held among us, no council seat, ' -> 'We can point you to no office a woman held among us, no council seat, no ordination. A hos'. Source: 'Not ...
+
+- `don.demo.came-to-believe`
+  - exchange[1].text (sev 3, tell): ' Whatever you have done, it was never your record that was on trial at' -> ''. Source: Quotable coined closing pair; the point ('we examined the hand') is already made two sentences ...
+
+- `don.demo.bagai-unresolved`
+  - sources[0].locus (sev 3, locus): "the whole episode -- the 394 decree's own language, and the reception " -> "the 394 decree's own language, and the later reception of two condemned bishops without re". Source: Locus ...
+  - sources[1].locus (sev 3, locus): "T2 itself, used directly for the first turn's own statement of the unr" -> 'the tension between the purity rule and institutional reception'. Source: Locus carries build-process wording ...
+
+- `don.demo.baptism-threshold`
+  - sources[0].locus (sev 3, locus): "the enacted threshold rite itself, used directly for this exchange's o" -> 'the enacted threshold rite'. Source: Locus carries build-process wording ('used directly for this exchange's ...
+  - sources[1].locus (sev 3, locus): "the traditor/clean-hand doctrine grounding why rebaptism is 'the first" -> "the traditor/clean-hand doctrine grounding why rebaptism is 'the first true baptism'". Source: Locus carries ...
+
+- `don.demo.undiscovered-traditor`
+  - sources[0].locus (sev 3, locus): 'the whole verbatim proposition, used directly, applied to the undiscov' -> "Petilian's clause on the conscience of the giver". Source: Locus carries build-process wording ('used ...
+  - sources[1].locus (sev 3, locus): "G1, the richest gravity per Phase Five SS1 row 15's own Notes column, " -> 'the purity doctrine and its practical consequence'. Source: Locus carries build-process wording ('used ...
+
+- `don.ambient.bagai-gathering-scale`
+  - detail [source-drift]: No cited source compares the 394 Bagai council with how many bishops towns saw in a generation; Augustine gives only the number 310. Whole field also fails the readability gate (FK 15.9, FRE 52.0).
+
+- `don.ambient.deo-laudes-as-object`
+  - detail [source-drift]: Not derivable: "plain lettering, on plain stone, still legible today", and "set there long before any historian went looking". CIL VIII (cil8-supplementum-numidiae_cagnat-schmidt1894.txt): 20482 ...
+
+- `don.ambient.doubled-towns`
+  - detail [source-drift]: Invented detail: "within sight of one another ... the same street", "two processions", and the contrast "where most towns elsewhere had one". The cited source (Optatus: two chairs, altar against ...
+
+- `don.contested.bishop-count-411-conference`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.contested.church-of-the-martyrs`
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[3].locus [source-drift]: Leaks "corpus" and attributes the editor's note (admonitio) to the sermon; Mabillon wrote the admonitio. Sermon text IX: "anniversalis dies religiosa devotione ... celebratur".
+
+- `don.contested.circumcellion-character`
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[2].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.contested.cirta-reserved-to-the-lord`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.contested.parallel-hierarchy`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.contested.rebaptism-boundary`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[5].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - concedes [contradiction]: Window closes 439; Gregory's letters are 592 to 594, about a century and a half later (world_core horizon: "roughly a further century and a half"; force.vandal-capture-of-carthage same). Also ...
+  - body [overclaim]: Only the 592 letter is Numidian; the two 594 letters speak of Africa (Turchi ed., IV.32 and IV.35).
+
+- `don.contested.refusal-of-imperial-legitimacy`
+  - sources[3].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.contested.rigor-against-reception`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[2].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - held_against[2] [source-drift]: Optatus Gildonianus was a Donatist bishop, not a general: Augustine, Contra Cresconium (npnf104): "Optatus Gildonianus advancing with a military force"; translator's note: "Optatus, a ...
+
+- `don.core.donatism`
+  - sources[6].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - horizon [overclaim]: Turchi ed. of Gregory: ep. II.46 (592, Columbus, bishop of Numidia) orders an inquiry into a bishop accused of letting a Donatist bishop be made, and notes rebaptism; ep. IV.32 (594, Pantaleon) ...
+
+- `don.craft.fidelis-voice`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - flavor_notes[4].note [overclaim]: Two-bishop reading is Monceaux's; Mabillon glosses a single Honoratus from Advocata (don.source.passio-donati-sermon, Contested). The voice would speak this flat. The sermon's own text ...
+
+- `don.force.caecilianist-victory-selects-survivors`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[3].locus [overclaim]: Leaks build material ("Doc_01") and calls the Liber genealogus part of the independently surviving Donatist remainder. Source record don.source.liber-genealogus: "Donatist provenance is ...
+  - manifestations[2] [overclaim]: don.source.liber-genealogus: "Donatist provenance is ASSUMED ... not asserted by the text itself"; its content "has not been read for any specific Donatism claim". The record's own ...
+
+- `don.force.conference-of-411-verdict`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.force.conference-of-carthage-verdict`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[2].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.force.cyprianic-rigorist-inheritance`
+  - sources[3].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.force.diocletianic-persecution-traditio-demand`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.force.institutional-attrition`
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.force.martyr-cult-commemoration`
+  - sources[0].locus [source-drift]: The admonitio is Mabillon's editorial preface, not the sermon, so "the practice named in its own words" is wrong. Sermon IX: "anniversalis dies religiosa devotione non immerito ...
+  - manifestations[1] [source-drift]: The admonitio is Mabillon's editorial preface, not part of the sermon; the phrase "in solemni et anniversaria commemoratione" is Mabillon's. The sermon itself says "anniversalis dies ...
+
+- `don.force.martyr-cult-confessor-memory`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.force.maximianist-fracture`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[2].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.force.sustained-purity-rebaptism-practice`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.force.transmission-caecilianist-victory`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[2].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[3].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - manifestations[0] [contradiction]: Self-contradictory: it names a mechanism and in the same breath says the mechanism is not resolved. Sibling don.force.caecilianist-victory-selects-survivors (divergence_note and body): ...
+
+- `don.force.transmission-hostile-manuscript-tradition`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.force.vandal-capture-of-carthage`
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.gravity.church-of-the-martyrs`
+  - sources[0].locus [source-drift]: Leaks "vendored corpus" and attributes the editor's note to the sermon. The admonitio is Mabillon's preface (monumenta-vetera-donatistarum_migne-pl8.txt, "IN SEQUENTEM SERMONEM ...
+  - description [source-drift]: Same: the admonitio is Mabillon's preface. The sermon itself (IX): "anniversalis dies religiosa devotione non immerito celebratur".
+  - manifestations[0] [source-drift]: Same misattribution of Mabillon's admonitio to the sermon.
+  - description [overclaim]: don.source.passio-donati-sermon (formation_confidence Contested): "TWO VENDORED AUTHORITIES GIVE DIFFERENT ACCOUNTS AND NEITHER IS ADOPTED"; Mabillon dates the persecution to circa 340 ...
+  - description [overclaim]: Sermon VII names Honoratus, bishop of Sicilibba, wounded; XII has "memoratus episcopus ex Abvocatensi oppido" killed. Mabillon's note glosses a single Honoratus who came from Advocata; Monceaux ...
+
+- `don.gravity.martyr-cult-identity`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[2].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[3].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[4].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - description [overclaim]: don.source.passio-donati-sermon (formation_confidence Contested): "TWO VENDORED AUTHORITIES GIVE DIFFERENT ACCOUNTS AND NEITHER IS ADOPTED"; Mabillon dates the persecution to circa 340 ...
+  - description [overclaim]: Same as church-of-the-martyrs: the two-bishop reading is Monceaux's; Mabillon glosses one Honoratus.
+  - manifestations[1] [source-drift]: Passio Marculi (monumenta-vetera-donatistarum_migne-pl8.txt): the vision comes in the night before the Sunday of his death, while he is held at the fort of Nova Petra "near the ...
+
+- `don.gravity.ministerial-purity`
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.gravity.parallel-hierarchy`
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.gravity.parallel-institutional-hierarchy`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[2].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.gravity.principled-refusal-vs-pragmatic-recourse`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[2].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.gravity.purity-rigor-vs-institutional-reception`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[2].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.gravity.rebaptism-boundary`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[4].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[3].locus [overclaim]: Leaks "Registry row 54", and puts the 594 letters in Numidia. Gregory ep. IV.32 (to Pantaleon, 594): "In illis partibus ... Donatistarum crevit audacia" (Africa, no Numidia). Ep. IV.35 ...
+  - description [overclaim]: Only ep. II.46 (592, to Columbus, bishop of Numidia) concerns Numidia. Ep. IV.32 (to Pantaleon) and IV.35 (to the bishops of Africa), both 594, say "in illis partibus" of Africa.
+  - confidence.divergence_note [overclaim]: Pantaleon letter (594) concerns Africa generally; only the 592 Columbus letter is Numidian.
+
+- `don.gravity.rebaptism-boundary-marking`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[2].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[3].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[4].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - manifestations[2] [source-drift]: Ep. II.46: the inquiry is into Maximianus, bishop of Pudentiana, said to have been bribed "Donatistarum episcopum nova licentia fieri permisisse" (to permit a Donatist bishop). ...
+
+- `don.gravity.refusal-of-imperial-legitimacy`
+  - sources[3].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.gravity.rigor-against-reception`
+  - sources[0].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[1].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+  - sources[2].locus [locus]: Locus leaks build material (registry row, file path, line number, "vendored" or a pointer to the build record) and would show on a participant source card.
+
+- `don.gravity.rebaptism-boundary manifestations[5]: applied by hand (colon-free wording), same evidence as the Gregory finding.`
+
+**Changes after the review rounds.**
+
+- After round 1:
+  - 1. don.story.gesta-apud-zenophilum, confidence.divergence_note: "independently corroborated ... no evident coordination" changed to "recalled ... by a second source ... which drew on the Acts of the same inquiry and so is not ...
+  - 2. don.dw.what-we-did-with-the-power-we-had, divergence_note: "the general who enforced it" -> "the bishop". Source: Optatus Gildonianus is a bishop (don.source.augustine-answer-to-petilian; Augustine, On Baptism).
+  - 3. don.dw.washed-for-the-first-time, divergence_note and Tyconius locus: "the man our own council condemned" -> "...is reported to have condemned". Source: Augustine c. ep. Parm. I.1 (`perhibent`).
+  - 4. Loci cleaned: demo.came-to-believe and demo.someone-like-me ("thin_topics:" replaced by plain statement), demo.woman-authority ("thin_topics:" removed), demo.mostly-legend ("thinness and cautions 1: Author Gravity" -> "our ...
+  - 5. don.demo.undiscovered-traditor exchange[3]: Cirta admission now attributed ("Optatus, who wrote against us, says ..."). Added source rows don.source.optatus-against-the-donatists (Book I, chs. 14, 19-20) and ...
+  - 6. don.demo.woman-authority exchange[1]: "She had a habit of kissing a martyr's bone" -> "It was said that she kissed a martyr's bone". Source: Optatus I.16, "It was said that she kissed a bone".
+  - 8. don.witness.boundary-is-doctrine and don.dw.the-word-catholic-and-no-door-today text: "A modern editor" -> "A seventeenth-century editor" (Mabillon, per don.source.passio-donati-sermon).
+  - 9. don.dw.what-belonging-cost text: "his own congregation at Carthage" -> "the church at Carthage" (pl8 heading: "Macrobius to the church at Carthage"); "We never wrote down" -> "No text of ours says"; 279 bishops marked "by one ...
+  - 10. don.dw.older-than-the-schism text: dropped "at Carthage" after "an earlier council" (Cyprian Epp. 71.4, 73.3 name Agrippinus and African/Numidian bishops, not a place).
+  - 11. don.demo.baptism-threshold exchange[3]: "What we gave you was" -> "What we can give you is"; "That was the day we could show you" -> "That is the day we can show you" (speaker's own present act).
+  - 12. don.dw.who-decides-a-disputed-case text: "We have no record of our own councils on its own terms" -> "No record of our own councils survives in our own keeping."
+  - 15a. don.figure.macrobius bridge_line: "to his own congregation ... tortured to death. ... the same might be asked of any of them" -> "to the church at Carthage ... put to death. ... the two were waiting for them, and ... they ...
+  - 15b. don.figure.maximianus-martyr body: closing turn corrected to readers urged to hurry after the two, who wait with arms stretched out from heaven (same passage).
+  - 15c. don.contested.ministerial-purity held_against and concedes: "the notary Ingentius ... forged the letter ... working for the accusing side" -> "a town councillor, Ingentius, ... added false lines to the letter"; the ...
+- After round 2:
+  - don.dw.who-jesus-was-among-us, text: "his own congregation" -> "the people of Carthage" (Macrobius letter ad plebem Carthaginis, Mabillon note, monumenta-vetera-donatistarum_migne-pl8 ~l.1500-1513). FK 7.73 / FRE 74.86.
+  - don.dw.written-by-our-opponents, text: notary confession/forged/our side -> "a town councillor admits ... added false lines" (Optatus Appendix, Acta Felicis: "I did add to this letter" l.5704; decurion l.5745); "his own ...
+  - don.dw.room-for-dissent, text and sources[1].locus: ring -> crown (Passio Isaac et Maximiani: corona descendens intra calicis oras, pl8 l.1463-1467). FK 6.78 / FRE 74.42.
+  - don.dw.what-belonging-cost, sources locus (Macrobius row): "his own congregation at Carthage" -> "the church at Carthage".
+  - don.demo.mostly-legend, sources locus: confessing/forged/working for our side -> "admitting ... added false lines" (Optatus l.5704, 5718-5735). Body: "forged letter and notary's confession" -> "lines added to the letter and ...
+  - don.demo.power-against-dissenters, sources locus: "general" -> "bishop" (Augustine, Contra Petilianum II.9: "Gildonianus Optatus incedens cum agmine militari", Petschenig edition l.25170). Body: "The general enforcing" -> "The ...
+  - don.gravity.martyr-cult-identity, description: restored "documented on grounds largely independent of"; "Three distinct texts, each voiced or written by Donatists, point to it. So do inscriptions cut in stone, with no literary ...
+  - don.core.donatism, horizon: "this communion's own heartland"; "best-known" on one line; "This communion's whole pattern"; "Donatus succeeded Majorinus from c. 313". To keep FRE >= 60 after the extra words, "roughly a further ...
+  - NB2 don.dw.what-we-did-with-the-power-we-had positions[3]; don.quote.the-shores-are-covered modern_lens_note: "a general's troops" -> "a bishop's troops" (Contra Petilianum II.9 as above; Optatus Gildonianus a Donatist bishop of ...
+  - NB2 don.story.macrobius-letter-isaac-maximianus, modern_contrast: closing now "the two are waiting for them and that they should hurry after them" (pl8 l.1918-1919 Tendunt ad vos e caelo jam brachia ... Properate).
+  - NB2 don.story.macrobius-letter, use_note.means: "tortured to death" -> "tortured and put to death".
+  - NB2 don.story.acta-purgationis-felicis, use_note.means: "confessing ... forged the letter for the Donatists" -> "admitting ... added false lines to the letter" (Optatus l.5704).
+  - NB2 don.source.passio-isaac-et-maximiani, body: "to his own congregation" -> "to the church at Carthage".
+  - NB3 don.term.liber-regularum: senses.informational "by a Donatist whom Monceaux calls a layman" (Monceaux t.5, l.8426 "écrivain laïque", l.12021); use_note.means "a Donatist layman on Monceaux's account ... his side is reported ...
+  - NB4 don.contested.ministerial-purity, held_against[0]: "which he denied" -> "and he denied having been to Numidia" (Optatus l.5718-5726).
+- Round 1, items B1 to B9 of part A and B1 to B3 of part B were fixed in the records before round 2: the stray comma in `don.dw.the-books-they-came-for`; the Macrobius closing in `don.dw.not-a-death-wish`, `don.dw.hypocrites-and-those-who-left`, `don.dw.what-belonging-cost`, `don.dw.who-jesus-was-among-us` and `don.demo.death-wish`; "Several of those letters" in `don.dw.what-we-did-with-the-power-we-had` and `don.dw.what-we-never-settled`; Marculus's vision on the last night, and the four days at Novapetra, in `don.dw.who-jesus-was-among-us`, `don.story.passio-marculi`; Ingentius as a town councillor in `don.story.acta-purgationis-felicis` and `don.demo.mostly-legend`; the silver record kept at "gave four hundred pieces of money" with sworn witnesses, and `positions[0]` and the locus left at HEAD; the Purpurius bridge line; the source of `don.figure.axido-and-fasir`; and `don.ambient.doubled-towns`.
+- Round 1 item 8 ("A seventeenth-century editor" in `don.witness.boundary-is-doctrine` and `don.dw.the-word-catholic-and-no-door-today`) was reverted to "A modern editor" because the `m1:horizon` gate rejects a spoken field that names a later century. The gravity `don.gravity.rebaptism-boundary` description says "the 590s" for the same reason.
+- Round 2, items R2-B1 to R2-B6 were fixed (Macrobius addressee, `don.dw.written-by-our-opponents`, crown for ring in `don.dw.room-for-dissent`, three source notes, the martyr-cult-identity caveat scope, the world_core horizon), and non-blocking items 2, 3 and 4. The troops line now reads "troops that came with a bishop" (Petschenig edition: Gildonianus Optatus incedens cum agmine militari).
+
+**Readability.** Every spoken field changed in this pass grades FK 10 or below and FRE 60 or above on the whole field. Story `text` is excluded from grading by the gate itself (`_READABILITY_EXCLUDED_FIELDS`). Four changed build fields that failed the gate after a factual correction (`description` in `don.gravity.church-of-the-martyrs`, `don.gravity.martyr-cult-identity` and `don.gravity.rebaptism-boundary`, and `horizon` in `don.core.donatism`) were rewritten in plain short sentences with every fact, hedge and attribution kept (round 3 compared each with HEAD). No waiver covers a changed field. The unchanged build fields that already failed stay under the `m1:readability/don` waiver.
+
+**`use_note.means` corrections** (scope added by the coordinating session, relaying the project lead's ruling of 13 October: `engine/m4/evidence.py` puts `means` into the evidence block the voice reads, so a stale one can carry a claim this pass corrected). All 98 `means` lines in dw, story, quote, term, gravity, contested_claim and honest_limit were compared with the corrected spoken fields and sources; 9 were changed, 89 already agreed. `not_for` and `years` were not touched. Not reviewed in a fourth round; the three review rounds were spent before this scope arrived.
+
+- `don.story.macrobius-letter`
+  - old: Macrobius writes to the Carthage congregation about two men tortured and put to death, whose bodies the proconsul sank in the sea, and the sea gave them back.
+  - new: Macrobius writes to the church at Carthage about Isaac, who died in prison, and Maximianus, whom the proconsul sank alive, and the sea gave both bodies back.
+  - why: corrected text says Isaac died in prison and Maximianus was sunk alive (not both tortured to death).
+- `don.story.gesta-apud-zenophilum`
+  - old: In 320 sworn witnesses before Zenophilus were asked where four hundred pieces of silver went, and answers named the bishop of Cirta a betrayer.
+  - new: In 320 witnesses before Zenophilus were asked where Lucilla's four hundred pieces of money went, and answers named the bishop of Cirta a betrayer.
+  - why: Optatus appendix (Gesta apud Zenophilum) says "quadringentis follibus" (pieces of money, not silver), and the witnesses were asked what became of Lucilla's gift. Note (out of scope): the story text, tellable_as and dw.what-we-did-with-the-power-we-had text still say "pieces of silver".
+- `don.story.council-of-cirta`
+  - old: At Cirta around 305, bishops ...
+  - new: At Cirta, bishops ...
+  - why: the record leaves the date disputed (305, 307 or later); "around 305" was stronger than that.
+- `don.dw.room-for-dissent`
+  - old: ... Tyconius was cut off for dissenting from inside, ...
+  - new: ... Tyconius was reported condemned by a council of his own side for dissenting from inside, ...
+  - why: text and divergence_note: the condemnation is only reported (Augustine's "perhibent").
+- `don.quote.deo-laudes`
+  - old: ... was the acclamation cut in stone near Bagai that marked a gathering as Donatist rather than Catholic.
+  - new: ... was cut on two pillars near Bagai, and the editors call it the Donatist counterpart of the Catholic Deo gratias.
+  - why: divergence_note: stones give no context of use; only the CIL editors' note identifies it as the Donatist counterpart. "Marked a gathering" was invented function.
+- `don.term.liber-regularum`
+  - - old: Tyconius, a Donatist layman on Monceaux's account, wrote seven rules for reading scripture, the communion's one original interpretive work; his side is reported to have condemned him and he gathered few followers.
+  - - new: Tyconius, a Donatist, wrote seven rules for reading scripture, the one work of interpretation of the communion's that survives; his side is reported to have condemned him, and no following is attested.
+  - - why: Source drift: 'layman' is Monceaux's label while Doc_01 SS4 leaves his standing open; 'gathered few followers' contradicts the record ('no one is known to have followed him', 'no following is attested'); condemnation kept as reported (Augustine's perhibent).
+- `don.term.catholicus`
+  - - old: a Donatist preacher reportedly turned the word back on them.
+  - - new: a Donatist preacher is reported, by a modern editor, to have turned the word back on them.
+  - - why: Record's evidential/divergence_note: the pun reaches us through Mabillon's annotation of the Passio Donati sermon, not the sermon's own Latin.
+- `don.term.martyr-martyrdom`
+  - - old: Donatists' best-known martyrs died for the true faith at the hands of imperial troops sent at the rival church's urging, which never granted them the title.
+  - - new: Donatists' best-known martyrs died for the true faith in the repression of 347-348, enforced by imperial troops sent at the rival church's urging; that church did not grant them the title.
+  - - why: 'at the hands of troops' overstated for Isaac (died in prison) and Maximianus (sunk alive); 'never' stronger than plain_meaning ('did not grant'). Now matches senses.informational (Paul and Macarius, 347-348, 'died in the same repression').
+- `don.limit.theology-beyond-tyconius`
+  - - old: Beyond Tyconius, whom his own council condemned, the Donatists built no school or settled method of scriptural interpretation and argued well only one question.
+  - - new: Beyond Tyconius, whom a council of his own side is reported to have condemned, our record shows no school or settled method of scriptural interpretation; what we argued at length was one question.
+  - - why: Condemnation stated flatly ('his own council condemned'); statement says 'It is reported that a council of ours condemned him'. 'Argued well' is an evaluative claim no source supports; also 'built no school' asserted absence as fact where the limit is about what the record shows.
+
+**Citations.** `citation:` added to all 76 source records from their own author, work and edition words; the `m9:source-citation/don` waiver is deleted.
+
+**Gates.** `engine.m9.cli check`, both staleness checks, `tools/check_paths.py`, `tools/check_live_commentary.py --enforce`, `engine.m10.cli records don`, `engine.m10.cli regate don --base origin/main`, the m9, m1 and `test_citation_cards` tests: pass. Waivers: `m1:readability/don` tightened from 320 to 232; `m9:source-citation/don` (76) deleted. Package rebuilt after the last record edit and the site JSON recompiled; the final pin is recorded in OG-36.
+
+Status: CLOSED for the fixes listed. Items found and not fixed are in OG-33.
+
+### OG-33. Record wording pass: problems found and not fixed, 2026-10-13.
+
+Real problems the audit and the three review rounds found outside the pass's allowed change scope (build fields, record bodies, duplicate records, surface documents). None was fixed in OG-32. Some were corrected in a later round of that pass, so the build thread re-reads each against the record before acting. Each entry names the record and field.
+
+- `don.dw.becoming-one-of-us` positions[5]: 'a dissenting interpreter was cut off permanently' drops the reported/hedged status of Tyconius's condemnation (story perhibent); build field, log only.
+- `don.dw.hypocrites-and-those-who-left` positions[1]: 'one man who never left at all was cut off permanently' - same unhedged Tyconius claim; build field.
+- `don.dw.room-for-dissent` positions[1] and use_note.means: 'was cut off without ever being received back' and 'Tyconius was cut off' omit the 'reported' hedge the record's own tensions keep.
+- `don.story.gesta-apud-zenophilum` text: Says 'four hundred pieces of silver'; vendored Gesta says 'pieces of money' (folles). Same wording in don.figure.lucilla locus, don.story.gesta-apud-zenophilum, don.demo.woman-authority, don.demo.power-against-dissenters, dw what-we-did-with-the-power-we-had and washed-for-the-first-time (other batches).
+- `don.story.passio-donati-sermon` text: 'knelt at prayer with their eyes closed': no kneeling in the Latin. Same 'knelt/kneel' wording in dw two-churches-in-one-town, demo did-the-empire-change-you (other batches), and the-emperor-and-the-church text in this batch needs the same fix: 'where they knelt with their eyes shut' -> 'with their hands stretched out to the Lord and their eyes shut'.
+- `various` sources[].locus naming don.core.donatism: Loci such as 'thin_topics: ... have not been read into this build' and 'formation_logic and cautions 4' cite build structure; check whether core.donatism cards reach participants.
+- `don.dw.the-books-they-came-for` text: No defect beyond the one finding; 'read the account of each death aloud again every year' generalises from one attested sermon (anniversaria-commemoratio documents the practice via Mabillon and Monceaux only).
+- `don.dw.what-we-did-with-the-power-we-had` positions[1]; confidence.divergence_note: Both call the enforcer of the Bagai reception 'a general' / 'the general'. Augustine (npnf104 line 11513 endnote, line 15514) shows Optatus Gildonianus was a Donatist bishop of Thamogade who used the troops of Gildo, Count of Africa. Text fixes above already say 'one of our own bishops'; the build fields should follow.
+- `don.story.bagai-reconciliation` text: Third paragraph says 'A general named Optatus Gildonianus enforced the reconciliation with military force', contradicting the record's own body note ('the Donatist bishop of Thamugadi who enforced the reconciliation with troops') and the source. Spoken story field, outside this batch; same error as the two dw texts fixed here.
+- `don.story.macrobius-letter` text (last paragraph), tellable_as-adjacent use_note, and don.dw.what-belonging-cost positions[1] / use_note: The story and the dw build fields say Macrobius closed by telling the congregation the same may be asked of any of them. The vendored last paragraph (Migne PL 8, 'Ad vos nunc, fratres ... Properate graviter, concurrite pertinaciter') exhorts them to hurry after the two. Fixed in the two dw texts and one locus here; the story and the build fields still carry the weaker paraphrase.
+- `don.dw.what-belonging-cost` positions[3]; confidence.divergence_note: 'fixed commemorative dates observed simultaneously in towns with no other contact' has no source; the only documented annual reading is the 12 March sermon (Contested). Text corrected; build field not.
+- `don.dw.two-churches-in-one-town` positions[3]: 'danger was a standing legal condition rather than a daily terror' asserts an inner experience the core says the record does not preserve; and 'standing' is only true from 405 (the core describes an oscillating state).
+- `don.dw.who-decides-a-disputed-case` positions[4]: 'the councils our bishops sat in decided who the true church was, never who Christ was' is stronger than tensions[1] allows (what else our councils decided cannot be recovered). Same for don.dw.what-we-argued-among-ourselves positions[2] ('Our councils ruled on standing, not on doctrine').
+- `don.witness.boundary-is-doctrine` confidence (Documented, divergence_note null); positions[1]: Confidence is Documented with no divergence note, but the pun is editor-mediated and the boundary-equals-doctrine reading is Doc_07's synthesis. positions[1] voices the pun unattributed. Also: the pun IS present in the vendored sermon (monumenta-vetera-donatistarum_migne-pl8.txt, chapter XI, about lines 648-651: 'ut eam vulgo dici fecisset catholicam, ubi impune committitur quicquid publico jure damnatur'), so the ...
+- `don.witness.one-formation-aim` positions[0..1], tensions[0]: Present tense for the community's own past throughout the build fields; positions[0] states the unity thesis in the we-voice although the divergence_note and use_note say it is the build's synthesis.
+- `don.witness.refusal-and-recourse` positions[0], tensions[0]: positions[0] says 'We hold it still' and opens in the present tense; tensions[0] ('Both are true at once, plainly stated') voices the self-description that the contested_claim record says is not attested. Also the 'principled refusal' frame is the build's (don.contested.refusal-against-recourse held_against[0]).
+- `don.quote.donatus-quid-est-imperatori` modern_lens_note: Says Donatus said it 'specifically to reject the emperor's own claim to arbitrate which church was the true one'. Optatus III.3 (optatus_against-the-donatists.txt lines 1900-1904) places it as a reaction to the emperor's almoners (Paul and Macarius) arriving with alms and the unity mission; nothing there is about arbitrating which church is true.
+- `don.dw.the-creed-we-shared` sources[2..5].locus: Not in this batch: the same '(line N)' leaks seen in don.dw.who-jesus-was-among-us (lines 665, 16579, 17835, 87341, 6768, 19321, 19626, 19635) are present here too.
+- `don.dw.the-word-catholic-and-no-door-today` positions[3]; tensions: positions[3] says our one dissenting interpreter 'was cut off and never received back' without Augustine's 'perhibent'; also don.term.liber-regularum/others per OG-31 'Not changed'.
+- `don.story.acta-purgationis-felicis` use_note.means / narrative_tier_justification / divergence_note: use_note.means says 'a notary confessing, under threatened torture, that he forged the letter for the Donatists'. The Acta has Ingentius admit only that he added to Caecilianus's letter out of grief over Maurus; the Donatist-agent charge is Apronianus's and Ingentius denies it. The tier justification's 'a forged-letter confession under threat of torture' and 'confession ... working for our side' framing needs the ...
+- `don.story.gesta-apud-zenophilum` confidence.divergence_note / narrative_tier_justification: Both call Augustine's Letter 43 an independent second primary source 'written on the opposing side decades later with no evident coordination'. Letter 43.17 cites the Acts in Zenophilus's possession, so it refers to the same transcript. Also the phrase 'puts named witnesses on oath ... asks where the money went' appears in don.dw.what-we-did-with-the-power-we-had (text) and don.demo.power-against-dissenters.
+- `don.story.bagai-reconciliation` absent_detail / confidence.divergence_note / retrieval: absent_detail says 'the same council that wrote those words received Felicianus and Praetextatus back'. Augustine says the Donatists 'afterwards received' them (Answer to Petilian I.10.11; On Baptism II.11.16). The same 'general' error (Optatus Gildonianus was a Donatist bishop) is in don.dw.what-we-never-settled, don.dw.what-we-did-with-the-power-we-had and don.dw.hypocrites-and-those-who-left ('suppressed with ...
+- `don.story.macrobius-letter` narrative_tier_justification / absent_detail / modern_contrast / use_note: Tier justification says Macrobius 'identifies himself as bishop to the specific congregation he addresses'; the letter itself only names the addressees as the people of Carthage and Mabillon's note calls him the Donatists' hidden bishop at Rome. absent_detail says the letter 'does not report what either man said in his own words at the end', but the letter reports Isaac's cry. modern_contrast ('a letter written to ...
+- `don.story.macrobius-letter-isaac-maximianus` record as a whole: Draft duplicate of don.story.macrobius-letter (same donstory003 source, same figure targets under different ids: don.figure.isaac-and-maximianus vs don.figure.isaac / don.figure.maximianus-martyr; source id don.source.passio-isaac-et-maximiani is shared). Its text carries the same errors. Needs a decision on whether to retire it (a design question for Mark, not an edit here).
+- `don.story.lucilla-consecration-dispute` record as a whole: Draft duplicate of don.story.lucilla-affair (both from donstory004). Different source ids (don.source.optatus-against-donatists, don.source.lucilla-and-second-woman-maximianist) and relation target don.figure.optatus, which exist as separate near-duplicate records beside the *-the-* forms. Also its modern_contrast calls the relic-kiss 'unauthorized', which Optatus does not say.
+- `don.story.passio-donati-sermon` narrative_tier_justification / body note: Nothing wrong found beyond the text fixes. Note the sermon's own heading in the vendored volume is 'De passione sanctorum Donati et Advocati', while the sermon text names Honoratus of Sicilibba; the record handles this by citing the sermon without a title.
+- `don.story.conference-of-carthage-411` text (spot-check limit): The vendored Collatio scan is too damaged to string-search the Latin phrases listed in the body note; I could confirm only the 279/286 summary line, the chairs exchange (acts 144-145), the 'Mandavi et subscripsi' roll-call, and acts 265-267 (wheat and tares; Emeritus's scripture verses, 'salva appellatione recognovi'). The rest of the narrated interventions were not re-verified by me.
+- `don.demo.did-the-empire-change-you` body note: The record's prose note says 'Every claim greppable ... the five-word retort'. The same 'daylight / knelt / buried inside the walls because there was nowhere else' drift is in don.dw.the-emperor-and-the-church (text), which should be fixed in step with this demo.
+- `don.demo.death-wish` sources / body note: The letter claim is mirrored in don.story.macrobius-letter (closing paragraph) and don.dw.not-a-death-wish; fixing the demo alone would leave the three records in disagreement.
+- `don.figure.axido-and-fasir` divergence_note / sources[0] / dates.display: Describes lines 1934-2195 of the Migne PL8 file as a 'Donatist petition against the Macarian persecution reproduced in Optatus's appendix'. That range is an excerpt of Optatus Book III.3-4 (his own narrative, with the Taurinus letter and Octavum killings); no Donatist petition text was found there. Also 'not read by this step' is stale: the passage was read for this audit. Build-record correction, logged not fixed.
+- `don.figure.primian` body / dates.display: 'His name heads the mandate' / 'named first on the Donatist mandate': in the Collatio the mandating list begins Januarianus, Primianus; Primian is first of the seven mandated pleaders. Also he did speak on the record (chapters 104, 223), so 'silence at 411' is narrower than stated.
+- `don.story.macrobius-letter` text: Isaac's cry: Latin places it among the crowd while Maximianus struggled, not during Isaac's own flogging. Dream: the Latin ('oculum violenter eliciens') may have Maximianus tearing out the emperor's eye, not the emperor striking out his. Both worth a check by the story batch.
+- `don.story.passio-marculi` tellable_as / text: 'shown a cup, a crown and a palm four days before': Passio puts the vision on the last morning; the four days are his time held at the cliff.
+- `don.story.conference-of-carthage-411` sources[0].locus: Same file-path and line-number leak as the figure loci.
+- `don.figure.optatus` dates.floruit / duplicate: Uses key floruit instead of display; gives fl. c. 366-393 where don.figure.optatus-of-milevis gives c. 364-385; duplicates optatus-of-milevis (Widely Accepted vs Documented). Likewise isaac-and-maximianus duplicates isaac + maximianus-martyr. Consolidation is a build decision.
+- `all figure records` names[].name (scholarly tag): Many scholarly labels with dates fail FK/FRE as strings (e.g. Marcellinus FRE -1.6); they are reference labels, not spoken, so left.
+- `don.limit.bagai-violence-no-account` why_sources_cannot_answer / body: The build prose says the record 'does not repeat the specific charges', but statement does name them (bishop beaten at Bagai, presbyter dragged from his house, forced rebaptism) as charges. Statement is acceptable as written (framed as charges, no Donatist answer); the build prose should be reworded. Also sources[] cites only Letter 185 although the statement also rests on Letters 66 and 88 (npnf101 LXVI, LXXXVIII).
+- `don.term.agonistici` divergence_note / senses.evidential: Says the self-designation reaches the record 'only through Augustine's report'. The vendored Latin (Enarr. in Ps. 132.6) has Donatist speakers explaining the name agonistici for the group; that it was the group's own name is Monceaux's reading (tome4 'Ils s'appelaient eux-memes'). Build records should say so.
+- `don.term.agonistici` prior_sense: 'circum cellas, those who linger around the shrines'; Monceaux tome4 glosses it as prowling around farms and cellars. Not checked against Augustine's own wording; flag for build thread.
+- `don.term.martyr-martyrdom` senses.informational: Places the bishop of Advocata in the Macarian repression of 347-348, but don.source.passio-donati-sermon records the dating as Contested (Mabillon c.340 v Monceaux 12 March 317, under Constantine's edict of union) and neither is adopted.
+- `don.term.liber-regularum` use_note / informational: Informational and any use_note repeating 'the one original' should keep Augustine's 'perhibent' hedge (OG-31 open item).
+- `don.limit.theology-beyond-tyconius` use_note.means: 'argued well only one question' is the OG-31 open item; not rewritten here (not a spoken field).
+- `don.term.caecilianist` divergence_note: Says no vendored passage attests the naming. The Latin critical edition of Augustine's anti-Donatist works (augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, ~l.63760 'nomine et Donatistarum et Caecilianistarum') does use the word; the index at ~l.82241 glosses 'Caecilianistae = catholici'. Worth a check by the build thread.
+- `don.force.conference-of-carthage-verdict` whole record: status draft, register etic duplicate of don.force.conference-of-411-verdict (same for diocletianic-persecution-traditio-demand / diocletianic-traditio-demand, martyr-cult-confessor-memory / martyr-cult-commemoration, sustained-purity-rebaptism-practice / sustained-purity-and-rebaptism, transmission-caecilianist-victory / caecilianist-victory-selects-survivors, transmission-hostile-manuscript-tradition / ...
+- `don.gravity.refusal-of-imperial-legitimacy` confidence.divergence_note: names a vendored file path (optatus_against-the-donatists.txt) in a live record; same with "(Registry row N)", "Doc_NN SSn" throughout force, gravity, contested_claim divergence_note, held_against, concedes and body text. Build commentary embedded in live records (CLAUDE.md corruption rule).
+- `don.contested.church-of-the-martyrs` held_against[0]: cites "lines 2064-2096" of a vendored file in held_against (line numbers in a build field); same pointer repeated in the Optatus locus fixed above.
+- `don.craft.fidelis-voice` body: live record body is process narration (engine/m4/turn.py, gate names, "ten-round-adversarially-hardened Permanent Prompt", last paragraph on Track B). Belongs in Build/Ministry.
+- `don.core.donatism` body: body is build narration (Registry row 29 note, WORLD_ID discussion). Belongs outside the live record.
+- `don.gravity.church-of-the-martyrs` use_note.years: years.from 317 adopts Monceaux's date for the Passio Donati though the record says no settled date is cited; same in gravity.martyr-cult-identity and contested.church-of-the-martyrs. Mabillon's c. 340 would not change from-year logic only if the span is read as widest attested range.
+- `many (force/gravity/contested)` sources[].locus: Several remaining loci use build jargon that shows on source cards although no path or number leaks: "pole (a) of this tension" (gravity.refusal-against-recourse 0,1), "this record", "this world's", "the record's own far end". Not changed above.
+- `don.core.donatism` cautions[2]: caution 2 lists Tyconius among four texts that "speak as Donatists" while caution 9 says his formal standing within the communion is "deliberately left open". Reconcile in a later pass; not a source-checkable error.
+- `don.contested.church-of-the-martyrs` claim: "stood for three days" (and the matching story claim) could not be confirmed against the OCR of the Gesta in the vendored Migne volume; the roll-call tallies in contested.parallel-hierarchy (266 + 20 = 286) and Petilian/Marcellinus exchange on the name (acts 94-95) were confirmed.
+- `don.quote.donatus-quid-est-imperatori` confidence.divergence_note / verification_state: divergence_note says 'No clean vendored transcription of this Latin exists in the corpus'; false: cic/texts/optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt line 3357 reads 'quid est imperatori cum ecclesia?' exactly (lower-case q). verification_state could become verified-direct once a source record for that TEI file exists (none in records/don/source/). Note also cites file paths/line numbers.
+- `don.quote.petilian-conscience-of-the-giver` body / confidence: Body claims the wording was re-checked at Book II ch. 3; it is actually the NPNF Introductory Essay wording (line 10280). Body also calls '(sancte)', '(sciens)' 'textual-variant markers'; Augustine's own Book III (npnf104 line 18487, 'he added a phrase which he said was suppressed by me') shows 'in holiness' is a phrase Petilian later added in reply -- worth correcting in build prose. Also source_id points to ...
+- `don.quote.emeritus-magno-argumento` divergence_note / Build docs: 'act 50' is repeated in Doc_02 §1, Rep Phase3 §6, Phase4 and review files; numbering 50 collides with Augustine's act 50 in the same session (pl11 line 126796), likely OCR for 56. Divergence_note also carries file path/line numbers.
+- `don.quote.the-shores-are-covered` body / divergence_note: Body and divergence_note are correct about the file and wording but implicitly about On Baptism via the source; the second shorter rendering is Answer to Petilian Book II ch. 7 (npnf104 line 15875). Contra Cresconium locus is vague but not wrong: the decree is quoted at Book IV, 16.18 (Petschenig line 52658-52665) and in part at Book III (line 47427).
+- From review round 1, part B: `don.figure.axido-and-fasir` `dates.display` and `confidence.divergence_note` still describe the passage as a Donatist petition in Optatus's appendix, which contradicts the corrected locus. `don.figure.isaac` body says the people holding the whips were the traditores; the Latin has Isaac crying out to the traditores.
+- From review round 2: `don.term.liber-regularum` `senses.informational` calls Tyconius a layman without attribution; `don.term.agonistici` self-designation reaches the record through Monceaux's reading (the Latin has the Donatist speakers explaining the name); `don.dw.hypocrites-and-those-who-left` "sea giving them back for six days" is consistent with the story records and was left.
+- Surface documents outside `records/`: the world front lines named in OG-31 ("exactly one systematic theologian") stay open.
+
+- Open items moved out of live records into this entry, because the live-commentary check lists them as ROUTE in files this pass edits (the sentence was removed from the record; the open item is stated here): `don.force.conference-of-411-verdict` body: the force's Layer 2 should be revisited directly against the vendored Gesta transcript rather than assumed unchanged from before that text was acquired (Doc_08 section 5 and Open Item 1). `don.force.institutional-attrition` and `don.force.maximianist-fracture` bodies: the pointers to Doc_08 Open Items 3 and 2 were reduced to Doc_08 itself. `don.source.gesta-collationis-carthaginiensis`: confidence is held at B, not A, because the transcript has not been read in full and the Author Gravity assessment has not been performed against it. `don.source.monceaux-histoire-litteraire-tome4` and `tome6`: both volumes sit unread and are named for a future Doc_02 and Doc_04 revision pass (Doc_02 section 9 item 1a(iii)). `don.source.ziwsa-critical-edition-optatus`: the second-edition and book-count question is not settled; the apparatus criticus has not been read for it.
+
+Status: OPEN for the build thread.
+
+### OG-34. Full text of OG-32 and OG-33 lines that ended mid-sentence, and further open items, 2026-10-13.
+
+The lines below were cut at a character limit when OG-32 and OG-33 were written and end in "..." there. They are written out in full here. The two entries are not edited.
+
+
+Under `don.quote.petilian-conscience-of-the-giver`:
+- sources: the first source changed from don.source.augustine-answer-to-letters-of-petilian to don.source.npnf104-prolegomena-analysis. The new locus is "Chapter II, 'An Analysis of Augustin's Writings Against the Donatists': Petilian's proposition given in Latin and English, with the bracketed words". Why: the record's exact `text` (with "(sancte)", "(qui)", "(sciens)", "(him who gives in holiness)", "(wittingly)") stands only in the NPNF editor's Introductory Essay, ch. II. Source: npnf104_augustine-anti-manichaean-anti-donatist.xml line 10280, div v.ii.ii. The old locus leaked a file path and line numbers. It also pointed to Book II ch. 3, where the wording differs.
+- sources: kept don.source.augustine-answer-to-letters-of-petilian as a second entry with the corrected locus "Book II, chapters 3-4 (sections 6 and 8), the same proposition in shorter form, without the bracketed words". Source: npnf104 line 15788, "For what we look to is the conscience of the giver, to cleanse that of the recipient." Also line 15797, "For he who receives faith from the faithless, receives not faith but guilt."
+
+Under `don.quote.emeritus-magno-argumento`:
+- modern_rendering: "argument" became "trick". Latin argumentum here means a ploy; the world's build itself glosses it "great device", and "argument" misleads a modern reader. Also restored "so that" (Latin ut) and replaced the old-sounding "brought forth". FK 4.2 / FRE 89.9.
+- sources[0].locus: removed the file path and line number. Also dropped "act 50": in the PL11 scan that number already belongs to Augustine's speech in the same session (pl11-zeno-optatus-collatio-carthaginiensis_migne.txt line 126796), so Emeritus's "50" at line 126834 is an OCR misreading, probably 56 but not confirmable. Third session confirmed by the reading of the "gesta geminae cognitionis" at line 126235.
+
+Under `don.quote.donatus-quid-est-imperatori`:
+- sources[0].locus: "Book III, chapter 3 -- the Vassall-Phillips English translation". Removed the path and line number and added the chapter. Source: optatus_against-the-donatists.txt, "III. The pride of Donatus." at line 1894; the retort at line 1904.
+- sources[1].locus: "Book III, chapter 3 -- the Latin original, in Ziwsa's critical edition (CSEL 26)". Removed the path, line number and OCR notes. Source: optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt line 3357, "quid est imperatori cum ecclesia?".
+
+Under `don.quote.the-shores-are-covered`:
+- sources[0]: source_id changed from don.source.augustine-on-baptism-against-the-donatists to don.source.augustine-answer-to-letters-of-petilian, and the locus "Book III (...)" became "Book I, chapter 10 (...)". Why: the decree is quoted there, followed by Optatus Gildonianus. Source: npnf104 lines 15512-15514, div v.v.iii.x, inside div2 "Answer to the Letters of Petilian, the Donatist" (line 15292). On Baptism (div v.iv, lines 10756-15291) never quotes the decree.
+
+Under `don.dw.becoming-one-of-us`:
+- text [source-drift, sev 1]: 'We know people prayed kneeling with their eyes closed, because that is' -> 'We know people prayed with their hands stretched out to the Lord and t'. Source: cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt Passio Donati sec. VI-VII: 'manus ... innocuas ad Dominum extensas' (hands stretched out to the Lord) and 'omnis aetas et sexus clausis admodum oculis caesa in media
+- text [overclaim, sev 2]: 'We know one man fasted four days on a cliff before he was thrown off i' -> 'We know one man, held four days before he was thrown from a cliff, end'. Source: monumenta-vetera-donatistarum_migne-pl8.txt Passio Marculi: 'ultimum quatridui illius diem jejunio terminavit' - he ended the last day of the four with a fast; he was held four days at Novapetra, not said to fast all fou
+- text [overclaim, sev 1]: 'a layman of ours who would not stop preaching a doctrine we had forbid' -> 'Tyconius, who would not stop preaching a doctrine his bishop forbade, '. Source: don.story.tyconius-condemnation (perhibent hedge, 'reported'; divergence_note: standing 'deliberately left open'); don.core.donatism caution 9. The condemnation is reported, not witnessed; Tyconius's formal standing (lay
+- text [overclaim, sev 2]: "a rich woman used to kiss a martyr's bone before she took it and was r" -> "a woman was said to have kissed a martyr's bone before she took it, an". Source: cic/texts/optatus_against-the-donatists.txt Book I ch. 16: 'It was said that she kissed a bone of some martyr or other' - one reported occasion, not a habit; no mention of wealth in that passage.
+- text [overclaim, sev 3]: 'It happened once, bodily, on a day, and the town knew. There was no qu' -> 'It happened once, bodily, on a day.'. Source: No cited source says the rite was public or that the town knew; the edicts (Boyd; CTh 16.6) only show it was forbidden by name.
+- sources[2].locus [locus, sev 3]: "Book I, ch. 5, SS6 - Donatist laity's own reluctance to be rebaptized," -> "Book I, ch. 5, section 6 - Donatist laity's own reluctance to be rebap". Source: Build abbreviation 'SS6' on a participant-facing card. Passage is npnf104 On Baptism I ch. 5 sec. 6 ('almost all their laity ... confess that this one point in their system displeases them').
+- sources[5].locus [source-drift, sev 1]: 'people killed at prayer on their knees inside the basilica; a dying ca' -> 'people killed at prayer inside the basilica; a dying catechumen not ye'. Source: monumenta-vetera-donatistarum_migne-pl8.txt Passio Donati: no kneeling in the Latin; 'hands stretched out to the Lord'.
+- sources[6].locus [locus, sev 2]: 'the four days of fasting at Novapetra before the cliff' -> "the fast that closed Marculus's four days at Novapetra, before the cli". Source: monumenta-vetera-donatistarum_migne-pl8.txt: 'ultimum quatridui illius diem jejunio terminavit' - fast on the last day of four, not four days of fasting.
+
+Under `don.dw.forgiving-a-man-and-trusting-a-hand`:
+- text [tell, sev 2]: 'We would say that is not bitterness. It is keeping two separate accoun' -> ''. Source: 'Not X, it is Y' pivot ending on a coined line, and an attributed saying ('We would say') that no record has; the record's own tensions say the pardon/trust distinction is a reading, not a saying anyone preserved.
+- text [tell, sev 2]: 'It is not that our people had no inner life. It is that what survives ' -> 'That does not mean our people had no inner life. Whoever kept our reco'. Source: 'Not X, it is Y' pivot closing on a quotable coined line.
+- text [overclaim, sev 2]: 'Whether a man was pardoned was never actually our fight. Go and read t' -> 'As we read our own argument, whether a man was pardoned was never our '. Source: Record's own divergence_note and tensions[0]: the pardon/trust split is 'a reading of how the doctrine works rather than a pastoral saying anyone preserved, and it is offered as that'. The spoken text states it as plain
+
+Under `don.dw.how-we-read-and-heard`:
+- text [overclaim, sev 1]: 'and cut him off.' -> 'and are reported to have cut him off.'. Source: don.story.tyconius-condemnation (perhibent hedge, 'reported'; divergence_note: standing 'deliberately left open'); don.core.donatism caution 9. Augustine's 'perhibent' (it is reported) is dropped; the dw's own use_note a
+- sources[3].locus [locus, sev 3]: 'the critical edition, vendored and not read into this telling beyond i' -> 'the critical edition of the Book of Rules, not drawn on in this tellin'. Source: Leaks build material ('vendored') on a participant-facing source card.
+
+Under `don.dw.hypocrites-and-those-who-left`:
+- text [overclaim, sev 2]: 'Every one of the letters ends the same way. Let no one learn of it.' -> 'Several of the letters end the same way. Let no one learn of it.'. Source: Open_Gaps_Tracking OG item (3): Purpurius's letter to Silvanus does not end with the hush; cic/texts/optatus_against-the-donatists.txt Gesta apud Zenophilum: the hush wording ('see to it that no one should know', 'Be car
+- text [contradiction, sev 2]: 'At least two of us wanted to leave, and we treated them differently.' -> 'Two cases of dissent are on record, and we treated them differently.'. Source: don.story.tyconius-condemnation: Tyconius 'did not recant, and did not leave'; no source says he wanted to leave. The same paragraph then says he 'never broke away at all'.
+- text [source-drift, sev 2]: 'had two of its bishops quietly taken back a few years later' -> 'had two of its bishops taken back a few years later'. Source: don.story.bagai-reconciliation: the reception was enforced 'with military force' by Optatus Gildonianus; nothing in the record says it was quiet.
+- text [overclaim, sev 1]: 'and him we cut off and never received back.' -> 'and a council of ours is reported to have condemned him. He was never '. Source: don.story.tyconius-condemnation (perhibent hedge, 'reported'; divergence_note: standing 'deliberately left open'); don.core.donatism caution 9
+- text [contradiction, sev 2]: 'A bishop wrote to his own people about two of them beaten to death, an' -> 'A bishop wrote to the church at Carthage about two of them beaten, and'. Source: monumenta-vetera-donatistarum_migne-pl8.txt Variorum notae to the Passio Isaac et Maximiani: Macrobius is 'Donatista et suorum in urbe Roma occultus Episcopus'; heading 'Macrobius to the church at Carthage'. don.story.ma
+- sources[1].locus [locus, sev 3]: 'Optatus I.16 on Lucilla; Augustine Letter XLIII SS26 on the unnamed wo' -> 'Optatus I.16 on Lucilla; Augustine Letter 43, section 26, on the unnam'. Source: Build abbreviation 'SS26' on a participant-facing card.
+- sources[3].locus [locus, sev 3]: 'two of a congregation flogged to death, their bodies sunk, and the let' -> 'two of a congregation flogged and sunk in the sea, and the letter writ'. Source: don.story.macrobius-letter: Maximianus 'by the letter's account was not yet dead' when sunk.
+
+Under `don.dw.not-a-death-wish`:
+- text [contradiction, sev 2]: 'the letter our own bishop wrote to his own congregation' -> 'the letter one of our bishops wrote to the church at Carthage'. Source: monumenta-vetera-donatistarum_migne-pl8.txt Variorum notae: Macrobius, hidden Donatist bishop at Rome, wrote 'to the church at Carthage'. Open_Gaps OG item (7).
+
+Under `don.dw.older-than-the-schism`:
+- text [contradiction, sev 1]: 'And beyond him we cannot take you. We can show you an African council ' -> 'Beyond him we can take you only a little way. Cyprian himself pointed '. Source: cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml On Baptism II ch. 7 sec. 12 (near line 11417) and editor's note: Cyprian traces the custom to his predecessor Agrippinus, who convened a council at Carthage '
+- text [tense, sev 3]: 'That is not our invention. That is the settled mind of the African chu' -> 'That was not our invention. It was the settled mind of the African chu'. Source: Past tense for the community's own past; 'our two hierarchies' mis-voices the rival Catholic and Donatist orders.
+- text [source-drift, sev 2]: 'We were holding the old African position; they had moved off it to kee' -> 'We were holding the old African position, and they had moved off it.'. Source: No record or vendored text gives the Catholic motive; seventh-council source record says only that the 256 African position was held 'against Rome'.
+- confidence.divergence_note [contradiction, sev 1]: 'Nothing in this compilation traces any practice of ours past the mid-t' -> 'The earliest precedent in this compilation is the council under Agripp'. Source: npnf104 On Baptism II ch. 7-8 (lines 11417-11443): Agrippinus's council, early third century (215-7), is reported and cited by Cyprian (Ep. 71.4).
+- tensions[1] [contradiction, sev 1]: 'nothing in our record traces any practice of ours past the middle of t' -> 'nothing in our record traces any practice of ours past the early third'. Source: Same Agrippinus passages as above.
+
+Under `don.dw.room-for-dissent`:
+- text [contradiction, sev 1]: 'a layman of ours named Tyconius' -> 'a man of ours named Tyconius'. Source: don.story.tyconius-condemnation and don.core.donatism caution 9: Tyconius's formal standing is left open on purpose; no record calls him a layman.
+- text [overclaim, sev 1]: 'He kept saying it from inside, and we cut him off, and never took him ' -> 'He kept saying it from inside. It is reported that a council of ours c'. Source: don.story.tyconius-condemnation (perhibent hedge, 'reported'; divergence_note: standing 'deliberately left open'); don.core.donatism caution 9. The dw's own tensions and use_note not_for say 'we keep the hedge'; the text
+- text [source-drift, sev 2]: 'Another was shown a cup, a crown and a palm while he fasted at the top' -> 'Another was shown a cup, a crown and a palm while he fasted at Novapet'. Source: monumenta-vetera-donatistarum_migne-pl8.txt Passio Marculi: held four days at Novapetra ('Novae-Petrae, quod ardui montis praecipitio ... conjunctum est'); nothing puts him at the top of the cliff.
+- text [contradiction, sev 3]: 'That night he dreamed he fought the emperor himself' -> 'After the beating he dreamed he fought the emperor himself'. Source: don.story.macrobius-letter: Maximianus had the dream the night after the beating, not the night before he faced the proconsul.
+- text [overclaim, sev 2]: 'it survives because it sits in the martyr texts nobody edited' -> 'it survives because it sits in the martyr texts our own people wrote'. Source: don.dw.how-we-read-and-heard divergence_note and term anniversaria-commemoratio: the Passio Donati reaches us through Mabillon's edition and Monceaux; the martyr texts are editorially mediated.
+
+Under `don.dw.scripture-and-the-african-fathers`:
+- text [overclaim, sev 3]: 'and at the end of it every man in the room believed exactly what he ha' -> 'and at the end of it neither side had moved'. Source: Source locus and divergence_note say only that 'neither moved' / 'no side moved'; no source reports what every man believed.
+
+Under `don.dw.silver-and-the-goods-of-the-poor`:
+- text [overclaim, sev 1]: 'Lucilla of Carthage gave four hundred pieces of silver, and the bishop' -> 'Lucilla of Carthage was said to have given four hundred pieces of mone'. Source: cic/texts/optatus_against-the-donatists.txt Gesta apud Zenophilum (near line 6198): 'four hundred pieces of money' (Latin 'quadringentis follibus', editor's note), in Nundinarius's accusing letter read into the record; n
+- text [source-drift, sev 2]: 'in Numidia we were the ordinary church of the village' -> 'in Numidia we were the dominant church'. Source: don.core.donatism: Numidia is the communion's heartland, 'numerically dominant'; 'ordinary church of the village' leans on the Frend rural reading this same paragraph says it will not settle.
+- sources[0].locus [locus, sev 2]: 'the Gesta apud Zenophilum - four hundred pieces of silver from Lucilla' -> 'the Gesta apud Zenophilum - four hundred pieces of money from Lucilla;'. Source: Vendored Gesta text says 'pieces of money', not silver.
+- positions[0] [source-drift, sev 1]: 'four hundred pieces of silver from a Carthaginian laywoman, testified ' -> 'four hundred pieces of money from a Carthaginian laywoman, charged in '. Source: Same Gesta passage: 'pieces of money', charged in a complaint read into the record, not sworn testimony.
+
+Under `don.dw.the-creed-we-shared`:
+- text [overclaim, sev 2]: 'Two churches stood in every African town reciting the same faith at ea' -> 'Two churches stood in many African towns, reciting the same faith at e'. Source: Gesta apud Zenophilum (Optatus appendix): a Cirta witness says 'our city always has one church'; Numidia was Donatist-dominant. 'Unbearable' is in no source.
+- sources[2].locus [locus, sev 3]: 'Book II, dated A.D. 400 (line 665) - "you are heretics" (line 16579); ' -> 'Book II, dated A.D. 400 - "you are heretics"; "it is dissension and di'. Source: Line numbers on a participant-facing card.
+- sources[3].locus [locus, sev 3]: '16.5.38, 405 February 12 - the law names Donatists beside Manichaeans ' -> '16.5.38, 405 February 12 - the law names Donatists beside Manichaeans'. Source: Line number on a participant-facing card.
+- sources[4].locus [locus, sev 3]: 'Boyd on the law of 405, which declared the Donatists heretics (line 67' -> 'Boyd on the law of 405, which declared the Donatists heretics'. Source: Line number on a participant-facing card.
+- sources[5].locus [locus, sev 3]: 'Letter 185, ch. 1 (line 19321) - most of them held the same belief on ' -> 'Letter 185, ch. 1 - most of them held the same belief on the Trinity, '. Source: Line numbers on a participant-facing card.
+
+Under `don.dw.the-emperor-and-the-church`:
+- text [rendering, sev 2]: 'in five words: what has the Emperor to do with the Church?' -> 'in one line: what has the Emperor to do with the Church?'. Source: Five words is the Latin 'Quid est imperatori cum ecclesia?'; the English line spoken here has nine.
+- text [source-drift, sev 2]: 'two altars, two names for the same God, and not one point of doctrine ' -> 'two altars, and not one point of doctrine between them.'. Source: 'Two names for the same God' is in no record or vendored text.
+
+Under `don.dw.the-line-we-actually-drew`:
+- text [tell, sev 2]: 'That is not a fence around Christianity. It is a fence down the middle' -> ''. Source: 'Not X, it is Y' pivot restating the line two sentences earlier ('through the middle of the church, not around it').
+- text [contradiction, sev 2]: 'Nobody among us left a page about the fate of anyone after death, and ' -> 'No text of ours says what became of anyone baptized by the other party'. Source: monumenta-vetera-donatistarum_migne-pl8.txt Passio Marculi: crown, palm, a martyr entering 'paradisi limen' and 'angelorum consortium'. The record's own divergence_note limits the gap to the fate of those baptized by the
+- text [overclaim, sev 3]: 'Every ounce of the exclusion you have heard about was aimed at other C' -> 'All the exclusion our record shows was aimed at other Christians'. Source: No source covers how the community treated non-Christians either way; claim stated absolutely.
+
+Under `don.dw.the-test-we-took-from-the-text`:
+- text [tense, sev 3]: 'The true church is the one being hated. Look at which of the two doors' -> 'The true church, we held, was the one being hated.'. Source: Present tense for the community's own belief; the 'doors and soldiers' image is a coined closer found in no record.
+- text [tell, sev 2]: 'Nothing separates those phrases in meaning. They separated everything ' -> 'The two phrases differ very little in meaning. In practice they separa'. Source: don.term.deo-laudes translational field: 'semantically, nearly' the same, not 'nothing'. 'Not X but Y' pivot; present tense for the community's past practice.
+
+Under `don.dw.the-emperor-and-the-church`:
+- text [source-drift, sev 1]: 'people clubbed to death where they knelt with their eyes shut' -> 'people clubbed to death with their hands stretched out to the Lord and'. Source: monumenta-vetera-donatistarum_migne-pl8.txt Passio Donati sec. VI-VII: hands stretched out to the Lord, 'clausis admodum oculis'; nothing about kneeling.
+
+Under `don.story.acta-purgationis-felicis`:
+- text (sev 1, contradiction): 'At the centre of the case was a letter, supposedly written by Felix hi' -> 'At the centre of the case was a letter from the magistrate Caecilianus to Felix, read alou'. Source: Acta Purgationis Felicis, optatus_against-the-donatists.txt ~5560-5700: the letter read is 'Caecilianus to his father Felix, health!'; Caecilianus: 'I dictated up to ... "My dearest father, I wish thee good health."' and 'The rest is a forgery.' Apronianus sep
+- text (sev 1, source-drift): 'Under questioning, and under the threat of torture, Ingentius broke. H' -> 'Under questioning, and under the threat of torture, Ingentius broke. He admitted that he h'. Source: optatus_against-the-donatists.txt ~5700-5760: Ingentius: 'I have sinned. I did add to this letter, through my grief on account of Maurus my guest.' Apronianus asks 'by what authority ... he went through all the districts of Mauritania and also of Numidia'; Ing
+- text (sev 1, source-drift): 'The proceeding records his vindication as complete - finally and trium' -> 'The proconsul ruled that nothing had been proved against Felix, and cleared him.'. Source: 'Thus was Felix finally and triumphantly vindicated' is the modern translator's Introduction to Appendix I (optatus_against-the-donatists.txt ~5476), not the Acta. The Acta's own ruling (~5770): 'it is manifest that Felix the holy Bishop has been cleared from
+- text (sev 2, source-drift): 'Alfius Caecilianus, Maximus, Apronianus, Claudius Saturianus, Superius' -> 'Alfius Caecilianus, Claudius Saturianus, Superius, and a notary named Ingentius'. Source: Optatus I.27 (optatus_against-the-donatists.txt line 299-301) lists the witnesses: Claudius Saturianus, Callidius Gratianus, Alfius Caecilianus, Superius the Warder, Ingentius the public notary. In the Acta, Maximus and Apronianus speak as pleaders (Maximus 'i
+- tellable_as (sev 1, source-drift): 'An imperial inquiry into whether the bishop who consecrated Caecilian ' -> 'The emperor orders an inquiry. Felix, who made Caecilian a bishop, is said to have given u'. Source: Same Acta passages as above: Ingentius admits adding to the letter; he does not confess to acting for the Donatists (Apronianus charges it; Ingentius denies Numidia). Original also fails readability (FK 19.5, FRE 26.6).
+- sources[0].locus (sev 3, locus): 'Acta Purgationis Felicis (314/315); cic/texts/optatus_against-the-dona' -> "Acta Purgationis Felicis (314/315), Appendix I of Optatus's Against the Donatists". Source: Locus leaks a file path and line numbers; shows to participants on source cards.
+
+Under `don.story.bagai-reconciliation`:
+- text (sev 1, contradiction): 'A general named Optatus Gildonianus enforced the reconciliation with m' -> 'Optatus Gildonianus, a bishop of ours, enforced the reconciliation with military force.'. Source: Augustine, Answer to Petilian I.10.11 (npnf104 xml ~15514): 'Optatus Gildonianus advancing with a military force'; NPNF note (xml ~11513): 'Optatus, a Donatist bishop of Thamogade in Numidia ... Gildonianus from his adherence to Gildo'. The record's own body n
+- text (sev 2, overclaim): "And then, having said this, the council did something its own decree's" -> "And afterwards our party did something its own decree's language did nothing to prepare a ". Source: Augustine, On Baptism II.11.16 and II.12.17 (xml ~11509-11527): Felicianus and Praetextatus were 'whom they afterwards received'; Answer to Petilian I.10.11: Optatus Gildonianus 'sucking back Felicianus and Praetextatus once again within their pale'. Augustine
+- text (sev 2, source-drift): "if reordination could be waived here, on the mainstream party's own au" -> "if the baptisms these bishops had given in schism could stand, on the mainstream party's o". Source: Augustine, On Baptism I.2 and I.7 (xml ~10834-10911): 'those whom Felicianus baptized in schism received true baptism, inasmuch as they now acknowledge them as members of their own body, with no other baptism than that which they received in schism'. His argum
+- tellable_as (sev 2, readability): 'Three hundred and ten of our bishops condemn a breakaway party in lang' -> 'Three hundred and ten of our bishops condemn a breakaway party. They say its people are sh'. Source: Original FK 19.1 / FRE 25.8. Also 'then' implies the council itself did it; Augustine says 'afterwards'.
+- sources[0].locus (sev 3, locus): 'On Baptism, Against the Donatists I.1.2 and I.5.7; cic/texts/npnf104_a' -> 'Augustine, On Baptism, Against the Donatists I.1.2, I.5.7 and II.11.16'. Source: Leaks file path and line numbers. Lines 11509-11527 fall in Book II, chapter 11 (section 16), per the xml div structure.
+- sources[1].locus (sev 3, locus): 'Answer to the Letters of Petilian, quoting the Bagai decree directly; ' -> 'Augustine, Answer to the Letters of Petilian I.10.11, quoting the Bagai decree directly'. Source: Leaks 'same file, lines ...'. xml line 15505-15514 is Book I chapter 10 section 11.
+
+Under `don.story.conference-of-carthage-411`:
+- text (sev 3, other): 'the same six words - I gave the mandate and I signed' -> 'the same words - I gave the mandate and I signed'. Source: The English given is seven words; the Latin ('mandavi et subscripsi') is three. 'Six words' is wrong either way.
+- tellable_as (sev 2, overclaim): 'Two hundred and seventy-nine of our bishops meet two hundred and eight' -> 'Our bishops face the Catholic bishops before an imperial judge. They refuse the chairs he '. Source: The record's own divergence_note holds the bishop-counts open (editorial summary 286/279 vs the acts' roll-call, Catholic subscriptions 266 plus 20 not yet subscribed). tellable_as states 279/286 as settled fact. Original also FK 22.5 / FRE 33.7.
+- sources[0].locus (sev 3, locus): 'cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt -- read' -> "Gesta Collationis Carthaginiensis, as printed in Migne, Patrologia Latina 11: the editor's". Source: Locus is a build log: file path, line numbers, 'read directly'. Shows on participant source cards.
+- sources[1].locus (sev 3, locus): 'the acts of the 411 Conference themselves, reached through the Migne p' -> 'the acts of the 411 Conference themselves, as printed in Migne, Patrologia Latina 11'. Source: 'above' refers to a record field the participant cannot see.
+
+Under `don.story.council-of-cirta`:
+- tellable_as (sev 2, readability): 'The bishops who would go on to make traditor status an absolute disqua' -> 'The bishops who later ruled that a traditor could never serve once faced that same questio'. Source: Original FK 16.1 / FRE 40.4.
+- sources[1].locus (sev 3, locus): 'Against the Donatists I.14; cic/texts/optatus_against-the-donatists.tx' -> 'Optatus, Against the Donatists I.14'. Source: Leaks file path and line numbers. Passage verified at optatus_against-the-donatists.txt lines 181-192 (council of Cirta, Secundus, Purpurius, Secundus the Less, Victor of Garba, Felix of Rotarium, Nabor of Centurio).
+
+Under `don.story.gesta-apud-zenophilum`:
+- text (sev 3, other): 'He wrote to the clergy and elders of Cirta in the same terms, and clos' -> 'He wrote to the clergy and elders of Cirta in the same terms, and warned them to see that '. Source: optatus_against-the-donatists.txt ~6208-6220: the warning ('Be careful that no one knows the story of this conspiracy') comes in the middle of Purpurius's second letter, not at its close.
+- text (sev 2, overclaim): 'Every one of the letters ends the same way. Let no one know about it.' -> 'Several of the letters end the same way. Let no one know about it.'. Source: Purpurius's two letters (~6200-6220) do not end that way; Fortis's first letter and both of Sabinus's do ('Let no one know about it'). Fortis's second letter says 'see to it that no one should know' mid-letter.
+- text (sev 1, overclaim): 'Two witnesses, on opposite sides of the schism and decades apart, desc' -> 'Augustine was drawing on the Acts of this same inquiry, so his letter shows that the recor'. Source: Augustine, Letter 43.17 (npnf101 xml ~28040-28069): 'There are Acts in the possession of Zenophilus ... according to which one Nundinarius ... revealed many secrets ... we read this on the record'. Augustine cites these very Acts. The record's divergence_note
+- tellable_as (sev 2, overclaim): 'A Roman official puts named witnesses on oath in 320 and asks where fo' -> 'In 320 a Roman official hears a case against Silvanus, bishop of Cirta. A witness agrees t'. Source: The inquiry (optatus_against-the-donatists.txt ~6194-6880) examines the charge that Silvanus was a betrayer (Victor, Saturninus the grave-digger, the temple goods). The four hundred pieces appear in Nundinarius's written accusation (~6196), not as a question p
+- sources[0].locus (sev 3, locus): 'Gesta apud Zenophilum (320); cic/texts/optatus_against-the-donatists.t' -> "Gesta apud Zenophilum (320), in the appendix to Optatus's Against the Donatists". Source: Leaks file path, line numbers and 'read directly'.
+
+Under `don.story.lucilla-affair`:
+- text (sev 2, source-drift): 'Before there was a schism there was a rebuke, delivered in public, to ' -> 'Before there was a schism there was a rebuke, as Optatus tells it, to a woman who did not '. Source: Optatus I.16 (optatus_against-the-donatists.txt line 215-217): 'could not put up with the rebuke which she received from the archdeacon Caecilian'. 'Public' is nowhere in the passage. 'Who did not forget it' is the motive the record's own divergence_note says
+- text (sev 2, source-drift): 'The archdeacon Caecilian rebuked her for it - the man had not yet even' -> 'The archdeacon Caecilian rebuked her for it. The dead man had not yet been formally acknow'. Source: Optatus I.16: 'It was said that she kissed a bone of some martyr or other----if he was a martyr----before she received the spiritual Food and Drink ... (if he was a martyr, at least he had not yet been acknowledged as such)'. The aside is Optatus's, not Caecil
+- text (sev 2, source-drift): 'Around the same time, persecution reached Carthage again. A deacon nam' -> 'Around the same time, persecution broke over Carthage. A deacon named Felix went into hidi'. Source: Optatus I.17 (~line 221-223): Mensurius was summoned before the tribunals / sent to the palace ('On receiving this summons'), not facing exile; 'the Church possessed very many gold and silver ornaments ... he confided them to the care of some of the seniors, w
+- text (sev 3, source-drift): 'At a crowded assembly in the Carthage basilica, Caecilian stood and de' -> 'At a crowded assembly in the Carthage basilica, Caecilian demanded that his accusers step '. Source: Optatus I.19 (~line 235-237): 'Caecilian was sitting in his episcopal Chair'; 'Caecilian demanded: If there is anything to be proved against me, let the accuser come out'. 'Stood' is invented.
+- tellable_as (sev 2, readability): "A wealthy woman is publicly rebuked for kissing a martyr's bone before" -> "A rich woman is rebuked for kissing a martyr's bone before communion. Years later the man ". Source: Original FK 17.8 / FRE 28.0; 'publicly' is not in Optatus I.16.
+
+Under `don.story.lucilla-consecration-dispute`:
+- text (sev 2, source-drift): 'Before there was a schism, there was a rebuke, delivered in public, to' -> 'Before there was a schism, there was a rebuke, as Optatus tells it, to a woman who did not'. Source: Same as don.story.lucilla-affair: Optatus I.16 has no 'public'; the motive is his framing (this record's own divergence_note).
+- text (sev 2, source-drift): 'rebuked her for it -- the man had not yet even been formally acknowled' -> 'rebuked her for it. The dead man had not yet been formally acknowledged as a martyr, Optat'. Source: Optatus I.16: the aside 'if he was a martyr, at least he had not yet been acknowledged as such' is Optatus's, not Caecilian's.
+- text (sev 2, source-drift): 'Around the same time, persecution reached Carthage again. A deacon nam' -> 'Around the same time, persecution broke over Carthage. A deacon named Felix went into hidi'. Source: Optatus I.17 (~line 221-223): Mensurius was summoned before the tribunals / sent to the palace ('On receiving this summons'), not facing exile; 'the Church possessed very many gold and silver ornaments ... he confided them to the care of some of the seniors, w
+- tellable_as (sev 2, overclaim): 'The rebuke, the mishandled treasury, and the rival consecration that a' -> 'As Optatus tells it, a rebuke, a lost treasury and a rival bishop began the schism.'. Source: 'that actually started the schism' states Optatus's causal story as fact; the record's own divergence_note and use_note.not_for say the motive/causal framing is his hostile reading. Original FK 11.8 / FRE 35.5.
+
+Under `don.story.macrobius-letter-isaac-maximianus`:
+- text (sev 2, source-drift): 'Macrobius wrote to his own congregation at Carthage as their bishop, i' -> 'Macrobius, a bishop of ours, wrote to the people of Carthage to tell them what had happene'. Source: monumenta-vetera-donatistarum_migne-pl8.txt ~1500-1510 and ~1945: the letter is addressed 'ad plebem Karthaginis'; Mabillon's note calls Macrobius the Donatists' hidden bishop in Rome; the letter speaks of 'our return' and sending news 'huc ad Carthaginem', so
+- text (sev 3, rendering): 'wine in his cup seemed to take the shape of a ring' -> 'wine in his cup seemed to take the shape of a crown'. Source: Latin: 'corona descendens intra calicis oras infudit' (pl8.txt ~1425). 'Corona' is a crown or wreath; the same word is the crown he is given in the vision.
+- text (sev 2, rendering): 'naming them traditores and telling them to come and see what their so-' -> "naming them traditores and telling them to come and be cured of their madness of 'unity'.". Source: Latin (pl8.txt ~1640): 'Traditores, venite, salvate vestram unitatis insaniam' (variant 'satiate vestra crudelitatis insaniam'). Nothing in either reading means 'see what ... had brought them to'.
+- text (sev 1, source-drift): 'He did not survive the beating.' -> 'Both men were condemned to exile and shut in prison, and there Isaac died.'. Source: pl8.txt ~1645-1660: 'ambos judex pari sorte conjungens ad exilium religavit: quibus in carcerem trusis, Isaac statim martyrii consummavit effectum'. Isaac dies in prison after sentence, not under the rods.
+- text (sev 1, contradiction): 'who in the dream struck out one of his eyes' -> 'whose eye he struck out in the dream'. Source: pl8.txt ~1684-1690: the emperor threatens to put out Maximianus's eye; 'Ipse quoque oculum se illi pariter eruturum ... promittebat' ... 'oculum violenter eliciens, viduata facie sedem luminis evacuavit'; and later 'sic lumen imperatori eruisse, sic eum ... ex
+- text (sev 2, source-drift): 'who took them and buried them with the same rites and the same joy the' -> 'who received them with embraces and joy and gave them a proper burial.'. Source: pl8.txt ~1862-1866: 'cum amplexibus laetis accepit. Sic beati martyres sepulturam debitam receperunt'. 'The same rites ... they would have given the living' is not in the letter.
+- text (sev 2, source-drift): 'Macrobius closes his letter by turning to his own congregation directl' -> 'Macrobius closes his letter by turning to his readers directly. The two martyrs, he tells '. Source: pl8.txt ~1895-1925: 'Tendunt ad vos e coelo jam brachia, opperientes tempus quo vobis occurrant. Properate graviter, concurrite pertinaciter ... accelerate quantocius'. The letter urges the readers on; 'is what may yet be asked of any of them' is a softened gl
+- tellable_as (sev 3, readability): "Macrobius's own letter to his Carthage congregation, telling them what" -> 'A bishop named Macrobius writes to the people of Carthage. He tells them how two of their '. Source: Original FK 13.1 / FRE 28.1; 'his Carthage congregation' not supported.
+- sources[0].locus (sev 3, locus): 'the whole letter, preserved twice in the vendored file from two source' -> 'Macrobius, letter on the passion of Isaac and Maximianus, in Monumenta Vetera ad Donatista'. Source: Leaks 'vendored', file path and line numbers.
+
+Under `don.story.macrobius-letter`:
+- text (sev 2, source-drift): 'Macrobius wrote to his own congregation at Carthage as their bishop, i' -> 'Macrobius, a bishop of ours, wrote to the people of Carthage to tell them what had happene'. Source: monumenta-vetera-donatistarum_migne-pl8.txt ~1500-1510 and ~1945: the letter is addressed 'ad plebem Karthaginis'; Mabillon's note calls Macrobius the Donatists' hidden bishop in Rome; the letter speaks of 'our return' and sending news 'huc ad Carthaginem', so
+- text (sev 1, source-drift): 'He did not survive the beating.' -> 'Both men were condemned to exile and shut in prison, and there Isaac died.'. Source: pl8.txt ~1645-1660: 'ambos judex pari sorte conjungens ad exilium religavit: quibus in carcerem trusis, Isaac statim martyrii consummavit effectum'. Isaac dies in prison after sentence, not under the rods.
+- text (sev 1, contradiction): 'who in the dream struck out one of his eyes' -> 'whose eye he struck out in the dream'. Source: pl8.txt ~1684-1690: the emperor threatens to put out Maximianus's eye; 'Ipse quoque oculum se illi pariter eruturum ... promittebat' ... 'oculum violenter eliciens, viduata facie sedem luminis evacuavit'; and later 'sic lumen imperatori eruisse, sic eum ... ex
+- text (sev 2, source-drift): 'who took them and buried them with the same rites and the same joy the' -> 'who received them with embraces and joy and gave them a proper burial.'. Source: pl8.txt ~1862-1866: 'cum amplexibus laetis accepit. Sic beati martyres sepulturam debitam receperunt'. 'The same rites ... they would have given the living' is not in the letter.
+- text (sev 2, source-drift): 'Macrobius closes by turning to his congregation directly: what happene' -> 'Macrobius closes by turning to his readers directly. The two martyrs, he tells them, are w'. Source: pl8.txt ~1895-1925: 'Tendunt ad vos e coelo jam brachia ... Properate graviter, concurrite pertinaciter ... accelerate quantocius'. 'What may yet be asked of any of them' is not in the letter; it softens an exhortation.
+- tellable_as (sev 2, source-drift): 'A bishop writes to his own congregation about two of their number tort' -> 'A bishop writes to the people of Carthage about two of their number, Isaac and Maximianus.'. Source: 'Tortured to death' is not right for Maximianus, who the letter says was still alive when thrown into the sea (pl8.txt ~1790: 'vivum pariter cum defuncto, marinis fluctibus mergi'); Isaac died in prison. Original also FK 14.6 (fails).
+- sources[0].locus (sev 3, locus): 'cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 1367-2609' -> 'Macrobius, letter on the passion of Isaac and Maximianus, in Monumenta Vetera ad Donatista'. Source: Leaks file path and line numbers.
+
+Under `don.story.passio-donati-sermon`:
+- text (sev 2, source-drift): 'with the bishop Caecilian and a tribune named Marcellinus standing beh' -> 'with a tribune named Marcellinus. The sermon says the bishop Caecilian pressed them on.'. Source: pl8.txt sermon ch. II (~line 233): 'Res apud Carthaginem gesta est Caeciliano Eu...episcopo tunc instante, assentiente Leontio comite, duce Ursatio; Marcellino tunc tribuno'. Caecilian is the one pressing ('instante'); the officers assent. 'Standing behind the
+- text (sev 2, source-drift): 'while they knelt at prayer with their eyes closed, trusting the ground' -> 'with their hands stretched out to the Lord and their eyes closed.'. Source: Sermon ch. VI: 'Manus contra innocuas ad Dominum extensas armantur fustibus dexterae'; ch. VIII: 'clausis admodum oculis caesa in media basilica necaretur'. 'Knelt' and 'trusting the ground they stood on' are not in the sermon.
+- text (sev 2, source-drift): "They were buried where they fell, within the building's own walls, bec" -> "Many bodies were buried within the building's own walls.". Source: Sermon ch. VIII: 'intra cujus parietes et occisa et sepulta sunt corpora numerosa'. The reason ('nowhere else and no one to stop it') is invented. The same invention sits in don.dw.the-emperor-and-the-church and don.demo.did-the-empire-change-you.
+- tellable_as (sev 3, readability): 'Every twelfth of March we read aloud the account of a day soldiers too' -> 'Every twelfth of March we read aloud the story of a day when soldiers took a basilica at C'. Source: Original FK 13.4 / FRE 52.3.
+- sources[0].locus (sev 3, locus): 'cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 88-664 (t' -> 'The sermon on the passion of Donatus and Advocatus, the whole text, in Monumenta Vetera ad'. Source: Leaks file path and line numbers.
+
+Under `don.story.passio-marculi`:
+- text (sev 1, contradiction): "ten bishops were sent either to persuade Marculus's own community to s" -> 'ten of our bishops were sent to Macarius, either to turn him back from his crime or, as th'. Source: pl8.txt ~969-985: 'adunatum concilium sacerdotum decem e numero suo probatos Episcopos legationis causa misisset, qui eum [Macarium] salutaribus monitis aut a tanto scelere revocarent, aut ... priores ipsi ad devotissimi certaminis campum ... prosilirent'; the
+- text (sev 2, source-drift): 'and that a light settled over the place afterward, bright enough that ' -> 'and that a bright cloud covered his body, with flashes of light that showed the brethren w'. Source: pl8.txt ~1190-1215: 'splendida nubes apparuit ... fulgore promicante ... candido vellere ... membra felicia contegebat'; 'desideratum ... locum fulgura prodiderunt ... index nubis candor ostendit'. No one tries to stop or deny the burial.
+- tellable_as (sev 2, source-drift): 'Marculus is shown a cup, a crown and a palm four days before he is thr' -> "On the last night of four days' fasting, Marculus is shown a cup, a crown and a palm. Befo". Source: pl8.txt ~1090-1130: the four days were spent at Novapetra, and the vision came at the end ('ultimum quatriduum illius diem jejunio terminavit ... illucescente Dominico ... Vidébam ... poculum ... coronam ... palmam'), the night before the death, not four days
+- sources[0].locus (sev 3, locus): 'cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 664-1359 ' -> 'Passio Marculi, the whole text, in Monumenta Vetera ad Donatistarum historiam pertinentia '. Source: Leaks file path and line numbers.
+- sources[1].locus (sev 3, locus): 'cic/texts/optatus_against-the-donatists.txt, lines 2064-2096 - the arg' -> 'Optatus, Against the Donatists III.6, the argument against the alleged Donatist martyrs'. Source: Leaks file path and line numbers; lines 2064-2096 are Book III chapter VI 'Against the alleged Donatist martyrs'.
+
+Under `don.story.tyconius-condemnation`:
+- text (sev 1, overclaim): ' He simply remained, for whatever years he had left, the head of a sch' -> ''. Source: Augustine, Against the Letter of Parmenian I.1 says only that Parmenian wrote a letter of rebuke and that 'they report' (perhibent) a council condemned him. 'Head of a small schismatic church ... perhaps the only member' is Monceaux's 1920 inference (tome5 ~85
+- tellable_as (sev 3, readability): 'A man argues from Scripture that the church is spread through the whol' -> 'A man argues from Scripture that the church spreads across the whole world. His own bishop'. Source: Original FK 11.45 (fails FK <= 10).
+- sources[1].locus (sev 3, locus): 'cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.t' -> "Monceaux, Histoire litteraire de l'Afrique chretienne, vol. 5, the chapter on Tyconius: th". Source: Leaks file path and line numbers.
+
+Under `don.demo.bagai-unresolved`:
+- exchange[1].text (sev 2, tense): 'We say a returning cleric must be washed and ordained again -- without' -> 'We said that a returning cleric must be washed and ordained again, without exception, and '. Source: Community's own past stated in present tense ('We say', 'We do not hide', 'we have never found'). 'A whole company of returning clergy' overclaims against don.story.bagai-reconciliation, which names two bishops (Felicianus of Musti, Praetextatus of Assuris) an
+- exchange[3].text (sev 2, overclaim): 'In 393 a deacon named Maximian set himself up as a rival primate, the ' -> 'In 393 a deacon named Maximian was made a rival primate, the same act our own founders onc'. Source: Fails FK <= 10 (10.6). 'The same council ... took two ... back' and 'inside the same council's own year' overclaim: Augustine (Answer to Petilian I.10.11; On Baptism II.11.16) says Optatus Gildonianus brought them back afterwards, and the story's own years run
+
+Under `don.demo.baptism-threshold`:
+- exchange[1].text (sev 2, tense): 'Every soul who comes to us from the rival church crosses through one s' -> 'Everyone who came to us from the rival church crossed through one act, the washing. It was'. Source: The community's own past stated in present tense ('comes', 'crosses', 'We hold', 'cannot', 'happens', 'is'). Also three stacked negative pivots ('Not a hurdle ... and not a repetition ... not a second washing. It is').
+- exchange[3].text (sev 2, tense): "We do not set one man's day apart from every other. What we give you i" -> "We did not set one man's day apart from every other. What we gave you was what everyone cr". Source: Present tense for the community's own past practice ('We do not set', 'What we give', 'has crossed', 'is done', 'is remembered'); 'not a second baptism but the first true one' pivot.
+
+Under `don.demo.undiscovered-traditor`:
+- exchange[1].text (sev 1, source-drift): 'It has happened among us, in the sharpest form there is: a bishop disc' -> 'It happened among us. In 320 a Roman official found that Silvanus, our bishop at Cirta, ha'. Source: No record supports 'a bishop discovered, after years of ministry ... hidden rather than confessed'. The only attested case is Silvanus of Cirta (don.story.gesta-apud-zenophilum, don.figure.silvanus-of-cirta): at Cirta the people shouted 'Traditor est' at his e
+- exchange[3].text (sev 1, contradiction): 'Yes -- not as a judgment on them, but as the same washing we would giv' -> 'Our rule pointed that way. No text of ours says what we did about the people he had baptiz'. Source: Invents a practice ('Yes ... everyone he baptized is washed again; the washing is the remedy') that no record states, and that conflicts with the world's own record: Optatus I.14 and I.19 (optatus_against-the-donatists.txt ~181-192, ~245): the Cirta bishops ad
+
+Under `don.demo.did-the-empire-change-you`:
+- exchange[1].text (sev 2, tell): 'That is not a charge we answer. That is our case, and we are the party' -> 'We do not answer that as a charge. It is our case, and we were the party that said yes.'. Source: 'not a charge ... That is our case' pivot; 'we are the party' puts the community's own past in the present.
+- exchange[1].text (sev 2, source-drift): 'They sent soldiers into our buildings in daylight, under orders, to en' -> 'They sent soldiers into our buildings, under orders, to enforce one church. We read the ac'. Source: The Passio Donati sermon (pl8.txt, ch. VI, VIII, XII) has no 'daylight' (ch. XII has evening falling as the bodies were gathered), says nothing of kneeling (hands stretched out to the Lord, eyes closed) and gives no reason for burial inside the walls ('intra c
+- exchange[1].text (sev 2, tell): 'and we refused both. Not because a council cannot rule. Because a cour' -> 'and we refused both, because a court convened, staffed and enforced by a power that had al'. Source: 'Not because ... Because' pivot; tense (community's own past in present). 'Five words' is the Latin count (Quid est imperatori cum ecclesia); the English shown has nine (don.quote.donatus-quid-est-imperatori).
+
+Under `don.demo.death-wish`:
+- exchange[1].text (sev 2, tell): 'While he fasted there he was shown a cup, a crown and a palm — and the' -> 'While he fasted there he was shown a cup, a crown and a palm, and the account reads them a'. Source: Coined closing pair ('Death is where the shape ... becomes visible. It is not the shape.') and a 'not that dying was the goal' pivot. The Passio (pl8.txt ~1095-1130) presents the vision as showing the reward of the coming passion; the 'not that dying was the g
+- exchange[1].text (sev 1, contradiction): 'And the letter one of our bishops wrote to his own congregation, about' -> 'And the letter one of our bishops wrote to the people of Carthage, about two of their numb'. Source: monumenta-vetera-donatistarum_migne-pl8.txt ~1895-1925 (end of Macrobius's letter): 'Tendunt ad vos e coelo jam brachia, opperientes tempus quo vobis occurrant. Properate graviter, concurrite pertinaciter ... accelerate quantocius'. The letter urges the reader
+
+Under `don.demo.mostly-legend`:
+- exchange[1].text (sev 1, source-drift): 'There is a court transcript in which a notary confesses, under threat ' -> 'There is a court transcript in which a notary, under threat of torture, admits that he add'. Source: optatus_against-the-donatists.txt Appendix I ~5700-5770: Ingentius: 'I have sinned. I did add to this letter, through my grief on account of Maurus my guest.' He denies acting for the Donatists (denies Numidia, 'No one sent me'); Apronianus, counsel, alleges i
+
+Under `don.demo.never-settled`:
+- exchange[1].text (sev 1, contradiction): 'A general came with soldiers to see it done.' -> 'One of our own bishops, Optatus Gildonianus, came with soldiers to see it done.'. Source: Augustine, Answer to Petilian I.10.11: 'Optatus Gildonianus advancing with a military force'; NPNF note: Donatist bishop of Thamogade. don.story.bagai-reconciliation body note: 'the Donatist bishop of Thamugadi who enforced the reconciliation with troops'. He
+- exchange[1].text (sev 2, overclaim): 'Every one of those letters ends the same way. Let no one learn of it.' -> 'Several of those letters end the same way. Let no one learn of it.'. Source: Gesta apud Zenophilum: Purpurius's two letters do not end that way; Fortis's first letter and Sabinus's letters do.
+
+Under `don.demo.power-against-dissenters`:
+- exchange[1].text (sev 1, contradiction): 'a general came with soldiers and enforced the reconciliation.' -> 'one of our own bishops, Optatus Gildonianus, came with soldiers and enforced the reconcili'. Source: Same as never-settled: Optatus Gildonianus was a Donatist bishop (Augustine, Answer to Petilian I.10.11; NPNF note), not a general.
+- exchange[1].text (sev 2, overclaim): 'In the year 320 an official put our own people on oath about where fou' -> 'In the year 320 an official heard sworn witnesses on a charge against one of our bishops, '. Source: Gesta apud Zenophilum (optatus_against-the-donatists.txt ~6194-6300): the 400 pieces are in Nundinarius's written accusation; the witnesses examined (Victor, Saturninus, Victor of Samsuricum) are asked whether Silvanus was a betrayer, not 'where the silver had
+- exchange[1].text (sev 2, overclaim): 'Every one of those letters ends the same way. Let no one learn of it. ' -> 'Several of those letters end the same way. Let no one learn of it. We were the church that'. Source: Purpurius's letters do not end 'Let no one learn of it' (Gesta, ~6200-6220). Original tense puts the community's past in the present, and 'doing with an accusation it believed' blurs what the letters say: Purpurius writes that he knows the accusation is true.
+
+Under `don.demo.someone-like-me`:
+- exchange[1].text (sev 2, contradiction): "our own bishop's own words, and the whole of our doctrine in one line." -> "our own bishop's own words, and our case in one line.". Source: don.dw.the-emperor-and-the-church and the Catholic opponents' charges (Optatus) agree there was 'not one point of doctrine' dividing the two churches; the creed was shared (don.dw.the-creed-we-shared). The clause is the heart of the purity doctrine, not 'the w
+- exchange[1].text (sev 2, overclaim): 'Then the same council took two of those same condemned bishops back in' -> 'Afterwards our party took two of those same condemned bishops back into full office, witho'. Source: Augustine (Answer to Petilian I.10.11; On Baptism II.11.16): they 'afterwards received' Felicianus and Praetextatus, with Optatus Gildonianus bringing a military force; not an act of the Bagai council.
+
+Under `don.demo.woman-authority`:
+- exchange[1].text (sev 2, source-drift): 'an archdeacon rebuked her for it in public, and she left full of wrath' -> 'an archdeacon rebuked her for it, and she left full of wrath.'. Source: Optatus I.16 (optatus_against-the-donatists.txt ~line 215-217): 'could not put up with the rebuke which she received from the archdeacon Caecilian' ... 'went away in confusion, full of wrath'. Nothing says it was in public.
+- exchange[1].text (sev 2, tell): 'We can point you to no office a woman held among us, no council seat, ' -> 'We can point you to no office a woman held among us, no council seat, no ordination. A hos'. Source: 'Not because we are refusing you one. Because ...' pivot, and a self-narrated declining that the world's own craft record (self-reference, thin-domains) says to avoid.
+
+Under `don.demo.came-to-believe`:
+- exchange[1].text (sev 3, tell): ' Whatever you have done, it was never your record that was on trial at' -> ''. Source: Quotable coined closing pair; the point ('we examined the hand') is already made two sentences earlier.
+
+Under `don.demo.bagai-unresolved`:
+- sources[0].locus (sev 3, locus): "the whole episode -- the 394 decree's own language, and the reception " -> "the 394 decree's own language, and the later reception of two condemned bishops without re". Source: Locus carries build-process wording ('used directly for this exchange's own ... turn', 'Phase Five SS1 row 15') that would show on a participant source card.
+- sources[1].locus (sev 3, locus): "T2 itself, used directly for the first turn's own statement of the unr" -> 'the tension between the purity rule and institutional reception'. Source: Locus carries build-process wording ('used directly for this exchange's own ... turn', 'Phase Five SS1 row 15') that would show on a participant source card.
+
+Under `don.demo.baptism-threshold`:
+- sources[0].locus (sev 3, locus): "the enacted threshold rite itself, used directly for this exchange's o" -> 'the enacted threshold rite'. Source: Locus carries build-process wording ('used directly for this exchange's own ... turn', 'Phase Five SS1 row 15') that would show on a participant source card.
+- sources[1].locus (sev 3, locus): "the traditor/clean-hand doctrine grounding why rebaptism is 'the first" -> "the traditor/clean-hand doctrine grounding why rebaptism is 'the first true baptism'". Source: Locus carries build-process wording ('used directly for this exchange's own ... turn', 'Phase Five SS1 row 15') that would show on a participant source card.
+
+Under `don.demo.undiscovered-traditor`:
+- sources[0].locus (sev 3, locus): 'the whole verbatim proposition, used directly, applied to the undiscov' -> "Petilian's clause on the conscience of the giver". Source: Locus carries build-process wording ('used directly for this exchange's own ... turn', 'Phase Five SS1 row 15') that would show on a participant source card.
+- sources[1].locus (sev 3, locus): "G1, the richest gravity per Phase Five SS1 row 15's own Notes column, " -> 'the purity doctrine and its practical consequence'. Source: Locus carries build-process wording ('used directly for this exchange's own ... turn', 'Phase Five SS1 row 15') that would show on a participant source card.
+
+Under `don.ambient.deo-laudes-as-object`:
+- detail [source-drift]: Not derivable: "plain lettering, on plain stone, still legible today", and "set there long before any historian went looking". CIL VIII (cil8-supplementum-numidiae_cagnat-schmidt1894.txt): 20482 is a "fragmentum epistylii"; 18669 is "in lapide magno"; 17732 is
+
+Under `don.ambient.doubled-towns`:
+- detail [source-drift]: Invented detail: "within sight of one another ... the same street", "two processions", and the contrast "where most towns elsewhere had one". The cited source (Optatus: two chairs, altar against altar; "town for town") gives none of these. FK 14.3, FRE 45.0 fa
+
+Under `don.contested.rebaptism-boundary`:
+- concedes [contradiction]: Window closes 439; Gregory's letters are 592 to 594, about a century and a half later (world_core horizon: "roughly a further century and a half"; force.vandal-capture-of-carthage same). Also only the 592 letter is addressed to Numidia (ep. II.46); the 594 let
+
+Under `don.contested.rigor-against-reception`:
+- held_against[2] [source-drift]: Optatus Gildonianus was a Donatist bishop, not a general: Augustine, Contra Cresconium (npnf104): "Optatus Gildonianus advancing with a military force"; translator's note: "Optatus, a Donatist bishop of Thamogade in Numidia, was called Gildonianus from his adh
+
+Under `don.core.donatism`:
+- horizon [overclaim]: Turchi ed. of Gregory: ep. II.46 (592, Columbus, bishop of Numidia) orders an inquiry into a bishop accused of letting a Donatist bishop be made, and notes rebaptism; ep. IV.32 (594, Pantaleon) urges suppression and names rebaptism; ep. IV.35 (594, Victor and
+
+Under `don.craft.fidelis-voice`:
+- flavor_notes[4].note [overclaim]: Two-bishop reading is Monceaux's; Mabillon glosses a single Honoratus from Advocata (don.source.passio-donati-sermon, Contested). The voice would speak this flat. The sermon's own text clearly gives Honoratus of Sicilibba wounded (VII).
+
+Under `don.force.caecilianist-victory-selects-survivors`:
+- sources[3].locus [overclaim]: Leaks build material ("Doc_01") and calls the Liber genealogus part of the independently surviving Donatist remainder. Source record don.source.liber-genealogus: "Donatist provenance is ASSUMED ... not asserted by the text itself; what Mommsen's ... introducti
+- manifestations[2] [overclaim]: don.source.liber-genealogus: "Donatist provenance is ASSUMED ... not asserted by the text itself"; its content "has not been read for any specific Donatism claim". The record's own description lists the remainder without it.
+
+Under `don.force.martyr-cult-commemoration`:
+- sources[0].locus [source-drift]: The admonitio is Mabillon's editorial preface, not the sermon, so "the practice named in its own words" is wrong. Sermon IX: "anniversalis dies religiosa devotione non immerito celebratur"; Mabillon's admonitio: "Sermo est habitus 4 Idus Martii in solemni et a
+- manifestations[1] [source-drift]: The admonitio is Mabillon's editorial preface, not part of the sermon; the phrase "in solemni et anniversaria commemoratione" is Mabillon's. The sermon itself says "anniversalis dies religiosa devotione ... celebratur" and "anniversaria solemnitate leguntur" (
+
+Under `don.force.transmission-caecilianist-victory`:
+- manifestations[0] [contradiction]: Self-contradictory: it names a mechanism and in the same breath says the mechanism is not resolved. Sibling don.force.caecilianist-victory-selects-survivors (divergence_note and body): "the mechanism by which Tyconius's own condemned work survived ... is expli
+
+Under `don.gravity.church-of-the-martyrs`:
+- sources[0].locus [source-drift]: Leaks "vendored corpus" and attributes the editor's note to the sermon. The admonitio is Mabillon's preface (monumenta-vetera-donatistarum_migne-pl8.txt, "IN SEQUENTEM SERMONEM ADMONITIO"), not the sermon. The sermon itself says "anniversalis dies religiosa de
+- description [overclaim]: don.source.passio-donati-sermon (formation_confidence Contested): "TWO VENDORED AUTHORITIES GIVE DIFFERENT ACCOUNTS AND NEITHER IS ADOPTED"; Mabillon dates the persecution to circa 340 (admonitio: "circa annum 340, aut paulo post, certe antequam Macarius mitte
+- description [overclaim]: Sermon VII names Honoratus, bishop of Sicilibba, wounded; XII has "memoratus episcopus ex Abvocatensi oppido" killed. Mabillon's note glosses a single Honoratus who came from Advocata; Monceaux reads two bishops (Tome 5: "l'évêque de Sicilibba fut grièvement b
+
+Under `don.gravity.martyr-cult-identity`:
+- description [overclaim]: don.source.passio-donati-sermon (formation_confidence Contested): "TWO VENDORED AUTHORITIES GIVE DIFFERENT ACCOUNTS AND NEITHER IS ADOPTED"; Mabillon dates the persecution to circa 340 (admonitio: "circa annum 340, aut paulo post, certe antequam Macarius mitte
+- manifestations[1] [source-drift]: Passio Marculi (monumenta-vetera-donatistarum_migne-pl8.txt): the vision comes in the night before the Sunday of his death, while he is held at the fort of Nova Petra "near the precipice"; he is thrown from the cliff afterwards. Not a vision on the cliff top.
+
+Under `don.gravity.rebaptism-boundary`:
+- sources[3].locus [overclaim]: Leaks "Registry row 54", and puts the 594 letters in Numidia. Gregory ep. IV.32 (to Pantaleon, 594): "In illis partibus ... Donatistarum crevit audacia" (Africa, no Numidia). Ep. IV.35 (594, to Victor and Columbus, bishops of Africa): "in illis ... partibus".
+
+Under `don.gravity.rebaptism-boundary-marking`:
+- manifestations[2] [source-drift]: Ep. II.46: the inquiry is into Maximianus, bishop of Pudentiana, said to have been bribed "Donatistarum episcopum nova licentia fieri permisisse" (to permit a Donatist bishop). Rebaptism ("post catholicum baptisma a Donatistis denuo baptizari") is reported sep
+
+Under `don.gravity.rebaptism-boundary manifestations[5]: applied by hand (colon-free wording), same evidence as the Gregory finding.`:
+- don.story.gesta-apud-zenophilum, confidence.divergence_note: "independently corroborated ... no evident coordination" changed to "recalled ... by a second source ... which drew on the Acts of the same inquiry and so is not independent". Source: Augustine Ep. 43 refers to the same proceedings; matches the record's own text.
+- Loci cleaned: demo.came-to-believe and demo.someone-like-me ("thin_topics:" replaced by plain statement), demo.woman-authority ("thin_topics:" removed), demo.mostly-legend ("thinness and cautions 1: Author Gravity" -> "our story reaches us mostly through writers opposed to us"), witness.one-formation-aim (G1/G3/G5 labels removed).
+- don.demo.undiscovered-traditor exchange[3]: Cirta admission now attributed ("Optatus, who wrote against us, says ..."). Added source rows don.source.optatus-against-the-donatists (Book I, chs. 14, 19-20) and don.source.optatus-appendix-of-documents (Gesta apud Zenophilum). Source: Optatus I.14 and I.19-20 (optatus_against-the-donatists.txt).
+- don.dw.what-belonging-cost text: "his own congregation at Carthage" -> "the church at Carthage" (pl8 heading: "Macrobius to the church at Carthage"); "We never wrote down" -> "No text of ours says"; 279 bishops marked "by one count" (story conference-of-carthage-411 holds 279/266+20 open); "Our sermon says that every year on the twelfth of March the account ... was read aloud" -> "Our sermon was preached on the yearly day of the Carthage dead, the twelfth of March" (sermon body says only that the anniversary is kept, pl8 sec. IX; date from heading and Mabillon's note).
+- don.figure.macrobius bridge_line: "to his own congregation ... tortured to death. ... the same might be asked of any of them" -> "to the church at Carthage ... put to death. ... the two were waiting for them, and ... they should hurry after them". Source: pl8 closing paragraph ("Tendunt ad vos e caelo jam brachia ... Properate"); Isaac died in prison, Maximianus was sunk alive (pl8 ~l.1627-1742).
+- don.contested.ministerial-purity held_against and concedes: "the notary Ingentius ... forged the letter ... working for the accusing side" -> "a town councillor, Ingentius, ... added false lines to the letter"; the agent-for-the-accusers charge is stated as a charge he denied; "working for the accusers" dropped from concedes. Source: Acta Purgationis (optatus_against-the-donatists.txt ~l.5745 "I am a decurion of the Ziquenses"; Apronianus's charge and Ingentius's denial ~l.5715-5730).
+- don.dw.written-by-our-opponents, text: notary confession/forged/our side -> "a town councillor admits ... added false lines" (Optatus Appendix, Acta Felicis: "I did add to this letter" l.5704; decurion l.5745); "his own congregation" -> "the church at Carthage". FK 7.03 / FRE 73.51.
+- don.demo.mostly-legend, sources locus: confessing/forged/working for our side -> "admitting ... added false lines" (Optatus l.5704, 5718-5735). Body: "forged letter and notary's confession" -> "lines added to the letter and councillor's admission".
+- don.demo.power-against-dissenters, sources locus: "general" -> "bishop" (Augustine, Contra Petilianum II.9: "Gildonianus Optatus incedens cum agmine militari", Petschenig edition l.25170). Body: "The general enforcing" -> "The bishop enforcing".
+- don.gravity.martyr-cult-identity, description: restored "documented on grounds largely independent of"; "Three distinct texts, each voiced or written by Donatists, point to it. So do inscriptions cut in stone, with no literary go-between at any point." Whole field FK 7.28 / FRE 60.78.
+- don.core.donatism, horizon: "this communion's own heartland"; "best-known" on one line; "This communion's whole pattern"; "Donatus succeeded Majorinus from c. 313". To keep FRE >= 60 after the extra words, "roughly a further century and a half" -> "about a century and a half more" (same meaning). Whole field FK 6.87 / FRE 60.01.
+- NB2 don.dw.what-we-did-with-the-power-we-had positions[3]; don.quote.the-shores-are-covered modern_lens_note: "a general's troops" -> "a bishop's troops" (Contra Petilianum II.9 as above; Optatus Gildonianus a Donatist bishop of Thamugadi). Line "bishops and generals" in the same dw left unchanged (not named in review).
+- NB3 don.term.liber-regularum: senses.informational "by a Donatist whom Monceaux calls a layman" (Monceaux t.5, l.8426 "écrivain laïque", l.12021); use_note.means "a Donatist layman on Monceaux's account ... his side is reported to have condemned him"; senses.personal "the church said to have condemned its author" (FK 8.64 / FRE 63.97).
+
+Under `don.dw.room-for-dissent`:
+- old: ... Tyconius was cut off for dissenting from inside, ...
+- new: ... Tyconius was reported condemned by a council of his own side for dissenting from inside, ...
+- `don.witness.boundary-is-doctrine` confidence (Documented, divergence_note null); positions[1]: Confidence is Documented with no divergence note, but the pun is editor-mediated and the boundary-equals-doctrine reading is Doc_07's synthesis. positions[1] voices the pun unattributed. Also: the pun IS present in the vendored sermon (monumenta-vetera-donatistarum_migne-pl8.txt, chapter XI, about lines 648-651: 'ut eam vulgo dici fecisset catholicam, ubi impune committitur quicquid publico jure damnatur'), so the 'full Latin has not been read' hedge in don.term.catholicus, the-word-catholic divergence_note and this record is stale. Hedges were kept in all fixes; the build thread can decide whether to lift them by change order.
+- `don.story.acta-purgationis-felicis` use_note.means / narrative_tier_justification / divergence_note: use_note.means says 'a notary confessing, under threatened torture, that he forged the letter for the Donatists'. The Acta has Ingentius admit only that he added to Caecilianus's letter out of grief over Maurus; the Donatist-agent charge is Apronianus's and Ingentius denies it. The tier justification's 'a forged-letter confession under threat of torture' and 'confession ... working for our side' framing needs the same correction. The same drift is in don.dw.written-by-our-opponents (text, positions) and in Doc/Story-Chunk donstory006.
+- `don.story.bagai-reconciliation` absent_detail / confidence.divergence_note / retrieval: absent_detail says 'the same council that wrote those words received Felicianus and Praetextatus back'. Augustine says the Donatists 'afterwards received' them (Answer to Petilian I.10.11; On Baptism II.11.16). The same 'general' error (Optatus Gildonianus was a Donatist bishop) is in don.dw.what-we-never-settled, don.dw.what-we-did-with-the-power-we-had and don.dw.hypocrites-and-those-who-left ('suppressed with soldiers'); 'within the hour' and 'Every one of those letters ends the same way' also recur in the dw texts.
+- `don.story.macrobius-letter` narrative_tier_justification / absent_detail / modern_contrast / use_note: Tier justification says Macrobius 'identifies himself as bishop to the specific congregation he addresses'; the letter itself only names the addressees as the people of Carthage and Mabillon's note calls him the Donatists' hidden bishop at Rome. absent_detail says the letter 'does not report what either man said in his own words at the end', but the letter reports Isaac's cry. modern_contrast ('a letter written to prepare its readers for the same thing') and use_note.not_for rest on the softened closing; the letter's close exhorts the readers to hurry to martyrdom. The same reading drives don.dw.not-a-death-wish (positions: 'prepares its readers ... rather than urging them to seek it') and don.dw.hypocrites-and-those-who-left ('readers who were likely to be next').
+- `don.force.conference-of-carthage-verdict` whole record: status draft, register etic duplicate of don.force.conference-of-411-verdict (same for diocletianic-persecution-traditio-demand / diocletianic-traditio-demand, martyr-cult-confessor-memory / martyr-cult-commemoration, sustained-purity-rebaptism-practice / sustained-purity-and-rebaptism, transmission-caecilianist-victory / caecilianist-victory-selects-survivors, transmission-hostile-manuscript-tradition / transmission-through-hostile-hands; gravity pairs likewise). Duplicate draft pairs need a keep/archive decision and must not be mixed up in retrieval.
+- `don.quote.petilian-conscience-of-the-giver` body / confidence: Body claims the wording was re-checked at Book II ch. 3; it is actually the NPNF Introductory Essay wording (line 10280). Body also calls '(sancte)', '(sciens)' 'textual-variant markers'; Augustine's own Book III (npnf104 line 18487, 'he added a phrase which he said was suppressed by me') shows 'in holiness' is a phrase Petilian later added in reply -- worth correcting in build prose. Also source_id points to Augustine's work while the verbatim wording is the NPNF editor's essay; Mark may prefer switching text to the Book II ch. 3-4 English instead.
+
+**Changed in response to the independent review of #878.**
+- `don.witness.boundary-is-doctrine` and `don.dw.the-word-catholic-and-no-door-today` `text`: "A modern editor reports that one of our preachers..." now reads "One of our own preachers turned ... word back", because the pun is in the sermon itself (Passio Donati sermon, chapter XI, the passage on the name catholica, in monumenta-vetera-donatistarum_migne-pl8). `don.term.catholicus` `use_note.means` matches.
+- `don.quote.emeritus-magno-argumento` `modern_rendering`: re-rendered by Opus as "Truth is hidden by a great device: when we ask, the other side puts forward a small part, and the rest is kept silent." (FK 8.0, FRE 80.3).
+- `don.source.gesta-collationis-carthaginiensis`: "Confidence is held at B, not A" restored in `divergence_note`. Trailing spaces stripped from the monceaux tome4 and tome6 bodies.
+- Loci: "not yet read into a specific claim" restored in `don.force.conference-of-411-verdict`; "corrupted by OCR at this line" restored in `don.quote.donatus-quid-est-imperatori`; "314/315" in `don.force.diocletianic-persecution-traditio-demand`.
+- `don.force.transmission-caecilianist-victory`: the hedged Tyconius and De doctrina christiana III manifestation restored.
+- `don.term.liber-regularum` `use_note.means`: grammar fixed ("of ours that survives").
+- Held for the project lead's ruling and not changed: the four rewritten build fields (`horizon` in `don.core.donatism`, `description` in the three gravity records) and the `don.craft.fidelis-voice` flavor note.
+
+**Further open items** found in the independent review of #878 and not fixed in this pass:
+- `don.story.bagai-reconciliation`: the text says "A general named Optatus Gildonianus"; he was a Donatist bishop who came with a military column.
+- `don.story.acta-purgationis-felicis` `narrative_tier_justification`: still describes Ingentius as a notary who forged the letter.
+- `don.dw.becoming-one-of-us` `positions`: the Tyconius condemnation is stated without Augustine's "perhibent" (it is reported).
+- `don.quote.donatus-quid-est-imperatori` `modern_lens_note`: says Donatus spoke to reject the emperor's claim to arbitrate; Optatus III.3 places the retort as a reaction to the emperor's almoners.
+- `don.gravity.church-of-the-martyrs`, `don.gravity.martyr-cult-identity` and `don.contested.church-of-the-martyrs` `use_note.years`: the start year 317 adopts Monceaux's date for the Passio Donati although the dating is Contested.
+
+Status: OPEN for the build thread.
+
+### OG-35. Record wording pass: the four restyled build fields and the voice note reverted to their base wording, 2026-10-13.
+
+The project lead ruled (13 October) that style rewrites of build records do not stand in this pass. The `description` of `don.gravity.church-of-the-martyrs`, `don.gravity.martyr-cult-identity` and `don.gravity.rebaptism-boundary`, the `horizon` of `don.core.donatism` and the `flavor_notes[grief-and-vindication].note` of `don.craft.fidelis-voice` are back to the wording on main. Only the source-checked factual corrections stay inside them: Gregory's letters (Africa in the 590s, and one letter addressed to a bishop in Numidia; the field gate for the horizon rejects a later year in a spoken field, so "the 590s" stands in for 592 and 594 in `don.gravity.rebaptism-boundary`; `don.core.donatism` names the 592 letter); Honoratus of Sicilibba; the bishop of Advocata "on Monceaux's reading" or "on one reading"; Mabillon's dating of the persecution to about 340; the Passio Donati sermon speaking of an anniversary day kept with devotion. This supersedes the statements in OG-32 and OG-34 that these fields were rewritten for readability.
+
+**Open for the don build thread:** these five fields fail the readability gate (FK 10 or below and FRE 60 or above): `don.gravity.church-of-the-martyrs` `description` (FRE 52.3), `don.gravity.martyr-cult-identity` `description` (FRE 50.5), `don.gravity.rebaptism-boundary` `description` (FRE 52.8), `don.core.donatism` `horizon` (FRE 48.6), `don.craft.fidelis-voice` `flavor_notes[grief-and-vindication].note` (FK 10.1, FRE 41.1). They failed on main too. `engine.m10.cli regate don` reports them as failing because their text is edited. The `m1:readability/don` waiver is recounted exactly: 232 before the revert, 238 after. The six added findings are the base failures of these fields. They sit under that waiver because the project lead ruled that a style rewrite does not stand in this pass.
+
+Status: OPEN for the don build thread.
+
+### OG-36. Record wording pass: cap-ruling recheck verdict BLOCKING, two fixes, and the Opus rewrite of five build fields, 2026-10-13.
+
+The one targeted recheck ordered under the cap ruling (`Build/Ministry/Operations/Audits/don_record_audit_fixes_review_cap-ruling_2026-10-13.md`, Opus 5.5, kept as the reviewer wrote it) returned BLOCKING with two findings, both fixed: (1) `don.core.donatism` `horizon` now says "Three of them name Donatist rebaptism" (the 592 letter to Columbus and both 594 letters, to Pantaleon and to Victor and Columbus), which matches `don.gravity.rebaptism-boundary`; (2) the phrase "corrupted by OCR at this line" is removed from the Ziwsa locus of `don.quote.donatus-quid-est-imperatori`, because it is build text on a source card; the OCR caveat stays in that record's `divergence_note`.
+
+The project lead ruled that the five fields reverted in OG-35 be rewritten by Opus, starting from the base wording plus the source-checked facts, in plain connected sentences with margin under the gate, keeping every fact, hedge and attribution and adding nothing: `horizon` in `don.core.donatism`, `description` in `don.gravity.church-of-the-martyrs`, `don.gravity.martyr-cult-identity` and `don.gravity.rebaptism-boundary`, and the `grief-and-vindication` note in `don.craft.fidelis-voice`. Done. Each field grades FK 7.7 or below and FRE 63.4 or above. Word swaps made to reach the margin, for the project lead to check: "communion" became "church" in `horizon` and `description` of `don.gravity.rebaptism-boundary`; "inscriptions" became "words cut in stone"; "resignation" became "bowing to fate" and "burning eagerness" became "it burns with zeal" in the voice note. This supersedes the "open" status of the five fields in OG-35. `m1:readability/don` recounts to 232, and `engine.m10.cli regate don` passes.
+
+Package rebuilt after the last record edit: `records/worlds/don.yaml` pins `packages/don/2026-10-13T21-29-56Z`, `manifest_hash` `sha256:d6dc6679e12d37c127785500eaadd736962deacac75dc879417b7d7d5087e26f`; the site JSON was recompiled. This pin supersedes the one in OG-32.
+
+Status: CLOSED for the five fields. The words named above stay open for the project lead's check.
+
+### OG-37. The come-back line made self-standing, after the eleven-world live test, 2026-10-14.
+
+The 13 October eleven-world live test ended don Q6 ("What would you want me to understand?") with "So yes, you could come back to us.", lifted from `don.dw.becoming-one-of-us`, where it answered a question about wrongdoers that the participant had not asked. The witness now reads "So a wrongdoer could come back to us. It depended on who the wrongdoer was, and no rule of ours survives that explains the difference." Same facts and the same hedge; only the address to the participant is gone. `engine.m10.cli records don` and `regate don` pass. Package rebuilt and repinned: `packages/don/2026-10-14T00-42-54Z`, `manifest_hash` `sha256:355603939df97557fb54b804d5dd477ab5e508d9ec2bddc9a165ee28238b56f9`; the site JSON was recompiled. This pin supersedes the one in OG-36. Decision Log: "2026-10-14 - Eleven-world fix slice". Status: CLOSED.
+
+### OG-38. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `don.dw.forgiving-a-man-and-trusting-a-hand` `text`: "We just never wrote down when." now reads "We just never wrote down when to stop pressing it."
+- `don.term.reception-without-reordination` `senses.translational`: "It does not preserve anyone explaining why." now reads "It does not preserve anyone explaining why the rule was set aside."
+
+`engine.m10.cli records don` and `regate don --base origin/main` pass. `senses.translational` is shown on the term's gloss card; it is not in the spoken-field registry, so the gate does not read it, and it was fixed by hand. Package rebuilt and repinned: `packages/don/2026-10-14T20-19-16Z`, `manifest_hash` `sha256:a3af4244d529d8499ed897e10fd9c6b455f4b1490e73092850e992992d4f9e8a`. Status: CLOSED.
+
+### OG-39. Atlas story pass: shorter story, nine card stories with tellings, highlights, 2026-10-16.
+
+The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card, and approved the Donatist text. `orientation.story` is now 9 units and 672 words, down from 13 units and 1,888 words. `documented_stories` shows nine stories in date order. Each story record gained a `telling`, which the card shows and plays. `orientation.highlights` adds 28 short notes. Review: `Build/Ministry/Operations/Audits/don_atlas_story_pass_review_round1_2026-10-16.md` (PASS). Package rebuilt and repinned: `packages/don/2026-10-16T23-27-51Z`, `manifest_hash` `sha256:4b874dfe221490205f72ae2f992c8147ee32e0e5117ffdbf2ffd9a396c052272`. The site JSON was recompiled. This pin supersedes the one in OG-38.
+
+**Open:**
+- Modern locations for the place highlights now cite Pleiades (checked 2026-10-17): Carthage, Numidia, Cirta, Aptungi, Bagai, Cebarsussi (unlocated), Novapetra (a probable identification) and Vegesela. Closed.
+- The card's recordings of the main story and of the nine tellings are not yet made.
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+Status: OPEN.
+
+### OG-40. Other world_front sections keep AI tells and "this world" wording, 2026-10-16.
+
+The Atlas story pass touched only the story, the card stories and highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" and dash asides. Several of them also fail the readability gate at the base, as `regate don` reports.
+
+Status: OPEN for the project lead to schedule.
+
+### OG-41. Notes moved out of the story and world-front bodies, Atlas story fixes, 2026-10-17.
+
+The Atlas story fixes (branch `site/atlas-story-don-fixes`) deleted the build-commentary bodies of `don.front.donatism` and of nine story records under the live-surface rule. The text stays in git history at commit 8afababd9. Three notes from those bodies are still needed and are kept here.
+
+1. **Latin behind the 411 renderings.** OG-33 ("Record wording pass: problems found and not fixed, 2026-10-13") points to "the Latin phrases listed in the body note" of `don.story.conference-of-carthage-411`. That body note no longer exists. This list replaces it. The English renderings in the record's `text` were read against these phrases in `cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt`:
+   - "Tibi enim, judicum verissime, nihil aliud incumbit quam tenere veritatem"
+   - "judica, vir sublimis, in negotio Christiano: quia huic causae judicat Deus"
+   - "magno argumento veritas occultatur"
+   - "A personis incipit omnis causa"
+   - "Accusatoris loco stare voluisti"
+   - "Mandavi et subscripsi"
+   - "Traditores vero in plebe mea et omni dioecesi mea non habeo"
+   - "Ipse sibi obstrepit, dum longa prosequitur"
+   - "Emeritus episcopus salva appellatione recognovi"
+
+   The loci named in the record's `sources` are the editor's summary, Marcellinus's edicts, the roll-call and subscription tally, acts 144-145 (the chairs) and acts 265-271 (wheat and tares). The body note gave two line numbers. Line 73364 (cited as 73363 elsewhere in the don records; off by one in the current file) holds the editor's 279/286 count. Lines 124975-125010 hold the acts' own roll-call tally of 266 subscribed, with 20 more present. None of the renderings is a certified translation, and the OCR caution in the record's `divergence_note` governs all of them. The re-verification gap that OG-33 records is still open.
+2. **Why `don.quote.the-shores-are-covered` is not in `pull_quotes`.** The record's own `modern_lens_note` says the shipwreck image describes no real event, and a reader who takes it as a report of violence will misread it. A pull quote shows only `modern_rendering`, with no room for that note. So the world front keeps the quote out of `pull_quotes`. A later pass should not add it back without a way to carry the note.
+3. **Homonyms that only the deleted story bodies named.**
+   - There are three Felixes in the founding stories: Felix of Aptungi (the consecrator), the deacon Felix who hid in Mensurius's house (`don.story.lucilla-affair`), and Felix of Rotarium, one of the three unaccused bishops at Cirta.
+   - In `don.story.acta-purgationis-felicis`, Alfius Caecilianus, a witness, is not Caecilian of Carthage.
+
+   Core caution 7 and the figure records carry the other homonyms (Maximian and Maximianus, the two Optatuses and the two Marcellini).
+
+The same branch also rewrote every `world_front` section that OG-40 names. OG-40 closes when that branch merges.
+
+Status: OPEN for item 1 (the re-verification in OG-33). Items 2 and 3 are kept here for reference.
+
+### OG-42. Atlas story pass: independent review failed the live text; fixed over three rounds, 2026-10-17.
+
+The project lead asked for an Opus review of the rigor and craft of this pass after it went live. Round 1 failed the live text with 14 blocking findings. Among them:
+- "Nicene faith", which no record supports and which predates Nicaea;
+- "or die";
+- 347 called the second persecution, when 317 came before it;
+- the name the Donatists "never chose";
+- Marculus's vision stated as fact;
+- "traitors" for traditores, which the term record's not_for bars.
+
+The round files, the fixer's report and the cap ruling are named in "Cap ruling: don Atlas story pass" (System Hub Decision Log, 2026-10-17). OG-39's review record called the pass a PASS. That was the author's own check, and it was wrong.
+
+**What changed beyond the story:** the same false claims were corrected in the tile, the voices and hedges, the legacy, floor_note, relations_summary, sourcing, read_first and who_speaks. The build-commentary bodies of the front file and the nine story records were deleted. Each telling now ends on its last real event, following the project lead's ruling to "remove all the add on tails that dont say anything".
+
+**Record defects, logged and not edited:**
+- `don.story.passio-marculi` contradicts itself on the length of the fast.
+- The 411 story `text` and `don.figure.emeritus` disagree on how often Emeritus reserved his appeal.
+- `don.story.tyconius-condemnation` `modern_contrast` says "we cut off", against its own divergence_note.
+- Three records state the 279/286 bishop count as settled, while the Conference story holds it open.
+- `don.core.donatism` calls 347 the second persecution.
+- The Cirta story `divergence_note` says the story comes only through Optatus, against the Augustine evidence.
+
+Status: OPEN for the record-level defects. CLOSED for the participant-facing text of this pass.
+
+### OG-43. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the story is 696 words, under its cap; the setup-and-reveal question is gone; the Passio Marculi teaser is shorter; the Cebarsussi note no longer names a province no record carries; the Maximianists, Petilian and ten other notes trimmed.
+
+Status: CLOSED for this review.
+
+### OG-44. Unclear honest-limit endings, 2026-10-17.
+
+Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put the object first and ended on a bare verb, so the ending did not say what is unknown. Each now puts the subject first and ends on what is not known. Wording and facts are the records' own; nothing was added.
+
+- `records/don/doctrinal_witness/don.dw.the-creed-we-shared.md`: "Whether he died to take our punishment, in our place, for our sins, nobody among us wrote down, for or against." -> "Nobody among us wrote down, for or against, whether he died to take our punishment, in our place, for our sins."
+
+Status: CLOSED for this review.
+
+### OG-45. Live-reply claim check, and the decision to keep Donatism live, 2026-10-19.
+
+Decision (Mark): "Keep Donatism as a live conversation." It is recorded in the conversation-chooser thread's Decision Log (2026-10-19 entry, PR 984) and noted here for the world's own records. It reached this thread second-hand. Nothing in `records/` was changed.
+
+Opus claim check of the six recorded 13 October replies (`engine/m4/reports/live-turn-report-don-2026-10-13-eleven-world-test.json`), against `records/don/` and the vendored texts. 49 claims: 24 rest on Donatist-voiced sources (Petilian's few recorded sentences, the 411 acts, the Marculus and Macrobius texts, and Donatist words that survive only inside Augustine's quotations); 11 rest only on an opponent's report but are voiced as the church's own; 2 are marked as an opponent's charge; 10 are unsupported or contradicted; 2 are unverified or a record-backed absence. The findings were not re-confirmed by a second reader.
+
+Record defects, logged and not edited (see also OG-42, which already logs the 279/286 count):
+- `don.dw.who-jesus-was-among-us` (line 78) and a story record say "279 of us ... stood for three days". The acts show the larger body had been sent out and seven per side pleaded.
+- `don.dw.the-creed-we-shared` (line 60) says the creed was held "in the same Latin words". No record supports it, and the record rests the shared creed on Augustine, Letter 185, which also reports some saying the Son was inferior.
+- `don.demo.death-wish` (line 34) and `don.dw.not-a-death-wish` (line 61) say the account of Marculus spends its whole length on his chosen life. The Passio says "a few things must be said". The same records read the vision as "not a promise", where the Passio calls it a reward of martyrdom.
+- `don.contested.maximianist-reception` records a Donatist justification for the Bagai reception; `don.dw.becoming-one-of-us` says no rule survives. One is wrong.
+- `don.dw.becoming-one-of-us` cites Augustine, On Baptism I.5.6; the passage is V.5.6.
+- `don.core.donatism` (about line 87) says this world "calls itself the Church of the Martyrs"; `don.term.church-of-the-martyrs` says the phrase is a modern summary, not a quoted title.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md` (branch `claude/gracious-knuth-pf8u7m`).
+
+Status: OPEN.

@@ -108,9 +108,9 @@ description: |-
 
   This pressure gave the grace argument its outside occasion and its fame. Part of that fame is an artifact of how it was reported. The position sat inside the formation manual as a remedy for pride before any report made it the Massilian position.
 
-  Under the pressure, the appeal to Egypt hardened into a plea of all the Catholic fathers. The appeal to received tradition hardened into a formal rule of antiquity in 434. Authority ambivalence took its southern form, defiance of the Apostolic See, on the editor's account.
+  Under the pressure, the appeal to Egypt hardened into a plea of all the Catholic fathers. In 434 Vincent set the appeal to received tradition down as a formal rule of antiquity. Whether he aimed it at Augustine's party is disputed. On the editor's account, the south's unease with authority took the form of holding out against the Apostolic See.
 
-  It bore on the formation manual's own summit and not on a separable doctrine, so it pressed the whole southern program. It also started a loop. The world's own rule of antiquity was applied to it from outside, and the world's answer was to plead that rule harder. The Tours writings were finished before the question was asked.
+  It bore on the formation manual's own summit and not on a separable doctrine, so it pressed the whole southern program. It also started a loop. The world's own rule of antiquity was applied to it from outside, and, on one editor's reading, the world's answer was to plead that rule harder. The Tours writings were finished before the question was asked.
 manifestations:
 - "Conf. XIII's two-sided position - grace always co-operating with a will 'open to either side'; the refusal of limited saving will as 'grievous blasphemy'"
 - "Augustine's report that the brethren are 'in darkness' on predestination (Praed. ch. 2, context only); Warfield's editorial 'remnants of the Pelagians'"

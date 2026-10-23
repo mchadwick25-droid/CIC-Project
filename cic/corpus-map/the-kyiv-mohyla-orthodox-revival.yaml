@@ -26,3 +26,15 @@ works:
     charter (approved at Iasi 1642). English version only, lightly modernised; the exact wording
     is in Kimmel's Greek and Latin.
   source_file: mogila_orthodox-confession_overbeck1898.txt
+- row_id: mogila_orthodox-confession_anon1762--the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church-1762-2
+  work: The Orthodox Confession of the Catholic and Apostolic Eastern-Church, faithfully translated
+    from the originals (the 1762 English, with Nectarius of Jerusalem's approving letter)
+  author: mogila
+  locus: the Confession in three parts from about file line 70 to the end
+  role: tradition
+  confidence: assigned
+  note: 'The revival''s own doctrinal charter in its first English printing; same placement
+    as the Overbeck edition of the same text.
+
+    '
+  source_file: mogila_orthodox-confession_anon1762.txt

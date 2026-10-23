@@ -17,6 +17,7 @@ relations: []
 author: Leonard Woolsey Bacon
 work: Introduction to The Hymns of Martin Luther
 edition: (Scribner, 1883), with Nathan H. Allen's musical editorship; vendored as cic/texts/luther_hymns_bacon-allen.txt
+citation: Leonard Woolsey Bacon, Introduction to The Hymns of Martin Luther (Scribner, 1883), with Nathan H. Allen's musical editorship
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

@@ -23,8 +23,8 @@ sources:
   license: public-domain
 text: "In the name of the holy Trinity. The ordinance which the angel of the Lord commanded to Abba Pachomius."
 modern_rendering: >-
-  This rule begins in the name of the holy Trinity. The angel of the Lord gave it to
-  Abba Pachomius as a command.
+  In the name of the holy Trinity. This is the rule which the angel of the Lord gave to Abba
+  Pachomius as a command.
 speaker_or_author: "the Ethiopic rule's own opening superscription"
 license: verbatim
 modern_lens_note: >-

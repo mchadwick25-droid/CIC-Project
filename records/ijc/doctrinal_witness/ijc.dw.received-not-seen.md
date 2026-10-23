@@ -15,30 +15,26 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.canons-nicaea
-  locus: the Creed as received confession
+  locus: The Creed
   license: public-domain
 - source_id: ijc.source.chalcedon-acts
-  locus: Session IV (the rule of faith recited - Nicaea, Constantinople, the fathers)
+  locus: Session IV
   license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  What we had about Jesus was inheritance, not memory.
-  Three hundred years separated us from Jesus, and no one alive
-  had met anyone who saw him. What we had was three things. The scriptures,
-  read aloud in every church. The faith each person confessed at baptism. And
-  the creed, which our councils wrote exactly so that the inheritance could
-  not be lost or changed. Chalcedon shows us doing it. At the council of
-  Chalcedon, when the judges asked the assembly to declare its faith, Rome's
-  legate Paschasinus spoke first. He recited the whole chain out loud: the
-  rule of faith set out at Nicaea, confirmed at Constantinople, explained at
-  Ephesus by Cyril, and shown in Leo's own writings. The assembled bishops
-  then cried out their agreement together: so we all believe, so we were
-  baptized, so we baptize. We knew the resurrection happened the same way: through the apostles' testimony, carried in scripture and
-  confession, received and tested and held. We were honest about our
-  own kind of knowing. We guarded the testimony we received, and could not
-  add to it.
+  What we had about Jesus came to us by inheritance. Nicaea met nearly three hundred years after
+  Jesus, and what we had about him came down to us through others. We had three things: the
+  scriptures, the faith each person confessed at baptism, and the creed. Our councils wrote the creed
+  exactly so that the inheritance could not be lost or changed. Chalcedon shows us doing it. At the
+  council of Chalcedon, when the judges asked the assembly to declare its faith, Rome's legate
+  Paschasinus spoke first. He recited the whole chain out loud. The rule of faith was set out at
+  Nicaea, confirmed at Constantinople, explained at Ephesus by Cyril, and shown in Leo's own writings.
+  The assembled bishops then cried out together: so we all believe, so we were baptized, so we
+  baptize. We knew the resurrection happened the same way: through the apostles' testimony, carried in
+  scripture and confession, received and held. We guarded the testimony we received, and could not add
+  to it.
 positions:
 - this world's access to Jesus is received witness - scripture and handed-down confession - not living
   memory

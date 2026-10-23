@@ -16,30 +16,30 @@ confidence:
     source it reiterates (De Votis Monasticis) is itself not vendored, disclosed as a named absence.
 sources:
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: Babylonian Captivity, cited among this entry's Registry rows (Doc_06 SS5 entry 8.1)
+  locus: Babylonian Captivity
   license: public-domain
 - source_id: witt.source.luther-that-doctrines-of-men-are
-  locus: That Doctrines of Men Are to Be Rejected, cited among this entry's Registry rows (Doc_06 SS5
-    entry 8.1)
+  locus: That Doctrines of Men Are to Be Rejected
   license: public-domain
 - source_id: witt.source.luther-to-the-knights-of-the-teutonic
-  locus: To the Knights of the Teutonic Order -- 'such a vow is nothing at all and is not to be kept,
-    unless a man have God's special grace'
+  locus: >-
+    To the Knights of the Teutonic Order -- 'such a vow is nothing at all and is not to be kept, unless
+    a man have God's special grace'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 8.1)
+  locus: the Large Catechism
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'no man's law, no vow, can annul the commandment and ordinance of
-    God'
+  locus: >-
+    the Augsburg Confession -- 'no man's law, no vow, can annul the commandment and ordinance of God'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XXVII, read entire this pass -- 'we hold that lawful vows ought to be observed'
+  locus: the Apology XXVII -- 'we hold that lawful vows ought to be observed'
   license: public-domain
 - source_id: witt.source.philadelphia-vols-i-iii-general-introduction
-  locus: "the editorial apparatus's own note (v3) that De Votis Monasticis was excluded from this volume
-    because of its size -- named absence; the treatise itself is not vendored, referenced only as the
-    Apology's own reiterated book"
+  locus: >-
+    the Philadelphia Edition translators' note that De Votis Monasticis was left out of the volume because
+    of its size
   license: public-domain
 retrieval:
   tier: 2

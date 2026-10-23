@@ -280,6 +280,19 @@ works:
 
     '
   source_file: knox_works-v2_laing1895.txt
+- row_id: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--appendix-letters-and-papers-of-cyril-lucaris-with-ottoman-command-2
+  work: 'Appendix: letters and papers of Cyril Lucaris in Latin, with an Italian ''Instruttione''
+    and a ''Comandamento'' (an Ottoman command concerning the Patriarch) in Italian'
+  author: lucaris
+  locus: Appendix from about file line 4405 to about 7003
+  role: context
+  confidence: provisional
+  note: 'Placed beside Aymon''s edition of Lucaris''s letters on the same footing: the Patriarch''s
+    correspondence with the Reformed West; whether Lucaris was a Calvinist is disputed. Not
+    read letter by letter for this placement.
+
+    '
+  source_file: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707.txt
 - row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris-2
   work: Confessio Christianae fidei (Latin), Cyril Lucaris
   author: lucaris

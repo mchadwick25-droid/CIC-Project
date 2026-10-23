@@ -93,6 +93,42 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
+- row_id: athanasius_opera-omnia-pg25-grc-lat_migne1857--athanasius-opera-pg-25-greek
+  work: 'Athanasius, Opera omnia, Patrologia Graeca 25 (Migne 1857): Apologia contra Arianos
+    (with the Tyre, Rome and Sardica dossier), Apologia ad Constantium, Apologia de fuga,
+    Historia Arianorum, Epistola encyclica'
+  author: athanasius
+  locus: Greek column; the Arsenius passage of the Apologia contra Arianos at about file line
+    70066
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Greek original behind the English of npnf204_athanasius-
+    select-works-letters.xml. SECOND WITNESS ONLY: in this OCR the Latin translation column
+    is garbled into Greek-looking glyphs throughout and the Greek column is legible only in
+    places; nothing is quotable until verified against the scanned page. Role kept at context
+    (the alx bucket''s own Athanasius rows decide tradition placement; this row only makes
+    the Greek findable). Not a quotable primary witness until a cleaner scan is vendored.
+
+    '
+  source_file: athanasius_opera-omnia-pg25-grc-lat_migne1857.txt
+- row_id: athanasius_opera-omnia-pg26-grc-lat_migne1857--athanasius-opera-pg-26-greek
+  work: 'Athanasius, Opera omnia, Patrologia Graeca 26 (Migne 1857): Orationes contra Arianos,
+    De Decretis Nicaenae Synodi (with Eusebius of Caesarea''s letter), De Synodis (Thalia
+    fragments, Arius''s letter to Alexander, the creeds of 359-360), Epistolae, Vita Antonii,
+    Festal letters'
+  author: athanasius
+  locus: Greek column; homoousios recovered 154 times, e.g. file line 24095
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Greek original behind the English of npnf204_athanasius-
+    select-works-letters.xml. SECOND WITNESS ONLY: in this OCR the Latin translation column
+    is garbled into Greek-looking glyphs throughout and the Greek column is legible only in
+    places; nothing is quotable until verified against the scanned page. Role kept at context
+    (the alx bucket''s own Athanasius rows decide tradition placement; this row only makes
+    the Greek findable). Not a quotable primary witness until a cleaner scan is vendored.
+
+    '
+  source_file: athanasius_opera-omnia-pg26-grc-lat_migne1857.txt
 - row_id: npnf204_athanasius--defence-against-the-arians-apologia-contra-arianos
   work: Defence Against the Arians (Apologia Contra Arianos)
   author: athanasius
@@ -365,6 +401,20 @@ works:
 
     '
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+- row_id: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922--synaxaire-arabe-jacobite-commemoration-of-athanasius-7-bachons-french
+  work: Le Synaxaire arabe jacobite, the commemoration of Athanasius the Apostolic (7 Bachons),
+    French
+  author: copto-arabic-synaxarium
+  locus: file lines 18317-18400
+  role: context
+  confidence: provisional
+  note: 'Medieval Coptic memory of the fourth-century Alexandrian bishop: his exile under
+    the Arian Constantius, the intrusion of George, his imprisonment ''avec le pape de Rome
+    et le patriarche d''Antioche'', his flight under Julian. Later memory of the Alexandrian
+    world, not its contemporary voice; dated and placed, never evidence of the events.
+
+    '
+  source_file: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt
 - row_id: npnf214_seven-ecumenical-councils--the-second-council-of-constantinople-553-extracts-from-the-2
   work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
     Anathemas Against Origen'
@@ -381,6 +431,21 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901--council-of-nicaea-325-in-mansi-tom-2
+  work: 'Council of Nicaea (325): creed, canons, synodal letter, Constantine''s letters and
+    the subscriptions, in Mansi tom. 2'
+  author: council-of-nicaea-325
+  locus: heading CONCILIUM NICAENUM GENERALE at file line 599; syllabus 'Symbolum Concilii'
+    and 'Canones xx. Niceni' at file lines 624-626
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. The whole-collection witness to the Nicene documents in
+    Greek and Latin with the editors'' dissertations; the volume also carries Ancyra, Neocaesarea,
+    Gangra, Antioch, Tyre 335, Jerusalem 335, Rome 341 and Antioch 341. Verify every quotation
+    against the page image (long s as f; Greek column recovery not checked line by line).
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901.txt
 - row_id: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769--de-trinitate-on-the-trinity-three-books
   work: De Trinitate (On the Trinity, Three Books)
   author: didymus-alexandria
@@ -441,6 +506,49 @@ works:
     2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
     of it.
+- row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--panarion-heresies-34-64-gcs-31-greek
+  work: Panarion, heresies 34-64 (GCS 31, Holl 1922), Greek
+  author: epiphanius
+  locus: heresy 64, against Origen, running head at file line 31495 on
+  role: context
+  confidence: provisional
+  note: 'A hostile contemporary account of Origen''s teaching, written about 375 by the man
+    who then carried the case against Origen to Jerusalem (393) and Constantinople (402).
+    The view from outside the Alexandrian tradition, in the original Greek; context, not its
+    voice. Greek and German both recovered in the OCR; ready to quote once verified against
+    the scan.
+
+    '
+  source_file: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt
+- row_id: epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860--panarion-heresies-68-melitians-and-69-arians-greek-and-latin
+  work: Panarion, heresies 68 (Melitians) and 69 (Arians), Greek with Petavius's Latin (Oehler
+    1860)
+  author: epiphanius
+  locus: heresy 68 from file line 43599 (Greek) and 43646 (running head); heresy 69 from 45163;
+    Arius's letters quoted at 45445-45580
+  role: context
+  confidence: provisional
+  note: 'The fullest ancient account of the Melitian schism of Egypt (whose bishops accused
+    Athanasius at Tyre in 335) and a near-contemporary account of Arius''s career, written
+    374-377 by a Nicene heresiologist outside Egypt. The view from outside the Alexandrian
+    tradition, in the original Greek; context, not its voice. Greek recovered with Google-OCR
+    errors: verify against the page image before quoting.
+
+    '
+  source_file: epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt
+- row_id: eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908--historia-ecclesiastica-vi-x-greek-with-rufinus-latin
+  work: Eusebius, Historia ecclesiastica Books VI-X and De martyribus Palaestinae, Greek with
+    Rufinus's Latin (GCS, Schwartz and Mommsen 1908)
+  author: eusebius
+  locus: Greek and Latin in parallel; Books VI-X
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Greek original behind the English of npnf201 for Books
+    VI-X (Origen and the Alexandrian school; the persecutions; the peace of the church). Primary
+    original-language witness; both scripts recovered.
+
+    '
+  source_file: eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt
 - row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-2
   work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
@@ -548,6 +656,18 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- row_id: lucifer-cagliari_opuscula-lat_hartel1886-csel14--de-sancto-athanasio-i-ii-latin
+  work: De sancto Athanasio I-II (Quia absentem nemo debet iudicare nec damnare), Latin
+  author: lucifer-of-cagliari
+  locus: file lines 5463-12299
+  role: context
+  confidence: provisional
+  note: 'A Western bishop''s defence of Athanasius against the judgments of Tyre (335) and
+    Milan (355): a contemporary ally''s view of the Alexandrian bishop''s trials from outside
+    Egypt. Context, not Alexandria''s own voice.
+
+    '
+  source_file: lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt
 - row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--from-the-discourse-on-the-resurrection
   work: From the Discourse on the Resurrection
   author: methodius

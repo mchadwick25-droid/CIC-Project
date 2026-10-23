@@ -17,6 +17,7 @@ relations: []
 author: Michel Rene Barnes
 work: Scholarship dismantling the older 'Cappadocian settlement' textbook narrative
 edition: In-copyright modern scholarship, not vendored
+citation: Michel Rene Barnes, scholarship on the 'Cappadocian settlement' narrative
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

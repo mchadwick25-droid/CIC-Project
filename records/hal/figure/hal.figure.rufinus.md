@@ -32,9 +32,10 @@ dates:
     preface (397), describing without naming Jerome as Origen''s earlier translator,
     ignited the public rupture; the exchange of Apologies 401-403'
 narratable: true
-bridge_line: the oldest friend who became the fiercest opponent - fellow translator of
-  Origen, whose preface recalling Jerome's earlier admiration of the master set off the
-  rupture neither man ever repaired
+bridge_line: >-
+  the old friend who became a bitter foe. He too translated Origen. His
+  preface praised Jerome as an earlier translator, without naming him, and set
+  off a break that neither man ever mended
 ---
 The other voice of the world's central internal fracture - and, unusually
 for this world, a voice that survives in his own words (the Apology,

@@ -1,0 +1,41 @@
+source_file: sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860.txt
+
+assignments:
+  - row_id: sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860--ecclesiastical-history-books-v-ix-greek
+    work: "Ecclesiastical History, Books V-IX, Greek (Hussey 1860, tomus II)"
+    author: sozomen
+    locus: "Book VII, from file line 18760: the Council of Constantinople of 381, Nectarius at file line 20181, Maximus the Cynic at file line 20332"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: provisional
+    note: >
+      A Constantinopolitan lawyer's narrative written about 440-450, from documents and from
+      Socrates: the fullest near-contemporary account of the council of 381 and of Gregory's
+      resignation, seen from outside the Cappadocian world. Greek original behind npnf202.
+      Second witness for quotation: Greek legible, Latin version and title page garbled in the
+      OCR.
+  - row_id: sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860--ecclesiastical-history-books-v-ix-greek-2
+    work: "Ecclesiastical History, Books V-IX, Greek (Hussey 1860, tomus II)"
+    author: sozomen
+    locus: "Book VIII, from file line 26089: Theophilus and the Tall Brothers, Epiphanius at Constantinople, the Synod of the Oak (file line 30387), the exile and death of John, Innocent's letters"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: context
+    confidence: provisional
+    note: >
+      The near-contemporary narrative of Chrysostom's episcopate, the Synod of the Oak and the
+      exile, by a sympathetic outsider writing a generation later. Context, not the Antiochene
+      world's own voice. Same OCR caveat as above.
+  - row_id: sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860--ecclesiastical-history-books-v-ix-greek-3
+    work: "Ecclesiastical History, Books V-IX, Greek (Hussey 1860, tomus II)"
+    author: sozomen
+    locus: "Books VII-VIII: Theodosius's laws and councils, the emperor's part in 381 and in the deposition of John"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Sozomen dedicates the work to Theodosius II and narrates the emperors' dealings with
+      bishops and councils throughout. Context for the imperial-juridical world, in Greek; the
+      English is already assigned from npnf202.

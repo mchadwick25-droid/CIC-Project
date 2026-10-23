@@ -31,8 +31,8 @@ dates:
   display: a member of Lucilla's household; consecrated bishop of Carthage against Caecilian in 311 or
     312; succeeded by Donatus from about 313. Nothing of his life before or after the see is recorded.
 narratable: true
-bridge_line: The bishop consecrated against Caecilian - the first man in our own line, remembered almost
-  entirely for the act of being ordained.
+bridge_line: The bishop consecrated against Caecilian, the first man in our line. We remember him
+  mostly for being made a bishop.
 relations:
 - type: associated-with
   target: don.story.lucilla-affair

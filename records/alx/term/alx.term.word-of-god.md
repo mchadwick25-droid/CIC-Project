@@ -51,9 +51,7 @@ senses:
   evidential: Clement locates the Word's address in creation, philosophy, and now Christ and Scripture
     together; Origen traces the Word's modes of address across creation, text, and soul; Athanasius
     reads the Word who creates as the same Word who restores.
-  personal: Reading Scripture is not gathering information from an old book - it is being addressed by
-    the one through whom the reader was made, which is why the encounter can change someone rather than
-    only inform them.
+  personal: "Reading Scripture was no gathering of information from an old book. It was being addressed by the one through whom the reader was made. That is why the encounter could change someone and not only inform them."
   translational: >-
     Isn't "the Word of God" just another name for the Bible? This world heard something behind the book:
     the eternal Word who spoke creation into being and now speaks through this text - the person, not the

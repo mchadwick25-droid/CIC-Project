@@ -47,13 +47,8 @@ senses:
     where it is announced: the Church is holy "through knowledge," and is "not now the place, but the
     assemblage of the elect"; Athanasius''s Festal Letters show a bishop governing the whole community''s
     shared formation life across a year, not just an organization''s calendar.'
-  personal: A baptized person who never shares in the community's actual life belongs only in name; a
-    catechumen not yet baptized but genuinely praying and learning with others is, in the sense that
-    matters, more fully inside the church.
-  translational: >-
-    Isn't the church basically a building or an organization with members? This world meant something
-    different - an assembly constituted by people actually gathered around the Logos, not by a roll of
-    names.
+  personal: "A baptized person who never shared in the community's life belonged only in name. For Clement the church was no place, but the assemblage of the elect, made holy by knowledge."
+  translational: "Isn't the church basically a building, or a group with a list of members? This world meant something else: people actually gathered around the Logos, not a roll of names."
 quick_meaning: Not a building or a list of members. It is the assembly gathered around the Logos.
 distortion_risk: high
 use_note:

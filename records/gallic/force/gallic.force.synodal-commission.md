@@ -57,7 +57,7 @@ description: |-
 
   Faustus says that whoever takes up the zeal for asserting grace fitly and wholesomely joins to it the obedience of labor's servant. He warns that someone who leaves the royal road may fall to the right while believing that others slip to the left. After the council of Arles had signed, new errors were found, and the synod of Lyons required some things to be added.
 
-  All of this about the prologue is rebuilt from a corrupt scan of the text. The exception is the fragments named in the record's divergence note.
+  The prologue survives here only in a poor copy, so its wording is uncertain except for a few phrases.
 
   Gennadius sums up the teaching: the grace of God always invites, goes before, and helps our will.
 

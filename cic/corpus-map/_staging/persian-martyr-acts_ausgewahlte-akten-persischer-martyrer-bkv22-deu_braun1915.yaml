@@ -1,0 +1,26 @@
+source_file: persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915.txt
+
+authors_ruled:
+  persian-martyr-acts:
+    kind: anonymous
+    evidence: >
+      The Syriac acts of the Persian martyrs are anonymous hagiographic texts of the
+      fourth to fifth centuries; Braun is translator (title page, file lines 26 to 62).
+      Ruled as a collection entity, the same shape as the acta-martyrum rulings already
+      in UNATTRIBUTED.yaml.
+
+assignments:
+  - row_id: persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915--selected-persian-martyr-acts-german
+    work: "Ausgewählte Akten persischer Märtyrer: selected Syriac acts of the Persian martyrs in German, with an appendix on East Syriac monastic life"
+    author: persian-martyr-acts
+    locus: "whole file; contents 81; Yazdgard I in the introduction 488; 'Abda and Narse 562; Jakob der Notar 819; Yazdgard II 595 and 830"
+    atlas_ids:
+      - persian-church-of-the-east-early
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). The Persian church's own martyr acts in German
+      (Bibliothek der Kirchenväter 22, 1915), including the martyrs at the end of Yazdgard
+      I's peace and under Yazdgard II: context for the synods of 410 and 424, not a record
+      of them. Hagiography, written after the events.

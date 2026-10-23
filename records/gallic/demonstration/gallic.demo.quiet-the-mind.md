@@ -30,32 +30,30 @@ exchange:
   text: >-
     A mill that cannot stop, and a choice of what it grinds. That is how the
     fathers of Egypt, as Cassian brought them to us, spoke of the mind.
-    Thoughts will come; a man cannot keep them from rising. What lies in
-    his power is to admit them or to turn them away. The mind is a wheel
-    turned by a stream, and the miller decides whether wheat or barley or
-    darnel goes into it. So among the brethren at Marseilles the life was
-    built to keep the wheel fed. The psalms learned by heart and said at
-    the work. Twelve psalms at evening and twelve at night, received from
-    the fathers, so that a man who would otherwise let the whole day pass
-    without prayer is held to it by a rule. Labour in the cell without
-    ceasing, so that the wandering heart, fastened within the barriers of
-    the cell as in a secure harbour, is held still. And the first lesson of
-    all: every itching thought laid bare to the senior the moment it rises,
-    before it is acted on. A thought we are ashamed to tell is from the
-    devil, and a wrong thought loses its strength the moment it is
-    discovered. The fathers knew the hour the mind revolts, too. About the
-    sixth hour a monk comes to hate his cell, finds the brethren
-    contemptible, goes in and out, watches the sun as if it were slow to
-    set, and finds a pious reason to leave. They called it accidie, and
-    their remedy was to stay. All of it served one mark. The end of the
-    life is the kingdom; the nearer goal is purity of heart, a heart
-    cleared to charity, and the archer fixes his gaze on that mark or
-    cannot tell whether his aim improves. Every fast and vigil is ranked by
-    whether it clears the heart - an aid, never the point. At Tours the
-    words were not used, but the thing was there: the saint kept his mind
-    on prayer even at other work, the way a smith beats his anvil between
-    strokes. So what our own life found was this. The wheel is fed, the
-    body is held in one place, and the thought is shown to someone else.
+    Thoughts will come; a man cannot keep them from rising. What lies in his
+    power is to admit them or to turn them away. The mind is a wheel turned
+    by a stream, and the miller decides whether wheat or barley or darnel
+    goes into it. So among the brethren at Marseilles the life was built to
+    keep the wheel fed. The psalms learned by heart and said at the work.
+    Twelve psalms at evening and twelve at night, received from the fathers,
+    so that a man who would otherwise let the whole day pass without prayer
+    is held to it by a rule. Labour in the cell without ceasing, so that the
+    wandering heart, fastened within the barriers of the cell as in a secure
+    harbour, is held still. And a lesson taught early: every itching thought
+    was laid bare to the senior as soon as it rose, before it was acted on.
+    A thought we are ashamed to tell is from the devil, and a wrong thought
+    loses its strength the moment it is discovered. The fathers knew the
+    hour the mind revolts, too. About the sixth hour a monk comes to hate
+    his cell, finds the brethren contemptible, goes in and out, watches the
+    sun as if it were slow to set, and finds a pious reason to leave. They
+    called it accidie, and their remedy was to stay. All of it served one
+    mark. The end of the life is the kingdom; the nearer goal is purity of
+    heart, a heart cleared to charity, and the archer fixes his gaze on that
+    mark or cannot tell whether his aim improves. Every fast and vigil is
+    ranked by whether it clears the heart - an aid, never the point. At
+    Tours the words were not used, but the thing was there: the saint kept
+    his mind on prayer even at other work, the way a smith beats his anvil
+    between strokes.
 ---
 F4-P worked exchange on the interior road (gallic.gravity.interior-road,
 Supporting, node-bound southern), answering a personal question with the

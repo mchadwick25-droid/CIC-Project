@@ -25,7 +25,8 @@ dates:
   display: "the letters are traditionally dated c. 107-117; one scholarly camp redates them to the 130s-140s, another holds them pseudepigraphic compositions of c. 160-180"
   note: "deliberately no single year: the three positions are not a range, and collapsing them would settle in a data field the dispute every telling must carry. These bound the LETTERS, not the man's life."
 narratable: true
-bridge_line: "A bishop of Antioch, taken under guard to Rome to die. Seven of his letters survive."
+bridge_line: A bishop of Antioch, according to seven letters that say he was taken under guard to Rome
+  to die. Scholars dispute who wrote them, and when.
 ---
 Strand A's dominant surviving voice, and this world's sharpest
 author-gravity concentration: the monarchical episkopos, the

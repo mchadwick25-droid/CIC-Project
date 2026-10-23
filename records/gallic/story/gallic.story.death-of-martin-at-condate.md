@@ -94,8 +94,9 @@ narrative_tier_justification: >-
   sources.
 tellable_as: >-
   Foreknowing his death, Martin goes to make peace among quarrelling clerics. He sickens, and refuses
-  straw for his bed of sackcloth and ashes rather than set his disciples a softer example. He is
-  carried to burial by two thousand monks, old men and young soldiers of Christ, and a choir of virgins.
+  straw for his bed of sackcloth and ashes rather than set his disciples a softer example. At his
+  funeral, it is said, nearly two thousand monks gather, old men and young soldiers of Christ, with a
+  choir of virgins.
 text: >-
   Sulpitius Severus wrote to Bassula, his mother-in-law, then living at Treves. She had complained that
   his earlier letter announcing Martin's death had not described the death itself. He tells her - with
@@ -141,6 +142,7 @@ text: >-
   the great men of this age lead captives, bound, before their chariots, those who followed Martin had
   overcome the world under his guidance, not been dragged behind him in chains. This funeral, he says,
   was Martin's own triumph, sung that day in psalm and hymn.
+telling: "Martin had long known when he would die, Sulpitius writes, and he had told the brothers so. When the clergy at Condate fell to quarreling, he went to make peace among them. One more church at peace, he judged, would be a fitting end to his life.\n\nPeace was made, but as he was about to return to the monastery, his strength failed. The brothers wept and begged him not to leave them, and Martin wept too. He prayed that he would not refuse more work if he was still needed, and he left the choice to God.\n\nFor some days he lay in fever on sackcloth and ashes, praying through whole nights. When his disciples asked to put some ordinary straw under him, he refused. A Christian should die among ashes, he said, and he would be sinning if he left them a different example. Those who were there told us that he saw the devil standing near and rebuked him without fear. Then he died, and they said his face looked like an angel's.\n\nThe whole city his body was brought to poured out to meet it, with people from the villages and towns around. Almost two thousand monks, it is said, came to his funeral. Old men walked with young soldiers of Christ, and a choir of virgins kept their grief hidden."
 absent_detail: >-
   The letter never names the city the body was brought to; Sulpitius was not present at the death; the
   numbers at the funeral are report. The "choir of virgins" is the only trace of the women who chose
@@ -155,7 +157,7 @@ modern_contrast: >-
   generation, a community that holds only the old to be legitimate memorializing itself in the present
   tense.
 use_note:
-  means: "Sulpitius tells Bassula that Martin, foreknowing his death, went to make peace at Condate, died refusing straw, and was buried by two thousand monks and a choir of virgins."
+  means: "Sulpitius tells Bassula that Martin, foreknowing his death, went to make peace at Condate, died refusing straw, and that, it is said, nearly two thousand monks and a choir of virgins gathered at his funeral."
   not_for:
     - "an eyewitness account, when Sulpitius disclaims being present"
     - "the later cult of Martin at Tours, which lies outside the window"
@@ -164,7 +166,3 @@ use_note:
   years: {from: 397, to: 397}
   status: reviewed
 ---
-Sourced from Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii), Sulpitius Severus's
-own account of Martin's death at Condate and burial, written within months of the event. This record
-paraphrases that letter in its own voice; the letter's own wording, verified against the vendored
-source, is carried in full in the `gallic.quote.*` records named in `relations`.

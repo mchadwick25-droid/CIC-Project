@@ -28,7 +28,8 @@ dates:
   display: "First Apology c. 153-157; died c. 165 - the best-anchored dating in this world's whole source set"
   died: "c. 165"
 narratable: true
-bridge_line: "A philosopher who kept the philosopher's dress after becoming a Christian. He described our Sunday worship in an open letter to the emperor, and died for the name he defended."
+bridge_line: A philosopher who kept his philosopher's gown after he became a Christian. He described how
+  we worshiped on Sunday in a letter to the emperor. He died for his faith.
 ---
 The philosopher-convert whose own told search (Dialogue 2-8: teacher
 after teacher, then the old man by the sea, then "a flame was kindled

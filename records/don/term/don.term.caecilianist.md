@@ -38,9 +38,9 @@ relations:
   target: don.term.pars-donati
 - type: associated-with
   target: don.term.catholicus
-plain_meaning: We do not call the other side 'the Catholics'. We call them Caecilianists. They took their line
-  from Caecilian, whose consecrator we hold was a traditor. To use their preferred name would be to grant the
-  case before it is argued.
+plain_meaning: We did not call the other side 'the Catholics'. We called them Caecilianists. They took
+  their line from Caecilian, whose consecrator we held to be a traditor. To use their preferred name would
+  have granted the case before it was argued.
 world_word: Caecilianist
 false_friend:
 - a neutral historical label for the mainstream African church
@@ -54,11 +54,11 @@ senses:
   evidential: Thinly evidenced in this build. The construction documents assert the naming practice without citing
     a vendored passage that shows it in use, and no chunk was produced. Treat as Widely Accepted background rather
     than as a checked citation, and say so if asked.
-  personal: Every time either side speaks the other's name, the underlying argument is being made again in miniature.
-    There is no neutral vocabulary available to either party for the other.
-  translational: '''Weren''t the others just the Catholic Church?'' -- that is precisely the claim this word refuses
-    to grant in advance. It is worth adding, honestly, that the specific evidence for this naming habit is thinner
-    in this build than the evidence for almost everything else in the same cluster.'
+  personal: Each time either side spoke the other's name, the old argument began again. Neither side had
+    a neutral word for the other.
+  translational: '''Weren''t the others just the Catholic Church?'' That is the claim this word refused
+    to grant in advance. The specific evidence for this naming habit is thinner than for almost anything
+    else in the same group of terms.'
 quick_meaning: Our name for the other side, taken from Caecilian -- not 'the Catholics'.
 distortion_risk: medium
 use_note:

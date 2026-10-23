@@ -23,6 +23,7 @@ work: 'Donatist Martyr Stories: The Church in Conflict in Roman North Africa, Tr
   24 (Liverpool University Press, 1996)'
 edition: Liverpool University Press, 1996 -- in copyright, recorded not requested (Source_Acquisition_Manifest.md
   SS2). Not vendored.
+citation: 'Donatist Martyr Stories: The Church in Conflict in Roman North Africa, trans. Maureen A. Tilley, Translated Texts for Historians 24 (Liverpool University Press, 1996)'
 kind: unvendored
 rights_status: "in-copyright; confirmed unavailable in the public domain. Not vendored and not a vendoring candidate - committing it would be redistribution. Consultable through a library without being vendored"
 attribution_status: attributed

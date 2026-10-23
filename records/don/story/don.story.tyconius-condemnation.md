@@ -21,12 +21,11 @@ confidence:
     communion is deliberately left open and is not settled by this story.'
 sources:
 - source_id: don.source.augustine-contra-epistulam-parmeniani
-  locus: Contra Epistulam Parmeniani I.1; cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt,
-    lines 2145-2200
+  locus: Augustine, Against the Letter of Parmenian I.1
   license: public-domain
 - source_id: don.source.monceaux-histoire-litteraire-tome5
-  locus: cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt, lines 8520-8570 - the
-    aftermath, and the footnote that quotes the same Augustine passage
+  locus: 'Monceaux, Histoire litteraire de l''Afrique chretienne, vol. 5, the chapter
+    on Tyconius: the aftermath, and the footnote quoting the same Augustine passage'
   license: public-domain
 retrieval:
   tier: 2
@@ -57,17 +56,18 @@ narrative_tier_justification: 'Tier 1, correcting an earlier judgement made duri
   Parmenian''s letter and its rebuke are stated by Augustine without a hedge and are treated as Documented;
   what followed carries his own "perhibent," and that hedge is kept, the same discipline don.story.council-of-cirta
   applies to its own disputed date.'
-tellable_as: A man argues from Scripture that the church is spread through the whole world, his own bishop
-  tells him never to preach it again, and he neither recants nor leaves.
+tellable_as: A man argues from Scripture that the church spreads across the whole
+  world. His own bishop tells him never to preach it again. He neither gives in
+  nor leaves.
 text: >-
   Tyconius made an argument from Scripture too well supported to simply
   dismiss, and it undid him from the inside.
 
   He argued, at length and with abundant scriptural support, that the
-  Christians of Africa belonged to a church spread across the whole
-  earth - connected not by anything peculiar to Africa but by communion
-  with that same body everywhere. Anyone actually listening to the case
-  he built from the text could see where it led: if that was true, the
+  Christians of Africa belonged to a church spread across the whole earth
+  - connected not by anything peculiar to Africa but by communion with
+  that same body everywhere. Anyone actually listening to the case he
+  built from the text could see where it led: if that was true, the
   African churches still in communion with the rest had not lost anything
   by staying there, and those who had cut themselves off from that
   communion - his own party among them - were the ones who had separated
@@ -77,17 +77,15 @@ text: >-
   exactly where the argument pointed, and they did not follow it.
   Parmenian wrote to Tyconius directly, rebuking him for preaching that
   the church extended across the whole earth, and warning him not to dare
-  do it again. Tyconius did not recant, and did not leave. He kept
-  arguing what he had argued, from inside the party that had told him to
-  stop.
+  do it again. Tyconius did not recant, and did not leave. He kept arguing
+  what he had argued, from inside the party that had told him to stop.
 
   What came after the letter is less certain, and the record itself marks
   it as less certain: it is reported - not witnessed outright, but
-  reported - that Tyconius was afterward condemned by a council of his
-  own communion. He was never received back. He did not go over to the
-  other side either. He simply remained, for whatever years he had left,
-  the head of a schismatic church so small that he may have been the only
-  one left in it.
+  reported - that Tyconius was afterward condemned by a council of his own
+  communion. He was never received back. He did not go over to the other
+  side either.
+telling: "Tyconius argued at length, with strong support from Scripture, that the Christians of Africa belonged to a church spread across the whole earth. Anyone who followed the case could see where it led. If he was right, the African churches still in communion with the rest had lost nothing by staying. Those who had left that communion, his own party among them, had broken away from something real.\n\nParmenian, our bishop at Carthage, saw where the argument pointed, and he did not follow it. Augustine, writing against us some twenty years later, tells what came next. Parmenian wrote to Tyconius and rebuked him for preaching that the church spread across the whole earth. He warned him never to dare do it again.\n\nTyconius did not take it back, and he did not leave. He went on arguing from inside the party that had told him to stop. It is reported, Augustine says, that a council of his own communion then condemned him. He never went over to the other side."
 absent_detail: Parmenian's letter itself does not survive; what survives is Augustine's report of it. No
   act of any council condemning Tyconius survives, which is why the report of one carries a hedge. Nothing
   survives of Tyconius's own answer to the rebuke, of who if anyone stood with him, or of how his book
@@ -110,25 +108,3 @@ use_note:
   years: {from: 380, to: 400}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory009_tyconius-
-condemnation.md (Doc_09 story index row donstory009, Tier 1), whose
-narrative text is carried forward rather than re-derived.
-
-Doc_09 Section 7's own boundary-case classification for Tyconius's
-condemnation rests on a primary citation Monceaux's own footnote names,
-flagged as unchecked and available by Doc_02 Section 9. This record
-carries that citation in narrative_tier_justification: the tier here
-rests on it, and it is part of what a later reader needs.
-
-TYCONIUS'S STANDING IS LEFT OPEN ON PURPOSE - don.core.donatism cautions
-item 9. He was tested against the strand bar and rejected on the record,
-not overlooked: a condemned individual dissenting voice with no attested
-following and no distinct communal practice. His own formal standing
-within this communion is deliberately unresolved, and this story does
-not resolve it.
-
-THE SEVEN RULES ARE NOT IN THIS RECORD. Doc_01 and Doc_07 both name
-speculative and hermeneutical theology beyond Tyconius as a genuine
-disclosed absence, and the Book of Rules' own seven rules have not been
-read into this build. A participant asking for the content of his
-hermeneutics should not be handed this story as though it answered that.

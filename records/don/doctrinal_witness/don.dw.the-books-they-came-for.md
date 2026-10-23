@@ -78,9 +78,8 @@ text: >-
   answer. No writing of ours arguing that case has survived. What
   survived is what we did with it. We buried our dead inside the walls
   of the basilica where they were killed, kept the day they died, and
-  read the account of each death aloud again every year, as though the
-  ending were not the end. That is an answer of a kind. It is not an
-  argument.
+  read the account of each death aloud again every year. That is an
+  answer of a kind. It is not an argument.
 positions:
 - what we held of Christ was the scriptures as physical books, and the demand that those books be surrendered
   is the founding fact of our division rather than background to it

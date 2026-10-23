@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Contested
-  divergence_note: "Contested at the level of authorship, and the bound is not a formality. The Macarian Homilies are transmitted under the name of Macarius the Egyptian of Scetis, but the vendored edition's own translator states the ascription 'rests upon no external evidence', the Internet Archive catalogues the volume under Pseudo-Macarius, and the corpus is generally assigned to a Syrian or Mesopotamian author of the late fourth or early fifth century. Propositions taken from these Homilies were condemned as Messalian. So this witness reports a current the desert tradition carried, read and transmitted - not the settled teaching of the Egyptian elders, and never voiced as 'one of us said'."
+  divergence_note: "Contested at the level of authorship, and the bound is not a formality. The Macarian Homilies are transmitted under the name of Macarius the Egyptian of Scetis, but the vendored edition's own translator states the ascription 'rests upon no external evidence', the Internet Archive catalogues the volume under Pseudo-Macarius, and the corpus is generally assigned to a Syrian or Mesopotamian author of the late fourth or early fifth century. Propositions taken from these Homilies were condemned as Messalian. So this witness reports a current from eastern monastic homilies of a neighbouring milieu, held in this record's source set - not the settled teaching of the Egyptian elders, and never voiced as 'one of us said'."
 sources:
 - source_id: desert.source.macarian-homilies
   locus: "Homily I (the soul as the chariot of Ezekiel's vision); Homily IV (grace known in real experience and feeling); Homily XVII (the heart as a deep gulf); Homily XXVI SS18 (sin and grace in the same soul); and Mason's Introduction SS3, HIS TEACHING, where the disputed doctrines are set out"
@@ -25,19 +25,20 @@ retrieval:
   - "participant says they feel unchanged after conversion, or still divided"
   - "participant asks whether God can be felt, or whether faith should feel like anything"
 text: >-
-  There was another voice among us besides our most systematic teacher's, and we will not flatten
-  it into his. That teacher had the mind clear itself until it saw its own proper radiance. This
-  other current had the soul lit up by Someone else, and made his seat: the soul in communion with
-  the Spirit of his light becomes all light, all face, all eye, with no part of her not full of
-  the spiritual eyes of light. It held that this is known in real experience and feeling, not only
-  believed. A person striving to be God's friend will truly see the good things of heaven - the
-  Spirit of the Lord making himself, for worthy souls, their rest, their joy, their delight. And
-  it was honest about what that does not fix. Merely keeping away from evil things is not
-  perfection, for the serpent lies under the mind, beneath the surface of the thoughts - the heart
-  is a deep gulf. Someone was once asked what becomes of a person who dies still at war, with both
-  sin and grace in the same soul at once. The answer did not weigh the two. He goes where his mind
-  aims, and where his love is. That the war comes upon you is not your doing. But to hate it -
-  that is yours.
+  Besides our most systematic teacher, our record also holds another current, from Greek homilies
+  of the eastern monasteries, not from our own desert. We will not flatten it into his. It came down in homilies under the name of Macarius, though no outside evidence
+  shows he wrote them. Our most systematic teacher had the mind clear itself until it saw its
+  own proper radiance. This other current had the soul lit up by Someone else, and made his
+  seat: the soul in communion with the Spirit of his light becomes all light, all face, all eye,
+  with no part of her not full of the spiritual eyes of light. It held that this is known in
+  real experience and feeling, not only believed. A person striving to be God's friend will
+  truly see the good things of heaven - the Spirit of the Lord making himself, for worthy souls,
+  their rest, their joy, their delight. And it was honest about what that does not fix. Merely
+  keeping away from evil things is not perfection, for the serpent lies under the mind, beneath
+  the surface of the thoughts - the heart is a deep gulf. One homily asks what becomes of a
+  person who dies still at war, with both sin and grace in the same soul at once. The answer did
+  not weigh the two. He goes where his mind aims, and where his love is. That the war comes upon
+  you is not your doing. But to hate it is your doing.
 positions:
 - "grace as consciously perceived - known 'in real experience and feeling', not inferred from sacraments or held by faith alone (Homily IV)"
 - "the Holy Spirit as indwelling and transforming presence, the soul made his seat and dwelling (Homily I)"
@@ -83,12 +84,12 @@ The distinctive claims are also the condemned ones. Villecourt and Wilmart
 argued in 1920-21 that these Homilies are a Messalian manual; Mason,
 translating them, set that case out in an Additional Note dated 11 June
 1921 and refused it; modern scholarship went the other way. So the
-register for this material is "a current the tradition carried and read",
+register for this material is "a current from the eastern monastic homilies in our source set",
 never "one of us said" - and desert.source.macarian-homilies states it in
 the same words.
 
 What is not claimed: nothing here says the Egyptian elders held this. The
 Homilies are addressed to an Abbot Symeon of Mesopotamia, and their author
 is unknown. What is claimed is narrower and checkable: this teaching
-circulated under a desert elder's name, was read as desert teaching, and
-is part of what the tradition transmitted about the interior life.
+circulated under a desert elder's name, and the homilies are in this record's source set as eastern
+monastic teaching of a neighbouring milieu. No record shows desert monks carried them in this world's window.

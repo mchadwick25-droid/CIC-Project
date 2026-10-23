@@ -28,14 +28,14 @@ retrieval:
   - "participant asks whether this world baptised babies or only adults who chose it for themselves"
 text: >-
   We treated baptism as new birth in the plainest sense we had. We were
-  signed into the Name and given a new charter before we could weigh a
-  word of it. What happened at the font we called photisma as often as
-  baptisma - illumination, not only washing. Most of the baptisms we can
-  actually document were adult ones. Many were delayed on purpose. Some
-  of us waited until we were dying, hoping to be washed clean once and
-  not risk sinning again afterward. Our own preachers argued hard
-  against that delay, calling it a dangerous game with an uncertain hour
-  of death. They did not argue against the seriousness behind it. We
+  signed into the Name and given the whole faith at once, as a charter,
+  before we could understand all of it. What happened at the font we called
+  photisma as often as baptisma - illumination, not only washing. Most of
+  the baptisms we can actually document were adult ones. Many were delayed
+  on purpose. Some of us waited until we were dying, hoping to be washed
+  clean once and not risk sinning again afterward. Our own preachers argued
+  hard against that delay, calling it a dangerous game with an uncertain
+  hour of death. They did not argue against the seriousness behind it. We
   cannot tell you with confidence how common infant baptism was among us
   specifically, set against this adult, often-delayed pattern. Our own
   clearest record is the delay, not the cradle.
@@ -52,13 +52,17 @@ relations:
 - type: associated-with
   target: cappadocian.quote.basil-against-delaying-baptism
 use_note:
-  means: "This witness says baptism was mostly adult, often delayed until death against preachers' warnings, and was called illumination and new birth."
+  means: This witness says most documented baptisms were adult ones, many delayed on purpose and some
+    until death against preachers' warnings, that baptism was called illumination and new birth, and that
+    how common infant baptism was cannot be told.
   not_for:
-    - "a settled claim about how common infant baptism was, which the record says it cannot supply"
-    - "the preachers' warnings as proof that most people delayed"
-    - "the modern evangelical sense of being born again"
-    - "Basil's own homily wording against delay, which sits in cappadocian.quote.basil-against-delaying-baptism"
-  years: {from: 360, to: 379}
+  - a settled claim about how common infant baptism was, which the record says it cannot supply
+  - the preachers' warnings as proof that most people delayed
+  - the modern evangelical sense of being born again
+  - Basil's own homily wording against delay, which sits in cappadocian.quote.basil-against-delaying-baptism
+  years:
+    from: 360
+    to: 379
   status: reviewed
 ---
 This record cross-references the verbatim quote record cappadocian.quote.basil-against-delaying-baptism.

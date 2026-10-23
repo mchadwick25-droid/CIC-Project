@@ -17,14 +17,14 @@ confidence:
 sources:
 - source_id: ijc.source.theodoret-he
   locus: >-
-    Chalcedon, Session I, the acts as printed in the volume's prolegomena on Theodoret (npnf203_theodoret-jerome-gennadius-rufinus.xml)
+    Chalcedon, the acts as printed in the volume's prolegomena on Theodoret, section 'Theodoret and Chalcedon' (npnf203 lines 3288-3292)
   license: public-domain
 text: >-
   The most illustrious Presidents and the most honourable Assessors said: ‘The vulgar cries are not worthy of bishops, nor will they assist either side. Suffer, therefore, the reading of all the documents.’
 modern_rendering: >-
-  The most distinguished Presidents and the most honorable Assessors said:
-  'These vulgar outcries are not worthy of bishops, and they will not help
-  either side. Allow, therefore, the reading of all the documents.'
+  The most illustrious Presidents and the most honorable Assessors said: "The cries of a mob are not
+  worthy of bishops, nor will they help either side. Allow, therefore, the reading of all the
+  documents."
 speaker_or_author: the imperial Presidents and Assessors at Chalcedon, Session I
 license: verbatim
 modern_lens_note: >-

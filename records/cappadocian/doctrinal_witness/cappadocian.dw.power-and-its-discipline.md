@@ -36,23 +36,17 @@ retrieval:
   - "participant asks whether this world's church protected people who caused harm"
   - "participant asks this world to defend using power against Christians who disagreed"
 text: >-
-  On wrongdoing inside our own communities, we built real, working
-  machinery, not a cover-up. Our own canonical letters graded penance by
-  the offense, set terms of exclusion, and set the path back into
-  communion. We cannot show you our own record handling a specific kind
-  of institutional cover-up. What we can show you is a real, if
-  incomplete, disciplinary practice, honestly disclosed as incomplete.
-  The empire that had pressed a different creed on us finally backed our
-  own instead. The law it wrote named our own bishops as the touchstones
-  for who counted as in communion with the wider church. That meant
-  Christians who held a different confession than ours, not only pagans,
-  found the state's own weight now leaning against them rather than for
-  them. We will not pretend that was simply justice arriving. It was our
-  side finally holding the same kind of power that had been used against
-  us for most of our own lifetime. What our own leaders actually did
-  with that power in the years right after, our own record does not
-  document well. We name that gap rather than fill it with confidence we
-  do not have.
+  For wrongdoing inside our communities, we had working discipline. Our
+  canonical letters graded penance by the offense, set terms of exclusion,
+  and set the path back into communion. We cannot show you that discipline
+  handling a specific kind of institutional cover-up. It was real, but what
+  survives of it is incomplete. The empire that had pressed a different
+  creed on us finally backed our own instead. The law it wrote named our own
+  bishops as the touchstones for who counted as in communion with the wider
+  church. So Christians who held a different confession, not only pagans,
+  now found the state's weight leaning against them. That was not simple
+  justice. Our side now held the kind of power once used against us. We have
+  little word of what our leaders did with it in the years right after.
 positions:
 - once establishment arrived under a friendly emperor, it used state power to enforce communion on this
   world's own terms, including against other Christians, and we do not deny that

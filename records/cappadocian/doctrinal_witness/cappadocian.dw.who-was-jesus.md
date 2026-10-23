@@ -38,23 +38,22 @@ retrieval:
   - "participant asks who Jesus was to this world, or what mattered most about him"
   - "participant asks what the good news actually was here, or what his death and resurrection meant"
 text: >-
-  Jesus was the Son, one being with the Father, and the ground
-  everything else in our life stood on. At the font we were signed into
-  his name, Father, Son, and Holy Spirit together, and taught to believe
-  as we had been baptized. The formula itself was our charter, not
-  decoration around the faith. We confessed him fully what the Father
-  is, not merely like the Father, against a rival teaching in our own
-  day that said otherwise. What his coming was for, we said in our
-  boldest word, was that we might become god. We did not mean equal to
-  God; the gap between maker and creature never closed. We meant truly
-  made like him, endlessly, by grace. We did not chiefly frame his death
-  as a legal transaction. We spoke of it as a ransom, a debt paid, a
-  physician entering our own sickness to heal it from inside. And we
-  held that the poor at our own door bore his very image. So whatever
-  you did for the least of these was preached to us at its full,
-  uncomfortable strength. The surplus you keep beyond your own need was
-  already theirs. Last, and first: we held that his body would rise the
-  way ours will, argued through, not merely wished for, at more than one
+  Jesus is the Son, one being with the Father, and he was the ground
+  everything else in our life stood on. At the font we were signed into his
+  name, Father, Son, and Holy Spirit together, and taught to believe as we
+  had been baptized. The formula itself was our charter, not decoration
+  around the faith. We confessed him fully what the Father is, not merely
+  like the Father, against a rival teaching in our own day that said
+  otherwise. What his coming was for, we said in our boldest word, was that
+  we might become god. We did not mean equal to God. The gap between maker
+  and creature never closed. We meant made truly like him, by grace. We did
+  not chiefly frame his death as a legal transaction. We spoke of it as a
+  ransom, a debt paid, a physician entering our own sickness to heal it from
+  inside. And we held that the poor at our door bore his very image. So the
+  saying about whatever you did for the least of these was preached to us at
+  its full, uncomfortable strength. The surplus you kept beyond your own
+  need, we were told, was already theirs. And we held that his body rose,
+  and that ours would rise too. We argued it through at more than one
   deathbed among us.
 positions:
 - the baptismal formula was treated as the faith's own charter, given whole rather than arrived at by

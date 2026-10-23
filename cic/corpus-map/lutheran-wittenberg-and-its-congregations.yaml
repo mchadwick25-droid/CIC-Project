@@ -15,6 +15,31 @@ works:
     (Andreae, Crusius and others), not Wittenberg''s faculty, and the volume was printed at
     Wittenberg in 1584; so the fit to this entry is provisional. Latin only in this file.'
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+- row_id: gerlach_tage-buch-deu_1674--tage-buch-diary-at-constantinople-1573-1578-german-2
+  work: 'Stephan Gerlach''s Tage-Buch: the diary of the Tuebingen chaplain to the imperial
+    embassy at Constantinople, 1573-1578 (German)'
+  author: gerlach
+  locus: the diary by date from about file line 1363 to about 59626
+  role: context
+  confidence: provisional
+  note: 'The Tuebingen side of the Jeremias II correspondence seen from its own messenger;
+    placed beside the 1584 Acta on the same provisional footing (Tuebingen, not Wittenberg,
+    theologians). Second witness for scan quality.
+
+    '
+  source_file: gerlach_tage-buch-deu_1674.txt
+- row_id: jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582--censura-orientalis-ecclesiae-first-answer-of-jeremias-ii-latin-2
+  work: 'Censura Orientalis Ecclesiae: Patriarch Jeremias II''s first Answer to the Tuebingen
+    theologians on the Augsburg Confession (1576), in Socolovius''s Latin'
+  author: jeremias-ii
+  locus: the Answer under running heads 'Caput I.' from about file line 821
+  role: context
+  confidence: provisional
+  note: 'The Orthodox reply to the Augsburg Confession as a Catholic press printed it against
+    the Lutherans; placed beside the 1584 Acta rows on the same provisional footing.
+
+    '
+  source_file: jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582.txt
 - row_id: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584--patriarch-jeremias-ii-s-replies-to-the-wirtemberg-2
   work: Patriarch Jeremias II's replies to the Wirtemberg theologians on the Augsburg Confession,
     1576-1581 (Latin translation)

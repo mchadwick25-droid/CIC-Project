@@ -15,27 +15,27 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep77
-  locus: secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)
+  locus: secs. 2-6, 11 (Fabiola's divorce, remarriage, penance, restoration, funeral)
   license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Our answer was Fabiola rather than a ruling: divorced, she belonged here.
-  We kept her story where everyone could see it. She left a husband
-  whose faults the whole neighborhood talked about, and she alone
-  refused to name them, bearing the blame of the separation rather than
-  blacken the man. On that leaving, we sided with her. She then married
-  again while he lived - and that, our teaching held, the gospel did not
-  allow, for the woman as for the man; the record is explicit that the
-  same law bound both. When her second husband died, she did not defend
-  herself. She stood in sackcloth before all Rome among the penitents, a
-  senator's daughter, unforced, self-accused. The church received her
-  back to communion, and we honored her afterward above almost everyone.
-  Remarried, it was named a fault, the same fault it would have been for
-  a man. And the fault, repented, ended in honor, a hospital for the
-  poor, and a funeral all Rome attended. The door out of that fault was
-  penance, and we watched her walk through it.
+  Our answer was Fabiola rather than a ruling: divorced, she belonged
+  here. We kept her story where everyone could see it. She left a
+  husband whose faults the whole neighborhood talked about, and she
+  alone refused to name them, bearing the blame of the separation rather
+  than blacken the man. On that leaving, we sided with her. She then
+  married again while he lived - and that, our teaching held, the gospel
+  did not allow, for the woman as for the man; the record is explicit
+  that the same law bound both. After her second husband died, she put
+  on sackcloth and stood before all Rome in the ranks of the penitents.
+  She confessed her fault herself. The church received her back to
+  communion, and we honored her afterward. Remarried, it was named a
+  fault, the same fault it would have been for a man. And the fault,
+  repented, ended in honor, a hospital for the poor, and a funeral all
+  Rome attended. The door out of that fault was penance, and we watched
+  her walk through it.
 positions:
 - separation from a cruel or vicious spouse was accepted; remarriage while the spouse
   lived was held against the gospel's precept

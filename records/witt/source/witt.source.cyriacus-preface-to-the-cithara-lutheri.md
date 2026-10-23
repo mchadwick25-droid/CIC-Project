@@ -17,6 +17,7 @@ relations: []
 author: Cyriacus Spangenberg
 work: preface to the Cithara Lutheri
 edition: (1545) — as quoted in Bacon's Introduction; vendored as cic/texts/luther_hymns_bacon-allen.txt
+citation: Cyriacus Spangenberg, preface to the Cithara Lutheri (1545)
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

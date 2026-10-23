@@ -15,7 +15,7 @@ confidence:
 sources:
   - {source_id: don.dw.not-a-death-wish, locus: "the whole witness - readiness not appetite, and the refusal to win the argument about our own country members", license: public-domain}
   - {source_id: don.story.passio-marculi, locus: "the life given up before persecution came, the cup, crown and palm, the four days at the cliff", license: public-domain}
-  - {source_id: don.story.macrobius-letter, locus: "the closing turn to the congregation - the same may yet be asked of any of you", license: public-domain}
+  - {source_id: don.story.macrobius-letter, locus: "Macrobius's closing, where the two wait with arms stretched out from heaven and the readers are urged to hurry after them", license: public-domain}
   - {source_id: don.term.martyr-martyrdom, locus: "the martyr proved true by what was suffered", license: public-domain}
 canon_question_id: _fleet.canon.f6-e-02
 tags: [hard-places, contested]
@@ -31,30 +31,32 @@ exchange:
 
 
     One of ours had already given away every worldly advantage before
-    persecution ever came near him. The account of him spends its whole
-    length on the life. The cliff is the last four days of it. While he
-    fasted there he was shown a cup, a crown and a palm — and the point of
-    showing them was that he was being told what finishing looked like, not
-    that dying was the goal. What these texts praise is a man who was already
-    what he was before anyone came for him. Death is where the shape of that
-    becomes visible. It is not the shape.
+    persecution ever came near him. The account says his virtues are too many
+    to tell, but a few must be told. The cliff is the last four days of his story.
+    While he fasted there he was shown a cup, a crown and a palm. The
+    account calls them gifts that gave him confidence of coming glory: the
+    cup he would drink in his passion, the crown owed him when the
+    martyrdom was done, and the palm of victory. We read in them what
+    finishing looked like. What these
+    texts praise is a man who was already what he was before anyone came for
+    him. His death made that visible.
 
 
-    And the letter one of our bishops wrote to his own congregation, about
-    two of their number beaten to death, does not say: go and seek this. It
-    says something harder. It says that what was done to those two may yet be
-    asked of any of you. That is a man preparing people who did not choose
-    the situation for something they cannot avoid. Readiness, not appetite.
+    And the letter one of our bishops wrote to the people of Carthage, about
+    two of their number put to death, ends by calling the living to follow
+    them. It says the two are waiting with their arms stretched out from
+    heaven, and it tells the readers to hurry. We will not pretend that
+    sounds like a man talking anyone out of dying.
 
 
-    We will not pretend nobody among us went further. Our country members are
-    said to have sought death, provoked it, thrown themselves at it. That
-    accusation is real and we cannot dismiss it. But you should know that
-    almost everything specific about their conduct comes from people who
-    needed them to look like a mob, and that the one independent record of
-    them, an imperial law, confirms only that they existed and were fined. We
-    can neither repeat that portrait as fact nor produce a better one, and
-    saying so is more honest than doing either.
+    We will not pretend nobody among us went further. Our country members
+    are said to have sought death, provoked it, thrown themselves at it.
+    That accusation is real and we cannot dismiss it. But you should know
+    that almost everything specific about their conduct comes from people
+    who needed them to look like a mob, and that the one independent record
+    of them, an imperial law, confirms only that they existed and were
+    fined. We can neither repeat that portrait as fact nor produce a better
+    one, and saying so is more honest than doing either.
 ---
 Worked exchange for F6-E's challenge variant, from
 `don.dw.not-a-death-wish`. The turn answers the challenge on its merits

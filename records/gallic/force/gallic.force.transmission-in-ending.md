@@ -48,31 +48,31 @@ name: "Transmission in the ending - what the shift of register and the later kee
 kind: ending
 matrix_cell: 3B
 description: >-
-  As the formation-community register closed (3A-1, 3B-1), the mechanisms that had carried this
-  world's material shifted from the world's own hands to successors with their own interests. Inside
-  the window the losses were already accidental and internal: the thief who took the greater part of
-  the Commonitory's second book; the Dialogues reaching Gennadius 'in two divisions'; the Egyptians'
-  perseverance never carried into Gaul 'even for a year' - 'transmission INTO the world already
-  selective before any copyist.' After the window the selection became interested: later monasticism
-  kept the program (RB 42/73), so the Institutes and Conferences survived as a monastic rule's
-  reading rather than as one side of a Gallic argument; orthodoxy's later verdict on G3 produced
-  Dionysius's redaction of Conf. XIII and, in 1894, Gibson's headnotes; Victorian propriety removed
-  the body; the Massilian side's own reports fell outside npnf101's declared policy; and the Lérins
-  network's own Latin - Hilary's sermon, Eucherius's letter, Faustus's treatise - was never selected
-  by the English-language editorial projects that carried Cassian, Sulpitius, and Vincent. The one
-  ancient transmitter who did keep the Lérins side is Gennadius, at Marseilles (Doc_08 Cell 3B,
-  Force 3B-2). WORLD'S OWN EXPERIENCE (Layer 2): not recoverable as such; the world did not survive
-  to see what was kept. What can be said in its own vocabulary is what it believed it was leaving:
-  an example, the fathers' institutes, a remembrancer against forgetting, and the faith of the
-  ancient fathers 'which still remains intact among their successors' - a sentence whose confidence
-  about its successors the record of what was actually kept does not bear out. FORMATION IMPACT
-  (Layer 3): the gaps that trace to transmission rather than to evidence that never existed - the
-  sexual body as a subject of teaching; Conf. XIII in its unredacted form; the Massilian reports in
-  the reporters' own words; the Lérins insiders in their own; Faustus's treatise body; the
-  Commonitory's second book - against the gaps that are the world's own silences: women's own voice,
-  the ordinary Gallic Christian, Marmoutier's worship, Lérins's daily life. 'A Representative built
-  from this record will be authentically more articulate about the program, the virtutes, and the
-  rule than about what the bishop-forming house itself was like from inside - and it must say so.'
+  As the formation communities gave way, the hands that carried their books changed. Some losses
+  came early and by accident. A thief took most of the second book of the Commonitory. Later, the choosing had motives. Later monasticism kept the
+  Institutes and Conferences as reading for a rule, not as one side of a Gallic argument. A later
+  editor cut the grace teaching of Conference XIII to make Cassian orthodox. A later English
+  translator left out the texts on the body, giving no reason. The letters that reported the
+  Marseilles teaching to Augustine were left out of the first NPNF volume of Augustine, under its
+  stated policy. The English editions that carried Cassian, Sulpitius and Vincent did not take in
+  the Latin of Lérins: Hilary's sermon, Eucherius's letter and Faustus's treatise. Gennadius, at Marseilles, is
+  the one ancient writer who kept the Lérins side.
+
+  The world did not survive to see what was kept. What it believed it was leaving was an example,
+  the fathers' institutes, and an aid against forgetting. It also believed it was leaving the faith
+  of the ancient fathers, 'which still remains intact among their successors.' What was actually
+  kept is thinner.
+
+  Some gaps come from this handing on, not from evidence that never existed. They include the body
+  as a subject of teaching, and Conference XIII uncut. They include the reports on Marseilles in the
+  reporters' own words, and the Lérins writers in their own words. They include the body of
+  Faustus's treatise and the Commonitory's second book. Other gaps are the world's own silences:
+  women's own voices, the ordinary Gallic Christian, worship at Marmoutier, and daily life at
+  Lérins.
+
+  A Representative built from this record can speak more fully about the program, the acts of
+  power and the rule. It can say less about what the house that formed bishops was like from
+  inside, and it must say so.
 manifestations:
 - "The Commonitory's second book stolen (Gennadius LXV); the Dialogues 'in two divisions' against the vendored three"
 - "Later monasticism keeping the program - the Institutes and Conferences surviving as a Rule's reading rather than as one side of a Gallic argument (RB 42/73, downstream citation only)"

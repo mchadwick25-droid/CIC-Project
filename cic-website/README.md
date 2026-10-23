@@ -7,7 +7,8 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 
 ## Pages
 
-- `index.html` — Home
+- `index.html` — Home. Its "Who would you like to have a conversation with?" section is the chooser (below).
+- `table.html` — Build a Table. The same chooser, with the seat tray always open.
 - `about.html` — Mission, the Five Convictions, How It Works, Safety & Disclosure, About Us
 - `support.html` — "Get Involved," rewritten with real cost figures; see its own
   header comment and the funding-strategy decision record under
@@ -26,6 +27,10 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
   the buy button stays hidden until a Payment Link is set in the page. The
   shared script is `assets/go-deeper.js`. Decision record under
   the project's private funding-strategy material.
+
+## The chooser
+
+`assets/chooser.js` and `assets/chooser.css` draw the hand of five cards, the era chips, the search box, the written count, "See all", and the seat tray. A page mounts it with `<div data-chooser data-mode="landing|table" data-from="<back-link page>">`. Both mounts read `data/world-census.json` at run time and show every "Built & Live" world, so a new live world appears with no page edit. Each card's words come from the census entry, which is synced from the world's registry file (`records/worlds/<code>.yaml`, `card:` block) by `python3 -m engine.m6.cli sync`. Every launch goes to `talk.html?worlds=…&mode=interview|table&from=<page>&via=<control>`; `from` is the Back link, and `via` names the control that opened the room (hand, scroll, search, table-tray). The design record is `Build/Ministry/Features/Conversation-Chooser/`.
 
 Copy is pulled directly from `Vision, Mission, Convictions, and Foundational
 Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.

@@ -289,6 +289,7 @@ def run_backup_once(
                 prune_remote(f"db-backups/{service_label}/{label}/")
                 status["results"][label] = {"outcome": "ok", "bytes": size, "object_key": object_key}
             else:
+                logger.warning("db_backup: %s backed up but not uploaded: %s is not set", label, _ENV_BUCKET)
                 status["results"][label] = {
                     "outcome": "backed_up_not_uploaded",
                     "bytes": size,
@@ -303,6 +304,21 @@ def run_backup_once(
 
     (staging_dir / STATUS_FILENAME).write_text(json.dumps(status, indent=2))
     return status
+
+
+def summarize_status(staging_dir: Path) -> dict:
+    """The last pass in two facts, for the public health check: whether every
+    database it found reached the bucket, and when it ran. Never the error
+    text, object keys or sizes. No pass recorded yet, or an unreadable
+    status file, reads as not uploaded."""
+    try:
+        status = json.loads((Path(staging_dir) / STATUS_FILENAME).read_text())
+        run_at = status["run_at"]
+        outcomes = [r.get("outcome") for r in status["results"].values()]
+    except (OSError, ValueError, KeyError, TypeError, AttributeError):
+        return {"uploaded": False, "last_run_at": None}
+    uploaded = "ok" in outcomes and all(o in ("ok", "skipped") for o in outcomes)
+    return {"uploaded": uploaded, "last_run_at": run_at}
 
 
 def _next_run_at(now: datetime, hour: int = _DEFAULT_HOUR, minute: int = _DEFAULT_MINUTE) -> datetime:
@@ -362,6 +378,9 @@ def _cli(argv: list[str]) -> int:
     p_restore.add_argument("--local", action="store_true", help="--from-key is a local file, not an object key")
 
     args = parser.parse_args(argv)
+    from engine.api.config import normalize_environ
+
+    normalize_environ()
 
     if args.command == "backup":
         extra = {"meter": args.meter_db} if args.meter_db else None

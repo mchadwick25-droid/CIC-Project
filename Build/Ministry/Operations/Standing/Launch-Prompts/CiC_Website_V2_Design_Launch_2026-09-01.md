@@ -1,4 +1,4 @@
-# Launch Prompt — Website V2 Design (divergent / struggle / convergent)
+# Launch Prompt — Website V2 Design (divergent / groan zone / convergent)
 
 **Standing launch prompt.** Mark pastes everything below the line into a
 new thread to open the Website V2 design workstream. Coordination model:
@@ -24,7 +24,7 @@ designs, serving those who visit and drawing them into the fascinating
 and life-changing journey of the church and how Jesus is faithful to us.
 
 This is explicitly **not a jump-to-decisions straight line.** It is a
-divergent, struggle, and convergent process. Quality and rigor take
+divergent, groan zone, and convergent process. Quality and rigor take
 precedence over cost. Good professional design, as an expert would do
 it, is key.
 
@@ -32,20 +32,19 @@ it, is key.
 
 - Work on the branch **`claude/website-v2-sandbox`** (it exists, with
   the workstream folder scaffolded). **The branch is the sandbox**:
-  merges to main auto-deploy to the live site, so nothing merges until
+  a merge to `main` is live at once for `cic-website` and reaches staging for the engine, so nothing merges until
   Mark has read a converged, built increment and ruled it ready.
 - Workstream home: `Ministry/Features/Website-V2/`. Read its `README.md`
   first — it is the charter in file form.
 - `Ministry/Features/Website-V2/Sandbox/` is the workshop: divergent
-  mockups, dead ends, competing directions, struggle artifacts.
+  mockups, dead ends, competing directions, groan-zone artifacts.
   Messiness is allowed there and only there; nothing in `Sandbox/` is
   ever compiled, served, or merged into deliverable documents.
 - Everything outside `Sandbox/` follows the standing file discipline
-  (Build Process V1.3): files carry only what they exist to carry.
+  (CLAUDE.md 2.1): files carry only what they exist to carry.
 - Never touch the branch `claude/pilot-launch-website-access-j640i1`.
   Push with `git push -u origin claude/website-v2-sandbox`; merge
-  commits only, never squash or rebase shared history; no PRs unless
-  Mark asks.
+  commits only, never squash or rebase shared history; PRs follow CLAUDE.md Part 5; in this workstream a merge still waits on Mark's reading.
 
 ## Model routing (Mark's ruling)
 
@@ -60,7 +59,7 @@ it, is key.
   briefs and let drift in.
 - Be mindful of cost — say at each phase gate roughly what the phase
   spent — but when cost and quality pull against each other, quality
-  and rigor win. Do not thin the divergence, shorten the struggle, or
+  and rigor win. Do not thin the divergence, shorten the groan zone, or
   skip a review to save tokens.
 
 ## Immersion reading (D0 — before any design work)
@@ -116,7 +115,7 @@ accommodate another; the coordinator must not smooth them toward each
 other. If two come back similar, send one back to be made genuinely
 different.
 
-### D2 — STRUGGLE
+### D2 — GROAN ZONE
 
 Opus reviews every direction adversarially — reviews land as files in
 `Sandbox/D2-struggle/`. Each review tries to kill the direction: where
@@ -128,9 +127,8 @@ direction that survives gets strengthened by what the attack exposed.
 **Hybridization is allowed only after critique** — a hybrid is a new
 direction with a named parentage, and it too gets an Opus review.
 
-Close D2 with a struggle summary: survivors, kills with reasons, and
-what the fight taught. **Mark reads the survivors and the struggle
-record and picks.** That is his gate; do not pre-collapse the choice
+Close D2 with a groan-zone summary: survivors, kills with reasons, and
+what the fight taught. **Mark reads the survivors and the groan-zone record and picks.** That is his gate; do not pre-collapse the choice
 for him.
 
 ### D3 — CONVERGE
@@ -142,7 +140,7 @@ filed in `Ministry/Features/Website-V2/` proper (not Sandbox — it is
 now a deliverable and follows the register bar and file discipline).
 All participant-facing copy is **draft-and-approve**: drafts are marked
 as drafts until Mark approves the words. Opus reviews the synthesis
-against the charter, the constitution, and the struggle record. Then
+against the charter, the constitution, and the groan-zone record. Then
 **Mark freezes it.** After the freeze, changes need a change order,
 not quiet edits.
 
@@ -151,10 +149,10 @@ not quiet edits.
 Sonnet builds the frozen design in increments on the sandbox branch —
 each increment a coherent surface, with the full test suite green
 before any push. Opus reviews each increment against the frozen design.
-**Mark reads each built surface before it merges** — and merge means
-live, because Render auto-deploys main. Open item for Mark before D4
-starts: whether to add a Render preview environment or switch the
-service to manual deploys for the build window (his console action;
+**Mark reads each built surface before it merges** — and a merge to
+`main` is live for `cic-website` (Cloudflare production is on `main`; the engine
+goes to staging first, per the Promotion Runbook). Open item for Mark before D4
+starts: whether a manual-deploy window is needed while D4 runs (his console action;
 noted in the workstream decision log).
 
 ## Working with Mark
@@ -167,12 +165,12 @@ noted in the workstream decision log).
   reasoning: this site exists to draw people into the story of the
   church and Jesus' faithfulness, and design choices should be argued
   in those terms as well as craft terms.
+- Ask decisions as CLAUDE.md 4.2 sets out.
 - Dated ledger entries in `Ministry/Features/Website-V2/Decision-Log.md`
   for every gate and ruling; cross-link to
   `Ministry/Technology/CiC_FrontEnd_Decision_Log.md` for anything that
   binds beyond this workstream.
-- No live/billed generative-model calls against the CiC engine without
-  Mark's explicit per-run authorization. (Design subagent work inside
+- Model calls outside a conversation follow CLAUDE.md 3.2. Probing the live site's conversation engine still needs Mark's explicit per-run authorization. (Design subagent work inside
   the thread is not a billed engine call; probing the live site's
   conversation engine is.)
 - Report costs as labeled rate-card estimates when asked; never present

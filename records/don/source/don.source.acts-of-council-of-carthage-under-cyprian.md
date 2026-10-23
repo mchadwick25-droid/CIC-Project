@@ -18,6 +18,7 @@ author: The council's own acts, as transmitted
 work: The Acts of the Council of Carthage under Cyprian (256, on baptism)
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 14 (The Seven Ecumenical Councils), ed. Schaff,
   vendored as cic/texts/npnf214_seven-ecumenical-councils.xml
+citation: The Acts of the Council of Carthage under Cyprian (256, on baptism), Nicene and Post-Nicene Fathers, 2nd series, vol. 14 (The Seven Ecumenical Councils), ed. Schaff
 kind: vendored
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed

@@ -11,10 +11,10 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the saying's own place in the tradition, matching the prior build's cleared Doc_09a rating for the identical material - Inferential/Thin for the specific narrated council scene's historicity, matching desert.source.apophthegmata-patrum's own unconditional bound for any claim beyond what a surviving saying itself states. No vendored edition exists for this source (paraphrase-only, no verbatim-quote claim anywhere in this record), per that source's own hard rule."
+  divergence_note: "Widely Accepted for the saying's own place in the tradition, matching the prior build's cleared Doc_09a rating for the identical material - Inferential/Thin for the specific narrated council scene's historicity, matching desert.source.apophthegmata-patrum's own unconditional bound for any claim beyond what a surviving saying itself states. The saying is checked against the vendored edition, Budge's Syriac Sayings (Paradise, vol. 2), sec. 542 (line 1160 of the vendored file); that is the Syriac recension, not the Greek alphabetical collection, so the check holds for Budge's wording only."
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "Moses, Alphabetical Collection - one saying, re-derived from the prior build's cleared Doc_09a Story 2.1, itself independently web-verified as genuine and accurately worded; paraphrase-only here, no vendored edition, no verbatim-quote claim"
+  locus: "Budge, Paradise vol. 2 (Syriac Sayings), sec. 542 (vendored line 1160) - one saying: the council at Scete, the basket of sand, the brother set free; the Syriac recension, not the Greek alphabetical collection; first re-derived from the prior build's cleared Doc_09a Story 2.1, itself independently web-verified, and checked against Budge"
 retrieval:
   tier: 2
   retrieve_when:
@@ -32,12 +32,13 @@ relations:
   target: desert.quote.origen-on-the-sinning-brother
 narrative_tier: 2
 narrative_tier_justification: "Tier 2 (Collected and Traditional Material): attributed to a named elder (Abba Moses) but transmitted through the compiled Apophthegmata tradition (5th-6th c. compilation, per desert.source.apophthegmata-patrum's own compiler screen) rather than a datable, single-authored text contemporary with the events."
-tellable_as: "a jug leaking water behind him - my own sins run out behind me and I do not see them"
-text: "The tradition tells that a brother at Scetis had done wrong, and the elders were gathered to judge him. Abba Moses would not come at first. When they sent for him again, he came carrying a jug full of water with a hole in it, so that the water ran out behind him the whole way. When the others asked what it meant, he said: my own sins run out behind me the same way, and I do not see them. And today I am coming to judge another man's fault. Hearing this, the elders said nothing more to the brother, and let him go."
+tellable_as: a leaking basket of sand behind him - my own sins run out behind me and I do not see them
+text: 'The tradition tells that a brother at Scetis had done wrong, and the congregation was gathered to judge him. Abba Moses refused to come at first. When they sent the priest of the church to him, he got up and came, carrying a basket with a hole in it, filled with sand. The sand ran out behind him. When the others asked what it meant, he said: these are my sins, running out behind me, and I cannot see them. And today I have come to judge faults that are not mine. Hearing this, those gathered set the brother free and said nothing more to him.'
+telling: "Our sayings tell of a brother at Scete, the camp of the monks, who committed an offence. A congregation met on the matter. They sent for Abba Moses, but he refused to come. Then they sent the priest of the church to him, saying, \"Come. All the people are waiting for you.\" Moses got up and came.\n\nHe took a basket with a hole in it, filled it with sand, and carried it on his shoulders. Those who went out to meet him asked, \"What does this mean, father?\" He said the sand was \"my sins, running down behind me. I cannot see them.\" And today, he said, he had come to judge faults that were not his own.\n\nWhen they heard this, they set the brother free and said nothing more to him."
 absent_detail: "Whether this specific council and this specific exchange happened as narrated, or condenses a teaching Moses gave more generally into one memorable scene, is not something this world's own compiled tradition can settle - it is told as tradition, not as verified single-event history."
-modern_contrast: "No significant modern-misreading risk identified for this story. The image (a leaking jug, sins running out unseen behind you while you judge someone else's) is self-interpreting and reads plainly to a modern ear the same way it read then."
+modern_contrast: "No significant modern-misreading risk identified for this story. The image (a basket of sand with a hole in it, the sand running out behind him as sins he cannot see, while he goes to judge someone else) is self-interpreting and reads plainly to a modern ear the same way it read then."
 use_note:
-  means: "Abba Moses, summoned to judge an erring brother at Scetis, carried a leaking load to picture his own unseen sins, and the elders released the brother."
+  means: "Abba Moses, summoned to judge an erring brother at Scetis, carried a leaking load to picture his own unseen sins, and they released the brother."
   not_for:
     - "Presenting the council scene as verified single-event history"
     - "Presenting the jug of water as the vendored text's image, when Budge's Syriac has a basket of sand"
@@ -46,12 +47,9 @@ use_note:
   status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 2.1, itself
-independently web-verified during that build's own drafting (not
-re-verified against a new source this session, since no vendored file
-exists for the Apophthegmata and none has since been vendored) -
-matching the precedent desert.figure.sarah already set for carrying
-forward Doc_09a's own web-verified saying content under this build's
-paraphrase-only discipline.
+independently web-verified during that build's own drafting, and checked
+against Budge's Syriac Sayings (Paradise, vol. 2), sec. 542, in
+cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt (line 1160).
 
 Formation significance: illustrates desert.gravity.diakrisis in its
 self-directed register - discernment turned on one's own condition

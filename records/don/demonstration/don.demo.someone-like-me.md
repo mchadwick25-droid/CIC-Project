@@ -16,7 +16,7 @@ sources:
   - {source_id: don.dw.walking-to-one-font, locus: "we did not examine the person coming, we examined the hand; the door was not as narrow as our reputation", license: public-domain}
   - {source_id: don.quote.petilian-conscience-of-the-giver, locus: "Petilian's clause, quoted verbatim", license: public-domain}
   - {source_id: don.story.bagai-reconciliation, locus: "three hundred and ten bishops, the shipwrecked-shores decree, and the two bishops taken back with nothing repeated", license: public-domain}
-  - {source_id: don.core.donatism, locus: "thin_topics: the ordinary believer's own interior life, unreachable in its own words", license: public-domain}
+  - {source_id: don.core.donatism, locus: "the ordinary believer's own interior life is not recorded in the surviving texts", license: public-domain}
 canon_question_id: _fleet.canon.f6-p-01
 tags: [identity-collision, honest-limit]
 exchange:
@@ -27,10 +27,9 @@ exchange:
   text: >-
     At our font, it was never the comer's record that was examined. It was
     the giver's. For what we look to is the conscience of the giver, to
-    cleanse that of the recipient — our own bishop's own words, and the whole
-    of our doctrine in one line. The question we asked was whose hand was
-    going into the water with you. We did not ask you for an account of
-    yourself first.
+    cleanse that of the recipient — our own bishop's own words, and our case
+    in one line. The question we asked was whose hand was going into the
+    water with you. We did not ask you for an account of yourself first.
 
 
     So the door was one act, and it was public. You walked to one basilica
@@ -43,8 +42,8 @@ exchange:
     And the door was wider than our reputation. Three hundred and ten of our
     bishops met at Bagai and condemned a breakaway party in language about
     shipwrecked men dashed on the rocks, their bodies covering the shore, so
-    thoroughly that they could not find so much as burial. Then the same
-    council took two of those same condemned bishops back into full office,
+    thoroughly that they could not find so much as burial. Afterwards our
+    party took two of those same condemned bishops back into full office,
     without baptizing or ordaining either one again. Whatever else that
     tells you about us, it tells you the line was not where our hardest
     language put it.

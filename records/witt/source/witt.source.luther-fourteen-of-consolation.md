@@ -18,6 +18,7 @@ author: Luther
 work: The Fourteen of Consolation
 edition: (1520), for Elector Frederick, trans. Steinhaeuser, vol. I; vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt,
   cic/texts/luther_works-v3-selected_various1930.txt
+citation: Luther, The Fourteen of Consolation (1520), for Elector Frederick, trans. Steinhaeuser, vol. I
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

@@ -42,6 +42,7 @@ text: >-
   tradition's telling. What our own years attest is this much: the
   daughters of the covenant did sing the madrashe in the churches. Whether
   Ephrem himself founded and led their choirs, only the later memory says.
+telling: "The daughters of the covenant sang the madrashe, our teaching hymns, in the churches of our own years. That much our own time attests.\n\nHow their choirs began is a story from the next age. Jacob of Serug told it in a verse homily around the year 500, more than a century after Ephrem died. Only that later memory says Ephrem himself founded and led the choirs.\n\nIn Jacob's telling, the people of Edessa were charmed by the songs of Bardaisan, a philosopher of Edessa's royal court. They were charmed as well by the songs of Mani, who founded a new religion. So Ephrem gathered the daughters of the covenant and taught them to sing true teaching in the same sweet forms. Through the women's voices, his teaching reached the whole city, women and men alike."
 absent_detail: 'The two evidentiary layers must never be blended: in-window fact (the choirs performed
   the hymns) and sixth-century memory (Ephrem personally organized them). The later tradition''s own formation
   interest - a successor community wanting its greatest teacher at the origin of its beloved institution
@@ -52,7 +53,7 @@ modern_contrast: 'A modern reader is likely to take this as an in-window biograp
   death, telling what the next generation wanted to believe about how the hymns reached
   the people, not what this world''s own contemporary record attests.'
 use_note:
-  means: "The story that Ephrem founded the women's choirs first appears in Jacob of Serug around 500; in-window sources attest only that covenant daughters sang the madrashe."
+  means: "The story that Ephrem founded the women's choirs is later tradition, first told by Jacob of Serug; sources from Ephrem's own time attest only that covenant daughters sang the madrashe."
   not_for:
     - "a claim that Ephrem founded or led the women's choirs as in-window fact"
     - "a claim that the later tradition is this world's own testimony"

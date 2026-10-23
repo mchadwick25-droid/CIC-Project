@@ -36,22 +36,19 @@ relations:
   target: pahc.quote.tacitus-hatred-against-mankind
 narrative_tier: 1
 narrative_tier_justification: "A specific, dated historical event, from a named, datable historian, describing named individuals in the surrounding narrative (Nero), though no Christian individual by name. Widely Accepted as basically authentic to Tacitus's own text; the live Shaw/Jones dispute over whether a discrete, named-group persecution actually occurred is carried at full strength, not resolved."
-tellable_as: "After the Great Fire of Rome, Nero shifts blame onto a group the historian Tacitus calls Chrestiani, and has them executed with deliberate, theatrical cruelty."
-text: >-
-  Writing roughly fifty years after the event, the Roman historian Tacitus
-  records what happened after the Great Fire of Rome in 64 CE. Rumors said
-  Nero himself had ordered the burning. So Nero shifted blame onto a group
-  Tacitus calls Chrestiani, describing them as hated for their vices. Those
-  first arrested named others, Tacitus reports, and a great number were
-  convicted - not so much, in his own reading, for arson as for hatred of
-  humankind. They were put to death with deliberate, theatrical cruelty. Some
-  were wrapped in the skins of beasts and torn apart by dogs. Some were
-  fastened to crosses. Some were set alight, to serve as torches after dark.
-  No Christian individual is named. The account comes entirely from outside,
-  written decades later by a historian with his own reasons for portraying
-  Nero as monstrous. First Clement, writing from inside our own
-  communities, confirms only this much: by the time of its writing, the
-  apostles' own deaths were already spoken of as past.
+tellable_as: After the Great Fire of Rome, Nero blamed a group the crowd called Christians. He had them
+  put to death with cruelty meant as a show.
+text: 'Writing roughly fifty years after the event, the Roman historian Tacitus records what happened
+  after the Great Fire of Rome in 64 CE. Rumors said Nero himself had ordered the burning. So Nero shifted
+  blame onto a group the crowd called Christians, whom Tacitus describes as hated for their abominations.
+  Those first arrested named others, Tacitus reports, and a great number were convicted - not so much,
+  in his own reading, for arson as for hatred of humankind. They were put to death with deliberate, theatrical
+  cruelty. Some were wrapped in the skins of beasts and torn apart by dogs. Some were fastened to crosses.
+  Some were set alight, to serve as torches after dark. No Christian individual is named. The account
+  comes entirely from outside, written decades later by a historian with his own reasons for portraying
+  Nero as monstrous. First Clement, writing from inside our own communities, confirms only this much:
+  by the time of its writing, the apostles'' own deaths were already spoken of as past.'
+telling: "In 64 a great fire burned through Rome. The Roman historian Tacitus, writing some fifty years later, says a rumor spread that the fire had been set on orders. To get rid of that rumor, Nero shifted the blame onto a group the crowd called Christians.\n\nTacitus wrote from outside our communities, and he had his own reasons for portraying Nero as monstrous. What he describes is one episode under one emperor. We cannot be sure that Christians, as a group known by that name, were punished after the fire. A more general memory from later years may have been attached to it.\n\nTacitus describes the Christians as hated for their vile acts. Those who confessed were arrested first, he reports, and on their information a great number were convicted. In his reading, they were condemned less for arson than for hatred of humankind.\n\nNo source names a single Christian who died in these events. Tacitus says they were put to death with cruelty meant as a show. Some were wrapped in the skins of beasts and torn apart by dogs. Others were fastened to crosses, or set alight as torches after dark."
 absent_detail: "No source, inside or outside this world's own evidentiary base, names a single Christian individual caught up in this event - not even Peter or Paul are named here specifically, though later tradition places their deaths in this same period."
 modern_contrast: >
   A modern reader often hears this as the opening chapter of one
@@ -62,7 +59,7 @@ modern_contrast: >
   precarity this world lived under was real but improvised, not
   continuous.
 use_note:
-  means: "After the Great Fire of Rome, Nero blames a group Tacitus calls Chrestiani and has them executed with deliberate, theatrical cruelty."
+  means: "Tacitus wrote that after the Great Fire of Rome Nero blamed a group the crowd called Christians and had them put to death with cruelty meant as a show."
   not_for:
     - "the opening of one continuous empire-wide persecution"
     - "a standing imperial policy"

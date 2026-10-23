@@ -17,6 +17,7 @@ relations: []
 author: Pierre Maraval (1988) and Jean-Robert Pouchet (1992)
 work: The redating literature for Basil's death year (377, not the traditional 378/379)
 edition: In-copyright modern scholarship, not vendored
+citation: Pierre Maraval (1988) and Jean-Robert Pouchet (1992), on the redating of Basil's death to 377
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

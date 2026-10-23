@@ -87,9 +87,9 @@ narrative_tier_justification: >-
   Accepted rather than Documented because two works by one author are not multiple independent
   sources.
 tellable_as: >-
-  To stop tribunes with power of life and death being sent to hunt heretics in the Spains, Martin
-  yields once to a communion he abhors, is told by an angel that his compunction is just, feels his
-  power diminished, and never attends a synod again.
+  To stop tribunes from hunting heretics in the Spains, Martin takes communion once with the bishops
+  he had refused. An angel tells him his remorse is just. He feels his power lessened, and he never
+  attends a synod again.
 text: >-
   In his Dialogues, Sulpitius Severus has Gallus - one of Martin's own disciples - tell a story Martin
   had always kept quiet, except from his own household. Sulpitius's Sacred History narrates an earlier
@@ -98,45 +98,44 @@ text: >-
   After Priscillian had been put to death, the emperor Maximus used his power to shield the bishop
   Ithacius, who had accused Priscillian in the first place. The bishops gathered at Treves stayed in
   close touch with Ithacius and backed him. Martin was on his way to the court, pressed by many urgent
-  pleas from people in danger - and the emperor was already preparing to send tribunes with full power
-  into the two Spains, to hunt down heretics and, once found, take their lives or their property. Gallus
-  says a person could be judged a heretic simply for turning pale with fear or wearing the wrong
-  clothing, rather than for what they actually believed. (See gallic.quote.gallus-on-the-tribunes-for-the-spains
-  for Gallus's own words.)
+  pleas from people in danger. The emperor was already preparing to send tribunes with full power into
+  the two Spains. They were to hunt down heretics and, once found, take their lives or their property.
+  Gallus says a person could be judged a heretic simply for turning pale with fear or wearing the
+  wrong clothing, rather than for what they actually believed.
 
-  The bishops knew their own conduct would not sit well with Martin, and feared he would refuse to share
-  communion with them once he arrived. They had the emperor's officials meet him on the road and block
-  him from the city unless he promised to keep peace with them. Martin answered that he would come
-  instead with the peace of Christ. He entered at night, prayed, and went to the palace the next day.
-  His main request was that no tribunes with power over life and death be sent into the Spains - not
-  only to protect the true Christians there, but the heretics too.
+  The bishops knew their own conduct would not sit well with Martin, and feared he would refuse to
+  share communion with them once he arrived. They had the emperor's officials meet him on the road and
+  block him from the city unless he promised to keep peace with them. Martin answered that he would
+  come instead with the peace of Christ. He entered at night, prayed, and went to the palace the next
+  day. His main request was that no tribunes with power over life and death be sent into the Spains.
+  He asked it to protect not only the true Christians there, but the heretics too.
 
-  In the Sacred History, Sulpitius states the same principle in his own voice: Martin held that being
-  cast out of the churches by the bishops' own sentence was already punishment enough, and that it was a
-  shocking wrong for a secular ruler to sit in judgment over a matter that belonged to the church. (See
-  gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause.)
+  In the Sacred History, Sulpitius states the same principle in his own voice. Martin held that being
+  cast out of the churches by the bishops' own sentence was already punishment enough. It was a
+  shocking wrong, he held, for a secular ruler to sit in judgment over a matter that belonged to the
+  church.
 
-  The bishops went to the emperor in terror, arguing that Priscillian's death would count for nothing if
-  Martin were now allowed to act as his avenger, and begged Maximus to use his power against Martin
-  himself. Maximus tried persuasion first, then anger; and when Martin would not yield, he ordered
-  executioners for the very people Martin had pleaded for.
+  The bishops went to the emperor in terror. Priscillian's death would count for nothing, they argued,
+  if Martin were now allowed to act as his avenger. They begged Maximus to use his power against
+  Martin himself. Maximus tried persuasion first, then anger; and when Martin would not yield, he
+  ordered executioners for the very people Martin had pleaded for.
 
   When Martin heard this, he rushed to the palace, though it was now night. He promised that he would
-  take communion himself if these people's lives were spared and the tribunes recalled. Maximus granted
-  everything. The next day, at the ordination of a bishop named Felix, Martin took communion, judging it
-  better to yield for the moment than to risk the lives hanging in the balance - though the bishops could
-  never get him to put his name to it in writing. Leaving the city the day after, he was overcome with
-  grief that he had shared, even for an hour, in what he saw as a corrupt communion. Near a village named
-  Andethanna, he sat down alone in the woods, torn between blaming himself and defending what he had
-  done. Then, Gallus says, an angel appeared to him and told him that his compunction was just, but that
-  he could not have escaped his difficulty any other way - and urged him to renew his courage, for both
-  his reputation and his very salvation were now at stake. (See
-  gallic.quote.gallus-on-the-forced-communion-and-the-angel for the angel's exact words.)
+  take communion himself if these people's lives were spared and the tribunes recalled. Maximus
+  granted everything. The next day, at the ordination of a bishop named Felix, Martin took communion.
+  He judged it better to yield for the moment than to risk the lives hanging in the balance. Yet the
+  bishops could never get him to put his name to it in writing. Leaving the city the day after, he was
+  overcome with grief that he had shared, even for an hour, in what he saw as a corrupt communion.
+  Near a village named Andethanna, he sat down alone in the woods, torn between blaming himself and
+  defending what he had done. Then, Gallus says, an angel appeared to him. The angel told him that his
+  compunction was just, but that he could not have escaped his difficulty any other way. He urged
+  Martin to renew his courage, for both his reputation and his very salvation were now at stake.
 
-  Afterward, whenever Martin's healing came more slowly or with less power than before, he admitted with
-  tears that he felt this loss came from that one compromised communion, taken briefly and against his
-  own will. He lived sixteen years after this, but never again attended a synod, and stayed carefully
-  away from every gathering of bishops.
+  Afterward, Martin's healing sometimes came more slowly or with less power than before. Whenever it
+  did, he admitted with tears that he felt this loss came from that one compromised communion, taken
+  briefly and against his own will. He lived sixteen years after this, but never again attended a
+  synod, and stayed carefully away from every gathering of bishops.
+telling: "We have this story from Gallus, one of Martin's disciples, in Sulpitius's Dialogues. Martin never told it outside his own household.\n\nAfter Priscillian was put to death, the emperor Maximus protected Ithacius, the bishop who had accused him. The bishops gathered at Trier stood by Ithacius. Maximus was about to send tribunes, officers with power over life and death, into Spain to hunt down heretics. Martin came to court and begged that none be sent, to spare the heretics as well as the true Christians. In his Sacred History, Sulpitius tells of an earlier stage, before Priscillian's death. There he says Martin held it a shocking wrong for a worldly ruler to judge a church case.\n\nThe bishops begged Maximus to turn against Martin, and Maximus ordered death for the people Martin had defended. Martin hurried to the palace that night and promised to take communion with the bishops if those lives were spared and the tribunes called back. Maximus agreed. The next day, when a bishop named Felix was ordained, Martin took communion, yet he would never put his name to it in writing.\n\nLeaving the city, he sat alone in the woods near the village of Andethanna, torn with grief. Gallus says an angel came and told him his remorse was just, though he had no other way out. Afterward his healing sometimes came more slowly, and with tears Martin blamed that one communion. Gallus says he lived sixteen more years and never went to a synod again."
 absent_detail: >-
   The Priscillianists themselves are not narrated here; Sulpitius's hostile summary of the charges
   against Priscillian in the Sacred History is his report of a trial, not our knowledge of the movement.
@@ -159,11 +158,3 @@ use_note:
   years: {from: 397, to: 406}
   status: reviewed
 ---
-The record id keeps the technical slug "trier-..." as a stable identifier, though the vendored volume's
-own spelling is "Treves," which every in-record use of the place name follows.
-
-The narrative's verbatim wording is carried in three quote records, each re-verified directly against
-the vendored npnf211 file: gallic.quote.gallus-on-the-tribunes-for-the-spains (Dialogues III.11),
-gallic.quote.gallus-on-the-forced-communion-and-the-angel (Dialogues III.12-13), and
-gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause (Sacred History II.50, a related,
-distinct telling of an earlier phase, not independent corroboration).

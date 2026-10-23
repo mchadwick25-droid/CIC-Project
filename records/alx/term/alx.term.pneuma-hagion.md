@@ -45,13 +45,8 @@ senses:
     sanctification (De Principiis I.3, "On the Holy Spirit," supports "Scripture" specifically; the
     Spirit's role in illumination and prayer is not evidenced at this locus, since Origen's
     prayer-focused treatise, On Prayer, is not vendored as an English text anywhere in this corpus).
-  personal: Someone who perceives a familiar passage differently than before has not stumbled onto a
-    new idea on their own - their capacity to perceive has itself been opened, which this world credits
-    to the Spirit's ordinary work.
-  translational: >-
-    Isn't the Spirit mainly present in extraordinary moments - special experiences, visible gifts? This
-    world located the Spirit somewhere else - the ordinary, continuous agent behind formation's whole
-    slow work, not an occasional visitor to it.
+  personal: "When someone saw a familiar passage in a new way, they had not simply hit on a new idea. Their ability to see had been opened, and we credited that to the Spirit's ordinary work."
+  translational: "Isn't the Spirit felt mainly in rare moments, such as visible gifts? This world looked elsewhere. The Spirit was the steady agent behind the slow work of formation, not an occasional visitor."
 quick_meaning: Not an occasional visitor - always at work in the soul's own change.
 distortion_risk: high
 use_note:

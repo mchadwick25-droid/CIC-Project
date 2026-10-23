@@ -49,7 +49,7 @@ narrative_tier_justification: >-
   right. Not Tier 1, because nothing corroborates it and its own chronology fails; not Tier 3,
   because it is not free-floating legend but a specific claim in a datable book by a named author
   who says he had it from the Alexandrian clergy.
-tellable_as: "the archbishop of Alexandria on the run, hidden by a woman nobody would think to suspect"
+tellable_as: the archbishop of Alexandria on the run, hidden by a woman no one would suspect
 text: >-
   Palladius says that among the chaste virgins he saw in Alexandria there was
   one he took to be about seventy. The clergy all testified about her: at
@@ -69,6 +69,7 @@ text: >-
   swearing false oaths. He had gone to the one person no one could suspect,
   because she was young and beautiful. He said he had gained two things by it:
   his own life, and hers.
+telling: "Palladius tells of a virgin of Alexandria who hid Athanasius, the archbishop of that city. He says all the clergy testified that when she was about twenty she was exceedingly beautiful. Because of that beauty she withdrew from sight, so that she would not cause men to stumble.\n\nThe Arians were plotting against Athanasius and spreading shameful reports about him. He fled and told no one where he was going, neither kinsmen nor friends nor clergy. At midnight he rose, took his tunic, and went to this woman. She was astonished.\n\nHe told her that God had given him a revelation that night. With no other person, it said, could he find deliverance but this virgin. She hid him. She washed his feet, provided what he needed, and borrowed books and brought them to him. No one in Alexandria knew where he was.\n\nLater he came by night and was suddenly found in the church. Those who saw him marvelled, for he looked like a man risen from the grave. He told those who truly loved him that he had fled to the one woman no one would suspect, because she was young and beautiful. \"I have gained two things,\" he said: \"my own life and hers.\""
 absent_detail: >-
   She is not named, here or anywhere. Nothing is said about what she thought of the arrangement
   beyond that she was astonished and then joyful, and nothing about what it cost her to keep a

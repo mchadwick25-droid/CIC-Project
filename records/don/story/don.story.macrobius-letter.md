@@ -23,8 +23,8 @@ confidence:
     quoted translation, because the Latin was checked but not certified.'
 sources:
 - source_id: don.source.passio-isaac-et-maximiani
-  locus: cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 1367-2609 - Macrobius's own letter,
-    preserved twice in this file from two manuscripts Mabillon consulted
+  locus: Macrobius, letter on the passion of Isaac and Maximianus, in Monumenta
+    Vetera ad Donatistarum historiam pertinentia (Migne, Patrologia Latina 8)
   license: public-domain
 retrieval:
   tier: 1
@@ -56,46 +56,47 @@ narrative_tier_justification: 'Tier 1, and worth saying plainly why this account
   alone carries a named author writing in his own voice to an identified audience, a distinction a grouping-level
   treatment had no occasion to weigh. The omen and the vision do not pull the whole account down a tier;
   they carry the author''s own perspective, appropriately caveated, exactly as Tier 1 provides for.'
-tellable_as: A bishop writes to his own congregation about two of their number tortured to death, whose
-  bodies the proconsul sank in the sea so no one could venerate them - and the sea gave them back.
+tellable_as: A bishop writes to the people of Carthage about two of their number,
+  Isaac and Maximianus. The proconsul had them sunk in the sea so no one could honor
+  them, and the sea gave them back.
 text: >-
-  Macrobius wrote to his own congregation at Carthage as their bishop, in
-  the aftermath of what he had seen, to tell them what had been done to
-  two of their own.
+  Macrobius, a bishop of ours, wrote to the people of Carthage to tell
+  them what had been done to two of their own.
 
   Maximianus - a soldier of Christ, in the letter's own description,
   robust and unflinching - was chosen to face the Roman proconsul first.
   The night before, at a shared meal, the wine in his cup seemed to take
-  the shape of a ring, shining with the mingled colours of blood and
+  the shape of a crown, shining with the mingled colours of blood and
   light: an omen, Macrobius wrote, of what the next day would ask of him.
   He was beaten with leaded whips, then with rods. Isaac, whose very name
   the letter reads as a sign - a victim's name, given to a victim - was
   flogged alongside him, and in the middle of it called out to the men
   doing the flogging, naming them traditores and crying, in the letter's
   own Latin, "come, heal your madness of 'unity'" - a direct, defiant
-  address to his own persecutors, not a description of what their
-  unity had cost them (one manuscript witness reads "satisfy your
-  madness of cruelty" instead of "unity," a real transmission variant,
-  not a translation choice). He did not survive the beating.
+  address to his own persecutors, not a description of what their unity
+  had cost them (one manuscript witness reads "satisfy your madness of
+  cruelty" instead of "unity," a real transmission variant, not a
+  translation choice). Both men were condemned to exile and shut in
+  prison, and there Isaac died.
 
   Maximianus, still living, had his own vision that night: he saw himself
   in combat, first against the emperor's ministers and then against the
-  emperor himself, who in the dream struck out one of his eyes - and then
-  a bright youth appeared and crowned him. The proconsul, wanting neither
+  emperor himself, whose eye he struck out in the dream - and then a
+  bright youth appeared and crowned him. The proconsul, wanting neither
   man venerated as a relic afterward, ordered both bodies thrown into the
   sea, Isaac's corpse and Maximianus, who by the letter's account was not
   yet dead, weighted down with jars filled with sand so they would not
   float or wash ashore.
 
-  The sea would not keep them. Macrobius's letter says the bodies rose
-  and were driven back toward the shore again and again, for six days,
-  until both were delivered up whole to the congregation waiting for
-  them, who took them and buried them with the same rites and the same
-  joy they would have given the living.
+  The sea would not keep them. Macrobius's letter says the bodies rose and
+  were driven back toward the shore again and again, for six days, until
+  both were delivered up whole to the congregation waiting for them, who
+  received them with embraces and joy and gave them a proper burial.
 
-  Macrobius closes by turning to his congregation directly: what happened
-  to Isaac and Maximianus, he tells them, is what may yet be asked of any
-  of them.
+  Macrobius closes by turning to his readers directly. The two martyrs, he
+  tells them, are waiting with their arms stretched out from heaven, and
+  he urges the living to hurry after them.
+telling: "Maximianus, a soldier of Christ in the letter's words, was chosen to face the Roman proconsul first. The night before, at a shared meal, the wine in his cup seemed to take the shape of a crown. It shone with the colors of blood and light. Our bishop Macrobius told the story in a letter to the people of Carthage. He took it as an omen of what the next day would ask.\n\nMaximianus was beaten with leaded whips and then with rods. Isaac was flogged beside him. He called his floggers traditores, men who had handed over the scriptures, and told them to come and heal their madness of unity. Both men were sentenced to exile and shut in prison, and there Isaac died.\n\nThat night, Macrobius writes, Maximianus dreamed he fought the emperor's officials and then the emperor himself, and struck out his eye. Then a bright youth crowned him. The proconsul wanted neither man honored as a relic. He had both bodies weighted with jars of sand and thrown into the sea. By the letter's account, Maximianus was still alive.\n\nThe sea would not keep them. For six days, Macrobius says, the bodies were driven back toward the shore, until they came up whole to the people waiting. Macrobius closes by telling his readers that the two martyrs wait for them with arms stretched out from heaven. He urges the living to hurry after them."
 absent_detail: Nothing survives from the proconsul's side, or from anyone who was not already ours - no
   court record of the interrogation, no independent notice of the deaths. Macrobius does not say how he
   knew what Maximianus dreamed, and the letter does not report what either man said in his own words at
@@ -109,27 +110,10 @@ modern_contrast: >-
   The closing turn is the give-away: this is not a report filed for the
   record but a letter written to prepare its readers for the same thing.
 use_note:
-  means: "Macrobius writes to the Carthage congregation about two men tortured to death, whose bodies the proconsul sank in the sea, and the sea gave them back."
+  means: "Macrobius writes to the church at Carthage about Isaac, who died in prison, and Maximianus, whom the proconsul sank alive, and the sea gave both bodies back."
   not_for:
     - "a claim that the letter is a report filed for the record rather than preparation of its readers for the same fate"
     - "a claim that any proconsul-side or independent record of the deaths survives"
   years: {from: 347, to: 348}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory003_macrobius-
-letter-isaac-maximianus.md (Doc_09 story index row donstory003, Tier 1),
-whose narrative text is carried forward rather than re-derived.
-
-HOMONYM, LOAD-BEARING - don.core.donatism cautions item 7. The
-Maximianus of this letter is a martyr of the Macarian repression,
-347-348. He is NOT Maximian of Cebarsussi, the deacon deposed and made a
-rival primate in 393 whose schism don.story.bagai-reconciliation
-concerns. Two separate figure records carry the two men -
-don.figure.maximianus-martyr and don.figure.maximian-of-cebarsussi - and
-each states the distinction on its own face, so that a retrieval landing
-on either one cannot silently collapse them.
-
-FOUR TEXTS SPEAK AS US RATHER THAN ABOUT US (don.core.donatism cautions
-item 2), and this letter is one of them. That is what makes its
-evidentiary character different in kind, not merely in degree of
-embellishment, from the two Passiones beside it.

@@ -22,8 +22,8 @@ sources:
   locus: the Maximianist affair - the rival primate at Cebarsussi against him, and the reception afterward
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt, the mandate read at lines 122190-122260,
-    where Primian's name heads the list of Donatist bishops mandating the seven pleaders
+  locus: 'Gesta of the Conference of Carthage (411): the mandate of the Donatist bishops, where
+    Primian''s name stands first among the seven named to plead'
   license: public-domain
 - source_id: don.source.monceaux-histoire-litteraire-tome6
   locus: the Primianus chapter - the reading of his conduct at the Conference as a strategy of silence
@@ -38,8 +38,9 @@ dates:
     in 393 and vindicated by the council of Bagai in 394; still primate, and named first on the Donatist
     mandate, at the 411 Conference
 narratable: true
-bridge_line: The primate of Carthage a rival council deposed and a larger one restored - and who, when
-  the great Conference finally came, let Emeritus and Petilian do the arguing.
+bridge_line: The primate of Carthage whom a rival council deposed and a larger one restored. At the
+  great Conference of 411 he was named first of our seven pleaders. Emeritus and Petilian did most of
+  the arguing.
 relations:
 - type: associated-with
   target: don.story.bagai-reconciliation

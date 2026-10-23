@@ -23,7 +23,7 @@ confidence:
     been checked.'
 sources:
 - source_id: don.source.optatus-against-the-donatists
-  locus: Book III -- the 313 petition text, 'of the party of Donatus', lines 1954-1958
+  locus: Book III -- the 313 petition text, 'of the party of Donatus'
   license: public-domain
 - source_id: don.source.passio-donati-sermon
   locus: the preacher's sarcastic wordplay on 'catholic', via Mabillon's annotation
@@ -53,9 +53,9 @@ relations:
   target: don.term.schisma
 - type: associated-with
   target: don.term.rebaptism
-plain_meaning: There is no neutral word for the church here. The word itself is the argument. Two whole rival
-  bodies claim it, town by town, bishop for bishop. We hold that we are the true one, and that our rival's favour
-  with the state settles nothing.
+plain_meaning: There was no neutral word for the church here. The word itself was the argument. Two whole
+  rival bodies claimed it, town by town, bishop for bishop. We held that we were the true one, and that
+  our rival's favour with the state settled nothing.
 world_word: ecclesia
 false_friend:
 - a breakaway sect measured against a 'real' or mainstream church that obviously counts more
@@ -72,9 +72,9 @@ senses:
     of this communion''s own petition language survives because a hostile author quoted it to attack it. Doc_06
     SS3 also records that this term carries no gravity-test finding of its own; its Tier-1 standing is a lexicon
     judgment, corroborated at Doc_04 SS7, not a gravity result.'
-  personal: 'For substantial regions and periods this communion was the numerically dominant church in Africa.
-    So ''sect'' and ''schism'' land exactly backward from inside: on these terms the state-favoured rival is the
-    departure. To say ''the church'' at all, in one''s own city, is already a contested act.'
+  personal: For substantial regions and periods this communion was the largest church in Africa. So 'sect'
+    and 'schism' landed backward from inside. On our terms, the rival the state favoured was the one that
+    had departed. To say 'the church' at all, in one's own city, was already a contested act.
   translational: '''Surely the bigger, established church was the real one?'' -- that is the one move this claim
     refuses. Numerical size, imperial recognition and possession of the word ''catholic'' are three things; being
     the body of Christ is a fourth, and none of the first three settles it. If recognition by the ruling power

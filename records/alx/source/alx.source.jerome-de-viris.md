@@ -18,6 +18,7 @@ author: 'Jerome (c. 347-420 CE) - NOT an Alexandrian voice: a Latin secondary wi
   used here (written 392/3) predate the quarrel''s heat'
 work: De viris illustribus (Lives of Illustrious Men, 392/3 CE) - cited here only for facts about people (dates, lists of works, succession notices), not as a source of the world's teaching
 edition: trans. Ernest Cushing Richardson, NPNF series 2 vol. 3 (1892), vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
+citation: Jerome, De viris illustribus (Lives of Illustrious Men), trans. Ernest Cushing Richardson, Nicene and Post-Nicene Fathers ser. 2 vol. 3 (1892)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

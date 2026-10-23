@@ -55,19 +55,17 @@ narrative_tier_justification: >-
   received text of the legislation itself.
 tellable_as: "the rule that begins by saying where it came from - an angel, a cave, and a tablet of iron"
 text: >-
-  The Ethiopic rule of Pachomius does not begin with its first provision. It
-  begins by saying who gave it, in the name of the holy Trinity, as an
-  ordinance the angel of the Lord commanded to Abba Pachomius. Then it
-  tells the story. At Tabennesis in the Thebaid there was a man who lived a
-  clean life and was given knowledge and the sight of angels. As he sat in his
-  cave, the angel of the Lord came and told him that he himself was finished -
-  staying on in the cave was now a waste. He should go out, gather the young
-  men who were not yet finished, and live with them. And the angel handed him
-  a tablet of iron with the rule written on it. Only after that does the
-  legislation start. Later in the same document, Pachomius argues back. The
-  prayers set down are too few, he says. He is told that the rule is pitched
-  for the weak, and for men who have no one to advise them - the perfect need
-  no rule at all.
+  The Ethiopic rule of Pachomius does not begin with its first provision. It begins by saying
+  who gave it, in the name of the holy Trinity, as an ordinance the angel of the Lord commanded
+  to Abba Pachomius. Then it tells the story. At Tabennesis in the Thebaid there was a man who
+  lived a clean life and was given knowledge and the sight of angels. As he sat in his cave, the
+  angel of the Lord came to him. The angel told him he had become perfect, and that staying on
+  in the cave was now a waste. He should go out, gather the less perfect young men, and live
+  with them. And the angel handed him a tablet of iron with the rule written on it. Only after
+  that does the legislation start. Later in the same document, Pachomius argues back. The
+  prayers set down are too few, he says. He is told that the rule is pitched for the weak, and
+  for men who have no one to advise them - the perfect do not ask for a rule.
+telling: "The Ethiopic rule of Pachomius begins by saying where it came from. Its first words are: \"In the name of the holy Trinity. This is the rule which the angel of the Lord gave to Abba Pachomius as a command.\"\n\nThen the text tells a story. In a place called Tabennesis, in the province of Thebes, there was a man named Pachomius, one of those who lived a clean life. Knowledge was given to him, and also the sight of angels. As he sat in his cave, the angel of the Lord appeared to him. The angel said that Pachomius had become perfect in his own life, and that living on in the cave was now needless. He should go out, gather the less perfect young men, and live with them. As the angel gave him a rule, so he should teach them.\n\nThen the angel handed him a tablet of iron, with the rule written on it. At the end of the rule's commands, Pachomius answered the angel: \"These prayers are few.\" The angel said he had commanded it so that the weak also might keep the rule without grieving themselves. The perfect do not desire a rule for themselves. These things, he said, he had ordained for those who have no advisers."
 absent_detail: >-
   Nothing here says the vision happened. Nothing here dates the framing relative to the provisions,
   and no text survives that would let this world say whether the rule ever circulated without it.

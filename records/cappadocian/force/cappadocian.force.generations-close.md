@@ -28,18 +28,19 @@ name: "The great generation's close [3B - ending/internal]"
 kind: ending
 matrix_cell: 3B
 description: >-
-  Basil dies (traditionally January 379, redated by the scholarly literature to September 377); Macrina
-  dies (379 traditional, or 378 on the same redating - the Vita's own nine-months-later relationship ties
-  the two dates together; her deathbed is written by her brother); Nazianzen withdraws after 381 and dies c.
-  390; Gregory of Nyssa is last securely attested c. 394. No successor generation of comparable regional
-  character emerges (Doc_08 Cell 3B, Force 3B-1). WORLD'S OWN EXPERIENCE (Layer 2): the world buried its
-  great ones one by one and wrote their memorials itself - the brother at the sister's deathbed, the friend
-  over the friend's grave before the whole city. It experienced its own ending as bereavement rather than
-  defeat: the faith stood, newly law; the voices that had carried it fell silent; and the ones who remained
-  wrote everything down. FORMATION IMPACT (Layer 3): seals the world's self-memorialized character (the
-  ending IS a series of funeral texts); closes the distinct form (Doc_01's boundary argument); hands the
-  formation instruments - Rules, homilies, orations, canons - onward as texts rather than as a living
-  regional argument.
+  Basil died, by tradition in January 379. Some modern scholars argue for
+  377, and the date is contested. Macrina died in 379 by tradition, or in
+  378 on the same redating. The Life of Macrina dates her death nine months
+  after his. Gregory of Nazianzus withdrew after 381 and died around 390.
+  Gregory of Nyssa is last securely attested around 394. No later generation
+  of the same regional character followed. This world buried its great ones
+  one by one and wrote their memorials itself: the brother at his sister's
+  deathbed, the friend speaking over his friend's grave. It met its own
+  ending as grief rather than defeat. The faith stood, now the law. The
+  voices that had carried it fell silent, and those who remained wrote
+  everything down. This force sealed the world's habit of remembering
+  itself. It handed on the Rules, sermons, speeches and canons as texts
+  rather than as a living argument.
 manifestations:
 - Basil's death (January 379 traditional; September 377 per the modern redating literature)
 - Macrina's death (379 traditional, or 378 on the same redating), her brother at her deathbed

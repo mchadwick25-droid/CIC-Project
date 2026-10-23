@@ -22,10 +22,9 @@ relations:
 - type: associated-with
   target: rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
 statement: Are you looking for a saint's life, or a martyr's cult, or a legend polished into devotion
-  generations later? We have none, and I will not build you one out of what isn't there. This is not a
-  hole in our own record. It is our own record working exactly as we meant it to. We refused the reverence
-  a saint's life is written to produce. We refused it from our first founding statement onward, and our
-  own record shows no such literature was ever written here.
+  generations later? We have none, and we will not build you one out of what isn't there. We refused the
+  reverence a saint's life is written to produce. We refused it from our first founding statement onward.
+  Our record holds no such book.
 why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS3.1 states plainly: ''No hagiographic narrative
   exists for this world, and none is built to fill the absence... this world''s own confessional core
   actively refuses the late-medieval devotional genre hagiography belongs to (image veneration, cultic
@@ -41,7 +40,7 @@ nearest_material:
 - rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
 - rzg.story.first-zurich-disputation
 use_note:
-  means: "The record holds no saint's life or martyr's cult because the cities refused that devotional genre from their first founding statement, so the absence is deliberate rather than a gap."
+  means: "The record holds no saint's life or martyr's cult, because the cities refused, from their first founding statement, the reverence that genre is written to produce."
   not_for:
     - "a claim that this record holds a saint's life or martyr's legend for this world"
     - "a claim that the missing hagiography is a hole in the record rather than its own refusal"

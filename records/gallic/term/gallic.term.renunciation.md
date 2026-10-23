@@ -117,8 +117,8 @@ senses:
     extends what every baptized Christian renounced at the font - and after which the Church still
     comes to fetch the renunciant to be its bishop.
 quick_meaning: >-
-  The act that makes a monk - a death to the world of which giving up goods is only the first and
-  easiest stage. And the Church still fetches renunciants for its sees.
+  The act that makes a monk - a death to the world, of which giving up goods is only the first and
+  easiest stage.
 distortion_risk: high
 use_note:
   means: "Renunciation meant the act that makes a monk, a death to the world in three stages, of which giving up goods is only the first and easiest."

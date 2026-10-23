@@ -21,8 +21,8 @@ confidence:
     of a corpus, written from inside the corpus.
 sources:
 - source_id: don.core.donatism
-  locus: 'cautions 1-11 and thinness entire: Author Gravity named as the central problem; the four bounded
-    corrections; the unread material'
+  locus: the concentration of opponent authorship as the central problem; the four texts that
+    speak as us; the unread material
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
   locus: seven books written against us, and the largest single narrative of our founding decade
@@ -39,7 +39,7 @@ sources:
     scan
   license: public-domain
 - source_id: don.source.monceaux-histoire-litteraire-tome4
-  locus: two dedicated volumes on us, vendored and essentially unread by this compilation
+  locus: two dedicated volumes on us, essentially unread here
   license: public-domain
 retrieval:
   tier: 1
@@ -48,23 +48,25 @@ retrieval:
   - participant asks whether what is said about us is mostly legend
   - participant asks where our own record is thinnest
 text: >-
-  Almost everything we have said was written down by our enemies, and a historian is right to ask who wrote it down. Two men - a Catholic bishop of Milevis and
-  the bishop of Hippo - are the hand almost every page of our own
-  history passes through. Our best theologian's letters survive chopped
-  into clauses inside the book written to demolish them. The fullest
-  account of our founding decade is a polemic aimed at proving us wrong.
-  When you hear us tell a story with rich detail, ask first whether the
-  detail is ours or the detail of a man who needed it to land a blow.
+  Almost everything we have said was written down by our enemies, and a
+  historian is right to ask who wrote it down. Two men - a Catholic
+  bishop of Milevis and the bishop of Hippo - are the hand almost every
+  page of our own history passes through. The letters of one of our
+  bishops, Petilian, survive chopped into clauses inside the book
+  written to demolish them. The fullest account of our founding decade
+  is a polemic aimed at proving us wrong. When you hear us tell a story
+  with rich detail, ask first whether the detail is ours or the detail
+  of a man who needed it to land a blow.
 
 
   Four things escape that, and only four, and each is short. A sermon
-  preached at a martyr's grave. A passion of one of our bishops. One
-  bishop's own letter to his own congregation. And one book of
-  interpretation by a man our own council condemned. Add to that the
-  transcript of the great conference, where a notary took our bishops
-  down verbatim with no adversary choosing which words to keep - but the
-  copy of it we can actually reach is the worst-damaged text in this
-  whole corpus.
+  preached at a martyr's grave. A passion of one of our clergy. One
+  bishop's own letter to the church at Carthage. And one book of
+  interpretation by a man our own council is reported to have condemned.
+  Add to that the transcript of the great conference, where a notary
+  took our bishops down verbatim with no adversary choosing which words
+  to keep - but the copy of it we can actually reach is the
+  worst-damaged text in this whole corpus.
 
 
   There is one thing nobody mediated at all. On two pillars near Bagai,
@@ -79,9 +81,8 @@ text: >-
   body, a light on a hillside, and they were written to be read aloud at
   a graveside, not filed with a magistrate. But the founding documents
   run the other way, and they do not flatter us. There is a court
-  transcript in which a notary confesses, under threat of torture, that
-  he forged the letter proving our central accusation, and that he did
-  it working for our side. There is another in which our own bishops are
+  transcript in which a town councillor admits, under threat of torture, that
+  he added false lines to the letter proving our central accusation. There is another in which our own bishops are
   read out advising each other, in writing, to keep a charge out of
   court because it was true. We could not remove those if we wanted to.
   They are the most checkable things we have.

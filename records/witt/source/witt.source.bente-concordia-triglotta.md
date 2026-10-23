@@ -18,6 +18,7 @@ author: F. Bente & W. H. T. Dau
 work: Concordia Triglotta
 edition: '(St. Louis: Concordia, 1921) — translation and bracketed German-text insertions in R25 and R38;
   vendored as cic/texts/luther_large-catechism_bente-dau1921.txt, cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt'
+citation: 'F. Bente & W. H. T. Dau, Concordia Triglotta (St. Louis: Concordia, 1921)'
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

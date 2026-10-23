@@ -66,8 +66,8 @@ relations:
 - type: tension-with
   target: gallic.term.grace
 plain_meaning: >-
-  A word we speak in two rooms. At Marseilles, it is what our effort cannot claim against grace.
-  At Tours, it is the saint's standing before God, by which a miracle is asked.
+  One word with two senses. At Marseilles, it was what our effort could not claim against grace. At
+  Tours, it was the saint's standing before God, by which people asked for a miracle.
 world_word: merit (meritum; "no antecedent merits")
 false_friend:
 - '"works-righteousness" - earning salvation - as the thing we stood for'
@@ -98,8 +98,9 @@ senses:
     later idea. What we kept was narrower: the saints' merits are real and not to be denied to human
     nature, and grace still goes first.
 quick_meaning: >-
-  Two rooms, one word. At Marseilles, what our effort cannot claim against grace, which goes first.
-  At Tours, the saint's standing by which we ask a miracle.
+  Two senses of one word. At Marseilles, what our effort could not claim against grace, which receives
+  us "from no antecedent merits of ours." At Tours, the saint's standing, by which people asked for a
+  miracle.
 distortion_risk: high
 use_note:
   means: "Merit meant two things in two rooms: at Marseilles what effort cannot claim against grace, at Tours the saint's standing before God by which a miracle is asked."

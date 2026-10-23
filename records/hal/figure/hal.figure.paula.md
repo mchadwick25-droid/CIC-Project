@@ -31,9 +31,9 @@ dates:
   floruit: 'Rome until 385 (widowed 379/380, ascetic under Marcella''s circle''s influence);
     the 385-386 journey; Bethlehem 386-404 (founder and head of the women''s community)'
 narratable: true
-bridge_line: the widow whose fortune and resolve built Bethlehem - founder and head of the
-  women's community, mother of Eustochium and Blaesilla, the material foundation of the
-  whole scholarly project
+bridge_line: >-
+  the widow who built and led the women's community at Bethlehem. By Jerome's
+  account, she paid for it. She was the mother of Blaesilla and Eustochium
 relations:
 - type: associated-with
   target: hal.quote.paula-escaped-his-envy

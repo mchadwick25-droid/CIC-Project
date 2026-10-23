@@ -30,7 +30,7 @@ retrieval:
   retrieve_when:
   - the 386 Milan basilica standoff
   - how a bishop could resist an emperor
-  - worship under threat; Milan's own hymn-singing custom, begun that night
+  - worship under threat; Milan's own hymn-singing custom, begun during the siege
   - what belonging cost in this world
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
@@ -44,16 +44,13 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): two ind
   an eyewitness in the same city, writing later. The core event (the demand, the standoff, the singing,
   its lasting liturgical consequence) is corroborated across both; unnamed participants'' interiority
   beyond what Augustine attests is not claimed.'
-tellable_as: the basilica standoff of 386 - the congregation that held its church against the court,
-  singing
+tellable_as: the 386 standoff in Milan, where a congregation held its church against the court and sang.
 text: >-
   The imperial court wanted a basilica: one of Milan's churches, handed over
   for the worship of the confession the court held, the one that said 'like
   the Father' and no more. Ambrose would not give it up. As he told his
   sister: I cannot surrender the basilica, but I may not fight. Soldiers came
-  and stood around the building. He stayed inside with the people, and the
-  people stayed, not knowing on a given night whether the orders outside were
-  to surround or to storm. Augustine, who was in the city, remembered it
+  and stood around the building. He stayed inside with the people, and the people stayed with him. Augustine, who was in the city, remembered it
   plainly: the faithful kept guard in the church, prepared to die with their
   bishop. And it was then, he says, that Milan began to sing - hymns and
   psalms after the manner of the Eastern churches, so the waiting did not have
@@ -61,6 +58,7 @@ text: >-
   now, and imitated by nearly all congregations across the world. In the
   middle of it, Ambrose preached the sentence we kept: the emperor is
   within the Church, not above it. The court did not take the building.
+telling: "The imperial court wanted one of Milan's churches for the worship of its own confession, the one that said \"like the Father\" and no more. The court was acting under an imperial law of January 386, which let that confession assemble for worship. The printed edition of Ambrose's letters dates the law a year earlier.\n\nAmbrose would not give the church up. As he told his sister, \"I cannot give up the basilica, but I must not fight.\"\n\nSoldiers came and stood around the building. Ambrose stayed inside with the people, and the people stayed with him. Augustine was in the city, and he remembered it plainly. The pious people, he wrote, kept guard in the church, ready to die with their bishop.\n\nIt was then, Augustine says, that Milan began to sing hymns and psalms in the manner of the Eastern churches. They sang so that the people would not waste away in the weariness of sorrow. He wrote that the custom was kept from then on, and that nearly all congregations across the world copied it.\n\nIn the middle of the standoff, Ambrose preached that \"the Emperor is within the Church, not above it.\" The court did not take the building."
 absent_detail: 'No unnamed congregant''s own account survives - the vigil''s interior reaches the record
   only through Augustine''s memory and Ambrose''s own interested telling; Justina''s court''s side of the
   crisis exists only in its opponents'' words; and how close the soldiers actually came to storming the
@@ -86,7 +84,7 @@ modern_contrast: >-
   evidence of ordinary lay participation, corroborated from outside by Augustine - not only a story
   about clergy and emperors.
 use_note:
-  means: "In 386 a congregation held its Milan basilica against the Homoian court singing through the night, in a dispute over which confession the state backed."
+  means: "In 386 a congregation held its Milan basilica against the Homoian court, singing hymns and psalms, in a dispute over which confession the state backed."
   not_for:
     - "a claim that a persecuted minority resisted a secular or pagan state"
     - "a claim that the court acted with force and no legal pretext"

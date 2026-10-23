@@ -28,7 +28,8 @@ dates:
   display: "martyred c. 155-156 by the traditional dating; Eusebius's Chronicon gives 167"
   died: "c. 155-156 (traditional) or 167 (Chronicon) - both carried, neither forced"
 narratable: true
-bridge_line: "A church leader at Smyrna, burned in the arena for refusing to curse Christ. His own letter survives."
+bridge_line: A church leader at Smyrna. His church told how he was put to death for refusing to curse
+  Christ. His own letter survives.
 ---
 The figure who spans both registers of this world's record: his own
 letter's modest self-naming ("Polycarp, and the presbyters with him" -

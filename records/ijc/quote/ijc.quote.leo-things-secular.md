@@ -23,10 +23,10 @@ text: 'Let the city of Constantinople have, as we desire, its high rank, and und
   from things divine: and there can be no sure building save on that rock which the Lord has laid for
   a foundation.'
 modern_rendering: >-
-  Let the city of Constantinople have, as we wish, its high rank, and long enjoy your
-  Clemency's rule under the protection of God's right hand. Yet secular things stand on a
-  different footing from divine things. There can be no sure building except on that rock
-  which the Lord has laid as a foundation.
+  Let the city of Constantinople have, as we desire, its high rank. And under the protection of God's
+  right hand, let it long enjoy your merciful rule. Yet things secular stand on a different basis from
+  things divine. And there can be no sure building except on that rock which the Lord has laid as a
+  foundation.
 speaker_or_author: ijc.figure.leo
 license: verbatim
 modern_lens_note: >-

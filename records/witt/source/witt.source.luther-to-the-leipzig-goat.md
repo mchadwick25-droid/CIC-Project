@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: To the Leipzig Goat
 edition: (Jan. 1521), trans. Steimle, vol. III; vendored as cic/texts/luther_works-v3-selected_various1930.txt
+citation: Luther, To the Leipzig Goat (Jan. 1521), trans. Steimle, vol. III
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

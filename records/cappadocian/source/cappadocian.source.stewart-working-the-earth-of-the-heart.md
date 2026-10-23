@@ -17,6 +17,7 @@ relations: []
 author: Columba Stewart
 work: '''Working the Earth of the Heart'''
 edition: In-copyright modern scholarship, not vendored
+citation: Columba Stewart, 'Working the Earth of the Heart'
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

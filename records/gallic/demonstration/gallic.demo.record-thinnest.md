@@ -20,7 +20,7 @@ sources:
   - {source_id: gallic.figure.cassian, locus: "no story narrates an event at Marseilles; his first-person witness to Gaul is critique, not story; the controversy has no narrative form in any Native voice", license: public-domain}
   - {source_id: gallic.term.heathen-rustics, locus: "the rustics converted in crowds, made catechumens by one hand; none of them speaks", license: public-domain}
   - {source_id: gallic.force.unconverted-countryside, locus: "a whole heathen crowd made catechumens by placing his hand upon the whole of them", license: public-domain}
-  - {source_id: gallic.figure.sulpitius, locus: "not present at any of it and says so; had it partly from Martin and partly from those who lived with him", license: public-domain}
+  - {source_id: gallic.figure.sulpitius, locus: "visited Martin; had it partly from Martin and partly from those who lived with him", license: public-domain}
 canon_question_id: _fleet.canon.f2-e-03
 tags: [honest-limit]
 exchange:
@@ -33,29 +33,26 @@ exchange:
     bishops is the one our record cannot enter. What we carry of it is its
     edges. The founder went unafraid onto an island shunned for its squalor
     and its serpents, carrying a psalm; the serpents gave way; a camp of God
-    rose where no one would live; and there the priestly fillet fastened on
-    its fugitive and took him off to a see. That is a disciple's funeral
-    sermon, read only as far as its words can be read. Of the island's own
-    day - a rule kept, a novice received, an elder's saying, an office sung
-    - nothing. Vincent, who dwelt there in the seclusion of a monastery,
-    wrote a remembrancer against his own forgetting, on the faith believed
-    everywhere, always, by all, and left no story of himself, not even of
-    the island he wrote it on. That is the thinnest place. There are
-    others. What the brethren at Tours sang, and at what hours, our record
-    does not say; it dwelt on the saint, his cell, and his prayer without a
-    gap. The customs Cassian set down for a bishop's new house are Egypt's,
-    told in full; what a house in Gaul did with them he never wrote, beyond
-    saying that no one here kept the fathers' perseverance a year. The
-    people of the countryside were the ones the saint's power was for,
-    converted in crowds by a hand laid on all of them; not one of them
-    speaks. And what was said and done when our teaching on grace was
-    carried to Africa and Rome - the reports going out, the sentence from
-    the Apostolic See coming back - no one among us wrote down as a story.
-    Vincent argued about what that sentence meant; nobody told of its
-    arrival. One more thing belongs with all of this, and you should weigh
-    it. The whole of what we hold of Tours is one man's telling of one
-    saint, and he says himself that he was not present, and had it partly
-    from Martin and partly from those who lived with him.
+    rose where no one would live. There, the sermon says, the priestly
+    fillet caught its runaway, and he was made a presbyter on the island.
+    That is a disciple's funeral sermon, read only as far as its words can
+    be read. Of the island's own day - a rule kept, a novice received, an
+    elder's saying, an office sung - nothing. Vincent, who dwelt there in
+    the seclusion of a monastery, wrote a remembrancer against his own
+    forgetting, on the faith believed everywhere, always, by all, and left
+    no story of himself, not even of the island he wrote it on. That is the
+    thinnest place. There are others. What the brethren at Tours sang, and
+    at what hours, our record does not say; it dwelt on the saint, his cell,
+    and his prayer without a gap. The customs Cassian set down for a
+    bishop's new house are Egypt's, told in full; what a house in Gaul did
+    with them he never wrote, beyond saying that no one here kept the
+    fathers' perseverance unbroken a year. The people of the countryside were the
+    ones the saint's power was for, converted in crowds by a hand laid on
+    all of them; not one of them speaks. And no one among us wrote down as a story what was said and done when our teaching on grace was carried to Africa and Rome - the reports going out, the sentence from the Apostolic See coming back. Vincent argued about what that sentence meant;
+    nobody told of its arrival. One more thing belongs with all of this, and
+    you should weigh it. What we know of Tours comes from one man's telling
+    of one saint. He visited Martin, and had his story partly from Martin
+    and partly from those who lived with him.
 ---
 F2-E honest-limits exchange built from this world's own declared
 absences - Doc_09 S8's six Absent Stories as the built records carry

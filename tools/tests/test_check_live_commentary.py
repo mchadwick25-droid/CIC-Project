@@ -1018,10 +1018,12 @@ def test_real_fleet_true_positives_still_match_on_main():
     # exactly the intended outcome, not a false positive - so it was
     # swapped for cappadocian's own matrix-cell-code example, a fleet-wide
     # leak (the bracketed build-taxonomy tag on every gravity/force `name`)
-    # not yet remediated in any world.
+    # not yet remediated in any world. The cappadocian rulings pass later
+    # cleared ascetic-ferment.md too, so the third example is now
+    # famine-crisis.md, still carrying the tag.
     assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.capitals-gravity.md")
     assert _new_pattern_hits("records/pahc/world_core/pahc.core.house-church.md")
-    assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.ascetic-ferment.md")
+    assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.famine-crisis.md")
 
 
 def test_real_editorial_numbered_labels_not_flagged_as_headers():
@@ -1361,7 +1363,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # surface pass and stopped matching. Moved to fresh worlds/ examples,
     # not yet touched by the cleanup program (item 4), to keep this table
     # at >=60 real, currently-matching lines.
-    ("Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md", 1, "REWRITE"),
+    ("Build/worlds/_cross-world/dossiers/anatolian-church-third-century_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("Build/worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md", 279, "REWRITE"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized to
     # content-based matching across any Build/worlds/ .md file): line 562
@@ -1422,7 +1424,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # this same line from 127 to 108; refreshed 2026-10-04: Go Deeper S5d
     # (commit a5df3f70) added a line above it, so it is now 109. Same text,
     # same label.
-    ("cic-website/support.html", 109, "KEEP"),
+    ("cic-website/support.html", 111, "KEEP"),
     ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
     # the original _cross-world example was cleaned by that effort.
@@ -1453,7 +1455,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/worlds/hal/hal_Decision_Log.md", 88, "PROTECTED"),
     ("Build/worlds/don/scripts/wb_don_s21.py", 450, "REWRITE"),
     ("Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
-    ("Build/worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md", 80, "REWRITE"),
+    ("Build/worlds/_cross-world/dossiers/devotio-moderna-brethren-of-the-common-life_Source_Readiness_Dossier.md", 11, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): line 109 shifted to 120 once the eleven
@@ -1481,12 +1483,12 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # tag is still unremediated.
     ("records/cappadocian/force/cappadocian.force.capitals-gravity.md", 25, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 272, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 279, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 162, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 280, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 242, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 287, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 249, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),
-    ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 26, "PROTECTED"),
+    ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 27, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
     # 0cbe76d5..30b1cb93): the original cappadocian.voice.craft.md:106 line
     # was cleaned as part of that effort. Re-pinned to a stable
@@ -1502,7 +1504,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # Refreshed 2026-10-03: the alx tag strip (commit 468d97ff) cleaned this
     # line. Re-pinned to the same decision log as the row above.
     ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 41, "REWRITE"),
-    ("records/alx/source/alx.source.origen-comm-matthew.md", 22, "PROTECTED"),
+    ("records/alx/source/alx.source.origen-comm-matthew.md", 23, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
     # 0cbe76d5..30b1cb93): the original hal.force.clerical-precarity.md:52
     # line was cleaned as part of that effort. Re-pinned to a stable

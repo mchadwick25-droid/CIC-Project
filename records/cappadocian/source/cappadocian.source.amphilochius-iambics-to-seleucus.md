@@ -46,6 +46,7 @@ edition: >-
   section itself -- "I have substituted my own Epitome, in the room of Johnson's,
   translating the original as it is found in Beveridge's Synodicon, Tom. II., p. 179" --
   and notes the passage is also in Aristenus' Epitome, with no Balsamon scholion on it.
+citation: Amphilochius of Iconium, From the Iambics to Seleucus, on the canon of Scripture (the editor's epitome), Nicene and Post-Nicene Fathers, 2nd series, vol. 14 (The Seven Ecumenical Councils), ed. Schaff and Wace
 kind: vendored
 rights_status: "public-domain; vendored, present in the shared library since 2026-08-15"
 attribution_status: attributed

@@ -252,6 +252,17 @@ def test_a_grandfathered_world_with_a_live_waiver_reports_the_missing_type_witho
     assert sum("waived for a grandfathered world" in n for n in report.notes) == 4
 
 
+def test_records_fails_a_spoken_sentence_that_ends_on_a_bare_question_word(monkeypatch):
+    _stub_world(monkeypatch, "syr", ["world_front", "facilitator_brief", "search_record"])
+    clean = regate.run_records("syr")
+    assert not [f for f in clean.findings if f.check == "question-ending"]
+    records = {"syr.term.a": _term("syr.term.a", "Christ is present. We do not explain how.")}
+    monkeypatch.setattr(regate, "load_world_records", lambda c, records_root=None: records)
+    report = regate.run_records("syr")
+    found = [f for f in report.findings if f.check == "question-ending"]
+    assert len(found) == 1 and "We do not explain how." in found[0].reason
+
+
 def test_a_grandfathered_world_without_a_waiver_still_fails_for_a_missing_type(monkeypatch):
     _stub_world(monkeypatch, "zzz", ["world_front"])
     monkeypatch.setattr(regate, "GRANDFATHERED_WORLDS", frozenset({*regate.GRANDFATHERED_WORLDS, "zzz"}))
