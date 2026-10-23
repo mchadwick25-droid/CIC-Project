@@ -13,6 +13,40 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-10-23 — Era VII rulings: census 292→296 (VI.13 split into four regional entries, VI.30 folded into V.17)
+
+**What changed.** After the two Era VII library passes (PRs 1069 and 1071), Mark
+took six decisions one at a time; the full record is the entry of the same
+date in `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md`. Two of them
+change the census:
+
+- **Mission-Born Christianities (VI.13)** becomes a label assessed per body
+  (A3), the same mechanism Progressive Christianity (IX.18) already uses.
+  Four regional entries carry its strands: Kongo Christianity, Afonso I to
+  1650 (VI.13a) and Kirishitan Japan (VI.13b), both build-later candidates
+  with a convert voice in the library; Ming China (VI.13c) and New Spain and
+  the Andes (VI.13d), on the atlas until a public-domain convert text
+  clears. The library's finding that drove it: the four strands share no
+  actor, language or voice beyond the Jesuit mission VI.11 already owns.
+- **The Church of the East, schism of 1552 (VI.30)** is marked within another
+  world (A5), told as the closing arc of the Church of the East, Timur to
+  Hakkari (V.17), with the Chaldean consolidation (VIII.40) continuing it.
+  One first-person text in its window, nothing in the Shimun line's voice.
+
+**Heart reasoning.** The census entry is the promise of a conversation with a
+real community's own voice. Where the library could not find that voice for
+a region, the honest atlas shows the region with its sources and says so,
+rather than letting a missionary's composite speak for converts who left no
+words of their own.
+
+**Not changed.** The era stays frozen; this is a change order on two entries,
+named and reasoned, not a re-survey. The four new entries' prose is drawn
+from the parent entry's own text and the dossier, not newly researched.
+`meta.statusCounts` and `totalEntries` updated; the validator passes.
+
+**Next action.** The four regional entries get their own dossiers when each
+goes to Step 0; until then the VI.13 dossier serves all four.
+
 ## 2026-08-31 (still later) — Founding principle stated: the base program is the whole ecology, not the built worlds
 
 **Origin.** After the storyboard's ten-scene revision, Mark stated the

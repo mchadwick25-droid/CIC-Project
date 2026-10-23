@@ -3,6 +3,18 @@
 See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is and
 why it exists.
 
+**Second pass, October 2026 (Era VII library session, second-pass agent):**
+four leads from §3 are now vendored (§1, second-pass table): John's Ascent of
+Mount Carmel (Lewis, 1906) and Teresa's Way of Perfection (Stanbrook, 1919),
+which complete the two founders' major works in English, and two Spanish
+originals, Teresa's Libro de la Vida in Silverio's edition (1915) and John's
+minor works and poems in Gerardo de San Juan de la Cruz's edition (Toledo,
+1914). The poems were meant to come from Silverio's John; his tomo IV (Llama,
+Cautelas, Avisos, Cartas, Poesias) and tomo V read Burgos 1931 on their title
+pages, after the 1930 cutoff, so they are closed (§4) and the 1914 Toledo
+edition stands in. Silverio's John tomos I-III (1929, 1929, 1930) remain
+public-domain leads. The recommendation in §6 does not change.
+
 **Atlas ID:** VI.29
 **Corpus-map slug:** `carmelite-reform-and-spanish-mystics`
 **Time window:** 1562-1622 (St Joseph's, Avila, founded 1562; Teresa
@@ -34,6 +46,24 @@ pass and staged. All are English; all are public domain by date.
 | Teresa's paper on the visitation of nunneries, the Carmelite Rule, the rule of the nuns and the Constitutions for the sisters (same volume) | teresa-of-avila | tradition | assigned | the closing part of the same file | same file |
 | The Dark Night of the Soul, Spiritual Canticle and Living Flame of Love (Lewis, 2nd ed. 1891), with the Instructions and Precautions, eighteen letters, a censure and the Spiritual Maxims | john-of-the-cross | tradition | assigned | ~192,000 words | `john-of-the-cross_dark-night-canticle-living-flame_lewis1891.txt` |
 | The Life of Saint John of the Cross (Burns and Oates, 1873), compiled from the Life by Fra Joseph of Jesus and Mary | john-of-the-cross (compiler unnamed on the title page) | context | assigned | ~82,000 words | `john-of-the-cross_life_lewis1873.txt` |
+
+**Vendored in the second pass, October 2026** (four files, staged, pass
+`corpus_map_merge.py --check`; registry and seed rows in the second-pass
+agent's fragments):
+
+| work | author | role | confidence | approx. scale | source file |
+|---|---|---|---|---|---|
+| The Ascent of Mount Carmel (Lewis, corrected by Zimmerman, 1906), with Zimmerman's prefatory essay (context, provisional) | john-of-the-cross | tradition | assigned | ~125,000 words, clean | `john-of-the-cross_ascent-of-mount-carmel_lewis1906.txt` |
+| The Way of Perfection (Stanbrook, from the autograph with the Escorial and Valladolid variants, 2nd ed. 1919) | teresa-of-avila | tradition | assigned | ~91,000 words, clean | `teresa-of-avila_way-of-perfection_stanbrook1919.txt` |
+| Libro de la Vida, Spanish (Silverio de Santa Teresa, Burgos 1915, tomo I) | teresa-of-avila | tradition | assigned | ~208,000 words, clean | `teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt` |
+| Cautelas, Avisos y sentencias, Dictamenes, Cartas, documents and Poesias in Spanish (Gerardo de San Juan de la Cruz, Toledo 1914, tomo III); with attributed works, two treatises by Cecilia del Nacimiento and Carmelite apologetic appendices (context, provisional) | john-of-the-cross | tradition | assigned | ~261,000 words in the volume, clean | `john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt` |
+
+The two Spanish files are, under the ruling of September 2026, primary
+evidence: a quote record may hold Teresa's or John's own Spanish, verified
+against the file and the page image, with the English files as cross-checks.
+The new English files carry the same sibling rows as the first-pass files
+(the Tridentine Church and the Carmelites as context, provisional; the
+Quietist Controversy as antecedent, needs-ruling).
 
 The same files carry further rows for sibling entries, all `context` and
 `provisional` unless stated: `the-tridentine-church` (Life, Interior
@@ -123,20 +153,22 @@ seed fragment as `not-yet-downloaded`.
 
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| The Ascent of Mount Carmel (The Works of St. John of the Cross) | John of the Cross | David Lewis, rev. Benedict Zimmerman | 1906 | https://archive.org/details/TheAscentOfMountCarmel | public domain by date; host Public Domain Mark 1.0 | metadata and title page, nihil obstat "Die 22 Feb. 1906", October 2026. ~0.8 MB. Not in the 1891 volume. |
-| The Way of Perfection | Teresa of Avila | Benedictines of Stanbrook, ed. Zimmerman | 1919 reprint of 1911 | https://archive.org/details/thewayofperfecti00tereuoft | public domain by date; host NOT_IN_COPYRIGHT | metadata and title page (imprimatur 29 January 1911, reimprimatur 21 March 1919), October 2026. ~0.6 MB. |
+| The Ascent of Mount Carmel (The Works of St. John of the Cross) | John of the Cross | David Lewis, rev. Benedict Zimmerman | 1906 | https://archive.org/details/TheAscentOfMountCarmel | public domain by date; host Public Domain Mark 1.0 | metadata and title page, nihil obstat "Die 22 Feb. 1906", October 2026. ~0.8 MB. Not in the 1891 volume. **Vendored in the second pass, October 2026.** |
+| The Way of Perfection | Teresa of Avila | Benedictines of Stanbrook, ed. Zimmerman | 1919 reprint of 1911 | https://archive.org/details/thewayofperfecti00tereuoft | public domain by date; host NOT_IN_COPYRIGHT | metadata and title page (imprimatur 29 January 1911, reimprimatur 21 March 1919), October 2026. ~0.6 MB. **Vendored in the second pass, October 2026.** |
 | The Letters of Saint Teresa, a complete edition, vol. II | Teresa of Avila | Benedictines of Stanbrook | 1921 | https://archive.org/details/lettersofstteres0002unse (also letterst02tere) | public domain by date | metadata and title page (imprimatur 24 February 1921), October 2026. ~0.6 MB. |
 | The Letters of Saint Teresa, a complete edition, vol. III | Teresa of Avila | Benedictines of Stanbrook | 1922 (title page MCMXXII; host date 1921) | https://archive.org/details/lettersofsaintte03tere | public domain by date; host NOT_IN_COPYRIGHT | metadata and title page, letters from 201 (December 1577), October 2026. ~0.6 MB. Volume I not located; the set is "Letters" 1919-24 in the task. |
-| Obras de Santa Teresa de Jesus, tomo I Libro de la vida, and tomos II-VI (Relaciones; Camino de perfeccion; Moradas, Conceptos, Exclamaciones; Fundaciones, 1918; Constituciones, Poesias) | Teresa of Avila | none (Spanish); ed. Silverio de Santa Teresa, C.D., Burgos, El Monte Carmelo | 1915-1918 | https://archive.org/details/obrasdesantatere01tere (to ...06tere) | public domain by date | metadata and title pages of tomos I-VI, October 2026. 1.3-1.7 MB each. |
-| Obras de San Juan de la Cruz, tomos I-V (Preliminares; Subida y Noche oscura; Canticos; Llama de amor viva; Procesos de beatificacion y canonizacion I) | John of the Cross | none (Spanish); ed. Silverio de Santa Teresa, O.C.D., Burgos | 1929 | https://archive.org/details/obrasdesanjuande02john (to ...01, 03, 04, 05) | public domain by date (published 1929) | metadata and title pages, October 2026. 1.3-1.9 MB each. Tomo V holds sworn testimony about John. |
-| Obras del Mistico Doctor San Juan de la Cruz, edicion critica, tomo primero (and tomos II, III) | John of the Cross | none (Spanish); ed. Gerardo de San Juan de la Cruz, Toledo, with an epilogue by Menendez y Pelayo | 1912 | https://archive.org/details/obrasedicincr01john | public domain by date | metadata and title page, October 2026. ~1.7 MB. The alternative to Silverio 1929. |
+| Obras de Santa Teresa de Jesus, tomo I Libro de la vida, and tomos II-VI (Relaciones; Camino de perfeccion; Moradas, Conceptos, Exclamaciones; Fundaciones, 1918; Constituciones, Poesias) | Teresa of Avila | none (Spanish); ed. Silverio de Santa Teresa, C.D., Burgos, El Monte Carmelo | 1915-1918 | https://archive.org/details/obrasdesantatere01tere (to ...06tere) | public domain by date | metadata and title pages of tomos I-VI, October 2026. 1.3-1.7 MB each. **Tomo I (Libro de la Vida) vendored in the second pass, October 2026**; tomos II-VI stay leads. |
+| Obras de San Juan de la Cruz, tomos I-V (Preliminares; Subida y Noche oscura; Canticos; Llama de amor viva; Procesos de beatificacion y canonizacion I) | John of the Cross | none (Spanish); ed. Silverio de Santa Teresa, O.C.D., Burgos | 1929 | https://archive.org/details/obrasdesanjuande02john (to ...01, 03, 04, 05) | public domain by date (published 1929) | metadata and title pages, October 2026. 1.3-1.9 MB each. Tomo V holds sworn testimony about John. **Corrected in the second pass, October 2026:** the title pages read 1929 (tomos I and II), 1930 (tomo III), and 1931 (tomos IV and V; imprimatur Burgos 26 March 1931). Only tomos I-III are public domain by date; IV and V are closed (§4). |
+| Obras del Mistico Doctor San Juan de la Cruz, edicion critica, tomo primero (and tomos II, III) | John of the Cross | none (Spanish); ed. Gerardo de San Juan de la Cruz, Toledo, with an epilogue by Menendez y Pelayo | 1912 | https://archive.org/details/obrasedicincr01john | public domain by date | metadata and title page, October 2026. ~1.7 MB. The alternative to Silverio 1929. **Second pass, October 2026:** tomo III (`obrasedicincr03john`, title page "TOLEDO-1914", ~1.7 MB), which holds the Cautelas, Avisos, Dictamenes, Cartas, documents and the Poesias (authentic and attributed, as the editor marks them) with attributed works, Cecilia del Nacimiento's two treatises and apologetic appendices, was **vendored**; tomos I and II (1912) stay leads. |
 | Vida de Santa Teresa de Jesus | Francisco de Ribera, S.J. | none (Spanish); Barcelona, Gustavo Gili editor | 1908 | https://archive.org/details/vidadesantatere00ribegoog | public domain by date; host NOT_IN_COPYRIGHT | metadata and title page, October 2026. 2.3 MB. The earliest full Life, by a Jesuit. No PD English found (§4). |
 | Regla primitiva, y constituciones de los religiosos descalzos de la orden de la bienaventurada virgen del monte Carmelo ... de la congregacion de Espana | host attribution: San Alberto de Jerusalen | none (Spanish) | 1736 | https://archive.org/details/regla_202106 | public domain by date; host Public Domain Mark 1.0 | host record read (title, 1736, 0.55 MB); title page not read, October 2026. A later printing of the friars' Constitutions, not the 1581 text. |
 | Sermon predicado en el religiosissimo convento de las monjas Carmelitas Descalzas de Sevilla ... a la Canonizacion de la Gloriosa Madre Santa Teresa de Iesus | Fr. Juan Salvador, Order of Our Lady of Carmel | none (Spanish) | 1622 | https://archive.org/details/A11207207 | public domain by date; host Public Domain Mark 1.0 (Biblioteca de la Universidad de Sevilla) | metadata and title page ("siete de Otubre de 1622"), October 2026. ~70 KB. |
 | Breue relacion de las ceremonias hechas en la canonizacion de los SS. Isidro Labrador, Ignacio de Loyola, Francisco Xauier, Teresa de Iesus y Phelippe Neri ... Gregorio Papa XV en 12 dias del mes de Marzo, ano de 1622 | printer Juan Rene (host attribution) | none (Spanish) | 1622 | https://archive.org/details/breuerelaciondelasceremoniashechasenlacanonizaciondelos-ss.-isidro-labrador-igna | public domain by date; host Public Domain Mark 1.0 | metadata and title page (rough OCR), October 2026. ~12 KB. |
 
-Spanish and English pairs: the English volumes are vendored first and the
-Spanish originals are leads, because the brief caps the vendored set. Teresa's
+Spanish and English pairs: in the first pass the English volumes were
+vendored and the Spanish originals left as leads, because the brief capped the
+vendored set. The second pass vendored two Spanish originals (Teresa's Vida,
+John's minor works and poems). Teresa's
 Life, Interior Castle, Foundations and Way of Perfection, and John's Dark
 Night, Canticle and Living Flame, all have a Spanish edition in the table
 above. Per `INTAKE.md` a clean public-domain Spanish original can be primary
@@ -158,6 +190,8 @@ evidence; the Silverio sets are the editions a build would quote from.
 | Constitutions of the Discalced nuns, 1787 (`wotb_6743800`) | Spanish text of the nuns' Constitutions | A late Madrid printing (Imprenta de Joseph Doblado, confirmed by Pius VI in 1786), not Teresa's text. The Teresa Constitutions are in the Lewis 1913 volume in English and in Silverio tomo VI in Spanish. Closed. |
 | Luis de Granada (*Sinner's Guide* 1886, `sinnersguide00luis_1`, Library of Congress, translator not read), Luis de Leon (*Nombres de Cristo*, 1917 Madrid, `delosnombresdecr01leon`; *Perfecta casada*), Francisco de Osuna (*Abecedario espiritual*, Seville 1528, `ARes54407`, gothic OCR garbled) | The task lists them as leads only | Not Carmelites. Found on the host and recorded; not run down to title pages. Left for a wider Spanish-mystics pass. |
 | Teresa's Life, Dalton translation of 1851 | Another PD English translation | Same text; Lewis is the standard. Closed. |
+| Silverio's John, tomo IV (Llama de amor viva, Cautelas, Avisos, Cartas, Poesias; `obrasdesanjuande04john`) and tomo V (Procesos, `obrasdesanjuande05john`) (**second pass**) | The task named the Silverio volumes for John's poems | Downloaded and read: both title pages say "Burgos, 1931" (imprimi potest 13 February 1931, imprimatur 26 March 1931); the host's 1929 date is the set's. A Spanish publication of 1931 is in copyright under the project's rule. Closed; the poems were vendored from the Gerardo 1914 edition instead (§1). |
+| Google Books as a second host for the Spanish editions (**second pass**) | The brief named it for hosts the first pass could not reach | Not usable this pass: the Books API answered 429 (daily quota exceeded) and books.google.com answered 500 and a redirect. Nothing was needed from it for this world. |
 | A Philippine or mission text naming the Carmelite reform | The task asks to check | None found (see §2). |
 
 ## 5. Open cross-world questions
@@ -229,8 +263,17 @@ Waldensian world, but denser in first-person voice.
 **Recommendation: build.** The world's two named voices are vendored whole,
 the floor is clear, the window is distinct from its siblings, and the
 census's own note that this is "viable, secondary" is a statement about
-priority, not about sources. The cost is that every voice is an English
-translation of the Spanish, with the Silverio editions named as the next
-acquisition, and that the outside witnesses (Gracian, Ribera, the
+priority, not about sources. The cost is that most voices are an English
+translation of the Spanish, and that the outside witnesses (Gracian, Ribera, the
 canonisation record) are thin. That is a normal Era VII condition, not a
 reason to hold. This is a recommendation for Mark, not a decision.
+
+**Second pass, October 2026: the recommendation is unchanged, and the first
+cost has shrunk.** The founders' major works are now complete in English
+(the Ascent and the Way of Perfection added), and two Spanish originals are
+in hand (Teresa's Vida, John's letters, maxims and poems), so a build can
+quote Teresa's and John's own Spanish for the Life and the poems and render
+from it, with the English as the cross-check. The remaining Spanish wants are
+Silverio's Teresa tomos II-VI and John tomos I-III (all public domain by date);
+Silverio's John tomos IV-V are 1931 and closed. The outside-witness gap is as
+before.

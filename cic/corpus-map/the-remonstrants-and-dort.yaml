@@ -9,18 +9,38 @@ works:
   author: arminius
   locus: whole file; Life of Arminius from about line 465, Orations from line 694, Declaration
     of Sentiments from line 8280, Apology from about line 12080, Nine Questions at line 16448
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'Arminius died in 1609, a year before the Remonstrance of 1610 that opens this world''s
     window, and the census names him as the first of its voices. His own words are the founder
     voice of the movement, and the Declaration of Sentiments (The Hague, 30 October 1608)
     is the fullest statement of the positions the Remonstrants took up. Whether a pre-window
     founder is the world''s own tradition voice or its antecedent is a Doc_01 ruling, so the
     row is needs- ruling. An English translation from the Latin by Nichols, revised for the
-    1853 edition; clean OCR, quotable once each quote is checked against the page image.
+    1853 edition; clean OCR, quotable once each quote is checked against the page image. Ruled
+    by the project lead, October 2026 (Era VII placements): a text from before the world''s
+    window that the world argued from is antecedent to it; a text from after the window is
+    context here and tradition for the later entry.'
+  source_file: arminius_works-v1_nichols1853.txt
+- row_id: brandt_history-of-the-reformation-in-the-low-countries-v3_1722--brandt-s-history-of-the-reformation-in-the-low-countries-vol
+  work: 'Brandt''s History of the Reformation in the Low-Countries, vol. III (Books XXXIII-XLIV):
+    the Synod of Dort and the fall of Oldenbarnevelt, 1618-1619, in the English of 1722'
+  author: brandt
+  locus: BOOK XXXIII from file line 1543, XXXIV from 5571, XXXV from 9541, XXXVI from 13430,
+    XXXVII from 17699, XXXIX from 31721, XLII from 45660, XLIII from 51318, XLIV from 57332
+    to the end (about line 71000); Oldenbarnevelt's trial from about line 44614
+  role: tradition
+  confidence: assigned
+  note: 'The Remonstrant minister''s own narrative of the Synod and its year, the insider
+    history the census names, in the eighteenth-century English that Calder (vendored) copies
+    for the Remonstrance of 1610. Brandt writes from the losing side and prints the Synod''s
+    acts, the Remonstrants'' papers and the foreign divines'' judgments at length. SECOND
+    WITNESS for exact wording: microfilm OCR with the long s normalised (about 0.85 of tokens
+    read as words), one badly read stretch at mid-volume; verify against the page image before
+    quoting.
 
     '
-  source_file: arminius_works-v1_nichols1853.txt
+  source_file: brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt
 - row_id: calder_memoirs-of-simon-episcopius_1838--memoirs-of-simon-episcopius-with-a-brief-account-of-the
   work: Memoirs of Simon Episcopius, with a brief account of the Synod of Dort and the sufferings
     of the followers of Arminius (Calder, 1838)
@@ -52,6 +72,39 @@ works:
 
     '
   source_file: dutch-reformed-synods_acta-1568-1586-nld_rutgers1889.txt
+- row_id: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889--a-defence-of-the-catholic-faith-concerning-the-satisfaction
+  work: A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus
+    Socinus (Grotius, Leiden 1617; Foster's English, 1889)
+  author: grotius
+  locus: GROTIUS'S DEFENCE, ten chapters from file line 2471 (CHAPTER I at 2471, II at 4527,
+    V at 6525, VII at 8018, VIII at 8750, IX at 9502); Foster's Historical Introduction from
+    about line 474 and his notes from 12478 are the translator's
+  role: tradition
+  confidence: provisional
+  note: 'Grotius is a census-named voice of this world and this is his theological work of
+    the quarrel years, written at Leiden in 1617 as the States'' jurist on the Remonstrant
+    side. Provisional rather than assigned because the book argues against Socinus on the
+    satisfaction of Christ, not for the Five Points; it shows what a Remonstrant-side thinker
+    held on the atonement while the charge of Socinianism was being laid against the party.
+    Clean OCR, quotable once checked against the page image; Foster''s introduction and notes
+    are a nineteenth-century Calvinist''s and are not the world''s voice.
+
+    '
+  source_file: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt
+- row_id: haak_dutch-annotations-narrative-and-front-matter_1657--haak-s-narrative-of-the-statenvertaling-how-the-synod-of-2
+  work: 'Haak''s Narrative of the Statenvertaling: how the Synod of Dort and the States General
+    made the Dutch Bible of 1637, with the ordinance prefixed to The Dutch Annotations (1657)'
+  author: haak
+  locus: the Synod of Dort's resolution on the translation and its choice of interpreters,
+    around file lines 320-470 (citing the Acta Synodalia, Sess. 7)
+  role: context
+  confidence: provisional
+  note: 'The Synod of Dort at work on something other than the Remonstrants: its seventh session
+    took up the Bible translation before the doctrinal cause was heard. A side of the Synod
+    the Dort world should know exists; placed on that locus only. Second witness.
+
+    '
+  source_file: haak_dutch-annotations-narrative-and-front-matter_1657.txt
 - row_id: hales_letters-from-the-synod-of-dort_1765--letters-from-the-synod-of-dort-to-sir-dudley-carleton-the
   work: Letters from the Synod of Dort to Sir Dudley Carleton, the English Embassador at the
     Hague (Hales; Foulis printing, 1765)
@@ -198,6 +251,41 @@ works:
 
     '
   source_file: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt
+- row_id: remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617--secunda-contra-remonstrantia-the-responsio-of-the-reformed
+  work: 'Secunda Contra-Remonstrantia: the Responsio of the Reformed ministers of Holland
+    and West Friesland to the Second Remonstrance, August 1617 (Latin from the Dutch, Leiden
+    1617)'
+  author: remonstrants
+  locus: RESPONSIO REFORMATORUM ECCLESIARUM MINISTRORUM from file line 943 to the end (about
+    line 7500), running heads 'II. Contra-Remonstrantia'
+  role: tradition
+  confidence: assigned
+  note: 'The Contra-Remonstrant ministers'' answer, ''in which it is shown that the Remonstrants
+    bring a new doctrine into the Reformed churches'', printed with the Remonstrance it answers:
+    the other party of this world in its own formal words, before the Synod. The host catalogue
+    names Trigland''s ''Klaer ende grondich teghen-vertoogh'' and Taurinus. The file is slugged
+    by the volume, not by the Contra-Remonstrant authors; a build cites the Responsio by its
+    own title. Second witness for exact wording, as above.
+
+    '
+  source_file: remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617.txt
+- row_id: remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617--secunda-remonstrantia-of-the-remonstrant-ministers-of
+  work: Secunda Remonstrantia of the Remonstrant ministers of Holland and West Friesland to
+    the States, April 1617 (Latin from the Dutch, Leiden 1617)
+  author: remonstrants
+  locus: from the title page (file line 25) to the start of the Responsio at line 943
+  role: tradition
+  confidence: assigned
+  note: 'The Remonstrants'' second formal petition to the States of Holland, at the height
+    of the quarrel, in the Latin made from the Dutch in the same year: the party''s own voice
+    as a body, a year before Dort. The host catalogue names Uytenbogaert''s Dutch ''Copye
+    van seker vertooch'' as the original. A primary original-language witness under the September
+    2026 ruling, but a SECOND WITNESS for exact wording: the OCR reads the long s as f and
+    misreads ligatures (about 0.47 of tokens matched against a patristic Latin baseline);
+    verify against the page image before rendering.
+
+    '
+  source_file: remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617.txt
 - row_id: remonstrants_confession-or-declaration_anon1676--the-confession-or-declaration-of-the-remonstrant-ministers
   work: The Confession or Declaration of the Remonstrant Ministers, in XXV Chapters, English,
     1676 printing (Episcopius, 1621)
@@ -248,6 +336,27 @@ works:
 
     '
   source_file: synod-of-dort_articles-with-history-of-events_scott1831.txt
+- row_id: tideman_stichting-der-remonstrantsche-broederschap-nld_1871--de-stichting-der-remonstrantsche-broederschap-1619-1634-the
+  work: 'De stichting der Remonstrantsche Broederschap, 1619-1634: the Brotherhood''s founding
+    records (Rotterdam 1619, Waalwijk and Antwerp, the Directie, the Confession of 1621, the
+    settling in the Republic), printed with Tideman''s narrative (two parts, 1871-1872)'
+  author: tideman
+  locus: whole file; eerste deel INHOUD from file line 410 (the Rotterdam assembly of March
+    1619 and its Akte, the Waalwijk and Antwerp assemblies, the Directie, the Confession),
+    Bijlagen from about 15102; tweede deel from about line 20120, INHOUD at 20147, Bijlagen
+    from about 37278
+  role: tradition
+  confidence: assigned
+  note: 'The exile Brotherhood''s own records as the census names them: the acts, letters,
+    requests and resolutions of the banished ministers from 1619 to 1634, printed in their
+    own Dutch inside a nineteenth-century Remonstrant professor''s narrative. The documents
+    are the Brotherhood''s voice; Tideman''s prose is not, and the spelling separates the
+    two. Readable Dutch OCR (about 0.77 against a clean Dutch baseline); quotable, and renderable
+    by Opus under the September 2026 ruling, once each passage is verified against the page
+    image. No English exists.
+
+    '
+  source_file: tideman_stichting-der-remonstrantsche-broederschap-nld_1871.txt
 - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563-3
   work: The Heidelberg Catechism (1563)
   author: ursinus-olevianus

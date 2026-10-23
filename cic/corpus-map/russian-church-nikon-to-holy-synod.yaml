@@ -122,6 +122,16 @@ works:
   note: The patriarch of the reforms defending his office and his claim for the priesthood
     against the tsar; the church's own voice at its most contested.
   source_file: nikon_replies-against-streshnev-and-ligarides_palmer1871.txt
+- row_id: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910--novyi-letopisets-the-new-chronicle-1584-to-the-1630s-in-the-2
+  work: Novyi letopisets (the New Chronicle), 1584 to the 1630s, in the Archaeographic Commission's
+    1910 edition
+  author: novyi-letopisets
+  locus: same as the first row; the last chapters (from about file line 9000) reach the 1630s
+  role: antecedent
+  confidence: provisional
+  note: The chronicle ends in the Filaret years, the generation before Nikon; placed on window
+    only, not read for this entry.
+  source_file: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt
 - row_id: olearius_voyages-and-travels-of-the-ambassadors_davies1662--the-voyages-and-travels-of-the-ambassadors-from-the-duke-of-2
   work: The Voyages and Travels of the Ambassadors from the Duke of Holstein to Muscovy and
     Persia (Olearius, John Davies's English, 1662)

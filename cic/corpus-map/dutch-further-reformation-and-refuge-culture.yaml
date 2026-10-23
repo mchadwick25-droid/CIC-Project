@@ -3,6 +3,21 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: dutch-further-reformation-and-refuge-culture
 works:
+- row_id: ames_marrow-of-sacred-divinity_1639--the-marrow-of-sacred-divinity-the-english-of-ames-s-medulla-2
+  work: The Marrow of Sacred Divinity (the English of Ames's Medulla theologiae), 1639
+  author: ames
+  locus: whole file; the title page names Ames as sometime professor of divinity at Franeker
+    in Friesland (file lines 70-80)
+  role: context
+  confidence: provisional
+  note: 'The English exile''s theology, taught inside the Dutch Republic at Franeker (title
+    page): the refuge half of this world seen from one of its sheltered guests. Placed as
+    refuge-culture context on the first-pass dossier''s own ruling that the English exiles''
+    primary home is Puritanism; a Doc_02 that reads Ames as part of the Dutch school may raise
+    it. Second witness.
+
+    '
+  source_file: ames_marrow-of-sacred-divinity_1639.txt
 - row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-3
   work: 'The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments;
     Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)'
@@ -33,6 +48,20 @@ works:
 
     '
   source_file: austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870.txt
+- row_id: brandt_history-of-the-reformation-in-the-low-countries-v3_1722--brandt-s-history-of-the-reformation-in-the-low-countries-vol-2
+  work: 'Brandt''s History of the Reformation in the Low-Countries, vol. III (Books XXXIII-XLIV):
+    the Synod of Dort and the fall of Oldenbarnevelt, 1618-1619, in the English of 1722'
+  author: brandt
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'The Synod year seen from the Remonstrant side, with the Contra-Remonstrant ministers,
+    the provincial synods and the towns named throughout. Placed on this world''s own place
+    and window, mirroring the context rows of the other Remonstrant files; not read for further-
+    reformation matter.
+
+    '
+  source_file: brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt
 - row_id: calder_memoirs-of-simon-episcopius_1838--memoirs-of-simon-episcopius-with-a-brief-account-of-the-3
   work: Memoirs of Simon Episcopius, with a brief account of the Synod of Dort and the sufferings
     of the followers of Arminius (Calder, 1838)
@@ -80,6 +109,27 @@ works:
 
     '
   source_file: dutch-reformed-synods_acta-1568-1586-nld_rutgers1889.txt
+- row_id: haak_dutch-annotations-narrative-and-front-matter_1657--haak-s-narrative-of-the-statenvertaling-how-the-synod-of
+  work: 'Haak''s Narrative of the Statenvertaling: how the Synod of Dort and the States General
+    made the Dutch Bible of 1637, with the ordinance prefixed to The Dutch Annotations (1657)'
+  author: haak
+  locus: whole file (a front-matter extract); the Narrative from about file line 290, the
+    Synod's resolution and its choice of interpreters around lines 364-440, the petition to
+    the States General at 470, the order of 8 November 1625 at 512, the interpreters' names
+    from 519
+  role: tradition
+  confidence: assigned
+  note: 'The nearest English account of the Dutch church''s own Bible, the Statenvertaling
+    of 1637, whose Dutch preface is on no reachable host as text: Haak reports the Synod of
+    Dort''s resolution, the States General''s commission, the six interpreters by name and
+    the method of the work, and the Synod''s annotations are the church''s own reading of
+    Scripture that the precisianist pulpit preached from. Tradition because the documents
+    reported are the church''s own acts; Haak''s prose is a contemporary English intermediary.
+    SECOND WITNESS for exact wording (microfilm OCR, f for long s, about 0.74); verify against
+    the page image. The annotated Bible text itself is not vendored (13 MB on the host).
+
+    '
+  source_file: haak_dutch-annotations-narrative-and-front-matter_1657.txt
 - row_id: hales_letters-from-the-synod-of-dort_1765--letters-from-the-synod-of-dort-to-sir-dudley-carleton-the-2
   work: Letters from the Synod of Dort to Sir Dudley Carleton, the English Embassador at the
     Hague (Hales; Foulis printing, 1765)
@@ -110,6 +160,24 @@ works:
 
     '
   source_file: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858.txt
+- row_id: marnix_beehive-of-the-romish-church_gilpin1623--the-bee-hive-of-the-romish-church-gilpin-s-english-of-the
+  work: The Bee Hive of the Romish Church (Gilpin's English of the Bijenkorf, 1579; the 1623
+    printing)
+  author: marnix
+  locus: whole file; Gilpin's dedication to Philip Sidney from file line 49; the satire's
+    chapters follow (headings mostly lost in the black-letter OCR)
+  role: tradition
+  confidence: assigned
+  note: 'The public-domain English beside the vendored Dutch original of 1569 (the 1858 edition).
+    Marnix''s satire on the Roman church, written by the Dutch Revolt''s leading Reformed
+    layman a year before this world''s window opens, placed on the same ground as the Dutch
+    file (the author''s place in the movement, the date stated). SECOND WITNESS for exact
+    wording: black- letter microfilm OCR at about 0.73 after long-s normalisation; the Dutch
+    1858 text is the primary wording and this English is checked against the page image before
+    use.
+
+    '
+  source_file: marnix_beehive-of-the-romish-church_gilpin1623.txt
 - row_id: mcglothlin_baptist-confessions-of-faith_1911--the-amsterdam-english-baptist-confessions-1609-1630
   work: The confessions of the English Baptist exiles at Amsterdam (Smyth's and Helwys's churches,
     1609-1630), as printed by McGlothlin
@@ -207,6 +275,18 @@ works:
 
     '
   source_file: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt
+- row_id: remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617--secunda-remonstrantia-and-secunda-contra-remonstrantia-1617
+  work: Secunda Remonstrantia and Secunda Contra-Remonstrantia, 1617 (Latin from the Dutch)
+  author: remonstrants
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'The quarrel inside the Dutch church in 1617 as both parties put it to the States:
+    the Contra-Remonstrant half is the party of the precisianist pulpit this world describes.
+    Mirrors the context placement of the other Remonstrant files on this world. Second witness.
+
+    '
+  source_file: remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617.txt
 - row_id: remonstrants_confession-or-declaration_anon1676--the-confession-or-declaration-of-the-remonstrant-ministers-2
   work: The Confession or Declaration of the Remonstrant Ministers, in XXV Chapters, English,
     1676 printing (Episcopius, 1621)
@@ -311,6 +391,22 @@ works:
 
     '
   source_file: teellinck_resting-place-of-the-minde_1622.txt
+- row_id: tideman_stichting-der-remonstrantsche-broederschap-nld_1871--de-stichting-der-remonstrantsche-broederschap-1619-1634-the-2
+  work: 'De stichting der Remonstrantsche Broederschap, 1619-1634: the Brotherhood''s founding
+    records (Rotterdam 1619, Waalwijk and Antwerp, the Directie, the Confession of 1621, the
+    settling in the Republic), printed with Tideman''s narrative (two parts, 1871-1872)'
+  author: tideman
+  locus: whole file; the tweede deel's INHOUD (line 20147) on the Staten of Holland, the Prince,
+    the plakkaten and the towns, 1624-1631
+  role: context
+  confidence: provisional
+  note: 'The dissenting church taking shape inside the Republic that this world describes,
+    with the States, the towns and the plakkaten against the separate assemblies seen from
+    the banished side. Placed on that relation; the further-reformation world''s build decides
+    how much of it to use.
+
+    '
+  source_file: tideman_stichting-der-remonstrantsche-broederschap-nld_1871.txt
 - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563-2
   work: The Heidelberg Catechism (1563)
   author: ursinus-olevianus

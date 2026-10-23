@@ -128,6 +128,57 @@ works:
 
     '
   source_file: mcglothlin_baptist-confessions-of-faith_1911.txt
+- row_id: hubmaier_freiwilligkeit-des-menschen-und-von-dem-schwert-deu_1527--das-ander-b-chlein-von-der-freiwilligkeit-des-menschen-von-dem-schwert
+  work: Das ander Büchlein von der Freiwilligkeit des Menschen; Von dem Schwert (Nikolsburg,
+    1527)
+  author: hubmaier
+  locus: the Freiwilligkeit treatise at file line 493; Von dem Schwert begins (the brethren
+    say a Christian may not bear the sword) at file line 4796
+  role: tradition
+  confidence: assigned
+  note: 'The free will and the sword in Hubmaier''s own 1527 prints; the German original of
+    the one Hubmaier treatise already in the corpus in English (Vedder 1905). SECOND WITNESS:
+    microfilm OCR of blackletter, about 0.86 of the text windows read as words; nothing quotable
+    until read on the page images. Role tradition.'
+  source_file: hubmaier_freiwilligkeit-des-menschen-und-von-dem-schwert-deu_1527.txt
+- row_id: hubmaier_form-des-nachtmals-bann-freiheit-des-willens-deu_1527--ein-form-des-nachtmals-christi-von-dem-christlichen-bann-von-der-freih
+  work: Ein Form des Nachtmals Christi, Von dem christlichen Bann, Von der Freiheit des Willens
+    (Nikolsburg, 1527)
+  author: hubmaier
+  locus: Nachtmal order "was Form solch Nachtmal ze Nicolspurg gehalten" at file line 2146;
+    the Bann treatise at file line 3875; the Freiheit des Willens treatise at file line 4769
+  role: tradition
+  confidence: assigned
+  note: 'The Lord''s Supper order, the ban and the freedom of the will in Hubmaier''s own
+    1527 prints. SECOND WITNESS: microfilm OCR of blackletter, about 0.84 of the text windows
+    read as words; nothing quotable until read on the page images. Role tradition. German;
+    no public-domain English exists.'
+  source_file: hubmaier_form-des-nachtmals-bann-freiheit-des-willens-deu_1527.txt
+- row_id: hubmaier_gesprech-auf-zwinglis-taufbuechlein-deu_froschauer1526--ein-gesprech-auf-zwinglis-taufb-chlein-nikolsburg-1526
+  work: Ein Gesprech auf Zwinglis Taufbüchlein (Nikolsburg, 1526)
+  author: hubmaier
+  locus: title page words "Ein gesprech Balthasar ... auf Mayster ... Zwinglens" at file line
+    159; colophon "1526 Getruckt durch Simprecht Sorg" at file line 6280
+  role: tradition
+  confidence: assigned
+  note: 'Hubmaier''s own answer to Zwingli on baptism, in the original 1526 print. SECOND
+    WITNESS: microfilm OCR of blackletter, about 0.6 of the text windows read as words; nothing
+    quotable until read on the page images. Role tradition: the Anabaptist theologian in his
+    own voice, which the dossier named as missing. German; no public-domain English exists
+    (Vedder 1905 translates only On the Sword).'
+  source_file: hubmaier_gesprech-auf-zwinglis-taufbuechlein-deu_froschauer1526.txt
+- row_id: hubmaier_grund-und-ursach-deu_1527--grund-und-ursach-nikolsburg-1527-with-further-1527-pieces
+  work: Grund und Ursach (Nikolsburg, 1527), with further 1527 pieces
+  author: hubmaier
+  locus: title page "ein yedlicher mensch der gleich in seiner Kindheit getaufft" at file
+    line 202; "1527" read near the end at file line 6777
+  role: tradition
+  confidence: assigned
+  note: 'Hubmaier on baptism in the original 1527 print. SECOND WITNESS: microfilm OCR of
+    blackletter, about 0.73 of the text windows read as words; nothing quotable until read
+    on the page images. Role tradition: the theologian''s own voice. German; no public-domain
+    English exists.'
+  source_file: hubmaier_grund-und-ursach-deu_1527.txt
 - row_id: hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883--die-geschichts-buecher-der-wiedertaeufer-in-oesterreich-ungarn
   work: Die Geschichts-Bücher der Wiedertäufer in Oesterreich-Ungarn, 1526-1785 (Beck, 1883)
   author: hutterite-brethren

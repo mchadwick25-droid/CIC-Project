@@ -603,3 +603,33 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** The landing page now draws a slim scroll rail on the right edge, 18 pixels wide, in the page's own colours. Drag the thumb, or click the rail above or below it to move a screen at a time. With the rail focused, the arrow keys, Page Up, Page Down, Home and End also move the page. The thumb has a minimum size so it stays easy to grab. The rail hides when the page is shorter than the window. The browser's own scroll bar is hidden on this page, so the two never show together; the trackpad, wheel and touch still scroll as before. This replaces the browser-drawn bar added earlier today, which some browsers hide. Landing page only: `index.html` and the new `assets/page-rail.js`.
 
 **Checked.** In a headless browser at 1440, 1024 and 390 pixels wide: dragging the thumb, clicking the rail and the keys all moved the page, the wheel still worked, nothing scrolled sideways and there were no script errors. Not checked: a real trackpad, Safari on a Mac, a screen reader.
+
+## 2026-10-23 — Every card's picture window is the same height, and Theon's portrait is shown whole (Mark)
+
+**Mark's words.** Relayed by the system and pilot feedback thread: Theon's portrait looks zoomed in, "like he is peering out of a window", he wants it zoomed out further to match the other cards, and "the text is longer so the space is narrower". Shown the before and after at desktop, iPad and phone width and the "See all" cards, he chose "Open the PR".
+
+**What was found.** The picture took whatever height was left after the text, so a longer text meant a shorter window: 223 to 260 pixels at desktop width and 127 to 209 on a phone. Theon's portrait is also a tighter close-up than the others, so it filled the window.
+
+**What changed.** The picture window is a fixed share of the card (46%), so it is the same height on every card. Theon's portrait is shown whole inside it, with a fill taken from the painting's own background, on his card and on his "See all" card. No words and no images changed.
+
+**Cost.** Desktop and iPad cards are 4 pixels taller. On a phone each card grows with its own text, by up to 66 pixels for the longest. Not checked: Safari on a real phone.
+
+## 2026-10-23 — A quiet "Flip" cue on the front of each card (Mark)
+
+**Mark's words.** Relayed by the system and pilot feedback thread: "one small addition, on the cards in the right hand lower corner can we add the word flip, so they know something is on the back. simple, doesn't need a click."
+
+**What changed.** Each card front now ends with the word "Flip" at the lower right, in small capitals and the muted text colour, 14 pixels at least. It is not a button and has no click of its own: a click on the card still turns it, as before. It is hidden from screen readers, because the card's own name already says "Press to bring the card forward, then again to turn it over", so the cue is not read twice and adds no tab stop. It sits on its own line under the "Shaped by" line, so it cannot cover any text or the picture.
+
+**Cost.** Each card is 27 pixels taller, on every screen size.
+
+**Checked.** In a headless browser at 1440, 820 and 390 pixels wide, the cue sits at the lower right on every card with no overlap, and the picture windows stay equal. Not checked: Safari on a real phone, a screen reader.
+
+## 2026-10-23 — Each card ends just below "Flip", with no empty band (Mark)
+
+**Mark's words.** Relayed by the system and pilot feedback thread, with a screenshot: "the cards when facing forward have gotten longer and there is space at the bottom."
+
+**What was found.** In the carousel every card shares one grid cell, so every card stretched to the tallest card's height. Before the picture windows were made equal, the picture window took up the spare height. Once the windows were equal, the spare height showed as an empty band under "Flip": 13 to 69 pixels at desktop and iPad width, most on the cards with the shortest text. On a phone the cards already ended 10 pixels below "Flip".
+
+**What changed.** Each card now keeps its own height: the carousel no longer stretches the cards to match, and the card's old minimum height is gone. Every card ends 12 pixels below "Flip" at desktop and iPad width, and 10 on a phone. The picture, the text and the "Flip" word are unchanged. Side by side, the cards now differ in height by up to about 40 pixels, in step with their text.
+
+**Checked.** In a headless browser at 1440, 820 and 390 pixels wide, with the card tilt switched off to measure: all eleven cards end the same distance below "Flip". Before and after pictures of the centre card and the shorter cards were shown to Mark. Not checked: Safari on a real phone.

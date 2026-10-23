@@ -1,0 +1,47 @@
+source_file: john-of-the-cross_ascent-of-mount-carmel_lewis1906.txt
+assignments:
+- row_id: john-of-the-cross_ascent-of-mount-carmel_lewis1906--ascent
+  work: The Ascent of Mount Carmel (Subida del Monte Carmelo), Lewis translation corrected by Zimmerman,
+    1906
+  author: john-of-the-cross
+  locus: contents table from line 143; the Argument at line 1646 and Prologue at 1768; Book I from line
+    2013, Book II from 4348, Book III from 12066 to the end; the stanzas "In a dark night" at line 2030
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: tradition
+  confidence: assigned
+  note: 'The treatise that completes John''s major works in the corpus: the active purgation of sense and
+    spirit that the Dark Night (vendored 1891) continues. The Discalced friar in his own words, in Lewis''s
+    English; ready to quote once each quote is checked against the page image. The Spanish original is
+    the Silverio edition of 1929, tomo II, a verified lead not vendored.'
+- row_id: john-of-the-cross_ascent-of-mount-carmel_lewis1906--prefatory-essay
+  work: Zimmerman's prefatory essay on the development of mysticism in the Carmelite Order (1906)
+  author: john-of-the-cross
+  locus: the essay from about line 668 to about line 1640
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: context
+  confidence: provisional
+  note: 'The editor''s own history of Carmelite mysticism, early twentieth century: scholarship inside the
+    volume, never to be quoted as John''s. Provisional; a build decides whether it is worth citing at all.'
+- row_id: john-of-the-cross_ascent-of-mount-carmel_lewis1906--ascent-carmelites
+  work: The Ascent of Mount Carmel, the passages on the Carmelite Rule and the order
+  author: john-of-the-cross
+  locus: placed on the title and Zimmerman's essay only
+  atlas_ids:
+  - the-carmelites
+  role: context
+  confidence: provisional
+  note: 'A sixteenth-century Discalced reading of the order''s own vocation, placed for the medieval Carmelites
+    entry as later reception, on the same footing as the 1891 volume.'
+- row_id: john-of-the-cross_ascent-of-mount-carmel_lewis1906--quietism
+  work: The Ascent of Mount Carmel, Book II on faith as the proximate means of union and on visions and
+    locutions
+  author: john-of-the-cross
+  locus: Book II from line 4348
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: antecedent
+  confidence: needs-ruling
+  note: 'The text the quietist controversy later argued over; placed as antecedent on the same needs-ruling
+    footing as the 1891 volume, since that entry has no vendored source arguing from John yet.'

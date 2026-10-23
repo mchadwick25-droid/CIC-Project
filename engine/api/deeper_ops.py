@@ -10,12 +10,10 @@ from datetime import date, datetime
 
 import yaml
 
-from engine.deeper.door import DoorSettings, Stage
 from engine.deeper.meter import MAX_TOKENS_PER_CODE
 from engine.deeper.tokens import Pack, TokenRates
 
 OPS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "deeper", "ops", "go-deeper.yaml")
-DOOR_WORD_KEYS = ("limited", "paused", "code_still_works")
 NOTE_KEYS = ("no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use")
 SOLO_KEYS = ("open", "round", "round_from_fourth")
 TABLE_KEYS = ("open_per_seat", "round_two_seats", "round_three_seats", "round_two_seats_from_fourth", "round_three_seats_from_fourth")
@@ -25,14 +23,12 @@ MINIMUM_PACK_USD = 7
 LIMIT_KEYS = (
     "group_daily_ceiling", "group_burst_multiplier", "low_balance_at", "unanswered_messages_per_visitor", "unanswered_messages_per_network",
 )
-DOOR_KEYS = ("observe", "base_weekly_usd", "daily_share", "gift_share", "purchase_share", "invoice_factor", "stages")
 PAID_KEYS = ("round_cap", "provisional")
 PILOT_KEYS = ("pack_usd", "pilot_end_date", "audiences")
 AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "per_address", "public", "questionnaire_url")
 AUDIENCE_NAME = re.compile(r"^[a-z][a-z0-9-]{0,23}$")
 ADMIN_KEYS = ("mint_max_tokens_per_request", "mint_max_tokens_per_day")
 TESTER_KEYS = ("default_tokens", "max_tokens", "default_days", "max_days", "max_per_day")
-STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_share", "free_voice", "paid_voice"}
 
 
 class OpsFileError(Exception):
@@ -59,11 +55,8 @@ class DeeperOps:
     unanswered_messages_per_network: int
     limit_text: str
     notes: dict
-    door_words: dict
     rates: TokenRates
     packs: tuple[Pack, ...]
-    door: DoorSettings
-    door_observe: bool
     paid_round_cap: int
     paid_round_cap_provisional: bool
     admin_mint_max_tokens_per_request: int
@@ -136,60 +129,6 @@ def _number(value, name: str, *, low: float, high: float | None = None, inclusiv
     return float(value)
 
 
-def _door(section) -> DoorSettings:
-    section = _section({"door": section}, "door", DOOR_KEYS)
-    if not isinstance(section["observe"], bool):
-        raise OpsFileError("door.observe must be true or false")
-    base = _number(section["base_weekly_usd"], "door.base_weekly_usd", low=0, inclusive_low=False)
-    daily = _number(section["daily_share"], "door.daily_share", low=0, high=1, inclusive_low=False)
-    gift = _number(section["gift_share"], "door.gift_share", low=0, high=1)
-    purchase = _number(section["purchase_share"], "door.purchase_share", low=0, high=1)
-    factor = _number(section["invoice_factor"], "door.invoice_factor", low=1)
-    raw = section["stages"]
-    if not isinstance(raw, list) or not raw:
-        raise OpsFileError("door.stages must list at least one stage")
-    stages = []
-    previous_at = 0.0
-    narrowest = {"table_free_rounds": None, "solo_free_rounds": None, "free_share": None}
-    free_closed = False
-    for item in raw:
-        if not isinstance(item, dict) or "at" not in item or not set(item) <= STAGE_KEYS:
-            raise OpsFileError(f"each door stage holds an 'at' and only {sorted(STAGE_KEYS - {'at'})}")
-        at = _number(item["at"], "door stage at", low=0, inclusive_low=False)
-        if at <= previous_at:
-            raise OpsFileError("door stages must rise strictly")
-        previous_at = at
-        fields: dict = {"at": at}
-        for key in ("table_free_rounds", "solo_free_rounds"):
-            if key in item:
-                value = item[key]
-                if isinstance(value, bool) or not isinstance(value, int) or value < 0:
-                    raise OpsFileError(f"door stage {key} must be a whole number, 0 or more")
-                if narrowest[key] is not None and value > narrowest[key]:
-                    raise OpsFileError(f"door stages may only narrow: {key} cannot rise")
-                narrowest[key] = value
-                fields[key] = value
-        if "free_share" in item:
-            share = _number(item["free_share"], "door stage free_share", low=0, high=1, inclusive_low=False)
-            if narrowest["free_share"] is not None and share > narrowest["free_share"]:
-                raise OpsFileError("door stages may only narrow: free_share cannot rise")
-            narrowest["free_share"] = share
-            fields["free_share"] = share
-        for key in ("free_voice", "paid_voice"):
-            if key in item:
-                if item[key] is not False:
-                    raise OpsFileError(f"door stage {key} may only be false: a stage never opens what an earlier one closed")
-                fields[key] = False
-        if item.get("free_voice") is False:
-            free_closed = True
-        if item.get("paid_voice") is False and not free_closed:
-            raise OpsFileError("paid voice cannot close before free voice does")
-        stages.append(Stage(**fields))
-    return DoorSettings(
-        base_usd=base, gift_share=gift, purchase_share=purchase, invoice_factor=factor, stages=tuple(stages), daily_share=daily,
-    )
-
-
 def _audiences(raw) -> dict[str, PilotAudience]:
     if not isinstance(raw, dict) or not raw:
         raise OpsFileError("pilot.audiences must name at least one audience")
@@ -221,22 +160,20 @@ def load_ops(path: str | None = None) -> DeeperOps:
             data = yaml.safe_load(handle)
     except (OSError, yaml.YAMLError) as exc:
         raise OpsFileError(f"cannot read {path}: {exc}") from exc
-    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "paid", "admin", "tester", "pilot", "words"}:
-        raise OpsFileError("the file must hold exactly limits, tokens, door, paid, admin, tester, pilot and words")
+    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "paid", "admin", "tester", "pilot", "words"}:
+        raise OpsFileError("the file must hold exactly limits, tokens, paid, admin, tester, pilot and words")
     limits = _section(data, "limits", LIMIT_KEYS)
     for key, value in limits.items():
         if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
             raise OpsFileError(f"limits.{key} must be a positive whole number")
     words = data["words"]
-    if not isinstance(words, dict) or set(words) != {"limit", "notes", "door"}:
-        raise OpsFileError("words must hold exactly limit, notes and door")
+    if not isinstance(words, dict) or set(words) != {"limit", "notes"}:
+        raise OpsFileError("words must hold exactly limit, notes")
     notes = _section(words, "notes", NOTE_KEYS)
-    door_words = _section(words, "door", DOOR_WORD_KEYS)
-    for text in (words["limit"], *notes.values(), *door_words.values()):
+    for text in (words["limit"], *notes.values()):
         if not isinstance(text, str) or not text.strip():
             raise OpsFileError("every piece of wording must be a non-empty string")
     rates, packs = _tokens(data["tokens"])
-    door = _door(data["door"])
     paid = _section(data, "paid", PAID_KEYS)
     if isinstance(paid["round_cap"], bool) or not isinstance(paid["round_cap"], int) or paid["round_cap"] <= 0:
         raise OpsFileError("paid.round_cap must be a positive whole number")
@@ -267,8 +204,8 @@ def load_ops(path: str | None = None) -> DeeperOps:
     return DeeperOps(
         group_daily_ceiling=limits["group_daily_ceiling"],
         group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"],
-        unanswered_messages_per_visitor=limits["unanswered_messages_per_visitor"], unanswered_messages_per_network=limits["unanswered_messages_per_network"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
-        door_observe=data["door"]["observe"], paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
+        unanswered_messages_per_visitor=limits["unanswered_messages_per_visitor"], unanswered_messages_per_network=limits["unanswered_messages_per_network"], limit_text=words["limit"], notes=dict(notes), rates=rates, packs=packs,
+        paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
         admin_mint_max_tokens_per_request=admin["mint_max_tokens_per_request"], admin_mint_max_tokens_per_day=admin["mint_max_tokens_per_day"],
         tester_default_tokens=tester["default_tokens"], tester_max_tokens=tester["max_tokens"], tester_default_days=tester["default_days"],
         tester_max_days=tester["max_days"], tester_max_per_day=tester["max_per_day"],

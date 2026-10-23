@@ -1,0 +1,61 @@
+source_file: tyndale_doctrinal-treatises_walter1848.txt
+authors_ruled:
+  walter-henry:
+    kind: metadata-omission
+    evidence: 'The Biographical Notice (file line 317 onward) is the Parker Society editor Henry Walter''s
+      own, named on the title page as editor; the file name carries Tyndale.
+
+      '
+    from_file: tyndale_doctrinal-treatises_walter1848.txt
+assignments:
+- row_id: tyndale_doctrinal-treatises_walter1848--tyndale-s-doctrinal-treatises-a-pathway-into-the-holy-scripture-1525-3
+  work: 'Tyndale''s doctrinal treatises: A Pathway into the Holy Scripture (1525-32), The Parable of the
+    Wicked Mammon (1527), The Obedience of a Christian Man (1527-8), A Brief Declaration of the Sacraments
+    (1536)'
+  author: tyndale
+  locus: Pathway running heads from about file line 4232; Wicked Mammon from about 5043; Obedience from
+    about 10625 to the Sacraments treatise, which ends before the Epistle to the Reader (about 25569)
+  atlas_ids:
+  - the-english-reformation-and-elizabethan-settleme
+  role: antecedent
+  confidence: assigned
+  note: 'The first English evangelical voice: justification by faith, the authority of the vernacular
+    Scripture, obedience to the king against the pope, in Tyndale''s own English (modernised spelling,
+    Walter''s edition). The census window for VI.4 opens in the 1530s and Tyndale wrote from exile in
+    1525-1536, before the Settlement and before the break with Rome was complete; the first-pass dossier
+    left his placement to the lead (prelude of this world, or a world of his own). Placed here as tradition
+    with needs-ruling for that reason. Primary voice, clean OCR, ready to quote once verified against
+    this file; Walter''s footnotes are editorial. Ruled by the project lead, October 2026 (Era VII placements):
+    a text from before the world''s window that the world argued from is antecedent to it; a text from
+    after the window is context here and tradition for the later entry.'
+- row_id: tyndale_doctrinal-treatises_walter1848--tyndale-s-prefaces-and-prologues-to-his-bible-translations-the-epistle
+  work: 'Tyndale''s prefaces and prologues to his Bible translations: the Epistle to the Reader (1526
+    New Testament), the Preface to the Five Books of Moses and the Prologues to Genesis, Exodus, Leviticus,
+    Numbers, Deuteronomy (1530), Jonas (1531) and Matthew (1525)'
+  author: tyndale
+  locus: from the Epistle to the Reader (about file line 25569) and the Preface to the Five Books of Moses
+    at 25611, the Prologue to Genesis at 25940, Jonas at 28900, Matthew at 30711, to the end of the volume
+  atlas_ids:
+  - the-english-reformation-and-elizabethan-settleme
+  role: antecedent
+  confidence: assigned
+  note: 'The translator''s own account of why the Scripture must be in English and how it is to be read:
+    the prologues that travelled with the smuggled Testaments and Pentateuch. Same placement question
+    as the treatises above (Tyndale precedes the window the census gives this world); needs-ruling. Primary
+    voice, clean OCR. Ruled by the project lead, October 2026 (Era VII placements): a text from before
+    the world''s window that the world argued from is antecedent to it; a text from after the window is
+    context here and tradition for the later entry.'
+- row_id: tyndale_doctrinal-treatises_walter1848--walter-s-biographical-notice-of-william-tyndale-1848
+  work: Walter's Biographical Notice of William Tyndale (1848)
+  author: walter-henry
+  locus: from file line 317 to the Pathway (about 4209)
+  atlas_ids:
+  - the-english-reformation-and-elizabethan-settleme
+  role: context
+  confidence: provisional
+  note: 'The editor''s 1848 life of Tyndale, which prints and discusses the letters and the records of
+    his arrest and death. Nineteenth-century editorial narrative, not a primary voice; placed as context
+    only for the documents it quotes. Author slug walter-henry is a metadata-omission ruling: Walter is
+    named on the title page as editor, and the Notice is his own composition.
+
+    '

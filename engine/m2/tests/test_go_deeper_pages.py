@@ -167,15 +167,27 @@ def test_no_script_puts_a_code_or_reference_in_the_console_or_the_page_address()
         assert "console." not in (SITE / name).read_text(), name
 
 
-def test_the_buy_buttons_stay_off_until_a_payment_link_is_set():
+def test_the_buy_buttons_start_hidden_and_the_page_script_opens_them_for_the_set_links():
     html = (SITE / "go-deeper.html").read_text()
-    assert 'var PAYMENT_LINKS = {"1": "", "2": "", "3": ""};' in html
     assert re.search(r'id="state-open" hidden', html)
     for pack in ("1", "2", "3"):
         assert re.search(rf'<button[^>]*id="buy-pack-{pack}"[^>]*hidden>', html), pack
-    assert "https://buy.stripe.com" not in html.split("PAYMENT_LINKS = ")[1].split(";")[0]
 
 
+def test_each_pack_has_its_own_stripe_payment_link_in_price_order():
+    html = (SITE / "go-deeper.html").read_text()
+    block = html.split("var PAYMENT_LINKS = ")[1].split("};")[0]
+    links = dict(re.findall(r'"(\d)": "(https://buy\.stripe\.com/[A-Za-z0-9]+)"', block))
+    assert links == {
+        "1": "https://buy.stripe.com/14AeV6bbR1Ro9P69bT8bS02",
+        "2": "https://buy.stripe.com/28E9AM4Nt7bI0ew0Fn8bS03",
+        "3": "https://buy.stripe.com/aFa6oA93J0Nk1iA87P8bS04",
+    }
+
+
+def test_the_page_makes_no_promise_about_accounts_until_accounts_exist():
+    text = " ".join(_text("go-deeper.html"))
+    assert not re.search(r"your home|with an account", text, re.I)
 
 
 def test_the_page_stays_closed_with_no_link_set():
@@ -275,29 +287,6 @@ def test_the_return_page_names_the_app_origin_and_no_wildcard():
     text = (SITE / "go-deeper-return.html").read_text()
     assert "appOrigin: APP" in text and "window.GoDeeper.deliver(result.codes" in text
     assert not re.search(r"postMessage\([^)]*['\"]\*['\"]", text + (SITE / "assets/go-deeper.js").read_text())
-
-
-def test_the_door_line_shows_only_what_the_server_sends():
-    out = _node("doorLine")
-    assert out["shown"] == {"hidden": False, "text": "Free conversations are limited this week."}
-    for quiet in ("open", "unreachable", "refused", "malformed"):
-        assert out[quiet] == {"hidden": True, "text": ""}, quiet
-    assert out["url"] == "https://api.test/api/deeper/door"
-    assert out["init"] == {"credentials": "omit", "referrerPolicy": "no-referrer"}
-
-
-@pytest.mark.parametrize("page", ["index.html", "support.html"])
-def test_the_door_line_sits_on_the_home_and_get_involved_pages_hidden(page):
-    html = (SITE / page).read_text()
-    assert '<p id="door-line" class="door-line" role="status" hidden></p>' in html
-    assert html.index("assets/go-deeper-config.js") < html.index("assets/door-line.js")
-
-
-def test_the_site_asks_the_door_only_because_the_config_says_go_deeper_is_on():
-    config = (SITE / "assets" / "go-deeper-config.js").read_text()
-    assert "enabled: true" in config
-    script = (SITE / "assets" / "door-line.js").read_text()
-    assert "GoDeeperConfig.enabled" in script
 
 
 def test_the_no_link_rule_catches_a_link_without_the_extension():

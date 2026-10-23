@@ -19,11 +19,89 @@ with no history in the document, lives in the file it governs (here,
 
 **Reader trailer: one format.** The Era VII and Era VIII sessions each chose a registry-notes trailer for the Source Library's reader facts on the same day. Era VII's entry above (16 October 2026) was logged and merged first, as `READER: sections - ... ; credit - "..." ; republish - ...`. This pass first wrote its 140 entries as `SECTIONS (Source Library): ... CREDIT LINE: ... REPUBLICATION: ...`. Before merge, those 140 unmerged entries were rewritten to the Era VII form, word for word, so the registry carries one trailer format. No merged entry was touched.
 
-**Corpus size.** `cic/texts/` was about 1.1 GB at the start of this pass's second session (after the Era VII merge) and about 1.2 GB after the first seven Era VIII worlds. The plan's re-read point (1 GB) has passed and its action point is 1.5 GB. With the remaining 22 worlds the store will approach that point. Nothing was moved or changed here; Mark decides whether to act.
+**Corpus size.** `cic/texts/` was about 1.1 GB at the start of this pass's second session (after the Era VII merge) and about 1.34 GB of vendored text after all 29 Era VIII worlds (376 new files, 1,173 in all); the whole tracked directory, indexes included, is about 1.5 GB. `PLAN-texts-store-scaling.md` sets its re-open point at 4 GB and calls 5 GB overdue; the 1 GB figure was the blueprint's original planning note, not the plan's trigger. The store is below the trigger. Nothing was moved or changed here; Mark decides whether to act.
 
 **Slugs.** The renewed Moravian Church (1722 onward) has its own institutional author slug, `moravian-church`, kept distinct from `unity-of-the-brethren` (the old Czech Unity), so the continuity claim stays a claim the texts make rather than a fact the index asserts. The Methodist bucket now carries two Wesley slug conventions (the meth thread's `wesley-john`, `wesley-charles`; the Library's filename slugs `wesley-j`, `wesley-c`); reconciling them is flagged in the Methodist dossier for that world's thread.
 
 **Placements left for Mark.** Cross-world rows are staged `provisional` where the fit is arguable; each dossier's section 5 names the open questions, among them Whitefield's allocation (VII.5, VII.6, VII.10), whether the middle and southern colonies belong to VII.6, the AME edge of VII.5 (Allen, Jarena Lee), the Czech succession claim of VII.4, and missions with no census home (the Danish West Indies, Greenland, Tranquebar).
+## 2026-10-23 — Era VII rulings after the two library passes (Mark, six decisions)
+
+Mark took the six decisions the Era VII dossiers had left to him, one at a
+time, after PR 1071 merged. Each was put as options with a recommendation;
+each answer is recorded here in its own words.
+
+1. **Portfolio.** All 20 build-recommended worlds go into Steps 0 to 2, one
+   at a time: the Anabaptists and the Tridentine Church first (they need only
+   Doc_02), then the other 18 ranked by the dossiers' sourcing, the clean
+   English own-voice worlds first.
+2. **Mission-Born Christianities (VI.13).** Split. The entry stays on the
+   census as a label assessed per region (A3); Kongo and Japan get their own
+   entries and build later; China and New Spain/Andes get entries that stay
+   on the atlas until a public-domain convert text clears. The vendored files
+   are re-mapped to the region each serves.
+3. **The other open-question worlds.** Ethiopia (VI.25) and Armenia (VI.28)
+   build later, with Doc_02 stating the thin inside voice as an absence.
+   Schwenckfelders (VI.15) and the Family of Love (VI.16) stay atlas entries
+   until Mark rules on their floor questions.
+4. **Non-build recommendations accepted.** Anti-Trinitarian Currents (VI.14)
+   is atlas only. The Church of the East schism of 1552 (VI.30) is folded
+   into V.17 as its closing arc; the census marks it within another world.
+5. **Rights.** (a) The 1947 Doctrina Christiana facsimile: the renewal check
+   came back clear, so the whole text may be republished (pd-us-no-renewal).
+   (b) Bossert 1930: kept as vendored; a facsimile reprint adds no copyright
+   to the 1930 text. (c) Anspach's 1858 Heavenly Balm: held as a second
+   witness until an 1858 scan is vendored.
+6. **Placements.** The seven needs-ruling rows are ruled by one principle: a
+   text from before a world's window that the world argued from is
+   `antecedent` to it (Tyndale for VI.4, Arminius for VI.26, the Marian
+   visitation documents for VI.7); a text from after the window is `context`
+   here and `tradition` for the later entry (Baxter's Parts Two and Three for
+   English Old Dissent, the 1760 pasyon for the 1650 to 1815 Philippine
+   entry); Spottiswood is the Kirk's own voice (`tradition`), with the
+   bishops question for Doc_01; Ignatius's Exercises stay `context`,
+   provisional, beside Teresa.
+
+**What changed in the files.** The staging rows above carry the ruling in
+their notes; the registry entries for the Doctrina facsimile and the Anspach
+text carry it as an appended note; the census carries the VI.13 split and the
+VI.30 fold; the two dossiers carry a ruling line. The corpus map and the
+generated ledgers are regenerated.
+
+---
+
+## 2026-10-23 — Era VII second pass on the unvendored leads
+
+**Instruction.** Mark asked for a second pass on the verified leads the Era VII
+dossiers had left unvendored (201 seed-queue rows across the 27 worlds).
+
+**What was done.** Six agents worked the worlds in groups. Each re-verified a
+lead on its host before downloading, vendored only what filled a gap the
+dossier's section 6 had named, paired an original with its public-domain
+English where one existed, and left the rest as leads with the reason. The
+dossiers carry a "Second pass, October 2026" line and their sections 1, 3, 4
+and 6 are revised in place.
+
+**What changed in the recommendations.** Kyiv-Mohyla (VI.21) moves from
+open question to build: Mohyla's own hand and the documentary spine are
+now in the corpus. The Remonstrants' condition (one more pass before the
+movement's own voice counts as secure) is met. Every other recommendation
+stands; the open-question worlds (VI.13, VI.15, VI.16, VI.25, VI.28) are
+open for the same reasons as before, with the gaps narrowed and recorded.
+
+**Hosts.** Google Books could not be used from this environment (API quota
+zero, web search rate-limited, text downloads captcha-blocked); HathiTrust's
+catalogue answers but its viewer does not. Two new reachable hosts were found
+and used: the Biblioteca Nacional Digital of Portugal (Gouvea's Jornada) and
+the Hungarian Academy's REAL-EOD repository (the Transylvanian diet records).
+The NYPL renewal data is reachable on the `master` branch under
+`data/<year>-1.tsv`; the 1947 Doctrina Christiana facsimile shows no renewal
+in the 1974 to 1976 files, and whether that lifts its passages-only limit is
+Mark's ruling.
+
+**Corpus size.** The second pass added about 90 files. `cic/texts/` is now
+well past the 1 GB planning trigger and approaching the 1.5 GB action point in
+`PLAN-texts-store-scaling.md`. Nothing was moved; the plan is Mark's to act
+on.
 
 ---
 

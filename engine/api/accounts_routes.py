@@ -608,7 +608,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     @app.get("/api/accounts/balance")
     async def balance(request: Request):
         """The account's own free window and the codes it holds. The free figure is the account's
-        window alone; a turn is also bounded by the network window and the door, as the header says."""
+        window alone; a turn is also bounded by the network window, as the header says."""
         deeper = getattr(request.app.state, "deeper", None)
         cookie = request.cookies.get(runtime.cookie_name)
         if not cookie:

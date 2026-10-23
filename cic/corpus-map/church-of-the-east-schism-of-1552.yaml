@@ -23,6 +23,27 @@ works:
 
     '
   source_file: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--dated-series-of-the-patriarchs-sulaka-to-abdisho
+  work: 'Bibliotheca Orientalis III.1, De Scriptoribus Syris Nestorianis (Rome 1725): the
+    dated series of the catholicoi and patriarchs of the East, Simeon Bar-Mama, Joannes Sulaka
+    and Ebedjesus of Gazarta'
+  author: assemani
+  locus: the series of patriarchs with Roman-side dates at file lines about 101030-101110
+    (Simeon Bar-Mama invades the see in 1552 'quum catholici Sulakam monachum sibi Patriarcham
+    a Romano Pontifice postulassent' at 101046; Sulaka's arrival at Rome 18 November 1552,
+    profession 20 February 1553, proclamation 9 April, return to Amid 12 November, death early
+    1555; Ebedjesus's profession at Rome 7 March 1562); the index entries for Sulaka from
+    101538
+  role: context
+  confidence: assigned
+  note: 'Assemani''s own dated chronology of 1552-1562 from the Vatican side, the list that
+    Lamy''s appendix (Bar Hebraeus vol. III, vendored) and Guriel copy. Read at the lines
+    cited. The OCR is noisy (long s as f, dates mostly legible here, Syriac garbled): second
+    witness for exact wording until checked against the page image. The narrative account
+    is in part 2 (vendored); this part adds the catalogue of the church''s writers.
+
+    '
+  source_file: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
 - row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555
   work: 'Bibliotheca Orientalis III.2, the dissertation De Syris Nestorianis: the election
     of Sulaka, his profession and proclamation at Rome, his death, and the line of Abdisho
@@ -45,6 +66,42 @@ works:
 
     '
   source_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+- row_id: badger_nestorians-and-their-rituals-v1_1852--chapter-xi-the-patriarchate-and-the-schism-of-1552
+  work: 'The Nestorians and their Rituals, volume I (Badger, 1852), chapter XI: the history
+    of the Nestorian patriarchate, the hereditary succession, the election of Sulaka and his
+    murder'
+  author: badger
+  locus: chapter XI from file line 7313; the schism at about 7780-7920 (Sulaka 'earnestly
+    desired by' one party at 7780, the bishops at Mosul electing Sulaka at 7899, the Turks
+    incited to his murder at 7914); index entry 'Sulaka, proposed and consecrated patriarch'
+    at 26240
+  role: context
+  confidence: assigned
+  note: 'An Anglican missionary who lived among the Nestorians in 1842-44 retells the schism
+    from Mosheim, Gibbon, the Roman accounts and a Mutran Hanna autobiography of 1778, and
+    calls the Roman accounts contradictory. A reception witness and finding aid for 1552,
+    three centuries after; a direct witness for the mountain church of the 1840s. Read at
+    the lines cited. Clean OCR.
+
+    '
+  source_file: badger_nestorians-and-their-rituals-v1_1852.txt
+- row_id: badger_nestorians-and-their-rituals-v2_1852--the-rituals-and-doctrine-of-the-church-of-the-east-in-english
+  work: 'The Nestorians and their Rituals, volume II (Badger, 1852): the creed, doctrine,
+    sacraments, liturgies, ordination, marriage and burial rites of the Church of the East,
+    translated from Syriac manuscripts, with synodal documents'
+  author: badger
+  locus: the forty chapters listed at file lines 187-462; the synod of Mar Timotheus of 1317
+    and the election of a patriarch at about 6774-8767
+  role: context
+  confidence: provisional
+  note: 'The church''s own rituals and canons in an 1852 English translation from the Shimun
+    line''s manuscripts: the rite both lines shared in the sixteenth century, and the election
+    canons Wigram says the dissenters of 1552 invoked. A witness to the texts, not to the
+    events; which of these rites were in force in 1552 is for a build to argue from the manuscripts''
+    dates. Placed on content without a close read. Clean OCR.
+
+    '
+  source_file: badger_nestorians-and-their-rituals-v2_1852.txt
 - row_id: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877--lamy-appendix-series-patriarcharum-chaldaeorum-from-sulaka
   work: 'Lamy''s appendix to Bar Hebraeus, Chronicon Ecclesiasticum III: ''Series patriarcharum
     Chaldaeorum S. Sedi unitorum et recentiorum Nestorianorum'', from Sulaka (1551-1555) to
@@ -83,6 +140,21 @@ works:
 
     '
   source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
+- row_id: gouvea_jornada-do-arcebispo-de-goa-por_1606--jornada-do-arcebispo-de-goa-the-serra-and-the-synod-of-diamper-4
+  work: 'Jornada do Arcebispo de Goa (Gouvea, 1606): the Chaldean bishops of Malabar and the
+    break with Babylon'
+  author: gouvea
+  locus: Book I, from file line 629, the chapters on the bishops sent from Babylon and the
+    synod's renunciation of the patriarch of Babylon
+  role: context
+  confidence: provisional
+  note: 'The Portuguese account of how the Indian branch of the Church of the East, under
+    bishops of the Chaldean (Sulaqa) line, was cut off from its patriarch in 1599. Placed
+    on subject; the VI.18 and VI.30 dossiers both leave the Chaldean connection undecided
+    between the two worlds.
+
+    '
+  source_file: gouvea_jornada-do-arcebispo-de-goa-por_1606.txt
 - row_id: hough_history-of-christianity-in-india-v2_1839--hough-on-asseman-and-geddes-concerning-simon-sulaka
   work: 'Hough, History of Christianity in India vol. II (1839): his notes on ''Simon Sulaka''
     quoting Geddes and Assemani'
@@ -114,6 +186,24 @@ works:
 
     '
   source_file: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt
+- row_id: maclean-browne_catholicos-of-the-east-and-his-people_1892--the-east-syrians-and-the-uniat-chaldean-church
+  work: 'The Catholicos of the East and his People (Maclean and Browne, 1892): the East Syrian
+    Christians of Kurdistan and Persia and the sixteenth-century division into the Uniat Chaldean
+    Church and the Nestorians'
+  author: maclean-browne
+  locus: the division 'in the sixteenth century' into the body that joined Rome, 'known as
+    the Uniat Chaldean Church', and the rest, at file lines 809-830; the names Chaldean, Nestorian,
+    Syrian and Assyrian discussed to about 980; the Catholicos and the hereditary succession
+    in the chapters on the clergy
+  role: context
+  confidence: provisional
+  note: 'Two Anglican missionaries state the division of 1552 in a paragraph and describe
+    the Shimun line''s church as it stood in 1886-91. A reception witness for the schism,
+    weak for this entry''s events and strong for what the mountain church became. Read at
+    the lines cited. Clean OCR.
+
+    '
+  source_file: maclean-browne_catholicos-of-the-east-and-his-people_1892.txt
 - row_id: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910--chapters-xxxi-xxxii-the-sixteenth-to-nineteenth-centuries
   work: 'History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East
     (1910), chapters XXXI and XXXII: the sixteenth century, the schism of Shimon VIII ''John

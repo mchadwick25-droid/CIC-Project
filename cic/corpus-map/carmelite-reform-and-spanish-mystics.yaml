@@ -44,12 +44,27 @@ works:
   author: ignatius-loyola
   locus: whole text
   role: context
-  confidence: needs-ruling
+  confidence: provisional
   note: 'Placed on the shared window and country, not on a passage: the vendored Teresa texts
     show Jesuit confessors directing her (Life from line 1838, Foundations at lines 5036 and
     7528) but none cite the Exercises by name. Whether the Exercises are context for the Carmelite
-    reform is a ruling for the build, not the library.'
+    reform is a ruling for the build, not the library. Ruled by the project lead, October
+    2026: context, provisional, until a Teresa text is found that names the Exercises.'
   source_file: ignatius-loyola_spiritual-exercises_mullan1914.txt
+- row_id: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914--cautelas-avisos-cartas
+  work: Cautelas, Avisos y sentencias espirituales, Dictamenes de espiritu, the twenty-five
+    Cartas espirituales, the Documentos varios and Profesiones, in Spanish (Gerardo 1914)
+  author: john-of-the-cross
+  locus: Cautelas from line 1525; Avisos y sentencias from line 2065; Dictamenes from line
+    4143; Cartas espirituales from line 4827 (introduction to the letters at 4661); Profesiones
+    at line 6944
+  role: tradition
+  confidence: assigned
+  note: The Spanish originals of the Instructions and Precautions, letters and Spiritual Maxims
+    vendored in English in the 1891 Lewis volume, with documents of John's administration
+    (acts, licences, the Malaga foundation) that the English lacks. Same ruling and caveat
+    as the poems.
+  source_file: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt
 - row_id: john-of-the-cross_dark-night-canticle-living-flame_lewis1891--letters
   work: Instructions and Precautions, Letters I-XVIII, censure of a nun's prayer, and Spiritual
     Maxims of John of the Cross, in the same volume
@@ -58,10 +73,48 @@ works:
     at line 21914); the Censure at line 21964; the Spiritual Maxims after it
   role: tradition
   confidence: assigned
-  note: John's own instructions and precautions for the soul, his letters, the last dated
+  note: 'John''s own instructions and precautions for the soul, his letters, the last dated
     Madrid, 6 July 1591, and his judgment on the prayer of one of the nuns of his order. Primary
-    voice in English; ready to quote once verified against the page image.
+    voice in English; ready to quote once verified against the page image. The Spanish originals
+    of the Instructions and Precautions, letters and Maxims, with the poems in Spanish, are
+    vendored as john-of-the- cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt.
+
+    '
   source_file: john-of-the-cross_dark-night-canticle-living-flame_lewis1891.txt
+- row_id: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914--poesias
+  work: Poesias del Mistico Doctor San Juan de la Cruz, the poems in the original Spanish
+    (Noche oscura, Cantico, Llama, the Pastorcico, the Fonte, the romances and glosses), Gerardo
+    de San Juan de la Cruz's critical edition, Toledo 1914
+  author: john-of-the-cross
+  locus: the editor's introduction to the poems from about line 7280; the authentic poems
+    from about line 7400 (the "fonte" poem at 7463, "Noche oscura" at 7652, the Pastorcico
+    at 7856); the poems the editor marks as attributed from his note at line 7892 onward to
+    about line 9300; the volume's own contents table at line 31145 gives "Poesias autenticas"
+    from page 157 and "Poesias atribuidas" from page 197
+  role: tradition
+  confidence: assigned
+  note: The poems the commentaries explain, in John's own Spanish, which the 1891 English
+    volume prints only in translation. Under the project's ruling of September 2026 a clean
+    public-domain original is primary evidence; this is the quotable Spanish for the poems,
+    since Silverio's poetry volume (Burgos, 1931) falls after the 1930 cutoff. Only the poems
+    the editor marks authentic are John's; the attributed ones are not. OCR clean (word-shaped
+    share 0.97); quote only after checking the page image.
+  source_file: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt
+- row_id: john-of-the-cross_ascent-of-mount-carmel_lewis1906--ascent
+  work: The Ascent of Mount Carmel (Subida del Monte Carmelo), Lewis translation corrected
+    by Zimmerman, 1906
+  author: john-of-the-cross
+  locus: contents table from line 143; the Argument at line 1646 and Prologue at 1768; Book
+    I from line 2013, Book II from 4348, Book III from 12066 to the end; the stanzas "In a
+    dark night" at line 2030
+  role: tradition
+  confidence: assigned
+  note: 'The treatise that completes John''s major works in the corpus: the active purgation
+    of sense and spirit that the Dark Night (vendored 1891) continues. The Discalced friar
+    in his own words, in Lewis''s English; ready to quote once each quote is checked against
+    the page image. The Spanish original is the Silverio edition of 1929, tomo II, a verified
+    lead not vendored.'
+  source_file: john-of-the-cross_ascent-of-mount-carmel_lewis1906.txt
 - row_id: john-of-the-cross_dark-night-canticle-living-flame_lewis1891--dark-night
   work: The Dark Night of the Soul, with the Spiritual Canticle and The Living Flame of Love,
     Lewis translation, second edition 1891
@@ -90,6 +143,50 @@ works:
     voice of the period. Role context, not tradition; the compiler is unnamed on the title
     page. Ready to quote only with that framing.
   source_file: john-of-the-cross_life_lewis1873.txt
+- row_id: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914--attributed-and-later-carmelite-texts
+  work: Works printed as attributed or doubtful (Coloquios entre Cristo y su esposa el alma;
+    Tratado breve del conocimiento oscuro de Dios), the two treatises of Madre Cecilia del
+    Nacimiento, and the appendices by Diego de Jesus and Jose de Jesus Maria (Gerardo 1914)
+  author: john-of-the-cross
+  locus: Coloquios from line 11011; Tratado breve from line 14579; Cecilia del Nacimiento's
+    Transformacion del alma en Dios from about line 16635 and Union del alma con Dios following;
+    the appendices from line 21921; the editor's additions and the epilogue before the indexes
+    at line 31145
+  role: context
+  confidence: provisional
+  note: 'Not John''s voice: texts the editor himself prints as attributed or doubtful, a Discalced
+    nun''s treatises of the next generation (Cecilia del Nacimiento, 1570-1646), and seventeenth-century
+    Carmelite defences of John''s doctrine. Context for the reform''s second generation; placed
+    on the contents table only, not read.'
+  source_file: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt
+- row_id: john-of-the-cross_ascent-of-mount-carmel_lewis1906--prefatory-essay
+  work: Zimmerman's prefatory essay on the development of mysticism in the Carmelite Order
+    (1906)
+  author: john-of-the-cross
+  locus: the essay from about line 668 to about line 1640
+  role: context
+  confidence: provisional
+  note: 'The editor''s own history of Carmelite mysticism, early twentieth century: scholarship
+    inside the volume, never to be quoted as John''s. Provisional; a build decides whether
+    it is worth citing at all.'
+  source_file: john-of-the-cross_ascent-of-mount-carmel_lewis1906.txt
+- row_id: teresa-of-avila_libro-de-la-vida-spa_silverio1915--libro-de-la-vida
+  work: Libro de la Vida (Teresa's Life written by herself), Spanish text from the Escorial
+    autograph, Silverio de Santa Teresa's edition, Burgos 1915, tomo I of the Biblioteca Mistica
+    Carmelitana
+  author: teresa-of-avila
+  locus: title at line 55; the editor's preliminary notice from line 173 and introduction
+    from line 5636; "CAPITULO PRIMERO" at line 6568 and the forty chapters to about line 22240
+    ("CAPITULO XL" at 21675); indexes from line 22245
+  role: tradition
+  confidence: assigned
+  note: 'The Spanish original of the Life vendored in English as teresa-of-avila_life_lewis1904.txt.
+    Under the project''s ruling of September 2026 a clean public-domain original is primary
+    evidence: a quote record may hold Teresa''s own Spanish, verified against this file and
+    the page image, with the modern English rendered from it and Lewis''s English as the cross-check.
+    OCR clean (word-shaped share 0.98). The editor''s notice, introduction and footnotes are
+    his and must not be quoted as Teresa''s.'
+  source_file: teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt
 - row_id: teresa-of-avila_book-of-foundations_lewis1913--rule-constitutions
   work: Teresa's paper on the visitation of nunneries, the Rule of the Order of Our Lady of
     Mount Carmel, and the Constitutions for the sisters (appended to the Foundations in this
@@ -145,9 +242,27 @@ works:
     Continuation of the foundation (line 18084 onward)
   role: tradition
   confidence: assigned
-  note: Teresa's own account, written at her confessors' command, of her life, her prayer
-    and the founding of the first house of her reform. The reform's founder speaking in her
-    own words, in David Lewis's English of the Spanish; ready to quote once each quote is
-    verified against the page image. The Spanish original (Silverio de Santa Teresa, 1915)
-    is not vendored; see the dossier.
+  note: 'Teresa''s own account, written at her confessors'' command, of her life, her prayer
+    and the founding of the first house of her reform. The reform''s founder speaking in her
+    own words, in David Lewis''s English of the Spanish; ready to quote once each quote is
+    verified against the page image. The Spanish original is vendored as teresa-of-avila_libro-de-la-vida-
+    spa_silverio1915.txt.
+
+    '
   source_file: teresa-of-avila_life_lewis1904.txt
+- row_id: teresa-of-avila_way-of-perfection_stanbrook1919--way-of-perfection
+  work: The Way of Perfection (Camino de perfeccion), Stanbrook translation from the autograph
+    with the Escorial and Valladolid variants, second edition 1919
+  author: teresa-of-avila
+  locus: Zimmerman's introduction from about line 650; the protestation at line 98 and the
+    chapters from "CHAPTER I" at line 346 (contents) and the text following; chapters XLI-XLII
+    at lines 11207-11528; index from line 11825
+  role: tradition
+  confidence: assigned
+  note: 'Teresa writing for her own nuns at St Joseph''s, Avila, on the three virtues of the
+    reform and on prayer, with her commentary on the Our Father: the founder''s rule of life
+    in her own voice, the one major work of hers the corpus lacked. Ready to quote once each
+    quote is checked against the page image; the voice is the Stanbrook English. The editor''s
+    introduction and notes are not hers. The Spanish original is Silverio tomo III (Camino
+    de perfeccion), a verified lead not vendored.'
+  source_file: teresa-of-avila_way-of-perfection_stanbrook1919.txt

@@ -3,6 +3,19 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: northeast-india-revivals-and-the-mar-thoma-refor
 works:
+- row_id: philipos_syrian-christians-of-malabar_howard1869--answers-on-the-belief-and-history-of-the-syrian-christians-3
+  work: The Syrian Christians of Malabar (Philipos, 1869)
+  author: philipos
+  locus: whole file; the editor's preface on the Church Missionary Society and the Syrian
+    College from about file line 100
+  role: context
+  confidence: provisional
+  note: 'The Jacobite party''s statement of 1869, against which the reforming party of Mar
+    Athanasius Matthew (the Mar Thoma line) defined itself. Placed on date; not read for that
+    entry.
+
+    '
+  source_file: philipos_syrian-christians-of-malabar_howard1869.txt
 - row_id: whitehouse_lingerings-of-light-in-a-dark-land_1873--lingerings-of-light-in-a-dark-land-chapters-xiii-xv
   work: Lingerings of Light in a Dark Land, chapters XIII-XV (Jacobite bishops and the Church
     Missionary Society)

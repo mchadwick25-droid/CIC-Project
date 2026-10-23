@@ -3,6 +3,25 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-scottish-reformation-and-kirk
 works:
+- row_id: calderwood_history-of-the-kirk-v3-1570-1583_thomson1843--the-history-of-the-kirk-of-scotland-vol-iii-the-years-1570-1583-the-as
+  work: 'The History of the Kirk of Scotland, Vol. III: the years 1570-1583 (the Assemblies
+    under the Regents and the young King, the Leith agreement, the struggle over bishops,
+    the Ruthven raid), with the documents Calderwood transcribed'
+  author: calderwood
+  locus: from the 1570 Assembly (file line about 1509, running head '1570. OF THE KIRK OF
+    SCOTLAND.') to the end of 1583 (running heads '1583.' from about 32308); the conference
+    upon the policy from about 17280, the policy presented to the King from about 18783
+  role: tradition
+  confidence: assigned
+  note: 'The presbyterian Kirk''s own historian, writing in the 1620s from the Assembly registers,
+    Knox and the papers of the ministers: the fullest narrative of the Melvillian turn, in
+    Scots, with the Assembly acts, the ministers'' protests and the King''s letters embedded.
+    His framing is partisan against the bishops and must be read as his; the embedded documents
+    are quotable as his transcripts. Primary voice, clean OCR, ready to quote once verified
+    against this file.
+
+    '
+  source_file: calderwood_history-of-the-kirk-v3-1570-1583_thomson1843.txt
 - row_id: calvin_letters-vol4_bonnet1858--letters-of-john-calvin-compiled-from-the-original-3
   work: 'Letters of John Calvin, Vol. IV: the letters to John Knox (DXLIX, 1559; DXC, 1561)
     and the 1559 letter on Knox''s First Blast'
@@ -188,6 +207,38 @@ works:
 
     '
   source_file: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838.txt
+- row_id: kirk-of-scotland_psalms-of-david-in-metre-1650_1833--the-psalms-of-david-in-metre-the-scottish-psalter-of-1650-complete-150
+  work: 'The Psalms of David in Metre: the Scottish Psalter of 1650, complete (150 psalms,
+    with the second versions)'
+  author: kirk-of-scotland
+  locus: PSALM 1 at file line 119 to PSALM 150 at 15337; index of first lines from 15366
+  role: tradition
+  confidence: assigned
+  note: 'The words the whole Kirk sang from 1650 and still sings: the census''s named devotional
+    voice, the one text every Scottish parishioner knew by heart. The 1650 revision of Rous''s
+    version was made by the Assembly''s committee; this is the Kirk''s text in an 1833 printing.
+    Primary voice, clean OCR, ready to quote once verified against this file. For the window''s
+    earlier decades (1564-1650) the Kirk sang the Book of Common Order''s psalter, which is
+    not vendored.
+
+    '
+  source_file: kirk-of-scotland_psalms-of-david-in-metre-1650_1833.txt
+- row_id: calderwood_history-of-the-kirk-v3-1570-1583_thomson1843--the-second-book-of-discipline-or-heads-and-conclusions-of-the-policy-o
+  work: The Second Book of Discipline, or Heads and Conclusions of the Policy of the Kirk
+    (1578), chapters I-XIII, as registered in 1581
+  author: kirk-of-scotland
+  locus: from 'THE SECOND BUIK OF DISCIPLINE, OR HEIDIS AND CONCLUSIONES OF THE POLICIE OF
+    THE KIRK' at file line 24671, 'CHAP. I.' following, through chapter XIII
+  role: tradition
+  confidence: assigned
+  note: 'The clean witness to the Melvillian charter of presbyterian polity that the first
+    pass asked for: the Peterkin 1839 text (kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt)
+    has its opening pages garbled, and this transcript by Calderwood is clean from the first
+    chapter. Same Work, second Expression (works_fragment). Primary institutional voice in
+    Scots; a quote from chapters I-II should come from here, checked against the page image.
+
+    '
+  source_file: calderwood_history-of-the-kirk-v3-1570-1583_thomson1843.txt
 - row_id: knox_works-v2_laing1895--first-book-of-discipline-1560
   work: The Buke of Discipline (the First Book of Discipline, 1560)
   author: knox
@@ -323,6 +374,25 @@ works:
 
     '
   source_file: rutherford_letters_bonar1891.txt
+- row_id: spottiswood_history-of-the-church-of-scotland-v3-1596-1625_russell-napier1850--the-history-of-the-church-of-scotland-vol-iii-the-sixth-book-continued
+  work: 'The History of the Church of Scotland, Vol. III: the Sixth Book continued (1596-1603)
+    and the Seventh Book (1603-1625)'
+  author: spottiswood
+  locus: THE SIXTH BOOK CONTINUED at file line 205; THE SEVENTH BOOK at 6754; Index from 14559
+  role: tradition
+  confidence: assigned
+  note: 'The archbishop''s history of the years in which James VI restored bishops: the episcopal
+    party''s own voice on the Aberdeen Assembly, the banishment of the Melvilles, the Perth
+    Articles. Needs-ruling on role: the first-pass dossier called Spottiswood the outside
+    witness (context), but he was primate of the Church of Scotland and this is the Kirk''s
+    own voice in its episcopal phase, exactly as the first pass placed the Rescinded Acts
+    of 1606-1618 as tradition. Whether the world''s Representative speaks for the Kirk that
+    included its bishops, or for the presbyterian Kirk that rescinded them, is for Doc_01
+    and Doc_04. Primary voice either way, clean OCR, ready to quote once verified against
+    this file; the editors'' notes are not his words. Ruled by the project lead, October 2026:
+    the Kirk''s episcopal party is inside the Kirk, so the archbishop''s history is the world''s
+    own voice; Doc_01 states the bishops question.'
+  source_file: spottiswood_history-of-the-church-of-scotland-v3-1596-1625_russell-napier1850.txt
 - row_id: st-andrews-kirk-session_register-pt1-1559-1582_hay-fleming1889--register-of-the-st-andrews-kirk-session-1559-1582
   work: 'Register of the Minister, Elders, and Deacons of the Christian Congregation of St
     Andrews, Part First: 1559-1582 (kirk session and superintendent''s court)'

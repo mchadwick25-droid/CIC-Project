@@ -6,7 +6,7 @@ assignments:
     author: purchas
     locus: "Chap. V from file line 13995 (the Jesuits' entrance into Japan and China), Chap. VI from line 19677 (Pantoja's letter), Chap. VII from line 24742 (Discourse of the Kingdome of China out of Ricius and Trigautius), Chap. VIII from line 29109 (the mission to Ricci's death); Chapters I to IV are Russia, Persia, Mendes Pinto and the Philippines"
     atlas_ids:
-      - mission-born-christianities-kirishitan-japan-kon
+      - china-mission-born-christianity
     role: context
     confidence: assigned
     note: >

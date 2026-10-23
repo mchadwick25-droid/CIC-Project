@@ -16,7 +16,7 @@ assignments:
     author: afonso-i-of-kongo
     locus: "the documents in Afonso's name, from the 1512 publication of arms at file line 441 ('D. Affonso por graca de Deus rei de Manicongo', line 444), his letter to the Pope (line 533) and his letters to D. Manuel and D. Joao III at lines 584, 1372, 1459, 1497, 1598, 1921, 1958, 1992, 2122, 2207, 2339, 2495, 2582, 2615, 2659, 2883, 3060, 3131, 3298 and 3386, among the Roman-numbered documents"
     atlas_ids:
-      - mission-born-christianities-kirishitan-japan-kon
+      - kongo-christianity-afonso-to-1650
     role: tradition
     confidence: assigned
     note: >
@@ -33,7 +33,7 @@ assignments:
     author: paiva-manso
     locus: "whole volume; Roman-numbered documents in date order, each under a heading giving nature, parties and date"
     atlas_ids:
-      - mission-born-christianities-kirishitan-japan-kon
+      - kongo-christianity-afonso-to-1650
     role: context
     confidence: assigned
     note: >

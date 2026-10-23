@@ -3,6 +3,22 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: scandinavian-reformation-kingdoms
 works:
+- row_id: anjou_history-of-the-reformation-in-sweden_mason1859--the-history-of-the-reformation-in-sweden-anjou-1850-mason-s
+  work: The History of the Reformation in Sweden (Anjou, 1850; Mason's English, 1859)
+  author: anjou
+  locus: whole file; CONTENTS from file line 162 (Book I to 1527, Book II from the diet of
+    Vasteras 1527); Olaus Petri's writings and the diet acts quoted in Mason's English throughout
+  role: context
+  confidence: assigned
+  note: 'A nineteenth-century Swedish churchman''s narrative of the Swedish Reformation in
+    the only public-domain English the passes found: the English a build can set beside the
+    vendored Swedish originals (Olavus Petri''s Samlade skrifter, the Mass, the Uppsala decision)
+    and check its Opus renderings against. Context, not voice: secondary narrative by an insider
+    of the later church, quoting the reformers at length. Clean OCR, quotable once checked
+    against the page image.
+
+    '
+  source_file: anjou_history-of-the-reformation-in-sweden_mason1859.txt
 - row_id: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912--konkordieboken-in-swedish-scandinavian
   work: Konkordieboken in Swedish, with Bensow's note that Sweden adopted it in full only
     in 1663 and 1686
@@ -85,6 +101,25 @@ works:
 
     '
   source_file: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt
+- row_id: glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895--bishop-nils-glostrup-s-visitations-of-the-dioceses-of-oslo
+  work: Bishop Nils Glostrup's visitations of the dioceses of Oslo and Hamar, 1617-1637 (Danish;
+    Daae and Huitfeldt-Kaas, 1895)
+  author: glostrup
+  locus: the visitation book by year from 'Anno 1618' at file line 1194 to the bishop's letters
+    and the Navneregister near the end of the extract (about line 9470); the editors' introduction
+    from about line 300 is theirs
+  role: tradition
+  confidence: assigned
+  note: 'The Norwegian church''s own record of itself a century into the Reformation: a bishop''s
+    parish-by-parish visitations under the Church Ordinance, noting ministers, schools, churches,
+    catechising and discipline, in his own Danish. The ordinary voice the census promises
+    (visitation records) for the Norwegian half of Denmark-Norway, which the first pass found
+    only as a lead. Readable OCR, primary in the original; quotable, and renderable by Opus,
+    once each passage is verified against the page image. The editors'' introduction (1895)
+    is secondary.
+
+    '
+  source_file: glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895.txt
 - row_id: melanchthon_augsburg-confession_anon-pg275--augsburg-confession-uppsala-1593
   work: The Augsburg Confession (1530), the confession the Uppsala Synod of 1593 adopted 'unaltered'
   author: melanchthon

@@ -17,20 +17,20 @@ Mark owns every item marked **Mark**. The build thread does the rest and reports
 
 ## Where the module is run from
 
-Three places, one kind of control each. **Stripe** holds money: the pack links, the sponsor link and one-per-person discount codes. The **admin dashboard** (behind the admin login) holds the live day: the pause switch, the mint page, the door's current stage and the day's tiles, all with effect at once. The **operations file** (`engine/deeper/ops/go-deeper.yaml`, changed by pull request) holds the shape of the offer: token prices, pack sizes, the free grant, the door's base number and thresholds, and the admin mint limits. The free grant has no live dial: the door moves the free table by its stages, and the baseline stays a line in the file.
+Three places, one kind of control each. **Stripe** holds money: the pack links, the sponsor link and one-per-person discount codes. The **admin dashboard** (behind the admin login) holds the live day: the pause switch, the mint page and the day's tiles, all with effect at once. The **operations file** (`engine/deeper/ops/go-deeper.yaml`, changed by pull request) holds the shape of the offer: token prices, pack sizes, the free grant and the admin mint limits. The free grant has no live dial; it stays a line in the file. There is no weekly spend door: free voice is bounded by each visitor's and network's free window, the monthly count of messages with no reply, and the AWS limit (decided 2026-10-23).
 
-The mint page makes codes with no payment. The codes show once on the page; copy them before leaving it. If a response is lost, cancel the mint id it showed in the dashboard's cancel box (it takes a mint id or a payment id) and make them again. Each grant counts toward the door as a gift of the packs' price.
+The mint page makes codes with no payment. The codes show once on the page; copy them before leaving it. If a response is lost, cancel the mint id it showed in the dashboard's cancel box (it takes a mint id or a payment id) and make them again.
 
-A tester code is one code for a professor or deep tester, made under "Make codes (no payment)". It holds up to 20,000 tokens (the default) and works for the days you choose (30 by default, up to 90), to the end of its last day, UTC. After that it acts as a spent code: the person sees the usual spent line and nothing is spent. Two can be made a day; a cancelled one still counts. The code shows once with its last day and mint id; cancel it with that mint id in the same box. The limits are in the operations file's `tester` section. It counts nothing toward the door: no money comes with it.
+A tester code is one code for a professor or deep tester, made under "Make codes (no payment)". It holds up to 20,000 tokens (the default) and works for the days you choose (30 by default, up to 90), to the end of its last day, UTC. After that it acts as a spent code: the person sees the usual spent line and nothing is spent. Two can be made a day; a cancelled one still counts. The code shows once with its last day and mint id; cancel it with that mint id in the same box. The limits are in the operations file's `tester` section.
 
 ## Offers and goodwill
 
 The module makes free codes; Stripe makes every percentage discount. Name each Stripe code for what it was for, so the list reads at a glance: `PILOT-`, `XMAS-`, `HOME-` for a cohort, `FIX-` for a complaint. Steps below use Stripe's feature names; check them against your account the first time, since Stripe's menus change.
 
-| Situation | Where | What the door counts |
+| Situation | Where | What the funds record |
 |---|---|---|
-| Free package for the pilot | the pilot join (on when `pilot_open` is true) | a gift of the pack's price |
-| One-off free grant | the dashboard mint page | a gift of the pack's price |
+| Free package for the pilot | the pilot join (on when `pilot_open` is true) | nothing (no money comes with it) |
+| One-off free grant | the dashboard mint page | nothing (no money comes with it) |
 | A professor or deep tester | a tester code on the dashboard mint page | nothing (no money comes with it) |
 | A percentage off for a season or a cohort | a Stripe promotion code on the chosen package | what was paid |
 | A discount on one package only | a Stripe coupon limited to that product, with promotion codes switched on only for that package's payment link | what was paid |
@@ -47,14 +47,13 @@ All of these must be true. The build thread checks the first group; Mark confirm
 
 **Built and merged on `main`** (check in `Build/Ministry/Features/Go-Deeper/Decision-Log.md`):
 
-- The meter, routes, admission seam, proofs in CI, app panel, site pages, Facilitator words, the door (computation, admission, public line), and the standing measure.
+- The meter, routes, admission seam, proofs in CI, app panel, site pages, Facilitator words, and the standing measure.
 - The token words (T3) are merged. No dollar figure appears in the conversation.
 - The "already closed" 409 on a crisis message is fixed (System Hub decision 35), so a crisis message to a closed sitting is answered.
 
 **Mark's, before any real sale:**
 
 - Prices, packs and the sponsor pack (ruled: $7 = 1,100 tokens, $15 = 2,750, $30 = 6,600; nothing under $7; the sponsor pack shape is open).
-- The door's numbers: the base number and thresholds are set from the observe week (Part 5, step 2). The gift and purchase shares (0.8, 0.5), the invoice factor (1.35) and the five stages ship as stated defaults in `engine/deeper/ops/go-deeper.yaml`. Change them by pull request.
 - The converted numbers: group daily ceiling 6000 tokens, low-balance warning at 100 tokens.
 - The free allowance, ruled 2026-10-04: 550 tokens in a window of 30 days that starts at a visitor's first use and refills 30 days after it (rolling, not calendar), five solo conversations of three rounds. It is kept in the meter file (a keyed hash of the visitor key, a day and a number; the key is `CIC_DEEPER_FREE_KEY`, which is not in the file), so a deploy does not refill it. The old daily 330 is withdrawn.
 - Words: the free-allowance count line, "beside" or "under" the message box, the last-stage public line, "give at Get Involved" showing on Get Involved itself, and a line for the paid round-cap stop that says the participant's code still holds tokens.
@@ -81,14 +80,14 @@ All of these must be true. The build thread checks the first group; Mark confirm
 | `CIC_DEEPER_PRODUCTS` | engine | JSON keyed by Payment Link id | One entry per pack: kind, tokens, optional count and daily ceiling. A link not listed here mints nothing. |
 | `CIC_DEEPER_FREE_KEY` | engine, secret | at least 32 random characters | **Required.** Keys the free allowance's rows. Never written to disk or the repo. The engine refuses to start without it. Rotating or losing it refills every visitor's free window, so keep it. |
 | `CIC_DEEPER_PILOT_LINKS` | engine | JSON object of secret link key to private audience, for example `{"<key>": "pastors"}`; make each key with `python3 -c "import secrets; print(secrets.token_urlsafe(18))"` | Optional. Without it no private pilot audience can be joined. A key is 16 to 64 letters, digits, hyphens or underscores. Replace a key to end a leaked link. |
-| `CIC_DEEPER_GIFT_LINKS` | engine | JSON list of Payment Link ids | Gifts count toward the door; a link cannot be both a product and a gift. |
+| `CIC_DEEPER_GIFT_LINKS` | engine | JSON list of Payment Link ids | Gifts are recorded in the funds; a link cannot be both a product and a gift. |
 | `CIC_DEEPER_SITE_ORIGIN` | engine | the site's exact origin, no `www`, no wildcard | The claim route answers only this origin. |
 | `CIC_DEEPER_OPS_FILE` | engine | optional | Defaults to `engine/deeper/ops/go-deeper.yaml`. A bad file stops the start. |
 | `CIC_DEEPER_METER_DB`, `CIC_DEEPER_CLAIMS_DB` | engine | optional | Default to the directory that holds the event store, so they sit on the backed-up disk. |
 | `VITE_DEEPER_ENABLED` | app build; set as an environment variable on the Render service | `on` | Build-time. The Dockerfile passes it to the frontend build. Off means no panel, no header, no change. Changing it needs a rebuild and deploy. |
 | `VITE_DEEPER_SITE_ORIGIN` | app build; set as an environment variable on the Render service | the same exact origin | Must match `CIC_DEEPER_SITE_ORIGIN`. |
-| `enabled` | `cic-website/assets/go-deeper-config.js` | `true` at step 4 | Until it is true the home and Get Involved pages make no door-line request. |
-| `PAYMENT_LINKS` | `cic-website/go-deeper.html` | one Payment Link per pack, keyed 1, 2 and 3 | A pack with an empty link is not shown, and the page stays closed until at least one is set. The three `CIC_DEEPER_PRODUCTS` entries must match the three links: each link's id keyed to its pack's tokens (1: 1,100, 2: 2,750, 3: 6,600). A link not listed there mints nothing. |
+| `enabled` | `cic-website/assets/go-deeper-config.js` | `true` at step 4 | Until it is true the Go Deeper pages stay closed. |
+| `PAYMENT_LINKS` | `cic-website/go-deeper.html` | one Payment Link per pack, keyed 1, 2 and 3 | The three live links are set (2026-10-23): pack 1 `plink_1UTaOp4yfHz9kcivUzerOYnI`, pack 2 `plink_1UTaQ14yfHz9kciv2whCT3GI`, pack 3 `plink_1UTaQq4yfHz9kcivxlrps7Ss`. A pack with an empty link is not shown, and the page stays closed until at least one is set. The three `CIC_DEEPER_PRODUCTS` entries must match the three links: each link's id keyed to its pack's tokens (1: 1,100, 2: 2,750, 3: 6,600). A link not listed there mints nothing. |
 
 The meter file is backed up by the engine's own daily job whenever the module is on (the app passes it as an extra database). Production relies on that. The CLI option `--meter-db` is for taking a backup by hand, for example before a rollback. Confirm the daily job lists a meter backup before step 2. The claim table lives in its own file and stays out of backups on purpose.
 
@@ -106,12 +105,11 @@ Staging is `cic-engine-staging`, which follows `main`. Use Stripe test mode.
 6. In the app, with no code, have a free conversation to its third round, and note the free allowance falling by 110 tokens. Restart the staging engine and confirm the allowance did not refill. The panel opens at the limit. Enter the code. The same sitting carries on, and the token count falls.
 7. Pause codes (`POST /api/admin/deeper/pause` with `{"on": true}`). The next message with a code gets the paused line. Free conversations carry on. Unpause.
 8. Run each state on the Ledger page's list and read the words as a participant would: spent, too few, in use, group daily limit, code not accepted, paused.
-9. Send a message that reads as distress, one that is unclear, and one the safety check cannot read, at: the third free round, a spent code and a paused module. Each must get the Facilitator's answer and never the limit message. Run the same three messages again at each door stage during step 10, because the door narrows nothing until `observe` is false in the copy.
-10. Drive the door: copy the operations file, set a low base number in the copy, and point `CIC_DEEPER_OPS_FILE` at the copy on staging (never edit the shipped file for a test). In that copy set `door.observe` to false, because in observe mode the door narrows nothing. Run traffic until each stage is reached. Read `GET /api/admin/deeper/door` at each. Confirm the free path narrows in the order the operations file lists, free voice closes, and at the last stage a code is refused with nothing spent.
-11. Open the admin dashboard. The Go Deeper section shows the day's codes, tokens and refusals, and the "Door stage (peak)" column moves with step 10.
-12. Take a backup and restore it to a scratch copy. The restored meter file has the same balances.
-13. Flip the module off (rollback step 4). Confirm the free path is unchanged and no deeper route does anything. With no app built, every deeper route returns 404. With the app built, a GET returns the app's home page and a POST returns 405; neither exposes data.
-14. Mark signs the checklist, listing anything that did not behave and what was done about it.
+9. Send a message that reads as distress, one that is unclear, and one the safety check cannot read, at: the third free round, a spent code and a paused module. Each must get the Facilitator's answer and never the limit message.
+10. Open the admin dashboard. The Go Deeper section shows the day's codes, tokens and refusals.
+11. Take a backup and restore it to a scratch copy. The restored meter file has the same balances.
+12. Flip the module off (rollback step 4). Confirm the free path is unchanged and no deeper route does anything. With no app built, every deeper route returns 404. With the app built, a GET returns the app's home page and a POST returns 405; neither exposes data.
+13. Mark signs the checklist, listing anything that did not behave and what was done about it.
 
 ## Part 4 — No paid voice-quality run
 
@@ -129,13 +127,13 @@ A Stripe completion event makes a code for a purchase. Mark can also make free c
 
 **Step 1 — Ship dark.** Promote the code with every flag off. Check: the engine behaves as before, no route under `/api/deeper` exists, the site pages are unchanged and make no request, the dashboard shows no Go Deeper section. Wait a day.
 
-**Step 2 — Engine on.** Set the Part 2 engine settings with live-mode Stripe values and turn `CIC_DEEPER_ENABLED` on. The app and site are still off, so no participant sees anything. Check: the webhook endpoint is reachable by Stripe, the door computes from the usage log (`GET /api/admin/deeper/door`), the dashboard section appears. Then Mark makes one real purchase of the smallest pack through a live Payment Link that no page links to, and reads the code from the return page. The reconciliation count must show one payment seen, one code made, a gap of zero. Mark then refunds that purchase in full in Stripe and checks that the refund event voids the code (`refunds_applied` is one, `GET /api/admin/deeper/owed` no longer lists it). This is the first live proof of the whole loop.
+**Step 2 — Engine on.** Set the Part 2 engine settings with live-mode Stripe values and turn `CIC_DEEPER_ENABLED` on. The app and site are still off, so no participant sees anything. Check: the webhook endpoint is reachable by Stripe, the dashboard section appears. Then Mark makes one real purchase of the smallest pack through a live Payment Link that no page links to, and reads the code from the return page. The reconciliation count must show one payment seen, one code made, a gap of zero. Mark then refunds that purchase in full in Stripe and checks that the refund event voids the code (`refunds_applied` is one, `GET /api/admin/deeper/owed` no longer lists it). This is the first live proof of the whole loop.
 
-The door starts in **observe mode** (`door.observe: true` in the operations file). It is worked out every minute and counted, but it narrows nothing, the public door line says nothing, and no turn is refused for it. Leave it for one week. Each day the dashboard's Go Deeper table shows the door's peak stage, its peak share of the ceiling, the peak weekly spend, and the voiced turns it would have refused, free and coded separately. Halving the free allowance at a stage is not counted as a refused turn, so read the peaks for how close the week came. Mark sets the base number and thresholds from that week, by pull request to the operations file, then sets `door.observe: false`, and the door goes live. Until it is live, a surge of free traffic is bounded only by the existing per-visitor, per-address and daily limits, so watch the dashboard through the week. **Ended early (2026-10-15, pre-pilot systems review, batch B):** Mark set `door.observe: false` with a base of $75 a week (from $150) before the week was out, so a surge of free traffic now has a hard stop. Raise the base, by pull request, once the pilot shows what real use costs. A daily limit sits beside it: any 24 hours may spend `door.daily_share` (0.333) of the week's ceiling, and the door applies whichever limit is nearer.
+There is no weekly spend door (removed 2026-10-23, Mark's ruling: the $12 base was never intended). A surge of free traffic is bounded by the per-visitor and per-network free windows, the monthly count of messages with no Representative reply, the existing per-address burst limits and the AWS limit. Watch the dashboard through the first week.
 
 **Step 3 — App on.** Build the app with `VITE_DEEPER_ENABLED=on` and promote. The panel opens at a limit and on request, and accepts a code a person enters. There is still no buy button anywhere. Mark makes a second real smallest-pack purchase through the unlinked Payment Link, enters its code in a sitting, and runs the safety matrix on production (Part 3, step 9) with it, then refunds it in full.
 
-**Step 4 — Site on.** Only after Mark has signed Part 3, the door has run its week of observe mode and gone live (Part 5, step 2), and the words items in Part 1 are settled. Set the three Payment Links in `PAYMENT_LINKS` on `go-deeper.html`, one per pack, each matching its `CIC_DEEPER_PRODUCTS` entry, set `enabled: true` in `go-deeper-config.js`, remove `noindex` from the two pages, and link the Go Deeper page. Merging to `main` ships the site. Watch the reconciliation gap and the dashboard daily for the first week.
+**Step 4 — Site on.** Only after Mark has signed Part 3, and the words items in Part 1 are settled. Set the three Payment Links in `PAYMENT_LINKS` on `go-deeper.html`, one per pack, each matching its `CIC_DEEPER_PRODUCTS` entry, set `enabled: true` in `go-deeper-config.js`, remove `noindex` from the two pages, and link the Go Deeper page. Merging to `main` ships the site. Watch the reconciliation gap and the dashboard daily for the first week.
 
 ## Part 6 — Rollback
 
@@ -165,7 +163,7 @@ So at a switch-off, **before the engine goes off**:
 
 1. Export the owed report as a snapshot.
 2. Settle every balance in Stripe against that snapshot, not against the live list afterwards.
-3. For a refund of the whole remaining balance, void the payment's codes with `POST /api/admin/deeper/void` and `{"payment_id": "pi_..."}`. The route does what a full-refund event does: voids the codes, takes the money out of the door's sum, and counts it in the reconciliation. It voids everything the payment made, so it is only for when the whole remaining balance is refunded. Any other partial refund is Mark's policy to decide; the module has no way to void part of a balance.
+3. For a refund of the whole remaining balance, void the payment's codes with `POST /api/admin/deeper/void` and `{"payment_id": "pi_..."}`. The route does what a full-refund event does: voids the codes, takes the money out of the funds, and counts it in the reconciliation. It voids everything the payment made, so it is only for when the whole remaining balance is refunded. Any other partial refund is Mark's policy to decide; the module has no way to void part of a balance.
 4. Check each void against the snapshot. The route answers 404 for a payment that made no codes (a mistyped id changes nothing and records nothing), and `voided: 0` for one already voided. Confirm the payment's row is gone from `GET /api/admin/deeper/owed` afterwards.
 
 The routes do not exist once the engine module is off. If a void is found to be missing after that, switch the engine module on alone to do it: every Payment Link deactivated, the app and site flags off, codes paused, then void, then switch it off again.
@@ -180,15 +178,15 @@ Until every refunded payment is voided, the written rule is that **the module is
 4. Delete the webhook endpoint in Stripe.
 5. Take a last backup of the meter file, and hold it for the retention period the privacy page states.
 6. Remove the secrets (`CIC_DEEPER_WEBHOOK_SECRET` and `CIC_DEEPER_FREE_KEY`) and the Go Deeper settings from Render.
-7. Remove the Go Deeper pages and the door line from the site, and the privacy page's Go Deeper paragraph.
+7. Remove the Go Deeper pages from the site, and the privacy page's Go Deeper paragraph.
 8. Only then delete the module's code in a reviewed pull request. The proofs in CI named for the module go with it.
 
 ## Part 9 — What to watch in the first weeks
 
 - **Daily:** the reconciliation gap on the dashboard should be zero. A gap above zero is money not matched to codes; look at it the same day.
-- **Daily:** the door stage and the refusal reasons. A growing "door closed to free" count means free conversations are being turned away; the gifts line is what reopens them.
-- **Weekly:** the cost per refused message. Every message, even a refused one, still gets its safety check, about $0.003. The door bounds the voice, not those checks.
-- **After any change** to prices, packs or door numbers: change the operations file by pull request, and read the log entry it adds.
+- **Daily:** the refusal reasons. A growing "free allowance spent" count means free visitors are reaching the end of their tokens.
+- **Weekly:** the cost per refused message. Every message, even a refused one, still gets its safety check, about $0.003. The monthly count of messages with no reply bounds those checks.
+- **After any change** to prices, packs or limits: change the operations file by pull request, and read the log entry it adds.
 
 ## Known gaps, stated
 

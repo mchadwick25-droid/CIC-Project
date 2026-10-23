@@ -1,0 +1,80 @@
+source_file: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
+
+authors_ruled:
+  massachusetts-bay-company:
+    kind: anonymous
+    evidence: >
+      The Company's records, letters and instructions printed in Chapter III onward are corporate documents of the Massachusetts Bay Company, not the editor's own; placed on the chapter headings (file line about 984 onward).
+    from_file: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
+  massachusetts-bay-planters:
+    kind: anonymous
+    evidence: >
+      A collective slug for the several planters whose narratives and letters the editor prints (Higginson, Dudley, Clap, Cotton, Mather, Thacher), each named on its own heading; the volume is Young's compilation, so the file name carries the editor, not these authors.
+    from_file: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
+  white-john-dorchester:
+    kind: metadata-omission
+    evidence: >
+      The Planters' Plea (1630) is John White of Dorchester's, named on the editor's heading in Chapter I (file line about 271); the file name carries the compiler Alexander Young.
+    from_file: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
+
+
+assignments:
+  - row_id: young-alexander_chronicles-of-the-first-planters-1623-1636_1846--the-massachusetts-bay-founding-documents-1628-1636-the-company-s-recor
+    work: "The Massachusetts Bay founding documents, 1628-1636: the Company's records, Cradock's letter and the instructions to Endicott, the form of government, the Cambridge Agreement, the Humble Request to the Church of England (1630), the agreement with the ministers"
+    author: massachusetts-bay-company
+    locus: "CHAPTER III (the Company's records) from about file line 984 to CHAPTER XI at about 10842; the General Considerations, the Cambridge Agreement and the Humble Request from about 14009 to 14899"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The corporate voice of the migration: the Company's orders for a godly
+      plantation, its hiring of ministers, and the Humble Request in which the
+      departing leaders call the Church of England 'our dear mother'. Primary
+      institutional voice, clean OCR, ready to quote once verified against this
+      file; Young's notes are not the planters' words. The author slug names the
+      Company; the first-pass staging used admonition-to-parliament and
+      dedham-classis for corporate authors in the same way.
+  - row_id: young-alexander_chronicles-of-the-first-planters-1623-1636_1846--the-planters-own-narratives-and-letters-1629-1636-higginson-s-journal-
+    work: "The planters' own narratives and letters, 1629-1636: Higginson's journal and New-England's Plantation, Dudley's letter to the Countess of Lincoln, Roger Clap's memoirs, Cotton's letters and reasons for removal (with Whiting's life of Cotton), Richard Mather's journal, Thacher's shipwreck"
+    author: massachusetts-bay-planters
+    locus: "Higginson from about file line 10842; Dudley from about 14899; Clap from about 17433; Cotton from about 21169; Mather from about 22512; Thacher following; to Shepard's memoir at 24707"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      First-person voices of the crossing and the first winters: a minister's sea
+      journal, the deputy governor's sober letter home, a layman's memoirs of
+      hunger and godliness, Cotton's reasons for leaving Boston in Lincolnshire.
+      Each document's own writer is named in its chapter heading; the collective
+      slug stands for the compilation, and a quote record names the individual.
+      Whiting's life of Cotton (written after 1652) is a later memoir, not
+      Cotton's own words. Primary voice, clean OCR.
+  - row_id: young-alexander_chronicles-of-the-first-planters-1623-1636_1846--thomas-shepard-s-memoir-of-his-own-life-the-autobiography-in-young-s-1
+    work: "Thomas Shepard's memoir of his own life (the autobiography), in Young's 1846 text"
+    author: shepard
+    locus: "CHAPTER XXIV from file line 24707 to the Index at 27724"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: provisional
+    note: >
+      A second printing of the autobiography already vendored from the 1832 Adams
+      edition (shepard_autobiography_adams1832.txt), from the same manuscript
+      tradition; useful as a cross-check witness for a quotation. Provisional
+      because the 1832 file holds the assigned row. Clean OCR.
+  - row_id: young-alexander_chronicles-of-the-first-planters-1623-1636_1846--white-s-planters-plea-1630-and-hubbard-s-narrative-of-the-first-planti
+    work: "White's Planters' Plea (1630) and Hubbard's narrative of the first planting"
+    author: white-john-dorchester
+    locus: "CHAPTER I from file line 271 and CHAPTER II to about 984"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      John White of Dorchester, the English promoter of the colony, arguing the
+      lawfulness of the plantation from England; and Hubbard's later (1680s)
+      narrative. Context: the English sponsor's apologia and a second-generation
+      history, not the planters' own voice. The slug distinguishes White of
+      Dorchester from any other John White; provisional.

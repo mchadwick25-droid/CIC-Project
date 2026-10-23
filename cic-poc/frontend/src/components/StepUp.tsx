@@ -4,7 +4,8 @@ import { accountsCopy as copy } from '../lib/accountsCopy';
 import { ProviderButtons } from './ProviderButtons';
 
 /** Asks the person to prove it is them again: a fresh emailed code, or the provider they use. */
-export function StepUp({ onDone, onCancel, fail, busy, run }: {
+export function StepUp({ onDone, onCancel, fail, busy, run, intro }: {
+  intro?: string;
   onDone: () => void;
   onCancel: () => void;
   fail: (message: string) => void;
@@ -32,8 +33,8 @@ export function StepUp({ onDone, onCancel, fail, busy, run }: {
   };
 
   return (
-    <div className="account__section" role="group" aria-label={copy.confirmIntro}>
-      <p>{copy.confirmIntro}</p>
+    <div className="account__section" role="group" aria-label={intro ?? copy.confirmIntro}>
+      <p>{intro ?? copy.confirmIntro}</p>
       {hasAddress && stage === 'address' && (
         <form onSubmit={send}>
           <label htmlFor="account-confirm-address">{copy.addressLabel}</label>

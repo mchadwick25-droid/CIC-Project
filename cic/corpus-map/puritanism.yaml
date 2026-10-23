@@ -61,6 +61,21 @@ works:
 
     '
   source_file: admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt
+- row_id: ames_marrow-of-sacred-divinity_1639--the-marrow-of-sacred-divinity-the-english-of-ames-s-medulla
+  work: The Marrow of Sacred Divinity (the English of Ames's Medulla theologiae), 1639
+  author: ames
+  locus: whole file; the two books in numbered chapters ('Chapter II.' at file line 344, 'Chapter
+    V.' at 921, fifty chapter headings survive); the tables at the end
+  role: tradition
+  confidence: provisional
+  note: 'The Puritan system of divinity by the English divine who taught at Franeker in Friesland
+    (title page), in the English printed by order of the House of Commons in 1639. The first-
+    pass VI.9 dossier passed Ames to the Puritanism agent, who did not vendor him, so this
+    row is provisional for that world to confirm. SECOND WITNESS for exact wording: f for
+    long s in the OCR, about 0.75 of tokens read as words; verify against the page image.
+
+    '
+  source_file: ames_marrow-of-sacred-divinity_1639.txt
 - row_id: austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870--kerkeraads-protocollen-der-hollandsche-gemeente-te-londen-1569-1571-3
   work: Kerkeraads-protocollen der Hollandsche Gemeente te Londen, 1569-1571
   author: austin-friars
@@ -116,6 +131,38 @@ works:
 
     '
   source_file: barlow-william_summe-and-substance-hampton-court-conference_1804.txt
+- row_id: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925--reliquiae-baxterianae-abridged-part-one-baxter-s-life-1615-1660-childh
+  work: 'Reliquiae Baxterianae abridged, Part One: Baxter''s life 1615-1660 (childhood, Kidderminster,
+    the army, the Commonwealth, his self-analysis and life-review)'
+  author: baxter
+  locus: PART ONE from about file line 2224 (CHAPTER I) to PART TWO at about 8706
+  role: tradition
+  confidence: assigned
+  note: 'The fullest Puritan self-account of the 1630s to 1660: a godly upbringing under ''incompetent
+    clergy'', the Kidderminster ministry, the army chaplaincy, and the self-review Baxter
+    wrote in old age about the man he had been. Inside the Puritan world''s window and the
+    voice the lead asked for. Needs-ruling because the first-pass dossier left which world
+    owns Baxter (this one or English Old Dissent) as a portfolio question. Primary voice in
+    the editor''s abridgement, clean OCR, ready to quote once verified against this file.
+    Ruled by the project lead, October 2026 (Era VII placements): a text from before the world''s
+    window that the world argued from is antecedent to it; a text from after the window is
+    context here and tradition for the later entry.'
+  source_file: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt
+- row_id: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925--reliquiae-baxterianae-abridged-parts-two-and-three-the-restoration-the-2
+  work: 'Reliquiae Baxterianae abridged, Parts Two and Three: the Restoration, the Savoy Conference,
+    the ejection of 1662, conformists and nonconformists, persecution to the 1680s'
+  author: baxter
+  locus: PART TWO from about file line 8706 and PART THREE from about 11623 to the appendices
+    at about 15229
+  role: context
+  confidence: assigned
+  note: 'Baxter after 1660: the Savoy Conference, ''Black Bartholomew'', the sorts of nonconformists
+    described, the persecution. Past the Puritan world''s window and squarely in English Old
+    Dissent''s; placed to both with needs-ruling, the same portfolio question as Part One.
+    Primary voice, clean OCR. Ruled by the project lead, October 2026 (Era VII placements):
+    a text from before the world''s window that the world argued from is antecedent to it;
+    a text from after the window is context here and tradition for the later entry.'
+  source_file: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt
 - row_id: baxter_reliquiae-baxterianae_sylvester1696--reliquiae-baxterianae-part-i-the-civil-war-and-interregnum
   work: 'Reliquiae Baxterianae, Part I: the Civil War and Interregnum'
   author: baxter
@@ -140,6 +187,50 @@ works:
 
     '
   source_file: beza_job-expounded_legatt1589.txt
+- row_id: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850--the-confession-of-faith-adopted-by-the-boston-synod-of-1680-the-savoy-
+  work: The Confession of Faith adopted by the Boston Synod of 1680 (the Savoy Declaration
+    of 1658 as the Massachusetts churches adopted it)
+  author: boston-synod
+  locus: from the PREFACE at file line 1943 and CHAPTER I at 2050 to the end of the file
+  role: context
+  confidence: provisional
+  note: 'Twenty years after the window the census gives this world: the second-generation
+    churches restating their faith in the Savoy wording. Placed as context for the Puritan
+    world (its New England successors'' confession), provisional; a later New England or Congregational
+    entry, if the census adds one, would hold it as tradition.
+
+    '
+  source_file: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850.txt
+- row_id: bradford-john_writings-v1_townsend1848--bradford-s-meditations-and-private-prayers-the-godly-meditations-the-p
+  work: Bradford's meditations and private prayers (the Godly Meditations; the prayers for
+    the hours of the day; the meditations from his Tyndale Testament)
+  author: bradford-john
+  locus: from file line 6573 to about 23623
+  role: context
+  confidence: provisional
+  note: 'The devotional pattern (self-examination, set prayers for rising, dressing, meals
+    and sleep) that the godly diaries of the 1580s and later follow. The Puritan world''s
+    own texts (Rogers, Hoby, Ward) would need to be read for an ''argues from'' link; until
+    then context, provisional, as the first-pass dossier suggested.
+
+    '
+  source_file: bradford-john_writings-v1_townsend1848.txt
+- row_id: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850--the-cambridge-platform-of-church-discipline-1648-preface-extracts-and-
+  work: The Cambridge Platform of Church Discipline (1648), preface extracts and chapters
+    I-XVII
+  author: cambridge-synod
+  locus: from the preface extracts at file line 63 and CHAPTER I at 117 to the end of CHAPTER
+    XVII (which ends before the 1680 Confession's PREFACE at 1943)
+  role: tradition
+  confidence: assigned
+  note: 'New England''s own church order: the gathered church, the covenant, the offices,
+    the power of the synod, the magistrate''s duty, written by the synod the General Court
+    called and accepting the Westminster Confession ''for substance of doctrine''. Primary
+    institutional voice of the Puritan world''s New England half, clean OCR, ready to quote
+    once verified against this file.
+
+    '
+  source_file: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850.txt
 - row_id: church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910--parker-s-advertisements-and-the-vestiarian-enforcement-puritanism
   work: Archbishop Parker's Advertisements (1566) and the Elizabethan visitation articles
     enforcing the surplice and ceremonies, 1559-1575
@@ -258,6 +349,23 @@ works:
 
     '
   source_file: foxe_acts-and-monuments-v8_cattley-townsend1837.txt
+- row_id: haak_dutch-annotations-narrative-and-front-matter_1657--haak-s-narrative-of-the-statenvertaling-how-the-synod-of-3
+  work: 'Haak''s Narrative of the Statenvertaling: how the Synod of Dort and the States General
+    made the Dutch Bible of 1637, with the ordinance prefixed to The Dutch Annotations (1657)'
+  author: haak
+  locus: the Parliamentary ordinance (file lines 130-160) and the English reception, with
+    Parliament's recommendation and the Ordinance of Parliament for Haak's encouragement,
+    around lines 629-660
+  role: context
+  confidence: provisional
+  note: 'Parliament sponsoring an English rendering of the Dutch church''s annotated Bible
+    in the 1640s and 1650s: Puritan England reaching for the Dutch Reformed church''s exegesis.
+    The Narrative names Parliament, not the Westminster Assembly (searched; the first-pass
+    dossier''s mention of the Assembly''s attestation was not confirmed in this OCR). Placed
+    on those loci only; the Puritanism build decides its weight. Second witness.
+
+    '
+  source_file: haak_dutch-annotations-narrative-and-front-matter_1657.txt
 - row_id: hoby_diary-1599-1605_meads1930--diary-of-lady-margaret-hoby-1599-1605
   work: Diary of Lady Margaret Hoby, 1599-1605 (B.M. MS. Egerton 2614)
   author: hoby
@@ -338,6 +446,20 @@ works:
 
     '
   source_file: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838.txt
+- row_id: kirk-of-scotland_psalms-of-david-in-metre-1650_1833--the-psalms-of-david-in-metre-the-scottish-psalter-of-1650-revised-from
+  work: 'The Psalms of David in Metre: the Scottish Psalter of 1650, revised from Francis
+    Rous''s version approved by the Westminster Assembly (1646)'
+  author: kirk-of-scotland
+  locus: PSALM 1 at file line 119 to PSALM 150 at 15337
+  role: context
+  confidence: provisional
+  note: 'The 1650 text descends from the psalter the Westminster Assembly approved in 1646
+    and the English Parliament authorised; the Scottish revision replaced much of Rous''s
+    wording. Context for the Puritan world as the Westminster psalmody in its surviving form;
+    provisional, placed on that descent without the Puritan thread''s own reading.
+
+    '
+  source_file: kirk-of-scotland_psalms-of-david-in-metre-1650_1833.txt
 - row_id: knewstub-john-confutation-of-monstrous-heresies-familie-of-loue-dawson1579-a-confutation-of-monstrous-and-horr-2
   work: A Confutation of monstrous and horrible Heresies (1579)
   author: knewstub-john
@@ -347,6 +469,64 @@ works:
   note: Knewstub was a Puritan-leaning Suffolk preacher; placed on window and place, pending
     the Puritanism thread's ruling on his weight there.
   source_file: knewstub-john_confutation-of-monstrous-heresies-familie-of-loue_dawson1579.txt
+- row_id: marprelate_tracts-1588-1589_pierce1911--the-marprelate-tracts-1588-1589-the-epistle-the-epitome-the-minerals-h
+  work: 'The Marprelate Tracts (1588-1589): the Epistle, the Epitome, the Minerals, Hay any
+    Work for Cooper, Theses Martinianae, the Just Censure, the Protestation'
+  author: marprelate
+  locus: the Epistle's title page at about file line 2525; the Epitome from about 12746; Hay
+    any Work from about 21605; Theses Martinianae from about 28587; the Just Censure and the
+    Protestation following, to the Index at 41471; Pierce's introduction from about 407 is
+    editorial
+  role: tradition
+  confidence: assigned
+  note: 'The secret press''s own voice: the Puritan case against the bishops made as popular
+    satire, naming Whitgift, Aylmer, Bridges and Cooper, with the demand for a preaching ministry
+    and discipline behind the jokes. Pseudonymous; the slug is the mask''s name, and the editor''s
+    attribution argument is his. Primary voice in modernised spelling, ready to quote once
+    verified against this file; the stretches of mirrored garbage between tracts are scan
+    noise from blank versos, and Pierce''s notes are not Martin''s words.
+
+    '
+  source_file: marprelate_tracts-1588-1589_pierce1911.txt
+- row_id: young-alexander_chronicles-of-the-first-planters-1623-1636_1846--the-massachusetts-bay-founding-documents-1628-1636-the-company-s-recor
+  work: 'The Massachusetts Bay founding documents, 1628-1636: the Company''s records, Cradock''s
+    letter and the instructions to Endicott, the form of government, the Cambridge Agreement,
+    the Humble Request to the Church of England (1630), the agreement with the ministers'
+  author: massachusetts-bay-company
+  locus: CHAPTER III (the Company's records) from about file line 984 to CHAPTER XI at about
+    10842; the General Considerations, the Cambridge Agreement and the Humble Request from
+    about 14009 to 14899
+  role: tradition
+  confidence: assigned
+  note: 'The corporate voice of the migration: the Company''s orders for a godly plantation,
+    its hiring of ministers, and the Humble Request in which the departing leaders call the
+    Church of England ''our dear mother''. Primary institutional voice, clean OCR, ready to
+    quote once verified against this file; Young''s notes are not the planters'' words. The
+    author slug names the Company; the first-pass staging used admonition-to-parliament and
+    dedham-classis for corporate authors in the same way.
+
+    '
+  source_file: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
+- row_id: young-alexander_chronicles-of-the-first-planters-1623-1636_1846--the-planters-own-narratives-and-letters-1629-1636-higginson-s-journal-
+  work: 'The planters'' own narratives and letters, 1629-1636: Higginson''s journal and New-England''s
+    Plantation, Dudley''s letter to the Countess of Lincoln, Roger Clap''s memoirs, Cotton''s
+    letters and reasons for removal (with Whiting''s life of Cotton), Richard Mather''s journal,
+    Thacher''s shipwreck'
+  author: massachusetts-bay-planters
+  locus: Higginson from about file line 10842; Dudley from about 14899; Clap from about 17433;
+    Cotton from about 21169; Mather from about 22512; Thacher following; to Shepard's memoir
+    at 24707
+  role: tradition
+  confidence: assigned
+  note: 'First-person voices of the crossing and the first winters: a minister''s sea journal,
+    the deputy governor''s sober letter home, a layman''s memoirs of hunger and godliness,
+    Cotton''s reasons for leaving Boston in Lincolnshire. Each document''s own writer is named
+    in its chapter heading; the collective slug stands for the compilation, and a quote record
+    names the individual. Whiting''s life of Cotton (written after 1652) is a later memoir,
+    not Cotton''s own words. Primary voice, clean OCR.
+
+    '
+  source_file: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
 - row_id: perkins_golden-chaine-and-treatises_legat1600--a-golden-chaine-or-the-description-of-theologie
   work: 'A Golden Chaine: or, the Description of Theologie (with Beza''s table for comforting
     afflicted consciences)'
@@ -461,6 +641,19 @@ works:
 
     '
   source_file: shepard_autobiography_adams1832.txt
+- row_id: young-alexander_chronicles-of-the-first-planters-1623-1636_1846--thomas-shepard-s-memoir-of-his-own-life-the-autobiography-in-young-s-1
+  work: Thomas Shepard's memoir of his own life (the autobiography), in Young's 1846 text
+  author: shepard
+  locus: CHAPTER XXIV from file line 24707 to the Index at 27724
+  role: tradition
+  confidence: provisional
+  note: 'A second printing of the autobiography already vendored from the 1832 Adams edition
+    (shepard_autobiography_adams1832.txt), from the same manuscript tradition; useful as a
+    cross-check witness for a quotation. Provisional because the 1832 file holds the assigned
+    row. Clean OCR.
+
+    '
+  source_file: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
 - row_id: sibbes_complete-works-v1_grosart1862--grosart-s-memoir-of-richard-sibbes
   work: Grosart's Memoir of Richard Sibbes, D.D. (1862)
   author: sibbes
@@ -624,6 +817,19 @@ works:
 
     '
   source_file: westminster-assembly_confession-catechisms-standards_nelson1877.txt
+- row_id: young-alexander_chronicles-of-the-first-planters-1623-1636_1846--white-s-planters-plea-1630-and-hubbard-s-narrative-of-the-first-planti
+  work: White's Planters' Plea (1630) and Hubbard's narrative of the first planting
+  author: white-john-dorchester
+  locus: CHAPTER I from file line 271 and CHAPTER II to about 984
+  role: context
+  confidence: provisional
+  note: 'John White of Dorchester, the English promoter of the colony, arguing the lawfulness
+    of the plantation from England; and Hubbard''s later (1680s) narrative. Context: the English
+    sponsor''s apologia and a second-generation history, not the planters'' own voice. The
+    slug distinguishes White of Dorchester from any other John White; provisional.
+
+    '
+  source_file: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
 - row_id: winthrop_journal-v1_hosmer1908--winthrop-s-journal-history-of-new-england-vol-i-1630-1640
   work: Winthrop's Journal, 'History of New England', Vol. I (1630-1640)
   author: winthrop
@@ -639,3 +845,18 @@ works:
 
     '
   source_file: winthrop_journal-v1_hosmer1908.txt
+- row_id: zurich-letters_first-series-1558-1579_robinson1842--the-zurich-letters-first-series-the-vestiarian-and-discipline-letters-
+  work: 'The Zurich Letters, first series: the vestiarian and discipline letters of Sampson,
+    Humphrey, Grindal, Horne and Cox, 1565-1575'
+  author: zurich-letters
+  locus: 'within the English series (867 to about 17282): the letters dated 1565 to 1575 to
+    Bullinger and Gualter, and the Appendix replies from about 17282'
+  role: context
+  confidence: provisional
+  note: 'The surplice controversy of 1565-1566 from the side of the men who first refused
+    and of the bishops who enforced it, with Bullinger''s 1566 letter to Horne that the bishops
+    printed against the nonconformists. Context for the Puritan world''s own voices (the Admonition,
+    the Dedham minutes); provisional, placed without that world''s own reading.
+
+    '
+  source_file: zurich-letters_first-series-1558-1579_robinson1842.txt

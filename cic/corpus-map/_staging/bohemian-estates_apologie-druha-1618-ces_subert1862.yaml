@@ -1,0 +1,13 @@
+source_file: bohemian-estates_apologie-druha-1618-ces_subert1862.txt
+assignments:
+- row_id: bohemian-estates_apologie-druha-1618-ces_subert1862--apologie-druh-stav-v-kr-lovstv-esk-ho-1618-ubert-s-edition-of-1862
+  work: Apologie druhá stavův království Českého (1618), Šubert's edition of 1862
+  author: bohemian-estates
+  locus: the editor's preface dated 4 May 1862 at file line 214; Seznam příloh at file line 221
+  atlas_ids:
+  - czech-churches-last-century
+  role: tradition
+  confidence: assigned
+  note: 'The Bohemian Protestant estates'' Second Apology of 1618 in Czech, with its documents: the estates sub
+    utraque speaking for themselves at the revolt. Readable but noisy OCR; quotable once checked against the page
+    image. Role tradition.'

@@ -58,6 +58,37 @@ works:
     census window; provisional on window. Translation of Schultz's German Kurze Fragen; the
     German is not vendored. Check Rupp's rendering against a German edition before quoting.
   source_file: schultz-christopher_short-questions-christian-doctrine_rupp1863.txt
+- row_id: schwenckfeld_christlicher-sendbrieff-vom-gebet-deu_1547--ain-christlicher-sendbrieff-vom-gebeet-1547
+  work: Ain Christlicher Sendbrieff ... Vom Gebeet (1547)
+  author: schwenckfeld
+  locus: title page at file line 11; opening of the letter at file line 74
+  role: tradition
+  confidence: assigned
+  note: Schwenckfeld on prayer, 1547, in his own words inside the window. Readable microfilm
+    OCR (about 0.8 word-like); quotable once checked against the page image. Role tradition.
+    German; no public-domain English exists.
+  source_file: schwenckfeld_christlicher-sendbrieff-vom-gebet-deu_1547.txt
+- row_id: schwenckfeld_auslegung-ersten-capitels-zacharias-deu_1547--au-legung-des-ersten-capitels-des-propheten-zacharia-1547
+  work: Außlegung des Ersten Capitels des Propheten Zacharia (1547)
+  author: schwenckfeld
+  locus: title page at file line 147
+  role: tradition
+  confidence: assigned
+  note: Schwenckfeld expounding Zechariah 1 of Christ, 1547, inside the window. Readable microfilm
+    OCR (about 0.8 word-like); quotable once checked against the page image. Role tradition.
+    German; no English exists.
+  source_file: schwenckfeld_auslegung-ersten-capitels-zacharias-deu_1547.txt
+- row_id: schwenckfeld_bekandtnuss-vom-hayligen-sacrament-deu_1534--bekandtnu-vom-hailigen-sacrament-1534-enlarged-printing
+  work: Bekandtnuß vom hailigen Sacrament (1534, enlarged printing)
+  author: schwenckfeld
+  locus: title page motto and "M. D. XXXIIII" at file line 68; Vorred at file line 128
+  role: tradition
+  confidence: provisional
+  note: 'Schwenckfeld''s confession on the sacrament, 1534: before the window, but the teaching
+    behind the community''s suspension of the Supper. Readable microfilm OCR (about 0.75 word-like);
+    quotable once checked against the page image. Role tradition, provisional for the window
+    caveat. German; no English exists.'
+  source_file: schwenckfeld_bekandtnuss-vom-hayligen-sacrament-deu_1534.txt
 - row_id: schwenckfeld_corpus-schwenckfeldianorum-v1-earliest-letters-deu-eng_hartranft1907--earliest-letters-1520-1524
   work: 'Corpus Schwenckfeldianorum, vol. I: A Study of the Earliest Letters of Caspar Schwenckfeld
     von Ossig (Documents i-vii, 1520-1524)'
@@ -74,6 +105,17 @@ works:
     matter are clean. Volume I only; the 1540 Great Confession is in a later volume not found
     on a reachable host.'
   source_file: schwenckfeld_corpus-schwenckfeldianorum-v1-earliest-letters-deu-eng_hartranft1907.txt
+- row_id: schwenckfeld_ander-verantwortung-auff-melanchthon-deu_1556--die-ander-verantwortung-auff-philippi-melanthonis-beschuldigung-1556
+  work: Die ander Verantwortung auff Philippi Melanthonis Beschuldigung (1556)
+  author: schwenckfeld
+  locus: title in capitals at the head at file line 11; "M. D. LVI" on the title page at file
+    line 68
+  role: tradition
+  confidence: assigned
+  note: 'Schwenckfeld answering Melanchthon in 1556, inside the window. SECOND WITNESS: Google
+    OCR of Fraktur, garbled throughout; nothing quotable until read on the page images. Role
+    tradition. German; no English exists.'
+  source_file: schwenckfeld_ander-verantwortung-auff-melanchthon-deu_1556.txt
 - row_id: schwenckfeld_heavenly-balm-divine-physician_anspach1858--heavenly-balm
   work: The Heavenly Balm and the Divine Physician (Schwenckfeld; Anspach 1858, in a 2024
     re-setting)
@@ -86,7 +128,9 @@ works:
     and blood in the Word as the balm (Chapter 20), in an 1858 English translation. Second
     witness: the file is the OCR of a 2024 re-typeset print, not a scan of 1858, and its wording
     may be modernised. Date of composition not stated in the file and not checked; provisional
-    on window.'
+    on window. Ruled by the project lead, October 2026: second witness only, because the vendored
+    text is OCR of a 2024 re-setting whose wording may differ from the 1858 printing; quotable
+    once an 1858 scan is vendored.'
   source_file: schwenckfeld_heavenly-balm-divine-physician_anspach1858.txt
 - row_id: sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622--hohe-geistreiche-lehren-hohes-lied
   work: Hohe geistreiche Lehren vnd Erklärungen vber die fürnembsten Sprüche dess Hohen Lieds

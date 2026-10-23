@@ -15,6 +15,19 @@ works:
     (Andreae, Crusius and others), not Wittenberg''s faculty, and the volume was printed at
     Wittenberg in 1584; so the fit to this entry is provisional. Latin only in this file.'
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+- row_id: anjou_history-of-the-reformation-in-sweden_mason1859--the-history-of-the-reformation-in-sweden-anjou-1850-mason-s-2
+  work: The History of the Reformation in Sweden (Anjou, 1850; Mason's English, 1859)
+  author: anjou
+  locus: Book I, chapters III-IV (Olaus Petri 'the friend and pupil of Luther', the first
+    news of Wittenberg; CONTENTS at file line 162 gives pp. 61-86)
+  role: context
+  confidence: provisional
+  note: 'Wittenberg''s pupils carrying the reform to Sweden, as a Swedish historian tells
+    it. Placed on that relation only, mirroring the needs-ruling rows the first pass staged
+    for the Swedish originals; secondary.
+
+    '
+  source_file: anjou_history-of-the-reformation-in-sweden_mason1859.txt
 - row_id: arndt_true-christianity_boehm-schaeffer1868--true-christianity-wahres-christentum-bohm-schaeffer-english-3
   work: True Christianity (Wahres Christentum), Böhm-Schaeffer English 1868
   author: arndt

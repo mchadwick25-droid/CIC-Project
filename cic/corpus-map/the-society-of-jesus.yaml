@@ -29,6 +29,53 @@ works:
 
     '
   source_file: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908.txt
+- row_id: almeida_historia-aethiopiae-liber-5-8-por_beccari1907--historia-aethiopiae-books-v-to-viii-2
+  work: Historia Aethiopiae, Books V to VIII (Almeida), Portuguese text edited by Beccari
+  author: almeida
+  locus: Livro V from file line 710; Livro VIII from about 22961
+  role: tradition
+  confidence: provisional
+  note: 'The Ethiopian mission in the Society''s own historian''s words, from the patriarch''s
+    arrival to the expulsion. Placed on window and subject without reading the whole volume;
+    role tradition because the author is a Jesuit narrating a Jesuit mission, for the Jesuit
+    world''s builders to confirm, as the Paez and Mendes rows already are.
+
+    '
+  source_file: almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt
+- row_id: archpriest-controversy_documents-v1-1597-1601_law1896--the-archpriest-controversy-vol-i-the-jesuit-and-archpriest-side-garnet
+  work: 'The Archpriest Controversy, Vol. I: the Jesuit and Archpriest side (Garnet''s circular
+    of 1598, Parsons to Garnet, Blackwell''s letters and orders, Holtby''s letter to a lady,
+    1601)'
+  author: archpriest-controversy
+  locus: 'within groups I to IV (file lines about 1186 to the end): Garnet''s circular and
+    Parsons'' letter in group I, Blackwell''s letters in groups II and IV, Holtby''s letter
+    in group IV'
+  role: tradition
+  confidence: provisional
+  note: 'The other side of the same quarrel in its own words: Garnet and Parsons defending
+    the Society''s conduct of the mission, Blackwell asserting his authority, Holtby''s long
+    letter from the North. Tradition for the recusant world (the Jesuit party was part of
+    it); for the Society of Jesus a native claim too, placed provisional until that world''s
+    thread reads it. Primary voice, clean OCR.
+
+    '
+  source_file: archpriest-controversy_documents-v1-1597-1601_law1896.txt
+- row_id: archpriest-controversy_documents-v2-1601-1603_law1898--the-archpriest-controversy-vol-ii-the-brevis-relatio-and-the-latin-and
+  work: 'The Archpriest Controversy, Vol. II: the Brevis Relatio and the Latin and Italian
+    memorials of 1602 (the Appellants'' case, Parsons'' responses, the Declaratio status Catholicorum
+    in Anglia, the memorials on liberty of conscience, the papal sentence on schism)'
+  author: archpriest-controversy
+  locus: group II from about file line 3149 to the letters at about 8064
+  role: tradition
+  confidence: provisional
+  note: 'Both parties stating their case to Rome in Latin and Italian: the seculars'' account
+    of the mission since 1587 and their plea for a bishop and for liberty of conscience, Parsons''
+    answers, the Inquisition''s sentence. Original-language primary documents with Law''s
+    English headings only; a quote record would hold the Latin. Provisional on the Society
+    of Jesus side, as in vol. I. Clean OCR.
+
+    '
+  source_file: archpriest-controversy_documents-v2-1601-1603_law1898.txt
 - row_id: boero_life-of-peter-faber_coleridge1873--the-life-of-the-blessed-peter-favre-faber-of-the-society-of
   work: The Life of the Blessed Peter Favre (Faber), of the Society of Jesus
   author: boero
@@ -211,6 +258,15 @@ works:
   note: Second half of the Society's own account of its first Philippine decades, and Chirino's
     grant for the Jesuit seminary at Cebu.
   source_file: blair-robertson_philippine-islands-v13_1904.txt
+- row_id: cocks_diary-v1_thompson1883--diary-jesuits
+  work: Diary of Richard Cocks, vol. I, the passages on the Jesuits and friars in Japan
+  author: cocks
+  locus: the lines naming Jesuits and padres (about 35 lines, from 609 onward)
+  role: context
+  confidence: provisional
+  note: The Society seen by a hostile English merchant in Japan, 1615-1617; placed on a word
+    count only.
+  source_file: cocks_diary-v1_thompson1883.txt
 - row_id: colin_labor-evangelica-t1-spa_pastells1900--colin-labor-evangelica-tomo-1-2
   work: Labor evangelica (Madrid 1663), Parte primera, drawn from Chirino's manuscripts, Pastells's
     edition of 1900, Tomo I
@@ -327,6 +383,19 @@ works:
 
     '
   source_file: gerard-john_condition-of-catholics-under-james-i_morris1871.txt
+- row_id: gouvea_jornada-do-arcebispo-de-goa-por_1606--jornada-do-arcebispo-de-goa-the-serra-and-the-synod-of-diamper-2
+  work: 'Jornada do Arcebispo de Goa (Gouvea, 1606): the Jesuit college and prelates of the
+    Serra'
+  author: gouvea
+  locus: whole file; the Jesuits of Vaipicota and the bishopric of Angamale named from the
+    contents list (file line about 249) onward
+  role: context
+  confidence: provisional
+  note: 'An Augustinian''s account of a campaign in which the Jesuit college and the Jesuit
+    bishop of the Serra were the instruments. Placed on subject; not read for the Jesuit entry.
+
+    '
+  source_file: gouvea_jornada-do-arcebispo-de-goa-por_1606.txt
 - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--holtby-on-persecution-in-the-north-2
   work: Father Richard Holtby on Persecution in the North
   author: holtby-richard
@@ -1138,6 +1207,19 @@ works:
   note: A Jesuit's own account of the Ethiopian mission in the last years before the expulsion.
     Placed on window and subject; the Jesuit world's builders will weigh it.
   source_file: lobo_voyage-to-abyssinia_johnson1735.txt
+- row_id: ludolf_new-history-of-ethiopia_jp1682--new-history-of-ethiopia-in-four-books-2
+  work: A New History of Ethiopia (Ludolf, 1682), Book II on the Jesuit patriarchs and Book
+    III on the separation from the Roman church
+  author: ludolf
+  locus: Book II contents from file line 445; Book III from 14092
+  role: context
+  confidence: provisional
+  note: 'A Protestant scholar''s account of the Jesuit mission''s failure, written against
+    the Jesuit histories it draws on. Placed on subject without a close read; for the Jesuit
+    world''s builders to weigh.
+
+    '
+  source_file: ludolf_new-history-of-ethiopia_jp1682.txt
 - row_id: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908--expeditio-aethiopica-books-i-and-ii-mend-2
   work: Expeditio Aethiopica, Books I and II (Mendes), Latin text edited by Beccari
   author: mendes
@@ -1429,6 +1511,18 @@ works:
     for the primacy of Rome. Provisional: the Jesuit world is 1540-1650 and may not want a
     Ruthenian-language edition.'
   source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+- row_id: skarga_synod-brzeski-i-obrona-pol_rzepecki1874--piotr-skarga-synod-brzeski-the-synod-of-brest-with-the-royal-2
+  work: Piotr Skarga, Synod Brzeski (the Synod of Brest, with the royal envoys' address) and
+    Obrona Synodu Brzeskiego (the Defence of the Synod of Brest), 1596-1597, in the 1874 Poznan
+    reprint
+  author: skarga
+  locus: same as the Brest row
+  role: context
+  confidence: provisional
+  note: A Jesuit's defence of a union the Society helped to make, mirroring the provisional
+    Society of Jesus row already on Skarga's 1577 treatise in RIB vol. 7. The Jesuit thread
+    decides.
+  source_file: skarga_synod-brzeski-i-obrona-pol_rzepecki1874.txt
 - row_id: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606--constitutiones-societatis-iesu-cum-earum-declarationibus
   work: Constitutiones Societatis Iesu, cum earum Declarationibus
   author: society-of-jesus

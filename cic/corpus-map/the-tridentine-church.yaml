@@ -300,6 +300,16 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- row_id: gibbings_records-of-the-roman-inquisition-minorite-friar_1853--sentence-tridentine
+  work: Sentence of the Roman Inquisition against a Minorite friar, 1564 (Gibbings, 1853)
+  author: gibbings
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'A Roman Inquisition sentence of 1564 with its list of the friar''s heresies, in English:
+    a small outside witness to the Holy Office in the year the Council closed. Placed provisionally;
+    the editor''s polemic is not a source.'
+  source_file: gibbings_records-of-the-roman-inquisition-minorite-friar_1853.txt
 - row_id: giussano_life-of-st-charles-borromeo-v1_1884--life-of-st-charles-borromeo-vol-i-2
   work: The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. I (Books I-IV)
   author: giussano
@@ -337,6 +347,38 @@ works:
 
     '
   source_file: giussano_vita-di-s-carlo-borromeo-ita_1855.txt
+- row_id: glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895--bishop-nils-glostrup-s-visitations-of-the-dioceses-of-oslo-2
+  work: Bishop Nils Glostrup's visitations of the dioceses of Oslo and Hamar, 1617-1637 (Danish;
+    Daae and Huitfeldt-Kaas, 1895)
+  author: glostrup
+  locus: the editors' note on Glostrup's many years of study at Rostock and Leiden (file line
+    836), and the examination at lines 1765-1772 of men charged with having studied at Jesuit
+    schools and holding the Jesuit and papist religion
+  role: context
+  confidence: provisional
+  note: 'One examination in the visitation book puts to accused men the charges that they
+    studied at Jesuit schools, hold the Jesuit and papist religion, and mislead the common
+    people: the Tridentine church''s reach into the Lutheran north as a Norwegian bishop policed
+    it. Placed on that locus only; slight.
+
+    '
+  source_file: glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895.txt
+- row_id: jewel_apologia-ecclesiae-anglicanae-lat_1838--epistola-ad-virum-nobilem-d-scipionem-patricium-venetum-de-concilio-tr
+  work: Epistola ad virum nobilem D. Scipionem, patricium Venetum, de Concilio Tridentino
+    (1562)
+  author: jewel
+  locus: from about file line 5562 to the end of the file
+  role: tradition
+  confidence: provisional
+  note: 'Jewel''s Latin letter explaining why the English church would not attend Trent: the
+    English side''s own statement to a Venetian correspondent. Tradition for the English Reformation
+    (its own bishop writing), context in substance for the Tridentine Church as a contemporary
+    Protestant refusal of the council; a single row with both entries, provisional, because
+    the Tridentine world''s thread has not read it. Same second-witness OCR caveat as the
+    Apologia.
+
+    '
+  source_file: jewel_apologia-ecclesiae-anglicanae-lat_1838.txt
 - row_id: jewel_apology-of-the-church-of-england_bacon-morley1888--the-apology-of-the-church-of-england-lady-bacon-s-translation-2
   work: The Apology of the Church of England, Lady Anne Bacon's translation of 1564
   author: jewel
@@ -383,6 +425,25 @@ works:
     as its tradition text; cross-linked here as context only. Placed on a mention count; not
     read.
   source_file: lainez_epistolae-et-acta-v8-lat_1917.txt
+- row_id: luis-de-granada_of-prayer-and-meditation_hopkins1582--of-prayer-and-meditation
+  work: Of Prayer, and Meditation (Libro de la oracion y meditacion), fourteen meditations
+    for the seven days of the week with the treatise on prayer, Elizabethan English of 1582
+  author: luis-de-granada
+  locus: whole file; the translator's epistle from line 11 (running head "The Translatours");
+    the morning meditations from line 4812 ("Mondaie morninge") and the night meditations
+    to about line 27900 ("Sondaie nighte" at 26623-27875); the treatise on prayer with its
+    numbered "aduises" from about line 28038; the Table from about line 32900 to "The ende
+    of the Table" at line 33338
+  role: tradition
+  confidence: assigned
+  note: 'The lay devotional voice the Tridentine dossier named as missing: a Spanish Dominican''s
+    manual of meditation and prayer, the most widely read Catholic devotional book of the
+    later sixteenth century, here in the English made for English Catholics and printed at
+    Paris in 1582. Translator read from garbled OCR as Richard Hopkins; confirm against the
+    page image. The voice is the translator''s Elizabethan English of the Spanish, not Granada''s
+    own words; the Spanish original is not in the corpus. OCR readable with microfilm misreads
+    (long s normalised to s); quote only after checking the page image.'
+  source_file: luis-de-granada_of-prayer-and-meditation_hopkins1582.txt
 - row_id: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858--de-bijenkorf-der-h-roomsche-kerke-2
   work: De Bijenkorf der H. Roomsche Kerke (1569)
   author: marnix
@@ -395,6 +456,37 @@ works:
 
     '
   source_file: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858.txt
+- row_id: marnix_beehive-of-the-romish-church_gilpin1623--the-bee-hive-of-the-romish-church-gilpin-s-english-of-the-2
+  work: The Bee Hive of the Romish Church (Gilpin's English of the Bijenkorf, 1579; the 1623
+    printing)
+  author: marnix
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'A Reformed satire on the Roman church of the Tridentine generation, in the English
+    through which Elizabethan readers met it. Mirrors the context row staged for the Dutch
+    file; not read against that world''s Doc_02. Second witness.
+
+    '
+  source_file: marnix_beehive-of-the-romish-church_gilpin1623.txt
+- row_id: pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846--istoria-libri-17-24
+  work: Istoria del Concilio di Trento (Pallavicino), Libri XVII-XXIV, the Classici Sacri
+    edition of 1846 (Tomo III), the same books as the Parte terza of 1664
+  author: pallavicino
+  locus: whole volume; Libro XVII from line 359 (ARGOMENTO at 362), XVIII from 5881, XIX from
+    13619, XX from 22862, XXI from 31017, XXII from 40166, XXIII from 46628, XXIV from 53223
+    to the end; the legates' letters to Cardinal Borromeo are cited in the footnotes throughout
+    (691 lines name Borromeo)
+  role: context
+  confidence: assigned
+  note: 'The clean witness for the last period of the Council (1562-1563) in Pallavicino:
+    the 1664 Parte terza already vendored (pallavicino_istoria-del-concilio-di-trento-parte3-ita_1664.txt)
+    is garbled in its later half and stands as a second witness; this nineteenth-century reprint
+    reads cleanly at every sample point (word-shaped share 0.98). Orthography modernised by
+    the 1846 editors; for the 1664 wording check that scan''s page images. Same role as the
+    1664 parts: a pro-Curia Jesuit cardinal''s narrative written after the Council against
+    Sarpi, so context, never the Council''s own voice. No English exists.'
+  source_file: pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt
 - row_id: pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664--istoria-del-concilio-di-trento-parte-1
   work: Istoria del Concilio di Trento (Pallavicino, 1664), Parte prima, Libri I-VIII
   author: pallavicino
@@ -431,8 +523,22 @@ works:
     that no English exists: the Italian original is public domain and is now in the corpus;
     there is still no English translation. Scan quality: garbled in the later half; second
     witness. Parts 1 and 2 are the clean witnesses; for the Libri XVII-XXIV (Trent''s last
-    period, 1562-63) a cleaner scan of this volume is a standing want.'
+    period, 1562-63) a cleaner scan of this volume is a standing want. The clean witness for
+    Libri XVII-XXIV is now vendored as pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt
+    (1846 reprint, modernised orthography); this 1664 scan stays the wording witness, checked
+    against its page images.
+
+    '
   source_file: pallavicino_istoria-del-concilio-di-trento-parte3-ita_1664.txt
+- row_id: pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610--relatione-tridentine
+  work: Relatione sommaria della canonizatione di S. Carlo Borromeo (Pena, 1610)
+  author: pena-francisco
+  locus: the acts and ceremonies of the canonisation from about line 3643 to the end
+  role: context
+  confidence: provisional
+  note: The first canonisation of a Tridentine reformer, described from the Roman side; placed
+    as context for the whole-church world on the ceremonial part only.
+  source_file: pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610.txt
 - row_id: pius-iv_profession-of-catholick-faith_anon1734--grounds-of-the-controverted-articles
   work: The "chief Grounds of the controverted Articles" by question and answer (1734)
   author: pius-iv
@@ -640,6 +746,16 @@ works:
     as its tradition text; cross-linked here as context only. Placed on a mention count; not
     read.
   source_file: society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt
+- row_id: teresa-of-avila_libro-de-la-vida-spa_silverio1915--vida-tridentine
+  work: Libro de la Vida (Silverio 1915), the Spanish of the chapters on the confessors and
+    the Inquisition
+  author: teresa-of-avila
+  locus: whole file; placed on the English file's existing row, not read separately
+  role: context
+  confidence: provisional
+  note: The Spanish beside the English row already placed for the Tridentine Church from the
+    Lewis translation; same footing, same caveat.
+  source_file: teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt
 - row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-tridentine
   work: The Book of the Foundations, Teresa's reference to the Council of Trent and the hermits,
     and the editor's note on Trent and enclosure
@@ -680,6 +796,17 @@ works:
     not read through, so provisional. A build decides whether this is voice for the Tridentine
     Church or context.'
   source_file: teresa-of-avila_life_lewis1904.txt
+- row_id: teresa-of-avila_way-of-perfection_stanbrook1919--way-tridentine
+  work: The Way of Perfection, Teresa's counsel to enclosed nuns after Trent
+  author: teresa-of-avila
+  locus: whole file; placed on the title and introduction, not read through for the Tridentine
+    relation
+  role: context
+  confidence: provisional
+  note: A reformed convent's inner rule written in the decade the Tridentine decree on nuns'
+    enclosure took effect; context for the whole-church world on the same footing as the Life
+    and the Foundations.
+  source_file: teresa-of-avila_way-of-perfection_stanbrook1919.txt
 - row_id: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863--the-union-of-brest-documents-1595-1596-2
   work: 'The Union of Brest documents, 1595-1596: the Ruthenian bishops'' articles, their
     professions of faith, the bull Magnus Dominus et laudabilis (Clement VIII) and the acts
@@ -695,3 +822,13 @@ works:
     of the Tridentine papacy toward the Eastern church. Placed on the document type, not on
     a reading of the whole volume; the Tridentine world may want only the bull. Latin only.'
   source_file: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863.txt
+- row_id: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586--vita-tridentine
+  work: Vita Caroli Borromei with Episcopus and Cardinalis (Valier, 1586)
+  author: valier
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: The model bishop of the Tridentine reform described by a fellow Tridentine bishop;
+    placed for the whole-church world as context on the same footing as the other Borromeo
+    Lives, pending the Borromean Milan ruling in that dossier.
+  source_file: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586.txt

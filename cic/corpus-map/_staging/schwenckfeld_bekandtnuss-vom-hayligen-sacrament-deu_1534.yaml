@@ -1,0 +1,13 @@
+source_file: schwenckfeld_bekandtnuss-vom-hayligen-sacrament-deu_1534.txt
+assignments:
+- row_id: schwenckfeld_bekandtnuss-vom-hayligen-sacrament-deu_1534--bekandtnu-vom-hailigen-sacrament-1534-enlarged-printing
+  work: Bekandtnuß vom hailigen Sacrament (1534, enlarged printing)
+  author: schwenckfeld
+  locus: title page motto and "M. D. XXXIIII" at file line 68; Vorred at file line 128
+  atlas_ids:
+  - schwenckfelders
+  role: tradition
+  confidence: provisional
+  note: 'Schwenckfeld''s confession on the sacrament, 1534: before the window, but the teaching behind the community''s
+    suspension of the Supper. Readable microfilm OCR (about 0.75 word-like); quotable once checked against the page
+    image. Role tradition, provisional for the window caveat. German; no English exists.'

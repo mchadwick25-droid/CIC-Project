@@ -1,0 +1,31 @@
+source_file: gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt
+
+assignments:
+  - row_id: gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644--histoire-ecclesiastique-des-eglises-reformees-des-valees-de
+    work: "Histoire ecclesiastique des Eglises Reformees des Valees de Piedmont, autrefois appelees Eglises Vaudoises, 1160 to 1643: the first printing, Geneva 1644"
+    author: gilles
+    locus: "whole file; the dedication to the valleys' pastors, elders and deacons from about line 60; the 1532 Angrogna synod and the confirmation of its conclusion around line 2831; no chapter headings survive in the OCR"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: tradition
+    confidence: assigned
+    note: >
+      The first printing of the insider history already vendored in the clean 1881 re-edition (two
+      volumes). Vendored as the wording witness for the 1644 text: a quote taken from the 1881
+      edition is confirmed here against the first printing's own spelling, with the page image as
+      the check. SECOND WITNESS only: the OCR reads the long s as f, interchanges u and v, and
+      loses every chapter heading, so passages are found by phrase, not by chapter. The 1881
+      edition remains the quotable text.
+  - row_id: gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644--histoire-ecclesiastique-des-eglises-reformees-des-valees-de-2
+    work: "Histoire ecclesiastique des Eglises Reformees des Valees de Piedmont, autrefois appelees Eglises Vaudoises, 1160 to 1643: the first printing, Geneva 1644"
+    author: gilles
+    locus: "the medieval chapters (1160 to the 1520s) in the first part of the file, found by phrase against the 1881 tome 1"
+    atlas_ids:
+      - waldensians-in-the-alps
+    role: tradition
+    confidence: provisional
+    note: >
+      Mirrors the 1881 tome 1 row for the medieval Waldensian entry: Gilles's account of the
+      valleys before the union, written in 1644 from the valleys' own memory. Provisional on the
+      same ground as the 1881 row (the dating of the 'ancient' documents is contested). Second
+      witness.
