@@ -808,3 +808,51 @@ works:
           - "cic:underhill_jacopone-da-todi-poet-and-mystic_beck1919.txt:the selection of laude after the biography"
     notes: >
       Both files are placed needs-ruling on the Franciscan worlds because only the last years of Jacopone's life (to 1306) fall in the Era VI window.
+
+  - work_id: birgitta-revelationes
+    title: "The Revelations of Saint Birgitta"
+    author: birgitta
+    original_language: Latin (the Revelationes, from Birgitta's Swedish)
+    composed: "before Birgitta's death in 1373"
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "none (Latin text of the Torquemada recension, with notes by Consalvo Duranti)"
+        year: 1628
+        language: Latin
+        recension: "Torquemada recension (Duranti's edition)"
+        items:
+          - "cic:birgitta_revelationes-lat_duranti1628.txt:whole-file"
+      - translator: "anonymous fifteenth-century English translator (Garrett MS.); edited by W. P. Cumming"
+        year: 1929
+        language: Middle English
+        recension: "Latin Revelationes (the manuscript's own selection of books and chapters)"
+        items:
+          - "cic:birgitta_revelations-enm_cumming1929.txt:whole-file"
+
+  - work_id: catherine-of-siena-dialogo
+    title: "The Dialogue (Treatise of Divine Providence) of Catherine of Siena"
+    author: catherine-of-siena
+    original_language: Italian
+    composed: "1370 (completed in the year 1370, per the translator's title page)"
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "none (Italian text, Matilde Fiorilli's edition following a Sienese codex)"
+        year: 1912
+        language: Italian
+        recension: "Fiorilli's edition (Laterza, 1912)"
+        items:
+          - "cic:catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt:whole-file"
+      - translator: "Algar Thorold"
+        year: 1896
+        language: English
+        recension: "translated from the Italian; the edition Thorold used is not named in the volume's title page"
+        items:
+          - "cic:catherine-of-siena_dialogue_thorold1896.txt:whole-file"
