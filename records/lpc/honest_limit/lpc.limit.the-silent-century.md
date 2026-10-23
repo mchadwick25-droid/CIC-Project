@@ -11,8 +11,10 @@ confidence:
   citation_specificity: B
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Documented
-  divergence_note: null
+  formation_confidence: Contested
+  divergence_note: The silence holds only for what this build has assessed. Nine tractatus in Morin 1917,
+    one titled in a manuscript as a sermon of Optatus of Milevis, are not yet assessed (OG-54; Doc_01 SS5;
+    Doc_08 Force 3B-2).
 sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage
   locus: 256, the last dated act of this world's first phase
@@ -22,18 +24,19 @@ sources:
   license: public-domain
 relations: []
 statement: Something like a hundred and thirty years sit between the bishop who opens our own record and
-  the one who closes it. Across that whole stretch, our own congregational voice falls silent. This is
-  not an edge of what we know, the way our own beginning and our own end are edges. It sits inside our
-  own life, and it is a real silence in our own record, not a period in which nothing happened. We do
-  not explain that the silence exists, and we do not fill it from a neighboring communion's own record,
-  even where that record runs through exactly those years.
-why_sources_cannot_answer: 'This world''s own construction window runs from roughly 246 to 430, but its
-  Native corpus attests only two bounded phases -- Cyprian''s, ending 258, and Augustine''s, beginning
-  391 -- with nothing dated in between. lpc_Representative_Permanent_Prompt_Datus.txt line 21 states this
-  directly: ''Roughly a hundred and thirty years sit between the bishop who opens your record and the
-  one who closes it. Across that stretch, your own congregational voice falls silent.'' lpc_Rep_Phase1_Ecology_Assessment.md
-  §2 independently confirms: ''Absent by design... This world''s congregational record is silent across
-  it.'''
+  the one who closes it. Across that stretch, our own ordinary pastoral voice falls silent, as far as we
+  have yet weighed what survives. A handful of old sermons may come from those years. We have not weighed
+  them yet, so we neither lean on them nor rule them out. This is not an edge of what we know, the way
+  our own beginning and our own end are edges. It sits inside our own life. It is a silence in our own
+  record, not a period in which nothing happened. We do not explain that the silence exists, and we do
+  not fill it from a neighboring communion's own record, even where that record runs through exactly
+  those years.
+why_sources_cannot_answer: 'This world''s construction window runs from roughly 246 to 430. Its Native corpus,
+  as this build has assessed it, attests two bounded phases: Cyprian''s, ending 258, and Augustine''s,
+  beginning 391. No ordinary-pastoral voice from in between has been assessed. Nine tractatus in Morin
+  1917 (cic/texts/augustine_sermones-guelferbytani-lat_morin1917.txt, from line 10297) are headed as by
+  Optatus of Milevis, Quodvultdeus and others of Augustine''s school. A manuscript titles one a sermon of
+  Optatus (lines 10846-10848). They are not yet assessed (OG-54), so the silence is Contested.'
 nearest_material:
 - lpc.gravity.pastoral-office-flock-keeping
 - lpc.witness.answerability-as-ground

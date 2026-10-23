@@ -31,7 +31,7 @@
 | **2B-5** | Ongoing / Internal | Transmission — survival on the institutionally dominant side, through a 19th-century translation apparatus | Documented | — | → 3B-2 (continues) | ✓ | **YES** |
 | **3A-1** | Ending-Transforming / External | The Vandal invasion (from 429) and the siege of Hippo | Documented | G1 | → 3B-1 (coincides with, does not cause) | ✓ | no |
 | **3B-1** | Ending-Transforming / Internal | The corpus outliving the world | Widely Accepted | G7 | ← 2A-4 (produces); ← 3A-1 (coincides with, does not cause) | ✓ | no |
-| **3B-2** | Ending-Transforming / Internal | Transmission — an asymmetrically attested span and a 133-year silence | Documented | — | ← 2B-4 (is the sole instance of); ← 2B-5 (continues) | ✓ | **YES** |
+| **3B-2** | Ending-Transforming / Internal | Transmission — an asymmetrically attested span and a 133-year silence | Contested | — | ← 2B-4 (is the sole instance of); ← 2B-5 (continues) | ✓ | **YES** |
 
 **17 forces** — 1A (2), 1B (3), 2A (4), 2B (5), 3A (1), 3B (2). Every cell populated; **every force carries a written Layer 2**.
 
@@ -39,10 +39,10 @@
 
 ## 2. By Confidence Level
 
-**Documented** — 14: `1A-1`, `1B-1`, `1B-2`, `2A-1`, `2A-2`, `2A-3`, `2A-4`, `2B-1`, `2B-2`, `2B-3`, `2B-4`, `2B-5`, `3A-1`, `3B-2`
+**Documented** — 13: `1A-1`, `1B-1`, `1B-2`, `2A-1`, `2A-2`, `2A-3`, `2A-4`, `2B-1`, `2B-2`, `2B-3`, `2B-4`, `2B-5`, `3A-1`
 **Widely Accepted** — 3: `1A-2`, `1B-3`, `3B-1`
 **Dominant Modern Reconstruction** — 0: *none*
-**Contested** — 0: *none*  ·  *carried as a secondary element by:* `2B-3`
+**Contested** — 1: `3B-2`  ·  *carried as a secondary element by:* `2B-3`
 **Inferential/Thin** — 0: *none*
 
 **Totals reconcile: 17 classified + 0 unclassified = 17 forces.** That arithmetic is printed because a classified/unclassified split silently summing to the wrong total is not otherwise visible. **`2B-3` carries `Contested` as a secondary element** — its external change is Documented; what is contested is the placement of its consequence as internal, and the force entry now says so rather than only §7's summary.

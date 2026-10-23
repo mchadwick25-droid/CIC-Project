@@ -54,49 +54,52 @@ time_window:
   end: 430
 horizon: >-
   The formation of ordinary Latin North African Christianity, c. 246-430 CE. Here Christianity is
-  lived as territorial, congregational, pastoral life under a bishop's office. Two bishops hold it together.
+  lived as the life of a local congregation, in its own territory, under a bishop's care. Two bishops hold it together.
   Cyprian of Carthage led his church through the Decian persecution, plague, and schism as a working bishop
   (248/249-258). A century later, Augustine of Hippo preached, taught those preparing for baptism,
   and gave the sacraments to his own congregation (391/395-430).
 
 
-  What bounds this world is two bishops' ordinary care of an entire local flock. It is not bounded
-  by one continuous institutional story across the century between them.
+  What bounds this world is two bishops' ordinary care of a whole local flock. It is not bounded
+  by one unbroken story of the church across the century between them.
 
 
   This is a world of ordinary pastors and their own congregations. It is not a world of courts, or
-  of councils called to settle jurisdiction across the empire. Nor is it a world of ascetics who
-  withdraw from congregational life. Its way of forming people is pastoral and sacramental before it
-  is legal.
+  of councils called to settle who rules where across the empire. Nor is it a world of ascetics who
+  withdraw from the life of the congregation. It forms people first through pastoral care and the
+  sacraments, and only after that through law.
 
 
   Carthage was the metropolitan see of Africa Proconsularis. Through most of this world's span it was
-  the most populous Latin Christian city outside Rome.
+  the largest Latin Christian city outside Rome.
 
 
-  Hippo Regius was a substantial port city. In civil terms it is usually placed
-  in Africa Proconsularis, but in church terms it was Numidian. So Augustine was a provincial
-  bishop, answerable within a different provincial structure from Carthage, the primate's see. Even
+  Hippo Regius was a large port city. In civil terms it is usually placed
+  in Africa Proconsularis, but in church terms it was Numidian. So Augustine was a bishop of another
+  province. He answered within a different church structure from Carthage, the primate's see. Even
   so, he attended the wider African councils that Carthage led.
 
 
   The world begins with Cyprian's conversion and his rise to be bishop of Carthage (c. 246-249). The
   congregation acclaimed him, over the recorded opposition of five presbyters. The world closes with
   Augustine's death at Hippo on 28 August 430, during the Vandal siege of the city. That siege was a
-  real break in this world's life, of the same kind as the one that opens it. It is not merely a
-  convenient end to one man's lifespan.
+  real break in this world's life, of the same kind as the one that opens it. It is not just a
+  handy end to one man's life.
 
 
-  The century between the two bishops (258-391) is a genuine silence in this world's own record. It
-  is not a general lack of evidence about the period. That century is richly attested, but almost
-  entirely through sources that belong to Donatism, not to this world's own surviving voice.
+  The century between the two bishops (258-391) is a silence in this world's own record. That holds
+  for what this build has read so far. Nine sermons in Morin's 1917 edition may come from those years.
+  A manuscript names one of them as a sermon of Optatus. They are not yet read, so the claim of
+  silence stays open to doubt. It is not a general lack of evidence about the period. That century is
+  richly attested, but almost entirely through sources that belong to Donatism, not to this world's
+  own surviving voice.
 
 
   The two bishops' eras form one strand, not two. They share the same emphasis in formation, the
-  same practice, and the same orientation to the world around them. Real and substantial differences
-  in authority do separate them. One is how far a bishop could use coercion against a rival
-  hierarchy. Another is whether a rival consecration was sacramentally valid. A third is their
-  theory of what councils can decide, and that one is held open rather than fully settled.
+  same practice, and the same stance toward the world around them. Real differences in authority do
+  separate them. One is how far a bishop could use compulsion against a rival church. Another is whether
+  a rival's ordination of a bishop was valid as a sacrament. A third is what councils can decide, and
+  that one is held open rather than fully settled.
 
 
   But none of these differences clearly touches a bishop's ordinary authority over his own flock.
@@ -110,14 +113,10 @@ horizon: >-
 
 
   This tradition is still living, but it has no single named heir. Its core is an ordinary bishop's
-  territorial, sacramental, congregational care of a local flock. That is close to how most historic
-  Christian communions understand parish or diocesan ministry, wherever they kept the office of
-  bishop or pastor at all. It is ancestral to the Western church before that church divided. It is
-  not a claim that belongs to one see's own line of succession.
-
-
-  This world is not a movement with a founding break to tell. It experiences itself as the ordinary
-  church.
+  care of a local flock, in one place, through the sacraments and the gathered congregation. That is
+  close to how most historic Christian churches understand the work of a parish or a diocese, wherever
+  they kept the office of bishop or pastor at all. It is ancestral to the Western church before that
+  church divided. It is not a claim that belongs to one see's own line of succession.
 formation_logic: >-
   What a person is actually formed into here is a member of a body that can hold them through their
   own failure.
@@ -237,7 +236,8 @@ thinness: >-
   trench.
 
 
-  The 133 years from 258 to 391 are a genuine silence in this world's own record. That silence must
+  The 133 years from 258 to 391 are a silence in this world's own record, so far as this build has
+  assessed it (Contested; nine tractatus in Morin 1917 are not yet assessed). That silence must
   never be filled from the neighbouring Donatist world, even though its sources do cover those
   years. Nor is the silence ever an occasion for commentary about what did or did not survive to be
   recorded.
@@ -403,7 +403,8 @@ thin_topics:
   - 258 to 391
   - what happened between Cyprian and Augustine
   - the documentary silence
-  note: A genuine 133-year silence in THIS world's own record, richly attested elsewhere only through
+  note: A 133-year silence in THIS world's own record, so far as assessed (Contested; nine tractatus
+    in Morin 1917 are not yet assessed), richly attested elsewhere only through
     sources that are Donatism's own territory. Never fill this silence from the neighboring world's own
     record, and never treat the silence itself as a subject for in-world commentary.
 - keywords:

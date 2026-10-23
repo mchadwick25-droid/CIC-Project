@@ -376,11 +376,11 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 
 ## Section 7 — Confidence Assessment
 
-**Documented or Widely Accepted.** 1A-1 (Documented), 1A-2 (Widely Accepted), 1B-1 (Documented), 1B-2 (Documented), 1B-3 (Widely Accepted), 2A-1 (Documented), 2A-2 (Documented), 2A-3 (Documented), 2A-4 (Documented), 2B-1 (Documented), 2B-2 (Documented), **2B-3 (Documented, with a contested secondary element — see below)**, 2B-4 (Documented), 2B-5 (Documented), 3A-1 (Documented), 3B-1 (Widely Accepted), 3B-2 (Documented). **All seventeen appear here; `lpc_Force_Index.md` §2 gives the same distribution as counts — 14 Documented, 3 Widely Accepted — and the two views are now reconcilable force by force.**
+**Documented or Widely Accepted.** 1A-1 (Documented), 1A-2 (Widely Accepted), 1B-1 (Documented), 1B-2 (Documented), 1B-3 (Widely Accepted), 2A-1 (Documented), 2A-2 (Documented), 2A-3 (Documented), 2A-4 (Documented), 2B-1 (Documented), 2B-2 (Documented), **2B-3 (Documented, with a contested secondary element — see below)**, 2B-4 (Documented), 2B-5 (Documented), 3A-1 (Documented), 3B-1 (Widely Accepted). **Sixteen appear here and 3B-2 under Contested below; `lpc_Force_Index.md` §2 gives the same distribution as counts — 13 Documented, 3 Widely Accepted, 1 Contested — and the two views are reconcilable force by force.**
 
 **Dominant Modern Reconstruction.** None. **Stated as a finding:** this world's forces are unusually well documented because both phases are anchored in extensive first-person corpora, so no force here rests on a modern reconstruction of events the sources do not carry.
 
-**Contested.** **2B-3** carries a contested element — not the fact of the illegal-to-established shift, which is Documented, but **its placement as an internal rather than external force**, which follows Doc_01 §6's own judgement and is named as that document's rather than this one's.
+**Contested.** **3B-2 (Contested)** for its silence claim, which holds only for what this build has assessed: nine tractatus in Morin 1917 are not yet assessed (OG-54; Doc_01 §5). The uneven attestation it records is Documented. **2B-3** carries a contested element — not the fact of the illegal-to-established shift, which is Documented, but **its placement as an internal rather than external force**, which follows Doc_01 §6's own judgement and is named as that document's rather than this one's.
 
 **Inferential/Thin.** No force is carried at this level. **All seventeen forces carry a written Layer 2**, including the two transmission entries and 3B-1. **3B-1 and 3B-2 both carry the Reported-Experience Status** marker, which is the template's own instrument for a self-understanding that is formationally real and historically bounded.
 

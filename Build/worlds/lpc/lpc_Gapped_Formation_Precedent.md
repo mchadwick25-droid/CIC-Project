@@ -18,7 +18,7 @@ LPC is that pairing's own first real test case — **not a defect LPC introduced
 
 ## 2. What a "gapped" formation-type actually is
 
-Two anchor figures (Cyprian 248–258, Augustine 391–430) separated by 133 years, with **no surviving voice native to this world's own boundary** for the interval. The interval is not undocumented history in general — the Great Persecution, the *traditio* crisis and the rise of Donatism are richly attested for exactly those decades, but overwhelmingly through sources belonging to a neighbouring built world (Donatism, I.4). Doc_01's phrasing, worth reusing verbatim: *"an honest silence in this world's own record, not a general absence of evidence about the period."*
+Two anchor figures (Cyprian 248–258, Augustine 391–430) separated by 133 years, with **no surviving voice native to this world's own boundary that the build has assessed** for the interval. That claim is Contested: nine tractatus in Morin 1917, one titled in a manuscript as a sermon of Optatus, are not yet assessed (lpc OG-54; lpc Doc_01 §5). The interval is not undocumented history in general — the Great Persecution, the *traditio* crisis and the rise of Donatism are richly attested for exactly those decades, but overwhelmingly through sources belonging to a neighbouring built world (Donatism, I.4). Doc_01's phrasing, worth reusing verbatim: *"a silence, qualified in this way, in this world's own record, not a general absence of evidence about the period."*
 
 ## 3. What held the world together — the pattern that worked
 
@@ -38,7 +38,7 @@ Candidate 5 (conciliar authority) structurally needed the gap bridged. One attes
 
 ## 5. Checklist for the next gapped world
 
-1. Name the gap as an honest silence in *this* world's own record, distinguished from evidence surviving in a neighbouring world's territory.
+1. Name the gap as an honest silence in *this* world's own record, distinguished from evidence surviving in a neighbouring world's territory, and state it only for the sources actually assessed.
 2. Build the coherence argument only from candidates independently attested on both sides.
 3. Substitute phase testing for cross-strand testing; flag phase-bound candidates and exclude them from the coherence argument.
 4. If a candidate's Persistence comes back thin-but-real, classify it as the tests actually return and **stop there**. Don't reach for a neighbouring world's home-territory sources to bridge it.

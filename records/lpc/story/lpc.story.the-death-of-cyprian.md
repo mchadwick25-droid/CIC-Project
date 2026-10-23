@@ -69,8 +69,9 @@ text: 'This is how two early texts tell the death of our first great bishop. One
   The night before the sentence, Cyprian was held in an officer''s house. Pontius says that he and the other
   friends "were as usual in his company." The people stayed outside. Pontius writes that they, "in anxiety
   that nothing should be done throughout the night without their knowledge, kept watch before the officer''s
-  door." The Acta says the same in fewer words: "the whole people of the brethren came there." All of them
-  "had stayed in the street, before the door of the officer''s lodging."
+  door." The Acta tells it more briefly, and it adds one detail: "The whole people of the brethren came
+  there. When holy Cyprian learned of this, he ordered the young women to be guarded. He did so because
+  all of them had stayed in the street, before the door of the officer''s lodging."
 
 
   In the morning a great crowd went with him. Pontius says he went out "walled in on all sides by the ranks
@@ -92,17 +93,23 @@ text: 'This is how two early texts tell the death of our first great bishop. One
   they, "in outspoken words, suffered with such a bishop as theirs."
 
 
+  Only the Acta tells what came before the blow. Cyprian was led out into the field of Sextus. There he
+  took off his cloak. He knelt on the ground and bowed down in prayer to the Lord. He took off his tunic
+  and handed it to the deacons. He stood in his linen garment and began to wait for the executioner. When
+  the executioner came, Cyprian told his own people to give him twenty-five gold pieces. The brethren laid
+  linen cloths and hand-cloths before him.
+
+
   Both texts say he covered his own eyes, and they differ on the cloths. Pontius says that, "having with his
   own hands bound his eyes," he tried to hurry the executioner. The Acta says: "Then the blessed Cyprian covered
   his eyes with his own hand. When he could not tie the strips of cloth on himself, the presbyter Julianus
   and the subdeacon Julianus tied them for him." We do not choose between the two.
 
 
-  Only the Acta tells what came before the blow. He knelt on the ground and bowed down in prayer to the Lord.
-  He handed his tunic to the deacons and stood in his linen garment. He told his own people to give the executioner
-  twenty-five gold pieces. Only the Acta tells the burial. By night his body was taken up with candles and
-  torches. With prayer and great triumph, it was brought to the grounds of the procurator Macrobius Candidianus,
-  on the Mappalian road.
+  Only the Acta tells the burial. So the blessed Cyprian suffered martyrdom. Because the pagans were curious,
+  his body was laid nearby. By night it was taken up from there with candles and torches. With prayer and
+  great triumph, it was brought to the grounds of the procurator Macrobius Candidianus. These lie on the
+  Mappalian road, beside the pools.
 
 
   Pontius adds things the Acta does not mention, and they are his. He says the ground was "level, so that it

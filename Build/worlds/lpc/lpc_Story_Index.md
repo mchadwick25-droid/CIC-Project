@@ -85,17 +85,17 @@ Confidence cells above carry the leading band only where a chunk declares more t
 
 ## 5. Absent Stories Check
 
-**Doc_09 §7 answers the required question with five enumerated absences, in 1155 words.** Not a placeholder.
+**Doc_09 §7 answers the required question with five enumerated absences, in 1186 words.** Not a placeholder.
 
 | # | Absence named |
 |---|---|
-| 1 | There is no story from inside the 133-year silence, and there cannot be. |
+| 1 | There is no story from inside the 133-year silence that this build has assessed. |
 | 2 | No story survives in the voice of an ordinary believer. |
 | 3 | The lapsed have no story of their own. |
 | 4 | Women appear in these stories and never narrate them. |
 | 5 | There is no story of an ordinary, uneventful pastorate. |
 
-**The generator checks that this section is substantive — enumerated and above a word floor — and nothing more.** Whether the absences named are the *right* ones is a reviewer's question. Doc_09 §7 item 1 is the one to test hardest: this world's 133-year documentary silence is the absence that distinguishes it from every other world in the portfolio, and a repository that did not name it would be concealing its central evidentiary fact.
+**The generator checks that this section is substantive — enumerated and above a word floor — and nothing more.** Whether the absences named are the *right* ones is a reviewer's question. Doc_09 §7 item 1 is the one to test hardest: this world's 133-year documentary silence, Contested while nine Morin 1917 tractatus are unassessed (OG-54), is the absence that distinguishes it from every other world in the portfolio, and a repository that did not name it would be concealing its central evidentiary fact.
 
 ---
 

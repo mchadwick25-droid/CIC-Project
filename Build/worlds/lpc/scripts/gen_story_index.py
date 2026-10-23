@@ -507,7 +507,7 @@ for n, txt in items:
     _t = re.sub(r"\s+", " ", txt).strip()
     w(f"| {n} | {_t} |")
 w("")
-w("**The generator checks that this section is substantive — enumerated and above a word floor — and nothing more.** Whether the absences named are the *right* ones is a reviewer's question. Doc_09 §7 item 1 is the one to test hardest: this world's 133-year documentary silence is the absence that distinguishes it from every other world in the portfolio, and a repository that did not name it would be concealing its central evidentiary fact.")
+w("**The generator checks that this section is substantive — enumerated and above a word floor — and nothing more.** Whether the absences named are the *right* ones is a reviewer's question. Doc_09 §7 item 1 is the one to test hardest: this world's 133-year documentary silence, Contested while nine Morin 1917 tractatus are unassessed (OG-54), is the absence that distinguishes it from every other world in the portfolio, and a repository that did not name it would be concealing its central evidentiary fact.")
 w("")
 w("---")
 w("")
