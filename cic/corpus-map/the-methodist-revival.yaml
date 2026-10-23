@@ -56,6 +56,22 @@ works:
 
     '
   source_file: asbury_journal-v3_1821.txt
+- row_id: calder_memoirs-of-simon-episcopius_1838--memoirs-of-simon-episcopius-with-a-brief-account-of-the-2
+  work: Memoirs of Simon Episcopius, with a brief account of the Synod of Dort and the sufferings
+    of the followers of Arminius (Calder, 1838)
+  author: calder
+  locus: whole file; Calder's preface (the book is written to defend Episcopius and the Arminian
+    cause) and the closing chapters on the progress of toleration
+  role: transmission
+  confidence: provisional
+  note: 'The book was written by a Methodist: the host record of another scan lists Frederick
+    Calder as a Wesleyan Methodist minister. It shows an English Methodist reading of the
+    Remonstrants and Dort in 1838, a century after the revival began, and is placed on that
+    as transmission. Whether Calder speaks for Methodism or for himself is for that world''s
+    build to judge; the title page of this scan names no church.
+
+    '
+  source_file: calder_memoirs-of-simon-episcopius_1838.txt
 - row_id: wesley-j_journal-v1_curnock1909--the-journal-of-the-rev-john-wesley-a-m-curnock-edition-vol-i-2
   work: The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I -- Curnock's own
     Editorial Introduction

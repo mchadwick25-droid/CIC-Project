@@ -23,3 +23,19 @@ assignments:
       standpoint: the standard older narrative of the Persian church built directly on the
       Synodicon, the Chronicle of Seert and the Arabic histories, and a finding aid to
       them, never evidence of the events.
+
+  - row_id: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904--conclusion-the-division-of-1551
+    work: 'Labourt, Le christianisme dans l''empire perse sous la dynastie sassanide (1904), the Conclusion:
+      the vacancy of 1551 and the Chaldean Catholic community'
+    author: labourt
+    locus: the Conclusion, p. 351, at file lines 19366-19395 ('Au milieu du xvie siècle (1551), lors d'une
+      vacance du siège patriarcal ...'); index entry 'Jean Sulaka, 351' at 20902
+    atlas_ids:
+    - church-of-the-east-schism-of-1552
+    role: context
+    confidence: assigned
+    note: 'A one-paragraph French summary of the schism by a Catholic historian of the Persian church in
+      1904: one metropolitan and three bishops left, the bishops joined Rome, and Julius III consecrated
+      John Sulaka. Short secondary, a finding aid not evidence. Read at the lines given.
+
+      '

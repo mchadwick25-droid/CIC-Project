@@ -1,0 +1,46 @@
+# Vendored for Atlas VI.26 (The Remonstrants and Dort) by the Era VII library session, 2026-10-23; see that world's Source Readiness Dossier.
+source_file: calder_memoirs-of-simon-episcopius_1838.txt
+
+assignments:
+  - row_id: calder_memoirs-of-simon-episcopius_1838--memoirs-of-simon-episcopius-with-a-brief-account-of-the
+    work: "Memoirs of Simon Episcopius, with a brief account of the Synod of Dort and the sufferings of the followers of Arminius (Calder, 1838)"
+    author: calder
+    locus: "whole file; the Remonstrance of 1610 in English at lines 5057-5160 (Chapter V from line 4860); Chapters IX-XIV on the road to Dort, the Synod, Barneveldt and the banishment (IX at line 9213, XII at 14727, XIII at 15329, XIV at 16054); Appendix on the Five Points as the Remonstrants presented them to the Synod, from line 22416"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: context
+    confidence: assigned
+    note: >
+      A Remonstrant-side life of Episcopius written in 1838, the one vendored book that sets out
+      the Five Articles of the Remonstrance of 1610 in English (in Chamberlayne's rendering of
+      Brandt, by Calder's own note) and tells the Dort story and the exile from the Remonstrant
+      side, with the Brotherhood's publications named. Secondary prose by a partisan; its
+      quotations of Remonstrant documents are Calder's, to be checked against Brandt or the
+      originals before they are quoted as the Remonstrants' words. The Synod's account is in the
+      Scott 1831 file; the outside witness is in the Hales file. Clean OCR.
+  - row_id: calder_memoirs-of-simon-episcopius_1838--memoirs-of-simon-episcopius-with-a-brief-account-of-the-2
+    work: "Memoirs of Simon Episcopius, with a brief account of the Synod of Dort and the sufferings of the followers of Arminius (Calder, 1838)"
+    author: calder
+    locus: "whole file; Calder's preface (the book is written to defend Episcopius and the Arminian cause) and the closing chapters on the progress of toleration"
+    atlas_ids:
+      - the-methodist-revival
+    role: transmission
+    confidence: provisional
+    note: >
+      The book was written by a Methodist: the host record of another scan lists Frederick Calder
+      as a Wesleyan Methodist minister. It shows an English Methodist reading of the Remonstrants
+      and Dort in 1838, a century after the revival began, and is placed on that as transmission.
+      Whether Calder speaks for Methodism or for himself is for that world's build to judge; the
+      title page of this scan names no church.
+  - row_id: calder_memoirs-of-simon-episcopius_1838--memoirs-of-simon-episcopius-with-a-brief-account-of-the-3
+    work: "Memoirs of Simon Episcopius, with a brief account of the Synod of Dort and the sufferings of the followers of Arminius (Calder, 1838)"
+    author: calder
+    locus: "whole file; Chapter IV (the constitution of the Dutch church and the Calvinist clergy's opposition to Episcopius, line 3563) and Chapters XV-XVII (persecution of the Remonstrants)"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: context
+    confidence: provisional
+    note: >
+      The Dutch Reformed church of the further-reformation world seen from the side that was
+      deposed by it, in an English memoir. Placed on that relation; the account is partisan and
+      hostile to the Calvinist clergy.

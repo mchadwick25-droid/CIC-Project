@@ -9618,3 +9618,183 @@ queue:
     verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, 2026-10-23;
       title page read in the OCR (rough); host licenseurl https://creativecommons.org/publicdomain/mark/1.0/
     status: not-yet-downloaded
+
+  - title: R. D. Patriarchae Orientalium Assyriorum de sacro oecumenico Tridentini Concilio approbatio et
+      professio, et Literae illustrissimi Domini Marciantonii Cardinalis Amulii ad legatos sacri Concilii
+      Tridentini
+    author: Abdisho IV, patriarch of the Assyrians of the East; Cardinal Marcantonio Amulio (covering letter)
+    translator: ''
+    year: 1562
+    world: church-of-the-east-schism-of-1552
+    why: 'The profession of faith sworn at Rome by Sulaqa''s successor in 1562, with the cardinal''s letter
+      to the legates at Trent. The one printed Roman-side document of the new line found on a reachable
+      host; Sulaqa''s own profession of 1553 was not found. Found by a title search on archive.org for the
+      Tridentine approbation.
+
+      '
+    url: https://archive.org/details/bub_gb_p5REpLdbsbAC
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII one-world agent for VI.30: title page read in the OCR (MDLXII), metadata licenseurl
+      Public Domain Mark 1.0, contributor National Central Library of Rome, djvu.txt fetched in full, 2026-10-23.
+      A second scan is LeaBX8301545A232 (University of Pennsylvania, Public Domain Mark), not vendored.'
+    status: downloaded
+    vendored_as: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt
+  - title: Bibliothecae Orientalis Clementino-Vaticanae Tomi Tertii Pars Secunda, De Syris Nestorianis
+    author: Giuseppe Simone Assemani
+    translator: ''
+    year: 1728
+    world: church-of-the-east-schism-of-1552
+    why: 'The Roman-side documentary account of the 1551-1555 schism (the census: "documented from the Roman
+      side"), with the professions of faith of Sulaka and of Abdisho quoted. Also serves the Thomas Christian
+      entries (the Chaldean bishops sent to Malabar). The task named part 1 of 1725; the narrative is in
+      this part 2, and the 1725 part 1 is its own row below.
+
+      '
+    url: https://archive.org/details/bub_gb_4fbC1e4mro4C
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII one-world agent for VI.30: title page read in the OCR (Tomi Tertii Pars Secunda,
+      De Syris Nestorianis, MDCCXXVIII), metadata licenseurl Public Domain Mark 1.0, contributor National
+      Library of Naples, djvu.txt fetched in full and sampled at five points, 2026-10-23.'
+    status: downloaded
+    vendored_as: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+  - title: Notice sur les manuscrits syriaques conservés dans la bibliothèque du Patriarcat chaldéen de
+      Mossoul
+    author: Addai Scher
+    translator: ''
+    year: 1907
+    world: church-of-the-east-schism-of-1552
+    why: 'Dated colophons of Syriac manuscripts of the Chaldean patriarchate''s library naming the patriarch
+      of the day in 1550 to 1588. The census says the entry''s sourcing is "mostly succession lists and
+      colophons"; this is the only colophon source found on a reachable host. Found by a title search on
+      archive.org for Syriac manuscript catalogues.
+
+      '
+    url: https://archive.org/details/NoticeSurLesManuscritsSyriaquesConservesDansLaBibliothequeDu
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII one-world agent for VI.30: year 1907 read off the running head in the OCR; the
+      item is a 2012 user upload with no rights field and no access restriction; djvu.txt fetched in full,
+      clean OCR sampled at five points, 2026-10-23.'
+    status: downloaded
+    vendored_as: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907.txt
+  - title: The Assyrians and their Neighbours
+    author: W. A. Wigram
+    translator: ''
+    year: 1929
+    world: church-of-the-east-schism-of-1552
+    why: 'The clearest English narrative of the 1552 schism: the hereditary succession, the dispute of Shimun
+      Dinkha and Sulaka, the submission at Rome and the two lines. The 1929 volume is public domain by date
+      (the task named it with the 1910 Introduction). Outside witness.
+
+      '
+    url: https://archive.org/details/assyrianstheirne0000wigr
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII one-world agent for VI.30: title page read in the OCR (G. Bell and Sons, London,
+      1929); item record has no rights field and no access restriction; ordinary open download of the djvu.txt
+      (410,293 bytes), 2026-10-23.'
+    status: downloaded
+    vendored_as: wigram_assyrians-and-their-neighbours_1929.txt
+  - title: History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East, from Remote
+      Antiquity to the Present Time
+    author: George David Malech (of Urmia), ed. Nestorius George Malech
+    translator: ''
+    year: 1910
+    world: church-of-the-east-schism-of-1552
+    why: 'An Urmia-born author''s English history of his own church, with the Shimun-line patriarch lists
+      the Roman sources lack and a short account of the schism in his own numbering. The one inside-community
+      voice found in English. Found by a subject search on archive.org for the Nestorian church.
+
+      '
+    url: https://archive.org/details/historyofsyriann00male
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII one-world agent for VI.30: title page read in the OCR (Minneapolis, copyrighted
+      1910 by Rev. Nestorius George Malech); item record has no rights field and no access restriction (contributor
+      Princeton Theological Seminary Library); djvu.txt fetched in full and sampled at five points, 2026-10-23.'
+    status: downloaded
+    vendored_as: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt
+  - title: Bibliothecae Orientalis Clementino-Vaticanae Tomi Tertii Pars Prima, De Scriptoribus Syris Nestorianis
+    author: Giuseppe Simone Assemani
+    translator: ''
+    year: 1725
+    world: church-of-the-east-schism-of-1552
+    why: 'The catalogue of East Syriac writers, with a dated list of the patriarchs of the East from Sulaka
+      to Abdisho (file lines about 101020-101080 of the Naples scan: arrival 18 November 1552, profession
+      20 February 1553, proclamation 9 April 1553). Not vendored this pass: the part 2 vendored carries
+      the narrative, and the Lamy appendix already vendored repeats the list. The persian-church-of-the-east-early
+      row for the same book (india.history.resource.71763) remains open.
+
+      '
+    url: https://archive.org/details/bub_gb_dqIBok_FOLEC
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII one-world agent for VI.30: title page read in the OCR (Tomi Tertii Pars Prima,
+      De Scriptoribus Syris Nestorianis, MDCCXXV), metadata licenseurl Public Domain Mark 1.0, contributor
+      National Library of Naples, djvu.txt fetched in full, 2026-10-23.'
+    status: not-yet-downloaded
+  - title: The Nestorians and their Rituals, volumes I and II
+    author: George Percy Badger
+    translator: ''
+    year: 1852
+    world: church-of-the-east-schism-of-1552
+    why: 'An outside witness who lived among the Nestorians, with a chapter on the schism and the Roman
+      missions (volume I, pages 143-153, file lines about 7700-8140) and, in volume II, the community''s
+      own rituals and synodal collections (the 1317 election of a patriarch). Serves the 1815-1906 Chaldean
+      consolidation entry more than this one. Not vendored: about 1.2 MB a volume for ten pages on 1552.
+
+      '
+    url: https://archive.org/details/nestorianstheirr01badg
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII one-world agent for VI.30: title pages of both volumes read in the OCR (Joseph
+      Masters, London, MDCCCLII); volume II is item nestorianstheirr02badg; no rights field, Princeton Theological
+      Seminary Library; djvu.txt of both fetched in full, 2026-10-23.'
+    status: not-yet-downloaded
+  - title: The Catholicos of the East and his People
+    author: Arthur John Maclean and William Henry Browne
+    translator: ''
+    year: 1892
+    world: church-of-the-east-schism-of-1552
+    why: 'An account of the life and opinions of the Eastern Syrian Christians by the Archbishop of Canterbury''s
+      mission; it names the sixteenth-century split into the "Uniat" body only in passing (file lines about
+      715-735). Weak lead for this entry; stronger for the Chaldean consolidation and the customs of the
+      mountain church.
+
+      '
+    url: https://archive.org/details/catholicosofeast0000arth
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII one-world agent for VI.30: title page read in the OCR (SPCK, London, 1892); item
+      has no rights field and no access restriction (contributor Beth Mardutho: The Syriac Institute); djvu.txt
+      fetched in full, 2026-10-23.'
+    status: not-yet-downloaded
+  - title: Elementa linguae Chaldaicae, quibus accedit series Patriarcharum Chaldaeorum, a Josepho Guriel
+      exarata
+    author: Joseph Guriel
+    translator: ''
+    year: 1860
+    world: church-of-the-east-schism-of-1552
+    why: 'A Rome-printed numbered series of the patriarchs of the Chaldeans with a footnote on each Roman
+      profession of faith. Not vendored: the Lamy appendix in the vendored Bar Hebraeus vol. III cites it
+      and prints the same series with more, and Assemani covers the same ground.
+
+      '
+    url: https://archive.org/details/bub_gb_qLliusaobBQC
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII one-world agent for VI.30: title page read in the OCR (Romae, Propaganda Fide,
+      MDCCCLX), metadata licenseurl Public Domain Mark 1.0, contributor National Central Library of Rome,
+      djvu.txt fetched in full and sampled, 2026-10-23. The Harvard copy elementalinguae00gurigoog (NOT_IN_COPYRIGHT)
+      reads noisier.'
+    status: not-yet-downloaded
+  - title: Oriens christianus, in quatuor patriarchatus digestus, tomus secundus (Chaldaeorum et Jacobitarum
+      dioceses)
+    author: Michel Le Quien
+    translator: ''
+    year: 1740
+    world: church-of-the-east-schism-of-1552
+    why: 'An independent Latin account of "Simeon Sulaca" and the Roman professions (file lines about 98887-99312
+      and 150537 of the Seville scan), which Guriel and Lamy cite. Not vendored: 3.9 MB, noisy OCR, and
+      Assemani carries the same material.
+
+      '
+    url: https://archive.org/details/A216171
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII one-world agent for VI.30: metadata (Paris, Typographia Regia, 1740, Public Domain
+      Mark 1.0, contributor Biblioteca de la Universidad de Sevilla); title page read in the OCR (Tomus
+      Secundus, Chaldaeorum); Sulaca passages found by text search; djvu.txt fetched in full, 2026-10-23.'
+    status: not-yet-downloaded

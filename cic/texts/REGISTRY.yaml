@@ -1890,6 +1890,8 @@
     consultation-only GEDSH source - it does not resolve the Simeon bar Sabbae dating
     dispute (341 vs. c. 344), which rests on modern external argument the chronicle
     itself cannot adjudicate.
+
+    READER: sections - the Syriac chronicle's Eastern section with the editors' Latin ("Chronicon Ecclesiasticum, Sect. II" in the running head), the Nestorian catholicoi and the Jacobite maphrians, then Lamy's "Additamentum" from about file line 29024, in three series: "I. Series maphrianorum continuata", "II. Series catholicorum Nestorianorum continuata" (from file line 29078) and "III. Series patriarcharum Chaldaeorum S. Sedi unitorum et recentiorum Nestorianorum" (from 29300), with a final index ; credit - "Gregorii Barhebraei Chronicon Ecclesiasticum, tomus III, ed. Abbeloos and Lamy, Louvain, Peeters, 1877; digital text from Internet Archive item BarHebraeusChroniconEcclesiasticumVol.3 (uploaded by Roger Pearse; the item names no library)" ; republish - whole text, public domain by date.
 - filename: harris_odes-and-psalms-of-solomon_harris1911.txt
   supplied_by: 'this build session (2026-09-09) - NOT Mark, same disclosed deviation as this
     session''s Bar Hebraeus acquisition. Fetched directly from archive.org
@@ -8827,6 +8829,8 @@
     of Yahballaha and Dadisho (420, 424). Anglican missionary standpoint. Fetched directly from
     Internet Archive item introductiontohi0000wawi. RIGHTS: pd-us-by-date, 1910; the item has no
     rights tag.
+
+    READER: sections - "CHAPTER I" to "CHAPTER XIV" with a table of contents at the front (file line 261 on) and the chapters themselves from file line 998, then "Index of Names and Places" ; credit - "An Introduction to the History of the Assyrian Church, W. A. Wigram, London, Society for Promoting Christian Knowledge, 1910; digital text from Internet Archive item introductiontohi0000wawi (contributor Beth Mardutho: The Syriac Institute)" ; republish - whole text, public domain by date.
 - filename: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt
   supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch, worker C: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
   date_added: '2026-10-17'
@@ -10672,3 +10676,82 @@
     "INDEX." ; credit - "The Life of Saint John of the Cross of the Order of Our Lady of Mount Carmel,
     London, Burns and Oates, 1873; digital text from Internet Archive item TheLifeOfSaintJohnOfTheCross
     (Google Books scan)" ; republish - whole text, public domain by date.'
+- filename: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, one-world agent for church-of-the-east-schism-of-1552)
+  date_added: '2026-10-23'
+  notes: 'R. D. Patriarchae Orientalium Assyriorum de sacro oecumenico Tridentini Concilio approbatio
+    et professio, et Literae illustrissimi Domini Marciantonii Cardinalis Amulii ad legatos sacri Concilii
+    Tridentini, 1562. Latin (lat). Public domain by date; host licenseurl Public Domain Mark 1.0. Fetched
+    directly (curl, raw bytes) from archive.org item bub_gb_p5REpLdbsbAC; header prepended per cic/texts/INTAKE.md,
+    body unaltered (0 long-s glyphs in the raw file). Whole print, about 11,000 characters. Second witness
+    (noisy OCR, long s read as f); a second scan of the same print is item LeaBX8301545A232 (University
+    of Pennsylvania), not vendored. This is Abdisho IV''s profession of 1562, not Sulaqa''s own of 1553,
+    which was not found. No public-domain English translation found. READER: sections - Cardinal Amulio''s
+    letter to the legates ("Literae illustrissimi Domini Marciantonii Cardinalis Amulii"), then "Professio
+    Fidei" of the patriarch, then his oath to receive the decrees of the councils and of Trent, as printed
+    ; credit - "R. D. Patriarchae Orientalium Assyriorum de sacro oecumenico Tridentini Concilio approbatio
+    et professio, 1562; digital text from Internet Archive item bub_gb_p5REpLdbsbAC (contributor National
+    Central Library of Rome, Google-digitised)" ; republish - whole text, public domain by date.'
+- filename: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, one-world agent for church-of-the-east-schism-of-1552)
+  date_added: '2026-10-23'
+  notes: 'Bibliothecae Orientalis Clementino-Vaticanae Tomi Tertii Pars Secunda, De Syris Nestorianis,
+    Giuseppe Simone Assemani, Rome, Propaganda Fide, 1728. Latin (lat). Public domain by date; host licenseurl
+    Public Domain Mark 1.0. Fetched directly (curl, raw bytes) from archive.org item bub_gb_4fbC1e4mro4C,
+    file bub_gb_4fbC1e4mro4C_djvu.txt (2,921,515 bytes); header prepended per cic/texts/INTAKE.md, body
+    unaltered (0 long-s glyphs in the raw file). Whole tome, about 2.9 MB. Second witness (long s read
+    as f throughout, Syriac and Arabic garbled, dates in the Sulaka passage garbled). The dissertation
+    De Syris Nestorianis carries the Roman-side account of the 1551-1555 schism; the 1725 part 1 (De Scriptoribus
+    Syris Nestorianis, item bub_gb_dqIBok_FOLEC) is a verified lead, not vendored. No public-domain English
+    translation found. READER: sections - the "Praefatio in Dissertationem de Syris Nestorianis", then
+    "Caput I." to "Caput X." with numbered paragraphs ("§. 1.") and Roman-numeral page numbers, running
+    heads "Dissertatio" and "De Syris Nestorianis", then the Bibliotheca entries in Arabic-numbered pages,
+    with the "Index Codicum" and "Index Rerum" at the end ; credit - "Bibliothecae Orientalis Clementino-Vaticanae
+    Tomi Tertii Pars Secunda, De Syris Nestorianis, Giuseppe Simone Assemani, Rome, Typis Sacrae Congregationis
+    de Propaganda Fide, 1728; digital text from Internet Archive item bub_gb_4fbC1e4mro4C (contributor
+    National Library of Naples, Google-digitised)" ; republish - whole text, public domain by date.'
+- filename: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, one-world agent for church-of-the-east-schism-of-1552)
+  date_added: '2026-10-23'
+  notes: 'Notice sur les manuscrits syriaques conservés dans la bibliothèque du Patriarcat chaldéen de
+    Mossoul, Addai Scher, 1907 (the year read off the running head "octobre-décembre 1907"; the journal''s
+    name is garbled in the OCR and is not read here). French (fra). Public domain by date; the item carries
+    no rights field and no access restriction. Fetched directly (curl, raw bytes) from archive.org item
+    NoticeSurLesManuscritsSyriaquesConservesDansLaBibliothequeDu (a 2012 user upload); header prepended
+    per cic/texts/INTAKE.md, body unaltered (0 long-s glyphs). Whole article, about 71,000 characters,
+    clean OCR (ABBYY). Its colophon summaries name the patriarch of the day in 1550 to 1588. No public-domain
+    English translation found. READER: sections - numbered manuscripts "Cod. 1." to "Cod. 116." grouped
+    under Roman-numeral headings ("I. - Livres Saints." and so on), each with its colophon note ; credit
+    - "Notice sur les manuscrits syriaques conservés dans la bibliothèque du Patriarcat chaldéen de Mossoul,
+    Addai Scher, 1907; digital text from Internet Archive item NoticeSurLesManuscritsSyriaquesConservesDansLaBibliothequeDu
+    (user upload; the item names no library)" ; republish - whole text, public domain by date.'
+- filename: wigram_assyrians-and-their-neighbours_1929.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, one-world agent for church-of-the-east-schism-of-1552)
+  date_added: '2026-10-23'
+  notes: 'The Assyrians and their Neighbours, W. A. Wigram, London, G. Bell and Sons, 1929. English. Public
+    domain by date (published 1929; the item record carries no rights field and no access restriction;
+    an ordinary open download). Fetched directly (curl, raw bytes) from archive.org item assyrianstheirne0000wigr;
+    header prepended per cic/texts/INTAKE.md, body unaltered (0 long-s glyphs). Whole volume, about 410,000
+    characters, readable OCR (title page noisy). Chapter VII carries the schism of 1552. Outside witness
+    (Anglican mission-head, 1929), never evidence of the events. READER: sections - "CHAPTER I" to "CHAPTER
+    X" with a synopsis at the front and running heads (chapter VII "Tamerlane, and the Coming of the Ottoman"),
+    then an index ; credit - "The Assyrians and their Neighbours, W. A. Wigram, London, G. Bell and Sons,
+    1929; digital text from Internet Archive item assyrianstheirne0000wigr (contributor Internet Archive)"
+    ; republish - whole text, public domain by date.'
+- filename: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, one-world agent for church-of-the-east-schism-of-1552)
+  date_added: '2026-10-23'
+  notes: 'History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East, from Remote
+    Antiquity to the Present Time, George David Malech of Urmia, ed. Nestorius George Malech, Minneapolis,
+    1910 (copyright notice read on the title page). English. Public domain by date; the item carries no
+    rights field and no access restriction. Fetched directly (curl, raw bytes) from archive.org item historyofsyriann00male
+    (contributor Princeton Theological Seminary Library); header prepended per cic/texts/INTAKE.md, body
+    unaltered (0 long-s glyphs). Whole volume, about 905,000 characters, clean OCR. Chapter XXXI gives
+    the sixteenth century and the schism of "Shimon VIII, John Sulaka" in the author''s own numbering;
+    chapter XXXII the Shimun line to the nineteenth century. An insider''s English history, late and without
+    cited sources for the older material. READER: sections - "CHAPTER I" to "CHAPTER XXXVI" (the OCR prints
+    one chapter number twice, XXXII for XXXIII), each with a heading of the periods, patriarchs and regents
+    covered, and a table of contents at the front ; credit - "History of the Syrian Nation and the Old
+    Evangelical-Apostolic Church of the East, George David Malech, Minneapolis, 1910; digital text from
+    Internet Archive item historyofsyriann00male (contributor Princeton Theological Seminary Library)"
+    ; republish - whole text, public domain by date.'

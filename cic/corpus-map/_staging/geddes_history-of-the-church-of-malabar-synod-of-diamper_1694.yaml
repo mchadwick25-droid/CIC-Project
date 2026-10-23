@@ -71,3 +71,23 @@ assignments:
   note: >-
     Anglican polemic against Jesuit and Roman method in Malabar; second-hand for the Society, read as
     an outside witness.
+
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--short-history-the-account-of-sulaka-1552
+  work: 'A Short History of the Church of Malabar (Geddes, 1694): the account of ''Tum Siud, or Simon
+    Sulacan'' at Rome in 1552'
+  author: geddes
+  locus: in the Short History from the heading at file line 2338; the passage beginning 'In the Year 1552,
+    one Tum Siud, or Simon Sulacan, a Monk' at file line 2998 to about 3040, with the index entry at line
+    1134
+  atlas_ids:
+  - church-of-the-east-schism-of-1552
+  role: context
+  confidence: assigned
+  note: 'The only English account of the 1552 mission to Rome that is public domain and already in the
+    corpus: an Anglican polemic of 1694, citing a printed Latin text of the letters and confession, giving
+    the election, the letters and the profession brought to the Pope, the pallium, the return to Amid
+    and the death. Hostile outside witness (it calls the election a pretence). It is also the English
+    version of the story that Hough (1839) quotes. Read at the lines given. Second witness for exact wording:
+    f for long s and broken words.
+
+    '

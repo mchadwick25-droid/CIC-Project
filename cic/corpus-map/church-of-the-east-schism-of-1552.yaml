@@ -45,6 +45,75 @@ works:
 
     '
   source_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+- row_id: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877--lamy-appendix-series-patriarcharum-chaldaeorum-from-sulaka
+  work: 'Lamy''s appendix to Bar Hebraeus, Chronicon Ecclesiasticum III: ''Series patriarcharum
+    Chaldaeorum S. Sedi unitorum et recentiorum Nestorianorum'', from Sulaka (1551-1555) to
+    the nineteenth century'
+  author: barhebraeus
+  locus: section III of the appendix, 'Series patriarcharum Chaldaeorum', from file line 29300;
+    Joannes Sulaka at 29309; Abdisho IV, Simeon Denha, the later Eliases and Josephs after
+    it, to Joseph Audo and the 1830s-1860s at about 29530-29600; Simeon VIII Barmama and the
+    hereditary line at about 29196
+  role: context
+  confidence: assigned
+  note: 'The 1877 Latin appendix by Lamy lists the two lines after 1552 side by side, with
+    the dates of each profession of faith sent to Rome, citing Assemani, Badger, Guriel, d''Avril
+    and Martin. This is the succession-list evidence the census calls the thin base of the
+    entry, already in the corpus. The appendix dates Sulaka''s proclamation 9 April 1552 where
+    Assemani''s 1725 list reads 1553; the page images settle it. Read at the lines given.
+    Second witness for exact wording where the OCR is rough.
+
+    '
+  source_file: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--short-history-the-account-of-sulaka-1552
+  work: 'A Short History of the Church of Malabar (Geddes, 1694): the account of ''Tum Siud,
+    or Simon Sulacan'' at Rome in 1552'
+  author: geddes
+  locus: in the Short History from the heading at file line 2338; the passage beginning 'In
+    the Year 1552, one Tum Siud, or Simon Sulacan, a Monk' at file line 2998 to about 3040,
+    with the index entry at line 1134
+  role: context
+  confidence: assigned
+  note: 'The only English account of the 1552 mission to Rome that is public domain and already
+    in the corpus: an Anglican polemic of 1694, citing a printed Latin text of the letters
+    and confession, giving the election, the letters and the profession brought to the Pope,
+    the pallium, the return to Amid and the death. Hostile outside witness (it calls the election
+    a pretence). It is also the English version of the story that Hough (1839) quotes. Read
+    at the lines given. Second witness for exact wording: f for long s and broken words.
+
+    '
+  source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
+- row_id: hough_history-of-christianity-in-india-v2_1839--hough-on-asseman-and-geddes-concerning-simon-sulaka
+  work: 'Hough, History of Christianity in India vol. II (1839): his notes on ''Simon Sulaka''
+    quoting Geddes and Assemani'
+  author: hough
+  locus: the note at file lines 3424-3450 (Geddes's passage on 'Tum Siud, or Simon Sulacan'
+    quoted in full); the note at 3490 ('a sham Patriarch of Amed, set up also by the Pope');
+    the Assemani footnote at 4940
+  role: context
+  confidence: provisional
+  note: 'Hough prints Geddes''s English passage in clean modern type and adds that Assemani
+    cites Sulaka''s profession of faith on the sacraments. An Anglican writer''s polemic,
+    hostile to Sulaka. The cleaner copy of the Geddes sentence than the 1694 scan. Placed
+    on the three notes read.
+
+    '
+  source_file: hough_history-of-christianity-in-india-v2_1839.txt
+- row_id: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904--conclusion-the-division-of-1551
+  work: 'Labourt, Le christianisme dans l''empire perse sous la dynastie sassanide (1904),
+    the Conclusion: the vacancy of 1551 and the Chaldean Catholic community'
+  author: labourt
+  locus: the Conclusion, p. 351, at file lines 19366-19395 ('Au milieu du xvie siècle (1551),
+    lors d'une vacance du siège patriarcal ...'); index entry 'Jean Sulaka, 351' at 20902
+  role: context
+  confidence: assigned
+  note: 'A one-paragraph French summary of the schism by a Catholic historian of the Persian
+    church in 1904: one metropolitan and three bishops left, the bishops joined Rome, and
+    Julius III consecrated John Sulaka. Short secondary, a finding aid not evidence. Read
+    at the lines given.
+
+    '
+  source_file: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt
 - row_id: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910--chapters-xxxi-xxxii-the-sixteenth-to-nineteenth-centuries
   work: 'History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East
     (1910), chapters XXXI and XXXII: the sixteenth century, the schism of Shimon VIII ''John
@@ -63,6 +132,21 @@ works:
 
     '
   source_file: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--dissertatio-v-the-chaldean-bishops-after-sulaka
+  work: 'Raulin, Historia Ecclesiae Malabaricae (1745), Dissertatio V: the Malabar bishops
+    Joseph, Abraham and Simeon after the death of Sulaka'
+  author: raulin
+  locus: Dissertatio V, 'Ab anno 15?6 usque ad 1597' (the OCR garbles the first year), from
+    the running head at file line 28690; the passage beginning 'Catholico Sulaka vita functo'
+    at 28696; the Sulaka reference at 11678
+  role: context
+  confidence: provisional
+  note: 'Raulin traces the Indian bishops ordained by Sulaka''s successor Abdisho and the
+    rival mission of the other catholicos, from the Roman-Catholic side in Latin. Placed on
+    the two passages read; the bearing on the schism is the Indian echo of the two lines.
+
+    '
+  source_file: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt
 - row_id: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907--colophons-of-the-sixteenth-century
   work: 'Notice sur les manuscrits syriaques du Patriarcat chaldéen de Mossoul (Scher, 1907):
     the colophons of 1521 to 1588'

@@ -82,3 +82,20 @@ assignments:
   confidence: provisional
   note: >-
     Eighteenth-century Roman scholarship on the Thomas tradition; placed on subject, not read through.
+
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--dissertatio-v-the-chaldean-bishops-after-sulaka
+  work: 'Raulin, Historia Ecclesiae Malabaricae (1745), Dissertatio V: the Malabar bishops Joseph, Abraham
+    and Simeon after the death of Sulaka'
+  author: raulin
+  locus: Dissertatio V, 'Ab anno 15?6 usque ad 1597' (the OCR garbles the first year), from the running
+    head at file line 28690; the passage beginning 'Catholico Sulaka vita functo' at 28696; the Sulaka
+    reference at 11678
+  atlas_ids:
+  - church-of-the-east-schism-of-1552
+  role: context
+  confidence: provisional
+  note: 'Raulin traces the Indian bishops ordained by Sulaka''s successor Abdisho and the rival mission
+    of the other catholicos, from the Roman-Catholic side in Latin. Placed on the two passages read; the
+    bearing on the schism is the Indian echo of the two lines.
+
+    '

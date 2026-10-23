@@ -16,6 +16,21 @@ works:
 
     '
   source_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+- row_id: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877--lamy-appendix-series-patriarcharum-chaldaeorum-nineteenth-century
+  work: 'Lamy''s appendix to Bar Hebraeus, Chronicon Ecclesiasticum III: the Chaldean patriarchs
+    of Amid and Mosul, Joseph I to Joseph Audo, to about 1865'
+  author: barhebraeus
+  locus: section III of the appendix, the Josephs of Amid and the line of Mosul, file lines
+    about 29480-29600 (Josephus I at about 29483; Josephus V at 29505; the creation of the
+    patriarch in 1830 and Audo after it)
+  role: context
+  confidence: provisional
+  note: 'The appendix''s later entries run the Chaldean line down to the Mosul patriarch Joseph
+    Audo (1847) and the 1860s, the consolidation the later entry treats. Placed on the lines
+    read for the sixteenth-century entry; the nineteenth-century lines were not read through.
+
+    '
+  source_file: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt
 - row_id: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910--chapters-xxxi-xxxii-the-sixteenth-to-nineteenth-centuries-3
   work: 'History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East
     (1910), chapters XXXII to XXXIV: the American mission at Urmia, the Syrian church at the

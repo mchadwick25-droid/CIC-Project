@@ -33,6 +33,20 @@ works:
 
     '
   source_file: austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870.txt
+- row_id: calder_memoirs-of-simon-episcopius_1838--memoirs-of-simon-episcopius-with-a-brief-account-of-the-3
+  work: Memoirs of Simon Episcopius, with a brief account of the Synod of Dort and the sufferings
+    of the followers of Arminius (Calder, 1838)
+  author: calder
+  locus: whole file; Chapter IV (the constitution of the Dutch church and the Calvinist clergy's
+    opposition to Episcopius, line 3563) and Chapters XV-XVII (persecution of the Remonstrants)
+  role: context
+  confidence: provisional
+  note: 'The Dutch Reformed church of the further-reformation world seen from the side that
+    was deposed by it, in an English memoir. Placed on that relation; the account is partisan
+    and hostile to the Calvinist clergy.
+
+    '
+  source_file: calder_memoirs-of-simon-episcopius_1838.txt
 - row_id: dordrecht-confession_ministers-manual_elkhart1890--confession-of-faith-and-minister-s-manual-dordrecht-2
   work: Confession of Faith and Minister's Manual (Dordrecht Confession, 1632, standalone
     edition)

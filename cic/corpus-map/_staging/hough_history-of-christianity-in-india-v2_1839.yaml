@@ -57,3 +57,20 @@ assignments:
   note: >-
     Placed on window and place; Hough's account of the Jesuit prelates of Malabar is hostile to the Society
     and was not checked line by line.
+
+- row_id: hough_history-of-christianity-in-india-v2_1839--hough-on-asseman-and-geddes-concerning-simon-sulaka
+  work: 'Hough, History of Christianity in India vol. II (1839): his notes on ''Simon Sulaka'' quoting
+    Geddes and Assemani'
+  author: hough
+  locus: the note at file lines 3424-3450 (Geddes's passage on 'Tum Siud, or Simon Sulacan' quoted in
+    full); the note at 3490 ('a sham Patriarch of Amed, set up also by the Pope'); the Assemani footnote
+    at 4940
+  atlas_ids:
+  - church-of-the-east-schism-of-1552
+  role: context
+  confidence: provisional
+  note: 'Hough prints Geddes''s English passage in clean modern type and adds that Assemani cites Sulaka''s
+    profession of faith on the sacraments. An Anglican writer''s polemic, hostile to Sulaka. The cleaner
+    copy of the Geddes sentence than the 1694 scan. Placed on the three notes read.
+
+    '
