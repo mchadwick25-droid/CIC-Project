@@ -2477,3 +2477,9 @@ Alternatives shown: (1) not a pilot, Fable drafts Doc_10 alone; (2) pilot, Sonne
 ### 2026-10-23 — The decision log stays in the world folder (project lead's ruling, stop point 1 item 6)
 
 Alternatives shown: (1) leave `lpc_Decision_Log.md` (694 KB) in `Build/worlds/lpc/`, as every other world does and as `tools/check_live_commentary.py` expects; (2) move it to `Build/Ministry/`, editing the five files that cite it; (3) archive entries before 2026-09-29 with a pointer. Chosen: 1 (project lead, 2026-10-23, "1"). Stop point 1 is complete.
+
+---
+
+### 2026-10-23 — Rebaseline declaration amended (project lead's ruling, Phase L1)
+
+`handoff lpc` failed the declaration check because the disk holds more review files than the declaration of 2026-09-29 records (Doc_01 12 against 9, Doc_02 35 against 30, Doc_04 13 against 11, Doc_08 10 against 8). Alternatives shown: (1) amend the declaration to accept the extra files by name; (2) leave it, so checks 02 to 04 stay red until fresh approvals. Chosen: 1 (project lead, 2026-10-23, "1"; confirmed "go ahead" after the first attempt was stopped by a permission check). The amendment table in `build/lpc_Rebaseline_Declaration.md` names each file. Disclosed to the project lead before the edit: the three Doc_01 files date from 2026-09-16, before the declaration, and were missed in its count; the others are Phase L0 checks.
