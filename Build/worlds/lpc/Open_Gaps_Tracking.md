@@ -1701,3 +1701,12 @@ Logged 2026-10-23 from `Review-Artifacts/L1_Quote_Triage_2026-10-23.md` (194 fin
 - **Wording to correct.** Triage items 94, 98, 107, 110, 121, 133 and 148 (words dropped, added or changed), 128 (nested quote marks), 120 (matches only a superseded corpus-map note); six quotations match only superseded text; five cite the installed `cic-build-cycle` skill, which the repository copy has reworded.
 - **Gate defect (engine, fleet-level).** `TextStore.verify` screens out note text before its notes fallback runs, so a quotation from an endnote can never pass (triage items 111 and 134 are word for word in a cited file and still fail). The project-document fallback is a plain substring test, so ellipses, brackets and markdown emphasis fail. A defect in `engine/m10`; not fixed here. Needs an owner and, until fixed, an ACCEPTED_OPEN waiver with this finding.
 - **Owner.** The `lpc` build thread for the document fixes, in the change order; the engine owner for the gate.
+
+### OG-48. Datus's caption, portrait serving and label propagation (2026-10-23).
+
+Logged 2026-10-23, moved here from `lpc_Representative_Identity_Decision.md` so that file holds the identity only.
+
+- **Caption.** The caption of 2026-09-15 opens "Datus, Bishop of the Kept Flock." It must be redrafted without the label. The alt text is unaffected.
+- **Portrait serving.** `Datus_Portrait.jpg` is committed under `Build/Ministry/Communication/Brand-Assets/Representative-Portraits/lpc/` and is not yet served from `cic-website/assets/portraits/`.
+- **Propagation.** The label still appears in the Permanent Prompt, the Capsule Core, the World Profile, the Voice Configuration and the Representative phase files (OG-28). Every file changes in one pass once Doc_10 is drafted.
+- **Owner.** The `lpc` build thread. Closes when the caption is approved and no file carries the label.
