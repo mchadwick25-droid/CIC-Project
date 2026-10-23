@@ -414,6 +414,17 @@ works:
     beside the 1579 polemics already proposed there. The English Reformation thread decides
     its weight.
   source_file: family-of-love_supplication-examined-and-confuted_1606.txt
+- row_id: foxe_acts-and-monuments-v4_cattley-townsend1837--foxe-acts-and-monuments-vol-iv-cattley-edition
+  work: Foxe, Acts and Monuments vol. IV (Cattley edition)
+  author: foxe
+  locus: the Lollard sections
+  role: antecedent
+  confidence: provisional
+  note: 'The contested link from the Lollards to the English Reformation runs through Foxe.
+    Placed on the census''s own statement; not read for that world''s sources.
+
+    '
+  source_file: foxe_acts-and-monuments-v4_cattley-townsend1837.txt
 - row_id: foxe_acts-and-monuments-v7_cattley-townsend1837--the-acts-and-monuments-vol-vii-the-marian-persecution-of-1555
   work: 'The Acts and Monuments of John Foxe, Vol. VII (Cattley/Townsend edition): the Marian
     persecution of 1555, with the examinations and letters of Bradford, Ridley, Latimer, Philpot
@@ -723,6 +734,15 @@ works:
     The parts on the English Familist households were read; the English Reformation thread
     decides its weight there.'
   source_file: rogers-john_displaying-of-an-horrible-secte_bishop1579.txt
+- row_id: somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890--church-wardens-accounts-of-six-somerset-parishes-1349-1560-ed-bishop-hobhouse
+  work: Church-wardens' accounts of six Somerset parishes, 1349-1560, ed. Bishop Hobhouse
+  author: somerset-parishes
+  locus: the accounts of the 1530s-1560 in each parish
+  role: context
+  confidence: provisional
+  note: The accounts run to 1560, so they record the change at the parish as well as the practice
+    before it. Placed on the span without reading the later accounts for it; left provisional.
+  source_file: somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890.txt
 - row_id: strype-annals-of-the-reformation-v2-pt2-1824-annals-of-the-reformation-vol-ii-part-2-1576-1580
   work: Annals of the Reformation, vol. II part 2 (1576-1580)
   author: strype
@@ -741,8 +761,8 @@ works:
   locus: Pathway running heads from about file line 4232; Wicked Mammon from about 5043; Obedience
     from about 10625 to the Sacraments treatise, which ends before the Epistle to the Reader
     (about 25569)
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'The first English evangelical voice: justification by faith, the authority of the
     vernacular Scripture, obedience to the king against the pope, in Tyndale''s own English
     (modernised spelling, Walter''s edition). The census window for VI.4 opens in the 1530s
@@ -750,9 +770,9 @@ works:
     with Rome was complete; the first-pass dossier left his placement to the lead (prelude
     of this world, or a world of his own). Placed here as tradition with needs-ruling for
     that reason. Primary voice, clean OCR, ready to quote once verified against this file;
-    Walter''s footnotes are editorial.
-
-    '
+    Walter''s footnotes are editorial. Ruled by the project lead, October 2026 (Era VII placements):
+    a text from before the world''s window that the world argued from is antecedent to it;
+    a text from after the window is context here and tradition for the later entry.'
   source_file: tyndale_doctrinal-treatises_walter1848.txt
 - row_id: tyndale_doctrinal-treatises_walter1848--tyndale-s-prefaces-and-prologues-to-his-bible-translations-the-epistle
   work: 'Tyndale''s prefaces and prologues to his Bible translations: the Epistle to the Reader
@@ -762,14 +782,15 @@ works:
   locus: from the Epistle to the Reader (about file line 25569) and the Preface to the Five
     Books of Moses at 25611, the Prologue to Genesis at 25940, Jonas at 28900, Matthew at
     30711, to the end of the volume
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'The translator''s own account of why the Scripture must be in English and how it
     is to be read: the prologues that travelled with the smuggled Testaments and Pentateuch.
     Same placement question as the treatises above (Tyndale precedes the window the census
-    gives this world); needs-ruling. Primary voice, clean OCR.
-
-    '
+    gives this world); needs-ruling. Primary voice, clean OCR. Ruled by the project lead,
+    October 2026 (Era VII placements): a text from before the world''s window that the world
+    argued from is antecedent to it; a text from after the window is context here and tradition
+    for the later entry.'
   source_file: tyndale_doctrinal-treatises_walter1848.txt
 - row_id: tyndale_doctrinal-treatises_walter1848--walter-s-biographical-notice-of-william-tyndale-1848
   work: Walter's Biographical Notice of William Tyndale (1848)

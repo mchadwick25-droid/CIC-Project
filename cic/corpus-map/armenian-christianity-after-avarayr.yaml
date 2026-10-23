@@ -3,6 +3,131 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: armenian-christianity-after-avarayr
 works:
+- row_id: rituale-armenorum-lectionary_conybeare1905--rituale-armenorum
+  work: Rituale Armenorum and the Old Armenian Lectionary (Appendix II, English)
+  author: armenian-church-rituale
+  locus: whole text; the Lectionary around raw line ~679
+  role: transmission
+  confidence: provisional
+  note: 'The Armenian church''s liturgy and the Jerusalem lectionary it received; manuscripts
+    later than the window, so transmission, provisional.
+
+    '
+  source_file: rituale-armenorum-lectionary_conybeare1905.txt
+- row_id: langlois_collection-historiens-armenie-tome2-fra_1869--elishe-french
+  work: Elishe, History of Vartan (Langlois's French translation)
+  author: eghishe
+  locus: the Elishe section of the volume
+  role: tradition
+  confidence: assigned
+  note: 'A second translation of the work in the Neumann English file; a cross-check.
+
+    '
+  source_file: langlois_collection-historiens-armenie-tome2-fra_1869.txt
+- row_id: eghishe_history-of-vartan-and-the-armenian-war_neumann1830--history-of-vartan
+  work: Elishe, History of Vartan and of the Battle of the Armenians
+  author: eghishe
+  locus: whole text, chapters I-VII
+  role: tradition
+  confidence: assigned
+  note: 'The Armenian church''s own account of Avarayr and the religious war with Persia,
+    c. 450-451: the entry''s defining text, in English.
+
+    '
+  source_file: eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt
+- row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--v-7-persarmenian-revolt-572
+  work: Ecclesiastical History V.7 (the Persarmenian revolt of 572 under Vardan)
+  author: evagrius-scholasticus
+  locus: Book V ch. 7 (raw file lines ~10212-10240)
+  role: context
+  confidence: provisional
+  note: 'Just after the entry''s 554 close; the Armenian revolt against Persian fire-worship
+    seen from Antioch. Provisional on the window. Era III Library pass, October 2026.
+
+    '
+  source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
+- row_id: langlois_collection-historiens-armenie-tome2-fra_1869--eznik-extract
+  work: Eznik of Kolb, extract from On God (French)
+  author: eznik
+  locus: the Eznik section of the volume
+  role: tradition
+  confidence: provisional
+  note: 'A fifth-century Armenian theologian; provisional as the volume prints only an extract.
+
+    '
+  source_file: langlois_collection-historiens-armenie-tome2-fra_1869.txt
+- row_id: john-ephesus_ecclesiastical-history-part3_paynesmith1860--ii-18-24-armenian-catholicos
+  work: Ecclesiastical History Part III, Book II.18-24 (the Armenian Catholicos at Constantinople,
+    571-573, refusing communion with the Chalcedonians)
+  author: john-ephesus
+  locus: Book II ch. 18-24 (raw file lines ~5940-6300)
+  role: context
+  confidence: provisional
+  note: 'Just after the entry''s window; the Armenian church''s stance on Chalcedon as a sympathetic
+    Syrian saw it. Provisional on the window. Era III Library pass, October 2026.
+
+    '
+  source_file: john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
+- row_id: john-ephesus_lives-eastern-saints-po18_brooks1924--armenian-synaxarion-shushanik
+  work: Le Synaxaire arménien de Ter Israel (Basset), the notice of St Shushanik, daughter
+    of Vardan, martyred by her husband Vazgen governor of Georgia (bound in this PO volume)
+  author: john-ephesus
+  locus: the Synaxaire arménien section (raw file lines ~5964-5966 for Shushanik)
+  role: transmission
+  confidence: provisional
+  note: 'Not John of Ephesus''s work: PO 18 binds Basset''s French translation of the medieval
+    Armenian Synaxarion before the Lives, and it carries the only vendored notice of Shushanik.
+    Transmission (a medieval Armenian calendar preserving the 5th-century martyr''s memory);
+    the author slug is the file''s, not the work''s, which this note records plainly. Era
+    III Library pass, October 2026.
+
+    '
+  source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
+- row_id: joshua-the-stylite_chronicle_wright1882--armenians-fire-temples-kawad
+  work: 'Chronicle XX-XXI: the Armenians under Kawad destroy the Persian fire-temples (c.
+    491)'
+  author: joshua-the-stylite
+  locus: file lines ~1060-1105; quoted at ~1097-1101
+  role: context
+  confidence: assigned
+  note: 'A contemporary Syriac witness to Armenian resistance to Persian fire-worship forty
+    years after Avarayr.
+
+    '
+  source_file: joshua-the-stylite_chronicle_wright1882.txt
+- row_id: langlois_collection-historiens-armenie-tome2-fra_1869--koriun-life-of-mashtots
+  work: Koriun, Life of Mesrop (Mashtots), French
+  author: koriun
+  locus: the Koriun section of the volume
+  role: tradition
+  confidence: assigned
+  note: 'The inventor of the Armenian script as his pupil saw him, with the mission to the
+    Albanians and Iberians; the only vendored witness to the Albanian alphabet outside Moses
+    of Khoren.
+
+    '
+  source_file: langlois_collection-historiens-armenie-tome2-fra_1869.txt
+- row_id: langlois_collection-historiens-armenie-tome2-fra_1869--lazar-of-parp
+  work: Lazar of Parp, History of Armenia (French)
+  author: lazar-parpetsi
+  locus: the Lazar section of the volume
+  role: tradition
+  confidence: assigned
+  note: 'The sober second historian of Avarayr and the settlement of 484; French only.
+
+    '
+  source_file: langlois_collection-historiens-armenie-tome2-fra_1869.txt
+- row_id: moses-khoren_history-of-armenians-ita_mechitaristi1850--book-iii-end-before-avarayr
+  work: History of the Armenians, Book III (to c. 440)
+  author: moses-khoren
+  locus: Book III
+  role: antecedent
+  confidence: needs-ruling
+  note: 'Ends just before Avarayr; the work''s own date (5th or 8th century) is Contested,
+    so antecedent needs-ruling.
+
+    '
+  source_file: moses-khoren_history-of-armenians-ita_mechitaristi1850.txt
 - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-3
   work: 'The Church of Armenia (Ormanian; Gregory''s English translation, 1912): chapters
     VII-X, the fifth and sixth centuries'
@@ -16,6 +141,30 @@ works:
 
     '
   source_file: ormanian_church-of-armenia_gregory1912.txt
+- row_id: procopius_wars-1-2-persian_dewing1914--wars-i-ii-armenia-persia-frontier
+  work: History of the Wars I-II (Persarmenia and the Persian frontier under Kawad and Khosrau)
+  author: procopius
+  locus: Books I-II, the Armenian and Mesopotamian chapters
+  role: context
+  confidence: provisional
+  note: 'The Roman-Persian wars as the political frame of Persarmenia and of the Christians
+    inside the Sasanian empire. Provisional: the church-specific material is thin and a build
+    thread should pin exact chapters.
+
+    '
+  source_file: procopius_wars-1-2-persian_dewing1914.txt
+- row_id: sebeos_histoire-d-heraclius-fra_macler1904--histoire-d-heraclius
+  work: Sebeos, History (Histoire d'Heraclius), French
+  author: sebeos
+  locus: whole text
+  role: tradition
+  confidence: provisional
+  note: 'Tradition for Armenia (a bishop''s own history); for Albania, Georgia and Persia
+    it is the Armenian view of neighbours and context. Tier 4: composed after the Armenian
+    entry''s window.
+
+    '
+  source_file: sebeos_histoire-d-heraclius-fra_macler1904.txt
 - row_id: timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908--timothy-aelurus-refutation-armenian
   work: Timothy Aelurus, Refutation of Chalcedon, Armenian text (1908)
   author: timothy-aelurus
@@ -27,3 +176,32 @@ works:
     (the voice is Alexandrian, assigned above); whether the Armenian entry should also hold
     it as tradition, as a text it adopted, is a call for that entry''s builder.'
   source_file: timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908.txt
+- row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--ii-5-proclus-tome-armenians
+  work: Chronicle Book II.5 (Proclus of Constantinople's Tome to the Armenians, c. 435, given
+    in full)
+  author: zachariah-rhetor
+  locus: Book II ch. 5 (raw file lines ~1367-2027)
+  role: antecedent
+  confidence: needs-ruling
+  note: 'The doctrinal text the Armenian church argued from against Chalcedon. Antecedent
+    by the corpus-map''s own rule only once the Armenian entry''s own vendored sources (Elishe,
+    Lazar) are shown to argue from it; needs-ruling until then. Era III Library pass, October
+    2026.
+
+    '
+  source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
+- row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--xii-7-armenia-georgia-albania-persia
+  work: 'Chronicle Book XII.7 (the Christian peoples of the Caucasus: Armenia''s Catholicos
+    at Dvin, Gurzan, Arran; Kardutsat''s mission to the Huns; the Persian Catholicos Joseph
+    at court)'
+  author: zachariah-rhetor
+  locus: Book XII ch. 7 (raw file lines ~16313-16515)
+  role: context
+  confidence: assigned
+  note: 'A geographical survey written c. 555 naming the Armenian Catholicos Gregory at Dvin,
+    Georgia''s Christian prince under Persia, Albania ("Arran") as a baptized people whose
+    bishop Kardutsat went to the Huns, and the Persian Catholicos Joseph as the king''s physician.
+    One short chapter serving four worlds. Era III Library pass, October 2026.
+
+    '
+  source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt

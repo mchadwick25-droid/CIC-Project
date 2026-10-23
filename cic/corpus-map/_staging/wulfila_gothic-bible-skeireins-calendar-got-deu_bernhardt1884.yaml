@@ -1,0 +1,39 @@
+source_file: wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt
+
+authors_ruled:
+  wulfila:
+    kind: metadata-omission
+    evidence: >
+      The title names the Bible as Vulfila's; the host record names only the editor.
+    from_file: wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt
+  skeireins:
+    kind: anonymous
+    evidence: >
+      The Skeireins is an anonymous Gothic commentary on John; Bernhardt prints it under its
+      Gothic title.
+    from_file: wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt
+
+assignments:
+  - row_id: wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884--gothic-bible
+    work: "The Gothic Bible of Wulfila"
+    author: wulfila
+    locus: "biblical books by chapter and verse"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      The Gothic church's scripture; the translation is 4th-century, the church's use of it
+      ran through the window. Provisional on dating.
+
+  - row_id: wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884--skeireins
+    work: "The Skeireins (Gothic commentary on the Gospel of John)"
+    author: skeireins
+    locus: "raw lines ~10977-11137"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      The one Gothic theological work; its date (5th-6th c.) and Homoian character are
+      scholarly inference, hence provisional.

@@ -38,3 +38,13 @@ assignments:
   note: >-
     Overland route through Aleppo, Nineveh, Baghdad and Basra, meeting the Chaldean church; placed on
     route, not read for that material.
+- row_id: vincenzo-maria_viaggio-indie-orientali-ita_1672--il-viaggio-all-indie-orientali-libro-secondo-the-christians-3
+  work: Il viaggio all'Indie Orientali, Libro Secondo (the Christians of St Thomas, history to 1599)
+  author: vincenzo-maria
+  locus: whole volume
+  atlas_ids:
+  - st-thomas-christians-1300-1517
+  role: context
+  confidence: provisional
+  note: Seventeenth-century Carmelite account, after the window. Staged for the earlier world. Chapters
+    1 to 3 give the history to 1599; placed on subject, not read through.

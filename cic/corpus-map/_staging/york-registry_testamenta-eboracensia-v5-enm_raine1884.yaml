@@ -1,0 +1,15 @@
+source_file: york-registry_testamenta-eboracensia-v5-enm_raine1884.txt
+assignments:
+- row_id: york-registry_testamenta-eboracensia-v5-enm_raine1884--testamenta-eboracensia-vol-v-surtees-society-79-wills-registered-at-york-mostly-of-1510-to-the-1530s-so-only-t
+  work: 'Testamenta Eboracensia, vol. V (Surtees Society 79): wills registered at York, mostly of 1510
+    to the 1530s, so only the years to 1517 fall in the window'
+  author: york-registry
+  locus: the preface from file line 152; the wills follow in registry order
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: provisional
+  note: 'Wills registered at York, in the testators'' own words (the passages read show bequests for torches,
+    masses and a chantry priest). readable English wills with some misread letters. Only about a third
+    of the wills fall inside the window (1510-1517); the rest are later. A second witness for exact wording;
+    check page images before quoting. '

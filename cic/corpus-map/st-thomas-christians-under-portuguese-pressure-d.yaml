@@ -18,6 +18,24 @@ works:
 
     '
   source_file: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--bibliotheca-orientalis-iii-1-assemani-1725-the-malabar
+  work: 'Bibliotheca Orientalis III.1 (Assemani, 1725): the Malabar bishops'' history and
+    their Syriac letter of 1504 to the patriarch, in Assemani''s Latin'
+  author: assemani
+  locus: the entry on the bishops of India and their letter of the year of the Greeks 1815,
+    Christ 1504, at about file lines 97040-97920 (volume page 590 onward); the letter's own
+    text is in the Latin of Assemani's extract
+  role: tradition
+  confidence: provisional
+  note: 'The one place inside the window where the Malabar Christians speak in their own name:
+    the bishops'' letter of 1504, here in Assemani''s Latin (the Syriac is in Vatican Syriac
+    5, not on the shelf). Placed on the passage found at the lines cited, not read through;
+    the Latin OCR reads the long s as f, so a second witness for exact wording until checked
+    against the page image. Mingana 1926 (vendored) gives an English rendering of the same
+    letter.
+
+    '
+  source_file: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
 - row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555-3
   work: 'Bibliotheca Orientalis III.2, Caput IX: the St. Thomas Christians and the bishops
     sent to Malabar by the Chaldean patriarchs'
@@ -33,6 +51,18 @@ works:
 
     '
   source_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+- row_id: barbosa_book-of-duarte-barbosa-vol2_dames1921--the-book-of-duarte-barbosa-vol-ii-malabar-and-the-christians
+  work: The Book of Duarte Barbosa, vol. II (Malabar and the Christians of St Thomas, about
+    1518)
+  author: barbosa
+  locus: Cochin Fort and the Christians of St Thomas at the contents lines near 306-407; the
+    Thomas legend at about line 1262 and Cranganor at 6382-6404
+  role: context
+  confidence: provisional
+  note: Outsider Portuguese account of Malabar completed about 1518, English translation,
+    clean OCR. Placed on the contents entries for the Christians of St Thomas; not read through.
+    Inside the last year of the window.
+  source_file: barbosa_book-of-duarte-barbosa-vol2_dames1921.txt
 - row_id: francis-xavier_life-and-letters-v1_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-i-2
   work: The Life and Letters of St. Francis Xavier, Vol. I
   author: francis-xavier
@@ -189,6 +219,19 @@ works:
     and a half after the events and in translation, so treat as community memory, not contemporary
     record.
   source_file: whitehouse_lingerings-of-light-in-a-dark-land_1873.txt
+- row_id: mingana_early-spread-of-christianity-in-india_mingana1926--the-early-spread-of-christianity-in-india-with-translated-co
+  work: The Early Spread of Christianity in India (with translated colophons of 1301 and the
+    1490s)
+  author: mingana
+  locus: the 1301 Cranganore colophon at file lines 3520-3565; the bishops' ordination note
+    of 1504 at 2040-2056; later colophons at 3575-3627
+  role: context
+  confidence: assigned
+  note: Scholarly article that prints English translations of the 1301 Cranganore colophon
+    and the bishops' colophons of the 1490s and 1504. The translated colophons are the nearest
+    thing in the library to the community's own written voice; the argument around them is
+    scholarship. English OCR clean. Check against the Syriac before quoting.
+  source_file: mingana_early-spread-of-christianity-in-india_mingana1926.txt
 - row_id: philipos_syrian-christians-of-malabar_howard1869--answers-on-the-belief-and-history-of-the-syrian-christians
   work: 'The Syrian Christians of Malabar, otherwise called the Christians of S. Thomas (Philipos,
     1869): a Malabar priest''s answers to 82 questions on his church''s belief and history'
@@ -292,6 +335,18 @@ works:
     scan than Geddes 1694 and the better text to quote from once checked against the page
     images. A hostile hand on the community; the decrees are Rome's, not the Syrians'.
   source_file: hough_history-of-christianity-in-india-v2_1839.txt
+- row_id: varthema_travels-of-ludovico-di-varthema_jones-badger1863--travels-of-ludovico-di-varthema-1503-1508-the-st-thomas-chri
+  work: Travels of Ludovico di Varthema, 1503-1508 (the St Thomas Christians at Kayamkulam)
+  author: varthema
+  locus: the notice of the Christians of St Thomas at printed page 180, file lines 14275-14287;
+    note 1 on the same page quotes Barbosa on Caincoulan at 14296-14305
+  role: context
+  confidence: assigned
+  note: 'Outsider eyewitness (an Italian traveller, 1503 to 1508), English translation, clean
+    OCR. The page-180 notice of the Christians of St Thomas is short and specific: a priest
+    from Babylon every three years, a longer Lent, mass like the Greeks. Ready to quote once
+    verified against the scan. Badger''s notes are scholarship.'
+  source_file: varthema_travels-of-ludovico-di-varthema_jones-badger1863.txt
 - row_id: vincenzo-maria_viaggio-indie-orientali-ita_1672--il-viaggio-all-indie-orientali-libro-secondo-the-christians
   work: Il viaggio all'Indie Orientali, Libro Secondo (the Christians of St. Thomas)
   author: vincenzo-maria

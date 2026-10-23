@@ -1,0 +1,17 @@
+source_file: cell-of-self-knowledge_seven-early-english-mystical-treatises_gardner1910.txt
+assignments:
+- row_id: cell-of-self-knowledge_seven-early-english-mystical-treatises_gardner1910--the-cell-of-self-knowledge-seven-treatises-printed-by-pepwell-in-1521-ed-edmund-g-gardner-with-the-short-print
+  work: 'The Cell of Self-Knowledge: seven treatises printed by Pepwell in 1521, ed. Edmund G. Gardner
+    (with the short printed Kempe extract)'
+  author: cell-of-self-knowledge
+  locus: contents from file line 165; Gardner's discussion of Kempe at line 513; the Kempe extract from
+    line 2360
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: 'The only vendored text that carries any of Margery Kempe''s Book: the short extract printed by
+    Wynkyn de Worde (Gardner dates it about 1501) and again by Pepwell in 1521. It also holds Hilton''s
+    Song of Angels and the Epistles of Prayer, Discretion and Discerning of Spirits from the Cloud group.
+    Clean OCR; a primary voice, ready to quote once verified against the scan. It is not the full Book,
+    which is closed (modern editions are in copyright).'

@@ -1,0 +1,15 @@
+source_file: maximus-confessor_disputatio-cum-pyrrho-pg91-grc-lat_migne1860.txt
+
+assignments:
+  - row_id: maximus-confessor_disputatio-cum-pyrrho-pg91-grc-lat_migne1860--disputation-pyrrhus
+    work: "Maximus the Confessor, Disputatio cum Pyrrho (Carthage, 645)"
+    author: maximus-confessor
+    locus: "raw lines ~216 and ~15044"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: context
+    confidence: needs-ruling
+    note: >
+      Whether Maximus, a Greek monk who spent years in Africa, speaks for an African Latin
+      church (tradition) or from outside is a needs-ruling named in the Latin Africa
+      dossier. Second witness only.

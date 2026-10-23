@@ -1,0 +1,25 @@
+source_file: langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902.txt
+
+assignments:
+  - row_id: langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902--langenberg-quellen-und-forschungen-groote-s-tract-on-simony
+    work: "Langenberg, Quellen und Forschungen (Groote's tract on simony and the beguines; a lay rule; Low German texts)"
+    author: langenberg
+    locus: "parts 1 and 5 for the Groote tract and the lay rule; whole volume otherwise"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      Groote in his own Middle Dutch, with a study. Primary for the printed texts, scholarship for the
+      commentary. No public-domain English found.
+  - row_id: langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902--langenberg-quellen-und-forschungen-part-11-low-german
+    work: "Langenberg, Quellen und Forschungen (part 11: Low German mysticism and Meister Eckhart)"
+    author: langenberg
+    locus: "part 11, 'Die niederdeutsche Mystik und Meister Eckhart'"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: context
+    confidence: provisional
+    note: >
+      Placed on the contents list's title for part 11; the part was not read through. Scholarship on
+      Eckhart's reach into the Low Countries.

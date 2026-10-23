@@ -1,0 +1,32 @@
+source_file: symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt
+assignments:
+- row_id: >-
+    symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866--symeon-of-thessalonica-dialogue-against-heresies-and
+  work: >-
+    Symeon of Thessalonica, Dialogue against heresies and treatises on the rites, the temple, prayer and the sacraments,
+    Greek with Latin, in Migne PG 155
+  author: symeon-thessalonica
+  locus: Dialogus contra haereses from about file line 1310
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: provisional
+  note: >-
+    A Palaiologan archbishop of Thessalonica writing for clergy and people on how the liturgy and sacraments are
+    done. A church voice inside the window; placed from the elenchus and headings, and the Dialogue was sampled.
+    A primary voice, ready to quote once checked verbatim against the scan; Greek and Latin are read from the same
+    OCR, and a quote record must be verified against the page image. No public-domain English translation of this
+    work is vendored (see the dossier, section 4).
+- row_id: >-
+    symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866--symeon-of-thessalonica-treatises-and-responses-in-migne-pg
+  work: Symeon of Thessalonica, treatises and responses, in Migne PG 155
+  author: symeon-thessalonica
+  locus: as above
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: context
+  confidence: provisional
+  note: >-
+    He heirs the Thessalonian see of Palamas and Cabasilas and writes in the hesychast manner on prayer; placed
+    on place and window, outside the 1300-1400 window by a generation. Whether this belongs to the hesychast world
+    is a cross-world question.

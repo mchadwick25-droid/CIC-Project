@@ -16,3 +16,15 @@ assignments:
       the movement this world is built around. This candidate had no
       prior Source Readiness Dossier or corpus-map presence before this
       file.
+  - row_id: hus_de-ecclesia-the-church_schaff1915--hus-de-ecclesia-schaff-s-translation-wyclif-named-and-used
+    work: 'Hus, De ecclesia (Schaff''s translation): Wyclif named and used'
+    author: hus
+    locus: whole volume
+    atlas_ids:
+    - lollardy
+    role: context
+    confidence: provisional
+    note: 'Wyclif is named about ninety times in this file. Hus''s treatise rests on Wyclif''s De ecclesia,
+      which is vendored for this world. Tier: same time-different region.
+  
+      '

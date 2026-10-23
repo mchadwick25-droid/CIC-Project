@@ -1,0 +1,22 @@
+source_file: chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt
+
+authors_ruled:
+  chronicle-of-seert-ii2:
+    kind: anonymous
+    evidence: >
+      The Chronicle of Seert is an anonymous Arabic compilation; the edition names only its
+      editor and translator.
+    from_file: chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt
+
+assignments:
+  - row_id: chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919--chronicle-of-seert-ii2
+    work: "Chronique de Seert (Histoire nestorienne), II.2, with French"
+    author: chronicle-of-seert-ii2
+    locus: "from raw line ~25256; Ishoyahb of Arzun at ch. XLII"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: transmission
+    confidence: provisional
+    note: >
+      The East Syrian church's own narrative memory of its catholicoi, schools and martyrs;
+      late compilation, French only, provisional.

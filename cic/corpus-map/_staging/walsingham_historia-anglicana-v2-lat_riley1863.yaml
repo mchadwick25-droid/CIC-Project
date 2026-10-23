@@ -1,0 +1,14 @@
+source_file: walsingham_historia-anglicana-v2-lat_riley1863.txt
+
+assignments:
+  - row_id: walsingham_historia-anglicana-v2-lat_riley1863--thomas-walsingham-historia-anglicana-vol-ii-1381-1422-riley
+    work: "Thomas Walsingham, Historia Anglicana vol. II, 1381-1422 (Riley, Rolls Series)"
+    author: walsingham
+    locus: "whole volume; the annals from 1381 on"
+    atlas_ids:
+      - lollardy
+    role: context
+    confidence: assigned
+    note: >
+      A hostile chronicler's account of the movement from Wyclif's condemnation to Oldcastle. Hostile
+      witness, Latin; the file is the monk's voice, not the movement's.

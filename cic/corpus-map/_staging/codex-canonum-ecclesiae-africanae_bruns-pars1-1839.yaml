@@ -3,6 +3,14 @@
 # councils bound in the same public-domain volume.
 source_file: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
 
+authors_ruled:
+  councils-of-toledo:
+    kind: anonymous
+    evidence: >
+      The Bruns volume prints the acts of Toledo I-XVII as conciliar texts with no
+      individual author.
+    from_file: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
+
 assignments:
   - row_id: codex-canonum-ecclesiae-africanae_bruns-pars1-1839--the-code-of-canons-of-the-african-church-codex-canonum
     work: "The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council of Carthage, 419)"
@@ -33,3 +41,17 @@ assignments:
       asked, from outside, whether this text belongs there as context,
       antecedent, or something narrower. Named per corpus-map's own
       non-exclusivity principle rather than silently omitted.
+
+  - row_id: codex-canonum-ecclesiae-africanae_bruns-pars1-1839--toledo-iii-xvii
+    work: "The councils of Toledo, III (589) to XVII (694): Reccared's speeches and the canons"
+    author: councils-of-toledo
+    locus: "raw lines ~14601-26270 (about 77,300 words); Toledo III ~14601-15180; Reccared ~14684; Toledo XVII ~25450"
+    atlas_ids:
+      - nicene-visigothic-iberia
+      - gothic-and-vandal-homoian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Already in the repository under the African councils; this is the Visigothic church's
+      own legislation. For the Homoian entry the same Toledo III text is context (the Bruns
+      edition omits the Gothic bishops' confession; the Madrid 1808 file has it).

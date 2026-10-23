@@ -1,0 +1,1301 @@
+Title: Testamenat gosta Radina. Prinos patarenskom pitanju (Testament of Gost Radin: a contribution to the Patarene question), with 4 plates; printed in Glasnik zemaljskog muzeja u Bosni i Hercegovini, XXIII, 1911, pp. 355-376
+Creator: Dr. Ćiro Truhelka (editor and commentator); the testament itself was made in Dubrovnik in 1466 by Gost Radin, a senior man of the Bosnian Church
+Publisher: Sarajevo: Zemaljski muzej u Bosni i Hercegovini (Land Museum of Bosnia and Herzegovina), Zemaljska štamparija (Land Press), 1911
+Publication Date: 1911
+Rights: Public Domain
+Rights basis: pd-us-by-date. The volume title page in the scan reads "XXIII. 1911 ... SARAJEVO ... ZEMALJSKA ŠTAMPARIJA ... 1911" (host lines 36 to 44 and 76 to 80) and the running heads read "Glasnik zemaljskog muzeja u Bosni i Hercegovini. 1911. XXIII. 1. i 2." The host item record gives date 1948 and publisher "Državna štamparija", which does not match the volume's printed 1911 and is not relied on. The item record carries no possible-copyright-status or licence field.
+Language: hrv
+Source: Internet Archive item glasnikzemaljsk2319zema_2 (archive.org/details/glasnikzemaljsk2319zema_2), full-text file glasnikzemaljsk2319zema_2_djvu.txt, fetched directly by the Library thread, October 2026. Host contributor: University of Illinois Urbana-Champaign.
+Provenance note: Partial extract. Header prepended; the text that follows is lines 20081 to 21369 of the host file, copied unchanged: it starts at the article's title line ("Testamenat gosta Radina.") and stops at the line before the next article's title ("Народне празновјерице о малу."). Nothing inside the extract was normalised, stripped, corrected, re-spaced or retyped. OCR sampled at the start, middle and end of the extract: Truhelka's Latin-script Croatian reads well (doubled spaces); the testament's own text, printed in Bosnian Cyrillic (bosančica), is garbled letter by letter and is not usable.
+Content note: Gost Radin, the senior churchman and counsellor of Duke Stephen Vukčić, whom the census names as the only voice from inside the church, left a testament in Dubrovnik in 1466; Truhelka found it in the Ragusan archive (Testamenta Notariae, volume 20, last four pages) and printed it here for the first time with a long commentary. In the extract: the finding and Radin's career (from file line 26); Radin as a witness to Duke Stephen's own testament of 21 May 1466 (614); the manuscript's description (682); the large cross at the head of the text and the opening words "Va ime oca i sina i svetago duha. Amen." (818 to 820); the argument that the church's own official name is "crkva bosanska" and that no Bosnian or Ragusan document calls its members Bogomils (809); the discussion of the "krsna slava" (family patron-saint feast) (923 to 968); then "Tekst testamenta Radina gosta" (1095) with the text in Bosnian Cyrillic to its close, "писано ... у Дубровнику" (1300). The testament's wording is NOT quotable from this OCR: use the plates and the page images. Truhelka writes in 1911 as an editor with a thesis (that the church was Patarene, not Bogomil); his Croatian is scholarship, not Radin's voice. No English translation found.
+
+---
+
+Testamenat  gosta  Radina. 
+
+Prinos  patarenskom  pitanju. 
+
+Priopćio 
+
+Dr.  Ćiro  Truhelka. 
+
+(Sa  4  table.) 
+
+
+Megju  dokumentima,  koje  sam  prošle  godine  imao  prilike  obresti  u  dubrovačkoj 
+arhivi,  bijaše  i  testamenat  patarena  Radina  gosta,  što  ga  evo  priopćujem.  Taj  doku- 
+menat,  koji  dosada  nije  pao  u  oči  ni  jednome  od  učenjaka,  koji  su  proučavali  obilnu 
+historičku  gragju  ove  arhive,  našao  sam  u  svesci  testamenata  iz  god.  1466.  napisan  na 
+zadnje  četiri  stranice  ovoga  krasnog  pergamentnog  kodeksa.  Kako  je  on  ne  samo  po 
+svome  sadržaju  nego  i  po  osobi  testatora  vrlo  zanimljiv  dokumenat,  držim  da  će  biti 
+vrijedno  prije  svega  iznijeti,  što  sam  mogao  o  ličnosti  testatora  saznati  iz  ostalih 
+zapisa  dubrovačke  arhive. 
+
+Radin  bijaše  svećenik  patarenske  crkve  te  se  je  kao  takav  uspeo  do  visokog 
+zvanja  patarenskog  gosta.  Mi  ga  nalazimo  isprva  kao  krstjanina  na  prvoj  stepe- 
+nici patarenske  hijerarhije,  poslije  na  višoj,  kao  starca  a  najposlije,  kao  gosta,  u 
+časti,  koja  odgovara  biskupskoj  u  ostalih  kršćanskih  sljedba^). 
+
+Prvi  put  mu  nalazimo  spomena  u  godini  1422.  u  knjizi,  pisanoj  rukom  dubro- 
+vačkog logoleta  Ruska,  sina  magistra  Kristifora,  koja  sadržaje  prepiše  slovjenskih 
+pisama  dubrovačkih,  pisanih  izokolnim  vladarima  i  velmožama  koncem  XIV.  i 
+početkom  XV.  vijek  a  ^),  na  124.  listu  a  u  pismu,  pisanom  vojvodi  Sandalju  31.  marta  1422. 
+
+Uzrok  pisanju  ovoga  lista  bijaše  slijedeći:  Zupa  Konavlje  bijaše  na  polu  vlas- 
+ništvo vojvode  Sandalja  a  na  pola  vojvode  Radosava  Pavlovića.  Sandalj,  od  starine 
+veliki  prijatelj  Dubrovčana,  prodao  je  god.  1419.  svoju  polu  Konavalja  Dubrovčanom 
+a  ovi  postaviše  ondje  posebnoga  konavoskog  kneza  Pavla  Restića,  koji  je  imao  svoje 
+sijelo  u  Ljutoj,  dočim  je  Radosavljevim  dijelom  Konavalja  upravljao  njegov  knez 
+Branko,  koji  je  sjedio  u  gradu  Sokolu,  polovičnom  vlasništvu  Radosavljevom.  Čini 
+se,  da  je  izmegju  oba  kneza  došlo  do  nesloge,  jer  na  pokladni  utorak  godine  1422. 
+sabra  knez  Branko  svoje  „junake",  koji  su  bili  u  gradu  i  izokolnim  selima  i  navali 
+
+Rački  doduše  stavlja  tek  djeda  u  paralelu  sa  biskupom,  ali  ja  držim,  da  je  stepen  djeda,  koji 
+je  načelnik  čitave  patarenske  crkve  bosanske,  viši  nego  biskupski,  te  bi  se  imao  sravniti  sa  stepenom 
+patrijarhe  ili  bar  metropolite,  koma  su  gosti  bili  sufragani. 
+
+2)  Ova  knjiga  registrirana  je  u  dubrovačkoj  arhivi  kao  prva  sveska  zbirke  Lettere  e  Commis- 
+sioni  di  Levante  a  priopćio  ju  je  Pucić  u  Biogradu  1858.  pod  naslovom  „Спомени11,и  Сриски". 
+
+8 
+
+
+—    356  — 
+
+
+sred  noći  na  kuću  dubrovačkog  konavoskog  kneza  u  Ljutoj,  opljačka  je  i  orobi  do 
+temelja,  a  knez  jedva  iznese  živu  glavu. 
+
+Ovu  činjenicu  potvrdio  je  knez  Radič,  koji  je  u  ime  Sandaljevo  upravljao  drugom 
+polovicom  grada  Sokola,  vlasništvom  Sandaljevim. 
+
+28.  februara  potužiše  se  Dubrovčani  prema  zaključku  vijeća  umoljenih  (consil. 
+rogatorum)!)  pismeno  Radosavu  radi  ovoga  nasilja,  sto  ga  je  počinio  njegov  knez, 
+a  4.  marta  pisaše  i  samom  Branku,  zahtijevajući  od  njega,  da  vrati,  što  je  oteo 
+njihovom  knezu. 
+
+Oba  spomenuta  pibma  ostadoše  bezuspješna.  Knez  Branko,  prem  mu  je  vojvoda 
+Kadoslav  naložio,  ne  htjede  od  ukradenih  stvari  ništa  povratiti.  I  tako  Dubrovčanom 
+ne  osta  ino,  nego  da  zamole  opet  svog  starog  prijatelja  Sandalja,  da  intervenira.  Ovaj 
+je,  kako  se  razabire  iz  dubrovačkog  pisma  od  31.  marta,  poslao  Radoslavu  poklisara 
+a  ovaj  mu  opet  poslao  kao  svoga  poklisara  svoga  „slugu"  Radina  (P<^At>Nb) 
+krstjanina,  koji  je  Sandalju  kazivao  ispred  svoga  gospodara,  daje  zlodjelo,  počinjeno 
+na  Ljutoj,  učinjeno  bez  znanja  Radosavova  i  da  je  ovaj  zapovjedio  Branku,  da  plijen 
+vrati,  što  je  ovaj  navodno  i  učinio. 
+
+I  tako  se  Radin  krstjanin  pojavljuje  prvi  puta  kao  poklisar  Radoslavov  u 
+pitanju,  koje  se  ticalo  Konavalja  a  u  istom  pitanju  igrao  je  isti  Radin  i  poslije  vrlo 
+važnu  ulogu.  Megjutim  tvrdnja  Radinova,  da  je  Branko  sve  vratio,  nije  bila  istinita; 
+šta  više,  kada  su  Dubrovčani  dvaput  poslali  čovjeka,  da  na  osnovu  ovih  vijesti  zaište 
+od  njega,  da  vrati  plijen,  on  nije  ni  otpisao,  nego  je  osorno  odvratio,  da  je  sve  učinio 
+po  zapovjedi  svoga  gospodara  i  da  on  ništa  ne  kani  vratiti. 
+
+Na  ponovnu  tužbu  poslao  je  Radosav  Pavlović  Dubrovčanom  uz  svoje  pismo  i 
+dva  druga ;  jedno  za  kneza  Branka  a  drugo  za  župana  Radosava  Grlavića,  u  kojima 
+nalaže,  da  se  plijen  vrati ;  ali  i  to  osta  bez  uspjeha,  jer  je  Branko,  primiv  pismo 
+svoga  gospodara,  Dubrovčaninu,  koji  mu  ga  je  predao,  odgovorio  još  osornije,  da  će 
+njihovom  knezu  i  nadalje  „zlo  i  nepošteno"  učiniti. 
+
+To  je  Dubrovčane  tako  ozlovoljilo,  da  su  pismom  od  9.  maja  1422.  zamolili 
+velikog  vojvodu  Sandalja,  koji  je  baš  polazio  na  zbor  u  Bosnu  da  izabere  novoga 
+kralja  (Tvrtka  IL),  da  spomene  na  zboru  i  ovo  nasilje,  „neka  gospoda  rusaška 
+vide,  jer  je  nedragostno,  što  je  njegovim  prijateljem  učinjeno!" 
+
+Na  ovaj  dogogjaj,  s  kojim  se  bavi  devet  pisama  u  Ruskovom  kodeksu  ^)^  odnosi 
+se  i  jedan  dokumenat,  što  sam  ga  našao  u  zbirci  Lamenta  de  Foris,  a  to  je 
+uredovna  tužba  konavoskog  kneza  od  4.  aprila  1422.,  u  kojoj  veli,  da  je  knez  Branko 
+iz  Sokola  navalio  sa  15  drugova  na  njegovu  kuću  te  ju  posve  orobio  ^). 
+
+
+Sr.  „Partes"  toga  vijeća  Ш.  75. 
+
+2)  U  Pucićevom  izdanja  br.  280.,  281.,  282.,  284.,  286.,  287.,  288.,  289.  i  291. 
+
+3)  Da  se  od  prilike  vidi  kućni  inventar  odličnije;ya  Dubrovčanina  one  dobe,  koji  je  vršio  funkciju 
+konavoskog  kneza,  donosim  ovdje  popis  predmeta,  ukradenih  ovom  prilikom,  dodan  ovoj  tužbi.  Mislim  da 
+će  kulturnog'  historika  zanimati,  jer  je  jedan  od  najpotpunijih  popisa  kućnog  namještaja  ove  dobe,  koji  mi 
+je  došao  pod  ruku  a  dokazuje,  da  srednji  vijek  ni  na  selu  nije  baš  oskudijevao  komfortom.  Evo  taj  popis: 
+
+Tacias  tres  argenti;  —  cuslerios  sex  argenti;  centurias  duas  argenti;  —  modicum  argenti;  —  coper- 
+torium  vnum  a  lecto  de  panno,  foderatum  mar  ture;  —  copertorium  vnum  de  tela;  —  pernicam  imam;  — 
+mataragum  vnum;  —  duo  parid  lentiaminum ;  —  duo paria  tugdellarum  siue  guancaliorum ;  —  tres  camisias 
+cum  mutandis  quatuor  2)aria  j^edonorum;  —  nappas  magnas  tres;  —  tebaleas  a  тепш  nouem;  —  tebaleas 
+duas  magnas  pictas ;  —  tebaleas  duas  magnas  a  capite;  —  vnavi  sioccham  de  berettino,  foderatam  vulpibus ; 
+
+—  mnntellum  vmim  beretinum,  suffulatum  2)anni  blaui;  —  vnum  corettum  album,  fultum  cum  ^шппо  blauo  ; 
+
+—  tria  paria  calegarum;  —  trla  birreta  magna  et  duo  parua;   vnnm   diploidem   de  fusfagno   —  vnam 
+
+
+—    SM  — 
+
+
+Ovaj  dogogjaj  ponukao  je  Dubrovčane,  da  pokušaju  svoje  teritorijalne  akvizicije 
+na  bosanskom  zemljištu  nastaviti.  Nijesam  saznao,  kaku  su  zadovoljštinu  dobili  za 
+razbojstvo  kneza  Branka,  ali  oni  još  pod  dojmom  ovoga  dogogjaja,  5.  marta  1422., 
+zaključiše  da  ponude  Radosavu  za  njegovu  polu  Konavalja  i  Sokola  te  za  Obod  istu 
+svotu,  koju  su  platili  prije  tri  godine  vojvodi  Sandalju  za  njegove  dijelove.  Megjutim, 
+kuga,  koja  se  skoro  pojavila  u  Dubrovniku  te  je  trajala  sve  do  jeseni  ^),  bila  je 
+uzrokom,  da  su  ovi  pregovori  prekinuti. 
+
+Iza  kuge,  kada  je  oslabio  dojam  lupežtine  Brankove  —  početkom  slijedeće 
+godine,  —  postigoše  Dubrovčani  bar  donekle  svoju  želju.  Veliki  vojvoda  Sandalj, 
+davni  i  zbilja  nesebični  prijatelj  Dubrovnika,  pokloni  im  svoju  polu  Sokola  a  vojvoda 
+Radoslav,  kao  slavičan  čovjek,  zaželio  je,  da  i  on  postane  dubrovačkim  plemićem  kao 
+i  vojvoda  Sandalj,  a  prije  njega  herceg  Hrvoja,  i  pokazao  se  sklonim,  da  bar  donekle 
+ispuni  želje  Dubrovčana  te  im  je,  valjda  nagovorom  Sandaljevim,  poklonio  i  svoju 
+polu  Sokola  uz  uvjet,  da  ga  imenuju  svojim  plemićem  i  vijećnikom. 
+
+Pošto  je  podjeljivanje  plemstva  spadalo  u  kompetenciju  velikoga  vijeća,  zaključilo 
+je  vijeće  umoljenih  (consilium  rogatorum)^  koje  je  upravljalo  vanjskom  politikom 
+dubrovačkom,  dne  11.  februara  1423.,  da  zamoli  od  tog  vijeća  ovlaštenje,  da  može 
+vojvodu  Radosava  Pavlovića  imenovati  plemićem  „de  consilio"  2).  (0.  Bog.  III.  139.) 
+U  to  doba  bijaše  upravo  sjajno  poslanstvo  u  Dubrovniku,  koje  je  imalo  da  svečano 
+dovrši  tu  stvar.  Sa  strane  vojvode  Radosava  bijahu  u  toj  „slavnoj  posao  bini" 
+dva  krstjanina:  Tum'rko  i  naš  Radin  te  knezovi  Budislav  i  Vukašin,  a  sa  strane 
+velikoga  vojvode  Sandalja  starac  Dmitar  i  Radovan  Vardić.  Značajno  za  veliki 
+upliv,  što  ga  patarenska  hierarhija  u  ono  doba  imagjaše  u  politici  Bosne,  jest,  da  u 
+ovakom  svečanom  poslanstvu  sudjeluju  čak  trojica  patarenskih  svećenika. 
+
+
+posedlinam  hlauam  foderatam  f  ustagno ;  —  vnum  par  pedonoram  panni  albi;  —  dicos  tapetos  nouos ;  — 
+duas  carpetas  nouas  magnas;  —  quatuo)'  enses;  —  vnavi  cultelissam;  vnum  агсгип  cum  fulcimento;  —  duos 
+scutos  sine  clipeos ;  —  vnam  lanceam,  duos  equos,  duas  sellas,  tres  Jtabenas,  trla  paria  calcarium,  vnam 
+ferreriam  seu  chorachacam  plenam  cloldorum  et  ferrorum;  —  quatuor  pelles  vrsinas  aptatas,  sex  paria; 
+suttularium ;  —  vnum  par  stiualorum;  —  vnum  par  calcognarum  seii  planellorum'^  —  quatuor  раНа  pot- 
+plat ar  um;  —  duo  marsu^na  2>6llis ;  tres  funes ;  —  saccos  duos  de  Bassia;  —  hrachia  sexaginta  canauacij ; 
+vnum  par  b{sacha7'um, ;  —  tres  cupellos  frumenti;  —  vnum.  rominum  magnum;  —  tres  buchales  de  Turchia ; 
+
+—  vnam  patrinam;  —  quatuor  vasa  a  vino  siue  bucales;  — ■  vnum  frisorium;  vnam  lucernam;  —  vnum 
+erchall  ab  oleo;  —  vnam  securim;  —  vnum.  c  os  sir;  —  vnam  inconiam  valoris  ducat.    vnius  cum  dimidio ; 
+
+—  duos  anulos  aureos ;  —  гтит  scrinem  panni;  —  quaternos  tres  carte ;  —  sex  duzenas  stringarum;  — 
+item  cere  viridis  grossor.  qmnque;  —  tres  vericulas;  grossos  septem  in  mantalis  ficub.  et  vriis  siccis ;  — 
+item  vnam  cultellariam  cum  quinque  gladiis,  vnam  cultellariam  cum  duobus  rasoriis  foerficalis  et  aliis  ful- 
+cimentis;  —  tres  gladios  i^ruos;  —  vnum  par  schacchorum;  —  patenas  duas  mngnas  de  stagno;  —  scutellas 
+octo  de  stagno;  —  patenas  duas  paruas  de  stagno;  —  salsenos  quatuor  de  stagno;  —  scutellam  vnam 
+magnam  de  terra;  —  patenas  quinque  magnas  de  ligno ;  —  patenas  sex  de  ligno ;  —  taglerios  XII.  de 
+ligno;  —  cociearia  de  ligno  viginti;  vnum  fulcile  de  ferro;  —  vnam  irissidem  plenam  piperate;  —  tresdecim 
+grossos  za/far am  inis ;  duos  gr.  candelarum ;  —  vnum  speculum;  —  duos  p>ectmes ;  —  vnum  bacile  a  tonsore; 
+viginti  duo  grossos  anserum  et  carnium;  —  vnum  carnerum;  —  sex  sonaglas  deauratas ;  —  decem  sonaglas 
+non  deauratos ;  —  vnam  sonaglam  magnam  ab  austure ;  —  quatuor  tonnellos  ab  accipitre;  —  sex  cappel- 
+littos;  —  duas  formas  a  capellittis;  vnum  j^^nniferuvi  cum  multis  pennis;  —  rnam  venteriam;  —  vnum 
+staziicm]  quinque  acus  magnas  et  quatuor  paruas;  —  duos  catinos  de  ligno;  —  quinque  polsonos  a  balista; 
+vnum  candelabrum. 
+
+*)  U  zapisima  Consil  Rogatorum  govori  se  o  njoj  od  maja  do  septembra  a  8.  maja  izdani  su  opširni 
+Ordines  sa  31  paragrafom,  koji  zapremaju  10  stranica  u  III.  svesci  zapisnika  (85' — 90')  te  nalažu,  kako 
+se  valja  za  kuge  vladati. 
+
+2)  U  Dubrovniku  je  svaki  plemić  imao  aktivno  i  pasivno  izborno  pravo  u  vijeću. 
+
+
+358  — 
+
+
+Ovo  je  poslanstvo  imalo  da  svrši  poslove  oko  predaje  grada  Sokcjla  i  da  primi 
+povelju,  kojom  se  podjeljuje  Radosavu  dubrovačko  plemstvo. 
+
+Slijedeće  dane  raspravlja  consilium  rogatorum  ponajviše  samo  o  ovom  poslanstvu 
+te  je  napokon  izdalo  Radosavljevim  poklisarom  svečanu  povelju  od  1б.  februara  14.23  , 
+kojom  se  ovaj  imenuje  dubrovačkim  plemićem  i  vijećnikom,  zapisanu  u  Liher  privi- 
+lecjioriim  na  str.  87.  i  si.  a  priopćenu  od  Miklošića  u  njegovim  Monumentima,  str.  319. 
+Da  se  bar  od  prilike  vidi,  kako  se  postupalo  kod  ovakih  prilika,  iznijeću  nekoliko 
+sitnica  iz  rasprava,  koje  su  se  onda  vodile.  Poklisari  Radosavljevi  zahtijevali  su,  da 
+se  u  povelju,  kojom  mu  se  podjeljuje  plemstvo,  uvrsti  stavka,  da  Dubrovčani  na 
+svome  zemljištu  neće  primati  bjegunaca  iz  Trebinja  ni  iz  Radosavljeve  pole  Konavalja, 
+ali  se  za  to  Radosav  morao  obvezati,  da  će  u  povelji,  što  će  je  on  dati  Dubrovčanom, 
+uvrstiti  sličnu  stavku,  koja  mu  brani  davati  Dubrovčanom  i  dubrovačkim  Konavlja- 
+nom  utočišta  na  svome  zemljištu.  Za  slavičnost  Radosavljevu  je  značajno  to,  da  su 
+njegovi  poklisari  naročito  zahtijevali,  da  se  u  povelji  riječi:  „Bnndalio,  magno  voyuode 
+Bosne  et  Eadosavo  imadu  zamijeniti  riječima  Sandalio  magno  voijuode  Bosne 
+et  „Radoslavo  voiuode  Bosne" ^  to  jest  i  Radosav  je  za  sebe  tražio  naslov  vojvode 
+bosanskog. 
+
+14.  februara  zaključilo  je  veliko  vijeće  još  darivati  poklisare  te  je  votiralo 
+četvorici  Radosavljevih  poklisara,  a  megju  njima  dakako  i  krstjaninu  Radinu,  po 
+15  lakata  fina  florentinskog  tkiva  a  15.  februara  je  predalo  ovim  poklisarima  povelju 
+plemstva  a  knez  sa  vijećnicima  лпjeća  umoljenih  svečano  se  zakleše,  da  će  se  držati 
+vijerno  svega,  što  je  u  toj  povelji  Radosavu  zajamčeno. 
+
+Grad  Sokol  imali  su  predati  Dubrovčanom  poklisari  Sandaljevi,  starac  Dmitar  i 
+knez  Radosav  Vardić,  a  preuzeti  su  ga  imala  dva  naročito  delegirana  dubrovačka 
+plemića,  dočim  je  knez  konavoski  dobio  nalog,  da  preseli  u  Sokol  i  da  tamo  stoji  deset 
+dana,  dok  vijeće  ne  odašalje  naročitog  kueza  sokolskog,  koji  će  vršiti  službu  kaštelana. 
+
+Da  se  stvar  posve  zaglavi  trebalo  je  samo  još,  da  i  vojvoda  Radosav  izdade 
+Dubrovčanom  povelju,  kojom  im  jamči  posjed  Sokola  i  bivše  Sandaljeve  pole  Kona- 
+valja te  obećaje,  kao  plemić  i  vijećnik  dubrovački,  Dubroлmiku  vjeru  i  zaštitu  u 
+svakoj  potrebi.  Koncept  te  povelje  su  ponijeli  njegova  četiri  poklisara  u  Dubrovnik, 
+vijeće  je  na  njemu  provelo  stanovite  ispravke,  a  dubrovački  logofet  Rusko  sastavio 
+je  i  predložio  20.  februara  1423.  definitivni  koncept  te  povelje,  koja  se  danas  u  ori- 
+ginalu čuva  u  c.  i  kr.  arhivu  u  Beču,  potpisana  i  zakletvom  Radosava  i  njegovih 
+dostojanstvenika  utvrgjena  7.  aprila  u  Borču. 
+
+Uz  ove  dvije  povelje,  kojima  se  svečano  svršava  epizoda,  koja  se  dogodila  na 
+Ljutoj,  spomenuo  bi  samo  još  neke  sitnice :  u  obje  se  naime  patareni,  to  jest  oba 
+krstjanina  Vlatko  Tumr'k  i  Radin  te  starac  Dmitar  spominju  prije  knezova,  dakle  su 
+u  časti  viši,  šta  više,  starcu  Dmitru  daje  se  naslov  gospodin,  koji  se  inače  davao 
+samo  vojvodama  i  kralju,  a  to  svjedoči,  da  je  u  Bosni  patarenska  hijerarhija  prednja- 
+čila svjetskoj.  Kada  je  consilmm  rogatorum  14.  februara  1423.  vijećalo  o  tome, 
+da  dariva  Radosavljeve  poklisare,  krstjanine  Tumr'ka  i  Radina  i  knezove  Budisava  i 
+Vukašina,  primljen  je  ovaj  zaključak:  Prima  pars  est  de  doiiando  istis  orator ihus 
+voiuode  Sandalu  et  voiuode  Eadossaui  Paulouich  cuilibet  ех  iis  ad  XV,  bracJna  pauni 
+■fiorentmi  fini,  si  omnes  ibunt-)  simul  et^  si  non  irent  simul,  illis  omnihus  qui  ibunt,  scilicet 
+
+
+1)  Miklošić  0  c.  str.  322. 
+
+2)  Ovo  se  odnosi  na  predaju  g-rada  Sokola. 
+
+
+—    359  — 
+
+
+duohns  palarenU  ct  dnobus  latcis,  a  iz  toga  se  razabirc,  da  јс  naziv  pataren  služi(j 
+za  oznaku  redovnika  a  ne  svakog  pristaše  vjerske  sljedbe,  koja  je  sačinjavala  crkvu 
+bosansku",  jer  su  jamačno  i  knezovi  Budisav  i  Vukašin  sljedbenici  iste  vj(n-e  a  ipak  se 
+za  razliku  od  „krstjana"  zovu  laicima.  S  istog  se  razloga  u  zaključku  pijmenutog 
+vijeća  od  16.  februara  1422.  zove  i  starac  Dmitar  patarenom. 
+
+Značajna  je  i  ova  činjenica,  da  se  megju  ličnostima,  koje  se  sa  vojvodom  Rado- 
+savom  na  Borču  zakleše  na  povelju,  izdanu  Dubrovniku,  nalaze  uz  ostalu  vlastelu  i 
+oba  poklisara  laika,  knezovi  Vukašin  i  Budisav,  dočim  se  oba  krstjanina  Tumr'ko 
+i  Radin  tu  ne  spominju  a  to  kao  da  zasvjedočava  mnijenje,  da  je  patarenima  (kao 
+redovnicima)  zakletva  bila  zabranjena,  dočim  je  laicima  bila  dozvoljena. 
+
+Nakon  devet  godina  nalazimo  u  dubrovačkim  spisima  opet  ime  Radina  krstja- 
+nina, kao  poklisara  Radosavljeva.  U  to  devet  godina  nastao  je  veliki  prevrat  u  odno- 
+šaju  izmegju  Dubrovčana  i  Radosava,  jer  je  ovaj,  god.  1427.  prodao  republici  svoju 
+polu  Konavalja,  za  kojom  su  oni  odavna  težili,  ali  malo  za  tim  je  to  požalio,  te  poku- 
+šao, da  im  oružanom  rukom  otme  to  zemljište.  Tako  je  došlo  do  ljutoga  rata  izmegju 
+Radosava  i  Dubrovnika,  koji  je  trajao  od  proljeća  1430,  do  ljeta  1432.  0  potankostima 
+ovoga  u  mnogom  vidu  zamašnog  rata  zabaviću  se  drugom  prilikom  a  ovdje  ću 
+samo  istaknuti,  da  je  megju  Radosavljevim  poklisarima,  koji  su  imali  voditi  prelimi- 
+narne pregovore  mira,  do  koga  je  došlo  intervencijom  kralja  Tvrtka  II.  bio  i  Radin 
+krstjanin.  Ovo  poslanstvo,  u  kojemu  bijahu  osim  Radina  i  knezovi  Sanko  Bogavčić, 
+i  Ivaniš  Hrebeljanović  te  dijak  „kućanin"  Ostoja,  redigiralo  je  sa  dubrovačkim  vijećem 
+umoljenih  onu  povelju  mira  od  2.5.  oktobra  1432.,  što  ju  je  izdao  Radosav^),  u  koje 
+je,  kako  saznajemo  iz  jedne  bilješke  u  Partes  consilii  rogatorum  (V.,  111.,)  prolog 
+sastavljen  od  dubrovačkog  slovjenskog  kancelara  Nikole  de  Stella  (=  Zvizdić)  a  lista 
+vlastele,  koji  su  se  imali  na  nju  zakleti,  sastavljena  je  po  naročitoj  želji  Dubrovčana. 
+Pa  i  u  toj  listi  je  značajno,  da  megju  „rotnicima"  nalazimo  i  Sanka  Bogavčića  i 
+Ivaniša  Hrebeljanovića  a  potpisana  Ostoju  dijaka,  dočim  megju  njima  opet  fali  Radin 
+krstjanin. 
+
+Svoj  četvorici  Radosavljevih  poklisara  votiralo  je  vijeće  23.  oktobra,  kao  dar  po 
+30  dukata  sukna  a  osim  toga  i  posebnom  pratiocu,  što  ga  je  krstjanin  Radin  imao 
+uza  se,  25  perpera.  (R.  V.  112.) 
+
+Ovo  je  zadnji  put,  što  Radina  krstjanina  nalazim  u  službi  vojvode  Radosava. 
+Njegovo  mjesto  zauzimlju  druga  dva  „kršćanina  patarena"  po  imenu  Radašin  i  Juraj, 
+koji  se  spominju  4.  augusta  1438.,  29.  oktobra  1439.,  3.  novembra  1539  ^)  dočim  je  sam 
+Radin  prešao  u  službu  vojevode  Stefana  Vukčića.  Ova  promjena  jamačno  je  u  savezu  sa 
+Radinovim  unapregjenjem  u  patarenskoj  hijerarhiji,  jer,  kada  ga  prvi  puta  nalazimo, 
+11.  aprila  1437.,  uz  Radovana  Vardića  kao  poklisara  vojvode  Stefana  Vukčića  u 
+Dubrovniku,  nosi  naslov  starca  З). 
+
+Ovaj  puta  misija,  što  ju  je  starac  Radin  izvršavao,  nije  bila  osobito  važna.  U 
+ostavštini  Sandaljevoj  našla  se  naime  jedna  povelja,  kojom  se  dubrovački  gragjanin 
+
+1)  Publicirana  u  Miklašića,  na  ozn.  шј.  str.  366. 
+
+2)  Isti  dan  raspravlja  i  consilium  minus  o  ovoj  dvojici  i  zove  ih  „crediani  patareni^^.  Partes  cons. 
+min.  VIII.  103. 
+
+Radin  je  prema  tome  već  1437.  bio  starac,  a  ne  kako  to  Daničić  u   svom  Kječniku  književnih 
+starina  a.  v.  ^^Kadjen"  veli,  1438. 
+
+
+—    360  — 
+
+
+Radosav  Silković  priznaje  dužnikom  Sandaljevim,  te  su  poklisari  vojvode  Stjepana,  kao 
+nasljednika  Sandaljeva,  došli  da  zahtijevaju  isplatu  ovog  duga.  Megju  tim  je  ovaj  iznio 
+povelju  Sandaljevu  sa  njegovom  pecatju,  kojom  se  svjedoči,  da  je  Radosav  taj  dug 
+naplatio  i,  što  više,  da  ima  od  Sandalja  zahtijevati  još  100  perpera. 
+
+U  sličnim  misijama,  koje  se  ticahu  ostavštine  Sandaljeve  nalazimo  „počtena 
+muža"  Radina  starca  i  slijedećih  godina  češće  u  Dubrovniku  kao  Stjepanova  poklisara 
+i  to  15.  juna  1438.  sa  knezom  Vukmanom  Jugovićem,  18.  septembra  1438.  sa  ovim 
+i  sa  knezom  Radovanom  Vardićem  te  s  krstjaninom  Radeljom,  7.  maja  1440.^)  sa 
+knezom  Vukmanom  Jugovićem,  a  21  augusta  1441.  sa  knezom  Gjuragjem  Cemerovićem. 
+
+Jelena,  udova  velikog  vojvode  Sandalja  a  baba  vojvode  Stjepana  Vukčića  spominje 
+malo  kašnje  starca  Radina  u  svom  testamentu  kao  svoga  duhovnog  savjetnika  25.  novembra 
+god.  1442.  (Mikl.  na  ozn.  mj.  417.) 
+
+U  važnijoj  misiji  došao  je  starac  Radin  kao  poklisar  vojvode  Stjepana  Vukčića 
+tek  u  februaru  1445.  u  Dubrovnik  zajedno  sa  Vukašinom  Sankovićem,  Vukmanom 
+Jugovićem  i  Radivojem  dijakom.  Ovi  su  najprije  —  3.  februara  1445.  —  digli  dobitak 
+od  Stjepanovih  poklada  (Mikl.  na  ozn.  mj.  429.)  a  onda  su  raspravljali  o  razmiricama, 
+koje  su  se  ponavljale  na  granici  konavoskoj  izmegju  ljudi  dubrovačkih  i  vojvodinih. 
+Kako  se  razabire  iz  uvoda  opširnog  „provedimenta",  što  ga  je  zaključio  izdati  consilium 
+rogatoruin  3.  marta  a  odobrio  consilium  maius  slijedeći  dan,  dešavale  su  se  na  razmegju 
+povrede  granice,  otimačine  i  drugo  slično,  s  obje  strane.  Da  se  tome  doskoči,  pristade 
+vijeće  umoljenih  26.  februara  na  zahtjev  Stjepanovih  poklisara,  da  odsele  neće  u 
+Konavljima  primati  nikojega  izseljenika  iz  Trebinja,  Vrsinja  i  Dračevice,  nego,  koji  bi 
+prebjegao,  da  će  ga  vratiti  (Cons.  Rog.  IX.  123)  a  dva  dana  poslije  izručilo  je  pokli- 
+sarima i  povelju,  kojom  tu  obvezu  zajamčuje  (Miklošić,  430  ).  Dalje  je  pristalo  na  to, 
+da  se  sa  svake  strane  odašalje  posebno  povjerenstvo  od  tri  2)  lica,  koje  će  izaći  na 
+granicu  i  razsugjivati  sve  pogranične  sporove  na  posebnom  staniku  (27.  februara, 
+Rog.  IX.  124.).  Kao  direktiva  za  ovo  pogranično  povjerenstvo,  koje  je  imalo  definitivno 
+ustanoviti  granicu  izmegju  dubrovačkog  Konavlja  i  posjeda  vojvode  Stjepana,  imagjaše 
+da  služi  već  spomenuti  provedimentum. 
+
+I  opet  nam  se  za  nekoliko  godina  gubi  trag  Radinu  a  nalazimo  ga  tek  u  godini  1450. 
+I  opet  je  napredovao  u  svojoj  crkvenoj  časti,  jer  ne  nosi  više  naslova  „starca"  nego 
+„gosta":  popeo  se  na  čast,  koja  odgovara  biskupskoj.  Prvi  puta  se  spominje  kao 
+gost  u  jednom  naputku,  pisanom  20.  novembra  1450. ^)  dubrovačkim  poklisarima  u 
+hercega  Stefana,  Marinu  Gjorgjiću  i  Nikoli  Gunduliću. 
+
+Ovo  poslanstvo  imalo  je  da  ublaži  hercega,  koji  se  u  zadnje  vrijeme  pokazao 
+vrlo  neprijatnim,  te  je  uveo  nekoliko  zamašnih  novosti,  protivnih  svim  starim  ugovorima 
+i  zakonima  a  imale  su  u  velike  oštetiti  dubrovački  promet  i  trgovinu.  Kako  je  poznato, 
+od  davne  starine  —  koja  se  autentički  ni  ustanoviti  ne  da  —  postojao  je  izmegju 
+Dubrovnika,  Kotora  i  susjednih  gospodara  ugovor,  po  kome  je  ovdje  na  primorju  smjelo 
+biti  samo  četiri  kumjerka  (trga)  soli:  u  Dubrovniku,  Kotoru,  Neretvi  (današnjoj 
+Gabeli)  i  u  sv.  Srgju  na  Bojani  a  narodu  bilo  je  po  volji,  kupovati  svoju  so,  gdje  mu 
+bude  draže  i  prikladnije.  Herceg,  da  ošteti  dubrovački  kumjerak,  načinio  je  samovoljno 
+
+1)  U  „Partes  cons.  maioris  VI.  27"  zove  se  Radin  „starac  cristianus",  a  ime  Vukraanovo  ]e  korumpirano 
+u  Vochnia.  Svakomu  se  votira  po  40  perpera  dara. 
+
+2)  Kašnje  je  zaključeno,  da  se  delegira  po  četiri  lica 
+
+3)  Ovaj  je  naputak  odgovor  na  pismo  ovih  poklisara,  pisano  u  Trebinju  7.  novembra  1450.  pa  prema 
+tome  stoji,  da  je  Radin  bio  gostom  već  1450.  a  ne  kako  to  Daničić  u  svom  Rječnika  iznosi  tek  1453. 
+
+
+—    361  — 
+
+
+peto  tržište  pod  Novim  u  Dračevici  a  zabranio  je  svojim  Ijudem  da  u  opće  kupuju 
+dubrovačku  so.  Osim  toga  prenio  je  svoj  kumjerak  soni,  koji  je  od  starine  bio  u 
+Neretvi  (= Gabeli),  pod  Orman  a  time  je  Dubrovčane  znatno  oštetio,  jer  je  u  Neretv 
+bilo  staro  slavno  tržište  sa  velikom  trgovačkom  kolonijom  dubrovačkom,  koja  je  tu  na 
+bosanskom  teritoriju  imala  svoju  posebnu  autonomnu  upravu  i  svoje  sudstvo.  Prenesav 
+odavle  solanu  pod  Orman,  gubila  je  Neretva  (=Gabela)  naravski  važnost  a  posjed  dubro- 
+vačkih trgovaca  u  kućama  i  zemljama  gubio  je  cijenu  te  se  je  bilo  bojati,  da  će  ta 
+važna  kolonija  propasti. 
+
+I  trgovinu  dubrovačku  ograničio  je  u  toliko,  da  je  dubrovačkim  trgovcem 
+branio  kupovati  osobno  po  njegovom  vladanju  sirovine  te  je  htio,  da  njegovi  ljudi 
+sami  nose  svoju  robu  u  Dubrovnik  na  prodaju.  Time  su  dubrovački  pretrge  izgubili 
+veliki  dio  svoje  zarade. 
+
+Herceg  Stjepan  rek  bi  naumio  je  posve  uništiti  dubrovačku  trgovinu  a  dubro- 
+vački trgovci  bili  su  izvrženi  upravo  nečuvenim  veksacijama.  Njegova  mati  podigla  je 
+u  Tjentištima  novu  carinu;  herceg  udario  je  na  stoku,  što  bi  se  iz  Srbije  i  Turske, 
+gonila  u  Dubrovnik,  carinu  od  10^/q  ;  od  trgovaca  iskao  je  novi  namet,  takozvanu 
+kramarinu,  od  dubrovačke  stoke,  koja  bi  se  izgonila  na  planine  u  današnju  Herce- 
+govinu, uzimao  je  takozvanu  travarinu  a  uvjete,  pod  kojima  su  Dubrovčani  naimali 
+dosele  ponos  za  svoje  karavane,  tako  je  otešćao,  da  je  za  tovare,  za  koje  se  prije 
+plaćao  jedan  ponos nik  trebalo  plaćati  po  tri  a  od  svakog  ponosnika  uzimao  je 
+herceg  suviše  jednu  trećinu  dukata  poreza. 
+
+Mimo  ovih  veksacija  fiskalne  naravi  bijaše  ali  i  javno  nasilje  napram  Dubrovčana 
+na  dnevnom  redu.  Njihovim  trgovcima  otimala  se  roba,  srebro,  vosak,  bakar,  olovo 
+—  jednom  čak  280  Hbara  srebra! 
+
+Herceg  Stjepan  dao  je  povoda  i  internacionalno-pravnim  kontroverzama.  Po 
+starom  sredovječnom  pravu  sudilo  se  zločincu  tamo,  gdje  je  zločin  počinjen  a  zločinac 
+uhvaćen :  herceg  zahtijevao  je  naprotiv,  da  se  njegovi  ljudi,  uhvaćeni  na  zločinu  na 
+dubrovačkom  zemljištu,  ne  sude  u  Dubrovniku,  nego  predadu  njemu.  U  istu  kategoriju 
+ide  i  ova  povreda  dubrovačkog  ustava :  kao  dubrovački  vlastelin  dobio  je  i  vojvoda 
+Sandalj  a  po  njemu  herceg,  kod  diobe  Konavalja  svoj  osobni  posjed  —  u  Dubi  na 
+Površu  (u  Konavlima) — te  je  tu  imao  svoje  kmetove.  U  Bosni  imao  je  herceg  pravo, 
+da  osim  drugih  daća  pobire  od  svojih  kmetova  godišnje  po  dukat  od  svake  kuće, 
+ali  su  Dubrovčani,  1419.  god.  posebnim  zakonom  (t.  zv.  Ordo  pro  Ganali^)  taj  harač 
+oprostili  žiteljima  Konavalja  te  se  tu  nije  više  pobirao.  Megjutim  je  herceg,  koji  je 
+na  svom  teritoriju  taj  harač  pobirao,  protezao  to  pravo  i  na  svoje  kmetove  u  Konav- 
+lima te  je  ovima,  prem  su  bili  dubrovački  državljani  i  prem  je  Dubrovnik  dokinuo 
+ovaj  harač,  poslao  svog  đukatnika  u  Dubu,  da  na  silu  naplati  taj  danak. 
+
+Opasnija  od  svega  dosadanjeg  nasilja  bila  je  ova  hercegova  namjera:  uvidivši  on, 
+da  Dubrovnik  imade  svoj  razvitak  u  svakom  pogledu  zahvaliti  ne  samo  prirodnom 
+položaju,  nego  jednoj  svojoj  važnoj  pravnoj  instituciji,  a  to  je  jus  asilt  (azilno  pravo), 
+koje  je  svaki  politički   bjegunac  uživao  u  Dubrovniku,  te  se  baš  uslijed  toga  tu 
+
+
+*)  Od  Bošnjaka,  koji  su  za  diobe  Konavalja  dobili  stanovite  dijelove  zemalja  kao  privatno  vlasništvo, 
+spominju  se  imenice:  Kralj  bosanski,  Sandalj,  Radosav  Pavlović,  Radosav  Obradović  nazvan  ban,  Vuk 
+Pribilović,  Brailo  Tezalović  i  dr.  (8r.  Ordo  u  Fartes  cons.  mai.  III.  str.  153. — 154.) 
+
+2)  Ovaj  zakon  votiran  je  u  velikom  vijeću  19.  jula  1419.,  a  proširen,  odnosno  korig-iran  je 
+30.  jula  1419.  i  24.  juna  1420.  Orig-inalni  spis  nalazi  se  u  Partes  consilii  maioris  II.  str.  3. 
+
+
+—    362  — 
+
+
+stjecalo  svijeta  sa  svih  strana  Balkana,  odlučio  je  herceg,  da  i  u  tome  konkurira  te  je 
+svome  gradu  Novom  podijelio  takogjer  isto  pravo  utočišta. 
+
+^  Sve  ovo  je  prevršilo,  kada  je  herceg  zahtijevao,  da  mu  Dubrovčani  vrate  4000 
+dukata,  što  ih  je  tobože  potrošio  kao  mito  na  porti,  da  izbavi  Dubrovnik  od  turske 
+vojske,  jer  je  sultan  naumio  da  zarati  na  Dubrovnik  za  to,  što  su  srpskom  despotu 
+na  bijegu  dali  utočišta,  a  herceg  ga  navodno  ublažio  onim  mitom! 
+
+Kako  se  vidi,  herceg  je  naumio  da  Dubrovnik  uništi  a  zadaća  spomenutih 
+dubrovačkih  poklisara  bijaše,  da  sklone  hercega,  da  od  ovih  zlobno  smišljenih  novo- 
+tarija odustane.  Kako  je  bilo  slabe  nade,  da  će  to  uspjeti  samoj  njihovoj  rječitosti  i 
+starim  poveljama,  trsili  su  se,  ne  bi  li  našli  na  hercegovu  dvoru  zgodnu  ličnost,  koja 
+ima  dovoljno  upliva  i  predobili  ju  za  se,  ne  bi  li  njenim  uplivom  uspjelo,  dokinuti 
+sve  ove  novotarije.  I  tu  su  ličnost  našU  u  osobi  Radina  gosta,  koji  se  u  informaciji 
+od  20.  novembra  1450.  spominje  samo  mimogred,  ali  se  spominje  pobliže  u  informaciji 
+od  13.  decembra. 
+
+Mi  tu  saznajemo,  da  je  Radin  gost,  hercegov  „dobar"  i  „glavni  savjetnik" 
+progovorio  hercegu  u  prilog  Dubrovčanom,  a  poklisarima  je  naloženo,  neka  oprezno  i 
+tajno,  a  da  niko  ne  sazna,  govore  sa  Radinom,  koji  poznaje  sve  prilike  i  neka  nastoje, 
+da  hercega  nagovara,  da  se  okani  novotarija  i  da  ostane  u  miru  sa  Dubrovnikom,  a 
+Dubrovčani  bi  pristali  na  to,  da  od  hercega  uzmu  u  zakup  neretavsku  carinu  za 
+godišnju  najamninu  od  4000  najviše  5000  dukata. 
+
+Ova  intervencija  ostala  je  bezuspješna  i  herceg  navali  na  Konavlje,  te  ga  osvoji. 
+Tako  je  buknuo  onaj  dugotrajni  rat,  što  se  vodio  izmegju  hercega  i  Dubrovnika.  Pod 
+dojmom  gubitka  Konavalja  poslaše  Dubrovčani  Marina  Gjorgjića  u  julu  1451.  hercegu 
+da  ugovara:  javno  s  njime,  a  tajno  sa  Radinom  gostom  i  hercegovim  sinom 
+vojvodom  Vladisavomi).  Radin  gost  stavio  se,  kako  se  čini  posve  u  službu 
+Dubrovčana,  jer  6.  jula  pišu  Dubrovčani  svome  poklisaru,  neka  se  zahvali  Radinu 
+gostu  za  ljubav,  što  je  iskazuje^  Dubrovniku  i  neka  mu  obeća  —  ne  u  ime  plaće, 
+nego  u  znak  prijateljstva  —  200  dukata  i  neka  ga  nagovori,  da  uznastoji  postići,  da 
+ga  herceg  pošlje  kao  poklisara  u  Dubrovnik  pa  da  digne  te  novce,  a  ako  to  ne  bude 
+moguće,  neka  po  njih  pošlje  pouzdana  čovjeka. 
+
+Da  je  Radin  gost,  komu  je  herceg  bio  povjerio  sve  pregovaranje  sa  Marinom 
+te  ovoga  nije  puštao  ni  preda  se,  bio  posve  u  službi  dubrovačkoj,  to  zasvjedočuje  i 
+kronista  Restić,  koji  o  tim  raspravama  otvoreno  piše  ovako:  e  siccome  U  secondo  di 
+questi  ministri  (sc.  Radin)  era  gia  guadagnato  per  la  republica^  cosi  non  ehbe  molta 
+diff  colta,  stahilir  li  patti  d'  una  pače  perpetna  con  le  condizioni  guasi  dettate  dalla 
+repuhlica. 
+
+Sto  se  tu  raspravljalo  izmegju  dubrovačkog  pokhsara  i  gosta  Radina,  to  je 
+ostala  tajna,  ali  rezultat  skoro  je  izbio  na  javu:  hercegovica  utekla  je  sa  svojom  kćeri 
+u  Dubrovnik,  a  sin  joj,  vojvoda  Vladisav  i  vojvoda  Ivaniš  Vlatko vić  otvoreno  se  podi- 
+goše protiv  hercega  i  sklopiše  savez  sa  Dubrovčanima,  kome  se  pridružio  i  zet  her- 
+cegov, bosanski  kralj  Toma.  Tako  je  rat  postao  i  obiteljskim. 
+
+0  pojedinim  fazama  toga  rata  se  nećemo  zabaviti,  jer  se  u  spomenicima,  koji 
+se  odnose  na  pojedine  njegove  peripetije  ne  spominje  ime  gosta  Radina,  a  tek  ga  opet 
+nalazimo  u  povelji,  kojom  herceg  Stjepan  prašta  ženi  svojoj  Jeleni  i  sinovima  Vladi- 
+savu  i  Vlatku,  što  su  u  tome  ratu  bili  na  strani  Dubrovčana.   U  ugovoru  mira,  što 
+
+")  Naputak  od  5.  jula  1451. 
+
+
+—    363  — 
+
+
+ga  je  u  Pivi  na  Pišću  sklopio  19.  jula  1454.  ^),  sa  ženom  i  sinovima,  obcćaje  herceg, 
+da  im  ne  će  učiniti  nikakova  zla  „sto  nebi  obiskao  i  obnašao  pravo  i  cielo 
+i  istino  gospodinom  djedom  crkve  bosanske  i  12  strojnikoma^)^ 
+megju  kojemi  strojnici  bude  gospodin  gost  Radin  za  svoga  života 
+i  12  vlastela  našieh  poglavitieh". 
+
+Kako  se  vidi  Radin  gost,  prem  je  u  početku  rata  očito  pomagao  i  savjetom  a 
+jamačno  i  djelom  Dubrovčane,  nije  izgubio  povjerenja  svoga  gospodara,  hercega  Stje- 
+pana, njegov  je  ugled  i  upliv  dapače  znatno  poskočio,  te  ga  herceg  od  ostalih  stroj- 
+nika  crkve  bosanske,  koji  bi  eventualno  imali  u  obiteljskim  razmiricama  hercegove 
+kuće  suditi,  imenice  ističe. 
+
+Uslijed  ovog  mira  ostadoše  Dubrovčani  u  ovome  ratu  protiv  hercega  osamljeni 
+te  se  požuriše,  da  i  oni  sklope  s  hercegom  mir.  Pregovore  o  tom  imali  su  voditi 
+poklisari  Lovro  Ranjina  i  Vuk  Bobalić.  U  naputku,  što  ga  dobiše  9.  augusta  1453. 
+nalaže  im  se  megju  ostalim,  da  govore  sa  Radinom  gostom,  starim  prijateljem 
+Dubrovnika,  i  da  mu  obećaju,  ako  im  kod  hercega  isposluje,  da  dogje  do  mira  na 
+osnovu  status  quo  ante,  to  jest  da  im  čitavo  Konavlje  ostane  neosporno  vlastništvo 
+kao  za  vrijeme  vojvode  Sandalja,  nagradu  od  400  dukata  a  isto  toliko  da  obećaju  i 
+Radovanu  Vardiću. 
+
+Pregovori  su  se  megjutim  otezali,  jer  4.  septembra  1453.  dobivaju  spomenuti 
+poklisari  nalog,  da  Radina  gosta  pitaju,  ima  li  nade,  da  će  doći  do  mira  pod  onim 
+uvjetima,  pod  kojim  Dubrovnik  želi,  a  otezali  su  se  sve  dalje  do  slijedeće  godine. 
+Tek  10.  aprila  1454.  potpisao  je  herceg  u  Novom  povelju,  s  kojom  pristaje  na  mir  sa 
+Dubrovčanima  i  poslao  je  s  njome  posebno  poslanstvo  —  Radina  gosta,  Ružjera  i 
+Pokrajca  sa  dijakom  —  u  Dubrovnik.  To  je  ona  ista  povelja,  što  ju  priopćuje  Miklošić 
+na  ozn.  mj.  str.  465.,  za  koju  su  Dubrovčani  votirali  njenom  pisaru  (dijaku  Radivoju 
+Dobriševiću)  dar  od  30  perpera  (u  Cons.  rog.  14.  maja  1454.). 
+
+Čini  se  megjutim,  da  je  Radin  gost  isprva  krio,  da  nosi  uza  se  gotovu  povelju. 
+Ako  tome  nije  bila  uzrokom  „sacra  aurifames",  ne  bi  znao  drugi  razlog  tome  postupku, 
+ali  sigurno  je  to,  da  je  još  1.  maja  1454.  zaključilo  vijeće  umoljenih,  da  izabere  dva 
+plemića  velikog  vijeća,  koji  će  potajno  ugovarati  sa  Radinom  i  obećati  mu,  ako  dogje 
+do  mira,  koji  odgovara  željama  Dubrovnika,  dati  ne  samo  obećana  nagradu,  nego  da 
+će  mu  dati  i  one  stvari,  „quas  ipse  reguisivit  per  interpositam  personam^^ .  (Rog.  XIV.,  53). 
+
+Jamačno  je  rezultat  ovog  tajnog  pregovaranja  bio  povoljan  po  obje  stranke,  jer 
+je  Consilium  rogatorum  11.  maja  1454.  zaključilo  darovati  Radinu  gostu  „шаш  ресгат 
+de  morello  de  grana/^  i  100  perpera,  Ružjeru  i  Pokrajcu  po  jedan  komad  mantovanskog 
+ili  veronskog  sukna  po  70  i  po  50  perpera,  a  dijaku  komad  dubrovačkog  sukna  i 
+
+1)  Miklošić  0  c:  459. 
+
+')  Ovaj  citat  uslijed  krivog  shvaćanja  Račkova,  skrivio  je,  te  se  držalo,  da  bosanskom  patarenskom 
+crkvom  upravljahu  upravo  12  strojnika.  To  se  iz  citata  već  s  toga  ne  smije  zaključiti,  jer  bi  inače  valjalo 
+zaključiti,  da  je  u  Bosni  bilo  samo  dvanajstero  vlastele.  Broj  12  u  savezu  je  sa  porotom,  koja  se  tu  za 
+buduće  obiteljske  razmirice  u  kući  herceg-ovoj  ustanovljuje  i  koja  se  prema  toj  ustanovi  ima  sastojati  od 
+12  crkvenjaka  (strojnika)  i  12  laika  (vlastele).  Taj  broj  nikako  ne  limitira  opći  broj  strojnika  bosanske 
+narodne  crkve  sljedbe  patarenske.  Toliko,  da  se  ovo  pogrješno  shvaćanje  u  napredak  ne  propagira  u 
+literaturi.  Pojam  strojnika  preveli  su  Dubrovčani  latinski  sa  „domini  maiores  christianorum"  u  zapisniku 
+sjednice  vijeća  umoljenih  11  marta  1451.  Tu  so  radilo  o  sugjenju  jedne  razmirice,  jer  je  herceg  Stefan 
+zahtijevao,  da  mu  Dubrovčani  isplate  12.000  dukata  poklađa  Sandaljeva.  Oni  taj  zahtjev  odbiše  i  rekoše 
+„et  гп  fine ,  .  .  sumus  contenti  2^onendi  judicio  dominorum  christianorum  mainnnn  ijiso  chercech  et  nobis, 
+secundum  quod  ijtsi  amhas iiatores  petieriint.  (Cons.  rog.  12.  2б.) 
+
+9 
+
+
+—    364  — 
+
+
+50  perpera  i).  Što  je  Radin  osim  toga  „nagrade"  dobio,  o  tome  Šute  dokumenti,  jer  to 
+su  stvari,  o  kojima  se  raspravljalo  tajno  i  usmeno. 
+
+Premda  je  mir  izmegju  Dubrovnika  i  hercega  Stjepana  na  svečani  način  uglavljen, 
+bilo  je  skoro  novog  povoda  tužbama  a  Dubrovčani  tužili  s  i  se  već  slijedeće  godine, 
+kada  se  u  kući  Kosače  imao  slaviti  trostruki  pir:  vjenčanje  hercegovo  i  njegovih 
+sinova  Vladislava  i  Vlatka.  Dubrovčani  slali  su  onda  svečano  poslanstvo,  da  čestita  i 
+po  običaju  dariva  mladoženje,  a  poklisarom  naložilo  je  vijeće  u  naputku  od  10.  maja 
+1456.,  da  tajno  govore  sa  Radinom  gostom  i  da  mu  kažu,  kako  su  mu  oni,  kada 
+se  sklapao  mir  sa  hercegom,  govorili,  da  se  ugovor  mira  ne  zapiše  samo  na  papir, 
+nego  da  se  ukopa  u  stanac  kamen:  pa  uzprkos  i  tome  i  zaklet\^4ma,  s  kojima  je 
+utvrgjen  mir,  imadu  oni  razloga,  da  se  tuže  na  hercega :  on  krši  ugovor  svakom 
+prilikom,  čini  nasilja  dubrovačkim  trgovcem,  pod  izlikom  da  je  prokriomčareno  iz 
+Raške,  otimlje  im  srebro,  a  kada  mu  se  dokaže  protivno,  ne  vraća  ga  trgovcem,  već 
+im  daje  cijenu  prenisku  i  t.  d.  Zato  neka  mole  gosta,  da  sklone  hercega,  ne  bi  li 
+odustao  od  ovih  nasilja. 
+
+Koliko  je  bilo  veliko  povjerenje,  što  su  ga  Dubrovčani  imali  u  Radina  gosta, 
+vidi  se  najbolje  po  tome,  da  su  oni  8.  novembra  1462.,  kada  se  raspravljalo  o  najmu 
+iieretavske  gabele,  pisali  svome  poklisaru  u  hercega  Stjepana,  Jakovu  Gunduliću,  da 
+o  toj  stvari  ne  govori  sa  hercegom,  ako  ne  bi  bio  prisutan  Radin  gost  ili  bar  njihov 
+drugi  puzdanik  na  hercegovom  dvoru,  koji  im  je  u  teškim  časovima  činio  takogjer 
+po  koju  uslugu,  Pribisav  Vukotić.  ((Jons.  rog.  17.  147.) 
+
+Kako  se  iz  svega  razabire,  gost  Radin,  poglaviti  savjetnik  hercegov,  bio  je  u 
+najtežim  momentima  tajni  zaštitnik  i  odvjetnik  Dubrovnika.  Da  on  tih  usluga  nije 
+učinio  iz  pukog  altruizma,  to  je  lahko  shvatljivo  a  mi  smo  spomenuli  dvije  zgode, 
+gdje  je  dobivao  novčanu  nagradu,  koja  je  u  ono  vrijeme,  kada  je  dukat  imao  daleko 
+veću  cijenu  nego  danas,  bila  upravo  sjajna;  ali  najsjajniju  nagradu  dobio  je  u  jesen 
+godine  1455.  (u  novembru) :  Dubrovčani  mu  svečanom  poveljom,  pisanom  rukom  kance- 
+lara Marinka  Florio  (slavizirano  „Cvitković"),  pod  visućom  pečatju  zajamčiše  za 
+sva  vremena  zaklonište  u  Dubrovniku,  i  obećaše  mu  dati,  kao  što  su  samo  davali 
+bosanskim  kraljevima  i  velikim  vojvodama,  kuću  u  Dubrovniku;  kada  god  bi  došao, 
+da  boravi  u  Dubrovniku,  obećaše  mu,  pomoći  ga  spenzom,  t.  j.  namiriti  mu  potrebe 
+života  a  ako  bi  želio,  da  pogje  dalje,  obećaše  mu  besplatno  dobaviti  prevoz,  dokle  on  lioće, 
+a  Dubrovčani  uzmognu.  Ujedno  jamče  Dubrovčani,  katolici  par  ехсеИепсе,  dok  bude  u 
+njih  „da  ne  bude  usilovan  od  nikogar  iziti  iz  vjere,  koju  vjeruje,  razi 
+ako  bi  njemu  ugodno  bilo"^). 
+
+Da  je  Radin  gost,  poznavajući  jamačno  dobro  prilike  u  Bosni,  već  u  to  doba 
+nastojao,  da  si  za  svaki  slučaj  osigura  utočište,  gdje  će  se  u  nevolji  zakloniti,  sim- 
+ptomatično  je  za  tadanje  prilike  bosanske,  i  on  kao  da  je  slutio  katastrofu,  koja  Bosnu 
+čeka  i  koja  ju  je  zadesila  godine  1463. 
+
+Zadnji  puta  nagjoh  Radina  gosta  u  diplomatskoj  misiji  sa  Radićem  Ružicom 
+kao  poklisara  hercegova  u  Dubrovniku  1456.  te  im  je  dubrovačko  vijeće  obojici  vo- 
+tiralo  po  100  perpera  kao  dar;  a  kancelaru  im  Božidaru,  koji  je  bio  s  njima,  30. 
+perpera.  (Consil.  Rog.  XIV.,  262.) 
+
+Kada  je  herceg  Stjepan,  videći  rasulo  Bosne  i  sluteći  propast  svoje  hercegovine 
+pobjegao  u  Novi  na  moru,   pratio  ga  je  kao  prvi  od   njegovih    „kućana"   i  gost 
+
+
+1)  Rog.  XIV.,  57. 
+
+2)  Prepis  u  Liber  Frivilegiorum  str.  lio.  Priopćio  Miklošić  na  ozn.  mj.  str.  472. 
+
+
+—    365  — 
+
+
+Radin;  a  kada  je  herceg  u  Novome,  dan  pred  svoju  smrt,  21.  maja  1466.,  napisao 
+svoju  oporuku,  bijaše  isti  gost  Radin  uz  metropolita  Davida  i  kneza  Pribisava  Vu- 
+kotića  glavni  svjedok  na  tom  dokumentu  a  to  je  najbolji  dokaz,  da  si  je  on  uza  sve 
+.što  je  u  važnim  momentima  pristajao  uz  Dubrovčane,  znao  sačuvati  u  hercega  svoj 
+ugled  a  njegovo  pouzdanje  sve  do  onoga  časa,  dok  taj  gordi  nasilnik,  koji  je  u  velike 
+bio  sukrivcem  rasulu  Bosne,  nije  za  uvijek  zaklopio  svoje  oči. 
+
+Kada  je  herceg  umro,  preselio  se  gost  Radin  u  Dubrovnik  i  nastanio  se  u  kući, 
+koju  mu  je  općina  darovala.  Tu  je  već  5.  januara  1466.  napisao  svoju  oporuku,  kojom 
+raspolaže  svojim  doista  znatnim  imetkom,  a  kako  se  razabire  iz  jedne  marginale  bilješke 
+na  notarij^lnom  prepisu  testamenta,  umro  je  tu  slijedeće  godine  1467.  Dan  i  mjesec 
+smrti  njegove  ni  jesam  mogao  ustanoviti,  jer  je  baš  ova  nota  vrlo  oštećena,  ali  datum 
+smrti  možda  se  može  sublizu  ovako  ustanoviti:  Glavni  baštinik  Radinovog  nepokretnog 
+imetka  bio  je  njegov  nećak  Vladisav,  koji  je  baštinio  i  kuću,  što  ju  je  gost  Radin 
+dobio  spomenutom  poveljom  od  Dubrovčana  na  dar.  29.  marta  1468.  raspravljalo  se 
+u  malom  vijeću  o  toj  kući  te  je  u  XVII.  sv.  str.  136'  zapisnika  ovoga  vijeća  zapisana 
+ova  bilješka:  „Prima  pars  est  de  promdendo  Vladissauo,  nepoti  oUm  Radin  gosti\  'pro 
+afjictu  domus  de  grossis  triginta  гп  mense  pro  tribus  mensibus. 
+
+Iz  toga  se  razabire,  da  su  —  jamačno  iza  Radinove  smrti  —  Dubrovčani  uzeli 
+njegovu  kuću  u  najam  za  mjesečnu  najamninu  od  30  groša  i  isplatili  ju  za  tri  mjeseca, 
+a  sravniv  to  sa  datumom  ovog  zaključka,  čini  se,  da  je  Radin  umro  koncem  prošle 
+godine. 
+
+Ono  takozvano  „apostolsko  siromaštvo",  koje  bijaše  u  patarena  tobož  ide- 
+alom, bila  je  tek  jedna  fraza,  jer  gost  Radin,  koji  bi  već  radi  svog  visokog  položaja, 
+morao  biti  uzorom,  umro  je  kao  bogat  čovjek  i  ostavio,  kako  se  iz  testamenta  vidi, 
+ukupno  svega  5640  dukata  gotova  novca.  Sto  ta  svota  znači,  moći  će  tek  onaj  razabrati,  koji 
+poznaje  cijenu  zlata  u  XV.  vijeku  i  uvrsti  će  ga  megju  najbogatije  ljude  njegove 
+dobe  u  Bosni.  Ali  gotovina  bila  je  jamačno  manji  dio  Radinova  imetka,  a  glavni  se 
+dio  sastojao  u  zemljišnom  posjedu,  koji  se  u  testamentu  nikako  i  ne  spominje;  ali  da 
+je  toga  bilo,  zaključujemo  po  tome,  da  glavni  baštinici  Radinovi  po  muškoj  krvi, 
+njegova  četiri  sinovca,  po  testamentu  dobivaju  tek  neznatne  legate  i  predmete,  koji 
+im  imadu  biti  uspomenom  na  testatora,  a  s  time  se  oni  sigurno  nebi  zadovoljili,  da 
+nijesu  naslijedili  nepokretni  imetak,  koji  je  morao  biti  kud  i  kamo  znatniji  nego  pokretni. 
+
+Od  skupocjena  odijela,  što  je  ostalo  iza  gosta  Radina  istaknuti  ćemo  samo 
+„šubu...  crvenu  od  aksamita,  podstavlenu  ci  bili  ni",  što  ju  je  gostu 
+darovao  kralj  Matijaš,  koju  testator  ostavlja  svome  prijatelju  Andrušku  Sorko- 
+čeviću;  spominjemo  ju  s  toga,  jer  je  taj  kraljevski  dar  najbolji  dokaz,  kakav  je  bio 
+velik  ugled  patarenskog  gosta  Radina,  kad  ga  je  sam  kralj  Matija  darivao  šubom. 
+Taj  ugled  je  to  veći,  što  je  i  Radinov  gospodar,  herceg  Stjepan  dobio  od  kralja  Matijaša 
+istom  prilikom  isto  takvu  šubu  od  aksamita  ^).  Taj  dar  dobila  su  obojica  valjda  iza 
+Božića  godine  1463.,  kada  je  kralj  Matija  c  svojio  Jajce  i  snovao  o  velikom  planu,  da 
+Bosnu  otme  Turcima. 
+
+Ugled,  što  ga  je  gost  Radin  uživao  megju  svojim  suvjernicima,  karakteriše  nam  i  to, 
+da  su  ovi  svoj  gotov  imetak,  davali  njemu  na  poklad  i  amanet.  Tako  je  bratučed  mu, 
+gost  Radin,  povjerio  170  dukata,  uskopaljski  gost  Vuk  110  dukata  a  Božičko 
+
+1)  U  testamentu  hercega  Stjepana  od  god.  1465.  spominje  se  ш8к^!  □fnKKrt  ЦркЛ1€НЛ  rtKfrt/HHTrf, 
+КОИ    l€    1иД1х    ГДНИ    крИ/Ш    /ИНТИИЛШ<1.  Po  originalu.  Sr.  Pucić,  Spomen.  II.,  12б. 
+
+i)* 
+
+
+—    366  — 
+
+Milošević  160  dukata.  Ovi  pokladi  imadu  se  prema  ustanovi  testamenta  vratiti 
+vlasnicima,  odnosno  njihovim  pravnim  nasljednicima. 
+
+Donoseći  na  kraju  tekst  i  faksimile  ovog  važnog-  pismenog  spomenika,  ne  kanim 
+se  zabaviti  ni  potankim  opisom  njegovim,  niti  egzegezom  pojedinih  stavaka,  koja  bi 
+u  mnogome  vidu  iznijela  zanimiv  rezultat.  Tek  ću  spomenuti  one  momente,  koji  se 
+osobitim  relijefom  ističu  nad  ostalim  tekstom  a  znanstvenu  eksploataciju  ovih  momenata 
+pravcem,  na  koji  nas  pojedine  stavke  teksta  upućuju,  moći  će  egzegeta  na  osnovu 
+pubhkacije  lahko  provesti. 
+
+Testamenat  gosta  Radina  našao  sam  u  20.  svesci  zbirke  kodeksa,  koja  se  nalazi 
+u  dubrovačkoj  arhivi  pod  nazivom  Testamenta  Notariae.  Napisan  je  na  zadnjih  4  stranica 
+ovog  kodeksa  i  to  tako,  da  je  zadnja  stranica  prva  u  testamenta,  predzadnja  druga 
+i  t.  d.  Uslijed  čestog  uporabljivanja  ovog  kodeksa  i  listanja,  prva  je  stranica  dosta 
+oštećena,  pismo  je  izbli jedilo  a  na  mnogo  mjesta,  osobito  na  početku,  oljuštilo  se  crnilo 
+mjestimice  sa  pergamene.  koja  je  tu  dosta  hrapava,  te  je  uslijed  toga  čitanje  ponešto 
+otešćano.  Na  ostalim  stranicama,  prem  je  i  tu  crnilo  izblijedilo,  ne  ima  tih  poteškoća. 
+U  početku,  na  gornjoj  margini,  ima  kancelarijska  bilješka,  zabilježena  godine  1467.,  koja 
+se  odnosi  na  otvorenje  testamenta.  Ova  je  bilješka  pogotovo  vrlo  fragmentarno  sačuvana: 
+u  prvom  sam  redu  mogao  samo  pročitati  gornju  godinu,  u  drugom  bilješku,  da  je  to 
+testamenat  gosta  Radina  i  da  je  valjda  otvoren  u  prisutnosti  dvojice  sinovaca  Radinovih, 
+Vladisava  i  Tvrtka,  koji  se  ispred  našljednika  izjaviše  zadovoljnim  sa  oporukom. 
+
+Testamenat  pisan  je  5.  januara  1466.  a  raspolaže  gotovinom  i  pokretnim  imetkom 
+Radinovim,  dočim  nepokretnom  imetku,  tu  nema  ni  spomena  jer  se  je  to  imalo  jamačno 
+razdijeliti  na  osnovu  običajnog  baštinskog  prava.  Kako  se  iz  uvoda  ovom  testamentu 
+vidi,  gost  je  Radin  već  prije  načinio  jedan  testamenat,  od  koga  je  jedan  egzemplar, 
+pisan  rukom  Dubrovčanina  Tadioka  Marojevića,  bio  pohranjen  u  dubrovačkoj  notariji 
+a  drugi  u  gosta  Radina.  Ovaj  je  testamenat  anuliran,  sa  onim,  što  ga  priopćujemo 
+evo  ovdje. 
+
+Izvršiteljima  svoje  oporuke  imenovao  je  svoja  dva  sinovca  Vladisava  i  Tvrtka 
+i  svoje  prijatelje,  dubrovačku  vlastelu,  ili  kako  ih  laskavo  nazivlje,  knezove,  Andruška 
+Sorkočevića  i  Tadioka  Marojevića. 
+
+Ukupna  svota,  kojom  je  gost  Radin  raspolagao  i  namijenio  je  na  razne  legate,  iznosila 
+je  5640  dukata. 
+
+Najveći  legat,  2000  dukata,  dobila  je  nevjesta  mu  Pava  sa  dva  sina,  za  njom 
+sinovac  Vladisav  sa  dva  sina  1000  dukata.  600  dukata  namijenio  je  na  zadušnine, 
+a  ostalo  je  razdijelio  u  svotama  od  10 — 200  dukata  svojti,  prijateljima  i  slugama. 
+
+Od  Radinove  svojte  spominju  se  tu  slijedeće  ličnosti: 
+
+Sestre  :i)  Vuk  na,  u  koje  bijaše  kći  imenom  Vukava^). 
+
+Sinovi:  dva  anonimna  već  mrtva  sina,  jer  spominje  samo  nevjeste  i  to  Pavu 
+sa  tri  sina  i  K'tavu. 
+
+Kćeri:  Vučica  i  Alinica. 
+
+
+*)  Braća  su  mu  valjda  pomrla  a  njihovi  pravni  nasljednici  su  četiri  sinovca. 
+
+2)  Čini  se  da  je  gost  liadin  imao  još  dvije  sestre,  V  u  k  n  u,  koja  se  za  razliku  od  starije,  zove 
+„mlagjom"  i  Stojsavu  „mlagju".  U  pogledu  ove  dvojice  tekst  je  dosta  nejasan,  možda  krivnjom  kancelara, 
+koji  je  pogrješno  prepisao  s  originalnog-  testamenta. 
+
+
+—    367  — 
+
+
+Sinovci:  Vladisav  sa  dva  sina,  Tvrtko  sa  kćerkom  Vukavom  k rstjanicom, 
+Juraj  i  Radić. 
+
+Nećak:  1)  gost  Radin  Seoničanin. 
+
+Bratučeda:  Radivoj  gost  i  spomenuta  Vukava  krstjanica  sa  dva  ano- 
+nimna brata. 
+
+Od  članova  patarenske  hierarhije  spominju  se : 
+
+4  gosta:  sam  testator  Radin,  onda  Radin  Seoničanin  nećak  njegov,  Radi- 
+voj, bratučedo  gosta  Radina,  koji  je  valjda  već  mrtav,  jer  se  njegov  poklad  od 
+170  dukata  ima  dati  njegovu  „djetetu^'  i  Vuk,  gost  Uskopaljski.  Da  popunimo  ovu 
+listu  patarenskih  gostova  ove  dobe,  spomenuću  još  gosta  Radosava  Bradijevića, 
+koji  je  1454.  došao  kao  poklisar  Petra  i  Nikole  Pavlovića  da  diže  trogodišnji  dohodak 
+od  poklada  vojvode  Radosava  Pavlovića  ^). 
+
+3  kršćana:  Vukša,  Dragoje  i  Radin. 
+
+3  krstjanice:  Vukava,  bratučeda.  kći  Tvrtkova,  druga  Vukava  „mlajša 
+Vuknina",  Mislava  (=  Mihna?)  Da  li  valja  amo  računati  i  „mlajšu"  Vuknu  i 
+Stoj  savu  („mlajša  moja"),  nije  sigurno  ali  vjerojatno. 
+
+Od  sluga,  koji  su  pošli  s  gostom  Radinom  u  Dubrovnik,  spominju  se:  komornik 
+Vukas,  braća  Rado  sav  i  Vukić  Radilovići  i  Radovan  Ostojić;  od 
+sluga  nevjeste  mu  Pave:  Obrad,  (тјигеп,  Ilija  i  Milica  a  kao  prijatelji 
+Dubrovčani  Andruško  Sorkočević  i  Tadioko  Marojević. 
+
+Pomanje  legate  dobivaju  još  i  ove  ličnosti,  za  koje  se  ne  veli,  u  kojem  su  odno- 
+šaju  bili  napram  gosta  Radina:  Oetverica  Grojtanovića  i  to  Radivoj,  Mihojo, 
+Radosav  i  Obrad  te  Radonja  Vukotić  i  Vukić  Vukašinović. 
+
+Iz  ovoga  niza  imena,  što  smo  ga  izvadili  iz  Testamenta  gosta  Radina,  možemo 
+već  crpati  nekoliko  zaključaka.  Prije  svega  se  načelo  j,praeGedat  ecclesia"  ističe  i  u 
+bosanskih  patarena,  jer  kao  što  se  i  u  listinama  „strojnici"  crkve  bosanske,  starci  i 
+djedovi,  navagjaju  prije  vlastele,  tako  se  i  gost  Radin  sjeća  u  svom  testamentu  naj- 
+prije svojih  redovnika,  gosta  Radina  Seoničanina  te  raznih  kršćana  i  krstjanica  a 
+onda  tek  ostale  svojte  i  prijatelja  svjetovnika. 
+
+Za  razumijevanje  crkvenih  patarenskih  ustanova  je  i  ova  činjenica  zaniraiva : 
+do  sada  se  općenito  mislilo,  da  su  patareni  načelno  branili  ženidbu,  dočim  mi  tu  nala- 
+zimo jednog  od  najviših  dostojanstvenika  njihove  hierarhije,  koji  ima  i  priznaje 
+četvero  djece,  dva  anonimna  sina  i  dvije  kćeri  Vučicu  i  Alinicu.  Prema  tome 
+patareni  nijesu  branili  ženidbe  ni  svojem  svećenstvu  a  kamo  li  lajicima,  a  ako  je  u 
+njih  u  shvaćanju  ženidbe  bila  razlika  napram  ostalih  kršćanskih  konfesija,  biti  će 
+jedina  ta,  da  su  oni  ženidbu  smatrali  društvenom  a  ne  crkovnom  institucijom  i  poricali 
+ju  kao  sakramenat.  Institucija  obligatornog  celibata  svećenstva  bila  je  u  njih,  kako 
+tu  autoritativno  razabiremo,  nepoznata  te  se  patareni  razlikovahu  od  katolika,  u  kojih 
+je  celibat  obvezatan  za  sve  svećenstvo  i  od  pravoslavnih,  u  kojih  je  obvezatan  za 
+redovništvo,  kalugjere  i  višu  hierarhiju,  time,  što  su  i  najviši  patarenski  crkveni  dosto- 
+janstvenici —  gosti  —  bivali  oženjeni. 
+
+I  ovo  shvaćanje  ženidbene  institucije  biti  će  jedan  od  glavnih  uzroka,  da  je 
+islam,  u  koga  nalazimo  posve  slično  shvaćanje,  bosansko  patarenstvo  sebi  tako  brzo 
+asimilovao. 
+
+1)  Sestra  Radinova  a  mati  gosta  Radina  Seoničanina  valjda  je  mrtva,  jer  se  imenice  ne  spominje. 
+
+2)  Spominje  se  u  pismu  od  26.  juna  1454:.,  pisanom  rukom  dijaka  Miotoša,  što  ga  je  priopćio  prof. 
+Vueetić  u  Srgju. 
+
+
+—    368  — 
+
+
+I  za  poznavanje  vjerskih  načela  bosanskih  patarena  daje  nam  testamenat  Kadi  na 
+gosta,  koji  svoje  crkveno  dostojanstvo  svaki  put  ističe,  kada  o  sebi  govori,  nekoliko 
+važnih  podataka,  koji  neke  dosadanje  nazore  o  vjeri  patarena  znatno  modificiraju. 
+
+Prije  nego  li  se  osvrnem  na  odnosna  mjesta  u  testamentu  istaknuo  bi  ovo: 
+Odkada  je  Rački  napisao  svoju  radnju  „Bogumili  i  Patareni"  u  7.  i  8.  svesci  „Rada" 
+jugoslovenske  akademije,  obikli  smo  mi,  oba  imena  „Bogumili"  i  „Patareni"  identi- 
+ficirati. U  kojem  su  megjusobnom  odnošaju  bile  pojedine  sekte,  što  ih  on  stavlja  u 
+paralelu  sa  bogumilima,  kušao  je  da  prikaže  Rački,  a  ja  bi  ovdje  samo  ovo  istakao, 
+da  do  sele  ni  na  kojem  bosanskom  ili  dubrovačkom  spomeniku  nije 
+nagjen  naziv  „bogumila".  Službeni  naziv  crkve  u  listinama  bosanskim  je  „crkv a 
+bosanska"  a  u  spisima  dubrovačke  arhive  našao  sam  pristaše  ove  crkve  jedino  pod 
+nazivom  patarena,  dočim  tu  imenu  bogumila  nema  nigdje  traga.  I  službeni  naziv 
+„bosanska  crkva",  koji  jako  akcentuira  ono  „bosansko"  dokazuje,  da  ta  crkva 
+nije  bila  ni  u  kakvoj  organičkoj  svezi  sa  bugarskim  bogumilstvom.  Mi  dakle 
+moramo  prije  svega  kod  oznake  sekte  eliminirati  naziv  bogumila  a  prisvojiti  naziv 
+patarena,  koji  je  u  dubrovačkoj  arhivi  za  Bosnu  u  stotine  slučajeva  dokumentiran. 
+
+Uzmemo  li  originalni  tekst  Radinova  testamenta  u  ruke,  opazićemo  na  prvi 
+pogled,  da  je  na  početku  teksta  nacrtan  veliki  krst.  Takav  krst  naći  ćemo  u  početku 
+tekstova  na  svim  dosada  poznatim  grobnicama  patarenske  vlastele  i  na  mnogim 
+njihovim  poveljama,  a  suviše  uz  to  kao  početak  teksta  riječi:  „Va  ime  oca  i  sina 
+i  svetago  duha.  Amen. 
+
+To  obara  dosadanji  krivi  nazor,  da  su  bosanski  patareni  prezirali  znak  krst  a. 
+Ovaj  krivi  nazor  uveo  je  Rački  u  literaturu  i  u  opće  mnijenje  na  osnovu  iskaza 
+jednog  lombardijskog  Kathara-Patarena,  koji  je  u  Pinerolu  1387.  pred  inkvizicijom 
+megju  ostalim  izjavio,  da  tamošnji  patareni,  koji  su  navodno  bili  u  nekom  odnošaju 
+sa  nekim  bosanskim  doseljenicima  preziru  krst  ^). 
+
+Ovoj,  možda  pod  dojmom  terora  prijeteće,  a  možda  i  efektivno  provedene  tor- 
+ture sredovječnog  inkvizitornog  postupka  izrečenoj  izjavi  protive  se  neoborivim  autori- 
+tetom testamenat  visokog  patarenskog  crkvenog  dostojanstvenika  i  bezbrojni  pismeni 
+spomenici  patarenskih  vladara  i  velmoža  Bosne,  gdje  svuda  nalazimo  znamenje  krsta 
+u  početku  tekstova  a  ovim  je  kategorički  utvrgjena  činjenica,  da  Patareni  nijesu 
+zazirali  od  znamenja  krsta. 
+
+Prelazeći  opet  na  analizu  testamenta  Radinova,  osvrnućemo  se  na  „zadušje" 
+što  ga  namjenjuje  „za  dušu  svoju".  U  tu  svrhu  odvaja  on  od  svoga  imetka 
+600  dukata  i  dijeli  tu  svotu  na  dvoje:  jednom  polom  da  raspolaže  nećak  mu  gost 
+Radin  Seoničanin2)j  dakle  pataren  po  vjeri,  a  drugom  Dubrovčani  Tadioko 
+Marojević  i  Andruško  Sorkočević,  dakle  katolici. 
+
+Gosta  Radina  Seoničanina  zaklinje  gost  Radin  „svrhu  vjere,  koju  vjeruje 
+i  posta,  koji  posti"  i  „svetom  nerazdjelimom  troicom",  da  dijeli  ono 
+300  dukata  u  milostinju  i  to  na  ljude  dviju  kategorija: 
+
+1.  „Krštenim,  koji  su  prave  vjere  apostolske,  pravim'  krstjanom' 
+kmetom'  i  pravjem'  kmeticam'  krstjanicam' " ; 
+
+2.  „mrsnim  Ijudem." 
+
+Iz  ove  razdiobe  izvodim  ove  činjenice: 
+
+
+Kački,  na  ozn.  mj.  Kad.  8.  130. 
+2)  Sr.  Seonica  k.  Konjica. 
+
+
+—    369  — 
+
+
+1.  Patareni  zvali  su  svoju  crkvu  apostolskom,  a  to  će  reći,  da  je  (bar  po  tradiciji) 
+njen  osnivač  bio  jedan  od  dvanaest  apostola  ; 
+
+2.  „kmeti  krstjani"  bili  su  jamaćno  članovi  hierarhije  —  redovnici,  koji  se  razlikuju 
+od  ostalih  sljedbenika  —  mrsnih  ljudi  —  time,  da  im  je  svaki  mrs  bio  zabranjen. 
+
+Da  su  bili  redovnici  za  razliku  od  laika  „nemrsni"  ljudi,  donekle  posvjedočava 
+i  to,  što  gost  Radin  zaklinje  drugog  gosta  Radina  Seoničanina  i  „postom,  koji  posti", 
+da  pošteno  razdijeli  zadušje,  što  ga  njemu  stavlja  na  raspolaganje,  a  u  prilog  tome  govori 
+i  to,  što  sam  prilikom  našao  u  protokolima  dubrovačkih  vijeća  bilješku,  da  su  neko- 
+licina patarena,  koji  su  1404.  došli  u  Dubrovnik  i  tamo  neko  vrijeme  boravili,  trošili 
+vrlo  znatne  množine  ulja. 
+
+Prema  tome  bili  su  redovnici  patarenski  —  kath'  exochen  krstjani  —  vegeta- 
+rijanci a  svjetovnjaci  „mrsni  ljudi."  Milostinja,  što  ju  je  gost  Radin  Seoničanin  kao 
+zadušje  našega  gosta  Radina  imao  da  dijeli  megju  „krstjane"  i  „krstjanice",  imala  se 
+dijeliti,  da  „govore  svetu  molitvu  božiu,  na  zemlju  kolena  poklečuće,  da  bi 
+nas'  izbavio  gospod'  bog'  od  grjehov'  našieh'  i  pomilovao  na  strašnom' 
+sudištu  vjeku  vjekoma",  a  iz  toga  razabiremo,  da  su  sljedbenici  patarenske  vjere: 
+1.  molili  bogu  klečeći,  2.  vjerovali  u  oproštenje  grijeha  i  3.  vjerovali  u  strašni  sud. 
+
+Milostinja  imala  se  dijeliti  siromasima  u  naročite  „velike  blage  dni"  i  to: 
+u  svetu  Nedjelju,  sv.  Petku,  na  Rogjenje  Kristovo,  Blagovjest,  Uskrs, 
+na  sv.  Gjura,  Uznesenje  gospodnje,  na  sv.  Petra,  sv.  Pavla,  sv.  Stefana 
+Prvomučenika,  arhangjela  Mihajla,  na  sv.  dijevu  Mariju  i  na  dan  Sviju 
+Svetih. 
+
+U  ovom  nizu  crkovnih  svetkovina  pada  nam  u  oci  ponajprije  sveta  Petka. 
+Da  to  nije  indentično  sa  sv.  Paraskijevom  odnosno  svetom  Petkom,  krsnim  imenom 
+većine  Karavlaha,  razabiremo  po  tome  da  se  spominje  uporedo  sa  sv.  Nedjeljom  na 
+prvom  mjestu  ispred  svih  ostalih  blagdana.  Pod  sv.  Petkom  prema  tome 
+neće  se  imati  razumijevati  posebna  svetica,  nego  analogno  sv.  Nedjelji,  dan  u  tjednu 
+—  petak,  a  to  mislim  nuka  nas  na  misao,  da  su  bosanski  patareni  svetkovali  kraj 
+nedjelje  i  petak  kao  dan  Krstove  muke.  Time  bi  dobili  kriterij,  kojim  se 
+patarenstvo  bitno  razlikuje  od  katolicizma  i  pravoslavlja  a  opet  jedan  novi  tumač, 
+zašto  se  patarenstvo  tako  lahko  stopilo  s  islamom,  u  koga  je  petak 
+takogjer  blagdan. 
+
+Jedna  bitna  razlika  izmegju  katoličkog  kalendara  i  patarenskog  jest  nadalje  ta, 
+da  katolici  slave  dan  sv.  Petra  i  Pavla  na  jedan  dan,  dočim  gost  Radin  tu  svetkovinu 
+razdvaja  „na  dan'  svetoga  Petra  i  na  dan'  svetoga  Pavla". 
+
+Najzanimivija  stavka  u  čitavom  testamentu  čini  mi  se  ona,  koja  spominje 
+„sv.  Georgija,  moga  krsnoga  imena". 
+
+Mi  tu  nailazimo  na  jednu  slavu  —  krsno  ime,  —  koju  do  sele  nitko  nije 
+znao  protumačiti  ni  u  religioznom  ni  u  etničkom  vidu,  slavu,  koja  danas  u  stanovitim 
+
+
+Tu  nam  se  namiče  nehotice  cijeli  niz  sugestivnih  pitanja.  Ne  veli  li  tradicija,  da  je  apostol 
+Pavao  putujući  u  Rim  propovijedao  u  Iliriku?  Ne  dovodi  li  se  patarenstvo  u  najtješnja  svezu  sa  Pauli- 
+cianstvom?  —  Nije  li  apostol  Pavao  bio  protivnik  neograničenom  autoritetu  starog  zavjeta,  kao  što  ga 
+zabacuju  i  patareni?  Nije  li  se  on  vas  svoj  život  borio  protiv  eksldusivizma  judejskog  kršćanluka?  Nije  li 
+antagonizam  istočne  i  zapadne  crkve,  čiji  emiseri  tu  na  Balkanu  u  dosta  kasno  doba  nagjoše  prastaru 
+samostalnu  crkvenu  organizaciju,  koja  si  arogirala  apostolsko  porijeklo,  posve  razumljiv,  kada  ti  patareni 
+ne  htjedoše  da  se  pokore  autoritetu  ni  jedne  ni  druge  crkve?  Ne  oprovrgava  li  naziv  „prave  apostolske 
+vjere"  dosadanju  hipotezu,  da  je  osnivač  te  vjere  bio  neki  pop  Bogomil? 
+
+
+—    370  — 
+
+
+etničkim  slojevima  na  sjeverozapadu  Balkana  kao  čisto  „narodna"  svetkovina  ima 
+najveći  ugled,  može  se  reći  veći,  nego  li  sam  uskrs  ili  božić.  Ni  o  postanku  te  slave 
+ni  o  njenom  pravom  značenju  nije  do  danas  ništa  pouzdana  poznato.  Pravoslavno 
+žiteljstvo  Bosne  i  Crne  gore  i  njihovi  suvjernici,  koji  su  se  za  turskih  ratova  razselili 
+po  Hrvatskoj,  Slavoniji  i  Dalmaciji  naziru  u  krsnom  imenu  i  krsnoj  slavi  čista 
+srpsku  i  pravoslavnu  svetkovinu.  Da  ona  nije  ni  jedno  ni  drugo,  razabire  se  iz 
+slijedećih  podataka.  Pretežni  dio  pristaša  pravoslavne  vjere,  Rusi,  Grci,  Bugari  i 
+Rumuni  tu  slavu  uopće  i  ne  poznaju  ;  ne  slave  ju  dapače  ni  svi  Srbi  u  istočnom 
+dijelu  kraljevine  Srbije,  dočim  je  u  Bosni  slave  i  Karavlasi,  dakle  pleme  romanskog 
+porijekla. 
+
+Prema  tomu  nije  područje,  na  kome  nalazimo  krsnu  slavu  kongruentno  ni  sa 
+područjem  pravoslavlja  ni  sa  područjem  srpstva. 
+
+Još  zanimivija  od  ove  činjenice  je  druga,  da  se  krsna  slava  nalazi  i  u  katolika 
+i  u  muslimana.  Za  katolike  hercegovačke  i  konavoske  vrlo  su  me  često  uvjeravale 
+pouzdane  osobe,  da  ih  ima  dosta,  koje  slave  krsnu  slavu.  Gosp.  paroh  Tomo  Bratić 
+u  Blagaju,  rogjeni  Hercegovac  i  dobar  poznavač  narodnih  običaja,  imao  je  dobrotu 
+pisati  mi  o  tome  ovo  :  „К  a  1 0 1  i  c  i  vrlo  mnogo  slave  krsno  ime.  Dubrovačka 
+biskupija  graničila  je  sa  tokom  Bune  i  Neretve  te  ono,  što  je  bilo 
+pod  njom,  držalo  je,  a  i  danas  još  drži  „krsno  ime",  dočim  pod  mostar- 
+skom biskupijom  toga  je  vrlo  malo.  Porodice,  koje  su  u  mojoj  blizini 
+a  slave  krsna  imena  jesu  ove:  Jarak,  Puljić,  Vlaić  slave  Nikolj  dan; 
+Keva:  Sćepan  dan;  RagužiLučin  dan;  Pažin:  Petrov  dan;  Babić: 
+Gjurgjev  dan  i  t.  d.  Ove  porodice  stoje  u  mostarskom,  nevesinjskom 
+i  stolac  kom  kotaru  a  osim  toga  gotovo  svi  starosjedioci  Popova  i 
+Šume  slave  krsna  imena  i  ta  je  slava  na  dlaku  jednaka  slavi  kod 
+pravoslavnih".  Da  ima  i  muslimana,  koji  slave  krsnu  slavu,  to  potvrgjuje  Vuk 
+Karadžić,  koji  je  zabilježio,  da  Vučebabići  u  barskoj  nahiji  (Crna  Gora),  prem  su 
+muslimani,  slave  Arangjelov  dan  kao  svoje  krsno  ime  a  tako  slave  i  muslimani  sela 
+Mrkovići  krsna  imena  ^).  Kako  mi  kazuje  g.  dr.  Vladimir  Ćorović,  rogjeni  Mostarac, 
+slave  i  danas  muslimani  u  Dubravama  krsnu  slavu  a  imenice  naveo  mi  je  Behrame 
+na  Rotimlji,  kod  kojih  je  sam  prisustvovao  toj  kućnoj  slavi  ^). 
+
+Ako  smo  gore  mogli  opaziti,  da  se  područje  krsne  sla^  e  ne  podudara  sa  područjem 
+pravoslavlja  i  srpstva,  dokazuju  nam  ovi  netom  navedeni  slučajevi,  da  ono  na  stano- 
+vitoj liniji  prelazi  i  preko  njihove  konfesionalne  i  etničke  granice. 
+
+Ako  mi  nakon  ovoga,  što  smo  letimice  spomenuli  i  što  će  tek  trebati  u  buduće 
+pomnije  proučavati,  najstariji  spomen  zagonetnoj  narodnoj  ^krsnoj  slavi  nagjemo  u  testa- 
+mentu jednog  visokog  patarenskog  crkvenog  dostojanstvenika,  onda  nam  u  to  pitanje 
+ulazi  bar  tračak  svjetla,  jer  nam  se  od  sebe  namiče  misao,  da  krsna  slava  nije  ni 
+
+1)  Sravni:  Nikola  Begović  :  Život  i  običaji  Srba  graničara,  Zagreb  1887.,  str.  Зо. 
+
+2)  Sravni  Vukov  Rječnik,  riječi  Mrkovići  i  Šestani. 
+
+3)  O  tome  mi  piše  gosp.  Tomo  Bratić  ovo:  „Za  muslimane  nijesam  mogao  nigdje  doznati,  da  ga 
+slave,  ni  pod  kakvim  imenom,  samo  sam  poznavao  porodicu  muslimansku  Jugo  u  Jugovićima,  koji  su 
+mi  pričali,  đa  su  kao  lirišćani  slavili  Trojičin  dan.  U  tom  selu  ima  crkva  veoma  stara  i  ta  je  crkva 
+slavila  Trojičin  dan.  Taj  dan  ti  muslimani  ne  bi  ništa  radili,  nego  bi  došli  crkvi;  dok  bih  ja  služio  u 
+u  crkvi,  oni  bi  sigjeli  pred  crkvom  i  poslije  bi  cio  dan  ostali  kod  crkve  u  razgovoru  i  veselju  sa  drugim 
+ljudima.  Govorilo  se  je,  da  su  palili  i  krsnu  svijeću,  ali  su  mi  sami  rekli,  da  nijesu  i  da  nemaju  nikakvili 
+običaja,  osim  zavjeta,  da  taj  dan  ne  rade.  Ие  lira  mi  su  u  mojoj  blizini  i  nijesam  mogao  ni  za  njih,  ni  za 
+druge  doznati,  da  i  pod  kakvim  imenom  slave  išta,  što  bi  sličilo  našem  krsnom  imenu". 
+
+
+Glasnik  zemaljskog  muzeja  u  Bosni  i  Hercegovim.  1911.  XXIII.  3. 
+
+Tabla  I. 
+
+
+Dr.  Ćiro  Trnlielka:  Testamenat 
+gosta  Kadina. 
+
+
+„  J^j<-T'"«'  VV^'' //'■-'Г'  ti-"  ^(t<^(r'^('^br-f^ii^ 
+
+
+Prva  strana  testaminita  g-osta  Kadina. 
+
+
+Glasnik  zemaljskog  muzeja  u  Bosni  i  Hercegovini.  1011.  XXIII.  3.  Dr.  СЧго  Truhelka:  Testamenat 
+— —   j^osta  Radina. 
+
+Tabla  II. 
+
+
+t 
+
+
+,џс^}Л  (Јч!.^"/^«*--  r.^^u^^l  ^tp^^^,^  н^шн^^  , 
+
+Јј.^^Ч  i^A^^nr^^k  У{илхет»^ј^1   ^{,'>р^  гг.П*^И  ^иг!^-^н 
+
+
+1  б-нн^!«"*^''"^*^'^^  ^^^"  ^'""'^^"^!i2"''-'^<f<^^ 
+
+
+.....  -đi^^^'ff-^^ijf^^^-^ 
+
+
+Druga  strana  testamenta  gosta  Radina. 
+
+
+Glasnik  zemaljskog  muzeja  u  Bosni  i  Hercegovini,  1911.  XXIII.  3. 
+
+Tabla  III. 
+
+
+Dr.  Ćiro  Truhelka:  Testamenat 
+gosta  Rudina. 
+
+
+,,Л^\^^  f)r|-и^-f^^ 
+
+f^ffn      ,f  'j/cihc.  ^^/'^Tci  ^-f"'-'^«  с-.'«^'"^^ "^''-iMi^f- 
+
+
+irTjU.«  .Ји^«  ^er.^.fe^^f^i^''  ^v--r'  '\-r^'' -  ■ 
+
+Ijcf  f^j^*^^^H  ^^^Vt^rr/P  ^'-'јД^/г'^*^  г-^/Г/.^,./    ^^^rrl^ćFj^^  i<Yr7rlr^ 
+
+
+Treća  strana  testamenta  gosta  Kadina. 
+
+
+Glasnik  zemaljskog  muzeja  u  Bosni  i  Hercegovini.  1911.  ХХШ.  3.  Dr.  Ćiro  Truli el ka:  Testamenat 
+  gosta  Radina. 
+
+Tabla  IY. 
+
+
+četvrta  strana  testamenta  »osta  Kadina. 
+
+
+—    371    -  . 
+
+pravoslavnog  ni  srpskog,  nego  pataren  skog  porijekla.  Ge(jgralfski  opseg  te  slave, 
+u  koliko  nije  u  novije  doba  seobom  proširen,  identičan  je  sa  geografskim  opsegom 
+bosanskog  patarenstva,  a  kada  je  iza  turskog  osv(jjenja  Bosne  patarenstvo  podlegl(j 
+vjerskom  prozelitizmu  preostalih  konfesija?  islamske,  pravoslavne  i  katoličke,  sačuvaše 
+konvertiti  po  svojoj  konservativnoj  naravi  najveću  crkvenu  slavu  svojih  patarenskih 
+praotaca  —  krsno  ime  —  bar  kao  narodnu  ili  bolje  kućnu  slavu,  prem  su  pristalice 
+konfesija,  koje  za  nju  ne  znadu. 
+
+U  narodnoj  religiji  nije  to  jedini  sredovječni  relikt,  koji  ni  u  pravoslavlju  ni  u 
+katolicizmu  nema  svoj  iskon;  amo  ide  i  narodno  svetkovanje  božiča  i  badnjaka,  jednako 
+u  obih  konfesija,  a  i  svetkovanje  Ilinja  i  Gjurgjeva-dne,  koje  jednako  nalazimij  u 
+kršćana  i  u  samih  muslimana. 
+
+•к-  * 
+
+•X* 
+
+Kao  zadušje  ostavio  je  gost  Radin  osim  spomenutih  300  dukata  jednakcj  veliku 
+svotu  na  raspolaganje  svojim  prijateljima  Andrušku  Sorkočeviću  i  Tadioku  Maroeviću, 
+da  ih  oni  dijele  „ni  štetnim,  hromim,  sirotam,  u  do  vic  am,  starim,  ubogim 
+i  nevolnim,  kako  koga  vide^'. 
+
+Andruško  i  Tadioko  bili  su  Dudrovčani,  dakle  katolici,  a  kod  dijelenja  ove 
+svote  ne  stavlja  testator  posebnih  uvjeta  glede  vjerske  pripadnosti  onih,  kojima  će  se 
+dijeliti,  pa  je  prema  tome  očevidno,  da  je  testator  ovu  svotu  namijenio  dubrovačkoj 
+sirotinji,  koja  je  po  vjeri  katolička,  a  ne  patarenskoj. 
+
+Ako  nam  je  to  —  usred  srednjeg  vijeka,  vijeka  vjerske  nesnošljivosti,  —  ekla- 
+tantan dokaz  vjerske  tolerancije,  ne  ćemo  se  tome  toliko  čuditi,  koliko  odmah  iza 
+toga  slijedećoj  stavci:  „i  da  se  imaju  svjeće  žeći  za  dušu  gosta  Radina  u 
+hramovjeh'  božjeh"  na  gornje  svetke! 
+
+Da  će  dva  dubrovačka  plemića,  bilo  za  koga,  u  bogumilskom  hramu  paliti  svijeće, 
+to  je  pomisao,  koja  u  XV.  vijeku  ne  bi  nikome  došla  na  um  i  za  to  zaključujemo,  da 
+je  patarenski  gost  Radin  želio,  da  se  te  svijeće  za  njegovu  dušu  pale  u  dubrovačkim, 
+katoličkim,  crkvama.  Ako  je  jedan  patarenski  crkveni  dostojanstvenik  u  časti  biskupa 
+u  svojoj  oporuci  izrazio,  da  se  u  katoličkoj  crkvi  „za  njegovu  dušu"  zapali  ma  i  jedna 
+svijeća,  onda  to  svjedoči  u  jednu  ruku,  da  je  u  njih  ne  samo  konfesionalna  snošljivost 
+bila  velika,  a  u  drugu,  da  dogmatička  razlika  izmegju  jedne  i  druge  crkve  nije  bila 
+baš  tako  ogromna,  kako  smo  to  obikli  misliti  po  studiji  Račkovoj  o  Bogumilima  i 
+Patarenima. 
+
+* 
+
+Tekst  testainent<a  Radina  gosta. 
+
+»i»  .A.S.g.3.  [леЈгпо  рожАсгпал  )(ристоал  • 
+
+WD0H  fcmb  гпЕсгплмЕнлгпк  госгпл  рлдимл,  кои  [д^кропникк] 
+
+ДПЛ   СИИОаЦА    ГОСГПЛ    рЛДИМЛ,    КЛЛДИСЛРћ    TDpTKO    и  .......  и 
+
+ДОА  ИЛСЛ^^ДМИКЛ    р(Е)чЕИииГА    ГОСГПЛ    КОИ    тЕСГПЛМЕНЛГПК   ^    CDEMK  по- 
+
+)(аЛЛИШЕ     И     ЗЛ    СЕКЕ    VA'K'femOaAlUf    И  СЕКЕ    И  ОСГПЛЛЕ  илсл^кдникЕ, 
+
+ШД,    IjlO    СЕ    ^    ПЕМК    СК^^рКИ,  liE    СаЛКОЛЛ^    КИТИ    ТОрДО   И  [иЕПОКОЛЕКИМО 
+
+ЕЕ^  ПОрЕЧЕНКШ. 
+
+
+^    372  — 
+
+
+►I^    НЖЛ    l€   CDHA'kNLie   СПШОГГД    ГДМЛ   БЛ  И  ^  ^lUlIbiie  СДМОВЛДЛ^фЛЛГО 
+
+млостик)   K^nwML    млм^ксгпднк   ^   моиои    плмЕти    11Л   сплк^    ц^кл^  и 
+
+HCTHHW  ^фЛНкЖ  ДД  МИ  i  НЕПОтПОрЕНО  ЗД  MENE  И  К01Њ  MENE,  ПОСГПЛПИ^ћ* 
+^   КНЕЗД   (ПЛЛИОКД   МДрОЕПИ^^И    И    Н    СИНОПЦД  МДрОИ  НД0К0ПИ1^М,   КЛКО  СЕ 
+
+и  фо  злржи  и  ^злржи  ^  здпис'к;(и  и  нднимиеЈ(,  кој^  писмл  шднд  Есб  ^ 
+могпдри  гтостпд  д^кропдчкогд  д  др^гд  пислдд  ес^  ^  mene  го?тд  рддинд 
+
+WAk  ИСГПЕ  р^КЕ  КНЕЗД  ГПДДИОКД  МДрОЕПИ^^И  И  ПОД^  Н16Г0П^  ПЕЧЛГПк  □'крОПДН^, 
+
+ЗД  гпи  зд  исгпи  поклддц  |кдд  ли  ки  CE]  фо  згодил^  ЛАЕНИЕ  госгп^  рддин^,  ClWf>m 
+
+ЛИ  [ДЛИ  КОИМК  Д|)^ГИЛД1ч]  8'зрОКОМЦ  ГПДИ  ПИСМД  WCmAH)  И  ЕС^  WTAHNA  К^ГЛ, 
+КОИ  CE  ЗДрЖЕ  ^  HMEII!:^  ^  ПИШЕ  р(Е)ЧЕНИЕЈ(  □HCM'k^K  И  ПОПЕЛИ^К,  ЗД  КОИ  ПОКЛДДЦ 
+СиДД  WALA^4HXI^  И  рДЗ|)ЕДИ^К  НД  КОЛИ  И  11Д  ПрДПИИ  НДЧИНЦ  МЕГО  фО  CE 
+И   КДКО   ИМЕН^НЗ   ^    npnUE^t.    ПНСМ'к;(1^.    СкДД    WnOH    ПОСЛ^ГНЕ    WAk  прпиЕЈ( 
+
+писмо  ^чимислАО,  лл  ЗАр?*^н  свд  инд  и  no  СЕлдк  писм^  моЕмц  госгпд  рддинд, 
+
+ДД  CE  1ШД  И  }(OtiE  рДЗрЕДИПП  И  ^НИН(И)тИ  ^Д  ЛДОШ  p(E)4EHW  ИМЛНКШ,  НОЕ  CE 
+11Д\(0ДИ  ^  npni^L  ПИШЕ  р(Е)МЕНИЕЈ(  ПОПЕЛИЈ(,  ДД  CE  CnAKWM^  MWM^  С^рОДМИК^ 
+Д    ИЛИ    СЛ^ЗИ    ДЛИ    ПрИИДТЕЛК)    НД    П^Н^    И    11Д    ТПрДО     М01€  рДЗрЕГЕН1ч1€: 
+
+IlAHnpnVV  ЗД  ЛДОК)  Д^Ш^^    ГОСТД   рДДННД,    .5.    СДГП^  Д^КДГП  ЗЛДтИЕЈ(  ДД  CE 
+
+ддд^  ид  сл^жБ^  Еожик)  гпди  ШЕсгп  сдт1^  д^кдгп  дд  CE  имдн)  поддти  рдзложио 
+и  iu4Hiiw(m): 
+
+трИСГПД   Д^КДПИл    ДЛ    CE    ИЛДДН)    И    ^О^Е    ДДГПИ    ^    р^КЕ    ШгиШ    МИ,  ГОСГПЛ 
+
+рддинл  cEwim4AimiiA,  дл  тои  рдзд'кли  с  npAnwM  д^шомк  и  3  докрнЕли^ 
+iu4HiiWMk  крфЕниЕми,  KOM  с^  прдпЕ  п^kf^  лпосглолскЕ,  прдпиЕми  крсгш^г^нолАЦ 
+
+КЛДЕГПЕЛДк  Н  ПрЛП^кми  КМЕТИЦДМК  KpiNCmMimilAML,  кои  дд  зд  мои>  д^ш^ 
+^     СПДНМ     ПЕЛНКк     ДД1Њ     И     СПЕГЛ^^     НЕД^клК)     И     CBEm*^     ПЕГПК^,     11Л  ЗЕМЛН) 
+
+колЕМД  поклЕЧ^+iE  rwn(o)pE  спЕгп^  молипигпп^  (sic!)  БОжиИЈо  дд   БИ  идси 
+
+H3l4RAnHW   ГтОД1^   БГ1л  WAb   rpt^ODL   11ДШИеЈ(  И  ПОМИЛОПД^   11Л  cmpAmiiWMi^ 
+
+с^диф^  к^кк^  □'кколдд;  л  пдплдшио  дд  се  тои  д^клн  сгпдриЕми  клаегпем^ 
+
+И  КЛДЕГПШЦЛДи,  ГПЛКОГЕ  ППКО  KM  ЕИЛ  ^БОЗИ  ДОКрИ  ЛД^Жк1в,  ^Дк  КОЕ  С^  ГОДИЕ 
+□рСТЕ,  НЛИ  КрСГПкГ^МЕ  И  KpCmLtđl  1ИЦЕ,  KOM  Гр^к^^Д  HE  ЛН)БЕ,  ДД  HMU  ИМДЛ  И 
+^0+»Е  Д^клИТ  Р(е)НЕ11И  НЕТИ  ЛДН  рЛДИН,  КДКО  KWrA  ПИДИ  И  ЗНЛД  WA\s  ИДШЕГД 
+ЗЛКОНД,  ИЛН  СЛ^кпЛ  ИЛИ  )(рОМД  ИЛМ  МЛОЕНД  ИЛИ  ^КОГД,  КДКО  HWrA  ПИДЕћи, 
+imKWM^    ГпрИ    ГИрПЕрЕ    Д    HHKOMh'    чЕгпири    Д    ИИКОМ^    .^.    Д   НИКОМ^   .5.  д 
+
+ником^  .3.  д  миком^  .и. 
+
+
+—    373  — 
+
+
+И    ГЛЛЛМИЕМ   И    ЖЕДНИЕМК    И    СтЛ|)ЦЕЛДк   И    СтЛрИЦДЛДи:    T'kMIs    ЛЛ         ИЛАДЛ  и 
+ДЛП(Л)тИ,    КДКО    К^ГЛ    nn^i^i^    ИЛ    DEAMKE  БЛЛГЕ    ЛЧИ    ^    СПЕГП^  IlEA'kAH) 
+
+и  ^  спЕгп^  ПЕгпК^  и  нлпллшно  мл  ЛЛМ1^  (nimWA  рожлстпл  ^(ристопл  и 
+НД    fnEmW  БЛДГОП^ШЕН!^^   И   НЛ   CDEmSV    □^KHpCElILie    госпоппв   и   мл  ллик 
+
+спЕгп^гл  ГЕоргии,  MwrA  крсн^гд  имЕМд,  и  нл  АА\\к  (шт^ГА  п:^к\шшш 
+гспогни  и  нд  дднк  (шт^ГА  ПЕтј)л  и  мл  ЛЛ1Њ  спЕтотл  пдплл  и  11д  ллии 
+
+CnEmWrA  СпткпДНД  npnVVM^HEHHKA  И  МЛ  ДДН^  CnEmWrA  МИ^ДИЛ1^И  Др;(Л11ГЕЛЛ, 
+НД  АЛНК  СПЕГПЕ  A^koE^  МДрИЕ,  11Д  AHl^  C□'k^l^  СПЕтИЕЈ(:  ГПОИ  СПЕ  ПИШЕ  nHCAIIW 
+HMEIIODAHVV,  КДКО  СЕ  И  ljJW  ^  СЕМК  ПИСМ^  ЗДрЖИ  ГПЕИ  .ГП.  А^КДГПК  АЛ  ИШ  АЛГЛИ 
+KNE^L  тДАИОКО   МЛрОЊПИКи   И    СИНОПДЦ  МДрОШ    11Д0К0ПИ1^К  p(E)4EIIWM^ 
+
+ГОСГП^  рДАИН^  ^°РХ^  МЕГОПЕ  □'fcpE,  КОК)  □'кр^1в  И  ПОСгпД,  КОИ  ПОСГПИ,  АЛ 
+HE   МОЖЕ    НИ   ^OiiE    НД   МДИЊ   АОМЕСГЛИ  ИИ  ^ЧИМ(И)тИ    ПИШЕ    ПтЛИ^ГА  ИМЕНО- 
+
+□ANwrA  .m.  А^кдтц  него  рд^А^клит  и  рдзрЕлит  прдпо  и  ц^кло  и  истино  ^д 
+
+MOW  А^Ш^^,    КДКО  СЕ  И  ЦЈО  ПИШЕ    ИМЕН^1в,   ДКО    IIE^^E    БИГП   ПрИНЕШНИК  БОЖИЕМ 
+
+iiEnocA^mMHKWMK  и  дко  ){o\\i^  м        16  мирнд  и  nwK(o)HHA  А^шд  npHAt^ 
+
+□  ИШНИЕМ1л   ГСПОАОМК    KrOML  И    Пp'fcAl^  fnEmWML  ГпрОИЦОЛДК  NEpA3A'kAHMWMk, 
+
+mtMb  прдпо  Ал  ^n(o)KWH  а^ш^  мок),  koahkw  ^c)(otiE  TANL  kFl  спемог^^и. 
+
+ТДКОГЕрЕ    no   ГПИ    МДНИИи  р^Ч!^  ПО  р^кчц  CAWn(0)  ПО  CAWn(0)<,  ^Ак  ГгЛ.у^Ш 
+
+ндипр'к  .0.  сдгп  А^кдгтич  стдлк)  нд  ^^фднкњ  божие  Ар^г^  гприсгпд  А^кдгпи  ^ 
+
+WKAACmL  И  рДЗГЛЕАБ^  КНЕ^Д  ДНАр^^ШКД  СОрКОЧЕПИ+^И  И  ГПДАИОКД  ЛДДрОЕПИ+^Г;^, 
+АД  WNH  тОМ^И  nOHEAW  И  Шр\А  рДЗрЕАИТ  И  pA^A'^AHT  pE4EHW  ЗДА^ШкЊ 
+М01€,  ГОСГПД  рДАИНД,  no  ПрДПУУЛД  ПрДПИЛ^^  НИфЕТИИЕМ  И  ^KO^HE^VAL,  СЛ^кпИЕМк 
+И  ^(pOMHEML,  СИрОГПДЛД^  ^АОПИЦДЛДк,  ЗД  mW  nOD'fc  И  VVCmADH^U  ^  НИ;(К  ЛДОЖ 
+pE4EIIW  ЗДА^ШкЊ  СПр;(^  atpE  И  А^ШЕ  Н  ПЛЕМ(Е)ПСтПД  ни^ц  АД  A'fcAE,  ндко 
+ШГА  ПИАЕ  СГПДрД  ИЛИ  ^БОГД  Д  НЛИ  НЕПОЛМД  ЧОП^ккД,  HHKWM^  .'г.  АИНдрЕ  д 
+Н^ккОЛА^  .A.  Д  ll'kKWM^  Л.  Д  Н^кк^Ми  .5.  Д  ll'kKOM^  .3.  д  н^колд^  мнлдо 
+.И.  АИНДрД.  К  ГПОМ^  АД  СЕ  ИМДК)  CothE  ЖЕ+^И  ЗД  А^^Ш^  МОК),  ГОСтД  рДАИНД') 
+^  ХрЛМ'к;(к  БОЖИЕ;(к  НД  WIIEH  СПЕГПЕ  ПЕЛНКЕ  АНИ,  КОИ  СЕ  ПНШЕ  HMEIlS'fO,  СПЛК^ 
+СПЕГП^    IlEA'kAlO    И    СПЕГП^  ПЕГПК^^. 
+
+WAk    m1n£    ГПОГДИ    ЗДА^ШИ,    КОЕ    16    WAM^HEIIO    11Д    СЛ^ЖБЧ'    БОЖИК)  II 
+
+□  СИЕЈ(   СШгп^к^Ц    ИД   rOCmU   рДАИМЦ  IIE  ЗНДШ  СпрШЕНКГ;^  ЖИ□OmS'  AAW.\A^,  ККАЛ 
+
+ли,  PA't  ли,  ^  коЕ  ли  □p'kME,  ндрЕАНХ  "  ^р^Л^Х^  ^  рдзпнсдх!^  wcmAAAW  npAnw 
+
+ИМЛН1ч16   МОШ,    Б^АЕ  ЗАрЛПК   ^    ПЛЛАЕГПИ   /V\OHWH,   АЛ   СГПОИ   pE4(E)HW  НМЛИкЊ 
+
+1)  Pred  time  bilo  je  napisano  НЈД^^/Иб  pa  je  izbrisano. 
+
+
+—    374  — 
+
+
+ЛАОЖ^  СПЕ  ПОЛП^НО,  ЛАЕШИ  3Л  ЛДЕМИЕ,  МЛ  МОК)  DOAK),  ПО  СПЕЛД,  ^  СПЕЛДК  И 
+no   СПЕ.    Л  ЗГОЛИЛО    ЛН    Б(И)    СЕ    CUMflTlL    MEIlt,    ГОСГП^    рЛДИН^^,   \УСтЛЛИЛА  И 
+
+нднпрпф  в^кдпи  крст^и11им,(и),  крдгп^нЕДИ  м(и)  д  Kt^Epmn  гппрткопи 
+.'p.fi.  л^кдгпк  д  rofm^  рддин^  iifmW  ми  сеоннчдннм^  .'р.  д^кдгпк,  д  лр^гои 
+
+В^КДПИ    КрСтга11ИЦ(И),   МЛДИШОИ    RS'KIIMM(OH)   .р.    Л^КЛти;    СГПОИСДПИ  МЛДИЦЈОИ 
+
+MOHWH  ШЕСгпилЕСтк  л^кдт!^;  в^кми  СЕСгпри  MOMWH  .|.  л^кдml^;  в^кии  СЕСтри 
+MOHWH  .m.  л^кдти  д  в^чи11,и  к^^Ерши  AAOHWH  .с.  д^ндт;  д  mpEML  крсгпилд, 
+кои  зд  MiiWM  пошли,  идипрЕ  дл  СЕ  ллд  в^кшЕ  .|.  л^кдтк,  лрдгок)  .м. 
+Л^клт  0:  милсдпи  крстћ111иц(и)  дд  се  ддд  .к.  л^кдгп^  д  рддин^  крсгпии- 
+
+НИН^  (bis)   ДД   СЕ   ДДД   .g.  Д^КДТК. 
+
+Д  ^Д^  ПрОЧ11ЕЈ(  НДИПрИЕ  ДД  СЕ  ДДД  ПЛПН  ПЕП^ксгпИ  М(И)  С  ГпрЕЛДИ  СИ1ШИ 
+ДП^к  mHC^tSE  Д^КДГПк  Д  К^^ЕрШИ  MH  ДЛННЦН  р  Д^HДml^  Д  CHNOnil,^  лди  влддисдп^ 
+
+3  дн'мд  синопмд  mHc^ls^  д^кдгпи  д  неп^сгпм  ми  К1^тдпи  .р.  д^кдгпк  д 
+
+СЛ^ГДЛДи    ЛДОЖМк,    КОИ  ЗД    MIIWM    ПОШЛИ,    НДИПрИЕ    В^КДС^  KWM(0)pilHK^ 
+
+.р.  д^кдт,  рддосдп^  н  Брдгп^  ЛА^  R^Hni^^  pддилo□иisEMl^  |  д^кдглц  рддо- 
+
+□  ДМ^  VVCmOHi^^  .Л.  Д^КДГПЦ  Д   НЕгпИрЕЛАи  ГОИтДМОПИ^^ЕМ^,  рлдипок)  и  ми;(ОК) 
+
+и  рддосдп^  и  WБpдд^,  cnt^i^  нилди  .0.  д^кдт,  гпдки'  ДД  Б^Д^  ми;(ОК) 
+трид^сглн  Д8'кдтк  д  wimEM  спнелич  трЕМ  .м.  д^кдпи^.  рддони  В^КОГПИ^^^ 
+.M.  д^кдгпи,  B^KHt^^  в^кдши110пи1^>^  .л.  д^кдт1^,  ^л^крдд^  и  лдилици,  сл^гдм^ 
+
+ПДПИИИЕЛД,  .Г.  Д^КДТ^  Д  riOpill^  И  ИЛИЕ  .Г.  Д^КДГПи  Д  МДШЕМ^  ПрИИГПЕЛИ}, 
+КНЕЗ^    ГПЛДИОК^    ЛДДрОЕПИ1^^,    ДП^СГПИ    Д8'КДти    И    Ш^Б^    МОК)    ЦрПЕН^  WДL 
+
+днсдмигпд,  подстлплњм^  циблими,  кои)  mm  £  ддропд^у  ГД1Њ  крдли  мдгпииш. 
+
+КНЕЗ^  ДНДр^ШН^  .р.  Д^КДГП^.  Д  ЗД  ХрДМи  И  ЗД  rpEKI^  ГД^к  MH  KOCmH  Б^Д^^ 
+Н    ЛЕГ^    /р.М.  Д^КДГПи. 
+
+д  wnoH  НЕКд  СЕ  зндк)  поклддн  прдпи,  rocmk  рддинк,  фО  1€  ГПКО  ^ 
+
+MENE    ПОСГПДПИО',   ДД   М^    HE    Н3ГИНЕ,    НН    НД   МДНН1€  ДОГЕ! 
+
+НДИПрНЕ  БрДгп^НЕДД  MH,  ГОСГПЛ  рДДНПОИ  "с.О  Д^КДГПЦ  ГПОИ  ДД  М^  СЕ 
+ДДД  Д^кгпЕГП^,   Д   СНИ>^   KOЖHilKД   МНЛ0ШЕПН1^И   скрЧДННЦЕ   ДД  М^    СЕ    дд  .р.|. 
+
+д^кдт,  д  к^ок^,  госгп^  ^cкoпдлcкwм^,  /pj.  д^кдгпи. 
+
+Д   WfmДЛW   MOie    НМДНиКЗ,   НЛН    Е    ^    С^ДОПЕЈ(,    НЛН  ^  HHWMbi   КОП^,  mOH 
+
+дд  рдзд^клЕ  НЕгпнрн  сннопцн  MOH  влдднсдп!^  н  mnpmKO  н  И)рдн  н  рдднчи.  д 
+
+WfmAAW  nOK^I^Lie  Н  НМД1Њ1в  MOie  mOH  ДД  СЕ  НД  ГЛДПЕ  R^KMH  И  R^4HII,(H) 
+Н    МН)(НН    Н   ГППргпК^    Н    lOpUK)  Н  рДДИН^,    НЛН    БН    КОНН,    НЛН         СПИГПЕ  M0I6 
+
+Ovdje  ide  u  originalu  kratak  prazan  prostor. 
+
+
+—    375  — 
+
+
+И    КИСЛЗИ,    НЛИ    КОЕ    ГОДИЕ    ПргпИЦЈЕ,    ИЗЛЛДк    Ш^БЛ    СД    ^AAm^Ai:    WNAH    ДЛ  f 
+
+тпртк^. 
+
+тОИ  СП£  ПИШЕ  nHUHW  HMfHOnAIIW  НЛ  ^фЛН^Ш  КОЖИЕ  рДЗЛ^ћлИСЛАО  И 
+НДрЕДИСМО,  ДД  ДОКДри  НДНИГЊ  И  рДЗрЕДКБ^  ^ЧИНЕ  ГПОЛА^И  СПЕМ^  ПИШЕ  ПИСДНИ 
+ПОНГПЕНИ    И    ПИШЕ    ИМЕНОПДДНИ    КЛД^тЕЛ(£)    KNf^L    ДНДр^ШКО    COpKOHEDHt.U  И 
+
+Kllf^U  тдднско  лддроЕпић^  н  Ш  НИМ  МОћ^Д  дпд  сииопцд  клддисдп^  и 
+mnpmKO. 
+
+писдно  Aimu  гспод11£Ј(  нд  .н.б.|.5.  л^кгпо  мсцд   жЕмдрд  л.  длнк  ^ 
+
+Д^БрОПНИК^. 
+

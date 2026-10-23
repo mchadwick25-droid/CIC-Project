@@ -1,0 +1,50 @@
+source_file: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt
+
+authors_ruled:
+  facundus-hermiane:
+    kind: metadata-omission
+    evidence: >
+      PL 67 prints Facundus of Hermiane's Pro defensione trium capitulorum; the host record
+      names only Migne.
+    from_file: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt
+  dionysius-exiguus:
+    kind: metadata-omission
+    evidence: >
+      PL 67 opens with Dionysius Exiguus; the host record names only Migne.
+    from_file: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt
+
+assignments:
+  - row_id: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865--facundus-three-chapters
+    work: "Facundus of Hermiane, Pro defensione trium capitulorum (12 books) and Contra Mocianum"
+    author: facundus-hermiane
+    locus: "raw lines ~41800-68620"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: tradition
+    confidence: assigned
+    note: >
+      The African church's defence of the Three Chapters in its leading theologian's own
+      words, c. 546-550; Latin only.
+
+  - row_id: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865--ferrandus-letters-breviatio
+    work: "Ferrandus of Carthage, letters and Breviatio canonum"
+    author: ferrandus-carthage
+    locus: "raw lines ~68620-74073"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: tradition
+    confidence: assigned
+    note: >
+      A Carthaginian deacon's letters and canon digest on the Three Chapters; Latin only.
+
+  - row_id: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865--caesarius-rules
+    work: "Caesarius of Arles, Regula ad monachos and Regula ad virgines"
+    author: caesarius-arles
+    locus: "raw lines ~87225 and ~87808"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The monastic rules of the bishop of Arles; the rule for the convent of his sister
+      Caesaria is the oldest Western rule for women. Latin only.

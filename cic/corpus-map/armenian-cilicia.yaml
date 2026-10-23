@@ -3,6 +3,17 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: armenian-cilicia
 works:
+- row_id: alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888--leon-le-magnifique-alishan-venice-1888-the-life-of-levon-i
+  work: 'Léon le Magnifique (Alishan, Venice 1888): the life of Levon I and the preamble on
+    the Armenian migration to Cilicia'
+  author: alishan
+  locus: contents page at file line 469; the preamble and chapters I to IX through 16138
+  role: context
+  confidence: provisional
+  note: The life of the first king of Cilician Armenia, the chapter on the union of the Armenian
+    church with Rome among them (chapter IV). Placed on the contents page; the chapters were
+    not read. Also serves the earlier Cilician world.
+  source_file: alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888.txt
 - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-part-vi-the-reubenian-line
   work: 'History of Armenia (Chamich; Avdall''s English translation, 1827), volume II, Part
     VI: the Reubenian line of Cilicia'
@@ -17,6 +28,16 @@ works:
 
     '
   source_file: chamich_history-of-armenia-v2_avdall1827.txt
+- row_id: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004--het-um-the-historian-s-history-of-the-tartars-flower-of-2
+  work: Het'um the Historian's History of the Tartars [Flower of Histories of the East] (Bedrosian
+    2004)
+  author: hetum
+  locus: the whole text
+  role: context
+  confidence: provisional
+  note: 'Placed on window and subject: the Mongol history to about 1304 and the Cilician court.
+    Not read for these entries.'
+  source_file: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt
 - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-6
   work: 'The Church of Armenia (Ormanian; Gregory''s English translation, 1912): chapter XII,
     the patriarchal seat in Cilicia'
@@ -28,6 +49,29 @@ works:
 
     '
   source_file: ormanian_church-of-armenia_gregory1912.txt
+- row_id: rhc-armeniens_documents-armeniens-t1-fra_academie1869--recueil-des-historiens-des-croisades-documents-armeniens-i-2
+  work: 'Recueil des historiens des croisades, Documents arméniens I: Armenian chroniclers
+    in French'
+  author: rhc-armeniens
+  locus: the whole volume (the chronological list from Matthew of Edessa to 1335 is at the
+    head)
+  role: tradition
+  confidence: provisional
+  note: The Armenian chroniclers of the crusade era, from Matthew of Edessa's continuators
+    to the Constable Sempad and his continuator, in French. Placed on the volume's title and
+    chronological list; not read for this entry.
+  source_file: rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt
+- row_id: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906--recueil-des-historiens-des-croisades-documents-armeniens-ii-2
+  work: 'Recueil des historiens des croisades, Documents arméniens II: Hayton and the Latin
+    sources on Armenia'
+  author: rhc-armeniens
+  locus: Hayton and the Pseudo-Brocard, as above
+  role: context
+  confidence: provisional
+  note: 'Placed on window and subject: Hayton''s Flor (1307) sums up the Mongol and Cilician
+    story to 1304, and the Pseudo-Brocard is a pilgrim''s survey of the Holy Land and Armenia.
+    Not read for these entries.'
+  source_file: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt
 - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--tables-chronologiques-de-samouel-d-ani
   work: Tables chronologiques de Samouel d'Ani (Brosset's French translation, year by year
     to 1179 with a continuation to 1348)

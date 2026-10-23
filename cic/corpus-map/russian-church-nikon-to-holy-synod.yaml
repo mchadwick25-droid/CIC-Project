@@ -14,6 +14,16 @@ works:
     of the Kyivan revival's reach into Russian church and state history after 1652. Placed
     on that reprint, not on a reading of the text for the Nikon controversy.
   source_file: kyiv-synopsis_sinopsis-chu_1762.txt
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-mouravieff-blackmore-s-2
+  work: A History of the Church of Russia (Mouravieff; Blackmore's English, 1842)
+  author: mouravieff
+  locus: the sixteenth-century and seventeenth-century chapters (the name Nikon occurs about
+    189 times)
+  role: context
+  confidence: provisional
+  note: 'Placed on window and place: the same history carries the Stoglav period, the Nikonian
+    reform and the schism. Sampled by name counts only; not read for these entries.'
+  source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
 - row_id: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910--novyi-letopisets-the-new-chronicle-1584-to-the-1630s-in-the-2
   work: Novyi letopisets (the New Chronicle), 1584 to the 1630s, in the Archaeographic Commission's
     1910 edition

@@ -9,17 +9,18 @@ works:
   author: arminius
   locus: whole file; Life of Arminius from about line 465, Orations from line 694, Declaration
     of Sentiments from line 8280, Apology from about line 12080, Nine Questions at line 16448
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'Arminius died in 1609, a year before the Remonstrance of 1610 that opens this world''s
     window, and the census names him as the first of its voices. His own words are the founder
     voice of the movement, and the Declaration of Sentiments (The Hague, 30 October 1608)
     is the fullest statement of the positions the Remonstrants took up. Whether a pre-window
     founder is the world''s own tradition voice or its antecedent is a Doc_01 ruling, so the
     row is needs- ruling. An English translation from the Latin by Nichols, revised for the
-    1853 edition; clean OCR, quotable once each quote is checked against the page image.
-
-    '
+    1853 edition; clean OCR, quotable once each quote is checked against the page image. Ruled
+    by the project lead, October 2026 (Era VII placements): a text from before the world''s
+    window that the world argued from is antecedent to it; a text from after the window is
+    context here and tradition for the later entry.'
   source_file: arminius_works-v1_nichols1853.txt
 - row_id: brandt_history-of-the-reformation-in-the-low-countries-v3_1722--brandt-s-history-of-the-reformation-in-the-low-countries-vol
   work: 'Brandt''s History of the Reformation in the Low-Countries, vol. III (Books XXXIII-XLIV):

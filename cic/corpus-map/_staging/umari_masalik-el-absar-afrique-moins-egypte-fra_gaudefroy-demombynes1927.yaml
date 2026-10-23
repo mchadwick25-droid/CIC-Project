@@ -1,0 +1,16 @@
+source_file: umari_masalik-el-absar-afrique-moins-egypte-fra_gaudefroy-demombynes1927.txt
+assignments:
+- row_id: umari_masalik-el-absar-afrique-moins-egypte-fra_gaudefroy-demombynes1927--masalik-el-absar-fi-mamalik-el-amsar-i-l-afrique-moins-l-egy
+  work: 'Masalik el absar fi mamalik el amsar, I: L''Afrique moins l''Egypte (chapters VIII Abyssinie
+    and IX Nubie)'
+  author: umari
+  locus: Chapter VIII Abyssinie from file line 3609 (Amda Syon's kingdom, the Muslim states, the embassy
+    from Abyssinia at about line 3693); chapter IX Nubie from line 5950 (Dongola at 6149)
+  atlas_ids:
+  - terminal-christian-nubia
+  - the-ethiopian-monastic-flowering
+  role: context
+  confidence: assigned
+  note: Outsider Muslim geographer, French translation, clean OCR. Chapter VIII (Abyssinia) serves the
+    Ethiopian world; chapter IX (Nubia, with Dongola) serves the Nubian world. Fourteenth-century and
+    inside both windows. Ready to quote once verified against the scan.

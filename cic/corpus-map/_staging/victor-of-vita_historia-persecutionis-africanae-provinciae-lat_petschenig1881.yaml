@@ -1,0 +1,34 @@
+source_file: victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt
+
+authors_ruled:
+  victor-of-vita:
+    kind: metadata-omission
+    evidence: >
+      The title page names Victor, bishop of Vita, as author; the host record lists him in
+      the creator string with the editor.
+    from_file: victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt
+
+assignments:
+  - row_id: victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881--persecution-homoian-view
+    work: "Victor of Vita, History of the Vandal Persecution (Latin)"
+    author: victor-of-vita
+    locus: "whole text; Huneric's edict in Book III"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: assigned
+    note: >
+      The Vandal kings' Arian church seen through its victim; preserves Huneric's edicts and
+      Cyrila's words.
+
+  - row_id: victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881--persecution-africa-antecedent
+    work: "Victor of Vita, History of the Vandal Persecution (Latin)"
+    author: victor-of-vita
+    locus: "whole text"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: antecedent
+    confidence: needs-ruling
+    note: >
+      The African church's own memory of the Vandal century that preceded the Byzantine
+      reconquest; antecedent needs-ruling on the corpus-map rule.

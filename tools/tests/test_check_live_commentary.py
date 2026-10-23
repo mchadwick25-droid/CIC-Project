@@ -1459,7 +1459,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/worlds/hal/hal_Decision_Log.md", 88, "PROTECTED"),
     ("Build/worlds/don/scripts/wb_don_s21.py", 450, "REWRITE"),
     ("Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
-    ("Build/worlds/_cross-world/dossiers/devotio-moderna-brethren-of-the-common-life_Source_Readiness_Dossier.md", 11, "REWRITE"),
+    ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): line 109 shifted to 120 once the eleven

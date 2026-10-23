@@ -1,0 +1,20 @@
+source_file: syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt
+assignments:
+- row_id: >-
+    syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660--sylvester-syropoulos-vera-historia-unionis-non-verae-memoir
+  work: >-
+    Sylvester Syropoulos, Vera historia unionis non verae (memoir of the Council of Ferrara-Florence), Greek with
+    Latin, Creyghton 1660
+  author: syropoulos
+  locus: Greek with Creyghton's Latin throughout; the Latin notes at the end
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: provisional
+  note: >-
+    A church officer (great ecclesiarch) of the Greek delegation who signed, then repudiated the union. An insider
+    and hostile voice, written after the council. Placed on window and region; the book was sampled at three points,
+    not read through. Whether a memoir by a signatory who turned against the union counts as the church's voice
+    or as context is for the lead. A primary voice, ready to quote once checked verbatim against the scan; Greek
+    and Latin are read from the same OCR, and a quote record must be verified against the page image. No public-domain
+    English translation of this work is vendored (see the dossier, section 4).

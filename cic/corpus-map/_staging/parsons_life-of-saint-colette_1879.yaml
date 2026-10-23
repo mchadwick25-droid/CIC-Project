@@ -1,0 +1,20 @@
+source_file: parsons_life-of-saint-colette_1879.txt
+authors_ruled:
+  parsons:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file. The author is named on the title page printed in the file as Mrs. Parsons. A mechanical
+      index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: parsons_life-of-saint-colette_1879--the-life-of-saint-colette-parsons-1879
+  work: The Life of Saint Colette (Parsons, 1879)
+  author: parsons
+  locus: Whole file; Parsons's preface names her sources
+  atlas_ids:
+  - observant-reform-and-popular-preaching
+  role: context
+  confidence: provisional
+  note: >-
+    A Victorian Catholic life of Colette of Corbie built on Sellier, Douillet and a life with letters in the Analecta
+    Juris Pontificii (1879). Hagiographic and secondary, so Colette is the subject, not the speaker; her own constitutions
+    are not in it. English, clean OCR.

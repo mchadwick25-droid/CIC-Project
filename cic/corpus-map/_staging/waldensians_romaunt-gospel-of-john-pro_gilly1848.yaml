@@ -1,0 +1,26 @@
+source_file: waldensians_romaunt-gospel-of-john-pro_gilly1848.txt
+assignments:
+- row_id: waldensians_romaunt-gospel-of-john-pro_gilly1848--the-romaunt-waldensian-version-of-the-gospel-of-john-from
+  work: The Romaunt (Waldensian) version of the Gospel of John, from the Dublin and Paris manuscripts
+  author: waldensians
+  locus: Gospel text in numbered verses after Gilly's introduction
+  atlas_ids:
+  - waldensians-in-the-alps
+  role: tradition
+  confidence: assigned
+  note: The Waldensian vernacular Scripture, which is what the barbes carried and memorised. Primary voice
+    ready to quote once verified against the scan. Gilly's introduction is nineteenth-century argument
+    about the version's antiquity; the date of the manuscripts should be taken from the manuscripts' own
+    description, not from him.
+- row_id: waldensians_romaunt-gospel-of-john-pro_gilly1848--the-romaunt-waldensian-version-of-the-gospel-of-john-from-2
+  work: The Romaunt (Waldensian) version of the Gospel of John, from the Dublin and Paris manuscripts
+  author: waldensians
+  locus: Gospel text in numbered verses after Gilly's introduction
+  atlas_ids:
+  - the-waldensians
+  role: tradition
+  confidence: provisional
+  note: The Waldensian vernacular Scripture, which is what the barbes carried and memorised. Primary voice
+    ready to quote once verified against the scan. Gilly's introduction is nineteenth-century argument
+    about the version's antiquity; the date of the manuscripts should be taken from the manuscripts' own
+    description, not from him.

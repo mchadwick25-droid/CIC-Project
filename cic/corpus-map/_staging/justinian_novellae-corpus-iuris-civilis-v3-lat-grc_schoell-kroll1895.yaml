@@ -1,0 +1,15 @@
+source_file: justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt
+
+assignments:
+  - row_id: justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895--novellae-church-law
+    work: "Justinian, Novellae (the Novels), especially the ecclesiastical constitutions (Nov. 3, 5, 6, 7, 37, 42, 45, 46, 57, 58, 67, 79, 83, 86, 109, 123, 131, 133, 137, 144, 146)"
+    author: justinian
+    locus: "whole volume; the church Novels by number"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: tradition
+    confidence: assigned
+    note: >
+      The emperor legislating for bishops, monks, marriage and heresy: the imperial church's
+      own voice, in the form it most characteristically took. Latin (Authenticum) readable;
+      Greek second witness. No public-domain English.

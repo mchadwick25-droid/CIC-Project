@@ -1,0 +1,15 @@
+source_file: suso_deutsche-schriften-gmh_bihlmeyer1907.txt
+
+assignments:
+  - row_id: suso_deutsche-schriften-gmh_bihlmeyer1907--heinrich-seuse-suso-german-works-bihlmeyer-s-critical
+    work: "Heinrich Seuse (Suso), German works (Bihlmeyer's critical edition, Middle High German)"
+    author: suso
+    locus: "whole volume; Bihlmeyer's introduction first"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      Suso's own works in the critical edition, with the Life that Stagel helped to shape. A primary voice
+      once checked against the page images. The English of the Life (Knox, 1865) and of the Little Book
+      (1910) is vendored beside it.

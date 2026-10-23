@@ -1,0 +1,15 @@
+source_file: st-mary-at-hill_medieval-records-of-a-london-city-church-enm_littlehales1904.txt
+assignments:
+- row_id: st-mary-at-hill_medieval-records-of-a-london-city-church-enm_littlehales1904--the-medieval-records-of-a-london-city-church-st-mary-at-hill-1420-1559-part-i-ed-henry-littlehales-eets-os-125
+  work: The Medieval Records of a London City Church (St. Mary at Hill), 1420-1559, Part I, ed. Henry
+    Littlehales (EETS OS 125)
+  author: st-mary-at-hill
+  locus: contents from file line 294; the churchwardens' accounts from line 398
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: 'One large London parish''s own accounts and memoranda: the wardens'' receipts and payments (including
+    the lights and the brotherhood of St Anne, in the passages read), through the window and after. A
+    second witness for exact wording (noisy OCR on numerals and abbreviations); check page images before
+    quoting. Part II of the edition is not vendored.'

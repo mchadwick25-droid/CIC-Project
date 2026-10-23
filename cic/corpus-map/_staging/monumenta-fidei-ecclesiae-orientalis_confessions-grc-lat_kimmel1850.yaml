@@ -120,3 +120,19 @@ assignments:
       the 1630s; two short passages read, the rest of the volume not read for this entry. Check the author
       slug against the existing staging file for this volume before adding.
     row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--monumenta-fidei-ecclesiae-orientalis-kimmel-1850-the-greek-a
+  - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--kimmel-s-latin-prolegomena-on-the-council-of-florence-and
+    work: Kimmel's Latin prolegomena on the Council of Florence and the Greek reception (Bessarion, Scholarios,
+      Mark of Ephesus)
+    author: monumenta-fidei-ecclesiae-orientalis
+    locus: whole volume
+    atlas_ids:
+    - byzantine-church-palaiologan
+    role: context
+    confidence: provisional
+    note: 'Tier: same time-place for the Latin prolegomena (file lines 922-1067 name the Council of Florence,
+      Scholarius, Bessarion and Mark of Ephesus''s syllogistic chapters); out-of-window for the Confessions
+      of Gennadios (lines 124 and 332), which are after 1453 and already belong to the Ottoman world. Placed
+      from the grep hits and a read of the lines named; a nineteenth-century Protestant editor''s account,
+      not a voice of the world.
+  
+      '

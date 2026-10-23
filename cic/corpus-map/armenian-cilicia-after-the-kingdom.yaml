@@ -3,6 +3,19 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: armenian-cilicia-after-the-kingdom
 works:
+- row_id: alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888--leon-le-magnifique-and-the-table-chronologique-de-l-histoire
+  work: Léon le Magnifique and the Table chronologique de l'histoire de Sissouan (Alishan,
+    Venice 1888)
+  author: alishan
+  locus: Table chronologique from file line 16139; entries from 1300 at 16871; Cilician story
+    ends 17762-17771; index of names 17871
+  role: context
+  confidence: assigned
+  note: A Mekhitarist father's year-by-year chronology of the Cilician kingdom after Levon
+    I, with catholicoi, wars, union moves and the fall of Sis, drawn from the Armenian chronicles.
+    Clean French. Read at the entries for 1300 and the closing entries; the rest sampled.
+    A scholar's list, not a voice of the period.
+  source_file: alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888.txt
 - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-part-vii-the-expatriated-state-2
   work: 'History of Armenia (Chamich; Avdall''s English translation, 1827), volume II, Part
     VII, chapters I-V: Tamerlane to the return of the see to Etchmiadzin'
@@ -17,6 +30,104 @@ works:
 
     '
   source_file: chamich_history-of-armenia-v2_avdall1827.txt
+- row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-chamich-avdall-s-english-1827-volume-ii
+  work: History of Armenia (Chamich; Avdall's English, 1827), volume II, Part VII, chapters
+    I-V
+  author: chamich
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Proposed change to the existing provisional row: read at the cited lines, it fits.
+    The Sis council of 1342 (Armenian era 791) that answered the book of 117 ''heresies''
+    sent from Avignon is at file line 14107; the fall of Sis at 14504; Grigor of Tatev (''Gregorius
+    Tathevensis'') at 15103; the choice of Kirakus of Khor Virap at Etchmiadzin at 15369 to
+    15503. A late secondary history from native sources, in English, with errors in names.
+    Tier: same time-place.'
+  source_file: chamich_history-of-armenia-v2_avdall1827.txt
+- row_id: hetum_historia-orientalis-de-tartaris-lat_muller1671--haithoni-armeni-historia-orientalis-quae-et-de-tartaris
+  work: Haithoni Armeni historia orientalis, quae et De Tartaris inscribitur (Latin, Müller
+    1671)
+  author: hetum
+  locus: Falcon's testimony at file line 47; chapters from 231
+  role: context
+  confidence: assigned
+  note: 'The Latin Flos historiarum partium Orientis that Nicolas Falcon wrote down from Hayton''s
+    French in 1307. Second witness for exact wording (long s read as f). Public-domain English
+    translation (modern): hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt,
+    vendored beside it; the French is in the RHC Documents arméniens II file.'
+  source_file: hetum_historia-orientalis-de-tartaris-lat_muller1671.txt
+- row_id: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004--het-um-the-historian-s-history-of-the-tartars-flower-of
+  work: Het'um the Historian's History of the Tartars [Flower of Histories of the East] (Bedrosian
+    2004)
+  author: hetum
+  locus: translator's preface from file line 302; Book IV, the crusade plan for Pope Clement
+    V, near the end
+  role: context
+  confidence: assigned
+  note: 'Het''um''s work of 1307 in clean modern English by a translator who declares it public
+    domain. The court of Cilician Armenia speaking to the Pope in the year of the Sis council:
+    geography, Mongol history and a plan for a crusade. Not the church''s voice on doctrine.
+    Read the preface and sampled books. The rights rest on the translator''s own declaration;
+    see the registry note.'
+  source_file: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt
+- row_id: langlois_documents-lusignans-petite-armenie-1342-1394-fra_langlois1859--documents-pour-servir-a-l-histoire-des-lusignans-de-la
+  work: Documents pour servir à l'histoire des Lusignans de la Petite Arménie, 1342-1394 (Langlois
+    1859)
+  author: langlois
+  locus: forty-one numbered documents; item 41, a colophon dated 1393-94, near the end of
+    the file (about line 3186)
+  role: context
+  confidence: assigned
+  note: Documents of the last decades of the kingdom in French, Latin and Italian, ending
+    with a French rendering of an Armenian manuscript note of 1393-94, a colophon from the
+    year after Levon V's death. Nineteenth-century collector's French. Read the opening and
+    the last item; the rest was sampled.
+  source_file: langlois_documents-lusignans-petite-armenie-1342-1394-fra_langlois1859.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903--mansi-tomus-25-1300-1344-the-councils-of-sis-1307-and-adana
+  work: 'Mansi, tomus 25 (1300-1344): the Councils of Sis (1307) and Adana (1316)'
+  author: mansi
+  locus: '''ACTA CONCILII SISENSIS ARMENI'' at file line 12653; ''EPISTOLA GREGORII SISENSIS''
+    13480; ''ACTA CONCILII ADANENSIS'' 61813'
+  role: tradition
+  confidence: assigned
+  note: 'The acts of the two Cilician Armenian councils held to unite the church with Rome,
+    in Latin: the catholicos Gregory and King Levon at Sis in 1307, and Adana in 1316. The
+    Armenian church''s own council record in the form Rome kept it. Ormanian (vendored) says
+    the catholicos died before the synod of 1307 met, so the acts and the later history disagree;
+    mark the claim contested in Doc_02. Read at the opening of the Sis acts. Second witness
+    for exact wording (long s read as f).'
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901--mansi-tomus-26-the-constitutions-and-synodicon-of-nicosia-2
+  work: 'Mansi, tomus 26: the Constitutions and Synodicon of Nicosia, Cyprus'
+  author: mansi
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: The Nicosia attendance list also names an Armenian bishop, Gregory (file line 35519).
+    Placed on that line; the Armenians of Cyprus and Cilicia are the world's neighbours.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906--mansi-tomus-31-the-council-of-florence-the-decree-for-the
+  work: 'Mansi, tomus 31: the Council of Florence, the decree for the Armenians (1439)'
+  author: mansi
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Tier: same time, different region (Florence). The heading ''De Armeniis'' is at file
+    line 98033 and the union decree and its Latin version run to about 99150. Whether the
+    Armenian delegation came from the see of Sis is not checked. Placed on the heading; not
+    read.'
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt
+- row_id: neve_etude-sur-thomas-de-medzoph-fra_journal-asiatique1855--etude-sur-thomas-de-medzoph-neve-journal-asiatique-1855
+  work: Étude sur Thomas de Medzoph (Nève, Journal asiatique 1855)
+  author: neve
+  locus: the whole article
+  role: context
+  confidence: provisional
+  note: A scholar's study of a fifteenth-century Armenian historian and his account of Tamerlane's
+    invasions, with French renderings of extracts. The only route here to Thomas of Medzoph,
+    whose chronicle in Armenian is on the host with unusable OCR. Placed on window and subject;
+    read only at the opening and the sampled passages.
+  source_file: neve_etude-sur-thomas-de-medzoph-fra_journal-asiatique1855.txt
 - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-7
   work: 'The Church of Armenia (Ormanian; Gregory''s English translation, 1912): chapters
     XIII-XV, attempts at union and the return to Etchmiadzin'
@@ -30,6 +141,46 @@ works:
 
     '
   source_file: ormanian_church-of-armenia_gregory1912.txt
+- row_id: ormanian_church-of-armenia_gregory1912--the-church-of-armenia-ormanian-gregory-s-english-1912
+  work: 'The Church of Armenia (Ormanian; Gregory''s English, 1912): chapters XIII-XV'
+  author: ormanian
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Proposed change to the existing provisional row: read at file lines 3860 to 3880,
+    where Ormanian says the king called a synod at Sis in 1307, that the catholicos died before
+    it met, and that from then until the see moved to Etchmiadzin in 1441 the desire for union
+    grew. Tier: same time-place. A late Armenian prelate''s history in English.'
+  source_file: ormanian_church-of-armenia_gregory1912.txt
+- row_id: rhc-armeniens_documents-armeniens-t1-fra_academie1869--recueil-des-historiens-des-croisades-documents-armeniens-i
+  work: 'Recueil des historiens des croisades, Documents arméniens I: Armenian chroniclers
+    in French'
+  author: rhc-armeniens
+  locus: Hethum II's poem from file line 63745; Sempad's chronicle 67474 with its continuation
+    to about 1335; appendix 72578; 'Continuation et fin' on the end of Levon V's reign and
+    the Lusignans of Armenia 74692
+  role: tradition
+  confidence: provisional
+  note: 'Armenian chroniclers in French translation. Only the last parts fall in the window:
+    the poem of Hethum II, the anonymous continuation of the Constable Sempad to about 1335,
+    and the closing section on the Lusignans. Placed on the volume''s own chronological list;
+    the chapters were not read. Mostly earlier material; also serves the earlier Cilician
+    world.'
+  source_file: rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt
+- row_id: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906--recueil-des-historiens-des-croisades-documents-armeniens-ii
+  work: 'Recueil des historiens des croisades, Documents arméniens II: Hayton, Pseudo-Brocard,
+    Daniel de Thaurizio, Jean Dardel'
+  author: rhc-armeniens
+  locus: Hayton from file line 1556 (French text about 7236); Pseudo-Brocard 13370; Responsio
+    ad errores impositos Hermenis 18774; Dardel's Chronique d'Arménie from 23243
+  role: context
+  confidence: assigned
+  note: 'The last years of the Cilician kingdom as Latin and French writers record them: Dardel
+    was Levon V''s confessor and secretary and his chronicle runs to mid-1384; the Responsio
+    answers Latin charges of error against the Armenians; Hayton''s Flor (1307) carries the
+    crusade and Mongol policy of the Cilician court. The Armenian church speaks only through
+    these intermediaries. Read at the headings; the texts themselves were sampled.'
+  source_file: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt
 - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--tables-chronologiques-de-samouel-d-ani-2
   work: Tables chronologiques de Samouel d'Ani (Brosset's French translation, year by year
     to 1179 with a continuation to 1348)

@@ -1,0 +1,14 @@
+source_file: wyclif_de-civili-dominio-liber-primus-lat_poole1885.txt
+
+assignments:
+  - row_id: wyclif_de-civili-dominio-liber-primus-lat_poole1885--wyclif-de-civili-dominio-liber-primus-poole-s-edition-latin
+    work: "Wyclif, De Civili Dominio liber primus (Poole's edition, Latin)"
+    author: wyclif
+    locus: "whole volume; Poole's English introduction first"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      Wyclif's own argument on lordship and the church's wealth, which the movement took up. Primary once
+      checked against the scan.

@@ -1,0 +1,46 @@
+source_file: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt
+authors_ruled:
+  ehrle-denifle:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The author or editor is named
+      on the title page printed in the file. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885--archiv-fur-literatur-und-kirchengeschichte-des-mittelalters
+  work: >-
+    Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 1 (1885): Ehrle's first part of 'Die Spiritualen'
+    and his papers on the Fraticelli and Louis of Bavaria
+  author: ehrle-denifle
+  locus: >-
+    Contents list near the head of the file: 'Die Spiritualen' part 1, 'Die Spiritualen vor dem Inquisitionstribunal',
+    'Zur Fraticellen-Geschichte', 'Ludwig der Bayer und die Fraticellen und Ghibellinen von Todi und Amelia im Jahre
+    1328'
+  atlas_ids:
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: tradition
+  confidence: provisional
+  note: >-
+    Placed from the contents list and a sample of the file, not a full read. Scholars' articles in German around
+    printed Latin documents; the Spirituals and their opponents speak in the documents, Ehrle and Denifle frame
+    them. The Latin is readable OCR, so the documents are primary-grade once checked against the scan. No public-domain
+    English translation found. Most of the volume is on other subjects.
+- row_id: >-
+    ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885--archiv-fur-literatur-und-kirchengeschichte-des-mittelalters-2
+  work: >-
+    Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 1 (1885): Denifle on the Eternal Gospel and
+    the commission of Anagni
+  author: ehrle-denifle
+  locus: >-
+    Contents list near the head of the file: 'Das Evangelium aeternum und die Commission zu Anagni' and 'Protokoll
+    der Commission zu Anagni'
+  atlas_ids:
+  - joachimite-current
+  role: context
+  confidence: provisional
+  note: >-
+    Placed from the contents list only. The commission of Anagni examined the Eternal Gospel of the Joachites. Scholars'
+    articles in German around printed Latin documents; the Spirituals and their opponents speak in the documents,
+    Ehrle and Denifle frame them. The Latin is readable OCR, so the documents are primary-grade once checked against
+    the scan. No public-domain English translation found.

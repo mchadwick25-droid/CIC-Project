@@ -1,0 +1,36 @@
+source_file: love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt
+assignments:
+- row_id: love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908--the-mirrour-of-the-blessed-lyf-of-jesu-christ-nicholas-love-middle-english-ed-l-f-powell
+  work: The Mirrour of the Blessed Lyf of Jesu Christ (Nicholas Love, Middle English), ed. L. F. Powell
+  author: love
+  locus: the prologue from file line 605
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: context
+  confidence: provisional
+  note: The Carthusian prior's vernacular Life of Christ, made before 1410. The census names Carthusian
+    copying as the transmission layer of the English mystics and sets Arundel's Constitutions against
+    vernacular theology; this book is a Carthusian vernacular text of the same years. It is not one of
+    the five named voices, so it is placed as context. The long-s OCR pattern is systematic; a second
+    witness for exact wording.
+- row_id: love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908--the-mirrour-of-the-blessed-lyf-of-jesu-christ-nicholas-love-middle-english-ed-l-f-powell-2
+  work: The Mirrour of the Blessed Lyf of Jesu Christ (Nicholas Love, Middle English), ed. L. F. Powell
+  author: love
+  locus: the prologue from file line 605
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: provisional
+  note: A vernacular life of Christ for lay readers, made before 1410 and placed here on its reach among
+    households, which this pass did not check. Left provisional for the world's own reading.
+- row_id: love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908--the-mirrour-of-the-blessed-lyf-of-jesu-christ-nicholas-love-middle-english-ed-l-f-powell-3
+  work: The Mirrour of the Blessed Lyf of Jesu Christ (Nicholas Love, Middle English), ed. L. F. Powell
+  author: love
+  locus: the prologue from file line 605
+  atlas_ids:
+  - lollardy
+  role: context
+  confidence: needs-ruling
+  note: Love's book is a vernacular religious text of the same years as the Lollard English Bible; whether
+    the Lollardy world claims it as context, or leaves it to the English Mystics, is a question for the
+    leads of both worlds. Not read for that.

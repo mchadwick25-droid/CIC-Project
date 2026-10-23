@@ -1,0 +1,24 @@
+source_file: jacopone-da-todi_laude-ita_ferri1915.txt
+authors_ruled:
+  jacopone-da-todi:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file (Project Gutenberg). The author is named on the title page printed in the file as
+      Iacopone da Todi, with Giovanni Ferri as editor. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    jacopone-da-todi_laude-ita_ferri1915--le-laude-of-jacopone-da-todi-edited-by-giovanni-ferri-1915
+  work: Le Laude of Jacopone da Todi, edited by Giovanni Ferri (1915)
+  author: jacopone-da-todi
+  locus: Whole file; the laude are numbered in Roman numerals
+  atlas_ids:
+  - the-franciscan-movement
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: tradition
+  confidence: needs-ruling
+  note: >-
+    Jacopone's own poems in Italian, clean volunteer transcription of Ferri's text of the 1490 print, ready to quote
+    once checked against the printed edition. He died in 1306, so only his last years fall in the Era VI window;
+    and his place between the Franciscan Movement world and the Spirituals worlds is for the project lead. A selection
+    in English verse (Beck, 1919) is vendored beside it in the Underhill volume.

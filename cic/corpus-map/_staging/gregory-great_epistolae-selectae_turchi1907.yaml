@@ -17,3 +17,15 @@ assignments:
       tail, not a Donatist or contemporary-Catholic voice. Provisional
       pending confirmation of exactly which letters in this selection touch
       Donatism specifically, and how many.
+
+  - row_id: gregory-great_epistolae-selectae_turchi1907--brunhild-letters
+    work: "The Latin letters to Queen Brunhild and the Frankish kings"
+    author: gregory-great
+    locus: "locus not pinned in this pass"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Gregory's correspondence with Merovingian courts; the exact letters in this selection
+      have not been pinned, hence provisional.

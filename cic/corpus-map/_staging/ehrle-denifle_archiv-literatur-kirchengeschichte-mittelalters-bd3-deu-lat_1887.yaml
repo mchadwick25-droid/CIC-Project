@@ -1,0 +1,60 @@
+source_file: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt
+authors_ruled:
+  ehrle-denifle:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The author or editor is named
+      on the title page printed in the file. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887--archiv-fur-literatur-und-kirchengeschichte-des-mittelalters
+  work: >-
+    Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 3 (1887): Raymund of Fronsac's collection of
+    acts on the Spirituals, Ubertino of Casale's answers of 1310, and Ehrle on Olivi
+  author: ehrle-denifle
+  locus: >-
+    Contents page: Raymund von Fronsac's Actensammlung zur Geschichte der Spiritualen; Bonagratia of Bergamo's opinion;
+    preparatory papers for Exivi de paradiso (6 May 1312) with Ubertino's answer to the four questions; 'Petrus
+    Johannis Olivi, sein Leben und seine Schriften'; 'Angelus de Clarino und der muthmassliche Verfasser der historia
+    tribulationum'
+  atlas_ids:
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: tradition
+  confidence: assigned
+  note: >-
+    Read at the contents page and sampled at three points; keyword counts show the Spirituals as the volume's main
+    subject (Olivi on about 367 lines, Ubertino on about 149). Scholars' articles in German around printed Latin
+    documents; the Spirituals and their opponents speak in the documents, Ehrle and Denifle frame them. The Latin
+    is readable OCR, so the documents are primary-grade once checked against the scan. No public-domain English
+    translation found.
+- row_id: >-
+    ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887--archiv-fur-literatur-und-kirchengeschichte-des-mittelalters-2
+  work: >-
+    Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 3 (1887): Ehrle on Olivi's life and writings
+  author: ehrle-denifle
+  locus: 'Contents page: ''Petrus Johannis Olivi, sein Leben und seine Schriften'''
+  atlas_ids:
+  - joachimite-current
+  role: context
+  confidence: provisional
+  note: >-
+    Placed from the contents page and the Olivi keyword count, not a full read. Olivi is the intellectual source
+    of the Spirituals and a Joachite reader of the Apocalypse. Scholars' articles in German around printed Latin
+    documents; the Spirituals and their opponents speak in the documents, Ehrle and Denifle frame them. The Latin
+    is readable OCR, so the documents are primary-grade once checked against the scan. No public-domain English
+    translation found.
+- row_id: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887--ehrle-archiv-fur-literatur-und-kirchengeschichte-des
+  work: 'Ehrle, Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 3 (1887): Vienne and
+    the Beghini of Provence'
+  author: ehrle-denifle
+  locus: whole volume
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: 'Latin papal-court documents: the preparation of the Council of Vienne (''Zur Vorgeschichte des
+    Concils von Vienne'', about 140 mentions of Vienne) and papers on the Beghini of Provence (file lines
+    746 and 931). Avignon-era documents in a scholar''s edition. Already assigned to the Franciscan entries.
+    Tier: same time-place.'

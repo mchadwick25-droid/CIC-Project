@@ -1,0 +1,12 @@
+source_file: haupt_beitraege-sekte-vom-freien-geiste-zeitschrift-kirchengeschichte-bd7-deu_1885.txt
+assignments:
+- row_id: haupt_beitraege-sekte-vom-freien-geiste-zeitschrift-kirchengeschichte-bd7-deu_1885--haupt-beitrage-zur-geschichte-der-sekte-vom-freien-geiste
+  work: Haupt, Beiträge zur Geschichte der Sekte vom freien Geiste und des Beghardentums (ZKG 7, 1885)
+  author: haupt
+  locus: article from p. 503; the Mainz manuscript's lists of errors
+  atlas_ids:
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: Scholarship that prints and compares the inquisitors' error-lists for the Free Spirit, the template
+    the entry's depositions follow. Whole journal volume vendored; only the article is relevant.

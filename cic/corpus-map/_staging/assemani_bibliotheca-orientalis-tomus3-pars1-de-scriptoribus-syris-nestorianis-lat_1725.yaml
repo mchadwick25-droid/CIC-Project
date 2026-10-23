@@ -59,3 +59,30 @@ assignments:
     note: >
       Assemani's list runs on past 1562 into the lines the consolidation entry inherits. Placed
       on dates; not read for that entry.
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--bibliotheca-orientalis-iii-1-assemani-1725-the-malabar
+    work: "Bibliotheca Orientalis III.1 (Assemani, 1725): the Malabar bishops' history and their Syriac letter of 1504 to the patriarch, in Assemani's Latin"
+    author: assemani
+    locus: "the entry on the bishops of India and their letter of the year of the Greeks 1815, Christ 1504, at about file lines 97040-97920 (volume page 590 onward); the letter's own text is in the Latin of Assemani's extract"
+    atlas_ids:
+      - st-thomas-christians-1300-1517
+      - st-thomas-christians-under-portuguese-pressure-d
+    role: tradition
+    confidence: provisional
+    note: >
+      The one place inside the window where the Malabar Christians speak in their own name: the
+      bishops' letter of 1504, here in Assemani's Latin (the Syriac is in Vatican Syriac 5, not on
+      the shelf). Placed on the passage found at the lines cited, not read through; the Latin OCR
+      reads the long s as f, so a second witness for exact wording until checked against the page
+      image. Mingana 1926 (vendored) gives an English rendering of the same letter.
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--bibliotheca-orientalis-iii-1-assemani-1725-the-entries-on
+    work: "Bibliotheca Orientalis III.1 (Assemani, 1725): the entries on the fourteenth- and fifteenth-century patriarchs and writers of the Church of the East, Timotheus II (1318) among them"
+    author: assemani
+    locus: "chapter LVI, Timotheus II, at volume page 357 (the contents at file line 1786 and the index at 2619 give the page); the later patriarchs in the series from about file line 101030"
+    atlas_ids:
+      - church-of-the-east-timur-to-hakkari
+    role: context
+    confidence: provisional
+    note: >
+      Assemani's eighteenth-century lives of the writers and patriarchs after 1318 are scholarship
+      with printed extracts; the extracts are the source layer. Placed on the contents and index,
+      not read through. Second witness for exact wording until checked against the page image.

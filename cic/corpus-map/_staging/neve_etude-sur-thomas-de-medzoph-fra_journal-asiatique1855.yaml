@@ -1,0 +1,14 @@
+source_file: neve_etude-sur-thomas-de-medzoph-fra_journal-asiatique1855.txt
+assignments:
+- row_id: neve_etude-sur-thomas-de-medzoph-fra_journal-asiatique1855--etude-sur-thomas-de-medzoph-neve-journal-asiatique-1855
+  work: Étude sur Thomas de Medzoph (Nève, Journal asiatique 1855)
+  author: neve
+  locus: the whole article
+  atlas_ids:
+  - armenian-cilicia-after-the-kingdom
+  role: context
+  confidence: provisional
+  note: A scholar's study of a fifteenth-century Armenian historian and his account of Tamerlane's invasions,
+    with French renderings of extracts. The only route here to Thomas of Medzoph, whose chronicle in Armenian
+    is on the host with unusable OCR. Placed on window and subject; read only at the opening and the sampled
+    passages.

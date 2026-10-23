@@ -1,0 +1,21 @@
+source_file: school-of-nisibis_statuti-della-scuola-di-nisibi-syr-ita_guidi1890.txt
+
+authors_ruled:
+  school-of-nisibis-statutes:
+    kind: anonymous
+    evidence: >
+      The statutes are the school's own corporate rule; the edition names only its editor.
+    from_file: school-of-nisibis_statuti-della-scuola-di-nisibi-syr-ita_guidi1890.txt
+
+assignments:
+  - row_id: school-of-nisibis_statuti-della-scuola-di-nisibi-syr-ita_guidi1890--statutes-of-nisibis
+    work: "The Statutes of the School of Nisibis (496; additions of 590 and 602), Syriac"
+    author: school-of-nisibis-statutes
+    locus: "from raw line ~10416"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: assigned
+    note: >
+      The school's constitution: the church's institutional voice at its centre. Syriac
+      text, Italian introduction only.

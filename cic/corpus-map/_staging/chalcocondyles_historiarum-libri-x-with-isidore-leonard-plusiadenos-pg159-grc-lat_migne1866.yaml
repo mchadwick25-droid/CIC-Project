@@ -1,0 +1,78 @@
+source_file: >-
+  chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt
+authors_ruled:
+  leonard-of-chios:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CLIX names 'Leonardi Chiensis Mitylenaei archiepiscopi'; his letter on the capture
+      of the City is at file line 54400; the file's leading slug is chalcocondyles.
+    from_file: >-
+      chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt
+  isidore-of-kiev:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CLIX names 'Isidori S.R.E. cardinalis, Ruthenorum archiepiscopi'; his letter on the
+      fall of Constantinople is at file line 55412; the file's leading slug is chalcocondyles.
+    from_file: >-
+      chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt
+  joseph-of-methone:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CLIX names 'Josephi Methonensis episcopi, Joannis Plusiadeni'; his works begin at
+      file line 56228; the file's leading slug is chalcocondyles.
+    from_file: >-
+      chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt
+assignments:
+- row_id: >-
+    chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866--leonard-of-chios-letter-to-pope-nicholas-v-on-the-capture-of
+  work: >-
+    Leonard of Chios, letter to Pope Nicholas V on the capture of Constantinople (15 August 1453), Latin, in Migne
+    PG 159
+  author: leonard-of-chios
+  locus: from file line 54400
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: context
+  confidence: provisional
+  note: >-
+    An eyewitness account of the fall by a Latin archbishop who was in the City. A Roman churchman's view, not the
+    Greek church's own. Placed from the heading; sampled.
+- row_id: >-
+    chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866--cardinal-isidore-of-kiev-letter-to-all-the-faithful-on-the
+  work: >-
+    Cardinal Isidore of Kiev, letter to all the faithful on the fall of Constantinople, Latin, in Migne PG 159
+  author: isidore-of-kiev
+  locus: from file line 55412
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: context
+  confidence: provisional
+  note: >-
+    Isidore had signed the union at Florence and was in the City in 1453. A unionist cardinal's account of the fall.
+    Placed from the heading; not read through.
+- row_id: >-
+    chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866--joseph-of-methone-joannes-plusiadenos-on-the-differences
+  work: >-
+    Joseph of Methone (Joannes Plusiadenos), On the differences between Greeks and Latins, Response to Mark of Ephesus's
+    libel, and the Annexarium of the Council of Florence, Greek with Latin, in Migne PG 159
+  author: joseph-of-methone
+  locus: from file line 56228
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: provisional
+  note: >-
+    A Greek bishop who defended the union, answering Mark of Ephesus and recording what was done at Florence. Placed
+    from the elenchus and headings; not read through.
+- row_id: >-
+    chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866--laonikos-chalkokondyles-historiarum-libri-decem-greek-with
+  work: Laonikos Chalkokondyles, Historiarum libri decem, Greek with Latin, in Migne PG 159
+  author: chalcocondyles
+  locus: from the elenchus; running heads 'LAONICI CHALCOCONDYLAE' from file line 404
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: context
+  confidence: provisional
+  note: >-
+    An Athenian historian of the rise of the Ottomans and the fall of the City. A lay historian, not the church's
+    own voice. Placed on window; not read through.

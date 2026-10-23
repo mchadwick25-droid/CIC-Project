@@ -1,0 +1,14 @@
+source_file: bury-st-edmunds_wills-and-inventories-enm_tymms1850.txt
+assignments:
+- row_id: bury-st-edmunds_wills-and-inventories-enm_tymms1850--wills-and-inventories-from-the-registers-of-the-commissary-of-bury-st-edmund-s-and-the-archdeacon-of-sudbury-e
+  work: Wills and Inventories from the Registers of the Commissary of Bury St. Edmund's and the Archdeacon
+    of Sudbury, ed. Samuel Tymms (Camden Society 49)
+  author: bury-st-edmunds
+  locus: the preface from file line 129; the wills follow in date order
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: Suffolk will-makers' wills and household inventories. About a third of the dated entries fall
+    inside the window; later wills are included. A second witness for exact wording; check page images
+    before quoting.

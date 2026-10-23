@@ -1,0 +1,13 @@
+source_file: hilton_scale-of-perfection_underhill1923.txt
+assignments:
+- row_id: hilton_scale-of-perfection_underhill1923--the-scale-of-perfection-ed-evelyn-underhill-modern-spelling-from-manuscripts
+  work: The Scale of Perfection, ed. Evelyn Underhill (modern spelling from manuscripts)
+  author: hilton
+  locus: contents from file line 1997; Book I from line 2896; Book II from line 9332
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: Hilton's guide to the interior life for an anchoress, in two books, in the standard modern-spelling
+    edition. Clean OCR; a primary voice, ready to quote once verified against the page. Dalgairns's 1908
+    printing, from Cressy's seventeenth-century text, is vendored beside it.

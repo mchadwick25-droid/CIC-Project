@@ -1,0 +1,25 @@
+source_file: foxe_acts-and-monuments-v4_cattley-townsend1837.txt
+
+assignments:
+  - row_id: foxe_acts-and-monuments-v4_cattley-townsend1837--foxe-acts-and-monuments-vol-iv-cattley-edition-the-lollards
+    work: "Foxe, Acts and Monuments vol. IV (Cattley edition): the Lollards of the early 1500s"
+    author: foxe
+    locus: "the Boughton, Chase, Blomstone and Coventry sections listed in the contents"
+    atlas_ids:
+      - lollardy
+    role: context
+    confidence: assigned
+    note: >
+      A Protestant martyrologist's later account of the Lollard households of the Chilterns, Coventry and
+      Kent in the years before the first evangelicals. Partisan and later; not the movement's own voice.
+  - row_id: foxe_acts-and-monuments-v4_cattley-townsend1837--foxe-acts-and-monuments-vol-iv-cattley-edition
+    work: "Foxe, Acts and Monuments vol. IV (Cattley edition)"
+    author: foxe
+    locus: "the Lollard sections"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: antecedent
+    confidence: provisional
+    note: >
+      The contested link from the Lollards to the English Reformation runs through Foxe. Placed on the
+      census's own statement; not read for that world's sources.

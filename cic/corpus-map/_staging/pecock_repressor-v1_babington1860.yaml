@@ -1,0 +1,25 @@
+source_file: pecock_repressor-v1_babington1860.txt
+
+assignments:
+  - row_id: pecock_repressor-v1_babington1860--pecock-repressor-of-over-much-blaming-of-the-clergy-vol-i
+    work: "Pecock, Repressor of Over Much Blaming of the Clergy, vol. I (Babington, Rolls Series)"
+    author: pecock
+    locus: "whole volume; Babington's introduction first"
+    atlas_ids:
+      - lollardy
+    role: context
+    confidence: assigned
+    note: >
+      The movement as its most serious learned opponent in English argued against it. A hostile voice, in
+      Middle English. Not Lollard text; a Representative must not speak it as the movement's own.
+  - row_id: pecock_repressor-v1_babington1860--pecock-repressor-of-over-much-blaming-of-the-clergy-vol-i-2
+    work: "Pecock, Repressor of Over Much Blaming of the Clergy, vol. I"
+    author: pecock
+    locus: "whole volume"
+    atlas_ids:
+      - late-medieval-lay-parish-piety
+    role: context
+    confidence: provisional
+    note: >
+      Defends the images, pilgrimages and usages of parish religion. Placed on that subject matter; the
+      volume was sampled, not read through.

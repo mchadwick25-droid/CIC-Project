@@ -1,49 +1,66 @@
 source_file: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt
-
 assignments:
-  - row_id: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910--henrician-and-edwardian-visitation-articles-and-injunctions-1536-1553
-    work: "Visitation Articles and Injunctions, Vol. II: the Henrician and Edwardian documents, 1536-1553 (the Royal Injunctions of 1536, 1538 and 1547; the episcopal injunctions of Latimer, Shaxton, Cranmer, Bonner, Ridley and others)"
-    author: church-of-england
-    locus: "contents table from file line 44; 'The First Royal Injunctions of Henry VIII [1536' at line 389; 'The Royal Injunctions of Edward VI' at line 5675; the Edwardian episcopal documents follow (Ridley's articles and injunctions for London, contents lines 165 and 172)"
-    atlas_ids:
-      - the-english-reformation-and-elizabethan-settleme
-    role: tradition
-    confidence: assigned
-    note: >
-      The orders that actually reached the parish: the English Bible to be set up
-      (1538), images and lights taken down (1547), the register kept, the
-      churchwardens questioned. This is the mechanism of the Reformation on the
-      ground, the counterpart to what Morebath's accounts record being done. Primary
-      institutional voice, ready to quote once verified against this file; some
-      documents are in Latin.
+- row_id: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910--henrician-and-edwardian-visitation-articles-and-injunctions-1536-1553
+  work: 'Visitation Articles and Injunctions, Vol. II: the Henrician and Edwardian documents, 1536-1553
+    (the Royal Injunctions of 1536, 1538 and 1547; the episcopal injunctions of Latimer, Shaxton, Cranmer,
+    Bonner, Ridley and others)'
+  author: church-of-england
+  locus: contents table from file line 44; 'The First Royal Injunctions of Henry VIII [1536' at line 389;
+    'The Royal Injunctions of Edward VI' at line 5675; the Edwardian episcopal documents follow (Ridley's
+    articles and injunctions for London, contents lines 165 and 172)
+  atlas_ids:
+  - the-english-reformation-and-elizabethan-settleme
+  role: tradition
+  confidence: assigned
+  note: 'The orders that actually reached the parish: the English Bible to be set up (1538), images and
+    lights taken down (1547), the register kept, the churchwardens questioned. This is the mechanism of
+    the Reformation on the ground, the counterpart to what Morebath''s accounts record being done. Primary
+    institutional voice, ready to quote once verified against this file; some documents are in Latin.
 
-  - row_id: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910--marian-visitation-articles-and-injunctions-1554-1558
-    work: "Visitation Articles and Injunctions, Vol. II: the Marian restoration documents, 1554-1558 (the Royal Articles of Queen Mary 1554, Bonner's articles and injunctions for London, Cardinal Pole's articles and injunctions for Canterbury and Cambridge, 1556-1557)"
-    author: church-of-england
-    locus: "the last fifth of the file: the Royal Articles of Queen Mary 1554 (contents line 214), Bonner's documents 1554-1555 (contents lines 208 to 213), Pole's articles and injunctions 1556-1557 (contents lines 223 to 246); Bonner's Latin articles at the 90 per cent sample, about line 19555"
-    atlas_ids:
-      - the-english-reformation-and-elizabethan-settleme
-    role: tradition
-    confidence: assigned
-    note: >
-      The Catholic restoration ordered parish by parish: altars rebuilt, married
-      priests deprived, heretical books sought out. Inside this world's window and
-      the counter-movement of its own story; the same series' editors print them
-      as the Reformation's own documents. Primary institutional voice, ready to
-      quote once verified against this file; Latin in places.
+    '
+- row_id: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910--marian-visitation-articles-and-injunctions-1554-1558
+  work: 'Visitation Articles and Injunctions, Vol. II: the Marian restoration documents, 1554-1558 (the
+    Royal Articles of Queen Mary 1554, Bonner''s articles and injunctions for London, Cardinal Pole''s
+    articles and injunctions for Canterbury and Cambridge, 1556-1557)'
+  author: church-of-england
+  locus: 'the last fifth of the file: the Royal Articles of Queen Mary 1554 (contents line 214), Bonner''s
+    documents 1554-1555 (contents lines 208 to 213), Pole''s articles and injunctions 1556-1557 (contents
+    lines 223 to 246); Bonner''s Latin articles at the 90 per cent sample, about line 19555'
+  atlas_ids:
+  - the-english-reformation-and-elizabethan-settleme
+  role: tradition
+  confidence: assigned
+  note: 'The Catholic restoration ordered parish by parish: altars rebuilt, married priests deprived,
+    heretical books sought out. Inside this world''s window and the counter-movement of its own story;
+    the same series'' editors print them as the Reformation''s own documents. Primary institutional voice,
+    ready to quote once verified against this file; Latin in places.
 
-  - row_id: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910--marian-visitation-articles-and-injunctions-1554-1558-2
-    work: "Visitation Articles and Injunctions, Vol. II: the Marian restoration documents, 1554-1558"
-    author: church-of-england
-    locus: "as above, the last fifth of the file"
-    atlas_ids:
-      - recusant-english-catholicism
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      The Marian church (1553-1558) is the English Catholic church's own
-      institutional voice in the five years before the recusant window opens
-      (1559). Whether the recusant world may hold these as its own tradition
-      (its immediate parent, the church its priests were ordained in) or only as
-      antecedent context is a placement the library cannot settle; flagged for a
-      ruling rather than called either way.
+    '
+- row_id: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910--marian-visitation-articles-and-injunctions-1554-1558-2
+  work: 'Visitation Articles and Injunctions, Vol. II: the Marian restoration documents, 1554-1558'
+  author: church-of-england
+  locus: as above, the last fifth of the file
+  atlas_ids:
+  - recusant-english-catholicism
+  role: antecedent
+  confidence: assigned
+  note: 'The Marian church (1553-1558) is the English Catholic church''s own institutional voice in the
+    five years before the recusant window opens (1559). Whether the recusant world may hold these as its
+    own tradition (its immediate parent, the church its priests were ordained in) or only as antecedent
+    context is a placement the library cannot settle; flagged for a ruling rather than called either way.
+    Ruled by the project lead, October 2026 (Era VII placements): a text from before the world''s window
+    that the world argued from is antecedent to it; a text from after the window is context here and tradition
+    for the later entry.'
+- row_id: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910--visitation-articles-and-injunctions-vol-ii-1536-1558-the
+  work: 'Visitation Articles and Injunctions, vol. II, 1536-1558: the injunctions on images, pilgrimages,
+    lights, gilds, chantries and primers'
+  author: church-of-england
+  locus: whole volume
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: context
+  confidence: provisional
+  note: 'The royal and episcopal injunctions that took parish practice apart after the window closes (the
+    counts in the file: images 88, pilgrimage 22, lights 21, chantr 35, primer 41). These are the documents
+    that end the practice the wardens'' accounts record. Out-of-window tier (1536 to 1558), same place;
+    placed on the counts and the title, not read through.'

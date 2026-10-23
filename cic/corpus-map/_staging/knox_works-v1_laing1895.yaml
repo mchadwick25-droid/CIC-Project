@@ -33,3 +33,16 @@ assignments:
       without reading the English passages for this world, so the fit is
       provisional. A Scottish witness to the English Reformation, not an
       English one.
+  - row_id: knox_works-v1_laing1895--knox-works-vol-1-appendix-on-the-lollards-in-scotland-during
+    work: 'Knox, Works vol. 1: appendix on the Lollards in Scotland during the fifteenth century'
+    author: knox
+    locus: whole volume
+    atlas_ids:
+    - lollardy
+    role: context
+    confidence: provisional
+    note: 'The appendix ''On the Lollards in Scotland, during the fifteenth century'' (file line 14059)
+      tells of the Lollards of Kyle in Ayrshire. A Reformer''s later account. Tier: same time-different
+      region.
+  
+      '

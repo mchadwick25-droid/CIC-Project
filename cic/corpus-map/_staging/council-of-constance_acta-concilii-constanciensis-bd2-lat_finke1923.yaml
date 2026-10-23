@@ -1,0 +1,24 @@
+source_file: council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt
+assignments:
+- row_id: council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923--acta-concilii-constanciensis-band-2-council-diaries-sermons
+  work: 'Acta Concilii Constanciensis, Band 2: council diaries, sermons, reform papers (Finke, 1923)'
+  author: council-of-constance
+  locus: Fillastre's Gesta, the Liber gestorum of Cerretanus, the Sermones
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: assigned
+  note: Primary acts, diaries and sermons of the Council of Constance in Latin, clean OCR, quotable once
+    checked against the scan. Placed as context on the Hussite entry for the trial of Hus; the volume
+    was not searched for it page by page.
+- row_id: council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923--acta-concilii-constanciensis-band-2-council-diaries-sermons-2
+  work: 'Acta Concilii Constanciensis, Band 2: council diaries, sermons, reform papers (Finke, 1923)'
+  author: council-of-constance
+  locus: Fillastre's Gesta, the Liber gestorum of Cerretanus, the Sermones
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: context
+  confidence: provisional
+  note: Primary acts, diaries and sermons of the Council of Constance in Latin, clean OCR, quotable once
+    checked against the scan. Placed as context on the Hussite entry for the trial of Hus; the volume
+    was not searched for it page by page.

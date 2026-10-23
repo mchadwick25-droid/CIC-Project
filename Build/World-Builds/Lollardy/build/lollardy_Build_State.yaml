@@ -1,0 +1,41 @@
+world_code: none assigned (census id lollardy, Atlas V.5)
+process_version: V2.0
+completion_standard_version: V1.4
+started: 2026-09-15
+pilot_world: false
+current_step: Step 0 and Doc_01 resynced to the Era VI shelf (revision 4), review pending (new-material cycle); Doc_02 and the Source Registry not started; world code not assigned; Article 29 pending; Representative identity not decided
+status: in_progress
+pause_point: none
+documents:
+  - id: Step_0
+    status: resync revision 4, review pending (new-material cycle); revision 3 approved to proceed (Round 3 cleared; four minor findings applied)
+    rounds_used: 3
+    revision_cycle: 2
+    revision_cycle_rounds_used: 0
+    drafter_model: Sonnet 5.5
+    reviewer_model:
+    review_files: [Step0_Review_Round1.md, Step0_Review_Round2.md, Step0_Review_Round3.md]
+    gates_result:
+  - id: Doc_01
+    status: resync revision 4, review pending (new-material cycle); revision 3 approved to proceed (Round 3 cleared)
+    rounds_used: 3
+    revision_cycle: 2
+    revision_cycle_rounds_used: 0
+    drafter_model: Sonnet 5.5
+    reviewer_model:
+    review_files: [Doc_01_Review_Round1.md, Doc_01_Review_Round2.md, Doc_01_Review_Round3.md]
+    gates_result:
+  - id: Doc_02
+    status: not started
+    rounds_used: 0
+    review_files: []
+  - id: Representative_identity
+    status: decided later in the build, at Doc_10
+    decided_by_mark:
+    decision_date:
+open_items_pointer: Open_Gaps_Tracking.md
+ledger_pointer:
+handoff_manifest_pointer:
+metered_ceiling:
+escalations: []
+freeze_package_pointer:

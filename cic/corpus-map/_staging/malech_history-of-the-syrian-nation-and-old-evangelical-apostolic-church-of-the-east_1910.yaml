@@ -58,3 +58,15 @@ assignments:
     note: >
       The same volume covers the whole history of the church, so it can be read beside the earlier entries as a
       community's later memory of them. Placed on the chapter titles in the contents; not read through.
+  - row_id: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910--history-of-the-syrian-nation-malech-chapter-xxx-timurlane
+    work: 'History of the Syrian Nation (Malech), chapter XXX: Timurlane and the visits of Indian Christians
+      to the patriarch'
+    author: malech
+    locus: whole volume
+    atlas_ids:
+    - st-thomas-christians-1300-1517
+    role: context
+    confidence: provisional
+    note: Already staged for the Timur-to-Hakkari world on the contents entry. The same chapter is said
+      to cover letters from India to the patriarch (shelf file line 16390). Placed on that entry; not read
+      through.

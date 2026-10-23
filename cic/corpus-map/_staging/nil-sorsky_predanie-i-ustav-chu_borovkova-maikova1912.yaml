@@ -1,0 +1,27 @@
+source_file: nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt
+assignments:
+- row_id: nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912--nil-sorsky-the-tradition-and-the-rule-for-the-skete
+  work: Nil Sorsky, the Tradition and the Rule for the skete (Предание и Устав), Borovkova-Maikova edition,
+    1912
+  author: nil-sorsky
+  locus: editor's introduction from file line 72; manuscripts from about 1158; chapter list of the Rule
+    ('Сказание главамъ') at 2538 with the chapters and variants after it
+  atlas_ids:
+  - muscovite-monastic-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The non-possessor leader''s own rule for monks living in small hermitages, in Slavonic with a
+    Russian introduction. Primary voice, ready to quote once checked against the page images. The OCR
+    is readable Cyrillic in the old spelling with misread yat and i. Public-domain English translation:
+    none found; Goldfrank''s Nil Sorsky (2008) and Maloney''s are in copyright.'
+- row_id: nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912--nil-sorsky-the-tradition-and-the-rule-for-the-skete-2
+  work: Nil Sorsky, the Tradition and the Rule for the skete (Предание и Устав), Borovkova-Maikova edition,
+    1912
+  author: nil-sorsky
+  locus: editor's introduction and the text, as above
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: antecedent
+  confidence: provisional
+  note: The monastic ideal the non-possessors argued from, which the 1551 council's chapters on monasteries
+    later had to meet. Placed on window and place; the 1551 chapters were not compared.

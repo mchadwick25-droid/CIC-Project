@@ -1,0 +1,15 @@
+source_file: langmann_offenbarungen-gmh_strauch1878.txt
+
+assignments:
+  - row_id: langmann_offenbarungen-gmh_strauch1878--die-offenbarungen-der-adelheid-langmann-engelthal-strauch-s
+    work: "Die Offenbarungen der Adelheid Langmann (Engelthal, Strauch's edition)"
+    author: langmann
+    locus: "whole volume; Strauch's preface first"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: provisional
+    note: >
+      A single nun's revelations from Engelthal. Placed on the window and the place; the file was sampled,
+      not read through. Second witness: letter errors in the text pages and a heavy apparatus. No public-
+      domain English found.

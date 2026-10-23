@@ -1,0 +1,14 @@
+source_file: kempis_st-lydwine-of-schiedam_scully1912.txt
+
+assignments:
+  - row_id: kempis_st-lydwine-of-schiedam_scully1912--kempis-life-of-st-lydwine-of-schiedam-scully-s-translation
+    work: "Kempis, Life of St Lydwine of Schiedam (Scully's translation)"
+    author: kempis
+    locus: "whole volume; Scully's introduction first"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      A saint's life from the Windesheim canon's pen, in public-domain English. The Latin is vendored in
+      the Pohl volume.

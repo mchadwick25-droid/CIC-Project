@@ -1,0 +1,13 @@
+source_file: isidore-seville_etymologiae-origines-lat_lindsay1911.txt
+
+assignments:
+  - row_id: isidore-seville_etymologiae-origines-lat_lindsay1911--etymologiae
+    work: "Isidore of Seville, Etymologiae (Origines), Books I-XX (Latin)"
+    author: isidore-seville
+    locus: "Book VIII at raw line ~17315"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: assigned
+    note: >
+      The Visigothic church's encyclopedic summary of learning; Latin only.

@@ -46,3 +46,14 @@ assignments:
     note: >
       A short local chronicle of Athens printed at the end of the same volume; placed on place
       and window, not read in full. Clean Greek OCR.
+  - row_id: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902--ecthesis-chronica-lambros-1902-the-ottoman-conquest-of
+    work: 'Ecthesis chronica (Lambros 1902): the Ottoman conquest of Bosnia'
+    author: ecthesis-chronica
+    locus: whole volume
+    atlas_ids:
+    - the-bosnian-church
+    role: context
+    confidence: provisional
+    note: 'Tier: same time, different region. The index entries ''Bosniam occupat, cralem occidit'' (file
+      line 6588) and ''cum Mehemete Bosniam invadit'' (5841) point to the conquest of 1463 and the killing
+      of the king. Placed on the index lines; the text pages were not read.'

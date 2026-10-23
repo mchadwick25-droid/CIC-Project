@@ -1,0 +1,22 @@
+source_file: barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt
+
+authors_ruled:
+  barhadbeshabba-arbaya:
+    kind: metadata-omission
+    evidence: >
+      The fascicle's own title names Barhadbesabba 'Arbaya as author of the Cause; the host
+      record names no creator.
+    from_file: barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt
+
+assignments:
+  - row_id: barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908--cause-fondation-ecoles
+    work: "Barhadbeshabba, The Cause of the Foundation of the Schools (La Cause de la fondation des ecoles), with French"
+    author: barhadbeshabba-arbaya
+    locus: "from raw line ~16752"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: assigned
+    note: >
+      The school of Nisibis's account of its own origins and masters, about 600; French
+      only.

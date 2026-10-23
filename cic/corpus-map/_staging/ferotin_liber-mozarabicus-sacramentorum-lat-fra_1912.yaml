@@ -1,0 +1,21 @@
+source_file: ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt
+
+authors_ruled:
+  mozarabic-liturgy:
+    kind: anonymous
+    evidence: >
+      The Mozarabic sacramentary is anonymous liturgy; the edition names only its editor.
+    from_file: ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt
+
+assignments:
+  - row_id: ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912--liber-mozarabicus-sacramentorum
+    work: "Liber mozarabicus sacramentorum (the Mozarabic sacramentary), Latin"
+    author: mozarabic-liturgy
+    locus: "the sacramentary"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: provisional
+    note: >
+      The kingdom's own rite in manuscripts later than the window; provisional,
+      retrospection flag required.

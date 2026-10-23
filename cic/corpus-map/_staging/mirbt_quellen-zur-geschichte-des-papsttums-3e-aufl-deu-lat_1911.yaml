@@ -1,0 +1,16 @@
+source_file: mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt
+assignments:
+- row_id: mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911--quellen-zur-geschichte-des-papsttums-und-des-romischen
+  work: Quellen zur Geschichte des Papsttums und des römischen Katholizismus (Mirbt, 3rd ed.), documents
+    of 1300-1517
+  author: mirbt
+  locus: 'documents 307-333 (pp. 161-185): Clericis laicos, Unam sanctam, the Templars, Constance, the
+    Pragmatic Sanction, Florence, Lateran era'
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: A scholar's source book of papal and conciliar documents in their own languages. A compilation,
+    so each passage should be checked against the page image and the underlying act. The documents before
+    1300 (the contents list reaches Gregory X at no. 304) serve the Gregorian entry.

@@ -1,0 +1,25 @@
+source_file: theologia-germanica_theologia-deutsch-gmh_pfeiffer1851.txt
+
+assignments:
+  - row_id: theologia-germanica_theologia-deutsch-gmh_pfeiffer1851--theologia-deutsch-pfeiffer-s-1851-edition-middle-high-german
+    work: "Theologia deutsch (Pfeiffer's 1851 edition, Middle High German)"
+    author: theologia-germanica
+    locus: "whole volume; Pfeiffer's dedication and preface first"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      The anonymous treatise from the Friends of God milieu, in its Middle High German text. A primary
+      voice once checked against the page images. The English of Winkworth is vendored beside it.
+  - row_id: theologia-germanica_theologia-deutsch-gmh_pfeiffer1851--theologia-deutsch-the-text-luther-edited-in-1516-and-1518
+    work: "Theologia deutsch (Pfeiffer's 1851 edition, Middle High German)"
+    author: theologia-germanica
+    locus: "whole volume"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: transmission
+    confidence: provisional
+    note: >
+      Placed on the census's own statement that Luther printed the treatise twice. This file is Pfeiffer's
+      edition of the manuscript, not Luther's printings; Luther's are not vendored.

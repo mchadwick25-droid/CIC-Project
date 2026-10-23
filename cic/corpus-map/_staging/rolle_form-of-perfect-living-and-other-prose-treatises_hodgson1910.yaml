@@ -1,0 +1,14 @@
+source_file: rolle_form-of-perfect-living-and-other-prose-treatises_hodgson1910.txt
+assignments:
+- row_id: rolle_form-of-perfect-living-and-other-prose-treatises_hodgson1910--the-form-of-perfect-living-and-other-prose-treatises-rolle-s-english-prose-modern-english-by-geraldine-e-hodgs
+  work: The Form of Perfect Living and other Prose Treatises (Rolle's English prose, modern English by
+    Geraldine E. Hodgson)
+  author: rolle
+  locus: preface from file line 71; the Form of Perfect Living from line 512
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: Rolle's English prose for anchoresses and devout lay readers, in Hodgson's modern English made
+    from Horstman's texts. A proofread Gutenberg transcription, so quotable once checked against the printed
+    page. The wording is the translator's.

@@ -1,0 +1,13 @@
+source_file: goll_quellen-bohmische-bruder-v2-deu_1882.txt
+assignments:
+- row_id: goll_quellen-bohmische-bruder-v2-deu_1882--quellen-und-untersuchungen-zur-geschichte-der-bohmischen
+  work: 'Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder, II: the Brethren''s archive
+    and oldest apologetic writings (Goll)'
+  author: goll
+  locus: whole volume; the Brethren's letters to Rokycana and their early apologetic tracts
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: provisional
+  note: 'The Brethren''s earliest apologetic writings with Goll''s German commentary. Provisional: not
+    read through. The volume year (1882) is inferred; see the file header.'

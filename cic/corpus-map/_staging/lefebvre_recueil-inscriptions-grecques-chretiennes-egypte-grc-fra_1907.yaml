@@ -1,0 +1,33 @@
+source_file: lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907.txt
+
+authors_ruled:
+  christian-inscriptions-egypt-nubia:
+    kind: anonymous
+    evidence: >
+      A corpus of inscriptions by many unnamed hands; the edition names only its editors.
+    from_file: lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907.txt
+
+assignments:
+  - row_id: lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907--nubian-inscriptions
+    work: "The Nubian inscriptions: Silko at Kalabsha; the Philae temple-to-church inscriptions of Bishop Theodore (nos. 584-591); the Ibrim stelae"
+    author: christian-inscriptions-egypt-nubia
+    locus: "nos. 584-591 and the Kalabsha and Ibrim entries"
+    atlas_ids:
+      - nubian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      The Nobadian kingdom's own words in stone; the Silko inscription's date and its
+      Christian reading are contested, hence provisional.
+
+  - row_id: lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907--egyptian-inscriptions
+    work: "The Christian Greek inscriptions of Egypt (4th-8th c.)"
+    author: christian-inscriptions-egypt-nubia
+    locus: "whole corpus except the Nubian entries"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Epigraphic texture of Christian Egypt across the window; rarely datable to the entry's
+      own decades.

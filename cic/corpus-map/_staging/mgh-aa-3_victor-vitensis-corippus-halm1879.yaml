@@ -1,0 +1,33 @@
+source_file: mgh-aa-3_victor-vitensis-corippus-halm1879.txt
+
+authors_ruled:
+  corippus:
+    kind: metadata-omission
+    evidence: >
+      The volume prints Corippus's Iohannis under his name; the host record names only the
+      Gesellschaft.
+    from_file: mgh-aa-3_victor-vitensis-corippus-halm1879.txt
+
+assignments:
+  - row_id: mgh-aa-3_victor-vitensis-corippus-halm1879--corippus-iohannis
+    work: "Corippus, Iohannis seu de bellis Libycis (Latin epic)"
+    author: corippus
+    locus: "from raw line ~10546"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: tradition
+    confidence: provisional
+    note: >
+      A Byzantine-African court poet on the wars of 546-548, with a Christian providential
+      frame; provisional as a literary court voice, not the church's.
+
+  - row_id: mgh-aa-3_victor-vitensis-corippus-halm1879--victor-of-vita-halm
+    work: "Victor of Vita, History of the Vandal Persecution (Halm's text)"
+    author: victor-of-vita
+    locus: "whole Victor section; Huneric's edict ~1993; Cyrila ~2244-2253"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A second critical text of the same work as the CSEL file.

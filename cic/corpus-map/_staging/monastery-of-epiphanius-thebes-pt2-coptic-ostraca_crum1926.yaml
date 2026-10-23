@@ -1,0 +1,21 @@
+source_file: monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt
+
+authors_ruled:
+  monastery-of-epiphanius-thebes:
+    kind: anonymous
+    evidence: >
+      Hundreds of short documentary texts by many named and unnamed hands; the edition names
+      only its editors.
+    from_file: monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt
+
+assignments:
+  - row_id: monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926--ostraca-and-papyri
+    work: "Coptic and Greek ostraca and papyri of the monastery of Epiphanius (letters, accounts, legal texts, c. 580-640), including Damian's festal letter (no. 53) and the Pesynthius correspondence"
+    author: monastery-of-epiphanius-thebes
+    locus: "whole volume; Damian's festal letter at text no. 53 (raw line ~19122)"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Documentary, not literary: the Egyptian church speaking in its own working papers.

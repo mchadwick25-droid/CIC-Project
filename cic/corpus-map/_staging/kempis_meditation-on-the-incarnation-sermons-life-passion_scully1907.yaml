@@ -1,0 +1,13 @@
+source_file: kempis_meditation-on-the-incarnation-sermons-life-passion_scully1907.txt
+
+assignments:
+  - row_id: kempis_meditation-on-the-incarnation-sermons-life-passion_scully1907--kempis-meditation-on-the-incarnation-sermons-on-the-life-and
+    work: "Kempis, Meditation on the Incarnation; Sermons on the Life and Passion of our Lord (Scully's translation)"
+    author: kempis
+    locus: "whole volume"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      The public-domain English of Kempis's sermons and meditation from Pohl's volume 3.

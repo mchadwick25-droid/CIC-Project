@@ -1,0 +1,26 @@
+source_file: fioretti_little-flowers-of-st-francis_heywood1906.txt
+authors_ruled:
+  fioretti:
+    kind: anonymous
+    evidence: >-
+      The Fioretti di San Francesco is an anonymous Italian work from the Latin Actus beati Francisci. The title
+      page names no author; the English introduction attributes the Latin source to Ugolino of Monte Giorgio. The
+      ruling here is anonymous.
+assignments:
+- row_id: >-
+    fioretti_little-flowers-of-st-francis_heywood1906--the-little-flowers-of-st-francis-fioretti-english-by
+  work: The Little Flowers of St. Francis (Fioretti), English by William Heywood (1906)
+  author: fioretti
+  locus: >-
+    Whole file; the second part (chapters XLI to LIII) concerns the friars of the March of Ancona
+  atlas_ids:
+  - the-franciscan-movement
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: tradition
+  confidence: needs-ruling
+  note: >-
+    Placed needs-ruling because the text is contested in date or attribution and sits between the Franciscan Movement
+    world (to 1300) and the Spirituals worlds. English translation of a fourteenth-century Italian work; the March
+    of Ancona friars of its second part are the Spirituals' region. Clean OCR. The Latin Actus is vendored beside
+    it.

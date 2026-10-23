@@ -1,0 +1,1828 @@
+Title: Libri Sancti Patricii - the Latin writings of St. Patrick, a revised text with a
+    selection of various readings, based on all the known manuscripts
+Creator: Patrick (c. 5th c.) (edited by Newport J. D. White)
+Publisher: London, Society for Promoting Christian Knowledge, 1918
+Rights: Public Domain
+Rights basis: 1918 publication, out of US copyright by date; the item carries no copyright field of
+    its own, so the imprint date is the basis, read directly 2026-10-23.
+Language: lat
+Source: Internet Archive item librisanctipatr00patr
+    (archive.org/details/librisanctipatr00patr), fetched directly (curl, raw bytes) from
+    the item's own _djvu.txt full-text file, 2026-10-23, Library thread (Era III).
+Provenance note: Raw, uncorrected djvu OCR (clean). Runs of 2+ spaces collapsed to one; no wording
+    changed. Sections: the Confession and the Letter by the same section numbers as the
+    White English of 1920. Credit line for a reader-facing page: "Libri Sancti Patricii,
+    ed. N. J. D. White (SPCK, 1918)". Whole text republishable.
+Content note: The Latin original of Patrick's two works, for verifying the English.
+
+Digitized by the Internet Archive 
+
+in 2011 with funding from 
+
+University of Toronto 
+
+
+http://www.archive.org/details/librisanctipatrOOpatr 
+
+
+TEXTS FOR STUDENTS, No. 4 
+
+LIBRI SANCTI PATRICI1 
+
+THE LATIN WRITINGS OF 
+>T. PATRICK 
+
+
+net 
+
+
+TEXTS FOR STUDENTS, No. 4 
+
+GENERAL EDITORS: Caroline A. J. Skeel, D.Lit.; 
+H. J. White, D. 1 >. ; J. P. Whitney, B.D., D.C.L. 
+
+
+LIBRI SANCTI PATRICII 
+
+THE LATIN WRITINGS OF 
+ST. PATRICK 
+
+A REVISED TEXT, WITH A SELECTION OF VARIOUS 
+READINGS, BASED ON ALL THE KNOWN MANUSCRIPTS 
+
+
+EDITKD BY 
+
+NEWPORT J. D. WHITE, D.D. 
+
+CANON OF ST. PATRICK'S 
+AND ARCHBISHOP KINC-'S PROFESSOR IN THE UNIVERSITY OF DUBLIN 
+
+
+JAN 2 9 1981 
+
+
+LONDON 
+
+SOCIETY FOR PROMOTING 
+
+CHRISTIAN KNOWLEDGE 
+
+1918 
+
+
+INTRODUCTION 
+
+The scope of this Introduction is limited to what is 
+necessary for an understanding of the apparatus critkus. 
+Readers who desire fuller textual details are referred to 
+Dr. Gwynn's Introduction to his edition of the Book of 
+Armagh, published for the Royal Irish Academy in 1913, 
+and to my Introduction to the first critical edition of the 
+Latin writings of St. Patrick (Proceedings, R.I.A., XXV., 
+C, 7), 1905. 
+
+The text of the Libri Sancti Patricii here presented is a 
+revision of that of 1905, necessitated by new light from 
+the Paris MS., P. At the same time it seems reasonable 
+now to give less prominence to the peculiarities of the 
+Book of Armagh than seemed desirable in the first accurate 
+presentation of its text. Thus, the transpositions of words, 
+which is a marked proclivity of the scribe of A, are here 
+ignored, as is, of course, his peculiar spelling, and doubling 
+of consonants, as in the place name Bannavem. 
+
+The MSS. at present known to exist are the following : — 
+
+A is a copy of the Confessio only, and that with five 
+omissions of considerable length, in the Book of 
+Armagh, now in Trinity College, Dublin. This 
+MS. was written some time between A.D. 807 and 
+a.d. 846. Apart from its blunders and peculiarities, 
+the text of A is the best. The consensus of the 
+other documents against it is indicated in the 
+apparatus critkus by rell. 
+2 
+
+
+INTRODUCTION 
+
+
+B and Boll, represent the evidence— MS. and printed 
+respectively — of a twelfth-century MS. in the Public 
+Library of Arras. 
+
+In 1668, Andree Denis, S.J., published the Con- 
+fessio and Epistola from this MS. in the Bollandist 
+Acta Sanctorum. Since that date, two folios of the 
+MS. have been lost. Consequently, in the gaps so 
+caused, the evidence of the printed text is cited as 
+Boll. The distinction between B and Boll, is neces- 
+sary, as Denis took great liberties with his MS. 
+
+The text of B is marked by a great number 
+of singular readings, which betray the hand of a 
+rather clever editor. Otherwise it has some striking 
+affinities with A, though not so many as has P. 
+
+C is the Cotton MS. Nero, E. 1. in the British Museum. 
+It is of the first half of the eleventh century. C 
+and F4 are copies of the same exemplar. Conse- 
+quently, in the apparatus criticus the symbol C 
+represents the evidence of both MSS., unless the 
+contrary is expressly stated. C and F4 are more 
+akin to P than to A. 
+
+F is MS. Fell 3 in the Bodleian Library, Oxford. It 
+is of the first quarter of the twelfth century. It 
+presents a good text very carelessly written; it 
+has affinities with R and, in a less degree, with B. 
+
+F4 is MS. Fell 4 in the Bodleian Library, Oxford. It 
+is of the beginning of the twelfth century or the 
+end of the eleventh. It is cited in this edition 
+only where it varies from C. The readings of an 
+early corrector are cited as F4 corr. 
+
+P is MS. lat. 17626 of the National Library, Paris. 
+It is of the tenth century, and is, on the whole, the 
+most satisfactory of the seven MSS. of the Libri S. 
+Patricii. A full account of it will be found in 
+Proceedings, R.I. A., XXV., C. 11. 
+
+
+INTRODUCTION 
+
+
+R is the last leaves (in a very damaged condition) of 
+MS. No. 1391 in the Public Library at Rouen. It 
+is of the eleventh or twelfth century. The first 
+half of the Confessio is all that remains. R, like 
+B, has been edited, but not so extensively. Other- 
+wise it is akin to F. 
+
+Conjectural emendation of the text has been 
+used very sparingly in this edition, as in the former. 
+We want to know what St. Patrick, according to 
+the evidence available, actually wrote ; not what 
+he might have written had he been a man of good 
+education ; and in all likelihood he expressed himself 
+badly, both in his native language, and in Latin, 
+which he never perfectly mastered. Apart from this 
+consideration, there is at least one case in which an 
+expression which offends a purist may be a trace of 
+an Old Latin version of the NT. In Confessio 12, 
+Unde ego primus 7'usticus, etc., it is not necessary to 
+conjecture yrimum or imus. St. Patrick was think- 
+ing of 1 Tim. i. 13, Qui prius fui blasphemus, etc., 
+where the reading primus for prius is actually found 
+in the O.L. MS., r. 
+
+In this case at least the style is not the man. 
+The personality of the saint may be clearly seen 
+through and above his rusticitas. He was a man of 
+apostolic quality and Pauline temperament, who 
+did what he could to bring Ireland (which was 
+never included in the Roman Empire) into line 
+with Western Christianity. 
+
+
+LIBRI SANCTI PATR1GTI 
+
+
+CONFESSIO 
+
+1. Ego Patricius peccator, rusticissimus et minimus 
+omnium fidelium et contemptibilis sum l apud plurimos. 
+
+Patrem habui Calpornum 2 diaconum filium quendam 3 
+Potiti4 presbyteri qui fuit uico Banauem5 Taberniae.6 
+Uillulam enim prope habuit ubi ego capturam dedj. -uSW*. J* <**^£j[Z^ 
+
+Annorum eram tunc fere sedecim. Deum enim uerum 
+ignorabam, et Hiberione in captiuitate adductus sum cum 
+tot milia hominum secundum merita nostra, quia a Deo 
+recessimus et praecepta eius non custodiuimus et sacerdoti- 
+bus nostris non oboedientes fuimus qui nostram salutem 
+admonebant. Et Dominus induxit super nos warn anima- 
+tion is sua et dispersit nos in gentibus multis etiam usque ad 
+ult in/ a ni terra ubi nunc paruitas mea uidetur esse inter 
+alienigenas. 
+
+2. Et ibi Dominus aycruit sensum7 incredulitatis meae 8 ut 
+uel sero rememorarem delicta mea et ut conuerterem9 toto 
+
+
+1. Esai. xlii. 25 ; Act. xiii. 47. 
+
+2. Luc. xxiv. 45 : Joel ii. 12. 
+
+
+1 contemptibilissimus rell. 
+
+2 Calpornium BCP ; Calpurnium FR. 
+
+3 quondam rell. (quondam filium R). 
+
+* ins. filii Odissi Amy. 6 Bannauem A. 
+
+6 Taburniae P. 7 scnsus CFR. 
+
+8 sens, cordis mei (meae F4) incred. rell 
+y conuerterer CFR ; confirmarem A. 
+
+
+LIBRI SANCTI PATRICK 
+
+
+cor de ad Dominum Deum meum qui respexit humilitatem meam 
+et misertus est adulescentise ignorantiae meae,1 et custodiuit 
+me antequam scirem eum et antequam saperem uel dis- 
+tinguerem inter bonum et malum et muniuit2 me et 
+consolatus est me ut pater filium. 
+
+3. Unde autem tacere non possum, neque expedit quidem, 
+tanta beneficia et tantam gratiam quam mihi Dominus 
+praestare dignatus est in terra captiuitatis meae ; quia haec 
+est retributio nostra ut post correptionem uel agnitionem 
+Dei exaltare et confiteri3 mirabilia eius coram omni natione 
+quce est svb omni ccelo. 
+
+4. Quia non est alius Deus nee umquam fuit nee ante 
+nee erit post haec prseter Deum Patrem ingenitum, sine 
+principio, a quo est omne principium, omnia tenentem ut 
+dicimus, et eius Filium Iesum Christum, qui cum Patre 
+scilicet fuisse semper testamur ante originem saeculi spiri- 
+taliter apud Patrem inenarrabiliter genitum ante omne 
+principium. Et per ipsiim facta sunt uisibilia et inuisibilia, 
+hominem factum, deuicta morte in caelis ad Patrem 
+receptum.4 Et dedit Mi omnem potestatem super omye 
+nomen ccelestium et terrestrium et infernorum et5 omnis lingua 
+confiteatur eie quia Dominus et Deus est Iesus Christus quern 
+credimus. Et expectamus aduentum ipsius mox futurum 
+iudex uiuorum atque mortuorum, qui reddet unicuique 
+secundum facta sua. Et efiudit 7 in nobis abunde Spiritum 
+Sanctum8 donum et pignus inmortalitatis, qui facit cre- 
+
+2. Luc. i. 48. 
+
+3. Ps. lxxxviii. 6 ; Act. ii. 5. 
+
+4. Col. i. 16 ; Phil. ii. 9-11 ; Rom. ii. 6; Tit. iii. 5, 6. 
+
+1 adol. et ignor. meae B ; adul. meae et ignor. CFR ; adol. meae P. 
+
+2 monuit rell. 
+
+3 exaltaremur ( — emus P) et confiteremur rell. 
+
+4 a Patre rec. P ; om. ad Patr. rec. A ; rec. ad Patr. R ; (receptus F). 
+
+5 ut BCPR. 6 om. ei rdL 
+
+7 infudit rell. 8 Spiritus Sancti rell. 
+
+
+CONFKSSK) 
+
+
+dentes et obcx'di entes ut sint jilii Del Patris1 et cohercdes 
+Christi, quem confiteraur et adoramus unum Dcum in 
+Trinitate sacri nominis. 
+
+5. Ipse enim dixit per prophetam, Inuoca me in die 
+trUmlationis tuoz et liberabo te et magni/icabis me. Et iterum 
+inquit, Opera autem Dei reuelare et confiteri honorificum est. 
+
+6. Tamen etsi in multis inperfectus sum opto fratribus 
+et cognatis meis2 scire qualitatem meam, et ut possint 
+perspicere uotum animse meae. 
+
+7. Non ignoro testimonium Domini mei qui in psalmo 
+testatur, Perdes eos2 qui loquuntur mendacium. Et iterum 
+inquit, Os quod mentitur occidit animam. Et idem Dominus 
+in euangelio inquit, Uerbum otiosum quod locuti fuerint 
+homines reddent rationem de eo* in die iudicii. 
+
+8. Unde autem uehementer debueram cum timore et 
+tremore metuere hanc sententiam in die ilia ubi nemo 
+poterit se subtrahere uel abscondere, sed omnes omnino 
+reddituri sumus rationem etiam minimorum peccatorum 
+ante tribunal Domini Christi. 
+
+9. Quapropter olim cogitaui scribere, sed usque nunc 
+hesitaui ; timui enim ne inciderem 5 in 6 linguam hominum 
+et 7 quia non didici 8 sicut et caeteri qui optime itaque 9 
+iura 10 et sacras literas utraque u pari modo combiberunt, et 
+sermones12 illorum ex infantia numquam mutarunt,13 sed 
+magis ad perfectum semper addiderunt. Nam sermo et 
+loquela nostra translata est in linguam alienam, sicut facile 
+
+4. Rom. viii. 16, 17. 6. Ps. xlix. 15 ; Tob. xii. 7. 
+
+7. 2 Tim. i. 8 ; Ps. v. 7 ; Sap. i. 11 ; Matt. xii. 36. 
+
+8. Eph. vi. 5 ; Rom. xiv. 10, 12. 
+
+1 om. Patris A. 2 fratres et cognatos meos CFR. 
+
+3 omnes BR ; oni. eos C, not F4. 
+
+4 pro eo rationem BCFP ; de eo rat. R. 
+
+5 incederem ABCFP. 6 om. in rell. 7 om. et A. 8 legi rell. 
+
+9 For itaque — illorum, B ha* sacris litteris imbuti sunt, et studium 
+suum ; A has in marg., z incertus liber hie and clots after comb. 
+
+10 So J. Owynn ; iure MSS. u utroque A. 
+
+I2 sermonem CFPR. 13^oP; motarunt A ; mutauerunt BCFR. 
+
+
+8 LIBRI SANCTI PATRICK 
+
+potest probari ex saliua 1 scriptural meae, qualiter sum ego in 
+sermonibus instructus atque eruditus ; quia inquit sapiens, 
+Per linguam dinoscitur et sensus et scientia et doctrina ueritatis. 
+
+10. Sed quid2 prodest excusatio iuxta ueritatem, prse- 
+sertim cum praesumptione ? quatinus modo ipse adpeto in 
+senectute mea quod in iuuentute non conparaui ; quod3 
+obstiterunt peccata mea ut connrmarem quod ante perle- 
+geram.4 Sed quis me credit etsi dixero quod ante pra> 
+fatus sum 1 Adulescens, immo pene puer, in uerbis cap- 
+turam dedi, antequam scirem5 quid adpeterem uel quid 
+uitare debueram. Unde ergo hodie crubesco et uehementer 
+pertimeo denudare imperitiam meam, quia disertis 6 
+breuitate sermonem 7 explicare nequeo. Sicut enim 
+Spiritus gestit 8 et animas 9 et sensus monstrat adfectus. 
+
+11. Sed si itaque datum mihi fuisset sicut et caeteris, 
+uerumtamen non silerem propter retributionem. Et si forte 
+uidetur apud aliquantos me in hoc prasponere cum mea 
+inscientia et tardiori lingua, sed etiam scriptum est, Lingua 
+balbutientes uelociter discent loqui pacem. Quanto magis nos 
+adpetere debemus qui sumus, inquit, epistola Chrisli in 
+sahdem usque ad ultimum terra?, etsi non diserta, sed minis- 
+trata10 fortissime,11 scripta12 in cordibus uestris non atramento 
+sed Spi'.'itu Dei uiui. Et iterum Spiritus testatur, Et 
+rusticatio13 ah Altissimo creata est. 
+
+9. Sir. iv. 29. 
+
+11. Ps. cxviii. 112; Exod. iv. 10; Esai. xxxii. 4; 2 Cor. iii. 2, 3 
+Act. xiii. 47 ; Sir. vii. 16. 
+
+1 exaliue AP (A has z written over and z in niarg.) ; ex saliue B. 
+
+2 om. quid rell. 3 qUia QFPR ; om. B. 
+
+4 quodque ante non perleg. rell. 5 ins. quid peterem uel A. 
+
+6 desertis CFP, not F4 ; quia non possum de deeritis A (possum de 
+super dotted and z in marg.). 
+
+7 So White ; sermone ACFPR ; sermonis BF4 corr. 
+
+8 gestat P ; gessit CFR. 8 animus rell. 
+
+10 So White ; ratum ABCFP ; rata F4 corr. ; raptum R ; rell. add 
+et ; Ahusz in marg. « So F4 corr. ; fortissimum MSS. 
+
+12 scriptum A. 13 rusticationem AP ; A has z in marg. 
+
+
+CONFKSSK) 
+
+
+12. Undo ego primus rusticus profuga indoctus soilioet 
+qui nescio in posterum prouidere — Bed Bcio illud oertifirime 
+quia utique priusquam humiliarer ego eram uelut lapis qui 
+iacet in luto profundo ; et uenit qui potent est, et in sua 
+misericordia sustulit me et quidem scilicet sursum ■ 
+adleuauit et collocauit me in summo pariete. Et inde 
+fortiter debueram exclamare ad retribuenilnm <.- quoque 
+aliquid Domino pro tantis beneficiis eius, hie et in leternum, 
+qua? mens hominum lestimare non potest. 
+
+13. Unde autem admiramini itaque magui et jmsilli qui 
+timetis Deum, et uos domini cati3 rethorici audite ergo et 
+scrutamini. Quis me stultum excitauit de medio eorum 
+qui uidentur esse sapientes et legis periti et potentes in 
+sermone et in omni re ? Et me quidem detestabilem huius 
+mundi pra3 ca)teris inspirauit, si talis essem, dummodo 
+autem ut cum metu et reuerentia et sine querella fideliter 
+prodessem genti ad quam caritas Christi transtulit et 
+donauit me in uita mea, si dignus fuero, denique ut cum 
+humilitate et ueraciter deseruirem illis. 
+
+14. In mensura itaque y?^' Trinitatis oportet distinguere 
+sine reprehensione periculi notum facere donum Dei et 
+consolationem ceterna?n, sine timore fiducialiter Dei noraen 
+ubique expandere, ut etiam post obitum meum exagallias 4 
+relinquere fratribus et filiis meis quos ego in Domino 
+baptizaui, tot milia hominum. 
+
+15. Et non eram dignus neque talis ut hoc Dominus 
+seruulo suo concederet post erumnas et tantas moles,5 post 
+
+
+12. 
+
+Ps. cxviii 
+
+67 
+
+; Luc. i 
+
+49 
+
+Ps. cxv 
+
+12. 
+
+13. 
+
+Apoc. 
+
+XIX 
+
+5 
+
+Act. vi 
+
+. 22 
+
+; Heb. xii. 28 ; 
+
+1 Thess. 
+
+ii. 
+
+10. 
+
+14. 
+
+Rom. 
+
+Xll. 
+
+3; 
+
+Phil. ii. 
+
+15; 
+
+2 Thess. 
+
+ii. 15 
+
+1 Pet. i. 
+
+15 
+
+1 rursum P. 2 So P*F4 corr. retribuendam MSS. 
+
+3 gnari P ; ignari BCFR. 
+
+4 exgallias BCF ; ex galeas P ; gallias R ; ex gallicis F4 corr. ; 
+A has in marg. incercertus liber, and z with ~ over the g. 
+
+5 tante molis BCFR : ante moles P. 
+
+
+10 LIBRI SANCTI PATRICII 
+
+
+captiuitatem, post annos multos, in gentem illam tan tarn 
+gratiam mihi donaret, quod ego aliquando in iuuentute 
+mea numquam speraui * neque cogitaui. 
+
+16. Sed postquam Hiberione deueneram, cotidie itaque 
+pecora pascebam, et frequens in die orabam; magis ac 
+magis accedebat amor2 Dei et timor ipsius, et fides 
+augebatur a et spiritus agebatur,4 ut in die una usque ad 
+centum orationes et in nocte prope similiter, ut etiam in 
+siluis et in monte manebam. Et ante lucem excitabar ad 
+orationem per niuem per gelu per pluuiam ; et nihil mali 
+sentiebam, neque ulla pigritia erat in me, sicut modo uideo, 
+quia tunc spiritus in me feruebat. 
+
+17. Et ibi scilicet quadam nocte in somno audiui uocem 
+dicentem mihi, Bene ieiunas, cito iturus ad patriam tuam. 
+Et iterum 5 post paululum tempus audiui responsum dicen- 
+tem mihi, Ecce nauis tua parata est. Et non 6 erat prope, 
+sed forte habebat ducenta milia passus. Et ibi numquam 
+fueram, nee ibi notum quemquam de hominibus habebam. 
+Et deinde postmodum conuersus sum in fugam, et intermisi 
+hominem cum quo fueram annis sex; et ueni in uirtute 
+Dei qui uiam meam ad bonum dirigebat, et nihil metuebam 
+donee perueni ad nauem illam. 
+
+18. Et ilia die 7 qua perueni profecta est nauis de loco 
+suo. Et locutus sum ut haberem inde nauigare 8 cum illis ; 
+et gubernatori displicuit illi, et acriter cum indignatione 
+respondit, Nequaquam tu nobiscum adpetes 9 ire. Et cum 
+haec audissem separaui me ab illis ut uenirem ad tuguriolum 
+ubi hospitabam ; et in itinere coepi orare ; et antequam 
+
+1«. Act. xviii. 25. 
+
+1 For nuniq. sper. , roll, have non quia desperaui (disp. P). 
+
+2 timor veil. 3 agebatur P. 4 augebatur FP. 
+5 [tuam] et terram et [post] rell. (R de/. after terram). - 
+
+• cm. non rell. (R de/.). 7 om. die OFPR. 
+
+8 ut abirem unde uauigavem A ; F4 also has unde. 
+
+9 adpetas BCFR ; adpetis P. 
+
+
+CONFESSIO 11 
+
+
+orationem consummarcm audiui unum ex illis, et fortiter 
+exclamabat post me, Ueni cito quia uocant te homines isti ; 
+et statim ad illos reuersus sum. 
+
+Et co3perunt mihi dicere, Ueni quia ex fide recipimus te, 
+et fac nobiscum amicitiam quomodo uolueris. Et in ilia 
+die itaquo reppuli sugere mammellas eorum ] propter 
+timorem Dei, sed uerumtamen speraui ab illis uenire in 
+fidem 2 Iesu Christi, quia gentcs erant, et ob :! hoc obtinui 4 
+cum illis ; et protinus nauigauimus.5 
+
+19. Et post triduum terrain cepimus et uiginti et octo8 
+dies per desertum iter fecimus, et cibus defuit illis et fames 
+inualuit super eos. Et alio die ccepit gubernator mihi 
+dicere, Quid est, Christiane ? tu dicis Deus tuus magnufl et 
+omnipotens est ; quare ergo non potes pro nobis orare 1 quia 
+nos a fame periclitamur ; difficile enim ut aliqucm homincm 
+umquam uideamus. Ego enim euidenter dixi illis, Cowuerti- 
+mini ex fide et ex toto corde7 ad Dominum Ueum meum cui 
+nihil est inpossibile, ut hodie cibum mittat uobis in uiam 
+uestram usque dum satiamini,8 quia ubique abundat illi. 
+
+Et adiuuante Deo ita factum est. Ecce grex porcorum 
+in uia9 ante oculos nostros apparuit,10 et multos ex illis 
+interfecerunt et ibi duas noctes manserunt11 bene refecti, 
+et canes12 eorum repleti 13 sunt, quia multi ex illis defecerunt 
+et secus uiam semiuiui relicti sunt. Et post haec summas 
+gratias egerunt Deo, et ego honorificatus sum sub oculis 
+eorum, et ex hac die abundanter cibum habuerunt. Etiam 
+
+
+19. Joel ii. 12 ; Luc. x. 30. 
+
+
+I reppuli sugire mammas eorum B; repulis fugire mammas iilorum 
+FR ; repuli fugere maims iilorum P ; repulsus sum t'ugere amieitias 
+iilorum C. 2 illis ut mihi (mic F) dicereut, Ueni in fide rell. 
+
+3 om. ob rell. 4 obtinuit BF* R. 6 om. et prot. nau. A. 
+
+6 So P ; xxviii A ; uiginti et septem BCFR [om. et F). 
+
+7 om. ex fide et B ; om. et FR ; om. et — corde A ; add uestro R. 
+
+8 satiemini rell. g ins. ueniebat B. 10 om. apparuit rell. 
+
+II ins. et AP. 12 carnes CP ; came F4 corr. 
+I3 releuati CP ; reuelati BFR. 
+
+
+12 LIBRI SANCTI PATRICII 
+
+
+mel siluestre inuenerunt et mihi partem obtulerunt ; et unus 
+ex illis dixit, Hoc immolaticum1 est. Deo gratias, exinde 
+nihil gustaui. 
+
+20. Eadem uero nocte eram dormiens, et fortiter 
+temptauit me Satanas, quod memor ero quamdiu fuero in 
+hoc corpore. Et cecidit super roe ueluti saxum ingens,2H 
+et nihil membrorum meorura prseualui. Sed unde mihi 3 
+uenit ignarum 4 in 5 spiritum fl ut 7 Heliam uocarem ? 8 
+Et in hoc uidi in caelum solem oriri, et dum clamarem 
+Heliam9 uiribus meis ecce splendor solis illius decidit 
+super me, et statim discussit a me omnem grauitudinem. 
+Et credo quod a Christo Domino meo subuentus sum, et 
+Spiritus eius iam tunc clamabat pro me. Et spero quod 
+sic erit in die p'essurce mese, sicut in euangelio inquit,10 In 
+ilia die, Dominus testatur, Non uos estis qui loquirnini, sed 
+Spiritus Patris uestri qui loquitur in uobis. 
+
+21. Et iterum post annos multos adhuc capturam dedi. 
+Ea nocte prima itaque mansi cum illis. Responsum 
+autem diuinum audiui dicentem mihi, Duobus autem 
+mensibus u eris cum illis. Quod ita factum est. Nocte ilia 
+sexagesima 12 liberauit me Dominus de manibus eorum. 
+
+22. Etiam in itinere prseuidit nobis cibum et ignem et 
+siccitatem cotidie donee quarto decimo 13 die peruenimus 
+homines.14 Sicut superius insinuaui uiginti et octo dies per 
+
+19. Luc. xxiv. 42 ; 1 Cor. x. 28. 
+
+20. 2 Pet. i. 13 ; Ps. xlix. 15 ; Matt. x. 20. 
+
+1 om. Hoc A; immolatium F F4 corr. ; immolatum BP ; immola- 
+tiuum CR (inmo. R). 
+
+2 saxa ingentia rell. ; TIB breaks off. . . . 
+
+3 om. mihi Boll. ; me CFPR. 4 om. ignarum A ; ignoro Boll. F4 corr. 
+5 et/or in FR ; ut Boll. 6 spiritu rell. 
+
+7 om. ut rell. 8 uocare P F4 corr. [Sed unde me uenit ignarum 
+in spiritu Heliam uocarem ? rell.] 9 ins. Heliam Boll. CFR. 
+
+10 A has inquit Dominus non uos estis. multos adhuc, etc., Qmitting 
+otherwise all from In ilia to annos inclusive, with z in marg. ; Boll, 
+has euan. Dom. test., In ilia die, inquit, Non uos, etc. 
+
+11 duos menses rell.; R def. 12 sexagesimo die OFP ; R de/. 
+13 Jj -L a » A. i* oranes AF ; ad homines C ; . . . omines R. 
+
+
+CONFESSIO 13 
+
+
+desertum iter fecimus ; et ea nocte qua peruenimus 
+homines 1 de cibo uero nihil habuimus. 
+
+23. Et iterum post paucos annos in Britanniis eram cum 
+parentibus meis, qui me ut filium susceperunt et ex fide 
+rogauerunt me ut uel modo ego post tantas tribulationes 
+quas ego pertuli nusquam 2 ab illis discederem. 
+
+Et ibi scilicet uidi 3 in uisu noctis uirum uenientem quasi 
+de Hiberione, cui nomen Uictoricus,4 cum epistolis in- 
+numerabilibus.5 Et dedit mihi unam ex his, et legi prin- 
+cipium epistolae continentem, Uox Hiberionacum ; et dum 
+recitabam principium episto1» putabam ipso momento 
+audire uocem ipsorum qui erant iuxta siluam Focluti6 
+quae est prope mare occidentale, et sic exclamauerunt quasi 
+ex uno ore, Rogamus te, sancte puer, ut uenias et adhuc 
+ambulas inter nos. Et ualde conpunctus sum corde et amplius 
+non potui legere, et sic expertus 7 sum. Deo gratias, quia 
+post annos plurimos prsestitit illis Dominus secundum 
+clamorem illorum. 
+
+24. Et alia nocte, nescio, Deus scit, utrum in me an iuxta 
+me, uerbis peritissimis quos ego audiui et non potui intel- 
+legere, nisi ad postremum orationis sic efficiatus 8 est, Qui 
+dedit pro te animam suam9 ipse est qui loquitur in te.10 Et 
+sic expertus ll sum gaudebundus. 
+
+25. Et iterum uidi in me ipsum orantem, et eram quasi 
+intra corpus meum, et audiui super me, hoc est super 
+
+23. Dan. vii. 13 ; Ps. cviii. 17. 24. 2 Cor. xii. 2 ; Ioh. x. 11. 
+
+1 om. sicut — homines F ; omnes A Boll. R ; ad homines C. 
+
+2 numquam rell. ; R de/. 3 For uidi in uisu, in sinu A. 
+
+4 Hiberione Uictricius nomine Boll.; Hib. Uictoricius nomen CFPR. 
+
+6 ins. uidi A. 
+
+6 uirgulti B (teste Denis) ; uirgulti uolutique C (uolutique being 
+underdotted in F4) ; uirgultique F ; uirgulti uelutique P ; uirgulti 
+ueluti R. 7 expergefactus rell. 8 affatus Boll. CFR. 
+
+9 Qui ded. an. su. pro te A ; Qui pro te an. su. posuit C ; Qui pro 
+te an. su. FR. 10 om. ipse — te rell. n expergefactus rell.; om. Boll. 
+
+
+^ 
+
+
+14 LIBRI SANCTI PATRICK 
+
+
+interiorem hominem, et ibi fortiter orabat gemitibus. Et 
+inter heec stupebam et admirabar et cogitabam quis esset 
+qui in me orabat ; sed ad postremum orationis sic efficiatus * 
+est ut sit Spiritus;3 et sic expertus sum, et recordatus 
+sum apostolo dicente, Spiritus adiuuat infirmitates orationis 
+nostra?. Nam quod oremus sicut oportet nescimus, sed ipse 
+Spiritus postulat pro nobis gemitibus inenarrabilibus qua uerbis 
+exprimi nan possunt. Et iterum, Dominus aduocatus noster 
+postulat pro nobis.^l 
+
+26. Et quando temptatus sum ab aliquantis senioribus 
+meis qui uenerunt et peccata mea contra laboriosum epis- 
+copatum meum — utique in illo die fortiter inpulsus sum ut 
+caderem hie et in aeternum. Sed Dominus pepercit proselito 
+et peregrino propter nomen suum benigne, et ualde mihi 
+subuenit in hac conculcatione quod in labem et in obpro- 
+brium non male deueni. Deum oro ut non illis in peccatum 
+reputetur. 
+
+27. Occasionem 3 post annos triginta inuenerunt me * 
+aduersus uerbum quod confessus fueram antequod essem 
+diaconus. Propter anxietatem mesto animo insinuaui 
+amicissimo meo U qua? in pueritia mea una die gesseram, 
+immo in una hora, quia necdum prreualebam. Nesciof Deus 
+scit, si habebam tunc annos quindecim, et Deum uiuum 
+non credebam, neque ex infantia mea; sed in morte et 
+in incredulitate inansi donee ualde castigatus sum, et in 
+ueritate humiliatus sum a fame et nuditate et cotidie. 
+
+28. Contra, Hiberione non sponte pergebam donee prope 
+deficiebam. Sed haec potius bene mihi fuit, quia ex hoc 
+
+25. Eph. iii. 16 ; Rom. viii. 26, 34 ; 1 Ioh. ii. 1. 
+
+26. Ps. cxvii. 13 ; 2 Tim. iv. 16. 27. Dan. vi. 5 ; 2 Cor. xii. 2. 
+
+1 effatus C ; etfactus F ; effectus R. 
+
+2 So PF4 corr. (sps) ; episccpus (eps) ACFR. If A breaks off. 
+
+3 So White; MSS. have occasioning ; Boll, has reputetur occasio. 
+Nam. 
+
+4 uu oi CFR, f R ends. 
+
+
+COXKKSSro 15 
+
+
+emendatua sum a Domino; el aptauitme ut bodie essem 
+quod atfquando longe a me erat, n\ ego eurai baberen 
+«nit satagerem pro salute aliorum, quando autem tune etiam 
+
+do me ipso non oogitabam. 
+
+29. [gitur in illo die quo reprobatua sum a memoratii 
+lupradiotis, ad noctem illamj widi m wiou Metis. Scriptun 
+
+orat contra faciem nieam sine hmmrv. Bt intor haM audiui 
+rcspoiwum diuinum dioentem mini, Male uidimus faciem 
+designati,1 nudato nomine. Nee sic prredixit, Male uidifti, 
+Bed, Male uidimus ; quasi ibi2se iunxisset.3 Sicut dixit, 
+Qui mm hniijii quasi '/ui* tangti pupilUm octdi met. 
+
+30. Idcirco gratia» ago ei qui rue in omnibus ronforfanif 
+ut non me inpedirct a profectione quam statueram et de 
+mea quoquo opera quod a Christo Domino meo didiceram ; 
+sed magis ex to sens* in me uirhUem non paruam, et fides mea 
+probata est coram Deo et hominibus. 
+
+31. Undo autem awl enter dico ; non me reprehendit con- 
+scientia mea hie et in futurum. Testem Deum habeo quia 
+non sum mentitus in sermonibus quos ego retuli uobis.^I 
+
+32. Sed magis doleo pro amicissimo moo cur hoc merui- 
+mus audire tale responsum. Cui ego credidi etiam ani- 
+mam ! Et comperi ab alkjuantis f ratribus ante dissensionem 5 
+illam, quod ego non interfui, nee in Britanniis eram, nee a 
+me orietur, ut et ille in mea absentia pulsaret pro me. 
+Etiam mihi ipse ore suo dixerat, Ecce dandus es tu ad 
+gradum episcopatus. Quod non eram dignus. Sed undo 
+uenit illi postmodum, ut coram cunctis, bonis et malis, et 
+
+
+29. 
+
+Dan. vii. 13 ; 
+
+Zech. 
+
+ii. 
+
+8. 
+
+30. 
+
+1 Tim. 
+
+i. 12 ; 
+
+Marc. 
+
+v. 
+
+29, 
+
+30; 
+
+1 Pet. i. 
+
+7" 
+
+2 Cor. 
+
+vin 
+
+21. 
+
+31. 
+
+Act. ii. 
+
+29. 
+
+§ A resumes. 1 dei signati OFP. 2 nM A. 
+
+8 iunxit rcll. ; F4 has an erased space bdveen, ibi and se. 
+
+4 om. quasi qui Boll. ; om. qui CFP. U A breaks off. 
+
+5 defensionem Boll. CF. 
+
+
+16 LIBRI SANCTI PATRICK 
+
+me publice dehonestaret, quod ante sponte et laetus indul- 
+serat, et Dominus qui rnaior omnibus est ? 
+
+33. Satis dico. Sed tamen non debeo abscondere donum 
+Dei quod largitus est nobis in terra captiuitatis meae, quia 
+tunc fortiter inquisiui eum, et ibi inueni ilium, et seruauit 
+me ab omnibus iniquitatibus — sic credo — propter inhabi- 
+tantem Spiriium eius, qui operatus est usque in hanc diem 
+in me. Audenter rursus. Sed scit Deus si mihi homo 
+hoc effatus fuisset, forsitan tacuissem propter caritatem 
+Christi. 
+
+34. Unde ergo indefessam gratiam ago Deo meo qui 
+me fidelem seruauit in die temptationis meae, ita ut hodie 
+confidenter offeram illi sacrificium, ut hostiam uiuentem 
+animam meam Christo Domino meo, qui me seruauit ab 
+omnibus angustiis meis, ut et dicam, Quisego sum, Domine, uel 
+quae est uocatio mea, qui mihi tanta diuinitate * cooper- 
+asti?2 ita ut hodie in gentibus constanter exultarem et 
+magnificarem nomen tuum ubicumque loco f uero ; nee non 
+in secundis, sed etiam in pressuris ; ut quicquid mihi 
+euenerit, siue bonum siue malum, aequaliter debeo suscipere 
+et Deo gratias semper agere, qui mihi ostendit ut indubi- 
+tabilem eum sine fine crederem, et qui me audierit ut ego,3 
+inscius4 et5 in nouissimis diebus, hoc opus tarn pium et tam 
+mirificum auderem adgredere,6 ita ut imitarem quispiam 
+illos quos ante Dominus iam olim praedixerat praenuntia- 
+turus 7 euangelium suum in testimonium omnibus gentibus ante 
+
+32. Ioh. x.29. 33. Rom. viii. 11. 
+
+34. Ps. xciv. 9 ; Rom. xii. 1 ; Ps. xxxiii. 5 ; 2 Reg. vii. 18 ; Act. ii. 
+17 ; Matt. xxiv. 14. 
+
+1 So White; tantam diuinitatem CFBoll. ; tanta diuinitatem P. 
+
+2 cooperuisti CF ; denudasti Boll. 3 ut et ego CFBoll. 
+4 m». sini 0. 5 om. et CFBoll. ' 
+
+8 audirem adgrederer F ; adire adgrederer C F4 (adgreder C) ; 
+auderem aggredi Boll. 
+
+7 pramuntiaturos Boll.; prjenuntiatui'um F ; prgenuutiatus F4. 
+
+
+CONFESSIO 17 
+
+
+finrm nnui.li. Qaod itu 6TgO ut indium^, ii.i-jur lUppletUni 
+
+eet, Booe teafc • ramai quia auangelium pradkmtam «:t>t 
+tuque ubi nemo ultra i 
+
+35. gLongum est autem totum wrmt 
+laborem rneum, uel per partea. Breuiter dieam quau'ter 
+|)ii>>iinus Deua de eeruitute eepe [ma]1 liberauit at 
+duodeoiii] perieulu qua periolitata eat aoima mea, | 
+msidias mult is, at qua > ■ . nae 
+iniuriam legentibui faoiain. Bad Deum auotorau) babeo 
+qui uouit omnia etiam antequain tiant/ ut me pauper- 
+culum pupillum idiotam * reaponaum diuinum ereberrime 
+admonuit.1 
+
+36. (Jnde mini h;ic aapientia, qua in me oon ermt, qui 
+nee munenm '/"nun noueram, ueoque Deum lapiebeml 
+
+Unde mihi postmodum donum tain magnum lam salubre 
+
+Deum agnoaoere uel diligere, aed ut patriam at pareatea 
+amitterem .' 
+
+37. Et munera multa uiihi offcrebantur cuin Beta ft 
+lacrimis. Kt offend] illos, necnon contra uotuin aliquantil 
+de senioribus meis ; aed, gubernante Deo, nullo modo oon- 
+eenai neque adquieui ill is ; non mea gratia, aed Deua qui 
+uincit in me, et resistit6 illis omnibua ut ego ueneram ad 
+Hibernas gentes euangelium predicate, at ab [neredulii 
+contumelias perferre, ut audirem obprobrimn pei'yrmtiiomii 
+mem, et persecutiones multaa usque (id uinntli, at ut darem1 
+ingenuitatoin meam pro utilitate aliorum; at ai digmn 
+
+
+35. 
+
+Act 
+
+xxi. 
+
+19; 
+
+Kom. viii. 
+
+26. 
+
+36. 
+
+Pi. 
+
+XXW111 5 
+
+37. 
+
+Sir. 
+
+1 1 i I 
+
+30; 
+
+•J Tim 
+
+n 
+
+9. 
+
+§ A return**. ■ 9o Denis [me]. 2 MX Of BeU, 
+
+3 om. de rill. * A hrml 
+
+* So Whitr ; ideo tamen OIP; am. Roll 
+
+5 adruoiMTrt V /■•'/.,• emu-rat montri P. 
+
+8 restitit C ; rustiti / 7 NU. |Q< ft . I JW 
+
+
+18 LIBRI SANCTI PATRICII 
+
+fuero promptus sum ut etiam animam meam incunctanter 
+et libentissime pro nomine eius; et ibi opto inpendere earn 
+usque ad mortem si Dominus mihi indulgeret. 
+
+38. § Quia ualde debitor sum Deo qui mihi tantam 
+gratiara donauit ut populi multi per me in Deum re- 
+nascerentur, et postmodum consummarentur,1 et ut clerici 
+ubique illis ordinarentur ad plebem nuper uenientem ad 
+credulitatem quam sumsit Dominus ab extremis term, sicut 
+olim promiserat per prophetas suos : Ad te gentes uenient 
+ab extremis terrm, et dicent, Sicut falsa conparauerunt pains 
+nostri idola et non est utilitas in eis. Et iterum : Posui te 
+lumen in gentibus ut sis in salutem usque ad extremum terrce. 
+
+39. Et ibi uolo expcctare promusum ipsius qui utique 
+numquam fallit, sicut in euangelio pollicetur : Uenient ab 
+orienie et occidente et ab austro et ab aquUone, et 2 recumbent 
+cum Abraham et Isaac et Iacob ; sicut credimus ab omni 
+mundo uenturi sunt credentes. 
+
+40. Idcirco itaque oportet bene et diligenter piscare, 
+sicut Dominus praemonet et docet dicens : Uenite post me et 
+faciam uos fieri3 piscatores hominum. Et iterum dicit per 
+prophetas : Ecce 4 miito piscatores el uenatores multos, dicit 
+Deus, et caetera. 
+
+Unde autem ualde oportebat rebia nostra tendere ita ut 
+multifudo copiosa et turba Deo caperetur, et ubique essent 
+clerici qui baptizarent et exhoitarent populum indigentem 
+et desiderantem, sicut Dominus in euangelio admonet et 
+docet dicens : Euntes ergo nunc 6 docete omnes gentes baptiz- 
+
+
+37. 
+
+3 Ioh. 7. 
+
+38. 
+
+Ier. xvi. 19 ; Act. xiii. 47. 
+
+39. 
+
+Act. i. 4 ; Matt. viii. 11. 
+
+40. 
+
+Matt iv. 19 ; ler. xvi. 16 ; 
+
+Luc. v. 6 ; 
+
+Matt, xxviii. 19. 
+
+§ A resumes. 1 om. et post. cons. A. 
+
+2 oin et ab aust. et ab aq. et rtll. {Boll. P have et rec). 
+
+3 om. fieri CFP. * ins. ego Boll.CF. 
+5 om. nunc rell. ; om. ergo nunc P. 
+
+
+CONFESSIO L9 
+
+
+MM ■ M nomine Poll 
+
+• ■// ntV/ ■/ 
+
+uo/nsritm sum omnibu< dUkw Mfgl 
+
+Kt iterum (licit, A' MM nnnuisum pra 
+
+mtangeUum omni creatm <,ltrtt 
+
+mktu» mi « gut imto n^n I. 
+
+iterum, Prt&dioabUur l 
+
+in (cdii/ioniiuit omnsfoj genhlms; d fan 
+
+Kt item Dominui per prophetam prsnuntiani inquit, 
+
+A7 ml Ml tmuissimis dirhus, dud \ 
+
+Sjnritu meo ng i i mi - n . d propJUteftwil )0m § w«fh 
+
+d Jilur >,<str<> , i ( MM* Ml ■ 
+
+IMMfl ,«,ut/ii<r soni tier mi f ; 
+
+HgNJT tun Ma* mmU in dulxis ?/" 
+
+it prophdal'tint. Et 4 Osee dicit, / < 
+
+pUbtni iintu/i, d non miterieofdiam • 
+
+COrdiam CtmMCUtam. A7 0fjJ MJ j dictum \ \ n 
+
+vlebs ifiin not, ;;/ i* ■•■.r.untur jilii Dm uiui. 
+
+41. Undo autem Biberione qui numquain ootitaam 
+Dei habuerunt, nisi idols et inmunda usque nunc semper 
+ooloerunt, quomodo nuper perfeda* est /-A b Domini, el 
+Alii Dei nuncupsn tor 1 Kilii Soottorum el alia regoJonim 
+monachi ct birginefl Christ i esse nidentu • 
+
+42. Et etaam una benedicts Beotta genetius, oobilis, 
+pulcherrima, adulta «rat, quam ego baptisnaij el poal 
+
+paucos dies una Oausa limit ad DOf J insiiiuauit lml.is 
+
+reeponsum aooepisse ■ suntio4 Dei, el monnit earn ut eeeet 
+oirgo Christi et ipse Deo proximaret, Deo 
+
+40. Marc. xvi. If»; Matt. xxiv. It; Act. ii. 17, 18; RflOU ix. 
+
+25, 26. 41. Luc i. 17 
+
+1 eos nil. P. 
+
+;t tilii C . om. iiuuio u. -m K * | | 
+
+8 facta A ; til, ta CI', n, ' ' A 
+
+6 nutu 0. 
+
+
+20 LIBRI SANCTI PATRICK 
+
+ab hac die optime et auidissime arripuit illud quod etiam 
+omnes uirgines Dei ita hoc faciunt ; Don sponte patrum 
+earum, sed et persecutionem patiuntur et inproperia falsa 
+a parentibus suis, et nihilominus plus augetur numerus — et 
+de genere nostro qui ibi nati sunt nescimus numerum 
+eorum — praeter uiduas et continentes. 
+
+Sed et illae 1 maxime laborant quae seruitio detinentur. 
+Usque ad terrores et minas assidue perferunt;2 sed 
+Dominus gratiam dedit multis ex ancillis suis,3 nam etsi 
+uetantur 4 tamen fortiter imitantur. 
+
+43. Unde autem etsi uoluero amittere illas, et ita5 
+pergens in Britanniis — et libentissime paratus eram — 
+quasi ad patriam et parentes — non id solum sed etiam 
+usque Gallias, uisitare fratres et ut uiderem faciem 
+sanctorum Domini mei — scit Deus quod ego ualde 
+optabam. Sed alligatus Spiritu qui mihi protestatur si hoc 
+f ecero, ut f uturum reum me esse designat ; et timeo 
+perdere laborem quern inchoaui ; et non ego sed Christus 
+Dominus qui me imperauit ut uenirem essemque cum 
+illis residuum aetatis meae, si Dominus uoluerit, et custo- 
+dierit me ab omni uia mala, ut non peccem coram illo. 
+
+44. Spero autem hoc debueram ; sed memetipsum non 
+credo quamdiu fuero in hoc corpore mortis; quia fortis est 
+qui cotidie nititur subuertere me a fide et praeposita 6 
+castitate religionis non fictae usque in finem uitae meae 
+Christo Domino meo. Sed caro inimica semper trahit ad 
+mortem, id est ad inlecebras inlicitate 7 perficiendas. Et 
+
+43. Act. xx. 22, 23. 
+
+44. 2 Pet. i. 13 ; Rom. vii. 24. 
+
+
+1 So Ware; illas BCFP ; ilia Ficorr. 
+
+2 persuaserunt C ; perseuerunt F. 3 meis C F. 
+
+4 So Denis ; MSS. liave nam et siue tantum ; om. et C. 
+
+5 ut BCF. 6 proposita C. 
+7 in infelicitate B ; inlicite Flcorr. 
+
+
+CONFESSIO %] 
+
+
+i parte qua re aitam perfi al et 
+
+osteri credentes Bed oonfiteor Domino meo »-r uon 
+erubeeoo in oonspeeta ipeiua, quia oon mentior. Bi quo 
+oognoui tum a iuuentute men ereuit in dm imoi I •• I 
+et timor ipaiuBj et usque nunc Eauente Domino 
+annom 
+
+45. Rideat autem el insultet qui uoluerit, ego oon 
+eilebo Deque abeoondo ngna el mirabilia qua mflu 
+a Domino monstrata' sunt ante multoe annoe quam 
+fierent, quasi qui oouit omnia etiam anh fomj 
+
+lurid. 
+
+46. Qnde autem debueram line oeeaatione Deo gratiaa 
+agere, qui sepe indulsit insipienti» meaa et aeglegentic 
+mete —61 dc loco oon in unoquoque— ut uon mini uehe- 
+
+inenter irasceretur qui adiutor datufl sum ; et uon eito 
+adquieui aeoundum quod mini oatenaum fuerat, et ncut 
+Spiritus suggerebai. Et mist mini Dominui m milia 
+
+milium, quia uidit in me quod paratua exam ; sod quod 
+mihi per * bie neaoiebam de statu meo quid mcerem, quia 
+inulti hanc legationem prohibebant. Btiam inter aeipaoe 
+post tergum mourn narraluint et dioebant, [ate quaie M 
+
+mittit in perieulum inter hostee qui Deum rmtt 
+
+Non ut causa malitiie, Bed uon aapiebat ill is, ricut et ego 
+ipse tester intellegi, propter rasticitatem mcum. Et nun 
+cito agnoui gratiam, qua) tunc erat in me. Nunc mini 
+sapit quod ante debueram 
+
+47. Nunc ergo simplieiter insinuaui fratribui et con- 
+seruis meis qui raihi credidcrunt, propter quod 
+pradkoi et prcedioo ad roborandam et oonfirmandam 
+
+
+44. 
+46. 
+47. 
+
+1 Cor. xiii. 9 ; 2 Tim. iv. 7. 
+Ioh. xiv. 26 ; Bzod. xx. 0 ; 
+
+2 Cor. xiii. 2. 
+
+45. 2 Tun. l. i». 
+
+2 Then i. 8. 
+
+1 ministrata BCF. 
+
+
+22 LIBRI SANCTI PATRICII 
+
+fidem uestram. Utinam ut et uos imitemini maiora, et 
+potiora faciatis ! Hoc erit gloria mea, quia jilius sapiens 
+gloria pair is est. 
+
+48. Uos scitis et Deus qualiter inter uos conuersatus 
+sum a inuentute mea in fide ueritatis et in sinceritate 
+cordis. Etiam ad gentes illas inter quas habito, ego 
+fidem illis prsestaui et prsestabo. Deus seit, neminem 
+illorum circurnueni ; nee cogito, propter Deum et ecclesiam 
+ipsius, ne excitem illis et nobis omnibus persecutionem, 
+et ne per me blasphemaretur nomen Domini ; quia 
+scriptum est : Uce homini per quern nomen Domini 
+blasphematur. 
+
+49. Nam etsi imperitus sum in omnibus, tamen conatus 
+sum quippiam seruare me etiam et fratribus Christianis et 
+uirginibus Christi et mulieribus religiosis quae mihi ultronea 
+munuscula donabant, et super altare iactabant ex orna- 
+m«ntis suis, et iterum reddebam illis. Et aduersus me 
+scandalizabantur cur hoc faciebam. Sed ego propter 
+spem perennitatis, ut me in omnibus caute propterea 
+conseruarem, ita ut me in aliquo titulo infideles 1 caperent 
+uel ministerium seruitutis meee, nee etiam in minimo 
+incredulis locum darem infamare sine detractare. 
+
+50. Forte autem quando baptizaui tot milia hominum 
+sperauerim ab aliquo illorum uel dimidio scriptiilce ? 
+Dicite mihi et reddam nobis. Aut quando ordinauit ubique 
+Dominus clericos per modicitatem meam et ministerium 
+gratis distribui illis, si poposci ab aliquo illorum uel 
+pretium uel calciamenti mei, dicite aduersus me et reddam 
+nobis magis. 
+
+47. Prov» x. 1. 
+
+48. 2 Cor. vii. 2 ; Matt, xviii. 7 ; Rom. ii. 24. 
+
+49. 2 Cor. xi. 6 ; Act. xiii. 50. 50. 1 Reg, xii. 3. 
+
+
+1 infideli CFP ; conseruarem me in alio titulo meo infideli P. 
+
+
+CONFKSSIU 
+
+
+51. Ego mpemtk pre nobii at dm i 
+
+i«t unique pergebam eaoss nostra In mnltii perieulia < 
+usque ad exteraa partes ubi nemo ultra erst, at ubi i 
+quam aliquia peruenerat qui b ant oleriooa 
+
+ordinaret aul populum consummaret, donante Domino, 
+diligenter et libentissims pro taints omnia 
+
+generaui1 
+
+52. [pterim pnemia dabam regibm pnster quod dabam 
+mereedem filiia ipsorum qui meoum ambulant ; at mini 
+ominus oomprehenderunt meeom oomitibua meis. Et ilia 
+die auidissime cupiebant into i tempos 
+nondum uenerat Et omnia quawumque nobiaoom in 
+nenerunt rapuerant illud, et me ipaom ferro ninxerunt. 
+Et quarto deoimo die absolnit me Dominua <h- pott 
+eorum; et quioquid Doetrnm t'uit redditum eel nobis 
+propter Deum et i amieoi qnos ante pnenidimua. 
+
+53. Uoa autem expert] eatia quantum igaui iltia 
+qui iudieabant per omnea regionea quoe ego frequentiua 
+uisiiaUuu : censeo enim uon minimum quam pretium 
+quindeoim bominum diatribni illia, it;i ut dm hruamini, 
+et t-i^« » uobia Bemper fruar in Deum NOu um p»»niu>t, 
+nee Batis est mihi \ adbuo inpendo >! ndam. 
+Potens est Dominus m det mihi postmodum ut meipaon] 
+mpendar ' pro mini. i Wis, 
+
+54. (Ecce issiem Deum m tmimtm meom quia sea 
+iiienti")-. Neque ut Bit oeeaeio adnlationis udauaritia 
+scrim uobia, neque ut bonorem spero ab aiiquo ue 
+Sufficit enim mihi0 honor qui nondum uidetur aed oorde 
+ereditur. tfaVKsautem guipromisU; nnmquam mentitur. 
+
+51. 2 Oor, xii 62. Ait 53. L» Cor. mi 
+
+54. 2 I'm. i. 28 ; OftL i. 20 : 1 Tlu-ss. ii. ;, ; 1 ! 
+
+1 So i ■■'.<-i RI88 2 MBtnri !•' ; graeraur Ki ; gesri B. 
+
+s indioabanl OF. 4 inpendal OFP; impendam F4 
+
+■ For spero— aestro, tperarem | ttnmrtU. 
+
+6 oiil. inih i AC not K4. 
+
+
+24 LIBRI SANCTI PATRICK 
+
+55. Sed uideo iam in prcesenti sceculo me supra modum 
+exaltatum 1 a Domino. Et non eram dignus neque talis 
+ut hoc mihi praestaret, dum scio certissime quod mihi 
+melius conuenit paupertas et calamitas quam deliciae et 
+diuitiae. Sed et Christus Dominus pauper fuit pro nobis. 
+Ego uero miser et infelix, et si opes uoluero iam non 
+habeo, neque meipsum iudico, quia cotidie spero2 aut 
+internecionem aut circumueniri aut redigi in seruitutem, 
+siue occasio cuiuslibet. TiSed nihil horum uereor propter 
+promissa caelorum ; quia iactaui meipsum in manus Dei 
+omnipotentis, quia ubique dominatur, sicut propheta dicit : 
+Iacta cogitatum tuum in Deum et ipse te enutriet. 
+
+56. Ecce nunc commendo animam meam fidelissimo Deo 
+meo, pro quo legationem fungor in ignobilitate mea, sed 
+quia personam non accipit et elegit me ad hoc officium 
+ut unus essem de suis minimis ministris.3 
+
+57. Unde autem retribmm Mi pro omnibus quce retribuit 
+mihi. Sed quid dicam uel quid promittam Domino meo 1 
+quia nihil ualeo 4 nisi ipse mihi dederit. Sed scrutatur corda 
+et renes ; quia satis et nimis cupio et paratus eram ut 
+donaret mihi bibere calicem eius sicut indulsit et caeteris 
+amantibus se. 
+
+58. Quapropter non contingat 5 mihi a Deo meo ut 
+umquam 6 amittam plebem suam quam adquisiuit in ultimis 
+terrae. Oro Deum ut det mihi perseuerantiam, et dig- 
+netur ut reddam illi testimonium fidele 7 usque ad 
+transitum meum propter Deum meum. 
+
+
+55. 
+
+Gal. i. 4 ; 1 Cor. iv. 3 ; Act. xx. 24 ; Ps. liv. 23. 
+
+56. 
+
+1 Pet. iv. 19 ; Eph. vi. 20. 
+
+67. 
+
+Ps. cxv. 12; Ps. vii. 11 ; Matt. xx. 22. 
+
+68. 
+
+Esai. xliii. 21. 
+
+1 exaltatus sum A ; exultatum CF. 2 sperno C. II A breaks off. 
+3 minister BCF. 4 uideo CF. 
+
+6 contingunt BCF. 6 numquam BCF. 
+
+7 So White; MSS. have testem fidelem ; Denis ins. [me] be/, testem. 
+
+
+( UNFESSKJ 
+
+
+59. la n aliquid i><>ni umquam nnit.au- Bum 
+Deuq meam quem dilige • mihi u; 
+illia proeelitia ef oaptiai pro aoa effundam 
+guinea nuMiiii, etd ipeam attain i pulturam, tut 
+miserissime cadauei j er ungula membra diuidatui oanibue 
+uut beatiifl aaperia, aul uoluoi mederent illud. 
+CSertiaaime reor n mihi boo incurrisael luci i ani - 
+mam cum oorpore meo, quia Bine alia dubitatione in dia 
+ilia reaurgemuB in claritate aoha, h< gloria Chriati 
+Lean redemptorifl noetri, qaaai JUn Dei m el 
+
+I futiu maginis ipaioj ; 5 ■■>■ 
+
+ipso etper ipewn et fa ipso regnaturi Bum 
+
+60. Nam sol tate quem aidemua, Deo1 iubente, propter 
+nos ootidie oritur, Bed oumquam regnabit Deque per 
+manebit Bplendor eiua j aed et omnea qui adoranl eum iu 
+p'luam miaeri male deueuient. Nob autem <[ui eredimuB 
+ef adoramufl Bolem uerum Christum, <|ui oumquam interi 
+bit neque qui feceril uohmtatem ipaiu8, Bed 
+
+///, quomodo e1 Christua manebii in . qui 
+
+regnal cum Deo Patre omnipotente el eum Spiritu Sanoto 
+ante bsbcuIb el n unc ci pei < >miii a bsbcuU BBBCulorum, amen. 
+
+61. Ecce iterum iterumque breuiter exponam uerba 
+confessionia meaa. Tesiificor in ueritate el in exultatione 
+cordis coram Deo et Sanctis angt . qi Qumquam 
+habui aliquam occaaionem praatei euangelium et pron 
+illius ut umquam redirem ad ' gentem illam, unde autem 
+priua ui\ euaaeram. 
+
+62. §Sedpreeor credentibua el timentibus Deum, qui- 
+eumque dignatua fueril inapioere uel reeipere bane 
+
+69. Rom. ix. 26; \iii. 17, 29 . ri. 
+
+BO. 1 Ioh. ii. 17 . Pa Ixxxriii 61. l Tin., r. 21. 
+
+
+• 1; 
+
+1 tnn. ijuiuii.im — suintis P; quain I .h:ituri KUDO! I 
+
+qnoniam 
+-J Deo Y\ written o OFP Ik I 3 q«i 01 
+
+4 redderem a OF ; Dmnqoam redd • P 
+
+
+26 LIBRI SANCTI PATRICK 
+
+turam quam Patricius peccator indoctus scilicet Hiberione 
+conscripsit, ut nemo umquam dicat quod mea ignorantia, 
+si aliquid pusillum egi uel demonstrauerim secundum 
+Dei placitum, sed arbitramini et uerissime credatur quod 
+donum 1 Dei f uisset. Et hsec est confessio mea antequam 
+moriar.2 
+
+
+EPISTOLA 
+
+1. Patricius peccator indoctus scilicet : — Hiberione, a 
+Deo 3 constitutus,4 episcopum me esse fateor. Certissime 
+reor a Deo accepi id quod sum. Inter barbaras itaque 
+habito proselitus et profuga ob amorem Dei. Testis est 
+ille si ita est. Non quod optabam tarn dure et tarn aspere 
+aliquid ex ore meo effundere. Sed cogor zelo Dei; et 
+ueritas Christi excitauit me 5 pro dilectione proximorum 
+atque filiorum pro quibus tradidi patriam et parentes et 
+animam meam usque ad mortem, si dignus sum. Uoui6 
+Deo meo docere gentes etsi contemnor aliquibusdam. 
+
+2. Manu mea scripsi atque condidi uerba ista danda 
+et tradenda, militibus mittenda Corotici; non dico 
+ciuibus meis neque ciuibus sanctorum Romanorum, sed 
+ciuibus demoniorum ob mala opera ipsorum. Ritu hostili 
+in morte uiuunt, socii Scottorum atque Pictorum aposta- 
+tarum, quasi sanguine uolentes saginari7 de sanguine 
+innocentium Christianorum, quos ego innumeros Deo 
+genui atque in Christo confirmaui. 
+
+1. Rom. x. 2 ; 2 Cor. xi. 10 ; Phil. ii. 30. 
+
+1 0771. donum rell. 
+
+* A adds : Hue usque uolumen quod Patricius manu conscripsit 
+sua |. Septima deeima Martii die translatus est Patricius ad caelos. 
+
+3 om. a Deo Boll. CF. 4 constitutum F4». 
+
+5 So F4 written over ; om. me rell. e noui C, not F4 ; uiuo FP. 
+
+7 So Boll.; For quasi — sag., que sanguelentos sanguinare CFP ; 
+( sangulentos FP sanguinolentos F4corr.). 
+
+
+EPISTOLA 
+
+
+3 Poatera die qua oriemati naophyti In naata aandida 
+Bagrabal in fronte iptornm dmn oradaliter traekbui 
+fttqne maotati gladio lupradiotii miaj epiatolam 
+aancto pretbytero quem infantia dooui, 00m 
+
+olericia, in hobii aliqnid indulgarent da proda nel da 
+oaptiuii baptizatu quo* oeper mt I u l aranl 
+
+da i 1 lis. 
+
+4. [doiroo naaoio quid magi* lugeam, an qui intet 
+fecti, nel qnofl oeperunt, ael quo* grauiter Zabaln 
+laqueauit Perenni poena gehennam pariter ram 
+mancipabunt, quia utique m a*m 
+peecoHf el fiiiiu Zdbidi Qunoupatur. 
+
+5. Quapropter n nuns homo timeni Denmqood 
+a me alienj sunt el aChriato Deo meojm I komem 
+fimgcr — patrieidaj fratricide hq > 
+
+beni Domini ui cibum pints. Sinn ait, /, 
+legem hnaii, Dommet quam in nipremii temporibui Hibe- 
+rione optima benigne plantaueraJ ; atque inati 
+tauente Deo. 
+
+6. Non usurpo. Partem habeo cum bll ' 
+
+et /))■/"/, stin, niif euangelium prsedicare in paraaeutionibm 
+non parnis usque n>l extremmm faros, atai inuidet inimicui 
+per tyraiinidcni Corotici, qui Deum non uerctur ' 
+aaoardotaa ipaiufl quoe elegit, ft indulait iltii rammam 
+diuinam sublimam potaatatem : gvot I/ 
+liijatusesse et in caUt. 
+
+4. Ioh. viii 31 ; Act. xiii. 10. 
+
+6. Bph. vi. 20; act w. 29 Pk riJ 
+
+6. Bom. viii. 80: Act. xiii 17 : Mi" 
+
+
+1 qnod C ; quos 1 I 
+
+2 ui/i peooatl OF. 
+
+3 Propter quam ran woiaA K» qua W pro] I 
+
+4 Am Hens P 
+6 Doneretnr 1' 
+
+
+28 LIBRI SANCTI PATRICII 
+
+7. Unde ergo quseso plurimum, sarocti et humiles corde. 
+Adulari talibus non licet, nee cibam nee potum sumere 
+cum ipsis. nee elemosinas ipsorum recipere debere donee 
+crudeliter pcenitentiam effusis lacrimis satis Deo faciant, 
+et liberent seruos Dei et ancillas Christi baptizatas, pro 
+quibus mortuus est et crucifixus. 
+
+8. Dona iniquorum reprobat Altissimus. Qui offert 
+saeriftcium ex substantia pauperum quasi qui uictimat filium 
+in conspectu patris sui. Diuitias, inquit, quas congregauit 
+iniuste euomentur de uentre eius, trahit ilium angelus mortis, 
+ira draconum mulcaUtur, interficiet ilium lingua colubris, 
+comedit eum ignis inexiinguibilis. Ideoque, Uce qui repleivt 
+se quce non sunt sua. Uel, Quid prodtst honiini ut totum 
+mundum lucretur, et animai sua" detrimentum patiatur ? 
+
+9. Longum est per singula discutere uel insinuare, per 
+totam legem carpere testimonia de tali cupiditate. Auaritia 
+mortale crimen. Non concupisces rem pwrimi tui. Non 
+occides. Homicida non potest esse cum Christo. Qui odit 
+fratrem suum liomicida1 adscribitur. Uel, Qui non diligit 
+fratrem suum in morte manet. Quanto magis reus est qui 
+maims suas coinquinauit in sanguine filiorum Dei, quos 
+nuper adquisiuit in ultimis terra? per exbortationem 
+paruitatis nostrse? 
+
+10. Numquid sine Deo, uel secundum carnem Hiberione 
+ueni? Quis me compulif? Alllgatus sum2 Spiritu ut non 
+uideam aliquem de cognatione mea. .Numquid a me 3 
+piam misericordiam quod4 ago erga gentem illam qui5 
+
+7. Dan. iii. 87. 
+
+8. Sir. xxxiv. 23, 24 ; lob xx. 15 ; Hab. ii. 6; Matt. xvi. 26. 
+
+9. Rom. xiii. 9 ; 1 Ioh. iii. 14, 15. 
+10. Act. xx. 22. 
+
+» 
+
+1 iixs. est P ; ins. esse Boll. 2 om. sum C. 
+
+3 amo Boll.; a me erased in F4. 4 quod erased in F4. 
+
+
+EPISTOLA 
+
+
+me aliquando oeperant, el -i. ■■. 
+anoilUa domui patrii mi 
+
+«am. 'in ; ,|,.,ut min' |u- m nobilil 
+
+mcaiii -non erabetoo Deque dm poenifc 
+aliorum ; denique Mraiu lam in Chi i 
+ob gloriam ineffabilem pen ■ 
+
+■ omino nc 
+
+11. B( si mt'i me nun ooglios uinl .' 
+
+konorm non hah t, Porte oon romii 
+
+imum Deum Pakm Dabemu*; neat ait, Qui non est numm 
+
+eonira m est, >t qui n n 
+
+oonuenit, Unut d 
+
+mm sunt. 
+
+Non met gratia, Bed I >*• i 
+rdt meo, ut unua eeeem de * nai i 
+quosolim Deua in lum i Ate pronuntiaojt 
+
+12. [nuidetur mihi. Quid faeiam, Dominel Daldc 
+deepioior. Kcce oaea boa oiroa me laniantor atqtu 
+prodantur, et Bupradiotifl latruncuHs, iobente Oorotioo' 
+bostili mente. Looge eel aoai itraditorCbi 
+Dorom in manoe Soottorum atqoe Piotoruin, Lupi nipaecs 
+deglutieruut gregem Domini qui atiqoe Hiberioae eam 
+Bununa diligentia optime oreeeebat ; »'t filii Soottorum 
+et fili;r regulorum monaehi et uirginee Chrieti enui 
+nequeo. Qaam ob rem injuria h 
+
+ctuim utgtk ad inferos non placebo. 
+
+
+10. Bom, vi. 23. 
+
+11. Ioh. iv. 11 ; x. ie J Mil. ii. 10 ; K|-li. 
+
+Sir. \x\iv. 28 ; I Oor. riii 6 . 2 0or. viii. lti ; I . n. 17. 
+
+12. Act. nc. 29 ; Sir. ix. 17. 
+
+1 Bgnoflount P. 2 "'"• N'"ii cniiurnit ndil 
+
+1 /'.-/• qui dc li' I II fcoM -jui'l. in ; 
+[dedit ' h '. in ooide. 
+* Ooritioo P. 
+
+
+30 LIBEI SANCTI PATRICII 
+
+13. Quis sanctorum non horreat iocundare uel con- 
+uiuium fruere cum talibus ? De spoliis defunctorum 
+Christianorum repleuerunt domos suas. De rapinis 
+uiuunt. Nesciunt miseri uenenum ; letalem cibum 
+porrigunt ad amicos et filios suos, sicut Eua non intellexit 
+quod utique mortem tradidit 1 uiro suo. Sic sunt omnes 
+qui male agunt ; mortem perennem poenam operantur. 
+
+14. Consuetudo Romanorum Gallorum2 : — Mittunt uiros 
+sanctos idoneos ad Francos et caeteras gentes cum tot 
+milia solidorum ad redimendos captiuos baptizatos ; tu 
+potius3 interncis et uendis illos genii exterae ignoranti 
+Deum. Quasi in lupanar tradis membra Christi. Qualem 
+spem habes in Deum, uel qui te consentit, aut qui te 
+communicat uerbis adulationis ? Deus iudicabit ; scriptum 
+est enim, Non solum facientes mala, sed etiam consentientes 
+dampnandi sunt. 
+
+15. Nescio quid dicam uel quid loquar amplius de de- 
+functis filiorum Dei quos gladius supra modum dure tetigit. 
+Scriptum est enim, Flete cum flentibus. Et iterum, Si 
+dolet unum membrum condoleant omnia membra. Quapropter 
+ecclesia plorat et plangit filios et filias suas quas adhuc 
+gladius nondum interfecit, sed prolongati et exportati§ 
+in longa terrarum, ubi peccatum manifeste, grauiter,4 
+inpudenter abundat. Ibi uenundati ingenui homines, 
+Christiani in seruitutem redacti sunt, praesertim indignis- 
+simorum pessimorum apostatarumque Pictorum. 
+
+16. Idcirco cum tristitia et merore uociferabo : 0 
+speciosissimi atque amantissimi fratres et filii quos in 
+
+14. 1 Thess. iv. 5; 1 Cor. vi. 15 ; Rom. i. 32. 
+
+15. Ioh. xii. 49 ; Rom. xii. 15; 1 Cor. xii. 26. 
+
+16. 1 Cor. iv. 15. 
+
+, _ — _ — m 
+
+1 dedit P. 2 ins. Christianorum CF BolL 
+
+3 totius CF ; toties Ficorr. ; omnes Boll. 
+
+§ B resumes (exporta § ti). 4 grauetur BCF Ficorr. 
+
+
+BPISTOLA ;i 
+
+
+Christ» , j, him ennmerare oequeo <i"1,J hflim noli 
+.sum dignui Deo oeqae hominibm laboeain mMI 
+
+inufui/ii* imquonm tuper no$. Qui -wUj. 
+
+Porto Don credunt uei unum 
+
+DeumPairm babemos. [ndignmn eel illis Hi».. 
+
+sumus. Siout ait, A 
+
+<l> f'liquistis unusquisqw proxirmm mum t 
+
+17. [dciroo doleo pro nobis, dole mi njhj , 
+iteram gaudeo intra meipeum. N i hborm 
+peregrinatii» mea >;> uacuum dob fun. Kt ooot 
+
+tam horrendom ineffabile i .lull bap 
+
+de sa-culo rect'>sisns ad Paradistun. Cerno aoa M 
+ooepietu abi nox mm erit, neqm uum <im]>Uu.<t 
+
+sed exuUabiiit ticui uit> 
+
+imqUO$i it mmf runs sub />■ 
+
+18. Uos ergo regnabitu cum apostolis ,•: prop] 
+atque maityribusj sterna regni oapietis, neat ipso 
+
+testatur ; inquit, l'<n>>nf </?> nri- ' recumbent 
+
+rum Abraham <t L no COtlorwh. Forit canes 
+
+nefici et homi'Kt.r ; el D irs gonaw 
+
+in stagnum ignis astemL Non inmerito3ait epoetohM, 
+HtfMM uix saluut erit, peccator >' impiw U 
+se recognoscet ? 
+
+19. Unde enim Coroticus cum suis 8celerati>simi«i, 
+rebellatores Christi, ubi se uidebunt I qui 4 mulierculas 
+baptizatas pnemia distribuunt6 ob miserum " regnum 
+temporale quod utique in momento transmit Beat I 
+
+16. Pfc lxiv. 1 ; lxviii. 9 : Eph. iv. 5 ; Mai. ii. 10. 
+
+17. Phil. ii. lfl ; ApOO. xxi. I. 86 : x\ii ."• M iL h 
+
+18. Matt. vii. 11 ; ApOO. xxii. 15 ; xxi. S ; 1 lVt. iv. 1 & 
+
+1 \n •nvjiiinus B. a Ybori i 
+
+3 so 1' Fl ■■•>rr ; DMritO < F ; i niin in uanuni H. 
+
+4 auun cv ; rau P Fi ■ nr. 
+
+fi 8C Fl .;,rr. , distriluuintur \\('Y\\ 
+• i'o F4«0fT. ; niiseic HP ; mi- 
+
+
+32 LIBRI SANCTI PATKICII 
+
+uel fumus qui utique uento dispergitur. Ifapeccatores fraudu- 
+lent! a facie Domini peribunt, iusti autem epulentur in magna 
+constantia cum Christo, iudicabunt nationes, et regibus 
+iniquis dominabuntur in saecula sseculorum, Amen. 
+
+20. Testificor coram Deo et angelis suis, quod ita erit sicut 
+intimauit imperitiae mese. Non mea uerba, sed Dei et 
+apostolorum atque prophetarum, quod ego Latinum ex- 
+posui, qui numquam enim mentiti sunt. Qui crediderit 
+salmis erit, qui uero non crediderit condempnabitur . Deus 
+locutus est. 
+
+21. Qua3SO plurimum ut quicumque famulus Dei 1 
+promptus fuerit ut sit gerulus literarum harum, ut nequa- 
+quam subtrahatur uel abscondatur 2 a nemine, sed magis 
+potius legatur coram cunctis plebibus, et prsesente ipso 
+Corotico.3 Quod si Deus inspirat illos ut quandoque Deo 
+resipiscant, ita ut uel sero poeniteant quod tarn impie 
+gesserunt — Homicida erga fratres Domini ! — et liberent 
+captiuas baptizatas quas ante ceperunt, ita ut mereantur 
+Deo uiuere, et sani efficiantur hie et in sternum. Pax 
+— Patri et Filio et Spiritui Sancto, Amen. 
+
+19. Sap. v. 15 ; Ps. lxvii. 3, 4 ; Sap. iii. 8. 
+
+20. 1 Tim. v. 21 ; Marc. xvi. 16. 
+
+1 ins. ut CF. 2 om. uel abscondatur BCF. 3 Coritico P. 
+
+
+BILLING AND SONS, LTD., PRINTERS, GUILDFORD, ENGLAND 
+
+
+K.J Ks -> 
+
+
+TEXTS FOR STUDE 
+
+General Editors j CAROLINE A. J. SKFE 
+H. J. WHITE, D.D. ; J. P. WHITNEY, B P., 
+
+
+No. 1. SELECT PASSAGES 
+
+FROM JOSEPHUS. TACITUS, 
+SUETONIUS, DIO GASSIUS. Illus- 
+trative of Christian y i n th e First Centur) 
+Arranged by H. J. WHITE, D.D. 3d net. 
+
+No. 2. SELECTIONS FROM 
+MATTHEW PARIS, 
+
+Arranged by C. A. J. SKEBL, D Lit 
+
+9d. net. 
+
+No. 3. SELECTIONS FROM 
+
+GIRALDUS CAMBRENSIS. 
+
+Arranged by C. A. J. SKBEL, HJ.it. 
+
+9d. net. 
+
+No. 4. LIBRI SANCTI PATRICIL 
+
+The Latin Writings of St. Patrick, etc. 
+Edited by NEWPORT J. D. WHITE, D.D. 
+
+.,' H 6d. net. 
+
+No. 5. A TRANSLATION OF THE 
+LATIN WRITINGS OF ST. 
+PATRICK. 
+
+By NEWPORT J. D. WHITE, D.D. 6d.net 
+
+
+LONDON 
+SOCIETY FOR PROMOTING CHRISTIAN KNOWLEDGE 
+
+
+BQ Patrick, Saint, 373?-463? 
+
+6159* Libri Sancti Patricn 
+
+A7 
+
+A2 
+
+1918 
+
+IMS 
+
+

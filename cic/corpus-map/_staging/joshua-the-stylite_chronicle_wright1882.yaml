@@ -27,3 +27,15 @@ assignments:
       own core territory, whatever the chronicler's own confession) or
       stays `context` (an outside civic record, like the Chronicle of
       Edessa) is a live open question for Doc_02, not resolved here.
+
+  - row_id: joshua-the-stylite_chronicle_wright1882--armenians-fire-temples-kawad
+    work: "Chronicle XX-XXI: the Armenians under Kawad destroy the Persian fire-temples (c. 491)"
+    author: joshua-the-stylite
+    locus: "file lines ~1060-1105; quoted at ~1097-1101"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+    role: context
+    confidence: assigned
+    note: >
+      A contemporary Syriac witness to Armenian resistance to Persian fire-worship forty
+      years after Avarayr.

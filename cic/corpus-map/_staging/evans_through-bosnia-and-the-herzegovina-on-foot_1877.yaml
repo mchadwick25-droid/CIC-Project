@@ -1,0 +1,14 @@
+source_file: evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt
+assignments:
+- row_id: evans_through-bosnia-and-the-herzegovina-on-foot_1877--through-bosnia-and-the-herzegovina-on-foot-evans-1877-the
+  work: 'Through Bosnia and the Herzegovina on foot (Evans, 1877): the Historical Review of Bosnia'
+  author: evans
+  locus: from file line 972; Krstjani self-name 1479; Djed, Strojniks 1566
+  atlas_ids:
+  - the-bosnian-church
+  role: context
+  confidence: assigned
+  note: A Victorian traveller's history of Bosnia that presents the church as a Bogomil one and records
+    the names krstjani, djed and strojnik from the sources he knew. English and clean. The Bogomil reading
+    is the one since rejected; use it for the old view and as an English summary of what the older scholars
+    said.

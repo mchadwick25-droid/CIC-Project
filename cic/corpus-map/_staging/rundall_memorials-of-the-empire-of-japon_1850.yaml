@@ -6,7 +6,7 @@ assignments:
     author: rundall
     locus: "Rundall's Introduction from file line 1317; Part I 'The Kingdome of Japonia' from line 2767; Part II 'Letters of William Adams' from line 3391, letters numbered as printed; the Hakluyt Society report and member list before line 1209 are not the work"
     atlas_ids:
-      - mission-born-christianities-kirishitan-japan-kon
+      - kirishitan-japan
     role: context
     confidence: assigned
     note: >

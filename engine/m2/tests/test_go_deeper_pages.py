@@ -167,15 +167,27 @@ def test_no_script_puts_a_code_or_reference_in_the_console_or_the_page_address()
         assert "console." not in (SITE / name).read_text(), name
 
 
-def test_the_buy_buttons_stay_off_until_a_payment_link_is_set():
+def test_the_buy_buttons_start_hidden_and_the_page_script_opens_them_for_the_set_links():
     html = (SITE / "go-deeper.html").read_text()
-    assert 'var PAYMENT_LINKS = {"1": "", "2": "", "3": ""};' in html
     assert re.search(r'id="state-open" hidden', html)
     for pack in ("1", "2", "3"):
         assert re.search(rf'<button[^>]*id="buy-pack-{pack}"[^>]*hidden>', html), pack
-    assert "https://buy.stripe.com" not in html.split("PAYMENT_LINKS = ")[1].split(";")[0]
 
 
+def test_each_pack_has_its_own_stripe_payment_link_in_price_order():
+    html = (SITE / "go-deeper.html").read_text()
+    block = html.split("var PAYMENT_LINKS = ")[1].split("};")[0]
+    links = dict(re.findall(r'"(\d)": "(https://buy\.stripe\.com/[A-Za-z0-9]+)"', block))
+    assert links == {
+        "1": "https://buy.stripe.com/14AeV6bbR1Ro9P69bT8bS02",
+        "2": "https://buy.stripe.com/28E9AM4Nt7bI0ew0Fn8bS03",
+        "3": "https://buy.stripe.com/aFa6oA93J0Nk1iA87P8bS04",
+    }
+
+
+def test_the_page_makes_no_promise_about_accounts_until_accounts_exist():
+    text = " ".join(_text("go-deeper.html"))
+    assert not re.search(r"your home|with an account", text, re.I)
 
 
 def test_the_page_stays_closed_with_no_link_set():
@@ -308,15 +320,22 @@ def test_the_privacy_page_go_deeper_words_read_at_the_target_level_and_name_no_m
     assert score_turn(text).passed, score_turn(text).failures
     assert not re.search(r"[$€£]|\d+\s*%", text)
     assert "30 days" in text and "14 more days" in text and "90 days" in text
-    assert "sells nothing" in text and "any payment" in text
+    assert "we never see your card details" in text and "nothing here is for sale" not in text
     assert "only a count of each answer" in text and "not linked to you or to your code" in text
     assert "network address" in text and "scrambled" in text
 
 
-def test_the_privacy_page_names_no_payment_service_or_purchase_in_the_go_deeper_section():
+def test_the_privacy_page_tells_what_a_purchase_keeps_and_how_long():
     html = (SITE / "privacy.html").read_text()
     section = html[html.index('id="go-deeper"'):html.index('id="retention"')]
-    assert not re.search(r"Stripe|payment ID|refund|you pay|purchase", section, re.I)
+    text = " ".join(_text_of("<main>" + section + "</main>"))
+    assert "You pay on Stripe's own page" in text
+    assert "We keep only the payment's ID and its amount" in text and "never your name or email" in text
+    assert "deleted after 90 days" in text
+    from engine.deeper.meter import FUNDS_RETENTION_DAYS
+
+    assert FUNDS_RETENTION_DAYS == 90
+
 
 
 def test_the_privacy_page_numbers_match_the_meters_own_retention():

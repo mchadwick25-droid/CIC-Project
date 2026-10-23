@@ -1,0 +1,27 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901--mansi-sacrorum-conciliorum-collectio-tomus-32-lateran-v-and
+  work: 'Mansi, Sacrorum conciliorum collectio, tomus 32: Lateran V and the Pisan conciliabulum'
+  author: mansi
+  locus: '''CONCILIUM LATERANENSE V'' near the head of the volume and the ''CONCILIABULUM PISANUM'' acts'
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: 'The Latin acts of Fifth Lateran and the Pisan conciliabulum of 1511. Provisional: the volume
+    spans 1438-1549 and only part is in the window. Second witness for exact wording (long s read as f).'
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901--mansi-tomus-32-the-maronite-patriarch-s-letter-to-leo-x-and
+  work: 'Mansi, tomus 32: the Maronite patriarch''s letter to Leo X and the Maronite obedience at Lateran
+    V'
+  author: mansi
+  locus: whole volume
+  atlas_ids:
+  - maronite-christianity-era-6
+  role: tradition
+  confidence: assigned
+  note: 'The staging for this file puts it on the Latin papal church only. In the window of this world
+    it carries the Maronite matter: ''Mandatum patriarchae Maronitarum'' in the contents (file line 851);
+    the orator of the Maronite patriarch''s obedience (63569, 63581); ''EPISTOLA PATRIARCHAE MARONITARUM''
+    at 98303 and ''LITERA MARONITARUM AD LEONEM X'' at 98365, where ''Petrus patriarcha'' writes to Leo
+    X; and the election of the patriarch and his oath at 98633 to 98979. Read at the letter''s opening.
+    The one place a Maronite patriarch speaks in the window, in Latin. Long s read as f.'

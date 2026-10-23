@@ -1,0 +1,62 @@
+source_file: bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt
+authors_ruled:
+  bernard-gui:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file. The author is named on the title page printed in the file as 'Bernard Gui', with
+      Mollat as editor and translator. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926--manuel-de-l-inquisiteur-of-bernard-gui-tome-i-mollat-1926
+  work: 'Manuel de l''Inquisiteur of Bernard Gui, tome I (Mollat, 1926): the errors of the Beguins'
+  author: bernard-gui
+  locus: >-
+    Running heads 'ERREURS DES BEGUINS' (p. 153) and 'DE BEGUINORUM AMBIGUIS RESPONSIONIBUS' (p. 188); the Fraticelles
+    note near the Beguins section
+  atlas_ids:
+  - fraticelli-spiritual-franciscan-rigorists
+  role: context
+  confidence: assigned
+  note: >-
+    The inquisitor's own handbook on how to question the Beguins, the lay supporters of the Spirituals. Hostile
+    and institutional. Latin with a facing French translation; Latin readable. Not the movement's voice. No public-domain
+    English translation found.
+- row_id: >-
+    bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926--manuel-de-l-inquisiteur-of-bernard-gui-tome-i-mollat-1926-2
+  work: Manuel de l'Inquisiteur of Bernard Gui, tome I (Mollat, 1926)
+  author: bernard-gui
+  locus: Whole volume; sections touching Franciscans are the Beguins and Fraticelli passages only
+  atlas_ids:
+  - franciscan-order-era-6
+  role: context
+  confidence: provisional
+  note: >-
+    Placed on the Beguin and Fraticelli passages alone; most of the handbook concerns other heresies.
+- row_id: >-
+    bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926--manuel-de-l-inquisiteur-of-bernard-gui-tome-i-mollat-1926-3
+  work: >-
+    Manuel de l'Inquisiteur of Bernard Gui, tome I (Mollat, 1926): Waldensians, Cathars and other sects
+  author: bernard-gui
+  locus: Whole volume; the handbook's forms and doctrinal sections
+  atlas_ids:
+  - cathars-albigensians
+  - the-waldensians
+  role: context
+  confidence: provisional
+  note: >-
+    Placed on the handbook's subject matter without a full read. Inquisitor's view of the sects he examined.
+- row_id: bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926--bernard-gui-manuel-de-l-inquisiteur-tome-i-the-waldensian
+  work: 'Bernard Gui, Manuel de l''Inquisiteur, tome I: the Waldensian section and the Beguins'' errors'
+  author: bernard-gui
+  locus: whole volume
+  atlas_ids:
+  - waldensians-in-the-alps
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: 'Hostile inquisitor''s handbook of the 1320s. For the Alps: the section ''[DE SECTA VALDENSIUM]''
+    (file line 4807) and the passages on ''Valdensium seu Pauperum de Lugduno'' (file lines 2154-2162,
+    3411). For the Free Spirit entry: ''Erreurs des Béguins'' (p. 153) and the Beguins'' evasive answers
+    (p. 188), the template-shaped description the entry''s depositions follow. Languedoc, not the Alps;
+    Tier: same time-different-region. Already placed on the Waldensians entry (the-waldensians) by the
+    Franciscan pass.'

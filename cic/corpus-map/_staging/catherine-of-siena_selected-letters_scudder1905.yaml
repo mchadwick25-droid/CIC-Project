@@ -1,0 +1,12 @@
+source_file: catherine-of-siena_selected-letters_scudder1905.txt
+assignments:
+- row_id: catherine-of-siena_selected-letters_scudder1905--selected-letters-of-catherine-of-siena-scudder-s-translation
+  work: Selected Letters of Catherine of Siena (Scudder's translation)
+  author: catherine-of-siena
+  locus: letters to Gregory XI and Urban VI among the letters on the church and the Schism
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: assigned
+  note: Catherine's letters in English, including her letters to the popes. Selection, not the full corpus;
+    clean OCR, quotable once checked against the scan. The Italian letters are not on the shelf.

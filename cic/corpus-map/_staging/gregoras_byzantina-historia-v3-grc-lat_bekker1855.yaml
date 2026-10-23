@@ -1,0 +1,28 @@
+source_file: gregoras_byzantina-historia-v3-grc-lat_bekker1855.txt
+assignments:
+- row_id: >-
+    gregoras_byzantina-historia-v3-grc-lat_bekker1855--nikephoros-gregoras-historiae-byzantinae-libri-postremi
+  work: >-
+    Nikephoros Gregoras, Historiae Byzantinae libri postremi, Books XXV-XXXVII (1351-1359), Greek with Latin, Bonn
+    volume 3
+  author: gregoras
+  locus: Books XXV onward; Book XXVII at file line 7035, Book XXXVII at 30444
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: context
+  confidence: assigned
+  note: >-
+    The last books, first printed in 1855: the condemned anti-Palamite's account of the years after 1351, including
+    his own confinement. Sampled in Greek and Latin; not read through.
+- row_id: >-
+    gregoras_byzantina-historia-v3-grc-lat_bekker1855--nikephoros-gregoras-historiae-byzantinae-libri-postremi-2
+  work: >-
+    Nikephoros Gregoras, Historiae Byzantinae libri postremi, Books XXV-XXXVII (1351-1359), Greek with Latin, Bonn
+    volume 3
+  author: gregoras
+  locus: as above
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: context
+  confidence: provisional
+  note: Patriarchal politics 1351-1359 from a critic's side.

@@ -1,0 +1,22 @@
+source_file: nennius_history-of-the-britons-giles.txt
+
+authors_ruled:
+  nennius:
+    kind: pseudonymous
+    evidence: >
+      The Historia Brittonum is traditionally ascribed to Nennius; the attribution is itself
+      disputed, so the slug is ruled pseudonymous.
+    from_file: nennius_history-of-the-britons-giles.txt
+
+assignments:
+  - row_id: nennius_history-of-the-britons-giles--historia-brittonum
+    work: "Historia Brittonum (attrib. Nennius), English"
+    author: nennius
+    locus: "sections 1-76"
+    atlas_ids:
+      - british-welsh-christianity
+    role: transmission
+    confidence: provisional
+    note: >
+      A 9th-century Welsh compilation; late memory of the window, with the attribution to
+      Nennius disputed.

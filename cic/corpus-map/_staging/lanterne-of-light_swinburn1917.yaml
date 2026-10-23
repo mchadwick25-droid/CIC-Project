@@ -1,0 +1,14 @@
+source_file: lanterne-of-light_swinburn1917.txt
+
+assignments:
+  - row_id: lanterne-of-light_swinburn1917--the-lanterne-of-li3t-swinburn-s-edition-eets-151-middle
+    work: "The Lanterne of Li3t (Swinburn's edition, EETS 151, Middle English)"
+    author: lanterne-of-light
+    locus: "whole volume; Swinburn's introduction first"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      A Lollard tract in the movement's own English, from the early fifteenth century. Primary once
+      checked against the page images.

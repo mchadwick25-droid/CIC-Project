@@ -1,0 +1,44 @@
+source_file: collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt
+
+authors_ruled:
+  councils-of-toledo:
+    kind: anonymous
+    evidence: >
+      Conciliar acts of the Spanish Church; the collection names no individual author.
+    from_file: collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt
+
+assignments:
+  - row_id: collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808--toledo-iii-complete
+    work: "The Third Council of Toledo (589), complete acts: Reccared's statement of faith, the confession and signatures of the Gothic bishops, the anathemas and the canons"
+    author: councils-of-toledo
+    locus: "raw lines ~36800-37142"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: assigned
+    note: >
+      The kingdom's turn from Homoian to Nicene faith in the church's own acts; Latin only.
+
+  - row_id: collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808--toledo-iii-gothic-abjuration
+    work: "Toledo III, the former Homoian Gothic bishops' confession and signatures"
+    author: councils-of-toledo
+    locus: "raw lines ~37095-37142"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      The Gothic Homoian bishops' own names and abjuration, recorded by the winning side;
+      provisional.
+
+  - row_id: collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808--spanish-councils-collection
+    work: "The other councils of the Hispana collection (Toledo IV-XVII and the earlier Spanish councils)"
+    author: councils-of-toledo
+    locus: "the rest of the collection"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: provisional
+    note: >
+      The Visigothic church's legislation for itself; provisional until a build thread pins
+      the 560-711 councils.

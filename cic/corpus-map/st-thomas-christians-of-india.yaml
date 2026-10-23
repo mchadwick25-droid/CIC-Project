@@ -16,6 +16,18 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: cosmas-indicopleustes_christian-topography_mccrindle1897--books-ii-iii-adulis-aksum
+  work: Christian Topography, Books II-III (Adulis, the Aksumite king Elesbaan and the Himyarite
+    expedition; the churches of Ethiopia, Persia and India)
+  author: cosmas-indicopleustes
+  locus: Book II (raw lines ~4050-4055) and Book III (~7244-7246)
+  role: context
+  confidence: assigned
+  note: 'A merchant''s own visit to Adulis c. 525 and his survey of the churches of the Indian
+    Ocean world: the only contemporary outside witness to Aksum in English.
+
+    '
+  source_file: cosmas-indicopleustes_christian-topography_mccrindle1897.txt
 - row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-malabar-east-syriac-rite-of-the-st-thomas
   work: Liturgy of Malabar (East-Syriac rite of the St. Thomas Christians)
   author: liturgy-of-malabar

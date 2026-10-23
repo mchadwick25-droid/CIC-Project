@@ -1,0 +1,22 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt
+
+authors_ruled:
+  african-synods-646:
+    kind: anonymous
+    evidence: >
+      Mansi tom. 10 prints the African synodal letters of 646; conciliar acts, no individual
+      author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt
+
+assignments:
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901--african-synods-646
+    work: "The African synodal letters of 646 against the one-will doctrine (Byzacena, Numidia, Carthage)"
+    author: african-synods-646
+    locus: "raw lines ~456, ~957, ~964"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: tradition
+    confidence: provisional
+    note: >
+      The African church's last collective voice in the window; shared ground with the
+      Heraclian entry, so provisional.
