@@ -15,6 +15,7 @@ they do, and are left out of backups.
 
 Both files use secure_delete, so a deleted row's bytes are overwritten.
 """
+import logging
 import sqlite3
 import threading
 from dataclasses import dataclass
@@ -29,6 +30,8 @@ ACCOUNTS_TABLE = """(
   age_band      TEXT NOT NULL
 ) WITHOUT ROWID"""
 
+logger = logging.getLogger("cic.accounts")
+
 DURABLE_DDL = f"""
 DROP TABLE IF EXISTS recovery_codes;
 DROP TABLE IF EXISTS pending_changes;
@@ -39,6 +42,12 @@ CREATE TABLE IF NOT EXISTS linked_sign_ins (
   provider     TEXT NOT NULL,
   UNIQUE (account_id, provider)
 ) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS account_codes (
+  scramble   TEXT PRIMARY KEY,
+  account_id TEXT NOT NULL,
+  day_made   TEXT NOT NULL
+) WITHOUT ROWID;
+CREATE INDEX IF NOT EXISTS account_codes_by_account ON account_codes (account_id);
 CREATE TABLE IF NOT EXISTS recovery_keys (
   key_hash   TEXT PRIMARY KEY,
   account_id TEXT NOT NULL UNIQUE,
@@ -192,6 +201,64 @@ class AccountStore:
                 self._d.execute("ROLLBACK")
                 raise
             return made
+
+    # codes held ---------------------------------------------------------------
+
+    def attach_code(self, account_id: str, scramble: str, held_as: list[str], day: str, limit: int) -> str:
+        """'ok' when the code is now the account's, 'mine' when it already was, 'taken' when
+        another account holds it, 'full' when the account holds as many as it may. A code is
+        known here only by a keyed scramble of its hash, never the hash itself."""
+        marks = ",".join("?" * len(held_as))
+        with self._lock:
+            self._d.execute("BEGIN IMMEDIATE")
+            try:
+                row = self._d.execute(
+                    f"SELECT account_id FROM account_codes WHERE scramble IN ({marks})", held_as
+                ).fetchone()
+                if row is not None:
+                    outcome = "mine" if row[0] == account_id else "taken"
+                elif self._d.execute(
+                    "SELECT COUNT(*) FROM account_codes WHERE account_id = ?", (account_id,)
+                ).fetchone()[0] >= limit:
+                    outcome = "full"
+                elif self._d.execute(
+                    "INSERT OR IGNORE INTO account_codes SELECT ?, account_id, ? FROM accounts WHERE account_id = ?",
+                    (scramble, day, account_id),
+                ).rowcount == 1:
+                    outcome = "ok"
+                elif self._d.execute("SELECT 1 FROM accounts WHERE account_id = ?", (account_id,)).fetchone() is None:
+                    outcome = "gone"
+                else:
+                    outcome = "taken"
+                self._d.execute("COMMIT")
+            except BaseException:
+                self._d.execute("ROLLBACK")
+                raise
+            return outcome
+
+    def rescramble_code(self, account_id: str, old: str, new: str) -> None:
+        """Moves a held code's scramble to the current key. If the account already holds the new
+        form, the old row is simply dropped."""
+        with self._lock:
+            try:
+                self._d.execute("UPDATE account_codes SET scramble = ? WHERE scramble = ? AND account_id = ?", (new, old, account_id))
+            except sqlite3.IntegrityError:
+                logger.warning("a held code was already held under the current key; the older link is dropped")
+                self._d.execute("DELETE FROM account_codes WHERE scramble = ? AND account_id = ?", (old, account_id))
+
+    def drop_code_links(self, account_id: str, scrambles: list[str]) -> int:
+        """Removes held-code links that no longer name a live code."""
+        if not scrambles:
+            return 0
+        marks = ",".join("?" * len(scrambles))
+        with self._lock:
+            return self._d.execute(
+                f"DELETE FROM account_codes WHERE account_id = ? AND scramble IN ({marks})", (account_id, *scrambles)
+            ).rowcount
+
+    def code_scrambles_of(self, account_id: str) -> list[str]:
+        with self._lock:
+            return [r[0] for r in self._d.execute("SELECT scramble FROM account_codes WHERE account_id = ?", (account_id,))]
 
     # recovery ---------------------------------------------------------------
 
@@ -451,8 +518,9 @@ class AccountStore:
             return self._d.execute(
                 "SELECT COUNT(*) FROM (SELECT account_id FROM accounts WHERE address_hash NOT LIKE ? "
                 "UNION SELECT account_id FROM linked_sign_ins WHERE subject_hash NOT LIKE ? "
-                "UNION SELECT account_id FROM recovery_keys WHERE key_hash NOT LIKE ?)",
-                (pattern, pattern, pattern),
+                "UNION SELECT account_id FROM recovery_keys WHERE key_hash NOT LIKE ? "
+                "UNION SELECT account_id FROM account_codes WHERE scramble NOT LIKE ?)",
+                (pattern, pattern, pattern, pattern),
             ).fetchone()[0]
 
     def delete_account(self, account_id: str, ledger_hash: str, ledger_expires_on: str) -> bool:
@@ -464,6 +532,7 @@ class AccountStore:
                 self._d.execute("DELETE FROM linked_sign_ins WHERE account_id = ?", (account_id,))
                 self._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (account_id,))
                 self._d.execute("DELETE FROM pending_recoveries WHERE account_id = ?", (account_id,))
+                self._d.execute("DELETE FROM account_codes WHERE account_id = ?", (account_id,))
                 if gone:
                     self._d.execute("INSERT OR IGNORE INTO deletion_ledger VALUES (?, ?)", (ledger_hash, ledger_expires_on))
                 self._d.execute("COMMIT")
