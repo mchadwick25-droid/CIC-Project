@@ -82,8 +82,8 @@ description: >-
   The uncertainty here is disclosed, not resolved. That both formulas exist, in their own words, is
   solidly attested. The evidence that they organized much of the world is much weaker. How central a
   concern is, and how confident we can be in the evidence, are two separate things, and here they
-  diverge. So the record stays cautious about how central this actually is. The 411 Gesta, the
-  proceedings of that year, remain unread and have not reopened the question. It remains open.
+  diverge. So the record stays cautious about how central this is. The 411 Gesta, the
+  proceedings of that year, do not settle it. We have not read them in full.
 
 
   Of everything in this world, this concern connects least to the forces acting on it, and that is
@@ -103,4 +103,4 @@ manifestations:
   word "plenary" occurs 31 times in the treatise)
 classification: supporting
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 5), matching this record's own body text to Doc_04 §5's careful distinction between this candidate and Candidate 7 (phase-bound) rather than collapsing the two Persistence failures into one shape. relations[] carries the gravity<->gravity edges (G1, G3, G6) and the gravity<->force edges (1B-1, 2A-3, 2B-4) named above. See this script's own docstring, 'G5'S OWN JUDGMENT CALL,' for why this record states the project-lead-ruling provenance directly rather than presenting Supporting as this document's own settled verdict.
+Taken from Doc_04 §3 (Candidate 5). The body follows Doc_04 §5 in keeping this candidate distinct from Candidate 7 (phase-bound) rather than collapsing the two Persistence failures into one shape. relations[] carries the gravity-to-gravity edges (G1, G3, G6) and the gravity-to-force edges (1B-1, 2A-3, 2B-4) named above. The Supporting class rests on the project lead's ruling, outside the six-test evidence, and is not presented as a settled verdict of the tests.

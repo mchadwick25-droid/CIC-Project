@@ -323,11 +323,11 @@ cautions: >-
   is not a claim about which world he actually belongs to.
 
 
-  9) The rich record of the 411 Conference does not widen what it can support. In thirteen numbered
-  acts, Augustine speaks among named Donatist bishops, and each act has been counted and quoted. But
-  we still date the Conference by its ordinary, undisputed dating, not by any reading of those acts.
-  The acts are available for later use. We draw one fact from them: in a fourteenth act, he signs
-  the mandate that sent the delegates.
+  9) The rich record of the 411 Conference does not widen what it can support. In at least thirteen
+  numbered acts, Augustine speaks among named Donatist bishops. Thirteen is a floor, not a count:
+  mid-line instances and heavier garblings were not counted. We still date the Conference by its
+  ordinary, undisputed dating, not by any reading of those acts. The acts are available for later
+  use. We draw one fact from them: in one more act, he signs the mandate that sent the delegates.
 
 
   10) The modern scholarly literature on this world has not been fully surveyed. Fourteen rounds of

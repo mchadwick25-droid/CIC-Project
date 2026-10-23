@@ -13,10 +13,8 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: 'Doc_04 §3 Candidate 1: no divergence. Evidence reaches Documented -- both bishops''
-    own accounts of holding and exercising this office are directly quoted and independently re-verified
-    across Doc_01''s nine review rounds; Possidius''s Vita (Registry row 192) is explicitly excluded from
-    this Cross-Check per Doc_02 §2/§4''s own disclosed limitation that it has not been read this session
-    beyond the Megalius-consecration identification -- a citation correction, not a classification change.'
+    own accounts of holding and exercising this office are directly quoted and independently re-verified.
+    Possidius''s Vita (Registry row 192) is not part of this Cross-Check and is not counted toward it.'
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite

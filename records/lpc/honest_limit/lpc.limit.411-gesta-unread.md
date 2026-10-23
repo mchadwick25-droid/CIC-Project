@@ -26,13 +26,13 @@ statement: A conference was held in 411, between our own bishops and the rival c
   was actually argued there, bishop by bishop. That transcript has not been validly read in building this
   record. What it would show about how our own bishops, beyond Cyprian and Augustine themselves, actually
   argued authority among themselves is not something we can tell you yet.
-why_sources_cannot_answer: 'The Gesta Collationis Carthaginiensis -- the acts of the 411 Conference --
-  survives in a Migne printing this world''s own construction record names directly: ''has not been validly
-  read; two attempts were withdrawn'' (Doc_07_Integrated_Ecology_Analysis.md §7). Doc_07 §8 item 2 independently
-  confirms this bears specifically on G5''s own Repetition and Persistence tests: ''G5''s incomplete-ecology
-  shape must be carried, not resolved.'''
+why_sources_cannot_answer: 'The Gesta Collationis Carthaginiensis -- the acts of the 411 Conference -- survives
+  in a Migne printing that has not been validly read in full. Two attempts to read it were withdrawn. It
+  is closed as a persistence question: it is kept for narrow, independently checkable facts only, and it
+  is not asked to show how far G5 spread across the world. G5''s weak fit with the forces acting on the
+  world is carried, not resolved.'
 nearest_material:
 - lpc.gravity.conciliar-authority-theory
 - lpc.contested.de-unitate-recensions
 ---
-Grounded in Doc_07 §7 and §8 item 2, both read in full this session. relations[] carries one gravity edge (G5, lpc.gravity.conciliar-authority-theory) named in this script's own docstring under RECIPROCITY -- the specific gravity this unread text bears on, per Doc_07's own text. Distinguished from lpc.contested.de-unitate-recensions (a live scholarly contest over textual priority) -- this record states a build-side reading gap, not a scholarly dispute.
+Grounded in Doc_07 §7 and §8 item 6. relations[] carries one gravity edge (G5, lpc.gravity.conciliar-authority-theory), the gravity whose evidence this reading gap touches. Distinguished from lpc.contested.de-unitate-recensions (a live scholarly contest over textual priority) -- this record states a build-side reading gap, not a scholarly dispute.

@@ -52,7 +52,7 @@ description: >-
   it back to be checked against the original.
 
 
-  A century and a half later, the same awareness took another form. Near the end of his life, Augustine
+  Some 170 years on, the same awareness took a new form. Near the end of his life, Augustine
   set out to review his own works "with a certain judicial severity." He marked what displeased him "as
   with a censor's pen." It was a deliberate act of shaping what would outlast him.
 

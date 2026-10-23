@@ -1326,6 +1326,7 @@ def test_build_ledger_files_protected(tmp_path):
     for rel in (
         "Build/worlds/_cross-world/NEEDS-RULING.md",
         "Build/worlds/lpc/Doc_04_Superseded_Claims.md",
+        "Build/worlds/lpc/lpc_Claims_Register.md",
     ):
         hits = _hits_for(text, tmp_path, rel)
         assert hits[0].category == "PROTECTED", rel

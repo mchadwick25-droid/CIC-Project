@@ -2483,3 +2483,21 @@ Alternatives shown: (1) leave `lpc_Decision_Log.md` (694 KB) in `Build/worlds/lp
 ### 2026-10-23 — Rebaseline declaration amended (project lead's ruling, Phase L1)
 
 `handoff lpc` failed the declaration check because the disk holds more review files than the declaration of 2026-09-29 records (Doc_01 12 against 9, Doc_02 35 against 30, Doc_04 13 against 11, Doc_08 10 against 8). Alternatives shown: (1) amend the declaration to accept the extra files by name; (2) leave it, so checks 02 to 04 stay red until fresh approvals. Chosen: 1 (project lead, 2026-10-23, "1"; confirmed "go ahead" after the first attempt was stopped by a permission check). The amendment table in `build/lpc_Rebaseline_Declaration.md` names each file. Disclosed to the project lead before the edit: the three Doc_01 files date from 2026-09-16, before the declaration, and were missed in its count; the others are Phase L0 checks.
+
+---
+
+### 2026-10-23 — Change order CO-LPC-1: corrections and sermon scope across Step 0 and Docs 01 to 09
+
+**What it is.** One named change order to documents already Approved to proceed, carrying the project lead's rulings of 2026-10-23 and the Phase L0 and L1 findings. It is not a revision round. Drafted by two Sonnet 5.5 drafters on separate files, then checked by the build thread. Unreviewed: the targeted recheck waits on the project lead's ruling on its route, since every document it touches is past the three-file cap.
+
+**Step 0, Doc_01, Doc_02, Source Registry.** Sermon scope D1 to D5 written into Doc_01 §2 and Doc_02 (lines named in the L0 Doc_02 check); Doc_02 §7 restated to Doc_01's test; Doc_02 §3 counts and census recounted; seven Registry rows cite their corpus-map entries; Step 0 records the census status ("Selected - Not Yet Built"); the quotation attributed to the project lead in Step 0 became a paraphrase citing `ijc` Open_Gaps item 16; triage fixes 13, 16, 17, 66, 89, 94, 98, 107, 110, 120, 121, 128, 133, 148. The build thread narrowed one sentence of the drafted Doc_01 scope paragraph: the Augustine-text boundary applies to questions about Augustine, not to the whole world.
+
+**Docs 04 to 09, Force Index, generator, records.** OG-38 (Doc_04 Open Items 6 and 8 shown closed everywhere; F2 to F6); OG-40 (Doc_08's false "fixed" claims; the 2B-5 interval set to about 170 years, from Doc_08's own 258 and 430; the Doc_01 quotation restored; Gesta wording in Doc_09); the Doc_05 §0.8 crosswalk; Doc_05 §11 items 7 and 13; the stale sentences in Doc_06 §5 item 3 and Doc_07 §8 item 8; Doc_07 §8 item 9 (the gaps file exists). The generator now reads a verdict only from a `## VERDICT:` heading outside code fences; the Index regenerates byte for byte. The build thread aligned `lpc.force.illegal-to-established-shift` line 42 with Doc_08 2B-3 ("a century and a third", 258 to 391); its manifestation line keeps "a century and a half" for Augustine's later recourse to state action.
+
+**History removed from canonical files** (kept here): pinned-commit and "this session" narration in Step 0 and Doc_01; Doc_01 line 20's "status formerly reported is superseded" and "noted for the record"; Step 0's quotations of the Donatism draft wording (from Donatism commit 4f420cbb), now paraphrased; Registry row 25's old corpus-map note; Doc_02's "Row 267 only Latin witness"; Doc_08's Round 3 and 4 scan narration and its mutation-control list A to M; Doc_06's Round 2 verdicts and "nine rounds" line; Doc_05's Round 1 count line.
+
+**Checks.** `regate lpc` PASS; `claims lpc` PASS (103 registered, all UNVERIFIED); `check_live_commentary.py --enforce` exit 0; `check_paths.py` exit 0; the Force Index regenerates identically. `citations lpc` (10) and `records lpc` (19) fail with the same counts before and after Docs 04 to 09 were edited.
+
+**Tool change.** `tools/check_live_commentary.py` now treats `*_Claims_Register.md` as a ledger, like `*_Superseded_Claims.md`, because the register must copy each claim's text verbatim; test added; 227 tests pass.
+
+**Left open** (OG-50).

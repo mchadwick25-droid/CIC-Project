@@ -1722,3 +1722,15 @@ Logged 2026-10-23 from `Review-Artifacts/Doc09_Acta_Proconsularia_Read_lpcstory0
 - **Correction 2.** Registry row 41's "strictly documentary" for the Acta is not supported: the vendored text carries Christian framing.
 - **Tier.** The note recommends retelling the story at Tier 1 on what Pontius and the Acta both attest, with the alternatives of keeping Tier 3 with corrections or splitting it in two. Put to the project lead.
 - **Owner.** The project lead for the tier route; then the `lpc` build thread, by Doc_09 change order with an independent check.
+
+### OG-50. Change order CO-LPC-1: items not done, and its review route (2026-10-23).
+
+Logged 2026-10-23 (Decision Log entry "Change order CO-LPC-1").
+
+- **Review route.** Every document the change order touches is past the cap of three review files. Its targeted recheck needs a Cap ruling from the project lead. Open.
+- **Doc_08 line ~399.** A "re-verified" claim was not re-run against source.
+- **The five `cic-build-cycle` quotations** (Step 0 lines ~161 and ~163, Doc_01 lines ~3 and ~190) quote the installed skill; the repository copy is worded differently. Quote the repository copy exactly or paraphrase.
+- **Doc_01 §8 item 11** is partly stale after the paraphrase of the Donatism-draft quotations.
+- **For the Library thread:** the corpus map says "fourteen" acts of the 411 Conference where Registry row 65 says thirteen; Monceaux tome VII and the Council of Arles (314) canons have no Registry row.
+- **`citations lpc` (10 findings) and `records lpc` (19)** predate the change order; the records findings are spoken-scaffolding text in witness records. To be cleared in Phase L2.
+- **Owner.** The project lead for the route; the `lpc` build thread for the rest; the Library for its two items.
