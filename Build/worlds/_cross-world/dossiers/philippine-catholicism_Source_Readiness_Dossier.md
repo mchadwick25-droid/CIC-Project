@@ -6,12 +6,12 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Corpus-map slug:** `philippine-catholicism` (census continues as `philippine-catholicism-era-8`, 1650-1815, then `philippine-catholicism-gomburza-to-aglipay`, 1815-1906)
 **Time window:** 1565-1650
 **Region(s):** Philippines (Greater Asia)
-**Dossier author / date:** source-research thread, one-world library agent, 2026-10-16; finished 2026-10-23 after a usage-limit stop
-**Corpus-map / `cic/texts/` state as of:** 2026-10-23. No `cic/corpus-map/philippine-catholicism.yaml` bucket exists yet. Ten files are vendored and staged in `cic/corpus-map/_staging/` (see §1); they await the lead's registry and staging merge.
+**Dossier author / date:** source-research thread, one-world library agent, October 2026; finished October 2026 after a usage-limit stop
+**Corpus-map / `cic/texts/` state as of:** October 2026. No `cic/corpus-map/philippine-catholicism.yaml` bucket exists yet. Ten files are vendored and staged in `cic/corpus-map/_staging/` (see §1); they await the lead's registry and staging merge.
 
 ## 1. Already assigned
 
-Nothing was merged before this pass. The ten files below were vendored and staged on 2026-10-16. The "scale" column is the body word count of the vendored file.
+Nothing was merged before this pass. The ten files below were vendored and staged on October 2026. The "scale" column is the body word count of the vendored file.
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
@@ -34,7 +34,7 @@ Rights notes. The B&R volumes and Morga English are Gutenberg transcriptions of 
 
 ## 2. Cross-link opportunities
 
-Checked 2026-10-16 by searching the vendored corpus for "Philippin", "Manila", "Tagalog", "Luzon", "Legazpi" and opening the hits.
+Checked October 2026 by searching the vendored corpus for "Philippin", "Manila", "Tagalog", "Luzon", "Legazpi" and opening the hits.
 
 - **Institutum Societatis Iesu, vol. 1 (1892).** `society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt`, lines 51400, 53788, 53892 name the Philippines and Manila. Lives in the Society of Jesus bucket. Tier: same time-different-region. Matching lines only were read. A provisional row is in `crosslink_fragment.yaml`.
 - **Francis Xavier, Life and Letters (Coleridge 1872), vol. 1.** Lines 19818 to 22816 mention the Philippines as geography around the Moluccas mission. Passing references, no row proposed. Tier: same time-different-region.
@@ -48,23 +48,23 @@ Each row was checked on archive.org or Gutenberg by metadata fetch. Vendored row
 
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| Labor evangelica, Tomos II and III (Pastells ed.) | Francisco Colin, S.J. | none (Spanish) | 1900 | archive.org `laborevangelicam02coli`, `laborevangelicam03coli` | pd-us-by-date (1900 imprint; no host rights field). Google scans of the same edition `laborevangelica00pastgoog` and `laborevangelica00chirgoog` are NOT_IN_COPYRIGHT | metadata fetched; Tomo I opened and sampled; II and III not opened, 2026-10-16. Not vendored for scale (about 4.5M to 5.4M characters each). |
-| The Philippine Islands, Vols. XXIII-XXIV (Medina, Augustinian history, 1630) | Juan de Medina, O.S.A. | Blair and Robertson | 1905 | gutenberg #16451, #18102 | pd-us-by-date; Gutenberg declaration | files fetched, contents tables read, 2026-10-16. Not vendored: the Augustinian chronicle is the best remaining inside voice for the Augustinians; a build may want it. |
-| The Philippine Islands, Vol. XXXV (Dominican, Recollect and early Franciscan missions) | Santa Cruz, Juan de la Concepcion, others | Blair and Robertson | 1906 | gutenberg #45101 | pd-us-by-date; Gutenberg declaration | file fetched, contents table read, 2026-10-16. Not vendored. |
-| The Philippine Islands, Vols. XXX-XXXII (Aduarte, Dominican history) | Diego Aduarte, O.P. | Blair and Robertson | 1906 | archive.org `thephilippineisl39054gut`, `thephilippineisl42399gut`, `thephilippineisl42458gut` | NOT_IN_COPYRIGHT (host field) | metadata only, 2026-10-16. Not vendored. |
-| Chronicas de la apostolica Provincia de S. Gregorio (Franciscans) | Juan Francisco de San Antonio, O.F.M. | none (Spanish) | 1738 | archive.org `chronicasdelaapo00sana` (also `_0`, `_1`) | pd-us-by-date (1738 imprint) | OCR sampled at five points: long s read as f, second witness only, 2026-10-16. Not vendored. |
-| Sucesos de las Islas Filipinas (Retana 1909) | Antonio de Morga | W. E. Retana (ed.) | 1909 | archive.org `sucesosdelasisla00morg_0` | pd-us-by-date (1909 imprint) | five-point sample readable, 2026-10-16. Not vendored: Rizal 1890 is the clean Spanish already in. |
-| Sucesos de las islas Filipinas (Mexico 1609, original print) | Antonio de Morga | none | 1609 | archive.org `sucesosdelasisla00morg` (John Carter Brown Library) | pd-us-by-date | metadata only, 2026-10-16. Not vendored. |
-| Historia de la Provincia de Philipinas de la Compania de Jesus, segunda parte | Pedro Murillo Velarde, S.J. | none (Spanish) | 1749 | archive.org `historiadelaprov00muri` | pd-us-by-date | metadata only, 2026-10-16. Out of window in composition; not vendored. |
-| La primera imprenta en Filipinas (with Tomas Pinpin material) | Manuel Artigas y Cuerva | none | 1910 | archive.org `apz3238.0001.001.umich.edu`, `adr6689.0001.001.umich.edu` | pd-us-by-date (1910 imprint) | metadata only, 2026-10-16. Not vendored: scholarship on the first press with printed appendices. |
-| Vocabulario de la lengua tagala | Juan de Noceda and Pedro de Sanlucar | none | 1860 reprint of 1754 | archive.org `vocabulariodela00sanlgoog` | NOT_IN_COPYRIGHT (host field) | metadata only, 2026-10-16. A dictionary, not a voice; not vendored. |
+| Labor evangelica, Tomos II and III (Pastells ed.) | Francisco Colin, S.J. | none (Spanish) | 1900 | archive.org `laborevangelicam02coli`, `laborevangelicam03coli` | pd-us-by-date (1900 imprint; no host rights field). Google scans of the same edition `laborevangelica00pastgoog` and `laborevangelica00chirgoog` are NOT_IN_COPYRIGHT | metadata fetched; Tomo I opened and sampled; II and III not opened, October 2026. Not vendored for scale (about 4.5M to 5.4M characters each). |
+| The Philippine Islands, Vols. XXIII-XXIV (Medina, Augustinian history, 1630) | Juan de Medina, O.S.A. | Blair and Robertson | 1905 | gutenberg #16451, #18102 | pd-us-by-date; Gutenberg declaration | files fetched, contents tables read, October 2026. Not vendored: the Augustinian chronicle is the best remaining inside voice for the Augustinians; a build may want it. |
+| The Philippine Islands, Vol. XXXV (Dominican, Recollect and early Franciscan missions) | Santa Cruz, Juan de la Concepcion, others | Blair and Robertson | 1906 | gutenberg #45101 | pd-us-by-date; Gutenberg declaration | file fetched, contents table read, October 2026. Not vendored. |
+| The Philippine Islands, Vols. XXX-XXXII (Aduarte, Dominican history) | Diego Aduarte, O.P. | Blair and Robertson | 1906 | archive.org `thephilippineisl39054gut`, `thephilippineisl42399gut`, `thephilippineisl42458gut` | NOT_IN_COPYRIGHT (host field) | metadata only, October 2026. Not vendored. |
+| Chronicas de la apostolica Provincia de S. Gregorio (Franciscans) | Juan Francisco de San Antonio, O.F.M. | none (Spanish) | 1738 | archive.org `chronicasdelaapo00sana` (also `_0`, `_1`) | pd-us-by-date (1738 imprint) | OCR sampled at five points: long s read as f, second witness only, October 2026. Not vendored. |
+| Sucesos de las Islas Filipinas (Retana 1909) | Antonio de Morga | W. E. Retana (ed.) | 1909 | archive.org `sucesosdelasisla00morg_0` | pd-us-by-date (1909 imprint) | five-point sample readable, October 2026. Not vendored: Rizal 1890 is the clean Spanish already in. |
+| Sucesos de las islas Filipinas (Mexico 1609, original print) | Antonio de Morga | none | 1609 | archive.org `sucesosdelasisla00morg` (John Carter Brown Library) | pd-us-by-date | metadata only, October 2026. Not vendored. |
+| Historia de la Provincia de Philipinas de la Compania de Jesus, segunda parte | Pedro Murillo Velarde, S.J. | none (Spanish) | 1749 | archive.org `historiadelaprov00muri` | pd-us-by-date | metadata only, October 2026. Out of window in composition; not vendored. |
+| La primera imprenta en Filipinas (with Tomas Pinpin material) | Manuel Artigas y Cuerva | none | 1910 | archive.org `apz3238.0001.001.umich.edu`, `adr6689.0001.001.umich.edu` | pd-us-by-date (1910 imprint) | metadata only, October 2026. Not vendored: scholarship on the first press with printed appendices. |
+| Vocabulario de la lengua tagala | Juan de Noceda and Pedro de Sanlucar | none | 1860 reprint of 1754 | archive.org `vocabulariodela00sanlgoog` | NOT_IN_COPYRIGHT (host field) | metadata only, October 2026. A dictionary, not a voice; not vendored. |
 
 ## 4. Checked and closed
 
 | candidate | why it looked promising | why it's closed |
 |---|---|---|
 | Earliest pasyon text (Aquino de Belen, 1704) | The census names the pasyon as the world's inside voice | The earliest surviving text is 1704, after the window (the census says so). The only copy found is the 1760 Manila print (`magapanalagingpa00vill`), vendored as a second witness for the Era-8 entry. No 1704 scan found on archive.org (searches on "pasion", "pasyon", "Belen", "tagalog"). |
-| Blancas de San Jose, Memorial de la vida cristiana (1605) | Named in the brief as a Tagalog catechetical text | archive.org search on "blancas" returned only unrelated items (court records, a Spanish chronicle of Aragon). No scan found, 2026-10-16. |
+| Blancas de San Jose, Memorial de la vida cristiana (1605) | Named in the brief as a Tagalog catechetical text | archive.org search on "blancas" returned only unrelated items (court records, a Spanish chronicle of Aragon). No scan found, October 2026. |
 | Plasencia's Spanish originals and his Doctrina | The census names Plasencia as a catechism author | Plasencia survives here only in B&R's English (Vol. VII, and the Pampangas appendix in Vol. XVI). archive.org search on "plasencia" with Tagalog/Filipinas terms found only Paterno's *Los Tagalog* (1894, scholarship). No Spanish manuscript edition found. |
 | Ribadeneira, Historia de las islas del archipielago filipino (1601) | Named in the brief | The only scan found (`historiadelasisl00riba`) is the Madrid 1947 transcription of the 1601 print. A 1947 Spanish publication is foreign and post-1930, so in copyright; also, access rights not checked further. Not vendorable. The 1601 print was not found on archive.org. |
 | Blair and Robertson, Vol. XV and XVI separately | Morga's Sucesos sits in series vols. XV-XVI | The Gutenberg item for vol. 15 did not appear in the search lists; the separate 1907 Morga issue (gutenberg #7001) carries the same text and was vendored instead. The Plasencia Pampangas appendix of vol. XVI is not in that issue; Gutenberg #15157 holds it and is a lead, unvendored. |

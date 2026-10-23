@@ -10,8 +10,8 @@ sources run to 1664 (Léger) and 1689 (Boyer))
 **Region(s):** the Alpine valleys of Piedmont (Savoy) and Dauphiné (France),
 with the Provençal Vaudois to 1545
 **Dossier author / date:** library/source-research thread, Era VII session,
-world VI.10 agent, 2026-10-16
-**Corpus-map / `cic/texts/` state as of:** 2026-10-16, branch
+world VI.10 agent, October 2026
+**Corpus-map / `cic/texts/` state as of:** October 2026, branch
 `library/era-vii-2026-10`. No `cic/corpus-map/the-waldensian-reformed-union.yaml`
 existed before this pass; the seven staging files below are written and pass
 `corpus_map_merge.py --check` (24 assignments across 6 Atlas entries), not
@@ -100,25 +100,25 @@ or Piemont was listed and the hits read.
 
 All seven vendored editions were verified on the Internet Archive item
 (metadata fetched, full text fetched and sampled at five points, title page
-read in the OCR) on 2026-10-16. Rows for each are in `seed_fragment.yaml`.
+read in the OCR) on October 2026. Rows for each are in `seed_fragment.yaml`.
 
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| The History of the Evangelical Churches of the Valleys of Piemont | Samuel Morland | none (English) | 1658 | `archive.org/details/historyofevangel00morl` | pd-us-by-date; item carries no rights field, no access restriction; Princeton copy | direct fetch, metadata and OCR title page, 2026-10-16. VENDORED. |
-| Histoire ecclésiastique des Églises Vaudoises, tomes I–II | Pierre Gilles | none (French) | 1881 (of 1644) | `histoireecclesia01gill`, `histoireecclesia02gill` | pd-us-by-date; no rights field; Princeton copies | direct fetch of both, 2026-10-16. VENDORED. |
-| Histoire générale des Églises Évangéliques des Vallées de Piémont, livres I–II | Jean Léger | none (French) | 1669 | `bub_gb_kzsAtn028N8C` (Book I), `bub_gb_Yf_DYoc9lb0C` (Book II) | pd-us-by-date; Public Domain Mark on both; National Library of Naples | direct fetch of both, 2026-10-16; the two scans are the two Books of one printing. VENDORED. |
-| Histoire des Vaudois (Part I) | Jean Paul Perrin | none (French) | 1619 | `bub_gb_i-OELQwHc4IC` | pd-us-by-date; Public Domain Mark | direct fetch, 2026-10-16; body ends with Part I. VENDORED. |
-| History of the Ancient Christians inhabiting the Valleys of the Alps | Perrin; Boyer (Part III) | the 1624 translation, reprinted | 1847 | `historyancientc00boyegoog` | pd-us-by-date; NOT_IN_COPYRIGHT; NYPL copy | direct fetch, 2026-10-16. VENDORED. |
-| Histoire ecclésiastique des Églises Réformées ... autrefois appelées Églises Vaudoises (the 1644 original) | Pierre Gilles | none | 1644 | `bub_gb_v8j3OAjFNOoC`; a 1655 Geneva printing at `bub_gb_3bpEABVwNjwC` | pd-us-by-date; Public Domain Mark; National Central Library of Rome | direct fetch and sample, 2026-10-16. Not vendored: long s as f, broken words; the 1881 text is clean. Lead for checking a quote against the first printing. |
-| Luthers fore-runners (the 1624 English Perrin, all three parts) | Perrin | catalogued as Samuel Lennard (not read off the OCR) | 1624 | `bim_early-english-books-1475-1640_luthers-fore-runners-_perrin-jean-paul_1624` | pd-us-by-date; no rights field | direct fetch and sample, 2026-10-16. Not vendored: 16,302 long-s glyphs and many broken words; the 1847 reprint is clean. |
-| The History of the Vaudois | Pierre Boyer | none | 1692 | `bim_early-english-books-1641-1700_the-history-of-the-vaudo_boyer-pierre_1692_0` | pd-us-by-date; no rights field | metadata only, 2026-10-16. Not vendored: the 1847 volume carries it. |
-| An Account of the late persecution of the Protestants in the vallys of Piemont ... 1686 | anonymous | none | 1688 | `accountoflateper00unse` | pd-us-by-date; no rights field; Princeton copy | metadata only, 2026-10-16. After the main window. |
-| History of the Waldenses of Italy, from their origin to the Reformation | Emilio Comba | Teofilo E. Comba | 1889 | `historyofwaldens00comb` (also `cu31924029440512`) | pd-us-by-date; no rights field | direct fetch and sample, 2026-10-16. Secondary; no Chanforan text in it. |
-| The Israel of the Alps, 2 vols. | Alexis Muston | John Montgomery | 1875 (1866 first ed. `israelalpsacomp01mustgoog`; 1852 Hazlitt tr. `israelalpsahist00mustgoog`) | `israelofalpscomp01must`, `israelofalpscomp02must` | pd-us-by-date; no rights field | direct fetch and sample, 2026-10-16. Secondary. |
-| Waldensian researches during a second visit to the Vaudois of Piemont | W. S. Gilly | none | 1831 (1824 Narrative: `narrativeofexcur00gill`) | `waldensianresear00gill` | pd-us-by-date; no rights field | direct fetch and sample, 2026-10-16. Secondary, out of window. |
-| The Olivetan Bible (French, 1535) | Pierre Robert Olivétan | — | 1535 | `olivetan`; `bible_olivetan_1535` (stated as from e-rara.ch) | Public Domain Mark on both | metadata only, 2026-10-16; file lists not checked for a text derivative. Out of scale for the corpus; only the preface and dedication would serve a build. |
-| Some remarks upon the ecclesiastical history of the ancient churches of Piedmont | Pierre Allix | none | 1690 (Oxford 1821 reprint `someremarksupone00alliuoft`, NOT_IN_COPYRIGHT) | `someremarksupone00alli_0` (1690) | pd-us-by-date | metadata only, 2026-10-16. Antiquity polemic; serves the medieval entries, if anything. |
-| A history of the Vaudois church from its origin | Antoine Monastier | — | 1846 (French 1847 `histoiredelglis01monagoog`) | `historyofvaudois00monauoft` | pd-us-by-date; NOT_IN_COPYRIGHT | metadata only, 2026-10-16. Secondary. |
+| The History of the Evangelical Churches of the Valleys of Piemont | Samuel Morland | none (English) | 1658 | `archive.org/details/historyofevangel00morl` | pd-us-by-date; item carries no rights field, no access restriction; Princeton copy | direct fetch, metadata and OCR title page, October 2026. VENDORED. |
+| Histoire ecclésiastique des Églises Vaudoises, tomes I–II | Pierre Gilles | none (French) | 1881 (of 1644) | `histoireecclesia01gill`, `histoireecclesia02gill` | pd-us-by-date; no rights field; Princeton copies | direct fetch of both, October 2026. VENDORED. |
+| Histoire générale des Églises Évangéliques des Vallées de Piémont, livres I–II | Jean Léger | none (French) | 1669 | `bub_gb_kzsAtn028N8C` (Book I), `bub_gb_Yf_DYoc9lb0C` (Book II) | pd-us-by-date; Public Domain Mark on both; National Library of Naples | direct fetch of both, October 2026; the two scans are the two Books of one printing. VENDORED. |
+| Histoire des Vaudois (Part I) | Jean Paul Perrin | none (French) | 1619 | `bub_gb_i-OELQwHc4IC` | pd-us-by-date; Public Domain Mark | direct fetch, October 2026; body ends with Part I. VENDORED. |
+| History of the Ancient Christians inhabiting the Valleys of the Alps | Perrin; Boyer (Part III) | the 1624 translation, reprinted | 1847 | `historyancientc00boyegoog` | pd-us-by-date; NOT_IN_COPYRIGHT; NYPL copy | direct fetch, October 2026. VENDORED. |
+| Histoire ecclésiastique des Églises Réformées ... autrefois appelées Églises Vaudoises (the 1644 original) | Pierre Gilles | none | 1644 | `bub_gb_v8j3OAjFNOoC`; a 1655 Geneva printing at `bub_gb_3bpEABVwNjwC` | pd-us-by-date; Public Domain Mark; National Central Library of Rome | direct fetch and sample, October 2026. Not vendored: long s as f, broken words; the 1881 text is clean. Lead for checking a quote against the first printing. |
+| Luthers fore-runners (the 1624 English Perrin, all three parts) | Perrin | catalogued as Samuel Lennard (not read off the OCR) | 1624 | `bim_early-english-books-1475-1640_luthers-fore-runners-_perrin-jean-paul_1624` | pd-us-by-date; no rights field | direct fetch and sample, October 2026. Not vendored: 16,302 long-s glyphs and many broken words; the 1847 reprint is clean. |
+| The History of the Vaudois | Pierre Boyer | none | 1692 | `bim_early-english-books-1641-1700_the-history-of-the-vaudo_boyer-pierre_1692_0` | pd-us-by-date; no rights field | metadata only, October 2026. Not vendored: the 1847 volume carries it. |
+| An Account of the late persecution of the Protestants in the vallys of Piemont ... 1686 | anonymous | none | 1688 | `accountoflateper00unse` | pd-us-by-date; no rights field; Princeton copy | metadata only, October 2026. After the main window. |
+| History of the Waldenses of Italy, from their origin to the Reformation | Emilio Comba | Teofilo E. Comba | 1889 | `historyofwaldens00comb` (also `cu31924029440512`) | pd-us-by-date; no rights field | direct fetch and sample, October 2026. Secondary; no Chanforan text in it. |
+| The Israel of the Alps, 2 vols. | Alexis Muston | John Montgomery | 1875 (1866 first ed. `israelalpsacomp01mustgoog`; 1852 Hazlitt tr. `israelalpsahist00mustgoog`) | `israelofalpscomp01must`, `israelofalpscomp02must` | pd-us-by-date; no rights field | direct fetch and sample, October 2026. Secondary. |
+| Waldensian researches during a second visit to the Vaudois of Piemont | W. S. Gilly | none | 1831 (1824 Narrative: `narrativeofexcur00gill`) | `waldensianresear00gill` | pd-us-by-date; no rights field | direct fetch and sample, October 2026. Secondary, out of window. |
+| The Olivetan Bible (French, 1535) | Pierre Robert Olivétan | — | 1535 | `olivetan`; `bible_olivetan_1535` (stated as from e-rara.ch) | Public Domain Mark on both | metadata only, October 2026; file lists not checked for a text derivative. Out of scale for the corpus; only the preface and dedication would serve a build. |
+| Some remarks upon the ecclesiastical history of the ancient churches of Piedmont | Pierre Allix | none | 1690 (Oxford 1821 reprint `someremarksupone00alliuoft`, NOT_IN_COPYRIGHT) | `someremarksupone00alli_0` (1690) | pd-us-by-date | metadata only, October 2026. Antiquity polemic; serves the medieval entries, if anything. |
+| A history of the Vaudois church from its origin | Antoine Monastier | — | 1846 (French 1847 `histoiredelglis01monagoog`) | `historyofvaudois00monauoft` | pd-us-by-date; NOT_IN_COPYRIGHT | metadata only, October 2026. Secondary. |
 
 **No public-domain English exists for Gilles or Léger.** Neither work was
 ever translated in full; the archive.org creator and title searches returned

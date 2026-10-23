@@ -2,7 +2,7 @@ Title: Diary of Lady Margaret Hoby, 1599-1605
 Creator: Margaret Hoby, Lady (1570/71-1633) (Dorothy M. Meads, editor, with introduction and notes)
 Publisher: Houghton Mifflin Company, Boston and New York (printed in Great Britain; the US issue of the London edition)
 Publication Date: 1930
-Rights: Public Domain (published 1930; the 95-year US term elapsed 2026-01-01, pd-us-by-date, independent of renewal status)
+Rights: Public Domain (published 1930; public domain by date, pd-us-by-date)
 Source: Internet Archive item diaryofladymarga00hoby, file diaryofladymarga00hoby_djvu.txt, fetched directly by the library/source-research thread (Era VII session), 2026-10-16; host rights statement: the item metadata carries no possible-copyright-status field (contributor Boston Public Library, collection americana); rights rest on the 1930 imprint read in the OCR (file lines 107-116: HOUGHTON MIFFLIN COMPANY / 1930 / PRINTED IN GREAT BRITAIN).
 Provenance note: Header prepended; the OCR text follows unchanged apart from long-s (U+017F) to s, 0 replacements (none were present). Rights basis restated: a 1930 publication is public domain in the United States by date as of 1 January 2026.
 Content note: Whole volume: editor's introduction (from line 351), the diary text itself (heading THE DIARY (B.M. MS. Egerton 2614) at line 3349, entries bracketed by day, from Thursday 9 August 1599 to the last surviving entry in 1605 at about line 13269), then the editor's notes and index. OCR sampled at 10/30/50/70/90 per cent and found clean; the diary's own spelling (wt, yt, praier) is the edition's, not an OCR fault; footnote numbers are run into the text.

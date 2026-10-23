@@ -1,7 +1,3 @@
-# Vendored for the Huguenots (Atlas VI.6) by the Era VII library session,
-# 2026-10-16, per that world's Source Readiness Dossier. The scan holds
-# both volumes of Quick's 1692 Synodicon; the OCR is readable but
-# letter-noisy (see the file's own intake header).
 source_file: quick_synodicon-in-gallia-reformata_1692.txt
 
 authors_ruled:

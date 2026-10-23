@@ -1,10 +1,3 @@
-# Vendored for the Huguenots (Atlas VI.6) by the Era VII library session,
-# 2026-10-16. Tome 1 only (Livres I-IV, 1521 to 1561) of the Baum/Cunitz
-# reprint of the anonymous Antwerp 1580 edition; tomes 2-3 are verified
-# leads (archive.org histoireecclsi02bz, histoireecclsi03bz). The OCR
-# renders the reprinted 1580 typography's long s as f, so this is a
-# second witness for exact wording (see the intake header). The author
-# slug `beza` is the one already in use for beza_job-expounded_legatt1589.
 source_file: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt
 
 assignments:

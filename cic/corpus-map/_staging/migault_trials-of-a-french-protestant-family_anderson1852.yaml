@@ -1,7 +1,3 @@
-# Vendored for the Huguenots (Atlas VI.6) by the Era VII library session,
-# 2026-10-16. English translation (1852) of an earlier printed French text
-# of Migault's journal; the 1910 French from the manuscript is vendored
-# beside it and is the primary wording.
 source_file: migault_trials-of-a-french-protestant-family_anderson1852.txt
 
 assignments:

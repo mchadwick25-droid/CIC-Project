@@ -1,8 +1,3 @@
-# Vendored for the Huguenots (Atlas VI.6) by the Era VII library session,
-# 2026-10-16. Tome 1 (the memoirs) of de Witt's 1868-69 edition; tome 2
-# (letters and the editor's Notice) is a verified lead, archive.org
-# mmoiresdemadam02mornuoft. The English translation (Crump 1926) is
-# vendored beside it.
 source_file: mornay-charlotte_memoires-de-madame-de-mornay-t1-fra_de-witt1868.txt
 
 assignments:

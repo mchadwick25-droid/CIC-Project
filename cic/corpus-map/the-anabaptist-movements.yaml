@@ -52,8 +52,8 @@ works:
   confidence: assigned
   note: 'The Swiss Reformed confession''s explicit condemnations of the Anabaptists on baptism
     and the magistracy, from the same Swiss lands a generation after Schleitheim. Same time
-    and place. Read at the loci given, 2026-10-16. Author slug as the existing staging file
-    uses it for this confession; if that file uses another slug, use that one.
+    and place. Read at the loci given. Author slug as the existing staging file uses it for
+    this confession; if that file uses another slug, use that one.
 
     '
   source_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
@@ -66,7 +66,7 @@ works:
   role: context
   confidence: assigned
   note: 'Calvin against the Anabaptist refusal of the oath (Schleitheim article 7) and their
-    reading of the two testaments. Same time, different region. Read at the loci given, 2026-10-16.
+    reading of the two testaments. Same time, different region.
 
     '
   source_file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
@@ -81,7 +81,6 @@ works:
   confidence: assigned
   note: 'Calvin''s sustained refutation of Anabaptist positions on the church, paedobaptism
     and the magistracy (1559 text, Beveridge''s English). Same time, different region (Geneva).
-    Read at the loci given, 2026-10-16.
 
     '
   source_file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
@@ -187,8 +186,7 @@ works:
   confidence: assigned
   note: 'The Lutheran estates'' formal condemnation of the Anabaptists by name on the Spirit,
     infant baptism, perseverance, civil office and the millennium: the hostile confessional
-    frame the movement lived under in the Empire. Same time, different region. Read at the
-    loci given, 2026-10-16.
+    frame the movement lived under in the Empire. Same time, different region.
 
     '
   source_file: melanchthon_augsburg-confession_anon-pg275.txt
@@ -216,9 +214,9 @@ works:
   note: 'Peter Riedemann''s confession of faith for the Hutterite Brethren (written in prison
     in Hesse, 1540-41; printed 1565), the Moravian wing''s fullest doctrinal statement, in
     the Brethren''s own 1902 American reprint. SECOND WITNESS for scan quality under Mark''s
-    OCR ruling of 2026-09-25: the Fraktur OCR is garbled throughout, so nothing is quotable
-    from this file until a cleaner scan is vendored or each passage is read on the page images.
-    German; the English translations (1950, 1970) are in copyright.
+    OCR ruling: the Fraktur OCR is garbled throughout, so nothing is quotable from this file
+    until a cleaner scan is vendored or each passage is read on the page images. German; the
+    English translations (1950, 1970) are in copyright.
 
     '
   source_file: riedemann_rechenschaft-deu_berne1902.txt
@@ -232,9 +230,9 @@ works:
   confidence: assigned
   note: 'The German original of the Swiss Brethren''s founding confession, which the corpus
     so far held only once removed (McGlothlin 1911 and Jackson 1901 both render Zwingli''s
-    Latin). SECOND WITNESS for scan quality under Mark''s OCR ruling of 2026-09-25: the Fraktur
-    text of the articles is garbled, so it serves to check the English against the page images,
-    not to quote from directly. Sections I-III of the same file (the peasants'' Twelve Articles
+    Latin). SECOND WITNESS for scan quality under Mark''s OCR ruling: the Fraktur text of
+    the articles is garbled, so it serves to check the English against the page images, not
+    to quote from directly. Sections I-III of the same file (the peasants'' Twelve Articles
     and related documents, 1525) are the peasants'' war and are not assigned.
 
     '
@@ -340,7 +338,6 @@ works:
   note: 'Zwingli''s own 1527 polemic against the Zurich Anabaptists, the hostile witness that
     preserved the Schleitheim articles in Latin; McGlothlin''s 1911 English of the articles
     is a translation of this same Latin. Same time and place as the world (Zurich, 1525-1527).
-    Read at the loci given, 2026-10-16.
 
     '
   source_file: zwingli_selected-works_jackson1901.txt

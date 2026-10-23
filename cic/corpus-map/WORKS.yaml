@@ -274,7 +274,7 @@ works:
       recension: Zwingli's Latin version, embedded in the Refutation of Baptist Tricks
       items:
       - cic:zwingli_selected-works_jackson1901.txt:refutation-second-part
-    notes: 'Four expressions in the corpus as of 2026-10-16: two German (Böhmer''s full text, Fraktur and
+    notes: 'Four expressions in the corpus: two German (Böhmer''s full text, Fraktur and
       garbled in the OCR; Beck''s abridged text, Antiqua and readable) and two English, both of which render
       Zwingli''s hostile Latin translation rather than the German. Any quote record should say which expression
       it rests on, and the English should be checked against the German on the page images. The translator

@@ -6,8 +6,8 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is and why it 
 **Corpus-map slug:** `czech-churches-last-century`
 **Time window:** 1517 to c. 1627
 **Region(s):** Bohemia, Moravia
-**Dossier author / date:** source-research thread, one-world agent for VI.24, 2026-10-16 (resumed 2026-10-23 after a usage stop; no earlier dossier existed)
-**Corpus-map / `cic/texts/` state as of:** 2026-10-23. The corpus-map bucket `cic/corpus-map/czech-churches-last-century.yaml` holds one merged file (Comenius, 1702). Nine files were vendored this session and sit in `cic/corpus-map/_staging/` until the lead merges them. `python3 cic/engine/corpus_map_merge.py --check` passes with them.
+**Dossier author / date:** source-research thread, one-world agent for VI.24, October 2026 (resumed October 2026 after a usage stop; no earlier dossier existed)
+**Corpus-map / `cic/texts/` state as of:** October 2026. The corpus-map bucket `cic/corpus-map/czech-churches-last-century.yaml` holds one merged file (Comenius, 1702). Nine files were vendored this session and sit in `cic/corpus-map/_staging/` until the lead merges them. `python3 cic/engine/corpus_map_merge.py --check` passes with them.
 
 The census gives this world a floor note of "No question" and a status of Pre-Survey Candidate. It names four kinds of source: the Bohemian Confession of 1575, the Kralice Bible (1579 to 1593), the Unity's discipline records and Comenius's writings from exile.
 
@@ -47,7 +47,7 @@ The census gives this world a floor note of "No question" and a status of Pre-Su
 
 ## 2. Cross-link opportunities
 
-Checked 2026-10-16 and 2026-10-23: header lines and bodies of the vendored corpus searched for "Bohemia", "Bohemian", "Utraquist", "Comenius", "Majestät", "White Mountain", "Žerotín", "Gindely" and "Slavata". Files with real hits were opened at the hit. Rows for five of them are in `crosslink_fragment.yaml` for the lead to add to the existing staging files.
+Checked October 2026 and October 2026: header lines and bodies of the vendored corpus searched for "Bohemia", "Bohemian", "Utraquist", "Comenius", "Majestät", "White Mountain", "Žerotín", "Gindely" and "Slavata". Files with real hits were opened at the hit. Rows for five of them are in `crosslink_fragment.yaml` for the lead to add to the existing staging files.
 
 - **Seifferth, Church Constitution of the Bohemian and Moravian Brethren (1866).** `unity-of-the-brethren_church-constitution_seifferth1866.txt`. Latin and English. The Ratio Disciplinae of 1632/33 is the Unity's own constitution at the end of this window. Its Introduction (file line 184 on) tells the Letters Patent of 11 July 1609 (line 447) and the Lissa synod of 1632 (line 856). Currently in the Hussite world as context. Tier: same time-place. Proposed here: tradition, assigned.
 - **Lützow, Bohemia: An Historical Sketch (1920).** Chapter VII (1526 to 1620) from file line 11041, with the signing of the Letter of Majesty on 9 July 1609 at line 12626; Chapter VIII (1620 onward) from line 14890. Currently Hussite context. Tier: same time-place. Proposed: context, assigned.
@@ -60,7 +60,7 @@ Checked 2026-10-16 and 2026-10-23: header lines and bodies of the vendored corpu
 
 ## 3. Verified acquisition leads
 
-Every row below was checked on archive.org by metadata fetch and the djvu text sampled at five points (10, 30, 50, 70 and 90 percent of the file). Date checked: 2026-10-16 (Gindely's Brethren history, Bost and the others in this table); items vendored this session are in §1.
+Every row below was checked on archive.org by metadata fetch and the djvu text sampled at five points (10, 30, 50, 70 and 90 percent of the file). Date checked: October 2026 (Gindely's Brethren history, Bost and the others in this table); items vendored this session are in §1.
 
 | title | author | translator/ed. | year | url | rights basis | verified by |
 |---|---|---|---|---|---|---|
@@ -109,6 +109,6 @@ Every row below was checked on archive.org by metadata fetch and the djvu text s
 
 **Uniqueness and overlap.** Siblings are the Hussite world (V.6, whose window ends where this one starts and whose sources reach into it), Lutheran Wittenberg (VI.1), the Tridentine Church (1517 to 1650) and the later Moravian Church (VIII). This world's story is the last century of a national church under the Reformation, the Letter of Majesty, White Mountain and exile. No sibling tells that story. The formation logic differs from the Hussite world's (survival and suppression against founding and reform), but the Unity's discipline texts are shared across the boundary.
 
-**Scale.** About 13.0M characters in nine new files plus 0.72M in the merged Comenius. About 10M characters are in Czech, a language none of the sibling worlds relies on for quotation. English exists for the Labyrinth, the Ratio Disciplinae (Seifferth) and the secondary Lützow. No English was found for the Dekrety, Obraz Jednoty, the persecution history, Skála, Slavata or the Kralice text. Under the 2026-09-25 ruling the Czech and Latin originals are primary evidence where the scan is clean. The weak points are the Latin-only Confession of 1575, the second-witness Niemeyer, the missing Utraquist voice and the missing hymnals.
+**Scale.** About 13.0M characters in nine new files plus 0.72M in the merged Comenius. About 10M characters are in Czech, a language none of the sibling worlds relies on for quotation. English exists for the Labyrinth, the Ratio Disciplinae (Seifferth) and the secondary Lützow. No English was found for the Dekrety, Obraz Jednoty, the persecution history, Skála, Slavata or the Kralice text. Under the September 2026 ruling the Czech and Latin originals are primary evidence where the scan is clean. The weak points are the Latin-only Confession of 1575, the second-witness Niemeyer, the missing Utraquist voice and the missing hymnals.
 
 **Recommendation, for Mark to decide, not a decision: build, sequenced after the Hussite world.** Floor (A1): the census says no question and nothing read contradicts it; Step 0 would confirm it. Sourcing (B1): the Unity side is now strong in Czech (discipline, history of the suppression, the Bible, Comenius's allegory) with clean scans, and the 1535 and 1575 confessions are in Latin as second witnesses. The Utraquist side is thin. Ecology (B2): lopsided to the Unity and to the political revolt, with two opposed lay witnesses (Skála, Slavata). Uniqueness (B3): holds, because no sibling covers the survival and suppression phase. Audiences (B4) and scale (B5) are for the Step 0 pass. This world should not be folded into the Hussite world: the window, the question and the Representative's moment differ. It should be built after the Hussite world, because the Unity's texts are shared and the Hussite build will settle the 1517 boundary rows named in §5. If the Utraquist voice cannot be found, Doc_01 should state the world as the Unity's last century with the Utraquists seen through the joint confession and the chroniclers.

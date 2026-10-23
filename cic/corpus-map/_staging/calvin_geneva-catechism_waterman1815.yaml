@@ -1,5 +1,3 @@
-# Proactively vendored ahead of the Reformed Cities build (Atlas VI.2),
-# per this world's own Source Readiness Dossier.
 source_file: calvin_geneva-catechism_waterman1815.txt
 
 assignments:

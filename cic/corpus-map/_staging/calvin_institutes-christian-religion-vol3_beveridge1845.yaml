@@ -1,5 +1,3 @@
-# Proactively vendored ahead of the Reformed Cities build (Atlas VI.2),
-# per this world's own Source Readiness Dossier.
 source_file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
 
 assignments:
@@ -28,7 +26,7 @@ assignments:
     role: context
     confidence: assigned
     note: 'Calvin''s sustained refutation of Anabaptist positions on the church, paedobaptism and the magistracy
-      (1559 text, Beveridge''s English). Same time, different region (Geneva). Read at the loci given, 2026-10-16.
+      (1559 text, Beveridge''s English). Same time, different region (Geneva).
 
       '
 

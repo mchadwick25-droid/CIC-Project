@@ -7,8 +7,8 @@ why it exists.
 **Corpus-map slug:** `the-kyiv-mohyla-orthodox-revival`
 **Time window:** 1615–1700
 **Region(s):** Kyiv (North Europe region; lane 3, Greek East and Orthodoxy)
-**Dossier author / date:** source-research thread, one-world agent, 2026-10-23 (the Era VII session began 2026-10-16; this agent's run was cut off by the usage limit and finished 2026-10-23)
-**Corpus-map / `cic/texts/` state as of:** 2026-10-23. Three files are assigned to the bucket (§1). Five more are vendored and staged in `cic/corpus-map/_staging/`, pending the lead's merge.
+**Dossier author / date:** source-research thread, one-world agent, October 2026 (the Era VII session began October 2026; this agent's run was cut off by the usage limit and finished October 2026)
+**Corpus-map / `cic/texts/` state as of:** October 2026. Three files are assigned to the bucket (§1). Five more are vendored and staged in `cic/corpus-map/_staging/`, pending the lead's merge.
 
 Census block (VI.21): sourcing "Moderate-to-rich: academy records, catechisms, brotherhood statutes"; floor note "No question". The library check below finds the sourcing note more hopeful than the corpus. The Confession and a Kyiv polemic are in. The catechism of 1645, the Trebnyk of 1646 and the Mohyla Collegium's own statutes are not (§4).
 
@@ -46,7 +46,7 @@ Scale: about 1.3 million words were vendored this pass, of which about 1.1 milli
 
 ## 2. Cross-link opportunities
 
-Checked 2026-10-23. Method: a case-insensitive search of every vendored `.txt` for Kyiv, Kieff, Kiew, Mogila, Mohyla and spelling variants; every file with more than a handful of hits was opened at the hit lines. Proposed rows are in the agent's `crosslink_fragment.yaml` for the lead to add to the existing staging files.
+Checked October 2026. Method: a case-insensitive search of every vendored `.txt` for Kyiv, Kieff, Kiew, Mogila, Mohyla and spelling variants; every file with more than a handful of hits was opened at the hit lines. Proposed rows are in the agent's `crosslink_fragment.yaml` for the lead to add to the existing staging files.
 
 - **Robertson 1899, Acts and Decrees of the Synod of Jerusalem.** `dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt`. At about line 3911 "Peter Mogilas, humble Archbishop, Metropolitan of Kieff" signs the Constantinople synodal decree against Lucar's chapters for "all the Orthodox and Catholic Church of Christ that is in Little Russia"; the Kyivan bishops sign after him (3918–3930). Lives in the Ottoman Orthodoxy bucket. Tier: same time-different-region (Constantinople), same people. Role: context, assigned.
 - **Guépin, *Un apôtre de l'union des Églises* (1897).** `guepin_apotre-de-l-union-des-eglises-fra_1897.txt`. Mohyla appears in 82 lines. Read at about lines 36724 and 37128–37150 (the 1627 Kyiv meeting of Smotrycki and Borecki, Mohyla as archimandrite of the Caves, the favourable words Guépin gives him). The index (lines 55832–56074) lists "Violences de Mohyla et des Cosaques contre les Uniates" and "Velléités de conversion de Pierre Mohyla". A Catholic biographer's hostile view. Lives in the Union of Brest bucket. Tier: same time-place. Role: context, provisional.
@@ -59,7 +59,7 @@ Checked 2026-10-23. Method: a case-insensitive search of every vendored `.txt` f
 
 ## 3. Verified acquisition leads
 
-All rows checked on archive.org by metadata fetch on 2026-10-23, and by opening the OCR where marked. "Vendored" rows are in `cic/texts/` (§1).
+All rows checked on archive.org by metadata fetch on October 2026, and by opening the OCR where marked. "Vendored" rows are in `cic/texts/` (§1).
 
 | title | author | translator/ed. | year | url | rights basis | verified by |
 |---|---|---|---|---|---|---|
@@ -78,9 +78,9 @@ All rows checked on archive.org by metadata fetch on 2026-10-23, and by opening 
 
 | candidate | why it looked promising | why it's closed |
 |---|---|---|
-| Mohyla's Short Catechism of 1645 (Polish *Zbior krotkiey nauki*, Ruthenian *Katekhizis*) | Named in the brief as the world's catechism | archive.org searches 2026-10-23 on "Zbior krotkiey nauki", "Katechizm krótki", "Katechizis Mohyla", "Катихизис Могила" and "Mohyla" returned nothing that is this text. No public-domain printing found on the reachable hosts. |
+| Mohyla's Short Catechism of 1645 (Polish *Zbior krotkiey nauki*, Ruthenian *Katekhizis*) | Named in the brief as the world's catechism | archive.org searches October 2026 on "Zbior krotkiey nauki", "Katechizm krótki", "Katechizis Mohyla", "Катихизис Могила" and "Mohyla" returned nothing that is this text. No public-domain printing found on the reachable hosts. |
 | The Trebnyk of 1646 (Church Slavonic) | The service book that fixed priestly practice, in the census text | archive.org has `3-._20240402` ("Trebnik Petra Mogily", parts 2 and 3, a Z-Library upload with Russian titles; no date, no rights statement; OCR files of about 1.6 to 1.8 MB) and `Trebnik_20221222_222250_744815`. Not opened beyond metadata: no rights statement and the uploader's source is unknown, so not vendorable. A French study, `wenger-trebnik-moghila` (A. Wenger, 1957), is a foreign post-1930 publication, in copyright. Closed as a lead; a clean scan of the 1646 print would be the thing to find. |
-| Malvy and Viller, *La confession orthodoxe de Pierre Moghila* (Orientalia Christiana vol. 10, 1927) | Critical Latin and Greek edition, public domain by date | archive.org searches on "Malvy", "Viller confession orthodoxe", "Moghila confession orthodoxe", "Pierre Moghila" and "Orientalia christiana" 2026-10-23 found only the later *Orientalia Christiana Periodica* and *Analecta* series, not volume 10 of the first series. Not found on a reachable host. A 1927 imprint would be public domain by date if a copy turns up. |
+| Malvy and Viller, *La confession orthodoxe de Pierre Moghila* (Orientalia Christiana vol. 10, 1927) | Critical Latin and Greek edition, public domain by date | archive.org searches on "Malvy", "Viller confession orthodoxe", "Moghila confession orthodoxe", "Pierre Moghila" and "Orientalia christiana" October 2026 found only the later *Orientalia Christiana Periodica* and *Analecta* series, not volume 10 of the first series. Not found on a reachable host. A 1927 imprint would be public domain by date if a copy turns up. |
 | Golubev vol. 3 | The text says Mogila's educational work was left for a third volume | Not on the host (no title with "Т. 3"). Closed. |
 | Mohyla Collegium statutes and records | "academy records" in the census | No edition found. Golubev's appendices print some documents (provisional rows in §1); `kma2001` ("Kyiv-Mohyla Academy in names", Khyzhniak 2001, Ukrainian) and `kyiv-mohyla-academy` (Khyzhniak 1970) are in copyright. Closed. |
 | Kopystenskii's *Palinodiia* as a separate Kyiv imprint | The census-named polemic | It was not printed in the 17th century (the editors' own preface: it lay unpublished for 255 years). The 1878 Commission volume is the first and only printed text; vendored (§1). |
@@ -101,7 +101,7 @@ All rows checked on archive.org by metadata fetch on 2026-10-23, and by opening 
 - **The Kyiv council of 1640 is only a hostile report.** The corpus has the council as Sakovych told it. The council's own acts, if they exist in print, were not found.
 - **Authors.** `kopystenskij`, `krevza`, `filippovich-afanasii`, `artemii-starets`, `philaret` and the two body slugs `kyiv-council-1640-sakovych-account` and `kyiv-synopsis` are new. The first five and the Kyiv council slug carry `authors_ruled` blocks in the staging files (`metadata-omission`, `pseudonymous` or `anonymous`); `kyiv-synopsis` is the file-name prefix. `AUTHORS.md` entries, and agreeing the spelling of `krevza` and `filippovich-afanasii` with the Union of Brest pass (which used `filippovich`), are for the lead.
 - **The earlier committed version of the Commission volume's staging file** had the Brest pass's `crosslink_fragment` text appended as a malformed list item. This agent regenerated the file without it; its Brest rows are the ones that matter.
-- **Dates.** The Era VII brief gave 2026-10-16 for fetch dates. The files were fetched 2026-10-23 after the usage limit; headers say 2026-10-23.
+- **Dates.** The Era VII brief gave October 2026 for fetch dates. The files were fetched October 2026 after the usage limit; headers say October 2026.
 
 ## 6. Step 0 scope notes and recommendation
 

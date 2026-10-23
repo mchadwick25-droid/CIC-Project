@@ -4,7 +4,7 @@ assignments:
   - row_id: borromeo_terza-raccolta-lettere-ita_agnelli1763--terza-raccolta-lettere-1763
     work: "Terza raccolta di lettere inedite di S. Carlo Borromeo (Lugano, 1763)"
     author: borromeo
-    locus: "Agnelli's dedication from the head of the file and 'EDITORE a chi legge' at line 167 (editorial, openly anti-Jesuit); the letters from about line 400 ('LETTERA III.' at 665; most letter headings are not caught by the OCR); 'INDICE UNIVERSALE' of all three collections, in date order with one-line summaries, from line 7789"
+    locus: "Agnelli's dedication from the head of the file and 'EDITORE a chi legge' at line 167 (editorial, openly anti-Jesuit); the letters from about line 400 ('LETTERA III.' at 665; most letter headings are missed by the OCR); 'INDICE UNIVERSALE' of all three collections, in date order with one-line summaries, from line 7789"
     atlas_ids:
       - tridentine-parish-renewal-borromean-milan
     role: tradition

@@ -7,8 +7,8 @@ why it exists.
 **Corpus-map slug:** `armenian-christianity-new-julfa`
 **Time window:** 1517-1650
 **Region(s):** Armenia (Etchmiadzin, Erivan, old Julfa on the Araxes) and Isfahan (New Julfa)
-**Dossier author / date:** library/source-research thread, Era VII session, world VI.28 agent, 2026-10-23
-**Corpus-map / `cic/texts/` state as of:** 2026-10-23, branch `library/era-vii-2026-10`.
+**Dossier author / date:** library/source-research thread, Era VII session, world VI.28 agent, October 2026
+**Corpus-map / `cic/texts/` state as of:** October 2026, branch `library/era-vii-2026-10`.
 No `cic/corpus-map/armenian-christianity-new-julfa.yaml` existed before this
 pass. The five staging files below are written and pass
 `corpus_map_merge.py --check` (not yet merged). The census sourcing line
@@ -105,7 +105,7 @@ Russian officer's memoir) serves other entries. Most of Tavernier is India.
 ## 3. Verified acquisition leads
 
 Each row below was checked against its actual host page (archive.org metadata
-fetched, title page and text read in the OCR) on 2026-10-23. Rows for each
+fetched, title page and text read in the OCR) on October 2026. Rows for each
 are in `seed_fragment.yaml`.
 
 | title | author | translator | year | url | rights basis | verified by (method + date) |
@@ -207,7 +207,7 @@ finished world.
 siblings and floor-clear. What is missing is the voice the census itself
 names: Arakel's history and the colophons. Zakaria alone, in a French
 rendering with OCR errors and mostly after 1650, may or may not be enough for a
-build. Mark's ruling is needed on whether to build on Zakaria with the English
+build. A ruling from the project lead is needed on whether to build on Zakaria with the English
 secondaries, or to hold the build until a readable Arakel (a clean Armenian
 re-scan, or Brosset's volume I) is found. This is a recommendation for Mark,
 not a decision.

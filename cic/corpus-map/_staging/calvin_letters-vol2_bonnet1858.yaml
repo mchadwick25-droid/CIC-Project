@@ -1,6 +1,3 @@
-# Closes a Verified Acquisition Lead from the Reformed Cities dossier
-# (Atlas VI.2) - see calvin_letters-vol1_bonnet1858.yaml for the full
-# 4-volume set's status.
 source_file: calvin_letters-vol2_bonnet1858.txt
 
 assignments:

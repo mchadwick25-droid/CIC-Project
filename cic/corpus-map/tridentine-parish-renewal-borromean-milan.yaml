@@ -34,12 +34,9 @@ works:
   note: 'This world''s own legislation: Borromeo''s provincial councils, diocesan synods,
     instructions (confessors, preachers, church fabric and furnishings) and pastoral letters
     in the 1599 second edition. The primary institutional voice of the Borromean reform, primary
-    evidence in Latin under the 2026-09-25 ruling. The vendored file''s own header (written
-    2026-09-25 under the earlier rule) still calls the Latin "a second witness, never primary
-    evidence"; the staging file already says primary. The header wording needs the lead''s
-    correction. No English translation of any part exists in the public domain (Voelker 1976
-    and Cihak-Santogrossi 2017 are in copyright; the 1857 Wigley translation of the fabric
-    instructions was not found on archive.org, checked again 2026-10-16 by creator search).
+    evidence in Latin. No English translation of any part exists in the public domain (Voelker
+    1976 and Cihak-Santogrossi 2017 are in copyright; no 1857 Wigley translation of the fabric
+    instructions was found on archive.org).
 
     '
   source_file: borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt
@@ -135,8 +132,8 @@ works:
   author: borromeo
   locus: Agnelli's dedication from the head of the file and 'EDITORE a chi legge' at line
     167 (editorial, openly anti-Jesuit); the letters from about line 400 ('LETTERA III.' at
-    665; most letter headings are not caught by the OCR); 'INDICE UNIVERSALE' of all three
-    collections, in date order with one-line summaries, from line 7789
+    665; most letter headings are missed by the OCR); 'INDICE UNIVERSALE' of all three collections,
+    in date order with one-line summaries, from line 7789
   role: tradition
   confidence: assigned
   note: 'Third collection of Borromeo''s letters, 1567-1584, on the seminary, the Jesuits
@@ -258,7 +255,7 @@ works:
   work: Discorsi della vita, et attioni di Carlo Borromeo
   author: possevino-giovanni-battista
   locus: dedication to Cesare Speciano from the head of the file; chapter headings 'Cap. ...'
-    from line 1346 ('Cap. VI.', earlier chapter headings not caught by the OCR) to line 10709
+    from line 1346 ('Cap. VI.', earlier chapter headings missed by the OCR) to line 10709
     ('Cap. XXXI.'); 'TAVOLA' (table of chapters) at line 10724
   role: tradition
   confidence: assigned

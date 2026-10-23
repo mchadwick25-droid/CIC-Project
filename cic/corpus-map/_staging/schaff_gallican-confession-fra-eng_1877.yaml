@@ -1,8 +1,3 @@
-# Vendored for the Huguenots (Atlas VI.6) by the Era VII library session,
-# 2026-10-16. A bounded extract (one creed, French and English) from
-# Schaff's Creeds of Christendom vol. III, 1877 printing; the existing
-# schaff_second-helvetic-confession-heidelberg-catechism_1919.txt is a
-# different extract from the same volume's 1919 printing.
 source_file: schaff_gallican-confession-fra-eng_1877.txt
 
 authors_ruled:

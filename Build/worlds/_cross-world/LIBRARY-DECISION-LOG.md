@@ -13,6 +13,38 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-10-23 — Era VII library pass: scope, corpus size, and placements left to Mark
+
+**What was done.** The 27 Era VII census worlds with no Doc_02 now each have a
+dossier, vendored texts with staging and registry entries, and a build or
+atlas-only recommendation in the dossier's section 6. The three Era VII worlds
+with a Doc_02 (VI.1, VI.2, VI.11) were not touched. Every recommendation is for
+Mark; none is a decision.
+
+**Corpus size.** `cic/texts/` crossed the 1 GB planning trigger in
+`PLAN-texts-store-scaling.md` during this pass (671 MB at the start, about
+1.1 GB at the end). The plan says to re-read it at that point and act at
+1.5 GB. Nothing was moved or changed here. Mark decides whether to act now.
+
+**Placements left for Mark.** Contested or unread placements were staged as
+`needs-ruling` or `provisional`, never as a confident call. The generated
+`NEEDS-RULING.md` lists the `needs-ruling` rows. Each dossier's section 5 lists
+its other open questions, among them: which world owns Borromeo's voice
+(VI.12 or VI.22), whether the Church of the East schism (VI.30) is part of
+V.17, whether Mission-Born Christianities (VI.13) should split into its four
+regions, and who holds the Westminster Standards (VI.8 or VI.5).
+
+**Rights calls to re-check.** Bossert 1930 (via a 1971 reprint scan with no
+host rights statement), the 1947 Doctrina Christiana facsimile (renewal check
+not completed), and the Anspach 1858 Heavenly Balm (OCR of a 2024 re-setting).
+Each is flagged in its dossier.
+
+**Method note.** The NYPL renewal data files were unreachable for most years;
+every 1931 to 1963 candidate was therefore treated as a lead unless a renewal
+check was recorded in its dossier.
+
+---
+
 ## 2026-10-16 — Reader-ready facts recorded in the registry `notes` trailer, not a new schema field
 
 **Context.** The Source Library design of record (Mark, 2026-10-14,

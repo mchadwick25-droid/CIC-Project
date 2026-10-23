@@ -1,6 +1,3 @@
-# Proactive vendoring ahead of
-# the Reformed Cities build (Atlas VI.2), per this world's own Source
-# Readiness Dossier.
 source_file: zwingli_selected-works_jackson1901.txt
 
 assignments:
@@ -53,6 +50,6 @@ assignments:
     confidence: assigned
     note: 'Zwingli''s own 1527 polemic against the Zurich Anabaptists, the hostile witness that preserved
       the Schleitheim articles in Latin; McGlothlin''s 1911 English of the articles is a translation of
-      this same Latin. Same time and place as the world (Zurich, 1525-1527). Read at the loci given, 2026-10-16.
+      this same Latin. Same time and place as the world (Zurich, 1525-1527).
 
       '

@@ -6,12 +6,12 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Corpus-map slug:** `schwenckfelders`
 **Time window:** 1540s-1650
 **Region(s):** Silesia, later Pennsylvania
-**Dossier author / date:** source-research thread (Era VII session, one-world agent), 2026-10-16
-**Corpus-map / `cic/texts/` state as of:** 2026-10-16. No bucket file `cic/corpus-map/schwenckfelders.yaml` existed. Seven files were vendored and staged in `cic/corpus-map/_staging/` pending the lead's merge. No Step 0 or Doc_01 exists for this world. Census status: Floor Question (register). Census sourcing line: "Modest but real internal corpus."
+**Dossier author / date:** source-research thread (Era VII session, one-world agent), October 2026
+**Corpus-map / `cic/texts/` state as of:** October 2026. No bucket file `cic/corpus-map/schwenckfelders.yaml` existed. Seven files were vendored and staged in `cic/corpus-map/_staging/` pending the lead's merge. No Step 0 or Doc_01 exists for this world. Census status: Floor Question (register). Census sourcing line: "Modest but real internal corpus."
 
 ## 1. Already assigned
 
-Nothing was assigned before this session. Seven files are now vendored and staged (all dated 2026-10-16, rights basis public domain by date).
+Nothing was assigned before this session. Seven files are now vendored and staged (all dated October 2026, rights basis public domain by date).
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
@@ -27,7 +27,7 @@ Honest shape of this list. Only two files are Schwenckfeld's own words: vol. I o
 
 ## 2. Cross-link opportunities
 
-Checked 2026-10-16 by grepping the `Title:`/`Creator:` header lines of every file in `cic/texts/` and then the bodies for "Schwenck", "Schwenk", "Schwenkfeldian" and "Formula of Concord". No Book of Concord, Concordia Triglotta or Formula of Concord text was vendored before this session, so there was nothing to cross-link and the Jacobs 1911 volume was vendored instead.
+Checked October 2026 by grepping the `Title:`/`Creator:` header lines of every file in `cic/texts/` and then the bodies for "Schwenck", "Schwenk", "Schwenkfeldian" and "Formula of Concord". No Book of Concord, Concordia Triglotta or Formula of Concord text was vendored before this session, so there was nothing to cross-link and the Jacobs 1911 volume was vendored instead.
 
 - **Bossert, Quellen zur Geschichte der Wiedertäufer I: Württemberg (1930).** `taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt`, assigned to the Anabaptist movements. About 150 hits on Schwenckfeld and his followers. Bossert says in his Vorwort (line 323) that he took in the few documents on Schwenckfeld and his followers because Württemberg treated them as a variety of Anabaptism. Key loci: the summary of the Schwenckfeldian booklets found with Andreas Neff of Cannstatt, 5 June 1544 (line 6522); the Neff documents (6729-7089); a sendbrief of 25 January 1546 to Margreth Neffin headed "Von Schwenckfelds Lehre und Namen" (7800-7975). Tier: same time-different-region (Württemberg, not Silesia) for the 1540s. This is the only mid-sixteenth-century material found for this world. Proposed row in `crosslink_fragment.yaml` (role context, provisional).
 - **Beck, Geschichts-Bücher der Wiedertäufer in Oesterreich-Ungarn (1883).** One hit only (line 4575, "Schwenkfeld's Epistolar" in a list of manuscripts). No row.
@@ -37,7 +37,7 @@ Checked 2026-10-16 by grepping the `Title:`/`Creator:` header lines of every fil
 
 ## 3. Verified acquisition leads
 
-Each row below was confirmed on archive.org by metadata API and, where stated, by fetching the OCR text, on 2026-10-16. None is vendored.
+Each row below was confirmed on archive.org by metadata API and, where stated, by fetching the OCR text, on October 2026. None is vendored.
 
 | title | author | translator | year | url | rights basis | verified by |
 |---|---|---|---|---|---|---|
@@ -57,12 +57,12 @@ Each row below was confirmed on archive.org by metadata API and, where stated, b
 
 | candidate | why it looked promising | why it's closed |
 |---|---|---|
-| Corpus Schwenckfeldianorum vols. 2-19 (the 1540 Great Confession, the later letters) | The census and the brief name the Corpus as the main edition | archive.org title search "corpus schwenckfeldianorum" returns two items only: vol. I (vendored) and `corpusschwenckfe0000unse`, a 1908 review of the first volume (42,000 bytes, scholarship, not an edition). Searches by creator, by "Hartranft" and by document titles found no further volume. Volumes 2-8 (1911-1930) and the Great Confession are therefore not reachable on archive.org. Checked 2026-10-16. Google Books API returned HTTP 429 (daily quota), so Google Books was not checked; a later pass could try. |
-| The 1540 Great Confession as an early print | Brief names it | The two period prints on archive.org, `grego-nazi-confession-vnnd-erclerung-vom-erkandtnus-christi-vnd-seiner-gottlichen-herrlicheit-1557` and `grego-nazi-anfenus-von-der-hailigen-schrifft-jrem-jnnhalt-ampt-rechtem-nutz-1551`, hold page images only (no text layer in the file list). Nothing to vendor. Closed 2026-10-16. |
+| Corpus Schwenckfeldianorum vols. 2-19 (the 1540 Great Confession, the later letters) | The census and the brief name the Corpus as the main edition | archive.org title search "corpus schwenckfeldianorum" returns two items only: vol. I (vendored) and `corpusschwenckfe0000unse`, a 1908 review of the first volume (42,000 bytes, scholarship, not an edition). Searches by creator, by "Hartranft" and by document titles found no further volume. Volumes 2-8 (1911-1930) and the Great Confession are therefore not reachable on archive.org. Checked October 2026. Google Books API returned HTTP 429 (daily quota), so Google Books was not checked; a later pass could try. |
+| The 1540 Great Confession as an early print | Brief names it | The two period prints on archive.org, `grego-nazi-confession-vnnd-erclerung-vom-erkandtnus-christi-vnd-seiner-gottlichen-herrlicheit-1557` and `grego-nazi-anfenus-von-der-hailigen-schrifft-jrem-jnnhalt-ampt-rechtem-nutz-1551`, hold page images only (no text layer in the file list). Nothing to vendor. Closed October 2026. |
 | Der Christlichen Orthodoxischen Bücher (1564) | Schwenckfeld's collected books | `bim_early-english-books-1641-1700_schwenckfeldt-casp_1564` has a 13-word text file. Empty. Closed. |
 | Ausslegung dess Sibentzehenden Capitels (Schwenckfeld) | Own exposition of John 17 | `bim_early-english-books-1641-1700_schwenckfeldt-casp`: no date, microfilm, not opened. Left for a later pass. |
 | Hartranft's English prefaces | Brief names them | They are inside the Corpus volumes. Vol. I's English Advertisement and Introduction are vendored. No separate publication found. |
-| Schultz, A Vindication of Caspar Schwenckfeld (1942) | Brief names it | No archive.org item with that title (title searches "vindication of caspar", "vindication" with Schwenckfeld, creator "Selina Schultz"). Selina Schultz's items found are `casparschwenckfe0000seli` (1946) and `..._v6a2` (1947), both access-restricted (lending), so never vendorable. NYPL cce-renewals: the repo's `data/` files for 1969 to 1975 (`<year>-1.tsv`; other part names returned 404; the GitHub API was refused) were searched for "schwenck", "schwenk", "selina g" and "vindication of caspar"; no Schwenckfeld entry. That settles nothing for a 1942 book, which could only be found if its renewal fell in those files; the book itself is unreachable. Closed as a lead 2026-10-16. |
+| Schultz, A Vindication of Caspar Schwenckfeld (1942) | Brief names it | No archive.org item with that title (title searches "vindication of caspar", "vindication" with Schwenckfeld, creator "Selina Schultz"). Selina Schultz's items found are `casparschwenckfe0000seli` (1946) and `..._v6a2` (1947), both access-restricted (lending), so never vendorable. NYPL cce-renewals: the repo's `data/` files for 1969 to 1975 (`<year>-1.tsv`; other part names returned 404; the GitHub API was refused) were searched for "schwenck", "schwenk", "selina g" and "vindication of caspar"; no Schwenckfeld entry. That settles nothing for a 1942 book, which could only be found if its renewal fell in those files; the book itself is unreachable. Closed as a lead October 2026. |
 | Schwenckfeld, Passional and Prayer Book (1961); Caspar Schwenckfeld on the Person and Work of Christ (1957, Maier); Spiritual and Anabaptist Writers (1957); Séguenny, McLaughlin, Furcha | Modern English editions and translations | All post-1930, in copyright, and listed without public-domain status. Not vendored. |
 | English translation of the Erläuterung (1771/1830) | Brief asks for a translation beside every German text | None found in the metadata or title searches. Kriebel paraphrases and translates parts. Gap, recorded. |
 | English translation of the Corpus vol. I German | Same | Hartranft's own English "Translation or Analysis" for each document is inside the vendored volume. |
@@ -90,4 +90,4 @@ Each row below was confirmed on archive.org by metadata API and, where stated, b
 
 **Tests (Step 0).** Floor A1: arguable, not failed. Sourcing B1: thin for the window. The census says "modest but real", and the corpus confirms modest. Ecology B2: inside voice is mostly late (Pennsylvania, 18th-19th century) and secondary; the Silesian period reaches us through the community's own later history and through opponents. Uniqueness B3: holds. Audiences B4 and scale B5: not assessed here.
 
-**Recommendation, for Mark to decide, not a decision: open question.** The floor test is arguable by the census's own words, and the sourcing for the window is the weak point: the Great Confession and every post-1524 letter are not reachable. I recommend holding the entry as an open question until Mark rules on the floor and until a later pass tries Google Books and the print holdings for Corpus volumes 2-8 (1911-1930, public domain by date). If Mark rules the floor clears and wants a world, the corpus can carry a short, honest build only on the Erläuterung, Sudermann and the Anspach text, with the absence of the 1540s voice stated plainly. Otherwise **atlas only** is the fallback. Neither choice is final.
+**Recommendation, for the project lead to decide, not a decision: open question.** The floor test is arguable by the census's own words, and the sourcing for the window is the weak point: the Great Confession and every post-1524 letter are not reachable. I recommend holding the entry as an held back until the project lead rules on the floor and until a later pass tries Google Books and the print holdings for Corpus volumes 2-8 (1911-1930, public domain by date). If Mark rules the floor clears and wants a world, the corpus can carry a short, honest build only on the Erläuterung, Sudermann and the Anspach text, with the absence of the 1540s voice stated plainly. Otherwise **atlas only** is the fallback. Neither choice is final.

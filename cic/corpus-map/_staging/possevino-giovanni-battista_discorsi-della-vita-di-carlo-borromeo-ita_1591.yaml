@@ -4,7 +4,7 @@ assignments:
   - row_id: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591--discorsi-della-vita-et-attioni-di-carlo-borromeo
     work: "Discorsi della vita, et attioni di Carlo Borromeo"
     author: possevino-giovanni-battista
-    locus: "dedication to Cesare Speciano from the head of the file; chapter headings 'Cap. ...' from line 1346 ('Cap. VI.', earlier chapter headings not caught by the OCR) to line 10709 ('Cap. XXXI.'); 'TAVOLA' (table of chapters) at line 10724"
+    locus: "dedication to Cesare Speciano from the head of the file; chapter headings 'Cap. ...' from line 1346 ('Cap. VI.', earlier chapter headings missed by the OCR) to line 10709 ('Cap. XXXI.'); 'TAVOLA' (table of chapters) at line 10724"
     atlas_ids:
       - tridentine-parish-renewal-borromean-milan
     role: tradition

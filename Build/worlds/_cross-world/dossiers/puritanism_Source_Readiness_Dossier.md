@@ -6,12 +6,12 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Corpus-map slug:** `puritanism`
 **Time window:** c. 1560–1660
 **Region(s):** England, New England
-**Dossier author / date:** library/source-research thread (Era VII session, one-world agent for VI.8), 2026-10-16
-**Corpus-map / `cic/texts/` state as of:** 2026-10-16, branch `library/era-vii-2026-10`. No `cic/corpus-map/puritanism.yaml` bucket existed before this pass. The eleven staging files below are written and pass `corpus_map_merge.py --check`; the lead merges them. The English Reformation (VI.4) agent vendored its own files the same day, and the cross-links in section 2 point at those files by name.
+**Dossier author / date:** library/source-research thread (Era VII session, one-world agent for VI.8), October 2026
+**Corpus-map / `cic/texts/` state as of:** October 2026, branch `library/era-vii-2026-10`. No `cic/corpus-map/puritanism.yaml` bucket existed before this pass. The eleven staging files below are written and pass `corpus_map_merge.py --check`; the lead merges them. The English Reformation (VI.4) agent vendored its own files the same day, and the cross-links in section 2 point at those files by name.
 
 ## 1. Already assigned
 
-Eleven files were vendored this pass and assigned in `cic/corpus-map/_staging/`. Nothing was assigned to this world before 2026-10-16.
+Eleven files were vendored this pass and assigned in `cic/corpus-map/_staging/`. Nothing was assigned to this world before October 2026.
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
@@ -35,7 +35,7 @@ Cross-entry rows written in the same staging files: Hoby (VI.4, context, provisi
 
 Rights. Nine files are public domain by date (1600 to 1908 imprints, read in each file's own OCR). The Hoby diary is a 1930 publication, public domain by date since 1 January 2026. The Knappen diaries are a 1933 US publication: no renewal was found in the Catalog of Copyright Entries renewal volumes for 1960, 1961 and 1962 (Project Gutenberg transcriptions #11821 to #11826, searched for Knappen, 'Elizabethan Puritan' and 'American Society of Church History'), and the archive.org item's rights field records a HathiTrust copyright review finding public domain. The NYPL `cce-renewals` repository could not be reached from this session (GitHub access to that repository is not enabled), so the Gutenberg transcriptions of the same catalog were used; the search terms and volumes are in the file header.
 
-OCR. Nine files are clean at all five sample points. Two are second witnesses under Mark's OCR ruling of 2026-09-25: Perkins (1600 print) and Rogers (1610 print), both with systematic long-s misreads. They locate passages; a quotation from either must be verified against the page images first. No cleaner public-domain scan of either exists on archive.org (the EEBO microfilm items are worse).
+OCR. Nine files are clean at all five sample points. Two are second witnesses under Mark's OCR ruling of September 2026: Perkins (1600 print) and Rogers (1610 print), both with systematic long-s misreads. They locate passages; a quotation from either must be verified against the page images first. No cleaner public-domain scan of either exists on archive.org (the EEBO microfilm items are worse).
 
 Scale. The eleven files total about 15 MB. The census names four primary genres (diaries, conversion narratives, practical divinity, church-order records); each is now represented by at least one clean file, which is why the intake runs to eleven files rather than the usual six to eight.
 
@@ -55,23 +55,23 @@ Checked and not linked (named, never opened for this purpose): Calvin's Letters,
 
 ## 3. Verified acquisition leads
 
-Each lead below was opened on archive.org (metadata API) on 2026-10-16; where the OCR was downloaded, it was sampled at five points.
+Each lead below was opened on archive.org (metadata API) on October 2026; where the OCR was downloaded, it was sampled at five points.
 
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| Chronicles of the First Planters of the Colony of Massachusetts Bay, 1623–1636 | Alexander Young (compiler): Higginson, Dudley, Clap, Cotton, Mather, Shepard and others | — | 1846 | `archive.org/details/chroniclesoffirs00younuoft` | pd-us-by-date; NOT_IN_COPYRIGHT on the item | metadata and OCR read, contents list verified (24 documents), 2026-10-16. The strongest unvendored lead for the New England half. |
-| Winthrop's Journal, Vol. II (1641–49) | John Winthrop | J. K. Hosmer (ed.) | 1908 | `archive.org/details/winthropsjournal02wint` | pd-us-by-date; NOT_IN_COPYRIGHT | metadata read, 2026-10-16 |
-| Historical Notices, Vol. II | Nehemiah Wallington | R. Webb (ed.) | 1869 | `archive.org/details/historicalnotice02walluoft` | pd-us-by-date; NOT_IN_COPYRIGHT | OCR downloaded and sampled, 2026-10-16; mostly copied news from 1642 |
-| The Works of Anne Bradstreet in Prose and Verse | Anne Bradstreet | J. H. Ellis (ed.) | 1867 | `archive.org/details/worksofannebrads00brad` | pd-us-by-date; NOT_IN_COPYRIGHT | OCR downloaded and sampled, 2026-10-16; the reprinted 1678 text carries long-s misreads, the editorial matter is clean |
-| The Cambridge Platform (1648) with the 1680 Confession | Cambridge Synod; Boston Synod | — | 1850 | `archive.org/details/cambridgeplatfor00cong` | pd-us-by-date; NOT_IN_COPYRIGHT | OCR downloaded and sampled, clean, 2026-10-16 |
-| The Marprelate Tracts, 1588, 1589 | Martin Marprelate (pseud.) | William Pierce (ed.) | 1911 | `archive.org/details/marprelatetracts0000will` | pd-us-by-date (1911 London); no rights field on the item | OCR downloaded and sampled, 2026-10-16; text pages readable, several blank versos OCR'd as mirrored garbage |
-| Reliquiae Baxterianae | Richard Baxter | Matthew Sylvester (ed.) | 1696 | `archive.org/details/reliquiaebaxteri00baxt` | pd-us-by-date; NOT_IN_COPYRIGHT | OCR downloaded and sampled, 2026-10-16; long-s misreads throughout (second-witness quality). Window straddles this world and English Old Dissent. |
-| The Complete Works of Richard Sibbes, Vols. II–VII | Richard Sibbes | A. B. Grosart (ed.) | 1862–64 | `archive.org/details/completeworksofr02sibb` and sister items | pd-us-by-date; NOT_IN_COPYRIGHT in the search listing | search listing only, 2026-10-16 |
-| The Works of Thomas Shepard, 3 vols. (Sincere Convert, Sound Believer, Parable of the Ten Virgins) | Thomas Shepard | J. A. Albro (ed.) | 1853 | `archive.org/details/worksofthomasshe01shep` | pd-us-by-date (Boston 1853); no rights field seen | search listing only, 2026-10-16 |
-| The Autobiography of Thomas Shepard, duplicate scans | Thomas Shepard | N. Adams (ed.) | 1832 | `autobiographyoft00shep2`, `autobiographyth00adamgoog` | pd-us-by-date; NOT_IN_COPYRIGHT | search listing, 2026-10-16; same edition as the vendored copy |
-| History of Plymouth Plantation, 1620–1647 | William Bradford | W. C. Ford (ed.) | 1912 | `archive.org/details/historyofplymout02brad` | pd-us-by-date; NOT_IN_COPYRIGHT | metadata read, 2026-10-16; Separatist context, not this world's voice |
-| The Workes of William Perkins, Vol. 1 (1626 folio) | William Perkins | — | 1626 | `archive.org/details/WilliamPerkinsWorksVol1` | Creative Commons public domain mark on the item (uploader DigitalPuritan) | metadata read, 2026-10-16; OCR not sampled, expected to be of the same garbled kind as the 1600 volume |
-| John Cotton's treatises (The Way of the Churches of Christ in New-England 1645, The Keyes of the Kingdom 1644, Singing of Psalmes 1647, and others) | John Cotton | — | 1640s | `archive.org/details/vvayofchurchesof00cott` and sister items | pd-us-by-date; no rights field seen | search listing only, 2026-10-16; early prints, OCR unknown |
+| Chronicles of the First Planters of the Colony of Massachusetts Bay, 1623–1636 | Alexander Young (compiler): Higginson, Dudley, Clap, Cotton, Mather, Shepard and others | — | 1846 | `archive.org/details/chroniclesoffirs00younuoft` | pd-us-by-date; NOT_IN_COPYRIGHT on the item | metadata and OCR read, contents list verified (24 documents), October 2026. The strongest unvendored lead for the New England half. |
+| Winthrop's Journal, Vol. II (1641–49) | John Winthrop | J. K. Hosmer (ed.) | 1908 | `archive.org/details/winthropsjournal02wint` | pd-us-by-date; NOT_IN_COPYRIGHT | metadata read, October 2026 |
+| Historical Notices, Vol. II | Nehemiah Wallington | R. Webb (ed.) | 1869 | `archive.org/details/historicalnotice02walluoft` | pd-us-by-date; NOT_IN_COPYRIGHT | OCR downloaded and sampled, October 2026; mostly copied news from 1642 |
+| The Works of Anne Bradstreet in Prose and Verse | Anne Bradstreet | J. H. Ellis (ed.) | 1867 | `archive.org/details/worksofannebrads00brad` | pd-us-by-date; NOT_IN_COPYRIGHT | OCR downloaded and sampled, October 2026; the reprinted 1678 text carries long-s misreads, the editorial matter is clean |
+| The Cambridge Platform (1648) with the 1680 Confession | Cambridge Synod; Boston Synod | — | 1850 | `archive.org/details/cambridgeplatfor00cong` | pd-us-by-date; NOT_IN_COPYRIGHT | OCR downloaded and sampled, clean, October 2026 |
+| The Marprelate Tracts, 1588, 1589 | Martin Marprelate (pseud.) | William Pierce (ed.) | 1911 | `archive.org/details/marprelatetracts0000will` | pd-us-by-date (1911 London); no rights field on the item | OCR downloaded and sampled, October 2026; text pages readable, several blank versos OCR'd as mirrored garbage |
+| Reliquiae Baxterianae | Richard Baxter | Matthew Sylvester (ed.) | 1696 | `archive.org/details/reliquiaebaxteri00baxt` | pd-us-by-date; NOT_IN_COPYRIGHT | OCR downloaded and sampled, October 2026; long-s misreads throughout (second-witness quality). Window straddles this world and English Old Dissent. |
+| The Complete Works of Richard Sibbes, Vols. II–VII | Richard Sibbes | A. B. Grosart (ed.) | 1862–64 | `archive.org/details/completeworksofr02sibb` and sister items | pd-us-by-date; NOT_IN_COPYRIGHT in the search listing | search listing only, October 2026 |
+| The Works of Thomas Shepard, 3 vols. (Sincere Convert, Sound Believer, Parable of the Ten Virgins) | Thomas Shepard | J. A. Albro (ed.) | 1853 | `archive.org/details/worksofthomasshe01shep` | pd-us-by-date (Boston 1853); no rights field seen | search listing only, October 2026 |
+| The Autobiography of Thomas Shepard, duplicate scans | Thomas Shepard | N. Adams (ed.) | 1832 | `autobiographyoft00shep2`, `autobiographyth00adamgoog` | pd-us-by-date; NOT_IN_COPYRIGHT | search listing, October 2026; same edition as the vendored copy |
+| History of Plymouth Plantation, 1620–1647 | William Bradford | W. C. Ford (ed.) | 1912 | `archive.org/details/historyofplymout02brad` | pd-us-by-date; NOT_IN_COPYRIGHT | metadata read, October 2026; Separatist context, not this world's voice |
+| The Workes of William Perkins, Vol. 1 (1626 folio) | William Perkins | — | 1626 | `archive.org/details/WilliamPerkinsWorksVol1` | Creative Commons public domain mark on the item (uploader DigitalPuritan) | metadata read, October 2026; OCR not sampled, expected to be of the same garbled kind as the 1600 volume |
+| John Cotton's treatises (The Way of the Churches of Christ in New-England 1645, The Keyes of the Kingdom 1644, Singing of Psalmes 1647, and others) | John Cotton | — | 1640s | `archive.org/details/vvayofchurchesof00cott` and sister items | pd-us-by-date; no rights field seen | search listing only, October 2026; early prints, OCR unknown |
 
 ## 4. Checked and closed
 

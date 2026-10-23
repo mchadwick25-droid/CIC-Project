@@ -6,12 +6,12 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is and why it 
 **Corpus-map slug:** `family-of-love-and-spiritualists-franck-niclaes`
 **Time window:** c. 1540–1600
 **Region(s):** Rhineland, Low Countries, England
-**Dossier author / date:** source-research thread (Era VII one-world agent), 2026-10-16; work resumed and finished 2026-10-23
-**Corpus-map / `cic/texts/` state as of:** 2026-10-23. No bucket file exists for this slug. Eleven files are vendored and staged in `cic/corpus-map/_staging/` (see §1); they await the lead's merge of the registry and staging files. The census status is Floor Question (register). No Step 0 or Doc_01 exists.
+**Dossier author / date:** source-research thread (Era VII one-world agent), October 2026; work resumed and finished October 2026
+**Corpus-map / `cic/texts/` state as of:** October 2026. No bucket file exists for this slug. Eleven files are vendored and staged in `cic/corpus-map/_staging/` (see §1); they await the lead's merge of the registry and staging files. The census status is Floor Question (register). No Step 0 or Doc_01 exists.
 
 ## 1. Already assigned
 
-No `cic/corpus-map/family-of-love-and-spiritualists-franck-niclaes.yaml` exists. Eleven files vendored this pass, all staged. Every file is a second witness for exact wording, because the English texts are EEBO microfilm OCR and the German is Fraktur OCR (mark per Mark's OCR ruling, 2026-09-25). Scale is about 930,000 words in all. Readable-token share is the share of tokens in five 700-character samples (10/30/50/70/90 percent) that read as words.
+No `cic/corpus-map/family-of-love-and-spiritualists-franck-niclaes.yaml` exists. Eleven files vendored this pass, all staged. Every file is a second witness for exact wording, because the English texts are EEBO microfilm OCR and the German is Fraktur OCR (mark under the OCR ruling of September 2026). Scale is about 930,000 words in all. Readable-token share is the share of tokens in five 700-character samples (10/30/50/70/90 percent) that read as words.
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
@@ -33,7 +33,7 @@ Main loci, by file line: Rogers prints the Familists' letters at 7597 and 8586 w
 
 ## 2. Cross-link opportunities
 
-Checked 2026-10-16 by grepping every vendored `.txt` for "family of love", "Familist", "Niclaes", "Franck", "Barrefelt", "Schwenckfeld", "Coornhert" and "libertines", and opening the loci of the files below. Rows proposed in the agent's `crosslink_fragment.yaml`.
+Checked October 2026 by grepping every vendored `.txt` for "family of love", "Familist", "Niclaes", "Franck", "Barrefelt", "Schwenckfeld", "Coornhert" and "libertines", and opening the loci of the files below. Rows proposed in the agent's `crosslink_fragment.yaml`.
 
 - **Rutherford, Letters (Bonar 1891).** `rutherford_letters_bonar1891.txt`, Letter CCCIX (1644) lists Familists among London's sects (line 32774) and the editor's footnote (line 32803) summarises David George, Henry Nicholas and Christopher Vivet with sources. Tier: same time-different region (1644, Scotland and London). Role: context, provisional. One proposed row. Out of window and a 19th-century editor's summary.
 - **Wallington, Historical Notices vol. 1 (Webb 1869).** Editor's note 26 (line 1878) on the Familists and Fuller. A pointer only. Tier: out-of-window (Charles I). No row.
@@ -49,7 +49,7 @@ Checked on archive.org by metadata fetch and, where marked, by sampling the OCR.
 
 | title | author | translator/ed. | year | url | rights basis | verified by |
 |---|---|---|---|---|---|---|
-| The eleven vendored items (§1) | see §1 | none named | 1559–1824 | archive.org items named in each file header and in `seed_fragment.yaml` | pd-us-by-date; hosts carry no rights field for the EEBO scans (Internet Archive microfilm, not access-restricted); Paradoxa 1559 carries Public Domain Mark 1.0; Strype carries NOT_IN_COPYRIGHT | direct fetch, five-point OCR sample, 2026-10-16 (Knewstub 2026-10-23). **Vendored.** |
+| The eleven vendored items (§1) | see §1 | none named | 1559–1824 | archive.org items named in each file header and in `seed_fragment.yaml` | pd-us-by-date; hosts carry no rights field for the EEBO scans (Internet Archive microfilm, not access-restricted); Paradoxa 1559 carries Public Domain Mark 1.0; Strype carries NOT_IN_COPYRIGHT | direct fetch, five-point OCR sample, October 2026 (Knewstub October 2026). **Vendored.** |
 | The Church History of Britain, vol. IV (Fuller; Brewer ed. 1845) | Thomas Fuller | J. S. Brewer | 1845 (work 1655) | archive.org `churchhistoryofb04fulluoft` | pd-us-by-date; host NOT_IN_COPYRIGHT | direct fetch, OCR 0.88; read at file lines about 24200–24640. Its footnote cites the 1580 proclamation (Wilkins IV.297) and Knewstub's imprint. Not vendored this pass. |
 | Church History of Britain, vol. V (Fuller) | Thomas Fuller | Brewer | 1845 | archive.org `churchhistoryofb05fulluoft` | pd-us-by-date; host NOT_IN_COPYRIGHT | direct fetch, OCR 0.86; read at lines 17840–17990 (the Familists' 1604 petition to James I). Not vendored. |
 | Sebastian Francks lateinische Paraphrase der deutschen Theologie und seine holländisch erhaltenen Traktate | Alfred Hegler | none | 1901 | archive.org `sebastianfrancks00hegl` | pd-us-by-date (no rights field) | direct fetch, OCR 0.96 clean. German scholarship with edited text; not vendored. |
@@ -59,7 +59,7 @@ Checked on archive.org by metadata fetch and, where marked, by sampling the OCR.
 | A Short Story of the Rise, Reign and Ruin of the Antinomians, Familists and Libertines | John Winthrop | none | 1644 | archive.org `shortstoryofrise00wint_0` | pd-us-by-date (no rights field) | search listing only. New England, out of window; not opened. |
 | Chronica, tijtboeck en gheschiet bibel (Dutch) | Sebastian Franck | none | 1583 | archive.org `chronicatijtboec00fran` | pd-us-by-date (no rights field) | direct fetch, OCR 0.69 (blackletter); 7 MB, whole-world chronicle with the "heretic history" part a small share. Dutch, not the German of 1531. Not vendored. |
 | Güldin Arch (German) | Sebastian Franck | none | 1538 | archive.org `bim_early-english-books-1641-1700_gulden-arch_franck-sebastian_1538` | pd-us-by-date | direct fetch, OCR 0.76, 1.8 MB. Not vendored this pass. |
-| Mirabilia opera Dei (1575 print); Terra Pacis (1649 reprint); The Displaying (1578 editions); Forbidden Fruit (1642 reprint); Paradoxa (1558 printing) | as above | none | as given | the item ids named in `registry_fragment.yaml` notes | pd-us-by-date | sampled 2026-10-16; duplicates of vendored texts, readable-token shares 0.66–0.90. Not vendored. |
+| Mirabilia opera Dei (1575 print); Terra Pacis (1649 reprint); The Displaying (1578 editions); Forbidden Fruit (1642 reprint); Paradoxa (1558 printing) | as above | none | as given | the item ids named in `registry_fragment.yaml` notes | pd-us-by-date | sampled October 2026; duplicates of vendored texts, readable-token shares 0.66–0.90. Not vendored. |
 | Other English Niclaes prints: Exhortatio I (1574, two items), Introductio (1575), Revelatio Dei (1575), Epistola XI (1574), Comoedia (1574), Dicta HN (1574), Proverbia (1575), Cantica (1575), Prophecy of the spirit of love (1649), Figure of the true tabernacle (1655), An Epistle sent unto two daughters of Warwick (1608), A Publishing of the Peace upon Earth (1574) | Hendrik Niclaes | none | 1574–1655 | archive.org items `bim_early-english-books-*_niclas-hendrik_*` | pd-us-by-date | Exhortatio, Introductio, Revelatio, Epistole HN and the 1608 Epistle sampled 0.77–0.90; the rest listed by metadata only. Not vendored: the Principall Epistles, Terra Pacis and Evangelium carry the voice. |
 | An Introduction to the holy understanding of the glasse of righteousnesse (H. N. and Christopher Vitell) | Niclaes and Vitell | none | 1649 | archive.org `anintroductiont00vitegoog` | pd-us-by-date; host NOT_IN_COPYRIGHT | direct fetch, OCR 0.78. Not vendored; the 1575 Introductio is a duplicate. |
 | Tudor and Stuart Proclamations 1485–1714 (calendar) | R. Steele | Earl of Crawford | 1910 | archive.org `tudorstuartprocl02crawuoft` | pd-us-by-date; host NOT_IN_COPYRIGHT | metadata only; not opened, so whether it carries the 1580 proclamation is unchecked. |
@@ -69,14 +69,14 @@ Checked on archive.org by metadata fetch and, where marked, by sampling the OCR.
 
 | candidate | why it looked promising | why it's closed |
 |---|---|---|
-| Niclaes's Dutch or Low German originals; Dutch Familist prints | The English prints are "translated out of Base-Almayne" | archive.org searches on the Dutch titles (Spiegel der Gerechtigheit, Evangelium, Huys der Liefden, Terra pacis) returned only the English EEBO items. KB items checked by title search found none. No original-language text in hand. Closed 2026-10-16. |
-| Hiel (Hendrik Jansen van Barrefelt) prints | Census names the Hiel schism | archive.org searches on "Barrefelt", "Barrevelt", "Hiel" returned only the 1781 English print (§3, unopened) and unrelated hits. No Hiel text vendored. Closed 2026-10-16. |
-| The 1580 royal proclamation, text | Census names it | Not found as a standalone item. Strype II.ii prints only the September 1579 proclamation against Stubbs's book, and does not print the 1580 one (searched the vendored file). Fuller's footnote cites Wilkins, *Concilia* IV.297; Wilkins is not located. Steele's calendar (§3) unchecked. Closed as not located, 2026-10-16. |
-| Franck's Chronica (1531), German | Census names it | No German Chronica on archive.org (title and creator searches); the Dutch 1583 (§3) is garbled and enormous; the 1969 English item `chronica0000seba` is access-restricted and in copyright. Closed 2026-10-16. |
-| Franck's Letter to Campanus | Census names the Williams and Mergal 1957 English | `spiritualanabapt0000unse` (1957) is access-restricted and in copyright. No public-domain printing of the letter found (Rembert 1899 and Hegler 1892 discuss it; the printing is in Cornelius, not located). Closed 2026-10-16. |
-| 280 Paradoxes in English (Furcha 1986) | Census names it | `280paradoxesorwo0000fran` is access-restricted and in copyright. No public-domain English of the Paradoxa. Closed 2026-10-16. |
+| Niclaes's Dutch or Low German originals; Dutch Familist prints | The English prints are "translated out of Base-Almayne" | archive.org searches on the Dutch titles (Spiegel der Gerechtigheit, Evangelium, Huys der Liefden, Terra pacis) returned only the English EEBO items. KB items checked by title search found none. No original-language text in hand. Closed October 2026. |
+| Hiel (Hendrik Jansen van Barrefelt) prints | Census names the Hiel schism | archive.org searches on "Barrefelt", "Barrevelt", "Hiel" returned only the 1781 English print (§3, unopened) and unrelated hits. No Hiel text vendored. Closed October 2026. |
+| The 1580 royal proclamation, text | Census names it | Not found as a standalone item. Strype II.ii prints only the September 1579 proclamation against Stubbs's book, and does not print the 1580 one (searched the vendored file). Fuller's footnote cites Wilkins, *Concilia* IV.297; Wilkins is not located. Steele's calendar (§3) unchecked. Closed as not located, October 2026. |
+| Franck's Chronica (1531), German | Census names it | No German Chronica on archive.org (title and creator searches); the Dutch 1583 (§3) is garbled and enormous; the 1969 English item `chronica0000seba` is access-restricted and in copyright. Closed October 2026. |
+| Franck's Letter to Campanus | Census names the Williams and Mergal 1957 English | `spiritualanabapt0000unse` (1957) is access-restricted and in copyright. No public-domain printing of the letter found (Rembert 1899 and Hegler 1892 discuss it; the printing is in Cornelius, not located). Closed October 2026. |
+| 280 Paradoxes in English (Furcha 1986) | Census names it | `280paradoxesorwo0000fran` is access-restricted and in copyright. No public-domain English of the Paradoxa. Closed October 2026. |
 | Hamilton 1981, Marsh 1994 | Census names them | In copyright; leads for readers only, not hosted. Closed. |
-| Familist wills, parish and visitation records (Marsh's evidence base) | The census counter-evidence to "one man" | These live in county archives and Marsh's book; no digitised public-domain text found on a reachable host. Closed 2026-10-16. |
+| Familist wills, parish and visitation records (Marsh's evidence base) | The census counter-evidence to "one man" | These live in county archives and Marsh's book; no digitised public-domain text found on a reachable host. Closed October 2026. |
 | Cambridge History of Christianity vol. 6 | Census reference | In copyright; reference only. |
 | Spiritual and Anabaptist Writers, Williams and Mergal 1957 | Translations of Franck, Schwenckfeld and others | Access-restricted, in copyright (as above). |
 | Hegler 1892 as a source for the Letter to Campanus | Discusses it at length | OCR 0.63 and no printing of the letter; scholarship. |
@@ -84,7 +84,7 @@ Checked on archive.org by metadata fetch and, where marked, by sampling the OCR.
 
 ## 5. Open cross-world questions
 
-- **Is the Forbidden Fruit Franck's?** The title page names "August. Eluthenius"; the attribution to Franck rests on the host catalogue. Staged `needs-ruling`. The 1640 date also puts it outside the window. Whether to treat it as Franck's voice is the lead's or Mark's call.
+- **Is the Forbidden Fruit Franck's?** The title page names "August. Eluthenius"; the attribution to Franck rests on the host catalogue. Staged `needs-ruling`. The 1640 date also puts it outside the window. Whether to treat it as Franck's voice is the lead's or the project lead's call.
 - **Franck and Niclaes in one world.** The census bundles them. They are not one community: Franck wrote in the 1530s and died in 1542; the sources in hand connect him to the Anabaptist-Spiritualist milieu (Rembert 1899), not to Niclaes. Whether VI.16 is one world or two is a cross-world mapping question. Related: the Schwenckfelders and the anti-Trinitarian current (VI.14) also read the creeds inwardly; their threads report separately.
 - **Anabaptists (VI.3).** If Franck and Campanus are placed with the radical Reformation, VI.3's thread should say so. This dossier does not decide it.
 - **English Reformation (VI.4) and Puritanism (VI.8).** Rogers, Wilkinson, Knewstub and Strype are staged there as provisional context. Whether the polemic belongs mainly to those worlds is for those threads.

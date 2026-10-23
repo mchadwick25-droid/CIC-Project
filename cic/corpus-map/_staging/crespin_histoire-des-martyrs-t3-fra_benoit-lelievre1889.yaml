@@ -1,8 +1,3 @@
-# Vendored for the Huguenots (Atlas VI.6) by the Era VII library session,
-# 2026-10-16. Tome 3 only of the Benoit/Lelievre edition (1885-89): the
-# volume whose content falls inside this world's window. The OCR renders
-# the reprinted 1619 typography's long s as f throughout, so this is a
-# second witness for exact wording (see the intake header).
 source_file: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt
 
 assignments:

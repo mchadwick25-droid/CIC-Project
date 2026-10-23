@@ -1,5 +1,3 @@
-# Proactively vendored ahead of the Lutheran Wittenberg build (Atlas
-# VI.1), per this world's own Source Readiness Dossier.
 source_file: melanchthon_augsburg-confession_anon-pg275.txt
 
 assignments:
@@ -33,7 +31,7 @@ assignments:
     confidence: assigned
     note: 'The Lutheran estates'' formal condemnation of the Anabaptists by name on the Spirit, infant baptism,
       perseverance, civil office and the millennium: the hostile confessional frame the movement lived under
-      in the Empire. Same time, different region. Read at the loci given, 2026-10-16.
+      in the Empire. Same time, different region.
 
       '
 

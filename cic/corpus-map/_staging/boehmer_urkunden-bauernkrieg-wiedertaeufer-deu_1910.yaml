@@ -1,8 +1,3 @@
-# Vendored by the library/source-research thread (Era VII session,
-# one-world agent for the-anabaptist-movements, 2026-10-16) for the German
-# text of the Schleitheim articles. Compiler slug for the file name, as
-# with vedder_balthasar-hubmaier_1905; the Schleitheim text itself is the
-# Swiss Brethren's, the slug the corpus map already uses for it.
 source_file: boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt
 
 authors_ruled:
@@ -29,7 +24,7 @@ assignments:
       The German original of the Swiss Brethren's founding confession,
       which the corpus so far held only once removed (McGlothlin 1911
       and Jackson 1901 both render Zwingli's Latin). SECOND WITNESS for
-      scan quality under Mark's OCR ruling of 2026-09-25: the Fraktur
+      scan quality under Mark's OCR ruling: the Fraktur
       text of the articles is garbled, so it serves to check the English
       against the page images, not to quote from directly. Sections I-III
       of the same file (the peasants' Twelve Articles and related
