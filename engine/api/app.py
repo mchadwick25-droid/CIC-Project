@@ -17,6 +17,7 @@ import shutil
 import threading
 import time
 from dataclasses import asdict, dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 
 from fastapi import FastAPI, Header, HTTPException, Request
@@ -25,19 +26,18 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import accounts_routes, admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
+from engine.api import accounts_routes, shelf, admin_auth, anon_cap, cost_report, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings, normalize_environ
 from engine.accounts.config import AccountsConfig
 from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
 from engine.feedback.store import FeedbackStore
-from engine.m4 import idle_close, session_code
+from engine.m4 import facilitator_turns, idle_close, session_code
 from engine.m4 import round as round_module
 from engine.m4 import turn as turn_module
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
-from engine.m7 import erase
 from engine.m7 import retention
 from engine.m7 import scheduler as m7_scheduler
 from engine.m7.qc_store import QCStore
@@ -86,6 +86,33 @@ def _sse(event: str, data: dict) -> str:
     return f"event: {event}\ndata: {json.dumps(jsonable_encoder(data), ensure_ascii=False)}\n\n"
 
 
+BOUND_ROUTING_ACTION = "visitor_bound_turn"
+BOUND_ROUTING_REASON = "monthly count of unanswered messages reached"
+
+
+def _past_the_bound(state, is_table: bool, streamed: bool):
+    """The reply to a message past the monthly bound: the Facilitator's fixed line with the
+    redirect to real people in it, and no model call. Nothing is stored for the message."""
+    turn = facilitator_turns.visitor_bound_turn()
+    if is_table:
+        body = TableMessageResponse(
+            round_no=state.turn_count, round_open=state.round_open, routing_action=BOUND_ROUTING_ACTION,
+            routing_reason=BOUND_ROUTING_REASON, degraded=False, facilitator=[turn], turn_selected=None, voice=None,
+            position=None, turn_no=None, session_closed=False,
+        )
+    else:
+        body = MessageResponse(
+            turn_no=state.turn_count, routing_action=BOUND_ROUTING_ACTION, routing_reason=BOUND_ROUTING_REASON,
+            degraded=False, facilitator=turn, voice=None,
+        )
+    if streamed:
+        return StreamingResponse(
+            iter([_sse("done", body.model_dump())]), media_type="text/event-stream",
+            headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+        )
+    return body
+
+
 def _spoke(voice) -> bool:
     """Whether a voice turn carries words. A reply with none leaves no pair in
     the memory the next turn counts from, so it is not charged either: the round
@@ -94,7 +121,7 @@ def _spoke(voice) -> bool:
     return voice is not None and bool((text or "").strip())
 
 
-def _stream_turn(handle, done_body, voiced, session_id: str, started: float, admission=None) -> StreamingResponse:
+def _stream_turn(handle, done_body, voiced, session_id: str, started: float, admission=None, on_unvoiced=None) -> StreamingResponse:
     """One turn answered as an event stream: a "sentence" event for each
     sentence as the voice finishes writing it, with the marks the finished
     plan gives it (engine.m4.sentence_stream), and a final "done" event
@@ -117,6 +144,8 @@ def _stream_turn(handle, done_body, voiced, session_id: str, started: float, adm
         else:
             if admission is not None:
                 admission.finish(voiced(result))
+            if on_unvoiced is not None and not voiced(result):
+                on_unvoiced()
             events.put(("done", result))
 
     threading.Thread(target=run, daemon=True).start()
@@ -215,6 +244,8 @@ class SessionCreateResponse(BaseModel):
     # applies); the table session round cap for a table session - so the
     # frontend can render the real configured number instead of guessing.
     round_cap: int | None = None
+    # Set only for a signed-in person: whether the conversation went on their shelf.
+    shelved: bool | None = None
 
 
 # The hard bound on what the API accepts at all, against a payload attack.
@@ -420,6 +451,13 @@ class WorldListResponse(BaseModel):
     worlds: list[WorldSummary]
 
 
+def _qc_for(deps, authorization: str | None):
+    """The review recorder for one turn, with the conversation's code in hand so its row gets the
+    conversation's own token."""
+    bind = getattr(deps.qc_recorder, "bound_to", None)
+    return bind(_extract_code(authorization)) if bind else deps.qc_recorder
+
+
 def _extract_code(authorization: str | None) -> str | None:
     if not authorization or not authorization.startswith(_AUTH_PREFIX):
         return None
@@ -551,6 +589,7 @@ def create_app(
     # no-cookie-read burst check stays the actual first line a request
     # meets, and a burst-rejected request never mints a visitor token.
     app.state.deeper = deeper
+    app.state.feedback_store = feedback_store
     if anon_cap_enabled:
         anon_cap.install(app, secret=anon_visitor_secret)
     if rate_limit:
@@ -646,7 +685,8 @@ def create_app(
                 logger.warning("table session refused: package unavailable worlds=%s", req.world_keys)
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
-            return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
+            shelved = accounts_routes.shelve_new_session(request, session_id, code)
+            return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"), shelved=shelved)
         if req.world_key is None:
             # POST {} must not fall through to default_world_key -
             # configured in production as the synthetic fixture world,
@@ -670,7 +710,8 @@ def create_app(
             logger.warning("session refused: package unavailable world=%s", world_key)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
         logger.info("session created session=%s mode=interview world=%s", session_id, world_key)
-        return SessionCreateResponse(session_id=session_id, session_code=code)
+        shelved = accounts_routes.shelve_new_session(request, session_id, code)
+        return SessionCreateResponse(session_id=session_id, session_code=code, shelved=shelved)
 
     @app.post("/api/session/{session_id}/message", response_model=MessageResponse | TableMessageResponse)
     def send_message(
@@ -679,13 +720,21 @@ def create_app(
         deps: Deps = request.app.state.deps
         state = _authenticate(deps.store, session_id, authorization)
         is_table = state.mode == "table"
-        if refused_limiter is not None and _will_be_refused(state, req.text, request, is_table):
-            if not refused_limiter.allow(ratelimit.network_of(ratelimit.client_ip(request))):
+        streamed = deps.streaming_enabled and "text/event-stream" in request.headers.get("accept", "")
+        bound = deeper_admission.MessageBoundCheck(deeper, request)
+        if bound.reached:
+            return _past_the_bound(state, is_table, streamed)
+        counted = False
+        if _will_be_refused(state, req.text, request, is_table):
+            if refused_limiter is not None and not refused_limiter.allow(ratelimit.network_of(ratelimit.client_ip(request))):
                 return JSONResponse(
                     status_code=429,
                     content={"detail": ratelimit.RETRY_DETAIL},
                     headers={"Retry-After": str(int(refused_limiter.window))},
                 )
+            # The safety check runs on this message and no voice follows.
+            bound.count()
+            counted = True
         admission = deeper_admission.new_admission(
             deeper, request,
             free_cap=round_module.TABLE_SESSION_ROUND_CAP if is_table else turn_module.SESSION_TURN_CAP,
@@ -707,7 +756,7 @@ def create_app(
             r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled,
             citation_attach_enabled=deps.citation_attach_enabled,
-            qc_recorder=deps.qc_recorder,
+            qc_recorder=_qc_for(deps, authorization),
             grant_for=admission.provider if admission is not None else None,
         )
         started = time.monotonic()
@@ -728,22 +777,27 @@ def create_app(
                     lambda on_sentence: table_wiring.handle_table_message(**call_kwargs, on_sentence=on_sentence),
                     lambda result: with_balance(TableMessageResponse(**asdict(result)).model_dump(), result),
                     lambda result: result.round_open or result.voice is not None,
-                    session_id, started, admission,
+                    session_id, started, admission, None if counted else bound.count,
                 )
 
             return _stream_turn(
                 lambda on_sentence: wiring.handle_message(**call_kwargs, on_sentence=on_sentence),
                 lambda result: with_balance(MessageResponse(**asdict(result)).model_dump(), result), lambda result: _spoke(result.voice), session_id, started, admission,
+                None if counted else bound.count,
             )
         voiced = False
         try:
             if is_table:
                 result = table_wiring.handle_table_message(**call_kwargs)
                 voiced = result.round_open or result.voice is not None
+                if not voiced and not counted:
+                    bound.count()
                 logger.info("table message handled ms=%d", (time.monotonic() - started) * 1000)
                 return TableMessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
             result = wiring.handle_message(**call_kwargs)
             voiced = _spoke(result.voice)
+            if not voiced and not counted:
+                bound.count()
         except Exception as exc:
             failure = _message_failure(exc, session_id)
             if failure is None:
@@ -774,7 +828,7 @@ def create_app(
             safety_client=deps.safety_client, safety_model_id=deps.safety_model_id,
             session_id=session_id, package_cache_dir=deps.package_cache_dir, r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled, citation_attach_enabled=deps.citation_attach_enabled,
-            qc_recorder=deps.qc_recorder,
+            qc_recorder=_qc_for(deps, authorization),
         )
         if deps.streaming_enabled and "text/event-stream" in request.headers.get("accept", ""):
             return _stream_turn(
@@ -805,14 +859,21 @@ def create_app(
     @app.delete("/api/session/{session_id}", status_code=204)
     def delete_session_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
         """A participant's deletion request, authorised by the session's own
-        code: the conversation leaves the event log and the M7 audit files
-        now, and the daily backups within their 14-day rotation. The
-        anonymous quality-control store holds nothing that links to it."""
+        code: the conversation leaves the event log, the M7 audit files, the
+        feedback rows that name it and the quality-control rows now, and the
+        daily backups within their 14-day rotation. Its id leaves the usage
+        rows; the token counts stay for the cost record. A shelved conversation
+        is also taken off its shelf."""
         deps: Deps = request.app.state.deps
         _authenticate(deps.store, session_id, authorization)
-        events_deleted = deps.store.delete_session(session_id)
-        audit_files = erase.erase_session(deps.m7_audit_root, session_id) if deps.m7_audit_root else 0
-        logger.info("session deleted session=%s events=%d audit_files=%d", session_id, events_deleted, audit_files)
+        accounts = getattr(request.app.state, "accounts", None)
+        counts = shelf.ConversationEraser(
+            deps.store, deps.usage_store, request.app.state.feedback_store, deps.qc_recorder, deps.m7_audit_root,
+            on_erased=accounts.service.note_erased if accounts is not None else None,
+        ).erase(session_id, _extract_code(authorization))
+        if accounts is not None:
+            accounts.service.store.shelf_forget_session(session_id)
+        logger.info("session deleted session=%s %s", session_id, " ".join(f"{k}={v}" for k, v in counts.items()))
         return Response(status_code=204)
 
     @app.get("/api/session/{session_id}/round-close-reasons", response_model=RoundCloseReasonsResponse)
@@ -864,6 +925,15 @@ def create_app(
         _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
         summary = wiring.get_usage_summary(deps.store, deps.usage_store, since=since, m7_audit_root=deps.m7_audit_root)
         return UsageSummaryResponse(**asdict(summary))
+
+    @app.get("/api/admin/cost-report")
+    def get_cost_report_endpoint(request: Request, authorization: str | None = Header(default=None)):
+        """Operator-only, same gate as usage-summary: what a voiced round and a
+        safety check cost, from the usage log. Aggregate numbers only; see
+        engine.api.cost_report for how a round is rebuilt from the log."""
+        deps: Deps = request.app.state.deps
+        _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
+        return cost_report.report_for(deps.store, deps.usage_store, datetime.now(timezone.utc))
 
     @app.get("/api/admin/auth-status", response_model=AdminAuthStatusResponse)
     def get_admin_auth_status(request: Request):
@@ -1059,12 +1129,21 @@ def _build_real_app() -> FastAPI:
     # The anonymous quality-control store and the daily retention job
     # (System Hub decision 34): conversations inactive for 90 days leave
     # the event log; QC answer text older than 90 days is deleted.
-    qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry)
+    qc_key = os.environ.get("CIC_QC_TOKEN_KEY") or None
+    if accounts_runtime is not None and (not qc_key or len(qc_key) < 32):
+        raise accounts_routes.AccountsConfigError(
+            "CIC_ACCOUNTS_ENABLED is on but CIC_QC_TOKEN_KEY is missing or short: a deleted conversation's review rows could not be found"
+        )
+    previous_qc_keys = tuple(k for k in (os.environ.get("CIC_QC_TOKEN_KEYS_PREVIOUS") or "").split(",") if k.strip())
+    qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry, secret=qc_key, previous=previous_qc_keys)
     feedback_store = FeedbackStore(settings.feedback_db_path)
+    exempt = {"is_exempt": accounts_runtime.service.is_shelved if accounts_runtime is not None
+              else accounts_routes.shelf_exemption_from_file(accounts_config.durable_db_path)}
     retention.start_background_scheduler(
         settings.events_db_path, settings.qc_db_path, Path(settings.events_db_path).parent / "retention",
         audit_root=Path(settings.events_db_path).parent / "m7-audits",
         feedback_store=feedback_store,
+        **exempt,
     )
 
     return create_app(

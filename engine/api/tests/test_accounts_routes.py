@@ -10,11 +10,13 @@ import pytest
 from fastapi.testclient import TestClient
 
 from engine.accounts.config import AccountsConfig
+from engine.accounts.contacts import ContactStore
 from engine.accounts.keys import KeyRing
 from engine.accounts.service import AccountsService
 from engine.accounts.store import AccountStore
 from engine.accounts.tests.conftest import ADDRESS_KEY, SESSION_KEY, Clock, FakeMailer, FakeVerifier
 from engine.api import accounts_routes
+from engine.api.contact_cipher import ContactCipher
 from engine.api.accounts_routes import AccountsConfigError, AccountsRuntime, build_runtime
 from engine.api.app import create_app
 
@@ -31,9 +33,11 @@ def mailer():
 @pytest.fixture
 def runtime(tmp_path, mailer):
     store = AccountStore(str(tmp_path / "d.db"), str(tmp_path / "e.db"))
-    service = AccountsService(store, KeyRing(ADDRESS_KEY, SESSION_KEY), mailer, clock=Clock())
+    contacts = ContactStore(str(tmp_path / "c.db"), ContactCipher("c" * 40))
+    service = AccountsService(store, KeyRing(ADDRESS_KEY, SESSION_KEY), mailer, clock=Clock(), contacts=contacts)
     yield AccountsRuntime(service=service, miss_delay_seconds=0.0, start_floor_seconds=0.0)
     store.close()
+    contacts.close()
 
 
 def make_app(store, usage_store, world_loader, registry, *, accounts=None):
@@ -84,7 +88,7 @@ def test_sign_in_sets_a_host_only_http_only_same_site_cookie(http, mailer):
     assert "HttpOnly" in header and "Secure" in header and "SameSite=lax" in header.replace("Lax", "lax") and "Path=/" in header
     assert "Domain" not in header
     me = http.get("/api/accounts/me").json()
-    assert me["signed_in"] and set(me) == {"signed_in", "refill_day", "age_band", "sign_in_methods"}
+    assert me["signed_in"] and set(me) == {"signed_in", "refill_day", "age_band", "sign_in_methods", "has_recovery_code", "recovery_pending"}
 
 
 def test_signed_out_me_says_so_and_a_protected_route_is_401(http):
@@ -151,7 +155,7 @@ def test_address_change_over_http_signs_out_other_devices(http, mailer):
     step_up(http, mailer)
     started = http.post("/api/accounts/address/start", json={"new_address": NEW}, headers=H)
     assert started.status_code == 200
-    r = http.post("/api/accounts/address/finish", json={"challenge": started.json()["challenge"], "code": mailer.last_code(NEW)}, headers=H)
+    r = http.post("/api/accounts/address/finish", json={"challenge": started.json()["challenge"], "code": mailer.last_code(NEW), "new_address": NEW}, headers=H)
     assert r.status_code == 200
     assert other.get("/api/accounts/me").json() == {"signed_in": False}
     assert http.get("/api/accounts/me").json()["signed_in"]
@@ -191,9 +195,17 @@ def test_the_access_log_filter_drops_accounts_lines_only():
 
 def test_start_up_refuses_with_no_key_a_short_key_or_no_mail(tmp_path, mailer):
     config = AccountsConfig.from_env(str(tmp_path))
-    env = {"CIC_ACCOUNTS_KEY": ADDRESS_KEY, "CIC_ACCOUNTS_SESSION_KEY": SESSION_KEY}
+    contact_key, shelf_key = "c" * 40, "h" * 40
+    env = {"CIC_ACCOUNTS_KEY": ADDRESS_KEY, "CIC_ACCOUNTS_SESSION_KEY": SESSION_KEY, "CIC_ACCOUNTS_CONTACT_KEY": contact_key,
+           "CIC_ACCOUNTS_SHELF_KEY": shelf_key}
     with pytest.raises(AccountsConfigError):
         build_runtime(config, {}, mailer)
+    for bad in ("", "short", ADDRESS_KEY, SESSION_KEY):
+        with pytest.raises(AccountsConfigError, match="contact key"):
+            build_runtime(config, {**env, "CIC_ACCOUNTS_CONTACT_KEY": bad}, mailer)
+    for bad in ("", "short", ADDRESS_KEY, SESSION_KEY, contact_key):
+        with pytest.raises(AccountsConfigError, match="shelf key"):
+            build_runtime(config, {**env, "CIC_ACCOUNTS_SHELF_KEY": bad}, mailer)
     with pytest.raises(AccountsConfigError):
         build_runtime(config, {**env, "CIC_ACCOUNTS_KEY": "short"}, mailer)
     with pytest.raises(AccountsConfigError):
@@ -332,3 +344,43 @@ def test_a_provider_token_is_in_no_log_line(http, runtime, caplog):
     caplog.set_level(logging.DEBUG)
     _, nonce, body = provider_finish(http, subject="g-secret-subject", over_18=True)
     assert "g-secret-subject" not in caplog.text and nonce not in caplog.text
+
+
+def test_recovery_over_http_from_code_to_cancel(http, mailer, runtime):
+    sign_in(http, mailer)
+    step_up(http, mailer)
+    code = http.post("/api/accounts/recovery/code", json={}, headers=H).json()["recovery_code"]
+    thief = TestClient(http.app, base_url="https://testserver")
+    started = thief.post("/api/accounts/recovery/start", json={"recovery_code": code, "new_address": NEW}, headers=H)
+    assert started.status_code == 200 and started.json()["status"] == "sent"
+    wrong = thief.post("/api/accounts/recovery/start", json={"recovery_code": "nope", "new_address": "x@example.org"}, headers=H)
+    assert wrong.status_code == 200 and set(wrong.json()) == set(started.json())
+    body = {"challenge": started.json()["challenge"], "code": mailer.last_code(NEW), "new_address": NEW}
+    assert thief.post("/api/accounts/recovery/finish", json={**body, "code": "000000"}, headers=H).status_code == 400
+    done = thief.post("/api/accounts/recovery/finish", json=body, headers=H)
+    assert done.status_code == 200 and done.json()["recovery_code"] and done.json()["effective_on"]
+    assert "set-cookie" not in done.headers
+    me = http.get("/api/accounts/me").json()
+    assert me["recovery_pending"] == {"effective_on": done.json()["effective_on"]}
+    cancel = mailer.notices[-1][2]["cancel_code"]
+    assert thief.post("/api/accounts/recovery/cancel", json={"address": ADDR, "cancel_code": "nope"}, headers=H).status_code == 400
+    assert thief.post("/api/accounts/recovery/cancel", json={"address": ADDR, "cancel_code": cancel}, headers=H).status_code == 200
+    assert http.get("/api/accounts/me").json()["recovery_pending"] is None
+
+
+def test_the_recovery_routes_need_the_header(http):
+    for path, body in (("code", {}), ("start", {"recovery_code": "a", "new_address": NEW}),
+                       ("finish", {"challenge": "a", "code": "1", "new_address": NEW}),
+                       ("cancel", {"address": ADDR, "cancel_code": "a"}), ("cancel-signed-in", {})):
+        assert http.post(f"/api/accounts/recovery/{path}", json=body).status_code == 400
+
+
+def test_a_signed_in_owner_cancels_over_http(http, mailer):
+    sign_in(http, mailer)
+    step_up(http, mailer)
+    code = http.post("/api/accounts/recovery/code", json={}, headers=H).json()["recovery_code"]
+    thief = TestClient(http.app, base_url="https://testserver")
+    started = thief.post("/api/accounts/recovery/start", json={"recovery_code": code, "new_address": NEW}, headers=H).json()
+    thief.post("/api/accounts/recovery/finish", json={"challenge": started["challenge"], "code": mailer.last_code(NEW), "new_address": NEW}, headers=H)
+    assert http.post("/api/accounts/recovery/cancel-signed-in", json={}, headers=H).status_code == 200
+    assert http.post("/api/accounts/recovery/cancel-signed-in", json={}, headers=H).status_code == 400

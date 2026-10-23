@@ -25,7 +25,9 @@ class TokenRates:
     later_rounds_from: int
     free_window: int
     free_window_days: int
-    free_rounds: int
+    # The length of the conversation a pack's size is described in; it limits nothing.
+    example_rounds: int
+    free_network_window: int
 
 
 @dataclass(frozen=True)
