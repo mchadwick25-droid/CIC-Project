@@ -19,3 +19,15 @@ assignments:
       account of that church, matching "context," not this entry's own
       voice, even though the imperial officials' own words are quoted
       within the dialogue.
+
+  - row_id: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90--trial-africa
+    work: "Relatio motionis (Maximus's trial): charged with handing Egypt and Africa to the Saracens; the former official of Peter, governor of Numidia"
+    author: maximus-confessor
+    locus: "raw lines ~6810-6818; prolegomena on Africa ~4543"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: context
+    confidence: needs-ruling
+    note: >
+      Named in the census; whether Maximus is tradition or context for an African Latin
+      church is a needs-ruling (see the Disputation row).

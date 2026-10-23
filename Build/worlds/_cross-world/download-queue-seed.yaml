@@ -11432,3 +11432,372 @@ queue:
       Domain Mark 1.0), 2026-10-23
     status: downloaded
     vendored_as: "brosset_histoire-de-la-georgie-pt1-fra_1849.txt"
+
+  - title: "The Rule of Saint Benedict"
+    author: "Benedict of Nursia"
+    translator: "Cardinal Gasquet"
+    year: 1925
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (2026-10-23): the Rule in public-domain English; the entry had no
+      own-voice text in its window before this.
+    url: "https://archive.org/details/ruleofsaintbened0000bene"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Chatto and Windus 1925;
+      no copyright field); the Prologue and chapters located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "benedict_rule-of-saint-benedict_gasquet1925.txt"
+
+  - title: "The Rule of St. Benedict, Latin with English (Hunter Blair)"
+    author: "Benedict of Nursia"
+    translator: "D. Oswald Hunter Blair"
+    year: 1907
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (2026-10-23): the Latin Rule with a facing English, for verifying
+      the Gasquet English against the original.
+    url: "https://archive.org/details/TheRuleOfStBenedict"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1907; CC Public Domain
+      Mark 1.0), 2026-10-23
+    status: downloaded
+    vendored_as: "benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt"
+
+  - title: "Patrologia Latina 88 (Regula Magistri, Cresconius)"
+    author: "The Master (anonymous); Cresconius"
+    translator: "J.-P. Migne (compiler)"
+    year: 1862
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (2026-10-23): the Rule of the Master, Benedict's source, in its
+      only public-domain edition; Latin only.
+    url: "https://archive.org/details/patrologiaecur88mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800; the
+      title leaf reads 1862); the Regula Magistri located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "regula-magistri-cresconius-pl88-lat_migne1862.txt"
+
+  - title: "The Life of Saint Severinus"
+    author: "Eugippius"
+    translator: "George W. Robinson"
+    year: 1914
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (2026-10-23): a contemporary Italian abbot's hagiography from
+      Benedict's generation, in public-domain English.
+    url: "https://archive.org/details/saintseverinus00eugiuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Harvard 1914), 2026-10-23
+    status: downloaded
+    vendored_as: "eugippius_life-of-saint-severinus_robinson1914.txt"
+
+  - title: "The Book of the Popes (Liber Pontificalis), vol. I"
+    author: "Liber Pontificalis (anonymous)"
+    translator: "Louise Ropes Loomis"
+    year: 1916
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (2026-10-23): the Roman church's own record of its popes through
+      the Gothic war and the Lombard invasion; the Gregorian dossier named it as a gap.
+    url: "https://archive.org/details/LiberPontificalisV1"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1916; CC Public Domain
+      Mark 1.0), 2026-10-23
+    status: downloaded
+    vendored_as: "liber-pontificalis_book-of-the-popes-v1_loomis1916.txt"
+
+  - title: "History of the Langobards"
+    author: "Paul the Deacon"
+    translator: "William Dudley Foulke"
+    year: 1907
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (2026-10-23): the Lombard side of Benedict's and Gregory's Italy,
+      in public-domain English.
+    url: "https://archive.org/details/historyoflangoba00pauluoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Penn
+      1907), 2026-10-23
+    status: downloaded
+    vendored_as: "paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+
+  - title: "Boethius, The Theological Tractates and The Consolation of Philosophy (Loeb)"
+    author: "Boethius"
+    translator: "H. F. Stewart; E. K. Rand"
+    year: 1918
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (2026-10-23): the Latin Christology of Gothic Italy, written
+      against the Acacian and Eutychian disputes, in public-domain English.
+    url: "https://archive.org/details/theologicaltrac00testgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Heinemann 1918), 2026-10-23
+    status: downloaded
+    vendored_as: "boethius_theological-tractates-consolation_stewart-rand1918.txt"
+
+  - title: "The Letters of Cassiodorus (Variae), condensed"
+    author: "Cassiodorus"
+    translator: "Thomas Hodgkin"
+    year: 1886
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Ostrogothic kingdom's own chancery in English,
+      condensed.
+    url: "https://www.gutenberg.org/ebooks/18590"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched; PD statement
+      and 1886 imprint read, 2026-10-23
+    status: downloaded
+    vendored_as: "cassiodorus_variae-letters-hodgkin1886.txt"
+
+  - title: "Patrologia Latina 70 (Cassiodorus, Institutiones)"
+    author: "Cassiodorus"
+    translator: "J.-P. Migne (compiler)"
+    year: 1866
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (2026-10-23): Cassiodorus's Vivarium handbook, the monastic
+      education counterpart to Benedict's Rule; Latin only.
+    url: "https://archive.org/details/patrologiaecursu70mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800; Migne
+      PL printed 1844-1866); the Institutiones located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "cassiodorus_opera-institutiones-pl70-lat_migne1847.txt"
+
+  - title: "Die Gotische Bibel des Vulfila, nebst der Skeireins, dem Kalender und den Urkunden"
+    author: "Wulfila; anonymous"
+    translator: "Ernst Bernhardt (ed.)"
+    year: 1884
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Gothic Homoian church's own scripture and its
+      one commentary, in the Goths' language.
+    url: "https://archive.org/details/diegotischebibe00berngoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; 1884),
+      2026-10-23
+    status: downloaded
+    vendored_as: "wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt"
+
+  - title: "Die gotische Bibel, vol. I (Streitberg)"
+    author: "Wulfila"
+    translator: "Wilhelm Streitberg (ed.)"
+    year: 1908
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the critical edition of the Gothic Bible the census
+      names.
+    url: "https://archive.org/details/diegotischebibe02stregoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Winter
+      1908), 2026-10-23
+    status: downloaded
+    vendored_as: "wulfila_gothic-bible-v1-got_streitberg1908.txt"
+
+  - title: "Patrologia Latina 42 (Augustine: Sermo Arianorum, Collatio cum Maximino, Contra Maximinum)"
+    author: "Augustine; Maximinus"
+    translator: "J.-P. Migne (compiler)"
+    year: 1886
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the best preserved Homoian bishop's own arguments,
+      from the Collatio, in Latin.
+    url: "https://archive.org/details/patrologiaecursu0042mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Migne; the 1886 printing
+      noted); the Sermo Arianorum located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt"
+
+  - title: "Historia persecutionis Africanae provinciae (CSEL 7)"
+    author: "Victor of Vita"
+    translator: "Michael Petschenig (ed.)"
+    year: 1881
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (2026-10-23): the Vandal-era African church in a Catholic
+      bishop's own account; this re-verifies the existing queue row, now vendored.
+    url: "https://archive.org/details/victorisepiscop01victgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; 1881);
+      title page read, 2026-10-23
+    status: downloaded
+    vendored_as: "victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt"
+
+  - title: "MGH Auctores antiquissimi III (Victor Vitensis, Corippus)"
+    author: "Victor of Vita; Corippus"
+    translator: "Karl Halm (ed.)"
+    year: 1879
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (2026-10-23): Corippus's epic is the one poem of Byzantine
+      Africa; Halm's Victor is the second critical text.
+    url: "https://archive.org/details/monumentagerman03geseuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; MGH
+      volume III), 2026-10-23
+    status: downloaded
+    vendored_as: "mgh-aa-3_victor-vitensis-corippus-halm1879.txt"
+
+  - title: "The memorable and tragical history of the persecution in Africke (Victor of Vita, 1605)"
+    author: "Victor of Vita"
+    translator: "unnamed (1605)"
+    year: 1605
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the only public-domain English of Victor of Vita,
+      from 1605.
+    url: "https://archive.org/details/bim_early-english-books-1475-1640_the-memorable-and-tragic_victor-bp-of-vita_1605"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1605, English secret
+      press; no copyright field), 2026-10-23
+    status: downloaded
+    vendored_as: "victor-of-vita_memorable-and-tragical-history-persecution-eng_1605.txt"
+
+  - title: "Patrologia Latina 65 (Fulgentius of Ruspe, Ferrandus)"
+    author: "Fulgentius of Ruspe; Ferrandus"
+    translator: "J.-P. Migne (compiler)"
+    year: 1847
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Vandal king Thrasamund's own objections
+      preserved in Fulgentius's replies; Latin only.
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_065"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1847; CC Public Domain
+      Mark 1.0); Thrasamund's objections located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt"
+
+  - title: "Collectio canonum Ecclesiae Hispanae (Madrid, 1808), with the acts of Toledo III"
+    author: "Spanish councils (anonymous acts)"
+    translator: "unnamed editors (1808)"
+    year: 1808
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (2026-10-23): the complete Toledo III acts, including the former
+      Arian bishops' confession and signatures, which the Bruns edition already vendored
+      omits.
+    url: "https://archive.org/details/A28009301"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1808; CC Public Domain
+      Mark 1.0); the confession and signatures located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+
+  - title: "The Origin and Deeds of the Goths (Jordanes, Getica)"
+    author: "Jordanes"
+    translator: "Charles Christopher Mierow"
+    year: 1908
+    world: "gothic-and-vandal-homoian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Goths' own origin story as a Roman-Gothic
+      historian told it, with their Arian faith and Vulfila.
+    url: "https://www.gutenberg.org/ebooks/14809"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched; PD statement
+      and 1908 date read, 2026-10-23
+    status: downloaded
+    vendored_as: "jordanes_origin-and-deeds-of-the-goths_mierow1908.txt"
+
+  - title: "Patrologia Latina 67 (Facundus, Ferrandus, Dionysius Exiguus, Caesarius)"
+    author: "Facundus of Hermiane; Ferrandus; Dionysius Exiguus; Caesarius of Arles"
+    translator: "J.-P. Migne (compiler)"
+    year: 1865
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (2026-10-23): the African church's own writing on the Three
+      Chapters, and Caesarius of Arles's rules; Latin only.
+    url: "https://archive.org/details/patrologiaecursu67mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800; the
+      title leaf reads 1865); Facundus, Ferrandus and the Caesarian rules located in the
+      fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+
+  - title: "Patrologia Latina 68 (Liberatus, Victor of Tunnuna, Primasius, Junillus)"
+    author: "Liberatus; Victor of Tunnuna; Primasius; Junillus"
+    translator: "J.-P. Migne (compiler)"
+    year: 1866
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (2026-10-23): the Byzantine-African church's own authors, in
+      Latin.
+    url: "https://archive.org/details/patrologiaecur68mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800; Migne
+      PL printed 1844-1866); the contents list located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
+
+  - title: "Mansi, Sacrorum conciliorum collectio, tomus X (Welter facsimile)"
+    author: "Councils (anonymous acts)"
+    translator: "G. D. Mansi (ed.)"
+    year: 1901
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (2026-10-23): the African church's synod letters of 646, the
+      window's closing statement.
+    url: "https://archive.org/details/sacrorumconcilio0010vari"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1901; no copyright
+      field); the 646 letters located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+
+  - title: "Patrologia Graeca 91 (Maximus the Confessor: Disputation with Pyrrhus)"
+    author: "Maximus the Confessor"
+    translator: "J.-P. Migne (compiler)"
+    year: 1860
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (2026-10-23): the Carthage disputation of 645.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_1860_91"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1860; no copyright
+      field); the Disputation located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "maximus-confessor_disputatio-cum-pyrrho-pg91-grc-lat_migne1860.txt"
+
+  - title: "Theodor von Mopsuestia und Junilius Africanus (with the Instituta regularia)"
+    author: "Junillus Africanus"
+    translator: "Heinrich Kihn (ed.)"
+    year: 1880
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (2026-10-23): the critical Latin text of Junillus's Instituta,
+      the African Latin voice at Justinian's court.
+    url: "https://archive.org/details/theodorvonmopsue00kihnuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Herder
+      1880), 2026-10-23
+    status: downloaded
+    vendored_as: "kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt"

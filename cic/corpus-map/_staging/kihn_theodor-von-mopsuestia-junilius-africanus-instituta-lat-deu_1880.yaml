@@ -1,0 +1,14 @@
+source_file: kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt
+
+assignments:
+  - row_id: kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880--instituta-regularia
+    work: "Junillus Africanus, Instituta regularia divinae legis (Latin critical text)"
+    author: junillus-africanus
+    locus: "the critical text within the volume"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: tradition
+    confidence: provisional
+    note: >
+      An African quaestor's handbook of biblical exegesis in the Antiochene manner, c. 551;
+      Latin only; the surrounding German study is scholarship and not to be quoted.

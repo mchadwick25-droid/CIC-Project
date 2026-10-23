@@ -1,0 +1,13 @@
+source_file: wulfila_gothic-bible-v1-got_streitberg1908.txt
+
+assignments:
+  - row_id: wulfila_gothic-bible-v1-got_streitberg1908--gothic-bible-critical
+    work: "The Gothic Bible, critical text (Streitberg), vol. I"
+    author: wulfila
+    locus: "biblical books by chapter and verse"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      The critical text of the same Bible; provisional on dating, as for the Bernhardt row.

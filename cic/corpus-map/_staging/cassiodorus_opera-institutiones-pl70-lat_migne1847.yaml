@@ -1,0 +1,14 @@
+source_file: cassiodorus_opera-institutiones-pl70-lat_migne1847.txt
+
+assignments:
+  - row_id: cassiodorus_opera-institutiones-pl70-lat_migne1847--institutiones
+    work: "Cassiodorus, Institutiones divinarum et saecularium litterarum, Latin"
+    author: cassiodorus
+    locus: "near the head of the volume (contents at raw line ~302)"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+    role: context
+    confidence: provisional
+    note: >
+      The monastic reading programme of Vivarium; context, since Cassiodorus's monastery is
+      not Benedict's. Latin only.
