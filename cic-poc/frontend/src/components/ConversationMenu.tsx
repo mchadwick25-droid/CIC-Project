@@ -8,9 +8,10 @@ interface ConversationMenuProps {
   onReport?: () => void;
   onLeave: () => void;
   onDelete?: () => void;
+  account?: { label: string; onSelect: () => void };
 }
 
-export function ConversationMenu({ buttonRef, aboutLabel, onAbout, onFeedback, onReport, onLeave, onDelete }: ConversationMenuProps) {
+export function ConversationMenu({ buttonRef, aboutLabel, onAbout, onFeedback, onReport, onLeave, onDelete, account }: ConversationMenuProps) {
   const [open, setOpen] = useState(false);
   const listRef = useRef<HTMLDivElement>(null);
 
@@ -64,6 +65,11 @@ export function ConversationMenu({ buttonRef, aboutLabel, onAbout, onFeedback, o
       </button>
       {open && (
         <div className="conv-menu__list sans" role="menu" ref={listRef}>
+          {account && (
+            <button type="button" role="menuitem" className="conv-menu__account" onClick={choose(account.onSelect)}>
+              {account.label}
+            </button>
+          )}
           <button type="button" role="menuitem" onClick={choose(onAbout)}>
             {aboutLabel}
           </button>

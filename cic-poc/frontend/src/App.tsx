@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { AccountHome } from './components/AccountHome';
 import { useConversation } from './hooks/useConversation';
 import { useVisibleHeight } from './hooks/useVisibleHeight';
 import { useTable } from './hooks/useTable';
@@ -276,6 +277,7 @@ function App() {
 
   return (
     <div className="app-shell">
+      <AccountHome />
       {screen === 'arriving' && (
         <p className="arriving-hold" role="status">
           <span className="visually-hidden">Opening the conversation</span>
