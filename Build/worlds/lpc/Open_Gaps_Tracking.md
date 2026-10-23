@@ -1759,3 +1759,7 @@ Logged 2026-10-23. Recheck files in `Review-Artifacts/` under the Cap ruling "lp
 - **P1 open, Doc_09 (Round 10):** `lpc.contested.cyprian-death-genre` line ~22 still calls the Acta "strictly documentary" and unread, and quotes sentences the retelling removed. P2: four Acta renderings each omit a clause.
 - **Not yet rechecked:** Doc_01 and Doc_02, whose open findings wait on the project lead's four decisions (OG-52).
 - **Owner.** Under the ruling, these go to the project lead for the route; then the `lpc` build thread.
+
+### OG-54. Assess the nine tractatus in Morin 1917 ascribed to Optatus and others of Augustine's school (2026-10-23).
+
+Logged 2026-10-23 (Decision Log, "The 133-year silence qualified"). `augustine_sermones-guelferbytani-lat_morin1917.txt` from line 10297 prints nine tractatus headed "SS. Optati Milevitani, Quodvultdei Carthaginiensis episcoporum aliorumque ex Augustini schola"; a manuscript titles one a sermon of Optatus for the feast of the Holy Innocents (lines 10846 to 10848). Registry row 267 covers only the 33 Augustine sermons. Owner: the `lpc` build thread with the Library for the Registry rows. Closes when each of the nine has an ascription with a confidence tag and a Registry row or a recorded exclusion, and the silence claim is confirmed or changed by change order.

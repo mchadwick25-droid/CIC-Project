@@ -2553,3 +2553,11 @@ Alternatives shown: (1) one revision pass fixing the P0 and every P1, each fix v
 **Question** (`Review-Artifacts/Doc_01_ChangeOrder_Review_Round13.md` P1-3). "All of Augustine's sermons" omitted Dolbeau's 26 (Registry row 50, in copyright, not vendored), so an absence record could claim more than the evidence holds.
 **Alternatives shown.** (1) say plainly that the scope is the sermons the vendored editions hold, name Dolbeau's 26 as known and not used, and limit every absence record to the sermons held; (2) pursue rights to Dolbeau's edition; (3) leave them out without mention.
 **Chosen.** 1 (project lead, 2026-10-23, "1, alll public domain sermons"). The scope is every sermon of Augustine in a public-domain edition held in the Library, less the two doubtful blocks; absence records speak only for the sermons held. Applied in Doc_01 §2 and Doc_02.
+
+---
+
+### 2026-10-23 — The 133-year silence qualified; the Optatus-ascribed sermons to be assessed (project lead's ruling)
+
+**Question** (`Review-Artifacts/Doc_01_ChangeOrder_Review_Round13.md` P1-2). Morin 1917 (Registry row 267) prints nine tractatus headed as by Optatus of Milevis, Quodvultdeus of Carthage and others of Augustine's school (`augustine_sermones-guelferbytani-lat_morin1917.txt` line 10297); a manuscript titles one a feast-day sermon of Optatus (lines 10846 to 10848). Optatus wrote within 258 to 391. Doc_01 states the silence of that interval as settled.
+**Alternatives shown.** (1) qualify the silence now to "no surviving ordinary-pastoral voice that this build has assessed", tag it Contested, and open an assessment of the nine tractatus; (2) assess the nine first; (3) keep the silence unqualified.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). Every site that states the silence (Doc_01 §2, §5, §8; Doc_02 §7; Doc_05 §0.3, §7; Doc_07; Doc_08 §1, 3B-2; Doc_09 §1, §6) takes the qualification. The assessment of the nine and Optatus's world placement stay open (OG-54, OG-43). If an Optatus sermon holds up, the silence claim changes by a named change order.
