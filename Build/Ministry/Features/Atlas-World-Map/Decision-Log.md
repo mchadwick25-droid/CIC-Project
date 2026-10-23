@@ -6678,3 +6678,15 @@ choice is made.
 **Not checked:** real phones, a real trackpad pinch, a screen reader, and the keys while the panel is open.
 
 **Next action:** Mark tries it on his own devices. Nothing was deployed.
+
+---
+
+## 2026-10-21 — Church Family Tree on phones: smooth pinch and a glide after a flick
+
+**Why:** Mark reported the Tree is not smooth or easy on a phone. A Chromium test (390×844 window, CPU slowed 4×) showed the cause. A one-finger pan was fine. A pinch was slow on every move: 40 of 40 frames over 50 ms, 95th percentile 117–183 ms. A trace showed the cost: the map has 364 SVG `<text>` labels, and each scale change re-lays-out all of them, while the `--zoom-scale` write restyled about 2,000 nodes on every move. Ruled out by measurement: `mix-blend-mode`, the `getBoundingClientRect()` call, and a CSS transform on the SVG.
+
+**Changed (`cic-website/atlas-v3.html`):**
+- While two fingers are down, the labels are hidden and the `--zoom-scale` write is held. Both come back when the fingers lift. Same test after the change: 0 of 40 slow frames, 95th percentile 17 ms, in two runs.
+- A fast one-finger flick now glides to a stop. The glide stops when a finger lands, after a pinch, after a pause before lifting, and when "Reset view" is pressed. It is off when the device asks for reduced motion.
+
+**Not checked:** a real phone, how hiding labels during a pinch reads by eye, and whether the glide distance feels right. The wheel, key and zoom-button changes from option A sit alongside this change on the same page.
