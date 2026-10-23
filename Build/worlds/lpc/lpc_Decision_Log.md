@@ -2523,3 +2523,9 @@ Alternatives shown: (1) a Cap ruling for one targeted Opus recheck of the change
 **Evidence.** `Review-Artifacts/Doc09_Acta_Proconsularia_Read_lpcstory006_2026-10-23.md`. The Acta Proconsularia (one edition, Hartel's, in three printings) confirms the crowd, the overnight vigil, "Deo gratias", the kneeling, the brothers' cry, and Cyprian's own hand over his eyes. Pontius alone gives the trees, Zacchaeus, the hurried executioner, the hand strengthened "from above" and the centurion. The Acta has the presbyter and the subdeacon Julianus tie the cloths; Pontius has Cyprian do it.
 **Alternatives shown.** (1) retell at Tier 1 on what both attest, Pontius-only details marked as his, the contradiction stated; (2) keep Tier 3 with the Acta's corrections; (3) split into a Tier 1 execution account and a Tier 3 Pontius retelling.
 **Chosen.** 1 (project lead, 2026-10-23, "1"). The retelling edits the story chunk, the story record and Doc_09 §3, and starts only after the Doc_09 review now running returns, so that review reads one state. It is checked independently against the Latin before it proceeds. The general CF V7.4 Tier 3 question (OG-7) stays open.
+
+---
+
+### 2026-10-23 — Route for the nine review findings: revision pass, then targeted recheck (project lead's ruling)
+
+Alternatives shown: (1) one revision pass fixing the P0 and every P1, each fix verified at source, P2s carried where plainly correct, then one targeted Opus recheck of the fixes under a new Cap ruling; (2) the same pass, then a second full re-review; (3) fix only the P0 and factual errors now. Chosen: 1 (project lead, 2026-10-23, "1"). Cap ruling recorded in the System Hub Decision Log, naming the nine recheck files. Four findings wait on the project lead's own decisions before their fix (OG-52): the D3 narrowing, D4's appendix wording, Dolbeau's sermons, and the Optatus-ascribed sermon in Morin 1917.
