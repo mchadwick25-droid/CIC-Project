@@ -171,7 +171,7 @@ Every other lens converges here, and each converges on the same shape: a rite th
 
 ### 3A. Memory Structures — **applied**
 
-This world's memory is pastoral biography and conciliar record, and both are thin relative to what it taught (§2C). **The structurally interesting fact is how its second phase remembers its first: not through an institutional chain of transmission but through texts read later.** Augustine reads Cyprian's conciliar acts, prompted by the Donatists citing them against him, and argues with him. Doc_01 §6 places that engagement as an internal force with an external prompt and flags the placement as a judgement rather than a clean case; it is carried that way here. **The 133-year silence of any ordinary-pastoral voice in this world's record (Doc_02 §7) is therefore not only an evidentiary gap but a feature of the world's own memory structure** — continuity across it is textual, not successive.
+This world's memory is pastoral biography and conciliar record, and both are thin relative to what it taught (§2C). **The structurally interesting fact is how its second phase remembers its first: not through an institutional chain of transmission but through texts read later.** Augustine reads Cyprian's conciliar acts, prompted by the Donatists citing them against him, and argues with him. Doc_01 §6 places that engagement as an internal force with an external prompt and flags the placement as a judgement rather than a clean case; it is carried that way here. **The 133-year silence of any ordinary-pastoral voice this build has assessed in this world's record (Doc_02 §7; Contested, OG-54) is therefore not only an evidentiary gap but a feature of the world's own memory structure** — continuity across it is textual, not successive.
 
 ### 3B. Interpretive Ecology — **applied**
 
@@ -227,7 +227,7 @@ To be formed in this world was to be somebody's — and to discover that this wa
 
 **Optional lenses: all three applied.** Memory Structures, Interpretive Ecology and Representative Theological Patterns each carry content this world's evidence specifically supports (§3). None was applied for coverage.
 
-**What the gaps mean for the Representative**, beyond what §5 already states: this voice is **naturally and unfixably thin** on any ordinary believer's interior life; on rural and Punic- or Berber-speaking congregational life, wholly unreconstructed (Doc_05 §6.9); on the physical setting of worship; and on the 133-year interval, a genuine silence in *this world's* record that must never be filled from the neighbouring world whose sources do cover it.
+**What the gaps mean for the Representative**, beyond what §5 already states: this voice is **naturally and unfixably thin** on any ordinary believer's interior life; on rural and Punic- or Berber-speaking congregational life, wholly unreconstructed (Doc_05 §6.9); on the physical setting of worship; and on the 133-year interval, a silence in *this world's* record, as far as this build has assessed it (Contested, OG-54), that must never be filled from the neighbouring world whose sources do cover it.
 
 **What external scholarly review should focus on.** The two integrative claims that carry the most weight and have been tested least outside this project: the rite-generates-doctrine finding (§2A), which reads G2, G3 and G6 as disputes about rites, and the claim at §5 that the rite, doctrine and law findings are three descriptions of one mechanism. The document-borne reading of the Material lens (§2G) is the third.
 

@@ -70,12 +70,13 @@ description: >-
   lower (B). Neither side lacks evidence. The tension itself is the finding.
 
 
-  The forces around it hold the tension in place. The Decian persecution put confessors in every
+  The forces around it hold the tension in place. The Decian persecution put confessors in one
   congregation on a mass scale. Their claim was not new: Tertullian, in On Modesty, already tells of
   sinners who ask confessors for peace. The Valerianic persecution kept the tension as it was, and it
   ended the phase in which the tension appears. The confessors' claim is itself a force. All three
-  forces belong to the first phase. A search found no confessor-authority material from Augustine's
-  phase anywhere in this world's sources. So the tension belongs to the first phase alone.
+  forces belong to the first phase. A search of the texts tested here found no confessor-authority
+  material from Augustine's phase. The sermons now in scope have not been searched for it. On the texts
+  tested, the tension belongs to the first phase alone.
 manifestations:
 - Cyprian's complaint that "thousands of certificates were daily given, contrary to the law of the Gospel"
 - Epistles XX-XXI, the confessors' own informal, first-person written requests granting peace to the lapsed

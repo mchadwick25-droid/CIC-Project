@@ -58,34 +58,34 @@ relations:
   target: lpc.force.confessors-claim-to-grant-peace
 name: 'Penitential Discipline: the Reintegration of the Failed'
 description: >-
-  How the church received back its own failed members sat close to the center of this world's own life.
-  This concern asks what happens to someone who gave way under persecution. Its answer is readmission,
-  not permanent exclusion.
+  How the church took back its failed members sat near the center of this world's life.
+  This concern asks what happens to someone who gave way under persecution. Its answer is to take
+  that person back, not shut that person out for good.
 
 
   It recurs strongly: in De Lapsis, in the letters about the lapsed, in Pontius's narrative, and in the
-  world's liturgical evidence. One more limit belongs here. The evidence from Cyprian's phase comes
-  from several independent sources that support each other. But the claim that this concern spans both
+  world's liturgical evidence. One more limit belongs here. Cyprian's phase has
+  several independent sources that support each other. But the claim that this concern spans both
   phases rests on Cyprian's phase alone.
 
 
   Other concerns in this world depend on it. The confessor tension exists only because this one does.
-  Its answer for the single believer is to readmit rather than exclude for ever. That mirrors, at a
-  smaller scale, the logic of collegial communion. It is the model practice for shaping believers in
+  Its answer for one believer is to take that person back, not shut that person out for ever. That mirrors, at a
+  smaller scale, the logic of collegial communion. It is the model way of shaping believers in
   this world's record. It explains two schisms. The Novatianists refused to readmit the lapsed at all.
-  The Felicissimus schism offered a laxer rival route back. It also explains the confessor tension.
+  The Felicissimus schism offered an easier rival road back. It also explains the confessor tension.
 
 
   Whether it continues into Augustine's phase was checked directly, not assumed. It holds directly for
-  Cyprian's phase. For Augustine's phase, the case for continuity does not fully survive as this same
-  concern under its own name. No text from Augustine's phase is organized around a crisis like that of
-  the lapsed, at the same acute, empire-wide scale.
+  Cyprian's phase. For Augustine's phase, the case for continuity does not fully survive. It does not
+  hold as this same concern under its own name. No text we tested from Augustine's phase is built around a crisis like that of
+  the lapsed, at the same acute, empire-wide scale. We have not tested the sermons now in scope.
 
 
   The closest parallels are real: the pull toward the Donatist schism, and the ordinary sin of
-  catechized believers. But those were tested and found to be concerns of their own, sacramental
-  validity and grace and human incapacity. They are not its direct continuation. What crosses the
-  boundary between the phases is a family resemblance, not the same concern restated.
+  catechized believers. Those were tested. They proved to be concerns of their own: sacramental
+  validity, and grace and human incapacity. They are not its direct continuation. Between the
+  phases there is a family resemblance, not the same concern restated.
 
 
   It reinforces pastoral office, collegial communion, preaching and catechesis, and sacramental

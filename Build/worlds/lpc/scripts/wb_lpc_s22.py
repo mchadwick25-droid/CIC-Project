@@ -427,9 +427,10 @@ def build_tier1_terms() -> list[str]:
             sources=[
                 src(2, "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of "
                        "his flock'"),
-                src(1, "the watch-keeping passage on a shepherd's charge to keep watch over the "
-                       "flock, and the relief provision for 'those who have stood with unshaken "
-                       "faith and have not forsaken Christ's flock'"),
+                src(1, "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who "
+                       "must give account of his doing to the Lord, and Epistle V, the relief "
+                       "provision for 'those who have stood with unshaken faith and have not "
+                       "forsaken Christ's flock'"),
                 src(3, "De Unitate's own citation of John 10:16, 'one flock and one shepherd'"),
                 src(5, "further pastoral treatises carrying the same shepherd/flock/pastor image"),
                 src(19, "Sermon I's own cognate image of gathering 'into His fold'"),
