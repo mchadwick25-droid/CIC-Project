@@ -1748,3 +1748,14 @@ Logged 2026-10-23. The reviews ordered by the project lead's Cap ruling of 2026-
 - **Errors the change order missed or made.** Stale "still open" sites for Doc_04 Open Items 6 and 8 in Doc_06, Doc_07 and the world core; the 258 to 391 claim in Doc_08 (lines 23 and 264), the 3B-2 force record and Doc_05 §0.3 and §7, against the restated Doc_02 §7; a CF V7.4 quotation altered by the date clean-up (Doc_07); Doc_02 calling the OCR Latin "the quote base"; Step 0 and Doc_01 status lines.
 - **Older errors found.** Doc_07: *De Mortalitate* "not a test of faith" against Cyprian's "a proof of faith"; confessors granting peace before 250 (Tertullian, *On Modesty* XXII); presbyteral work called unattested against Possidius ch. V. Doc_06: *libelli* classes said to rest on an editor's note, against Cyprian's own text; the *plebs* absence claim, false against 128 *pleb-* forms in Hartel. Doc_09: the Perpetua and Scillitan sermons said to be unavailable though vendored; the *Acta* still described as unread. Doc_04: Candidate 2's "genuinely lapsed" against Sermo 352; Candidate 5's search bound misses Letters XLIII and LIV. Doc_02: a phrase quoted as Augustine's that is not in his letters.
 - **Owner.** The project lead for the route and the four decisions above; then the `lpc` build thread.
+
+### OG-53. Targeted rechecks of the revision pass: four approved, three with P1s open (2026-10-23).
+
+Logged 2026-10-23. Recheck files in `Review-Artifacts/` under the Cap ruling "lpc CO-LPC-1 revision pass".
+
+- **Approved to proceed:** Step 0 (Round 7), Doc_06 (Round 5), Doc_07 (Round 4), Doc_08 (Round 12).
+- **P1 open, Doc_04 (Round 15):** two gravity records (confessor authority; penitential discipline) still state negative findings without Doc_04's "texts tested here" limit; Doc_04 line ~150 still says the Decian persecution created the confessors' claim to authority. P2: the build thread's "in every congregation" in the G8 record is unsupported (Doc_08 says "in one congregation").
+- **P1 open, Doc_05 (Round 4):** `scripts/wb_lpc_s22.py` lines ~430 to 432 still list the Epistle II passage as a source for `lpc.term.the-flock`; re-running it would restore the misattribution.
+- **P1 open, Doc_09 (Round 10):** `lpc.contested.cyprian-death-genre` line ~22 still calls the Acta "strictly documentary" and unread, and quotes sentences the retelling removed. P2: four Acta renderings each omit a clause.
+- **Not yet rechecked:** Doc_01 and Doc_02, whose open findings wait on the project lead's four decisions (OG-52).
+- **Owner.** Under the ruling, these go to the project lead for the route; then the `lpc` build thread.
