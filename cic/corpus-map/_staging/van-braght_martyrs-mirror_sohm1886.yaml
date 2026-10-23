@@ -47,3 +47,16 @@ assignments:
       drawn up in 1431 (file line 47614; its source is not vendored) and a passage that names Adamites among
       the names given to dissenters (file line 41446). Three removes from any Taborite text; a witness to
       how a later movement read them. Already assigned to the Hussite entry. Tier: same time-different-region.'
+  - row_id: van-braght_martyrs-mirror_sohm1886--martyrs-mirror-tauler-cited-as-a-witness-against-the-church
+    work: 'Martyrs Mirror: Tauler cited as a witness against the church of his day'
+    author: van-braght
+    locus: whole volume
+    atlas_ids:
+    - rhineland-mysticism-and-the-friends-of-god
+    role: transmission
+    confidence: provisional
+    note: 'Under the year 1400 the compiler quotes Tauler on blind prelates, says he never urged one man
+      to hurt another, and praises him (file lines 45958 to 46000; Tauler is named again at 46972). The
+      Mennonite martyr book thus claims him. Tier: out of window. Placed on that passage.
+  
+      '

@@ -856,3 +856,160 @@ works:
         recension: "translated from the Italian; the edition Thorold used is not named in the volume's title page"
         items:
           - "cic:catherine-of-siena_dialogue_thorold1896.txt:whole-file"
+
+  - work_id: theologia-deutsch
+    title: Theologia deutsch (Theologia Germanica)
+    author: theologia-germanica
+    original_language: Middle High German
+    composed: fourteenth century (anonymous; the host and the 1851 title page leave the author unnamed)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Franz Pfeiffer's edition of the Wuerzburg manuscript)
+      year: 1851
+      language: German
+      recension: Pfeiffer's complete edition, Stuttgart 1851
+      items:
+      - cic:theologia-germanica_theologia-deutsch-gmh_pfeiffer1851.txt:whole-file
+    - translator: Susanna Winkworth (from Pfeiffer's text)
+      year: 1893
+      language: English
+      recension: Pfeiffer's edition, Golden Treasury Series printing of 1893 (first English edition 1854)
+      items:
+      - cic:theologia-germanica_theologia-germanica_winkworth1893.txt:whole-file
+    notes: 'The same treatise in its Middle High German text and in a public-domain English made from that
+      text. Luther printed the treatise in 1516 (partial) and 1518 (fuller); neither printing is vendored.
+      The first English edition (1854) is on the host and is not vendored (long s read as f).'
+
+  - work_id: eckhart-german-works-pfeiffer
+    title: Meister Eckhart, German sermons and tractates (Pfeiffer's collection)
+    author: eckhart
+    original_language: Middle High German
+    composed: late thirteenth and early fourteenth century
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Franz Pfeiffer's edition)
+      year: 1857
+      language: German
+      recension: Deutsche Mystiker des 14. Jahrhunderts, vol. 2, Leipzig 1857
+      items:
+      - cic:eckhart_deutsche-mystiker-bd2-gmh_pfeiffer1857.txt:whole-file
+    - translator: C. de B. Evans (with some omissions and additions)
+      year: 1924
+      language: English
+      recension: Pfeiffer's text, volume 1 of Evans's two volumes (volume 2, 1931, is not cleared)
+      items:
+      - cic:eckhart_meister-eckhart-vol1_evans1924.txt:whole-file
+    notes: 'Pfeiffer''s numbering of the sermons and tractates is the common key; Evans keeps it. Evans
+      translates with some omissions and additions, so the English is not a full rendering of the German.'
+
+  - work_id: kempis-orationes-et-meditationes-de-vita-christi
+    title: Prayers and meditations on the life of Christ (Orationes et meditationes de vita Christi)
+    author: kempis
+    original_language: Latin
+    composed: fifteenth century (Mount St Agnes)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Michael Joseph Pohl's edition, Opera omnia vol. 5)
+      year: 1902
+      language: Latin
+      recension: Pohl's critical edition
+      items:
+      - cic:kempis_opera-omnia-tractatus-lat_pohl1902.txt:whole-file
+    - translator: W. Duthoit
+      year: 1904
+      language: English
+      recension: translated from Pohl's text
+      items:
+      - cic:kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt:whole-file
+    notes: 'The Latin file''s own title field reads Tractatus prioris pars prior; the volume title page reads
+      Volumen quintum, Orationes et meditationes de vita Christi. The two files are one Work in two languages.'
+
+  - work_id: kempis-meditatio-de-incarnatione-sermones
+    title: Meditation on the Incarnation of Christ; Sermons on the life and passion of the Lord
+    author: kempis
+    original_language: Latin
+    composed: fifteenth century (Mount St Agnes)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Michael Joseph Pohl's edition, Opera omnia vol. 3)
+      year: 1904
+      language: Latin
+      recension: Pohl's critical edition
+      items:
+      - cic:kempis_opera-omnia-v3-meditatio-incarnatione-sermones-lat_pohl1904.txt:whole-file
+    - translator: Dom Vincent Scully
+      year: 1907
+      language: English
+      recension: translated from Pohl's text
+      items:
+      - cic:kempis_meditation-on-the-incarnation-sermons-life-passion_scully1907.txt:whole-file
+    notes: 'Scully''s volume also holds the short piece on hearing and speaking good words; the Latin volume
+      holds the Alphabetum monachi in Middle Dutch.'
+
+  - work_id: kempis-sermones-ad-novicios
+    title: Sermons to the novices regular (Sermones ad novicios)
+    author: kempis
+    original_language: Latin
+    composed: fifteenth century (Mount St Agnes)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Michael Joseph Pohl's edition, Opera omnia vol. 6)
+      year: 1905
+      language: Latin
+      recension: Pohl's critical edition
+      items:
+      - cic:kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt:sermones-ad-novicios
+    - translator: Dom Vincent Scully
+      year: 1907
+      language: English
+      recension: translated from Pohl's text
+      items:
+      - cic:kempis_sermons-to-the-novices-regular_scully1907.txt:whole-file
+    notes: 'The Latin volume was vendored before this pass. It also holds the Vita Lidewigis virginis, whose
+      English is the next entry.'
+
+  - work_id: kempis-vita-lidewigis
+    title: Life of St Lydwine of Schiedam (Vita Lidewigis virginis)
+    author: kempis
+    original_language: Latin
+    composed: fifteenth century (Mount St Agnes)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Michael Joseph Pohl's edition, Opera omnia vol. 6)
+      year: 1905
+      language: Latin
+      recension: Pohl's critical edition
+      items:
+      - cic:kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt:vita-lidewigis-virginis
+    - translator: Dom Vincent Scully
+      year: 1912
+      language: English
+      recension: Scully's translation with introduction
+      items:
+      - cic:kempis_st-lydwine-of-schiedam_scully1912.txt:whole-file
+    notes: 'Scully''s introduction was not read for how his text relates to the earlier Life by Johannes
+      Brugman, which the host also lists.'

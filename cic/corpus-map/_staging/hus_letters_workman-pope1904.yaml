@@ -26,3 +26,15 @@ assignments:
     note: 'Hus''s letters from his imprisonment at Constance, with Gerson named in eleven places (for example
       the index entry ''Gerson''s charges'', file line 877). The council seen from the defendant''s cell.
       Already assigned to the Hussite entry as tradition. Tier: same time-place.'
+  - row_id: hus_letters_workman-pope1904--hus-letters-workman-and-pope-wyclif-s-books-in-bohemia
+    work: 'Hus, Letters (Workman and Pope): Wyclif''s books in Bohemia'
+    author: hus
+    locus: whole volume
+    atlas_ids:
+    - lollardy
+    role: transmission
+    confidence: provisional
+    note: 'Wyclif is named about 150 times: the burning and defence of his books and the condemnation of
+      his articles. Tier: same time-different region.
+  
+      '

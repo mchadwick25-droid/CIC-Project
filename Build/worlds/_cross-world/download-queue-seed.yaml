@@ -12502,3 +12502,1241 @@ queue:
     status: not-yet-downloaded
     hold_note: 'Not opened: Březová is already on the shelf in Goll''s 1893 edition (the Hussite world''s
       file).'
+
+  - title: 'Deutsche Mystiker des vierzehnten Jahrhunderts, vol. 2: Meister Eckhart'
+    author: Franz Pfeiffer (editor); Meister Eckhart
+    translator: none (Middle High German)
+    year: 1857
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Eckhart''s German sermons and tractates in Pfeiffer''s edition; the lead named for this world.
+
+      '
+    url: https://archive.org/details/deutschemystike01mystgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page imprint 1857 read
+      in the OCR
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (2181584 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: eckhart_deutsche-mystiker-bd2-gmh_pfeiffer1857.txt
+    hold_note: ''
+  - title: Meister Eckhart, vol. 1
+    author: Meister Eckhart (Pfeiffer's text)
+    translator: C. de B. Evans
+    year: 1924
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The public-domain English of Eckhart''s German works. Volume 2 (1931) is not cleared.
+
+      '
+    url: https://archive.org/details/in.ernet.dli.2015.31707
+    rights_basis: pd-us-by-date; item date 1924; a second scan carries 'First published 1924'
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (1343910 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: eckhart_meister-eckhart-vol1_evans1924.txt
+    hold_note: ''
+  - title: Eine lateinische Rechtfertigungsschrift des Meister Eckhart
+    author: Meister Eckhart (ed. Augustinus Daniels)
+    translator: none (Latin with German apparatus)
+    year: 1923
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Eckhart''s Latin defence in his own case; the one Latin Eckhart text found vendorable.
+
+      '
+    url: https://archive.org/details/einelateinischer0000eckh
+    rights_basis: pd-us-by-date; title-page year 1923 read in the OCR; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (203874 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: eckhart_lateinische-rechtfertigungsschrift-lat_daniels1923.txt
+    hold_note: ''
+  - title: Meister Eckhart und seine Jünger
+    author: Franz Jostes (editor)
+    translator: none (Middle High German)
+    year: 1895
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Unprinted Eckhart and Eckhart-circle texts, a supplement to Pfeiffer.
+
+      '
+    url: https://archive.org/details/meistereckhartun00eckh
+    rights_basis: pd-us-by-date; title-page year 1895 read in the OCR; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (496753 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: eckhart_meister-eckhart-und-seine-juenger-gmh_jostes1895.txt
+    hold_note: ''
+  - title: The History and Life of the Reverend Doctor John Tauler of Strasbourg, with Twenty-Five of his
+      Sermons
+    author: Johannes Tauler
+    translator: Susanna Winkworth
+    year: 1907
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Tauler in English: the public-domain selection of sermons.
+
+      '
+    url: https://archive.org/details/TheHistoryAndLifeOfTheRev
+    rights_basis: pd-us-by-date; title-page year 1907 read in the OCR; item licence field is the Public
+      Domain Mark 1.0
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (711129 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: tauler_history-and-life-with-sermons_winkworth1907.txt
+    hold_note: ''
+  - title: Heinrich Seuse, Deutsche Schriften
+    author: Heinrich Seuse (Henry Suso); ed. Karl Bihlmeyer
+    translator: none (Middle High German)
+    year: 1907
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The critical edition of Suso''s German works, the lead named for this world.
+
+      '
+    url: https://archive.org/details/deutscheschrift00seusgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page imprint 1907 read
+      in the OCR
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (2380449 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: suso_deutsche-schriften-gmh_bihlmeyer1907.txt
+    hold_note: ''
+  - title: The Life of Blessed Henry Suso
+    author: Heinrich Seuse (Henry Suso)
+    translator: Thomas Francis Knox
+    year: 1865
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Suso''s Life in public-domain English.
+
+      '
+    url: https://archive.org/details/thelifeofsuso00seusuoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page year 1865 read in
+      the OCR
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (471564 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: suso_life-of-blessed-henry-suso_knox1865.txt
+    hold_note: ''
+  - title: Blessed Henry Suso's Little Book of Eternal Wisdom (with Hilton's Parable of the Pilgrim)
+    author: Heinrich Seuse (Henry Suso)
+    translator: not named in the front matter
+    year: 1910
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Suso''s Little Book in public-domain English.
+
+      '
+    url: https://archive.org/details/littlebookofeter00seusiala
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; imprimatur dated 1910 read
+      in the OCR
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (304232 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: suso_little-book-of-eternal-wisdom_1910.txt
+    hold_note: ''
+  - title: Theologia deutsch (Pfeiffer's edition of the Würzburg manuscript)
+    author: Anonymous (the Frankfurt priest); ed. Franz Pfeiffer
+    translator: none (Middle High German)
+    year: 1851
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The treatise Luther printed, in Pfeiffer''s edition; the lead named for this world.
+
+      '
+    url: https://archive.org/details/theologiadeutsc00deutgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page year 1851 read in
+      the OCR
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (207249 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: theologia-germanica_theologia-deutsch-gmh_pfeiffer1851.txt
+    hold_note: ''
+  - title: Theologia Germanica (Winkworth, Golden Treasury Series)
+    author: Anonymous (the Frankfurt priest)
+    translator: Susanna Winkworth
+    year: 1893
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The public-domain English of the Theologia deutsch.
+
+      '
+    url: https://archive.org/details/in.ernet.dli.2015.205085
+    rights_basis: pd-us-by-date; edition year 1893 read in the OCR imprint; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (244498 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: theologia-germanica_theologia-germanica_winkworth1893.txt
+    hold_note: ''
+  - title: Das Buch von den neun Felsen
+    author: Rulman Merswin
+    translator: none (Middle High German)
+    year: 1859
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The Friends of God''s own text, the lead named for this world as Schmidt 1859.
+
+      '
+    url: https://archive.org/details/bub_gb_w7oMAQAAIAAJ
+    rights_basis: pd-us-by-date; title-page year 1859 read in the OCR; item licence field is the Public
+      Domain Mark 1.0
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (324750 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: merswin_buch-von-den-neun-felsen-gmh_schmidt1859.txt
+    hold_note: ''
+  - title: Das Leben der Schwestern zu Töss
+    author: Elsbeth Stagel (attributed); ed. Ferdinand Vetter
+    translator: none (Middle High German)
+    year: 1906
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The Töss sister-book; the lead named for this world as Vetter 1906.
+
+      '
+    url: https://archive.org/details/DasLebenDerSchwesternZuToss
+    rights_basis: pd-us-by-date; title-page year 1906 read in the OCR; item licence field is the Public
+      Domain Mark 1.0
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (497827 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: stagel_leben-der-schwestern-zu-toess-gmh_vetter1906.txt
+    hold_note: ''
+  - title: Der Nonne von Engelthal Büchlein von der Genaden Überlast
+    author: The nuns of Engelthal (attributed to Christina Ebner by the host); ed. Karl Schröder
+    translator: none (Middle High German)
+    year: 1871
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The Engelthal sister-book; the lead named for this world as ''Engelthal 1871''.
+
+      '
+    url: https://archive.org/details/bub_gb_ehY3AAAAMAAJ
+    rights_basis: pd-us-by-date; title-page year 1871 read in the OCR; item licence field is the Public
+      Domain Mark 1.0
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (1334789 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: engelthal_buechlein-von-der-genaden-ueberlast-gmh_schroeder1871.txt
+    hold_note: ''
+  - title: Die Offenbarungen der Adelheid Langmann, Klosterfrau zu Engelthal
+    author: Adelheid Langmann; ed. Philipp Strauch
+    translator: none (Middle High German)
+    year: 1878
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The Engelthal revelations, found while running down the Engelthal lead.
+
+      '
+    url: https://archive.org/details/dieoffenbarunge00stragoog
+    rights_basis: pd-us-by-date; host date 1878, preface dated December 1877 in the OCR; possible-copyright-status
+      NOT_IN_COPYRIGHT
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (2048587 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: langmann_offenbarungen-gmh_strauch1878.txt
+    hold_note: ''
+  - title: The Adornment of the Spiritual Marriage; The Sparkling Stone; The Book of Supreme Truth
+    author: Jan van Ruusbroec (John of Ruysbroeck)
+    translator: C. A. Wynschenk Dom (ed. Evelyn Underhill)
+    year: 1916
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Ruysbroeck in public-domain English; a bridge text between the Rhineland world and the Devotio
+      Moderna.
+
+      '
+    url: https://archive.org/details/adornmentofthesp00ruysuoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page year 1916 read in
+      the OCR
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (535182 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: ruusbroec_adornment-spiritual-marriage-sparkling-stone-book-supreme-truth_wynschenk-dom1916.txt
+    hold_note: ''
+  - title: Offenbarungen der Schwester Mechthild von Magdeburg, oder Das fliessende Licht der Gottheit
+    author: Mechthild von Magdeburg; ed. P. Gall Morel
+    translator: none (Middle High German)
+    year: 1869
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Mechthild''s Flowing Light, the antecedent named in the lead list as Morel 1869.
+
+      '
+    url: https://archive.org/details/offenbarungende00moregoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; host date 1869, title-page
+      year not readable in the OCR
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (605420 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: mechthild_fliessende-licht-der-gottheit-gmh_morel1869.txt
+    hold_note: ''
+  - title: Opera omnia vol. 3 (Meditatio de incarnatione; Sermones de vita et passione Domini)
+    author: Thomas a Kempis; ed. Michael Joseph Pohl
+    translator: none (Latin)
+    year: 1904
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'A missing volume of Pohl''s edition of Kempis; four other volumes were already vendored.
+
+      '
+    url: https://archive.org/details/operaomnia0002thom
+    rights_basis: pd-us-by-date; title-page year 1904 read in the OCR; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (557840 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: kempis_opera-omnia-v3-meditatio-incarnatione-sermones-lat_pohl1904.txt
+    hold_note: ''
+  - title: Prayers and Meditations on the Life of Christ
+    author: Thomas a Kempis
+    translator: W. Duthoit
+    year: 1904
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'The public-domain English of Pohl''s Orationes et meditationes (Latin already vendored as kempis_opera-omnia-tractatus-lat_pohl1902.txt).
+
+      '
+    url: https://archive.org/details/prayersandmedita00thomuoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page year 1904 read in
+      the OCR
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (655998 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt
+    hold_note: ''
+  - title: A Meditation on the Incarnation of Christ; Sermons on the Incarnation, Life, and Passion of our
+      Lord
+    author: Thomas a Kempis
+    translator: Dom Vincent Scully
+    year: 1907
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'The public-domain English of Pohl''s volume 3.
+
+      '
+    url: https://archive.org/details/meditationincarn00thomuoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page year 1907 read in
+      the OCR
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (536361 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: kempis_meditation-on-the-incarnation-sermons-life-passion_scully1907.txt
+    hold_note: ''
+  - title: Sermons to the Novices Regular
+    author: Thomas a Kempis
+    translator: Dom Vincent Scully
+    year: 1907
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'The public-domain English of the Sermones ad novicios.
+
+      '
+    url: https://archive.org/details/SermonsToTheNovicesRegular
+    rights_basis: pd-us-by-date; title-page year 1907 read in the OCR; item licence field is the Public
+      Domain Mark 1.0
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (470502 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: kempis_sermons-to-the-novices-regular_scully1907.txt
+    hold_note: ''
+  - title: St. Lydwine of Schiedam, Virgin
+    author: Thomas a Kempis
+    translator: Dom Vincent Scully
+    year: 1912
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'The public-domain English of Kempis''s Life of Lydwine.
+
+      '
+    url: https://archive.org/details/stlydwineofschied00thomuoft
+    rights_basis: pd-us-by-date; imprimatur date 1912 read in the OCR; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (257588 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: kempis_st-lydwine-of-schiedam_scully1912.txt
+    hold_note: ''
+  - title: Het Klooster van Diepenveen (Handschrift)
+    author: The Diepenveen sisters; ed. W. R. E. H. Opzoomer
+    translator: none (Middle Dutch)
+    year: 1886
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'The Diepenveen sister-book, the sisters'' houses literature the census names.
+
+      '
+    url: https://archive.org/details/hetkloostervand00opzogoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; preface dated 1886 read in
+      the OCR
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (271289 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: diepenveen_het-klooster-van-diepenveen-dum_opzoomer1886.txt
+    hold_note: ''
+  - title: Quellen und Forschungen zur Geschichte der deutschen Mystik
+    author: Rudolf Langenberg (ed.); Gerard Groote
+    translator: none (Middle Low German / German)
+    year: 1902
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'Found while running down Groote''s own works: it prints his tract ''de Simonia ad beguttas'' and
+      a lay rule, in Middle Dutch/Low German.
+
+      '
+    url: https://archive.org/details/quellenundforsc00langgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page year 1902 read in
+      the OCR
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (459003 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902.txt
+    hold_note: ''
+  - title: Trialogus cum Supplemento Trialogi
+    author: John Wyclif; ed. Gotthard Lechler
+    translator: none (Latin)
+    year: 1869
+    world: lollardy
+    why: 'Wyclif''s Trialogus, the lead named for this world; Lahey''s English (2013) is in copyright.
+
+      '
+    url: https://archive.org/details/trialoguscumsupp00wycluoft
+    rights_basis: pd-us-by-date; title-page year 1869 read in the OCR; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (1369237 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: wyclif_trialogus-lat_lechler1869.txt
+    hold_note: ''
+  - title: De Civili Dominio, Liber primus
+    author: John Wyclif; ed. Reginald Lane Poole
+    translator: none (Latin)
+    year: 1885
+    world: lollardy
+    why: 'Wyclif''s On Civil Lordship, book 1; the lead named for this world as Poole 1885.
+
+      '
+    url: https://archive.org/details/iohanniswycliffe0002wycl
+    rights_basis: pd-us-by-date for the 1885 edition; the scan is a 1966 Johnson Reprint facsimile (same
+      treatment as the Library gave de Ecclesia); no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (1235419 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: wyclif_de-civili-dominio-liber-primus-lat_poole1885.txt
+    hold_note: ''
+  - title: Sermones, vol. I (Super Evangelia Dominicalia)
+    author: John Wyclif; ed. Johann Loserth
+    translator: none (Latin)
+    year: 1887
+    world: lollardy
+    why: 'Wyclif''s Latin sermons, the lead named for this world as Loserth 1887.
+
+      '
+    url: https://archive.org/details/iohanniswyclifs01mattgoog
+    rights_basis: pd-us-by-date; title-page year 1887 read in the OCR; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (1215236 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: wyclif_sermones-v1-lat_loserth1887.txt
+    hold_note: ''
+  - title: Tractatus de Officio Regis
+    author: John Wyclif; ed. Alfred W. Pollard and Charles Sayle
+    translator: none (Latin)
+    year: 1887
+    world: lollardy
+    why: 'Wyclif on the king''s office; the lead named for this world as De officio regis 1887.
+
+      '
+    url: https://archive.org/details/iohanniswyclift02wyclgoog
+    rights_basis: pd-us-by-date; title-page year 1887 read in the OCR; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (771050 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: wyclif_de-officio-regis-lat_pollard-sayle1887.txt
+    hold_note: ''
+  - title: The Repressor of Over Much Blaming of the Clergy, vol. I
+    author: Reginald Pecock; ed. Churchill Babington
+    translator: none (Middle English)
+    year: 1860
+    world: lollardy
+    why: 'The hostile voice in English against the Lollards; the lead named for this world as Pecock, Rolls
+      1860.
+
+      '
+    url: https://archive.org/details/repressorofoverm01peco
+    rights_basis: pd-us-by-date; imprint year 1860 read in the OCR; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (1026843 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: pecock_repressor-v1_babington1860.txt
+    hold_note: ''
+  - title: The Repressor of Over Much Blaming of the Clergy, vol. II
+    author: Reginald Pecock; ed. Churchill Babington
+    translator: none (Middle English)
+    year: 1860
+    world: lollardy
+    why: 'The hostile voice in English against the Lollards; the lead named for this world as Pecock, Rolls
+      1860.
+
+      '
+    url: https://archive.org/details/repressorofoverm02peco
+    rights_basis: pd-us-by-date; imprint year 1860 read in the OCR; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (1016616 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: pecock_repressor-v2_babington1860.txt
+    hold_note: ''
+  - title: Historia Anglicana, vol. II (A.D. 1381-1422)
+    author: Thomas Walsingham; ed. Henry Thomas Riley
+    translator: none (Latin)
+    year: 1863
+    world: lollardy
+    why: 'The hostile monastic chronicle for the years of Wyclif and Oldcastle; the lead named for this
+      world.
+
+      '
+    url: https://archive.org/details/thomaewalsingham02wals
+    rights_basis: pd-us-by-date; host date 1863, title-page year misread in the OCR; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (1823000 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: walsingham_historia-anglicana-v2-lat_riley1863.txt
+    hold_note: ''
+  - title: Chronicon Henrici Knighton, vol. II
+    author: Henry Knighton; ed. Joseph Rawson Lumby
+    translator: none (Latin)
+    year: 1895
+    world: lollardy
+    why: 'Hostile contemporary chronicle for the Wyclif circle in Leicester; the lead named for this world.
+
+      '
+    url: https://archive.org/details/chroniconhenrici02knig
+    rights_basis: pd-us-by-date; volume imprint 1895 read in the OCR (host catalogue gives 1889); no host
+      rights field
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (1106645 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: knighton_chronicon-v2-lat_lumby1895.txt
+    hold_note: ''
+  - title: An Apology for Lollard Doctrines, attributed to Wicliffe
+    author: Anonymous (attributed to John Wyclif); ed. James Henthorn Todd
+    translator: none (Middle English)
+    year: 1842
+    world: lollardy
+    why: 'A Lollard English tract; the lead named for this world (Camden 1842).
+
+      '
+    url: https://archive.org/details/anapologyforloll00wycluoft
+    rights_basis: pd-us-by-date; title-page year 1842 read in the OCR; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (611564 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: apology-for-lollard-doctrines_todd1842.txt
+    hold_note: ''
+  - title: The Lanterne of Li3t (EETS OS 151)
+    author: Anonymous Lollard writer; ed. Lilian M. Swinburn
+    translator: none (Middle English)
+    year: 1917
+    world: lollardy
+    why: 'A Lollard English tract; the lead named for this world (EETS 151, 1917).
+
+      '
+    url: https://archive.org/details/30081000924567
+    rights_basis: pd-us-by-date; title-page year 1917 read in the OCR; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (618410 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: lanterne-of-light_swinburn1917.txt
+    hold_note: ''
+  - title: The Acts and Monuments of John Foxe, vol. IV (Cattley edition)
+    author: John Foxe
+    translator: none (English)
+    year: 1837
+    world: lollardy
+    why: 'Foxe''s account of Joan Boughton, the Lollards of Amersham and Coventry in the years from 1485;
+      vol. III was already vendored.
+
+      '
+    url: https://archive.org/details/actsmonumentsofj04foxe
+    rights_basis: pd-us-by-date; title-page year 1837 read in the OCR; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (3236352 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: foxe_acts-and-monuments-v4_cattley-townsend1837.txt
+    hold_note: ''
+  - title: The Peasants' Rising and the Lollards
+    author: Edgar Powell and G. M. Trevelyan (editors)
+    translator: none (English abstracts)
+    year: 1899
+    world: lollardy
+    why: 'Records of the 1381 rising and early Lollard matters.
+
+      '
+    url: https://archive.org/details/peasantsrisingth00poweuoft
+    rights_basis: pd-us-by-date; title-page year 1899 read in the OCR; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (162484 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: powell-trevelyan_peasants-rising-and-the-lollards_1899.txt
+    hold_note: ''
+  - title: Jack Upland; Friar Daw Topias's Reply; Upland's Rejoinder (Political Poems and Songs, vol. II)
+    author: Anonymous; ed. Thomas Wright
+    translator: none (Middle English)
+    year: 1861
+    world: lollardy
+    why: 'The Lollard tract Jack Upland and the friar''s reply; the lead named for this world as Wright,
+      Political Poems.
+
+      '
+    url: https://archive.org/details/politicalpoemsso02wrig
+    rights_basis: pd-us-by-date; title-page year 1861 read in the OCR (host catalogue gives 1859); no host
+      rights field
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (809379 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: wright_political-poems-and-songs-v2_1861.txt
+    hold_note: ''
+  - title: Fifteenth Century Prose and Verse (including Thorpe's Examination)
+    author: William Thorpe and others; ed. Alfred W. Pollard
+    translator: none (Middle English)
+    year: 1903
+    world: lollardy
+    why: 'Thorpe''s Examination in Middle English, the movement''s own account of a trial.
+
+      '
+    url: https://archive.org/details/fifteenthcentur01pollgoog
+    rights_basis: pd-us-by-date; title-page year 1903 read in the OCR; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'Library thread, October 2026: item metadata read, full-text file fetched (577053 bytes)
+      and sampled at opening, middle and end; title-page and rights evidence as stated in the file header.'
+    status: downloaded
+    vendored_as: pollard_fifteenth-century-prose-and-verse_1903.txt
+    hold_note: ''
+  - title: The History and Life of the Reverend Doctor John Tauler (London first edition)
+    author: Johannes Tauler
+    translator: Susanna Winkworth
+    year: 1857
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The first edition of the Tauler translation.
+
+      '
+    url: https://archive.org/details/historylifeofrev00taul_0
+    rights_basis: pd-us-by-date; imprint year 1857 read in the OCR; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read; text fetched (772037 bytes) and sampled
+      at opening, middle and end'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Duplicate of the translation vendored from the 1907 reprint. This scan reads long s as f
+      throughout (''fouls'', ''fins''), so it is the weaker witness.
+
+      '
+  - title: Deutsche Mystiker des vierzehnten Jahrhunderts, vol. 2 (1906 Göttingen reprint of the 1857 edition)
+    author: Franz Pfeiffer; Meister Eckhart
+    translator: none (Middle High German)
+    year: 1906
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'A second scan of Pfeiffer''s Eckhart volume.
+
+      '
+    url: https://archive.org/details/deutschemystiker02pfei
+    rights_basis: pd-us-by-date; title page reads 1906 and says anastatic reprint of the 1857 edition
+    verified_by: 'Library thread, October 2026: item metadata read; text fetched (2132893 bytes), title
+      page and sample read'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'A second scan of the edition already vendored (from the 1857 Google scan). Not needed unless
+      the 1857 scan''s OCR is judged too weak.
+
+      '
+  - title: Deutsche Mystiker des vierzehnten Jahrhunderts, vol. 1 (Hermann von Fritzlar, Nicolaus von Strassburg,
+      David von Augsburg)
+    author: Franz Pfeiffer (editor)
+    translator: none (Middle High German)
+    year: 1845
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Volume 1 of the same Pfeiffer collection.
+
+      '
+    url: https://archive.org/details/bub_gb_dgktAAAAYAAJ
+    rights_basis: pd-us-by-date; host item licence is the Public Domain Mark 1.0; item date 1845
+    verified_by: 'Library thread, October 2026: item metadata read (title, creators, licence field, size
+      2121352 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not vendored for lack of time in this pass, not for a defect. The host''s creator list names
+      Hermann von Fritzlar, Nicolaus von Strassburg, David von Augsburg and Eckhart.
+
+      '
+  - title: Theologia Germanica (London first edition, 1854)
+    author: Anonymous (the Frankfurt priest)
+    translator: Susanna Winkworth
+    year: 1854
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The first edition of the Winkworth translation.
+
+      '
+    url: https://archive.org/details/theologiagermani00franiala
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1854
+    verified_by: 'Library thread, October 2026: item metadata read; text fetched (282102 bytes) and sampled'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Duplicate of the translation vendored from the 1893 printing. This scan, and the 1874 Macmillan
+      scan theologigermanic00theouoft, read long s as f or j throughout, so they are weaker witnesses.
+
+      '
+  - title: The Life of Blessed Henry Suso, by himself (Methuen 1913)
+    author: Heinrich Seuse (Henry Suso)
+    translator: Thomas Francis Knox
+    year: 1913
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'A later printing of the Life.
+
+      '
+    url: https://archive.org/details/lifeofblessedhen0000suso
+    rights_basis: pd-us-by-date; item date 1913; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read (size 526346 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'A second printing of Knox''s Life. Not compared with the 1865 text, so whether the 1913
+      text revises the translation is unchecked.
+
+      '
+  - title: Blessed Henry Suso's Little Book of Eternal Wisdom (1866 and 1920s printings)
+    author: Heinrich Seuse (Henry Suso)
+    translator: not named in the front matter
+    year: 1866
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Other printings of the Little Book.
+
+      '
+    url: https://archive.org/details/BlessedHenrySusosLittleBook
+    rights_basis: pd-us-by-date; item date 1866; host licence field is the Public Domain Mark 1.0 (a 1920s
+      Burns, Oates and Washbourne scan is littlebookofeter00seusuoft)
+    verified_by: 'Library thread, October 2026: item metadata read (size 255146 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Other printings of the Little Book. Not compared with the 1910 text vendored, so whether
+      they are the same translation is unchecked.
+
+      '
+  - title: 'Deutsches Nonnenleben: Das Leben der Schwestern zu Tüss (and the Engelthal book), in modern
+      German'
+    author: Elsbeth Stagel and others
+    translator: Margarete Weinhandl (modern German rendering)
+    year: 1921
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The nearest thing to a modern reading text of the sister-books.
+
+      '
+    url: https://archive.org/details/bub_gb_oBNKAAAAMAAJ
+    rights_basis: pd-us-by-date; host record gives 1921 (Munich); no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read (creators and date); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'A modern German rendering of the Töss and Engelthal sister-books. German, not English, so
+      it does not fill the English gap. It could serve as a reading aid beside the Middle High German.
+
+      '
+  - title: Lebensbeschreibungen der ersten Schwestern des Klosters der Dominikanerinnen zu Unterlinden in
+      Kolmar
+    author: Katharina von Gebersweiler (Catharina Gueberschwihrensis); German by Ludwig Clarus
+    translator: Ludwig Clarus (German)
+    year: 1863
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The Unterlinden sister-book named in the census list.
+
+      '
+    url: https://archive.org/details/bub_gb_fSM9AAAAcAAJ
+    rights_basis: pd-us-by-date; host licence is the Public Domain Mark 1.0; item date 1863 (Regensburg,
+      Manz)
+    verified_by: 'Library thread, October 2026: item metadata read; text fetched (600940 bytes) and sampled
+      at opening, middle and end'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'The Fraktur type of the scan is read as nonsense in the sampled lines (''UDiefe ©ingebung
+      der goettlichen ©nabe''). A nineteenth-century German version of the Unterlinden sisters'' lives.
+      Not vendored: unreadable.
+
+      '
+  - title: Des Gottesfreundes im Oberland Rulmann Merswin's Buch von den zwei Mannen
+    author: Rulman Merswin
+    translator: none (Middle High German)
+    year: 1896
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Another Merswin text from the Friends of God.
+
+      '
+    url: https://archive.org/details/desgottesfreund00laucgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1896 (Lauchert, Hanstein)
+    verified_by: 'Library thread, October 2026: item metadata read (size 246878 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not vendored for lack of time in this pass. A second Friends-of-God text beside the Nine
+      Rocks.
+
+      '
+  - title: Reflections from the Mirror of a Mystic (selections from Ruysbroeck)
+    author: Jan van Ruusbroec (John of Ruysbroeck)
+    translator: Earle Baillie
+    year: 1905
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The Baillie extracts named in the lead list.
+
+      '
+    url: https://archive.org/details/ReflectionsFromTheMirrorOfAMystic
+    rights_basis: pd-us-by-date; host licence is the Public Domain Mark 1.0; item date 1905 (London, Thomas
+      Baker)
+    verified_by: 'Library thread, October 2026: item metadata read (size 79357 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'A short set of extracts. Not vendored because the fuller Dent translation of 1916 is vendored.
+
+      '
+  - title: The Kingdom of the Lovers of God (from Surius's Latin)
+    author: Jan van Ruusbroec (John of Ruysbroeck)
+    translator: T. Arnold Hyde
+    year: 1919
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'A further Ruysbroeck work in English.
+
+      '
+    url: https://archive.org/details/kingdomofloverso00ruusuoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1919 (Kegan Paul)
+    verified_by: 'Library thread, October 2026: item metadata read (size 266965 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not vendored for lack of time. A different Ruysbroeck work from the three in the vendored
+      translation, made from the sixteenth-century Latin of Surius, not the Middle Dutch.
+
+      '
+  - title: 'A Mediaeval Mystic: a short account of the life and writings of Blessed John Ruysbroeck'
+    author: Vincent Joseph Scully
+    translator: none (English study)
+    year: 1910
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'A short life and account of the writings.
+
+      '
+    url: https://archive.org/details/mediaevalmystics00scul
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1910 (London, Baker)
+    verified_by: 'Library thread, October 2026: item metadata read (size 131448 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Scholarship, not a source. Not vendored.
+
+      '
+  - title: Les Amis de Dieu au quatorzième siècle
+    author: Auguste Jundt
+    translator: none (French study)
+    year: 1879
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The Friends of God study named in the lead list.
+
+      '
+    url: https://archive.org/details/lesamisdedieuauq00jund
+    rights_basis: pd-us-by-date; item date 1879 (Paris, Sandoz et Fischbacher); no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read (size 1275953 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Scholarship, not a source: a French study of the Friends of God with extracts. Named in
+      the lead list. Not vendored.
+
+      '
+  - title: Rulman Merswin et l'Ami de Dieu de l'Oberland
+    author: Auguste Jundt
+    translator: none (French study)
+    year: 1890
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Jundt''s study of Merswin and the Friend of God.
+
+      '
+    url: https://archive.org/details/rulmanmerswinet00jundgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1890
+    verified_by: 'Library thread, October 2026: item metadata read (size 405975 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Scholarship, not a source. Not vendored.
+
+      '
+  - title: Das Buch von geistlicher Armuth, bisher bekannt als Johann Taulers Nachfolgung des armen Lebens
+      Christi
+    author: Pseudo-Tauler; ed. Heinrich Denifle
+    translator: none (Middle High German)
+    year: 1877
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'A pseudo-Tauler text.
+
+      '
+    url: https://archive.org/details/dasbuchvongeist00denigoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1877
+    verified_by: 'Library thread, October 2026: item metadata read; text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not vendored for lack of time. A text long printed under Tauler''s name that Denifle''s
+      edition shows is not his.
+
+      '
+  - title: Archiv für Literatur- und Kirchengeschichte des Mittelalters, vol. 5 (Denifle, 'Die Heimat Meister
+      Eckeharts')
+    author: Heinrich Denifle and Franz Ehrle (editors)
+    translator: none (German and Latin)
+    year: 1889
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Denifle''s Eckhart essay.
+
+      '
+    url: https://archive.org/details/bub_gb__FgQAAAAYAAJ
+    rights_basis: pd-us-by-date; host licence is the Public Domain Mark 1.0; title page of this volume reads
+      1889
+    verified_by: 'Library thread, October 2026: item metadata read; text fetched (1876485 bytes), contents
+      list and the Eckhart passage read'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'This volume carries Denifle''s essay on Eckhart''s birthplace, not the trial acts. The acts
+      of the trial and Eckhart''s Latin writings are in volume 2 (1886), which the host search did not return.
+      The Franciscan worker may vendor the Archiv; volume 5 is also on the shelf of a possible cross-link.
+
+      '
+  - title: 'Archiv für Literatur- und Kirchengeschichte des Mittelalters, vol. 2 (1886): Acten zum Processe
+      Meister Eckeharts; Meister Eckeharts lateinische Schriften'
+    author: Heinrich Denifle (editor); Meister Eckhart
+    translator: none (Latin)
+    year: 1886
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'The bull and the trial acts.
+
+      '
+    url: https://archive.org/search?query=Archiv+fuer+Literatur-+und+Kirchengeschichte+des+Mittelalters
+    rights_basis: 'unknown: no item for volume 2 found'
+    verified_by: 'Library thread, October 2026: item metadata read for the title searches; items returned
+      were volume 1 (1885, seven scans) and volume 5 (1889); no volume 2'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not found on the host by title, creator or identifier-prefix search. Langenberg''s bibliography
+      cites volume 2 for ''Meister Eckharts lateinische Schriften'', and the lead list names the same volume
+      for the bull In agro dominico (1329) and the trial acts. Left for the Franciscan worker, who may find
+      it on the host under another title.
+
+      '
+  - title: Thomas a Kempis, Vera sapientia, or True Wisdom
+    author: Thomas a Kempis
+    translator: Frederick Byrne
+    year: 1904
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'Another Kempis text.
+
+      '
+    url: https://archive.org/details/veraspaientia00thomuoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1904
+    verified_by: 'Library thread, October 2026: item metadata read (size 350425 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not vendored for lack of time. Another Kempis devotional text in English.
+
+      '
+  - title: 'The Christian Renaissance: a History of the Devotio Moderna'
+    author: Albert Hyma
+    translator: none (English study)
+    year: 1924
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'Hyma''s history named in the lead list.
+
+      '
+    url: https://archive.org/details/christianrenaiss00hyma
+    rights_basis: pd-us-by-date; item date 1924 (Grand Rapids, The Reformed Press); no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read (size 1012479 bytes); text fetched and
+      sampled'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Scholarship, not a source: the standard older English history of the movement, named in
+      the lead list. Not vendored. Cleared by date if the Source Library wants a secondary.
+
+      '
+  - title: Thomas a Kempis and the Brothers of Common Life
+    author: Samuel Kettlewell
+    translator: none (English study)
+    year: 1882
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'Kettlewell named in the lead list.
+
+      '
+    url: https://archive.org/details/thomasakempis01kettuoft
+    rights_basis: 'pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1882 (two volumes:
+      thomasakempis01kettuoft and thomasakempis02kettuoft, 1193547 and 1280247 bytes)'
+    verified_by: 'Library thread, October 2026: item metadata read; text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Scholarship, not a source: a Victorian life of Kempis and history of the Brothers. Not vendored.
+
+      '
+  - title: Life of the Venerable Thomas a Kempis
+    author: Dom Vincent Scully
+    translator: none (English biography)
+    year: 1901
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'Scully''s life named in the lead list.
+
+      '
+    url: https://archive.org/details/lifeofvenerablet0000domv_i0k4
+    rights_basis: pd-us-by-date; item date 1901 (Washbourne); no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read (size 480718 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Scholarship, not a source. Not vendored.
+
+      '
+  - title: Het klooster te Windesheim en zijn invloed
+    author: J. G. R. Acquoy
+    translator: none (Dutch study)
+    year: 1875
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'The standard Windesheim history, which several vendored files cite.
+
+      '
+    url: https://archive.org/details/hetkloostertowin01acqu
+    rights_basis: pd-us-by-date; item date 1875 (Utrecht, van der Post; three volumes, other scans hetkloostertewi00wetegoog,
+      hetkloostertewi01wetegoog and hetkloostertewi02wetegoog); no host rights field on the one read
+    verified_by: 'Library thread, October 2026: item metadata read (size 825811 bytes for volume 1); text
+      not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Scholarship in Dutch, with documents. Not vendored.
+
+      '
+  - title: Rosetum exercitiorum spiritualium et sacrarum meditationum (Windesheim rapiarium of Johannes
+      Mauburnus)
+    author: Johannes Mauburnus (Mombaer)
+    translator: none (Latin)
+    year: 1603
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'The rapiarium genre, named in the census.
+
+      '
+    url: https://archive.org/details/bub_gb_ZF9851868VQC
+    rights_basis: pd-us-by-date; host licence is the Public Domain Mark 1.0; item date 1603 (a 1620 printing
+      is bub_gb_Ns73wJzyg8gC)
+    verified_by: 'Library thread, October 2026: item metadata read (size 5149366 bytes); text not fetched.
+      The 1494 incunable scans (ned-kbn-all-00002076-001, 2291099 bytes, and ita-bnc-in2-00000082-001) were
+      fetched: gothic type read as nonsense'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not vendored: a seventeenth-century printing of a late-fifteenth-century Windesheim text,
+      5.1 MB, past the window as a printing and past the size line for an unsampled file. The host catalogues
+      the author as Johannes Mauburnus (Mombaer). Revisit if a rapiarium-type text is needed.
+
+      '
+  - title: Thomas a Kempis, Opera omnia vol. 1 and vol. 7 (Pohl)
+    author: Thomas a Kempis; ed. Michael Joseph Pohl
+    translator: none (Latin)
+    year: 1902
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'Gaps in the Pohl set.
+
+      '
+    url: https://archive.org/details/thomaehemerkena01pohlgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT (vol. 1 item)
+    verified_by: 'Library thread, October 2026: item metadata read; one item of the Google set (thomaehemerkena01pohlgoog)
+      has no full-text file and its volume number was not established; no other item found for volume 1,
+      and none for volume 7 (1922)'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not obtainable: no OCR text on the host for the one unplaced Google item, and no item for
+      the last volume. The Latin Imitation is volume 2 and is already vendored.
+
+      '
+  - title: De imitatione Christi, Latin edition of Pohl (second scan)
+    author: Thomas a Kempis; ed. Michael Joseph Pohl
+    translator: none (Latin)
+    year: 1904
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'A duplicate scan.
+
+      '
+    url: https://archive.org/details/operaomniaimitat0000thom
+    rights_basis: pd-us-by-date; item date 1904; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read (size 638921 bytes); text fetched and
+      the title page read (''Volumen alterum'')'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'A second scan of the volume the shelf already holds as kempis_opera-omnia-sermones-de-compunctione-
+      lat_pohl1902.txt (its title page reads Volumen alterum, De imitatione Christi). Not vendored.
+
+      '
+  - title: Doctrinale antiquitatum fidei Catholicae Ecclesiae (Venice printing, one volume)
+    author: Thomas Netter of Walden
+    translator: none (Latin)
+    year: 1757
+    world: lollardy
+    why: 'The Doctrinale named in the lead list.
+
+      '
+    url: https://archive.org/details/bub_gb_WtmNY51EEAIC
+    rights_basis: pd-us-by-date; host licence is the Public Domain Mark 1.0; item date 1757
+    verified_by: 'Library thread, October 2026: item metadata read; text fetched (4861602 bytes) and sampled'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Hostile voice, the Carmelite provincial''s long refutation of Wyclif. Not vendored: at 4.9
+      MB it is over the size line for a second witness, and long s is read as f and ae as x throughout,
+      so the OCR is weak. Only one tome is on the host under this item; which tome was not established.
+
+      '
+  - title: Chronicon Angliae, 1328-1388
+    author: Anonymous monk of St Albans (Thomas Walsingham's source)
+    translator: none (Latin)
+    year: 1874
+    world: lollardy
+    why: 'A second hostile chronicle for the first decades.
+
+      '
+    url: https://archive.org/details/chroniconangliae0000anon
+    rights_basis: host item date 1874; no host rights field; publication before 1930
+    verified_by: 'Library thread, October 2026: item metadata read (size 1347495 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not vendored for lack of time. A St Albans chronicle for the years 1328 to 1388, the period
+      of Wyclif''s trial and the first Lollards; the host metadata does not name the editor.
+
+      '
+  - title: Historia Anglicana, vol. I (to 1381)
+    author: Thomas Walsingham
+    translator: none (Latin)
+    year: 1863
+    world: lollardy
+    why: 'Volume I of Walsingham.
+
+      '
+    url: https://archive.org/details/thomaewalsingham01wals
+    rights_basis: pd-us-by-date; item date 1863
+    verified_by: 'Library thread, October 2026: item metadata read; text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Volume I of the work whose volume II is vendored. Outside the window for most of its length.
+
+      '
+  - title: Chronicon Henrici Knighton, vol. I
+    author: Henry Knighton
+    translator: none (Latin)
+    year: 1889
+    world: lollardy
+    why: 'Volume I of Knighton.
+
+      '
+    url: https://archive.org/details/chroniconhenrici01knig
+    rights_basis: pd-us-by-date; item date 1889
+    verified_by: 'Library thread, October 2026: item metadata read (size 1204959 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Volume I of the work whose volume II is vendored. Mostly before the window.
+
+      '
+  - title: Iohannis Wyclif De civili dominio, liber tertius
+    author: John Wyclif; ed. Johann Loserth
+    translator: none (Latin)
+    year: 1903
+    world: lollardy
+    why: 'A later book of On Civil Lordship.
+
+      '
+    url: https://archive.org/details/iohanniswyclifd00mattgoog
+    rights_basis: pd-us-by-date; the scan's title page reads 1903 and carries a Johnson Reprint 1966 imprint;
+      the host date 1885 is wrong for this book
+    verified_by: 'Library thread, October 2026: item metadata read; text fetched (931739 bytes), title page
+      read'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not vendored: the pass took book 1 only. Books 2 to 4 are later Wyclif Society volumes.
+
+      '
+  - title: Iohannis Wycliffe Dialogus sive Speculum ecclesie militantis
+    author: John Wyclif; ed. Alfred W. Pollard
+    translator: none (Latin)
+    year: 1886
+    world: lollardy
+    why: 'A further Wyclif text.
+
+      '
+    url: https://archive.org/details/iohanniswycliff00wyclgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1886
+    verified_by: 'Library thread, October 2026: item metadata read (size 380638 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not vendored for lack of time. A short Wyclif Society volume on the church militant.
+
+      '
+  - title: Iohannis Wyclif Opus evangelicum
+    author: John Wyclif; ed. Johann Loserth
+    translator: none (Latin)
+    year: 1895
+    world: lollardy
+    why: 'A further Wyclif text.
+
+      '
+    url: https://archive.org/details/iohanniswyclifo00wyclgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1895
+    verified_by: 'Library thread, October 2026: item metadata read (size 1069253 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Not vendored for lack of time. A Wyclif Society volume.
+
+      '
+  - title: Three Treatises by John Wickliffe (Of the Church and her Members; Of the Apostacy of the Church;
+      Of Antichrist and his Meynee)
+    author: John Wyclif (attributed)
+    translator: none (Middle English)
+    year: 1851
+    world: lollardy
+    why: 'Todd''s Dublin manuscript tracts.
+
+      '
+    url: https://archive.org/details/threetreatisesn00toddgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title page reads 1851
+    verified_by: 'Library thread, October 2026: item metadata read; text fetched (194048 bytes) and sampled
+      at opening, middle and end'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'The black-letter type of the English text is read as nonsense in the sampled lines (''but
+      bofoe a foes from treble''). Not vendored. Arnold and Matthew, already on the shelf, carry Wyclif''s
+      English tracts in clean type.
+
+      '
+  - title: Chaucerian and Other Pieces (Jack Upland, Friar Daw's Reply and Upland's Rejoinder, Skeat's edition)
+    author: Walter W. Skeat (editor)
+    translator: none (Middle English)
+    year: 1897
+    world: lollardy
+    why: 'Skeat''s introduction to Jack Upland.
+
+      '
+    url: https://archive.org/details/chaucerianotherp0007walt
+    rights_basis: pd-us-by-date; item date 1897; no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read; text fetched (1648676 bytes) and sampled'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'A second edition of the Jack Upland group, with Skeat''s introduction on date and authorship.
+      Not vendored because Wright''s text (vendored) carries the same three pieces and the rest of this
+      volume is Chaucerian.
+
+      '
+  - title: Wycklyffes Wycket (1828 reprint of the 1546 printing)
+    author: John Wyclif (attributed)
+    translator: none (early English)
+    year: 1828
+    world: lollardy
+    why: 'The Wicket, a Lollard tract on the Eucharist.
+
+      '
+    url: https://archive.org/details/wycklyffeswycke00wyclgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1828
+    verified_by: 'Library thread, October 2026: item metadata read (size 37432 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'The Wicket is also printed in Vaughan 1845, which is on the shelf. Not vendored.
+
+      '
+  - title: The Lollards of the Chiltern Hills
+    author: William Henry Summers
+    translator: none (English study)
+    year: 1906
+    world: lollardy
+    why: 'A local study of the Chilterns households.
+
+      '
+    url: https://archive.org/details/cu31924029441346
+    rights_basis: pd-us-by-date; item date 1906 (London, Griffiths); no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read (size 267348 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Scholarship, not a source. Not vendored.
+
+      '
+  - title: The Lollard Bible and other medieval Biblical versions
+    author: Margaret Deanesly
+    translator: none (English study)
+    year: 1920
+    world: lollardy
+    why: 'The standard older study of the Lollard Bible.
+
+      '
+    url: https://archive.org/details/lollardbibleoth00dean
+    rights_basis: pd-us-by-date; item date 1920 (Cambridge University Press); no host rights field
+    verified_by: 'Library thread, October 2026: item metadata read (size 1509141 bytes); text not fetched'
+    status: not-yet-downloaded
+    vendored_as: ''
+    hold_note: 'Scholarship, not a source. Not vendored.
+
+      '

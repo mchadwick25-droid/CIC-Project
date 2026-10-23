@@ -52,3 +52,28 @@ assignments:
     note: >
       Editorial (Curnock's own voice, not Wesley's) - useful as
       context/orientation for Doc_02, never citable as Wesley's own words.
+  - row_id: wesley-j_journal-v1_curnock1909--wesley-s-journal-reading-tauler
+    work: 'Wesley''s Journal: reading Tauler'
+    author: wesley-j
+    locus: whole volume
+    atlas_ids:
+    - rhineland-mysticism-and-the-friends-of-god
+    role: transmission
+    confidence: provisional
+    note: 'Wesley reads ''Tauler''s Life'' and spends a day on Tauler and Ludolf (file lines 8653 to 8683)
+      and names Tauler again at line 24892. Tier: out of window. Placed on those entries.
+  
+      '
+  - row_id: wesley-j_journal-v1_curnock1909--wesley-s-journal-reading-kempis-s-christian-pattern
+    work: 'Wesley''s Journal: reading Kempis''s Christian Pattern'
+    author: wesley-j
+    locus: whole volume
+    atlas_ids:
+    - devotio-moderna-brethren-of-the-common-life
+    role: transmission
+    confidence: provisional
+    note: 'Wesley names Kempis''s Imitation of Christ, or Christian Pattern, as the book that turned his
+      mind (file lines 963 to 1063). The Methodist line from the Imitation. Tier: out of window. Placed
+      on those passages.
+  
+      '

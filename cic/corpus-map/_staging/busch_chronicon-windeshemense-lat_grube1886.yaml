@@ -33,3 +33,16 @@ assignments:
       Saxony, not Italy or Spain). Its main home is the Devotio Moderna world; this is a second placement,
       left provisional until the Observance build says what it wants from the Augustinian and Benedictine
       side.'
+  - row_id: busch_chronicon-windeshemense-lat_grube1886--busch-chronicon-windeshemense-suso-and-ruysbroek-named
+    work: 'Busch, Chronicon Windeshemense: Suso and Ruysbroek named'
+    author: busch
+    locus: whole volume
+    atlas_ids:
+    - rhineland-mysticism-and-the-friends-of-god
+    role: context
+    confidence: provisional
+    note: 'The editor''s notes tie a passage to Suso''s Horologium sapientiae (file lines 8024 and 20526)
+      and the index names Suso and Ruysbroek (lines 43310, 44931). Proposed as context here. Tier: same
+      time- different region.
+  
+      '
