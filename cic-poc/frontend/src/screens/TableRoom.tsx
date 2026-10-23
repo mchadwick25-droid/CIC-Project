@@ -233,6 +233,7 @@ export function TableRoom({
           placeholder={roundOpen || reveal.busy ? 'The table is still speaking…' : 'Ask the table…'}
         />
       )}
+      {!deleted && <p className="conversation__ai-line sans">These are AI-generated voices.</p>}
     </div>
   );
 }

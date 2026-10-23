@@ -313,7 +313,8 @@ svg#world{display:block;overflow:visible}
 #legend .note{font-size:.68rem;line-height:1.45;color:var(--ink-faded);font-style:italic;margin:.35rem 0 0}
 #zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.7rem;
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
-  border-radius:3px;padding:.4rem .6rem;max-width:190px;text-align:right}
+  border-radius:3px;padding:.4rem .6rem;max-width:230px;text-align:right}
+.topbar button.zoom-btn{min-width:2rem;font-size:1rem;line-height:1;padding:.3rem .6rem}
 @media (prefers-reduced-motion:reduce){.river-calm,.river-organic,#panel{transition:none!important}}
 
 /* ---- Touch tap targets ----
@@ -383,6 +384,8 @@ svg#world{display:block;overflow:visible}
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to today</span>
   <div class="spacer"></div>
   <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
+  <button id="zoomOutBtn" type="button" class="zoom-btn" aria-label="Zoom out" title="Zoom out (minus key)">&minus;</button>
+  <button id="zoomInBtn" type="button" class="zoom-btn" aria-label="Zoom in" title="Zoom in (plus key)">+</button>
   <button id="resetBtn" type="button">Reset view</button>
 </div>
 <div class="feature-bar" aria-label="Main features">
@@ -399,8 +402,8 @@ svg#world{display:block;overflow:visible}
   built, each with its own representative voice you can have a conversation
   with. The thin lines crossing between traditions mark real, documented
   relationships.
-  Drag to pan, scroll or pinch to zoom,
-  hover a name for a glimpse, click for the full story.
+  Scroll or drag to move around, hold Ctrl or Cmd and scroll (or pinch on a touch
+  screen) to zoom, hover a name for a glimpse, click for the full story.
 </div>
 
 <div id="stage">
@@ -414,7 +417,7 @@ svg#world{display:block;overflow:visible}
      an invisible control that appeared to do nothing. -->
 <div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>
 <div id="legend"></div>
-<div id="zoomHint">Scroll or pinch to zoom &middot; drag to pan</div>
+<div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
 
 <script>
 "use strict";
@@ -41765,15 +41768,25 @@ function centerView(){
   ty=Math.max(40,chrome+12);
   applyTransform(); applyDetail();
 }
-stage.addEventListener('wheel',(ev)=>{
-  ev.preventDefault();
-  const rect=stage.getBoundingClientRect();
-  const mx=ev.clientX-rect.left, my=ev.clientY-rect.top;
+// Input order: scrolling moves the map, zoom is Ctrl/Cmd + scroll (a trackpad
+// pinch reaches the page as a wheel event with ctrlKey set), click or tap is last.
+function zoomAt(mx,my,factor){
   const wx=(mx-tx)/scale, wy=(my-ty)/scale;
-  const factor=Math.exp(-ev.deltaY*0.0016);
   scale=Math.max(MIN_S,Math.min(MAX_S,scale*factor));
   tx=mx-wx*scale; ty=my-wy*scale;
   applyTransform(); applyDetail();
+}
+stage.addEventListener('wheel',(ev)=>{
+  ev.preventDefault();
+  if(ev.ctrlKey||ev.metaKey){
+    const rect=stage.getBoundingClientRect();
+    const dy=Math.max(-30,Math.min(30,ev.deltaY));
+    zoomAt(ev.clientX-rect.left,ev.clientY-rect.top,Math.exp(-dy*0.01));
+    return;
+  }
+  const unit=ev.deltaMode===1?16:ev.deltaMode===2?window.innerHeight:1;
+  tx-=ev.deltaX*unit; ty-=ev.deltaY*unit;
+  applyTransform();
 },{passive:false});
 
 // Pointer Events with capture, not mousedown/mousemove/mouseup on window --
@@ -41842,6 +41855,41 @@ function nudge(dx,dy){ tx+=dx; ty+=dy; applyTransform(); }
     });
     ['pointerup','pointerleave','pointercancel'].forEach(evt=>btn.addEventListener(evt,stopHold));
   });
+}
+
+// Zoom buttons and keys. Keys act only when focus is on the map or the page
+// itself, never inside the story panel, the feedback form or a text field.
+const ZOOM_STEP=1.25;
+function zoomCentre(factor){ zoomAt(window.innerWidth/2,window.innerHeight/2,factor); }
+document.getElementById('zoomInBtn').addEventListener('click',()=>zoomCentre(ZOOM_STEP));
+document.getElementById('zoomOutBtn').addEventListener('click',()=>zoomCentre(1/ZOOM_STEP));
+function topInset(){
+  const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
+  return (topbar?topbar.offsetHeight:0)+(featureBar?featureBar.offsetHeight:0)+12;
+}
+document.addEventListener('keydown',(ev)=>{
+  if(ev.defaultPrevented||ev.ctrlKey||ev.metaKey||ev.altKey)return;
+  if(panel.classList.contains('open'))return;
+  if(ev.target.closest&&ev.target.closest('input,textarea,select,[contenteditable],[role="dialog"],dialog'))return;
+  const page=window.innerHeight*0.85;
+  switch(ev.key){
+    case 'ArrowUp': nudge(0,PAN_STEP); break;
+    case 'ArrowDown': nudge(0,-PAN_STEP); break;
+    case 'ArrowLeft': nudge(PAN_STEP,0); break;
+    case 'ArrowRight': nudge(-PAN_STEP,0); break;
+    case 'PageUp': nudge(0,page); break;
+    case 'PageDown': nudge(0,-page); break;
+    case 'Home': ty=topInset(); applyTransform(); break;
+    case 'End': ty=window.innerHeight-CANVAS_H*scale-12; applyTransform(); break;
+    case '+': case '=': zoomCentre(ZOOM_STEP); break;
+    case '-': case '_': zoomCentre(1/ZOOM_STEP); break;
+    default: return;
+  }
+  ev.preventDefault();
+});
+// The pinch line shows only where a touch screen exists.
+if(window.matchMedia&&window.matchMedia('(any-pointer:coarse)').matches){
+  document.getElementById('zoomHint').textContent='Drag to move \u00b7 pinch to zoom';
 }
 
 // A pinch changes the SVG scale every move, and each scale change re-lays-out

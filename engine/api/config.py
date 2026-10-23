@@ -18,8 +18,6 @@ _DEFAULT_SAFETY_MODEL_PATTERN = "us.anthropic.claude-haiku-4-5"
 _DEFAULT_EVENTS_DB = "./cic_api_events.db"
 _DEFAULT_USAGE_DB = "./cic_api_usage.db"
 _DEFAULT_WORLD_KEY = "fix"
-_DEFAULT_ANON_DAILY_SESSION_LIMIT = 5
-_DEFAULT_ANON_DAILY_TURN_LIMIT = 150
 
 
 SETTING_PREFIXES = ("CIC_", "AWS_", "VITE_")
@@ -101,17 +99,13 @@ class Settings:
     # already follows above, so duplicating those fields here would just
     # be a second place for them to drift.
     package_cache_dir: Path
-    # Anonymous per-visitor daily cap - code default OFF (a fresh/local/
-    # test app opts in explicitly), but both real deploys turn it on
-    # (render.yaml). See engine.api.anon_cap's own module docstring: the
-    # cap numbers below are still the PROPOSED default, not independently
-    # re-tuned as part of Mark's on/off decision. Flipping this on with no
+    # The visitor cookie - code default OFF (a fresh/local/test app opts in
+    # explicitly), but both real deploys turn it on (render.yaml). See
+    # engine.api.anon_cap's own module docstring. Flipping this on with no
     # secret set is a hard failure (below), not a silent skip - same
     # "never guess" posture as region/admin_token above.
     anon_cap_enabled: bool
     anon_visitor_secret: str | None
-    anon_daily_session_limit: int
-    anon_daily_turn_limit: int
     # Off by default. When on, a wholly_uncited_paragraph or
     # neighbour_named offense regenerates once, then hands the turn to
     # the Facilitator if it survives that - see
@@ -177,10 +171,6 @@ class Settings:
             package_cache_dir=Path(os.environ.get("CIC_API_PACKAGE_CACHE_DIR", str(REPO_ROOT / "packages"))),
             anon_cap_enabled=os.environ.get("CIC_API_ANON_CAP_ENABLED", "") in ("1", "true", "yes"),
             anon_visitor_secret=os.environ.get("CIC_API_ANON_VISITOR_SECRET") or None,
-            anon_daily_session_limit=int(
-                os.environ.get("CIC_API_ANON_DAILY_SESSION_LIMIT", _DEFAULT_ANON_DAILY_SESSION_LIMIT)
-            ),
-            anon_daily_turn_limit=int(os.environ.get("CIC_API_ANON_DAILY_TURN_LIMIT", _DEFAULT_ANON_DAILY_TURN_LIMIT)),
             r27_enforce=os.environ.get("CIC_R27_ENFORCE", "") in ("1", "true", "yes"),
             self_revision_enabled=os.environ.get("CIC_SELF_REVISION", "1") not in ("0", "false", "no"),
             citation_attach_enabled=os.environ.get("CIC_CITATION_ATTACH", "") in ("1", "true", "yes"),

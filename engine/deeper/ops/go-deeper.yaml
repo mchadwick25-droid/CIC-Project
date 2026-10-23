@@ -2,6 +2,8 @@ limits:
   group_daily_ceiling: 6000
   group_burst_multiplier: 6
   low_balance_at: 100
+  unanswered_messages_per_visitor: 100
+  unanswered_messages_per_network: 200
 tokens:
   solo:
     open: 50
@@ -16,14 +18,15 @@ tokens:
   free:
     window_tokens: 550
     window_days: 30
-    rounds_per_conversation: 3
+    example_conversation_rounds: 3
+    network_window_allowances: 5
   packs:
     - {price_usd: 7, tokens: 1100}
     - {price_usd: 15, tokens: 2750}
     - {price_usd: 30, tokens: 6600}
 door:
   observe: false
-  base_weekly_usd: 75
+  base_weekly_usd: 12
   daily_share: 0.333
   gift_share: 0.8
   purchase_share: 0.5

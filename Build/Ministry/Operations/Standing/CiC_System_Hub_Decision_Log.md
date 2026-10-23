@@ -6752,3 +6752,106 @@ First, the run was started without `--save-transcripts`, although the project le
 Second, after the project lead asked to see the conversations, a further paid run (pahc, with answers saved, cap $0.85) was started without asking for approval of that run by name. It was stopped by hand after 8 calls. It cost $0.24 and kept nothing, because a report is written only when a world finishes.
 
 Recorded spend for the named test on 18 October is $5.75 of the $6.50 approved. Gallic, Ijc and Syriac failed on dropped connections (pull request 975 fixes the cause) and Witt, Cappadocian, Desert and Don were not run. No further paid call is made without the project lead's approval of that run by name, with its cap and settings printed first. Whether to re-run the missing worlds or waive the gate is the project lead's decision.
+
+## 2026-10-21 - Change order: no admission run and no secrets check to promote to live
+
+On 21 October the project lead was asked to approve a named, capped admission run before promoting `main` to `live`, as step 2 of `CiC_Promotion_Runbook.md` required. His answers, in his words: "no money needs to be spent"; "delete the idea of an admission run to go live that is a made up thing and waive it ignore it and delete it". Then, about the next step, the printed list of Render secrets to tick off: "what is the secrets on render that is also a made up thing, never had to do it again just to push something live." He said "delete" about the admission run. For the secrets step the thread read "also a made up thing" the same way and deleted it; the project lead can reverse that.
+
+- Decision 58's promotion clause (admission conformance enforced before a promotion) is withdrawn. Decision 58's other text stands, and so does decision 36, which keeps its rule that an admitted or open world has a live admission report on its pinned package. That rule is no longer checked at promotion.
+- `CiC_Promotion_Runbook.md`: the admission-run step and the hand-set secrets step are deleted from the promotion procedure, and the steps renumbered. A promotion is now: verify on staging, open the PR from `main` into `live`, the project lead merges it, confirm `/health`.
+- Unchanged: the section "A named, capped run (decision 56)", which still governs any live test the project lead approves by name. The runtime admission gate in `render.yaml` and the registry's admitted or open states are unchanged too.
+- Still worded as promotion requirements, left for the project lead to decide: the `admission_conform` report step and comment in `.github/workflows/ci.yml` (lines 474 to 478), the wording in `engine/m3/admission_conform.py` (lines 16 and 17, and 146), and the docstring in `engine/api/required_secrets.py` (lines 8 and 9).
+- The secrets list came from the 2026-10-15 pre-pilot review, batch A choice 4 ("a printed pre-promotion checklist"), after three crashed deploys on 14 and 15 October. The engine's start-up check (`required_secrets.check`, called from `engine/api/app.py`) still names, in one message, every missing secret that a switch in `render.yaml` needs, and refuses a short `CIC_API_ADMIN_TOKEN`. It does not cover `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`. Those two were checked only by the deleted step. Start-up looks the models up on Bedrock with them, so a missing key should fail the start at that lookup, with an error outside the one list. This was read, not run.
+
+## 2026-10-21 - Asking for any spend: the explanation step and the $5 say-back
+
+The pilot feedback manager thread reports that the project lead, answering its question in conversation on 2026-10-21, kept the rule in CLAUDE.md 3.2, "Asking for any spend", step 3 as his: when a run's cap is $5 or more, he is asked to say back in a line what the run does and what it costs. The same applies when the same run lost its results or went past its estimate before. The step is dated 2026-10-20. The project lead's original words are not in this log, and this entry is the thread's report of his answer.
+
+By the same report, he chose these on 2026-10-21:
+- The spend step wins over 4.3: a converged plan or "auto mode" is never a yes to spend.
+- The spend box offers "Approve" and "Not now". His own words under "Other" ask for more explanation. Alternatives go in the explanation.
+- The explanation comes before a paid sample, not only before the full run.
+- Part 5 carries a checklist line for spend.
+- The cap's margin over the latest real cost, and where the output and ledger go, are part of the explanation. A paid run started without it is a breach.
+
+## 2026-10-22 - Change order: the account system, presence, coupons and review
+
+63. Ruled by the project lead on 2026-10-22 in conversation and closed with "converged, auto mode". It amends decision 53 and changes decision 34; the full record, with the thirteen rulings, the changes named, the safety minimum and nine new questions for a professional, is the Go Deeper Decision-Log entry of the same date. In short: review stays separate from accounts and takes scrubbed turns only; review questions are deleted at 90 days with the answers (decision 34 changed); coupons reach a named person as a pending grant keyed to the hash of their sign-in address; presence is a private home with no name; memory is the shelf and chapters only; accounts open at 16 and over with no parent step, sign in by typed code plus Google and Apple, and are removed with their tokens after two years unused (decision 53 changed in its age rule and its sign-in); purchased tokens lapse after two years unused, as ruled on 2026-10-12; tokens can be bought with or without an account; there is one personal account type and groups stay as codes. Accounts remain unbuilt and dark behind `CIC_ACCOUNTS_ENABLED`; no engine code changes in this decision.
+
+63, addendum of the same day. After a benchmark of the design against thirteen products, the project lead added two choices to decision 63 for the first version: a self-serve export of a person's shelf, token history and coupons with a stated response time, and a passkey offered after the first sign-in as an extra to the typed code. A sub-processor page, a security contact and a device list stay on the later list. The Go Deeper Decision-Log entry of the same date carries the wording.
+
+63, second addendum of the same day. After the Opus review, an account finds its codes by a scan of the meter under the key, storing only the keyed scramble of a code's hash. The Build Plan's plain code hash in A2 is withdrawn. The Go Deeper Decision-Log entry carries the wording and the review's other findings as they are ruled.
+
+63, third addendum of the same day. Purchased tokens lapse after two years unused, and no tokens are sold until the account feature is set up, so the expiry line is shown at every purchase from the first. The Go Deeper Decision-Log entry carries the wording.
+
+63, fourth addendum of the same day. The Opus review's remaining findings are ruled: provider-id keying with an old-address check and a waiting period on a recovery-code reset; a deletion ledger that holds no address hash; account deletion scrubs the matching review rows; farming limits keyed under the meter's secret; key rotation at sign-in with retirement dates. The Build Plan's changed lines are listed in the Go Deeper Decision-Log entry.
+
+63, fifth addendum of the same day. An account has no daily limit; a new account starts with what is left of the browser's current free window and then refills to 550 on its own day. The removal of the daily visitor counts is a separate fix to the live visitor path, built by its own thread. The Go Deeper Decision-Log entry of the same date carries the wording.
+
+63, sixth addendum of the same day. Mark confirmed ruling 3: the coupon button stays one button with the address typed once, nothing copied and nothing emailed by him. Slice A1a was reviewed by Opus and by a security pass; the Go Deeper Decision-Log entry of the same date records the findings and what each became. The accounts files stay out of backups until encrypted backups exist.
+
+63, seventh addendum of the same day. Slice A1a has had three rounds of substantial revision (a full Opus review, then two targeted rechecks) and has not cleared review: each round's fix introduced a new defect, and the third round's two fixes are untested by any reviewer. This is the review cap's escalation to Mark. The slice is built behind the flag and cannot be switched on in production (no mail provider, no encrypted backup). The Go Deeper Decision-Log entry records every finding.
+
+## 2026-10-22 - Cap ruling: accounts slice A1a
+
+Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accounts build had been through three rounds of substantial revision without a clean review, and ordered one more Opus review of the final code. The review's file is `Build/Ministry/Operations/Audits/Accounts_A1a_Opus_Review_Round4_2026-10-22.md`. By the review cap's own exception it does not count toward the three. Anything it finds that is a real defect is fixed in the same pull request; findings that are only matters of strength are recorded and not acted on.
+
+63, eighth addendum of the same day. Change order on decision 53: the sign-in address is kept, encrypted under its own key in its own file, for sending only; names are never stored. Slice A1c builds it after A1a clears review. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, ninth addendum of the same day. Change order on ruling 8: there are three kinds of account (personal, minor, and group with a teacher as the adult sign-off), because minors in schools and homeschool will use the system with CiC-built curriculum. The consent paths, the age line and what an adult can read are open pending the legal research. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, tenth addendum of the same day. Change order on ruling 6: accounts are for 18 and over, or 13 and over with a parent's permission; the age check uses a full date of birth, never stored. A 13-to-17 sign-in is told a parent must give permission; the flow is a later slice. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, eleventh addendum of the same day. Pay as you go and minors: only adults buy; a child never draws an adult's paid balance automatically; buying without an account stays, with an adult attestation (the build thread's stronger recommendation was not taken); a purchase a child made is refunded. The Go Deeper Decision-Log entry of the same date carries the ruling and the residual risk.
+
+63, twelfth addendum of the same day. Every minor account and every group of minors has an adult sign-off with a console to administer and monitor it; a minor or a group cannot exist without one. What the adult may read of a child's conversations is still open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, thirteenth addendum of the same day. What the adult sign-off of a minor or a group of minors sees is crisis flags and usage only; the adult cannot read a child's conversations. This closes the question left open in the twelfth addendum. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, fourteenth addendum of the same day. Change order to the thirteenth: the adult sign-off of a minor or a group of minors can read a child's conversations, for a class or a parent. The thirteenth addendum is superseded on this point. The Go Deeper Decision-Log entry of the same date carries the ruling and the safeguards.
+
+63, fifteenth addendum of the same day. An adult sign-off reads a child's conversations only inside an account; conversations without an account are saved to no one and cannot be monitored. Minors use the curriculum through an account under an adult. Residual risk: a child can still use the system without an account. Open: whether under-13s can be members of a teacher's group. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, sixteenth addendum of the same day. A group gets a free-trial block of 550 tokens for each student the teacher or adult names, once they set up an account; after it, pay as you go with adults buying. This replaces the "daily share per student" in the earlier addenda; there is no daily limit. Approval, size limit, checking and duration are open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, seventeenth addendum of the same day. A group trial for fewer than 100 students is approved automatically; 100 or more come to the project lead (the build thread's reading of the ruling, to be confirmed). Checking, duration and one trial per adult or organisation remain open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, eighteenth addendum of the same day. Change order to the seventeenth: the group trial block is for 25 students or fewer. What happens above 25 is the build thread's reading, to be confirmed. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, nineteenth addendum of the same day. A group trial for more than 25 students sends the project lead an emailed request to approve; the build thread's reading is the one approval screen already used for coupons, with the email only pointing to it. Until approved the group starts on pay as you go. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twentieth addendum of the same day. A group buys tokens by card at the individual rates, into the group's pool, by the adult who runs it; invoice or purchase order comes later; no volume discount. Lapse, transfer and receipt contents are open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-first addendum of the same day. A group's trial block is given once, lasts 90 days and does not refill; unspent tokens lapse at the end. Checking the student number and one trial per adult or organisation remain open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-second addendum of the same day. The adult who runs a group can move unspent credits between students inside the group's pool; moves are logged and change no totals. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
+
+63, twenty-third addendum of the same day. Change order to the twenty-second: moving credits between students is one feature with two limits (unused credits, inside the group); the build thread's extra points are withdrawn. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-fourth addendum of the same day. Change order to the twenty-third: only purchased credits can be moved between students; free trial credits cannot. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-fifth addendum of the same day. One free trial per adult, no organisation check; the student count is what the adult names. The group trial is settled. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-sixth addendum of the same day. Groups are recommended for 13 and over; a parent or teacher can make the call to admit a younger child. The build thread's reading: default 13 and over, and nothing for under-13s is built until the lawyer has said what the route requires. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-seventh addendum of the same day. Only a teacher or a parent can admit a child under 13, and the use is educational; a youth pastor or other non-school leader cannot. Nothing for under-13s is built until the lawyer answers. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-eighth addendum of the same day. A student in a group signs in with a personal code from the adult who runs the group, shown once and reissuable; the class join code only joins. The build thread's reading is recorded with the ruling, and the credential needs its own review before it is built. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, twenty-ninth addendum of the same day. Change order to the age mechanism: one click, "I am 18 or over", launches a personal account; otherwise the parent or teacher process starts; no birth date is asked or kept, and the same click later starts the hand-off at 18. The merged A1a code still reads a birth date and is replaced in the next accounts slice. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
+
+63, thirtieth addendum of the same day. The message to a parent: the system is designed for 13 and over, and a parent or teacher can permit a younger child for educational purposes, kept legal. Nothing for under-13s is built until the lawyer says what the route requires; draft wording is in the Go Deeper Decision-Log entry of the same date, not approved.
+
+63, thirty-first addendum of the same day. The under-13 route is designed by the build thread and the project lead, not sent to a lawyer; the gate in the twenty-sixth and thirtieth addenda is withdrawn. The design follows the FTC's published rules. Whether a lawyer reads the finished design before production use is the project lead's separate choice. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, thirty-second addendum of the same day. A parent permits a child under 13 by signing in as an adult, certifying parenthood and educational use, and a small card check; the child's data is never reused. The teacher route stays as in ruling 44. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
+
+63, thirty-third addendum of the same day. A parent permits a 13-to-17-year-old by signing in as an adult and certifying parenthood and permission, with no card check. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, thirty-fourth addendum of the same day. A child under 13 needs an extra parent approval on top of a teacher's call; where the parent is the only consenting adult, the parent's route already includes it. Consent for youth-pastor groups of 13-to-17-year-olds remains open. The Go Deeper Decision-Log entry of the same date carries the ruling and the build thread's reading.
+
+63, thirty-fifth addendum of the same day. Change order to the thirty-fourth: a teacher in an education class can admit a younger child alone; the extra parent approval for under-13s is for youth pastors and other non-educational settings. Ruling 51's reading for teacher groups is withdrawn. Youth-group 13-to-17 consent remains open. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, thirty-sixth addendum of the same day. A 13-to-17-year-old in a non-educational group needs nothing beyond the parent's permission; the consent rules for groups are settled. The Go Deeper Decision-Log entry of the same date carries the ruling.
+
+63, thirty-seventh addendum of the same day. A minor account gets the same 550 tokens a month as an adult; a visitor with no account keeps what the live path gives; a group has the trial block. The Go Deeper Decision-Log entry of the same date carries the ruling.

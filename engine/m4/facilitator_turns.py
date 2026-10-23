@@ -222,15 +222,26 @@ def session_cap_turn(representative_name: str, limit_text: str | None = None) ->
     return {"kind": SESSION_CAP.kind, "text": SESSION_CAP.text}
 
 
-DAILY_CAP = FacilitatorTurn(kind="close", text=CAP_CLOSE_TEXT)
+# The monthly bound on messages that get a safety check and no Representative
+# reply. Past it a message is not read by any model: this fixed line is the
+# whole reply, and the redirect to real people is part of it every time, so a
+# person in crisis who sends a message past the bound still sees it. DRAFT
+# words, for Mark's approval before they ship.
+VISITOR_BOUND = FacilitatorTurn(
+    kind="limit",
+    text=(
+        "This is the Facilitator. Messages here that get no reply from a Representative have reached the limit for this "
+        "month, so I have stopped reading new ones for now. Nothing in your conversations is lost.\n\n"
+        "If you are in distress or in danger, please reach out to someone real now - a person you trust, a crisis line, "
+        "or emergency services where you are.\n\n"
+        "The limit clears 30 days after the first message it counted."
+    ),
+)
 
 
-def daily_cap_turn(limit_text: str | None = None) -> dict:
-    """The visitor's daily message cap, reached on a message that is not a
-    crisis. Names no Representative, so the interview and the Table share it."""
-    if limit_text is not None:
-        return limit_turn(limit_text)
-    return {"kind": DAILY_CAP.kind, "text": DAILY_CAP.text}
+def visitor_bound_turn() -> dict:
+    """The reply past the monthly bound. Fixed text, no model call, the redirect always included."""
+    return {"kind": VISITOR_BOUND.kind, "text": VISITOR_BOUND.text, "resources_appended": True}
 
 
 # --- Table variants (Artifact-7 SS1-2; C1: fixed

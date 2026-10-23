@@ -134,6 +134,14 @@ describe('TableRoom', () => {
     expect(container.querySelector('.arrival__thinness')).toBeNull();
   });
 
+  it('says in one small line under the box that the voices are AI, outside the conversation', () => {
+    const { container } = render(<TableRoom {...baseProps} seatedWorlds={trio} turns={[]} />);
+    const line = container.querySelector('.conversation__ai-line') as HTMLElement;
+    expect(line.textContent).toBe('These are AI-generated voices.');
+    expect(container.querySelector('.conversation__transcript')?.contains(line)).toBe(false);
+    expect(container.querySelector('textarea')?.compareDocumentPosition(line)).toBe(Node.DOCUMENT_POSITION_FOLLOWING);
+  });
+
   it('opens About the table with the seated voices', () => {
     const { container } = render(<TableRoom {...baseProps} seatedWorlds={trio} turns={asked} />);
     fireEvent.click(screen.getByRole('button', { name: 'More' }));

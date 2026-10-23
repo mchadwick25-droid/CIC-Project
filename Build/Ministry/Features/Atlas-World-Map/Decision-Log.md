@@ -6662,6 +6662,25 @@ choice is made.
 
 ---
 
+## 2026-10-21 — Church Family Tree input remapped: scrolling first, zoom second, click or tap third (option A)
+
+**Decided (Mark: "A now, B later").** Option A is a remap of today's map. The scrolling landing page (B) and the phone era feed (C) are not approved. B waits on the week 3 pilot gate, which has no numbers yet.
+
+**Built in `cic-website/atlas-v3.html`:**
+- The wheel and trackpad swipe move the map. Ctrl or Cmd with the wheel zooms, which also covers trackpad pinch.
+- New + and − buttons sit beside "Reset view".
+- Keys: arrows, Page Up, Page Down, Home and End move the map; + and − zoom. Keys do nothing while the story panel, the feedback form or a text field has focus.
+- The corner hint and the intro note now describe the new order. The hint shows the pinch line only on touch screens.
+- One-finger pan, two-finger pinch, mouse drag and the existing marker click and keys are unchanged.
+
+**Checked:** Chromium, a 1280×800 window and a 390×844 touch window, with simulated wheel, Ctrl-wheel, button clicks and key presses. Every transform changed as expected and no page errors appeared.
+
+**Not checked:** real phones, a real trackpad pinch, a screen reader, and the keys while the panel is open.
+
+**Next action:** Mark tries it on his own devices. Nothing was deployed.
+
+---
+
 ## 2026-10-21 — Church Family Tree on phones: smooth pinch and a glide after a flick
 
 **Why:** Mark reported the Tree is not smooth or easy on a phone. A Chromium test (390×844 window, CPU slowed 4×) showed the cause. A one-finger pan was fine. A pinch was slow on every move: 40 of 40 frames over 50 ms, 95th percentile 117–183 ms. A trace showed the cost: the map has 364 SVG `<text>` labels, and each scale change re-lays-out all of them, while the `--zoom-scale` write restyled about 2,000 nodes on every move. Ruled out by measurement: `mix-blend-mode`, the `getBoundingClientRect()` call, and a CSS transform on the SVG.
@@ -6670,4 +6689,4 @@ choice is made.
 - While two fingers are down, the labels are hidden and the `--zoom-scale` write is held. Both come back when the fingers lift. Same test after the change: 0 of 40 slow frames, 95th percentile 17 ms, in two runs.
 - A fast one-finger flick now glides to a stop. The glide stops when a finger lands, after a pinch, after a pause before lifting, and when "Reset view" is pressed. It is off when the device asks for reduced motion.
 
-**Not checked:** a real phone, how hiding labels during a pinch reads by eye, and whether the glide distance feels right. The desktop wheel, keys, and + and − buttons from the option A branch (`claude/pensive-cori-culrhf`, commit `a6be5a2a`, no PR) are not in this change.
+**Not checked:** a real phone, how hiding labels during a pinch reads by eye, and whether the glide distance feels right. The wheel, key and zoom-button changes from option A sit alongside this change on the same page.

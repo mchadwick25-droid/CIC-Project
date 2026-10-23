@@ -392,3 +392,11 @@ Status: OPEN.
 Status: OPEN for the project lead to schedule.
 
 41. **Atlas final-check fixes, 2026-10-17.** Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout. Fixed: the Tome telling no longer says the questioning came before the acclamation, and the record's `absent_detail` is corrected to the acts (npnf214 19985-20012); the army's sight of the cross is told as Constantine's report; the tile claim about secret councils is gone; `emperor-builds-another-basilica` now says the Catholic bishops asked for another site (record `text` and telling, from the rescript in Optatus); the Bishop John and Altar of Victory notes now show; penance, vigil and Callinicum wording corrected; the vigil telling carries the one-year dating hedge. The letter telling is 93 words, not 100, because no fact was added to pad it. Status: CLOSED for this review.
+
+42. **Live-reply claim check, 2026-10-19.** Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-ijc-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 35 own-voice, 1 outsider's account, 4 unsupported, 0 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `records/ijc/doctrinal_witness/ijc.dw.jesus.md` lines 33 to 34 ("If the Son is not truly God, then what he gives is not truly God's to give") has no cited source.
+- `records/ijc/story/ijc.story.tome-that-would-not-bend.md` lines 56, 68 and 73 say the Tome "settled who Christ is", which contradicts `ijc.force.chalcedon-failed-consensus`; line 68 also puts the Tome and Canon 28 in the same session, against the record's own rule.
+
+   Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+   Status: OPEN.

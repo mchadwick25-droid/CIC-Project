@@ -1,9 +1,9 @@
 """Turns the code on a request into the numbers the engine reads.
 
-The engine is handed a TurnGrant (a cap and a Facilitator-only flag) and never
+The engine is handed a TurnGrant (a cap and the words for a pause) and never
 learns why. What a turn draws comes from the round it is and the seats at the
 table (engine.deeper.tokens). The free allowance, a window of tokens a visitor
-draws from over thirty days, covers a conversation's first rounds, narrowed by
+draws from over thirty days, together with the network it connects from, covers a conversation's first rounds, narrowed by
 the door's stage when the week's real spend nears its ceiling; a valid code buys
 what it would refuse: a round past the free rounds, or any turn once the free
 allowance is spent.
@@ -13,6 +13,14 @@ Admission reserves a turn's amount before the turn and settles it after it, so
 nothing is spent for a turn that was answered by the Facilitator alone, and
 nothing is left held when a turn fails.
 
+MessageBoundCheck is the monthly bound on messages that get a safety check and
+no Representative reply. Past it a message is answered with a fixed line and no
+model call; a code with tokens left is outside it.
+
+A signed-in person draws the free allowance from their account's window instead of the
+browser's (and still within the network's), and a code the account holds pays like a code on
+the request; free is drawn before any code. Signed out, nothing changes.
+
 Any fault here leaves the free grant. Admission never closes the free path.
 """
 import logging
@@ -20,8 +28,9 @@ from typing import Callable
 
 from fastapi import Request
 
+from engine.api.account_admission import AccountContext, account_context
 from engine.api.deeper_routes import DeeperRuntime
-from engine.api.ratelimit import client_ip, network_of
+from engine.api.ratelimit import bound_network_of, client_ip, network_of
 from engine.deeper import codes, tokens
 from engine.deeper import door as door_module
 from engine.m4.grants import TurnGrant, free_grant
@@ -54,21 +63,70 @@ def _status(runtime: DeeperRuntime, request: Request):
 _UNSET = object()
 
 
-def code_is_usable(runtime: DeeperRuntime, request: Request, *, strict: bool = True) -> bool:
-    """Whether the code on the request vouches for it. Strict, for opening a
-    sitting past the daily session limit: a live code with tokens left and
-    codes not paused. Loose, for continuing a round already admitted: any code
-    that is not void."""
+def visitor_key(request: Request) -> str:
+    """The key the free allowance and the monthly bound count a visitor under: the
+    visitor cookie's id, or the address when the request carries none."""
+    return getattr(request.state, "visitor_id", None) or f"ip:{network_of(client_ip(request))}"
+
+
+def code_holds_tokens(runtime: DeeperRuntime, request: Request) -> bool:
+    """Whether the code on the request is live with tokens left and codes are not paused.
+    Such a request is bounded by its own tokens and is outside the monthly bound."""
     info = _status(runtime, request)
-    if info is None or info.status == "void":
-        return False
-    if not strict:
-        return True
     try:
-        paused = runtime.meter.is_paused()
+        if runtime.meter.is_paused():
+            return False
+        if info is not None and info.status == "live" and info.remaining > 0:
+            return True
+        context = account_context(request, runtime)
+        for code_hash in context.code_hashes if context is not None else ():
+            held = runtime.meter.status_of_hash(code_hash)
+            if held is not None and held.status == "live" and held.remaining > 0:
+                return True
+        return False
     except Exception:  # noqa: BLE001
         return False
-    return info.status == "live" and info.remaining > 0 and not paused
+
+
+class MessageBoundCheck:
+    """One request's place in the monthly bound on messages that get a safety check
+    and no Representative reply. Build it before the message is handled. .reached
+    says the message is past the bound and gets the fixed line with no model call;
+    .count records a message that was checked and not voiced. A fault in either
+    leaves the safety check running and counts nothing."""
+
+    def __init__(self, runtime: DeeperRuntime | None, request: Request):
+        self._bound = runtime.bound if runtime is not None else None
+        self._visitor = visitor_key(request)
+        self._network = bound_network_of(client_ip(request))
+        self.exempt = False
+        if self._bound is not None:
+            try:
+                self.exempt = code_holds_tokens(runtime, request)
+            except Exception:  # noqa: BLE001
+                logger.exception("deeper bound could not read the code")
+
+    @property
+    def active(self) -> bool:
+        return self._bound is not None and not self.exempt
+
+    @property
+    def reached(self) -> bool:
+        if not self.active:
+            return False
+        try:
+            return self._bound.reached(self._visitor, self._network)
+        except Exception:  # noqa: BLE001 - a fault leaves the safety check running
+            logger.exception("deeper bound could not be read")
+            return False
+
+    def count(self) -> None:
+        if not self.active:
+            return
+        try:
+            self._bound.count(self._visitor, self._network)
+        except Exception:  # noqa: BLE001
+            logger.exception("deeper bound could not count a message")
 
 
 def burst_key(runtime: DeeperRuntime, request: Request) -> tuple[str, int] | None:
@@ -100,15 +158,16 @@ class Admission:
     """One request's admission. Build it, hand .provider to the engine, and
     call .finish(voiced) exactly once when the turn is over."""
 
-    def __init__(self, runtime: DeeperRuntime, code: str | None, *, session_id: str, free_cap: int, seats: int, visitor: str):
+    def __init__(self, runtime: DeeperRuntime, code: str | None, *, free_cap: int, seats: int, visitor: str,
+                 network: str | None = None, account: AccountContext | None = None):
         self._runtime = runtime
         self._code = code
+        self._account = account
         self._free_cap = free_cap
         self._seats = seats
         self._visitor = visitor
+        self._network = network
         self._free_reservation = None
-        self._facilitator_only = session_id in runtime.facilitator_only_sessions
-        self._paid_sitting = session_id in runtime.paid_sessions
         self._reservation = None
         self._note_key: str | None = None
         self._refusal: str | None = None
@@ -120,100 +179,134 @@ class Admission:
     def _limit_text(self) -> str | None:
         return self._runtime.ops.limit_text if self._runtime.ops is not None else None
 
-    def provider(self, completed: int, daily_cap_reached: bool) -> TurnGrant:
-        limited = daily_cap_reached or self._facilitator_only or self._paid_sitting
+    def provider(self, completed: int) -> TurnGrant:
         computed = self._runtime.door.state() if self._runtime.door is not None else door_module.OPEN
         # In observe mode the door is worked out and counted but narrows nothing.
         door = door_module.OPEN if self._runtime.door_observe else computed
         try:
-            grant = self._decide(completed, limited, door)
+            grant = self._decide(completed, door)
         except Exception:  # noqa: BLE001 - a fault must never open what the door has closed
             logger.exception("deeper admission faulted; the grant keeps to the door")
-            return self._grant_in_a_fault(completed, limited, door)
+            return self._grant_in_a_fault(completed, door)
         if self._runtime.door_observe:
             try:
-                self._observe(completed, limited, computed)
+                self._observe(completed, computed)
             except Exception:  # noqa: BLE001 - noting what the door would have done never changes the grant
                 logger.exception("deeper admission could not note what the door would have done")
         return grant
 
-    def _observe(self, completed: int, limited: bool, computed: door_module.DoorState) -> None:
+    def _observe(self, completed: int, computed: door_module.DoorState) -> None:
         """Notes what the door would have refused, had it been narrowing, on a turn it let through."""
         if computed.stage == 0:
             return
         if self._free_reservation is not None:
-            rounds = min(self._free_cap, self._runtime.token_rates.free_rounds)
+            rounds = self._free_cap
             door_rounds = self._door_rounds(computed)
             if door_rounds is not None:
                 rounds = min(rounds, door_rounds)
             if computed.free_voice and completed < rounds:
                 return
             # The free path would have been closed to this turn; a code would have carried it.
-            if self._code is None:
+            if self._code is None and not self._holds_codes():
                 self._observed = "free"
             elif not computed.paid_voice:
                 self._observed = "paid"
         elif self._reservation is not None and not computed.paid_voice:
             self._observed = "paid"
 
+    def _holds_codes(self) -> bool:
+        return self._account is not None and bool(self._account.code_hashes)
+
+    def _reserve_paid(self, cost: int):
+        """A code on the request pays as it always has. With none, the account's own codes are
+        tried in turn and the first that can carry the turn does; if none can, the reason
+        given is the one nearest to success, so the participant is told the most useful thing."""
+        meter = self._runtime.meter
+        if self._code:
+            return meter.reserve(self._code, cost)
+        order = ("paused", "daily_ceiling", "in_use", "insufficient", "spent", "void", "unknown")
+        failures = []
+        for code_hash in self._account.code_hashes:
+            admission = meter.reserve_hash(code_hash, cost)
+            if admission.ok:
+                return admission
+            failures.append(admission)
+        return min(failures, key=lambda a: order.index(a.reason) if a.reason in order else len(order))
+
+    def _account_remaining(self) -> int | None:
+        """What the account's codes hold together, or None when it holds none."""
+        if not self._holds_codes():
+            return None
+        meter = self._runtime.meter
+        total = 0
+        for code_hash in self._account.code_hashes:
+            info = meter.status_of_hash(code_hash)
+            if info is not None and info.status != "void":
+                total += info.remaining
+        return total
+
     def _door_rounds(self, door: door_module.DoorState) -> int | None:
         return door.table_free_rounds if self._seats > 1 else door.solo_free_rounds
 
-    def _grant_in_a_fault(self, completed: int, limited: bool, door: door_module.DoorState) -> TurnGrant:
+    def _grant_in_a_fault(self, completed: int, door: door_module.DoorState) -> TurnGrant:
         """What the engine is handed when admission itself fails. With the door
         closed to free voice (paid voice never closes first) it is a refusal; with
         it open the free grant, no longer than the door lets a free conversation run."""
         if not door.free_voice:
-            return free_grant(min(self._free_cap, completed), limited, self._limit_text())
+            return free_grant(min(self._free_cap, completed), self._limit_text())
         door_rounds = self._door_rounds(door)
-        cap = min(self._free_cap, self._runtime.token_rates.free_rounds)
+        cap = self._free_cap
         if door_rounds is not None:
             cap = min(cap, door_rounds)
-        return free_grant(cap, limited)
+        return free_grant(cap)
 
-    def _decide(self, completed: int, limited: bool, door: door_module.DoorState) -> TurnGrant:
+    def _decide(self, completed: int, door: door_module.DoorState) -> TurnGrant:
         rates = self._runtime.token_rates
         cost = tokens.charge(rates, completed + 1, self._seats)
-        free_rounds = min(self._free_cap, rates.free_rounds)
+        free_rounds = self._free_cap
         door_rounds = self._door_rounds(door)
         if door_rounds is not None:
             free_rounds = min(free_rounds, door_rounds)
         self._free_share = door.free_share
-        free_open = not limited and door.free_voice and completed < free_rounds
+        free_open = door.free_voice and completed < free_rounds
         if free_open:
-            held = self._runtime.free.reserve(self._visitor, cost, door.free_share)
+            if self._account is not None:
+                held = self._runtime.free.account_reserve(
+                    self._account.account_id, self._account.refill_day, cost, door.free_share, self._network
+                )
+            else:
+                held = self._runtime.free.reserve(self._visitor, cost, door.free_share, self._network)
             if held is not None:
                 self._free_reservation = held
-                return TurnGrant(cap=completed + 1, facilitator_only=False)
+                return TurnGrant(cap=completed + 1)
         # Past the free rounds, or the free allowance cannot cover this turn: the grant
         # that refuses has a cap no higher than the turns already done.
         refusal_cap = min(self._free_cap, completed)
         cap = self._runtime.paid_round_cap
-        if self._code and cap is not None and completed >= cap:
+        has_paid = bool(self._code) or self._holds_codes()
+        if has_paid and cap is not None and completed >= cap:
             self._refusal = "paid_round_cap"
-            return free_grant(refusal_cap, limited, self._limit_text())
-        if self._code and not door.paid_voice:
+            return free_grant(refusal_cap, self._limit_text())
+        if has_paid and not door.paid_voice:
             self._note_key = "paused"
             self._refusal = "door_paid_closed"
-            return free_grant(refusal_cap, limited, self._limit_text())
-        if self._code:
-            admission = self._runtime.meter.reserve(self._code, cost)
+            return free_grant(refusal_cap, self._limit_text())
+        if has_paid:
+            admission = self._reserve_paid(cost)
             if admission.ok:
                 self._reservation = admission.reservation
-                return TurnGrant(cap=completed + 1, facilitator_only=False)
+                return TurnGrant(cap=completed + 1)
             self._note_key = _NOTE_FOR_REASON.get(admission.reason, "code_not_accepted")
             self._refusal = self._note_key
-            return free_grant(refusal_cap, limited, self._limit_text())
+            return free_grant(refusal_cap, self._limit_text())
         self._note_key = "no_code"
-        if limited:
-            self._refusal = "no_code"
-        elif not door.free_voice:
+        if not door.free_voice:
             self._refusal = "door_free_closed"
         elif completed >= free_rounds:
             self._refusal = "free_rounds_done"
         else:
             self._refusal = "free_allowance_spent"
-        return free_grant(refusal_cap, limited, self._limit_text())
+        return free_grant(refusal_cap, self._limit_text())
 
     @property
     def low(self) -> bool:
@@ -244,8 +337,15 @@ class Admission:
                 self._reservation = None
             info = meter.status(self._code) if self._code else None
             self.remaining = info.remaining if info is not None and info.status != "void" else None
+            if self._code is None and self._account is not None:
+                self.remaining = self._account_remaining()
             if self._code is None and self._free_share is not None:
-                self.free_left = self._runtime.free.left(self._visitor, self._free_share)
+                if self._account is not None:
+                    self.free_left = self._runtime.free.account_left(
+                        self._account.account_id, self._account.refill_day, self._free_share, self._network
+                    )
+                else:
+                    self.free_left = self._runtime.free.left(self._visitor, self._free_share, self._network)
         except Exception:  # noqa: BLE001
             logger.exception("deeper settle failed")
         self._count_refusal()
@@ -273,10 +373,12 @@ class Admission:
             logger.exception("deeper refusal could not be counted")
 
 
-def new_admission(runtime: DeeperRuntime | None, request: Request, *, session_id: str, free_cap: int, seats: int = 1) -> Admission | None:
+def new_admission(runtime: DeeperRuntime | None, request: Request, *, free_cap: int, seats: int = 1) -> Admission | None:
     if runtime is None:
         return None
     return Admission(
-        runtime, code_from(request), session_id=session_id, free_cap=free_cap,
-        seats=seats, visitor=getattr(request.state, "visitor_id", None) or f"ip:{network_of(client_ip(request))}",
+        runtime, code_from(request), free_cap=free_cap,
+        seats=seats, visitor=visitor_key(request),
+        network=bound_network_of(client_ip(request)),
+        account=account_context(request, runtime),
     )

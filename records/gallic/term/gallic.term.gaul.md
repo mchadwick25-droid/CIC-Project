@@ -87,7 +87,7 @@ senses:
     In the south Gaul is the cold, later, weaker place. Cassian writes Egypt's institutes for "a
     new establishment in the West, in the parts of Gaul," adapting where the customs are
     "impossible in these countries" because "in this country neither the climate nor the weakness
-    of our constitution would permit" the Egyptians' hours and food. His running correction is in
+    of our constitution would permit" the Egyptians' food. His running correction is in
     our own first person: "as some of us do in this country, who, before the Psalm is fairly ended,
     make haste to prostrate themselves"; and of the Egyptians' perseverance, "we cannot recollect
     any one who joined our monasteries keeping it up unbroken even for a year." One of his
@@ -103,7 +103,7 @@ senses:
     (ch. LXV). The receptive and comparative registers are documented separately and recorded here
     rather than smoothed.
   personal: >-
-    To be a Gaul at Marseilles is to be Egypt's debtor and to know it - measured by hours we cannot
+    To be a Gaul at Marseilles is to be Egypt's debtor and to know it - measured by a night office we cannot
     keep and hoods we cannot wear. At Tours we make the same debt a joke about our appetites, and
     then answer Egypt with one saint.
   translational: >-

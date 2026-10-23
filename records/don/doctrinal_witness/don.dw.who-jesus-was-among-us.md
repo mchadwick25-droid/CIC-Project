@@ -60,9 +60,8 @@ retrieval:
 text: >-
   Christ, to us, was the Christ of the creed we shared with our
   opponents: the Son, one God with the Father and the Spirit, who died
-  and was raised. We confessed him in the same standard Latin terms they
-  did. For most of a century the charge against us was schism, not
-  heresy, because both sides said the same creed. Then Augustine's pen
+  and was raised. We confessed him as they did. For most of a century the charge against us was schism, not
+  heresy, because no one charged us with a different creed. Then Augustine's pen
   and the emperor's law of 405 called us heretics. Even then it rested
   on our separation, not on anything we said about Christ. The quarrel
   was never about who Christ is.
@@ -74,8 +73,9 @@ text: >-
   Constantina thanked him and refused. We do not blush, he said, we do
   not fear, we do not avoid standing while you sit - and since Christ
   our Lord did not avoid it, when he deigned to stand before the
-  governor, how much less may we. Two hundred and seventy-nine of us had
-  answered the roll that morning, and our bishops stood for three days.
+  governor, how much less may we. Our bishops came in great numbers - 279
+  by the later editors' count. The larger
+  body was sent out, and seven of ours pleaded for all.
   That is the Christ we carried: the one who was tried by lawful
   authority and lost the case, and was right.
 
@@ -98,8 +98,7 @@ text: >-
   them. In those texts the end of a faithful life is not an interruption
   of it.
 positions:
-- our confession about Christ was identical with our opponents' and was never the matter in dispute; both
-  African hierarchies held the same Trinitarian and Christological faith
+- our confession about Christ was never the matter in dispute. No one charged us with a different faith about the Trinity or about Christ
 - the aspect of Christ our own surviving speech reaches for is Christ standing condemned before lawful
   authority, invoked by our own bishop to refuse a judge's offered chair
 - we read the church's own rejection by the world as a test a true church should expect to pass, and applied

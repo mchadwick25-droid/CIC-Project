@@ -649,3 +649,427 @@ Mark approved the pilot questionnaire after a review draft and asked for it to b
 
 Mark: "go deeper in this context would assume going deeper in the conversation or world, pay as you go, get more time needs to be the kind of message." In the room the strip's link and the panel's heading are now "Get more conversations", beside a flat ribbon under the top bar: "{n} tokens left" in gold, and a gold line along the bottom of the ribbon. The count turns white under 100 tokens. The panel's body wording, the code flow, the pilot pack and the limit lines are unchanged. The name "Go deeper" is kept for going deeper into a conversation or a world, which is not built. Full record: Build/Ministry/Operations/Pilot-Feedback/Pilot_Feedback_Decisions.md, "Item 29".
 
+
+## 2026-10-22 — Change order: the account system, presence, coupons and review (ruled by Mark)
+
+System Hub decision 63. Ruled in conversation on 2026-10-22 and closed with "converged, auto mode". This amends the accounts change order of 2026-10-05 (decision 53) and its plan; it adds rules, and it names four changes to earlier rulings. It changes no code. Accounts remain unbuilt and ship dark behind `CIC_ACCOUNTS_ENABLED`. Review document with the comparison tables and sources: https://claude.ai/artifact/JpA4NnMdL3ceJ4a4HLxRYh
+
+**Ruled (thirteen choices).**
+1. Review stays separate from accounts. The review store takes scrubbed turns only, with no account id, no shared session id and week-level dates. An account holder's turns reach it exactly as anyone's do. Nothing in review reads the shelf. Deleting an account cannot reach the review copy, because the two never connect; the 90-day clock is its only deletion, and the privacy page says so, calling the copy "kept apart and scrubbed", never "anonymous".
+2. Questions in the review store are deleted at 90 days with the answers. Scores and routing flags stay.
+3. A coupon reaches a named person as a pending grant keyed to the keyed hash of the address they sign in with. The project lead types the address once at one approval button; only the hash is kept. The grant attaches at the person's next sign-in, with a notice in the app. It is a promotional ledger entry with an end date, no cash value and an approver, and it counts $0 toward the door, as a tester code does. It reuses the meter's grant path and daily limits. The approval screen keeps the address out of every log and never shows whether an account exists. Coupons wait for accounts.
+4. Presence is a private home, seen only by the person: their conversations, tokens, allowance and coupons. It holds no name.
+5. Memory is the saved shelf and the chapters inside one conversation (2026-10-05). Nothing about the person is carried between conversations.
+6. Accounts open at 16 and over, matching the pilot, with no parent step.
+7. Purchased tokens lapse after two years unused, as ruled on 2026-10-12. Coupons and tester grants are promotional and expire sooner. The first form of this choice (purchased tokens never expire) was withdrawn on choice 13.
+8. One personal account. Churches, schools and sponsors keep using group, batch and sponsor codes. An organiser role is a later, separate decision; it would see counts only, never names or conversations.
+9. Sign-in is a typed emailed code, plus Google and Apple sign-in. There is no magic link and no password. Only a keyed hash of the verified address is kept. The privacy page says the sign-in provider learns that the person uses the service.
+10. Tokens can be bought with or without an account. Codes stay for anyone without one; the panel offers signing in as the more reliable way, and a code can be added to an account later.
+11. Recovery: typing the address again is the main way back. After the first saved conversation a one-time recovery code is offered to download or print, stored only as a hash, never required. A signed-in person can change address by verifying the new one. If both are lost, sign-up says plainly that the shelf cannot be recovered.
+12. Apple's "hide my email" gives a separate account, with the prompt "Already have a shelf? Sign in with your code, then choose Add Apple in Settings." Linking is done while signed in, never by an email match alone, and all sessions are cleared when a method is linked or unlinked.
+13. An account unused for two years is removed with its tokens, as decision 53 ruled. We hold no address, so no warning can be sent.
+
+**Changes to earlier rulings, named.**
+- Decision 34 (review store): questions were kept with no end date; they now expire at 90 days. Reason: a participant's own words are the text most likely to identify them, and the scrubber masks names, emails, phone numbers and web addresses but not places, ages, jobs, denominations or a personal story.
+- Decision 53, age: 13 and over with a parent's confirmation becomes 16 and over with none. Reason: a one-time emailed confirmation proves nothing about who clicked it. 16 and 17-year-olds remain minors under most privacy laws; the lawyer's question below covers it.
+- Decision 53, sign-in: "an emailed one-time code or link" becomes a typed code plus Google and Apple. The link is dropped because mail scanners fetch links and use up single-use tokens.
+- Decision 53 and the Build Plan, sessions: "a signed cookie carrying nothing but a key reference" becomes a signed cookie that points to a server-side session, so "sign out everywhere" works.
+- Order: the log said account slices start after the observe week; the Build Plan amended that on 2026-10-05 so nothing waits on a date. The Build Plan stands.
+- Not changed: the 2026-10-12 working policy on expiry and refunds, which stands as written, including that nothing about expiry is stated at purchase until a lawyer clears it.
+
+**Safety minimum before accounts ship** (from the security research; each is a build requirement): one live sign-in code per address, stored only as a keyed hash, single use, 10-minute expiry, five tries then burned; send limits per address and a global cap, held in a store that survives a restart; the same reply and similar timing whether or not an account exists; server-side sessions with idle and absolute timeouts; a fresh code within ten minutes before deleting an account, showing a code or changing a sign-in method; CSRF protection beyond SameSite; three separate keys (address hashing, session-code encryption, cookie signing), each stored with a key id so rotation does not orphan accounts, with an offline copy held by two people; backups encrypted before upload under their own key, and a hashes-only deletion ledger so a restore does not bring back a deleted account; the privacy page states that deleted data leaves backups within 14 days; a test that fails if an email, a six-digit code or conversation text appears in any log; no analytics or error tracker on conversation pages, enforced by a content security policy; one email provider with short log retention; Google, Apple, Stripe, Render, AWS and the email provider listed on the privacy page, and Bedrock's logging and no-training terms confirmed in writing; no production secrets in builder sessions; a one-page incident runbook. Later: passkeys, a device list, a small outside review before any press, and `security.txt`. Dependency and secret scanning at launch if possible.
+
+**Value order** (what the account is for, by value for effort): carry the conversation in progress into the new account at sign-up; a shelf with titles; bookmarks and saved quotes; export to a file; token and coupon history; search. Reminders are skipped, because they need a stored address. An end-to-end encrypted shelf is not built now; it can be added later as an opt-in with a user-held recovery key.
+
+**Questions for a professional, added to the register (none answered).** These sit beside questions 1 to 9.
+
+10. Whether a scrubbed review copy under a random token, with no account link, is anonymous or personal data, and what GDPR Articles 11 and 17 then require.
+11. Whether EU and UK visitors are in scope and a representative is needed; open access alone is weak evidence of targeting.
+12. Whether religious belief needs explicit consent under GDPR Article 9 for the saved shelf and for the review copy.
+13. Whether California SB 243 or New York General Business Law Article 47 treat the service as a companion chatbot.
+14. Whether an in-service credit falls under Regulation E 1005.20 or California Civil Code 1749.5, and whether the "promotional" label is enough for coupons.
+15. Whether state privacy thresholds and nonprofit exemptions cover the service.
+16. Whether accounts at 16 and over with no parent step are acceptable, and whether COPPA reaches anything below that line.
+17. The breach-notice posture for a store that holds no email address.
+18. Whether the saved shelf needs its own consent and notice.
+
+**What the research could not read.** ecfr.gov, federalregister.gov, eur-lex.europa.eu, leginfo.legislature.ca.gov, law.justia.com, help.openai.com, openai.com/policies and mozillafoundation.org answered with bot-protection pages or errors; the network is open. Regulation E 1005.20 was read through Cornell. GDPR Articles 11 and 17 and California Civil Code 1749.5 were not read at the source and are read by the professional. Claims about OpenAI, Microsoft, Character.AI, Woebot, religious apps, several sign-in help pages, passkey sync, Resend, Mailgun and Amazon SES rest on search summaries. Nothing in this entry is legal advice.
+
+**Addendum, 2026-10-22 (same day, after a structured benchmark).** The project lead read the benchmark of thirteen products against the design on eight dimensions (review page: https://claude.ai/artifact/JpA4NnMdL3ceJ4a4HLxRYh). The design as ruled scores about 16 of 24, level with Gemini and Apple and below Proton (18). It leads on data minimisation and guest-friendly onboarding and trails on user rights, sign-in strength, transparency and account safety. Peer scores rest partly on search snippets and estimates, and the design's own score is a reasoned estimate made by the build thread; neither has had an independent review. He ruled two further choices for the first version:
+14. Data export. A signed-in person can download their shelf, token history and coupons as a file, self-serve, with a stated response time. The privacy page states the time. The review copy is not in the export, for the reason in choice 1.
+15. Passkeys. A passkey is offered after the first sign-in as an extra to the typed code, never a replacement. It moves from the later list into the first version.
+Not ruled, left on the later list: a sub-processor page, a security contact with a disclosure policy and a yearly count of legal requests; and a device list with a new-sign-in notice (a notice can go to the address used at that sign-in; only a notice to a previous address, on an address change, cannot be sent, because no address is held). Both are open for a later ruling.
+
+**Opus review, round one (2026-10-22), first outcome.** An Opus read of the design found two blocking and five substantial issues; the project lead rules on them one at a time. The first is ruled here.
+16. An account finds its codes by a scan of the meter under the key. The account stores only the keyed scramble of a code's hash (decision 53 as ruled). To spend, the server computes that scramble for each meter row and matches it, using an in-memory index rebuilt when codes are minted. The account file holds no value the meter holds. This replaces the Build Plan's A2 line "(account key, code hash)", which stored the plain hash and is withdrawn. The Build Plan is rewritten to match decisions 53 and 63 as its own change order before any account slice starts.
+17. Purchased tokens lapse after two years unused, and no tokens are sold until the account feature is set up. Because no sale happens before accounts exist, the expiry line is shown at every purchase from the first one, so no token is sold without it. The wording is still cleared by a professional first (questions 8 and 14). Tokens given free (pilot, tester, coupons) are promotional and follow their own end dates. This settles the Opus review's second blocking finding, which was that tokens could lapse that were sold with no expiry stated. Not yet ruled, taken as a default until he rules: for an account, "used" means any activity on the account, so a second code cannot lapse while the account is active; for a code held without an account, "used" means activity on that code.
+18. Takeover. A Google or Apple sign-in is keyed on the provider's own stable account id (issuer and subject), not on the email alone, so a reassigned address does not hand over a shelf. An address change needs a code sent to the old address as well as the new. A recovery-code reset starts a waiting period, with a banner on every session. A recovery code is at least 100 bits, single use, and replaced after each use. A passkey stays an extra; an opt-in "passkey only" setting is a later ruling.
+19. The deletion ledger holds a hash of a random internal account id, never the address hash, and each entry expires after the backup window plus a margin. It exists only so a restored backup does not bring back a deleted account.
+20. Closing the joins. Deleting an account also scrubs the deleted sessions' turns and removes the matching review rows in the same transaction. Sign-in code rows and session rows are deleted on expiry and are kept out of backups or have their times coarsened. The email provider is chosen with message logging off. The privacy page does not say the review copy "cannot be linked"; it says it is kept apart and scrubbed, and that if someone gives us an address we can check whether it has an account. Render's platform request logs (client address, time, a path holding the session id) are an open item: their retention is checked, and the session id leaves the path if it can.
+21. Farming. A signed-in draw also counts against the visitor's or network's key. A network may open only a limited number of new accounts a day. The account's allowance row is keyed under the meter's own secret, never the raw account key, and a named A6 proof checks it.
+22. Rotating the address key. Re-keying happens when the person next signs in and types the address. Each old key has a retirement date, and accounts not yet migrated are counted. A key leak is a named event in the incident runbook.
+
+**Stated defaults from the review's minor findings** (the build thread's, for the project lead to change): the export excludes live codes and the recovery code and needs a fresh sign-in code first; an address is normalised before hashing (case, Unicode form, and plus-tags kept as typed, so a coupon matches only the address as the person types it, and the approval screen says so); sign-in sends are capped per address and per network as well as globally, and hitting the global cap pauses sign-in with a plain notice; pending coupon grants are purged at their end date; a deletion inventory lists what survives (the meter's code rows and payment id, the review copy until its 90 days, logs at the email provider, Google, Apple and Render, Stripe's records, backups, the ledger) and is published on the privacy page; unspent tokens on account deletion follow the 2026-10-12 policy (no refund, except where the project lead approves a case).
+
+**Build Plan amendments** (the Build Plan stands as the slice order; these lines are changed, and no account slice starts before they are applied to the plan itself). A1: no sign-in link; typed code plus Google and Apple; ages 16 and over, no parent step and no parent exchange; the cookie points to a server-side session; send limits kept in a store that survives a restart; passkey offered after the first sign-in. A2: the account stores the keyed scramble of each code's hash, found by the meter scan of ruling 16; no plain hash. A3: the shelf also scrubs review rows on deletion (ruling 20); the two-year job removes an account unused for two years with its tokens, only where the expiry line was shown at purchase (ruling 17). A4: the data export and the recovery code. A5: the deletion inventory, the sub-processor list and the privacy words in the same plain terms as ruling 20. A6: the account file's bytes hold no meter code hash and no payment id; the allowance row is keyed under the meter's secret; the deletion ledger holds no address hash.
+
+## 2026-10-22 — Accounts: the monthly allowance, and the requirement from the visitor-limits ruling (ruled by Mark)
+
+Follows the change order of the same date (System Hub decision 63). Input came from the system and pilot feedback thread: Mark ruled on 2026-10-22 that the free allowance is monthly with no daily reset, and asked for the daily visitor counts to go (recorded in `Build/Ministry/Operations/Pilot-Feedback/Pilot_Feedback_Decisions.md`). That removal is a fix to the live visitor path in `engine/api/anon_cap.py` and `engine/api/deeper_admission.py` and is built by its own thread, not by the accounts build. Read at source on main, 2026-10-22: `Admission.provider` sets `limited = daily_cap_reached or ...`, so the daily count closes the free path even when free tokens are left; the visitor's free window in `engine/deeper/free.py` rolls 30 days from the first draw.
+
+23. Folded into the accounts design:
+- An account has no daily limit, only its monthly allowance of 550 tokens, refilling on the person's own day of the month (decision 53). The per-minute burst limits and the safety check on every message stay.
+- A new account starts with what is left of the browser's current free window, not a fresh 550, and then refills to 550 on its own day. Signing up is not a second 550 straight away. Where the browser has no current window, the account starts at 550.
+- With the daily visitor counts gone, the per-network limit on new accounts a day (ruling 21) and the door carry more of the work against free-allowance farming. They are not loosened.
+- The coupon requirement in `Pilot_Feedback_Decisions.md` ("Coupon delivery: one button, inside the system") is met by ruling 3: the operator types the person's sign-in address once at the button, and only its keyed hash is kept, so no account is picked from a list and no name is stored.
+
+## 2026-10-22 — Accounts A1a: reviews, and what they changed (Mark's coupon answer recorded)
+
+24. Coupon button, confirmed by Mark. The system and pilot feedback thread asked that ruling 3 be put to him again, since it has the operator type an address once while his earlier decision keeps the name outside the system. His answer: the design decisions were made; he wants it seamless, with no copy and paste and no emails from him. Ruling 3 stands as written: one button, the address typed once, only its keyed hash kept, the coupon attached at the person's next sign-in. The system never receives a name. The alternatives (a coupon ID the person copies, a code handed over outside the system) were declined.
+
+A1a (the account store, typed-code sign-in, sessions, recovery, address change, export and deletion; Build Plan A1 without Google, Apple and passkeys) went through an Opus adversarial review and a security-review pass. Both are recorded here, with what each became.
+- Existence oracles (Opus blocking; the security pass found the first of the two): address change and recovery answered differently when the new address already had an account. Fixed at the root: every start step now gives the same reply and sends no code to an address that has an account; the collision is met only at the finish step, after the address is proved.
+- Concurrent guesses (Opus blocking): the check read, compared and counted tries in separate steps, so racing requests each got a guess, and two right codes could both open sessions. Fixed: one atomic step counts the try, and one atomic step spends the code. Tests race 30 wrong guesses and 4 right codes.
+- Recovery (substantial): the recovery code was spent before the new address was proved, so a failed send or a full send budget lost it. It is now spent at the final step, a failed send leaves it intact, and a recovery never proved expires in a day. The code is replaced on use and shown once at the sign-in that completes the change.
+- Sends (substantial): step-up, recovery and address change now have their own hourly budget apart from sign-in, and every start is also counted per wider block (an IPv6 /48 or IPv4 /24).
+- Backups (substantial): the durable accounts file is not in the daily backup, because backups are uploaded unencrypted. The accounts runbook requires an encrypted backup before the file joins it, and before the flag goes on in production.
+- Smaller: a sign-out now deletes its cookie with the attributes a browser needs; a deleted account's codes and counters carrying its address hash are removed; the origin check compares scheme and host; session lookups no longer block the event loop; a lost race on first sign-in no longer opens a session for an account that was not stored; previous keys are checked for length; the count of accounts still on an older key is logged.
+
+Open, not changed by A1a:
+- Age by year: a year of birth alone cannot tell a 15-year-old from a 16-year-old for part of the year, so a person born late in 2010 passes in October 2026. Ruling 6 says 16 and over with a year-of-birth field. The professional's question 16 covers it; an exact date of birth or a stricter year rule is Mark's later call.
+- Three keys: A1a has the address key and one session key, which signs cookies and binds codes (domain-separated). The third key, for the encrypted session code, arrives with the shelf (A3). Session-key rotation signs everyone out; it does not orphan accounts, so it carries no key id.
+- Old backups can outlive the 16-day ledger if uploads fail for days; the backup runbook step in A5 closes it.
+- Render's platform request logs and disk snapshots are unchecked: whether snapshots copy the ephemeral accounts file, and how long request logs are kept.
+- The sign-in mail provider is not chosen. Start-up refuses with the flag on and no provider, so accounts cannot be switched on in production yet.
+
+A1a, Opus round two (a targeted recheck of the fixes above). It confirmed the race, the recovery-code spending, the backup exclusion and the smaller fixes, and found three defects in the fixes themselves, all fixed in the same pull request:
+- The recovery start reply still carried the date only a free address got, and a taken address skipped the per-address and global send budgets, so throttling answered differently. Now the start reply carries no date, every budget is counted before the taken-or-free check, and a taken address is told nothing more than a free one.
+- Per-address send counters are kept per purpose and per account (the account probing, or the account behind the recovery code), so what an address's own owner did never changes what a stranger meets.
+- A stranger holding any recovery code could leave an unproved pending change on someone else's intended new address and block their recovery. An unproved pending change now proves nothing: uniqueness holds only for a proved one, and each account proves its own.
+- Smaller: the fifth wrong guess burns only the code it read; a recovery whose address was taken during the wait moves nothing and replaces no one's recovery code; each send is counted once, not twice.
+Not changed, recorded: five wrong guesses burn a person's live code, as the first implementation also did, limited by the per-network finish limit; the concurrency tests prove the limits within one process, and the cross-process guarantee rests on the database's immediate transactions.
+
+A1a, Opus round three (a targeted recheck of the round-two fixes). No blocking finding. All seven round-two findings were confirmed fixed. It found two substantial defects in the round-two change itself, both real and both fixed in the same pull request without a further review:
+- A stranger's recovery started after a victim's, to the same new address, replaced the victim's emailed code in the single code row for that address. A victim holding both mails who typed the stranger's code would then, after the wait, sign in to the stranger's account. Fixed: each account's change and recovery codes live in their own row, and recovery/finish takes the recovery code again, so an emailed code is checked only against the account the recovery code belongs to. The recovery code is still spent only when the address is proved.
+- Counting sends per account turned the per-address cap into a per-account cap, so many accounts could send many codes to one inbox. Fixed: change and recovery sends also count an all-accounts counter per address (6 in 15 minutes, 20 a day), which carries no signal about whether an account exists because an address's owner never sends these codes to an address they already hold.
+Also: a move that fails to write no longer signs the person out of their sessions or removes the recovery code.
+Known and left: a person with several accounts probing can still raise the global "other" send budget to a pause (a denial, which the safety minimum accepts); the count of counters kept for an account on an older key is not removed at deletion until its next sign-in.
+
+Three rounds of substantial revision on this slice have now run without a clean review. Under the review cap this is an unresolved tension the pipeline cannot close on its own, and a fourth round is Mark's to order. The round-three fixes have been tested but not reviewed.
+
+A1a, redesigned at the root (Mark's instruction: no fixes on fixes). Four rounds had each found a real defect and each fix had added a new one, because the underlying fault was never touched: proof state was keyed by the address, which every account shares. A code row, a pending change and their counters all hung off the address, so one account's recovery could replace, block or stand in for another's, and every rule added to hide whether an address has an account added a scope to the same shared key. The redesign removes the shared key instead:
+- Every proof is a challenge with its own random id, one kind, one account and one target address. It is found only by its id, which the caller holds. Nothing another account does can touch, replace or stand in for it. The earlier per-account code rows, the purpose-and-account counters, the unproved pending rows and the re-supplied recovery code are gone.
+- A start step always opens a challenge and returns an id, whether or not the address has an account. For an address that has one, the challenge simply has no mail sent, so it can never be proved. The two replies are identical in status, shape and counters.
+- A pending recovery change is written only when the new address is proved, so it carries no unproved state; the recovery code is claimed once, at that moment.
+- Sign-in keeps one live challenge per address (a new start replaces the old). Step-up, address change and recovery never replace anyone else's.
+- Limits: sign-in is counted per address (anyone may start one); change and recovery are counted per address across all accounts, which no address owner ever triggers on their own address; step-up is counted per account. Network, wider-block and global limits apply to all.
+The Opus review ordered by the cap ruling was stopped when this redesign began, since it was reading code that no longer exists, and is run again on the redesigned code (the file named in the cap ruling above). Nothing in the Build Plan's slice order changes; its A1 line "sign-in codes" now reads "challenges".
+
+## 2026-10-22 — Change order: the sign-in address is kept, encrypted, for sending only (ruled by Mark)
+
+System Hub decision 63, eighth addendum. A named change order on decision 53, which said the address is used for one send and not kept and that we cannot write to an account holder. Asked whether to keep the sign-in address after sign-in, Mark chose to keep it encrypted, for sending only. Names are still never stored.
+
+25. Ruled:
+- The sign-in address is stored encrypted under its own key (`CIC_ACCOUNTS_CONTACT_KEY`, with a key id; separate from the address-hashing key and the cookie key), in its own SQLite file, keyed by the random account id. It is never written to the account file, the review store, a log or a backup in the clear. The keyed hash stays for lookup.
+- It is used only to send: sign-in, step-up, recovery and address-change codes, a warning before purchased tokens lapse, breach notices, and replies to a person who writes in. Nothing else, and no marketing. Stripe still keeps what it holds about a buyer, and the account store still receives nothing from Stripe; a receipt is Stripe's.
+- It is deleted with the account, and its file has the same encrypted-backup rule as the accounts file before it joins a backup.
+- A leak of the contact file alone, or of the account file alone, exposes no address next to any account or conversation. Someone holding both files and the contact key could join them; the key is held apart from the data and rotated with a key id.
+- Names are never asked for or stored.
+- The privacy page and the sign-in words say plainly that the address is kept, encrypted, and why. The lawyer's questions gain: 19. Whether keeping the address, encrypted and used only for transactional mail, changes the obligations under GDPR and the state laws, including breach notice and retention.
+- Build: a new slice, A1c, after A1a clears review. Authenticated encryption is not in the standard library, so it adds one reviewed dependency (`cryptography`) at the API edge, the same dependency Google and Apple sign-in (A1b) need for token signatures. `engine/accounts` stays standard library only and receives the cipher from the edge.
+- Not decided: the exact warning schedule before tokens lapse, and whether support may read the address.
+
+A1a, the review ordered by the cap ruling (file: `Build/Ministry/Operations/Audits/Accounts_A1a_Opus_Review_Round4_2026-10-22.md`, on commit 0df50a2a). Verdict: the redesign removes the root cause it named; no path remains where one account's proof state can touch another's. It found one blocking defect with a different cause and one substantial latent one:
+- Blocking: the step-up an owner needs to cancel a pending recovery drew on a shared hourly send budget that strangers can fill. A thief holding a stolen recovery code could keep the owner from cancelling for the seven-day wait and take the account. Reproduced against the service.
+- Substantial, latent until a mailer is wired: a change start to a free address waited on the mail send and a taken one did not, so provider latency or a refused send told a prober which was which.
+- Minor: six items, all in the recovery machinery.
+Changes made, as one decision rather than patches:
+- Recovery leaves A1a and returns in A1c. Its protection is that the owner finds out and can cancel; without a stored address the owner learns only at their next sign-in, which a budget can prevent. With the address kept encrypted (ruling 25) the owner is emailed when a recovery is proved. So the recovery code, the recovery routes, the pending change, the waiting period and the sign-in banner are removed from A1a, and A1c builds them with that notice. Until then an account whose owner has lost their email cannot be recovered. Address change stays: it needs a fresh step-up, which proves the old address by mail.
+- Step-up mails only the account's own address, so it is counted per account and per network and no longer in a budget other parties can fill; a test shows an owner can prove their address with the shared budget full.
+- Mail is sent from a small queue, so a reply never waits on the provider or learns from it; a failed send is logged without the address or the code and the person asks for a new one.
+The six minor findings and the shared-counter and rotation findings that depended on recovery are gone with it. The Build Plan's A1 loses its recovery lines and A1c gains them.
+
+## 2026-10-22 — Change order: three kinds of account, for minors in schools and homeschool (ruled by Mark)
+
+System Hub decision 63, ninth addendum. A named change order on ruling 8 (one personal account; groups stay as codes) and the age line of ruling 6. Mark said that minors in schools and in homeschool will use the system, that CiC will build curriculum for them, and that they must get access safely. He then added a third category: a group account, where a teacher can be the adult sign-off.
+
+26. Ruled: there are three kinds of account.
+- Personal: an adult's own account, as built in A1a.
+- Minor: an account for a child or teenager, signed off by an adult.
+- Group: an account for a class, a homeschool co-op or a church group, where a teacher (or other leader) is the adult sign-off.
+
+Read at the time of ruling (the build thread's reading, to be confirmed with Mark as the design is worked out):
+- The adult sign-off is the single point of consent, deletion and alert delivery for the minors under it. A minor holds no email and no name of their own; their handle is a nickname or a random one.
+- A group joins by a code or QR; a homeschool parent's own children are a group of one household.
+- Under-13s only ever act inside an adult-managed profile. No minor signs themselves up.
+- A Facilitator crisis flag for a minor reaches the named adult; the two-tier split (imminent risk at once, ordinary flags to a list) is the pattern the education products use.
+- What the group holds as an account (tokens, allowance, coupons) and who pays is not decided.
+
+Open, to be ruled once the legal research on school consent (COPPA school authorization, FERPA, state student-privacy laws, teens outside school, the AI-chatbot rules for minors, religion in public schools) is in:
+- Whether a teacher or a homeschool parent can read a child's full conversations, or only flags and a usage summary. No product documents this clearly; it is Mark's to set.
+- The age at which a person may open a personal account (18, 16, or 13 with a parent) now that minors have their own route.
+- The consent paths: school authorization for educational use, parent consent for homeschool and for teens outside school.
+- How the anonymous free path treats a visitor who says they are a child.
+- Whether public schools can use a Representative that speaks in the first person as a historical tradition; this shapes the curriculum's framing.
+Research so far: the education products compared (Khanmigo, MagicSchool, Gemini for Education, Copilot, ClassDojo, Seesaw) all keep the adult as the account holder and send flags, not whole transcripts, to a named adult; the edtech failures (Edmodo, Illuminate, PowerSchool) came from data held, not from the learning feature.
+
+Note on ruling 26, same day. Mark then suggested, and said it is a suggestion and not a decision, a frame of four accounts: (1) adult personal; (2) adult group (college, graduate school, church and similar); (3) minor, 13 and over, individual, with a parent's consent; (4) group of minors, with consent from the teacher or youth pastor. It is the working frame for the design and is not ruled. Ruling 26 (three kinds of account) stands until he rules. Points the build thread raised against it: under-13s are not covered by (3), so a homeschool parent would use a one-household group (4); a youth pastor is not a school, so group consent by a non-school leader may not be valid for under-13s and may need a parent's consent per child, which is a question for counsel; and (2) differs from (1) in roster and billing, not in consent.
+
+A1a, closing the remaining review findings. Closed: a durable file made before recovery was removed loses its recovery tables when it is opened; the stranger-facing cap on address-change codes to one inbox is 4 in 15 minutes and 10 a day (it cannot be merged with the sign-in cap into one counter, because the owner's own sign-ins would then change what a stranger's attempts meet and reveal recent activity on an address). Accepted and left, each with its owner: the age gate admits some 15-year-olds born late in the year because it asks only for a year (Mark's call; counsel's question 16); the third key, for the encrypted session code, arrives with the shelf (A3); a ledger entry outliving failed backup uploads is closed with the backup step (A5); the two Render items (platform request logs, disk snapshots of the ephemeral file) are unchecked; a global send budget that many accounts can fill denies sign-in for a time, which the safety minimum accepts; counters keyed by a deleted account's address hash on an older key expire within a day and are not backed up.
+
+## 2026-10-22 — Change order: the age line, 18 and over, or 13 and over with a parent's permission (ruled by Mark)
+
+System Hub decision 63, tenth addendum. A named change order on ruling 6 (accounts open at 16 and over with no parent step). Mark: the 16 issue is gone; the line is now 18, or 13 and over with parent permission, and the age check uses birthdays, not a year.
+
+27. Ruled:
+- A personal account is for people 18 and over. A person 13 to 17 can have an account only with a parent's permission; the parent's own account is the sign-off (the minor account of the four-account frame, not yet ruled in full). A person under 13 has no account of their own; they act only inside an adult-managed profile or group.
+- The sign-up check asks for a full date of birth (year, month and day), computed to the day, so the year-only gap (a 15-year-old passing for part of the year) no longer exists. The date of birth is never stored; only that the person is an adult is kept.
+- Until the parent-permission flow exists, a 13-to-17-year-old who signs in is told that a parent or guardian needs to give permission first, and nothing is stored; a person under 13 is told that access for younger children is set up by a parent or teacher. In both cases the code is used up, so retrying cannot tune the answer.
+- This closes the open item "age by year" recorded under A1a, and replaces the lawyer's question 16 with: whether a parent's permission given through a parent's own account (a verified adult, signed in by a code to their address) is enough for 13 to 17 in the US states and the EU and UK countries in scope.
+- Not decided: the parent-permission method, and the consent route for groups of minors led by a non-school leader.
+
+## 2026-10-22 — Pay as you go and minors: a child must not spend an adult's money (ruled by Mark)
+
+System Hub decision 63, eleventh addendum. Mark: he does not want children spending their parents' money. Asked who may buy, he chose to keep buying available without an account, with an adult attestation (the build thread had recommended a signed-in adult account with a fresh code, and said so; this is Mark's ruling).
+
+28. Ruled and built into the design:
+- Only adults buy. A minor account, and a member of a group, never sees a purchase screen or a link to one; they see "ask your parent or teacher".
+- A child never draws on an adult's paid balance automatically. A parent may gift a fixed amount to a child's profile; when spent it is gone, with no top-up. A teacher's group pack is shared with a daily share per student, so one student cannot empty it. Whether a gift can be taken back, and the free allowance for group members, are not decided.
+- No payment method is saved on our side; each purchase is its own Stripe checkout.
+- Buying without an account stays (decision 10), with an adult attestation at the purchase: a plain statement that the buyer is 18 or over, taken on the purchase page or in the Stripe checkout (which of these Stripe supports on a Payment Link is one of the Stripe facts Mark verifies). The attestation is a statement and not a check.
+- A purchase a child made on an adult's card is refunded: the no-refund policy gets that plain exception.
+- An adult who buys while signed in is emailed a receipt note (the address is kept, ruling 25), so an unexpected purchase is seen.
+- Residual risk, accepted by Mark's choice: on a family device, a child can buy as an anonymous visitor using a saved card, Apple Pay or Link, and the attestation does not stop it. The refund exception and the receipt note are the remedies. The stronger option (a signed-in adult account and a fresh code before any purchase) stays available if purchases by children turn up.
+
+## 2026-10-22 — Every minor and every group has an adult who can administer and monitor it (ruled by Mark)
+
+System Hub decision 63, twelfth addendum.
+
+29. Ruled: a minor account (through the parent) and a group account of minors each need an adult, the sign-off, with a console to administer and to monitor. A minor or group cannot exist without one. Read at the time of ruling (the build thread's reading, to be confirmed as the slice is designed):
+- Administer: create, rename and remove the children's profiles (a handle only, never a name or email); issue, rotate and revoke a group's join code or QR; pause a child or a group; set the limits (a daily share per student, hours); gift tokens within the rules of ruling 28; buy a pack (an adult does); see and keep the record of consent (who gave it, when, how); export and delete a child's data; hand the sign-off to another adult when a teacher leaves, and add a second adult (a co-teacher or the other parent) so no child is left without one.
+- Monitor: crisis flags, in two tiers (imminent risk reaches the adult at once, ordinary flags go to a list), and a usage summary (conversations, time, tokens). Whether the adult can read a child's conversations, and on what terms, is the open decision recorded earlier and is not settled by this ruling.
+- Safeguards on the console itself: signing in and a fresh code before anything sensitive; a log of each time an adult looked at a child's data, which the child can see; plain words to the child about what the adult can see; and no monitoring of adult members of an adult group, whose leader sees counts and the roster only.
+- Build: a later slice (the adult console), after the parent-permission and group slices. A1a is the adult account that console sits on.
+
+## 2026-10-22 — What the adult sees of a child's account: flags and usage only (ruled by Mark)
+
+System Hub decision 63, thirteenth addendum. This settles the open decision left by ruling 29.
+
+30. Ruled: the adult sign-off of a minor or a group of minors sees crisis flags and usage only. The adult cannot read a child's conversations. The plain words to the child about what the adult can see (ruling 29) say so.
+
+## 2026-10-22 — Change order: the adult sign-off can read a child's conversations (ruled by Mark)
+
+System Hub decision 63, fourteenth addendum. This changes ruling 30, which limited the adult to flags and usage.
+
+31. Ruled: the adult sign-off of a minor or a group of minors can monitor conversations, because the account exists for a class or a parent. Ruling 30 is superseded on this point; the rest of ruling 29 stands. The safeguards in ruling 29 now carry more weight and stay as the build thread's reading, to be confirmed as the slice is designed: a log of each time an adult read a child's conversation, which the child can see; plain words to the child, before they start, about what the adult can read; and no reading of the conversations of adult members of an adult group. Crisis flags and usage stay as in ruling 29. Open for the slice design: whether the adult reads whole conversations or only those they open from the list, and the lawyer's questions on this point (the Go Deeper lawyer list).
+
+## 2026-10-22 — Monitoring happens only inside an account (ruled by Mark)
+
+System Hub decision 63, fifteenth addendum. This limits ruling 31.
+
+32. Ruled: an adult sign-off reads a child's conversations only when the child has an account under that adult. Conversations held without an account are saved to no one, so there is nothing for an adult to read, and no way is built to monitor them. Minors who use the curriculum, in a class or at home, use it through an account under an adult.
+
+Residual risk, recorded so it does not go quiet: nothing in the app can tell that a person without an account is a child, so a child can still use the system without an account and no adult can see it. What the build can do is make the curriculum, the class join code and the parent link all lead to an account, and keep the adult attestation on anonymous use. Open for the slice design: whether a child under 13 can be a member of a teacher's group, since ruling 27 gives under-13s no account of their own; the school-authorization route in the lawyer list bears on it.
+
+## 2026-10-22 — A group gets its own block: 550 tokens a student, by free trial (ruled by Mark)
+
+System Hub decision 63, sixteenth addendum. This changes the "daily share per student" in rulings 28 and 29: there is no daily limit anywhere (ruling of 2026-10-22, free allowance is monthly).
+
+33. Ruled: a teacher or adult applies for a free trial for a group, names the number of students, and must set up an account to do it. The group receives a block of 550 tokens for each student named, given together as one block for the group. After the block, the group pays as you go, with only adults buying (ruling 28). Group members are not given a separate allowance on top of the block.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The block is one shared pool. The adult sets a per-student share inside it (default 550) so one student cannot empty it, as ruling 29 already provides for limits. The share is monthly or total, never daily.
+- It applies to both kinds of group, adult and minor.
+- Open: who approves a trial (an approval from the project lead each time, or automatic up to a size with larger ones coming to the project lead); the largest number of students; how the number is checked; how long the block lasts and whether it refills; one trial per adult or per organisation.
+
+## 2026-10-22 — Who approves a group trial: automatic under 100 students (ruled by Mark)
+
+System Hub decision 63, seventeenth addendum. This settles one of the open points of ruling 33.
+
+34. Ruled: a trial for fewer than 100 students is approved without the project lead, by the build's own rule, once the adult has an account and names the number. Read at the time of ruling: a trial for 100 or more students comes to the project lead for approval. The largest class is therefore set by the project lead's approval, not by a fixed cap. Still open from ruling 33: how the number of students is checked, how long the block lasts and whether it refills, and one trial per adult or per organisation.
+
+## 2026-10-22 — Change order: a group trial is for 25 students or fewer (ruled by Mark)
+
+System Hub decision 63, eighteenth addendum. This changes ruling 34, which set the line at 100.
+
+35. Ruled: the free trial block is for a group of 25 students or fewer. Ruling 34's line at 100 is superseded. Read by the build thread, to be confirmed: a group of 25 or fewer is approved automatically; a group of more than 25 gets no free trial block and starts on pay as you go, with an adult buying; the project lead may still grant a larger group a block by approval, as with a coupon. Still open from ruling 33: how the number is checked, how long the block lasts and whether it refills, and one trial per adult or per organisation.
+
+## 2026-10-22 — A group of more than 25 sends the project lead a request to approve (ruled by Mark)
+
+System Hub decision 63, nineteenth addendum. This settles what happens above 25 in ruling 35.
+
+36. Ruled: when a group of more than 25 students applies for a trial, the system emails the project lead a request that he can approve. Keep the system simple: one request, one approval, no separate queue or tool.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The approval is the same single approval screen the coupon grant uses (ruling 24), so there is one place and one button. The email tells the project lead a request is waiting and links to that screen, where he signs in and approves. The email itself never approves anything, because a mail scanner or a forwarded message can open a link.
+- The request names the adult's account, the number of students and the group kind, never the students.
+- Until the project lead approves, the group starts on pay as you go, as in ruling 35. If he approves, the block is added.
+- This is mail to the project lead, not mail to account holders; it waits on the mail provider choice (A0) like every other mail.
+
+## 2026-10-22 — How a group buys tokens: card now, invoice later (ruled by Mark)
+
+System Hub decision 63, twentieth addendum.
+
+37. Ruled: a group buys tokens by card, at the same rates and in the same packs as individuals, with the tokens going to the group's pool. Paying by invoice or purchase order comes later, when there is demand. There is no group volume discount.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- Only an adult who runs the group buys (ruling 28), from the adult console, on that adult's own account. The receipt carries the group's name. A child never buys and never draws on an adult's balance.
+- A group pack is separate from the adult's personal balance, so the group's use cannot drain it and the adult's use cannot drain the group's.
+- Open: whether unspent group tokens lapse after two years like personal tokens, whether they can be moved to another group or back to the adult, and what the receipt may show. Invoicing needs the payment provider's facts verified before it is designed.
+
+## 2026-10-22 — A group's trial block is given once and lasts 90 days (ruled by Mark)
+
+System Hub decision 63, twenty-first addendum. This settles one of the open points of ruling 33.
+
+38. Ruled: a group's free trial block of 550 tokens a student is given once and ends after 90 days. It does not refill. Tokens unspent at the end lapse, and the group then pays as you go, with an adult buying (ruling 28). The most the block costs is 550 times the number of students named. Still open from ruling 33: how the number of students is checked, and one trial per adult or per organisation.
+
+## 2026-10-22 — The teacher can move credits between students (ruled by Mark)
+
+System Hub decision 63, twenty-second addendum. This adds to the per-student share in ruling 33.
+
+39. Ruled: the adult who runs a group can move credits from one student to another, so a student who needs more can be given more and one who has less can be given less.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- A move works on the unspent part of each student's share of the group's pool, never on tokens already used, and never takes a share below what that student has used this block.
+- A move stays inside the group. It cannot send credits to a person outside it, to the adult's personal balance, or to another group.
+- Each move is logged with the adult, the two students, the amount and the time. The adult sees the log. It does not show students' conversations.
+- It changes nothing about the 90 days of ruling 38, or about the group pool's total.
+- It applies to groups of minors and groups of adults. A parent's gift to one child (ruling 28) is the child's own and is not moved by a group's adult.
+- Open for the slice design: whether a student is told when their share changes, and whether a move can be reversed.
+
+## 2026-10-22 — Change order: moving credits between students stays simple (ruled by Mark)
+
+System Hub decision 63, twenty-third addendum. This replaces the build thread's reading under ruling 39; the ruling itself stands.
+
+40. Ruled: keep it simple. The adult who runs a group moves credits from one student to another. That is the whole feature. Only two limits remain, because without them the move has no meaning: it works on credits not yet used, and it stays inside the group. The extra points the build thread added under ruling 39 are withdrawn: no notice to the student, no reversing, no special rule for parent gifts, and no separate log screen (the move is recorded in the group's ordinary record of changes, as any change to a group is). Ruling 39's open questions are closed by this.
+
+## 2026-10-22 — Change order: only purchased credits can be moved (ruled by Mark)
+
+System Hub decision 63, twenty-fourth addendum. This narrows ruling 40.
+
+41. Ruled: the adult can move only purchased credits between students. Free credits, the trial block of ruling 33, stay with the student they were given to and cannot be moved. The other limits in ruling 40 stand: credits not yet used, and inside the group.
+
+## 2026-10-22 — One trial per adult; the student count is what the adult names (ruled by Mark)
+
+System Hub decision 63, twenty-fifth addendum. This closes the last open points of ruling 33.
+
+42. Ruled: an adult gets one free trial. There is no check at the level of an organisation. The number of students is the number the adult names; the group cannot take more members than that. With rulings 34 to 41, the group trial is settled: 550 tokens a student, once, for 90 days, for a group of 25 or fewer (more than 25 asks the project lead), then pay as you go.
+
+## 2026-10-22 — Under 13 in a group: 13 and over is recommended, the parent or teacher makes the call (ruled by Mark)
+
+System Hub decision 63, twenty-sixth addendum. This qualifies ruling 27 for groups.
+
+43. Ruled: a group is recommended for students 13 and over, but the parent or the teacher can make the call to admit a younger child. Ruling 27 (no account of their own under 13) still holds for a personal account.
+
+Consequence recorded by the build thread, not yet settled:
+- The default is 13 and over. A group admits nobody under 13 until an adult has made the call for that group.
+- An adult's call is not by itself enough in law. For a child under 13 the lawful route is a school authorising educational use, or a parent's verified consent, with no reuse of the child's data (lawyer list). So the call is built as the adult's recorded decision plus whatever the lawyer says the route requires.
+- Nothing for under-13s is built until the lawyer has answered. Slices for groups are built for 13 and over first.
+- Open: whether a youth pastor or other non-school leader may make the call, or only a school teacher or a parent.
+
+## 2026-10-22 — Only a teacher or a parent can admit a child under 13, and it is educational (ruled by Mark)
+
+System Hub decision 63, twenty-seventh addendum. This settles the open point of ruling 43.
+
+44. Ruled: only a teacher or a parent can make the call to admit a child under 13. A youth pastor or other non-school leader cannot. The use is educational. This keeps the under-13 route on the educational footing the law allows for a school, and a parent's own consent for their own child. The default stays 13 and over, and nothing for under-13s is built until the lawyer has said what the route requires (ruling 43).
+
+## 2026-10-22 — A student signs in with a personal code from the teacher (ruled by Mark)
+
+System Hub decision 63, twenty-eighth addendum.
+
+45. Ruled: a student in a group with no email on the profile signs in with a personal code. The adult who runs the group shares a class join code or QR. Each student picks a handle and is given their own long personal code, shown once. The student signs in with that code on any device. The adult can reissue a code that is lost or shared.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The personal code is long and random, at least as hard to guess as the typed sign-in code with its limits: tries counted per code, and a lockout that the adult can lift. It is stored only as a keyed hash, like an address.
+- Sessions for these profiles are shorter than an adult's (hours, not days), because the devices are often shared.
+- The class join code is for joining only. It signs nobody in.
+- The adult's console, the adult's reading of conversations (ruling 31) and the per-network limits are unchanged, except that joins are counted against the group, not the school's network (the walk-through gap).
+- This is a new credential. It needs its own review before it is built, as the sign-in had.
+
+## 2026-10-22 — Change order: the age line is one click, "18 or over" (ruled by Mark)
+
+System Hub decision 63, twenty-ninth addendum. This changes the mechanism of ruling 27. The line itself stands: personal accounts for 18 and over, or 13 and over with a parent's permission; under 13 has no account of their own.
+
+46. Ruled: the age line is a single click, "I am 18 or over". A yes launches a personal account. Anything else starts the parent or teacher process. No birth date is asked or kept. This also answers the 18th-birthday problem: a young person on a minor account has no date to track, and the same click, made later, starts the hand-off to a personal account.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The click is a declaration, as a typed birth date was. Nothing here checks age, so a young person can click yes and get a personal account with no adult. That was true of the typed birth date too. The lawyer is asked whether a declaration is enough.
+- On a minor account with a parent or teacher, the young person's later click does not end the adult's console by itself. It sends the adult a notice to confirm, so a young person cannot remove their own adult (ruling 29). The adult can end it at any time.
+- The parent or teacher process asks the adult, not the young person, how old the young person is (13 and over, or under 13). Under 13 has no account of their own, and groups follow rulings 43 and 44.
+- Code: A1a, merged in the previous change, reads a birth date. The date fields, the exact-age check and the under-age and needs-parent replies are replaced in the next accounts slice, not patched around. The records still describe the click as the rule from now on.
+
+## 2026-10-22 — What parents are told: designed for 13 and over, a parent or teacher can permit a younger child for learning (ruled by Mark)
+
+System Hub decision 63, thirtieth addendum. This extends rulings 43 and 44 from groups to an individual child under a parent, and qualifies ruling 27 for the parent route.
+
+47. Ruled: the message to a parent is that the system is designed for people 13 and over, and that parents and teachers can permit a younger child to use it for educational purposes. The route must be legal.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The default stays 13 and over. A younger child gets an account only through a parent (for their own child) or a teacher (for a class, ruling 44), and only for learning.
+- "Legal" means the lawyer's answer decides the mechanism. A parent's consent for a child under 13 has to be verifiable under COPPA, and a teacher acts as a school authorising educational use. The method of parent consent is still open (lawyer list). Until the lawyer has answered, nothing for under-13s is built, as in ruling 43.
+- The route carries the limits that make it educational: no reuse of the child's data, including training; the data kept small; the adult console and the rule that a child never buys (rulings 28 and 29); and an adult who can read the conversations (ruling 31).
+- Draft wording for the parent, not approved, for the lawyer and then a participant-facing check: "This system is designed for people 13 and over. Parents and teachers can allow a younger child to use it for learning. If you do, you stay in charge: you can read their conversations, set their limits and close the account at any time."
+
+## 2026-10-22 — The under-13 route is designed here, not sent to a lawyer (ruled by Mark)
+
+System Hub decision 63, thirty-first addendum. This changes the gating in rulings 43 and 47, which held every under-13 slice until the lawyer answered.
+
+48. Ruled: the design of the under-13 route is done by the build thread and the project lead, not sent to a lawyer. The gate "nothing for under-13s is built until the lawyer has answered" is withdrawn.
+
+Recorded by the build thread:
+- The design follows the rules the FTC publishes, as the leading educational products do: school consent for educational use only, with no commercial reuse of the child's data; and direct verifiable parental consent for anything else. The search summaries behind this are secondary, and the design is read against the FTC's own COPPA FAQ text, Parts M and N, when each slice is specified.
+- The build thread is not a lawyer. Whether to have a lawyer read the finished design before it is used in production is a separate choice, the project lead's, and is not part of designing it.
+
+## 2026-10-22 — A parent permits a child under 13 by certifying educational use and a small card check (ruled by Mark)
+
+System Hub decision 63, thirty-second addendum.
+
+49. Ruled: a parent permits a child under 13 by signing in as an adult, stating that they are the child's parent and that the use is educational, and confirming with a small card transaction. The card check is one of the verification methods the FTC recognises. The child's data is never reused, including for training. A teacher's route is as in ruling 44: the teacher certifies educational use and acts as the parent's agent, and the school is given a notice.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- The card check is a small charge or a card-on-file confirmation that does not credit tokens, and is refunded if it is a charge. It proves a card holder, not a parent. The payment provider's actual options are verified before the slice is written.
+- The child's account is the adult-managed account of rulings 29 and 31: the parent reads conversations, sets limits and can close it. The child never buys (ruling 28).
+- Under-13 accounts carry fewer features, as Khan Academy's do. Which features is left to the slice, starting from no sharing with anyone but the adult.
+- The statement shown to the parent is the one drafted in ruling 47, read again for readability when the screen is written.
+
+## 2026-10-22 — A parent permits a 13-to-17-year-old by signing in and certifying (ruled by Mark)
+
+System Hub decision 63, thirty-third addendum. This settles the parent-permission method left open by ruling 27.
+
+50. Ruled: a parent permits a young person aged 13 to 17 by signing in as an adult and stating that they are the young person's parent and that they permit the account. There is no card check; that belongs to the under-13 route (ruling 49). The account is the adult-managed account of rulings 29 and 31.
+
+## 2026-10-22 — Change order: a child under 13 needs an extra parent approval (ruled by Mark)
+
+System Hub decision 63, thirty-fourth addendum. This adds to rulings 44 and 49.
+
+51. Ruled: for a child under 13 there is an extra parent approval. A teacher's call to admit a younger child (ruling 44) is not enough alone; the child's parent also approves.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- In a teacher's group, the child is held until the parent signs in as an adult and approves that child's account, in the form of ruling 50 (the parent states parenthood and permission). The teacher's certification of educational use stays.
+- Where the parent is the only consenting adult, as in ruling 49, the parent's certification and card check are already the parent's approval, so nothing more is added.
+- Until both are in place the child has no account and nothing is kept about them but the handle the teacher entered.
+- The consent of a youth-pastor group for 13-to-17-year-olds is not settled by this ruling and remains open.
+
+## 2026-10-22 — Change order: the extra parent approval is for non-educational groups; a teacher in a class can admit a younger child alone (ruled by Mark)
+
+System Hub decision 63, thirty-fifth addendum. This corrects the build thread's reading in ruling 51, which put the extra approval on teachers' groups.
+
+52. Ruled: in a teacher's education class the teacher can legally admit a younger child, so no extra parent approval is added there; ruling 44 stands for classes. The extra parent approval for a child under 13 is for youth pastors and other non-educational settings.
+
+Read by the build thread, to be confirmed as the slice is designed:
+- In a non-educational group, a child under 13 is admitted only after the parent signs in as an adult and approves that child, on the route of ruling 49 (parenthood, permission and the small card check). The leader alone cannot admit the child. This changes ruling 44, which said a youth pastor cannot admit under-13s at all: now a youth pastor can host them, but only through the parent.
+- The school footing does not cover a non-educational group, so the "educational use" statement of ruling 49 cannot be made for it. The parent's statement must say what the use is. The child's data is still never reused, including for training. The statement shown to the parent for this route is written for it, not borrowed from the school one.
+- Ruling 51's reading for teacher groups is withdrawn.
+- Open: consent for a youth-pastor group's 13-to-17-year-olds. Under ruling 50 each one already has a parent's permission to hold an account; whether the group needs anything more is not settled.
+
+## 2026-10-22 — Youth-group 13-to-17-year-olds need nothing beyond the parent's permission (ruled by Mark)
+
+System Hub decision 63, thirty-sixth addendum. This closes the open point of ruling 52.
+
+53. Ruled: a 13-to-17-year-old in a youth-pastor or other non-educational group needs nothing beyond the parent's permission to hold an account (ruling 50). The group's leader has the adult console of rulings 29 and 31 for the group. The consent rules for groups are now settled: classes admit younger children through the teacher (ruling 44); non-educational groups admit children under 13 only through the parent (ruling 52); everyone 13 to 17 has a parent's permission (ruling 50).
+
+## 2026-10-22 — Free allowance: a minor account gets the same 550; no account stays as it is (ruled by Mark)
+
+System Hub decision 63, thirty-seventh addendum.
+
+54. Ruled: a minor account gets the same free allowance as an adult, 550 tokens a month. A visitor with no account keeps the free allowance the live visitor path already gives, with nothing new decided. A group's free allowance is the trial block of rulings 33 to 42. This closes the allowance figures left open by the walk-through of the five ways of using the system.

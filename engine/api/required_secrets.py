@@ -6,7 +6,7 @@ Three readers share it:
 - engine/api/tests/test_required_secrets.py fails when render.yaml turns a
   switch on without declaring the secrets that switch needs;
 - `python -m engine.api.required_secrets --service cic-engine` prints the
-  hand-set values to confirm in the Render dashboard before a promotion.
+  hand-set values to confirm in the Render dashboard.
 
 A secret is a value render.yaml marks `sync: false`: it is typed into the
 Render dashboard by hand and never committed. Declaring it in render.yaml
@@ -47,6 +47,10 @@ class Problem:
 # engine.api.deeper_routes.build_runtime (DeeperConfigError).
 NEEDS: dict[str, tuple[Need, ...]] = {
     "CIC_API_ANON_CAP_ENABLED": (Need("CIC_API_ANON_VISITOR_SECRET"),),
+    "CIC_ACCOUNTS_ENABLED": (
+        Need("CIC_ACCOUNTS_KEY", min_length=MIN_KEY_LENGTH),
+        Need("CIC_ACCOUNTS_SESSION_KEY", min_length=MIN_KEY_LENGTH),
+    ),
     "CIC_DEEPER_ENABLED": (
         Need("CIC_DEEPER_WEBHOOK_SECRET"),
         Need("CIC_DEEPER_FREE_KEY", min_length=MIN_KEY_LENGTH),

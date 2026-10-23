@@ -1092,7 +1092,7 @@ def _screen_refused_table_message(
     representative_names = [worlds[k].frame["representative"]["name"] for k in state.world_keys]
     opening = open_table_round(
         gate_run=gate_run, representative_names=representative_names, track_a_last=state.safety.track_a_last,
-        rounds_completed=state.turn_count, anachronistic_term_ids=set(), daily_cap_reached=False,
+        rounds_completed=state.turn_count, anachronistic_term_ids=set(),
     )
     if state.round_open:
         _close_round(store, state, reason="safety", turns=state.round_turns)
@@ -1135,7 +1135,6 @@ def _handle_table_message_unlocked(
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
     qc_recorder=None,
-    daily_turn_cap_reached: bool = False,
     grant_for: GrantProvider | None = None,
     on_sentence=None,
 ) -> TableMessageResult:
@@ -1189,7 +1188,7 @@ def _handle_table_message_unlocked(
         world_key=None,
     )
     grant = resolve_grant(
-        grant_for, completed=state.turn_count, free_cap=round_module.TABLE_SESSION_ROUND_CAP, daily_cap_reached=daily_turn_cap_reached
+        grant_for, completed=state.turn_count, free_cap=round_module.TABLE_SESSION_ROUND_CAP
     )
     opening = open_table_round(
         gate_run=gate_run,
@@ -1197,9 +1196,7 @@ def _handle_table_message_unlocked(
         track_a_last=state.safety.track_a_last,
         rounds_completed=state.turn_count,
         anachronistic_term_ids=anachronistic_ids,
-        daily_cap_reached=False,
         round_cap=grant.cap,
-        facilitator_only=grant.facilitator_only,
         limit_text=grant.limit_text,
     )
 

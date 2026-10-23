@@ -133,6 +133,25 @@ def network_of(address: str) -> str:
     return address
 
 
+BOUND_IPV6_PREFIX = 56
+
+
+def bound_network_of(address: str) -> str:
+    """The key a monthly bound counts a network under: an IPv6 address becomes its
+    /56, the block a home is usually given (256 of the /64 blocks network_of keeps
+    apart), and an IPv4-mapped one becomes its IPv4 address; an IPv4 address, or
+    anything that does not parse, is unchanged."""
+    try:
+        ip = ipaddress.ip_address(address)
+    except ValueError:
+        return address
+    if isinstance(ip, ipaddress.IPv6Address):
+        if ip.ipv4_mapped is not None:
+            return str(ip.ipv4_mapped)
+        return str(ipaddress.ip_network(f"{ip}/{BOUND_IPV6_PREFIX}", strict=False))
+    return address
+
+
 def install(app, bucket_for: Callable[[Request], tuple[str, int] | None] | None = None):
     """HTTP middleware: session creation, conversation traffic (including
     the two per-session GET reads, not just the two message POSTs - see

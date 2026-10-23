@@ -1,88 +1,48 @@
-"""Per-visitor daily cap on session creation and conversation turns
-(Tech-Readiness P1-Security item 3 — OWASP LLM Top 10 "unbounded
-consumption"). Feature-flagged via CIC_API_ANON_CAP_ENABLED — the code
-default stays off (a fresh/local/test app opts in explicitly), but both
-real deployments turn it on (render.yaml), so the cap and the visitor
-cookie run together. The cap mechanism/numbers below are the proposed
-default; see Build/Ministry/Operations/Audits/Tech-Readiness-
-2026-09/P1-Security/Report.md for the options this was chosen from and
-why.
+"""The visitor cookie (Tech-Readiness P1-Security item 3).
+Feature-flagged via CIC_API_ANON_CAP_ENABLED - the code default
+stays off (a fresh/local/test app opts in explicitly), but both real
+deployments turn it on (render.yaml), and the engine refuses to start with
+the free allowance on and this flag off, because the free allowance
+(engine.deeper.free) is keyed on the id issued here.
 
-Why a second, per-visitor mechanism on top of engine/api/ratelimit.py's
-per-IP sliding window: that limiter already bounds *burst* rate (6
-creates/min, 40 converse/min per IP) but has no DAILY ceiling — a single
-IP can create 6 sessions every minute, all day, and the limiter never
-stops it. This module adds the missing daily bound, scoped to a visitor
-rather than an IP so it doesn't collapse every participant behind a
-shared/NAT'd address into one bucket the way a pure-IP daily limit would.
+There is no daily count. A visitor's free allowance is a monthly window of
+tokens (engine.deeper.free); nothing here limits conversations or messages
+by day. Burst rate stays with engine/api/ratelimit.py's per-IP sliding
+window, and spend with the door and the group codes (engine.deeper).
 
 Mechanism: a random, server-issued, HMAC-signed opaque token in an
-HttpOnly cookie. No accounts, no email, no name, no device fingerprint —
+HttpOnly cookie. No accounts, no email, no name, no device fingerprint -
 the token is a bare random id, unlinkable to a real identity, and the
 signature verifies it wasn't handed back tampered with. Cookie only (no
 frontend change needed): cic-poc/frontend is same-origin with engine/api
 (render.yaml's own "ONE service" design), so the browser sends it
 automatically.
 
-Daily-cap bookkeeping (DailyVisitorLimiter, below) is in-memory, per-
-instance, day-bucketed — the same architectural precedent ratelimit.py
-already established and justified (one instance serves all traffic
-today; the SQLite session store already pins this service there). A
-restart resets every visitor's count to zero; that's an acceptable
-false-negative for a soft abuse deterrent, not a hard security boundary,
-and matches the existing limiter's own accepted tradeoff.
-
-The visitor id itself is a separate concern:
-install() below also hands the verified-or-freshly-minted id to the
-request as `request.state.visitor_id`, BEFORE the route handler runs, so
+install() hands the verified-or-freshly-minted id to the request as
+`request.state.visitor_id`, BEFORE the route handler runs, so
 engine.api.wiring.create_session can write it onto that session's own
-session_started event (engine/m4/entrance.py) — the one place a
-session's identity is actually persisted. That event write is what makes
-the id durable across restarts and usable for the usage dashboard's
-unique-visitor count; this module itself still keeps no record of who
-visited, only the daily counters.
+session_started event (engine/m4/entrance.py) - the one place a session's
+identity is actually persisted - and admission can key the free allowance
+on it. That event write is what makes the id durable across restarts and
+usable for the usage dashboard's unique-visitor count; this module itself
+keeps no record of who visited.
 """
 import hmac
 import secrets
-import threading
-import time
-from dataclasses import dataclass
-from datetime import datetime, timezone
-from typing import Callable
 
 from fastapi import Request
-from fastapi.responses import JSONResponse
-
-from engine.api.ratelimit import client_ip, network_of
 
 COOKIE_NAME = "cic_visitor"
 _TOKEN_BYTES = 18  # 144 bits, base64url-encoded by secrets.token_urlsafe
 _SEPARATOR = "."
 
-# PROPOSED defaults (Option A in the report) — deliberately conservative:
-# a real participant's own honest use (per Artifact-6-Operations.md's
-# measured floor) fits comfortably inside these; see the report for the
-# 2-3 option comparison these numbers came from.
-DEFAULT_DAILY_SESSION_LIMIT = 5
-DEFAULT_DAILY_TURN_LIMIT = 150
-
-# The cookie's own lifetime — independent of the daily caps above, which
-# reset on their own every UTC day regardless of how long the cookie
-# lives. 400 days is the practical ceiling, not a round-number guess:
+# The cookie's own lifetime. 400 days is the practical ceiling, not a round-number guess:
 # Chrome (and Chromium-based browsers) caps any Set-Cookie Max-Age at 400
 # days and silently clamps a longer one, so asking for more would just be
 # asking for the same 400 with extra steps. Needs to be long because the
 # usage dashboard's unique-visitor count depends on this cookie surviving
-# from one visit to the next across a pilot that may run for months; the
-# daily cap's own bucket would need only a couple of days.
+# from one visit to the next across a pilot that may run for months.
 VISITOR_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 400
-
-CAP_DETAIL = "You've reached today's limit for new conversations - please come back tomorrow, or reach out if this doesn't seem right."
-TURN_CAP_DETAIL = "You've reached today's limit for messages - please come back tomorrow, or reach out if this doesn't seem right."
-
-
-def _today() -> str:
-    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
 def _sign(visitor_id: str, secret: str) -> str:
@@ -98,7 +58,7 @@ def verify_token(token: str, secret: str) -> str | None:
     """Returns the visitor_id if the token's signature is valid, else None
     (missing cookie, corrupted value, or signed with a since-rotated
     secret all fall through to None - the caller mints a fresh one, never
-    trusts an unverified id as someone's existing daily bucket)."""
+    trusts an unverified id as someone's existing visitor)."""
     if not token or _SEPARATOR not in token:
         return None
     visitor_id, _, signature = token.partition(_SEPARATOR)
@@ -109,191 +69,35 @@ def verify_token(token: str, secret: str) -> str | None:
     return visitor_id
 
 
-@dataclass
-class _DailyCounts:
-    day: str
-    sessions: int = 0
-    turns: int = 0
-    facilitator_sessions: int = 0
-
-
-class DailyVisitorLimiter:
-    """One counter pair per visitor id, reset whenever the wall-clock day
-    (UTC) rolls over - checked lazily on access rather than swept, the
-    same "cheap enough, no background sweep needed" choice ratelimit.py
-    makes for its own map growth."""
-
-    def __init__(self, daily_session_limit: int, daily_turn_limit: int, daily_facilitator_session_limit: int = 1):
-        self.daily_session_limit = daily_session_limit
-        self.daily_turn_limit = daily_turn_limit
-        self.daily_facilitator_session_limit = daily_facilitator_session_limit
-        self._counts: dict[str, _DailyCounts] = {}
-        self._lock = threading.Lock()
-
-    def _bucket_locked(self, key: str) -> _DailyCounts:
-        """Caller must already hold self._lock."""
-        today = _today()
-        bucket = self._counts.get(key)
-        if bucket is None or bucket.day != today:
-            bucket = _DailyCounts(day=today)
-            self._counts[key] = bucket
-            # Same opportunistic trim ratelimit.py uses - only matters
-            # under sustained real traffic, cheap when it doesn't. Run on
-            # every new key, not just past the threshold, since every key
-            # here is attacker-choosable (a harvested/forged-then-rejected
-            # token id, or a spoofed ip: value) in a way ratelimit.py's own
-            # per-real-IP keys aren't as cheaply multiplied.
-            if len(self._counts) > 50_000:
-                stale = [k for k, v in self._counts.items() if v.day != today]
-                for k in stale:
-                    del self._counts[k]
-        return bucket
-
-    def allow_session(self, key: str) -> bool:
-        with self._lock:
-            bucket = self._bucket_locked(key)
-            if bucket.sessions >= self.daily_session_limit:
-                return False
-            bucket.sessions += 1
-            return True
-
-    def allow_facilitator_session(self, key: str) -> bool:
-        """The few Facilitator-only sittings a visitor past the session limit
-        may still open in a day. Each costs the safety check on its messages,
-        so the count is small and is not lifted by anything."""
-        with self._lock:
-            bucket = self._bucket_locked(key)
-            if bucket.facilitator_sessions >= self.daily_facilitator_session_limit:
-                return False
-            bucket.facilitator_sessions += 1
-            return True
-
-    def allow_turn(self, key: str) -> bool:
-        with self._lock:
-            bucket = self._bucket_locked(key)
-            if bucket.turns >= self.daily_turn_limit:
-                return False
-            bucket.turns += 1
-            return True
-
-    def mint_seeded_token(self, ip: str, secret: str) -> str:
-        """Mint a fresh visitor token, seeded from the ip: bucket's current
-        count rather than zero, so dropping the cookie never buys a fresh
-        daily allowance. Called only on an allowed session create, after
-        that create has counted against the ip: bucket: the k-th token an
-        address mints starts at k sessions, so all its tokens together hold
-        at most daily_session_limit*(daily_session_limit-1)/2 sessions
-        beyond the address's own daily_session_limit. The new token's
-        bucket is not the ip bucket itself, because that would put every
-        real visitor behind one shared or NAT'd address on a single
-        allowance before any of them has a cookie."""
-        with self._lock:
-            ip_bucket = self._bucket_locked(f"ip:{ip}")
-            token = issue_token(secret)
-            visitor_id = token.split(_SEPARATOR, 1)[0]
-            self._counts[visitor_id] = _DailyCounts(
-                day=ip_bucket.day, sessions=ip_bucket.sessions, turns=ip_bucket.turns,
-                facilitator_sessions=ip_bucket.facilitator_sessions,
-            )
-            return token
-
-
-def install(
-    app,
-    *,
-    secret: str,
-    daily_session_limit: int = DEFAULT_DAILY_SESSION_LIMIT,
-    daily_turn_limit: int = DEFAULT_DAILY_TURN_LIMIT,
-    exempt: Callable[[Request, bool], bool] | None = None,
-    session_cap_facilitator_only: bool = False,
-    daily_facilitator_session_limit: int = 1,
-):
+def install(app, *, secret: str):
     """HTTP middleware, only ever installed when CIC_API_ANON_CAP_ENABLED
-    is on (see engine.api.app._build_real_app). Installed BEFORE
-    ratelimit.install() in engine.api.app.create_app so that ratelimit's
-    own middleware ends up OUTERMOST and runs first (Starlette middleware
-    is LIFO: the last one registered wraps, and therefore runs ahead of,
-    everything registered before it) - the cheaper, IP-only, no-cookie-
-    read burst check stays the actual first line, exactly as originally
-    intended, and a request the burst limiter would reject never reaches
-    this module (and so never spends daily quota it wouldn't otherwise
-    have consumed) at all.
+    is on (see engine.api.app._build_real_app). A valid cookie names the
+    visitor on a session create or a message. A create with no valid cookie
+    mints a fresh token and sets it on the response. A message with no valid
+    cookie mints nothing, so tokens cannot be collected by sending messages
+    that never open anything; admission keys that request on the address.
 
-    Falls back to client_ip(request) as the bucket key on a request with no
-    valid cookie: the first request from a genuinely new visitor (or one
-    who cleared cookies) is still counted against SOMETHING before its own
-    token is minted and returned, rather than getting one free unbounded
-    request. A fresh token is only ever minted on the ALLOWED path (never
-    on a 429 - minting there was a real bug: it let an attacker harvest an
-    unlimited supply of fresh, empty-bucket tokens purely by getting
-    rejected repeatedly, never needing a single request to actually
-    succeed), only on a session create (never on a message), and is seeded
-    from the ip: bucket's current count rather than starting at zero
-    (DailyVisitorLimiter.mint_seeded_token's own docstring has the bound).
-
-    The mint (when needed) now happens BEFORE call_next rather than after
-    - still strictly inside the ALLOWED branch, so the "never mint on a
-    429" guarantee above is unchanged - so that request.state.visitor_id
-    is set before the route handler runs and create_session_endpoint can
-    read it. Reordering relative to call_next doesn't change what
-    mint_seeded_token sees: it reads the ip: bucket's count, and nothing
-    call_next does touches that bucket."""
-    limiter = DailyVisitorLimiter(daily_session_limit, daily_turn_limit, daily_facilitator_session_limit)
+    The mint happens BEFORE call_next so request.state.visitor_id is set
+    before the route handler runs and create_session_endpoint can read it."""
 
     @app.middleware("http")
-    async def _anon_cap(request: Request, call_next):
+    async def _visitor_cookie(request: Request, call_next):
         is_create = request.method == "POST" and request.url.path == "/api/session"
         is_turn = request.method == "POST" and request.url.path.startswith("/api/session/") and (
             request.url.path.endswith("/message") or request.url.path.endswith("/continue")
         )
-        if not (is_create or is_turn):
+        # A sign-in that finishes reads the visitor id, and mints nothing, so a new account can
+        # begin with what is left of its browser's free window.
+        reads_only = request.method == "POST" and request.url.path.startswith("/api/accounts/") and request.url.path.endswith("/finish")
+        if not (is_create or is_turn or reads_only):
             return await call_next(request)
 
         raw_cookie = request.cookies.get(COOKIE_NAME)
         visitor_id = verify_token(raw_cookie, secret) if raw_cookie else None
-        # A token is minted only where a session opens. A message request
-        # without a cookie stays on the address bucket, so tokens cannot be
-        # collected by sending messages that never open anything.
-        needs_new_token = visitor_id is None and is_create
-        ip = network_of(client_ip(request))
-        bucket_key = visitor_id or f"ip:{ip}"
-
-        # exempt(request, is_create) says whether the caller vouches for the
-        # request. A vouched creation past the session limit opens a sitting
-        # the caller meters from its first turn; an unvouched one may open one
-        # of the few Facilitator-only sittings; a vouched /continue is not
-        # turned away mid-round. The free counters keep running throughout.
-        vouched = bool(exempt and exempt(request, is_create))
-        if is_create:
-            allowed = limiter.allow_session(bucket_key)
-            if not allowed and vouched:
-                request.state.paid_session = True
-                allowed = True
-            elif not allowed and session_cap_facilitator_only and limiter.allow_facilitator_session(bucket_key):
-                request.state.facilitator_only_session = True
-                allowed = True
-        else:
-            allowed = limiter.allow_turn(bucket_key) or (vouched and not request.url.path.endswith("/message"))
-        if not allowed and request.url.path.endswith("/message"):
-            # A participant message over the daily cap still reaches the
-            # safety gate, so a real crisis gets the Facilitator's redirect.
-            # Anything else closes the session there (engine.m4.turn.run_turn,
-            # engine.m4.round.open_table_round). It is not counted, and no
-            # token is minted for it.
-            request.state.daily_turn_cap_reached = True
-            return await call_next(request)
-        if not allowed:
-            return JSONResponse(status_code=429, content={"detail": CAP_DETAIL if is_create else TURN_CAP_DETAIL})
-
         new_token: str | None = None
-        if needs_new_token:
-            new_token = limiter.mint_seeded_token(ip, secret)
+        if visitor_id is None and is_create:
+            new_token = issue_token(secret)
             visitor_id = new_token.split(_SEPARATOR, 1)[0]
-        # Only session-create/turn requests reach here (the is_create/
-        # is_turn guard above), and only create_session_endpoint reads
-        # this today - a turn request's own visitor_id is set too, at no
-        # extra cost, since the same cookie identifies the same visitor
-        # either way.
         request.state.visitor_id = visitor_id
 
         response = await call_next(request)

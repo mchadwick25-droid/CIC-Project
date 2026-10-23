@@ -2696,3 +2696,15 @@ Fixed: Katharina's question is Luther's own report (story, teaser, voice); the E
 Status: OPEN for the project lead on the three items above.
 
 The recheck also removed "young university" from the census copy of the tile (`cic-website/data/world-census.json`, `index.html`, `atlas-v3.html` and the tradition page).
+
+## OG-77. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-witt-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 34 own-voice, 2 outsider's account voiced as the world's own, 4 unsupported, 0 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `records/witt/term/witt.term.sacrament-of-the-altar.md` line 90 and `records/witt/doctrinal_witness/witt.dw.born-in-sin-fed-at-the-table.md` line 53 ("we did not dispute the how") are contradicted by Luther's 1520 iron-and-fire argument.
+- `witt.dw.born-in-sin-fed-at-the-table` lines 56 to 57 ("no other teaching of ours appears in so many of our writings") is a statistic about the project's own word list stated as history.
+- `records/witt/quote/witt.quote.second-article-of-the-creed.md` lines 18 and 120 state household uptake as fact, against `witt.contested.household-catechism-reception` (Contested).
+- `records/witt/story/witt.story.brussels-martyrs.md` gives the 1523 date without saying it comes from the editors, not the hymn.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.

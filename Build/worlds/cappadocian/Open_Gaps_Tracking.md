@@ -907,3 +907,15 @@ Three independent readers checked the live page (reviews `Build/Ministry/Operati
 Fixed: Gregory no longer stands at Basil's funeral (cards, and the records `valens-caesarea` and `athens-friendship`: Gregory was ill and spoke after his return, years later); the Forty are no longer placed in an empire-wide persecution (card, `when` field, record `text`); the tile no longer says Basil named landowners; "Homoian" is explained; tells, build wording and long notes trimmed.
 
 Status: CLOSED for this review.
+
+### OG-52. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-cappadocian-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 35 own-voice, 2 outsider's account voiced as the world's own, 4 unsupported, 3 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `records/cappadocian/force/cappadocian.force.movement-institutionalized.md` line 33, "The young no longer remembered the years when it was all being worked out", has no source.
+- `records/cappadocian/source/cappadocian.source.gregory-nyssa-love-of-the-poor-lepers-consolation.md` lines 20 to 23 say vendored in npnf205; the homilies are not in that file.
+- `records/cappadocian/source/cappadocian.source.basil-against-eunomius.md`: line 32 ("No open edition ... acquired") contradicts line 39 ("kind: vendored").
+- `records/cappadocian/term/cappadocian.term.epektasis.md` lines 21 to 22: the only source is "unacquired text", yet the record is rated Widely Accepted.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.

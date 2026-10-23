@@ -47,7 +47,7 @@ def used_meter(tmp_path):
 
 def test_meter_columns_name_nothing_personal_and_no_fine_time(used_meter):
     tables, _ = _tables(used_meter)
-    assert set(tables) == {"meter", "voided_payments", "state", "reconcile", "funds", "daily", "free_window", "pilot_joined"}
+    assert set(tables) == {"meter", "voided_payments", "state", "reconcile", "funds", "daily", "free_window", "account_window", "pilot_joined"}
     for table, columns in tables.items():
         for _cid, name, ctype, *_ in columns:
             assert not BANNED_NAME.search(name), f"{table}.{name}"

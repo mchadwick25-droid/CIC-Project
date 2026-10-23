@@ -25,12 +25,13 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
+from engine.api import accounts_routes, admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings, normalize_environ
+from engine.accounts.config import AccountsConfig
 from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
 from engine.feedback.store import FeedbackStore
-from engine.m4 import idle_close, session_code
+from engine.m4 import facilitator_turns, idle_close, session_code
 from engine.m4 import round as round_module
 from engine.m4 import turn as turn_module
 from engine.m4.projection import project_fresh
@@ -85,6 +86,33 @@ def _sse(event: str, data: dict) -> str:
     return f"event: {event}\ndata: {json.dumps(jsonable_encoder(data), ensure_ascii=False)}\n\n"
 
 
+BOUND_ROUTING_ACTION = "visitor_bound_turn"
+BOUND_ROUTING_REASON = "monthly count of unanswered messages reached"
+
+
+def _past_the_bound(state, is_table: bool, streamed: bool):
+    """The reply to a message past the monthly bound: the Facilitator's fixed line with the
+    redirect to real people in it, and no model call. Nothing is stored for the message."""
+    turn = facilitator_turns.visitor_bound_turn()
+    if is_table:
+        body = TableMessageResponse(
+            round_no=state.turn_count, round_open=state.round_open, routing_action=BOUND_ROUTING_ACTION,
+            routing_reason=BOUND_ROUTING_REASON, degraded=False, facilitator=[turn], turn_selected=None, voice=None,
+            position=None, turn_no=None, session_closed=False,
+        )
+    else:
+        body = MessageResponse(
+            turn_no=state.turn_count, routing_action=BOUND_ROUTING_ACTION, routing_reason=BOUND_ROUTING_REASON,
+            degraded=False, facilitator=turn, voice=None,
+        )
+    if streamed:
+        return StreamingResponse(
+            iter([_sse("done", body.model_dump())]), media_type="text/event-stream",
+            headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+        )
+    return body
+
+
 def _spoke(voice) -> bool:
     """Whether a voice turn carries words. A reply with none leaves no pair in
     the memory the next turn counts from, so it is not charged either: the round
@@ -93,7 +121,7 @@ def _spoke(voice) -> bool:
     return voice is not None and bool((text or "").strip())
 
 
-def _stream_turn(handle, done_body, voiced, session_id: str, started: float, admission=None) -> StreamingResponse:
+def _stream_turn(handle, done_body, voiced, session_id: str, started: float, admission=None, on_unvoiced=None) -> StreamingResponse:
     """One turn answered as an event stream: a "sentence" event for each
     sentence as the voice finishes writing it, with the marks the finished
     plan gives it (engine.m4.sentence_stream), and a final "done" event
@@ -116,6 +144,8 @@ def _stream_turn(handle, done_body, voiced, session_id: str, started: float, adm
         else:
             if admission is not None:
                 admission.finish(voiced(result))
+            if on_unvoiced is not None and not voiced(result):
+                on_unvoiced()
             events.put(("done", result))
 
     threading.Thread(target=run, daemon=True).start()
@@ -485,7 +515,6 @@ def _will_be_refused(state, text: str, request: Request, is_table: bool) -> bool
     return (
         (state.closed and state.close_reason != "idle")
         or len(text) > wiring.MAX_MESSAGE_LENGTH
-        or getattr(request.state, "daily_turn_cap_reached", False)
         or (is_table and state.round_open)
     )
 
@@ -507,8 +536,6 @@ def create_app(
     package_cache_dir: Path | None = None,
     anon_cap_enabled: bool = False,
     anon_visitor_secret: str | None = None,
-    anon_daily_session_limit: int = anon_cap.DEFAULT_DAILY_SESSION_LIMIT,
-    anon_daily_turn_limit: int = anon_cap.DEFAULT_DAILY_TURN_LIMIT,
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
@@ -517,6 +544,7 @@ def create_app(
     m7_audit_root: Path | None = None,
     admin_auth_store: admin_auth.AdminAuthStore | None = None,
     deeper: deeper_routes.DeeperRuntime | None = None,
+    accounts: accounts_routes.AccountsRuntime | None = None,
     build_commit: str | None = None,
     backup_staging_dir: Path | None = None,
     data_dir: Path | None = None,
@@ -550,19 +578,10 @@ def create_app(
     # (the last one registered ends up outermost and runs first), so
     # anon_cap is installed BEFORE ratelimit here on purpose - the cheap,
     # no-cookie-read burst check stays the actual first line a request
-    # meets (see anon_cap.install's own docstring for why that matters -
-    # a burst-rejected request should never reach anon_cap's daily-quota
-    # accounting at all).
+    # meets, and a burst-rejected request never mints a visitor token.
     app.state.deeper = deeper
     if anon_cap_enabled:
-        anon_cap.install(
-            app, secret=anon_visitor_secret, daily_session_limit=anon_daily_session_limit, daily_turn_limit=anon_daily_turn_limit,
-            exempt=(
-                (lambda request, is_create: deeper_admission.code_is_usable(deeper, request, strict=is_create))
-                if deeper is not None else None
-            ),
-            session_cap_facilitator_only=deeper is not None,
-        )
+        anon_cap.install(app, secret=anon_visitor_secret)
     if rate_limit:
         ratelimit.install(
             app, bucket_for=(lambda request: deeper_admission.burst_key(deeper, request)) if deeper is not None else None
@@ -604,14 +623,6 @@ def create_app(
             "disk_used_percent": _disk_used_percent(data_dir) if data_dir is not None else None,
         }
 
-    def _note_facilitator_only(request: Request, session_id: str) -> None:
-        if deeper is None:
-            return
-        if getattr(request.state, "facilitator_only_session", False):
-            deeper.facilitator_only_sessions.add(session_id)
-        if getattr(request.state, "paid_session", False):
-            deeper.paid_sessions.add(session_id)
-
     if deeper is not None:
         def _admin_check(request: Request, authorization: str | None) -> None:
             _authenticate_admin(
@@ -620,6 +631,9 @@ def create_app(
             )
 
         deeper_routes.install(app, deeper, authenticate_admin=_admin_check)
+
+    if accounts is not None:
+        accounts_routes.install(app, accounts)
 
     @app.get("/api/worlds", response_model=WorldListResponse)
     def list_worlds_endpoint(request: Request):
@@ -660,7 +674,6 @@ def create_app(
             except PackageRefused:
                 logger.warning("table session refused: package unavailable worlds=%s", req.world_keys)
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
-            _note_facilitator_only(request, session_id)
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
             return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
         if req.world_key is None:
@@ -685,7 +698,6 @@ def create_app(
         except PackageRefused:
             logger.warning("session refused: package unavailable world=%s", world_key)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
-        _note_facilitator_only(request, session_id)
         logger.info("session created session=%s mode=interview world=%s", session_id, world_key)
         return SessionCreateResponse(session_id=session_id, session_code=code)
 
@@ -696,15 +708,23 @@ def create_app(
         deps: Deps = request.app.state.deps
         state = _authenticate(deps.store, session_id, authorization)
         is_table = state.mode == "table"
-        if refused_limiter is not None and _will_be_refused(state, req.text, request, is_table):
-            if not refused_limiter.allow(ratelimit.network_of(ratelimit.client_ip(request))):
+        streamed = deps.streaming_enabled and "text/event-stream" in request.headers.get("accept", "")
+        bound = deeper_admission.MessageBoundCheck(deeper, request)
+        if bound.reached:
+            return _past_the_bound(state, is_table, streamed)
+        counted = False
+        if _will_be_refused(state, req.text, request, is_table):
+            if refused_limiter is not None and not refused_limiter.allow(ratelimit.network_of(ratelimit.client_ip(request))):
                 return JSONResponse(
                     status_code=429,
                     content={"detail": ratelimit.RETRY_DETAIL},
                     headers={"Retry-After": str(int(refused_limiter.window))},
                 )
+            # The safety check runs on this message and no voice follows.
+            bound.count()
+            counted = True
         admission = deeper_admission.new_admission(
-            deeper, request, session_id=session_id,
+            deeper, request,
             free_cap=round_module.TABLE_SESSION_ROUND_CAP if is_table else turn_module.SESSION_TURN_CAP,
             seats=len(state.world_keys) if is_table else 1,
         )
@@ -725,7 +745,6 @@ def create_app(
             self_revision_enabled=deps.self_revision_enabled,
             citation_attach_enabled=deps.citation_attach_enabled,
             qc_recorder=deps.qc_recorder,
-            daily_turn_cap_reached=getattr(request.state, "daily_turn_cap_reached", False),
             grant_for=admission.provider if admission is not None else None,
         )
         started = time.monotonic()
@@ -746,22 +765,27 @@ def create_app(
                     lambda on_sentence: table_wiring.handle_table_message(**call_kwargs, on_sentence=on_sentence),
                     lambda result: with_balance(TableMessageResponse(**asdict(result)).model_dump(), result),
                     lambda result: result.round_open or result.voice is not None,
-                    session_id, started, admission,
+                    session_id, started, admission, None if counted else bound.count,
                 )
 
             return _stream_turn(
                 lambda on_sentence: wiring.handle_message(**call_kwargs, on_sentence=on_sentence),
                 lambda result: with_balance(MessageResponse(**asdict(result)).model_dump(), result), lambda result: _spoke(result.voice), session_id, started, admission,
+                None if counted else bound.count,
             )
         voiced = False
         try:
             if is_table:
                 result = table_wiring.handle_table_message(**call_kwargs)
                 voiced = result.round_open or result.voice is not None
+                if not voiced and not counted:
+                    bound.count()
                 logger.info("table message handled ms=%d", (time.monotonic() - started) * 1000)
                 return TableMessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
             result = wiring.handle_message(**call_kwargs)
             voiced = _spoke(result.voice)
+            if not voiced and not counted:
+                bound.count()
         except Exception as exc:
             failure = _message_failure(exc, session_id)
             if failure is None:
@@ -1001,7 +1025,9 @@ def deeper_for_dev_server(data_dir: Path, usage_store, environ) -> dict | None:
 
 def backup_extra_dbs(settings: Settings, meter_db_path: str | None) -> dict[str, str]:
     """The databases beyond events, usage and quality control that the daily
-    backup copies: the feedback store always, the Go Deeper meter when it runs."""
+    backup copies: the feedback store always, the Go Deeper meter when it runs.
+    The accounts files are not here: backups are uploaded unencrypted, and the
+    accounts runbook requires an encrypted backup before the durable file joins."""
     extra = {"feedback": settings.feedback_db_path}
     if meter_db_path is not None:
         extra["meter"] = meter_db_path
@@ -1059,6 +1085,12 @@ def _build_real_app() -> FastAPI:
         deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ), usage_store=usage_store)
         deeper_routes.install_access_log_filter()
         deeper_routes.start_retention_thread(deeper_runtime)
+    accounts_config = AccountsConfig.from_env(str(data_dir))
+    accounts_runtime = None
+    if accounts_config.enabled:
+        accounts_runtime = accounts_routes.build_runtime(accounts_config, dict(os.environ))
+        accounts_routes.install_access_log_filter()
+        accounts_routes.start_retention_thread(accounts_runtime)
     backup_staging_dir = data_dir / "backups-staging"
     db_backup.start_background_scheduler(
         settings.events_db_path, settings.usage_db_path, backup_staging_dir,
@@ -1093,14 +1125,13 @@ def _build_real_app() -> FastAPI:
         package_cache_dir=settings.package_cache_dir,
         anon_cap_enabled=settings.anon_cap_enabled,
         anon_visitor_secret=settings.anon_visitor_secret,
-        anon_daily_session_limit=settings.anon_daily_session_limit,
-        anon_daily_turn_limit=settings.anon_daily_turn_limit,
         r27_enforce=settings.r27_enforce,
         self_revision_enabled=settings.self_revision_enabled,
         citation_attach_enabled=settings.citation_attach_enabled,
         qc_recorder=qc_recorder,
         streaming_enabled=settings.streaming_enabled,
         deeper=deeper_runtime,
+        accounts=accounts_runtime,
         build_commit=os.environ.get("RENDER_GIT_COMMIT"),
         backup_staging_dir=backup_staging_dir,
         data_dir=data_dir,

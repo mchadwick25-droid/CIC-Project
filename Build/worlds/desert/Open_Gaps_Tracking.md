@@ -965,3 +965,17 @@ Still open:
 ### OG-36. The Atlas page has not had the final independent check, 2026-10-18.
 
 On 17 October independent read-only reviewers checked the live Atlas page of ten traditions against their records, the vendored texts and the place data, and checked reading level and AI tells (`Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). Their fixes merged in the pull request "Atlas final-check fixes for ten tradition pages, 2026-10-17". Desert's new story, card stories and recordings went live at 23:34 that day, after those reviews ran, so the Desert page is the one live Atlas page without that check. Nothing is known to be wrong on it. Next step: one independent read-only review of the live Desert page by the same method, then fix and repin anything blocking. Status: OPEN, for the project lead to schedule.
+
+### OG-37. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-desert-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 13 own-voice, 20 outsider's account voiced as the world's own (16 resting on Athanasius's Life of Antony, 4 on the Macarian Homilies), 6 unsupported, 2 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `desert.dw.god` line 31 ("our ordinary way of holding it was refusal") generalises one figure in Athanasius to everyone.
+- `desert.dw.jesus` voices Athanasius's narrative as the collective "we argued, we told those who came to test us".
+- `desert.dw.the-heart-and-the-spirit` line 28 ("we carried another current"): no record shows desert monks carried these homilies in the window; the author is not a desert monk.
+- `desert.dw.strangest` line 34, "did not return to his father's house"; the Vita says only "outside his house".
+- `desert.force.martyrdom-unavailable` is rated Documented, but its own note says no source states the equivalence it describes.
+- Register: the Life of Antony quote records are tagged `register: emic`, but Athanasius was a bishop in Alexandria, not a desert monk.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.

@@ -1154,9 +1154,7 @@ def run_turn(
     other_tradition_known_in_window: bool | None = None,
     other_tradition_revealed: list[tuple[str, str]] | None = None,
     self_revision_enabled: bool = True,
-    daily_cap_reached: bool = False,
     turn_cap: int | None = None,
-    facilitator_only: bool = False,
     limit_text: str | None = None,
     on_sentence: Callable[[dict], None] | None = None,
     citation_attach_enabled: bool = False,
@@ -1207,16 +1205,9 @@ def run_turn(
     the same offenses) - see that function's own docstring for the
     enforcement's shape. The flag defaults off.
 
-    daily_cap_reached is engine.api.anon_cap's verdict that this visitor
-    has used today's message allowance. It closes the session the same way
-    the session turn cap does, at the same point, and a real crisis is
-    exempt from it the same way.
-
-    turn_cap is how many completed voice turns this sitting may hold, and
-    facilitator_only makes the sitting answer through the Facilitator with no
-    voice call; both come from engine.m4.grants and default to the free
-    allowance. A sitting held to either limit still gives a safety route its
-    Facilitator turn.
+    turn_cap is how many completed voice turns this sitting may hold. It
+    comes from engine.m4.grants and defaults to the free allowance. A sitting
+    held to it still gives a safety route its Facilitator turn.
 
     on_sentence is passed to the two plain voice routes only. The bridge
     route is left out on purpose: its Facilitator turn is read before the
@@ -1258,13 +1249,6 @@ def run_turn(
     # dependency check are safety turns too, and a limit must never turn
     # them away (System Hub decision 35).
     is_safety_route = action in SAFETY_ROUTES
-    if not is_safety_route and (daily_cap_reached or facilitator_only):
-        return TurnResult(
-            routing_action="session_cap_turn", routing_reason="visitor daily message cap reached",
-            gate=gate, safety_state_events=safety_states,
-            facilitator_events=[facilitator_turns.daily_cap_turn(limit_text)],
-            degraded=gate_result.degraded, usage_records=usage_records,
-        )
     turn_cap = SESSION_TURN_CAP if turn_cap is None else turn_cap
     if not is_safety_route and len(history or []) // 2 >= turn_cap:
         return TurnResult(
