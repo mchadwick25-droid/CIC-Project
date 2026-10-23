@@ -1,0 +1,22 @@
+source_file: brueys_histoire-du-fanatisme-t1-t2-fra_1755.txt
+assignments:
+- row_id: brueys_histoire-du-fanatisme-t1-t2-fra_1755--histoire-du-fanatisme-de-notre-tems-t-i-ii-1755-edition
+  work: Histoire du fanatisme de notre tems, t. I-II (1755 edition)
+  author: brueys
+  locus: both tomes
+  atlas_ids:
+  - camisard-prophetism
+  role: context
+  confidence: assigned
+  note: The persecutors' reading of the prophets as fraud and sedition; the main source on Isabeau Vincent
+    from outside, to be read against Misson.
+- row_id: brueys_histoire-du-fanatisme-t1-t2-fra_1755--histoire-du-fanatisme-de-notre-tems-t-i-book-one-1755
+  work: Histoire du fanatisme de notre tems, t. I, book one (1755 edition)
+  author: brueys
+  locus: tome one, book one (the prophets of Dauphiné and Vivarais, 1688-1689)
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: context
+  confidence: provisional
+  note: The first years after the Revocation from the convert's side; the Desert's prophetic beginnings
+    before Court.

@@ -1,0 +1,11 @@
+source_file: pascal_provincial-letters_mcrie1856.txt
+assignments:
+- row_id: pascal_provincial-letters_mcrie1856--the-provincial-letters-tr-m-crie-1856
+  work: The Provincial Letters, tr. M'Crie (1856)
+  author: pascal
+  locus: the eighteen letters; M'Crie's introduction and notes excluded
+  atlas_ids:
+  - port-royal-jansenism
+  role: tradition
+  confidence: assigned
+  note: The same letters in English; the translator's Protestant framing stays outside the assignment.

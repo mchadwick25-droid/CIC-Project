@@ -1,0 +1,22 @@
+source_file: watts_hymns-and-spiritual-songs-ninth-edition_1725.txt
+assignments:
+- row_id: watts_hymns-and-spiritual-songs-ninth-edition_1725--hymns-and-spiritual-songs-1707-ninth-edition-1725
+  work: Hymns and Spiritual Songs (1707; ninth edition 1725)
+  author: watts
+  locus: whole work
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: assigned
+  note: The Dissenting hymn as Watts made it; what Old Dissent sang.
+- row_id: watts_hymns-and-spiritual-songs-ninth-edition_1725--hymns-and-spiritual-songs-as-sung-beyond-dissent
+  work: Hymns and Spiritual Songs as sung beyond Dissent
+  author: watts
+  locus: whole work
+  atlas_ids:
+  - the-methodist-revival
+  - the-evangelical-awakening-in-new-england
+  role: transmission
+  confidence: provisional
+  note: Watts's hymns were taken up by the evangelical revivals on both sides of the Atlantic; provisional
+    for those worlds until their own texts show the use.

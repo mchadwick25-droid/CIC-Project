@@ -11,6 +11,16 @@ works:
   confidence: assigned
   note: A second Newport laywoman's own letters.
   source_file: osborn-sarah_familiar-letters-with-susanna-anthony_1807.txt
+- row_id: backus-isaac_appeal-to-the-public-for-religious-liberty_1773--an-appeal-to-the-public-for-religious-liberty-1773-as-a
+  work: An Appeal to the Public for Religious Liberty (1773) as a witness to the New England
+    standing order
+  author: backus-isaac
+  locus: the passages on the ministers' tax and the cases cited
+  role: context
+  confidence: provisional
+  note: A New England Baptist's evidence of how the Massachusetts establishment treated dissenters
+    after the Awakening. Provisional for the New England world.
+  source_file: backus-isaac_appeal-to-the-public-for-religious-liberty_1773.txt
 - row_id: blair-samuel_short-and-faithful-narrative-of-the-revival-at-new-londonderry_1744--a-short-and-faithful-narrative-of-the-late-remarkable
   work: A Short and Faithful Narrative of the late remarkable Revival of Religion at New-Londonderry
     (Blair, 1744)
@@ -38,6 +48,15 @@ works:
   note: The opposition from inside the New England ministry; context, not the revival's voice,
     and the answer Edwards's Some Thoughts drew.
   source_file: chauncy_seasonable-thoughts-on-the-state-of-religion-in-new-england_1743.txt
+- row_id: chauncy_mystery-hid-from-ages-and-generations_1784--the-mystery-hid-from-ages-and-generations-1784-2
+  work: The Mystery hid from Ages and Generations (1784)
+  author: chauncy
+  locus: whole work
+  role: transmission
+  confidence: provisional
+  note: The awakening's chief opponent forty years on; shows where Old Light liberalism led.
+    Out of the awakening's window, so transmission.
+  source_file: chauncy_mystery-hid-from-ages-and-generations_1784.txt
 - row_id: christian-history_weekly-accounts-of-the-revival_prince1744--the-christian-history-prince-1743-1744-the-ministers
   work: 'The Christian History (Prince, 1743-1744): the ministers'' accounts of the revival
     in their own towns'
@@ -145,6 +164,14 @@ works:
   note: The younger Edwards, raised at Stockbridge among the Mohicans, on their language;
     context for the mission world, not revival voice. Provisional.
   source_file: occom_sermon-at-the-execution-of-moses-paul_1788.txt
+- row_id: edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790--the-salvation-of-all-men-strictly-examined-1790-2
+  work: The Salvation of All Men strictly examined (1790)
+  author: edwards-jonathan-jr
+  locus: whole work
+  role: transmission
+  confidence: provisional
+  note: The awakening's theological heirs answering its old opponent; out of window, so transmission.
+  source_file: edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790.txt
 - row_id: osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799--memoirs-of-the-life-of-mrs-sarah-osborn-hopkins-s-compiling
   work: Memoirs of the Life of Mrs. Sarah Osborn (Hopkins's compiling narrative, 1799)
   author: hopkins-samuel
@@ -164,6 +191,14 @@ works:
     against during the Awakening years; a neighbouring revival body as the colonies saw it.
     Provisional.
   source_file: loskiel_history-of-mission-among-indians_latrobe1794.txt
+- row_id: mayhew_seven-sermons_1749--seven-sermons-1749-2
+  work: Seven Sermons (1749)
+  author: mayhew
+  locus: whole work
+  role: context
+  confidence: provisional
+  note: A liberal reaction to the awakening's appeal to feeling, in the awakening's own decade.
+  source_file: mayhew_seven-sermons_1749.txt
 - row_id: occom_sermon-at-the-execution-of-moses-paul_1788--a-sermon-at-the-execution-of-moses-paul-an-indian-occom-1772
   work: A Sermon at the Execution of Moses Paul, an Indian (Occom, 1772)
   author: occom
@@ -200,6 +235,15 @@ works:
   note: The middle-colony revival's leading preacher in his own sermons; the census's Tennents
     in print.
   source_file: tennent-gilbert_twenty-three-sermons_bradford1744.txt
+- row_id: watts_hymns-and-spiritual-songs-ninth-edition_1725--hymns-and-spiritual-songs-as-sung-beyond-dissent
+  work: Hymns and Spiritual Songs as sung beyond Dissent
+  author: watts
+  locus: whole work
+  role: transmission
+  confidence: provisional
+  note: Watts's hymns were taken up by the evangelical revivals on both sides of the Atlantic;
+    provisional for those worlds until their own texts show the use.
+  source_file: watts_hymns-and-spiritual-songs-ninth-edition_1725.txt
 - row_id: wheatley_poems-on-various-subjects-religious-and-moral_bell1773--poems-on-various-subjects-religious-and-moral-wheatley-1773
   work: Poems on Various Subjects, Religious and Moral (Wheatley, 1773)
   author: wheatley

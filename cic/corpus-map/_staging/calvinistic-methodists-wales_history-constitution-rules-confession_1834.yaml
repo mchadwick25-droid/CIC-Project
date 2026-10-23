@@ -1,0 +1,30 @@
+source_file: calvinistic-methodists-wales_history-constitution-rules-confession_1834.txt
+authors_ruled:
+  calvinistic-methodists-wales:
+    kind: metadata-omission
+    evidence: 'Institutional slug: the title page reads ''drawn up by their own associated ministers''
+      and names no individual; the host''s creator field reads ''Welsh Calvinistic Methodist Church''.
+      cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: calvinistic-methodists-wales_history-constitution-rules-confession_1834--constitution-and-church-government-rules-of-discipline-first
+  work: Constitution and Church Government; Rules of Discipline (first printed 1801)
+  author: calvinistic-methodists-wales
+  locus: the constitution and the rules of discipline
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: assigned
+  note: The private society, monthly meeting and association as the connexion itself defined them; the
+    census's 'seiadau rules' in print.
+- row_id: calvinistic-methodists-wales_history-constitution-rules-confession_1834--history-and-confession-of-faith-1823-english-1827-1834
+  work: History and Confession of Faith (1823; English 1827/1834)
+  author: calvinistic-methodists-wales
+  locus: the history and the confession
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: transmission
+  confidence: provisional
+  note: The connexion's own history and its first confession, drawn up eight years after the window closes;
+    reception of the revival by its heirs.

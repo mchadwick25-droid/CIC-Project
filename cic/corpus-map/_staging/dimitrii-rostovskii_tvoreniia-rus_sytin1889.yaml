@@ -1,0 +1,20 @@
+source_file: dimitrii-rostovskii_tvoreniia-rus_sytin1889.txt
+assignments:
+- row_id: dimitrii-rostovskii_tvoreniia-rus_sytin1889--selections
+  work: Творения святаго Димитрия, митрополита Ростовскаго (selections)
+  author: dimitrii-rostovskii
+  locus: the selections from his works; the editor's life is a separate witness
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: tradition
+  confidence: assigned
+  note: The church's preacher and hagiographer of the Petrine years in his own words.
+- row_id: dimitrii-rostovskii_tvoreniia-rus_sytin1889--selections-2
+  work: Творения святаго Димитрия, митрополита Ростовскаго (selections)
+  author: dimitrii-rostovskii
+  locus: the selections from his works
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: transmission
+  confidence: provisional
+  note: A Kyiv-Mohyla product carried into the Russian church; provisional for the Kyivan world.

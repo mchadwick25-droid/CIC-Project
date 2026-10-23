@@ -1,0 +1,29 @@
+source_file: french-church-of-london_examen-du-theatre-sacre-fra_1708.txt
+authors_ruled:
+  french-church-of-london:
+    kind: anonymous
+    evidence: 'No author is legible on the title page; the host''s catalogue heading is ''Eglise Françoise
+      de Londres. Consistory''. Institutional slug. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: french-church-of-london_examen-du-theatre-sacre-fra_1708--examen-du-theatre-sacre-des-cevennes-1708
+  work: Examen du Théâtre sacré des Cévennes (1708)
+  author: french-church-of-london
+  locus: whole pamphlet
+  atlas_ids:
+  - camisard-prophetism
+  role: context
+  confidence: assigned
+  note: The refugee consistory against the prophets; the split inside the Huguenot world over the inspirations.
+- row_id: french-church-of-london_examen-du-theatre-sacre-fra_1708--examen-du-theatre-sacre-des-cevennes-1708-2
+  work: Examen du Théâtre sacré des Cévennes (1708)
+  author: french-church-of-london
+  locus: whole pamphlet
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: context
+  confidence: provisional
+  note: The orthodox Reformed rejection of the inspirations that Antoine Court's restored church would
+    later make its own line.

@@ -1,0 +1,12 @@
+source_file: lowndes_nuns-of-port-royal-own-narratives_1909.txt
+assignments:
+- row_id: lowndes_nuns-of-port-royal-own-narratives_1909--the-nuns-of-port-royal-as-seen-in-their-own-narratives-1909
+  work: The Nuns of Port Royal as seen in their own Narratives (1909)
+  author: lowndes
+  locus: the whole book; the quoted extracts from the nuns' narratives are the primary content
+  atlas_ids:
+  - port-royal-jansenism
+  role: context
+  confidence: assigned
+  note: Scholarship, placed as context; its value is the translated extracts, which a reader should check
+    against the French Relations before quoting.

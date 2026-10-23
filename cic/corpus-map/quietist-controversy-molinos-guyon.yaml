@@ -3,6 +3,133 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: quietist-controversy-molinos-guyon
 works:
+- row_id: bossuet_instruction-sur-les-etats-d-oraison-fra_1697--instruction-sur-les-etats-d-oraison-1697
+  work: Instruction sur les états d'oraison (1697)
+  author: bossuet
+  locus: the treatise and the appended acts of condemnation
+  role: context
+  confidence: assigned
+  note: The opposing principal's theology; hostile to the world's own voice, and the frame
+    Rome largely followed.
+  source_file: bossuet_instruction-sur-les-etats-d-oraison-fra_1697.txt
+- row_id: bossuet_relation-sur-le-quietisme-fra_1698--relation-sur-le-quietisme-1698
+  work: Relation sur le Quiétisme (1698)
+  author: bossuet
+  locus: the whole Relation
+  role: context
+  confidence: assigned
+  note: The opponent's narrative, polemical by design; it also preserves passages of Guyon
+    and Fénelon that survive this way.
+  source_file: bossuet_relation-sur-le-quietisme-fra_1698.txt
+- row_id: burnet_three-letters-present-state-of-italy_1688--three-letters-concerning-the-present-state-of-italy-letter-i
+  work: Three Letters concerning the Present State of Italy, letter I (1688)
+  author: burnet
+  locus: the first letter, on Molinos and the Quietists; letters II and III as background
+    on the Inquisition and Italian states
+  role: context
+  confidence: assigned
+  note: An outside Protestant witness, written in Italy in 1687; it reads the affair through
+    English anti-Inquisition eyes.
+  source_file: burnet_three-letters-present-state-of-italy_1688.txt
+- row_id: denzinger_enchiridion-symbolorum-lat_bannwart1911--coelestis-pastor-1687-errors-of-molinos-cum-alias-1699
+  work: Coelestis Pastor (1687), errors of Molinos; Cum alias (1699), errors on pure love
+  author: denzinger
+  locus: the paragraphs headed 'Errores Michaelis de Molinos' (Innocent XI) and 'Errores de
+    amore erga Deum purissimo' (Innocent XII)
+  role: context
+  confidence: assigned
+  note: The condemned-proposition lists, which the census warns reflect the prosecutor's framing.
+  source_file: denzinger_enchiridion-symbolorum-lat_bannwart1911.txt
+- row_id: fenelon_explication-maximes-des-saints-fra_cherel1911--explication-des-maximes-des-saints-1697-ed-cherel
+  work: Explication des Maximes des Saints (1697), ed. Cherel
+  author: fenelon
+  locus: the Avertissement and the articles; Cherel's preface, introduction and notes excluded
+  role: tradition
+  confidence: assigned
+  note: Fénelon's doctrine of pure love, the text Rome condemned; one principal of the contest
+    in his own words.
+  source_file: fenelon_explication-maximes-des-saints-fra_cherel1911.txt
+- row_id: innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699--fenelon-mandement-of-submission-and-letter-to-innocent-xii
+  work: Fénelon, Mandement of submission and letter to Innocent XII (1699)
+  author: fenelon
+  locus: the Mandement and the letter to the Pope
+  role: tradition
+  confidence: assigned
+  note: Fénelon's own words of submission, the census's closing scene.
+  source_file: innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699.txt
+- row_id: fenelon_reponses-a-la-declaration-fra_1698--reponses-a-la-declaration-des-trois-eveques-et-a-la-summa-de
+  work: Réponses à la Déclaration des trois évêques et à la Summa de M. de Meaux (1698)
+  author: fenelon
+  locus: the Réponses; the quoted Declaration paragraphs as the bishops' text
+  role: tradition
+  confidence: assigned
+  note: Fénelon's own defence of pure love while the case was before Rome.
+  source_file: fenelon_reponses-a-la-declaration-fra_1698.txt
+- row_id: fenelon_maxims-of-the-saints_1698--the-maxims-of-the-saints-explained-english-translation-1698
+  work: The Maxims of the Saints explained, English translation (1698)
+  author: fenelon
+  locus: the Maxims and Fénelon's letter to the Pope; the Issy articles, the bishops' Declaration
+    and the King's letter as the opposing party's documents
+  role: tradition
+  confidence: assigned
+  note: Both parties' documents in contemporary English; the Declaration and the King's letter
+    are Bossuet's side and should be read as such.
+  source_file: fenelon_maxims-of-the-saints_1698.txt
+- row_id: guyon_short-method-spiritual-torrents_marston1875--a-short-method-of-prayer-and-spiritual-torrents-tr-marston
+  work: A Short Method of Prayer and Spiritual Torrents, tr. Marston (1875)
+  author: guyon
+  locus: the two treatises; the translator's preface excluded
+  role: tradition
+  confidence: assigned
+  note: Guyon's method of prayer in English; the Protestant preface belongs to the later reception,
+    not to her.
+  source_file: guyon_short-method-spiritual-torrents_marston1875.txt
+- row_id: guyon_autobiography-v1_allen1897--autobiography-la-vie-ecrite-par-elle-meme-tr-allen-vol-i
+  work: Autobiography (La Vie écrite par elle-même), tr. Allen, vol. I (1897)
+  author: guyon
+  locus: the autobiography; Allen's introduction excluded
+  role: tradition
+  confidence: assigned
+  note: Guyon's own voice; written at her directors' order and revised in prison, as the census
+    warns, so it is an advocate's self-account.
+  source_file: guyon_autobiography-v1_allen1897.txt
+- row_id: guyon_autobiography-v2_allen1897--autobiography-la-vie-ecrite-par-elle-meme-tr-allen-vol-ii
+  work: Autobiography (La Vie écrite par elle-même), tr. Allen, vol. II (1897)
+  author: guyon
+  locus: the autobiography
+  role: tradition
+  confidence: assigned
+  note: The controversy itself as Guyon lived and told it; her account of Bossuet stands beside
+    his Relation.
+  source_file: guyon_autobiography-v2_allen1897.txt
+- row_id: guyon_vie-ecrite-par-elle-meme-t3-fra_1791--la-vie-ecrite-par-elle-meme-tome-iii-1791-edition
+  work: La Vie écrite par elle-même, tome III (1791 edition)
+  author: guyon
+  locus: the third part of the Life
+  role: tradition
+  confidence: assigned
+  note: Guyon's own French for the years of the Paris controversy and her imprisonments.
+  source_file: guyon_vie-ecrite-par-elle-meme-t3-fra_1791.txt
+- row_id: guyon_opuscules-spirituels-t1-fra_1790--moyen-court-et-tres-facile-de-faire-oraison-courte-apologie
+  work: Moyen court et très facile de faire oraison; Courte apologie; Les Torrens spirituels
+    (1790 edition)
+  author: guyon
+  locus: the three treatises; the editor's general preface and Falconi's letter as their own
+    works
+  role: tradition
+  confidence: assigned
+  note: The book Bossuet attacked, in Guyon's own words, with her defence of it.
+  source_file: guyon_opuscules-spirituels-t1-fra_1790.txt
+- row_id: innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699--cum-alias-12-march-1699-with-the-assemblies-proces-verbaux
+  work: Cum alias (12 March 1699), with the assemblies' procès-verbaux
+  author: innocent-xii
+  locus: the brief in Latin and French, the Systema, the procès-verbaux, the King's Declaration
+    and the Paris Mandement
+  role: context
+  confidence: assigned
+  note: The institutional condemnation, a hostile source by the census's own terms; it also
+    records how the French church received it.
+  source_file: innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699.txt
 - row_id: john-of-the-cross_dark-night-canticle-living-flame_lewis1891--quietism
   work: The Dark Night, Spiritual Canticle and Living Flame (as the books the Quietists and
     their opponents argued over)
@@ -14,3 +141,21 @@ works:
     and this entry has none vendored. Held as needs-ruling until the quietism entry has sources
     that cite John.
   source_file: john-of-the-cross_dark-night-canticle-living-flame_lewis1891.txt
+- row_id: molinos_guida-spirituale-ita_1678--guida-spirituale-1675-venice-1678
+  work: Guida spirituale (1675; Venice 1678)
+  author: molinos
+  locus: the three books and the Treatise on daily communion; the approbations as their own
+    witnesses
+  role: tradition
+  confidence: assigned
+  note: The controversy's founding text in Molinos's own words, before the trial.
+  source_file: molinos_guida-spirituale-ita_1678.txt
+- row_id: molinos_spiritual-guide_1688--the-spiritual-guide-english-translation-1688
+  work: The Spiritual Guide, English translation (1688)
+  author: molinos
+  locus: the Guide and the Treatise of daily communion; the translator's preface excluded
+  role: tradition
+  confidence: assigned
+  note: The same book in contemporary English; the anonymous translator's preface is an English
+    Protestant reading of the affair and stays outside the assignment.
+  source_file: molinos_spiritual-guide_1688.txt

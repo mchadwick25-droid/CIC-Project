@@ -1,0 +1,58 @@
+source_file: rippon_baptist-annual-register-1790-1793_1793.txt
+authors_ruled:
+  liele-george:
+    kind: metadata-omission
+    evidence: 'The register quotes ''George Liele, called also George Sharp'', ''in a letter dated Kingston,
+      Dec. 18, 1791'', in his own first person, and prints further letters under his name. The host names
+      only the editor, John Rippon. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+  george-david:
+    kind: metadata-omission
+    evidence: 'The register prints ''An Account of the Life of Mr. David George'', in his own first person.
+      The host names only the editor, John Rippon. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: rippon_baptist-annual-register-1790-1793_1793--george-liele-s-letters-from-kingston-jamaica-1791-1793
+  work: George Liele's letters from Kingston, Jamaica (1791-1793)
+  author: liele-george
+  locus: the passages headed with Liele's name
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: A formerly enslaved preacher's own account of the first Black Baptist churches in Georgia and
+    of his church in Kingston; census-named.
+- row_id: rippon_baptist-annual-register-1790-1793_1793--an-account-of-the-life-of-mr-david-george-1793
+  work: An Account of the Life of Mr. David George (1793)
+  author: george-david
+  locus: David George's narrative
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The Silver Bluff convert's own narrative of Nova Scotia and Sierra Leone; census-named.
+- row_id: rippon_baptist-annual-register-1790-1793_1793--george-liele-s-letters-and-david-george-s-narrative-1791
+  work: George Liele's letters and David George's narrative (1791-1793) as the beginning of the Black
+    Baptist churches
+  author: liele-george
+  locus: the Liele letters and the David George narrative
+  atlas_ids:
+  - the-black-church-in-america
+  role: antecedent
+  confidence: provisional
+  note: The census says the Black Baptist thread carries forward into its own parent entry; these are
+    its earliest own-voice texts. Provisional; David George's narrative is under his own slug in the row
+    above.
+- row_id: rippon_baptist-annual-register-1790-1793_1793--the-baptist-annual-register-1790-1793-association-letters
+  work: 'The Baptist Annual Register, 1790-1793: association letters, church lists, the Baptist Missionary
+    Society papers'
+  author: rippon
+  locus: the rest of the register
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The denomination reporting on itself in the years of the BMS founding, which the census calls
+    the record's own hinge.

@@ -1,0 +1,16 @@
+source_file: blair-robertson_philippine-islands-v44_1906.txt
+assignments:
+- row_id: blair-robertson_philippine-islands-v44_1906--the-philippine-islands-vol-xliv-1700-1736-the-documents
+  work: 'The Philippine Islands, vol. XLIV (1700-1736): the documents'
+  author: blair-robertson
+  locus: Murillo Velarde's Jesuit missions, the 1701 report, the Bustamante documents; the commerce treatise
+    excluded
+  atlas_ids:
+  - philippine-catholicism-era-8
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation; the colonial
+    church''s voice, not Filipino lay Christians''. Quotations are the translators'' wording and need
+    the Spanish where the corpus has it.
+
+    '

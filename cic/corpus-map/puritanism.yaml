@@ -116,6 +116,15 @@ works:
 
     '
   source_file: barlow-william_summe-and-substance-hampton-court-conference_1804.txt
+- row_id: baxter_reliquiae-baxterianae_sylvester1696--reliquiae-baxterianae-part-i-the-civil-war-and-interregnum
+  work: 'Reliquiae Baxterianae, Part I: the Civil War and Interregnum'
+  author: baxter
+  locus: Part I
+  role: tradition
+  confidence: provisional
+  note: Baxter's Puritan ministry at Kidderminster and the army years, before the world's
+    window opens in 1662; provisional for the Puritanism world.
+  source_file: baxter_reliquiae-baxterianae_sylvester1696.txt
 - row_id: beza_job-expounded_legatt1589--job-expounded-in-english-for-the-godly-reader-1589-puritanism
   work: Job Expounded by Theodore Beza, in the 1589 English translation printed by John Legatt,
     Cambridge

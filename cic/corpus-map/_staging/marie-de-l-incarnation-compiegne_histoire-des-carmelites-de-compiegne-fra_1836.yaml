@@ -1,0 +1,20 @@
+source_file: marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836.txt
+authors_ruled:
+  marie-de-l-incarnation-compiegne:
+    kind: metadata-omission
+    evidence: 'The title page reads ''ouvrage posthume de la Sœur Marie de l''Incarnation, carmélite du
+      même monastère''. A new slug, distinguished by place from Marie de l''Incarnation of Quebec. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836--histoire-des-religieuses-carmelites-de-compiegne-posthumous
+  work: Histoire des religieuses carmélites de Compiègne (posthumous, 1836)
+  author: marie-de-l-incarnation-compiegne
+  locus: the narrative and documents; the publisher's catalogue excluded
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: The community's own witness to its martyrdom, by its surviving sister; the source the census story
+    rests on.

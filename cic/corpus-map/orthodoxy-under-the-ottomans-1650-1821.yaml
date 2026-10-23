@@ -3,6 +3,25 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: orthodoxy-under-the-ottomans-1650-1821
 works:
+- row_id: covel_some-account-of-the-present-greek-church_1722--some-account-of-the-present-greek-church-covel-1722
+  work: Some Account of the Present Greek Church (Covel, 1722)
+  author: covel
+  locus: whole work
+  role: context
+  confidence: assigned
+  note: A Protestant chaplain's eyewitness and polemic on the Greek church's teaching after
+    1672; hostile, informed, and in the window.
+  source_file: covel_some-account-of-the-present-greek-church_1722.txt
+- row_id: curzon_visits-to-monasteries-in-the-levant_1849--visits-to-monasteries-in-the-levant-1849-the-greek
+  work: 'Visits to Monasteries in the Levant (1849): the Greek monasteries of the Meteora,
+    Albania and Constantinople'
+  author: curzon
+  locus: the parts outside Athos dealing with Greek Orthodox houses
+  role: context
+  confidence: provisional
+  note: Greek monastic life under Ottoman rule in the 1830s, just after that world's window;
+    provisional.
+  source_file: curzon_visits-to-monasteries-in-the-levant_1849.txt
 - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--dapontes-chronographos-and-historikos-katalogos
   work: Kaisarios Dapontes, Chronographos (section A) and Historikos Katalogos andron episemon,
     1700-1784 (section B), Greek
@@ -156,6 +175,17 @@ works:
 
     '
   source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911--documents-on-the-orthodox-patriarch-sylvester-and-the
+  work: Documents on the Orthodox patriarch Sylvester and the Ottoman authorities' measures
+    against the Catholic party (Mansi 46)
+  author: mansi
+  locus: the passages and documents of 1724-1760s reporting Sylvester's actions and the Porte's
+    orders
+  role: context
+  confidence: provisional
+  note: The Orthodox side of the split seen through Catholic and Roman reports; context for
+    Ottoman-era Orthodoxy, provisional and one-sided.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-4
   work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
   author: mogila
@@ -216,6 +246,47 @@ works:
   note: Placed on the entry's window (1650-1821). Same reasoning as volume 1; second witness
     only.
   source_file: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt
+- row_id: paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914--istoriia-slavianobolgarskaia-paisii-of-hilendar-1762
+  work: Istoriia slavianobolgarskaia (Paisii of Hilendar, 1762)
+  author: paisii-hilendarski
+  locus: Paisii's prefaces and chapters; Ivanov's editorial matter excluded
+  role: tradition
+  confidence: provisional
+  note: An Athonite monk of the Ottoman Orthodox church writing against Greek dominance of
+    the Slav flocks; provisional because his book is also the founding text of a national
+    revival that belongs partly to later Balkan worlds.
+  source_file: paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt
+- row_id: gedeon_kanonikai-diataxeis-v1-grc_1888--patriarchal-ordinances-letters-and-synodal-rulings-of
+  work: Patriarchal ordinances, letters and synodal rulings of Constantinople, 1650-1821 (Gedeon,
+    Kanonikai diataxeis I)
+  author: patriarchate-of-constantinople
+  locus: the acts dated from the 1650s to 1821, the greater part of the volume (for example
+    the act of 1676 near raw scan line 2373, the acts of 1789-1797 from about line 10600,
+    Gregory V's of 1798 near line 16657)
+  role: tradition
+  confidence: assigned
+  note: 'The Great Church legislating for its flock under the sultans: marriage, dowry, penance,
+    monastic order and clergy discipline in the patriarchs'' own decrees.'
+  source_file: gedeon_kanonikai-diataxeis-v1-grc_1888.txt
+- row_id: paul-of-aleppo_travels-of-macarius-v1_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-1-aleppo-to
+  work: 'The Travels of Macarius (Paul of Aleppo), vol. 1: Aleppo to Constantinople, Moldavia
+    and Wallachia'
+  author: paul-of-aleppo
+  locus: Books I-IV; the translator's dedication excluded
+  role: tradition
+  confidence: assigned
+  note: An Orthodox archdeacon describing the Orthodox millet's patriarchate, bishops, Phanariot-era
+    princes and worship from inside, in the early 1650s.
+  source_file: paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt
+- row_id: paul-of-aleppo_travels-of-macarius-v2_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-2-the-return
+  work: 'The Travels of Macarius (Paul of Aleppo), vol. 2: the return through the Cossack
+    lands and Wallachia'
+  author: paul-of-aleppo
+  locus: Books XV-XVI and the Wallachian passages
+  role: tradition
+  confidence: assigned
+  note: The Orthodox principalities under Ottoman suzerainty seen by a Syrian Orthodox churchman.
+  source_file: paul-of-aleppo_travels-of-macarius-v2_belfour1836.txt
 - row_id: rycaut_present-state-greek-armenian-churches_1679--the-present-state-of-the-greek-and-armenian-churches-anno-2
   work: The Present State of the Greek and Armenian Churches, Anno Christi 1678
   author: rycaut
@@ -304,3 +375,32 @@ works:
   note: The same traveller on the Ottoman capital and on Georgian Christians; provisional,
     not read for that entry.
   source_file: tournefort_voyage-into-the-levant-v2_1718.txt
+- row_id: volney_travels-through-syria-and-egypt-v2_1788--travels-through-syria-and-egypt-vol-2-volney-1788-the
+  work: 'Travels through Syria and Egypt, vol. 2 (Volney, 1788): the pashaliks and the Christians
+    of Aleppo, Damascus and the coast'
+  author: volney
+  locus: the chapters on the pashaliks
+  role: context
+  confidence: provisional
+  note: The civil setting of both halves of the Antiochian church in the 1780s; provisional
+    for each.
+  source_file: volney_travels-through-syria-and-egypt-v2_1788.txt
+- row_id: walsh_residence-at-constantinople-v1_1836--a-residence-at-constantinople-vol-1-walsh-1836-the
+  work: 'A Residence at Constantinople, vol. 1 (Walsh, 1836): the Patriarchate and the events
+    of 1821'
+  author: walsh
+  locus: the chapters on the Patriarchate, the pastoral address and anathema, and the execution
+    of the Patriarch and bishops
+  role: context
+  confidence: assigned
+  note: The British chaplain's account of the millet church's last act in this window, from
+    the city itself.
+  source_file: walsh_residence-at-constantinople-v1_1836.txt
+- row_id: walsh_residence-at-constantinople-v2_1836--a-residence-at-constantinople-vol-2-walsh-1836-2
+  work: A Residence at Constantinople, vol. 2 (Walsh, 1836)
+  author: walsh
+  locus: passages looking back to 1821 and the Patriarchate
+  role: context
+  confidence: provisional
+  note: Retrospective passages on the 1821 events; provisional.
+  source_file: walsh_residence-at-constantinople-v2_1836.txt

@@ -130,6 +130,15 @@ works:
   note: The British revivals as New England read them in 1743; the transatlantic exchange
     from the American side. Provisional.
   source_file: christian-history_weekly-accounts-of-the-revival_prince1744.txt
+- row_id: church-of-england_book-of-common-prayer_oxford1706--the-book-of-common-prayer-1662-text-oxford-printing-of-1706-2
+  work: The Book of Common Prayer, 1662 text (Oxford printing of 1706)
+  author: church-of-england
+  locus: Morning and Evening Prayer, the Communion and the occasional offices
+  role: antecedent
+  confidence: provisional
+  note: The liturgy the Wesleys were ordained under and kept using; provisional for the Methodist
+    world.
+  source_file: church-of-england_book-of-common-prayer_oxford1706.txt
 - row_id: coke_extracts-of-journals-five-visits-to-america_1793--extracts-of-the-journals-of-the-rev-dr-coke-s-five-visits-to
   work: Extracts of the Journals of the Rev. Dr. Coke's Five Visits to America (1793)
   author: coke
@@ -177,6 +186,25 @@ works:
   note: Wesley abridged and reprinted this tract repeatedly from 1739; the full text behind
     his extracts. Provisional until a meth source record argues from it.
   source_file: francke_nicodemus-against-fear-of-man_1801.txt
+- row_id: harris-howell_brief-account-of-the-life-with-letters_1791--a-concise-collection-of-his-letters-1738-1772
+  work: A concise collection of his letters, 1738-1772
+  author: harris-howell
+  locus: the letters after the narrative
+  role: tradition
+  confidence: provisional
+  note: Letters between Harris, Whitefield and other leaders; the Welsh and English revivals
+    in one correspondence. Provisional for the Methodist world, where Whitefield's own letters
+    are already vendored.
+  source_file: harris-howell_brief-account-of-the-life-with-letters_1791.txt
+- row_id: law_serious-call-to-a-devout-and-holy-life_1729--a-serious-call-to-a-devout-and-holy-life-1729-2
+  work: A Serious Call to a Devout and Holy Life (1729)
+  author: law
+  locus: whole work
+  role: antecedent
+  confidence: provisional
+  note: John Wesley named Law's Serious Call among the books that formed him; provisional
+    until the Methodist world's own texts are read for it.
+  source_file: law_serious-call-to-a-devout-and-holy-life_1729.txt
 - row_id: lee-jarena_religious-experience-and-journal_1836--religious-experience-and-journal-of-mrs-jarena-lee-1836
   work: Religious Experience and Journal of Mrs. Jarena Lee (1836)
   author: lee-jarena
@@ -242,6 +270,15 @@ works:
   note: A Methodist woman's own experience narrative, diary and letters; the ordinary member's
     voice the census asks for.
   source_file: rogers-hester-ann_short-account-of-the-experience_1811.txt
+- row_id: watts_hymns-and-spiritual-songs-ninth-edition_1725--hymns-and-spiritual-songs-as-sung-beyond-dissent
+  work: Hymns and Spiritual Songs as sung beyond Dissent
+  author: watts
+  locus: whole work
+  role: transmission
+  confidence: provisional
+  note: Watts's hymns were taken up by the evangelical revivals on both sides of the Atlantic;
+    provisional for those worlds until their own texts show the use.
+  source_file: watts_hymns-and-spiritual-songs-ninth-edition_1725.txt
 - row_id: wesley-c_journal-v1_jackson1849--the-journal-of-the-rev-charles-wesley-vol-i-1736-1740s
   work: The Journal of the Rev. Charles Wesley, vol. I (1736-1740s)
   author: wesley-c

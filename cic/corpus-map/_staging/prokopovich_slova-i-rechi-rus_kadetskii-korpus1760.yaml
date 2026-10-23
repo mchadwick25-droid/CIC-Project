@@ -1,0 +1,11 @@
+source_file: prokopovich_slova-i-rechi-rus_kadetskii-korpus1760.txt
+assignments:
+- row_id: prokopovich_slova-i-rechi-rus_kadetskii-korpus1760--sermons-and-speeches-parts-1-2
+  work: Слова и речи (Sermons and Speeches), parts 1-2
+  author: prokopovich
+  locus: the sermons and speeches; the editor's preface excluded
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: tradition
+  confidence: assigned
+  note: The architect of the Synod as preacher; Petrine church and state theology from its main voice.

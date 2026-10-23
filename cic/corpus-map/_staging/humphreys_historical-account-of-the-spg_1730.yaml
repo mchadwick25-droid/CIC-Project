@@ -1,0 +1,24 @@
+source_file: humphreys_historical-account-of-the-spg_1730.txt
+assignments:
+- row_id: humphreys_historical-account-of-the-spg_1730--an-historical-account-of-the-incorporated-society-for-the
+  work: An Historical Account of the Incorporated Society for the Propagation of the Gospel in Foreign
+    Parts (1730)
+  author: humphreys
+  locus: whole work
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: The established church's first missionary society describing itself, its rules and its missions,
+    from its own papers.
+- row_id: humphreys_historical-account-of-the-spg_1730--an-historical-account-of-the-s-p-g-1730-the-chapters-on-the
+  work: An Historical Account of the S.P.G. (1730), the chapters on the instruction of Negroes and the
+    Codrington bequest
+  author: humphreys
+  locus: the chapters on the instruction of enslaved Africans and on the Barbados bequest
+  atlas_ids:
+  - the-black-church-in-america
+  role: antecedent
+  confidence: provisional
+  note: The Anglican mission to enslaved people in the colonies in the Society's own account; provisional
+    for the later world.

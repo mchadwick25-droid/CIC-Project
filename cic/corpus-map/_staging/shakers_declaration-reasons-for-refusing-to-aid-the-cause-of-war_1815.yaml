@@ -1,0 +1,11 @@
+source_file: shakers_declaration-reasons-for-refusing-to-aid-the-cause-of-war_1815.txt
+assignments:
+- row_id: shakers_declaration-reasons-for-refusing-to-aid-the-cause-of-war_1815--a-declaration-of-the-society-of-people-commonly-called
+  work: A Declaration of the Society of People (commonly called Shakers) (1815)
+  author: shakers
+  locus: whole work
+  atlas_ids:
+  - shakers
+  role: tradition
+  confidence: assigned
+  note: The elders and trustees of New Lebanon and Watervliet speaking for the Society on war and conscience.

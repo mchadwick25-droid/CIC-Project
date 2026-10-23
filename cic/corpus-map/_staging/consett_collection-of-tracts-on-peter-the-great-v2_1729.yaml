@@ -1,0 +1,33 @@
+source_file: consett_collection-of-tracts-on-peter-the-great-v2_1729.txt
+authors_ruled:
+  prokopovich:
+    kind: metadata-omission
+    evidence: The contents name 'A Funeral Oration by the Arch-Bishop of Novogrod, then Arch-Bishop of
+      Pleskow and Narva' and 'A Panegyrical Oration in the Praise of Peter the Great, by the same Arch-Bishop'
+      (file lines about 30-50 of the contents); those are the sees Feofan Prokopovich held. The host names
+      no author.
+  consett:
+    kind: metadata-omission
+    evidence: The title page reads 'by Tho. Consett, Late Chaplain to the British Factory in Russia'.
+assignments:
+- row_id: consett_collection-of-tracts-on-peter-the-great-v2_1729--funeral-oration-and-panegyrical-oration-on-peter-the-great
+  work: Funeral Oration and Panegyrical Oration on Peter the Great (English, 1729)
+  author: prokopovich
+  locus: the two orations by the Archbishop of Novgorod
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: tradition
+  confidence: assigned
+  note: The first member of the Synod preaching the tsar who abolished the patriarchate; the Synodal church's
+    political theology in its own pulpit.
+- row_id: consett_collection-of-tracts-on-peter-the-great-v2_1729--a-collection-of-several-valuable-tracts-relating-to-peter
+  work: 'A Collection of several valuable Tracts relating to Peter the Great (1729): the other tracts'
+  author: consett
+  locus: the fleet, Derbent, last-sickness, funeral and chronology tracts, and the Bishop of Ryazan's
+    sermon
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: context
+  confidence: provisional
+  note: The court and church around Peter's death in documents Consett translated; the Ryazan sermon is
+    a Synodal bishop's and could be split out as tradition on a closer reading.

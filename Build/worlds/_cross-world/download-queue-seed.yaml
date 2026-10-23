@@ -12308,3 +12308,3146 @@ queue:
     verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
     status: downloaded
     vendored_as: "basilovits_brevis-notitia-fundationis-koriathovits-pars1-lat_1799.txt"
+
+  - title: "The Book of Common Prayer (Oxford, 1706; the 1662 text)"
+    author: "Church of England"
+    translator: "none"
+    year: "1706"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      The 1662 Prayer Book that the census names as this church's lived
+      formation, in a printing from inside the window rather than a modern
+      reprint.
+    url: "https://archive.org/details/bookofcommonpray00chur_12"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "church-of-england_book-of-common-prayer_oxford1706.txt"
+
+  - title: "The Diary of a Country Parson, vol. I, 1758-1781 (Beresford)"
+    author: "James Woodforde"
+    translator: "none; edited by John Beresford"
+    year: "1926"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      The parson's diary behind the census story 'Parson Woodforde's
+      Christmas Dinner'; the first Christmas entries at Weston Longville
+      fall at the end of this volume.
+    url: "https://archive.org/details/diaryofcountrypa0001wood"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "woodforde_diary-of-a-country-parson-v1_beresford1926.txt"
+
+  - title: "The Diary of a Country Parson, vol. II, 1782-1787 (Beresford)"
+    author: "James Woodforde"
+    translator: "none; edited by John Beresford"
+    year: "1926"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      Continues the Weston Longville years and their Christmas, tithe-
+      audit and visiting entries.
+    url: "https://archive.org/details/diaryofcountrypa0002wood"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "woodforde_diary-of-a-country-parson-v2_beresford1926.txt"
+
+  - title: "The Diary of a Country Parson, vol. III, 1788-1792 (Beresford)"
+    author: "James Woodforde"
+    translator: "none; edited by John Beresford"
+    year: "1927"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      The diary through the years of the French Revolution, seen from a
+      Norfolk parsonage.
+    url: "https://archive.org/details/diaryofcountrypa0003wood"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "woodforde_diary-of-a-country-parson-v3_beresford1927.txt"
+
+  - title: "An Historical Account of the S.P.G. (Humphreys, 1730)"
+    author: "David Humphreys"
+    translator: "none"
+    year: "1730"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      The SPG of 1701 in its own secretary's words, the census's
+      missionary society and the institution behind the Codrington story.
+    url: "https://archive.org/details/historicalaccoun00hump"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "humphreys_historical-account-of-the-spg_1730.txt"
+
+  - title: "Sermon before the S.P.G., with the Abstract of Proceedings (Moss, 1772)"
+    author: "Charles Moss"
+    translator: "none"
+    year: "1772"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      One year of the SPG's own published record, sermon and accounts
+      together, including the Codrington plantation accounts the census
+      story turns on.
+    url: "https://archive.org/details/sermonpreachedbe00moss"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "moss_sermon-before-the-spg-1772_1772.txt"
+
+  - title: "Eight Charges to the Clergy of Oxford and Canterbury (Secker, 4th ed. 1790)"
+    author: "Thomas Secker"
+    translator: "none; edited by Beilby Porteus and George Stinton"
+    year: "1790"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      The episcopal visitation voice the census sourcing names: an
+      archbishop instructing the parish clergy on their duties across
+      three decades.
+    url: "https://archive.org/details/eightchargesdeli00seck"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "secker_eight-charges-to-the-clergy_porteus-stinton1790.txt"
+
+  - title: "A Discourse of the Pastoral Care (Burnet, 1692)"
+    author: "Gilbert Burnet"
+    translator: "none"
+    year: "1692"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      The post-Revolution church's own statement of what a parish priest
+      should be, by the bishop who preached William of Orange's cause.
+    url: "https://archive.org/details/dispasto00burn"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "burnet_discourse-of-the-pastoral-care_1692.txt"
+
+  - title: "Prose Works of Thomas Ken, with Letters and Life (Round, 1838)"
+    author: "Thomas Ken"
+    translator: "none; collected by James Thomas Round"
+    year: "1838"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      One of the Seven Bishops and a deprived nonjuror in his own words;
+      his letters from the years after 1690 carry the census story of the
+      bishops who lost their sees rather than break an oath.
+    url: "https://archive.org/details/proseworksofrigh00kent"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "ken_prose-works-with-letters_round1838.txt"
+
+  - title: "A Serious Call to a Devout and Holy Life (Law, 1729)"
+    author: "William Law"
+    translator: "none"
+    year: "1729"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      The century's most read Anglican book of devotion, by a nonjuror,
+      and the book that turned the Wesleys and Whitefield toward a strict
+      holy life.
+    url: "https://archive.org/details/seriouscalltode00laww"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "law_serious-call-to-a-devout-and-holy-life_1729.txt"
+
+  - title: "The Analogy of Religion (Butler, 1736)"
+    author: "Joseph Butler"
+    translator: "none"
+    year: "1736"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      The census voice Joseph Butler in the work it names, the era's most
+      serious Anglican answer to deism.
+    url: "https://archive.org/details/analogyreligionn00butl"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "butler_analogy-of-religion_1736.txt"
+
+  - title: "Cheap Repository Tracts of 1795, vol. I (1797)"
+    author: "Hannah More and others (the Cheap Repository)"
+    translator: "none"
+    year: "1797"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      The census voice Hannah More in her cheap tracts, the church's
+      evangelical wing reaching the poor in their own reading.
+    url: "https://archive.org/details/bim_eighteenth-century_cheap-repository-tracts-_1797"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "cheap-repository_tracts-v1-1795_marshall1797.txt"
+
+  - title: "A Practical View of the Prevailing Religious System (Wilberforce, Dublin 1797)"
+    author: "William Wilberforce"
+    translator: "none"
+    year: "1797"
+    world: "restoration-georgian-church-of-england"
+    why: >
+      The church's evangelical wing in its most widely read lay statement,
+      in the year of its first printing.
+    url: "https://www.gutenberg.org/ebooks/25709"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797.txt"
+
+  - title: "The Replies of the Humble Nicon (Palmer, The Patriarch and the Tsar, vol. I, 1871)"
+    author: "Patriarch Nikon"
+    translator: "William Palmer"
+    year: "1871"
+    world: "russian-church-nikon-to-holy-synod"
+    why: >
+      Nikon in his own words, the census's first voice; the only public-
+      domain English of his writing, which the census cites in Palmer's
+      translation.
+    url: "https://archive.org/details/patriarchtsar0001will"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt"
+
+  - title: "History of the Condemnation of the Patriarch Nicon (Ligarides; Palmer, vol. III, 1873)"
+    author: "Paisius Ligarides"
+    translator: "William Palmer"
+    year: "1873"
+    world: "russian-church-nikon-to-holy-synod"
+    why: >
+      The census story 'Nikon Takes Off His Vestments' cites this history
+      as its hostile contemporary account; the council of 1666-67 told by
+      the man who ran it.
+    url: "https://archive.org/details/patriarchtsar0003will"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt"
+
+  - title: "The Present State and Regulations of the Church of Russia, vol. I (Consett, 1729)"
+    author: "Feofan Prokopovich and the Holy Synod (the Spiritual Regulation)"
+    translator: "Thomas Consett"
+    year: "1729"
+    world: "russian-church-nikon-to-holy-synod"
+    why: >
+      The Spiritual Regulation the census names as this church's founding
+      charter, in the English of 1729, with the Appendix of 1722 behind
+      the census story on the seal of confession.
+    url: "https://archive.org/details/bim_eighteenth-century_the-present-state-and-re_russkaia-pravoslavnai_1729_1"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "spiritual-regulation_present-state-and-regulations-of-the-church-of-russia-v1_consett1729.txt"
+
+  - title: "A Collection of several valuable Tracts relating to Peter the Great (Consett, vol. II, 1729)"
+    author: "Thomas Consett (translator and compiler); Feofan Prokopovich and others"
+    translator: "Thomas Consett"
+    year: "1729"
+    world: "russian-church-nikon-to-holy-synod"
+    why: >
+      Feofan Prokopovich preaching over Peter's body in the English of
+      1729: the Synodal church's bishops on the tsar who made it.
+    url: "https://archive.org/details/bim_eighteenth-century_the-present-state-and-re_russkaia-pravoslavnai_1729_2"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "consett_collection-of-tracts-on-peter-the-great-v2_1729.txt"
+
+  - title: "Духовный регламент (Spiritual Regulation, Synodal Press, Moscow 1856)"
+    author: "Feofan Prokopovich and the Holy Synod (the Spiritual Regulation)"
+    translator: "none"
+    year: "1856"
+    world: "russian-church-nikon-to-holy-synod"
+    why: >
+      The original-language text of the Regulation and its Supplement
+      beside Consett's English of 1729.
+    url: "https://archive.org/details/duhovnyjreglamenttschaniemipoveleniemvs66"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856.txt"
+
+  - title: "Слова и речи (Feofan Prokopovich, Sermons and Speeches, 1760-61)"
+    author: "Feofan Prokopovich"
+    translator: "none"
+    year: "1760"
+    world: "russian-church-nikon-to-holy-synod"
+    why: >
+      The census voice Feofan Prokopovich in his own language, preaching
+      the reform he wrote into law.
+    url: "https://archive.org/details/feofanaprokopovichaarhiepiskopavelikagon45"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "prokopovich_slova-i-rechi-rus_kadetskii-korpus1760.txt"
+
+  - title: "The Present State of the Greek Church in Russia (Platon; Pinkerton, 1814)"
+    author: "Platon (Levshin), Metropolitan of Moscow"
+    translator: "Robert Pinkerton"
+    year: "1814"
+    world: "russian-church-nikon-to-holy-synod"
+    why: >
+      The Synodal church's leading teacher of the late eighteenth century
+      stating its doctrine himself, translated within the window.
+    url: "https://archive.org/details/presentstateofgr00plat"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt"
+
+  - title: "Творения святаго Димитрия Ростовскаго (Sytin, 1889)"
+    author: "Dimitrii of Rostov"
+    translator: "none"
+    year: "1889"
+    world: "russian-church-nikon-to-holy-synod"
+    why: >
+      Dimitrii of Rostov, the Kyivan-trained metropolitan of Peter's reign
+      whose Lives of the Saints became the Synodal church's household
+      reading.
+    url: "https://archive.org/details/zhitieitvorenijasvjatogodimitrijamitrop55"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "dimitrii-rostovskii_tvoreniia-rus_sytin1889.txt"
+
+  - title: "Наставления для монашествующих (Tikhon of Zadonsk, Kiev 1854)"
+    author: "Tikhon of Zadonsk"
+    translator: "none"
+    year: "1854"
+    world: "russian-church-nikon-to-holy-synod"
+    why: >
+      The census voice Tikhon of Zadonsk in his own words; the only work
+      of his found on the host in this pass.
+    url: "https://archive.org/details/Nastavlenijapisannyedljamonashestvujusc37"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "tikhon-zadonskii_nastavleniia-dlia-monashestvuiushchikh-rus_kiev1854.txt"
+
+  - title: "A History of the Church of Russia (Mouravieff; Blackmore, 1842)"
+    author: "A. N. Mouravieff (Muravyov)"
+    translator: "R. W. Blackmore"
+    year: "1842"
+    world: "russian-church-nikon-to-holy-synod"
+    why: >
+      How the Synodal church told its own story of Nikon, the council and
+      Peter's reform, in a contemporary English translation.
+    url: "https://archive.org/details/historyofchurcho00mouriala"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "mouravieff_history-of-the-church-of-russia_blackmore1842.txt"
+
+  - title: "Philokalia ton hieron neptikon, vol. 1 (Athens, 2nd ed. 1893)"
+    author: "Macarius of Corinth and Nikodemos the Hagiorite (compilers)"
+    translator: "none (original language); edited by Panagiotes Ath. Tzelatis"
+    year: "1893"
+    world: "the-hesychast-revival-paisius-and-the-philokalia"
+    why: >
+      The anthology the world is named for, in Greek; the census treats
+      the compiling itself as formation evidence, and this is the earliest
+      printing the reachable hosts hold.
+    url: "https://archive.org/details/Philokalia1893GreekAthens"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt"
+
+  - title: "Philokalia ton hieron neptikon, vol. 2 (Athens, 2nd ed. 1893)"
+    author: "Macarius of Corinth and Nikodemos the Hagiorite (compilers)"
+    translator: "none (original language); edited by Panagiotes Ath. Tzelatis"
+    year: "1893"
+    world: "the-hesychast-revival-paisius-and-the-philokalia"
+    why: >
+      Completes the Greek anthology, including the Palamite and
+      fourteenth-century texts on the Jesus Prayer that gave the revival
+      its method.
+    url: "https://archive.org/details/Dobrotolyubie1793"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt"
+
+  - title: "Zhitie i pisaniia moldavskago startsa Paisiia Velichkovskago (Optina, 1847)"
+    author: "Paisius Velichkovsky; the Neamt brethren after Mitrofan; Basil of Poiana Marului"
+    translator: "none (original language)"
+    year: "1847"
+    world: "the-hesychast-revival-paisius-and-the-philokalia"
+    why: >
+      The Life, the prefaces of Paisius's teacher-companion Basil and
+      Paisius's own treatise on the prayer of the mind, in the edition
+      that carried them into Russia; the census's 'lives, letters, rule'
+      core in the original language.
+    url: "https://archive.org/details/PrpPaisiusVelichkovsky"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt"
+
+  - title: "Vostorgnutye klasy v pishchu dushi (Paisius's translations, Optina, 1849)"
+    author: "Paisius Velichkovsky (translator)"
+    translator: "Paisius Velichkovsky, from the Greek into Church Slavonic"
+    year: "1849"
+    world: "the-hesychast-revival-paisius-and-the-philokalia"
+    why: >
+      The Neamt translation workshop's product in Paisius's own Slavonic,
+      beyond the Dobrotolyubie, whose 1793 scan is unreadable.
+    url: "https://archive.org/details/vostorgnutyeklasyvpischudushitoestnesk41"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "paisius-velichkovsky_vostorgnutye-klasy-chu_optina1849.txt"
+
+  - title: "Visits to Monasteries in the Levant (Curzon, 1849)"
+    author: "Robert Curzon"
+    translator: "none"
+    year: "1849"
+    world: "the-hesychast-revival-paisius-and-the-philokalia"
+    why: >
+      The only reachable public-domain eyewitness of the Athos libraries
+      and monks close to the revival's time and place, from outside.
+    url: "https://www.gutenberg.org/ebooks/32397"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "curzon_visits-to-monasteries-in-the-levant_1849.txt"
+
+  - title: "The Travels of Macarius, Patriarch of Antioch, vol. 1 (Paul of Aleppo; Belfour, 1836)"
+    author: "Paul of Aleppo"
+    translator: "F. C. Belfour, from the Arabic"
+    year: "1836"
+    world: "orthodoxy-under-the-ottomans-1650-1821"
+    why: >
+      An Orthodox insider's eyewitness of the Ottoman-era church at the
+      window's opening, Constantinople and the Danubian principalities
+      included, in public-domain English.
+    url: "https://archive.org/details/travelsmacarius01pauluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt"
+
+  - title: "The Travels of Macarius, Patriarch of Antioch, vol. 2 (Paul of Aleppo; Belfour, 1836)"
+    author: "Paul of Aleppo"
+    translator: "F. C. Belfour, from the Arabic"
+    year: "1836"
+    world: "orthodoxy-under-the-ottomans-1650-1821"
+    why: >
+      Completes the journal; the Ottoman Orthodox patriarch abroad among
+      the Russians, and the return through Wallachia.
+    url: "https://archive.org/details/travelsmacarius02pauluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "paul-of-aleppo_travels-of-macarius-v2_belfour1836.txt"
+
+  - title: "Kanonikai diataxeis of the Patriarchs of Constantinople, vol. 1 (Gedeon, 1888)"
+    author: "the patriarchs of Constantinople (ed. Manouel I. Gedeon)"
+    translator: "none (original language)"
+    year: "1888"
+    world: "orthodoxy-under-the-ottomans-1650-1821"
+    why: >
+      The patriarchal records the census names, in the Patriarchate's own
+      printing: the millet church governing marriage, penance and clergy
+      in its own words.
+    url: "https://archive.org/details/kanonikaidiataxe01gede"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "gedeon_kanonikai-diataxeis-v1-grc_1888.txt"
+
+  - title: "Istoriia slavianobolgarskaia (Paisii of Hilendar, 1762; Ivanov ed. 1914)"
+    author: "Paisii of Hilendar"
+    translator: "none (original language); edited by Yordan Ivanov"
+    year: "1914"
+    world: "orthodoxy-under-the-ottomans-1650-1821"
+    why: >
+      A non-Greek Orthodox monk's own voice from inside the millet in the
+      decade Peć and Ohrid were abolished, protesting Greek control of the
+      church.
+    url: "https://archive.org/details/istoriiaslavieno00pais"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt"
+
+  - title: "Some Account of the Present Greek Church (Covel, 1722)"
+    author: "John Covel"
+    translator: "none"
+    year: "1722"
+    world: "orthodoxy-under-the-ottomans-1650-1821"
+    why: >
+      The fullest English outside witness to the Greek church of the
+      1670s, written by a man who lived at Constantinople through the
+      Synod of Jerusalem's aftermath and quarrels with its decrees.
+    url: "https://archive.org/details/bim_eighteenth-century_some-account-of-the-pres_covel-john_1722"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "covel_some-account-of-the-present-greek-church_1722.txt"
+
+  - title: "A Residence at Constantinople, vol. 1 (Walsh, 1836)"
+    author: "Robert Walsh"
+    translator: "none"
+    year: "1836"
+    world: "orthodoxy-under-the-ottomans-1650-1821"
+    why: >
+      An eyewitness of the window's closing event, the Patriarch's
+      anathema and his hanging at the Patriarchate's gate in 1821.
+    url: "https://archive.org/details/b29325444_0001"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "walsh_residence-at-constantinople-v1_1836.txt"
+
+  - title: "A Residence at Constantinople, vol. 2 (Walsh, 1836)"
+    author: "Robert Walsh"
+    translator: "none"
+    year: "1836"
+    world: "orthodoxy-under-the-ottomans-1650-1821"
+    why: >
+      Completes Walsh's eyewitness narrative of 1821 and after.
+    url: "https://archive.org/details/b29325444_0002"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "walsh_residence-at-constantinople-v2_1836.txt"
+
+  - title: "Mansi 46: Synodi Melchitarum, 1716-1902 (Martin and Petit, 1911)"
+    author: "the Melkite synods and the Congregation of Propaganda (ed. J. B. Martin and L. Petit)"
+    translator: "none (original languages, Latin and Italian)"
+    year: "1911"
+    world: "melkite-greek-catholic-church"
+    why: >
+      The succession records of Cyril VI's election and recognition, the
+      correspondence with Rome's missionary administration and the Melkite
+      synods the census asks for, in one printed volume; the world's
+      institutional voice.
+    url: "https://archive.org/details/sacrorumconcilio0046joan"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt"
+
+  - title: "Histoire des patriarcats melkites, t. II-III (Charon, 1910-1911)"
+    author: "Cyrille Charon (Korolevsky)"
+    translator: "none (original language)"
+    year: "1911"
+    world: "melkite-greek-catholic-church"
+    why: >
+      The French history that names Euthymius Saifi, Cyril VI and the
+      Saint Saviour synods and transcribes their documents; the scholarly
+      frame and a second witness beside Mansi 46.
+    url: "https://archive.org/details/histoiredespatri231char"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt"
+
+  - title: "Travels through Syria and Egypt, vol. 2 (Volney, English 2nd ed. 1788)"
+    author: "C.-F. Volney"
+    translator: "unnamed (from the French)"
+    year: "1788"
+    world: "melkite-greek-catholic-church"
+    why: >
+      A sceptical French eyewitness of the Greek Catholic monasteries and
+      the Shuwayr Arabic press in the window, the census's 'Aleppo's
+      Arabic Christian printing' seen from outside.
+    url: "https://archive.org/details/travelsthroughsy02voln"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "volney_travels-through-syria-and-egypt-v2_1788.txt"
+
+  - title: "Divers actes, lettres et relations des religieuses de Port-Royal (1724)"
+    author: "The nuns of Port-Royal"
+    translator: "none"
+    year: "1724"
+    world: "port-royal-jansenism"
+    why: >
+      The census's first primary source: the nuns' collective Relations on
+      the signature crisis and the captivity Relations, in their own
+      words, in one volume.
+    url: "https://archive.org/details/diversacteslettr00slsn"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "port-royal_divers-actes-lettres-relations-fra_1724.txt"
+
+  - title: "Lettres de la Mère Marie Angélique Arnauld, tome I (1742)"
+    author: "Marie-Angélique Arnauld"
+    translator: "none"
+    year: "1742"
+    world: "port-royal-jansenism"
+    why: >
+      The reforming abbess in her own letters, the census's named first
+      voice; volume one carries the reform years.
+    url: "https://archive.org/details/lettresdelareve00arnagoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "arnauld-angelique_lettres-t1-fra_1742.txt"
+
+  - title: "Les Lettres Provinciales, ed. Stewart (1920)"
+    author: "Blaise Pascal"
+    translator: "none; edited by H. F. Stewart"
+    year: "1920"
+    world: "port-royal-jansenism"
+    why: >
+      The Provinciales in Pascal's own French, the census's named polemic
+      from Port-Royal's orbit.
+    url: "https://archive.org/details/leslettresprovin00pascuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "pascal_lettres-provinciales-fra_stewart1920.txt"
+
+  - title: "The Provincial Letters, tr. M'Crie (1856)"
+    author: "Blaise Pascal"
+    translator: "Thomas M'Crie"
+    year: "1856"
+    world: "port-royal-jansenism"
+    why: >
+      Public-domain English of the Provinciales, proofread, beside the
+      French.
+    url: "https://www.gutenberg.org/ebooks/73959"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "pascal_provincial-letters_mcrie1856.txt"
+
+  - title: "Thoughts, Letters, Minor Works (Harvard Classics vol. 48, 1910)"
+    author: "Blaise Pascal"
+    translator: "W. F. Trotter, M. L. Booth, O. W. Wight"
+    year: "1910"
+    world: "port-royal-jansenism"
+    why: >
+      The Pensées in public-domain English with the Brunschvicg numbering
+      intact, and the Conversation with M. de Saci, Pascal in dialogue
+      with Port-Royal's director.
+    url: "https://archive.org/details/thoughtspasc00pascuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "pascal_thoughts-letters-minor-works_trotter-booth-wight1910.txt"
+
+  - title: "The Nuns of Port Royal as seen in their own Narratives (Lowndes, 1909)"
+    author: "M. E. Lowndes"
+    translator: "none; Lowndes translates her own extracts"
+    year: "1909"
+    world: "port-royal-jansenism"
+    why: >
+      Public-domain English for the nuns' own narratives, which otherwise
+      exist only in eighteenth-century French.
+    url: "https://archive.org/details/cu31924029432410"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "lowndes_nuns-of-port-royal-own-narratives_1909.txt"
+
+  - title: "Acta et decreta of the second Provincial Synod of Utrecht (1763; printed 1764)"
+    author: "The Provincial Synod of Utrecht (1763)"
+    translator: "none"
+    year: "1764"
+    world: "church-of-utrecht"
+    why: >
+      The church's own council, the one full statement of its faith and
+      discipline made in the window, with its letter to the Pope declaring
+      its Catholic communion.
+    url: "https://archive.org/details/bub_gb_GbxDChL5mbkC"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "church-of-utrecht_acta-et-decreta-secundae-synodi-lat_1764.txt"
+
+  - title: "Recueil de divers témoignages en faveur de l'Église catholique des Provinces-Unies (1763)"
+    author: "Church of Utrecht; Archbishop Meindaerts"
+    translator: "none"
+    year: "1763"
+    world: "church-of-utrecht"
+    why: >
+      The church's case for its own legitimacy, in its archbishop's voice
+      and the testimonies it gathered: the census's chapter-election and
+      succession question argued from inside.
+    url: "https://archive.org/details/bub_gb_cd8IIf4SvgMC"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "church-of-utrecht_recueil-de-divers-temoignages-fra_1763.txt"
+
+  - title: "Historia Ecclesiae Ultrajectinae (Hoynck van Papendrecht, 1725)"
+    author: "Cornelius Paulus Hoynck van Papendrecht"
+    translator: "none"
+    year: "1725"
+    world: "church-of-utrecht"
+    why: >
+      The Roman side's answer to the 1723 election, written at once by a
+      Mechelen canon, with the documents it argued from.
+    url: "https://archive.org/details/bub_gb_DKxnXDSTYZIC"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "hoynck-van-papendrecht_historia-ecclesiae-ultrajectinae-lat_1725.txt"
+
+  - title: "A History of the So-called Jansenist Church of Holland (Neale, 1858)"
+    author: "John Mason Neale"
+    translator: "none"
+    year: "1858"
+    world: "church-of-utrecht"
+    why: >
+      The census's named English history of the church; the readable
+      narrative frame for the Latin and French documents.
+    url: "https://archive.org/details/ahistorysocalle00nealgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "neale_history-so-called-jansenist-church-of-holland_1858.txt"
+
+  - title: "Guida spirituale (Molinos, Venice 1678)"
+    author: "Miguel de Molinos"
+    translator: "none"
+    year: "1678"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      The census's first primary text in its own language: the book whose
+      teaching on passive prayer was condemned in 1687.
+    url: "https://archive.org/details/bub_gb_2rvxeLdiuHkC"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "molinos_guida-spirituale-ita_1678.txt"
+
+  - title: "The Spiritual Guide (Molinos, English 1688)"
+    author: "Miguel de Molinos"
+    translator: "not named"
+    year: "1688"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      Public-domain English of the Guida from inside the controversy's own
+      decade.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_the-spiritual-guide-whic_molinos-miguel-de_1688"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "molinos_spiritual-guide_1688.txt"
+
+  - title: "Three Letters concerning the Present State of Italy (1688)"
+    author: "Gilbert Burnet (attributed)"
+    translator: "none"
+    year: "1688"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      A neutral-to-hostile outside witness to the Molinos affair, written
+      in Italy the year of the condemnation.
+    url: "https://archive.org/details/threelettersconc00burn"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "burnet_three-letters-present-state-of-italy_1688.txt"
+
+  - title: "Autobiography of Madame Guyon, vol. I (Allen, 1897)"
+    author: "Jeanne-Marie Guyon"
+    translator: "Thomas Taylor Allen"
+    year: "1897"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      Guyon's own Life in full English, the census's named autobiography;
+      the woman at the centre of the French controversy, in her own
+      account.
+    url: "https://archive.org/details/autobiographyofm01guyo_0"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "guyon_autobiography-v1_allen1897.txt"
+
+  - title: "Autobiography of Madame Guyon, vol. II (Allen, 1897)"
+    author: "Jeanne-Marie Guyon"
+    translator: "Thomas Taylor Allen"
+    year: "1897"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      Completes the autobiography: the controversy years in Guyon's own
+      telling.
+    url: "https://archive.org/details/autobiographyma00allegoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "guyon_autobiography-v2_allen1897.txt"
+
+  - title: "La Vie de Madame Guyon écrite par elle-même, tome III (1791)"
+    author: "Jeanne-Marie Guyon"
+    translator: "none"
+    year: "1791"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      The original French of the autobiography for the controversy years,
+      beside Allen's English.
+    url: "https://archive.org/details/laviedemadamejm00guyogoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "guyon_vie-ecrite-par-elle-meme-t3-fra_1791.txt"
+
+  - title: "Les Opuscules spirituels de Madame Guyon, tome I (1790)"
+    author: "Jeanne-Marie Guyon"
+    translator: "none"
+    year: "1790"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      The Moyen court in Guyon's French, the census's named Short and Easy
+      Method, with her own apology for it and the Torrents.
+    url: "https://archive.org/details/lesopusculesspir01guyo"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "guyon_opuscules-spirituels-t1-fra_1790.txt"
+
+  - title: "A Short Method of Prayer and Spiritual Torrents (Marston, 1875)"
+    author: "Jeanne-Marie Guyon"
+    translator: "A. W. Marston"
+    year: "1875"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      Public-domain English of the Moyen court and the Torrents,
+      translated from the French edition vendored beside it.
+    url: "https://archive.org/details/ashortmethodpra00guyogoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "guyon_short-method-spiritual-torrents_marston1875.txt"
+
+  - title: "Explication des Maximes des Saints, ed. Cherel (1911)"
+    author: "François Fénelon"
+    translator: "none; edited by Albert Cherel"
+    year: "1911"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      The census's named Maximes des saints in Fénelon's own French, in a
+      clean critical text.
+    url: "https://archive.org/details/explicationdesm00fn"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fenelon_explication-maximes-des-saints-fra_cherel1911.txt"
+
+  - title: "The Maxims of the Saints explained (English, 1698)"
+    author: "François Fénelon"
+    translator: "not named"
+    year: "1698"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      Contemporary English of the Maxims, bound with the bishops'
+      Declaration and both sides' letters to the Pope: the controversy's
+      public record in one volume.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_the-maxims-of-the-saints_fenelon-francois-de-sal_1698"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fenelon_maxims-of-the-saints_1698.txt"
+
+  - title: "Réponses à la Déclaration des trois évêques (Fénelon, 1698)"
+    author: "François Fénelon"
+    translator: "none"
+    year: "1698"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      Fénelon answering his accusers in his own words, the counterweight
+      to Bossuet's Relation and Instruction; the census asks for both
+      principals.
+    url: "https://archive.org/details/bub_gb_ntgdmY4cHVQC"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fenelon_reponses-a-la-declaration-fra_1698.txt"
+
+  - title: "Relation sur le Quiétisme (Bossuet, 1698)"
+    author: "Jacques-Bénigne Bossuet"
+    translator: "none"
+    year: "1698"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      The census's named Relation sur le quiétisme: the hostile
+      principal's own account of Guyon and Fénelon.
+    url: "https://archive.org/details/relationsurlequi00boss"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "bossuet_relation-sur-le-quietisme-fra_1698.txt"
+
+  - title: "Instruction sur les états d'oraison (Bossuet, 2nd edition, 1697)"
+    author: "Jacques-Bénigne Bossuet"
+    translator: "none"
+    year: "1697"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      Bossuet's doctrinal case against Quietism, the treatise the Maxims
+      were written to forestall.
+    url: "https://archive.org/details/bub_gb_5fYxQoDiPJIC"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "bossuet_instruction-sur-les-etats-d-oraison-fra_1697.txt"
+
+  - title: "Cum alias, with Fénelon's Mandement and the bishops' procès-verbaux (1699)"
+    author: "Innocent XII; Fénelon; the French provincial assemblies"
+    translator: "none"
+    year: "1699"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      The census's named 1699 condemnation, and the end of the contest in
+      Fénelon's own submission.
+    url: "https://archive.org/details/bub_gb_2QE9obfYbeMC"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699.txt"
+
+  - title: "Enchiridion symbolorum, 11th edition (Denzinger and Bannwart, 1911)"
+    author: "Heinrich Denzinger; Clemens Bannwart"
+    translator: "none"
+    year: "1911"
+    world: "quietist-controversy-molinos-guyon"
+    why: >
+      The Latin texts of Coelestis Pastor's sixty-eight propositions and
+      Cum alias's twenty-three, which no other reachable public-domain
+      scan gives cleanly; the same volume carries Cum occasione and
+      Unigenitus for the Jansenist worlds.
+    url: "https://archive.org/details/enchiridionsymbo00denz"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt"
+
+  - title: "Istorica descrizione de' tre' regni Congo, Matamba et Angola (Cavazzi, 1687)"
+    author: "Giovanni Antonio Cavazzi da Montecuccolo"
+    translator: "none (original language); arranged by Fortunato Alamandini"
+    year: "1687"
+    world: "the-antonian-movement-in-kongo"
+    why: >
+      The Capuchins' own history of the Kongo mission to the 1660s: the
+      church and the friars Dona Beatriz grew up under and later turned
+      against, in the original Italian.
+    url: "https://archive.org/details/istoricadescrizi00cava"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt"
+
+  - title: "Breve, e succinta relatione del viaggio nel regno di Congo (Merolla, 1692)"
+    author: "Girolamo Merolla da Sorrento"
+    translator: "none (original language); written up by Angelo Piccardo"
+    year: "1692"
+    world: "the-antonian-movement-in-kongo"
+    why: >
+      The Capuchin record of Soyo and the divided kingdom in the 1680s, in
+      the original Italian; the mission field of Beatriz's childhood.
+    url: "https://archive.org/details/breueesuccintare00mero"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "merolla_breve-e-succinta-relatione-viaggio-congo-ita_piccardo1692.txt"
+
+  - title: "Merckwürdige Missions- und Reise-Beschreibung nach Congo (Zucchelli, German 1715)"
+    author: "Antonio Zucchelli da Gradisca"
+    translator: "unnamed (German from the Italian)"
+    year: "1715"
+    world: "the-antonian-movement-in-kongo"
+    why: >
+      The nearest printed Capuchin witness to the movement's eve: Soyo and
+      Kongo from 1698 to 1704, with Pedro IV on the throne he was trying
+      to restore.
+    url: "https://archive.org/details/11062316bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "zucchelli_missions-und-reise-beschreibung-nach-congo-deu_1715.txt"
+
+  - title: "Viaggio nel regno del Congo (Carli and Guattini, 1671)"
+    author: "Dionigi de' Carli da Piacenza and Michelangelo Guattini da Reggio"
+    translator: "none (original language)"
+    year: "1671"
+    world: "the-antonian-movement-in-kongo"
+    why: >
+      The Italian original of the Capuchin account of Kongo in 1666 to
+      1670, a generation before the movement; the English sits in
+      Pinkerton.
+    url: "https://archive.org/details/bub_gb_CEgQlW96tsMC"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt"
+
+  - title: "A General Collection of Voyages and Travels, vol. XVI (Pinkerton, 1814)"
+    author: "John Pinkerton (editor)"
+    translator: "the 1704 Churchill translators, not named; Proyart's translator not named"
+    year: "1814"
+    world: "the-antonian-movement-in-kongo"
+    why: >
+      The public-domain English of the Capuchin witnesses to Kongo (Carli,
+      Merolla) beside the Italian originals, with Battell and Proyart for
+      the wider region.
+    url: "https://archive.org/details/generalcollectio16pink"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "pinkerton_general-collection-voyages-and-travels-v16_1814.txt"
+
+  - title: "A Report of the Kingdom of Congo (Lopes and Pigafetta, trans. Hutchinson, 1881)"
+    author: "Duarte Lopes and Filippo Pigafetta"
+    translator: "Margarite Hutchinson"
+    year: "1881"
+    world: "the-antonian-movement-in-kongo"
+    why: >
+      The sixteenth-century account of Kongo's Christian founding that the
+      Kongo church's own memory rested on; background for the restoration
+      Beatriz preached.
+    url: "https://archive.org/details/reportofkingdomo00lope"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt"
+
+  - title: "Fama, y obras posthumas de Sor Juana Inés de la Cruz (Madrid, 1700)"
+    author: "Juana Inés de la Cruz"
+    translator: "none (original language); edited by Juan Ignacio de Castorena y Ursúa"
+    year: "1700"
+    world: "colonial-latin-american-devotional-catholicism"
+    why: >
+      The census's named convent writing: the Respuesta a Sor Filotea in
+      its first printing, with Sor Juana's devotional exercises and
+      offerings, and the first life of her.
+    url: "https://archive.org/details/famayobrasposthu00juan"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt"
+
+  - title: "Sumario y memorial de las probanzas: canonization process of Toribio de Mogrovejo (Lima, 1662)"
+    author: "Pedro de Villagómez and the apostolic judges"
+    translator: "none (original language)"
+    year: "1662"
+    world: "colonial-latin-american-devotional-catholicism"
+    why: >
+      Canonization-process testimony from Lima, which the census calls the
+      era's densest record of ordinary devotees speaking: Lima witnesses
+      on the archbishop who shaped Peru's church.
+    url: "https://archive.org/details/sumarioymemorial00vill"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "villagomez_sumario-probanzas-canonizacion-toribio-mogrovejo-spa_lima1662.txt"
+
+  - title: "Vita mirabilis et mors pretiosa Rosae de S. Maria Limensis (Hansen, Rome 1664)"
+    author: "Leonardus Hansen, O.P."
+    translator: "none (original language)"
+    year: "1664"
+    world: "colonial-latin-american-devotional-catholicism"
+    why: >
+      The official Life of Rose of Lima from her beatification process,
+      the census's first named canonization; the cult's founding text in
+      its original Latin.
+    url: "https://archive.org/details/wotb_6743752"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "hansen_vita-mirabilis-et-mors-pretiosa-rosae-de-s-maria-lat_1664.txt"
+
+  - title: "The Life of Saint Rose of Lima (ed. Faber, Philadelphia 1855)"
+    author: "F. W. Faber (editor)"
+    translator: "not named in the pages read"
+    year: "1855"
+    world: "colonial-latin-american-devotional-catholicism"
+    why: >
+      Reader-ready English of the Rose of Lima story beside the Latin
+      Life; the cult as English Catholics received it.
+    url: "https://archive.org/details/lifeofsaintroseo00hans"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "faber-fw_life-of-saint-rose-of-lima_1855.txt"
+
+  - title: "Compendio de la prodigiosa vida de Fray Juan Macías (Toro, Seville 1689)"
+    author: "Alonso de Toro, O.P."
+    translator: "none (original language)"
+    year: "1689"
+    world: "colonial-latin-american-devotional-catholicism"
+    why: >
+      A Lima lay brother's cult in its seventeenth-century Life: the
+      porter's-gate charity at the heart of Lima's popular holiness,
+      beside Rose and Martín de Porres.
+    url: "https://archive.org/details/A024187"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "toro_compendio-vida-juan-macias-spa_1689.txt"
+
+  - title: "La Estrella del Norte de México (Florencia, 1688; Guadalajara 1895)"
+    author: "Francisco de Florencia, S.J."
+    translator: "none (original language)"
+    year: "1895"
+    world: "colonial-latin-american-devotional-catholicism"
+    why: >
+      The Guadalupan corpus the census names, in its classic seventeenth-
+      century history: the shrine, its tradition and its devotion as a
+      Mexican Jesuit set them down in 1688.
+    url: "https://archive.org/details/laestrelladelnor00flor"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt"
+
+  - title: "Promptuario manual mexicano (Paredes, Mexico 1759)"
+    author: "Ignacio de Paredes, S.J."
+    translator: "none (original language)"
+    year: "1759"
+    world: "colonial-latin-american-devotional-catholicism"
+    why: >
+      Sunday preaching to Nahua parishioners in their own language, with
+      the Guadalupe sermon: the devotional world as the indigenous
+      congregation heard it from the pulpit.
+    url: "https://archive.org/details/promptuariomanua00pare"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "paredes_promptuario-manual-mexicano-nci-spa_1759.txt"
+
+  - title: "Itinerario para parochos de indios (Peña Montenegro, Madrid 1668)"
+    author: "Alonso de la Peña Montenegro"
+    translator: "none (original language)"
+    year: "1668"
+    world: "colonial-latin-american-devotional-catholicism"
+    why: >
+      The colonial church's own manual for running Indian parishes: the
+      institutional frame of everyday devotion, from a bishop of Quito.
+    url: "https://archive.org/details/itinerarioparapa00peam"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "pena-montenegro_itinerario-para-parochos-de-indios-spa_1668.txt"
+
+  - title: "Relación histórica de la vida de Fray Junípero Serra (Palóu, Mexico 1787)"
+    author: "Francisco Palóu, O.F.M."
+    translator: "none (original language)"
+    year: "1787"
+    world: "colonial-latin-american-devotional-catholicism"
+    why: >
+      The census places the California missions within this New Spain
+      devotional world; Palóu's life of Serra is their founding record
+      from inside the Franciscan college.
+    url: "https://archive.org/details/relacionhistoric00palo"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "palou_relacion-historica-vida-junipero-serra-spa_1787.txt"
+
+  - title: "Palou's Life and Apostolic Labors of Junipero Serra (trans. Williams, 1913)"
+    author: "Francisco Palóu"
+    translator: "C. Scott Williams"
+    year: "1913"
+    world: "colonial-latin-american-devotional-catholicism"
+    why: >
+      Public-domain English beside the Spanish original of the Serra life.
+    url: "https://archive.org/details/franciscopalousl00palrich"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "palou_life-and-apostolic-labors-of-junipero-serra_williams1913.txt"
+
+  - title: "The English-American, or A New Survey of the West Indies (Gage, 1648)"
+    author: "Thomas Gage"
+    translator: "none"
+    year: "1648"
+    world: "colonial-latin-american-devotional-catholicism"
+    why: >
+      The one detailed outside eyewitness to everyday parish devotion in
+      seventeenth-century Mexico and Guatemala, by a former friar turned
+      hostile.
+    url: "https://www.gutenberg.org/ebooks/54425"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "gage_english-american-new-survey-of-the-west-indias_1648.txt"
+
+  - title: "The Philippine Islands, 1493-1898, vol. XXXVI (1649-1666)"
+    author: "Emma Helen Blair and James Alexander Robertson (editors)"
+    translator: "Blair, Robertson and the translators named in the volume"
+    year: "1906"
+    world: "philippine-catholicism-era-8"
+    why: >
+      The visitation dispute in its earliest statement here, the mission
+      orders' own reports, and the archbishop's letter: the opening of the
+      mature friar-parish period.
+    url: "https://www.gutenberg.org/ebooks/30350"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-robertson_philippine-islands-v36_1906.txt"
+
+  - title: "The Philippine Islands, 1493-1898, vol. XXXVII (1669-1676)"
+    author: "Emma Helen Blair and James Alexander Robertson (editors)"
+    translator: "Blair, Robertson and the translators named in the volume"
+    year: "1906"
+    world: "philippine-catholicism-era-8"
+    why: >
+      The Dominican and Augustinian chronicles of their own work,
+      1641-1670, in English: the orders' parish and mission life in their
+      own words.
+    url: "https://www.gutenberg.org/ebooks/47953"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-robertson_philippine-islands-v37_1906.txt"
+
+  - title: "The Philippine Islands, 1493-1898, vol. XXXIX (1683-1690)"
+    author: "Emma Helen Blair and James Alexander Robertson (editors)"
+    translator: "Blair, Robertson and the translators named in the volume"
+    year: "1906"
+    world: "philippine-catholicism-era-8"
+    why: >
+      The Pardo controversy, the period's long quarrel between the
+      archbishop, the Audiencia and the religious orders, in its own
+      documents.
+    url: "https://www.gutenberg.org/ebooks/28899"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-robertson_philippine-islands-v39_1906.txt"
+
+  - title: "The Philippine Islands, 1493-1898, vol. XL (1690-1691)"
+    author: "Emma Helen Blair and James Alexander Robertson (editors)"
+    translator: "Blair, Robertson and the translators named in the volume"
+    year: "1906"
+    world: "philippine-catholicism-era-8"
+    why: >
+      How the friars of the eighteenth century described Filipinos,
+      including San Agustín's letter on the Filipinos, whose low view of
+      them the editors discuss; San Antonio's Crónicas in English.
+    url: "https://www.gutenberg.org/ebooks/30253"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-robertson_philippine-islands-v40_1906.txt"
+
+  - title: "The Philippine Islands, 1493-1898, vol. XLI (1691-1700)"
+    author: "Emma Helen Blair and James Alexander Robertson (editors)"
+    translator: "Blair, Robertson and the translators named in the volume"
+    year: "1906"
+    world: "philippine-catholicism-era-8"
+    why: >
+      The Recollect missions across half a century and Jesuit letters, in
+      English.
+    url: "https://www.gutenberg.org/ebooks/30397"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-robertson_philippine-islands-v41_1906.txt"
+
+  - title: "The Philippine Islands, 1493-1898, vol. XLII (1670-1700)"
+    author: "Emma Helen Blair and James Alexander Robertson (editors)"
+    translator: "Blair, Robertson and the translators named in the volume"
+    year: "1906"
+    world: "philippine-catholicism-era-8"
+    why: >
+      The visitation controversy at its first crisis under Archbishop
+      Camacho, with the Augustinian chronicle of the same years.
+    url: "https://www.gutenberg.org/ebooks/34384"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-robertson_philippine-islands-v42_1906.txt"
+
+  - title: "The Philippine Islands, 1493-1898, vol. XLIV (1700-1736)"
+    author: "Emma Helen Blair and James Alexander Robertson (editors)"
+    translator: "Blair, Robertson and the translators named in the volume"
+    year: "1906"
+    world: "philippine-catholicism-era-8"
+    why: >
+      Murillo Velarde's Jesuit history in English beside the Spanish
+      original, and the papers on the mob murder of Governor Bustamante in
+      1719, in which the clergy were implicated.
+    url: "https://www.gutenberg.org/ebooks/50151"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-robertson_philippine-islands-v44_1906.txt"
+
+  - title: "The Philippine Islands, 1493-1898, vol. XLVII (1728-1759)"
+    author: "Emma Helen Blair and James Alexander Robertson (editors)"
+    translator: "Blair, Robertson and the translators named in the volume"
+    year: "1907"
+    world: "philippine-catholicism-era-8"
+    why: >
+      The lay confraternity of the Misericordia in its own history, the
+      church's own census of its parishes and clergy in 1742, and the
+      hospital order.
+    url: "https://www.gutenberg.org/ebooks/54041"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-robertson_philippine-islands-v47_1907.txt"
+
+  - title: "The Philippine Islands, 1493-1898, vol. XLVIII (1751-1765)"
+    author: "Emma Helen Blair and James Alexander Robertson (editors)"
+    translator: "Blair, Robertson and the translators named in the volume"
+    year: "1907"
+    world: "philippine-catholicism-era-8"
+    why: >
+      The friar-parish system at its height: the Augustinian parish list
+      of 1760, the missions, and the crown's complaint about friar
+      estates.
+    url: "https://www.gutenberg.org/ebooks/54740"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-robertson_philippine-islands-v48_1907.txt"
+
+  - title: "The Philippine Islands, 1493-1898, vol. XLIX (1762-1765)"
+    author: "Emma Helen Blair and James Alexander Robertson (editors)"
+    translator: "Blair, Robertson and the translators named in the volume"
+    year: "1907"
+    world: "philippine-catholicism-era-8"
+    why: >
+      The British occupation the census names, including Archbishop Rojo's
+      own account and the clergy's part in Anda's resistance.
+    url: "https://www.gutenberg.org/ebooks/56778"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-robertson_philippine-islands-v49_1907.txt"
+
+  - title: "The Philippine Islands, 1493-1898, vol. L (1764-1800)"
+    author: "Emma Helen Blair and James Alexander Robertson (editors)"
+    translator: "Blair, Robertson and the translators named in the volume"
+    year: "1907"
+    world: "philippine-catholicism-era-8"
+    why: >
+      The 1768 Jesuit expulsion, Anda's memorial, Archbishop Sancho's
+      instructions to the secular clergy and the council of 1771: the
+      period's central church crisis, with the native-clergy question in
+      view.
+    url: "https://www.gutenberg.org/ebooks/57189"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-robertson_philippine-islands-v50_1907.txt"
+
+  - title: "Historia de la provincia de Philipinas de la Compañía de Jesús (Murillo Velarde, Manila 1749)"
+    author: "Pedro Murillo Velarde, S.J."
+    translator: "none (original language)"
+    year: "1749"
+    world: "philippine-catholicism-era-8"
+    why: >
+      The Jesuit province's own century-long history, printed at the
+      Jesuit press in Manila by its chronicler two decades before the
+      expulsion; the Spanish original behind the English extract in Blair
+      and Robertson.
+    url: "https://archive.org/details/historiadelaprov00muri"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "murillo-velarde_historia-provincia-philipinas-compania-jesus-spa_1749.txt"
+
+  - title: "Libro de las quatro postrimerías del hombre, en lengua tagala (Francisco de San José, Manila 1734)"
+    author: "Francisco de San José, O.P."
+    translator: "none (original language)"
+    year: "1734"
+    world: "philippine-catholicism-era-8"
+    why: >
+      A Tagalog devotional book in print and in use in the window: what
+      Tagalog Christians who could read were given on death and judgement,
+      beside the pasyon.
+    url: "https://archive.org/details/ayer_bt_820_f73_1734"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "francisco-de-san-jose_libro-de-las-quatro-postrimerias-tgl_manila1734.txt"
+
+  - title: "Leales demostraciones de la ciudad de Manila: the nine fiestas of 1709"
+    author: "the city of Manila (anonymous)"
+    translator: "none (original language)"
+    year: "1709"
+    world: "philippine-catholicism-era-8"
+    why: >
+      Civic devotion in Manila early in the window: the Sacrament and the
+      Guía image at the centre of a city festival, printed by the pasyon's
+      author.
+    url: "https://archive.org/details/lealesdemostraci00aqui"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "manila-city_leales-demostraciones-fiestas-ss-sacramento-guia-spa_1709.txt"
+
+  - title: "The Testimony of Christ's Second Appearing (second edition, 1810)"
+    author: "Benjamin Seth Youngs (attributed); published by order of the Shaker Ministry"
+    translator: "none"
+    year: "1810"
+    world: "shakers"
+    why: >
+      The Society's own confession, which the census cites for the floor
+      question: the second-coming claim stated in the Shakers' own words.
+    url: "https://archive.org/details/testimonyofchris1810youn"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt"
+
+  - title: "Testimonies of the Life ... of Mother Ann Lee (second edition, 1888)"
+    author: "The United Society of Believers (compiled; attributed to Rufus Bishop and Seth Youngs Wells)"
+    translator: "none"
+    year: "1888"
+    world: "shakers"
+    why: >
+      The founding generation in the words of its own witnesses: the
+      Society's oral record of Ann Lee, the census's first primary source.
+    url: "https://archive.org/details/testimoniesoflif00bish_0"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "shakers_testimonies-of-mother-ann-lee-and-the-elders_bishop-wells1888.txt"
+
+  - title: "Millennial Praises (Hancock, 1813)"
+    author: "The United Society of Believers (compiled; attributed to Seth Youngs Wells)"
+    translator: "none"
+    year: "1813"
+    world: "shakers"
+    why: >
+      The hymnody the census names: the Society's theology as it was sung
+      in worship, inside the window.
+    url: "https://archive.org/details/millennialpraise00well"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "shakers_millennial-praises-gospel-hymns_1813.txt"
+
+  - title: "A Declaration of the Society of People commonly called Shakers (1815)"
+    author: "The Shaker societies of New Lebanon and Watervliet"
+    translator: "none"
+    year: "1815"
+    world: "shakers"
+    why: >
+      An institutional voice from the last year of the window: the Society
+      stating its non-resistance to the state in its own corporate
+      address.
+    url: "https://archive.org/details/declarationofsoc0000vari"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "shakers_declaration-reasons-for-refusing-to-aid-the-cause-of-war_1815.txt"
+
+  - title: "A Summary View of the Millennial Church (1823)"
+    author: "The United Society of Believers (attributed to Calvin Green and Seth Youngs Wells)"
+    translator: "none"
+    year: "1823"
+    world: "shakers"
+    why: >
+      The Society's own account of its rise and its church order, covenant
+      and families: the institutional record the census asks for, set down
+      by the second generation.
+    url: "https://archive.org/details/asummaryviewmil01wellgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "shakers_summary-view-of-the-millennial-church_green-wells1823.txt"
+
+  - title: "The Manifesto (Dunlavy, 1818)"
+    author: "John Dunlavy"
+    translator: "none"
+    year: "1818"
+    world: "shakers"
+    why: >
+      The fullest doctrinal treatise by a Shaker author of the founding
+      western generation, three years after the window.
+    url: "https://archive.org/details/manifestoordecla00dunl"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "dunlavy_manifesto-declaration-of-the-doctrines-and-practice-of-the-church-of-christ_1818.txt"
+
+  - title: "The Kentucky Revival (McNemar, Albany reprint 1808)"
+    author: "Richard McNemar"
+    translator: "none"
+    year: "1808"
+    world: "shakers"
+    why: >
+      How the Society entered the West: a revival preacher's own account
+      of the camp meetings and of joining the Shakers, printed by the
+      Society's Albany printers.
+    url: "https://archive.org/details/kentuckyrevival00mcnegoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt"
+
+  - title: "An Account of the People called Shakers (Brown, 1812)"
+    author: "Thomas Brown"
+    translator: "none"
+    year: "1812"
+    world: "shakers"
+    why: >
+      The fullest ex-member witness from inside the window, and an early
+      source for the founders' sayings independent of the Society's own
+      later compilation.
+    url: "https://archive.org/details/accountofpeoplec00brow"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "brown-thomas_account-of-the-people-called-shakers_1812.txt"
+
+  - title: "A Brief Statement of the Sufferings of Mary Dyer (1818)"
+    author: "Mary Dyer"
+    translator: "none"
+    year: "1818"
+    world: "shakers"
+    why: >
+      The most public ex-member campaign against the Society, in a woman's
+      own words; a hostile witness on family separation and celibacy.
+    url: "https://archive.org/details/briefstatementof00dyer"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "dyer-mary_brief-statement-of-the-sufferings-of-mary-dyer_1818.txt"
+
+  - title: "Shakerism Detected (James Smith, 1810)"
+    author: "James Smith"
+    translator: "none"
+    year: "1810"
+    world: "shakers"
+    why: >
+      The western hostile record inside the window, and the pamphlet
+      McNemar answered; the Kentucky counterpart to the eastern ex-member
+      literature.
+    url: "https://archive.org/details/shakerismdetecte00smit"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "smith-james_shakerism-detected_1810.txt"
+
+  - title: "Shakers: Compendium (Evans, 1859)"
+    author: "Frederick William Evans"
+    translator: "none"
+    year: "1859"
+    world: "shakers"
+    why: >
+      The Society's own mid-century summary of its rules and government,
+      the nearest public-domain witness to the order the Millennial Laws
+      regulated; carries the founders' biographies.
+    url: "https://archive.org/details/shakerscompendiu00evan"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "evans-frederick_shakers-compendium-of-the-origin-history-principles-rules_1859.txt"
+
+  - title: "The Shakers' Covenant (Grosvenor, 1873)"
+    author: "Roxalana L. Grosvenor"
+    translator: "none"
+    year: "1873"
+    world: "shakers"
+    why: >
+      The only public-domain printing found of a Shaker church covenant,
+      the instrument the census names beside the Testimony; its form is
+      later than the 1795 covenant, as the editor says.
+    url: "https://archive.org/details/shakerscovenantn00harv_0"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "grosvenor_shakers-covenant-with-a-brief-outline-of-shaker-history_1873.txt"
+
+  - title: "Vera Christiana Religio (Amsterdam, 1771)"
+    author: "Emanuel Swedenborg"
+    translator: "none (original language)"
+    year: "1771"
+    world: "swedenborgian-new-church"
+    why: >
+      The confession the census names: the church's non-trinitarian
+      doctrine of the one God in Jesus Christ, in Swedenborg's own Latin.
+    url: "https://archive.org/details/verachristianare00sweduoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "swedenborg_vera-christiana-religio-lat_1771.txt"
+
+  - title: "True Christian Religion, vol. I (first English translation, 1781)"
+    author: "Emanuel Swedenborg"
+    translator: "not named on the title page"
+    year: "1781"
+    world: "swedenborgian-new-church"
+    why: >
+      The English the first New Church readers actually read and cited,
+      inside the window, beside the Latin original.
+    url: "https://archive.org/details/bim_eighteenth-century_true-christian-religion_swedenborg-emanuel_1781_1"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "swedenborg_true-christian-religion-v1_1781.txt"
+
+  - title: "True Christian Religion, vol. II (first English translation, 1781)"
+    author: "Emanuel Swedenborg"
+    translator: "not named on the title page"
+    year: "1781"
+    world: "swedenborgian-new-church"
+    why: >
+      Completes the English True Christian Religion, including the
+      chapters on the second coming and the New Church the readers took as
+      their charter.
+    url: "https://archive.org/details/bim_eighteenth-century_true-christian-religion_swedenborg-emanuel_1781_2"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "swedenborg_true-christian-religion-v2_1781.txt"
+
+  - title: "De Coelo et de Inferno (1758)"
+    author: "Emanuel Swedenborg"
+    translator: "none (original language)"
+    year: "1758"
+    world: "swedenborgian-new-church"
+    why: >
+      Heaven and Hell, the census's second named work and the book most
+      readers met first, in Swedenborg's Latin.
+    url: "https://archive.org/details/decoeloetejusmir00swed"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "swedenborg_de-coelo-et-de-inferno-lat_1758.txt"
+
+  - title: "A Treatise concerning Heaven and Hell (first English translation, 1778)"
+    author: "Emanuel Swedenborg"
+    translator: "not named on the title page"
+    year: "1778"
+    world: "swedenborgian-new-church"
+    why: >
+      The English book that formed the first readers, inside the window;
+      the translator's preface is itself early reception.
+    url: "https://archive.org/details/heavenhellcontai00swed"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "swedenborg_treatise-concerning-heaven-and-hell_1778.txt"
+
+  - title: "Minutes of the first General Conference of the New Church (1789)"
+    author: "The General Conference of the New Church"
+    translator: "none"
+    year: "1789"
+    world: "swedenborgian-new-church"
+    why: >
+      The census's own key document: the readers' society becoming a
+      separate church, in its own first minutes.
+    url: "https://archive.org/details/bim_eighteenth-century_minutes-of-a-general-con_new-jerusalem-church_1789"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "new-jerusalem-church_minutes-of-the-first-general-conference_hindmarsh1789.txt"
+
+  - title: "The Liturgy of the New Church, with Proud's Hymns (Baltimore, 1793)"
+    author: "The New Church; Joseph Proud"
+    translator: "none"
+    year: "1793"
+    world: "swedenborgian-new-church"
+    why: >
+      The church's worship and hymnody in one book: the liturgy the census
+      names, and the hymns of one of its first ministers, in the edition
+      that carried the church to America.
+    url: "https://archive.org/details/liturgyour00newj"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "new-jerusalem-church_liturgy-with-proud-hymns-and-spiritual-songs_baltimore1793.txt"
+
+  - title: "A Confession of the Faith of the Lord's New Church, Birmingham (1800)"
+    author: "The New Church at the Jerusalem Chapel, Birmingham"
+    translator: "none"
+    year: "1800"
+    world: "swedenborgian-new-church"
+    why: >
+      An ordinary congregation's confession in its own words, and its
+      statement of how it held Swedenborg's authority; directly relevant
+      to the floor question.
+    url: "https://archive.org/details/bim_eighteenth-century_a-confession-of-the-fait_new-jerusalem-church_1800"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "new-jerusalem-church_confession-of-faith-jerusalem-chapel-birmingham_1800.txt"
+
+  - title: "Twenty Sermons on the Doctrines of the Lord's New Church (Proud, 1792)"
+    author: "Joseph Proud"
+    translator: "none"
+    year: "1792"
+    world: "swedenborgian-new-church"
+    why: >
+      Preaching inside the window by one of the church's first ministers,
+      to a congregation that asked for it in print: the institutional
+      voice the brief prefers.
+    url: "https://archive.org/details/twentysermonson00prougoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "proud-joseph_twenty-sermons-on-the-doctrines-of-the-new-church_1792.txt"
+
+  - title: "A Candid and Impartial Reply to Dr. Priestley's Letters (Proud, 1791)"
+    author: "Joseph Proud"
+    translator: "none"
+    year: "1791"
+    world: "swedenborgian-new-church"
+    why: >
+      One half of the church's first public controversy, fought in
+      Birmingham with Priestley, in which the New Church set out its
+      doctrine of God against Unitarianism.
+    url: "https://archive.org/details/bim_eighteenth-century_a-candid-and-impartial-r_proud-j-joseph_1791"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "proud-joseph_candid-and-impartial-reply-to-priestley_1791.txt"
+
+  - title: "Letters to Dr. Priestley (Hindmarsh, 1792)"
+    author: "Robert Hindmarsh"
+    translator: "none"
+    year: "1792"
+    world: "swedenborgian-new-church"
+    why: >
+      A leading founder of the church in his own words, inside the window,
+      half a century before his Rise and Progress; the New Church's
+      doctrine of God in controversy.
+    url: "https://archive.org/details/letterstodrpries00hind"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "hindmarsh_letters-to-dr-priestley_1792.txt"
+
+  - title: "Sermon on the Leading Doctrines of the New Jerusalem Church (Hargrove, 1803)"
+    author: "John Hargrove"
+    translator: "none"
+    year: "1803"
+    world: "swedenborgian-new-church"
+    why: >
+      The American New Church's own minister stating its doctrines in
+      public, inside the window; the Baltimore society the census names.
+    url: "https://archive.org/details/Hargrove.Substance"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "hargrove_sermon-on-the-leading-doctrines-of-the-new-jerusalem-church_1803.txt"
+
+  - title: "Sermon on the True Nature of the Resurrection of Man (Hargrove, 1816)"
+    author: "John Hargrove"
+    translator: "none"
+    year: "1816"
+    world: "swedenborgian-new-church"
+    why: >
+      The New Church's teaching on death preached at a funeral, a pastoral
+      occasion rather than a controversy; one year past the window.
+    url: "https://archive.org/details/gpl_1435803"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "hargrove_sermon-on-the-true-nature-of-the-resurrection-of-man_1816.txt"
+
+  - title: "Letters to the Members of the New Jerusalem Church (Priestley, 1791)"
+    author: "Joseph Priestley"
+    translator: "none"
+    year: "1791"
+    world: "swedenborgian-new-church"
+    why: >
+      The key outside witness: the leading English Unitarian answering the
+      New Church in the year of the Birmingham riots; Proud's and
+      Hindmarsh's replies are vendored with it.
+    url: "https://archive.org/details/letterstomember00conggoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "priestley_letters-to-the-members-of-the-new-jerusalem-church_1791.txt"
+
+  - title: "Records of the Life of the Rev. John Murray (1816)"
+    author: "John Murray"
+    translator: "none"
+    year: "1816"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The Universalist founder's life in his own words, covering the
+      Gloucester congregation the census names from its first years.
+    url: "https://archive.org/details/recordsoflifeofr00murr"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "murray-john_records-of-the-life-written-by-himself_1816.txt"
+
+  - title: "Letters, and Sketches of Sermons, vol. I (Murray, 1812)"
+    author: "John Murray"
+    translator: "none"
+    year: "1812"
+    world: "early-american-unitarians-universalists"
+    why: >
+      Murray's preaching and pastoral correspondence, the fullest record
+      of how the Gloucester and Boston Universalists were taught.
+    url: "https://archive.org/details/letterssketcheso01murr"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "murray-john_letters-and-sketches-of-sermons-v1_1812.txt"
+
+  - title: "Letters, and Sketches of Sermons, vol. II (Murray, 1812)"
+    author: "John Murray"
+    translator: "none"
+    year: "1812"
+    world: "early-american-unitarians-universalists"
+    why: >
+      Continues Murray's own teaching.
+    url: "https://archive.org/details/letterssketcheso02murr"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "murray-john_letters-and-sketches-of-sermons-v2_1812.txt"
+
+  - title: "Letters, and Sketches of Sermons, vol. III (Murray, 1813)"
+    author: "John Murray"
+    translator: "none"
+    year: "1813"
+    world: "early-american-unitarians-universalists"
+    why: >
+      Completes Murray's own teaching.
+    url: "https://archive.org/details/letterssketcheso03murr"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "murray-john_letters-and-sketches-of-sermons-v3_1813.txt"
+
+  - title: "The Mystery hid from Ages and Generations (Chauncy, 1784)"
+    author: "Charles Chauncy"
+    translator: "none"
+    year: "1784"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The learned New England case for universal salvation, by the leading
+      liberal minister of Boston; the census names Chauncy's Universalism
+      beside Murray's.
+    url: "https://archive.org/details/mysteryhidfromag00chau"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "chauncy_mystery-hid-from-ages-and-generations_1784.txt"
+
+  - title: "Divine Glory brought to View in the Final Salvation of All Men (1783)"
+    author: "Charles Chauncy (attributed)"
+    translator: "none"
+    year: "1783"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The Boston Universalist pamphlet war in a primary piece, the year
+      before Chauncy's book.
+    url: "https://archive.org/details/divineglory00chaurich"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "chauncy_divine-glory-brought-to-view-in-the-final-salvation-of-all-men_1783.txt"
+
+  - title: "The Universal Restoration (Winchester, 1788)"
+    author: "Elhanan Winchester"
+    translator: "none"
+    year: "1788"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The Universalist thread's most read argument, in its first edition.
+    url: "https://archive.org/details/bim_eighteenth-century_the-universal-restoratio_winchester-elhanan_1788"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "winchester-elhanan_universal-restoration-in-dialogues_1788.txt"
+
+  - title: "A Treatise on Atonement (Ballou, 1805)"
+    author: "Hosea Ballou"
+    translator: "none"
+    year: "1805"
+    world: "early-american-unitarians-universalists"
+    why: >
+      Where the two threads of this world meet: a Universalist minister
+      arguing against the Trinity and the satisfaction theory, in the
+      first edition the census names.
+    url: "https://archive.org/details/atreatiseonaton06ballgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "ballou-hosea_treatise-on-atonement_1805.txt"
+
+  - title: "Hymns by order of the General Convention of Universalists (1808)"
+    author: "The General Convention of Universalists (committee: Ballou, Kneeland, Turner)"
+    translator: "none"
+    year: "1808"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The Universalist Convention's own worship book, five years after the
+      Winchester Profession; the movement's institutional voice in song.
+    url: "https://archive.org/details/hymnscomposedb00univ"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "universalist-church_hymns-composed-by-order-of-the-general-convention_1808.txt"
+
+  - title: "The Winchester Centennial, 1803-1903 (with the Profession of Belief)"
+    author: "Universalist Publishing House"
+    translator: "none"
+    year: "1903"
+    world: "early-american-unitarians-universalists"
+    why: >
+      Carries the text of the Winchester Profession of 1803, the
+      Universalist confession the census names; the centennial matter is
+      later reception.
+    url: "https://archive.org/details/winchestercenten00bost"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "universalist-church_winchester-centennial-with-the-profession-of-belief_1903.txt"
+
+  - title: "The Salvation of All Men strictly examined (Edwards the younger, 1790)"
+    author: "Jonathan Edwards (the younger)"
+    translator: "none"
+    year: "1790"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The main orthodox outside witness to the Universalist argument
+      inside the window, answering Chauncy point by point.
+    url: "https://archive.org/details/salvationofallme00edwa"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790.txt"
+
+  - title: "A Liturgy ... for the First Episcopal Church in Boston (King's Chapel, 1785)"
+    author: "King's Chapel, Boston (revision credited to James Freeman)"
+    translator: "none"
+    year: "1785"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The census's anchor event for the Unitarian thread: the first
+      American liturgy to remove the Trinity, in the congregation's own
+      book.
+    url: "https://archive.org/details/liturgycollected00king"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785.txt"
+
+  - title: "Sermons on Particular Occasions (Freeman, 1814)"
+    author: "James Freeman (attributed)"
+    translator: "none"
+    year: "1814"
+    world: "early-american-unitarians-universalists"
+    why: >
+      Preaching by the minister who led King's Chapel out of Trinitarian
+      worship, inside the window.
+    url: "https://archive.org/details/sermonsonpartic03freegoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "freeman-james_sermons-on-particular-occasions_1814.txt"
+
+  - title: "Sermon at the Opening of the Chapel in Essex Street (Lindsey, 1774)"
+    author: "Theophilus Lindsey"
+    translator: "none"
+    year: "1774"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The census's London precedent for the Unitarian thread: the Essex
+      Street Chapel's opening in 1774, in its founder's own words.
+    url: "https://archive.org/details/bim_eighteenth-century_a-sermon-preached-at-the_lindsey-theophilus_1774_0"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt"
+
+  - title: "American Unitarianism (Belsham, Boston third edition, 1815)"
+    author: "Thomas Belsham (with letters of James Freeman and William Wells)"
+    translator: "none"
+    year: "1815"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The Boston Unitarians' own letters on their history, published in
+      the window's last year, linking King's Chapel to Essex Street.
+    url: "https://archive.org/details/americanunitaria00bels"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "belsham_american-unitarianism-brief-history_1815.txt"
+
+  - title: "Discourses relating to the Evidences of Revealed Religion (Priestley, Philadelphia 1796)"
+    author: "Joseph Priestley"
+    translator: "none"
+    year: "1796"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The English Unitarian leader preaching in America, in a Universalist
+      pulpit: the two threads of this world in one room, inside the
+      window.
+    url: "https://archive.org/details/discoursesrelat00prieuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "priestley_discourses-on-the-evidences-of-revealed-religion-philadelphia_1796.txt"
+
+  - title: "Seven Sermons (Mayhew, 1749)"
+    author: "Jonathan Mayhew"
+    translator: "none"
+    year: "1749"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The earliest root of the Boston liberal tradition, twenty years
+      before the window; the brief names Mayhew's sermons.
+    url: "https://archive.org/details/sevensermonsupon00mayh"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "mayhew_seven-sermons_1749.txt"
+
+  - title: "Natural Religion, as distinguish'd from Revealed (Gay, Dudleian Lecture 1759)"
+    author: "Ebenezer Gay"
+    translator: "none"
+    year: "1759"
+    world: "early-american-unitarians-universalists"
+    why: >
+      A Hingham minister's lecture at Harvard on natural religion: the
+      rational-religion root of the Unitarian thread; the brief names Gay.
+    url: "https://archive.org/details/naturalreligiona00gaye"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "gay-ebenezer_natural-religion-as-distinguished-from-revealed-dudleian-lecture_1759.txt"
+
+  - title: "The Baltimore Sermon (Channing, 1819)"
+    author: "William Ellery Channing"
+    translator: "none"
+    year: "1819"
+    world: "early-american-unitarians-universalists"
+    why: >
+      The text the brief names as just outside the window: the Unitarian
+      thread's own creed-like statement, where this world ends and the
+      next begins.
+    url: "https://archive.org/details/cu31924104035930"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "channing_sermon-at-the-ordination-of-jared-sparks-baltimore_1819.txt"
+
+  - title: "Le Théâtre sacré des Cévennes (1707), Bost's reprint (1847)"
+    author: "François Maximilien Misson (compiler); the deponents"
+    translator: "none (original language); edited by A. Bost"
+    year: "1847"
+    world: "camisard-prophetism"
+    why: >
+      The movement's own voices: the London depositions of the Camisard
+      prophets, the first primary source the census names.
+    url: "https://archive.org/details/lesprophtespro00missuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "misson_theatre-sacre-des-cevennes-fra_bost1847.txt"
+
+  - title: "A Cry from the Desart (Lacy's English of the Théâtre sacré, 1707)"
+    author: "François Maximilien Misson (compiler); the deponents"
+    translator: "John Lacy"
+    year: "1707"
+    world: "camisard-prophetism"
+    why: >
+      The depositions in the English the London public read in 1707,
+      beside the French original.
+    url: "https://archive.org/details/bim_eighteenth-century_a-cry-from-the-desart-o_misson-maximilien_1707_0"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "misson_cry-from-the-desart_lacy1707.txt"
+
+  - title: "Memoirs of the Wars of the Cevennes (Cavalier, 1726)"
+    author: "Jean Cavalier"
+    translator: "none"
+    year: "1726"
+    world: "camisard-prophetism"
+    why: >
+      The participant memoir the census names: the revolt's most capable
+      commander telling his own war.
+    url: "https://archive.org/details/memoirsofwarsofc00cava"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "cavalier_memoirs-of-the-wars-of-the-cevennes_1726.txt"
+
+  - title: "Avertissements prophétiques d'Élie Marion (1707)"
+    author: "Élie Marion"
+    translator: "none (original language)"
+    year: "1707"
+    world: "camisard-prophetism"
+    why: >
+      Marion carried the prophecy to London; these are his inspired
+      warnings in his own French, the voice of a Camisard prophet in his
+      own words rather than reported.
+    url: "https://archive.org/details/bim_eighteenth-century_avertissements-prophetiq_marion-lie_1707"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "marion_avertissements-prophetiques-fra_1707.txt"
+
+  - title: "Prophetical Warnings of Elias Marion (English, 1707)"
+    author: "Élie Marion"
+    translator: "unnamed"
+    year: "1707"
+    world: "camisard-prophetism"
+    why: >
+      The English the London audience read, beside Marion's French.
+    url: "https://archive.org/details/bim_eighteenth-century_prophetical-warnings-of-_marion-lie_1707"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "marion_prophetical-warnings_1707.txt"
+
+  - title: "Warnings of the Eternal Spirit, second part (Lacy, 1707)"
+    author: "John Lacy"
+    translator: "none"
+    year: "1707"
+    world: "camisard-prophetism"
+    why: >
+      The movement's afterlife among the exiles' English followers, which
+      the census marks with Laborie's study; the followers' own voice.
+    url: "https://archive.org/details/bim_eighteenth-century_warnings-of-the-eternal-_lacy-john-pseudo-proph_1707"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "lacy-john_warnings-of-the-eternal-spirit_1707.txt"
+
+  - title: "The Manifesto of the Cevennois (1703)"
+    author: "the Camisard insurgents"
+    translator: "unnamed"
+    year: "1703"
+    world: "camisard-prophetism"
+    why: >
+      The rising's own statement of why it took up arms, issued during the
+      war.
+    url: "https://archive.org/details/bim_eighteenth-century_the-manifesto-of-the-cev_1703"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "camisards_manifesto-of-the-cevennois_1703.txt"
+
+  - title: "Examen du Théâtre sacré des Cévennes (1708)"
+    author: "the French Church of London (consistory), per the catalogue"
+    translator: "none (original language)"
+    year: "1708"
+    world: "camisard-prophetism"
+    why: >
+      The French Protestant refuge's own verdict on the prophets: a
+      hostile witness from inside the Reformed world, not the persecutor's
+      side.
+    url: "https://archive.org/details/bim_eighteenth-century_examen-du-thetre-sacr-_eglise-franoise-de-lond_1708"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "french-church-of-london_examen-du-theatre-sacre-fra_1708.txt"
+
+  - title: "Histoire des troubles des Cévennes, t. I (Court, 1819 edition)"
+    author: "Antoine Court"
+    translator: "none (original language)"
+    year: "1819"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      The Desert's own leader writing the Camisard war: the restored
+      church's account of its armed and prophetic prehistory, from the
+      manuscripts he collected.
+    url: "https://archive.org/details/histoiredestroub01cour"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "court-antoine_histoire-des-troubles-des-cevennes-t1-fra_1819.txt"
+
+  - title: "Histoire des troubles des Cévennes, t. II (Court, 1819 edition)"
+    author: "Antoine Court"
+    translator: "none (original language)"
+    year: "1819"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      Continues Court's history of the war.
+    url: "https://archive.org/details/histoiredestroub02cour"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "court-antoine_histoire-des-troubles-des-cevennes-t2-fra_1819.txt"
+
+  - title: "Histoire des troubles des Cévennes, t. III (Court, 1819 edition)"
+    author: "Antoine Court"
+    translator: "none (original language)"
+    year: "1819"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      Completes Court's history of the war.
+    url: "https://archive.org/details/histoiredestroub03cour"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "court-antoine_histoire-des-troubles-des-cevennes-t3-fra_1819.txt"
+
+  - title: "Histoire du fanatisme de notre tems, t. I-II (Brueys, 1755 edition)"
+    author: "David-Augustin de Brueys"
+    translator: "none (original language)"
+    year: "1755"
+    world: "camisard-prophetism"
+    why: >
+      The key hostile witness, and with Jurieu the earliest outside
+      account of Isabeau Vincent and the child prophets that the census
+      says survive only through observers.
+    url: "https://archive.org/details/bub_gb_4zCYRO3E_0YC"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "brueys_histoire-du-fanatisme-t1-t2-fra_1755.txt"
+
+  - title: "Le Fanatisme renouvelé (Louvreleul, 1704-1706; 1868 edition)"
+    author: "Jean-Baptiste Louvreleul"
+    translator: "none (original language)"
+    year: "1868"
+    world: "camisard-prophetism"
+    why: >
+      An eyewitness chronicle from the Catholic parish clergy inside the
+      war zone; the victims' side of the Camisard violence.
+    url: "https://archive.org/details/lefanatismereno00louvgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "louvreleul_fanatisme-renouvele-fra_1868.txt"
+
+  - title: "Lettres de Monsieur Fléchier, évêque de Nismes (1712)"
+    author: "Esprit Fléchier"
+    translator: "none (original language)"
+    year: "1712"
+    world: "camisard-prophetism"
+    why: >
+      The diocesan bishop's letters through the war: the Catholic
+      hierarchy watching the rising from Nîmes.
+    url: "https://archive.org/details/lettresdemonsie00flgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "flechier_lettres-fra_1712.txt"
+
+  - title: "Les Synodes du Désert, t. I, 1715-1750 (Hugues, 1885)"
+    author: "the synods of the Desert"
+    translator: "none (original language); edited by Edmond Hugues"
+    year: "1885"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      The world's institutional voice: the acts of the clandestine synods
+      that rebuilt French Protestantism from 1715, the source the census
+      names first.
+    url: "https://archive.org/details/lessynodesduds01egli"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt"
+
+  - title: "Les Synodes du Désert, t. II, 1751-1770 (Hugues, 1886)"
+    author: "the synods of the Desert"
+    translator: "none (original language); edited by Edmond Hugues"
+    year: "1886"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      Continues the synodal record through the middle decades.
+    url: "https://archive.org/details/lessynodesduds02egli"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "french-reformed-synods_synodes-du-desert-t2-fra_hugues1886.txt"
+
+  - title: "Les Synodes du Désert, t. III, 1771-1796 (Hugues, 1886)"
+    author: "the synods of the Desert"
+    translator: "none (original language); edited by Edmond Hugues"
+    year: "1886"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      Completes the synodal record to toleration and the Revolution.
+    url: "https://archive.org/details/lessynodesduds03egli"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "french-reformed-synods_synodes-du-desert-t3-fra_hugues1886.txt"
+
+  - title: "Antoine Court et ses sermons (Combe, 1896)"
+    author: "Antoine Court"
+    translator: "none (original language); edited by Ernest Combe"
+    year: "1896"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      The restorer of the Desert churches preaching: Court's own sermons,
+      the voice of the assemblies in the wilderness.
+    url: "https://archive.org/details/antoinecourtetse00comb"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "court-antoine_sermons-fra_combe1896.txt"
+
+  - title: "La Tour de Constance et ses prisonnières (Sagnier, 1880)"
+    author: "Charles Sagnier"
+    translator: "none (original language)"
+    year: "1880"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      The prison record of the Desert women the census names, with the
+      prisoners' surviving letter fragments.
+    url: "https://archive.org/details/latourdeconstan00sagngoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "sagnier_tour-de-constance-et-ses-prisonnieres-fra_1880.txt"
+
+  - title: "Le Vieux Cévenol (Rabaut Saint-Étienne, 1784)"
+    author: "Jean-Paul Rabaut Saint-Étienne"
+    translator: "none (original language)"
+    year: "1784"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      Paul Rabaut's son making the case for toleration: the Desert's
+      second generation writing for the French public, a voice the census
+      names.
+    url: "https://archive.org/details/levieuxcev00unse"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "rabaut-saint-etienne_vieux-cevenol-fra_1784.txt"
+
+  - title: "The Old Cevenol (Rabaut Saint-Étienne; Seddon's translation, 1911)"
+    author: "Jean-Paul Rabaut Saint-Étienne"
+    translator: "Alfred E. Seddon"
+    year: "1911"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      Reader-ready English of Rabaut Saint-Étienne's toleration story,
+      beside the French.
+    url: "https://archive.org/details/oldcevenol00raba"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "rabaut-saint-etienne_old-cevenol_seddon1911.txt"
+
+  - title: "Édit du Roi concernant les non-catholiques (Edict of Toleration, 1787)"
+    author: "Louis XVI, King of France"
+    translator: "none (original language)"
+    year: "1788"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      The act that closes this world's window, as the census dates it; the
+      counterpart of the Revocation edict already vendored.
+    url: "https://archive.org/details/ditduroiconcerna00fran"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "louis-xvi-france_edit-concernant-les-non-catholiques-fra_1788.txt"
+
+  - title: "Histoire des églises du désert, t. I (Coquerel, 1841)"
+    author: "Charles Coquerel"
+    translator: "none (original language)"
+    year: "1841"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      The documents of the Desert from Paul Rabaut's papers, in the
+      history that first used them.
+    url: "https://archive.org/details/histoiredesgli01coqu"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "coquerel-charles_histoire-des-eglises-du-desert-t1-fra_1841.txt"
+
+  - title: "Histoire des églises du désert, t. II (Coquerel, 1841)"
+    author: "Charles Coquerel"
+    translator: "none (original language)"
+    year: "1841"
+    world: "church-of-the-desert-huguenots"
+    why: >
+      Completes Coquerel's history and its documents to the Revolution.
+    url: "https://archive.org/details/histoiredesgli02coqu"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "coquerel-charles_histoire-des-eglises-du-desert-t2-fra_1841.txt"
+
+  - title: "Unigenitus (Clement XI, 1713), Latin and English"
+    author: "Pope Clement XI"
+    translator: "unnamed (contemporary English)"
+    year: "1713"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The bull the census puts first among this world's sources: the papal
+      condemnation of Quesnel that convulsed the French church for fifty
+      years.
+    url: "https://archive.org/details/bim_eighteenth-century_the-constitution-of-his-_catholic-church-pope-1_1713"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "clement-xi_unigenitus-lat-eng_1713.txt"
+
+  - title: "The Bulls of Clement XIV and Pius VII on the Jesuits (1773, 1814)"
+    author: "Pope Clement XIV; Pope Pius VII"
+    translator: "unnamed (London Chronicle, 1773; Orthodox Journal, 1814)"
+    year: "1814"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The suppression of 1773 and the restoration of 1814 in the popes'
+      own words: the two acts that bracket the census story of the
+      Jesuits.
+    url: "https://archive.org/details/bullsofpopesclem00cath"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt"
+
+  - title: "Bref de Pie VI sur la Constitution civile du clergé (1791)"
+    author: "Pope Pius VI"
+    translator: "contemporary French version; translator not named"
+    year: "1791"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The Holy See's answer to the Civil Constitution of 1790, which the
+      census names among the revolutionary records.
+    url: "https://archive.org/details/brefdupape00unse_1"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "pius-vi_bref-sur-la-constitution-civile-du-clerge-fra_1791.txt"
+
+  - title: "Auctorem fidei (Pius VI, 1794)"
+    author: "Pope Pius VI"
+    translator: "none (original language)"
+    year: "1794"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The last great doctrinal act of the ancien-régime papacy, closing
+      the Jansenist and reform controversy in Italy.
+    url: "https://archive.org/details/bub_gb_AZn2xNN9968C"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "pius-vi_auctorem-fidei-lat_1794.txt"
+
+  - title: "Constitutions and Select Documents of France, 1789-1907 (Anderson, 1908)"
+    author: "Frank Maloy Anderson (ed.)"
+    translator: "Frank Maloy Anderson"
+    year: "1908"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The Civil Constitution of 1790 and the Concordat of 1801 that the
+      census names, in public-domain English.
+    url: "https://archive.org/details/constitutionsoth0000ande_z1z2"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt"
+
+  - title: "The Glories of Mary (Liguori; New York edition, 1852)"
+    author: "Alphonsus Maria de Liguori"
+    translator: "unnamed"
+    year: "1852"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The devotional voice of the era's most influential moral theologian
+      and mission preacher, whom the census names; his most read book.
+    url: "https://www.gutenberg.org/ebooks/72411"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "liguori_glories-of-mary_1852.txt"
+
+  - title: "Letters of St. Alphonsus de Liguori, vol. I (Grimm, 1891)"
+    author: "Alphonsus Maria de Liguori"
+    translator: "unnamed Redemptorist translators; edited by Eugene Grimm"
+    year: "1891"
+    world: "catholic-church-ancien-regime"
+    why: >
+      Liguori founding and governing the Redemptorists in his own letters,
+      the founding the census names.
+    url: "https://archive.org/details/alphonsusworks18liguuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "liguori_letters-v1_grimm1891.txt"
+
+  - title: "A Treatise on the True Devotion to the Blessed Virgin (Montfort; Faber, 1863)"
+    author: "Louis-Marie Grignion de Montfort"
+    translator: "Frederick William Faber"
+    year: "1863"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The mission preacher of western France at the start of the century;
+      a central text of the period's popular Marian piety.
+    url: "https://archive.org/details/ATreatiseOnTheTrueDevotion"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "montfort_true-devotion-to-the-blessed-virgin_faber1863.txt"
+
+  - title: "Oraisons funèbres (Bossuet; Doumic's edition, 1928)"
+    author: "Jacques-Bénigne Bossuet"
+    translator: "none (original language)"
+    year: "1928"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The bishop of Meaux, author of the Gallican Articles, in his best-
+      known preaching; the voice of the Gallican church of Louis XIV.
+    url: "https://www.gutenberg.org/ebooks/77452"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "bossuet_oraisons-funebres-fra_doumic1928.txt"
+
+  - title: "Histoire du clergé pendant la Révolution françoise (Barruel, 1793)"
+    author: "Augustin Barruel"
+    translator: "none (original language)"
+    year: "1793"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The refractory clergy's own account of the split and the massacres,
+      by a priest who fled them; the census names the oath and its
+      refusers.
+    url: "https://archive.org/details/bim_eighteenth-century_histoire-du-clerg-penda_barruel-abb-augustin_1793"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "barruel_histoire-du-clerge-pendant-la-revolution-fra_1793.txt"
+
+  - title: "Histoire des religieuses carmélites de Compiègne (1836)"
+    author: "Sœur Marie de l'Incarnation of Compiègne"
+    translator: "none (original language)"
+    year: "1836"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The survivor's own account behind the census story of the sixteen
+      Carmelites singing to the scaffold.
+    url: "https://archive.org/details/histoiredesreli00sgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836.txt"
+
+  - title: "Histoire de l'enlèvement et de la captivité de Pie VI (Baldassari, French 1839)"
+    author: "Pietro Baldassari"
+    translator: "named on the title page; the name is garbled in the scan"
+    year: "1839"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The record of Pius VI's captivity the census names, by an eyewitness
+      on the papal side.
+    url: "https://archive.org/details/histoiredelenl00bald"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "baldassari_enlevement-et-captivite-de-pie-vi-fra_1839.txt"
+
+  - title: "La Captivité et la mort de Pie VI (Merck, 1814)"
+    author: "General de Merck"
+    translator: "none (original language)"
+    year: "1814"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The pope's death at Valence seen by the officer who held him; the
+      outside witness beside Baldassari.
+    url: "https://archive.org/details/lacaptivitetlam00mercgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "merck_captivite-et-mort-de-pie-vi-fra_1814.txt"
+
+  - title: "The Garden of the Soul (Challoner, 1755 printing)"
+    author: "Richard Challoner"
+    translator: "none"
+    year: "1755"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The lay devotion of the Catholic minority under the penal laws, by
+      the vicar apostolic of London; the era's church outside the Catholic
+      states.
+    url: "https://archive.org/details/bim_eighteenth-century_the-garden-of-the-soul-_challoner-richard_1755"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "challoner_garden-of-the-soul_1755.txt"
+
+  - title: "Della regolata divozione de' cristiani (Muratori, 1748)"
+    author: "Lodovico Antonio Muratori"
+    translator: "none (original language)"
+    year: "1748"
+    world: "catholic-church-ancien-regime"
+    why: >
+      The broader current of Catholic Enlightenment the census names, in
+      its most influential devotional treatise.
+    url: "https://archive.org/details/bub_gb_XGb89Fg3TwMC"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "muratori_della-regolata-divozione-de-cristiani-ita_1748.txt"
+
+  - title: "A Brief Account of the Life of Howell Harris, with his letters (Trevecka, 1791)"
+    author: "Howell Harris"
+    translator: "none"
+    year: "1791"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The revival's founding itinerant in his own words, from the papers
+      behind the census's 'Trevecka diaries', with the letters that tie
+      Wales to Whitefield's London.
+    url: "https://archive.org/details/abriefaccountli00harrgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "harris-howell_brief-account-of-the-life-with-letters_1791.txt"
+
+  - title: "The Last Message and Dying Testimony of Howell Harris (Trevecka, 1774)"
+    author: "Howell Harris"
+    translator: "none"
+    year: "1774"
+    world: "the-welsh-revival-tradition"
+    why: >
+      Harris's own last word to the movement, printed by the Trevecka
+      family he founded.
+    url: "https://archive.org/details/TheLastMessageAndDyingTestimonyOfHowellHarris"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "harris-howell_last-message-and-dying-testimony_1774.txt"
+
+  - title: "Gweithiau William Williams Pant-y-Celyn, cyf. I: the poetry (Welsh, 1887)"
+    author: "William Williams, Pantycelyn"
+    translator: "none (original language)"
+    year: "1887"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The census-named Theomemphus and the long poems of the revival's
+      poet in Welsh, from an edition collated against his own printings.
+    url: "https://archive.org/details/pantycelyn_gweithiau1"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "williams-pantycelyn_gweithiau-v1-cym_cynhafal-jones1887.txt"
+
+  - title: "Gweithiau William Williams Pant-y-Celyn, cyf. II: hymns, Drws y Society Profiad and prose (Welsh, 1891)"
+    author: "William Williams, Pantycelyn"
+    translator: "none (original language)"
+    year: "1891"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The hymn corpus the census names, with Drws y Society Profiad, the
+      movement's own handbook for the seiat, in Welsh from a collated
+      edition.
+    url: "https://archive.org/details/pantycelyn_gweithiau2"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "williams-pantycelyn_gweithiau-v2-hymnau-a-rhyddiaith-cym_cynhafal-jones1891.txt"
+
+  - title: "Daniel Rowland, Eight Sermons upon Practical Subjects (English, 1774)"
+    author: "Daniel Rowland"
+    translator: "unnamed"
+    year: "1774"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The Llangeitho preacher in the only form of his preaching that
+      survives in clean public-domain type, English made in his lifetime.
+    url: "https://archive.org/details/bim_eighteenth-century_eight-sermons-upon-pract_rowland-daniel_1774"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "rowland-daniel_eight-sermons-upon-practical-subjects_1774.txt"
+
+  - title: "Daniel Rowland, Three Sermons upon Practical Subjects (English, 1778)"
+    author: "Daniel Rowland"
+    translator: "John Davies"
+    year: "1778"
+    world: "the-welsh-revival-tradition"
+    why: >
+      More of Rowland's preaching in contemporary English, with a
+      contemporary account of the Llangeitho communion Sundays.
+    url: "https://archive.org/details/bim_eighteenth-century_three-sermons-upon-pract_rowland-daniel_1778"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "rowland-daniel_three-sermons-upon-practical-subjects_davies1778.txt"
+
+  - title: "Welch Piety: report of the circulating Welsh charity schools, 1759-1760"
+    author: "Griffith Jones"
+    translator: "none"
+    year: "1760"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The schools that made the revival's Welsh readers, with parish
+      testimony from every county; Rowland's mentor in his own
+      administrative voice.
+    url: "https://archive.org/details/bim_eighteenth-century_welch-piety-or-a-farth_jones-griffith_1760"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "jones-griffith_welch-piety-1759-1760_1760.txt"
+
+  - title: "Galwad at Orseddfaingc y Gras, 2nd ed. (Welsh, c. 1750)"
+    author: "Griffith Jones"
+    translator: "none (original language)"
+    year: "1750"
+    world: "the-welsh-revival-tradition"
+    why: >
+      Welsh devotional teaching from the schools' own press: what a newly
+      literate member of a seiat would have read.
+    url: "https://archive.org/details/bim_eighteenth-century_galwad-at-orseddfaingc-y_jones-griffith_1750"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "jones-griffith_galwad-at-orseddfaingc-y-gras-cym_1750.txt"
+
+  - title: "Edmund Jones, Account of the Parish of Aberystruth (Trevecka, 1779)"
+    author: "Edmund Jones"
+    translator: "none"
+    year: "1779"
+    world: "the-welsh-revival-tradition"
+    why: >
+      A Welsh Dissenting minister, friend of the revival, describing
+      ordinary religious life in one parish, with memoirs of its members;
+      printed by Harris's press.
+    url: "https://archive.org/details/bim_eighteenth-century_a-geographical-historic_jones-edmund-dissentin_1779"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "jones-edmund_account-of-the-parish-of-aberystruth_1779.txt"
+
+  - title: "Edmund Jones, A Relation of Apparitions of Spirits in Wales (1780)"
+    author: "Edmund Jones"
+    translator: "none"
+    year: "1780"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The spirit-world the revival's Welsh hearers lived in, recorded by a
+      minister who believed it; the world's historical otherness in a
+      contemporary's own words.
+    url: "https://archive.org/details/bim_eighteenth-century_a-relation-of-apparition_jones-edmund_1780"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "jones-edmund_relation-of-apparitions-of-spirits-in-wales_1780.txt"
+
+  - title: "Zinzendorf, Un Ymadrodd ar bumtheg (Welsh, 1760)"
+    author: "Nikolaus Ludwig von Zinzendorf"
+    translator: "Evan Williams"
+    year: "1760"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The Brethren's preaching put into Welsh, the one Moravian text found
+      in the language of the revival; evidence for the Moravian strand in
+      Wales.
+    url: "https://archive.org/details/bim_eighteenth-century_un-ymadrodd-ar-bumtheg-y_zinzendorf-nicolaus-lud_1760"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "zinzendorf_un-ymadrodd-ar-bumtheg-cym_williams1760.txt"
+
+  - title: "Cofiant Thomas Charles (Welsh, Bala 1816)"
+    author: "Thomas Jones (with Thomas Charles's papers)"
+    translator: "Thomas Jones (Charles's English papers into Welsh)"
+    year: "1816"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The census-named voice Thomas Charles in his own diary and letters,
+      in the Welsh life printed at Bala two years after his death.
+    url: "https://archive.org/details/cofiantneuhanes00jonegoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "jones-thomas_cofiant-thomas-charles-cym_1816.txt"
+
+  - title: "History, Constitution, Rules of Discipline and Confession of Faith of the Calvinistic Methodists in Wales (1834)"
+    author: "Calvinistic Methodists in Wales (their associated ministers)"
+    translator: "unnamed"
+    year: "1834"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The movement's own rules for the seiat and its connexional order, in
+      the words of its ministers, with the 1801 Rules of Discipline inside
+      the window's edge.
+    url: "https://archive.org/details/historyconstitut00wels"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "calvinistic-methodists-wales_history-constitution-rules-confession_1834.txt"
+
+  - title: "John Hughes, Methodistiaeth Cymru, cyf. I (Welsh, 1851)"
+    author: "John Hughes"
+    translator: "none (original language)"
+    year: "1851"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The movement's own Welsh-language history, carrying the early
+      association minutes and society records the census calls archival.
+    url: "https://archive.org/details/methodistiaethcy01hughuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "hughes-john_methodistiaeth-cymru-v1-cym_1851.txt"
+
+  - title: "The Hymns of Ann Griffiths, in English verse (Pughe, 1900)"
+    author: "Ann Griffiths"
+    translator: "George Richard Gould Pughe"
+    year: "1900"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The census-named woman's voice of the revival, in the only public-
+      domain text of her hymns found this pass; transmission layers to be
+      named in every use.
+    url: "https://www.gutenberg.org/ebooks/51190"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "griffiths-ann_hymns-in-english-verse_pughe1900.txt"
+
+  - title: "Joseph Morris, Favourite Welsh Hymns translated into English (1854)"
+    author: "Joseph Morris (translator)"
+    translator: "Joseph Morris"
+    year: "1854"
+    world: "the-welsh-revival-tradition"
+    why: >
+      The revival's hymns as English readers first received them, with the
+      Welsh first lines kept for matching against Williams's own texts.
+    url: "https://www.gutenberg.org/ebooks/30370"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "morris-joseph_favourite-welsh-hymns-translated_1854.txt"
+
+  - title: "The Works of John Smyth, vol. II: the Baptist writings (Whitley, 1915)"
+    author: "John Smyth"
+    translator: "none"
+    year: "1915"
+    world: "the-baptists"
+    why: >
+      The census-named first step of 1609 in its maker's own words: The
+      Character of the Beast and the confessions of the Amsterdam
+      congregation.
+    url: "https://archive.org/details/worksofjohnsmyth0002smyt"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "smyth_works-v2_whitley1915.txt"
+
+  - title: "Bunyan, Grace Abounding, Relation of the Imprisonment and The Pilgrim's Progress (Brown, 1907)"
+    author: "John Bunyan"
+    translator: "none"
+    year: "1907"
+    world: "the-baptists"
+    why: >
+      The census-named Grace Abounding and Pilgrim's Progress in a text
+      from Bunyan's own editions, with his account of his imprisonment for
+      preaching.
+    url: "https://archive.org/details/graceaboundingpi01buny"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "bunyan_grace-abounding-relation-of-imprisonment-pilgrims-progress_brown1907.txt"
+
+  - title: "The Records of the Broadmead Church, Bristol, 1640-1687 (Underhill, 1847)"
+    author: "the Broadmead church, Bristol (Edward Terrill); ed. E. B. Underhill"
+    translator: "none"
+    year: "1847"
+    world: "the-baptists"
+    why: >
+      A gathered church's own book across the whole Restoration
+      persecution, with its women members named and heard; one of the
+      census's named church records.
+    url: "https://archive.org/details/therecordsofachu00terruoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "broadmead-church_records-1640-1687_underhill1847.txt"
+
+  - title: "Records of the Churches at Fenstanton, Warboys and Hexham, 1644-1720 (Underhill, 1854)"
+    author: "the churches of Fenstanton, Warboys and Hexham; ed. E. B. Underhill"
+    translator: "none"
+    year: "1854"
+    world: "the-baptists"
+    why: >
+      General and Particular Baptist church books side by side, the
+      census-named Underhill editions; ordinary members' discipline and
+      letters across the Interregnum and Restoration.
+    url: "https://archive.org/details/recordsofchurche00unde"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fenstanton-church_records-of-fenstanton-warboys-hexham_underhill1854.txt"
+
+  - title: "Minutes of the General Assembly of the General Baptist Churches, vol. I, 1654-1728 (Whitley, 1909)"
+    author: "General Assembly of the General Baptist churches; ed. W. T. Whitley"
+    translator: "none"
+    year: "1909"
+    world: "the-baptists"
+    why: >
+      The census's 'association records' for the General Baptist wing: its
+      own national assembly's minutes from the Interregnum on.
+    url: "https://archive.org/details/cu31924092446297"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt"
+
+  - title: "Minutes of the General Assembly of the General Baptist Churches, vol. II, 1731-1811 (Whitley, 1910)"
+    author: "General Assembly of the General Baptist churches; ed. W. T. Whitley"
+    translator: "none"
+    year: "1910"
+    world: "the-baptists"
+    why: >
+      The General Baptist assembly through the eighteenth century to 1811,
+      the whole remaining window in its own minutes.
+    url: "https://archive.org/details/cu31924092446305"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt"
+
+  - title: "Persecution for Religion Judg'd and Condemn'd (1615/1620; reprinted 1662)"
+    author: "anonymous (early English Baptists; the host attributes it to Thomas Helwys)"
+    translator: "none"
+    year: "1662"
+    world: "the-baptists"
+    why: >
+      The first Baptists' case for complete liberty of conscience, the
+      census's Helwys-circle theme, in the only clean public-domain text
+      found; reprinted at the start of the Restoration persecution.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_persecution-for-religion_helwys-thomas_1662"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "early-baptists_persecution-for-religion-judgd-and-condemnd_1662.txt"
+
+  - title: "Samuel James, An Abstract of the Gracious Dealings of God, with Agnes Beaumont's narrative (1760)"
+    author: "Samuel James (compiler); Agnes Beaumont and others"
+    translator: "none"
+    year: "1760"
+    world: "the-baptists"
+    why: >
+      The first printing of Agnes Beaumont's narrative, the census's named
+      woman's voice of Bunyan's congregation, with other members' own
+      conversion accounts.
+    url: "https://archive.org/details/bim_eighteenth-century_an-abstract-of-the-graci_james-samuel_1760"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "james-samuel_abstract-of-the-gracious-dealings-of-god_1760.txt"
+
+  - title: "Anne Dutton, Letters on Spiritual Subjects, vol. 1 (1740)"
+    author: "Anne Dutton"
+    translator: "none"
+    year: "1740"
+    world: "the-baptists"
+    why: >
+      A Baptist woman's own spiritual counsel in print, in the decade of
+      the evangelical revival; a women's voice beside Agnes Beaumont.
+    url: "https://archive.org/details/lettersonspiritu01dutt"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "dutton-anne_letters-on-spiritual-subjects-v1_1740.txt"
+
+  - title: "John Rippon, The Baptist Annual Register, 1790-1793, with George Liele's letters and David George's narrative"
+    author: "John Rippon (ed.); George Liele, David George and other correspondents"
+    translator: "none"
+    year: "1793"
+    world: "the-baptists"
+    why: >
+      The census-named primary text for the Black Baptist preachers George
+      Liele and David George, in their own words as London first printed
+      them, beside the BMS founding papers.
+    url: "https://archive.org/details/baptistannualreg00ripp_0"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "rippon_baptist-annual-register-1790-1793_1793.txt"
+
+  - title: "William Carey, An Enquiry into the Obligations of Christians (1792)"
+    author: "William Carey"
+    translator: "none"
+    year: "1792"
+    world: "the-baptists"
+    why: >
+      The census-named 1792 appeal that founded the BMS, the hinge of the
+      world's window, in its own words.
+    url: "https://www.gutenberg.org/ebooks/11449"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "carey-william_enquiry-into-the-obligations-of-christians_1792.txt"
+
+  - title: "Andrew Fuller, The Gospel Worthy of All Acceptation, 3rd ed. (1805)"
+    author: "Andrew Fuller"
+    translator: "none"
+    year: "1805"
+    world: "the-baptists"
+    why: >
+      The theological turn that made the Baptist missionary movement
+      possible, by the BMS's first secretary.
+    url: "https://archive.org/details/gospelworthyall01fullgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fuller-andrew_gospel-worthy-of-all-acceptation_1805.txt"
+
+  - title: "Isaac Backus, An Appeal to the Public for Religious Liberty (Boston, 1773)"
+    author: "Isaac Backus"
+    translator: "none"
+    year: "1773"
+    world: "the-baptists"
+    why: >
+      The American Baptists' own case for religious liberty, by their
+      leading New England minister; the 'then America' half of the world.
+    url: "https://archive.org/details/anappealtopubli00backgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "backus-isaac_appeal-to-the-public-for-religious-liberty_1773.txt"
+
+  - title: "The Baptist Catechism, commonly called Keach's Catechism (1851 printing)"
+    author: "Benjamin Keach"
+    translator: "none"
+    year: "1851"
+    world: "the-baptists"
+    why: >
+      The Particular Baptist catechism used on both sides of the Atlantic,
+      beside the confessions already in the Library.
+    url: "https://archive.org/details/MN40248ucmf_4"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "keach-benjamin_baptist-catechism_1851.txt"
+
+  - title: "Reliquiae Baxterianae: Richard Baxter's narrative of his life and times (Sylvester, 1696)"
+    author: "Richard Baxter"
+    translator: "none"
+    year: "1696"
+    world: "english-old-dissent"
+    why: >
+      The census's first voice in his own words: the ejection of 1662 and
+      the founding of Nonconformity from inside, in the folio of 1696.
+    url: "https://archive.org/details/reliquiaebaxteri00baxt"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "baxter_reliquiae-baxterianae_sylvester1696.txt"
+
+  - title: "Matthew Henry, An Account of the Life and Death of Mr. Philip Henry (1712)"
+    author: "Matthew Henry"
+    translator: "none"
+    year: "1712"
+    world: "english-old-dissent"
+    why: >
+      An ejected minister's life written by his son, the Dissenting
+      household from 1662 to the Toleration in its own words.
+    url: "https://archive.org/details/anaccountlifean00henrgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "henry-matthew_account-of-the-life-and-death-of-philip-henry_1712.txt"
+
+  - title: "Diaries and Letters of Philip Henry, 1631-1696 (Lee, 1882)"
+    author: "Philip Henry"
+    translator: "none"
+    year: "1882"
+    world: "english-old-dissent"
+    why: >
+      An ordinary ejected minister's own daily record across the whole
+      persecution, beside his son's life of him.
+    url: "https://archive.org/details/diarieslettersof00henr"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "henry-philip_diaries-and-letters_lee1882.txt"
+
+  - title: "Edmund Calamy, An Historical Account of My Own Life, vol. II, 1703-1731 (Rutt, 1829)"
+    author: "Edmund Calamy"
+    translator: "none"
+    year: "1829"
+    world: "english-old-dissent"
+    why: >
+      The Salters' Hall controversy the census names, told from inside by
+      the Dissenting ministry's own historian.
+    url: "https://archive.org/details/historicalaccoun02calauoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "calamy_historical-account-of-my-own-life-v2_rutt1829.txt"
+
+  - title: "An Account of the Late Proceedings of the Dissenting Ministers at Salters-Hall (1719)"
+    author: "John Shute Barrington (attributed)"
+    translator: "none"
+    year: "1719"
+    world: "english-old-dissent"
+    why: >
+      The non-subscribers' case at Salters' Hall in 1719, the census's
+      named turning point, in a pamphlet of that year.
+    url: "https://archive.org/details/bim_eighteenth-century_an-account-of-the-late-p_barrington-john-shute-b_1719_0"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "barrington-john-shute_account-of-late-proceedings-at-salters-hall_1719.txt"
+
+  - title: "Thomas Ridgley, The Unreasonableness of the Charge of Imposition (1719)"
+    author: "Thomas Ridgley"
+    translator: "none"
+    year: "1719"
+    world: "english-old-dissent"
+    why: >
+      The subscribers' side of Salters' Hall, so that the world holds both
+      voices of the 1719 division.
+    url: "https://archive.org/details/bim_eighteenth-century_the-unreasonableness-of-_ridgley-thomas_1719"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "ridgley-thomas_unreasonableness-of-the-charge-of-imposition_1719.txt"
+
+  - title: "Isaac Watts, Hymns and Spiritual Songs, 9th ed. (1725)"
+    author: "Isaac Watts"
+    translator: "none"
+    year: "1725"
+    world: "english-old-dissent"
+    why: >
+      The census-named hymn revolution in Watts's own book, in an edition
+      from his lifetime.
+    url: "https://archive.org/details/bim_eighteenth-century_hymns-and-spiritual-song_watts-isaac_1725"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "watts_hymns-and-spiritual-songs-ninth-edition_1725.txt"
+
+  - title: "Isaac Watts, The Psalms of David Imitated (1719)"
+    author: "Isaac Watts"
+    translator: "none"
+    year: "1719"
+    world: "english-old-dissent"
+    why: >
+      The census-named Psalms of 1719 in its first edition, with Watts's
+      own argument for Christianising the Psalter.
+    url: "https://archive.org/details/chrtwimi00watt"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "watts_psalms-of-david-imitated_1719.txt"
+
+  - title: "Philip Doddridge, The Rise and Progress of Religion in the Soul, 2nd ed. (1745)"
+    author: "Philip Doddridge"
+    translator: "none"
+    year: "1745"
+    world: "english-old-dissent"
+    why: >
+      The census-named devotional classic of Old Dissent in the year of
+      its first publication.
+    url: "https://archive.org/details/riseprogressofre00doddri"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "doddridge_rise-and-progress-of-religion-in-the-soul_1745.txt"
+
+  - title: "Memoirs of Dr. Joseph Priestley, written by himself, vol. I (1806)"
+    author: "Joseph Priestley"
+    translator: "none"
+    year: "1806"
+    world: "english-old-dissent"
+    why: >
+      The census's named Unitarian voice: an academy-trained Dissenting
+      minister's own account of moving from Calvinism to Unitarian belief.
+    url: "https://archive.org/details/memoirsofdrjosep01prie"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "priestley_memoirs-to-1795-v1_1806.txt"

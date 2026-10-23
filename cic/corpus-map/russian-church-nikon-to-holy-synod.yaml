@@ -29,6 +29,34 @@ works:
 
     '
   source_file: avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt
+- row_id: consett_collection-of-tracts-on-peter-the-great-v2_1729--a-collection-of-several-valuable-tracts-relating-to-peter
+  work: 'A Collection of several valuable Tracts relating to Peter the Great (1729): the other
+    tracts'
+  author: consett
+  locus: the fleet, Derbent, last-sickness, funeral and chronology tracts, and the Bishop
+    of Ryazan's sermon
+  role: context
+  confidence: provisional
+  note: The court and church around Peter's death in documents Consett translated; the Ryazan
+    sermon is a Synodal bishop's and could be split out as tradition on a closer reading.
+  source_file: consett_collection-of-tracts-on-peter-the-great-v2_1729.txt
+- row_id: spiritual-regulation_present-state-and-regulations-of-the-church-of-russia-v1_consett1729--consett-s-preface-to-the-present-state-and-regulations-of
+  work: Consett's preface to The Present State and Regulations of the Church of Russia (1729)
+  author: consett
+  locus: the preface
+  role: context
+  confidence: assigned
+  note: An English chaplain at St Petersburg describing the church and Peter's reform as he
+    saw them in the 1720s.
+  source_file: spiritual-regulation_present-state-and-regulations-of-the-church-of-russia-v1_consett1729.txt
+- row_id: dimitrii-rostovskii_tvoreniia-rus_sytin1889--selections
+  work: Творения святаго Димитрия, митрополита Ростовскаго (selections)
+  author: dimitrii-rostovskii
+  locus: the selections from his works; the editor's life is a separate witness
+  role: tradition
+  confidence: assigned
+  note: The church's preacher and hagiographer of the Petrine years in his own words.
+  source_file: dimitrii-rostovskii_tvoreniia-rus_sytin1889.txt
 - row_id: kyiv-synopsis_sinopsis-chu_1762--sinopsis-ili-kratkoe-opisanie-ot-razlichnykh-letopistsev-the-2
   work: Sinopsis, ili kratkoe opisanie ot razlichnykh letopistsev (the Kyiv Synopsis), St
     Petersburg printing of 1762
@@ -40,6 +68,26 @@ works:
     of the Kyivan revival's reach into Russian church and state history after 1652. Placed
     on that reprint, not on a reading of the text for the Nikon controversy.
   source_file: kyiv-synopsis_sinopsis-chu_1762.txt
+- row_id: ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873--history-of-the-condemnation-of-the-patriarch-nicon
+  work: History of the Condemnation of the Patriarch Nicon
+  author: ligarides
+  locus: Ligarides' history; Palmer's preface and supplements excluded
+  role: tradition
+  confidence: provisional
+  note: The council's case against its own patriarch as its conductor wrote it for the tsar;
+    the establishment's account, by a Greek in Russian service, so provisional as the church's
+    own voice.
+  source_file: ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt
+- row_id: nikon_replies-against-streshnev-and-ligarides_palmer1871--the-questions-of-simeon-streshnev-and-the-answers-of-paisius
+  work: The questions of Simeon Streshnev and the answers of Paisius Ligarides on Nikon's
+    case
+  author: ligarides
+  locus: the answers printed under each question
+  role: tradition
+  confidence: provisional
+  note: The case against Nikon as the tsar's party framed it before the council; Ligarides
+    was a Greek prelate in the tsar's service, so placed as the establishment's voice provisionally.
+  source_file: nikon_replies-against-streshnev-and-ligarides_palmer1871.txt
 - row_id: mogila_orthodox-confession_overbeck1898--the-orthodox-confession-of-the-catholic-and-apostolic-5
   work: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa),
     English version
@@ -55,6 +103,25 @@ works:
 
     '
   source_file: mogila_orthodox-confession_overbeck1898.txt
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-1838-english-1842
+  work: A History of the Church of Russia (1838; English 1842)
+  author: mouravieff
+  locus: the chapters from Nikon to the founding of the Synod
+  role: transmission
+  confidence: assigned
+  note: The Synod's own officer narrating this period two decades after it closed; the church's
+    received account, not a witness of the events.
+  source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
+- row_id: nikon_replies-against-streshnev-and-ligarides_palmer1871--the-replies-of-the-humble-nicon-against-the-questions-of
+  work: The Replies of the Humble Nicon against the questions of Streshnev and the answers
+    of Ligarides
+  author: nikon
+  locus: Nikon's replies; Palmer's preface and notes excluded
+  role: tradition
+  confidence: assigned
+  note: The patriarch of the reforms defending his office and his claim for the priesthood
+    against the tsar; the church's own voice at its most contested.
+  source_file: nikon_replies-against-streshnev-and-ligarides_palmer1871.txt
 - row_id: olearius_voyages-and-travels-of-the-ambassadors_davies1662--the-voyages-and-travels-of-the-ambassadors-from-the-duke-of-2
   work: The Voyages and Travels of the Ambassadors from the Duke of Holstein to Muscovy and
     Persia (Olearius, John Davies's English, 1662)
@@ -67,6 +134,79 @@ works:
   note: Written of the church on the eve of Nikon's reforms; placed on window and place, not
     read for that entry.
   source_file: olearius_voyages-and-travels-of-the-ambassadors_davies1662.txt
+- row_id: paul-of-aleppo_travels-of-macarius-v1_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-1-the-cossack
+  work: 'The Travels of Macarius (Paul of Aleppo), vol. 1: the Cossack country, Kiev and the
+    arrival in Moscow'
+  author: paul-of-aleppo
+  locus: Books V-VIII
+  role: context
+  confidence: provisional
+  note: Kiev's monasteries and Nikon's Moscow seen by an Eastern patriarch's archdeacon; context
+    for the Russian and Kyivan worlds, provisional.
+  source_file: paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt
+- row_id: paul-of-aleppo_travels-of-macarius-v2_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-2-moscow-and
+  work: 'The Travels of Macarius (Paul of Aleppo), vol. 2: Moscow and Novgorod under Nikon
+    and Alexis'
+  author: paul-of-aleppo
+  locus: Books IX-XIV
+  role: context
+  confidence: provisional
+  note: An Eastern patriarch's party watching Nikon's Russia in the years of the liturgical
+    reform; context for the Russian world, provisional.
+  source_file: paul-of-aleppo_travels-of-macarius-v2_belfour1836.txt
+- row_id: platon_present-state-of-the-greek-church-in-russia_pinkerton1814--pinkerton-s-preliminary-memoir-and-appendix-on-the-russian
+  work: Pinkerton's preliminary memoir and appendix on the Russian dissenters
+  author: pinkerton
+  locus: the memoir and the appendix
+  role: context
+  confidence: provisional
+  note: A Bible Society agent's account of the establishment and of the dissenting sects,
+    written from inside Russia in 1814.
+  source_file: platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt
+- row_id: platon_present-state-of-the-greek-church-in-russia_pinkerton1814--a-summary-of-christian-divinity-platon-english-of-1814
+  work: A Summary of Christian Divinity (Platon), English of 1814
+  author: platon
+  locus: Platon's summary; Pinkerton's memoir and appendix excluded
+  role: tradition
+  confidence: assigned
+  note: The metropolitan of Moscow's own catechetical theology, the church teaching in its
+    own name.
+  source_file: platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt
+- row_id: consett_collection-of-tracts-on-peter-the-great-v2_1729--funeral-oration-and-panegyrical-oration-on-peter-the-great
+  work: Funeral Oration and Panegyrical Oration on Peter the Great (English, 1729)
+  author: prokopovich
+  locus: the two orations by the Archbishop of Novgorod
+  role: tradition
+  confidence: assigned
+  note: The first member of the Synod preaching the tsar who abolished the patriarchate; the
+    Synodal church's political theology in its own pulpit.
+  source_file: consett_collection-of-tracts-on-peter-the-great-v2_1729.txt
+- row_id: prokopovich_slova-i-rechi-rus_kadetskii-korpus1760--sermons-and-speeches-parts-1-2
+  work: Слова и речи (Sermons and Speeches), parts 1-2
+  author: prokopovich
+  locus: the sermons and speeches; the editor's preface excluded
+  role: tradition
+  confidence: assigned
+  note: The architect of the Synod as preacher; Petrine church and state theology from its
+    main voice.
+  source_file: prokopovich_slova-i-rechi-rus_kadetskii-korpus1760.txt
+- row_id: spiritual-regulation_present-state-and-regulations-of-the-church-of-russia-v1_consett1729--the-spiritual-regulation-1721-and-its-appendix-1722-english
+  work: The Spiritual Regulation (1721) and its Appendix (1722), English of 1729
+  author: spiritual-regulation
+  locus: the Regulation, the signatories and the Appendix; Consett's preface excluded
+  role: tradition
+  confidence: assigned
+  note: The law under which the church was governed from 1721; Feofan Prokopovich drafted
+    it and the bishops signed it, so it speaks for the Synodal church itself.
+  source_file: spiritual-regulation_present-state-and-regulations-of-the-church-of-russia-v1_consett1729.txt
+- row_id: spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856--1721-with-the-1722
+  work: Духовный регламент (1721) with the Прибавление (1722)
+  author: spiritual-regulation
+  locus: whole text
+  role: tradition
+  confidence: assigned
+  note: The founding law of the Synodal church in its own language and its own press.
+  source_file: spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856.txt
 - row_id: stoglav_stoglav-chu_kozhanchikov1863--the-stoglav-hundred-chapters-the-moscow-church-council-of-3
   work: The Stoglav (Hundred Chapters), the Moscow church council of 1551, in Russian (Kozhanchikov
     1863 edition)
@@ -97,3 +237,12 @@ works:
   confidence: assigned
   note: The schism documented by its judges; coerced testimony, to be read as such.
   source_file: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt
+- row_id: tikhon-zadonskii_nastavleniia-dlia-monashestvuiushchikh-rus_kiev1854--work
+  work: Наставления, писанныя для монашествующих
+  author: tikhon-zadonskii
+  locus: whole text
+  role: tradition
+  confidence: assigned
+  note: The retired bishop of Voronezh counselling monks; the church's inner devotional life
+    beside its synodal government.
+  source_file: tikhon-zadonskii_nastavleniia-dlia-monashestvuiushchikh-rus_kiev1854.txt

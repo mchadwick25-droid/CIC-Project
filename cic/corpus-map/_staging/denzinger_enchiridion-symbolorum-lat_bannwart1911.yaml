@@ -1,0 +1,43 @@
+source_file: denzinger_enchiridion-symbolorum-lat_bannwart1911.txt
+assignments:
+- row_id: denzinger_enchiridion-symbolorum-lat_bannwart1911--coelestis-pastor-1687-errors-of-molinos-cum-alias-1699
+  work: Coelestis Pastor (1687), errors of Molinos; Cum alias (1699), errors on pure love
+  author: denzinger
+  locus: the paragraphs headed 'Errores Michaelis de Molinos' (Innocent XI) and 'Errores de amore erga
+    Deum purissimo' (Innocent XII)
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: context
+  confidence: assigned
+  note: The condemned-proposition lists, which the census warns reflect the prosecutor's framing.
+- row_id: denzinger_enchiridion-symbolorum-lat_bannwart1911--cum-occasione-1653-the-formulary-vineam-domini-1705
+  work: Cum occasione (1653), the Formulary, Vineam Domini (1705), Unigenitus (1713)
+  author: denzinger
+  locus: the paragraphs headed 'Errores Iansenistarum', 'Formularium submissionis', 'De silentio obsequioso'
+    and 'Errores Paschasii Quesnel'
+  atlas_ids:
+  - port-royal-jansenism
+  role: context
+  confidence: assigned
+  note: The church's own condemnation texts that the nuns refused to sign to as fact; hostile and institutional,
+    as the census frames them.
+- row_id: denzinger_enchiridion-symbolorum-lat_bannwart1911--unigenitus-1713-errors-of-quesnel
+  work: Unigenitus (1713), errors of Quesnel
+  author: denzinger
+  locus: the paragraphs headed 'Errores Paschasii Quesnel'
+  atlas_ids:
+  - church-of-utrecht
+  role: context
+  confidence: provisional
+  note: The constitution whose refusal shaped the Utrecht church's breach with Rome; provisional until
+    that entry has vendored sources of its own that argue from it.
+- row_id: denzinger_enchiridion-symbolorum-lat_bannwart1911--papal-and-conciliar-condemnations-1650-1800
+  work: Papal and conciliar condemnations, 1650-1800
+  author: denzinger
+  locus: the paragraphs from Innocent X to Pius VI
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: context
+  confidence: provisional
+  note: The doctrinal decisions of the window as the Roman church collected them; a handbook of excerpts,
+    not the full acts.

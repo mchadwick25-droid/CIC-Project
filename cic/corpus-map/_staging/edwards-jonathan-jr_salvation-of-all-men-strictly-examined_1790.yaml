@@ -1,0 +1,29 @@
+source_file: edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790.txt
+authors_ruled:
+  edwards-jonathan-jr:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Jonathan Edwards, D.D., Pastor of a Church in New-Haven''; the
+      slug is kept distinct from edwards (the elder Jonathan Edwards, already in the corpus), since the
+      book answers Chauncy''s work of 1784 and calls him ''the late'' Chauncy. Plain-text vendored file,
+      so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790--the-salvation-of-all-men-strictly-examined-1790
+  work: The Salvation of All Men strictly examined (1790)
+  author: edwards-jonathan-jr
+  locus: whole work
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: context
+  confidence: assigned
+  note: The orthodox reply to Chauncy; hostile outside witness.
+- row_id: edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790--the-salvation-of-all-men-strictly-examined-1790-2
+  work: The Salvation of All Men strictly examined (1790)
+  author: edwards-jonathan-jr
+  locus: whole work
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: transmission
+  confidence: provisional
+  note: The awakening's theological heirs answering its old opponent; out of window, so transmission.

@@ -429,6 +429,16 @@ works:
 
     '
   source_file: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt
+- row_id: gedeon_kanonikai-diataxeis-v1-grc_1888--patriarchal-acts-before-1650-gedeon-kanonikai-diataxeis-i
+  work: Patriarchal acts before 1650 (Gedeon, Kanonikai diataxeis I)
+  author: patriarchate-of-constantinople
+  locus: the earlier acts, chiefly in the first fifth of the volume (to about raw scan line
+    2370)
+  role: tradition
+  confidence: provisional
+  note: The sixteenth- and early seventeenth-century acts belong to the earlier Ottoman world;
+    provisional pending a document-by-document reading.
+  source_file: gedeon_kanonikai-diataxeis-v1-grc_1888.txt
 - row_id: rycaut_present-state-greek-armenian-churches_1679--the-present-state-of-the-greek-and-armenian-churches-anno
   work: The Present State of the Greek and Armenian Churches, Anno Christi 1678
   author: rycaut

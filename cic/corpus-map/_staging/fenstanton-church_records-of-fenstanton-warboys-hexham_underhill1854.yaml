@@ -1,0 +1,36 @@
+source_file: fenstanton-church_records-of-fenstanton-warboys-hexham_underhill1854.txt
+authors_ruled:
+  fenstanton-church:
+    kind: metadata-omission
+    evidence: 'Institutional slug for the Fenstanton and Warboys congregations; the title page reads ''Records
+      of the Churches of Christ, gathered at Fenstanton, Warboys, and Hexham''. cic/texts/AUTHORS.md has
+      not seen the slug yet.
+
+      '
+  hexham-church:
+    kind: metadata-omission
+    evidence: 'Institutional slug for the Hexham congregation; the contents list ''Records and Letters
+      of Hexham church, Northumberland''. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: fenstanton-church_records-of-fenstanton-warboys-hexham_underhill1854--records-of-fenstanton-and-warboys-churches-general-baptist
+  work: Records of Fenstanton and Warboys churches (General Baptist), 1644-1720
+  author: fenstanton-church
+  locus: the Fenstanton and Warboys records
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: 'The General Baptist wing in its own church books: messengers, letters, cases of discipline.
+
+    '
+- row_id: fenstanton-church_records-of-fenstanton-warboys-hexham_underhill1854--records-and-letters-of-hexham-church-particular-baptist
+  work: Records and Letters of Hexham church (Particular Baptist)
+  author: hexham-church
+  locus: the Hexham records and letters
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The Particular Baptist wing in a northern church's own book.

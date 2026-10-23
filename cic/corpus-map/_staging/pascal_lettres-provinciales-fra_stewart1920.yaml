@@ -1,0 +1,11 @@
+source_file: pascal_lettres-provinciales-fra_stewart1920.txt
+assignments:
+- row_id: pascal_lettres-provinciales-fra_stewart1920--les-lettres-provinciales-1656-1657-ed-stewart
+  work: Les Lettres Provinciales (1656-1657), ed. Stewart
+  author: pascal
+  locus: the eighteen letters; Stewart's introduction and notes excluded
+  atlas_ids:
+  - port-royal-jansenism
+  role: tradition
+  confidence: assigned
+  note: Pascal writing for Arnauld and Port-Royal; a polemic, to be read as one, as the census says.

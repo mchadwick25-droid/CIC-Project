@@ -1,0 +1,20 @@
+source_file: camisards_manifesto-of-the-cevennois_1703.txt
+authors_ruled:
+  camisards:
+    kind: anonymous
+    evidence: 'The pamphlet speaks in the first person plural for ''the inhabitants of the Cevennes''
+      and names no author; an institutional slug for the insurgents as a body. Plain-text vendored file,
+      so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: camisards_manifesto-of-the-cevennois_1703--the-manifesto-of-the-cevennois-1703
+  work: The Manifesto of the Cevennois (1703)
+  author: camisards
+  locus: whole pamphlet
+  atlas_ids:
+  - camisard-prophetism
+  role: tradition
+  confidence: assigned
+  note: The insurgents' case in their own terms, as printed for a Protestant English public; how far the
+    translation reflects the French is not checkable here.

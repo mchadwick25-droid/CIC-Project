@@ -1,0 +1,11 @@
+source_file: liguori_letters-v1_grimm1891.txt
+assignments:
+- row_id: liguori_letters-v1_grimm1891--letters-of-st-alphonsus-de-liguori-vol-i-english-1891
+  work: Letters of St. Alphonsus de Liguori, vol. I (English, 1891)
+  author: liguori
+  locus: the letters; the editor's introduction and notes excluded
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: The founder's correspondence on the new congregation, its rule and its missions.

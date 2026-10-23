@@ -1,0 +1,11 @@
+source_file: hargrove_sermon-on-the-true-nature-of-the-resurrection-of-man_1816.txt
+assignments:
+- row_id: hargrove_sermon-on-the-true-nature-of-the-resurrection-of-man_1816--sermon-on-the-true-nature-of-the-resurrection-of-man-1816
+  work: Sermon on the True Nature of the Resurrection of Man (1816)
+  author: hargrove
+  locus: whole work
+  atlas_ids:
+  - swedenborgian-new-church
+  role: tradition
+  confidence: assigned
+  note: The Baltimore church at a funeral; quotes the church's creed on the resurrection.

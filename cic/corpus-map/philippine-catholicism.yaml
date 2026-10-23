@@ -115,6 +115,17 @@ works:
     voice to the converts, not the converts'' voice. Quotable once checked against the facsimile
     page images.'
   source_file: doctrina-christiana_manila-1593-tgl-spa_wolf1947.txt
+- row_id: francisco-de-san-jose_libro-de-las-quatro-postrimerias-tgl_manila1734--libro-de-las-quatro-postrimerias-del-hombre-en-lengua-tagala-2
+  work: Libro de las quatro postrimerías del hombre, en lengua tagala (1734 printing)
+  author: francisco-de-san-jose
+  locus: whole text
+  role: tradition
+  confidence: provisional
+  note: 'Composed by a Dominican of the founding generation, inside the earlier world''s window;
+    this is a later printing. Placed on the author''s dates, not on a reading for that entry.
+
+    '
+  source_file: francisco-de-san-jose_libro-de-las-quatro-postrimerias-tgl_manila1734.txt
 - row_id: morga_sucesos-islas-filipinas_blair-robertson1907--morga-sucesos-english
   work: History of the Philippine Islands (Morga's Sucesos de las Islas Filipinas, 1609),
     Blair and Robertson's English
@@ -140,6 +151,18 @@ works:
   note: Spanish original of Morga's Sucesos (1609), clean OCR; primary Spanish evidence once
     quotes are checked against page images. English is in morga_sucesos-islas-filipinas_blair-robertson1907.txt.
   source_file: morga_sucesos-islas-filipinas-spa_rizal1890.txt
+- row_id: murillo-velarde_historia-provincia-philipinas-compania-jesus-spa_1749--historia-de-la-provincia-de-philipinas-de-la-compania-de-2
+  work: Historia de la provincia de Philipinas de la Compañía de Jesús, segunda parte (1749)
+  author: murillo-velarde
+  locus: the years 1616 to 1650 in the first books
+  role: tradition
+  confidence: provisional
+  note: 'The opening decades fall inside the earlier world''s window (1565-1650); written
+    a century later, so a later witness to them. Placed on window and place, not on a reading
+    for that entry.
+
+    '
+  source_file: murillo-velarde_historia-provincia-philipinas-compania-jesus-spa_1749.txt
 - row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--first-discoverie-of-the-philippinas-and-the-philippine-chapters-chap-iii
   work: '''First discoverie of the Philippinas'' and the Philippine material of Chap. III'
   author: purchas

@@ -389,3 +389,12 @@ works:
   note: How the Brethren read the Lutheran confession as their own; the doctrinal defence
     of 1753 in the founder's words.
   source_file: zinzendorf_twenty-one-discourses-augsburg-confession_okely1753.txt
+- row_id: zinzendorf_un-ymadrodd-ar-bumtheg-cym_williams1760--un-ymadrodd-ar-bumtheg-ynghylch-jesu-grist-welsh-1760
+  work: Un Ymadrodd ar bumtheg ynghylch Jesu Grist (Welsh, 1760)
+  author: zinzendorf
+  locus: the sixteen discourses
+  role: tradition
+  confidence: assigned
+  note: Zinzendorf's own discourses, the same series vendored in English, in a Welsh translation
+    for the Brethren's Welsh hearers.
+  source_file: zinzendorf_un-ymadrodd-ar-bumtheg-cym_williams1760.txt

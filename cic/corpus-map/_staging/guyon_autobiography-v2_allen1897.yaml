@@ -1,0 +1,11 @@
+source_file: guyon_autobiography-v2_allen1897.txt
+assignments:
+- row_id: guyon_autobiography-v2_allen1897--autobiography-la-vie-ecrite-par-elle-meme-tr-allen-vol-ii
+  work: Autobiography (La Vie écrite par elle-même), tr. Allen, vol. II (1897)
+  author: guyon
+  locus: the autobiography
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: tradition
+  confidence: assigned
+  note: The controversy itself as Guyon lived and told it; her account of Bossuet stands beside his Relation.

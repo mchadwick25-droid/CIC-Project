@@ -1,0 +1,22 @@
+source_file: challoner_garden-of-the-soul_1755.txt
+assignments:
+- row_id: challoner_garden-of-the-soul_1755--the-garden-of-the-soul-1740-1755-printing
+  work: The Garden of the Soul (1740; 1755 printing)
+  author: challoner
+  locus: whole book
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  note: Catholic prayer in English under the penal laws; provisional because the census frames this world
+    through France and Rome.
+- row_id: challoner_garden-of-the-soul_1755--the-garden-of-the-soul-1740-1755-printing-2
+  work: The Garden of the Soul (1740; 1755 printing)
+  author: challoner
+  locus: whole book
+  atlas_ids:
+  - recusant-english-catholicism
+  role: transmission
+  confidence: provisional
+  note: The recusant community's devotional life carried into the eighteenth century, after that world's
+    window.

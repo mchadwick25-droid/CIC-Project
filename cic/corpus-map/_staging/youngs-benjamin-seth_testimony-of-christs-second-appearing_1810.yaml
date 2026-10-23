@@ -1,0 +1,20 @@
+source_file: youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt
+authors_ruled:
+  youngs-benjamin-seth:
+    kind: anonymous
+    evidence: 'The title page names no author (''published by order of the Ministry, in union with the
+      Church''); the host catalogue names Benjamin Seth Youngs, with David Darrow, as authors. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: youngs-benjamin-seth_testimony-of-christs-second-appearing_1810--the-testimony-of-christ-s-second-appearing-second-edition
+  work: The Testimony of Christ's Second Appearing (second edition, 1810)
+  author: youngs-benjamin-seth
+  locus: whole work; the Advertisement and Preface name the Ministry as publisher
+  atlas_ids:
+  - shakers
+  role: tradition
+  confidence: assigned
+  note: The Society's own published confession of Christ's second appearing in Ann Lee; the primary text
+    for the floor question.

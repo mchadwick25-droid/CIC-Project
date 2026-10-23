@@ -1,0 +1,16 @@
+source_file: blair-robertson_philippine-islands-v47_1907.txt
+assignments:
+- row_id: blair-robertson_philippine-islands-v47_1907--the-philippine-islands-vol-xlvii-1728-1759-the-documents
+  work: 'The Philippine Islands, vol. XLVII (1728-1759): the documents'
+  author: blair-robertson
+  locus: the Misericordia, the ecclesiastical estate of 1742, the Order of St John of God, the Jesuit
+    letter, and Pérez on the Zambals
+  atlas_ids:
+  - philippine-catholicism-era-8
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation; the colonial
+    church''s voice, not Filipino lay Christians''. Quotations are the translators'' wording and need
+    the Spanish where the corpus has it.
+
+    '

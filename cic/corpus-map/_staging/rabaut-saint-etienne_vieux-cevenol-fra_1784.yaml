@@ -1,0 +1,12 @@
+source_file: rabaut-saint-etienne_vieux-cevenol-fra_1784.txt
+assignments:
+- row_id: rabaut-saint-etienne_vieux-cevenol-fra_1784--le-vieux-cevenol-1784
+  work: Le Vieux Cévenol (1784)
+  author: rabaut-saint-etienne
+  locus: whole work
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: tradition
+  confidence: assigned
+  note: A Desert pastor's son's apologetic fiction; the hero is invented, the penal laws in the notes
+    are the real record, and the book must be quoted as fiction.

@@ -1,0 +1,36 @@
+source_file: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt
+authors_ruled:
+  pius-vii:
+    kind: metadata-omission
+    evidence: 'The file''s first document is headed ''Bull of Pope Pius VII for the Restoration of the
+      Order of Jesuits''. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814--dominus-ac-redemptor-21-july-1773-english
+  work: Dominus ac Redemptor (21 July 1773), English
+  author: clement-xiv
+  locus: Clement XIV's brief, the second document in the file
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: The suppression in the pope's own reasoning, in a 1773 English version.
+- row_id: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814--sollicitudo-omnium-ecclesiarum-7-august-1814-latin-and
+  work: Sollicitudo omnium ecclesiarum (7 August 1814), Latin and English
+  author: pius-vii
+  locus: Pius VII's bull, the first document in the file
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: The restoration that the census uses to close this world's story.
+- row_id: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814--sollicitudo-omnium-ecclesiarum-7-august-1814-latin-and-2
+  work: Sollicitudo omnium ecclesiarum (7 August 1814), Latin and English
+  author: pius-vii
+  locus: Pius VII's bull
+  atlas_ids:
+  - catholic-church-long-nineteenth-century
+  role: tradition
+  confidence: provisional
+  note: The restored Society enters the next century's church; on the boundary of the two windows.

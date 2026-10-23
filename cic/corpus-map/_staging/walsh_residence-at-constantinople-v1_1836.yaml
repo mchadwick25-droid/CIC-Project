@@ -1,0 +1,21 @@
+source_file: walsh_residence-at-constantinople-v1_1836.txt
+assignments:
+- row_id: walsh_residence-at-constantinople-v1_1836--a-residence-at-constantinople-vol-1-walsh-1836-the
+  work: 'A Residence at Constantinople, vol. 1 (Walsh, 1836): the Patriarchate and the events of 1821'
+  author: walsh
+  locus: the chapters on the Patriarchate, the pastoral address and anathema, and the execution of the
+    Patriarch and bishops
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: context
+  confidence: assigned
+  note: The British chaplain's account of the millet church's last act in this window, from the city itself.
+- row_id: walsh_residence-at-constantinople-v1_1836--a-residence-at-constantinople-vol-1-walsh-1836
+  work: A Residence at Constantinople, vol. 1 (Walsh, 1836)
+  author: walsh
+  locus: the chapters after Easter 1821
+  atlas_ids:
+  - orthodoxy-after-1821-balkan-autocephalies
+  role: context
+  confidence: provisional
+  note: The opening of the successor world's era seen from Constantinople; provisional.

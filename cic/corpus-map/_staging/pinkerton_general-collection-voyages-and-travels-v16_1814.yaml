@@ -1,0 +1,64 @@
+source_file: pinkerton_general-collection-voyages-and-travels-v16_1814.txt
+authors_ruled:
+  merolla:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is pinkerton, the editor; ''Merolla''s Voyage
+      to Congo'' is named in the contents list (file lines about 54-70) and in its own running heads.
+      Also the leading slug of merolla_breve-e-succinta-relatione-viaggio-congo-ita_piccardo1692.txt in
+      this same intake.
+
+      '
+  carli:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is pinkerton; the ''Voyage to Congo by Angelo
+      and Carli'' is named in the contents list and its title names Denis de Carli of Piacenza. Also the
+      leading slug of carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt in this same intake.
+
+      '
+  proyart:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is pinkerton; ''History of Loango, Kakongo,
+      and other Kingdoms in Africa. By the Abbe Proyart'' is headed in the text and named in the contents
+      list. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: pinkerton_general-collection-voyages-and-travels-v16_1814--a-curious-and-exact-account-of-a-voyage-to-congo-by-angelo
+  work: A Curious and Exact Account of a Voyage to Congo, by Angelo and Carli (English of 1704, in Pinkerton
+    XVI)
+  author: carli
+  locus: '''Voyage to Congo by Angelo and Carli'', from the contents entry and its running heads'
+  atlas_ids:
+  - the-antonian-movement-in-kongo
+  role: context
+  confidence: assigned
+  note: 'English version of the 1671 Italian vendored beside it; for reading, not for quotation against
+    the original.
+
+    '
+- row_id: pinkerton_general-collection-voyages-and-travels-v16_1814--a-voyage-to-congo-and-several-other-countries-chiefly-in
+  work: A Voyage to Congo and several other countries chiefly in Southern Africk, by Merolla (English
+    of 1704, in Pinkerton XVI)
+  author: merolla
+  locus: '''Merolla''s Voyage to Congo'', under its own running heads'
+  atlas_ids:
+  - the-antonian-movement-in-kongo
+  role: context
+  confidence: assigned
+  note: 'English version of the 1692 Italian vendored beside it; the anonymous English translator''s wording,
+    not Merolla''s.
+
+    '
+- row_id: pinkerton_general-collection-voyages-and-travels-v16_1814--history-of-loango-kakongo-and-other-kingdoms-in-africa-by
+  work: History of Loango, Kakongo, and other Kingdoms in Africa, by Proyart (English, in Pinkerton XVI)
+  author: proyart
+  locus: '''History of Loango, Kakongo'' and its chapters'
+  atlas_ids:
+  - the-antonian-movement-in-kongo
+  role: context
+  confidence: provisional
+  note: 'A French mission of the 1760s to the coastal kingdoms north of Kongo; outside the movement''s
+    window and place, kept as a later outside witness to Kongo-region religion. Needs a reader to confirm
+    what it says of Kongo Christianity.
+
+    '

@@ -1,0 +1,15 @@
+source_file: merolla_breve-e-succinta-relatione-viaggio-congo-ita_piccardo1692.txt
+assignments:
+- row_id: merolla_breve-e-succinta-relatione-viaggio-congo-ita_piccardo1692--breve-e-succinta-relatione-del-viaggio-nel-regno-di-congo
+  work: Breve, e succinta relatione del viaggio nel regno di Congo (1692)
+  author: merolla
+  locus: both parts
+  atlas_ids:
+  - the-antonian-movement-in-kongo
+  role: context
+  confidence: assigned
+  note: 'A missionary eyewitness to Kongo Christianity twenty years before the movement: the civil-war
+    kingdom, the friars'' relations with Soyo, and the popular practice they condemned. Outside witness,
+    hostile to Kongo religion.
+
+    '

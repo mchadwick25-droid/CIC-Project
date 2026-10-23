@@ -1,0 +1,12 @@
+source_file: harris-howell_last-message-and-dying-testimony_1774.txt
+assignments:
+- row_id: harris-howell_last-message-and-dying-testimony_1774--the-last-message-and-dying-testimony-of-howell-harris-1774
+  work: The Last Message and Dying Testimony of Howell Harris (1774)
+  author: harris-howell
+  locus: whole work
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: assigned
+  note: The founder's farewell in his own words; the revival's self-understanding at the end of its first
+    generation.

@@ -1,0 +1,12 @@
+source_file: church-of-utrecht_acta-et-decreta-secundae-synodi-lat_1764.txt
+assignments:
+- row_id: church-of-utrecht_acta-et-decreta-secundae-synodi-lat_1764--acta-et-decreta-secundae-synodi-provinciae-ultrajectensis
+  work: Acta et decreta secundae Synodi Provinciae Ultrajectensis (1763)
+  author: church-of-utrecht
+  locus: the convocation, decrees, subscriptions and letter to Clement XIII; the editor's Brevis historia
+    as the church's own account of its succession
+  atlas_ids:
+  - church-of-utrecht
+  role: tradition
+  confidence: assigned
+  note: The Utrecht church in synod, speaking for itself on doctrine and its claim to Catholic communion.

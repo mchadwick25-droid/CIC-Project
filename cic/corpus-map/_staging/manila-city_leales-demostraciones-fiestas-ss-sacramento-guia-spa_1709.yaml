@@ -1,0 +1,23 @@
+source_file: manila-city_leales-demostraciones-fiestas-ss-sacramento-guia-spa_1709.txt
+authors_ruled:
+  manila-city:
+    kind: anonymous
+    evidence: 'The title page names no author; it presents the fiestas as the city of Manila''s (''de
+      la novilissima ciudad de Manila'', file lines about 38-40 of the raw text) and names Gaspar Aquino
+      de Belén only as printer (''por D. Gaspar Aquino de Belen'', about line 105). An institutional slug,
+      new to cic/texts/AUTHORS.md.
+
+      '
+assignments:
+- row_id: manila-city_leales-demostraciones-fiestas-ss-sacramento-guia-spa_1709--leales-demostraciones-de-la-ciudad-de-manila-1709-the
+  work: 'Leales demostraciones de la ciudad de Manila (1709): the account and the festival sermons'
+  author: manila-city
+  locus: whole text
+  atlas_ids:
+  - philippine-catholicism-era-8
+  role: tradition
+  confidence: provisional
+  note: 'The colonial city''s own record of a devotional festival, with its sermons; Spanish Manila''s
+    piety, not the Filipino parishes''. Borderline OCR: read against the page images before quoting.
+
+    '

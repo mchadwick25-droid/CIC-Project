@@ -138,6 +138,15 @@ works:
 
     '
   source_file: challoner_memoirs-of-missionary-priests_pollen1924.txt
+- row_id: challoner_garden-of-the-soul_1755--the-garden-of-the-soul-1740-1755-printing-2
+  work: The Garden of the Soul (1740; 1755 printing)
+  author: challoner
+  locus: whole book
+  role: transmission
+  confidence: provisional
+  note: The recusant community's devotional life carried into the eighteenth century, after
+    that world's window.
+  source_file: challoner_garden-of-the-soul_1755.txt
 - row_id: church-of-england_liturgical-services-elizabeth-1559_clay1847--the-book-of-common-prayer-1559-with-the-litany-and-the-ordinal-3
   work: The Book of Common Prayer (1559), with the Litany and Suffrages (1559) and the Form
     and Manner of making Bishops, Priests and Deacons (1559)

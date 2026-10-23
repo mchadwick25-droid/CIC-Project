@@ -1,0 +1,11 @@
+source_file: murray-john_letters-and-sketches-of-sermons-v3_1813.txt
+assignments:
+- row_id: murray-john_letters-and-sketches-of-sermons-v3_1813--letters-and-sketches-of-sermons-vol-iii-1813
+  work: Letters, and Sketches of Sermons, vol. III (1813)
+  author: murray-john
+  locus: whole volume
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: assigned
+  note: The Universalist founder's own teaching, concluded.

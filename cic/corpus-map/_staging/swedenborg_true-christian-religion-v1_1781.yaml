@@ -1,0 +1,12 @@
+source_file: swedenborg_true-christian-religion-v1_1781.txt
+assignments:
+- row_id: swedenborg_true-christian-religion-v1_1781--true-christian-religion-vol-i-english-1781
+  work: True Christian Religion, vol. I (English, 1781)
+  author: swedenborg
+  locus: the translated text; the translator's preface as reception
+  atlas_ids:
+  - swedenborgian-new-church
+  role: tradition
+  confidence: assigned
+  note: The founding text in the English the London readers used; the 1789 Conference minutes cite it
+    by paragraph.

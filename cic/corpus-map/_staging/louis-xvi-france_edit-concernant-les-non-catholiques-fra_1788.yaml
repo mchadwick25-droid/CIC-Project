@@ -1,0 +1,22 @@
+source_file: louis-xvi-france_edit-concernant-les-non-catholiques-fra_1788.txt
+assignments:
+- row_id: louis-xvi-france_edit-concernant-les-non-catholiques-fra_1788--edict-of-toleration-november-1787
+  work: Edict of Toleration (November 1787)
+  author: louis-xvi-france
+  locus: whole edict with its registration
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: context
+  confidence: assigned
+  note: The crown's act ending the illegality the Desert lived under; civil status only, which the preamble
+    itself makes plain.
+- row_id: louis-xvi-france_edit-concernant-les-non-catholiques-fra_1788--edict-of-toleration-november-1787-2
+  work: Edict of Toleration (November 1787)
+  author: louis-xvi-france
+  locus: whole edict
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: context
+  confidence: provisional
+  note: The Catholic monarchy conceding civil existence to non-Catholics while affirming the Catholic
+    religion alone as public; a turning point for the established church too.

@@ -142,6 +142,15 @@ works:
   confidence: assigned
   note: One of the Pustozersk prisoners in his own petition.
   source_file: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt
+- row_id: ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873--history-of-the-condemnation-of-the-patriarch-nicon-2
+  work: History of the Condemnation of the Patriarch Nicon
+  author: ligarides
+  locus: the chapters on the council of 1666-67
+  role: context
+  confidence: provisional
+  note: The same council that deposed Nikon anathematised the old books; the establishment's
+    record of it.
+  source_file: ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt
 - row_id: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912--boyarynia-feodosia-morozova-s-letters-to-avvakum-and-his
   work: Boyarynia Feodosia Morozova's letters to Avvakum and his family (in Barskov, 1912)
   author: morozova
@@ -176,6 +185,24 @@ works:
   note: The most detailed early case against the corrected books, by the priest the establishment
     called Pustosviat.
   source_file: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt
+- row_id: nikon_replies-against-streshnev-and-ligarides_palmer1871--the-replies-of-the-humble-nicon
+  work: The Replies of the Humble Nicon
+  author: nikon
+  locus: Nikon's replies
+  role: context
+  confidence: provisional
+  note: The reforming patriarch the Old Believers rejected, in his own words after his fall;
+    provisional.
+  source_file: nikon_replies-against-streshnev-and-ligarides_palmer1871.txt
+- row_id: platon_present-state-of-the-greek-church-in-russia_pinkerton1814--pinkerton-s-preliminary-memoir-and-appendix-on-the-russian
+  work: Pinkerton's preliminary memoir and appendix on the Russian dissenters
+  author: pinkerton
+  locus: the memoir and the appendix
+  role: context
+  confidence: provisional
+  note: A Bible Society agent's account of the establishment and of the dissenting sects,
+    written from inside Russia in 1814.
+  source_file: platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt
 - row_id: subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876--the-solovetsky-monastery-s-petitions-and-papers-1666-1676-in
   work: The Solovetsky Monastery's petitions and papers, 1666-1676 (in Materialy, vol. III,
     1876)

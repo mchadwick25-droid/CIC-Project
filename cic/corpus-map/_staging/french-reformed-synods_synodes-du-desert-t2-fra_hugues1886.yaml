@@ -1,0 +1,11 @@
+source_file: french-reformed-synods_synodes-du-desert-t2-fra_hugues1886.txt
+assignments:
+- row_id: french-reformed-synods_synodes-du-desert-t2-fra_hugues1886--actes-et-reglements-des-synodes-du-desert-1751-1770
+  work: Actes et règlements des synodes du Désert, 1751-1770
+  author: french-reformed-synods
+  locus: the acts
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: tradition
+  confidence: assigned
+  note: The synods under Paul Rabaut, in their own records.

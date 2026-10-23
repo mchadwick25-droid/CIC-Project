@@ -220,6 +220,17 @@ works:
 
     '
   source_file: riedemann_rechenschaft-deu_berne1902.txt
+- row_id: smyth_works-v2_whitley1915--corde-credimus-propositions-and-conclusions-defence-of-ries
+  work: Corde Credimus, Propositions and Conclusions, Defence of Ries' Confession, Retractations
+    and Confirmations (1610-1612)
+  author: smyth
+  locus: the later confessions and the Retractations
+  role: tradition
+  confidence: provisional
+  note: Smyth's move toward the Waterlander Mennonites and his last words; the documents on
+    which the census's contested question of Anabaptist contact turns. Provisional for the
+    Anabaptist world.
+  source_file: smyth_works-v2_whitley1915.txt
 - row_id: boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910--die-sieben-artikel-von-schlatt-am-randen-schleitheim-1527
   work: Die sieben Artikel von Schlatt am Randen (the Schleitheim articles, 1527), German
     text

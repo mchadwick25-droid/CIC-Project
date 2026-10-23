@@ -1,0 +1,20 @@
+source_file: court-antoine_histoire-des-troubles-des-cevennes-t3-fra_1819.txt
+assignments:
+- row_id: court-antoine_histoire-des-troubles-des-cevennes-t3-fra_1819--histoire-des-troubles-des-cevennes-t-iii-1760-1819-edition
+  work: Histoire des troubles des Cévennes, t. III (1760; 1819 edition)
+  author: court-antoine
+  locus: books thirteen to sixteen
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: tradition
+  confidence: assigned
+  note: The end of the war and the turn toward the church Court himself would rebuild.
+- row_id: court-antoine_histoire-des-troubles-des-cevennes-t3-fra_1819--histoire-des-troubles-des-cevennes-t-iii-1760-1819-edition-2
+  work: Histoire des troubles des Cévennes, t. III (1760; 1819 edition)
+  author: court-antoine
+  locus: books thirteen to sixteen
+  atlas_ids:
+  - camisard-prophetism
+  role: context
+  confidence: assigned
+  note: The surrenders and last bands, with the treaty documents quoted.

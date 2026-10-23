@@ -1,0 +1,13 @@
+source_file: rowland-daniel_eight-sermons-upon-practical-subjects_1774.txt
+assignments:
+- row_id: rowland-daniel_eight-sermons-upon-practical-subjects_1774--eight-sermons-upon-practical-subjects-preached-at-llangeitho
+  work: Eight Sermons upon Practical Subjects, preached at Llangeitho (English, 1774)
+  author: rowland-daniel
+  locus: the eight sermons
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: assigned
+  note: Rowland's own preaching, translated in his lifetime; the voice behind the Llangeitho communion
+    seasons. The unnamed translator's address to the reader, before the sermons, is a contemporary witness
+    and not Rowland's voice.

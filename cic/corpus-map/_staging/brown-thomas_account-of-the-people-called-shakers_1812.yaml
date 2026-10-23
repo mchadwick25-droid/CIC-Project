@@ -1,0 +1,19 @@
+source_file: brown-thomas_account-of-the-people-called-shakers_1812.txt
+authors_ruled:
+  brown-thomas:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Thomas Brown, of Cornwall, Orange County, State of New-York''.
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: brown-thomas_account-of-the-people-called-shakers_1812--an-account-of-the-people-called-shakers-1812
+  work: An Account of the People called Shakers (1812)
+  author: brown-thomas
+  locus: whole work
+  atlas_ids:
+  - shakers
+  role: context
+  confidence: assigned
+  note: A former member's critical account; the census names the hostile ex-member record as the earliest
+    documentation, and this is the fullest of it in the window.
