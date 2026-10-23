@@ -34,3 +34,21 @@ assignments:
   confidence: provisional
   note: Same volume; its nineteenth-century chapters run to 1879. Placed on the contents, not on a full
     reading.
+
+- note_for_lead: 'Add to the existing staging file for pelesz_geschichte-der-union-bd2-deu_1880.txt. Mohyla
+    is named 33 times; read at about file lines 14588-14712: Pelesz tells how Mohyla obtained the royal
+    privilege to the Kyiv metropolitan see, took the see from Isaia Kopinskii, and ''became from now on
+    the moral centre of all the efforts of the schismatics'' (the passage''s own words in German at 14703).'
+  proposed:
+  - work: Pelesz, History of the Union, vol. 2 (passages on Mohyla's rise and metropolitanate)
+    author: pelesz
+    locus: about file lines 14588-14712 and 15438
+    atlas_ids:
+    - the-kyiv-mohyla-orthodox-revival
+    role: context
+    confidence: provisional
+    note: A Greek Catholic historian's account (1880) of Mohyla replacing Kopinskii and leading the Orthodox
+      side. Read at the passage; an outside, partisan witness. Provisional because the volume belongs
+      to the Union of Brest thread.
+  row_id: pelesz_geschichte-der-union-bd2-deu_1880--
+  author: pelesz

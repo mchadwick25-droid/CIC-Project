@@ -4,7 +4,7 @@ assignments:
   - row_id: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912--upsala-motes-beslut-1593
     work: "Upsala mötes beslut (the decisions of the Uppsala Synod, 20 March 1593), Företal and the articles, Swedish"
     author: bensow
-    locus: "'Företal' at line 30909, dated Stockholm 30 July 1593 (line 30966); 'UPSALA MÖTES BESLUT' from line 30999; the signatures and 'Actum Upsaliæ xx martii anno mdxciii' at lines 31160-31172; Bensow's historical note on the synod at about line 31704"
+    locus: "'Företal' at line 30909, dated Stockholm 30 July 1593 (line 30966); 'UPSALA MÖTES BESLUT' from line 30999; the signatures and 'Actum Upsaliæ xx martii anno mdxciii' at lines 31160-31172; Bensow's note on the synod at line 31727 and on the adoption of the Concordia at line 31705"
     atlas_ids:
       - scandinavian-reformation-kingdoms
     role: tradition
@@ -20,7 +20,7 @@ assignments:
   - row_id: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912--konkordieboken-in-swedish
     work: "Konkordieboken (the Book of Concord, Concordia pia) in the Swedish tradition of Broocman's 1730 translation, as revised for Bensow's 1912 edition"
     author: bensow
-    locus: "from Bensow's preface (line 140) and the 'Företal' at line 200 through the Formula of Concord, to line 30900"
+    locus: "from Bensow's 'Förord' at line 50 and the 'Företal' at line 200 through the Formula of Concord, to line 30900"
     atlas_ids:
       - lutheran-wittenberg-and-its-congregations
     role: tradition
@@ -34,7 +34,7 @@ assignments:
   - row_id: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912--konkordieboken-in-swedish-scandinavian
     work: "Konkordieboken in Swedish, with Bensow's note that Sweden adopted it in full only in 1663 and 1686"
     author: bensow
-    locus: "the whole Book of Concord section, lines 140-30900; Bensow's note on the adoption at about line 31700 ('religionsplakatet den 14 augusti 1663 och kyrkolagen af år 1686')"
+    locus: "the whole Book of Concord section, lines 50-30900; Bensow's note on the adoption at line 31705 ('religionsplakatet den 14 augusti 1663 och kyrkolagen af år 1686')"
     atlas_ids:
       - scandinavian-reformation-kingdoms
     role: context

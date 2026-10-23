@@ -18,7 +18,7 @@ assignments:
   - row_id: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920--red-book-of-john-iii-and-communion-office-of-charles-ix
     work: "The Red Book of John III (1576, Latin and English) and the communion office of Charles IX"
     author: yelverton
-    locus: "chapters IV and V: 'The Mass of John III' (book pp. 65-120) and 'The Communion Office of Charles IX' (book pp. 121-146), after line 4536"
+    locus: "chapters IV and V: 'The Mass of John III' (book pp. 65-120) and 'The Communion Office of Charles IX' (book pp. 121-146), from line 4543 ('THE MASS OF JOHN III') and line 8373 ('THE COMMUNION OFFICE OF CHARLES IX')"
     atlas_ids:
       - scandinavian-reformation-kingdoms
     role: tradition
@@ -32,7 +32,7 @@ assignments:
   - row_id: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920--medieval-latin-mass-of-sweden
     work: "The medieval Latin mass of Sweden, as transcribed by Yelverton"
     author: yelverton
-    locus: "chapter I: 'THE MEDIEVAL MASS IN SWEDEN' from about line 547 (book pp. 1-22)"
+    locus: "chapter I: 'THE MEDIEVAL MASS IN SWEDEN' from line 553 (book pp. 1-22)"
     atlas_ids:
       - scandinavian-reformation-kingdoms
     role: antecedent

@@ -32,7 +32,7 @@ assignments:
   - row_id: olavus-petri_samlade-skrifter-v2-swe_hesselman1915--en-nyttog-postilla-and-the-doctrinal-writings
     work: "En nyttog postilla (1528), En liten ingong j then helga scrifft (1529), and Een lijten boock ... hwar igenom menniskian får then ewigha salighetena (1535)"
     author: olavus-petri
-    locus: "contents entries at lines 84-108; En nyttog postilla running head from about line 106 of the body"
+    locus: "contents entries at lines 84-108; the running head 'EN NYTTOG POSTILLA' from line 728"
     atlas_ids:
       - scandinavian-reformation-kingdoms
     role: tradition

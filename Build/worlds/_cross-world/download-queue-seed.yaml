@@ -8954,3 +8954,136 @@ queue:
     verified_by: 'one-world agent (the-tridentine-church), 2026-10-16: metadata fetched; full text downloaded
       (370 KB); five-point OCR sample clean'
     status: not-yet-downloaded
+
+  - title: Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 1 (with the appendix Materialy dlia
+      istorii zapadno-russkoi tserkvi)
+    author: Stefan T. Golubev
+    translator: none
+    year: 1883
+    world: the-kyiv-mohyla-orthodox-revival
+    why: The standard 19th-century study of Mogila with a documentary appendix; found by searching the host
+      for the Russian title.
+    url: https://archive.org/details/kievskijmitropolitpetrmogilaiegospodvizh97
+    rights_basis: pd-us-by-date (host year 1883; no host rights field)
+    verified_by: 'library/source-research thread, one-world agent for VI.21, 2026-10-23: metadata read,
+      five-point OCR sample, Russian readable, Latin and Polish documents garbled.'
+    status: downloaded
+    vendored_as: golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883.txt
+  - title: Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 2 (with Prilozheniia)
+    author: Stefan T. Golubev
+    translator: none
+    year: 1898
+    world: the-kyiv-mohyla-orthodox-revival
+    why: Mogila's rule 1633-1647, the polemics of his circle and the documents; same search.
+    url: https://archive.org/details/kievskijmitropolitpetrmogilaiegospodvizh7
+    rights_basis: pd-us-by-date (host year 1898; no host rights field)
+    verified_by: 'library/source-research thread, one-world agent for VI.21, 2026-10-23: metadata read,
+      five-point OCR sample, same quality as vol. 1.'
+    status: downloaded
+    vendored_as: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898.txt
+  - title: 'Pamiatniki polemicheskoi literatury v Zapadnoi Rusi, vol. 4, book 1 (Russkaia istoricheskaia
+      biblioteka vol. 4: Kopystenskii Palinodiia, Krevza Oborona uni, Filippovich diary, the Kyiv council
+      of 1640 per Sakovych, Artemii epistles)'
+    author: P. A. Giltebrandt (ed.)
+    translator: none
+    year: 1878
+    world: the-kyiv-mohyla-orthodox-revival
+    why: The census-named Palinodiia, in the only printed edition in the corpus, with the Uniate text it
+      answers.
+    url: https://archive.org/details/russkajaistoricheskajabibliotekaizdavae2
+    rights_basis: pd-us-by-date (1878 imprint read in the OCR; no host rights field)
+    verified_by: 'library/source-research thread, one-world agent for VI.21, 2026-10-23: title page and
+      contents read, five-point OCR sample readable.'
+    status: downloaded
+    vendored_as: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+  - title: The Creeds of Christendom, vol. 2 (Greek and Latin creeds)
+    author: Philip Schaff
+    translator: Schaff (English)
+    year: 1878
+    world: the-kyiv-mohyla-orthodox-revival
+    why: Second witness for the Greek and Latin of Mogila's Confession Part I; also Philaret's Longer Catechism
+      in English for the Russian Church.
+    url: https://archive.org/details/creedsofchristen02scha
+    rights_basis: pd-us-by-date; host possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, one-world agent for VI.21, 2026-10-23: title page read
+      (Harper 1878, entered 1877), metadata read, five-point OCR sample.'
+    status: downloaded
+    vendored_as: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
+  - title: Sinopsis, ili kratkoe opisanie ot razlichnykh letopistsev (the Kyiv Synopsis), St Petersburg
+      1762
+    author: Anon. (host attributes to Innokentii Gizel)
+    translator: none
+    year: 1762
+    world: the-kyiv-mohyla-orthodox-revival
+    why: The Kyiv circle's own printed history; found by searching the host for Gizel.
+    url: https://archive.org/details/sinopsisilikratkoeopisanieotrazlichnyhle85
+    rights_basis: pd-us-by-date (host year 1762; no host rights field)
+    verified_by: 'library/source-research thread, one-world agent for VI.21, 2026-10-23: metadata read,
+      title page read in the OCR, five-point sample readable.'
+    status: downloaded
+    vendored_as: kyiv-synopsis_sinopsis-chu_1762.txt
+  - title: Orthodoxos homologia tes katholikes kai apostolikes ekklesias tes Anatolikes (Greek, Latin and
+      German), ed. Carl Gottlob Hofmann
+    author: Peter Mogila, with Meletios Syrigos
+    translator: none
+    year: 1751
+    world: the-kyiv-mohyla-orthodox-revival
+    why: A third printing of the Confession in Greek and Latin, with a German version.
+    url: https://archive.org/details/orthodoxoshomol00syrigoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT (NYPL copy, Google scan)
+    verified_by: 'library/source-research thread, one-world agent for VI.21, 2026-10-23: metadata read and
+      five-point sample: German Fraktur and Greek both garbled. Not vendored because Kimmel 1850 and Schaff
+      hold the same text more cleanly.'
+    status: not-yet-downloaded
+  - title: Epanorthosis abo perspektiwa y obiasnienie bledow, herezyey y zabobonow (Krakow, 1642)
+    author: Kasiian Sakovych
+    translator: none
+    year: 1642
+    world: the-kyiv-mohyla-orthodox-revival
+    why: The Uniate polemic that the Kyiv Lithos (1644) answered; a hostile witness to Mogila's circle in
+      Polish.
+    url: https://archive.org/details/epanorthosisabo00sakogoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT (Harvard copy, Google scan)
+    verified_by: 'library/source-research thread, one-world agent for VI.21, 2026-10-23: metadata read,
+      five-point sample: blackletter Polish garbled at all five points. Not vendored.'
+    status: not-yet-downloaded
+  - title: The Doctrine of the Russian Church (primer, Shorter and Longer Catechism, Philaret 1839), trans.
+      R. W. Blackmore
+    author: Russian Orthodox Church
+    translator: R. W. Blackmore
+    year: 1845
+    world: russian-church-synodal-century
+    why: The standalone English of the Longer Catechism that Schaff reprints; useful for the Russian Church
+      entries. Found while checking what replaced Mogila's Confession in Russian use.
+    url: https://archive.org/details/doctrineofrussia00blac
+    rights_basis: 'pd-us-by-date; host: "The Library of Congress is unaware of any copyright restrictions
+      for this item."'
+    verified_by: 'library/source-research thread, one-world agent for VI.21, 2026-10-23: metadata read only;
+      not opened, not vendored (Schaff 1878 vendored already prints the same English).'
+    status: not-yet-downloaded
+  - title: Razsuzhdenie o knige imenuemoi Pravoslavnoe ispovedanie very (a discourse on Mogila's Confession,
+      read at the Alexander Nevsky Academy, 1804)
+    author: Aleksei Bolkhovskii
+    translator: none
+    year: 1804
+    world: the-kyiv-mohyla-orthodox-revival
+    why: A Russian Church reading of Mogila's Confession; scholarship about the book, about 12,000 words.
+    url: https://archive.org/details/razsuzhdenieoknigeimenuemojpravoslavnoe63
+    rights_basis: pd-us-by-date (1804 imprint read in the OCR title page)
+    verified_by: 'library/source-research thread, one-world agent for VI.21, 2026-10-23: title page read,
+      five-point sample partly garbled. Not vendored: a discourse about the Confession, not the Confession.'
+    status: not-yet-downloaded
+  - title: Akty, otnosiashchiesia k istorii Iuzhnoi i Zapadnoi Rossii, vols. 1 (1863), 3 (1861) and 4 (1863)
+    author: Archaeographic Commission (ed.)
+    translator: none
+    year: 1863
+    world: the-kyiv-mohyla-orthodox-revival
+    why: Document series for the Orthodox, Cossack and brotherhood history of the Ruthenian lands; vol.
+      1 prints brotherhood papers.
+    url: https://archive.org/details/auzr01 ; https://archive.org/details/auzr03 ; https://archive.org/details/auzr004
+    rights_basis: pd-us-by-date (host years 1861 and 1863; no host rights field)
+    verified_by: 'library/source-research thread, one-world agent for VI.21, 2026-10-23: metadata read and
+      word counts only (auzr01: 96 lines with "bratstv", year tokens 1570-1592 most often; auzr03: years
+      1645-1656; auzr004: 1657-1659). Contents not read. Not vendored: by the year tokens none of these
+      volumes covers the 1615-1647 span; the series volume for those years was not found.'
+    status: not-yet-downloaded
