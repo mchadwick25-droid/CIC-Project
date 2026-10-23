@@ -114,7 +114,7 @@
     <p class="eyebrow">How it works</p>
     <h2>Pay, and carry on</h2>
     <p>A new conversation uses <span data-ops="solo-open">50</span> tokens. Each reply uses <span data-ops="solo-round">20</span>, or <span data-ops="solo-round-later">25</span> after the third. A Table uses more, by the number of voices. The count sits above the conversation, and it comes down as you go.</p>
-    <p>Without an account, your tokens are saved in this browser. To use them on another device, open Get more conversations in the room and choose Show my code. With an account, your home holds them on every device.</p>
+    <p>Without an account, your tokens are saved in this browser. To use them on another device, open Get more conversations in the room and choose Show my code.</p>
   </section>
 
   <section class="page-section" id="free">
@@ -153,7 +153,11 @@
 "use strict";
 // Each pack's Stripe Payment Link (https://buy.stripe.com/...) is set here when sales open.
 // A pack with an empty link is not shown; the page stays closed until one link is set.
-var PAYMENT_LINKS = {"1": "", "2": "", "3": ""};
+var PAYMENT_LINKS = {
+  "1": "https://buy.stripe.com/14AeV6bbR1Ro9P69bT8bS02",
+  "2": "https://buy.stripe.com/28E9AM4Nt7bI0ew0Fn8bS03",
+  "3": "https://buy.stripe.com/aFa6oA93J0Nk1iA87P8bS04"
+};
 var anyOpen = false;
 function startPurchase(link){
   window.GoDeeper.startPurchase(link, {
