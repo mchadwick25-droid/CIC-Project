@@ -1,0 +1,51 @@
+# Vendored by the library/source-research thread (Era VII session,
+# one-world agent for anti-trinitarian-currents-servetus-polish-brethr, 2026-10-16).
+source_file: calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt
+
+assignments:
+  - row_id: calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870--defensio-orthodoxae-fidei-and-the-geneva-trial
+    work: "Defensio orthodoxae fidei de sacra Trinitate contra prodigiosos errores Michaelis Serveti (1554) and the Geneva trial documents of 1553"
+    author: calvin
+    locus: "Caput XXXIV, the editors' introduction to the Defensio, at file line 1191; the Defensio text from 29303; the Geneva and Vienne trial documents (French) from about 47410 to about 56400, with the Vienne papers at 54863"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: assigned
+    note: >
+      The hostile institutional record the census names: Calvin's reply to
+      Servetus after the burning, and the trial papers (Servetus's answers
+      were given on trial for his life, a coercive setting). The Latin
+      and French of the Strasbourg editors' Corpus Reformatorum volume 8;
+      readable OCR with a systematic v-for-y and C-for-O substitution,
+      so quote after checking the page image. No public-domain English
+      translation of the Defensio; Rilliet 1846 (Tweedie) is the English
+      route to the trial (rilliet_calvin-and-servetus_tweedie1846.txt).
+  - row_id: calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870--servetus-epistolae-triginta-ad-calvinum
+    work: "Michaelis Serveti epistolae triginta ad Ioannem Calvinum (Appendix I)"
+    author: servetus
+    locus: "heading at file line 42482, running to the Signa and the trial documents at about 47410"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: tradition
+    confidence: assigned
+    note: >
+      Servetus's own letters to Calvin, printed by the editors as Appendix
+      I to Calvin's Defensio. His own voice, in Latin, in a volume edited
+      by his opponent's modern heirs; the letters carry the editors'
+      French and Latin notes. Quote after checking the page image.
+  - row_id: calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870--defensio-orthodoxae-fidei-and-the-geneva-trial-2
+    work: "Defensio orthodoxae fidei de sacra Trinitate contra Servetum (1554) and the Geneva trial documents of 1553"
+    author: calvin
+    locus: "Caput XXXIV at file line 1191; the Defensio text from 29303; the trial documents from about 47410"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Calvin's own defence of the Geneva council's action, and the council's
+      own trial record, for the Reformed cities world as Geneva's account
+      of the 1553 process. The same file serves the anti-Trinitarian
+      entry as the hostile record (row above). Also holds Calvin's De
+      scandalis (1550), the 1551 Congregation on election, the 1552
+      Consensus on predestination and the Quatre sermons, which belong
+      to this world and are not separately listed.

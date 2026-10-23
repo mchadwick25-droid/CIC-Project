@@ -30,3 +30,15 @@ assignments:
       voice, which the world''s floor question is about.
 
       '
+
+  - work: The Life and Letters of St. Francis Xavier, Vol. II
+    author: francis-xavier
+    locus: Cranganor and the church of St. Thomas at about lines 5774, 6580, 6610; instructions on the Malabar
+      priests at 3577
+    atlas_ids:
+    - st-thomas-christians-under-portuguese-pressure-d
+    role: antecedent
+    confidence: provisional
+    note: Xavier visits Cranganor and its two churches, one of St. Thomas. Same place, earlier. Not read
+      through.
+    row_id: francis-xavier_life-and-letters-v2_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-ii-3

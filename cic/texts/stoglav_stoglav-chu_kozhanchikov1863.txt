@@ -2,11 +2,11 @@ Title: Стоглав (Stoglav): Собор бывший в Москве при 
 Creator: Moscow church council of 1551 (the Stoglav); edition published by D. E. Kozhanchikov (editor not named in the OCR of the title page)
 Publisher: Saint Petersburg: Typography of the Imperial Academy of Sciences, for D. E. Kozhanchikov (title page: 'Издание Д. Е. Кожанчикова')
 Publication Date: 1863
-Rights: Public Domain (printed 1863, more than 95 years before 2026; censor's imprimatur in the scan dated 20 January 1863 [OCR reads '1868'])
+Rights: Public Domain (printed 1863, more than 95 years before 2026; title page of the scan reads '1863')
 Language: chu
 Source: Internet Archive item stoglav32, file stoglav32_djvu.txt (user upload, Russian online libraries collection), fetched directly by the library/source-research thread (Era VII session, VI.23 world agent), 2026-10-16; host rights statement: none given on the item (no possible-copyright-status or licence field); the rights basis is the 1863 imprint read in the scan ('1863' on the title page)
 Provenance note: Header prepended; the OCR text follows unchanged (no long s in the file, 0 replaced; nothing retyped, dropped or corrected). Rights basis restated: a book printed in Saint Petersburg in 1863 is public domain in the United States by date under the 95-year rule.
-Content note: @@CONTENT@@
+Content note: Language tag 'chu' names the Russian recension of Church Slavonic in which the council text is printed; the editor's preface and notes are nineteenth-century Russian. Order in the file: library stamps and title pages, the editor's preface (ПРЕДИСЛОВIЕ, file line 96), the council's text (opening 'Предисловие сего собора', file line 889), then ПРИЛОЖЕНIЯ (appendices, file line 9188) and a bookseller's list of Old Believer books at the end. OCR sampled at five points (10/30/50/70/90 percent): readable Cyrillic with systematic substitutions (the letter yat is read as Ь, Б or Ф, and the chapter numerals in the headings are garbled), so the chapter headings cannot be trusted for numbering; check any quotation against the page images. A second print of the same text is the Kazan 1862 edition (archive.org stoglav00unkngoog), not vendored. French translation beside it: stoglav_stoglav-fra_duchesne1920.txt.
 ---
 ААА АААЛАЛААЛАА, 
 

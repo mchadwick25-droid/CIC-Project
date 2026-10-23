@@ -120,6 +120,19 @@ works:
     the page images before quoting (Mark''s OCR ruling, 2026-09-25). Role context, not tradition:
     a hostile outside witness.'
   source_file: rogers-john_displaying-of-an-horrible-secte_bishop1579.txt
+- row_id: rutherford_letters_bonar1891--letter-309-and-footnote-on-the-familists
+  work: 'Letters of Samuel Rutherford: Letter CCCIX (1644) and the editor''s footnote on the
+    Familists'
+  author: rutherford
+  locus: file lines 32770-32812 (the letter lists Anabaptists, Antinomians and Familists in
+    London; the editor's note summarises David George, Henry Nicholas and Christopher Vivet
+    with sources)
+  role: context
+  confidence: provisional
+  note: Out of window (1644) and a nineteenth-century editor's summary; placed only as a pointer
+    to how the Familists were remembered in the 1640s. Rutherford's own Survey of the Spirituall
+    Antichrist (1648) is the fuller text (lead in dossier section 3).
+  source_file: rutherford_letters_bonar1891.txt
 - row_id: schwenckfeld_corpus-schwenckfeldianorum-v1-earliest-letters-deu-eng_hartranft1907--earliest-letters-1520-1524-2
   work: Corpus Schwenckfeldianorum, vol. I (earliest letters, 1520-1524)
   author: schwenckfeld
@@ -179,8 +192,8 @@ works:
   role: context
   confidence: assigned
   note: 'A hostile witness that prints the English Familists'' own articles and an Elder''s
-    exposition of them, one by one. Wilkinson says he was once of the Family. SECOND WITNESS
-    for exact wording: EEBO microfilm OCR (about 0.87 of tokens read as words at five sample
-    points), so locate passages here and verify against the page images before quoting (Mark''s
-    OCR ruling, 2026-09-25). Uneven: the title page and some margins are noise.'
+    exposition of them, one by one. SECOND WITNESS for exact wording: EEBO microfilm OCR (about
+    0.87 of tokens read as words at five sample points), so locate passages here and verify
+    against the page images before quoting (Mark''s OCR ruling, 2026-09-25). Uneven: the title
+    page and some margins are noise.'
   source_file: wilkinson-william_confutation-of-certaine-articles_daye1579.txt

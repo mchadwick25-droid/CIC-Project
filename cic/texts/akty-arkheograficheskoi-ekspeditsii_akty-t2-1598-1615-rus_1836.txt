@@ -1,12 +1,12 @@
-Title: Акты, собранные в библиотеках и архивах Российской империи Археографическою экспедициею Императорской Академии Наук. Том второй, 1598-1613 [host title: 1598-1615]
-Creator: Imperial Academy of Sciences, Archaeographic Expedition (collection of acts and documents); the volume includes the 1611-1612 letters of Patriarch Hermogenes and the acts of the Time of Troubles
-Publisher: Saint Petersburg: Typography of the Second Section of His Imperial Majesty's Own Chancery ('Типография Второго Отделения ...'), 1836
+Title: Акты, собранные в библиотеках и архивах Российской империи Археографическою экспедициею Императорской Академии Наук. Том второй, 1598-1615 (dates as given in the host title)
+Creator: Imperial Academy of Sciences, Archaeographic Expedition (collection of acts and documents); the volume's documents are of the Time of Troubles (the OCR names Boris Godunov, the false Dmitry and the 1611-12 militia) and name Patriarch Hermogenes
+Publisher: Saint Petersburg, 1836 (the title-page OCR of the printer's line is garbled; the host record of volume 1 of the set gives 'Типография второго отделения собственной е.и.в. канцелярии')
 Publication Date: 1836
 Rights: Public Domain (printed 1836, more than 95 years before 2026; the documents are of 1598-1615)
 Language: rus
 Source: Internet Archive item Legal_Acts_from_Libraries_and_Archives_of_Russian_Empire_Vol_2, file akty_sobrannye_v_bibliotekakh_i_arkhivakh_rossijskoj_imperii_t_2_djvu.txt (user upload, booksbylanguage_russian), fetched directly by the library/source-research thread (Era VII session, VI.23 world agent), 2026-10-16; host rights statement: none given on the item (no possible-copyright-status or licence field); the rights basis is the 1836 imprint (title-page OCR reads '1 8 ^^ 6' and the host catalogue gives 1836)
 Provenance note: Header prepended; the OCR text follows unchanged (no long s in the file, 0 replaced; nothing retyped, dropped or corrected). Rights basis restated: a volume printed in Saint Petersburg in 1836 is public domain in the United States by date under the 95-year rule.
-Content note: @@CONTENT@@
+Content note: Volume 2 of the four-volume Akty arkheograficheskoi ekspeditsii, documents of 1598 to 1613 or 1615 (the host title says 1598-1615; the title-page OCR reads '398- І6І 5'). Documents are in seventeenth-century Russian, printed in the old orthography, with short nineteenth-century editorial headings. Patriarch Hermogenes is named at file lines 17163, 30969 and 31011, among others; the passages at 30969 and 31011 concern his calls to the cities in the Time of Troubles. Read them before relying on any of them as his own words. OCR sampled at five points: good quality; headings and marginal abbreviations are rougher. Documents on the 1589 patriarchate are not in this volume; volume 1 is archive.org akty0arx (tom_1), not vendored.
 ---
 ЬЧ 
 

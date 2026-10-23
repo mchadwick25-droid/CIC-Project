@@ -7413,3 +7413,340 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: VI.15 world agent, metadata and OCR sample, 2026-10-16 (no rights field; 1556 imprint)
     status: not-yet-downloaded
+
+  - title: The History of the Church of Malabar ... with the Synod of Diamper
+    author: Michael Geddes
+    translator: Michael Geddes (from the Portuguese)
+    year: 1694
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: The census's named English acts of Diamper. Vendored from the Michigan-copy scan with the Public
+      Domain Mark; the Princeton scan historyofchurcho00gedd is a cross-check (word-like token share 0.90
+      against 0.91).
+    url: https://archive.org/details/the_history_of_the_church_of_malabar_1694-michael_geddes
+    rights_basis: pd-us-by-date
+    verified_by: VI.18 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
+  - title: The History of Christianity in India, Vol. II
+    author: James Hough
+    translator: null
+    year: 1839
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: Prints the Acts of Diamper in modern type (Appendix A) and narrates 1599-1665 in English; named
+      in the task brief.
+    url: https://archive.org/details/historychristia02houggoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.18 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (NOT_IN_COPYRIGHT)
+    status: downloaded
+    vendored_as: hough_history-of-christianity-in-india-v2_1839.txt
+  - title: Historia Ecclesiae Malabaricae cum Diamperitana Synodo
+    author: Johannes Facundus Raulin
+    translator: null
+    year: 1745
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: The Latin acts with the Malabar Mass; the Latin witness beside Geddes's English.
+    url: https://archive.org/details/bub_gb_GwYeoa5XibsC
+    rights_basis: pd-us-by-date
+    verified_by: VI.18 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (Public Domain
+      Mark 1.0)
+    status: downloaded
+    vendored_as: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt
+  - title: Prima speditione all'Indie Orientali
+    author: Giuseppe di Santa Maria Sebastiani
+    translator: null
+    year: 1666
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: Carmelite eyewitness of the first mission after the 1653 oath; named in the task brief.
+    url: https://archive.org/details/bub_gb_8zYE6AfFRikC
+    rights_basis: pd-us-by-date
+    verified_by: VI.18 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (Public Domain
+      Mark 1.0)
+    status: downloaded
+    vendored_as: sebastiani_prima-speditione-indie-orientali-ita_1666.txt
+  - title: Seconda speditione all'Indie Orientali
+    author: Giuseppe di Santa Maria Sebastiani
+    translator: null
+    year: 1672
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: Carmelite eyewitness of the second mission and the 1663 consecration; named in the task brief.
+    url: https://archive.org/details/bub_gb_XV38nWq7p0oC
+    rights_basis: pd-us-by-date
+    verified_by: VI.18 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (Public Domain
+      Mark 1.0)
+    status: downloaded
+    vendored_as: sebastiani_seconda-speditione-indie-orientali-ita_1672.txt
+  - title: Il viaggio all'Indie Orientali
+    author: Vincenzo Maria di S. Caterina da Siena
+    translator: null
+    year: 1672
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: The Carmelite account of the 1653 revolt and the 1657-1658 negotiations, named in the task brief.
+    url: https://archive.org/details/bub_gb_NC9W3W6xXFAC
+    rights_basis: pd-us-by-date
+    verified_by: VI.18 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (Public Domain
+      Mark 1.0)
+    status: downloaded
+    vendored_as: vincenzo-maria_viaggio-indie-orientali-ita_1672.txt
+  - title: Lingerings of Light in a Dark Land
+    author: Thomas Whitehouse
+    translator: null
+    year: 1873
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: Named in the task brief; carries two translated documents of the community itself.
+    url: https://archive.org/details/lingeringslight00whitgoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.18 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (NOT_IN_COPYRIGHT)
+    status: downloaded
+    vendored_as: whitehouse_lingerings-of-light-in-a-dark-land_1873.txt
+  - title: Histoire du christianisme des Indes
+    author: Maturin Veyssiere La Croze
+    translator: null
+    year: 1724
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: 'Named in the task brief. French; scan sampled readable (token share 0.81). Not vendored this pass:
+      a secondary history, and the corpus already holds the acts twice in English and once in Latin. No
+      public-domain English found; a German digest of 1724 is catalogued (herrnmvlacrozekn00lacr, not opened).'
+    url: https://archive.org/details/bub_gb_0LcHacCZSJEC
+    rights_basis: pd-us-by-date; host Public Domain Mark 1.0
+    verified_by: VI.18 world agent, metadata API only (title, year, rights field read), 2026-10-16
+    status: not-yet-downloaded
+  - title: India Orientalis Christiana
+    author: Paulinus a S. Bartholomaeo
+    translator: null
+    year: 1794
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: 'Named in the task brief. Latin; scan rough (token share 0.75). Not vendored: secondary survey,
+      1794.'
+    url: https://archive.org/details/indiaorientalis00paulgoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: VI.18 world agent, metadata API only (title, year, rights field read), 2026-10-16
+    status: not-yet-downloaded
+  - title: Christianity in Travancore
+    author: Gordon Thomson Mackenzie
+    translator: null
+    year: 1901
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: Named in the task brief. English, Trivandrum Government Press; its index lists 'Oath before the
+      Coonen cross at Matancheri' and its text prints the 1653 events. Secondary. Not vendored this pass.
+    url: https://archive.org/details/ChristianityInTravancore
+    rights_basis: pd-us-by-date; host Public Domain Mark 1.0 (1901 imprint per host metadata)
+    verified_by: VI.18 world agent, metadata API only (title, year, rights field read), 2026-10-16
+    status: not-yet-downloaded
+  - title: The Christians of St. Thomas and their liturgies
+    author: George Broadley Howard
+    translator: George Broadley Howard
+    year: 1864
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: Syriac liturgies of the Malabar church in English, with a chapter on the Synod of Diamper. Later
+      than the window but a record of the rite the synod altered. Not vendored this pass.
+    url: https://archive.org/details/TheChristiansOfStThomas
+    rights_basis: pd-us-by-date; host Public Domain Mark 1.0
+    verified_by: VI.18 world agent, metadata API only (title, year, rights field read), 2026-10-16
+    status: not-yet-downloaded
+  - title: The Syrian Christians of Malabar, otherwise called the Christians of S. Thomas
+    author: Edavalikel Philipos (Cathanar), ed. G. B. Howard
+    translator: null
+    year: 1869
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: 'A Malabar priest''s own answers, in 79 or more numbered questions, on his church''s beliefs, with
+      a long account of its history. The one inside voice found, from 1869: outside the window, useful to
+      the Mar Thoma and Malankara entries. Not vendored this pass.'
+    url: https://archive.org/details/syrianchristians00philuoft
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: VI.18 world agent, metadata API only (title, year, rights field read), 2026-10-16
+    status: not-yet-downloaded
+  - title: A true and exact description of the most celebrated East-India coasts of Malabar and Coromandel
+    author: Philippus Baldaeus (Churchill's Voyages)
+    translator: null
+    year: 1703
+    world: VI.18 st-thomas-christians-under-portuguese-pressure-d
+    why: Dutch chaplain's account of the Malabar coast after the Dutch conquest of Cochin (1663), with chapters
+      on the Christians of St. Thomas. English, readable (token share 0.91). Not vendored this pass.
+    url: https://archive.org/details/trueexactdescrip00bald
+    rights_basis: 'pd-us-by-date; host: Not in copyright, BHL knows of no restrictions'
+    verified_by: VI.18 world agent, metadata API only (title, year, rights field read), 2026-10-16
+    status: not-yet-downloaded
+
+  - title: Evangelium Regni (A Joyfull Message of the Kingdom)
+    author: Hendrik Niclaes
+    translator: translator not named
+    year: 1652 reprint of the 1570s English translation
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: Niclaes's central work; the census names it.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_evangelium-regni-_niclas-hendrik_1652
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points; no access restriction on the item'
+    status: downloaded
+    vendored_as: niclaes_evangelium-regni_london1652.txt
+  - title: Terra Pacis
+    author: Hendrik Niclaes
+    translator: translator not named
+    year: 1575
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: Named in the census.
+    url: https://archive.org/details/bim_early-english-books-1475-1640_terra-pacis-a-true-test_niclas-hendrik_1575
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points; no access restriction on the item'
+    status: downloaded
+    vendored_as: niclaes_terra-pacis_1575.txt
+  - title: The Principall Epistles of HN
+    author: Hendrik Niclaes
+    translator: translator not named
+    year: 1575
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: Named in the census (epistles).
+    url: https://archive.org/details/bim_early-english-books-1475-1640_epistole-hn-the-princip_niclas-hendrik_1575
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points; no access restriction on the item'
+    status: downloaded
+    vendored_as: niclaes_principall-epistles_bohmberg1575.txt
+  - title: A brief Rehersall of the Beleef of the Goodwilling in Englande
+    author: English Family of Love
+    translator: anonymous
+    year: 1575
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: The English Familists' own confession.
+    url: https://archive.org/details/bim_early-english-books-1475-1640_a-brief-rehersall-of-the_family-of-love_1575
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points; no access restriction on the item'
+    status: downloaded
+    vendored_as: family-of-love_brief-rehersall-of-the-beleef_1575.txt
+  - title: Mirabilia opera Dei
+    author: Tobias, fellow elder with H. N.
+    translator: translator not named
+    year: 1650 reprint of 1575
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: Disciple's account of Niclaes's calling; evidence for the tradition-or-one-man question.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_mirabilia-opera-dei-cer_tobias-fellow-elder-wit_1650
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points; no access restriction on the item'
+    status: downloaded
+    vendored_as: tobias-familist_mirabilia-opera-dei_1650.txt
+  - title: The Displaying of an horrible secte ... the Family of Loue
+    author: John Rogers
+    translator: none
+    year: 1579
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: Named in the census (as 1578); the 1579 edition adds two Familist letters.
+    url: https://archive.org/details/bim_early-english-books-1475-1640_the-displaying-of-an-hor_rogers-john-author-of-_1579
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points; no access restriction on the item'
+    status: downloaded
+    vendored_as: rogers-john_displaying-of-an-horrible-secte_bishop1579.txt
+  - title: A Confutation of Certaine Articles delivered unto the Familye of Love
+    author: William Wilkinson
+    translator: none
+    year: 1579
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: Hostile witness that prints the Familist articles and an Elder's exposition.
+    url: https://archive.org/details/bim_early-english-books-1475-1640_confutation-of-certaine-_wilkinson-william_1579
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points; no access restriction on the item'
+    status: downloaded
+    vendored_as: wilkinson-william_confutation-of-certaine-articles_daye1579.txt
+  - title: A Confutation of monstrous and horrible Heresies, taught by H. N.
+    author: John Knewstub
+    translator: none
+    year: 1579
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: Hostile witness quoting the Evangelium Regni.
+    url: https://archive.org/details/bim_early-english-books-1475-1640_a-confutation-of-monstro_knewstub-john_1579
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-23: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points; no access restriction on the item'
+    status: downloaded
+    vendored_as: knewstub-john_confutation-of-monstrous-heresies-familie-of-loue_dawson1579.txt
+  - title: The Forbidden Fruit (title page "August. Eluthenius"; attributed to Franck by the host)
+    author: Sebastian Franck (attribution needs a ruling)
+    translator: translator not named
+    year: 1640
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: The one Franck text in public-domain English found.
+    url: https://archive.org/details/bim_early-english-books-1475-1640_the-forbidden-fruit-or-_franck-sebastian_1640
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points; no access restriction on the item'
+    status: downloaded
+    vendored_as: franck_forbidden-fruit_anon1640.txt
+  - title: Paradoxa Ducenta Octoginta (280 Paradoxa), German
+    author: Sebastian Franck
+    translator: none (German original)
+    year: 1559 (work first printed 1534)
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: Named in the census (Furcha's English is in copyright).
+    url: https://archive.org/details/bub_gb_6_s7AAAAcAAJ
+    rights_basis: pd-us-by-date; host Public Domain Mark 1.0
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points; no access restriction on the item'
+    status: downloaded
+    vendored_as: franck_paradoxa-deu_rab1559.txt
+  - title: Annals of the Reformation, vol. II part 2
+    author: John Strype
+    translator: none
+    year: 1824
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: Quotes the 1570s examinations of the Familists (Vitells, Crinel); the census names Strype for the
+      examinations.
+    url: https://archive.org/details/annalsofreformat0202stry
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points; no access restriction on the item'
+    status: downloaded
+    vendored_as: strype_annals-of-the-reformation-v2-pt2_1824.txt
+  - title: 'The Church History of Britain, vol. IV (Book X: the Familists'' petition to James I, 1604, and
+      editor''s note citing the 1580 proclamation)'
+    author: Thomas Fuller
+    translator: J. S. Brewer (ed.)
+    year: 1845 edition (work 1655)
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: Fuller's own Familist passage and the 1845 editor's note naming the proclamation of 1580 (Wilkins,
+      Concilia IV.297) and Knewstub's imprint. Not vendored this pass to keep the corpus size down; clean
+      OCR (0.88).
+    url: https://archive.org/details/churchhistoryofb04fulluoft
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, 2026-10-16: metadata read, djvu.txt sampled and read at
+      the Familist passages (file lines about 24200-24640). Not vendored.'
+    status: not-yet-downloaded
+  - title: Sebastian Francks lateinische Paraphrase der deutschen Theologie und seine hollandisch erhaltenen
+      Traktate
+    author: Alfred Hegler
+    translator: none
+    year: 1901
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: Prints Franck's Dutch-preserved tracts; clean OCR (0.96). German scholarship with edited text,
+      so a lead, not a primary witness.
+    url: https://archive.org/details/sebastianfrancks00hegl
+    rights_basis: pd-us-by-date (1901 imprint; no rights field on the item)
+    verified_by: 'library/source-research thread, 2026-10-16: metadata read, five-point sample clean. Not
+      vendored.'
+    status: not-yet-downloaded
+  - title: A Survey of the Spirituall Antichrist, opening the secrets of Familisme and Antinomianisme
+    author: Samuel Rutherford
+    translator: none
+    year: 1648
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: A Scottish Presbyterian refutation of Familism with long extracts from Niclaes and the English
+      Familists (Fuller cites it). Outside the 1540-1600 window.
+    url: https://archive.org/details/survspiva00ruth
+    rights_basis: pd-us-by-date (1648 imprint; no rights field on the item)
+    verified_by: 'library/source-research thread, 2026-10-16: metadata read (djvu.txt 1.8 MB present); text
+      not opened. Not vendored.'
+    status: not-yet-downloaded
+  - title: A Faithful Narrative of God's gracious dealings with Hiel (Hendrik Jansen van Barrefelt)
+    author: Hendrik Jansen
+    translator: not read
+    year: '1781'
+    world: family-of-love-and-spiritualists-franck-niclaes
+    why: The only English Hiel print found. Listed by the archive.org search only; item not opened.
+    url: https://archive.org/details/bim_eighteenth-century_a-faithful-narrative-of-_jansen-hendrik_1781
+    rights_basis: pd-us-by-date if the 1781 imprint is confirmed; not confirmed
+    verified_by: 'library/source-research thread, 2026-10-16: search listing only (title, creator, date
+      1781). Metadata and text not opened.'
+    status: not-yet-downloaded

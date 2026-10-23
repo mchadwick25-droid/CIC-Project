@@ -5,7 +5,7 @@ Publication Date: 1856
 Rights: Public Domain (published 1856, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)
 Source: Internet Archive item russiaatcloseofs20bond, file russiaatcloseofs20bond_djvu.txt (contributor University of Pittsburgh Library System), fetched directly by the library/source-research thread (Era VII session, VI.23 world agent), 2026-10-16; host rights statement: possible-copyright-status NOT_IN_COPYRIGHT; 1856 imprint read on the title page in the scan ('M.DCCC.LVI')
 Provenance note: Header prepended; the OCR text follows unchanged (no long s in the file, 0 replaced; nothing retyped, dropped or corrected). Rights basis restated: a London book of 1856 reprinting a text of 1591 is public domain in the United States by date under the 95-year rule.
-Content note: @@CONTENT@@
+Content note: Order in the file: Hakluyt Society front matter and Bond's introduction, then Fletcher's treatise 'Of the Russe Common Wealth' reprinted from the 1591 London edition (Chap. I at file line 5618), then Horsey's Travels (title at file line 12334). The chapters on the Russian church are Chap. XXI 'Of their Ecclesiasticall state, with their Church offices' (file line 10036), Chap. XXII 'Of their Leiturgie, or forme of Church-service, and their manner of administring the Sacraments' (10817) and Chap. XXIII 'Of the Doctrine of the Russe Church, and what errours it holdeth' (11099). Fletcher writes as a hostile English Protestant outside witness. OCR sampled at five points: clean Jacobean English with occasional stray marks. A second scan of the same Hakluyt volume is archive.org russiaatclosesi00horsgoog, not vendored.
 ---
 HttttirrBttij  nf  iPtttBburgli 
 

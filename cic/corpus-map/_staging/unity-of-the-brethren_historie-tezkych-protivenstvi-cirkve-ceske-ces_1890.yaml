@@ -1,0 +1,32 @@
+source_file: unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890.txt
+
+assignments:
+  - row_id: "unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890--historie-o-t-k-ch-protivenstv-ch-c-rkve-esk-894-1632-with-th"
+    work: "Historie o těžkých protivenstvích církve české, 894-1632 (with the Waldensian persecution of 1655)"
+    author: unity-of-the-brethren
+    locus: "whole volume; sections for 1618 onward from file line 7043 ('Léta 1618'); Adam Hartmann named at line 7529"
+    atlas_ids:
+      - czech-churches-last-century
+    role: tradition
+    confidence: assigned
+    note: "The Czech exiles' history of their church's sufferings to the suppression under Ferdinand II, in a clean 1890 edition. Primary original evidence for the suppression, quotable once each wording is checked against the page image. Authorship is the host catalogue's ascription to Comenius with Adam Hartmann; the title page names no author, so the author slug is the Unity. Placed on headings and a year-index read; not read in full."
+
+  - row_id: "unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890--historie-o-t-k-ch-protivenstv-ch-c-rkve-esk-894-1632-with-th-2"
+    work: "Historie o těžkých protivenstvích církve české, 894-1632 (with the Waldensian persecution of 1655)"
+    author: unity-of-the-brethren
+    locus: "whole volume; sections for 1618 onward from file line 7043 ('Léta 1618'); Adam Hartmann named at line 7529"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: context
+    confidence: provisional
+    note: "The Czech exiles' history of their church's sufferings to the suppression under Ferdinand II, in a clean 1890 edition. Primary original evidence for the suppression, quotable once each wording is checked against the page image. Authorship is the host catalogue's ascription to Comenius with Adam Hartmann; the title page names no author, so the author slug is the Unity. Placed on headings and a year-index read; not read in full."
+
+  - row_id: "unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890--historie-o-t-k-ch-protivenstv-ch-c-rkve-esk-894-1632-with-th-3"
+    work: "Historie o těžkých protivenstvích církve české, 894-1632 (with the Waldensian persecution of 1655)"
+    author: unity-of-the-brethren
+    locus: "whole volume; sections for 1618 onward from file line 7043 ('Léta 1618'); Adam Hartmann named at line 7529"
+    atlas_ids:
+      - the-moravian-church-at-herrnhut
+    role: antecedent
+    confidence: provisional
+    note: "The Czech exiles' history of their church's sufferings to the suppression under Ferdinand II, in a clean 1890 edition. Primary original evidence for the suppression, quotable once each wording is checked against the page image. Authorship is the host catalogue's ascription to Comenius with Adam Hartmann; the title page names no author, so the author slug is the Unity. Placed on headings and a year-index read; not read in full."

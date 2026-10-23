@@ -14,3 +14,14 @@ assignments:
     once each wording is checked against the page image: the scan is legible with occasional letter-level
     misreads. Word-form coverage against a clean Latin vocabulary is 0.81; the Spanish, Italian and Portuguese
     passages and the notes lower it, so the figure is a comparison across files and not a measure of accuracy.'
+
+- work: Polanco, Chronicon (volume 6)
+  author: polanco
+  locus: Cranganor college at about line 47089; Malabar language and lexicon at 45113 and 55175
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: antecedent
+  confidence: provisional
+  note: Jesuit chronicle of the 1550s on the college at Cranganor and work among the Malabars. Same place,
+    earlier. Latin. Not read through.
+  row_id: polanco_chronicon-v6-lat_1898--polanco-chronicon-volume-6

@@ -450,3 +450,36 @@ works:
       items:
       - cic:reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt:Catechism (line
         2703) to the Confession of Faith (line 5151)
+
+  - work_id: synod-of-diamper-acts-and-decrees
+    title: Acts and Decrees of the Synod of Diamper (1599)
+    author: synod-of-diamper
+    original_language: Portuguese
+    composed: 1599, printed in Gouvea's Jornada (Coimbra 1606)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Johannes Facundus Raulin
+      year: 1745
+      language: Latin
+      recension: Portuguese
+      items:
+      - cic:raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt:lines-5062-18817
+    - translator: Michael Geddes
+      year: 1694
+      language: English
+      recension: Portuguese
+      items:
+      - cic:geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt:lines-9602-end-of-decrees
+      - cic:hough_history-of-christianity-in-india-v2_1839.txt:lines-29882-40113
+    notes: 'Two Expressions in the corpus: Raulin''s Latin and Geddes''s English. Hough 1839 Appendix A
+      is Geddes''s English reprinted in modern type with the heading of each decree restored from the Portuguese
+      (Hough''s own statement), so it is listed under Geddes, not as a third translation. The Portuguese
+      archetype (Gouvea 1606) is not in the corpus. Item addresses are line ranges because none of the three
+      files carries structural markers; Geddes''s end line was not fixed this pass. Hough judges Geddes
+      literal and in agreement with Raulin''s Latin; that is Hough''s claim, not checked here.
+
+      '

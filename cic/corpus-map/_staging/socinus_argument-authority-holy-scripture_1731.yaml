@@ -1,0 +1,20 @@
+# Vendored by the library/source-research thread (Era VII session,
+# one-world agent for anti-trinitarian-currents-servetus-polish-brethr, 2026-10-16).
+source_file: socinus_argument-authority-holy-scripture_1731.txt
+
+assignments:
+  - row_id: socinus_argument-authority-holy-scripture_1731--argument-for-the-authority-of-holy-scripture
+    work: "An Argument for the Authority of Holy Scripture (Socinus, De Auctoritate Sacrae Scripturae), English of 1731, with a Short Account of his Life"
+    author: socinus
+    locus: "Short Account of the Life of Socinus from file line 169; the Argument in chapters from CHAP. I at 1472"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: tradition
+    confidence: assigned
+    note: >
+      The English of one Socinus treatise, translated from the Steinfurt
+      copy (1611), not from the 1656 text; the Latin is in
+      socinus_opera-omnia-exegetica-lat_1656.txt (De Auctoritate at line
+      38593). The translator is not named on the title page. The Short
+      Account is the translator's, an eighteenth-century hand, and is not
+      the movement's voice. Clean OCR.

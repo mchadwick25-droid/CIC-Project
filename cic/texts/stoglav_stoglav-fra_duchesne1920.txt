@@ -4,9 +4,9 @@ Publisher: Paris: Librairie ancienne Honoré Champion, Édouard Champion (Biblio
 Publication Date: 1920
 Rights: Public Domain (published 1920, more than 95 years before 2026; Internet Archive licence URL: Public Domain Mark 1.0)
 Language: fra
-Source: Internet Archive item StoglavTraductionFrancaise, file Stoglav_djvu.txt (user upload from a Princeton University Library scan of the Wisconsin copy, by the OCR stamps), fetched directly by the library/source-research thread (Era VII session, VI.23 world agent), 2026-10-16; host rights statement: licenseurl http://creativecommons.org/publicdomain/mark/1.0/ (Public Domain Mark 1.0); no possible-copyright-status field; publication year 1920 read from the title page in the scan
+Source: Internet Archive item StoglavTraductionFrancaise, file Stoglav_djvu.txt (user upload; the scan's own stamps read 'Original from University of Wisconsin' and 'Princeton University'), fetched directly by the library/source-research thread (Era VII session, VI.23 world agent), 2026-10-16; host rights statement: licenseurl http://creativecommons.org/publicdomain/mark/1.0/ (Public Domain Mark 1.0); no possible-copyright-status field; publication year 1920 read from the title page in the scan
 Provenance note: Header prepended; the OCR text follows unchanged (no long s in the file, 0 replaced; nothing retyped, dropped or corrected). Rights basis restated: a book published in Paris in 1920 is public domain in the United States by date under the 95-year rule.
-Content note: @@CONTENT@@
+Content note: French translation of the Stoglav with Duchesne's introduction, commentary and indexes; the Western-language version of the council text, beside the Russian in stoglav_stoglav-chu_kozhanchikov1863.txt. Order in the file: title pages, introduction (INTRODUCTION, file line 91), an appendix (APPENDICE, file line 1509), the hundred chapters in translation (CHAPITRE PREMIER, file line 2071), then tables and indexes (TABLE DES MATIÈRES from file line 17271). The OCR separates words with double spaces and drops some accents. OCR sampled at five points: readable French throughout with scattered letter errors (for example 'Us' for 'Ils', 'do' for 'de'). Duchesne's introduction and commentary are twentieth-century scholarship, not the council's voice.
 ---
 YAo^-^VJ  ComhcA    o^  "\W    Hap*Ax«-à.   CAia-^»"\*.T*»  ,  \^S\ 
 

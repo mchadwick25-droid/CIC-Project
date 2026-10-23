@@ -1,0 +1,32 @@
+source_file: lasicki_obraz-jednoty-ceskobratrske-ces_1869.txt
+
+assignments:
+  - row_id: "lasicki_obraz-jednoty-ceskobratrske-ces_1869--obraz-jednoty-eskobratrsk-lasicki-s-history-book-viii-on-the"
+    work: "Obraz Jednoty českobratrské: Lasicki's history, Book VIII, on the Unity's customs and orders (Comenius, Leszno 1649)"
+    author: lasicki
+    locus: "whole volume; Kapitola I from file line 981; Comenius's Předmluva at line 398"
+    atlas_ids:
+      - czech-churches-last-century
+    role: tradition
+    confidence: assigned
+    note: "The Unity's account of its own customs and orders, published by its last bishop in 1649, in a clean 1869 Czech edition. Primary original evidence for the Unity's discipline in its last century, quotable once each wording is checked against the page image. The Latin 1649 original is not vendored. Placed on the title page and chapter headings; the chapters were not read in full."
+
+  - row_id: "lasicki_obraz-jednoty-ceskobratrske-ces_1869--obraz-jednoty-eskobratrsk-lasicki-s-history-book-viii-on-the-2"
+    work: "Obraz Jednoty českobratrské: Lasicki's history, Book VIII, on the Unity's customs and orders (Comenius, Leszno 1649)"
+    author: lasicki
+    locus: "whole volume; Kapitola I from file line 981; Comenius's Předmluva at line 398"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: context
+    confidence: provisional
+    note: "The Unity's account of its own customs and orders, published by its last bishop in 1649, in a clean 1869 Czech edition. Primary original evidence for the Unity's discipline in its last century, quotable once each wording is checked against the page image. The Latin 1649 original is not vendored. Placed on the title page and chapter headings; the chapters were not read in full."
+
+  - row_id: "lasicki_obraz-jednoty-ceskobratrske-ces_1869--obraz-jednoty-eskobratrsk-lasicki-s-history-book-viii-on-the-3"
+    work: "Obraz Jednoty českobratrské: Lasicki's history, Book VIII, on the Unity's customs and orders (Comenius, Leszno 1649)"
+    author: lasicki
+    locus: "whole volume; Kapitola I from file line 981; Comenius's Předmluva at line 398"
+    atlas_ids:
+      - the-moravian-church-at-herrnhut
+    role: antecedent
+    confidence: provisional
+    note: "The Unity's account of its own customs and orders, published by its last bishop in 1649, in a clean 1869 Czech edition. Primary original evidence for the Unity's discipline in its last century, quotable once each wording is checked against the page image. The Latin 1649 original is not vendored. Placed on the title page and chapter headings; the chapters were not read in full."

@@ -1,0 +1,12 @@
+source_file: kralice-bible_biblj-svata-kralicka-ces_bfbs1887.txt
+
+assignments:
+  - row_id: "kralice-bible_biblj-svata-kralicka-ces_bfbs1887--bible-of-kralice-text-of-the-1613-edition-printed-1887"
+    work: "Bible of Kralice, text of the 1613 edition (printed 1887)"
+    author: kralice-bible
+    locus: "whole volume; Old Testament contents at file line 72, New Testament list at 125253"
+    atlas_ids:
+      - czech-churches-last-century
+    role: tradition
+    confidence: assigned
+    note: "The Unity's Czech Bible, translated from the original languages, in the text of its last Kralice edition (1613), printed in 1887. It is not the 1579-93 first edition. Readable Czech with marginal-reference noise. Quotable once each wording is checked against the page image."

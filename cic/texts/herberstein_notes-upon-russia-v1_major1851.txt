@@ -1,11 +1,11 @@
 Title: Notes upon Russia: being a translation of the earliest account of that country, entitled Rerum Moscoviticarum Commentarii, by the Baron Sigismund von Herberstein. Translated and edited, with notes and an introduction, by R. H. Major. Vol. I
-Creator: Sigmund von Herberstein (Rerum Moscoviticarum Commentarii, Vienna 1549); translated and edited by Richard Henry Major
-Publisher: London: printed for the Hakluyt Society (Works issued by the Hakluyt Society, no. 10 [OCR: the set is Hakluyt Society vols. 10 and 12]), 1851
+Creator: Sigmund von Herberstein (Rerum Moscoviticarum Commentarii, the Latin original); translated and edited by Richard Henry Major
+Publisher: London: printed for the Hakluyt Society (Hakluyt Society), 1851
 Publication Date: 1851 (volume 1; volume 2 is dated 1852 by the host catalogue)
 Rights: Public Domain (published 1851, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)
 Source: Internet Archive item notesuponrussiab01herbuoft, file notesuponrussiab01herbuoft_djvu.txt (contributor Robarts - University of Toronto), fetched directly by the library/source-research thread (Era VII session, VI.23 world agent), 2026-10-16; host rights statement: possible-copyright-status NOT_IN_COPYRIGHT; imprint 'M.DCCC.LI' read in the scan
 Provenance note: Header prepended; the OCR text follows unchanged (no long s in the file, 0 replaced; nothing retyped, dropped or corrected). Rights basis restated: a London book of 1851 is public domain in the United States by date under the 95-year rule.
-Content note: @@CONTENT@@
+Content note: Volume I of two. Order in the file: Hakluyt Society report and members' list, Major's introduction (file line 1241), then Herberstein's account of Muscovy. Herberstein writes as a Catholic imperial envoy and outside witness. The passages on the Russian church sit near the end of the volume: how the Metropolitan and bishops are chosen (file line 9800), a Greek-church letter on the faith (about file line 10325), the 'Canons of one ... a Metropolitan called the Prophet' (the OCR garbles the name; file line 10334) and 'a Bull of Pope Alexander in which the ordinance of baptism among the Russians is fully described' (file line 10688). The volume ends 'END OF THE FIRST VOLUME' at file line 12437. Volume II (archive.org notesuponrussiab02herbuoft) is not vendored. OCR sampled at five points: clean English; the Latin and German bibliographical passages in the introduction are rougher.
 ---
 ^_>   y 
 

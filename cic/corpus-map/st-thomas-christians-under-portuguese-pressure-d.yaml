@@ -3,6 +3,27 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: st-thomas-christians-under-portuguese-pressure-d
 works:
+- row_id: francis-xavier_life-and-letters-v1_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-i-2
+  work: The Life and Letters of St. Francis Xavier, Vol. I
+  author: francis-xavier
+  locus: Cranganor college and the Malabar priests at about lines 15224, 15733, 15765, 16878,
+    17063
+  role: antecedent
+  confidence: provisional
+  note: Xavier in the 1540s on the Cranganore college and the 'Malabar priests'. Same place,
+    a half-century before the window; antecedent to the Jesuit position at Diamper. Not read
+    through.
+  source_file: francis-xavier_life-and-letters-v1_coleridge1872.txt
+- row_id: francis-xavier_life-and-letters-v2_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-ii-3
+  work: The Life and Letters of St. Francis Xavier, Vol. II
+  author: francis-xavier
+  locus: Cranganor and the church of St. Thomas at about lines 5774, 6580, 6610; instructions
+    on the Malabar priests at 3577
+  role: antecedent
+  confidence: provisional
+  note: Xavier visits Cranganor and its two churches, one of St. Thomas. Same place, earlier.
+    Not read through.
+  source_file: francis-xavier_life-and-letters-v2_coleridge1872.txt
 - row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--a-short-history-of-the-church-of-malabar-geddes-with
   work: A Short History of the Church of Malabar (Geddes), with Remarks on the Synod
   author: geddes
@@ -45,6 +66,17 @@ works:
     changes. Neale's English of the Malabar rite is in the Neale volume; compare, since Neale
     doubts Raulin marks every change.
   source_file: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt
+- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-malabar-east-syriac-rite-of-the-st-thomas-christi
+  work: Liturgy of Malabar (East-Syriac rite of the St. Thomas Christians)
+  author: liturgy-of-malabar
+  locus: file lines about 8150-9700; Neale's introduction at line 655-680 and his note at
+    8340-8375 discuss the Synod of Diamper's changes
+  role: context
+  confidence: assigned
+  note: 'Neale''s English of the rite the Synod of Diamper revised; his notes name Menezes
+    and the Synod (lines 666, 8361) and call the Malabar liturgy''s surviving form a revision.
+    Compare with Raulin''s Liturgia Malabarica Menesiana. Tier: same time-place.'
+  source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
 - row_id: whitehouse_lingerings-of-light-in-a-dark-land_1873--appendix-d-abstract-of-a-brief-history-of-the-syrians-in
   work: Appendix D, 'Abstract of a brief history of the Syrians in Malabar, preserved among
     themselves'; Appendix E, the Angamale document of 1787
@@ -58,6 +90,16 @@ works:
     and a half after the events and in translation, so treat as community memory, not contemporary
     record.
   source_file: whitehouse_lingerings-of-light-in-a-dark-land_1873.txt
+- row_id: polanco_chronicon-v6-lat_1898--polanco-chronicon-volume-6
+  work: Polanco, Chronicon (volume 6)
+  author: polanco
+  locus: Cranganor college at about line 47089; Malabar language and lexicon at 45113 and
+    55175
+  role: antecedent
+  confidence: provisional
+  note: Jesuit chronicle of the 1550s on the college at Cranganor and work among the Malabars.
+    Same place, earlier. Latin. Not read through.
+  source_file: polanco_chronicon-v6-lat_1898.txt
 - row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--historia-synodi-diamperitanae-chapters-i-iv-raulin-s-history
   work: Historia Synodi Diamperitanae, chapters I-IV (Raulin's history)
   author: raulin

@@ -1,0 +1,12 @@
+source_file: comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt
+
+assignments:
+  - row_id: "comenius_labyrint-sveta-a-raj-srdce-ces_1809--labirynt-sw-ta-a-r-g-srdce-czech-original-1809-printing"
+    work: "Labirynt swěta a rág srdce (Czech original, 1809 printing)"
+    author: comenius
+    locus: "whole volume"
+    atlas_ids:
+      - czech-churches-last-century
+    role: tradition
+    confidence: assigned
+    note: "The Czech text of Comenius's Labyrinth in a blackletter printing. Second witness because the OCR reads blackletter poorly; the English of Lutzow (comenius_labyrinth-of-the-world_lutzow1901.txt) is the readable witness. Check every wording against the page image."

@@ -31,3 +31,16 @@ assignments:
       from London; his Letters were reprinted for English Puritan and later
       Nonconformist readers. Placed on that relation; the London letters were
       not read for this pass.
+
+  - row_id: rutherford_letters_bonar1891--letter-309-and-footnote-on-the-familists
+    work: 'Letters of Samuel Rutherford: Letter CCCIX (1644) and the editor''s footnote on the Familists'
+    author: rutherford
+    locus: file lines 32770-32812 (the letter lists Anabaptists, Antinomians and Familists in London; the
+      editor's note summarises David George, Henry Nicholas and Christopher Vivet with sources)
+    atlas_ids:
+    - family-of-love-and-spiritualists-franck-niclaes
+    role: context
+    confidence: provisional
+    note: Out of window (1644) and a nineteenth-century editor's summary; placed only as a pointer to how
+      the Familists were remembered in the 1640s. Rutherford's own Survey of the Spirituall Antichrist (1648)
+      is the fuller text (lead in dossier section 3).

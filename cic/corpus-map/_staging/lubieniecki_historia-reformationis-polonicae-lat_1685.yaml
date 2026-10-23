@@ -1,0 +1,21 @@
+# Vendored by the library/source-research thread (Era VII session,
+# one-world agent for anti-trinitarian-currents-servetus-polish-brethr, 2026-10-16).
+source_file: lubieniecki_historia-reformationis-polonicae-lat_1685.txt
+
+assignments:
+  - row_id: lubieniecki_historia-reformationis-polonicae-lat_1685--historia-reformationis-polonicae
+    work: "Historia Reformationis Polonicae (1685)"
+    author: lubieniecki
+    locus: "publisher's note to the reader from file line 11; Index capitum at 617; the history from Liber 1 at 758"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: tradition
+    confidence: assigned
+    note: >
+      The movement's own history of the Polish Reformation and the rise of
+      the Antitrinitarians, by the Polish Brother Stanislaw Lubieniecki,
+      printed after his death. An insider narrative, not a neutral
+      one. Readable but noisy OCR (long-s read as f, stray Cyrillic
+      glyphs, word-like share about 0.85): second witness until a cleaner
+      scan is found (Mark's OCR ruling, 2026-09-25). No public-domain
+      English.
