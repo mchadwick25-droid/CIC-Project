@@ -198,11 +198,6 @@
           <div class="caveat">A count per role per audience only. No role is tied to a code or an address.</div>
         </div>
         <div class="tile">
-          <div class="label">Door right now</div>
-          <div class="value" id="t-deeper-door">—</div>
-          <div class="caveat" id="t-deeper-door-detail"></div>
-        </div>
-        <div class="tile">
           <div class="label">Free grant right now</div>
           <div class="value" id="t-deeper-free">—</div>
           <div class="caveat" id="t-deeper-free-detail"></div>
@@ -241,7 +236,6 @@
         <button id="mint-copy" type="button">Copy codes</button>
         <button id="mint-hide" type="button">Hide codes</button>
       </div>
-      <div class="caveat" id="deeper-observe-note" style="margin-top: 8px;"></div>
       <div id="deeper-table-wrap" style="margin-top: 12px;"></div>
       <div class="caveat" style="margin-top: 8px;">One number per measure per day. No code, visitor or time of day is kept. Crisis turns are not counted here: the Go Deeper module never sees what a message says.</div>
     </section>
@@ -709,7 +703,7 @@
     refused_no_code: "no code", refused_code_not_accepted: "code not accepted", refused_spent: "code spent",
     refused_too_few: "too few tokens", refused_daily_ceiling: "group daily limit", refused_paused: "codes paused",
     refused_in_use: "tokens in use", refused_free_rounds_done: "free rounds done", refused_free_allowance_spent: "free allowance spent",
-    refused_door_free_closed: "door closed to free", refused_door_paid_closed: "door closed to codes", refused_paid_round_cap: "paid conversation at its round cap",
+    refused_paid_round_cap: "paid conversation at its round cap",
   };
   function refusalTotal(row) {
     return Object.keys(REFUSAL_LABELS).reduce((sum, key) => sum + (row[key] || 0), 0);
@@ -744,9 +738,7 @@
     table.appendChild(el("thead", {}, [el("tr", {}, [
       el("th", { text: "Day" }), el("th", { class: "num", text: "Codes" }), el("th", { class: "num", text: "Tokens sold" }),
       el("th", { class: "num", text: "Tokens spent" }), el("th", { class: "num", text: "Refused" }),
-      el("th", { text: "Why" }), el("th", { class: "num", text: "Door stage (peak)" }), el("th", { class: "num", text: "Of ceiling (peak)" }),
-      el("th", { class: "num", text: "Spend (peak)" }), el("th", { class: "num", text: "Would have refused: free" }),
-      el("th", { class: "num", text: "Would have refused: codes" }),
+      el("th", { text: "Why" }),
     ])]));
     const tbody = el("tbody", {});
     rows.forEach((row) => {
@@ -757,11 +749,6 @@
         el("td", { class: "num", text: fmtNumber(row.tokens_spent || 0) }),
         el("td", { class: "num", text: fmtNumber(refusalTotal(row)) }),
         el("td", { text: refusalText(row) }),
-        el("td", { class: "num", text: fmtNumber(row.door_stage || 0) }),
-        el("td", { class: "num", text: Math.round((row.door_ratio_permille || 0) / 10) + "%" }),
-        el("td", { class: "num", text: fmtDollars((row.door_spend_cents || 0) / 100) }),
-        el("td", { class: "num", text: fmtNumber(row.observed_free_refused || 0) }),
-        el("td", { class: "num", text: fmtNumber(row.observed_paid_refused || 0) }),
       ]));
     });
     table.appendChild(tbody);
@@ -807,11 +794,6 @@
         ? shown.map((a) => a.audience + ": " + a.roles.map((r) => r.label + " " + fmtNumber(r.count)).join(", ")).join(" · ")
         : "No audience is open.";
     }
-    const door = status.door;
-    document.getElementById("t-deeper-door").textContent = door ? "Stage " + door.stage : "—";
-    document.getElementById("t-deeper-door-detail").textContent = door
-      ? (door.observe ? "Observe mode: it narrows nothing yet. " : "") + (door.free_voice ? "Free open" : "Free closed") + " · " + (door.paid_voice ? "codes open" : "codes closed")
-      : "";
     const free = status.free_grant;
     document.getElementById("t-deeper-free").textContent = fmtNumber(free.now_tokens) + " tokens";
     document.getElementById("t-deeper-free-detail").textContent =
@@ -821,7 +803,7 @@
       status.packs.forEach((pack) => select.appendChild(el("option", { value: String(pack.price_usd), text: "$" + pack.price_usd + " pack — " + fmtNumber(pack.tokens) + " tokens" })));
     }
     document.getElementById("mint-limits").textContent = status.mint_limits
-      ? "Limits: " + fmtNumber(status.mint_limits.tokens_per_request) + " tokens a request, " + fmtNumber(status.mint_limits.tokens_per_day) + " a day. Each grant counts toward the door as a gift of the packs' price."
+      ? "Limits: " + fmtNumber(status.mint_limits.tokens_per_request) + " tokens a request, " + fmtNumber(status.mint_limits.tokens_per_day) + " a day."
       : "";
     const tester = status.tester;
     if (tester) {
@@ -836,7 +818,7 @@
       }
       document.getElementById("tester-limits").textContent =
         "One code for a professor or deep tester. Up to " + fmtNumber(tester.max_tokens) + " tokens and " + tester.max_days + " days, " + tester.per_day +
-        " codes a day. It stops working at the end of its last day, UTC. It counts toward the door as a gift, at the largest pack's price a token.";
+        " codes a day. It stops working at the end of its last day, UTC.";
       document.getElementById("t-deeper-tester-detail").textContent = "Limit " + tester.per_day + " a day. Cancel one with its mint id.";
     }
   }
@@ -933,22 +915,12 @@
   document.getElementById("mint-copy").addEventListener("click", async () => {
     try { await navigator.clipboard.writeText(shownCodes); deeperNotice("Codes copied.", false); } catch (e) { deeperNotice("Could not copy; select the codes by hand.", true); }
   });
-  function renderObserveNote(door) {
-    const note = document.getElementById("deeper-observe-note");
-    note.textContent = door && door.observe
-      ? "Observe mode: the door is worked out every minute but narrows nothing. The door columns show what it would have done each day, so the base number and thresholds can be set from them. They count turns the door would have refused outright; halving the free allowance at a stage is not counted, so read the peaks for how close the week came."
-      : "";
-  }
   async function loadDeeper() {
     // The route exists only when the Go Deeper module is on; without it the section stays hidden.
     try {
       const resp = await fetch("/api/admin/deeper/measures", { credentials: "same-origin" });
       if (resp.ok) {
         renderDeeper(await resp.json());
-        try {
-          const doorResp = await fetch("/api/admin/deeper/door", { credentials: "same-origin" });
-          if (doorResp.ok) renderObserveNote((await doorResp.json()).door);
-        } catch (e) { /* the note is optional */ }
         await loadStatus();
         await loadGrants();
       }

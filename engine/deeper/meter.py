@@ -45,14 +45,12 @@ RECONCILE_RETENTION_DAYS = 90
 MEASURE_RETENTION_DAYS = 90
 REFUSAL_REASONS = (
     "no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use",
-    "free_rounds_done", "free_allowance_spent", "door_free_closed", "door_paid_closed", "paid_round_cap",
+    "free_rounds_done", "free_allowance_spent", "paid_round_cap",
 )
 SUM_MEASURES = (
     "codes_single", "codes_batch", "codes_group", "tokens_sold", "tokens_granted", "tokens_spent",
     *(f"refused_{reason}" for reason in REFUSAL_REASONS),
-    "observed_free_refused", "observed_paid_refused",
 )
-MAX_MEASURES = ("door_stage", "door_ratio_permille", "door_spend_cents")
 FUNDS_KINDS = ("gift", "purchase", "adjustment")
 FUNDS_RETENTION_DAYS = 90
 MAX_FUNDS_CENTS = 10_000_000
@@ -556,7 +554,7 @@ class Meter:
         logger.warning("codes %s", "paused" if on else "unpaused")
 
     def set_state(self, key: str, value: str) -> None:
-        """Keeps one named value that must survive a restart (the pause, the door's last stage)."""
+        """Keeps one named value that must survive a restart (the pause)."""
         with self._lock:
             self._conn.execute(
                 "INSERT INTO state (key, value) VALUES (?, ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value", (key, value)
@@ -805,17 +803,6 @@ class Meter:
         with self._lock:
             self._add(name, amount, self._clock().isoformat())
 
-    def measure_peak(self, name: str, value: int) -> None:
-        """Keeps today's highest value for a measure that is a level, not a count."""
-        if name not in MAX_MEASURES:
-            raise ValueError(f"unknown measure {name!r}")
-        with self._lock:
-            self._conn.execute(
-                "INSERT INTO daily (day, measure, total) VALUES (?, ?, ?)"
-                " ON CONFLICT (day, measure) DO UPDATE SET total = MAX(total, excluded.total)",
-                (self._clock().isoformat(), name, value),
-            )
-
     def measures(self, days: int = 14) -> list[dict]:
         """Daily totals, newest day first; a measure with nothing that day reads 0."""
         since = (self._clock() - timedelta(days=days - 1)).isoformat()
@@ -825,12 +812,12 @@ class Meter:
         for day, name, total in rows:
             by_day.setdefault(day, {})[name] = total
         return [
-            {"day": day, **{name: by_day[day].get(name, 0) for name in (*SUM_MEASURES, *MAX_MEASURES)}}
+            {"day": day, **{name: by_day[day].get(name, 0) for name in SUM_MEASURES}}
             for day in sorted(by_day, reverse=True)
         ]
 
     def add_funds(self, kind: str, cents: int, payment_id: str | None = None, note: str | None = None) -> str | None:
-        """Records money that raises the door's ceiling: a gift or a go-deeper
+        """Records money that came in: a gift or a go-deeper
         purchase from Stripe (keyed by its payment id, so a replayed event adds
         nothing and a payment refunded first adds nothing), or an adjustment by
         hand. Returns the entry's id (random, so the order entries were made in is
