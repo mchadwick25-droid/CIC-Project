@@ -2471,3 +2471,9 @@ Also recorded: sermon renderings are authored by Opus inside the conversation, a
 ### 2026-10-23 — Not a pilot world (project lead's ruling, stop point 1 item 5)
 
 Alternatives shown: (1) not a pilot, Fable drafts Doc_10 alone; (2) pilot, Sonnet and Fable both draft Doc_10, graded blind. Chosen: 1 (project lead, 2026-10-23, "1"). `pilot_world: false` in `build/lpc_Build_State.yaml` stands.
+
+---
+
+### 2026-10-23 — The decision log stays in the world folder (project lead's ruling, stop point 1 item 6)
+
+Alternatives shown: (1) leave `lpc_Decision_Log.md` (694 KB) in `Build/worlds/lpc/`, as every other world does and as `tools/check_live_commentary.py` expects; (2) move it to `Build/Ministry/`, editing the five files that cite it; (3) archive entries before 2026-09-29 with a pointer. Chosen: 1 (project lead, 2026-10-23, "1"). Stop point 1 is complete.
