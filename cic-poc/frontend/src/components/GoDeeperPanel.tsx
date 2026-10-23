@@ -9,12 +9,16 @@ import { acceptClaim, addCode, closePanel, declineClaim, deeperEnabled, formatCo
 import { deeperCopy, pilotCopy } from '../lib/deeperCopy';
 import { dismissPilot, usePilot } from '../lib/pilot';
 import { peakBalance } from '../lib/balancePeak';
+import { accountsEnabled, closeSignIn, openHome, openSignIn, useAccount } from '../lib/accounts';
+import { accountsCopy } from '../lib/accountsCopy';
+import { SignInSteps } from './SignInSteps';
 
 const LOW_AT = 100;
 
 export function GoDeeperPanel() {
   const { codes, remaining, low, freeLeft, claim, panelOpen } = useDeeper();
   const pilot = usePilot();
+  const account = useAccount();
   const held = codes.length > 0;
   const count = held ? remaining : freeLeft;
   const [entering, setEntering] = useState(false);
@@ -27,7 +31,10 @@ export function GoDeeperPanel() {
   // A code on screen never outlives the panel: closing hides it, so a panel that
   // opens itself later at a limit starts with the code out of sight.
   useEffect(() => {
-    if (!panelOpen) setRevealed(false);
+    if (!panelOpen) {
+      setRevealed(false);
+      closeSignIn();
+    }
     // Closing returns the person to the control that opened it.
     if (wasOpen.current && !panelOpen) toggleRef.current?.focus();
     wasOpen.current = panelOpen;
@@ -43,6 +50,7 @@ export function GoDeeperPanel() {
   }, [panelOpen]);
 
   if (!deeperEnabled) return null;
+  const signingIn = accountsEnabled && account.signInOpen && account.status !== 'in';
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -75,11 +83,25 @@ export function GoDeeperPanel() {
       {panelOpen && (
         <aside id="go-deeper-panel" className="go-deeper__panel" aria-label={deeperCopy.heading}>
           <div className="go-deeper__head">
-            <h2>{deeperCopy.heading}</h2>
-            <button type="button" onClick={closePanel}>
-              {deeperCopy.close}
-            </button>
+            <h2>{signingIn ? accountsCopy.signInOrUp : deeperCopy.heading}</h2>
+            {signingIn ? (
+              <button type="button" onClick={closeSignIn}>
+                {accountsCopy.back}
+              </button>
+            ) : (
+              <button type="button" onClick={closePanel}>
+                {deeperCopy.close}
+              </button>
+            )}
           </div>
+          {signingIn && (
+            <SignInSteps
+              onSignedIn={() => {
+                closeSignIn();
+                closePanel();
+              }}
+            />
+          )}
           {pilot.status && (
             <div className="go-deeper__section" role="group" aria-label={pilotCopy.group}>
               {pilot.status === 'joining' && <p role="status">{pilotCopy.joining}</p>}
@@ -99,7 +121,7 @@ export function GoDeeperPanel() {
               {pilot.status === 'failed' && <p role="alert">{pilotCopy.failed}</p>}
             </div>
           )}
-          {claim ? (
+          {!signingIn && (claim ? (
             <div className="go-deeper__section" role="group" aria-label={deeperCopy.claimAsk}>
               <p>
                 {deeperCopy.claimAsk}
@@ -173,6 +195,23 @@ export function GoDeeperPanel() {
                 </div>
               )}
             </>
+          ))}
+          {!signingIn && !claim && accountsEnabled && account.status !== 'off' && account.status !== 'unknown' && (
+            <div className="go-deeper__section go-deeper__account">
+              {account.status === 'out' ? (
+                <>
+                  <h3>{accountsCopy.keepHeading}</h3>
+                  <p>{accountsCopy.keepBody}</p>
+                  <button type="button" onClick={openSignIn}>
+                    {accountsCopy.signInOrUp}
+                  </button>
+                </>
+              ) : (
+                <button type="button" onClick={() => { closePanel(); openHome(); }}>
+                  {accountsCopy.menuHome}
+                </button>
+              )}
+            </div>
           )}
         </aside>
       )}
