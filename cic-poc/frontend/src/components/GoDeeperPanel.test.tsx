@@ -43,6 +43,14 @@ describe('GoDeeperPanel', () => {
     expect(screen.queryByRole('complementary')).not.toBeInTheDocument();
   });
 
+  it('shows the free tokens left on a fresh page, before any reply', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response(JSON.stringify({ free_left: 550 }), { status: 200 })));
+    const { GoDeeperPanel } = await load(true);
+    render(<GoDeeperPanel />);
+    expect(await screen.findByRole('status')).toHaveTextContent('550');
+    vi.unstubAllGlobals();
+  });
+
   it('opens when a turn comes back refused', async () => {
     const { GoDeeperPanel, deeper } = await load(true);
     render(<GoDeeperPanel />);
