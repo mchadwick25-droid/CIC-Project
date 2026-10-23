@@ -1,0 +1,57 @@
+source_file: paiva-manso_historia-do-congo-documentos-por_1877.txt
+authors_ruled:
+  afonso-i-of-kongo:
+    kind: metadata-omission
+    evidence: >
+      The host catalogue names only the compiler (Jordao, Levy Maria, visconde de Paiva
+      Manso); the documents' own headings and texts name their writer, 'D. Affonso por graca
+      de Deus rei de Manicongo' (file line 444) and 'Carta de D. Affonso rei do Congo' (lines
+      584, 1372 and onward), so the author of those letters is supplied from the documents
+      themselves.
+    from_file: paiva-manso_historia-do-congo-documentos-por_1877.txt
+
+assignments:
+  - row_id: paiva-manso_historia-do-congo-documentos-por_1877--letters-charters-and-inquests-of-d-afonso-i-of-kongo
+    work: "Letters, charters and inquests of D. Afonso I (Mvemba a Nzinga), king of Kongo, 1512-1540s, in Portuguese"
+    author: afonso-i-of-kongo
+    locus: "the documents in Afonso's name, from the 1512 publication of arms at file line 441 ('D. Affonso por graca de Deus rei de Manicongo', line 444), his letter to the Pope (line 533) and his letters to D. Manuel and D. Joao III at lines 584, 1372, 1459, 1497, 1598, 1921, 1958, 1992, 2122, 2207, 2339, 2495, 2582, 2615, 2659, 2883, 3060, 3131, 3298 and 3386, among the Roman-numbered documents"
+    atlas_ids:
+      - mission-born-christianities-kirishitan-japan-kon
+    role: tradition
+    confidence: assigned
+    note: >
+      The Kongo strand's own voice: the Christian king of Kongo writing in Portuguese to the
+      kings of Portugal and to the Pope, asking for priests, teachers and physicians and
+      complaining of the slave trade (the 1526 letters among them, lines 2211 and 2339
+      onward). Primary original-language evidence, quotable once each wording is checked
+      against the page image; the OCR is clean with occasional letter-level misreads in
+      headings. The letters were written at the Kongo court, some by Portuguese secretaries,
+      so a build should treat the voice as the court's and not only the king's own hand. No
+      public-domain English translation is vendored.
+  - row_id: paiva-manso_historia-do-congo-documentos-por_1877--historia-do-congo-documentos-the-whole-corpo-diplomatico
+    work: "Historia do Congo (Documentos): the whole corpo diplomatico of the Kongo mission, 1492 to the eighteenth century"
+    author: paiva-manso
+    locus: "whole volume; Roman-numbered documents in date order, each under a heading giving nature, parties and date"
+    atlas_ids:
+      - mission-born-christianities-kirishitan-japan-kon
+    role: context
+    confidence: assigned
+    note: >
+      The Portuguese crown's, the popes' and the missionaries' side of the Kongo church:
+      royal letters and provisions, papal briefs, inquests, and the letters of the later
+      kings D. Diogo (line 3690 onward) and D. Alvaro II (line 5785 onward). The outside
+      witnesses a build needs beside Afonso's own letters, in one volume. Documents after
+      1650 fall outside the world's window.
+  - row_id: paiva-manso_historia-do-congo-documentos-por_1877--letters-charters-and-inquests-of-d-afonso-i-of-kongo-2
+    work: "Letters, charters and inquests of D. Afonso I (Mvemba a Nzinga), king of Kongo, 1512-1540s, in Portuguese"
+    author: afonso-i-of-kongo
+    locus: "the documents in Afonso's name, file line 441 onward (see the first row)"
+    atlas_ids:
+      - the-antonian-movement-in-kongo
+    role: antecedent
+    confidence: provisional
+    note: >
+      The founding generation of the Kongo church that the Antonian movement of 1704-1706
+      looked back on; placed on the entry's place and lineage, not on a reading for that
+      entry. The volume's later documents (D. Alvaro II and after, through the seventeenth
+      century) run toward that entry's own window.

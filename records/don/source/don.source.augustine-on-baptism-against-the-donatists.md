@@ -21,6 +21,7 @@ work: On Baptism, Against the Donatists (De baptismo contra Donatistas), 7 books
 edition: Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml;
   the critical Latin text (De baptismo libri septem) also stands in the Petschenig CSEL volume, Registry
   row 39
+citation: Augustine of Hippo, On Baptism, Against the Donatists (De baptismo contra Donatistas), Nicene and Post-Nicene Fathers, Series I, vol. IV (c. 400)
 kind: vendored
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed

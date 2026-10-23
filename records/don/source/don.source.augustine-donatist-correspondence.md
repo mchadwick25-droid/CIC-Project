@@ -26,6 +26,7 @@ work: 'Donatist correspondence: Letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII
   CXXXIX, CLXXIII (11 letters)'
 edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml;
   split from a 168-letter volume by its own div3 markup
+citation: 'Augustine of Hippo, Donatist correspondence: Letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII, LXXXVIII, LXXXIX, XCIII, CXXXIX, CLXXIII, Nicene and Post-Nicene Fathers, Series I, vol. I'
 kind: vendored
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed

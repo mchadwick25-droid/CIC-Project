@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the narrative's existence and general content within the Vita, composed within a few years of Antony's death by an author who says he received the account from the two attendants and inherited one of the two sheepskins himself (SS91) - matching desert.story.antony-call's own basis for material from the same Vita. Contested as to incident-level historical reliability specifically. This record does not treat the later, out-of-horizon relic traditions (a 561 'discovery' and translation, later moves to Constantinople and France) as continuous with what Antony himself asked for - the Vita itself already states no one but the two attendants ever knew the site."
+  divergence_note: "Widely Accepted for the narrative's existence and general content within the Vita, composed within a few years of Antony's death - matching desert.story.antony-call's own basis for material from the same Vita - by an author who appears in the account himself: SS91 has Antony order one sheepskin and the garment he lay on given to \"Athanasius the bishop.\" SS91-92 do not say that the author received them or that he heard the account from the two attendants; SS92 says only that no one but those two knows the burial place. Contested as to incident-level historical reliability specifically. This record does not treat the later, out-of-horizon relic traditions (a 561 'discovery' and translation, later moves to Constantinople and France) as continuous with what Antony himself asked for - the Vita itself already states no one but the two attendants knew the site when it was written."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS89-90 - Antony's last visit to the outer-mountain monks and his stated reason for refusing burial among the living (the Egyptian custom of keeping a holy man's wrapped body in the house); SS91 - his final instructions to the two attendants who had lived with him fifteen years, and the division of his belongings; SS92 - his death and secret burial"
@@ -28,36 +28,33 @@ relations:
 - type: associated-with
   target: desert.figure.antony
 narrative_tier: 1
-narrative_tier_justification: "Tier 1 (Documented Historical Narrative): named author (Athanasius), composed within a few years of Antony's death, from an account he says he received from the two attendants who were present - one of whom later gave Athanasius one of Antony's two sheepskins, a detail the Vita itself uses to vouch for its own source. Matches desert.story.antony-call's own basis for material from the same Vita."
-tellable_as: "the desert's most famous monk gives one last order: hide my body so well that no one, not even you, can ever turn me into a shrine"
+narrative_tier_justification: "Tier 1 (Documented Historical Narrative): named author (Athanasius), composed within a few years of Antony's death by an author who says in his preface that he saw Antony many times and attended him for a long time. The Vita names no source for the death and burial; SS91 has Antony order one sheepskin given to Athanasius the bishop. Matches desert.story.antony-call's own basis for material from the same Vita."
+tellable_as: 'Antony''s last order: bury me in secret, and let no one but you two know the place'
 text: >-
-  Near the end of his life, Antony made one last visit to the monks who
-  lived on the outer mountain. He told them plainly: this is the last time
-  you will see me. I am near a hundred and five years old, and my time is
-  close. He urged them to keep up their discipline, to live as though dying
-  daily, and to have nothing to do with the Meletian schismatics or the
-  Arian heretics. Then he went back to the inner mountain, where he had
-  lived for decades, and within a few months he grew sick.
+  Near the end of his life, Antony made one last visit to the monks who lived on the outer
+  mountain. He told them: this is my last visit to you, and I would be surprised if we saw each
+  other again in this life. I am near a hundred and five years old. He urged them to keep up
+  their discipline, to live as though dying daily, and to have nothing to do with the Meletian
+  schismatics or the Arian heretics. Then he went back to the inner mountain, where he was used
+  to living, and within a few months he grew sick.
 
-  Antony had one more instruction to give, and it mattered to him more than
-  almost anything else. In Egypt at that time, people often kept the
-  bodies of holy men in their own houses, wrapped in linen and laid out on
-  couches, instead of burying them in the ground. Antony hated this custom
-  and had spent years urging bishops and ordinary people to give it up. He
-  was afraid the same thing would be done to his own body. So he called the
-  two monks who had lived with him and cared for him for fifteen years, and
-  gave them exact orders. Bury me yourselves, he told them, and hide my
-  body in the ground. Let no one know the place but the two of you alone.
-  He divided his few belongings between them: one sheepskin and the cloak
-  he was lying on for the bishop Athanasius, the other sheepskin for the
-  bishop Serapion, and his rough hair garment for the two attendants
+  Antony had one more instruction to give. In Egypt at that time, people often kept the bodies
+  of holy men in their own houses, wrapped in linen and laid out on couches, instead of burying
+  them in the ground. Antony had often urged bishops and ordinary people to give this custom up,
+  saying it was neither lawful nor holy. He was afraid the same thing would be done to his own
+  body. So he called the two monks who had lived with him and cared for him for fifteen years,
+  and gave them exact orders. Bury me yourselves, he told them, and hide my body in the ground.
+  Let no one know the place but the two of you alone. He divided his few belongings between
+  them: one sheepskin and the cloak he was lying on for the bishop Athanasius, the other
+  sheepskin for the bishop Serapion, and his rough hair garment for the two attendants
   themselves.
 
-  When he died, the two men did exactly as he had asked. They wrapped his
-  body and buried it in the ground, and to this day, Athanasius writes, no
-  one knows where - except those two men alone.
+  When he died, the two men did exactly as he had asked. They wrapped his body and buried it in
+  the ground, and to this day, Athanasius writes, no one knows where - except those two men
+  alone.
+telling: "Athanasius writes that Antony visited the monks of the outer mountain and told them it was his last visit. He said he would be surprised if they met again in this life, and that he was near a hundred and five years old.\n\nThe monks begged him to stay and die among them. He would not, and above all for one reason. The Egyptians wrapped the bodies of good men in linen and kept them on couches in their houses. Antony had often urged the bishops to command the people against this, and he had taught that it was neither lawful nor holy.\n\nHe went back to the inner mountain, where he was used to living, and a few months later he fell sick. Two men had stayed with him there for fifteen years, serving him because of his age. He called them and told them to let no one take his body into Egypt. \"Bury my body and hide it underground yourselves,\" he said. \"Keep my words, so that no one may know the place but you alone.\"\n\nHe told them to divide his garments. One sheepskin and the garment he lay on were for the bishop Athanasius. The other sheepskin was for the bishop Serapion, and the two men were to keep the hair garment. Then he said farewell, and died.\n\nThey buried him as he had commanded. Athanasius writes that to this day no one knows where he lies, except those two."
 absent_detail: "The two attendants are never named, and no account survives in their own words of how they experienced carrying out this instruction, or of the years afterward when they alone knew where the desert's most famous monk was buried. Later traditions claim the site was 'discovered' in 561 and the body eventually moved to Alexandria and then France - traditions that fall outside this world's own c. 320-430 window and that the Vita's own instructions would seem to rule out."
-modern_contrast: "A modern reader is used to founders and famous figures being remembered through monuments, gravesites, or preserved remains open to visitors. This world's own record shows the opposite impulse taken to its extreme: a founder who used his last authority to make sure no monument, grave, or relic could ever be built, precisely because he thought that kind of memory got in the way of the very discipline he had spent his life teaching."
+modern_contrast: "A modern reader is used to founders and famous figures being remembered through monuments, gravesites, or preserved remains open to visitors. In the Vita, Antony does the opposite with his body. He orders the two attendants to bury it underground and hide it, so that no one else knows the place. He also refuses the Egyptian custom of keeping the bodies of holy men in houses, which he had often urged people to give up. The Vita gives that custom as his stated reason. It also shows his sheepskins and garment being given away, and those who received them guarding them as a treasure (SS92), so it does not say that no memory of him was kept."
 use_note:
   means: "Athanasius reports that, near death, Antony ordered two attendants to bury him secretly, refusing the custom of keeping a holy man's body in the house."
   not_for:

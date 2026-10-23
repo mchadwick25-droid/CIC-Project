@@ -1,0 +1,22 @@
+source_file: slavata_pameti-1608-1619-dil1-ces_jirecek1866.txt
+
+assignments:
+  - row_id: "slavata_pameti-1608-1619-dil1-ces_jirecek1866--pam-ti-vil-ma-slavaty-d-l-i-1608-1609-and-1618-1619"
+    work: "Paměti Viléma Slavaty, díl I (1608-1609 and 1618-1619)"
+    author: slavata
+    locus: "whole volume; contents at file line 159"
+    atlas_ids:
+      - czech-churches-last-century
+    role: context
+    confidence: assigned
+    note: "The Catholic Chancellor's memoirs of the Letter of Majesty years and the revolt: a hostile witness to the Czech church's last settlement. Readable Czech with some misread diacritics; check wording against the page image. The Tridentine placement is on the author's side only and is provisional."
+
+  - row_id: "slavata_pameti-1608-1619-dil1-ces_jirecek1866--pam-ti-vil-ma-slavaty-d-l-i-1608-1609-and-1618-1619-2"
+    work: "Paměti Viléma Slavaty, díl I (1608-1609 and 1618-1619)"
+    author: slavata
+    locus: "whole volume; contents at file line 159"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: "The Catholic Chancellor's memoirs of the Letter of Majesty years and the revolt: a hostile witness to the Czech church's last settlement. Readable Czech with some misread diacritics; check wording against the page image. The Tridentine placement is on the author's side only and is provisional."

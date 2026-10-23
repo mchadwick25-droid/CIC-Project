@@ -116,6 +116,7 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
     "story": {
         "tellable_as": SpokenField("voice-diet", "build_prompt + _chunk_text + evidence-head + citation-card label"),
         "text": SpokenField("voice-diet", "source wording, never voiced or shown; kept on this role so the gates still scan it, never readability-graded by design"),
+        "telling": SpokenField("evidence-head", "the world's own reviewed telling, placed word for word into a turn by code; readability-graded"),
     },
     "demonstration": {
         "exchange": SpokenField("voice-diet", "list of {speaker, text}"),
@@ -154,6 +155,34 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
 }
 
 
+# Fields any record type may carry, nested under a parent field and named by
+# their dotted path. A record's use note gives the meaning the voice is
+# offered with the record: engine/m4/evidence.py writes it on the record's
+# line in the evidence block ("| means: ..."). Only gate_horizon reads this
+# table; whether the other gates should read it is not decided here.
+SHARED_SPOKEN_FIELDS: dict[str, SpokenField] = {
+    "use_note.means": SpokenField("evidence-head", "every record type; the '| means:' rider on its evidence-block line"),
+}
+
+
+def shared_fields_with_role(*roles: str) -> list[str]:
+    """SHARED_SPOKEN_FIELDS' dotted paths carrying any of the given roles."""
+    return [name for name, sf in SHARED_SPOKEN_FIELDS.items() if not roles or sf.role in roles]
+
+
+def field_texts(record: dict, field: str) -> list[str]:
+    """The strings a record holds at a field name or dotted path: the value
+    itself when it is a string, its string items when it is a list."""
+    value = record
+    for part in field.split("."):
+        value = value.get(part) if isinstance(value, dict) else None
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, list):
+        return [v for v in value if isinstance(v, str)]
+    return []
+
+
 def fields_with_role(record_type: str, *roles: str) -> list[str]:
     """Field names for a record type carrying any of the given roles, in
     registry declaration order. Passing no roles returns every declared
@@ -166,9 +195,9 @@ def fields_with_role(record_type: str, *roles: str) -> list[str]:
 
 # ---- Relocated consumer lists ---------------------------------------------
 # These three are genuinely the same shape as this registry (record_type ->
-# list[str] of plain field names, read by a simple isinstance/get loop) and
-# move here verbatim - same values as before relocation, byte-for-byte, so
-# relocating them changes where they live, not what they do.
+# list[str] of plain field names, read by a simple isinstance/get loop).
+# engine/m1/tests/test_spoken_fields.py pins their exact values, so any
+# change to what a gate scans is a deliberate, tested edit.
 #
 # Deliberately NOT auto-derived from SPOKEN_FIELDS's roles: doing that would
 # have been a real, silent behavior change. fields_with_role("fleet_voice",
@@ -195,7 +224,7 @@ ATTRIBUTION_FIELDS: dict[str, list[str]] = {
     "term": ["plain_meaning", "quick_meaning", "world_word"],
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],
-    "story": ["tellable_as", "text"],
+    "story": ["tellable_as", "text", "telling"],
     "fleet_voice": ["pronoun_rule", "citation_contract", "limit_discipline"],
 }
 
@@ -203,7 +232,7 @@ ATTRIBUTION_FIELDS: dict[str, list[str]] = {
 # fields only).
 PERSPECTIVE_FIELDS: dict[str, list[str]] = {
     "term": ["plain_meaning", "quick_meaning"],
-    "story": ["tellable_as", "text"],
+    "story": ["tellable_as", "text", "telling"],
     "ambient": ["detail"],
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],
@@ -213,7 +242,7 @@ PERSPECTIVE_FIELDS: dict[str, list[str]] = {
 PARTICIPANT_FIELDS: dict[str, list[str]] = {
     "figure": ["bridge_line"],
     "term": ["world_word"],
-    "story": ["tellable_as"],
+    "story": ["tellable_as", "telling"],
     "gravity": ["name"],
     "force": ["name"],
     "contested_claim": ["claim"],

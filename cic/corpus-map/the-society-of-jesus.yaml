@@ -3,6 +3,32 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-society-of-jesus
 works:
+- row_id: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880--the-moral-history-of-the-indies-books-v-vii-grimston-s-1604-english-2
+  work: 'The Natural and Moral History of the Indies, Vol. II: the Moral History (Books V
+    to VII), in Grimston''s 1604 English'
+  author: acosta
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'A first-generation Jesuit''s own published work on the American missions (Acosta
+    was provincial of Peru and later wrote the Society''s mission manual De procuranda). Context
+    here because it is a translated English edition, not the Society''s own text.
+
+    '
+  source_file: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880.txt
+- row_id: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908--briefe-historie-of-the-glorious-martyrdom-2
+  work: A Briefe Historie of the Glorious Martyrdom of Twelve Reverend Priests (1582)
+  author: allen-william
+  locus: file lines 682 to 7530; the Campion chapter 682 to 2682
+  role: context
+  confidence: provisional
+  note: 'The first account of Campion''s death, by the secular priest who ran the seminary
+    and had sent him: an ally''s account from outside the Society, not the Society''s own
+    voice. Walpole''s verses on Campion (by a future Jesuit, then a layman) are printed here.
+    Placed as context on that reading.
+
+    '
+  source_file: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908.txt
 - row_id: boero_life-of-peter-faber_coleridge1873--the-life-of-the-blessed-peter-favre-faber-of-the-society-of
   work: The Life of the Blessed Peter Favre (Faber), of the Society of Jesus
   author: boero
@@ -74,6 +100,19 @@ works:
     Portuguese passages and the notes lower it, so the figure is a comparison across files
     and not a measure of accuracy.'
   source_file: broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903.txt
+- row_id: campion_rationes-decem-ten-reasons-lat-eng_rickaby1914--rationes-decem-latin-2
+  work: Rationes Decem (1581), Latin text, with Rickaby's English translation and Campion's
+    English Challenge
+  author: campion
+  locus: 'whole volume: Latin from file line 1245, English translation from 3778, the Challenge
+    from 351'
+  role: tradition
+  confidence: assigned
+  note: 'Campion''s own voice as a Jesuit of the first English mission; the Challenge states
+    the Society''s rule against meddling in matters of state in his own words (article iv).
+
+    '
+  source_file: campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt
 - row_id: canisius_summe-of-christian-doctrine_anon1622--a-summe-of-christian-doctrine
   work: A Summe of Christian Doctrine
   author: canisius
@@ -113,6 +152,77 @@ works:
     the main text in the OCR. A cleaner Latin edition would serve as the quotable witness.
     Word-form coverage against a clean Latin vocabulary is 0.62.'
   source_file: canisius_summa-doctrinae-christianae-lat_1573.txt
+- row_id: catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908--catholic-writers-documents-2
+  work: 'Unpublished Documents relating to the English Martyrs, Vol. I, 1584-1603: the Jesuit-written
+    documents (letters of Weston, Walpole, Southwell and other Jesuits of the English mission)'
+  author: catholic-record-society
+  locus: documents I to CV from file line 1503, the Jesuit-written items by heading (e.g.
+    LXXIII, Walpole, Contents line 701)
+  role: tradition
+  confidence: provisional
+  note: 'Letters of the Society''s English missioners to their superiors and to the English
+    College, printed from the Jesuit archives. Placed on the headings; not read document by
+    document this pass.
+
+    '
+  source_file: catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908.txt
+- row_id: challoner_memoirs-of-missionary-priests_pollen1924--memoirs-of-missionary-priests-1577-to-1650-2
+  work: Memoirs of Missionary Priests, 1577 to 1684 (Pollen's revised edition)
+  author: challoner
+  locus: whole volume; the Jesuit entries are marked 'S.J.' in the running heads and entries
+  role: context
+  confidence: provisional
+  note: 'A secular vicar apostolic''s martyrology that covers the Society''s English martyrs
+    (Campion, Southwell, Walpole, Garnet and others) from outside the Society. Placed on that
+    coverage, not read for its treatment of the Society as such.
+
+    '
+  source_file: challoner_memoirs-of-missionary-priests_pollen1924.txt
+- row_id: chirino_relacion-islas-filipinas-spa_manila1890--chirino-relacion-spanish-2
+  work: Relacion de las Islas Filipinas y de lo que en ellas han trabajado los Padres de la
+    Compania de Jesus (Roma 1604), Manila 1890 reprint
+  author: chirino
+  locus: whole text from the title at file line 134; the printed table of contents of eighty-two
+    chapters is at the end of the file
+  role: tradition
+  confidence: assigned
+  note: The Society's own first account of its Philippine mission, in the Spanish written.
+  source_file: chirino_relacion-islas-filipinas-spa_manila1890.txt
+- row_id: blair-robertson_philippine-islands-v12_1904--chirino-relacion-part-1-2
+  work: 'The Philippine Islands, Vol. XII (1601-1604): Chirino''s Relacion de las Islas Filipinas
+    (first part) and the documents of 1601-1603'
+  author: chirino
+  locus: Chirino's Relacion from file line 4110 to the Bibliographical Data at 7925; documents
+    of 1601-1602 from 555 and of 1603 from 1946 (Sangley insurrection, Benavides, Acuna)
+  role: tradition
+  confidence: assigned
+  note: Chirino was the Society's own procurator and first Jesuit voice in the islands; his
+    Relacion is the Society's account of its Philippine mission to 1604.
+  source_file: blair-robertson_philippine-islands-v12_1904.txt
+- row_id: blair-robertson_philippine-islands-v13_1904--chirino-relacion-part-2-2
+  work: 'The Philippine Islands, Vol. XIII (1604-1605): Chirino''s Relacion de las Islas Filipinas
+    (concluded) and the documents of 1604-1605'
+  author: chirino
+  locus: Chirino's Relacion concluded from file line 547 to 5571; documents of 1604 from 5571
+    (decrees on religious orders 6205, Chirino's grant for the Jesuit seminary at Cebu 6301),
+    of 1605 from 6718 (Augustinian friars' letters 7284); Bibliographical Data at 7879
+  role: tradition
+  confidence: assigned
+  note: Second half of the Society's own account of its first Philippine decades, and Chirino's
+    grant for the Jesuit seminary at Cebu.
+  source_file: blair-robertson_philippine-islands-v13_1904.txt
+- row_id: colin_labor-evangelica-t1-spa_pastells1900--colin-labor-evangelica-tomo-1-2
+  work: Labor evangelica (Madrid 1663), Parte primera, drawn from Chirino's manuscripts, Pastells's
+    edition of 1900, Tomo I
+  author: colin
+  locus: dedication at file line 99; 'LIBRO PRIMERO' at 56461 (the islands and their peoples);
+    'LIBRO SEGVNDO' at 73221 (the Society's first years); the whole-work alphabetical index
+    fills roughly lines 1491 to 54305
+  role: tradition
+  confidence: assigned
+  note: The Society's own history of its Philippine province, by its provincial, in the Spanish
+    written.
+  source_file: colin_labor-evangelica-t1-spa_pastells1900.txt
 - row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council
   work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
   author: council-of-trent
@@ -193,6 +303,50 @@ works:
 
     '
   source_file: francis-xavier_life-and-letters-v2_coleridge1872.txt
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--a-short-history-of-the-church-of-malabar-geddes-with-2
+  work: A Short History of the Church of Malabar (Geddes), with Remarks on the Synod
+  author: geddes
+  locus: '''Short Hiftory'' heading at line 2338; Remarks upon passages of the decrees marked
+    at lines 8483 and 8539'
+  role: context
+  confidence: provisional
+  note: Anglican polemic against Jesuit and Roman method in Malabar; second-hand for the Society,
+    read as an outside witness.
+  source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
+- row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--narrative-of-the-gunpowder-plot-2
+  work: A Narrative of the Gunpowder Plot (John Gerard's own English account, written c. 1606,
+    printed from the Stonyhurst autograph)
+  author: gerard-john
+  locus: heading 'A NARRATIVE OF THE GUNPOWDER PLOT.' at file line 9102 to the index at line
+    18198
+  role: tradition
+  confidence: assigned
+  note: 'Gerard is a Jesuit writing to clear the Society (Garnet, Oldcorne, Gerard himself)
+    of complicity in the Plot; chapters IX-XV are the Society''s own defence of its English
+    superior. The English mission''s voice inside the Society''s world.
+
+    '
+  source_file: gerard-john_condition-of-catholics-under-james-i_morris1871.txt
+- row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--holtby-on-persecution-in-the-north-2
+  work: Father Richard Holtby on Persecution in the North
+  author: holtby-richard
+  locus: file lines 5017 to 10653
+  role: tradition
+  confidence: provisional
+  note: 'A Jesuit missioner''s report to a Jesuit superior; placed on that fact, the report''s
+    own Jesuit framing not read closely this pass.
+
+    '
+  source_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+- row_id: hough_history-of-christianity-in-india-v2_1839--book-v-the-jesuit-missions-and-menezes-s-visitation-hough
+  work: Book V, the Jesuit missions and Menezes's visitation (Hough)
+  author: hough
+  locus: Book V from line 10383
+  role: context
+  confidence: provisional
+  note: Placed on window and place; Hough's account of the Jesuit prelates of Malabar is hostile
+    to the Society and was not checked line by line.
+  source_file: hough_history-of-christianity-in-india-v2_1839.txt
 - row_id: ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904--acta-p-ignatii-the-autobiography-original-spanish-and
   work: Acta P. Ignatii (the Autobiography, original Spanish and Italian) and early writings
     on Ignatius
@@ -975,6 +1129,50 @@ works:
     and the notes lower it, so the figure is a comparison across files and not a measure of
     accuracy.'
   source_file: lainez_epistolae-et-acta-v8-lat_1917.txt
+- row_id: lobo_voyage-to-abyssinia_johnson1735--a-voyage-to-abyssinia-lobo-english-johns-2
+  work: A Voyage to Abyssinia, Lobo (English, Johnson)
+  author: lobo
+  locus: Whole work
+  role: context
+  confidence: provisional
+  note: A Jesuit's own account of the Ethiopian mission in the last years before the expulsion.
+    Placed on window and subject; the Jesuit world's builders will weigh it.
+  source_file: lobo_voyage-to-abyssinia_johnson1735.txt
+- row_id: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908--expeditio-aethiopica-books-i-and-ii-mend-2
+  work: Expeditio Aethiopica, Books I and II (Mendes), Latin text edited by Beccari
+  author: mendes
+  locus: Liber primus from file line 4165, Liber secundus from 9305
+  role: tradition
+  confidence: provisional
+  note: The Jesuit patriarch's own account of the mission. Placed on window and subject without
+    reading the whole volume.
+  source_file: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt
+- row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--life-of-father-john-gerard-2
+  work: The Life of Father John Gerard (Morris's biography, built on long verbatim translated
+    extracts from Gerard's Latin Autobiography)
+  author: morris-john
+  locus: file line 92 to line 9102
+  role: tradition
+  confidence: assigned
+  note: 'The autobiography of a Jesuit of the English mission, as translated and framed by
+    a later Jesuit; same caveat as the recusant row (Gerard''s words only where marked).
+
+    '
+  source_file: gerard-john_condition-of-catholics-under-james-i_morris1871.txt
+- row_id: morris-john_troubles-of-our-catholic-forefathers-ser1_1872--nine-papers-of-the-first-series-2
+  work: 'The Troubles of Our Catholic Forefathers, First Series: the two Jesuit papers (Father
+    Tesimond''s landing in England; Father Richard Blount and Scotney Castle)'
+  author: morris-john
+  locus: file lines 7036 to 8805 (Tesimond) and 8809 to 10280 (Blount and Scotney)
+  role: tradition
+  confidence: provisional
+  note: 'Narratives of two Jesuits of the English mission: the fragment of Oswald Tesimond''s
+    own autobiography (Morris''s introduction, file line 7036) and the Scotney Castle papers
+    on Richard Blount''s escape. Placed on the papers'' own subjects; the narrating voice
+    of each was not read closely this pass, so provisional.
+
+    '
+  source_file: morris-john_troubles-of-our-catholic-forefathers-ser1_1872.txt
 - row_id: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595--adnotationes-et-meditationes-in-evangelia
   work: Adnotationes et Meditationes in Evangelia
   author: nadal
@@ -1059,6 +1257,29 @@ works:
 
     '
   source_file: nadal_scholia-in-constitutiones-lat_1883.txt
+- row_id: paez_historia-aethiopiae-liber-3-4-por_beccari1906--historia-da-etiopia-books-iii-and-iv-pae-2
+  work: Historia da Etiopia, Books III and IV (Paez), Portuguese text edited by Beccari
+  author: paez
+  locus: Livro III from file line 766, Livro IV from 13917
+  role: tradition
+  confidence: provisional
+  note: The Jesuit mission to Ethiopia in the mission's own historian's words. Placed on window
+    and subject without reading the whole volume; role tradition because the author is a Jesuit
+    narrating a Jesuit mission, for the Jesuit world's builders to confirm.
+  source_file: paez_historia-aethiopiae-liber-3-4-por_beccari1906.txt
+- row_id: pages_histoire-religion-chretienne-japon-annexes-fra_1870--annexes-missionary-episcopal-papal-and-royal-documents-on-japan-1598-1651-2
+  work: 'Annexes: missionary, episcopal, papal and royal documents on the church in Japan,
+    1598-1651'
+  author: pages
+  locus: the Jesuit letters and relations among the numbered annexes (for example Valignano
+    to Acquaviva at file line 3284)
+  role: context
+  confidence: provisional
+  note: 'The Society''s Japan province writing home during the persecution, in French translation;
+    placed on the Jesuit letters the volume holds, not on a reading for that entry.
+
+    '
+  source_file: pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt
 - row_id: polanco_chronicon-v2-lat_1894--chronicon-societatis-iesu-polanco-tomus-2-1550-1552
   work: Chronicon Societatis Iesu (Polanco), Tomus 2 (1550-1552)
   author: polanco
@@ -1136,6 +1357,20 @@ works:
 
     '
   source_file: polanco_chronicon-v1-lat_1894.txt
+- row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--the-jesuit-china-mission-in-english-trigault-ricci-and-pantoja-chapters-v-viii-2
+  work: 'The Jesuit China mission in English: Purchas''s 1625 abridgement of Trigault''s De
+    Christiana expeditione (from Ricci) and Pantoja''s letter from Peking of 1602 (Chapters
+    V to VIII)'
+  author: purchas
+  locus: Chapters V to VIII, file lines 13995 to the end of Chap. VIII
+  role: context
+  confidence: assigned
+  note: 'The Society''s own account of its China mission as English readers of 1625 received
+    it, through Purchas''s abridgement and commentary. Context, not tradition, because the
+    words on the page are Purchas''s edited English and not the Society''s own text.
+
+    '
+  source_file: purchas_hakluytus-posthumus-pilgrimes-v12_1906.txt
 - row_id: ribadeneira_vita-ignatii-loiolae-lat_1572--vita-ignatii-loiolae-societatis-iesu-fundatoris
   work: Vita Ignatii Loiolae, Societatis Iesu Fundatoris
   author: ribadeneira
@@ -1182,6 +1417,18 @@ works:
 
     '
   source_file: salmeron_epistolae-v3-lat_1906.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--skarga-on-the-unity-of-the-church-1577-and-1590-2
+  work: Piotr Skarga, On the unity of God's church under one shepherd and on the Greeks' falling
+    away from that unity (1577), with the new articles of 1590
+  author: skarga
+  locus: item IV from about file line 13516 to 35639 (1577 text, with the 1590 variants in
+    footnotes); item V, the new articles of 1590, ends at 35639
+  role: context
+  confidence: provisional
+  note: 'Skarga was a Jesuit and wrote this for the Ostroh prince, with the Society''s argument
+    for the primacy of Rome. Provisional: the Jesuit world is 1540-1650 and may not want a
+    Ruthenian-language edition.'
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
 - row_id: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606--constitutiones-societatis-iesu-cum-earum-declarationibus
   work: Constitutiones Societatis Iesu, cum earum Declarationibus
   author: society-of-jesus
@@ -1258,6 +1505,72 @@ works:
     is 0.77; the Spanish, Italian and Portuguese passages and the notes lower it, so the figure
     is a comparison across files and not a measure of accuracy.'
   source_file: society-of-jesus_monumenta-paedagogica-lat-spa_1901.txt
+- row_id: southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822--an-epistle-of-comfort-2
+  work: An Epistle of Comfort (Walter's 1822 reprint)
+  author: southwell
+  locus: file line 5364 to the end
+  role: tradition
+  confidence: assigned
+  note: 'A Jesuit of the English mission writing to prisoners for the faith; the Society''s
+    own pastoral voice in England.
+
+    '
+  source_file: southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822.txt
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--synodus-diamperitana-actio-i-ix-the-acts-and-decrees-in-2
+  work: Synodus Diamperitana, Actio I-IX (the acts and decrees in Latin)
+  author: synod-of-diamper
+  locus: '''SYNODUS'' at file line 5062; Actio I 5362, III 5874, IV 8495, V 9898, VI 11464,
+    VII 12478, VIII 14903, IX 16860; the Bishop of Cochin''s letter and the Synod''s reply
+    from 18817'
+  role: context
+  confidence: provisional
+  note: Same text as the main row; the Jesuit share of the synod is in Raulin's history and
+    notes. Placed on window and place.
+  source_file: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--the-acts-and-decrees-of-the-synod-of-diamper-1599-english-3
+  work: The Acts and Decrees of the Synod of Diamper (1599), English
+  author: synod-of-diamper
+  locus: profession of faith from file line 9602; Actions III-IX under 'The Acts and Decrees'
+    running heads from about line 10725 (Action III) and 16245 (Action V) to the end of the
+    Decrees
+  role: context
+  confidence: provisional
+  note: Placed on window and place without a close read of the relevant part. The synod was
+    run by the Jesuit-advised archbishop of Goa; the Society's part is in Hough and Whitehouse
+    as well.
+  source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
+- row_id: telles_travels-of-the-jesuits-in-ethiopia_1710--the-travels-of-the-jesuits-in-ethiopia-e-2
+  work: The Travels of the Jesuits in Ethiopia (English, 1710)
+  author: telles
+  locus: Whole work
+  role: context
+  confidence: provisional
+  note: The same account, read as the Jesuits' own mission narrative in Ethiopia. Placed on
+    window and subject without reading the whole; a mission history written about Jesuit work
+    and attributed to a Jesuit author.
+  source_file: telles_travels-of-the-jesuits-in-ethiopia_1710.txt
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-jesuits
+  work: The Book of the Foundations, the passages on the Jesuits who helped found houses
+  author: teresa-of-avila
+  locus: passages naming the Society of Jesus or the Jesuits, for example lines 1171, 5036
+    and 7528
+  role: context
+  confidence: provisional
+  note: Jesuit fathers appear as helpers and counsellors in the foundation stories. Placed
+    on word searches only, so provisional.
+  source_file: teresa-of-avila_book-of-foundations_lewis1913.txt
+- row_id: teresa-of-avila_life_lewis1904--life-jesuits
+  work: The Life of St. Teresa of Jesus, the passages on her Jesuit confessors and on Francis
+    Borgia and Peter of Alcantara
+  author: teresa-of-avila
+  locus: the Society of Jesus (16 hits, from line 1838); Francis de Borja at line 1850; Peter
+    of Alcantara (19 hits)
+  role: context
+  confidence: provisional
+  note: The Society seen from outside by a woman who consulted its fathers; the editor's note
+    at line 1850 says she told everything to St Francis de Borja, who changed one point of
+    her direction. Placed on word counts and that note, so provisional.
+  source_file: teresa-of-avila_life_lewis1904.txt
 - row_id: trigault_de-christiana-expeditione-apud-sinas-lat_1615--de-christiana-expeditione-apud-sinas-trigault-from-ricci
   work: De Christiana expeditione apud Sinas (Trigault, from Ricci)
   author: trigault
@@ -1273,3 +1586,25 @@ works:
     in this group. A quotation needs the page image, and this 1615 printing is the only Latin
     printing of the work found.'
   source_file: trigault_de-christiana-expeditione-apud-sinas-lat_1615.txt
+- row_id: morris-john_troubles-of-our-catholic-forefathers-ser2_1875--life-of-father-william-weston-2
+  work: The Life of Father William Weston, S.J. (Morris's Life, built on his English translation
+    of Weston's Latin autobiography)
+  author: weston-william
+  locus: file line 559 to line 13394
+  role: tradition
+  confidence: assigned
+  note: 'The autobiography of the Society''s superior in England 1584-1586, with Chapter II
+    (''The English Jesuit Mission'') and Chapter XVI (''College life in prison'', the Wisbech
+    stirs seen from the Jesuit side). Same translation caveat as the recusant row.
+
+    '
+  source_file: morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt
+- row_id: whitehouse_lingerings-of-light-in-a-dark-land_1873--lingerings-of-light-in-a-dark-land-chapters-x-xii-the
+  work: Lingerings of Light in a Dark Land, chapters X-XII (the Jesuits in Malabar)
+  author: whitehouse
+  locus: Chapter X from line 9262, XI 10369
+  role: context
+  confidence: provisional
+  note: Hostile outside account of the Jesuit colleges and prelates; placed on subject, not
+    read through.
+  source_file: whitehouse_lingerings-of-light-in-a-dark-land_1873.txt

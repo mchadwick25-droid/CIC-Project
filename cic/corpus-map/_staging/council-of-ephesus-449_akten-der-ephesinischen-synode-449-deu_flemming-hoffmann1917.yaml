@@ -1,0 +1,32 @@
+source_file: council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917.txt
+assignments:
+- row_id: council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917--akten-449-cyrilline
+  work: Akten der ephesinischen Synode vom Jahre 449, Syriac acts with Hoffmann's German (Flemming, 1917)
+  author: council-of-ephesus-449
+  locus: whole file; the German translation throughout (Flavianos at file line 1473, Domnos at 5422)
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Chalcedon 451). The critical edition of the same Syriac acts as Perry
+    1881, with German: Dioscorus''s council in its own record. German recovered; Syriac not recovered
+    in this OCR.'
+- row_id: council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917--akten-449-syriac-orthodox
+  work: Akten der ephesinischen Synode vom Jahre 449 (Flemming, 1917)
+  author: council-of-ephesus-449
+  locus: whole file
+  atlas_ids:
+  - syriac-orthodox-west-syriac-christianity
+  role: transmission
+  confidence: provisional
+  note: 'Custody: preserved in a Syriac Orthodox manuscript tradition (see the Perry row). Voice assigned
+    to the Cyrilline entry.'
+- row_id: council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917--akten-449-imperial-juridical
+  work: Akten der ephesinischen Synode vom Jahre 449 (Flemming, 1917)
+  author: council-of-ephesus-449
+  locus: whole file
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: provisional
+  note: The imperially convened council of 449 in its own record; context as for the Perry row.

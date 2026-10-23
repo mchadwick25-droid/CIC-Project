@@ -1,0 +1,17 @@
+source_file: socinus_opera-omnia-polemica-lat_1656.txt
+
+assignments:
+  - row_id: socinus_opera-omnia-polemica-lat_1656--socinus-polemical-works
+    work: "Faustus Socinus, Opera omnia (Bibliotheca Fratrum Polonorum, 1656): the polemical volume"
+    author: socinus
+    locus: "Responsio pro Racoviensibus (to Palaeologus) from file line 7967; De Jesu Christo Servatore (against Covet) at 17624; the Puccius Defensio at 39793; the reply to Volanus at 57522; De Trino et Uno Deo at 63644; the reply to Wujek at 79472; the disputation with Francken at 115404"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: tradition
+    confidence: assigned
+    note: >
+      Socinus's controversial writings, including his defence of the
+      Racovian church against outside attack, in the Latin of the 1656
+      Bibliotheca. Primary voice, ready to quote once verified against
+      the page image (readable OCR; long-s read as f). Very large file.
+      No public-domain English.

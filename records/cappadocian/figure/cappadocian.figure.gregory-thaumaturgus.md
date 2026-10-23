@@ -8,10 +8,14 @@ register: emic
 canon_cells: []
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   evidentiary_weight: illustrative
   formation_confidence: Contested
-  divergence_note: "Contested/traditional for the popular legend (the conversion numbers, the night-vision creed) - a century-later hagiography, Tier 3 by this world's own standard. Documented and distinct from the legend: his own Canonical Epistle genuinely survives and is his (Doc_02 §1.6); the Address of Thanksgiving to Origen is traditionally his, with attribution questioned in recent scholarship (Contested)."
+  divergence_note: 'Contested/traditional for the popular legend (the conversion numbers, the night-vision
+    creed) - a century-later hagiography, Tier 3 by this world''s own standard. Documented and distinct
+    from the legend: his own Canonical Epistle genuinely survives and is his (Doc_02 §1.6); the Address
+    of Thanksgiving to Origen is traditionally his, with attribution questioned in recent scholarship
+    (Contested).'
 sources:
 - source_id: cappadocian.source.gregory-nyssa-life-of-gregory-thaumaturgus
   locus: "the conversion-numbers legend and the creed's night-vision origin"
@@ -25,7 +29,11 @@ names:
 dates:
   display: "c. 213 - c. 270/5; a third-century missionary bishop of Pontus, trained by Origen; most of what later generations told of him comes from Gregory of Nyssa's hagiography, written a century after his death"
 narratable: true
-bridge_line: "A third-century missionary credited with converting a whole region and receiving its creed in a vision - this world's own founding legend, and, separately, a real correspondent whose one surviving canonical letter is genuinely his."
+bridge_line: >-
+  A bishop of Neocaesarea in the third century. The story says he won his
+  city to the faith and got its creed in a vision. He is this world's
+  founding legend. Apart from the legend, one real letter of his on church
+  rules survives.
 relations:
 - type: associated-with
   target: cappadocian.story.thaumaturgus-legend

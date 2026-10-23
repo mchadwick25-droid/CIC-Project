@@ -18,11 +18,10 @@ sources:
   license: public-domain
 text: "Question. If a man who is still at war, and who still has both these things in his soul - sin and grace - is removed from this world, where does he go, when both sides have a hold upon him? Answer. He goes where his mind aims, and where his love is. ... That the war comes upon you is not your doing, but to hate it, is..."
 modern_rendering: >-
-  Question: A man is still at war inside. Both things are in his soul - sin
-  and grace - and both have a hold on him. If he is taken out of this world
-  like that, where does he go? Answer: He goes where his mind aims, and where
-  his love is. ... That the war comes upon you is not your doing. But hating
-  it - that is yours.
+  Question: A man is still at war. Both things are in his soul - sin and grace - and both have a
+  hold on him. If he is taken out of this world like that, where does he go? Answer: He goes
+  where his mind aims, and where his love is. ... That the war comes upon you is not your doing.
+  But to hate it is your doing.
 speaker_or_author: "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown"
 license: verbatim
 modern_lens_note: "The premise is what a modern reader is most likely to miss: this world takes it as obvious that a baptised person still has sin AND grace in them at once, and asks only what happens at death. The answer refuses to weigh the two quantities and looks at direction instead - where the mind aims, where the love is. The ellipsis drops two sentences of exhortation between question and the closing clause. The vendored file renders the section number as '1 8.' where the scan broke it; the section is 18."

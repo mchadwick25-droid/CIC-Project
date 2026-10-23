@@ -24,10 +24,10 @@ text: >-
 modern_rendering: >-
   For the sake of greater accuracy, I must add this too. There are other
   books, besides these, that are not included in the Canon. But the
-  Fathers appointed them to be read by newcomers to the faith. These are
-  people who want instruction in godly living. The books are: the Wisdom
-  of Solomon, the Wisdom of Sirach, Esther, Judith, Tobit, the book called
-  the Teaching of the Apostles, and the Shepherd.
+  Fathers appointed them to be read by those who newly join us. These are
+  people who want instruction in the teaching of godliness. The books are:
+  the Wisdom of Solomon, the Wisdom of Sirach, Esther, Judith, Tobit, the
+  book called the Teaching of the Apostles, and the Shepherd.
 speaker_or_author: Athanasius of Alexandria, Festal Letter XXXIX
 license: verbatim
 modern_lens_note: >-

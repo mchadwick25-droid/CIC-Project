@@ -36,7 +36,7 @@ text: >-
   What the apostles delivered plainly stood fixed. Everything else was
   open ground, where asking questions was itself a way of loving God.
   Our deepest habit was to speak of God as a teacher. The whole creation
-  is his school. Scripture is his main lesson. And the slow healing of a
+  is his school, and scripture is his main lesson. The slow healing of a
   soul is his patient method.
 positions:
 - There is one God, creator and good. The church refused the Gnostic split between a creator and a redeemer.

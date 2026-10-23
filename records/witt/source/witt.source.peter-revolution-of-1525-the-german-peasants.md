@@ -17,6 +17,7 @@ relations: []
 author: Peter Blickle
 work: 'The Revolution of 1525: The German Peasants'' War from a New Perspective'
 edition: 'trans. Brady & Midelfort (Baltimore: Johns Hopkins, 1981)'
+citation: 'Peter Blickle, The Revolution of 1525: The German Peasants'' War from a New Perspective, trans. Brady & Midelfort (Baltimore: Johns Hopkins, 1981)'
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

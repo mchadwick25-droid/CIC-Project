@@ -7,9 +7,12 @@
  * sitting.
  */
 import { ArrivingLockup } from '../components/ArrivingLockup';
+import { ExperienceFeedbackButton, ExperienceFeedbackCard } from '../components/ExperienceFeedback';
+import { AccountPanel } from '../components/AccountPanel';
 import { GoDeeperPanel } from '../components/GoDeeperPanel';
 import { PAIRINGS, suggestionsFor } from '../data/pairings';
 import type { WorldEntry } from '../data/worlds';
+import { useState } from 'react';
 
 const TABLE_SEAT_LIMIT = 3;
 
@@ -31,6 +34,7 @@ export function Launch({
   worlds, isLoading, error, seated, tableFocus, convening, tableError,
   onBeginInterview, onToggleSeat, onSeatPairing, onConvene,
 }: LaunchProps) {
+  const [feedbackOpen, setFeedbackOpen] = useState(false);
   const byKey = new Map(worlds.map((w) => [w.worldKey, w]));
   const seatedWorlds = seated.map((k) => byKey.get(k)).filter((w): w is WorldEntry => w !== undefined);
   const suggestions = seated.length === 0 ? PAIRINGS : suggestionsFor(seated);
@@ -40,10 +44,10 @@ export function Launch({
     <div className="launch">
       <ArrivingLockup />
       {error && <div className="conversation__error" role="alert" style={{ margin: '0 var(--spacing-lg)' }}>{error}</div>}
-      {isLoading && !error && <p className="world-list__loading sans" role="status">Gathering the worlds…</p>}
+      {isLoading && !error && <p className="world-list__loading sans" role="status">Gathering the traditions…</p>}
       {!isLoading && !error && worlds.length === 0 && (
         <p className="world-list__loading sans" role="status">
-          The doors aren't open just yet — the worlds are being prepared. Please come back soon.
+          The doors aren't open just yet — the traditions are being prepared. Please come back soon.
         </p>
       )}
 
@@ -60,7 +64,7 @@ export function Launch({
                 </div>
                 <div className="world-card__header">
                   <div className="world-card__name">
-                    {world.representativeName} <span className="world-card__role">· {world.roleLabel}</span>
+                    {world.representativeName}
                   </div>
                   <div className="world-card__era sans">
                     c. {world.eraStart}–{world.eraEnd}
@@ -140,7 +144,12 @@ export function Launch({
           </button>
         </div>
       </div>
+      <AccountPanel />
       <GoDeeperPanel />
+      <div className="launch__foot">
+        <ExperienceFeedbackButton open={feedbackOpen} onToggle={() => setFeedbackOpen((o) => !o)} />
+        {feedbackOpen && <ExperienceFeedbackCard page="launch" onClose={() => setFeedbackOpen(false)} />}
+      </div>
     </div>
   );
 }

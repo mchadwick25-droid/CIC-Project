@@ -34,22 +34,20 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): two nam
   authors, both sides independently attested in their own surviving works, datable,
   near-contemporary - with the interpretive substance carrying a separate, named contest
   (doctrinal vs. personal weight) that the telling must not resolve.'
-tellable_as: the rupture between Jerome and Rufinus over Origen - the friendship of a
-  lifetime ending in dueling apologies
-text: 'They had been friends since their student days - close enough that each had
-  followed the other into the ascetic life, close enough to share the same admiration for
-  the great Alexandrian master, Origen, whose commentaries both men translated. Then the
-  church''s weather changed. Origen''s boldest speculations - souls existing before
-  birth, the shape of the resurrection body - came under condemnation, and every admirer
-  had to answer for the admiration. Rufinus, translating Origen''s great work, wrote in
-  his preface that he was only following the method of a distinguished predecessor - and
-  named no one, and everyone knew he meant Jerome. What followed was public, bitter, and
-  permanent: accusation and counter-accusation in formal apologies, each man parading the
-  other''s old letters, each claiming the catholic faith, each calling the other the
-  traitor to it. Friends tried to reconcile them; Rome''s bishop was drawn in; the
-  fight outlived Rufinus himself. The community at Bethlehem had defined itself against a
-  teaching it had partly grown from - and it paid for that self-definition with the
-  oldest friendship its founder had.'
+tellable_as: the break between Jerome and Rufinus over Origen. They had been friends for years,
+  and it ended in angry, rival answers.
+text: 'They had been friends since their student days. Both had lived the ascetic life as
+  young men. Both admired the great teacher Origen, and each of them translated his works.
+  Then the church''s weather changed. Origen''s boldest ideas came under condemnation: souls
+  that lived before birth, the shape of the body at the resurrection. Every admirer had to
+  answer for the admiration. Rufinus translated Origen''s great work. In his preface he wrote
+  that he was only following the method of a respected predecessor. He named no one, and everyone
+  knew he meant Jerome. What followed was public, bitter, and permanent. Each man wrote a
+  formal defense. Each used the other''s old writings against him, each claimed the catholic
+  faith, and each accused the other of betraying it. Friends tried to reconcile them, and
+  Rome''s bishop was drawn in. The break was never repaired. It cost Jerome the oldest friendship
+  of his life.'
+telling: "Jerome and Rufinus had been friends since their student days. Both had lived the ascetic life as young men. Both admired the great teacher Origen, and each of them translated his works.\n\nThen Origen's boldest ideas came under condemnation. One was that souls lived before birth, and another concerned the shape of the body at the resurrection. Every admirer of Origen had to answer for that admiration.\n\nRufinus translated Origen's great work, and in its preface he wrote that he was only following the method of a respected predecessor. He named no one, and everyone knew he meant Jerome.\n\nEach man wrote a formal defense, and both defenses survive. They used each other's old writings as weapons. Both claimed the catholic faith, and each said the other had betrayed it. Friends tried to reconcile them, and the bishop of Rome was drawn in, but the break was never repaired."
 absent_detail: 'What the quarrel was REALLY about - doctrine, or wounded honor wearing
   doctrine - is exactly what the two surviving accounts fight over, and this telling does
   not decide it. Rufinus''s side of the earlier friendship (his letters to Jerome) does

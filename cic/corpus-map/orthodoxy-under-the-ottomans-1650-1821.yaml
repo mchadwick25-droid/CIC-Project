@@ -3,6 +3,21 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: orthodoxy-under-the-ottomans-1650-1821
 works:
+- row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--dapontes-chronographos-and-historikos-katalogos
+  work: Kaisarios Dapontes, Chronographos (section A) and Historikos Katalogos andron episemon,
+    1700-1784 (section B), Greek
+  author: dapontes
+  locus: section A under running heads 'CHRONOGRAPHOS' from about file line 4438 to 8057;
+    section B from line 8058 (heading 'ISTORIKOS KATALOGOS ANDRON EPISEMON, 1700-1784') to
+    about 13523
+  role: tradition
+  confidence: provisional
+  note: 'An eighteenth-century chronicle and a catalogue of notable figures of 1700-1784,
+    in vernacular Greek: inside voice for the entry''s window, placed on author and dates
+    without a full reading. Readable Greek OCR with accent errors.
+
+    '
+  source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
 - row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--acts-and-decrees-of-the-synod-of-jerusalem-shield-of-2
   work: Acts and Decrees of the Synod of Jerusalem (Shield of Orthodoxy), 1672, English translation
   author: dositheus
@@ -23,6 +38,17 @@ works:
   note: Placed on the entry's window (1650-1821). Greek and Latin text of the 1672 Synod;
     second witness for exact Greek because of scan layout.
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--the-confession-of-dositheus-or-the-eighteen-decrees-of-the
+  work: The Confession of Dositheus, or the Eighteen Decrees of the Synod of Jerusalem, 1672
+    (Greek and Latin)
+  author: dositheus
+  locus: headnote and text from about file line 34637
+  role: tradition
+  confidence: assigned
+  note: Schaff's reprint of the Synod's confession; the Synod reaffirmed Mogila's Confession.
+    A second witness beside Kimmel 1850 and Robertson 1899 (English); Greek OCR with accent
+    errors.
+  source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
 - row_id: euchologion-to-mega_second-edition-grc_zerbos1862--euchologion-to-mega-the-great-euchologion-venice-second-2
   work: Euchologion to mega (the Great Euchologion), Venice second edition, Greek
   author: euchologion-to-mega
@@ -44,6 +70,20 @@ works:
     in 1678 for an English audience, in a translator's English; the translator's identity
     is the host catalogue's attribution, not the title page's.
   source_file: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678.txt
+- row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--gordios-prokopiou-tyrnavites-and-letter-catalogues
+  work: Anastasios Gordios, Demetrios Prokopiou, Alexandros Tyrnavites and the catalogues
+    of unpublished letters (Greek)
+  author: gordios
+  locus: Gordios from file line 22595; Prokopiou from 25243; Tyrnavites and the letter catalogues
+    between Prokopiou and the patriarchal documents at 27987
+  role: tradition
+  confidence: provisional
+  note: 'Shorter pieces by Gordios and Prokopiou, and the editor''s catalogues of letters,
+    from the same volume; placed on window only, not read. The row''s author slug names the
+    first of them; Prokopiou has his own authors_ruled entry for a later split.
+
+    '
+  source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
 - row_id: horologion-to-mega_venice-edition-grc_koutloumousianos1851--horologion-to-mega-the-great-horologion-venice-edition-greek-2
   work: Horologion to mega (the Great Horologion), Venice edition, Greek
   author: horologion-to-mega
@@ -93,6 +133,20 @@ works:
 
     '
   source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
+- row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--makraios-hypomnemata-ekklesiastikes-historias
+  work: Sergios Makraios, Hypomnemata ekklesiastikes historias (memoirs of church history,
+    1750-1800), Greek
+  author: makraios
+  locus: from file line 13524 (heading 'SERGIOU MAKRAIOU HYPOMNEMATA') to about 22594
+  role: tradition
+  confidence: provisional
+  note: 'A memoir of church history that Sathas''s prologue dates 1750-1800 (an eyewitness
+    account); placed on author and dates without a full reading. The world''s builders should
+    check its treatment of the Kollyvades dispute before any further placement. Readable Greek
+    OCR.
+
+    '
+  source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-4
   work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
   author: mogila
@@ -162,6 +216,31 @@ works:
   note: Placed on the entry's window (1650-1821). An English diplomat's outside account of
     1678; about 78% of the OCR lines are readable words.
   source_file: rycaut_present-state-greek-armenian-churches_1679.txt
+- row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--catalogue-of-martyrs-from-the-fall-of-constantinople-to-1811-2
+  work: Catalogue of those martyred for the Christian faith from the fall of Constantinople
+    to 1811 (Sathas's list of the neomartyrs, Greek)
+  author: sathas
+  locus: from file line 30477 to the end of the volume
+  role: context
+  confidence: assigned
+  note: 'The same list, whose entries from 1650 to 1811 fall in this entry''s window. An editor''s
+    index, not the martyrs'' own lives.
+
+    '
+  source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+- row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--patriarchal-documents-regesta-from-1568-2
+  work: 'Patriarchika engrapha: Sathas''s regesta of patriarchal acts of Constantinople from
+    1568 onward (Greek summaries)'
+  author: sathas
+  locus: from file line 27987 to about 30476; the acts dated 1650 and later are the greater
+    part
+  role: context
+  confidence: assigned
+  note: 'The same regesta; most of the dated acts (1650s to 1680s by count) fall in this entry''s
+    window.
+
+    '
+  source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
 - row_id: smith-thomas_account-of-the-greek-church_1680--an-account-of-the-greek-church-as-to-its-doctrine-and-rites-2
   work: An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account
     of the Greek church under Cyrillus Lucaris
@@ -173,6 +252,18 @@ works:
   note: Placed on the entry's window (1650-1821). An Anglican chaplain's outside account of
     1680.
   source_file: smith-thomas_account-of-the-greek-church_1680.txt
+- row_id: smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698--de-graecae-ecclesiae-hodierno-statu-epistola-2
+  work: De Graecae Ecclesiae hodierno statu epistola (Smith's Latin letter on the present
+    state of the Greek Church)
+  author: smith-thomas
+  locus: the Epistola from about file line 722 to 7719
+  role: context
+  confidence: assigned
+  note: 'Same placement as Smith''s English account of 1680 and Rycaut 1679 in this entry;
+    written in 1676 and enlarged in 1698, so it falls across this entry''s opening decades.
+
+    '
+  source_file: smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698.txt
 - row_id: lucaris_confessio-and-synodal-censures-lat_1645--synodal-censures-of-the-confession-of-lucaris-by-cyril-of-2
   work: Synodal Censures of the Confession of Lucaris, by Cyril of Berrhoea (1639) and Parthenius
     (1642), Latin

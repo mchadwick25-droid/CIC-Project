@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Contested
-  divergence_note: "Contested/encomium-flagged, per Doc_09's own confidence column: the confrontation scene and dialogue come entirely through Gregory's public telling at Basil's funeral, within living memory of eyewitnesses but genre-shaped, not verifiable as court stenography."
+  divergence_note: "Contested/encomium-flagged, per Doc_09's own confidence column: the confrontation scene and dialogue come entirely through Gregory's public telling in his funeral speech for Basil, years later, within living memory of eyewitnesses but genre-shaped, not verifiable as court stenography."
 sources:
 - source_id: cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil
   locus: "the confrontation with Basil"

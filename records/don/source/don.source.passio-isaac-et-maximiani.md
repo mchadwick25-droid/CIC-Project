@@ -23,6 +23,7 @@ work: Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter 
   Carthage on the passion of the martyrs Isaac and Maximianus
 edition: J.-P. Migne (ed.), Patrologia Latina vol. 8, the Monumenta Vetera ad Donatistarum historiam pertinentia;
   vendored (relevant excerpt only) as cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt
+citation: Macrobius, Passio Isaac et Maximiani, ed. J.-P. Migne, Monumenta Vetera ad Donatistarum historiam pertinentia, Patrologia Latina vol. 8
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: 'attributed to Macrobius by the work''s own rubric (''PASSIO MAXIMIANI ET ISAAC DONATISTARUM
@@ -35,4 +36,4 @@ discovery_channel: builder-prior-knowledge, cross-checked via WebSearch (Patrolo
 external_ids:
   don_source_registry_row: 20
 ---
-A named Donatist bishop writing in his own voice to his own congregation -- one of the very few places in this world's record where that happens without a hostile hand in between. Doc_07 SS4 identifies this letter's burning, joyful eagerness as the source of the specific emotional register this world's Experiential lens can document at all: persecution did not merely happen to this world's emotional life, it produced the texts that emotional life can be read from.
+A named Donatist bishop writing in his own voice to the church at Carthage -- one of the very few places in this world's record where that happens without a hostile hand in between. Doc_07 SS4 identifies this letter's burning, joyful eagerness as the source of the specific emotional register this world's Experiential lens can document at all: persecution did not merely happen to this world's emotional life, it produced the texts that emotional life can be read from.

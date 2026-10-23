@@ -21,6 +21,7 @@ relations:
 author: "Pseudo-Macarius - the attribution the Internet Archive itself uses for this very item ('by Pseudo-Macarius; Macarius, the Egyptian, Saint, 4th cent; Mason, Arthur James, 1851-1928'), leading with the ascription Mason spent his Introduction arguing against. Ascribed traditionally to Macarius the Egyptian (c. 300-391 CE), the Scetis elder; that ascription rests on the manuscripts alone, and the Bodleian manuscript titles the collection an epistle 'to the Abbot Symeon of Mesopotamia of Syria'. Modern scholarship generally treats the corpus as pseudonymous - a Syrian or Mesopotamian author of the late fourth or early fifth century, with a disputed relation to the condemned Messalian current."
 work: "Fifty Spiritual Homilies - a connected body of ascetic teaching on the interior life: the indwelling of the Spirit, grace as something experienced rather than inferred, the coexistence of sin and grace in the baptised, the soul as the bride of Christ, and the long combat that continues after grace is received. The affective and experiential counterpart to the intellectualist psychology this world already holds from Evagrius and Cassian."
 edition: "trans. A. J. Mason, D.D., Translations of Christian Literature Series I: Greek Texts (SPCK / Macmillan, 1921), vendored as cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt. Two divisions, each opened by a [[...]] marker: Mason's Introduction at file line 116 (the authorship discussion at line 529, the ADDITIONAL NOTE at line 1421), and the Homilies themselves at line 1472 (Homily I at 1474, Homily XV at 4789, Homily L at 11186). Same series and the same general editor, W. K. Lowther Clarke, as the Lausiac History this corpus already vendors."
+citation: 'Pseudo-Macarius, Fifty Spiritual Homilies, trans. A. J. Mason (SPCK / Macmillan, 1921), Translations of Christian Literature Series I: Greek Texts'
 kind: vendored
 rights_status: "public-domain - published 1921 (pre-1929, clear in the United States); Mason lived 1851-1928, so also clear under life-plus-70. The Internet Archive made its own determination on the scan and recorded it on the item: 'no visible notice of copyright; stated date is 1921' (reported by andrea@archive.org, 2007-03-22, copyright-region US)"
 attribution_status: "pseudonymous by modern consensus, attributed in the vendored edition - the edition argues for the traditional ascription against the case that has since carried the field, which is stated wherever this source is cited"
@@ -45,8 +46,8 @@ currently holds from Cassian's Conference XIII alone.
 
 THE ATTRIBUTION PROBLEM IS THE MOST IMPORTANT THING ABOUT THIS RECORD.
 This is not a source that can be quoted as "one of us said". The safe frame
-is that these are homilies the tradition read and transmitted under
-Macarius's name, whose actual author is unknown and whose doctrine was
+is that these are homilies transmitted under
+Macarius's name from a neighbouring eastern monastic milieu, which no record shows desert monks carried, whose actual author is unknown and whose doctrine was
 drawn on by a condemned current. The vendored edition is unusually good
 provenance for exactly this reason: Mason sets out the case against his own
 position, in print, and refuses it - so a reader can watch the argument
@@ -61,7 +62,7 @@ not do for itself.
 
 It fixes the scan: item fiftyspiritualho00pseuuoft, digitized by the
 Pontifical Institute of Mediaeval Studies at the University of Toronto,
-added 2007-03-22, OCLC 1045392049. That also resolves what the file header
+added in March 2007, OCLC 1045392049. That also resolves what the file header
 had listed as damaged loci - the garbled stamps at head and foot ("1HC
 INSTITUTE OF MEDIAEVAL S7UM&", "KD ELMSLEY PLACE", "-rtONTO") are the PIMS
 ownership stamps of the library that made the scan, not corrupted text.

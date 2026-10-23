@@ -18,6 +18,7 @@ author: Luther
 work: four hymnal prefaces — to Walter's Gesangbüchlein
 edition: (1525), the funeral hymns (1542), Klug's hymnal (1543), Bapst's hymnal (1545) — in Bacon's translation;
   vendored as cic/texts/luther_hymns_bacon-allen.txt
+citation: Luther, four hymnal prefaces, to Walter's Gesangbüchlein (1525), the funeral hymns (1542), Klug's hymnal (1543), Bapst's hymnal (1545), in Bacon's translation
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

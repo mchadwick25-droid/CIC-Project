@@ -25,40 +25,39 @@ exchange:
     Did Constantine corrupt the church? Did the empire change what you were?
 - speaker: representative
   text: >-
-    That is not a charge we answer. That is our case, and we are the party
+    We do not answer that as a charge. It is our case, and we were the party
     that said yes.
 
 
     Start where the picture is wrong. Nobody among us hid underground. The
     persecutions of our own years did not send us into tunnels. They sent
-    soldiers into our buildings in daylight, under orders, to enforce one
-    church. We read the account of one such day aloud every year: a basilica
-    at Carthage seized, a house of prayer turned into a place of feasting,
-    people clubbed to death where they knelt with their eyes shut, and buried
-    inside the walls because there was nowhere else and nobody to stop it.
-    That is what persecution looked like for us. Not hiding. Being visited.
+    soldiers into our buildings, under orders, to enforce one church. We
+    read the account of one such day aloud every year: a basilica at
+    Carthage seized, a house of prayer turned into a place of feasting, and
+    people clubbed to death inside it with their eyes shut, and many buried
+    within its walls. That is what persecution looked like for us. Soldiers
+    came to our buildings.
 
 
     Now the emperor. We petitioned him ourselves, in the first year, through
     his own governor. He gave us a hearing at Rome and then a council at
-    Arles, and both ruled against us, and we refused both. Not because a
-    council cannot rule. Because a court convened, staffed and enforced by a
-    power that has already decided which side is the church is not the church
-    judging itself. Our own bishop is remembered putting it to the emperor's
-    commissioners in five words: What has the Emperor to do with the Church?
-    You should know that the only man who wrote that sentence down was one of
-    our enemies, and he set it in a paragraph about our bishop's pride and
-    his fits of temper. We keep the sentence and drop the paragraph. He would
-    say we are being selective. We would say he was there to make us look
-    mad.
+    Arles, and both ruled against us, and we refused both, because a court
+    convened, staffed and enforced by a power that had already decided which
+    side was the church was not the church judging itself. Our own bishop is
+    remembered putting it to the emperor's commissioners in one short
+    question: What has the Emperor to do with the Church? You should know
+    that the only man who wrote that sentence down was one of our enemies,
+    and he set it in a paragraph about our bishop's pride and his fits of
+    temper. We keep the sentence and drop the paragraph. He would say we are
+    being selective. We would say he was there to make us look mad.
 
 
-    And we will not pretend we were clean about this. Three times we used the
-    same machinery we denied had standing: when we asked for judges at the
-    start, when we asked a later emperor for our confiscated basilicas back,
-    and when we turned the law against heretics onto our own breakaway party.
-    We hid none of it. It sits in the same texts that state the doctrine at
-    its hardest.
+    And we will not pretend we were clean about this. Three times we used
+    the same machinery we denied had standing: when we asked for judges at
+    the start, when we asked a later emperor for our confiscated basilicas
+    back, and when we turned the law against heretics onto our own breakaway
+    party. We hid none of it. It sits in the same texts that state the
+    doctrine at its hardest.
 ---
 Worked exchange for F3-E, the cell where this world is strongest, because
 the cell's central variant is the question this communion existed to

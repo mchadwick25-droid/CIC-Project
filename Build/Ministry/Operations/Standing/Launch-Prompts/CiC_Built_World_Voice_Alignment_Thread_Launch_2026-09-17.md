@@ -34,7 +34,7 @@ covers the built-world voice end to end.
 
 ## Scope
 
-**In scope — for the 8 currently built/live worlds, and every world
+**In scope — for the currently built/live worlds (read the census; the count changes), and every world
 that reaches "Built & Live" after them:**
 
 1. Homepage card blurb (`cic-website/index.html`'s `.tile` paragraph,
@@ -45,16 +45,16 @@ that reaches "Built & Live" after them:**
 4. The conversation/Table's own opening introduction — **not yet
    located**; it isn't in the website repo. It's authored somewhere
    inside that world's own build records under `worlds/<code>/`. Tracing
-   down exactly where, for each of the 8 worlds, is this thread's first
+   down exactly where, for each of the currently built worlds, is this thread's first
    concrete task.
 
 **Out of scope:** the ~285 remaining unbuilt/atlas-only traditions'
 Atlas entries — that ground belongs to the Atlas/Church Family Tree
 thread, which is mid-rewrite there (PR #246). **Confirmed, not
 assumed:** diffed PR #246 against its actual merge-base and parsed both
-versions of `world-census.json` as JSON — for all 8 built worlds, PR
+versions of `world-census.json` as JSON — for all built worlds, PR
 #246 changes neither `tile` nor `longDescription`. Its only touch to 6
-of the 8 is a new structured `doctrine` field (a list of
+of the worlds built at the time is a new structured `doctrine` field (a list of
 belief-statement objects, not prose). Decide early whether `doctrine`
 becomes part of this thread's own shared source per world or stays
 Atlas-side structured data the Atlas thread owns independently — it is
@@ -68,22 +68,20 @@ that are actually built.
 ## This is a standing role, not a one-time cleanup
 
 Mark's own words: *"it will continue its role to ensure new worlds are
-also meeting this standard"* — more worlds are coming online after
-these 8. This workstream does not close once the current 8 are aligned.
+also meeting this standard"* — more worlds are coming online after the currently built ones. This workstream does not close once the currently built worlds are aligned.
 Its ongoing job is to catch every future world at the moment it flips
 to "Built & Live" and bring its four surfaces up to the same standard
 *before* or immediately as it goes live — not let a backlog of
 unaligned worlds accumulate for a future cleanup pass.
 
-Concretely: once the initial 8 are done and the shared-source
+Concretely: once the initially built worlds are done and the shared-source
 architecture is decided, propose to Mark where this check belongs in
 the standing build pipeline — e.g. a required step in the
 `cic-build-cycle` skill's own late-stage sequence (after a
 Representative is validated, before status flips to "Built & Live"),
 or a checklist this thread runs against each newly-built world on
 notice. Don't invent a new standing gate silently; that is itself a
-methodology change (`CLAUDE.md`'s "Governance or methodology change" —
-always ask) and needs Mark's ruling like everything else here. But do
+methodology change (CLAUDE.md 4.1: ask) and needs Mark's ruling like everything else here. But do
 treat "how does this thread find out about the next built world" as a
 real open question to resolve early, not an afterthought once the
 backlog has already started.
@@ -111,8 +109,7 @@ decision:** where the canonical per-world source text actually lives
 (a new file per world? a new field in an existing record?), and exactly
 how each of the four surfaces derives its own rendering from it. Do not
 default this silently. Propose 2–3 concrete options with a
-recommendation, per this project's own divergent/struggle/convergent
-discipline (`CLAUDE.md`, "How we work"), and get Mark's ruling before
+recommendation, per CLAUDE.md 4.2 (divergent, groan zone, convergent), and get Mark's ruling before
 touching any live file. This is a real decision, not a formality — the
 options likely trade off differently on how much becomes hand-maintained
 prose versus generated/derived text, and on how the info sheet's
@@ -121,8 +118,7 @@ one shared source.
 
 ## Governing standard
 
-`reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md` is the one
-binding voice and readability rulebook — read it first, in full, before
+The standard is CLAUDE.md 1.2 and the files it names. `reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md` is this workstream's working guide; where they differ, CLAUDE.md 1.2 wins — read both first, in full, before
 drafting anything. Treat PR #246's actual rewritten Atlas prose (once
 you've read it) as the working example of what this style guide looks
 like applied to real text, not just theory. If this thread discovers a
@@ -143,30 +139,27 @@ one shared source means making a real voice call: does the shared
 source speak as the tradition ("we") or about it ("this tradition"),
 with the other surfaces adapting person/tense as needed, or does one
 voice win outright everywhere? This is a **distinctive-vs-accessible**
-question in the sense CLAUDE.md already names under "Accessible and
-rigorous" — don't resolve it by default toward whichever is easier to
+question in the sense CLAUDE.md 1.2 already names — don't resolve it by default toward whichever is easier to
 template; bring it to Mark as a real option with a recommendation.
 
 ## Working with Mark
 
-- Present real options with a recommendation at every open decision —
+- Ask as CLAUDE.md 4.2 sets out. Present real options with a recommendation at every open decision —
   never a flat conclusion with no alternative shown. Say explicitly
   which phase (divergent / groan zone / convergent) the conversation is
   in whenever it isn't obvious.
 - Dated ledger entries in this workstream's own `Decision-Log.md` for
   every ruling.
-- No invented history, quotes, or detail for any built world — the
-  "Source fidelity" rule in `CLAUDE.md` applies here exactly as it does
+- No invented history, quotes, or detail for any built world — CLAUDE.md
+  1.1 applies here exactly as it does
   everywhere else in this project. A plain-English rewrite is a
   register change, never license to simplify away from what the sources
   actually support.
-- Target register: CEFR B2 / Flesch-Kincaid grade 8–10, Flesch Reading
-  Ease ≥ 60 — the same floor the engine itself scores against
-  (`reference/method/Pass2-decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md`).
+- Target register: CLAUDE.md 1.2 (scored by `engine/m7/turn_readability.py`).
 
 Start by reading the governing standard and the three prior threads
 named above in full, then locate the conversation/Table introduction
-text for all 8 built worlds. Bring back: what you found, the
+text for all built worlds. Bring back: what you found, the
 architecture options for the shared source, the voice-register
 question above, and a proposal for how this thread stays notified as
 new worlds go live — before writing a single word of participant-facing

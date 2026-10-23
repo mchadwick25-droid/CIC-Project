@@ -38,8 +38,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): both si
 tellable_as: the Altar of Victory debate of 384 - the old religion's most eloquent plea, and the
   church's answer, both in their own words
 text: >-
-  The altar of Victory had stood in the Senate house for centuries. The
-  emperors had it removed. In the year 384, Symmachus, prefect of Rome and the
+  The altar of Victory stood in the Senate house. Constantius had it removed, Julian put it back, and Gratian removed it again. In the year 384, Symmachus, prefect of Rome and the
   old religion's most eloquent voice, petitioned the young emperor to bring it
   back. His plea survives, grave and moving: Rome's ancient worship had
   guarded Rome's ancient greatness, and so great a secret could not be reached
@@ -50,6 +49,7 @@ text: >-
   removed. The exchange is our establishment speaking at its most
   confident. It is also the rare place in our record where the defeated side
   is heard making its own case, in its own words, at full strength.
+telling: "The altar of Victory stood in the Senate house in Rome. Constantius had it removed and Julian put it back, and then Gratian removed it again.\n\nIn the year 384, Symmachus petitioned the young emperor to bring the altar back. He was prefect of Rome and the old religion's most eloquent voice. Rome's ancient worship, he said, had guarded Rome's ancient greatness, and so great a secret could not be reached by one road alone.\n\nAmbrose answered him twice in writing. A Christian emperor's state, Ambrose argued, may not fund what the faith knows to be false. What Symmachus called reverence for the past was, to Ambrose, the past's own long error.\n\nThe altar stayed removed."
 absent_detail: Ordinary pagans' religion - as against a senatorial orator's - is not what the Memorial
   preserves; and the emperor's own deliberation survives only as its outcome. The wider legal
   suppression of the old cults is carried at the level the sources allow (the laws' existence is

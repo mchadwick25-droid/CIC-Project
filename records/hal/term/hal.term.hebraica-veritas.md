@@ -28,8 +28,7 @@ retrieval:
   - how this world read and translated scripture
   - why the Hebrew text mattered more than the Greek
   - the Vulgate project's principle
-plain_meaning: The belief that the Hebrew text of scripture is the truest text. It stands closer
-  to what God said than the Greek version the church had long used.
+plain_meaning: "The belief that the Hebrew text of scripture was the truest text. It stood closer to what God said than the Greek version the church had long used."
 world_word: Hebraica veritas
 false_friend:
 - '"of course you translate from the original" (it was a contested, destabilizing position in its
@@ -46,8 +45,7 @@ senses:
     used to the old words, the standing charge of tampering with what the church already trusted.'
   translational: '"Did you believe the Bible was the only authority?" - this world fought about which
     TEXT of the Bible carried authority: the Hebrew original or the Greek translation tradition.'
-quick_meaning: The Hebrew text of scripture is the truest text - the conviction behind the whole
-  translation project.
+quick_meaning: "Jerome held that the Hebrew text of scripture was the truest. That conviction drove the whole translation project."
 distortion_risk: high
 relations:
 - type: associated-with

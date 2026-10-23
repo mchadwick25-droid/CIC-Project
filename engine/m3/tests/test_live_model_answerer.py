@@ -146,3 +146,62 @@ def test_admission_text_shape_is_productions_own_apply_net_verbatim():
     assert "[[" not in result.text
     assert result.citations == sorted({rid for e in expected_entries for rid in e["record_ids"]})
     assert "fix.invented.record" not in result.citations
+
+
+STORY = {
+    "id": "fix.story.meal", "record_type": "story", "tellable_as": "Jesus broke bread at the meal",
+    "telling": "We tell how Jesus broke bread at the meal. They ate together.",
+}
+
+
+def test_a_world_that_places_stories_places_them_in_admission_as_in_a_live_turn():
+    coverage = {"C-I": {**_EMPTY_CELL, "stories": ["fix.story.meal"]}}
+    world = LoadedWorld(**{**_world(coverage).__dict__, "repository": {"records": [WITNESS, LIMIT, STORY]},
+                           "frame": {"story_placement": True}})
+    client = FakeClient(stream_chunks=["We tell of Jesus at the meal [[story:fix.story.meal]]."])
+    answerer = LiveModelAnswerer(world=world, canon_questions=CANON_QUESTIONS, client=client, model_id="m")
+
+    result = answerer.answer("C-I", ASK_TEXT)
+
+    assert "[[story:fix.story.meal]]" in client.messages.captured_stream_calls[0][1][0]["content"]
+    assert result.text == "We tell of Jesus at the meal:\n\nWe tell how Jesus broke bread at the meal. They ate together."
+    assert result.citations == ["fix.story.meal"]
+
+
+def _flaky_client(drops, chunks):
+    from engine.m4.generation import _TRANSPORT_ERRORS
+
+    client = FakeClient(stream_chunks=chunks)
+    real_stream = client.messages.stream
+    state = {"left": drops}
+
+    def stream(**kwargs):
+        if state["left"]:
+            state["left"] -= 1
+            raise _TRANSPORT_ERRORS[0]("peer closed connection without sending complete message body")
+        return real_stream(**kwargs)
+
+    client.messages.stream = stream
+    return client
+
+
+def test_a_probe_whose_stream_drops_is_asked_again_and_the_run_goes_on():
+    coverage = {"C-I": {**_EMPTY_CELL, "doctrinal_witness": ["fix.witness.who-is-jesus"]}}
+    client = _flaky_client(2, ["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."])
+    answerer = LiveModelAnswerer(world=_world(coverage), canon_questions=CANON_QUESTIONS, client=client, model_id="m")
+
+    result = answerer.answer("C-I", ASK_TEXT)
+
+    assert result.citations == ["fix.witness.who-is-jesus"]
+    assert len(client.messages.captured_stream_calls) == 1
+
+
+def test_a_probe_whose_stream_keeps_dropping_still_fails_loudly():
+    import pytest
+
+    coverage = {"C-I": {**_EMPTY_CELL, "doctrinal_witness": ["fix.witness.who-is-jesus"]}}
+    client = _flaky_client(3, ["unused"])
+    answerer = LiveModelAnswerer(world=_world(coverage), canon_questions=CANON_QUESTIONS, client=client, model_id="m")
+
+    with pytest.raises(RuntimeError, match="voice generation call failed"):
+        answerer.answer("C-I", ASK_TEXT)

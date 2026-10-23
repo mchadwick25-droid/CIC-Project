@@ -1,0 +1,60 @@
+source_file: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt
+
+authors_ruled:
+  malech:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page (file lines
+      about 246-248) reads "By Prof. George David Malech of Urmia, Persia", edited after his death by his son
+      Nestorius George Malech; the host catalogue gives 1837-1909. A mechanical index-coverage gap, not an
+      attribution dispute.
+
+assignments:
+  - row_id: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910--chapters-xxxi-xxxii-the-sixteenth-to-nineteenth-centuries
+    work: "History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East (1910), chapters XXXI and XXXII: the sixteenth century, the schism of Shimon VIII 'John Sulaka', and the Shimun line to the nineteenth century"
+    author: malech
+    locus: "chapter XXXI from file line 16600 (the patriarchs of 1503-1617; the schism at about 16637-16670); chapter XXXII from 16773 (the patriarchal tables to 1903 and the move to Kudshanes)"
+    atlas_ids:
+      - church-of-the-east-schism-of-1552
+    role: tradition
+    confidence: provisional
+    note: >
+      An Urmia-born author's own English history of his church, with the Shimun-line patriarch lists the
+      Roman sources lack. It gives the schism in a few paragraphs, with its own numbering (Shimon VIII is the
+      Sulaka of Rome) and one point of conflict with the Roman accounts that a build should read. Provisional
+      because the book is a late community historiography that repeats older tradition without citing sources,
+      and the schism passage is short.
+  - row_id: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910--chapters-xxxi-xxxii-the-sixteenth-to-nineteenth-centuries-2
+    work: "History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East (1910), chapter XXX: Timurlane and the visits of Indian Christians to the patriarch"
+    author: malech
+    locus: "chapter XXX from file line 16390 (the fourteenth and fifteenth centuries; contents at about line 804)"
+    atlas_ids:
+      - church-of-the-east-timur-to-hakkari
+    role: tradition
+    confidence: provisional
+    note: >
+      The same author's chapter on Timur, the letters from India to the patriarch and the condition of the
+      Christians in India. Placed on the contents entry, not read through.
+  - row_id: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910--chapters-xxxi-xxxii-the-sixteenth-to-nineteenth-centuries-3
+    work: "History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East (1910), chapters XXXII to XXXIV: the American mission at Urmia, the Syrian church at the present time"
+    author: malech
+    locus: "chapters XXXII to XXXV from file lines 16773, 17177, 17564 and 18982 (the American mission at Urmia, the confession of faith, the patriarch Mar Shimun)"
+    atlas_ids:
+      - church-of-the-east-chaldean-consolidation
+    role: tradition
+    confidence: provisional
+    note: >
+      The nineteenth-century and early-twentieth-century chapters, by an Assyrian who taught in the Urmia
+      mission college. Placed on the contents entries, not read through.
+  - row_id: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910--chapters-xxxi-xxxii-the-sixteenth-to-nineteenth-centuries-4
+    work: "History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East (1910), the whole history to the present"
+    author: malech
+    locus: "whole file; the Mongol chapter XXIX from file line 15667"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+      - church-of-the-east-under-the-mongols
+    role: context
+    confidence: provisional
+    note: >
+      The same volume covers the whole history of the church, so it can be read beside the earlier entries as a
+      community's later memory of them. Placed on the chapter titles in the contents; not read through.

@@ -1,0 +1,44 @@
+source_file: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678.txt
+
+assignments:
+  - row_id: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678--six-voyages-through-turky-into-persia
+    work: "The Six Voyages of John Baptista Tavernier (London, 1678): the Persian road, Julfa and the Armenians"
+    author: tavernier
+    locus: "the deportation of Julfa and the founding of New Julfa (file lines 2767-2789); the ruin of old Julfa and the merchant Cogia Nazar (lines 2983-3009); the Armenian bazaar at Isfahan (line 13633); the chapter on the religion and ceremonies of the Armenians (contents line 1134, chapter heading about line 14987)"
+    atlas_ids:
+      - armenian-christianity-new-julfa
+    role: context
+    confidence: assigned
+    note: >
+      A foreign traveller's account of the Armenian deportation and of the Armenian quarter
+      and church at Isfahan, from the Persian road he travelled before 1670. An outside
+      witness, not the church's voice. The passages cited were read; the rest of the book
+      (the Persian road, India, the Seraglio, the Caspian description) was not read for
+      this entry. The OCR reads long s as f throughout, with broken words: second witness
+      for exact wording; check every quotation against the page image. No translation of
+      the French original is needed (this is the 1678 English); the translator's name is
+      the host catalogue's, not read off the page.
+  - row_id: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678--six-voyages-through-turky-into-persia-2
+    work: "The Six Voyages of John Baptista Tavernier (London, 1678): Greeks and Armenians in the Ottoman cities"
+    author: tavernier
+    locus: "Smyrna's population by faith (file line 4075); Lent among the Greeks and Armenians (line 10890); the Greek archbishop of Naxos (line 11009)"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: provisional
+    note: >
+      Three passing notices of the Greek church and its neighbours in Smyrna and the islands
+      from a western traveller. Same period, outside witness, thin. Only the cited lines
+      were read.
+  - row_id: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678--six-voyages-through-turky-into-persia-3
+    work: "The Six Voyages of John Baptista Tavernier (London, 1678): Nestorians, Jacobites and the Latin missions on the road"
+    author: tavernier
+    locus: "a city the OCR reads 'Balfara' (probably Basra) with three kinds of Christians and a Carmelite house (file line 8514); a Persian city where two-thirds of twenty thousand Christians are Armenians and the rest Nestorians (line 9630); the Capuchins and Carmelites at Isfahan (lines 7635, 13456, 13478)"
+    atlas_ids:
+      - church-of-the-east-schism-of-1552
+    role: context
+    confidence: provisional
+    note: >
+      Passing notices of Nestorian and Jacobite Christians and of the Latin missionary
+      orders on the road to Persia. Outside witness, thin; the place named at line 9630 was
+      not identified. Only the cited lines were read.

@@ -6,6 +6,7 @@ engine/m5/safety_script_run.py). AWS credentials themselves are never read
 here - engine.provider.bedrock.make_client() already falls through boto3's
 standard credential chain; this module only needs to know which region.
 """
+import logging
 import os
 from dataclasses import dataclass
 from pathlib import Path
@@ -17,8 +18,25 @@ _DEFAULT_SAFETY_MODEL_PATTERN = "us.anthropic.claude-haiku-4-5"
 _DEFAULT_EVENTS_DB = "./cic_api_events.db"
 _DEFAULT_USAGE_DB = "./cic_api_usage.db"
 _DEFAULT_WORLD_KEY = "fix"
-_DEFAULT_ANON_DAILY_SESSION_LIMIT = 5
-_DEFAULT_ANON_DAILY_TURN_LIMIT = 150
+
+
+SETTING_PREFIXES = ("CIC_", "AWS_", "VITE_")
+
+
+def normalize_environ(environ=None) -> list[str]:
+    """Strips leading and trailing spaces and line breaks from the service's
+    own settings, so a value pasted with a stray newline still works. Returns
+    the names it changed, never the values."""
+    environ = os.environ if environ is None else environ
+    changed = [
+        name for name, value in list(environ.items())
+        if name.startswith(SETTING_PREFIXES) and value != value.strip()
+    ]
+    for name in changed:
+        environ[name] = environ[name].strip()
+    if changed:
+        logging.getLogger("cic.api").warning("stripped stray whitespace from settings: %s", ", ".join(sorted(changed)))
+    return changed
 
 
 class MissingConfigError(Exception):
@@ -81,17 +99,13 @@ class Settings:
     # already follows above, so duplicating those fields here would just
     # be a second place for them to drift.
     package_cache_dir: Path
-    # Anonymous per-visitor daily cap - code default OFF (a fresh/local/
-    # test app opts in explicitly), but both real deploys turn it on
-    # (render.yaml). See engine.api.anon_cap's own module docstring: the
-    # cap numbers below are still the PROPOSED default, not independently
-    # re-tuned as part of Mark's on/off decision. Flipping this on with no
+    # The visitor cookie - code default OFF (a fresh/local/test app opts in
+    # explicitly), but both real deploys turn it on (render.yaml). See
+    # engine.api.anon_cap's own module docstring. Flipping this on with no
     # secret set is a hard failure (below), not a silent skip - same
     # "never guess" posture as region/admin_token above.
     anon_cap_enabled: bool
     anon_visitor_secret: str | None
-    anon_daily_session_limit: int
-    anon_daily_turn_limit: int
     # Off by default. When on, a wholly_uncited_paragraph or
     # neighbour_named offense regenerates once, then hands the turn to
     # the Facilitator if it survives that - see
@@ -120,6 +134,13 @@ class Settings:
     # read a reply, an interview's or a Table seat's, sentence by sentence while it is written
     # (engine.api.app._stream_turn). Off by default.
     streaming_enabled: bool
+
+    # The feedback store (engine.feedback.store): a separate SQLite file.
+    feedback_db_path: str
+
+    # The one public site origin allowed to post a comment cross-origin
+    # (/api/feedback). Falls back to the Go Deeper site origin when unset.
+    site_origin: str | None
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -150,13 +171,11 @@ class Settings:
             package_cache_dir=Path(os.environ.get("CIC_API_PACKAGE_CACHE_DIR", str(REPO_ROOT / "packages"))),
             anon_cap_enabled=os.environ.get("CIC_API_ANON_CAP_ENABLED", "") in ("1", "true", "yes"),
             anon_visitor_secret=os.environ.get("CIC_API_ANON_VISITOR_SECRET") or None,
-            anon_daily_session_limit=int(
-                os.environ.get("CIC_API_ANON_DAILY_SESSION_LIMIT", _DEFAULT_ANON_DAILY_SESSION_LIMIT)
-            ),
-            anon_daily_turn_limit=int(os.environ.get("CIC_API_ANON_DAILY_TURN_LIMIT", _DEFAULT_ANON_DAILY_TURN_LIMIT)),
             r27_enforce=os.environ.get("CIC_R27_ENFORCE", "") in ("1", "true", "yes"),
             self_revision_enabled=os.environ.get("CIC_SELF_REVISION", "1") not in ("0", "false", "no"),
             citation_attach_enabled=os.environ.get("CIC_CITATION_ATTACH", "") in ("1", "true", "yes"),
             qc_db_path=os.environ.get("CIC_API_QC_DB", "./cic_api_qc.db"),
             streaming_enabled=os.environ.get("CIC_API_STREAMING", "") in ("1", "true", "yes"),
+            feedback_db_path=os.environ.get("CIC_API_FEEDBACK_DB", "./cic_api_feedback.db"),
+            site_origin=os.environ.get("CIC_API_SITE_ORIGIN") or os.environ.get("CIC_DEEPER_SITE_ORIGIN") or None,
         )

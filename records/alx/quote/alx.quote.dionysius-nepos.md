@@ -32,11 +32,11 @@ text: in many other respects I approve and love Nepos, for his faith and industr
   extensive psalmody, with which many of the brethren are still delighted; and I hold him in the more
   reverence because he has gone to rest before us. But the truth should be loved and honored most of all.
 modern_rendering: >-
-  In many other respects I approve of Nepos and love him - for his faith,
-  his hard work, and his diligence in the Scriptures, and for the many
-  psalms he wrote, in which many of our people still take delight. And I
-  hold him in still greater reverence because he has gone to his rest
-  before us. But the truth must be loved and honored above everything.
+  In many other respects I approve of Nepos and love him. I do so for his
+  faith, his hard work and his diligence in the Scriptures, and for his
+  many psalms. Many of our people still delight in them. And I hold him in
+  all the more reverence because he has gone to his rest before us. But
+  the truth must be loved and honored most of all.
 speaker_or_author: alx.figure.dionysius
 license: verbatim
 modern_lens_note: >

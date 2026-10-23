@@ -15,18 +15,20 @@ confidence:
   divergence_note: Documented at both catechisms and the confession's own gate before the Emperor.
 sources:
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism -- 'those alone are called unworthy who neither feel their infirmities nor
-    wish to be considered sinners'
+  locus: >-
+    the Large Catechism -- 'those alone are called unworthy who neither feel their infirmities nor wish
+    to be considered sinners'
   license: public-domain
 - source_id: witt.source.luther-small-catechism
-  locus: the Small Catechism -- 'anyone who believes these words, "given for you"... is really worthy
-    and well prepared'
+  locus: >-
+    the Small Catechism -- 'anyone who believes these words, "given for you"... is really worthy and well
+    prepared'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: the Augsburg Confession -- 'none are admitted except they be first examined'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, cited among this entry's Registry rows (Doc_06 SS5 entry 5.11)
+  locus: the Apology
   license: public-domain
 retrieval:
   tier: 2

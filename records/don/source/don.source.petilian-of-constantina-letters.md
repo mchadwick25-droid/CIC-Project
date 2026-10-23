@@ -22,6 +22,7 @@ work: Petilian's letters, surviving only as quoted -- clause by clause -- inside
   the Letters of Petilian (Registry row 4)
 edition: No independent edition exists. Held within cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
   inside its refutation.
+citation: Petilian of Constantina, letters as quoted in Augustine, Answer to the Letters of Petilian
 kind: vendored
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed to Petilian of Constantina by Augustine's own quotation. No independent

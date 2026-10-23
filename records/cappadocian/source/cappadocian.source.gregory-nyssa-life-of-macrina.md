@@ -24,6 +24,7 @@ work: Gregory of Nyssa, the Life of St. Macrina
 edition: Clarke's 1916 translation, vendored as cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt
   (superseding an earlier introduction-only upload, cic/texts/gregory-nyssa_life-of-macrina-introduction-only_clarke1916.txt,
   kept per the Registry's own no-deletion practice, redundant with this row)
+citation: Gregory of Nyssa, Life of St. Macrina, trans. Clarke (1916)
 kind: vendored
 rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed

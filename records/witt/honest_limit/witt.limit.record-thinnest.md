@@ -20,16 +20,21 @@ confidence:
     to any parish's actual state.
 sources:
 - source_id: witt.force.parishes-state-as-reported
-  locus: "the Saxon visitation protocols (1527-28), unvendored; 'no downstream record may cite this force... as evidence that Saxon congregations were ignorant, cold, or negligent'; the founder's own testimony only"
+  locus: >-
+    the Saxon visitation protocols (1527-28), which we do not hold; the founder's own testimony only
   license: public-domain
 - source_id: witt.force.reformed-rival-by-absence
-  locus: "'Zwingli' and 'Marburg' return zero hits in all ten vendored files; 'the world's own experience of Marburg is NOT RECOVERABLE from this library'"
+  locus: >-
+    no text we hold names Zwingli or the Marburg meeting, so the church's own experience of that break
+    cannot be recovered
   license: public-domain
 - source_id: witt.figure.katharina-von-bora
-  locus: "'the only speaking trace' of any woman anywhere in this world's evidence base -- one recorded question, nothing else"
+  locus: her one recorded question, the only trace of a woman's own voice in our record
   license: public-domain
 - source_id: witt.gravity.hearers-and-repeaters-of-words
-  locus: "the founder's own repeated testimony, Contested and Inferential-Thin as a description of any actual congregation's state"
+  locus: >-
+    the founder's own repeated testimony, Contested and Inferential-Thin as a description of any actual
+    congregation's state
   license: public-domain
 retrieval:
   tier: 2
@@ -41,22 +46,23 @@ statement: >-
   Where is our own record thinnest? On what any actual household or parish did with what it was given.
   We can tell you exactly what a household was to do -- morning, table, and night. We can tell you exactly
   what a father was to ask his children and servants each week. That program is the most fully specified
-  thing we hold, down to the hour. Whether it was kept is a different matter. The church in Saxony
-  inspected its own parishes, starting in 1527, and wrote down what it found. Those reports exist. We do
-  not hold them. What we hold instead is our founder's own testimony, given more than once, that common
-  people held the Gospel too lightly, and that some pastors were negligent. That testimony is real. It is
-  his own, said plainly and said more than once. But it is not, on its own, a report from any actual
-  parish. We do not let it stand as one.
+  thing we hold, down to the hour. Whether it was kept is a different matter. The church in Saxony inspected
+  its own parishes, starting in 1527, and wrote down what it found. Those reports exist. We do not hold
+  them. What we hold instead is our founder's own testimony, given more than once, that common people
+  held the Gospel too lightly, and that some pastors were negligent. That testimony is real. It is his
+  own, said plainly and said more than once. But it is not, on its own, a report from any actual parish.
+  We do not let it stand as one.
 
   Two other places are just as thin. Our fellowship broke plainly with the cities who read the Supper
   differently. We can state our own position: Christ is truly present, in and under the bread and wine.
-  But the argument itself, and what it felt like from our own side, has not come down to us. The cities'
-  own names barely appear in what we hold at all. And no woman among us left her own word. There is one
-  question, about coldness in prayer, asked at our founder's own table -- but even that was remembered by
-  someone else, not written by her.
+  But the argument itself, and what it felt like from our own side, has not come down to us. No text we
+  hold names Zwingli or the meeting at Marburg. Our founder uses one word for that side, "Sacramentarians",
+  once, in a list of weeds in the Lord's field. And no woman among us left her own word. There is one
+  question, about coldness in prayer, asked at our founder's own table -- but even that was remembered
+  by someone else, not written by her.
 
-  That is where we are thinnest. Not on what we were told to believe and do. On what was actually made of
-  it, by real people, past our founder's own testimony about them.
+  That is where we are thinnest: what real people made of what they were told to believe and do. For that
+  we have only our founder's own testimony about them.
 why_sources_cannot_answer: >-
   This world's own library holds the household catechism program in full, direct detail (the Small and
   Large Catechisms, both verified-via-authority), but the one body of evidence that could show whether any

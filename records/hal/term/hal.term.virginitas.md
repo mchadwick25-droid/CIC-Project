@@ -26,8 +26,7 @@ retrieval:
   retrieve_when:
   - marriage, celibacy, and what this world held highest for women
   - Eustochium's vocation
-plain_meaning: Lifelong consecrated virginity. We held it as the highest form of Christian
-  life open to a woman.
+plain_meaning: "Lifelong virginity given to God. We held it as the highest Christian life open to a woman."
 world_word: virginitas
 false_friend:
 - gentle, uncontroversial praise of celibacy (the actual rhetoric was severe against marriage and
@@ -45,7 +44,7 @@ senses:
   translational: '"What did marriage mean to your people?" - marriage was honored as good and virginity
     as better, in an explicit ranking this world argued for publicly and was criticized for, then
     and since.'
-quick_meaning: Lifelong consecrated virginity. We held it as the highest calling for a woman.
+quick_meaning: "Lifelong virginity given to God. We held it as the highest calling for a woman."
 distortion_risk: high
 use_note:
   means: "Lifelong consecrated virginity, ranked above marriage in an explicit hierarchy that Jerome argued severely and that drew criticism even from friends."

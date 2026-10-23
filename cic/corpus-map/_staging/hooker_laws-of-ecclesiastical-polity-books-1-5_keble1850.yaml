@@ -1,0 +1,72 @@
+source_file: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850.txt
+
+assignments:
+  - row_id: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850--of-the-laws-of-ecclesiastical-polity-preface-and-books-i-v
+    work: "Of the Laws of Ecclesiastical Polity, the Preface and Books I-V (1593-1597)"
+    author: hooker
+    locus: "Preface from file line 4122 ('PREFACE ... TO THEM THAT SEEK (AS THEY TERM IT) THE REFORMATION OF LAWS'); 'THE FIRST BOOK' at line 6858; 'THE SECOND BOOK' at 11263; 'THE THIRD BOOK' at 13766; 'THE FOURTH BOOK' at 17538; 'THE FIFTH BOOK' at 21535, running to chapter LXXXI and the end of the file"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The Settlement's mature self-understanding: law, reason and scripture in
+      Book I; the defence of the Prayer Book's ceremonies, sacraments and
+      ministry point by point in Book V. The voice the later Church of England
+      took as its own. Primary voice, ready to quote once verified against this
+      file (Keble's text; his notes are omitted in this 1850 printing).
+
+  - row_id: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850--walton-s-life-of-hooker
+    work: "Izaak Walton, The Life of Mr. Richard Hooker (1665)"
+    author: walton
+    locus: "from file line 3419 ('THE LIFE OF MR. RICHARD HOOKER') to Hooker's Preface at line 4122, with its appendices"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: assigned
+    note: >
+      Walton's Restoration-era life, written 1665, outside the window and from the
+      Laudian side: a later admirer's portrait, not Hooker's voice. Context only;
+      its anecdotes (the Temple sermons against Travers, the unhappy marriage) are
+      Walton's and should not be quoted as fact about Hooker.
+
+  - row_id: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850--of-the-laws-of-ecclesiastical-polity-preface-and-books-i-v-2
+    work: "Of the Laws of Ecclesiastical Polity, the Preface and Books I-V (1593-1597)"
+    author: hooker
+    locus: "as above; the Preface (file lines 4122 to 6857) and Book III are addressed directly to the Presbyterian and Puritan critics, with Cartwright quoted in the margins"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: assigned
+    note: >
+      The establishment's fullest answer to the disciplinarian Puritans, written
+      against Cartwright and Travers and quoting them; the Preface describes the
+      godly movement's growth from the outside with unusual care. The contemporary
+      opponent's own text, read directly: assigned.
+
+  - row_id: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850--preface-to-the-laws-of-ecclesiastical-polity-puritanism
+    work: Of the Laws of Ecclesiastical Polity, the Preface 'to them that seek (as they term it) the reformation
+      of laws and orders ecclesiastical in the Church of England', with Books I-V
+    author: hooker
+    locus: the Preface (heading PREFACE at file line 4122; Walton's Life names Cartwright from line 1877);
+      the five Books follow
+    atlas_ids:
+    - puritanism
+    role: context
+    confidence: assigned
+    note: 'The establishment''s considered answer to the Admonition and Cartwright line, addressed to the
+      Puritans directly; the view of this world from its most able opponent. Contemporary opponent, so context
+      by the README rule. Cross-link tier: same time and place.
+
+      '
+
+authors_ruled:
+  walton:
+    kind: metadata-omission
+    evidence: >
+      Izaak Walton is named on the file's own title page ("WITH AN ACCOUNT OF HIS
+      LIFE AND DEATH, BY ISAAC WALTON") and the Life carries his own dedication to
+      Bishop Morley and his preface. The file-name prefix is hooker because the
+      volume is Hooker's works; Walton's Life inside it is a separate work by a
+      separate author, so it takes its own slug.
+    from_file: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850.txt

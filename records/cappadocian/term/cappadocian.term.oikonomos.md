@@ -23,9 +23,10 @@ retrieval:
 relations:
 - type: associated-with
   target: cappadocian.story.poorhouse-famine-month
-plain_meaning: This word named someone entrusted with property that was not their own. It could be church
-  funds, the poorhouse's own resources, or the sacred rites themselves. Ownership, this word said, is
-  something held in trust.
+plain_meaning: >-
+  This word named someone entrusted with property that was not their own. It
+  could be church funds, the poorhouse's own resources, or the sacred rites
+  themselves. We held that what a person owned was held in trust.
 world_word: oikonomos
 false_friend: []
 senses:

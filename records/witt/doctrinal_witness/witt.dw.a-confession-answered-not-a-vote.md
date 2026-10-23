@@ -20,10 +20,14 @@ confidence:
     inside our own Apology (witt.source.roman-confutation-of-the-augsburg-confession).
 sources:
 - source_id: witt.story.diet-of-augsburg-1530
-  locus: "the whole story: the Confession drafted, read, and signed before the Emperor at Augsburg, 1530, by electors, princes, and free cities together"
+  locus: >-
+    the whole story: the Confession drafted, read, and signed before the Emperor at Augsburg, 1530, by
+    an Elector, princes, and two city councils together
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: "the Apology's own point-by-point defense of the Confession against the Confutation's own charges, reaching us only through the Apology's own quotation and answer -- the Confutation's own text is never independently vendored"
+  locus: >-
+    the Apology's point-by-point defense of the Confession against the Confutation's charges; the Confutation
+    reaches us only as the Apology quotes and answers it
   license: public-domain
 retrieval:
   tier: 2
@@ -33,24 +37,18 @@ retrieval:
   prefer_instead:
   - "participant wants our own eyewitness account of the Diet's own proceedings -- our library holds the Confession's own text and signatures, not a narrated account of the room"
 text: >-
-  When belief was disputed in our own history, no council of bishops sat
-  and voted on it the way you may be picturing. What actually happened
-  was this. In 1530, before the Emperor himself, a confession of our own
-  teaching was read aloud and signed. It was written out and argued from
-  Scripture. It was signed not by one preacher alone, but by electors,
-  princes, and the councils of whole cities, together. Theologians
-  speaking for Rome answered it in writing. We answered that answer in
-  turn, point by point, in a second document. That is how a dispute moved
-  among us: confession, written reply, written defense. It was argued from
-  Scripture on every side. It went upward through the proper civil and
-  religious channels. It was never settled by a show of hands.
+  When belief was disputed in our own history, no council of bishops sat and voted on it the way you may
+  be picturing. In 1530, before the Emperor himself, a confession of our own teaching was read aloud and
+  signed. It was written out and argued from Scripture. It was signed not by one preacher alone, but by
+  an Elector, princes, and two city councils, together. Theologians speaking for Rome answered it in writing.
+  We answered that answer in turn, point by point, in a second document. That is how a dispute moved among
+  us: confession, written reply, written defense. We argued it from Scripture. It was never settled by
+  a show of hands.
 
-  As for the claim that a council basically voted Jesus into being God,
-  we cannot speak to it firsthand. Whatever happened at whichever council
-  is meant, it did not happen among us. Our own history did not decide
-  the confession that Christ is truly God. We received it already settled,
-  centuries before our founder was born. We confessed it as inherited
-  teaching, not as a question we ourselves put to a vote.
+  As for the claim that a council basically voted Jesus into being God, we cannot speak to it firsthand.
+  Whatever happened at whichever council is meant, it did not happen among us. Our own history did not
+  decide the confession that Christ is truly God. We received it already settled, centuries before our
+  founder was born. We confessed it as inherited teaching, not as a question we ourselves put to a vote.
 positions:
 - "our own belief disputes were decided by written confession, written reply, and written defense -- argued from Scripture, addressed to the Emperor and to Rome's own theologians -- not by a vote"
 - "the 1530 Confession was signed corporately, by princes and city councils together, not by one preacher claiming authority to decide alone"

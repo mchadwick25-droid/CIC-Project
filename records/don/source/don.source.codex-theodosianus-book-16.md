@@ -25,6 +25,7 @@ work: Codex Theodosianus, Book 16 -- including 16.5.52 on the circumcelliones an
 edition: 'Th. Mommsen and Paul M. Meyer (eds.), Theodosiani Libri XVI, Voluminis I Pars Posterior: Textus
   cum Apparatu (Berlin: Weidmann, 1905), vendored as cic/texts/theodosianus-16_mommsen-meyer1905.txt (Registry
   row 51)'
+citation: 'Codex Theodosianus, Book 16, in Theodosiani Libri XVI, Voluminis I Pars Posterior: Textus cum Apparatu, ed. Th. Mommsen and Paul M. Meyer (Berlin: Weidmann, 1905)'
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: documentary

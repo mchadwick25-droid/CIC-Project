@@ -488,7 +488,7 @@ def build_capsule(records: dict, registry_entry: dict) -> bytes:
     lines = [
         f"# {registry_entry.get('display_name', '')}",
         "",
-        f"Representative: {rep.get('name', '')} ({rep.get('role_label', '')})",
+        f"Representative: {rep.get('name', '')}",
         f"Time window: {window.get('start')}-{window.get('end')}",
         f"Place: {registry_entry.get('place', '')}",
         "",
@@ -845,6 +845,10 @@ def build_frame_json(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         "living_tradition_flag": registry_entry.get("living_tradition_flag", False),
         "frames": {"general_seeker": {"starters": starters}},
     }
+    # Written only for a world that turns story placement on, so every other
+    # world's frame.json stays byte-identical (engine.m4.quote_placement).
+    if registry_entry.get("story_placement"):
+        payload["story_placement"] = True
     return canonical_json(payload)
 
 
@@ -855,14 +859,14 @@ def build_frame_json(records: dict, fleet: dict, registry_entry: dict) -> bytes:
 
 def build_media(registry_entry: dict) -> dict[str, bytes]:
     rep = registry_entry.get("representative") or {}
-    name, role = rep.get("name", ""), rep.get("role_label", "")
+    name = rep.get("name", "")
     svg = (
         '<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">'
         '<rect width="240" height="240" fill="#e8e2d4"/>'
         '<circle cx="120" cy="95" r="45" fill="#b9ac8f"/>'
         '<rect x="55" y="150" width="130" height="70" rx="20" fill="#b9ac8f"/>'
         f'<text x="120" y="205" font-family="sans-serif" font-size="14" fill="#3a3226" '
-        f'text-anchor="middle">{name} - {role}</text>'
+        f'text-anchor="middle">{name}</text>'
         "</svg>\n"
     )
     return {"compiled/media/portrait.svg": svg.encode("utf-8")}

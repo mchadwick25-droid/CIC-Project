@@ -89,8 +89,8 @@ relations:
 - type: associated-with
   target: gallic.term.antichrist
 plain_meaning: >-
-  A real, present, and at times visible adversary. Martin saw him in many shapes and spoke to him.
-  Our elders detect him in a thought we are ashamed to disclose.
+  A real, present, and at times visible adversary. Martin saw him in many shapes and spoke to him. Our
+  elders taught that he lay behind a thought we were ashamed to disclose.
 world_word: the devil / demons ("our cunning adversary")
 false_friend:
 - a metaphor for psychological conflict, "the shadow," or social evil
@@ -126,7 +126,7 @@ senses:
     mercy, and who quotes Scripture in church.
 quick_meaning: >-
   A real and present enemy, sometimes visible. Martin knew him in any shape and spoke to him. Our
-  elders find him in the thought we are ashamed to tell. Never a figure of speech.
+  elders taught that a thought we were ashamed to tell came from him.
 distortion_risk: high
 use_note:
   means: "The devil meant a real, present and sometimes visible adversary whom Martin saw and spoke to and whom Cassian's elders find in the thought one is ashamed to tell."

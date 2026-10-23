@@ -25,7 +25,7 @@ sources:
   locus: the Augsburg Confession XII
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XII, read this pass -- 'the true terror of conscience'
+  locus: the Apology XII -- 'the true terror of conscience'
   license: public-domain
 retrieval:
   tier: 2

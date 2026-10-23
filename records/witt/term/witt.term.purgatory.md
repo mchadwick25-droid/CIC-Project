@@ -18,13 +18,13 @@ confidence:
     this pass).
 sources:
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
-  locus: the Ninety-Five Theses, Thesis 1517 reasoning that still allows purgatory's furniture
+  locus: the Ninety-Five Theses (1517), on purgatory
   license: public-domain
 - source_id: witt.source.luther-four-hymnal-prefaces-to-walters-gesangb
   locus: the 1542 funeral preface -- purgatory among the 'popish horrors' abolished
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'Scripture does not teach' purgatory (Ap 5003-5011, 6363-6365)
+  locus: the Apology -- 'Scripture does not teach' purgatory
   license: public-domain
 retrieval:
   tier: 2

@@ -3,6 +3,35 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-tridentine-church
 works:
+- row_id: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562--approbatio-et-professio-fidei-abdisho-iv-1562-2
+  work: Approbatio et professio of the patriarch of the Orientalium Assyriorum (Abdisho IV)
+    and Cardinal Amulio's letter to the legates at Trent, 1562
+  author: abdisho-iv
+  locus: whole file; the letter to the legates 'Sacri Concilii Tridentini' from about line
+    98
+  role: context
+  confidence: provisional
+  note: 'An Eastern patriarch''s oath to receive the decrees of the councils and of Trent,
+    sent to the council in its last period. Placed on the content read for the other row;
+    whether the Tridentine entry wants it is for its build.
+
+    '
+  source_file: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt
+- row_id: bacci_life-of-st-philip-neri-v1_faber1847--life-of-saint-philip-neri-vol-1
+  work: The Life of Saint Philip Neri, Apostle of Rome, and Founder of the Congregation of
+    the Oratory, Vol. 1 (Books I-III to Chapter VI)
+  author: bacci
+  locus: '"BOOK FIRST" at file line 613 (chapters from 632), "BOOK THE SECOND" at 5913, "BOOK
+    THE THIRD" at 14350, ending at Chapter VI (line 16389); the series prospectus and Google
+    notice before line 613 are not Bacci'
+  role: tradition
+  confidence: assigned
+  note: The Oratory is one of the new bodies the census names. Bacci was a priest of Philip's
+    Oratory writing a devotional Life, so this is the Oratory's own account of its founder,
+    in Faber's 1847 English. Close hagiographic witness, not Philip's own words; quotes are
+    Bacci's report of what Philip said. Volume 1 only; the later books are not in the file.
+    Clean scan.
+  source_file: bacci_life-of-st-philip-neri-v1_faber1847.txt
 - row_id: barlow_brutum-fulmen_1681--brutum-fulmen-pius-v-s-bull-regnans-in-excelsis-against
   work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul
     III's bull against Henry VIII annexed)
@@ -45,6 +74,18 @@ works:
 
     '
   source_file: barlow_brutum-fulmen_1681.txt
+- row_id: bascape_de-vita-et-rebus-gestis-caroli-lat_1592--de-vita-et-rebus-gestis-caroli-2
+  work: De vita et rebus gestis Caroli S.R.E. Cardinalis, Archiepiscopi Mediolani, libri septem
+  author: bascape
+  locus: as above
+  role: context
+  confidence: assigned
+  note: 'Context for the Tridentine Church: the Latin Life of its model bishop by his own
+    secretary, dedicated to the Duke of Bavaria for a readership beyond Milan. Second witness
+    only (garbled OCR); see the Borromean Milan row.
+
+    '
+  source_file: bascape_de-vita-et-rebus-gestis-caroli-lat_1592.txt
 - row_id: bellarmine_eternal-happiness-of-the-saints_dalton--the-eternal-happiness-of-the-saints
   work: The Eternal Happiness of the Saints
   author: bellarmine
@@ -102,6 +143,107 @@ works:
 
     '
   source_file: borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt
+- row_id: borromeo_aggiunta-lettere-ita_bassaglia1762--borromeo-tridentine-context
+  work: Aggiunta alle lettere di S. Carlo Borromeo (1762)
+  author: borromeo
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked
+    to the whole-church world as the model Tridentine bishop writing. Placed on subject only;
+    not read for whole-church matter.
+  source_file: borromeo_aggiunta-lettere-ita_bassaglia1762.txt
+- row_id: borromeo_ammaestramenti-alle-persone-religiose-ita_1902--borromeo-tridentine-context
+  work: Ammaestramenti alle persone religiose (Borromeo, 1902)
+  author: borromeo
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked
+    to the whole-church world as the model Tridentine bishop writing. Placed on subject only;
+    not read for whole-church matter.
+  source_file: borromeo_ammaestramenti-alle-persone-religiose-ita_1902.txt
+- row_id: borromeo_lettere-ita_bassaglia1762--borromeo-tridentine-context
+  work: Lettere di S. Carlo Borromeo (1762)
+  author: borromeo
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked
+    to the whole-church world as the model Tridentine bishop writing. Placed on subject only;
+    not read for whole-church matter.
+  source_file: borromeo_lettere-ita_bassaglia1762.txt
+- row_id: borromeo_ricordi-ita_1580--borromeo-tridentine-context
+  work: Ricordi per il vivere christiano (Borromeo, 1580)
+  author: borromeo
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked
+    to the whole-church world as the model Tridentine bishop writing. Placed on subject only;
+    not read for whole-church matter.
+  source_file: borromeo_ricordi-ita_1580.txt
+- row_id: borromeo_terza-raccolta-lettere-ita_agnelli1763--borromeo-tridentine-context
+  work: Terza raccolta di lettere di S. Carlo Borromeo (1763)
+  author: borromeo
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked
+    to the whole-church world as the model Tridentine bishop writing. Placed on subject only;
+    not read for whole-church matter.
+  source_file: borromeo_terza-raccolta-lettere-ita_agnelli1763.txt
+- row_id: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini--papal-constitutions-pius-iv-to-innocent-ix
+  work: 'Magnum Bullarium Romanum, Tomus Secundus: papal constitutions of Pius IV, Pius V,
+    Gregory XIII, Sixtus V, Gregory XIV and Innocent IX'
+  author: bullarium-romanum
+  locus: whole volume. Table of popes and constitution counts at file lines 75-82; Pius V
+    section running heads from line 49721; Gregory XIII from line 102239; Sixtus V, including
+    constitution 74 Immensa aeterni Dei ("LXXIV. Institutio quindecim Congregationum"), text
+    from line 170829 and line 171354; Gregory XIV from line 193929. The editors' rubrics,
+    summaries and scholia around each constitution are the compilers' commentary, not the
+    popes' words
+  role: tradition
+  confidence: assigned
+  note: Primary Latin text of the papal acts that carried Trent into the whole church, as
+    the 1727 Luxembourg reprint of the Roman Bullarium prints them. Ready to quote once verified
+    against the file. The scan is a clean Latin print (long s as f), not flagged as garbled.
+    Immensa (Sixtus V, 1588) is the founding act of the Roman Curia's fifteen Congregations,
+    named in the census block as the reorganised curia. No public-domain English translation
+    found. The Profession of Faith of Pius IV and Pius V's Regnans in Excelsis were searched
+    for and not located by OCR spelling variants, so a build should open the volume on the
+    page images rather than assume they are there.
+  source_file: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt
+- row_id: canisius_summe-of-christian-doctrine_anon1622--canisius-catechism-tridentine-context
+  work: A Summe of Christian Doctrine (Canisius, English 1622)
+  author: canisius
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: The Jesuit catechism that ran beside the Roman Catechism in the Counter-Reformation
+    parishes; kept to the Jesuit world as its tradition text and cross-linked here as context.
+    Placed on subject and window; not read for how it relates to the Roman Catechism.
+  source_file: canisius_summe-of-christian-doctrine_anon1622.txt
+- row_id: canisius_summa-doctrinae-christianae-lat_1565--canisius-catechism-tridentine-context
+  work: Summa doctrinae christianae (Canisius, Latin 1565)
+  author: canisius
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: The Jesuit catechism that ran beside the Roman Catechism in the Counter-Reformation
+    parishes; kept to the Jesuit world as its tradition text and cross-linked here as context.
+    Placed on subject and window; not read for how it relates to the Roman Catechism.
+  source_file: canisius_summa-doctrinae-christianae-lat_1565.txt
+- row_id: canisius_summa-doctrinae-christianae-lat_1573--canisius-catechism-tridentine-context
+  work: Summa doctrinae christianae (Canisius, Latin 1573)
+  author: canisius
+  locus: as in the existing row
+  role: context
+  confidence: provisional
+  note: The Jesuit catechism that ran beside the Roman Catechism in the Counter-Reformation
+    parishes; kept to the Jesuit world as its tradition text and cross-linked here as context.
+    Placed on subject and window; not read for how it relates to the Roman Catechism.
+  source_file: canisius_summa-doctrinae-christianae-lat_1573.txt
 - row_id: bellarmine_notes-of-the-church_1688--the-notes-of-the-church-de-notis-ecclesiae-examined-a-church
   work: The Notes of the Church (De Notis Ecclesiae) EXAMINED - a Church of England tract
     series refuting Bellarmine's own Notes of the Church
@@ -133,6 +275,17 @@ works:
 
     '
   source_file: council-of-trent_roman-catechism_mchugh-callan1923.txt
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--profession-of-the-tridentine-faith-creed-of-pius-iv-1564
+  work: Profession of the Tridentine Faith (Creed of Pius IV), 1564, Latin and English
+  author: council-of-trent
+  locus: contents entry at about file line 6872; text from about line 18254
+  role: context
+  confidence: provisional
+  note: The creed every Catholic cleric swore after Trent, in Latin with Schaff's English.
+    Placed from the contents list; the Tridentine Church thread already holds the Canons and
+    the Catechism, and Schaff also prints the Canons and Decrees of Trent in Latin and English
+    from about line 6897 (a second witness beside Waterworth).
+  source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
 - row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council-2
   work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
   author: council-of-trent
@@ -147,6 +300,162 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- row_id: giussano_life-of-st-charles-borromeo-v1_1884--life-of-st-charles-borromeo-vol-i-2
+  work: The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. I (Books I-IV)
+  author: giussano
+  locus: 'as above: Giussano''s text from file line 5286'
+  role: context
+  confidence: assigned
+  note: 'For the Tridentine Church as a whole this is the Life of the bishop the Catholic
+    world took as the model of Trent''s reforming prelate, told from inside one diocese. Context
+    here, not the church''s own institutional voice: that voice is the Trent decrees and Catechism
+    already in this bucket.
+
+    '
+  source_file: giussano_life-of-st-charles-borromeo-v1_1884.txt
+- row_id: giussano_life-of-st-charles-borromeo-v2_1884--life-of-st-charles-borromeo-vol-ii-2
+  work: The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. II (Books V-IX
+    and index)
+  author: giussano
+  locus: 'as above: Giussano''s text from file line 457'
+  role: context
+  confidence: assigned
+  note: 'Context for the Tridentine Church as the Life of its model bishop (see the Vol. I
+    row). Book VII''s chapters on Borromeo''s respect for the Holy See and on the Council
+    of Trent are the parts most directly about the whole church.
+
+    '
+  source_file: giussano_life-of-st-charles-borromeo-v2_1884.txt
+- row_id: giussano_vita-di-s-carlo-borromeo-ita_1855--vita-di-s-carlo-borromeo-2
+  work: Vita di S. Carlo Borromeo (Italian original, 1855 Naples reprint of the 1610 text)
+  author: giussano
+  locus: as above
+  role: context
+  confidence: assigned
+  note: 'Italian original of the English Life assigned to this bucket as context; see the
+    giussano_life-of-st-charles-borromeo rows.
+
+    '
+  source_file: giussano_vita-di-s-carlo-borromeo-ita_1855.txt
+- row_id: jewel_apology-of-the-church-of-england_bacon-morley1888--the-apology-of-the-church-of-england-lady-bacon-s-translation-2
+  work: The Apology of the Church of England, Lady Anne Bacon's translation of 1564
+  author: jewel
+  locus: as above, file lines 149 to 3696
+  role: context
+  confidence: provisional
+  note: 'Written while Trent sat and addressed to it (Part VI argues why the English would
+    not come to the council): a contemporary Protestant opponent''s view of the Roman church
+    and its council. Placed as context; provisional, on window and subject without that world''s
+    own reading.
+
+    '
+  source_file: jewel_apology-of-the-church-of-england_bacon-morley1888.txt
+- row_id: lainez_epistolae-et-acta-v6-lat_1915--jesuit-at-trent-tridentine-context
+  work: Lainez, Epistolae et acta, vol. 6
+  author: lainez
+  locus: as in the existing row; the Council is named about 107 times in the OCR (a count
+    of the words Council of Trent, Tridentine and Concilio di Trento, not a reading)
+  role: context
+  confidence: provisional
+  note: Jesuit theologians and officers at and after the Council. Kept to the Society of Jesus
+    as its tradition text; cross-linked here as context only. Placed on a mention count; not
+    read.
+  source_file: lainez_epistolae-et-acta-v6-lat_1915.txt
+- row_id: lainez_epistolae-et-acta-v7-lat_1916--jesuit-at-trent-tridentine-context
+  work: Lainez, Epistolae et acta, vol. 7
+  author: lainez
+  locus: as in the existing row; the Council is named about 90 times in the OCR (a count of
+    the words Council of Trent, Tridentine and Concilio di Trento, not a reading)
+  role: context
+  confidence: provisional
+  note: Jesuit theologians and officers at and after the Council. Kept to the Society of Jesus
+    as its tradition text; cross-linked here as context only. Placed on a mention count; not
+    read.
+  source_file: lainez_epistolae-et-acta-v7-lat_1916.txt
+- row_id: lainez_epistolae-et-acta-v8-lat_1917--jesuit-at-trent-tridentine-context
+  work: Lainez, Epistolae et acta, vol. 8
+  author: lainez
+  locus: as in the existing row; the Council is named about 46 times in the OCR (a count of
+    the words Council of Trent, Tridentine and Concilio di Trento, not a reading)
+  role: context
+  confidence: provisional
+  note: Jesuit theologians and officers at and after the Council. Kept to the Society of Jesus
+    as its tradition text; cross-linked here as context only. Placed on a mention count; not
+    read.
+  source_file: lainez_epistolae-et-acta-v8-lat_1917.txt
+- row_id: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858--de-bijenkorf-der-h-roomsche-kerke-2
+  work: De Bijenkorf der H. Roomsche Kerke (1569)
+  author: marnix
+  locus: the Bijenkorf text as above
+  role: context
+  confidence: provisional
+  note: 'A contemporary opponent''s polemic against the post-Tridentine church (Sonnius, the
+    first bishop of Antwerp, is its addressee). Placed on its subject; not read for Trent-specific
+    matter.
+
+    '
+  source_file: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858.txt
+- row_id: pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664--istoria-del-concilio-di-trento-parte-1
+  work: Istoria del Concilio di Trento (Pallavicino, 1664), Parte prima, Libri I-VIII
+  author: pallavicino
+  locus: whole volume; books marked "LIBRO" in the OCR headings
+  role: context
+  confidence: assigned
+  note: 'Cardinal Pallavicino''s Counter-Reformation answer to Sarpi''s history of the Council,
+    in the author''s revised Italian text of 1664. A pro-Curia narrative written after the
+    Council, so context, never the council''s own voice. Closes the dossier''s earlier finding
+    that no English exists: the Italian original is public domain and is now in the corpus;
+    there is still no English translation. Scan quality: clean.'
+  source_file: pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt
+- row_id: pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664--istoria-del-concilio-di-trento-parte-2
+  work: Istoria del Concilio di Trento (Pallavicino, 1664), Parte seconda, Libri IX-XVI
+  author: pallavicino
+  locus: whole volume; books marked "LIBRO" in the OCR headings
+  role: context
+  confidence: assigned
+  note: 'Cardinal Pallavicino''s Counter-Reformation answer to Sarpi''s history of the Council,
+    in the author''s revised Italian text of 1664. A pro-Curia narrative written after the
+    Council, so context, never the council''s own voice. Closes the dossier''s earlier finding
+    that no English exists: the Italian original is public domain and is now in the corpus;
+    there is still no English translation. Scan quality: clean except the closing index.'
+  source_file: pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt
+- row_id: pallavicino_istoria-del-concilio-di-trento-parte3-ita_1664--istoria-del-concilio-di-trento-parte-3
+  work: Istoria del Concilio di Trento (Pallavicino, 1664), Parte terza, Libri XVII-XXIV
+  author: pallavicino
+  locus: whole volume; books marked "LIBRO" in the OCR headings
+  role: context
+  confidence: assigned
+  note: 'Cardinal Pallavicino''s Counter-Reformation answer to Sarpi''s history of the Council,
+    in the author''s revised Italian text of 1664. A pro-Curia narrative written after the
+    Council, so context, never the council''s own voice. Closes the dossier''s earlier finding
+    that no English exists: the Italian original is public domain and is now in the corpus;
+    there is still no English translation. Scan quality: garbled in the later half; second
+    witness. Parts 1 and 2 are the clean witnesses; for the Libri XVII-XXIV (Trent''s last
+    period, 1562-63) a cleaner scan of this volume is a standing want.'
+  source_file: pallavicino_istoria-del-concilio-di-trento-parte3-ita_1664.txt
+- row_id: pius-iv_profession-of-catholick-faith_anon1734--grounds-of-the-controverted-articles
+  work: The "chief Grounds of the controverted Articles" by question and answer (1734)
+  author: pius-iv
+  locus: everything after the Profession, to the end of the file
+  role: context
+  confidence: assigned
+  note: An eighteenth-century English Catholic apologetic written long after the window; it
+    shows how the Profession was taught to converts, not what the Tridentine church said in
+    1564. Context only.
+  source_file: pius-iv_profession-of-catholick-faith_anon1734.txt
+- row_id: pius-iv_profession-of-catholick-faith_anon1734--profession-of-faith
+  work: The Profession of Catholic Faith extracted out of the Council of Trent by Pius IV
+    (English text)
+  author: pius-iv
+  locus: the Profession opens the text, beginning "I N. with a firm Faith believe and profess
+    all and every one of those Things" at file line 97
+  role: tradition
+  confidence: assigned
+  note: The English text of the 1564 Profession of Faith, as used for receiving converts in
+    1734. The wording is the 1734 printing's own English, not Pius IV's Latin; treat as a
+    primary witness to the content of the Profession in English and a second witness for the
+    exact words. The Latin of the Profession is not in this file.
+  source_file: pius-iv_profession-of-catholick-faith_anon1734.txt
 - row_id: pius-v_apostolicarum-epistolarum-lat_1640--apostolicarum-pii-quinti-pont-max-epistolarum-libri-quinque
   work: Apostolicarum Pii Quinti Pont. Max. Epistolarum Libri Quinque
   author: pius-v
@@ -177,6 +486,59 @@ works:
 
     '
   source_file: pole_seditious-oration_wythers1560.txt
+- row_id: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591--discorsi-della-vita-et-attioni-di-carlo-borromeo-2
+  work: Discorsi della vita, et attioni di Carlo Borromeo
+  author: possevino-giovanni-battista
+  locus: as above
+  role: context
+  confidence: provisional
+  note: 'Placed on window and subject only: a 1591 Life of the model Tridentine bishop. The
+    file was not read for what it says of the whole church, so the fit is provisional.
+
+    '
+  source_file: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591.txt
+- row_id: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907--collectanea-propaganda-fide-v1
+  work: Collectanea S. Congregationis de Propaganda Fide, Volume I (Ann. 1622-1866, NN. 1-1299)
+  author: propaganda-fide
+  locus: whole volume; the founding constitution Inscrutabili divinae providentiae (Gregory
+    XV, 22 June 1622) at file line 795; entry 135, the 1659 Instruction to the vicars apostolic
+    ("Instr. S. C. de Propag. Fide 1659"), at line 8153. Only entries dated 1622-1650 fall
+    in the window; the rest of the volume runs to 1866
+  role: tradition
+  confidence: assigned
+  note: The census names Propaganda Fide's archive; this is the Congregation's own printed
+    collection of decrees, instructions and replies, in Latin, from its founding year. Primary
+    voice for the 1622-1650 entries once verified against the file; later entries are out
+    of window. Clean Latin scan. No public-domain English translation found. The Iuris pontificii
+    de propaganda fide (1888, Harvard copies) is a second collection of the same Congregation's
+    acts and is recorded in the dossier, not vendored.
+  source_file: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt
+- row_id: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886--reusch-introduction-and-notes
+  work: Reusch's German introduction and commentary on the sixteenth-century indices
+  author: reusch
+  locus: 'German prose around the printed index texts: introduction near the start and notes
+    throughout'
+  role: context
+  confidence: assigned
+  note: Nineteenth-century Catholic scholarship on the history of the Index. Context, never
+    the church's own voice.
+  source_file: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt
+- row_id: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886--sixteenth-century-index-texts
+  work: The sixteenth-century Indices librorum prohibitorum as printed by Reusch (1559 Index
+    of Paul IV; 1564 Tridentine Index of Pius IV; further indices)
+  author: reusch
+  locus: 'the index texts by section: section 13 Index of Paul IV (1559) and section 15 Index
+    of Pius IV (1564, "der sogenannte Trienter index"), headings at file lines 39767-39771
+    in the contents list and 15714 in the body; Reusch''s own introduction and notes are scholarship'
+  role: tradition
+  confidence: provisional
+  note: 'The Index named in the census, in the only edition found on a reachable host that
+    prints the 1564 text: Reusch''s 1886 scholarly edition. The Latin index texts are the
+    primary evidence; the OCR is noisy but legible and is a second witness for exact wording
+    until checked against the page images. Provisional because the placement was made from
+    the contents list and five-point sampling, without reading the 1564 section through. No
+    public-domain English translation found.'
+  source_file: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt
 - row_id: roman-breviary_bute1908--the-roman-breviary-reformed-by-order-of-the-council-of-trent
   work: The Roman Breviary (reformed by order of the Council of Trent; published by Pius V;
     revised by Clement VIII, Urban VIII, and Leo XIII)
@@ -200,6 +562,17 @@ works:
 
     '
   source_file: roman-missal_england1843.txt
+- row_id: salmeron_epistolae-v2-lat_1906--jesuit-at-trent-tridentine-context
+  work: Epistolae P. Alphonsi Salmeronis, tomus primus (1536-1565)
+  author: salmeron
+  locus: as in the existing row; the Council is named about 124 times in the OCR (a count
+    of the words Council of Trent, Tridentine and Concilio di Trento, not a reading)
+  role: context
+  confidence: provisional
+  note: Jesuit theologians and officers at and after the Council. Kept to the Society of Jesus
+    as its tradition text; cross-linked here as context only. Placed on a mention count; not
+    read.
+  source_file: salmeron_epistolae-v2-lat_1906.txt
 - row_id: sarpi_history-of-the-council-of-trent_brent1676--the-history-of-the-council-of-trent
   work: The History of the Council of Trent
   author: sarpi
@@ -216,3 +589,109 @@ works:
 
     '
   source_file: sarpi_history-of-the-council-of-trent_brent1676.txt
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--canons-and-dogmatic-decrees-of-trent-latin
+  work: The Canons and Dogmatic Decrees of the Council of Trent, Latin text with English (Schaff's
+    selection)
+  author: schaff
+  locus: section "I. CANONES ET DECRETA DOGMATICA CONCILII TRIDENTINI" from file line 6903;
+    Sessio Tertia at 6918, Sessio Quarta at 7095, Sessio Quinta at 7432, and so on through
+    the dogmatic sessions
+  role: tradition
+  confidence: assigned
+  note: The Latin of the dogmatic canons and decrees of Trent, which the Waterworth file has
+    only in English. Schaff selects the dogmatic decrees and canons, not the disciplinary
+    reform decrees, and says the Latin follows editions he names. Use beside council-of-trent_canons-and-decrees_waterworth1848.txt.
+  source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--profession-of-the-tridentine-faith
+  work: The Profession of the Tridentine Faith (Professio fidei Tridentinae, 1564), Latin
+    with Schaff's English
+  author: schaff
+  locus: section "II. PROFESSIO FIDEI TRIDENTINAE", pp. 207-210 of the book; contents entry
+    at file lines 6879-6881, the English and Latin columns with the running head "PROFESSION
+    OF THE TRIDENTINE FAITH" at line 18263
+  role: tradition
+  confidence: assigned
+  note: 'Read at the opening and middle of the section: the Latin and an English rendering
+    side by side, the creed followed by numbered articles, of which article X (as read) is
+    the vow of obedience to the Roman pontiff. Schaff''s introduction and notes are scholarship.
+    Gives the Latin of the Profession that the 1734 English file (pius-iv_profession-of-catholick-faith_anon1734.txt)
+    lacks. Schaff''s English is a nineteenth-century Protestant editor''s rendering, so it
+    is a cross-check, not a Catholic voice.'
+  source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
+- row_id: slavata_pameti-1608-1619-dil1-ces_jirecek1866--pam-ti-vil-ma-slavaty-d-l-i-1608-1609-and-1618-1619-2
+  work: Paměti Viléma Slavaty, díl I (1608-1609 and 1618-1619)
+  author: slavata
+  locus: whole volume; contents at file line 159
+  role: context
+  confidence: provisional
+  note: 'The Catholic Chancellor''s memoirs of the Letter of Majesty years and the revolt:
+    a hostile witness to the Czech church''s last settlement. Readable Czech with some misread
+    diacritics; check wording against the page image. The Tridentine placement is on the author''s
+    side only and is provisional.'
+  source_file: slavata_pameti-1608-1619-dil1-ces_jirecek1866.txt
+- row_id: society-of-jesus_institutum-societatis-iesu-v1-lat_1892--jesuit-at-trent-tridentine-context
+  work: Institutum Societatis Iesu, vol. 1
+  author: society-of-jesus
+  locus: as in the existing row; the Council is named about 57 times in the OCR (a count of
+    the words Council of Trent, Tridentine and Concilio di Trento, not a reading)
+  role: context
+  confidence: provisional
+  note: Jesuit theologians and officers at and after the Council. Kept to the Society of Jesus
+    as its tradition text; cross-linked here as context only. Placed on a mention count; not
+    read.
+  source_file: society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-tridentine
+  work: The Book of the Foundations, Teresa's reference to the Council of Trent and the hermits,
+    and the editor's note on Trent and enclosure
+  author: teresa-of-avila
+  locus: Teresa's own words at line 10025 ("When the holy Council of Trent had been held ...")
+    and on the Council allowing endowments (lines 7135-7140 and 11413); the introduction at
+    line 1183 on the Council legislating for the religious; the notes at lines 2081, 4237
+    and 15890
+  role: context
+  confidence: provisional
+  note: 'The reform seen as a response to Trent: at line 10025 the Council''s decree sending
+    hermits into the regular orders drives a foundation, and the editor''s introduction and
+    notes cite the Council on enclosure and on the Brief of Pius IV. Placed on those passages
+    and word counts, not read through, so provisional; a build decides whether this is the
+    Tridentine Church''s own voice or context for it.'
+  source_file: teresa-of-avila_book-of-foundations_lewis1913.txt
+- row_id: teresa-of-avila_interior-castle_stanbrook1912--interior-castle-tridentine
+  work: The Interior Castle, the passages on Luther and the Lutherans and on the Society of
+    Jesus
+  author: teresa-of-avila
+  locus: the epilogue prayer at line 14486 asking light for the Lutherans
+  role: context
+  confidence: provisional
+  note: 'One line only: in her epilogue Teresa asks her nuns to pray for the Church and to
+    give light to the Lutherans. Weak placement, kept provisional for a build to rule on.'
+  source_file: teresa-of-avila_interior-castle_stanbrook1912.txt
+- row_id: teresa-of-avila_life_lewis1904--life-tridentine
+  work: The Life of St. Teresa of Jesus, written by herself, the chapters on the Inquisition,
+    the confessors and the Jesuit directors
+  author: teresa-of-avila
+  locus: Zimmerman's introduction on the book held at the Holy Office and denounced to the
+    Inquisition in 1574 (lines 1137-2161); the Jesuit confessors from line 1838
+  role: context
+  confidence: provisional
+  note: 'The same book read for the church it was written inside: the editor''s introduction
+    records the manuscript held at the Holy Office and denounced to the Inquisition, and the
+    text turns on her confessors, Jesuit among them. Placed on word counts and the introduction,
+    not read through, so provisional. A build decides whether this is voice for the Tridentine
+    Church or context.'
+  source_file: teresa-of-avila_life_lewis1904.txt
+- row_id: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863--the-union-of-brest-documents-1595-1596-2
+  work: 'The Union of Brest documents, 1595-1596: the Ruthenian bishops'' articles, their
+    professions of faith, the bull Magnus Dominus et laudabilis (Clement VIII) and the acts
+    of the Synod of Brest (contemporary Latin versions)'
+  author: theiner
+  locus: articles 'Articuli quorum cautionem petimus a dominis Romanis' about file line 21175;
+    Hypatius Pociey's profession of faith about 21496; the bull 'Magnus Dominus et laudabilis'
+    about 21655; the Synod of Brest acts (Nr. CXCV) about 23336; the Argumenta (summaries)
+    at about 1255
+  role: context
+  confidence: provisional
+  note: 'The papal side of the same instruments: Clement VIII''s bull and letters as an act
+    of the Tridentine papacy toward the Eastern church. Placed on the document type, not on
+    a reading of the whole volume; the Tridentine world may want only the bull. Latin only.'
+  source_file: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863.txt

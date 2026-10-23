@@ -52,9 +52,11 @@ relations:
   target: cappadocian.term.eusebeia
 - type: associated-with
   target: cappadocian.term.homoousios
-plain_meaning: 'Ousia means what God is: one being. Hypostasis means who God is: Father, Son, and Holy
-  Spirit, each a real, distinct someone. Together the two words let us confess one God in three,
-  without three gods and without blurring the three into one costume.'
+plain_meaning: >-
+  Ousia means what God is: one being. Hypostasis means who God is: Father,
+  Son, and Holy Spirit, each a real, distinct someone. Together the two
+  words let us confess one God in three, without making three gods, and
+  without treating the three as masks of one.
 world_word: ousia / hypostasis
 false_friend:
 - abstract metaphysics with no connection to real faith

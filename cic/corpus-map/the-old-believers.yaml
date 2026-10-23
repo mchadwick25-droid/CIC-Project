@@ -36,3 +36,40 @@ works:
 
     '
   source_file: avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt
+- row_id: domostroi_domostroi-rus_yakovlev1867--domostroi-household-and-devotional-discipline-manual-from-2
+  work: Domostroi (household and devotional discipline manual), from the manuscripts of the
+    Imperial Public Library (Yakovlev 1867)
+  author: domostroi
+  locus: editor's introduction first; the Domostroi text ends at file line 8776 ('КОНЕЦЪ ТЪМЪ
+    ГЛАВАМЪ И ДОМОСТРОЙЦУ'), then an index
+  role: antecedent
+  confidence: provisional
+  note: The household piety the Old Believers later defended as the old way; placed on window
+    and place. The edition's chapters were not read against the Old Believers' own texts.
+  source_file: domostroi_domostroi-rus_yakovlev1867.txt
+- row_id: stoglav_stoglav-fra_duchesne1920--le-stoglav-ou-les-cent-chapitres-1551-french-translation-2
+  work: Le Stoglav ou les Cent Chapitres (1551), French translation with introduction and
+    commentary (Duchesne 1920)
+  author: stoglav
+  locus: introduction from file line 91; appendix from 1509; the hundred chapters in translation
+    from 2071 (CHAPITRE PREMIER); tables and indexes from 17271
+  role: antecedent
+  confidence: provisional
+  note: Same text as the Russian row, placed to the Old Believers as the older discipline
+    their quarrel with Nikon's reforms looked back to; this translation was not read for that
+    purpose.
+  source_file: stoglav_stoglav-fra_duchesne1920.txt
+- row_id: stoglav_stoglav-chu_kozhanchikov1863--the-stoglav-hundred-chapters-the-moscow-church-council-of-2
+  work: The Stoglav (Hundred Chapters), the Moscow church council of 1551, in Russian (Kozhanchikov
+    1863 edition)
+  author: stoglav
+  locus: editor's preface from file line 96; the council's text from line 889 ('Предисловие
+    сего собора'); appendices from line 9188
+  role: antecedent
+  confidence: assigned
+  note: 'The Old Believers later appealed to the Stoglav against Nikon''s reforms; the editor''s
+    preface and notes in this very edition speak of the schism (''раскол'', file lines 302
+    and 442) and of the ''старообрядцы'' (the Old Believers, lines 3701, 4324 and 5261), and
+    a note at line 3673 gives the three-finger sign of the cross. Antecedent: the 1551 text
+    is the older discipline the later schism fought over.'
+  source_file: stoglav_stoglav-chu_kozhanchikov1863.txt

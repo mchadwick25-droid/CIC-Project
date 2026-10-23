@@ -15,24 +15,24 @@ confidence:
   divergence_note: Documented at the founder's own generic naming and the confession's own specific condemnation.
 sources:
 - source_id: witt.source.luther-treatise-on-the-new-testament-that
-  locus: the New Testament preface, cited among this entry's Registry rows (Doc_06 SS5 entry 6.8; editorial
-    layer)
+  locus: the New Testament preface
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: the Large Catechism -- 'our new spirits, to mock at Baptism, omit from it God's Word'
   license: public-domain
 - source_id: witt.source.luther-four-hymnal-prefaces-to-walters-gesangb
-  locus: the hymnal prefaces, cited among this entry's Registry rows (Doc_06 SS5 entry 6.8)
+  locus: the hymnal prefaces
   license: public-domain
 - source_id: witt.source.luther-on-the-bondage-of-the-will
   locus: Bondage of the Will, one word only ('Sacramentarians')
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'the Anabaptists and others who think that the Holy Ghost comes to
-    men without the external Word'
+  locus: >-
+    the Augsburg Confession -- 'the Anabaptists and others who think that the Holy Ghost comes to men
+    without the external Word'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- the same charge restated in its own words, and Muentzer named
+  locus: the Apology -- the same charge restated in its own words, and Muentzer named
   license: public-domain
 retrieval:
   tier: 2
@@ -65,25 +65,29 @@ relations:
   target: witt.term.both-kinds
 - type: associated-with
   target: witt.term.images
-plain_meaning: 'We call the radicals new spirits, fanatics, or enthusiasts. Our specific charge against
-  them is this: they claim the Spirit apart from God''s own external Word. Our confession names the Anabaptists
-  directly.'
+plain_meaning: >-
+  We call the radicals "new spirits" and fanatics. Our charge is plain. They claim the Spirit without
+  God's outward Word. Our confession names the Anabaptists.
 world_word: sects -- 'new spirits,' fanatics, and the Anabaptists named by the confession
 false_friend:
 - '''enthusiast'' and ''fanatic'' heard as temperament words, or ''Anabaptist'' heard as a neutral label
   rather than a specific theological charge'
 senses:
-  informational: '''Our new spirits, to mock at Baptism, omit from it God''s Word''; ''sects clamoring
-    that Baptism is an external thing''; ''the prating of nearly all the fanatical spirits.'' Our confession
-    names them: ''the Anabaptists and others who think that the Holy Ghost comes to men without the external
-    Word, through their own preparations and works.'' The Apology restates the charge and reports that
-    ''through such commendations Muentzer was deceived, and thereby many Anabaptists were led astray.'''
-  evidential: Attested at the founder's own generic polemics and the confession's specific, named condemnation.
-  personal: This is a specific theological charge we make -- the Spirit apart from the external Word --
-    against people our own authorities also helped suppress, whose own account is not ours to give.
-  translational: 'Do not hear ''enthusiast'' or ''fanatic'' as temperament words, or ''Anabaptist'' as
-    neutral: we mean a specific charge -- the Spirit claimed apart from the external Word -- and names
-    given to people our own side helped suppress.'
+  informational: >-
+    'Our new spirits, to mock at Baptism, omit from it God's Word'; 'sects clamoring that Baptism is an
+    external thing'; 'the prating of nearly all the fanatical spirits.' Our confession names them: 'the
+    Anabaptists and others who think that the Holy Ghost comes to men without the external Word, through
+    their own preparations and works.' The Apology restates the charge and reports that 'through such
+    commendations Muentzer was deceived, and thereby many Anabaptists were led astray.'
+  evidential: >-
+    Attested at the founder's own generic polemics and the confession's specific, named condemnation.
+  personal: >-
+    This is a specific theological charge we make: the Spirit apart from the external Word. We make it
+    against people whose own account we do not have.
+  translational: >-
+    Do not hear 'enthusiast' or 'fanatic' as temperament words, or 'Anabaptist' as a neutral label. We
+    mean a specific charge: the Spirit claimed apart from the external Word. These names went to people
+    whose own account we do not have.
 quick_meaning: Our own names for the radicals, charged with claiming the Spirit apart from the Word.
 distortion_risk: high
 use_note:

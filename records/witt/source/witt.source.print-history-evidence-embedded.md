@@ -20,6 +20,7 @@ edition: (three editions, 1517), The Papacy at Rome (twelve editions; Lotther, P
   Petri), Karsthans (ten editions), the Grunenberg press (1519), Luther's 1543 complaint about corrupted
   reprints; vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt, cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt,
   cic/texts/luther_works-v3-selected_various1930.txt, cic/texts/luther_hymns_bacon-allen.txt
+citation: 'Print-history evidence embedded in the editorial apparatus: editions and printers of the Theses (three editions, 1517), The Papacy at Rome (twelve editions; Lotther, Peypus, Otmar, Nadler, Petri), Karsthans (ten editions), the Grunenberg press (1519), Luther''s 1543 complaint about corrupted reprints'
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)

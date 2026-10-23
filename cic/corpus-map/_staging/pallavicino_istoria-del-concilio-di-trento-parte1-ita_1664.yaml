@@ -1,0 +1,15 @@
+source_file: pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt
+assignments:
+- row_id: pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664--istoria-del-concilio-di-trento-parte-1
+  work: Istoria del Concilio di Trento (Pallavicino, 1664), Parte prima, Libri I-VIII
+  author: pallavicino
+  locus: whole volume; books marked "LIBRO" in the OCR headings
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: assigned
+  note: 'Cardinal Pallavicino''s Counter-Reformation answer to Sarpi''s history of the Council, in the
+    author''s revised Italian text of 1664. A pro-Curia narrative written after the Council, so context,
+    never the council''s own voice. Closes the dossier''s earlier finding that no English exists: the
+    Italian original is public domain and is now in the corpus; there is still no English translation.
+    Scan quality: clean.'

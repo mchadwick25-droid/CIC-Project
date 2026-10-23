@@ -52,12 +52,8 @@ senses:
     even preserve the arguing. The record also preserves the mechanism failing: the same council that
     settled Christ''s natures produced a canon on rank that Rome refused to receive - a vote taken is
     not, in this world, a question closed.'
-  personal: To be summoned was to be caught up in something at the scale of the empire itself - and to
-    discover that after the arguing and the vote, whether the decision held still depended on who would
-    receive it.
-  translational: '"Church councils decided everything by committee?" - the vote was real, but reception
-    was a separate act: a council''s authority was itself one of the things the councils kept having to
-    contest.'
+  personal: "To be summoned was to be caught up in the life of the whole empire. After the arguing and the vote, the decision still had to be received, and whether it held depended on who received it."
+  translational: "\"Church councils decided everything by committee?\" The vote was real. But reception was a separate act. A council's authority was itself one of the things councils kept having to contest."
 quick_meaning: A gathering of bishops, called to settle what the whole church must hold.
 use_note:
   means: "A council is bishops gathered, usually at the emperor's summons, to argue, vote and issue binding rules; decisions did not always hold."

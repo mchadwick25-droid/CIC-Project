@@ -1,0 +1,29 @@
+source_file: guepin_apotre-de-l-union-des-eglises-fra_1897.txt
+assignments:
+- row_id: guepin_apotre-de-l-union-des-eglises-fra_1897--un-apotre-de-l-union-des-eglises
+  work: 'Un apôtre de l''union des Églises au XVIIe siècle: Saint Josaphat et l''Église gréco-slave en
+    Pologne et en Russie (2nd edition, two volumes)'
+  author: guepin
+  locus: Volume 1 chapters from about file line 8555 (Chapter I, Josaphat's youth) through Chapter VI
+    (the declared war, about 12215); the later chapters run to Josaphat's death and the aftermath; the
+    preface to the 2nd edition at about line 354; the table of the second volume closes the file
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: assigned
+  note: A French Catholic scholar's life of Josaphat set in the whole Ruthenian question, quoting Polish,
+    Ruthenian and Latin sources. Secondary, interpretive and written for the union's cause; useful as
+    a guide to the sources and for its quoted passages. French only; no public-domain English found.
+
+- work: 'Guepin, Saint Josaphat and the Greek-Slav Church (Mohyla passages: Book VI on his youth and the
+    Smotrycki meeting of 1627; later chapters on his violence against Uniates)'
+  author: guepin
+  locus: about file lines 36724, 37128-37150 and the index entries at 55832-56074
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: provisional
+  note: A Catholic biographer's hostile account of Mohyla as a young archimandrite and as Metropolitan
+    (1897). Read at the two passages above only; an outside witness for how the Uniate side saw Mohyla,
+    never the revival's voice. Rated provisional because the book as a whole is the Union of Brest thread's.
+  row_id: guepin_apotre-de-l-union-des-eglises-fra_1897--guepin-saint-josaphat-and-the-greek-slav-church-mohyla-passa

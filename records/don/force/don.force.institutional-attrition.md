@@ -25,8 +25,7 @@ sources:
   locus: the sustained legal pressure and property confiscation of the ending phase
   license: public-domain
 - source_id: don.source.turchi-gregorii-magni-epistolae-selectae
-  locus: the record's own far end - the contest still live in Numidia in 592-594, then silence; Registry row
-    54
+  locus: 'Gregory''s letters of 592 to 594: the contest still alive in Africa, then silence'
   license: public-domain
 relations:
 - type: enabled-by
@@ -73,7 +72,7 @@ connection exists to state. GRAVITY LINKAGE (Doc_08 SS5, Force Index row 3B-1): 
 hierarchy only, carried as associated-with. Doc_08 SS5's own description of the link is unusual and
 is carried in full because it is a limit rather than a claim: this force 'names the specific limit
 on what this construction can claim about the hierarchy's own later life'. THE TWO-LEVEL CONFIDENCE,
-CARRIED RATHER THAN COLLAPSED (Doc_08 SS7 and Open Item 3): bare occurrence Documented, specific
+CARRIED RATHER THAN COLLAPSED (Doc_08 SS7): bare occurrence Documented, specific
 shape Inferential/Thin. Doc_08 names this the one place in its own confidence assessment where a
 single force carries two different levels for two different claims about itself, and states it
 explicitly rather than collapsing it. This record records the weaker of the two in

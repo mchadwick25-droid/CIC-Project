@@ -136,7 +136,7 @@ The 11 *Built & Live* entries are the 11 worlds that exist today. There is one t
 | `carthusian-life` | Carthusian Life | 1084 onward | Chartreuse, then Europe | Pre-Survey Candidate |
 | `cistercian-monasticism` | Cistercian Monasticism | 1098-1300 | Burgundy, then Europe | Pre-Survey Candidate |
 | `latin-church-of-outremer` | The Latin Church of Outremer | 1099-1291 | Jerusalem, Antioch, Acre, Cyprus | Pre-Survey Candidate |
-| `maronite-christianity` | Maronite Christianity | consolidating by this era | Mount Lebanon | Pre-Survey Candidate |
+| `maronite-christianity` | Maronite Christianity | c. 1100-1300 | Mount Lebanon | Pre-Survey Candidate |
 | `canons-regular-victorine-school` | Canons Regular / Victorine School | 1108-1246 | Paris and beyond | Pre-Survey Candidate |
 | `military-religious-orders-templars-hospitallers` | Military-Religious Orders (Templars, Hospitallers) | 1120-1291 | Latin East, Iberia | Pre-Survey Candidate |
 | `zagwe-and-early-solomonic-ethiopian-christianity` | Zagwe Ethiopian Christianity | c. 1137-1270 | Ethiopian highlands | Pre-Survey Candidate |
@@ -179,7 +179,7 @@ The 11 *Built & Live* entries are the 11 worlds that exist today. There is one t
 | `devotio-moderna-brethren-of-the-common-life` | Devotio Moderna / Brethren of the Common Life | c. 1380-1517 | Low Countries | Pre-Survey Candidate |
 | `lollardy` | Lollardy | c. 1380-1520 | England | Pre-Survey Candidate |
 | `late-medieval-lay-parish-piety` | Late-Medieval Lay Parish Piety | c. 1400-1517 | England (documented case) | Pre-Survey Candidate |
-| `the-hussite-and-bohemian-brethren-movement` | The Hussite & Bohemian Brethren Movement | 1415-1517 | Bohemia | Pre-Survey Candidate |
+| `the-hussite-and-bohemian-brethren-movement` | The Hussite & Bohemian Brethren Movement | 1402-1517 | Bohemia | Pre-Survey Candidate |
 | `taborite-radicalism` | Taborite Radicalism | 1420-1452 | Bohemia | Within Another World (A5) |
 
 ## Era 7 (VII) — The Reformation Era, 1517-1650  ·  30 entries

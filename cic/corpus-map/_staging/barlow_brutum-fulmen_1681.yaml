@@ -57,3 +57,38 @@ assignments:
       crisis: a Restoration bishop's own anti-papal polemic, the established church's voice in
       this entry's own first decades. The embedded bulls are the Tridentine church's text, not
       this entry's.
+
+  - row_id: barlow_brutum-fulmen_1681--brutum-fulmen-pius-v-s-bull-regnans-in-excelsis-against-2
+    work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul III's bull
+      against Henry VIII annexed)
+    author: barlow
+    locus: the Regnans in Excelsis text in English/Latin parallel columns, c. file lines 2280-2330 (as the
+      existing row states)
+    atlas_ids:
+    - recusant-english-catholicism
+    role: context
+    confidence: assigned
+    note: 'The 1570 bull that excommunicated and deposed Elizabeth is the act the recusants lived under:
+      it is what the "bloody questions" put to Campion and the priests were about, and what Allen''s Defence
+      (1584) and Campion''s Challenge (article iv) answer. Not the community''s own voice (papal), and printed
+      here inside Barlow''s hostile 1681 Anglican polemic, so context. Cross-link found by header search
+      of cic/texts (CORPUS-USE tier: named-never-opened for this world; same time-place).
+
+      '
+
+  - row_id: barlow_brutum-fulmen_1681--brutum-fulmen-pius-v-s-bull-regnans-in-excelsis-against-3
+    work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul III's bull
+      against Henry VIII annexed)
+    author: barlow
+    locus: the two embedded bull texts only, as the existing rows describe them (Regnans in Excelsis in
+      English and Latin parallel columns about lines 2280-2330; the Paul III bull in Latin about lines 28695-28710)
+    atlas_ids:
+    - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: assigned
+    note: 'The papacy''s two binding acts against this world: Paul III''s bull against Henry VIII and Pius
+      V''s 1570 excommunication and deposition of Elizabeth, which turned recusancy into a question of treason.
+      The outside opponent''s own words, printed verbatim inside a 1681 Anglican polemic. Context for this
+      world; the surrounding Barlow commentary (1681) is out of window and not placed here.
+
+      '

@@ -23,26 +23,22 @@ confidence:
     for denial.
 sources:
 - source_id: don.core.donatism
-  locus: 'horizon: this is not a doctrinal heresy - the confession here is standard North African Latin
-    Trinitarian and Christological orthodoxy, and what is contested is legitimacy'
+  locus: 'this was not a doctrinal heresy - the confession was standard North African Latin Trinitarian and Christological orthodoxy, and what was contested was legitimacy'
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
   locus: Books I-VII - a polemic of the first decades that charges schism throughout and heresy nowhere
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
-  locus: Book II, dated A.D. 400 (line 665) - "you are heretics" (line 16579); "it is dissension and division that
-    make you heretics" (line 17835)
+  locus: Book II, dated A.D. 400 - "you are heretics"; "it is dissension and division that make you heretics"
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
-  locus: 16.5.38, 405 February 12 - the law names Donatists beside Manichaeans (line 87341)
+  locus: 16.5.38, 405 February 12 - the law names Donatists beside Manichaeans
   license: public-domain
 - source_id: don.source.boyd-ecclesiastical-edicts-theodosian-code
-  locus: Boyd on the law of 405, which declared the Donatists heretics (line 6768)
+  locus: Boyd on the law of 405, which declared the Donatists heretics
   license: public-domain
 - source_id: don.source.augustine-correction-of-donatists-letter-185
-  locus: Letter 185, ch. 1 (line 19321) - most of them held the same belief on the Trinity, and this was not the
-    question in dispute; ch. 7 (line 19626) - the Donatists "denied that they were heretics"; ch. 7 (line 19635) -
-    Augustine's own phrase "the heresy of the Donatists" for the law that followed
+  locus: Letter 185, ch. 1 - most of them held the same belief on the Trinity, and this was not the question in dispute; ch. 7 - the Donatists "denied that they were heretics"; ch. 7 - Augustine's own phrase "the heresy of the Donatists" for the law that followed
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
   locus: three books of argument on validity, and no argument about the creed
@@ -61,22 +57,24 @@ retrieval:
   - participant asks whether we would call Jesus our personal Lord and Savior
 text: >-
   Father, Son and Holy Spirit, one God - we held that as plainly as the
-  men we spent a century fighting held it, and in the same Latin words.
-  This matters more than it sounds. For most of a century our opponents
-  called us schismatics, not heretics, because the creed was identical on
-  both sides. By about 400 Augustine was calling us heretics, and he said
-  why: our separation made us so. The emperor's law of 405 then placed us
-  beside the Manichaeans. Yet in 417 Augustine himself wrote that we held
-  one substance in the Trinity, and that most of us declared the same
-  faith as his church. He wrote that this was never the question in
-  dispute, and that we ourselves denied being heretics. Two churches stood
-  in every African town reciting the same faith at each other. That is precisely what made the
-  fight unbearable: there was no doctrinal difference to point at, only
-  the question of who had the right to say the words at all.
+  men we spent a century fighting held it. No creed of ours survives, so
+  we cannot show you our words.
+  For most of a century our opponents called us schismatics, not
+  heretics, because no one charged us with a different creed. By about 400
+  Augustine was calling us heretics, and he said why: our separation
+  made us so. The emperor's law of 405 then placed us beside the
+  Manichaeans. Yet in 417 Augustine himself wrote that we held one
+  substance in the Trinity, and that most of us declared the same faith
+  as his church. Some of us, he added, called the Son inferior to the
+  Father, yet did not deny that he shared the Father's substance. He wrote
+  that this was never the question in dispute,
+  and that we ourselves denied being heretics. Two churches stood in
+  many African towns, reciting the same faith at each other. There was
+  no doctrinal difference to point at, only the question of who had the
+  right to say the words at all.
 
 
-  Whether he died to take our punishment, in our place, for our sins,
-  nobody among us wrote down, for or against. Our whole surviving
+  Nobody among us wrote down, for or against, whether he died to take our punishment, in our place, for our sins. Our whole surviving
   argument is about one thing - whose hand may give what the church
   gives - and we never turned it toward how the cross saves. We would
   rather tell you we do not know what we thought than hand you a
@@ -92,8 +90,8 @@ text: >-
   probably have answered by telling you whose church he belonged to. He
   would not have been changing the subject. To us that was the subject.
 positions:
-- we confessed Father, Son and Holy Spirit as one God, in the same standard Latin terms as our opponents,
-  and the creed was never in dispute between the two African communions
+- we confessed Father, Son and Holy Spirit as one God, as our opponents did.
+  The creed was never in dispute between the two African communions
 - the first writers against us call us schismatics, never heretics. Optatus is the clearest case.
   That silence shows we held one faith with them
 - from about 400 they called us heretics, and only for our separation. Augustine still said we

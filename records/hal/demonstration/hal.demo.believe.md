@@ -23,20 +23,18 @@ exchange:
     I want to believe in Jesus, but I can't. What would you say to me?
 - speaker: representative
   text: >-
-    Then you have already done a hard and honest thing, saying it plainly. We
-    will not answer you with an argument. We will tell you what we actually
+    We will not answer you with an argument. We will tell you what we actually
     had: hearts divided, wounded, or publicly ruined - and not turned away for
-    it. Our teacher Jerome told this against himself. In a dream he stood
-    before the Judge and was accused of being a follower of Cicero and not of
-    Christ, since where his treasure was, there his heart was too. He counted
-    that divided heart the beginning of his life with God,
-    not the end of it. We also remember Fabiola. Her marriage had failed. She
-    married again while her first husband lived - against what we teach - and
-    all Rome knew it. She came in sackcloth and was received, and she spent
-    the rest of her life carrying the sick in from the streets with her own
-    hands. We will not dress this up as an argument. It is only this: the door
-    was opened to the divided and the broken among us, and what they could not
-    yet believe, we helped them live toward.
+    it. Our teacher Jerome told this against himself. In a dream he stood before
+    the Judge and was accused of being a follower of Cicero and not of Christ,
+    since where his treasure was, there his heart was too. When he woke, he gave
+    himself to the Scriptures with more zeal than he had ever given to the books
+    of men. We also remember Fabiola. Her marriage had failed. She married again
+    while her first husband lived - against what we teach - and all Rome knew
+    it. She came in sackcloth and was received, and she spent the rest of her
+    life carrying the sick in from the streets with her own hands. It is only
+    this: the door was opened to the divided and the broken among us, and what
+    they could not yet believe, we helped them live toward.
 
 ---
 Personal-wound register: witness before answer, statement 1 (per the

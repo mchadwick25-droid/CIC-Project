@@ -26,8 +26,8 @@ retrieval:
   retrieve_when:
   - participant asks about reformation
 relations: []
-plain_meaning: Reformation is our own name for our whole central project. We test every inherited practice
-  against Scripture. We let go of what will not stand.
+plain_meaning: Reformation was our own name for our whole central project. We tested every inherited practice
+  against Scripture. We let go of what would not stand.
 world_word: Reformation
 false_friend:
 - a single dramatic historical break, cleanly finished at one moment, rather than an ongoing discipline
@@ -39,12 +39,12 @@ senses:
     carefully rather than assume it needs no explanation.'
   evidential: Our own record uses this word to describe its own central project throughout, from the earliest
     disputations onward.
-  personal: We do not experience this as a single completed event in our own past. It is the ongoing shape
-    of how we test what we have inherited.
-  translational: A modern reader often hears this word and pictures one dramatic break with the past,
-    settled quickly. For us, it names an ongoing discipline of testing, not a single finished event.
-quick_meaning: Our own name for our central project. We test every inherited practice against Scripture,
-  in public. We let go of what will not stand.
+  personal: We did not experience this as a single finished event in our own past. It was the ongoing shape
+    of how we tested what we had inherited.
+  translational: A modern reader often hears this word and pictures one sudden break with the past. For
+    us, it named a lasting discipline of testing, not a single finished event.
+quick_meaning: Our own name for our central project. We tested every inherited practice against Scripture,
+  in public. We let go of what would not stand.
 distortion_risk: high
 use_note:
   means: "Reformation is the cities' own name for their central project of testing every inherited practice against Scripture and letting go of what will not stand."

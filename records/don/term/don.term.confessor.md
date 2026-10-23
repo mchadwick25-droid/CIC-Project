@@ -53,11 +53,10 @@ senses:
   evidential: Poorly developed in this build. The genre observation is solid (Doc_02 SS4); the specific claim
     Doc_03 makes, that confessor status sat in tension with martyr commemoration, is asserted in one line and
     never evidenced. Anyone using this term should say that the interesting part of it is unsupported here.
-  personal: The survivors are the ones who carry the memory. The annual reading at the grave is done by people
-    who lived through, or descend from, what is being read.
-  translational: '''A confessor is a priest you confess to'' -- a genuinely different word. Here it names someone
-    who was tested and did not yield, and who then had to go on living inside the community his steadfastness
-    helped define.'
+  personal: A confessor was a living witness of the suffering we told at the grave.
+  translational: '''A confessor is a priest you confess to'' -- a different word. Here it names someone
+    who was tested and did not yield, and who then lived on inside the community his steadfastness helped
+    define.'
 quick_meaning: One who stood firm under questioning and lived. The martyr's near neighbour.
 distortion_risk: medium
 use_note:

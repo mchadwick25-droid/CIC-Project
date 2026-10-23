@@ -1,0 +1,48 @@
+source_file: leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt
+
+assignments:
+  - row_id: leger_histoire-generale-eglises-vaudoises-livre1-fra_1669--histoire-generale-des-eglises-evangeliques-livre-premier
+    work: "Histoire générale des Églises Évangéliques des Vallées de Piémont ou Vaudoises, Livre premier (1669): the valleys' doctrine and discipline, with the ancient documents and the confessions of faith"
+    author: leger
+    locus: "whole file; 'CHAPITRE I.' at line 2681, chapter IX at line 7677, chapter XXX at line 20490, chapter XXXI (the latest Confession of the valleys' faith, introduced at line 14685 and following) at line 21231, 'FIN DU PREMIER LIVRE' at the end"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: tradition
+    confidence: assigned
+    note: >
+      Jean Léger was moderator of the valleys' churches at the time of the
+      1655 massacre and wrote this from exile at Leiden as the community's
+      advocate. Book I prints the confessions, ending with what Léger calls
+      the latest Confession of their faith (expected to be the Confession of
+      1655; its date was not read this pass), and the discipline. He also prints 'ancient' documents whose
+      dating is contested (see the medieval rows). Primary voice in French.
+      The OCR renders long s as f with many broken words: second witness for
+      wording until a cleaner scan is vendored. No public-domain English
+      translation exists.
+  - row_id: leger_histoire-generale-eglises-vaudoises-livre1-fra_1669--histoire-generale-des-eglises-evangeliques-livre-premier-2
+    work: "Histoire générale, Livre premier, the 'ancient' documents of the valleys (the confessions, the Nobla Leyczon and the treatises)"
+    author: leger
+    locus: "chapters printing the ancient documents, between line 2681 and line 20490; not itemised"
+    atlas_ids:
+      - waldensians-in-the-alps
+    role: tradition
+    confidence: provisional
+    note: >
+      Léger reprints the manuscripts Morland deposited at Cambridge, with his
+      own additions. The manuscripts are fifteenth and early sixteenth century
+      by modern dating, inside this window; Léger's own twelfth-century dates
+      for them are the contested part. Provisional: read for headings only, and
+      second witness for wording.
+  - row_id: leger_histoire-generale-eglises-vaudoises-livre1-fra_1669--histoire-generale-des-eglises-evangeliques-livre-premier-3
+    work: "Histoire générale, Livre premier, the 'ancient' documents of the valleys"
+    author: leger
+    locus: "chapters printing the ancient documents, between line 2681 and line 20490"
+    atlas_ids:
+      - the-waldensians
+    role: context
+    confidence: needs-ruling
+    note: >
+      Léger is the main source of the backdated 'ancient' documents (the
+      claim that the valleys' confession dates from 1120). Whether any of this
+      material reaches the origins window is the contested question itself;
+      a ruling, not a library call.

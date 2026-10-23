@@ -17,6 +17,7 @@ relations: []
 author: Martin Brecht
 work: Martin Luther
 edition: '3 vols., trans. James L. Schaaf (Minneapolis: Fortress, 1985, 1990, 1993)'
+citation: 'Martin Brecht, Martin Luther, 3 vols., trans. James L. Schaaf (Minneapolis: Fortress, 1985, 1990, 1993)'
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

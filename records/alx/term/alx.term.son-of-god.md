@@ -53,12 +53,8 @@ senses:
     the Father - not made, not created, sharing the Father's own nature.
   evidential: Athanasius argues the case across the Discourses and On the Incarnation; Origen's earlier
     language about the Son as Image of the Father was itself one of the questions Nicaea later settled.
-  personal: What is confessed shapes what formation can even claim - only if the Son is genuinely God
-    does sharing his life mean sharing God's own life, rather than proximity to an exalted creature.
-  translational: >-
-    Isn't "Son of God" just a way of saying Jesus was unusually holy or close to God? That was once a
-    real, carefully argued position - and Nicaea rejected it, holding instead that the Son is genuinely
-    God, because only that makes a soul's transformation a real share in divine life.
+  personal: "What the church confessed shaped what formation could claim. Only if the Son is genuinely God does sharing his life mean sharing God's own life, and not nearness to an exalted creature."
+  translational: "Isn't \"Son of God\" just a way of saying Jesus was unusually holy or close to God? That was once a carefully argued position. Nicaea rejected it and held that the Son is genuinely God, because only that makes a soul's transformation a real share in divine life."
 quick_meaning: Not an honor for closeness to God - Nicaea's claim that the Son is genuinely God.
 distortion_risk: high
 use_note:

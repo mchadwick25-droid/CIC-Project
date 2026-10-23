@@ -1,0 +1,30 @@
+source_file: sebastiani_prima-speditione-indie-orientali-ita_1666.txt
+assignments:
+- row_id: sebastiani_prima-speditione-indie-orientali-ita_1666--prima-speditione-all-indie-orientali-sebastiani-1666
+  work: Prima speditione all'Indie Orientali (Sebastiani, 1666)
+  author: sebastiani
+  locus: Libro Primo from file line 521 (the state of the Serra, the fall into schism, the journey out);
+    Libro Secondo from 4538 (the mission of 1656-1658 and the assemblies of the churches); Libro Terzo
+    from 8226 (the return)
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: >-
+    A Carmelite delegate's first-person account of the first mission to the Thomas Christians after the
+    oath of 1653, written for Rome. Primary for the mission side and for what he reports the Archdeacon's
+    party said and did; hostile to that party. Italian, no public-domain English found. Second witness
+    for exact wording: OCR rough.
+- row_id: sebastiani_prima-speditione-indie-orientali-ita_1666--prima-speditione-all-indie-orientali-sebastiani-1666-2
+  work: Prima speditione all'Indie Orientali (Sebastiani, 1666)
+  author: sebastiani
+  locus: Libro Primo from file line 521 (the state of the Serra, the fall into schism, the journey out);
+    Libro Secondo from 4538 (the mission of 1656-1658 and the assemblies of the churches); Libro Terzo
+    from 8226 (the return)
+  atlas_ids:
+  - church-of-the-east-schism-of-1552
+  role: context
+  confidence: provisional
+  note: >-
+    Placed on the overland route to Malabar through Aleppo, Nineveh and Baghdad, where the author meets
+    the Chaldean church; not read for that material.

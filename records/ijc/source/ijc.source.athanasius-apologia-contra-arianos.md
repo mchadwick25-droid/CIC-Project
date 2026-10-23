@@ -16,6 +16,7 @@ sources: []
 author: "Julius I, bishop of Rome (337-352), quoted by Athanasius of Alexandria"
 work: "Letter of Julius to the Eusebian party (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of Caesarea the historian) at Antioch (341), preserved only through Athanasius's quotation of it in Apologia contra Arianos 21-35 - NARROWLY LICENSED: this record licenses the Julius letter alone, not the surrounding Athanasian corpus"
 edition: "trans. M. Atkinson, revised by Archibald Robertson, Nicene and Post-Nicene Fathers series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+citation: Julius I, bishop of Rome, Letter to the Eusebian party at Antioch (341), quoted by Athanasius in Apologia contra Arianos, trans. M. Atkinson, rev. Archibald Robertson, Nicene and Post-Nicene Fathers, series 2, vol. 4 (1892)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed-doubly-mediated

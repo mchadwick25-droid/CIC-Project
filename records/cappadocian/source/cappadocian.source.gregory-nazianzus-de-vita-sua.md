@@ -23,6 +23,7 @@ edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem,
   and 96 of the ~245 letters with actual body text (Source_Registry.md row 31). De vita sua and the
   autobiographical poems themselves are NOT within this edition as continuous text -- no Poem-type div
   exists in the file (Source_Registry.md row 36).
+citation: Gregory of Nazianzus, De vita sua and the autobiographical poems
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

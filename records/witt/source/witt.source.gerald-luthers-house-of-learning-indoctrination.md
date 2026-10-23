@@ -17,6 +17,7 @@ relations: []
 author: Gerald Strauss
 work: 'Luther''s House of Learning: Indoctrination of the Young in the German Reformation'
 edition: '(Baltimore: Johns Hopkins, 1978)'
+citation: 'Gerald Strauss, Luther''s House of Learning: Indoctrination of the Young in the German Reformation (Baltimore: Johns Hopkins, 1978)'
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

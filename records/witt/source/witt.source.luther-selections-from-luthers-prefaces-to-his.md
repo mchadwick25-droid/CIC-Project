@@ -18,6 +18,7 @@ author: Luther
 work: Selections from Luther's Prefaces to His Works, 1539 and 1545
 edition: (1539 Preface to the German Works; 1545 "Dr. Martin Luther to the Christian Reader," excerpt),
   trans. C. M. Jacobs, Philadelphia Ed. vol. I; vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt
+citation: Luther, Selections from Luther's Prefaces to His Works, 1539 and 1545 (1539 Preface to the German Works; 1545 "Dr. Martin Luther to the Christian Reader," excerpt), trans. C. M. Jacobs, Philadelphia Ed. vol. I
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

@@ -29,22 +29,20 @@ retrieval:
   - "participant asks whether this world believed the Bible was the only authority"
 text: >-
   Scripture was not our only authority. One of our own bishops built an
-  entire book around explaining why, when he was accused of praying
-  wrongly. He had changed one small word in a familiar prayer. He gave
-  glory to the Father together with the Son and the Holy Spirit rather
-  than merely through the Son in the Spirit. His critics said the
-  wording lacked written authority. His answer: so does most of what we
-  do. Facing east at prayer, standing rather than kneeling on the Lord's
-  own day, the threefold plunge into the water at baptism, the very
-  words spoken over the water - none of it is written down anywhere, and
-  every church keeps it anyway. He asked his critics to show him, in
-  writing, even the confession of faith in Father, Son, and Holy Spirit
-  itself. That too reaches us only through the church's own kept and
-  handed-down custom. We were saturated in scripture and argued from it
-  constantly. This was never scripture set against tradition as two
-  rival powers. It was the claim that a household's habits can
-  themselves teach, the way an inheritance arrives in more than words
-  alone.
+  entire book around explaining why, when he was accused of praying wrongly.
+  He had used two forms of a familiar prayer side by side. One gave glory to
+  the Father with the Son, together with the Holy Spirit. The other gave it
+  through the Son, in the Spirit. His critics said his words were new and
+  asked for written authority. His answer was that much of what we did had
+  none. Facing east at prayer, standing rather than kneeling on the Lord's
+  own day, the threefold plunge into the water at baptism, the very words
+  spoken over the water: none of it was written down, and every church kept
+  it anyway. He asked his critics to show him, in writing, even the
+  confession of faith in Father, Son, and Holy Spirit itself. That too
+  reached us only through the church's handed-down custom. We were saturated
+  in scripture and argued from it constantly. We did not set scripture and
+  tradition against each other. We held that the written and the unwritten
+  had the same force.
 positions:
 - we argued explicitly that the church holds real, doctrinally load-bearing content that never arrived
   in writing

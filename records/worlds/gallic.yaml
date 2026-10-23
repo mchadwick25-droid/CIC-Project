@@ -21,11 +21,72 @@ doorway_description: >-
   before that argument hardened into fixed positions on either side.
 card_name: "The Monk-Bishops of Gaul"
 app: {order: 8, accent_color: "#798D97", portrait: "/images/portraits/thumb/gallic.webp"}
-representative: {name: Renatus, role_label: Bishop}
+representative: {name: Renatus}
 state: admitted
 census_id: "gallic-monastic-ascetic-christianity"
 thinness_statement: "Richest in the ascetic bishop's own hagiography and the received teaching of the Egyptian fathers as Cassian carried it west; thinner on the island's own daily customs, women's own words (none survive), and the sexual-discipline material a later editor removed from the one edition this build can read."
 living_tradition_flag: true
 package:
-  manifest_hash: "sha256:2baa6e004427f11a31259349ba6c693ec83fb8892a03b84d426910c0505b3837"
-  location: "packages/gallic/2026-10-12T16-09-16Z"
+  manifest_hash: "sha256:ebaa31e42617880dbccbd68a6da032034026d86759112e8d8d013449efce7f87"
+  location: "packages/gallic/2026-10-21T14-59-29Z"
+story_placement: false
+card:
+  portrait: "assets/portraits/gallic.jpg"
+  intro: Renatus is a representative voice for the Christian tradition of Roman Gaul (c. 360–450 CE). Monks who were made bishops went on living as monks.
+  shaped:
+  - Martin
+  - Cassian
+  - Honoratus
+  summary: Between about 360 and 450 CE, two households of monks in Roman Gaul lived out the same idea. In both, a monk who was made a bishop went on living as a monk. Martin, a soldier who had left the army to serve Christ, was drawn out of his monastery by a trick and made bishop of Tours. As bishop, he kept living like a monk. Cassian had lived among the monks of Egypt. He wrote down their teaching for Gaul. No evidence shows that the two households ever wrote to each other.
+  record_holds: Rich in a bishop's life story and Cassian's teaching. Thin on the island's daily customs.
+  topics:
+  - word: Prayer
+    note: Monks aim to pray without ceasing; Marseilles kept Egypt's twelve psalms at set hours.
+  - word: The Bible and how to read it
+    note: Scripture is complete, Vincent says, but needs the Church's ancient, shared reading.
+  - word: Saints and holy places
+    note: Martin doubted a local martyr's tomb, since no steady tradition about it came down.
+  - word: Fasting and self-denial
+    note: 'For Cassian, fasts and vigils only serve the real goal: a pure heart.'
+  - word: Jesus
+    note: This Christian tradition finds Christ in the beggar no one pities and in the guest.
+  - word: Salvation and grace
+    note: Cassian teaches that grace works with real human effort, beyond what reason grasps.
+  - word: Sin and forgiveness
+    note: Cassian's monks fight eight faults in fixed order, gluttony first and pride last.
+  - word: Free will and predestination
+    note: Cassian says God wills all to be saved; whether he opposed Augustine is disputed.
+  - word: Heaven, hell and judgment
+    note: Three voices feel judgment near; Salvian sees it already falling on ruined Gaul.
+  - word: Tradition and authority
+    note: Truth is what the fathers handed down; anything new is suspect for being new.
+  - word: Money and the poor
+    note: Salvian calls the rich murderers of the poor, since taxes fell on the weakest.
+  - word: Suffering and death
+    note: 'Martin refused straw as he died: a Christian, he said, should die among ashes.'
+  - word: Miracles
+    note: Sulpitius tells of Martin's wonders; Cassian refuses to weave a tale of miracles.
+  - word: The devil and demons
+    note: Martin sees and speaks to the devil; Cassian's elders meet him in hidden thoughts.
+  - word: Monks and nuns
+    note: A monk gives up marriage, kin, property and the world to serve Christ.
+  - word: Church leaders
+    note: Bishops were often drawn from monasteries, and Martin stayed a monk as bishop.
+  - word: The emperor and the state
+    note: Martin left the army for Christ; he said rulers must not judge church cases.
+  - word: Heresy and false teaching
+    note: Heretics leave the ancient shared faith; bishops expel them but must never kill them.
+  - word: Church councils
+    note: Vincent trusts ancient councils that add nothing new; Martin never attended a synod again.
+  aliases:
+  - name: Massilians
+    kind: outsider
+    note: Hostile label from Prosper, Augustine's ally; naming Marseilles. No monk used it.
+  - name: Semi-Pelagians
+    kind: later
+    note: Sixteenth-century coinage, not ancient; contested and misleading for these monks.
+  keywords:
+  - lerins
+  - pelagius
+  - sulpicius severus
+  - monk bishop

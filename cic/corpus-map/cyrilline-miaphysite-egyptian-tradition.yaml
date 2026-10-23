@@ -3,6 +3,24 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: cyrilline-miaphysite-egyptian-tradition
 works:
+- row_id: po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913--barhadbeshabba-cyrilline
+  work: Barhadbeshabba 'Arbaya, Ecclesiastical History, part 2 (PO 9.5)
+  author: barhadbeshabba-arbaya
+  locus: fascicle V from file line 31511
+  role: context
+  confidence: provisional
+  note: 'A hostile later account of Cyril and of Alexandria''s part at Ephesus: the view from
+    the Church of the East. Context.'
+  source_file: po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901--chalcedon-sessions-i-iii-cyrilline
+  work: Council of Chalcedon (451), sessions I-III, in Mansi tom. 6
+  author: council-of-chalcedon-451
+  locus: file line 784; the trial of Dioscorus in sessions I-III
+  role: context
+  confidence: provisional
+  note: The council that deposed Dioscorus, told in the winners' record; following the npnf214
+    context placement.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt
 - row_id: npnf214_seven-ecumenical-councils--the-council-of-chalcedon-451-extracts-from-the-acts-2
   work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
@@ -29,6 +47,52 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901--ephesus-449-acts-in-chalcedon
+  work: Acts of the Second Council of Ephesus (449), as read at Chalcedon, in Mansi tom. 6
+  author: council-of-ephesus-449
+  locus: file line 77925
+  role: tradition
+  confidence: provisional
+  note: Dioscorus's council of 449, the Cyrilline-Alexandrian party's own synod, in the Greek
+    acts preserved by its opponents' re-reading. The Syriac acts of its second session are
+    vendored separately (Perry 1881; Flemming 1917).
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt
+- row_id: council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917--akten-449-cyrilline
+  work: Akten der ephesinischen Synode vom Jahre 449, Syriac acts with Hoffmann's German (Flemming,
+    1917)
+  author: council-of-ephesus-449
+  locus: whole file; the German translation throughout (Flavianos at file line 1473, Domnos
+    at 5422)
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Chalcedon 451). The critical edition of the same Syriac
+    acts as Perry 1881, with German: Dioscorus''s council in its own record. German recovered;
+    Syriac not recovered in this OCR.'
+  source_file: council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917.txt
+- row_id: council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881--ephesus-449-syriac-acts-cyrilline
+  work: 'The Second Synod of Ephesus (449): the Syriac acts of the session of 22 August 449,
+    English (Perry, 1881)'
+  author: council-of-ephesus-449
+  locus: the council text under the running head from file line 2453; Ibas from 1917, Theodoret
+    2129, Domnus 2140
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Chalcedon 451). Dioscorus''s council in its own acts:
+    the Alexandrian party''s synod condemning Ibas, Irenaeus, Theodoret and Domnus, the one
+    record of its second session. Primary document of 449 from the side that held it.'
+  source_file: council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt
+- row_id: cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881--five-tomes-cyrilline
+  work: Five Tomes against Nestorius; Scholia on the Incarnation; Christ is One; fragments
+    against Diodore and Theodore, English (Pusey, 1881)
+  author: cyril_alexandria
+  locus: whole file; Scholia named at file line 894; Diodore and Theodore fragments introduced
+    at 1406
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Ephesus 431). Cyril''s own case against Nestorius, written
+    430 and after: the Cyrilline tradition''s founding polemic in English. Quotes Nestorius''s
+    sermons at length to answer them.'
+  source_file: cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt
 - row_id: npnf214_seven-ecumenical-councils--the-epistles-of-cyril-of-alexandria-second-and-third-letters
   work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
     Anathematisms, and the Letter to John of Antioch)
@@ -44,6 +108,18 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: cyril-alexandria_three-epistles-grc-eng_pusey1872--three-epistles-cyrilline
+  work: The Three Epistles of Cyril (second and third letters to Nestorius with the twelve
+    anathemas; letter to John of Antioch of 433), Greek and English (Pusey, 1872)
+  author: cyril_alexandria
+  locus: whole file; the anathemas in Latin version from about file line 2954
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Ephesus 431). The three letters the councils made canonical,
+    in the original Greek with English: primary document of Ephesus 431 (letter II approved
+    there), of the anathemas controversy (letter III) and of the reunion of 433 (Laetentur
+    caeli). Greek recovered in the OCR.'
+  source_file: cyril-alexandria_three-epistles-grc-eng_pusey1872.txt
 - row_id: npnf214_seven-ecumenical-councils--the-canonical-epistles-of-cyril-of-alexandria-on-the-hymns
   work: The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya
     and Pentapolis)
@@ -58,6 +134,21 @@ works:
     share of it. Follows the placement already in the map: Cyril''s Epistles and XII Anathematisms
     sit in the Cyrilline entry, though he died in 444 and that entry opens at 451. Consistent
     with the precedent rather than newly stretched here.'
+- row_id: hefele_history-of-the-councils-v3-431-451_clark1883--history-of-the-councils-vol-3
+  work: Hefele, A History of the Councils of the Church, vol. 3 (431 to 451 (Ephesus from
+    file line 439)), English translation, 1883
+  author: hefele
+  locus: whole file; 431 to 451 (Ephesus from file line 439)
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Nineteenth-century Roman Catholic scholarly reconstruction
+    of Ephesus 431, the reunion of 433, Eutyches, Ephesus 449 and Chalcedon 451, in Clark''s
+    English series. Secondary: a finding aid to the primary documents and a witness to nineteenth-century
+    reading of the councils, never evidence of the events. Same footing as the hefele-leclercq
+    French slices already in the map.
+
+    '
+  source_file: hefele_history-of-the-councils-v3-431-451_clark1883.txt
 - row_id: npnf212_leo-great-gregory-great--the-letters-of-leo-the-great-2
   work: The Letters of Leo the Great
   author: leo
@@ -72,6 +163,32 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
+- row_id: nestorius_livre-d-heraclide-de-damas-fra_nau1910--livre-d-heraclide-cyrilline
+  work: Le livre d'Héraclide de Damas, French (Nau, 1910)
+  author: nestorius
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: The opponent's account of Cyril and the council, from outside the Cyrilline tradition.
+  source_file: nestorius_livre-d-heraclide-de-damas-fra_nau1910.txt
+- row_id: nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905--nestoriana-cyrilline
+  work: Nestoriana (Loofs, 1905)
+  author: nestorius
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: The opponent's own words, including the twelve counter-anathemas against Cyril; context
+    for the Cyrilline entry.
+  source_file: nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt
+- row_id: nestorius_bazaar-of-heracleides_driver-hodgson1925--bazaar-of-heracleides-cyrilline
+  work: The Bazaar (Book) of Heracleides, English (Driver and Hodgson, 1925)
+  author: nestorius
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'The contemporary opponent''s own account of Cyril and of Ephesus 431: the view from
+    outside the Cyrilline tradition.'
+  source_file: nestorius_bazaar-of-heracleides_driver-hodgson1925.txt
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--dialogues-eranistes-2
   work: Dialogues (Eranistes)
   author: theodoret

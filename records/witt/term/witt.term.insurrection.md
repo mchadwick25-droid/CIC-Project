@@ -19,16 +19,14 @@ confidence:
     its documented existence.'
 sources:
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
-  locus: Christian Nobility, cited among this entry's Registry rows (Doc_06 SS5 entry 7.4)
+  locus: Christian Nobility
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
   locus: the Eight Wittenberg Sermons -- 'I did nothing; I left it to the Word'
   license: public-domain
 - source_id: witt.source.luther-earnest-exhortation-for-all-christians-warning
-  locus: "Earnest Exhortation, opening only -- 'the common man has been brooding over the injury he has
-    suffered'. Admonition to Peace (1525), cited among this entry's Registry rows (Doc_06 SS5 entry 7.4)
-    for context only, is not independently vendored anywhere in this library -- disclosed here rather
-    than cited as a source"
+  locus: >-
+    Earnest Exhortation, opening only -- 'the common man has been brooding over the injury he has suffered'
   license: public-domain
 retrieval:
   tier: 2
@@ -50,7 +48,7 @@ relations:
   target: witt.term.sects-and-new-spirits
 - type: associated-with
   target: witt.term.prayer
-plain_meaning: In 1522, common people were angry, and we understood why. Still, we refused violence and
+plain_meaning: In 1522, common people were angry, and we understood their anger. Still, we refused violence and
   trusted God to watch over his own Word. This describes only that one year, not our later history.
 world_word: insurrection -- 'the common man,' 1522's own vocabulary, bound to that year
 false_friend:

@@ -37,3 +37,17 @@ assignments:
       of the millet two decades before this entry's window opens (c. 1700). Outside witness, out
       of window by about twenty years; placed so the entry reaches the only Armenian-church
       description now vendored, ranked low.
+
+  - row_id: rycaut_present-state-greek-armenian-churches_1679--armenian-church-chapters-etchmiadzin
+    work: 'The Present State of the Greek and Armenian Churches, Anno Christi 1678 (Rycaut): the Armenian
+      Church chapters'
+    author: rycaut
+    locus: the Armenian chapters from "Of the Armenian Church in general" (file line 16692) to the Armenian
+      feasts and doctrine (about line 19200); the see of Etchmiadzin named at about line 17730
+    atlas_ids:
+    - armenian-christianity-new-julfa
+    role: context
+    confidence: provisional
+    note: 'Same place, a generation after the window (1678): an English consul on the Armenian church, its
+      patriarchs and Etchmiadzin as Ottoman-side observers saw them. Outside witness, not read beyond the
+      chapter openings and the line cited; the OCR is uneven (second witness).'

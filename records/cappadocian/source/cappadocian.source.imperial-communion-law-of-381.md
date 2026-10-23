@@ -46,6 +46,7 @@ edition: >-
   descent from an edition using Mommsen's numbering. What this supports is therefore the clause's
   substance and its bishop list, which three witnesses agree on; it is not a basis for any claim turning
   on an exact variant reading
+citation: Codex Theodosianus 16.1.3 (30 July 381), the imperial communion law, Latin text ed. Mommsen and Meyer (1905); English trans. Clyde Pharr (1952)
 kind: unvendored
 rights_status: "public-domain (the Latin text; the Pharr English translation is separately in-copyright and excluded). Independently verified 2026-09-09 by direct reading of both Latin witnesses, confirmed present and textually matching this row's own named bishops"
 attribution_status: attributed

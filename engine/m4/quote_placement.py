@@ -13,8 +13,12 @@ and returns tagged text the net checks:
   before it as its lead-in; words after the marker in its sentence are cut.
 - a marker for a record that is not in this turn's evidence, one the
   conversation has already voiced, a marker past the one quote a reply may
-  carry, or a record whose rendering cannot be set apart as one quotation
-  places nothing, and the sentence that introduced it goes with it.
+  carry, a record whose rendering cannot be set apart as one quotation, or
+  a placement the net's own placed-quote check refuses
+  (grounding_net.placed_quote_refusal: among its reasons, a lead-in that
+  does not name the quote's speaker, or that types a quotation of its own)
+  places nothing, and the sentence that introduced it goes with it. Only a quote that is placed counts toward
+  the one a reply may carry.
 - a story the conversation has already told keeps its first tagged
   sentence, as a reference back; later sentences tagged to it go.
 
@@ -29,7 +33,15 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from engine.m4.grounding_net import QUOTE_MARKER, placed_key, quoted_span_positions, reads_as_lead, strip_tags
+from engine.m4.grounding_net import (
+    QUOTE_MARKER,
+    QuotationIndex,
+    placed_key,
+    placed_quote_refusal,
+    quoted_span_positions,
+    reads_as_lead,
+    strip_tags,
+)
 from engine.m4.rhythm import MAX_PLACED_QUOTES_PER_REPLY
 from engine.prose import quote_aware_sentences
 
@@ -37,11 +49,15 @@ _MARKER_ID = re.compile(r"\[\[\s*quote\s*:\s*([a-z0-9_.-]+)\s*\]\]", re.IGNORECA
 _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 _PARAGRAPH_BREAK = re.compile(r"\n\s*\n")
 _SENTENCE_END = re.compile(r"[.!?](?=\s|$)")
+# What may follow a marker and still end its sentence: closing punctuation,
+# and the closing mark of a quotation the voice typed around it.
+_MARKER_TAIL = re.compile(r"^[\s.,;:!?\"'\u201d\u2019\u00bb)\]]+")
 
 REASON_NOT_OFFERED = "quote record not in this turn's evidence"
 REASON_ALREADY_VOICED = "quote record already voiced in this conversation"
 REASON_SECOND_QUOTE = "second placed quote in one reply"
 REASON_NOT_SETTABLE = "rendering cannot be set apart as one quotation"
+REASON_PLACED_MISMATCH = "placed quote does not match its record"
 REASON_LEAD_IN = "lead-in to a quote that was not placed"
 REASON_STORY_RETOLD = "story already told in this conversation"
 
@@ -50,10 +66,13 @@ REASON_STORY_RETOLD = "story already told in this conversation"
 class PlacementContext:
     """What one reply may place. `offered` is the quote record ids this
     turn's evidence carried; `voiced` the quote ids the conversation has
-    already voiced; `told_stories` the story ids it has already told."""
+    already voiced; `told_stories` the story ids it has already told;
+    `offered_stories` the story ids this turn may place
+    (engine.m4.story_placement; empty on a world that does not place them)."""
     offered: frozenset[str] = frozenset()
     voiced: frozenset[str] = frozenset()
     told_stories: frozenset[str] = frozenset()
+    offered_stories: frozenset[str] = frozenset()
     max_quotes: int = MAX_PLACED_QUOTES_PER_REPLY
 
     @classmethod
@@ -93,24 +112,30 @@ def _settable(composed: str, rendering: str) -> bool:
     return any(inner == rendering for _o, _c, inner in quoted_span_positions(strip_tags(composed)))
 
 
-def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], context: PlacementContext) -> dict:
+def place_quotes(
+    tagged_text: str, *, repository_records: dict[str, dict], context: PlacementContext,
+    sealed: frozenset[str] = frozenset(),
+) -> dict:
     """The voice's tagged text with its quote markers placed, as the module
     docstring describes. Returns {"text", "placed" (record ids, in order),
     "placed_sentences" (each placed sentence's text, tags stripped and
     whitespace collapsed, to its record id), "placed_drafts" (the same keys,
     to the sentence as the voice wrote it, marker included), "removed" (each
-    sentence removed, with why, and as the voice wrote it in "draft")}."""
+    sentence removed, with why, and as the voice wrote it in "draft")}.
+    A sentence tagged with a record in `sealed` (a story code placed, by
+    engine.m4.story_placement) is never taken as a lead-in."""
     report = _Report()
+    index = QuotationIndex(repository_records)
     paragraphs_out: list[list[str]] = []
     story_seen: set[str] = set()
 
     for paragraph in (p for p in _PARAGRAPH_BREAK.split(tagged_text or "") if p.strip()):
         kept: list[str] = []
         sentences = quote_aware_sentences(paragraph)
-        index = 0
-        while index < len(sentences):
-            sentence = sentences[index]
-            index += 1
+        position = 0
+        while position < len(sentences):
+            sentence = sentences[position]
+            position += 1
 
             marker = QUOTE_MARKER.search(sentence)
             if marker:
@@ -121,17 +146,19 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
                 composed = None
                 if reason is None:
                     if not lead:
-                        lead = _take_lead_in(kept, paragraphs_out)
+                        lead = _take_lead_in(kept, paragraphs_out, sealed)
                         drafted = f"{lead} {drafted}".strip()
                     rendering = record["modern_rendering"]
                     composed = f"{_lead_for_quote(lead)} “{rendering}” [[{record['id']}]]".strip()
                     if not _settable(composed, rendering):
                         reason, composed = REASON_NOT_SETTABLE, None
+                    elif refusal := placed_quote_refusal(composed, repository_records, index, record["id"]):
+                        # decided here, as the net decides it, so a quote the
+                        # net would refuse never takes the reply's one place
+                        reason, composed = refusal, None
                 if composed is None:
-                    report.drop(
-                        f"{lead} {QUOTE_MARKER.sub('', sentence)}".strip() if lead else sentence, reason, draft=drafted,
-                    )
-                    if not lead and (previous := _take_lead_in(kept, paragraphs_out, only_if_lead=True)):
+                    report.drop(QUOTE_MARKER.sub("", drafted).strip() or drafted, reason, draft=drafted)
+                    if not lead and (previous := _take_lead_in(kept, paragraphs_out, sealed, only_if_lead=True)):
                         report.drop(previous, REASON_LEAD_IN)
                 else:
                     kept.append(composed)
@@ -139,13 +166,13 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
                     report.placed_drafts[placed_key(strip_tags(composed))] = drafted
                     paragraphs_out.append(kept)
                     kept = []
-                tail = re.sub(r"^[\s.,;:!?]+", "", rest)
+                tail = _MARKER_TAIL.sub("", rest)
                 if tail:
                     if tail[0].islower() or tail[0].isdigit():
                         ended = _SENTENCE_END.search(tail)
                         tail = tail[ended.end():].strip() if ended else ""
                     if tail:
-                        sentences.insert(index, tail)
+                        sentences.insert(position, tail)
                 continue
 
             story_tags = [t for t in _TAG.findall(sentence) if t in context.told_stories]
@@ -168,17 +195,25 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
     }
 
 
-def _take_lead_in(kept: list[str], paragraphs_out: list[list[str]], *, only_if_lead: bool = False) -> str:
+def _take_lead_in(
+    kept: list[str], paragraphs_out: list[list[str]], sealed: frozenset[str] = frozenset(), *,
+    only_if_lead: bool = False,
+) -> str:
     """The sentence before a marker that stands alone: the previous sentence
     of this paragraph, or the previous paragraph's last when that paragraph
     is that one sentence or ends in a colon. With `only_if_lead` the
-    sentence must also read as an introduction."""
+    sentence must also read as an introduction. A sentence tagged with a
+    record in `sealed` is never taken."""
+    if kept and sealed & set(_TAG.findall(kept[-1])):
+        return ""
     if kept:
         if only_if_lead and not reads_as_lead(kept[-1]):
             return ""
         return kept.pop()
     if paragraphs_out and paragraphs_out[-1]:
         previous = paragraphs_out[-1]
+        if sealed & set(_TAG.findall(previous[-1])):
+            return ""
         if len(previous) == 1 or strip_tags(previous[-1]).rstrip().endswith(":"):
             if only_if_lead and not reads_as_lead(previous[-1]):
                 return ""

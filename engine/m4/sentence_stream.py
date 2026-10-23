@@ -33,13 +33,17 @@ anything after it is released; they arrive with the finished reply. A sentence t
 recitation, so a recited reply can be regenerated before any of it is shown;
 with demonstrations in play nothing is released before the finished
 sentences reach the recitation length, so a recitation that begins in the
-reply's first words is caught before any of it shows.
+reply's first words is caught before any of it shows. Nothing is released
+until the first sentence that keeps a citation the net verifies can be: a
+draft with nothing grounded in it is replaced by the world's answer record
+(engine.m4.turn.settle_reply), and arrives whole with the finished reply.
 No streamed sentence is ever taken back.
 """
 from engine.m4.citation_cards import resolve_source_card
 from engine.m4.grounding_net import (
     QUOTATION_DROP_REASONS,
     QUOTE_MARKER,
+    STORY_MARKER,
     WITHHOLD_FLOOR,
     QuotationIndex,
     build_figure_lexicon,
@@ -77,6 +81,7 @@ class SentenceStream:
         self._released = 0
         self._cursor = 0
         self._placed: set[int] = set()
+        self._grounded = False
 
     def _card(self, record_id: str) -> dict | None:
         card = resolve_source_card(record_id, self._records)
@@ -101,6 +106,8 @@ class SentenceStream:
             return []
         shown = strip_tags(self._buffer)
         hold_from = self._hold_from(finished)
+        if not self._grounded and not self._grounded_ahead(complete, finished, hold_from):
+            return []
         events = []
         for index in range(self._released, len(complete)):
             if hold_from is not None and index >= hold_from:
@@ -109,13 +116,11 @@ class SentenceStream:
             if self._guard is not None and self._guard(sentence["raw"]):
                 self._stopped = True
                 break
-            verdict = verdict_for_sentence(
-                sentence["text"], sentence["tags"], repository_records=self._records, figure_names=self._figures,
-                thin_topics=self._thin_topics, grounding_floor=WITHHOLD_FLOOR, quotation_index=self._quotation_index,
-            )
+            verdict = self._verdict(sentence)
             if self._reshaped(sentence, verdict) or self._reshaped(finished[index + 1], None):
                 self._stopped = True
                 break
+            self._grounded = self._grounded or (verdict["verdict"] == "ok" and bool(sentence["tags"]))
             source = sentence["text"]
             text = verdict["sentence"] if "source_sentence" in verdict else source
             position = shown.find(source, self._cursor) if source else -1
@@ -137,19 +142,39 @@ class SentenceStream:
             self._released = index + 1
         return events
 
+    def _verdict(self, sentence: dict) -> dict:
+        return verdict_for_sentence(
+            sentence["text"], sentence["tags"], repository_records=self._records, figure_names=self._figures,
+            thin_topics=self._thin_topics, grounding_floor=WITHHOLD_FLOOR, quotation_index=self._quotation_index,
+        )
+
+    def _grounded_ahead(self, complete: list[dict], finished: list[dict], hold_from: int | None) -> bool:
+        """Whether the sentences the loop would release now reach one that
+        keeps a citation the net verifies. Until one does, nothing is
+        released: a reply with nothing grounded left is replaced by the
+        world's answer record (engine.m4.turn.settle_reply), so a sentence
+        released before its first grounded sentence could be taken back."""
+        for index in range(self._released, len(complete)):
+            sentence = complete[index]
+            if (hold_from is not None and index >= hold_from) or (self._guard is not None and self._guard(sentence["raw"])):
+                return False
+            verdict = self._verdict(sentence)
+            if self._reshaped(sentence, verdict) or self._reshaped(finished[index + 1], None):
+                return False
+            if verdict["verdict"] == "ok" and sentence["tags"]:
+                return True
+        return False
+
     def _reshaped(self, sentence: dict, verdict: dict | None) -> bool:
         """apply_net could change or remove this sentence, or (for the one
         after a sentence about to be released) the sentence before it."""
         raw = sentence["raw"]
-        if QUOTE_MARKER.search(raw) or strip_markdown(raw) != raw.strip():
+        if QUOTE_MARKER.search(raw) or STORY_MARKER.search(raw) or strip_markdown(raw) != raw.strip():
             return True
         if any(tag in self._told_stories for tag in sentence["tags"]):
             return True
         if verdict is None:
-            verdict = verdict_for_sentence(
-                sentence["text"], sentence["tags"], repository_records=self._records, figure_names=self._figures,
-                thin_topics=self._thin_topics, grounding_floor=WITHHOLD_FLOOR, quotation_index=self._quotation_index,
-            )
+            verdict = self._verdict(sentence)
         return bool(verdict.get("opens_quote") or verdict.get("stands_alone") or verdict.get("why") in QUOTATION_DROP_REASONS)
 
     def _hold_from(self, complete: list[dict]) -> int | None:

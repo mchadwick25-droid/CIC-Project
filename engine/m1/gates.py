@@ -17,7 +17,7 @@ from .fk import fk_grade, fre_score
 from .loader import home_for_record_type, voiced_records
 from .quote_verbatim import gate_quote_verbatim
 from .schemas import RELATION_INVERSE, build_schema
-from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, fields_with_role
+from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, field_texts, fields_with_role, shared_fields_with_role
 
 FK_CEILING = 10
 
@@ -1571,7 +1571,8 @@ _UNVOICED_FIELDS = {("quote", "text"), ("story", "text")}
 def gate_horizon(records, fleet, registry) -> list[str]:
     """A voiced record's voice-facing text stays inside the world's window:
     no gazetteer event, modern term, explicit year or century after the
-    window's end (engine.m1.horizon)."""
+    window's end (engine.m1.horizon). Its use note's meaning is read too,
+    since the evidence block gives it to the voice."""
     from .horizon import dated_terms, post_window_mentions
 
     end = _window_end(records, registry)
@@ -1581,16 +1582,26 @@ def gate_horizon(records, fleet, registry) -> list[str]:
     findings = []
     for rid, r in sorted(voiced_records(records).items()):
         rtype = r.get("record_type")
-        for field in fields_with_role(rtype, "voice-diet", "evidence-head"):
+        roles = ("voice-diet", "evidence-head")
+        for field in fields_with_role(rtype, *roles) + shared_fields_with_role(*roles):
             if (rtype, field) in _EDGE_FIELDS or (rtype, field) in _UNVOICED_FIELDS:
                 continue
-            value = r.get(field)
-            texts = [value] if isinstance(value, str) else [v for v in value if isinstance(v, str)] if isinstance(value, list) else []
+            texts = field_texts(r, field)
             mentions = [m for text in texts for m in post_window_mentions(text, end, terms)]
             if mentions:
                 findings.append(f"{rid}.{field}: names {', '.join(dict.fromkeys(mentions))}, after the window closes in {end}; "
                                 "rewrite it from inside the window, or mark the record voice: analytic")
     return findings
+
+
+def gate_question_ending(records, fleet, registry) -> list[str]:
+    """A voiced record's spoken sentence never ends on a bare question word:
+    an honest limit names the question it cannot answer
+    (engine.m1.question_endings)."""
+    from .question_endings import bare_question_hits
+
+    return [f"{rid}.{label}: ends on a bare question word; name the question it cannot answer - {sentence!r}"
+            for rid, label, sentence in bare_question_hits(records)]
 
 
 GATES = {
@@ -1617,6 +1628,7 @@ GATES = {
     "use-note-shape": gate_use_note_shape,
     "cells-required": gate_cells_required,
     "horizon": gate_horizon,
+    "question-ending": gate_question_ending,
     "no-build-attribution": gate_no_build_attribution,
     "voice-perspective": gate_voice_perspective,
     "id-convention": gate_id_convention,

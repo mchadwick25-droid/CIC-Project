@@ -48,8 +48,7 @@ senses:
   evidential: Genesis 1:26-27 is the foundational text; Clement reads the image as the soul's constitution
     in the likeness of the Logos, and Athanasius as given in creation and restored from within by the
     incarnate Logos.
-  personal: The image is wounded, darkened, obscured when a soul turns away - but not erased, which is
-    why a person can be restored rather than remade from nothing.
+  personal: "The image was wounded and darkened when a soul turned away, but it was never erased. That is why a person could be restored rather than remade from nothing."
   translational: '''Doesn''t "made in God''s image" just mean human dignity?'' - that follows from it, but
     isn''t the point; the point is capacity - the reason knowing God, and being formed by him, is possible
     at all.'

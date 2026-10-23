@@ -1,0 +1,47 @@
+source_file: jewel_apology-of-the-church-of-england_bacon-morley1888.txt
+
+assignments:
+  - row_id: jewel_apology-of-the-church-of-england_bacon-morley1888--the-apology-of-the-church-of-england-lady-bacon-s-translation
+    work: "The Apology of the Church of England (Apologia Ecclesiae Anglicanae, 1562), Lady Anne Bacon's translation of 1564"
+    author: jewel
+    locus: "Morley's introduction from file line 68; the Apology from line 149 ('PART I.') through 'PART VI.' at line 2712 and 'THE RECAPITULATION OF THE APOLOGY' at line 3556; the Project Gutenberg licence follows from about line 3697"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The Elizabethan church's official self-defence to Europe, in the English
+      that was chained in parish churches beside the Bible: its argument is that
+      the English church has left the Roman errors and returned to the apostles
+      and the old catholic fathers. Primary voice, a
+      clean transcription (not OCR), ready to quote once verified against this
+      file. Translation only; the Latin original is not vendored, so a quote is
+      Lady Bacon's English, not Jewel's Latin.
+
+  - row_id: jewel_apology-of-the-church-of-england_bacon-morley1888--the-apology-of-the-church-of-england-lady-bacon-s-translation-2
+    work: "The Apology of the Church of England, Lady Anne Bacon's translation of 1564"
+    author: jewel
+    locus: "as above, file lines 149 to 3696"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: >
+      Written while Trent sat and addressed to it (Part VI argues why the English
+      would not come to the council): a contemporary Protestant opponent's view of
+      the Roman church and its council. Placed as context; provisional, on
+      window and subject without that world's own reading.
+
+  - row_id: jewel_apology-of-the-church-of-england_bacon-morley1888--the-apology-of-the-church-of-england-lady-bacon-s-translation-3
+    work: "The Apology of the Church of England, Lady Anne Bacon's translation of 1564"
+    author: jewel
+    locus: "as above, file lines 149 to 3696"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: context
+    confidence: provisional
+    note: >
+      The text Thomas Harding answered from Louvain in 1565, opening the great
+      controversy that formed the first generation of English Catholic exiles'
+      writing. The opponent's book; provisional, placed without the recusant
+      world's own sources to read against.

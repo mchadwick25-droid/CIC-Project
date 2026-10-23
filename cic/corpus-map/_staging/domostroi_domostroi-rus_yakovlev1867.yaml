@@ -1,0 +1,29 @@
+source_file: domostroi_domostroi-rus_yakovlev1867.txt
+
+assignments:
+  - row_id: domostroi_domostroi-rus_yakovlev1867--domostroi-household-and-devotional-discipline-manual-from
+    work: Domostroi (household and devotional discipline manual), from the manuscripts of the Imperial Public
+      Library (Yakovlev 1867)
+    author: domostroi
+    locus: editor's introduction first; the Domostroi text ends at file line 8776 ('КОНЕЦЪ ТЪМЪ ГЛАВАМЪ
+      И ДОМОСТРОЙЦУ'), then an index
+    atlas_ids:
+    - russian-church-stoglav-to-nikon
+    role: tradition
+    confidence: assigned
+    note: The sixteenth-century Russian manual of household order, with chapters on how the layperson honours
+      God, the cross, the saints and the clergy. The one lay-facing text of this world that is not an institutional
+      record. Primary, in Russian; readable OCR with the yat letter misread, so quote from the page images.
+      The longest redaction is attributed to the priest Sylvester by convention only.
+  - row_id: domostroi_domostroi-rus_yakovlev1867--domostroi-household-and-devotional-discipline-manual-from-2
+    work: Domostroi (household and devotional discipline manual), from the manuscripts of the Imperial Public
+      Library (Yakovlev 1867)
+    author: domostroi
+    locus: editor's introduction first; the Domostroi text ends at file line 8776 ('КОНЕЦЪ ТЪМЪ ГЛАВАМЪ
+      И ДОМОСТРОЙЦУ'), then an index
+    atlas_ids:
+    - the-old-believers
+    role: antecedent
+    confidence: provisional
+    note: The household piety the Old Believers later defended as the old way; placed on window and place.
+      The edition's chapters were not read against the Old Believers' own texts.

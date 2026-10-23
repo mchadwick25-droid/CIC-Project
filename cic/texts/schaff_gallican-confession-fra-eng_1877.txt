@@ -1,0 +1,2531 @@
+Title: Confessio Fidei Gallicana. The French Confession of Faith, A.D. 1559 (French and English in parallel columns) - extracted from The Creeds of Christendom, with a History and Critical Notes, Vol. III: The Evangelical Protestant Creeds, with Translations
+Creator: The Reformed Churches of France, Synod of Paris, 1559 (Schaff's headnote: "prepared by Calvin and his pupil, De Chandieu, revised and approved by a synod at Paris, 1559 ... adopted by the Synod of La Rochelle, 1571"); Philip Schaff (editor); Emily O. Butler of New York (English translator, "kindly prepared for this work" per the headnote)
+Publisher: New York: Harper & Brothers, Publishers, Franklin Square
+Publication Date: 1877 ("Entered according to Act of Congress, in the year 1877")
+Rights: Public Domain (published 1877, past the 95-year rule; host status NOT_IN_COPYRIGHT)
+Language: fra (the French text in modern spelling, from the Toulouse 1864 Societe des livres religieux edition per Schaff's headnote, with Miss Butler's English translation in the facing column; the OCR gives the two columns as alternating blocks)
+Source: Internet Archive item creedsofchriste03scha, file creedsofchriste03scha_djvu.txt (Princeton Theological Seminary Library copy), fetched directly by the library/source-research thread (Era VII session), 2026-10-16; host rights statement: "possible-copyright-status": "NOT_IN_COPYRIGHT".
+Provenance note: Header prepended; this file is a bounded extract, lines 28480 to 31001 of the item's own djvu.txt, from the heading "CONFESSIO FIDEI GALLICANA." to the line before "CONFESSIO BELGICA."; within that span the OCR text follows unchanged, nothing retyped, dropped or corrected. Rights basis restated: the volume was printed and copyrighted in New York in 1877, so it is public domain by date.
+Content note: Partial extract (one creed from a three-volume reference work; the Second Helvetic Confession and Heidelberg Catechism from the 1919 printing of the same volume are vendored separately as schaff_second-helvetic-confession-heidelberg-catechism_1919.txt). Schaff's bracketed headnote opens the extract; then the Preface (French and English) and the forty Articles, French and English alternating page by page, with Scripture references as footnotes. OCR sampled at five points: clean English, French with occasional accent and italic-face misreads (e.g. "jpromesses"); quotable with a check against the page image. The older English version of the Confession is in quick_synodicon-in-gallia-reformata_1692.txt.
+---
+CONFESSIO  FIDEI  GALLICANA. 
+The  Fkench  Confession  of  Faith.    A.D.  1559, 
+
+[This  Confession  was  prepared  by  Calvin  and  his  pnpil,  De  Cuandiett,  revised  and  approved  by  a 
+synod  at  Paris,  1559,  delivered  by  Beza  to  Charles  IX.  at  Poissy,  1561,  adopted  by  the  Synod  of  La  Ko- 
+chelle,  15T1  (hence  also  called  the  '  Confession  of  Eochelle'),  and  solemnly  sanctioned  by  Henry  IV. 
+
+The  French  original,  with  the  old  spelling,  is  printed  in  Beza's  Histoire  ecclesiastiqne  des  eglises  re- 
+fomiecs,  in  Niemeyer's  Collectio  (pp.  313-320),  and  by  Dr.  Heppe,  in  the  Zeitschrift  far  die  historische  The- 
+ologie,  Gotha,  1S75,  pp.  524  sqq.,  from  a  MS.  copy  in  Geneva.  A  Latin  version  of  156G  in  the  Corpus  et  Sij7i- 
+tagma  Confess.,  and  in  Niemeyer  (pp.  329-339).    A  German  translation,  Heidelberg,  1562,  and  in  Boclcel. 
+
+We  give  the  authoritative  test,  in  modern  spelling,  from  the  edition  published  by  the  Societe  des  livres 
+religieux,  at  Toulouse,  1864 :  Confession  de  foi  et  discipline  ecclesiastique  des  eglises  reformees  de  France. 
+The  Preface  we  have  supplied  in  its  original  form,  as  reprinted  by  Niemeyer,  and  in  Calvin's  Opera, 
+Vol.  IX.  p.  737.  The  shorter  French  recension,  which  has  only  thirty-five  Articles,  is  reprinted  in  Cal- 
+vin's 0/)cra,  Vol.  IX.  pp.  73S-752,  with  the  changes  of  the  later  edition. 
+
+The  English  translation  was  liindly  prepared  for  this  work  by  Miss  Emily  0.  Butlek,  of  New  York. 
+An  older  version  is  in  Quick's  Synodicon,  1092,  Vol.  I.] 
+
+
+LES  FKANyOIS  QUI  DESIKENT  VIVKE 
+SELON  LA  PUKETE  DE  l'eVANGILE 
+DE  NOSTKE  SEIGNEUR  lESUS  CHRIST. 
+
+Au  Boy. 
+
+Sire,  nous  rendons  graces  a  Dieu,  de  ce  que 
+n'ayans  eu  iusques  icy  aucun  acces  a  vostre 
+Maieste,  pour  luy  faire  entendre  la  rigueur  des 
+persecutions  que  nous  avons  endurees,  et  endu- 
+rons  iournellement pour  voidoir  suyure  la  purete 
+de  VEvangile,  et  le  repos  de  nostre  conscience  : 
+viaintenant  ilnousfait  cet  heur  de  veoir  qu^avez 
+la  volonte  de  connoitre  le  merite  de  nostre  cause, 
+suyvant  TEdit  dernier  donnd  a  Amboise  au 
+vioys  de  Mars,  I'An  present  1559,  quil  a  pleu 
+a  vostre  Maieste  faire  publier.  Qui  est  la 
+cause  qtc'a  present  nous  osons  ouvrir  la  bouche: 
+laquelle  nous  a  este  parcidevant  fermee  par 
+I'iniustice  et  violence  de  plusieurs  voz  ojfficiers, 
+estans  plustost  incitez  de  haine  contre  nous,  que 
+de  bonne  affection  a  vostre  service.  Et  a 
+Jin,  Sire,  que  nous  puissions  pleine7nent  in- 
+former vostre  Maieste  de  ce  qui  concerne  cette 
+cause,  nous  vous  supplions  tres-humblement  de 
+voir  et  entendre  nostre  Confession  de  Foy,  la- 
+quelle nous  vous  presentons:  esperans  qu'elle 
+nous  sera  defence  suffisante  contre  tons  les 
+hlasmes  et  opprobres,  dont  iusques  icy  avons 
+est£  ckargez  a  grand  tort  par  ceux  qui  ont  tou- 
+sioursfait  mestier  de  nous  condamner,  premier 
+que  nostre  cause  leur  fust  conneve.     En  la- 
+
+
+TIIE  FRENCH  SUBJECTS  WHO  WISH  TO 
+LIVE  IN  THE  PURITY  OF  THE  GOS- 
+PEL  OF   OUR   LORD   JESUS   CHRIST. 
+
+To  the  King. 
+
+Sire,  we  thank  God  that  hitherto  having 
+had  no  access  to  your  Majesty  to  make  known 
+the  rigor  of  the  persecutions  that  we  have 
+suffered,  and  sutler  daily,  for  wishing  to  live 
+in  the  purity  of  the  Gospel  and  in  peace  with 
+our  own  consciences,  he  now  permits  us  to 
+see  that  you  wish  to  know  the  worthiness  of 
+our  cause,  as  is  shown  by  the  last  Edict  given 
+at  Amboise  in  the  month  of  March  of  this 
+present  year,  1559,  which  it  has  pleased  your 
+Majesty  to  cause  to  be  published.  This  em- 
+boldens us  to  speak,  which  we  have  been 
+prevented  from  doing  hitherto  through  the 
+injustice  and  violence  of  some  of  your  offi- 
+cers, incited  rather  by  hatred  of  us  than  by 
+love  of  your  service.  And  to  the  end.  Sire, 
+that  we  may  fully  inform  your  Majesty  of 
+what  concerns  this  cause,  we  humbly  be- 
+seech that  you  will  see  and  hear  our  Confes- 
+sion of  Faith,  which  we  present  to  you,  hop- 
+ing that  it  will  prove  a  sufficient  answer  to 
+the  blame  and  opprobrium  unjustly  laid  upon 
+us  by  those  who  have  always  made  a  point 
+of  condemning  us  without  having  any  knowl- 
+edge of  our  cause.  In  the  which,  Sire,  we 
+can  affirm  that  there  is  nothing  contrary  to 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.D.  1559. 
+
+
+357 
+
+
+quelle,  Sire,  nous  pouvons  protester  quil  ny  a 
+aucune  chose  qui  r^pugne  a  la  parole  de  Dieu, 
+ne  qui  contrcvienne  it  V Itoiitmage  que  nous  vous 
+dei'ons. 
+
+Car  les  articles  de  nostre  Foy  qui  sont  de- 
+scrits  assez  au  long  en  nostre  Confession,  re- 
+vicnnent  tous  a  ce  poind,  que  prnsque  Dieu 
+nous  a  suffisamment  declare  sa  volonte  ]>ar 
+scs  Prophetes  et  Apostres,  et  mesmes  par  la 
+bouche  de  son  Jils  nostre  Seigneur  Jesus  Christ 
+nous  devons  cet  honneur  et  reverence  a  la  pa- 
+role de  Dieu  de  n'y  rien  aioutler  du  nostre: 
+niais  de  nous  conforiner  enticretnent  a  la  rei- 
+gle  qui  nous  y  est  prescritte.  Et  pour  ce  que 
+VEglise  Itomaine,  laissant  I'usage  et  coustuine 
+de  la  primitive  Eglise,  a  introduit  nouveaux 
+coinmandeinens  et  nouvelle  forme  du  service  de 
+Dieu:  nous  estimons  estre  tres-raisonnable  de 
+prffcrer  les  conwiandemens  de  Dieu,  qui  est  la 
+vdvit^  mesme,  aux  commandemens  des  hommes : 
+qui  de  leur  nature  sont  enclins  a.  mensonge  et 
+vanity.  Et  quay  que  noz  adversaires  priten- 
+dent  a  I'encontre  de  nous,  si  pouvons  nous  dire 
+devant  Dieu  et  les  hommes,  que  nous  ne  sonf- 
+frons  pour  atitre  raison  que  pour  maintenir 
+nostre  Seigneur  le'sus  Christ  estre  nostre  Seul 
+Sauveur  et  R^dempteur,  et  sa  doctrine  seule 
+doctrine  de  vie  et  de  salut. 
+
+Et  cette  est  la  seule  cause,  Sire,  jiour  la- 
+quelle  les  bourreaux  out  en  tant  de  fois  les 
+7nains  souille'es  du  sang  de  voz  poures  suiets, 
+lesquels  n'espargnent  point  leurs  vies  pour 
+maintenir  cette  mesme  confession  de  Foy,  out 
+bien  peu  faire  entendre  it  tous  quils  estoyent 
+poussez  d' autre  esjirit  que  de  celuy  des  hommes, 
+qui  naturellernent  ont  plus  de  soucy  de  leurs  re- 
+pos  et  commoditez,  que  de  Thonneur  et  gloire 
+de  Dieu. 
+
+Et  partant,  Sire,  suyvant,  la  bontd  et  dou- 
+ceur de  laquelle  promettez  user  envers  voz  poures 
+suiets,  nous  suppUons  tres-humblement  vostre 
+Maieste  nous  faire  cette  mise'ricordc,  que  de 
+prendre  en  main  la  connoissance  de  la  cause, 
+pour  laquelle  estans  poursvyvis  it  toute  heure 
+ou  de  tnorl,  ou  de  bannissemcnt,  nous  perdons 
+
+
+the  Word  of  God,  or  to  the  homage  which 
+we  owe  to  you. 
+
+
+For  the  articles  of  our  faith,  which  are  all 
+declared  at  some  length  in  our  Confession,  all 
+come  to  this :  that  since  God  lias  sufficiently 
+declared  his  will  to  us  through  his  Prophets 
+and  Apostles,  and  even  by  the  mouth  of  his 
+Son,  our  Lord  Jesus  Christ,  we  owe  such  re- 
+spect and  reverence  to  the  Word  of  God  as 
+shall  prevent  us  from  adding  to  it  any  thing 
+of  our  own,  but  shall  make  us  conform  en- 
+tirely to  the  rules  it  prescribes.  And  inas- 
+much as  the  Koman  Church,  forsaking  the 
+use  and  customs  of  the  primitive  Church,  has 
+introduced  new  commandments  and  a  new 
+form  of  worship  of  God,  we  esteem  it  but 
+reasonable  to  prefer  the  commandments  of 
+God,  who  is  himself  truth,  to  the  command- 
+ments of  men,  who  by  their  nature  are  in- 
+clined to  deceit  and  vanity.  And  whatever 
+our  enemies  may  say  against  us,  we  can  de- 
+clare this  before  God  and  men,  that  we  suffer 
+for  no  other  reason  than  for  maintaining  our 
+Lord  Jesus  Christ  to  be  our  only  Saviour  and 
+Redeemer,  and  his  doctrine  to  be  the  only 
+doctrine  of  life  and  salvation. 
+
+And  this  is  the  only  reason,  Sire,  why  the 
+executioners'  hands  have  been  stained  so  oft- 
+en with  the  blood  of  your  poor  subjects,  who, 
+sparing  not  their  lives  to  maintain  this  same 
+Confession  of  Faith,  have  shown  to  all  that 
+they  were  moved  by  some  other  spirit  than 
+that  of  men,  who  naturally  care  more  for  their 
+own  peace  and  comfort  than  for  the  honor 
+and  glory  of  God. 
+
+And  therefore,  Sire,  in  accordance  with 
+your  promises  of  goodness  and  mercy  toward 
+your  poor  subjects,  we  humbly  beseech  your 
+Majesty  graciously  to  examine  the  cause  for 
+which,  being  threatened  at  all  times  with  death 
+or  exile,  we  thus  lose  the  power  of  rendering 
+the  humble  service  that  we  owe  you.     May  it 
+
+
+358 
+
+
+SYMBOL  A  EVANGELIC  A. 
+
+
+par  ce  moyen  la  puissance  de  vous  faire  le 
+tres-humhle  service  que  nous  vous  devons.  Quil 
+plaise  donq  a  vostre  Maiest€,  Sire,  a  lieu  des 
+feus  et  glaives  dont  on  a  use  par  cidev  ant,  faire 
+decider  nostre  confession  de  Foy  par  la  parole 
+de  JJieu :  donnant  permission  et  sevreie  pour 
+ce  faire.  Et  nous  esp^rons  que  vous-mesmes 
+serez  iuge  de  nostre  innocence,  connoissant  quil 
+n'y  a  en  nous  ny  Mr^sie,  ny  rebellion  aucune  : 
+mais  que  nous  tendons  seulement  a  ce  but,  de 
+pouvoir  vivre  en  saine  conscience,  servans  a 
+Dieu  selon  ses  commandemens,  et  honorans 
+vostre  Maieste  en  toute  ob^issance  et  servi- 
+tude. 
+
+Et  par  ce  que  nous  avons  n€cessairement  be- 
+soin  d'estre,  par  la  predication  de  la  parole  de 
+Dieu,  retenus  en  nostre  devoir  et  office  taut  en- 
+vers  luy :  qii'envers  vous :  nous  vous  supplions 
+tres-liumblement ,  Sire,  quHl  nous  soit  permis 
+d'estre  quelqurfois  assemblez  tant  pour  estre 
+exhortez  par  la  parole  de  Dieu  a  sa  crainte, 
+que  pour  estre  conforviez  par  V administration 
+des  Sacremens  que  nostre  Seigneur  lesus  Christ 
+a  instituez  en  son  Eglise.  Et  s'il  plaist  a  vostre 
+Maieste  nous  donner  lieu,  auquel  un  chacun 
+puisse  voir  ce  qui  se  fait  en  noz  assemblees,  la 
+seule  veue  nous  absoudra  de  I'accusation  de  tant 
+de  crimes  ^normes,  dont  nosdittes  assemblees 
+ont  este  diffamees  parcidevant.  Car  on  n'y 
+pourra  veoir  que  toute  modestie  et  chastete,  et 
+on  ny  pourra  ovyr  que  louanges  de  Dieu,  ex- 
+hortations a  son  service,  et  prieres  pour  la  con- 
+servation de  vostre  Maieste  et  de  vostre  lioy- 
+aume.  Que  s'il  ne  vous  plaist  nous  faire  tant 
+de  grace,  au  inoins  qu'il  nous  soit  permis  de 
+poursvyvre  particulierement  entre  nous  avec 
+repos  Tordre  qui  y  est  estably. 
+
+Vous  supplions  tres-humblement,  Sire,  de 
+croyre,  que  oyant  lire  cette  supplication  qui 
+vous  est  maintenant  presentee,  vous  oyez  les  cris 
+et  g^missemens  d'une  infinite  de  voz  poures 
+suiets  qui  implorent  vostre  mis^ricorde:  a  ce 
+qu'elle  esteigne  les  feus  que  la  cruante  de  voz 
+iuges  a  allumez  en  vostre  Royaume.  Et  ainsi 
+qu'il  nous  soit  loisible,  servans  a  vostre  Maieste 
+
+
+please  your  Majesty,  then,  instead  of  the  fire 
+and  sword  which  have  been  used  hitherto,  to 
+have  our  Confession  of  Faith  decided  by  the 
+Word  of  God :  giving  permission  and  security 
+for  this.  And  we  hope  that  you  yourself  will 
+be  the  judge  of  our  innocence,  knowing  that 
+there  is  in  us  no  rebellion  or  heresy  whatso- 
+ever, but  that  our  only  endeavor  is  to  live  in 
+peace  of  conscience,  serving  God  according  to 
+his  commandments,  and  honoring  your  Maj- 
+esty by  all  obedience  and  submission. 
+
+
+And  because  we  have  great  need,  by  the 
+preaching  of  the  Word  of  God,  to  be  kept  in 
+our  duty  to  him,  as  well  as  to  yourself,  we 
+humbly  beg,  Sire,  that  we  may  sometimes  be 
+permitted  to  gather  together,  to  be  exhorted 
+to  the  fear  of  God  by  his  Word,  as  well  as  to 
+be  confirmed  by  the  administration  of  the 
+Sacraments  which  the  Lord  Jesus  Christ  in- 
+stituted in  his  Church.  And  if  it  should 
+please  your  Majesty  to  give  us  a  place  where 
+any  one  may  see  what  passes  in  our  assem- 
+blies, we  shall  thereby  be  absolved  from  the 
+charge  of  the  enormous  crimes  with  which 
+these  same  assemblies  have  been  defamed. 
+For  nothing  will  be  seen  but  what  is  decent 
+and  well-ordered,  and  nothing  will  be  heard 
+but  the  praise  of  God,  exhortations  to  his 
+service,  and  prayers  for  the  presei'vation  of 
+your  Majesty  and  of  your  kingdom.  And 
+if  it  do  not  please  you  to  grant  us  this  fa- 
+vor, at  least  let  it  be  permitted  us  to  follow 
+the  established  order  in  private  among  our- 
+selves. 
+
+We  beseech  you  most  humbly.  Sire,  to  be- 
+lieve that  in  listening  to  this  supplication 
+which  is  now  presented  to  you,  you  listen  to 
+the  cries  and  groans  of  an  infinite  number  of 
+your  poor  subjects,  who  implore  of  your  mercy 
+that  you  extinguish  the  fires  which  the  cruel- 
+ty of  your  judges  has  lighted  in  your  king- 
+dom.   And  that  we  may  thus  be  permitted,  in 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.D.  1559. 
+
+
+359 
+
+
+de  servir  a  celuy  qui  vous  a  €lev^  en  vostre  dig- 
+nit^  et  grandeur. 
+
+Et  s'il  ne  vous  jilalst,  Sire,  douyr  nostre 
+volx,  qu'll  vous  jtlalse  d'ouyr  celle  du  Flls  de 
+Dieu,  lequel  vous  ayant  donne  jmlssance  sur 
+noz  liens,  sur  noz  corps  et  sur  nostre  propre 
+vie:  vous  demande  que  la  puissance  et  domi- 
+nation sur  noz  ames  et  consciences  (lesquelles 
+il s'est  acquises  au  jnis  de  son  sang)  luy  soyent 
+r^serv^es. 
+
+Nous  le  suppUons,  Sire,  qull  vous  condulse 
+touslours 2)cir  son  Esprit,  accroissant  avec  vostre 
+augc,  vostre  grandeur  et  j'ulssance,  vous  don- 
+nant  vlctoire  centre  tous  voz  ennemis,  estahlis- 
+sant  pour  iamais  en  toute  £quit^  et  iustlce  le 
+throsne  de  vostre  Maiest^ :  devant  laquelle 
+aussi  il  luy  j'laise  nous  falre  trouver  grace, 
+jiour  resentir  quel  que  fruit  de  nostre  jn-esente 
+sujipUcatlon,  a  Jin  quayBns  change  noz  peines 
+et  afflictions  a  quelque  repos  et  liberty,  nous 
+changeons  aussi  noz  j/leurs  et  larmes  a  une  per- 
+pe'tuelle  action  de  graces  a  Dieu,  et  a  vostre 
+Maiest^,  pour  avoir  fait  chose  a  luy  tres- 
+agr€able,  tres-digne  de  vostre  bont^  et  ius- 
+tlce, et  tres-necessalre  pour  la  conservation 
+de  voz  plus  humhles  et  jdus  ohdlssans  sulets 
+et  servitcurs. 
+
+Confession  de  Foi, 
+
+Jhiie  d\in  commun  accord  jf;ar 
+les  Francfiis,  qui  desirent  mvre 
+selon  la  purett  de  Vevaiigile  de 
+notre  Seigneur  Jesus-Christ. 
+A.D.  1559. 
+
+Art.  I.  Nous  croyons  et  confes- 
+sons  qxCil  y  a  un  seul  Dieu,  qui 
+est  une  seule  et  simple  essence,^ 
+sj)irituelle^  Hernelle^  invisible^ 
+immuable,^  h^jinie^  incoinprthen- 
+
+
+sening  your  Majesty,  to  serve  him  who  has 
+raised  you  to  your  power  and  dignity. 
+
+And  if  it  should  not  jdease  you,  Sire,  to 
+listen  to  our  voice,  niny  it  please  you  to  listen 
+to  that  of  the  Son  of  God,  who,  having  given 
+you  power  over  our  property,  our  bodies,  and 
+even  our  lives,  demands  that  the  control  and 
+dominion  of  our  souls  and  consciences,  which 
+he  purchased  with  his  own  blood,  be  reserved 
+to  him. 
+
+We  beseech  him,  Sire,  that  he  may  lead  you 
+always  by  his  Spirit,  increasing  with  your  age, 
+your  greatness  and  power,  giving  you  victory 
+over  all  your  enemies,  and  establishing  for- 
+ever, in  all  equity  and  justice,  the  throne  of 
+your  Majesty :  before  whom,  may  it  please 
+him  that  we  find  grace,  and  some  fruit  of  this 
+our  present  supplication,  so  that  having  ex- 
+changed our  pains  and  afflictions  for  some 
+peace  and  liberty,  we  may  also  change  our 
+fears  and  lamentations  into  a  perpetual 
+thanksgiving  to  God,  and  to  your  Majesty  for 
+having  done  that  which  is  most  agreeable  to 
+him,  most  worthy  of  your  goodness  and  mer- 
+cy, and  most  necessary  for  the  preservation 
+of  your  most  humble  and  obedient  subjects 
+and  servants. 
+
+Confession  of  Faith, 
+
+made  iii  one  accord  hy  the  French 
+people,  who  desire  to  live  ac- 
+cording to  the  purity  of  the  Gos- 
+pel of  our  Lord  Jesus  Christ. 
+A.D.  1559. 
+
+Art.  I.  We  believe  and  confess 
+tliat  there  is  but  one  God,  ^vho  is 
+one  sole  and  simple  essence,  spirit- 
+ual, eternal,  invisible,  immutable, 
+infinite,   incomprehensible,   ineffa- 
+
+
+'  Deut.  iv.  35,  39 ;  1  Cor.  viii.  4,  6. 
+"  Gen.  i.  3  ;  Jean  iv.  21 ;  2  Cor.  iii.  17. 
+'  Exode  iii.  15,  IG,  18. 
+
+Vol.  III.— a  a 
+
+
+*  Rom.  i.  20  ;  1  Tim.  i.  47. 
+
+*  Mai.  iii.  C. 
+
+«  Rom.  xi.  33 ;  Actes  vii.  48. 
+
+
+360 
+
+
+SYMBOLA  EVANGELICA. 
+
+
+sible,^  ineffable,  qui  jpeut  toutes 
+ehoses,  qui  est  toute  sage^  toute 
+honne^  toute  juste ^  et  toute  iiiisi- 
+ricordieuse.^ 
+
+II.  Ce  Dieu,  se  mamfeste  tel 
+aux,  hommes^  premiercment  par 
+ses  oeuvres,  tant  par  la  creation 
+que  par  la  conservation  et  con- 
+duite  d'icelles.  Secondement  et 
+plus  clairement,  par  sa  Parole^ 
+laquelle  au  commencement  reve- 
+lee  par  oracles,^  a  He  puis  apres 
+redigee  par  ecrW^  aux  livres 
+que  nous  appelons  VEcriture 
+sainte}^ 
+
+III.  Toute  cette  Ecriture  sainte 
+est  comprise  aux  livres  canoniques 
+du  Vieux  et  du  Nouveau  Testa- 
+ment, desquels  le  nomhre  s'ensuit : 
+les  cinq  livres  de  Mo'ise,  savoir : 
+Genese,  Exode,  Levitique,  Nom- 
+BKES,  Deuteeonome.  Item.  Josub, 
+JuGES,  Ruth,  le  premier  et  le  se- 
+cond livres  de  Samuel,  le  premier 
+et  le  second  livres  des  Eois,  le  pre- 
+mier et  le  second  livres  des  Ciiro- 
+niques,  autrement  dits  Paralipo- 
+menon  ^  le  premier  livre  (^'Esdras. 
+Item,  jSTehemie,  le  livre  (^'Esther, 
+Job,  les  Psaumes  de  David,  les 
+Pkoverbes  ou  sentences  de  Salo- 
+mon ^  le  livre  de  Z'Ecclesiaste, 
+dit  le  Prbcheur;   le  Cantique  de 
+
+
+ble,  omnipotent;  who  is  all-wise, 
+all-good,  all-just,  and  all-merci- 
+ful. 
+
+II.  As  such  this  God  reveals  him- 
+self to  men ;  firstly,  in  his  works, 
+in  their  creation,  as  well  as  in  their 
+preservation  and  control.  Second- 
+ly, and  more  clearly,  in  his  Word, 
+which  was  in  the  beginning  reveal- 
+ed through  oracles,  and  which  was 
+afterward  committed  to  writing  in 
+the  books  which  we  call  the  Holy 
+Scriptures. 
+
+III.  These  Holy  Scriptures  are 
+comprised  in  the  canonical  books 
+of  the  Old  and  New  Testaments,  as 
+follows:  the  five  books  of  Moses, 
+namely:  Genesis,  Exodus,  Leviti- 
+cus, Numbers,  Deuteronomy  ;  then 
+Joshua,  Judges,  Ruth,  the  first  and 
+second  books  of  Samuel,  the  first 
+and  second  books  of  the  Kings,  the 
+first  and  second  books  of  the  Chron- 
+icles, otherwise  called  Paralipome- 
+non,  the  first  book  of  Ezra  ;  then 
+Nehe^hah,  the  book  of  Esther,  Job, 
+the  Psalms  of  David,  the  Proverbs 
+or  Maxims  of  Solomon ;  the  book 
+of  EccLESiASTES,  Called,  the  Preach- 
+er, the  Song  of  Solomon  ;  then  the 
+book  of  Isaiah,  Jeremiah,  Lamen- 
+
+
+'  Je'r.  X.  7, 10;  Luc.  i.  37. 
+=  Rom.  xvi.  27. 
+^  Matt.  xix.  17. 
+
+
+*  Jcr.  xii.  1. 
+
+*  Exode  xxxiv.  6,  7. 
+«  Rom.  i.  20. 
+
+■"  He'b.  i.  4. 
+
+
+^  Gen.  XV.  1. 
+
+^  Exode  xxiv.  3,  4. 
+
+"  Rom.  i.  2. 
+
+
+I 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.D.  1559. 
+
+
+361 
+
+
+Salomon.  Item,  le  livre  (^'Esaie, 
+Jerkmie,  Lamentations  de  Jert- 
+viiie^  EzECiiiEL,  Daniel,  Osee,  Joel, 
+Amos,  Abdias,  Jonas,  Miciiee,  Na- 
+iiUM,  Abakuk,  Sophonte,  Aggee, 
+Zaciiaeie,  Malachie.  Item,  le  saint 
+Evangile  selon  saint  Mattiiieu, 
+selon  saitit  Makc,  seIo7i  saint  Luc, 
+et  selon  saint  Jean.  Item,  le  second 
+livre  de  saint  Luc,  autrement  dit 
+les  AcTES  des  A])6tres.  Item,  les 
+Ejntres  de  saint  Paid,  aux  Ro- 
+MA.INS  une,  aux  Corinthiens  deux, 
+aux  Galates  iine,  aux  Epiiesiens 
+une,  aux  Piiilippiens  une,  aux  Co- 
+lossiens  une,  aux  Tiiessaloniciens 
+deiix,  ci  TiMOTiiEE  deux,  d  Tite  une, 
+a  Philemon  une.  Item,  VEpttre 
+aux  IIebeeux,  VEpitre  de  saint 
+Jacques,  la  preinitre  et  la  seconde 
+Epitres  de  saint  Pierre,  la  jpre- 
+mitre,  la  deuxieme,  et  la  troisihne 
+Epitres  de  saint  Jean,  VE^Ure  de 
+saint  JuDE.  Item,  ^Apocalypse 
+ou  lUvtlation  de  saint  Jean. 
+
+IV.  Nous  connaissons  ces  livres 
+etre  canoniques,  et  la  regie  tres- 
+certaine  de  notre  foi^  non  tant 
+par  le  commun  accord  et  consen- 
+tement  de  VEglise,  que  jpar  le  te- 
+inoignage  et  ^persuasion  interieure 
+dii  Saint- Esj)r it,  qui  nous  les  fait 
+discerner  d'avec  les  autves  livres 
+ecclesiastiques,  sur  lesquels,  encore 
+
+
+tations  of  Jeremiah,  Ezekiel,  Dan- 
+iel, HosEA,  Joel,  Amos,  Obadiaii, 
+Jonah,  Micah,  Nahum,  IIabakkuk, 
+Zephaniah,  Haggai,  Zechariah, 
+Malachi;  then  the  Holy  Gospel 
+according  to  St.  Matthew,  accord- 
+ing to  St.  Mark,  according  to  St. 
+Luke,  and  according  to  St.  John  ; 
+then  the  second  book  of  St.  Luke, 
+otherwise  called  the  Acts  of  the 
+Apostles;  then  the  Epistles  of  St, 
+Paul  :  one  to  the  Romans,  two  to 
+the  Corinthians,  one  to  the  Gala- 
+tians,  one  to  the  Ephesians,  one  to 
+the  Philippians,  one  to  the  Colos- 
+siANS,  two  to  the  Thessalonians, 
+two  to  Timothy,  one  to  Titus,  one 
+to  Philemon;  then  the  Epistle  to 
+the  Hebrews,  the  Epistle  of  St. 
+James,  the  first  and  second  Epis- 
+tles of  St.  Peter,  the  first,  second, 
+and  third  Epistles  of  St.  John,  the 
+Epistle  of  St.  JuDE ;  and  then  the 
+Apocalypse,  or  Revelation  of  St. 
+John. 
+
+IV.  "We  know  these  books  to  be 
+canonical,  and  tlie  sure  rule  of  our 
+faith,  not  so  much  by  the  common 
+accord  and  consent  of  the  Church, 
+as  by  the  testimony  and  inward 
+illumination  of  the  Holy  Spirit, 
+which  enables  us  to  distinguish 
+them  from  other  ecclesiastical 
+books  upon  M-hich,  however  useful, 
+
+
+'  Psa.  xix.  9;  xii.  7. 
+
+
+302 
+
+
+SYMBOL  A  EVANGELIC  A. 
+
+
+quHls  soient  utiles,  on  ne  j9<??^?; 
+fonder  aucun  article  de  foi. 
+
+Y.  JVoiis  croyons  que  la  Parole 
+qui  est  contenue  en  ces  llvres,  est 
+jprocedee  de  Dieu,^  duquel  seul  elle 
+jprend  son  autorite^  et  non  des 
+hoinmes.  Et  d'autant  qu^elle  est 
+la  regie  de  toute  verite^  contenant 
+tout  ce  qui  est  ntcessaire  pour  le 
+service  de  Dieu  et  de  not  re  salut, 
+il  rCest  jpas  loisihle  aux  homines, 
+ni  Tneme  aux  Anges,  d''y  ojouter, 
+diminuer  ou  changer.^  Uou  il 
+iensuit  que  ni  Vaoitiquite,  ni  les 
+coutumes,  ni  la  multitude,  ni  la 
+sagesse  humaine,  ni  les  jugements, 
+ni  les  arrets,  ni  les  edits,  ni  les  de- 
+er ets,  ni  les  conciles,  ni  les  visions, 
+ni  les  rnii'acles,  ne  doivent  etre 
+opposes  a  cette  Ecriture  sainte,^ 
+mais,  au  contraire,  toutes  choses 
+doivent  etre  examinees,  reglees  et 
+reformees  selon  elle^  Et  suivant 
+cela,  nous  avouons  les  trois  sym- 
+holes,  savoir :  des  Apotres,  de 
+Nicee,  et  d'' Athanase,  jMrce  qxCils 
+sont  con  formes  a  la  parole  de  Dieu. 
+
+VI.  Cette  Ecriture  sainte  nous 
+enseigne  qxCen  cette  seule  et  sirn- 
+ple  essence  divine,  que  nous  avons 
+confessee,  il  y  a  trois  personnes, 
+le  Pere,  le  Fils,  et  le  Saint- Esprit.'' 
+
+
+we  can  not  found  any  articles  of 
+faith. 
+
+V.  We  believe  that  the  Word 
+contained  in  these  books  has  pro- 
+ceeded from  God,  and  receives  its 
+authority  from  him  alone,  and  not 
+from  men.  And  inasmuch  as  it  is 
+the  rule  of  all  truth,  containing  all 
+that  is  necessary  for  the  service  of 
+God  and  for  our  salvation,  it  is  not 
+lawf  id  for  men,  nor  even  for  angels, 
+to  add  to  it,  to  take  away  from  it, 
+or  to  change  it.  AVhence  it  follows 
+that  no  authority,  whether  of  an- 
+tiquity, or  custom,  or  numbers,  or 
+human  wisdom,  or  judgments,  or 
+proclamations,  or  edicts,  or  decrees, 
+or  councils,  or  visions,  or  miracles, 
+should  be  opposed  to  these  Holy 
+Scriptures,  but,  on  the  contrary,  all 
+things  should  be  examined,  regu- 
+lated, and  reformed  according  to 
+them.  And  therefore  we  confess 
+the  three  creeds,  to  w'xi '.  the  Apos- 
+tles', the  Nicene,  and  the  Athana- 
+sian,  because  they  are  in  accordance 
+with  the  Woi-d  of  God. 
+
+VI.  These  Holy  Scriptures  teach 
+us  that  in  this  one  sole  and  sim- 
+ple divine  essence,  whom  we  have 
+confessed,  there  are  three  persons : 
+the  Father,  the  Son,  and  the  Holy 
+
+
+'  2  Tim.  iii.  15,16;  2  Pierre  i.  2L 
+^  Jean  iii.  31,  34;  1  Tim.  i.  15. 
+'  Jean  xv.  11;  Actes  xx.  27. 
+«  Deut.  xii.  32  ;  iv.  1 ;  Gal.  i.  8 ;  Apoc.  xxii. 
+18,19. 
+
+
+*  Matt.  XV.  9;  Actes  v.  28, 29. 
+
+«  1  Cor.  xi.  1 ,  2,  23. 
+
+'  Deut.  iv.  12;  Matt,  xxviii.  19;  2  Cor. 
+
+xiii.  14;  1  Jean  v.  7  [?]  ;  Jean  i.  1, 
+
+17,32. 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.D.  lo59. 
+
+
+3G3 
+
+
+Le  Pere,  jpremilre  cause ^  jprincijpe 
+et  origine  de  toutes  choses.  Le 
+Fits,  sa  parole  et  sapience  eter- 
+nelle.  Le  Saint- Esprit^  sa  vert  a, 
+puissance  et  ejjicace.  Le  Fils  eter- 
+nellcment  engendrt  du  Pere.  Le 
+Saint-Esprit  p)'^ocedant  eterneUe- 
+ment  de  tons  deux,  les  trois  per- 
+sonnes  non  confuses,  mais  dis- 
+iinctes,  et  toutefois  non  divisees, 
+mais  d'une  tnane  essence,  eternite, 
+jniissance  et  egalite.  Et  en  cela 
+avouons  ce  qui  a  He  determine, 
+par  les  conciles  anciens,  et  de- 
+testons  toutes  sectes  et  heresies  qui 
+ont  He  rejetees  par  les  saints  doc- 
+teurs,  comme  saint  Llilaire,  saint 
+Athanase,  saint  Amhroise,  et  saint 
+Cyrille. 
+
+VII.  Nous  croyons  que  Dieu  en 
+trois  per sonnes  cooperantes,par  sa 
+vertu,  sagesse  et  bonte  incompre- 
+hensible, a  crte  toutes  choses,  non- 
+seulement  le  del,  la  terre  et  tout  ce 
+qui  y  est  contenu  ;  mais  aussi  les 
+esprits  invisibles,^  desquels  les  uns 
+sont  dec/ius  et  trebuches  en  perdi- 
+tion,^ les  autres  ont  persisie  en 
+obeissaiice?  Que  les  premiers 
+iHant  corrompus  en  malice,  sont 
+ennemis  de  tout  blen,  par  const- 
+quent  de  toute  VEglise.*"  Les  se- 
+conds ay  ant  ete  preserves  par  la 
+grace  de  Dieu,  so7it  tninistres pour 
+
+
+Spirit.  The  Father,  first  cause,  prin- 
+ciple, and  origin  of  all  things.  The 
+Son,  his  Word  and  eternal  wisdom. 
+The  Holy  Spirit,  his  virtue,  power, 
+and  eflBcacy.  The  Son  begotten 
+from  eternity  by  the  Father.  The 
+Holy  Spirit  proceeding  eternally 
+from  them  botli ;  4;he  three  persons 
+not  confused,  but  distinct,  and  yet 
+not  separate,  but  of  the  same  es- 
+sence, equal  in  eternity  and  power. 
+And  in  this  we  confess  that  which 
+hath  been  established  by  the  an- 
+cient councils,  and  we  detest  all 
+sects  and  heresies  which  w'ere  re- 
+jected by  the  holy  doctors,  such  as 
+St.  Hilary,  St.  Athanasius,  St.  Am- 
+brose, and  St.  Cyril. 
+
+VII.  We  believe  that  God,  in 
+three  co-working  persons,  by  his 
+power,  wisdom,  and  incomprehensi- 
+ble goodness,  created  all  things,  not 
+only  the  heavens  and  the  eai-th  and 
+all  that  in  them  is,  but  also  invisi- 
+ble spirits,  some  of  whom  have  fall- 
+en away  and  gone  into  perdition, 
+while  others  have  continued  in 
+obedience.  That  the  first,  being 
+corrupted  by  evil,  are  enemies  of 
+all  good,  consequently  of  the  whole 
+Church.  The  second,  having  been 
+preserved  by  the  grace  of  God,  are 
+ministers   to  glorify  God's   name. 
+
+
+'  Gen.  i.  1 ;  Jean  i.  3;  Jude  vi. ;  Coli.  16;  H^.  i.  2. 
+»  2  Pierre  ii.  4. 
+
+
+'  Psa.  ciii,  20,  21. 
+*  Jean  viii.  44. 
+
+
+364 
+
+
+SYMBOLA  EVANGELICA. 
+
+
+glorijier  le  nom  de  Dieu,  et  servir 
+au  salut  de  ses  elus} 
+
+VIII.  N'ous  croyons  que  non-seide- 
+ment  il  a  cree  toutes  choses^  mais 
+qiCil  les  gouverne  et  conduit^  dis- 
+j>osant,  ordonnant  selon  sa  volonte, 
+de  tout  ce  qui  advient  au  mondef^ 
+non  jpas  qiCil  soit  auteur  da  mat, 
+ou  que  la  couljpe  lui  en  jpuisse  etre 
+imjputee^  vu  que  sa  volontt  est  la  re- 
+gie souveraine  et  ififaillihle  de  toute 
+droiture  et  equite  j^  mais  il  a  des 
+raoyens  admirahles  de  se  servir  telle- 
+ment  des  diahles  et  des  mecJiants, 
+quHl  sait  convertir  en  Men  le  mal 
+qxCilsfont^  et  duquel  ils  sont  coiijpa- 
+hles^  Et  ainsi  en  confessant  que 
+rien  ne  se  fait  sans  la  providence 
+de  Dieu,  nous  adorons  en  humilite 
+les  secrets  qui  nous  sont  caches,  sans 
+nous  enquerir  jpar  -  dessus  notre 
+mesure^  mais  jplutot  ajppliquons  a 
+notre  usage  ce  qui  nous  est  mcntre 
+en  VEcriture  sainte  pour  Ure  en 
+rejpos  et  surete^  d^autant  que  Die%i^ 
+qui  a  toutes  choses  sujettes  a  soi, 
+veille  sur  nous  d^U7i  soin  paternel, 
+tellement  qxCil  ne  tomhera point  un 
+cheveu  de  notre  tete  sa7is  sa  volonte.^ 
+Et  cependant  il  tient  les  diahles  et 
+tous  nos  ennetnis  brides,  en  sorte 
+qiiHls  ne  nous  peuvent  faire  au- 
+cune  nuisance  sans  son  conge? 
+
+
+and  to  promote  the  salvation  of  liis 
+elect. 
+
+YIII.  "We  believe  that  lie  not  only 
+created  all  tilings,  but  that  he  gov- 
+erns and  directs  them,  disposing  and 
+ordaining  by  his  sovereign  will  all 
+that  happens  in  the  world ;  not  that 
+he  is  the  author  of  evil,  or  that  the 
+guilt  of  it  can  be  imputed  to  him, 
+as  his  will  is  the  sovereign  and  in- 
+fallible rule  of  all  right  and  justice ; 
+but  he  hath  wonderful  means  of  so 
+making  use  of  devils  and  sinners 
+that  he  can  turn  to  good  the  evil 
+which  they  do,  and  of  which  they 
+are  guilty.  And  thus,  confessing 
+that  the  providence  of  God  orders 
+all  things,  we  humbly  bow  before 
+the  secrets  which  are  hidden  to  us, 
+without  questioning  what  is  above 
+our  understanding ;  but  rather  mak- 
+ing use  of  what  is  revealed  to  us  in 
+Holy  Scripture  for  our  peace  and 
+safety,  inasmuch  as  God,  who  has 
+all  things  in  subjection  to  him, 
+watches  over  us  with  a  Father's 
+care,  so  that  not  a  hair  of  our 
+heads  shall  fall  without  his  will. 
+And  yet  he  restrains  the  devils 
+and  all  our  enemies,  so  that  they 
+can  not  harm  us  without  his 
+leave. 
+
+
+'  Heb.  i.7, 14. 
+
+'  Psa.  civ. 
+
+^  Prov.  xvi.  4  ;  Matt.  x.  29 ;  Rom.  ix.  11; 
+
+Actes  xvii.  24,  26,  28. 
+*  1  Jean  ii.  IC  ;  Osee  xiii.  9  ;  1  Jean  iii.  8. 
+
+
+^  Psa.  V.  5  ;   cxix. ;  Job  i.  22. 
+'  Actes  ii.  23,  24,  27. 
+'Rom.ix.l9,  20;  xi.  33. 
+8  Matt.  X.  30 ;  Luc  xxi.  18. 
+»  Jobi.  12;  Gen.  iii.  15. 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.  IX  i:,r,9. 
+
+
+365 
+
+
+IX.  N'ous  croyons  que  Vhomme 
+ayant  tte  creejpur  et  entier,  et  con- 
+forme  it  Vimage  de  Dieii,  est, par 
+sa  jprojyre  faute,  dtchu  de  la  grace 
+qu'il  avait  reque^  et  ainsi  s'est  ali- 
+ene  de  Dieu,  qui  est  lafontaine  de 
+justice  et  de  tons  Mens,  en  sorte 
+que  sa  nature  est  du  tout  corrom- 
+jpue.  Et  ttant  aveugle  en  son  es- 
+jprit,  et  deprave,  en  son  caiur,  a 
+perdu  toute  integritii  sans  avoir 
+rien  de  reste?  Et  Men  quHl  ait 
+encore  quelque  discretion  du  Men 
+et  du  mal^  nonobstant  nous  disons, 
+qiie  ce  qiCil  a  de  clarte,  se  convertit 
+en  tenebre^  quand  il  est  question  de 
+chercher  Dieu,  tellement  qiCil  n^en 
+pent  nulleinent  approcher par  son 
+intelligence  et  raison.*  Et  Men  qu^il 
+ait  une  volonte  par  laquelle  il  est 
+incite  afaire  ceci  ou  cela,  toutefois 
+elle  est  du  tout  captive  souspeche,  en 
+sorte  qiCil  n^a  nulle  liberie  a  Men, 
+que  celle  que  Dieu  lui  donne.^ 
+
+X.  Nous  croyons  que  toute  la 
+lignee  d^Adain  est  infectee  de  telle 
+contagion,  qui  est  lepeche  originel, 
+et  un  vice  hereditaire,  et  non  pas 
+seidement  une  imitation,  com ine  les 
+Pelagiens  ont  voidu  dire,  lesquels 
+nous  detestons  en  leurs  erreurs.  Et 
+1^ estimons  pas  qxCil  soil  besoin  de 
+^enqutrir  comme  le  ptchi  vient 
+d\in  ho7nme  a  V autre,  vie  que  c''est 
+
+
+IX.  We  believe  that  man  was 
+created  pure  and  perfect  in  the  im- 
+age of  God,  and  that  by  his  own 
+guilt  he  fell  from  the  grace  which 
+he  received,  and  is  thus  alienated 
+from  God,  the  fountain  of  justice 
+and  of  all  good,  so  that  his  nature 
+is  totally  corrupt.  -And  being  blind- 
+ed in  mind,  and  depraved  in  heart, 
+he  has  lost  all  integrity,  and  there 
+is  no  good  in  him.  And  although 
+he  can  still  discern  good  and  evil, 
+we  say,  notwithstanding,  that  the 
+light  he  has  becomes  darkness  when 
+he  seeks  for  God,  so  that  he  can  in 
+nowise  approach  him  by  his  intel- 
+ligence and  reason.  And  although 
+he  has  a  will  that  incites  him  to  do 
+this  or  that,  yet  it  is  altogether  cap- 
+tive to  sin,  so  that  he  has  no  other 
+liberty  to  do  right  than  that  which 
+God  gives  him. 
+
+
+X.  We  believe  that  all  the  pos- 
+terity of  Adam  is  in  bondage  to 
+original  sin,  which  is  an  hereditary 
+evil,  and  not  an  imitation  merely, 
+as  was  declared  by  the  Pelagians, 
+whom  we  detest  in  their  errors. 
+And  we  consider  that  it  is  not 
+necessary  to  inquire  how  sin  was 
+conveyed  from  one  man  to  anoth- 
+er, for  what  God  had  given  Adam 
+
+
+•  Gen.  i.  26  ;  Eccle's.  vii.  10 ;   Rom.  v,  12  ; 
+
+Ephes.  ii.  2,  3. 
+'  Gen.  vi.  5:  viii.  21. 
+
+
+^Rom.  i.  21;  ii.  18-20. 
+
+♦  1  Cor.  ii.14. 
+
+*  Jean  i.  4,  f),  7 ;  viii.  3G  ;  Rom.  viii.  G,  7. 
+
+
+366 
+
+
+SYMBOLA  EVANGELICA. 
+
+
+assez,  que  ce  que  Dieu  lui  avait 
+donnt  iTbttait  j^as  pour  lui  seul, 
+maispour  toute  sa  lignee ;  et  ain- 
+si,  qu'e?i  la  jpe7'Sonne  cVicelui  nous 
+avons  He,  denues  de  tous  hiens,  et 
+sommes  irebuches  en  toute pauvrete 
+et  malediction} 
+
+XL  J^ous  croyons  aussi  que  ce 
+vice  est  vraiment  peche,  qui  suffit  a 
+conda7nner  tout  le  genre  humain, 
+jusqiC aux jpetits  ertfants  des  le  ven- 
+tre de  la  mere,  et  quejpour  tel  il  est 
+repute  devant  Dieu  ^"^  merae  qiCa- 
+jpres  le  ha/pteme,  c^est  toujoursjpeclie 
+quant  a  la  coidpe,  Men  que  la  con- 
+damnation  en  soit  abolie  aux  en- 
+fants  de  Dieu,  ne  la  leur  im/putant 
+point jpar  sa  honte  gratuite}  Outre 
+cela,  que  c'est  une  perversite  pro- 
+duisant  toujours  des  fruits  de  ma- 
+lice et  de  rebellion,^  tels  que  les  j^lus 
+saints,  encore  qiCils  y  resistent,  ne 
+laissent point  d'^etre  entacMs  dHn- 
+firmites  et  de  fautes pendant  quails 
+habitcnt  en  ce  monde!' 
+
+XII.  Nous  croyons  que  de  cette 
+corruj)tion  et  condamnation  gene- 
+rale,  en  laquelle  tous  les  hommes 
+sont  plonges,  Dieu  retire  ceux  les- 
+qtiels  en  son  conseil  eternel  et  im- 
+inuable  il  a  elus par  sa  seule  bonte 
+ct  misericorde  en  notre  Seigneur 
+Jesus-Christ,  sans  consideration  de 
+
+
+was  not  for  him  alone,  but  for 
+all  liis  posterity;  and  thus  in  his 
+person  we  have  been  deprived  of 
+all  good  things,  and  have  fallen 
+with  him  into  a  state  of  sin  and 
+misery. 
+
+XI.  We  believe,  also,  that  this 
+evil  is  truly  sin,  sufficient  for  the 
+condemnation  of  the  whole  human 
+race,  even  of  little  children  in  the 
+mother's  womb,  and  that  God  con- 
+siders it  as  such;  even  after  bap- 
+tism it  is  still  of  tlie  nature  of  sin, 
+but  the  condemnation  of  it  is 
+abolished  for  the  children  of 
+God,  out  of  his  mere  free  grace 
+and  love.  And  further,  that  it  is  a 
+perversity  always  producing  fruits 
+of  malice  and  of  rebellion,  so 
+that  the  most  lioly  men,  although 
+they  resist  it,  are  still  stained 
+with  many  weaknesses  and  im- 
+perfections while  they  are  in  this 
+life. 
+
+XII.  We  believe  that  from  this 
+corruption  and  general  condemna- 
+tion in  which  all  men  are  plunged, 
+God,  according  to  his  eternal  and 
+immutable  counsel,  calleth  those 
+whom  he  hath  chosen  by  his  good- 
+ness and  mercy  alone  in  our  Lord 
+Jesus  Christ,  without  consideration 
+
+
+'  Gen.  viii.  21 ;   Eom.  v,  12  ;   Job 
+
+xiv.  4. 
+»  Psa.  li.  7 ;  Rom.  iii.  9-1 3  ;  v.  1 2, 
+
+
+^  Rom.  vii. 
+
+*  Rom.  vii.  5. 
+
+'  Rom.  vii.  18, 19  ;  2  Cor.  xii.  7. 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.D.  loo9. 
+
+
+3G7 
+
+
+leurs  (x-uvres^  laissant  les  autres  en 
+cette  mane  comiption  et  condam- 
+nation^ l)Our  dhnontrer  en  eux  sa 
+justice,  comnie  auxjpremiers  ilfait 
+luire  les  richesses  de  sa  viiseri- 
+corde?  Car  les  uns  ne  sont  point 
+meilleurs  que  les  aictres,jusqu''d  ce 
+que  Dieu  les  discerne,  selon  son  con- 
+seil  immuahle  qiCil  a  determine  en 
+Jesus-Christ  devant  la  creation  du 
+monde;  et  nul  aussi  ne  sejpourrait 
+introduire  a  iin  tel  bien  de  sa pi'O- 
+pre  vertu,  vu  que  de  notre  nature 
+nous  ne pouvo7is  avoir  un  seal  hon 
+mouvement,  ni  affection,  nijyensee, 
+jusqu'u  ce  que  Dieu  nous  aitpre- 
+venus  et  tious  y  ait  disposes.^ 
+
+XIII.  iVows  croyons  qiCen  icelui 
+Jesus-Christ  tout  ce  qui  etait  re- 
+quis  a  noire  salut  nous  a  He  offert 
+et  communique.  Lequel  nous  etant 
+donne  a  salut,  nous  a  tie  quant  et 
+quant  fait  sapience,  sanctification 
+et  redemption :  en  sorte  qiCen  de- 
+clinant  de  lui,  on  renonce  a^la  tni- 
+sericorde  duPlre,  oil  il  nous  convi- 
+ent  avoir  refuge  uniqiie.^ 
+
+XIV.  Nous  croyons  que  Jesus- 
+Christ  etant  la  sag  esse  de  Dieu,  et 
+son  Fils  eternel,  a  revetu  notre  chair, 
+afin  d^etre  Dieu  et  homme  en  une 
+personnel  meme  homme  semhlahle 
+a  nous, passible  en  corps  et  en  mne. 
+
+
+of  their  works,  to  display  in  them 
+the  riclies  of  his  mercy ;  leaving 
+the  rest  in  this  same  corruption 
+and  condemnation  to  show  in 
+them  his  justice.  For  the  ones  are 
+no  better  than  the  others,  until 
+God  discerns  them  according  to 
+liis  iminutable  purpose  which  he 
+has  determined  in  Jesus  Christ  be- 
+fore the  creation  of  the  M'orld. 
+Neither  can  any  man  gain  such  a 
+reward  by  his  own  virtue,  as  by 
+nature  we  can  not  liave  a  single 
+good  feeling,  affection,  or  thonght, 
+except  God  has  first  put  it  into 
+our  hearts. 
+
+XIII.  We  believe  that  all  that  is 
+necessary  for  our  salvation  was  of- 
+fered and  communicated  to  ns  in 
+Jesus  Christ.  He  is  given  to  us 
+for  our  salvation,  and  'is  made  unto 
+us  wisdom,  and  righteousness,  and 
+sanctification,  and  redemption  :'  so 
+that  if  we  refuse  liim,  we  renounce 
+the  mercy  of  the  Father,  in  which 
+alone  we  can  find  a  refuge. 
+
+XIV.  We  believe  that  Jesus 
+Christ,  being  the  wisdom  of  God 
+and  his  eternal  Son,  has  put  on  our 
+flesh,  so  as  to  be  God  and  man  in 
+one  person ;  man,  like  unto  us, 
+capable  of  suffering  in  body  and 
+
+
+•  Rom.  iii.  2 ;   ix.  23 ;    2  Tim.  ii.  20 ; 
+
+Titc  iii.  "),  7  ;  Ephc's.  i.  4  ;   2  Tim. 
+
+i.  D. 
+»  Exodc  ix.  10  ;  Rom.  ix.  22. 
+
+
+'  Jer.  X.  23  ;  Ephe's.  i.  4,  5. 
+
+«  1  Cor.  i.  30 ;  Ephe's.  i.  6,  7 ;  Col.  i.  13, 
+
+14;  Tite  ii.  14. 
+*  Jean  i.  14  ;  Philip,  ii.  G. 
+
+
+I 
+
+
+368 
+
+
+SYMBOL  A  EVANGELICA. 
+
+
+sinon  en  tant  qu^il  a  etepur  de  touts 
+macule}  Et  quant  a  son  humajiite, 
+qvDil  a  tie,  vraie  sentence  d^ Abra- 
+ham et  de  David,^  Men  quHl  ait  ete 
+congujpar  la  vertu  secrete  du  Saint- 
+Esjprit?  En  quoi  nous  detestons 
+toutes  les  heresies  qui  ont  ancienne- 
+inent  trouble  les  Eglises  ;  et  notam- 
+ment  aussi  les  imaginations  dia- 
+holiques  de  Servet,  lequel  attribue 
+au  Seigneur  Jesus  line  divinitefan- 
+tastique,  d^autant  qu)il  le  dit  etre 
+idee  et 2)citTon  de  toutes  choses,  et  le 
+nomme  Fils  persojinel  oufiguratif 
+de  Dieu  ;  et  finalement  lui  forge 
+un  corps  de  trois  elements  increes, 
+ainsi  mele  et  detruit  toutes  les  deux 
+natures. 
+
+XV.  Hous  croyons  qiCen  xme 
+meme  personne,  savoir,  Jesus- 
+Christ,  les  deux  natures  sont  vrai- 
+ment  et  inseparablement  conjointes 
+et  unies^demeurant  neanmoins  cha- 
+cune  nature  en  sa  projpriete  dis- 
+tincte  ;*  tellement  que  comme  en 
+cette  conjonction  la  nature  divine 
+retenant  sa  projpriHe,  est  demeuree 
+increee,  hifinie  et  remplissant  toutes 
+choses  y  aussi  la  nature  humaine 
+est  demeuree  Jinie,  a^yant  sa  forme, 
+tnesure  et  j^ropriete  j^  etrnemebien 
+que  Jesus-Christ  en  ressuscitaiit  ait 
+donne  V immortalite  cL  son  corps, 
+
+
+soul,  yet  free  from  all  stain  of 
+sin.  And  as  to  his  liiinianity,  he 
+was  the  true  seed  of  Abraham 
+and  of  David,  although  he  was 
+conceived  by  the  secret  power 
+of  the  Holy  Spirit.  In  this  w^e 
+detest  all  the  heresies  that  have 
+of  old  troubled  the  Church,  and 
+especially  the  diabolical  conceits 
+of  Servetus,  which  attribute  a  fan- 
+tastical divinity  to  the  Lord  Je- 
+sus, calling  him  the  idea  and  pat- 
+tern of  all  things,  and  the  per- 
+sonal or  figurative  Son  of  God, 
+and,  finally,  attribute  to  him  a 
+body  of  three  uncreated  elements, 
+thus  confusing  and  destroying  the 
+two  natures. 
+
+XY.  We  believe  that  in  one 
+person,  that  is,  Jesus  Christ,  the 
+two  natures  are  actually  and  in- 
+separably joined  and  united,  and 
+yet  each  remains  in  its  proper 
+character:  so  that  in  tliis  union 
+the  divine  nature,  retaining  its 
+attributes,  remained  uncreated,  in- 
+finite, and  all  -  pervading  ;  and 
+the  human  nature  remained  finite, 
+having  its  form,  measure,  and 
+attributes ;  and  although  Jesus 
+Christ,  in  rising  from  the  dead, 
+bestowed  immortality  upon  his 
+bod}',  yet  he   did   not  take   from 
+
+
+'  Heb.  ii.l7;  2  Cor.  v.  21, 
+
+"  Actes  xiii.  23;  Rom.  i.  3;  viii.3;  ix.  5; 
+
+Philip,  ii.  7;  Heb.  ii.  14, 16 ;  v. 
+^  Matt.  i.  18;  Luc  i.  35. 
+
+
+*  Matt.  i. ;  Luc  i. ;  Jean  i.  14 ;   1  Tim. 
+
+ii.  5  ;  iii.  IG  ;  He'b.  v.  8. 
+
+*  Luc  xxiv.  38,  39  ;   Rom.  i.  4 ;  Philip. 
+
+ii.  6-11. 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.D.  1559. 
+
+
+309 
+
+
+toutefols  il  ne  lui  a  jpas  ote  la  veri- 
+te  de  sa  nature.  Et  ainsi^  nous  le 
+considerons  tellement  en  sa  divini- 
+U,  que  nous  ne  le  dejjouillons 2>oint 
+de  son  humanite. 
+
+XYI.  Ifous  croyons  que  Dleu  en- 
+voy a7it  son  Fils,  a  voidu  montrer 
+S071  amour  et  honte  inestimable  en- 
+vers  nous,  en  le  livrant  a  la  mort, 
+et  le  ressuscitant  joour  accomjplir 
+toute  justice  et  pour  nous  acqxierir 
+la  vie  celeste} 
+
+XVII.  JSTous  croyons  qtie  jyar  le 
+sacrifice  unique  que  le  Seigneur 
+Jesus  a  offert  en  la  croix^  nous 
+sommes  reconcllies  d  Dieu  jpour 
+etre  tenus  et  rtputes  justes  devant 
+lui,parce  que  nous  ne  lui pouvons 
+etre  agreahles,  ni  Hre  participants 
+de  son  adoption,  sinon  d'^autant 
+qxCil  nous  pardonne  nos  fautes,  et 
+les  ensevelit?  Ainsi  nous  protes- 
+tons  que  Jesus-Christ  est  notre  lave- 
+ment entier  et  p>cirfait,  qxCen  sa 
+mort  nous  avons  entiere  satisfac- 
+tion, pour  nous  acquitter  de  nos 
+forfaits  et  iniquitts  dont  nous 
+sommes  coupahles,  et  ne  pouvons 
+etre  delivres  que  par  ce  remede} 
+
+XYIII.  I^ous  croyons  que  toute 
+notre  justice  estfondee  en  la  remis- 
+sion de  nospeehes,  comme  aussi  c'est 
+notre  sexde  felicite,  comme  dit  Da- 
+vid!'   C  est  p)Ourquoi  nous  rejetons 
+
+
+it  the  truth  of  its  nature,  and  we 
+so  consider  him  in  his  divinity 
+that  we  do  not  despoil  him  of  liis 
+humanity. 
+
+XVI.  We  believe  that  God,  in 
+sending  his  Son,  intended  to  show 
+his  love  and  inestimable  goodness 
+towards  us,  giving  him  up  to  die  to 
+accomplish  all  righteousness,  and 
+raising  him  from  the  dead  to  se- 
+cure for  us  the  heavenly  life. 
+
+XVII.  We  believe  that  by  the 
+perfect  sacrifice  that  the  Lord  Je- 
+sus offered  on  the  cross,  we  are 
+reconciled  to  God,  and  justified 
+before  him ;  for  we  can  not  be 
+acceptable  to  liim,  nor  become 
+partakers  of  the  grace  of  adop- 
+tion, except  as  he  pardons  [all] 
+our  sins,  and  blots  them  out. 
+Thus  we  declare  that  through 
+Jesus  Christ  we  are  cleansed  and 
+made  perfect;  by  his  death  we 
+are  fully  justified,  and  through 
+him  only  can  we  be  delivered 
+from  our  iniquities  and  trans- 
+gressions. 
+
+XVIII.  We  believe  that  all 
+our  justification  rests  u])on  the 
+remission  of  our  sins,  in  which 
+also  is  our  only  blessedness,  as 
+saith  the  Psalmist  (Psa.  xxxii.  2). 
+
+
+'  Jean  iii.  1 G ;  xv.  1 3. 
+
+»  2  Cor.  V.  19  ;  Ileb.  v.  7-9. 
+
+'  1  Pierre  ii.  24,  25. 
+
+
+*  He'b.  ix.  14 ;  Ephe's.  v.  2C ;  1  Pierre  i.  18, 19. 
+
+*  Psa.  xxxii.  2  ;  Jciin  xvii.  23  ;  Rom.  iv.  7,  8 ; 
+
+viii.1-3;  2  Cor.  v.  19,  20. 
+
+
+370 
+
+
+SYMBOLA  EVANGELICA. 
+
+
+tous  autres  moyens  de  nous jpouvoir 
+justijier  devant  Dieu  /^  et  sans  pre- 
+sumer  de  nulles  vertus,  ni  nieriies, 
+nous  nous  tenons  sinijplenient  a  Vo- 
+belssance  de  Jisus- Christ,  laqiielle 
+nous  est  allouee,  tantpour  couvrir 
+toutes  nos  f antes,  que  pour  nous 
+faire  trouver  grace  et  faveiir  de- 
+vant Dieu.  Et  defait,  nous  croy- 
+ons  qii'en  declinant  de  ce  foiide- 
+rtient,  tantpeu  que  ce  soit,  tious  ne 
+2)Ourrio7is  trouver  ailleurs  aiccun 
+repos,  mais  serious  toujours  agites 
+d^inquittude :  d''autant  que  jamais 
+nous  ne  somm.es  p)aisihles  avec 
+Dieu,jusqu^d  ce  que  nous  soyons 
+hien  resolus  d''etre  aimes  en  Jesus- 
+Christ,  mi  que  nous  sonimes  dignes 
+d''etre  hdis  en  nousmemes. 
+
+XIX.  I^ous  croyons  que  d  est  par 
+ce  nioyen  que  nous  avons  liberie  et 
+privilege  dHnvoquer  Dieu,  avec 
+pleine  fiance  quiH  se  montrera  no- 
+ire Pere?  Car  nous  oi^aurions  au- 
+cun  acces  au  Plre,  si  nous  n^etions 
+adressespar  ce  mediateur.  Etpour 
+tire  exauces  en  so7i  nom,  il  convient 
+tenir  noire  vie  du  lui,  comnie  de 
+noire  chef. 
+
+XX.  Nous  croyons  que  nous 
+sommes  faits  p)articipants  de  cette 
+justice  par  la  seule  foi,  comnie  il 
+est  dii  qiCil  a  souffert  pour  nous 
+acquerirle  salut,afin  que  quiconque 
+
+
+We  therefore  reject  all  other 
+means  of  justification  before  God, 
+and  without  claiming  any  vir- 
+tue or  merit,  we  rest  simply 
+in  the  obedience  of  Jesus  Christ, 
+which  is  imputed  to  us  as  much 
+to  blot  out  all  our  sins  as  to 
+make  lis  find  grace  and  favor 
+in  the  sight  of  God.  And,  in 
+fact,  w^e  believe  that  in  falling 
+away  from  this  foundation,  how- 
+ever slightly,  we  could  not  find 
+rest  elsewhere,  but  should  always 
+be  troubled.  Forasmuch  as  we 
+are  never  at  peace  with  God  till 
+we  resolve  to  be  loved  in  Jesus 
+Christ,  for  of  ourselves  we  are 
+worthy  of  hatred. 
+
+XIX.  We  believe  that  by  this 
+means  we  have  the  liberty  and  priv- 
+ilege of  calling  upon  God,  in  full 
+confidence  that  he  will  show  him- 
+self a  Father  to  us.  For  we  should 
+have  no  access  to  the  Father  except 
+through  this  Mediator.  And  to  be 
+heard  in  his  name,  we  must  hold 
+our  life  from  him  as  from  our 
+chief, 
+
+XX.  We  believe  that  we  are 
+made  partakers  of  this  justifica- 
+tion by  faith  alone,  as  it  is  -writ- 
+ten :  '  lie  suffered  for  our  salva- 
+tion, that  whosoever  belie vetli  on 
+
+
+*  1  Tim.  ii.  5  ;  1  Jean  ii.  1 ;  Rom.  v.  19  ; 
+Actes  iv.  1 2. 
+
+
+^  Rom.  V.  12  ;  viii.  15  ;  Gal.  iv.  4-7; 
+Ephes.ii.  13-15. 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.D.  1559. 
+
+
+371 
+
+
+croira  en  lui,  ne perisse point}  Et 
+que  cela  se  fait,  d^autant  que  les 
+jpromesses  de  vie  qui  nous  sont  don- 
+nees  en  lui,  sont  ajiq)roj)i'iees  a  notre 
+usage,  et  en  sentons  Veffet  quand 
+nous  les  acGepio7is,  ne  doutant point 
+qiCetant  assures  par  la  louche  de 
+Dieu,  nous  ne  serons  point  frus- 
+tres."  A'msi  la  justice  que  nous 
+ohtenons  j^ar  la  foi,  depend  des 
+promesses  gratuites  par  lesquelles 
+Dieu  nous  declare  et  testifie  qiCil 
+nous  aAme? 
+
+XXI.  Nous  croyons  que  nous 
+sommes  illumines  en  lafoip)ar  la 
+grace  secrete  du  Saint-Esprit,  telle- 
+ment  que  c'est  im  don  gratuit  et 
+particulier  que  Dieu  dpart  a  ceux 
+que  bon  lui  semble,  en  sorte  que  les 
+jideles  n^ont  de  quoi  s^en  glorifier, 
+ttant  obliges  au  double,  de  ce  qxCils 
+ont  ete  pireferes  aux  autres}  Meme 
+que  la  foi  n^  est  pas  seulement  bail- 
+lee  pour  un  coup  aux  elus pour  les 
+introduire  au  bon  cliemin,  nnais 
+pour  les  y  faire  continuer  aussi 
+jusqiCau  bout.^  Car  comme  dest 
+d  Dieu  de  faire  le  commencement, 
+aussi  Sest  d  lui  de parachever.^ 
+
+XXII.  Nous  croyons  que,  par 
+cettefoi,  nous  soinmes  regeneres  en 
+nouveaute  de  vie,  etant  naturelle- 
+
+
+him  should  not  perish.'  And 
+this  is  done  inasmuch  as  "sve  ap- 
+propriate to  our  use  the  prom- 
+ises of  Hfe  which  are  given  to 
+us  through  him,  and  feel  their  ef- 
+fect when  we  accept  them,  being 
+assured  that  we  are  established 
+by  the  Word  of  God  and  shall 
+not  be  deceived.  Thus  our  jus- 
+tification through  faith  depends 
+upon  the  free  promises  by  which 
+God  declares  and  testifies  his  love 
+to  us. 
+
+XXI.  We  believe  that  we  are 
+enlightened  in  faith  by  the  secret 
+power  of  the  Holy  Spirit,  that  it 
+is  a  gratuitous  and  special  gift 
+which  God  grants  to  whom  he 
+will,  so  that  the  elect  have  no 
+cause  to  glory,  but  are  bound  to 
+be  doubly  thankful  that  they  have 
+been  preferred  to  others.  We 
+believe  also  that  faith  is  not 
+given  to  the  elect  only  to  intro- 
+duce them  into  the  right  way,  but 
+also  to  make  them  continue  in  it 
+to  the  end.  For  as  it  is  God  who 
+hath  begun  the  work,  he  will  also 
+perfect  it. 
+
+XXII.  We  believe  that  by  this 
+faith  we  are  regenerated  in  new- 
+ness of  life,  being  by  nature  sub- 
+
+
+'  Rom.  iii. ;  Gal.  ii. ;  iii.  24  ;  Jean  iii.  l."*. 
+'  Matt.  xvii.  20  ;  Jean  iii.  IG,  17;  x,  4. 
+'  Rom.  i.  17 ;  iii.  24,  25,  27,  30 ;  iv.  1-3  ; 
+Gal.  ii.  20,21. 
+
+
+♦  Ephes.  ii.  8 ;  I  Thess.  i.  5  ;  1  Cor.  ii.  12; 
+
+2  Pierre  i.  3, 4. 
+»  1  Cor.  i.  8, 9. 
+'Philip,  ii,  13;  i.  G. 
+
+
+372 
+
+
+SYMBOLA  EVANGELICA. 
+
+
+vient  asservis  a  jpeche}  Or,  notis 
+recevons  2M)\foi  la  grace  de  vivre 
+saintement,  et  en  la  crainte  deDieu, 
+en  recevant  la  jpromesse  qui  nous 
+est  donnee  jpar  V Evangile,  savoir, 
+que  Dieu  nous  donnera  son  Saint- 
+Esjprit.  Ainsi  lafoi  non-seulement 
+ne  refroidit ])as  V affection  de  hien 
+et  saintement  vivre,  mais  Vengendre 
+et  excite  en  nous,produisant  neces- 
+sairement  les  honnes  ce.uvres?'  Au 
+Teste, hien  que Dieu,pour  accomplir 
+notre  salut,  nous  regenere,  nous  re- 
+formant  a  hien  faire^  toutefois 
+nous  confessons  que  les  honnes  oeu- 
+vres  que  nous  faisons jjyar  la  condu- 
+ite  de  son  Esprit,  ne  viennent point 
+en  cowpte  pour  nous  justiffer,  ou 
+meriter  que  Dieu  nous  tienne pour 
+ses  enfant$,parce  que  nous  serions 
+toujoursflottants  en  doute  et  inqxii- 
+etude,  si  nos  conscietices  ne  s'appuy- 
+aient  surla  satisfactionparlaquelle 
+Jksus- Christ  nous  a  acquittes.*' 
+
+XXIII.  Ifous  croyons  que  toutes 
+les  figures  de  la  loi  ont  pins  fin  a 
+la  venue  de  Jesus -Christ.^  Mais 
+hien  que  les  ceremonies  ne  soient 
+plus  en  xisage,  neanmoins  la  suh- 
+stance  et  verite  nous  en  est  derneu- 
+ree  en  la personne  de  celui  aiiquel 
+git  tout  accoraplissement.^  Au,  sur- 
+
+
+ject  to  sin.  Now  we  receive  by 
+faith  grace  to  live  holily  and  in 
+the  fear  of  God,  in  accepting  the 
+promise  which  is  given  to  us  by 
+the  Gospel,  namel}' :  that  God  will 
+give  us  his  Holy  Spirit.  This 
+faith  not  only  doth  not  hinder  us 
+from  holy  living,  or  turn  us  from 
+the  love  of  righteousness,  but  of 
+necessity  begetteth  in  us  all  good 
+works.  Moreover,  although  God 
+worketh  in  us  for  our  salvation, 
+and  reneweth  our  hearts,  deter- 
+mining us  to  that  which  is  good, 
+yet  we  confess  that  the  good 
+works  which  we  do  proceed  from 
+his  Spirit,  and  can  not  be  ac- 
+counted to  us  for  justification, 
+neither  do  they  entitle  us  to  the 
+adoption  of  sons,  for  we  should 
+always  be  doubting  and  restless 
+in  our  hearts,  if  we  did  not  rest 
+upon  the  atonement  by  which  Je- 
+sus Christ  hath  acquitted  us. 
+
+XXIII.  We  believe  that  the  or- 
+dinances of  the  law  came  to  an 
+end  at  the  advent  of  Jesus  Christ ; 
+but,  although  the  ceremonies  are  no 
+more  in  use,  yet  their  substance  and 
+truth  remain  in  the  person  of  him 
+in  whom  they  are  fulfilled.  And, 
+moreover,  we  must  seek  aid  from 
+
+
+'  Eom.  vi.  1,2;   vii.  1,2;   Col.  i.  13 ;   iii. 
+
+10;   IPiene  i.  3. 
+'  Jacq.  ii. ;  Gal.  v.  6  ;  1  Jean  ii.  3, 4 ;  V.  1 8. 
+=  Deut.  XXX.  6 ;  Jean  iii.  5. 
+
+
+*  Luc  xvii.  10 ;   Psa.  xvi.  2  ;   Rom.  iii. ; 
+
+Tite  iii.5  ;  Eom.  iv. 
+»  Rom.  X.  4  ;  Gal.  iii.,  iv. ;  Col.  ii.  1 7. 
+«  2  Tim.  iii.  16  ;  2  Pierre  i.  19  ;  iii.  2. 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.D.  1559. 
+
+
+373 
+
+
+j[>lus,  il  nous  f aid  aider  de  la  loi 
+et  des  jprophetes,  tant  pour  regler 
+notre  vie,  que  jpour  Hre  confirmts 
+aux  promesses  de  V Evangile. 
+
+XXIV.  Nous  crayons,  puisque 
+Jesus- Christ  nous  est  donne  pour 
+seul  avocat^  et  qiCil  nous  com- 
+mande  de  nous  retirer privtment  en 
+son  noni  vers  son  Plre  j"^  et  meme 
+qiCil  ne  nous  est  pas  licite  de  pri- 
+er,  sinon  en  suivant  la  forme  que 
+Dieu  nous  a  dicteepar  sa  Parole ^^ 
+que  tout  ce  que  les  hommes  out  im- 
+agine de  Vintercession  des  Saints 
+t repasses,  nbest  qiCahus  et  fallace 
+de  Satan,  pour  faire  devoyer  les 
+hommes  de  la  forme  de  hien  prier.^ 
+Nous  rejetons  aussi  tons  autres 
+moyens  que  les  hommes  presument 
+avoir  2)0ur  se  racheter  envers  Dieu, 
+comme  derogeants  au  sacrifice  de 
+la  mort  et  passion  de  Jesus- Christ. 
+
+Finalement,  nous  tenons  le  pur- 
+gato ire  pour  une  illusion  procedee 
+de  cette  meme  boutique,  de  laquelle 
+so)it  aussi procedes  les  voiux  mona- 
+stiques,  pelerinages,  defenses  du 
+mariage,  et  de  Vusage  des  viandes, 
+V  observation  ceremonielle  des  jours 
+la  confession  auriculaire,  les  in- 
+dulgences et  toutes  autres  telles 
+choses,par  lesquelles  on  pense  me- 
+riter  grace  et  salui.^    Lesquelles 
+
+
+the  law  and  the  prophets  for  the 
+ruling  of  our  lives,  as  well  as  for 
+onr  confirmation  in  the  promises 
+of  the  gospel. 
+
+XXIY.  We  believe,  as  Jesus 
+Christ  is  our  only  advocate,  and 
+as  he  commands  us  to  ask  of 
+the  Father  in  his  name,  and  as  it 
+is  not  lawful  for  us  to  pray  ex- 
+cept in  accordance  with  the  mod- 
+el God  hath  taught  us  by  his 
+Word,  that  all  imaginations  of 
+men  concerning  the  intercession 
+of  dead  saints  are  an  abuse  and 
+a  device  of  Satan  to  lead  men 
+from  the  right  way  of  wor- 
+ship. AVe  reject,  also,  all  other 
+means  by  which  men  hope  to  re- 
+deem themselves  before  God,  as 
+derogating  from  the  sacrifice  and 
+passion  of  Jesus  Christ. 
+
+Finally,  we  consider  purgatory 
+as  an  illusion  proceeding  from 
+the  same  source,  from  wliich  have 
+also  sprung  monastic  vows,  ])il- 
+grimages,  the  prohibition  of  mar- 
+riage, and  of  eating  meat,  the 
+ceremonial  obserNance  of  days, 
+auricular  confession,  indulgences, 
+and  all  such  things  by  wliich 
+they  hope  to  merit  forgive- 
+ness and  salvation.     These  things 
+
+
+I 
+
+
+'  I  Tim.  ii.  5  ;  Actes  iv.  12  ;   1  Jean  ii.  1 ,  2. 
+
+'  Jean  xvi.  23,  24. 
+
+'  Matt.  vi.  9  ;  Luc  xi.  1. 
+
+
+*  Actes  X.  25,  26  ;  xiv.  14  ;  Apoc.  xix.  10. 
+
+*  Matt.  XV.  11;  Actes  x.  14, 15;  IJom.  iv.  1-4; 
+
+Gal.iv.9,10;  Col.  ii.  18-23;  1  Tim.  iv.  2-5. 
+
+
+374: 
+
+
+SYMBOLA  EVANGELICA. 
+
+
+choses  710US  rejetons,  non-seulement 
+pour  la  fausse  qpitiion  du  merite 
+qui  y  est  attache,  mais  aussi  jparce 
+que  ce  sontdesinventionshuinaines, 
+qui  imjposent  joug  aux  conscie7ices. 
+
+XXV.  Or,  jparce  que  nous  ne 
+jouissons  de  Jesus-Christ  que  ])ar 
+V Evanqile^  nous  croyons  que  Vor- 
+dre  de  VEglise,  qui  a  He  etabli  en 
+son  autorite,doit  etre  sacre  et  invio- 
+lable, et  jpartant  que  V Eglise  ne 
+jpeut  siiJjsister  sinon  qxCil  y  ait  des 
+jpasteurs  qui  aient  la  charge  d''en- 
+seigner^  lesquels  on  doit  honorer  et 
+ecouter  en  reverence  quand  ils  sont 
+dument  ajyj^eles,  et  exercent  fidUe- 
+ment  leur  office.^  Won  pas  queDieu 
+soit  attache  a  telles  aides  ou  moyens 
+inferieurs,  tnais  parce  quHl  lui 
+plait  nous  entretenir  sous  telle 
+hride.  En  quoi  nous  detestons  tous 
+Fantastiques  qui  voudraient  Men, 
+en  tant  qxCen  eux  est,  aneantir  le 
+ministere  et  predication  de  la  pa- 
+role de  Dieu  et  des  sacrements. 
+
+XXVI.  jVous  croyons  done  que 
+nul  ne  se  doit  retirer  a  part,  et  se 
+contenter  de  sa  p)ersonne,  mais  que 
+tous  ensemble  doivent  garder  et  en- 
+tretenir Vunion  de  V Eglise,  se  sou- 
+mettant  a  r instruction  commune 
+et  au  joug  de  J esus- Christ  ;'^  et 
+ce  en  quelque  lieu  ou  Dieu  aura 
+etabli  un  V7'ai  ordre  de  V Eglise, 
+
+
+we  reject,  not  only  for  the  false 
+idea  of  merit  which  is  attached 
+to  them,  but  also  because  they  are 
+human  inventions  imposing  a  yoke 
+upon  the  conscience. 
+
+XXV.  Now  as  we  enjoy  Christ 
+only  through  the  gospel,  we 
+believe  that  the  order  of  the 
+Church,  established  by  his  au- 
+thority, ought  to  be  sacred  and 
+inviolable,  and  that,  therefore,  the 
+Church  can  not  exist  without  pas- 
+tors for  instruction,  whom  we 
+should  respect  and  reverently  list- 
+en to,  when  they  are  properly 
+called  and  exercise  their  office 
+faithfully.  Xot  that  God  doth  re- 
+quire such  aid  and  subordinate 
+means,  but  because  it  pleaseth  him 
+to  govern  us  by  such  restraints. 
+In  this  we  detest  all  visionaries 
+who  would  like,  so  far  as  lies  in 
+their  power,  to  destroy  the  min- 
+istry and  preaching  of  the  Word 
+and  sacraments. 
+
+XXVI.  We  believe  that  no  one 
+ought  to  seclude  himself  and  be 
+contented  to  be  alone;  but  that 
+all  jointly  should  keep  and  main- 
+tain the  union  of  the  Church,  and 
+submit  to  the  public  teaching,  and 
+to  the  yoke  of  Jesus  Christ,  wher- 
+ever God  shall  have  established 
+a  true  order  of  the  Church,  even 
+
+
+'  Rom.  i.  IG,  17;  x.  .3. 
+
+"  Matt,  xviii.  20 ;  Ephcs.  i.  22,  23. 
+
+
+'  Matt.  X.  40 ;  Jean  xili.  20 ;  Rom.  x.  15, 
+
+*  Fsa.  V.  8 ;  xxii.  23 ;  xlii.  5 ;  Ephe's.  iv.  1 1 ;  Heb.  ii.  1 2. 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.D.  1559. 
+
+
+375 
+
+
+encore  que  les  magistrats  et  leurs 
+edits  y  soient  C07if)riires,  que  tous 
+ceux  qui  ne  s'y  rangent,  ou  ien 
+separent,  contrarient  a  Vordon- 
+nance  de  Dleu} 
+
+XXVII.  Toiitefois,nous  croyons 
+qxCil  convient  discerner  soigneuse- 
+ment,  et  avec  jprudeiice^  quelle  est 
+la  vraie  Eglise^iyarce  quejpar  trojp 
+on  abuse  de  ce  titre?  Nous  disons 
+do7ic,  suivant  lajparole  deDieu,  que 
+dest  la  comjpagnie  des  fidUes  q\d 
+s'accordent  a  suivre  cette  Parole  et 
+la  pure  religion  qui  en  depend,  et 
+qui profitent  en  elle  tout  le  temjJS  de 
+leur  vie,  croissant  et  se  confirmant 
+en  la  crainte  de  Dieu,  selon  qiCils 
+ont  hesoin  de  iavancer  et  de  mar- 
+cher toujoitrs  plus  outre?  Meme 
+quoiqiCils  s'efforcent, q-iCil leur  con- 
+vient avoir  incessamment  recours  a 
+la  remission  de  leurs  j>^cMs*  ne- 
+anmoins  nous  ne  nio7is  point  que 
+jMrmi  les  fidtles  il  oi^j  ait  des 
+hyjjocrites  et  reprouvts,  desqxiels  la 
+malice  ne  peut  effacer  le  titre  de 
+VEglise!' 
+
+XXVIII.  Sous  cette  creance  nous 
+protestons  que  Id  oil  la  parole  de 
+Dieu  71'' est  point  recue,  et  oil  on  ne 
+fait  nulle profession  de  s'assujettir 
+a  elle,  et  oil  il  n''y  a  md  usage  des 
+sacrements,  dparlerproprement,  on 
+
+
+if  the  magistrates  and  their  edicts 
+are  contrary  to  it.  For  if  they 
+do  not  tate  part  in  it,  or  if  they 
+separate  themselves  from  it,  they 
+do  contrary  to  the  Word  of  God. 
+
+XXVII.  Nevertheless  we  be- 
+lieve that  it  is  important  to  dis- 
+cern with  care  and  prudence 
+which  is  the  true  Church,  for  this 
+title  has  been  much  abused.  We 
+say,  then,  according  to  the  Word  of 
+God,  that  it  is  the  company  of  the 
+faithful  who  agree  to  follow  his 
+Word,  and  the  pure  religion  which 
+it  teaches ;  who  grow  in  grace  all 
+their  lives,  believing  and  becoming 
+more  coniirmed  in  the  fear  of  God 
+according  as  they  feel  the  want 
+of  growing  and  pressing  onward. 
+Even  although  they  strive  con- 
+tinually, they  can  have  no  hope 
+save  in  the  remission  of  their 
+sins.  Nevertheless  we  do  not 
+deny  that  among  the  faithful 
+there  may  be  hypocrites  and  rep- 
+robates, but  their  wickedness  can 
+not  destroy  the  title  of  the  Church. 
+
+XXVIII.  In  this  belief  we  de- 
+clare that,  properly  speaking,  there 
+can  bo  no  Church  where  the  Word 
+of  God  is  not  received,  nor  pro- 
+fession made  of  subjection  to 
+it,    nor    use    of    tlic    sacraments. 
+
+
+I 
+
+
+'  Actes  iv.  19,  20;  H^b.  x.  25. 
+'  Je'r.  vii.  4,  8,  11,  12;  Matt.  iii.  9  ;  vii. 
+22;  xxiv.  5. 
+
+Vol.  hi.— B  b 
+
+
+="  Ephc's.  ii.  20 ;  iv.  11,12;   ITim.  iii.  15; 
+*  Rom.  iii.  3.  [Deut.  xxxi.  12. 
+
+"  Matt,  xiii.  30  ;  1  Tim.  i.  18-20. 
+
+
+37G 
+
+
+SYMBOLA  EVANGELICA. 
+
+
+ne  ])eut  juger  quHl  y  ait  aucune 
+Eglise}  Partant^  nous  condamnons 
+les  assemhUes  de  la  jpajyaiite,  vu  que 
+lajpw'e  verite  deDieu  en  est  hannie, 
+esquelles  les  sacremeiits  sont  cor- 
+rompus,  ahdtardis,  falsifies  ou  ant- 
+antis  du  tout ;  et  esquelles  toutes 
+superstitions  et  idolatries  ont  la 
+vogue.  Nous  tenons  done  que  tous 
+ceux  qui  se  meleiit  en  tels  actes,  et  y 
+commit  niquent^se  sej)arent  et  se  re- 
+tranchentdu  corps  de  Jesus-Christ? 
+Toutefois,parce  qiCil  reste  encore 
+quelque  jp elite  trace  de  V Eglise  en 
+la  2)apaute,  et  meme  que  la  vertu  et 
+substance  du  bapteme  y  est  demeu- 
+ree,  joint  que  Vefficace  du  hapthne 
+ne  depend  j)Cis  de  celui  qui  Vad- 
+oninistre^  nous  confessons  ceux  qui 
+y  sont  hajptists  n'' avoir  hesoin  dhm 
+second  IcqHane?  Cependant  a 
+cause  des  corruptions  qui  y  sont, 
+on  7i!y  peut  presenter  les  enfants 
+sans  se  polluer. 
+
+XXIX.  Quant  est  de  la  vraie 
+Eglise,  oious  croyons  qu^elle  doit 
+etre  gouvernee  selon  la  police  que 
+notre  Seigneur  Jesus -Christ  a  eta- 
+hlie^  Cest  quHl  y  ait  des  pas- 
+teurs,  des  surveillants  et  des  dia- 
+cres,  afin  que  la  pure  doctrine  ait 
+son  cours,  que  les  vices  soient  cor- 
+riges  et  reprvmes,  et  que  les pauvres 
+
+
+Therefore  we  condemn  the  papal 
+assemblies,  as  the  pure  Word  of 
+God  is  banished  from  them,  their 
+sacraments  are  corrupted,  or  falsi- 
+fied, or  destroyed,  and  all  super- 
+stitions and  idolatries  are  in  them. 
+We  hold,  then,  that  all  who  take 
+part  in  these  acts,  and  commune 
+in  that  Church,  separate  and  cut 
+themselves  off  from  the  body  of 
+Christ.  Nevertheless,  as  some 
+trace  of  the  Church  is  left  in 
+the  papacy,  and  the  virtue  and 
+substance  of  baptism  remain,  and 
+as  the  efficacy  of  baptism  does 
+not  depend  upon  the  person  who 
+administers  it,  we  confess  that 
+those  baptized  in  it  do  not  need 
+a  second  baptism.  But,  on  ac- 
+count of  its  corruptions,  we  can 
+not  present  children  to  be  bap- 
+tized in  it  without  incurring  pol- 
+lution. 
+
+XXIX.  As  to  the  true  Church, 
+we  believe  that  it  should  be  gov- 
+erned according  to  the  order  es- 
+tablished by  our  Lord  Jesus  Christ. 
+That  there  should  be  pastors,  over- 
+seers, and  deacons,  so  that  true 
+doctrine  may  have  its  course, 
+that  errors  may  be  corrected  and 
+suppressed,  and  the  poor  and  all 
+
+
+'  Matt.  X.  14,  lo ;  Jean  x.  1 ;   1  Cor.  iii. 
+
+12,13. 
+»  2  Cor.  vi.  14-16  :  1  Cor.  vi.  15. 
+
+
+^  Matt.  iii.  11 ;    xxviii.  19  ;    Marc   i.  8  ; 
+
+Actes  i.  5  ;  xi.  15-17;  xix.  4-C. 
+♦  Actes  ri.  3-5  ;  Ephes.  iv.  11-13  ;  1  Tim. 
+
+iii. ;  Tite  i.,  ii. ;  Matt,  xviii.  17. 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.D.  lo.-.O. 
+
+
+an 
+
+
+et  tous  autres  ajfligts  soient  se- 
+courus  en  leurs  ntcessitts ;  et  que 
+les  assemhUes  sef assent  au  nom  de 
+Dleu,  esqueUes  grands  et  jpetits 
+soient  edifies. 
+
+XXX.  Ifous  croyons  tous  vrais 
+pasteurs,  en  quelque  lieu  qiCils 
+soient,  avoir  meme  autorite  et  egale 
+puissance  sous  un  seul  chef,  seul 
+souverain  et  seul  universel  eveque, 
+Jesus-Christ ;^  et  j)our  cette  cause, 
+que  nxdle  Eglise  ne  doit  jpretendre 
+aucune  domination  ou  seigneurie 
+sur  Vautre. 
+
+XXXI.  N^ous  croyons  que  nul  ne 
+se  doit  ingerer  de  son  autorite  j)ro- 
+pre 2>our  gouverner  V Eglise,  mais 
+que  cela  se  doit  f aire  par  election, 
+en  tant  qxCil  est  possible  et  que  Dieu 
+leper  met?  Laquelle  exception  nous 
+y  ajoutons  notaininent,parce  quHl 
+afallu  quclquefois,  et  meme  de  no- 
+ire tenips  {auquel  Vetat  de  V Eglise 
+etait  interrompu),  que  Dieu  ait 
+susciie  des  gens  d\ine  facon  ex- 
+traordinaire pour  dresser  V Eglise 
+de  nouveau,  qui  etait  en  ruine  et 
+desolation.  Mais,quoi  quHl  en  soil, 
+nous  croyons  qu'il  se  faut  toujour s 
+conformer  a  cette  regie.  Que  tous 
+pasteurs,  surveillants  et  diacres 
+aient  temoignage  d''etre  appeles  a 
+leur  ojjice.^ 
+
+
+who  are  in  affliction  may  be 
+helped  in  their  necessities ;  and 
+that  assemblies  may  be  held  in 
+the  name  of  God,  so  that  great 
+and  small  may  be  edified. 
+
+XXX.  We  believe  that  all  trne 
+pastors,  wherever  they  may  be, 
+have  the  same  authority  and 
+equal  power  under  one  head,  one 
+only  sovereign  and  universal  bish- 
+op, Jesns  Christ ;  and  that  con- 
+sequently no  Church  shall  claini 
+any  authority  or  dominion  over 
+any  other. 
+
+XXXI.  We  believe  that  no  per- 
+son should  undertake  to  govern  the 
+Church  upon  his  own  authority, 
+but  that  this  should  be  derived 
+from  election,  as  far  as  it  is  pos- 
+sible, and  as  God  will  permit. 
+And  we  make  this  exception  es- 
+pecially, because  sometimes,  and 
+even  in  our  own  days,  when  tlie 
+state  of  the  Church  has  been  in- 
+terrupted, it  has  been  necessary 
+for  God  to  raise  men  in  an  ex- 
+traordinary manner  to  restore  the 
+Church  which  was  in  ruin  and  des- 
+olation. But,  notwithstanding,  we 
+believe  that  this  rule  must  always 
+be  binding:  that  all  pastors,  over- 
+seers, and  deacons  should  have  evi- 
+dence of  being  called  to  their  office. 
+
+
+•  Mntt.  XX.  2G,  27 ;  xviii.  2-4  ;   1  Cor.  iii.  1-6 ;  Ephe's.  i.  22  ;  Col.  i.  18, 19. 
+
+=  Matt,  xxviii.  18,  19;   Marc  .xvi.  15;  Jean  xv.  IG;   Actes  i.  21-2G;   vi.  1,2;  Rom.  x.  15; 
+
+'  Gal.  i.  1.5  ;   1  Tim.  iii.  7-10,  15.  [Tite  i.  5-7. 
+
+
+378 
+
+
+SYMBOLA  EVANGELICA. 
+
+
+XXXII.  N^ous  croyons  aussi 
+qy^il  est  hon  et  utile  que  ceux  q^d 
+sonf  elus  jpour  Hre  superintend- 
+ants,  avisent  entre  eux  quel  inoyen 
+Us  devront  tenir  jpour  le  regime  de 
+tout  le  corjps^  et  toutefois  quHls  ne 
+declinent  nullement  de  ce  qui  nous 
+en  a  ete  donne  par  noire  Seigneur 
+Jesus-Christ.^  Ce  qui  n^empeche 
+point  qiCil  oi'y  ait  quelques  or- 
+donnances  jparticulilres  en  chacun 
+lieu,  selon  que  la  commodite  le  re- 
+querra. 
+
+XXXIII.  Cependant  nous  exclu- 
+ons  toutes  inventions  humaines,  et 
+toutes  lots  qu'on  voudrait  intro- 
+duire  sous  omhre  du  service  de 
+Dieu,  par  lesquelles  on  voudrait 
+Her  les  consciences;'^  mats  seule- 
+inent  recevons  ce  qui  fait  et  est 
+propre  pour  nourrir  la  concorde, 
+et  tenir  chacun  depuis  le  premier 
+jusqii'au  dernier  en  oMisance.  En 
+quoi  nous  avons  a  suivre  ce  que 
+noire  Seigneur  Jesus  a  declare 
+quant  a  V excommunication  ;^  la- 
+quelle  nous  approuvons  et  confes- 
+sons  eire  necessaire  avec  toutes  ses 
+apparienances. 
+
+XXXIY.  JVous  croyons  que  les 
+sacrernents  sont  ajoutes  ct  la  Parole 
+pour  plus  ample  confirinaiion,  afin 
+de  nous  tire  gages  et  marreaux  de 
+
+
+XXXII.  We  believe,  also,  that 
+it  is  desirable  and  useful  that 
+those  elected  to  be  superintend- 
+ents devise  among  themselves 
+what  means  should  be  adopted 
+for  the  government  of  the  whole 
+body,  and  yet  that  they  should 
+never  depart  from  that  which 
+was  ordained  by  our  Lord  Jesus 
+Christ.  Which  does  not  prevent 
+there  being  some  special  ordi- 
+nances in  each  place,  as  conven- 
+ience may  require. 
+
+XXXIII.  However,  we  reject 
+all  human  inventions,  and  all  laws 
+which  men  may  introduce  under 
+the  pretense  of  serving  God,  by 
+which  they  wish  to  bind  con- 
+sciences ;  and  we  receive  only  that 
+which  conduces  to  concord  and 
+holds  all  in  obedience,  from  the 
+greatest  to  the  least.  In  this  we 
+must  follow  that  which  the  Lord 
+Jesus  Christ  declared  as  to  ex- 
+communication, which  we  ap- 
+prove and  confess  to  be  necessa- 
+ry with  all  its  antecedents  and 
+consequences. 
+
+XXXIV.  We  believe  that  the 
+sacraments  are  added  to  the  Word 
+for  more  ample  confirmation,  that 
+they  may  be   to   us  pledges   and 
+
+
+'  Actes  XV.  2,  6,  7,  25,  28  ;  Rom.  xii.  G-8  ; 
+
+1  Cor.  xiv.  12 ;  2  Cor.  xii.  7,  8. 
+=  1  Pien-e  v. ;  1  Cor.  xiv.  40. 
+
+
+=  Eom.  xvi.  17, 18  ;  1  Cor.  iii.  11 ;  Col.  ii.  6-8; 
+
+Gal.v.l. 
+^  Matt,  xviii.  1 7;   1  Cor.  v.  5  ;   1  Tim.  i.  9, 10. 
+
+
+THE  FRENCH  CONFESSION  OF  FAITH.     A.D.  1559. 
+
+
+379 
+
+
+la  grace  de  Dieu,  et  j9«?'  ce  moyen 
+aider  et  soidager  notrefoi^  a  cause 
+de  VinfirmiU  et  rudesse  qui  est  en 
+nous,^  et  qii'ils  sont  tellement  signes 
+exterieurs,  que  Dieu  opere  par  eux 
+en  la  vertu  de  son  Esprit,  afin  de 
+ne  nous  y  rien  signifier  en  vain? 
+Toutefois,  nous  tenons  que  toute 
+leur  suhstance  et  vtrite  est  en  Jtsus- 
+Christ ;^  et  si  on  les  stpare,  ce  11! est 
+plus  rien  qu\wibrage  etfuvice. 
+
+XXXY.  Nous  en  confessons 
+seulement  deux,  communs  a  toute 
+VEglise,  desquels  le premier,  qui  est 
+le  hapttme,  nous  est  donne  pour  te- 
+moignage  de  notre  adojHion;  parce 
+que  Id  nous  sommes  entts  au  corps 
+de  Christ,  a  fin  d''etre  laves  et  net- 
+toycsjyar  son  sang,  etp)uis  renouve- 
+Its  en  saintete  de  vie  par  son  Saint- 
+Esprit.^  Nous  tenons  aussi,  Men 
+que  nous  ne  soyons  baptises  qxCune 
+fois,  que  le  profit  qui  nous  est  Id 
+signifie  ^ittend  d  la  vie  et  d  la  mort, 
+dfin  que  nous  ayons  une  signature 
+pennanente,  que  Jesus-Christ  nous 
+sera  touj ours  justice  et  sanctfica- 
+tionJ"  Or,  Men  que  ce  soit  un  sa- 
+crement  defoi  et  de  penitence,  ne- 
+anmoins  parce  que  Dieu  recoit  en 
+son  Eglise  les  petits  enfants  avec 
+leurs  p^res,  nous  disons  que  par 
+Vautorite  de  Jesus-Christ  les  petits 
+
+
+seals   of  the   grace   of  God,  and 
+by   this    means    aid   and   comfort 
+our  faith,  because  of  the  infirmity 
+which  is  in  us,  and  that  they  are 
+outward  signs  tln-ough  which  God 
+operates  by  his  Spirit,  so  that  he 
+may  not   signify  any  thing  to  us 
+in  vain.     Yet  we   hold  that  their 
+substance    and   trutli    is    in  Jesus 
+Christ,    and    that    of    themselves 
+they  are  only  smoke  and  shadow. 
+XXXV.  We    confess    only  two 
+sacraments  common  to  the  whole 
+Church,  of   which   the    first,  bap- 
+tism, is  given  as  a  pledge  of  our 
+adoption ;  for  by  it  we  are  graft- 
+ed into  the  body  of  Christ,  so  as 
+to  be  washed  and  cleansed  by  his 
+blood,  and  then  renewed  in  puri- 
+ty of  life  by  his  Holy  Spirit.     We 
+hold,  also,  that   although  we   are 
+baptized  only  once,  yet  the  gain 
+that  it   symbolizes   to   us   reaches 
+over  our  whole  lives   and  to  our 
+death,  so  that  we  have  a  lasting 
+witness  that  Jesus  Christ  will  al- 
+ways   be    our    justification    and 
+sanctification.      Nevertheless,   al- 
+though it  is  a  sacrament  of  faith 
+and    penitence,  yet    as    God    re- 
+ceives    little     children     into    the 
+Church    with    their    fathers,    we 
+say,  upon  the   authority  of  Jesus 
+
+
+'  ICor.  X. ;  xi.  23-34;  Exotic  xii.  13  ;  Matt.    '  Jean  vi.  50-57;  iii.  12. 
+
+xxvi.  2G,  27;  Rom.  iv.  1 1 ;  Actes  xxii.  IG.    ♦  Rom.  vi.  3  ;  Tite  iii.  5,  G  ;  Actes  xxii.  IG. 
+'  Gal.  iii.  27 ;  Ephes.  v.  2G.  "  Matt.  iii.  11,1-;  Marc  xvi.  1 G  ;  Rom.  vi.  1  -4. 
+
+
+I 
+
+
+380 
+
+
+SYMBOLA  EVANGELICA. 
+
+
+enfante  engendres  des  fidlles  doi- 
+vent  Hre  hajptises} 
+
+XXXYI.  Nous  confessons  que 
+la  saints  Cene  {qui  est  le  second 
+sacrement)  nous  est  iin  temoignage 
+de  Vunion  que  nous  avons  avec 
+Jesus- Christ,^  d^autant  quHl  7i^est 
+pas  seidement  une  fois  inort  et 
+ressusclte  pour  nous,  inais  aussi 
+nous  repait  et  nourrit  vraiment  de 
+so,  chair  et  de  son  sang,  a  ce  que  nous 
+soyons  im  avec  lui,  et  que  sa  vie 
+nous  soil  commune?  Or,  hien  qxCil 
+soit  au  del  jusqiCa  ce  q%Cil  vienne 
+pour  jug er  tout  le  monde^  toute- 
+fois  nous  croyons  que  par  la  vertu 
+secrete  et  incomprehensible  de  son 
+Esprit,  il  nous  nourrit  et  vivijie 
+de  la  sid)stance  de  son  corps  et  de 
+son  sang?  Nous  tenons  Men  que 
+cela  sefait  spirituellement,  nonpas 
+pour  mettre  au  lieu  de  Veffet  et  de 
+la  verite,  imagination,  ni  pensee  j 
+mais  d''autant  que  ce  mystere  sur- 
+monte  en  sa  hautesse  la  tnesure  de 
+notre  sens,  et  tout  ordre  de  nature. 
+Bref,parce  quHl  est  celeste,  il  ne 
+pent  etre  apprehende  que  par  la 
+foi. 
+
+XXXYII.  Nous  croyons  {ainsi 
+qu^il  a  ete  dit),  que  tant  en  la  cene 
+qxCau  bapteme,  Dieu  nous  donne 
+reellement  et  par  effet  ce  qiCil  y 
+figure.    Et partant,  nous  joignons 
+
+
+Christ,  that  the  children  of  believ- 
+ing parents  should  be  baptized. 
+
+XXXVI,  We  confess  that  the 
+Lord's  Supper,  •which  is  the  sec- 
+ond sacrament,  is  a  witness  of  the 
+union  which  we  have  with  Christ, 
+inasmuch  as  he  not  onlj  died 
+and  rose  again  for  us  once,  but 
+also  feeds  and  nourishes  us  truly 
+with  his  flesh  and  blood,  so  that 
+we  may  be  one  in  him,  and 
+that  our  life  may  be  in  com- 
+mon. Although  he  be  in  heaven 
+until  he  come  to  judge  all  the 
+earth,  still  we  believe  that  by 
+the  secret  and  incomprehensible 
+power  of  his  Spirit  he  feeds 
+and  strengthens  us  with  the  sub- 
+stance of  his  body  and  of  his 
+blood.  We  hold  that  this  is  done 
+spiritually,  not  because  we  put 
+imagination  and  fancy  in  the 
+place  of  fact  and  truth,  but  be- 
+cause the  greatness  of  this  mys- 
+tery exceeds  the  measure  of  our 
+senses  and  the  laws  of  nature. 
+In  short,  because  it  is  heavenly, 
+it  can  only  be  apprehended  by 
+faith. 
+
+XXXYII.  We  believe,  as  has 
+been  said,  that  in  the  Lord's  Sup- 
+per, as  well  as  in  baptism,  God 
+gives  us  really  and  in  fact  that 
+which  he  there  sets  forth  to  us; 
+
+
+'  Matt.  xix.  14;   1  Cor.  vii.  U. 
+*  ICor.x.  16,17;  xi.  24. 
+
+
+=  Jean  vi.  r>Q,  57;  xvii.  11,  22. 
+*  Marc  xvi.  19;  Actes  iii.  21. 
+
+
+^  1  Cor.  X.  IG;  Jean  vi. 
+
+
+THE  FKENCII  CONFESSION  OF  FAITH.     A.D.  1559. 
+
+
+381 
+
+
+I 
+
+
+avec  les  signes  la  vy^aie  possession 
+et  Jotcissance  de  ce  qui  nous  est  Id 
+presente.  Et  ainsi,  tons  ceux  qtci 
+a^j)ortent  d  la  table  sacree  de  Christ 
+une pure  foi,comme  un  vaisseau, 
+recoivent  vraiment  ce  que  les  signes 
+y  testifient ;  c'est  que  le  corps  et 
+le  sang  de  Jesus-Christ  ne  servent 
+pas  nioins  de  manger  et  de  boire  d 
+Vdme,  que  le  pain  et  le  vinfont  au 
+corps} 
+
+XXXVIII.  Ainsl  nous  tenons 
+que  Veau  etant  uu  eUment  caduc, 
+ne  laisse  pas  de  nous  testifier  en 
+verit'i  le  lavement  inter ieur  de  notre 
+dme  au  sang  de  Jesus- Christ,  par 
+Vefficace  de  son  Esprit^  et  que  le 
+p)ain  et  le  vin  nous  etant  doniies 
+en  la  eerie,  nous  servent  vraiment 
+de  nourriture  sjnrituelle,  d'^autant 
+qxCils  nous  montrent  comme  d  Voeil 
+la  chair  de  Jesus-Christ  nous  etre 
+notre  viande,  et  son  sang  notre 
+breuvage?  Et  rejetons  les  Ean- 
+tastiques  et  Sacrementaires,  qui 
+ne  veulent  recevoir  tels  signes  et 
+marques,  vu  que  notre  Seigjieur 
+Jesus prononce :  Ceci  est  mon  corps, 
+et  cette  coupe  est  mon  sang} 
+
+XXXIX.  Nous  croyons  que  Dieu 
+veut  que  le  monde  soit  gouverne 
+par  lois  et  police,^  afin  qiCil  y  ait 
+quelque  bride  pour  reprimer  les  ap- 
+petits  desordonnes  du  monde.   Et 
+
+
+and  that  consequently  with  these 
+signs  is  given  tlic  true  possession 
+and  enjoyment  of  that  which  they 
+present  to  us.  And  thus  all  who 
+bring  a  pure  faith,  like  a  vessel,  to 
+the  sacred  table  of  Christ,  receive 
+truly  that  of  which  it  is  a  sign ; 
+for  the  body  and  the  blood  of  Je- 
+sus Christ  give  food  and  drink  to 
+the  soul,  no  less  than  bread  and 
+wine  nourish  the  body. 
+
+XXXVIII.  Thus  we  hold  that 
+water,  being  a  feeble  element, 
+still  testifies  to  us  in  truth  the 
+inward  cleansing  of  our  souls 
+in  the  blood  of  Jesus  Christ  by 
+the  efficacy  of  his  Spirit,  and 
+that  the  bread  and  wine  given 
+to  us  in  the  sacrament  serve  to 
+our  spiritual  nourishment,  inas- 
+much as  they  show,  as  to  our 
+sight,  that  the  body  of  Christ  is 
+our  meat,  and  his  blood  our  drink. 
+And  we  reject  the  Enthusiasts 
+and  Sacramentarians  who  will  not 
+receive  such  signs  and  marks,  al- 
+though our  Saviour  said :  '  This 
+is  my  body,  and  this  cup  is  my 
+blood.' 
+
+XXXIX.  We  believe  that  God 
+wishes  to  have  the  Morld  gov- 
+erned by  laws  and  magistrates, 
+so  that  some  restraint  may  be 
+put  upon  its  disordered  appetites. 
+
+
+'  1  Cor.  xi. ;  Jean  vi. 
+»  Rom.  \i.  3. 
+
+
+'  Jean  vi. ;  1  Cor.  xi. 
+
+*  Matt.  xxvi.  2G ;   I  Cor.  xi. 
+
+
+'  Exotle  xviii.  20,  21 ;  Matt, 
+xvii.  24-27;  Rom.  xiii. 
+
+
+382 
+
+
+SYMBOLA  EVANGELICA. 
+
+
+ainsi  quHl  a  etdbli  les  royaumes, 
+republiques  et  toutes  autres  sortes 
+de  j>rhicij)auteSy  soit  Mreditaires 
+ou  autrement,  et  tout  ce  qui  apjMV- 
+tient  a  VEtat  de  justice^  et  en  veut 
+Hre  reconnu  auteur :  a  cette  cause 
+il  a  mis  le  glaive  en  la  tnain  des 
+magistrats  jpour  reprimer  lesjpechts 
+commis  no7i-seideme7it  contre  la 
+seconde  table  des  coinmandements 
+de  Dieu,  mais  aussi  contre  la  pre- 
+miere.  II  faut  done,  d  cause  de 
+lui,  que  non-seule7nent  o?i  eyidure 
+que  les  superieurs  dominent^  mais 
+aussi  qiCon  les  honore  et  prise  en 
+toute  reverence,  les  tenant  pour  ses 
+lieutenants  et  officiers,  lesquels  il 
+a  coimnis  pour  exercer  une  charge 
+legitime  et  sainte. 
+
+XL.  Nous  tenons  done  qiCilfaut 
+obeir  a  leurs  lois  et  statuts^ payer 
+trihuts,  impots  et  autres  devoirs,  et 
+porter  le  joug  de  subjection  d''une 
+bonne  et  franche  volonte,  encore 
+quHls  fussent  ir^fideles,  moyennant 
+que  V  empire  souverain  de  Dieu  de- 
+ineure  en  son  entier?  Ainsi  nous 
+detestons  ceux  qui  voudraient  re- 
+jeter  les  superiorites,  mettre  com- 
+munaute  et  confusion  de  biens,  et 
+renverser  Vordre  de  la  justice. 
+
+
+And  as  he  lias  establislied  king- 
+doms, rei)nblics,  and  all  sorts  of 
+principalities,  either  hereditary  or 
+otherwise,  and  all  that  belongs 
+to  a  just  government,  and  wishes 
+to  be  considered  as  their  Author, 
+so  he  has  put  the  sword  into  the 
+hands  of  magistrates  to  suppress 
+crimes  against  the  first  as  w-ell 
+as  against  the  second  table  of 
+the  Commandments  of  God.  We 
+must  therefore,  on  his  account, 
+not  only  submit  to  them  as  supe- 
+riors, but  honor  and  hold  them  in 
+all  reverence  as  his  lieutenants 
+and  officers,  whom  he  has  com- 
+missioned to  exercise  a  legitimate 
+and  holy  authority. 
+
+XL.  "VYe  hold,  then,  that  we 
+must  obey  their  laws  and  statutes, 
+pay  customs,  taxes,  and  other  dues, 
+and  bear  the  yoke  of  subjection 
+"with  a  good  and  free  will,  even 
+if  they  are  unbelievers,  provided 
+that  the  sovereign  empire  of  God 
+remain  intact.  Therefore  we  de- 
+test all  those  who  would  like  to  re- 
+ject authority,  to  establish  commu- 
+nity and  confusion  of  property,  and 
+overthrow  the  order  of  justice. 
+
+
+'  1  Pierre  ii.  13, 14  ;  1  Tim.  ii.  2. 
+
+
+=  Matt.  xvii.  24. 
+
+
+'  Actes  ir.  17-20;  xviii.  9. 
+

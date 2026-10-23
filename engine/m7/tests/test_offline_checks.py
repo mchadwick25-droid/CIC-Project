@@ -40,3 +40,23 @@ def test_a_turn_logged_before_slimming_is_not_recomputed():
 def test_run_all_carries_the_offline_findings():
     audit = run_all(_session(_turn(2, UNCITED["sentence"], [UNCITED])), repositories={"w": RECORDS})
     assert any(f.instrument == "uncited_claims" for f in audit["findings"])
+
+
+PERSON_RECORDS = {
+    "w.figure.justin": {"id": "w.figure.justin", "record_type": "figure", "names": [{"name": "Justin", "tag": "in-world"}]},
+    "w.figure.clement": {"id": "w.figure.clement", "record_type": "figure", "names": [{"name": "Clement", "tag": "in-world"}]},
+    "w.dw.chain": {"id": "w.dw.chain", "record_type": "doctrinal_witness",
+                   "text": "Clement wrote that the apostles preached what they received and appointed others after them. "
+                           "Justin tells how the memoirs were read on Sunday."},
+}
+CREDITED = {"sentence": "Justin said the apostles preached what they received and appointed others after them.",
+            "tags": ["w.dw.chain"], "verdict": "ok", "why": "grounded"}
+
+
+def test_words_credited_to_a_person_the_cited_passage_does_not_name_are_flagged_for_review():
+    # pahc Q2, 14 October: 1 Clement's chain credited to Justin
+    found = offline_checks(_session(_turn(2, CREDITED["sentence"], [CREDITED])), {"w": PERSON_RECORDS})
+    assert [f.severity for f in found if f.instrument == "person_claims"] == ["review"]
+    right = {**CREDITED, "sentence": CREDITED["sentence"].replace("Justin", "Clement")}
+    found = offline_checks(_session(_turn(2, right["sentence"], [right])), {"w": PERSON_RECORDS})
+    assert not [f for f in found if f.instrument == "person_claims"]

@@ -33,14 +33,9 @@ exchange:
     broke up, the same council granted Constantinople equal privileges with
     old Rome, and rank just after her. Its reasoning: the fathers had given
     old Rome her privileges as the royal city, so the new royal city should be
-    honored the same way. Constantinople's case was not empty on those terms.
-    The empire's weight really had moved east by then, and its bishops held
-    that the canon only recognized what had already happened. Leo's own
+    honored the same way. Constantinople's side could say the canon only named a rank the city already held in fact. The empire's weight really had moved east by then. Leo's own
     representatives objected in the council itself. Leo, when word reached
-    him, refused to accept the canon. He wrote to emperor, empress, and bishop
-    alike to say why: 'things secular stand on a different basis from things
-    divine.' That was his way of saying that no vote could make rank near a
-    throne the same kind of claim as an apostle's grave. So our record ends
+    him, refused to accept the canon. He wrote to the emperor to say why: 'things secular stand on a different basis from things divine.' He meant that a royal city could never be an apostolic see. So our record ends
     with both claims held, unreconciled. The council that settled who Christ
     is left open the question of where, on earth, the church's own final
     authority sits. We do not resolve that for you now. Our own record never

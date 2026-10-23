@@ -15,7 +15,7 @@ assignments:
       in segments (the OCR carries stray marks and page-break running heads
       inside sentences; see Doc_02 section 7). PRIMARY source for this world's
       own Doc_02.
-  - row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-2
+  - row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-3
     work: "The Life of the Archpriest Avvakum by Himself"
     author: avvakum
     locus: "whole work (at least 156pp.; Harrison & Mirrlees trans., 1924, preface by D. S. Mirsky)"
@@ -27,3 +27,17 @@ assignments:
       The view of Nikon's reforms and of the 1666-67 council from the condemned side: Avvakum's
       own account of his exile, trial and imprisonment under the reforming church. A contemporary
       opponent's voice for this entry, never its own. English translation of 1924.
+
+  - work: The Life of the Archpriest Avvakum by Himself
+    author: avvakum
+    locus: D. S. Mirsky's preface from file line 86 (Muscovy as the Third Rome, the church before Nikon,
+      the circle of Vonifatiev and Neronov at lines 170-220); the Life itself narrates Avvakum's career
+      before and after 1652
+    atlas_ids:
+    - russian-church-stoglav-to-nikon
+    role: context
+    confidence: provisional
+    note: Same time-place. The preface (read) sets out the Third Rome idea and the pre-Nikon reform circle;
+      the Life's early chapters (his priesthood in the 1620s to 1650s) were not read for this entry. Existing
+      row in the-old-believers is unchanged.
+    row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-2

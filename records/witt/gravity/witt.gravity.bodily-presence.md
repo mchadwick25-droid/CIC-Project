@@ -16,7 +16,7 @@ confidence:
     specifically at the Eucharist'') is UNTAGGED -- it rests on the census and sibling documents, not
     on a rowed source, and is not imported into this record''s classification.'
 sources:
-- source_id: witt.source.luther-treatise-on-the-holy-sacrament
+- source_id: witt.source.luther-babylonian-captivity-of-the-church
   locus: 'v2 7143-7224: the 1520 treatise''s own ''simple faith,'' reason taken captive'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
@@ -26,9 +26,10 @@ sources:
   locus: 'AC 322-324: ''truly present... reject those that teach otherwise'''
   license: public-domain
 - source_id: witt.source.luther-on-the-bondage-of-the-will
-  locus: 'Co 16090-16092: ''Sacramentarians,'' one word, OCR-recovered. The Marburg Articles (1529) --
-    the acquisition every layer of this force waits on -- are not independently vendored anywhere in this
-    library; disclosed here rather than cited as a source'
+  locus: >-
+    Co 16090-16092: 'Sacramentarians,' one word, OCR-recovered. The Marburg Articles (1529) -- the acquisition
+    every layer of this force waits on -- are not independently vendored anywhere in this library; disclosed
+    here rather than cited as a source
   license: public-domain
 relations:
 - type: associated-with

@@ -2,6 +2,7 @@
 call: the SDK client and the Bedrock control plane are fakes that record
 what reaches them."""
 import ast
+import json
 import re
 import runpy
 import sys
@@ -65,7 +66,8 @@ def _fake_sdk(recorder, usage):
 
 
 @pytest.fixture(autouse=True)
-def _clean_guard():
+def _clean_guard(monkeypatch, tmp_path):
+    monkeypatch.setenv(guard.LEDGER_ENV, str(tmp_path / "ledger.jsonl"))
     guard.reset_for_tests()
     yield
     guard.reset_for_tests()
@@ -87,6 +89,11 @@ def seam(monkeypatch):
     monkeypatch.setattr(guard, "_emit", lambda text: recorder.events.append(("header", text)))
     monkeypatch.setattr(sys, "argv", ["prog"])
     return recorder
+
+
+@pytest.fixture
+def on_render(monkeypatch):
+    monkeypatch.setenv(guard.RENDER_ENV, "true")
 
 
 def _approve(monkeypatch, extra=()):
@@ -231,14 +238,14 @@ def test_usage_records_from_an_approved_run_carry_the_name(seam, monkeypatch):
     assert record.live_test == "guard proof"
 
 
-def test_usage_records_from_a_conversation_carry_none(seam):
+def test_usage_records_from_a_conversation_carry_none(seam, on_render):
     with guard.conversation_scope():
         bedrock.make_client("us-east-1")
     record = record_usage(usage=NormalizedUsage(1, 1, 0, 0), session_id="s", call_kind="voice_generation", model_id=HAIKU)
     assert record.live_test is None
 
 
-def test_the_conversation_path_gets_the_sdk_client_itself(seam):
+def test_the_conversation_path_gets_the_sdk_client_itself(seam, on_render):
     with guard.conversation_scope():
         client = bedrock.make_client("us-east-1")
     assert type(client).__name__ == "FakeSdkClient"
@@ -246,12 +253,28 @@ def test_the_conversation_path_gets_the_sdk_client_itself(seam):
     assert [e[0] for e in seam.events] == ["constructed"]
 
 
-def test_the_routed_conversation_client_is_unwrapped_too(seam, monkeypatch):
+def test_the_routed_conversation_client_is_unwrapped_too(seam, monkeypatch, on_render):
     monkeypatch.delenv(route.ROUTE_ENV, raising=False)
     with guard.conversation_scope():
         client, voice_id, safety_id = route.build_route("us-east-1", "haiku-4-5", "haiku-4-5")
     assert type(client).__name__ == "FakeSdkClient" and voice_id == safety_id == HAIKU
     assert guard.active_live_test_name() is None
+
+
+def test_the_conversation_scope_off_render_is_refused_like_any_command(seam, monkeypatch, capsys):
+    monkeypatch.delenv(guard.RENDER_ENV, raising=False)
+    with guard.conversation_scope(), pytest.raises(guard.LiveTestRefused):
+        bedrock.make_client("us-east-1")
+    assert seam.constructions == []
+    assert "--live-test" in capsys.readouterr().err
+
+
+def test_the_conversation_scope_off_render_with_both_flags_gets_a_capped_client(seam, monkeypatch):
+    monkeypatch.delenv(guard.RENDER_ENV, raising=False)
+    _approve(monkeypatch)
+    with guard.conversation_scope():
+        client = bedrock.make_client("us-east-1")
+    assert isinstance(client, guard._GuardedClient)
 
 
 def test_the_engine_api_builds_its_client_inside_the_conversation_scope():
@@ -397,3 +420,56 @@ def test_tools_count_toward_the_estimate(seam, monkeypatch):
     with pytest.raises(guard.LiveTestCapReached):
         client.messages.create(model=model_id, max_tokens=1, messages=[], tools=[{"description": "x" * 30_000}])
     assert seam.calls == []
+
+
+# ---- the ledger: every call is on disk before it is made --------------------
+
+def _ledger(tmp_path):
+    return [json.loads(line) for line in (tmp_path / "ledger.jsonl").read_text().splitlines()]
+
+
+def test_every_call_is_written_to_the_ledger_with_a_hold_before_and_a_settle_after(seam, monkeypatch, tmp_path):
+    _approve(monkeypatch)
+    model_id = bedrock.resolve_model_id("haiku-4-5", "us-east-1")
+    client = bedrock.make_client("us-east-1")
+    client.messages.create(model=model_id, max_tokens=16, system="s", messages=[{"role": "user", "content": "hi"}])
+    with client.messages.stream(model=model_id, max_tokens=16, messages=[]) as stream:
+        list(stream.text_stream)
+    rows = _ledger(tmp_path)
+    assert [r["event"] for r in rows] == ["hold", "settle", "hold", "settle"]
+    assert {r["live_test"] for r in rows} == {"guard proof"}
+    assert rows[1]["usage"]["input_tokens"] == 1000 and rows[1]["priced_dollars"] > 0
+    assert rows[-1]["spent_usd"] == round(guard.priced_total(), 6)
+    assert str(tmp_path / "ledger.jsonl") in seam.events[1][1]
+
+
+def test_a_call_that_dies_mid_flight_leaves_its_hold_in_the_ledger(seam, monkeypatch, tmp_path):
+    _approve(monkeypatch)
+    model_id = bedrock.resolve_model_id("haiku-4-5", "us-east-1")
+
+    def _dies(**kwargs):
+        raise RuntimeError("connection reset")
+
+    class DyingSdkClient:
+        def __init__(self, **kwargs):
+            self.models = SimpleNamespace(list=lambda **kw: SimpleNamespace(data=[]))
+            self.messages = SimpleNamespace(create=_dies, stream=_dies)
+
+    monkeypatch.setattr(bedrock, "AnthropicBedrock", DyingSdkClient)
+    client = bedrock.make_client("us-east-1")
+    with pytest.raises(RuntimeError):
+        client.messages.create(model=model_id, max_tokens=16, system="s", messages=[{"role": "user", "content": "hi"}])
+    rows = _ledger(tmp_path)
+    assert rows[0]["event"] == "hold"
+    assert rows[-1]["event"] == "settle" and rows[-1]["failed"] is True and rows[-1]["priced_dollars"] == pytest.approx(rows[0]["hold_usd"], abs=1e-6)
+
+
+def test_a_call_is_refused_when_the_ledger_cannot_be_written(seam, monkeypatch, tmp_path):
+    monkeypatch.setenv(guard.LEDGER_ENV, str(tmp_path / "no-such-dir" / "ledger.jsonl"))
+    guard.reset_for_tests()
+    _approve(monkeypatch)
+    model_id = bedrock.resolve_model_id("haiku-4-5", "us-east-1")
+    client = bedrock.make_client("us-east-1")
+    with pytest.raises(guard.LiveTestGuardError, match="records every call before it makes it"):
+        client.messages.create(model=model_id, max_tokens=16, system="s", messages=[{"role": "user", "content": "hi"}])
+    assert not [e for e in seam.events if e[0] == "call"]

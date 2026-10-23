@@ -1,0 +1,23 @@
+source_file: giussano_life-of-st-charles-borromeo-v2_1884.txt
+
+assignments:
+  - row_id: giussano_life-of-st-charles-borromeo-v2_1884--life-of-st-charles-borromeo-vol-ii
+    work: "The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. II (Books V-IX and index)"
+    author: giussano
+    locus: "contents from file line 210 ('BOOK VI.' 210, 'BOOK VII.' 275, 'BOOK VIII.' 338, 'BOOK IX.' 413; the contents heading for Book V is not legible in the OCR); Giussano's text from the first 'CHAPTER I.' at line 457; index from line 21617"
+    atlas_ids:
+      - tridentine-parish-renewal-borromean-milan
+    role: tradition
+    confidence: assigned
+    note: >
+      Books V-VI carry the narrative from 1578 to Borromeo's death in 1584; Books VII-IX are Giussano's thematic account of his virtues, miracles and the canonisation evidence, the part that leans most on the canonisation process. Same insider hagiographic witness as Vol. I; primary for this world's own memory of its founder. OCR clean; quotable once verified.
+  - row_id: giussano_life-of-st-charles-borromeo-v2_1884--life-of-st-charles-borromeo-vol-ii-2
+    work: "The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. II (Books V-IX and index)"
+    author: giussano
+    locus: "as above: Giussano's text from file line 457"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: assigned
+    note: >
+      Context for the Tridentine Church as the Life of its model bishop (see the Vol. I row). Book VII's chapters on Borromeo's respect for the Holy See and on the Council of Trent are the parts most directly about the whole church.

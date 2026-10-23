@@ -37,8 +37,9 @@ dates:
     the Passio's own heading dates the commemoration to a day in late November without giving a year, and
     the 347-348 dating comes from the standard field literature
 narratable: true
-bridge_line: A man who had given up worldly advancement before the persecution ever found him - shown a
-  cup, a crown and a palm four days before he was thrown from a cliff.
+bridge_line: A man who, the Passio says, had given up worldly advancement before the persecution
+  found him. It tells that he was shown a cup, a crown and a palm shortly before he was thrown from a
+  cliff.
 relations:
 - type: associated-with
   target: don.story.passio-marculi

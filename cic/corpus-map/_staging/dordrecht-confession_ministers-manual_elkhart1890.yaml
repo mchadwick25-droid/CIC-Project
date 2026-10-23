@@ -15,3 +15,17 @@ assignments:
       distinct from and independent of the Confession's reproduction
       inside the already-vendored Martyrs Mirror
       (van-braght_martyrs-mirror_sohm1886.txt).
+
+  - row_id: dordrecht-confession_ministers-manual_elkhart1890--confession-of-faith-and-minister-s-manual-dordrecht-2
+    work: Confession of Faith and Minister's Manual (Dordrecht Confession, 1632, standalone edition)
+    author: dordrecht-confession
+    locus: whole volume
+    atlas_ids:
+    - dutch-further-reformation-and-refuge-culture
+    role: context
+    confidence: provisional
+    note: 'The Dutch Mennonites'' own confession, adopted at Dordrecht in 1632: the tolerated dissenting
+      neighbour inside the Republic that Voetius'' lessons and the synod acts argue against. Placed on place
+      and window (same time-place tier); not read for its relation to the Reformed church.
+
+      '

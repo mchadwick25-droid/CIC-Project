@@ -41,10 +41,11 @@ tensions:
 - We do not pretend this was a settled question with no cost to either side. Those who broke from us to
   be baptised again as believing adults understood themselves to be applying the same scriptural-authority
   method our own reform itself established, pressed further rather than abandoned.
-text: We baptised infants. We held that against a real challenge from inside our own circle. The men who first baptised each other as believing adults
-  had themselves once stood with our own founder. Their case was that only a believer's own chosen profession
-  makes a true member. Ours was that a whole believing city, infants included from birth, is the covenant shape Scripture itself describes. It is not a smaller church waiting on a later, personal choice, but the
-  same one, whole.
+text: We baptised infants. We held that against a real challenge from inside our own circle. The men who
+  first baptised each other as believing adults had themselves once stood with our own founder. Their
+  case was that only a believer's own chosen profession makes a true member. Ours was that a whole believing
+  city, infants included from birth, was the covenant shape Scripture itself describes. We did not see
+  it as a lesser church waiting on a later, personal choice.
 use_note:
   means: "We baptised infants, holding a whole believing city, children included from birth, to be Scripture's covenant shape against the Anabaptist challenge."
   not_for:

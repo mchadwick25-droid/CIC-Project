@@ -24,7 +24,7 @@ sources:
   locus: Babylonian Captivity's account of penance -- contrition, confession, satisfaction
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 1.2)
+  locus: the Large Catechism
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism on baptism -- daily drowning of the old Adam
@@ -33,8 +33,9 @@ sources:
   locus: the Augsburg Confession XII, repentance's two parts
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XII, read to 5234 this pass -- contrition and faith, and 'before the writings of
-    Luther appeared, the doctrine of repentance was very much confused'
+  locus: >-
+    the Apology XII -- contrition and faith, and 'before the writings of Luther appeared, the doctrine
+    of repentance was very much confused'
   license: public-domain
 retrieval:
   tier: 1

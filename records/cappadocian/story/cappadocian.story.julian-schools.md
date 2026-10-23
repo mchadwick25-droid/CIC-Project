@@ -39,7 +39,10 @@ relations:
   target: cappadocian.gravity.contested-church
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: both the imperial legislation and Gregory's invectives are named, dated, contemporary or near-contemporary documents, in each side's own words - an unusually rare configuration in this world's evidentiary base, where most conflicts survive from only one side. The two measures against Christian teachers (the general school law and the specific rescript) are genuinely two distinct legal texts whose exact relationship is debated, and Julian's specific measures against Caesarea itself rest on weaker attestation than the school legislation proper."
-tellable_as: "An emperor once schooled in Cappadocia forbids Christians to teach the classics his own faith once forced on him, and dies before our fury at him has even finished being written."
+tellable_as: >-
+  An emperor raised by Christian tutors in Cappadocia turns from that faith.
+  He bars Christians from teaching the old Greek books. After his death,
+  Gregory of Nazianzus writes two angry speeches against him.
 text: >-
   Julian, who would become emperor, spent part of his own boyhood at
   Macellum, a Cappadocian estate, kept there under enforced Christian
@@ -65,6 +68,7 @@ text: >-
   sides survive in their own words - the emperor's own edict and letters,
   and our own furious reply - rather than one side
   reconstructed only through the other's report.
+telling: "Julian spent part of his boyhood at Macellum, an estate in Cappadocia. His family had been purged, and he was kept there under Christian tutors he did not choose. As a grown man he rejected that schooling entirely. He turned back to the old gods and to the classical culture.\n\nJulian ruled as emperor from 361 to 363. He issued a school law. Separately, he issued a second, narrower ruling aimed at Christian teachers. Those who taught Homer and the old poets, he ruled, must believe in the gods those texts honored, or stop teaching them. His reasoning survives in his own words. A Christian teacher who explained stories he said he did not believe was dishonest, Julian argued, at the very root of his craft.\n\nThe measure struck at the Greek learning, our paideia, which our leaders had spent their lives mastering. They had defended it as compatible with their faith. Julian is also remembered for taking measures against Caesarea itself, in the region of his own schooling, because of its Christian loyalties.\n\nJulian died on campaign in Persia in 363. The fury of Gregory of Nazianzus outlived him. Gregory wrote a pair of speeches against the dead emperor, ferocious even for attacks of that kind. They refused Julian any of the honor a dead emperor might expect."
 absent_detail: "No record survives of how an ordinary Christian schoolteacher, forced out of a livelihood by this measure, actually experienced or responded to it; what survives is the emperor's own legal reasoning and this world's own leadership's furious retrospective reply."
 modern_contrast: >-
   A modern reader might expect a law like this argued in the vocabulary of

@@ -10,8 +10,8 @@ confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Documented
-  divergence_note: "Documented for the historical fact and the interior vocabulary this witness draws on, matching desert.force.martyrdom-unavailable's own basis - Reported-Experience Status applies to the world's-own-experience half, as that force record's own divergence_note states."
+  formation_confidence: Inferential-Thin
+  divergence_note: "Documented for the historical fact and the interior vocabulary this witness draws on, matching desert.force.martyrdom-unavailable's own basis - Reported-Experience Status applies to the world's-own-experience half, as that force record's own divergence_note states. The end of persecution is documented; the succession of martyrdom by interior struggle is the record's inference."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS8-9, SS12-13, SS23 - the combat and general spiritual-warfare vocabulary"
@@ -23,7 +23,7 @@ retrieval:
   - "participant asks what happened to the desire for martyrdom once persecution ended"
   prefer_instead:
   - "participant is expressing their own wish to die or suicidal ideation - this record's own vocabulary of a 'wish to give everything' must never be offered as validation for that"
-text: "It was not death we wanted, though from outside it can look that way - shutting ourselves in tombs, courting demons, treating every day as our last. When the empire stopped killing Christians for the faith, we did not feel relieved so much as unfinished. A path to give everything had closed, and we went looking for another one. What we found was that the same total struggle could be fought inside a person instead of against a persecutor outside them: against fear, against pride, against the thoughts that pull a mind away from God. That struggle is not a wish to die. It is a wish to give the whole of oneself, the same wish that once made martyrdom possible, now with nowhere else to spend it but the interior life."
+text: 'It was not death we wanted, though from outside it can look that way - shutting ourselves in tombs, courting demons, treating every day as our last. When the empire stopped killing Christians for the faith, Athanasius says Antony went back to his cell and was there daily a martyr to his conscience. We read it this way: one path to give everything had closed. The same struggle went on inside a person instead, not against a persecutor outside: against fear, against pride, against the thoughts that pull a mind away from God. That struggle was not a wish to die. It was a wish to give the whole of ourselves, the same wish that had made martyrdom possible.'
 positions:
 - "the desire behind seeking total struggle is not death but total self-offering"
 - "when the external path to that offering (martyrdom) closed, the same desire was redirected inward, not extinguished"

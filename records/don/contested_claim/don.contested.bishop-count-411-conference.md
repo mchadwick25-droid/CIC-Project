@@ -15,8 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: 'cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt, line 73363: ''...licis 286,
-    et ex Donalislarum parte 279'''
+  locus: 'the editors'' tally for the 411 Conference: 286 Catholic bishops and 279 Donatist bishops'
   license: public-domain
 - source_id: don.source.gesta-collationis-carthaginiensis
   locus: the acts' own numbered interventions (e.g. acts 20, 24, 26, 50, 99, 108, 121, 253, 266, 268,

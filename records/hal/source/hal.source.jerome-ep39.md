@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Epistula 39, to Paula (384/385, Rome): consolation on the death of her daughter Blaesilla, who died shortly after adopting severe ascetic discipline - including Jerome's own report of the public muttering against the monks at her funeral"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id v.XXXIX"
+citation: Jerome, Epistula 39, to Paula, trans. W.H. Fremantle, Nicene and Post-Nicene Fathers, 2nd series, vol. 6 (1893)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

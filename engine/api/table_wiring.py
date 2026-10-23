@@ -153,6 +153,7 @@ def create_table_session(
     require_admitted: bool = False,
     package_cache_dir: Path | None = None,
     visitor_id: str | None = None,
+    internal: bool = False,
 ) -> tuple[str, str]:
     """Returns (session_id, raw_code), same contract as the interview's
     create_session. Every seated world is loaded (and its manifest hash
@@ -192,11 +193,11 @@ def create_table_session(
         # create_session) - one per seat, same reason.
         package_locations={k: str(registry[k]["package"]["location"]) for k in world_keys},
         visitor_id=visitor_id,
+        internal=internal,
     )
     seated = [
         {
             "representative_name": w.frame["representative"]["name"],
-            "role_label": w.frame["representative"]["role_label"],
             # card_name over display_name: see door_turn's own docstring
             # (Built-World Voice Alignment).
             "world_name": registry[w.world_key].get("card_name") or w.frame["display_name"],
@@ -748,7 +749,7 @@ def _advance_open_round(
         presentation_order = list(state.world_keys)
         random.shuffle(presentation_order)
         seated_lines = "\n".join(
-            f"- {worlds[k].frame['representative']['name']}, {worlds[k].frame['representative']['role_label']} of {worlds[k].frame['display_name']} (world_key: {k})"
+            f"- {worlds[k].frame['representative']['name']} of {worlds[k].frame['display_name']} (world_key: {k})"
             for k in presentation_order
         )
         transcript_speakers = [t["speaker"] for t in transcript if t.get("speaker") not in ("participant", "facilitator", None)]
@@ -1091,7 +1092,7 @@ def _screen_refused_table_message(
     representative_names = [worlds[k].frame["representative"]["name"] for k in state.world_keys]
     opening = open_table_round(
         gate_run=gate_run, representative_names=representative_names, track_a_last=state.safety.track_a_last,
-        rounds_completed=state.turn_count, anachronistic_term_ids=set(), daily_cap_reached=False,
+        rounds_completed=state.turn_count, anachronistic_term_ids=set(),
     )
     if state.round_open:
         _close_round(store, state, reason="safety", turns=state.round_turns)
@@ -1134,7 +1135,6 @@ def _handle_table_message_unlocked(
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
     qc_recorder=None,
-    daily_turn_cap_reached: bool = False,
     grant_for: GrantProvider | None = None,
     on_sentence=None,
 ) -> TableMessageResult:
@@ -1188,7 +1188,7 @@ def _handle_table_message_unlocked(
         world_key=None,
     )
     grant = resolve_grant(
-        grant_for, completed=state.turn_count, free_cap=round_module.TABLE_SESSION_ROUND_CAP, daily_cap_reached=daily_turn_cap_reached
+        grant_for, completed=state.turn_count, free_cap=round_module.TABLE_SESSION_ROUND_CAP
     )
     opening = open_table_round(
         gate_run=gate_run,
@@ -1196,9 +1196,7 @@ def _handle_table_message_unlocked(
         track_a_last=state.safety.track_a_last,
         rounds_completed=state.turn_count,
         anachronistic_term_ids=anachronistic_ids,
-        daily_cap_reached=False,
         round_cap=grant.cap,
-        facilitator_only=grant.facilitator_only,
         limit_text=grant.limit_text,
     )
 

@@ -13,6 +13,66 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-10-23 — Era VII library pass: scope, corpus size, and placements left to Mark
+
+**What was done.** The 27 Era VII census worlds with no Doc_02 now each have a
+dossier, vendored texts with staging and registry entries, and a build or
+atlas-only recommendation in the dossier's section 6. The three Era VII worlds
+with a Doc_02 (VI.1, VI.2, VI.11) were not touched. Every recommendation is for
+Mark; none is a decision.
+
+**Corpus size.** `cic/texts/` crossed the 1 GB planning trigger in
+`PLAN-texts-store-scaling.md` during this pass (671 MB at the start, about
+1.1 GB at the end). The plan says to re-read it at that point and act at
+1.5 GB. Nothing was moved or changed here. Mark decides whether to act now.
+
+**Placements left for Mark.** Contested or unread placements were staged as
+`needs-ruling` or `provisional`, never as a confident call. The generated
+`NEEDS-RULING.md` lists the `needs-ruling` rows. Each dossier's section 5 lists
+its other open questions, among them: which world owns Borromeo's voice
+(VI.12 or VI.22), whether the Church of the East schism (VI.30) is part of
+V.17, whether Mission-Born Christianities (VI.13) should split into its four
+regions, and who holds the Westminster Standards (VI.8 or VI.5).
+
+**Rights calls to re-check.** Bossert 1930 (via a 1971 reprint scan with no
+host rights statement), the 1947 Doctrina Christiana facsimile (renewal check
+not completed), and the Anspach 1858 Heavenly Balm (OCR of a 2024 re-setting).
+Each is flagged in its dossier.
+
+**Method note.** The NYPL renewal data files were unreachable for most years;
+every 1931 to 1963 candidate was therefore treated as a lead unless a renewal
+check was recorded in its dossier.
+
+---
+
+## 2026-10-16 — Reader-ready facts recorded in the registry `notes` trailer, not a new schema field
+
+**Context.** The Source Library design of record (Mark, 2026-10-14,
+`Build/Ministry/Features/Source-Library/Design.md`) makes every vendored
+text linkable from its atlas world card. The Era VII library session
+(branch `library/era-vii-2026-10`) was asked to make each text it vendors
+reader-ready: how the edition labels its sections, the credit line, and
+whether the rights allow republishing the whole text or only passages.
+
+**Decision (session's own, within the existing schema).** These three
+facts go at the end of the file's `REGISTRY.yaml` `notes` as a fixed
+trailer: `READER: sections — ...; credit — "..."; republish — ...`.
+No new registry field is added. Reasons: `notes` is the schema's own
+free-form field for what a file cannot say about itself; a new field is
+a schema change for `texts_registry.py` and the generated README, which
+is a methodology change for Mark to rule on, not a library session's call;
+and a fixed trailer is machine-readable enough for the Stage 1 build to
+lift into its per-file index later. For files already registered, the
+trailer is appended to the existing note. Appending is within the
+registry's append-only rule; nothing already written is changed.
+
+**What this does not decide.** The segmentation index the design places
+beside each file, and any `sections` field in the registry, stay for the
+Source Library build to propose. If Mark wants the trailer promoted to a
+field, the three facts are already separable by their labels.
+
+---
+
 ## 2026-09-30 — Two Source Registry rules adopted into the Template
 
 **Ruling.** The project lead adopted both rules proposed in the entry "Step 0-2 process and gate fixes": one Confidence letter per row, with A given only when the Licensed-For content was read and verified at the source by structure marker; and corpus figures counted by two independent methods with the locale stated. His answer to the choice-box question was "Adopt both (Recommended)". Both are now written into `Build/reference/L3B-World-Build-Methodology/Source_Registry_Template.md` (the Confidence field, and a sixth rule). The Template's scale stays A to E; E marks a source later found unreliable. The proposal paragraph in the earlier entry is superseded by this one and is not edited.

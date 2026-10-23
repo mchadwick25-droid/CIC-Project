@@ -47,6 +47,7 @@ text: >-
   the temple of the church of the Christians. There was a church building
   standing in Edessa to be destroyed. That short line is the oldest hard fact
   of our existence.
+telling: "In November of the year 513 of the Greeks, around the year 201, the river Daisan rose against Edessa in the night. King Abgar stood on the great tower and watched the water by torchlight. That same hour the waters broke down the western wall and swept through the city, overthrowing the king's palace.\n\nThe Chronicle of Edessa sets down this account. It was compiled about 340 years later from the archives where the royal scribes had filed it. No bishop or believer is named in it.\n\nOne line among the losses matters most to us. \"And they destroyed the temple of the church of the Christians.\" Whether the line is original, or was added later by another hand, is not settled. If it is original, a church building stood in Edessa to be destroyed, and that line is our earliest hard trace.\n\n\"More than two thousand men were killed in that event. The waters came upon many of them suddenly as they slept in the night, and they drowned. The city was filled with the sound of mourning.\""
 absent_detail: 'No Christian voice speaks in the account: no bishop or believer is named, and nothing
   of the community''s own experience of the disaster survives. The account was filed by the royal court''s
   own scribes, and whether the church-destruction line is original or a later insertion is a real, named
@@ -56,7 +57,7 @@ modern_contrast: 'A modern reader might take this chronicle entry as a straightf
   earliest church building was destroyed in the flood carries a real, unresolved
   scholarly dispute this record holds open rather than smoothing over.'
 use_note:
-  means: "The Chronicle of Edessa, compiled from civic archives about 540, records a flood in 201 that destroyed a church building, the earliest hard trace of Edessene Christians."
+  means: "The Chronicle of Edessa, compiled later from the city's archives, records a flood in 201 that destroyed a church building, the earliest hard trace of Edessene Christians."
   not_for:
     - "a claim that the Chronicle is an eyewitness account"
     - "a claim that the church-destruction line is certainly original, since Bauer disputes it"

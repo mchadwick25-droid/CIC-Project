@@ -76,10 +76,11 @@ relations:
 - type: associated-with
   target: gallic.term.the-deposit
 plain_meaning: >-
-  Our formative bond is a named man and those formed by watching him. Martin's "eighty disciples, who
-  were being disciplined after the example of the saintly master"; Clarus, "a disciple of Martin's";
-  Sulpitius mourning "our master, Martin." The south keeps it as elder and junior. Vincent turns it on
-  doctrine: the true Catholic is "not a teacher but a disciple, not a leader but a follower."
+  Our formative bond was a named man and those formed by watching him. Martin had "eighty disciples,
+  who were being disciplined after the example of the saintly master." Clarus was "a disciple of
+  Martin's." Sulpitius mourned "our master, Martin." The south kept the bond as elder and junior.
+  Vincent turned it on doctrine: the true Catholic is "not a teacher but a disciple, not a leader but
+  a follower."
 world_word: disciple / master
 gloss_forms:
 - form: disciple
@@ -117,8 +118,8 @@ senses:
     strong as his own performance of it; and, for the faith itself, a keeper who refuses to be an
     author.
 quick_meaning: >-
-  A named master and the men formed by watching him. Even our great teacher calls himself a disciple,
-  "not a leader but a follower."
+  A named master and the men formed by watching him. Vincent asked the same of anyone who keeps the
+  faith: "not a teacher but a disciple, not a leader but a follower."
 distortion_risk: medium
 use_note:
   means: "Disciple and master named the bond between a named man and those formed by watching him, as Martin's eighty, which Vincent turned on doctrine: the Catholic is a disciple."

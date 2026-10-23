@@ -39,23 +39,24 @@ name: "The unconverted Gallic countryside (Tours) [1A - initiating/external]"
 kind: initiating
 matrix_cell: 1A
 description: >-
-  The northern node was founded facing a rural population Sulpitius describes as unconverted:
-  'before the times of Martin, very few, nay, almost none, in those regions had received the name of
-  Christ,' and 'wherever he destroyed heathen temples, there he used immediately to build either
-  churches or monasteries' (Vita XIII); a whole heathen crowd is made catechumens 'by placing his
-  hand upon the whole of them' (Dial. II.4). No corresponding mission-field appears in the southern
-  voices as read; the south's outward work is teaching by writing and hospitality (Doc_08 Cell 1A,
-  Force 1A-3). WORLD'S OWN EXPERIENCE (Layer 2): the countryside was heathen and the saint's power
-  was for it. Where a temple came down a church or a monastery went up; the possessed were brought
-  to him; a crowd on a plain, seeing a dead boy restored, 'began to rush in crowds to the knees of
-  the blessed man, sincerely imploring that he would make them Christians.' The brethren at
-  Marmoutier were formed by watching this done before their eyes, and the churches that later took
-  them wanted priests from among those who had watched. FORMATION IMPACT (Layer 3): node-bound
-  northern. 'A principal reason the north's literature is made of virtutes' (G6): power was needed
-  outward, for the rustics, and the disciple was formed by seeing it used (G5 in its seen medium).
-  It supplied the north's mission-boundary ('Christian / heathen') and its vocabulary of heathen,
-  rustic, and catechumen. 'It has no southern counterpart, and this is one of the places where the
-  two nodes' literatures are made of what the other lacks.'
+  The northern house was founded facing a country people that Sulpitius describes as unconverted. In
+  his words, 'before the times of Martin, very few, nay, almost none, in those regions had received
+  the name of Christ.' And 'wherever he destroyed heathen temples, there he used immediately to
+  build either churches or monasteries' (Vita XIII). A whole heathen crowd is made catechumens 'by
+  placing his hand upon the whole of them' (Dial. II.4). No such mission field appears in the
+  southern voices as read. The south's outward work is teaching by writing, and hospitality.
+
+  The countryside was heathen, and the saint's power was for it. Where a temple came down, a church
+  or a monastery went up. The possessed were brought to him. A crowd on a plain saw a dead boy
+  restored. They 'began to rush in crowds to the knees of the blessed man, sincerely imploring that
+  he would make them Christians.' The brethren at Marmoutier were formed by watching this done
+  before their eyes. The churches that later took them wanted priests from among those who had
+  watched.
+
+  This is a northern force. It is a main reason the north's literature is made of acts of power.
+  Power was needed outward, for the country people, and the disciple was formed by seeing it used.
+  It gave the north its mission boundary, Christian and heathen. It also gave the north its words
+  heathen, rustic and catechumen. It has no southern counterpart.
 manifestations:
 - "'Very few, nay, almost none, in those regions had received the name of Christ' before Martin (Vita XIII)"
 - "Temples destroyed and churches or monasteries built in their place (Vita XIII)"

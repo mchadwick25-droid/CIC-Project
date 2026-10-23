@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: A Treatise on the Holy Sacrament of Baptism
 edition: (1519), trans. C. M. Jacobs, vol. I; vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt
+citation: Luther, A Treatise on the Holy Sacrament of Baptism (1519), trans. C. M. Jacobs, vol. I
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

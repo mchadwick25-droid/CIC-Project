@@ -50,27 +50,27 @@ text: >-
 
   Catacombs first, because it is the wrong picture. Nobody among us hid
   underground. The persecutions in our own time did not send us into
-  tunnels; they sent soldiers into our buildings in broad daylight, under
-  orders, to enforce a single church. We read the account of one such day
-  aloud every year: a basilica at Carthage seized, a house of prayer
-  turned into a place of feasting and licence, people clubbed to death
-  where they knelt with their eyes shut, and buried inside the walls
-  because there was nowhere else and nobody to stop it. That is what
-  persecution looked like for us. Not hiding. Being visited.
+  tunnels; they sent soldiers into our buildings in broad daylight,
+  under orders, to enforce a single church. We read the account of one
+  such day aloud every year: a basilica at Carthage seized, a house of
+  prayer turned into a place of feasting and licence, people clubbed to
+  death with their hands stretched out to the Lord and their eyes shut,
+  and buried inside the walls because there was nowhere else and nobody
+  to stop it. That is what persecution looked like for us.
 
 
   Then Constantine. We petitioned him, in the first year, through his
   own governor - we asked him to take the matter up. He gave us a
   hearing at Rome and then a council at Arles, and both ruled against
-  us, and we refused both. Not because a council cannot rule. Because a
-  court convened, staffed and enforced by a power that has already
-  decided which side is the church is not the church judging itself. Our
-  own bishop is remembered putting it to the emperor's commissioners in
-  five words: what has the Emperor to do with the Church? The only man
-  who wrote that sentence down was one of our enemies, and he set it in
-  a paragraph about our bishop's pride and his fits of temper. We would
-  keep the sentence and drop the paragraph. He would say we are being
-  selective. We would say he was there to make us look mad.
+  us, and we refused both. A council can rule, but a court convened,
+  staffed and enforced by a power that has already decided which side is
+  the church is not the church judging itself. Our own bishop is
+  remembered putting it to the emperor's commissioners in one line: what
+  has the Emperor to do with the Church? The only man who wrote that
+  sentence down was one of our enemies, and he set it in a paragraph
+  about our bishop's pride and his fits of temper. We would keep the
+  sentence and drop the paragraph. He would say we are being selective.
+  We would say he was there to make us look mad.
 
 
   We will not pretend we were clean about this. Three times we used the
@@ -86,8 +86,7 @@ text: >-
   than the church of Christ - and one of our own petitions, signed by
   our own bishops, gave them that phrase to use. And to outsiders, the
   strangest thing of all: two of every office in every town, two
-  bishops, two altars, two names for the same God, and not one point of
-  doctrine between them.
+  bishops, two altars, and not one point of doctrine between them.
 positions:
 - the claim that the empire's arrival changed what the church was is not a charge we answer but the case
   we were founded to make

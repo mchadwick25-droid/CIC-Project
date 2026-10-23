@@ -25,6 +25,7 @@ author: The Nicene and Post-Nicene Fathers editorial apparatus (Series I, vol. I
 work: '''Chapter II. -- An Analysis of Augustin''s Writings Against the Donatists'', Prolegomena to NPNF
   Series I vol. IV'
 edition: Within cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml
+citation: Nicene and Post-Nicene Fathers editorial apparatus, 'Chapter II. -- An Analysis of Augustin's Writings Against the Donatists', Prolegomena to NPNF Series I vol. IV
 kind: vendored
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: editorial -- a nineteenth-century scholarly synthesis, not a primary Donatist or Maximianist

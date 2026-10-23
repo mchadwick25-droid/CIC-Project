@@ -1,0 +1,2985 @@
+Title: The Life of the Most Honourable and Vertuous Lady the La. Magdalen Viscountesse Montague. Written in Latin, and published soone after her death, by Richard Smith, Doctour of Divinity, and her Confessour; and now translated into English, by C. F.
+Creator: Richard Smith (1566-1655), later Bishop of Chalcedon (the Latin Life, 1609); "C. F." (translator into English, 1627; the title page gives only the initials, and no identification is made here)
+Publisher: Permissu Superiorum, 1627 (no place or printer on the title page; the host catalogue attributes the printing to the English College Press)
+Publication Date: 1627
+Rights: Public Domain (published 1627; public domain by date under the project's 95-year rule)
+Source: Internet Archive item bim_early-english-books-1475-1640_the-life-of-the-most-hon_smith-richard-bp-of-c_1627 (archive.org/details/bim_early-english-books-1475-1640_the-life-of-the-most-hon_smith-richard-bp-of-c_1627), file bim_early-english-books-1475-1640_the-life-of-the-most-hon_smith-richard-bp-of-c_1627_djvu.txt, fetched directly (curl, raw bytes) by the library/source-research thread (Era VII session), 2026-10-16; host rights statement: the item carries no possible-copyright-status field and no access restriction (freely downloadable; a microfilm scan in the archive.org "Early English Books 1475-1640" collection, digitised from sim_raw_scan_IA40313016-68); the title page in the scan reads "Permissu Superiorum, M.DC.XXVII".
+Provenance note: Header prepended; the OCR text follows unchanged apart from one mechanical normalisation: 2389 occurrences of long s (U+017F) were replaced by s. Nothing else retyped, dropped or corrected; the microfilm OCR noise (stray characters, broken words, a few thorn characters) is left as it stands. Rights basis restated in one checkable sentence: the title page is dated M.DC.XXVII (1627), more than 95 years before 2026, so the book is public domain by date.
+Content note: SECOND WITNESS, not a quotable text (Mark's OCR ruling, 2026-09-25): the OCR of this microfilm is garbled at every one of the five sample points (10/30/50/70/90 percent), with u/v/y confusions, dropped letters and noise lines, and no clean scan of this edition was found on a reachable host; the only modern edition (A. C. Southern, An Elizabethan Recusant House, 1954) is in copyright. Vendored because the work is essential to this world (the census names it) and no other public-domain witness exists. A quote drawn from it must be checked against the page images of the archive.org item before use. The book is the 1627 English translation of Smith's Latin Life of Lady Magdalen, Viscountess Montague, with the translator's dedication to her grandson Viscount Montague and Smith's preface to the devout reader; it closes with Smith's account of her death. The household chapel, the chaplains and the Catholic servants of her house (Battle Abbey) are the subject, which is why the census names it for the women's and household record.
+---
+464 
+Y 
+
+
+THE 146 
+
+
+OF THE MOST 
+
+
+"HONOVRABLE 
+
+
+AND VERTVOYVS 
+
+
+i ADY 
+
+
+Wc MAGDALEN 
+
+
+vt COVN TESSE 
+_ MONTAGYE. 
+
+
+Written. Latin , and published soone after her death, 
+By:RICH ARD SMITH , Doctonr of 
+Dininity , and her Confessour « 
+
+
+And now translated into English , by C. F. 5 4 
+
+
+* g 
+Wow” 
+» y* 
+
+
+3 ” 
+3 S 
+
+
+MET. 
+OR : 
+
+
+ww; # 
+
+
+Mubier rhnens Dominum, ipsa laudabitur. Pron. 5 S 
+
+
+ad rooted tanmenf} EEE —4 P A tt wins won _ 
+
+
+q Permillu Su uperiorum, M M, DC, R X V1I i 
+
+
+—_— 
+wu 
+
+
+TB: 1:68 
+
+
+HONOVRABLE 
+
+
+Viscount eMontague, | 
+My very good Lord, and Mayster. 
+
+
+ REIGHT HONOQV- 
+DJ RABLE, 
+
+
+Td HAVING finished this little 
+EW Ve) Translation , the Authour of the 
+Eo © SS Worke, whose Will was to mea, 
+Commandment to vndertake the same, did also 
+enioyne me toaddresseit to the protetio of some 
+worthy Patron; which once resfolued , I made no 
+
+
+| 4 dishcylty of the choyce. For as your Lord.? may 
+f 1 
+
+
+of due 1ustice challeng the whole interest of all my 
+actions and labours, this subie& in particuler hath 
+most proper relation , before any other, ynto your 
+| >< Lordiship. For befides that it containes many pal- 
+_ sages of the lyfe,and to the Honour of your Lo.?? 
+most Worthy, and Honourable Grandfather, 
+
+{o neere., and deere vnto your Lordship; this 
+$row I *'0' Honou- 
+
+
+bes. os 
+
+
+. "s 
+_ hy - 
+— __ I" 
+
+
+ct, The Epiftle Dedicatory: WE 
+Honourable Lady ( whose Vertuous. Lyfe is the 
+scope of this treatise ) though she were not the na- 
+turall authour of your Lord.” lyfe, as in Con- 
+sanguinity descending from her; yet did she proue 
+Herieifea trueand tender Mother, and Grandmo- 
+ther( which many euen naturall Parents negle&)in 
+reseruing both your Lord.? , and your Honou- 
+rable Fathers lyfe: and what her fincere affection 
+and continuall care, was of your Lord.? 1nyour 
+tender yeares , none can better restify then your 
+Lo.?. And though your Lo.? were not nourished 
+with the milke of her breasts, yet your Lo.? hath 
+sucked the true tast of her Vertues, and made your 
+selfe an heyreof her Honourable talents. 1 hope 
+therfore that your Lord.?, in regard of the Sub- 
+ie&t, will favour and countenance the Worke , & 
+beare with the rudenes of the stile, which yer pre- 
+sume contayneth nothing but Truth: and therein 
+15 the more conformable to this Worthy, and Ho- 
+noured Lady , who though cxreriourly affected no 
+curiofity, yea prudently shunned it yercontayned 
+1m her,the fincerity of true Vertue & Piety . I be- 
+feech Almighty God, to graunt your Lord.? all 
+Happines and Prosperity , for your rags Com- 
+forr, and eternall Felicity for your future Glory, 
+
+
+T our Lord.” mot obliged 
+—_ Seruant, 
+& 674, CF: 
+
+
+50-2264 S$9 
+
+
+TESTES 
+$$000000000+50000S50000% | 
+THE PREFACE 
+OF THE AV THOR. 
+
+to the denout Reader. 
+
+
+— HOSE auncient Fathers ( denout Reader?) 
+5 */0 by their writings,eyther gaue ornament 
+2-5) 1SEE. 10 the Chriitian Religion , or defended it a- 
+GY 7) gayail Heretikes, did also accuitome to com- 
+mend to Writing the lines of such pious women of their ty- 
+mes , as eyther by affinity, or familiarity vere conicyned 
+vatothews. Wherof,, Wbosoeuer hath byn but indifferent= 5, © 
+ly conuersaut in the Yorkes of S. Hierome, S, Augu- of this 
+itine, S. Gregory, or ethers , cannot be ignorant . For Worke, 
+these mot haly men vuderitood,that therby they did '[a- ; 
+tisfy theyr owne dewotion , gaue hone#t intermission ta We _ 
+their grauer studies, proje God in his Saintes , and fi- the owt þ 
+nalh F these examples induced others to piety. 1 mita+ not bythe 
+ting their proceedings, though in a far meaner degree, o- *% 
+mittinz for the i” » 1) Writing again our moderne 
+Heretikes,( Which also by enioyned enployments, 1 was = ro .G : 
+inforced to interrupt ) bane vnacrtaken to vrize the lyfe OY 
+of the right Vertuous Lady Magdalen , with whome 7 
+familiarly conuersed many yeares , and as her Confes- The men» 
+soxr . In writing wherof , as 1 hane endeauonred to a- w_ of 
+woyd barbarons language , fo haue I purposely abitayned ws. 
+"S , RE 
+
+
+fi. I 
+\ 
+
+
+The fide- | S 
+lity ofthis 729 se!fe haue seene , or haue receyued from the mouth of 
+
+
+wricing, this Lady her selfe , or of other witucsses vorthy of credit: 
+
+
+THr PREFACE ef £ 
+"from the pleasine weyne of eloquence, + the flourishes o 
+yak 5 - Ire, one seth to offend the eares al 
+Reader, and sometymes to auert him from reading the 
+matter written: so the other by onermuch delizhting ma- 
+keth him lesse attentine to the matter it s[elfe , and some- 
+tymes makes him doubtfull of the truth theref:The beau= 
+ty of a cha#t Matrone ought to be as free from payntin? 
+as fromwundleannes. Let those be adorned With wordes 
+whose lyfe is Bot adorned with deeds . Our Magdalen 
+doth so jhine with Vertues, that she needeth not the sple= 
+dour of a pleasing discourse.Y ea rather as she ener ab5tai= 
+ned from paintint cy neucr made we of a looking-elasse: 
+so is it requisite that all unnecessary flourish of” speech be 
+shunned in the description of her Iyfe . My principall 
+ayme [halbe at the truth , that 1 write nothing , but what 
+
+
+so that with S. Hierome Yriting the lyfe of S.Paula, I 
+may call IESVS to witnes,and his Saints, & the 
+very Angell who was Guardian, and companion 
+of this admirable Woman , that Ispeake nothing 
+for fauour , nothing in flattering manner z but 
+what Iam tofay, I speake as a testimony, and lefse 
+then her merits. And that which may be a great satis- 
+futtion to indifferent Readers , What IT heere commit to 
+Writing , 1 uitered before a great audience at the fune- 
+rall of the Lady Magdalen ber familiar acquaintance 
+there present ; and diuulzins it within the space of 19. 
+monthes after her death, if I lye , I maybe disproued by 
+
+
+the month,eycs, & teftimony of all that knew her ; and 
+
+
+especially of Heretikes , Who sith they could not endure 
+true glory ta be attributed vntoher lining , would lesie 
+
+
+Fe per- 
+
+
+"0 hs 
+
+
+To THE READER. | 
+permit false honour to be fayned on her,Aead. Therfore 
+
+their falence in this matter may be an assured te#timony Tha the 
+vnto posterity of the truth of my distourse. But as 1 feare live s 0 
+not calumniators of the truth, sodo 1 desire to satisfy o- {ome 
+
+
+thers, Who perhaps thinke that the lines only of such _ 
+
+
+riteth that they be enrolled in the Catalogue of Saints . 
+From the tmdgment of these I cannot but diffent , consi- 
+dering , that not only the liues of 'S. Paula, and S. Mar- 
+cella , but al/oof Blefilla,Fabiola, and the like are vri- 
+ten by that mo#t eraue Father S'Hierome z and the life 
+of S. Monica by her Sonne S. Augustine , wh:les be 
+feareth that she was yet detayned in the paines of Pur- 
+gatory. And ith good reason ; for as Gods power doth 
+z0t only [hinc in the composition of the sunne and moone, 
+but appeareth also in the fabrick of the lesser Harres : so 
+bisheauenly grace doth not only zine a luitre inthe per - 
+fedtion of famons Saints , but shineth euen tn the worth 
+of enery pious person . Besides the sunne and moone, to 
+hane added also Harres unto the heaues,was not the least 
+' #ncrease of their ornament ; and so 10 recorathe lines of | 
+af or the 
+some pious people,Filbe some addition to the glory of God þ.0 
+and of his Church. And as men for the moit pari dora- of God. 
+ther admire then clime the highe#t mountayaes , vho yet 
+by the lones of little hilles are inuited to ascend: 0 , 
+more doe Commend, then imitate the vertues of famous 
+\ Saints , who yet With no great difficulty ayme at the pie- 
+ty of lesse vertuous persons. And vnto these 1 propose 
+a woman , not famons for rudenesse of habit, or ricour Ca 
+: X ICS or edifi- 
+of diet , or senerity of discipline , or abneeation of the (ig, os 
+world ; but one that Was humble , chat , mecke , pa- our neigh 
+tient and pions , neither resplendent by miracles , = 4- bour, 
+01874* 
+
+
+Or ( X2« 
+ple, 
+
+
+persons ourht to be recorded, whose worthy Santtity mes bewriten, 
+
+
+« : 
+” 
+- 
+TE CLI TAR tt. tied 
+- *, 
+
+
+| Tran PRESACE. 
+bounding With wertiues : so that they Who despaire to inej< 
+tate the admirable sanity of 'S. Mary Magdalen , may 
+see themselnes capable to attaine the piety of Magdalen 
+F ifcountesse Montague. Nezther yet doe 1 enrole her in 
+the number of Saints, or the Blesed : Mine intention is 
+oxly for the glory of God, &+ edification of m y nerghbour, 
+smcerely trommend her lyfe to Writing ; whether she de- 
+serued the opinion of santlity , let others indge. Thus 
+much ( dewout Reater ) 1 deftred to premonish thee , be- 
+ore thou takeft in hand , the reading of the lyfe of our 
+Magdalen. Make thou the benefit thereof , and fare= 
+Fell, £4 
+
+
+>_, Gd 1 1 » —"0£ * 
+» x 0; --" Ih x wt 
+1 — <--- A. —_ 
+ww 63- 3-24 i þ<.. 
+
+
+THE 
+OF THE LADY | 
+
+MAGDALEN 
+
+VISCOVNTESSE 
+Montague . 
+
+
+a. 
+
+
+: FA < —_— _—_— 
+— — — = 
+
+
+Of the Birth of the La. Magdalen Viscountesse Montague, 
+and ber Education ynder ber Mcther. 
+
+
+CHAP. FI. 
+
+
+CRE most Ho. ble and Vertuous Lady 
+
+PLES & Magdalen Viscountesse Montague, was 
+'ZJ 5 borne in England, of most Noble & Ca- 
+(>< tholike parents , at Naiard Caftell, the 
+ID 
+
+
+Manston-house of her Farther, scituat in 
+the County of Camberland, not far from 
+
+
+picty 
+
+
+2 The Life of La. Magdalen 
+pou towards God, for when King Henry the VIII.cal- 
+
+
+. 
+
+
+inga Parlament, purposed by the yoyces of both Houses 
+
+
+. to renounce the obedienceto the Church of Rome,and by 
+
+
+8auder.ds an vnheard of President to arrogate ynto himselfe the ti- 
+schism.l. 1, tle of head of the Church of England, fearing least the Lord 
+
+
+# + 3206 
+
+
+Dacre would nor only refuse toaflent yato his lust, but by 
+his example and authority would animate others to the 
+defence of the ancient fayth, he tooke order to haue him 
+called in question for treason; wherin notwithstandin 
+he was eallly declared innocent. And when afterwards 
+the King told him, that by the consent of Parlament he 
+was made Head of the English Church, and demaunded 
+his opinion what he thought therof; scoffingly deriding 
+the vanity of the King, he answered: Pre. 3. then when 
+your Mazesty offendeth, you may absolue your seife. Another time 
+when Queene Elizabeth the daughter of Henry, excee- 
+ding her Father, endeauoured ytterly-to exterminate Ca- 
+tholike Religion out of England, the Lord Dacre exhorted 
+the Nobility not to giue consent to such an enormous 
+act, and to certaine of them offered himselfe and his for- 
+ces for defence of the Catholique Religion. Her Mother 
+
+
+-«o.. 94s a woman of like Nobility and Piery, the daughter of 
+The Mo- N- Talbot Earle of Shrewsbury;whose ancestors for their 
+ther of the Most heroicall yiRories gotten in France, are exceeding 
+La. Mag- .famous both in the French & Englith Chronicles. And so 
+
+
+dalea, 
+
+
+Fox as a peaule is of great price, though it be hidden ynder 
+
+
+terrible hath the name of Talbot byn heretofore vnto the 
+French, that: Mothers and nurses to still their crying chil- 
+drea,accustomed to say, Talbot comes. Of these most noble 
+ancestors descended the La. Magdalen Montague, which 
+I relate not, as though the did much esteeme therof, bue 
+because, though Nobility donot augment the yalour of 
+vertue , yet it doth addea kind of lustre, and ornament 
+ynto it, and maketh itto appeare more gracious in the 
+
+
+sight of man, For, as we may say with the Poet: 
+
+
+Gratior eft claro vemens de sanguine Virtus. 
+Vertue hath more grace, when it descends of noble race. 
+
+
+Cd 
+
+
+6 
+
+
+. AD IDO: 
+
+
++ 
+
+
+"on _— 
+
+
+Viscountesse Mont ague " 2 
+the earth; or couered with ordure be trodden ynder "M. 
+or to vse S. Hieromes words : 4 lewell glittereth in loathsome 
+wwatcer,eand tbe splendour of 4 most pure pearle shineth euen in dirts 
+yet it is more gracious and deleable, when it is set in 
+gold.So yertueis very estimable with whatsocuer ragged 
+pouerty it is ioyned; but where it is vested with Nobilty, 
+as it were With purple , it doth mooue a greatcr admira- 
+tion;zandas the Sunneina cleare day disperling the clou- 
+des, doth far and neere dilate the beames of his light. For 
+as nothing appeareth more pleasing and beautifull ro 
+those that cast yp theircyes, then the heauens in a cleere 
+night glittering with diuers {tarres:{o ro vs casting dow- 
+ne ouriight, nothing appeareth more gracious, then Nos» 
+bility, adorned, and as-it were gli:tzring with diuers de- 
+
+rees of vertue. For Nobility illustrated with Vertues, is a 
+
+eauen scituate on earth adorned wirh starres. Which in 
+these times we may auerre to be so much the more true, as 
+the coniunction of Vertue with Nobility is more rare. 
+There was a time when Kings, Queenes, and: Princes, 
+men and: women. in England, as they excelled others 
+
+
+be nubred. But now(O griefe)our Princes swaruing trom 
+the fayth of their predecetsors, the Nobility also(tor the 
+molt part) degenerate from the piety of their ancestors. 
+Whertorethis noble woman deserueth the greater prayse 
+before God and men, who would not staine her Nobilit 
+With vices and implous hereste, but endeauoured with all. 
+her forces to adorne and illustrate it with yertues, and the 
+urity of the Catholike fayth, as in the discourse of her. 
+fe shall appeare: Till the thirteenth yeaze of her age the: 
+had her education in her Fathers house, vnder the pious 
+goucrnment of her Mother, where although, as well in: 
+regard: of her youthfull yeares, as by example of her fi- 
+sters, and the cultone ot other Noble Virgins, as also by 
+4 ance! A 2. the 
+
+
+, - 
+
+
+Epil.a6 T 
+
+
+'9 Many hos 
+IN ly Kirgs, 
+dignity,{o-did they endeauourte exceed them in vertue: & Quee=: 
+* Whence we may find recorded among the Saints , neere nes in En- 
+twenty Kings of England, and as many Queenes , but of 8/ard in 
+
+Kings children, Princes & noble persons more then may *'* past, 
+
+
+4-  _ _ The Lifeof La. Maydalm © 
+Shedeliy- the delight of the pastime, she might haue bin induced to 
+tethnotin the sports of hauking and'bunting, she norwithstandin 
+hunting. contemning all this pleasure, madechoice by example o 
+
+the B. Virgin, rather to abide in quietrepose at home; then 
+
+after the manner of prophane Diana, by chasing wilde 
+
+beasts and foule, to stray in the mountaines and forrests;& 
+
+: so without a teacher the fulfilled rhe counsaile which S. 
+
+=P. « Hierome giueth to Virgins: Let her nexer goe forth , le those 
+
+"#n. who wander about the citty do find ber, leaf they strike, and wound 
+her, and bereaue her of theyeyle of her chastuy. 
+
+
+Of ber Education, vnder the Countesse of Bedford . 
+
+
+CHAP. II. 
+y V was by her Father commended to the Coun- 
+tesse of Bedford, to beeducated ynder the prudet discipline: 
+
+
+of that Catholique and Religious Lady. Of whome. she 
+accustomed to make this relation, which for the instruci- 
+A barren On of other women, I thought very requisite to commit. 
+woman X70 Writing, Wheras she was barren, & had a vehement des» 
+
+
+immode» fire to haue a child, she for a long tyme both-by her (elfe- 
+
+
+ratly desi- & others besought Almighty Godroyouchsafe to graunt 
+reth chil- hera sonne. Burt asChrist sayd to his disciphes, Nescrtts quid 
+ren. peratis, yee-know not what yee aske;8& as 8. Auguitine wit- 
+nefleth, God somertymesin anger granteth-our petition: 
+sorhis pious woman by the ill enent experienced, that 
+she knew not what she asked , andinfteed of abenefir, 
+She is pu* requested a punishment of God. For she brought forth a 
+pilhed by sonne, but such a one, as not only fell into heresy, which: 
+them shedidextremely abhorre, butdid oftentimes so impiou- 
+sly behaue himself towards his Mother, as thatshe would 
+somerymes with exceeding griefe and teares publikel 
+confefle, that she grieuously offended God , when delt- 
+ring a sonne, the had not addedthis condition, If it might 
+be tor his glory,and her comfort ; and rherfore ( sayd she); 
+I am iustly punithed by the thing I immodezatly _— 
+
+
+Hen she was now thirteene yeares of age, the: 
+
+
+q 
+
+
+Piscountefie Montague. p\ 
+Which may be a document to pious parents, that sterility 
+isnot alwayes to beesteemed as a punishment inflited 
+of God, nor that children are alwayes to be reputed as a 
+gift, and testimony of dinine fauour; and that they should 
+demaund no temporall thing of God , butas far forth as 
+his diuine prouidence foreseeth it to be agreable to his 
+pleasure, and profitable for them. Butlet vs xeturne to the 
+La. Motague. She liued three yeares vnder the said Couns 
+tefse, whome she so diligently attended, that she did nor 
+only performe the office of her gentlewoman, butin the 
+absence of her chamber-mayd, discharged her feruice al- 
+so, being ready euery houre of the night whensoeuerthe 
+Counteslecalled(which by reason of her old age and in- 
+firmiries she often did) to rise out of her bed, and diligente | 
+ly toattend her. Yea the right Noble Virgin being deli- " Io 
+cately educated, did not disdaine, other owne accord,and 
+ynknowneto the Countesle, to performe that base kind 
+of sernice, which curious eares refuse to heare related, So 
+much had God preuented her with his benediQtions,and ,. . 
+had indued her with such humility, euen ia that age, no?» 24 
+wherein, as being the flower of youth, women are ordi= gqq re tf 
+narily puffed vpn pride and infolencie. And, this at she 
+sometimes accustomed to relate to her Grand-children 
+without blushing, yea with a kind of complacence , by 
+such example to exhort them to humility. 
+
+
+Of her liumg at the Court, ynder Queene Mary,and of ber © 
+Marrzage pnto the Viscount Montague. 
+
+
+CHAP. III. 
+
+
+V Hen in this manner she had spent three yeares 
+
+in all yertue and piety, ynder the disc; line of 
+the Countesle of Bedferd , it happened that K: Edward the 
+fixt being dead ( whose childhood certaine impious men 
+abused to overthrow Catholike Religion in England) 
+Queene Mary, not without YO miracle, & the great ' 
+
+
+was. 
+
+
+6 The Life of Ls, Magdalen 
+benignity of God, againlt all power and policy of heres 
+tikes , ob:ayned the Kingdome of England ; and expel- 
+ting perfidious heresy , reitablished the auncient and true 
+She is Religion. She admitted Magdalen tothe Court, and to. 
+Maid of thenumber of her noble wayting-women ( who are y- 
+honour to sually called Ladyes of Honour ) where her vere and: 
+Q_ Mary. virginall modesty gor,not only more ample place to de- 
+montltrate it scife, butalso found greater occafion and e- 
+xample of progresle and increase. For at that tyme the. 
+, Court of England was alchoole of yertue, a nutsery of pu- 
+What? city , a mantion of piety. The Queene her selfe did shine 
+England 35 the Moone in all kind of yertue, whose prayses alt bi- 
+vvas vn- stories doe record. Her Ladyes and women did glitter as. 
+der Q the starres; and what shining starres they were, the Rea- 
+Mary. der may conicfture by what I will reJate of one of them 
+from the mouth of the La. Magdalen. She accustomed to. 
+arise from her bed very early, andattyring her selte with 
+all possible speed, hastened to the Chappell, where knee- 
+ling against a wall,and the other part of her face couered 
+with her head attyre , she accustomed to spend certayne. 
+| houres in deuout prayer, and to shed abundance of teares 
+< before Almighty God. And yet withall, would she not be 
+any tyme abGnt fro any oftice of piety prescribed to her, 
+& her copanions. Neyther was she content in this sort to. 
+spendthe day , but arose from her bed in the night, and 
+
+
+prostrate on theground applyed her self to prayer a good 
+
+
+part of the night. Which, when the La. Magdalen.-had 
+
+
+once perceyued , she finding herdeuotion to be discoue- 
+Rare c&- red, no otherwise then if the had byn apprehended in 
+uotion of some notorious lewd fault , falling on her knees , with: 
+
+
+of one of 
+
+
+many teares she besought her forthe honour of God, that 
+the may- 
+
+
+Jes of hoe the would not bewray her secret exercises of piety to any 
+
+
+nour, Creature whiles she lived. O humble, O truly pious vir- 
+© gin, andtruly a Mayd(as she was called) of Honour! for 
+she was a maydof Honesty, of Purity , and of Piety. O. 
+happy Court with such Courtyers! and happy England 
+With such a Court, which for yertuous lyte , gaue not 
+
+
+4:3 | place: 
+
+
+e 
+
+
+| Viscountesse Montague; ” 
+
+place to many Cloy iters » & Whendce, as from a fountain» 
+
+head, examples of piety dic flow into all Prouinces of 
+England! Would to God this purity had continued in 
+
+our Virgin Courtiers , and the Mother therof, the Catho« 
+
+like Religion, had still orished; then had not the Court 
+
+of England byn spotted with the notorious infamy of las= 
+ciuiousnes,as soone after it was. But that I may expretle 
+
+my griefe in this cause , I desire my Countrymen to con- 
+sider the notable purity of the maydes of Honour ynder 
+Queenc Mary, and the infamous reproches which some The dif- 
+of them haue incurred vnder- Q, Elizabeth ; and they will _ of 
+find what difference there is berweene a most chast Re- ny 
+ligion, and a most impure Heresy. Vnder such a worthy. cholike 
+Queene, and with such Companions the La. Magdalen and an 
+being educated , she had scarce liued two yearcs in the hereticall 
+Court, but that the rate vertues,and ornaments both of Queeney 
+her body and her soule,drew the hartes of many princi- 
+
+pall Courtyers to affet her. Among whome,two espe- 
+
+cially at one tyme did earnestly seeke her in the way of nu, 
+mariage, The one was Syr Iobs Arundell knight, comonly gefire to 
+(for his great wealth & authority ) called the Great ; who marry the 
+afterward ynder Q. Elizabeth , (uffering long imprison- La. Mag- 
+ment for the Catholike Fayth, dyed a glorious Confes- Galen. 
+four. He was fo enflamed with chast affeRion towardes 
+
+this Lady, that he would neuer desist to sollicite her, till 
+
+he vnderitood that herEspousalls with another were pu- 
+'blished. Then hauing lost his hope, though not his affe- 
+ction , he came to her, and congratulating her espousa!ls, 
+pF - wished her the most fortunate and happy mariage that c= 
+
+uer woman had. The other was Antony, Lord Viscount 
+Montague , the issue of the most famous Marquesle Monta- 
+gue ( whodescended both of the house of Lancafter , and 
+
+of the most auncicnt Nobility of England) one of the pri- 
+
+uy Councell of the Queene, and knight of the most No= 
+
+ble Order ofthe garter. This Nobleman , before he ope- 
+
+ned his defire yntothe La. Magdalen, sought by lerters, 
+
+the conscnt of the Queene, who with no small whe + oak 
+
+atIOny 
+
+
+'$ TheLife of Da. Magdalen 
+The letter fations of her Mayd,wrote him this answere: Having confi- 
+of Queene dered her person, ber vertuous report, birth, great number of friends: 
+Mary. andother benefits which this Alliance will bring vnto you , with 
+other like mottues, which 1 perceiue you prudently ponder, 1 confefie 
+that 1 so fauonr this maiter, as 1'do not only. giue free consent , that 
+you treat with her therof,but also, so fit do I efteeme this match 10 
+ech of you , that with my hart I wish it a happy conclusion ; & hall 
+exceedingly ty, that you haue found so conuentent a wife; and 5be so 
+fortunate 4 condition. The. most Ho, Þi* Viscount hauing in 
+_ this sort obtayned first the consent of the Queene,& then 
+Sheis ma- of the Lady, of her Parents,and friends, martyed her in 
+- Hut London atthe Kinges house called S. James, the Queene. 
+Moatague her selfe with a great traine of the Nobility being present, 
+This then was that Isaac, whome God prepared for this 
+most chast Rebecca, of whose heroicall Vertues, I will 
+briefly note some tew, which I receiucd from this Ladies 
+mouth, because they giue some light to the relating of: 
+her Piety . | 
+
+
+Of the worthy Vertues of the Viscount Montague ,. 
+bushand of the Ls, Magdalen, 
+
+
+CHAP: IV. : 
+
+
+Arare af= He first Vertue that occutreth to be related of this. 
+fetion T Noble man, is his rarcaffeftion vnto chastity. For 
+Niew 1 cbs- (hen (his Mother being dead) his Father kept a Concu- 
+Re} ine , as { his yong Gent. vnderstood therof, h 
+Viscount, ÞiNe » as soone as this yong Gent. vnderstood therof, he 
+| " wentalone to his Father, and'on his knees besought him 
+to leaue that course of life, so hatefull vnto God, damna- 
+ble to his soule, and dishonorable to all hisfriends; and to 
+take to'wife some honest Gentlewoman, with whome 
+he might liue honourably before men; andin the fatiour 
+of God. To whome his Father {myling e apc :: Thou: 
+doest give mesuch e190: 6s Sonne, as will be thirty 
+thousand*pounds ont of thy way. Bur the pious youth: 
+answered, that he nothing regarded that losse , whereby 
+| | he might. 
+
+
+Viscountesie Montague. . - 
+bemightgaine his Fathers soulc and reputation, And so 
+much did the pious admonition of the Sonne preualle 
+with the Father, that dismissing his Concubine, he mar- 
+ryeda wife, with whome he spent the rest of his lite ho- 
+nestly. Andthe Sonne in this one at sthewed great piery 
+towards his Father, religion towards God, and wirh con- 
+tempt of riches an admirable loue of chastity, euen at that 
+time when, heretic being newly crept into England, in a 
+manner all the youth was corrupted with all kind of las- 
+ciuious liberty. Neither was this a sparkle, which aftera 
+licle blazeis sodenly extinguished, bur a true flame of af= 
+fetion ynto chastity, and a firme purpose rather to ha- 
+zard his life , then his chastity. For when afterward he 
+was Embasladour in Spayne, and was fallen into a most 
+perillous and molesifull disease, and the Phisitians gaue 
+1dgement,that he could nor recouer, ynlesle he' had the 
+company ofa woman; and at that time there lying dire- 
+Aly ouer against his lodgings a most beautifull English 
+queane, who by all lascmious allurements endeauoured 
+ro induce him to lewdnes notwithstanding, neitherby 
+the Counsaile of the Phisitians, nor the perfwasion of o- 
+thers, nor the wanton allurements of the queane, nor the 
+loue of his life could he be moued, to preferre the health 
+of his body before the safety of his soule, or the loue of his 
+life before his charity ynto God; bur vtrerly reiefing all 
+lewd Counfaile, he was neuer quiet till he had banithed 
+the queane out of those lodgings. O holy man !O chast 
+Toseph, whome neyther the pleasure of finne, nor the im- 
+punity and secresie of thefa,northe hope of health, nor 
+the feareof dearth conld induce to incurre the lofle of his 
+chastity,to violate his fayth plighted to his wife, or to of= 
+fend God. And albeit, being shortly after by the Queene 
+recalled into his Country, he reconered of this disease, 
+who yet would not efteeme him equal, or very like tro 
+B. Leopoldas, and other most holy men, who chose rather 
+to loose their lines, then to abuse their bodies inconti- 
+
+
+with 
+
+
+He pre« 
+ferreth 
+Chastity 
+before 
+
+his life, 
+
+
+nently? And this his wortby chastity was accompanied 
+B 
+
+
+10 The Lifeof La: Magdalen 
+with equall, or rather greater loue of Gods Worthip anC 
+Religion, For when K. Edward the fixt(or rather others in 
+his nam?)abolithing the religion of his predeceslors, as an 
+other leroboam , had erected a new Altar, and let vp gol- 
+den .calues( | meane a new worlhip, or rather superiti- 
+tion) and almost all people, either for aftectation of no- 
+uelty,or for teare of punishment flocked to that new and 
+enormous [uperltition, this pious youth would not staine 
+himselfs-with such haynous crime ; but like an other To- 
+bias [ought out the seruice of God ,-praRised by his Pa- 
+rents,and;/both deuoucly, and publikly,and with due re- 
+Heis cg. -uerence frequented the same. For which matter being 
+micted eo- Committed to prison, he was so far from being deiected 
+prisonfor therewnth, that adoxning his chamber with tapistry, he 
+the ser= . therby gale bis petsequiors allurance,, thai, his purpele 
+vice of was, rather with D.nzell to liue'in prison, then, to. ab- 
+God. {taine fromthe diuine seruice of his God, Neither did he 
+alone fo constantly imbracethe Catholike Religjon, bur 
+didalso animate others to the like constancy. For when 
+his Father by the impious aduile of someorhers., fox to 
+auoydthe.offenceof Heretikes, was perswaded to absent 
+himdelfe from the Parlamet, that day when ynder Edward 
+the {ixt it was consulted of changing Religion;when the 
+vertuous yog Gent. vadcrstood therof, he neuer deliited 
+till by prayers, teares, and such otherreasons as he could, 
+he had wrought his Father to go to the Parlament, and 
+couragioully to giue his voyce tor the true Religion. And 
+When afterward vnder Q. Mary the: true Religion did 
+florith againe, none was more ftudious then he ta aduace 
+the Catholike fayth. For which hiszeale, and other ver- 
+He is sent tues worthy of such imployment , he especially was cho- 
+Embassz- sen of that Queene to goe Embassadour tothe Pope, and 
+dourt9 desiring pardon of the schisme past,:o promise future obe- 
+the PoPe. djence inthe name of the whole kingdome. Which he 
+performed to his exceeding prayse, the honour of his na- 
+tion, the glory of God, and the applausc of the Christia 
+world, But when a few yeares afrer ( with griefe be it 
+spoken, 
+
+
+_ 
+
+
+Viscountesse. Montague « | I7 
+spoken) by commaundement ng Elizabeth, there eeuhog: 
+was consultation agayneamong the Nobility of the Re- 4 the 
+alme tor suppreliog the Cathglike Fayiiz,-this most Noe mobility 
+ble Viscount, making a-graue:, eloquent; and pithy 9-to main- 
+| ration , exhorted the not to permit themsclues to be car» zaine the 
+_ ryed away With euexy wind of new doctrine, nortodis- ne: R 
+| solue that, which cthemselues {o;yery lately had ratifyed, I** aye 
+and with solemne ceremeny had promised inuiolably,to: 
+
+
+il obserue; nor to.abolith that Religion , [wherein all their! 
+| Christian ancestors liued with such (plendour, and dyed. 
+' with such piety,to imbrace that which asmall number, & 
+
+
+they base, voluptuous, tmrbulenrmen of no reputation, & 
+
+| disagreeing among themselues, had inuented; and which 
+
+| had ncuer set footin England, had notinfamous Just,and 
+
+| greedines of Church-goods depraued K. Henrythe VIII. 
+But when heperceiued the principall of the Nobility of 
+therealme, partly being deluded with the yaine hope of 
+
+. matrying the Q.partly blinded with the couetous defire 
+of earthly riches,,not to. admit;good: Counsaile, bur.like 
+the deafe aspe to stop their eares( as the Plalmist sayth) at 
+whatsoeuer voyces sweetly enchaunting, what he could 
+
+' Not per{wade others, himselfe constantly maintayned, & 
+obseryed: And if (omtime afterward he went. to; hereti- 
+call, Churches, it was noz so much to be imputed robim, 
+as to his Priest, a learned and piousman indeed, but too 
+fearfull, who supposing it expedient something to giue 
+to the tyme, durit not determine such a fat to be sinne. 
+For-w.hen-that;Prigfi beipg dead, he had entertayned an- 
+other, who with Prieftly courage told him that it was a 
+grieuous offence-and hatefull ro Godand the Church, & 
+ernicious to.his foule, to be present at hereticall seruice, 
+Fe wasso far from defending his fact, that (as I receiued 
+j from the mouth of one that was, present ) -instantly-put- 
+ting ot his hat,6 falling.on his knees, both, with gesture 
+of his whole body, &' with his tongue, he most humbly 
+submitted himself tq the censure of the catholike Church, 
+and piously promised neuer thence forward to be present 
+9 I, B 2 at 
+
+
+« *E” as * 
+
+
+—_— — — — 
+
+
+, ly observed. Many other norabje things might be rela< 
+
+
+Psal. 62. 
+
+
+The ex«- 
+ceeding 
+
+
+loue be- 
+
+
+tyvecne 
+the La. 
+
+
+Mag. and 
+ber bus- 
+
+
+band, 
+
+
+12 nds The Life of La; Magdalen 
+athereticall seruice, whichall:the restof his 1yfe he ex26/ 
+
+
+aed of this right Nobleman, but that mine'mntended (ub- 
+iet callech me another way, and therfore-F will adde 
+only one thing,thatthe Reader may ynderstand in what 
+pious manner thisworthy tan-ended his holy lyfe. Whe 
+11 pleased God to purge the rust of his sinnes in thislyfe , 
+he/permitted/him to tall into a'tedious, rroublesorne, and 
+lingring kind of infirmiry, wherothedyed: Which in the 
+opinion of many, happening vnro- him by witch-craft, 
+( from which opinion himselfe seemed not to! dissent ) 
+though cerrayne Sorcerers promised to restore him ro his 
+formet health, if he would bar give way rherto; he nor 
+only refused toconsenrts their iniquiry, but detesting all 
+helpes of the slaue; of Sathan, seuerely forbad his friends 
+cucrio vie such detestable remedyes, for the recovery of 
+his health.. And so declaring , not only in words with 
+che Psalmift, but even indeeds :Moliorem fibi misericordians 
+Driesse super vitas, That Gods merty was better td bim then lyfe , 
+being by along triall purged, he piously ended his lyte 
+in our Lord. 
+
+
+Of the mutual lone berweent the Tar Magdalen, and ber Hus- 
+. band; of bet ifue, and of ber rare-Charity' towards her but- 
+bands children. 
+CHAP. V. 
+
+
+B Y the aforesayd piety of the Viscoutit; it wiltbeeasy 
+for the Reader tormiake aconiefture of the! conrier- 
+fation of his Lady, who being of her owne narure and 
+education addicted ynto piety , by the further jnducetners 
+of her busbands-example , more speedily rar the course 
+of yertue. They lived togeather in grearloue and arnity 
+36. yeares: and whites I'was writing this , I lighted by 
+chance on a letter of D. Langdales , who was tor many 
+yeares theyr Confeslor, wherein , in restimony of rheyr 
+loue and piety lie thus fpeaketh yno then i Fare 7ee = 
+| mo 
+
+
+- —— — _ 
+
+
+— — 
+
+
+Fistountefte Montagne. ; 
+nef louing couple, of ons mind, of one loue;& ( which brave iris 
+world) of onepiaty. She ( 2s 8. Augustine lefr wrietert of S. coofese. 
+Monice } being toyhed to 4 buthand; serued Vint as tier Cord, aud g.c.9. 
+God mule ber beamtifull , end reverently amiable , and adatir als 
+# her bsband. Het husband had by her eight children, Syy 
+George Browne, 8 Sr Henry Browne honourableKkniytits, 
+and Elizaberh' wife to the Lord Dormer; of whose pray- The chil. 
+fes beeauserhey yerlyue (according the Counsay]e ofthe dren of 
+wisem#) 1'wilbe filenr; the refidue dyed eyther infants or *h* Ea. 
+ynmaryed, leauing noiffue; excepting M#5, Iane Browne 
+most like her morner in yertue, matryedto Francis Lacon 
+Esquire, to whome she brought forth manychildten. And 
+albeyt the La: Magdalen moit'renderly loued herchifdren FIN 
+and{( what she could withour mitry ro others) careful- —_— 
+ly aymed at their preferment ; yet her tiusband having by bbw es 
+a former wyfe one only Sonne, of exceeding tender con+ Hier, de 
+ftimtion and intirme; who only was tro precedeher Sons Sanfta 
+in his Fathers inhetirance; the had neuertheles so follicic 7944: 
+tolts a care of his health, as ifhe had byn her owne child: 
+
+Yez his Sonne, the present most Honourable Viscount er vvor- 
+Montague , both by words (as I ynderstartd) and by wri- thy chart 
+tings ( as we shall hereafter recire) imptireth the benefit x4 _ 
+
+of tris owng and his Fathets lyfe to-the rare piety of this dee for 
+Mother+in-law; which isalso confimed by the testimony bevy, 
+of others. And when also', by an offence whictt her hus- : 
+band conceyued', occafion'was presented whereby the Infrac, is, 
+mighrexczedingly haue raysed the fortunes of her owne wy 
+childrew, the was sofar from making vse thereof, to the 
+
+iniury of her Sonne-in-law' his child , that she paci- = Leng 
+fyed: her husband , and reduced him into fauour. $ouhe life 
+much did eyther rhe loge of her husband , whome she af- of ber 
+feed in all his children , or the ingrafted Nobility of sonnc-in 
+mind; ot finally: the lone of God, and equity preuayle ®vv,and 
+witlt her. In which proceeding she shewed a worthy e> of his 
+xample ro'all Mothers-in-law ;and fo niuch therfoze did co—_— 
+the purehase the Toue of the present Viscount, that none 
+
+of lie-owne children exceeded hior in fitiall affeRion. 
+
+| B 3 And 
+
+
+lens 
+
+
+Her pie=. 
+ty and. 
+gratitude 
+toyvards 
+her hus» 
+band de- 
+
+
+ceased, 
+
+
+mn vita S, 
+Pauls 
+
+
+SHEET. 
+
+
+x4 The Life of La. Magdalen 
+
+And though, at the tyme that her husband dyed, she fees 
+med in the iudgement'of many, to be neerer death 
+her selfe;yet so much force did loue adde ynto her; that 
+arising out of her bed,she held him in her armes.whiles he 
+yielded vp his last breath. And as S. Hierome writeth of the 
+most noble widdow S. Paula: She fo bewayled bim ;-as if 5he 
+would baue dyed with bim , be so betooke ber selfe to the sernce of 
+God, as she. seemed 10 bane wished bis death. For wheras for- 
+metly obliged to ;wedlock, she was constrayned to think 
+(as the Apostle fayth)how also to please ber budband, now that 
+
+
+band being diflolued, and hauing gotten a more setled 
+
+
+freedome of exercising her vertuc, the applied hetselfe 
+mofeattentiucly to the seruice of God. Neither yet did 
+she negle&t the care of her husbands soule, for whome she 
+twice cuery weeke caused Masle to be sayd, and herselfe 
+sayd the office of the dead; cuery yeare she procured aso- 
+lemne Aniuersary on the day of his departure, & most fre- 
+quently when she tooke her repast, and often at other ti- 
+mes,cyen to the last day of her life , she was most. grate- 
+fully mindfull of him, vsing these, or the like words: God 
+
+
+© be mercifull to bis soule who left methts. But now leauing her 
+
+
+husband let ys come to her yertues. Wherot before I begin 
+to speake, this I must professe, that I neither know them 
+all, nor can I according to their worth expresle any-one 
+of them. For if the mosl eloquent Father S. Hierome con- 
+fessed, that although all bis members were conuerted into 1ggues, & 
+all bes 10ynts did sound with bumane voyce, yet could be deliner no- 
+thing woythy the vertnes of $. Paula: What may 1 hopetfor, 
+who am not worthy to carry the bookes of S. Hierome, & 
+yet am to write the life of that widdow, who as she dide- 
+quall S. Paula in Nobility, sodi@ she imitate her in ver- 
+tues. I will therfore partly imitate those painters, who be- 
+ing to describe some Amy on a tablet, do draw the iust 
+proportion of some few.soldiers , but of the residue they 
+
+
+. make appeare only their lieades, or the vpper partoftheir 
+
+
+helmets, or the points of their speares, wherby they inti- 
+mate the number of the soldiers to be great , which they 
+
+
+Was _ can 
+
+
+_.. via addi. < 
+
+
+Viscountesse Montague . TT. 
+can rather propose tothe vaderstanding of the beholders, 
+then exhibite co their eyes. Thus I see Fmustendeauour in 
+writing the lyfe of this pious Lady, that I may describe 
+some few of her vertues molt apparent ynto me, but the 
+relt I mult leaueto be conceyued in the secret indpment 
+of the Reader, Although euen in this [ shall eafily find 
+the Pensill of the Painter more fortunate then my Pen, 
+for he can draw the iult stature and true proportion of all 
+the members, at least of fome of the soldier: : Wheras my 
+Pen cannor fully and entirely describe any one vertue of 
+this pious Lady. Which that speak without amplificatis 
+is apparent to all tharknew her , and the prudent Rea- 
+der may easily conccaue as much,by what I am to relate. 
+
+
+Of the excellent Humility of the La. Magdalen. 
+CHAP. VI. 
+
+
+Fcuuse , as the most grave Doour ofthe Church S. 
+
+
+LD Hterome-woiteth in the lyte of S. Paula: The firi,or chiefe In aft. ho 
+
+
+verlugof 4. Christian is Humility. And as 8. Chrysotome sayrh, 30+ | 
+
+It is the Roote, Mother, and Nurse , the support, and bound of all 
+
+good things, thertore being to write the vertues of this pt- 
+
+ous woman, [et ys beginne with her Humility. That she 
+
+was eminent heerein, isapparent by her speach, her con-'Her bu- 
+uersation, attire, and afts. For her (peach was mild and _ 
+peaceable, and tree from all contention, and more rea- FIO# 
+dyto giue way to,then to contend euen with her infe- 
+riours. Neyther did the disdaine to speake vnto any, yea 
+when she walked abroad, the sometymes tooke occasion 
+of discourse withsuch poore people as the casually met 
+with all, and sometymes went to their houses , and fa- 
+miljarly discoursed with them of their affayres. She shun- 
+
+
+In her 
+conuersan 
+tions 
+
+
+ned notthe conuerfation of any honest person , yea she Tn her ap- 
+
+
+vilited the poore, thetby to get them the moreestimatis parall, 
+among their neighbours. Herattyre, after the death of her 
+husband, when she was not bound to please the eyes of 
+_ any 
+
+
+CE — ooeo—_ 
+
+
+26 E The Life of La. Magdalen 
+ary Man , Was {uch, that as S. Hiereme writ&h of $.Pau- 
+Ls: Hhs had not knowne her, would not take ber to be who shewwas, 
+hay tobe the mneanest of the hand-mayds. On working dayes, 
+the had her headdrefled with plaine linnen, couered with 
+an ordinary Hat, vied in England commonly , by scruing- 
+Maydes-Byton Feasts (in honour of the Dayes ) the pur 
+on a French-hood. Her gowne in Summer was of say,in 
+winter of Cotton, on which, to keep her shoulders trom 
+cold, the comanly wore a courle Irish mantle. She neuer 
+She never Wor Knis stockings, either of filke, worlted, & wolle, but 
+adorned anlyand altogether of Kerlie. Her {mock was of rude & 
+ber selfe course linnen, such as noble women would esteemea pe- 
+by a glas- nance to weare. She neyerin her life dressed her head, or 
+le, adomed her selfe by a glasle, which in a woman , espe- 
+ciall Noble, and a Courtier, may be cltzemed as a mira- 
+cle, fith women otherwise deuout, haue byn subieR to 
+this defeQt. In so much,as S. Hierome writeth of Blesills , 
+That 5he looked all the day in a glasse, to see what 5he wanted, For 
+what do women more anxiously ayme at, the to adorne 
+I vits their face, who, duwwmolientur (as he sayd)dum commur, dum 
+Perle: prefer nr anne ofte A yeare doth but suffice to adorne, attire 
+& beautify thamselues. And wherof should that woman 
+be proud, who negleRts herface ? That it may be lefle ad- 
+mirable, that our Magdalen was free from that imperfe- 
+Qion, wherunto even S.Pazls in ber youth was fubicR, 
+by the confession of $. Hieroxee, to wit, of painting her face 
+with chaeke vernith, ceruse, or other like colourings, For 
+her eadeauour was to adorme her soule with yertues, and 
+the glafle wherin the daily beheld the same, was her c6- 
+es {ciencs, as by that which we thall heereafter relate ,shall 
+ofhumi. BE Fleanly appeare. And that we may (peake a licle of 
+liy. the ates of hex humility, whatl pray you, was that which 
+we farmerly mentioned, when in her tender youth, yn- 
+bidden, & vokuowneto her Lady, she freely performed 
+such 2 base office? What was that other a, which the fre- 
+quently exercised, asto be present at the trauell of diuers 
+meane, and poore Women, and her selfe girded with an 
+
+
+apron 
+
+
+;  . Fifwountfe Monagne. 17 
+apron diligently to affilt the? Thefe certainly were wor- 
+thy and evident testimonits of profound humility; yer of 
+all the rest is this most excellent, knowne vnly ww my 
+selte. Wheras she had made ch6yce to yse me in the Sacra> 
+ment of Confession, I aduiled her of a certainemethode 
+
+
+of discussing her conscience, more conuenient for her (in. 
+
+
+mine opinion) then that the hadformerly vsed. Wherein 
+1did perhaps so imperfe&ly expresle my meaning, thar 
+the pious Lady ynderstood me tosuspeRt, that she did not 
+sincerely discouerher sinnes, but did conceale somethin 
+requilite to be opened. And what{thinke you ) did rhis 
+Lady,no lesle eminetin Estatethen in Nobiliry,fo deep- 
+ly touched (as to her seemed) in her honour, and fo ini 
+stly condemned(as she conceiued) of so hainous acrime 2s 
+is sacriledgezand the abuse of almighty God in the Sactas 
+meat? and this by him whome the so much esteemed , as 
+before any other she chose him for guide & Pastour of her 
+soule? What did the I say? did she by countenance, word, 
+a, or gesture discouer any figne of offence? Yea,did she 
+excuse = selfe, or aske what moued me to giue so grie- 
+uous a censure of her?None of all these;but makiny most 
+humble reuerence, departed , and so remayned a whole 
+weeke, shewing in all that time no token of displeasure. 
+But yet, when almighty God had by this meanes 'rryed 
+the humility,and patience of his seruant, therby perhaps 
+tolet me know what an humble soule he had commirted 
+to my care, he suggested ynto her in her next confteffion 
+to aske me, for what causeI suspeRed that the had con- 
+cealed something in confession , more fearing my indg- 
+ment, then relying on her owne innocency, atid dotb- 
+ting that I did perceyue something, which shesaw notin 
+her (clfe. O submifsiue humility! O profound refignaris 
+of the soule of this great Lady ! And truly great , because 
+in her owneeyes the was so little. Some Penitents per- 
+haps would haue taken it grieuously , to haue byn que- 
+stioned of such lesser faultes whereof their consciences ac- 
+caused them ; orhers would _ itoffenliuely , to be on 
+mine 
+
+
+_— 
+
+
+A rare 
+bumility 
+in lecrets 
+
+
+z$ The Life of L4. Magdalen 
+
+mined ofthose crimes , wherof there might be iust suspi- 
+cion that they were guilty ; but this humble and truly 
+penitent woman , was content not only to be examined 
+ot her sinnes (yea this the very much defired) bur euen (as, 
+she conceyued) to be condemned, not of some sleight de- 
+fect, but of a most grieuouscryme ; and out of her humi- 
+lity, more feared the iudgmentof her Confeflour, then 
+confided in the testimony of her owne conscience. And 
+therforeif according to-the greatnes of her Humility, we 
+Will meafure the worth of her other vyertues, { as he-did 
+who by the foot-step of Hercules aymed at his whole sta- 
+ture) we may without any other argument colle&, that 
+the rare submission of this soule was consequently accom- 
+s/f with many excellent vertuss. For where God 
+
+ayd fo solid a toundation of humility, out of all doubt he 
+builta notable edifice of vertue. For where there is much 
+Humility, there is much Sanctity, Whence the molt sa- 
+cred Mother of Christ,and his Precursor, as they exceeded 
+all orherin humility , so did they precede them in sanRi- 
+
+
+An hom- ty. Of this her Humility then it proceeded, that the fre- 
+ble saying quently accustomed to say , that the was a sack of dung ; 
+anc deed, and when in her last sicknes ker drinke did once displeafe 
+
+
+her, sodenly reprehending her selfe , and bitterly wee- 
+ping , she sayd : by should 1 mislike my drink. for whome any: 
+Link too good? And the at length had gotten so perfect a 
+victory ouer Pride, that a litle before her death, with 
+
+
+Shetrig- Bat confidence in God, & consolation of mind, she told 
+pheth o. Me , that thence forward she feared not pryde. Or happy 
+ner pride, Woman, who in earth co[d triumph ouer that vice which: 
+
+
+threw the highest Cherubims downe from the highest 
+
+lace of heauen, and cast our first parents out of Paradise, 
+and then which, Piety hathnot a more capital] enemy ! 
+For as it is most difficult to suppresle a flame ; so is it hard: 
+not to glory when one hath doneany thing worthy of 
+prayse. How highly then hath God now eleuated this 
+woman , Who promised toexalt the humble and how: 
+
+
+wiily might the chalenge a place of the lapsed Angey F 
+| _.3 
+
+
+PR DT VP. ts 
+
+
+{ov 
+
+
+*.2 
+
+
+WA X \ Piscouttese Montague ; | T 
+who by humility ascended thither, whence they by pride 
+
+
+gidtall ? 
+
+
+Of her notable Chastity. 
+CHAP. VII. 
+
+
+H = next yertue of this pious woma wherof we are 
+to speake, is her Chastity. This in both sexes is molt 
+
+
+. precious for as the Scripture witnesleth , There 8s no suffi- 
+
+
+cient worthy esteeme of 4 continent soule: Yet doth it especially 
+thine In women, as the principall lower in their garlad, 
+so that the same (cripture sayth: Gratia super gratiam, mulier 
+sancta © pudorara. But a woman wanting this vertuie, tan- 
+
+
+Ecclefiaff, 
+
+
+(:29. 
+
+
+Cap +2 6s 
+
+
+quam flercusmp1ia conculcabitur, as the same scripture sayth . Cap, y, 
+
+
+But this womansChastity did equall her humility, wher- 
+ot in the tyme of her virginity , of her wedlocke, and of 
+her widdowhood, the gaue euidet testimonies. For whi- 
+Jes she lined amayd of honour in the Court , on a tyme 
+King Philkp who had maryed Queene Mary, youthful- 
+ly opened a window , where by chance the was wa- 
+thing her face, and sportingly putting in his arme, which 
+{ome other would perhaps haue takcn as a great honour, 
+and rcioyced therat, the knowing thatthe condition 
+of virgins was not vnlike ynto flowers, Which with the 
+least crouch doe loose of their beauty , hauing more regard 
+of her owne purity , then of the Kings Maiesty,the tooke 
+a staffe lying by,and strongly stroke the King on the ar- 
+me. Which fact the prudet King did not only take with- 
+
+
+She shar< 
+
+
+ply reie- 
+Aeth the 
+
+
+out offence, but it was the increase of her honour and Kings ie« 
+eftecme. And in what manner, thinke you , would the ting, 
+
+
+ hauedisdayned any other , who so reieted the King? or 
+
+
+what would she not haue doneagainst the King,attemp- 
+ting any lewdnes, who soentertayncd himiesting?When 
+
+
+. the was matrryed , stheso carryed her selfe, that as $. Hie- 
+ yome Writeth of $.Paula: Shes was ati example to all Matrones cr 
+. sobehaued berselfe, that the tongues exien of ill speakers nener dif 
+
+_ Forge any ill of her, For who could speake any dithonelt 
+
+
+C3 thing 
+
+
+20 The Life of Ls. Magdaken 
+
+thing of hertwho ence heard impure fpeach of her mouth 
+whocould charge her with any wanton cast of her ey? 
+who could<iscouer in her any vnehasRaffeRion? Yet did 
+she not want occasions of incontinencie, whiles ber hus- 
+
+
+hand was thrice out of Englzaya, nordid there want lewd 
+
+
+sollicitors,cuen of the chieteltranck of Fngland, whole dise 
+courle wen the perceiued to.tendtihereynco, the wirk a 
+certainc pious indignation (o reiected them ,thar they 
+durlt twice attempt the same. Andithis her chastity 
+was {o pexppicuous,and wellknowne, that it sp repactied 
+the brid- the inclinations, and buideled. the topgues ehen of tha- 
+lecehthe macles perfons, as that they were ashamed to attempt, or 
+wanton- ytter any lewd mates in hes prefence. And atbcir. she 
+nes ck chosenot the higheftdegrce of Chastiey, which is Vingie 
+—_— ni:y;that, perhaps may rather be. asctibedto want of ad- 
+P-reont  uiss and.counlaile(wherof the often, lamented :o haue big 
+destitute in her youth) then, ot defire to. follow the: bell, 
+For when, being 8. yeares of age, and:newly marry ed, 
+her$usband w as fentto that famous seige ob S. Quintins, the 
+
+madea firme resolution, it he should dye, ncuer to kno! 
+any other man: so that we may indge of ber,as S. Hirrome 
+writeth of S. Paula: Hauing once entred: Matrimente, +be neney 
+thought of other thing day or night, but, the fruzr:of marriage being 
+rendred,bow to attajnethe second degreeof chaftity. For her huss 
+band bcing dead, the Lord Cebbam,, a\man of great estate, 
+
+honour, and authority in-thexeabme, did moit earnest] 
+She refu . ; Y 
+seth se. fseekehet in mariage, and offered hera very fayre dowry; 
+cond Na- but the gaue himsoresolute a denyall,that thenceforward 
+riage® the was nomore sollicited by sutors. This example is not 
+ordinary in Eng/and,in this so corruptan age, where some- 
+times women of honour, after the.death of their husbads, 
+not finding others equall to thesclues in dignity, do mary 
+euen their scruants, or men of meane condition. In this 
+manner liued this Hon. die Lady all her life, without re 
+| prehenfion ( as S. Paul speaketh) mtbe. middeft of « crooked and 
+Phil.2: peruerse Natts, wrong whome 5be sbined as light tn the warld. And 
+albeic these be arguments of rarechastity, yer L will adde 
+one 
+
+
+z 
+
+
+Fiscintgh deviague. - &7 
+one far mare Cngular &eminent,the wath 4 
+i depend an her only teftimony, yet ith God doth dawde 
+
+
+parteth greater guiftes vata his Eruaniyand fhe being fo 
+
+
+wotthy a Lady,as whosoeuer knew her, could haue no 
+
+
+fei{or, [ litle feare, but that it will find credit with the vn» 
+partiall Reader ;.& this it was 5 thar in all her life she ne- 
+uzrfeltche involuntary stings, or(as they call it) rebellion 
+
+
+of the fleth, wherby hex mind should be proyeted taluk. 
+
+
+this woman! Far with what purity did Gad beaunfy her 
+soule, whole adorned ber fleth? what wealure did be lay 
+vp in so rich a cheft? what pure Tabernacle of the holy 
+Ghakt was that soule, which uzhabited fo pure and chast a 
+body? Neither yet is this all, that in thiskund I can relate 
+of his mm _ alt, —_ 8. —_— of himselte 
+writing the life of S. Panly: 1 aw to omtt 
+hinge al I chould. exceed thebdliaje of things, and by ron 
+be repied 4 lyer. But what chast soule.thivke you, had the, 
+who was freed from that intetiour, and emellenemic of 
+her chastity? And if some tune the cnemie did (i ; that 
+Y to her saule,whereto her fleh. did notallure her; if she 
+were waking, the did instanily-not only reiet it from 
+her miad, but even: with spitting, or somc exteriour $- 
+gne,diddeclare. how much she detested it. Bug if it hap 
+ned in her leep, whenreason bad not pawer to Ms.5 al 
+alliance, yet did her body (oe {irive and labour to expell 
+that filthy Gggestion , that it awakened hes ming, after 
+which the:vidory was ealy. O/bappy woman , whose 
+very fiesh( in. which, euen in holy men, as the P 
+speaketh ) »bere ts no saundnes,hut theis lopnes arefilied. with oia- 
+seans, andtheir revies do affluch them: exam wits night) was free 
+
+
+fromturpitude! S.Gregery elteemed i Rc 4 _ - 
+
+
+stity, hen Gods grace (aytinhe:) perfulthrrewar 
+Finons, nas to feels the hangs, or TP the watjonso __ 
+5 ® ut 
+
+
+Sw * 
+
+
+—— 
+
+
+ta 6cery ene (25 the Apaltle ayth) crcordeing 45 he will, &r jon 
+
+
+» 
+\ 
+
+
+suspition that tor yaing glary the woute delude her con«:: 
+
+
+Mag nee 
+
+
+the rebel- 
+O singular chastity! O what nd ottalt of the Rate of in- hag ofihs 
+nocencie! O wadertull arguments of Gods laue towards ficlh. 
+
+
+xophet pre} yo 
+
+
+c. Cor: rad 
+
+
+The Lg. 
+
+
+uer felt 
+
+
+2 | TheLifeof La. Magdalen 
+Butthis woman felt neither the violence ofthe motions, 
+nor the motion it scife. O what iewell of chastity did 
+the earth loose! how much did heaue gaine by her death! 
+But nowlet ys confider her patience. 
+
+
+Of ber singular Patience, 
+CHAP. VIII. 
+
+
+'Vr Sauiour affirmeth Patience to be so necessary to 
+euery man, that hedeclareth, that therin we thall 
+possesse our soules;as if without it, man were not maister 
+of him selfe, but were carryed hither and thicher with the 
+blind fury of affetion:and this yerrue in the La. Magda- 
+Her con. 1en was not inferiour to the former, For it appeared ad- 
+tinuall , Mirable to all that knew her, not for acertainc time, nor 
+patience, in some company, nor ypon certaine occasions, but in all 
+
+the wholecourse of her life Nor did the carry her selfe 
+
+patiently towards strangers only, or herequalls, but euen 
+
+towards her familiars, and her yery seruants; from re- 
+She wold prehending of whome,if they had offended her, she accu- 
+| —_ stomed to abstaine, least ( as she often sayd) she should be 
+Vants lea Moued to anger; being more carefull ofher patience and 
+Mhe should frangquillity of mind, then of conscruing her temporall 
+be angry, <ltate. For when any matter was committed deseruing 
+
+reprehension, the accustomed tosay to one : Goe, and chide 
+A mild such a one. And sofarre was the from the vice of chiding, 
+speach of, that she ynderitood not all the words which brauling 
+the Lady, Pope accustome to yse; andtherfore when notlong be- 
+| tore her death, she heard one woman scolding with an- 
+other, she openly sayd, that till that day she neuer heard 
+such kind of speaches. She vsed tofay: A good word is as 
+easily spoken, as an euill. Ame fat oc ay; 
+
+
+Tec to 
+
+
+Heer f10- 
+table pa* 
+tience tO 
+
+= WW — , 24 
+
+
+= — 
+—_— —— — — 
+- —— | l 
+» # 
+
+
+1 © 
+
+
+*y 
+, 
+He. 
+AE 
+
+
+_Piscountesse Montag 
+
+
+3 LAG -(%*1" 
+
+
+| —_.. _— 
+
+. gr taSaoubtiiles ouercome 
+-an act of grea: pajama fame - 7th ads 
+les an iniury ofher seruant, but a greater to conceale it;but V*!{aries: 
+the greatest, inthat she accultomed to induce her aduersa-. * 
+
+ries by benefits to acknowledge their fault. Andso much 
+
+did this herPatience preuaile with two of her notorious, 
+aducrlaries, that ypon their knees they asked her pardon of 51998 
+
+of thejvoffence. And this her patience was in herso much aq _ 
+the more admirable, as she was by natuce cholerike, and gitions 
+
+fo much choler was found in her body after her death, delighted 
+that fuch as saw it, and knew her most mecke manner of in ber c6- 
+liuing, were exceedingly amazed therat, So milde and v*r{atione 
+sweet was her conuersation, that she allured poqple of all 
+conditions to her company; and, which wes to beggmi» 
+red, euery age, cuery degree, and both sexes did seeme e- 
+qually to besurprised with the loue of hercompany;and- 
+she did so accommodate her selfe to the civill comport- 
+ments of euery one, that yet she admitted giothing vn-: 
+worthy of her selfe, or ynbeseemingher age and grauiry. 
+She was very.vnwilling to offend any by word, gesture, 
+or act; yea to take from others occafion of complayning, 
+whatsocuer seemed molesttfull, she tooke it her selfe: and 
+that which S. Augvstine calleth a great gift of God in his Shecons- - 
+Mother, that when one had secretly complayned vynto cealeth 
+het of another : She would speaks nothing of the one ynto the *be gil- 
+other, but what might tend to their reconcilzation ; this, in this £070 of 
+woman was rare and per{picuous. And this kind of Pa- **2*"*: 
+
++ tience sheexercised, not only when she had her perteR c 
+health, buteuen in her gricuous ficknes , as shall appeare *'©*%-<+ 
+hereafter in our relation of her extreme infirmity, wherin- * 
+
+not content with the torments which her difease did in-. 
+
+AiR, the ofte inuocated almighty God with these words: Excelleat 
+Q Lord, more paine,and more patience . — 
+
+
+of 
+do We 
+
+
+_— ben gs abe, 
+
+
+» $ The Life of Tu, Mapdaltn 
+| of hey prompt Obedience. 
+CHAP. IX. 
+
+
+Ow obediet the pious Lady was, may exfily be col- 
+leted by what we have related of her singular hu- 
+mility.For what would she disdaine ro do, who had so 
+humble a conctic of her felfe? what comandement would 
+she tefuse to who vacommaunded executed the 
+most bask kind of service? And how feriously may we 
+thinkeshe obeyed her husband, who so diligently atten- 
+dett her Lady? Out of doubr, the —_— y obeyed her 
+toy for which almighty God blefied her with long 
+ife,and<arefullysubmired her felfe ro her husband, & sol- 
+Thesay- litirvusly tulfilted his will, wherupon the ofren fayd, that 
+ing of the ghe-joft her wit at $. tames , which was theplace of her 
+Lt cr.0ef Maziage. Besides she religionfly submitred [her setfe to 
+Onectect» ker Confesfor, wherof i could a many exarmples, 
+buriyall be content with one. This humble and . obe- 
+
+dientLady, by countfaike ofher Phifician,and by admont- 
+
+tion of her Confeffor in her laftinfamity , and enen 6h 
+As- wednesday (which the neuer did in her life defore,- 
+
+and 'did pioufly abhonent ) was perswaded ro eare- flesh, 
+She fea. Shertheh preferred vive request of fer Confesfor, before 
+rech foun- horovwne will, and herimoftanciem and Religious ous 
+dal fone. Yershe didrhis withsach caution &feare of can- 
+del, tharfheveormmwnded bet lithe Grandchildren to be 
+out ef the way, east being vncapable 'of vnde | 
+
+the caufewhetrfore she did em flesh;they might xftervward 
+
+abuse her example. For which'canse also, when a Prore- 
+shamtcomming inwher chamber, found ber eating of 
+flelWin'the lent, the forgotnot to aduentife him, that the 
+
+did not'eat fleh for glutrony, or in contemprof the'pre= 
+ceprotvie Church, burracher in obedience to cheChurch, 
+which, by counsaile both of the fpirituall and remporall 
+Phisitians,giueth leaue to the infirme to cat flesh, Another 
+
+
+> time,* 
+
+
+—— 
+
+
+I, Piscountefe Mont apur. 2F 
+also, when to comfort and cncourage her, it wag 
+
+told her , that she being so extreme weake , and cating 
+
+flesh by the counsaite of both her Phisitians, might me» 
+
+rit more by eating, then others by fasting , the req 
+
+to forbeare such kind of speach , least people ouer prone 
+
+to giue way to gluttony , should contemne- falting . 
+
+But when it was answered her, that nor simple eating, 
+
+but only eating of obedicce was preferred before fasting, 
+
+forso much as 1n fasting, is abstinence from meate, but in 
+
+eating of obedience, is abnegation of ones owne will , 
+
+which people preferre beforeeue the most delicatemeat; 
+
+and that her example was not of simpleeating , but of 
+
+eating ypon obedience agaynlt her owne will, wherin 
+
+she wasnot lyke to haue roo many imitatours z when 
+
+( | ay ) she heard these words, she was silent,and thewed A most 
+
+her selfe ready to be disposed of any way , often viing obedient 
+
+these words : Doe with me what you please , for I will no longer '®Y Ph» 
+
+bate my will. And certaynly fuch was her obedience all 
+
+the tyme of her tedious infirmity , eyther in abstayning "_— o_ 
+
+from that which the desired, or in accepting what was ra wag: 
+
+offered her, that it moued great admiration in all the wo- roo 
+
+men that atteded her, who fond no more difficulty in go- 
+
+ucrning her,then if they had attended an innocent child. 
+
+
+Of ber Liberality towards others 
+CHAP. X. 
+
+
+O Mitting to speake of her liberality towards her bro2 
+ther, and kinred, or of her hospitality towards No# 
+ble persons, because this is accustomedto be attributed ra= 
+ther to nature then to vertue, I will only speake of her li- 
+berality towards others. She maintayned a greatfamily, 
+which consisted ofeighty persons, and sometimes more, 
+and almost all Catholikes. And these she maintayned not 
+only for her honour ( as is the manner of noble persons) 
+but also to support them in the Catholike Religion; and 
+to these she allowed not only plentifull food, and com- 
+= " D petent 
+
+
+family . 
+
+
+26 The Lifeof La. Magdalen 
+petent wages, but ( which is much more to beefteemed)} 
+afforded them the same benefit of the word of God, and 
+the: Sacraments, thatherselte enjoyed ;and asfarre as the 
+How ma- Could {ecured them from vyexations, & pezsecution of He- 
+ny bene- retikes. Which kind of liberality is farre to be preferred 
+fi:tes pro* before cuen the distribution of yery great summes of mo- 
+ceed of ny in almes. For in this kind ofalmes, only mony is gi- 
+Ja: => e ,1 uen , but in the pious liberality of this Lady, not on- 
+gaCa- I . 
+tholike 1y mony is beltowed but meat, lodging, defence from 
+family, p<rsecurieigahe exercise of Religion , and the vse of the 
+l 2: 
+
+
+acra Ind a visible Church or Company of Ca- 
+tholtke embled, and conserued. She maintayned 
+three Ft her house, and gaue entertaynment to all 
+
+
+that repayred to her, & Very seldome dismissed any with- 
+out the guitt of an Angel] ; sheredeemed two out of pri- 
+
+
+son at her owne cost, and attempred the lyke for others , 
+
+
+and gaue mony to other Catholikes both in common & 
+particuler, Her almes distributed euery second day at her 
+gates ynto-the poote, were plentifull, and (such , as some 
+Her almes Of *Þ© richer Protestants did calumniate that they augme=- 
+ted the number.of beggers , and nourished their idlenes. 
+When the deliitedfrom her prayers , she accustomed to 
+spead much tyme in sowing thirts or smockes for poore 
+men and women , in which exercise the seemed to take 
+much pleasure ; sometimes also when she had leasure the 
+visited the poore in their owne houses , and sent them, 
+eyther medecines, or meat , or wood, or mony as she 
+perceyutd their need'; and when. she conldnor performe 
+this her selfe, she senther wayting women. Which kind 
+of Charity the omitted noteuen in her greatest, and last 
+infirmity , but euen-then enquired how it fared with the 
+poore, and lamented their infirmities , whea her selfe of 
+all other needed most commileration. ' 
+
+
+of 
+
+
+” IS. 6 wo 
+
+
+LYSIS wt, wa PT Sou 
+
+
+Piscountese Montague © 2s 
+
+
+Of ber Zeale and Conitancy in supporting, and profesring 
+the Catholyke Fayth . ,et 
+
+
+CHAP. XI. 
+
+
+Ow gratefull is is vnto God to profesle his fayth, it 
+appeareth by those words of Christ our Sauiour: 
+Euery one that shall confesse me before men, 1 also will confesse bim 
+before my Father. And allo on the contraryghow.odious it Matth. to 
+is vnto God to deny his fayth, is -uidenthy that which | 
+followeth: But be that sþall deny me before men, 1 alfo will deny J 
+him before my Father which is m beauen, But how: caftant the 
+La. Magdalen was , not only in kceping, buteuen in pro 
+felling thefayth of Christ, is euident, notby one act, but 
+by the whole progrelle of her life. For in those times, fo 
+turbulent, & so exceeding {ubiect to mutation ynder the 
+Kings Henry the V II. and Edward the fix,and Q Eliza- 
+beth, the remayned molt constant in ber fayth. And it in 
+the beginning of the raigne of Q. Elizabeth she went 
+sometimes to hereticall Churches, that may rather be im= 
+uted to the defect of instruction, then want of zeale. For 
+when the vndcistood it to be valawtull,ske did most co= 
+Ratly abhorre it. And albeit that ynder Q. El:zzabeth the en- 
+dured no other persecution for matter cf Religion,then 
+that she was once accused tothe pretended Bishop of 
+Canterbury, her house twice tbe and her Priclt once 
+taken, and imprisonned ; yet was she prepared to (uffer 
+whatsoeuer it should please God, and aid expole he:selte 
+to the perill therof, For wheras she had two goodcly 
+Mansion houses, the one vpothe Thames fide neete Lon- 
+don-b:1idge, in which, from the fi:{t beginning of peisecu- Thehouse 
+tion by Q,Elizubeth was a comman reurefor Prizits com- ofthe La, 
+ming in,and going ont of England;and allo a refuge tor Mage. a 
+{uch as resided in London; whetin allo one Priest had his wenn 
+residence,to minifter the Sacraments to such Catholikes **t "gh 
+ms resorted thither. In this house happened a matter wor- 
+D 2 thy 
+
+
+. The Life of La, Mapdahen 
+thy obseruation, which by the way 1 thought requifitets 
+relate. When in the chappell of this house (which some- 
+timeappertayned to the Canons-Regular) some persons 
+did dig in the place where the high Altar had formerly 
+stood, vnderthe samealtar yor neere therunto they foiid 
+a leaden coffin, & within it the body ofa Religious man 
+- apped in linnen, and bound hard with cords, there bu- 
+tycd many yeares before, so sound, lexible,and of so liue» 
+Iy a colour, as it feemed alive. The La. Magdalen, 2s hex 
+selfe told me, putting her hingets into his mouth, did a ti- 
+tle pull out his rongue, which was fleshly zed and dry; 8& 
+another with a knife cut a {lathin the flesh, which with- 
+in seemed yery found and fatty, no figne appearing ei« 
+ther of Balme, or any other thing that could conserue 
+that body from corruption. And of this matter many eye 
+witnesses worthy of credit are yetliuing. In her other 
+house, which, being distant foure miles trom Hafings, of 
+that famons field which there was fought betweenc /#- 
+ham the Conquerour and King Herald, is called Battell, 
+where herfelfe with her family did forthe moft part re- 
+side,she kepr three Priests,one of whome was M. Thomas 
+More, great grandchild, and direct heire of that famous Syr 
+"Thomas More sometime Lord Chauncellorof England, & 
+a most worthy Martyr; who seeking to participate rather 
+'of the vertues, then of the lands of his great grandfather, 
+Hauing resigned vnto his yonger brother a most ample 
+patrimony , & being worthily adorned with learning 6c 
+yertues, and made Priest, deuoted himselfe wholy to the 
+conuersion of his Country; in which induftry he hath 
+laudably employed himselfe these 20, yeares. Another 
+was M. Thomas Smith Bachelorof diuinity, a man nolesle 
+venerable for hislearning, worthy piety, and ynwearyed 
+endeuour in helping his Country, then for his grauity of 
+yeares. The third was my selfe. These did minister the 
+word of God and the Sacraments, not only tothe La. 
+
+
+Magdalen,and her family, but to all Catholikes 1 
+
+
+thither, She built achappellin her house(which in = 
+| > perie> 
+
+
+% 
+
+
+| 
+| 
+
+
+Viscountesie Montague. - 29 
+persecution was to be admired )and there placed a very 
+faire Altar of stone, wherts she made an ascent withiteps 51, pus 
+andenclofed it with railes: and to hauecuery thing con» a chappell 
+formable, she built a Quire for singers, andsert yp a pulpit with a 
+tor the Prieits, which perhaps is not to be seene mn all En» Quicr in 
+gland besides. Heere almolt eucry weeke was a sermon Þ<rbouse, 
+made, and on solemne fealts the sacrifice of the Masle was 
+celebrated with finging, and musicall instruments, and 
+somerimes also with Deacon & subdeacen. And suth was 
+the concourse and refort of Catholikes , that fornetimes 200enee 
+there were 120. together, and 60.communicants at a time nmr 
+had the benefic of the B. Sacrament. And such was the ni- ; 
+ber of Catholikes resident in her house, and the multicude 4, __ 
+and note of such as repayred thither, thateuen the hereti- ,, + 
+kes, to theerernall glory of thename of the La. Magda» Catholi- 
+ten , gaue it the title of Lake Rome. O happy woman ,and kes, 
+true mayntainer of the Romaine fayth, who, where the 
+very name of Rome is to most so odious, that they vi all Thehouse 
+theirindustry and yemost endevour to extinguith n;there, of the La. 
+she did not only preserue the memory therof, but made x Mag.cal- 
+sofamous, as she deserued to haue the tithe therof giuen to led litle 
+her house. Let others nominate their houses by what ti- __ 
+tles they please, this only title of Litle Rowe, ginen by 
+-Heretikes vntothy house, O Honorable Magdalen , by 
+reason of the Romane fayth there profefsed , appearerh 
+more famous , and more illustrious then all other titles ! 
+Whiles she was present either at Maffe or Sermon, she did 
+not coccale herfelfe for feare to be betrayed by some false 
+brother, asit sometimes happeneth in England , but the 
+did ferus God publikely in the ftght of all , that. by her 
+example the might encourage all; and when the walked 
+abroad, by her Beads, or Crofle which she vsed :1&weare 
+about her neck, she profefsed hzr{eIfe ro bea Catholike, 
+euen to'whatsocner Hereticall beholders; and so manifest 
+was her religion, that scarce any in England had heard 
+
+name, who knew her not also to be a Catholike, She 
+
+dered none from hearing Mafle in her house , if any 
+; D 3 | Catho= | 
+
+
+— 
+
+
+O The Life of La. Magdalen 
+Catholike had but the least knowledge of them, viing 
+these words: Let these poore people come, they desire comfort as 
+much as we, And that which to others did strike a feare of 
+trobles, was ynto her occasion of great ioy: to wit, when 
+on festiuall dayes, she saw a great number of Catholiks in 
+
+She on her Chappell, in fo muchas she would {ometimes shed 
+
+—_ tearcs for 1oy, and would thanke God, that by her mea- 
+
+Cilholike nes so many pious soulesreceiued spirituall consolation. 
+
+booksin Yealo far streched the fortitude of this blessed woman, in 
+
+her house, propagating the Catholike fayth, that she twice offered 
+me leaue to set yp a Presle to print Catholike bookes in 
+her house; which had bin done but that it was most difh- 
+cult, and almost impossible in fuch an ample family to 
+to conceale such a matter from Heretikes. T his her coura» 
+gious Constancy bred her great Enuie, in her Hereticall 
+neighbours ; wherwith some of them being moued, pre 
+sented her name, and the names of almost all her family 
+so the Judges in publike allifes, for not obseruing the law 
+of comming to Church every month, By which law it is 
+commanded, that whatsoeucr person of the age of 16. yea 
+res shall abstaine, for a month, from the Protestant Chur- 
+ches, shalbe confined within the compasse of fiue miles of 
+his house,and shall pay,at the choyce of the King, either 
+20.!t every month, or two thirds of his lands & tenemets, 
+The Ls. with the lofle of all his goods: &if he keep any Catho- 
+Mag. first 1; seruat, he shall pay besides for each one, r0.!t euery 
+of all eve —_ po which law the La. Magdalen was the firlt 
+
+
+a. of the Nobility, that euer in England was accused in pu 
+
+
+accused y- blike iudgment.But she was so fartrs bein gterrified with 
+pon the this most hard proceeding, or dismissing of any of her ser- 
+statute of wants, that, hauing intelligence therof, with a pleasing 
+
+
+goingto  Countenance. the fayd : If the King will hoaue two thirds of 
+hereticall 
+
+
+Churches 
+
+
+mine estate, 1 will ioyfully live with the ret, and 1 thank God, who 
+hath permitted me to entoyut hitherto, and now permitteth that it 
+be taken from me, for professton of bis fayth. When there was 
+danger of searching her house, she was morelollicitous of 
+ber Priests then ot herselfe, and whea in the time of that 
+
+
+notg»- | 
+
+
+> \ 
+
+
+tt. 4 
+
+
+—_—_ 
+
+
+4 
+
+
+Viscountesse Myntague © x 
+notorious powder-uecaso,the was terrifyed with extteme Her mans 
+and imminent dangers, thai she should not be able to ly cou. 
+keep a Pciest in her house, she did not yet giue way ther- rage in 
+vato,but dismilhing the aduertiser, with a manly courage prefeng 
+and tull ot contidence in God, she sayd to her Confessor: P*'h 
+Let ys say the lst ames, and commit this matter to God, And as well | 
+at other times ofcen, as when the lay in her extreme infir- gy, ,vqu. 
+mity, the {trictly commaunded her children, encouraged ceth two 
+her seruants, and importunatly exhorted alk persons, to of her 
+neglect the wealth of the world, constantly to retaine neerest 
+the Catholike fayth, and to repose their hopes in God. At Kinredva- 
+which time Almighty God gaue ynto her this confola- C the 
+tion, that by her example and admonirions she reduced hurche 
+two of herneerelt kinred imo the lap of the church. And 
+certainly it is ro be much attributed to her Piety, that 
+wheras the lettliving aboue thirty of her children, Ne- She de- 
+hewes and Neeces, the lett them all constant professors sireth her 
+of the Catholike fayth. And albeit she most tenderly affe- cbildren 
+Red her children; yet she so much preferred fayth before —__ suf 
+nature, that she would often say, she should exceedingly -uclgy way 
+reioyce to see any of them todye forthe Catholike fayth. ca.polike 
+Neither do I doubr, but if Almighty God had tryed her, fayh, 
+we ihould haue scene in her thecourage of the Mother of 
+the Machabees . | 
+
+
+| Of ber notable Prey towards God. 
+CHAP. XII. 
+
+
+He nurse of a!l Vertue is piety & denotion towards 
+
+God , which in the Lady Magdalen was very re- 
+matkeable. For she was cuery day present at the mgmning 
+and cuening seruice which by her Priests was daily fayd Tp, qe: 
+in her chappell. For the most part , she did euery day ygion of 
+heare three Masses, & more would willingly haue heard, the La. 
+if the might : and such was her affeRion to this diuine sa- Mag-vnto: 
+crifice, that whgn vpen any occafionin the winter it was the Madfe, 
+
+
+layd 
+
+
+z The Life of La. Magdalen 
+ayd before day, sheinthat cold and vnscasonable time ; 
+could not contayne hersclfe in her bed, but rifing , endu- 
+red not to be absent from that heauenly Sacrifice . In 
+Her. daily her private deuotions , the did cuery day say three offices, 
+priuate thatis , of the B. Virgin , ofthe Holy Ghost, and of the 
+Prayei% Holy Crosse; wherto the added at least three Rosaries, the 
+Tesus Plalrer, the 50. prayers of S. Brigit , which because 
+they beginne with O, are commonly called her 1 5. Ocs, 
+and the common Litanyes ; and finally sometymes the 
+office of the dead. Which prayers, when in her infirmity 
+she could not say her selfe, the procured to be sayd by o- 
+What thers, distributing to euery onea part, And that I may 
+time she comprehend much in few words, she spent a very great , 
+spent 12 part ofthe day,and much of the night in prayer. For ri- 
+prayer. sing early in the morning, the for the nol part emploied 
+
+
+the rest of the tyme, euen till the houre of dinner in pray= 
+er, and sometymes she would retyre her s(elfe alone after 
+dinner into the chappell to pray; as also before supper she 
+spent an houre, or often two houres in prayer ; and bee 
+fore she wentto bed the omitted not the Litanyes,and the 
+
+
+examen of her conscience. And I haue sometymes obser- 
+uedthat on Christmas Ene at night, from an houre before 
+midnight till a litle before dinner, the neuer went out of 
+the Chappell but only alittle to attire herselfe ; but was al 
+that tyme watchfully employed in prayers, and deuout 
+ations. She was often found in her chamber prostrate 
+on the ground in prayer, albeyt she accustomed , when 
+the heat of deuotio did moue her, to shut the dores. In the 
+night also, when others tooke their sleepe, she was heard 
+ot her women to say her Beads , which to that end did 
+alwayes hang at her beds syde. And as S. Hierome writeth 
+of $.Lea, She infirufted ber famaly more by examplethen by word, 
+Boise 14+ & with her piety inducedall to deuotion. Andalthough 
+she was by priuiledge of her age exempted from fasting, 
+She did yer did she piously obserue af the fasts of the Lent, the 
+okcea fast. F qber dayes, and whatsoeuer other , eyther commaun- 
+ded by the Church, or introduced by the pious —_— 
+Oo 
+
+
+WR Viscountesie Montague,  . _- 33 
+of the Country, as are the tasts of Fridayes, and some'0= ,-. ..: 
+thers : to all which, of her owne deuotio the added Tothe :' «1 
+wednesdayes. O right pious woman, and imitating that 
+holy widdow, which 41d not depart from the Temple, serutng Luc. d 
+God day and night , in fasting and prayer! "And the was so mo- 
+ued with loue ynto prayer and deuotion, that the cargof 
+worldly estate was tedious ynto her, which she would - + \'t 
+willingly haue imposed ypon some other, & did somety- 
+mes coterre with me of that matter, that she might who- 
+ly deuote herself ynto God, but that there were some im- 
+pediments which herselfe could not temoue. She shewed 
+a respeRtiue reuerence to her Priests, for the honour 'of 1, Oh 
+God , and did most humbly on her knees, morning and ding re- 
+euening aske their benedition, which the did also ob- erence 
+serue towards other Priests at their comming; & going. to her .. 
+Which honour exhibited to our Priests from the begin» Pricfits 
+ning of the English Church, as testifyeth &. Bede in the 
+third booke of his History, and 46. Chap, batlong tyme 
+intermitted, their frequent deathes for the Catholyk 
+fayth hath reduced , for within 30. yeares, aboue 120. fe» 
+_ cular Priests haue bin crowned with Martyrdome in En- 
+gland. Euery Sunday,and festiuall day besides , she did _ 
+purge her finnes by holy Confession ; which she perfor- ne ts 
+med with great preparation of mynd, and discussion of Lee 
+her conscience. She opened her sinnes with exceeding & with 
+{incerity , and bewayled them with such abundance of great cons 
+teares, that whosoeuer had scene the, would have thoght wuritions 
+her another sinfull Magdalen , but the hearer ofher finnes 
+thought of the innocency of S. 10h» going into the wil 
+, dernes, least beshould maculate his life with the least idle ward. . +; * 
+For what she confessed were sometimes so small, that I » 
+thought it necessaty , to, aduife her to accuse herselfe of 
+some former'sinnes, fearing least otherwise there might - 
+want matter of abso]ution . And yet as I fayd, she did 
+_ fo bitterly lament them, that she forced nie” to jeares ; 
+
+for which cause I desired to heare her confession before L 
+confessed my owne finnes. ou in Her,as S: Hierome 4 
+
+toth - 
+
+
+bd oa 
+
+
+— — — 
+
+
+& The Taje of 44. Magdalen : | 
+
+Is vies © $9þ, of $.,2ayle, Theu wouldeft beleiue to be fountainezof teaper, 
+Pauls, -Ap6so hemailedfeaght (pines,as thon woulde@t thenk, ber to be gaglty 
+of grievous crimes. Eugry yeare ,at least gnce, whiles I had 
+care of-her, the, made a generall confeslion of all her fin- 
+
+A&5,notypoany fc: ole but tha: she might obtaine ate 
+
+Which the Propher, haping alredy obtained paxdon of his 
+
+Ea, 50, inns. requelied when. he sayd: PHasb me more from my ini 
+quity,and clense mefrom. my siniezand with allthat she might 
+_ the more humble her {ele , and haue her finnes alwiyes. 
+
+before her.eyes. Andalbeit she was yery.sollicitous in 'dis- 
+culling her conscience; yet she did trequently request me, 
+thatit I perceived any vice in her conuersation , I should 
+not omit to admonith her therof. {And she was so seuere 
+
+towards her selfe, that she would defire more pennance 
+
+then was enioyned her, and would say ,,that the never 
+
+-met,with a Confessar that would enioyne her sufficient 
+
+
+$he desi- 
+red more 
+pennance 
+
+
+then was {atjfaRion. And for that reason perhaps , for some Mon- 
+enioyned thes before her last fickges, she accustomed euery weeke 
+hers after her confession to giue me ten shillings, to distribure 
+
+
+In almes, so to supply that which ro her seemed wanting. 
+inthe imposition other pennance. Concerning which 
+"An ad. Mony, this happened worthy of o bseruation, that when. 
+mirable she was fick,8: could notaccording to that custome giue. 
+bing con» Me every weeke that certaine'summe , the commaunded: 
+cerning one of her serya nts,to deliuer me such mony as he had of 
+the mony hers, which mony came not tq a farthing more, nor leise 
+the gave then ten shillings, for euery week she liued. This then was: 
+for latif= 14. iety of this worthy woman in confessing frequent-. 
+&Rion, 32 
+ly, in-confesling with reat sincerity,contrition, and de- 
+Hee piety sire of satisfying God for her sins ; wherto was answer- 
+townrds | able her like deuotion towards themost B. Sacrament of 
+the Sacra- the Eucharist, For whenin. this manner she had purged. 
+ment of hersoule from finne, she came with an hungry defire co. 
+the Eu= receiue the bread of life, and with. what externall reuc- 
+Ehafilt, rence, and humiliation of body, she both came-to the {a- 
+; ered Altar of Christ , and returged thence, with what te2«. 
+$858 her eyes, and with what zguerenge in her cornte- 
+NAnce 
+
+
+1'o 
+
+
+F. .. W7. FP”. yo ow o- [yn 0 0 YO 00 WH oÞ yo. 
+
+
+nafse? Re reeciiredchiar sacred bangquet;rheyl well porctas- + 
+ued who beheld het. Bit'with what afretfobe piety, and! , 
+with what etflattied chatity towards God;Me encertays —F | 
+ned her Sattiour in het heart, he'only saw, whoseeth the: 
+{cites of harts. 
+
+
+Of the admirable Pronidence of God, towards the 
+La. Maydalen. 
+
+
+CHAP. XIIL. 
+
+
+S this holy woman had a peculiar-care to serue'& ' 
+
+. & please God, so it appeareth that correspondently-he 
+
+bad a particuler prouidence, and care ouer her, wherot [ 
+
+will alleadgea few examples, Whiles she was a marryed 
+woman she fell into an extreme,and continuall griefe'&c: 
+affliction of mind, ypon the ruine of Rerfamily procured} 
+
+(as she sometimes sayd) by him in whetne' shehad placed 
+
+the hope of best reliefe therof; which melancholy aMii- 
+
+ion being such as exceeded the art of aH Phifttians, and 
+
+the counsfaile and comfort of her friends; almighty God at 
+length compassionating his seruant, yottchsated to cure 
+
+her by another meanes, For in adreame(as she patticuler- God cs * 
+ly related ynto me)ir was clearly and manifestly demons reth her 
+f'rated ynto her, what the (Koufd do to be freed of her in- tedious 
+ward griefe. Which when she had performed , (ir being: a #fiRiony 
+very pious ation) the Was inftitly cured of that afflition 
+
+of mind, which no' humane att'; medicing, or counsaile 
+
+could preuaile in. Ofthis triall, as the often confesfed , the: 
+obtayned'a better knowledge of her selfe,and more bene= 
+
+fitthe of any otherthing; in so niuch that the confidently 
+affirmed, that by her owne experience, the hadlearned 
+
+that God worketh all things for our good: And by this 
+meanes almighty God did meruatfoully free trer from spi- 
+
+r1tuall defoJations, & did conuertthemto her aduantage 
+
+and consolation ; neither did helefse proteR her from her 
+Corporall ehittmies. For wheras sarhe few years before her- 
+
+| E. 2 death 
+
+
+26- TheLife of La. Magdalen 
+
+death cerfaine Protestats, in hatred ofher Religio, sought 
+
+The ing. "te destruction of her,and all her family, yet did they not 
+| gement preuaile in their malice, For the principall of them $yr 
+of God Tho.May, being a Knight and Iustice of peace, and hauing 
+vpon the giuen commaundment for apprehending the seruants of 
+hderetikes the La. Magdalen, was himfclte a litle after ignominijously 
+wr, loght conuented before publike authority, and cast into prison 
+pes bn for debt, where he lay long, and atthe setting forth of 
+Mag. ' this worke, was shametully difmisled of the Commitllion 
+of the Peace. Bur theauthor & firebrand of all euils was 
+Nicholas Cobbe,wheoalitle after he began to seeke the ruine 
+
+of the La. Magdalen , had a-knite thrust jinto his belly by 
+
+his owne wife; & beingfor some hainous faR apprehen- 
+
+ded by officers, and euen by heretikes pursued to punish- 
+ment,didat length by letters beg pardon of the La. Mag- 
+daley ;and what atfliction yet expecteth him, almighty 
+
+God knoweth, The third inueterate Heretike called N. 
+
+Benet , who perceyuing that nothing , of what himselfe 
+and his Confederates had conspired agaynst the de- 
+uout Lady,tooke cfic,on a market-day held at Batrell , 
+falling on this knees before the gate-house of the Viscoun= 
+
+teile, did yomit qut his bitter imprecation , praying God 
+
+to confound her , and all her family. But the dart which 
+
+the impiousfellow cast against heauen, did soone fall v- 
+
+pon his owne head. Forthe third day after going eatly in 
+
+the morning out of his house, he drowned himselfe in a 
+
+pit at the townes end, towards London : Whereupon be- 
+
+ing taken vp by Protestants, & by their iudgement foiid 
+
+uilty of his owne death, he was buryed like a dog inthe 
+
+Note the igh way. At another timealso when ( as before 1s sayd) 
+_ z, she was called in question for not going to heretical! ser- 
+of Ea. uice , she was so farre from incuiring any detriment ther- 
+| by , as that it wrought her more security then before. For 
+the Kings Councell by their publike letters addressed to 
+
+the Attoiny Generall dated the 19. of Aprill 1607.com- 
+maunded that no sentence should proceed agaynst her. 
+
+Which letters because they testify both the true alle gia n wn 
+
+Ortne 
+
+
+ded ypon that presentment, or whatsaeuer other, till we shallbe fur- 
+ther certifyed. And in the same manner , when ynder pre- 
+tence of search forthe powde1-traytors, Protestants did 
+often search her house , she obtayned letters from the 
+Kings Councell dated the 5. of Aprill 1606. and subscri- 
+bed by ten of the same Councell, that none besides fower 
+
+
+by her self nominated, should search her house. By which The La, 
+lerters the obtayned, that herselfe, whose house especially Mag-ex- 
+
+
+was al wayes free toall Catholikes, & who, in admitting P 
+Cacholikesto the Sacraments, exposed herselfe to dan- 
+
+
+herselse 
+to perill 
+
+
+ger more then all others, proued thence forward to be 9, celi- 
+more free from perill then anyclse. Whiles she lay in L6- gion be- 
+don in the yeare 1606, a Protestant _ one goe into came 
+her house , whome he (uspeRed (but falsely) to be one of more free 
+those whome the King had proclaymed guilty of the 70m dane 
+powder-treason, declared the same to the Kings Coun- b**+ 
+
+
+cell, who instantly authorized Officers that most warch- 
+fully beset both hers, and the adioyning houses , from 
+Wednesday at two of theclocke in the morning, till Sa- 
+turday noone following,and in that tyme very diligent- 
+ly searched hers, but especially her neighbours houses. 
+Tae Lady Magdalens Priest was then absent , who was 
+gone towards Battell, the intending immediatly to fol- 
+
+_” F. 2 low 
+
+
+2F The Lifeof Lo. Millen SES 
+
+5M hin; birt viiderftandingthat rw oof het family were ' 
+-  fallet/griegoufly sick, instantly taking horse; retunied to/ 
+
+Her Priest Loidon, the (the day that the (earch begari,” Buralmigh- 
+twice eve ty*Godso protected the Lady Magdalen, that atthie vety 
+
+ously ef mstant'when the Priest, suspeting no danger, entred in- 
+pus T Fr to the house , the Watchmen for a quatter of an hower ' 
+
+ped t rl rage Es Sanity 
+
+bandes of WEre gone aside. Andeuen two dayes after When it was 
+beretikes, esteemed 'most dangerons for him to remayne there any 
+longer , he went againe outof the house in the. middeit 
+of the watch', not one of them apprehending Him, albeit 
+amohgst them there were three that knew him well, to 
+be a Priest, and did speake of him to each other, and with - 
+theit fingers pointed at him, Notmany monthes after the 
+: same Prieftgding from the house of the Viscountelle at - 
+Apgaine an g4ttelt , Was discouered to the aforesayd impious Cobbe, 8 
+Ne time 15s Prielt being scarce out of fight, Cobbe hauing a yehe- 
+ment nixlicious defire to apprehend him, ran cuery way - 
+to hyre a hotse to pursue him ; but Almighty God did 
+
+so preferue. the Lady- Magdalen, that he permitted nor 
+
+any; Protestant, though her grievous enemyes, to lend 
+
+Cobbe'a horse, nor suffered him to follow thePricst a foote, 
+
+or by EETe is the mannerin England ) to rayse the 
+
+people ro pursue him , wheras the Priest , not suspeQing 
+
+any danger, walked on a foote pace, expeing one that 
+
+Was to accompany him, might easily hauebyn apprehen- 
+
+ded. Both Which escapes the Priest himselfe ascribed to 
+
+bs picty of this Lady whome God proteRed , least ber 
+riest being taken, her lyfe had byn brought in question * 
+for entertayning him. With the rehearsall of one admira- 
+ble thing which happened in her house, I will end the 
+An admi. discobtle of thesethings. There stood y right agaynst a 
+rablething Wall a great marble stone, which in Cathohike tymes had 
+of an Al- byn an Altar-stone for the seruice of almighty God ;and 
+tare (tones a wommi of curiosity desirous to (ee that side therof which 
+rested agaynst the wall, so drew the stone towards her 
+as 1t fe]] ypon her. And albei: the stone was of that huge 
+greatiies and Weight, as cight men could hardly with 
+Whate 
+
+
+ Bsauyteseeviagy .... 
+mhaisaeas: leone -« * +1 EI 
+and nothing 76 | NATO Ne Fe enghs 
+faye yerfrosp! fall of it, yet was itsotakep;ypwithaut + 
+the least hurt of the woman, as.if ahedof fetbers,,notdo 
+huge a stone, hag fallen ypon her. Wherupan the ftane 
+yvas,by commandement of the Lady Magdalep , remoued 
+into.the Chappell , consecrated agayne to diujneseruice , 
+and applyed jo his former yse. But now ,, with 
+griete, let,vs .come to declare her death. For arbo. (as 6. 
+Hrerome Writerh of S. Paula) eqn with yuwatered gjes relate the 
+
+
+death of the Lady Magdalen ? 
+Of ber happy Passage ynto God. 
+
+
+CHAP. XIE. 
+
+
+- ern she had piowsly and blefsedly liued com- 
+
+V N plete 70. yeares > & had seene her third genera- 
+
+tion , and aboue thirty persons of her iflue, and all by the 
+
+grace of God Professors of. the Catholike fayth , the next 
+
+day after her birth-day, to-wit , the 21. of fanuary ofthe 
+yeare 1608. at whichtymethere was such an extremefrost bo - 
+kn England, that the Riuer Thames being frozen, men , Englen tn 
+horses, and carts .palled ouer ypon theice, yea meat being 
+rosted theron, people did banquet there, as ypon the firme 
+
+land ; at such ryme ( 1say) as the frost gaue such a gene- apr ady 
+zallhorrour, the 'Lady Magdalen fell intoa: Palsy, wher- Pry in 
+by the lost the motion of the rightside of her body, and (, py. 
+much wanted the yse of her tongue. Within.two dayes, fy. 
+the mostprudent Lady perceiued herdisease to be mor-= 
+
+tall, neither yet did shedefire any medicine, or sentfor How she 
+any Phisician, but calling for her Cofefflor, defired to pat- prepared: 
+ricipate ofall thesacraments of Christ, which in such case for death, 
+are requisite, Which hauing with exceeding deuotion & + 
+tranquillity of mind receiued, & deliuering herlast will 
+
+and testament to one, the prepared herselfe- for death, re- 
+
+questing that thence forward the might be free from all 
+
+
+molestation of semporall affaizes. But T_T 
+
+
+- 
+
+
+a, 
+
+
+"46  - TheLife of Ls. Magdalen 
+
+
+the greater glory of his name, for her merit, and our edifi- 
+cation,did prolong her infirmity for eleuen whole wee- 
+
+
+Herad» kes, to wit , till the eight of Aprill. In which time it cans 
+
+
+mirable 
+meeknes 
+and pa- 
+
+
+tience. 
+
+
+Her de- 
+
+
+uotion 
+in her 
+
+
+{lickaes, 
+
+
+not be yttered, what admirable patience she shewed, both 
+in words and deeds, neuer way watd, or tedious , but al- - 
+wayes thankefull, euen to the meanest of her seruants, 
+when they had doneany thing about her; and oftentimes 
+euen in her extremest rorments, praying God to increase 
+both her paine and patience, Her accustomed prayers ( as 
+before I sayd ) she distributed amongst her friends. She 
+heard Masse euery day, at which time she would be lifted 
+Vpan her bed, which she omitted not, euen the last day of 
+
+
+| berlife. There did hang at her beds feete a filuer Crosle 
+
+
+guilded, of Christ crucified, which was sometimes her 
+Grandmothers, the famous Countesle of Shrewsbury ; to 
+
+
+_ it shedid very frequently lift her eyes, and sometimes ( as 
+- she could)her hands, withour yttering a word , but with 
+
+
+great signes of deuotion : sometimes the would double 
+those petitions of the Pater noster: Fiat yoluntas tua sicut 11 C4= 
+lo & mterra. Dimitte nobts debita nostra, sicut & nos dimittimus 
+debitoribus nofiris. Et ne nos inducasin tentationem. At other ti= 
+mes she prayed with ys,or gaue care to the reading of the 
+Paslion of Christ, or some pious booke, and now & then 
+would admonish ys to put herin mind of heauen, & hea- 
+uenly things. Sometimes she enquired the estate of other 
+sick persons; & as occasion was presented, she did exhoxt 
+Catholikes toconstancy in their fayth;and sometimes al- 
+so she spake to Heretikes of imbracing the Catholike 
+fayth. But how much at that time she was enflamed with 
+the loue or God, even by thisit may appeare, that once 
+she exceedingly loathing a certaine potion, when after 
+many importunate requests one had desired her to take 
+the same for his loue, who for her dranke vinegar & gall, 
+presently without giuing any answere, she tockethecup 
+
+
+- anddranke itall yp; so {odenly did the memory of the 
+
+
+Passion of Christ make that seeme (weet, which before 
+was very loathsome vnto her, She fo lictle feared whe 
+k” that 
+
+
+Pisconntefe Montague. 41 
+thitfrom the beginning ot her sicknes , to vs who much 
+desired her life,the seemed too much ia defite her death; & a 
+therfore when we did propose vato her the examples of EL " 
+S. Pal, S. Martin, and others, who tor the consolation of 1... fea. 
+their friends were cotent to live, the. would bumbly anf- reth death 
+were: The will of God bedone. And whe once, the falling in» 
+t6 a sound, her seruant cryed out in-lamentation; as fogae 
+as she returned to- her selfe, she reprehended her , saying; 
+Weep not for me, but weep for thy sinmes, and I commend thee that 
+thou pray not for my life.O singular confidence of a pute con- 
+{cience! O contempt of this life, and desire of the future:! 
+After this patient and pious manner did the La. Magdalen 
+spend thar tedioustime of her grieuous infirmity,wherin 
+certayne things were obserued, which perhaps may seeme 
+speciall markes of her excellent piety towards God, and Thebody 
+of his diuine fauour towards her. For albeyt there was ®fthe Las 
+nothing about her , thatcould produce any fweet odour, oY Mages 
+yea euery day oyntment applyed to her necke and arme AT ©. 
+tor cure oFthe Pally , which gaue a loathsome ({mell, 4, - 
+yet one day her body seemedto yield a: pleasing sauour, 
+which not only Catholikes, but even some Protestants 
+which then by accident were present, did feele, and ad- 
+miring, demaunded whence that sweet odour was. To 
+others it seemed another kind of sauour , yet most de- 
+licious and beyond all common sauouts. T'o me it sce- 
+med much like sweet balme , so that reflefting on the 
+—_ a TRgPIn the anon hep en 
+tkes and Protestants, I re that saying of Ecclefi, | 
+cas to be fulfilled in her :Sicw blscmum SS ian - ha 
+dedi. Another tyme also of her sicknes , a certayne. ytry Hoes "4 
+grane & pious man kneeling to-pray without the Chap» 
+11, but behind the placewherinfheaccuftornedto-pray! forth of 
+id five or six tymes feele acertaine breathing ofthe moid the place 
+deliciousstuour that euerhe feltin his lyfe, to:come fortly where he 
+of the Chappellz which sauour he likened'to the. gumme:*ccusto= 
+the balme-tree, yer far excceding alt earthly-odear, td to 
+
+
+and filled himwitli-oxcecding admiration and: prone Profs 
+: ut 
+
+
+— — 
+
+
+_-:--: The Lifeof La. Magdalen 
+But what doe we admire so (weet a sauourto proceed frs 
+the place where the Lady Magdalen accustomed to pray ,, 
+when the (as the Apostle say th ) Was « sweet odour of Chrift 
+in exeryplace ? Another thing which to me seemeth wor- 
++ thy of consideration, was, that wheras the Phisitian three 
+or fonre dayes before her death , gaue vs hope, either of 
+recouering her health, or at least of prolonging her life, 
+neither indeed did there appeare to vs any signe of immi- 
+nent death ; neuerthelefse the seauenth of Aprill,, which 
+was the day before her death, the requested me to intreat 
+my brethen the other Priests ( for we were then fiue) that 
+we would all that day say maslefor her in honour of the 
+Thead- Blesled Virgin : and I demaunding of her, to what end 
+mirable fhe desired those maslles to be celebrated ; That (sayd she) 
+perfe tion may have no will but the twill of God, and that bis moi sacred will 
+of the La« way be fulfilled in me,either in life, or death. O admirable perte=- 
+(Magde. Hion of this woman, preparedeither to iueor dye, as it 
+should please God, and of herselfe desirous of neither, bur 
+only of the fulfilling of his diuine pleasure! And behold, 
+wheras before this time ( as is sayd) we saw no fignes of 
+imminent death , not long after the celebratiog of the 
+Masles, the very pangs of death did aflault her , neyther 
+cid they euer leaue her, til] they bereaued her of this mor- 
+tall life. Andalbeit those pangs were very violent and 
+Death Qontinuall from Thursday three of the clocke inthe after 
+speedily noone, till almost midnight of the day following, which 
+ensued af--was the eightof. Aprill, when she gate vp-her Ghost; yer 
+tershe said did flie * mga witli the same admirable patiencc and 
+- har 3 tranquillity of mind. Info much that the Friday mor- 
+Py Iyfe or Ring, being asked how she had pasled the precede night, 
+death, - - fhtanswered : The beftof all that ever 1 pasiad. For the molt 
+_., prudent. woman-perceyued death to dtaw on , and that 
+- - night t6 open Vito her a'day which was neuer to. haue 
+end. Whiles her senses continued, the prayed with vs, 8 
+in.one: hand she held a.Crofletill her forces fayled ; in 
+the other hallowed light, which she held-sofaft euen af= 
+ec herdeath , char without force it could pothewrested 
+F*$# +4 | OOy 
+
+
+»- TART. 
+
+
+e. 4s 
+" EY 
+" 
+
+
+Fiscountesse Montagae- 47 
+
+
+fr5 her. Her last words which could be ynderstood, were _ 
+
+
+eps 
+
+
+ab 
+parteth, 
+
+
+those of our Sauiour : Into chybands( O Lord) I commend my 
+spiric, which without any resistace or relucation she 
+ceably yielded ypya litle before midnight; at which ume, 
+as the Scripture sayth, There was 4 clamour made, Bebold the 
+bridegrome commeth,go ye forth to meet bym : she with the holy 
+women , Within the Octaues of our Lords Resurrection, 
+arose out of this yalley of teares , & her lampe being pre- 
+pared, entred, as we hope, with the Bridegrome to the 
+Mariage. Her bowels were buryed at Battell where she 
+dyed, in the monument of her husbands Father, and her 
+body honorably caryed to Midburft , and there layd in thg 
+Sepulcher of her husband, bk 
+
+
+Of the shape of her Body , and Mind. 
+CHAP. XV. 
+
+
+O*® Stature she was very tall, so that (as Saul amongst 
+men)ihe among women of middle itature appeared 
+fromthe shoulders ypward, & yet very vpright; neither 
+did she {toop in the least manner cuen till her death, her 
+very body being erectcd by her vpright mind.-She was 
+fat and grosle in body ; her head was round, & in regard 
+of the greatnes of her body seemedlitle; her baire in.her 
+youth was faire andenclining to yellow , her face þeau- 
+etfull and long, her forehead flat, her eyes sharpe, & of the 
+colour of an hasel]-nut ; and hersightso continued, as 
+in her last dayes, she could discernea tower fifteene miles 
+of, and with spectacles could cut euen the finest linnen 
+cloth by a threed: and in the same manner had she the yse 
+of all the residue of her senses. Hernose was straight and 
+sharp, and somewhat short, and herchinne greatzher con- 
+tenance very grauc and yenerable, and her gate ypright, 
+sober, and full of Maiesty. And this was the cxternall 
+forme of her body. But concerning her mind, the was of 
+a sharpwit,and ofa notable memory, which yet the sayd 
+Was decayed by herforesaydiong and tedious ey 
+I 2 , ; 
+
+
+Matt. 254 
+
+
+Ky 
+
+
+. * 
+4 
+
+
+oo” The Life of La. Mandan 
+
+he was alfo of + profound radgrtient , and of « ffouit and 
+"fowl %, manly courage, sorhat of her riay be fayd, rhat which is 
+Hum tom, WrIKeen of $. Thomes of Canterbury, viz: She warhimible, but | 
+Ss. " dmg the bumble , for among the potent and proted; mhe seemed 
+r2 mod lofty, andpicent. And thusfar, to my ability, | haue dess 
+cribed the life of this pious woman: now let ys heare orhies 
+mens opinions of her. | 
+
+
+Other Mens Indgements of ber. 
+CHAP. XVI. 
+
+
+Theiudg- JC ft the molt Reuerend Arch-Priestof England Xf . 
+ment of George Byrckbed in his ketters directed to me, lamented 
+the Arch. her death, asi#t were({aid he'of a great Mother in: Israel; & the 
+Priest and Priests in Englad did euery whete cxtoll her as the wore 
+other thy Patronetle of the holy fayth, and the singular orna< 
+ego E ment of the Catholike religion in England. A C atholike 
+$49%* man of worthy piety, and a man of good iudgement, al- 
+beit he formetly had knowne her well, yet vititing her its 
+hersicknes, and obseruing her singular patience and pie- 
+ty,sayd, he would not for any mony haue misled the fight 
+of such her excel[cnt yertue. But aboue all,the most cleare 
+and euident testimony of the yertues of the La. Magdalen 
+may be gathered out of the letters of the present moit ho- 
+norable Viscount Montague , Whose testimony is the 
+more estimable,in that (ke wasthe step-mother ot bis Fa- 
+ther, and himselfe(as all that know him can witnes) most 
+free from flattery, anda most constant Profesfour of the 
+Of the Catholike fayth, for which he hath often bin impriso» 
+right ho- ned, and at the setting forth hereof was prisoner 1n his 
+nourable gyyne house. This then so worthy a mad , the yeare be= 
+__ ye ; fore the death of the La. Magdalen, sending his daughters 
+_—_— © tovilit her,in this manner wrote vynto her : Most loung La. 
+——— Grandwotber, as m my former letters I mantzoned, 1 now in 
+most bumible a1:d dutifull manner send these my children ynto your 
+ef Honourable Ludgcbiy, mest carveity desiring , that exery = 
+
+
+Alsoofs 
+Catholike 
+Noblema. 
+
+
+Piseoaniefe Montague. - 
+oem ib tema cr) hoster rd a | 
+Hip , that in some part chat cert wineb 1 bane | 
+Buy? bai, to plant IA lone, and sucb. fea hekes: 
+mwards your most Noble and worthy personas both from ra Fo: , 
+#4, #3 1ufity due vote ber, by whose smgular care, and tender afft- life © 
+Him, 1-denidt only belieur (a5 1 bane partly beard and partly expe* Viscount & 
+rienced)that my worthy Fathers life, and mine, as M: the mit prits» 8 of this 
+tall earthly inflrament, were preserned; but also do ledge Father, 
+
+
+so many worthy offices both in matter of temporalities, andih'other 
+things fra mecireotailin and ronserumng(whenseentr 
+ocasion 
+
+
+w4s offered\)'tbe most wiched fauonr of my —_ Noblz She recd- 
+Grandfather toward1me, so that scarce any La. chat wat Mother of _ and 
+so many children ,nor any of lesse yertue, ener perfornied the lake. uote 
+Which certainly efforceth me excertlingly to bonour and adnizre £5608 of 
+Nour person. Im ocherlecrers also wancten inthe years 1606. his Sik Sthd> | 
+When tie was requested by the La. Magdalen, ro: youchsafc 
+
+to be Executour of tier Will & Testanient; he answered, wats 
+that although hedid neicherdefire, nor would willingly his 
+see the mourn4ull day of the dearth ofthe La: Viscoun 
+yet ifalmigtty Godthould sodispose;Sxrbfidrk ad bn) \.\ 
+#3 I vie voy (v0Ne bun, the saine I provast'to 
+nur bomrableCetnbp. Which hedid afterwards mostabli- 
+daiitly. performe in deeds. For he did not only exattty 
+
+exeene her testament; but did giue-mouraing a ts 
+
+all kts hmily, wha! the nainmber was grear, distribured 
+
+a good summe of mony for her foule, maintaymed the The Vif- 
+whole familyofthe La. forthteC monthes after coped pro 
+her death, and diuers her principall seruans he catertai» Pised and 
+nedintohis 0wne eruice, and some ofchdin te rewardes Pefor- 
+with stipendsfortheir seruicedone vntb herg 6 such whs **%+ 
+
+the lout between him and the Viscoonelse,asthey may Theogl. 
+be an exathple to all step-Mothers, and Sonnes-in-Jaw. nd pads 
+Andthis war the worthy testimony both in words and Q. Marys 
+-decets of rhis Viscount, ronching tht Verrues of the La. 
+- Keadites . Whiat 'cfteeme. Queene _ of famuus and 
+
+
+EN bot iy alledged. From 
+ia 3 _— _ 
+
+
+A 'E 
+
+, Pg 
+"4 
+
+> Py 
+
+
+” 
+RY 
+
+
+.- 
+
+
+46 | The Life of L4, Magdalen '2 
+goodnes she was far different) her fister Q, Elizab.diah  _ 
++ . -.. notdifagree, Forthus the La. Scudamore, a Lady of hex | 
+Allso' of bed-chamber,in her.name wrote to the La. Magdalen; The | 
+Eliza « commennded me to signify to your La. that the is persivaded 
+| 5þ4-fareth much the better for your. prayers, and- therfore defireth 
+9 Jos , ener bereafter to be mindfull of ber #n your prayers. What 
+esteeme the Kings Councell had of her, appeareth by the 
+forerecited letters. And the worst that in their iudgement 
+any-Protestants, though her peeuish enemies, sayd of her 
+after her death, was that which doubtles was her greatest 
+honour,to wit,that she was an earnest Papilst, I will con- 
+clude these testimonies with the judgement of a certaine 
+The iudg- worthy Catholike, who albeit in the life of the La. Mag- 
+mentof  J,lex he seemed licleto fauour her, yer the being dead he 
+544 doubted not to say, That zbeleft nor ber like in all England. 
+Snot And truly of her we may vic those words of S. Auguitine 
+touching his Mother S. Monica: Wheosoeuer of thy seruants ( 0 
+God) FP; know ber, did im her much praise, honour, and loxe thee, 
+because they perceiued thy presence in her hart, the fruits of her holy 
+Confes, 1, conuersation reitifying the same. She 1was the wife of one huchand, 
+9+ 6:9% Sherendred mutuall affeftion to ber parents, she gouerned ber house 
+| piously,sbe had ber reputation in good workes, she gaue her children 
+Lood education ; asoften as the saw them iiray from thee , so often 
+d1d she beare them anew . And all which things to be most 
+true in this pious woman, allthat knew her, will testifis 
+
+
+with me. 
+THE CONCLYSION. 
+
+
+D Vetnow: Magdalens box is broken , and the house is 
+© AF filled with the odour of her oyntment; now the lan- 
+terne of Gedeon is broken, and the light appeareth which 
+darkeneth the fight of the Madiamtes ; now the body of 
+our Magdalen is diflolued, and her most rare and fragrant 
+yertues dilate themselues more clearly, and more abun- 
+. dantly. Englaud may lament , - that it hath lost such a pil- 
+Tar of Fayth, so worthy an ornament of Religion ,, such 
+a rare example of yertues, Nay it may rather reioyce, that 
+Wt * *4 once 
+
+
+| "Pefcountesse Montague # | 
+-once it had, or rather hath such a one. And cergginly the: 
+La. Magdalen may reioyce, thatihehath foutid the AY 
+so long,and so muchi defired, that hating left vorld, _ 
+she is more absolutely ioyned roalmighryGod.' A happy Ty, 
+woman(no doubt) touching the world ;'irvthat she” was Mag. haps 
+of noble birth, married to a man” of worth yfarne atid ho= py pL 
+nour,for a-long time enoyed wealth honour; prosperous cbing the 
+health and fortune, long life & worthy issue. Happy tou- world. 
+ching her body;to whome God had giuen asound, beau- 
+' rifull , and healthfull a body. Happy touching her soule, Fouching 
+beingendued witha most piercing wit, anexeelient me-her body. 
+mory;a profound indgment, a stout and manly courdge.' 
+But molt happy towards' God;, who had giuen' her RP 
+much grace, as to make vse of her birth, honour,mariage, | hey > hg 
+wealth, beauty, issue, and finally ofall che guifts 8& graces 2 
+of her body and soule, to the glory of God, & her eternall eh 
+felicity. If then (as the (cripturetestifyeth) rhey are BleÞ Most bop» 
+sed who dye in our Lord ; how blessed thall we esteeme ?Y go” 
+this woman, who not only dyed, but also lived in our 6. 
+Lord ;and notfor a short tyme, but all her lyfe; and that : 
+wt indifferently , but most piously andreligiously ; and 
+thatin the land of Hus, where is the houre and powetof 
+darkenes, where piety is sharply impugned,and treedome 
+given to vice. Rest now therfore, O Magdalen, from thy 
+Jabours, from thy frequent fastes,and dayly denotions, = 
+and from thy other exercises of piety;restfrom the impla- Thea; - * 
+cable hatred, curses, acttsarions, and inquifitions of He- Magd. 0 
+xetikes : For thy workesof mercy, piety, chastity , hy- dieth the 
+mility , fayth, hope , and charity do follow thee. But be» ay be- 
+cause this pious widdow was tranflated ( as I hope )toa x. fg 
+better lyfe , the day before the tranflation of that most ho- ww wp 
+ly widdow $. Monics,to:whome she may be resembled, I gjca 5 
+will conclude my writingof her, with the same wordes EY 
+which S. 4Auguftin concluded his, of his Mother $. Moms : Confef. b © } 
+which is thus : Albeyt being reutuedin Chrift , ber flesh not yet v. c. us 
+d:solued, she lined so, as thy name (O God) may be praysed m ber 
+faith and connersation , yet date 1 notJa , that from the Ts 
+
+
+AP MATE 
+tViscountelle MONtACVE. Ws 
+
+

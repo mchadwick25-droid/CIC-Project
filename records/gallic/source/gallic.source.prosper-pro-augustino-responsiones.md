@@ -17,6 +17,7 @@ relations: []
 author: Prosper of Aquitaine
 work: Pro Augustino Responsiones
 edition: Not yet vendored in cic/texts/ -- named and located but not acquired as of this authoring pass.
+citation: Prosper of Aquitaine, Pro Augustino Responsiones
 kind: unvendored
 rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed

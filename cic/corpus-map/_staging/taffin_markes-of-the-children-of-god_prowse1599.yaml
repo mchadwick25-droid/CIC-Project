@@ -1,0 +1,41 @@
+source_file: taffin_markes-of-the-children-of-god_prowse1599.txt
+
+assignments:
+  - row_id: taffin_markes-of-the-children-of-god_prowse1599--of-the-markes-of-the-children-of-god
+    work: "Of the Markes of the Children of God, and of their Comforts in Afflictions (Anne Prowse's translation, 1599 printing)"
+    author: taffin
+    locus: "Anne Prowse's dedication to the Countess of Warwick from line 30; Taffin's treatise from line 485 to 'FINIS' at line 11973"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      Jean Taffin (1529-1602), Walloon pastor of the Dutch Reformed church and court preacher
+      to William of Orange, wrote this for 'the faithfull of the Low Countrie' (French, 1586):
+      assurance, the marks of election, comfort under persecution. The movement's own pastoral
+      voice in a contemporary English rendering. Primary voice; microfilm OCR readable, check
+      each quote against the page image.
+  - row_id: taffin_markes-of-the-children-of-god_prowse1599--of-the-markes-of-the-children-of-god-2
+    work: "Of the Markes of the Children of God (Prowse, 1599)"
+    author: taffin
+    locus: "whole file"
+    atlas_ids:
+      - the-huguenots
+    role: context
+    confidence: provisional
+    note: >
+      Taffin wrote in French and served French-speaking Reformed congregations, but in the
+      Netherlands, not France. Placed as an outside-but-adjacent French Reformed voice on the
+      entry's language and window; not read for French matter.
+  - row_id: taffin_markes-of-the-children-of-god_prowse1599--of-the-markes-of-the-children-of-god-3
+    work: "Of the Markes of the Children of God (Prowse, 1599)"
+    author: taffin
+    locus: "whole file; Prowse's dedication from line 30"
+    atlas_ids:
+      - puritanism
+    role: transmission
+    confidence: provisional
+    note: >
+      Custody, not voice: an Englishwoman's translation (Anne Prowse, first printed 1590)
+      dedicated to the Countess of Warwick, carrying a Dutch Reformed treatise into
+      Elizabethan godly reading. Placed on the translation history alone.

@@ -1,0 +1,23 @@
+source_file: bascape_de-vita-et-rebus-gestis-caroli-lat_1592.txt
+
+assignments:
+  - row_id: bascape_de-vita-et-rebus-gestis-caroli-lat_1592--de-vita-et-rebus-gestis-caroli
+    work: "De vita et rebus gestis Caroli S.R.E. Cardinalis, Archiepiscopi Mediolani, libri septem"
+    author: bascape
+    locus: "dedicatory epistle near file line 60; 'INDEX CAPITVM' at line 133; the seven 'LIBER' headings at lines 2053, 4479, 9479, 10463, 10663, 15259, 15832 (the ordinal after each is not legible in the OCR)"
+    atlas_ids:
+      - tridentine-parish-renewal-borromean-milan
+    role: tradition
+    confidence: assigned
+    note: >
+      SECOND WITNESS, not yet quotable: the 1592 print's OCR reads the long s as f, confuses c and e, runs words together and interleaves the marginal notes. Bascape was Borromeo's secretary and the Barnabite general; this Latin Life (Milan, 25 Jan 1592) is the earliest full Life after Valier's, and no English translation exists. Vendored for the voice it is, pending a clean scan; the Florence scan (ita-bnc-mag-00002365-001) and the 1602 Brescia reprint (bub_gb_EPHCwnQei48C) are no better.
+  - row_id: bascape_de-vita-et-rebus-gestis-caroli-lat_1592--de-vita-et-rebus-gestis-caroli-2
+    work: "De vita et rebus gestis Caroli S.R.E. Cardinalis, Archiepiscopi Mediolani, libri septem"
+    author: bascape
+    locus: "as above"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: assigned
+    note: >
+      Context for the Tridentine Church: the Latin Life of its model bishop by his own secretary, dedicated to the Duke of Bavaria for a readership beyond Milan. Second witness only (garbled OCR); see the Borromean Milan row.

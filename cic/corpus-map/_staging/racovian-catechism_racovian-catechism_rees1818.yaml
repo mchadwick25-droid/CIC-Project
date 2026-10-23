@@ -1,0 +1,20 @@
+source_file: racovian-catechism_racovian-catechism_rees1818.txt
+
+assignments:
+  - row_id: racovian-catechism_racovian-catechism_rees1818--the-racovian-catechism
+    work: "The Racovian Catechism (1680 Latin recension), English by Thomas Rees (1818), with Rees's Historical Introduction"
+    author: racovian-catechism
+    locus: "Contents from file line 345; Preface from 4342 (Rees's footnote naming the 1680 edition at 4804); the Catechism in eight Sections: I at 4940, II at 5763, III at 5964, IV (the person of Christ) at 7075, V (the prophetic office) at 11922, VI (priestly office) at 19544, VII (kingly office) at 19954, VIII (the church) at 20332; Index at 20952; Rees's Historical Introduction sits between the Contents and the Preface"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: tradition
+    confidence: assigned
+    note: >
+      The movement's own confession, the Polish Brethren's catechism in
+      question and answer, in the 1818 English of Thomas Rees. Rees's own
+      footnote says he translated the quarto Latin of 1680, the revision
+      by Schlichting, not the 1609 original (Latin of 1609 vendored in
+      racovian-catechism_catechesis-ecclesiarum-lat_moskorzewski1609.txt).
+      Primary voice, ready to quote once verified against the page image;
+      Rees's notes and Historical Introduction are the translator's, not
+      the movement's. Clean OCR, sampled at five points.

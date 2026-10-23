@@ -32,7 +32,7 @@ dates:
   died: 'c. 253/4, Tyre, after imprisonment and torture under Decius: ''At this time Origen died, being sixty-nine years of age'' (Eusebius)'
   floruit: 'head of catechetical instruction from his eighteenth year (Eusebius); Alexandria until the Demetrius rupture c. 231-234, then Caesarea'
 narratable: true
-bridge_line: The school's greatest and most contested teacher. The tradition honored him, built on his work, and warned about him. In part it later condemned him. All of this happened within living memory of his chair.
+bridge_line: The school's greatest and most contested teacher. The tradition honored him, built on his work, and warned about him. His standing was still unsettled when our story ends.
 ---
 SYSTEMIC AUTHOR-GRAVITY FLAG (carried from the prior build's assessment,
 operative through every later step): Origen's surviving output is a

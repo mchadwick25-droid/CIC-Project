@@ -83,19 +83,19 @@ text: >-
 
   In the early days of the faith, the fathers of Egypt say, only a handful of men, and the best of
   them, were known by the name of monks. They had received that way of life from the Evangelist Mark.
-  They kept the pattern of the first believers in Jerusalem - one heart and one soul, all things held
-  in common - and withdrew outside the cities to a life of such abstinence that even unbelievers
+  They kept the pattern of the first believers in Jerusalem: one heart and one soul, all things held
+  in common. They withdrew outside the cities to a life of such abstinence that even unbelievers
   marvelled. At that time the primitive Church's perfection still stood whole, and the few who held
   the faith had not yet grown lukewarm by being spread thin among the many. So the elder fathers met,
   with careful concern for those who would come after them, to settle a plan for the daily worship of
-  the whole community (gallic.quote.the-fathers-and-the-angels-twelve).
+  the whole community.
 
-  They feared that if the daily services were left to each man's own fervour, a dispute might grow into
-  something worse - a root of error, jealousy, or schism among those who came later. And that is what
-  began to happen: each father, weighing only his own strength and not the weakness of others, proposed
-  the number that suited him. Some argued for fifty psalms, some for sixty, and some wanted still more.
-  The disagreement ran on, faithful but unresolved, until the hour for Vespers arrived before the
-  question was settled.
+  They feared what might happen if the daily services were left to each man's own fervour. A dispute
+  might grow into something worse: a root of error, jealousy, or schism among those who came later.
+  And that is what began to happen: each father, weighing only his own strength and not the weakness
+  of others, proposed the number that suited him. Some argued for fifty psalms, some for sixty, and
+  some wanted still more. The disagreement ran on, faithful but unresolved, until the hour for Vespers
+  arrived before the question was settled.
 
   So they stopped to sing. One father rose to chant the psalms. As the others sat listening, intent on
   every word, he sang eleven psalms, each one followed by its own prayer, evenly and steadily. Then he
@@ -105,8 +105,9 @@ text: >-
   The fathers understood this as Providence at work: a general rule fixed for every congregation of
   brothers, through the angel's own act. They decreed that the number should hold for both the evening
   and the night offices from then on. They later added two readings, one from the Old Testament and
-  one from the New - but only as extras, of their own choosing. The twelve themselves were never theirs
-  to choose.
+  one from the New - but only as extras, of their own choosing. The twelve themselves were never
+  theirs to choose.
+telling: "Cassian brought us this story from the fathers of Egypt. In the earliest days, they say, only a few men were called monks, and they were the best of men. They lived like the first believers in Jerusalem, with one heart and one soul and everything shared. The elder fathers met to set a daily rule of prayer for those who would come after them.\n\nEach father thought only of his own strength and proposed the number of psalms that suited him. Some wanted fifty, some sixty and some still more, and they were still arguing when the hour for evening prayer came.\n\nSo they stopped to pray. One father rose to sing while the rest sat listening, and he sang eleven psalms, each followed by a prayer. Then he ended the twelfth with Alleluia and vanished from their sight. The fathers saw Providence at work, for through an angel, they believed, a rule had been fixed for every community of brothers. From then on they kept twelve psalms at the evening and night prayers, and later they added two readings of their own choosing."
 absent_detail: >-
   No witness to the angel is named; Cassian himself refers the reader elsewhere for the background.
   Nothing in our record says what the brethren at Tours sang or at what hours - Martin's monastery has
@@ -131,8 +132,3 @@ use_note:
   years: {from: 415, to: 426}
   status: reviewed
 ---
-The origin - the tradition Cassian handed on to Gaul, from the fathers of Egypt - is disclosed in the
-telling itself. Illustrates gallic.gravity.received-not-invented most literally: on Cassian's own
-account, the number of psalms was not any man's invention but was given to the fathers through an
-angel. Also touches gallic.gravity.interior-road, as the temporal skeleton the daily office organizes,
-and gallic.gravity.egypt-as-measure, as the reception frame for the whole story.

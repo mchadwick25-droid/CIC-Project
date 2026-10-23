@@ -1,0 +1,31 @@
+source_file: susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt
+assignments:
+- row_id: susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864--saulus-et-paulus-the-life-of-meletij-smotrycki
+  work: Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj, Orthodox archbishop turned
+    Uniate)
+  author: susza
+  locus: the whole file; Smotryc'kyj's Lament (Threnos) is discussed from about file line 578; half-title
+    'Vita Meletii Smotriscii' near the head
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: assigned
+  note: A Uniate bishop's life of the man who wrote the Orthodox Threnos (1610) and then joined the union,
+    first printed in the seventeenth century (the title page names the author as Susza) and here in the
+    1864 edition 'emendatior et auctior'. The editor's additions are not separated in this file, so quotes
+    need the page images and a check against the earlier edition. Union-side advocacy; Latin only; primary
+    for how the union told Smotryc'kyj's turn.
+- row_id: susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864--saulus-et-paulus-the-life-of-meletij-smotrycki-2
+  work: Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj, Orthodox archbishop turned
+    Uniate)
+  author: susza
+  locus: the whole file; Smotryc'kyj's Lament (Threnos) is discussed from about file line 578; half-title
+    'Vita Meletii Smotriscii' near the head
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: provisional
+  note: Smotryc'kyj's Orthodox writings (the Threnos, 1610) and Mohyla's Kyiv circle are the other half
+    of this story; the Kyiv-Mohyla world may use this as the hostile account of its own polemicist. Provisional
+    because the file was not read against that world's window (1615-1700) beyond the discussion of the
+    Lament.

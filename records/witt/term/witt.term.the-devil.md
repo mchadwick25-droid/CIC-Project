@@ -17,10 +17,11 @@ confidence:
     claim from the devil's own daily attestation.
 sources:
 - source_id: witt.source.luther-selections-from-luthers-prefaces-to-his
-  locus: the 1539 preface, cited among this entry's Registry rows (Doc_06 SS5 entry 4.7)
+  locus: the 1539 preface
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons -- 'here we battle not against pope or bishop, but against the devil'
+  locus: >-
+    the Eight Wittenberg Sermons -- 'here we battle not against pope or bishop, but against the devil'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: the Large Catechism -- 'the devil is called the master of a thousand arts'
@@ -35,7 +36,7 @@ sources:
   locus: the Table Talk -- 'the devil driveth on his servants continually' (Contested as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession, cited among this entry's Registry rows (Doc_06 SS5 entry 4.7)
+  locus: the Augsburg Confession
   license: public-domain
 retrieval:
   tier: 1
@@ -102,7 +103,8 @@ senses:
     reading of our whole movement is our own self-understanding -- that reading is a modern reconstruction
     we do not build on. We mean a literal, daily, personal adversary named identically in every register
     we speak.
-quick_meaning: A real, personal enemy. Our Word, sacraments, and catechism are our daily defense.
+quick_meaning: >-
+  A real, personal enemy. We fight him daily with the Word, the sacraments, and the catechism.
 distortion_risk: high
 use_note:
   means: "The devil meant a real, personal enemy named in sermon, hymn, prayer and confession, against whom Word, sacraments and catechism are daily defences."

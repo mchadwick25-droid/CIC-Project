@@ -46,8 +46,7 @@ senses:
     teach"), so it shows the shape of post-baptismal formation and training, not pre-baptismal
     catechesis; the book''s threefold Protrepticus/Paedagogus/Didaskalos scheme is a literary structure,
     not a description of the catechumenate.'
-  personal: Becoming a Christian here was a road walked with a teacher, not a moment - slowness was the
-    point.
+  personal: "Becoming a Christian was a road walked with a teacher, not a moment."
   translational: '''How did a person become one of you?'' - through this: taught, tested, changed, then
     baptized.'
 quick_meaning: The long, staged teaching that led a person to baptism.

@@ -1,0 +1,28 @@
+source_file: strype_annals-of-the-reformation-v2-pt2_1824.txt
+assignments:
+- row_id: strype-annals-of-the-reformation-v2-pt2-1824-annals-of-the-reformation-vol-ii-part-2-1576-1580-the-family-of-l
+  work: 'Annals of the Reformation, vol. II part 2 (1576-1580): the Family of Love chapters'
+  author: strype
+  locus: contents at file lines 84-461; the Familist material at chapter XVII (Norwich diocese, the Bishop
+    of Rochester on The Gospel of the Kingdom, from about line 14519) and chapter XVIII (rise of the sect,
+    Christopher Vitells, Crinel's confession, Henry Nicolas, about lines 15539-16100); Wilkinson and Knewstub
+    noted at 16662-16700; appendix of original papers from 22458
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: context
+  confidence: assigned
+  note: Strype quotes the 1570s examinations and confessions at length (Vitells, Crinel), the nearest
+    the corpus comes to the coerced-testimony strand the census names. It does not print the 1580 proclamation
+    (searched). Clean Antiqua OCR (0.94). Nineteenth-century edition of a 1725 compilation, so a secondary
+    narrator quoting primary papers.
+- row_id: strype-annals-of-the-reformation-v2-pt2-1824-annals-of-the-reformation-vol-ii-part-2-1576-1580
+  work: Annals of the Reformation, vol. II part 2 (1576-1580)
+  author: strype
+  locus: the whole volume; Book II chapters for 1576-1580
+  atlas_ids:
+  - the-english-reformation-and-elizabethan-settleme
+  role: context
+  confidence: assigned
+  note: 'Strype''s Elizabethan annals for 1576 to 1580: the bishops'' letters, visitations, proclamations
+    and appendix papers of the Settlement church. Read at the Family of Love chapters only; the rest placed
+    on window and place.'

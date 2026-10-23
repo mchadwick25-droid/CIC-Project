@@ -75,8 +75,8 @@ relations:
 - type: associated-with
   target: gallic.term.monastery-coenobium
 plain_meaning: >-
-  Where we are, named in two registers. For Cassian, the cold, late province that falls short of
-  Egypt. For Sulpitius, a self-mocking "We are Gauls" - and the boast that Europe has Martin.
+  Where we lived, named in two ways. For Cassian, the cold, late province that fell short of Egypt.
+  For Sulpitius, a self-mocking "We are Gauls" - and the boast that Europe had Martin.
 world_word: Gaul ("the cold of Gaul"; "We are Gauls")
 false_friend:
 - '"France" and a national identity'
@@ -87,7 +87,7 @@ senses:
     In the south Gaul is the cold, later, weaker place. Cassian writes Egypt's institutes for "a
     new establishment in the West, in the parts of Gaul," adapting where the customs are
     "impossible in these countries" because "in this country neither the climate nor the weakness
-    of our constitution would permit" the Egyptians' hours and food. His running correction is in
+    of our constitution would permit" the Egyptians' food. His running correction is in
     our own first person: "as some of us do in this country, who, before the Psalm is fairly ended,
     make haste to prostrate themselves"; and of the Egyptians' perseverance, "we cannot recollect
     any one who joined our monasteries keeping it up unbroken even for a year." One of his
@@ -103,7 +103,7 @@ senses:
     (ch. LXV). The receptive and comparative registers are documented separately and recorded here
     rather than smoothed.
   personal: >-
-    To be a Gaul at Marseilles is to be Egypt's debtor and to know it - measured by hours we cannot
+    To be a Gaul at Marseilles is to be Egypt's debtor and to know it - measured by a night office we cannot
     keep and hoods we cannot wear. At Tours we make the same debt a joke about our appetites, and
     then answer Egypt with one saint.
   translational: >-
@@ -112,9 +112,8 @@ senses:
     self-mocking and defiant in the north, and never proud in the modern way - a cold province that
     received Egypt's rule and knew it fell short.
 quick_meaning: >-
-  Where we are. For Cassian, the cold province that receives Egypt's rule and falls short of it.
-  For Sulpitius, "We are Gauls" - a joke about our appetites, and a boast that Egypt has no
-  Martin.
+  Where we lived. For Cassian, the cold province that received Egypt's rule and fell short of it. For
+  Sulpitius, "We are Gauls" - a joke about our appetites, and a boast that Egypt had no Martin.
 distortion_risk: medium
 use_note:
   means: "Gaul meant, for Cassian, the cold late province that receives Egypt's rule and falls short of it, and for Sulpitius a self-mocking 'We are Gauls' and a boast of Martin."

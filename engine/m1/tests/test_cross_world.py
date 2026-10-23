@@ -84,19 +84,32 @@ def test_an_app_block_with_a_shared_order_a_bad_colour_or_a_missing_portrait_is_
 
 
 def test_a_world_missing_from_table_html_is_caught():
-    """table.html carries its own hand-maintained WORLDS array for the
-    Table's seat-picker, independent of both WORLD_ASSETS and the site's
-    traditions pages - the exact gap that left gallic admitted, live, and
-    working for Interview, but never offered as a Table seat for four days.
-    Reproduced against the real file, not a fixture, so the check's own
-    claim (every admitted world's census_id is in the real array) is
-    actually tested, not just its parsing logic."""
+    """table.html offers every live world as a Table seat through the
+    chooser, which reads the census at run time - the exact gap that left
+    gallic admitted, live, and working for Interview, but never offered as
+    a Table seat for four days, was a hand-maintained list on that page.
+    Reproduced against the real file and the real census, not a fixture, so
+    the check's own claim (every admitted world is a live census entry with
+    a Representative name and a portrait, and the page mounts the chooser)
+    is actually tested, not just its parsing logic."""
     registry = cross_world.load_registry()
     worlds = cross_world.formation_world_keys(registry)
-    broken = {**registry, "w7": {"census_id": "not-a-real-census-id-in-table-html"}}
+    broken = {**registry, "w7": {"state": "admitted", "census_id": "not-a-real-census-id-in-table-html"}}
     keys = {f.key for f in cross_world.check_table_html_worlds(registry=broken, worlds=worlds + ["w7"])}
     assert "table-html-world/w7" in keys
     assert not {f.key for f in cross_world.check_table_html_worlds(registry=registry, worlds=worlds)}
+
+
+def test_table_html_without_the_chooser_is_caught(tmp_path, monkeypatch):
+    """A table.html that does not mount the chooser, or that carries its own
+    WORLDS array again, is caught at page level: either way the Table's seats
+    stop following the census."""
+    page = tmp_path / "table.html"
+    page.write_text("<html><script>var WORLDS = [\n  { id:'x' }\n];</script></html>", encoding="utf-8")
+    monkeypatch.setattr(cross_world, "SITE_TABLE_HTML", page)
+    registry = cross_world.load_registry()
+    findings = cross_world.check_table_html_worlds(registry=registry, worlds=[])
+    assert [f.key for f in findings] == ["table-html-chooser/fleet", "table-html-chooser/fleet"]
 
 
 def test_the_lpc_unregistered_dir_is_caught():

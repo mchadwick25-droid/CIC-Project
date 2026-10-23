@@ -39,7 +39,7 @@ html,body{height:100%}
    exactly. flex:1 fills whatever's actually left, no measuring needed. */
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--sans);display:flex;flex-direction:column}
 a{color:var(--action)}
-.bar{flex:0 0 auto;display:flex;align-items:center;gap:.9rem;padding:.6rem 1rem;border-bottom:1px solid var(--rule);background:var(--surface)}
+.bar{flex:0 0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:.3rem .9rem;padding:.6rem 1rem;border-bottom:1px solid var(--rule);background:var(--surface)}
 .bar a{display:inline-flex;align-items:center;min-height:36px;font-size:.9rem;font-weight:600;text-decoration:none}
 .bar a:hover,.bar a:focus-visible{text-decoration:underline}
 .wordmark{color:var(--muted);font-size:.85rem;margin-left:auto}
@@ -48,15 +48,26 @@ a{color:var(--action)}
   border:1px solid var(--rule);border-radius:999px;min-height:34px;display:inline-flex;align-items:center}
 .feature-btn:hover,.feature-btn:focus-visible,.feature-btn[aria-current="page"]{border-color:var(--action);color:var(--action)}
 .frame-wrap{flex:1 1 auto;min-height:0}
+body.in-conversation .bar,body.in-conversation .feature-bar{display:none}
+@media (max-width:600px){
+  .bar{flex-wrap:nowrap;padding:.3rem .75rem;gap:.5rem}
+  .wordmark{display:none}
+  .bar .feedback-toggle{margin-left:auto;min-height:36px;padding:.3rem .85rem;font-size:.8rem}
+  .feature-bar{flex-wrap:nowrap;overflow-x:auto;padding:.35rem .75rem;scrollbar-width:none}
+  .feature-bar::-webkit-scrollbar{display:none}
+  .feature-btn{flex:none;min-height:36px;padding:.3rem .8rem}
+}
 iframe{display:block;width:100%;height:100%;border:0}
 .js-note{padding:2rem 1.25rem;max-width:34rem;margin:0 auto;text-align:center;font-family:var(--sans);color:var(--muted)}
 </style>
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 
 <div class="bar">
   <a id="back-link" href="index.html#who">← Back</a>
   <span class="wordmark">Church <em>in</em> Conversation</span>
+  <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
 </div>
 <div class="feature-bar" aria-label="Main features">
   <a class="feature-btn" href="atlas-v3.html">Church Family Tree</a>
@@ -85,15 +96,37 @@ if (from) {
 }
 
 var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
-var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
+var APP = isLocal ? 'http://localhost:5173' : 'https://app.churchinconversation.com';
 
 var target = new URL(APP + '/');
 if (worlds) { target.searchParams.set('worlds', worlds); }
 target.searchParams.set('mode', mode);
+var ours = params.get('ours');
+if (ours === '1' || ours === '0') { target.searchParams.set('ours', ours); }
+if (ours !== null) {
+  params.delete('ours');
+  var rest = params.toString();
+  window.history.replaceState(window.history.state, '', window.location.pathname + (rest ? '?' + rest : '') + window.location.hash);
+}
 if (window.location.hash.indexOf('#q=') === 0) { target.hash = window.location.hash.slice(1); }
 
 var frame = document.getElementById('talk-frame');
 frame.src = target.toString();
+
+// A phone keyboard shrinks only the visual viewport; size the page to it so
+// the framed app's message box stays just above the keyboard. Pinch-zoom
+// shrinks the visual viewport too, so a zoomed page keeps its normal layout.
+var view = window.visualViewport;
+if (view) {
+  var fit = function() {
+    var zoomed = view.scale > 1.01;
+    document.body.style.height = zoomed ? '' : Math.round(view.height) + 'px';
+    document.body.style.transform = !zoomed && view.offsetTop ? 'translateY(' + Math.round(view.offsetTop) + 'px)' : '';
+  };
+  view.addEventListener('resize', fit);
+  view.addEventListener('scroll', fit);
+  fit();
+}
 
 // The embedded app's own "Leave for now"/"Begin again" posts this message
 // instead of navigating itself when inside an iframe, and #back-link
@@ -106,8 +139,18 @@ window.addEventListener('message', function(ev) {
   if (!ev.data || ev.data.type !== 'cic:leave') return;
   window.location.href = document.getElementById('back-link').getAttribute('href');
 });
+
+// Once the conversation has started, the app's own bar (portrait and names)
+// is the only thing above the transcript; "Leave for now" and "Tell us what
+// you think" sit under the app's message box.
+window.addEventListener('message', function(ev) {
+  if (ev.source !== frame.contentWindow) return;
+  if (!ev.data || ev.data.type !== 'cic:started') return;
+  document.body.classList.toggle('in-conversation', ev.data.started === true);
+});
 })();
 </script>
 
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

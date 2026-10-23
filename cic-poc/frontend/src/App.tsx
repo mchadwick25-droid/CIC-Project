@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useConversation } from './hooks/useConversation';
+import { useVisibleHeight } from './hooks/useVisibleHeight';
 import { useTable } from './hooks/useTable';
 import { useWorlds } from './hooks/useWorlds';
 import { findWorld, findWorldByCensusId } from './data/worlds';
@@ -9,7 +10,7 @@ import { Launch } from './screens/Launch';
 import { Conversation } from './screens/Conversation';
 import { TableRoom } from './screens/TableRoom';
 
-type Screen = 'launch' | 'conversation' | 'table';
+type Screen = 'arriving' | 'launch' | 'conversation' | 'table';
 
 // Safe cross-origin (a reference comparison, never a property read) - the
 // standard "am I inside an iframe" check. cic-website/talk.html embeds
@@ -18,6 +19,22 @@ type Screen = 'launch' | 'conversation' | 'table';
 // reads as "the site broke and reverted to the old design" when rendered
 // inside a themed iframe dressed up to look like part of the new site.
 const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
+// The site page around the frame already carries the wordmark and its own
+// "Tell us what you think"; the app's first-screen bar drops its copies.
+if (isEmbedded) document.documentElement.classList.add('is-framed');
+
+// A question carried in from the site - a tradition page's question link, or
+// the home page's held question - arrives as #q=. It waits in the message box;
+// the participant sends it.
+function readCarriedQuestion(): string {
+  const hash = window.location.hash;
+  if (!hash.startsWith('#q=')) return '';
+  try {
+    return decodeURIComponent(hash.slice(3)).trim().slice(0, 280);
+  } catch {
+    return '';
+  }
+}
 
 /**
  * The deep-link grammar - the ONE contract between the discovery surfaces
@@ -57,6 +74,16 @@ function consumeDeepLink() {
   if (window.location.search) window.history.replaceState({}, '', window.location.pathname);
 }
 
+/** Whether this load is headed for a room rather than the launch screen:
+ * a deep link, or a session already open in this tab. The first screen
+ * can't be decided until the world list loads, so such a load holds on
+ * 'arriving' until it can - starting on 'launch' put the world cards up
+ * for that whole wait, then swapped them out. */
+function expectsRoom(): boolean {
+  const params = new URLSearchParams(window.location.search);
+  return params.has('worlds') || params.has('mode') || readStored() !== null;
+}
+
 /** Order-insensitive set equality for comparing a Table deep link's seats
  * against what's stored - reseating the same participants isn't a new
  * request, but a different lineup is. */
@@ -69,9 +96,17 @@ function sameSeats(a: string[], b: string[]): boolean {
 
 function App() {
   const conversation = useConversation();
+  useVisibleHeight();
   const table = useTable();
   const { worlds, isLoading: worldsLoading, error: worldsError } = useWorlds();
-  const [screen, setScreen] = useState<Screen>('launch');
+  const [screen, setScreen] = useState<Screen>(() => (expectsRoom() ? 'arriving' : 'launch'));
+  const [carriedQuestion] = useState(readCarriedQuestion);
+  // Read once; a reload should not put the question back in the box.
+  useEffect(() => {
+    if (window.location.hash.startsWith('#q=')) {
+      window.history.replaceState(window.history.state, '', window.location.pathname + window.location.search);
+    }
+  }, []);
   const [selectedWorldKey, setSelectedWorldKey] = useState<string | null>(null);
   const [seated, setSeated] = useState<string[]>([]);
   const [tableFocus, setTableFocus] = useState(false);
@@ -172,6 +207,7 @@ function App() {
         setSeated(uniqueLinked);
         setTableFocus(true);
         consumeDeepLink();
+        setScreen('launch');
         return;
       }
       if (linked.length > 0) {
@@ -182,8 +218,9 @@ function App() {
       }
       if (censusIds.length > 0) {
         consumeDeepLink();
-        setLaunchNotice("We couldn't find that world here — choose from the cards below.");
+        setLaunchNotice("We couldn't find that Christian tradition here — choose from the cards below.");
       }
+      setScreen('launch');
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [worldsLoading]);
@@ -225,6 +262,13 @@ function App() {
     setScreen('launch');
   };
 
+  // Once a conversation has started, the site page around the frame hides
+  // its own bars, so only the portrait and names sit above the transcript.
+  const conversationStarted = screen === 'conversation' && conversation.turns.some((t) => t.speaker === 'participant');
+  useEffect(() => {
+    if (isEmbedded) window.parent.postMessage({ type: 'cic:started', started: conversationStarted }, '*');
+  }, [conversationStarted]);
+
   const world = selectedWorldKey ? findWorld(worlds, selectedWorldKey) : undefined;
   const seatedWorlds = (screen === 'table' && table.worldKeys.length > 0 ? table.worldKeys : seated)
     .map((k) => findWorld(worlds, k))
@@ -232,6 +276,17 @@ function App() {
 
   return (
     <div className="app-shell">
+      {screen === 'arriving' && (
+        <p className="arriving-hold" role="status">
+          <span className="visually-hidden">Opening the conversation</span>
+          <span className="typing-dots" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </p>
+      )}
+
       {screen === 'launch' && (
         <Launch
           worlds={worlds}
@@ -256,12 +311,14 @@ function App() {
           world={world}
           turns={conversation.turns}
           streamed={conversation.streamed}
+          sessionId={conversation.sessionId}
           sessionCode={conversation.sessionCode}
           closed={conversation.closed}
           isLoading={conversation.isLoading}
           error={conversation.error}
           errorRecoverable={conversation.errorRecoverable}
           onSend={conversation.send}
+          carriedQuestion={carriedQuestion}
           onEnd={handleLeave}
           onRestart={handleLeave}
           onDelete={async () => {
@@ -277,6 +334,7 @@ function App() {
           seatedWorlds={seatedWorlds}
           turns={table.turns}
           streamed={table.streamed}
+          sessionId={table.sessionId}
           sessionCode={table.sessionCode}
           closed={table.closed}
           roundOpen={table.roundOpen}

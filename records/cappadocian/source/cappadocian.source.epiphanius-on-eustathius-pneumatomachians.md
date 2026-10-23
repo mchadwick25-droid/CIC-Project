@@ -18,6 +18,7 @@ author: Epiphanius of Salamis
 work: Epiphanius on Eustathius and the Pneumatomachians
 edition: Not independently located as a vendored text this session; a named author, no specific work title
   given
+citation: Epiphanius of Salamis, on Eustathius and the Pneumatomachians
 kind: unvendored
 rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed

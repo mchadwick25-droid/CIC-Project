@@ -113,6 +113,17 @@ SECTION_GATE_TOKENS = {
     "questions": ["QUESTIONS"],
 }
 
+# The "On this page" list: one entry per section that survives for a
+# tradition, in page order. (section key, anchor id, label)
+RAIL_ENTRIES = (
+    ("story", "story", "The story"),
+    ("voices", "people", "People"),
+    ("documented_stories", "stories", "Stories in full"),
+    ("legacy", "after", "What came after"),
+    ("relations_summary", "related", "Related traditions"),
+    ("glossary_and_quotes", "terms", "Terms and quotes"),
+)
+
 _SECTION_BLOCK_RE = re.compile(r"<!--SECTION:(\w+)-->(.*?)<!--/SECTION:\1-->", re.DOTALL)
 _STYLE_BLOCK_RE = re.compile(r'<style id="tradition-content-css">(.*?)</style>', re.DOTALL)
 
@@ -154,6 +165,14 @@ def fill_article(article_template: str, sections: dict[str, str]) -> str:
         return block
 
     filled = _SECTION_BLOCK_RE.sub(replace_block, article_template)
+    kept = {
+        key
+        for key, _anchor, _label in RAIL_ENTRIES
+        if any(sections.get(TOKEN_TO_SECTION[t], "") for t in SECTION_GATE_TOKENS[key])
+    }
+    items = "".join(f'<li><a href="#{anchor}">{label}</a></li>' for key, anchor, label in RAIL_ENTRIES if key in kept)
+    rail = f'<nav class="rail" aria-label="On this page"><p>On this page</p><ol>{items}</ol></nav>' if items else ""
+    filled = filled.replace("{{RAIL}}", rail)
     # Tidy only the blank-line runs a dropped section leaves behind. The
     # existing hand-built pages this replaces are themselves pretty-printed,
     # multi-line HTML (verified against the pre-cutover desert/syriac pages

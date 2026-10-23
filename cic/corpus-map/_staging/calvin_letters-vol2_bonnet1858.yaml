@@ -1,6 +1,3 @@
-# Closes a Verified Acquisition Lead from the Reformed Cities dossier
-# (Atlas VI.2) - see calvin_letters-vol1_bonnet1858.yaml for the full
-# 4-volume set's status.
 source_file: calvin_letters-vol2_bonnet1858.txt
 
 assignments:
@@ -16,3 +13,52 @@ assignments:
     note: >
       Continues Calvin's correspondence from Vol. I, same edition and
       vendoring basis.
+
+  - row_id: calvin_letters-vol2_bonnet1858--letters-of-john-calvin-compiled-from-the-original-2
+    work: Letters of John Calvin, Vol. II, the letter to Wolfgang Musculus on the prohibition of the Vaudois
+      conferences, with Bonnet's notes on the Vaudois of Provence
+    author: calvin
+    locus: CCLV 'To Wolfgang Musculus' at line 11779; Bonnet's note on the Cantons' letters for the Vaudois
+      of Provence at line 943
+    atlas_ids:
+    - the-waldensian-reformed-union
+    role: context
+    confidence: provisional
+    note: 'Placed on the letter heading and the editor''s note; the letter itself was not read for this
+      world.
+
+      '
+
+  - row_id: calvin_letters-vol2_bonnet1858--letters-to-somerset-edward-vi-and-cranmer-1548-1552
+    work: 'Letters of John Calvin, Vol. II: the letters to the Protector Somerset (CCXXIX, CCLVII), to Edward
+      VI (CCLXXIV) and to Archbishop Cranmer (CCXCVIII, CCCXIV), 1548-1552'
+    author: calvin
+    locus: CCXXIX at file line 8702; CCLVII at 12073; CCLXXIV at 14012; CCXCVIII at 16620; CCCXIV at 18559
+    atlas_ids:
+    - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: assigned
+    note: 'Geneva''s advice to the Edwardian Reformation in its own words: Calvin urging Somerset to a complete
+      reformation by preaching and the correction of abuses (October 1548), pressing Cranmer for an assembly
+      of the learned of all the Reformed churches (July 1552), and exhorting the young king to persevere
+      (January 1551), as the edition''s own summaries describe each letter. The outside Reformed voice the
+      English church listened to and did not simply follow. Context; same time, different region.
+
+      '
+
+  - row_id: calvin_letters-vol2_bonnet1858--letters-on-servetus-and-lelio-socin
+    work: 'Letters of John Calvin (Bonnet), vol. 2: the letters on Servetus (1553) and the letter to Lelio
+      Socin'
+    author: calvin
+    locus: contents at file lines 843 to 896 (CCCXXII Arrest of Servetus, CCCXXVII to Sulzer on the errors
+      of Servetus, CCCXXXI Deliverance by the Swiss churches); body at 19370, 19904 and 19915 to 19971;
+      letter CCLXXXIX to Lelio Socin at 15432
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: assigned
+    note: 'Calvin''s own letters on the arrest, the consultation of the Swiss churches and the sentence
+      of Servetus, and the letter to Lelio Socin refusing to answer his questions (an early step toward
+      the Polish Socinians). Hostile outside witness, read at the loci given.
+
+      '

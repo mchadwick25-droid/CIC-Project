@@ -16,23 +16,24 @@ confidence:
     use is attested (Apology 5626, read this pass, in the bracketed German text).
 sources:
 - source_id: witt.source.luther-treatise-on-good-works
-  locus: Good Works, cited among this entry's Registry rows (Doc_06 SS5 entry 6.6)
+  locus: Good Works
   license: public-domain
 - source_id: witt.source.luther-papacy-at-rome-an-answer
-  locus: Papacy at Rome -- Christendom that cannot be reduced 'to one man'
+  locus: >-
+    Papacy at Rome -- Christendom including 'Muscovites, Russians, Greeks, Bohemians,' 'perhaps better
+    Christians than we are'
   license: public-domain
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
-  locus: Christian Nobility -- Christendom including 'Muscovites, Russians, Greeks, Bohemians,' 'perhaps
-    better Christians than we are'
+  locus: Christian Nobility -- the Church not to be reduced 'to one man'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: the Large Catechism -- 'holy Christendom (eine heilige Christenheit)'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'this cause, which is not only ours, but that of all Christendom'
+  locus: the Apology -- 'this cause, which is not only ours, but that of all Christendom'
   license: public-domain
 - source_id: witt.source.philadelphia-vols-i-iii
-  locus: the translators' own glossing footnotes on our avoidance of 'Kirche' (layer)
+  locus: the translators' own glossing footnotes on our avoidance of 'Kirche'
   license: public-domain
 retrieval:
   tier: 2
@@ -52,9 +53,9 @@ relations:
   target: witt.term.the-two-governments
 - type: associated-with
   target: witt.term.the-turk
-plain_meaning: Christendom is our word for the whole body of Christians, wider than any single pope's
-  approval. It even includes believers outside Rome's own confirmation. We say it cannot be reduced to
-  one man.
+plain_meaning: >-
+  Christendom was our word for the whole body of Christians. It reached further than any pope's approval.
+  It took in believers whom Rome had never confirmed. We said no one man could stand for it.
 world_word: Christendom -- Christenheit, the whole body wider than Rome's own confirmation
 false_friend:
 - '''Christendom'' heard as a political order or a civilization'

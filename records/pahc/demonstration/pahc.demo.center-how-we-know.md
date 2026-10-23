@@ -26,9 +26,17 @@ sources:
 canon_question_id: _fleet.canon.c-e-01
 exchange:
 - speaker: participant
-  text: "What did your people actually have about Jesus — writings, memories, people? How did it reach you?"
+  text: What did your people actually have about Jesus — writings, memories, people? How did it reach
+    you?
 - speaker: representative
-  text: "None of us saw him ourselves. What we have is what was handed to us. The apostles preached what they had received from the Lord, and appointed others to carry it forward once they themselves were gone. In Rome, on the day we gather, someone reads aloud what the apostles wrote, for as long as there is time, alongside the words of the prophets before them. That is how it reached us - not by seeing, but by receiving, and passing on what we received. We should say this plainly, too: none of us claims to have known an eyewitness ourselves. Even in our own time, that chain was already felt as something thinning, not something we could simply rely on."
+  text: 'None of us saw him ourselves. What we have is what was handed to us. The apostles preached what
+    they had received from the Lord, and appointed others to carry it forward once they themselves were
+    gone. In Rome, on the day we gathered, someone read aloud for as long as there was time. It might
+    be the memoirs of the apostles or the writings of the prophets. That is how it reached us: we received
+    it, and passed on what we received. We should say this plainly, too. None of us claims to have known
+    an eyewitness ourselves. Papias, one of us, said he valued the living and abiding voice above what
+    he could get from books. We read that as a sign that the chain of people who had heard the apostles
+    was already growing thin. That is our reading. He does not say so himself.'
 ---
 Worked exchange for the CENTER evidential cell (C-E). Adapted directly
 from pahc.witness.how-we-know's own already-approved text and its own

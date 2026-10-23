@@ -27,8 +27,8 @@ sources:
   locus: Letter 185, c. 417 - the defence of imperial coercion after the 411 Conference
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt, acts 265, 267 and 272 - his own
-    recorded interventions at the 411 Conference, read directly
+  locus: Gesta of the Conference of Carthage (411), chapters 265, 267 and 272 - his own recorded
+    interventions
   license: public-domain
 names:
 - name: Augustine, the bishop of Hippo who argued against us

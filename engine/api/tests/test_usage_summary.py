@@ -271,3 +271,55 @@ def test_the_endpoint_carries_the_split(store, usage_store, world_loader, regist
     assert body["live_use"] == {"label": "live use, not yet split", "calls": 1, "priced_dollars": pytest.approx(3.30), "unpriced_calls": 0}
     assert body["named_tests"]["label"] == "internal"
     assert body["named_tests"]["tests"][0]["name"] == "not recorded"
+
+
+def _open_internal(store):
+    session_id = str(uuid.uuid4())
+    open_session(
+        store, session_id=session_id, event_uuid=str(uuid.uuid4()), mode="interview", frame=None,
+        code_hash="h", world_key="fix", package_manifest_hash="m", visitor_id="visitor-team", internal=True,
+    )
+    return session_id
+
+
+def test_internal_sessions_are_left_out_of_visitors_and_time_and_counted(store, usage_store):
+    real = _open(store, visitor_id="visitor-a")
+    _touch(store, real)
+    ours = _open_internal(store)
+    _touch(store, ours)
+    _open_internal(store)
+    summary = get_usage_summary(store, usage_store)
+    assert summary.visitors.unique_visitors == 1
+    assert summary.visitors.sessions_with_visitor_id == 1
+    assert summary.visitors.sessions_without_a_message == 0
+    assert summary.visitors.internal_sessions_left_out == 2
+
+
+def test_internal_sessions_still_count_in_cost_by_world(store, usage_store):
+    ours = _open_internal(store)
+    usage_store.append(_record(session_id=ours))
+    summary = get_usage_summary(store, usage_store)
+    assert summary.by_world[0].calls == 1
+    assert summary.live_use.calls == 1
+
+
+def test_every_question_of_the_last_seven_days_shows_word_for_word_newest_first(store, usage_store):
+    first = _open(store, world_key="alx")
+    _touch(store, first, text="Who was Origen?")
+    second = _open(store, world_key="syr")
+    _touch(store, second, text="what did Ephrem sing")
+    ours = _open_internal(store)
+    _touch(store, ours, text="team test")
+    summary = get_usage_summary(store, usage_store)
+    assert [(q.text, q.world_keys) for q in summary.recent_questions] == [
+        ("what did Ephrem sing", ["syr"]), ("Who was Origen?", ["alx"]),
+    ]
+    assert summary.recent_questions_total == 2
+
+
+def test_questions_older_than_seven_days_are_left_out(store, usage_store):
+    from datetime import datetime, timedelta, timezone
+    _touch(store, _open(store), text="an old question")
+    summary = get_usage_summary(store, usage_store, now=datetime.now(timezone.utc) + timedelta(days=8))
+    assert summary.recent_questions == []
+    assert summary.recent_questions_total == 0

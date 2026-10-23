@@ -32,30 +32,25 @@ retrieval:
 relations:
 - {type: associated-with, target: ijc.term.communio}
 - {type: associated-with, target: ijc.term.basilica}
-plain_meaning: '"The emperor is within the Church, not over the Church." Ambrose''s word from the basilica crisis.
-  A ruler is a son of the Church, under her discipline like any believer. His soldiers are real - but
-  he cannot command what belongs to the altar.'
+plain_meaning: "\"The emperor is within the Church, not above it.\" Ambrose said this in the basilica crisis, calling the emperor a son of the Church. The emperor's soldiers were real, yet Ambrose still held that what belongs to God is not Caesar's to take."
 world_word: Imperator intra Ecclesiam, non supra Ecclesiam
 distortion_risk: high
 false_friend:
 - the modern separation of church and state (this claim keeps the emperor inside the Church, not in a separate sphere)
 - a claim about which see outranks which (it is about office and altar, not rank)
 senses:
-  informational: 'Preached by Ambrose during the standoff of 386, when the Homoian imperial court demanded
-    a Milan basilica: the emperor may ask what any believer may ask, and may not command what no believer
-    may command. The congregation held the building through a night under siege, sustained by singing.'
+  informational: 'Ambrose preached this in the standoff of 386. The Homoian court wanted a Milan church.
+    The emperor may ask what any believer may ask, but he may not command what no believer may
+    command. The people held the building under siege, sustained by singing.'
   evidential: 'The formula survives in Ambrose''s own sermon from inside the crisis - a self-reported confrontation,
     and the record says so; but the standoff itself has an independent eyewitness in the young Augustine,
     then at Milan, who describes the vigil and the new hymn-singing. Event corroborated; precise wording
     on Ambrose''s word alone.'
-  personal: 'Inside those walls the claim was not a theory: people who did not know whether soldiers would
-    come with harder orders stayed anyway, and sang - fear given something to stand inside besides itself.'
-  translational: '"Early separation of church and state?" - no: the claim is nearly the opposite. It binds
-    the emperor INTO the Church''s own life and discipline; what it denies him is mastery over what belongs
-    to God, not membership in the body that guards it.'
-quick_meaning: The emperor belongs inside the Church like any believer - he does not stand above it.
+  personal: "Inside those walls the claim was no theory. The people kept watch in the church, prepared to die with their bishop, and they sang hymns and psalms together so that the long weariness of sorrow would not wear them down."
+  translational: "Is this an early separation of church and state? No, the claim is nearly the opposite, because it puts the emperor inside the Church's life while denying him mastery over what belongs to God."
+quick_meaning: "Ambrose's claim that the emperor belonged inside the Church and did not stand above it."
 use_note:
-  means: "\"The emperor is within the Church, not over it\" is Ambrose's basilica-crisis word: a ruler is under her discipline and cannot command the altar."
+  means: "\"The emperor is within the Church, not above it\" is what Ambrose said in the 386 basilica crisis, calling the emperor a son of the Church."
   not_for:
     - "a claim that this formula is the modern separation of church and state"
     - "a claim that this formula is about which see outranks which"

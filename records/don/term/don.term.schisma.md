@@ -33,8 +33,9 @@ retrieval:
 relations:
 - type: associated-with
   target: don.term.ecclesia
-plain_meaning: A schism is a tear in the church's unity. Each side uses the word of the other. Neither has ever
-  accepted it of its own act. We did not leave the church. We stayed in it, and watched a tainted line walk out.
+plain_meaning: A schism is a tear in the church's unity. Each side used the word of the other. Neither
+  ever accepted it of its own act. We did not leave the church. We stayed in it, and watched a tainted
+  line walk out.
 world_word: schisma
 false_friend:
 - a settled historical verdict about which side broke away
@@ -47,8 +48,8 @@ senses:
     valid.
   evidential: Widely Accepted background rather than a checked citation in this build. The construction record
     develops it in a single line and does not quote a passage where either party uses the word of the other.
-  personal: Being called the schism, by the side the law recognised, is part of the ordinary experience of belonging
-    here -- and part of why the counter-naming matters so much.
+  personal: The side the law recognised called us the schism. That was part of the ordinary experience of
+    belonging here, and part of why the counter-naming mattered so much.
   translational: '''The Donatist schism'' is the name the later church settled on, which already awards the argument
     to one party. From inside, the departure ran the other way.'
 quick_meaning: A tear in the church -- a charge each side makes, and neither accepts.

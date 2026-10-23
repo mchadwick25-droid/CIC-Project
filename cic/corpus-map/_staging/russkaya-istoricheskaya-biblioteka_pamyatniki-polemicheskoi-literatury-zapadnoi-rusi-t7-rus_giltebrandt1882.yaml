@@ -1,0 +1,180 @@
+source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+authors_ruled:
+  skarga:
+    kind: metadata-omission
+    evidence: The editors' preface in this volume names 'Петра Скарги' (Piotr Skarga) as author of the
+      1577 work 'О единстве церкви Божией' and of the 1596 'Берестейский собор и оборона его'; the file's
+      leading name slug is the series, so the author is supplied here from the preface (about file lines
+      189-195).
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  philalethes:
+    kind: pseudonymous
+    evidence: The volume's heading reads 'Христофор Филалет' (Christopher Philalethes), the Greek pen-name
+      form 'lover of truth'; the preface portion read does not name a real author, so the slug follows
+      the printed name.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  vasyl-of-ostroh:
+    kind: metadata-omission
+    evidence: The preface and the running heads name 'Острожскаго священника Василия' (the priest Vasyl
+      of Ostroh) as author of 'О единой истинной православной вѣрѣ' (1588); about file lines 36824-36830.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  herbest:
+    kind: metadata-omission
+    evidence: The preface names 'Бенедикта Гербеста' (Benedict Herbest) as author of the brochure printed
+      as item VI (about file lines 35645-36806).
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  unia-grekov-1595:
+    kind: anonymous
+    evidence: The pamphlet 'Унія Грековъ съ костеломъ Римскимъ' (1595) is printed without an author; the
+      editors' preface attributes it by conjecture ('по догадкамъ') to Ipatij Potij; about file lines
+      7485-10489.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  harmonia-1608:
+    kind: anonymous
+    evidence: The pamphlet 'Гармонія Восточной церкви съ костеломъ Римскимъ' (1608) is printed without
+      a named author; the preface says only that, like item II, it was written by a Uniate; about file
+      lines 10503-13367.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  voprosy-i-otvety-1603:
+    kind: anonymous
+    evidence: The manuscript 'Вопросы и отвѣты православному зъ папежникомъ' (1603) is printed without
+      an author; the preface says only that an Orthodox wrote it; contents at about file lines 103-7378.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+assignments:
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--skarga-on-the-unity-of-the-church-1577-and-1590
+  work: Piotr Skarga, On the unity of God's church under one shepherd and on the Greeks' falling away
+    from that unity (1577), with the new articles of 1590
+  author: skarga
+  locus: item IV from about file line 13516 to 35639 (1577 text, with the 1590 variants in footnotes);
+    item V, the new articles of 1590, ends at 35639
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: assigned
+  note: The Jesuit polemic that preceded and shaped the union, printed in Ruthenian script from the first
+    edition of 1577. Written before 1596 but it is the argument the union's makers answered or used; placed
+    as tradition because the union's own literature builds on it. Cyrillic OCR with many errors; second
+    witness for exact wording until checked on the page images. No public-domain English found.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--skarga-on-the-unity-of-the-church-1577-and-1590-2
+  work: Piotr Skarga, On the unity of God's church under one shepherd and on the Greeks' falling away
+    from that unity (1577), with the new articles of 1590
+  author: skarga
+  locus: item IV from about file line 13516 to 35639 (1577 text, with the 1590 variants in footnotes);
+    item V, the new articles of 1590, ends at 35639
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: 'Skarga was a Jesuit and wrote this for the Ostroh prince, with the Society''s argument for the
+    primacy of Rome. Provisional: the Jesuit world is 1540-1650 and may not want a Ruthenian-language
+    edition.'
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--skarga-the-synod-of-brest-and-its-defence-1596
+  work: Piotr Skarga, The Synod of Brest and its defence (1596; text of the 1733 edition)
+  author: skarga
+  locus: item VIII from about file line 54455 to 57830
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: assigned
+  note: A Jesuit's defence of the Brest decision, written at the time and printed here from an edition
+    of 1733 because the first (1596) edition was not available to the editors. Its Polish passages in
+    Latin script are badly garbled in this OCR. Second witness; the Apokrisis in the same file answers
+    it.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--unia-grekov-s-kostelom-rymskim-1595
+  work: Unia Grekov s kostelom Rymskim (a Uniate pamphlet, 1595)
+  author: unia-grekov-1595
+  locus: item II from about file line 7485 to 10489
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: provisional
+  note: A pamphlet from the year before Brest arguing the union (purgatory, the primacy of the pope, the
+    calendar, the Antichrist), attributed to Ipatij Potij only by the editors' guess. Known in one copy
+    with Orthodox marginalia, which the volume prints. Provisional on authorship, not on the text's belonging;
+    Ruthenian Cyrillic with OCR errors.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--harmonia-of-the-eastern-church-with-the-roman-1608
+  work: Harmonia of the Eastern church with the Roman church (a Uniate pamphlet, 1608)
+  author: harmonia-1608
+  locus: item III from about file line 10503 to 13367
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: assigned
+  note: A short Uniate book of 1608 that sets the sacraments and rites of both churches side by side in
+    Ruthenian and Polish. It attacks Orthodox writers by name. A union-side popular polemic; Cyrillic
+    OCR with errors, Polish parts garbled.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--apokrisis-of-christopher-philalethes-1597-1599
+  work: Apokrisis of Christopher Philalethes (Polish text 1597 and Western-Rus' text of about 1599), the
+    Orthodox answer to Skarga's Brest defence
+  author: philalethes
+  locus: item IX from about file line 57830 to 100815
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: assigned
+  note: The great Orthodox reply to the Brest synod, printed in both its Polish and its Ruthenian texts.
+    The union's chief opponent in its own words; for this world it is the counter-voice, placed as context.
+    Cyrillic and Polish OCR with many errors; second witness until checked on the page images.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--apokrisis-of-christopher-philalethes-1597-1599-2
+  work: Apokrisis of Christopher Philalethes (Polish text 1597 and Western-Rus' text of about 1599), the
+    Orthodox answer to Skarga's Brest defence
+  author: philalethes
+  locus: item IX from about file line 57830 to 100815
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: provisional
+  note: The Orthodox side of the argument the Kyiv-Mohyla revival inherited. Written 1597-1599, before
+    that entry's window (1615-1700), so provisional; the Kyiv-Mohyla thread may prefer the antecedent
+    role.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--vasyl-of-ostroh-on-the-one-true-orthodox-faith-1588
+  work: Vasyl of Ostroh, On the one true Orthodox faith (1588)
+  author: vasyl-of-ostroh
+  locus: item VII from about file line 36824 to 54455
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: provisional
+  note: An Orthodox priest's handbook against Roman claims (the procession of the Spirit, the primacy,
+    purgatory, the calendar), from the Ostroh circle. Before the Kyiv-Mohyla window, so provisional; the
+    Orthodox polemic the revival built on.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--vasyl-of-ostroh-on-the-one-true-orthodox-faith-1588-2
+  work: Vasyl of Ostroh, On the one true Orthodox faith (1588)
+  author: vasyl-of-ostroh
+  locus: item VII from about file line 36824 to 54455
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: provisional
+  note: The Orthodox position on the eve of the union, answering the Latin arguments; placed as context
+    for how the union was argued against. Date 1588 precedes the entry's window.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--questions-and-answers-of-an-orthodox-to-a-papist-1603
+  work: Questions and answers of an Orthodox to a papist (manuscript, 1603)
+  author: voprosy-i-otvety-1603
+  locus: item I, from the preface (about file line 103) through about line 7378
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: provisional
+  note: A popular fifty-question Orthodox handbook against Rome, of the kind the revival's brotherhoods
+    used. Date 1603 precedes the entry's window.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--questions-and-answers-of-an-orthodox-to-a-papist-1603-2
+  work: Questions and answers of an Orthodox to a papist (manuscript, 1603)
+  author: voprosy-i-otvety-1603
+  locus: item I, from the preface (about file line 103) through about line 7378
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: provisional
+  note: The lay Orthodox side of the argument in the first decade after Brest.
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--herbest-brochure
+  work: Benedict Herbest, a brochure (year read as 1536 or 1586 in the OCR)
+  author: herbest
+  locus: item VI, about file lines 35645-36806
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: provisional
+  note: A short anti-Orthodox brochure that Orthodox writers often cited. The editors print it so the
+    reader can judge it. Provisional because the date is not settled in the OCR and the author is outside
+    Ruthenia.

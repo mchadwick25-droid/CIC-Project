@@ -36,17 +36,18 @@ narrative_tier_justification: 'Direct, first-person textual attestation from a n
   Calvin''s own characterization of Farel''s enthusiasm and the conference''s own friendly tone are his
   own words about his own colleague and conduct, not an independently corroborated outside report - the
   bare facts of the journey and its outcome are not themselves in question.'
-tellable_as: In 1549, worried whether Geneva's and Zurich's own teaching on the Supper actually agreed,
-  Calvin travelled to Zurich himself rather than trust a letter, and what he and Farel worked out there
-  became the Consensus Tigurinus.
-text: 'By 1549, a quiet worry had spread among people who respected both our own churches: that Calvin''s own teaching on the Supper might not agree with what Zurich taught. Calvin heard the worry directly,
-  from people who revered both churches and did not want an appearance of disagreement to slow their own
-  faith. A letter would not settle it. He went himself, and asked his own colleague William Farel - "indefatigable
-  soldier of Christ," he called him - to come too. Farel needed no persuading; he had suggested the visit
-  himself. What the two of them worked out with Zurich''s own pastors became the Consensus Tigurinus.
-  Calvin''s own letter afterward is careful about what it actually is: not a new invention, but a faithful
-  record of the conference - and not his and Farel''s own private business, but binding on every colleague
-  serving Christ under Geneva''s own jurisdiction as well.'
+tellable_as: In 1549, many feared that Geneva and Zurich taught different things about the Supper. Calvin
+  went to Zurich with Farel to talk it out. That meeting led to the Consensus Tigurinus.
+text: By 1549, a worry had spread among people who respected both our churches. They feared that Calvin's
+  teaching on the Supper differed from what Zurich taught. Calvin heard this often, from worthy people.
+  They wanted his writings to help them learn the doctrine of piety. They did not want any sign of disagreement
+  to hold them back. He thought a friendly conference was the best way to end the offence. So he went
+  to Zurich himself. His colleague William Farel had suggested and advised the visit, and went with him.
+  Calvin called Farel an "indefatigable soldier of Christ." Calvin wrote that the two churches already
+  agreed in judgment. What the two men worked out with Zurich's pastors became the Consensus Tigurinus.
+  Calvin's letter afterward calls it a faithful record of the conference. It adds that every colleague
+  serving Christ under Geneva's jurisdiction had approved it by subscription.
+telling: "People who respected both churches, Zurich's and Geneva's, had begun to worry. By 1549 they feared that Calvin's teaching on the Supper differed from what Zurich taught. Calvin heard this often, and from worthy people. They wanted his writings to help them learn the doctrine of piety. They did not want any sign of disagreement to hold them back.\n\nCalvin thought a friendly conference was the best way to clear up the worry. So he went to Zurich himself. His colleague William Farel had suggested the visit, and Farel went with him. Calvin called Farel an \"indefatigable soldier of Christ.\"\n\nCalvin wrote that the two churches already agreed in judgment. The two men met with Zurich's pastors. What they worked out together became the Consensus Tigurinus.\n\nCalvin's letter afterward calls it a faithful record of the conference. It adds that every colleague serving Christ under Geneva's jurisdiction had signed it to show their approval."
 modern_contrast: 'A modern reader might expect two theologians to settle a doctrinal question by letter,
   or through delegates. Calvin''s own account states plainly that he judged the matter too important for
   that: he made the journey himself, in person, with a colleague at his side.'

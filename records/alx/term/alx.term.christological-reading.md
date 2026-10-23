@@ -40,12 +40,8 @@ senses:
     not a technique layered on top of Scripture but how its unity is realized.
   evidential: Origen's Commentary on John develops the conviction that the Logos of John 1 speaks through
     the whole scriptural corpus; Clement's Stromateis reads allegory within this same Christological frame.
-  personal: The historical sense is not erased - the Red Sea crossing happened, the Psalms voice real anguish
-    - but perceiving that the Logos speaks in them is perceiving more of what occurred, not less.
-  translational: >-
-    Isn't finding Christ in the Old Testament just imposing a later Christian meaning on it? This world took
-    that worry seriously, and answered that Scripture's ground and goal was always the Logos - so a formed
-    reader perceives who was already speaking, rather than inventing a new meaning.
+  personal: "The historical sense was not erased. The Red Sea crossing happened, and the Psalms voice real anguish. But hearing the Logos speak in them was perceiving more of what occurred, not less."
+  translational: "Isn't finding Christ in the Old Testament just adding a later Christian meaning? This world took that worry seriously. Its answer was that Scripture's ground and goal was always the Logos. So a formed reader perceives who was already speaking, and does not invent a new meaning."
 quick_meaning: Reading Scripture always in relation to the Logos who is Christ.
 distortion_risk: high
 use_note:

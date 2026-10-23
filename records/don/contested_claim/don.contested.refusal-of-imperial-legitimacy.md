@@ -26,18 +26,16 @@ sources:
     written to the tribune Boniface after the Conference
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: the 411 Conference acts read directly - the standing-and-seats exchange, the naming contest, and
-    Marcellinus's own statement that he was bound by the imperial rescript; Registry row 55
+  locus: 'the 411 Conference acts: the standing-and-seats exchange, the naming contest, and Marcellinus''s own statement that he was bound by the imperial rescript'
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
   locus: the 405 Edict of Unity and the sustained legal suppression that followed; 16.5.52
   license: public-domain
 claim: >-
-  Quid est imperatori cum ecclesia? The state has no standing to adjudicate who the true church is, and
-  a verdict reached through a state-aligned process is not thereby a church verdict. That is why Rome in
-  313 and Arles in 314 were rejected rather than accepted, why our bishops refused the chairs at Carthage
-  in 411 and stood for three days, and why no imperial favour shown to our rival has ever amounted to an
-  argument.
+  Quid est imperatori cum ecclesia? The state has no standing to judge who the true church is. A verdict
+  reached through a state-aligned process is not thereby a church verdict. That is why we rejected Rome in
+  313 and Arles in 314. It is why our bishops refused the chairs at Carthage in 411 and stood while the
+  judge sat. No imperial favour shown to our rival has ever amounted to an argument.
 held_against:
 - The interpretive frame is the most heavily synthesised thing in this world's gravity discovery. That
   the recurring episodes together constitute a principled refusal of the state's authority, rather than

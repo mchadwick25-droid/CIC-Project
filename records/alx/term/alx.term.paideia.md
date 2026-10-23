@@ -40,7 +40,7 @@ senses:
     school; Scripture's difficulty, the teacher's questions, and suffering itself are his instruction.
   evidential: The Paedagogus is built on it (Christ the Instructor); the Philocalia's chapters on God's
     threats as healing carry it into the hardest cases.
-  personal: 'Hardship, in this world''s hearing, is never meaningless: the Teacher has not left the room.'
+  personal: "Hardship was never meaningless to us: God was training the soul even through it."
   translational: '''Why does God allow suffering?'' - this world''s first answer is a teacher''s answer:
     to heal and to train, never to destroy.'
 quick_meaning: God's patient training of the soul, in all of life.

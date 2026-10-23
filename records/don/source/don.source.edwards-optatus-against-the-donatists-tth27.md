@@ -22,6 +22,7 @@ author: Mark Edwards (translator); Optatus of Milevis (author)
 work: 'Optatus: Against the Donatists, Translated Texts for Historians 27'
 edition: Liverpool University Press, 1997 -- in copyright, recorded not requested (Source_Acquisition_Manifest.md
   SS2). Not vendored.
+citation: 'Optatus of Milevis, Optatus: Against the Donatists, trans. Mark Edwards, Translated Texts for Historians 27 (Liverpool University Press, 1997)'
 kind: unvendored
 rights_status: "in-copyright; confirmed unavailable in the public domain. Not vendored and not a vendoring candidate - committing it would be redistribution. Consultable through a library without being vendored"
 attribution_status: attributed

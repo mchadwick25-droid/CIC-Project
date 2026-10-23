@@ -44,8 +44,8 @@ senses:
     statement preserves this earlier one or changes it, we do not settle for good.
   evidential: 'Zwingli''s own Sixty-Seven Articles, Article XVIII, states this position directly: the
     Mass ''is not a sacrifice, but is a remembrance of the sacrifice.'''
-  personal: We carry both readings - Zwingli's earlier word and the Consensus's fuller one - because both
-    are genuinely ours, and we have not found the place where they become one thing.
+  personal: We carried both readings, Zwingli's earlier word and the Consensus's fuller one. Both were ours.
+    We had not found the place where they became one thing.
   translational: This is not a rejection of Christ's own real gift to us. It is our own earliest, sharpest
     way of refusing to say more than we believed the text actually gave us.
 quick_meaning: Our founder's earlier reading of the Supper. Chiefly a remembrance of Christ's finished

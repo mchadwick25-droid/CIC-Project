@@ -118,10 +118,10 @@ relations:
 - type: associated-with
   target: gallic.term.virgin-virginity
 plain_meaning: >-
-  The office our monks keep being taken into. A monk "carried off," "escorted under guard," "bound to
-  the long-avoided office," who then keeps "the objects and virtues of a monk" in a see. And at the
-  same time our own formation teaching names the desire for that office as vainglory's suggestion
-  and the devil's pretext.
+  The office our monks kept being taken into. A monk "carried off," "escorted under guard," "bound to
+  the long-avoided office," who then kept "the objects and virtues of a monk" in a see. And at the
+  same time our own formation teaching named the desire for that office as vainglory's suggestion and
+  the devil's pretext.
 world_word: bishop / the monk-bishop
 false_friend:
 - a bishop as an administrator or prelate
@@ -166,8 +166,8 @@ senses:
     objects and virtues of a monk" - and a bishop's singular teaching still counted for nothing against
     the consent of the ancients.
 quick_meaning: >-
-  The office our monks are seized into and must never seek. Fled, then overtaken; kept with a monk's
-  humility; costing the saint some of his power.
+  The office our monks were seized into and were never to seek. Fled, then overtaken; kept with a
+  monk's humility; costing the saint some of his power.
 distortion_risk: high
 use_note:
   means: "The monk-bishop meant the office monks are seized into and must never seek, whose wish is named vainglory, kept with a monk's humility and costing Martin some power."

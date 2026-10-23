@@ -17,107 +17,285 @@ export:
 skim:
   tile:
     text: >-
-      Between about 200 and 410 CE, Christians in the border cities of Edessa
-      and Nisibis built a faith they preferred to sing rather than argue.
-      They spoke Syriac, a language close to the one Jesus himself spoke.
-      They read the four Gospels as one woven story, not four separate
-      books. At the center of their community stood the covenant. Men and
-      women vowed themselves to celibacy for life. They stayed inside their
-      own ordinary congregation, rather than leaving for a monastery. This
-      community also knew its own faith by naming its rivals: Bardaisan,
-      Marcion, and Mani. On the Persian side of the frontier, holding this
-      faith could mean death. A king's persecution killed a bishop and his
-      clergy. The church's chief seat then stood empty for twenty years.
-      Whether a bishop's office or a vowed life held real authority was a
-      question this world never settled.
-    grounded_in: [syr.core.syriac]
+      Between about 200 and 410, Syriac-speaking Christians lived in the
+      frontier country between the Roman and Persian empires, at Edessa and
+      Nisibis. A city chronicle written long afterward says a flood in about
+      201 destroyed a church building at Edessa. These Christians taught the
+      faith through hymns and symbols. They heard the Gospel as one continuous
+      story, woven from the four by a man named Tatian. Men and women of the
+      covenant promised to stay unmarried for life, and they lived in town
+      among their families. Ephrem, a deacon, answered the rival teachers
+      Bardaisan, Marcion and Mani by name. Bishops led, yet covenant members
+      and trusted teachers also held standing, and these churches never
+      settled which counted most. In the 340s, King Shapur II turned on the
+      Christians of Persia, and bishop after bishop was killed. The church's
+      chief seat there later stood empty for about twenty years. At the synod
+      of 410, the Persian church was set in order as one body.
+    grounded_in: [syr.core.syriac, syr.gravity.raza-shrara-method, syr.gravity.diatessaron-normative, syr.gravity.covenant-life, syr.gravity.heresiological-self-definition, syr.gravity.authority-ambiguity, syr.force.shapur-persecution, syr.force.synod-410, syr.story.edessa-flood-201]
 orientation:
   story:
   - text: >-
-      This world lived on a border. From about 200 to 410 CE,
-      Syriac-speaking Christians built their faith in two cities pulled
-      between two empires. Edessa stood under Rome. Nisibis was a fortress
-      city that changed hands partway through. Aphrahat wrote from further
-      inside Persia still. The record opens with this world's oldest hard
-      trace: a church at Edessa, destroyed in a flood in 201. It closes in
-      410, when Persia's own church finally settled into one official
-      structure.
-    grounded_in: [syr.core.syriac, syr.story.edessa-flood-201]
+      From about 200 to 410 CE, Syriac-speaking Christians lived on the
+      frontier between the Roman and Persian empires. Edessa lay under
+      Roman rule, though its people spoke Aramaic. Nisibis was a Roman
+      fortress city from 298 until Rome gave it up to Persia in 363.
+      Aphrahat wrote his letters from inside Persia. The city chronicle
+      of Edessa holds the earliest trace of a church there. Written
+      about 340 years later, it says a flood in about 201 destroyed a
+      church building. Scholars dispute whether that line is original.
+    grounded_in: [syr.core.syriac, syr.force.two-empires-frontier, syr.force.frontier-plural-milieu, syr.story.edessa-flood-201, syr.figure.aphrahat]
   - text: >-
-      Doctrine here was sung, not argued in a philosopher's style. Scripture
-      and the world itself were read as a raza: a symbol bound to the truth,
-      or shrara, it carries and shows. Eden answers the cross. The Jordan
-      river answers the baptismal font. Ephrem, this world's greatest
-      hymn-writer, could build a whole argument out of one image - a pearl
-      held up to the light, showing him the mysteries of God's kingdom.
-    grounded_in: [syr.gravity.raza-shrara-method, syr.term.raza-shrara]
+      These Christians taught through song and symbol. Ephrem, a deacon,
+      wrote teaching hymns called madrashe. Each had a refrain, so a
+      congregation learned the faith by singing it. He read Scripture
+      and the world through the raza, a symbol bound to the truth it
+      shows. In this reading, Eden answers the cross, and the Jordan
+      answers the font of baptism. In his Pearl hymns, he reads a whole
+      theology out of one pearl. The first hymn begins, "One day, my
+      brothers, I picked up a pearl."
+    grounded_in: [syr.gravity.raza-shrara-method, syr.term.raza-shrara, syr.term.madrasha, syr.figure.ephrem, syr.quote.pearl-mysteries]
   - text: >-
-      For this whole world, the Gospel was one continuous story, not four
-      separate books. A generation before this world's own window opens, a
-      man named Tatian wove Matthew, Mark, Luke, and John into a single
-      harmony. Both of this world's chief teachers, Ephrem and Aphrahat, read
-      and preached from that harmony for as long as this world lasted.
-    grounded_in: [syr.gravity.diatessaron-normative, syr.figure.tatian]
+      These churches heard the Gospel as one continuous story. Around
+      172, a man named Tatian wove Matthew, Mark, Luke and John into a
+      single harmony. Aphrahat quotes it, and Ephrem wrote a commentary
+      on it.
+    grounded_in: [syr.gravity.diatessaron-normative, syr.term.ewangeliyon-da-mhallete, syr.figure.tatian]
   - text: >-
-      At the center of this world's ascetic life stood the covenant, the
-      qyama. Men and women vowed themselves to lifelong celibacy and
-      service. They stayed inside their own ordinary congregation, rather
-      than leaving for a desert monastery. Aphrahat calls them ihidaye,
-      "single ones." The name joins their undivided life to Christ. He
-      carries that very same title: the Only-Begotten.
-    grounded_in: [syr.gravity.covenant-life, syr.term.qyama]
+      At the core of the community's vowed life stood the covenant,
+      called the qyama. Its members were men and women who promised to
+      stay unmarried for life and to serve the congregation. They lived
+      in town, among their own families. Aphrahat's sixth Demonstration,
+      from 337, is the earliest dated witness. It speaks to an order
+      already in place. Members were also called ihidaye, a word that
+      means single ones. The same word is the Syriac title for Christ,
+      the Only-Begotten. Ephrem's hymns show that women of the covenant
+      sang them in choirs.
+    grounded_in: [syr.gravity.covenant-life, syr.term.qyama, syr.term.ihidaya, syr.force.qyama-commitment]
   - text: >-
-      Who actually held authority here was never settled. Bishops led, and
-      this world's own record remembers them warmly. But the vowed covenant
-      life carried a standing of its own, and a respected teacher's word could
-      matter just as much as an office. Aphrahat himself once drafted a
-      letter in a synod of bishops' own name - yet whether he was a bishop
-      himself is a question this world's own record never answers. In
-      Persia, the one bishop who claimed to lead them all, Papa, was openly
-      contested by his own colleagues while he still lived.
-    grounded_in: [syr.gravity.authority-ambiguity, syr.figure.aphrahat, syr.figure.papa-bar-aggai]
+      Who held authority was never settled in these years. Bishops led
+      their churches. The vowed men and women of the covenant had a
+      standing of their own. A trusted teacher also carried weight.
+      Aphrahat drafted a letter for a meeting of bishops and clergy.
+      Whether he was a bishop is unknown. In Persia, Papa claimed to
+      lead all the bishops. He was bishop of the royal city of
+      Seleucia-Ctesiphon. According to later chronicles, other bishops
+      fiercely contested his claim around 315.
+    grounded_in: [syr.gravity.authority-ambiguity, syr.dw.authority-lived, syr.figure.aphrahat, syr.contested.aphrahat-episcopacy, syr.figure.papa-bar-aggai, syr.contested.papa-primacy]
   - text: >-
-      This world also knew its own faith by naming its rivals. Three men
-      preached in the very same cities, in the very same tongue: the
-      philosopher-poet Bardaisan, the teacher Marcion, and the prophet Mani.
-      Ephrem answered all three by name, in both prose and song. He even
-      turned Bardaisan's own sweet hymn-forms back against his followers.
-    grounded_in: [syr.gravity.heresiological-self-definition, syr.figure.bardaisan]
+      Ephrem also defined the faith by answering rivals who preached in
+      the same cities and the same language. Bardaisan was a thinker at
+      the court of the king of Edessa. His following lasted for two
+      centuries after his death. Marcion rejected the Maker of the
+      world, and his followers lived in the same region. Mani started a
+      new religion in the third century. Ephrem answered all three by
+      name, in prose and in hymns. He treated them as one kind of
+      deception, though their systems were different.
+    grounded_in: [syr.gravity.heresiological-self-definition, syr.force.rival-movements, syr.figure.bardaisan, syr.term.madrasha]
   - text: >-
-      On the Persian side, faithfulness meant endurance under a hostile
-      crown. From the 340s, King Shapur II turned on his Christian subjects.
-      Bishop Simeon bar Sabbae refused to collect a punishing new tax and
-      refused to worship the sun. He was executed with his own clergy, the
-      first of many bishops the persecution killed. After the last of them
-      died, the church's chief seat in Persia stood empty for twenty years,
-      since taking the post meant near-certain death. Roman-side Edessa,
-      across the frontier, knew rival teachers, not this kind of danger - the
-      two halves of this one world lived very different fourth centuries.
-    grounded_in: [syr.gravity.persecution-endurance, syr.force.shapur-persecution, syr.figure.simeon-bar-sabbae]
+      On the Persian side, faith meant endurance under a hostile crown.
+      In the 340s, King Shapur II turned on his Christian subjects.
+      Sozomen, a church historian of the 400s, says Shapur first taxed
+      them heavily and then had their priests killed. Simeon bar Sabbae,
+      bishop of Seleucia-Ctesiphon, was accused of siding with Rome. He
+      refused to worship the sun and was executed with his clergy.
+      Tradition dates his death to 341, and some scholars argue for
+      about 344. Bishop after bishop was killed. After Barba'shmin, a
+      later bishop, was killed, the church's chief seat in Persia stayed
+      empty for about twenty years. Roman Edessa was largely without
+      this persecution.
+    grounded_in: [syr.gravity.persecution-endurance, syr.force.shapur-persecution, syr.figure.simeon-bar-sabbae, syr.story.simeon-martyrdom]
   - text: >-
-      This world's own record ends in 410. A Roman bishop, Marutha, used his
-      embassies to the Persian court to help broker a synod under the
-      protection of King Yazdegerd I. For the first time, Persia's church
-      received a single, settled, official structure. The ambiguity this
-      world had lived with for two centuries did not resolve itself from
-      within. It arrived, at the very end, from outside.
-    grounded_in: [syr.force.synod-410, syr.figure.marutha]
+      Around 400, Marutha went to the Persian court. He was a bishop in
+      Roman Mesopotamia, sent as the Roman emperor's envoy. His access
+      to King Yazdegerd I helped win royal permission for the synod of
+      410. The Persian state recognized the church that year. The synod
+      set it in order as one body, with provinces under Isaac, bishop of
+      the royal city.
+    grounded_in: [syr.force.synod-410, syr.figure.marutha, syr.force.yazdegerd-toleration]
   documented_stories:
-  - story_id: syr.story.ephrem-famine-death
-    title: "Ephrem Leaves His Cell for the Famine"
-    when: "372-373 (the last year of Ephrem's life)"
-    teaser: "Famine strikes Edessa, and the rich say they trust no one to hand out relief honestly. An old teacher volunteers himself."
-    grounded_in: [syr.story.ephrem-famine-death, syr.figure.ephrem]
-  - story_id: syr.story.jacob-deliverance
-    title: "Jacob of Nisibis and the Siege"
-    when: "338, 346, or 350 (this world's own record does not settle which siege)"
-    teaser: "A Persian army dams the river against the city walls. The aged bishop climbs a tower to pray - and asks God for nothing worse than a swarm of gnats."
-    grounded_in: [syr.story.jacob-deliverance, syr.figure.jacob-of-nisibis]
   - story_id: syr.story.abgar-addai-legend
     title: "The Story We Told of Our Own Beginning"
     when: "set around the year 30; first attested in writing centuries later"
-    teaser: "A sick king writes to Jesus asking to be healed, and says a reply came back. This community told the story as its own for as long as it lasted."
-    grounded_in: [syr.story.abgar-addai-legend]
+    teaser: "In the story, the sick King Abgar of Edessa writes to Jesus for healing. Jesus promises to send a disciple, and Addai comes. We told it as the story of our own beginning. It was first written down centuries later, and nothing from Abgar's own day confirms it."
+    grounded_in: [syr.story.abgar-addai-legend, syr.contested.edessa-origins]
+  - story_id: syr.story.edessa-flood-201
+    title: "The Flood and the Church at Edessa"
+    when: "201 (one edition counts it as 202)"
+    teaser: "The Chronicle of Edessa, compiled about 340 years later, says a river flood killed more than two thousand people. It says the waters destroyed a church building. Where that line came from is not settled."
+    grounded_in: [syr.story.edessa-flood-201, syr.source.chronicle-of-edessa]
+  - story_id: syr.story.jacob-nicaea
+    title: "Jacob of Nisibis at Nicaea"
+    when: "325 (placed there by later sources and reconstructed lists of signers)"
+    teaser: "Bishops meet at Nicaea in 325 to answer Arius. The tradition says Jacob, bishop of Nisibis, was there. Later lists of the signers carry his name."
+    grounded_in: [syr.story.jacob-nicaea, syr.figure.jacob-of-nisibis]
+  - story_id: syr.story.ephrem-roll-and-vine
+    title: "Two Dreams About Ephrem"
+    when: "undated, within Ephrem's life of about 306 to 373; the second dream is from his youth"
+    teaser: "In one dream, angels choose Ephrem to be trusted with a written roll. In another, a vine grows from his tongue. Both dreams appear only in the Syriac Paradise."
+    grounded_in: [syr.story.ephrem-roll-and-vine, syr.figure.ephrem]
+  - story_id: syr.story.qyama-morning
+    title: "A Morning of the Covenant at Nisibis"
+    when: "337 to 363 (a typical morning built from separate sources, not one recorded day)"
+    teaser: "Before dawn at Nisibis, men and women of the covenant gather for the vigil. The daughters of the covenant sing a teaching hymn, and the Gospel is read as one story."
+    grounded_in: [syr.story.qyama-morning]
+  - story_id: syr.story.jacob-deliverance
+    title: "Jacob of Nisibis and the Siege"
+    when: "338, 346, or 350 (which siege is not settled)"
+    teaser: "Theodoret wrote about a century later. He says Jacob of Nisibis cursed the Persians with nothing worse than gnats and mosquitoes. In his telling, the Persians fled."
+    grounded_in: [syr.story.jacob-deliverance, syr.figure.jacob-of-nisibis]
+  - story_id: syr.story.simeon-martyrdom
+    title: "Simeon Before the King of Persia"
+    when: "341 by the traditional count (some argue about 344)"
+    teaser: "The tradition tells that Simeon, bishop of Seleucia-Ctesiphon, is brought in chains before King Shapur. He will not worship the sun, and he is put to death with his clergy."
+    grounded_in: [syr.story.simeon-martyrdom, syr.figure.simeon-bar-sabbae]
+  - story_id: syr.story.basil-legend
+    title: "The Meeting of Ephrem and Basil"
+    when: "set in Ephrem's lifetime, between 340 and 373 (a later legend)"
+    teaser: "A later Life of Ephrem says a vision sends him to meet Basil, who ordains him a deacon. Basil never names the Syrian he praises, and the meeting is a later legend."
+    grounded_in: [syr.story.basil-legend, syr.figure.ephrem]
+  - story_id: syr.story.choirs-tradition
+    title: "Ephrem and the Women's Choirs"
+    when: "340 to 373 (first told about 500, more than a century after Ephrem's death)"
+    teaser: "A later tradition says Ephrem founded the choirs of the daughters of the covenant. In his own time, we know only that these women sang his hymns."
+    grounded_in: [syr.story.choirs-tradition, syr.figure.ephrem]
+  - story_id: syr.story.ephrem-famine-death
+    title: "Ephrem Leaves His Cell for the Famine"
+    when: "372-373 (the last year of Ephrem's life)"
+    teaser: "Palladius and Sozomen tell that in Edessa's famine, Ephrem takes money from the rich and sets up some three hundred beds. He nurses the starving until the famine ends, and he dies within a month."
+    grounded_in: [syr.story.ephrem-famine-death, syr.figure.ephrem]
+  highlights:
+  - phrase: "Edessa"
+    kind: place
+    note: "An ancient city of upper Mesopotamia. Rome took it over in 214. Its site is now Şanlıurfa, in today's Turkey."
+    url: https://pleiades.stoa.org/places/658457
+    verified_on: "2026-10-17"
+    grounded_in: [syr.force.frontier-plural-milieu]
+  - phrase: "Nisibis"
+    kind: place
+    note: "A fortress city, Roman from 298 until 363, when it was ceded to Persia. Its site is Nusaybin, on today's Turkey–Syria border."
+    url: https://pleiades.stoa.org/places/874623
+    verified_on: "2026-10-17"
+    grounded_in: [syr.force.two-empires-frontier]
+  - phrase: "Seleucia-Ctesiphon"
+    kind: place
+    note: "The royal cities of Persia, on the Tigris River. Ctesiphon was a capital, about 35 km south of modern Baghdad, in today's Iraq."
+    url: https://pleiades.stoa.org/places/893976
+    verified_on: "2026-10-17"
+    grounded_in: [syr.figure.simeon-bar-sabbae, syr.source.sozomen-historia-ecclesiastica]
+  - phrase: "Nicaea"
+    kind: place
+    note: "A Greek city of northwestern Anatolia, now İznik in today's Turkey. A council of bishops met there in 325."
+    url: https://pleiades.stoa.org/places/511268
+    verified_on: "2026-10-17"
+    grounded_in: [syr.story.jacob-nicaea]
+  - phrase: "Syriac"
+    kind: term
+    note: "The language of these churches. Ephrem wrote hymns in it. Aphrahat's first twenty-two letters each begin with the next letter of its alphabet."
+    grounded_in: [syr.core.syriac, syr.term.madrasha, syr.term.tahwyata]
+  - phrase: "city chronicle"
+    label: "Chronicle of Edessa"
+    kind: term
+    note: "The Chronicle of Edessa, compiled about 540 from the city's archives. It is the source for the flood of 201."
+    grounded_in: [syr.source.chronicle-of-edessa, syr.story.edessa-flood-201]
+  - phrase: "raza"
+    kind: term
+    note: "A symbol in Scripture or in nature, bound to the truth it shows. That truth is called the shrara."
+    grounded_in: [syr.term.raza-shrara]
+  - phrase: "madrashe"
+    kind: term
+    note: "Teaching hymns with stanzas and a refrain, made to be sung. The singular is madrasha."
+    grounded_in: [syr.term.madrasha]
+  - phrase: "single harmony"
+    label: "Tatian's harmony"
+    kind: term
+    note: "One Gospel story made from the four. Only pieces of it survive, along with quotations and later translations."
+    grounded_in: [syr.term.ewangeliyon-da-mhallete, syr.gravity.diatessaron-normative]
+  - phrase: "qyama"
+    kind: term
+    note: "The covenant. Men and women took a lifelong vow to stay unmarried. They lived in their towns and served the congregation."
+    grounded_in: [syr.term.qyama]
+  - phrase: "ihidaye"
+    kind: term
+    note: "The plural of ihidaya, the Single One. The word names a vowed celibate. It is also a title of Christ, the Only-Begotten."
+    grounded_in: [syr.term.ihidaya]
+  - phrase: "sixth Demonstration"
+    label: "Aphrahat's Demonstrations"
+    kind: term
+    note: "Aphrahat's letters are called Demonstrations. There are twenty-three of them, written from 336 to 345."
+    grounded_in: [syr.term.tahwyata]
+  - phrase: "synod of 410"
+    kind: council
+    note: "A meeting of Persian bishops at Seleucia-Ctesiphon, held with royal permission. It set the Persian church in order as one body."
+    grounded_in: [syr.force.synod-410]
+  - phrase: "Ephrem"
+    kind: person
+    note: "A deacon and poet who taught the faith in hymns. He lived at Nisibis until 363 and then at Edessa, where he died in 373."
+    grounded_in: [syr.figure.ephrem]
+  - phrase: "Aphrahat"
+    kind: person
+    note: "A teacher who wrote inside the Persian empire. His twenty-three letters survive, dated 336 to 345. Outside them, nothing is known of his life."
+    grounded_in: [syr.figure.aphrahat]
+  - phrase: "Tatian"
+    kind: person
+    note: "Also called Tatian the Assyrian. He studied at Rome, then went back east around 172."
+    grounded_in: [syr.figure.tatian]
+  - phrase: "Bardaisan"
+    kind: person
+    note: "A philosopher at the court of Abgar VIII of Edessa, 154 to 222. His words survive only in a student's dialogue and in Ephrem's replies."
+    grounded_in: [syr.figure.bardaisan, syr.core.syriac]
+  - phrase: "Marcion"
+    kind: person
+    note: "A teacher who rejected the Maker of the world. Churches that followed him shared the region in these years."
+    grounded_in: [syr.gravity.heresiological-self-definition, syr.force.rival-movements]
+  - phrase: "Mani"
+    kind: person
+    note: "He started a new religion in the third century. His missionaries preached in the cities of these churches, in Syriac."
+    grounded_in: [syr.gravity.heresiological-self-definition, syr.force.rival-movements]
+  - phrase: "Papa"
+    kind: person
+    note: "Papa bar Aggai was a bishop around 300. Later writers called him Catholicos, a title no one used in his time."
+    grounded_in: [syr.figure.papa-bar-aggai, syr.term.catholicos]
+  - phrase: "Shapur II"
+    kind: person
+    note: "The Persian king whose persecution of Christians began in the 340s."
+    grounded_in: [syr.force.shapur-persecution]
+  - phrase: "Sozomen"
+    kind: person
+    note: "A church historian of the fifth century. He wrote down the story of Simeon's death and an account of Ephrem's last year."
+    grounded_in: [syr.source.sozomen-historia-ecclesiastica, syr.story.simeon-martyrdom]
+  - phrase: "Simeon bar Sabbae"
+    kind: person
+    note: "A bishop of the royal city, put to death under Shapur II. The traditional date is 341. Some scholars argue for about 344."
+    grounded_in: [syr.figure.simeon-bar-sabbae]
+  - phrase: "Barba'shmin"
+    kind: person
+    note: "A bishop killed in the persecution. After his death the chief seat in Persia stood empty for about twenty years."
+    grounded_in: [syr.force.shapur-persecution, syr.source.bar-hebraeus-chronicon-ecclesiasticum]
+  - phrase: "Marutha"
+    kind: person
+    note: "A bishop in Roman Mesopotamia. He went to the Persian court as an envoy. Later stories tell of miracles on his visits."
+    grounded_in: [syr.figure.marutha]
+  - phrase: "Yazdegerd I"
+    kind: person
+    note: "The Persian king who gave royal permission for the synod of 410."
+    grounded_in: [syr.figure.marutha, syr.force.yazdegerd-toleration]
+  - phrase: "Arius"
+    kind: person
+    note: "The man the bishops at Nicaea in 325 met to answer. Those who answered him confessed the Son as true God."
+    grounded_in: [syr.story.jacob-nicaea]
+  - phrase: "Jacob, bishop of Nisibis"
+    label: "Jacob of Nisibis"
+    kind: person
+    note: "Bishop of Nisibis from about 309. The evidence puts his death at 338 or at 350."
+    grounded_in: [syr.figure.jacob-of-nisibis, syr.contested.jacob-death-year]
+  - phrase: "Theodoret"
+    kind: person
+    note: "A church historian, about 393 to about 460. He told of Jacob and the gnats about a century after the sieges."
+    grounded_in: [syr.source.theodoret-historia-ecclesiastica, syr.story.jacob-deliverance]
+  - phrase: "Palladius"
+    kind: person
+    note: "A church writer who died about 430. His account of Ephrem's last year was written about 420."
+    grounded_in: [syr.source.palladius-lausiac-history, syr.story.ephrem-famine-death]
   voices:
   - figure: syr.figure.ephrem
     text: >-

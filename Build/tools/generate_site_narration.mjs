@@ -14,7 +14,12 @@
  * Usage:
  *   ELEVENLABS_API_KEY=... node Build/tools/generate_site_narration.mjs \
  *     --voice-id <id> --model <model_id> --output-format <fmt> \
- *     --settings-json '{"stability":0.55,...}' [--only a,b] [--dry-run] [--force]
+ *     --settings-json '{"stability":0.55,...}' --approved-run "<name>" --char-cap <n> \
+ *     [--only a,b] [--dry-run] [--force]
+ *
+ * --approved-run (the run Mark approved after hearing its sample) and
+ * --char-cap (its character limit) are required except with --dry-run; a run
+ * that plans more characters than its cap refuses to start.
  *
  * Every paid setting is named on the command and printed before the requests.
  */
@@ -22,7 +27,7 @@ import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
-import { requirePaidSettings, synthesizeWithCost } from './generate_tree_narration.mjs';
+import { requireApprovedRun, requirePaidSettings, synthesizeWithCost } from './generate_tree_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -49,14 +54,14 @@ export function storyText(html) {
 
 /**
  * One About section as it would be read aloud: its headings and paragraphs in
- * page order. The small-caps eyebrow label is navigation, not text, so it is
- * left out.
+ * page order. The small-caps eyebrow label is navigation, and the audio
+ * player's own caption describes the recording, so both are left out.
  */
 export function sectionText(html, id) {
   const section = new RegExp(`<section[^>]*id="${id}"[^>]*>([\\s\\S]*?)</section>`).exec(html);
   if (!section) throw new Error(`about.html: section "${id}" not found`);
   const parts = [...section[1].matchAll(/<(h[23]|p)([^>]*)>([\s\S]*?)<\/\1>/g)]
-    .filter((m) => !/class="eyebrow"/.test(m[2]))
+    .filter((m) => !/class="(eyebrow|narration-disclosure)"/.test(m[2]))
     .map((m) => plain(m[3]))
     .filter(Boolean);
   if (!parts.length) throw new Error(`about.html: section "${id}" has no text`);
@@ -73,7 +78,7 @@ export function sitePieces({ read = (f) => fs.readFileSync(path.join(siteDir, f)
 }
 
 export function parseArgs(argv) {
-  const opts = { dryRun: false, force: false, only: null, voiceId: null, model: null, outputFormat: null, settingsJson: null };
+  const opts = { dryRun: false, force: false, only: null, voiceId: null, model: null, outputFormat: null, settingsJson: null, approvedRun: null, charCap: null };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--dry-run') opts.dryRun = true;
@@ -83,6 +88,8 @@ export function parseArgs(argv) {
     else if (arg === '--model') opts.model = argv[++i];
     else if (arg === '--output-format') opts.outputFormat = argv[++i];
     else if (arg === '--settings-json') opts.settingsJson = argv[++i];
+    else if (arg === '--approved-run') opts.approvedRun = argv[++i];
+    else if (arg === '--char-cap') opts.charCap = Number(argv[++i]);
     else throw new Error(`unrecognized argument: ${arg}`);
   }
   return opts;
@@ -110,6 +117,7 @@ async function run() {
   if (opts.dryRun) { toGenerate.forEach((p) => console.log(`  would generate: ${p.key} (${p.text.length} chars)`)); return; }
   if (!toGenerate.length) { console.log('Nothing to do.'); return; }
   requirePaidSettings(opts);
+  requireApprovedRun(opts, total);
   for (const [flag, value] of [['--output-format', opts.outputFormat], ['--settings-json', opts.settingsJson]]) {
     if (!value || value.startsWith('--')) throw new Error(`${flag} is required and is never read from the environment.`);
   }
@@ -117,6 +125,7 @@ async function run() {
   const apiKey = process.env.ELEVENLABS_API_KEY;
   if (!apiKey) throw new Error('ELEVENLABS_API_KEY is not set.');
   console.log('=== PAID RUN, settings as actually used ===');
+  console.log(`approved run  : ${opts.approvedRun}   char cap: ${opts.charCap}`);
   console.log(`voice id      : ${opts.voiceId}`);
   console.log(`model         : ${opts.model}`);
   console.log(`output format : ${opts.outputFormat}`);

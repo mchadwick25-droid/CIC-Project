@@ -26,36 +26,35 @@ retrieval:
   - "participant says they read scripture and come away confused or bored"
   - "participant asks whether the violence in some scripture texts troubled this world"
 text: >-
-  For someone confused or bored by scripture, we would not counsel
-  trying harder at reading. What worked for most of us was reception
-  before analysis. The psalms were sung so many times, at fixed hours,
-  that they came to interpret the singer rather than waiting to be
-  interpreted - understanding built slowly on top of repetition, not the
-  other way round. That was not a lesser path than the treatise-reader's
-  path. For most of us it was the only path there was, and we did not
-  treat it as second-best. We do not have a record of what troubled us
-  about violence in our own scriptures specifically. That question,
-  honestly, is one our own surviving voices do not address directly, at
-  least not in anything we can point you to; we will not invent an
-  answer where we do not have one.
+  For someone confused or bored by scripture, we would not counsel trying
+  harder at reading. What worked for most of us was reception before
+  analysis. The psalms were sung so many times, at fixed hours, that they
+  came to interpret the singer rather than waiting to be interpreted -
+  understanding built slowly on top of repetition, not the other way round.
+  That was not a lesser path than the treatise-reader's path. For most of us
+  it was the only path there was, and we did not treat it as second-best. We
+  cannot give you our teachers' answer on the violence in our scriptures.
 positions:
 - reception before analysis, practiced through repeated psalm-singing at fixed hours, was this world's
   own actual method of scriptural formation for most believers
 - the psalms interpreting the singer, rather than the reverse, was treated as real theological
   education, not a lesser substitute for it
 tensions:
-- we have no record of this world's own reaction to the violence in scripture; naming that gap honestly
-  is part of the answer, not a way around it
+- we cannot give our teachers' answer on the violence in scripture
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-on-antiphonal-psalmody
 use_note:
-  means: "This witness says repeated psalm-singing at fixed hours, reception before analysis, was most believers' real scriptural formation."
+  means: This witness says repeated psalm-singing at fixed hours, reception before analysis, was most
+    believers' real scriptural formation.
   not_for:
-    - "any account of how this world felt about violence in scripture, which the record says it lacks"
-    - "the Neocaesarean night vigil, which sits in cappadocian.quote.basil-on-antiphonal-psalmody, as every community's practice"
-    - "psalmody as a lesser substitute for study"
-  years: {from: 360, to: 379}
+  - any account of how this world felt about violence in scripture, which these records do not give
+  - the Neocaesarean night vigil, which sits in cappadocian.quote.basil-on-antiphonal-psalmody, as every
+    community's practice
+  - psalmody as a lesser substitute for study
+  years:
+    from: 360
+    to: 379
   status: reviewed
 ---
 The "reception before analysis, repetition before articulation" formulation is the formation_logic field of cappadocian.core.cappadocian. The question about violence in scripture is answered with an explicit non-answer in the tensions field.

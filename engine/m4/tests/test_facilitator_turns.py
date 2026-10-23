@@ -14,7 +14,7 @@ from engine.m4.facilitator_turns import SYSTEM_NATURE
 
 def test_door_turn_interpolates_world_name_not_display_name():
     event = facilitator_turns.door_turn(
-        representative_name="Marius", role_label="Deacon of the Letters", world_name="Church and Empire"
+        representative_name="Marius", world_name="Church and Empire"
     )
     assert event["kind"] == "door"
     assert "Church and Empire" in event["text"]
@@ -23,8 +23,8 @@ def test_door_turn_interpolates_world_name_not_display_name():
 
 def test_table_door_turn_interpolates_each_seat_world_name():
     seated = [
-        {"representative_name": "Theon", "role_label": "Catechetical Teacher", "world_name": "Alexandrian Christianity"},
-        {"representative_name": "Chloe", "role_label": "Household Leader", "world_name": "The Scattered Households"},
+        {"representative_name": "Theon", "world_name": "Alexandrian Christianity"},
+        {"representative_name": "Chloe", "world_name": "The Scattered Households"},
     ]
     event = facilitator_turns.table_door_turn(seated)
     assert "Alexandrian Christianity" in event["text"]
@@ -59,7 +59,7 @@ def test_system_nature_states_the_ruled_verification_sentences():
         "Before you see an answer, each claim in it is checked to make sure "
         "its words come from the record it names."
     ) in SYSTEM_NATURE.text
-    assert "The record itself was checked against the sources when the world was built." in SYSTEM_NATURE.text
+    assert "The record itself was checked against the sources when the tradition was built." in SYSTEM_NATURE.text
     assert (
         "Where the record is silent, the voice is built to say so, not to fill the gap."
     ) in SYSTEM_NATURE.text

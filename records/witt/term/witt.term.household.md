@@ -23,7 +23,7 @@ sources:
   locus: the Large Catechism -- weekly examination and the day's three prayers
   license: public-domain
 - source_id: witt.source.luther-small-catechism
-  locus: the Small Catechism, whole file -- 'the simple way a father should present them to his household'
+  locus: the Small Catechism -- 'the simple way a father should present them to his household'
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: the Table Talk -- 'we are very cold and careless in praying' (Contested as verbatim)
@@ -63,8 +63,10 @@ relations:
   target: witt.term.the-two-governments
 - type: associated-with
   target: witt.term.chastity
-plain_meaning: The household is where our catechism is taught. A father questions his family and servants
-  every week. He leads prayer three times a day. This is how ordinary people learn the faith.
+plain_meaning: >-
+  The household is where our catechism was taught. Our books told a father to question his family and
+  servants at least once a week. He was to lead them in prayer morning, evening, and at meals. That is
+  how ordinary people were meant to learn the faith.
 world_word: the household -- father, wife, children, servants; the catechism's own site
 false_friend:
 - '''household'' heard as the modern nuclear family'
@@ -88,16 +90,25 @@ senses:
     weekly examination as abuse: we mean a stratified house of kin and servants under one head answerable
     to God, prescribed as the place where every Christian is formed -- stated as a duty, unattested as
     any actual house''s practice.'
-quick_meaning: 'The house where the catechism is taught: father, wife, children, servants, examined weekly.'
+quick_meaning: >-
+  Where the catechism was taught. The father was to question his family and servants each week.
 distortion_risk: high
 use_note:
-  means: "The household meant father, wife, children and servants as the catechism's own site, where the father taught, questioned and led daily prayer."
+  means: >-
+    The household meant father, wife, children and servants as the catechism's own site, where our books
+    told the father to teach, question and lead daily prayer.
   not_for:
-    - "'household' as the modern nuclear family"
-    - "the father's examination and withholding of food as domestic abuse, which is a modern sense"
-    - "the catechism's content apart from its household setting, which sits in witt.term.catechism"
-    - "the prescribed routine as attested practice, since witt.story.household-catechism-lesson-typical-practice holds the prescription only"
-  years: {from: 1529, to: 1546}
+  - '''household'' as the modern nuclear family'
+  - >-
+    the father's examination and withholding of food as domestic abuse, which is a modern sense
+  - >-
+    the catechism's content apart from its household setting, which sits in witt.term.catechism
+  - >-
+    the prescribed routine as attested practice, since witt.story.household-catechism-lesson-typical-practice
+    holds the prescription only
+  years:
+    from: 1529
+    to: 1546
   status: reviewed
 ---
 Built from Doc_06 §5 entry 4.2 (household / 'father of a family', Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][RT][DR]. Author Gravity: Luther-only, cross-register, for the mechanism -- confirmed. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.

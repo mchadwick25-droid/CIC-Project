@@ -1,0 +1,40 @@
+source_file: phoebadius-agen_contra-arianos-with-caesarius-didymus-lat_caillau1836.txt
+
+authors_ruled:
+  phoebadius-of-agen:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML markup
+      only) has not seen the author. Phoebadius, bishop of Agen (fl. 357-392), is a real,
+      attested author: the volume's own section title 'S. Phoebadii Aginnensis episcopi
+      opuscula adversus Arianos' (file lines 15473-15480) and Jerome, De viris illustribus
+      108 (held in npnf203) name him and the Contra Arianos.
+
+assignments:
+  - row_id: phoebadius-agen_contra-arianos-with-caesarius-didymus-lat_caillau1836--liber-contra-arianos-357-358-latin
+    work: "Liber contra Arianos (357-358), with the Libellus fidei, Latin"
+    author: phoebadius-of-agen
+    locus: "Phoebadius section from file line 15473; Contra Arianos from 15614; Libellus fidei at 17790"
+    atlas_ids:
+      - gallic-nicene-episcopate
+    role: tradition
+    confidence: provisional
+    note: >
+      The Gallic Nicene argument against the second creed of Sirmium (357), by a bishop who
+      then sat at Ariminum (359), was deceived into signing and recanted (Sulpicius,
+      Chron. II.44, held; Jerome, De viris 108, held). Primary original-language voice of
+      the Gallic Nicene world before the council. The Caesarius and Didymus texts bound with
+      it are not assigned here. Latin only; the De fide orthodoxa printed with it is of
+      disputed authorship.
+  - row_id: phoebadius-agen_contra-arianos-with-caesarius-didymus-lat_caillau1836--liber-contra-arianos-against-the-sirmian-creed-latin
+    work: "Liber contra Arianos, against the second Sirmian creed of 357, Latin"
+    author: phoebadius-of-agen
+    locus: "file lines 15614-17789"
+    atlas_ids:
+      - homoian-arian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A contemporary opponent's refutation of the Homoian programme as stated at Sirmium
+      in 357 (Valens, Ursacius, Germinius), written before Ariminum: the view from outside
+      the Homoian world. Context, not its voice.

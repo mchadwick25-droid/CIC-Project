@@ -16,7 +16,7 @@ confidence:
     'put yourself into this YOU' development is the founder's own.
 sources:
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: Babylonian Captivity, cited among this entry's Registry rows (Doc_06 SS5 entry 5.4)
+  locus: Babylonian Captivity
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: the Large Catechism -- 'put yourself into this YOU, that He may not speak to you in vain'
@@ -25,8 +25,9 @@ sources:
   locus: the Small Catechism -- 'the words, "for you" demand a heart that fully believes'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'the words of the Lord's Supper clearly testify... this is My
-    body, which is given for you'
+  locus: >-
+    the Apology -- 'the words of the Lord's Supper clearly testify... this is My body, which is given
+    for you'
   license: public-domain
 retrieval:
   tier: 2
@@ -45,8 +46,9 @@ relations:
   target: witt.term.worthy-unworthy
 - type: associated-with
   target: witt.term.sacrament
-plain_meaning: 'These two words carry the whole benefit of the Supper: forgiveness given for you, personally.
-  They demand a heart that actually believes them.'
+plain_meaning: >-
+  These two words carried the whole gift of the Supper: forgiveness given to you. They asked for a heart
+  that believed them.
 world_word: '''given for you'' -- the sacrament''s whole benefit in two words'
 false_friend:
 - '''for you'' heard as a bare liturgical formula rather than an address demanding belief'
@@ -61,7 +63,7 @@ senses:
     collapsed into two words.
   translational: Do not hear 'for you' as a liturgical formula; we mean the moment the promise becomes
     yours, demanding a heart that believes it.
-quick_meaning: 'Two words. They carry the Supper''s whole benefit: forgiveness, given for you.'
+quick_meaning: 'Two words that carried the Supper''s whole gift: forgiveness, given for you.'
 distortion_risk: high
 use_note:
   means: "'Given for you' meant the two words carrying the Supper's whole benefit, forgiveness addressed to each person and calling for a heart that believes them."

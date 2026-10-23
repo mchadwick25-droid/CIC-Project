@@ -18,8 +18,7 @@ confidence:
     only inside a transmission claim.
 sources:
 - source_id: pahc.source.athanasius-festal-39
-  locus: >-
-    Festal Letter XXXIX, section 7 (npnf204, file line 68714)
+  locus: Festal Letter XXXIX, section 7 (npnf204, file line 68817)
   license: public-domain
 text: >-
   But for greater exactness I add this also, writing of necessity; that there are other books
@@ -28,14 +27,12 @@ text: >-
   and the Wisdom of Sirach, and Esther, and Judith, and Tobit, and that which is called the
   Teaching of the Apostles, and the Shepherd. But the former, my brethren, are included in the
   Canon, the latter being [merely] read; nor is there in any place a mention of apocryphal writings.
-modern_rendering: >-
-  But for greater exactness, I add this too, though I write it only because I must: there
-  are other books, besides these, not included in the Canon. The Fathers appointed them to
-  be read by those who newly join us and want instruction in the word of godliness. These
-  are the Wisdom of Solomon, the Wisdom of Sirach, Esther, Judith, Tobit, the book called
-  the Teaching of the Apostles, and the Shepherd. But the earlier books, my brothers, are
-  included in the Canon. The later ones are only read. Nowhere is there any mention of
-  apocryphal writings.
+modern_rendering: I add this too, to be more exact, and I write it because I must. There are other books
+  besides these. They are not in the Canon. But the Fathers appointed them to be read by those who newly
+  join us and want teaching in the word of godliness. These are the Wisdom of Solomon, the Wisdom of Sirach,
+  Esther, Judith, Tobit, the book called the Teaching of the Apostles, and the Shepherd. But the books
+  I listed first, my brothers, are in the Canon. These others are only read. And nowhere is there any
+  mention of apocryphal writings.
 speaker_or_author: Athanasius of Alexandria, in his Festal Letter of 367
 license: verbatim
 modern_lens_note: >-
