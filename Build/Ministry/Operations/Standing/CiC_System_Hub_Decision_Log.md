@@ -6867,3 +6867,7 @@ Raised by the `lpc` build thread. For `lpc` the project lead ruled (lpc Decision
 ## 2026-10-23 - Proposal (not ruled): lexicon tags at the candidate stage
 
 Raised by the `lpc` build thread (`lpc` OG-29). For `lpc` the project lead accepted the world's route (lpc Decision Log, 2026-10-23, "Lexicon tags at the candidate stage"): Part II tags may be applied in Doc_03, and a [CT] term may wait for its Contest Type provided Doc_06 supplies it. Imperial-Juridical deferred all tags to Step 6. Whether one rule should hold fleet-wide is a governance decision for the project lead; until he rules, each world's route stands.
+
+## 2026-10-23 - Proposal (not ruled): concession against interest as an Article 20 against-the-grain reading
+
+Raised by the `lpc` build thread (`lpc` OG-35). For `lpc` the project lead confirmed (lpc Decision Log, 2026-10-23, "Article 20 against-the-grain condition and Letter CXXVI") that a writer's concession against his own interest, in personal correspondence, satisfies Article 20's against-the-grain condition, bounded and at Inferential-Thin confidence. Article 20's gloss names only polemic and prohibition. Whether the reading holds fleet-wide is a methodology decision for the project lead; until he rules, no other world relies on it.
