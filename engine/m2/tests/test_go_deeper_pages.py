@@ -320,7 +320,7 @@ def test_the_privacy_page_go_deeper_words_read_at_the_target_level_and_name_no_m
     assert score_turn(text).passed, score_turn(text).failures
     assert not re.search(r"[$€£]|\d+\s*%", text)
     assert "30 days" in text and "14 more days" in text and "90 days" in text
-    assert "sells nothing" in text and "any payment" in text
+    assert "nothing here is for sale" in text and "any payment" in text
     assert "only a count of each answer" in text and "not linked to you or to your code" in text
     assert "network address" in text and "scrambled" in text
 

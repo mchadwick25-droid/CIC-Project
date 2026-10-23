@@ -7,8 +7,7 @@ import subprocess
 from pathlib import Path
 
 from engine.api.deeper_ops import load_ops
-from engine.deeper import tokens
-from engine.m2.tests.test_go_deeper_pages import NUMBER_WORDS, _text_of
+from engine.m2.tests.test_go_deeper_pages import _text_of
 from engine.m7.turn_readability import score_turn
 
 REPO = Path(__file__).resolve().parents[3]
@@ -82,8 +81,7 @@ def test_the_figures_are_the_pilot_packs_in_the_operations_file():
     pack = next(p for p in ops.packs if p.price_usd == ops.pilot_pack_usd)
     html = PAGE.read_text()
     assert re.search(r'data-ops="pilot-tokens">' + f"{pack.tokens:,}" + "<", html)
-    words = re.search(r'data-ops="pilot-conversations">([a-z-]+)<', html).group(1)
-    assert words == NUMBER_WORDS[pack.tokens // tokens.conversation_cost(ops.rates, ops.rates.example_rounds)]
+    assert "pilot-conversations" not in html
 
 
 def test_the_pilots_one_end_date_on_the_page_is_the_operations_files():
