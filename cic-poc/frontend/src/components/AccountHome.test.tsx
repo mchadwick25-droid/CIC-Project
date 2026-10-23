@@ -49,7 +49,7 @@ describe('with accounts off', () => {
     render(<GoDeeperPanel />);
     fireEvent.click(screen.getByRole('button', { name: 'Get more conversations' }));
     expect(screen.queryByText('Keep your conversations')).not.toBeInTheDocument();
-    expect(calls).toHaveLength(0);
+    expect(calls.filter((call) => call.path !== '/api/deeper/free')).toHaveLength(0);
   });
 
   it('shows nothing when the server has no accounts', async () => {

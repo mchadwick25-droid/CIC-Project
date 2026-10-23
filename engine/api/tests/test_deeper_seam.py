@@ -587,6 +587,18 @@ def test_a_free_visitor_is_told_their_free_tokens_left_and_a_code_holder_is_not(
     assert "x-cic-free-left" not in reply.headers and "x-cic-remaining" in reply.headers
 
 
+def test_the_free_count_can_be_read_before_any_reply(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    window = runtime.free.window_amount
+    fresh = http.get("/api/deeper/free")
+    assert fresh.status_code == 200 and fresh.json() == {"free_left": window}
+    assert fresh.headers["cache-control"] == "no-store"
+    assert "set-cookie" not in fresh.headers
+    session_id, auth = open_session(http)
+    say(http, session_id, auth, "hello")
+    assert http.get("/api/deeper/free").json() == {"free_left": window - solo_charge(runtime, 1)}
+
+
 def test_the_stream_gives_the_free_count_in_its_final_event(store, usage_store, world_loader, registry, runtime):
     http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime, streaming_enabled=True)
     session_id, auth = open_session(http)
