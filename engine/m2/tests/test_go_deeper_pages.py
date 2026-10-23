@@ -78,7 +78,7 @@ def test_each_page_reads_at_the_target_level(page):
 
 
 def _without_pack_figures(html: str) -> str:
-    return re.sub(r'\$<span data-ops="pack-\d-price">\d+</span>', "<span>", html)
+    return re.sub(r'\$<span data-ops="pack-\d-price">[\d.]+</span>', "<span>", html)
 
 
 @pytest.mark.parametrize("page", PAGES)
@@ -96,7 +96,7 @@ def _ops_figures() -> dict:
         "free-tokens": rates.free_window,
     }
     for n, pack in enumerate(ops.packs, start=1):
-        figures[f"pack-{n}-price"] = pack.price_usd
+        figures[f"pack-{n}-price"] = f"{pack.price_usd}.00"
         figures[f"pack-{n}-tokens"] = pack.tokens
     return figures
 
@@ -106,8 +106,8 @@ NUMBER_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 
 
 def test_every_figure_on_the_go_deeper_page_is_the_one_in_the_operations_file():
     html = (SITE / "go-deeper.html").read_text()
-    found = dict(re.findall(r'data-ops="([a-z0-9-]+)">([\d,]+)<', html))
-    expected = {key: f"{value:,}" for key, value in _ops_figures().items()}
+    found = dict(re.findall(r'data-ops="([a-z0-9-]+)">([\d,.]+)<', html))
+    expected = {key: value if isinstance(value, str) else f"{value:,}" for key, value in _ops_figures().items()}
     assert found == expected
 
 
@@ -126,7 +126,7 @@ def test_each_pack_card_shows_its_price_and_tokens_and_a_choose_button():
     html = (SITE / "go-deeper.html").read_text()
     for n, pack in enumerate(ops.packs, start=1):
         figures = re.search(rf'id="pack-{n}-figures">(.*?)</div>', html, re.S).group(1)
-        assert re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", figures)).strip() == f"${pack.price_usd} {pack.tokens:,} tokens"
+        assert re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", figures)).strip() == f"${pack.price_usd}.00 More conversations: {pack.tokens:,} tokens"
         assert re.search(rf'<button[^>]*id="buy-pack-{n}"[^>]*aria-labelledby="buy-pack-{n} pack-{n}-figures"[^>]*hidden>Choose</button>', html)
 
 
