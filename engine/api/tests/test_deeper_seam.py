@@ -368,21 +368,16 @@ def limit_setup(name, store, usage_store, world_loader, registry, runtime, clien
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         session_id, auth = open_session(http, **{"X-Cic-Code": code_with(runtime, 500)})
     elif name == "paid_round_cap":
-        runtime.token_rates = dataclasses.replace(runtime.token_rates, free_rounds=1)
-        runtime.paid_round_cap = 1
+        runtime.paid_round_cap = FREE_CAP
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         session_id, auth = open_session(http, **{"X-Cic-Code": code_with(runtime, 5000)})
-        assert say(http, session_id, auth, "q0").status_code == 200
+        for i in range(FREE_CAP):
+            assert say(http, session_id, auth, f"q{i}").status_code == 200
     elif name == "observe_closed":
         runtime.door_observe = True
         runtime.door = StubDoor(free_voice=False, paid_voice=False)
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         session_id, auth = open_session(http)
-    elif name == "free_rounds_done":
-        runtime.token_rates = dataclasses.replace(runtime.token_rates, free_rounds=1)
-        http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
-        session_id, auth = open_session(http)
-        assert say(http, session_id, auth, "q0").status_code == 200
     else:
         raise AssertionError(name)
     return http, session_id, auth
@@ -390,7 +385,7 @@ def limit_setup(name, store, usage_store, world_loader, registry, runtime, clien
 
 LIMITS = [
     "free_cap", "zero_balance", "expired_tester", "paused", "wrong_code", "module_error",
-    "free_allowance_spent", "free_rounds_done", "door_free_closed", "door_paid_closed", "paid_round_cap",
+    "free_allowance_spent", "door_free_closed", "door_paid_closed", "paid_round_cap",
 ]
 SAFETY_LIMITS = [*LIMITS, "observe_closed"]
 SAFETY = [
@@ -976,14 +971,25 @@ def run_free_conversation(http, rounds, **headers):
     return session_id, auth, replies
 
 
-def test_a_free_solo_conversation_stops_after_three_rounds_and_says_why(store, usage_store, world_loader, registry, runtime, shipped_caps):
+def test_a_free_solo_conversation_runs_to_the_engines_round_cap_and_says_why(store, usage_store, world_loader, registry, runtime, shipped_caps):
     client = RecordingClient()
     http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
-    _, _, replies = run_free_conversation(http, 4)
-    assert [r.json()["voice"] is not None for r in replies] == [True, True, True, False]
-    assert replies[3].json()["routing_action"] == "session_cap_turn"
-    assert replies[3].json()["limit_note"]["key"] == "no_code"
-    assert len(client.voice_requests) == 3
+    rounds = SHIPPED_SESSION_TURN_CAP
+    _, _, replies = run_free_conversation(http, rounds + 1)
+    assert [r.json()["voice"] is not None for r in replies] == [True] * rounds + [False]
+    assert replies[rounds].json()["routing_action"] == "session_cap_turn"
+    assert replies[rounds].json()["limit_note"]["key"] == "no_code"
+    assert len(client.voice_requests) == rounds
+    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_window - solo_charge(runtime, 1, rounds)
+
+
+def test_only_the_free_tokens_end_a_free_conversation_before_the_engines_cap(store, usage_store, world_loader, registry, runtime, shipped_caps):
+    client = RecordingClient()
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+    runtime.free = FreeAllowance(runtime.meter, solo_charge(runtime, 1, 6))
+    _, _, replies = run_free_conversation(http, 8)
+    assert [r.json()["voice"] is not None for r in replies] == [True] * 6 + [False] * 2
+    assert replies[6].json()["limit_note"]["key"] == "no_code"
 
 
 def test_with_the_module_off_a_conversation_still_runs_to_the_engines_own_cap(store, usage_store, world_loader, registry, shipped_caps):
@@ -1011,16 +1017,17 @@ def test_five_free_conversations_use_the_free_window_and_a_sixth_is_refused_unti
     assert carried.headers["x-cic-remaining"] == "0"
 
 
-def test_a_code_carries_a_conversation_past_its_third_free_round_at_the_later_price(
+def test_a_code_carries_a_conversation_past_the_engines_free_cap_at_the_later_price(
     store, usage_store, world_loader, registry, runtime, shipped_caps
 ):
     http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    free_rounds = SHIPPED_SESSION_TURN_CAP
     spare = 7
-    code = code_with(runtime, solo_charge(runtime, 4, 5) + spare)
-    _, _, replies = run_free_conversation(http, 5, **{"X-Cic-Code": code})
+    code = code_with(runtime, solo_charge(runtime, free_rounds + 1, free_rounds + 2) + spare)
+    _, _, replies = run_free_conversation(http, free_rounds + 2, **{"X-Cic-Code": code})
     assert all(r.json()["voice"] is not None for r in replies)
     assert runtime.meter.status(code).remaining == spare
-    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_window - solo_charge(runtime, 1, 3)
+    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_window - solo_charge(runtime, 1, free_rounds)
 
 
 def test_a_failed_voice_call_gives_the_free_tokens_back(store, usage_store, world_loader, registry, runtime, shipped_caps):
@@ -1111,9 +1118,10 @@ def test_the_door_limits_free_solo_rounds_but_never_raises_the_free_paths_own_ca
     _, _, replies = run_free_conversation(http, 3)
     assert [r.json()["voice"] is not None for r in replies] == [True, True, False]
     runtime.free = FreeAllowance(runtime.meter, runtime.token_rates.free_window)
-    runtime.door = StubDoor(solo_free_rounds=9)
-    _, _, replies = run_free_conversation(http, 4)
-    assert [r.json()["voice"] is not None for r in replies] == [True, True, True, False]
+    runtime.door = StubDoor(solo_free_rounds=99)
+    cap = SHIPPED_SESSION_TURN_CAP
+    _, _, replies = run_free_conversation(http, cap + 1)
+    assert [r.json()["voice"] is not None for r in replies] == [True] * cap + [False]
 
 
 def test_a_code_carries_a_conversation_the_door_has_stopped_for_free(store, usage_store, world_loader, registry, runtime, shipped_caps):
@@ -1295,7 +1303,7 @@ def test_a_fault_with_the_door_open_leaves_the_free_grant_as_it_was(runtime, mon
         raise RuntimeError("free day down")
 
     monkeypatch.setattr(runtime.free, "reserve", down)
-    assert _grant_for(runtime, code=None, completed=1).cap == runtime.token_rates.free_rounds
+    assert _grant_for(runtime, code=None, completed=1).cap == SHIPPED_SESSION_TURN_CAP
 
 
 # ---- the standing measure counts each refused turn once, by its reason ----------------------
@@ -1315,7 +1323,7 @@ def _refusals(runtime) -> dict:
 
 
 def test_a_turn_with_no_code_past_the_free_rounds_counts_once(runtime):
-    _turn(runtime, code=None, completed=runtime.token_rates.free_rounds)
+    _turn(runtime, code=None, completed=SHIPPED_SESSION_TURN_CAP)
     assert _refusals(runtime) == {"free_rounds_done": 1}
 
 
@@ -1338,7 +1346,7 @@ def test_a_code_the_last_stage_refuses_counts_as_the_paid_door(runtime):
 
 
 def test_a_code_without_enough_tokens_counts_as_too_few_or_spent(runtime):
-    _turn(runtime, code=code_with(runtime, 5), completed=runtime.token_rates.free_rounds)
+    _turn(runtime, code=code_with(runtime, 5), completed=SHIPPED_SESSION_TURN_CAP)
     assert sum(_refusals(runtime).values()) == 1 and set(_refusals(runtime)) <= {"too_few", "spent"}
 
 
@@ -1351,7 +1359,7 @@ def test_a_turn_is_counted_when_it_ends_not_when_it_is_decided(runtime):
     from engine.api.deeper_admission import Admission
 
     admission = Admission(runtime, None, free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
-    admission.provider(runtime.token_rates.free_rounds)
+    admission.provider(SHIPPED_SESSION_TURN_CAP)
     assert _refusals(runtime) == {}
     admission.finish(False)
     admission.finish(False)
@@ -1367,26 +1375,28 @@ def test_a_refusal_that_cannot_be_counted_still_reports_what_the_code_has_left(r
     monkeypatch.setattr(runtime.meter, "measure", down)
     code = code_with(runtime, 5)
     admission = Admission(runtime, code, free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
-    admission.provider(runtime.token_rates.free_rounds)
+    admission.provider(SHIPPED_SESSION_TURN_CAP)
     assert admission.finish(False) == 5
 
 
 # ---- the paid conversation's round cap -----------------------------------------------------
 
 def test_a_paid_conversation_stops_at_its_round_cap_and_spends_nothing(runtime):
-    runtime.paid_round_cap = 5
+    cap = SHIPPED_SESSION_TURN_CAP + 2
+    runtime.paid_round_cap = cap
     code = code_with(runtime, 5000)
     before = runtime.meter.status(code).remaining
-    grant = _turn(runtime, code=code, completed=5)
-    assert grant.cap <= 5 and grant.limit_text is not None
+    grant = _turn(runtime, code=code, completed=cap)
+    assert grant.cap <= cap and grant.limit_text is not None
     assert runtime.meter.status(code).remaining == before
     assert _refusals(runtime) == {"paid_round_cap": 1}
 
 
 def test_a_paid_conversation_below_its_cap_is_carried(runtime):
-    runtime.paid_round_cap = 5
+    cap = SHIPPED_SESSION_TURN_CAP + 2
+    runtime.paid_round_cap = cap
     code = code_with(runtime, 5000)
-    assert _turn(runtime, code=code, completed=4).cap == 5
+    assert _turn(runtime, code=code, completed=cap - 1).cap == cap
     assert _refusals(runtime) == {}
 
 
@@ -1396,18 +1406,18 @@ def test_no_cap_leaves_a_long_paid_conversation_alone(runtime):
     assert _turn(runtime, code=code, completed=60).cap == 61
 
 
-def test_the_shipped_cap_is_provisional_and_at_least_the_free_rounds():
+def test_the_shipped_cap_is_provisional_and_above_the_engines_free_cap():
     ops = load_ops()
     assert ops.paid_round_cap_provisional is True
-    assert ops.paid_round_cap > ops.rates.free_rounds
+    assert ops.paid_round_cap > SHIPPED_SESSION_TURN_CAP
 
 
 def test_the_round_cap_refusal_gets_the_facilitator_and_no_new_words(runtime):
-    runtime.paid_round_cap = 3
+    runtime.paid_round_cap = SHIPPED_SESSION_TURN_CAP + 2
     from engine.api.deeper_admission import Admission
 
     admission = Admission(runtime, code_with(runtime, 5000), free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
-    grant = admission.provider(3)
+    grant = admission.provider(SHIPPED_SESSION_TURN_CAP + 2)
     assert grant.limit_text == runtime.ops.limit_text
     assert admission.limit_note("session_cap_turn") is None
 
@@ -1505,7 +1515,7 @@ def test_a_second_finish_does_not_count_an_observed_turn_again(runtime):
 
 def test_a_turn_with_no_code_past_the_cap_is_not_counted_as_the_paid_cap(runtime):
     runtime.paid_round_cap = 3
-    _turn(runtime, code=None, completed=runtime.token_rates.free_rounds + 5)
+    _turn(runtime, code=None, completed=SHIPPED_SESSION_TURN_CAP + 5)
     assert "paid_round_cap" not in _refusals(runtime)
     assert sum(_refusals(runtime).values()) == 1
 

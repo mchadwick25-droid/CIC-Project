@@ -1057,7 +1057,7 @@ def test_a_grant_id_cannot_be_used_by_a_purchase_or_the_wrong_source(minting):
 def test_status_shows_the_live_day_read_only(http, minting):
     body = http.get("/api/admin/deeper/status", headers=admin()).json()
     assert body["paused"] is False and body["door"] is None
-    assert body["free_grant"] == {"baseline_tokens": 550, "window_days": 30, "rounds_per_conversation": 3, "now_tokens": 550}
+    assert body["free_grant"] == {"baseline_tokens": 550, "window_days": 30, "now_tokens": 550}
     assert [p["price_usd"] for p in body["packs"]] == [7, 15, 30]
     assert body["mint_limits"] == {"tokens_per_request": 6600, "tokens_per_day": 13200}
     assert http.get("/api/admin/deeper/status").status_code == 404

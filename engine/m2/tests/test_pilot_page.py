@@ -83,7 +83,7 @@ def test_the_figures_are_the_pilot_packs_in_the_operations_file():
     html = PAGE.read_text()
     assert re.search(r'data-ops="pilot-tokens">' + f"{pack.tokens:,}" + "<", html)
     words = re.search(r'data-ops="pilot-conversations">([a-z-]+)<', html).group(1)
-    assert words == NUMBER_WORDS[pack.tokens // tokens.conversation_cost(ops.rates, ops.rates.free_rounds)]
+    assert words == NUMBER_WORDS[pack.tokens // tokens.conversation_cost(ops.rates, ops.rates.example_rounds)]
 
 
 def test_the_pilots_one_end_date_on_the_page_is_the_operations_files():
