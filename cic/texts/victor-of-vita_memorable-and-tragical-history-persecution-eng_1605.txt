@@ -5,9 +5,7 @@ Publisher: England, printed with licence by the English secret press, 1605
 Rights: Public Domain
 Rights basis: 1605 publication, out of US copyright by date; the item carries no copyright field of
     its own, so the imprint date is the basis, read directly 2026-10-23.
-Source: Internet Archive item bim_early-english-books-1475-1640_the-memorable-and-
-    tragic_victor-bp-of-vita_1605 (archive.org/details/bim_early-english-
-    books-1475-1640_the-memorable-and-tragic_victor-bp-of-vita_1605), fetched directly
+Source: Internet Archive item bim_early-english-books-1475-1640_the-memorable-and-tragic_victor-bp-of-vita_1605 (archive.org/details/bim_early-english-books-1475-1640_the-memorable-and-tragic_victor-bp-of-vita_1605), fetched directly
     (curl, raw bytes) from the item's own _djvu.txt full-text file, 2026-10-23, Library
     thread (Era III).
 Provenance note: Raw, uncorrected djvu OCR (rough (microfilm scan, long s)). Runs of 2+ spaces

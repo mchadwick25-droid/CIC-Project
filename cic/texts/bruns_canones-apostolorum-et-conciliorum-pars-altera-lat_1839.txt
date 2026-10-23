@@ -12,11 +12,9 @@ Source: Internet Archive item canonesapostolo01brungoog
 Provenance note: Raw, uncorrected djvu OCR (rough). Runs of 2+ spaces collapsed to one; no wording
     changed. Sections: councils in order (Agde, Orange II at raw line ~13557, Epaon,
     Orleans, Macon, Tours II, Clermont II; Braga I-III, Seville I-II, Saragossa, Lerida,
-    Valencia, Huesca, Barcelona, Merida, Tarragona, Narbonne). Credit line for a reader-
-    facing page: "Canones apostolorum et conciliorum, pars altera, ed. H. T. Bruns
+    Valencia, Huesca, Barcelona, Merida, Tarragona, Narbonne). Credit line for a reader-facing page: "Canones apostolorum et conciliorum, pars altera, ed. H. T. Bruns
     (Reimer, 1839)". Whole text republishable.
-Content note: The second part of the Bruns canon collection whose first part is vendored as codex-
-    canonum-ecclesiae-africanae_bruns-pars1-1839.txt; it carries the Gallic councils of
+Content note: The second part of the Bruns canon collection whose first part is vendored as codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt; it carries the Gallic councils of
     Agde, Orange and Orleans and the Spanish councils outside Toledo. No public-domain
     English exists.
 

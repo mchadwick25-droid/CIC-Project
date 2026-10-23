@@ -2425,8 +2425,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: >-
       Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      PR's own already-located acquisition; source and rights independently re-confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
     vendored_as: "cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681.txt"
@@ -2460,8 +2459,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: >-
       Claude (tech-readiness build thread): re-vendored from a stale, unmerged
-      PR's own already-located acquisition; source and rights independently re-
-      confirmed against archive.org directly for a representative sample of this
+      PR's own already-located acquisition; source and rights independently re-confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
     vendored_as: "john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
@@ -2740,8 +2738,7 @@ queue:
     year: 1896
     world: "byzantine-imperial-church-justinianic"
     why: >
-      Found by the Era III Library pass (2026-10-16): Procopius's Anecdota in a public-
-      domain English rendering, the only insider account of Justinian's and Theodora's
+      Found by the Era III Library pass (2026-10-16): Procopius's Anecdota in a public-domain English rendering, the only insider account of Justinian's and Theodora's
       household; nothing by Procopius was vendored before this pass.
     url: "https://www.gutenberg.org/ebooks/12916"
     rights_basis: pd-us-by-date
@@ -2773,8 +2770,7 @@ queue:
     year: 1914
     world: "byzantine-imperial-church-justinianic"
     why: >
-      Era III Library pass (2026-10-16): the court historian of Justinian's reign in public-
-      domain English; I.19-20 is also the main outside witness for Nubia and Aksum, I.12 for
+      Era III Library pass (2026-10-16): the court historian of Justinian's reign in public-domain English; I.19-20 is also the main outside witness for Nubia and Aksum, I.12 for
       Christian Iberia.
     url: "https://www.gutenberg.org/ebooks/16764"
     rights_basis: pd-us-by-date
@@ -11984,8 +11980,7 @@ queue:
     year: 1910
     world: "nicene-visigothic-iberia"
     why: >
-      Era III Library pass (2026-10-23): the Visigothic kingdom's law in complete public-
-      domain English.
+      Era III Library pass (2026-10-23): the Visigothic kingdom's law in complete public-domain English.
     url: "https://archive.org/details/cu31924072483419"
     rights_basis: pd-us-by-date
     verified_by: >-

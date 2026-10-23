@@ -14,8 +14,7 @@ Source: Internet Archive item A28009301 (archive.org/details/A28009301), fetched
 Provenance note: Raw, uncorrected djvu OCR (readable). Runs of 2+ spaces collapsed to one; no wording
     changed. Sections: councils in order; the Third Council of Toledo with the king's
     statement of faith, the confession and signatures of the former Homoian Gothic bishops
-    (raw lines ~36800-37142) and the twenty-three anathemas. Credit line for a reader-
-    facing page: "Collectio canonum Ecclesiae Hispanae (Madrid, 1808)". Whole text
+    (raw lines ~36800-37142) and the twenty-three anathemas. Credit line for a reader-facing page: "Collectio canonum Ecclesiae Hispanae (Madrid, 1808)". Whole text
     republishable.
 Content note: The complete Toledo III acts, including what the Bruns edition leaves out: Reccared's
     statement of faith, the Gothic bishops' confession and the signatures of Ugnas,

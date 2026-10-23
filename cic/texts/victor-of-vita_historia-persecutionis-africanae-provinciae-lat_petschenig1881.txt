@@ -14,8 +14,7 @@ Provenance note: Raw, uncorrected djvu OCR (Latin readable). Runs of 2+ spaces c
     line for a reader-facing page: "Victor of Vita, Historia persecutionis, ed. M.
     Petschenig, CSEL 7 (1881)". Whole text republishable.
 Content note: The Catholic bishop's account of the Vandal persecution, preserving Huneric's edicts
-    and the Homoian patriarch Cyrila's words. This is the existing download-queue row, re-
-    verified. An English translation of 1605 (secret press) is vendored separately;
+    and the Homoian patriarch Cyrila's words. This is the existing download-queue row, re-verified. An English translation of 1605 (secret press) is vendored separately;
     Moorhead 1992 is in copyright.
 
 Google 

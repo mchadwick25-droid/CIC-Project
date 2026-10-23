@@ -12,8 +12,7 @@ Source: Internet Archive item ritualearmenorum00cony
     the item's own _djvu.txt full-text file, 2026-10-23, Library thread (Era III).
 Provenance note: Raw, uncorrected djvu OCR (English readable, Armenian and Greek garbled). Runs of 2+
     spaces collapsed to one; no wording changed. Sections: rites by title; Appendix II,
-    the Old Armenian Lectionary (English, around raw line ~679). Credit line for a reader-
-    facing page: "Rituale Armenorum, ed. F. C. Conybeare (Clarendon Press, 1905)". Whole
+    the Old Armenian Lectionary (English, around raw line ~679). Credit line for a reader-facing page: "Rituale Armenorum, ed. F. C. Conybeare (Clarendon Press, 1905)". Whole
     text republishable.
 Content note: The manuscripts are later than the window; the Old Armenian Lectionary reflects the
     Jerusalem rite of the 5th century as the Armenian church received it. Every use needs

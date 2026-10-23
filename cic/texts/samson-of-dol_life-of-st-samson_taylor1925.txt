@@ -12,8 +12,7 @@ Source: Internet Archive item lifeofstsamsonof00sams
     (archive.org/details/lifeofstsamsonof00sams), fetched directly (curl, raw bytes) from
     the item's own _djvu.txt full-text file, 2026-10-23, Library thread (Era III).
 Provenance note: Raw, uncorrected djvu OCR (English good). Runs of 2+ spaces collapsed to one; no
-    wording changed. Sections: prologue, books and chapters. Credit line for a reader-
-    facing page: "The Life of St. Samson of Dol, tr. T. Taylor (SPCK, 1925)". Whole text
+    wording changed. Sections: prologue, books and chapters. Credit line for a reader-facing page: "The Life of St. Samson of Dol, tr. T. Taylor (SPCK, 1925)". Whole text
     republishable.
 Content note: A British bishop-monk from Wales (Llantwit under Illtud) who founded Dol in Brittany;
     the Life names Iltut and Llantwit (raw lines ~297, ~437). The Life's date is Contested

@@ -8,15 +8,12 @@ Creator: John Moschus (c. 550-619); Sophronius of Jerusalem (c. 560-638); Procop
 Publisher: Paris: Migne, Patrologia Graeca vol. 87 part 3, 1860
 Rights: Public Domain
 Rights basis: A Migne Patrologia Graeca printing of 1860, out of US copyright by date;
-    confirmed from the Internet Archive scan (identifier bim_early-english-books-1641-
-    1700_patrologiae-cursus-completus-_1860_88), per the original 2026-09-25 intake.
+    confirmed from the Internet Archive scan (identifier bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88), per the original 2026-09-25 intake.
 Language: grc (Greek with Latin; the Latin columns are what the OCR reads, the Greek is
     garbled - SECOND WITNESS ONLY)
 Source: Internet Archive item bim_early-english-books-1641-1700_patrologiae-cursus-completus-
-    _1860_88 (archive.org/details/bim_early-english-books-1641-1700_patrologiae-cursus-
-    completus-_1860_88), the item's own _djvu.txt full-text file, vendored 2026-09-25 by the
-    tech-readiness build thread under the name dorotheus-gaza_doctrinae-instructiones-grc-
-    lat_migne-pg88.txt; renamed 2026-10-16 by the Library thread (Era III) after its contents
+    _1860_88 (archive.org/details/bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88), the item's own _djvu.txt full-text file, vendored 2026-09-25 by the
+    tech-readiness build thread under the name dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt; renamed 2026-10-16 by the Library thread (Era III) after its contents
     were checked.
 Provenance note: CORRECTION OF RECORD, 2026-10-16. This file was vendored as "Dorotheus of
     Gaza, Doctrinae diversae, PG 88". It is not. The host's "Vol 88" counts physical volumes

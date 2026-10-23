@@ -28,8 +28,7 @@ Provenance note: Raw djvu OCR of a Migne double-column volume. The Latin is roug
   1860/1864)". Whole text republishable; a reader-facing page should present the
   Latin column and say the Greek is not recovered in this OCR.
 Content note: This is the real PG 88. The file previously vendored under Dorotheus's
-  name (now renamed john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-
-  pg87-3.txt) was PG 87 part 3 and contained no Dorotheus; see REGISTRY.yaml and the
+  name (now renamed john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt) was PG 87 part 3 and contained no Dorotheus; see REGISTRY.yaml and the
   Library decision log, 2026-10-16. Dorotheus's own instructions run under the
   running head "S. DOROTHEI ABBATIS"; the questions he put to Barsanuphius and John,
   with their replies, follow (around file line 139500 of the raw text), the only

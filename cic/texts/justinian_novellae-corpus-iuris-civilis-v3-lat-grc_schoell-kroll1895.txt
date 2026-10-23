@@ -2,8 +2,7 @@ Title: Corpus Iuris Civilis, volumen tertium: Novellae (Justinian's Novels, with
   Edicts and the Authenticum), recognovit Rudolfus Schoell, opus Schoellii morte
   interceptum absolvit Guilelmus Kroll
 Creator: Justinian I (emperor 527-565) (edited by Rudolf Schoell and Wilhelm Kroll)
-Publisher: Berlin: Weidmann, 1895 (the series Corpus Iuris Civilis, Mommsen-Krueger-
-  Schoell-Kroll, 1892-95)
+Publisher: Berlin: Weidmann, 1895 (the series Corpus Iuris Civilis, Mommsen-Krueger-Schoell-Kroll, 1892-95)
 Rights: Public Domain
 Rights basis: 1895 publication, out of US copyright by date; Internet Archive item
   metadata states possible-copyright-status NOT_IN_COPYRIGHT, read directly

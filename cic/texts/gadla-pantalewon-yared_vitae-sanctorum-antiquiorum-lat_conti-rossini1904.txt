@@ -11,8 +11,7 @@ Source: Internet Archive item vitaesanctoruman00cont
     (archive.org/details/vitaesanctoruman00cont), fetched directly (curl, raw bytes) from
     the item's own _djvu.txt full-text file, 2026-10-23, Library thread (Era III).
 Provenance note: Raw, uncorrected djvu OCR (Latin clean). Runs of 2+ spaces collapsed to one; no
-    wording changed. Sections: the two Lives, each by chapter. Credit line for a reader-
-    facing page: "Vitae sanctorum antiquiorum I, tr. C. Conti Rossini, CSCO Script. Aeth.
+    wording changed. Sections: the two Lives, each by chapter. Credit line for a reader-facing page: "Vitae sanctorum antiquiorum I, tr. C. Conti Rossini, CSCO Script. Aeth.
     II.17 (1904)". Whole text republishable.
 Content note: Pantalewon is one of the Nine Saints and, in his Life, the monk who urged King Kaleb
     to war over Najran (around raw line 1778). Both Lives are medieval compositions about

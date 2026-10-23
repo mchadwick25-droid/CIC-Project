@@ -126,7 +126,7 @@ works:
   confidence: provisional
   note: 'An ally''s history of the Egyptian anti-Chalcedonian party and its patriarchal succession.
     Tradition provisionally (John was a Syrian partisan of the same communion, not an Egyptian);
-    a build thread should decide tradition versus context. Tier 1 cross- link, Era III Library
+    a build thread should decide tradition versus context. Tier 1 cross-link, Era III Library
     pass, 2026-10-16.
 
     '
@@ -139,10 +139,10 @@ works:
   locus: the Synaxaire arabe section (raw file lines ~49000-64550)
   role: transmission
   confidence: provisional
-  note: 'Not John of Ephesus''s work: PO 17 binds Basset''s Coptic-Arabic Synaxarion (a 13th-
-    century compilation, French translation) after the Lives. Transmission of the Egyptian
-    church''s memory of its 5th-7th-century patriarchs; the author slug is the file''s, recorded
-    plainly. Era III Library pass, 2026-10-16.
+  note: 'Not John of Ephesus''s work: PO 17 binds Basset''s Coptic-Arabic Synaxarion (a 13th-century
+    compilation, French translation) after the Lives. Transmission of the Egyptian church''s
+    memory of its 5th-7th-century patriarchs; the author slug is the file''s, recorded plainly.
+    Era III Library pass, 2026-10-16.
 
     '
   source_file: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
@@ -380,7 +380,7 @@ works:
   locus: PO 2 fasc. 1, the first work in the volume
   role: tradition
   confidence: provisional
-  note: 'A fellow student''s memoir of Severus at Alexandria and Beirut and of the anti- Chalcedonian
+  note: 'A fellow student''s memoir of Severus at Alexandria and Beirut and of the anti-Chalcedonian
     circle of Gaza (Peter the Iberian''s disciples). Tradition for the West Syriac world;
     for Egypt and for the Judean-desert/Gaza entry it is the rival side''s own voice - context
     there, recorded under one row provisionally until each world''s build splits the role.
