@@ -1734,3 +1734,7 @@ Logged 2026-10-23 (Decision Log entry "Change order CO-LPC-1").
 - **For the Library thread:** the corpus map says "fourteen" acts of the 411 Conference where Registry row 65 says thirteen; Monceaux tome VII and the Council of Arles (314) canons have no Registry row.
 - **`citations lpc` (10 findings) and `records lpc` (19)** predate the change order; the records findings are spoken-scaffolding text in witness records. To be cleared in Phase L2.
 - **Owner.** The project lead for the route; the `lpc` build thread for the rest; the Library for its two items.
+
+### OG-51. Whole-sermon renderings, listening and research use: deferred by ruling (2026-10-23).
+
+Logged 2026-10-23 (Decision Log, "Sermon rendering scope: staged"). The room's quote-level renderings are built now. Whole-sermon renderings, and making the sermons available for listening and research, are deferred. Owner: the project lead decides when it starts; the format is designed with the library page; audio, if chosen, follows the paid bulk-run rule (sample first, approved by ear). Closes when the project lead starts or withdraws it.

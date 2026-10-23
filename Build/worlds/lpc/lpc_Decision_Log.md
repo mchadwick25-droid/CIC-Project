@@ -2501,3 +2501,11 @@ Alternatives shown: (1) leave `lpc_Decision_Log.md` (694 KB) in `Build/worlds/lp
 **Tool change.** `tools/check_live_commentary.py` now treats `*_Claims_Register.md` as a ledger, like `*_Superseded_Claims.md`, because the register must copy each claim's text verbatim; test added; 227 tests pass.
 
 **Left open** (OG-50).
+
+---
+
+### 2026-10-23 — Sermon rendering scope: staged (project lead's ruling)
+
+**Question.** The record schema (Redesign-Spec Artifact-1 §4) has no type for a whole sermon in modern English; only a quote's `modern_rendering` holds English text.
+**Alternatives shown.** (1) render what the room uses: every sermon read and categorized, each quotable passage a verbatim quote record with an Opus `modern_rendering`, no schema change; (2) render every sermon whole now, needing a new record type or a library data file; (3) staged: option 1 now, whole-sermon renderings later, batch by batch, into a library data file designed with the library page.
+**Chosen.** 3 (project lead, 2026-10-23, "3, but eventually we may make the sermons available for listening to and research, but not now"). Whole-sermon renderings, and any listening or research use of them, are later work; nothing for them is built now. When that work begins, its format is designed with the library page, and any audio is a paid bulk run under CLAUDE.md's sample-first rule.
