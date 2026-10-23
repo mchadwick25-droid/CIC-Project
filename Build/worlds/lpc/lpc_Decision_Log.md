@@ -2384,3 +2384,11 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 
 **Alternatives shown.** (1) Cap ruling: one change order for the corrections, then one targeted Opus recheck that does not count toward the cap; (2) treat the corrections as mechanical, no new review file; (3) redraft Doc_08.
 **Chosen.** Option 1 (project lead, 2026-10-23, "1"). The ruling is recorded in `CiC_System_Hub_Decision_Log.md`, entry "2026-10-23 - Cap ruling: lpc Doc_08", and names `Review-Artifacts/Doc_08_CapRuling_Recheck_Round10.md` as the covered file. Reason it is the most defensible: the wrong interval and the stale "unread" claim change a claim's substance, which the build-cycle skill calls substantial, so option 2 would self-certify; option 3 risks Doc_09 and the 17 force records the L0 check found consistent.
+
+---
+
+### 2026-10-23 — Doc_05 lens spine: crosswalk table (project lead's ruling)
+
+**Question.** Completion Standard V1.4 §F says Doc_05 and Doc_07 carry the seven-dimension spine; Doc_05 follows the older CF V7.4 Step 5 text and does not ask Narrative/Mythic, Ethical/Legal (required), Material (required) or Doctrinal as lenses (`Review-Artifacts/L0_Docs03-05-06-07_Recheck_2026-10-23.md`, section 2).
+**Alternatives shown.** (A) ruling or waiver, Doc_07's spine serves both; (B) a spine pass on Doc_05, about 1,500 to 2,000 words and the last review round under the cap; (C) a crosswalk table beside §0.7 mapping each dimension to the Doc_05 or Doc_07 section that answers it, with a one-line yield and the naming choice, about 300 words and one targeted recheck; (D) settle CF Step 5 against §F at portfolio level first.
+**Chosen.** C (project lead, 2026-10-23, "c"). The thread recommended C, as did the 2026-09-29 check. The crosswalk is a change to an approved document and goes through the change order with the OG-38 and OG-39 corrections; its targeted recheck is Doc_05's last round under the cap. The portfolio divergence between CF V7.4 Step 5 and V1.4 §F stays open for the System Hub.
