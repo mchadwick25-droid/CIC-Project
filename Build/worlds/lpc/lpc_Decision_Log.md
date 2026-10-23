@@ -2442,3 +2442,11 @@ Applied by the build thread under the project lead's ruling of 2026-09-16 ("Proj
 
 **Alternatives shown.** (1) set `living: true` in `cic-website/data/world-census.json`, matching the Article 29 ruling of 2026-09-16 and every other world whose registry flag is true; (2) keep `false` with a stated reason, leaving `lpc` the only world whose census and registry disagree.
 **Chosen.** 1 (project lead, 2026-10-23, "1"). One field edited. `python -m engine.m6.cli check` (the CI gate) passes. `atlas-check` (not run in CI) already reported drift on 11 worlds before this edit and now also reports `lpc`'s `living`; `atlas-sync` was not run, because it would rewrite other worlds' atlas entries (OG-42).
+
+---
+
+### 2026-10-23 — `lpcstory006` tier: read the Acta Proconsularia first (project lead's ruling, stop point 1 item 2; OG-7)
+
+**Finding put to him.** The story's Tier 3 justification rests on "this build has no independent witness, because the Acta is unread. Reading it would likely move this story to Tier 1." The Acta Proconsularia is now vendored in three Latin texts: `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt` (pp. CX to CXIV), `gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt` (no. XI, file line 6474), `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt` (no. 13, file line 4820). Not yet read for this story.
+**Alternatives shown.** (1) read the Acta at source, compare with Pontius detail by detail, and re-tier on that evidence by Doc_09 change order with an independent check; (2) rule the genre clause governs, Tier 3 stands; (3) rule the author test governs, Tier 1 now.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). The general question of which CF V7.4 Tier 3 clause governs stays open (OG-7); it no longer decides this story.
