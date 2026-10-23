@@ -1,0 +1,44 @@
+source_file: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908.txt
+
+assignments:
+  - row_id: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908--briefe-historie-of-the-glorious-martyrdom
+    work: "A Briefe Historie of the Glorious Martyrdom of Twelve Reverend Priests, Father Edmund Campion and His Companions (1582), with Henry Walpole's verses; Pollen's partial reprint"
+    author: allen-william
+    locus: "Pollen's introduction from file line 65; the Contents at 639; Allen's text from 'A TRUE REPORT OF THE DEATH' at file line 682 (Campion) through Ralph Sherwin (2682), Alexander Briant (3417), Luke Kirby (5141) and the later deaths (5438, 6121); Pollen's note on the illustrations at 7530"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Primary voice ready to quote once verified: the community's first martyrology,
+      written at Rheims within a year of the deaths from the reports of "such as were much
+      conversant with them in their life, and present at their arraignment and death"
+      (original title page, quoted in Pollen's introduction). Original 1582 spelling kept
+      by Pollen, punctuation supplemented, paragraphing his. PARTIAL: Pollen omitted
+      Campion's Latin letter, the Latin verses, Allen's long controversial Introduction and
+      the examinations of the martyrs (his introduction, section 7, file line about 576).
+  - row_id: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908--briefe-historie-of-the-glorious-martyrdom-2
+    work: "A Briefe Historie of the Glorious Martyrdom of Twelve Reverend Priests (1582)"
+    author: allen-william
+    locus: "file lines 682 to 7530; the Campion chapter 682 to 2682"
+    atlas_ids:
+      - the-society-of-jesus
+    role: context
+    confidence: provisional
+    note: >
+      The first account of Campion's death, by the secular priest who ran the seminary and
+      had sent him: an ally's account from outside the Society, not the Society's own
+      voice. Walpole's verses on Campion (by a future Jesuit, then a layman) are printed
+      here. Placed as context on that reading.
+  - row_id: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908--briefe-historie-of-the-glorious-martyrdom-3
+    work: "A Briefe Historie of the Glorious Martyrdom of Twelve Reverend Priests (1582)"
+    author: allen-william
+    locus: "file lines 682 to 7530"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      The Catholic answer to the Elizabethan state's claim that the priests died for
+      treason, not religion; a contemporary opponent's witness to the arraignments of
+      1581. Placed on window and place.

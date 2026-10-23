@@ -3,6 +3,19 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: armenian-christianity-after-avarayr
 works:
+- row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-3
+  work: 'The Church of Armenia (Ormanian; Gregory''s English translation, 1912): chapters
+    VII-X, the fifth and sixth centuries'
+  author: ormanian
+  locus: chapters VII-X (file lines 2101-2970), including the Council of Chalcedon and the
+    quarrels that followed
+  role: context
+  confidence: provisional
+  note: 'Placed on the chapter list (''The Council of Chalcedon'', ''A Succession of Quarrels'');
+    chapters not read.
+
+    '
+  source_file: ormanian_church-of-armenia_gregory1912.txt
 - row_id: timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908--timothy-aelurus-refutation-armenian
   work: Timothy Aelurus, Refutation of Chalcedon, Armenian text (1908)
   author: timothy-aelurus

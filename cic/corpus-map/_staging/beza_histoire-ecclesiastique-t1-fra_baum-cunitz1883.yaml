@@ -1,0 +1,47 @@
+source_file: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt
+
+assignments:
+  - row_id: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883--histoire-ecclesiastique-des-eglises-reformees-tome-premier
+    work: "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome premier, Livres I-IV"
+    author: beza
+    locus: "the 1580 title page and preface from file line 95; Livres I-IV follow, with the reign and book in the running heads; the first national synod of Paris (May 1559) and its Confession at lines 10569-11546"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      The French Reformed churches' own founding narrative, published
+      anonymously in 1580 and attributed to Beza by the editors and the
+      catalogue (the file's title page names no author; the attribution
+      is conventional, not read off the book). Covers the churches'
+      rise to 1561, including the 1559 synod. Second witness for exact
+      wording (f for long s in the OCR). No public-domain English
+      translation exists; Laval's 1737-41 Compendious History is an
+      English narrative drawn from it, not a translation.
+
+  - row_id: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883--histoire-ecclesiastique-des-eglises-reformees-tome-premier-2
+    work: "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome premier, Livres I-IV"
+    author: beza
+    locus: "whole volume"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      Compiled in Geneva under Beza's name from reports sent to Geneva by
+      the French churches; Geneva's own record of its mission field.
+      Placed on authorship and place; not read against the Reformed
+      Cities' own Doc_02.
+
+  - row_id: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883--servet-passages
+    work: 'Histoire ecclesiastique des eglises reformees, tome 1: the passages naming Servet'
+    author: beza
+    locus: file lines 1836 and 1861 to 1863 (the editors' note on Servet at Paris, citing Calvin's Opera
+      vol. VIII) and 10895 (Servet's Christology)
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: 'Beza''s history names Servetus twice. Read at the loci given; slight.
+
+      '

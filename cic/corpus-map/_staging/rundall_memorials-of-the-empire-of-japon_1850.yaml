@@ -1,0 +1,17 @@
+source_file: rundall_memorials-of-the-empire-of-japon_1850.txt
+
+assignments:
+  - row_id: rundall_memorials-of-the-empire-of-japon_1850--memorials-of-the-empire-of-japon-kingdome-of-japonia-and-letters-of-william-adams
+    work: "Memorials of the Empire of Japon: 'The Kingdome of Japonia' (Elizabethan description) and the Letters of William Adams, 1611-1617"
+    author: rundall
+    locus: "Rundall's Introduction from file line 1317; Part I 'The Kingdome of Japonia' from line 2767; Part II 'Letters of William Adams' from line 3391, letters numbered as printed; the Hakluyt Society report and member list before line 1209 are not the work"
+    atlas_ids:
+      - mission-born-christianities-kirishitan-japan-kon
+    role: context
+    confidence: assigned
+    note: >
+      An outside witness in English: the English pilot William Adams writing from Japan in
+      the years the prohibition tightened (1611-1617), and an Elizabethan description of Japan
+      drawn from Jesuit reports. Hostile to the Jesuits and Protestant in sympathy; useful
+      for the Japan strand's setting and for how the church looked to a trader, not a
+      convert voice. Rundall's notes quote Charlevoix in French. Clean OCR.

@@ -1,0 +1,17 @@
+source_file: bacci_life-of-st-philip-neri-v1_faber1847.txt
+assignments:
+- row_id: bacci_life-of-st-philip-neri-v1_faber1847--life-of-saint-philip-neri-vol-1
+  work: The Life of Saint Philip Neri, Apostle of Rome, and Founder of the Congregation of the Oratory,
+    Vol. 1 (Books I-III to Chapter VI)
+  author: bacci
+  locus: '"BOOK FIRST" at file line 613 (chapters from 632), "BOOK THE SECOND" at 5913, "BOOK THE THIRD"
+    at 14350, ending at Chapter VI (line 16389); the series prospectus and Google notice before line 613
+    are not Bacci'
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: assigned
+  note: The Oratory is one of the new bodies the census names. Bacci was a priest of Philip's Oratory
+    writing a devotional Life, so this is the Oratory's own account of its founder, in Faber's 1847 English.
+    Close hagiographic witness, not Philip's own words; quotes are Bacci's report of what Philip said.
+    Volume 1 only; the later books are not in the file. Clean scan.

@@ -1,4 +1,4 @@
-import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 const CODE = 'ABCD2345EFGH6789JKLM';
@@ -34,7 +34,7 @@ describe('GoDeeperPanel', () => {
     expect(screen.queryByRole('complementary')).not.toBeInTheDocument();
     openPanel();
     expect(screen.getByRole('complementary', { name: 'Get more conversations' })).toHaveTextContent(
-      'Tokens pay for each new conversation and each round. Add more any time. Your conversation stays open.'
+      'Every conversation starts free. You have 550 free tokens every 30 days: 50 to launch a new conversation, 20 to 25 for each question.'
     );
     fireEvent.keyDown(window, { key: 'Escape' });
     expect(screen.queryByRole('complementary')).not.toBeInTheDocument();
@@ -154,7 +154,7 @@ describe('GoDeeperPanel', () => {
     expect(await screen.findByText('90 tokens left')).toHaveClass('go-deeper__count--low');
     openPanel();
     expect(screen.getByText(/90 tokens left\. Your tokens are running low\./)).toBeInTheDocument();
-    fireEvent.click(screen.getByRole('button', { name: 'Get more tokens' }));
+    fireEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: 'Get more conversations' }));
     expect(open).toHaveBeenCalledWith('https://churchinconversation.com/go-deeper.html', 'cic-get-code', expect.any(String));
     vi.unstubAllGlobals();
   });
@@ -166,7 +166,7 @@ describe('GoDeeperPanel', () => {
     const { GoDeeperPanel } = await load(true);
     render(<GoDeeperPanel />);
     openPanel();
-    fireEvent.click(screen.getByRole('button', { name: 'Get more tokens' }));
+    fireEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: 'Get more conversations' }));
     expect(assign).toHaveBeenCalledWith('https://churchinconversation.com/go-deeper.html');
     vi.unstubAllGlobals();
   });

@@ -1,0 +1,30 @@
+source_file: telles_travels-of-the-jesuits-in-ethiopia_1710.txt
+assignments:
+- row_id: telles_travels-of-the-jesuits-in-ethiopia_1710--the-travels-of-the-jesuits-in-ethiopia-e
+  work: The Travels of the Jesuits in Ethiopia (English, 1710)
+  author: telles
+  locus: >-
+    Whole work; book headings at file line 9004 (BOOK I) and 14631 (BOOK III); the chapter table at 20593
+    onward
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: assigned
+  note: >-
+    English account of the Jesuit mission in Ethiopia, credited on its title page to Balthazar Tellez
+    (the host's other scan credits the underlying history to Manuel de Almeida). The Jesuit side of the
+    Susenyos story told for an English reader of 1710; not an Ethiopian voice. An English-language report
+    on the Jesuit mission, to be read beside Paez and Mendes in the Rerum Aethiopicarum volumes. The BIM
+    scan is readable; the long s was normalised.
+- row_id: telles_travels-of-the-jesuits-in-ethiopia_1710--the-travels-of-the-jesuits-in-ethiopia-e-2
+  work: The Travels of the Jesuits in Ethiopia (English, 1710)
+  author: telles
+  locus: Whole work
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: >-
+    The same account, read as the Jesuits' own mission narrative in Ethiopia. Placed on window and subject
+    without reading the whole; a mission history written about Jesuit work and attributed to a Jesuit
+    author.

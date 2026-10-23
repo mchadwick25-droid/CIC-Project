@@ -20,3 +20,23 @@ assignments:
       file, since it is primary to the movement regardless of language;
       the scan is clean, not flagged as garbled under the Library's own
       OCR-quality rule.
+
+  - row_id: borromeo_acta-ecclesiae-mediolanensis-lat_1599--acta-ecclesiae-mediolanensis-2
+    work: Acta Ecclesiae Mediolanensis
+    author: borromeo
+    locus: 'whole volume: the provincial councils (''PARS'' and council headings from file line 219) and
+      the diocesan synods (''SYNODVS DIOECESANA'' headings from file line 53653), the Instructiones (''INSTRVCTIONES''
+      headings at lines 75797, 75807, 103337, 105042, incl. the Instructiones fabricae et supellectilis
+      ecclesiasticae, ''De Ecclesiarum fabrica'' at line 20316 and the fabric instructions near 20994),
+      pastoral letters and edicts; Federico Borromeo''s 1599 dedication at the head is editorial'
+    atlas_ids:
+    - tridentine-parish-renewal-borromean-milan
+    role: tradition
+    confidence: assigned
+    note: 'This world''s own legislation: Borromeo''s provincial councils, diocesan synods, instructions
+      (confessors, preachers, church fabric and furnishings) and pastoral letters in the 1599 second edition.
+      The primary institutional voice of the Borromean reform, primary evidence in Latin. No English translation of any part exists in the public domain
+      (Voelker 1976 and Cihak-Santogrossi 2017 are in copyright; no 1857 Wigley translation of the fabric
+      instructions was found on archive.org).
+
+      '

@@ -28,3 +28,30 @@ works:
 
     '
   source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--dissertationes-i-v-on-the-apostolate-and-relics-of-st
+  work: Dissertationes I-V on the apostolate and relics of St. Thomas and the Malabar church
+  author: raulin
+  locus: Dissertatio III at line 24902, IV 26039, V 27672
+  role: context
+  confidence: provisional
+  note: Eighteenth-century Roman scholarship on the Thomas tradition; placed on subject, not
+    read through.
+  source_file: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt
+- row_id: vincenzo-maria_viaggio-indie-orientali-ita_1672--il-viaggio-all-indie-orientali-libro-secondo-the-christians-2
+  work: Il viaggio all'Indie Orientali, Libro Secondo (the Christians of St. Thomas)
+  author: vincenzo-maria
+  locus: Libro Secondo from about line 8750
+  role: antecedent
+  confidence: provisional
+  note: The book's chapters 1-3 give the Carmelites' version of the apostle tradition and
+    the history to 1599; placed on subject, not read through.
+  source_file: vincenzo-maria_viaggio-indie-orientali-ita_1672.txt
+- row_id: whitehouse_lingerings-of-light-in-a-dark-land_1873--lingerings-of-light-in-a-dark-land-chapters-i-ii-the-st
+  work: Lingerings of Light in a Dark Land, chapters I-II (the St. Thomas tradition)
+  author: whitehouse
+  locus: Chapters I-II, lines 327-2004
+  role: context
+  confidence: provisional
+  note: 'Placed on subject: the tradition that Thomas preached in India, argued by an Anglican
+    chaplain. Not read through.'
+  source_file: whitehouse_lingerings-of-light-in-a-dark-land_1873.txt

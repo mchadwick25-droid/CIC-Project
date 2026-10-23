@@ -208,17 +208,6 @@ def test_an_amount_below_one_is_refused(free, amount):
         free.reserve("v", amount)
 
 
-def test_a_share_narrows_the_window(free):
-    assert free.reserve("v", 300, share=0.5) is None
-    assert free.reserve("v", 275, share=0.5) is not None
-
-
-@pytest.mark.parametrize("share", [0, -0.5, 1.5])
-def test_a_share_outside_zero_to_one_is_refused(free, share):
-    with pytest.raises(ValueError):
-        free.reserve("v", 10, share=share)
-
-
 # ---- the network window ------------------------------------------------------
 
 NETWORK_WINDOW = 3 * WINDOW
@@ -248,7 +237,6 @@ def test_what_is_left_is_the_smaller_of_the_two_windows(meter):
         held = free.reserve(visitor, 500, network="n")
         free.settle(held, True)
     assert free.left("d", network="n") == NETWORK_WINDOW - 1500
-    assert free.left("d", 0.5, network="n") == 0, "half the network window is already drawn"
 
 
 def test_a_reservation_that_is_given_back_frees_both_windows(meter):

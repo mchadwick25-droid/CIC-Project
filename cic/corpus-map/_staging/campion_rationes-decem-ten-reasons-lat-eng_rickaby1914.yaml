@@ -1,0 +1,52 @@
+source_file: campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt
+
+assignments:
+  - row_id: campion_rationes-decem-ten-reasons-lat-eng_rickaby1914--rationes-decem-latin
+    work: "Rationes Decem (1581), the Latin text"
+    author: campion
+    locus: "heading 'RATIONES DECEM' at file line 1245 to the Translator's Preface at line 3631"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Primary original-language voice, ready to quote once verified against the scan
+      (OCR clean): Campion's challenge to the universities, printed on the secret press
+      at Stonor and scattered in St Mary's, Oxford, in June 1581 (Pollen's introduction).
+      The English translation is in the same file, below.
+  - row_id: campion_rationes-decem-ten-reasons-lat-eng_rickaby1914--ten-reasons-english
+    work: "Ten Reasons Proposed to His Adversaries for Disputation (Rickaby's English translation of the Rationes Decem), with Pollen's introduction, which prints Campion's English 'Challenge' to the Privy Council in full"
+    author: campion
+    locus: "Pollen's introduction from file line 105, with section 3 'The Challenge' at line 285 and the Challenge's own text from line 351; Rickaby's Translator's Preface at line 3631 and the translation from 'FIRST REASON' at line 3778 to the end"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Translation of the Latin row above (same file); and the Challenge ('Campion's
+      Brag', 1580), the one surviving piece of Campion's English from the mission, which
+      is primary in its own right. Pollen's and Rickaby's own prose is editorial, not the
+      world's voice.
+  - row_id: campion_rationes-decem-ten-reasons-lat-eng_rickaby1914--rationes-decem-latin-2
+    work: "Rationes Decem (1581), Latin text, with Rickaby's English translation and Campion's English Challenge"
+    author: campion
+    locus: "whole volume: Latin from file line 1245, English translation from 3778, the Challenge from 351"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      Campion's own voice as a Jesuit of the first English mission; the Challenge states
+      the Society's rule against meddling in matters of state in his own words (article
+      iv).
+  - row_id: campion_rationes-decem-ten-reasons-lat-eng_rickaby1914--rationes-decem-latin-3
+    work: "Rationes Decem (1581), Latin text, with Rickaby's English translation and Campion's English Challenge"
+    author: campion
+    locus: "whole volume"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      A contemporary opponent's public challenge to the Settlement's divines and
+      universities to dispute; placed on window and place for the Settlement's Doc_02.

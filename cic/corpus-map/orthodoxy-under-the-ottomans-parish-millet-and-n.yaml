@@ -16,6 +16,32 @@ works:
 
     '
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+- row_id: akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865--letters-of-patriarch-meletios-pegas-of-alexandria-to-the
+  work: Letters of Patriarch Meletios Pegas of Alexandria to the Ruthenian Orthodox (1590s),
+    in the additions to vols. 1 and 2
+  author: akty-iuzhnoi-i-zapadnoi-rossii
+  locus: 'in the additions (ПРИБАВЛЕНIЯ from file line 12642): the Meletios letters at about
+    file lines 22438-22772 (''Седьмое послание Мелетиево'', dated Constantinople 7105)'
+  role: context
+  confidence: provisional
+  note: 'Meletios Pegas, Patriarch of Alexandria and locum tenens of Constantinople, writing
+    to the Ruthenians against the union in the 1590s: a Greek patriarch''s voice in Ruthenian
+    translation. The Ottoman dossier closed Pegas as not found; this is the one printed trace.
+    Provisional: a translation, in a garbled OCR, read at two points.'
+  source_file: akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt
+- row_id: akty-zapadnoi-rossii_t4-1588-1652-rus_1851--akty-zapadnoi-rossii-vol-4-patriarch-jeremias-ii-s-acts-in
+  work: 'Akty Zapadnoi Rossii vol. 4: Patriarch Jeremias II''s acts in Lithuania and Kyiv,
+    1589-1590'
+  author: akty-zapadnoi-rossii
+  locus: documents 16 to 26 from file line 2109 to about file line 3600 (the circular of July
+    1589, the patriarchal letters of August 1589, the 1590 synod of Brest)
+  role: context
+  confidence: provisional
+  note: 'Patriarch Jeremias II of Constantinople, on his way home from creating the Moscow
+    patriarchate, deposed Metropolitan Onesiphorus, consecrated Michael Rahoza and gave the
+    Lviv brotherhood its stauropegial charter: the Patriarchate acting in the Ruthenian church.
+    Context for the Greek Church under the Ottomans; the acts are in Ruthenian, not Greek.'
+  source_file: akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt
 - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-anagnostes-de-thessalonicensi-excidio-narratio-greek
   work: John Anagnostes, De Thessalonicensi excidio narratio, Greek with Latin
   author: anagnostes
@@ -38,6 +64,38 @@ works:
 
     '
   source_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
+- row_id: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902--chronicon-athenarum-greek
+  work: Chronicon Athenarum (Chronikon Athenon), a short Greek chronicle of Athens under the
+    Turks
+  author: chronicon-athenarum
+  locus: from file line 5574 (heading 'CHRONIKON ATHENON') to about 5672, running heads 'CHRONICON
+    ATHENARUM'
+  role: context
+  confidence: provisional
+  note: 'A short local chronicle of Athens printed at the end of the same volume; placed on
+    place and window, not read in full. Clean Greek OCR.
+
+    '
+  source_file: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902.txt
+- row_id: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893--extracts-from-the-diaries-of-dr-john-covel-1670-1679-2
+  work: Extracts from the diaries of Dr John Covel, 1670-1679 (Constantinople, the Greek church,
+    Adrianople, Asia Minor)
+  author: covel
+  locus: same as the later-entry row
+  role: context
+  confidence: provisional
+  note: After this world's window (1650) by two decades; recorded here because the first-pass
+    dossier named Covel as a lead for this world. Provisional on date.
+  source_file: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt
+- row_id: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893--the-diary-of-master-thomas-dallam-1599-1600-the-organ-sent
+  work: The diary of Master Thomas Dallam, 1599-1600 (the organ sent to the Sultan)
+  author: dallam
+  locus: from file line 2041 (MASTER THOMAS DALLAM'S DIARY) to file line 6483
+  role: context
+  confidence: provisional
+  note: An English craftsman at Constantinople in 1599-1600, inside the window but with little
+    on the church; placed for completeness, provisional.
+  source_file: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt
 - row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--acts-and-decrees-of-the-synod-of-jerusalem-shield-of
   work: Acts and Decrees of the Synod of Jerusalem (Shield of Orthodoxy), 1672, English translation
   author: dositheus
@@ -54,6 +112,16 @@ works:
 
     '
   source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--acts-of-the-synod-of-jerusalem-1672-and-the-confession-of-2
+  work: Acts of the Synod of Jerusalem (1672) and the confession of Dositheus, Greek with
+    Latin (Kimmel 1843)
+  author: dositheus
+  locus: same as the later-entry row
+  role: tradition
+  confidence: assigned
+  note: 'Mirrors the 1850 row: the Jerusalem synod closes the Lucaris affair and is placed
+    on this world as its ending text.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--acts-of-the-synod-of-jerusalem-1672-greek-with-latin
   work: Acts of the Synod of Jerusalem (1672), Greek with Latin
   author: dositheus
@@ -79,6 +147,25 @@ works:
 
     '
   source_file: doukas_historia-byzantina-grc-lat_bekker1834.txt
+- row_id: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902--ecthesis-chronica-greek-chronicle-of-sultans-and-patriarchs
+  work: 'Ecthesis chronica (Ekthesis chronike): an anonymous Greek chronicle of the Ottoman
+    sultans and the Patriarchs of Constantinople, to 1543'
+  author: ecthesis-chronica
+  locus: Greek text with apparatus from file line 617 (heading 'EKTHESIS CHRONIKE') to about
+    5573, running heads 'ECTHESIS CHRONICA' with printed page numbers; Lambros's Latin preface
+    at 449; indices from 5673
+  role: tradition
+  confidence: assigned
+  note: 'A sixteenth-century Greek chronicle, in simple Greek, and the fuller form of the
+    text that Crusius printed as the Historia politica (vendored in Bekker''s Bonn edition,
+    1849), of the sultans and the patriarchs after the fall of the city (Gennadius Scholarius
+    is marked in the margin as first patriarch after the capture, apparatus at about line
+    1673); an inside witness to the patriarchate''s own succession story in the world''s own
+    window. Clean polytonic OCR: primary original-language voice, ready to quote once verified
+    against the page images.
+
+    '
+  source_file: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902.txt
 - row_id: euchologion-to-mega_second-edition-grc_zerbos1862--euchologion-to-mega-the-great-euchologion-venice-second
   work: Euchologion to mega (the Great Euchologion), Venice second edition, Greek
   author: euchologion-to-mega
@@ -93,6 +180,19 @@ works:
 
     '
   source_file: euchologion-to-mega_second-edition-grc_zerbos1862.txt
+- row_id: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856--of-the-russe-common-wealth-giles-fletcher-1591-and-the-2
+  work: Of the Russe Common Wealth (Giles Fletcher, 1591) and the Travels of Sir Jerome Horsey,
+    in Bond's Hakluyt Society edition (1856)
+  author: fletcher-giles-elder
+  locus: Fletcher's treatise from file line 5618; church chapters XXI (ecclesiastical state)
+    at 10036, XXII (liturgy and sacraments) at 10817, XXIII (doctrine and errors) at 11099;
+    Horsey's Travels from 12334
+  role: context
+  confidence: provisional
+  note: An editorial footnote in this file (about file line 10166) names Jeremias, Patriarch
+    of Constantinople, in connection with the Russian patriarchate; placed on that one passage,
+    not on a reading of the whole for the Ottoman Orthodox world.
+  source_file: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--confessiones-i-and-ii-of-gennadius-scholarius-greek-with
   work: Confessiones I and II of Gennadius Scholarius (Greek with Latin)
   author: gennadius-scholarius
@@ -107,6 +207,19 @@ works:
 
     '
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--confessiones-i-and-ii-of-gennadius-scholarius-greek-with
+  work: Confessiones I and II of Gennadius Scholarius, Greek with Latin (Kimmel 1843)
+  author: gennadius-scholarius
+  locus: Gennadii Confessio I from file line 4553, Confessio II from about file line 6254,
+    to about file line 8763
+  role: tradition
+  confidence: assigned
+  note: 'The first Patriarch under the Sultan''s own statement of the faith made for Mehmed
+    II, in Greek with Kimmel''s Latin. This 1843 first printing holds the same texts as the
+    vendored Kimmel 1850 and is a second scan of the Greek: at the sampled points its Greek
+    column is read whole where the 1850 OCR cuts it, though it holds fewer Greek letters overall.
+    Use whichever scan reads cleanly at the passage, and check against the page images.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678--a-description-of-the-present-state-of-samos-nicaria-patmos
   work: A Description of the Present State of Samos, Nicaria, Patmos, and Mount Athos
   author: georgirenes
@@ -120,6 +233,23 @@ works:
 
     '
   source_file: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678.txt
+- row_id: gerlach_tage-buch-deu_1674--tage-buch-diary-at-constantinople-1573-1578-german
+  work: 'Stephan Gerlach''s Tage-Buch: the diary of the court preacher to the imperial embassy
+    at Constantinople, 1573-1578 (German)'
+  author: gerlach
+  locus: title page at about file lines 100-140; Wagner's preface from about 244; the diary
+    by date from about 1363 to about 59626 (for example 'Anno 1577.' at about line 50208);
+    Register from about 59627
+  role: context
+  confidence: assigned
+  note: 'The outside eyewitness for the middle of the window: an embassy preacher''s day-book
+    of Constantinople, with the Greek clergy he met (the preface names Patriarch Jeremias),
+    printed from his papers in 1674. Not the church''s own voice. SECOND WITNESS: Fraktur
+    OCR readable word by word but two columns and marginal glosses are interleaved, so nothing
+    is quotable without the page images. German; no public-domain English exists.
+
+    '
+  source_file: gerlach_tage-buch-deu_1674.txt
 - row_id: historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849--historia-politica-constantinopoleos-1391-1578-greek-with
   work: Historia politica Constantinopoleos, 1391-1578 (Greek with Crusius's Latin)
   author: historia-politica-et-patriarchica-constantinopoleos
@@ -161,6 +291,24 @@ works:
 
     '
   source_file: horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt
+- row_id: jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582--censura-orientalis-ecclesiae-first-answer-of-jeremias-ii-latin
+  work: 'Censura Orientalis Ecclesiae: Patriarch Jeremias II''s first Answer to the Tuebingen
+    theologians on the Augsburg Confession (1576), in Socolovius''s Latin'
+  author: jeremias-ii
+  locus: title page at about file lines 12-40; Socolovius's dedication to Gregory XIII from
+    about 45; the Answer under running heads 'Caput I.' (from about line 821) through its
+    chapters; Socolovius's notes follow
+  role: tradition
+  confidence: assigned
+  note: 'The Patriarch''s own first Answer in a second, independent Latin rendering, made
+    by a Catholic translator in 1582 and printed at Cracow two years before the Tuebingen
+    theologians'' own Latin (the 1584 Acta, vendored). Two Latin witnesses, no Greek in the
+    corpus, no public-domain English. SECOND WITNESS: roman-type Latin readable with long
+    s read as f, italic front matter garbled; check against page images. Socolovius''s dedication
+    and notes are a Catholic polemicist''s frame, not the Patriarch''s voice.
+
+    '
+  source_file: jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582.txt
 - row_id: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584--patriarch-jeremias-ii-s-replies-to-the-wirtemberg
   work: Patriarch Jeremias II's replies to the Wirtemberg theologians on the Augsburg Confession,
     1576-1581 (Latin translation)
@@ -175,6 +323,22 @@ works:
 
     '
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+- row_id: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--appendix-letters-and-papers-of-cyril-lucaris-with-ottoman-command
+  work: 'Appendix: letters and papers of Cyril Lucaris in Latin, with an Italian ''Instruttione''
+    and a ''Comandamento'' (an Ottoman command concerning the Patriarch) in Italian'
+  author: lucaris
+  locus: Appendix from about file line 4405 to about 7003; 'INSTRUTTIONE' at about 5796; 'COMANDAMENTO'
+    at about 6797 with 'Turcarum' at 6832
+  role: tradition
+  confidence: assigned
+  note: 'Lucaris''s own letters as Smith collected them, in Latin, with the Ottoman and Western
+    papers of his case: the one place in the corpus where the sultan''s own bureaucracy speaks
+    about the Patriarch (the ''Comandamento''). Overlaps Aymon''s 1718 Lettres anecdotes (vendored)
+    but is an earlier and separate collection. Second witness for scan quality; Latin and
+    Italian only, the Greek not recovered by the OCR.
+
+    '
+  source_file: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707.txt
 - row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris
   work: Confessio Christianae fidei (Latin), Cyril Lucaris
   author: lucaris
@@ -201,6 +365,18 @@ works:
 
     '
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--confession-of-cyril-lucaris-greek-with-latin-kimmel-1843
+  work: Confession of Cyril Lucaris, Greek with Latin (Kimmel 1843)
+  author: lucaris
+  locus: Cyrilli Lucaris Confessio at about file lines 8764-8914
+  role: tradition
+  confidence: assigned
+  note: 'The 1629 Confession in its Greek form, the text the synods of 1638, 1642 and 1672
+    condemned. This 1843 first printing holds the same texts as the vendored Kimmel 1850 and
+    is a second scan of the Greek: at the sampled points its Greek column is read whole where
+    the 1850 OCR cuts it, though it holds fewer Greek letters overall. Use whichever scan
+    reads cleanly at the passage, and check against the page images.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--lettres-anecdotes-de-cyrille-lucar-et-sa-confession-de-foi
   work: Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques
     (Amsterdam, 1718)
@@ -232,6 +408,20 @@ works:
 
     '
   source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
+- row_id: maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910--maxim-the-greek-moral-writings-nravouchitel-nye-sochineniia-2
+  work: Maxim the Greek, moral writings (Nravouchitel'nye sochineniia), in the 1910 Trinity-Sergius
+    Lavra Russian translation
+  author: maxim-the-greek
+  locus: the letter on the poverty of the Vatopedi monastery and the Athonite mission, in
+    the writing at about file line 8700 (printed page 202), and the dedication to Vasily III
+    at the contents entry XXV
+  role: context
+  confidence: provisional
+  note: Maxim was a monk of Vatopedi on Athos sent to Moscow by the Protos in 1516-1518; his
+    letters speak of the Athonite houses under the Turks and their need. Placed on two passages
+    read in sample; the Ottoman thread decides whether a Russian-side witness to Athos belongs
+    here.
+  source_file: maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin
   work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
   author: mogila
@@ -245,6 +435,19 @@ works:
 
     '
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--the-orthodox-confession-confessio-orthodoxa-greek-with-latin
+  work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin (Kimmel 1843)
+  author: mogila
+  locus: Orthodoxa Confessio from about file line 8915 (Greek heading at file line 8915) to
+    about file line 40196
+  role: tradition
+  confidence: assigned
+  note: 'Mogila''s Confession as approved at Jassy in 1642, Greek and Latin. This 1843 first
+    printing holds the same texts as the vendored Kimmel 1850 and is a second scan of the
+    Greek: at the sampled points its Greek column is read whole where the 1850 OCR cuts it,
+    though it holds fewer Greek letters overall. Use whichever scan reads cleanly at the passage,
+    and check against the page images.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: mogila_orthodox-confession_overbeck1898--the-orthodox-confession-of-the-catholic-and-apostolic
   work: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa),
     English version
@@ -262,6 +465,30 @@ works:
 
     '
   source_file: mogila_orthodox-confession_overbeck1898.txt
+- row_id: mogila_orthodox-confession_anon1762--the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church-1762
+  work: The Orthodox Confession of the Catholic and Apostolic Eastern-Church, faithfully translated
+    from the originals (the 1762 English, with Nectarius of Jerusalem's approving letter)
+  author: mogila
+  locus: title page at about file lines 12-30; the Translator's address from about 35; Nectarius's
+    letter from about 70; the Confession in three parts (Faith, Hope, Charity) in question-and-answer
+    form follows to the end
+  role: tradition
+  confidence: assigned
+  note: 'The untouched 1762 English of Mogila''s Confession, which Overbeck''s 1898 edition
+    (vendored) reprints with spellings and some expressions altered; this file is the witness
+    for the 1762 wording. English translation only; the Greek and Latin are in Kimmel 1850.
+    Readable OCR with long s normalised; check quotations against page images.
+
+    '
+  source_file: mogila_orthodox-confession_anon1762.txt
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--the-orthodox-confession-of-the-eastern-church-part-i-faith-2
+  work: The Orthodox Confession of the Eastern Church, Part I (Faith), Greek with Latin
+  author: mogila
+  locus: same as the Kyiv row
+  role: tradition
+  confidence: assigned
+  note: Same text and placement as the Kimmel and Overbeck rows for this entry.
+  source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
 - row_id: nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the
   work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios
     and Nikodemos, Greek'
@@ -321,6 +548,38 @@ works:
 
     '
   source_file: rycaut_present-state-greek-armenian-churches_1679.txt
+- row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--catalogue-of-martyrs-from-the-fall-of-constantinople-to-1811
+  work: Catalogue of those martyred for the Christian faith from the fall of Constantinople
+    to 1811 (Sathas's list of the neomartyrs, Greek)
+  author: sathas
+  locus: from file line 30477 (heading 'Katalogos ton apo tes haloseos tes Konstantinoupoleos
+    mechri tou 1811 etous ... martyresanton') to the end of the volume, one entry per martyr
+    with year, day and place
+  role: context
+  confidence: assigned
+  note: 'Not the lives: a nineteenth-century editor''s one-line-per-martyr list, compiled
+    by his own note from the Neon Martyrologion (Venice 1799) and the Neon Leimonarion (Venice
+    1819), neither of which is in the corpus. Gives the in-window neomartyrs by name, date
+    and place (for example John of Ioannina, 18 April 1526; Philothei of Athens, 19 February
+    1589) and so indexes what the missing martyrology holds. Readable Greek OCR.
+
+    '
+  source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+- row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--patriarchal-documents-regesta-from-1568
+  work: 'Patriarchika engrapha: Sathas''s regesta of patriarchal acts of Constantinople from
+    1568 onward (Greek summaries)'
+  author: sathas
+  locus: from file line 27987 (heading 'PATRIARCHIKA ENGRAPHA') to about 30476, each act summarised
+    under the patriarch's name with its year of the world, indiction and month
+  role: context
+  confidence: assigned
+  note: 'Summaries, not the acts'' own text: sigillia, synodal acts, depositions and appointments
+    of bishops from Metrophanes III (1568) through Jeremias II, Matthew II and their successors,
+    in the editor''s words with the documents'' own dating formulas. The parish and millet
+    texture the census asks for, at one remove. Readable Greek OCR.
+
+    '
+  source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
 - row_id: smith-thomas_account-of-the-greek-church_1680--an-account-of-the-greek-church-as-to-its-doctrine-and-rites
   work: An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account
     of the Greek church under Cyrillus Lucaris
@@ -335,6 +594,38 @@ works:
 
     '
   source_file: smith-thomas_account-of-the-greek-church_1680.txt
+- row_id: smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698--de-graecae-ecclesiae-hodierno-statu-epistola
+  work: De Graecae Ecclesiae hodierno statu epistola (Smith's Latin letter on the present
+    state of the Greek Church)
+  author: smith-thomas
+  locus: publisher's address from about file line 20; the Epistola from about line 722 to
+    the Index rerum et verborum at 7720
+  role: context
+  confidence: assigned
+  note: 'The Latin original of the account of Greek doctrine and rites already in the corpus
+    in English (Smith 1680). An Oxford divine''s outside description, third and enlarged edition
+    (Utrecht, 1698); the 1680 English refers to ''the Latine Edition'' without naming it,
+    so wording may differ. Second witness: readable Latin with long s read as f; Greek words
+    garbled.
+
+    '
+  source_file: smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698.txt
+- row_id: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--narratio-de-vita-studiis-gestis-et-martyrio-cyrilli-lucarii
+  work: Narratio de vita, studiis, gestis et martyrio Cyrilli Lucarii (Smith's Latin life
+    of Cyril Lucaris), with the tracts De veteris Graecae Ecclesiae hymnis and Theologica
+    de causis remediisque dissidiorum
+  author: smith-thomas
+  locus: preface from about file line 410; the Narratio under its running head from about
+    line 1367 to 4404; 'De veteris Graecae Ecclesiae hymnis' from about 7004; the tract on
+    dissensions from about 8647
+  role: context
+  confidence: assigned
+  note: 'An Oxford divine''s Latin life of Lucaris, the fuller original behind the English
+    account in his 1680 volume (vendored). Outside Anglican voice. SECOND WITNESS: Latin readable
+    with long-s and ligature errors; engraved title page and contents list are OCR noise.
+
+    '
+  source_file: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707.txt
 - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--chronicon-of-george-sphrantzes-phrantzes-greek-with-latin
   work: Chronicon of George Sphrantzes (Phrantzes), Greek with Latin
   author: sphrantzes
@@ -360,3 +651,28 @@ works:
 
     '
   source_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
+- row_id: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678--six-voyages-through-turky-into-persia-2
+  work: 'The Six Voyages of John Baptista Tavernier (London, 1678): Greeks and Armenians in
+    the Ottoman cities'
+  author: tavernier
+  locus: Smyrna's population by faith (file line 4075); Lent among the Greeks and Armenians
+    (line 10890); the Greek archbishop of Naxos (line 11009)
+  role: context
+  confidence: provisional
+  note: 'Three passing notices of the Greek church and its neighbours in Smyrna and the islands
+    from a western traveller. Same period, outside witness, thin. Only the cited lines were
+    read.
+
+    '
+  source_file: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678.txt
+- row_id: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868--george-williams-introduction-on-projects-of-reunion-between
+  work: George Williams, introduction on projects of reunion between the Eastern Church and
+    the Anglican Communion (Melanchthon and Jeremias II, Abbot and Lucaris, Basire, the Nonjurors)
+  author: williams-george
+  locus: INTRODUCTION from file line 78 to file line 2067 (Lucar and Abbot at about file lines
+    337-386) and its appendix from file line 2068
+  role: context
+  confidence: provisional
+  note: An Anglican scholar's 1868 account of the Lucaris generation's contacts with the West;
+    scholarship, in window only for those pages.
+  source_file: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt

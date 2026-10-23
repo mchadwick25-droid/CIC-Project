@@ -2,8 +2,7 @@
 
 Aggregate numbers only: no session id, no world, no address leaves this module.
 Every call is priced with the approved price tables, a call on a model with no
-approved price at the dearest approved price, as the door does
-(engine.api.deeper_door).
+approved price at the dearest approved price (engine.m8.price_tables.DEAREST).
 
 The log keeps, for each model call, its kind, its model, its token counts
 (cache reads and cache writes among them) and the time it was written. It does

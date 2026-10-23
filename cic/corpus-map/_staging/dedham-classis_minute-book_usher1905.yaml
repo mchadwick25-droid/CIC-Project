@@ -1,0 +1,45 @@
+source_file: dedham-classis_minute-book_usher1905.txt
+
+assignments:
+  - row_id: dedham-classis_minute-book_usher1905--minute-book-of-the-dedham-classis-1582-1589
+    work: "Minute Book of the Dedham Classis, 1582-1589, with the Letters and Papers of the classis"
+    author: dedham-classis
+    locus: "MINUTE BOOK OF THE DEDHAM CLASSIS 1582-1589 from file line 3088 (meeting by meeting, with the classis's own rules 'A note of such thinges as are agreed upon to be observed in our meetinges'); LETTERS AND PAPERS from about line 5823 (printed pp. 77-102), ending with the 1584 subscription paper; Usher's footnotes are editorial"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The movement's own semi-clandestine presbytery keeping minutes
+      inside the establishment: questions brought by members, fasts,
+      cases of conscience, the handling of Mr Tye's and other local
+      quarrels, the conference's letters to London and Cambridge. The
+      census names it directly. Primary voice in the clerk's spelling;
+      OCR clean (the Robarts scan, which replaces a poorer Google scan of
+      the same edition).
+  - row_id: dedham-classis_minute-book_usher1905--bancroft-s-narrative-of-the-presbyterian-movement
+    work: "Richard Bancroft's narrative of the Presbyterian movement under Elizabeth (printed in Usher's introduction, with Usher's additions)"
+    author: bancroft
+    locus: "within Usher's introduction, file line 158 onward (roman-paged), Bancroft's text in large type and Usher's insertions in small type, as Usher's preface (line 57) explains"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: assigned
+    note: >
+      The hostile witness: Whitgift's chaplain and the movement's
+      prosecutor, telling the story of the classes from the government
+      side. A contemporary opponent, so context by the README rule; the
+      editorial interleaving means a quotation must be checked for whose
+      sentence it is.
+
+authors_ruled:
+  bancroft:
+    kind: metadata-omission
+    evidence: >
+      The host's own creator field names 'Bancroft, Richard, 1544-1610'
+      beside the Dedham Classis and Usher, and Usher's preface (file
+      line 57 onward) states that the introduction prints 'a narrative
+      of the movement as a whole by Richard Bancroft, an account hostile
+      to the Presbyterians'. Bancroft is not the file-name prefix because
+      the volume's primary document is the classis's own minute book.
+    from_file: dedham-classis_minute-book_usher1905.txt

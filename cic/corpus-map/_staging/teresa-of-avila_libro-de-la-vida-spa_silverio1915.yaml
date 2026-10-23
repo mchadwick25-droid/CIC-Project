@@ -1,0 +1,28 @@
+source_file: teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt
+assignments:
+- row_id: teresa-of-avila_libro-de-la-vida-spa_silverio1915--libro-de-la-vida
+  work: Libro de la Vida (Teresa's Life written by herself), Spanish text from the Escorial autograph, Silverio
+    de Santa Teresa's edition, Burgos 1915, tomo I of the Biblioteca Mistica Carmelitana
+  author: teresa-of-avila
+  locus: title at line 55; the editor's preliminary notice from line 173 and introduction from line 5636;
+    "CAPITULO PRIMERO" at line 6568 and the forty chapters to about line 22240 ("CAPITULO XL" at 21675);
+    indexes from line 22245
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: tradition
+  confidence: assigned
+  note: 'The Spanish original of the Life vendored in English as teresa-of-avila_life_lewis1904.txt. Under
+    the project''s ruling of September 2026 a clean public-domain original is primary evidence: a quote
+    record may hold Teresa''s own Spanish, verified against this file and the page image, with the modern
+    English rendered from it and Lewis''s English as the cross-check. OCR clean (word-shaped share 0.98).
+    The editor''s notice, introduction and footnotes are his and must not be quoted as Teresa''s.'
+- row_id: teresa-of-avila_libro-de-la-vida-spa_silverio1915--vida-tridentine
+  work: Libro de la Vida (Silverio 1915), the Spanish of the chapters on the confessors and the Inquisition
+  author: teresa-of-avila
+  locus: whole file; placed on the English file's existing row, not read separately
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: 'The Spanish beside the English row already placed for the Tridentine Church from the Lewis translation;
+    same footing, same caveat.'

@@ -220,7 +220,7 @@ describe('Conversation - the more menu', () => {
     choose('About Vera');
     const panel = container.querySelector('.conversation__panel') as HTMLElement;
     expect(within(panel).getByText('Vera')).toBeInTheDocument();
-    expect(panel.textContent).toContain('Not saved to an account');
+    expect(panel.textContent).not.toContain('Not saved to an account');
     fireEvent.click(within(panel).getByText('Back to the conversation'));
     expect(container.querySelector('.conversation__panel')).toBeNull();
     expect(screen.getByRole('button', { name: 'More' })).toHaveFocus();

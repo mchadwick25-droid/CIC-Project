@@ -1,0 +1,73 @@
+source_file: knox_works-v2_laing1895.txt
+
+assignments:
+  - row_id: knox_works-v2_laing1895--history-of-the-reformation-books-third-fourth-fifth
+    work: "The History of the Reformation in Scotland, Book Third (1559-1561), Book Fourth (1561-1564) and Book Fifth (1564-1567)"
+    author: knox
+    locus: "Book Third heading at file line 173 ('THE THIRD BOOKE OF THE PROGRESSE OF ...'); Book Fourth at 10629 ('THE FOURT BOOK OF THE PROGRESSE AND CONTINUANCE OF TREU RELIGIOUN'); Book Fifth at 18825 ('THE FIFTH BOOK OF THE REFORMATION OF THE CHURCH OF SCOTLAND'); Laing's Appendix from 22577; Gutenberg boilerplate before line 39 and after 29411. The Confession and the Buke of Discipline interrupt Book Third (see their own rows)"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The Reformation Parliament of 1560, Knox's interviews with Mary Queen
+      of Scots in his own telling, the first General Assemblies, and the
+      struggle over the Kirk's patrimony. Book Fifth is not from Knox's own
+      hand but was compiled from his papers (Laing's Appendix discusses its
+      authorship); cite it as the History's fifth book, not as Knox's own
+      voice, until a build thread rules on it. Proofread Gutenberg text of
+      Laing's edition, ready to quote.
+  - row_id: knox_works-v2_laing1895--scots-confession-1560
+    work: "The Confession of Faith professed and believed by the Protestants within the Realm of Scotland (the Scots Confession, 1560)"
+    author: knox
+    locus: "heading at file line 3802 ('THE CONFESSIOUN OF FAITH PROFESSIT AND BELEVIT BE THE PROTESTANTES ...'), preface at 3844, running to the Buke of Discipline preface at 7492; printed inside Book Third of the History as Knox placed it (edition pages 93-182)"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The Kirk's own founding confession, drafted by the six Johns and ratified
+      by Parliament in August 1560, in its original Scots. The author slug is
+      knox because this is Knox's Works and he was one of its authors; the
+      Confession is a corporate document of the Kirk, and a build thread may
+      prefer a corporate attribution in its own source record. Ready to quote.
+  - row_id: knox_works-v2_laing1895--first-book-of-discipline-1560
+    work: "The Buke of Discipline (the First Book of Discipline, 1560)"
+    author: knox
+    locus: "'THE PREFACE TO THE BUKE OF DISCIPLINE' at file line 7492, 'THE FIRST HEAD, OF DOCTRINE' at 7576, through the heads on sacraments, idolatry, ministers, provision, the patrimony, discipline, election of elders and deacons, and the policy of the Kirk, to the resumption of Book Third before 10629 (edition pages 183-260)"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The Kirk's own first design for a national church: parish ministry,
+      superintendents, schools in every parish, poor relief from the old
+      church's patrimony, and the discipline the kirk sessions then enforced.
+      Primary institutional voice, ready to quote. Laing's Appendix note on
+      Spottiswood's edition of this book (at edition page 587) is editorial.
+  - row_id: knox_works-v2_laing1895--scots-confession-and-first-book-of-discipline-genevan-model
+    work: "The Scots Confession (1560) and the First Book of Discipline (1560), as the Genevan model applied to a whole kingdom"
+    author: knox
+    locus: "Confession from file line 3802; Buke of Discipline from 7492 to before 10629"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      Knox had ministered in Calvin's Geneva (1556-1559) and the Scottish
+      confession and polity are the Genevan order carried to a nation.
+      Placed on that relation only; the texts were not read for what they say
+      about Geneva, so the fit is provisional and the Reformed Cities world
+      should treat them as a downstream witness, not its own voice.
+  - row_id: knox_works-v2_laing1895--history-of-the-reformation-book-third-english-intervention
+    work: "The History of the Reformation in Scotland, Book Third (1559-1561): the English intervention and the Treaty of Edinburgh"
+    author: knox
+    locus: "Book Third, file lines 173-3801 and the resumption after the Buke of Discipline to 10628"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      Elizabeth's army and fleet decided the Scottish Reformation in 1560, and
+      Book Third tells it from the Scottish Protestant side. Placed on that
+      overlap without reading the English passages for this world.

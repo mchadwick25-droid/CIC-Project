@@ -1,0 +1,37 @@
+source_file: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907.txt
+
+authors_ruled:
+  scher:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The catalogue is signed
+      "Addaï Scher." at the end of its opening paragraph (file line 36) and the running head reads "MGR ADDAÏ SCHER" (lines
+      179, 312). A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907--colophons-of-the-sixteenth-century
+    work: "Notice sur les manuscrits syriaques du Patriarcat chaldéen de Mossoul (Scher, 1907): the colophons of 1521 to 1588"
+    author: scher
+    locus: "Cod. 80 (1550, Rabban Hormezd, 'Mar Siméon patr. et Mar Elia héritier du siège') at file lines 1278-1279; the Nomocanon note of 1564 at Amid 'du temps de Mar Abdisô' patr.' at 1072; the note on the death of Mar Abdisho (1570) at 1044; Gazarta 1578 at 884; Abnâyé 1588 at 412; the 1567 copy with the patriarch's name effaced at 1750; the 1521 copy at Ahtous at about 1199"
+    atlas_ids:
+      - church-of-the-east-schism-of-1552
+    role: tradition
+    confidence: provisional
+    note: >
+      Dated colophons from the Chaldean patriarchate's library at Mosul, summarised in French by the 1902
+      visitor. They name the patriarch of the day in the years around the schism (the heir to the see in 1550,
+      Abdisho in 1564 at Amid, Elia in 1578 and 1588). These are the "colophons" the census names as the thin
+      base of the entry, from the manuscripts themselves. The catalogue does not say which line each patriarch
+      belongs to, so which colophon belongs to which side is for the build to settle; hence provisional. OCR
+      clean; ready to quote once each quote is checked against the page image.
+  - row_id: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907--colophons-of-the-sixteenth-century-2
+    work: "Notice sur les manuscrits syriaques du Patriarcat chaldéen de Mossoul (Scher, 1907), as a catalogue of the library the nineteenth-century patriarchs assembled"
+    author: scher
+    locus: "opening paragraph at file lines 30-36 (the library assembled by Joseph Audo 1847-1878, Elias Abou'l-Yaunan 1878-1894 and Ebedjesus Khayyat 1894-1899); whole file"
+    atlas_ids:
+      - church-of-the-east-chaldean-consolidation
+    role: context
+    confidence: provisional
+    note: >
+      The catalogue's own account of how the Chaldean patriarchs of the nineteenth century gathered the
+      collection. Placed on that paragraph.

@@ -1,0 +1,21 @@
+source_file: st-andrews-kirk-session_register-pt1-1559-1582_hay-fleming1889.txt
+
+assignments:
+  - row_id: st-andrews-kirk-session_register-pt1-1559-1582_hay-fleming1889--register-of-the-st-andrews-kirk-session-1559-1582
+    work: "Register of the Minister, Elders, and Deacons of the Christian Congregation of St Andrews, Part First: 1559-1582 (kirk session and superintendent's court)"
+    author: st-andrews-kirk-session
+    locus: "Hay Fleming's Preface from file line 73 (edition pages v-lxxxiv); the register from the first entry at line 3108 ('The xxvij day of October, 1559', Robert Roger's public repentance for adultery) to the entries of May-July 1582 ending about line 30160; Scottish History Society report and member list after 30164"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The earliest and fullest surviving kirk session register: public
+      repentance, fornication and adultery cases, slander between
+      neighbours, Sabbath breach, the recantations of the old clergy, the
+      superintendent's court for Fife, and the session's ordinances. The
+      day-to-day discipline the census calls denser than Geneva's, in the
+      clerk's own Scots with Latin headings. Primary voice, ready to quote
+      once checked against the page image; the editor's marginal rubrics are
+      OCR'd at line ends and must be stripped from any quotation. Hay
+      Fleming's Preface is editorial.

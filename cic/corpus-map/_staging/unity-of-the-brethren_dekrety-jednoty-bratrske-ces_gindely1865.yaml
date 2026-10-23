@@ -1,0 +1,22 @@
+source_file: unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865.txt
+
+assignments:
+  - row_id: "unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865--dekrety-jednoty-bratrsk-the-unity-s-decrees-and-synod-ruling"
+    work: "Dekrety Jednoty bratrské (the Unity's decrees and synod rulings)"
+    author: unity-of-the-brethren
+    locus: "whole volume; contents list at file line 238"
+    atlas_ids:
+      - czech-churches-last-century
+    role: tradition
+    confidence: assigned
+    note: "The Unity's own rulings on order and discipline in Czech, from the manuscripts: its origin, the rulings of 1488, 1499 and 1504, the office of bishop, priest and deacon, and the sacraments. Primary original evidence, quotable once each wording is checked against the page image. The contents list shows much of it dates before 1517, so it serves the Hussite world as well. Placed on the Czech contents list; the volume was not read in full. OCR clean."
+
+  - row_id: "unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865--dekrety-jednoty-bratrsk-the-unity-s-decrees-and-synod-ruling-2"
+    work: "Dekrety Jednoty bratrské (the Unity's decrees and synod rulings)"
+    author: unity-of-the-brethren
+    locus: "whole volume; contents list at file line 238"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: tradition
+    confidence: provisional
+    note: "The Unity's own rulings on order and discipline in Czech, from the manuscripts: its origin, the rulings of 1488, 1499 and 1504, the office of bishop, priest and deacon, and the sacraments. Primary original evidence, quotable once each wording is checked against the page image. The contents list shows much of it dates before 1517, so it serves the Hussite world as well. Placed on the Czech contents list; the volume was not read in full. OCR clean."

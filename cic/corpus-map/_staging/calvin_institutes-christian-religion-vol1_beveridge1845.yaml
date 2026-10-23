@@ -1,6 +1,3 @@
-# Proactively vendored ahead of the Reformed Cities build (Atlas VI.2),
-# per this world's own Source Readiness Dossier. No cross-link
-# opportunities found against sibling Era VII/VI candidates (dossier §5).
 source_file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
 
 assignments:
@@ -17,3 +14,35 @@ assignments:
       Calvin's own systematic theology, 1559 final Latin edition, in the
       standard-cited Beveridge 1845 English translation. Book I: the
       knowledge of God as Creator, the created order, providence.
+
+  - row_id: calvin_institutes-christian-religion-vol1_beveridge1845--institutes-book-ii-against-the-anabaptists-on-oaths
+    work: Institutes of the Christian Religion, Book II.8.26-27 (the Anabaptists' rejection of oaths refuted)
+      and II.10 (the Anabaptists on the Old Testament)
+    author: calvin
+    locus: II.8 section 26 summary at file line 23729; II.10 summary naming Servetus and the Anabaptists
+      at 27053, text at 27196
+    atlas_ids:
+    - the-anabaptist-movements
+    role: context
+    confidence: assigned
+    note: 'Calvin against the Anabaptist refusal of the oath (Schleitheim article 7) and their reading of
+      the two testaments. Same time, different region.
+
+      '
+
+  - row_id: calvin_institutes-christian-religion-vol1_beveridge1845--institutes-book-i-against-servetus
+    work: 'Institutes of the Christian Religion, Book I: the passages against Servetus on the Trinity and
+      on images'
+    author: calvin
+    locus: chapter summaries at file line 10944 (Impiety of Servetus refuted) and 11002 (the more modern
+      Antitrinitarians, Servetus especially refuted); body at 11563, 12252, 12293 (M. Serveti), 12309 and
+      12316
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: assigned
+    note: 'Calvin''s own argument against Servetus''s doctrine of the Trinity, in the Institutes, English
+      (Beveridge). Same time (1559 text), Geneva, the persecutor''s pen. A hostile outside witness. Read
+      at the loci given.
+
+      '

@@ -1,0 +1,40 @@
+source_file: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880.txt
+
+assignments:
+  - row_id: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880--the-moral-history-of-the-indies-books-v-vii-grimston-s-1604-english
+    work: "The Natural and Moral History of the Indies, Vol. II: the Moral History (Books V to VII), in Grimston's 1604 English"
+    author: acosta
+    locus: "the Fift Booke from file line 986 (religion, idolatry, priests, confession, festivals of Peru and Mexico, and the mission), the Sixt Booke from line 4844, the Seventh Booke from line 7212; Markham's analytical table before and index after"
+    atlas_ids:
+      - mission-born-christianities-kirishitan-japan-kon
+    role: context
+    confidence: assigned
+    note: >
+      The Andes and New Spain strand's best-known outside witness in public-domain English:
+      a Jesuit who worked in Peru and Mexico describing Andean and Mexican religion and the
+      conversion as he judged them. Mission voice, hostile to the religions it records, and
+      the standard etic source a build will have to read against the native voices it
+      lacks. Jacobean spelling; clean OCR. Vol. I (natural history) is not vendored.
+  - row_id: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880--the-moral-history-of-the-indies-books-v-vii-grimston-s-1604-english-2
+    work: "The Natural and Moral History of the Indies, Vol. II: the Moral History (Books V to VII), in Grimston's 1604 English"
+    author: acosta
+    locus: "whole volume"
+    atlas_ids:
+      - the-society-of-jesus
+    role: context
+    confidence: assigned
+    note: >
+      A first-generation Jesuit's own published work on the American missions (Acosta
+      was provincial of Peru and later wrote the Society's mission manual De procuranda).
+      Context here because it is a translated English edition, not the Society's own text.
+  - row_id: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880--the-moral-history-of-the-indies-books-v-vii-grimston-s-1604-english-3
+    work: "The Natural and Moral History of the Indies, Vol. II: the Moral History (Books V to VII), in Grimston's 1604 English"
+    author: acosta
+    locus: "the Fift Booke, file line 986 onward"
+    atlas_ids:
+      - colonial-latin-american-devotional-catholicism
+    role: antecedent
+    confidence: provisional
+    note: >
+      The Jesuit account of Andean and Mexican religion that the later colonial church
+      inherited; placed on window and place, not on a reading for that entry.

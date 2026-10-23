@@ -13,3 +13,17 @@ assignments:
       Ignatius of Loyola's own foundational spiritual text, trans. Elder
       Mullan, S.J. (1914) - the structured month of prayer that shaped
       every Jesuit the order trained.
+
+  - row_id: ignatius-loyola_spiritual-exercises_mullan1914--the-spiritual-exercises-of-st-ignatius-2
+    work: The Spiritual Exercises of St. Ignatius (as the Spanish prayer discipline beside which the Teresian
+      reform grew)
+    author: ignatius-loyola
+    locus: whole text
+    atlas_ids:
+    - carmelite-reform-and-spanish-mystics
+    role: context
+    confidence: needs-ruling
+    note: 'Placed on the shared window and country, not on a passage: the vendored Teresa texts show Jesuit
+      confessors directing her (Life from line 1838, Foundations at lines 5036 and 7528) but none cite the
+      Exercises by name. Whether the Exercises are context for the Carmelite reform is a ruling for the
+      build, not the library.'

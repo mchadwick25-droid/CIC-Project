@@ -1,0 +1,31 @@
+source_file: beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884.txt
+
+assignments:
+  - row_id: beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884--histoire-ecclesiastique-des-eglises-reformees-au-royaume-de
+    work: "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome deuxieme, Livres VI-IX (the first war of religion, 1562-1563, by province)"
+    author: beza
+    locus: "the reprinted 1580 half-title at file line 148; LIVRE VI from line 158 (the massacre of Vassy and the rising of Paris, March 1562), LIVRE VII from 21400, LIVRE VIII from 35640, LIVRE IX from 44540 to the end (about line 50340); editors' footnotes at the foot of each page"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      The French Reformed churches' own narrative of the first war of religion, compiled church by
+      church from the reports the churches sent to Geneva and published anonymously in 1580 under
+      Beza's name (the attribution is the editors' and the catalogue's). The continuation of the
+      vendored Tome 1, which ends in 1561; this tome and Tome 3 carry the churches through Vassy,
+      the Edict of January, the taking of the towns and the war to 1563. Second witness for exact
+      wording (f for long s in the OCR of the 1580 text). No public-domain English translation
+      exists.
+  - row_id: beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884--histoire-ecclesiastique-des-eglises-reformees-au-royaume-de-2
+    work: "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome deuxieme, Livres VI-IX (the first war of religion, 1562-1563, by province)"
+    author: beza
+    locus: "whole volume"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      Compiled in Geneva from the French churches' reports; Geneva's own record of its mission
+      field in the year of the first war. Placed on authorship and place, mirroring the Tome 1
+      row; not read against the Reformed Cities' own Doc_02.

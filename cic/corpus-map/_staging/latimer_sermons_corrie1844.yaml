@@ -1,0 +1,18 @@
+source_file: latimer_sermons_corrie1844.txt
+
+assignments:
+  - row_id: latimer_sermons_corrie1844--sermons-of-hugh-latimer-1529-1552
+    work: "Sermons of Hugh Latimer, 1529-1552 (the Sermons on the Card, the Convocation sermons of 1536, the Sermon of the Plough, the Seven Sermons before Edward VI and the last, the Stamford sermon, the Sermons on the Lord's Prayer, the Lincolnshire sermons)"
+    author: latimer
+    locus: "Corrie's memoir precedes; 'SERMONS ON THE CARD' from file line 872; the Sermon of the Plough at about line 3700 (running head at 3706); 'THE SEVEN SERMONS' before Edward VI from line 4756; the Stamford sermon from about line 16238; 'SERMONS ON THE LORD'S PRAYER' from about line 17693; 'SERMONS PREACHED IN LINCOLNSHIRE' from about line 25777 to the end"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The most quoted preaching voice of the English Reformation, plain, comic and
+      fierce: the Plough sermon on the preacher's work and the devil's diligence,
+      the court sermons against covetousness and the enclosing landlords, the
+      homely Lincolnshire sermons for country congregations. Primary voice, ready to
+      quote once verified against this file; Corrie's footnotes give the 1549 and
+      1562 printings' variants.

@@ -1,0 +1,37 @@
+source_file: mogila_orthodox-confession_anon1762.txt
+
+assignments:
+  - row_id: mogila_orthodox-confession_anon1762--the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church-1762
+    work: "The Orthodox Confession of the Catholic and Apostolic Eastern-Church, faithfully translated from the originals (the 1762 English, with Nectarius of Jerusalem's approving letter)"
+    author: mogila
+    locus: "title page at about file lines 12-30; the Translator's address from about 35; Nectarius's letter from about 70; the Confession in three parts (Faith, Hope, Charity) in question-and-answer form follows to the end"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      The untouched 1762 English of Mogila's Confession, which Overbeck's 1898 edition
+      (vendored) reprints with spellings and some expressions altered; this file is the witness
+      for the 1762 wording. English translation only; the Greek and Latin are in Kimmel 1850.
+      Readable OCR with long s normalised; check quotations against page images.
+  - row_id: mogila_orthodox-confession_anon1762--the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church-1762-2
+    work: "The Orthodox Confession of the Catholic and Apostolic Eastern-Church, faithfully translated from the originals (the 1762 English, with Nectarius of Jerusalem's approving letter)"
+    author: mogila
+    locus: "the Confession in three parts from about file line 70 to the end"
+    atlas_ids:
+      - the-kyiv-mohyla-orthodox-revival
+    role: tradition
+    confidence: assigned
+    note: >
+      The revival's own doctrinal charter in its first English printing; same placement as the
+      Overbeck edition of the same text.
+  - row_id: mogila_orthodox-confession_anon1762--the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church-1762-3
+    work: "The Orthodox Confession of the Catholic and Apostolic Eastern-Church, faithfully translated from the originals (the 1762 English, with Nectarius of Jerusalem's approving letter)"
+    author: mogila
+    locus: "the Confession in three parts from about file line 70 to the end"
+    atlas_ids:
+      - the-union-of-brest-and-ruthenian-greek-catholic-
+    role: context
+    confidence: provisional
+    note: >
+      Same placement and reasoning as the Overbeck and Kimmel editions of the same confession.

@@ -1,0 +1,30 @@
+source_file: migault_journal-fra_weiss-clouzot1910.txt
+
+assignments:
+  - row_id: migault_journal-fra_weiss-clouzot1910--journal-de-jean-migault-maitre-d-ecole-1681-1688
+    work: "Journal de Jean Migault, maitre d'ecole (1681-1688): les dragonnades en Poitou"
+    author: migault
+    locus: "the Journal from 'Mes chers enfans' at file line 1871 to the index at the end; the editors' introduction (editorial, 1910) at lines 158-1870"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      A Poitou schoolmaster's own account for his children of the
+      dragonnades of 1681 and 1685, his wife's death, his imprisonment at
+      La Rochelle, and the family's flight to Holland (1688). Primary
+      voice in clean OCR; the world's closing years from below. The
+      English cross-check is migault_trials-of-a-french-protestant-family_anderson1852.txt.
+
+  - row_id: migault_journal-fra_weiss-clouzot1910--journal-de-jean-migault-maitre-d-ecole-1681-1688-2
+    work: "Journal de Jean Migault, maitre d'ecole (1681-1688): les dragonnades en Poitou"
+    author: migault
+    locus: "whole Journal"
+    atlas_ids:
+      - church-of-the-desert-huguenots
+    role: tradition
+    confidence: provisional
+    note: >
+      The Journal runs past the Revocation into the refuge (1685-1688), the
+      opening years of that world. Placed on window; that world has no
+      vendored sources yet.

@@ -1,0 +1,7448 @@
+Title: Ordinatio ecclesiastica Regnorum Daniae et Norvegiae et Ducatuum Sleswicensis Holtsatiae etcet. (the Danish-Norwegian Church Ordinance of 1537, Latin text)
+Creator: Issued in the name of King Christian III of Denmark and Norway (the ordinance opens with his preface); catalogued by the host under "Danske folkekirke"; printer Johannes Vinitor (Hans Vingaard)
+Publisher: Copenhagen: Ex officina literaria Joannis Vinitoris Stutgardiani in novo claustrali vico Haffniae, die Luciae virginis 1537 (imprint from the colophon)
+Publication Date: 1537
+Rights: Public Domain (published 1537; public domain by date)
+Language: lat
+Source: Internet Archive item ordinatioecclesi00dans, file ordinatioecclesi00dans_djvu.txt, fetched directly by the library/source-research thread (Era VII session, world VI.27 agent), 2026-10-23; host rights statement: the item carries no rights field and no access restriction; contributor Boston Public Library (Rare Books Department copy); collections bostonpubliclibrary, americana.
+Provenance note: Header prepended; the OCR text follows unchanged (no characters altered, no long-s normalisation done: the raw file holds 4,791 long-s glyphs and 959 r-rotunda glyphs (ꝛ), which the quote gate must normalise or the registry must map before any quote is checked). The title page and colophon in the OCR give the year 1537. Rights basis restated: a book printed at Copenhagen in 1537 is public domain by date.
+Content note: The first Lutheran church ordinance of Denmark-Norway (and so of Iceland), the Latin text drawn up with Johannes Bugenhagen, whom the preface names as "Doct: Pomerano". The OCR begins with front-matter fragments from the library binding and ends with a bookseller's description and page noise; the ordinance runs between them. Gothic type: OCR is readable Latin with systematic glyph substitutions (long s, r-rotunda as ꝛ after p, c and h) and scattered noise, and a few Danish liturgical lines appear near the end. Second witness for exact wording until each quote is checked against the page image. A second scan (Royal Library Copenhagen, den-kbd-pil-130018152623-001) has a worse OCR and was not vendored.
+---
+* 
+
+
+SITIS JEU UBRLOOOROORD: AUS 
+
+
+TI 
+
+
+Added i 
+
+
+-W 
+
+
+1 T 
+
+
+hc tae e Sr o 
+
+
+A 
+* 
+
+
+* 
+
+
+— À 9 w AP 
+
+
+i, « Í ^ Fe ce j 21 Erato ma 1 
+, $« ws ten: rer ^ A Sd ; 
+
+
+5 — Li 
+er a) e 4. d 
+A o 2 2 
+
+; 4 * 
+M EN 
+
+
+AER MEN 
+
+
+.| wA Xccdefiaftica.— | 
+35 [| Regnorum Danie et E 
+
+A norwegie et Duca⸗ 
+tuum / Sleſwicenſis / 
+Polt ſatie etcet. 
+
+
+FM. Ua NER T tote „ tug 
+
+
+n 
+
+
+NS 
+
+
+"m SN U 
+Mime 
+Ma 
+
+
+Anno Domini M. 
+D. yere ij» 
+
+
+— L 8 ow AS 
+S NS ( E A 
+
+
+Gr Hriſtianus Pri — TA 
+
+tia Danie / Norwe⸗- 
+gie Slauorum Gottoꝛũqʒ Rex / Sleſ⸗ x 
+wicenſis / Holtſatiæ / Stormariæ et 
+Ditmariœ Dux / in Oldenborch 2 Del⸗ 
+menhoꝛſt Comes. Regnis noſtris et 
+Ducatibus Salutem. Poſtquam domi⸗ 
+nue Deus nobis auitum paternũqʒ re⸗ 
+gnũ tradidit / ſopitis belloꝛum tumulti⸗ 
+bus / nthil pꝛius in votis erat quam col» 
+lapſam Chꝛiſti doctrinam 2 religionem 
+inſtaurare. quemadmodũ et iamdudum 
+pꝛo noſtris terris cupieramus. donec voti 
+compotes facti ſumus / Sit Chꝛiſto gra⸗ 
+tía. Conuocatis igitur Doctoꝛibus et 
+pꝛœ dicatoꝛibus GEccleſiarum ex Dante 
+Regno z Ducatibus noſtris mandaui⸗ 
+mus vt ordinationẽ aliquã ſacram nobis 
+conſcriberent. de qua conſultaremus. 
+
+
+. Danc acceptam miſimus ad Reuerendʒ 
+
+
+patrem Doctorem Martinum Lutherũ / 
+"e PT € 3 
+
+
+| per quem del demetitía bife bouiſſimis 
+| N tempoꝛibus nodis reſtituit ſacri Euange⸗ 
+lui Chꝛiſti ſynceritatem / Is cum alite qui 
+Wittenbergæ ſũt Theolo gis eam appꝛo⸗ 
+
+
+bauit. Ot vero hoc diuinũ negoliũ recte 
+gereretur / rogauimus Illuſtriſſ: principẽ 
+
+
+Joannem Fridericũ Ducem Saponice / 
+
+
+Electoꝛem ⁊c Amicum noſtrũ ſummũ / | 
+
+
+| vt mitteret ad nos Dilectum nobis Jo: 
+a 
+
+
+E beologia Doctoꝛem. Duius viri conv 
+
+
+filio ⁊ opera cum noſtris con ſiliarüs vſi 
+
+
+ſumus in ordinatione hac ſacra confici⸗ 
+enda / Ot ſciatis non temere feo. tot 7 
+
+
+tãtis arbitris bí nos egiſſe. Dorro perfe 
+
+
+«tam ordinationem obtulimus per Can" 
+cellarium noſtrum Regni con ſiliariie /i 
+
+
+dinatio habet / tantum rogauerunt vt ad 
+
+
+| 
+| 
+| pꝛobarunt ſuſceperuntqʒ omnia quae ote 
+| 
+1 
+
+
+monerentur pꝛœdicatoꝛes / quo in prin». 
+
+
+cipio modeſtius coram Eccleſia agerent c 
+
+
+(lie peccatoꝛibus qui pꝛo tempoꝛe pꝛohi⸗ 
+"uie. benot 
+
+
+bendi ſunt a Sacramento cene Domi⸗ 
+nic. Et cui hœdc non placerent / modo fit 
+Chꝛiſtianus? Non enim hic aliud e(t quá 
+pura Euangelii tractatio / Sacramento⸗ 
+rum ſecundum inſtitutionem Chꝛiſti tra⸗ 
+ditio / cantus et lectiones ſacræ / honeſtus 
+conuentus ad prædicationes ⁊ cenam 
+Domini / inſtitutio iuuẽtutis per litteras / 
+artes / ſacrum Dei verbum ſiue ſanctam 
+ſeripturam / cura pꝛo miniſtris ſaccis / pꝛo 
+Scholis / pto Pauperibus / 2 vt Cate⸗ 
+chiſmus ftt in omnibus do mibus vt iam 
+pueri vel ruſticorum ſciant qua hactenus 
+non folum ruſtici feo etiam Noblles / atqʒ 
+adeo Reges et Diénapee ignorauetunt / 
+de quo reddent rationem Chꝛiſto qui ſe 
+hactenus Eccleſi capita iactauerunt et 
+ventrem z Mammona coluerunt. Qui 
+ex his diſplicere poffet € Dic vnum ex his 
+quod non ſũmis votis ſit optandũ Chꝛi⸗ 
+ſtianis. dt ne quis exiſtimet nos in 
+
+
+hac re folii ott iuditio aliorũ / fatemur «& - 
+
+
+3 ſũma 
+
+
+| 
+
+
+ füma gratiarum acttone quod « nobis 
+"'Otuina bonitas dedit intellectum ſancti 
+Euangelii / ⁊ de hac ordinatione pꝛoferi⸗ 
+mamͤus hoc iudicium noſtrum. Duplex e(t 
+Hic oꝛdinatio / Altera diuina ſolum / vt q 
+Es volumus verbum Dei / id eſt / Legem et 
+Euangelium ſyncere pꝛedicari / Sacra⸗ 
+menta recte tradi / pueros doceri vt manes 
+ant in Chꝛiſto qui in Chriſtũ ſunt Bap⸗ 
+tísati/ curari pto victu. miniſtroꝛum Ec 
+cleſiæ et Scholarum ⁊ pꝛo pauperibus / 
+Non eſt noſtra ordinatio / ſed per hoc ob⸗ 
+ſequimur ordinationi Chuſti domini 
+noſtri / qui vt eſt vnicus ſaluator noſter 
+7 certiſſima ſalus / Ita eſt ⁊ vnicus Doc⸗ 
+tor z Magiſter noſter / de quo Pater 
+clamat / Hunc audite / Et ipſe ait / Duce. 
+mea vocem meam audiunt. Js teuelauit 
+7 dedit mundo Euangelium ab qeterno 
+abſconditum in Deo / s iuſſit hoc pꝛck⸗ 
+dicari omni creature / Inſtituita; Baptiſ⸗ 
+mum a cænam ſuam que iuſſit tradi 
+E : OL et gcapt 
+
+
+etatipi ſetundum fuam inſtitutionem 
+non alítet, Contra Euangelium « inſti⸗ 
+
+
+tutionem Chuſti nullus eft audiendus ne 
+angelus quidem e cœlo / vt Paulus di⸗ 
+kere audet / 2 Chꝛiſtus ait / Oues mec nó 
+norunt vocem alienorum ſed fugiunt ab 
+eis. Quid hie ſtulti expectamus Con? 
+tilia vt moriamur interim in infidelitate 
+4 impietate noſtra € Cõcilia aut hũanc 
+ordinationes hie nihil poſſunt contta 
+ordinationem diuinam. St Concilia dã⸗ 
+parent doctrinas Dæmonioꝛum ⁊ tradi⸗ 
+tiones Antichriſtianas / quibus hactenus 
+ſeducti ſumus / « iuberent Euangelium 
+ſyncere doceri 2 ſacramẽta tradi ſecundũ 
+Chꝛiſti inſtitutionem ⁊ Apoſtolicam do: 
+ttrinam / vt nunc nos facimus hoc Có» 
+tilio noſtro ⁊ ordinatione / Imp effent 
+2 non Chꝛiſtiani qui non amplecterentur. 
+Sed talia iamdudum fruſtra expectaui⸗ 
+mus. At aiunt. Euangelium non pro? 
+hibemus / feo debetetis expectare noſtrã 
+
+
+4 
+
+
+ſentent 
+
+
+& € . 
+
+
+ſententiã de veſtra dottrina num ſit vein 
+
+
+Euangelium. Reſpondemus. Lihil 
+
+
+moramur quod ſie ludunt verbis « ca- 
+lumniantur. Apud nos verũ Euangeliũ 
+eſt / quod pra dicat afflictis con ſcientiis 
+
+
+gratuitam remiſſionem peccatoꝛũ prov 
+pter ſolũ Chꝛiſtum filium Dei pꝛo no⸗ 
+
+
+bis traditum. Ablato peccato reputamur 
+iuſti a Deo / ſumus filii Dei 2 ha redes 
+
+
+vitæ ate ⁊ omnium dei bonorum / 
+dilecti a patre in aternum indilecto ſilio 
+
+
+Dei quem per fidem fufcpinue, Dune 
+
+
+Pater nobíe dedit / quomodo non in illo 
+donaret nobis omnia? Non eſt aliud 
+Euangelium. Pꝛo hoc Euangelio gla⸗ 
+
+
+ri Dei Antichꝛiſtiana factio reddidit 
+nobis doctrinas dæmoniorum / in hypo 
+triſi id eft maxima religionis ſpecie do- 
+centium vel pꝛædicantium mendacium —.— 
+ſatisfactiones / ſtatuta / regulas / obſer⸗ 
+
+
+uãtias / indulgentias / peregtinattóée/fraz 
+
+
+trm ſacrifiſia excogitata / miſſales 
+abominatio 
+
+
+abominationes / purgatoꝛiũ / aquã bene 
+dictã / leges ieiuniorũ / murmura hotatũ 
+canonicarum / vigilias moꝛtuorũ / loca 
+ſancta / baptiſmum campanaꝛum / vncti⸗ 
+ones / raſuras / veſtes ſacras / imputiſſimũ 
+cœlibatum / abiurationem a deo ereati er 
+inſtituti coniugij / pꝛohibitiones ciborũ/ 
+pꝛohibitionem calicis Chꝛiſti / inuocationẽ 
+ſanctoꝛũ / abuſum omniũ operum et ca ri⸗ 
+moniarũ quibus nos docebant p lacare C «(E 
+et ſatisfacere pro peccatis et mereri rem iſ⸗ 
+ſionem peccatorũ. Co nfitebantur / vt 
+Paulus ait / ſe noſſe deũ / ſed his docttinis 
+et factis negabant. verũ (E uangeliũ / fano 
+guinem Jeſu Chꝛiſti et mi ſericoꝛdiam dei 
+patris. hoc eſt gratuitam remiſſionem 
+peccatoꝛum propter ſolũ Chꝛiſtũ. Dac 
+menda cia Antichriſti nunc remittimus 
+Satan vnde venerunt. et damus gloꝛiãd 
+Deo recepto vero Chꝛiſti Euangelio / 
+Sacramenta vero et damus et accipimus 
+ſecuu dũ Chꝛiſti inſtitutionem / aceip'mus 
+ee gaulem 
+
+
+autẽ ab ipfo domino noftro Jeſu Chꝛiſto 
+licec per manũ miniſtri / ſicutet Euangeliũ 
+ab ipſo / licet per os miniſtri ſiue prædica⸗ 
+torte, Quid hic deeſt nobis / quo minus 
+habeamus Euangelium verũ? Poſtquã 
+per fidem In Chriſtũ ſumus retonaliati 
+Deo et filij dei facti/cõfitemur quod eredi⸗ 
+mus / docemus filios noſtroe / inuocamus — 
+oramus / gratias agimus / audimus verbũ 
+dei er In eo perſeueramus. hic eſt verus 
+dei cultus ſecundum prima tria precepta. 
+Docemur etiam de operibus bonis et vita 
+Chꝛiſtiana / patientia ſiue cruce / de obedi⸗ 
+entia / et quod Chꝛiſtianj tantum vnã legẽ 
+habent nempe charitatem / qua quiſque 
+mn fui vocatione ſeruit alijs certus fe 
+Chriſto facere quod alijs facit / Faciat deꝰ 
+vt hos bonos fructus fidei cõmode et ſus 
+tempore proferamus. Quid amplivs de⸗ 
+ſideras in noftra doctrina? Dac interim 
+divimus de ijs qua hic ſunt ordinatio 
+ven ea non debet oil noſtra / o 
+
+
+Jello homine violari / Mandamus vere ea 
+ſeruari / vt domino noſtro Jeſu Chiiſto 
+ordinatori et mandatori per boc obedia: 
+mus /ipſi in gloriam / nobis in ſalutem. 
+
+
+Altera autem ordinatio hic noſtra etiã 
+
+did poteſt / quia que dam in ea pie et ſanctæ 
+mutari poſſent / licet et ip ſa dei fit. Cunt 
+autem ea que de perſonit / de tempore / de 
+locis / de numero / de modo / de horie / de 
+viſitatione / de honeſto cõmentu / de cautu 
+de ccerimonijs «€ ordinamus / nó teme 
+xe aut ſuperſtitioſe / feb pꝛo ordinatione 
+diuina quam diximus / vt cõmode et cũ 
+detore ſeruetur. Omnia enim talta debẽt 
+ſeruire verbo dei. Nam inutiles et vanas 
+cieremonias / deinde et ſuperſtitioſas et 
+inſticiarias qua pro cultu dei et meretoriſs 
+operibus contra fidem In Chꝛiſtũ et 
+Euangelium regni dei ſuſapiuntur / quis 
+poft hac vellet in tanta Euangeliſ luce? 
+Au Satis 
+G 
+
+
+Sitis nũe negotij erit nobis de neeſſarils 
+vt nó vacet illis nugis ⁊ vanitatib ſeruire. 
+andamus igitur omnibus 
+ſubditis noſtris cuiuſcñqʒ ſint cõditionis / 
+vt bafce Dei 4 noſtras ordinationes / quas 
+iuſſimus per Typographum inuulgari / 
+ſuſcloiant / ſeruent / tucantur / quiſqʒ pto 
+modo ſuo / 2 Pꝛaæ ſectis noſtris cum Su⸗ 
+perintendentibus vt / quam primum licet / 
+in Ciuitattbus et Pagis que ordinata 
+ſunt evequantur ⁊ ſeruari curent. Re⸗ 
+putate vero cum animis veſtris / Si Dei 
+ordinationi que eft poteſtas gladii reſi⸗ 
+ſten tes / fibi ipſis iu diciũ ⁊ damnationem 
+acapiunt / vt ait Daulus / Maiore dam⸗ 
+natione iudicandos qui Dei ordinatio⸗ 
+nem Euangelium domini noſtri Jeſu 
+Chꝛiſti contempſerint aut illi reſtiterint. id 
+quod Moſes pꝛædixit / Qui Pꝛophetã 
+illum / id eſt / Chriſtum non audierit / 
+ego vltor exiſtam / dieit Dominus, 
+. . fiejs etiam per nos impune fecerit 
+: quifquia | 
+
+
+| quífauie his ordination 
+
+
+(bue temere ve⸗ 
+
+
+ſiterit / id quod fademue ſecundum 
+
+
+poteftatem nobis a Deo datam. 
+Dominus noſter Jeſus 
+Chꝛiſtus cõſer⸗ 
+uet vos 
+in 1 
+æternumm 
+
+
+Datum Halfnie in Taſtro 
+
+
+noſtro Anno domini Ill. d. 
+Exp lecunda Septebris. 
+qua die publice otdinati (tit 
+
+
+diæceſnun Super⸗ 
+intendentes. 
+
+
+cumgtatia et Pttulegio 
+
+
+* u 
+
+
+e 
+
+
+T5 Sm — 
+
+
+N 
+* " 
+" 3 M 
+eee t "UP X 5 — Pu 
+AE . 
+3 " 
+" s ; 
+
+
+"fatío Eccleliaſtice oꝛdi⸗ 
+nationis [cg pracipue 
+complectitur. | 
+
+
+Ec 69n5munm/setrinam:Drbon( 
+7 | p2btcaterce eltgátut/qut eu- 
+: oV angelium ſyncere pra dicent / 
+E,, Sacramẽta legitime admini⸗ 
+ſtrent⸗ 2 Catechiſmum rite enarrent. 
+X Canet Scholae: Ot idonei 
+ludimagiſtri in vrbibus conſti⸗ 
+tuantur ⁊ oppidis / qui iuuentutem certa 
+vbiqʒz ratione inſtituant. 
+(0m Cetemoníae; 5^t vtiles 
+1 vnifoꝛmes ritus per omnes ec⸗ 
+cleſias aree ne diſpares ritus infir⸗ 
+mos offendãt. 
+Ob Cõmune ꝙrarium pro 
+miniſtris eccleſiæ a pauperibꝰ / 
+Ot (ít vnde publie eccleſiq miniſtris / ſuꝰ 
+ſumptus coſtet ⁊ pauperibꝰ fubuentatut. 
+| 4 Quintum 
+
+
+Oban Sperm eum ſuis 
+pꝛæpoſitis: Ot ſint per quos mini⸗ 
+
+
+ſtri in officio retineantur / ⁊ qui prouidea⅛tft 
+
+
+vt omnta circſquaqʒ vite gerantur. 
+| Dea Libros: Ot boni paroch 
+habeãt vnde ſynceram pietatem 
+hauriant ſolidius / Je malis libris / quoe 
+rum hodie nimis magna eſt copia 2 
+quotidie fit maior) infiaantur. | 
+
+
+De doctrina / noſtræ falutis 
+mmiſterio / quo benekicia 
+nobis per Thriſtũ ipetrata 
+inuulgautur / et omnibus 
+nne diſtribuuntur. 
+Oetrina vero tria potiſſimũ con^ 
+
+
+t tinet. Primũ Integram Euan⸗ : 
+A gri præœ dicationẽ / q̃ penítenti& — 
+
+
+ſidem / 4 eius fructus bona inquam opera 
+
+iupta vrget. f pom 
+
+iunt legitimã ſaeramentoꝛũ 
+
+D ordinationem qna pantrentid 
+requirunt / fidem confirmant / « fructuũ 
+fidej nos cõmonefaciunt. | 
+
+€ ſertium / Simplicem catechiſmi 
+
+explicationẽ / qua ratio verc poe? 
+nitẽtiæꝛ demõſtratur / peccata et bona ope⸗ 
+ra indicantur / ⁊ qua vera fides ſit / ⁊ qui 
+eam con ſequamut / oſtenditur. 
+* D Orro integra docttina euangelif 
+omnibus vbiqʒ pura certa ⁊ v; 
+
+niformis ſit / vrgeatutqʒ in primis ſyncere 
+2 ſedulo locus inſtificationis / vt intelligãc 
+omnes quid fides ſit ⁊ efficiat / quomodo 
+eam conſequamur z homines iuſtificẽtu: / 
+atqs abeo quid ſentiendum/⁊ quomodo 
+prœdicatoꝛibus a dean dum ed 
+Dic opoꝛtet / vt loci quidam prœcipui con⸗ 
+ſtituantur / ad quoe inter concionaudum 
+tanquam ad fontes recurratur / ne vega et 
+ſuis legibus foluta huc illuc vacillet oꝛasio 
+un A ij Et ſune 
+
+
+Et funt quí fequuntur. 
+
+
+De lege et timoꝛe dei 
+
+
+De euangelto ⁊ fiducia in deum. 
+De pænitentia. | 
+De Cruce. 
+De Oratione. 
+De bonis operibus. 
+De libero arbitrio. 
+De libertate chꝛiſtiana. 
+De pꝛa deſtinatione. 
+De traditionibus. 
+De Magiſtratu. 
+d De coniugio. 
+De Sanctis. 
+De Jeiunijs. 
+
+De Imaginibus et ſimilibus / ne 
+enptiden concione ſimplicium animos 
+ſubuertant prœdicatores/⁊ ab euangelio 
+deterreant. Quos etiam hic volumus ad⸗ 
+monitos vt cauti ſint ⁊ in primis ſibi pro⸗ 
+ſpiciant / quando de prædeſtinatione / de 
+lubertate chꝛiſtiana / aut alije articulis fidei 
+
+loquuntur 
+
+
+loquũtur / qui captum bumant lõge late⸗ 
+qʒ excedũt in quibus etiam caro faale ſcã⸗ 
+dalizatur. Caueant quoqʒ ne de rebus 
+obſcuris diſſerant 7 tractẽt / niſi vbi vrge⸗ 
+at ineuitabilis neceſſitas Qua omnia có» 
+modiſſime (gratia dei) factent ſi frequẽ⸗ 
+tes ⁊ ſeduli fuerint in preab? ⁊ oratio ne 
+ad deum / a lectione bonorũ auctorũ /⁊ de 
+peccatis ⁊ remiſſione peccatori diligenter 
+docuerint. 
+s] ( £girima vero ſacramentoꝛũ ad⸗ 
+| miniſtratio « fiplep Catechiſmi 
+epxplicatio eft/ qua vnifoꝛmitet illa diſtri⸗ 
+buũtur / hic explicatur/quæ vt vbiqʒ om^ 
+nibus cõfoꝛmia ſint volumus ⁊ mãdamꝰ. 
+
+
+Haaement autẽ duo ſunt a Chꝛiſto 
+inſtituta / Baptiſmus z Cana bof 
+mini / de quibue docetur in Catechiſmo / 
+his additur tertium Pœnitentia / quando 
+peccatoꝛ dolens de ſuo errore ⁊ peccato 
+confitetur / ⁊ acepta per Euangelium abe 
+ſolutione /redit ad pactum baptiſmi 
+
+NEA A üj De 
+
+
+De teremanis⸗ m ſunt 
+
+
+Eccleſiaſtici Ritus « plerumqʒ inſtituti 
+pꝛopter bonum oꝛdinem extra omnem 
+opinionem iuſtificationis « neceſſitatis z 
+ſunt. (in eccleſia. 3 
+Ritus canendi ⁊ legendi puerorũ 
+Ritus celebrandi publicam tniſſam. vi 
+Ritus pꝛædicandi verbum dei. 
+Ritus baptiʒ andi pueros. 
+Ritus abſoluendi. ví. 
+Ritus cõmunicandi. xv 
+Ritus feriandi.. esi 
+Ritus coniungendi Lee 
+Kitus inſtituendi miniſtros. N; 
+Ritus evcõ municandi obſtinatos. . 
+Ritus Viſitandi infirmos. vi —— 
+r3 yx mi ( ficiẽdos. 
+Ritus accedẽdi extremo ſupplicio af 
+Ritus ſepeliendi defunctos. m 
+Ritus informandi obſtetrices. . 
+Bitus inſtituendi puerperas. 
+Kitue ee cũ faminis que 
+propꝛios 
+
+
+proptíoe pueros oppꝛimunt. ; 
+- fatus canendi et legend 
+
+
+pueroũ in templis / ad aſſuefaciendum ess 
+ad factae literas / quibus et vicariſ adeſſe 
+poterunt / qui ſuis etiamnum præ bendis 
+fruuntur / ſed ad rationem lu dimagiſtri fe 
+comparent. 
+(o ſis diebus ab ectaua vel no⸗ 
+9 na/a ramentis ſonantibus / tem 
+plum (upta morem frequentent pueri / ⁊ 
+pueris duobꝰ antiphonã inchoantibꝰ /cã⸗ 
+tabunt ad antiphonæ tonũ viciſſim tres 
+pſalmos matutinales vel minus / pꝛo ar⸗ 
+bitrio paſtoris loci / ne pueri longo cantu 
+grauentur / deinde vnũ octonarium ex 
+pſal: Beati immaculati /cũ gloria patri ac 
+et pſalmo Beati immaculati finito / (emp 
+eius loco pfalmum Quicunqʒ vult ſaluus 
+eſſe canant / ⁊ poſtea Antiphonam repetitã 
+abſoluãt / an tiphona percantata/cum nó 
+pꝛædicatur / loco capituli puer ex nouo 
+teſtamento lectionem latinã — cum 
+
+
+hoc initio / Lectio ſacti Euãgelij Matthai 
+capite primo Et in fine vt pꝛophetie 
+finiũtur / Doc ( ſi placet ) etiam ſecundus 
+faciat /et tertius itidem / ſi ita viſum erit / 
+Sed hic vulgari ſermone fuam Lectionem 
+legat / quam pꝛioꝛes legerunt latine. 
+
+
+Poſt lectionem vulgare canticum ins 
+cipiant / vel Benedictus cum antiphona / 
+ft placet / Deinde pueri ad genua procidẽ⸗ 
+tes dicant kyrie eleyſon / Chriſte eleyſon 
+kyrie eleyſon / et legant pater noſter «c 
+
+
+Poſtea vnus ex miniſtris verbi dicat 
+Oſtẽde nobis domine miſericordiam tuã. 
+et reſpondetur ei. Do(t dominus vobiſeũ 
+cum colecta: Vltimo pueri / Benedicamꝰ 
+domino. i 
+
+Et hie ſi fuerint qui ob certas cauſas 
+cõmunicare voluetit/ cõicent / vel a cõcione 
+ft prædicabitur. Sed (it euidens neceſſi⸗ 
+tas / ne ex contemptu public cænæ fiat. 
+
+Jiſdem opero ſis diebus a ſecunda vel 
+
+
+3 Folio v 
+
+quarta/æramentis naht ab eunte 
+— motum tres pfalniCocl paucioꝛes) veſper 
+tini / ad anripbone tonum / cantabuntur 
+epcapto octonario. 
+
+Cectiones item pueri pꝛo capitulo ex 
+veteri teſtamento cái pꝛa dicto initto ⁊ fine. 
+Ita / lectio libꝛi Geneſeoe: capite piimo ⁊c. 
+canãt poſt / Dymnũ ferialẽ / Dinc canticũ 
+vulgare / vel Magnificat cum antiphona / 
+
+poſt finietur / vt mane, 
+
+In vefperte vigiliarum 2 ferlarum ad 
+eundem modum peragãtur omnia / Sed 
+a lectionibus reſponſoꝛium cãtetur eũ glo 
+tta patti «c. poſt/hymnus / ab eo cum an» 
+tiphona Magnificat / demum / Nunc di⸗ 
+mittis / ſine tono / Et poft finetur. vt fuia 
+In matutinis dominicarum « ſeſto⸗ 
+* tum /ante pꝛa dicationem / tres pſalmi/vel 
+minus /a duo ocronarij cum antiphona ca 
+nentur.Poſt quee legant media voce pue» 
+eri ſine tono catechiſmum / ſemper pa dago 
+
+
+| » ane ed pꝛacinente Ita. 
+N 2 Pumo 
+
+
+i. Rimo Pa dagogus. Dae (unt | 
+pꝛæcepta domini dei noſtri / Doſt 
+pueri tractim et viciſſim reliqua. 
+
+
+Ego ſum dominus deus tuus. Non ha⸗ 
+bebía deos ⁊c. 
+
+
+D. 
+
+
+Credo ín deum «c 
+
+
+o pe dagogus Dæceſt ora 
+
+
+«unto Padago: Di ſũt articul 
+fidei noſtræ. Poſt / pueri viciſſim 
+
+
+i dominica. Pueri viaſſim 
+
+
+Pater noſter ⁊c. 
+
+
+| X ee Dabago: Daceft cõmen⸗ 3j 
+datio Sacramẽti Baptiſmi qua 
+
+
+mandault Chriſtus / ot in ipſũ baptizem ur 
+
+
+dicens / Et pueri per vices. Jte in vniuerſũ 
+
+
+mun dum e. 
+
+
+€) Vinto Padago: Mac eft pꝛo⸗ 
+miſſio / vſus z donatio dauum 
+
+
+eccleſiæ. Et pueri per vices. Ait Jeſus Cc 
+
+
+es petrus ⁊ ſuper banc petram ⁊c 
+
+
+E o Dabago: Dacetinftiruo 4 
+
+
+tio Sacramenti coꝛpoꝛis « fan» 
+
+
+uínie vóini noftri Jeſu — Et — 1 
+
+
+Folio vl 
+LL noſter Jeſus chalſtus a at. | 
+H atechiſmo pueri /ſi ita placet / 
+L'ectíonce legant. a leccionibus 
+
+
+tanatur reſpõſorium. pueri verſum canat 
+cum gloꝛia patri. Poſt: Te deum lauda⸗ 
+mus / cum ſolito fine. 
+
+
+ur veſperis dominicarſi « feſtorlf. 
+vt in vigiliarum veſperis omnia 
+
+
+peragantut/ Sed ft longius pꝛotrahatur 
+
+
+canendi ceremo nia / quam evpediat prœ⸗ 
+dicationi / Poterit paſtor loci / cum ludi⸗ 
+
+
+anne agere vt quædam intermittat. 
+
+
+Drro in cathedralibus eccleſijs et 
+cænobiis omnia ad cundem mo 
+
+
+dũ fceuarí volumus ⁊ pradpimue/quan^ 
+
+
+tum attinet ad diuina officia / Jeq; hoꝛas 
+canonicas legant niſi de tempore Et caue. 
+
+
+ant omniũ diligentiſſime ne quid canant 
+
+
+ꝓtrarium ſactis literis Mit autem C piſco⸗ 
+pue ftue ſuperintendens diligẽter obſeruee 
+
+
+ne quid in cathedꝛalibus eccleſuis diuerſum 
+
+
+lat but etiam in cauobiis. Curabimus ve 
+re. rt | B ij m PIU eee 
+
+
+eier 
+
+
+oꝛdo ſeptem boratum eis ex facta ſeiy tu⸗ 
+ra pꝛæſcribatur et in fine buius oꝛdina⸗ 
+tionis adiſciatur / vt in biblijs e» verbo 
+dei everceantur. 
+
+
+Nitus celebrandi publicã 
+
+
+miſſã Pꝛiuatæ eniin totũ abꝛogẽtur 
+Et na tantum publica pꝛo comuni⸗ 
+cantibus ſeruetur Eft enim Miiſa 
+nibil aliud quá vfus cænæx domim ad 
+ↄſolandum infirmas conſcientias et 
+moꝛtem domim annunciandum: 
+
+
+Vblica miſſa in die dominſto / v» 
+
+| X2» pꝛo cõmunicantibus in ſolitis 
+vejtbue/altatt i inſtrato /cum con⸗ 
+
+ſuetis vaſis « luminibus celebretut. 
+0 Jneníd qui parochtam abneed 
+non habẽt / Miſſam vnam do⸗ 
+minicalem latine celebꝛare poterunt / dum⸗ 
+modo adſint communicantes / Canonem 
+volunus omníne vt o? ittant: Et vt 
+moctẽ do mini anugaent Hie obſeruandũ 
+
+vt pater 
+
+
+Follo vil 5 
+vt pater noſter a verba con ſecratfor is ver 
+nacula lingua in cathedralibꝰ eceleſur vi in 
+alus legãtur quẽadmodũ pꝛa ſcribetur cis. 
+
+(D Iniſter altaris celebratutue ad 
+
+aram geniculetur / et apud ſe 
+
+Confiteoꝛ legat «c 
+
+Et oter pio ininiſterio 4 rege 
+n regno / Interim dum populus cantat. 
+Poſt pꝛo ſequatur miſſam tupra. tecaptũ 
+morem modo eam nó pꝛophanet ſacrifici 
+aut operis titulo mox. papiſtica ſuperſii⸗ 
+tionis 2 blaſphemic. 
+ꝙnùinũ ergo introitus canatur vel 
+4 5 legatur ſed nó niſi ex fciptuta ſũp 
+tus /ut ſunt introitus dominicales 
+Et feſtoꝛum Chꝛiſti ep pſalmis ſumpti / 
+vel eius loco vulgares pſaumi⸗ 4 in primis 
+L 
+
+Pee eleyſon variis melodiis pꝛo 
+
+diuerſis temporibus vt hacter us 
+
+obſeruatum / ei homno angelieo Gloria 
+in iecilie deo / quem latine aut vulgariier 
+B ut inc piat 
+
+
+haptut miſer / z cceſi pet. 
+
+
+ca 
+
+
+D populum conuerſus dicat. 
+i dominus vobiſcum.⁊ rurſus in⸗ 
+uerſus legat Collectam ſed vulgariter ee 
+
+
+dumtapat vnicã / ni(i temporis neceſſitas 
+
+
+pio. ſui conditione depo ſcat 2 alteram, — 
+
+
+Populus autem reſpondeat Amen / 
+
+
+Quo facto rurſum ad populum cõuerſus 
+
+
+legat epiſtolam [5 vulgariter. 
+
+
+- I» Alelu ia /quæ perpetua ccdleſtc i 
+
+
+vog e(t cãtent pueri cum verfu ſi⸗ 
+
+
+ne cauda / Poſt / loco Gradualis vulgare 
+canticũ ep ſeriptuta ſũptum vel graduale 
+
+
+duoꝛũ cancum verſuũ / Scquentiæ ⁊ pꝛo⸗ 
+
+
+ſe omnes omittãtur niſi in cab? magnis 
+
+
+feſtis chꝛiſti vt natinitatis vſq; ad puert 
+ficationis / Grates nũc omnes cũ vulgati 
+
+
+fuo cantico. Paſcatos vſqʒ ad Pentecoſtẽ / 
+
+
+Dietimę paſcali laude. cum (uo vulgari 
+cãtico / Et Pentecoſtes Veni ſãcte ſpiritus 
+
+
+— 
+
+
+di fuo vulgari cantico. 
+
+
+yos Y n TB 
+
+
+Iterum 
+
+
+me vii 
+3 Terum ad populũ diee (cft 
+| (Cuágelíum fe vulgati voce. di 
+| E initio. box frquentía verba 2c. 
+Poſt rurſum inuerſus / 3ndpíat Credo in 
+vnũ orum zc Poſt etiam canatut ſymbolũ 
+
+ul à vulgari ſermone. 
+Jac hæc ſemper ſolita prædica⸗ 
+tio fiat / qua abſoluta ſi adſint 
+toͤmunicaturi/prœparet miniſter panem ⁊ 
+vinum / iuvta numerum cõmunicantium 
+er conferant ſe ad altare cõmunicaturi / ad 
+bey trum latus viri /ad ſiniſtrum mulieres 
+Aratus iam miniſter vertat fe ad 
+ſpopulũ cõmunicaturum /⁊ piae 
+perra legat eis ephoꝛtationem / de facras 
+mento. qua finita inuerſus ad altare alta 
+voce eaq; vulgari canat / Pater noſter / er 
+poft: ver ba conſecrationis. Sed hac ante 
+omnia vulgari lingua / Et ſubinde a ver⸗ 
+bis /detenti cleuatione/ ft ita viſum fuerit 
+miniſtro / eleuet ſonan us interim crm? 
+
+
+da eff libertoe chꝛiſtiana / ita tamen vt de 
+bac vopulꝰ ante ſatis pꝛæmoneatur ⁊ nibil. - 
+borũ mutetur ſine confenfu ⁊ mandato 
+(uper intendentis. 
+a (A: Ceipientibus panẽ ⁊ calicem nihil 3 
+dicatur quia omnibꝰ publie die 
+eit unte in ↄſccratioͤe verbis chriſti. Cutẽt 
+e iam miniſtii diligenter vt ſeiant numerũ 
+cd nun cindorum ne cogantur bis cõſecra⸗ 
+re. t ludimigiſier incipiat. Jeſus Chuſtus 
+noſtra aut altub ſimile Cõmunicatioue 
+autein [acra ſtatim ceſſet cantus. 
+
+
+H Is peractis vertat fe preſbyter ad 
+populum ⁊ dicat. dominus vo^ 
+biſcum et cõuerſus legat collectam pio 
+gratiarum actioue ⁊ reſpondeat populus 
+Amen / Poſt / rurſum vertat fe ad populũ 
+7 dicat primũ. dominus vobiſcum / demũ 
+b nedicat populum benedictione quæ eſt 
+numeri feto. Benedicat te deus «c Et 
+incip at ludumggiſter aliquod cantitum 
+build vu fie finie, Interim ſe i 
+equat : 
+
+
+Folio (o 
+
+beuat miniſter /a componat omnia / ⁊ vue 
+ſum geniculetur ad altare ⁊ agat deo gra⸗ 
+tias ſecreto. 
+1 Om vero non fuerint cõmunicã⸗ 
+tes / non conſecretur / ne ineida⸗ 
+mus in Sacramenti abuſum / vſurpantea 
+illud contra ↄmiſſionem dei / Tamen in 
+alba tantum / omiſſa caſula / pꝛo ſequatur 
+pꝛeſbyter ſacrum / coꝛam aliquo pulpito nó 
+coram altari id cft intermiſſa cena/ Loft 
+vnũ atq; alterum canticum vnã atqs alte⸗ 
+tam collectam legat/ Poſtremo pꝛo mote 
+
+P opulus benedicatur. 
+f ſũmis vero feſtis chꝛiſti vt na⸗ 
+ae paſcatos / pentecoſtes / 
+Er trinitatis / cantetur in ciuitatibua 
+latinus introitus / Gloria in excelſis / a⸗ 
+lelu ia / cum ſequẽtijs puris. Item latine 
+prœfationes / quae fi incipiet / Dominus 
+vobiſcũ.Surſum coꝛda «c Poſt / Sanctꝰ. 
+deinde oꝛatio dominica cum verbis ofcctas 
+dionis Sed hac femper vulgari lingua. 
+CPoſtremo 
+
+
+Poſttemo. Agnus dei / Tamẽ omnia de 
+pꝛo arbitrio miniſtri. 
+
+
+Ritus pꝛædicandi. fit eni 
+
+
+Prædicatio Euangelij ipſiſſimũ mie 
+niſterium ſpꝛitus a ſalutis noſtræ / 
+quo pꝛopꝛie chriſtũ referũt prædica- 
+toꝛes:iuxta illud · Nui vos audit me 
+audit / a nõ quouis modo / feo ita 
+exequẽdũ / vt verbũ dei certa ratios 
+ne ceu ex ſynceritate / ceu ex deo 
+pꝛoloquãtur / in ↄſpectu 
+dei per gelu CThriſtũ 
+ne víquam ao^ 
+iectione aut de 
+tractione 
+vitient 
+
+
+Rxdicaturus Primum populum 1 
+D. ad diuinum au vilium imploran: 
+dum eyhoꝛtabitur / deinde teyttß 
+UM ptænattet / poftea explicet / 4 
+iet vl⸗ 
+
+
+felis v | 
+nee vltra boram ſermonẽ Ann pe nee 
+pꝛopriis affectibus indulgeat / Sed quod 
+res eſt puris verbis vt intelligatur admo⸗ 
+neat / In primis autem ab omnibus in⸗ 
+uectiuis ⁊ calumniis abſtineat / hec vllos 
+nominatim perſtringat / tantum vitia in 
+genere / ⁊ qua certa audierit / reprehendat / 
+De non auditis taceat. Nec odio ſe in pa» 
+piſtas niſi vbi id admonitio z exemplum 
+exigit inuehatur. Abſoluta toncione / iterũ 
+prædicator populum evhoꝛtabitur ad 
+pꝛecandum / pro omnibus ⁊ ſpiritualis z 
+ciuilis vite negociis 7 neceſſitatibus. 
+Maxime autem pio illuſtriſſimo rege 
+noſtro / vt deus per eum nos tueri velit 
+et Euangelio fuum curſũ largiri / vt fub 
+eo cum pace gloriam domini promouere 
+qutamue/2 oret ecdefía orationem domi⸗ 
+nicam / Qua orata ordiatur CTudimagi⸗ 
+ſter canticum vulgare maxime pꝛo pace 
+quod cum tota eccleſia abſoluat / i 
+mi D pecialis quædã neceſſitas præ mae 
+* & íj nibus 
+
+
+nibus fit/tantetur cantéum pio es amo» 
+uenda / aut legantur vulgares litaniæ / 2 
+polt eas Collecta eandem neeeſſitatem 
+reſpiaens / 4 reſpondeat populus Amen. 
+Poſt ſequatur exhoꝛtatio ⁊c vt in miſſa 
+pate. * 
+5 Je obſeruandum vt oulgaree li⸗ 
+taniæ ad minus femel cantentur 
+in hebdomada poſt concionem die qua pa 
+[toc loq voluetit 
+
+
+Ominicis diebus in vrbibus ſo⸗ 
+
+litum ſemper Euangeliũ domi⸗ 
+
+nicale prædicetur. io matutinis fub luce 
+
+a Sacellano / ⁊ inter miſſandũ a parocho / 
+
+⁊ a prandio pueris immo omnibus piae» 
+
+dicetur perpetuo Catechiſmus / primum 
+
+decem præcepta / deinde articuli fidei / poſt 
+
+oratio dominica / tandẽ Inſtitutio ⁊ vſus 
+ſacramentorum. | 
+
+Erum ita vt femper vna vice 
+
+| oníca eius particula abſoluatur 
+
+Et in fine (emper certa quædã ⁊ vnifoꝛmis 
+
+eppoſitio 
+
+
+dom Folio vi 
+kypoſitio abomnidus obſeruetur / vt in 
+minore Cutheri catechiſmo evtat 
+Neque enim ibi quis eruditionem et in- 
+genium fuum oſtentare / ſed omnia ad 
+edificationem ecdeſiœ referre debet / vt idẽ 
+fempet ab omnibus audiatur / r ipfa vni⸗ 
+foꝛmitate doctrinæ populus certo inſtitu⸗ 
+atur / Tantiſper autem dum articuli per fe 
+vnius partis enarrantur / ſemper ipſa pars 
+integra reten ſeatur / feb. tractim vt pueri « 
+alij omnes eam tacite / apud fe ſequi poſſit 
+Ipſa autem pare certa quadam ratione 
+incipiatut a terminetut / Itidẽ in celíquta 
+fiat. Et ſemper ſemel abſolutus catechiſ⸗ 
+mus de integro repetatur. 
+JV ſeptimanis bis ad ſũmum in 
+vrbibus prædicetur / quartis 2 
+ſeyptis ferijs. In publice ^ certis neceſſira/ 
+. ttb? tertia ⁊ quarta cõcio ad dat. Et nó nift 
+faciles ⁊ fruetuoſi libri vt epiftolee domini⸗ 
+cales / aut ſimile quippiam / vnde populũ 
+ad veram pænitentiam / verum amorem. 
+* C dj dei 
+
+
+dei veram in deum fidutiam / abeoqs vera 
+
+
+bona opera eyhoꝛtari qurant / Fides enim 
+
+
+vera / ſine pæ nitẽtia haberi nó poteſt / nec 
+pænitentia ſine fide eſt quod audit / Et 
+Chꝛiſtus bac duo ſimul prædicare vult. 
+
+
+"ex vltimo⸗ 
+
+
+2 vrbibus tamen populo ſiori⸗ 
+
+
+bus vbi prædicatorum « audi⸗ 
+torũ copia eſt / nó improbamus quotidie 
+
+
+conciones etiam ey alie libris fieri / modo 
+
+
+ea tractentur / qua faciant ad ædificatios 
+
+
+nem / 
+
+
+gelium ad dimidiũ vnius bore pꝛa dice⸗ 
+tur / 4 reliquum eius bore Catechiſmo 
+
+
+enarrando tribuatut. Et ſi qui ex praſen 
+tibus parochis pie prædicare nequeant / 
+
+
+tantiſper dum id addiſcant ey danidis 
+
+
+poſtillis ad verbum ſuis prælegant / 2 
+Euangelij enarrationem⁊ catechiſmi exe 
+plicationem / feb tamen vedi tempore 
+
+
+aſſueſcant per ſe pradicare / 
+
+
+Vri ab eundem modũ domini⸗ 
+cis diebus ſemper ↄ ſuetum euã⸗ 
+
+
+—. (fiue 
+
+
+b folo wt 
+Neque charltatis indulgẽtiam in ignaui 
+occaſionem vertant. Singulis autẽ domi⸗ 
+nicis vnam vnius partis catechiſmi par⸗ 
+ticulam enarrent / et interim vt ⁊ ante de 
+vrbibus dictum eſt / dum in aliqua eius 
+parte morantur / ſemper eam integram 
+prœnarrent / vt tacitus per fe quiſqʒ ruſti⸗ 
+
+jane eadem apud fe/ cecenfere valeat / 
+Singulas autem catechiſmi particulas ſẽ⸗ 
+per certa quadam ac breui expo ſitione / vt 
+
+in minore lutheri catechiſ: eytat / cõcludãt 
+nec vnquam ab ea varient / 2 ſemper ipſao 
+partes (cp certo quodam initio ordiantur 
+2 fine terminent / et boc ipſis perpetuũ fit 
+Pꝛoinde vbi femel ab ſolutus erit / ſeper de 
+nouo repetatur / ipſe inquam catechiſmus 
+
+
+Ab ſt concionem meminerint con 
+O Nionatores femper ad publicas 
+
+precationes fe exhoꝛtati debere 
+Vfpopulũ pto noſtro Magiſtratu 
+pro publica neceſſitate 7 ubero Euẽgelij 
+
+
+3 
+
+
+curſu / Nimirum vt omnes beum ep toto 
+
+corde et animo orent enam orationem 
+dominicam. Poſtremo canatur vulgare 
+canticũ aut ſi neceſſitas publica obtinere 
+cœperit litaniæ vulgares cum collecta | 
+
+
+IS tribus maioribus feſtis chriſti / 
+prœdicetur in vigilue eorũ ad quarta⸗ 
+le vnius hora / ſed in vrbibus boc fieri 
+dumtapat volumus / et in ipſis feſtis per 
+triduñ / 2 poft meridiem de fefto In alis 
+feſtis / vt Circũ ſionis / Epiphaniæ Puri 
+ficationis / Annſiciationis / Aſcẽſionis / Vi⸗ 
+ſitationis Mari / 3obánte baptiſtæ / 
+Michaelis Et Omniũ ſanctorũ /tantũ in 
+die prædicetur. Dac enim fola fefta tti | 
+nemus cũ dominicis diebus ES. 
+
+
+De lurrialbus itt. | 
+ombus : 
+4X 
+
+
+N die Ctepban( be batoníé pra a 
+ditetur / ad dito «péplo Lourtit/ot 
+derts 
+
+
+| | Folio vii 
+terta hominibus ſolicitudo erga pauperes 
+imprimatur. In die jobánte euangeliſtæ 
+de vocationibus / vt fua vnicuiqʒ vocatio 
+commẽdetur / ne ea deſerta requirat aliam 
+
+
+Donn Eſto mihi / Euägellum 
+de baptiſmo chꝛiſti Math: z: lega⸗ 
+tur a boc die toto ratio ſacramenti baptiſ⸗ 
+mi explicetur. 
+Ominica Quaſi modo geniti / 
+octaſione Euangelij Johannis 
+nen De clauibus eccleſiæ præ dicetur 
+Bona quinta feria poſt palmarũ Sacra⸗ 
+mentũ coꝛporis ⁊ ſanguinis Chꝛiſti enar⸗ 
+retur / Et (Equi cõmunicare voluerĩt / (u^ 
+
+
+ta ritũ dominicalem peragantur omnia / E 
+
+
+Tantum diligenter moneatur populus / 
+ne ex ſola conſuetudine pꝛoptet tempus 
+tomunicet / Fiat etiam ad vefpetá mentio 
+& tractatio de lotione pedum ⁊ de agonia 
+
+Chuiſti in hoꝛto. Seyta feria poft palma» 
+tü mane 7 à cantu pueroꝛũ / cum vulgare 
+* | D canticum 
+
+
+* 
+
+
+eanticum in cemmunt cecinerint omnes / 
+aſcendat prædicator ⁊ ep oꝛdine totam. 
+paſſionem prælegat / ↄſcriptã ⁊ collectã a 
+Doct: Pomerano/ey quatuor Euangeli⸗ 
+ſtis vſqʒ ad hiſtoriã reſurrectionis. Ita in / 
+
+cidiens / Doc eſt ſupplicium domini noſtri 
+Jeſu Chꝛiſti / vt ſcriptũ eft a quatuor Eu⸗ 
+angeliſtis. Cum a cena gratias egiſſer 
+dominus noſteꝛ Jeſus Chꝛiſtus / iuit trãs 
+toꝛrentem Cedꝛon ⁊c Poſt ad dimidiam 
+hoꝛam vſũ paſſtionis indicare poterit / ⁊ a 
+prandio reliquos locos evplicare / Quod 
+fi qui ⁊ hoc die cõmunicare voluerint comma 
+municent / ſed omittatur ea pars miſſæ 
+qua ante pꝛædicationẽ fieri ſolet / Et fiat 
+initium dumtavat ab eyhoꝛtacione / Poſt 
+
+
+$e 
+
+
+quam ſtatim ſequitur Pater noſter ꝛĩcc 
+
+
+"* Yi ie Johannis baptiſtæ de mis 
+
+niſterio evterni verbi præ dicetus 
+4 contra anabaptiſtas / qui tactant 
+illud dictum Et erunt theodidacti /a om 
+
+
+nes ſcholus van: tattum ne hiſtoria de 
+| fando | 
+
+
+E 3 
+
+
+| 
+
+
+granae get debeamus. 
+
+
+Folio viii 
+ſeincto Toonne Wee qua vna præ⸗ 
+dicatione nó poteſt terminari nempe de coͤ⸗ 
+ceptione ⁊ natiuitate ⁊ pꝛædicatione 2 de⸗ 
+collatione eius /cuius pars poteſt in alios 
+dies reſeruari Et poteſt in die natiuitatis 
+Johãnis cantari ſequentia de decollatione 
+an regi ⁊c 
+
+V die omnit ſanctorum de fide 
+
+⁊ imitatione diuorũ pra dicetur / 
+
+pt intelligat eccleſia quomodo pie honoꝛã⸗ 
+
+di ſint ſancti n6 inuocatione aut ſuperſii⸗ 
+tíone falſæ religionis «c^ 
+
+ee angelotũ cömunie gratiarlſt 
+
+cctio ſit pio om pibꝰ frugibus 
+
+ipfo anno pereœptis / ⁊ cãtetut in gratiatũ 
+
+actionẽ protinus a cendone / map na ani⸗ 
+
+
+mi deuotione a tota eccleſia Te deum / I ee 
+
+
+totum autẽ diem tam mane quam a pran⸗ 
+dio de angelis concio habeatur / vt intel⸗ 
+liganc omnes quid per cotíi miniſieruim 
+nobis cõmodi accedat ⁊ vnde ſemper deo 
+
+
+D i Ritus 
+
+
+Vitus keriandi. Hunt ent 
+
+
+aliquot certe feri conſeruandæ | 
+nõ pzopter ipfos dies / ſed ppter. 
+pꝛædicationẽ verbi/ vt cõe 
+mode omnes euãgeli 
+partes enarrari 
+poſſint. 
+
+
+| E Erias nullae vt ante dictum eſt / 
+L » repim? nift ſolitos dominicos 
+— dies / ad ſemel a labore interquie⸗ 
+N 4 verbũ dei audiendũ 2 Sacramẽtũ 
+percipiendum / z in cõmnuni pio omnibus 
+neceſſ itatibus orandum / deoqʒ mes 
+agendum pio (uie beneficijs. 1 
+
+
+| Tria magna feſta chꝛiſti ver tres ctinuos 
+dies pꝛopter hiſtoriam C huſu feriamur. 
+
+
+Itidem fetum Circiaf onis / Epiphanier 
+Purificationis 2. Annũciationis Mariæ / 
+quot M in e pofi dominicam 
+
+Palmari. 
+
+
+palmarii aut vltra ceciderit / ſẽper ſabbato 
+palmarum pro veteri more celebrabitur / 
+feit praterea Aſcenſtonis / Viſitationis 
+cim folito Euangelio ⁊ epiſtola C fatae vi 
+capite / Egredietur virga ⁊c / cuius finis 
+eſt. Et ſepulchꝛum eius glorio ſum. Feſtũ 
+etiam Joannis baptiſta / feſtũ Michaelis 
+pꝛo gratiarum actione / Et feſtum omniũ 
+ſanctoꝛum. | 
+
+
+* " 
+f 
+
+
+— 
+
+
+1 Poſtolorum feſta publice indi: 
+-—Bctut 1 ad provimos dõinicos cũ 
+fefto. Magdalen « Laurẽtij referantur 
+De Magdalena poteſt cantari ſequentia 
+Laus tibi Chꝛiſte zc. Cam? iupta rationẽ 
+doͤinicarũ omnia legantur ^ pra dicẽtur / 
+tantũ in fine concionis / ſi quid certi de iis 
+in ſcripturis habetur / ad evemplum fidei 
+charitatis ⁊ ſanctæ crucis ferendæ pꝛopo⸗ 
+natur Obi vero quotidie condo fit /liberũ 
+fit «o ipfo die quo cadunt / Euangellum 
+feſti tractare. | Jen 
+r D iij Ritus bapti⸗ 
+
+
+Tits baptisanpi Eſc enk 
+baptiimus obſignatio cozum/ quæ 
+oc Chꝛiſto credimꝰ nẽpe foedus dei 
+nobiſcũ in Chꝛiſto / confirmans 
+fidem / a ſigmficatio poeni⸗ 
+tentiæ que requirit. 
+vitam Thriſti⸗ 
+gnam. 
+
+
+eri Baptizẽtur vulgari lingua / 
+
+. in ſolito baptiſterio / nudati tri 
+
+na vice perfũdãtur aqua / habita 
+
+interim ratione valetudinis / baptiſmus 
+enim in ſalutem nõ in pernitiem puerorũ 
+confertur. Baptizaturus vero interroget 
+ad ductores cuius puer ſit ⁊ an domi bap⸗ 
+ti: atus: Quod ſi rite baptiʒatum audierit 
+nullo modo rebaptizet / vnus enim baptiſ⸗ 
+mus eft E pheſ: 4. cap: Tantũ Symbolũ 
+apoſtolicũ / Orationem dominicam / eum 
+Euange io Marci fupra puerum legat / 
+Poſt/ad pꝛeſen ies / maxime teſtes (quos 
+Ni SUGO n parentes 
+
+
+E. | $ elio dvi een 
+
+parentes pueri debent ad hoc rogare vel 
+poſt baptiſmũ ſi prœ feſtinatione nõ licer 
+ante) dicat / Fratres hic puer iã baptizatꝰ 
+eſt ⁊ ſpiritũ ſanctũ ⁊ remiſſionẽ peccatorũ 
+habet / ergo ipſũ rebaptizare nolumus / ne 
+ſpiritũ ſantum bla ſphoememus / id quod 
+vos teſtes in primis teſtabimini / gratias 
+agentes domino deo / quod eum in gratiã 
+per Chꝛuſtum teca perit. Poſt / dicat ad 
+puerũ / Dominus cuſtodiat introitũ tuũ 
+z evitum tuũ ey hoc nunc ⁊ vſqʒ in ſacu⸗ 
+lun Ams / et nouiſſimam orationem quae 
+incipit Omnipotens deus «c Poſtremo 
+breuibus teſtes alloquatur / vt hoc vbique 
+teſtari velint ⁊ ſi contigerit parentes oppe⸗ 
+tere / vt vice parẽtum in iis qua ſalutis (üt 
+ei effe velint pro virili / ſi fuerint in eo loco. 
+
+
+()*» ſi baptizatus non ſit vel de ei 
+baptiſmo / vt ſape fit / dubitetut ( cé 
+dicie nalis enim baptiſmus in ecdefía locũ 
+U^ habet) primũ adhortatio ad M 
+
+
+teſtes habeatur / vt piæſtantiq baptifimt 
+admoneantur / 4 ad obſeruãtiam eorum 
+que dicuntur evcitentur. Poſt incipiat 
+Evi ſpiritus immunde 4€ Facto baptiſ⸗ 
+mo rurfum evhortatio ad teſtes fiat / vr 
+ſciant quid puero debeant ſicotigerit ante 
+mituram ꝙtatem pueti mortem obire 
+parents / in formationẽ ſcʒ in catechiſmo 
+ſi fuerint in eodem loco / vt adultus ita 
+apud Chriſtũ permanere poſſit / Fertan | 
+a! fq; illi per baptiſmũ inſertus efi. d 
+
+
+Witus abſoluendi / acit 
+
+
+«nim abfolutio ſi ei creduur 
+ep e- reuertiad 
+pactum bapti. 
+
+
+* e uus abſoluatur niſi agnitione 
+A pecca orum (uorum abſolufionè 
+petierit. Pꝛodterea parochi vrbani ſub v 
+
+ſperia ſabbatinis / rurales ante miſſam 
+
+e e in templis preſto finit cen? 
+
+feſſiones 
+
+
+ien ole olf 
+
+
+ſeſſtonee auditurt coꝛum qui cõmunicare 
+
+
+voler t. 
+mos Onfitens autem ratio nem ſuæ 
+
+
+vitæ red dar ⁊ vel in genere fe 
+
+
+peccatoꝛem agnoſcat / aut qua dam fuae 
+vocationis delicta fateatur / aut ft quid ali? 
+oqui ↄſcientiam male pungic recen ſeat / 
+Nam ſingulorum peccatorũ enumeratio 
+expoſtulan da nö eſt / ſed quorundam ex? 
+plicatio mire con ſcientiã reficit. Miniſter 
+autem ibi prudens fit ⁊ pro racione fut cu⸗ 
+iueqʒ pecatt remedium ev verbo dei ad⸗ 
+hibeat / Et deinde niſi excõmur icatum z 
+nondũ eccleſiæ recondliatum offenderit 
+per ünpofitienem. m anuum abſoluat. 
+
+
+) Iſtea ft to umicate queq, voluerit? 
+— diligenter inqutratur quid de cana 
+do mini ſẽtiat / videltcet an intelligat quid 
+
+
+tœna domini ſit / « pꝛaſtet / quo vfu po^ 
+E velit / ⁊ an etiam in ſchola Chꝛiſti ea⸗ 
+
+
+ Vhuo pꝛomouert vt verba catechiſmi re⸗ 
+E eenſere 
+
+
+r 
+
+
+ten ſere queat / Sin minus tanquá vefte 
+nuptiali carens hac vice a cena dominiev - 
+cludatur. Serum hoc ei indicetur a pre^ 
+ſbytero in oculta confeſſione / nempe vt 
+abſtineat a ſacramento donecemendet ſe / 
+vel diſcat / Ne ſi coram altari in publico 
+reiſciatur aliquam contrahat infamiæ no? 
+tam. 1775 | 
+DOs homicidarum qui nondũ 
+in gratiam cum partibus redierit 
+aut magiſtratut ⁊ partibus nó ſatiffecerit 
+abſoluatur (hic tamen neceſſitati quæ lege 
+earet nibil præ ſcribimus) multo minus 
+datis literis ſine confenfu. partium ⁊ ma» 
+giſtratus vt fit / aſſecuretur. Per 
+Vi vero a perpetrato homicidio 
+um magiſtratu amiciſqʒ oceiſi 
+redierit in gratiam / pio veteri moꝛe / ex 
+notis ⁊ amicis ſuis / aliquot ſibi adiungat 
+⁊ die dominico / ita parochum loci accedat. 
+atqʒ ibi ſtatim / a concione ad ſũmum alta 
+re / pænitudinem fuam publice aperiae 
+Qué auditum parochus / eccleſiæ precbꝰ 
+cd )ömendabit / 
+
+
+E 
+j 
+
+
+Folio vli 
+
+
+| 8 D eundem modũ inceſtuo ſi ⁊ quot⸗ 
+
+
+quot publico crimine eccleſiam palam 
+offen derunt / publice paniteant. Et ft ſerio 
+4 ey animo abſolui petierint / publie ab⸗ 
+
+
+ſoluantur/⁊ eccleſiæ reconcilien tur Nam 
+
+
+aperta pecata pa lam abſoluẽda fic Quae 
+vero occulta fuerint etiam occulte ſunt ab⸗ 
+ſoluenda. thil vero negligendum erga 
+
+
+tos qui publico iudido ob ſcelera cõdem⸗ 
+
+
+nantur ad moꝛtem. Abſolutio eis Santa 
+
+
+eſt a ſacramentum fi poſtulauerint. 
+
+
+Nitus cũmunicãdi.eſt eui 
+
+
+cõmunicatio / confirmatio credent ũ 
+adeoqʒ pignus quod teſtificatur no 
+bis exhiberires Euãgelio pꝛo- 
+miſſas / remiſſionem fcilicet 
+peccatorum / umputaa 
+
+tionem iu ſtictæ 1 
+vitã æ ternã. 
+E ij oe 
+
+
+(Smentabit tenfolabítut/ 2 ſic ab ſoluet. 
+
+
+! 
+EM Ri esp o o ah P A o 
+
+
+(mf daturt vtraq;: ſpecie eemu⸗ 
+nicent vbique. C cft quidam ſune 
+infirmi fide / id eft qui nó audent 
+ita e, aut etiam adhucignorantes 
+ſũt / hi poflütper diligentes prædicatores 
+vel in tribus men ſibus ſaris inſtitui de in⸗ 
+ſtitucione Chꝛiſti / vt z ipft velint ita fuf» 
+cipere / mavime cum viderint evemplum 
+aliorum. Alioqui ft audire noluerint / nd 
+infirmi aut ignorantes iudicandi ſunt ſed 
+indurati 4 pertinaces aduerſus Ch riſti ins 
+ſtitutionem. i 
+(4 D factam autem ſinaxim / quæ 
+tãtum credentiũ eſt / nulli ne qui 
+dem ey credentib eis admittendt / niſi ſe 
+miniſtro indicauerĩt ⁊ cõmunionẽ petierĩt. 
+Deinde ne petentes quibem omnes admit 
+tendi niſi prius fidei ſue rationem reddi⸗ 
+derint ⁊ ad queſtiones cano reſpẽ derint / 
+Viſi alias fatintegroe effe conſtiterit / De⸗ 
+m / ft etiam bene reſponderint et non 
+referant interim mor bus fuam intelligen⸗ 
+tiam/a e nuatone arceantur in occulta 
+tamen 
+
+
+Folio viv 
+kamen i vt ante dictum. 
+
+
+rimum igitur / nemo ex credentibus 
+admittatur ad facram ſinaxim qui 
+ſe pꝛeſ bytero ecdeftaenon indicauit. 
+Deinde / nec quiſquã coꝛum qui evami-⸗ 
+natus / ſed ad interrogata non tenẽs quod 
+reſpondeat / eſt admittẽdus. 
+Demum nec hi qui etiamſi examinati 2 
+ad omnia interrogati reſpõdere ſatis docti 
+vitam tamen viuunt fuc pꝛofeſſioni cone 
+trariam. 
+Arcendi pꝛoinde a facta ſenavi ſũt publita 
+excomuntca:i ⁊ nõdum abſoluti. 
+Deinde Quicunqʒ in confeſſa hareſi 
+obſtir ate harent. 
+Præterea Inſani bómirea 2 impꝛudentes 
+pueti. 
+
+
+| Poſtremo / omnes 
+qui in SPManífqtie criminibus obſtinate 
+viuunt vt adulteri / ſcoꝛtatores / v urarij / 
+Pdl iofi/maleviay íniuriatotce/ 7 mavime 
+
+T8: E üj blaſphemi / 
+
+
+blaſphem / ⁊ tomtemptores verbi/qui pae. 
+lam « ſine timore peccant / et magnifica 
+nihilominus de Euangelio iactant. 
+
+
+ima. diſcipuli Chꝛiſti / qui ſe indi⸗ 
+cauerĩt miniſtris / examinati / quod 
+res eft confeſſi a vitam chriſtiano nomine 
+dignam viuentes / praterea qui abſoluti 4 
+non reiecti / cõmunicent et accedant pꝛimũ 
+viri poſt muliere. | 
+0 Votannis autem ſemper / bis 
+d denũcientur illi / qui a ſaeramẽto 
+euchariſtiq arcendi ſũt / dominica ſcilicet 
+palmarum /⁊ quarta dominica aduentus. 
+
+
+Ritus cũiũgendimatrimo 
+nialiter Doꝛro matrimo niũ ad mint? 
+ſtros veꝛbi nó ſpectat / miſi quantũ 
+ad cõiunctionẽ eoꝛum 4 ſcrupulos 
+—A efcennarirattinct/reliqua 
+omma ad magiſtratů 
+pertinenrn. 
+Matrimonialitet 
+
+
+R 
+, Atrimonialiter contra gradus 
+A prohibitos nulli coniũgantur 
+net qui dam inter fe cõtra po⸗ 
+E Wntatem corum? quibue fub 
+funt/ contraxerint Aut nó ante ſemel atqʒ 
+iterũ palam in templis denunciati ſnt⸗ ac 
+publica precatione adiuti. 
+
+
+In quibus vero omnia ſe recte habent / in 
+facit eccle ſiq tuy ta recaptũ parce morem 
+a miniſtris ecile ſic teta pti copulẽtur tuy ta 
+rationẽ qua reat in mere, spi 
+Cutheri. 
+
+
+Oſt hac vero nó admittatur ma, 
+trimonium in tertio gradu / vt ſer⸗ 
+s uetur honeſtas verecundia feno 
+guinis / quẽadmodũ hactenus a pꝛogeni⸗ 
+wan noſtris eſt obſeruata⸗ Hr 
+
+
+itus itiutominitrog 
+
+
+Eſt autem 
+
+
+£ft autem older d nibilaliua ond 
+
+titus eccleſiaſticus / vocãdialiquem 
+
+in nuniſteriũ verbia ſacramẽtorum. 
+Nemo enim per fe / nõ vocatus 
+
+rite / ſubir e miniſter ium in 
+
+eccleſia debet / aut 
+parochiam inug / 
+dere / 
+
+
+nes preſbyteri vnius bꝛouin⸗ 
+
+Dy R cio fiue præfecturœ eligant ſibi ci - 
+ſuo ſuperattendente / vñũ eo praes 
+dicatoribus / quẽ dignum iudicauerint / 
+ſiue in ctuitate ſiue in rure habitet / vt fie 
+pꝛeſbyteroꝛũ 2 ec leſtarũ illi Prepofttus. 
+
+
+2 ⁊ ccdeſia que indiget miniſero / otet 
+primum exvemplo Chꝛiſti / deinde per 
+pra cipuos/quoꝛum intereſt / cdi Pꝛæpoſi⸗ 
+to cl'gat ſibi quem iudicatidoneũ / de quo 
+ipſa certum teſtimonium bone vitæ / 2 
+morum fcribere poſſit ſuperattendenti lock 
+2 con M eũ mittat ad ſuperatten dentẽ 
+examinandum 
+
+
+— s 
+
+
+j 
+
+
+evaminandũ de doctrina / vbi vero aliqui 
+ſũt qui ab antiquo habent ius patronatus 
+eligendi ⁊ pra ſentandi paſtores ſiue prœ⸗ 
+dicatores / illos roget eccleſia pro viro / quẽ 
+ipſa dignum iudicauerit / vt pra ſentent 
+eum ſuperattendenti / 
+
+N vrbibus ftue ciuitatibus ſena⸗ 
+tui 2 magiſtratui præſentandi 
+(ue ſit /etiam illi vbi nullum ius patro» 
+natus hactenus habuerunt ſenatores vel 
+magiſtratus loci / modo (to iure nõ abus 
+tantur contra hanc noftram oꝛdinationẽ / 
+Miſſio vero oꝛdinandi / ad ſuperatlendẽ⸗ 
+tem 2 profectum fiat expenſis ecdeſiæ 
+que eum mittit, | 
+Norro ſi ordinandus probatus i in 
+Ddoctrina fuerit / Superattendeno 
+E mittat eum ad Prafectũ loc vt 
+ab to ſuſcipiatur nomine noſtro. 3brfott 
+ma iuramenti fit hae ⁊ nõ alia. Ego . N. 
+electus paſtor Eecleſiæ. N. promitto Se 
+cmt Regi fidelitatem/ꝙ honorem 
+F obedienud 
+
+
+— 
+
+
+obedientiam « tatem Regi Matrei 
+curabo / diuerſa vero cauebo / Pꝛomitto 
+etiam officij mihi cõmiſſi diligentiam qud 
+diu in eo fuero ſecundũ oꝛd inationis pto» 
+ſeriptum Si quid vel imprudens vel bus 
+mana fragilitate neglexero / hoc igno ſcat 
+mihi deus per filiũ ſuum dominũ noſtrũ 
+Jeſum € hriſtum. Coutrarium vero per 
+contemptũ agere nolo. Ita me deus Wiu⸗ 
+uet ſuo ſancto Euangelio. : 
+Prœfectus autem noſter ſtatim di ve⸗ 
+nerit ſu ſeipiat eum benigne / ⁊ remittat cñ 
+literis ad Superattendentẽ / ne grauetur 
+ſumptu / ⁊ ne interim / quod periculoſum 
+eſt / eccleſia eius careat paſtore ⁊ animarum 
+ſecundum deum curatore. Porro prafectꝰ 
+noſter nihil accipiat ab co / ne auaricic cõ⸗ 
+merciũ/quod Superattendentibus pꝛohi⸗ 
+bemus / a noſtris Prœfectis turpiter cõmie 
+tatur. ne etiã noſtri preſbyteri videãtur vel 
+cogãtur dãnata Simonia emete (aar Ee 
+cleſiæ miniſteriũ ad quod honeſti 2 docti 
+vocari / feenfeuetint/ egt fatta " | 
+| nulo 
+
+
+a Folio x vi 
+gitione debẽt / tantũ abeft vt impie et tur⸗ 
+pit emãt. Non liciat hoc noſtris Prafectis 
+quod hactenꝰ nó licuit Papiſticis Epiſco⸗ 
+pie nifi cũ ſũmo erimine tyrannidis et 
+Simonic. Si quid autem dandũ eft No⸗ 
+tatio qui ſeribit literas pro fuo labore litet 
+mo dico / (it dimidius aureꝰ / aut ad ſũmũ 
+integer aureus honoris gratia / hunc det 
+electus preſbyter Notario prœfecti feo ew» 
+pẽſis Eccleſiæ qua eũ mittit. Poſtea vbi 
+adfert literas / ſu ſeipiat eum ſuperattendẽs 
+in templum ciuitatis vbi habitat /⁊ coꝛam 
+E publie fic eum oꝛdinet / hac cetemo⸗ 
+a/ 
+
+Primum poft lectam epiſtolam in 
+miſſa vnus ex preſbyteris aſcendat luge 
+geſtum / et dicat illum virum : N: vocatũ 
+ab eccleſia: NJ. ad publicum facri Euange 
+lij miniſterium / habere bonũ teſtimoniũ 
+vitœ / apud illam eccleſiam / pꝛobatum ab 
+epiſcopo in doetrina ſyncera / Nunc oꝛdi⸗ 
+nandum ad hoc illius eccleſic offieiũ cord 
+$1 altar 
+
+
+ibis faera leetione / eyhoꝛtatio W 
+
+
+impoſitione / ⁊ oratione / iccireo exhoꝛtari 
+ſe vr populus interim oꝛet 2 commendet 
+miniſtrum cũ miniſterio deo / vt boccebat 
+in gloriam dei a falutem multorum / Nee 
+
+
+minus grãs agat deo per Cl /ꝛiſtũ quod 
+prœdicatores ſuæ eccleſiæ mittit / Siquidẽ 
+bec funt dona qua Chriſtus afcenoene 
+
+
+fue donauit eceleſiæ vt eſt Ephe: : 21i 
+
+
+dengt altum «€ . 
+| Einde cõtante ſchola / Veni fácte 
+ppiritus latine / coram altari ge? 
+1 tur ordinandus cum aliquot preſby 
+
+
+teris qui adeſſe poſſunt / ⁊ ſuperattendene 
+ſtans ad altare dicat collectam/ Deue qui 
+
+
+coꝛda fidelium ſancti ſpiritus ⁊c deinde 
+
+
+verſus ad populum / legat ſacram lectionẽ 
+de epiſcopis ev epiſtola ad Titum vulga⸗ 
+ri ſermone / Poſt lectionem pꝛoponat ordi 
+nando mandata de Euangelio ſyncere 
+prœdicando Et de ſacramentis reete ad⸗ 
+miniſtrandis / deinde vt recte doceat de 
+
+
+Nantes, de cruce / de equ 7obt 
+
+
+ientia / 
+
+
+B ZAUEJ! 
+dientia / de bonis operibus / ^ reſiſtat per 
+ſanã doctrinam erroꝛibus / et vt diligen ter 
+ſtudeat ſacris litteris / ſit quoqʒ aſſiduus 
+in oꝛatione / Ad qua omnia / aperta voce 
+coꝛam omnibus reſpondeat / fefe bacc bil 
+genter curaturum ſecundũ gratiam dei. 
+
+
+Y- C Einde epiſcopus fue fi uperattendens 
+cũ pꝛeſbyteris impõat oꝛdinãdo ma? 
+n" ⁊ ol at aperta voce vulgariter / Pater no» 
+fiet ⁊ addat collectam / ad hoc factam ſine 
+tono / Et in ftne iubeat totam eccleſiam 
+reſpondere amen / Mop canitur vulga 
+riter Nunc precamur ſanctum ſpiritum / 
+integre cũ omnibꝰ verſibus. Interĩ ſuper⸗ 
+attendens geniculatur coꝛam altari ⁊ orat 
+ſecreto. Finito vero primo verſu canticj / 
+ſurgit a ſtat altare verſus / a ſimul ſurgũt 
+alii preſpyteri «ii oꝛdinato Et oꝛdinatus 
+accipit fibi locum nó procul ab alteri/vt 
+aceipiat cómuntonem ſacram / ad quà prae 
+(aree tunc primus debet accedere. 
+
+
+F dj Ita hoe 
+
+
+Ita hoc tot negocium ordinationis 
+perficietur ſecundum dictũ pauli. Creatura 
+ſancaficatur per verbum « orationem, | 
+
+
+dſtes ſuperattendens uitris (io 
+gillo fuo obſignatis comme dabir 
+eum Prapoſito ⁊ alie preſpyteris 
+ſi qui ibi (unt in eccl ſia cui oꝛdinatus pꝛæ 
+ficitur / ⁊ magiſtratui et cott eccleſiæ vt ſit 
+ſacri verbi pra dicator « ſacramentorum 
+Chriſti adminiſtratoꝛ Prapoſitus vero 
+die dominico aut feſto pꝛo conaone/ eum 
+populo commendet / ⁊ legat literae epiſco⸗ 
+pi/ quod eft rite vocatus examinatus et 
+1 at 5 
+Wafectus no ſter cũ ad eum Loci 
+| poftca per occaſionem venerit (ali 
+oqui nõ eſt opus eo propter bane 
+a ire) nomine Regis mandet illie 
+hominibus vt tueantur bunc preſbyterũ 
+et dent ei ſtato tempere quæ ſũt oꝛdinata⸗ 
+tõmineturqʒ fe velle vindicare nomine Re 
+gie conma inobedienies. Madamus vero 
+vt ptafece 
+
+
+Bai sii folio LOB 
+. noſter cũ licet / hoc diligenter 
+exequatur. 
+
+Tem inueniuntur parochic / 
+A. neqʒ tam populofa neqʒ tam 
+llberaliter conſtitutœ / vt ſingulæ ſuos pa⸗ 
+
+
+toxes alete queant. hinc aceidit quod mag 
+
+
+no labore ⁊ paruo auditori ft uccu/paſtor 
+vnus / multte patochtis cogitur in ſeruire. 
+Ideo nullus parochus plures ccdefíae de⸗ 
+bet habere / quã quib? cõ mode poſſit verbo 
+⁊ ſacramentis praeſſe/⁊ cũ fuo a dituo eoo 
+catechiſmũ docere / viſitare eas ad docen⸗ 
+dum fuo tempore / ſecundum oꝛdinationẽ 
+quá pra fcribit ei ſuperattendẽs cir pꝛæpo⸗ 
+ſito loci. Fiat ergo ep his eccleſiis iudicio 
+ſuperattendentis 2 præpo ſiti ⁊ prafecti 
+noſtri parochia vna / ſcribatur nobis ab 
+lis vt ↄfitmemus ⁊c 
+„ oet mendicantes poſthac in 
+regnis noſt ris nó. ſuſtineantur / 
+nc mendicẽt / nó prædicẽt / aut cõfeſſiones 
+
+
+audiant Aab in monaſterio qui 
+
+
+ſeniores 
+
+
+Dr 
+
+
+ſeniores 4 veatott (unt nec vllis officiis apti 
+Ibi alentur propter deum / ita rame ot cua. 
+«ullam « cappam exuant 2 Euangeliũ 
+nó blaſphement. : 
+Jem imagines quibus vota nũ⸗ 
+cupantur ab imperita multitudi 
+ne / ad quoe e remotis etiam locis cũ do 
+lolattíc vitio concurſus fit / omnino ſint 
+abrogatæ / quãdoquidem omnibus cõſtat 
+nihil aliud effe quam idolatriam. 
+
+
+Rdinati autem ad miniſterium ſpi⸗ 
+ritus / Id eſt / ad Euangeliũ prædi⸗ 
+tandum parochi / tantiſper quod ſint au⸗ 
+diant / dum ſynceri in doctrina 2 moribus 
+eſſe perſeuerant / no implicentur iuilibus 
+aut alis negociis ad ſe nõ pertinentibus 
+Quod ſi diſſimiles ſui eſſe cæperint nec 
+admoniti reſipuerint in oꝛdinem pꝛo iudi 
+cio Superintendẽtis 4 prapo ſitorñ 
+Pra fecto noſtro ⁊ magiſtratu 
+tedigantur et in vulnges 
+
+gomputentur. | 
+| Ritus 
+
+
+— —-„— 
+— 
+
+
+; | foli ger 
+Ritus ted municãdi "t. 
+
+
+ſtinatos Eſt enim excõmunicatio ex⸗ 
+tremum eccleíte remedium / ad 
+obuiandum vitis / 4. ideo 
+hoc nouiſſimo tépoze 
+moꝛdicus retinen 
+dum. 
+
+
+ee publice eriminibus palam 
+obnovii funt « eceleſiam offendunt / 
+vt funt adulteri / ſcortatores «c Et ſemel 
+atqʒ iterum admoniti reſipiſcere nolũt / ſed 
+obſtinati in malitia perſiſtunt / pro ethni⸗ 
+eis ⁊ damnatis habendi Math: 18. nee 
+ad Sacramentũ euchariſtie / ad maiorem 
+ipfotum damnationẽ permittendi ſunt / 
+tantiſper dum de publicis cõmiſſis / non 
+Pænituerint / Poterunt tamẽ permitti ad 
+tonciones 
+
+Interim tamen diligenter ſũt admo⸗ 
+nendi / vt deñ timeant nec hoc pꝛa oicator 
+G tudiaum 
+
+
+(uotcium/ nomine cõmunitatis / iuvta ver 
+bum dei ↄmiſſum / contemnant / ne ma- 
+ius cõtra fe iudicium dei evcitent /⁊ mater 
+num hoc eccleſiæ flagellum / in æternam 
+damnationem vertant / Nam quicquid 
+ita prædicatoꝛes. tuvta verbi dei decernũt 
+ratum deus habiturus eft, 
+
+
+JD fumus tamen cum evcomunicato 
+A duiliter conuerſari / pꝛopter publicã 
+tranquillitatem / Sed nó agendũ rum eo 
+vt fratre / ne ipſius molum ecdeſiæ impo⸗ 
+
+natur. „ Hs 
+
+
+TA tans ad magiſtratum ſpectãt 
+Nã blaſphemi / adulteri / ſtupra⸗ 
+tores virginũ / depredatores eccleſiorum / 
+2 pꝛophani earum inuaſotes / etiam in ius 
+gladüi cadunt. ⁊ debet gladius ec 
+cleſiæe hactenus fuam : 
+operam / vt per T 
+illũ in page 
+gal. 10230: 
+Kitus 
+
+
+P ln" ut. Folio vv vi nose 
+Yoyittis vilitãdi infirmos : 
+pauperes / hoc autem maxime 
+
+decet bonos pꝛædicatoꝛes 
+ꝓpt erea quod illi omniũ 
+maxime Euò gel 
+38ntur« 
+
+
+Ra dicatores frequen ter pauperes 
+
+D ⁊ infirmos inuiſant / ⁊ ſedulo per 
+occaſionem hoꝛtentur populum 
+
+vt tempeſtiue ſe vocent / quo ſepius adire 
+et cõmonefacere poſſint / neqʒ ad evtremã 
+vſqʒ neceſſitatem evpectent / niſi cum im» 
+pꝛouiſo morbo alquis præuentus fuerit. 
+
+
+Vo autem ſemel vocati ſũt eo ſe pꝛo 
+
+neceſſitate infirmi ſubinde conferãt / 
+
+niſi infirmi alios babeant penes ſe / per 
+
+quo ſufficienter inſtitui poſſint / Quo 
+
+autem vocati nó fuerint / fatte excuſati ſũt 
+$i 130 acceſſerint. | 
+
+G d Tum 
+
+
+— — 
+
+
+Cum autem ad infirmũ preſbyter adue⸗ | 
+nerit vt eũ cómuntcet / in primis obíeruet 
+quem ſtarum in verbo dei infirmue hhabu 
+erir / vt eo cõmodiꝰ eum informare queat / 
+Deinde ft conditio infirmi ferat / ex claris 
+locis ſcripturæ oſtẽdat omnes nos peccato 
+res eiſe / ⁊ per folam fidem in Jeſũ Chꝛiſiũd 
+(on ſequi remiſſionem peccatorũ. Poſtea 
+ad quid Chꝛiſtus ſuam ca nam inſtituerit 
+iuvta ſententiam eyhortationis qua có/ 
+munionem præcedit moheat / Inter m 
+menſa mundo lintheo inſtern atur / 2 lucer 
+na ardens ſi haberi poteſt apponatur / 
+Poſtremo panis pacenae imponatur a vi⸗ 
+num calici infundatur. Et his peractis 
+miniſter publice dicat. Dominus Noſter 
+Jeſus Chꝛiſtꝰ Math: 18 inquic. Obicũ⸗ 
+qʒ duo vel tres in nomine fuo congregati 
+fuerint / ibi (c inmedio eorum futurum /⁊ 
+qͥcquid in noie fuo petierint / tecto eis euẽ⸗ 
+turum / Ev quo in nomine domint iã cõ⸗ 
+gregali (um? memoriã cæneipſius facturti. 
+In nomine Domini dabimus ſacramẽtũ 
+
+eius 
+
+
+| fetfo vvvit 
+
+eius Matri noſtro infirmo aut fosotf qui 
+| gel qua nó pete(t nobiſcum ad cõmunie nẽ 
+Chiti cena accedere. 
+
+
+vn vero clara voce legat primum 
+Symbolum apoſtolicũ ⁊ orationem 
+dominicã / Doſtea verba con ſecrationis / ⁊ 
+dicat / Dominus noſter Jeſua Chriſtus 
+in ea nocte qua tradebatur «€ 2 poꝛrigat 
+aegroto pro moꝛe corpus Chꝛiſti Dein de 
+calice acepto dicat Ad euntem modum 
+poſtquam cænatũ eft accepit zc 7 poꝛrigat 
+Debent autem miniſtri cũ ita ſacramentũ 
+tractant fuo vulgari ſed camen honeſto er 
+decenti veſtitu pꝛopter reuerentiam ſacra⸗ 
+menti vt, 
+Cf tremo diligenter ægrotũ de 
+bapuiſmo⸗/ fide « cruce ĩfoꝛmet 
+in vrimis eũ ad patientiam exvhoꝛtetur 
+quod crucẽ nobis dominus deus non in 
+hoe vr perdat / immittat / Sed vt nos ad 
+an inuitet / ⁊ ita nos ab fut 4 
+G ii noſteil 
+
+
+ndi E  — e "mn 
+
+
+noſtri cognitionem perductos ſuis nos 
+bonis inauocatus affitere valeat. E 
+
+
+Qué enim diligit Dune coꝛripit / ⁊ tanquã 
+pater in fiio bene complacet ſibi.⁊ ideo hoc 
+ſabbatũ domino deo ſanctificandum eſſe / 
+⁊ patienter omnia ferenda / etiam fi mori⸗ 
+endum ſit a baptiſmꝰ nofter complendꝰ / 
+pꝛopterea quod moꝛs noſtra / in Chꝛiſto 
+nó moꝛs feb vere vitae introitus ſit / iuyta 
+illud / Qui credit in me non morietur in 
+cternum «c 
+
+Di vero in vita Euangelium 
+
+contempſerunt / aut alias male 
+vixerũt / ſi poſſint in evtremis a pra dica⸗ 
+toribus conuerti / bene habet. Sin minus 
+ſacramentum coꝛporia ⁊ ſanguinis chꝛiſti 
+do nari eis nõ poteft ne in maio rem condẽ⸗ 
+nationem acdpíant/ Qui autem Chꝛiſtũ 
+confitentur /⁊ fuam malã vitam agnoſcũt 
+ferto po ſcentes ſacramentũ / ijs abſqʒ omni 
+periculo poꝛrigi poteſt / nec enim latius 
+miniſter iudicare valet / eee 
+
+
+i Folio vxvlij 5 
+
+2 hac / pauperes in ho ſpitalibus diligẽ⸗ 
+ter inuiſant / ſemel atque iterum in ſepti⸗ 
+mana / ⁊ amice eos verbo dei conſolentur / 
+⁊ ſi opus eſt / infoꝛment etiam. 
+
+
+N ius accedẽdi ad judica⸗ 
+
+
+tos / quod a ipfum certum opus 
+miſericoꝛdiæ eft quod etie 
+am deus in nouiſſimo 
+die agniturus eſt 
+Wath: 25: 
+
+
+D facinoꝛoſos qui extremo ſup⸗ 
+| plicio afficiendi ſũt ſæpe numero 
+| pꝛædicatores / non folum cũ ad 
+pœnam depꝛomẽdi ſũt feo etiam fepe ati 
+
+
+as accedant / quo conferre cum eis ⁊ infoꝛ⸗ 
+
+
+mare ad cognitionem gratiæ poſſint v 
+
+
+evquo public peccatores gratiam fere / vt 
+
+
+/ contemnũt / niſi ſubinde admoneãtur / 
+
+
+5 92 ede in gvatía inſtitui poterunt / 2 ſi 
+en quibus 
+
+
+quibus deus ita gratlam largiatur /vt ſerio 
+fuam fidẽ confiteantur ⁊ ſacramentũ deſy⸗ 
+derent / his omnino dandũ eſt / tamé vnũ 
+au? alterũ diem ante ſupplicium In quibꝰ 
+vero huiusmodi ferta cõfeſſio fidei inuẽta 
+non fuerit / domino deo cõmittendi ſunt / 
+tamen nihil preterea in eis omittendum 
+
+nec deſerendi antequã ſupplicio afſecti ſũt. 
+
+
+M itus lepcliendi moꝛtuos 
+Eſt enim a ſepultura moꝛtvorũ tüteg 
+opera miſericoꝛdie numerata /a 
+loco miniſteo ad id vocato 
+non impig e frequen? 
+
+tanda. 
+
+
+J Vm quis e numero fidelium in do⸗ 
+
+— mino obdormierit / ⁊ iam tumulo 
+demãdãdus ſit / poterũt ramẽta pulfaté 
+Et quí bunc pulſum deſyderant / dent 
+accle ſiæ ad œdifiaiuum pecuniam bacrenua 
+G ſuetam Atque fieti poſſunt hac non ad 
+US mortuos 
+
+
+: Folio vi ^ 
+mortuos ſed ad viuentes cõmonendum 
+Vbi ſchold funt ſcholaſtiei funus deducere 
+poſſunt cantantes interim Benedict' vel 
+pſalmũ Z^óíne refugiũ aut T epꝛofũ die. 
+aut M iſerere ái. antiphona Media vita 
+vel alia vulgaria can tica. vbi veio ſch)olœ 
+non ſũt / tacite illud ſequantur qui efferũt 
+
+
+Poſtea vero quã ad ſepulturam eſt peruẽ⸗ 
+tũ tegatur corpꝰ humo / ⁊ pueri cũ populo 
+canãt ſymbolũ vulgariter / a VNũc dim ittis 
+vulgariter / Poſtea ſi vacat habeat predi⸗ 
+tato? modo fit aduocatus / ex Paulo vel 
+alio ſcripturæ loco / exhortationem ad po 
+pulum his ver bis.fratres ew quo «€ Poſt 
+orent geniculando orationem dominicam 
+vt ⁊ ipſis liceat in fioe perſeuerare ⁊ mori. 
+
+
+Hitus icoꝛmãdi cbſtetrices. 
+Obſtetrices emm habende q quid ẽ 
+honeſtæ a pix offiũ (uum 8 | 
+
+
+— aD * pu 
+
+
+tes a locis cõmodis morantes vt pꝛo 
+dluitibus ita p20 pauperibus 
+
+
+Radicatores electas obſtetrices 
+N. P ifounet/ Primũ qui cũ grauidis 
+
+
+deinde cum fructu ſe habeant. 
+
+Primum vt cà grauidis ⁊ partui vicinis 
+ita ſe gerant / vt conſolari eas ⁊ ad gratiarũ 
+actonem exhoꝛtari valeant eb benedictio⸗ 
+nem vteri / que nó omnibus contingit / 
+Ob ptefétíam dei ibidem vices obſtetricũ 
+per ſe obeuntis . 2. Machab: 7: Ob 
+au viliũ dei certum / a adfuturũ implorãti. 
+Dtatetea vt in telligãt dolores partus / cru⸗ 
+cem eſſe a deo eis impoſitam Gene z: qui 
+breui ſint in magnũ gaudium cõuertendi 
+Johũ: 10: Et ſi periclitari eis contingat / 
+patientes ſint 2 ſe deo cõmendent / cum 
+omnibus crucem ferentibus / verum hoe 
+diſſimulandum eſt coꝛam eis niſi i in ſũma 
+
+ — 
+Oban vt cum fructu ſie ſe ha⸗ 
+beant. vt facte in vtero materno. 
+moꝛtuos 
+
+
+1 Folio xxo 1 
+moꝛtuos deo ↄmendent / certe ad ſe non 
+pertinere quod intermoꝛtuũ ſit ⁊ in lucem 
+non editum / tantum vt parturiens libe⸗ 
+retur / efficiant. Et ſi quee viuos ſen ſerint 
+aut etiam partim pꝛodeuntes ſed morti 
+vicinos nó tamen (vt fit) baptizent / nit 
+penitus editos Nihil enim renafc quod 
+nondũ ſit natum poteſt tantum domino 
+deo coͤmendent his vel ſimilibus verbis / 
+Domine Jeſu Chꝛiſte qui beneplacitum 
+habes in pueris tibi oblatis / ⁊ Ubenter eos 
+ad vitam æternam accæptas / Qui diviſti. 
+Sinite pueros venite ad me «€ iuxta 
+quod verbum / hune puerũ tibi ſaluatori 
+noſtro offerimus non per vinas fee orati⸗ 
+ones noſtras Accipe eum quæſo ⁊ tue 
+redemptioni nobis in cruce impetrata pete 
+petuo comendatũ ſine / Amen Et ft con⸗ 
+tigerit puerum ita ſine baptiſmo mori 
+nõ eſt tamen de ſalute eius deſperandum / 
+Juyta illud verbũ Sinite peruulos venite 
+ad me / Et quicqͥd petteritis in noie meo . 
+
+D d Quod 
+
+
+€) ft infans in lucem editus de vita 
+per clitari incæperit protinus obſte⸗ 
+triv eum domino deo ↄmendet ⁊ ft quae 
+aliæ adſunt pra mulieres / bte ⁊ ſimilibus 
+verbis. Domine Jeſu Chꝛiſte hune pue⸗ 
+r im tibi iuvta tui vecbum offerimus / 
+quem vt accioias 2 Chꝛiſtianũ effe ſinas 
+precamur / aut breuiſſime ſic / Döine Jeſu 
+fufape hunc puerũ. Et ſtatim baptizetur 
+his verbis. Ego baptiʒo te in nomine paz 
+tris a filu ⁊ ſpiritus ſancti men Quod 
+ſi puero nomen pro feſtinatione impo ſitũ 
+non ſit / poſt imponatur. Tantum ad 
+templum vt eus baptiſmus prafenabus 
+teſtibus a miniſtro confirmetur feratur. 
+Sed nullo modo rebaptizetur / ne in vni⸗ 
+uerſam ſcripturam impingamus / niſi poſt 
+evanmationẽ teſtiũ dubitetur vt ante 
+dietum ejt. 
+
+
+faitus inſtuendi puerperas 
+Sunt e mm puerperaæ / vera vaſa dei. 
+| ! |. €t boc 
+
+
+Folio vvvi 
+
+
+et t hoc deo cõmendatioꝛes quo P 
+5 tui viciniores. 
+(4^ Regnãtes fœæminæ a pꝛa ditatori 
+bus diligenter func inſtituende / 
+| vt vcerum ferentes ſubin de fructũ 
+Domino deo ↄmendare aſſueſcant folae 
+vel c marito / hie auc ſimilibue verbis. 
+Grattas agimus tibi omnipotens aeterne 
+deus / pro hac tua benedictione / 2 preca⸗ 
+mur te domine Jeſu Chꝛiſte vt hunc fru⸗ 
+etum tibi perpetuo cõmẽdatum eſſe velis / 
+er quía præcepiſti pueros tibi offerri / etiã 
+hũc fruc um noſtris tibi preabus offerimꝰ 
+Proinde fac eum acceptes /⁊ precio ſi ſang⸗ 
+u'nte tui fructù ternũ ei cõmunices mẽ 
+Tales pueri / ita pro eorum conditione 
+Chriſto iuvta ꝓprium eius verbum oblati 
+etiam ſi in vtero moriantur tamẽ da: nnã⸗ 
+di n5 ſũt / imo de ſalure eorũ certo. ſperan⸗ 
+dum / vt nec pueri Iſraelitarũ ante octauã 
+diem incircumaſi moꝛtui dãnati cen ſeban⸗ 
+D uj tur / vt 
+
+
+tur / vt ſclant deinde f né effe ín poteftate 
+
+ſatanæ⸗ ve bactenue opinatum eft per ig 
+norantiam dei ⁊ infidelitatẽ etiam ſi plus 
+cæteris tententur. hoc enim agit ſatan vt 
+vocationem etiã inuiſam reddat mulieri⸗ 
+bus per quam in pꝛimis deo placent /i Ti 
+moth: 2: Pꝛaterea vt licet libere ſint ab 
+obſeruatione legis Moo ſaica nec introdue⸗ 
+tione miniſtroꝛum egeant / tamen ſolito 
+more ſe domi ↄtineant / ſi nó ob incolumi⸗ 
+
+tatem mapime tame pꝛopter honiſtatem 
+ne malo exemplo alijs ſint ⁊ ſaluti purto» 
+tum male conſulant. 
+
+
+Kit cii foeminis proprios 
+
+
+liberos opprimentibus - 
+obſeruãdus: 
+
+
+æmina que proprium. puerum 
+8 oppꝛimit per incuriam (Se quo 
+tamen paſtores diligenter cõmo⸗ 
+
+
+nere — "» cõtione ne fiat) adducatur 
+AL Paftots i 
+
+
+" Folio ep — 
+à paſtore ad Superattendentem / ⁊ ibi pe; 
+tat abſolutionẽ a peccato. Superattendẽs 
+vero inulctain dicat pecũ iariam / quà ipfa 
+ferre poſſit z curetur vt ca pecunia in ata» 
+rium publicum otjdatut pꝛo pauperibus. 
+
+
+Mf ſcholis / pueroꝛum 
+utſtitutione 21pía animarum 
+d Euangelium pre paꝛatione / qua 
+pꝛima pueritia ad religionema ad 
+alias virtutes formatur /a eas artes 
+
+peꝛcipit / quæ velad docendum 
+religionem. vel ed ciuilem 
+rerum ſtatum conſer⸗ 
+uand um / plurimũ 
+conducit. 
+
+
+| , bt Pet 7 P 
+
+T ſingulis vrbibus « oppibielatína 
+/ ſcholæ et idonei ad catum modera⸗ 
+tionẽ prœceptores tres aut ad minus duo 
+fint; Ad boe inuentus ne a Chriſto cui per 
+l baptiſmũ 
+
+
+baptiſmũ con ſecrata eſt / rurſum eder / 
+e 
+D hoc autem boni pra dttatores | 
+vbiqʒ vulgum diliger ter evhoꝛ⸗ 
+tentur / vt meminerint id ſe pueris debere 
+parentce/ et deum ab ipſis requirere / atqʒ 
+publicam neceſſitatem po ſcere / vt ſint per 
+quoe pietatem ad poſteros noſtros tranf» 
+mittere queamue/⁊ quorũ opera tn pube 
+licis rebus vti poſſimus Superattendẽs 
+vero z Pra fectus noſter eũ viſitant debent 
+admonere vrgere ⁊ nomine noſtro mane 
+dare vt hot fiat / immo etiam con ſilio ⁊ 
+aupilio fuo Scholas inſtituere. . 
+
+
+OM ſcholarum 
+
+
+Vica tantum ſchola in ſingulis vr⸗ 
+bibus 2 oppidis ſit / omnibus an⸗ 
+gularibus ſubmotis 2 in certas 
+claſſes / vt ratio ſingulorum haberi poſſit 
+
+
+deſtelbuatut⸗ neqʒ quicquam in is quam 
+latinæ 
+
+
+A Folio vvviij 
+| latíne doceatur Germanicis enim aut Dae 
+nite ſcholis latina cot umpuntur / Et eos 
+qui gra ca ci hebrœit᷑ docent / ſuo magis 
+pꝛofectui quà puerorum ↄſulere ipfa adeo 
+res teſtatur. 
+
+C Caſſes pueroꝛũ vbt tres moteraz 
+
+totes / quattuor / vbt tantum 
+
+duo / tres / ſin t. 
+
+
+Pꝛima Ilaſſis 
+
+
+becedariorum « dittionariorum eſto 
+quorũ hi in ludo vnam / iſti alterõ 
+partem occupent. | 
+Abecedarij legere ey puerilibus enchy⸗ 
+ridiſs diſcant. qug Oꝛationem do mintcã / 
+Symbolũ apoſtolium /⁊ decem pra cepta 
+(ii verbis baptiſmi ⁊ ca nœ domini/ cum 
+reliquis puerorũ pꝛeculis continent Et ve⸗ 
+ſperi ſemper domum cum duobus voca⸗ 
+bulie inte mittantur. 
+
+
+91 
+
+
+J Oictionarif 
+
+
+diltquantulum legere noꝛunt / do⸗ 
+natum ⁊ Catonẽ habeant /⁊ hũc 
+legere / illũ ad verbũ epponere diſcant / in 
+(je diuigenter exerceantur ⁊ femel emẽſos 
+rurſum ab íntegro incipiant dum perfecre 
+legere norint. Interim quotidie ſcribant 2 
+ſccipta oſtendant / ⁊ fub veſperam itidem 
+
+
+: (7) Ictionarij qui enchyridion egrefft 
+
+
+duobus vocabulis latinis domum mittãẽ⸗ 
+
+
+tur / qua mane rurſum ab iis / cñ lectionẽ 
+recen ſent requirantur. 
+
+
+Secunda i taffi 
+
+
+| C Srum qui iam perfecte legere ar t 
+1 grãmatices præceptiões diſcũt / eſto 
+
+Libri cotü mane grãmatica Philippi / vbi 
+in vfum grãmatites Eſopum evponant / 
+⁊ ſimul declinare ⁊ cõiugare diſcant / etiam 
+regulis declinationum ⁊ coniugationum 
+adſignatis. A meridie fabulas Cfopí / 
+veſperi Pædologiam Moſelani. In qui⸗ 
+bus ſi alquantulũ triti fuerint / addantutr 
+aliquot 
+
+
+à PFeolio vyvüij 
+aliquot ſelectiora colloquia Eraſmi. Interĩ 
+
+
+dulligenter exerceantur / vt ſemper latine lo: 
+
+
+quantur /recte ſeribant /⁊ conſtruere ex arte 
+diſcant. Et veſperi ſimiliter ſententia ali⸗ 
+
+
+aua morali/quam mate in ludo pen 
+
+
+domum ire permittantur. 
+
+
+Tertia Il aſſis 
+
+
+Rãmaticorum aliquouſque pꝛo⸗ 
+
+9 fectorum / vt qui iam declinare 
+
+coniugare 2 conſtruere "nad 
+
+norint / eſto. 
+Libri eorum / mane / Iterum grama 
+
+tica Db'lippt. Ibi rurſum in vfum grãma⸗ 
+ties Terentius tepetatut/ conſtrucio nes 
+eyigãtur / tegulue grãmaticce memoriter 
+
+| reiten tu t. 
+
+4 meridie Terentius / quem etiã 
+
+memoriœ cõm en dabunt /⁊ cũ in 
+
+eo nó nibil pꝛomouerint / ſelectiores Plaut i 
+comete veſperi breuiores aliquot Cice⸗ 
+NO 3 ( ronis 
+
+
+ronts epoftole aut fimile aliquid / Di ſẽper 
+latine loq iãtur quotidie aliquid ex Terẽ⸗ 
+tio recitent / Semel in quauis ſeptimana | 
+ebiſtolas ſeribant. Et vefperieemáü duo⸗ 
+bus moralibus carminibus capeſſant. 
+
+
+NQuarta laſſis carũ ſcho⸗ 
+
+
+larum vbi tres moderateres 
+
+
+a Orum efto qui iam aliquantulũ eriã 
+loqui ⁊ ſcribere latine poſſunt. 
+Libri eorũ / mane / rurſum grãmatica 
+Plum vbi iterum in vſus grãmatices 
+Virgil? repetatur / 2 præter cõſtruttiones 
+etiam vercipuæ figure dictionũ / orationũ 
+⁊ ſententiarum indicentur / et vbi in eis 
+pꝛobe evecatatt ſũ :/ tum demũ Dialectica 
+7 Rethoriea Philippi addẽtur / A meridie 
+Virgil / a poſt eum QOuidii Metamoꝛ⸗ 
+pho ſis Sub veſperã Officia Ciceronis vel 
+familtares eius epiſtolœ /i præ terquam 
+quod aliud nibil quam latine loquantur / 
+1403. 1 quotid ie 
+
+
+" | Folio vVVV 
+
+; qiti c affquot Virgilti carmina recitee/ 
+yum deligenter everccant / fiaautia 
+ſeptimants epiſtolas vel carmina cõficlant. 
+
+
+Quinta Llaſſis. 
+
+
+jc o rũ eſto / qui mediocre robur in TP is 
+terio fecerunt 4 fitmioribue in genus 
+efje videbuntur / ita vt iam « latine ſeribere 
+4 congrue loqut poſſint / Illis poterit p 
+ceptor rudunenta gra Ge linguæœ pra legere 
+verũ vt id fiat ſine late ne lingua diſpen⸗ 
+dio. Neque enim ferendi ſũt qui pueros 
+græœce ⁊ h/ braice do ere volunt pꝛiuſquam 
+pꝛomouerint mediocriter in latinis. 
+
+
+I Vdimagiſtris ſeruetur in ſingulis 
+v' bibus z oppidie quod hacter u⸗ tas 
+buerunt. Etſi aliquibue minus liberaliter 
+prouiſu n ft. boc nobis a Super atten⸗ 
+t " po Missed loci/qui illic ſũt indieetur 
+9410 3 (t volumus 
+
+
+volumus enim his « alite qui iuuentuti 
+prœſunt / honeſto pꝛouiſum ſalario / ⁊ ex 
+noſtto addere vbt quid deeſt. 
+
+
+Y ettrititit ſcholarum. 
+
+
+i 7 Ü » ^ , , 
+2 7 7 4 
+V. e 
+N í 
+
+- EN 
+(^ 
+p" un » 
+? p 2 
+
+
+M rm m 
+ZI DE 
+
+
+77] quo ad Etymologiam deinde 
+Sintaxim / Poſtea pro ſodiam /iupta ca- 
+pacitatem fuc cuiu ſqʒ claſſis.⁊ id perpetuis 
+eſto / Quare ſemel abſoluta de nouo ſẽper 
+rebetatur / vt iuuentus in ea bene eoerdtas — 
+ta firmã Grãmatices rationem cõſequatur 
+Peſſime enim conſulunt pueroꝛum ſtudiis 
+qui praceptiones vetant. attingere / aut 
+rectius aliunde grãmaticam diſci putant. Á 
+
+
+N 
+
+
+ría bs octaua / poſtremæ claſſes chorum 
+A frequen:ẽt / interim primarij in ſcho? 
+lis evamtné ur / Reuerſi a téplo in ſcholis 
+ordine 
+
+
+— 
+
+
+Folio vyxvi 
+
+
+E * p" p " 
+ordine Catechiſmũ funul media voce te 
+
+
+narrent / poſt domum capeſſant. 
+
+
+* 
+
+
+i Vodecima tota Muſieœ deputetur / 
+
+
+D vtnsõ ſo um vſu canere verum edam 
+arte diſcant pueri / nec vulgaruer me do ſed 
+
+
+et figuraliter vt vocant. | 
+Cub pꝛima / per fequifqs trium claſſiũ 
+eparatim exerceatur / Secundariſ in &⸗ 
+ſopo / Tertiaru in Terentio Quartatu in 
+Virgilio. 
+| A ſecunda / iterum Poſtremæ dae 
+! (ee chorum freqnentent / a in⸗ 
+terim rurſum examinentur prima, 
+Sub tertiam ⁊ quartã (tecum daſſes 
+ſeparẽtur ⁊ pꝛo ſe quiſqʒ cxerceatur. 
+Scecundartii in pœdalogia « morali 
+ſententia / quam mane reddant. 
+
+
+Tertiarii in breuioribus epiſtolis 
+
+
+Ciceronis / ⁊ duobus carminibus motas 
+libue/qua mane reponãtur. 
+
+Quartarii in officiis Ciceronie / quib? 
+Dii aliquot 
+
+
+* 
+
+
+€^. / 
+
+
+aliquot verſue f^zgilíant quoe memori ; 
+cõmendẽt ⁊ mane reatent / aſſignentur. 
+Muc per ſecundam / certam / quintã 
+a ſevtam ferias ita perpetuo obſeruẽtur / 
+t rœterquam quod a Simẽis ⁊ Juda vſ⸗ 
+que purtficacióte fub ſeprtimam matuti-⸗ 
+nan ludũ / a quartam veſpertinam domũ 
+capeſſere / za rona. choꝛum frequentare 
+pottrunt / pro arbitrio moderatorum. 
+
+
+Quarta feria mane fiat repetitio oũm Lec 
+rienü ⁊ evereitiũ diligentiſſimũ / Inde 
+detur eis qui ad hoc apti ſũt materia vel 
+carminis vel epiſtol x faciendr / quam fuo 
+te npore oſtendãt /⁊ a cantu qui fit in tem- 
+plo hora octaua dimittantur/⁊ nó. reuerꝰ⸗ 
+tantur eodem die neqʒ in ſcholam neqʒ in 
+templum Quia. 
+Quod caret alterna requie / durabile 
+nó eſt / Sed quia ſtudia puerilia ita erunt 
+fortunata ſi cũ pietate coniuncta fuerint / 
+Quemadmodũ Chriſtus inquit. Pꝛimũ 
+dune "gai del 764 pracceptt deus deu⸗ 
+tero: G: 
+
+
+N Folio vvvvil . 
+ber: 6: vt tubes dockamus religionem 
+Itaqʒ in tractationem ſacroꝛũ / ſingulis 
+
+: ſeptimanis dies ſabbatinus cõferatur ⁊ in 
+(munt ones ad timorẽ dei / ad fidẽ / pos 
+ſtremo ad bonoe mores inuitentur. 
+
+
+Vapꝛopter in primis catechiſmus 
+(Aua quadam tatíone ev oꝛdi⸗ 
+ne omnibus eyponetur. Proue⸗ 
+ctioribus vero aliquid e i oue ieſtamento 
+vt Matheus aut aliquot faciles fcu Pauli 
+epiſtola / feu Pſalmi Dauidic / feu. pro- 
+uerbia Salomonis pro iuuenum captu / 
+feo ſimpliciſſime prælegentur / vt religio⸗ 
+nem quam puriſſime ad diſcãt / atqs a ſi⸗ 
+mulatione pietatis diſcernere aſſueſcqt / Et 
+vt cura acuatur diſcendorum ſacrorum /in 
+puecie/nó ſuffecerit illis multa pꝛalegiſſe 
+feo harc ip ſa cogẽtur ediſcere / Primarit nu⸗ 
+dam Catechiſmi recitationem / Alij fitm» 
+plicem eius interpꝛetationem / Quartarif 
+vero lectiſſimos Pſalmos « certos aliquot 
+tuta Nena ne e memoria excidãt 
+
+A exiget 
+
+
+eviget tanquã penſum diei ſabbatini pꝛæ⸗ 
+ceptor / vt recen ſeantur oꝛdine memoriter. 
+Poſt / veſpertinas pieces ingrediantur 
+
+
+Ab his finitis domum ablegentur. juoé 
+in vigilus feriarum obſeruentur omnia. 
+
+
+Per hœc vero qua ſtatuimus in oppidis 
+
+
+de duobus aut tribus ſcholarum praxepé 
+
+
+toribus / non volumus vt melioꝛes ſcho⸗ 
+
+
+lx in quibuſdam ciuitatibus maioribus 
+vbi bacten? habuerĩt quínqs aut ſex pꝛæ⸗ 
+
+
+ceptores / ſint abrogatæ / Quæ enim eſſet 
+
+
+talis ordinatio? feo illae (pfa per Super⸗ 
+attendentem loci / præpo ſitum / pꝛadicato⸗ 
+ꝛes et conſules rurſum inſtaurentur. Et 
+
+
+plura ſint ibi doctrinq puerilis exercitia 7 
+
+
+plures claſſes. vbi autem plures hactenus 
+
+
+fuerant ſchola / ſit vna / cæteris ſubmotis / 
+Hane inſtauratio nem illi referent ad nos 
+
+
+vt confirmemus « ad damus ſalaria / ſi nõ 
+
+
+* 
+
+
+— 7 
+
+
+ſatis ibi poteft curari peo pracptonbus. 
+
+
+Ad bag ſcholas poterunt vicini pagi -— 
+dps 
+
+
+NU. c Folio vvvviii 
+oppidula mittere ſuos pueroe/cñ aliauů⸗ 
+tulum in oppidulis ſuis in literatũ cogni 
+tione apud parentes pꝛofecerint. Item 
+volumus vt in noſtris Principatibus 
+Holſatia 4 cœteris pꝛæter vulgares ſcho⸗ 
+lae aliarũ auitatü ⁊ oppidotũ erigantur 
+in duobus oportunis locis / duæ meliores 
+pueroꝛum ſcholæ / cum fee aut ſeptem poe 
+ceptoubus / ad formã (cole hamburgen⸗ 
+ſis / hoc vt fiat nos curabimus 4 confir⸗ 
+mabimus. 
+| 1) Ra terea debent ludimagiſtri 
+| indolem diſcipulorum fuorum 
+een obſeruare / ⁊ a duodeamo ſẽper 
+anno puetoiü parentibus bona fide / in⸗ 
+* eos / qui ſtudiis ſuis nihil aſſetutur t: 
+entur / vt in tempore honeſtis artibus 
+applicentur. Quos vero ingenio valere 
+deprehenderin / ad decim um ſextũ ofque 
+ctatis annũ in ludo detineant. Ab eo 
+autem anno accuratiſſime diſpiciant qui 
+"er caperũt ſuis ſtudus / foeliciret alu 
+| | A ij cõmunicacurt / 
+
+
+cõmunicaturi ſint / ⁊ qui id nó inesmode 
+facturi videntur domino offerantur / et 
+priuatis vel publicis ſtipendiis / ad publica 
+ſtudia ablegentur / Qui vero id minus 
+cõmode facturi ſunt / a ludis recipiantur z 
+honeſtis vitae ciuilis functionibꝰ aceõmo⸗ 
+dentur. | | 
+Vulgares ſcholæ / quae votant / pto 
+pueris / puellis ⁊ aliis / latinis literis inepvds 
+tis / magiſtratui curæ ſunto / Tantũ vt 
+elementa pietatis / ſimul talibue pueris 
+inſtillentur / quorum intereſt reſpiciant. 
+
+
+Priuilegia. 
+
+
+(t T verbo ſalutis « virtuti fu? boo 
+nor habeatur / quemadmodum a 
+pracefforib? noſtris accaesimue z 
+vbiq; a Chꝛiſtianis pꝛincipibꝰ ſeruatur / 
+volumus ot pꝛædicatores ⁊ reliqui ele» 
+ſiarum « ſcholarum miniſtri cum ſcholaß 
+ſticis 2 ſtudentibus conſueta hacte nus 
+| J .- ebtineant — 
+
+
+| 
+
+
+WE c Folio vvvix 
+
+obtineãt priuilegia ⁊ im̃unitates / vt fint 
+uberi a cõmunibus exactionibus ⁊ graua⸗ 
+
+minibus. Satis enim oneris alioqui ſuſti⸗ 
+
+nebunt / ſi ſuis offidis / quæ publica ſunt / 
+
+reſponderint. 
+
+
+Oe ſuſtentatione s proui⸗ 
+
+
+ſione miniſtrorum verbi a pauperum- 
+
+
+Bbana parochiæ ſingulæ duos 
+E ad minus pꝛedicatores habebũt / 
+In magna tamen frequentia vbi 
+tantum vna e(t parochia pluribus opus 
+eſt / vt evempli gratia Malmogia quatu⸗ 
+oꝛ vt minimum requiruntur pꝛa dicato⸗ 
+res / licet vna ſit parochia. 
+Rurales patocbío ſingulie parochis cono 
+tenta ſint / ſi alere poſſint / Sin minus 
+ad datur vna atque altera vicinioꝛ / plures 
+tamen tribue (ine euidenti neceſſitate ne⸗ 
+mo ſibivendiat⸗ ſed de hoc ante dietũ eſt. 
+A wd 2d 
+
+
+. 2t fuftentatione ruralium parochorum 
+ſoliti hactenus dependi reditus ſeruẽtur 
+Quo? genus ſunt decimæ frugum / vitu⸗ 
+loꝛum / pullorum equinoꝛum / agnorum / 
+hœdoꝛum / poꝛcoꝛum / piſcium / penſiones 
+panum / Butyꝛi / Caſei / Anſerũ / epamint& 
+apum / ^ ſimilium pꝛo ratione loci / habi⸗ 
+tationes domoꝛum /⁊ poſſeſſiones agroꝛũ 
+iuyta legee ⁊ libꝛos eccleſiarũ ip ſis adſig⸗ 
+natas / Oblatiões in tribꝰ maioribus feſtis 
+Chuſti dandas in pꝛincipio Miſſæ ante 
+Euangeliũ. Item pꝛo fponfalibue detur 
+pꝛœdicatoꝛubus pecunia vt hactenus con 
+ſuetum eſt. N 
+
+
+^L 
+
+
+M Usus B donet &: [^ 9 i ; P 
+Ad hac duo adiles conſtituantur in 
+ſingulis paꝛochiis / quibus eccleſiaſtiai red⸗ 
+| ditus ratio conſtet / qui cum præpoſito 
+patroni parochoꝛum ſint / eoꝛum cauſas 
+tueantur / ⁊ quas in placito cõmode tueri 
+non poſſũt ad magiſtratum referant. Et 
+vt debiti reddit parochiis rite numerẽtur / 
+f n ! (tant. 
+
+
+* 
+
+
+folio wl 
+E effidant/ Et ſi quid alicubi hoe tempore 
+tolonoꝛum / agroꝛum / pꝛatoꝛum /lignorũ / 
+
+
+piſcinarum /a ſimilium / parochis adem⸗ 
+
+
+ptum ſit / mandamus z pracipimus præ⸗ 
+fectis noſtris vt reſtitui curent. Euange⸗ 
+lium enim nemini fua aufert / omnia om» 
+nibus tuetur / tanto minus fua ſibi im⸗ 
+putata beneficia diripienda erunt. 
+
+
+Tantum Regi dent ſingulis annis quee 
+olim ordinarie Epiſcopis dabant / Si qui 
+hoe non poſſint aut alioqui pro honeſto 
+victu non ſatis habeant / boc nobis indi⸗ 
+cetur per Superattendentẽ 2 prœpo ſitũ ⁊ 
+loci præfectum. Evactiones autem noue 
+- grauamina alia quibus poſtea per Epi⸗ 
+ſcopos grauati fuerũt iam omnia ſint abe 
+
+
+. lotta. Jon enim grauare cupimus pod 
+
+
+des ſed / vt pium pi fouere. 
+
+
+5 à ones ob ab vidis ⁊ ab a a 
+
+
+eníbue quibuſlibet immunes fínt/ nee 
+vllos mercatus ntit rerum domi fua pꝛo⸗ 
+uenientium / mulco minus cauponatriam 
+eyerceant. Et ſemper decenti veſte / quæ 
+verbi miniſtrũ deceat / tecti incedant / Dare 
+ettam volumus percnete ad Superatten⸗ 
+dentes ⁊ pꝛœ dicatores ciuitatum / alioſqʒ 
+Eccleſiarum z Sch olarum miniſtros. 
+Pꝛæterea parochias turales nemo ſibi ns 
+legitime vocatus vendicet / Nec vlli in eis 
+mercenarii tolerãdi ſunt / quod viv bona 
+ton ſcientia officiũ agere nedum ín tenta? 
+tione perſiſtere queant / Nam inuaſores 
+illi parochiarum / vt eas non ad hoc quod 
+inſtitutœ ſunt / venantur / ftc fece eis quos 
+q ineptiſſimos pꝛa fic unt / atqʒ ita quan⸗ 
+tum in ipſis eft omnem pietatem / ſpecie 
+pietatis opprimunt / 2 fape lupos pꝛo 
+paſtoribꝰ / miſeris parochianis pꝛax fitiũt. 
+Ad quod accedit quod in nulla ecleftaftíca 
+functione conſtituti / pꝛoꝛſus pꝛophani ſũt 
+7 ad officia hactenus inepti/ ne dicam 
+quod ſacrilegi ſimoniaci fint, "t 
+
+
+Di tamen volumus vt canontc'e pa⸗ 
+rochia / quœ ab initio canonicatui adneva 
+erat / permaneat / cum altera qua ex gratia 
+ipſis ceſſit / dummodo miniſter legitime 
+officium fuii peragat / ⁊ part reliquorum 
+iure Superattendenti ſubſit. 
+
+
+Obiles / quía in puram Euãgelif 
+prædicationem ci alite có en ſerũt 
+— Sticubi ius conferendarum pato» 
+chiarum habuerint / vocatũ ad ſe parochũ 
+quem Eccleſia poſtulat / ad pra oſitum 
+loc am ãdent / vt fiant e ga eũ omnia quæ 
+ante de electione et confirmatione mimiſtri 
+dicta ſũt / ne indocu paſtotes conſtituartur 
+in pethiciem animarũ / quae Chꝛiſtue fuo 
+illo ptetofo (angue adſeruit / aut boni 
+haſtores grauentur ac 
+
+
+Oſtquam nobiles petieruͤt fe libe⸗ 
+tà"t a deeimis quae fute paſtoribus 
+pt cucam anunarum gerennbus / 
+L debent 
+
+
+debent / iam n6 poffint togi ad eas ſoluen⸗ 
+das / Admonemus eos / vt velit meminiſſe 
+ſe eſſe Chꝛiſttanos / a dare fua ſpoͤte CbsftE 
+miniſtris / hoc eſt / Eius pra dicatoribus 
+quicquid viſũ fuerit / ne condemnatio ves 
+niat ſuper eos / de qua Chꝛiſtus loquitur 
+ad pra dicatores. Qui vos ſpernit / me 
+ſpernit. Et qui me ſpernit / ſpernit eum 
+qui miſit me. Et Sodoma erit remiſſius 
+in extremo die / quã talibꝰ cõtemptoribus. 
+
+
+Ne rurales vrbibus pꝛopiores / 
+e ſcholis earũ vrbium ſuos ſibi cu⸗ 
+ſtodes habeant / et ſolitos illis redditus in 
+ſubſidium ſuotum ſtudiorũ ſuppeditent. 
+Sed Catechiſmũ cuſtodes doceãt pueros 
+ruſticorum / ſemel in ſeptimana / in loco ⁊ 
+hora / a paſtore prœſeripta / Nam omnes 
+cuſtodes rurales poſthac ad eif modum 
+debent docere Catechiſmũ / Cui rei ſi non 
+ſunt apti / cuſto des effe nó poſſunt. n d 
+
+
+Ad ſuſtentationem vrbanorũ mini 
+5 ona 
+
+
+| 
+
+
+1 Folio vl i 
+bota que hactenus parochiis adiecta fuere 
+et veteri iure ad eas ſpectãt / cedant. Quod 
+fi his ſatis pꝛo ſpectũ parochis nó erit / nos 
+
+
+addemus eis quod fatte eſt / ey aliis eccleſi⸗ 
+
+
+aſticis bonis / vbt fuerimus a ſuperatten⸗ 
+dente er procfecto admoniti / ⁊ ea de re cer⸗ 
+
+
+tiores facti. 
+/in duitatibus 2 oppidis/qui oim 
+reddituũ eccleſiaſticorum regiſtra 
+habeant / ip ſos redditus tollãt / ad quodqʒ 
+quartale anni / vel quãdo commode fieri 
+poſſunt ſecundum confilium ſuperatten⸗ 
+dentis / miniſtris deſponſaturi / reddentqʒ 
+tationem publice ( magiſtratu pra ſente) 
+
+
+Vo adiles ſeu diaconi eligantur 
+
+
+quotannis de his omnibus. 
+
+
+Porꝛo relictæ ruralium parochorum 
+pou a moꝛte ipſorum /ad integrũ ant 
+in ipſis parochtis cum ſuis luberis dum 
+mmode prouideantur ſuſtententur / 2 
+
+
+ſemel a morte viri ſementem hibernam / 
+: Eni vel 
+
+
+* 
+
+
+NE 
+1 ˙ Tg P 
+
+
+vel æſtiuam faclant / 2 dimidiñ decimarũ 
+tollant. i3 
+
+
+Proinde ft femente hiberna facta/ obierit 
+parochus vt a Martini feſto / poterunt 
+ſemente hiberna collecta / etiam mediam 
+a ftéuam facert / cái dimidia parte deama⸗ 
+rum fequentie anni / ⁊ ad proximas vſqʒ 
+penſiones varochum paſcant. 
+K) uoo ft ſemẽte ſtiua facta moriatur / 
+aut inter Philippum Jacobum ct 
+Bartotomceũ poffunt qua ſeminauerint 
+metere / dimidium decimarum tollere / 2 
+h bernam ſementein mediam facete, | 
+
+
+| 0 uodi ft inter Bartolomeũ 2 Mar⸗ 
+—ninum diſceſſerit / integras decimas 
+preſentis anni habeant / 2 ſementè hiber⸗ 
+nam fadant ſolam / ⁊ vſqʒ ab provimas 
+pen ſiones parochum paſcant. Anno autẽ 
+peracto a t patocbia/fi i ita vrſerit paroch; / 
+cedant. Quod ſi id graue ſucceſſori vide⸗ 
+tur / memineri i fein fua relicta recepturuũ 
+n 
+
+
+Folio vlili 
+MIN (tbi hic diſceſſe ert, 
+
+
+Elictæ viduæ vrbanorũ eee 
+| setbt fuae cõmunicati curœ ſint / € 
+
+po earum conditione ip ſis iubemus vt 
+prouideatur/ toque mag : ſtratui noſtro in 
+eis vrbibus / ciuitatibꝰ ftue oppidis ſin⸗ 
+gulariter cõmiſſum volumus, Quare vo⸗ 
+lumus vt eiuſmodi viduis pꝛo ſpectum 
+efficiant in pꝛimis de libera habitatione / 
+Et ſi neceſſitas poſcat / aliquid ex arario 
+pauperũ / aut certe dimidium annuit reb 
+ditus miniſtri defuncti / quoe habiturus 
+fuiſſer / eo ipfo anno / eis diſpenſetur. Vi⸗ 
+beat Superattendens cũ praefecto. ín viſi⸗ 
+tatione num hoc fiat. 
+
+
+dH D pauperum ſubuentionem omnes 
+ſoliti redditus / quos hacttenus ha⸗ 
+buerunt / reſetuentur / ⁊ quicquid eft ſpo⸗ 
+tanearum oblationum / qua vel in feſtis 
+colliguntur aut alias / in hoc conferantur. 
+
+K ik 2 
+
+
+A D hoe duo diaconi aut plures (vt 
+SA. vilium fuerit magiſtratut) pruben? 
+tes ⁊ pit conſtituantur / qui bona 
+illa ſubleuent / in feſtis circumeundo collt⸗ 
+gant / ⁊ ipſis pauperibus pro ſua cuiuſqs 
+neceſſitate / fideliter à large diſpen ſent / 
+quotannis publice omniũ acceptorum et 
+evpenſorum rationem / in pꝛœſentia mini⸗ 
+ſtroꝛum verbi ⁊ magiſtratus reddant. 
+
+
+Arochi in genere omnes / aut con⸗ 
+D tinenter viuant / quibus id datũ 
+4 eſt / aut ducant vxores. Quod (t 
+diuerſũ fecerint / femel atqʒ iterũ admone⸗ 
+
+
+antur / Si reſipiſcere noluerint / deſtituant 
+ab officio / ⁊ in locii eorũ alíí pꝛæficiantur. 
+
+
+De Holpitalibus. 
+
+
+f * Y imum omnium volumus / vt 
+
+1 » Datu in liberum vfum 
+pauperum / villa/agti/ piſeinæ / 
+
+| ; Prata 
+
+
+E Folio — vliti 
+Dtata/molenoítie/Cyluc/4 reliqua quæ 
+antiquitus i rell taliũ bominum. 
+attributa fuiſſe inueniuntur Quod ft ali⸗ 
+cubi (fta nó ſuffecerĩt Rex reliquũ adiiciat / 
+dene Chꝛiſti dietum / quod vni ex mini 
+
+
+mts meis feciſtis / mihi feciſtis. 
+
+| Orro bonis pauperũ / prœficiãtur 
+j aJ diaconi / qui bona fide colligant 
+| I red ditus / et aceeptorũ aqueatqs 
+
+
+evpenforum reddãt rationem / in pꝛæſen⸗ 
+tía magiſtratus ⁊ miniſtroꝛum verbi, 
+
+
+(D Conomue in hoſpitall ſit / vita 
+pietatiſque probatæ / qui habeat ſub 
+ſe / ſeruos ⁊ ancillas pꝛo pauperum mule 
+titudine / ita vt fideliter / et pro neceſſitate 
+cuilibet inſeruiatur. 5j 
+
+
+Die cũ vxore « liberis cœteriſq; miniſtris 
+ex publico ſuſtentetur / ita tamen / vt ratio 
+pauperum ineatur / et ne ſuſtentatio 
+JUNO T^ vertatur 
+
+
+vertatur in lueum, Liteat huic oeconomo 
+babere currũ / quem pꝛo more emiccat mes - 
+dicatũ / in præfecturam loci / vt ev eleemo 
+ſynis etiam paupecibus aliquid accedat. 
+Dui parochi rurales ad quce peruenerit 
+currus / operam ſuam / exhortando plebẽ 
+ad offieia charitatie / acc modent. 
+
+
+& «confilio parochi ⁊ magiſtratus 
+colligere eos paupetes debent ꝙdiles / 
+
+qui re vera egent / aut valetudine aduerſa 
+laborant / neaffcciibue ſuis in deligendo 
+potius quam neceſſitati inſeruiãt. Quos 
+in hebdomada femel atqs iterũ viſitet lock 
+paſtor /et ſicubi negligẽter curari pauperes 
+inuenerit / eo de re oeconomũ admoneat. 
+Si ille au dire noluerit / rem ad adiles re⸗ 
+ferat / verbo dei quoqʒ conſcientias confos. 
+letur / ad minus in hebdomada ſemel. 
+
+
+Nopulo ſa ho ſpitalia ⁊ ab vrbibus aliqude 
+tá dijſita / ſuos habeant ⁊ nutriant prae^. 
+
+
+dicatorea/ ne ſi miniſtratione ſacramẽtorũ 
+opus ſit 
+
+
+4 Folio lo i 
+ópue fei in nocte / aut con ſolatione apud 
+morituros / aliquid detrimenti paupetes 
+ot | 
+ex ) Pera danda etiam vt po diuer⸗ 
+ſitate morborum / diuet ſa labo⸗ 
+bus habitacula / lecti /va ſa/⁊ qua ad 
+— 5 pertinẽt alia /aſſignentur / potiſſin H 
+vbi eontagio timetur / nc conuictu morb? 
+a paucis vires fuae ad multos eptendat / 
+Morbi curabiles / vt gallicus a ſtmiles / 
+beneficio vrbanoꝛũ medicorum qui diligẽ⸗ 
+tem huic rei curam adhibeant 2 pꝛo im^ 
+pen ſa opera mercedem percipiant / pellãtur 
+Ita vt nõ ſolũ ſuſtententur pauperes / 
+verum etiam beneficũ valetudinis illis 
+reſtituatur / quantum id fieri poteſt. 
+
+
+De Superintendent ibne et 
+
+
+Dꝛepolitis cor adiutoribus. 
+
+
+E Vperintendẽtes reſtitutæ religlonis 
+i; TA NN M conſerua⸗ 
+
+
+conſeruatores in ſingulis diqceſibus ſin⸗ 
+guli ſint / ⁊ illi ipſi in quauis prœfectura 
+ſingulos habeant Præpoſitos / fibi co⸗ | 
+adiutoies. i 
+ji) Rapo ſitis / fi pro ſua ditione : 
+nó ſatis habeant ey ſuis pato^— 
+chije / addemus liberaliter / ne qui ora 
+ferũt alio rum / inopia cogantur laborare. 
+Quãdo vero viſitant Præpo ſtti neceſſario 
+aliquam cccleſiam / det eis ecdefta marcam 
+vnam et victũ in ho ſpiclo. | 
+
+
+De uictus ſalario luntr⸗ 
+
+
+agttenoentutme 
+
+
+B bean vvore bone 
+R ec lberis / poteſt habere duas an⸗ 
+cillas / pꝛo neceſſitate vet domeſti⸗ 
+
+c / Præ terea his tniniſtris carere non 
+
+
+M poteſt / videlicet Notario qui ſcribat / ſeruo 
+
+
+quem c equo vel aliter amandet / Auriga 
+
+
+quí quatuot equoe altet / Et puero qui 
+ſemper 
+
+
+Folio v | 
+
+. adſit ad I 8 «dae domꝰ 
+ſi hic puer / etiam literas diſcat / et ſerui 
+ſacram ſcripturam / vt inde poftea boni 
+po aut Cxbele pꝛa ſides peti poſſit. 
+
+
+Via vero ſuperattendentes / qui vet 
+ſũt ecdeſiarum Epiſcopi vel Archi? 
+epifzopi/ iam nõ vocantur ad canonicale 
+otium / ſed ad ingentes labores / id quod 
+dei gratia agnoſcimus / nempe vt tractent 
+et doceant latine alios ſacram ſeripturam / 
+predicent populo / nõ ſolum in ſua ciuitate 
+feo etiã in tota dia ceſi/quocũqʒ acteſſerĩt / 
+verbum dei / contineant noſtros ſubditos 
+in pace ⁊ obedientia / per prædicationem / 
+ex ſacra ſcriptura de magiſtratu ⁊ obedi⸗ 
+entia / Curent vt õnes pra dicatorcs ſyncere 
+et concoꝛditer doceant ſacrũ C uanaelium 
+Chꝛiſti / et quae huic coherrent / viuantque 
+paſtores cii honeſta fua familia /quẽadmo 
+dum paulus ad Timoth et Titũ ſeribit / 
+vt decet miniſtros Chuſti /⁊ vt tales fub fe 
+| ij habeãtc 
+
+
+habeant in — del 2 Cada: ecdeſic 
+Chꝛiſtt / ante oꝛdinationem eos diligen ter | 
+evaminent / examinato ſqʒ et nomine 
+Regis a Præfecto ſuſceptos oꝛdinẽt « ſuæ 
+cõmendent eccleſiæ in nomine domini. 
+Juerſũ vero facientes nec fua oir i 
+A €ucanteá admoneant / arguant/ et 
+aut emendent aut adhibito Prafecto / 
+prœpoſito/æ alijs aliquot Me offt | 
+deponant. 
+
+
+RKRaterea omnes cauſas / que ab 
+e conſcientias pertinent / de quibus 
+HASC con ſilium ev verbo dei quatitur/ 
+eñ vel nos ad eos ſcribimus vel noſtri / vel 
+eo fua di eſt eis pꝛopiſttœ fuerint / ſuſci⸗ 
+pi an :/a reſpondeant quá po ſſũt ex verbo 
+dei diligentiſſime / ſecundum gratiam 
+ipſis datam / aut con ſulant alios Super⸗ 
+attendentes / vel doctiores pꝛædicatores/ 
+vt certo reſpondere poffint. 
+Cauſas tamen mattimoniales / fe tũ 
+fotum 4 cõtentio partiñ oritur et ſentẽtia 
+E. publica 
+
+
+. Folio "" : 
+publíc requiritur / aut "udo crimen 
+publicũ eſt / vel ſcandalum in populo time⸗ 
+tur / mittant ad noſtram audientiam vel 
+ad noſtrum pꝛæ fectii / ⁊ in ciuitatibus ad 
+e pꝛo cõſcientijs in hat re 
+
+r ultis iudicẽt ev verbo dei / et fana dẽt 
+ex ipfo verbo conſilia. 
+
+
+B omnibus veto iudiais ciuilibus / 
+WAabſtineãt nift vocati a nobis ⁊ rogati 
+a noſtris conſiliarijs a Pꝛæfectis fuerint 
+ad ea que iporum iuramento ⁊ officio nó 
+vepugnan t. 
+
+
+Poſtremo ſcholas pueroꝛũ in ſingulis 
+ciuitatibus ⁊ oppidis viſitent cum ad ea 
+loca peruenerint / cutentqs cum prafecto 
+noſtro vt omnia iſtie recte gerantur / nec 
+omittant ſciſcitari / quemadmodum pro 
+pauperibus curetur zc. 
+
+N Irum ft vnus vir ad bec omnia 
+"ibo vt certe non libeat ei alia 
+iii curare 
+
+
+curare / Ad het quis doneus! 3 en 
+verbo vtamur. 
+
+
+Os Via igitur ad hoſce immenſislabo⸗ . 
+res et eccleſiarum curae vocantur / ne 
+volumꝰ vt aliquo pꝛo his officlis veli 
+nimum quid evigant/ fe gratis per hæe 
+pꝛædicta fua offidia ſeruiãt omnibus / ey 
+cepto victu / quem Superattendens cum 
+fuo comitatu ⁊ quatuor equis aceipere tee 
+bet / a parochis ruralibꝰ / Et in ciuitatibus 
+ab ecieftarum parochialium tutotibꝰ ſiue 
+prouiſoubus / quando eſt in itinere / vt 
+viſitet eclefíae femel in anno / aut quando 
+alias pꝛopter neceſſarias cauſas vocatur ab 
+aliqua eccleſia / aut alioqui neceſſitas pov 
+ſtulat eo abire, Promittimus quemad⸗ 
+modũ coram deo agno ſeimus / hoc nos 
+debe re / quod ipforum pꝛotectores eri⸗ 
+mus / cum noſtris pꝛa fec is. Noſque 
+non ignorantes verbum Chriſti. 
+e eft operatius mercede 
+ſua et 
+
+
+A 
+
+
+1: ppp 
+
+
+: Folio diti 
+ſua et. Si non ſuſceperint vos / eveuntes 
+de ciuitate illa / evcutite in eos puluerem 
+pedum veſtrorũ «C/ ⁊ verbũ Pauli / Pꝛe⸗ 
+yteri duplia honore digni funt maxime 
+: jui labáranr in verbo / volumus conſtitu⸗ 
+Yingulíe ſuperattendentibus honeſtũ 
+victum ⁊ ſalarium / pꝛo ipſis et pꝛa dicta 
+ipſorum familia / ordinareqʒ vnde «tto 
+
+duotannis hœcaceipiant. 
+
+
+[^ Et hæt omnia ſeorſum literis noſtris 
+et ſigillo eis confirmare / ne quid eis deſu. 
+Et ſi poftea certo depꝛehenderimꝰ bac 
+non eſſe ſatis / addemus quod deeſt / vt 
+nobis ⁊ noſtris regnis ad ſit deus ft religi⸗ 
+onem ⁊ pacem curauerimus / quod vt fa^ 
+cíamue pa [tet ipfe per filium ſuũ domi⸗ 
+pum noftrum Jeſum Chriſtũ Amen. 
+
+
+| Aſſignamue itaq; 2 damus ſingulis 
+Superattendentibꝰ in ſingulos annos / 
+n tas vt vod) Bigiaie/quaruge 
+laſtas 
+
+
+laſtae braſif / duas laſtas auena/ quin⸗ | 
+quaginta plauſtra fæni / viginti plauſtra 
+ſtraminis / quadꝛaginta agnos / 2 centũ 
+florenos in auro. Quia vero Maffnia ca 
+rius omnia emũtur / z vniuetſalis Scho⸗ 
+la effiaet vt ibi maioti ſumptu opus ſit 
+addimus Superintendenti illic habreanti 
+ſalarium tertiæ lecturæ theologie quod 
+minus ejt alits ſolariie theologorum / vt 
+legat diligenter facram ſeripturam publice 
+in Schola / quando domi adeſt 2 non 
+cogitur alio abire per viſitationẽ Eccdeſiax. 
+
+
+O Vando vero chꝛiſtianoꝛum eft pro 
+pauperibus curare / dignũ iudicamn?ꝰ 
+vt pro viduis z pupullis Superattendẽ - 
+tum et aliorum eccleſiæ miniſtrorũ / cum 
+eempus poſtulauerit / ſolieiti ſimus. 
+
+
+Aliade Suptrattkdtntt tt 
+Bpelins tt paupce aerario. 
+
+
+vbt d'atua 3 
+
+
+MEG nt tin Foto" f i 
+Vßperat ten dens loci /o ntum 
+A ſcholarum quantum ad doc 
+
+P» Sed rrinam pietatis « ſtudia pue» 
+llta attinet tationem habeat / 
+
+
+Ludimagiſter vero reliquos fub fe mini⸗ 
+ſtros ſcholæ ftbi curet /⁊ cũ pat ochi iuditio 
+et approbatione ſuſcipiae. ji 
+y. Vperintendens lod. ſemel ab 
+
+^ VA (nico omnes fuae parochiat di 
+publica noſtra autoritate 4 adiũcto ntó 
+prafeto viſitet / rationẽ om niũ parochi⸗ 
+arũ ineat / bona earum cii omnibus ſuis 
+beneficijs con ſcribat / conſcripta in certa 
+regiſtra referat / Quorũ vnum ſibi ſeruet / 
+teliquũ apud noe per noſtrum prœſeetum 
+deponat / vt ſemper ſit / vnde de ſufficienti 
+miniſtroꝛũ Eccleſiæ ſuſtentatione / inquiti 
+queat / nec poſthac cuilibet temeratio / dep te 
+dandarum eccleſiarũ occaſio "me 
+
+
+e[ N primis vero 2 ante omnia in hae 
+prima viſitatione / Superattendens 
+exacte legat 7 norit quain hac noſtra ordis 
+natione conſtituta ſunt / « curet eum ad? 
+iuncto noſtro praefecto vt bonos paſtores 
+babeant ſingulæ parochiæ / Et inciuita⸗ 
+tibus 4 oppidis cum pra dicatoribas a — 
+conſulibus / inſtituat puerorum ſcholas⸗ 
+curetq; pro eis praxeptotee/ Docqʒ no^ — 
+ſtris ſubditis illie mandet noſtro MM 
+| noſter prœfectus. 
+
+
+A Olumus vero maple vt Super⸗ 
+attendens cum præœrfecto noftro dilis 
+genter quantũ opus ſit ad honeſtũ victum 
+1 ſalariũ /vnicuiqʒ parocho / pra dicatori⸗ 
+miniſtro eccleſia / Schola rectori / ⁊ pœ⸗ 
+dagogis nobis ſcribat / vt in perpetuum 
+confirmemus. Et ſi eccleſiæ non ſatis ad 
+bec babent/noe addemus quod deeſt. Ali⸗ 
+oqui videmus religionẽ noſttis non poſſe 
+durare 7 conſeruari. 
+
+Speramus qnod deus fua: mi⸗ 
+
+ſericordia 
+
+
+p Folio t 
+ſericordia ad here nos cõfortabit Amen. 
+
+
+Ro Ludi magiſtro ⁊ eius adiu⸗ 
+toribus debet præſectus noſter 
+cum Superintendente in ſingu⸗ 
+m ppidis a ciuitatibus ordinare ⁊ con⸗ 
+ſtituere cerca ⁊ ſufficientia ſtipen dia ev ber 
+neficiis Eccleſiaſtieis quando moriuntur 
+illi qui ea po ſſident / Et conſtituatur vnũ 
+tertum beneficium perpetuũ pro perſona 
+ludi Magiſtrt // quod babeat tpfe quam 
+diu fucrit in Schola offiao. 
+
+
+Itadmonemus etiã Sußer⸗ 
+Hattendẽtes vt velint meminiſſe 
+quid Apoſtoli rogarint «mo» 
+
+
+n nuetint paulum 2 War abã 
+
+
+Faden inquit / vt pauperum memores 
+eſſemus / in quo 2 diligene fui vt hoc ipſũ 
+facerem. Igitur quiſqʒ in fua diæceſi cum 
+prafeto noſtro cum præpo ſito / pra di⸗ 
+Nu gactoribus 
+
+
+catoribus 2 ſenatoribus /i in ſingulis ciui⸗ 
+tatibus eitgat atatíum publicũ pro pau⸗ 
+peribue /in quod ingerantur eleemoſynce | 
+Piorũ / teſtamenta⁊ alia pia donata Item 
+Caledææ / fraternitates et quae gildas vocat 
+memoriæ /cõ ſolationes ⁊c̃ quando defũcti 
+fuerint qui nunc inde viuunt Item ad 
+atari Pauperũ pꝛo ſuſtentatione paupeꝝ 
+volumus vt per Superattendentem / 
+Nrafectũ et alioe qui noinine noſtro adfu⸗ 
+erint ci orbium ſeuatoribꝰ oꝛdinẽtur önes 
+vicariæ / qua hœredes nõ babent defũctis 
+(i6 qui nũc eas poſſident / ſecundũ ſigillatas 
+literas noſtras Exceptis illis quas nos 
+oꝛdinabimut pro vniuerſitate haffnienſi 
+aut alias pto Etcleſüie et vuerorũ Scholis 
+ndi veroꝛũ paupetum incõmodo. 
+edicgtoree autẽ debẽt admonere 
+populum vt quæ antea miſſis / 
+2" Monachis / pro animabus / pto 
+| roulg entiis / pro peregrinationibus et 
+e Kæroubus er dei blaſphemijs / bono 
+qu idem 
+
+
+peo Fallos. dino. 2. 
+quíbem ſed ettari affectu dabant / nune 
+dent deo 7 domino noſtro Jeſu Chꝛiſto 
+in pauperibus. 
+
+
+E 8 Aboc 5 : 13 ludit roli | 
+AMaritie / quando nõ pꝛo ſe / feo pro 
+pnuperibus ( quibue. (rte Chꝛiſtiani 
+debent) ſoliciti ſunt. "gj 
+Conſtituat vero ſuperattendens cum 
+prafecto noſtro/cum pra po ſito / cũ pꝛeſby⸗ 
+teris ciuitatis ⁊ ſenatoꝛibus / induſtrios 2 
+verbi dei amantes viros /vt ſcribitur:acto: 
+G: i Cunotb : 3: qui ſint pꝛafecti acta 
+rij ⁊ pauperũ diaconi / qui non negligãt 
+officium / « norint / vbi / quid / cui dare 
+debeant / z ſubinde / quando neceſſarium 
+viderut / vtantun condlio ene cmd 
+
+
+p *3 diaconi pauperum fingulis: annis 
+poſſunt mutari ſed non omnes / vt 
+at vnus ⁊ alter / qui per experientiã 
+iam didicerunt hac curam gerere paupa (7 
+MEN 1) (4 Rationem 
+
+
+Rationẽ autem reddant ſingulis annis 
+(tato tempoꝛe pꝛæpo ſito / pꝛa dicatoꝛibus 
+
+
+7 conſulibus. oc erit placitũ pus deo. 
+
+
+Rapo ſiti vero cognitionem panier : 
+
+legis habeãt / quotãnis fingula dae pa⸗ 
+
+rochias viſitent / adhibito in alli — 
+tate magiſtratu qui illic eſt / Et poft facti 
+computum ectleſiarum / in primis quam 
+
+
+pure parochi Euangeliũ pꝛæditent / Ca» 
+
+
+techiſmũ enarrent / Sacramenta admint⸗ 
+ſtrent / debita munera exequantur / vita 
+functionẽ ornent / ac num commode eis 
+
+
+prouiſum ſit / evplorent. 
+
+
+0 Einde quoque parochiãos ohe | 
+
+
+vt fiant quantum ín profe(fa pietate 
+
+
+pꝛomoneãt /qualiter ad deſertam Papæ 
+abominatiõem fe habeãt / doctrinæ (Ende — 
+
+
+gelicæ faueant / fruetus eius vita referant / 
+
+
+Cœmiteria et templa obſeruent / ac ſolita ! 
+debita quẽadmodũ parochis pendantut | 
+
+
+üiquitane, 
+€t f 
+
+
+N 
+. ct À 
+
+
+Folio lii 
+
+(et fu fi quid nw in parochis deſyde⸗ 
+
+rari offendant / diligenter eos officii 
+admoneant / nó reſipiſcentes ad ſuperin⸗ 
+tendentem lod referant / ille quoe ad officiũ 
+reduceiz nó poteſt ad magiſtratũ remittat 
+fie loci Præfectũ Itidem parochiani de 
+non ſeruata ordinatione / quãdo non da⸗ 
+tur parochis quod dehetur / a pꝛa poſitis 
+admoniti / niſi ad mentẽ redeuntes / quod 
+«quítae requirit pꝛæ ſtent ad magiſtratũ 
+deferantur / ſiue ad Loc praefectum. 
+
+
+Yo arochi ad præpo ſitos ſuos defecus 
+referant / qui vt omnia cõmode per 
+ſuperattendentẽ loci cõponantur / effitiãt / 
+ne per cõtentiones e eee mate. ver⸗ 
+bum audiat. 
+
+
+O Vod ſicubi patodyi deſyderart (ee? 
+perint / huc quam primum pꝛa po ſiti 
+
+ſe conferant / magiſtratum ⁊ populum ad 
+inteicoenü apud dominũ deũ pro bene 
+conſequendo 
+
+
+tonfequensil parocho viii Er g 
+poſt ea ædiles templi quoꝛum intereſt mo⸗ 
+r eant vt apud Epiſcopum et ouſules de 
+eo conſequendo inſtent. * d EST , 
+
+
+Do Dperntententisin ſulslod da pbihe 5 
+bitant / ſacram ſcripturam in tetpꝛetẽ, 
+tur et pꝛædicent quandoque / Viſttent ve⸗ 
+ro feineL tantum ſingulis annis / commo⸗ 
+do tempoꝛe / ſuam diæceſim / cum nostro 
+pꝛa feeto / niſi inadens aliqua neceſſttas 
+requirat vt ſapius viſitetur / Ibi ſupeen de 
+dottrina evaminentur / integri confirmen⸗ 
+tur / ec ſi ſuid cõtrariæ doctrinæ ſubortũ 
+fuerit emẽdetur verbo dei. Diligẽter v vero 
+Superintenden s cum pꝛæfecto noſtro ines 
+veſtiger de ſalariſs pꝛædica roꝛũ er Scho⸗ 
+larũ / de ho ſpitalibus et ratio pauperũ / 
+et curent ne quid in his edit. WA 
+
+
+greens (rinuemmefieiene | . 
+ſatis ſyncera fi de officům ſuum age⸗ 
+ene parochoꝛum coꝛumpi/aut 
+| | alioqué 
+
+3. 
+
+
+, * 
+
+
+e 
+
+
+EE 
+E. Folio tij 
+
+
+monitionem reſi 
+rint / ius fuum regia maieſtas / pꝛo ratione 
+
+
+gliorum / habebit / Sicut et magiſtratus in 
+| T o alios | 
+
+
+— 
+
+
+dau! non ea qua e«et vigilantia com⸗ 
+miſſum munus evequt/ Aut ſi( quod ab⸗ 
+ſit) in crimen aut batefim lapſus fuerit / 
+
+
+toꝛã Bege accu ſecur /⁊ audiatur eius deſen 
+
+
+fio paafentibue duobus aut tribus aliis 
+Superattendentibus / ecũ dum illud pau 
+li j. Timoth f. Aduerſus pꝛeſbyterum / 
+niſi ſub duobus aut tribus teſtibus accu⸗ 
+ſationem ne admiſeris. Cauebimus diligẽ 
+
+
+ter ne bonus vir contumelta aliqua afficia⸗ 
+tur / aut ei fiat iniuria ſi accuſatus eſt (tne 
+
+
+culpa / Si vero de erꝛoꝛe aut crimine non 
+reſipiſcit vt emendari poſſit / ab officio de⸗ 
+ponatur. Debent cni Superintendẽtee pꝛo 
+mote epiſcopoꝝ ſine crimine eſſe / nõ ſolum 
+tũ eligunter / verum etiam electi cauere ne 
+obnoxij erimini luxus / auaritia aut am bi 
+tionis notentur. In notatos et publie 
+conuictos / nec poſt vnam et alter am ad⸗ 
+
+0 iſcentes vbi depoſiti fue⸗ 
+
+
+alios miniſtros eecleſiarum et Scholarũ / 
+vbi pꝛo crimine depo ſiti fuerũt / aut depꝛe⸗ 
+henſi in crimine capitali/quod deus a ſuis 
+miniſtris aueritat. | E. 
+
+
+( * 
+Bi opus fuerit aliquo Superin⸗ 
+€ CT cenvente/conuentaut omnes paſto 
+;rxres (tuo diœceſis eo ciuitatibus 
+ſolum / ita tamen vt relinquant qui curent 
+interim verbum « ſacramenta. Conueni 
+aut inquam in locum habitationis ſuper⸗ 
+attendentis xx. die poſtquam ille defũ⸗ 
+(tue e(t /et dent cõcoꝛditer poteſtatem quae 
+tuor paſtoꝛibus eligendi aliquem quem 
+dignum vita et doctrina iudicauerint Et 
+hi quatuor prœſentẽt eum vicinioti ſuper⸗ 
+attendenti / ſi non ftatim tamen cum licet / 
+vt illie egaminetur. Js fi pꝛobatum (ub 
+cauerit / mittat eum ad Seremiſſ: regem 
+
+to nfirmandum. Rex vero / ſi ſuſceperit eũ / 
+
+commendet eum diærceſi per ſuos cõmiſſa⸗ 
+
+rios et pꝛæf;ectum illius loci / ⁊ mandet 
+D, omnibus 
+
+
+ie Folio tiit 
+omnibus paſtoꝛibus vt eum ſuperatten⸗ 
+dentem agnoſcant / ⁊ obediant in ijs quae 
+ſuperdttendenti (unt commiſſa. Jurabit 
+vero ſüperattendens /regi fidelitatem ⁊ ſui 
+officij et regiminis eecleſiaſtici diligen tiã / 
+ſecundum gratiam dei. Ideo fub fe habe⸗ 
+et Superattendens omnes pꝛapoſitos / 
+parochos ⁊ pꝛa dicatoꝛes. Et hi obediant 
+Superattendenti / niſi duverint eum accu⸗ 
+ſandum coꝛam rege (quod abſit) de crimi⸗ 
+ne aut doctrina mala / aut negligentia o 
+eij / de quibus vel non poteſt vel non vult 
+emen dari / Nam hie nen. e(t pꝛeſbyteris 
+tacen dum aut reliquis ſuperattendẽtibus / 
+ſi rem ſciuerint. Et locorum pꝛæfecti / de⸗ 
+bent nobis indicare / vbi talis infamia 2 
+clamoꝛ in dicrceſi contra ſuperattendẽtem 
+ſurrexerit. Ot autẽ pꝛafecti noſtri aut alij 
+nulla publica infamia notatos /coram no» 
+bis ⁊ aliis infament non eis permittimus 
+Quin ſi opus fuerit vt tueantur eos /mꝭ / 
+
+
+damus. | 
+O Suſceepit 
+
+
+bHſceptus vero a diæteſi Super⸗ 
+5 attendens ordinetur publice in 
+- ^. etuttate (tte habitationis domi⸗ 
+nico aut feſto aliquo die / pꝛo concione ⁊ 
+ante altare per oꝛæpo ſitos / 2 quinqs aut 
+feo vicitito1e6 pꝛædicatoꝛes. 
+
+
+Dnus autem e» aliis fi uperattendentibus | 
+teinior fit ordinator ſecundum modum 4 
+n poſt ſcribetur. 
+
+
+De pꝛækectis 
+D Baßerte noſtris a confulib? in ciuis 
+
+
+tatib? mãdamꝰ / vt oꝛdinationẽ no⸗ 
+
+ſtrà / miniſtros eccleſiaꝝ « ſcholaꝝ tueãtur / 
+eum a ſuperattendente vel pꝛapoſito te 
+quiſiti ad hoc fuerint / cum non datur eis 
+quod debetur aut iniquoꝛum pꝛæmuntur. 
+iniuria. Cur enim noſtri pꝛœfecti 2 conſu- 
+les non pꝛeſtarent dei miniſtris quod pꝛe? 
+ſtare debent vel infimo aft Dem i 
+
+8 
+
+
+| Folio lo 
+der Pellnt deum 2 nos? 
+
+
+De liotis ruraliũ patada: | 
+kum certis 3 qubus carere 
+cdmode vir poſſunt. 
+
+y Vm innumeri hodie malt libri 
+(5f pꝛodeãt / quibue non ſolum im⸗ 
+| periti / verum etiam iudicio fepe 
+pꝛa diti inficiuntur / oportet bonos paro» 
+chos / libris tantum approbatis vti/ne fub 
+
+
+ſpecie veritatie ipſos etiam errotes magna 
+ſuoꝛum pernitie imbibant. 
+
+
+"d VNte omnia ergo facra Biblia habeãt 
+pſum fontem ſynceræ pietatis. 
+
+
+Deinde Poſtillas Cutheri / quibus ratio 
+
+Waconterum euangelioꝛum traditur. 
+
+Nera apologiam Philippi / qua certa 
+Oi vom 
+
+
+doctrina pietatis deſenditur / et eur RS] 
+ſie credendum ⁊ Socnoum ſit oſtenditur. 
+
+
+Quarto locos cõmunes eiuſdem quibus | 
+meceffarit ſcripturæ loci metho dice ev. 
+plicantur. 
+
+Poſtremo librum aliquem epplicatt 
+tatechiſmi / cum minoꝛe catechiſmo luthe⸗ 
+ri / vt ſciant qui iuuentutem in elementis 
+pietatis rite informent. 
+
+
+Oltimo librum infoꝛmationis viſitatorũ 
+
+Saponiæ / ⁊ librum huius noftre ordi⸗ 
+
+nationis / vt (cant quibus in rebus poe 
+tiſſimũ ſe eſſe inſtructos opoꝛteat. 
+
+
+W Oui vero libri fiue Daniq ſiue lae 
+tine aut germanice ſeripti / item traſ⸗ 
+lati in danitam linguam aut aliam / itẽqʒ 
+alibi epcuft/ mate ſi theologica tractãt 
+aut ad politica fiue oeconomica pertinẽt / 
+non eycudantur in regnis noſtris a typos. 
+grapbie/ nif pꝛius ab W noſtra 
+g deinde 
+
+
+Folio (ot VT 
+2 . a ſingulis ſuperintendentibus 
+oan Dania publico teſtimonio probati. 
+
+
+De eritis Duptrinten⸗ 
+
+drntũ s illoꝛum qui in ciui⸗ 
+
+tatibus a oppidis (unt pdi⸗ 
+
+catoꝛum ⁊ aliorũ Schole 
+
+FP kccleſie mmiltro⸗ 
+rum. 
+
+
+| Bratores Eccleſian in c(uitatib? 
+| CÍ 4 oppidis / pꝛo ſuis pꝛædicato⸗ 
+| ribus fiue paſtoribus « alite Ec⸗ 
+lei ſiue parochiæ fuc miniſtris curent 
+
+tcõmodas 4 honeſtas habitationes / eaſqʒ 
+reſartiant 2 ædificent Eccleſiæ ſumptu 
+
+| meh deeſt / ad vei M boinitor 4 ſtudii 
+
+| neceſſitatem 
+
+
+neceſſitatẽ. Similiter « Scheu. 2 Schole 
+
+
+| 
+
+
+miniſtroꝛũ habitationes. Quod ſi plures 
+parochiœ ſint in vna ciuitate / omnes cura? 
+
+
+toꝛes parochiarum Scholam 2 y ba^ 
+
+
+birartonee ædificent / reſartiãtqʒ at ita ta» 
+men ot habita ratione Eccleſiarum / üla 
+Eeeleſia in hac re plus faciat que ditios 
+eſt / iuditio pꝛæfecti noſtri / Superattendẽ⸗ 
+
+
+tis / præ po ſiti ⁊ ſenatus. Valde iniquũ 
+
+
+nunc eſſet / ſi pꝛadicatores in ciuitatibua 
+cogerentur fuo ſumptu a dificare ex fuo 
+ſalatio / quando poſſunt off icio deponi / 
+⁊ ipſæ domus (unc Ecdleſiq / vnde nibil 
+
+
+accedit ipforum viduis « pupillis vbi de⸗ 
+cedunt. Superattendenti vero curatotes 
+
+
+Eccleſiœ ftue Eccleſiarum ſi plures ibi pa⸗ 
+rochiæ ſunt / in ciuitate vbi (pfe habitare 
+debet / curent ac ſartiant honeſtam dom ũ 
+7 commodam pꝛo re familiari /pꝛo ſtudiis 
+eius / cum habitaculis ⁊ cubiculis miniſtro⸗ 
+rum eius a cum ſtabulis. N eqʒ hot gra⸗ 
+
+
+ue ípfíe videatur. quod publicum totius 
+
+
+icon minificum ipfi ſoli hoc hoſpitio 
+| dignantut 
+
+
+Folio lvif 
+
+
+| dignantur. Nam egregia cõmoda pre ea 
+teris ev eo habent / quia audiunt eius Lectt? 
+
+
+ones ſacras ⁊ conciones /ettamẽ non dant 
+
+
+ei ſtipendium / Accedere « conſulere eũ licet 
+
+
+ipſis quoties volũt ſine ſumptu / pꝛa terea 
+cum ab alite Eccleſiis quocũqʒ venerit per 
+totam dia ceſim aceipiat eibum ⁊ potũ ꝛ 
+reliqua hoſpicu beneficia pro ſe ſeruiſqʒ 
+
+
+ſuis 1 equis / ab hac Eccleſia « hiſce ſuis ei⸗ 
+
+
+uibus nibil acaipit / ſed poa? omnia apud 
+eos conſumit que victui ipſius ſunt oe». 
+putata / Optandum ergo eis fuerit ⁊ loco 
+benefici habendum / quod pro eo honeſte 
+eædificent / tantũ abeft vt hoc fir eis graue. 
+
+
+De Norwegia. 
+
+
+Vj Vorwegia / curabimus quam 
+A. primum vt ſint Superatten dẽtes in 
+
+
+ſingulis diæceſibus. Illis mandabimus / 
+
+
+vt quam poſſint rectiſſime interim curent 
+1 P vt ſingulæ 
+
+
+vt ſi íngula parochiæ bonos præœdicatores 
+⁊ verbum dei habeant / nihilqʒ negligatur 
+quod ad verbum prærdicandum ⁊ ſalutem 
+hominum attinet / 2 diſponant Y aliis 
+qua funt in bac noftra ordinatione/ quee 
+poſſunt / Donec nos ín Norwegiã venía» 
+| * id quod breui futurum per Chꝛiſtũ 
+ſperamus. Tunc conſilio illorum Super⸗ 
+intendentum / ſeorſum illic ordinabimus 
+4 confirmabimus ea omnia que ex hae 
+ordinatide ilic ſeruari non poſſũt. Mul⸗ 
+ta enim ibi aliam requirunt ordinationẽ. 
+
+
+De Fmeritis miniſtris Ec⸗ 
+clelia rum et Scholarum. 
+
+
+Moerito alicut pꝛædicatori / miniſtro 
+Ecdleſiæ aut Scholæ puerorum / id 
+
+eſt qui in ſuo officio doctus diu fedeliterqʒ 
+ſeruiuit / nec poteſt amplius prae valetudi⸗ 
+ne / cum pao eo rogati fuerimus / dabimus 
+vnam 
+
+
+| 
+| 
+
+
+Folio feb — 
+vnam ptabendam propime in Kegno 
+vacaturam / pro reliqua vita trã ſigenda. 
+
+
+Dt LTanonicis. 
+
+
+Ro Canonicis qua neceſſaria vidꝭ⸗ 
+tur ſtatuemus in cõfirmatione Ac 
+cademiæ Maffnienſis. Volumus 
+vero ⁊ mandamuse / vt / quemadmodum 
+ſemper debuerũt / foueant honeſto ſtipẽ⸗ 
+dio erudituin aliquem theologum in ſua 
+ciuitate / qui publice legat latine ſacras li⸗ 
+
+
+teras pꝛo Cãonitis / pꝛo Scholaſticis aut 
+
+
+doctie ciuibus / aut aliíe adire volentibꝰ. 
+Hic theologus nonnunquã ſtato tempore 
+
+
+pꝛædicet / ſed ita ne alia oꝛdinaria pra di⸗ 
+
+
+catio per hoc impediatur. 
+
+
+Et Canonici quí alibi non agunt (tuti 
+
+
+gratia / quotidie canant ev ſacra ſcriptura 
+3 verbo dei / quemadmodum Dilectus 
+
+
+ii nobis 
+
+
+nobis Joannes Vugenhagius Pomera⸗ 
+nus Doctor / (uo conſilio / quemadmodũ 
+vocat /ev verbo dei ⁊ tatione fidei Chꝛiſtia 
+nx breſeripſit. quæ iuſſimus in fine huius 
+noſtrœ ordinationis addi / Ea cum non 
+grauent / vt tla Papiſtarũ battologia / ſed 
+fancta fint ⁊ iucundiſſima verbi dei exer⸗ 
+
+
+citia / inuocationes Dei ⁊ gratiarum acti⸗ 
+
+
+one / atqʒ pene ludendo aſſuefaciant pios 
+
+
+ad ip ſam ſacram ſcripturam / nihil e(t cur 
+
+
+aliquis canonicus / qui a Canonica ſcri⸗ 
+ptura nomẽ habet / ea recuſet. Dominico 
+quoqʒ die ⁊ in feſtis / ſi adſunt communi⸗ 
+
+
+caturi corpoꝛe ⁊ ſanguine Chꝛiſti / cænam 
+
+
+do mini celebrent vt ibi pꝛa ſcriptum eſt / 
+niſi (pigrum eccleſia ftt parochialis / qua de 
+re antea dictũ eſt in hac ſacra ordinatione. 
+Cicebit eie in hoc fuo otto viuere fe bores 
+(to ⁊ literario / donec ad effica vocati fus 
+erint. Qui non continent ducant vxores 
+ſecundum dei ordinationem / nihil morati 
+doctrinas demontorum / VDenerandum 
+coniugiũ (att ille) fit omnibus ⁊ thorus 
+
+AL. - anmaule 
+
+
+Folio liv 
+ſmMaculatus. Scoꝛtatoꝛes autem et adul⸗ 
+teros iudicabit deus / Cõuerſa mini ftne a⸗ 
+uaritia / contenti pꝛa ſentibus id eſt eis 
+que adſunt. 
+
+Quando autem pꝛopter docerinã 
+vocantur quidam ep eis / ſi ita res poſtula⸗ 
+uerit / ad officium S uperattendentum / 
+Paſtoꝛum / pꝛædicatorum / Scholarum / 
+Academic / aut ad con ſilia ⁊ labores pꝛo 
+rebus publicis / accipiant integra ula ſipẽ⸗ 
+dia officii fut « fimul retineãt omnia quae 
+ex canonicatu habent / niſi quibuſdam re⸗ 
+bus ſua ſponte voluerint reſignare / ita vt 
+fint ditioꝛes qui melioꝛes « qui fua doctri⸗ 
+na nunc aliis in ſeruiunt. Certe hanc gra⸗ 
+tiam noſtram contemnere / quid auud 
+eſſet / quam 2 pietatem 2 V/oneſtatem 
+evoſam habere £ 
+
+
+De onachis non fitens 
+
+
+dicantibus, 
+D i Ls 
+
+
+DOnachis qui veritatem dei in⸗ 
+
+
+P4 / E A ; 
+2 | TA 
+D £i 
+
+
+2 "€ 
+S 
+
+
+tierint a 
+
+
+telligũt / ftc fua liberras per E⸗ 
+uangelium libera In conſcien⸗ 
+7» tía. Si reuerenter er honeſte pe 
+ſuperioꝛi (uo. manumiſſtionem/ 
+
+
+| 
+
+
+non vltra volentes manere illic pꝛopter cõ⸗ 
+ſcientiam et timoꝛem dei / cupiẽteſque ſecũ⸗ 
+
+
+dum beum aliud genus vita / non hoc eis 
+
+
+negetur / immo conuenit vt miſeri accep ta 
+
+
+veſte et viatico et pecunia aliqua in eleemo⸗ 
+ſynam / dimittantur / Si ſuperior recu 
+ſauerit / de hoc coꝛam nobis reſpondere de⸗ 
+bet. Facilioꝛi ſumptu cũ larga eleemo ſyna 
+
+
+dimittitur monachus quã perpetuo inuitꝰ | 
+
+
+contra con ſcientiam in monaſterio alere⸗ 
+tur. Certe nos quoꝛundam impuri cæliba⸗ 
+tus nolumus eſſe participes. IND 
+Qui autem monachi in mòͤaſterio effe 
+voluerint / quam diu illit manſerint / fuo 
+ſuperioꝛi ſubiecti ſint et obediant / ad agen⸗ 
+dum qua decet ſanctos / ad honeſte viuen / 
+
+
+dum. Non exeant aut diſcurrant quecunge 
+
+
+voluerint (ine mandato ſuperioꝛis.Audi⸗ 
+| ant et 
+
+
+$ 
+
+
+UN das. 
+ant et diſcant (edd lectiones et pꝛædicati⸗ 
+ones / legant ſacra / vt foꝛte quidam poſſint 
+poſtea fieri paſtoꝛes Eccleſiarum / Ideo 
+ſingula talia monaſteria habeant tectum 
+virum quí legat facram ſeripturam / doteat 
+catechiſmum / pꝛædicet etc. pꝛo boc fuc 
+ſancto laboꝛe honeſtum recipiat ſalarium 
+et victum. Canant vero et fefto die cenam. 
+dõini noſtri Jeſu Chꝛiſti celebꝛent / quem 
+admodum diximus de Canonicis. 
+
+
+De monialibus fiut No nis 
+Onne fiue mõiales/ſi pꝛopter cõ 
+[€] Kin - fcientiam hoc vitæ genus muta⸗ 
+
+
+tum voluerint / liceat eis / ſed 
+
+honeſte iuuantibus aut conſentientibus 
+amicis/hoc ſodalitium deſerere. Vt enim 
+
+nullius cõſcientiæ dominari debemus / ita 
+alieni delicti participes effe nolumue. Bene 
+a illud ocium et delicias et plus quã 
+
+catnalem 
+
+
+tarnalem libertaté a ſecuritatẽ / qui cultus 
+dei male vocatuc/non ejje dei inſtitutũ. 
+
+
+Quibus ation placet in monaſterio ma⸗ 
+nere / quam diu manſerint / obediant Su⸗ 
+petiori ſuæ ſiue Pꝛioriſſœ / non excurrãt / 
+Honeſte viuant / cum viris non cõuerſen⸗ 
+tur / aliquid operis agant / legant / inuocẽt 
+Patrem in nomine Chriſti / audiãt ſacras 
+lec iones Catechiſmi 2 pꝛædicationes⸗ 
+diſcant rectam rationem veræ in Chuſtũũ 
+fidei. Si autem Pꝛioriſſa que non decent 
+eis permiſerit aut ipfa fecerit deponatur 
+o ficio / et alia melior eis pꝛæœficiatur. 
+
+
+In ſingulis talibus monaſteriis pꝛœficla⸗ 
+
+tur aliquis doctus ⁊ modeſtus pꝛædicatox 
+qui habeat vyorem honeſtã cum honeſta 
+familiola / qui legat coram eis / pꝛa dicet / 
+at Ei detur honeſtum ſalarium ⁊ victus. 
+
+
+Canant ⁊ celebrent cænam domini vt de | 
+Canonicis dictum eſt / nifi commodius 
+
+
+A 
+
+
+m 
+2T" 
+
+
+nm 
+3 
+
+
+qua canunt ⁊ legunt. 
+
+
+(how Folio ly ü 
+
+
+duverit bꝛrdicator qua dam 2 pauclota 
+- Citanta Danice potiue quam latinc/ vt 
+
+
+erudiantur per verbũ dei dum intelligunt 
+
+
+Jurauenun Superinten⸗ 
+5 dani. "né 1 
+2 Eten iſſime domine Rey Ego 
+
+
+hu. décue Surerinten dens di⸗ 
+"vet echte N. promitio Maieſtatt 
+tua fidelitatem / quod volo curare / quan, 
+tum in me fuerit / tua Maieſtatis 2 Re⸗ 
+gni honorem /cõmodum / pacem / trãquil⸗ 
+litatem / obtdientiam ⁊ alia qua ſecur dũ 
+deum debeo Regiæ Maieſtati / ⁊ obſi⸗ 
+
+
+ſtere is qua funt his contrat ia. Pꝛa terea 
+
+
+pꝛomitto / quam diu in hoc fuero officio / 
+quod volo ſyncere tractare ſacrã ſeripturã/ 
+
+
+ſecundũ 
+
+
+* 
+E. | , 
+
+
+ſecundum donum mihi a deo collatum / 
+
+
+pure tradere Euangilium 2 Sacramenta 
+ſecundum Chꝛiſti inſtitutionẽ. Ab opini⸗ 
+
+
+onibus cauebo / certis fidei noſtra articu: 
+
+
+lis inhærebo. Apud paſtoꝛes Eccleſiarum 
+
+
+mihi commiſſarum / vt ſimiliter pꝛaſtent 
+docendi 2 ſacramenta dandi officiũ / vtaʒ 
+
+
+Catechiſmũ doceant ⁊ exigant a (uie in 
+
+
+confeſſione aut alias / diligentiſſime agam 
+4 admonebo / Agã ⁊ pꝛo pueroꝛũ Scho⸗ 
+lis / pꝛo pauperibꝰ / pꝛo oꝛdinatio nibus 
+publice ⁊ alia qua de officio Superintẽ⸗ 
+
+
+dentis in ſcripta oꝛdinatione cõtinentur / 
+nec ſinam me vel muneribꝰ vel amoꝛe aut 
+alio affectu coꝛrumpi cõtra meum officiũ. 
+Si quid fragilitate humana aut ignoꝛã⸗ 
+
+
+tía aut alio caſu a me neglectũ fuerit / hoe 
+igno ſcat mihi clamẽtia dei patris per Je⸗ 
+ſum Chꝛiſtum filium ſuum. Sponte au⸗ 
+
+
+tem aut ſtudio / contra eaque nunc tue 
+
+
+Kegie Maieſtati pꝛomitto agere non 
+ono, Ita me deus adiuuet pet 
+
+
+Lu ſancum Euangtlid. Fg 
+: Et hoe 4 
+
+
+7 
+
+
+d 
+Ee 
+M 
+
+
+* 
+
+
+4 
+
+
+DII vs Folio wi 
+ot dicẽs tangit librũ noui teſtamẽti. 
+
+
+- 3Brifce Larrimoniis ordina⸗ 
+
+
+bitur publice Superinten⸗ 
+dẽs dominica pic aut feſto. 
+
+
+V (xta Epiſtola in M iſſa aliquis 
+I Piadicator vel Prapoſitus coti 
+| ſcen ſo ſuggeſtu / dicit populo t3 
+e electum in €upetacten tentem pium 
+vtrum / induſtrium/modeſtũ / doctum at 
+Ideo fe admonere vt oꝛent pꝛo «o 2 verbi 
+miniſterio. Pater noſter «c 
+
+Mop canitur Veni ſancte «c Interim 
+ii greditur populus ad chorum vel prope 
+vt licet / Ordinator autem ꝓpꝛius actedens 
+ad populum vt poſſit exaudiri / indutus 
+ſuperpelliceo 2 Cappa chorali / vt vocant / 
+um ordinãdo induto ſuperpelliceo ⁊ aliia 
+
+
+pteſbytetis W utis qui ad⸗ 
+
+
+i eſſe 
+
+
+effe poſſunt / iubet pꝛimum orari Pater 
+noſter vt adſit deus buic negotio / Mo 
+ſurgens 2 ſtans cõmendat breuibus mi⸗ 
+niſterium vecbi fanc iſſimũ / vtiliſſimſt / 
+neceſſarium ⁊c Meagno pꝛeconio ſpiritꝰ 
+ſanetus in Paulo laudat boc miniſterum 
+Eclleſtæ a Chꝛiſto gloꝛificato dat dicks, 
+Aſeendens Chꝛiſtus in altum / Dedit ho⸗ 
+minibus dona quoſdam Apoſtolos alios 
+Euang liſtas ꝛct ita vt ſi buc re ſpictas / 
+merito in ter feſta Cb: nobis feſtñ Pẽte⸗ 
+coſtes debeat eſſe mavimũ . Naſcitur qui⸗ 
+dem Chꝛiſtꝰ / patitur a reſurgit / ſed quid 
+mundo pꝛodeſſet iſte chezaurus / nift in 
+feſto Pentecoſtes ⁊ poftea. vſqʒ ad finem 
+mundi pꝛædicatores ⁊ doctores verbi fa⸗ 
+ceret / qui theʒaurum mundo pec verbum 
+diſteihuerent / be quibus ait Qui vos au⸗ 
+dit ꝛc? Igitur pꝛo hac diqteſi n— 
+hic N. vir bonus / pius «€ | 
+
+
+Inde canitur Pſilmus / Domine od i 
+
+
+nus en 3€ ex quo meg vnũ ⁊ alter 
+"m 
+
+
+sos felfo. Telit 
+P ixi» oꝛdinator interpietatur de chu 
+(tt pꝛædicatoribus ⁊ regno Ch ꝛiſti breui⸗ 
+12 Debet enim ord.natoꝛ cauere ne 
+pꝛolivitate tedio afficiatur populus 4 ex 
+temnat hoc negotium. f 
+
+
+(oy ledit Superin tendẽti officia wütus 
+ex oꝛdinalione / mavime ex capite de victu 
+2 falarío Superintendentũ / vbi fc fae 
+bitur. Quia Superintendentes qui verf 
+ſunt Eccleſiaz Epiſcopi vel ? Antbepiſcpi⸗ 
+iam non vocantur ad 2c vſq ;/ Quia 
+igitur ac Et poſtea maneat ei vt ſyncere 
+doteat Euangelium id eſt remiſſionem 
+eccatorũ ⁊ vitam aternam in Chꝛiſto 
+PER ſu filío dei ſoͤlum / Item de Charitate / 
+Cruce / Pænitẽtia / magiſtratu / obedien⸗ 
+fia ev verbo det: Jiẽ de Sacramentis ex 
+Chuiſti inſtitutione non aliud aut aliter. 
+Pꝛomittis ? Xe pondet Pꝛomitto. Ci 
+dinator addit. da dexteram / 
+Aille dat. 1 1 
+nuc au Q (i Scaquitur 
+
+
+Sequitur ſtatim pſalmꝰ qui canitur / Ec, 
+ce nunc benedicite domino 4€ Poſt pſal⸗ 
+mum ditit ordinator Vobis paſtoribus 
+tanitur hic pſalmus / vt leuetis manus id 
+eſt oretis / 2 benedicatis dõino id e(t pꝛæe⸗ 
+dicetis benedictionem in ſemine Abtahee 
+Chꝛiſto 3€ etiam noctu non fotum in die 
+id eſt aſſidue et cum ſumma diligentia ita 
+contra regnum Satan agente: 
+
+
+Et pergat fic dicens. 
+Hactenus cœanimus facra cantica et pfat 
+mos commendantes o (fidum verbi / nunc 
+de eodem audiamus et ſacras lectiones, 
+
+
+Hic aliquis rg prtibyttris 
+recitet lertionem. 
+
+
+Sie dieit Paulue Epiſcopo Tin. 
+Huius rei gratia reliqui te 1 vſqʒ ad fi^ 
+nem capitis. 
+
+
+Secundus 
+
+
+Folio (vitii 
+
+
+Secundus pꝛeſbiſter ftatim 
+recitet lectionem alteram. 
+
+
+(A Ctorũ 20. Daulue vale den paf 
+ſbyteris Epheſiorum dicit. Nunc ee⸗ 
+te ego ſcio quod poſt hac non «€ vfqs ad 
+finem capitis e 
+
+
+Etttius filbyter mot (uis 
+iügat tertiam lectionem. 
+2. Timo: 3. dicit Paulus ad . 
+
+
+rem. Odteſtor 4€ vſqʒ. Nam ipfe iam 
+imolor N 
+
+
+1) ) 5f bae lectiones Ordinator idt. 
+
+| Hœc omnia abmonét officit fuí pꝛæ⸗ 
+
+dicatoꝛes / et ſimul declarant quà. placeat 
+deo hoc offaum et neteſſariũ ftt e 
+
+
+Nam pet pia dicatotem Pali Chiftue i 
+ipfe bꝛædicat / bapttsat/ dat Sacramẽtũ / 
+arguit / exhoꝛtatur / conſolatu t/ que 
+maxima eſt noſtri conſolatio in ifto in⸗ 
+
+grato et contemptore mundo «C | 
+
+
+Pergit vero (ic dies. - 
+
+
+Oſt hac omnta ſeire debetis om / 
+nes / quod hac ordinatio ſaneti⸗ 
+ficatut per hc duo /nttpe pet 
+verbum et orationem / vt et quelibet ere. a^ 
+tuta ad vſum tt miniſterium noſtrum / 
+quod Paulus ſe diuit. Omnis creatura 
+dei bona eſt ad vtendum cum gratiarum 
+actione fidelibus et qui nouerunt veritatd'. 
+Sanctifitatur enim per verbum et oratioas 
+nem. Dac Paulus. | 
+Verbum quo nobis commendatur 
+et t ſanctificatur hoc miniſterium apoſtoli⸗ 
+cum aud iſtis / tam etſi preterea multa 
+alia ſcripta ſunt. Nũc ergo / vt perfictatue. 
+"n | hac ſaneti⸗ 
+
+
+Folio pe 
+B baut addamus et alterum 
+nanpe orationem. 
+cum de omnibus orare debemue / mag» 
+ime opus eſt vt oremus pto pꝛædicatoribꝰ 
+2 miniſterio verbi / Nam vt dicitur Lu⸗ 
+t &. Chriſtus tota nocte orauit / quae 
+do mane oꝛdinaturus erat 12. Apoſto⸗ 
+los. Item albi dicit, Kogate domt⸗ 
+num meffie iid : 
+
+
+0 Kationi etiam addebant Apoſtolf 
+⁊ ſeniores Eccleſiæe manuum im⸗ 
+poſitionem cum ordinarent vel mitterent 
+prœædicatoꝛes / vt vides in Aetis. Quem 
+morem ſuſceperunt poſtea Eccleſiæ Chꝛi⸗ 
+ſti ab apoſt olis / quemadmodum Paulus 
+hoꝛtatur Epiſcopum dicens. | ; 
+1 Timo 5. Manus ne cito alicui impo⸗ 
+nas / De pꝛædicatoribus « doctoꝛibus 
+Ecdleſiarum bec dicuntur non de Miſ⸗ 
+laci. Olim hoſtiis manue impone? 
+
+" | X bantur | 
+
+
+bantur / vt vides in lege Moſis. ſcitote 
+4 hie nos deo offerre ad facrum miniſtes 
+rium eos quibus manus impo nimus. 
+
+Hoc ergo 2 nos ab Apoſtolis docti hic fa» 
+ipae in nomine domini nofiri Jeſu 
+
+
+Chrift is v 
+
+
+Dit orbinator cum prtl⸗ 
+
+19 Tlenioribus impöit 
+
+I T eius manus / 
+c vicit aperte 
+
+
+C VOR aii Pater T n inta 
+«if, Ommipotens æterne Pater qué 
+ita nos docuiſti per vnigenitum filiam. 
+tuum / vnicum magiſtrum noſtrum. 
+Meſſis eft multa / opétatit vero pauci. 
+Ro gate ergo dominum meſſis dr mittar 
+operatios in meſſem fuam. Quer verba 
+nos admonent⸗ bonos operarios id eſt 
+bꝛæ dicator 
+
+
+— 
+
+
+| Folio love 
+| adde 1 Ecdleſiarum n 7 á 
+tua gratia / ſeria 2 fideli pꝛoce petendos / 
+dos tuã im̃en ſam bonitatem pꝛecamur⸗ 
+vt dæmenter reſpicias / bunc famulum tu: 
+um / quem ad Epiſcopale Eccleſiæ offiaũt 
+eligimus / vt ſit diligens in verbo tuo / 
+ad pꝛædicandum vnicam noſtrã ſalutem 
+Jeſum Chꝛiſtũ / ad docen das confdentiae/ 
+2d conſulandum⸗/ ad monendum / «ate 
+guendum cum omni patiẽtia ⁊ doctrina / 
+ita vt ſacroſanctum Euangelium perpe⸗ 
+tuo apud nos duret ſyncerum « fine fer 
+mento bumana doctrinæ / 2 fructũ fera 
+nobis omnibus qternæ ſalutis /per eundẽ 
+Jeſum * tuum naten, 
+noſtrum. 
+P tür en: t1 e 
+Reſo bibe mn ut 3 
+ibo 
+Ct ſtatim miar Sant. une roga⸗ 
+mue ſpiritum ſanctũ pꝛopter fi⸗ 
+
+
+dem etam. eim 2 ddl MUTA 
+
+
+7 
+8 3 7 
+
+
+: D € 1 
+
+
+/ 
+
+
+*neecim pꝛocumbit oꝛdinator totam eb 
+tatí cum oꝛdinato « aliis pꝛeſbyteris 4 
+orant / dũ cantatur pꝛimus cantíc verſus. 
+Deinde ſurgunt / et vadit quiſqʒ in lod 
+ſuum / vt poftea cum alis fidelibus aca⸗ 
+piant ſacram Chꝛiſti cmuntonem in hac 
+domini na. | 
+Omma vate bienntim 2 2 legatus 
+Dane vt Eccleſia inteligat. | pfamí | 
+cantentur latine / 
+Sequitur enim breuis —À " pſal⸗ 
+mis vulgari ſamone / eo votum | que hut 
+pertinent. T€ 
+
+
+Cum legitur bil collecta in ie v 
+dominica / aceedentes pꝛocumbant rurſum 
+ad altare 4 fufdpiant vltimam diam «4 
+conſuetam benedictionem / etcimaqs- non 
+
+ipſis tantum feb toti Qm 
+annuncietur 2 detur. 
+
+
+Fuis Od inattoule Cuperiamntentie, 
+ee A . — quud 
+
+
+Po Am tt tm 
+
+
+| oft ec sbiirimus buit 
+Groinationi lacram inſtru⸗ 
+
+ttionem 1 Tonſilin Joan⸗ 
+mis Bugẽhagij TPorncrani 
+
+
+Doctoris e verbo dei / id quod nos ptor 
+bamus / ſuſapimus a fetuatum volumꝰ / 
+P: Cano nicis 2 Monachis / quem 
+admodum ante dictum eſt in hat 
+Lar otbínatióe. Sic eun , 
+peint vit Wes 
+mint 3a | 
+
+
+T ü pa 
+
+
+1 
+
+
+5 1. " ver! fa, ri 
+pu. | 1 75 ü t r0 T f 
+
+
+EM pro n aumiris 1S jo | 
+Lue manallrris. 5 
+
+
+Anne millo — 
+
+I QVI voluerit antape 
+; Donachi qui adhuc in O o 
+E naſterüis reliqui ſunt / aut Car 
+mnonici / Pꝛimum «' ante omo 
+fifa ſic inſtituant animum verbo Dei 2 
+fide Chriſtiana / vt certo fiant ſolũ Chꝛt⸗ 
+ſtum «oram Deo patre (uam effe iuſtitiã 
+4 vitam tern / murmura. vero illa ho⸗ 
+rarum canonicari 2 longae ſimulataſqʒ 
+pꝛecks / effe fatigationes crpotum « 2 veg. 
+ationes. ſonſclentiarum. Win 
+
+
+Dein e nihil ennant aut — 
+2 ſit ex ſacta gage id 
+eft ex vetert et nous Teſtamento / ne ſub 
+
+Xe nominis Dei nomen Dei blaſphe⸗ ; 
+ent contra ſeeundum pꝛæceptum / Non 
+aſſumes 3 domini Dei tui inuanũ/ 
+
+
+Non eni npunitus qui hoc fecerit / jM 
+ne türſum puntamur a Deo Horben ud 
+i Ci citate pt antehat- s 
+
+: ab(tinebüty a eti et colkctia 
+
+
+QE 
+
+
+quee ſapiunt inuocationem fanetetum et 
+iuſtirias humanas / quaſi noſtris operibus 
+mereamur remiſſionem peccatorũ et vitam 
+qternam / qua e(t impietas et abnegatio 
+miſericordiæ Dei patris et ſanguinis Do: 
+mini noſtri Jeſu Chriſti / blaſphemia in 
+Euãgelium glorie Diet bros 
+tia ja Wee noſtri. j 
+
+
+€ Gloriamur nos P feto non 
+
+QUEM ſed vbi eft fides noſtra? ſidere 
+
+noſtris iuſticis / non eſt fidere fola Del 
+
+bonitate in Chꝛiſto / feo eft pꝛopꝛie habere 
+
+Deos alienos contra primum. pꝛæceptũ/ 
+
+vt ſimus Athei et impii / ſine Deo in hog 
+
+mundo / omnia tentãtes quaſi varios Dei 
+
+cultus ſine verbo Dei / ſine mandate Dei 
+
+ſine fide / ſine fiducia in Deum / breuiter / 
+
+ſine Deo / An non hie merito obſiſtis 
+
+Gal. 2. Eccleſia ſancta ſponſa Chꝛiſti cum Paulo 
+
+Cor. ij. dicens / Ergo ſalitet Chuſtus gratis mot». 
+2. Cor. a. tuus eſt? Et rurſus. Ignorantiam X 
+
+E ads habent / Item Delentee/ vt. j eJ. 
+
+
+E ou Folio lvtv iu 
+: lo eed iuſtitiam / iuſtitia ra ná 
+func ſubiecti / Juſtitia autem dei id ec dem. . 
+quando iuſtificamur a * per aan 
+un Chꝛiſti «€ 9 2 2 
+Quis enim nunc teuelata veritateß 
+feret has « ſimiles Blaſphemias in Colle: 
+«te quibuſdam / Deus qui nos hodierna 
+die ſolennitate Beati Georgij / Blaſui 4€, 
+letificas / concede pꝛopicius vt eius mette 
+tis 2 interceſſione a peccatis omnibus abe 
+ſoluamur a vitam con ſequamur æternã € 
+Hoc ſcilicet eſt petere patrem in nomine 
+Jeſu quemadmodum ipfe iuſſit? [Dax Joha. 14 
+ſalicet eft oratio fidei / guemadmodũ ora - "5 
+tio debet effe fidei / niſt Turca fief 2 ta- 
+men poſt iſtas blaſphemias audemus ad⸗ 
+dere. Per dominum noſtiũ 3dum Chꝛi⸗ 
+Kum ac deen 
+
+
+— V Quanto ——.— 2 bars ini 
+pꝛationes qu collectas nunc vocamus / 
+ad liti 3 S quae 
+
+
+«uae pit Epiſcopi 2 Eccleſiarum paſto⸗ 
+ꝛes olim fecerunt / qua adhuc apud nos 
+ſunt Collectæ de tempore vt vocantur / in 
+quibus ſola miſericordia patris implora⸗ 
+tur per Jeſum Chriſtum dominũ noſirũ / 
+quemadmodum ipſe promiſit. Si qu: d 
+petieritis patrem in nomine meo hoc fa⸗ 
+Sic ⁊ ſyncerioꝛ fere eſt ille cantus 
+qui vocatur de tempoꝛe / Nam fere ſen per 
+habet manefeſta verba ex Pſalmis / Pꝛor 
+phetis / nouo Teſtamento / aut Miſtoꝛia 
+facta Bibliorum / id quod pius homo fa^ 
+eile videbit / De ſaͤctis autem raro aliquid 
+hynceri canitur / niſi ſit / vt dixi / ep facta 
+ſcriptura / id quod tamen fepe impie de⸗ 
+torquetur pꝛo iufticitebumante in alie⸗ 
+num ſenſum a mas 
+
+
+€ Hic facile iudicabit fidelis homo 
+qui vel noꝛit quid Articuli noſtræ fidei ſibi 
+velint / Credo in Deum patrẽ omnipo⸗ 
+(entem creatorem coeli ⁊ terræ / et in Jeſũ 
+, Vig NN. Chꝛiſtum 
+
+
+Folio po - 54 
+| bn filium eius vnicũ 1 
+noſtrum / qui conceptus ejt zé Siquidem 
+credimus nose Chriſtiani Remiſſionem 
+peccatotum / vt fatemur ín articulis fidei/ 
+per Chꝛiſtũ pꝛo nobis conceptũ / natum / | 
+paſſum / moꝛtuum et gloꝛificatũ / quem 
+admodũ ⁊ ipſe iuſſit nos inuocare Patrẽ/ 
+Remitte nobis debita oftra. ie vnua 
+articulus / qui eſt / Remiſſio peceꝛtorũ per 
+Chꝛiſtum / ft vece creditur / confundit et 
+ſubuertit totum Papatũ z omnem Mo⸗ 
+nachatum / vt nunc eſt / et omnes iuſticias 
+humanas virorum et mulierũ / id quod 
+eſt regnũ Antichꝛiſti / tantum abeſt vt hot 
+Articulo credito / nó poſſet fideus homo / 
+ti im ſi ſutor ſit / non diiudicare cantus 4 
+berba fidei aduerſa / modo unguam intel 
+ben qua canitur. 
+
+
+eum 
+
+
+Tett s 
+
+
+Li 
+
+
+2 «€ Quod autẽ F beriſaiti opipienib⸗ 
+ e«u pati multidiiudicare non poſſunt aut 
+non pu certiſſimum ſignum eſt eos 
+Quin e ui defeaſſe 
+
+
+defeciſſe a fide er Nuptiſno Chꝛiſti / fub 
+nomine tantum fidei Chꝛiſtianaæ. quem» 
+admodum Paulus ad Timotheum / vbi 
+
+
+as Tun. diverat de honeſto coniugio Epiſcoporũ 
+
+
+N . 
+
+
+⁊ diaconorũ ( qui longe aliud tune erant 
+
+
+quam nunc) ſubdit eodem contextu 
+
+
+Pꝛophetiã de futuris errobus et blaſphe⸗ 
+
+
+mite AntiChꝛiſtianis / dicens / ꝙ quidam 
+
+
+deficient a fide / credentes ſpiritibus erro⸗ 
+cie et d octrinis dæmonioꝛũ / docentiũ mes 
+oica/ In Dypo criſi / id eſt / fub fpecie pto 
+etatis et religionis / et habentium con ſciẽ⸗ 
+tiã cauterizatam / id eſt / turpi cauterio in⸗ 
+uſtam / ſunt enim alligati coꝛde ad opera 
+et ſtatuta humana / ſperantes in talibus 
+eſſe ſalutẽ / quee gloria ſoli debetut Chis 
+i 0. i 
+E Non enim / vt att Dettue ín Actis 
+
+
+feto. 4 Apoſtolorũ / aliud nomen ſub coelo datũ 
+
+
+ejt hominibus in quo nos opoꝛteat ſal⸗ 
+uos fieri Accedant mille alia nomina / ni⸗ 
+hil hic ſunt / Audis eodufiuamillam par⸗ 
+ticula n / de qua nunc ineptuli diſputant / 
+
+nee 1 - num 
+
+
+: Folio lv evt He 
+num u Solu fide iuſtificemur / ignorantes 
+
+quid vel vocabulũ fides ſignicet / ne oue 
+biteé eoe à fioe defeuſſe. Siauidem fides 
+
+ſiue fiduda illa Chꝛiſtiana apprœhendit 
+Chuſtũ / in conſcientia coꝛam Deo / et in 
+Chriſto patrem / et aliam iuſcitiã coram 1. Cor. 2. 
+Deo non nouit niſi Chꝛiſtũ / hic eſt dens 
+et homo / mediator inter Deũ et hominẽ / i. Tun. 2. 
+qui ſedet ad beptetam patrie 2 interpel/ Rom. 8. 
+lat pꝛo nobis / non eſt in alio ſalus / non 
+
+aliud nomen fub coelo datum eft homi⸗ 
+
+nibus in quo nos opoꝛteat ſaluos fieri / 
+
+etiam f nominee legem Dei / tantũ abeſk 
+
+vt nomina legũ humanarũ 2 excogitati 
+culcus hic aliquid poſſint. 
+
+
+€ Omnes homines vt Turtæ / jue 
+
+del et impii contemptores et ventris ferus 
+apud nos / multa dicere poſſunt de Deo / 
+auæ ⁊ diabolus credit / nempe quod De⸗ 
+us ſumma maieſtas condiderit coelum « 
+| Win: * Soli autẽ vere. Chꝛiſtiani cree 
+
+Care, S id dunt 
+
+
+dunt hunt Deum ſuum eſſe patrẽ / et ſe offe 
+filios / Ad pꝛehendunt enun fioe Chꝛiſũ / 
+in quo ſolo patrem habent / eytra quem 
+Noba. 1. Deus non inuenitur. Deum nemo vidit 
+vnquã / Vnigenitus filius qui eſt in ſinu 
+patris / (pfe enarrauit / id eſt / reuelat pa⸗ 
+trem / fuo pꝛedicato Euangelio. Patrem 
+Matt. nemo nouit niſi filius / et cui voluerit fé 
+lue reuelare (uo fpiticu ſaneto per Euan⸗ 
+uce. s. gelium. Nam multi audiunt ⁊ legunt (Cs 
+uangelium qui tamen non credunt. 
+
+
+ac qui non norunt adhuc ſunt 
+
+ſine fide / non ergo mirum quod pꝛo ſuis 
+iuſticiis / id eſt / (terconbue humanis di⸗ 
+ſputantes / non poſſunt intelligere / Sola 
+in Chꝛiſtũ fioe nos iuſtificari / Quos que; 
+(o oꝛdines / quae Keligiones 2 obftuar | 
+tiões du veris huic iuſtificationi addẽdas ? 
+Hic eft vnicus ordo / vna religio « certa 
+ſalus credere in Chꝛiſtũ Jeſum/ quod ipfe 
+ſolus / qui crucifivus et mortuus eſt pro 
+nobis Mab no[tca ſapientia / iuſtitia / fanc 
+tificatio 
+
+
+1. Cor. 
+
+
+a" 
+
+
+Folio teoff 
+
+
+- eifiatio 2 wendest qui gloꝛiatut " 
+» iet d in Domino gloꝛietur. 
+
+
+« 'lefitum eft peccatum et dãnatio 
+tt omnes ſumus fub lege / nift liberemur / 
+
+
+Chꝛiſtus autem credentibus eſt iuſtitia et 
+
+
+pꝛopiciat io ⁊ ſalus aterna/ Dic liberat a 
+lege / pe«ato et moꝛte / et (onſtituit rice vt 
+
+
+ſimus (ub gratia / agnoſcamus « inuoce⸗ 
+mus patrem / Dac eft ꝛeligio Pꝛopheta⸗ 
+
+
+rum / Martyrum ſanctoꝛum « omnium 
+vere Chuſtianoꝛum / vt gloꝛiatur Petrus 
+
+
+Aceto. 10. Duic inquit / Chꝛiſto omnes 
+
+
+Prophet teſtimoniũ perhibent remiſſio⸗ 
+nem pactorum accipere per nomen eius 
+que tquot credunt in eum / Hœc eſt ſyntera 
+et ſancta Apoſtolorũ doctrina a Chiiſto 
+talitus orbi mandata « pꝛodigiſs ſpiritus 
+ſaneti confirmata vnde canimus. Credo 
+
+
+Vnam Sanctã Catholicam 2 Apoſtolic 
+Eccleſtam. BA «€ 
+
+
+1 Sectas nó. agnofcit Ecdeſia eticfi 
+$i vouerint 
+
+
+vouerint 2 lurauerint fuae impietates fe 
+ſeruaturas contra vocum « ſacratiſſimum 
+| Baptiſmi pactum / feo dicit cum Paulo / 
+| Lo 5 -Yrero ſit mihi moleſtus. Non aſpernor 
+gratiã Dei. Nam fi per legem eſt iuſticia 
+ergo Chꝛiſtus gratis mortuus eſt / qui di⸗ 
+levit me ⁊ tradidit ſemetipſũ pro. me /Cui 
+hoc pꝛæciũ redẽptionis non facte eſt / gue⸗ 
+rat aliud / feo infernum inueniet. l 
+
+
+¶Egregii iſti diſputato es ne bot 
+quíbéinceligunt de quo diſputent / Nam 
+contentio non ejt vtrũ Sol / Tuna / Capie 
+des aut trunci aut alia iuſtificent / ſed tã⸗ 
+tũ contentio eſt de iuſticia fidei ⁊ iuſticia 
+Nena. s. operũ coꝛam Deo. Hic ſpiritus ſanctus 
+| Erh. ^7- in coꝛdibus fideliũ « evpꝛeſſo verbo Dei 
+negat operibus coram Deo tufticid vtcũ⸗ 
+E. Q5 alío pertineant ſancta opera quae qutfqs 
+ſecundũ ſuã vocationem facit verbo D 
+cõmendata / nugae 2 excogitatos cultus 
+ebomínatur Ixued a pio uten ſuſapi⸗ 
+
+
+P Uüntut« — .—— 
+Men, E. | 
+
+
+ee Fello toptf. 
+: goo ergo pecant/ qui docnt. i. Senn 
+nos iuſtificari? Siquidẽ non iuſtifi⸗ 
+tamur operibus corã Deo / id quod Dyz 
+pocritarũ conſdientiæ tandẽ cogentur fa⸗ 
+teri vel ſero. Sic enim ait Paulus. Non 
+tv operibue iuſtitiæ / qua feceramus nos 
+ſed ſecundũ ſuam miſericoꝛdtã ſaluos nos 
+fecit per lauactü regenerationis et renoua⸗ 
+tionis ſpiritus ſancti / qué effudit in nos 
+opulente per Jeſũ Chꝛiſtũ ſaluatort no⸗ 
+ſtrum / vt iuſtificati illlus gratia ha redes 
+effieeremur iuxta (pem vit aternæ. Hie 
+4 mdubitalus ſermo. 
+
+
+1 De operibus vero bonto / non de 
+Gchachond nugia / poft hac verba Pau⸗ 
+lus ſic addit. De his volo vt confirmes⸗ 
+quo ſoliciti ſint vt bonis operibꝰ pꝛa ſint / 
+qui crediderunt Deo. Hac enim ſunt ho⸗ 
+neſta ⁊ vtilia hominibus / lege Epiſtolã 
+ad Titum / vnde iſta aaitauimus / ⁊ vide 
+ce bona opera dicat ſingularũ con? 
+
+Tditionũ 
+
+
+Su 
+
+
+HE 
+
+
+Tit. 5. 
+
+
+| ditio num / ferae autem noſtroꝛum ren 
+
+cer, noutt ſed excõmunicandos cen ui qui 
+
+I5- curioſa agebant / et pro bis vicum fibt. 
+alite deberi eontendebant. 
+
+
+4T Vone Deus quot evcmunícatos. 
+hodie pꝛonundat ſpicitus ſanctus Dice: 
+Pauli verbis? Fere omnes Papi atum 
+oꝛdines non folum curioſa / id eſt non ac»: 
+ceſſaria agunt / feo etiam ea quae pꝛohibi⸗ 
+ta ſunt / et verbo Dei 2 fidei Chuſtiane 
+contraria / a ba ipſa venditant ſeductores 
+ſeductis pꝛo religione ⁊ mavima ſanctita⸗ 
+te / 7 vorant non — domos viduarũ 
+att. 23 
+feb etiam ditiones Dꝛinapum. Sed quid 
+
+| pꝛodeſt ſanctitatẽ iactare et apud Drum 
+2 efje excõmunicatum et ad infima tartara 
+
+
+is dãnatum? Spiritus ſanctus per pꝛxdi⸗ 
+cationẽ Euangelii etiã hodie mundũ at; 
+guit de pecato infidelitatis et de iuſciaa a 
+de iudiao / ſed munbae non. ardit. "f n" 
+
+
+DA 
+
+
+Mg c 
+
+
+Sg 5«i weiufrica finer te operibue- 
+bontg 
+
+
+Folio ippitif. 
+a ſumus eo facra fexiptuta/ 
+qua de re nũc edit ſunt inſignes libri 2 pit 
+tractatus / vt non opus ſit hic omnia re⸗ 
+petere / Vide taniũ ne ſtatim hareſeos dã⸗/ 
+nes quod non intelligis / ſed omnia. ait | 
+Paulus / pꝛobate / quod bonũ eſt tenete / Cdff- 9 
+Quomodo probabimus nif verbo Dei "S 
+5 * fie Cbꝛiſtiana? "P 
+
+
+T Quíe vero fecerit noſtras ſectas ipfa 
+bíbetint/ Paulus eis duas notae inurit / 
+Prohibent inquit honeſtas nuptias 2 ci⸗ 
+bos / vnde cognoſcantur effe homines qui 
+defecer ĩt auide / additti ſpiritibꝰ errorũ ac | 
+ae duo funt noſtris nunc vnica ſanctitas c 
+et religio Angꝛloꝛum / qui vero pꝛo ChriCe 
+ſto contra dotent habentur Deretiei / feb | 
+Paulus ibidem bit. Dæc docens eris fioe , me ud 
+— 1 Domino/ AO. | 1 
+
+
+6 Doc omnia eo diumus / - miti 
+tatem P" noſtrœ agnoſcentes/ſyncere etid 
+
+
+T ij confiteamus 
+
+
+t. Timo 
+
+
+confiteamur eandem / 2ftqs bucpectínet/ 
+quemadmodũ ditere ce pimue/ ne quid de 
+Sanctis aut alias impiũ /id e(t quod fides 
+Chꝛiſtiana ⁊ Euangeliũ glori Dei non 
+ſuſtineat / cantemus. Indignatur hodie 
+Hypocritarũ vulgus fea L'aide damnari 
+verbo Dei / ſed Chꝛiſtiani ſumus qui 
+Chriſt um cõfireri debemus / a nõ ſuſtinere 
+vt blaſohemiarũ ⁊ abominationũ Papi⸗ 
+ſticarũ ſimus partídpee. De verbo Dei 
+loq nor / nam ꝙ vel ſimultatibus vel ſedi⸗ 
+tionibus apud pleroſqʒ in hac am 
+Mp non poſſumus. : 
+
+
+j 
+
+
+o8 Guis queſo fidellum poftbat audire 
+
+
+o. poterit hanc blaſphemam inuocationem/ 
+
+
+nõ tam ad beatam virginem Mariam 
+quam contra eam factam. Solue vínda 
+
+
+teis / pꝛofer lumen cæcis / mala noſtra pelle 
+
+
+(uncta bona po ſce? Beatam quidẽ dicere 
+debent omnes generationes ſanctiſſimam 
+Dei genitricem quæ virgo conceperit de 
+bean ſancto/ a faga s mater Dei ⁊ boe 
+4 41 Mito. i? : minis 
+
+
+ww. 
+
+
+erii s felio md 8828505 67% 
+. ſaluatoris mundi / nó 5 fue. merito qo 
+ſed gratia Dei Quemadmodũ angelue 
+ei divit 3nuent(G gratiã apud dominũ / Jbidem. 
+Eliſa bet eius fidem cõmen dans / Beata 
+inquit / qua credidiſti / quoniam perficien⸗ "bien! 
+tur in te omnia quæ dicta func tibra Do⸗ 
+mino / Dac ſunt mavima ob qua beatam 
+eam dieimus / fe inſania « infidelitas fax 
+eit ex ea Deũ / quia inuocat eam / poſtulat 
+ab en remiſſionẽ peccatorũ / illuminationẽ 
+mentis / ſalutẽ anima et coꝛporis. M iría 
+q in hanc hoꝛrendã cœcitatem licuerit no⸗ 
+bis peruenire / feo ita fieri neceſſarium eſt / 
+amiſſo lumine Chuſto / vbi — des 
+fecrunt a five ac 
+. Similiter a alioe (anaoe impnden⸗ T1257 
+tibus mendaciis ecblafpbemüe/cntanto 
+grauare certe non honorare nituntur / vt 
+quando canunt de beato Nicolao / Beatus 
+Nicolaus iam triumpbo potitus vouit 
+en ulis prebere cæleſtia cõmoda / qui 
+N T iu tote 
+
+
+$(? 
+
+
+toto coꝛde poftunt eius petitiones / Illi nie 
+mirum tota nos deuotione opoꝛtet com: 
+
+
+c —  mittete/ vt apud Chꝛiſtũ eius patrociniis 
+a diuuemur ſemper. Quos qua ſo famue 
+los habet Sanctus Nicolaus / vel Augu⸗ 
+
+
+ſtinꝰ / vel Franciſcus «€ An non Chuſtus 
+divpit contra diabolum / effe ſeridtũ / Do. 
+
+Matt. minũ Deũ tuum adoꝛabis « uli & e LY. 
+ſeruies ? Obi z quãdo Beatus 1Tkolaue | 
+
+
+vouit ſuis famulis prebere coeleſtia cõmo⸗ 
+
+
+da? Mendaciũ eff. Quid reliqua ſunt 
+niſi fides « fiducia in Nicolaum qui nobis 
+
+
+conaliet Cbeiftü € cum tamen neqʒ in coe⸗ 
+
+
+Joh. is quam Chꝛiſtus / Maioꝛem inquit chari⸗ 
+tatem nemo habet / quam vt animã ſuam 
+ponat quis pꝛo amicis ſuis. Mic dicimus 
+
+i. Coꝛ 1 cum Paulo. Nũquid Paulus pꝛo vobie 
+e(t cruafixus ? Nũquid in nomine Nuuli / 
+aut Nicolai / aut Mariæ eſtis Baptizati f 
+Hec eraſſius depingimue illis / qui 
+
+
+eum au diunt in cantu e[je impia vitãda / 
+1 A14 1j E atunt ſe 
+
+
+[ 
+
+
+* 
+
+
+j 
+
+
+| Folio topvt; 
+aln fe neſare qua: fentiam? effe. impia" 
+jo 1 ſimiles blaſphemiq longe ab⸗ 
+
+
+* 8 aiunt ie ipti effe/ Caudate 
+2 in ſanctis eius / quis negat € pfal. vlt. 
+Non cõtendo nunt / an vocabulũ San⸗ 
+ctis ſit ibi non maſailinũ (eo neutrũ / ſed 
+hoc nunc ſolũ agimꝰ ne Dominum in 
+Sanctis eius noſtris mendaciis 4 impro 
+cult hlaſphememꝰ. Si autẽ aſini cõtende⸗ 
+tint; Sanctos effe inuocandos / quia ſcri⸗ 
+ptũ eſt / Taudate Domini in Sanctis ev 
+ius / eadem ratione ey eodem loco contẽ⸗ 
+dat ſonſi Cube eſſe inuocandũ / Pfalte⸗ 
+riũ Citharam / Tympanũ/ Choꝛũ / Choꝛt 
+das / Organa. a Cymbala eſſe inuocanda / 
+tut. Laudate Dominũ in (eno 
+tube. Laudate eũ ĩ Pſalterio a Cithara cé. 
+Quid inſanimus? Sed her hacten / ne 
+— — 2 
+
+
+Sade ratio ne ab ſtinebñt « a legendis 
+anctorum / quae vocant / ne videlicet eas 
+publice legant / nam priuatim legere / fi 
+quis tempꝰ perdere vult / non pꝛohibem/ 
+vt nec fabulas Eſopi / feb hæ eruditionẽ 
+. Wabent/- Illæ autem pꝛo mapíma parte 
+
+
+ineptiſſimis ſcatent fabulis ⁊ maria ſũt 
+
+
+men daciorũ / egregium inſtrumentũ quo 
+Monachi ſuperſtiriones pꝛopagarent e 
+Chriſtum nobis obliterarent. 18 " 
+sp Sund autem ibi ſrpe ü nende⸗ 
+
+da vt eruditi 2 iſtoꝛiarſi periti mirẽrur 
+hos fucos 2 Satan laruas in doctos 
+homines non videre / vt quando ſanccus 
+Mattheus Euangeliſta fingitur habuiſſe 
+Templũ x Altare / ⁊ antealtare obi MM iſſd 
+celebrauit / occiſus a Pꝛincipe / ꝙ pro ton⸗ 
+cioneprotibuiffet ei — acdipere 
+rove? t Po HOBDILS 5 
+S8 y Itter: d À. 
+€ bt bew dpefeloch want umple 5 
+Chhultt nofum / wife dun: vin, de gultun! 
+
+UE Paulus 
+
+
+0 
+Folio tppott ^: 
+| poutue a/ Tempi Dei fandi ps 8 1. Ter: 2 ö 
+eſtis voe. Item An neſcitis quod copocr cer 
+3a veſtra Templum ſunt ſpiritus ſancti 
+habitantis in vobis? Marc templa adifi⸗ 
+cabant Apoſtoli / Paſtoꝛes et ſancti E07: 1 
+ccoꝛes ae cóplementü coꝛpoꝛis Chꝛiſti / vt dd. 
+Paulus dieit Epheſüs / quos et ait ædifi⸗ 
+catos fuper fundamentũ Apoſtoloꝛum et ed · 
+Pꝛophetarũ ipſo ſummo angulari lapide 
+Jeſu Chꝛiſto / Non ꝙ repꝛehendo domos 
+quas EEccleſias vocamus / vbi conueniamꝰ 
+ad Euangelium Chꝛiſti audiendũ / at o 
+rationem publicã et ſacramẽta ſuſcipiẽda/ 
+ſed hyſtoꝛiã mendacem arguo / quía. ke 
+Eau tune ignotabantur. i102 € 
+
+
+$a vtro ioftca áltatía: bobibót. 
+tunc ad ſacrifitia purgatorij — 
+ſed dicebant vt eſt in Epiftola Heb: Ha⸗ 
+denn altare ideſt Chꝛiſtum de quo voas. . 
+Aet edere ijo - mmer de 
+un^ 
+j v Sed vnde E: 
+
+
+| Sed vnde tune Mo niales erant an ey 
+| fees doctrina Apoſtoloꝛũ / qui dixerunt / De 
+irgim poc? en 
+bus. virginibus pꝛoceptũ Domini non habeo / 
+Cor.. Gſiliũ aut do /taãquã miſericoꝛdiã a Deo 
+| cõſetutꝰ vt ft fioelta € X, üc quee virgines 
+| hoc donum continendi habebant a Deo 
+C.̃. ᷑reliquis n hoc cõſulit Paulue) ſua ſpõte 
+iſiine votis : legibus / hoc eſt / vt Po ulꝰ ait / 
+ſine laqueo / ſeruabantur in dibus paf. 
+| rentñ. Sic enĩ ait Daulue; Si quis ſtatu⸗ 
+ö etit ſetuare ſuam virginem ac. 7 ſeruie⸗ 
+bant varentibus «ret familiari/nã ocioſa 
+/&€f-5 aut gratis panẽ contra Dei oꝛdinationem 
+| manducantes / neqʒ eboicrie in ſideuhus 
+ö obſeruatiqnibus n pꝛodigioſis cultibus / 
+feo tantum Domind Chꝛiſto placentes 
+| ſecundum Euangelium gloꝛiæ Dei quot 
+Paulus pꝛœdicabat. Siquidẽ interim lia 
+bere erant a curis huius mundi / non ſo⸗ 
+liata pro marito / pꝛo filiis / pꝛo paſſi ſſi⸗ 
+onibus ge. vnam venttem ſuo Làbetefas 
+cile alebant / dum ſeiebãt / paulopoſt ſe hit 
+nihil relicturas quod poſſent amare. Dis 
+$014 0922 e perpetuo 
+
+
+n 
+0 
+
+
+7:otlo: U vpetii 82 
+| en mandbir tiber poſßes bee 
+ſi ID 
+
+|^. € Quo ínfitutü et donũ pacer 
+virginum cum poſten quidam Epiſcopi 2 
+alu immodeſtius extollerent obliti derbo⸗ 
+rum Pauli / factũ eft vt tales virgines diee⸗ 
+rentur ponía Chꝛiſei / cum tamen Apor 
+ſtoloꝛum tempore ſponſa Chꝛiſti non eto 
+teretur niſi Eccleſia fideliũ / aue nadmo ec 7c. u 
+dum a Paulus dicit Chorin thus cõuer ſis 
+
+ad Chꝛiſtũ /ex quibus multi fuerant ſcoꝛ⸗ 
+tatoꝛes / adulteri / immundi / 4€ Deſpon⸗ 
+di inquit vos vtt vito virglnem «iftam 
+evhibere Chriſto 4€ c 70 cg niüea cerg 
+re fuit illis / ob corpore virginttatem / 
+teibuere quod torius evat (cleft pioptee 
+fidem in Chriſtum / quemadmodũ ho die 
+cum Monachi ſua lilii debent / peo 
+ſe inevtiſſime ex ſactis literis ctant que 
+tottus ſaut C cleft ^ 4 qu Rod fnt 1 
+M enathärin fao" tribuunt . r 
+
+s Hineæa cõmendatione Alec plurts i 
+Ere D id virgines 
+
+
+dbirgines Cepetunt fe quafi Chiífto dicare 
+quas pꝛæſtitiſſet tradere — quam ) 
+— Satanæ coelibatui. 
+
+
+| T Erant enim caro 4 ſanguis vt 
+rd *1 nunca cum iam videbantur non- poffe 
+nubere / per deſperationem / vt Paulus 
+de quibuſdam ait / tradiderunt ſeſe omni 
+3 impuditiæ. Siquidem cum ſeorſum a 
+parentibus ⁊ arbitris amicis habitarent / 
+| quaft nó laboꝛaturæ in ædibus paternis / 
+feo Deo folí fuo ocio alibi ſeruituræ / ve». 
+niebant ad eas Diaconi ⁊ alij / ⁊ elegerũe 
+eas ſibi in matres ſpirituales / Keliqua nó 
+volo dicere. Dicat beatus Martyr Cys 
+pꝛianus / cuius verba non grauaboꝛ / hue 
+aſſcribere/ orcomuojae. veram. die bíftos 
+| 2 quam dixi. 
+
+
+NT Sic autem ípfe ín quadã Cpiſtole 
+
+Eber » 7 Poſtulas quid nobis videatur de 
+£pi. u virginibns / que cum femel ſtatum fuum 
+eatis — tenere 
+
+
+* 
+TA 
+
+
+detect funt poftea in eodem lecto patítee: 
+manſiſſe cum maſculis / ex quibus rium: 
+Diaconũ eſſe dicis. Quam graues mul» 
+tarum tuinas bínc fieri videmus / ⁊ per 
+buiuſmodi illicitas ⁊ periculoſas coniñ⸗ 
+ctiones coꝛrumpi plurimas virgines cum: 
+fummo animi doloꝛe conſpicimus. Quod 
+fi fe eg fioe Chꝛiſto dicauerunt / pudice 
+⁊ caſtæ ſine vlla fabula perſeuerent / ita 
+foꝛtes et ſtabiles peemium virginitatis ew⸗ 
+pectent. Si autem perſeuerare Nolunt i Cor. 7. 
+aut NON PO SSV NCT / melius eft ot 
+nu bant quã in ignem deliciis jure cadãt / 
+«ete nullum fratribus aut ſoꝛoꝛibus ſcã⸗ 
+dalũ faciant ⁊c̃. Hæœt interim Cypꝛianus. 
+
+
+Tales ſententias patrum diligen⸗ 
+tiſſime cauit ne refertet in fuum decretum 
+Gtatianus / erroneis patrum dictis ſæpe 
+abutitur vt nectant conſcientiis laqueos. 
+Vide quam hic Cypꝛianus libere ey ver⸗ 
+bo Pauli / melius eſt nubere quam vri /p 
+n D ü nuncies 
+
+
+— 
+
+
+PAD pꝛo coniugio talium THÉ vote 
+obſtrictarum/ ne conſentiat doctrinis Doro 
+monioꝛeun nubere pꝛohibentium. 
+
+
+€ Quae vero nunc Vonnas a Moni⸗ 
+ales habemus / non ſunt ex virginibus de 
+quibus Paulus conſulit / vt notum eſt / 
+fe» ey doctrinis dæmonioꝛum / de quibus 
+Paulue pꝛædivxit / ſecundum eeemplunm 
+gentilium virginum quae Veſtales appel⸗ 
+labant / ey quatum ona fuic Roma nata/ 
+fiivitss i vt fceibíe Liuius / ictirco vſqʒ adhuc / vbi 
+pino $t martyrum ſanctoꝛũ ſanguine vip ſatiata 
+e ne eſt / ũ ſuo Dapatu merito defendit — 
+nialium « alioꝛum falſas religi 
+
+fuc: matri ingrata inueniatur. 
+
+
+m Diaat nune ergo ſtultus ille bi 
+* qua veritate au- 
+deat affecece ſuam hypogeniã peii 
+dueentis virginibus Deo otcatíe:f 
+pꝛefecta m/ omnes publice in riw Ht 
+4 me ice "Mn: Marc poss. 
+
+T D. 1 tenta 
+
+
+* 
+en ene ene lx y eee 3 
+tenta verboꝛum : rerum noſtri temporis / 
+audet illc ineptulus affigere illi ſaculo A⸗ 
+poſtoloꝛum / ⁊ iam ſtiilti E piſcopiiſta a/ 
+perta men dacia confumant / habentetꝭetiã 
+ho die in (uo Paſtorali libꝛo oꝛatio nr /auũã 
+mentiuntur efje Mattha i Apoſtoli a lev 
+gunt eam ſuper ſuas Moniales verbis 
+ſans ineptis / quaſi vero ev ſcriptis Apo- 
+ſtoloꝛum 2 actis Apoſtolias ignoꝛet ce 
+dleſia ſan cta quid Apoſtoli Chuſti dotue⸗ 
+rint / aut quaſi vero ignoꝛtmus illius tem: 
+posíe h ſtorias / aut quaſi Apoſtoli non 
+manifeſte dãnent iſtos e Ma 
+qe quos ile net probato; 
+516501€ 
+2€ Röbtallum end pie we 
+
+m Btatum Euangeliſtã (oꝛã altari 
+Miiſſã ceie braſſe dicit / vt ſtultis et rudis 
+bus per ſundtat / iſtas Miſſaz Papiſticas 
+in quibus ex ſacramento « facta: cõmu⸗ 
+nicatione cotꝛpous ⁊ ſanguinis Chꝛiſti fe⸗ 
+7 t did — 
+
+
+ſemper in C««lefía fuiſſe / quaft vero non 
+ſatis fuperqʒ notum fit ex Epiſtola ad 
+Coꝛinth. ſcripta / quid Apoſtoli ſãcti de 
+Sacramento ex Chꝛiſti inſtitutione do ⸗ 
+tuerint / quidue Eccleſiæe Chꝛiſti ab eia 
+nen ſuſeperint 2 obne 
+
+
+bid T Vtqs vero ile inpoſtot a abnlarf 
+compilator aliorũ mendacia ſolum pio. 
+vera hiſtoria nobis venditare voluit (quẽ 
+admodum de ſingulis Apoſtolis longas 
+facit hiſtoꝛias / de quibus tamen Euſe⸗ 
+büre diligentiſſimus noſtrarũ hiſtoꝛiarũ 
+con ſeriptoꝛ nibil pene aliud nouit quam 
+qnoo ſacris literis ĩ nouo Teſtamẽto prov 
+ditũ eſt ) ſed etiam quœ benedicta apud 
+altos inuenit faepe depꝛauauit quod gẽ⸗ 
+nus eſt doe quod depꝛauat verba Beat 
+
+cate ya aid 
+Er Ambtoſuis feribit: 8 
+Diaconum ad Sivtum Epiſcopũ vrbia 
+Roma diviſſe. Quo progrederis ſine fis 
+Wo ee aut quo ſaardos ſancte ſine mi⸗ 
+niſtro pe 
+
+
+ine Folio ldi. 
+
+| — * propere ceprriten enn" tibt 
+
+delegeris miniſtrũ cui cõmiſiſti Dominici 
+pues i n s 
+
+
+717 175 
+
+
+- »- 3d T in 
+
+
+€ Ita etiã barverhe et narrat d M 
+Ambꝛoſiꝰ / ſine vlla: ha ſitatione: vbique 
+hactenus cecinimus de Veato Laurentio 
+in noſtris Eccleſiis/ ectamen depꝛauo toꝛ 
+ille / ey verbo con ſecrationẽ / facit diſpen⸗ 
+ſationem / veritus ne qute ev tali luſtoria 
+aliquid ſentiret contra ſacerdotalet a noe? 
+libilee illos Romane beſtic characteret / 
+fi Diacono permitteret ee vocane (ne 
+ſerranogem. mne en zk. Te 
+
+
+E Er ſomniati íntvím ie Res Tuiffe 
+tali Diaconos quos nunc ſine Diaconon 
+officio habemus / quaſi non ati Diaconf | 
+fuerint oꝛdinati ab Appoſtolis / te:quib? et. 6. 
+Daulus ſcribit Timotheo / quales fuerũt, Timo. z 
+Stephan Hieroſolymis a É'autéa? Ko 
+mes, * nunc ſunt theſauri Eccleſiarũ 2 
+
+& oblatie 
+
+
+oblationes Chꝛiſtianoꝛum quas Diaconi 
+diſpenſent pauperibus? 
+
+
+C Quemadmodũ autem ille fabulator 
+nibil certi babeat de hiſtoruis multis / te⸗ 
+ſtatur vel illud ꝙ de moꝛte Sancti Bar⸗ 
+tholomei ſcribit. A lius inquit dicit eum 
+eruafivum / alius excoꝛiatũ / alius tantũ 
+decollatum / et poteſt diei q tfta omnia ſint 
+vera / ꝙ primo fuerit ca ſus / inde cruciſi⸗ 
+
+dus / poſtea de cuc depoſitꝰ et cxcoꝛeatun 
+C P fc enim do gutcur Aale vero o colr 
+
+latus. 
+
+
+| € Ita neni elim ín (Éclefía public 
+non legebantur ſed pꝛohibebantur / nunc 
+autem non ſolum legũtur ſed etiã omnes 
+tontiones occupant / Vide quid Gelaſius 
+ſcribat in Decretis dis ij. Sacro ſancta 2c 
+Vbi cum reliquis nominat etiã hiſtotiam 
+Aſſumptionis Beate vitginis / quas 7 
+gas nos hactenus tanc non adorauimꝰ / 
+D Seien Wen recte 
+monit 
+
+
+Folio lxxvxiſ. 
+
+
+| .. ſecuti. 
+
+
+S8 Ep his omnibus facile vides du 
+ſentiamus cum ſuademus impia publice 
+neqʒ cantanda neqʒ legenda. Cur enim ci 
+contumelia Dei negligamꝰ ſecrã un 
+babulas ſecuti? 
+
+
+| qj Diotetea CAM Monachi / per ea 
+qu ipſi iam fufdpiunt ex ſacta ſcriptura 
+cantãda et legenda / non præſcribi nouas 
+leges aut cõmendari nouum aliquod inſti⸗ 
+cuti) Monachoꝛũ/quo rurſum irretiãtur 
+conſcientiq / feo per bacc tantũ con ſuli illis 
+qui nunc aliud vitæ genus ſuſcipere non 
+poſſunt / vt habeant cantãdo et t (igenbo 
+aliquo? exercitiũ ſacræ ſcripturæ ⁊ verbi 
+Dei / quemadmodũ omnis cantus ? lecti⸗ 
+ones a pꝛincipio ad hoc fuerũt inſtitutæ / 
+vt etiã dides in verbis Gela ſij Papæ / Qui 
+autem ex eis continere non poſſunt/nimi⸗ 
+um non habentes donũ de quo Chuſtus 
+
+
+ii 2 Pau 
+
+
+2 Paulus dieunt / ⁊ magie idonei funt a» 
+N lia conditio ne ſeruire alus / non poſſunt 
+Lo ,betia con ſeien iz in Monaſteclis perma⸗ 
+| Dico ». nere / tanti abeſt vt poſſint poſt hac alios 
+ad di: ſectas 2 ſupetſtitiones pertrah ere. 
+
+
+« Eadem plane dieimus de Canos 
+nicis / qui nullo iam ojut funt Eccleſiæ 
+Chꝛiſti / Voſſunt ⁊ ipſi reſidul / ſi non ali⸗ 
+is officiis neceſſartis ſunt cõmodi / ita hiſce 
+ſcripture eveceitiis cantando pio Ln rem» 
+uet exerceri. 15 | 
+
+
+E Sic vero 6 poteſt ordinari cantus 
+c F lenombus (ſi ita placet) ſecundũ nu⸗ 
+merũ hoꝛatũ hactenus conſuetarum. 
+
+
+Pro Matutinis 
+
+
+€ Dino dicatur ſymbolũ Apoſtolot 
+4 oretur oratio Dominita / Mo Can» 
+
+
+| tot 3 aliquam amn iuvta 
+wo (Qus 
+
+
+Goll lyyxili 
+
+
+| alius ton ſtatim ſequantur tres pſalmĩ / 
+
+
+his finitis Antiphona compleatur. Inde 
+legantur tres lectiones et canãtur tria Re: 
+ſponſoria de tempoꝛe aut ít qua alia funt 
+ex ſacris literis / ita vt poft ſingulas lectio⸗ 
+nes ſingula ſequantur Reſponſoꝛia. Lect⸗ 
+iones vero tantũ ex bibliis / ideſt veteri ⁊ 
+nouo Teſtamento 1 legantur vt viſũ fue⸗ 
+tit/ ⁊ ſint bꝛeues / ſine Jube Domine / 2 
+ſine Tu autem ꝛc̃, ſed pꝛonuncientur 
+diſtincte cum tono quemadmodũ ſolent 
+leat o:0pbettae, In fine vltima verba cu⸗ 
+iuſqʒ lectionie / vt pꝛophetia ſolebat / ſie 
+fineantur / Sol / Sol / Sol La Sol / Fa / 
+Fa / Doft tertium Reſponſoꝛium / quod 
+
+
+cu Gloria patri ⁊c᷑ canitur / ſequatur Te 
+
+
+Deum ⁊c. Mo Cantor inupiat aliquã 
+Antiphonã ſecũ dum cuius tonũ / canatur 
+tantum vnus ep pſalmia prophetalibug 
+qua Cantica vocãtur⸗ Dominica die Ve⸗ 
+nedieite omnia ac Feria ſecunda. Cofite⸗ 
+
+
+- pb Do mine quoniam iratus 2c. fes. 
+iii ria tertia 
+
+
+e 
+
+
+ria tertia / Ego dixi «t. Feria quarta / 
+(Evultouít 36 Feria quinta, Cantemus 
+ac. Feria Cepta/ Domine audiui «C, 
+Sabbato / Audite coeli / ꝛc. Doſt banc 
+antiphonam completã/ fequatue ſtatim 
+alia antihhona cum Benedict dominus 
+at᷑. Poſtea dicatur Ryriè eleiſon / Chꝛiſte 
+eleiſon / Ryrie eleiſon / Pater nofter. etc, 
+Et ne nos. Oſtende nobis domine miſe⸗ 
+ricoꝛdiam tuam / Et ſalutare tuũ da no⸗ 
+bis / Dominus vobiſeum / Oremus cum 
+Collecta aliqua de tempoꝛe / aut alia qua 
+ſit ſyncera / Poſt Amen ſtatim canatur 
+Benedicamus more conſueto. 
+
+
+¶ Ciberum efto quibus Antiphonis 
+vti velint vel ey Pſalterio vel allis / modo 
+ſint pia cantica ſiue de tempore ſiue de fe⸗ 
+ſtis / qux ſeruabũtur in his regnis « duca⸗ 
+ubus / ſecũdum hiſtoꝛiã Euangelic ete 
+
+
+— s felio lyvxiiiji. 
+— S8 XT. dicatur / Deus in adiutorium 
+ſicut nec in Matutinis Domie labia mea / 
+feo cantetur ſtatim in principio. Jã luda 
+otto et. Mo Antiphona cum píalm; 
+Beati immaculati. Ketribue. Poſt Anti⸗ 
+phonam completam loco capituli legat le⸗ 
+cot vnam breuem lectionem ſecundum 
+tonum vt in matutinis ibi vero incipiat 
+in bibliis vbi finem fecerat in matutinis / 
+ſie pergat etiã in Tertia et Seyta ⁊ VNo⸗ 
+na / Mop poſt hanc lectionẽ dicat vnus 
+Oremus cum Collecta / poft Amen autem 
+nihil ſequatur. 
+
+
+I Ssmbolum Beati Athanaſü, 
+
+Qutcunaʒ vult ſaluus eſſe /tantum Do⸗ 
+minica die cum pſalmis pꝛædictis cana⸗ 
+tur in prima. 
+
+
+TS a) V ncfencte et 
+nnn 
+
+
+Deinde Aurphons aun tribus pſabnis | 
+conſuetis. Inde legatur lectio 1 Collecta/ 
+
+
+pen stimme dide an 
+
+
+P t de " v 
+SEIS - 
+
+
+Pro Stets: 2 
+
+
+- itia Hemnue Raw — 
+»tiifiotjonu/ tres pſalmi con ſueti aun r 
+
+
+tone 2 Collecta vt ſupꝛa 
+
+
+Pro Nou. 
+
+
+« ie tur Doemnua. Rerum "s | 
+etc, canatur antípbona eum tribus l s 
+mis conſuetis. addatur se et co 
+
+
+vr ſupꝛa. 
+Prod r 
+
+
+* 
+
+
+g Cuir incipiat aliquam 2 ſecundum 
+
+
+qon flee 87 ii 
+| ER cuius conum. eM tre 
+Pſalmi ep ilus quoꝛũ pꝛimus eſt / Dixit 
+dominus / a qut hunc ſequuntur / vſqʒ ad 
+finem pſalterij Dauidici / Poſt antipho⸗ 
+nam ſequatur vna lectio eo modo quo ot^ 
+cum eſt / fiue ex veteri ftue ex nouo. Te⸗ 
+ſtamento / vt placuerit / Poſt lectionem 
+canatur hymnus ferialis aut de feſto aut 
+- alíue ſyncerus hymnus / ſunt enim multi 
+pij ⁊ pꝛadari hymni. Vt autẽ ab hymnis 
+taueamus que merita et inuocationes ſã⸗ 
+cotum babent pietas et fides Chuſtiana 
+poſtulat. Quis enim nunc poſthac vellet 
+eleuata lignea cuc impie canere / O crux 
+aue ſpes vnica / hoe paſſionis tempoꝛe au» 
+ge piis iuſticiam reiſqʒ dona veniã ? Poſt 
+, bymnü ſequatur Antiphona cum Mag⸗ 
+| nificat. Inde Wes abet 46, vt in 
+matutinis. 5 
+
+
+€ Poft 8 loto Com 
+
+
+pletri gut ſubmiſſa voce / ſine tonio a» 
+» ique 
+
+
+liquo / ſed tamen diſtincre / pſalmũ Qui 
+
+habitar / cum Nunt dimittis. « poſt Gio⸗ 
+ria patri zc, addant Ave ele ſon / Chꝛi⸗ 
+
+ſte eleiſon / Ctedo / Pater noſter / Poſtea 
+dicant ſimul omnes / In manus cirae Do 
+mine Jeſu comẽdamus fpiruue- naſtros⸗ 
+perg noe "fiie Dam di 
+
+
+$9» 
+HT FI 
+
+
+oq fami in bude — 5 
+Wee vt ſeinper pꝛotedatur/ ibis 
+rurſum altera die intipiatur vbi ſupertoꝛi 
+die ceſſutũ eſt. Ita nullo tedio afficientun 
+cantantes / nec ſuperſtirio ſus Pfalmoꝛ 
+numerus grauabit pie fentientes. Magna 
+vero vᷣtilitas erit lectionũ / quando bitz vel 
+plus in vnd anno / nulla moleſtia / licebit 
+tota perlegere Biblin / et ita ad ſacraas 
+aſſuefieri ſeripturas / vt habeant «onfolar 
+tionẽ ex verbo Dei qui melioꝛẽ nunacans 
+ditionem / c tate aut aliter impediti / ſu⸗ 
+ſeipere non nec 9 rede 
+pun t folum. Jeſum | 
+
+Page Dominũ 
+
+
+ene 36 ohn 
+j laum noſtrum. 0120 ui ilio 
+
+
+FJ At ais. cerner oíctut Domine 
+labia «& Deus i adiuto tum «& quœ 
+bona vetba ſũt et ex laripcuea fa a? Re⸗ 
+ſpondeo . Quis pꝛohiberet? . men in 
+eo ſenſu non canuntur quo ft apt furit á 
+ſpiritu ſãcto. Nã Deus in a ũ 46 
+Diantur tontta perſetutotes Gelleſtte/atq; 
+hoc ſunt illi hodie qui toties in die dieũt / 
+Deus in adiutoꝛiuum In verbis. Semi 
+ne labia · ac qui didit promittit Nes quod 
+vult pꝛædicare / dotett et confiieri giat 
+Diei et gratuitam remiſſionẽ peccatò:um 
+ipſis etiam incredulis / quemadmodũ ait. 
+
+
+Docebo tníquóe ar cere et confi⸗ 
+
+teri noſtri iiti e 10 t neqʒ poſſũt 
+
+feo ſũme oderunt / ab ee erſe⸗ 
+mp inan A Sotis hacten abuſi 
+
+ſumus ſcriptutis in alieno [UM pet; 
+do ſi omnia cantanda ſunt quæ bófiafüt/ 
+
+ar erit can tandi finis. ene tibi 
+Juice 
+
+
+ſpmerlor fepniterófüa/ vi purior epfibe 
+noſtra " otat(o, ^ 
+
+
+De Migitjo- 
+
+
+"T viam ip pes: quae vocant / pto . | 
+ctia/ non canant / quando nihil aliud funt 
+to. ſanctiſſtmoꝛũ Pfalßmorum 
+2 verbom. Beati Job / n iſto abuſu vers 
+borum Dei non alio reſpiatur quam in 
+mena» illud s ftum purgato: Satis 
+luſũ epo mercede iniquitatis et Jude 
+Lan — . leritemus -— 
+num r 
+
+
+2" 
+
+
+«i ons — M: VE. | T d Rr": j $31 i: 01 " » 
+
+E Vorunt Chuſttant quematinobs r 
+
+pa inſtituerit in Sacramento ſuum 
+corous a fidelibus / preſbyteri ſiue nó 
+
+
+prim fin cdendum / 2 uum fangé — 
+uinem 
+
+
+wo 
+
+
+een fyc wer xa 
+| uinem bibendum in ſui (ómemotatioh 
+
+
+¶ Vocunt et quicũqʒ amant ſanctã illam 
+vnam Catholicam et Apoſtolicã Eccleſiã/ 
+quid Apoſtoli de Sacramento docuerint / 
+7 quid Etcleſiæ Chꝛiſti crediderint et ob» 
+ſeruauerint / nempe boc Saeramentũ effe 
+coꝛpus et ſanguinẽ Chꝛiſti ijs Chꝛiftianis 
+qui edunt er bibunt / ⁊ ad loc ſolum eſſe 
+Corpus Chꝛiſti a ſanguinem / nempe ad 
+edendum 2 bibendum in Chꝛiſti comme: 
+morationem / ideſt vt ſolus Chꝛiſtꝰ pꝛæ⸗ 
+dicetur ꝙ ſuum coꝛpus tradiderit pꝛo no⸗ 
+bis in moꝛtem et ſaͤguinem pꝛo nobis ef? 
+fuderit in remiſſionem peccatoꝛum / telis 
+qua omnia quæ pto pecatíe diluendis ha⸗ 
+etenus ſuſcepimus nibil aliud effe quam 
+ſtercora et mendacium Diaboli / ex Oo» 
+arinis dæmontorum /in brpootfe loqus⸗ 
+! num mendacium etc. 
+
+
+* Nos vero hot Quangeíum ſue bent 
+y iu Chriſti 
+
+
+Chꝛiſti cõmemorationem 7. negleximus / 
+7 in iuſtitias humanas mutauimus / et 
+ey ſacratiſſimo ſacramento fecimus ſacri⸗ 
+fici pꝛo viuis ⁊ defunctis / abolíta Chꝛi⸗ 
+ftt inſtitutione / boc ficto et abominato 
+ſacrificio voꝛauimus ⁊ diuitum 7 pauper 
+rum bona/ facti Dij quoe adorarẽt prin⸗ 
+eipes terrq / a coluimus Mãmona etiam 
+fub. nomine paupertatis / ⁊ ocioſos dens 
+tres etiam fub nomine ſancti ieiunũ s abe 
+ſtinentiæ / Imnes ſuperſtitiones 2 ſectas | 
+perditionis fouebat hoc fietum ſacri 
+2 horrenda mutatio inſticotionis C huſti. 
+Deniaz qui olim erant hꝛeſpyteri 1 pi 
+ſcopi et ſancti pauperum Diaconi / Item 
+ſcripturarum interpretes et ſacræe XL beo" 
+logiæ pꝛofeſſoꝛes et Cuapgelit Dosrores / 
+vt Paulus Ehe; 4. iſta dong a Chꝛiſto 
+gloꝛificato Egleſiæ data glotatur/ nunc 
+per hoc impium ſacrifiauny nihil aliud fas 
+cti ſunt quam Miſſarü ſaterdotes / nul 
+la vtilitate / magno damno Eccleſiæ. Jc⸗ 
+«o poſt a" ab iſtis Miſſis r 
+Fn x ua 
+
+
+: 
+
+Qua de re ſcripti ſunt aliquot egregii tra⸗ 
+
+ttatus ab (je qui non (unt Satramenti- 
+
+perde (eo ſacræ inſtitutionis Chꝛiſti de⸗ 
+fenſores. Sctipta autem ſunt talia ex in⸗ 
+ſtitutione Chꝛiſti. Nam quo aliter ſcribũ⸗ 
+
+tur nibil debet morari fides Chꝛiſtiana in 
+
+hac parte. Dax ita nunc inuulgata ſunt 
+
+* a fidelibus ſuſcepta vt ignorare non 
+
+Viceat. Qui autem ignorat ignoret. Nouit . Cr. 14 
+Dominus qui ſint ſui. Nouit dominus pſal. i i 
+viam iuſtorum / via autem impioꝛum 
+petibit. Fatetur ab initio tota Eccleſin. 
+fatentur et omnes aduerſarit noſtri nobi⸗ 
+ſeum / hot Sacramentũ veꝛbo Chꝛiſti tio» 
+
+bis fieri et dari/ quid ergo nos miſeri inde 
+tentamus face aliud ſine verbo Chiti 
+
+atq;ʒ adeo contra verbum Chꝛſti? Crede 
+Chꝛiſto / nihil effities tua pꝛæ ſumptione. 
+
+
+157 p Eumigifue null tomtmunkare 
+volnerint et cænam Domini eelebrare 
+e AM | | r7 quem 
+
+
+| 
+due nadmodum chuſſtus inſtituit et A⸗ 
+poſtoli docuerunt et Eccleſia Cii ſuſces 
+pit et obſeruauit (erroꝛibus noſtrisigno⸗ 
+ſcat clementia Dei) cunc omnino non 
+tractetur Sacramentum Chꝛiſti. Siaqui⸗ 
+dem manifeſta blaſphemia et irriſio eſt di 
+tere aliis. Accipite / edite / bibite / cum in⸗ 
+terim certus ſis et conſtitueꝛis apud te nef | 
+mini te daturum / neminem eſurum et 
+jb. bibiturum /conuiuas non eſſe / neqʒ poffe 
+f;ieri vt edat et bibat. (llic Eccleſia congre⸗ 
+
+gata ad menfam. Domini / annuncians 
+mortem Chꝛiſti. Quoniã non cmeanoz 
+tationem mortis Chꝛiſti illie cum tua Ecce 
+cleſia inſtituie / ſed potius tuũ illud turßpe 
+et priuatum ſilentium. Breuiter humanã | 
+inſtitutionem pꝛo Chꝛiſti inſtitutione i im- 
+pie venditas / et nihil ibi vis fare eorü ; 
+qua. Chꝛiſtus inſtituit. es 
+
+
+Hoc pꝛæterea hie admonemus ne 
+Monachi aut Canonici qui hae ſuſcipi⸗ 
+r nt nouas — 1 
+
+
+Folio 
+
+
+, 
+
+
+frattes ad cõmunicandũ / vt hac octaſione 
+
+
+babeant fcpae Miſſas / feo libere liberis 
+uberum telinquant Sacramentũ / tune 
+pꝛimum videbunt qud. non amãter pai? 
+gueſierint Sacramentũ quãdo fere quoc 
+tidie Miſſas celebꝛabant / nunc enim ras 
+rius volent accedere. Satis etiam fuerit 
+«enam Domini Dominicis diebus rati» 
+tum ^ in feſtis celebꝛare / ſi tamẽ funt qui 
+tommunicare volunt coꝛpoꝛe et fanguine 
+Chꝛiſti. | 
+
+
+N Singul's itaq; diebus ftue feſtis 
+fiue non feſtis quando non ſunt / ot dittũ 
+elt / cõmunican es poteft cantari Introitus 
+latine et reliqua omnia Miſſalia / oſqʒ 
+poft Credo / etiam in veſtibus quae ſacras 
+vocant / ſi ita volunt. zu 
+
+
+NA poſt Credo / tantetur Sexta vel 
+Nona / Dominita vero die vel in feſtie / 
+Poſtauã pꝛeſpyter cecinit Gloꝛia in ex- 
+
+e telſis deo 
+
+
+8 — * 
+a — - 
+
+
+elſis Deo / et Choꝛus teſpondit non or⸗ 
+
+
+gana Et in terra paꝝ / hominibus bona : 
+
+
+voluntas / ceſſetur / vt tota Eccleſia moo 
+
+
+canat / Allæniſte (Duo y himmerick ac. 
+continue v[qs ad fínem ſine ergante. Doft 
+Choꝛus et organa pergant canendo. Cau⸗ 
+damus te / Benedicimus «€ vfque ab fto 
+nem. Poſt Haleluia / loco Sequentiœ 
+
+
+rurſũ canat tota Eccleſia / canticũ Danicũ 
+
+
+aliquod / continue ſine organie/ Doc mo" 
+do nihil ĩpedierur cantue latinꝰ. Moc autẽ 
+nó velle laicis permittere / qud quao ſpe⸗ 
+ciem haberet ? De parochus vero dictum 
+
+
+e(t in ordinatione Eccleſiarum. Pꝛæterea 1 
+poft Credo finitũ / cadret tota Eccleſia / 
+Wy troor alle paa en Gud dc. ſine oꝛga⸗ 
+
+
+nis. 
+
+
+€j Doftea predict vnus Euangelil i 
+Danice / vt cœteri vel diſcant vel conſolati / 
+
+
+E 
+| 3 
+m - 
+
+J 
+X 
+
+
+L. Eccleſia quee non agnoſat publicam 
+
+
+onem accipiant / quemadmodum oportet 
+fieri in Ecllleſia Chꝛiſti. Quae enim effet 
+
+
+verbi 
+
+
+5 olio 90. 
+verbl tractationem ? E" 
+
+
+€ Curent etiam Monachi pio (uis 
+laicis ⁊ indoctis ſacerdotibus vt doceant 
+eos diligentiſſime catechiſmũ quem par⸗ 
+uum vocamus / Hoc eſt / primũ ipfa ver⸗ 
+ba decem pꝛæceptorum / Symboli Apo 
+ſtolorum / orationis Dominica / baptiſmi 
+4 Euchariſtiq / ⁊ deinde vbi hoc illi bene 
+didicerint. doceãtur etiam quid ipſa verba 
+velint / quemadmodũ breuiter in paruo 
+Catechiſmo conſcriptum eſt. Quomodo 
+enim aliquis poterit eſſe VETERE qui 
+bat fcire conten pſerit? | 
+
+
+¶Quod vero vulgus nobün. 2 tu 
+ſticorum et ceiuium de his nunc nihil plus 
+nouit quam equus et mulus / reddent E 
+piſcopi et paſtotes Eccleſiarũ et papiſtarũ 
+reliquæ factiones caticum fuum ventrem 
+et Mamona « dignitates colentes / red⸗ 
+dent i inquam hoꝛrende! Deo rationẽ in illo 
+5 à die 
+
+
+die. Videbunt quem tontempſerunt. 
+
+
+¶ Si autem antequã acdpiant Eu⸗ 
+
+angelicũ aliquem pra dicatorem / non eft 
+
+inter Monachos aliquis adeo doctus quí 
+
+poffit cõmode tractare pio contione verbũ / 
+conſtituatur vnus qui ſedens aut ſtans 
+publie legat ZDantce ep poſtilla dimidiã 
+
+hoꝛam aut vltra / fiie poftea fiat cõmunio 
+
+ſiue non fiat. Nam hœæc pꝛædicatio ſiue 
+letto pectínet ad Chꝛiſti cõmunionẽ atqʒ 
+adeo ipſiſſima eft. Chꝛiſti cõmemoratio / 
+Quemadmodũ Paulus eyponée, Mot⸗ 
+tem inquit Domini anunciabitie donee 
+veniat. 
+
+
+¶ Oportet enim in hoc ſacro cduiuio/ 
+quãdo celebꝛatur / non tacere ſed pꝛædita⸗ 
+te/ quod Chꝛiſtue feipfum tradiderit pꝛo 
+nobis / hoſtiam factam patri in odorẽ fua» 
+uitatia / et effuderit ſanguinein (uum in 
+remiſſionẽ peccatoꝛũ noſtroꝛum / quem⸗ 
+admodũ habẽt vitba ſacraæ — | 
+4 
+
+
+XD — Ron CR S 
+De hoe debet Eccleſta audire / canere. Cot 
+etiam laici nunc faciunt) gratias agere / 
+poſtea hoc ipſũ docere ſuos filios et fami⸗ 
+ltam (id quod multi male adhuc negli: 
+gũt ) Hæc eſt vt divi Chꝛiſti cõmemora: 
+tio / non illud ridiculum Silentiũ / quod 
+in Miſſa vocant. 
+
+
+€ Dac cõmemoratio ſemper debet 
+ſieri ( niſi Chꝛiſtus non fic ſemper pie 
+dicandus) etiam quando non accedimꝰ 
+ad menfam Domini / Cena autem Do⸗ 
+mini ſine eius cõmemoratione celebꝛaxi 
+non debet / ſecundũ eius mandatũ et (ne 
+ſtitutonẽ / Ita vt poſſit cõmemoratio ſine 
+«na eſſe / Cœ na autẽ ſine cõmemoratione 
+nequaquá; Nam ettam ft alia deſint / tame 
+vel ipſa publica recitatio verboꝛũ inſti⸗ 
+tutio nis Chꝛiſti i in ccena Dominica / eft 
+Chꝛiſti cõmemoꝛatio et conſolatio et con- 
+firmatio fidei noſtrœ. 
+Sed hactenus ſatis de publica 
+Q ii pia dies 
+
+
+pꝛxdicatione de recitatione . t^c 
+
+
+fiat. 
+
+
+¶ voſt verbũ Dei admoneantur vt 
+
+
+oꝛent pꝛo omnibus omniũ hominũ con⸗ 
+
+
+diebus feſtis / ſiue fiat commonio (ue aon | 
+
+
+diltonibus / pꝛo Eccleſia / pz pace / ſalu⸗ 
+
+
+te ⁊c. ic eſt noſter Canon. Papiſtæ au^. 
+
+
+tem bax ſeria cum ſuis mendaciis ſimul 
+congeſſerunt in illum eum d oiſſ 
+Canonem. 
+
+
+€ poft orationem publicam cantetur 
+
+
+oliquis pſalmus vei canticũ Danice / nec 
+
+
+erubeſcamus cum laicis et in doctis fratri⸗ 
+bus vnũ lautate Patrem per vnũ Jeſum 
+Chꝛiſtum Dominum noſtrum. 
+
+
+¶poſt hoc / ft non adſunt cßmuni⸗ 
+
+
+eantes / ſtatim fequitur Sexta vel Nona. 
+
+
+€ Quando vero conueniũt fratres ad 
+communicandũ Dominica die aut ffe, 
+tune 
+
+
+"EU 8 VUE 
+
+
+[| 
+
+
+u 
+
+
+folo 972... 
+
+
+tune poft contionẽ aut recitationem illam 
+
+
+quá divi / finito Danico pſalmo inapiat 
+pꝛeſbyter coram altatt/ pꝛa fationem quà» 
+
+
+lũqaʒ voluerit / ſic / Dominus vobiſcum. 
+
+
+Surſüũ corda etc. Deinde canatur / Sa: 
+
+
+«ue. Omnia / ſi ita placet / latine canten⸗ 
+tur / pꝛæter ea quæ iam ſequuntur. 
+
+
+Orguitur pot Sanctus / 
+ſtatim conſecratio quam 
+
+
+vocant. 
+
+
+«€ Di ſuademus orationem domi⸗ 
+nicam et verba inſtitutionis Chꝛiſti / er 
+vltimam Collectam cum benebictione/ 
+Danice pꝛonunciari / vt ſic conſulamus 
+
+
+fidei rudium et indoctorum / et non ecu 
+beſcamus (tradendo ſacramenta) de Cc 
+- defía Danica in qua nati ſumus / quãdo 
+neaʒ Iudæi neaʒ. Græa aliter tradiderũt 
+
+
+Sacramen 
+
+
+e quá " lingua (n qua sul : 
+eant, Quá ridiculũ effet tradere populo 
+Euangelium lingua non intellecta / ita 
+ridiculum eft tradere Saccamenta verbis 
+non intellectis. Jon omnes due | 
+
+
+qui latine legunt. 
+
+
+€ vt autem apertis verbis pꝛonun⸗ 1 
+tiemus inſtitutionem Chꝛiſti coꝛam cet 
+naturie ſiue cõmunicaturis et ratio poſtu- 
+lat et fides 2 pꝛæterea factum. Chuſtiz 
+Quid eni intellexiſſent Apoſtoli fé Chus 
+ſtus tradend o ſacramentũ ſiluiſſet vt nos. 
+(tti Daptftee € vnde haberemus queſo in⸗ 
+ſtitutionem Chriſti? quid ibi credam⸗/ 
+quid ibi faciam / niſi audiam Chꝛiſtum 
+loquentem. ? Quid mihi cum eo quod 
+mutmurat apud fe preſbyter? Cur non 
+audiam Chꝛiſti inſtitutionem? An dig⸗ 
+num eſt vt fufdpiam Sacramentum ſine 
+verbo / quanto ſine boc illud nó. ef mihi 
+faccamentum f quemadmodum 2 2iugus 
+I etat. Accedit verbum ad pro [ 
+
+
+sia 
+
+
+I3 
+
+
+Bur utin Folio o; «0 
+ſit Sascamentum,? 7 
+
+
+E Sicut in cena Chꝛiſtus juo manie 
+fefto verbo fecit ⁊ tradidit boc Sacramẽ⸗ 
+tum / ita ⁊ nunc in Ecdeſia uleipfe «n 5 
+allius / licet per miniſtros / manifeſto ver⸗ 
+bo faat ⁊ tradit boc Satramentum com» 
+municantibus / Nam hic cum ſacrifican⸗ 
+tibus nihil eſt ei com mune. Aoqui niſi 
+ipſe S acramentum nunc quoqs faceret ⁊ 
+daret / nemo facere aut dare poffet, Stul⸗ 
+titia enim eft « imptetae/psafumerc/queo 
+tafuta/ vnctiones 4 charactetes ficti hic 
+aliquid effidant. Ambꝛoſius cum tora. 
+Ecdeſia diait / Sermone Chuiſti hoc con ⸗ 
+ficitur ſacramentum. Fides aliud non 
+poteft diere vel ſentire. "maig 
+
+
+Si autem pios offenderis quáteas 
+aliud dixiſſe / hoc cõputato inter ſanctorũ 
+krrores / non defende contra verbum 2 in⸗ 
+Ritutionẽ Chiſti. Hic vt eft vnica ſalus 
+IT 22 noſtra 
+
+
+noſtra fta ⁊ vnicus eſt Doctor noſter ee 
+Magiſter / de quo Pater damar, dune 
+audite / ⁊ Moſes. Qui inquit Pꝛophetd 
+lum non audierit / ergo oltor exiſta n/ 
+dicit Dominus. Abeant alio qui defecerũe 
+a fide ad doctrinas da monioꝛum/ ins 
+paſtoꝛis vocem agnofunic oute / br. : 
+non ſeguuncur C. E 
+
+
+E Praterta iſti Cenonid. « —' | 
+bt Chriſtiani bbentee hic debent cedere 
+| fue ſenſui / 2 tradere 4 accipere Sacra i 
+mentum / quemadmodum omnes nune 
+Eccteſiæ in Dania vbi ſyncerum pꝛu die 
+tatur Euangelium acciptunt. ne videan⸗ 
+tur pofibac in ſuſceptione Sactamentoꝛũ 
+ang velle eſſe quam reliqui eniin be "2 
+hactenus. Suſcipiunt autem alm 
+
+5 Chꝛiſti inſtt? 
+. non ſine 
+verbo / cur nó 
+⁊iiſti ſie 
+ſuſaperent ? 
+
+
+; Folio 04. 
+
+
+bi ergo præparato parue 
+* calice noſt Sanctus / 
+6h ^ ort byter oret et 5 : Ut 
+
+ puoudacitt. — 
+
+
+iur er i "m 
+
+
+Lader off bee v 
+
+
+* 
+
+
+— „ * um j 
+— ^». 
+y. "X * — 
+
+
+Fader wor / deo ſom / eft i himelen 
+
+
+belligt woꝛde tbít naffn cilfomme thit 
+
+
+Sar 
+
+
+$e 
+
+
+— ——1 —— —— 
+
+
+" worde thin willie 95 pu oen i 
+
+
+| 
+
+
+- bant er i hünelen / Oifaf i das 
+
+
+Folio 9. 
+
+
+* — HL— — — — — 
+
+
+wort dagli gebrod / foꝛlad aaß woo: ſkyld 
+
+
+—— 
+
+
+1 1 * " h uy 
+E : ! 
+" . E 71 E 
+- : — 
+«^ à d 
+v 5 
+
+
+| fom voy foꝛlade waare ſkyldener / Ced aaß 
+
+————— We 
+—— tee m e a ia 
+
+icke vothy freſtelſſe men frels aaß fraa vns 
+
+
+2 — — Po eam, - 
+
+
+BE. LLL 
+Amen. Statim acepto pane 
+
+
+— Q 
+
+
+— — — — — — —— — —— 
+
+
+wo here -— chrſtue/t i den tay 
+
+
+„ — — — 
+
+
+i 
+
+
+och ſagde tager tette hen och ederidt / 
+
+
+Folio 57 
+
+
+—ͤ — — 
+Thet er mit legom ſom gyffues fot eder 
+I D mr IA alae RR 
+
+
+. i 
+" — 
+fr mr cwm ae i GRAUE D — 
+
+
+Ther gipꝛer y min hwkommelſe. 
+„Et Accepto Calice 
+
+
+maltyd / tackedt gaff dennom och ſagde 
+
+
+2 
+
+
+tue alle der aff/ C Cu tte er T 17 te⸗ 
+
+
+ei 
+* " 
+
+
+— 
+
+
+] 
+2 * 
+
+
+LI 
+
+
+fomes I i mit bot/tby em duften | 
+
+
+ge — 
+
+
+wog ofi? bor m dl f mía — 
+— — UN * 
+
+
+— — tanta t 
+
+
+hitte gipꝛer fo offte ſo ( dicke l. my. 
+
+
+— 
+
+
+bwkommelſe. E 
+i Cen m unicatis 
+
+
+Folio qoo 06^f T 
+
+
+* domemindratigi i. d 
+
+
+Ps aea or c ale i 9 
+
+
+Dice cõmunicent fiatim vtraq fpe» 
+da. Poſſunt etiam quande voltent ſorctũ 
+panem dare / antequam benedicatur calto / 
+2 poftea benedicto calice dare etiam calict᷑ / 
+quemadmodum Chꝛiſtus in cena feat / 
+ac o: dinent yt voluerint. Nam guam⸗ 
+uis pulchꝛum fte. hie imitari facii. fuk, 
+
+fé tamen. bert in hoc eſſe debt We 
+ai zus 
+
+
+modo bicnibil fadamue aut ls 
+5 7 M ARR, peru 
+
+
+5 Sab 1 RAT oia) 
+327 cantetur Agnus Dei Canne vei Da⸗ 
+nite / vel vtrumqs. vel bymnue Pange 
+
+lingua / aut aliud latine vel DO aníce/ tebet 
+enim bic tota Eccleſia facere. commemo" 
+rationẽ Cbsifti/ non tamen diu cantetur / 
+
+
+^ laue Da M moleſtia x. 
+xv Sr 
+
+
+— 
+
+
+€ pot communionem f uitus 
+Dat aut funtde Collecta. k 
+
+
+Ea 
+
+
+b : dig 5 | ei " 
+wir jb/2tb du mer diſſe fait gaf 
+ier og wederquegir. w bede wis din 
+bia ibtughed / ach du lader den ſamme 
+gaffut oſſt ter bekommis til wor mois 
+ſtyrckelſe paa dig Och til een biendendis 
+, Reni beo emellom off indbyrdes. 
+For din Sons ES b: 
+a wor í ſkyld. N 
+„ eee, 
+
+
+?3^ f. aw 7 
+2 d 3 4i. ? 
+"2227277 2 3. 
+] "i 12^ L 7 : 
+k €e;oi64 1 
+"TX "$e 
+- 465 *€$ * $9 
+: 5 s 4 ; H : 
+121 1% ) 5 - 
+. 4 $9 99 * * 2* 2 
+^» 
+
+
+Folio N. 
+in ] 
+
+
+Ultima bcuebictio bat ie 
+vrrla kacie ad 
+Alios n 3 
+
+
+€ Den wallhne deg " ipee 
+beg. Herren lade lyſſne ſyt an ſigt offuer 
+deg ot were deg naadig. Herren voce 
+frr safíun. pue Mid begifue bu Fed. 
+
+
+WAS E di " «t... LR ; 72 e y f. "E e ^ e i Lu f 3 
+; : 2 * 3 Anit ie - 7 
+editu1J 
+
+
+baun tat, 
+
+
+! Ul * ken 
+
+
+1 J 
+
+
+Qe Rrtreher omne / eim ad Ee: 
+/ um in pꝛimis ad reſegtd nis 
+— - confecuarionem/ publica alíqua 
+ilia opüe fic, Omnino neteſſariũ du⸗ 
+cimus / vt vna alíqua ſolennis 2 generalis 
+Academia in hot regno erigatur / 2 v0 
+ſolenni talium ſcholarum more ſuis pꝛæ⸗ 
+vem petulegiío/-imamufiitatibua& 
+4K V Cectoribus ⁊ habitationibus 
+bes — Han etiã ſtat im erigemus / 
+4 ſeorſum confirmabimus / In nomine 
+Domini noſtri Jeſu Chꝛiſti. Ad eu, 
+
+
+&tcribétro huit dna; 
+
+
+et P EE 
+
+
+Ego Andreas Schowgordt / ſaluo 
+ure cuiuſcñiqʒ Deum timentis / ſubſcribdo 
+4 actepto bꝛedictos articulos / nomine cas 
+pituli Wyboꝛgen ſis / Donet aliquid meliꝰ 
+in laudem 4 honorem Dei concilium ge⸗ 
+nerale definiærit atqj onfisaein/ "S | 
+manu pꝛopꝛia. 
+
+
+be VILAM: taf anto we 
+Porgenſie⸗ ſubſcribo nomine totius Cas 
+pituli manu pꝛopua :.. 
+Ego Geoꝛgiue ſonſingiue nomine 
+totius capituli Acht Juin ub ſcibo. 2 
+155 HE 
+Ego Johannes Olaut canonicus 
+Arhu ſieñ: nomine aluſdem capitali bie 
+pla manu ſubſcribo ^^ 
+Ego DPecrus Jairi tanonicus Thne 
+deñ: nomine to tius capituli ſubſalbo⸗ 
+
+
+Ego Benedictus Arnidus conte 
+ade nõine totius cap: ſubſcribo. 
+Et ego Chꝛiſtophorus XXanfberg T 
+
+
+noutaié Roſkildeñ: nöine totius aapitult 
+
+
+— ſubſcribo. 
+
+
+o Vicolaus Be nende 
+
+
+Xoflieeii nótne totius capit AReftis 
+| erii: ſub ſcribo. 
+Etego Seuerinus Claut icmóníaie 
+
+
+Bonn nome ro ciue cáp: Ripeñ: ſubſcribo 
+
+
+$05 1. Bb wu Et ego 
+
+
+B — Pam -—m 
+
+
+Et ego Johannes Chyiftan canonl⸗ 
+cus Ripeñ: nomine totius capit Ri⸗ 
+
+
+ſub ſcri 
+9 pa „Cana lecto? Mal⸗ 
+mo 
+
+
+ſub 
+Ta ccleſis 
+22 5e e o. uim " 1 
+
+
+ego feanafcus Woꝛmoidierdeſt, 
+diei moge ſubſeribo. 
+Er ego Olauus Chꝛiſoſtomue/ politi⸗ 
+oris litterature Malmogie pꝛofeſſor 
+
+
+e Jacobus pii fonce | 
+onatot Wibergeñ: ſubſcribo. 
+
+
+Et ego Petrus Thome Pas wi⸗ 
+— Saat patodjue eccleſiæ Torũ 
+
+
+. Se, wiberganue / 
+* 1 ſubſcribo. | 
+
+Martinus Deglundt ccleſia⸗ 
+" Sew fubfibos 4 | 
+
+
+Et. ege | 
+
+
+T 
+
+
+i e 5ubte 100. 
+Eftego Adee ems camo 
+Lo ectleſtaſtes ſubſcribo. d 
+
+
+Lis , tego trctiue 36 b: qu K 
+tele ſiaſtre ſub ſcreb 
+
+
+Et ego ar Abugerd pati 
+tator aufi; ſubſe ibo. v 
+
+
+DEC Paulus Dem ate 
+Bis ſub ſcril o. 
+Et ego Chrilfemae € fred hiadi 
+(ato? uinborgdi: Tübjaibo, - F2 
+
+
+Er ch Melchior Johannis ect 
+
+fies Geom E | wins LIMIT. g 
+
+raſmus e ondghatos | 
+febitgie: fublo 
+
+
+i? 
+
+
+tego ets om " 
+beg 5 fe "n 
+
+
+Et ego ae us ^ue prabícáo 
+eK 9 en ſis ſubſcribo. it ego 
+
+
+Et ego Mathtas Ca us ecleſia / 
+tes Rantranfie ſubſalbo. a T 95 * : 
+
+
+Et ego Micolaus Jaſtrt sif j 
+Nolingen ſis / ſub ſcribo - f 
+- ego Jobannce Albertes fubf ib 
+
+
+Et ego Johannes Suuus lector | 
+Doge ſubſcribo. i 
+
+Ego Anthonius Keyſer nifto | 
+Dovefiriarus [ubfibo, - La iR ; 
+
+
+Ego Reinoldus weſterholt paf 6 
+e ſubſeribo. E 
+
+Et ego Hermanus Taſt aue ö 
+Dufunenfo paſtos fubíaibo, 
+
+
+Ego Gethardus Slewerth ys | 
+3 ad diuum tTkolaum. 
+^ ego (eotgítie. Win ther náene, i 
+wet vore [ojo I PR 
+
+
+2 2 
+
+
+NIU; 
+r 
+
+
+LI 
+
+
+wt 
+
+
+11 
+
+
+cipalium huius er⸗ 
+
+
+tliattitt or⸗ 
+
+
+* 
+
+
+2 
+— 
+kr 
+
+
+fie eoru que hic tractantur: Folio Ww 
+Se Docteina 4 eiue membris Fol. u 
+De Sacammfs [on 1% 
+De Ceremonies fe eias d ccleſi 
+
+
+Folio ui 
+De KRitu Ligen 2 p pueroꝛum 
+in templis. Folio ii 
+
+
+De AXitu celebrandi ꝓuhlicã miffá fo. vi 
+De titu pꝛædicandi verb Dei Fol, viii 
+
+
+De ſpetialibus pratiaronfbue Es vi 
+De vitu 2 ö 
+De ciu d | 
+
+
+De titu Co Mig matrineníae — 
+liter Folio piv 
+De ritu inſtituendi miniſtros Folio vx 
+De Eccieſis eutaub? pniẽdie Fol. eet 
+De Monachis men dicantibus non 
+fouendis Iridem 
+
+
+re tollendis Imaginibus "E 
+copoſitis. p 
+
+De citu evcommunicandi * — 
+De ritu wijitanbi wfimoo 2 e- 
+
+
+Fus - eth 
+De titu acedendi ad ütícatoe Folio | 
+€ ewvüt 
+
+
+c citu Sepclendi mortuos ibidem 
+
+
+De ritu (nfownáticbfietrice folío poe 
+De ritu inſtituendi puerperas fol. xx 
+De ritu obſeruandi cum feminis pꝛopꝛi⸗ 
+os liberos oppumentibus Ibidem 
+De Pueroꝛum ſcholis Folio xxxii 
+De Bnica inſingulis vtbibue ſchola ibi: 
+De Scholarum daffibue Folio evt 
+Die Scholarũ ewercitiis Folio pvo» 
+De obſeruãda diſcſpulorũ indole Folio 
+(xv viii 
+
+De Priuilegiis c immunitatibus 
+eri Ibidem 
+Ce ü De ſuſten 
+
+
+. 
+
+
+De Suſtentatlone prrditptorum e 
+
+peupeum — Folio erte 
+De iure Datronatus nobi [T vlt 
+De immunitate nobilium Folio ibidemn 
+De aſſignandis e Schola cuſto dibus ad 
+pꝛopioꝛes Eaaeſtas rurale jbiveit 
+
+
+De bilibus fcu. diaconis elgendis 
+
+
+Folio delit. 
+De relictis Kuralium Datochorum 
+viduis Ibidemn 
+
+
+De relietis vrbanoꝛũ viduis Folie vltii 
+De bonis Daupetü retinendis Ibidem 
+De Parochoꝛũ celibatu rcbugio ibidem 
+De Hoſpitaulbus Ibidem | 
+
+
+De Hoſpitaliũ oeconomis Folio elí kt. 
+De colligendis ad Ho r veris bau ⸗ 
+peribus | Ibidem | 
+
+
+De Superintendentibus er Pꝛepoſitis / 
+Folie l. 
+
+
+/ 
+
+
+COR 
+
+
+INDE firéeivm- ftant: Folio 
+
+
+ié Slgerattendentũ ſal irio - 3bi 
+
+
+— 
+S loerutten dentũ off die Folio vl 
+
+
+De. Dutationc et alteratione: Diaco⸗ 
+oium Ibidem 
+
+
+De eruditione Pꝛæpoſitorum in patria 
+lege. alios, T" Li 
+
+Caqnbd opa fit Dafotbo: follo Lt 
+Quando eee abe .. du 
+
+
+A x s X 
+
+
+De tieu; : ifs Lid 
+De Ebbs unld S asd oi lo 
+De bomibue d iniſttoi Folio 
+De Norwegia f Folio lv 
+De Emeritis e JIbidem 
+De Canonieis PGolio lviu 
+
+
+De Monachis siiis fob lix 
+
+
+De a2 onlalibue- | Foo lx 
+
+
+Dei iuramito Superintendent fol lvi 
+
+
+Ce ii De cæremoni 
+
+
+nue 
+
+
+DEOR TUR E EL 255 * TERN 525 - 3 ; 
+Tyco per 
+A. Bes 
+
+
+; iz * Folio lot. 
+
+
+E- [Lr D. ich Pomerant pt 
+E amens a paid ale ert 
+
+
+* 
+
+
+„„ " | 
+| SES Y oa ^on PH 
+
+
+j "» 
+i €. * Wi 3933 pT 5 Y : i] 
+| ER? jm nti: e. * roi d. Pat i ow 
+V . E r et i 
+
+
+p» M. 14554 m iens ! 
+I A vy ads e N N 5 PES. 
+| yt ie wee U Uit! .. 6 e 2 L 
+
+
+„ego Prat 
+
+
+Cee n, hier gà 
+2 M (NS 42 quot, 1 15 37 MO UR ds i 2 
+
+
+a 46 9rd! 
+» c9 cS À T P. a 12 e 79,9€^ * 6 41 [A * ; m4 C4 | 
+be e * 7 y . : 
+* 5 5 $e ; 
+e $25) 4. e W "d d rh. bed dc het és: fou 
+
+
+ea. Jo. yt N jii» "f ge,, iz vele qve 
+
+
+GM "e 9 NT 4. AP fs or RUE cepa. We &- : 
+Vit. oT P mee r eco ox on. 9 . vnc 
+
+
+pe. 
+
+
+eu 2 pee K 19 e 9 T pmo e. e pex y s 
+
+
+e 
+
+
+PE 
+
+
+* * 
+
+
+^. 
+
+
+Lut 
+* 
+amu 
+
+
+5 
+
+
+; P ni 
+
+
+E! 
+x Wb 
+2 
+
+
+N N e e on EA E quis 
+
+
+e 
+
+
+uc E dus 4, 
+— 
+
+
+E NE INGUES ^ — nem 
+1204 ORDINATIO ECCLESIASTIC 
+
+
+Ducatuum Sleswicensis 
+
+
+A Regnorum Danis et Norwegie et f 
+
+
+"m 
+
+
+. Anno Domini w.p.xxxvir. * 
+(Colophon :) Ex officina literaria Joannis Vinitoris Stutgardiani in nor 
+claustrali vico Hatffnie die Lucie viroin; 
+
+
+1e virginis 1537. Sm. Svo., Gothic letter zd 
+([1-2]8 AZ., AA-CC*) CC way, the title within a wcodcut 2 
+border with a woodcest on the reverse ; the outer margins of the first 4 |- 
+leaves mended not affecting the'lemt; otherwise a fine ccpy in a con- 
+
+
+S amped «alf, gilt gauffred edges 1537 
+
+
+VrRY namg, This is the first edition of the Protestant Liturgy for Denmark and |- 
+On leaves 94-97 are printed musieal staves but without e eee ee T 
+E » — e — : : v 
+
+
+2 3 
+
+
+* 
+
+
+! D 
+1 
+n Li 
+- LJ 
+^t. | 
+A me 
+dh . 
+Ot. ^. 
+- ; N 
+" » : 
+2 l - 
+— "t 
+—- 
+* 
+— 
+) 
+* 
+Eo P diti . 
+] E Nu 
+* * 
+| A c 
+"d . 
+» 2 e im 
+q" a ipn 
+e - f . , 
+"a P d 
+& Lv Zr » 
+! NL us dd 
+"e. 
+u-— 
+— 
+— — ee 
+* 
+* 
+LI F 7 ] 
+^ * 
+2 
+. LA 
+" : 
+—— — a 
+^ " — — ^o — 
+"x * 
+^ 
+
+
+COREITAC cu TM em 
+
+
+8 — — — 
+
+

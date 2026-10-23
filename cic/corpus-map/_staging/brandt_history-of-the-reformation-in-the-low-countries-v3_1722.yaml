@@ -1,0 +1,43 @@
+source_file: brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt
+
+assignments:
+  - row_id: brandt_history-of-the-reformation-in-the-low-countries-v3_1722--brandt-s-history-of-the-reformation-in-the-low-countries-vol
+    work: "Brandt's History of the Reformation in the Low-Countries, vol. III (Books XXXIII-XLIV): the Synod of Dort and the fall of Oldenbarnevelt, 1618-1619, in the English of 1722"
+    author: brandt
+    locus: "BOOK XXXIII from file line 1543, XXXIV from 5571, XXXV from 9541, XXXVI from 13430, XXXVII from 17699, XXXIX from 31721, XLII from 45660, XLIII from 51318, XLIV from 57332 to the end (about line 71000); Oldenbarnevelt's trial from about line 44614"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: tradition
+    confidence: assigned
+    note: >
+      The Remonstrant minister's own narrative of the Synod and its year, the insider history the
+      census names, in the eighteenth-century English that Calder (vendored) copies for the
+      Remonstrance of 1610. Brandt writes from the losing side and prints the Synod's acts, the
+      Remonstrants' papers and the foreign divines' judgments at length. SECOND WITNESS for exact
+      wording: microfilm OCR with the long s normalised (about 0.85 of tokens read as words), one
+      badly read stretch at mid-volume; verify against the page image before quoting.
+  - row_id: brandt_history-of-the-reformation-in-the-low-countries-v3_1722--brandt-s-history-of-the-reformation-in-the-low-countries-vol-2
+    work: "Brandt's History of the Reformation in the Low-Countries, vol. III (Books XXXIII-XLIV): the Synod of Dort and the fall of Oldenbarnevelt, 1618-1619, in the English of 1722"
+    author: brandt
+    locus: "whole volume"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: context
+    confidence: provisional
+    note: >
+      The Synod year seen from the Remonstrant side, with the Contra-Remonstrant ministers, the
+      provincial synods and the towns named throughout. Placed on this world's own place and
+      window, mirroring the context rows of the other Remonstrant files; not read for further-
+      reformation matter.
+  - row_id: brandt_history-of-the-reformation-in-the-low-countries-v3_1722--brandt-s-history-of-the-reformation-in-the-low-countries-vol-3
+    work: "Brandt's History of the Reformation in the Low-Countries, vol. III (Books XXXIII-XLIV): the Synod of Dort and the fall of Oldenbarnevelt, 1618-1619, in the English of 1722"
+    author: brandt
+    locus: "the sessions with the foreign divines and the judgments on the Five Articles (Books XXXVI-XLII, from about file line 13430)"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      The delegates of Geneva, the Swiss churches and the Palatinate at Dort, and their judgments,
+      told by a Remonstrant. Placed on the Reformed Cities' part in the Synod only, mirroring the
+      Scott row; the Reformed Cities' build decides its weight. Second witness.

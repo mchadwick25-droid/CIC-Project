@@ -1,0 +1,32 @@
+source_file: luis-de-granada_of-prayer-and-meditation_hopkins1582.txt
+assignments:
+- row_id: luis-de-granada_of-prayer-and-meditation_hopkins1582--of-prayer-and-meditation
+  work: Of Prayer, and Meditation (Libro de la oracion y meditacion), fourteen meditations for the seven
+    days of the week with the treatise on prayer, Elizabethan English of 1582
+  author: luis-de-granada
+  locus: whole file; the translator's epistle from line 11 (running head "The Translatours"); the morning
+    meditations from line 4812 ("Mondaie morninge") and the night meditations to about line 27900 ("Sondaie
+    nighte" at 26623-27875); the treatise on prayer with its numbered "aduises" from about line 28038;
+    the Table from about line 32900 to "The ende of the Table" at line 33338
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: assigned
+  note: 'The lay devotional voice the Tridentine dossier named as missing: a Spanish Dominican''s manual
+    of meditation and prayer, the most widely read Catholic devotional book of the later sixteenth century,
+    here in the English made for English Catholics and printed at Paris in 1582. Translator read from
+    garbled OCR as Richard Hopkins; confirm against the page image. The voice is the translator''s Elizabethan
+    English of the Spanish, not Granada''s own words; the Spanish original is not in the corpus. OCR readable
+    with microfilm misreads (long s normalised to s); quote only after checking the page image.'
+- row_id: luis-de-granada_of-prayer-and-meditation_hopkins1582--of-prayer-and-meditation-recusant
+  work: Of Prayer, and Meditation, the 1582 Paris English with the translator's epistle to the Inns of Court
+  author: luis-de-granada
+  locus: the translator's epistle to the four Inns of Court, lines 11 to about 1010; the whole book as
+    a recusant devotional import
+  atlas_ids:
+  - recusant-english-catholicism
+  role: context
+  confidence: provisional
+  note: 'A Catholic devotional book printed abroad for English readers in 1582, dedicated to the lawyers
+    of the Inns of Court by an English Catholic exile: evidence of what recusants read, placed on the title
+    page and dedication only, not read against that world''s own sources.'

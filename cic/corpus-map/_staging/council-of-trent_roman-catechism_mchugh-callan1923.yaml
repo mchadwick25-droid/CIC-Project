@@ -15,3 +15,18 @@ assignments:
       formation text - the catechism its own parish clergy taught from,
       not a later commentary on it. Closes a gap identified in this
       world's own Source Readiness Dossier §3.
+
+  - row_id: council-of-trent_roman-catechism_mchugh-callan1923--roman-catechism-borromean-milan
+    work: Catechism of the Council of Trent for Parish Priests
+    author: council-of-trent
+    locus: whole volume
+    atlas_ids:
+    - tridentine-parish-renewal-borromean-milan
+    role: context
+    confidence: provisional
+    note: 'The parish catechism promulgated in 1566, which Borromeo (then at Rome) saw through to completion
+      according to Bascape''s first book and which Milan''s parish clergy were to use. Placed on window
+      and subject; the English text was not read for its Milan use, so the fit is provisional. Context,
+      not this world''s own composition.
+
+      '

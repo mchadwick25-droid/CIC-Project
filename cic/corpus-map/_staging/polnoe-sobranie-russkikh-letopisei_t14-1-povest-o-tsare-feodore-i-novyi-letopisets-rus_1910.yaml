@@ -1,0 +1,51 @@
+source_file: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt
+authors_ruled:
+  novyi-letopisets:
+    kind: anonymous
+    evidence: The edition's preface (file lines 73-110) treats the New Chronicle as an anonymous compilation
+      that closes three Nikon Chronicle manuscripts; no author is named on the title page. Treated as
+      a work-entity.
+  povest-o-chestnem-zhitii-tsaria-feodora:
+    kind: anonymous
+    evidence: The title page (file lines 21-22) names the Tale without an author and the preface edits
+      it as an anonymous text from the same manuscripts; treated as a work-entity.
+assignments:
+- row_id: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910--novyi-letopisets-the-new-chronicle-1584-to-the-1630s-in-the
+  work: Novyi letopisets (the New Chronicle), 1584 to the 1630s, in the Archaeographic Commission's 1910
+    edition
+  author: novyi-letopisets
+  locus: chapter 1 at about file line 2702 ('Отъ царствующаго града Москвы'); running heads НОВЫЙ ЛѢТОПИСЕЦЪ
+    to the end of the text (chapter 353 near file line 9500)
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: tradition
+  confidence: assigned
+  note: 'The official Moscow chronicle of the Troubles compiled under Patriarch Filaret''s circle in the
+    1630s, from the Nikon Chronicle manuscripts: the founding of the patriarchate (1589), Patriarch Job,
+    Hermogenes''s resistance in 1611, the Trinity siege, the 1613 election and the Michael-Filaret years.
+    The chronicle voice the census names and the first pass lacked. Readable OCR, yat misread; quote after
+    a page-image check. The 1853 Obolensky print of the same chronicle is on the host, not vendored.'
+- row_id: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910--povest-o-chestnem-zhitii-tsaria-feodora-ivanovicha-the-tale
+  work: Povest' o chestnem zhitii tsaria Feodora Ivanovicha (the Tale of the honourable life of Tsar Feodor
+    Ivanovich), 1910 edition
+  author: povest-o-chestnem-zhitii-tsaria-feodora
+  locus: from the end of the editors' preface (about file line 120) to the start of the New Chronicle
+    at about file line 2702
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: tradition
+  confidence: provisional
+  note: A churchly life of Tsar Feodor (died 1598) that closes the Nikon Chronicle manuscripts; its traditional
+    ascription to Patriarch Job is not stated in this edition's preface as read, so the author is left
+    anonymous here and the row is provisional until a build reads the preface in full.
+- row_id: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910--novyi-letopisets-the-new-chronicle-1584-to-the-1630s-in-the-2
+  work: Novyi letopisets (the New Chronicle), 1584 to the 1630s, in the Archaeographic Commission's 1910
+    edition
+  author: novyi-letopisets
+  locus: same as the first row; the last chapters (from about file line 9000) reach the 1630s
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: antecedent
+  confidence: provisional
+  note: The chronicle ends in the Filaret years, the generation before Nikon; placed on window only, not
+    read for this entry.

@@ -1,0 +1,67 @@
+source_file: gouvea_jornada-do-arcebispo-de-goa-por_1606.txt
+
+authors_ruled:
+  gouvea:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page in the OCR
+      reads "Por Frey Antonio de Gouuea Religioso da mesma Ordem de Santo Agostinho, lente de Theologia, &
+      Prior do Convento de Goa" (file lines 28-48); the host catalogue gives Gouveia, Antonio de, ca 1568-1628,
+      O.E.S.A. A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: gouvea_jornada-do-arcebispo-de-goa-por_1606--jornada-do-arcebispo-de-goa-the-serra-and-the-synod-of-diamper
+    work: "Jornada do Arcebispo de Goa Dom Frey Aleixo de Menezes (Gouvea, Coimbra 1606): the journey to the Serra and the Synod of Diamper"
+    author: gouvea
+    locus: "the contents list with folio numbers at file lines about 400-480 (the synod called at Diamper, fol. 55; its celebration, fol. 63 onward); 'CAPITVLO PRIMEYRO' at 629; book headings in the body at about 617 and 11411; 'CAPITVLO VLTIMO' at 22802; the synod named through the text (for example 23429)"
+    atlas_ids:
+      - st-thomas-christians-under-portuguese-pressure-d
+    role: context
+    confidence: assigned
+    note: >
+      The census's "fullest contemporary description" and the book the acts of Diamper were later
+      translated from (Geddes 1694, Raulin 1745, vendored): the archbishop's journey, the errors
+      and customs the Portuguese found among the Christians of St. Thomas, the synod and the
+      visitation of the churches, compiled at Goa by an Augustinian from the accounts of those
+      present and printed in 1606. The conqueror's own record, hostile and triumphant, in the
+      original Portuguese; the community's practices appear as the things it condemned. The
+      host's OCR text layer is rough (long s read as f, two-column pages interleaved in the
+      contents, accents lost): second witness for exact wording until a passage is checked
+      against the page images on the host's viewer (purl.pt/17493). Role context, not tradition:
+      the voice is the Portuguese archbishop's party, not the community's. No public-domain
+      English exists.
+  - row_id: gouvea_jornada-do-arcebispo-de-goa-por_1606--jornada-do-arcebispo-de-goa-the-serra-and-the-synod-of-diamper-2
+    work: "Jornada do Arcebispo de Goa (Gouvea, 1606): the Jesuit college and prelates of the Serra"
+    author: gouvea
+    locus: "whole file; the Jesuits of Vaipicota and the bishopric of Angamale named from the contents list (file line about 249) onward"
+    atlas_ids:
+      - the-society-of-jesus
+    role: context
+    confidence: provisional
+    note: >
+      An Augustinian's account of a campaign in which the Jesuit college and the Jesuit bishop
+      of the Serra were the instruments. Placed on subject; not read for the Jesuit entry.
+  - row_id: gouvea_jornada-do-arcebispo-de-goa-por_1606--jornada-do-arcebispo-de-goa-the-serra-and-the-synod-of-diamper-3
+    work: "Jornada do Arcebispo de Goa (Gouvea, 1606): the state of the Christians of St. Thomas before 1599 as the Portuguese described it"
+    author: gouvea
+    locus: "Book I, from 'CAPITVLO PRIMEYRO' at file line 629, the chapters on the origin, bishops and errors of the Christians of St. Thomas"
+    atlas_ids:
+      - st-thomas-christians-1300-1517
+    role: context
+    confidence: provisional
+    note: >
+      The Portuguese description of the community's bishops from Babylon, its rite and its books,
+      written to justify their removal; a hostile witness to the state of the church before the
+      window of this entry ended. Placed on subject without a close read.
+  - row_id: gouvea_jornada-do-arcebispo-de-goa-por_1606--jornada-do-arcebispo-de-goa-the-serra-and-the-synod-of-diamper-4
+    work: "Jornada do Arcebispo de Goa (Gouvea, 1606): the Chaldean bishops of Malabar and the break with Babylon"
+    author: gouvea
+    locus: "Book I, from file line 629, the chapters on the bishops sent from Babylon and the synod's renunciation of the patriarch of Babylon"
+    atlas_ids:
+      - church-of-the-east-schism-of-1552
+    role: context
+    confidence: provisional
+    note: >
+      The Portuguese account of how the Indian branch of the Church of the East, under bishops of
+      the Chaldean (Sulaqa) line, was cut off from its patriarch in 1599. Placed on subject; the
+      VI.18 and VI.30 dossiers both leave the Chaldean connection undecided between the two worlds.

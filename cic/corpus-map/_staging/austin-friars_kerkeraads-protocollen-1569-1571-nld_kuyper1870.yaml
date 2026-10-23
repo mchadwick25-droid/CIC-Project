@@ -1,0 +1,41 @@
+source_file: austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870.txt
+
+assignments:
+  - row_id: austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870--kerkeraads-protocollen-der-hollandsche-gemeente-te-londen-1569-1571
+    work: "Kerkeraads-protocollen der Hollandsche Gemeente te Londen, 1569-1571"
+    author: austin-friars
+    locus: "Kuyper's 'Voorrede' from line 68; the consistory register ('Acten', line 196; 'Registeren ofte Consistorieboeck', line 202) to the end"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      The London Dutch stranger church's own consistory minutes for 1569-1571, the refuge
+      community governing itself: admissions, discipline, quarrels, relief of the poor,
+      dealings with Emden and the home churches. The census names exactly this record. Dutch
+      original, clean OCR, primary institutional voice ready to quote once verified. No
+      English translation exists.
+  - row_id: austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870--kerkeraads-protocollen-der-hollandsche-gemeente-te-londen-1569-1571-2
+    work: "Kerkeraads-protocollen der Hollandsche Gemeente te Londen, 1569-1571"
+    author: austin-friars
+    locus: "whole register"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      A foreign congregation living under Elizabeth's settlement and Bishop Grindal's
+      superintendence; its minutes record that relation from the strangers' side. Placed on
+      place and window; not read for its dealings with the English church.
+  - row_id: austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870--kerkeraads-protocollen-der-hollandsche-gemeente-te-londen-1569-1571-3
+    work: "Kerkeraads-protocollen der Hollandsche Gemeente te Londen, 1569-1571"
+    author: austin-friars
+    locus: "whole register"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      The London stranger churches were the working model of presbyterial discipline that
+      English Puritans pointed to. Placed on that historical relation; not read for Puritan
+      matter.

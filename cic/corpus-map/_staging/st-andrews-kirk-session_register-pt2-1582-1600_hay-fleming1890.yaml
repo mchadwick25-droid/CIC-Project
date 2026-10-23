@@ -1,0 +1,19 @@
+source_file: st-andrews-kirk-session_register-pt2-1582-1600_hay-fleming1890.txt
+
+assignments:
+  - row_id: st-andrews-kirk-session_register-pt2-1582-1600_hay-fleming1890--register-of-the-st-andrews-kirk-session-1582-1600
+    work: "Register of the Minister, Elders, and Deacons of the Christian Congregation of St Andrews, Part Second: 1582-1600"
+    author: st-andrews-kirk-session
+    locus: "Hay Fleming's Preface from file line 76; the register from line 2050 (edition page 488, the elders' ratification of the session's statutes, 1582) to the entries of October 1600 ending about line 30080; the Index to both parts from 30088"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      Continues Part First through the years of the presbytery's
+      establishment and the Melvillian struggle with the Crown: the session's
+      dealings with David Black and the King (1596), penalties for
+      blasphemy and swearing, and the sharpening of discipline Hay Fleming
+      notes in his Preface. Same witness and same cautions as Part First
+      (marginal rubrics OCR'd inline). Primary voice, ready to quote once
+      checked against the page image.

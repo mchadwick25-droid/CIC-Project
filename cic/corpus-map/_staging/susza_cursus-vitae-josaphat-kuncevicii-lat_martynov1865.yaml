@@ -1,0 +1,16 @@
+source_file: susza_cursus-vitae-josaphat-kuncevicii-lat_martynov1865.txt
+assignments:
+- row_id: susza_cursus-vitae-josaphat-kuncevicii-lat_martynov1865--cursus-vitae-et-certamen-martyrii-of-josaphat-kuntsevych
+  work: Cursus vitae et certamen martyrii B. Josaphat Kuncevicii (the life and martyrdom of Josaphat Kuntsevych)
+  author: susza
+  locus: title page at about file line 79; the death at Vitebsk near the end (the capital-letter inscription
+    at about line 208 of the printed page numbers, file line near 90 percent); the Polotsk process is
+    cited throughout
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: assigned
+  note: The classic Uniate life of Josaphat, first printed in the seventeenth century (the title page
+    names Susza and refers to the Roman edition), here in the 1865 'editio nova, emendatior et auctior'.
+    It cites witnesses in the Polotsk process. Union-side hagiography and advocacy; the editor's additions
+    are not separated in this file. Latin only.

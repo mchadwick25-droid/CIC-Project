@@ -1,0 +1,18 @@
+source_file: winthrop_journal-v1_hosmer1908.txt
+
+assignments:
+  - row_id: winthrop_journal-v1_hosmer1908--winthrop-s-journal-history-of-new-england-vol-i-1630-1640
+    work: "Winthrop's Journal, 'History of New England', Vol. I (1630-1640)"
+    author: winthrop
+    locus: "the journal from 'Anno Domini 1630, March 29, Monday' at file line 1511 to the end of 1640 at about line 15229; Hosmer's introduction (line 748) and footnotes are editorial"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The governor's own journal of the Massachusetts Bay colony's first
+      decade: the crossing, church gatherings, the Roger Williams and
+      Antinomian (Hutchinson) controversies with the 1637 synod, days of
+      humiliation and providences, in Hosmer's modernised-spelling text
+      with the manuscript's gaps marked. Primary voice; OCR clean. Vol.
+      II (1641-1649) is not vendored; see the dossier's leads.

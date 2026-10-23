@@ -1,0 +1,48 @@
+source_file: pelesz_geschichte-der-union-bd2-deu_1880.txt
+assignments:
+- row_id: pelesz_geschichte-der-union-bd2-deu_1880--geschichte-der-union-der-ruthenischen-kirche-mit-rom-vol-2
+  work: Geschichte der Union der ruthenischen Kirche mit Rom, Vol. 2 (1596-1879)
+  author: pelesz
+  locus: Vorrede at the head; Erstes Capitel (the restored union, 1596) at about file line 1157; Zweites
+    Capitel at 27009; Drittes Capitel at 31527; discussion of the Brest synod from about line 1046
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: assigned
+  note: The standard nineteenth-century history of the union, by a Greek Catholic priest-scholar, quoting
+    documents in German. Volume 2 runs from 1596 to 1879, so the 1596-c. 1700 part is its first chapter.
+    Secondary account from inside the union. German only; no public-domain English found.
+- row_id: pelesz_geschichte-der-union-bd2-deu_1880--geschichte-der-union-der-ruthenischen-kirche-mit-rom-vol-2-2
+  work: Geschichte der Union der ruthenischen Kirche mit Rom, Vol. 2 (1596-1879)
+  author: pelesz
+  locus: Vorrede at the head; Erstes Capitel (the restored union, 1596) at about file line 1157; Zweites
+    Capitel at 27009; Drittes Capitel at 31527; discussion of the Brest synod from about line 1046
+  atlas_ids:
+  - ruthenian-uniate-18th-century
+  role: context
+  confidence: provisional
+  note: Same volume; its eighteenth-century chapters (Catherine II and the partitions, around line 28000
+    onward by the 70 percent sample) fit this entry's window. Placed on the sample, not on a full reading.
+- row_id: pelesz_geschichte-der-union-bd2-deu_1880--geschichte-der-union-der-ruthenischen-kirche-mit-rom-vol-2-3
+  work: Geschichte der Union der ruthenischen Kirche mit Rom, Vol. 2 (1596-1879)
+  author: pelesz
+  locus: Vorrede at the head; Erstes Capitel (the restored union, 1596) at about file line 1157; Zweites
+    Capitel at 27009; Drittes Capitel at 31527; discussion of the Brest synod from about line 1046
+  atlas_ids:
+  - ruthenian-greek-catholic-polotsk-to-galicia
+  role: context
+  confidence: provisional
+  note: Same volume; its nineteenth-century chapters run to 1879. Placed on the contents, not on a full
+    reading.
+
+- work: Pelesz, History of the Union, vol. 2 (passages on Mohyla's rise and metropolitanate)
+  author: pelesz
+  locus: about file lines 14588-14712 and 15438
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: provisional
+  note: A Greek Catholic historian's account (1880) of Mohyla replacing Kopinskii and leading the Orthodox
+    side. Read at the passage; an outside, partisan witness. Provisional because the volume belongs to
+    the Union of Brest thread.
+  row_id: pelesz_geschichte-der-union-bd2-deu_1880--pelesz-history-of-the-union-vol-2-passages-on-mohyla-s-rise-

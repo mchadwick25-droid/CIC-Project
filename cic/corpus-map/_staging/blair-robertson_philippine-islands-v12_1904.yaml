@@ -1,0 +1,47 @@
+source_file: blair-robertson_philippine-islands-v12_1904.txt
+authors_ruled:
+  chirino:
+    kind: metadata-omission
+    evidence: The volume's own contents list reads 'Relacion de las Islas Filipinas (to be concluded).
+      Pedro Chirino, S.J.; Roma, 1604', and the file's leading name slug is the editors' series, so the
+      author of the Relacion is supplied here from the contents list.
+    from_file: blair-robertson_philippine-islands-v12_1904.txt
+assignments:
+- row_id: blair-robertson_philippine-islands-v12_1904--chirino-relacion-part-1
+  work: 'The Philippine Islands, Vol. XII (1601-1604): Chirino''s Relacion de las Islas Filipinas (first
+    part) and the documents of 1601-1603'
+  author: chirino
+  locus: Chirino's Relacion from file line 4110 to the Bibliographical Data at 7925; documents of 1601-1602
+    from 555 and of 1603 from 1946 (Sangley insurrection, Benavides, Acuna)
+  atlas_ids:
+  - philippine-catholicism
+  role: tradition
+  confidence: assigned
+  note: English translation of Pedro Chirino, S.J., Relacion de las Islas Filipinas (Rome 1604), first
+    part. The census names it as the principal early description of Filipino Christian life, written by
+    a missionary. The Spanish original is vendored as chirino_relacion-islas-filipinas-spa_manila1890.txt.
+    Cross-check witness for the Spanish; the English is the editors' translation.
+- row_id: blair-robertson_philippine-islands-v12_1904--chirino-relacion-part-1-2
+  work: 'The Philippine Islands, Vol. XII (1601-1604): Chirino''s Relacion de las Islas Filipinas (first
+    part) and the documents of 1601-1603'
+  author: chirino
+  locus: Chirino's Relacion from file line 4110 to the Bibliographical Data at 7925; documents of 1601-1602
+    from 555 and of 1603 from 1946 (Sangley insurrection, Benavides, Acuna)
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: Chirino was the Society's own procurator and first Jesuit voice in the islands; his Relacion is
+    the Society's account of its Philippine mission to 1604.
+- row_id: blair-robertson_philippine-islands-v12_1904--chirino-relacion-part-1-3
+  work: 'The Philippine Islands, Vol. XII (1601-1604): Chirino''s Relacion de las Islas Filipinas (first
+    part) and the documents of 1601-1603'
+  author: chirino
+  locus: Chirino's Relacion from file line 4110 to the Bibliographical Data at 7925; documents of 1601-1602
+    from 555 and of 1603 from 1946 (Sangley insurrection, Benavides, Acuna)
+  atlas_ids:
+  - mission-born-christianities-kirishitan-japan-kon
+  role: context
+  confidence: provisional
+  note: Jesuit mission account from Asia, a sibling to the mission-born entry's other mission narratives;
+    placed on genre and window.

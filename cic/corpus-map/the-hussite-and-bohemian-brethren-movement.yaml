@@ -173,6 +173,19 @@ works:
     is the editor's inference and not established by a manuscript ascription; treat any quotation
     as 'the tract attributed to Hus by Thomson'. The front matter reads as noise.
   source_file: hus_tractatus-responsivus-lat-eng_thomson1927.txt
+- row_id: lasicki_obraz-jednoty-ceskobratrske-ces_1869--obraz-jednoty-eskobratrsk-lasicki-s-history-book-viii-on-the-2
+  work: 'Obraz Jednoty českobratrské: Lasicki''s history, Book VIII, on the Unity''s customs
+    and orders (Comenius, Leszno 1649)'
+  author: lasicki
+  locus: whole volume; Kapitola I from file line 981; Comenius's Předmluva at line 398
+  role: context
+  confidence: provisional
+  note: The Unity's account of its own customs and orders, published by its last bishop in
+    1649, in a clean 1869 Czech edition. Primary original evidence for the Unity's discipline
+    in its last century, quotable once each wording is checked against the page image. The
+    Latin 1649 original is not vendored. Placed on the title page and chapter headings; the
+    chapters were not read in full.
+  source_file: lasicki_obraz-jednoty-ceskobratrske-ces_1869.txt
 - row_id: laurentius-de-brezova_historia-hussitica-lat-ces_goll1893--laurentii-de-brzezowa-historia-hussitica-with-pulkava-the
   work: Laurentii de Brzezowa Historia Hussitica (with Pulkava, the University chronicle and
     Bartošek in the same volume)
@@ -321,6 +334,33 @@ works:
 
     '
   source_file: unity-of-the-brethren_church-constitution_seifferth1866.txt
+- row_id: unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865--dekrety-jednoty-bratrsk-the-unity-s-decrees-and-synod-ruling-2
+  work: Dekrety Jednoty bratrské (the Unity's decrees and synod rulings)
+  author: unity-of-the-brethren
+  locus: whole volume; contents list at file line 238
+  role: tradition
+  confidence: provisional
+  note: 'The Unity''s own rulings on order and discipline in Czech, from the manuscripts:
+    its origin, the rulings of 1488, 1499 and 1504, the office of bishop, priest and deacon,
+    and the sacraments. Primary original evidence, quotable once each wording is checked against
+    the page image. The contents list shows much of it dates before 1517, so it serves the
+    Hussite world as well. Placed on the Czech contents list; the volume was not read in full.
+    OCR clean.'
+  source_file: unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865.txt
+- row_id: unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890--historie-o-t-k-ch-protivenstv-ch-c-rkve-esk-894-1632-with-th-2
+  work: Historie o těžkých protivenstvích církve české, 894-1632 (with the Waldensian persecution
+    of 1655)
+  author: unity-of-the-brethren
+  locus: whole volume; sections for 1618 onward from file line 7043 ('Léta 1618'); Adam Hartmann
+    named at line 7529
+  role: context
+  confidence: provisional
+  note: The Czech exiles' history of their church's sufferings to the suppression under Ferdinand
+    II, in a clean 1890 edition. Primary original evidence for the suppression, quotable once
+    each wording is checked against the page image. Authorship is the host catalogue's ascription
+    to Comenius with Adam Hartmann; the title page names no author, so the author slug is
+    the Unity. Placed on headings and a year-index read; not read in full.
+  source_file: unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890.txt
 - row_id: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690--the-bohemian-brethren-s-latin-confession-to-king-vladislav
   work: The Bohemian Brethren's Latin Confession to King Vladislav (in the Fasciculus)
   author: unity-of-the-brethren

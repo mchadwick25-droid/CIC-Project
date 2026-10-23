@@ -1,0 +1,59 @@
+source_file: teresa-of-avila_life_lewis1904.txt
+assignments:
+- row_id: teresa-of-avila_life_lewis1904--life
+  work: The Life of St. Teresa of Jesus, written by herself (Libro de la vida), Lewis translation, third
+    edition 1904
+  author: teresa-of-avila
+  locus: whole file; contents table at lines 1340-1660; prologue at line 165; the founding of St Joseph's,
+    Avila, in the chapters from the foundation hindered (line 16984) to the Continuation of the foundation
+    (line 18084 onward)
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: tradition
+  confidence: assigned
+  note: >
+    Teresa's own account, written at her confessors' command, of her life, her prayer and the
+    founding of the first house of her reform. The reform's founder speaking in her own words, in
+    David Lewis's English of the Spanish; ready to quote once each quote is verified against the
+    page image. The Spanish original is vendored as teresa-of-avila_libro-de-la-vida-
+    spa_silverio1915.txt.
+
+- row_id: teresa-of-avila_life_lewis1904--life-tridentine
+  work: The Life of St. Teresa of Jesus, written by herself, the chapters on the Inquisition, the confessors
+    and the Jesuit directors
+  author: teresa-of-avila
+  locus: Zimmerman's introduction on the book held at the Holy Office and denounced to the Inquisition
+    in 1574 (lines 1137-2161); the Jesuit confessors from line 1838
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: 'The same book read for the church it was written inside: the editor''s introduction records the
+    manuscript held at the Holy Office and denounced to the Inquisition, and the text turns on her confessors,
+    Jesuit among them. Placed on word counts and the introduction, not read through, so provisional. A
+    build decides whether this is voice for the Tridentine Church or context.'
+- row_id: teresa-of-avila_life_lewis1904--life-jesuits
+  work: The Life of St. Teresa of Jesus, the passages on her Jesuit confessors and on Francis Borgia and
+    Peter of Alcantara
+  author: teresa-of-avila
+  locus: the Society of Jesus (16 hits, from line 1838); Francis de Borja at line 1850; Peter of Alcantara
+    (19 hits)
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: The Society seen from outside by a woman who consulted its fathers; the editor's note at line
+    1850 says she told everything to St Francis de Borja, who changed one point of her direction. Placed
+    on word counts and that note, so provisional.
+- row_id: teresa-of-avila_life_lewis1904--life-carmelites
+  work: The Life of St. Teresa of Jesus, the passages on the mitigated Rule and the order of Our Lady
+    of Carmel
+  author: teresa-of-avila
+  locus: passages naming Mount Carmel (14 hits) and the order, read from the contents table
+  atlas_ids:
+  - the-carmelites
+  role: context
+  confidence: provisional
+  note: The reform's founder describing the mitigated order she left and the primitive Rule she meant
+    to restore. The Carmelites entry covers c. 1206-1300; this is a sixteenth-century reception of that
+    order, so context and provisional. Placed on word counts only.
