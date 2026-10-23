@@ -3,6 +3,17 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: russian-church-nikon-to-holy-synod
 works:
+- row_id: kyiv-synopsis_sinopsis-chu_1762--sinopsis-ili-kratkoe-opisanie-ot-razlichnykh-letopistsev-the-2
+  work: Sinopsis, ili kratkoe opisanie ot razlichnykh letopistsev (the Kyiv Synopsis), St
+    Petersburg printing of 1762
+  author: kyiv-synopsis
+  locus: same as the Kyiv row
+  role: context
+  confidence: provisional
+  note: A Kyiv history that the Russian state reprinted at St Petersburg in 1762, so evidence
+    of the Kyivan revival's reach into Russian church and state history after 1652. Placed
+    on that reprint, not on a reading of the text for the Nikon controversy.
+  source_file: kyiv-synopsis_sinopsis-chu_1762.txt
 - row_id: olearius_voyages-and-travels-of-the-ambassadors_davies1662--the-voyages-and-travels-of-the-ambassadors-from-the-duke-of-2
   work: The Voyages and Travels of the Ambassadors from the Duke of Holstein to Muscovy and
     Persia (Olearius, John Davies's English, 1662)

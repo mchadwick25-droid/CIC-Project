@@ -463,6 +463,43 @@ works:
     diacritics; check wording against the page image. The Tridentine placement is on the author''s
     side only and is provisional.'
   source_file: slavata_pameti-1608-1619-dil1-ces_jirecek1866.txt
+- row_id: teresa-of-avila_book-of-foundations_mason1909--foundations-tridentine
+  work: The Book of the Foundations, the chapters naming the Council of Trent and the bishops
+    who enforced enclosure
+  author: teresa-of-avila
+  locus: Teresa's own reference to the Council of Trent sanctioning endowments at line 5528;
+    Trent in Mason's notes at lines 7051, 7102, 8951
+  role: context
+  confidence: provisional
+  note: At line 5528 Teresa reports her confessor telling her that, since the Council had
+    sanctioned endowments, she should found a convent with revenues; Mason's notes cite the
+    Council on enclosure and licence. Placed on those passages and word counts, not read through,
+    so provisional.
+  source_file: teresa-of-avila_book-of-foundations_mason1909.txt
+- row_id: teresa-of-avila_interior-castle_stanbrook1912--interior-castle-tridentine
+  work: The Interior Castle, the passages on Luther and the Lutherans and on the Society of
+    Jesus
+  author: teresa-of-avila
+  locus: the epilogue prayer at line 14486 asking light for the Lutherans
+  role: context
+  confidence: provisional
+  note: 'One line only: in her epilogue Teresa asks her nuns to pray for the Church and to
+    give light to the Lutherans. Weak placement, kept provisional for a build to rule on.'
+  source_file: teresa-of-avila_interior-castle_stanbrook1912.txt
+- row_id: teresa-of-avila_life_lewis1904--life-tridentine
+  work: The Life of St. Teresa of Jesus, written by herself, the chapters on the Inquisition,
+    the confessors and the Jesuit directors
+  author: teresa-of-avila
+  locus: Zimmerman's introduction on the book held at the Holy Office and denounced to the
+    Inquisition in 1574 (lines 1137-2161); the Jesuit confessors from line 1838
+  role: context
+  confidence: provisional
+  note: 'The same book read for the church it was written inside: the editor''s introduction
+    records the manuscript held at the Holy Office and denounced to the Inquisition, and the
+    text turns on her confessors, Jesuit among them. Placed on word counts and the introduction,
+    not read through, so provisional. A build decides whether this is voice for the Tridentine
+    Church or context.'
+  source_file: teresa-of-avila_life_lewis1904.txt
 - row_id: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863--the-union-of-brest-documents-1595-1596-2
   work: 'The Union of Brest documents, 1595-1596: the Ruthenian bishops'' articles, their
     professions of faith, the bull Magnus Dominus et laudabilis (Clement VIII) and the acts

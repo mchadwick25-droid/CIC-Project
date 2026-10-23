@@ -15,3 +15,15 @@ assignments:
     is legible with occasional letter-level misreads. Word-form coverage against a clean Latin vocabulary
     is 0.55; the Spanish, Italian and Portuguese passages and the notes lower it, so the figure is a comparison
     across files and not a measure of accuracy.'
+
+- row_id: ignatius-loyola_epistolae-et-instructiones-tomus06-lat_1907--ethiopian-mission
+  work: Ignatius's letters of 1553-1554 on the Ethiopian mission
+  author: ignatius-loyola
+  locus: Regest of a letter of 28 December 1553 on the Ethiopian mission and the choice of companions,
+    file lines 5036-5046; further Ethiopia passages 4392-4417, 5038-5078, 5159-5182
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: provisional
+  note: 'The Society''s founder organising the mission to Ethiopia (regest of 28 December 1553). Read
+    lines 5036-5046 only. Tier: same time-place.'

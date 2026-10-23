@@ -25,3 +25,15 @@ assignments:
   note: Jesuit chronicle of the 1550s on the college at Cranganor and work among the Malabars. Same place,
     earlier. Latin. Not read through.
   row_id: polanco_chronicon-v6-lat_1898--polanco-chronicon-volume-6
+
+- row_id: polanco_chronicon-v6-lat_1898--ethiopian-mission
+  work: 'Polanco''s Chronicon, Tomus 6: the Jesuit mission to Ethiopia'
+  author: polanco
+  locus: Ethiopia passages at file lines 807-909 (the patriarch's faculties, 807-813 read), 2167-2193,
+    42704-42855, 43853-44098, 44730-44919 (word search; not read in full)
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: provisional
+  note: 'Jesuit chronicle of the mission, from outside, including the faculties Rome gave the patriarch
+    of Ethiopia (lines 807-813). Tier: same time-place.'

@@ -8657,3 +8657,151 @@ queue:
     verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched and head of the OCR
       read'
     status: not-yet-downloaded
+
+  - title: The Portuguese Expedition to Abyssinia in 1541-1543 as narrated by Castanhoso
+    author: Miguel de Castanhoso (with Bermudez and Correa)
+    translator: R. S. Whiteway
+    year: 1902
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: Eyewitness Portuguese account of the campaign that ended the Gragn invasion; English. Found by
+      archive.org title search and read on the host.
+    url: https://archive.org/details/portugueseexpedi00whitrich
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of metadata (possible-copyright-status NOT_IN_COPYRIGHT) and the OCR, five-point
+      sample clean, 2026-10-23
+    status: downloaded
+    vendored_as: castanhoso_portuguese-expedition-to-abyssinia_whiteway1902.txt
+  - title: The Travels of the Jesuits in Ethiopia
+    author: Balthazar Tellez (title-page attribution)
+    translator: anonymous
+    year: 1710
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: English account of the Jesuit mission; the Jesuit century in English. Two scans compared; the microfilm
+      scan with the long s kept is vendored.
+    url: https://archive.org/details/bim_eighteenth-century_the-travels-of-the-jesui_telles-balthazar_1710
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of metadata and the OCR, sampled, 2026-10-23
+    status: downloaded
+    vendored_as: telles_travels-of-the-jesuits-in-ethiopia_1710.txt
+  - title: A Voyage to Abyssinia
+    author: Jerome Lobo
+    translator: Samuel Johnson
+    year: 1735
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: Eyewitness Jesuit account of Ethiopia from 1624 to the expulsion of 1634; English (Johnson from
+      Le Grand's French).
+    url: https://archive.org/details/avoyagetoabyssin01436gut
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of metadata (possible-copyright-status NOT_IN_COPYRIGHT) and the Gutenberg
+      text, 2026-10-23
+    status: downloaded
+    vendored_as: lobo_voyage-to-abyssinia_johnson1735.txt
+  - title: Ad suam Historiam Aethiopicam antehac editam Commentarius
+    author: Hiob Ludolf
+    translator: none (Latin)
+    year: 1691
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: Prints the Confession of Faith of King Claudius (Galawdewos) in Ge'ez and Latin. Second witness
+      for scan quality.
+    url: https://archive.org/details/bub_gb_H64UdMnOAYoC
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of metadata (Public Domain Mark 1.0) and the OCR, 2026-10-23
+    status: downloaded
+    vendored_as: ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt
+  - title: Historia regis Sarsa Dengel (Malak Sagad), with the Historia gentis Galla
+    author: Royal chronicle; ed. Conti Rossini and Guidi
+    translator: Conti Rossini and Guidi (French)
+    year: 1907
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: The Ethiopian royal chronicle of 1563 onward in Ge'ez and French, and the Galla history. The nearest
+      printed royal chronicle to the window found on a reachable host.
+    url: https://archive.org/details/historiaregissar00cont
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of metadata and the OCR, five-point sample, 2026-10-23
+    status: downloaded
+    vendored_as: sarsa-dengel_historia-regis-sarsa-dengel-gez-fra_conti-rossini1907.txt
+  - title: Geschichte der Galla
+    author: Zenahu la-Galla (anonymous monk)
+    translator: A. W. Schleicher (German)
+    year: 1893
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: German translation of the sixteenth-century monk's report on the Galla invasion.
+    url: https://archive.org/details/geschichtederga00schlgoog
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of metadata (NOT_IN_COPYRIGHT) and the OCR, 2026-10-23
+    status: downloaded
+    vendored_as: zenahu-la-galla_geschichte-der-galla-deu_schleicher1893.txt
+  - title: Historia Aethiopiae, Liber III et IV
+    author: Pedro Paez
+    translator: none (Portuguese, ed. Beccari)
+    year: 1906
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: Jesuit history of the mission under Za Dengel, Yaqob and Susenyos.
+    url: https://archive.org/details/rerumaethiopica01beccgoog
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of metadata (NOT_IN_COPYRIGHT) and the OCR, five-point sample, 2026-10-23
+    status: downloaded
+    vendored_as: paez_historia-aethiopiae-liber-3-4-por_beccari1906.txt
+  - title: Expeditionis Aethiopicae Liber I et II
+    author: Afonso Mendes
+    translator: none (Latin, ed. Beccari)
+    year: 1908
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: The Catholic patriarch's own account of his mission.
+    url: https://archive.org/details/rerumaethiopica00beccgoog
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of metadata (NOT_IN_COPYRIGHT) and the OCR, five-point sample, 2026-10-23
+    status: downloaded
+    vendored_as: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt
+  - title: Histoire de la conquete de l'Abyssinie (Futuh al-Habasha)
+    author: Arab-Faqih
+    translator: Rene Basset (French)
+    year: 1897
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: The Muslim chronicle of the Gragn campaigns, in French. The Arabic is not in the scan.
+    url: https://archive.org/details/histoiredelacon00bassgoog
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of metadata (NOT_IN_COPYRIGHT) and the OCR, sampled, 2026-10-23
+    status: downloaded
+    vendored_as: arab-faqih_futuh-al-habasha-conquete-de-labyssinie-fra_basset1897.txt
+  - title: Historia Aethiopiae, Liber V-VIII
+    author: Manuel de Almeida
+    translator: none (Portuguese, ed. Beccari)
+    year: 1907
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: Almeida's Jesuit history of Ethiopia, books V to VIII (RAS vol. VI). Verified and readable; not
+      vendored in this pass to keep the Jesuit side to three witnesses. Borgia's letters (vol. 5) cite Almeida's
+      history as the source for the 1555 correspondence.
+    url: https://archive.org/details/rerumaethiopica00unkngoog
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of metadata (NOT_IN_COPYRIGHT) and the OCR, five-point sample readable Portuguese,
+      2026-10-23
+    status: not-yet-downloaded
+  - title: A New History of Ethiopia (English translation of Ludolf's Historia Aethiopica)
+    author: Hiob Ludolf
+    translator: J. P. (Gent.)
+    year: 1684
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: 'The English companion to Ludolf''s Latin History (London, 1684). The OCR was fetched and searched:
+      it mentions Claudius only in passing and does not print the Confession, which is in the Commentarius.
+      Not vendored.'
+    url: https://archive.org/details/bub_gb_buNBAQAAMAAJ
+    rights_basis: pd-us-by-date
+    verified_by: 'direct fetch of metadata (Public Domain Mark 1.0; published London: Samuel Smith, 1684)
+      and of the OCR, searched for Confession and Claudius, 2026-10-23'
+    status: not-yet-downloaded
+  - title: Travels to Discover the Source of the Nile (Gutenberg, the volume with the chapter on Claudius,
+      or Atzenaf Segued)
+    author: James Bruce
+    translator: none (English)
+    year: 1790
+    world: ethiopian-christianity-gragn-to-fasilides
+    why: Bruce's eighteenth-century retelling of the Ethiopian reigns, with a chapter headed 'Claudius,
+      or Atzenaf Segued' (contents list, file lines 189-196). A reception witness, not a source from the
+      window; it does not print the Confession (searched the file for Confession, Claudius). Verified on
+      the host; contents not read beyond that.
+    url: https://archive.org/details/travelstodiscove54181gut
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of metadata (NOT_IN_COPYRIGHT; Gutenberg) and the text, searched for the Claudius
+      chapter, 2026-10-23
+    status: not-yet-downloaded

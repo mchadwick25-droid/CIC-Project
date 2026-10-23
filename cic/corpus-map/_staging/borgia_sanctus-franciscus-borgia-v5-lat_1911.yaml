@@ -33,3 +33,15 @@ assignments:
     Filed under `borromeo` for the 806 letter; the 713 letter is Borgia''s.
 
     '
+
+- row_id: borgia_sanctus-franciscus-borgia-v5-lat_1911--ethiopian-rites-consultation
+  work: 'Borgia v5: the Ethiopian mission under Pius V'
+  author: borgia
+  locus: file lines 1587-1662 and 1792-1838 (word search); the editor's note at about line 1587 cites
+    Oviedo's letter to Pius V of 15 June 1567 and Almeida lib. IV cap. XVII and Paez lib. III cap. VIII
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: provisional
+  note: 'Editor''s note on Oviedo''s letter to Pius V of 1567 about not abandoning the Ethiopians, and
+    a pointer to Almeida and Paez where the letter is printed. Read lines 1580-1590 only. Tier: same time-place.'

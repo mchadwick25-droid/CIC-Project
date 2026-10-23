@@ -1,0 +1,11720 @@
+Title: Elementa linguae Chaldaicae, quibus accedit series Patriarcharum Chaldaeorum, a Josepho Guriel exarata
+Creator: Joseph Guriel (Giuseppe Guriel), Chaldean Catholic priest, Propaganda Fide, Rome
+Publisher: Rome: typis S. Congregationis de Propaganda Fide
+Publication Date: 1860
+Rights: Public Domain (published 1860; public domain by date; host carries the Creative Commons Public Domain Mark 1.0)
+Language: lat
+Source: Internet Archive item bub_gb_qLliusaobBQC, file bub_gb_qLliusaobBQC_djvu.txt, fetched directly by the library/source-research thread (Era VII session, one-world agent for church-of-the-east-schism-of-1552), 2026-10-23; host rights statement: licenseurl http://creativecommons.org/publicdomain/mark/1.0/ (contributor National Central Library of Rome, Google-digitised). The same book at Harvard is item elementalinguae00gurigoog (host: NOT_IN_COPYRIGHT; OCR sampled and found noisier, not vendored).
+Provenance note: Header prepended; the OCR text follows unchanged (no characters altered; the raw file contains 0 long-s glyphs, so no long-s normalisation was done). Rights basis restated: a Rome imprint of 1860, the year read in the OCR of the title page ("MDCCCLX"), is public domain by date, and the host marks the item Public Domain.
+Content note: A grammar of Chaldean Syriac followed by "Patriarchae Chaldaeorum", Guriel's numbered series of the patriarchs of the East from the first to the Chaldean Catholic line, with footnotes on each Roman profession of faith and confirmation (the series begins at file line 7001; the line from Sulaka in 1553 through Abdisho IV, Simeon IX, Elias V and Elias VI is at file lines about 8720-8870). The list is the Chaldean Catholic account of its own succession, in Latin with Syriac facing. The grammar sections are mostly Syriac script and do not read in the OCR. SECOND WITNESS for exact wording: the Latin of the series reads cleanly where sampled, but the Syriac is garbled throughout; sampled at five points; verify any quote against the page images (Mark's OCR ruling, 2026-09-25).
+---
+
+
+
+
+
+
+mmm linguae cHEDiticiiE 
+
+OUIBUS ACCEDIT 
+
+P\TRI4RGHARUM GHALDAEORUUI 
+
+A ' 
+
+* 
+
+EXARATA 
+
+
+
+« 
+
+I 
+
+
+
+ROMAE 
+
+TTPK S. COKGREGATIOIflS DB PBOPAGARDA PIDK 
+
+
+MDCCCLX. 
+
+
+
+
+JUmw gspc^s 
+
+
+
+« 00^3 
+
+^>09/3 
+
+sAJ»0S ) ,T. jT .n ^3^i^3 
+
+vAJ-. 3?\ 
+
+
+
+• SM9 «axa 
+
+
+]Lao «.«aoomaia 
+• • • # 
+
+* 
+
+)^? 
+
+
+u&a2 
+
+
+Digiiized by Googie 
+
+
+
+Ulmo ac Rmo Praesuli 
+
+
+THEBARUM ARCHIEPISCOPO 
+
+^ . AS. CONSILII DE PnOPAGANDA FIDE 
+
+' A SECRETIS 
+
+
+(3(DSSl22iH3 
+
+STUDIORUM MODERATORI 
+
+y,"^OSEPHUS GURIEL PERSA-CHALDAEUH 
+V ' D. D. D 
+
+
+Digitized by GoogI 
+
+
+suo BENEVOLO LECTORI 
+
+
+I. GIRIEL 
+
+
+Chaldaica lingua , cum sit omnium lingua- 
+mm princeps, et mater (1), in viginti se- 
+ptem Provinciis , vel familiari locutione , vel 
+
+
+(4) Haec habet Bar-hehraeus de antiquitate 
+linguae Chaldaicae ^ 
+
+oHo jiXAdOMO 
+
+oSJ3tt2a i^I‘lsDaX 
+
+iscni 3^ ) 
+
+]x£^s 2bcn rp2 ^ 
+
+• loei uiXm(Vc« o\s 
+
+•* 
+
+2^ • 9iVo^A0k ol' 
+
+
+Digilized by Google 
+
+
+— 6 — 
+
+
+in S. liturgia viget , pro diversitate Provincia- 
+rum, vel Populorum, vel potius locorum (1), 
+in quibus adhibetur, varia, et diversa sortita 
+est nomina ; ita ut pro modo , et ratione iis- 
+dem in Provinciis eandem scribendi, diversam 
+sui characteris formam obtinuit. 
+
+Forma characteris , quae Estranghela 
+
+(2) nuncupatur , omnium , uti Eru- 
+diti notant , est antiquissima ; fonnain vero 
+paululum minorem , parumque ab eodem 
+
+odoi oxsa 
+
+i , 
+
+Jjolis oacTi • Doctissimus sohensis 
+haec scribebat in Praefatione carminum ; 
+
+0120 • KjcI otOPi %Licsja 
+
+M ^ j> ' m 0 f •* 9 I ' *• 
+
+ffebers±\ fVidJi yo2o '"pol' ,^1 1^2' 
+
+iooji •^ots.2]L4 
+
+]i'6jpX ^zjnf^2 Tigris, l^pen. orat, de an- 
+
+tiq. liiig. chnld. Amy. praelud. I . ad Grarnm. 
+
+(1) Theodoretns , et alii. 
+
+(2) ^T^ayyaXid quatenus nodosis , et to/'- 
+tuosis partibus constat. 
+
+
+Digilized by Google 
+
+
+
+— 7 — 
+
+Estranghelo dissimilem, 6b majorem scriben- 
+di facilitatem , Chaldaei inde traxerunt ; ter- 
+tia denique forma, quae rotundis, atque orbi- 
+cularibus exaratur , syra , seu syriaca , vel 
+melius Assyriaca appellatur, quaeque in Pro- 
+vincia Syriae usurpatur (1). 
+
+Quaestiones vero , quae tractantur de ista 
+re , aut argumenta , quae ad id, quod supe- 
+rius notavi , probandum afferuntur , relin- 
+qtlam ; cum mea' mens ea sit in istis pagi- 
+nulis , in medium proferre ideam tantum , 
+hon vero rationes , quae de ejus antiquitate, 
+amplitudine , facilitate , et etiam necessitate 
+afferri solent ; utilitatem vero, uti ajebat Wal- 
+tonus (2) magnam adferri inde liquet ,| quod 
+omnis aliarum Nationum sapientia ex Chal- 
+daeis originem duxerit, omnesque scientiae ab 
+Oriente in reliquas mundi partes deriventur: 
+ut Latini ex Graecis, sic Graeci ,• aliique ex 
+Chaldaeis , sive Assyriis , quod idem sonat , 
+scientias omnes, quas postea excoluerunt, pri- 
+mo acceperunt; unde illud oraculi apud lu- 
+stinum orat, paraen. ad Gentes. 
+
+* Solis Chaldaeis sapientia cessit, Hebraei, 
+
+Ingenitum Regehi, mente deumque colunt. 
+
+1 ' ' ' 
+
+4 , 
+
+(4) Hide Zanoli. Praef. ling. Chald, 
+
+(2) In Prolog. de aiiliq. Chald. ^ ‘ 
+
+
+Digitized by Googie 
+
+
+_ik 
+
+
+LITTERAE CHALDAICAE 
+
+
+Forma rotonda 
+
+
+Forma minor 
+
+
+Forma maior 
+
+
+
+
+Potestaa 
+
+
+Olaph 
+
+
+a 
+
+2 
+
+Bet 
+
+
+b 
+
+JS 
+
+Gomal 
+
+
+g g^ 
+
+• \ 
+
+Ddlad 
+
+9 
+
+• 
+
+D 
+
+3 
+
+• 
+
+He 
+
+O» 
+
+He 
+
+oi 
+
+Wau 
+
+o 
+
+Vu 
+
+O 
+
+Zain 
+
+f 
+
+/ 
+
+1 
+
+Het 
+
+
+hh 
+
+M 
+
+Tet 
+
+\ 
+
+i 
+
+Tb 
+
+V 
+
+Jud 
+
+- 
+
+i 
+
+Ik» 
+
+Coph 
+
+
+ch 
+
+
+
+
+
+Pronantiatio , qoae 
+eitat in Syria 
+
+
+
+
+Eadem pronuntiatio 
+
+
+AlHp 
+
+Bet 
+
+Gimmal 
+
+Dallacl 
+
+
+He 
+
+WAu 
+
+Zen 
+
+Hhet, 
+
+T^t 
+
+Jud 
+
+Oiap 
+
+
+G 
+
+1 
+
+
+
+
+
+
+Digitized by Googlc 
+
+
+n /f F 
+
+
+
+Lomad 
+
+
+1 
+
+A 
+
+Lammad 
+
+X 
+
+Mim 
+
+
+in 
+
+*p ao 
+
+Mtm 
+
+
+Nun 
+
+
+n 
+
+
+Nun 
+
+j 
+
+Semchat 
+
+
+s 
+
+$b 
+
+Sfmchat 
+
+btk 
+
+Eh 
+
+X 
+
+eli 
+
+X 
+
+Eeh 
+
+X 
+
+Phe 
+
+a 
+
+P 
+
+a 
+
+Pe 
+
+X 
+
+Tzocle 
+
+JJ 
+
+ss 
+
+S 
+
+Sadc 
+
+
+Kopri 
+
+VO 
+
+K 
+
+M 
+
+Kdp 
+
+o 
+
+Rise 
+
+> 
+
+R 
+
+- « * 
+
+3 
+
+Res 
+
+• 
+
+Sciri 
+
+A. 
+
+sc 
+
+X 
+
+Scln 
+
+>•* ■ 
+
+. z 
+
+Tau 
+
+xL 
+
+L 
+
+
+Tau 
+
+JS 
+
+
+
+I 
+
+
+Digitized by Googie 
+
+
+— 10 — 
+
+Omnes litterae inter se coniunctae hoc 
+modo leguntur • 
+
+scilicet , Abgat. Hawaz • 
+
+Hattai. Clialmam. Saplias. Rarsciat. 
+
+Litterarum sign i f icat io . 
+
+Omnes literae Chaldaicae suas habent pro- 
+prias significationes : etenim 2 si ipsius origo 
+ducatur ab ilpa? navem denotat; si ab 
+
+J^2‘alpa, numerum milliarium ; si vero ab 
+
+<Si^ 2 ‘ allep , docere, erudire significat. du- 
+cit originem a baUa, i. e. domus. v\a 
+
+^X^J^gammla , i. e. Camelus ; 3 a dia i. e. 
+eduxit, extraxit, o) vela 2 ct he , i. e. uti- 
+
+• * 
+
+que , vel 2di ha i. e. ecce. o a o6 Wau, i. e. 
+nux avellana. 5 a ZaYna i. e. arma, 
+
+a haita , i. e. viva ( genus fem. ) , a 
+
+niscritudo corporis. a l 6 a^ 
+iuda , i. e. puer. <rpk a chaph, i. e. in- 
+
+
+Digitized by Google 
+
+
+
+— II 
+
+
+curvatus est. Ct a aaeui liued erudivit. ( unde 
+Catechumeni). "jSie ab }>o/ imma, 
+i. e. mater. ^ a ^ nun, i. e. piscis. iSb a 
+smach , i. e. discubuit, appropinqua- 
+
+
+vit. V. a in , i. e. oculus , fons. vS a 
+
+jlijis paija i. e. convenit , decet. ^ a 
+Zhajda i. e. piscatus, vc a jlspn Kiipa , i. e. 
+Simia. 3 a 1^3 riscia , i. e. caput. «X a jiix 
+
+scinna , i. e. dens. ab itta , i. e. venit. 
+
+«« 
+
+
+Litterarum divisio. 
+
+Omnes istae litterae iuxta organorum di- 
+versitatem in quinque classes distribuuntur ; 
+<{uacdam dicuntur gagarjata , i. e. 
+
+gutturales , quia ad illas proferendas , gut- 
+ture potissimum egemus, et sunt 
+Quaedam vero vocantur U^O dlisciana, i. e. 
+
+linguales, et sunt ^ s!^3* Quaedam ap- 
+
+pellantur h^9 dscinne, i. e. dentales, et .sunt 
+
+
+Digitized by Google 
+
+
+X 3 ^ vib 9 ; quae etiam mascirkan- 
+
+jata, i. e. sibilantes, vel rulianajata , 
+
+i. e. spirituales vocantur. Quaedam vocantin- 
+]Lxm 3 dliicca, i. e. Palati , et sunt us t£].x • 
+
+Quaedam dicuntur sipvatanajata , 
+
+i. e. labiales, et sunt .3 o ao a • Quaedam vo- 
+cantur )l4*x.Hae mkascjata , i. e. durae , quia 
+littera, super quam posito puncto ^.a^, aspere, 
+et dure pronuntiatur; illud punctum Chal- 
+daei appellant ]Uxp-a Rusciaja , i. e. durities. 
+Quaedam vero vocantur mrachata , 
+
+i. e. molles , quia littera, sub qua punctum 
+ponitur ^.3^ , molliter pronuntiatur; illud vero 
+punctum a Chaldaeis appellatur jlsoips ru- 
+caha , i. e. lenitas. 
+
+Litteranmi valor. 
+
+f 
+
+Chaldaei , sicut et aliae Semiticae Natio- 
+nes , in numerando iisdem utuntur litteris ; ut 
+1 unum ; vja diio ; vj^tria ; s qnattior etc. u.s- 
+
+
+Digitizec by Googk' 
+
+
+— 13 — 
+
+que ad litteram m jud , quae decem signihcat ; 
+Afp viginti ; triginta ; ‘*po quadraginta etc. 
+usque ad litteram 03 Rop , quae numerum 
+centenarium denotat , sive centum ; a biscen- 
+tum ; *Cx tercentum ; quatuorcentum ; et 
+ita deinceps ponitur unitas cum decade tali 
+modo, ]L 11; «03a 12; 15 etc. (1) usque 
+
+ad vigesimum numerum exclusive ; et ad de- 
+notandum autem numerum vigesimum pri- 
+mum, ponitur litera l , quae unitatem signi- 
+ficat cum cfp quae vigesimum numerum 
+
+denotat ita Isk 21; A& 22; 25; ^ 24 etc. 
+
+ita 51; 52; 55 etc. ita ]lao 41; iSao 42; 
+
+45 etc. ita ]ii 51 ; sa 52; 55 etc. ita ]iso 
+
+61; isSb 62; 65 etc ita ]Lo 101; aa 
+
+102; 105 etc. ita 2a 201 ; ss 202; ^a 205 etc. 
+
+
+(1) Hebraei tantummodo numerum 15 ita 
+exprimunt. 
+
+
+Digitized by Googie 
+
+
+
+— li — 
+
+ita )x 301; ax 30^; 303 etc. ita 404; 
+
+aft» 402; 405 etc. igitur annus praesens 
+
+(18()0) Chaldaice exprimeretur so^2 ; et an- 
+nus 18G1 ]sb£il; 1862 sa^; 1863 etc. 
+ita '1870 xaZ ; 1871 Jxai; 1872 2; 1873 
+
+etc. ita 1880 as2; 1881 ]iaaZ ; 1882 
+aaa2 etc. ita 1890 ^2; 1891 2^; 1892 
+a^2; 1893 etc. 
+
+Ad alios vero centenos , et millenos prae- 
+dictis litteris numerandos , nec non myria- 
+das , quas vocant 2K6a5 ribbvata , sapientes 
+Chaldaei hunc excogitarunt modum : scilicet 
+ut centenos varios signiGcent , apponunt pun- 
+ctum super istas novem literas tali modo iJ 
+
+100; A 200; 300; ao 400; ^ 500; a 
+
+600; ^ 700; S 800; ^ 900. Ut vero varios mil- 
+lenos significent, ponunt sub littera quandam 
+lineolam versus dexteram inclinantem , ut 2 
+
+
+Digilized by C^oogl'' 
+
+
+13 — 
+
+
+iOOO; iS 2000; 3000 etc. ut vero iiiyria- 
+
+t 
+
+das significent subscribunt litterae horizon- 
+talem lineolam ; ut l 10000; 20000; 
+
+30000 etc. usque ad litteram jud quae si- 
+gniHcat^ 100000; ^200000; A 300000 etc. 
+usque ad litteram b, quae denotat n 1000,000; 
+? 2000,000; i 3000,000; 4000,000; porro 
+
+cum varia myriadum millia signiticare cu- 
+piunt , ponunt sub praedictis litteris duas li- 
+neolas in principio convergentes , in fine vero 
+divergentes hoc modo Z 10,000,000; .s 
+
+20.000. 000; ^30,000,000; etc. usque ad lit- 
+teram jud , quae denotat 100,000,000; 
+
+200.000. 000 etc. usque ad litteram b . quae 
+denotat b 1000,000,000; a 2000,000,000; x 
+
+•3000,000,000; fk 4000,000,000. 
+
+De humeralibus. 
+
+■ » 
+
+Primus igitur simplex )L\^»x,a , et est tri- 
+plicis generis , scilicet masculini , foerninini, 
+et communis ’ 
+
+
+
+
+— 
+
+16 — 
+
+
+
+ut sequitur 
+
+
+geniis 
+
+mas. 
+
+'genus foem . , 
+
+/. rf* 
+
+lUlUS 
+
+2^ 
+
+una 
+
+
+duo 
+
+^(Vsa; 
+
+duae 
+
+
+tres 
+
+- 
+
+tres 
+
+JxssI' quatuor 
+
+0 w 
+
+quatuor 
+
+' 0 
+
+quinque 
+
+\XJ0O0* 
+0 « 
+
+0 
+
+quinque 
+
+
+sex 
+
+Aob 
+
+00 
+
+sex 
+
+
+septem 
+
+0 
+
+septem 
+
+
+octo 
+
+
+octo 
+
+
+novem 
+
+(XxA» 
+
+• 
+
+novem 
+
+isSbX 
+
+•« 
+
+decem . 
+
+
+decem 
+
+• 
+
+Hinc itaque usque ad numerum viginti , 
+minor numerus praecedit maiorem. 
+
+
+1. Genus masc. 
+
+1 
+
+
+• • # 
+
+undecim 
+
+
+
+aA-VaA» 
+
+duodecim 
+
+
+
+
+Digitized by Googie 
+
+
+
+— 17 — 
+
+tredecim 
+
+• « • 
+vel hseXjai»2’ quatuordecim 
+
+aibliftiryM vel quindecim 
+
+SA»vAi{^ vel aailiAx sexdecim 
+• • • • 
+
+vel septemdecim 
+
+ai^Vv^C^ vel anxiae octodecim 
+
+• t * * 
+
+ift>a\\jcAi vel hteXi.^ novemdecim 
+
+« t * * 
+
+2 . Genus foem. 
+
+2aSb\,^ undecim 
+duodecim 
+
+• w • « 
+
+tredecim 
+
+« * 
+
+2aluKs32' quatuordecii»^ 
+
+« «» « * ^ 
+
+23ftXXMM quindecim 
+sexdecim 
+
+: ” ■ 
+
+Ziaxjox septemdecim 
+• •• • * 
+
+
+2 
+
+
+
+— 18 — 
+
+
+IsSbxxte^ octodecim 
+/ •* • 
+
+2BsoXjil^ novemdecim 
+
+
+• •• • 
+
+
+Genus commune. 
+
+
+Tigmti 
+triginta 
+quadraginta 
+quinquaginta 
+
+
+
+sexaginta 
+
+septuaginta 
+
+octoginta 
+
+nonaginta 
+
+Hinc vero usque ad centum maior nupfie- 
+rus praecedit minorem addita copulativa (o 
+Wau) ut 
+
+vel viginti et unus, et una 
+
+^{^3 vel - duo , et duae 
+
+
+Digitized byGoogIe 
+
+
+— 19 — 
+
+
+vel ^l^A^d - et tres 
+
+vXss2b vel K^s^b - et quatuor 
+
+ou^o vel ]x^mo - et quinque 
+
+Aoco vel %^o k-^3$bx - et sex 
+
+0»d vel ]bk^o - et septem 
+
+d vel ]LiA»f^d - et octo 
+
+oJiC^d vel - et novem 
+
+Et eodem modo eandem viam sequuntur nu- 
+meri maiores , ut Iz»»6 vel SmO 2]bio centum 
+unus , et una 
+
+vel iisf^d centum duo vel duae etc. 
+\/ ♦ \/ • 
+
+b^d vel isSbJKo Jjio centum et decem 
+2sfiA^dvel a^^dijLio centum et undecim 
+centum et viginti 
+centum et triginta etc. 
+
+2;^d vel ^mO )i^^'mille et unus, vel una. 
+
+
+
+
+
+Genus commune. 
+
+ter centum 
+quatercentum 
+]icx^ quinquies centum 
+sexies centum 
+iJaixJM septies centum 
+octies centum 
+novies centum 
+
+Notandum est , quod quando volumus di- 
+cere simpliciter unum centum vel centum , 
+quod hic idem sonat , dicimus 2):» ' vel 
+vel plur. bis centum , vel 
+
+; et dicitur ter centum; 
+
+v\J 332' quater centum ; ^ojLiio 
+
+quinquies centum; ^ojLioVx sexies centum etc. 
+
+Haec quae sequuntur sunt generis com- 
+munis , ut 
+
+unum mille 
+
+
+duo millia 
+
+
+<Xas2' 
+
+^rUx 
+
+^2’]U»9^ 
+
+
+
+^2-Iisoy 
+
+2'iaaX,s^ 
+
+
+tria millia 
+quatuor millia 
+quinque millia 
+sex millia 
+septem millia 
+octo millia 
+novem millia 
+decem millia 
+undecim millia 
+
+
+duodecim millia etc. 
+
+Notandum est quod alter numerus dicitur 
+i. e. divisus vel distributivus ; et hic 
+fit iteratione numeri simplicis , vel cardinalis; 
+ut 3*t ^ singuli ; vel 2^ 2^ singulae ; 
+
+
+^sAk bini bini ; etc. ^j^aAi binae bi- 
+nae; alter dicitur i. e. ordinalis , et 
+
+
+
+— ii — 
+
+
+vocatur \sskOx i. e. compositus , quatenus a 
+simplici componitur, habetque duo genera , 
+masculinum , et foemininum ; ut 
+
+Masculini generis Foeminini generis 
+
+
+primus 
+
+secundus 
+
+tertius 
+
+quartus 
+
+quintus 
+
+sextus 
+
+)l>..i»nx septimus 
+octavus 
+nonus 
+decimus 
+
+jUlLteVa** undeci- 
+mus 
+
+
+prima 
+secunda 
+tertia 
+quarta 
+^auacM quinta 
+sexta 
+septima 
+octava 
+A» nona 
+decima 
+
+
+undecima 
+
+
+duodeci- )i»D»So^iSih duodeci- 
+mus etc. * ' ma etc. 
+
+
+Digitized by Googie 
+
+
+
+— 83 — 
+
+Atque eodem modo a vigesimo usque ad 
+centum ita 
+
+vigesimus vigesima 
+
+trigesimus trigesima 
+
+
+quadrage- 
+
+simus 
+
+)iA»JoeM quinqua- 
+gesimus 
+
+\Lis^ sexagesi- 
+mus 
+
+septuage- 
+
+simus 
+
+octuagesi- 
+
+mus 
+
+
+quadrage- 
+
+sima 
+
+quinqua- 
+
+gesima 
+
+sexagesi- 
+
+ma 
+
+septuage- 
+
+sima 
+
+%A»,xie^ oetuagesi- 
+ma 
+
+
+nonagesi- nonagesi- 
+
+" mus ■ ■' ma 
+
+Notandum tamen est , quod aliquando re- 
+
+periuntur nonnulla nomina numerorum ab 
+aliis derivata, quaeque foemininam termina- 
+tionem , fonnamque habent ut qua- 
+
+tuor, vel quarta; septem, vel septima; 
+
+Kxxft* novem , vel nona ; quinque , 
+
+vel quinta; deeem, vel decima; ita 
+
+
+Digilized by Google 
+
+
+
+_ _ 
+
+etiam ex nominibus ordinalibus , derivantur, 
+et fiunt nomina substantiva sic 
+
+
+primitas 
+
+secundi- 
+
+tas 
+
+trinitas 
+
+quaterni- 
+
+tas 
+
+quinitas 
+
+senitas 
+
+septenitas 
+
+
+denitas 
+
+* • 
+
+vigenitas 
+
+trigenitas 
+
+yici 'quadra- 
+
+genitas 
+
+quinqua- 
+
+genitas 
+
+sexageni- 
+
+tas 
+
+septuage- 
+
+nitas 
+
+
+octoni tas octuage- 
+
+nitas 
+
+nonitas nonageni- 
+
+tas 
+
+Notandum vero est , quod nomina simpli- 
+cia numeralia possunt more nominum plura- 
+lium habere suffixa, et tantummodo plura- 
+lia, ut 
+
+
+4 
+
+
+Digilized by Googie 
+
+
+— 25 — 
+
+
+genus masc. 
+
+' genus foem. 
+
+•• 
+
+nos duo 
+
+nos duae 
+
+vos duo 
+
+vos duae 
+
+ocrCiaf^ illi duo 
+
+-(nJlftSW illae duae 
+
+\ • • • 
+
+nos tres 
+
+^ ♦♦ 
+
+nos tres 
+
+vos tres 
+
+V 
+
+vos tres 
+
+illi tres 
+
+illae tres 
+
+^ftj^ja/^nos qua- 
+' ‘ i' tuor 
+
+AvSja52‘nos qua- 
+” ' ' tuor 
+
+^a-fiaCaS^^vos qua- 
+^ ' ' tuor 
+
+^\o;J 3 s 2 *vos qua- 
+' ■ tuor 
+
+^cn>fiaL352 illi qua- 
+^ tuor 
+
+-cn)ftiLa52’illae qua- 
+' ' tuor 
+
+nos quin- 
+\ ' ' que 
+
+nos quin- 
+^ ' ’ que 
+
+oa)A3^ vos quin- 
+' * que 
+
+.«V vos quin- 
+
+^ ^ ' ' que 
+
+ojTuVu^ illi quin- 
+^ ' 'que 
+
+iUae quin- 
+^ ■ ' que 
+
+
+Digilized by Googie 
+
+
+— 26 — 
+
+
+genus masc. 
+
+nos sex 
+vos sex 
+
+V. 
+
+
+genus foem. 
+nos sex 
+
+
+
+vos sex 
+
+
+illi sex 
+
+
+ouPiAx illae sex 
+
+
+nos septem ^Skiax nos septem 
+
+^ViaGx vos septem vos septem 
+
+illi septem illae septem 
+
+Animadvertendum est , nomina cardinalia , 
+quae pronomina possessiva sibi affixa habent , 
+procedere more nominum , ut in 
+
+
+Cum suffixo sing. masc. 
+
+
+
+
+duodecim 
+
+
+* 
+
+
+duodecim 
+
+
+mei , vel meae 
+tui , vei tuae 
+ejus 
+
+nostri , vel nostrae 
+vestri , vel vestrae 
+
+
+Digitized by Google 
+
+
+„o^2^;bV\| 
+
+
+27 — 
+
+
+eorum 
+
+
+Cum suffixo sing. foem. 
+
+
+* •* 
+
+1 j 
+
+mei’, vel meae 
+
+« • t« 1 
+
+> duodecim { 
+
+tui , vel tuae 
+
+diPjkUiXsf^ 
+* *« 
+
+1 
+
+ejus 
+
+’• 
+
+1 duodecim < 
+
+r 
+
+nostri , vel nostrae 
+
+\ .* ' •' 
+
+
+vestri , vel vestrae 
+
+MOl(VsfiaV.3fV 
+
+\ ; • « ^ 
+
+
+' earum 
+
+
+Et sic de aliis dummodo respiciatur 
+verborum , ac sonum ; et haec de numeris, et 
+numeralibus. 
+
+De litteris , quae scribuntur , 
+et non leguntur. 
+
+Adsunt nonnullae litterae, quae scribun- 
+tur , sed non pronuntiantur , quae litterae 
+
+• *• 
+
+chaldaice vocantur .X\6f^2atvata 
+
+
+Digilized by Google 
+
+
+
+— J8 — 
+
+dmittganvan i. e. litterae furatae, vel furan- 
+dae ; et quibus superius scribitur lineola quae- 
+dam , quae a Grammaticis lineola occultans 
+appellatur , chaldaice vero dicitur 
+
+masciliana i. e. faciens quiescere; ut ]mXx2 
+
+nascia i. e. vir ; atta i. e. mulier ; 
+
+mdita i. e. Urbs , civitas ; 
+
+Ivuta , i. e. incensum. innana , 
+
+i. e. ego sum. savena, i. e. ego volo. 
+
+• ^ ^ 
+
+sciavekat , i. e. relinquis tu etc. 
+et non dicitur anascia; antta; mdintaetc. 
+
+Adsunt aliae litterae , sub quibus inve- 
+nitur quaedam horizontalis lineola , quae 
+vocatur marhtana , i. e. currere fa- 
+
+ciens, quasi cum quadam velocitate legitur in 
+pronuntiando; ut madnha, i. e. Oriens. 
+
+mah^rba, i. e. Occidens. tal- 
+
+ma, i. e. Aquilo. )L3^;^garbia , i. e. Austrum. 
+)i\aMy makrvana , i. e. bellalor. 
+mattjana , i. e. seductor. 
+
+
+
+DIgitIzed byGoogIe 
+
+
+— 29 — 
+
+
+De suffixis. 
+
+Quoniam de litteris , quae in pronuntia- 
+tione reticentur, meminimus, operae modo 
+pretium putamus Tyrones admonere, quod 
+ultima littera , cum sermo sit de suffixis pri- 
+mae , vel secundae personae , et quaecum- 
+que alia littera in fine vocum , vel dictio- 
+num sine vocali , nunquam legitur , vel 
+movetur, sed velut mortua quiescit : ut oiuaio 
+xsiiZb mar valah , i. e. Dominus meus , et 
+Deus meus ; illa verba Math. c. 27. v. 46. 
+
+EI EI Imana 
+
+« • * 00 9* 
+
+Sbaktan , i. e. Deus meus , Deus meus quare 
+reliquisti me (1) ? quae verba absolute , et 
+proprie Chaldaica sunt; 
+
+
+(1) Est Psal. 22. (Vulg. 24 .) prx> ^ZEl, 
+habetur Alahj quod idem est apud 
+
+Chaldaeos ; uti versiculo 20. eiusdem Psal. 
+habetur ^Z^iuZEl EI hidran 
+
+
+
+— 30 — 
+
+
+De punctis sfocalihus. 
+
+Hucusque de litteris consonantibus locuti 
+sumus; quibus , ut moveantur, vel legantur, 
+Chaldaei cum punctis vocalibus appositis , 
+utuntur; quaeque ^vioi nukze , i. e. puncta 
+
+
+cattOTj i. e. Deus meus , Deus meus ad au- 
+xiliandum me festina. 
+
+Chaldaica lingua etiam in resuscitatione 
+jariifdlae iam mortuae ^ Dominus, ac Re- 
+demptor noster usus (Mar. c. V. v. 41) cum 
+ajt , cjio pa tlita kum, i. e. puella surge; 
+
+eodem idiornate surdo , et muto ( Mar. 7. 
+V. o4 ) ajt itpatah i. e. adaperire; 
+
+a oerho ptah , i. e. aperuit. 
+
+Quod s?ero Occidentales (( Kami » Ephphe- 
+tlia (( Ehi )) etc. pronuntiant , hoc eatenus fa- 
+ciunt , quatenus facilior redditur ipsis, sua- 
+vissimo gutture polentibus , pronuntiandi 
+modus. 
+
+
+4T m r-A' 
+
+
+DIgitized byGoogIe 
+
+
+
+
+— 8i — 
+
+
+vel zaue , i. e. motiones ; vel 
+
+nkasciata , i. e. pulsantes ( quatenus conso- 
+nantes illis affectae statim emittant pulsum , 
+ac sonum) appellant. 
+
+Vocales apud onmes Nationes, nemine ex- 
+cepta, sunt quinque ; hac tantum differentia , 
+quod Chaldaei, et omnes populi Semitici, du- 
+plicem vocalem (a) habent ; una nempe est 
+simplex , ut isaio mara , i. e. Dominus : al- 
+tera vero duplicat literam sequentem , qua- 
+si esset more Hebraeorum daghesciata j ut 
+ObAtx sciattes, i. e. fundavit. Eodem modo 
+vocahs (e) duplex est ; una est simplex , ut 
+iausep i. e. loseph quae puncta tunc 
+perpendiculariter sub litera ponuntur ; altera 
+vero (e) vocalis, quae potius (i) quam (e) legitur, 
+et ipsa etiam duplicat litteram sequentem ; ut 
+a»; immar , i. e. dixit , quae puncta tamen 
+horizontaliter sub littera ponuntur. 
+
+De vocalium nominibus. 
+
+Itaque motionatae , sive vocalizatae litte- 
+
+
+
+— 31 — 
+
+
+rae eorumque nomina haec sunt; 
+zkipata , i. e. elevatae ; ptihata , i. e. 
+
+
+apertae : ft-JixjB Ti, zlimata Kasciait, 
+i. e. duo puncta sub littera perpendiculariter 
+posita ad legendum e apertum : 
+
+zlimata pscikaU , i. e. duo puncta 
+sub littera horizontaliter posita ad legendum 
+potius {i ) , quam (e). )l%Mbaoi} ruihata, i. e. di- 
+
+
+latatae; rvissata; i. e. pressae: Jm 
+
+hbissata , i. e. compressae. 
+
+Attende igitur, benigne,' et erudite lector, 
+ad tabellulam prae oculis inferius ponendam ; 
+ipsa enim habet , et continet totam Chal- 
+daeorum jlinguam legendi rationem ; quam 
+si bene, et reflexive observaveris , memoriae- 
+que mandaveris , tunc quodcumque linguae 
+obstaculum, et difficultas tibi obvenerit, certe 
+evanescet. 
+
+
+Digitized by Googie 
+
+
+
+
+
+
+
+
+— 34 — 
+
+
+De aliis punctis ut signa pluralitatis. 
+
+Adsunt et alia puncta , quae non motio- 
+num , sed pluralitatis sunt signa , et a Chal- 
+daeis vocantur )>eLso siame, i. e. positiones ut 
+^2' abba , i. e. Pater ; plur. 2oia^ abbahe , 
+i. e. Patres; hoc vero nomen in plur. fit etiam 
+.^<713^ abbahata, sed ista terminatio potius 
+ad Patres spirituales, quam ad Patres natu- 
+rales pertinet; ita etiam Catholicae Ecclesiae 
+Traditionis Patres a Chaldaeis appellantur 
+IxaSJi ^dts2' abbahata kardisce , i. e. Pa- 
+
+tres Sancti ; item de aliis nominibus, ut )l*aL^ac 
+
+• • • 
+
+malca , i. e. Rex , in Plur. fit } mal- 
+
+ehe , i. e. Reges. )L»ia2 idna , i. e. auris , 
+
+U32 idne , i. e. aures. JxtSi aaina, i. e. ocu- 
+Ius, fons, aaine , i. e. fontes , oculi. 
+
+Sed notandum est nonnulla nomina in sin- 
+gulari habere terminationem masculinam, in 
+plurali vero habere eandem foemininam ut 
+m lillia , i. e. nox, Plur. fit m lalle , et 
+
+
+Digitized by Googie 
+
+
+— 35 — 
+
+
+lailavata i. e. Noctes; jlaooi iauma , 
+
+i. e. dies, Plural. I^ooi iaume, et %!^o6s jau- 
+
+mata , i. e. dies ; ut luu haila , i. e. vis , 
+Plur. haile i. e. vires; (it etiam 
+hadavata ; sed ista terminatio ultima non ad 
+vires naturales , sed potius ad exercitus, ag- 
+mina , vel ad Virtutes , et Potestates Coelo- 
+rum refertur ; uti habetur in Hymno Ambro- 
+siano ^(7\\di0 jikMX lac scimeja, 
+
+vculhen hallavata, i. e. tibi Coeli , et univei^ 
+sae potestates; item }io2‘ arja, i. e. Leo, Plur. 
+
+JL52 arije , vel 2Adi32*arijavata> i. e. Leo- 
+nes; sic |o\libba , i. e. cor. Plur. 2^ libbe, 
+i. e. corda, fit etiam libbavata ; ita 
+
+assia , i. e. medicus; ]Lnx sciakja, i. e. 
+potator ; ]1^3 raaja , i. e. pastor , quorum 
+
+Plur. fitxf^ox^ assavata; 2'(^6 lox scikkavata ; 
+
+w. * ' • 
+
+raavata.. > 
+
+^ Notandum ^praeterea est quando nomina 
+"pluralia biadienl; litteram 5' 5 tunc unum tan- 
+
+
+Digitized by Googlc 
+
+
+
+— 36 — 
+
+tuminodo punctum ponitur eodem ordine, et 
+situ cum puncto ipsius litterae s , et ita 
+y ^ ( Vide supra ) habebuntur ; ut Issx 
+
+scirara , i. e. veritas; Plur. fit pisx scirare , 
+i. e. veritates. rigla, i. e. pes; Plur. ]i^S 
+rigle , i. e. pedes jLiaJB Rama, i. e. cornu, 
+Plur. Karne i. e. cornua. era , 
+
+i. e. sagitta; Plur. fit ghire , i. e. sa- 
+gittae etc. is^ira, i. e. Angelus vigil. Plur. 
+
+ire , i. e. vigiles , vel Angeli ; ita 
+tipra , i. e. unguis , Plur. tipre , i. e. 
+
+ungues etc. 
+
+‘ Vides , quod omnia nomina 'terminata in 
+2* sine A) praecedenti sint omnia masculina ; 
+et fiunt pluralia mutato skapa ultimo in zlama, 
+ut diximus, sic panis, Plur. 
+
+Sciendum vero est, quod omnia nomina plu- 
+ralia terminata cum Zlama , habent aliam for- 
+mam Pluralem , mutato scilicet illud 2 Zlama 
+in hvasa , et addito ^ jud-nun ut 
+
+viri aures 
+
+
+Digitized by Googie 
+
+
+
+87 — 
+
+
+• • 
+
+Ji&Sia cornua Vvily reges 
+
+|mpS spiritus ^^69 l^iy 
+
+oculi 2sp]^acies 
+
+«• •• 
+manus ^^2 2;Wb vites 
+
+^3^ iusti iMSk mor- MatoSkl 
+
+' * ’ '*' ' tui ■ " 
+
+jl^oxo^corpo- hOexQ\ Il^x«yr pal- 
+' * ra '* *' " mites ' 
+
+1x3 QB sancti- ^ppB 2i3^ talen- ^,a3*v*\ 
+
+Si vero eorum penultima sit skapa , et sunt 
+substantiva, superiorem regulam sequuntur; ut 
+
+nuis minae ^ae 
+
+)Lj^ cervi ^«ox anni ^»ax 
+
+viscera ^Xao )»^2*millia ^>aA2* 
+
+in adiectivis vero illud skapa mutant in Zlama 
+pscika ; ut . - 
+
+electi revelati 
+
+
+Digitized by Googie 
+
+
+— 38 — 
+
+possi- pueri 
+
+Nomina vero terminata in plurali in. 
+faciunt alteram formam pluralem reiecta prius 
+
+f 
+
+illa terminatione ^ , et assumpto tantum ^ 
+
+
+quiescenti, ut 
+
+, .. 
+
+
+stadia ' 
+
+Itio 
+
+* * 
+
+virtutes 
+
+« 
+
+noctes 
+
+«• 
+
+corda 
+
+Itio':»» 
+
+• 
+
+verberationes ' 
+
+itixAs 
+
+f*! • 
+
+animae 
+
+Itii^ 
+
+filiae 
+
+IfiUtoS 
+
+• 
+
+spiritus 
+
+• 
+
+cornua - ' 
+
+Iti^ 
+
+oculi 
+
+Itiihi 
+
+• f* 
+
+aures 
+
+
+flammae ^p 30 i,lx 
+
+
+Digilized by Google 
+
+
+
+— 39 — 
+
+
+t 
+
+virgines 
+
+^piis 
+
+9 
+
+coelestes 
+
+
+• 
+
+coelestes 
+
+♦ •• / • ♦♦ 
+
+IsUuHx 
+• • 
+
+veteres 
+
+
+9 i 
+
+novae 
+
+
+It^LsSLS^ 
+
+laudes 
+
+
+
+plantae 
+
+
+
+confessiones 
+
+
+
+, De adieclivis. 
+
+
+Nomina adiectiva formantor a substanti- 
+vis addito vel )Li ; vel , ut na- 
+
+tura , fit naturalis ; foem. IS>i>jtkX»>A • 
+
+ita proprius y fit y foem. 
+
+ita incommune, generale, fit foem. 
+
+ita )L«p3 Spiritus , fit ]^Mpa ; foem. 
+
+ita jLaiMpi^ corpus , fit ]LU»PV 
+
+
+Digitized by Google 
+
+
+
+— 40 — 
+
+foem. vel etiam foem. 
+
+^ ista vero nomina navis ; 
+
+2sflU-J3 cithara ; faciunt adiectivum. Is3^2 
+
+nauta; citharoedus; ita 
+
+caupona; (it ISoxL caupo; navis; 
+
+ht y^to nauta; ItL^sja rus; fit ]L*«apJ3 
+rusticus ; hinc fit, quod adiectiva formantur 
+
+». 1 j 
+
+etiam ex Civitatum nomina , ut 
+jls^OA Chosrava , fit Chosro- 
+
+vensis ; uspibA2‘£phesus,’ fit Ephesi- 
+
+nus; uDpfk-asp-o Corinthus, fit lisLjkspjs 
+
+Corinthius; «>ftpSb^pJ3 Colossis, fit |LJU^pj3 
+
+Colossensis ; ^bpsAjJS Philippi, fit ]Ut^a>!Ua 
+
+Philippensis; «AO^pxi Cyprus fit ji^p^po 
+
+Cyprinus; Cappadocia ,' fit jLxiapaja 
+
+Cappadox; upiMos^ Damascus, fit )lLnpA»ao5^ 
+
+# 
+
+Damascenus t " Hadorbegian fit 
+
+
+
+
+-Digitized-by Gt)Oglt' 
+
+
+
+41 — 
+
+
+Hadorbegianensis. ‘■p^adi le- 
+
+rusalem fit ]LJLa«u^ad2 lerosoiimitanus : 
+' • •• / 
+
+
+oopa vel v^pdia Roma fit )i^pa vel jLjiopdia 
+Romanus. 
+
+Eodem modo adiectiva foeminina ab adie- 
+ctivis masculinis formantur addito^ quae as- 
+sumit sibi ultimum skapa , ut 
+
+
+bonus fit 
+
+senex 
+
+)aiea altus 
+
+2iuo Dominus ' 
+, • 
+
+
+bona 
+
+anus 
+
+alta 
+
+ISiiSsio Domina 
+
+
+jMsfja sanctus 
+}jM malus 
+verus 
+
+.. I * 
+
+2jp%3 direptor 
+
+
+sancta 
+/PhcjJS mala 
+
+t 
+
+vera 
+
+direptrix 
+
+
+^?P9» cadaver sine 
+capite 
+
+puer non ha- % fyj puella non 
+bens usum ' * ' ’ habens etc. 
+
+
+rationis 
+
+
+Digilized by Googie 
+
+
+— 42 — 
+
+
+cognitus cognita 
+
+thesaurarius thesauraria 
+
+perfectus perfecta 
+
+reconciliatus reconciliata 
+
+)^o(kao aeternus aeterna 
+
+
+alia sumunt in foem. huasa , ut 
+
+]Uo3 infelix, vi- abiecta, 
+
+lis, infelix etc. 
+
+liJh^ stultus 
+
+]l4'L-«rArt liiiirlator Ji*AiuSX» laudatrix 
+
+jbkSxaftpo supplica- supplica- 
+tor ' ’ trix 
+
+adiutor adiutrix 
+
+Jij.Aaoiao perfectus Ji^iAaoxao perfetrix 
+
+constitu- 1 *^^-"^ constitu- 
+tor etc. * * trix 
+
+l^fomina ^yero , foeminina omnia tpiasi ter- 
+minantur vel in ; vel in 2p^p ut 
+
+
+Digilized by Googie 
+
+
+
+— 43 — 
+
+
+desiderium filia 
+
+locus. 2Piao>^ iuvenis 
+
+sapientia puella 
+
+2Pk\^ verbum (i ) l Ak*iS\ electa 
+
+causa dnus. 
+
+•# * 
+
+spiraculum ' relatio 
+
+timor , gratia 
+
+2{ikx hora servitus ' 
+
+trabs 2fipous/’patemitas 
+
+Isiai moeror 2fi,pMf9j iustitia 
+
+w%. tortuositas ZpitpMKC pueritia' 
+
+Adsunt vero nonnulla nomina etsi ih 2 Pk 
+terminentur attamen masculina suntj ut 
+
+IfiLsA vestis 2pLa4 oliva . 
+
+(1) Quando. >$ermo est de secunda SSinae 
+Trinitatis pepsona, tunc est generis mascu- 
+lini. 
+
+
+Dkjitized by Google 
+
+
+- 44 
+
+
+domus 
+
+0 
+
+ornamentum 
+ifioao mors 
+^»4: conversatio 
+%Ma areus 
+haeres 
+
+
+morus 
+)l^pB veritas 
+
+prc^unditas 
+Isis^ decus 
+novitas 
+
+• § 
+
+mortuus 
+
+
+Alia vero e contrario habent terminatio- 
+nem masculinam, tamen sunt generis foemi- 
+nini ; et cum sint multa , magnam illorum 
+partem, pro Tyrorum commodo, afferam, et 
+sunt 
+
+
+rota ; currus , 
+sphera coele- 
+stis 
+
+iumentum 
+)Lsa^ Aquilo 
+venter 
+puteus 
+
+
+'dextera 
+
+carta 
+
+loASX talentum 
+0 
+
+epistola 
+
+turbo 
+
+
+Digitized by Googlc 
+
+
+— 45 — 
+
+
+26 pS^ acies, agmen 
+
+nubes 
+
+lsA09 cauda 
+^ • # 
+
+]tiv oves 
+
+]Ls 3 musca; ursus 
+
+iSoX pulvis 
+
+T3[2p velum 
+
+2u3a» epistola 
+
+< / • 
+
+jLasoM cicoma 
+
+22a mensura 
+
+avis 
+
+gladius 
+
+\jk\X radix 
+
+Jxsl^ terra 
+
+ovis 
+
+}dl2 navis 
+
+ispi ignis 
+
+J^sDpI via, iter 
+
+]lL\y sal 
+
+)bkS3p2 rana 
+
+liAao fons 
+^ $ 
+
+lagena 
+
+lectus 
+
+)liii2’ asina 
+
+losX caesaries 
+
+)L^ 32 ‘ lepus 
+
+ramus 
+
+23.oa]liAr missa 
+
+1 calx 
+
+]li’cru\ infernus 
+
+ly>; oculus 
+
+r - , 
+
+^39 latus 
+
+
+— 
+
+46 — 
+
+tabala 
+
+ja? uter 
+
+Iapis 
+
+campus 
+
+ala, latus 
+
+subucula 
+
+culter 
+
+isAsi jecur 
+
+vitis , pro- 
+pago 
+
+isiSUb scutum' 
+
+• 
+
+palma 
+
+Jegio 
+
+)^ieto sinistra 
+
+vas aeneum 
+
+Ix^ anima 
+' • • 
+
+)^oaIo pondus, onus 
+
+auster 
+
+1i»wi multitudo 
+
+jbkiAoAi vermis 
+
+pharetra 
+
+2i\]C cadaver 
+• * 
+
+ji^SiS cornu 
+
+)ilx Dens 
+
+]i^i^ capsula 
+Idolorum 
+
+grex anima- 
+lium 
+
+jiibJA sors 
+
+)jL &3 equi 
+
+aratrum 
+
+]\^n urceus 
+
+2sSk^ passer 
+•• 
+
+
+Digitized by Googie 
+
+
+
+— 47 — 
+
+
+
+]l iiNy^ tapetum 
+Statera 
+
+r t# 
+
+stola 
+
+spongia 
+
+cibus; ru- 
+minatio 
+
+costa 
+
+concha la- 
+pidea 
+
+239233 vespa, fu- 
+cus 
+
+palatum 
+
+
+. unguis 
+
+
+psiB scapha , 
+
+« 
+
+spiritus 
+
+,% « •• 
+
+- • « . N • 
+
+idaea, effigies 
+« 
+
+03 lancea 
+
+f 
+
+Ji-s mola 
+
+l^jcojc sudariolum 
+» «» • 
+
+jla^aox turtur 
+
+Is^l manus 
+• • 
+
+pes 
+
+/ 
+
+genu 
+U 3 Z, auris 
+' )i9i« columba humems 
+
+f « 
+
+vermis \ herinaceus 
+
+' , r. • J „* 
+
+Ad formandum vero Pluralem nominum 
+foemininorum haec est regula; scilicet illud 
+rbasa in terminatione 2do , mutatur in ska- 
+
+pa nempe in 2Si>6 ut gra- 
+
+
+
+DIgitized byGoogIe 
+
+
+— 48 — 
+
+tiae; et nomina terminata in recipiunt 
+aliud skapa supra antepenultimam litteram ; 
+ut Plur. virgines. 
+
+^ap>^y latebra , Plur. 
+
+iAapaa apis , Plur. JiiSpas 
+5ip»paao2' agna, Plur. Jiia»pSao2* 
+
+At in nonnullis nominibus pluralibus foe- 
+minini generis, o cum suo rvasa cadit; ut 
+ZjippJO^ luctus, moeror, Plur. 
+
+casus , Plur. 
+
+Placenta Plur. • %i»paxS^ laus Plur. 
+
+• iliaoaoof^ admiratio , Plur. 
+mercatura Pl. IfikOS^S^', 
+
+cibus , Pl. 
+
+• Insuper notandum est , q[uod nonnulla 
+nomina in singulari terminata in JSK , in Plu- 
+rali reijciunt illud et eius Skapa mutant 
+in Zlama , et sunt ; 
+
+
+Digitized by Google 
+
+
+— 49 — 
+
+
+
+sabbatum 
+
+Plur. 
+
+2^ 
+
+9 
+
+Jiiae 
+
+verbum 
+
+Plur. 
+
+• *0 
+« 
+
+
+hortus 
+
+Plur. 
+
+r;v 
+
+y 7% 
+
+Uai>i 
+
+eorrigia 
+
+Plur. 
+
+
+
+uva 
+
+Plur. 
+
+laix 
+
+# 
+
+fenestra 
+
+Plur. 
+
+2o6, 
+• 0 
+
+rm' «yT» 
+
+triticum 
+
+Plur. 
+
+
+Idsaia. 
+
+0 
+
+uva acris 
+
+Plur. 
+
+• •* 
+
+
+pilus 
+
+Plur. 
+
+21m 
+• «« 
+
+« 
+
+JW 
+
+paropsis 
+
+Plur. 
+
+
+
+scirpiculum Plur. 
+
+
+- 
+
+furfur. 
+
+Plur. 
+
+
+2pU^ 
+
+spina ; 
+
+Plur. 
+
+
+• 
+
+hordeum 
+
+Plur, 
+
+• 
+
+
+ficus 
+
+Plur. 
+
+
+
+falces 
+
+Plur. 
+
+• ♦ ♦* 
+
+
+4 
+
+
+Digiti2ed‘by Google 
+
+
+— 50 — 
+
+
+
+schedae 
+
+Plur. 
+
+1. 
+
+
+cavernae 
+
+Plur. 
+
+2o^ 
+
+• 
+
+Sala 
+
+cortex 
+
+Plur. 
+
+,JaX5 
+
+
+lacrima 
+
+Plur. 
+
+1^3 
+
+
+amygdala 
+
+Plur. 
+
+« 
+
+
+cribum 
+
+Plur. 
+
+
+
+Hic tamen animadvertendum est , quod 
+nonnulla nomina sive illa mascidina sint, sive 
+foeminina, etsi eiusdem terminationis sint in 
+singulari tamen diversam habent significatio- 
+nem ; in Plurali vero diversam tam termina- 
+tionem , quam significationem habent ut jliSa 
+
+magnus fit ]lsa magni, vel jLssoa vel 
+
+magnates, vel nobiles; fit etiam et tunc 
+
+praeceptores , vel monachos significat ; ita 
+li»?- ancilla Plur. Isis6\^2’ ancillae ; sed 
+quando significat brachium tunc fit Plural. 
+^2' brachia, vel cubiti; est diversum ab Vi/ 
+
+
+- -E>tglfee<l'byC3<»<Sgle 
+
+
+
+— 51 — 
+
+mater, Plur. iit alia vero habere 
+
+•• ' 
+
+singularia, et non pluralia, ut cera ; 
+
+colorj; mulier , /sBx veritas , 
+
+iPiocoB veritas, integritas, peccatum. 
+
+Attendendum est insuper quo ad puncta, quae 
+ponenda sunt unaquaeque in suo proprio loco, 
+secus nec sensus , nec significatio habebitur; 
+ut ; ZsaoM vinum , si supra ab poneres skapa 
+
+esset ZaaoM , et tunc haberes asinum pro 
+vino. 
+
+De diminutivis. 
+
+Adsunt nonnulla nomina , quibus vel ad 
+honorandum vel ad despiciendum aliquem 
+utuntur; et haec formantur ab ipso simplici 
+nomine , adjungendo in nominibus mascu- 
+lini generis ( dempta ultima littera finali cum 
+sua vocali ) )iip vel ^p; vel jlapap; vel ]xpS»p» 
+In nominibus vero generis foeminini adiun- 
+gitur ; vel ;- ut vir 
+
+
+Digitized by Google 
+
+
+
+— »2 — 
+
+
+U vir parvus. /da» puer, )-Apaax 
+puellus. y*2' frater , fraterculus. 
+
+i 
+
+infans, ]1 ao>\^ infantulus. filius,' 
+filiolus. )buaa homo, ^oxias homunculus. 
+
+accusator, accusa- 
+tor parvulus. puer , puellus. 
+
+]Li«2’ frater jLsbpM^, vel lip»p4#2‘ fratercu- 
+lus. fs-aJ^vir, ]ipS^ozja^ vir parvulus ; sic 
+
+etiam canis fit , vel pbpmvUm^ 
+
+canis^ parvus. 2'^2 agnus ; , vel 
+
+agnellus. ZPjtds filia , , 
+
+vel jj^^^dfktdAtSLS filiola. 2ti>Lj^ puella , 
+
+, vel ipUAo'(^dA>dax puellula. 
+
+> 
+
+A^*TTinliPr 2flh vel 
+
+^ . » • • * 
+
+• « « « 
+
+muliercula. 2S^ hortus , 
+
+# 
+
+vel hortulus. 
+
+
+DIgitized byGoogIe 
+
+
+iM regina (W— 'vel 
+
+2ftc^iiAaoft> 1.0» reginula ; dicitur etiam 
+
+• * ^ I » ‘ f • * • t « 
+
+* * » * • 
+
+• « 
+
+%mi jn te2* fraterculus parvulus ; ; 
+
+-V* « • 
+
+filiolus parvulus ; haec de ’ diminutione no- 
+
+' ‘ * 
+
+minum. 
+
+
+! I *. ( ^ f ^ ^ * t * ■ 
+
+
+f .*/»*< 
+* , I «I 
+
+
+De suffixis. 
+
+‘ ' . 
+
+Suffixa apud Chaldaeos sunt id quod apud 
+
+Latinos possessiva dicuntur ; quia possessivo- 
+
+. * « 
+
+nim vices gerunt; et ista possessiva, ' vel suf- 
+^a, Chaldaei vocant, consecutio 
+
+sive . adhaesiones aliquando etiam appellant 
+conglutinationes , quatenus; cum 
+nominibus , conglutinantur , . et cum illis fiunt 
+quid unum. Itaque quinque sunt v suffi]j;;a ; 
+
+I t 
+
+^ 0| if| wj ; permutatione facta istaruu^ quinr 
+
+que litterarum , quater et . vicies . eodem no^ 
+
+mini suffiguntur. Etenim ; 
+
+pro prima pers. j j pro secunda pers. 
+singulari^ coram. | “) | singulari masc. 
+
+
+pro secunda per. j ^ j pro tertia persona j 
+singulari foem. ) sing. foemmina 
+
+
+j 
+
+
+j pro tertia pers. 1 j pro f 
+j sing. mas: ‘ ) \ | plur. 
+
+
+prima pers. 
+communi 
+
+
+pro secunda per. ) I pro secunda per. 
+
+
+(plur. masculina | [plur. masculina 
+
+pro tertia pers. j pro tertia pers. 
+plur. mascul. ^ . | plur. foem. 
+
+
+091 
+
+
+Advertendum tamen est, quod in nomi- 
+nibus pluralibus in l cum skapa desinentibus, 
+secunda persona utriusque generis assumit 
+tertia vero singularis masculina assumit 
+
+«.^010 ; tertia pluralis masculina assumit ; 
+
+tertia vero singularis foeminina assumit aus 
+cum puncto supraposito ; tertia vero pluralis 
+foeminina assumit, ; cum longum sit 
+
+iter per praecepta, breve , et efficax per exem- 
+pla , nos quoque, quod superius per praece- 
+pta tradidimus , illud per exempla fcdmproba- 
+bimus. Sit igitur nomen oratio, quod 
+
+debet recipere suf(i'xa ; et primo cum suffixo 
+singulari masc. 
+
+
+
+
+
+
+mea 
+
+
+tua 
+
+
+tn^oX. 
+
+
+sUa 
+
+
+Digitized by Googie 
+
+
+— 55 — 
+
+
+cum suff. PJur. 
+
+nostra , vestra 
+
+^o»A^oA-. 
+
+'v • s 
+
+cum suff. sing. foemin. 
+
+^ mea , 
+
+
+eorum. 
+
+
+tua 
+
+' .*• S 
+
+
+
+
+sua ; 
+
+
+cum suflf. Plur. 
+
+^pA|^ nostra , vestra 
+
+
+
+
+earum. 
+
+
+nunc nomen PI. cum suff. sing. mas. 
+
+•4» ** 
+
+orationes meae , tuae , 
+
+suae ; 
+
+cum suflf. Plur. 
+
+nostrae , vestrae , 
+
+eorum. ' , 
+
+cum suflf. sing. foemin. ' ^ ^ , 
+
+meae , , tuae , 
+
+
+cum suflf. Plur. 
+
+
+suae.^ 
+
+
+Digitiz^ by Googlc 
+
+
+— 50 — 
+
+
+nostrae, vestrae 
+
+earum 
+
+Nomina pluralia in L desinentia ut 
+
+0 
+
+aquae cum su£f. sing. masc. aquae 
+
+meae tuae , XDo^ suae, Plur.'"^Ji^ 
+
+nostrae, vestrae j ^oCI^ eorum. 
+
+Cum suj6T. foemin. Oi^ meae, tuae, 
+
+f '...c 
+
+ciCi^ suae. Plur. nostrae , 
+
+
+vestrae ^aCi^ earum.-" 
+
+,De pronomine personali,. 
+
+- » ■ / c . _.i 
+
+Pronomina personalia a , Chaldaeis 
+simplicia , vel jLxSStoc divisa , vel separata 
+vocantur eatenus , quatenus , non alii$ voci- 
+
+'■.i - r. 
+
+bus aflSguntur, sed separate, et divisim ab 
+aliis ponuntur, et sunt; pro masc. gen. num. 
+sing. ego, ftai' tu , OCT ille. Plur. 
+
+-.•'‘'v . *./. . - 
+
+nos,^*MZ’vos, ^01 illi. Pro foem. gen. num. 
+
+• ■ '"O 
+
+sing. JiV ego, SrftKl2'tif;‘ illa ; Plur. ^ 
+
+
+Digilized by Coogie 
+
+
+
+— 87 — 
+
+
+ndS) Tos f illae. Demonstativa 
+
+pronomina IlvipLao vocantur , et sunt pro 
+
+masculino Jladi hic , poi ipse , illi pro 
+
+• ^ * * 
+fo(^. Zsovhaec , i.*oi ipsa , illae ; om 
+
+ille ij<n illa j ipsi , ipsae ; 
+
+est plur. com. generis hi ,-hae, isti j istae; 
+
+ista duo pronomina et ^2 fere semper 
+
+post verbum , uti patientia , collocantur ; ut 
+.^9 9:1 i MiJ- . -t '9 ll : 
+
+
+IsM vocavit illos ; ^2 cognovi- 
+
+vww* c> Ark«> ^ 
+
+
+mus eas. 
+
+
+l ' II- ■ , ' Di •■•t- . . 1 
+
+. De f^erbo. 
+
+
+‘ » i » 
+
+
+\ < » 
+
+
+Ne de verbo jejunos relinqu^ Tyrones, 
+duas tantummodo illius formas ( cum sint 
+sex,, tres activae, !totidemque ipassivae ) unam 
+activam, alteram passivam , adducam ; prius 
+tamen notandum est, tres esse in omni Pa- 
+radigmate personas, quas Chaldaei nominant 
+JiiSkp^aa persona prima; 
+
+persona secunda ; ]iae persona 
+
+
+Di . . ;ci jiiO^le 
+
+
+— 38 — 
+
+tertia^ in verbo duplex est genus masculinum 
+et foemininum 
+
+
+et duplex est numerus, singularis 
+
+, Pluralis ; tria sunt tem- 
+
+pora iaka praetentum j •73.^3* 
+praesens ( quod idem est ac participium, quod 
+
+vocatur ^■' 4 ^ > cum pronomine perso- 
+
+* 
+
+nali ) Ps »^^3 U-pf futurum ; infinitivus vo- 
+catur )^V>T 3 ;>’i , sive modus indefinitug. 
+Cum sit nunc temporis mentium humana- 
+rum maxima divisio, aequum est, ut ego in 
+medium proferam coniugandum , quod divi- 
+siones, et separationes dicit , ac denotat ; sci- 
+licet verbum divisit ; quodque est ul- 
+timum illorum trium verborum , quae ab 
+incognitis digitis in superficie parietis - fuit 
+scriptum ad exemplum, et terrorem omnium 
+Regum , et Principum , qui Deum , Deique 
+pertinentia derident atque contegmunt. - 
+
+■ - ' 
+
+
+Digitized by Googlc 
+
+
+gemis masc. 
+
+
+— !J9 — 
+
+Inflexio 
+
+activa 
+
+
+gemis foem. 
+
+
+% * ♦ 
+* i r l 
+
+
+f Prairter. 'singul/* 
+ego divisi *' Ideib 
+
+
+0C1 
+
+
+-{^sa"46i 
+
+
+
+
+f’.’* * f j J-. »r ^ M 
+
+■'!•' :■ * t ^ C< 
+
+^eP nos dividimus • ** id<?fn 
+
+vel 
+
+• *p)j33 ]Lia^ 'PraesenS sing/ * 
+divido ' ■ 
+
+
+Aux^ vel 
+
+
+.‘1 : ■ 
+
+
+vel 
+
+
+Digitized by Googie 
+
+
+— 60 — 
+
+genus masc. genus foem. 
+
+on un Titsa 
+
+Plur. 
+
+vel (^a£i nos' dividioius fidem 
+veL 
+
+• / 
+
+]U^ m ^fWk.aJi’a^ - futiiE. ifeing. 
+
+)x2 vxp^^ ego dividam £.idew» 
+
+pen^ ViK p .. J«di 
+
+
+vel 
+
+
+I ' ' /?.; 
+
+
+■P» - P.lji?* / “ l i ' r.rK-c, 
+
+
+(Xeaak nos divid(e^iij . 
+
+
+■Ok>A2’M2SLS^ 
+
+
+M. 1 / 
+
+
+/ *• 
+
+
+, ]t^^. f, lioaA Imper. sing. 
+
+
+- ■* , / 
+
+
+Digilized by Googie 
+
+
+-- 6« — 
+
+genus masc. genus foem. 
+
+(^2‘vjtp^ . separatu wAa^oiUcpiA 
+
+]Ua)Lj>yift> Plur. - . 
+
+expaa uxpHa 
+
+^p^ vel 
+
+Infinit. 
+
+separare ; separans ; etc. 
+ad separandam 
+
+genus masc. : . . genus foem. 
+
+Inflexio 
+passiva (1 ) 
+
+•. isv.3 Ks^ 
+
+ego separatus suin Idem 
+(i) Quae fit addito ^2, ut in Paradigmate. 
+
+
+.0. ocsSm 
+
+• •• 
+
+. i g(.3fiboA 
+
+
+Digitized by Googie 
+
+
+genus masc. 
+
+
+genus foem. 
+
+
+^sa^' 2^ hA2’ 
+•« •# • 
+
+ijtsA^2 om 
+** •• • 
+
+
+
+* •• •« 
+•« * • •« 
+
+Plur. 
+
+
+^^(k2 vel 
+
+nos separati sumus idem 
+
+o A^2 ' oAjcsSA^ 2 
+
+V. • V •• 
+
+^l^2’^(^S^(^2 
+
+X \ t» ** 
+
+OJCSSfV^ 
+
+
+oxdA(^2 vel 
+
+vtX3Sf^<? vel 
+
+}U^ • ^JflS 
+
+Praesens sing. 
+
+Ji2 wx^Aoo ego separor )ii^ ]ix^fVa« 
+
+Aa2' ocasAoo 
+« «* #• 
+
+
+Atxs^Aoo vel 
+
+vel 
+
+* • 
+
+ocn obaSiVtM 
+
+# •« M 
+
+^91 }x^iAop 
+
+
+Plur. 
+
+
+Digitized by Googlc 
+
+
+— 63 — 
+
+
+genus masc. 
+
+
+genus foem. 
+
+
+
+
+separamur nos 
+
+
+idenr 
+
+
+vel vel 
+
+^(71 ^a\ 
+
+futur. sing. " 
+
+U/ OC^V/ separabor ego idem 
+
+oa ucasAha ujc^W 
+
+# •■ « •• »$ 
+
+Plur. 
+
+ix^Aa nos separabimur idem 
+
+^01 
+
+iSpc^ Imperat, sing. 
+oiaSLAt^ separare tu 
+
+
+aAiwtJK^Ak.^ vel 
+^ ( • 
+
+
+idem 
+
+
+\u 2 ‘vx^A»A^ 
+
+« ** «« 
+
+001 ucasAa 
+
+
+idem 
+
+
+oVA2*^jt2aA^A 
+
+^CA 01 
+
+V S*^ . .. 
+
+
+Digitized by Google 
+
+
+
+— 64 — 
+
+
+genus masc. 
+
+
+genus foem. 
+
+
+
+oxsaiAk2 
+• •« 
+
+
+vel 
+
+• M 
+
+
+vel 
+
+
+
+Infin. 
+
+oji.3SN\m| separari; vel separando etc. 
+gxa^VxyA j idem, vel ad separandum. 
+
+
+Prima forma vocatur PAal activa , cuius 
+passiva vocatur Etplell ut , \Jti^2 ut 
+supra. Secunda vero forma vocatur Pllell 
+activa , cuius passiva vocatur Etp^all , ut 
+fit Tertia denique forma 
+
+vocatur Aphphel , addito 2’ cum ptaha ut 
+^recipere fecit, cuius passiva vocatur 
+Ettaphphal , mutato illud allap additum in 
+ut, ; haec de regularibus. 
+
+De Verbo irregulari. 
+
+Verbum irregulare vel illud est quie- 
+scens, vel est defectivum. Verba quiescen- 
+
+
+Digilized by Googlc 
+
+
+— 65 — 
+
+lia illa dicuntur, quae habent vel in fine, 
+
+vel in medio , vel in principio unam ex Iit- 
+• ^ 
+
+teris ut )Lia aedificavit ; ^ ^ * 
+
+quiescit; gavisus est ; M3Sb foetidus fuit; 
+crevit etc. vel ^6 conculcavit ; *pJ3 
+
+surrexit; ids doluit, unde jlipos dolor; 26ttk 
+
+poenituit ; 26a\ fuit ; ista tria ultima sunt du- 
+pliciter imperfecta (1) ; vel ut sanavit ; 
+
+(4) u4d supplendum tempus , quod La- 
+tini plusquam perfectum ^ vel imperfectum 
+appellant, Chaldaei hoc modo faciunt; pch 
+nunt scilicet tertiam personam (quae potest 
+esse secunda vel prima cuiuscumque nu~ 
+mer.) sing. praeteriti cuiuscumque verbi, ei-- 
+que addunt tertiam personam praeteriti verbi 
+iodi fuit, (quae debeat genere numero , et 
+persona cum verbo praecedenti consentire) fa- 
+ciuntque plusquam per f.]ut: M A \Xjiox audie- 
+
+• i - % 
+
+rat ; lo6\ l6m non fuerat ; 2odi odu de- 
+
+
+5 
+
+
+— 66 — 
+
+
+^ peperit ; V\^ haereditavit ; sedit etc* 
+
+Defectiva vero verba illa dicuntur , quae ha- 
+bent primam radicalem ^ ; ideoque quae ha- 
+bent secundam, vel tertiam , vel etiam quar- 
+tam radicalem , ut non pertinent ad 
+
+istam classem defectivorum. Alia appellan- 
+tur gutturalia , quae habent unam ex guttu- 
+ralibus ; vel litteram s . Qui vult 
+
+
+derat ; \uodi ego dederam; \uocn 
+
+VjiOcS ego fueram etc. 
+
+Ad indicandum s^ero imperfectum , su- 
+munt praesentem (participium) cuiuscumque 
+^erbij eique addunt idem praeteritum verhi 
+loo) ejusdem generis , numeri y et personae, 
+et faciunt imperfectum ; ut 16 A s^olehat; 
+
+\WiOS ]la^ ego volebam ; loffi faciebat ; 
+
+26 CT 2 » i dicebat; iodivjsXf clamabat; 
+
+26 91 culpabat, tu vindemia- 
+
+bas etc. 
+
+i 
+
+
+
+
+-_a_ ..aKr. 
+
+
+DIgitized by : 
+
+
+— 67 — 
+
+granimatice loqui de quiescentibus , sumit 
+verbum (i^:^ ( operatus est , egit ) j prima 
+littera huius verbi denotat verbum quiescens 
+
+4 
+
+in principio » v. g. pe-jud ; pe-allap ; pe-wau, 
+mutuatus est ; b:io2 dixit ; secure 
+reddidit. Secunda littera denotat verbum quie- 
+scens in medio, v. gr. eh-jud, eh-allap; eh-wau, 
+posuit; constituit; wa]i& doluit. uidia per- 
+optavit. Tertia littera denotat verbum quie- 
+scens in fine , v. g. lammad-jud ; lammad- 
+allap'; woa inebriatus est ; )Lab crevit; 
+
+... y 
+
+• Quiescentia in fine 
+
+gentis masc. genus foem. 
+
+Inflectio 
+
+t 
+
+activa 
+
+... yisj praet. sing. 
+
+ego aedificavi idem 
+
+f^2*Vuxa 
+
+• • • 
+
+
+Digitized by Google 
+
+
+
+— C8 — 
+
+
+genus rnasc. 
+
+genus foem. 
+
+
+
+
+Plur. 
+
+vel nos i 
+
+aedificavimus idem 
+» ' 
+
+
+
+^oi.a vel aia 
+
+^.i,B vel Ciia 
+
+]Usm . 
+
+Praesens sing. 
+
+6go aedifico 
+
+jii)tii. 
+
+
+<^fVik2‘ ]ixs 
+
+(V*xa vel 
+
+vel 
+
+0^ ]L^ 
+
+Jixss 
+
+
+Plur. 
+
+vel nos aedificamus idem 
+
+x^Si , r . 
+
+Vw * \ »' 
+
+■ V ^»A3 
+
+^(Wi.A.a vel 
+
+yel 
+
+•^01 '^*Aa 
+
+•• '.••♦ i 
+
+
+. _ _ _ Di ]■'■. '-d by GoogI( 
+
+
+
+— 69 — 
+
+
+genus masc. 
+
+
+genus foem. 
+
+
+UioM .. 3-^X3 Jxa? futur. sing. 
+
+ego aedificabo idem 
+
+. .^ Plur. 
+
+nos aedificabimus idem 
+
+^CTl ^ 
+
+, 2soj3!i Imperativus , ^ 
+
+MAa2*u:^ 
+
+Plur. 
+
+■%» 
+
+oiia aedificate vos «aXS 
+
+
+'»• V» 1./, 
+
+Aa2‘(^2i aedifica tu 
+
+X '.V* 
+
+
+^Aa2*^oia vel 
+
+V. ' H. • 
+
+
+G vel 
+
+
+Bi Infinitivus 
+Ivsae aedificans ; aedificare ;. .. 
+
+
+>.ii:i4j-?< U><',GoogIe 
+
+
+— 70 — 
+
+
+genus masc. 
+
+
+genus foem. 
+
+
+}x.aie\ aedificare, vel ad- aedificandum. 
+Secunda species quiescens in fine i. e.Jn lam- 
+mad-jud. 
+
+Praeteritum 
+
+ego quievi idem 
+
+OMjsIx 
+
+• * 9 
+
+* 
+
+
+Plur. 
+
+
+- • - 
+
+
+quievimus • - iderrt 
+
+oiAx Vk vel ’ wiifcjijR 
+
+reliqua inflectitur ut prima iam inflexa. 
+
+
+i< - J. 
+
+
+Inflexio passiva verbi )xsi^ 
+
+U?f Praetmtum 
+
+)x2 ego aedificatus sum~ ' idem 
+
+
+Digilized by GoQgle 
+
+
+— 71 — 
+
+
+genus mctsc. genus foem. 
+
+* » •* • « 
+ocn 
+
+• • *•••*•'* 
+
+Plur. 
+
+^.xaA^^ vel nos aedificati sumus idem 
+
+^ 6 \ o*asA»^ vj:*x3(V^ 
+
+vel 
+
+Praesens 
+
+)^A^ ego aedificor ]x2 
+
+\.‘ i** . 
+
+Aa2* luA»ao 0)ft3k2‘)*Xi3AkSo 
+
+\ua 3 Aoo vel (-*\viaJ3A>ao vel 
+
+00 00 0 0 14 * 
+
+ow ] 1 ^A^ 
+
+Plur. 
+
+
+\ua 3 Aoo vel 
+
+
+'. . . ^.. » <■■ ' 
+
+
+
+
+Aoe vel nos aedificamur idem 
+
+
+Digitized by Googlc 
+
+
+
+— 7i — 
+
+genus masc. 
+
+genus foem. 
+
+ofV*A.aVio 
+
+«# 
+
+^(\ioua(^o 
+
+vel vel 
+
+
+f?" 
+
+V 
+
+s>«(^3 Futurum 
+
+• « • • » « f 
+
+}x2 }sj^a 2 ego aedificabor 
+
+» 
+
+idem 
+
+• ' «• 
+
+% 
+
+om 
+
+
+Plur. 
+
+aedificabimur 
+
+nos . idem 
+
+,^^2* ,0X3A»^ 
+
+
+oAm jtxatki 
+V V " 
+
+* 
+
+
+
+ADfMS Imperativus 
+tui- aedifica tu 
+
+Plur, 
+
+
+Digilized by Googie 
+
+
+— 73 
+
+
+genus masc. 
+oxa^ 2 aedificate 
+
+
+genus foem. 
+
+c:Ls.h2 
+
+
+2 vei 2* ^LcLaC>K2 yel 
+
+n' Infinit. 
+aedificando 
+
+• ** 
+
+aedificari, ad aedificandum • , 
+
+
+
+
+
+
+. »<'Z s 
+
+
+Quiescentia in medio. 
+
+genus masc. ... ^ r , genus foem. 
+
+■* 
+
+Praeteritum 
+ego conculcavi . . 
+
+Ad2' (^3 ; 
+
+Va]LXyf>. Plur. . 
+
+^u« ^3 vei ^UC3 nos conculcavimus ^ idem 
+
+
+DigitizedJb^Google 
+
+
+
+— 74 — 
+
+
+genus masc. 
+
+
+genus foem. 
+
+
+QMS , 
+• 
+
+vSJtS 
+
+• 
+
+« 
+
+^6 vel 
+
+^3 vel 
+
+
+Praesens 
+
+ego conculco 
+
+idem 
+
+Aa2'vjcia 
+• » »» • 
+
+I^T 'JiLi 
+
+Aoc2s vel 
+0 0 • 
+
+mAoIus vel 
+• • 
+
+oen oc/s 
+
+]jL«3 
+
+
+Plur. 
+
+vel ^u« nos 
+
+conculcamus idem 
+
+
+
+o(KkX«a vel • 
+
+V. • • 
+
+^(^STCl 
+
+
+• * • 
+^cn ^3 
+
+
+; Futurum 
+
+/ ego conculcabo ' idem 
+
+
+ocosf^ 
+• * • • 
+
+
+
+Digitized by Go(^I^ 
+
+
+
+— 75 — 
+
+
+
+gemis foern. 
+
+b : Plur^ • 
+ocptt nos conculcabimus ^ idem 
+
+^01 
+
+iapjD^ > Imperativus . ’ 
+
+4 « 
+
+conculca tu mA»x2*uj&P9 
+
+
+Plural. 
+
+
+• C i, 
+
+
+•• 
+
+UX09 
+
+
+oxop conculcate vos'^. ... t 
+,^2 ^pa‘vel ■ ^2*^pavel 
+
+Infinit. 
+
+«xaae conculcans , conculcando 
+ocaxli , conci^care ; vel ad conculcandum 
+
+• * r« t •» 
+
+Inflexio passiva hujus verbi mutat skapa, 
+yel zlama pscika in chvasa , cum jud ; 
+ut oca ; ille conculcatus est ; 
+
+
+— 7ti 
+
+
+ego conculcatus sum. 
+
+)xl . UCaS^^^ ego conculcor. 
+
+vel conculcamur nos. 
+
+conculcabor ego ; secunda per-> 
+sona sing. masc. , in futuro accipit aliud’\\ ; ut 
+tu conculcaberis; sic etiain secun- 
+
+* • • M 
+
+da pcrs. Plur. masc. et secunda et tertia sing.’ 
+foem. et secunda Plur.. foem. ut 
+
+# « «• 
+♦♦ 
+
+cobculcabimini vos ; ! foem. 
+sic etiam concul- 
+
+cabeiis tu ; conculcabitur 
+
+• • • 
+
+illa, conculcari , vel conculcando fit 
+
+vel pxafttAs^ 
+
+1 
+
+
+Quiaescentia in f,ne, et in principio. .. 
+
+Ji7 egd sanavi ; tu sa- 
+
+nasti etc. ut uAx ; ita vero fit in passivo 
+\Ji2 ^uS>2'C^2 ego sanatus sum , 
+
+1 t , 
+
+
+Digitized by Googlc 
+
+
+— 77 — 
+
+
+tu sanatus es. ««9i illa sanata 
+
+
+est etc. 
+
+
+Notandum enim est , participia horum 
+verborum reijciunt 2 \ et assumunt » cum 
+
+• . f 
+
+eadem vocali, ut vt^oi' con- 
+
+* • *■ f 
+
+fessus est isoab ; et in verbo addere 
+
+l* t ' •* 
+
+t .S . M 
+
+fecit , 'fit C^ibo»; uasoZ etc. niagnilicavit , 
+fit ca5o^; 'ut illa verba V. M. ]Ls3om 
+
+magnificat anima mea Dominum; 
+«AskoZ« comedere fecit fit cLaoko ; aAoZ* 
+peperit ,- fit'^o:|p etc. ab s.aoZ' per- 
+didit; ab 2^ sedere fecit uaAiooe* • 
+
+
+genus musc 
+
+
+Quiescentia dit^liciier. 
+
+* 
+
+sc. genus foem. 
+
+
+
+
+* r^3 Jiaj Praeteritum c,.,::.. 
+J»7 7^0 ostendi i ~ ; idem 
+
+
+Digitized by Googie 
+
+
+
+• 
+
+1 
+
+— 78 — 
+
+genus masc. ^ 
+
+genus foem . 
+
+• • « 
+
+' • • 
+
+ocn mom 
+« • » 
+
+1 • » \ 
+
+- - • » t 
+
+M01 (k«OM 
+, , • * 
+
+< • , c. 
+
+Plur. 
+
+* ' > • ^ . ■ ' - 'j 
+
+VcI 
+
+idem 
+
+* t 
+
+oA^2'^fK«OM 
+
+' V •• ' . ,.• 
+
+.... V . \ .* • \/^ • 
+
+t 
+
+JMOI O^Om ( 
+
+‘ • 
+
+vel 
+
+. Ji=? 
+
+Praesens 
+
+JaI^Io^oc ego osteado 
+
+]aJ lioM 
+
+f^2'IoM>e 
+* / • * 
+
+
+f^OatiC vel 
+•# • 
+
+.. vel 
+
+otn loatde 
+* .• » 
+
+«rfCI 
+
+4 1 
+
+Plural. 
+
+«■!•< mOmM vel kjkrfOMM 
+\* \ .* * \' •• * 
+
+idem 
+
+ip^ktOMM 
+\ • ' 
+
+
+vel 
+
+vel 
+
+
+Digitized by Googie 
+
+
+
+— 79 — 
+
+
+• » *• # •• • 
+0191 
+
+Ita futur. ]x2 ego ostendam ; 2 omA^ 
+
+#Ki2*tu ostendes etc. imperat. fit'f^2’ 2o^ 
+
+ostende tu: foem. kaOiU Pluj*. ocU 
+
+’ # # » # 
+
+
+■ o(^»a2' ^oom ostendite vos. foem. 
+
+• 0 0 
+
+; infinit. ostendere/ 
+
+Inflexio passiva hujus verbi facillima est ; 
+etenim addito praeformativo passivorum for- 
+mae activae, sufficiet. 
+
+• 0 ^ 
+
+in praesenti* additur post ib ; ut ]i22o^ 
+
+» « ^ «1 I » 
+
+iit X-i2 2om(^: ita etiam futur. ut 1i 2 2om^ 
+
+' » $ t, ^ I ,t t t *0 
+
+fit Jm^2 2tXB4^2 • Imperat. assumit A.2 ut 
+
+* ^ ^9 # t# 1 t# 
+
+tk^2’2oM(^2 ; infinit. idem assumit post lo 
+
+# 9 # 1 #9 
+
+
+^ ' p t 
+
+
+. ^4* . W 
+
+ut o.*om{Vio • 
+
+
+0 ^ 0 . 99 
+
+I 
+
+#» * » w*» ^ , 
+
+• * • ^ • I ^ 
+
+
+t 
+
+p » 
+
+
+— 80 
+
+! 
+
+_ 1 
+
+. . .r. Quiescentia in 
+
+Principio. 
+
+genus masc. 
+
+genus foem. 
+
+0^3 Praeteritum 
+
+eco comedi . 
+
+1 
+
+idem 
+
+* « •« 
+
+(ki 2' wfkAsk/ 
+
+« * M 
+
+oen «Ai/? ■ 
+
+0 0 0» , 
+
+S^2 
+
+*l * u 
+
+
+Plur. 
+
+, ^ ^ uos comedimus idem 
+
+X • \ ♦ •• \ • • •• 
+
+• •• 
+
+
+0*0 0*0 
+
+k^oi ^\a2 • uAa2 
+\T \T' •• » •' 
+
+T»i^? 
+
+Praesens 
+
+][^ 2 «-^'^^ L ego comedo 
+
+
+f^!Lai i* Adk 2‘ l' 
+
+0 0 • ** 
+
+wVl&2« 2*P1 a2 
+
+ocn 
+• •* 
+
+1 
+
+I" r 
+
+Plur. 
+
+1 
+
+^ ^0^2’* nos 
+
+comedimus idem 
+
+
+Digitized by Googlc 
+
+
+
+— 81 — 
+
+
+genus masc. 
+
+
+genus foem. 
+
+
+• ^Va/' ^^2' 
+
+p(Vi«.J^A2*vel M\0U^2*yel 
+
+^2* 
+
+\ , 
+
+3rf{^3 1^9 Futur. 
+
+- ,r •• •• ' ~! f 
+
+li2 vApi&2 ego comedam idem 
+
+A)a 2' iAo£i2Ak MAa2’^rw2AK 
+
+«*«•• •\*«««« 
+
+. 26oaSL Imperat. 
+
+•comede .tu 
+
+c.. ► i. ^]Uv^ Plur. ; ! ' '•; 
+
+ol . 0 ^ 2 ' comedite vos • gAoa2* 
+
+
+(3^a2 ^oa 2* vel 
+
+V • V. - . • 
+
+
+Bi )^9 Infinit. 
+
+. n • 
+
+.' I 
+
+comedere 
+
+vJLi)i^ ad comedendum 
+
+
+'.’. - .‘:j /’ .■'• 
+
+
+l . - 
+
+
+Digitized by Google 
+
+
+— 82 — 
+
+Nunc ad aliud verbum , quod incipit cum 
+
+St , ut ssXt didicit. 
+
+• ^ * •*' 
+
+genus masc. 
+
+genus foem. 
+
+aois K.s 4 Praeteritum 
+
+(k&Xt ego didici 
+
+idem 
+
+9 0 
+
+
+oa\ vjsl!L 
+
+, # M • 
+
+W91 
+
+• * 0 H 
+
+etc. ' " ^ 
+
+
+"p^; Upj 
+
+Praesens ‘ ' - 
+
+]x2 ego disco 
+
+]i2m 
+
+# » »# 
+
+.'^2 ]aXi 
+
+ocn vsVi 
+
+$ *• 
+
+
+etc. 
+
+
+Upj 
+
+Futur. 
+
+« 
+
+]x2 ego discam 
+
+idem 
+
+Aa2‘ 
+
+‘ ■• %r 
+
+ocn cSlAK 
+
+t » • •• 
+
+LA01 
+
+etc. 
+
+1 
+
+
+Gt 'le 
+
+
+
+— 83 — 
+
+geniis masc. genus foem. 
+
+. ' isoBfi Imperat, 
+disce tu vi>a-\rf 
+
+Plur. 
+
+• OS^ • Ufl!^ 
+
+^ ^9 Infin. 
+
+discere' 
+
+ad discendum ^ r. ,. 
+
+
+Duarum conjugationum praeteritarum in- 
+flexio passiva perfacilis est ; etenim addito 
+more solito hujuscemodi verbis , et mu- 
+tatis , in aliquibus personis , vocalibus, nihil 
+
+<liflicultatis remanebit, ut 
+
+. ‘ r ? ^ * ' * ► ' - 
+
+
+genus masc. genus foem. 
+
+-.iaVaU?? Praeteritum 
+
+ego manducatus .sum idem 
+
+
+Digitized by Googie 
+
+
+— 84 — 
+
+
+genus masc. 
+
+S^2’ 
+
+ocn 
+
+
+genus foem. 
+
+ufkA2*M 2A« i? 
+
+• •• 0» m 
+
+moi 
+
+
+T/?°? )^T*f Praesens 
+^2 c!i^2PK^ ego manducor < ]x2pAl(ih^ 
+
+
+(^ 2 *i^a 2 Aoo 
+
+• 00 0f 00 
+
+vel 
+
+• • 0 *m 
+
+ocn 
+
+
+• Aa 2 ’pl^ 2 Aoo 
+
+vel 
+
+• « 0 00 
+
+)lX& 2 A^e 
+
+
+ctc. 
+
+
+idem 
+
+
+Futui-: 
+
+] sl 2 u 1^2^2 ego manducabor 
+
+(Va 2 ' u\^ 2 (^ A» '«* 
+
+• •» #* 00 • 
+
+ocn M 01 
+
+« •«#«*« « . . •«•<•• 
+
+etc. 
+
+2sojiS Imperat. 
+
+fKA2'iAak2Ai2manducare tu oAsA2*uA&2Ai/ 
+» « • •« • • • •« 
+
+piur. • : . 
+
+
+— 85 — 
+
+genus masc. genus foem. 
+
+• ^JtZLSklUl 
+
+• • •• # , •* 
+^^2' ,^aZ^2 vel ^^Z^Z vel 
+
+t . % \ f 
+
+jiai^^ae ]ia9 'Infinit. 
+
+oAak2(^ ) manducari : ’ * . ^ 
+
+• 
+
+manducando; ad manducandum 
+
+Inflexio passiva verbi vs!^ 
+Praeteritum 
+
+• • - . ■ ' A> ^ , 
+
+}iZ Z ego edoctus sum ‘ ' ‘ idem 
+
+;^Z e^sLt^Z s4(^Z'^f^^f^Z 
+
+**•••• * •* 0 W» 
+
+oen yJsX»C^Z 
+
+P* ' 
+
+etc. 
+
+Praesens 
+
+Uz^s^ edoceor U: 
+
+A)^L\«(Vao vel vel 
+
+
+
+
+t)igitlzec{ by Google 
+
+
+
+— 86 — 
+
+
+
+genus foem. 
+
+
+idem 
+
+
+Futur. 
+
+U2 edocebor 
+
+» •» •• 0 M 
+
+OCT >^Aa ..n u^A.A. 
+
+etc. 
+
+2ipj3A Imperat. 
+
+Aa^’ca!UA^/ edocere tu 
+
+fb Plur. ' f 
+
+\s.s^^2 
+
+t 
+
+\ / * \ ** * ** 
+]1&9 Infmit. 
+
+osX^fVxj J edoceri 
+
+• * ** I 
+
+t ad edocendum; edocendo 
+
+
+^ • t» 
+
+
+Digilized bv Gt >gk' 
+
+
+Verba defectiva. 
+
+
+Superius diximus verba defectiva esse illa, 
+quae primam radicalem habent ^ ; quaeque 
+tantummodo deficiunt in infinitivo , impera- 
+tivo, et futuro P^lal; et in omnibus conjugatio- 
+nibus Aphphel - et ettaphpbal. ut exire 
+
+pro ^ ; vjcp^ pulsa pro ijc psa ; uk,0J3 2 
+
+pulsabo pro <Jtpx3a2 etc. reliqua vero tem- 
+pora , et conjugationes perfecte flectuUtur ; 
+ejusdem generis* sunt latravit, futur. 
+
+utOiS&' pro eructavit , futur. 
+
+ly, pro sequutus est , futuri 
+
+pro etc. Adsunt nonnulla verba, 
+
+# M 1 • ^ 
+
+quae istam non' sequuntur regulam, ut seiA, 
+illuxit , *pcra fremuit, in futur. faciunt 
+
+
+
+— 88 — 
+
+
+De aliis defectii>is , et anomalis. 
+
+Quaedam sunt verba , quae alicjuantulum 
+a recto tramite, et regula aliorum verborum 
+deficiunt; et ex multis, observa quae sequun- 
+tur , bibit sequitur ; tamen 
+
+in praesenti facit bibo; in futur. 
+
+OCT ille bibet; in Imperat, pro persona 
+
+masc. bibe tu; Plur. oofiix2 Or^x2 
+
+• 4 *» Z 4 •» • 
+
+^^A^bibite vos; pro persona foem. ^^^2 
+M(Ki2‘bibe tu; Plur. •'^1^2 
+
+bibite vos; in infinitivo bibere, 
+bibendo , ad bibendum. Ita vero venit , 
+
+* „7 
+
+in praesenti facit ]LiV venio ; in fut. 
+
+veniam etc. in Imperat. 
+
+veni tu { pro masc. ) ; Plur. o(ti vel 
+
+venite vos; pro foem. 
+
+veni tu ; Plur. venite vos ; 
+
+in infinitivo fit .XxjL^oA venire , ve- 
+
+
+D|. • ■• d by Googlt 
+
+
+— 89 — 
+
+niendo , aci veniendum. Ita cjuoque een 
+ille ululavit; f^\2 tu ululasti, in futur. 
+
+fit 0^ uu. ille ululabit ; in Imperat, fit 
+
+ulula tu; Plur.^A^2*^o^i?o!^>?uIu- 
+
+late vos; pro foem. mCK_JL 2* ; Plur. 
+
+• uii-A2*; infinitivus fit l!^]L^ 
+
+ululare. Ita juravit , K geiTiii- 
+
+navit; in futur. fit he]xy ; in Imperativo 
+
+fit pro masc. pro foem. 
+
+ijAii2*Uk^a soio^ ; in infinit. fit ]^]^* 
+
+K)h« ita cdIUs ascendit , in futur. 
+
+fit OCT '-OfiA ; in Imperat. ; infinit. 
+
+cj3-.A)^oA • Ita 26m fuit ; in futur. fit 
+
+*«#««« 
+
+
+2ocra'^2ooN\ 2ov\2i et etiam poetice dicitur 
+iou • eris, erit; 
+
+eris (gen. foem.); ita cadu dedit, in futur. 
+
+
+Digilized by Googie 
+
+
+
+90 — 
+
+
+infinit. tJjftciebX ; imperat. 
+
+N** •• M *••• • '* a 
+
+vJ3W (la , in inflexione passiva fit omnino ut 
+
+uaA-^; et verba quae in futuro rejiciunt o 
+Wau , ideoque regulam generalem non se- 
+(juuntur , sunt multa , et ex liis nonnulla ad- 
+ducam , ut transiit, fit in futuro SJXa , 
+<sstix accepit fit <s..aix • 0L_mX- audivit fit 
+
+iA>.ac 3 U*^VJSb, saturatus est, fit ^iV-ama ; enxSb 
+
+figuravit, fit ; u« AiS aperuit, iit ; 
+
+3:m vovit fit dupliciter in futur. sm , et 
+
+30 SA ; fatigatus est , fit 
+
+accidit, offendit, j 3 W-A decidit , de- 
+
+fluxit , Iit sfVa • custodivit , iit 3^^ • 
+iAn-SA eructavit , iit Ok.^ • Otto£k obstupuit, 
+iit 0 ) 30 Auk • fdb exultavit, fit fdis or- 
+
+tus est , fit Utipa • defecit , fit 3te— A • 
+:Sm circumivit, fit ssmA , et SOSmA • UtAOc* 
+
+
+;;i ; izc’ GiK>i^Ie 
+
+
+— 91 
+
+
+illuxit, tit • sdx saltavit, fit =dxi« 
+
+^ f r • 
+
+• » 
+
+20m candidus factus fuit , Iit • k^^ox 
+
+germinavit, fit v^dxi • v.#i*oa9 concupivit, fit 
+
+* • 
+
+u«dita • Amlavit, iit u«5Si • zsix pul- 
+
+f «* • • »« » 1 
+
+clirum fuit , fit s^ixA • vjPi^Sb sufdccro, iit 
+
+' 0 00 t 
+
+* • 
+
+85>o rebellavit fit SMA • ^3 recor- 
+
+#«»*> •i**## #• 
+
+datus est , (it i^zx • cecidit , iit • 
+
+- ' » • »» ». 
+
+• » 
+
+traxit, iit • ita alia sparsit, vel 
+excussit, • va»Si sortitus est, fit • 
+
+^.39 emit , fit iit v^oAx^ 
+
+(juando sermo est. de missione alicujus per- 
+
+» 
+
+sonae ; quando vero significat exuere, tuni- 
+cam , habitum etc. tunc futur. fit • 
+
+' 0 00 
+
+quando significat demersit , tunc fit 
+•. '|u ando sigiiilicat impressit fit 
+
+Adsunt nonnulla veiba , (juae vocantur 
+iterata, vel (juadrilitera, (|uac([ue formanliii’ 
+
+
+Digitized byGoogIe 
+
+
+— 91 — 
+
+ex repetitione alicujus syllabae ejusdem verbi, 
+ut vidit , in passivo fit visus est; 
+
+exinde fit iterum, iterumque vi- 
+
+sus est etc. 5 j diripuit , fit saepius di- 
+ripuit , a quo formatur iterum, ite- 
+
+rumque diripuit , depredavit ; ita 
+modo huc, modo illuc dimovit, inclinavit; 
+cujus passivum est ita v.Sb.ss9_a 
+
+laceravit, cujus passivum fit • 
+
+confudit, permiscuit, cujus passivum 
+
+Iit • unde j Babel , Baby- 
+lon. miscuit , fit mistus est, 
+
+ab \^j:cS^2 ; unde exurgit ite- 
+
+rum , iterumque mistus est ; ^303 magni- 
+licavit, fit v..aaosA2 magnificatus est ; ^*^ox 
+
+promisit, iit s«soPoCi^ promisit, spopondit, 
+
+I 
+
+confessus est, a verbo =x pro sdx effudit; ita a 
+0^3 pro appetit , concupivit ; in Elta- 
+
+
+Digitized by Googie 
+
+
+
+— 93 — 
+
+phphal fit ii^^SA^,ab ista forma fit 
+allectus est; unde participium ejusdem for- 
+mae fit allecti ; et inflectuntur 
+
+ut verba quadrilitera , ita OCTOJOX ille li- 
+beravit , Aa 2 ‘ fttajox tu liberasti, fk-a^ox 
+]x2 ego liberavi; in Praesenti assumunt >o 
+quiescens, ut ]x 2 ua^ojbo ego libero ; infu- 
+tur. 2 cum Zlama pscika , 09 ox^ J^2 ego 
+
+liberabo; in passivo fit oct L-ayA i _ ^ iHe 
+
+liberatus est; J-U^ego liberatus 
+
+fui; in Praesenti fit Js2 ego libe- 
+ror; in futur. fit ]a2 ego liberabor; 
+
+ita a verbo <^^o 2 *fit c^xox extendit, unde 
+
+OCT ^^^<jx.2 ille profecit, ^^x^wx.2)x2 ego 
+profeci, unde jLli^xpx profectus. 
+
+Z?e suffixis verborum. 
+
+Adsunt nonnullae particulae, vel litterae, 
+et sunt nullius significationis , verbis enim 
+
+
+Digitizedtjy Google 
+
+
+— 9i — 
+
+affixae , vel siiflixae varias utriuscjue sexus 
+denotant personas. 
+
+Quae indicant tertiam personam singula- 
+rem masculinam sunt istae, 
+
+m : iit ille separabit eurU; jauipxaa 
+
+illi separarunt eum; vel JOipjcsS illi separa- 
+
+• ^ 
+
+runt eum , cux3-^ ille separavit eum. Quae 
+teitiam personam sing. foem. indicant sunt 
+istae*,.<7U : ci ut ille separavit eam ; 
+
+ille sepa rabit, eam; secundae vero 
+personae sing. masc. sufF. est : ut 
+ille separabit te ; secundae personae singul. 
+foem. est u*A:'^ut ; secundae per- 
+
+sonae plural. niasc: est : ut 
+
+ille sqjarabit .vos ; secundae personae' plurai. 
+♦ . 
+
+foeminin. est ^ ut ille separabit 
+
+vos. Primae personae singul. communis est 
+: ut ille separabit me; addita 
+
+post ^ ut distinguatur a prima pers. plur. com. 
+primae personae pluralis comm. est : ^ : ut 
+
+
+Digilized by Googie 
+
+
+— 95 — 
+
+
+ilie separabit nos ; adsunt etiam pro- 
+nomina, quibus utuntur Clialdaei ad expri- 
+mendam utramque tertiam personam plur. et 
+sunt duo : pro masc. genere est eos ; 
+
+et pro foem. genere est eas. Scias quo- 
+
+que velim, quod prima persona non sufligit sibi 
+ipsi suffixum primae personae; nec secunda se- 
+cundae personae ; sed tunc necesse est usur- 
+pare unum ex istis vocabulis ,. scilicet 
+essentia ; } anima ; jLlopaua persona ; ut 
+
+\ liberavi meipsum ; 
+
+honorasti teipsiim ; )jiaT )ls> 2' 
+
+medice cura teipsum ; oaopi^ abscon- 
+dit seipsum. idem. 
+
+i De AdverhUn • 
+
+Cum omnia adverbia, cujuscumque speciei, 
+vel qualitatis sint , multoties , pluriesque sive 
+in simplici discursu, sive in scriptione Chal- 
+daica , inveniantur , hinc pro Tvronum com- 
+modo nonnulla prae eorum oculis [iroponam. 
+
+
+Digitizedby Coogie 
+
+
+— 96 — 
+
+Etenim quaedam simplicia sunt, ut 
+neque, ^si autem; ]jio «^2* sicut; ^2' 
+1^9 quemadmodum , ut ; statim ; 
+
+U(a3a ^ a principio ; ^ unquam ; 
+
+quae etiam componuntur, ut etc. 
+
+Quaedam appellantur localia )L.,^aAk2'ut 
+hic ; illic , ^-aioVi ibi ; ubi ; 
+
+illuc; hinc ; unde ; 
+
+ubi ? jlaLi illuc, hic. Quaedam tempo- 
+ralia vel ut nunc 
+
+mox, jam; ^aisoi hodie; cras, *^a>^2 
+
+heri ; kiaiioAkAx nudius-tertius ; cum ; )Lio 
+quando ; ^f^2 quando ? ]L-aie3V 
+
+quou.sque ? <aAoie2 <^A quoties ; 2i^<n nunc, 
+itaque ; ^ dum ; antequam ; 
+
+adhuc ; ^ donec ; oc ya ik usque nunc ; 
+
+
+Digitizrc , C ■■ ‘^Ii’ 
+
+
+— 97 — 
+
+
+paulo minus; >«Ac|oi S2k usque quo? 
+
+% una vice ; Ab )L-aio saltem ; 
+
+primum , ante ; ^ dein ; 
+
+deinde ; postea ; psBM olim , nuper , 
+
+jamdudum.' 
+
+Quaedam optativa , ut 
+
+utinam. 
+
+Quaedam )Lfpaj3 vocantia, ut us«, 
+
+o, heus. 
+
+Quaedam JA2px interrogativa, ut ^ quis, 
+vel quae, oiM quis est ? ^ quae , vel qui, aiaio 
+cur; K-r quinam ; 2^2’ quae j quo- 
+
+modo', /'sicut,- )bio quid , ]iao quod, vel 
+
+quid , ]Li^ quare , ad quid , pro- 
+
+pter quid , cur , quare ? 
+
+Quaedam ^p*ca positiva^ vel. affirmativa, 
+# 
+
+ut ^2 etiam : ita. 
+
+Quaedam confirmativa jl^sBpx , ut 
+
+
+Digitized by Google 
+
+
+
+— 98 — 
+
+
+amen, ita est; ‘pM sane , profecto, etenim, 
+verumtamen ; vere , pro certo ; 
+
+Quaedam negativa sive tollentia ; 
+
+ut ]iX , oi non , l6v\ non est ; 
+
+Quaedam dubitantia , ut iSA 
+
+j * 
+
+forsitan , forsan ; , ^s2*fortatis ; ne 
+
+forte , . ‘ps, JaiCk, ]LaiJi3 an, forsan etc. . 
+
+Quaedam demostrativa l j ut 
+
+en, ecce. 
+
+« * 
+
+Quaedam prohibitionis ut 
+
+ne forte , Pa ut ne. 
+
+. t 
+
+, Quaedam ■ collectiva , ut 
+
+s^2'simul, una, aeque ; <K—f]Uo* pariter. 
+
+Quaedam assimilativa ) ? ^ > sic 
+
+ut , quasi , sicut , tamquam ; 
+
+Uk>^, s.V^^2■ quemadmodum ; 'sicu- 
+
+ti , ut ; • - 
+
+
+Digilized by Google 
+
+
+
+— 99 — 
+
+
+Quaedam mterprctativa , sive ex- 
+plicantia , scilicet, nempe; 
+
+«plf* « 0^91 idest. 90V. videlicet. 
+
+Quaedam conditionis vel pacti ; ut 
+
+‘J- siV Ucii2, 0^2 nisi. 
+
+' « 10 ' * • • •• 
+
+Quaedam velocitatis jiiioispSb^ , ut\l^, 
+cito ; velociter ; 
+
+in— M-.y statim , subito ; criSM__y repente; 
+cursim. 
+
+Quaedam qualitatis ; ut 
+
+sapienter , bene ; quae 
+
+adverbia formantur ex ipsis adjectivis , addito 
+ut J^ 3 purus, pure; )x-i?JO 
+
+sanctus fitNujb^U sancte ; ]b^ J malus , fit 
+male ; Diabolus , fit Vu)ii2l^ 
+
+diabolice; Angelus, fit f^i).Skpbic An- 
+
+
+Digilized by Googie 
+
+
+— 100 — 
+
+
+gelice. 2^2’Deus fit divine ; et ita 
+
+fit in omnibus nominibus hujus generis. 
+
+Quaedam quantitatis ut\u2syh(^ 
+
+abunde ; paululum , minute ; 
+
+(^)laao3 magnopere. 
+
+Quaedam comparationis ut 
+
+^ cr^ plus , magis , magis quam , 
+
+• vel minus. 
+
+Quaedam ordinis , ut Ac^)bio9.n 
+
+primum , secundo ; ter- 
+tio ; quarto ; quinto etc.; 
+
+et ita in omnibus numeris ordinalibus com- 
+
+
+positis. 
+
+Quaedam Nationis ; ut fki/sJLd 
+
+Chaldaice ; A«m]1«3Pi(& Syriace; Per- 
+sice ; Hebraice ; oi Graece; 
+
+At^]Lcp0i3 Latine ; t^ls2s2‘ Arabice ; etc. 
+
+
+
+— lOi — 
+
+
+De Praepositione. 
+
+Praepositiones Chaldaei appellant\\paoaaJd 
+antepositioy quia tam nomina, quam 
+pronomina antecedunt, et recipiunt suffixa 
+more nominum; ut post ; post me ; 
+
+«^aA^post te; ua^aAo ( foemin. ) etc. ita 
+
+suh; cMpOn sub me; etc. pro; 
+
+- f pro me , etc. *pX cum ; tijb Jw X me- 
+
+cum etc. *73M coram; uwu coram me, etc. 
+
+
+tua 
+
+• cf|ft)Oi • If AkOsA 
+
+]UcuB 
+
+•OA9ae9«^^^ ]l^o«a JxisxpM AipsA 
+
+a^ Jiao^a )s«pJ3^ ^ 
+
+
+.Coogie 
+
+
+
+— i02 - 
+
+- 
+
+
+
+
+
+
+v.^bpS33£^ii!! ^ 
+
+
+^3^P 0132io.'« ^ 
+
+Dies Hebdomadae ]L^s 
+
+vel Jiaxs ^oi 
+
+Dominica 
+
+jLaXJ33*i 
+
+dies Lunae feA 2. 
+
+Uxkn liijsft» 
+
+dies Martis fer. 3. 
+
+
+dies Mercurii fer. 4. 
+
+• » 
+
+dies Jovis fer. 5. 
+
+UduuLioM 
+* • « 
+
+■ dies Veneris fer. C. 
+
+
+Sabbathuni 
+
+
+' 
+
+
+Sabbatiium Sanctum ■ 
+
+%azoTlsx' 
+
+Hebdomada Resurrectionis jx • 
+
+f • • 
+
+— — - ii i 
+
+— -“-rtarrogle 
+
+
+
+— 103 — 
+
+
+Menses anni 
+
+
+Januarius 
+
+
+Februarius 
+
+i\ 
+
+V • 
+
+Martius 
+
+» • 
+
+Aprilis 
+
+- 
+
+Majus 
+
+=i: 
+
+.Junius 
+
+
+Julius 
+
+
+Augustus . . 
+
+
+September 
+
+
+October 
+
+
+November 
+
+
+December 
+
+i4 «%»v 
+
+
+” ♦ *■ » . •it 
+
+Haec omnia, uti pure elementa, sufjicient. 
+
+
+'i~r! by Google 
+
+
+PRO TYRONUM EXERCITIO 
+
+
+
+
+01^ y4ffiQ m Xih» ‘pu ^ 
+
+PUt «o ^ w*di 
+
+w.%3cy pAM «jbioXxs %^oio i3.y^s 
+jLsiepalVd^^ils^s )io'6 
+
+
+^a_Aoi ^ii> C «3 •vmOXJMA OXiC ^i33 
+
+«ei *i(\aAaojOT AkAxAo •%se^ AJd» 
+•o •o^Aii^2 uxa» ^^spnJi 
+
+p^ 9 m'-* 9 •0»^paa« ^pa{^pAfb 
+
+
+<Va i\.Ax prfOOI3 mlmi2'X7loio^Ja (Am430 
+^9yo eiLed «m^d cfiaas *vm «dua^or 
+$1^2’ itis vIa ^ * ^ * 
+
+• Vi^ • J0la!iM3 Cm^ •9U30U09A^^ 
+
+
+^9^30 •ZiLom-flo Issm •]L-i^3 c^^3 
+0)Ati^3 *]L •%^»»pJ3xSjs^ )L ,^»,Vi%d 
+
+• y\jk}i3 JmAMO ^^30 ^pSMO* ]LiA )i??^ 
+
+fVjSMiaO • CF^\L« (Xm33 »0« 
+
+e^^3 )!%— aofuy 01^3 «cfiSjAa 9)j^oi 
+^9Uo^ ] ^0A 
+
+^0)0 *]!4xp-B? JxA^ ^ •?- 
+
+*73^ft»^ ‘ 73^0 ^ 
+
+• )l«i3b3 e^vJiM3 h-acAM VX«3 • 0^ • d)3fi>M 
+
+Ck& • Oi« • oiMLlx ^ )Up^ )^{^o 
+
+•wftk! ^ \v’ ^ • XaoaxM )^V 
+
+X-miSsbJoo ILi aae p o^^3 }L>o£Ut ut»3 • u 
+woi /s^Om •. um • Xtp*.Sb^ jwSiiio, • )L>o^ 
+2o^Io )|Mpj3xS*^*Arp«^ Aua \dnp^s 
+««flA •cn3{^^ ^9i’p ^ *p\a>.'A3 
+
+• «^aeolp Ts^qa' piNfioJkO • '7^ 
+
+
+
+— 106 — 
+
+
+oiA ^9ia mJi9 gipLad!^ 
+
+jLiici^ a.^ CTftaci^ •da*«)l%:c»jb vAa. ^ 
+
+• <x-mAou ObJv5^oS-ad «eipl»^ oaal^s 
+
+0 , m • m 0 * I t 0 •« • 
+
+^0b&9O • 3J\0^i^ «0^ 
+
+Ism^O ns lo*A ■-• SiSi • lxa3J3 utJiC^diXii 
+
+»♦ .* •• •« • '« 9 * » •* X, • •* 
+
+• erjx, • ^.»:>cAy ^pJkjLl sio^sA^ « CTva 
+
+'As^ J)AMO • ^ 
+
+V " 
+
+]LW 9)^ JiiPLsk ]x^ *o& *U^? 
+
+<• «aoiOktaJi^o )i1^.la:^^ pioaoi. • )*m 
+
+o(^Oc*o 0io.li.Ma MaoX)ooaL • 
+
+Ism 1-3^9 oxaia ««mOi «««Sbeis ox»>^^2 
+
+•i 0 •• 00 ^ 0 0 0 0 00 0 0 00 
+
+\£^^0<\^0%ah ^p^c^p^iHa jiaP^aprii 
+«(A «IjMa Zaai&s oV&A>A^o*a3iilo iXsiox, 
+
+* 0 0 «« M I «« • 00 0 
+
+]\‘o «rpA ^3 »/b *]L«^8 c^^^^a 
+
+vmA«^ •^A:»^f^^ %‘o opajB «v,! m^A 
+2oei^Pf> ^O0^»ttjMpsl )sm 
+
+
+^ 3 m 8 iouA^a 
+• 00 • • ' 
+
+
+
+— 107 — 
+
+uaoM^'1^'0 • )U^ 
+
+•)xx2 s2a^ 9!^ • ?^ • 
+
+)\ *oA «i3*4 fWidn c^f^o^Msp «01^ 
+
+]^if>‘(io •(S.p^fli, ]\’o 
+
+)-^^o 7—^^ «li^-B <f|JcaaA 
+
+• %^PXA OX^d • • dT|«3pAl 
+
+• 2^2^ 01 <^ou«^^2; •y» 
+
+•P^ )V« ‘^P 
+
+ANALYSIS GENERALIS 
+
+2a^2,'^p 0lAkX>.aM« Sapientia Filii Si- 
+
+rac. • 2^oJte»Aw sapientia ; 
+
+scientia. •TmU scivit , sapiens , peritus fuit. 
+23j4fci2'hic est nom. proprium; sed est par- 
+
+
+Digitized by Googie 
+
+
+
+— i 08 — 
+
+
+ticipium pass. generis foem. verbi cin> 
+\it, ligavit; unde carcer. 
+
+fasciculum , ligamen, s«oi Quari^ wOio 
+
+Ipsa cum ipso est ab aeterno. 
+aeternus • Gutta. 
+
+stillavit «)aep0i(^ ]isisk ]fto 03 sublimitas, 
+latitudo, abyssus, ex altus fuit ; 
+
+apertus, latus fuit; 
+
+
+latitudo. UipxaoA oiab quis emetiatur. UtX 
+mensuravit ; unxit, unde Christus. 
+
+% ■ >oAy «-otsx ^^ 304 ;:A ^ ; ab antiquo 
+origines sapientiae; jbcix radix. )xax ^ radi- 
+citus. ax stabilire occulta 
+
+intelligentiae.Ziiao^ occultum. occulta- 
+vit; cl&AiSb.i? intellexitr (JL&Jb insanivit; 
+
+iniquitatem fecit . et injuriam, f * x...*!... 
+
+]LilL-lpa. jti prudens. ifiK \p*iUig> 
+
+
+
+
+— 109 — 
+
+
+prudentia ^ ^ poi fi-M unus est 
+
+terribilis, unum est; u X i « a2*formi- 
+
+, • * «# • » 
+
+dabilis fuit. K ^3^0^* Thesauros 
+
+ejus, ca^i^ vel sollicitum, anxium esse. 
+
+is^o/*thesaurus. • • • oiit^nS • 
+
+jonoSk^ promlugavit eam , et distribuit omni- 
+bus operibus suis, usad scrutatus est ; pate- 
+fecit. distribuit ; divisit. 
+
+divisio, medietas. J^ptsao ia?pi ; magnifi- 
+centia, et majestas. exultatio 
+
+exultavit. ^ ^ saeculo con- 
+dita est. condidit. conditus fuit. 
+
+fundata est misericordia ejus. 
+
+fA»M fite irridere etc. ^ 
+
+• « 
+
+0)PL-X1^ felicitate 'tV felix fuit; inebriat, 
+
+foem. gen. •loi inebriavit. proventus. 
+
+»... • 
+
+introitus • intravit miTjieso^ fulcimen- 
+
+
+Digitized by Google 
+
+
+
+110 — 
+
+
+tum, aceubUus ; accubuit. Jijife 
+
+
+praefectus convivii. «cnA^oX • • • oiSsjax* 
+rami 5 radices eradicavit ; ]mmdx dupli- 
+cavit. duplicatio. 
+
+’ . ■ W • • 
+
+longitudo. morari o trahere. 
+
+o«^D 'ex longitudine dierum. hM ■ cogi- 
+tabit ; meditabit ; Mi . cogitare , meditare. 
+l^a^rhecTitatio, cogitatio. oUispa^a vjc^Vix^ 
+
+se exercuerit in ejus praeceptis, ot^ox mi- 
+
+♦ .V ^ ‘ ‘ » t 
+
+nistravit. uuoA^^ exercere se ipsum. )\, 
+
+coronam ,,lvel Victoriam, sempiter- 
+nam. \5Aii coronavit ; 'statuet eum.’ 
+
+
+• • 
+
+
+ipSb statuere; ponere :* JJlo^Sr^ 'T3[o 
+
+i..' • 
+
+et hon eum projiciet / ]L:ioa projecit. viaoaV A kZ 
+projectus est. subscriptio, ois^^/o 
+
+.*n 
+
+
+• . . 
+
+
+intelligite. intellexit : w^ftZ recogitavit 
+
+
+' * # * , 
+ii • \ w 
+
+
+
+
+— 111 — 
+
+
+, V) • intelligentia ; 
+
+judicium sagacitas ; } % \ t 2 
+
+tiraor;: religio.. : cultus . 'timuit. Jl^a 
+
+idola , ^tinudus; tremens, 
+
+timor; cultus. 
+
+)Jp a,ccede nco torpescas; ^AOo 
+
+„^i^lV/«torpuit. moratus est vSpvft» monu 
+
+accesseris. vel> accedens -futtis. 
+
+?^^P®.i.^®^^^y^unio.. t]LiJ3ao oblatio. jLsaoji 
+
+' • 
+
+vicinitas. \ , ; 2> \b dedecus. C^a contumeliam 
+
+despectus etc, 
+
+npmmaris' ; , nomine * tantum es 
+
+in timore; ouox .^iaouyfcmominavit. o\ioS^J! 
+
+* ^ • • • •• 
+
+PP™???':’!: AjiPtCor plenum, dolo" fraude, 
+
+purgatio; 
+
+purgatus; stratus,: «Impurgavit. , 
+
+."• J . ..T-r .- .. . 
+
+
+Digilized by Googie 
+
+
+— lia — 
+
+
+• ca 
+
+*• *• 
+
+»i\»duaai^ cw (jus(V2«ka » ^ ^pii» ; |. ^ 
+2fKip «^^«3 •*f|aLi.5p)b ‘inafift»^ 
+hy^t JSC pxyhy ac; JJkSaoad • ul«M ii)i^ 
+<1^ 0010 • 2w, «oi^iflMpa 
+
+•0 «cfiPLAisei ^p3^ potoms zsaimloo^ 
+ispM Ja^Mo.Jam?.)^ ispxasv.^^» 
+«oLsp\^ jono^a «9 •2P^pif> 8> y? 
+
+)ie>^?. «oisJ^i ^ ^ofi*^ Ho 
+
+fri o*< ]|\‘ OCIO • o\tS ojkyin joioms 
+
+•oiac^ oaa®» aioliiig • \r • 
+
+•pl^ o^WSb2«ct«]xB3pa!io * p ia^l3 ^ps^ 
+0A*.s{9»2«)b«A2k w»33 ^ 9^0 • 2boi ^^spai ^9 
+62* *ov3,axo 0U3 ^en pj^ •)•« «o^Md 
+jou*Ln p»y o2** o(j^92b jme^ «Aaf^A2 pyo 
+
+
+Digitizrc' '■ CoogU 
+
+
+
+pcn jLia**? )\o 
+
+0^0 •%,ai:^S ^ SX ^^£kS uB^O \X»x.o • ]j 2 » 
+
+t ^ *f * • ' • 
+
+jba^io • jliLfiaab ]L^ • ?^ • 
+
+? “ . ■ 
+
+• 0U* «Xlto^p • 
+
+•» * 
+
+]3[ \SiL^ • ]\9 V^ ciiA 1^0 
+
+> 
+
+saL as-sxS^ 1a:c*U1bo(^ oaX«d «cx 
+
+• i V • .. ' ' •• ~ r\ . I 
+
+•cim]Lm )«^P xr\oH^s «9^ «jU^ ^SA 
+
+joiojmS «Vrf«« «cri^MSoZ^sli^ 
+
+BIOM-mSO »0)41.3^ JLi^S 
+
+•• . •« * 
+
+)L^A»a *^ •CTAOdoi 
+
+«\m33 •)s^ •ensftt^i ^ cXiaiifVap op.s ^o • aia*:u3 
+^oaio • oA vJBJKgo • d3 • 01-^ 2^^ 
+
+•.* ' * O ' . t < 
+
+)L»aaCT gtft><a3s tf|*23 v,A— «OsSk •ofMOS 
+' • 0)0334. Jx^<p OOOX tC^Ihm XHOaOMS 
+
+Analysis. 
+
+ousAki?* Arthacrc. vxi3aC^.2*vAi38 tenuit > 
+
+
+Digiiized by Google 
+
+
+
+adliaestt. )jus viscus; glutinuTu; jiSeas ar- 
+bor ex* c[aa viscus nascitur. )jU03* i^o£i««aD 
+coglutinatio. eno^St^ ]!^‘* uc deseras eam. 
+si^b2»]Sk2 dimittere; deserere. s*a3ft»2de(icere. 
+
+ut sapienter agas. 
+
+sapiens fuit ; scivit , intellexit. fcf|MOS ^2’* 
+
+longaminis esto, tardare. (conjun- 
+ctum cum jL^pa) patienter ferre.' 
+
+probatur. jLJjxaA^ foem. ]i,.J3.,*n probavit ; 
+
+■ ^ ^ »« 
+
+] probari, contemplari. 2apSk fornax. 
+
+catinus. 3 2 * ,y pudefecit , isopL-T^ pudor, 
+c • • ^ ■ . , 
+
+sdcsLfVi? , 32')i...!iA«/ aestuavit, incaluit. li\‘o 
+• ‘ . r . . r *• f , 
+
+^^oALx^*ctne moremini, angariare. 
+3 m{V.Jc 2 relinqui. morari. A^.«w3Uo* 
+
+0 •• L 0 t* t 
+
+retinebit, part. aphel. fVp.s vel jV^s perno- 
+ctare, manere^ (WiS domus, wisa 
+
+
+Digitized by Google 
+
+
+- (juac a mundi. 'aclatihus. Iza aa» 
+aetas, generatio, saccuiuni; aja habitavit ^3*i3 
+
+habitatio ; monasterium. conhsus. 
+
+•confidere, sperare. s[>es. 
+
+rJLnfti A» ^confisus esf. ouio a 2d* rejecerit cum. 
+
+** ** •* ' 
+
+Jia.-uaoa/* rejecit, si addatur se pro- 
+
+stavit. si addatur l6al intulit manus in ali- 
+
+(|uem. si^addatur ftjaa catenis constrinxit. 
+)A*P^OoMa benignus. jbioMa gratia, verax, beni- 
+gnitas. philantropia. • cle- 
+
+misertus est. clemens fuit. 
+(JitoDOl studium Au^Jiiaf^ diligenter ) 
+angustia j tribulatio. kjDoX • - contristatus 
+
+est. molestia. putridum. 
+
+. t 
+
+putridum fuit; condensavit ( 
+brum ). manus remissae-. 
+
+
+
+— flti -- 
+
+
+u.S:/’dimisit deficere. rcmrs> 
+
+sus; laxatio. negligentia, 
+
+• graditur. ambulavit. )L.3i>ttS • 
+
+gressus; gradus; incessus, 
+collos; viae. i.\,:nx.ar» director , dux 
+
+itineris. ]1— directio, • 
+
+«* • 
+
+cogitant voluntatem ejus. )bk3 direxit; 
+placavit; cogitavit, ^_xiAa cor 
+
+ejus firmum est ( ojfVpjaa quanta ma- 
+jestas) finnatus est. paravit. 
+
+• oa.sV.p ^a 
+
+3*^ •'»3 • '"p^iJia jbl^ 
+
+Jjie^s J^so 0 )x^ v.Ax jL^jL^ 1 l.l 
+
+•joftoJjPM 
+
+
+Diqittr-' ■- 
+
+
+CiK le 
+
+
+— 117 — 
+
+
+• cn • ^ * r 
+
+«cn» ^ Zm ^P-p)^ 
+
+• 5 • mf^oi «paT^ 
+
+• oi»)^ ^ 1^2'^ ]La\^ A-ao^ )*3® 
+
+•'V •‘^?f^^ ^ K-^^=? 
+
+•sij «cnj^iaps 
+
+jlijZp aifiS^oiko • Z^3» la2p ^i^^pa 
+
+oi^^»-j ,^ • )— * • Zs»^ oapnv.^ 
+
+• £f|i 2p6\ Zsj^Z l6m pks •tf^p.slz 
+
+•jwpaZa poi oiibiuZ Za-aJ^a ^ cnajcu2«^.3» 
+>«i2 «O^ 3-3kj^a ^ )aoZ*o 
+
+cn^Z vJBpcaPK T\’o*«f)p^Z3 en^la ^^2 
+
+Kxiojsx. c“iXax5 ^Z»a*»iXj5^ voobi <\a 
+
+• 9U • j01O»M lOIOat^CTiSV ^0 • OT— ^ 
+
+^en J^oi. *K’ )ii2o %J3^J 
+
+mir^ ^^ol]!iB:k? )»oi«3 
+
+
+Digiti^ by Googie 
+
+
+
+• jbcOM cTjt«2 
+
+*733J3 V^^O*CTpaJ\ ^„_^=^»=vA\,« 
+cfjsAkO^s Ciia ■• wi • ^ 
+
+)l^4io^ ^fl.*VKA,>ca 
+
+V2S3 AkrfZs «crjic^MiA 
+
+• ]LxmS' 2du2‘ 733J3p • 
+
+•'ladlh JOiosioMS ^2 
+
+•• — 
+
+cf|ipp 2js2 0 
+
+) ^^•^pSk cfpi jV«4*^^ 
+
+•uttXf^PK li\' JffiosiaXs ]bb3Uo*0^z».*]||^£L^ 
+
+
+• ^ • dpi SiO^f^I 
+
+^oaieso • ]LxaS.i.-:;5 ^oiKjUxa ^sJ^jL^pis 
+
+•o^asmox).^^ ]iaua\s\ »0^:1 • 
+
+]LxJa ]LiA«^«tf|p:pA ^erus y^'^9? 
+
+v.^-^ cSkfipoi' VM^bid «XTioiillA 
+
+
+Digilized by Googie 
+
+
+_ 119 — 
+
+
+3^ J-^5 
+
+)\ • 3^? Js»? • p*^ ■^=^.0* 
+
+Jia*j^3 en jVpM34 *oso^\ *rjb« 
+
+% ^3 -X\p»^2'0’i[ ^4 
+
+JLJ^fiteba )aA 
+
+• * ** * 
+
+•u\•]aoJ^i3 2 s*A Jaooi? Jas^»l\«Jao*A*is 
+
+)nTX J%J3?1 
+
+•pi*-=p]b s^a aai? • 0^ • 
+
+. ' : •jLeijoto o)\ >-M.axy 
+
+
+Analysis. . . ' • 
+
+
+3 Mt,l>o^a.K* 3 auctoritatem matris sanxit, 
+is aojc. comprobatio. <Ax 
+
+
+
+^CTiki’ optime meretur de Deo (ponet ma- 
+gna debita.) • v An t A i cormpit. 
+
+
+cf^V.* venient super te, vel venient tibi ; .2Ki 
+venit. ^4^ super me , »10^ super. ipso etc. 
+
+
+— 120 — 
+
+
+• extruit aedes. SOS • sjs ha- 
+bitavit. liabitaculum ; niansiu. 
+
+• evellet. sd^'« eradicavit. Zsitt^ 
+
+• *< * 04 
+
+radix. ZsjBX • sterilis. hjpfP^S^ 
+
+oisk^ • ne glorieris in ignominia. 0 X 3 ^ ho- 
+noravit.’ sX^ ignominia adfecit. PIO^OIl^ ]3i 
+ne confundas eum.Vova erubuit .V\«JU3»ftkOiaZ‘ 
+confundit. ^S^aa pudor. Ii Kas V 
+
+iiberalitas, elemosyna non obliviscetur. ussj • 
+justus fuit. U\’ oblitus est. jLa^f^o • 
+se se objiciet, plantavit, • obje- 
+
+cit se. jLsiSos ^Om gravissima flagitia. Om 
+reus, vel debitor, vel peccator fuit, con- 
+demnavit. .2 ^ {XSjLm *.X\OJaMM>e condemnatio. 
+
+^<Cl• ipsa recordabitur tibi. ^S* 
+
+o-xssAiZ* recordari jLjisxios commemoratio. 
+
+• • •» ' * • 
+
+
+Digitiz cai,'..CiiQglc 
+
+
+
+aestus adversus glaciem. 
+«^pM* ‘pM^* calefecit. *p.jw«f^_2 • )iep** 
+
+aestus; calor. ad abo- 
+lenda peccata tua. .a cessare; vacare; 
+
+l\ r-nram habere. V? abolere. 
+
+U2iV? vacatio. qui aspernatur. 
+
+<!^ojc • aspernari. contemni; 
+
+despectus, stultus alk^a» quae de- 
+decorat. 23k^ contemnit J despicit. 
+
+# 
+
+contumelia aftici ; ignominia. £T|x£LJ^ 
+
+s_X9^ parvum exhibe teipsum. 
+
+
+parvus fuit. pusillanimis JiiispXsa 
+
+breviter. ; quae diffi- 
+
+ciliora, quaeque fortiora te. )xa w*xa durum 
+reddere , obdurari. ; praevalere; 
+
+' 0 » n • #»*1 
+
+fortem esse. ua.^. • ne pervestiges. 
+
+
+
+— 122 — 
+
+
+v.j3Lnii inquirere, pervestigare. ii^»" 
+
+vestigabilis. <fjp5^-^.x2B super quae pracfccc- 
+
+% 
+
+iunt te. dominari ; 
+
+praeficere. • audacitas in 
+
+occultis. fidere. confidere- 
+
+w»^*v latere. v.*Sb^ftw?opertus e.st. ne 
+
+scruteris, vexeris. UMbV> • difficilem 
+
+se praebuit, curiosus fuit. )— difficilis ; 
+
+V 
+
+durus. Kiu-a ^6x>p^ » immagina- 
+
+tiones perversae seducunt ; .X\oso3*]biJ!^ abe- 
+ravit. 2’ seduxit. oi^Sm • naalus 
+
+erit finis. vxZa malus ' fuit. CCa2fV2 displi- 
+cuit; vjc)^2'malc fecit. v£k»oi u«^30* im- 
+pudens accumulabit. «-m3>o u#^ 2» audax , im- 
+pudens fuit, • v£UBo2*addidit. 
+additus fuit. pupillae. ^bibM destitutus. 
+
+
+128 
+
+
+^zaLm*» deluit, caruit. ]Ljk3A}pM damnum. 
+ze^s • es orbatu.s. careas: 3c^ orbatu.s 
+
+
+est. isCT— • .^0301— . orbatio ;-«caligatio. 
+].i- in».;ic,ao3 • irrisoris. > UQO^o • vjx«jio derisit. 
+
+. •* «t ^ 
+
+)j^p>o irrisio; subsannatio. : jLopo . calceus. 
+
+planta, stirps. plantavit. 
+
+plantatus est. cr:— , ,i pkntatus. 
+
+•« 
+
+ornatus. oniare; • 
+
+• extinguunt. • extinguere. *rf|k3« 
+extingui. *fj^3 • «X]X?24dein-.]Lixp H? 
+
+
+ignis inestinguibilis. ).3iooJbB sustentaculum. 
+cf|^ofi) <X^ab«tT|doS^« sustinuit, fulci vi t. 
+
+JjUaoa». recumbens. . 2 ■ • 
+
+
+♦ B •> oliaH ‘ 
+
+v33^(W)\o«]k\AuQ9;te3 tflO»^33 )\ «.tis 
+
+1\' oi_^ ^1 ^m 3 • la • I-bLjcm )i^soA 
+
+
+
+Digilized by Google 
+
+
+124 — 
+
+
+) oiMp: ll\o «c^os 
+
+• (hS^A( 13 i J 9 )oi^ • \\*Is^(^D 
+
+e 7 )^pv-ii «3 «J-AaSg ^ Kisoioao 
+2sAk/’o%4 1\ ) a^^s 
+
+
+3ui5^0 3<>J^ pOI •en.rff^oiiAa 
+
+• 0US-n 3 vAOibx cnfkJixs VLaso • ogKSA Oll^ 
+
+• • , 
+
+]i^a 3 ao 3 ]L>^»^x^p»] 1 »k g>aX tijxi^ ^ 
+
+ao*jiX 6 »t£^ 32 ]i£M^ aT)^ 2 ' 
+
+2 ^^t\MpiSk «LM •^ppi».*vy .3 jl> 9 ^ 
+
+]L..i'-«njn «TjMpa ]\'o* J^aiaio^OLii' 
+
+d • lyftyA ^jOCn •«< aZ^aSi^ 
+
+ciy« 2 ' Zocn^o • ?ja^^i,\,.aoa]L^ 
+
+•Ac^ 2 *oi* 4:3 %>o.r^ «N=««<ry 4 ^ 
+
+9 U.Ml^a ««Aa «c^ k*J^xA^fi 3 doa «laki s^aeaiA^d 
+• * • ^ #•»• • ••« 
+
+2 ixuL 0 u^ kH.»J 3 xa(^s^ad *aj • LjaM ^ 
+
+• \ • «*f #■*• * • ^ a 
+
+
+Digitiz^ by (Soogle 
+
+
+
+— Il.'i — 
+
+
+«fjus 2 sAk 2 b • 
+
+C7u*..MiaaXAo • ou • .eeuaitx ft>— .*J . L -< iJw 
+. • \* • # •' ' « 
+
+•2^^*yM ^bu0 fV<«20 • jixsfxa ^ ^ XJ c xac 
+
+lsx> ^^2 Us 6 mliox oDai uJi vX^s*o« 
+
+•• •• • • * 
+
+%^ojo •'>»mo*x:ja2 • aoei^ 
+
+
+^aX 3 ^ uA 0 i.ibXS ^C 7 | 0 ^ ^s 2 
+
+», # . • ♦ « , • # M » ## M 
+
+• oa^' ^A»/<f|paoi/ •(X|A*un<o%^ 
+
+^/•OiX «'ci^^Asa 0)A’ )L4J|^;^0 m]a 
+
+
+ooi o»aAx 2b o9100o3i^« hM 4X|QA0)& 
+
+# ## • * , \ * ** 
+
+^2s •o?a*A)Cvs^ ]\ <rpcai ^*3A 
+
+cisj^ia ^(^aua fVut2o«2afi^ liias 
+^0 • 1 ^‘ • oA • 
+
+U‘ •^A •cTjiilapAC} p^soioA 
+
+
+Digitized by Google 
+
+
+— t2G — 
+
+
+
+?«• ■^^V='?‘^V^ • »V“ 
+
+Jbc.usp^^ )\ *iA •H^S ]1^(^0 
+
+
+v^...a.,no^ *73ejft> ]3i Q • *f|«CTJ^*i.3 cusaSoA 
+]i'o •* rf)3^ TJ • Vjtl • pUrfto 
+
+^oai^ yos^»\X^ • ).y>>.Ax >.A m o,A. ZitaAtAk 
+
+•<n>osi^\xA^Aa'U^°*/^PB ixAtxA»/ 
+
+I « ♦ # 'O ' « ^ ' • i # t# 
+
+uujtio' laid • ZooiiVllasA 
+
+•xf|<^j£a. i.nla . 2oa-,(^ • oiA • tf){^si,.axj 
+
+ZoOlAk -1\ •oA'«cfl(lKS<>41iXs iAamSO La_Ot«d 
+jl-.aUfla Zoo^o. « «ajmoA <<|^Z ]l,.,\;|>itft 
+• . «'AAidoA 
+
+* • *9 
+
+.r . ' : Analysis. 
+
+ne derideas. JlJsiicio irrisores, 
+ne exagites. v.aa.J^ percutere. 
+
+
+DlgKizeu 
+
+
+— 127 — 
+
+
+exagitare; conturbari 
+
+folium. - ]L&*jkm • obtenebratum. . obscu- 
+rus fuit. rf)X4*f' obtenebra vi t. ne ve- 
+xes. rlolere. aegrotus fuit; us^2‘ 
+
+affligere. ne deneges. collibere. 
+
+cohiberi. miser, egenus fa- 
+
+ctus est. cf| 3^^ 2 indiguit. ^t^*accrbo 
+palato. rwjaimW ^«ex intimis praecor- 
+diis. pen amarus fuit. 
+
+maledixit. *^a^* fac te amare. 
+
+amavit. ‘73*^3 misertus est.^^SMSAi.^ consecutus 
+est misericordiam. «f)^2‘humiliare fecit, tfpao* 
+
+cfjM dejectus fuit; idem. tS^^2 ^s2« 
+
+praebe aurem tuam. «ne angustia- 
+ris. aegrotare. contristari. 
+
+^- * J t 3 3Aac3<:i • (fuique adhaerent. • UXUS 
+
+
+— 128 — 
+
+
+adh.ncrere ; U3U33 componere ^jups . volu- 
+men. liber. obtinebunt, in- 
+venire. UAidAtx^inveniri. impossi- 
+bile. solvere. ^«^fW3c2 discedere, 
+
+habitare. incipere. epulari. 
+
+s>a^.njBi6 • saxftkz]^» me possidebit, et acqui- 
+ret. At5.« • haereditare. Atsoi* haeredem 
+
+• # • •• •• 
+
+instituere. t.\Aa accusare.* cA,— accipere, 
+concipere. recipere. C^jLs^cri* perverse. 
+tS^rn redire. reverti «riach reducere. 
+
+xnoj^ojs2 ’^4^sjao et primum experiar eum. 
+)jxs scrutari probari. \^j^lk2 con- 
+
+templarn tx^m2» agam cum eo. 
+
+ivit, incessit. susurro. 
+
+5i-aLlCT • via. jL-i— iiw ambulans, pedes, tis. 
+
+cursim. Jb^poj • gressus. 
+
+
+Digitized by Googie 
+
+
+— 189 — 
+
+explorabo eum. *JDf^ scrutatus 
+
+est ; indicavit. * indicatus est etc. 
+
+' •* » 
+
+in tentationibus meis. jL-PsA uiSbii 
+tenta vit^ probavit. uJbiA^/ tentatus est; pro- 
+batus est. contirmetur ; plenum, 
+
+impletum est ; cum ^ consolatus est ; 
+
+
+impleri. u»^,aie perficere. dnoAen/ 
+
+* «• A • A f§ »0 
+
+convertar, et geram. redivit; 
+
+converti. cf|%en2* reduxit, ^l^ordi- 
+
+nare ; institui ; ordinari. 
+
+abscondita mea. )Ls^ occultavit ; 
+abscondit. tegi ; cooperiri. XTlo^a.^ 
+
+j9lo»ae^jc2b rejiciam, tradamque eum. pro- 
+jecit. wdoaf^/ projectus est. sibJos/ 'jecit ; ja- 
+culatus est. rapacium. rapuit ; 
+
+idem, raptus est. ^ 
+
+opportunitatem observa. custodi- 
+
+9 
+
+
+Digilizod by Google 
+
+
+— !30 — 
+
+
+yit; /custoditus fuit, % ne te 
+
+pudeat. erubuit ; Aioi«iiia2'pudefecit ; 
+
+\^AkcU 3 pudor. £fjJCSU vX^]^ adu- 
+
+leris tibi ipsi. C3M assumpsit ; accepit ; 
+
+^]Ls hypocrita ; hypocritae. 
+
+« 
+
+<T|{ilDp(Vl3 P^SOmA fateri culpas. u\^ 
+
+fateri , laudare. i Jflf^ labi ; offendere ; 
+
+idem ; impingere. ^ ne 
+
+r 
+
+contendas, 2s*« rixatus est ; pugnare; 
+
+instruxit ad pugnam; Jbiisy lis; pu- 
+gna ; rixa. v. 3 UJC!io jlssd • jactabundus ; 
+
+acnAJK •scusAok/ gloriari. remisit ; 
+
+t * 0 0 f , t0 O 0 ♦ 
+
+remisse se gessit. ocxA vjLi debilis, 
+inhrmus fuit ; ]bc»aLA debilis ; iners. 
+vVio^ao severus , et terribilis. indignatus 
+
+est ; oden insultabant. "V? •'^3* 
+
+timuit; terrorem intulit. vaa S J inar- 
+
+
+DlgKizen 
+
+
+oam coHigcie. arca ; ]s^js hor- 
+reum , apotheca ; compendium. 
+
+
+•o)«^]L 2L^ 
+^ *• •• 
+
+
+Z^lo p^ Ho ^ 
+
+•• 0* 
+
+,oovAa? oa lUi^a vA^y »uAa.M 
+
+1 ^den ]l]fo yo2^ 7 
+
+]A • ^ • pdi ]L_m 03 3*>Vj> 
+
+]Lao^3 * iU^ P^ 
+
+]\‘a • Jxaapx. «.A^k ]\ • o • ^«A uaax pin 
+
+/"^?**?? 'AJ^y • J • ViSLttoPK 2g^M *>A2k Zov!^m 
+
+< 
+
+•Ol^os kAjkOvOOp^ ^9^030 
+
+]\*0«)310>0^ U3p(^;^3 
+
+'^\>9 • loP*-! ^P- ^ 
+
+
+\KOi^ ci|io93^ ]$3 v J ^S ^ • BoJk? hs^ vAjk 
+• utos C^i*\ii.\ 2oo)^ ]\ * ^ 7 
+
+v^XiXjOOfi» fK*doi*)L*vA«k.3X )!^(^o 
+
+j^pO)«tJ^ • 2 o 91^ • (.St • cXjaiiox!!^ 
+
+ii^doi 2Akeirf{V_ai^d • A— aoxacA ^soisam 
+
+f 9 » * t 4 •* U • 
+
+K — trfi ^.p-.lL^fka 
+• «rpooa 'TX^ l]f 
+
+s?®^® • ^ 2:^1 .en- 
+
+Isa^S^ «o* *^oo)A )L_ms J-juivlxaa 
+. V • rfj>xA pd . xo 
+
+. ISis^aus )L Av\; 
+
+Af^CndOS ^ Mi W V A iX f ^X fciii^ i^py^o 
+
+• v-«O^A^^ ]i| SOX^d •(««• 
+
+Analysis. 
+
+^ fV-Z habeo , est mihi ; ista particula 
+
+
+— 133 — 
+
+
+conjungitur cum omnibus personis, et 
+suffixis ; ut habes tu , vel est tibi ; 
+
+idem gen. foem. illi 
+
+habent , vel est illis ; habent illae, 
+
+vel est illis ete. et quando cum suffixis conjun- 
+gitur, tunc significat tantummodo , sum , es , 
+est ; ut ego sum gen. oom. xnofiKaZ 
+
+est ille; ut c£|«AL«a2 tu cs ; tu es 
+
+gen. foem< vos estis; vos 
+
+estis gen< foem. ^oOl^2 illi sunt; 
+
+... • • 
+
+illae sunt gen. foem. IbuAxci oppressorum; 
+
+injuriam pati, defraudare ; jLspJ^ defrau- 
+dator , fraus , injuria. 
+
+
+ViS^oi^ accumules ; «^iMoZ' addidit ; 
+
+U / 
+
+additus est; adjunxit se; ad- 
+
+% 
+
+dens, accrescens. requiescet ; m«m 
+
+vmI quievit, reponere ; quie- 
+
+' I r: ■ . - i . ■ , 
+
+
+— m 
+
+
+scere, refici. ne cuncte- 
+
+ris poenitere; ^mX. a*i_x angariare ; 
+
+superesse ; 2 « morari, opft» ofi re- 
+
+. • » ( 
+
+» * > » I • 
+
+verti , resipiscere. u^A2'reducere. 
+
+
+ne differas ; cohibuit, impedivit. 
+
+‘pp*^ de die in diem ; IsjLpX prohibitio , 
+
+impedimentum , dilatio. .^cOafti_aoL3d cum 
+
+tai'ditate. Vide supra. ^ s*kS 
+
+pendet ab eo qui loquitur. 
+
+loquutu.s est ; dici ; r^fi- Ti? 
+
+inenarrabiles. ^octA Jboa dejiciet illos. ) 
+
+ut supra, ne no- 
+
+
+minaris dupliciter ambulans. Js-M vonavit.; 
+«3 jJa 2 vocatus est ; ambulare» 
+
+• ' ' ' ^ I'.# Ci- 
+
+ne impingas. <A, jftt apprehendere; 
+impingere ; illaqueari. A^JLjspAi laqueus , 
+
+scandalum. pondus ; ponde- 
+
+
+— 135 — 
+
+
+rans. ^Aioua creata est ignomi- 
+nia. r6ma o*Z3 creavit , creatus est. 
+
+K-fM creata , creatura ; jU^paiia creator ; 
+
+creatio, atrox infamia. 
+
+contempsit contumelia affectus 
+est. ^LViP^ ignominia; maledictum. 
+
+multum vel parum. multi- 
+plicavit; vOi^2’magnificavit. minutus 
+
+fuit. u#p^^ TJ[ ne delinquas. perverse 
+
+egit; peccavit; deliquit. vel )jai. an- 
+
+gustia. «jaoVi contristatus est ; 
+
+tristitia pressus , vel affectus est; vJ3^2’pres- 
+
+sit; vexavit; contristavit. )jcu*J^ cor moe- 
+
+rens. iKp n »-V.»ao angustia. .SKpJBfc-o^X • 
+
+j^pxn^Aop idem. 
+contristatus y afflictus , moestus. 
+
+
+— Digitized by Google 
+
+
+
+— 136 — 
+
+
+(i) 
+
+]LmX 2ooi(^ jboMa v^AmO 
+
+wlx jlsoMO 2sS»mo • AtaZiV ]J^Q ]buJ9 
+is^}-a cfjAAtxPlk Q «o a^AisAci «f|Api_aoa 
+• Os^acfjlLM 2aoAk «fj*2 \jkJsStk 
+cr|«2afjxrac.Ako«do^f^ «iys2o 
+•dtbo viijSMA^ )luxs •}x\»l 
+
+]m*a>i 3 )aeoSaoi a xnoa^akAk ;a)o]bk«oi pno^o 
+)^nA]x J.a]LJx 8 ^(^OSSSO aXnA>Oaa 3 ‘^ 03 ^«ia 
+
+a ^]Lv^ ^00)8 \s\]x a O a )L>o^a 
+
+]Ltoa«a ILain a 9 avflA^ ^ 
+
+iSoiaAtSbfK IJo aiaio^xa )x4b,\.n 
+
+
+( 1 ) Hoc capitulum sine punctis vocalibus 
+imprimendum censui, ut Tyrones se se exer- 
+ceant legendo sine ipsis ; cum midta inve- 
+niantur scripta illis carentia. 
+
+
+— ^gitized by Googie 
+
+
+
+— 137 — 
+
+
+yXa Qo* uA Ja Jmms *ut • i^oidU 
+
+• ^oA22oou<]ftc3^*y^»)l&^o2a 
+
+widAk ^ *]Lt • cf|&M 
+
+
+•}x!i^Aao «t}*oo9B • «fp cx|aaoia 
+
+Au^oi . «rpMa ^o.«sEwaAk^ 0]]lia».^ «vj^ta 
+• om )1 mms 2Hxa Jmm3 •34«^ov9 
+
+r.^ ' * ■■ 
+
+'jUtiSrnm* «)[!kvJD<Mb <^.,».— ajc» jffio&jihaJboo 
+
+ILIb^Wm fVLi^o • jLjkao^ OlJk^AbA- I^axictsm 
+
+
+•JStmf odi Jadb T^oxiasm yms mos • oif^oa*^ 
+xnoA^a • f* • auacn • Jod]\ CL*a Jaaio 
+)L^cn oif^oaia vU^ a^Akoaf^a 
+
+• ]b^A« tXao ^ Ma^auM •flttOMa 
+
+• • “pcxioAM u*axAt «X|C^as*$bA jlao^o 
+
+• c i «-aoiua ^ 90 ^ 'cCj^io ,Iao 39 «f |«2 
+l-Aao-k <f|a2« «Cj «(JloaoMA) cnAiXivf ij^osto 
+
+• •^oaI^ diai uLipo aUaokAk 2 aek 9 
+
+
+Digitized by Google 
+
+
+— 138 — 
+
+
+piao3La«.Sba ^ Av* ^»«_w 
+
+l^stjo* k$di ^ fl i ) i.i % «f]a/ *OA • IslI 
+u^2 o\^«(.V^*cnuAxie sa*iA ]\c*XDAk 
+^Xao« «ioMsAcio U ]CLnib^o •'0u£^o« 
+•ht(^o3S>o'<!^9^^A^ ]l\o ^^»o\ A "I no 
+
+•cC)ao^ 1^2 o u a> ^ , i o • ij^ vlvZ 
+
+uDmA^^ )^o oiJXoaxo ’<f|aA>A ca»«cpv& 
+
+• o)i\j^ oou oiLfvn »0^ • oiA^ouaxs 
+
+ua»«9& «oif^MSoi a^ ci^' o|L^o 
+
+• ouSaAk )\o oia ^-JO^Atio*tfCMAxAto tAno 
+I^Aam)a*a^^O'%mi 'uktkxft» )k\Mo«vM& 
+
+)jL2iAo*cfjxai(^ isOrfia -]xa^o*vi‘»]i3jOGk 
+
+1* ]La 11 «f)a!^jaA» ^Ai^Moaxftip 
+
+^^■3^ ^b • ]La^At 
+
+
+Digitized by Google 
+
+
+
+— 189 — 
+
+
+(Wioo; ]L^3 • cf|&32 
+
+«pi • 0^ uispf^/ *73«A*< ox>o ^9 mo • y]ja 
+• Ok - >>X. V >Ji )-S^ ^avtOOl 1^0» 
+yUA^t 01>0 )>oXAm 3 
+
+• ^•cfjAl^a MAOsAto • xrto*kso 
+
+AmOOI 0)OApBOdiSO • 2 oA 2 s 01{V\mSJB ^(Wlb2 
+
+
+^ ^0« cijf^soi^fVa peno«^«*7ao«X:^)bis 
+
+- . •■ 
+
+
+Antequam huic elementorum opellae fi- 
+ncng ;imponc\m 5 operae^ pri»eUum <luc9; ed^re 
+exemplum Epistolae, sub initium vertentis 
+armi mihi transmissae a iRino' Patre Elis^a , 
+doctrina , et^ pietate insigni y qui est nunc 
+Abbas Generalis Ven. Cochobh Chaldaeorum 
+S. Horaiisdae Martyris, prope Civitatem gran- 
+dem Ninive. Ea namque in primis est, quae, 
+cum mihi , cur hoc opusculum caeteris per 
+me jam editis ( 1 ), adderem , causa maxima 
+
+
+(l) Benignitate Emi, n Rmi Principis 
+
+
+Digjtized by Google 
+
+
+— UO 
+
+fuit ; tum lectores meos facile admonet, non 
+semper libros ex libris ipsis judicari opor- 
+tere sed maxime ex commodo, et utilitate 
+eorum , pro quibus conscripti sunt. Et hoc 
+plurimum etiam Tyronibus juvabit , ‘ stylum 
+epistolarem cognoscere cupientibus ; ex qua 
+intelligent quomodo incipienda , quomodo 
+prosequenda, et quomodo, terminaji^., at- 
+que subscribenda sit Epistola : quae talis est. 
+
+
+
+lisko ](<^jdyid ]La2* 
+
+« t 
+
+*■* 1 « 
+
+^ / * 
+
+.]isao 3 3^ .XvMBA 
+
+) «spA^s ^piib)Ue 
+
+)i:^pa riruli 
+
+„paJLo 
+
+
+— ^ - _ I * » • _ 
+
+S. R. E» Card. Alexandi Barnabb S. Con- 
+gregationis de Propaganda Fide Praefecti, 
+quem D* O. M. diutissime sospitem , inco- 
+lumemqiie tueatur, atque c6nsen>et. 
+
+
+— 141 — 
+
+
+oXa^Ak/s IsS^a 
+jLasA^o* p(^ oXo > Aa a Ok ossAlxib 
+
+
+]L Ac-m^Amo ^i.y3 
+
+^ .O.nn ^p:c «]L^d^o2<^9d • jLiii^aJoA 
+^3 )l«^o ^A> 0 . 3 «.^ 
+
+•^A>pova^4^/']tL£i^ 3 m^ oddi 
+
+,oaJi s^o jicbiX^ .oaAx^ X^»o 
+
+^)1A ^pA^o ]i:^^ ^*vxad ]i'6*»2 isisox 
+diPks^ ]LjCax3 ]Laep9i» Jl^jb^aja ^s]k 
+^3 ^0*CUJu:^ OlAtAiSpCIO 
+
+imo • ]L4 flnoj^^Jpo 
+
+•Au7^p3 7^3^? ^P^aMiis«3 
+
+X - J n^ d )— s5 JXioXs ^3 ^lo 
+Xaao • isVfts v^oa)1i3 ^u^ms ]iao^ 
+•]Ahxo *•• X^x /^AoJBO ^3^ Ay2 
+
+
+Digilized by Googie 
+
+
+
+
+
+
+
+
+^9 \fSS> 
+
+• <.$bd2 «^iNioS 
+
+
+
+
+
+XH^mSO 
+
+t 
+
+* • * 
+
+^sdcn 
+
+
+Haec eadem Epistola, ut cliaracteris dif- 
+ferentia cognoscatur, syriacis characteribus ita 
+cornponiturj 
+
+
+1^— ^ ^ 
+
+ir^Vo ^ \L.fy ^ 
+
+>^Zo^o^JI 
+
+)^3oo)f l^jeC^^!!k )l— flif\^Y> ^ 
+
+0 — ^iX)j l— iKa . y^^Skid^olj 
+
+00| — il\£) a^o . yK.T»»i^ Of VKa^Io 
+
+1 — )j^ 
+
+
+
+— 143 
+
+
+\ttd4AiSiAi^ ^ • ILk ^^ cl^o/jL^o • 
+
+000 | WftOX . ^ 04 ^ ppoo 
+
+• y^LoofJ^ ixij 
+
+lALi MU 4^\ MhUo i^\Ay> 
+
+usoWii^vu;^: ^ji^u'.^/o 
+
+^ ^ *v I ^ '•'I • r , fi fi 4^ 
+
+. «^*UUo% )K_^;_i, Ui'L<L\ Mu IU» 
+
+t~yaU )^U!^b lUosiio U») )!^aftail.a ^9 ^)o 
+
+P f 9 ^ ^ m. ^ 9 l P ^ 
+
+i^.«r MS^o ./puQO) poj«2^^adiif 
+
+.^ 4 jilo .... Ia^Ia! )>o^ I^^OAO 
+
+♦ I ♦ ^ 11 ’ < r, ^ *v 11^^ / ^ 
+
+^ ■■■ ft ^oo^— a |I o| 2 ^ ;4ou«c 
+
+. ^Jpoo . 1 )^ 0 ^ 
+
+\ PP % • ^ P H \P ‘1 * ^ M 
+
+
+< V 
+
+
+• • ^ p 
+
+V v£30S^ 
+
+
+'^/\o‘^z,:i^ ^z' 
+
+I ^ < 1* I ^ # 
+
+/4«) uikf ^Saa*^ 
+
+I ^ '*' • ♦ 
+
+4^>ooi 
+
+
+«.x€nq5)®>'TNj 
+
+
+Digitized byGoogIe 
+
+
+CRONOTAXIS 
+
+PATRIARCHARUM CHALDAEORUM 
+
+
+
+
+Digitized by Googie 
+
+
+
+— U5 — 
+
+Chaldaeorum Natio olira sapientia, opibus, 
+imperio adeo celebris (1), hodie misera ser- 
+vitute ubicumque oppressa, diversis Turcha- 
+rum sectis rniscranduni in modum subiacet; 
+eadem usque ad saeculi quinti medietatem , 
+vel ad saeculi sexti primordia verae fidei Ro- 
+manae Ecclesiae conjuncta erat; et tali unione 
+tantopere delectabatur , ut ejusdem Patriar- 
+chae rejectis quibuscumque aliis excellentiae 
+
+titulis, et quatenus ad Catholicam Ecclesiam 
+
+• * 
+
+pertinentes, Catholicos tantum- 
+
+modo seipsos appellari volvissent (2). At in- 
+felix , scisso ‘ illo divino fidei vinculo , im- 
+pii Nestoni haeresim amplexa est ! hac enim 
+de causa etiam Nestorianorum Patriarchae 
+us<jue nunc , sed immerito , hoc titulo glo- 
+riantur. Inde, uti accidit omnibus Haereticis, 
+in aliis sectis divisi , tam Monothelitarum , 
+quam Monophysitarum errores amplexi sunt. 
+
+Nos vero Chaldaeorum Patriarcharum Ca- 
+talogum , sive seriem edituri , quamvis ma- 
+
+
+(1) P. Strozza. 
+
+(2) AUi dicunt, quod hic tituhis illis con~ 
+ferebatur a Patriarcha Antiocheno primis Ec- 
+clesiae saeculis, cui subjiciebantur. 
+
+10 
+
+
+Digitized by Googie 
+
+
+— U6 •— 
+
+ximo cum labore, prae oculis non tantum Gl. 
+Auctores (1) habuimus, verum etiam Doctis- 
+simos , eosque probatissimos viros consului- 
+mus (2) ; et illis duorum quasi saeculorum 
+seriem , quae deest , adjungentes (3) , usque 
+ad SS. D. N. Pii Papae IX. Pontificatum, Deo 
+adjuvante, protrahemus. 
+
+Sed scias velim. Clarissime Lector, Eccle- 
+siam jugiter veram ordinationem , et succes- 
+sionem Nestorianorum agnovisse ; hoc enim 
+ex eo patet , quod sive Patriarchae , sive Epi- 
+scopi, sive Sacerdotes ad Sanctissimum Ec- 
+clesiae Catholicae sinum reversi fuerint ( de- 
+testatis prius erroribus , et facta verae fidei 
+professione) , statim ad officia propria exer- 
+
+
+(1) Assem. Le Quien Ord. Praed. Bzo- 
+vium. Amrum. Sozotnenum etc. 
+
+(2) Inter quos Rmum. J. Perronium e S. J. 
+praecl. Theologum, ac SS. Congreg. de Pro- 
+pagajida Fide; de correctione librorum Orien- 
+talium; Sacrorum Rituum; Indicis; Specialis 
+Congreg. Concilii; De examine Episcoporum 
+coram Summo Pontifice etc. etc. consultorem. 
+
+^3) Ex Faticanis codicibus, ex Musaeo, 
+.et Archivio S. Congreg. de Propaganda Fide. 
+
+
+
+cenda , ab eadem Ecclesia admittuntur : et 
+hoc potest j)robari exemplis omnium saecu- 
+lorum, nempe ex eo, quo ille Draco (Nesto- 
+rius) ab Infernis sedibus in fidei damnum 
+erupit , usque ad nostra tempora ; id quod 
+satis esse potest pro illis, qui Ecclesiasticae 
+Historiae vel elementa salutarunt. 
+
+Taceant ergo illi, qui , ad confusionem in 
+Ecclesia Dei producendam , in dubium tale , 
+ac tantum negotium blaterantes revocant (1). 
+
+
+(i) Hoc etiam ad SS. D. N. Pium Por- 
+pam IX. in audientia, habita die 18 Augu- 
+sti currentis anni , retuli; et cum SSmus 
+hanc audivisset relationem , perhorruit de 
+hujus loquacitatis novitate. 
+
+
+— 148 — 
+
+
+Patriarchae Chaldaeorum 
+
+I. S. Thomas Apostolus Sedis Seleucien- 
+^is Chaldaeorum Patriarchatus primus funda- 
+tor, qui post annos sex illam gubemasset, 
+relicto pro sua vice Addaeo , unus ex 72. 
+profectus in Indiam ubi martyrium consu- 
+mavit. ' . ' 
+
+
+II. S. Addaeus unus ex 72. sedit an. 20. 
+in Patriarchatu , tempore S. Petri. S. Lini 
+Romanorum Pontificum , anno reparatae sa- 
+llitis 68. 
+
+
+
+III. Aghaeus Addaei discipulus sedit an.23. 
+tempore S. Lini. S. Anacleti. S. Clementis 1. 
+Romanorum Pontificum anno salutis 92. 
+
+IV. Maris , vel Marai sedit an. 33. tem- 
+pore S. Clementis I. S. Evaristi. S. Alexan- 
+dri I. S. Xisti I. Romanorum Pontificum , an- 
+no reparatae salutis 425. 
+
+
+Digitized by Googie 
+
+
+
+— 149 — 
+
+
+■‘w? 
+
+s' 
+
+
+
+~ • > ' • » .. 
+
+• ILiiiiL? 2(i>Mo2f Zooid 
+
+0ij^p9d ^p^p» *jidx. iPoc 3(^0 
+
+Js4k>^A^ *csV • f»v> sm 2bdi jtioPL««23 ^s2 
+
+^j2o 
+
+• ^boi ]bof^ 
+
+ofkj 23*aolA«*VJSk*»30 3 m s^32*)bL«?J3 *0 
+
+• »» • •«• • \« * • *•' ' • • • 
+
+•fcf) 2{ipASrf3^3 Usbsp:^ u^; 
+
+)»ib3pj^ wi:^ '-•r/? ^ 
+
+• ^as ]L»hpA tlv N«3]i^ *p 
+
+• avSkB*^|a«9 f^JC 
+
+
+tiz^by Googie 
+
+
+
+— 150 — 
+
+Patriarchae Chaldaeorum 
+
+V. Abris sive' Ambrosius sedit an. 16; po- 
+stea sedes vacavit (1) an. 11. tempore S. Xi- 
+sti I. S. Telesphori. S. Igini • Romanorum 
+Pontificum anno salutis 140. 
+
+VI. Abrahamus I. sedit an. 12; prius vero 
+
+sedem vacantem per 11. an. administravit; 
+tempore S. Igini. S. Pii I. S. Aniceti Roma- 
+norum Pontificum anno salutis 163. 
+
+VII. Jacobus I. sedit annos 27; tempore 
+S. Aniceti. S. Soteri. S. Eleutherii Romano- 
+rum Pontificum anno salutis 190. 
+
+
+(1) Ne mireris , erudite lector , si adeo 
+prolixas vacationes in hac Patriarcharum 
+serie offendis. Nam primo id ‘in 'omnibus 
+sedibus usuvenit; deinde in illa Orientis 
+parte adest peculiaris causa: scilicet dissi- 
+dia, seditiones, praelia, discordiae etc. quae 
+utinam tandem aliquando finem haberent ! 
+N. B. Verbum hic significat « vacare » 
+
+et nomen « vacatio. » 
+
+
+Digilized by Go^Ic 
+
+
+
+
+>yf $tW * * ' * ••#. • • » 
+
+• )L «A^,3 «Oi 
+
+•^3|^a jUfsap^wAX «2« ^aa«aZ' «o 
+
+
+a i x\ )^M iaa A^h^ofJp 
+
+
+jUwSbaoi^ vil ,v; o{ki •i?»C3an-V,-J «9 
+
+' • . • •• • * , » 
+
+
+»A • 51^3 
+
+
+^ 2-Loww )Uip3-n d2 a»sAJ« T\' (1] 
+Z^spjb 
+
+^ot-Xm ^-di J_*?V. is« ?A • 
+
+^3 • jUsiii ^fi> 3 pA 
+
+)«>3).ae ]s3a 
+
+
+^>aio33 ]l^~*AaM/ 
+
+
+
+— f»2 — 
+
+Patriarchae Chaldaeorum 
+
+VIII. Ahadabui sedit an. 50, postea sedes 
+
+vacavit an. 10.; tempore S. Eleutherii. S. Vi- 
+ctoris I. S. Zephirini. S. Calisti I. S. Urba- 
+ni I. S. Ponziani. S. Anteri. S. Fabiani Ro- 
+manorum Pontificum an .-245' • » 
+
+IX. Sciahlupa sedit, an,' 50, prius vero se- 
+dem vacantem per an. 10. administravit; tem- 
+pore S. Fabiani. S. Cornelii. S. Lucii I. S. Ste- 
+phani I. S. Xisti II. S. Dionysii. S. Felicis I. 
+S. Eutichiani. S. Caii. S. Marcellini Romano- 
+rum Pontificum an. 289, 
+
+X. Baba sedit an. 50, postea .sedes vacavit 
+an. 15, tempore S. Marcellini. S. Marcelli I. 
+S.Eusebii. S. Melchiadis. S.Sylvestri I.S. Mar- 
+ci. S. Julii I. Liberii Romanorum Pontifi- 
+cum an. 554. 
+
+XI. S. Simeon I. sedit an. 28, prius, vero 
+sedem vacantem per annos 15. administra- 
+vit (1); tempore Liberii. S. Felicis II. S. Dama- 
+sil. S. Siricii Romanorum Pontificum an. 596. 
+
+•V 
+
+(1) Sub sapore martyrium consumas^it cum 
+suis sociis , qui erant plurimi Episcopi , Sa- 
+cerdotes, et Clerici (A pr. 21.^ an. 567. 
+
+
+DigitizeiLby Google 
+
+
+
+— 153 ■— 
+
+
+]LsozpA cs^ xrpjs^a )[m2«v*i , 
+
+
+• M %S>ZQA ^ 
+
+• ■^3 JitoSpA u^ 
+
+• ui • ^oje jLftspj^ ias tk^Jiosa • vA • 
+
+«sV^s ]isozoA vAx 
+
+• 0)M vA^S ^ 
+
+Lj^30& A^ Of^*2«O^JC *V* 
+
+• 0 « 0 •• 0 •• • 0 0 * 
+
+^{bsp^ 033 
+
+
+
+• hAX yi» 30OX (2) 
+
+‘p2k «jLo ^d<n ]bio(^«(^ OljVp^OlA» 
+
+•TkjiLa» Iaoj3fi»*a2*odc?i ocuA^^^? »iosjsj« 
+
+# */* •* • “ * * * 
+
+JaLsjH JaJa ^3ao3 Wacxaod 
+
+•2 «utopSbdos 
+
+
+— m — 
+
+Patriarchae Chaldaeorum 
+
+XII. S. Isciodost sedit an. 22, menses 5,(1); 
+tempore S. Siricii. S. Anastasii I. S. Inno- 
+centii I. S. Zosimi.' S. Bonifacii I. Romano- 
+rum Pontificum an. 449. 
+
+XIII. S. Barbasmin sedit an. 16, postea se- 
+des vacavit an. 10 (2); tempore S. Bonifacii I. 
+S. Celestini I. S. Xisti III. Romanorum Pon- 
+tificum an. 436. 
+
+XrV. Tumarsa sedit an. 8, prius vero se- 
+dem vacan. per annos 10. administravit; tem- 
+pore S. Xisti III. S. Leonis (magni) I. Ro- 
+manorum Pontificum an. 454. 
+
+XV. Kajuma sedit an. 8, postea sponte pri- 
+matum abdicavit; tempore S. Leonis Magni. 
+S. Hilarii Romanorum Pontificum anno salu- 
+tis 465. 
+
+
+(1) Sub sapore martyrium ioasumavit 
+
+cum 128. sociis f'20 Febr.). 
+
+(2) Sub sapore martyrio functus est 
+Martii )% i 
+
+
+
+— 15 » — 
+
+
+)J^3pa *aS^ AkibdsXexa }iCrfajn»vg< 
+
+• 7x30M0«uaa> 
+
+^»apA ^*.ynr,V.pTH ]biLgja • «.v^ 
+
+Jjjbapft •tu «^iluc «^31^9 
+
+• )J!|b:pa vAj^ 2^^op(V «9« 
+
+• V.J* ^.!ix 
+
+•w« ]UobpA ^ u^ )ltepijB«ou 
+
+]UttbpA^ ^fxLs^ V. J. 33 C 
+
+
+«cfj 01 (^ 090 IA» ^1'J 
+
+• fflOS^»\MAJS •'73^ 
+l-dofV-MfVao o;A^ 030UA> soJix A^omA» fv.s') 
+
+
+Digitized by Googie 
+
+
+156 — 
+
+
+Patriarchae Chaldaeorum 
+XVI. Isaac sedit an. 11, tempore vS. Hi- 
+
+larii , aut juxta alios liari. S. Simplicii Ro- 
+
+• • 
+manomm Pontificum anno reparatae salu- 
+tis 474. (1). " 
+
+
+(1) Tempore istius Patriarchae S- Hormi- 
+sda Persor-Chaldaeus sub Veror ane secundo 
+Persarum Rege cum magna sociorum mul- 
+titudine gloriosissime martyrium consumavit 
+
+* • • . 
+
+die 20. Augusti an. 467; apud Baron. Bol- 
+
+• . * • * 
+
+* « 
+
+lan. Theodor, 
+
+Sub ejus titulo habemus Coenobium parum 
+a Ninive longinquum^^ in quo sanctissimam , 
+ac poenitentem vitam Chaldaei Religiosi de- 
+gunt, qui bono exemplo, ac Ev angelica prae-- 
+dicatione Christifidelibus illis in locis, ma- 
+
+
+
+Digitized byGoogIe 
+
+
+— 157 — 
+
+J,ik 
+
+]LjL;jb J-a]La ^^3 •]* 
+
+2^ sStM^b • • JbpasSLoi 
+
+
+^sdw i^aio (^) 
+
+Abdi ^-boAtMA^ cnAoso^ ? ) »^. ft > 3^ 
+
+«« * ** #* 
+
+Aix .ijJLb •rfj.jMbsa Jaibp ^W3c> 
+
+)ibis CfJ_3CXJ3 2 s« 3 ^ Arf2 • ptoab • ^boS 
+
+• ^3001 ^3? ^^3 lima» 
+
+d^obo ^ «V* 
+
+oiao.J^ ‘730*.! JaLpJ? en^io 9 ^ 
+
+^CTi i' ^saeXf^p '^=-^= 
+
+Ijc-Sjdo ]La^^ ^eTuaaVJao 
+JS\fxi«^Ap2 g O ^. % ab • ^ ,» 5> Ay 0 ^93A» 
+^J3c^o*)*^p3 fcjiiiloAjii 
+
+
+Digilizad by Googie 
+
+
+
+158 — 
+
+
+Patriarchae Chaldaeorum 
+
+XVII. Acha sedit annos 7. (1). Ipse om- 
+nium Sanctorum acta, qui sub sapore marty- 
+rium consumaverant collegit ; et martyrum 
+monumenta devoto animo visitavit; sedente 
+S, Simplicio Romano Pontifice an. 482. 
+
+XVIII. Jabalaha sedit annos 8. Iste in di- 
+versis Patriarchatus partibus diversas Eccle- 
+sias instauravit , multas vero e fundamentis 
+excitavit ; et Liturgiae libros , Chaldaice scri- 
+ptos, Ecclesiis distribui curavit; sedente S, Fe- 
+lice III. Romano Pontifice an. 489. 
+
+XIX. Mahnes sedit menses 4» postea depo- 
+situs fuit. Mortuo Jabalaha , hic subornatis 
+Regis Persarum Praefectis, ac multis fidelibus, 
+Patriarchalem dignitatem per quatuor menses 
+obtinuit ; phires libros, ex Chaldaico sermoine 
+(et non syriaco, uti quidem historicus asserit) 
+in Persicum idioma traduxit. 
+
+
+^na fame spiritualem panem esurientibus, 
+magna sollicitudine , ac zelo perpetuo frege- 
+runt , ac frangunt. 
+
+(i) Sub hoc Patriarchatu an. Domini 481. 
+Graec. 79^.S.Jacobus intercisus Persa-Clud- 
+ddeus cum ingenti sociorum numero marty- 
+rium laeto animo consunuwit; imperante V ?- 
+rarane secundo Persarum Rege. 
+
+
+
+— 159 — 
+
+.(:).j.^ 
+
+*:\33 ^soA> v^ u^ ^^2*odU *Um 
+
+• . . * ♦♦ 
+
+• U«« ^>JL3C 
+
+
+]La3 ^ia^ -a a <^pcn» J^ua 
+•^91^ ^3^ U^:» • %i^p, ,o^p^2 ^ 
+ea lisspv!^ 9){^p^^ ^oukii^ 
+
+• •J-A?? 
+
+• ^a. (^x ULbfi^ Taoi 
+ss^.lfXoSp ^a 
+
+j .qJ^ ? dj^paoiA) Vooi 
+,^Vu2a XTidaAM ‘TaX )li^4 ]Libaa llsfiiaao 
+^<^ad 2oei tf j Aacy 94 * ^/^V^ e|pdi 
+
+• ]l^aa )a^p K«aAt 
+
+
+Digitized by Googie 
+
+
+
+— 160 — 
+
+Patriarchae Chaldaeorum 
+
+XX. Marrabost sedit menses 8, postea 
+ejectus fuit. Hic quoque, oblata magua auri, 
+argentique summa Cobadi, Phirozis Persarum 
+Regis filio, enmque induxit, ut eum ad Pa- 
+triarcham ordinandum Episcopos compelle- 
+ret; sedente S. Gelasio Rom. Pont. an. 492. 
+
+XXL Dadiscidh sedit an. 13, et aliquot 
+menses ; tempore S. Gelasii. S. Anastasii II. 
+S. Simmaci Rom. Pontificum anno reparatae 
+salutis 509. 
+
+XXII. Babbai I."* sedit annos 26, tempore 
+S. Simmaci. S. Hormisdae. S. Joannes I. 
+S. Felicis IV. Bonifacii ll. Joannis II. Ro- 
+manorum Pontif. anno reparatae salutis 534. 
+
+XXIIl. Akak sedit an. 15. menses 9, tem- 
+pore S. Agapiti. S. Silverii. Vigilii Romano- 
+rum Pontificum anno reparatae salutis 551. 
+
+XXrV. Babbai II. sedit anno^'6; hunc pri- 
+mum , dicunt Auctores , Nestorianum Pa- 
+triarcham fuisse, 'tempore Vigilii.” Pelagii I. 
+Romanorum Pontificum , anno reparatae .sa- 
+lutis 558. 
+
+XXV. Scila sedit annos 14; iste' primus 
+Patriarcha fuit , qui suum successorem desi- 
+gnarvit ; hic mos 'usque nunc apud Nesloria- 
+nos viget ; tempore Pelagii I. Joannis III. 
+Roman. Pontif. anno salutis 573. 
+
+
+Digitized by Cocv7k’ 
+
+
+
+— 161 — 
+
+
+.vV* 
+
+]LJ*3<>a «(«iMap 
+
+)LJjb=aak vJL-V :• «ifi ' 
+
+001 \Sk^o «VM • ][mS^ ^pA a ja ^^ s 
+
+iLkftSpA ^ 
+
+• * ' ' 1 
+
+• i^p }^3pA \SSf^ 0.0X433 «7a 
+
+• ][m 34 ]boAp‘*0^*^X 
+
+LfiaSpOk • i • UJU • oo 
+
+w 0 • f • •#t#r • 
+
+« • ' - . » • \ 
+
+, • OA • ^ \ X 
+
+^poiuSb^^P ]i^3pA <!b: 0%4 v^.S^O^ 
+
+• • IImS^ • (TU 
+
+• 3^^P ]l*|b30rik • U Ar • 3A 
+
+• 0 • ^.\X 
+
+* I 
+
+•p*«^ox«^^:ap jL^spo w3^}!Lx*oia 
+
+
+DiQLti/ed by Googie 
+
+
+— 162 — 
+
+Patriarchae Chaldaeoriun 
+
+XXVI. Narses ambo Patriarchatum con- 
+
+XXVII. Eliseus tendentes schismam per 
+annos 12. produxerunt; tandem, mortuo Nar- 
+sete, Eliseus ejectus fuit, tempore Joannis III. 
+Benedicti I. Pelagii II. RR. PP. anno 588. 
+
+XXVIII. Paulus I. sedit an. 17., tempore 
+Pelagii II. S. Gregorii ( Magni ) I. Sabiniani 
+RR. PP. anno 606. 
+
+XXIX. Marabba I. sedit annos 19. men- 
+ses 6. (1), tempore Sabiniani. Bonifacii III. 
+
+(1) Tempore hujus Patriarchae an. 614. 
+juxta' alios a Chosrove Persarum Rege, 
+
+debellata Jerosolyma , Crux nostrae salu- 
+tis captiva deducta fuit , et in Chosrava 
+(quae ex duobus vocabulis Persicis compo- 
+nitur, scilicet bona, optima, f-tj mansio , 
+quam ipse aedificaverat , cuique nomen suum 
+imposuerat) , per 14. annos asservata fuit; 
+postea per Heraclium an. 628. redempta fuit. 
+Hinc evenit, ut, ubi illa salutifera Crux in 
+custodiam erat inclusa , ibi Fidei Romanae 
+radii illorum mentem primitus illustrarent j 
+et ego de tanto lumine superbus perpetuo 
+gloriabor : cum omnium primus Jona Gu- 
+riel meus maximus Patruus an. 1753. reje- 
+cta impia haeres i Nestoriana, veram fidem 
+
+
+
+
+
+— 163 — 
+
+T . / ■ • « ... . . . . , 
+
+I uteoisOSk 
+
+•^? JisbioA 
+
+• ai^s )^aoA V..1X csAk.« • 2«vSb^oa«VM& 
+]L^3<l& <A_x •Z«)ii2’vrf=fto*v!^^ 
+
+ZJacIVx ft>a3 c j a ]Uk3uaS^ Jaiwa oiAi.3p ^2'j 
+^itoVaboM Z^Atx JLaaM/ A^oS^d • aftikjab^' 
+^]oAxad]\ paAO 
+
+o> ^ — A *?^— 4 ou • ]L-»L »4 )A^a>ii )i^o 
+^gio y ottox jj O1SJ30 01^ 0013 La^e^n 
+.A**Ao2’Jrfibaa ^aA ^ v.^aA>^ ]LirJt 
+]ii.3x cxio . ( ZaaoVA, • )i^ ir^ 
+
+
+
+— ■ — Dk)i^«*-j by Google 
+
+
+-_'164 _ 
+
+Patriarchae Chaldaeorum 
+
+Bonifacii IV. Deodati..Bonifacii V. Onorii I. 
+Romanorum Pontificum an. salutis 627. 
+
+XXX. Josephus I. sedit an. 6. cum ab ejus 
+depositione sedes vacasset an. 12. hic medi- 
+cinam optime callebat , quam Athenis didice- 
+rat; postea finitis studiis Regis Persarum ne- 
+potem a morbo liberavit , ejusque suffragio 
+Patriarchatum obtinuit : sedente Honorio I. 
+Romano Pontifice, anno salutis 634. (1). 
+
+XXXI. Ezechiel sedit an. 16. prjus vero 
+sedem vacan. per 12. an. administravit; tem- 
+pore Honorii I. Severini. Joannis IV. Theo- 
+dori I. S. Martini I. Eugenii I. S. Vitaliani 
+Romanorum Pontificum, anno 666. 
+
+
+amplexus est Oh Chosrava , exclamare 
+
+possum j Te Beata 1 quae talem , ac tantum 
+meruisti in tuo sinu custodire Thesaurum l 
+(1) Eodem tempore S. Anastasius Mona- 
+chus Persa-Chaldaeus sub Chosrove Persa- 
+rum Rege annos die 22. Januarii, ma- 
+gnd constant id , cum septuaginta sociis , 
+martyrium consumavit; cujus virtutes, et mi- 
+racula tercenti, et quinquaginta Patres in 
+Concilio Nicaeno Oecumenico, actione quarta, 
+celebrarunt. Baron. Bollan. Theod. 
+
+
+O T , 7t4t , wft Iu C^O^t’ 
+
+
+
+— 1«5 — 
+
+• ]i*£sSp 3 k • 2 •kSttO.a • vA 
+
+• \J3s • 
+
+• iS^9 J-^Sf» ua^ji d*Ja?M 
+
+
+•^^(^2 ^ 3(^0 Jj^f-a 
+
+^itaflA ^JaiofVx Atixa jiady ^p^aoi ^ 
+o * 2 » 3 sc }^ jl^aao • 
+
+«;KaiU»«s3xa*\^]L3p^ ]s3sooA3 
+• )i. 3 .^ ^oudxa vj..^ov.'i 
+
+Zaoip» Ubo^\^i'Z'M^ o(u va£b (^l"j 
+(^ocn 0)j^paciA U?A£k .Jis-S 
+
+paSb^ t— xAy fVp*i{^ jOfiosJSM ^^x.ax 
+•u«SMb • f^k-Axa .aisLa • C3J& • Ji^asi 
+
+^ M«)ia(Vtao IxaSa aioaidpao oij^aaoatVo 
+
+X • t* '• 0 * 9 * • ••# 
+
+
+Digitizad by Googie 
+
+
+
+— i6ti — 
+
+
+Patriarchae Chaldaeorum 
+
+XXXII. Isciojab I. sedit an. 17. menses 8. 
+tempore S. Vitaliani I. Adeodati. Doni I. 
+Romanorum Pontificum anno 67fi. • 
+
+XXXIII. Sabrisciu I. sedit annos 8; tem- 
+pore Doni I. S. Agatonis. S. Leonis II. S. Be- 
+nedicti II. Joannis V. Cononis. S. Sergii I. 
+Romanorum Pontificum , anno reparatae sa- 
+lutis 688. 
+
+XXXrV. Gregorius sedit annos 34. postea 
+s^des vacavit annos 10; tempore S. Sergii I. 
+Joannis VI. Joannis VII. Sisinii. Constanti- 
+ni ; isti duo ultimi ambo fuerunt Chaldaei e 
+Provincia Syriae. S. Gregorii II. Romanor. 
+Pontif. anno salutis 728. 
+
+XXXV. Isciojab II. sedit annos 13. prius 
+vero sedem vacantem per annos 10. admini- 
+stravit (1), tempore S. Gregorii II. S. Gre- 
+
+
+(1) Ah isto missi fuere Missionarii fidei Ne- 
+storianae in Sinorum imperium. Provinciae 
+
+
+
+Q 
+
+
+(Xen-si), cujus longitudo ex- 
+tenditur a gradibus ad 103; in civitate 
+
+(Si-ngan-fii) ad praedi- 
+
+
+^ M 
+
+
+candum Evangelium. 
+
+
+
+
+
+— 167 — 
+
+
+uaa fktJacM • 0« • 
+
+• CB<» ^ *> A X 
+
+L^aa& cs(Kii.««2*vJi(^ox^*tA^ 
+
+* § 0 9 •* 9 9 9 9 
+
+
+•Vm • )m 340 • f* • 
+
+7_ijbap^ sXj^ • Z • \x6xfi^ • 0^ 
+
+•u« • 
+
+•a^Sa )i*$bap^ ulx wcadaadX^^* ^ 
+•M» ^jux ^*^aoA 
+
+l_^aa& • V3 •v^diAVoxA «oiA 
+
+f 0 . .« • • • 
+
+i^aa «aZ^$ 
+
+g i^ i ^aa 
+
+
+) » ^oi^Z' ■„„«. ,xar>»«o 
+
+JLaAoaaa ]!j,JUaZj^ (4bpa^pfi>a 
+)_-i'ap:^^ J-^gUA oa^ftotZ co^ ^Z) 
+
+
+Digitized by Google 
+
+
+
+— 168 — 
+
+Patriarchae Chaldaeorum 
+gorii III. qui fuit Chaldaeus e Provincia Sy- 
+riae. S. Zachariae. Stephani II. Stephani III. 
+Rom. Pontif. anno 757. 
+
+XXXVI. Marimme sedit annos 4. Aucto- 
+res asserunt , eum, colloquio cum Catholicis 
+habito, haeresim Nestorianam abjurasse; tem- 
+pore Stephani III. S. Pauli I. RR. PP. an. 7C2. 
+
+XXXVII. Isiojab III. sedit annos 10. men- 
+ses 3. Iste Patriarcha, praeter diversas episto- 
+las , multos tractatus de haeresi Nestoriana , 
+de disciplina • tam monastica , quam ecclesia- 
+stica scripsit , tempore Romanorum Pontifi- 
+cum S. Pauli I. Stephani IV. anno 772. 
+
+XXXVIII. Georgius I. sedit annos 20. qui 
+fuit Persa nobili genere natus , factus Mona- 
+chus in Coenobio S. Jacobi , totamque hae- 
+redi tatem eidem monasterio assignavit ; se- 
+dente Adriano I. Romano Pontifice an. 792. 
+
+XXXIX. Joannes I. sedit annos 5. tempore 
+Adriani I. S. Leonis III. RR. PP. an. 797. 
+
+XXXX. Hnanisciu I. sedit annos 24. postea 
+sedes vacavit an. 4, tempore S. Leonis III. 
+Stephani V. S. Paschalis I. RR. PP. an. 816. 
+
+XXXXI. Slibazha sedit annos 12. prius 
+vero sedem vacantem per 4. annos admini- 
+stravit, tempore S. Paschalis I. Eugenii II. 
+Valentini. Gregorii IV. RR. PP. anno 837. 
+
+
+Digitized hy Goo^jlt' 
+
+
+
+— 169 — 
+
+^SbSQA OflcJ! MUio • oA 
+
+•iS^s )UozpA ^ ac^dxa* 9 A 
+
+• vj^a^sj «M «^««AX 
+
+) — i^boA «2 avib^fo^aUtA 
+
+acr|*^*jix 
+
+)— *J»SpA <A >> a 2 a a O^A 
+
+a 01«^^ Xxa&sus^^s 
+)L» i bspa Al^ * ^ * *y^ 
+
+aSa^«Ax ]Usb30C^ ^S^ilaDAa^X 
+
+\..isnZp^ V.A.X jL^^jLLJkg *]io 
+
+i-a3 Au^]L^3jd • o* a _Aix ^c:^a«3\-n3 
+Sa^i^ cruAA^.U %SoZp^ 
+
+
+^A3 ]i^iSp?l2 p^bi^A jLA^B ^pa^k^ 
+
+I apa ..jpnJ a Ufi9 
+
+
+Digitized by Google 
+
+
+
+— 170 — 
+
+
+Pntriarphac Cfialdaeontm 
+
+XXXXII. Phetion sedit armos 11. tempore 
+Gregorii IV. Sergii II. S. Leonis IV. Roma- 
+norum Pontificum an. reparatae salutis 840. 
+
+XXXXIII. : Marabba II. sedit an. 12, tem- 
+pore S. Leonis IV. Benedicti HI. S. Nico- 
+lai I. Romanorum Pontificum , anno repara- 
+tae salutis 862. 
+
+XXXXIV. Surin sedem invasit , tenuitque 
+illam supra 50. diebus , hic fuit Babylonen- 
+sis , qui annata manu Ecclesiam ingressus, et 
+violenter per Jacobum Metropolitam ordina- 
+tionem rapuit; sedente S. Nicolao I. Romano 
+Pontifice anno 863. 
+
+XXXXV. Jacobus II. sedit an. 19. men- 
+ses 6, tempore S. Nicolai I. Adriani II. Joan- 
+nis VIII. Martini I. Romanorum Pontificum, 
+anno reparatae salutis 883. 
+
+XXXXVI. Hnanisciu II.- sedit an. 4. (1), 
+tempore Adriani III. Stephani VI. Romano- 
+rum Pontificum , an. reparatae salutis 888. 
+
+
+(1) Adhuc ipso vivente ( vide not. antec. ) 
+erectus fuit Cippus lapideus in eadem civi- 
+
+
+Digitizad by Googie 
+
+
+
+— 17 ! 
+
+
+30^ «Vi3>0 
+
+•]L 
+
+).Ja» 3 PA (Aa! «> 2^ «VS v«S30 «(.v^ 
+
+• ^JjbspAA (^2 s^j 3 ».a^y 
+
+«jiaeoi U)o^ 9^0 
+
+LJ^spA JLa: t^AiM *cj3 •uap.JiVJi «ouo 
+
+• * ••#«• ••• 
+
+• O • * ^A X • 
+
+)j^3pA lix w2^l^«C3«vA6jC«Ai*M« 030 
+
+
+)bcjAA ><v« ] )<«fk3 lom moSksl 001 ^ T2j 
+
+ou 4^3 Uh^ T?^?. 
+
+^o^]La ]l»-»A3p!^fl»A XieAao»CT oOla {^odl 
+
+
+Digitized by Googie 
+
+
+— 172 — 
+
+Patriarcfme Chaldaeorum 
+
+XXXXVn. Timotheus I. sedit annos 49. 
+suae aetatis 97. obiit, tempore Stephani VI. 
+Formosi. BonifaeiiVI. Stephani VII. Romani. 
+Theodori II. Joannis XI. Benedieti IV. Leo- 
+nis V. Cristophori. Sergii III. Anastasii III. 
+Landonis. Joannis X. 'Leonis VI. Stepha- 
+ni VIII. Joannis XI. Leonis VII. Romanorum 
+Pontificum, an. 937. 
+
+XXXXVIII. Isciobarnun sedit annos 5. tem- 
+pore Leonis VII. Stephani IX. Romanorum 
+Pontificum, an. reparatae salutis 959. 
+
+XXXXIX. Georgius II. sedit annos 4. ju- 
+xta alios 3. suae aetatis 100. obiit , tempore 
+Marini II. Agaplti II. Romanorum Pontifi- 
+cum, aimo reparatae salutis 948. 
+
+tate (Sin-ngaii-fu) cui tota doctrinae Nesto- 
+rianae ratio characteribus Sinicis insculpta 
+legitur ; et Chaldaicis characteribus , quae 
+Kstranghela nuncupantur, insculpta cernun- 
+tur eodem in Cippo nomina istius Patriar- 
+chae , et Episcopi Joannis cum sexaginta 
+septem Presbyteris illam Dioecesim admini- 
+strantibus ; ego istam scripturam tam Cluil- 
+ii a icam, quam Sinicam legi in editione Pari- 
+siis facta a Cl. Panthi er an. 1838. 
+
+
+Digiiized by Google 
+
+
+
+
+]L*is3p£k v.^Jk vsAk!^ j»u i^exa •\**ac 
+
+* . • • * 4, t V • • . . 
+
+■ * . ■ • , ^ . ’ 
+
+I • • 
+
+* • / * 4 
+
+vA_.y *o • «ib^sd^ • 
+
+]Ln ap • o) • fWesA • a • • 9^^a 
+
+•# • • • * 
+
+‘ 4 WJ34’M^U( 
+
+
+^^puad .IdLiiayaa Zoui* oa2b '. 
+
+LiaoV,tea ]bt.»BX mF^so' • )boas>»a2' 
+
+• piipuija mSi yt^aiip oddi 
+
+Oiddi %^s\-A ^0^2’ «k^dio 
+
+♦ \ •* . • * • ' ' \ 7 
+
+oi_i«A»da iaJiUMa L^Ai>AJ3^ml A> .«aind 
+
+/ • *• • 0 * ^ • 0 I 
+
+
+Patriarchae Chaldaeorum 
+
+L. Sabrisciu II. sedit an. 5j qui ex Archie- 
+piscopatu DaihasCfeno ascendit ad dignitatem 
+Patriarchalem ; tempore Agapiti II. Romani 
+Pontilicis , anno salutis 953. 
+
+LI, Abrahamus II. sedit annos 12. men- 
+ses 10. postea sedes vacavit an. 3, tempore 
+Agapiti II. Joannis XII. Benedicti V. Joan- 
+nis XIII. Romanorum Pontificum anno salu- 
+tis 966.* - 
+
+. LII. Theodosius sedit annos 5. menses 5. 
+
+. • « 
+
+dies 14. prius vero sedem vacantem per 3. an- 
+nos administravit , tempore Joannis XIII. Be- 
+nedicti VI. Doni II. Benedicti VII. Romano- 
+rum Pontificum anno salutis 976. 
+
+.. LIII. Sergius sedit annos 17, ^menses 2, 
+dies 1, tempore Benedicti VII. Joannis XIV. 
+Joannis XV. Romanorum Pontificum anno 
+reparatae salutis 987. 
+
+LIV. EnOs sedit annos 9, menses 4, dies 5; 
+tempore Joannis XV. Gregorii V. Romano- 
+rum Pontificum anno reparatae salutis 997. 
+
+LV. Joannes II. sedit apnos 8, menses 2, 
+dies 10; tempore Gregorii V. Silvestri II. Jo- 
+annis XVI! Joannis XVII. Romanorum Pon- 
+tificum, anno salutis 1007. 
+
+LVI.' Joannes III, sedit annos 6, dies 35, 
+
+
+175 — 
+
+
+jljjbspA vAi-X < 
+
+•01 ^pASjii^a 
+
+•1^3 }^sp^ ^ ua • ‘73^3^2' «Ja 
+)jjbaoai ^ztfJi •'-s* 
+
+• Ai* 
+
+«^ab ]Laaipsk Alk o^«jbd^d;cj2^«cu 
+aas 3A •?• •)— sooi «Si *cn 
+
+• 2*):iooi*uS»]iMSi*V 
+.^.%3S )ibSi»a.vA^>a^.>*»^.?» 
+
+v!i:k *'^ •^^•oia 
+
+•C» •iMoi • C3 • )«Si • «#• • ^ »A3t 
+
+• i!^3 )Ua0A .v\.^p- «w 
+
+
+Digitized by Google 
+
+
+— 176 — 
+
+Patriarchae Chaldaeorum 
+
+po6tea sedes vacavit an. 1. (i); tempore Jo- 
+annis XVIII. Sergii IV. Benedicti VIII. Ro- 
+manorum Pontificum, anno salutis 4016. 
+
+’* * * * ? • 
+
+(1) Suh isto fioruit celeberrimus Gabriel 
+Archiepiscopus Bassorensisj prope Babylon, 
+qui plura congessit, compqsuitque opera; 
+praeter istum, et alios habuimus scriptores 
+Chaldaeos, qui diversis saeculis floruerunt , 
+eonimque numerus, usque ad decimum se~ 
+ptimum Ecclesiae saeculum, praeterit supra 
+centum triginta Auctores, qui de diversis 
+scientiarum ramis diserte scripserunt , et lute 
+proprio idiomate , scilicet chaldaJ.ee, et 'non 
+Syriace, uti multi vel ignoranter , vel mali- 
+tiose asserunt ; cum Syri in suis Lithurgiis 
+lingua Chaldaica utantur, tantummodo vesi- 
+calium tam formam, quam pronuntiationem 
+proprias habeant ; denuo habemus S. Si- 
+meonem I. qui fuit unus ex celeberrimis 
+
+
+Digilized by Google 
+
+
+
+
+— 177 — . 
+
+
+JL^apd j^o • o)& • )mo« «o • 
+
+•^2] •2»li^:it 
+
+
+t / . i • 
+
+r 
+
+
+(A]i«3fC^ M 2^ ]i^ )i'a (WpMfV ^ 
+
+•][ 3|^^pa^yo )-a gBCrt^ 2‘.]Li 
+
+26o) 0oie ‘* il»6i' 
+
+g^d es&so • 2a»i4.n • K^gJ \ao(k^ 
+
+
+«2]bay^A J^(Ka6 'isM^LapA 
+
+JapflU J-giag 5i»oJa ft^Z ^ 
+
+ogaX ]Lia^ K-sf ^ ,^!7< 
+
+gV vn-\«h ^ottfcAyo • 2)*j^ 
+
+•]L-3pAtji ^ 2]Lt^ •o^2«J%ax1 
+
+,* • 
+
+v^^oaA^as* LejsaM addi ^oi«tk«29 
+
+• * , • ■• ' _. t ^ * ' .• , , , » • 
+
+2ooi^ • )-i^MXao ■ jUaAfttg jSciJsX^ J^diao 
+
+^oAa^ ^Jldig Za^oiao 1^0» dZ , 
+
+12 
+
+
+— 178 — 
+
+Patriarchae Chaldaeorum 
+
+LVII. Joannes IV. sedit annos 5. men- 
+ses 14, hic fuit Theodosii Patriarchae Nepos; 
+et ex sede Metropolitana Mosulensi ad Pa- 
+triarchalem dignitatem evectus fuit ; sedente 
+Romano Pontifice Benedicto VIII. an. 1021. 
+
+LVIII. Abrahamus III. sedit annos 32.’ po- 
+stea sedes vacavit anno 3, tempore Benedi- 
+cti VIII. Joannis XVIII. Benedicti IX. Gre- 
+gorii VI. Clementis II. Damasi II. S. Leo- 
+nis IX. Victoris II. Stephani X. Benedicti X. 
+Nicolai II. Romanorum Pontificum an. 1039. 
+
+LIX. Emmanuel se<bt anno5^22. menses 9; 
+prius vero sedem vacantem .per tres an. ad- 
+ministravit, tempore Nicolai II. Alexandri II. 
+Gregprii VII. Victoris III. Romanorum Pon- 
+tificum' an. salutis 1087. 
+
+LX. Israel sedit dies 110. postea sedes va- 
+
+
+nostris scriptoribus, quique quarto Ecclesiae 
+saeculo extitit ; eodem quoque saeculo fuit 
+
+Maruthas Archiepiscopus usque ad Jose- 
+
+phurn HI. Patriarcham, qiu decimo septimo 
+Ecclesiae saeculo floruit. 
+
+
+Digitized-by Google 
+
+
+
+
+— 179 — 
+
+
+• ^ • 01 • \Jt 
+
+•5^3 Us&ipa Ji:k 9^.0s,.‘7:^*Lar*u.A 
+JiSbspA ^sWio.vaA-^ 
+
+} ^(^30i& Vi V — iX ><iil >i*^OXiom\i • 
+
+M*s ^ •'V •?— • CA-a • «g^aa 
+
+•M\r?t «vJ^* JitoppyaA 
+
+• 3^3 JLisbbpA vafK* ^A*73fi»a2«Ua 
+
+
+]m^s*02 iir . Vi b^o )iaK,\a 
+
+•J.&sxo • • «JL!» ,o^(ksl^ 
+
+•J— • j Jaisrfii^ «2 •^aoJt 
+
+J— aoPKa ^ 3^ 2boi ( ^^5p*9 
+
+• u 0^3 JjaojDSbjja2* •TMk^U^isrf 
+
+t »• • 1« *«••• 
+
+
+‘ -od by Googie 
+
+
+— 180 — 
+
+Patriarchae Chaldaeorum 
+
+cavit menses 7. dies 5, hic fuit Episcopus, et 
+sedis Patriarchalis custos; inde ad Patriar- 
+chalem dignitatem evectus fuit; sedente Rch 
+mano Pontifiee Urbano II. anno reparatae sa- 
+futislOSS. . . ^ 
+
+t 
+
+. LXI. Abdjesus I.- sedit annos 23. men- 
+ses 40. postea sedes vacavit an. 1. menses 8. 
+dies' 20. (1), ^tempore Urbani II. Paschalis II. 
+RoB^norum ..Ppntificum anno reparatae sa- 
+lutis 1113. 
+
+
+Patriarcha composuit opus de cau- 
+sis, sive de judiciis, fecitque multas humilias, 
+et interpretationes Sacras. Eodemqiie tempore 
+clanut celeberrimus Chaldaeus Abhassnus 
+Bahlul, qui , praeter alia , composuit p^oca- 
+bularium Chaldaico-; Arabicum; quem librum 
+habemus in Musaeo S. Congreg. de Propa- 
+ganda, Fide. ... ... . ;,t 
+
+
+Digitizcd by Google 
+
+
+
+— 18i 
+
+
+
+
+•9 • )LmSu 
+
+• 01 «jlaod* 
+
+•aS^a ji^SbapA bXX u3^.<»Z*c\ft,T.,tg.">V «?Sb 
+l^aprik vA^a ^a^j3 «(i^ 
+
+«dj • )acoi • u« • ILaM 
+
+
+•o^»i «xa ji^a •iJs^«t^noi%«a:i^ ^ •'^ste 
+)»aPL^ eraso caf^a 
+
+• • 
+
+2aae)i^ vi&2'8J^d« jL^a h»^o2"» j^iAAa vAa' 
+
+
+)aL^a^s ) icna (^omA^cI • ^^.xpao 
+
+•A^ova >i..i^M,"»/']U?Aao )Lm 
+
+]L*7Aa ?..tir\a 2a^o]A oA^^p a^p po|o 
+
+
+jLajia )i^OTo*)l*aar)Aj473^*^^{b^ 
+
+OQoxs )_3 L?jb ),.,xiaa /9:^ uoiofC- ^2 
+; •2aaJ^(}aa 
+
+
+
+
+Digilized by Google 
+
+
+— 182 — 
+
+Patriarcfiae Chaldaeorum 
+
+LXII. Maris II. sedit annos 19. menses 8, 
+tempore Paschalis II. Gelasii II. Calisti II. 
+Honorii II. Innocentii II. RR. PP. an. 1134. 
+
+LXIII. Joannes V. sedit annos 9. menses C. 
+dies 20, ex metropolitana Persidis sede , suf- 
+fragante Principe Scirath, in Patriarcham fuit 
+electus tempore Innocentii II. Romani Pon- 
+tificis anno salutis 1143. 
+
+LXrV. Joannes VI. sedit annos 8. men- 
+ses 6, tempore Celestini II. Lucii II. Euge- 
+nii III. RR. PP. an. reparatae salutis 1132. 
+
+LXV. Isciojab IV. sedem Patriarchalem in- 
+vasit, seditque an. 4. menses 3. dies 20, 'tem- 
+pore Anastasii IV. Adriani IV.RR.PP.an.il 37. 
+
+LXVI. Elia I. sedit annos 3. menses 10. 
+dies 30, hic duos conscripsit libros ; in uno 
+omnes constitutiones, et canones; in altero 
+vero omnia Religionis principia , ac funda- 
+menta collegit ; tempore Alexandri III. Ro- 
+mani Pontificis, anno salutis 1164. 
+
+LXVII. Joannis VII. sedit annos 4. et ali- 
+quot menses , tempore Alexandri III. Ro- 
+mani Pontificis, anno reparatae salutis 1168. 
+
+LXVIII. Sabrisciu III. sedit annos 3. et ali- 
+quot menses , eodem Pontifice Maximo re- 
+gnante, anno reparatae salutis 1 1 71 . 
+
+
+Digitizcd hy Goo k' 
+
+
+. V 
+
+
+— m — 
+
+
+• )i^apai (Ax •vJ3*s«5);io «vafo 
+
+• liM • ] 1 mS^ * ^)>A 3 t 
+
+• )^30A ulik t-3^ • O) • «Ollo 
+
+•<f| • ^aeoi *o • ^su • 
+
+(hXa va^ • o • ^pi* • ^ 
+
+• O • • <mM • ^»A 1 C 
+
+Jk-]Li‘D*^ .J.uaoi^dx- .oia» 
+
+•^mSa «9 «noAv. va^o • ^2^ jUftso-*^ 
+
+• 4 Jtj • • 01 
+
+jii^apa vjs^«2* )L^.^«o& 
+
+• uA • ILaocv* • ^« • «oi • 
+
+• 3lA^? jlibaoa • 9 * 
+
+• jLsrf ]!^ oa 6 1 3 • ^.AX 
+^Sbapa (JLv »aP^ • <X>* Adx^ a a ai «v^Sb 
+
+
+by Googie 
+
+
+— 184 
+
+
+
+
+Patriarchae Chaldaeorum 
+
+LXIX. Abdjesus II. sedit annos 6. tempore 
+ejusdem Pontificis Maximi, anno reparatae sa- 
+lutis il*77. ' \ 
+
+LXX. Machicha I. sedit annos 4. menses 5. 
+dies 4, tempore ejusdem Pontificis Maximi, 
+anno 4180.* . 
+
+LXXI. Elias II. sedit annos 4. mensis 4, 
+
+tempore Lucii III. Romani Pontificis ,‘ anno 
+
+reparatae saiutis.4484. 
+
+» ♦ 
+
+LXXII. Barsuma sedit annos 2, tempore Ur- 
+bani lil. Gregorii VIII. Romanorum Pontifi- 
+cum, an. reparatae salutis 4487. 
+
+. LXXIII. Abdjesus III. sedit an. 6. dies 42, 
+tempore Clementis III. Celestini III. Roma- 
+norum Pontificum .anno salutis 1194.: .* 
+
+‘ •» . 
+
+LXXIV. Jsciojab 5. sedit annos 7. menses 6, 
+tempore Celestini IU. Irinbcentii III. Roma- 
+norum Pontificum an. reparatae salutis 4202. 
+
+* t 
+
+LXXV. Elias III. sedit annos 24. menses 2- 
+dies 49, tempore Innocentii III. Honorii III. 
+Romanorum Pontificum, anno reparatae salu- 
+tis 4226. • 
+
+■ LXXVI. Jalialaha II. sedit an. 34. men- 
+
+
+
+DIgitized by Googie 
+
+
+— 185 — 
+
+
+Jf A? 
+
+^ • >»3 • »Awd Tjp ii ^ i • 
+
+]LisaajU vAa * ^ * •'^ 
+
+• p •jj^oi «91 • /MSrf «3 
+
+•^1^3 (JL^ (.^fU «U3 • }^I •]x 
+
+* 2 • ]^M3t« • 7 • ^I> ix 
+
+jLfcttspat «v^ *usv 
+
+•«.a *%4? 
+
+jLJ^spx •'^•iXaxfS^ 0\J^ 
+
+• Oi« «0 
+
+•s^^s ]L4b3pL& vAx oi^«m*ocfi*iVdxa*3i^ 
+
+• 0 «JImS^ *9 *^AX 
+
+• (^ • ]Liooi • e: •jUsrf 
+
+jLkJtoseA uL^c^iVa*ua •2^2*c:du *o3k 
+* * • • «•• • « 
+
+
+Digitized by 'oogle 
+
+
+— 186 — 
+
+
+Patriarchae Chaldaeorum 
+
+ses 7. et aliquot dies(l), tempore Gregorii IX. 
+Celestini IV. Romanorum Pontificum, anno 
+reparatae salutis 1242. 
+
+LXXVII. Sabrisciu IV. sedit anno 2, tem- 
+pore Innocentii IV. Romani Pontificis anno 
+reparatae salutis 1244. 
+
+LXXVIII. Sabrisciu V. sedit annos G.dies 10, 
+tempore ejusdem summi Pontificis , anno re- 
+paratae salutis 1250. 
+
+
+(1) Gregarius IX. Pont. Max. an. 1233. 
+cum audisset fleram, et sinceram professu^ 
+esset Jabalaha fidem , valde gratulatus est. 
+(f^ide Bzov.) Imo ipse totum populum ad SS. 
+Ecclesiae siniim reducere cupiens, plurimum 
+sategit ad hoc efficiendum ; at haec sua in- 
+tentio, contrariantibus Episcopis , non habuit 
+exitum. 
+
+
+— 187 — 
+
+
+*(^) •U 
+
+jL^soa. «AJs S*Au.« • 3 • cVo&rf&aib • )X 
+
+.o.^.-s^a 
+
+]Li]bsaA *c3i «aebuia» «u«X 
+
+• 1^* ]b«oi • Os^lLxssS^S 
+
+
+•fVkiu TioCjct^ VfisprfSdJ^^ ^ ^2^ 
+
+cn^pixaii^ensd vijk^soA^; vV, ,t<cx 
+
+ft>p*i,.. \ (Vdffi duA^i /cn-A^dus 
+
+.• • 
+
+viJ^ )aopm33 Tix^sn )L^ApA 
+
+
+26o\ )s^ idiAjlsdu poio*o)Mp3J3 u<^a{V2 
+X^Gua3p\^<bA cnXaA p«P^«^A iodi v!^:^»d 
+
+
+lj*4 ^3 3A • J^pa{^0x2i 
+
+pgAyA i^M ]\ )aomso^2o 2fip*Sspo!^ 
+
+•iAsos^ iadi Ol:^ 
+
+
+Digilized by Googie 
+
+
+
+— 188 — 
+
+
+Patriarchae Chaldaeoriun 
+
+LXXIX. Machiha II. sedit anno 8. men. 5. 
+postea sedes vacavit menses 7. dies 15. (1), 
+tempore Innocentii IV. Alexandri IV. Roma- 
+norum Pontificum, an. reparatae sal. 1257. 
+
+• V. 
+
+LXXX. Denha I. sedit an. 53. menses 3. 
+postea sedes vacavit menses 8; tempore Ale- 
+xandri rV. Urbani IV. Clementis IV. B. Gre- 
+gorii X. Innocentii V. Adriani V. Joan- 
+nis XIX. Nicolai III. Martini II. Honorii IV. 
+Nicolai IV. S. Celestini V. Bonifacii VIII. Ro- 
+manonim Pontificum anno salutis 1298. 
+
+LXXXI. Jabalaha III. sedit an. 10. postea 
+sedes vacavit dies 98. (2) , tempore Bonifa- 
+cii VIII. B. Benedicti XI. Clementis V. Ro- 
+manorum Pontificum, anno salutis 1314. 
+
+
+.. (1) Hic Patriarcha per Andream Longi w- 
+mello Ord. Praedic. Epistolam Innocentio 
+Papae Romam misit ah ipso Romano 
+Pontifice Ecclesiae 'communionem postulans 
+
+\ i 
+
+anno 1247. 
+
+(2) Hic Patriarcha per Jacobum Ord. 
+
+
+
+— 189 — 
+
+
+soAi 
+
+)l..i.^ib30A ^^bA^>9 • 01 • jlMdit •(#• «^slX 
+
+• ^ 2 j • ofi^ • Jaooi • V )*•=-• 
+
+, f 
+
+.3\a? )u®) SOiSk ^ 
+
+vA\^ )J^30ai •^•]L34*vJy^*^AX 
+
+•^ss jLsbsoa vA:^ '^fS* A* •l^ 
+
+. . .* I 
+
+• ^csj '^•9 «SpAb ««^ • ^OlX 
+
+
+yS^A ]^p0iaA ]La^3^ ]xa\ 
+
+v«3o23da 2* aio Lskxss «jbouAa^oatx«2 lala 
+
+*••••«, '• j •*' 
+
+^ftL^*ya 0120 •JSo^zsS^ d,.\.\ ^oo^^cSA 
+
+Iti «— .■? a 2 Pk^ ifipafiox iodi 
+
+• 900 a 2 • {^xj3 • p M 
+
+]^]d. ^a^A ]L-aL^a^ ^«m2^ 
+
+
+Digitized by Googie 
+
+
+
+— 190 — 
+
+
+Patriarchae Chaldaeorum 
+
+LXXXII. Timotheus II. sedit an. 9. men- 
+ses 8, tempore Clementis V. Joannis XXII. 
+Romanorum Pontificum , anno reparatae sa- 
+lutis 1532. 
+
+LXXXIII. Denha II. sedit annos 21. men- 
+ses iO, tempore Joannis XXII. Benedicti XII. 
+Clementis VI. Romanorum Pontificum, anno 
+reparatae salutis 1344. 
+
+LXXXIV, Siineon II. sedit annos 20. po- 
+stea sedes vacavit ^an. 9. menses 9, tempore 
+Clementis VI. Innocentii VI. Urbani V. Ro- 
+manorum Pontificum anno reparatae salu- 
+tis 1364. 
+
+LXXXV. Simeon III. sedit annos 30. prius 
+vero sedem vacantem per 9. an. administra- 
+vit , tempore Urbani V, Gregorii XI. Urba- 
+ni VI. Bonifacii IX. Innocentii VII. Roma- 
+norum Pontificum, anno salutis 1403. 
+
+
+Praed. Epistolam , suam fidei professionem 
+cqntuiejitem , misit qd B. .Benedictum XI • 
+R. Pontificem, a quo unionem cum Ecclesia 
+catholica postulabat, an. 1304. 
+
+
+Digilized by G 
+
+
+
+— 191 — 
+
+
+jUsbseia *va «^p/Aiav^ 
+
+•U« *)m3J • ^4JC 
+
+• ^^a ]Lfi9apa Jbk va^rf • wa • ]Laa «0«^ 
+
+• S4 • ^ *^*ax 
+
+X-JtahoA \X ,V oAka «va • eSkaoac *sa 
+XJSbSpA 
+
+«jLa^ *\ «^ax di»^ 
+jLJ^apa Ol-Jk «wV^ • ^^k-aox • ov9 
+
+Mtoipjd iaa aa*d iKpaaif^? 
+
+
+oiao • jLiaM^;.^ capnxj « ]ta • jLsLoa 
+•o^xoiao^oia if^paiaa!» P^oc^ aufksl laUb^a 
+]li-jc.«u ipipspiox odipjio 
+
+• 9xi«P^;iM )aop0iM v.^\p(Ka ]!i,****^p 
+
+
+Digilized by Googie 
+
+
+— 192 — 
+
+Patriarchae Chaldaeorum 
+
+LXXXVI. Elias IV. sedit annos 28, teniT* 
+pore Innocentii VII.’ Gregorii XII.' Alexan- 
+dri V.^Joannis XXIII. Martini V. Eugenii IV. 
+Romanorum Pontificum an. salutis 1457. 
+
+LXXXVII. Simeon IV. sedit annos 59, tem- 
+pore Eugenii IV. Nicolai V. Calisti III. Pii II. 
+Pauli II. Xisti IV. Romanorum Pontificum, 
+an^ reparatae, salutis 1477. _ 
+
+LXXXVIII. Simeon V. sedit annos 52, tem- 
+pore Xisti IV. Innocentii VIII. Alexandri VI. 
+Pii III. Julii II. Romanorum Pontificum, an. 
+reparatae salutis 1510. 
+
+tiXXXIX. Simeon VI. sedit an. 20, tempori 
+Julii II. Leonis X. Adriani VI. Clementis VII, 
+Romanorum Pontificum,' anno salutis 1551. 
+
+• LXXXXC Simeon Denha 'VII. sedit an- 
+nos 18. dies 90, tempore Clementis VII. 
+Pauli III. Romanorum Pontificum , anno re- 
+paratae salutis 1549. 
+
+LXXXXI. Simeon VIII. Orthodoxus, S.Hor- 
+misdae monachus, sedit annos 5. et aliquot 
+menseS'(l), tempore Julii III. Marcelli II. 
+
+
+(1) Simeone septimo Nestoridno adhuc vi- 
+
+
+
+
+Digitized by GoogL: 
+
+
+— m — 
+
+
+LjisbaaA <\a: Vsfki «a «ILA^ •oA 
+
+• • * • * •»•• • ' t t 0 
+
+
+•^3 )^ap& Jjk . 
+
+•v!^ 
+
+•a^a )i^aa& ua^ • oi t^aex • W3 
+• )^ 3 p& vl^ 9 ^ • e «.^Xaox . \a 
+
+• clj • ^AJg 
+
+)-«jbapA ui^ 
+
+• ^ • )aeoi • um • ^kiiic • 
+
+]Lia«s )L»ft .Ttciydft>ac2«u« • oVaex«2e 
+
+■ . ^ ■, 
+
+* 2ia\ti 9Macio9 «aaaep 
+
+• • ^ 3 rf • 0 ) • 
+
+
+■Ubi 
+
+
+jL^pa» ^pw*ieA)lj^ ^ 
+
+13 
+
+
+I 
+
+
+— 1»4 — 
+
+
+Patriarchae Chaldaeorum 
+
+Pauli IV. Romanorum Ppntiiic.un,i'anno 
+paratae salutis 1557. 
+
+LXXXXII. Abdjesus IV. sedit annos 9.(1), 
+hic litteris Chaldaicis, et arabicis d<ictissimU9, 
+ex Metropolitana dignitate ad Patriarchalem 
+evectus est' tempore Pauli IV. Pii IV. S. Pii V. 
+Romanorum Pontificum anno 1596. 
+
+, ^ . .1. I » 
+
+luente, Simeon VIII. (Joannes Sulaka) Ro- 
+mam pergens a Julio III. Papa fuit conse- 
+cratus an. \^^\;*deinde iii Mesopotamiam 
+reoersus a suo Aemulo neci datus fuit. Vide 
+Ass. Lequien, de Sulaka. 
+
+(1) Hic Patriarcha Romam petiit j ut a 
+Pio Papa IV. confirmaretur, palliumciue su- 
+sciperet; interfuit etiam ultimae sessioni ( 4 .De- 
+cembris 1563^ ([uae fuit Comilii Tri- 
+
+dentini ; postea in Mesopotamiam reoersus 
+paueis post annis diem obiit supremitm; .citjus 
+pulcherrimum in laudem Romani Pontificatus 
+hyninuni adducam post Patriarcharum se- 
+riem. Ejus effi.gies.in Aula palatii Vaticani 
+depicta cernitur inter Cardinales aliosque 
+Episcopos. Vide P. Strezzam* ’ 
+
+
+Digitized 
+
+
+
+— i!>n 
+
+
+
+
+Vh^^C3^«s •^dx^a^ 
+l-J^bSpA iS^ 
+
+
+AkA U-aB ^peisX ^ ILL^^ ,^v>oJC j 
+u«»{VA»/0i^o*)iAAAt v.JbpAp« )s7a ^ 
+^3tV-ao • )— ai^ • ftoxj 
+)lt.ii> «okaojK • ^901A 
+
+• ]Lii52*M 
+
+Ji-a5 )_aopoiA 2^^ (^) 
+
+iaspxA «p • ?— a]l— fi 
+
+Pm Zo9ip‘ »^^]Lieyp Jlspo^aoi^pA^aS^p 
+•^!%<adj^o /l^j^Aaj^aAk tJbpsdiApSbp ]Maei ^ 
+
+sAlA ^^5eii At. k-A tjcy^cn pu&o 
+
+• AA j 3 
+
+• * 
+
+
+— 196 — 
+
+
+Patriarchae Chaldaeoriun 
+
+LXXXXIII. Simeon IX. sedit annos 13. (i), 
+tempore S. Pii V. Grego rii XIII. Romanorum 
+Pontificum y anno reparatae salutis 1383. •- • 
+
+LXXXXIV. Elias V. sedit an. 19. (2), tem- 
+pore Gregorii XIII. Xisti V. Urbani VII. 
+Gregorii XIV. Innocentii IX. Clementis VIIP. 
+Romanorum Pontificum anno reparatae salu- 
+tis 1602. 
+
+
+(1) Qui fidei suae professionem ad Gre- 
+
+garium XIII. misit, a quo confirmationem, 
+palliumque obtinuit. . . . 
+
+(2) Hic Patriarcha fuit ab eodem Gre- 
+gario XIII. ad Ecclesiae sinum imitatus*; 
+suam fidei professionem Romam misit, quam 
+Xistus V. Gregorii successor, utpote erro- 
+ribus scatentem, rejecit. 
+
+
+Digrtizcc^by Goo^It 
+
+
+
+— 197 — 
+
+
+.(2) .Ap- «v-r f ; 
+
+)—XtesoA vAi .y ' • en 
+
+.(o).i^.^.ai^5 
+•9 • 2 ct .Jiouj «O)^ 
+
+
+j^pauisoa^ a» )L— 
+
+* » ^ ' • * ‘ • 
+
+«Lt-.tO.;^.=i.<v^.iit I n) a nlVpuvn 
+
+•71^ oiAoaaii:^? ZsBpje CTu^M v^i.^0 
+
+M^)-a ^ )ioi(u3) , 
+
+• i^axa cupO «v^ • vjto^acilt^^ 
+
+JLaopaiaiA oi^9X-:^m Atoai^oa^ a» ocio 
+•ijaeuac^^sliiUii /(^/a*o«vxop(Vo)^o «jl^aia 
+
+I 
+
+C1«mLP>^ CU3m^«0«^ 
+•Cia oddi 
+
+
+
+Digitized by Googlc 
+
+
+— 1<>8 ^ 
+
+Patriarchae Chaldaeorum 
+
+LXXXXV. Jaibalaha IV. sedit annos 3. 
+
+, > ^ 
+
+tempore Clementis VIII. Leoiiis XI. Pauli V. 
+Romanorum ^Pontificum , anno reparatae sa- 
+lutis 1606. 
+
+LXXXXyi, Elias VI. sedit annos 37. et ali- 
+quot menses (i), tempore Pauli V. Grego- 
+rii"XVi Urbani VIII. -Romanorum Pontifi- 
+cum anno salutis 1645. 
+
+
+(1) Hic Patriarcha suae fidei 'professio- 
+nem ad Paulum V. an. 1616. misit; Ponti- 
+fex vero ad ipsum scribens haec ajebat u vidi- 
+mus vestram pietatem venerationem^ cultum, 
+ac devotionem erga B. Petri sedem non modo 
+conservatam, sed mirifice auctam esse. .... 
+
+Non ahs re erit hic celebrare religionis sin- 
+ceritatem,’ fideique ardorem VenerdbiUs Fra- 
+tris Thomae Obicini Novariensis , flos ac 
+gcrnrhd ' Ordinis ^Minorum Si. P. Francisci 
+Observantium Alumni ; nam illum_ qb . . 
+maxime virtutibus corhmendavit ' Summus 
+Pontifex Paulus. sudLad^emtdem Ut» 
+teris (III. Kal. Julii 1617^. Quandoquidem 
+ipse fuii-Pqul propria j^omm6da,~'dcyper^ 
+cula despiciens , suamque animam pro fra- 
+tribus pOnerS anhelans, Aleppo, medio hyeme., 
+
+
+Digilized^ Goqgle 
+
+
+
+— 199 — 
+
+
+• ‘0>^' » ^ " • X» OA a 
+
+• A^a Lttapai.uibl «o *UA2 «Oc* 
+
+• ^ • )LaM • VioAo • 9^ • 
+
+
+■N’ .. 
+
+
+
+
+Aipa^9^»Mju^ 3^ l«AaJa^ JLZoi (Z) 
+
+'•(V!ajc»:3'»^*ubo^ mAkO^>a*m 
+
+'*/,*;#■' % ^ 
+
+•^^fkpfcSbM ^ jiM • oA ]i:a]ta • OklbZ 
+
+LutObd Jijbs^ ^^omo • ^A«pa^ 
+
+I « • • > . • * • . . 
+
+*. % ' l • 
+
+o^aa:« .^aAoo «laLMe* • •]^]^ 
+
+V-^aoda TaopitVt vt^^oaaoia (V<Ao^^ 
+apYoa^ • ]Lite$bZ*(ibj^aS ) bc^ f a? U^?. 
+
+
+]»sabpA'^ ]Li«i^ )ia)l£i*S <^Z‘ T^f^A^Zo 
+Zp^paPKoxpd «Z^Pm? Zfids^ H*?? 
+ILifaiiAa Ja 3U3\^ ]1^Z oi^pA<»..mp 
+
+
+— suo — 
+
+Patriarchae Chaldaeorum 
+
+* * ■ 
+
+LXXXXVII. Simeon ^edit annos ^9 (i), 
+
+contradicentibus licet Fratribus, amicisque , 
+Amed (Diarbekir) citissime se se contulit ; 
+ubi in Synodo illic congregata , praefatae 
+reconciliationis negotium sibi a Pontifice O. 
+
+f » 
+
+M. commissum tanta cum -dexteritate j et 
+caritate pariter egit , ut ad optatissimum fi- 
+nem illud produxerit , universa Ecclesia se- 
+cum congratulante. Inde Romam‘^reversus, A 
+S. C. de Propaganda Fide Linguarum Orien- 
+talium in Collegio S. Petri Montis aurei pro- 
+fessor fuit creatus; ubi Thesaurum . Arabico- 
+Chaldaico-Latiniim composuit; at inopinata 
+morte correptus, hoc opus non absolutum re- 
+mansit. • ■ " ' ' 
+
+' (1) Hic Patriarcha suam fidei , professio- 
+nem misit per epistolam ad Innocentium X. 
+'quae incipit « pax divina. ...ex ore D. Simeonis 
+Catholici Patriarchae Qhqldaeprum , ad Pa- 
+trem Patrum Pastorem Pastorum. . .. S. Pa- 
+pam Innocentium , caput totius christianita- 
+
+
+1,-ifrTr' *l> 
+
+
+
+
+— SOI — 
+
+
+)»«LtespA 
+
+
+• ^AkpiSuJXM oiJIlLa q^ ’ /odi )' 
+
+/odi <^3/9 )i^/')-apMO «/PlipiBAN^d 
+
+y.ajspa t\-^y omsJ^ 
+
+TasT ^J/o tou 9 ao.o^ vxLax-Ji^j 
+^pK Jbfxatefc ^ opdi 
+
+Z(ip 3 ^ dObhS ^0 • 
+
+\ja 2 vXa^s «\& 2 dob^ uci/ \a^ /pKoi^Mad 
+
+«**• •• 0 0 t 0 t 
+
+loa^^Z eCu^ )xa j ztka ^ ^^o «ji^ 
+
+• Im.iL^x )Uo6pxo ]!j.AsAJk y!^ 2ss^6 
+Itipsi* 2(ik^ oCb\ fVtodi /{ipafiox >«en i\)l^o 
+
+■••••# w ** 
+
+Ji^^S /9^0^ OA30 9^ id/o • Ul^ Jlja? 
+•]iaj 0 ^ oiAtt^ w^9 2a^ 
+
+
+Digitized by Googie 
+
+
+— 201 — 
+
+
+Patriarchae Cluitdfteoruin 
+
+terap<»re Urbam yill. Innocenti X. Horna' 
+norum Pontificum, anno salutis 1653. 
+
+
+5 ,^LXX^pCyiII. Sira^n,-X^^^ s<^it annoa 
+*» • • 
+aliquot dies (1), tempore Innocentii Ale- 
+
+W ^ ■ - C • - IV. jM ' / j ^ w« » ^ ’•/ ^ 
+
+xandri VII. Romanorum rontifidum an. sa- 
+
+
+lutis 1658. r 
+
+
+:-i t . 
+
+
+' ;:‘V 
+
+
+*■' f. 
+
+
+LXXXXIX. Elias VIII.'^sedit annos 9 (2), 
+
+
+tempore' Alexandri VIL Clementia IX.' Ro-’ 
+manorum -Pontificum, anno salutis 1668. , 
+
+i. ^ ^ W-. • . C ' 
+
+
+tis.... Nos quidem amplectimur y et suscipi- 
+mus*sedem Petri, et Pauli etc. Datum die 29. 
+Junii in Urhe Chosrava, quae stat sub proter 
+ctione S. Georgii. . . . amen. 
+
+(1) Hic Patriarcha suam fidei professio- 
+, ■% 
+
+netn misit ad S. -Congr. de Propaganda Fide 
+ssd) '^lexampxt FII. an. 4658. - 
+
+(2) Hic quoque suam professionem fidei 
+Romam misit, sub Clemente IX. an. 1668. 
+
+
+Digilized bv Gi’C)gk' 
+
+
+
+
+— 20S — 
+
+
+■ ■■ 
+
+» • 
+
+]L(d3aai • % 0 • ***^ 
+
+.(cs).J«i . 0 .^ 
+
+•s\r^^S U*»»pa 
+
+
+!■■: : I 
+
+
+ikp^aoiel aj* tasyajj^ w 
+
+• I,* • ijboft>wdav<Z lata .aail^ oiAkQi^«cn 
+• 0 , * ' ' / * • 
+
+• «A^/«aiu3 
+
+(^paisoai^ ]L— a>a^i 
+
+•jJtopssM^^AkOMfV LLsji Lurd o^AQM^e«c^ 
+
+•U4a»2«ax3«9 
+
+Ji'oi Jai' 
+
+AvOmA» «vJiiAbfDj «ax^ ]L^p9ii^ 
+
+" \ j .»■ !» .\\'> • . '■ • '•> , I 
+
+• \^«UtopAk4M^ 
+
+
+Digitized by Googie 
+
+
+— 204 — 
+
+
+Patrieuvkae Chaldaeorum 
+
+•,C. Simeon Xlli se<lk annos '7, efalicjuot 
+menses (4), tempore Clementis IX. Clemen- 
+tis X. Romanorum Pontificum, anno repara- 
+tae salutis 4§75» ' • “ ' • 
+
+
+Cl. Josephus.lL sedit an.'*i4, et aliquot 
+menses (2), tempore Innocentii XI. Alexan- 
+dri Vni. Romanorum Pontificum , anno re- 
+paratae salutis 4690. 
+
+CII. Josephus 111. sodit annos i 8 (5), hic ab 
+Episcopatu Amidensi ad dignitatem Patriar- 
+chalem evectus fuit, tempore Innocentii XII. 
+Clementis XI. Romanorum Pontificum, anno 
+
+
+salutis 1709. 
+
+
+
+' ' (4 ) /« appendice adducam ejus epistolam 
+ad Clementem X. Rom. Pontificem. 
+
+(2) Qui primus vocatur; ab Innocentia XI. 
+die Junii dn. 1681. fuit confirmatus:' ' 
+
+• (3) Qui secundus, vocafurj, a^ Innocenr 
+tio XII. die 18. Junii an. 1696. fuit confir- 
+matus'. 
+
+
+Digitized by C' 
+
+
+
+
+— 205 — 
+
+
+•^^a )^apA Ji^ «-3^ «Oava^oi *]Lb 
+
+•(^) J**^ 
+
+•^sa J^afLAc^ o^*(\«^oi«vaa 
+
+
+^p&i9oaci %JiSi^ a»«a^ )Lia (2) 
+Ji’^ •si#».topfkid^-D jbaja .ajoA oiA^ojui^oi 
+• jAaii^a Za^apjb aft«a o^ «a.PKji2* 
+
+
+• 2aap*o • jLiaoaa iuAoca 
+)— s I- <\ ^ •2em 
+
+• Jssil *AXS • ]L «Vfisof^&AidxarfZ 
+
+» / • 
+
+
+•o^A,Mk^i^^a i3apjK*)iiaA« lim^s (^ 
+
+U-^l *\ 
+
+
+Digitized by Googie 
+
+
+
+— 406 — 
+
+
+Patriarchae Chaldaeorum 
+
+CIII. Josephus rV. sedit annos 46 (1), tem- 
+pore Clementis XI. Innocentii XIII. Benedi- 
+cti XIII. Clementis XII. Benedicti XIV. Cle- 
+mentis XIII. Romanorum Pontificum anno 
+salutis 1759. ■ ‘ « 
+
+CIV. Josephus V. sedit annos 20 (2), tem- 
+pore Clementis XIII. Clementis XIV. Pii VI. 
+Romanorum Pontificum, anno salutis 1781. 
+
+
+(1) Qui tertius vocatur ; a Clemente XI. 
+die 26. Februarii 1714. fuit confirmatus. 
+
+(2) Qui quartus vocatur; a Clemente XIII. 
+die 24. Martii an. 1760. fuit confirmatus; 
+cujus opera Missale- Chaldaicum in lucem 
+prodiit typis S. C. de Prop. Fide an. 1767. 
+
+Sub hoc Patriarckdtu electus, et consecra- 
+tus fuit Xrchiepiscopus Hadorbegianensis , 
+sive Salmasiensis Joannes Guriel meus Por- 
+truus magnus, qui cm, 1775. suae aetatis 15. 
+Romam petiit, et anno secundo, post Colle- 
+gii Urbani ingressum, praestitit juramentum 
+
+
+— 307 — 
+
+
+iJix • 9 • «^oi • 
+
+•^2y»eao«^kIijc 
+
+• )l^apA lAl »of •<Ss)»oS *?-B 
+
+• o^2^P^lxJp •\A0» \S»p ^A s^6a ,Xs l 
+
+• 3^^? 2i33px*)^ALAAt 2»»V^a ^2^ 
+
+•ubpAiWi j ]d!tA ^ v^,n,x.3 • oA •lotn 
+
+• 9*xi2 »SJLS 
+
+0iApLSk^a||^9 2aapxo»]U3k»j3b iaaV^; 
+
+• vttp(^Aaoi!^ )is)ia ^ asjla «a^k* 2ooi 
+X— 1—im fVpMf^ • ub^2 • xxa • 0i|^ 
+]L— Ji pafL\^.y 0 ) sprt&^..a2' 
+
+Ok)L«ipV^ jLju^aoam 
+
+iodi ^oioA^ia ^]L ^a - .»v; ei* 
+
+
+
+— 508 — 
+
+
+Patriarchae Chaldaeorum 
+CV. Joannes VIII. sedit annos 9, postea 
+
+« o * * 
+
+
+die 45. Augusti 4775jT et in hoc divinitus 
+instituto Collegio, doctrina, virtutibusque in- 
+structus ad Propagandam fdem a S. Sede 
+in Chosrajvam iterum missus, ubi perpetuo in 
+
+divinis administrandis laborem suum, ac 
+
+♦ 
+
+operam pro salute animarum impendit; et 
+hoc juxta juramenti vinculum, quo omnes 
+Alumni perpetuo adstringuntur quoad vixe- 
+rint, S. Sedi servitio , et obedientiae sedulo 
+famulari (vide Breve Apost. Alexandri VII. 
+sub die 20 Julii 1660.^^ tandem, plenus die- 
+rum, die 15. Julii anno 1833. obdormivit in 
+Domino. 
+
+Praeter alios libros, quos scripsit. Novum 
+etiam Testamentum in Turcharum linguam 
+traduxit; quod opus tantum Persarum Regi 
+placuit, ut 'statim ei dona , ac munera de- 
+
+
+DigitizedT57^jOOgle 
+
+
+
+
+— 109 — 
+
+
+t 
+
+• )ill93pA **** * 
+
+
+
+
+2ooi Kal.JisstoiaA? 
+
+.K^5 JUpcn:^ if>ix4^ 
+
+cL\i> X -p JijK--»?J? K-*??*-= 
+
+• UL\ U^o* 
+
+*p^a ]Loico • ),,^d!io2^(5 
+
+)x>xfl 2o0td OU^OaA 
+
+. , ^ vvr . 
+
+v^(V 33fV*2o»^^^k^ «ftOJCB liflLty* 
+
+Aoa^P ^ 
+
+]L- 3 ^ (Xm 3 ni o )- 4 ^Ap^ 
+
+<^0ib2i^ •) )A|^te*Aae3 
+
+• * * • » '**^ 
+
+)>4^? Xv 3J^\ CTo aj ^o 
+
+ft>,.iKia ^p4o{^ «ou^uA ^j^3^.ao 
+j9io2b«ak3 plaJttA '^1'?® 
+
+14 
+
+
+Digitized by Googie 
+
+
+
+2i0 — 
+
+
+Patriarchae Chaldaeorum 
+
+
+
+
+
+
+sedes vacavit an. 1 (1), hic uti administrator 
+remansit tempore Pii VI. Pii VII. Leonis XII. 
+Pii VIII. Romanorum Pohtificum', anno sa- 
+
+
+lutis 1830. 
+
+
+
+
+^ z. * : :.:«j •• 
+
+
+«• - / , * I , ^ 
+
+" * -.w * 
+
+» * 
+ferri, inter que 'Regni sui majores, 'Satrapas- 
+
+tftx£ inscribi jusjerit, atqttejirfnqno (d^crCto 
+Regio) eum decoratmyi voluit , quo immunis 
+
+. ..i, O OfT'.*-- . - ‘m l* t 
+
+fieret ipse , ipsiusqiie familia ab omnibus 
+oneribus , el vectigalibus R^nii ~ - 
+
+
+(1 ) ilui vocatur d Hormez : prius Patriar- 
+cha haereticus "4tb Elia suo avunculo renun- 
+
+
+f:iatus; sed s. sedes IL /^eZ>r..l78i . istam ele- 
+ctiqnem uti nullam declaravit; postea, S. C. 
+
+^ . -.r»*» t ^ ' ** » * U. * 
+
+'de 'Propaganda Fide Imniiejtte, creatus fuit 
+
+
+JEpisf^Qinis^ Mossulensi^l tapdem di^ 3. Julii 
+
+an. 1 830; creatus fuit Patriarcha Babylonen- 
+nc; , fjiyt o { Lj -7 . . . i . .. 
+
+siS CnaUiaeorum . ' • • 
+
+f ! 
+
+
+
+— 2H 
+
+
+teSOA cX • ^.* \» 
+
+.(2). 2..^ 
+
+
+«2i^ 2^2 'oct ^ jvio^*blaa$d 
+
+• xnosoSk ttj*T CK^/ 
+
+
+J^J JlAx «t^i? 
+
+/ . > _ ' . •' , I ' 
+
+^ oT^^ao po) ^^.ipou9 ]i,t^y ^ 
+
+• 9if^o.a^3 '«onXa 
+
+
+(2) 
+
+)LaiopuD*SbAp • ]1^2 ^ac 0133 ^ 
+
+|»M^x ^aox ^ S3^2*aa3k2 • 
+
+•ot •vJl^oaoD l^dpjSb^t €f^t 
+
+
+\X^^2 • \Xj^ ^pao^ 
+
+Ol»X A v»^mX )wA3U3iii^iiii^ 2fjli a j y L H 
+
+'1 V '• I S> . VV. A * ■'• •' ”■ V . ;! . ..■• 
+
+
+Digitizedfey Google 
+
+
+
+— <i\i — 
+
+Patriarchae Chaldaeorum 
+
+CVI. Nicolaus Isaia de Jacobis sedit an. 8. 
+
+/ 
+
+qui per coadjutoriam an. 4840. successit, tem- 
+pore Gregorii XVI. Pontificis Maximi, anno 
+salutis 1840. 
+
+CVII. losephus VI. S. Hormisdae Mona- 
+chus , qui niunc sedet , quem Deus adjuvet, 
+ac pro bono Ecclesiae suae conservet (1), tem- 
+pore D. N. Pii PP. IX. Romani Pontificis, qui 
+nunc in magna tribulatione .forti animo re- 
+gnat , ac gloriosissime de inimicis Catholicae 
+Ecclesiae triumphat ; quem D. O. M. in tan- 
+tis rerum adjunctis corroboret, et ab hostibus 
+fidei, suo potenti brachio, liberet ! Arnen ! 
+
+
+(1) Qui vocatur Audii ; iste creatus fuit 
+14. Septembris an, 1848. et a D. N. Papa 
+Pio IX. Pontif. Maximo fuit confirmatus. 
+
+
+- Haec omnia f lector benigne , me perbrevi- 
+ter , cursimque attigisse, vides; verum si D. 
+
+♦ • ' » .4 
+
+O. M. placuerit' , illorum etiam vitae com- 
+
+
+Digiti^‘'‘ci i' 
+
+
+
+— 113 — 
+
+
+•QJ3 
+
+
+ae!^ lom janoSL^I ^ 
+
+
+• U4 
+
+• ykl»xs ]LaozpA 
+
+
+• isoitt 9^3dcn • o • c^Aoi • ^ 
+
+• ^pJ9b^a!^s ]l,J^afla> (JLX \im «-a^? 
+tamoL.^ «^Boio • saenofh^ ,\ )— ia>n 
+
+
+• )L»i«aX&; )li-.»yrix>d •^ZM^ J2(ujwp2 
+
+• U» •*f)3^ft»/o •p^o2'2oa;^^ ^2) 
+
+iaapj6o»u«^ai • ^ \yj u^pX«)L»3 
+
+•«!^*(jbp^ ^ 26oi oil^piai^^2^9 
+
+• xnoL, <X|301 
+
+7«paja 62 «Ok;^ ^a 
+
+
+Digitized by Googie 
+
+
+
+— 214 — 
+
+
+Palric^chae Chaldaeorum 
+
+pendiumj illis ex locis' extractum , ex qui^ 
+bus praece^ntem seriem eduxi, imprimen- 
+dum praeparabo. 
+
+' At si quid minus caute, aut minus accu- 
+rate in his dictum, aiU quidpiam forsan Ca- 
+tholicae Ecclesiae doctrinis, me invito, ex- 
+ciderit , id veUit indictum haberi volo; cum 
+me , mecujue omnia Ecclesiae Romanae, in- 
+fallibilis veritatis, fideique magistrae, sponte, 
+et humillime nunc, et perpetuo subjicio. 
+
+
+
+
+— 115 — 
+
+
+* ‘ ' • O 01«*»mA 
+
+• • , ■■* .. . ^ •',: 
+
+2soa'u.AftatfK^rf)^ Jiil^JxCT wi :; 
+oKj^^^^oft^^Ua' o/* 2^93-3 )-4oaL-^ ^2 
+
+• ]li*u ocpAO • ^p^»a» 
+
+
+
+
+* -. 1 . 
+
+
+
+t' \ 
+
+f f 
+
+
+Digitized Iby Googie 
+
+
+
+— 216 — 
+
+
+APPENDIX 
+
+
+
+. Antequam Abdjesu IV. hymnum, et Si- 
+ifneoni^ XII. epistolam afferam, perbrcTitef, 
+quod effluxit ex animo circa nominis status , 
+ac divisiones, addam. Prius vero sciendum est, 
+qup.d lingua Chaldaica ubicumque in Oriente 
+ita extendebatur, prout nunc etiam exten- 
+<htu^, -ut unaquaeque Natio per illam 
+propriis utentibus , si quos habuissent ,' cha- 
+racteribus ) suas ideas exprimeret , librisque 
+illas consignaret. Ita S. Daniel Propheta, qui, 
+in scribendo Chaldaicam linguam, usus est tam 
+charactere, quam motionibus, seu vocalibus 
+Hebraeorum, addita etiam eorum constru- 
+ctione, seu syntaxi, ut, quae scribebat, legere, 
+et intelligere possent ; hinc evenit, ut status 
+nominum , vel ourra^tac , propter locorum , 
+Provinciarumque diversitatem, aliquantisper 
+mutetur vel quoad punctorum positionem , 
+vel quoad oralem pronuntiationem : quae ta- 
+men mutatio potius ridicula , quam characte- 
+ristica dicenda est. 
+
+Itaque nomen apud Chaldaeos generaliter 
+dividitur in substantivum (naturale), et 
+adjectivum (quali hcativum); et hoc sul>- 
+
+
+Digitized by Google 
+
+
+
+— 217 — 
+
+stantivum in varij^. Classes dividunt ; sci- 
+licet 
+
+In ^aaio proprium (dominans), ut 
+sol: luna. 
+
+In personale , ut ot»4^9d^Geor- 
+
+gius ; v^Aoi Josephus ; oocX^ Jacob. 
+
+In |kinbUI^ vel commune, vel appel- 
+lativum , ut regio ; corpus ; 
+
+animal; flos, rosa; ^pp vel 
+
+I9CUS, hospitium. 
+
+In liKiAan collectivum, ut ?ywy>o Civitas, 
+Urbs; yie^ Populus; pio)^ multitudo. 
+
+In simplex, ut 1^2' Deus; jlssjL^aip 
+
+Angeli^; Diabolus. 
+
+In compositum ut ^puoipa^of 
+
+identitas, essentia; accusator; 
+
+JLriniNxn inimicus ;- Zspiu sepulcram. 
+
+
+Digilized by Googie 
+
+
+
+— 218 — 
+
+
+' In , vel diminutivum (vidc 
+
+} 
+
+pjig. 31.), etc. . , 
+
+Status nominum apud Chaldaeos^ est tri- 
+plex ; emphaticus : constructus : et absolu- 
+tus ; status enim constructi , et aKsoluti no- 
+minum in eo-iconsistit, quando :;UJW, vei duae 
+eliduntur litterae, et hoc Iit vel in fine, vel 
+in medio nominum; hinc a Chaldaeis optime 
+
+vocatur nomen abscissus , qua- 
+
+tenus ipsis nominibus una vel altera ^scin- 
+ditur syllaba ut i': *; 
+
+Emph. '■ Constr. Ab^l. * 
+
+
+laus 
+
+
+
+
+
+
+miracu- 
+
+lum 
+
+
+A433o3(^ isaoaAk 
+
+
+%».••• •• 
+
+^sAi'Plur. 
+
+petitio ) 
+oratio ) 
+
+
+^oiJa ' pxa 
+
+» • 4 ... 
+
+
+(^0^ ' ' ydxa Plur. 
+
+' Ita omnia iioniina' sequentia; ut 
+
+gratia 
+
+
+AtoaatAi. (lsiAl 
+
+
+Digitized by Googie 
+
+
+
+— 219 — 
+
+
+Emph. . 
+
+Constr. 
+
+AbsoL 
+
+victoria 
+
+^ • 
+
+AtpAf 
+
+03) 
+
+• • ' . i. i 
+
+aequalitas^ 2{ipLiQX ; 
+1 • » 
+
+A)0«ox 
+
+• • 
+
+OrfOJL 
+
+similitudo ifims 
+
+^oaoa .T 
+
+odob 
+• • . 
+
+taberna 
+
+IVoi. 
+
+P&M • 
+
+oratio 
+
+Soig- 
+
+• • 
+
+1/1 
+
+myrias 2AKpa5 
+
+• 
+
+
+039 
+
+• 
+
+magnitudo ZSipjs^ 
+
+• • 
+
+S»? : 
+
+lucrum 2 aLj33 
+
+• •« 
+
+0 •• 
+
+• 1 . 
+
+1^9 
+
+» 
+
+catena )|^.\x^x 
+
+iWbux 
+• • 
+
+lixKX 
+
+r"" ", 
+
+macula) ^ V ^ 
+
+stigma ) . 
+
+• ** * 
+
+» « 
+
+. * • 
+
+• ' / 
+
+
+angustia 
+
+# 
+
+]L^ 
+
+‘ A , ' 
+
+avis 
+
+• 
+
+* > «*. f 
+
+* * V ^ *t * , 
+
+' Jiaa 
+
+conve- ; 
+
+mens , „■ 
+
+A.iA6 
+
+• 
+
+m • 
+
+Po , 
+
+f 
+
+convicium 
+
+f 3 
+
+
+confessio , v 
+
+gratiarum 
+
+• 
+
+» . 
+
+• •< • 
+
+s«soAk 
+. “ • 
+
+
+actio 
+
+
+Digitized byGoogIe 
+
+
+
+Emph. 
+
+Constr. 
+
+Absol. 
+
+trabs • 
+
+• 
+
+0 
+
+• / 
+wsa 
+• 
+
+grex ' 
+
+2PK«»V*5ao 
+• • 
+
+• • 
+
+• 
+
+constitu-! 
+tio; funda- 
+tio 
+
+
+t • 
+
+0 0 
+
+bestia 
+
+
+AkdtiM . 
+
+t • 
+
+1^010 
+
+f 
+
+captivitas 
+
+
+0 • 
+
+
+
+Alia vero nomina aliam terminationem 
+habent in absolutis pluralibus , juxta aliam 
+eorum terminationem (vide pag. 36), ut 
+
+
+mare 
+
+
+, "Pf 
+
+populus 
+
+
+id. yii 
+
+laoaoM 
+
+* 
+
+• •• • 
+• • 
+
+\ 
+
+
+• • 
+
+^ooacX Plur. 
+
+
+Ita omnia nomina sequentia, ut 
+
+
+corpus 
+
+2^ 
+
+'id. 
+
+
+tempus 
+
+
+id. 
+
+
+mysterium 
+
+m'2 
+
+id.' 
+
+
+
+Dioilizoc. ; ■ ;le 
+
+
+— 221 — 
+
+
+
+Emph. 
+
+Cons. 
+
+Ahsol. 
+
+cedrus 
+
+
+id. 
+
+
+consilium 
+
+
+id. 
+
+•fh 
+
+Rex 
+
+
+-id.- 
+
+
+sors 
+
+
+id. 
+
+\SbSk < 
+
+m 
+
+judicium ' 
+
+
+id. 
+
+
+oculus 
+
+
+id. 
+
+
+egenus 
+
+
+id. ^ 
+
+^=s 
+
+pastor ( in 
+genere ) 
+
+
+id. 
+
+h> 
+
+
+Quando sermo est de Pecudum Pastoribus, 
+tunc hoc plurali utuntur 
+
+Pastores Isvs 0^3 »2X3 
+
+' • • • \ 
+
+Quando vero sermo est de Ecclesiae Pasto- 
+ribus, tunc hoc plurali utuntur 
+
+
+Pastores 
+
+confirma- 
+
+issojc 
+, • 
+
+^(^3 
+
+id. 
+
+^3 
+
+330X 
+
+tio 
+
+veritas 
+
+Z33X 
+
+f 
+
+id. 
+
+• •* 
+33X 
+
+absolutio 
+
+
+id. 
+
+
+
+Digilized oy Googie 
+
+
+
+— 222 — 
+
+
+\ 
+
+Emph. 
+
+Costr, AhsoL 
+
+promissio 
+
+U?0<9». 
+
+, * id. 
+
+• 
+
+m5oQ3C • 
+
+0 $ ' / 
+
+peregrinas 
+
+
+. . i4. 
+
+i ^ ♦ fi 
+
+•.# « 1 
+
+Angelmus 
+
+J J % 
+
+* 
+
+r ,id. 
+
+
+corporeus 
+
+
+id. 
+
+.*•.* • 
+
+
+' « * 
+
+
+alienigena 
+
+
+
+•• 'i 1 
+
+varius 
+
+t ** * 
+
+
+•• • id. 
+
+Af){VSiO , . 
+
+perfectibi- 
+lis > ~ 
+
+• 
+
+id.^ 
+
+w •> 
+
+
+salvator 
+
+.jLnpsa 
+
+id. 
+
+« 
+
+U3p^ ’ : i' 
+
+* * « > 
+
+• 
+
+salus 
+
+)liiiapa' 
+
+id. 
+
+.^=pa • 
+
+benedictus 
+
+» 
+
+w f . 
+
+• ■ 
+
+“ * 
+• 
+
+, id- 
+
+X. . . ’ . . 
+
+•• • 
+
+rPlur. 
+
+^ * 0^0 
+
+lASJOe . u.%sjiao 
+* * # • # ■# # 
+
+• 
+
+1 
+
+Adjungenda sunt etiam nomina sequentia 
+quae aliquantulum irregularitatem sapiunt 
+scilicet 
+
+filia'" • 
+
+iAKa_3 
+
+# 
+
+• 
+
+(Vis 
+
+# 
+
+piui; 
+
+t 
+
+•■"Aoii 
+
+
+filius 
+
+
+— *t*- % 9 » 
+
+. • 4 ‘ 
+
+
+
+
+— 223 — 
+
+
+
+Emph. 
+
+Constr. 
+
+Absol. 
+
+Plurv ' 
+
+
+
+•• 
+
+soror- • , 
+
+'-ML. 
+
+
+
+Plur: “ 
+
+
+
+V. • 
+
+domua' : 
+
+ZRmLs-;'. 
+
+• t 
+
+:ahs 
+
+
+Plur. 
+
+1 
+
+2(^ 
+
+w* 
+
+
+ii * 
+
+annus 
+
+iMx 
+
+
+}i* 
+
+Plur: ■ ■ 
+
+*■! . I- ' 
+
+- Jiii- 
+
+
+
+
+Distingue a quae insaniam 
+
+
+significat a Verbo V* insanivit; u>a« migravit; 
+locum mutavit; transmigravit; \»,^tsx.2 mu- 
+
+‘ • - • / ”.c fc. ; 
+
+tari; variari; transferri. 
+
+* * I 
+
+Plur. 23kJt, \2ix »j>ix 
+
+
+
+
+Dentes majores vacantur l^pao ; cujus 
+
+** ' * I 
+
+sing. est dens major. 
+
+Nomen ]L«x , * 7 W , , ‘ 73 * ,, 
+
+
+
+Emph. 
+
+Constr. 
+
+AbsoL 
+
+Plur. 
+
+ItpitSi 
+
+widUM 
+
+
+vel 
+
+
+A»90oX 
+
+^pucx 
+
+locus; re- 
+gio 
+
+
+• • 
+
+sAi2’ 
+• • 
+
+Plur. 
+
+t 0 ■ • 
+
+V * 
+
+Quod vero attinet ad qualitates nominum 
+
+
+sciendum est , illas a Chaldaeis in quatuor 
+classes dividi solere ; 1 . ' sunt illa , quae no- 
+minantur o2*2P^OSOa3k9 ^ 0 UcX 
+
+• •• »• • * ,•*» • ; 
+
+i. e. nomina activitatis , vel efficientiae , ut 
+jlapAcs scriptor; • 2pi>OkS^ 
+
+• scriptio. )iioy>o demonstrator ; 
+
+• IsioiSo^ demonstratio , specimen, 
+
+argumentum ; ita }xi^^ liberator ; 
+liberatio etc. 2. sunt illa , quae vocantur 
+itipxpXMa iffoliox i. e. nomina passiva , vel 
+
+passivitatis ut occisus; creatus etc. 
+
+5. sunt illa , quae dicuntur 2(ipOiB3 2t7i>oX , 
+quaeque habitum, aut qualitatem spiritualem. 
+
+
+Digitized l:y 
+
+
+
+— iiH — 
+
+vel corporalem, aut turpem, vel honestam de- 
+notant; ut impudentia ; 
+
+egestas; continentia sani- 
+
+tas etc. 4. sunt illa , quae rei naturam , vel 
+qualitatem representant ita, ut ab aliis distin- 
+guantur : hinc vocantur iPKoaioMaoa /(TU-aoit 
+i. e. nomina demonstrationis naturae, 
+
+ut cuci* homo cogitans; ]iSapS> 
+
+equus hinniens; JUs^deo rugiens; 2aeft 
+
+bos mugiens ; oi» hirundo 
+
+trissans; sjsjicJBie*» asinus rudens etc. reli- 
+qua vero usu et exercitio apprehenduntur. 
+
+
+
+
+15 
+
+
+Digilized by Google 
+
+
+INNO 
+
+IN LODE DEL PONTIFICATO ROMANO 
+
+
+COMPOSTO IN CALDAICO NEL 1836. 
+dainilmo Monsig. Abdjesus IV. 
+
+fATRUBCA CALDEO (1). 
+
+O "credenti nelP Un Trino venite: 
+Celebriam la maggiore 
+Festa-la festa dei Roman Pastore ! 
+
+A * 
+
+Figlio di Dio, che pel bramato avvento 
+Hai redento i mortali, 
+
+Campa il Roman Pastore da tutti i mali! 
+
+Gigante al par de’ secoli robusto , 
+
+Che superi le sfere, 
+
+Del Romano Pastore alza il potere ! 
+
+
+(1) Parafrasata da Monsig. V. Anivilti 
+Cappellano segreto di Sua Santita Papa 
+Pio IX. 
+
+
+
+^2 j 1^^?^ 
+
+]1— .fc— i— JS OkdX_.jS“i V' N«^3 
+
+4 « • • « • 
+
+» • 
+
+Uol^S T^sJz!^ 
+
+•01^1 • 
+
+)— Moois: )L.a]l ss ]LfiLJ^p^ 
+
+N 
+
+]LcpIij3 2di^2';p^^a3o,«9i3o3 ol •1. 
+
+Jappcns? UH? )fc-r? K-^ 
+
+]3p6ip^^e\s^ ui3^ OU(^][m-S3 
+
+]Lpp9isp oBosad <^ 90 ^ 
+
+• • 
+
+^aoOSMuS ^^3^330 Ot4? **A 
+
+jLppoiss jlajias o)4U3 
+
+^uj'(xa ^ ),n*\3\0 ji^oi ]Lm jCnoPKa/ 
+
+auXXa/3»' (^x&o2'« )^3d3 
+
+• )i^oi S^^o2' 
+
+
+— •. . _ . ssui» < 
+
+
+
+
+Oi 
+
+
+v: by Google 
+
+
+— 228 — 
+
+Giudice uuiversal , nel grau giudicio 
+Ci sia di protezione 
+Dd Romano Pastor T intercessione f 
+
+Pegno che sci di pace ad ambo, i mondi^ 
+Calma i turbati affetti 
+Del Romano Pastor pei santi detti ! 
+
+Porto di vita a chi Pama promcssa, 
+
+Guida ver Te le prore 
+
+Per la preghiera dei Roman Pastore l 
+
+Vincitore , pel qual dai buoni e vinto 
+
+^ Dei malvagi il furore 
+Paolo Quarto trionfi oggi Pastore (l ) l 
+
+
+(1) Hic auctor alludit ad Paulum IV. 
+Pont, unde intelligitur hymnum composuisse 
+
+p * 
+
+antequam Romam peteret. Quem quidem 
+hymnum infreni scriptum circa saeculi sexti 
+
+
+Diqilized by Coo^lc 
+
+
+
+J»0 ^ 
+
+Vopoiss||]ba]i£a ^s^T^Sb ipmPs 
+
+• « 
+
+VpA^ ^ffVasfV) 09 u«Vx2 9U3? ^ 
+
+)appen== JaJs oxi^s )x^ ^ 
+
+jlacMS oi^^s crAs 2Sms 2avd«o 
+
+' • « •* • * \* * •*» .*• ••♦ •! 
+
+psiepoisa )s)[£l ijbLsjp r:*^ 
+
+Vdc^sV, IxtisA ^7^ ^^9 <ns3 jLaL^ »9 
+7:ippa)39 JsTb ^ft\x> ^2jvfi»p.!io^\ ^pA^ cim 
+
+
+
+1»= 0*-?-=^*-^ (J) 
+
+>»a\ ^^neo m 7— ^J>.>.,p3 v.^pAo^ 7-^7^ 
+
+(Wiu 7 xs:m 7^0^ vjAso s^ oots a.ao\\(^ 
+7|,%i3.a ofjV.^7^ ^«oxk/ 
+
+7^2 7^2o •7^23 7^03133 %^hs3o6 
+
+\^xiym ui J^y 7\ K — *■'> An 7-A^p*2^pA 
+TL^pi ^0iA Aop^ 7^03^9 7^^??^*^ 
+
+
+— 230 — 
+
+Fortitudili dei forti, imbelli e sani, 
+
+Soccorri c rendi forte 
+
+II Romano Pastore in ogni sorte ! 
+
+Ottimo , che il tesoro apristi ai iidi, 
+
+Salvalo d’o2ni frode 
+
+O 
+
+Merce il Romano Pastor, clie n’e il custode! 
+
+Provvido, clie Tamor su tutlo spandi, 
+Provvedi a chi ti temc 
+Pel Romano, Pastor, che a Te ne geme! 
+
+Giusto amante de’ giusti c coi (jual perde 
+Ogni oppressor sua scherma, 
+
+Del Romano Pastor Ia fe^ conferma ! 
+
+Porto securo a clii in tue soglie posa, 
+
+Gi ave della gran soma 
+
+Ivi si alieni it gran Pastor di Roina ! 
+
+Re, che .alto siedi e il divin occhio spingi 
+Per le tartaree strade , 
+
+AI Romano Pastor guarda in pietade ! 
+
+•i 
+
+Luce a tutt’aline giuste ed innocenti, 
+
+Un raggio tuo fia scolto 
+
+Del Romano Pastor sui nobil volto ! 
+
+
+medietatem sine punctis s^ocalihus : (juaeque 
+pro Tyronum commoditate litteris 'apposui 
+
+
+— 2:31 — 
+
+
+IaahA*4 3;:^^ u« 
+
+^ J » *• • • •* # / • • 
+
+
+)^O01S3 SfcCboa )>0 33Vo 
+
+
+xnaa:^ \)^2b 
+
+' f 
+
+Vaopoiis laji 5f = 
+
+
+
+IsOm^ 
+
+
+jL^oooisa ^]i^3 cnj^daLa 
+
+]b«pA!^ Jl^ ]Utoo T?f^® 
+
+)sopoi3S OUibSOA )j33^ cnl^ 
+
+)ao3 cnJlkSr^s )jL]L\ 
+
+
+)^ocn33 JsJa ]l33 ' 
+
+jicp^f^ ^*j^cx 2^Ua ]i)o'i:n }^ A y «*y 
+
+Jlaopffias )A]A i^pAS ]Lau sp^ )»m3 ^ 
+
+].3^AJip ]rt^3^uii^ <^3oipA«^ 
+
+)bepci38 )^)fi3 cnBp^^ vA^k c^soipa ^3?* 
+
+,- . -:r,> 
+
+rrr~n 
+
+• ]^3 Aa 8 ■X\ n.ry?>o p )^*i 
+
+
+Digilized by Google 
+
+
+
+— 838 — 
+
+Sperne ed amore e fe delFalma nostra, 
+
+Segua a posar felice 
+
+Mentre il Romano Pastor la benedice ! • 
+
+Aita a tutti , o dei meschin difesa, 
+
+Non ci niegar mercede , 
+
+Quando il Roman Pastor per noi la chiede! 
+
+Salvatore di tutti, affranca e salva 
+Tutta nostra natura, 
+
+Pel Romano Pastor, clie ten’ scongiura ! 
+
+Crocifisso per gli esuli e pei rei 
+Nostr’ orazione accetta 
+Del Romano Pastor per la piu eletta ! 
+
+Santissimb, cui gli Angeli dan lode, 
+
+Santa fa Palma nostra » , . 
+
+Per la virtu, cne il Roman Padre innostra ! 
+
+Eccelso, che negli astri eccelsi hai sede, 
+
+^ Leva nostra bassezza 
+
+Del Romano Pastor per la grandezza ! 
+
+i » 
+
+Gloriato dagli Angeli e i mortali 
+Parte di gloria dona, 
+
+* • Che il Romano Pastor quaggiu corona !‘ 
+
+
+Dtgilized by Googie 
+
+
+
+)Lap««e 
+
+t 
+
+J^pcna? m^AijSkja Jbt^j 
+
+
+)ae*x ^(A&3 Ix^sbiod \Aa9 iaoaJSk «Ck 
+Jmoois; )d]ds enj^xjSkV s^ iasx ^ 
+
+vao^p *^9ox ]L!bb *J3^. ««A 
+]Mpoi3a ]s]do oiAkAiu^\ ^ 
+
+
+)^pci33 Asp^ 
+
+•* » 
+
+)»3 i^S^ail ^&3.^3 UU|^*U3 
+
+)aiep0i33 ji^ji^a ouc^pin vjcapas 
+pipa ^a l^oap }acoxs a^a jboa «a 
+
+<.*!.. ' i\ 
+
+7)000138 JaTaa oupaaops s^ ^idx 73^3 
+]bo*Jc Jsu/o iaxli eo^ao ov«^oJca Tmox «dt 
+
+/• ' * \'* •, t • 9 • 
+
+• f 
+
+Mj-aa CTM,np»3 )^.3pxs Vt^ ^^OX 
+
+
+
+— m ~ 
+
+Giocondamcnte or tributiamo a Dio 
+
+‘ * • I «« % 
+
+Grazie ed onori e gloria , 
+
+' * 
+
+Che promise al Pastore ogni vittoria ! 
+
+
+
+EPISTOLA SIMKONI.S XII. ElUEDAEOiail PATRURCHAt 
+
+
+BENEDTCTISSIMO DOMINO MEO 
+
+PAPAE , 
+
+'Patri Patrum, et maximo* Pastorum, Pe- 
+tro nostri temporis, et. Paulo dierum, no- 
+strorum , diademati Apostolicorum , et soli 
+‘ <**.•* ^ *" 
+splendido Theoreticorum , seraphim incor- 
+porato , . et Angelo incarnato , duplicanti Do- 
+
+* • 
+
+mini talenta, quae in Evangelio designantur ^ 
+et geminanti mnas, quae ih Evangelio con- 
+tinentur, quaeque illis (servis) per denarium 
+
+.numerum ihi praecepit ; induto Ephod sum- 
+
+. ' ' * 
+
+mi Jesu sacerdotii ; tenenti , et gubernanti 
+
+' 
+
+Cathedram supremam Orthodoxiae christia- 
+nae; segregato ab utero, et ventre, ut s. Je- 
+
+
+Googie 
+
+
+— aa.'i — 
+
+)iCZ3CpS wJDftik )i*2pxo ><SOy • {V 
+
+• )^O01S3 
+* • • • 
+
+
+
+
+)]LaA^s lsizfs\^»(j3,s»,^^x t^iiep jLsSisk 
+
+
+<^aox Jd]^ ^zie 
+v.toosJ^ • ^oJikas l^iso • 
+
+•pa^o^fl>a2| vAO^o^o 
+
+•^;.3,V> v^aSb «oBJ^adZ^D jLil^ 
+
+)— Zs^Lb va,a-2k'ao • ^px3^ £CjU>^o 
+
+mJ^L^ac *73Zft>— aco • ^ae^a Xiaiifti-^? 
+
+^^ao)b 3 ,o^\\p^axfiiXJo 
+
+• MA^^djca 2^OA0iai f^osaa ZaoaZ' 
+
+« • » *•• ••«. •• 
+
+)^dadAkaZa ]L1^ ^aa^jo a^MO s^-mZo 
+
+^ • %^t,i*^x.sc 
+
+
+Digilized by Googlc 
+
+
+— 236 — 
+
+remia Propheta. Idcirco Dominus ejus, dum 
+vidit sinceram ejus firmitatem , eum Vica- 
+rium , Rectorem , et Principem constituit , 
+et ipsum sedere fecit super gloriosam Petri 
+Cathedram , et ipse est caput Patmm ( i. e. 
+
+Ecclesiae) pro illo (Petro). Coronae lucis 
+
+> 
+
+Domini , quae per suos clarissimos radios 
+( undequaque ) velnti sol resplendet ; et per 
+gloriosos , et intelligentes radios , quae ex il- 
+lustri ejus Cathedra, triumphantique sua sede 
+refulgent , omnes nos illuminamur. Patri no- 
+stro Patriarchae, benedictae, et celebris, atque 
+principalis Civitatis Romae , Orbisque terra- 
+rum , caeterarumque sine numero Regionum 
+principalium, atque potentissimarum, et cU- 
+matum, in quibus veri , et perfecti christiani , 
+atque integerrimi fideles, s. baptismatis filii, 
+sedent ; constituto a Domino, qui ad honori- 
+ficentiam s. Ecclesiae, ejusque filiorum eum 
+exaltat, ac* magnificat. Arnen. 
+
+
+
+
+■iaed > C oo^le 
+
+
+— 237 — 
+
+
+01M lyen vAx • 
+
+] SoAmA^ * ]^-^^pa 0)5» ^ 
+
+]m». nx ji^spa^ ^ o)a{Vko2b*)a^5o )l55aMci 
+^0l\&3 )L,3C^3 a!0fi^2 00)0 • J-J^pf^ao 
+3^9>o 3 jULAi;^ • aioaXM 
+W*0)oi^^p*^ f^p«A30)M3 )Lji]i^ 
+
+X. •• 
+
+Q^ ^^iaAtA^p ]L*^xd ).^3rfAop 
+
+OUSbSOAO ^^oj* ^33^ cn^pM 
+
+• ]aopo)S3 )jojt5fo • ^o)M:^d • nim 
+
+}_sk 3 x ^73-^1^ ^ Ok-jaa/po 
+
+• ])[p3 ]L.i^:ko ) ,.>,:ix52’2ft>03^^ 
+
+• 2^3X ^.ue«pLJo-a ]LoAad 
+
+Jl^ppXjVdop b)aa ^5 11^3 25j>:il^),.v^ 
+
+is^pxA ovxiisoaio UsaioJ^p^Ai;» 
+
+• • 
+
+•^2’* OUsAjpd ]liA«SJ3 ZPks^iS 
+
+
+Digilizad by Googie 
+
+
+— 238 — 
+
+Sinieou humilis , qui administrat ministe- 
+rium sedis Patriarchalis Orientis per Dei gra- 
+tiam, Patemitatisque Vestrae permissionem; 
+vestrae Paternitati in spiritu salutem 'dicit , 
+vestrasque praestantissimas orationes e lon- 
+ginquo tamquam e propinquo vehementer de- 
+siderat, atque in spiritu occulte pervenit pro- 
+jectus ante excelsum tuae majestatis thronum, 
+et manifeste atramento, et calamo signat, ex- 
+tendi tque Vestrae Sanctitati amoris salutatio- 
+nem , veluti dilectus filius , qui coram suo 
+
+clementissimo Patre confidenter loquitur. Fi- 
+•1 '■* 
+lii , Domine mi , parentes tam spirituales , 
+
+quam corporales, juxta dictum s. Pauli Apo- 
+stoli spiritualis citliaraedi , honorare debent 
+« Filii obedite patribus vestris , » et paren- 
+tum hoc est (officium) ut verum, suavemque 
+amorem, laetam, pacificainque faciem erga il- 
+los ostendant; eoquod ad pacem vocavit nos 
+Deus, nobisque per suum Apostolum praece- 
+
+
+Digilized by Googl 
+
+
+* n 
+
+
+
+— W 9 — 
+
+
+Pift>o.3*-V.a oc^oiJoa ocn jsVJox 
+
+/ < Tv ' • 
+
+{ ^ ^ 
+
+iftikOSLSX ^Af^oon-a 2 b /flKOAc^xJd 2 ^ 2 » 
+
+
+*J 3 ^ *]L«&pMS ]UohpAO 
+
+2 pjk 3 ^-iOo • vmO» ^^fVp 9 ?jb 2 * 
+
+• Si • ♦ X' 
+
+I 
+
+)j] 3 aO„a 3 tf<^ 2 ' )j^p 3'^0 •'>^pK> pitOpSb^ 
+
+^fV«p-s 33 KSBpxpsf^ ys cl 4 
+
+]^Pm y Sx.O CMOis \Xjpic^Ap 
+
+
+,^^px^cJ^ ulsttao Isi^p^sja *px ^ 
+
+)^:ioM33o Xs2’ySM /s.p 
+
+l}ifio2h )^Mp3 
+
+^spsflLi^ ]LJi*^x vftoAoS i^baio )viip\^ 
+ioo/so • OAiic^l^ o^»Ao(.i2 \JSs •]aiL,ps 
+
+i' * 
+
+• 23^3X0 ) ,..lio»C?>,. j 
+
+I 
+
+<AJ^3c • ,eo&i-a li^o 
+
+• C 7 ^«*^X ais »aJD£io • 2 ^ 2*30 oci ]U 3 lx ^3 
+
+,. . .. Y . . y . 
+
+
+30 m ^OmA 3 
+
+. %y. .. 
+
+
+>«di 2sen 
+
+
+Digitized by Coogle 
+
+
+— 240 — 
+
+pit orate pro invicem, ut sanemini } quia spi- 
+ritum gratiae magnum , excelsum , et in Do- 
+ctoribus probatum, in Apostolis electum, in 
+triumphatoribus laudabilem, atque illum spi- 
+ritum justitiae accepimus a Domino nostro ; 
+per quem discernimus, quae §it bona, perfe-. 
+
+i 
+
+cta, et accepta Dei voluntas. 
+
+Et nos , Pater Oecumenice', ,a tua sancti- 
+tate tuaque sublimi, ac gloriosA sede bene- 
+dici ardenter avemus, ac desideramus , et lit>- 
+terae expbcativae ab eadem vestra sanctitate 
+imbecillitati nostrae concedantur. Ex toto 
+nostro corde, ex tota anima nostra ', ac spi- 
+
+» . t 
+
+ritu pudemus, atqiie laetamur, dum cogno- 
+vimus, memoriam nostram in bonum apud 
+sanctitatem vestram omni tempore praesen- 
+tem esse. Hoc tamen requiritur a Deo, et a 
+Vestra Paternitate, ut nullam faciatis nobis 
+reprehensionem ; jam hoc sanctitate' vestrae 
+manifestum est ,* quod quicumque est sub 
+
+
+— 2*1 — 
+
+
+0« s« oA‘^a 
+
+•* * 
+
+•)-aaAyj3 2 ILm^ 6 ]JAXao ]LaS 
+iP^OAji^ap. Jtoi^p *J*.^Axj 
+
+Oixijp^ 0^2‘^J^3A 0123 ^ .HM 
+
+• )A-2Baod 
+
+OASJP^^ la/ 0^ ^c5 
+
+)»A:kaed ]*4»>i3jc )iS33p2 ^o • ^^Akp««SbM ^ 
+
+.Oj^pjJtoM ^3 ]2Ak2.S ,0^p0V2^ 
+
+c\\a . ,n ^SmO «i^oBOM^^A 
+\ • '• / » \ .• • • . ^ . ~ 
+
+C^2s hi«^3.^a w*^2«^pisd kX£Li dA^ad 
+
+]LXi2A»Mo «^sxAi^ ^soioVi ,^AtdA 
+
+y^9X3 ^S^oa^2'^o 2^2' ^90 
+
+ft«^ft.3 ^abia? ^V <»^52 • ,^3^ B’ 
+
+•mmB^vxao 2d»som PiddsXofi» \xiiim2z odi lzs2‘ 
+
+\* ••» * • 0 * * ^ »•# •• 
+
+B’ 0l<^3^0 ^^J3X B ]LAX)opX XTldsJ^p 
+BidisXpsD • pdi Iz]»* Xss ]S^2b • oual ]iiA«B 
+
+
+Digitized by Googie 
+
+
+
+— 242 — 
+
+
+manu aliorum, <yus opera non completa in- 
+veniuntur , ejus actus imperfecti remanent , 
+ejusque consilium, non ascendit ad caput; qui 
+vero liberorum est filius opera sua confidenter 
+facit, uti vos estis filii liberorum ; et nos gra- 
+tiam vestram suscipientes, et pacem a Do- 
+mino nostro Christo relictam, ex sublimi thro- 
+no vestro , uti spirituale munus expectamus , 
+et veluti coeleste donum ipsam honore pro- 
+sequimur, et benedictiones acceptas, quae ex 
+habitatione laudabilis sanctuarii vestri per 
+abundantiam effluviorum et charismatum con- 
+solationem possidemus ; et una charitatis con- 
+cordia fidei Orthodoxae Sanctae Ecclesiae , 
+Apostolicaeque assentimur , dum servamus 
+numerum ternarium gloriosae Trinitatis ; et 
+confitemur veram unitatem unius Filii veri , 
+unius Patris veri, confessionem que rectam dua- 
+rum naturarum perfectarum divinitatis, et hu- 
+manitatis in una persona Verbi in Christo ; et 
+
+
+Digitized by Googlc 
+
+
+
+— 243 — 
+
+
+• a.Vitb 
+
+
+4 • • 
+
+
+
+
+<- 2 >. Vinv » ^d.2% 
+
+4f|«2b •^ifc.ftPaao o>i jliMOS jiix^ df^t 
+/lAsoso •^ij3,nfcyi ZsJUjLs ou ]Um Auseno^ 
+Lw-ix:» J9AJC3SM wsxM ^i.3o^ It, .A ..rjriao 
+
+• tei*3.B Jj^es jL^pxo ]lx9,« (VoMpiiNya 
+
+.iiOo.\K )^bm 9 iKp,ie2'i3M.ao 
+
+• o«j3^pAa3 ]l|jcjs.n ^;X3 ]li*>i^d3dAkSd2 
+
+^ * • • * •• * •» \ .^ V • • ' 
+
+ivv^ax 
+
+%mifS^o • IBifix )Ls2* idi2ll2'^p 2 u3 pmp 
+
+^poOt^S J m^'ioi..)o ^^XtA ^sA)3 
+
+• Liiujc-te^ TtAtoS LddoAB Sma ^oxi/ad 
+» « • <. • • % * 0 • »1 
+
+
+]U^3 PL4i.\oa ^'3*2dil?*^B 2dil2' A»3^ 
+
+
+— 244 — 
+
+ita credimus, et vocamus Dominam Mariam 
+Genitricem Dei de Deo , sine confusione na- 
+turarum perfectarum , earumque proprieta- 
+tum. Item confitemur Spiritum sanctitatis , 
+qui ex Patre Filioque procedit , et cum ipsis 
+simul adoratur, et conglorificatur. 
+
+Dum per haec , et alia plura confitemur , 
+et vobiscum conjuncti sumus, a Vestra Pa- 
+ternitate, atque ab excelsa majestatis Vestrae 
+Cathedra petimus, ut jubeas omnino, ne sit 
+
+nobis recordatio apud Vos in paucis, nec in 
+multis , ab hodierno die in posterum praeter 
+
+haec scripta, quae Vobis modo misimus; atque 
+ita charitatem novam, ac spiritualem ad invi- 
+cem habebimus, juxta sancti Davidis testimo- 
+nium « quam bonum quamque jucundum est 
+fratres habitantes in unum. » Et laetentur 
+coeli, et exultet terra in hac concordia , quae 
+facta est Orientem inter et Occidentem. Quod 
+si quidpiam est, quod Vobis non placeat et iis 
+
+
+— 245 — 
+
+
+]Lac!lx 
+
+eopoXo • v.nai i»d L-a2‘^a jLjcsojis 
+•u«.aAx^o fiJlSox 
+
+
+^(^poia2* ^fc.Vi no 
+
+^ apcS^a ^{Vpjsap 
+
+^ lA^o ^ • •JopssJiA 
+
+^ 2pou B'.,o^ ^Aa^a Me^? Ji4»^ 
+
+• uAyte.a ^‘o vA»J^J B a ]\ )i’aaipA, 
+
+Ji^pao jLapM^AAOTo 
+
+)Lloo ]Lio «a^oa ^sLapi^a ffij^paoip» «^2* 
+
+
+)^opx^^Q*2aMA^^^:^? • a*^' 
+
+Ak_>»a f^6o]3 ^prfo2'2a9va )^a2'<a^ppA^p 
+^ixTiJ[a ‘pay IV^2^«)L3rXa^]UAapp 
+•,o^ aaxj|3 oul ^AgaX ^ 
+
+C30(^ • osjaoi LmTt^l^i LAaoieX. ap^Jus 
+
+• • • M « J •• ♦ • * ,• • * ♦ •• 
+
+
+Digitized by Google 
+
+
+
+— 246 — 
+
+quae scripsimus, faciemus, ut placeat Vobis; 
+tantummodo antiquas memorias perdite. De- 
+nuo a Sanctitate Vestra petimus , ut nobis 
+mittatis epistolas bonas, et congruas super 
+canones sy nodales, et ordines, et ritus Eccle- 
+siasticos nostros, ut non confundantur, neque 
+mutentur ab aliqua re , quae non sit juxta 
+id , quod ordinaverunt Sancti Patres nostri 
+secundum Venerabilem ( Ecclesiae ) Orientis 
+Ritum ; sed maneant ut ab antiquo fuerunt, 
+sine additione, vel diminutione; ne in corpus 
+Christi confusio inducatur: Sanctitas Vestra 
+jam bene cognoscit , quod nos per manus 
+Ethnicorum, et Turearum vincti sumus ; et 
+valde arduum est Ecclesiasticos ritus mutare, 
+quae in praesentiarum tenentur, atque in 
+Regionibus nostris in usu sunt. Et modo en 
+epistolam nostram in manus Paulli consigna- 
+mus , qui hic multum reprehenditur a suis 
+inimicis propter amoris adhaesionem erga 
+
+
+Digilized by Googie 
+
+
+
+— 247 — 
+
+
+% <>^ l^ Ja.^ 
+
+f 
+
+tf? v^?? Ws^® J?%® 
+
+^ffuia^* ^ OB>A\^a ,.os!i*^lyuo 
+
+• JLMAaaibs ]L ^ ay>o ]1«^^ 
+
+llLa ^pj3 ^ oddi <^/’^ou3 
+
+(A:k. 2(ipA*^ ^PV^ ]3[3*pL^o ps^f^a 
+
+
+^A^px-^o • jl^MJkX^O ^iOXpi^ 
+
+•)«^X^,i2o T-SiAm wi^jLs 
+
+jL^AB^ ]LgiH«V; oa.\*< >o\ >«di 2 Aju^o 
+
+^.wicyu 2<n Jx9io«^dB^)L3 ^9^/p 
+
+ou-1 ^,.fci.;uo ILj&Boto • vjbp^oS u|^]L^ 
+
+00)0 • V-^ 2oi^ joioPL^ 29 >oioAaalkJ3 
+
+• ' * • • • ^ • • • !• 
+
+• JonopL2 
+
+^2*]btspj3a ]LiipsAp • ^«.ax^Ay ]12 ^pAm 
+
+
+o)>^\o l^riadl' 
+
+
+Digilized by Googlc 
+
+
+
+— 248 — 
+
+Sanctitatem Vestram; ipse est fidejussor, qui 
+epistolam nostram apud Vos perducere debet. 
+Jam vero a Deo Patre poscimus , ejusque Fi- 
+lium aeternum supplicamus, et Spiritum san- 
+ctitatis obsecramus , ut firma , et inconcussa' 
+sedes Vestra maneat in generationum genera- 
+tiones , ad totius christianitatis , quae est in 
+quatuor finibus terrae, gloriam, atque hono- 
+rificentiam ; unde per mediationem Sancti- 
+tatis Vestrae sit nobis fiducia apud Pastorum 
+Principem Jesum Christum : cui, ejusque Ge- 
+nitori , ac spiritui sanctitatis indivisibilis glo- 
+ria per onmes generationes in saeculorum sae- 
+cula. Arnen. 
+
+• Exaratus mense Aprilis die 20. anno 
+Graec. 4984. an. Ch. 4670. 
+
+
+
+Digitize?i by Googk 
+
+
+
+— 249 — 
+
+
+^933^ ,^^»iaapA »A;jus lXa 
+
+^ Jbcnt^ 0 a(^.qx^ 3 Bd Isi^ps^^sioJii • J&^ud 
+• Lwoxaexcix^ 2A^9 09 ]Li4bot9a 
+
+
+]\ )- ,wb.np» |^9(»3 ]lMp^d XTiaaJA 
+^ waia^s 299 ^cn,\jv,."i 
+
+
+• ^2' 
+
+>]bg2 • ftwuc.n ou? • cfj • vmU 
+
+•\Xeo2»^^AM*Jtio(>»)^AAoS 
+
+
+I 
+
+
+Digitized by Googie 
+
+
+
+— 250 — 
+
+
+• # • • m 0 
+
+JjtiM 9 ;^;^ ^ 
+
+U^x pcn^i^ ^ 
+
+• TiUit^ s»o\ois^ m«A^^ 
+
+^ol« 03 cnXsb ]ll>ed 
+
+'-T— , 
+
+7^v-)o3o Ja^ uXao 
+
+iP^pAlpm^^ 
+•Jixpj^a;» yiixis tr^2' 
+2eoio vfiai sa 
+
+Jao^ J9)o^oi 3.^ 
+
+Jaiioa^ 
+
+• jli^so* s2‘23 
+
+• ' • f • • 
+
+(^) ^ 
+
+
+•yu 
+
+
+Digitized by Google 
+
+
+
+— 2Si — 
+
+(>-3] hi 
+
+• J^Sg Ja» 
+
+xrtOMM OL^ fkf)ssM2 
+
+woiai iioM JaJ^ AkpM<^o 
+xrjosac]lapJ «T)*2' 
+
+•XTIOSO^ ^O >9IO&MJ^OSd^ 
+
+• M • , . 
+
+UCa/b XJ]oi^ BA 
+• • # • « 
+
+sie^ s<A.^d pei ]li^ 
+
+• )u 9 i n . .n , a\ 2 ^ ^ 
+
+
+^cru^AO -t^2' 
+
+
+
+
+Digitized by Google 
+
+
+
+— 252 — 
+
+SONETTO ACROSTICO 
+
+
+@ esu, Signor de’ secoli immortale, 
+n porto ah ! tu ricovra la mia nave ! 
+n raggio splenda di pieta soave 
+£3 ugli error di me misero mortale ! 
+ti mi tutela da maligno strale, 
+
+oiche altro schermo il peccator non ave ; 
+orgermi la tua man non ti sia grave , 
+g me salvar dal tentator ferale. 
+
+@ razie imploro da Te ; che piu si affida 
+
+^ n’ alma che t’offese, e pur ti e cara 
+
+^ imessa dietro alia tua santa guida. 
+
+> 
+
+f:y nchina al supplicar della mia voce , 
+
+Ii reso forte nel patir mi schiara 
+£3 e vie dei dolce amor dalla tua croce. 
+
+
+f 
+
+
+
+
+— 253 — 
+
+
+
+
+Msaib <^d& 
+)ao{5» ]i\ae vA)j3e^A ^ 
+Jjieiiap 2]ipSbs cTji ^ 
+
+J^i Ul«s 
+
+jAaiMS^o «XjjjpaA^a 
+
+)lx^ab <fu2'uajAa 
+
+• • I • * •• 
+
+jbin^pMa uA*<^ ujusLaAk 
+
+»• • tt 
+
+jbuju «^pMj \.*>l»J3g)A 
+
+
+
+1 
+
+o 
+
+a 
+
+«I 
+
+A' 
+
+o 
+
+•n 
+
+9 
+
+•SI 
+
+
+Digilized b y Gooate 
+
+
+— 254 — 
+
+Errata, quae mihi occurrerunt corrigenda, 
+
+sunt ; pag. 28. lege talimna ; pag. 44. lege 
+
+*• 
+
+pag. 49. lege ; pag. 57. lege 
+
+i pag.75.1ege pag.79.1ege 
+
+pag. 85. lege pag. 88. 
+
+legeu*{^,^; pag. 94. pro lege ovkz^ 
+
+pag. 115. lege se prostravit pag. 129. lege 
+uAm ; pag. 150. legec^bf^^; pag. 134. lege 
+
+appendere; N. B. Verbum vAn.n (vide p. 64.) 
+in conjugatione Ettaph. aliquando recipit «Jb, 
+et fit quadrilitt. ut obstitit ; contra- 
+
+rius fuit; hinc vA.arf<u&2 adversatus est etc. 
+ita ab (^^«Jkao^manifestavit, indicavit, co- 
+gnovit fit <A30X • etc. 
+
+Tandem finem imponam cum S. Augu- 
+stino, in epistola 57. ad Simplicianum. <(Quia 
+sicut Dei data, ajebat s. Doctor, sic etiam mea 
+errata cognosco , non solum curam legentis 
+impendant , sed etiam censuram corrigentis 
+assumant.» 
+
+
+Digiiized by Google 
+
+
+INDEX 
+
+
+Praefatio pag. 5 
+
+Litterae Chaldaicae.... 8 
+Litterarum significatio. 10 
+Earum divisio, et valor. 1 1 
+
+De numeralibus 15 
+
+De numeralibus compo- 
+sitis 22 
+
+De numeralibus cum 
+
+sufBxis 24 
+
+De litteris furatis 27 
+
+De sufli.vis , et punctis 
+
+vocalibus 29 
+
+De vocalium nomini- 
+bus 31 
+
+De aliis punctis ut signa 
+
+plurabtatis 34 
+
+De duplici terminatione 
+
+pluralitatis 36 
+
+Nomina in plurali ter- 
+minata in habent 
+
+alium pluralem 38 
+
+De adjectivis 39 
+
+Nomina foeminina for- 
+mantur ab adjectivis 
+
+masculinis 41 
+
+Nomina foeminina qua- 
+si omnia terminantur 
+
+veliiiittp velin^fl^. 42 
+Nonnulla terminata in 
+
+
+sunt masculina.. 43 
+
+
+Alia, etsi masculinam 
+habeant terminatio- 
+nem, sunt foemini- 
+
+pag. 44 
+
+Duplex foemininorum 
+pluralium termina- 
+
+
+47 
+
+De diminutivis 51 
+
+
+De suffixis nominum , 
+eorumque exempla... 58 
+De pronomine persona- 
+
+
+56 
+
+De Verbo 57 
+
+Conjugatio activa 59 
+
+Conjugatio passiva 61 
+
+De denominatione con- 
+jugationum , et Ver- 
+bo irregulari 64 
+
+De tempore imperfe- 
+cto, et plusquam per- 
+fecto ; vide ad no- 
+tam ( 1 ) 65 
+
+Quiescentia in fine 67 
+
+Ejusdem passiva 70 
+
+Quiescentia in medio... 73 
+Quiescentia in princi- 
+pio, et in fine 76 
+
+Dupliciter quiescentia. 77 
+Quiescentia in principio 
+
+tantum 80 
+
+Eorumque passiva 83 
+
+
+— 256 — 
+
+
+Veri» defectiva, et ano- 
+
+mala pag. 87 
+
+Futura, quae rejiciunt 
+
+(o) Wau 90 
+
+De quadrilitteris 91 
+
+De suffixis verborum... 93 
+De adverbio, et praepo- 
+sitione 95 
+
+De nominibus Hebdo- 
+madae dierum , et 
+
+mensium 102 
+
+Pro Tyronum exercitio. 104 
+Analysis generalis etc. 107 
+Stylus epistolaris 139 
+
+
+Idem Syriace pag. 142 
+
+Cronotaxis Patriarcha- 
+rum Chaldaeorum... 144 
+
+APPENDIX 
+
+De nominum statu, ac 
+
+divisione 216 
+
+De qualitate nominum. 224 
+Hymnus Abdiesus IV. 
+in laudem PontiRca- 
+
+tus Romani 226 
+
+Epistola Simeonis XII. 
+ad Clementem X. 
+Rom. Pontificem 234 
+
+
+
+
+
+
+Hic Patriarcharum Chaldaicae Gentis Elenchus, quem Cl. Jo.sephus 
+Guriel Persa-Chaldaeus exaravit, mihi satis exactus visus est, utilisque 
+ad coDtroversiu , quae exoriri possent, dirimendas. In Gdem etc. 
+
+Joannes Perrone S. i. 
+
+Consultor S. C. De Prop. Fide. 
+
+
+IMPRIMATUR 
+
+Fr. Hieronymus Gigli Urd. Praed. S. P. A. Magister. 
+
+
+IMPRIMATUR 
+
+Fr. Ant. Ligi Russi Archiep. Icon. Vicesgerens. 
+
+
+»-w — 
+
+
+Digitized by Googlc 
+
+
+
+
+
+

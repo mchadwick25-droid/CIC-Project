@@ -690,3 +690,32 @@ works:
       host record of the 1636 printing names Samuel Przypkowski.
 
       '
+
+  - work_id: zenahu-la-galla-history-of-the-galla
+    title: History of the Galla (Zenahu la-Galla)
+    author: null
+    original_language: Ge'ez
+    composed: sixteenth century (not dated in the vendored editions)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Ignazio Guidi
+      year: 1907
+      language: French
+      recension: Ge'ez text of the Guidi edition (CSCO Scriptores Aethiopici II.3)
+      items:
+      - cic:sarsa-dengel_historia-regis-sarsa-dengel-gez-fra_conti-rossini1907.txt:historia-gentis-galla-french-from-line-18384
+    - translator: A. W. Schleicher
+      year: 1893
+      language: German
+      recension: abridged manuscript text, Schleicher's edition
+      items:
+      - cic:zenahu-la-galla_geschichte-der-galla-deu_schleicher1893.txt:whole-file
+    notes: 'Two independent translations of the same sixteenth-century monk''s report on the Galla invasion,
+      from two Ethiopic texts: Guidi''s French from his Ge''ez edition, and Schleicher''s German from an
+      abridged manuscript text (Schleicher''s own note says the manuscript is shortened). Neither edition
+      names the author; the usual attribution to Abba Bahrey is from outside the files. No public-domain
+      English was found.'

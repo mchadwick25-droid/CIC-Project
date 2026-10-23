@@ -26,3 +26,13 @@ works:
 
     '
   source_file: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt
+- row_id: teresa-of-avila_book-of-foundations_mason1909--foundations-colonial
+  work: The Book of the Foundations, the passages on the Indies and Peru
+  author: teresa-of-avila
+  locus: the Indies (3 hits) and Peru (2 hits, in Mason's notes, for example line 9932)
+  role: context
+  confidence: needs-ruling
+  note: The Indies and Peru appear in a few lines of the text and in Mason's notes, at the
+    edge of the reform. Not read in context, and outside this entry's window of c. 1600-1810;
+    needs a ruling on whether it belongs at all.
+  source_file: teresa-of-avila_book-of-foundations_mason1909.txt

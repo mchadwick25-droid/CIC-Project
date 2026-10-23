@@ -1549,6 +1549,28 @@ works:
     window and subject without reading the whole; a mission history written about Jesuit work
     and attributed to a Jesuit author.
   source_file: telles_travels-of-the-jesuits-in-ethiopia_1710.txt
+- row_id: teresa-of-avila_book-of-foundations_mason1909--foundations-jesuits
+  work: The Book of the Foundations, the passages on the Jesuits who helped found houses
+  author: teresa-of-avila
+  locus: passages naming the Society of Jesus at lines 12009 and 12182, and the Jesuits (11
+    hits)
+  role: context
+  confidence: provisional
+  note: Jesuit fathers appear as helpers and counsellors in the foundation stories. Placed
+    on word counts only.
+  source_file: teresa-of-avila_book-of-foundations_mason1909.txt
+- row_id: teresa-of-avila_life_lewis1904--life-jesuits
+  work: The Life of St. Teresa of Jesus, the passages on her Jesuit confessors and on Francis
+    Borgia and Peter of Alcantara
+  author: teresa-of-avila
+  locus: the Society of Jesus (16 hits, from line 1838); Francis de Borja at line 1850; Peter
+    of Alcantara (19 hits)
+  role: context
+  confidence: provisional
+  note: The Society seen from outside by a woman who consulted its fathers; the editor's note
+    at line 1850 says she told everything to St Francis de Borja, who changed one point of
+    her direction. Placed on word counts and that note, so provisional.
+  source_file: teresa-of-avila_life_lewis1904.txt
 - row_id: trigault_de-christiana-expeditione-apud-sinas-lat_1615--de-christiana-expeditione-apud-sinas-trigault-from-ricci
   work: De Christiana expeditione apud Sinas (Trigault, from Ricci)
   author: trigault

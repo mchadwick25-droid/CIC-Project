@@ -111,6 +111,21 @@ works:
     remarks'), useful for what the other side said, not the council's own record. Garbled
     in the Polish quotations; second witness.
   source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+- row_id: kyiv-synopsis_sinopsis-chu_1762--sinopsis-ili-kratkoe-opisanie-ot-razlichnykh-letopistsev-the
+  work: Sinopsis, ili kratkoe opisanie ot razlichnykh letopistsev (the Kyiv Synopsis), St
+    Petersburg printing of 1762
+  author: kyiv-synopsis
+  locus: title page and dedication at the head of the file; the history from about file line
+    10 onward ('O nachale drevniago slavenskago naroda'); the printers' note to the reader
+    at about line 9578
+  role: tradition
+  confidence: assigned
+  note: The short history of the Slavs and the Kyivan princes that the Kyiv Caves circle printed,
+    in a St Petersburg reprint; the host attributes it to Innokentii Gizel, which is the traditional
+    attribution and is not settled by the title page. Church Slavonic, readable with scattered
+    errors; title page and headings garbled. Second witness for quotation. It is the circle's
+    own statement of its past, not a doctrinal text.
+  source_file: kyiv-synopsis_sinopsis-chu_1762.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-2
   work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
   author: mogila
