@@ -71,13 +71,16 @@ class ConversationEraser:
         self.qc_recorder = qc_recorder
         self.audit_root = Path(audit_root) if audit_root else None
 
-    def erase(self, session_id: str, code: str | None = None) -> dict:
+    def erase(self, session_id: str, code: str | None = None, known_tokens: tuple[str, ...] = ()) -> dict:
         """Erases one conversation. With its code the review rows are found by their keyed token;
-        without it only a conversation the process still remembers can be."""
+        without it only a conversation the process still remembers can be, and the tokens a first
+        erasure recorded are given as known_tokens."""
         counts = {}
-        tokens: tuple[str, ...] = ()
+        tokens: tuple[str, ...] = tuple(known_tokens)
         if self.qc_recorder is not None:
-            tokens = self.qc_recorder.forget(session_id, code)
+            for token in known_tokens:
+                self.qc_recorder.forget_token(token)
+            tokens = tuple(dict.fromkeys((*known_tokens, *self.qc_recorder.forget(session_id, code))))
             counts["qc_tokens"] = len(tokens)
         if self.feedback_store is not None:
             counts["feedback_rows"] = self.feedback_store.delete_session(session_id)
@@ -93,6 +96,4 @@ class ConversationEraser:
     def erase_again(self, session_id: str, qc_tokens: tuple[str, ...] = ()) -> dict:
         """Erases a conversation that came back (from a restored backup) or was written to while
         its deletion ran, by the tokens the first deletion recorded."""
-        counts = {"qc_rows": sum(self.qc_recorder.forget_token(t) for t in qc_tokens) if self.qc_recorder is not None else 0}
-        counts.update(self.erase(session_id))
-        return counts
+        return self.erase(session_id, None, qc_tokens)

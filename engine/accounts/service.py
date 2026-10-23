@@ -824,6 +824,9 @@ class AccountsService:
         expires = (self.today() + timedelta(days=self.limits.ledger_days)).isoformat()
         self.store.note_erased(self.keys.secret_hash("erased", session_id), ",".join(qc_tokens), expires)
 
+    def has_erasures(self) -> bool:
+        return bool(self.store.erased_rows())
+
     def erased_matches(self, session_ids) -> list[tuple[str, tuple[str, ...]]]:
         """(conversation id, review tokens) for each given id the ledger says was erased."""
         ledger = self.store.erased_rows()
@@ -889,6 +892,8 @@ class AccountsService:
                         break
                     before(items)
                     done.update(i for i, _ in items)
+                if any(i not in done for i in self.shelf_ids(account_id)):
+                    raise RuntimeError("conversations were shelved while the account was being cleared")
             except Exception:  # noqa: BLE001 - the account is kept, and a retry removes the rest
                 logger.exception("an account's conversations could not all be removed; the account is kept")
                 return Result("delete_failed")

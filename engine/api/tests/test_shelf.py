@@ -384,7 +384,6 @@ def test_the_erasure_ledger_holds_a_keyed_hash_and_expires(http, accounts, maile
     sign_in(http, mailer)
     session_id, auth = open_session(http)
     post(http, "shelf/delete", session_id=session_id)
-    assert session_id.encode() not in (tmp_path / "d.db").read_bytes() or True
     rows = accounts.service.store.erased_rows()
     assert len(rows) == 1 and session_id not in next(iter(rows))
     accounts.service._clock.advance(20 * 86400)
@@ -466,4 +465,52 @@ def test_the_sweep_leaves_an_account_that_signed_in_while_it_ran(http, accounts,
 
     monkeypatch.setattr(accounts.service, "stale_account_ids", once_then_none)
     assert sweep_unused_accounts(accounts) == 0
+    assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1
+
+
+def test_a_second_pass_keeps_the_review_tokens_so_a_later_restore_is_still_cleared(http, accounts, mailer, store, qc, tmp_path):
+    from engine.api.accounts_routes import reapply_erasures
+    sign_in(http, mailer)
+    session_id, auth = open_session(http)
+    say(http, session_id, auth, "a question")
+    token = qc.token_for_code(code_of(auth))
+    import sqlite3
+
+    def snapshot(source, target):
+        with sqlite3.connect(source) as src, sqlite3.connect(target) as dst:
+            src.backup(dst)
+
+    snapshot(store.db_path, tmp_path / "ev.bak")
+    snapshot(qc.store.db_path, tmp_path / "qc.bak")
+    post(http, "shelf/delete", session_id=session_id)
+    for _ in range(2):  # restored twice, as a backup restored then restored again
+        snapshot(tmp_path / "ev.bak", store.db_path)
+        snapshot(tmp_path / "qc.bak", qc.store.db_path)
+        assert qc.store.max_round(token) >= 1
+        assert reapply_erasures(accounts) == 1
+        assert store.read_events(session_id) == [] and qc.store.max_round(token) == 0
+
+
+def test_an_unreadable_account_file_never_lets_the_clearing_delete_a_conversation(tmp_path):
+    from engine.api.accounts_routes import shelf_exemption_from_file
+    broken = tmp_path / "broken.db"
+    broken.write_bytes(b"this is not a database file")
+    assert shelf_exemption_from_file(str(broken))("any-session") is True
+
+
+def test_an_account_is_kept_if_a_conversation_is_shelved_while_it_is_being_cleared(http, accounts, mailer, store, monkeypatch):
+    sign_in(http, mailer)
+    first, _ = open_session(http)
+    stepped_up(http, accounts)
+    real = shelf.ConversationEraser.erase
+
+    def shelve_one_more(self, session_id, code=None, known_tokens=()):
+        late = TestClient(http.app, base_url="https://testserver")
+        late.cookies.set(accounts.cookie_name, http.cookies.get(accounts.cookie_name))
+        for _ in range(3):
+            open_session(late)
+        return real(self, session_id, code, known_tokens)
+
+    monkeypatch.setattr(shelf.ConversationEraser, "erase", shelve_one_more)
+    assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 500
     assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1

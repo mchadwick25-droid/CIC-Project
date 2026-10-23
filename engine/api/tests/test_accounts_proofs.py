@@ -119,6 +119,8 @@ REQUIRED = {
         "test_a_turn_that_was_in_flight_when_the_conversation_was_deleted_is_cleared_by_the_next_pass",
         "test_turning_accounts_off_does_not_let_the_clearing_delete_what_people_saved",
         "test_a_deletion_that_stops_part_way_leaves_the_account_and_a_retry_finishes_it",
+        "test_a_second_pass_keeps_the_review_tokens_so_a_later_restore_is_still_cleared",
+        "test_an_unreadable_account_file_never_lets_the_clearing_delete_a_conversation",
     ],
     "engine/api/tests/test_contact_cipher.py": [
         "test_a_sealed_address_opens_with_its_key_and_context_only",

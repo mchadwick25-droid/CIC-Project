@@ -192,7 +192,7 @@ def sweep_unused_accounts(runtime: AccountsRuntime) -> int:
 def reapply_erasures(runtime: AccountsRuntime) -> int:
     """Erases again any conversation the ledger says was erased and that is back in the log, such
     as one restored from a backup or written to by a turn that was in flight when it was deleted."""
-    if runtime.list_conversations is None or runtime.erase_again is None:
+    if runtime.list_conversations is None or runtime.erase_again is None or not runtime.service.has_erasures():
         return 0
     matches = runtime.service.erased_matches(runtime.list_conversations())
     for session_id, tokens in matches:
@@ -212,8 +212,10 @@ def shelf_exemption_from_file(path: str):
         conn = sqlite3.connect(f"file:{path}?mode=ro", uri=True, timeout=5.0)
         try:
             return conn.execute("SELECT 1 FROM shelf WHERE session_id = ?", (session_id,)).fetchone() is not None
-        except sqlite3.OperationalError:
-            return False  # a file made before the shelf existed holds no shelf
+        except sqlite3.Error as exc:
+            # Only a file made before the shelf existed holds no shelf. Any other fault (locked,
+            # unreadable) keeps the conversation: an error never lets the clearing delete it.
+            return "no such table" not in str(exc)
         finally:
             conn.close()
 
@@ -241,8 +243,8 @@ def shelve_new_session(request: Request, session_id: str, code: str) -> bool | N
 def start_retention_thread(runtime: AccountsRuntime, *, every_seconds: int = 3600) -> None:
     def _loop() -> None:
         last_sweep = None
+        time.sleep(30)  # let the app finish starting; erased conversations found in a restore go first
         while True:
-            time.sleep(every_seconds)
             try:
                 runtime.service.purge()
                 today = runtime.service.today()
@@ -265,6 +267,7 @@ def start_retention_thread(runtime: AccountsRuntime, *, every_seconds: int = 360
                     logger.info("contacts still sealed under an older key: %d", contacts.on_older_keys())
             except Exception:  # noqa: BLE001 - a purge fault must not stop the loop
                 logger.exception("accounts purge failed")
+            time.sleep(every_seconds)
 
     threading.Thread(target=_loop, name="accounts-purge", daemon=True).start()
 

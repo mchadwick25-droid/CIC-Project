@@ -636,8 +636,11 @@ class AccountStore:
             return removed
 
     def note_erased(self, session_hash: str, qc_tokens: str, expires_on: str) -> None:
+        """Records an erasure. A conversation erased again keeps every review token recorded so far."""
         with self._lock:
-            self._d.execute("INSERT OR REPLACE INTO erased_sessions VALUES (?, ?, ?)", (session_hash, qc_tokens, expires_on))
+            row = self._d.execute("SELECT qc_tokens FROM erased_sessions WHERE session_hash = ?", (session_hash,)).fetchone()
+            merged = ",".join(dict.fromkeys(t for t in [*(row[0].split(",") if row else []), *qc_tokens.split(",")] if t))
+            self._d.execute("INSERT OR REPLACE INTO erased_sessions VALUES (?, ?, ?)", (session_hash, merged, expires_on))
 
     def erased_rows(self) -> dict[str, str]:
         with self._lock:
