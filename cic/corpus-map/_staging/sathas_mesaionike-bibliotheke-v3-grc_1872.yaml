@@ -86,7 +86,7 @@ assignments:
     role: tradition
     confidence: provisional
     note: >
-      An eighteenth-century Athonite monk's chronicle and his catalogue of notable Greeks of
+      An eighteenth-century chronicle and a catalogue of notable figures of
       1700-1784, in vernacular Greek: inside voice for the entry's window, placed on author and
       dates without a full reading. Readable Greek OCR with accent errors.
   - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--makraios-hypomnemata-ekklesiastikes-historias
@@ -98,8 +98,7 @@ assignments:
     role: tradition
     confidence: provisional
     note: >
-      A Patriarchal School teacher's memoir of the church's own affairs in the second half of
-      the eighteenth century; placed on author and dates without a full reading. The world's
+      A memoir of church history that Sathas's prologue dates 1750-1800 (an eyewitness account); placed on author and dates without a full reading. The world's
       builders should check its treatment of the Kollyvades dispute before any further
       placement. Readable Greek OCR.
   - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--gordios-prokopiou-tyrnavites-and-letter-catalogues
@@ -111,6 +110,6 @@ assignments:
     role: tradition
     confidence: provisional
     note: >
-      Shorter eighteenth-century pieces (Gordios's and Prokopiou's accounts of learned Greeks)
-      and the editor's catalogues of letters; placed on window only, not read. The row's author
+      Shorter pieces by Gordios and Prokopiou, and the editor's catalogues of letters, from the
+      same volume; placed on window only, not read. The row's author
       slug names the first of them; Prokopiou has his own authors_ruled entry for a later split.

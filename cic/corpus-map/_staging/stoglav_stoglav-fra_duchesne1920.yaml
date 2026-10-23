@@ -1,0 +1,42 @@
+source_file: stoglav_stoglav-fra_duchesne1920.txt
+
+assignments:
+  - row_id: stoglav_stoglav-fra_duchesne1920--le-stoglav-ou-les-cent-chapitres-1551-french-translation
+    work: Le Stoglav ou les Cent Chapitres (1551), French translation with introduction and commentary (Duchesne
+      1920)
+    author: stoglav
+    locus: introduction from file line 91; appendix from 1509; the hundred chapters in translation from
+      2071 (CHAPITRE PREMIER); tables and indexes from 17271
+    atlas_ids:
+    - russian-church-stoglav-to-nikon
+    role: tradition
+    confidence: assigned
+    note: The only Western-language translation of the council text in the corpus, the French beside the
+      Russian in stoglav_stoglav-chu_kozhanchikov1863.txt. The translation is primary-by-translation; Duchesne's
+      introduction and commentary are twentieth-century scholarship and are not the council's voice. Clean
+      OCR, scattered letter errors.
+  - row_id: stoglav_stoglav-fra_duchesne1920--le-stoglav-ou-les-cent-chapitres-1551-french-translation-2
+    work: Le Stoglav ou les Cent Chapitres (1551), French translation with introduction and commentary (Duchesne
+      1920)
+    author: stoglav
+    locus: introduction from file line 91; appendix from 1509; the hundred chapters in translation from
+      2071 (CHAPITRE PREMIER); tables and indexes from 17271
+    atlas_ids:
+    - the-old-believers
+    role: antecedent
+    confidence: provisional
+    note: Same text as the Russian row, placed to the Old Believers as the older discipline their quarrel
+      with Nikon's reforms looked back to; this translation was not read for that purpose.
+  - row_id: stoglav_stoglav-fra_duchesne1920--le-stoglav-ou-les-cent-chapitres-1551-french-translation-3
+    work: Le Stoglav ou les Cent Chapitres (1551), French translation with introduction and commentary (Duchesne
+      1920)
+    author: stoglav
+    locus: introduction from file line 91; appendix from 1509; the hundred chapters in translation from
+      2071 (CHAPITRE PREMIER); tables and indexes from 17271
+    atlas_ids:
+    - the-kyiv-mohyla-orthodox-revival
+    role: context
+    confidence: provisional
+    note: Duchesne's commentary names the Metropolitan of Kyiv and the Kyivan church of the 1551 text's
+      own references (about thirty mentions of Kyiv in the file); placed on window and place, not on a reading
+      for this entry.

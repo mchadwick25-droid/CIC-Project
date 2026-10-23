@@ -1,0 +1,33 @@
+source_file: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856.txt
+
+assignments:
+  - row_id: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856--of-the-russe-common-wealth-giles-fletcher-1591-and-the
+    work: Of the Russe Common Wealth (Giles Fletcher, 1591) and the Travels of Sir Jerome Horsey, in Bond's
+      Hakluyt Society edition (1856)
+    author: fletcher-giles-elder
+    locus: Fletcher's treatise from file line 5618; church chapters XXI (ecclesiastical state) at 10036,
+      XXII (liturgy and sacraments) at 10817, XXIII (doctrine and errors) at 11099; Horsey's Travels from
+      12334
+    atlas_ids:
+    - russian-church-stoglav-to-nikon
+    role: context
+    confidence: assigned
+    note: The hostile English Protestant outside witness on the Russian church of 1588-1591 (the date of
+      the embassy is from the editor's introduction, not checked here). Chap. XXI to XXIII describe clergy,
+      liturgy and doctrine from the outside and judge what the Russians 'hold' as errors; read against the
+      church's own voice, never in place of it. Clean OCR, Jacobean spelling. Horsey's Travels (from file
+      line 12334) are a second outside voice.
+  - row_id: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856--of-the-russe-common-wealth-giles-fletcher-1591-and-the-2
+    work: Of the Russe Common Wealth (Giles Fletcher, 1591) and the Travels of Sir Jerome Horsey, in Bond's
+      Hakluyt Society edition (1856)
+    author: fletcher-giles-elder
+    locus: Fletcher's treatise from file line 5618; church chapters XXI (ecclesiastical state) at 10036,
+      XXII (liturgy and sacraments) at 10817, XXIII (doctrine and errors) at 11099; Horsey's Travels from
+      12334
+    atlas_ids:
+    - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: provisional
+    note: An editorial footnote in this file (about file line 10166) names Jeremias, Patriarch of Constantinople,
+      in connection with the Russian patriarchate; placed on that one passage, not on a reading of the whole
+      for the Ottoman Orthodox world.

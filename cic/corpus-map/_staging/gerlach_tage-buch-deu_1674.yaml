@@ -2,7 +2,7 @@ source_file: gerlach_tage-buch-deu_1674.txt
 
 assignments:
   - row_id: gerlach_tage-buch-deu_1674--tage-buch-diary-at-constantinople-1573-1578-german
-    work: "Stephan Gerlach's Tage-Buch: the diary of the Tuebingen chaplain to the imperial embassy at Constantinople, 1573-1578 (German)"
+    work: "Stephan Gerlach's Tage-Buch: the diary of the court preacher to the imperial embassy at Constantinople, 1573-1578 (German)"
     author: gerlach
     locus: "title page at about file lines 100-140; Wagner's preface from about 244; the diary by date from about 1363 to about 59626 (for example 'Anno 1577.' at about line 50208); Register from about 59627"
     atlas_ids:
@@ -10,14 +10,14 @@ assignments:
     role: context
     confidence: assigned
     note: >
-      The outside eyewitness for the middle of the window: a Lutheran chaplain's day-book of
-      Constantinople, the Patriarchate under Jeremias II, the Greek clergy and the carrying of
-      the Tuebingen letters, printed from his papers in 1674. Not the church's own voice. SECOND
+      The outside eyewitness for the middle of the window: an embassy preacher's day-book of
+      Constantinople, with the Greek clergy he met (the preface names Patriarch Jeremias),
+      printed from his papers in 1674. Not the church's own voice. SECOND
       WITNESS: Fraktur OCR readable word by word but two columns and marginal glosses are
       interleaved, so nothing is quotable without the page images. German; no public-domain
       English exists.
   - row_id: gerlach_tage-buch-deu_1674--tage-buch-diary-at-constantinople-1573-1578-german-2
-    work: "Stephan Gerlach's Tage-Buch: the diary of the Tuebingen chaplain to the imperial embassy at Constantinople, 1573-1578 (German)"
+    work: "Stephan Gerlach's Tage-Buch: the diary of the court preacher to the imperial embassy at Constantinople, 1573-1578 (German)"
     author: gerlach
     locus: "the diary by date from about file line 1363 to about 59626"
     atlas_ids:
@@ -25,6 +25,6 @@ assignments:
     role: context
     confidence: provisional
     note: >
-      The Tuebingen side of the Jeremias II correspondence seen from its own messenger; placed
-      beside the 1584 Acta on the same provisional footing (Tuebingen, not Wittenberg,
-      theologians). Second witness for scan quality.
+      A German Lutheran's eyewitness to the Patriarch of the years of the Jeremias II
+      correspondence; placed beside the 1584 Acta on the same provisional footing (Tuebingen,
+      not Wittenberg, theologians). Second witness for scan quality.

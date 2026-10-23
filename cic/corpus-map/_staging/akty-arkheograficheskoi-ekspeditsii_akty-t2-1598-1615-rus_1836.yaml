@@ -1,0 +1,18 @@
+source_file: akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836.txt
+
+assignments:
+  - row_id: akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836--akty-arkheograficheskoi-ekspeditsii-vol-2-acts-and-documents
+    work: 'Akty arkheograficheskoi ekspeditsii, vol. 2: acts and documents of the Time of Troubles, 1598-1615
+      (1836)'
+    author: akty-arkheograficheskoi-ekspeditsii
+    locus: documents naming Patriarch Hermogenes at file lines 17163, 30969 and 31011; the passages at 30969
+      and 31011 concern his calls to the cities in the Time of Troubles
+    atlas_ids:
+    - russian-church-stoglav-to-nikon
+    role: tradition
+    confidence: provisional
+    note: 'The Time of Troubles in its own documents, Russian only: acts, letters and instructions of the
+      Moscow state and church, with Patriarch Hermogenes named in a number of them. Placed after reading
+      the Hermogenes passages named in the locus, not the whole volume (about 1.5 million characters); whether
+      a given document is his own letter or an account of it must be checked on the page. Good OCR. No public-domain
+      English translation of these acts.'

@@ -1,0 +1,31 @@
+source_file: olearius_voyages-and-travels-of-the-ambassadors_davies1662.txt
+
+assignments:
+  - row_id: olearius_voyages-and-travels-of-the-ambassadors_davies1662--the-voyages-and-travels-of-the-ambassadors-from-the-duke-of
+    work: The Voyages and Travels of the Ambassadors from the Duke of Holstein to Muscovy and Persia (Olearius,
+      John Davies's English, 1662)
+    author: olearius
+    locus: Third Book (Muscovy) from file line 7362; its contents list 'The Religion of the Muscovites'
+      and 'Their Patriarch and Archbishops' at about 1049-1070; church usage, clerical orders and the Patriarch's
+      rules at about 13440-13600
+    atlas_ids:
+    - russian-church-stoglav-to-nikon
+    role: context
+    confidence: assigned
+    note: 'A German envoy''s eyewitness account of Muscovy in the 1630s, including the Patriarchate under
+      Philaret, church usage and the clergy. Outside witness, hostile in places. The OCR reads the printed
+      long s as f, with heavy margin noise: treat as a second witness for exact wording until a cleaner
+      scan is found. Persia and Mandelslo''s East Indies in the same file are outside this world.'
+  - row_id: olearius_voyages-and-travels-of-the-ambassadors_davies1662--the-voyages-and-travels-of-the-ambassadors-from-the-duke-of-2
+    work: The Voyages and Travels of the Ambassadors from the Duke of Holstein to Muscovy and Persia (Olearius,
+      John Davies's English, 1662)
+    author: olearius
+    locus: Third Book (Muscovy) from file line 7362; its contents list 'The Religion of the Muscovites'
+      and 'Their Patriarch and Archbishops' at about 1049-1070; church usage, clerical orders and the Patriarch's
+      rules at about 13440-13600
+    atlas_ids:
+    - russian-church-nikon-to-holy-synod
+    role: antecedent
+    confidence: provisional
+    note: Written of the church on the eve of Nikon's reforms; placed on window and place, not read for
+      that entry.

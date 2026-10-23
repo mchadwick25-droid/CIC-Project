@@ -1,0 +1,44 @@
+source_file: stoglav_stoglav-chu_kozhanchikov1863.txt
+
+assignments:
+  - row_id: stoglav_stoglav-chu_kozhanchikov1863--the-stoglav-hundred-chapters-the-moscow-church-council-of
+    work: The Stoglav (Hundred Chapters), the Moscow church council of 1551, in Russian (Kozhanchikov 1863
+      edition)
+    author: stoglav
+    locus: editor's preface from file line 96; the council's text from line 889 ('Предисловие сего собора');
+      appendices from line 9188
+    atlas_ids:
+    - russian-church-stoglav-to-nikon
+    role: tradition
+    confidence: assigned
+    note: 'The council''s own text in the language it was written in: the Russian church''s fullest statement
+      of its own discipline, covering priests, monasteries, icon painting, the liturgy and lay conduct.
+      Primary voice, ready to quote once checked against the page images. The OCR misreads the yat letter
+      and garbles the chapter numerals in the headings, so cite by the text''s own wording and the file
+      line, not by the printed chapter number. French translation: stoglav_stoglav-fra_duchesne1920.txt.'
+  - row_id: stoglav_stoglav-chu_kozhanchikov1863--the-stoglav-hundred-chapters-the-moscow-church-council-of-2
+    work: The Stoglav (Hundred Chapters), the Moscow church council of 1551, in Russian (Kozhanchikov 1863
+      edition)
+    author: stoglav
+    locus: editor's preface from file line 96; the council's text from line 889 ('Предисловие сего собора');
+      appendices from line 9188
+    atlas_ids:
+    - the-old-believers
+    role: antecedent
+    confidence: assigned
+    note: 'The Old Believers later appealed to the Stoglav against Nikon''s reforms; the editor''s preface
+      in this very edition (about file line 96 onward) takes up the dispute over the sign of the cross and
+      the council''s ruling on it. Antecedent: the 1551 text is the older discipline the later schism fought
+      over.'
+  - row_id: stoglav_stoglav-chu_kozhanchikov1863--the-stoglav-hundred-chapters-the-moscow-church-council-of-3
+    work: The Stoglav (Hundred Chapters), the Moscow church council of 1551, in Russian (Kozhanchikov 1863
+      edition)
+    author: stoglav
+    locus: editor's preface from file line 96; the council's text from line 889 ('Предисловие сего собора');
+      appendices from line 9188
+    atlas_ids:
+    - russian-church-nikon-to-holy-synod
+    role: antecedent
+    confidence: provisional
+    note: 'Placed on window and place: the 1551 discipline that Nikon''s reforms of the 1650s revised. The
+      relevant chapters were not read for this entry.'
