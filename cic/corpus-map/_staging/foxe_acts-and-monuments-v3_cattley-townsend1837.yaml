@@ -37,3 +37,27 @@ assignments:
       not Hus's own voice. Placed here beside its Lollardy placement;
       a placement of one text in two worlds records that each world
       reads a different part of it.
+  - row_id: foxe_acts-and-monuments-v3_cattley-townsend1837--foxe-acts-and-monuments-vol-iii-the-cruel-constitution-of
+    work: 'Foxe, Acts and Monuments, vol. III: ''The cruel Constitution of Thomas Arundel, Archbishop, against
+      the Gospellers'' (thirteen articles, 1409) and Foxe''s comment on the constitutions'
+    author: foxe
+    locus: whole volume
+    atlas_ids:
+    - the-english-mystics-and-devout
+    role: context
+    confidence: assigned
+    note: 'Foxe prints Arundel''s Constitution in English at about file line 19778 (the heading ''The cruel
+      Constitution of Thomas Arundel'', with the ''Thirteen articles'' margin note) and comments on it at
+      about line 19751 and again near line 32300. Arundel''s Constitutions are the counter-pressure the
+      census sets against the English mystics. Hostile, Protestant martyrologist''s record; tier: same time-place.'
+  - row_id: foxe_acts-and-monuments-v3_cattley-townsend1837--foxe-acts-and-monuments-vol-iii-arundel-s-constitution-of
+    work: 'Foxe, Acts and Monuments, vol. III: Arundel''s Constitution of 1409'
+    author: foxe
+    locus: whole volume
+    atlas_ids:
+    - late-medieval-lay-parish-piety
+    role: context
+    confidence: provisional
+    note: 'The same Constitution is addressed to parsons, vicars, chaplains, clerks in parish churches and
+      ''all laymen'' (the address at about line 19780). Placed for the parish on that address without reading
+      the thirteen articles for parish practice; left provisional. Tier: same time-place.'

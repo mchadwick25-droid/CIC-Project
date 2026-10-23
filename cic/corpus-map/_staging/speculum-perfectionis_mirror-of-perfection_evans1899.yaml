@@ -1,0 +1,25 @@
+source_file: speculum-perfectionis_mirror-of-perfection_evans1899.txt
+authors_ruled:
+  speculum-perfectionis:
+    kind: anonymous
+    evidence: >-
+      The Speculum perfectionis is an anonymous compilation of recollections of Francis. The title page of this
+      English translation attributes it to Brother Leo, which is Sabatier's attribution and contested. The ruling
+      here is anonymous.
+assignments:
+- row_id: >-
+    speculum-perfectionis_mirror-of-perfection_evans1899--the-mirror-of-perfection-speculum-perfectionis-english-by
+  work: The Mirror of Perfection (Speculum perfectionis), English by Sebastian Evans (1899)
+  author: speculum-perfectionis
+  locus: Whole file
+  atlas_ids:
+  - the-franciscan-movement
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: tradition
+  confidence: needs-ruling
+  note: >-
+    Placed needs-ruling because the text is contested in date or attribution and sits between the Franciscan Movement
+    world (to 1300) and the Spirituals worlds. The English of Sabatier's 1898 Latin edition. Sabatier's attribution
+    to Leo and his early date are contested; the text is read as a Spiritual-circle witness to Francis's poverty.
+    Clean OCR. Sabatier's Latin is not vendored (garbled OCR).

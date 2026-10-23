@@ -1,0 +1,12 @@
+source_file: jordanus_mirabilia-descripta-wonders-of-the-east_yule1863.txt
+assignments:
+- row_id: jordanus_mirabilia-descripta-wonders-of-the-east_yule1863--mirabilia-descripta-friar-jordanus-bishop-of-columbum
+  work: Mirabilia descripta (Friar Jordanus, bishop of Columbum)
+  author: jordanus
+  locus: Christians of Quilon and Malabar in the numbered paragraphs; contents at file line 1565
+  atlas_ids:
+  - st-thomas-christians-1300-1517
+  role: context
+  confidence: assigned
+  note: Outsider witness (a Dominican bishop at Quilon, 1320s), English translation, clean OCR. Inside
+    the window, early. Yule's introduction is scholarship. Ready to quote once verified against the scan.

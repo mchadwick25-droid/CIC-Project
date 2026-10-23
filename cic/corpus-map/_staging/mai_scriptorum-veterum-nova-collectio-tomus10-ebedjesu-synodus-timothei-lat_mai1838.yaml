@@ -1,0 +1,15 @@
+source_file: mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt
+assignments:
+- row_id: mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838--ebedjesu-s-collection-of-canons-with-the-acts-and-canons-of
+  work: Ebedjesu's collection of canons with the acts and canons of Timothy II's synod of 1318 (Mai, Scriptorum
+    veterum tomus X)
+  author: mai
+  locus: Preface from file line 74; index at 11344; Acta synodi Timothei at 11610; Canones synodi Timothei
+    at 11801
+  atlas_ids:
+  - church-of-the-east-timur-to-hakkari
+  role: tradition
+  confidence: assigned
+  note: 'Primary Latin for the synod of 1318: the acts and canons of Timothy II in Mai''s translation,
+    inside Ebedjesu''s canon collection. Latin OCR clean; Syriac garbled. Ready to quote once verified
+    against the scan. The rest of the volume is earlier canon law and is context only.'

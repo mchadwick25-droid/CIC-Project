@@ -1,0 +1,38 @@
+source_file: zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt
+assignments:
+- row_id: zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863--die-katechismen-der-waldenser-und-bohmischen-bruder-critical
+  work: 'Die Katechismen der Waldenser und Böhmischen Brüder: critical text of the Waldensian catechism
+    and the Brethren''s catechism'
+  author: zezschwitz
+  locus: Waldensian catechism text in Old Occitan, with the editor's apparatus
+  atlas_ids:
+  - waldensians-in-the-alps
+  role: tradition
+  confidence: assigned
+  note: Prints the Waldensian catechism from the manuscripts (a barbes' teaching text) in a critical edition,
+    with a nineteenth-century scholar's German around it. The Brethren's catechism printings are mostly
+    after the Hussite world's window, hence context there. Quote only after checking the page images.
+- row_id: zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863--die-katechismen-der-waldenser-und-bohmischen-bruder-critical-2
+  work: 'Die Katechismen der Waldenser und Böhmischen Brüder: critical text of the Waldensian catechism
+    and the Brethren''s catechism'
+  author: zezschwitz
+  locus: Waldensian catechism text in Old Occitan, with the editor's apparatus
+  atlas_ids:
+  - the-waldensians
+  role: tradition
+  confidence: provisional
+  note: Prints the Waldensian catechism from the manuscripts (a barbes' teaching text) in a critical edition,
+    with a nineteenth-century scholar's German around it. The Brethren's catechism printings are mostly
+    after the Hussite world's window, hence context there. Quote only after checking the page images.
+- row_id: zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863--die-katechismen-der-waldenser-und-bohmischen-bruder-critical-3
+  work: 'Die Katechismen der Waldenser und Böhmischen Brüder: critical text of the Waldensian catechism
+    and the Brethren''s catechism'
+  author: zezschwitz
+  locus: Waldensian catechism text in Old Occitan, with the editor's apparatus
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: context
+  confidence: provisional
+  note: Prints the Waldensian catechism from the manuscripts (a barbes' teaching text) in a critical edition,
+    with a nineteenth-century scholar's German around it. The Brethren's catechism printings are mostly
+    after the Hussite world's window, hence context there. Quote only after checking the page images.

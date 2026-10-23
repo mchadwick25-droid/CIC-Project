@@ -1,0 +1,25 @@
+source_file: somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890.txt
+assignments:
+- row_id: somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890--church-wardens-accounts-of-croscombe-pilton-patton-tintinhull-morebath-and-st-michael-s-bath-1349-1560-ed-bish
+  work: Church-wardens' accounts of Croscombe, Pilton, Patton, Tintinhull, Morebath and St Michael's Bath,
+    1349-1560, ed. Bishop Hobhouse
+  author: somerset-parishes
+  locus: contents and preface from file line 64; the accounts of the six parishes follow
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: 'The wardens'' own accounts of six parishes across the whole window and beyond: guilds, the church-house,
+    chantry wardens, the fabric and the poor, as Hobhouse''s own contents list names them. Hobhouse''s
+    preface is a clear guide to how a parish ran. Mostly the parish''s own early English. A second witness
+    for wording because of OCR on the early spelling; check page images before quoting.'
+- row_id: somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890--church-wardens-accounts-of-six-somerset-parishes-1349-1560-ed-bishop-hobhouse
+  work: Church-wardens' accounts of six Somerset parishes, 1349-1560, ed. Bishop Hobhouse
+  author: somerset-parishes
+  locus: the accounts of the 1530s-1560 in each parish
+  atlas_ids:
+  - the-english-reformation-and-elizabethan-settleme
+  role: context
+  confidence: provisional
+  note: The accounts run to 1560, so they record the change at the parish as well as the practice before
+    it. Placed on the span without reading the later accounts for it; left provisional.

@@ -1,0 +1,25 @@
+source_file: goll_quellen-bohmische-bruder-v1-deu_1878.txt
+assignments:
+- row_id: goll_quellen-bohmische-bruder-v1-deu_1878--quellen-und-untersuchungen-zur-geschichte-der-bohmischen
+  work: 'Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder, I: the Brethren and the Waldensians;
+    the first priests (Goll)'
+  author: goll
+  locus: whole volume
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: provisional
+  note: 'Documents of the Unity of the Brethren on their contact with Waldensians and on their first priests,
+    with Goll''s German study. Provisional: not read through. Lead from the Hussite dossier, now vendored.'
+- row_id: goll_quellen-bohmische-bruder-v1-deu_1878--quellen-und-untersuchungen-zur-geschichte-der-bohmischen-2
+  work: 'Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder, I: the Brethren and the Waldensians;
+    the first priests (Goll)'
+  author: goll
+  locus: whole volume
+  atlas_ids:
+  - waldensians-in-the-alps
+  - the-waldensians
+  role: context
+  confidence: provisional
+  note: 'Documents of the Unity of the Brethren on their contact with Waldensians and on their first priests,
+    with Goll''s German study. Provisional: not read through. Lead from the Hussite dossier, now vendored.'

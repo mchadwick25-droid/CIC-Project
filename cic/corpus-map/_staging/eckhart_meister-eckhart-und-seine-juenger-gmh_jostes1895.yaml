@@ -1,0 +1,15 @@
+source_file: eckhart_meister-eckhart-und-seine-juenger-gmh_jostes1895.txt
+
+assignments:
+  - row_id: eckhart_meister-eckhart-und-seine-juenger-gmh_jostes1895--meister-eckhart-und-seine-juenger-unprinted-texts-of-eckhart
+    work: "Meister Eckhart und seine Jünger (unprinted texts of Eckhart and his circle, Jostes)"
+    author: eckhart
+    locus: "whole volume; Jostes's introduction first"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      Eckhart texts and texts from his circle that Pfeiffer did not print. Second witness: the OCR is
+      partly garbled in the text pages, so a build locates passages here and checks the page images before
+      quoting.

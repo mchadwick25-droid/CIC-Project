@@ -1,0 +1,26 @@
+source_file: cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828.txt
+assignments:
+- row_id: >-
+    cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828--john-kantakouzenos-historiae-books-i-ii-to-1341-greek-with
+  work: John Kantakouzenos, Historiae, Books I-II (to 1341), Greek with Latin, Bonn volume 1
+  author: cantacuzenus
+  locus: Book I and Periocha from about file line 1687; Barlaam affair in Book II
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: context
+  confidence: provisional
+  note: >-
+    The emperor who backed Palamas, writing his own history, including the first synod of 1341 and the Barlaam affair.
+    A lay and court voice, not the church's own. Placed on window and the Barlaam hits (about 39); the book was
+    not read through.
+- row_id: >-
+    cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828--john-kantakouzenos-historiae-books-i-ii-to-1341-greek-with-2
+  work: John Kantakouzenos, Historiae, Books I-II (to 1341), Greek with Latin, Bonn volume 1
+  author: cantacuzenus
+  locus: as above
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: context
+  confidence: provisional
+  note: >-
+    Court and imperial view of the church's affairs, 1320-1341. A lay and court voice, not the church's own.

@@ -1,0 +1,13 @@
+source_file: haupt_waldenserthum-und-inquisition-im-suedoestlichen-deutschland-deu_1890.txt
+assignments:
+- row_id: haupt_waldenserthum-und-inquisition-im-suedoestlichen-deutschland-deu_1890--waldenserthum-und-inquisition-im-sudostlichen-deutschland
+  work: Waldenserthum und Inquisition im südöstlichen Deutschland (Haupt, 1890)
+  author: haupt
+  locus: inquisition protocols and abjurations printed in the second half of the volume
+  atlas_ids:
+  - waldensians-in-the-alps
+  - the-waldensians
+  role: context
+  confidence: provisional
+  note: Hostile inquisitorial records of Waldensians in south-eastern Germany in a scholar's edition.
+    Outside the Alps; placed on the entry's 'Germany' region.

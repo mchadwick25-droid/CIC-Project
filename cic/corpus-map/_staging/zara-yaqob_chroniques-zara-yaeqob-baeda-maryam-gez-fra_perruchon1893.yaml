@@ -1,0 +1,16 @@
+source_file: zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt
+assignments:
+- row_id: zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893--chronicles-of-zar-a-ya-eqob-and-ba-eda-maryam-ge-ez-text-wit
+  work: Chronicles of Zar'a Ya'eqob and Ba'eda Maryam (Ge'ez text with French introduction and appendix)
+  author: zara-yaqob
+  locus: Introduction from file line 451; Ge'ez chronicle of Zar'a Ya'eqob from about line 2867; Ba'eda
+    Maryam at 8540; appendix of French extracts at 15046
+  atlas_ids:
+  - the-ethiopian-monastic-flowering
+  role: tradition
+  confidence: assigned
+  note: Royal chronicle of the reign that conceded the Saturday Sabbath and persecuted Estifanos's monks.
+    The Ge'ez OCR is unusable, so this is a second witness for the Ge'ez wording. The French introduction,
+    notes and the appendix of translated extracts are readable. No full French translation is in the volume;
+    no public-domain English translation exists (the only English version, Huntingford 1965, is for Amda
+    Seyon and in copyright).

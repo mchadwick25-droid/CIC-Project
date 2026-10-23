@@ -1,0 +1,14 @@
+source_file: merswin_buch-von-den-neun-felsen-gmh_schmidt1859.txt
+
+assignments:
+  - row_id: merswin_buch-von-den-neun-felsen-gmh_schmidt1859--rulman-merswin-book-of-the-nine-rocks-schmidt-s-edition-from
+    work: "Rulman Merswin, Book of the Nine Rocks (Schmidt's edition from the autograph)"
+    author: merswin
+    locus: "whole volume; Schmidt's preface first"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      The Friends-of-God milieu in its own voice. Second witness: long s is read as f. There is no public-
+      domain English found; the dossier records the gap.

@@ -10061,3 +10061,679 @@ queue:
       read; djvu fetched (93 KB) and sampled, clean (0.86); first page read (JSTOR cover sheet, Harvard
       Theological Review, Jan. 1923).'
     status: not-yet-downloaded
+
+  - title: Revelations of Divine Love, recorded by Julian, Anchoress at Norwich, A.D. 1373
+    author: Julian of Norwich
+    translator: Grace Warrack (editor; modernised version from the Sloane manuscript)
+    year: 1901
+    world: the-english-mystics-and-devout
+    why: The Long Text of Julian's Showings, the first-person voice at the centre of the world.
+    url: https://www.gutenberg.org/ebooks/52958
+    rights_basis: pd-us-by-date; Project Gutenberg record states 'Public domain in the USA'; title page
+      read in the transcription (Methuen, 1901)
+    verified_by: Library thread, Era VI pass, Gutenberg bibrecord and text read, October 2026; proofread,
+      clean at five points. Vendored. A second scan of the same edition at archive.org item RevelationsOfDivineLove
+      (Public Domain Mark, 685 KB) is double-spaced OCR and was not vendored.
+    status: downloaded
+    vendored_as: julian-of-norwich_revelations-of-divine-love_warrack1901.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: XVI Revelations of Divine Love (Cressy's edition, 1670; reprint 1843)
+    author: Julian of Norwich
+    translator: Serenus (R. F. S.) Cressy, editor; reprint by J. S. Crossley, Leicester
+    year: 1843
+    world: recusant-english-catholicism / the-english-mystics-and-devout
+    why: Cressy's 1670 text of the sixteen revelations, the form in which the book was printed in 1670.
+    url: https://archive.org/details/SixteenRevelationsOfDivineLove
+    rights_basis: pd-us-by-date; host licence field is the Public Domain Mark 1.0
+    verified_by: 'Library thread, Era VI pass, metadata and title page read, OCR sampled at opening, middle
+      and end, October 2026. Vendored. Other scans of Cressy''s text, not fetched: xvirevelationsof00juli
+      (1902, Kegan Paul), sixteenrevelatio00juli (1864, Boston).'
+    status: downloaded
+    vendored_as: julian-of-norwich_sixteen-revelations-of-divine-love_cressy1843.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: Comfortable Words for Christ's Lovers (Julian of Norwich, Short Text)
+    author: Julian of Norwich
+    translator: Dundas Harford (transcriber and editor)
+    year: 1911
+    world: the-english-mystics-and-devout
+    why: The Short Text of the Showings from Brit. Mus. Addit. 37790; the census names a Short Text beside
+      the Long Text.
+    url: https://archive.org/details/comfortablewords00juliuoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; host date 1911
+    verified_by: 'Library thread, Era VI pass, metadata and text read, OCR sampled at five points, October
+      2026. Vendored. Also on the host: comfortablewords00juliiala (same book).'
+    status: downloaded
+    vendored_as: julian-of-norwich_comfortable-words-for-christs-lovers_harford1911.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: A Book of Contemplation the which is called The Cloud of Unknowing
+    author: Anonymous (fourteenth century)
+    translator: Evelyn Underhill (editor; modern spelling from Harley 674)
+    year: 1912
+    world: the-english-mystics-and-devout
+    why: The Cloud of Unknowing, one of the four English mystical voices in the census.
+    url: https://archive.org/details/abookofcontemplationunderhill
+    rights_basis: pd-us-by-date; host licence field is the Public Domain Mark 1.0; title page read in the
+      OCR
+    verified_by: Library thread, Era VI pass, metadata read, title page read, OCR sampled at three points,
+      October 2026. Vendored. A 1922 reprint (bookofcontemplat00unde, 301 KB) is the same text and was not
+      vendored.
+    status: downloaded
+    vendored_as: cloud-of-unknowing_book-of-contemplation_underhill1912.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Cloud of Unknowing and other Treatises, with a commentary by Augustine Baker
+    author: Anonymous (fourteenth century); commentary by Augustine Baker
+    translator: Justin McCann (editor; modern spelling)
+    year: 1924
+    world: the-english-mystics-and-devout
+    why: The Cloud with the Epistle of Privy Counsel and Baker's commentary, the fullest vendored form of
+      the author's teaching.
+    url: https://archive.org/details/thecloudofunknowingbamccann
+    rights_basis: pd-us-by-date (published 1924 in London; title page and imprimatur year read in the OCR);
+      host carries no rights field
+    verified_by: Library thread, Era VI pass, metadata read, title page read, OCR sampled at three points,
+      October 2026. Vendored. Baker's 1871 edition The Divine Cloud (TheDivineCloud, 349 KB) is a further
+      printing of the Cloud with Baker's notes; not vendored (see section 4).
+    status: downloaded
+    vendored_as: cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Scale of Perfection (Walter Hilton), newly edited by Evelyn Underhill
+    author: Walter Hilton
+    translator: Evelyn Underhill (editor; modern spelling)
+    year: 1923
+    world: the-english-mystics-and-devout
+    why: The standard modern-spelling edition of Hilton's Scale, the era's guide to the interior life.
+    url: https://archive.org/details/in.ernet.dli.2015.95984
+    rights_basis: pd-us-by-date (published 1923 in London; title page year read in the OCR); host carries
+      no rights field
+    verified_by: Library thread, Era VI pass, metadata read, title page read, OCR sampled at three points,
+      October 2026. Vendored. A second scan of the same edition, scaleofperfectio0000walt_d2u3 (641 KB,
+      host date 1923), was not vendored as a duplicate.
+    status: downloaded
+    vendored_as: hilton_scale-of-perfection_underhill1923.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Scale (or Ladder) of Perfection (Walter Hilton), Dalgairns introduction
+    author: Walter Hilton
+    translator: Father John Bernard Dalgairns (introduction); seventeenth-century text reprinted
+    year: 1908
+    world: recusant-english-catholicism / the-english-mystics-and-devout
+    why: Hilton's Scale in the post-Reformation English form; the census names Dalgairns 1870.
+    url: https://archive.org/details/ScaleOrLadderOfPerfection
+    rights_basis: pd-us-by-date; host licence field is the Public Domain Mark 1.0; host date 1908
+    verified_by: 'Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. Other scans of the same printing, not vendored: scaleorladderpe00hiltgoog and scaleorladderpe01hiltgoog
+      (708 and 720 KB, NOT_IN_COPYRIGHT).'
+    status: downloaded
+    vendored_as: hilton_scale-or-ladder-of-perfection_dalgairns1908.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Fire of Love and The Mending of Life (Richard Misyn's Middle English), EETS OS 106
+    author: Richard Rolle
+    translator: Richard Misyn (Middle English, 1434-35); ed. Ralph Harvey
+    year: 1896
+    world: the-english-mystics-and-devout
+    why: Rolle's Fire of Love, the book the census says made devotional writing in English popular.
+    url: https://archive.org/details/fireoflovemendin00roll
+    rights_basis: pd-us-by-date; title page year 1896 read in the OCR; host carries no rights field
+    verified_by: 'Library thread, Era VI pass, metadata read, title page read, OCR sampled at three points,
+      October 2026. Vendored as a second witness. Other scans, not vendored: fireloveandmend00rollgoog and
+      fireloveandmend01rollgoog (411 KB, NOT_IN_COPYRIGHT).'
+    status: downloaded
+    vendored_as: rolle_fire-of-love-and-mending-of-life-enm_harvey1896.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Fire of Love and The Mending of Life, modern English by F. M. M. Comper
+    author: Richard Rolle
+    translator: Frances M. M. Comper (editor; modern English of Misyn's translation); introduction by Evelyn
+      Underhill
+    year: 1914
+    world: the-english-mystics-and-devout
+    why: The census names Comper 1914 for Rolle.
+    url: https://archive.org/details/fireofloveormelo00roll
+    rights_basis: pd-us-by-date (published 1914 in London; host date); title page prints no year; host carries
+      no rights field
+    verified_by: Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. A second scan, fireofloveormelo0000roll (662 KB), and a 1920 Methuen printing, thefireofloveand00rolluoft
+      (548 KB), are the same book and were not vendored.
+    status: downloaded
+    vendored_as: rolle_fire-of-love-and-mending-of-life_comper1914.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Form of Perfect Living and other Prose Treatises (Richard Rolle)
+    author: Richard Rolle
+    translator: Geraldine E. Hodgson (modern English from Horstman's texts)
+    year: 1910
+    world: the-english-mystics-and-devout
+    why: Rolle's English prose for recluses and devout lay readers, in readable modern English.
+    url: https://www.gutenberg.org/ebooks/25856
+    rights_basis: pd-us-by-date; Project Gutenberg record states 'Public domain in the USA'; title page
+      year read in the transcription
+    verified_by: Library thread, Era VI pass, Gutenberg bibrecord and text read, clean at five points, October
+      2026. Vendored.
+    status: downloaded
+    vendored_as: rolle_form-of-perfect-living-and-other-prose-treatises_hodgson1910.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: 'Yorkshire Writers: Richard Rolle of Hampole, an English Father of the Church, and his Followers'
+    author: Richard Rolle and followers
+    translator: C. Horstman (editor; Middle English)
+    year: 1895
+    world: the-english-mystics-and-devout
+    why: The standard Middle English edition of Rolle's English works, named in the task.
+    url: https://archive.org/details/yorkshirewriters0000rich
+    rights_basis: pd-us-by-date (1895-96 per host date); imprint year unreadable in the OCR; host carries
+      no rights field
+    verified_by: Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored as a second witness. A second item, yorkshirewriters0000chor (1.6 MB), is access-restricted
+      and was not used.
+    status: downloaded
+    vendored_as: rolle_yorkshire-writers-enm_horstman1895.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: 'The Cell of Self-Knowledge: Seven Early English Mystical Treatises printed by Henry Pepwell
+      in 1521'
+    author: Henry Pepwell (printer); Margery Kempe extract, Hilton, the Cloud group and others
+    translator: Edmund G. Gardner (editor)
+    year: 1910
+    world: the-english-mystics-and-devout
+    why: Carries the short printed Margery Kempe extract (Wynkyn de Worde, about 1501, reprinted by Pepwell
+      in 1521), the only public-domain form of Kempe's book found, plus Hilton's Song of Angels and three
+      Cloud-group treatises.
+    url: https://archive.org/details/cellofselfknowle00gardiala
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; host date 1910
+    verified_by: 'Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. A Gutenberg search listing also shows a book of this title; not opened or compared. Other
+      scans on the host: thecellofself00unknuoft, cellselfknowled00gardgoog, cellofselfknowle00pepw.'
+    status: downloaded
+    vendored_as: cell-of-self-knowledge_seven-early-english-mystical-treatises_gardner1910.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Mirrour of the Blessed Lyf of Jesu Christ (Nicholas Love)
+    author: Nicholas Love
+    translator: Lawrence F. Powell (editor; Middle English)
+    year: 1908
+    world: late-medieval-lay-parish-piety / lollardy / the-english-mystics-and-devout
+    why: The Carthusian prior's vernacular Life of Christ, the orthodox English devotional book of the Arundel
+      years.
+    url: https://archive.org/details/TheMirrourOfTheBlessedLyfOfJesuChrist
+    rights_basis: pd-us-by-date; host licence field is the Public Domain Mark 1.0; title page year read
+      in the OCR
+    verified_by: 'Library thread, Era VI pass, metadata read, title page read, OCR sampled at three points,
+      October 2026. Vendored. Other scans of the same edition: mirrourofblessed00bona (740 KB), mirrourblessedl00lovegoog
+      and mirrourblessedl01lovegoog.'
+    status: downloaded
+    vendored_as: love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Pricke of Conscience (Stimulus Conscientiae), ed. Richard Morris
+    author: Attributed to Richard Rolle de Hampole in this edition
+    translator: Richard Morris (editor; Middle English)
+    year: 1863
+    world: late-medieval-lay-parish-piety / the-english-mystics-and-devout
+    why: The most widely copied English verse text of the period on the last things, ascribed to Rolle in
+      the edition.
+    url: https://archive.org/details/prickeofconscien00roll
+    rights_basis: pd-us-by-date; title page year read in the OCR; host carries no rights field
+    verified_by: 'Library thread, Era VI pass, metadata read, title page read, OCR sampled at three points,
+      October 2026. Vendored. Other scans: prickeconscienc00morrgoog, bub_gb_n6mZKllA00QC (not fetched).'
+    status: downloaded
+    vendored_as: pricke-of-conscience_northumbrian-poem-enm_morris1863.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Earliest English Translation of the first three books of the De Imitatione Christi, ed. John
+      K. Ingram (EETS ES 63)
+    author: Thomas a Kempis (Latin); William Atkinson (English; Margaret Beaufort also listed by the host)
+    translator: William Atkinson (Margaret Beaufort also listed by the host); ed. John K. Ingram
+    year: 1893
+    world: devotio-moderna-brethren-of-the-common-life / late-medieval-lay-parish-piety / the-english-mystics-and-devout
+    why: The English Imitation of Christ, named in the task as a cross-link between the English and Devotio
+      Moderna worlds.
+    url: https://archive.org/details/earliestenglisht00atkirich
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title page year 1893 read in
+      the OCR
+    verified_by: Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. A second scan, earliestenglish00thomgoog, was not fetched.
+    status: downloaded
+    vendored_as: kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Book of the Craft of Dying and other early English Tracts concerning Death
+    author: Anonymous fifteenth-century tracts, with pieces from Suso, Rolle and others
+    translator: Frances M. M. Comper (editor; modern spelling)
+    year: 1917
+    world: late-medieval-lay-parish-piety / the-english-mystics-and-devout
+    why: Lay English instruction on dying well, near both worlds.
+    url: https://archive.org/details/bookofcraftofdyi00unse
+    rights_basis: pd-us-by-date; title page year read in the OCR; host carries no rights field
+    verified_by: Library thread, Era VI pass, metadata read, title page read, OCR sampled at three points,
+      October 2026. Vendored.
+    status: downloaded
+    vendored_as: craft-of-dying_book-of-the-craft-of-dying-and-other-early-english-tracts_comper1917.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: Church-wardens' Accounts of Croscombe, Pilton, Patton, Tintinhull, Morebath, and St. Michael's,
+      Bath, ranging from A.D. 1349 to 1560
+    author: Parish wardens; ed. Bishop Edmund Hobhouse
+    translator: none (English)
+    year: 1890
+    world: late-medieval-lay-parish-piety / the-english-reformation-and-elizabethan-settleme
+    why: 'Fifteenth-century and early sixteenth-century wardens'' accounts from six parishes: the parish''s
+      own record of its money and its time.'
+    url: https://archive.org/details/churchwardensacc00hobhrich
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title page year read in the
+      OCR
+    verified_by: 'Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. Other scan: churchwardensacc00hobhrich is the only item found under this title.'
+    status: downloaded
+    vendored_as: somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Prymer or Lay Folks' Prayer Book, Part I (text) and Part II (introduction), EETS OS 105 and
+      109
+    author: Anonymous (Prymer, about 1420-30)
+    translator: Henry Littlehales (editor; Middle English)
+    year: 1895
+    world: late-medieval-lay-parish-piety
+    why: The ordinary household's actual prayer equipment, named in the census.
+    url: https://archive.org/details/prymerorlayfolks00cathuoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title page years read in the
+      OCR
+    verified_by: Library thread, Era VI pass, metadata read, title pages read, OCR sampled at three points,
+      October 2026. Vendored. Part II alone is also at ThePrimerOrLayFolksPrayerBook (243 KB, Public Domain
+      Mark), not vendored as a duplicate.
+    status: downloaded
+    vendored_as: prymer_prymer-or-lay-folks-prayer-book-enm_littlehales1895.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Lay Folks Mass Book, or the Manner of Hearing Mass, EETS OS 71
+    author: Anonymous; ed. T. F. Simmons
+    translator: Thomas Frederick Simmons (editor; Middle English)
+    year: 1879
+    world: late-medieval-lay-parish-piety
+    why: The layman's guide to the Mass, named in the census.
+    url: https://archive.org/details/TheLayFolksMassBookPt1
+    rights_basis: pd-us-by-date; host licence field is the Public Domain Mark 1.0; host date 1879
+    verified_by: 'Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. Other scans of the same edition: layfolksmassbook00simmuoft (1.5 MB, NOT_IN_COPYRIGHT),
+      the_lay_folks_mass_book_of_manner_of_hearing_mass_1879 (1.3 MB).'
+    status: downloaded
+    vendored_as: lay-folks-mass-book_manner-of-hearing-mass-enm_simmons1879.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: 'Mirk''s Festial: a Collection of Homilies, Part I, ed. Theodor Erbe (EETS ES 96)'
+    author: John Mirk
+    translator: Theodor Erbe (editor; Middle English)
+    year: 1905
+    world: late-medieval-lay-parish-piety
+    why: The most-copied English sermon collection, for parish preaching.
+    url: https://archive.org/details/mirksfestialcoll00mirk
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; host date 1905
+    verified_by: 'Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. Another scan: mirksfestialcoll01mirkuoft (1.1 MB). The 2009 Powell edition (EETS 334/335)
+      is in copyright.'
+    status: downloaded
+    vendored_as: mirk_festial-enm_erbe1905.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: Instructions for Parish Priests by John Mirk, ed. Edward Peacock (EETS OS 31)
+    author: John Mirk
+    translator: Edward Peacock (editor; Middle English)
+    year: 1868
+    world: late-medieval-lay-parish-piety
+    why: Mirk's verse manual for the parish priest, named in the task.
+    url: https://archive.org/details/instructionsforp00mirk
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; host date 1868
+    verified_by: 'Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. Other scans: instructionsfor00furngoog (237 KB, NOT_IN_COPYRIGHT) and instructionsfor00mirkgoog.'
+    status: downloaded
+    vendored_as: mirk_instructions-for-parish-priests-enm_peacock1868.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: 'English Gilds: the Original Ordinances of more than One Hundred Early English Gilds, EETS OS
+      40'
+    author: The gilds; ed. Toulmin Smith
+    translator: Joshua Toulmin Smith and Lucy Toulmin Smith (editors; Middle English, with English renderings
+      of Latin and French)
+    year: 1870
+    world: late-medieval-lay-parish-piety
+    why: The gild returns and ordinances, named in the census (the census dates the returns to 1389).
+    url: https://archive.org/details/englishgildsorig0000smit
+    rights_basis: pd-us-by-date; host date 1870; host carries no rights field
+    verified_by: 'Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. Other scans: englishgildsorig00smit (1.9 MB), india.history.resource.71683 (1.6 MB).'
+    status: downloaded
+    vendored_as: english-gilds_original-ordinances-of-early-english-gilds-enm_toulmin-smith1870.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Lay Folks' Catechism, or the English and Latin Versions of Archbishop Thoresby's Instruction
+      (EETS OS 118)
+    author: John Thoresby, Archbishop of York; Wycliffite version
+    translator: T. F. Simmons and H. E. Nolloth (editors)
+    year: 1901
+    world: late-medieval-lay-parish-piety / lollardy
+    why: The standing English and Latin instruction for the laity, named in the census.
+    url: https://archive.org/details/layfolkscatechis00thoruoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; host date 1901
+    verified_by: 'Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. Other scans: layfolkscatechi00enggoog, 30081003313354.'
+    status: downloaded
+    vendored_as: thoresby_lay-folks-catechism-enm-lat_simmons-nolloth1901.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: Testamenta Eboracensia, vol. III (Surtees Society vol. 45)
+    author: Will-makers of the Province of York; ed. James Raine and John William Clay (per the host record)
+    translator: none (Latin and English)
+    year: 1865
+    world: late-medieval-lay-parish-piety
+    why: 'Wills registered at York: the will-makers'' bequests to their parish, guild and priest, named
+      in the census.'
+    url: https://archive.org/details/testamentaebora05claygoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title page year read in the
+      OCR
+    verified_by: Library thread, Era VI pass, metadata read, volume number and year read in the OCR, OCR
+      sampled at three points, October 2026. Vendored. Another scan of vol. III, testamentaebora04claygoog
+      (1.3 MB), reads far worse in the middle (about one word in ten matched a reference word list) and
+      was not vendored.
+    status: downloaded
+    vendored_as: york-registry_testamenta-eboracensia-v3-enm_raine1865.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: Testamenta Eboracensia, vol. IV (Surtees Society vol. 53)
+    author: Will-makers of the Province of York; ed. James Raine and John William Clay (per the host record)
+    translator: none (Latin and English)
+    year: 1869
+    world: late-medieval-lay-parish-piety
+    why: 'Wills registered at York: the will-makers'' bequests to their parish, guild and priest, named
+      in the census.'
+    url: https://archive.org/details/testamentaebora06claygoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title page year read in the
+      OCR
+    verified_by: Library thread, Era VI pass, metadata read, volume number and year read in the OCR, OCR
+      sampled at three points, October 2026. Vendored. Another scan of vol. IV, testamentaebora01claygoog
+      (1.1 MB), was not vendored as a duplicate.
+    status: downloaded
+    vendored_as: york-registry_testamenta-eboracensia-v4-enm_raine1869.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: Testamenta Eboracensia, vol. V (Surtees Society vol. 79)
+    author: Will-makers of the Province of York; ed. James Raine and John William Clay (per the host record)
+    translator: none (Latin and English)
+    year: 1884
+    world: late-medieval-lay-parish-piety
+    why: 'Wills registered at York: the will-makers'' bequests to their parish, guild and priest, named
+      in the census.'
+    url: https://archive.org/details/testamentaeborac05york
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title page year read in the
+      OCR
+    verified_by: 'Library thread, Era VI pass, metadata read, volume number and year read in the OCR, OCR
+      sampled at three points, October 2026. Vendored. Other scans of vol. V: testamentaebora07claygoog
+      and testamentaebora02claygoog (both Google scans; not vendored as duplicates). Vol. VI (Surtees 106,
+      1902; testamentaebora08claygoog) is mostly wills of the 1530s and 1540s and was not vendored.'
+    status: downloaded
+    vendored_as: york-registry_testamenta-eboracensia-v5-enm_raine1884.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: The Medieval Records of a London City Church (St. Mary at Hill), A.D. 1420-1559, Part I (EETS
+      OS 125)
+    author: The wardens of St Mary at Hill; ed. Henry Littlehales
+    translator: none (English)
+    year: 1904
+    world: late-medieval-lay-parish-piety
+    why: A city parish's churchwardens' accounts across the window, the urban counterpart to the rural accounts.
+    url: https://archive.org/details/30081003328311
+    rights_basis: pd-us-by-date; title page year read in the OCR; host carries no rights field
+    verified_by: Library thread, Era VI pass, metadata read, title page read, OCR sampled at three points,
+      October 2026. Vendored. Part II (EETS OS 128, 1905) is at medievalrecordso0000henr (407 KB, a lending-library
+      item, not fetched).
+    status: downloaded
+    vendored_as: st-mary-at-hill_medieval-records-of-a-london-city-church-enm_littlehales1904.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: Visitations of the Diocese of Norwich, A.D. 1492-1532, ed. Augustus Jessopp
+    author: Bishops of Norwich and their visitors
+    translator: none (Latin)
+    year: 1888
+    world: late-medieval-lay-parish-piety
+    why: 'Episcopal visitations of Norfolk and Suffolk in the last decades of the window: the official check
+      on the parishes.'
+    url: https://archive.org/details/visitationsofdio00cathrich
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; host date 1888
+    verified_by: 'Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. Other scans: visitationsdioc00jessgoog, visitationsdioc00englgoog, visitationsdioc01jessgoog,
+      visitationsofthe00camduoft (the last dated 1838 on the host, probably a mis-catalogued series volume;
+      not opened).'
+    status: downloaded
+    vendored_as: norwich-diocese_visitations-1492-1532-lat_jessopp1888.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: Wills and Inventories from the Registers of the Commissary of Bury St. Edmund's and the Archdeacon
+      of Sudbury
+    author: Will-makers of Bury St Edmunds and Sudbury; ed. Samuel Tymms
+    translator: none (English)
+    year: 1850
+    world: late-medieval-lay-parish-piety
+    why: Suffolk wills and inventories; another regional set beside the York wills.
+    url: https://archive.org/details/willsinventories49tymmuoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; host date 1850
+    verified_by: 'Library thread, Era VI pass, metadata read, OCR sampled at three points, October 2026.
+      Vendored. Other scans: willsinventories49tymm, willsinventories00tymmrich, willsandinvento00courgoog.'
+    status: downloaded
+    vendored_as: bury-st-edmunds_wills-and-inventories-enm_tymms1850.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: Lincoln Diocese Documents, 1450-1544, ed. Andrew Clark (EETS OS 149)
+    author: Bishops' registers and wills of the Lincoln diocese; ed. Andrew Clark
+    translator: none (Latin and English)
+    year: 1914
+    world: late-medieval-lay-parish-piety / lollardy
+    why: Wills and registers of the Lincoln diocese in the last decades of the window.
+    url: https://archive.org/details/lincolndiocesedo00chur
+    rights_basis: pd-us-by-date; title page year read in the OCR; host carries no rights field
+    verified_by: 'Library thread, Era VI pass, metadata read, title page read, OCR sampled at three points,
+      October 2026. Vendored. Other scans: 30081001319569 (938 KB), lincolndiocesedo00lond.'
+    status: downloaded
+    vendored_as: lincoln-diocese_documents-1450-1544-enm_clark1914.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: 'The Pre-Reformation Records of All Saints'', Bristol: Part I'
+    author: Clive Burgess (ed.); the parish of All Saints', Bristol
+    translator: Clive Burgess (editor; English translation of the Latin and English records)
+    year: 1995
+    world: late-medieval-lay-parish-piety
+    why: The Church Book of All Saints', Bristol, one of the best-kept parish records of the window, named
+      in the task as a Burgess edition.
+    url: https://archive.org/details/bristol-record-society-46
+    rights_basis: 'open licence: CC BY-SA 4.0 set on the host item (licenseurl); uploaded by the Bristol
+      Record Society; the volume prints ''© Clive Burgess'''
+    verified_by: Library thread, Era VI pass, metadata read (licenseurl, uploader, description), OCR sampled
+      at three points, October 2026. Vendored under the open licence.
+    status: downloaded
+    vendored_as: all-saints-bristol_pre-reformation-records-part1_burgess1995.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: 'The Pre-Reformation Records of All Saints'' Church, Bristol. Part 2: The Churchwardens'' Accounts'
+    author: Clive Burgess (ed.); the parish of All Saints', Bristol
+    translator: Clive Burgess (editor; English translation of the Latin and English records)
+    year: 2000
+    world: late-medieval-lay-parish-piety
+    why: The churchwardens' accounts of All Saints', Bristol, named in the census as 'All Saints' Bristol
+      (ed. Burgess)'.
+    url: https://archive.org/details/bristol-record-society-53
+    rights_basis: 'open licence: CC BY-SA 4.0 set on the host item (licenseurl); uploaded by the Bristol
+      Record Society; the volume prints ''© Clive Burgess'''
+    verified_by: Library thread, Era VI pass, metadata read (licenseurl, uploader, description), OCR sampled
+      at three points, October 2026. Vendored under the open licence.
+    status: downloaded
+    vendored_as: all-saints-bristol_pre-reformation-records-part2_burgess2000.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: 'The Pre-Reformation Records of All Saints'' Church, Bristol. Part 3: Wills, the Halleway Chantry
+      Records and Deeds'
+    author: Clive Burgess (ed.); the parish of All Saints', Bristol
+    translator: Clive Burgess (editor; English translation of the Latin and English records)
+    year: 2004
+    world: late-medieval-lay-parish-piety
+    why: The wills and chantry records of All Saints', Bristol, the third volume of the Burgess edition.
+    url: https://archive.org/details/bristol-record-society-56
+    rights_basis: 'open licence: CC BY-SA 4.0 set on the host item (licenseurl); uploaded by the Bristol
+      Record Society; the volume prints ''© Clive Burgess'''
+    verified_by: Library thread, Era VI pass, metadata read (licenseurl, uploader, description), OCR sampled
+      at three points, October 2026. Vendored under the open licence.
+    status: downloaded
+    vendored_as: all-saints-bristol_pre-reformation-records-part3_burgess2004.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: 'Horae Eboracenses: the Prymer or Hours of the Blessed Virgin Mary according to the Use of York
+      (Surtees Society 132)'
+    author: Anonymous; ed. Canon Wordsworth
+    translator: none (Latin and English)
+    year: 1920
+    world: late-medieval-lay-parish-piety
+    why: The York-use prayer book of lay people in the fifteenth and sixteenth centuries.
+    url: https://archive.org/details/horaeeboracenses00surtuoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title page year read in the
+      OCR
+    verified_by: 'Library thread, Era VI pass, metadata read, title page read, OCR sampled at three points,
+      October 2026. Vendored. Another scan: horaeeboracenses0000unse (not opened).'
+    status: downloaded
+    vendored_as: surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt
+    vendored_note: vendored by the Library thread, Era VI pass; header, registry note and staging file written
+      for it
+  - title: Concilia Magnae Britanniae et Hiberniae, vol. III (A.D. 1350-1545), including the Constitutiones
+      of Thomas Arundel, 1409
+    author: David Wilkins (editor); the councils and archbishops
+    translator: none (Latin)
+    year: 1737
+    world: the-english-mystics-and-devout / lollardy
+    why: The standard Latin printing of Arundel's Constitutions, the counter-pressure the census names;
+      the Fasciculi Zizaniorum vendored here cites it as 'Wilkins, Conc. III'.
+    url: https://archive.org/details/conciliamagnaebr03wilk
+    rights_basis: pd-us-by-date (printed 1737); the item carries no rights field
+    verified_by: 'Library thread, Era VI pass: metadata read; text file present (5.9 MB); fetched and sampled
+      at the opening, in the Arundel passages and in the middle in October 2026: the long s is read as f
+      throughout, and about one word in ten matches a modern word list, so the Latin is a second witness
+      only.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: a second-witness OCR file over the 3 MB limit. The English text of the Constitution
+      is in Foxe vol. III, already vendored. A cleaner scan would change this. Another scan of the same
+      volume: bim_eighteenth-century_concilia-magnae-britanni_wilkins-david_1737_3 (5.5 MB, not opened).'
+  - title: Churchwardens' Accounts of St. Mary the Great, Cambridge, from 1504 to 1635
+    author: The wardens of St Mary the Great, Cambridge (editor named only as 'fost' in the host identifier)
+    translator: none (English)
+    year: 1905
+    world: late-medieval-lay-parish-piety
+    why: Wardens' accounts of a university-town parish church; the first years (1504 to 1517) fall in the
+      window.
+    url: https://archive.org/details/churchwardensac00fostgoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; host date 1905
+    verified_by: 'Library thread, Era VI pass: metadata read; text file present (1.8 MB); sampled at five
+      points in October 2026: readable English accounts; the title page was not read for the editor''s name.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: the volume runs to 1635 and most of its years fall after 1517. Revisit if
+      the world''s build wants a university-town parish.'
+  - title: Scala perfectionis (Walter Hilton), printed by Wynkyn de Worde, 1533
+    author: Walter Hilton
+    translator: none (early English print)
+    year: 1533
+    world: the-english-mystics-and-devout
+    why: Hilton's Scale in the early print the census names (the first edition was Wynkyn de Worde's of
+      1494, per the scan's own bookseller note).
+    url: https://archive.org/details/scalaperfectioni00hilt
+    rights_basis: pd-us-by-date (printed 1533); the item carries no rights field
+    verified_by: 'Library thread, Era VI pass: metadata read; text file present (627 KB); sampled at five
+      points in October 2026: black-letter print read with long s and abbreviation marks mis-read; about
+      0.46 of tokens match a modern word list.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: the same text is vendored in Underhill 1923 and the Dalgairns printing, and
+      this scan is noisy. The scan is of the 1533 printing, not the 1494 first edition; no 1494 scan was
+      found.'
+  - title: The Divine Cloud (Augustine Baker's notes and preface, edited by Henry Collins)
+    author: Anonymous (the Cloud); Augustine Baker, O.S.B.; ed. Henry Collins
+    translator: none (English)
+    year: 1871
+    world: the-english-mystics-and-devout
+    why: The 1871 printing the task names for the Cloud.
+    url: https://archive.org/details/TheDivineCloud
+    rights_basis: pd-us-by-date; host licence field is the Public Domain Mark 1.0; title page year 1871
+      read in the OCR
+    verified_by: 'Library thread, Era VI pass: metadata read; text fetched (349 KB) and sampled at three
+      points in October 2026: clean English, in modern spelling with chapter headings ''CHAPTER II'' onward.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: it is not a Middle English text, as the task''s note suggested, but a printing
+      of the Cloud with Baker''s notes. The Cloud is vendored in Underhill 1912 and McCann 1924 (which also
+      holds Baker''s commentary). Revisit only if a build wants the 1871 wording.'
+  - title: Testamenta Eboracensia, vol. VI (Surtees Society vol. 106)
+    author: Will-makers of the province of York; ed. James Raine and others
+    translator: none (Latin and English)
+    year: 1902
+    world: late-medieval-lay-parish-piety
+    why: The next volume of the York wills.
+    url: https://archive.org/details/testamentaebora08claygoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; volume and year read in the
+      OCR
+    verified_by: 'Library thread, Era VI pass: metadata read; text fetched (891 KB) and sampled in October
+      2026: readable; dates in the OCR run mostly 1520 to 1550.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: the wills are mostly of the 1530s and 1540s, after the window.'
+  - title: 'Testamenta Vetusta: being illustrations from wills, of manners, customs, &c.'
+    author: Nicholas Harris Nicolas (editor); testators mostly of the gentry and nobility
+    translator: none (English)
+    year: 1826
+    world: late-medieval-lay-parish-piety
+    why: A classic collection of wills with bequests for masses and church fabric.
+    url: https://archive.org/details/testamentavetust01nico
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; host date 1826
+    verified_by: 'Library thread, Era VI pass: metadata read only; text file present (1.1 MB); not fetched
+      or sampled in October 2026.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: the host title describes wills of distinguished families, not ordinary parishioners,
+      and the text was not opened. Revisit if the build wants gentry wills.'
+  - title: The Medieval Records of a London City Church (St. Mary at Hill), A.D. 1420-1559, Part II (EETS
+      OS 128)
+    author: The wardens of St Mary at Hill; ed. Henry Littlehales
+    translator: none (English)
+    year: 1905
+    world: late-medieval-lay-parish-piety
+    why: The second part of the edition whose Part I is vendored.
+    url: https://archive.org/details/medievalrecordso0000henr
+    rights_basis: pd-us-by-date if the 1905 date holds; the host item (a lending-library scan) carries no
+      rights field
+    verified_by: 'Library thread, Era VI pass: metadata read; text file present (407 KB); not fetched in
+      October 2026.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: it is a lending-library item and the title page was not read. Part I is vendored.'
+  - title: Provinciale (seu Constitutiones Angliae), William Lyndwood, Oxford 1679
+    author: William Lyndwood; the constitutions of the archbishops of Canterbury
+    translator: none (Latin)
+    year: 1679
+    world: the-english-mystics-and-devout / lollardy
+    why: A compilation of the provincial constitutions of fourteen archbishops of Canterbury (per the host
+      title).
+    url: https://archive.org/details/provincialeseuco00lynd
+    rights_basis: pd-us-by-date (printed 1679); the item carries no rights field
+    verified_by: 'Library thread, Era VI pass: metadata read only; text file present (7.0 MB); not fetched
+      in October 2026.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: seven megabytes of seventeenth-century Latin, a second-witness candidate over
+      the size limit, and the Wilkins volume already covers Arundel''s text. Not opened.'
+  - title: The Golden Legend or Lives of the Saints, as englished by William Caxton (Temple Classics, 7
+      vols.)
+    author: Jacobus de Voragine (about 1229-1298); Caxton's English; ed. F. S. Ellis
+    translator: William Caxton (English); ed. F. S. Ellis
+    year: 1900
+    world: late-medieval-lay-parish-piety
+    why: The saints' lives that the parish heard and saw; Caxton's English is the vernacular form named
+      by the host.
+    url: https://archive.org/details/TheGoldenLegendVol2
+    rights_basis: pd-us-by-date; host licence field is the Public Domain Mark 1.0 for TheGoldenLegendVol2,
+      TheGoldenLegendVol4 and TheGoldenLegendVol7 (each 0.5 to 0.6 MB); the other volumes were not read
+    verified_by: 'Library thread, Era VI pass: metadata read for volumes 2, 4, 6 and 7; text files present;
+      not fetched in October 2026.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: a compilation by Jacobus de Voragine in Caxton''s English, not the parish''s
+      own voice; seven volumes of about 0.5 MB each. Another worker''s hagiography pass may claim it.'

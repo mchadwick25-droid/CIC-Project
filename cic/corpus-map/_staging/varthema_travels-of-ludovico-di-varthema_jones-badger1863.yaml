@@ -1,0 +1,16 @@
+source_file: varthema_travels-of-ludovico-di-varthema_jones-badger1863.txt
+assignments:
+- row_id: varthema_travels-of-ludovico-di-varthema_jones-badger1863--travels-of-ludovico-di-varthema-1503-1508-the-st-thomas-chri
+  work: Travels of Ludovico di Varthema, 1503-1508 (the St Thomas Christians at Kayamkulam)
+  author: varthema
+  locus: the notice of the Christians of St Thomas at printed page 180, file lines 14275-14287; note 1
+    on the same page quotes Barbosa on Caincoulan at 14296-14305
+  atlas_ids:
+  - st-thomas-christians-1300-1517
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: 'Outsider eyewitness (an Italian traveller, 1503 to 1508), English translation, clean OCR. The
+    page-180 notice of the Christians of St Thomas is short and specific: a priest from Babylon every
+    three years, a longer Lent, mass like the Greeks. Ready to quote once verified against the scan. Badger''s
+    notes are scholarship.'

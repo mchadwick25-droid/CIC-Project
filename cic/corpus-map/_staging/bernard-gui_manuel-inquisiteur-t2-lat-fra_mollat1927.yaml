@@ -1,0 +1,45 @@
+source_file: bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927.txt
+authors_ruled:
+  bernard-gui:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file. The author is named on the title page printed in the file as 'Bernard Gui', with
+      Mollat as editor and translator. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927--manuel-de-l-inquisiteur-of-bernard-gui-tome-ii-mollat-1927
+  work: >-
+    Manuel de l'Inquisiteur of Bernard Gui, tome II (Mollat, 1927): the Pseudo-Apostles, the Beguins and the Fraticelli
+  author: bernard-gui
+  locus: >-
+    The Pseudo-Apostles' abjuration formula with Mollat's note on the Beguins' poverty teaching; the section on
+    those who call themselves Beguins or poor of Christ; the entry on the Fraticelli (Fratisselli) of Italy
+  atlas_ids:
+  - fraticelli-spiritual-franciscan-rigorists
+  role: context
+  confidence: assigned
+  note: >-
+    The doctrinal part of the handbook, with the Beguin and Fraticelli passages. Hostile and institutional. Latin
+    with a facing French translation. No public-domain English translation found.
+- row_id: >-
+    bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927--manuel-de-l-inquisiteur-of-bernard-gui-tome-ii-mollat-1927-2
+  work: Manuel de l'Inquisiteur of Bernard Gui, tome II (Mollat, 1927)
+  author: bernard-gui
+  locus: Whole volume; the Fraticelli and Beguin passages
+  atlas_ids:
+  - franciscan-order-era-6
+  role: context
+  confidence: provisional
+  note: Placed on the Beguin and Fraticelli passages alone.
+- row_id: >-
+    bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927--manuel-de-l-inquisiteur-of-bernard-gui-tome-ii-mollat-1927-3
+  work: >-
+    Manuel de l'Inquisiteur of Bernard Gui, tome II (Mollat, 1927): Waldensians, Cathars and other sects
+  author: bernard-gui
+  locus: Whole volume; the doctrinal descriptions of the sects
+  atlas_ids:
+  - cathars-albigensians
+  - the-waldensians
+  role: context
+  confidence: provisional
+  note: Placed on the handbook's subject matter without a full read.

@@ -1,0 +1,13 @@
+source_file: gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt
+assignments:
+- row_id: gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706--gerson-opera-omnia-tomus-ii-pars-i-treatises-on-the-schism
+  work: 'Gerson, Opera omnia, Tomus II Pars I: treatises on the Schism up to Constance (Du Pin, 1706)'
+  author: gerson
+  locus: '''De auferibilitate papae ab ecclesia'', ''Protestatio super statum ecclesiae'', the Pisa sermons'
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: assigned
+  note: The conciliarist chancellor's own treatises on the Schism, Latin, 1706 edition. Second witness
+    for exact wording until checked against the page images (long s read as f). The core conciliarist
+    voice on the shelf.

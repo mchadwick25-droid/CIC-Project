@@ -1,0 +1,14 @@
+source_file: gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906.txt
+assignments:
+- row_id: gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906--life-and-miracles-of-takla-haymanot-dabra-libanos-version-et
+  work: Life and Miracles of Takla Haymanot (Dabra Libanos version), Ethiopic texts with English translation
+  author: gadla-takla-haymanot
+  locus: English translation from file line 3076 (Chapter I at 3110); Miracles inserted from 5019; Waldebban
+    version after the Dabra Libanos life
+  atlas_ids:
+  - the-ethiopian-monastic-flowering
+  role: tradition
+  confidence: assigned
+  note: Primary hagiographic voice of the monastic founder named in the census; English translation, clean
+    OCR, ready to quote once verified against the scan. Ethiopic text lines are garbled. The life is a
+    later community's memory of Takla Haymanot, not his own words.

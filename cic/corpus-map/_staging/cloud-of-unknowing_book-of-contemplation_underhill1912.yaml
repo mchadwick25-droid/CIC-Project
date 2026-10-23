@@ -1,0 +1,14 @@
+source_file: cloud-of-unknowing_book-of-contemplation_underhill1912.txt
+assignments:
+- row_id: cloud-of-unknowing_book-of-contemplation_underhill1912--the-cloud-of-unknowing-modern-spelling-from-harley-674-ed-evelyn-underhill
+  work: The Cloud of Unknowing (modern spelling from Harley 674), ed. Evelyn Underhill
+  author: cloud-of-unknowing
+  locus: the chapter list from file line 1519; the text from line 1522
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: The anonymous author's teaching on prayer beyond thought, written for a single young disciple,
+    in Underhill's modern spelling. Clean running text; a primary voice, ready to quote once verified
+    against the scan. McCann's 1924 edition (also vendored) carries the same Cloud with the Epistle of
+    Privy Counsel and Baker's commentary.

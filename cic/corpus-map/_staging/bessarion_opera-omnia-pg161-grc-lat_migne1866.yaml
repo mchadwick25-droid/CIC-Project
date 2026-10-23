@@ -1,0 +1,43 @@
+source_file: bessarion_opera-omnia-pg161-grc-lat_migne1866.txt
+assignments:
+- row_id: >-
+    bessarion_opera-omnia-pg161-grc-lat_migne1866--bessarion-oratio-dogmatica-de-unione-encyclical-to-the
+  work: >-
+    Bessarion, Oratio dogmatica de unione, Encyclical to the Greeks, Refutation of Mark of Ephesus's syllogistic
+    chapters and defences of the procession, Greek with Latin, in Migne PG 161
+  author: bessarion
+  locus: >-
+    Refutation of Mark from about file line 15050; Apologia for Beccus's inscriptions from 39087; Encyclical to
+    the Greeks from 57729
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: assigned
+  note: >-
+    The Greek archbishop who accepted the union at Ferrara-Florence and stayed in Italy as a cardinal, in his own
+    writing, with Mark of Ephesus's chapters quoted in the refutation. A primary voice, ready to quote once checked
+    verbatim against the scan; Greek and Latin are read from the same OCR, and a quote record must be verified against
+    the page image. No public-domain English translation of this work is vendored (see the dossier, section 4).
+- row_id: >-
+    bessarion_opera-omnia-pg161-grc-lat_migne1866--bessarion-apologia-on-the-inscriptions-of-beccus-against
+  work: Bessarion, Apologia on the inscriptions of Beccus against Gregory Palamas, in Migne PG 161
+  author: bessarion
+  locus: from file line 39087
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: context
+  confidence: provisional
+  note: >-
+    A fifteenth-century Greek unionist's treatment of the quarrel over Palamas, written a century after the councils.
+    Outside the 1300-1400 window; placed from the heading, not read.
+- row_id: >-
+    bessarion_opera-omnia-pg161-grc-lat_migne1866--bessarion-oratio-dogmatica-de-unione-and-the-defences-of-the
+  work: >-
+    Bessarion, Oratio dogmatica de unione and the defences of the Latin position, in Migne PG 161
+  author: bessarion
+  locus: Oratio dogmatica listed at file line 13573
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: context
+  confidence: provisional
+  note: The same texts from the Roman side of the union.

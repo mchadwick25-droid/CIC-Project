@@ -1,0 +1,15 @@
+source_file: eckhart_meister-eckhart-vol1_evans1924.txt
+
+assignments:
+  - row_id: eckhart_meister-eckhart-vol1_evans1924--meister-eckhart-german-works-in-english-evans-from-pfeiffer
+    work: "Meister Eckhart, German works in English (Evans, from Pfeiffer's text), volume 1"
+    author: eckhart
+    locus: "whole volume"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      A public-domain English translation of the German sermons and tractates, made from Pfeiffer's text.
+      Not a literal rendering ('some omissions and additions'). Beside the Middle High German file; the
+      pair is proposed as a Work with two Expressions.

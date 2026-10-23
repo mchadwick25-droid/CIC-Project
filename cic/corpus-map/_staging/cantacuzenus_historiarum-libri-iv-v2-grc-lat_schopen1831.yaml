@@ -1,0 +1,16 @@
+source_file: cantacuzenus_historiarum-libri-iv-v2-grc-lat_schopen1831.txt
+assignments:
+- row_id: >-
+    cantacuzenus_historiarum-libri-iv-v2-grc-lat_schopen1831--john-kantakouzenos-historiae-book-iii-1341-1347-greek-with
+  work: John Kantakouzenos, Historiae, Book III (1341-1347), Greek with Latin, Bonn volume 2
+  author: cantacuzenus
+  locus: Book III from about file line 1727
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  - byzantine-church-palaiologan
+  role: context
+  confidence: provisional
+  note: >-
+    The civil war, the deposition of Patriarch John Calecas in 1347 and Kantakouzenos's coronation by the patriarch,
+    from the emperor's side. A lay and court voice, not the church's own. Placed on window and the volume's contents;
+    not read through.

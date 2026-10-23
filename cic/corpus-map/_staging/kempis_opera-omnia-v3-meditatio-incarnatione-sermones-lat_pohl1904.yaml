@@ -1,0 +1,14 @@
+source_file: kempis_opera-omnia-v3-meditatio-incarnatione-sermones-lat_pohl1904.txt
+
+assignments:
+  - row_id: kempis_opera-omnia-v3-meditatio-incarnatione-sermones-lat_pohl1904--kempis-opera-omnia-vol-3-meditatio-de-incarnatione-sermones
+    work: "Kempis, Opera omnia vol. 3: Meditatio de incarnatione, Sermones de vita et passione Domini (Pohl, Latin)"
+    author: kempis
+    locus: "whole volume"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      A further volume of Kempis's own works beyond the Imitation and the volumes already vendored.
+      Primary once checked against the scan. The English of Scully (1907) is vendored beside it.

@@ -1,0 +1,41 @@
+source_file: bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt
+authors_ruled:
+  bullarium-franciscanum:
+    kind: metadata-omission
+    evidence: >-
+      A collection, named on its title page as the Bullarium Franciscanum, nova series, collected by Huntemann;
+      no single author.
+assignments:
+- row_id: >-
+    bullarium-franciscanum_nova-series-v1-lat_huntemann1929--bullarium-franciscanum-nova-series-i-huntemann-1929-papal
+  work: >-
+    Bullarium Franciscanum, nova series I (Huntemann, 1929): papal constitutions of Eugenius IV and Nicholas V,
+    1431-1455
+  author: bullarium-franciscanum
+  locus: >-
+    Whole volume; entries naming Capistrano (for example the grant of powers against the Fraticelli) and Bernardino
+    of Siena, found by search
+  atlas_ids:
+  - observant-reform-and-popular-preaching
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: context
+  confidence: provisional
+  note: >-
+    Papal letters to the Franciscan orders in the years of the Observant leaders. Placed on the volume's coverage
+    and a keyword check, not a full read. Institutional papal Latin, clean OCR; not the Observants' own voice. No
+    public-domain English translation found.
+- row_id: >-
+    bullarium-franciscanum_nova-series-v1-lat_huntemann1929--bullarium-franciscanum-nova-series-i-huntemann-1929-papal-2
+  work: >-
+    Bullarium Franciscanum, nova series I (Huntemann, 1929): papal constitutions of Eugenius IV and Nicholas V,
+    1431-1455
+  author: bullarium-franciscanum
+  locus: Whole volume; papal letters in numbered entries
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: >-
+    Placed on content: the papal chancery's letters, 1431-1455. Whether the Latin papal church world wants them
+    as its own voice is for its build.

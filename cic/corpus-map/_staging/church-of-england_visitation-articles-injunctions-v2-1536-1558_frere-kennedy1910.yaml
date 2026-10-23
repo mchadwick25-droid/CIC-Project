@@ -47,3 +47,16 @@ assignments:
       (its immediate parent, the church its priests were ordained in) or only as
       antecedent context is a placement the library cannot settle; flagged for a
       ruling rather than called either way.
+  - row_id: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910--visitation-articles-and-injunctions-vol-ii-1536-1558-the
+    work: 'Visitation Articles and Injunctions, vol. II, 1536-1558: the injunctions on images, pilgrimages,
+      lights, gilds, chantries and primers'
+    author: church-of-england
+    locus: whole volume
+    atlas_ids:
+    - late-medieval-lay-parish-piety
+    role: context
+    confidence: provisional
+    note: 'The royal and episcopal injunctions that took parish practice apart after the window closes (the
+      counts in the file: images 88, pilgrimage 22, lights 21, chantr 35, primer 41). These are the documents
+      that end the practice the wardens'' accounts record. Out-of-window tier (1536 to 1558), same place;
+      placed on the counts and the title, not read through.'

@@ -1,0 +1,89 @@
+source_file: >-
+  nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
+authors_ruled:
+  xanthopuli-callistus-ignatius:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CXLVII names 'Callisti et Ignatii' among those added to Nikephoros Kallistos; the
+      elenchus lists their Methodus et regula (running heads 'CALLISTI ET IGNATII XANTHOPULORUM' from file line
+      29425); the file's leading slug is nicephorus-callistus.
+    from_file: >-
+      nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
+  callistus-telicudes:
+    kind: metadata-omission
+    evidence: >-
+      The elenchus of tomus CXLVII lists Callistus Telicoudes (running heads 'CALLISTI TELICUDAE' from file line
+      32531); the file's leading slug is nicephorus-callistus.
+    from_file: >-
+      nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
+  callistus-cataphugiota:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CXLVII names Callisti Cataphugiotae; running heads 'CALLISTI CATAPHUGIOTAE' from file
+      line 33336; the file's leading slug is nicephorus-callistus.
+    from_file: >-
+      nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
+  nicephorus-monachus:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CXLVII names Nicephori Monachi; 'NICEPHORI MONACHI' with 'DE SOBRIETATE ET CORDIS
+      CUSTODIA' at file lines 38189-38193; the file's leading slug is nicephorus-callistus.
+    from_file: >-
+      nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
+assignments:
+- row_id: >-
+    nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865--kallistos-and-ignatios-xanthopouloi-methodus-et-regula-for
+  work: >-
+    Kallistos and Ignatios Xanthopouloi, Methodus et regula for those who live in quiet, Greek with Latin, in Migne
+    PG 147
+  author: xanthopuli-callistus-ignatius
+  locus: from file line 28898
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: assigned
+  note: >-
+    A rule and method for those who choose to live in quiet (hesychia), a method text of the movement in Greek with
+    Latin. A primary voice, ready to quote once checked verbatim against the scan; no public-domain English translation
+    is vendored.
+- row_id: >-
+    nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865--kallistos-telikoudes-chapters-on-quiet-and-selections-on
+  work: >-
+    Kallistos Telikoudes, chapters on quiet and selections on prayer and attention, Greek with Latin, in Migne PG
+    147
+  author: callistus-telicudes
+  locus: from file line 32531
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: assigned
+  note: >-
+    Chapters on quiet living and selections from the Fathers on prayer and attention. A primary voice, ready to
+    quote once checked; no public-domain English translation is vendored.
+- row_id: >-
+    nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865--kallistos-katafygiotes-on-union-with-god-and-the
+  work: >-
+    Kallistos Katafygiotes, on union with God and the contemplative life, Greek with Latin, in Migne PG 147
+  author: callistus-cataphugiota
+  locus: from file line 33336
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: assigned
+  note: >-
+    A treatise on union with God and the contemplative life. A primary voice, ready to quote once checked; no public-domain
+    English translation is vendored.
+- row_id: >-
+    nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865--nikephoros-the-monk-tractatus-de-sobrietate-et-cordis
+  work: >-
+    Nikephoros the Monk, Tractatus de sobrietate et cordis custodia, Greek with Latin, in Migne PG 147
+  author: nicephorus-monachus
+  locus: from file line 38189
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: antecedent
+  confidence: needs-ruling
+  note: >-
+    The method text on watchfulness and guarding the heart that later hesychasts relied on. Nikephoros is usually
+    placed before the window; the census lists the text among the hesychast method texts. Whether it is tradition
+    or antecedent here is for the lead.

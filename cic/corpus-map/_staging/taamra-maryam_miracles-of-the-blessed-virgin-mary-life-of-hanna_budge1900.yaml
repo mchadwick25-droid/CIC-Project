@@ -1,0 +1,16 @@
+source_file: taamra-maryam_miracles-of-the-blessed-virgin-mary-life-of-hanna_budge1900.txt
+assignments:
+- row_id: taamra-maryam_miracles-of-the-blessed-virgin-mary-life-of-hanna_budge1900--miracles-of-the-virgin-mary-life-of-hanna-prayers-of-aheta-m
+  work: Miracles of the Virgin Mary, Life of Hanna, Prayers of 'Aheta Mika'el (Ethiopic texts with English
+    translations)
+  author: taamra-maryam
+  locus: Miracles from about file line 5843; Life of Hanna and the prayers after the Miracles
+  atlas_ids:
+  - the-ethiopian-monastic-flowering
+  - zagwe-and-early-solomonic-ethiopian-christianity
+  - ethiopian-christianity-gragn-to-fasilides
+  role: tradition
+  confidence: provisional
+  note: Marian miracle collection of the Ethiopian church, English translation. Placed on subject and
+    census note, sampled but not read through. The manuscripts are later than 1517, so how far the wording
+    reflects the window is not known. English OCR clean in the body; Ethiopic lines garbled.

@@ -1,0 +1,12 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901--mansi-sacrorum-conciliorum-collectio-tomus-32-lateran-v-and
+  work: 'Mansi, Sacrorum conciliorum collectio, tomus 32: Lateran V and the Pisan conciliabulum'
+  author: mansi
+  locus: '''CONCILIUM LATERANENSE V'' near the head of the volume and the ''CONCILIABULUM PISANUM'' acts'
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: 'The Latin acts of Fifth Lateran and the Pisan conciliabulum of 1511. Provisional: the volume
+    spans 1438-1549 and only part is in the window. Second witness for exact wording (long s read as f).'

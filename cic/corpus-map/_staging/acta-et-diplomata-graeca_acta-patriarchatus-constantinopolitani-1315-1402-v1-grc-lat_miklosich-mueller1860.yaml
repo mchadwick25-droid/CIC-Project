@@ -1,0 +1,37 @@
+source_file: >-
+  acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt
+authors_ruled:
+  patriarchate-of-constantinople-register-1310-1372:
+    kind: anonymous
+    evidence: >-
+      Miklosich and Muller print 'Acta patriarchatus Constantinopolitani MCCCXV-MCCCCII' (title page, file lines
+      130-140): the Patriarchate's register of acts, no single author.
+    from_file: >-
+      acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt
+assignments:
+- row_id: >-
+    acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860--acta-patriarchatus-constantinopolitani-1315-1402-patriarchal
+  work: >-
+    Acta patriarchatus Constantinopolitani, 1315-1402 (patriarchal register), Greek with Latin headings, volume
+    1
+  author: patriarchate-of-constantinople-register-1310-1372
+  locus: whole file
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: assigned
+  note: >-
+    The census names the patriarchal register as this entry's institutional source; this is its first volume, the
+    one the Vienna manuscripts supply. Sampled in Greek and Latin at three points.
+- row_id: >-
+    acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860--acta-patriarchatus-constantinopolitani-1315-1402-patriarchal-2
+  work: Acta patriarchatus Constantinopolitani, 1315-1402 (patriarchal register), volume 1
+  author: patriarchate-of-constantinople-register-1310-1372
+  locus: whole file; Palamas is named about 34 times
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: provisional
+  note: >-
+    The register carries decisions on the Palamite and Akindynist quarrel, from the Patriarchate's side. Placed
+    on the hits for Palamas; the entries were not read.

@@ -1,0 +1,54 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt
+authors_ruled:
+  synod-of-constantinople-1341-1351:
+    kind: anonymous
+    evidence: >-
+      Mansi tom. 26 prints 'CONSTANTINOPOLITANA PSEUDO-SYNODUS' (file lines 10168 and 10297) and, from about file
+      line 12051, the Tomos against Barlaam, Akindynos and their followers in Greek and Latin; synodal texts, no
+      single author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt
+  councils-of-the-latin-west-1344-1409:
+    kind: anonymous
+    evidence: >-
+      Mansi tom. 26 prints the councils of the Latin West from Noyon 1344 to the early fifteenth century (index
+      at file lines 150-300); councils, no single author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt
+assignments:
+- row_id: >-
+    mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901--the-constantinopolitan-synod-of-1347-and-the-tomos-against
+  work: >-
+    The Constantinopolitan synod of 1347 and the Tomos against Barlaam, Akindynos and their followers, Latin with
+    Greek columns, in Mansi tom. 26
+  author: synod-of-constantinople-1341-1351
+  locus: '''Pseudo-Synodus'' from file line 10168; the Tomos from about 12051'
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: provisional
+  note: >-
+    The same synodal documents as in Migne PG 151, here in a Latin collection whose editor calls the synod a 'pseudo-synod';
+    the framing is a Catholic outsider's, the tomos is the synod's own. The Latin is usable; the Greek columns are
+    garbled. Read at the headings and a sample.
+- row_id: >-
+    mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901--the-constantinopolitan-synod-of-1347-and-the-tomos-in-mansi
+  work: The Constantinopolitan synod of 1347 and the Tomos, in Mansi tom. 26
+  author: synod-of-constantinople-1341-1351
+  locus: as above
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: provisional
+  note: >-
+    The census names the tomoi as this entry's institutional sources. See the note on the Latin editor's label.
+- row_id: >-
+    mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901--councils-of-the-latin-west-1344-1409-noyon-to-pisa-in-mansi
+  work: Councils of the Latin West, 1344-1409 (Noyon to Pisa), in Mansi tom. 26
+  author: councils-of-the-latin-west-1344-1409
+  locus: index at file lines 150-300
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: >-
+    The councils of the Avignon period in the Latin collection. Placed from the index; the census entry for the
+    Latin papal church was not read for this placement.

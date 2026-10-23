@@ -1,0 +1,24 @@
+source_file: richental_chronik-des-constanzer-concils-gmh_buck1882.txt
+assignments:
+- row_id: richental_chronik-des-constanzer-concils-gmh_buck1882--ulrich-von-richental-chronik-des-constanzer-concils-buck-s
+  work: Ulrich von Richental, Chronik des Constanzer Concils (Buck's edition, Aulendorf codex)
+  author: richental
+  locus: whole volume; the members' and delegations' lists and the sessions
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: context
+  confidence: assigned
+  note: The lay eyewitness chronicle of Constance in the German of the Aulendorf codex, a mid-fifteenth-century
+    copy. Readable, not clean; quote after checking the scan. Placed as context on the Hussite entry for
+    the trial of Hus. No public-domain English translation is vendored.
+- row_id: richental_chronik-des-constanzer-concils-gmh_buck1882--ulrich-von-richental-chronik-des-constanzer-concils-buck-s-2
+  work: Ulrich von Richental, Chronik des Constanzer Concils (Buck's edition, Aulendorf codex)
+  author: richental
+  locus: whole volume; the members' and delegations' lists and the sessions
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: context
+  confidence: provisional
+  note: The lay eyewitness chronicle of Constance in the German of the Aulendorf codex, a mid-fifteenth-century
+    copy. Readable, not clean; quote after checking the scan. Placed as context on the Hussite entry for
+    the trial of Hus. No public-domain English translation is vendored.

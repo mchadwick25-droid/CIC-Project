@@ -1,0 +1,16 @@
+source_file: quatremere_memoires-geographiques-et-historiques-sur-l-egypte-tome2-fra_quatremere1811.txt
+assignments:
+- row_id: quatremere_memoires-geographiques-et-historiques-sur-l-egypte-tome2-fra_quatremere1811--m-moire-sur-la-nubie-tome-2-of-the-m-moires-g-ographiques-et
+  work: Mémoire sur la Nubie (tome 2 of the Mémoires géographiques et historiques sur l'Égypte)
+  author: quatremere
+  locus: Mémoire sur la Nubie from file line 190 to about 4732; Mamluk campaigns under Baibars and Qalawun
+    at lines 3614-4273
+  atlas_ids:
+  - terminal-christian-nubia
+  - makurian-nubian-christianity
+  role: context
+  confidence: provisional
+  note: 'Outsider Arabic accounts of Nubia in French translation (1811), second-grade OCR. Placed on subject:
+    the Nubia memoir covers the kingdom''s history from the Arab period through the Mamluk campaigns.
+    Not read through. Quatremere''s commentary is scholarship; the translated passages are the source
+    layer.'

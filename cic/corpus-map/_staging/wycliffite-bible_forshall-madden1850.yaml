@@ -20,3 +20,16 @@ assignments:
       Confirms this world's own Source Readiness Dossier §3 lead is
       genuinely accessible, not just bibliographically real. A very
       large file; word-count not yet extracted.
+  - row_id: wycliffite-bible_forshall-madden1850--forshall-and-madden-preface-to-the-wycliffite-bible-richard
+    work: 'Forshall and Madden, preface to the Wycliffite Bible: Richard Rolle''s English Psalter, Margaret
+      Kirkby of Hampole, and Arundel''s Constitution of 1408'
+    author: wycliffite-bible
+    locus: whole volume
+    atlas_ids:
+    - the-english-mystics-and-devout
+    role: context
+    confidence: assigned
+    note: 'The preface discusses Rolle''s English Psalter and its copies (the section from about file line
+      405; Rolle named at 405 and 439, the recluse Margaret Kirkby at about 629 and the nunnery verses at
+      about 660) and Arundel''s Constitution of 1408 (about line 3043). Real overlap with the Lollardy bucket:
+      the editors show that a Psalter commentary once ascribed to Wyclif is Rolle''s. Tier: same time-place.'

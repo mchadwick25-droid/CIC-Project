@@ -1,0 +1,39 @@
+source_file: >-
+  mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt
+authors_ruled:
+  council-of-ferrara-florence-1438-1445:
+    kind: anonymous
+    evidence: >-
+      Mansi tom. 31 prints 'FLORENTINUM OECUMENICUM CONCILIUM' with the acts of Ferrara and Florence (index, file
+      lines 1135-1300; the decree Laetentur caeli near file lines 73459 and 97358); a council text, no single author.
+    from_file: >-
+      mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt
+assignments:
+- row_id: >-
+    mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906--acts-of-the-council-of-ferrara-florence-1438-1439-latin-and
+  work: >-
+    Acts of the Council of Ferrara-Florence (1438-1439), Latin and Greek, with the decree Laetentur caeli, in Mansi
+    tom. 31
+  author: council-of-ferrara-florence-1438-1445
+  locus: index at file lines 1135-1300; decree near 97358
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: assigned
+  note: >-
+    The union council's own record, including the sessions on purgatory, the procession of the Holy Spirit, the
+    azymes and the primacy, and the decree of union. Latin is the usable witness (long s read as f); the Greek columns
+    are garbled. Read at the index and the decree; the sessions were sampled.
+- row_id: >-
+    mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906--acts-of-the-council-of-ferrara-florence-1438-1439-with-the
+  work: >-
+    Acts of the Council of Ferrara-Florence (1438-1439), with the decree Laetentur caeli, in Mansi tom. 31
+  author: council-of-ferrara-florence-1438-1445
+  locus: as above
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: >-
+    The same council from the Roman side, convoked by Eugenius IV. The census entry for the Latin papal church was
+    not read for this placement.

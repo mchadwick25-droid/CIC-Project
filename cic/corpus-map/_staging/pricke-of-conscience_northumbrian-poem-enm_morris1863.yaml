@@ -1,0 +1,23 @@
+source_file: pricke-of-conscience_northumbrian-poem-enm_morris1863.txt
+assignments:
+- row_id: pricke-of-conscience_northumbrian-poem-enm_morris1863--the-pricke-of-conscience-northumbrian-poem-ascribed-to-rolle-in-this-edition-ed-richard-morris
+  work: The Pricke of Conscience (Northumbrian poem, ascribed to Rolle in this edition), ed. Richard Morris
+  author: pricke-of-conscience
+  locus: Book I from file line 4192
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: context
+  confidence: provisional
+  note: A Middle English poem on death, judgment and the last things, ascribed to Rolle on this edition's
+    title page. Whether it is Rolle's is not decided here; placed as context for the world's reading culture.
+    Second witness for exact wording because of the Middle English OCR.
+- row_id: pricke-of-conscience_northumbrian-poem-enm_morris1863--the-pricke-of-conscience-northumbrian-poem-ed-richard-morris
+  work: The Pricke of Conscience (Northumbrian poem), ed. Richard Morris
+  author: pricke-of-conscience
+  locus: Book I from file line 4192
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: context
+  confidence: provisional
+  note: A widely read English verse teaching on the last things, of the kind a priest or reading layman
+    could draw on. This pass did not check how widely it was read in parishes; left provisional.

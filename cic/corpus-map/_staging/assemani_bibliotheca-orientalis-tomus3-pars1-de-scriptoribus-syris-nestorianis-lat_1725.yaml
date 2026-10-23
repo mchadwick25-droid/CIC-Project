@@ -1,0 +1,18 @@
+source_file: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
+assignments:
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--bibliotheca-orientalis-iii-1-the-nestorian-writers-with-the
+  work: 'Bibliotheca Orientalis III.1: the Nestorian writers, with the 1504 letter of the Malabar bishops
+    and the lives of the fourteenth and fifteenth-century patriarchs'
+  author: assemani
+  locus: Malabar bishops' history and the 1504 letter at file line 93562 onward; Timotheus II at 97694
+    and 98507
+  atlas_ids:
+  - st-thomas-christians-1300-1517
+  - church-of-the-east-timur-to-hakkari
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: tradition
+  confidence: assigned
+  note: 'Primary Latin: the bishops'' letter of 1504 and the history of their mission, in Assemani''s
+    printed Latin, plus the lives of later patriarchs, among them Timotheus II. Latin OCR readable with
+    the long s read as f. Syriac garbled. Ready to quote once verified against the scan. Eighteenth-century
+    lives are scholarship.'

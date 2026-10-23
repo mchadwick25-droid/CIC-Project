@@ -1,0 +1,13 @@
+source_file: birgitta_revelations-enm_cumming1929.txt
+assignments:
+- row_id: birgitta_revelations-enm_cumming1929--the-revelations-of-saint-birgitta-middle-english-version
+  work: The Revelations of Saint Birgitta (Middle English version, Cumming's edition)
+  author: birgitta
+  locus: Revelations in numbered books and chapters after the introduction
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: assigned
+  note: Birgitta's Revelations in a fifteenth-century English version, edited 1929. A translation, not
+    her own Latin; the original is in the 1628 Latin file. Primary voice once verified against the scan
+    (Middle English readable, not clean).

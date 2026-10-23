@@ -1,0 +1,16 @@
+source_file: cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt
+assignments:
+- row_id: cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914--cathay-and-the-way-thither-vol-iii-montecorvino-s-letters-ra
+  work: Cathay and the Way Thither, vol. III (Montecorvino's letters, Rashiduddin, Pegolotti, Marignolli)
+  author: cathay-and-the-way-thither
+  locus: Montecorvino's letters at the contents entries from file line 244; Marignolli section later in
+    the volume; Quilon is named in some 23 lines
+  atlas_ids:
+  - st-thomas-christians-1300-1517
+  - church-of-the-east-timur-to-hakkari
+  - church-of-the-east-under-the-mongols
+  role: context
+  confidence: provisional
+  note: 'Outsider records, English, clean OCR: Montecorvino''s letters and Marignolli''s travels including
+    Quilon and the Nestorians. Placed on subject from the contents; not read through. Yule and Cordier''s
+    notes are scholarship.'

@@ -1,0 +1,25 @@
+source_file: theologia-germanica_theologia-germanica_winkworth1893.txt
+
+assignments:
+  - row_id: theologia-germanica_theologia-germanica_winkworth1893--theologia-germanica-winkworth-s-translation
+    work: "Theologia Germanica (Winkworth's translation)"
+    author: theologia-germanica
+    locus: "whole volume"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      The public-domain English of the Theologia deutsch, made from Pfeiffer's German. A quotable English
+      leg beside the Middle High German file.
+  - row_id: theologia-germanica_theologia-germanica_winkworth1893--theologia-germanica-english-of-the-treatise-luther-printed
+    work: "Theologia Germanica, English of the treatise Luther printed twice"
+    author: theologia-germanica
+    locus: "whole volume"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: transmission
+    confidence: provisional
+    note: >
+      Placed on the census's own statement that Luther printed the treatise. This English is made from
+      Pfeiffer's edition of the manuscript, not from Luther's printings.

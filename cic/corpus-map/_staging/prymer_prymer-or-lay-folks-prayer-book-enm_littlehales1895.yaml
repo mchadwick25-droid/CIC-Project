@@ -1,0 +1,13 @@
+source_file: prymer_prymer-or-lay-folks-prayer-book-enm_littlehales1895.txt
+assignments:
+- row_id: prymer_prymer-or-lay-folks-prayer-book-enm_littlehales1895--the-prymer-or-lay-folks-prayer-book-ed-henry-littlehales-eets-os-105-and-109
+  work: The Prymer or Lay Folks' Prayer Book, ed. Henry Littlehales (EETS OS 105 and 109)
+  author: prymer
+  locus: Part I text from file line 167; Part II introduction near line 6251
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: The household prayer book of the window, in English with Latin incipits, arranged by hour and
+    office, with Littlehales's and Bishop's introduction. The ordinary believer's own prayers. A second
+    witness for exact wording (systematic thorn pattern in the OCR); check page images before quoting.

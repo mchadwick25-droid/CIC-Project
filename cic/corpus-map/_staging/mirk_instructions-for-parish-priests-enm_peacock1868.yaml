@@ -1,0 +1,13 @@
+source_file: mirk_instructions-for-parish-priests-enm_peacock1868.txt
+assignments:
+- row_id: mirk_instructions-for-parish-priests-enm_peacock1868--instructions-for-parish-priests-ed-edward-peacock-eets-os-31
+  work: Instructions for Parish Priests, ed. Edward Peacock (EETS OS 31)
+  author: mirk
+  locus: preface from file line 2393; the instructions from near line 8212
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: Mirk's verse handbook for the parish priest, from the same hand as the Festial. It is addressed
+    to the priest about his parishioners. The priest's side of the parish; second witness for wording
+    (Middle English OCR).

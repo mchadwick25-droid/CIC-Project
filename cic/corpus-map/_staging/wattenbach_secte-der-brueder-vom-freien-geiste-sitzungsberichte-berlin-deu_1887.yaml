@@ -1,0 +1,15 @@
+source_file: wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt
+assignments:
+- row_id: wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887--wattenbach-uber-die-secte-der-bruder-vom-freien-geiste-1887
+  work: Wattenbach, Über die Secte der Brüder vom freien Geiste (1887), with the deposition of John of
+    Brünn
+  author: wattenbach
+  locus: pp. 517-544, from 'Über die Secte der Brüder vom freien Geiste' in the file; the deposition begins
+    'Ego frater Johannes de Brunna'
+  atlas_ids:
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: assigned
+  note: 'A hostile, coerced inquisition record of the Free Spirit pattern: the deposition of John of Brünn
+    (Greifswald manuscript), edited by Wattenbach. Whole academy volume vendored; only the article is
+    relevant. No inside voice; the answers are shaped by the questions.'

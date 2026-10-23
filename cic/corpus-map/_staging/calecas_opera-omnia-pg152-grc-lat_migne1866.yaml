@@ -1,0 +1,82 @@
+source_file: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
+authors_ruled:
+  cyparissiota:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CLII names 'Joannis Cyparissiotae' among those added to Calecas; his notice at file
+      line 49600 ('JOANNES CYPARISSIOTA'); the file's leading slug is calecas.
+    from_file: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
+  patriarchate-of-constantinople-register-1310-1372:
+    kind: anonymous
+    evidence: >-
+      Tomus CLII prints, from col. 1033, the 'Diplomata, Synodicae constitutiones, Epistolae' of the patriarchs
+      John Glykys, Esaias, John Calecas, Isidore, Callistus and Philotheos, 1310-1372 (running heads from file line
+      81562); a series of patriarchal acts, no single author.
+    from_file: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
+assignments:
+- row_id: >-
+    calecas_opera-omnia-pg152-grc-lat_migne1866--patriarchal-diplomata-synodal-constitutions-and-letters-of
+  work: >-
+    Patriarchal diplomata, synodal constitutions and letters of John Glykys, Esaias, John Calecas, Isidore, Callistus
+    and Philotheos (1310-1372), Greek with Latin, in Migne PG 152
+  author: patriarchate-of-constantinople-register-1310-1372
+  locus: from file line 81562
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: assigned
+  note: >-
+    The Patriarchate's own acts across the hesychast decades, in the original Greek with a Latin version. Overlaps
+    the early part of the Miklosich and Muller register vendored beside it; the two editions print different selections.
+- row_id: >-
+    calecas_opera-omnia-pg152-grc-lat_migne1866--patriarchal-diplomata-synodal-constitutions-and-letters-1310
+  work: Patriarchal diplomata, synodal constitutions and letters (1310-1372), in Migne PG 152
+  author: patriarchate-of-constantinople-register-1310-1372
+  locus: from file line 81562
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: provisional
+  note: >-
+    Includes the acts of Callistus and Philotheos, the patriarchs of the Palamite settlement. Placed from the elenchus;
+    the individual letters on the controversy were not located.
+- row_id: >-
+    calecas_opera-omnia-pg152-grc-lat_migne1866--john-cyparissiotes-palamitic-transgressions-book-one-and
+  work: >-
+    John Cyparissiotes, Palamitic Transgressions (book one) and Exposition in ten decades, Greek with Latin, in
+    Migne PG 152
+  author: cyparissiota
+  locus: >-
+    notice from file line 49600; the Transgressions from about 49715; the Decades from about 50295
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: context
+  confidence: provisional
+  note: >-
+    An anti-Palamite theologian of the later fourteenth century, writing against the new doctrine. Placed from the
+    elenchus; the opening of the Transgressions was seen, not the whole.
+- row_id: >-
+    calecas_opera-omnia-pg152-grc-lat_migne1866--manuel-calecas-against-the-errors-of-the-greeks-de-essentia
+  work: >-
+    Manuel Calecas, Against the errors of the Greeks, De essentia et operatione and De fide, Latin from the Greek,
+    in Migne PG 152
+  author: calecas
+  locus: from the elenchus; De essentia et operatione from file line 19292
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: context
+  confidence: provisional
+  note: >-
+    A Greek theologian of the Order of Preachers who wrote for Rome against the Greek positions (the volume's title).
+    Placed on window and region from the elenchus. The writer is a different man from the patriarch John Calecas.
+- row_id: >-
+    calecas_opera-omnia-pg152-grc-lat_migne1866--manuel-calecas-de-essentia-et-operatione-in-migne-pg-152
+  work: Manuel Calecas, De essentia et operatione, in Migne PG 152
+  author: calecas
+  locus: from file line 19292
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: context
+  confidence: provisional
+  note: >-
+    The essence-and-energy distinction from the Latinizing side. Placed from the heading; not read through.

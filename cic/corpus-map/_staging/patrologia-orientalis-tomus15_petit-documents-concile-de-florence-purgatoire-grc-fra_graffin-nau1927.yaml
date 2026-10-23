@@ -1,0 +1,25 @@
+source_file: >-
+  patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt
+authors_ruled:
+  council-of-ferrara-florence-1438-1445:
+    kind: anonymous
+    evidence: >-
+      Petit's fascicle prints the Greek texts of the Ferrara debates on purgatory, edited and translated (title
+      lines 96-102 of the OCR); a council text with several speakers, no single author.
+    from_file: >-
+      patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt
+assignments:
+- row_id: >-
+    patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927--louis-petit-documents-relatifs-au-concile-de-florence-i-la
+  work: >-
+    Louis Petit, Documents relatifs au concile de Florence I: La question du purgatoire a Ferrare (Greek texts edited
+    and translated into French), in Patrologia Orientalis 15
+  author: council-of-ferrara-florence-1438-1445
+  locus: file lines 104 to about 25700 (Petit's fascicle); the rest of the volume is other matter
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: assigned
+  note: >-
+    The Ferrara debate on purgatory, with Mark of Ephesus and Bessarion speaking for the Greeks, in Greek from the
+    manuscripts with Petit's French. Greek OCR partly readable; French clean. Read at the introduction and sampled.

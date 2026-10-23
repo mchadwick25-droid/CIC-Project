@@ -1,0 +1,35 @@
+source_file: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865.txt
+assignments:
+- row_id: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865--chronicon-taboritarum-john-of-lukavec-and-nicholas-of
+  work: Chronicon Taboritarum (John of Lukavec and Nicholas of Pelhřimov) and the Taborite priests' replies
+  author: hofler
+  locus: item XXIV 'Cronica causam sacerdotum Thaboriensium continens' and the 'Responsio sacerdotum Thaboriensium'
+    that follows
+  atlas_ids:
+  - taborite-radicalism
+  role: tradition
+  confidence: assigned
+  note: The Taborite priests' own case, in Latin, edited by Höfler. The strongest inside Taborite text
+    on the shelf. Primary voice ready to quote once verified against the scan (OCR readable, not clean).
+    No public-domain English translation is vendored beside it.
+- row_id: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865--chronicon-taboritarum-john-of-lukavec-and-nicholas-of-2
+  work: Chronicon Taboritarum (John of Lukavec and Nicholas of Pelhřimov), Höfler II
+  author: hofler
+  locus: item XXIV
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: provisional
+  note: The radical wing's own text, placed on the Hussite entry because the census files Tabor as a world
+    within it. Provisional until the Hussite entry's build rules on the Taborite strand.
+- row_id: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865--tractatus-de-origine-hussitarum-hofler-ii
+  work: Tractatus de origine Hussitarum, Höfler II
+  author: hofler
+  locus: item XIX, which names the Adamites and Taborites
+  atlas_ids:
+  - inquisition-record-sects-adamites-and-kin
+  - taborite-radicalism
+  role: context
+  confidence: provisional
+  note: 'A hostile Catholic account of the Hussites'' origins, with a passage on the Adamites. Provisional:
+    the passage was located but the tract was not read through.'

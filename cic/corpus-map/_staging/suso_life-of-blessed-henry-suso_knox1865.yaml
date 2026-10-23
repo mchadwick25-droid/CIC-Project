@@ -1,0 +1,14 @@
+source_file: suso_life-of-blessed-henry-suso_knox1865.txt
+
+assignments:
+  - row_id: suso_life-of-blessed-henry-suso_knox1865--suso-life-of-the-servant-knox-s-translation
+    work: "Suso, Life of the Servant (Knox's translation)"
+    author: suso
+    locus: "whole volume; translator's preface first"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      The Life in English, public domain. A man's interior life that reaches us partly through Elsbeth
+      Stagel's hand, as the census says. Pairs with Bihlmeyer's German.

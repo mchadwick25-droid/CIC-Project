@@ -1,0 +1,13 @@
+source_file: julian-of-norwich_comfortable-words-for-christs-lovers_harford1911.txt
+assignments:
+- row_id: julian-of-norwich_comfortable-words-for-christs-lovers_harford1911--comfortable-words-for-christ-s-lovers-the-short-text-brit-mus-addit-37790-ed-dundas-harford
+  work: Comfortable Words for Christ's Lovers (the Short Text, Brit. Mus. Addit. 37790), ed. Dundas Harford
+  author: julian-of-norwich
+  locus: the contents table from file line 76; the text from line 485
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: The Short Text from British Museum Additional 37790, in the editor's modern spelling. Clean OCR;
+    a primary voice, ready to quote once verified against the scan. The only vendored witness to the Short
+    Text. The census names the Short Text (Amherst manuscript) beside the Long Text.

@@ -1,0 +1,51 @@
+source_file: carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt
+authors_ruled:
+  carlini:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file. The author is named on the title page printed in the file as Armando Carlini. A
+      mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912--carlini-fra-michelino-e-la-sua-eresia-1912-with-michael-of
+  work: >-
+    Carlini, Fra Michelino e la sua eresia (1912), with Michael of Cesena's protest of 1338 in the appendix
+  author: carlini
+  locus: >-
+    Appendix 'La protesta del 1338' from p. 287 (Latin); chapters I to XVIII before it, with chapter XIV 'I michelisti'
+  atlas_ids:
+  - franciscan-order-era-6
+  role: tradition
+  confidence: needs-ruling
+  note: >-
+    Michael of Cesena is a named voice of the Franciscan Order world, and the appendix prints his own protest of
+    23 August 1338 at Munich in Latin. The rest is Carlini's Italian monograph (secondary). The Michaelists were
+    also imperial polemicists, so the placement between this world and the papal-church world is for the project
+    lead. Readable OCR; the Latin protest is ready to quote once checked against the scan. No public-domain English
+    translation found.
+- row_id: >-
+    carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912--carlini-fra-michelino-e-la-sua-eresia-1912-chapter-xiv-i
+  work: >-
+    Carlini, Fra Michelino e la sua eresia (1912), chapter XIV 'I michelisti' and the chapters on Michael and Louis
+    of Bavaria
+  author: carlini
+  locus: Chapters VI to XIV
+  atlas_ids:
+  - fraticelli-spiritual-franciscan-rigorists
+  role: context
+  confidence: needs-ruling
+  note: >-
+    Whether Michael of Cesena's party belongs with the Fraticelli world or only with the Order world is for the
+    project lead. Secondary Italian prose.
+- row_id: >-
+    carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912--carlini-fra-michelino-e-la-sua-eresia-1912-michael-of
+  work: 'Carlini, Fra Michelino e la sua eresia (1912): Michael of Cesena and John XXII'
+  author: carlini
+  locus: Chapters VI to IX and the appendix
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: context
+  confidence: needs-ruling
+  note: >-
+    Placed on content: the Avignon-Bavarian conflict from the Michaelist side. Whether the papal-church world wants
+    it is for the project lead.

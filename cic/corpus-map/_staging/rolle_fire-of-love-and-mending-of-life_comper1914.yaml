@@ -1,0 +1,14 @@
+source_file: rolle_fire-of-love-and-mending-of-life_comper1914.txt
+assignments:
+- row_id: rolle_fire-of-love-and-mending-of-life_comper1914--the-fire-of-love-and-the-mending-of-life-modern-english-by-frances-m-m-comper-after-misyn-s-translation
+  work: The Fire of Love and The Mending of Life, modern English by Frances M. M. Comper (after Misyn's
+    translation)
+  author: rolle
+  locus: Book I from file line 2639; Book II from line 2908; the Mending of Life from line 10398
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: Rolle's Fire of Love and Mending of Life in modern English, done by Comper from Misyn's Middle
+    English. Clean running text; a primary voice, ready to quote once verified against the page. The wording
+    is Comper's, so a quote must say so.

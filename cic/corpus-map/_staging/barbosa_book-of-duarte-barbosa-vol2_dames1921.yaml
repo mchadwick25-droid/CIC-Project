@@ -1,0 +1,15 @@
+source_file: barbosa_book-of-duarte-barbosa-vol2_dames1921.txt
+assignments:
+- row_id: barbosa_book-of-duarte-barbosa-vol2_dames1921--the-book-of-duarte-barbosa-vol-ii-malabar-and-the-christians
+  work: The Book of Duarte Barbosa, vol. II (Malabar and the Christians of St Thomas, about 1518)
+  author: barbosa
+  locus: Cochin Fort and the Christians of St Thomas at the contents lines near 306-407; the Thomas legend
+    at about line 1262 and Cranganor at 6382-6404
+  atlas_ids:
+  - st-thomas-christians-1300-1517
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: provisional
+  note: Outsider Portuguese account of Malabar completed about 1518, English translation, clean OCR. Placed
+    on the contents entries for the Christians of St Thomas; not read through. Inside the last year of
+    the window.

@@ -1,0 +1,26 @@
+source_file: mechthild_fliessende-licht-der-gottheit-gmh_morel1869.txt
+
+assignments:
+  - row_id: mechthild_fliessende-licht-der-gottheit-gmh_morel1869--mechthild-von-magdeburg-the-flowing-light-of-the-godhead
+    work: "Mechthild von Magdeburg, The Flowing Light of the Godhead (Morel's edition, Middle High German)"
+    author: mechthild
+    locus: "whole volume; Morel's preface first"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: antecedent
+    confidence: provisional
+    note: >
+      Thirteenth-century women's mysticism that the Rhineland preachers inherit. Placed on window and
+      region; a build should confirm how this world treats antecedents. No public-domain English (Menzies
+      1953 is closed).
+  - row_id: mechthild_fliessende-licht-der-gottheit-gmh_morel1869--mechthild-von-magdeburg-the-flowing-light-of-the-godhead-2
+    work: "Mechthild von Magdeburg, The Flowing Light of the Godhead (Morel's edition, Middle High German)"
+    author: mechthild
+    locus: "whole volume; Morel's preface first"
+    atlas_ids:
+      - the-beguines
+    role: tradition
+    confidence: provisional
+    note: >
+      Mechthild lived as a Beguine. Placed on the author's status and the Beguines window (c. 1190 to
+      1310); the file was not read for this placement.
