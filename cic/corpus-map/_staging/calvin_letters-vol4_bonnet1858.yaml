@@ -57,3 +57,19 @@ assignments:
       letters and Bonnet''s notes); CORPUS-USE tier: same time, different region.
 
       '
+
+  - row_id: calvin_letters-vol4_bonnet1858--servetus-blandrata-gribaldi
+    work: 'Letters of John Calvin (Bonnet), vol. 4: references to Servetus, Blandrata and Gribaldi'
+    author: calvin
+    locus: contents at file line 803 and body at 18638 to 19766 (letter to Viret mentioning Servetus); the
+      editor's note on Lutheran charges that the Swiss reformers were 'disciples of Servetus' at 6989; index
+      entries for Blandrata at 20517 and Gribaldi at 21963 and 23991
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: 'Passing mentions of Servetus''s name in later years, and the index entries for Blandrata (the
+      physician who carried the movement to Transylvania) and Gribaldi; placed on the names found, not on
+      a read of the letters.
+
+      '

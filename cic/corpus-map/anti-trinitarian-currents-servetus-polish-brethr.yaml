@@ -3,6 +3,17 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: anti-trinitarian-currents-servetus-polish-brethr
 works:
+- row_id: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883--servet-passages
+  work: 'Histoire ecclesiastique des eglises reformees, tome 1: the passages naming Servet'
+  author: beza
+  locus: file lines 1836 and 1861 to 1863 (the editors' note on Servet at Paris, citing Calvin's
+    Opera vol. VIII) and 10895 (Servet's Christology)
+  role: context
+  confidence: provisional
+  note: 'Beza''s history names Servetus twice. Read at the loci given; slight.
+
+    '
+  source_file: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt
 - row_id: calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870--defensio-orthodoxae-fidei-and-the-geneva-trial
   work: Defensio orthodoxae fidei de sacra Trinitate contra prodigiosos errores Michaelis
     Serveti (1554) and the Geneva trial documents of 1553
@@ -21,6 +32,89 @@ works:
 
     '
   source_file: calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt
+- row_id: calvin_institutes-christian-religion-vol1_beveridge1845--institutes-book-i-against-servetus
+  work: 'Institutes of the Christian Religion, Book I: the passages against Servetus on the
+    Trinity and on images'
+  author: calvin
+  locus: chapter summaries at file line 10944 (Impiety of Servetus refuted) and 11002 (the
+    more modern Antitrinitarians, Servetus especially refuted); body at 11563, 12252, 12293
+    (M. Serveti), 12309 and 12316
+  role: context
+  confidence: assigned
+  note: 'Calvin''s own argument against Servetus''s doctrine of the Trinity, in the Institutes,
+    English (Beveridge). Same time (1559 text), Geneva, the persecutor''s pen. A hostile outside
+    witness. Read at the loci given.
+
+    '
+  source_file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
+- row_id: calvin_institutes-christian-religion-vol2_beveridge1845--institutes-book-ii-against-servetus
+  work: 'Institutes of the Christian Religion, Book II: the passages against Servetus on the
+    person of Christ'
+  author: calvin
+  locus: chapter summaries at file lines 1332 to 1365 (refutation of the heresies of Servetus);
+    body at 1625, 1657, 1680 and 1788
+  role: context
+  confidence: assigned
+  note: 'Calvin on Servetus''s Christology (the union of the natures), English. Hostile outside
+    witness, read at the loci given.
+
+    '
+  source_file: calvin_institutes-christian-religion-vol2_beveridge1845.txt
+- row_id: calvin_institutes-christian-religion-vol3_beveridge1845--institutes-book-iv-against-servetus-on-baptism
+  work: 'Institutes of the Christian Religion, Book IV: the passages against Servetus on infant
+    baptism and the Supper'
+  author: calvin
+  locus: chapter summary at file line 15671 (Servetus refuted) and 15772; body at 17023, 17087,
+    17123 to 17152 and 17228
+  role: context
+  confidence: provisional
+  note: 'Calvin answers Servetus''s arguments against infant baptism, English. Placed after
+    reading the loci given, not the whole chapter.
+
+    '
+  source_file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
+- row_id: calvin_letters-vol2_bonnet1858--letters-on-servetus-and-lelio-socin
+  work: 'Letters of John Calvin (Bonnet), vol. 2: the letters on Servetus (1553) and the letter
+    to Lelio Socin'
+  author: calvin
+  locus: contents at file lines 843 to 896 (CCCXXII Arrest of Servetus, CCCXXVII to Sulzer
+    on the errors of Servetus, CCCXXXI Deliverance by the Swiss churches); body at 19370,
+    19904 and 19915 to 19971; letter CCLXXXIX to Lelio Socin at 15432
+  role: context
+  confidence: assigned
+  note: 'Calvin''s own letters on the arrest, the consultation of the Swiss churches and the
+    sentence of Servetus, and the letter to Lelio Socin refusing to answer his questions (an
+    early step toward the Polish Socinians). Hostile outside witness, read at the loci given.
+
+    '
+  source_file: calvin_letters-vol2_bonnet1858.txt
+- row_id: calvin_letters-vol4_bonnet1858--servetus-blandrata-gribaldi
+  work: 'Letters of John Calvin (Bonnet), vol. 4: references to Servetus, Blandrata and Gribaldi'
+  author: calvin
+  locus: contents at file line 803 and body at 18638 to 19766 (letter to Viret mentioning
+    Servetus); the editor's note on Lutheran charges that the Swiss reformers were 'disciples
+    of Servetus' at 6989; index entries for Blandrata at 20517 and Gribaldi at 21963 and 23991
+  role: context
+  confidence: provisional
+  note: 'Passing mentions of Servetus''s name in later years, and the index entries for Blandrata
+    (the physician who carried the movement to Transylvania) and Gribaldi; placed on the names
+    found, not on a read of the letters.
+
+    '
+  source_file: calvin_letters-vol4_bonnet1858.txt
+- row_id: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--servetists-and-blandrata
+  work: 'Histoire des martyrs (Crespin), tome 3: passage on the Servetists and Blandrata'
+  author: crespin
+  locus: running head 'afflicted by the Servetists' at file line 61682; Blandrata and his
+    editor's note at 61750 to 61816; index entries at 141433 (Blandrata) and 148959 (Servet)
+  role: context
+  confidence: provisional
+  note: 'The Reformed martyr book''s account of the troubles caused by the Servetists and
+    Blandrata, with the editor''s note on Blandrata. A hostile Reformed witness; placed after
+    reading a few lines at the loci given, not the whole passage.
+
+    '
+  source_file: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt
 - row_id: lubieniecki_historia-reformationis-polonicae-lat_1685--historia-reformationis-polonicae
   work: Historia Reformationis Polonicae (1685)
   author: lubieniecki
@@ -52,6 +146,17 @@ works:
 
     '
   source_file: przypkowski_life-of-faustus-socinus_bidle1653.txt
+- row_id: quick_synodicon-in-gallia-reformata_1692--french-synods-and-the-socinians
+  work: 'Synodicon in Gallia Reformata: the French synods'' dealings with the Socinians'
+  author: quick
+  locus: file lines 17403 (a chapter heading naming Socinians), 62655 and 84313
+  role: context
+  confidence: provisional
+  note: 'The Huguenot synods name the Socinians in a few places; three hits only, placed on
+    the lines named and not read beyond them.
+
+    '
+  source_file: quick_synodicon-in-gallia-reformata_1692.txt
 - row_id: racovian-catechism_catechesis-ecclesiarum-lat_moskorzewski1609--catechesis-ecclesiarum-racow-1609
   work: Catechesis Ecclesiarum quae in Regno Poloniae ... affirmant (the Racovian Catechism,
     first Latin edition, Racow 1609)
@@ -105,6 +210,17 @@ works:
 
     '
   source_file: rilliet_calvin-and-servetus_tweedie1846.txt
+- row_id: sarpi_history-of-the-council-of-trent_brent1676--servetus-mentions
+  work: 'The History of the Council of Trent (Sarpi): two mentions of Servetus'
+  author: sarpi
+  locus: file lines 37982 and 84285
+  role: context
+  confidence: provisional
+  note: 'Two passing mentions of Michael Servetus; not read beyond the lines named. Offered
+    only as a record of what the file contains.
+
+    '
+  source_file: sarpi_history-of-the-council-of-trent_brent1676.txt
 - row_id: servetus_christianismi-restitutio-lat_murr1790--christianismi-restitutio
   work: Christianismi restitutio (1553), in the 1790 Murr reprint
   author: servetus
@@ -200,3 +316,17 @@ works:
 
     '
   source_file: socinus_opera-omnia-polemica-lat_1656.txt
+- row_id: voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891--voetius-against-socinus
+  work: 'Voetius'' Catechisatie over den Heidelbergschen Catechismus, v1: the answers against
+    Socinus and the Socinians'
+  author: voetius
+  locus: file lines 1788 to 1797 (Socinus on natural theology), 1888, 1980 and 2101 (Socinus
+    and the Remonstrants); 38 hits for Socin in the volume
+  role: context
+  confidence: provisional
+  note: 'A Dutch Reformed professor''s lessons that name Socinus and the Socinians as the
+    opponent on natural theology and the Trinity; a hostile outside witness, mid-seventeenth
+    century, Utrecht. Placed on the hits found at the lines named; not read beyond them. Dutch.
+
+    '
+  source_file: voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt

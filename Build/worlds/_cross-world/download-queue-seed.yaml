@@ -8094,3 +8094,355 @@ queue:
     rights_basis: 'pd-us-by-date; host: Library of Congress is unaware of any copyright restrictions'
     verified_by: 'library/source-research thread, 2026-10-16: metadata read only; text not opened. Not vendored.'
     status: not-yet-downloaded
+
+  - title: The Racovian Catechism, with Notes and Illustrations, translated from the Latin
+    author: Racovian Catechism
+    translator: Thomas Rees
+    year: 1818
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: The movement's own confession, named by the census; Rees's English of the 1680 Latin recension.
+    url: https://archive.org/details/racoviancatechis00reesuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent for VI.14, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-16; title page read in the OCR; host rights statement: host NOT_IN_COPYRIGHT'
+    status: downloaded
+    vendored_as: racovian-catechism_racovian-catechism_rees1818.txt
+  - title: Catechesis Ecclesiarum quae in Regno Poloniae ... (Racovian Catechism, Latin, Racow 1609)
+    author: Racovian Catechism
+    translator: Hieronim Moskorzewski (Latin version)
+    year: 1609
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: The first Latin edition, the earlier recension that Rees does not translate; Latin beside the English.
+    url: https://archive.org/details/jbc.bj.uj.edu.pl.NDIGSTDR003939
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent for VI.14, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-16; host rights statement: host rights field ''Domena publiczna (public domain)'''
+    status: downloaded
+    vendored_as: racovian-catechism_catechesis-ecclesiarum-lat_moskorzewski1609.txt
+  - title: De Trinitatis erroribus libri septem
+    author: Michael Servetus
+    translator: none
+    year: 1531
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: 'The first voice the census names, in the original Latin. Second witness: the scan is garbled.'
+    url: https://archive.org/details/McGillLibrary-rbsc_004132305-18081
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent for VI.14, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-16 (OCR garbled at two of five points); host rights statement: host carries no
+      rights field'
+    status: downloaded
+    vendored_as: servetus_de-trinitatis-erroribus-lat_1531.txt
+  - title: Christianismi restitutio (1790 Murr reprint of the 1553 edition)
+    author: Michael Servetus
+    translator: none (Christoph Gottlieb von Murr, reprint)
+    year: 1790
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: The book for which Servetus was burned; Latin.
+    url: https://archive.org/details/b28039427
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent for VI.14, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-16; host rights statement: host Public Domain Mark 1.0'
+    status: downloaded
+    vendored_as: servetus_christianismi-restitutio-lat_murr1790.txt
+  - title: Ioannis Calvini opera quae supersunt omnia, vol. VIII (Corpus Reformatorum 36)
+    author: John Calvin
+    translator: G. Baum, E. Cunitz, E. Reuss (eds.)
+    year: 1870
+    world: anti-trinitarian-currents-servetus-polish-brethr (also the-reformed-cities-zurich-and-geneva)
+    why: 'Holds Calvin''s Defensio orthodoxae fidei (1554), Servetus''s thirty letters to Calvin and the
+      Geneva and Vienne trial documents: the hostile institutional record the census names.'
+    url: https://archive.org/details/ioanniscalvinio02reusgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent for VI.14, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-16; title page read in the OCR (1870); host rights statement: host NOT_IN_COPYRIGHT'
+    status: downloaded
+    vendored_as: calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt
+  - title: 'Fausti Socini Senensis Opera omnia (Bibliotheca Fratrum Polonorum, 1656): exegetical and didactic
+      volume'
+    author: Faustus Socinus
+    translator: none
+    year: 1656
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: The movement's chief theologian in his own Latin.
+    url: https://archive.org/details/bub_gb_cou_73bsJ1MC
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent for VI.14, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-16; host rights statement: host Public Domain Mark 1.0'
+    status: downloaded
+    vendored_as: socinus_opera-omnia-exegetica-lat_1656.txt
+  - title: 'Fausti Socini Senensis Opera omnia (Bibliotheca Fratrum Polonorum, 1656): polemical volume'
+    author: Faustus Socinus
+    translator: none
+    year: 1656
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: Socinus's controversial writings, including the Responsio pro Racoviensibus.
+    url: https://archive.org/details/bub_gb_aCspnKMPuU0C
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent for VI.14, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-16; host rights statement: host Public Domain Mark 1.0'
+    status: downloaded
+    vendored_as: socinus_opera-omnia-polemica-lat_1656.txt
+  - title: An Argument for the Authority of Holy Scripture, from the Latin of Socinus
+    author: Faustus Socinus
+    translator: not named on the title page
+    year: 1731
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: The only English text of a Socinus treatise in the corpus; sits beside the Latin De Auctoritate.
+    url: https://archive.org/details/bim_eighteenth-century_an-argument-for-the-auth_socinus-faustus_1731
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent for VI.14, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-16; host rights statement: host record has no rights field'
+    status: downloaded
+    vendored_as: socinus_argument-authority-holy-scripture_1731.txt
+  - title: The Life of that Incomparable Man Faustus Socinus Senensis, by a Polonian Knight
+    author: A Polonian Knight (Samuel Przypkowski per the 1636 Latin host record)
+    translator: John Bidle
+    year: 1653
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: English of the Vita Authoris printed in Latin in the Bibliotheca; the movement's own biography
+      of Socinus.
+    url: https://archive.org/details/jbc.bj.uj.edu.pl.NDIGSTDR006711
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent for VI.14, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-16; host rights statement: host rights field ''Domena publiczna (public domain)'''
+    status: downloaded
+    vendored_as: przypkowski_life-of-faustus-socinus_bidle1653.txt
+  - title: Historia Reformationis Polonicae
+    author: Stanislaw Lubieniecki
+    translator: none
+    year: 1685
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: The Polish Brethren's own history of the Polish Reformation.
+    url: https://archive.org/details/jbc.bj.uj.edu.pl.DIGSTDR000348
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent for VI.14, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-16 (readable but noisy OCR); host rights statement: host rights field ''Domena
+      publiczna (public domain)'''
+    status: downloaded
+    vendored_as: lubieniecki_historia-reformationis-polonicae-lat_1685.txt
+  - title: 'Calvin and Servetus: the Reformer''s Share in the Trial of Michael Servetus historically ascertained'
+    author: Albert Rilliet
+    translator: W. K. Tweedie
+    year: 1846
+    world: anti-trinitarian-currents-servetus-polish-brethr (also the-reformed-cities-zurich-and-geneva)
+    why: The nearest public-domain English to the French and Latin trial papers; scholarship with translated
+      register extracts.
+    url: https://archive.org/details/calvinservetusre00rill
+    rights_basis: pd-us-by-date
+    verified_by: 'one-world agent for VI.14, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-16; title page read in the OCR; host rights statement: host NOT_IN_COPYRIGHT'
+    status: downloaded
+    vendored_as: rilliet_calvin-and-servetus_tweedie1846.txt
+  - title: Catechesis Racoviensis, seu Liber Socinianorum primarius, ad fidem editionis anno 1609 recensuit
+      (with refutation)
+    author: Georg Ludwig Oeder (editor)
+    translator: none
+    year: 1739
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: A Frankfurt edition of the 1609 text with the editor's hostile notes.
+    url: https://archive.org/details/catechesisracov00oedegoog
+    rights_basis: pd-us-by-date
+    verified_by: 'metadata and five-point OCR sample (word-like share 0.75, noisy), 2026-10-16; host rights
+      statement: host NOT_IN_COPYRIGHT'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: the 1609 Latin is already in the corpus (Jagiellonian scan); this edition
+      adds a polemical refutation and noisy OCR.'
+  - title: Historia Michaelis Serveti
+    author: Heinrich von Allwoerden
+    translator: none
+    year: 1728
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: A Latin history of Servetus that prints the trial papers (Latin, French and Dutch) in an appendix;
+      the OCR also shows the 1553 process documents.
+    url: https://archive.org/details/bub_gb_Pz-lZTIvbEQC
+    rights_basis: pd-us-by-date
+    verified_by: 'metadata and five-point OCR sample (word-like share 0.89), 2026-10-16; host rights statement:
+      host Public Domain Mark 1.0'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: eighteenth-century scholarship; the trial papers are in the Corpus Reformatorum
+      volume now vendored.'
+  - title: An Impartial History of Michael Servetus, burnt alive at Geneva for Heresie
+    author: anonymous (London, Aaron Ward)
+    translator: none
+    year: 1724
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: The first English book to print parts of Servetus's trial and letters; its own English renderings
+      may be the only older English of the trial.
+    url: https://archive.org/details/b30516122
+    rights_basis: pd-us-by-date
+    verified_by: 'metadata and five-point OCR sample (word-like share 0.92; much Latin and French quoted),
+      2026-10-16; host rights statement: host Creative Commons Public Domain Mark 1.0'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: eighteenth-century polemic and compilation, not the trial record; Rilliet
+      1846 is vendored as the English route.'
+  - title: 'Servetus and Calvin: a study of an important epoch in the early history of the Reformation'
+    author: Robert Willis
+    translator: none
+    year: 1877
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: Long English study that prints and renders documents of the trial.
+    url: https://archive.org/details/servetusandcalv01willgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'metadata and five-point OCR sample (clean), 2026-10-16; host rights statement: host NOT_IN_COPYRIGHT'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: nineteenth-century scholarship; Rilliet 1846 already supplies the English
+      route to the trial.'
+  - title: Erdélyi országgyűlési emlékek (Monumenta Hungariae historica III), volume with the Torda diets
+      of the later 1570s and 1580s
+    author: Hungarian Academy of Sciences (Szilágyi, ed.)
+    translator: none
+    year: 1877
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: Transylvanian diet decrees in Latin and Hungarian that bear on the 1568 Torda edict's afterlife;
+      the 1568 edict itself was not located in this volume.
+    url: https://archive.org/details/monumentahungar27bizogoog
+    rights_basis: pd-us-by-date
+    verified_by: 'metadata and OCR read (Hungarian and Latin, clean), ''tordai országgyűlés határozatai''
+      headings found at several points, 2026-10-16; host rights statement: host NOT_IN_COPYRIGHT'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: Hungarian-language edition volume that does not contain the 1568 edict text;
+      the volume that does has not been identified (see the dossier).'
+
+  - title: Vetera monumenta Poloniae et Lithuaniae, tomus III (1585-1696)
+    author: Augustin Theiner (ed.)
+    translator: none
+    year: 1863
+    world: the-union-of-brest-and-ruthenian-greek-catholic-
+    why: Latin versions of the Brest articles, the bull Magnus Dominus et laudabilis, the professions of
+      faith and the Synod of Brest acts.
+    url: https://archive.org/details/veteramonumentap03thei
+    rights_basis: pd-us-by-date (1863 imprint read in the OCR; no host rights field)
+    verified_by: 'library/source-research thread, one-world agent for VI.20, 2026-10-16 (re-checked 2026-10-23):
+      metadata read; title page and five-point OCR sample read; Brest documents located by line.'
+    status: downloaded
+    vendored_as: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863.txt
+  - title: Annales Ecclesiae Ruthenae
+    author: Michael Harasiewicz
+    translator: none
+    year: 1862 (preface date)
+    world: the-union-of-brest-and-ruthenian-greek-catholic-
+    why: Latin history with documents of the Ruthenian Greek Catholic church from inside, with the Brest
+      synod letters.
+    url: https://archive.org/details/annales-ecclesiae-ruthenae-gratiam-et-co-1
+    rights_basis: pd-us-by-date; host Public Domain Mark 1.0
+    verified_by: 'library/source-research thread, one-world agent for VI.20, 2026-10-16 (re-checked 2026-10-23):
+      metadata read; title page, preface date and five-point OCR sample read.'
+    status: downloaded
+    vendored_as: harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt
+  - title: Saulus et Paulus Ruthenae unionis sanguine B. Josaphat transformatus, sive Meletius Smotriscius
+    author: Jacob Susza (ed. Joannes Martinov)
+    translator: none
+    year: 1864
+    world: the-union-of-brest-and-ruthenian-greek-catholic-
+    why: Union-side life of Meletij Smotryc'kyj, the Orthodox author of the Threnos who joined the union.
+    url: https://archive.org/details/saulusetpaulusr00martgoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, one-world agent for VI.20, 2026-10-16 (re-checked 2026-10-23):
+      metadata read; title page and five-point OCR sample read.'
+    status: downloaded
+    vendored_as: susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt
+  - title: Cursus vitae et certamen martyrii B. Josaphat Kuncevicii
+    author: Jacob Susza (ed. Joannes Martinov)
+    translator: none
+    year: 1865
+    world: the-union-of-brest-and-ruthenian-greek-catholic-
+    why: The standard Latin life of Josaphat Kuntsevych, citing the Polotsk process.
+    url: https://archive.org/details/cursusvitetcert00martgoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, one-world agent for VI.20, 2026-10-16 (re-checked 2026-10-23):
+      metadata read; title page and five-point OCR sample read.'
+    status: downloaded
+    vendored_as: susza_cursus-vitae-josaphat-kuncevicii-lat_martynov1865.txt
+  - title: Un apotre de l'union des Eglises au XVIIe siecle, 2nd edition (2 vols)
+    author: Alphonse Guepin
+    translator: none
+    year: 1897
+    world: the-union-of-brest-and-ruthenian-greek-catholic-
+    why: French scholarly life of Josaphat Kuntsevych set in the Ruthenian church question.
+    url: https://archive.org/details/unapotredelunion01guuoft
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, one-world agent for VI.20, 2026-10-16 (re-checked 2026-10-23):
+      metadata read; title page and five-point OCR sample read. A second scan, unapotredelunio00guepgoog
+      (Harvard, 1897), is also NOT_IN_COPYRIGHT.'
+    status: downloaded
+    vendored_as: guepin_apotre-de-l-union-des-eglises-fra_1897.txt
+  - title: Geschichte der Union der ruthenischen Kirche mit Rom, vol. 2 (1596-1879)
+    author: Julian Pelesz
+    translator: none
+    year: 1880
+    world: the-union-of-brest-and-ruthenian-greek-catholic-
+    why: German history of the union by a Greek Catholic priest-scholar.
+    url: https://archive.org/details/geschichtederuni0002pele
+    rights_basis: pd-us-by-date (1880 imprint read in the OCR; no host rights field)
+    verified_by: 'library/source-research thread, one-world agent for VI.20, 2026-10-16 (re-checked 2026-10-23):
+      metadata read; title page and five-point OCR sample read. Volume 1 (to 1595) is geschichtederuni0001pele,
+      not vendored.'
+    status: downloaded
+    vendored_as: pelesz_geschichte-der-union-bd2-deu_1880.txt
+  - title: 'Russkaia istoricheskaia biblioteka, vol. 7: Monuments of polemical literature in Western Rus'',
+      book 2'
+    author: P. A. Giltebrandt (ed.)
+    translator: none
+    year: 1882
+    world: the-union-of-brest-and-ruthenian-greek-catholic-
+    why: Skarga's 1577 treatise and 1596 Brest defence, the Uniate pamphlets of 1595 and 1608, the Apokrisis
+      and the Orthodox replies; the polemic as native genre.
+    url: https://archive.org/details/russkajaistoricheskajabibliotekaizdavae14
+    rights_basis: pd-us-by-date (1882 imprint read in the OCR; no host rights field)
+    verified_by: 'library/source-research thread, one-world agent for VI.20, 2026-10-16 (re-checked 2026-10-23):
+      metadata read; title page, contents and five-point OCR sample read (Cyrillic partly garbled, Polish
+      badly).'
+    status: downloaded
+    vendored_as: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  - title: Unia brzeska (r. 1596)
+    author: Edward Likowski
+    translator: none
+    year: 1907
+    world: the-union-of-brest-and-ruthenian-greek-catholic-
+    why: Polish scholarly history of the Brest union by a Catholic archbishop; also Union de l'Eglise grecque-ruthene
+      (French, 1903, likowski-union-de-l-eglise-1903) and Unia Brzeska r. 1596 (1896, uniabrzeskar159600liko).
+    url: https://archive.org/details/uniabrzeskar00likogoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT (Michigan copy)
+    verified_by: 'library/source-research thread, one-world agent for VI.20, 2026-10-16 (re-checked 2026-10-23):
+      metadata read only; text not opened. Not vendored: scholarship, and Polish.'
+    status: not-yet-downloaded
+  - title: Vetera monumenta Poloniae et Lithuaniae, tomus II (1410-1572) and tomus IV (1697-1775)
+    author: Augustin Theiner (ed.)
+    translator: none
+    year: 1861 and 1864
+    world: the-union-of-brest-and-ruthenian-greek-catholic-
+    why: Papal documents on the Ruthenian church before 1595 (tomus II) and in the eighteenth century (tomus
+      IV).
+    url: https://archive.org/details/veteramonumentap02thei and https://archive.org/details/veteramonumentap04thei
+    rights_basis: pd-us-by-date; hosts show Princeton copies
+    verified_by: 'library/source-research thread, one-world agent for VI.20, 2026-10-16 (re-checked 2026-10-23):
+      metadata of tomus III read; tomus II and IV identifiers seen in the search listing only, not opened.
+      Outside the 1596-c. 1700 window; left for the 18th-century Uniate entry.'
+    status: not-yet-downloaded
+  - title: Meletij Smotryc'kyj, Threnos, that is the Lament of the one holy universal apostolic Eastern
+      Church (Polish text, 1610)
+    author: Meletij Smotryc'kyj
+    translator: none
+    year: 1610
+    world: the-union-of-brest-and-ruthenian-greek-catholic-
+    why: 'Smotryc''kyj''s own voice on either side of the union: the Orthodox Threnos of 1610 and the Apologia
+      of 1628 written after his turn.'
+    url: https://archive.org/details/jbc.bj.uj.edu.pl.NDIGSTDR013226
+    rights_basis: pd-us-by-date (17th-century print); host record states public domain
+    verified_by: 'library/source-research thread, one-world agent for VI.20, 2026-10-23: metadata read,
+      title page and five-point OCR sample read (black-letter OCR badly garbled).'
+    status: downloaded
+    vendored_as: smotrycki_threnos-pol_1610.txt
+  - title: Meletij Smotryc'kyj, Apologia of my journey to the Eastern lands (Polish, 1628)
+    author: Meletij Smotryc'kyj
+    translator: none
+    year: 1628
+    world: the-union-of-brest-and-ruthenian-greek-catholic-
+    why: 'Smotryc''kyj''s own voice on either side of the union: the Orthodox Threnos of 1610 and the Apologia
+      of 1628 written after his turn.'
+    url: https://archive.org/details/jbc.bj.uj.edu.pl.NDIGSTDR013215
+    rights_basis: pd-us-by-date (17th-century print); host record states public domain
+    verified_by: 'library/source-research thread, one-world agent for VI.20, 2026-10-23: metadata read,
+      title page and five-point OCR sample read (black-letter OCR badly garbled).'
+    status: downloaded
+    vendored_as: smotrycki_apologia-peregrinatiey-pol_1628.txt

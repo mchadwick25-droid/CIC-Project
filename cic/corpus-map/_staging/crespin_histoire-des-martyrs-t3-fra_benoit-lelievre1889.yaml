@@ -49,3 +49,18 @@ assignments:
     note: >
       Compiled and printed in Geneva by a Genevan printer; the book the
       Reformed cities sent back into France. Placed on that relation only.
+
+  - row_id: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--servetists-and-blandrata
+    work: 'Histoire des martyrs (Crespin), tome 3: passage on the Servetists and Blandrata'
+    author: crespin
+    locus: running head 'afflicted by the Servetists' at file line 61682; Blandrata and his editor's note
+      at 61750 to 61816; index entries at 141433 (Blandrata) and 148959 (Servet)
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: 'The Reformed martyr book''s account of the troubles caused by the Servetists and Blandrata, with
+      the editor''s note on Blandrata. A hostile Reformed witness; placed after reading a few lines at the
+      loci given, not the whole passage.
+
+      '

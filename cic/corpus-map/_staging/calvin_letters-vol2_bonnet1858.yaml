@@ -48,3 +48,20 @@ assignments:
       English church listened to and did not simply follow. Context; same time, different region.
 
       '
+
+  - row_id: calvin_letters-vol2_bonnet1858--letters-on-servetus-and-lelio-socin
+    work: 'Letters of John Calvin (Bonnet), vol. 2: the letters on Servetus (1553) and the letter to Lelio
+      Socin'
+    author: calvin
+    locus: contents at file lines 843 to 896 (CCCXXII Arrest of Servetus, CCCXXVII to Sulzer on the errors
+      of Servetus, CCCXXXI Deliverance by the Swiss churches); body at 19370, 19904 and 19915 to 19971;
+      letter CCLXXXIX to Lelio Socin at 15432
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: assigned
+    note: 'Calvin''s own letters on the arrest, the consultation of the Swiss churches and the sentence
+      of Servetus, and the letter to Lelio Socin refusing to answer his questions (an early step toward
+      the Polish Socinians). Hostile outside witness, read at the loci given.
+
+      '

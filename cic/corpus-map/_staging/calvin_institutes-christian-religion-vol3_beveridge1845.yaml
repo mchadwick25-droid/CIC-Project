@@ -31,3 +31,18 @@ assignments:
       (1559 text, Beveridge''s English). Same time, different region (Geneva). Read at the loci given, 2026-10-16.
 
       '
+
+  - row_id: calvin_institutes-christian-religion-vol3_beveridge1845--institutes-book-iv-against-servetus-on-baptism
+    work: 'Institutes of the Christian Religion, Book IV: the passages against Servetus on infant baptism
+      and the Supper'
+    author: calvin
+    locus: chapter summary at file line 15671 (Servetus refuted) and 15772; body at 17023, 17087, 17123
+      to 17152 and 17228
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: 'Calvin answers Servetus''s arguments against infant baptism, English. Placed after reading the
+      loci given, not the whole chapter.
+
+      '

@@ -39,3 +39,16 @@ assignments:
       the French churches; Geneva's own record of its mission field.
       Placed on authorship and place; not read against the Reformed
       Cities' own Doc_02.
+
+  - row_id: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883--servet-passages
+    work: 'Histoire ecclesiastique des eglises reformees, tome 1: the passages naming Servet'
+    author: beza
+    locus: file lines 1836 and 1861 to 1863 (the editors' note on Servet at Paris, citing Calvin's Opera
+      vol. VIII) and 10895 (Servet's Christology)
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: 'Beza''s history names Servetus twice. Read at the loci given; slight.
+
+      '

@@ -117,3 +117,16 @@ assignments:
       Quick's 1692 account of the Revocation and its aftermath is a
       contemporary outside witness to that world's opening years. Placed
       on window; not read against that world's own sources.
+
+  - row_id: quick_synodicon-in-gallia-reformata_1692--french-synods-and-the-socinians
+    work: 'Synodicon in Gallia Reformata: the French synods'' dealings with the Socinians'
+    author: quick
+    locus: file lines 17403 (a chapter heading naming Socinians), 62655 and 84313
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: 'The Huguenot synods name the Socinians in a few places; three hits only, placed on the lines
+      named and not read beyond them.
+
+      '

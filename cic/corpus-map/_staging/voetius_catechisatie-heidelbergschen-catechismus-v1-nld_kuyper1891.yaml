@@ -42,3 +42,19 @@ assignments:
       Abraham Kuyper reissued Voetius in 1891 with his own introduction, claiming him as the
       authority the Neo-Calvinist churches argued from. Placed on that editorial fact;
       Kuyper's introduction was not read in full.
+
+  - row_id: voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891--voetius-against-socinus
+    work: 'Voetius'' Catechisatie over den Heidelbergschen Catechismus, v1: the answers against Socinus
+      and the Socinians'
+    author: voetius
+    locus: file lines 1788 to 1797 (Socinus on natural theology), 1888, 1980 and 2101 (Socinus and the Remonstrants);
+      38 hits for Socin in the volume
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: 'A Dutch Reformed professor''s lessons that name Socinus and the Socinians as the opponent on
+      natural theology and the Trinity; a hostile outside witness, mid-seventeenth century, Utrecht. Placed
+      on the hits found at the lines named; not read beyond them. Dutch.
+
+      '

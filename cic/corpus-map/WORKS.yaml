@@ -605,3 +605,88 @@ works:
       the readable witness. The date of composition is Lutzow''s, not independently checked.
 
       '
+
+  - work_id: racovian-catechism
+    title: The Racovian Catechism (Catechesis Ecclesiarum quae in Regno Poloniae ...)
+    author: racovian-catechism
+    original_language: Polish (first published 1605), Latin (1609 and later recensions)
+    composed: 1605 Polish; Latin version 1609, Racow; revised recension 1680 (Rees's source)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Hieronim Moskorzewski (Latin version of the Polish)
+      year: 1609
+      language: Latin
+      recension: first Latin edition, Racow 1609
+      items:
+      - cic:racovian-catechism_catechesis-ecclesiarum-lat_moskorzewski1609.txt:whole-file
+    - translator: Thomas Rees
+      year: 1818
+      language: English
+      recension: quarto Latin of 1680, Schlichting's revision, per Rees's own footnote to his Preface
+      items:
+      - cic:racovian-catechism_racovian-catechism_rees1818.txt:the-catechism-sections-i-viii
+    notes: 'Two Expressions of one Work, but of different recensions: the 1609 Latin is the earlier text,
+      and Rees''s English translates the 1680 revision (his own statement), so a quote from one cannot be
+      checked against the other without comparing the passage. The Polish 1605 original is not in the corpus.
+      The census note says Rees translates the 1680 recension, and Rees''s footnote confirms it.
+
+      '
+  - work_id: socinus-de-auctoritate-sacrae-scripturae
+    title: De Auctoritate Sacrae Scripturae (An Argument for the Authority of Holy Scripture)
+    author: socinus
+    original_language: Latin
+    composed: Steinfurt printing 1611
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Latin original)
+      year: 1656
+      language: Latin
+      recension: Opera omnia, Bibliotheca Fratrum Polonorum, 1656
+      items:
+      - cic:socinus_opera-omnia-exegetica-lat_1656.txt:de-auctoritate
+    - translator: not named on the title page (dedication signed Edward Combe)
+      year: 1731
+      language: English
+      recension: after the Steinfurt copy (1611), per the title page
+      items:
+      - cic:socinus_argument-authority-holy-scripture_1731.txt:the-argument
+    notes: 'The Latin is the 1656 text; the 1731 English is made from the 1611 Steinfurt copy, so the two
+      may differ in wording.
+
+      '
+  - work_id: socinus-vita-authoris
+    title: The Life of Faustus Socinus by a Polonian Knight (Vita Authoris)
+    author: przypkowski
+    original_language: Latin
+    composed: printed 1636 (separate printing); reprinted in the 1656 Bibliotheca
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Latin original)
+      year: 1656
+      language: Latin
+      recension: Vita Authoris in the Bibliotheca Fratrum Polonorum
+      items:
+      - cic:socinus_opera-omnia-exegetica-lat_1656.txt:vita-authoris
+    - translator: John Bidle
+      year: 1653
+      language: English
+      recension: English of the Vita, with a Discourse and Catalogue
+      items:
+      - cic:przypkowski_life-of-faustus-socinus_bidle1653.txt:whole-file
+    notes: 'The English of 1653 is older than the 1656 Bibliotheca, so it was made from the 1636 Latin printing
+      (or a manuscript), not from the 1656 text; wording may differ. The author is "a Polish knight"; the
+      host record of the 1636 printing names Samuel Przypkowski.
+
+      '

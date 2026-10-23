@@ -17,3 +17,18 @@ assignments:
       Book II: Christ the Redeemer, law and gospel. Book III: faith,
       justification, predestination - the load-bearing doctrinal core
       for this world's own audience pull (§3 B4 of the Step 0 draft).
+
+  - row_id: calvin_institutes-christian-religion-vol2_beveridge1845--institutes-book-ii-against-servetus
+    work: 'Institutes of the Christian Religion, Book II: the passages against Servetus on the person of
+      Christ'
+    author: calvin
+    locus: chapter summaries at file lines 1332 to 1365 (refutation of the heresies of Servetus); body at
+      1625, 1657, 1680 and 1788
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: assigned
+    note: 'Calvin on Servetus''s Christology (the union of the natures), English. Hostile outside witness,
+      read at the loci given.
+
+      '
