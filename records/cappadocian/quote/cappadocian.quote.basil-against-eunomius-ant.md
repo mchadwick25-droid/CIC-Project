@@ -14,8 +14,8 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
-- source_id: cappadocian.source.basil-against-eunomius
-  locus: "Letter XVI ('Against Eunomius the heretic') (npnf208_basil-letters-select-works.xml) - NOTE: this is the genuinely vendored short polemical letter, distinct from the unvendored three-book treatise of the same general title; see this source record's own divergence_note."
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: "Letter XVI ('Against Eunomius the heretic'), npnf208_basil-letters-select-works.xml, a short letter distinct from the three-book treatise of the same general title"
   license: public-domain
 text: >-
   He who maintains that it is possible to arrive at the discovery of
@@ -95,11 +95,10 @@ Double-spacing in the source file's own typesetting normalized to single
 spaces.
 
 This Letter XVI passage is Basil's own argument aimed directly at
-Eunomius's claim to grasp God's own essence completely - drawn from the
-source this world's own cappadocian.source.basil-against-eunomius
-record identifies as the one genuinely vendored piece of Basil's
-anti-Eunomian corpus (the three-book treatise itself is not vendored;
-see that source record's own divergence_note). This quote backs the
+Eunomius's claim to grasp God's own essence completely - cited through
+cappadocian.source.basil-letters-general-corpus, the vendored Letters,
+since the three-book treatise Against Eunomius itself is not vendored
+(see cappadocian.source.basil-against-eunomius). This quote backs the
 dw's epistemology claim specifically; the dw's separate delayed-baptism
 strand remains without its own quote in this batch - a real, honestly
 named remaining gap, not filled here.

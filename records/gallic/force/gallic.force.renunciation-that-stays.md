@@ -65,8 +65,7 @@ description: >-
 
   To renounce the world was not to leave the Church. The monk went out of the city, onto an island,
   or into a desert near the city. The Church did not let go of him. The churches
-  wanted their priests from among Martin's brethren, and the fillet fastened on the fugitive. A monk
-  who was made bishop had not left the service. He had been posted. The brethren did not feel this
+  wanted their priests from among Martin's brethren, and the fillet fastened on the fugitive. The brethren did not feel this
   as a contradiction. It was the shape of the life: fled, and overtaken. What the world could not
   conceive was the monk who was his own master. That was the Sarabaite, the world's name for a
   renunciation that leaves everything, the fathers included.

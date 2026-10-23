@@ -12,14 +12,15 @@ confidence:
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
   divergence_note: 'This idea''s core claim (growth into a limitless God has no terminus) is Widely Accepted
-    as Gregory of Nyssa''s own teaching. Its two chief textual homes in Doc_06''s own account -- the Life
-    of Moses and the Song of Songs homilies -- are both acknowledged gaps: Life of Moses has no source
-    record in this project''s manifest at all (a gap-list omission Doc_06 itself flags, its own footnote
-    4), and the Song of Songs homilies are a named but unacquired text (Source Registry row 52). Citations
-    here rest on general scholarly knowledge of Nyssen''s argument, not a checkable primary text.'
+    as Gregory of Nyssa''s own teaching. A checkable statement of it sits in the vendored Against Eunomius
+    VIII: the creation "never ceases, in Paul''s phrase, ''reaching forth to the things that are before''".
+    Its two fullest textual homes in Doc_06''s own account, the Life of Moses and the Song of Songs homilies,
+    are not held: the Life of Moses has no source record in this project''s manifest (a gap Doc_06 itself
+    flags, its own footnote 4), and the Song of Songs homilies are a named but unacquired text (Source
+    Registry row 52).'
 sources:
-- source_id: cappadocian.source.gregory-nyssa-song-of-songs-ecclesiastes-beatitudes-homilies
-  locus: the Song of Songs homilies (unacquired text)
+- source_id: cappadocian.source.gregory-nyssa-against-eunomius
+  locus: "Against Eunomius VIII: the creation 'never ceases, in Paul's phrase, \"reaching forth to the things that are before\"'"
   license: public-domain
 retrieval:
   tier: 2

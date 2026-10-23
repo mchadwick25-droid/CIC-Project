@@ -78,7 +78,7 @@ relations:
 - type: associated-with
   target: witt.term.the-ban
 plain_meaning: At this table, Christ's body and blood are truly present, in and under bread and wine.
-  We do not explain how they are present. We simply take him at his word. This meal feeds us for our daily struggle.
+  We bind no one to a theory of how they are present. Our founder offered a picture, heated iron, but we simply take him at his word. This meal feeds us for our daily struggle.
 world_word: the Sacrament of the Altar -- Christ's body and blood 'in and under' bread and wine
 false_friend:
 - the Supper heard as a memorial meal only
@@ -87,7 +87,7 @@ false_friend:
 senses:
   informational: '''The true body and blood of our Lord Jesus Christ under bread and wine''; the larger
     book says ''in and under the bread and wine which we Christians are commanded by the Word of Christ
-    to eat and to drink.'' We do not dispute the how: ''I rejoice greatly that the simple faith of this
+    to eat and to drink.'' We bind no one to a theory of the how, though our founder offered a picture of it: in heated iron, ''every part is both iron and fire.'' ''I rejoice greatly that the simple faith of this
     sacrament is still to be found at least among the common people; for as they do not understand, neither
     do they dispute''; ''I will take my reason captive to the obedience of Christ.'' Its benefit is the
     words: ''put yourself into this YOU, that He may not speak to you in vain.'' It is food for a fight:
@@ -96,8 +96,8 @@ senses:
     yet ''no one should by any means be coerced or compelled, lest we institute a new murdering of souls.'''
   evidential: Attested at both catechisms, the confession, and the founder's own sacramental treatises,
     entire in the Large Catechism.
-  personal: Christ's body and blood are truly there for us, taken on his word without an explanation of
-    the how -- a testament received, not a work offered, food for the daily battle.
+  personal: Christ's body and blood are truly there for us, taken on his word with no theory of
+    the how required -- a testament received, not a work offered, food for the daily battle.
   translational: 'Do not hear the Supper as a memorial meal, or its presence-doctrine as a rival theory
     to be argued, or the whole matter as chiefly about who is excluded: we mean Christ''s body and blood
     truly there, ''in and under,'' a testament received on his word, with an examined gate and no compulsion
@@ -105,7 +105,7 @@ senses:
 quick_meaning: Christ's body and blood, truly present, given for us. Food for our daily struggle.
 distortion_risk: high
 use_note:
-  means: "The Sacrament of the Altar meant Christ's body and blood truly present in and under bread and wine, taken at his word without explaining how they are present."
+  means: "The Sacrament of the Altar meant Christ's body and blood truly present in and under bread and wine, taken at his word, with no theory of how they are present required."
   not_for:
     - "the Supper as a memorial meal only"
     - "'consubstantiation' as a word or theory the world used"

@@ -17,7 +17,7 @@ sources:
   locus: "15.44"
   license: public-domain
 - source_id: pahc.source.first-clement
-  locus: "5-6 (the apostles' deaths already past)"
+  locus: "5-6 (the apostles' deaths already past); 44 (the apostles foresaw strife over the office of the episcopate and appointed successors)"
   license: public-domain
 relations:
 - type: associated-with
@@ -31,22 +31,11 @@ relations:
 name: "The Neronian Persecution and the Deaths of Peter and Paul, c. 64-68 CE [1A - initiating/external]"
 matrix_cell: 1A
 kind: initiating
-description: "HISTORICAL EVENT: Tacitus's Annals 15.44 describes Nero scapegoating Christians for the
-  Great Fire of Rome (64 CE) with brutal, theatrical executions. Raymond Brown's standard periodization
-  keys the sub-apostolic age's beginning, c. 67 CE, to the deaths of Peter, Paul, and James under Nero.
-  1 Clement corroborates this by writing of the apostles' deaths as already past. WORLD'S OWN EXPERIENCE:
-  the people who had walked with the founder himself were dying, and no one could simply point to
-  someone who had been there anymore. What replaced their direct witness was argument - a letter
-  insisting its own writer stood in unbroken continuity with what had been handed down, a bishop
-  insisting his own office carried that same weight forward. This was not a settled inheritance quietly
-  received; it was something actively, urgently claimed, precisely because the alternative - the last
-  living link simply running out - was close enough to be felt. FORMATION IMPACT: the single most direct
-  trigger for this world's own defining formation logic. It produced the urgency behind authority
-  consolidation directly, and is the generative condition behind this whole world's 'argued, not
-  inherited' formation logic."
+description: "HISTORICAL EVENT: Tacitus, Annals 15.44, tells how Nero blamed Christians for the Great Fire of Rome (64 CE) and put them to death in cruel public shows. Raymond Brown dates the start of the sub-apostolic age, c. 67 CE, to the deaths of Peter, Paul, and James under Nero. 1 Clement backs this up. It writes of the apostles' deaths as already past. WORLD'S OWN EXPERIENCE: the people who had walked with the founder himself were dying. No one could simply point to someone who had been there. Argument took the place of direct witness. A letter insisted its writer stood in unbroken line with what had been handed down. A bishop insisted his office carried that same weight forward. 1 Clement 44 gives the reason in its own words. The apostles knew there would be 'strife on account of the office of the episcopate,' and so they appointed successors. FORMATION IMPACT: the most direct trigger for this world's defining formation logic. It produced the urgency behind authority consolidation. It is the root condition behind this world's 'argued, not inherited' formation logic."
 manifestations:
 - "Nero's scapegoating of Christians after the Great Fire, per Tacitus's hostile but basically authentic account"
 - "1 Clement's own retrospective naming of the apostles' deaths as already past (chs. 5-6)"
+- "1 Clement's own account (ch. 44) that the apostles foresaw strife over the episcopal office and appointed successors"
 - "the closest thing this world has to an origin event"
 ---
 Re-derived from the approved Doc_08 Force 1A-2. canon_cells left empty:

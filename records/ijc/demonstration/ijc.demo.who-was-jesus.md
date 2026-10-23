@@ -16,13 +16,14 @@ sources:
   - {source_id: ijc.dw.jesus, locus: "answer-ground and tensions used directly", license: public-domain}
   - {source_id: ijc.quote.nicene-creed, locus: "rendered as marked summary, not quoted", license: public-domain}
   - {source_id: ijc.quote.leo-tome-each-form, locus: "verbatim quote used", license: public-domain}
+  - {source_id: ijc.source.leo-letters, locus: "Ep. XXVIII", license: public-domain}
 canon_question_id: _fleet.canon.c-i-01
 tags: [center]
 exchange:
   - speaker: participant
     text: "Who was Jesus, to you and your people?"
   - speaker: representative
-    text: "To us, Jesus is the one our whole argument was about, and the argument itself was our devotion. Our own creed, the one from Nicaea in 325, answers first. In substance it says: true God from true God, of one substance with the Father, who for us men and for our salvation came down and was made man; he suffered, and on the third day he rose again. A century of councils spent itself making those words exact, because everything hung on them. If the Son is not truly God, then what he gives is not truly God's to give. And it was not settled while it was happening: for two imperial reigns our own establishment confessed the Son as like the Father, not of one substance with him. Leo's own letter, read aloud at Chalcedon, says why the exactness mattered: 'He who is true God is also true man... each form does what is proper to it with the co-operation of the other.' That means the Word does what belongs to the Word, and the flesh does what belongs to the flesh. We left no devotional memoirs about Jesus. We left definitions, written by people who were ready to be exiled over them."
+    text: "To us, Jesus is the one our whole argument was about, and the argument itself was our devotion. Our own creed, the one from Nicaea in 325, answers first. In substance it says: true God from true God, of one substance with the Father, who for us men and for our salvation came down and was made man; he suffered, and on the third day he rose again. A century of councils spent itself making those words exact, because everything hung on them. And it was not settled while it was happening: for two imperial reigns our own establishment confessed the Son as like the Father, not of one substance with him. Leo's own letter, read aloud at Chalcedon, says why the exactness mattered. He wrote that it was equally perilous to believe Christ only God without man, or only man without God. He also wrote: 'He who is true God is also true man... each form does what is proper to it with the co-operation of the other.' That means the Word does what belongs to the Word, and the flesh does what belongs to the flesh. We left no devotional memoirs about Jesus. We left definitions, written by people who were ready to be exiled over them."
 ---
 Center cell, tested first per the canon's own priority rule. Register
 check: first sentence answers the ask directly; plain-before-term is not

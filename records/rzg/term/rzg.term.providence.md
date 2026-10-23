@@ -39,7 +39,9 @@ senses:
     ground Predestination and Election name for our own salvation specifically, applied here to the whole
     created order.
   evidential: Calvin's Institutes, Book I, states this doctrine at length. It is present in Zwingli's
-    own earlier theology too, though not developed to the same degree in what our own record preserves.
+    earlier theology too. He wrote a whole treatise, On the Providence of God, but our record does not hold it.
+    His Commentary on True and False Religion, which we do hold, says that "providence is the mother of
+    predestination, as it were".
   personal: 'We rested on this as we rested on our own election: not as a fact we proved, but as a ground
     we stood on.'
   translational: This does not mean that God's reasons lie open to us. Calvin taught that God cares for

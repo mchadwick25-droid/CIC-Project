@@ -21,7 +21,7 @@ edition: Confirmed absent from the vendored npnf205 -- independently confirmed b
   of cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt (zero occurrences of 'Forty Martyrs' or 'XL
   Martyres')
 citation: Gregory of Nyssa, In XL Martyres II
-kind: vendored
+kind: unvendored
 rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 82; a specific named source (author, translator,

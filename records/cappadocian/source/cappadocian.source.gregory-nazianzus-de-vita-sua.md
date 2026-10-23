@@ -24,7 +24,7 @@ edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem,
   autobiographical poems themselves are NOT within this edition as continuous text -- no Poem-type div
   exists in the file (Source_Registry.md row 36).
 citation: Gregory of Nazianzus, De vita sua and the autobiographical poems
-kind: vendored
+kind: unvendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 36; a specific named source (author, translator,

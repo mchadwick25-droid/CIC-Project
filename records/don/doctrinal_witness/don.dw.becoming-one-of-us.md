@@ -154,7 +154,7 @@ tensions:
   only in this corpus's worst-OCR text and are rendered here in this record's own translation, not a
   certified one
 - no rule of ours survives explaining why one condemned party was received back and one condemned man
-  never was; the one Donatist reason known for the Bagai reception comes from a writer named Cresconius and survives only in a summary of Augustine's reply to him
+  never was; the one Donatist reason known for the Bagai reception comes from a writer named Cresconius and reaches us only through Augustine's answer to him
 relations:
 - type: associated-with
   target: don.quote.petilian-conscience-of-the-giver

@@ -30,8 +30,7 @@ description: >-
   into its form. The Rules moved from live question and answer toward fixed
   law. The communities became the church's normal houses and, more and more,
   the source of its leaders. Questions the brothers once asked at meetings
-  were now answers written in a book. The young no longer remembered the
-  years when it was all being worked out. This force ended the live phase of
+  were now answers written in a book. This force ended the live phase of
   the pull between giving things up and keeping order. It turned a trial
   into the next age's standard tools. The move from argument to inheritance
   mirrors the ending of the whole world.

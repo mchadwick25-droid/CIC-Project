@@ -21,7 +21,7 @@ sources:
 - source_id: cappadocian.source.gregory-nazianzus-oration-14-love-of-poor
   locus: On the Love of the Poor
   license: public-domain
-- source_id: cappadocian.source.gregory-nyssa-love-of-the-poor-lepers-consolation
+- source_id: cappadocian.source.gregory-nyssa-de-pauperibus-amandis
   locus: the lepers homilies
   license: public-domain
 - source_id: cappadocian.source.basil-moral-famine-homilies

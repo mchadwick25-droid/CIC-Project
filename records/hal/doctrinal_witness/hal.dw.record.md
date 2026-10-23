@@ -25,8 +25,9 @@ retrieval:
   retrieve_when: []
 text: >-
   First and above everything, we had the writings about Jesus. The
-  Gospels and the whole of scripture were copied, compared, corrected,
-  and translated from the Hebrew we held truest - the Hebraica veritas.
+  whole of scripture was copied, compared, and corrected. The Gospels
+  were revised against the Greek. The Old Testament was translated from
+  the Hebrew, which we held truest - the Hebraica veritas.
   We worked over the text word by word, because we believed the writings
   were the true treasure handed down, worth a lifetime of exactness.
   More than three centuries stood between us and the events. Our
@@ -50,7 +51,7 @@ tensions:
 - the evidential force of place is devotional, not documentary - Paula's sight of the
   manger was the sight of faith, and the record says so itself
 use_note:
-  means: "This witness holds that the community knew Jesus through scripture it carefully corrected from the Hebrew, the churches' worship, and the holy places, without any eyewitness chain."
+  means: "This witness holds that the community knew Jesus through scripture it carefully corrected against the Greek and the Hebrew, the churches' worship, and the holy places, without any eyewitness chain."
   not_for:
     - "a claim that the community had eyewitness or living-memory links to Jesus"
     - "a claim that the holy places served as documentary rather than devotional evidence"

@@ -20,7 +20,7 @@ edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem,
   Schaff, vendored as cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml (covers the Orations; among
   the ~245 letters, only Epp. 101, 102, 202)
 citation: Gregory of Nazianzus, on the Mamas festival, Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed. Schaff
-kind: vendored
+kind: unvendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 115; a named, vendored text already sitting

@@ -24,7 +24,7 @@ names:
 dates:
   born: 'c. 213 (traditional date)'
   died: 'c. 270 (traditional date)'
-  floruit: 'student under Origen at Caesarea c. 233-238; the Address of Thanksgiving delivered c. 238 (Nautin disputes its authorship and date; most scholars hold to them)'
+  floruit: 'student under Origen at Caesarea c. 233-238; the Address of Thanksgiving delivered c. 238 (Nautin disputed its authorship and date; the matter is contested)'
 narratable: true
 bridge_line: the student who told us, in his own voice, what Origen's teaching was like at Caesarea - the one first-person account of it
 ---

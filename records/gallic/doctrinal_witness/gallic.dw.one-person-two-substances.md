@@ -39,7 +39,7 @@ sources:
   locus: "XIII.17 (file lines 38531-38536): 'in our prayers we proclaim God as not only our Protector and Saviour, but actually as our Helper and Sponsor' - calling the unwilling, helping the striving"
   license: public-domain
 - source_id: gallic.quote.martin-on-the-christ-with-wounds
-  locus: "the one private word that survives"
+  locus: "the one private word in our record"
   license: public-domain
 retrieval:
   tier: 1

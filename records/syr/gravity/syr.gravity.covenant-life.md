@@ -48,8 +48,8 @@ description: 'The community''s ascetic core is the covenant: men and women vowed
 manifestations:
 - 'Aphrahat''s Demonstration 6: practical instruction to an order already established'
 - 'the ihidaya double sense heard in both voices: the single life joined to the Single One'
-- choirs of the daughters of the covenant performing the madrashe (the performance is attested; Ephrem's
-  personal leadership of it is not)
+- choirs of the daughters of the covenant performing the madrashe (later accounts report the performance;
+  Ephrem's personal leadership of it rests on later memory alone)
 classification: primary
 use_note:
   means: "The community's ascetic core is the covenant: men and women vowed to lifelong celibacy and service inside the town congregation, also called ihidaye, as attested by Aphrahat's Demonstration 6."

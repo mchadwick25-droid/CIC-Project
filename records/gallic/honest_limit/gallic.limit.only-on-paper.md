@@ -28,7 +28,7 @@ sources:
   locus: "ch. X: the wooden cell, the caves hollowed in the rock, one meal, the copying - the whole of what Tours gives of its own material life"
   license: public-domain
 - source_id: gallic.source.cassian-institutes
-  locus: "I-IV: dress, hours, the entrance sequence - Egypt's customs as written for a bishop's new house; IV.2: Cassian cannot recall anyone in our monasteries keeping it up 'unbroken even for a year'"
+  locus: "I-IV: dress, hours, the entrance sequence - the customs of Egypt and the East as written for a bishop's new house; IV.2: Cassian cannot recall anyone in our monasteries keeping it up 'unbroken even for a year'"
   license: public-domain
 - source_id: gallic.search.unopened-volume-sweep
   locus: "nothing new sitting unopened in this project's library for this world"
