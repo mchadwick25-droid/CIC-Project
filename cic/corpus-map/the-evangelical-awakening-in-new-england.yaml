@@ -14,3 +14,21 @@ works:
     against during the Awakening years; a neighbouring revival body as the colonies saw it.
     Provisional.
   source_file: loskiel_history-of-mission-among-indians_latrobe1794.txt
+- row_id: whitefield_two-first-parts-of-his-life-with-journals_1756--the-two-first-parts-of-his-life-with-his-journals-whitefield-2
+  work: The Two First Parts of his Life, with his Journals (Whitefield, 1756 revision)
+  author: whitefield
+  locus: the Journal entries of 1739-1741 on the American preaching tours
+  role: context
+  confidence: provisional
+  note: The itinerant whose 1740 New England tour the Awakening's own sources describe, in
+    his own journal; provisional, the New England world may want it as tradition.
+  source_file: whitefield_two-first-parts-of-his-life-with-journals_1756.txt
+- row_id: whitefield_works-v6-sermons_1771--the-works-of-the-reverend-george-whitefield-vol-vi-sermons-2
+  work: 'The Works of the Reverend George Whitefield, vol. VI: sermons and tracts (1771)'
+  author: whitefield
+  locus: the sermons preached in America
+  role: context
+  confidence: provisional
+  note: The sermons of the itinerant who carried the Awakening through New England in 1740;
+    provisional.
+  source_file: whitefield_works-v6-sermons_1771.txt

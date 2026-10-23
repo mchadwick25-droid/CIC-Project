@@ -1,0 +1,11 @@
+source_file: wesley-j_journal-v8_curnock1909.txt
+assignments:
+- row_id: wesley-j_journal-v8_curnock1909--the-journal-of-the-rev-john-wesley-standard-edition-vol-viii
+  work: The Journal of the Rev. John Wesley, Standard Edition vol. VIII (1789-1791, appendices and index)
+  author: wesley-j
+  locus: the dated Journal and diary entries; Curnock's appendices and index excluded
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: The close of the Journal and Wesley's last year.

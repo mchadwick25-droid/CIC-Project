@@ -11268,3 +11268,335 @@ queue:
     verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
     status: downloaded
     vendored_as: "philadelphia-yearly-meeting_rules-of-discipline-and-christian-advices_1797.txt"
+
+  - title: "The Journal of the Rev. John Wesley, Standard Edition, vol. II (Curnock)"
+    author: "John Wesley"
+    translator: "none; edited by Nehemiah Curnock"
+    year: "1916"
+    world: "the-methodist-revival"
+    why: >
+      Closes the Journal-volume acquisition gap the meth world's gaps ledger
+      entry 35 names as binding on Doc_02; vol. II carries 1738-1739
+      onward.
+    url: "https://archive.org/details/a613690402wesluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-j_journal-v2_curnock1909.txt"
+
+  - title: "The Journal of the Rev. John Wesley, Standard Edition, vol. III (Curnock)"
+    author: "John Wesley"
+    translator: "none; edited by Nehemiah Curnock"
+    year: "1916"
+    world: "the-methodist-revival"
+    why: >
+      Journal-volume gap, vol. III.
+    url: "https://archive.org/details/a613690403wesluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-j_journal-v3_curnock1909.txt"
+
+  - title: "The Journal of the Rev. John Wesley, Standard Edition, vol. IV (Curnock)"
+    author: "John Wesley"
+    translator: "none; edited by Nehemiah Curnock"
+    year: "1916"
+    world: "the-methodist-revival"
+    why: >
+      Journal-volume gap, vol. IV.
+    url: "https://archive.org/details/a613690404wesluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-j_journal-v4_curnock1909.txt"
+
+  - title: "The Journal of the Rev. John Wesley, Standard Edition, vol. V (Curnock)"
+    author: "John Wesley"
+    translator: "none; edited by Nehemiah Curnock"
+    year: "1916"
+    world: "the-methodist-revival"
+    why: >
+      Journal-volume gap, vol. V.
+    url: "https://archive.org/details/a613690405wesluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-j_journal-v5_curnock1909.txt"
+
+  - title: "The Journal of the Rev. John Wesley, Standard Edition, vol. VI (Curnock)"
+    author: "John Wesley"
+    translator: "none; edited by Nehemiah Curnock"
+    year: "1916"
+    world: "the-methodist-revival"
+    why: >
+      Journal-volume gap, vol. VI.
+    url: "https://archive.org/details/a613690406wesluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-j_journal-v6_curnock1909.txt"
+
+  - title: "The Journal of the Rev. John Wesley, Standard Edition, vol. VII (Curnock)"
+    author: "John Wesley"
+    translator: "none; edited by Nehemiah Curnock"
+    year: "1916"
+    world: "the-methodist-revival"
+    why: >
+      Journal-volume gap, vol. VII.
+    url: "https://archive.org/details/a613690407wesluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-j_journal-v7_curnock1909.txt"
+
+  - title: "The Journal of the Rev. John Wesley, Standard Edition, vol. VIII (Curnock)"
+    author: "John Wesley"
+    translator: "none; edited by Nehemiah Curnock"
+    year: "1916"
+    world: "the-methodist-revival"
+    why: >
+      Journal-volume gap, vol. VIII; completes the set.
+    url: "https://archive.org/details/a613690408wesluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-j_journal-v8_curnock1909.txt"
+
+  - title: "The Character of a Methodist (Wesley, 1742)"
+    author: "John Wesley"
+    translator: "none"
+    year: "1742"
+    world: "the-methodist-revival"
+    why: >
+      Wesley's own definition of the people called Methodists, in a
+      Bristol printing of 1742.
+    url: "https://archive.org/details/bim_eighteenth-century_the-character-of-a-metho_wesley-john_1742"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-j_character-of-a-methodist_farley1742.txt"
+
+  - title: "A Plain Account of the People called Methodists (Wesley, 1749)"
+    author: "John Wesley"
+    translator: "none"
+    year: "1749"
+    world: "the-methodist-revival"
+    why: >
+      The class-meeting machinery the census names as the movement's lived
+      core, explained by Wesley himself in 1748.
+    url: "https://archive.org/details/bim_eighteenth-century_a-plain-account-of-the-p_wesley-john_1749"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-j_plain-account-of-the-people-called-methodists_1749.txt"
+
+  - title: "A Plain Account of Christian Perfection (Wesley, 1766)"
+    author: "John Wesley"
+    translator: "none"
+    year: "1766"
+    world: "the-methodist-revival"
+    why: >
+      The census names this tract; Wesley's own forty-year account of the
+      doctrine of perfection.
+    url: "https://archive.org/details/bim_eighteenth-century_a-plain-account-of-chris_wesley-john_1766_0"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-j_plain-account-of-christian-perfection_pine1766.txt"
+
+  - title: "Minutes of the Methodist Conferences, vol. I, 1744-1798 (1862)"
+    author: "Methodist Conference"
+    translator: "none"
+    year: "1862"
+    world: "the-methodist-revival"
+    why: >
+      The annual Conference Minutes the census names and the meth world's
+      Manifest item G3 asked for; the connexion's own record from 1744.
+    url: "https://archive.org/details/minutesofmethodi00wesl"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "methodist-conference_minutes-v1-1744-1798_1862.txt"
+
+  - title: "The Doctrines and Discipline of the Methodist Episcopal Church, with notes by Coke and Asbury (1798)"
+    author: "Methodist Episcopal Church"
+    translator: "none"
+    year: "1798"
+    world: "the-methodist-revival"
+    why: >
+      The American Discipline with the bishops' own notes, and the
+      Articles of Religion in the church's own text (Manifest item G10).
+    url: "https://archive.org/details/doctrinesanddis18churgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "methodist-episcopal-church_doctrines-and-discipline_coke-asbury1798.txt"
+
+  - title: "The Two First Parts of his Life, with his Journals (Whitefield, 1756)"
+    author: "George Whitefield"
+    translator: "none"
+    year: "1756"
+    world: "the-methodist-revival"
+    why: >
+      Whitefield's own life and Journals in his own revision; the Manifest
+      G5 gap.
+    url: "https://archive.org/details/twofirst00whit"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "whitefield_two-first-parts-of-his-life-with-journals_1756.txt"
+
+  - title: "The Works of the Reverend George Whitefield, vol. I, letters (1771)"
+    author: "George Whitefield"
+    translator: "none"
+    year: "1771"
+    world: "the-methodist-revival"
+    why: >
+      Whitefield's letters in his executors' edition; the Calvinistic
+      Methodist side of the revival in his own correspondence.
+    url: "https://archive.org/details/worksreverendge02whitgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "whitefield_works-v1-letters-1734-1770_1771.txt"
+
+  - title: "The Works of the Reverend George Whitefield, vol. VI, sermons (1771)"
+    author: "George Whitefield"
+    translator: "none"
+    year: "1771"
+    world: "the-methodist-revival"
+    why: >
+      Whitefield's sermons as published; the preaching itself, for the
+      Manifest G5 gap.
+    url: "https://archive.org/details/worksofreverendg06whit"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "whitefield_works-v6-sermons_1771.txt"
+
+  - title: "The Journal of the Rev. Charles Wesley, vol. I (Jackson, 1849)"
+    author: "Charles Wesley"
+    translator: "none; edited by Thomas Jackson"
+    year: "1849"
+    world: "the-methodist-revival"
+    why: >
+      Charles Wesley's journal, named by the census beside his hymns; his
+      own 1738 conversion in his own entries.
+    url: "https://archive.org/details/1c3be7b8-808c-4714-b80e-c270b971bda4"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-c_journal-v1_jackson1849.txt"
+
+  - title: "A Short Account of the Experience of Mrs. Hester Ann Rogers (1811)"
+    author: "Hester Ann Rogers"
+    translator: "none"
+    year: "1811"
+    world: "the-methodist-revival"
+    why: >
+      Rogers's Account, named by the census as a women's voice of the
+      revival; her own narrative, diary and letters.
+    url: "https://archive.org/details/shortaccountofex00roge"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "rogers-hester-ann_short-account-of-the-experience_1811.txt"
+
+  - title: "The Life of Mrs. Mary Fletcher, compiled from her journal (Moore, 1818)"
+    author: "Mary Bosanquet Fletcher"
+    translator: "none; compiled by Henry Moore"
+    year: "1818"
+    world: "the-methodist-revival"
+    why: >
+      Bosanquet Fletcher's journal and the 1771 women's-preaching letter
+      the census names, in the only public-domain edition.
+    url: "https://archive.org/details/lifeofmrsmaryfl00moor"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fletcher-mary_life-compiled-from-her-journal_moore1818.txt"
+
+  - title: "The Lives of Early Methodist Preachers, chiefly written by themselves, vol. I (Jackson, 1865)"
+    author: "the early Methodist preachers (ed. Thomas Jackson)"
+    translator: "none"
+    year: "1865"
+    world: "the-methodist-revival"
+    why: >
+      Lay preachers' own narratives, the ordinary-member voice the meth
+      world's gaps ledger calls binding on Doc_02.
+    url: "https://archive.org/details/thelivesofearly01jackuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "methodist-preachers_lives-of-early-methodist-preachers-v1_jackson1865.txt"
+
+  - title: "The Arminian Magazine, vol. I (1778)"
+    author: "The Arminian Magazine (John Wesley, editor)"
+    translator: "none"
+    year: "1778"
+    world: "the-methodist-revival"
+    why: >
+      The Arminian Magazine's first year, the census-named vehicle for
+      ordinary members' narratives.
+    url: "https://archive.org/details/arminian-magazine-vol-1-1778-drew-university"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "arminian-magazine_vol-1_1778.txt"
+
+  - title: "Extracts of the Journals of the Rev. Dr. Coke's Five Visits to America (1793)"
+    author: "Thomas Coke"
+    translator: "none"
+    year: "1793"
+    world: "the-methodist-revival"
+    why: >
+      The Christmas Conference of 1784 and the American church's founding
+      in Coke's own journal.
+    url: "https://archive.org/details/extractsjournal01cokegoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "coke_extracts-of-journals-five-visits-to-america_1793.txt"
+
+  - title: "A Short History of the Methodists in the United States of America (Lee, 1810)"
+    author: "Jesse Lee"
+    translator: "none"
+    year: "1810"
+    world: "the-methodist-revival"
+    why: >
+      American Methodism's first history, written inside the window by one
+      of its own itinerants.
+    url: "https://archive.org/details/shorthistoryofme0000leej"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "lee-jesse_short-history-of-the-methodists-in-the-united-states_1810.txt"
+
+  - title: "The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint)"
+    author: "Richard Allen"
+    translator: "none"
+    year: "1880"
+    world: "the-methodist-revival"
+    why: >
+      Allen's narrative, named by the census at the era's edge; the only
+      public-domain own-voice text of the AME Church's founder.
+    url: "https://archive.org/details/lifeexperiencego1880alle"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "allen-richard_life-experience-and-gospel-labors_1880.txt"
+
+  - title: "Religious Experience and Journal of Mrs. Jarena Lee (1836)"
+    author: "Jarena Lee"
+    translator: "none"
+    year: "1836"
+    world: "the-methodist-revival"
+    why: >
+      A Black Methodist woman's own call narrative from the 1800s and
+      1810s; the women's and ordinary voice at the American end of the
+      window.
+    url: "https://www.gutenberg.org/ebooks/66953"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "lee-jarena_religious-experience-and-journal_1836.txt"

@@ -1,0 +1,20 @@
+source_file: fletcher-mary_life-compiled-from-her-journal_moore1818.txt
+assignments:
+- row_id: fletcher-mary_life-compiled-from-her-journal_moore1818--mary-bosanquet-fletcher-s-journal-and-letters-as-quoted-in
+  work: Mary Bosanquet Fletcher's journal and letters, as quoted in Moore's Life (1818)
+  author: fletcher-mary
+  locus: the journal entries and letters quoted throughout; Moore's connecting narrative excluded
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: The women's-preaching argument and a Methodist woman's inner life in her own journal and letters.
+- row_id: fletcher-mary_life-compiled-from-her-journal_moore1818--the-life-of-mrs-mary-fletcher-moore-s-compiling-narrative
+  work: The Life of Mrs. Mary Fletcher (Moore's compiling narrative, 1818)
+  author: fletcher-mary
+  locus: Moore's own connecting narrative between the quotations
+  atlas_ids:
+  - the-methodist-revival
+  role: context
+  confidence: assigned
+  note: The compiler's frame, a Methodist preacher writing in 1818; not her words.

@@ -1,0 +1,11 @@
+source_file: coke_extracts-of-journals-five-visits-to-america_1793.txt
+assignments:
+- row_id: coke_extracts-of-journals-five-visits-to-america_1793--extracts-of-the-journals-of-the-rev-dr-coke-s-five-visits-to
+  work: Extracts of the Journals of the Rev. Dr. Coke's Five Visits to America (1793)
+  author: coke
+  locus: whole work
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: The organisation of American Methodism in 1784 told by Wesley's superintendent.

@@ -296,6 +296,16 @@ works:
     with the Moravians, in Georgia, told day by day in his own journal. Cross-link found by
     header search of cic/texts (CORPUS-USE tier, same time-place).'
   source_file: wesley-j_journal-v1_curnock1909.txt
+- row_id: wesley-j_journal-v2_curnock1909--the-journal-of-the-rev-john-wesley-standard-edition-vol-ii-2
+  work: The Journal of the Rev. John Wesley, Standard Edition vol. II (from September 1738)
+  author: wesley-j
+  locus: the entries of 1738-1740 on the Fetter Lane society, Molther's stillness and the
+    separation from the Moravians
+  role: context
+  confidence: assigned
+  note: The Fetter Lane breach of 1740 told from Wesley's side, day by day; outside witness
+    to the London Moravians.
+  source_file: wesley-j_journal-v2_curnock1909.txt
 - row_id: zinzendorf_manual-of-doctrine_1742--a-manual-of-doctrine-zinzendorf-s-second-catechism-english
   work: A Manual of Doctrine (Zinzendorf's second catechism; English 1742)
   author: zinzendorf

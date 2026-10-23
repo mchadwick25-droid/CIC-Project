@@ -79,6 +79,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 711,016 | 711,016 | alcuin_opera-omnia-letters_migne-pl100-101_1863 |
 
+## `allen-richard_life-experience-and-gospel-labors_1880.txt`
+
+1 section(s) to level 2 · ~23,425 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,425 | 23,425 | allen-richard_life-experience-and-gospel-labors_1880 |
+
 ## `allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908.txt`
 
 1 section(s) to level 2 · ~45,289 words of text · ~0 words of apparatus
@@ -821,6 +829,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 53,804 | 53,804 | aristides_apology-syriac-grc-eng_harris-robinson1893 |
+
+## `arminian-magazine_vol-1_1778.txt`
+
+1 section(s) to level 2 · ~197,222 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 197,222 | 197,222 | arminian-magazine_vol-1_1778 |
 
 ## `arminius_works-v1_nichols1853.txt`
 
@@ -2022,6 +2038,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 240,243 | 240,243 | codex-theodosianus_latinlibrary |
 
+## `coke_extracts-of-journals-five-visits-to-america_1793.txt`
+
+1 section(s) to level 2 · ~62,106 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 62,106 | 62,106 | coke_extracts-of-journals-five-visits-to-america_1793 |
+
 ## `colin_labor-evangelica-t1-spa_pastells1900.txt`
 
 1 section(s) to level 2 · ~839,789 words of text · ~0 words of apparatus
@@ -2749,6 +2773,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 175,705 | 175,705 | fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856 |
+
+## `fletcher-mary_life-compiled-from-her-journal_moore1818.txt`
+
+1 section(s) to level 2 · ~176,386 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 176,386 | 176,386 | fletcher-mary_life-compiled-from-her-journal_moore1818 |
 
 ## `fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt`
 
@@ -4310,6 +4342,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 443,328 | 443,328 | laurentius-de-brezova_historia-hussitica-lat-ces_goll1893 |
 
+## `lee-jarena_religious-experience-and-journal_1836.txt`
+
+1 section(s) to level 2 · ~53,905 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 53,905 | 53,905 | lee-jarena_religious-experience-and-journal_1836 |
+
+## `lee-jesse_short-history-of-the-methodists-in-the-united-states_1810.txt`
+
+1 section(s) to level 2 · ~114,380 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 114,380 | 114,380 | lee-jesse_short-history-of-the-methodists-in-the-united-states_1810 |
+
 ## `leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt`
 
 1 section(s) to level 2 · ~198,550 words of text · ~0 words of apparatus
@@ -4709,6 +4757,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 193,128 | 193,128 | mesnage_afrique-chretienne-eveches-ruines-fra_1912 |
+
+## `methodist-conference_minutes-v1-1744-1798_1862.txt`
+
+1 section(s) to level 2 · ~282,099 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 282,099 | 282,099 | methodist-conference_minutes-v1-1744-1798_1862 |
+
+## `methodist-episcopal-church_doctrines-and-discipline_coke-asbury1798.txt`
+
+1 section(s) to level 2 · ~75,990 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 75,990 | 75,990 | methodist-episcopal-church_doctrines-and-discipline_coke-asbury1798 |
+
+## `methodist-preachers_lives-of-early-methodist-preachers-v1_jackson1865.txt`
+
+1 section(s) to level 2 · ~115,519 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 115,519 | 115,519 | methodist-preachers_lives-of-early-methodist-preachers-v1_jackson1865 |
 
 ## `michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt`
 
@@ -8801,6 +8873,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 51,238 | 51,238 | rimius_candid-narrative-of-the-herrnhuters_1753 |
 
+## `rogers-hester-ann_short-account-of-the-experience_1811.txt`
+
+1 section(s) to level 2 · ~83,372 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 83,372 | 83,372 | rogers-hester-ann_short-account-of-the-experience_1811 |
+
 ## `rogers-john_displaying-of-an-horrible-secte_bishop1579.txt`
 
 1 section(s) to level 2 · ~49,827 words of text · ~0 words of apparatus
@@ -9753,6 +9833,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 116,976 | 116,976 | wesley-c_hymns-methodists_1780 |
 
+## `wesley-c_journal-v1_jackson1849.txt`
+
+1 section(s) to level 2 · ~204,181 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 204,181 | 204,181 | wesley-c_journal-v1_jackson1849 |
+
+## `wesley-j_character-of-a-methodist_farley1742.txt`
+
+1 section(s) to level 2 · ~5,764 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 5,764 | 5,764 | wesley-j_character-of-a-methodist_farley1742 |
+
 ## `wesley-j_journal-v1_curnock1909.txt`
 
 1 section(s) to level 2 · ~210,210 words of text · ~0 words of apparatus
@@ -9761,6 +9857,62 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 210,210 | 210,210 | wesley-j_journal-v1_curnock1909 |
 
+## `wesley-j_journal-v2_curnock1909.txt`
+
+1 section(s) to level 2 · ~250,186 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 250,186 | 250,186 | wesley-j_journal-v2_curnock1909 |
+
+## `wesley-j_journal-v3_curnock1909.txt`
+
+1 section(s) to level 2 · ~247,377 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 247,377 | 247,377 | wesley-j_journal-v3_curnock1909 |
+
+## `wesley-j_journal-v4_curnock1909.txt`
+
+1 section(s) to level 2 · ~236,059 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 236,059 | 236,059 | wesley-j_journal-v4_curnock1909 |
+
+## `wesley-j_journal-v5_curnock1909.txt`
+
+1 section(s) to level 2 · ~233,187 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 233,187 | 233,187 | wesley-j_journal-v5_curnock1909 |
+
+## `wesley-j_journal-v6_curnock1909.txt`
+
+1 section(s) to level 2 · ~232,361 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 232,361 | 232,361 | wesley-j_journal-v6_curnock1909 |
+
+## `wesley-j_journal-v7_curnock1909.txt`
+
+1 section(s) to level 2 · ~221,306 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 221,306 | 221,306 | wesley-j_journal-v7_curnock1909 |
+
+## `wesley-j_journal-v8_curnock1909.txt`
+
+1 section(s) to level 2 · ~268,041 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 268,041 | 268,041 | wesley-j_journal-v8_curnock1909 |
+
 ## `wesley-j_large-minutes_1850.txt`
 
 1 section(s) to level 2 · ~22,555 words of text · ~0 words of apparatus
@@ -9768,6 +9920,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 22,555 | 22,555 | wesley-j_large-minutes_1850 |
+
+## `wesley-j_plain-account-of-christian-perfection_pine1766.txt`
+
+1 section(s) to level 2 · ~36,353 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 36,353 | 36,353 | wesley-j_plain-account-of-christian-perfection_pine1766 |
+
+## `wesley-j_plain-account-of-the-people-called-methodists_1749.txt`
+
+1 section(s) to level 2 · ~11,096 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 11,096 | 11,096 | wesley-j_plain-account-of-the-people-called-methodists_1749 |
 
 ## `wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt`
 
@@ -9792,6 +9960,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 309,593 | 309,593 | westminster-assembly_confession-catechisms-standards_nelson1877 |
+
+## `whitefield_two-first-parts-of-his-life-with-journals_1756.txt`
+
+1 section(s) to level 2 · ~125,720 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 125,720 | 125,720 | whitefield_two-first-parts-of-his-life-with-journals_1756 |
+
+## `whitefield_works-v1-letters-1734-1770_1771.txt`
+
+1 section(s) to level 2 · ~143,660 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 143,660 | 143,660 | whitefield_works-v1-letters-1734-1770_1771 |
+
+## `whitefield_works-v6-sermons_1771.txt`
+
+1 section(s) to level 2 · ~164,206 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 164,206 | 164,206 | whitefield_works-v6-sermons_1771 |
 
 ## `whitehouse_lingerings-of-light-in-a-dark-land_1873.txt`
 

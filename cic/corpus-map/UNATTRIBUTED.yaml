@@ -1367,6 +1367,14 @@ authors:
     kind: metadata-omission
     evidence: div2 10.5 'Melito, the Philosopher' (of Sardis, per the notice).
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  methodist-preachers:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file; a collective slug for the lay preachers whose autobiographies
+      the volume prints, each signed by its own author in the text (the host names only the
+      editor, Thomas Jackson). cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: methodist-preachers_lives-of-early-methodist-preachers-v1_jackson1865.txt
   michael-the-syrian:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
