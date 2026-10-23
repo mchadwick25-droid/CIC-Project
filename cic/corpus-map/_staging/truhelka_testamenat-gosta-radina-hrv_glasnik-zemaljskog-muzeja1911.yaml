@@ -1,0 +1,19 @@
+source_file: truhelka_testamenat-gosta-radina-hrv_glasnik-zemaljskog-muzeja1911.txt
+assignments:
+- row_id: truhelka_testamenat-gosta-radina-hrv_glasnik-zemaljskog-muzeja1911--testamenat-gosta-radina-truhelka-glasnik-zemaljskog-muzeja
+  work: 'Testamenat gosta Radina (Truhelka, Glasnik zemaljskog muzeja 1911): the testament of Gost Radin,
+    Dubrovnik 1466, with commentary'
+  author: truhelka
+  locus: article from file line 14; Radin's career 26; the cross and the opening words 818-820; 'Tekst
+    testamenta Radina gosta' 1095 to the close 1300
+  atlas_ids:
+  - the-bosnian-church
+  role: tradition
+  confidence: assigned
+  note: 'The one substantial document from inside the Bosnian Church: the testament of a gost (a senior
+    churchman) and counsellor of Duke Stephen, made in 1466, printed for the first time in 1911 with the
+    editor''s commentary. Truhelka stresses the cross at the head of the text and the opening ''Va ime
+    oca i sina i svetago duha. Amen.'' The testament''s own text is in Bosnian Cyrillic and the OCR of
+    it is unusable, so the wording must be read from the plates or page images; the Croatian commentary
+    is readable and is scholarship, not Radin''s voice. Partial extract (the article only). No English
+    translation found.'

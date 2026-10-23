@@ -43,3 +43,14 @@ assignments:
     confidence: provisional
     note: 'Placed on window and place: the 1551 discipline that Nikon''s reforms of the 1650s revised. The
       relevant chapters were not read for this entry.'
+  - row_id: stoglav_stoglav-chu_kozhanchikov1863--the-stoglav-hundred-chapters-1551-russian-kozhanchikov-1863
+    work: The Stoglav (Hundred Chapters), 1551, Russian (Kozhanchikov 1863)
+    author: stoglav
+    locus: whole volume
+    atlas_ids:
+    - muscovite-monastic-christianity
+    role: context
+    confidence: provisional
+    note: 'Tier: same time-place. The council''s chapters on monasteries and the council''s own recital
+      of the saints are a retrospective on this movement from a century later. Placed on window and subject;
+      the monastery chapters were not read.'

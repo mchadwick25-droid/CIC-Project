@@ -1,0 +1,29 @@
+source_file: theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt
+assignments:
+- row_id: theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863--vetera-monumenta-slavorum-meridionalium-tomus-i-theiner-1863
+  work: 'Vetera monumenta Slavorum meridionalium, tomus I (Theiner 1863): the instrument of the Bosnian
+    priors, 1203'
+  author: theiner
+  locus: letter XXXIV at file line 5912; instrument XXXV, 'Nos Priores illorum hominum, qui hactenus singulariter
+    Christiani nominis prerogativa vocati sumus in territorio Bosne', lines 5955-5999
+  atlas_ids:
+  - the-bosnian-church
+  role: tradition
+  confidence: assigned
+  note: The undertaking of 1203 made at Ban Kulin's court by 'the priors of those men who have been called
+    by the special prerogative of the Christian name in the territory of Bosnia' (as the Latin reads).
+    It is the nearest thing to the church's own words in the thirteenth century, but it comes through
+    the papal register in Latin and was made under Roman pressure. Read at the cited lines. Second witness
+    for exact wording; check against the page images.
+- row_id: theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863--vetera-monumenta-slavorum-meridionalium-tomus-i-theiner-1863-2
+  work: 'Vetera monumenta Slavorum meridionalium, tomus I (Theiner 1863): papal documents on Bosnia and
+    the south Slavs, 1198-1549'
+  author: theiner
+  locus: Bosnian items throughout; Nicholas V against Stephen 'perfidus patarenus' at file line 32363;
+    index of persons and places from 50294
+  atlas_ids:
+  - the-bosnian-church
+  role: context
+  confidence: assigned
+  note: 'The Vatican side of the story for three centuries: legates'' reports, bulls against the heretics
+    and the Franciscan mission. Outside and hostile record. Second witness for exact wording.'

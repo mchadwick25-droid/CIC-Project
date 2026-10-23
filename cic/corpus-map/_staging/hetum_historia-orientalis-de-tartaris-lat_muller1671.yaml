@@ -1,0 +1,14 @@
+source_file: hetum_historia-orientalis-de-tartaris-lat_muller1671.txt
+assignments:
+- row_id: hetum_historia-orientalis-de-tartaris-lat_muller1671--haithoni-armeni-historia-orientalis-quae-et-de-tartaris
+  work: Haithoni Armeni historia orientalis, quae et De Tartaris inscribitur (Latin, Müller 1671)
+  author: hetum
+  locus: Falcon's testimony at file line 47; chapters from 231
+  atlas_ids:
+  - armenian-cilicia-after-the-kingdom
+  role: context
+  confidence: assigned
+  note: 'The Latin Flos historiarum partium Orientis that Nicolas Falcon wrote down from Hayton''s French
+    in 1307. Second witness for exact wording (long s read as f). Public-domain English translation (modern):
+    hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt, vendored beside it;
+    the French is in the RHC Documents arméniens II file.'

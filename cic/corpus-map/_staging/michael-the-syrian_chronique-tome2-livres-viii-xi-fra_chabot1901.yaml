@@ -36,3 +36,14 @@ assignments:
       Persian church's peace under Yazdgard I through Marutha, drawing on Socrates; the
       synods of 410 and 424 are not narrated. The view from a neighbouring tradition,
       never evidence of the events.
+  - row_id: michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901--michael-the-syrian-chronique-tome-ii-the-maronites
+    work: 'Michael the Syrian, Chronique, tome II: the Maronites'
+    author: michael-the-syrian
+    locus: whole volume
+    atlas_ids:
+    - maronite-christianity-era-6
+    role: antecedent
+    confidence: provisional
+    note: 'Tier: out-of-window (twelfth century). The West Syriac patriarch''s account of the Maronites
+      and the monothelete dispute (file lines 39327 to 39349, with a note on the name at 34738). The antecedent
+      of the argument the census calls the floor question. Placed on those lines; read only in outline.'

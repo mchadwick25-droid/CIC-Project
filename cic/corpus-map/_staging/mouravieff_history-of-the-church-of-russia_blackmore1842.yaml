@@ -1,0 +1,27 @@
+source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
+assignments:
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-mouravieff-blackmore-s
+  work: A History of the Church of Russia (Mouravieff; Blackmore's English, 1842)
+  author: mouravieff
+  locus: Sergius from file line 3151; Solovetsky 3520; Joseph of Volokolamsk 4413; Nilus of Sor and the
+    Monastic Rule 4648
+  atlas_ids:
+  - muscovite-monastic-christianity
+  role: context
+  confidence: assigned
+  note: A Russian official's narrative of the church in English. It covers Sergius and the Trinity foundation,
+    the colonisation of the north, the Solovetsky house, and the possessors and non-possessors. It speaks
+    about the movement, not in its voice. Read at the cited passages. The only public-domain English leg
+    for this world. Check its judgments as an official Orthodox standpoint.
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-mouravieff-blackmore-s-2
+  work: A History of the Church of Russia (Mouravieff; Blackmore's English, 1842)
+  author: mouravieff
+  locus: the sixteenth-century and seventeenth-century chapters (the name Nikon occurs about 189 times)
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  - russian-church-nikon-to-holy-synod
+  - the-old-believers
+  role: context
+  confidence: provisional
+  note: 'Placed on window and place: the same history carries the Stoglav period, the Nikonian reform
+    and the schism. Sampled by name counts only; not read for these entries.'

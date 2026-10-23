@@ -39,3 +39,14 @@ assignments:
   note: >-
     The same council from the Roman side, convoked by Eugenius IV. The census entry for the Latin papal church was
     not read for this placement.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906--mansi-tomus-31-the-council-of-florence-the-decree-for-the
+  work: 'Mansi, tomus 31: the Council of Florence, the decree for the Armenians (1439)'
+  author: mansi
+  locus: whole volume
+  atlas_ids:
+  - armenian-cilicia-after-the-kingdom
+  role: context
+  confidence: provisional
+  note: 'Tier: same time, different region (Florence). The heading ''De Armeniis'' is at file line 98033
+    and the union decree and its Latin version run to about 99150. Whether the Armenian delegation came
+    from the see of Sis is not checked. Placed on the heading; not read.'

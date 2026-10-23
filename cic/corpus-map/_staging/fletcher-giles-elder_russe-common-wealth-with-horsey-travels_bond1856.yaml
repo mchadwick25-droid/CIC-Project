@@ -30,3 +30,15 @@ assignments:
     note: An editorial footnote in this file (about file line 10166) names Jeremias, Patriarch of Constantinople,
       in connection with the Russian patriarchate; placed on that one passage, not on a reading of the whole
       for the Ottoman Orthodox world.
+  - row_id: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856--of-the-russe-common-wealth-fletcher-1591
+    work: Of the Russe Common Wealth (Fletcher, 1591)
+    author: fletcher-giles-elder
+    locus: whole volume
+    atlas_ids:
+    - muscovite-monastic-christianity
+    role: context
+    confidence: provisional
+    note: 'Tier: out-of-window (1591). An English envoy''s account of Russia. The chapter ''Their ecclesiasticall
+      state'' describes the Trinity monastery (about 700 friars) and the empress''s yearly pilgrimage on
+      foot to Saint Sergius, its patron (file lines 10660 to 10675); the Trinity is named again at 17175;
+      Solovetsky appears for the salt pits and the Onega river (5917, 6169). Read at those lines only.'

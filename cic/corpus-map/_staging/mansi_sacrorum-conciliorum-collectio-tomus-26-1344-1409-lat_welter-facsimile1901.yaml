@@ -52,3 +52,26 @@ assignments:
   note: >-
     The councils of the Avignon period in the Latin collection. Placed from the index; the census entry for the
     Latin papal church was not read for this placement.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901--mansi-tomus-26-the-constitutions-and-synodicon-of-nicosia
+  work: 'Mansi, tomus 26: the Constitutions and Synodicon of Nicosia, Cyprus'
+  author: mansi
+  locus: whole volume
+  atlas_ids:
+  - maronite-christianity-era-6
+  role: context
+  confidence: assigned
+  note: 'Tier: same time-place (Cyprus; Assemani dates the council of Nicosia to 1340 under Archbishop
+    Elias). ''CONSTITUTIONES NICOSIENSES'' begin at file line 29451 and ''SYNODICUM NICOSIENSE'' at 29471.
+    The attendance list at about line 35515 names the Greek bishops and ''fratre Georgio, Maronitarum''
+    and ''fratre Gregorio, Armenorum'' among the bishops, and 36036 names interpreters between Latins
+    and Maronites, Jacobites and Nestorians. Read at those lines; long s read as f.'
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901--mansi-tomus-26-the-constitutions-and-synodicon-of-nicosia-2
+  work: 'Mansi, tomus 26: the Constitutions and Synodicon of Nicosia, Cyprus'
+  author: mansi
+  locus: whole volume
+  atlas_ids:
+  - armenian-cilicia-after-the-kingdom
+  role: context
+  confidence: provisional
+  note: The Nicosia attendance list also names an Armenian bishop, Gregory (file line 35519). Placed on
+    that line; the Armenians of Cyprus and Cilicia are the world's neighbours.

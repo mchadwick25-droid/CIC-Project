@@ -14189,3 +14189,383 @@
     312 lists each author and work); Chalkokondyles''s history is in ten numbered books ; credit - "Patrologiae
     cursus completus, Series graeca, tomus 159, ed. J.-P. Migne, Paris: Migne, 1866; digital text from
     Internet Archive item patrologicursus44migngoog" ; republish - whole text, public domain by date.'
+- filename: macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883.txt
+  supplied_by: Claude (Library thread, Era VI pass for muscovite-monastic-christianity)
+  date_added: '2026-10-23'
+  notes: 'Great Menaion of Readings compiled by Metropolitan Macarius of All Russia, September 25-30,
+    published by the Archaeographic Commission, Saint Petersburg, Typography of the Imperial Academy of
+    Sciences (host date 1883; the OCR title page reads 1888). Internet Archive item velikiemineichetiisobrannyevserossijski92.
+    Rights: pd-us-by-date on the nineteenth-century imprint; the item record has no rights field. Fetched
+    directly from archive.org''s full-text file with curl, October 2026. Nothing normalised, stripped,
+    corrected or retyped. Church Slavonic in civil type; yat, i and some letter shapes misread. Contains
+    the Life of Sergius of Radonezh in the redaction whose writer names himself Pachomius, and the Praise
+    of Sergius ascribed to Epiphanius. Primary hagiographic voice for the Muscovite monastic world; second
+    witness for exact wording until a quote is checked against the page images.
+
+    READER: sections - the volume is arranged by day of the month, each day headed in capitals (СЕНТЯБРЯ
+    ДВАДЦАТЬ ПЯТЫЙ ДЕНЬ and so on to the thirtieth) with the printed column numbers in the running head;
+    each saint''s text opens ''В ТОЙ ЖЕ ДЕНЬ'' under its own title; the Life of Sergius is file lines
+    1363-12158 (columns 1408-1562) and the Praise 12159-13358 (columns 1563-1580); the contents list for
+    the volume is at file lines 163-258 ; credit - "Великие Минеи Четии, собранные всероссийским митрополитом
+    Макарием, Сентябрь, дни 25-30, Saint Petersburg, Typography of the Imperial Academy of Sciences, for
+    the Archaeographic Commission, 1883; digital text from Internet Archive item velikiemineichetiisobrannyevserossijski92"
+    ; republish - whole text, public domain by date.'
+- filename: nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt
+  supplied_by: Claude (Library thread, Era VI pass for muscovite-monastic-christianity)
+  date_added: '2026-10-23'
+  notes: 'Nil Sorsky, Предание и Устав, with an introductory article by M. S. Borovkova-Maikova, Saint
+    Petersburg, Typography of M. A. Aleksandrov, 1912 (title page read in the OCR). Internet Archive item
+    predanieiustav79. Rights: pd-us-by-date; the item record has no rights field. Fetched directly with
+    curl, October 2026. Nothing normalised, stripped, corrected or retyped. Slavonic text of the short
+    Tradition and the long Rule for the skete, with the editor''s Russian introduction and manuscript
+    variants. Readable Cyrillic in the old spelling with misread yat. Primary voice of the non-possessor
+    leader; quote only after checking the page images. No public-domain English translation (Goldfrank
+    and Maloney are in copyright).
+
+    READER: sections - editor''s introduction first (from file line 72), then descriptions of the manuscripts
+    (about 1158), then the Rule''s chapter list headed СКАЗАНИЕ ГЛАВАМЪ (file line 2538) and the chapters,
+    called ''Слово'' with their numbers in the body, with variant readings in footnotes marked by manuscript
+    letters; printed page numbers appear as bare numbers ; credit - "Нила Сорскаго Предание и Уставъ,
+    со вступительною статьею М. С. Боровковой-Майковой, Saint Petersburg, Typography of M. A. Aleksandrov,
+    1912; digital text from Internet Archive item predanieiustav79" ; republish - whole text, public domain
+    by date.'
+- filename: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
+  supplied_by: Claude (Library thread, Era VI pass for muscovite-monastic-christianity)
+  date_added: '2026-10-23'
+  notes: 'A. N. Mouravieff, A History of the Church of Russia, translated by the Rev. R. W. Blackmore,
+    Oxford, John Henry Parker, 1842 (title page MDCCCXLII). Internet Archive item historyofchurcho00mouriala
+    (University of California Libraries); item record gives date 1842 and NOT_IN_COPYRIGHT. Fetched directly
+    with curl, October 2026. Nothing normalised, stripped, corrected or retyped. Clean English, double-spaced
+    words in places. An official Russian narrative in English: covers Sergius, the northern colonisation,
+    Joseph of Volokolamsk, Nilus of Sor and the Nikonian reform. Speaks about the movement, not in its
+    voice. The only public-domain English leg found for the Muscovite monastic world.
+
+    READER: sections - chapters headed CHAP. with Roman numerals and marginal CHAP. headings, contents
+    from file line 590; Sergius at file line 3151, the Solovetsky foundation 3520, Joseph of Volokolamsk
+    4413, Nilus of Sor 4648; printed page numbers kept ; credit - "A History of the Church of Russia,
+    by A. N. Mouravieff, translated by R. W. Blackmore, Oxford, John Henry Parker, 1842; digital text
+    from Internet Archive item historyofchurcho00mouriala (University of California Libraries)" ; republish
+    - whole text, public domain by date.'
+- filename: fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt
+  supplied_by: Claude (Library thread, Era VI pass for the-bosnian-church)
+  date_added: '2026-10-23'
+  notes: 'Eusebius Fermendžin, Acta Bosnae potissimum ecclesiastica ... ab anno 925 usque ad annum 1752,
+    Monumenta spectantia historiam Slavorum meridionalium vol. 23, Zagreb, Yugoslav Academy, 1892 (title
+    page ''ZAGRABIAE 1892''). Internet Archive item actabosnaepotis00fermgoog (Harvard, Google scan);
+    NOT_IN_COPYRIGHT. Fetched directly with curl, October 2026. Nothing normalised, stripped, corrected
+    or retyped (the OCR has doubled spaces between words). Latin regests of papal, royal and Ragusan documents
+    on Bosnia. Hostile and outside record of the Bosnian Church. Second witness for exact wording. A second
+    scan of the same book, monumentaspecta00umjegoog (Michigan), reads slightly better and is bound with
+    a second Monumenta volume; not vendored.
+
+    READER: sections - numbered regests in Roman numerals, each with a date and place heading (for example
+    ''XXVIII. 1200, 11 Octobris, Laterani''), in chronological order from 925 to 1752, each ending with
+    its source reference; the Kulin regest is at file line 548; names index at the end ; credit - "Acta
+    Bosnae potissimum ecclesiastica cum insertis editorum documentorum regestis ab anno 925 usque ad annum
+    1752, collegit et digessit P. Eusebius Fermendžin, Zagreb, Academia scientiarum et artium Slavorum
+    meridionalium, 1892; digital text from Internet Archive item actabosnaepotis00fermgoog (Harvard University)"
+    ; republish - whole text, public domain by date.'
+- filename: theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt
+  supplied_by: Claude (Library thread, Era VI pass for the-bosnian-church)
+  date_added: '2026-10-23'
+  notes: 'Augustin Theiner, Vetera monumenta Slavorum meridionalium historiam illustrantia ... tomus primus,
+    ab Innocentio PP. III usque ad Paulum PP. III, Rome, Typis Vaticanis, 1863 (title page ROMAE 1863).
+    Internet Archive item bub_gb_ahptjBz6wEAC (National Central Library of Rome, Google scan); Public
+    Domain Mark 1.0. Fetched directly with curl, October 2026. Nothing normalised, stripped, corrected
+    or retyped. Papal registers on the south Slavic lands, 1198-1549; letter XXXIV and instrument XXXV
+    of 1203 give the Bosnian priors'' own undertaking to Rome. Second witness for exact wording. A second
+    Google scan, bub_gb_XXtcAAAAcAAJ, was not vendored.
+
+    READER: sections - documents numbered in Roman numerals (XXXIV at file line 5912, XXXV at 5955), each
+    with a Latin heading and register citation (for example ''Reg. An. VI. ep. 141''); running heads give
+    the pope and regnal year; index of persons and places from 50294 ; credit - "Vetera monumenta Slavorum
+    meridionalium historiam illustrantia, tomus primus, ed. Augustin Theiner, Rome, Typis Vaticanis, 1863;
+    digital text from Internet Archive item bub_gb_ahptjBz6wEAC (National Central Library of Rome)" ;
+    republish - whole text, public domain by date.'
+- filename: racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt
+  supplied_by: Claude (Library thread, Era VI pass for the-bosnian-church)
+  date_added: '2026-10-23'
+  notes: 'Franjo Rački, Bogomili i Patareni, Rad Jugoslavenske akademije znanosti i umjetnosti knjiga
+    VII (84-179), Zagreb, 1869-1870. Internet Archive item rad_jugoslavenske_akademije_znanosti_knjiga_vi_vii_1869
+    (Google scan). Rights: pd-us-by-date on the Zagreb imprint of 1869-1870; the item record has no rights
+    field. PARTIAL EXTRACT: lines 18791-24144 of the host text file, the article only, copied unchanged;
+    the rest of the volume (other papers) is not included. Fetched directly with curl, October 2026. Readable
+    Croatian with doubled spaces and damaged diacritics. The standard nineteenth-century study that argued
+    the Bogomil identification; secondary scholarship. Three extracts hold the whole article (Rad VII,
+    VIII and X).
+
+    READER: sections - one article in the Academy''s Rad, headed ''Bogomili i Patareni'' (title line at
+    the first line of the extract), with the running head BOGOMILI I PATARENI and printed page numbers,
+    and numbered footnotes on each page; this extract covers Rad VII 84-179 ; credit - "Franjo Rački,
+    Bogomili i Patareni, Rad Jugoslavenske akademije znanosti i umjetnosti, knjiga VII, Zagreb, 1869-1870
+    (extract); digital text from Internet Archive item rad_jugoslavenske_akademije_znanosti_knjiga_vi_vii_1869"
+    ; republish - the extract (the article only), public domain by date.'
+- filename: racki_bogomili-i-patareni-rad-viii-hrv_jazu1869.txt
+  supplied_by: Claude (Library thread, Era VI pass for the-bosnian-church)
+  date_added: '2026-10-23'
+  notes: 'Franjo Rački, Bogomili i Patareni, Rad Jugoslavenske akademije znanosti i umjetnosti knjiga
+    VIII (121-187), Zagreb, 1869-1870. Internet Archive item rad_jugoslavenske_akademije_znanosti_knjiga_8_1869
+    (Google scan). Rights: pd-us-by-date on the Zagreb imprint of 1869-1870; the item record has no rights
+    field. PARTIAL EXTRACT: lines 7086-10896 of the host text file, the article only, copied unchanged;
+    the rest of the volume (other papers) is not included. Fetched directly with curl, October 2026. Readable
+    Croatian with doubled spaces and damaged diacritics. The standard nineteenth-century study that argued
+    the Bogomil identification; secondary scholarship. Three extracts hold the whole article (Rad VII,
+    VIII and X).
+
+    READER: sections - one article in the Academy''s Rad, headed ''Bogomili i Patareni'' (title line at
+    the first line of the extract), with the running head BOGOMILI I PATARENI and printed page numbers,
+    and numbered footnotes on each page; this extract covers Rad VIII 121-187 ; credit - "Franjo Rački,
+    Bogomili i Patareni, Rad Jugoslavenske akademije znanosti i umjetnosti, knjiga VIII, Zagreb, 1869-1870
+    (extract); digital text from Internet Archive item rad_jugoslavenske_akademije_znanosti_knjiga_8_1869"
+    ; republish - the extract (the article only), public domain by date.'
+- filename: racki_bogomili-i-patareni-rad-x-hrv_jazu1870.txt
+  supplied_by: Claude (Library thread, Era VI pass for the-bosnian-church)
+  date_added: '2026-10-23'
+  notes: 'Franjo Rački, Bogomili i Patareni, Rad Jugoslavenske akademije znanosti i umjetnosti knjiga
+    X (from p. 160), Zagreb, 1869-1870. Internet Archive item rad_jugoslavenske_akademije_znanosti_knjiga_9_10_1869-1870
+    (Google scan). Rights: pd-us-by-date on the Zagreb imprint of 1869-1870; the item record has no rights
+    field. PARTIAL EXTRACT: lines 22040-27976 of the host text file, the article only, copied unchanged;
+    the rest of the volume (other papers) is not included. Fetched directly with curl, October 2026. Readable
+    Croatian with doubled spaces and damaged diacritics. The standard nineteenth-century study that argued
+    the Bogomil identification; secondary scholarship. Three extracts hold the whole article (Rad VII,
+    VIII and X).
+
+    READER: sections - one article in the Academy''s Rad, headed ''Bogomili i Patareni'' (title line at
+    the first line of the extract), with the running head BOGOMILI I PATARENI and printed page numbers,
+    and numbered footnotes on each page; this extract covers Rad X from p. 160 ; credit - "Franjo Rački,
+    Bogomili i Patareni, Rad Jugoslavenske akademije znanosti i umjetnosti, knjiga X, Zagreb, 1869-1870
+    (extract); digital text from Internet Archive item rad_jugoslavenske_akademije_znanosti_knjiga_9_10_1869-1870"
+    ; republish - the extract (the article only), public domain by date.'
+- filename: miklosich_monumenta-serbica-chu_miklosich1858.txt
+  supplied_by: Claude (Library thread, Era VI pass for the-bosnian-church)
+  date_added: '2026-10-23'
+  notes: 'Franz Miklosich, Monumenta Serbica spectantia historiam Serbiae, Bosnae, Ragusii, Vienna, Braumüller,
+    1858 (year read in the OCR of the title page). Internet Archive item monumenta-serbica-spectantia-historiam-serbiae-bosnae-ragusii-ed-f-miklosich-viennae-1858,
+    an upload with no metadata. Rights: pd-us-by-date on the title-page year. Fetched directly with curl,
+    October 2026. Nothing normalised, stripped, corrected or retyped. Best of four scans, still poor:
+    Cyrillic letters often read as Latin or Greek lookalikes. SECOND WITNESS ONLY: locate a charter here,
+    then read the page image. Bosnian rulers'' charters in Serbian Church Slavonic.
+
+    READER: sections - charters numbered and headed in Latin with the date, in chronological order, Serbian
+    text under each; printed page numbers kept in the body ; credit - "Monumenta Serbica spectantia historiam
+    Serbiae, Bosnae, Ragusii, ed. Franz Miklosich, Vienna, Guilelmus Braumüller, 1858; digital text from
+    Internet Archive item monumenta-serbica-spectantia-historiam-serbiae-bosnae-ragusii-ed-f-miklosich-viennae-1858
+    (upload without a named library)" ; republish - whole text, public domain by date.'
+- filename: evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt
+  supplied_by: Claude (Library thread, Era VI pass for the-bosnian-church)
+  date_added: '2026-10-23'
+  notes: 'Arthur J. Evans, Through Bosnia and the Herzegovina on foot during the insurrection, August
+    and September 1875 ... with an historical review of Bosnia, London, Longmans, Green, and Co., 1877
+    (title page 1877). Internet Archive item throughbosniaher00evanrich (University of California Libraries);
+    NOT_IN_COPYRIGHT. Fetched directly with curl, October 2026. Nothing normalised, stripped, corrected
+    or retyped. Clean English. A Victorian traveller''s account whose historical review presents the Bosnian
+    Church as Bogomil; useful as the source of the old reading and for the names krstjani, djed, strojnik.
+
+    READER: sections - chapters I-IX headed CHAPTER in capitals, with a long ''Historical Review of Bosnia''
+    in Roman-numeral pages before them (running head from file line 972); appendix and index at the end;
+    printed page numbers kept ; credit - "Through Bosnia and the Herzegovina on foot ..., by Arthur J.
+    Evans, London, Longmans, Green, and Co., 1877; digital text from Internet Archive item throughbosniaher00evanrich
+    (University of California Libraries)" ; republish - whole text, public domain by date.'
+- filename: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt
+  supplied_by: Claude (Library thread, Era VI pass for armenian-cilicia-after-the-kingdom)
+  date_added: '2026-10-23'
+  notes: 'Recueil des historiens des croisades, Documents arméniens, tome second: Documents latins et
+    français relatifs à l''Arménie, Paris, Imprimerie nationale, 1906 (title page M DCCCC VI). Internet
+    Archive item recueildeshistoriensdescroarme2 (Google scan from the University of California). Rights:
+    pd-us-by-date; the item record has no rights field. Fetched directly with curl, October 2026. Nothing
+    normalised, stripped, corrected or retyped. Hayton''s Flor des estoires (1307), the Pseudo-Brocard,
+    the Responsio of Daniel de Thaurizio and Jean Dardel''s Chronique d''Arménie (to 1384). Latin and
+    French sources; the Armenian church speaks through intermediaries.
+
+    READER: sections - avant-propos at file line 128; the works under their authors'' names with running
+    heads (HAYTON at 1556, [PSEUDO-]BROCARDUS 13370, RESPONSIO AD ERRORES IMPOSITOS HERMENIS 18774, CHRONIQUE
+    D''ARMÉNIE 23243), Dardel''s text in numbered chapters; table of contents and index at the end ; credit
+    - "Recueil des historiens des croisades, Documents arméniens, tome II, Paris, Imprimerie nationale,
+    1906; digital text from Internet Archive item recueildeshistoriensdescroarme2 (University of California)"
+    ; republish - whole text, public domain by date.'
+- filename: rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt
+  supplied_by: Claude (Library thread, Era VI pass for armenian-cilicia-after-the-kingdom)
+  date_added: '2026-10-23'
+  notes: 'Recueil des historiens des croisades, Documents arméniens, tome premier, Paris, Imprimerie impériale,
+    1869 (title page M DCCC LXIX). Internet Archive item recueildeshistoriensdescroarme1; the item record
+    gives date 1869 and the Public Domain Mark 1.0. Fetched directly with curl, October 2026. Nothing
+    normalised, stripped, corrected or retyped. Armenian chroniclers of the crusade period in French;
+    the parts in the 1300-1441 window are Hethum II''s poem, the Constable Sempad''s chronicle with its
+    continuation to about 1335 and the closing appendix. Clean OCR.
+
+    READER: sections - introduction and a chronological list of the chroniclers at the head; the chroniclers
+    in sections with running heads (POÈME DE HÉTHOUM II at 63745, LE CONNÉTABLE SÉMPAD 67474, APPENDICE
+    72578, CONTINUATION ET FIN 74692); index of names at the end ; credit - "Recueil des historiens des
+    croisades, Documents arméniens, tome I, Paris, Imprimerie impériale, 1869; digital text from Internet
+    Archive item recueildeshistoriensdescroarme1" ; republish - whole text, public domain by date.'
+- filename: mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt
+  supplied_by: Claude (Library thread, Era VI pass for armenian-cilicia-after-the-kingdom)
+  date_added: '2026-10-23'
+  notes: 'Mansi, Sacrorum conciliorum nova et amplissima collectio, tomus 25, 1300-1344: Venice edition
+    of Zatta (1782), in the Welter facsimile of 1903. Internet Archive item sacrorumconcilio0025joan (contributor
+    Internet Archive). Rights: pd-us-by-date on the title-page imprint VENETIIS MDCCLXXXII and the 1903
+    facsimile line. Fetched directly with curl, October 2026. Nothing normalised, stripped, corrected
+    or retyped (the long s is read as f throughout and was not converted). Contains the acts of the Armenian
+    council of Sis (1307) and of Adana (1316), and the council of Vienne. Second witness for exact wording.
+
+    READER: sections - column-numbered folio (the columns run in the running head); each council headed
+    in capitals (''ACTA CONCILII SISENSIS ARMENI'' at file line 12653, ''CONCILIUM VIENNENSE'' 35558,
+    ''ACTA CONCILII ADANENSIS'' 61813), with Mansi''s notes in the margins ; credit - "Sacrorum conciliorum
+    nova et amplissima collectio, ed. Giovanni Domenico Mansi, tomus 25, Venice, Antonio Zatta, 1782,
+    in the Welter facsimile of 1903; digital text from Internet Archive item sacrorumconcilio0025joan"
+    ; republish - whole text, public domain by date.'
+- filename: langlois_documents-lusignans-petite-armenie-1342-1394-fra_langlois1859.txt
+  supplied_by: Claude (Library thread, Era VI pass for armenian-cilicia-after-the-kingdom)
+  date_added: '2026-10-23'
+  notes: 'Victor Langlois, Documents pour servir à l''histoire des Lusignans de la Petite Arménie (1342-1394),
+    offprint of the Revue archéologique, Paris, Leleux, Durand and Aubry, 1859. Internet Archive item
+    DocumentsPourServirALhistoireDesLusignansDeLaPetiteArmenie, an upload without metadata; a Google scan
+    from Count Paul Riant''s library via Harvard. Rights: pd-us-by-date on the title-page year 1859. Fetched
+    directly with curl, October 2026. Nothing normalised, stripped, corrected or retyped. Forty-one numbered
+    documents of the last decades of the kingdom, ending with a colophon of 1393-94 in French.
+
+    READER: sections - numbered documents 1-41, each with a date heading (for example ''41. 1394.'' at
+    file line 3186); running head REVUE ARCHÉOLOGIQUE with printed page numbers ; credit - "Documents
+    pour servir à l''histoire des Lusignans de la Petite Arménie (1342-1394), recueillis et mis en ordre
+    par Victor Langlois, Paris, 1859; digital text from Internet Archive item DocumentsPourServirALhistoireDesLusignansDeLaPetiteArmenie"
+    ; republish - whole text, public domain by date.'
+- filename: neve_etude-sur-thomas-de-medzoph-fra_journal-asiatique1855.txt
+  supplied_by: Claude (Library thread, Era VI pass for armenian-cilicia-after-the-kingdom)
+  date_added: '2026-10-23'
+  notes: 'Félix Nève, Étude sur Thomas de Medzoph, et sur son histoire de l''Arménie au XVe siècle, Journal
+    asiatique, 5e série, tome VI, August-September 1855, Paris, Imprimerie impériale. Internet Archive
+    item EtudeSurThomasDeMedzophEtSurSonHistoireDeLarmenieAuXveSiecle, an upload without metadata. Rights:
+    pd-us-by-date on the title page of the volume (M DCCC LV). Fetched directly with curl, October 2026.
+    Nothing normalised, stripped, corrected or retyped. A study of Thomas of Medzoph''s chronicle of Tamerlane''s
+    invasions with French extracts. Readable French.
+
+    READER: sections - one article in the Journal asiatique, with the running head ÉTUDE SUR THOMAS DE
+    MEDZOPH and the journal''s printed page numbers (about 221 onward); footnotes numbered per page ;
+    credit - "Étude sur Thomas de Medzoph, par Félix Nève, Journal asiatique, 5e série, tome VI, Paris,
+    Imprimerie impériale, 1855; digital text from Internet Archive item EtudeSurThomasDeMedzophEtSurSonHistoireDeLarmenieAuXveSiecle"
+    ; republish - whole text, public domain by date.'
+- filename: duwayhi_tarikh-al-ta-ifa-al-maruniyya-ara_shartuni1890.txt
+  supplied_by: Claude (Library thread, Era VI pass for maronite-christianity-era-6)
+  date_added: '2026-10-23'
+  notes: 'Isṭifān al-Duwayhī, Tārīkh al-ṭā''ifa al-mārūniyya (History of the Maronite Community), edited
+    by Rashīd al-Khūrī al-Shartūnī, Beirut, Catholic Press of the Jesuit Fathers (host date 1890). Internet
+    Archive item AAlexandrina-142168 (Bibliotheca Alexandrina scan). Rights: pd-us-by-date on the host''s
+    date 1890; the printed year is not legible in the OCR and the item record has no rights field. Fetched
+    directly with curl, October 2026. Nothing normalised, stripped, corrected or retyped. Arabic OCR is
+    heavily damaged. SECOND WITNESS ONLY: a locator for a later Maronite account of the church''s history.
+    Another Arabic scan (tarekh_taefa_marounia, books4all.net) was not vendored because its rights are
+    not stated.
+
+    READER: sections - chapters headed with the Arabic word for chapter and a number, with the editor''s
+    footnotes at the foot of each page and Arabic-Indic page numbers (damaged in the OCR); the chapter
+    order was not mapped ; credit - "تاريخ الطائفة المارونية (Tārīkh al-ṭā''ifa al-mārūniyya) by Isṭifān
+    al-Duwayhī, ed. Rashīd al-Khūrī al-Shartūnī, Beirut, al-Maṭbaʿa al-Kāthūlīkiyya, 1890; digital text
+    from Internet Archive item AAlexandrina-142168 (Bibliotheca Alexandrina)" ; republish - whole text,
+    public domain by date.'
+- filename: assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt
+  supplied_by: Claude (Library thread, Era VI pass for maronite-christianity-era-6)
+  date_added: '2026-10-23'
+  notes: 'Giuseppe Simone Assemani, Bibliotheca orientalis Clementino-Vaticana, tomus primus, De scriptoribus
+    Syris orthodoxis, Rome, Typis Sacrae Congregationis de Propaganda Fide, 1719 (OCR line ''ROME, MDCCXIX'').
+    Internet Archive item BOClementino1 (Brigham Young University and the Catholic University of America);
+    Public Domain Mark 1.0. Fetched directly with curl, October 2026. Nothing normalised, stripped, corrected
+    or retyped (long s read as f; Syriac and Arabic passages garbled). A catalogue of Syriac manuscripts
+    by a Maronite scholar with chapters on the Maronite writers and patriarchs and on Gabriel Barclai
+    of Nicosia. Second witness for exact wording.
+
+    READER: sections - folio in ''Cap.'' chapters, one per writer, listed in the contents at file lines
+    6435-6447 (for example ''Cap. XLII. Joannes Maro Patriarcha Antiochiae''); manuscript entries with
+    codex numbers; an index of manuscripts at the end ; credit - "Bibliotheca orientalis Clementino-Vaticana,
+    tomus I, by Joseph Simonius Assemanus, Rome, Typis Sacrae Congregationis de Propaganda Fide, 1719;
+    digital text from Internet Archive item BOClementino1 (Brigham Young University; The Catholic University
+    of America)" ; republish - whole text, public domain by date.'
+- filename: raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt
+  supplied_by: Claude (Library thread, Era VI pass for maronite-christianity-era-6)
+  date_added: '2026-10-23'
+  notes: 'Baronius, Raynaldus and Laderchi, Annales ecclesiastici, tomus 28 (1424-1453), edited and continued
+    by Augustin Theiner, Bar-le-Duc, Ludovicus Guérin, 1874 (title page, OCR ''M DGGC LXXIV''; the host
+    gives 1864). Internet Archive item annalesecclesias28barouoft (University of Toronto); the item record
+    carries no rights field. Rights: pd-us-by-date. Fetched directly with curl, October 2026. Nothing
+    normalised, stripped, corrected or retyped. Latin with moderate OCR damage. Under the year 1445 (Eugenius
+    IV, year 15) it prints the bull ''Benedictus sit Deus et Pater'' receiving the Cypriot Chaldaeans
+    and Maronites. Roman-side record. Second witness for exact wording.
+
+    READER: sections - annals by pontificate and year (''EUGENII IV ANNUS 15 - CHRISTI 1445'' at file
+    line 62173), numbered paragraphs within each year, Raynaldus''s text with the documents printed in
+    full and editor''s notes; the Cyprus passage is paragraph 21 (62418) ; credit - "Annales ecclesiastici,
+    tomus XXVIII (1424-1453), Baronius, Raynaldus, Laderchi, ed. Augustin Theiner, Bar-le-Duc, Ludovicus
+    Guérin, 1874; digital text from Internet Archive item annalesecclesias28barouoft (University of Toronto)"
+    ; republish - whole text, public domain by date.'
+- filename: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt
+  supplied_by: Claude (Library thread, Era VI pass for armenian-cilicia-after-the-kingdom)
+  date_added: '2026-10-23'
+  notes: 'Het''um the Historian''s History of the Tartars [Flower of Histories of the East], translated
+    by Robert Bedrosian, Long Branch, New Jersey, 2004 (preface signed with that place and year). Internet
+    Archive item HetumTheHistoriansFlowerOfHistoriesOfTheEast, an upload without metadata. Rights: the
+    translator''s own declaration in the text, ''This translation is in the public domain. It may be copied
+    and distributed freely.'' (file line 37). The item record has no licence field. The translation includes
+    bracketed passages from Burger''s 1988 edition of Pynson''s c. 1520 English; the project lead may
+    want to confirm the declaration covers them. Fetched directly with curl, October 2026. Nothing normalised,
+    stripped, corrected or retyped. Modern English of the work dictated in French at Poitiers in 1307
+    by the Cilician Armenian prince Het''um. This is the English leg for the French and Latin texts also
+    vendored.
+
+    READER: sections - four books in numbered chapters headed ''Chapter 1'' and so on; the translator''s
+    page numbers appear in square brackets in the text, the page numbers of the Classical Armenian text
+    as [gNN], and the Old English page numbers as [oeNN]; translator''s preface at the head ; credit -
+    "Het''um the Historian''s History of the Tartars [The Flower of Histories of the East], translated
+    by Robert Bedrosian, Long Branch, New Jersey, 2004; digital text from Internet Archive item HetumTheHistoriansFlowerOfHistoriesOfTheEast"
+    ; republish - whole text, public domain by the translator''s own declaration quoted above (not by
+    date).'
+- filename: hetum_historia-orientalis-de-tartaris-lat_muller1671.txt
+  supplied_by: Claude (Library thread, Era VI pass for armenian-cilicia-after-the-kingdom)
+  date_added: '2026-10-23'
+  notes: 'Haithoni Armeni historia orientalis, quae eadem et De Tartaris inscribitur (the Latin of Nicolas
+    Falcon, 1307), in the Marco Polo volume of Andreas Müller, 1671 (the OCR title page reads cIo Ic LXXl).
+    Internet Archive item bub_gb_1VwdIBtEDCYC (National Central Library of Rome, Google scan); Public
+    Domain Mark 1.0. Fetched directly with curl, October 2026. Nothing normalised, stripped, corrected
+    or retyped (the long s is read as f). Only the Hayton section of the volume is in this file. The Latin
+    text of the Flos historiarum partium Orientis. Second witness for exact wording. English: the Bedrosian
+    file.
+
+    READER: sections - Falcon''s testimony at file line 47; chapters headed ''Cap.'' with Roman numerals
+    from file line 231, running head ''HIST. ORIENT.''; an index at the end ; credit - "Haithoni Armeni
+    historia orientalis, quae eadem et De Tartaris inscribitur, with Marci Pauli Veneti De regionibus
+    orientalibus libri 3, ed. Andreas Müller, 1671; digital text from Internet Archive item bub_gb_1VwdIBtEDCYC
+    (National Central Library of Rome)" ; republish - whole text, public domain by date.'
+- filename: truhelka_testamenat-gosta-radina-hrv_glasnik-zemaljskog-muzeja1911.txt
+  supplied_by: Claude (Library thread, Era VI pass for the-bosnian-church)
+  date_added: '2026-10-23'
+  notes: 'Ćiro Truhelka, Testamenat gosta Radina. Prinos patarenskom pitanju, Glasnik zemaljskog muzeja
+    u Bosni i Hercegovini XXIII (1911), pp. 355-376, with four plates; Sarajevo, Zemaljska štamparija.
+    Internet Archive item glasnikzemaljsk2319zema_2 (University of Illinois copy); the volume''s title
+    page and running heads read 1911 (the host date 1948 is not relied on). Rights: pd-us-by-date. PARTIAL
+    EXTRACT: lines 20081-21369 of the host text file, the article only, copied unchanged. Fetched directly
+    with curl, October 2026. Gost Radin''s testament of 1466, the one substantial document from inside
+    the Bosnian Church, with the editor''s commentary. The Croatian commentary reads well; the testament''s
+    own text, printed in Bosnian Cyrillic, is garbled by the OCR and cannot be quoted from it. Read the
+    plates and page images.
+
+    READER: sections - one article; Radin''s career from file line 26, commentary on the cross and opening
+    words at 818-820, the printed text under ''Tekst testamenta Radina gosta'' at 1095 to 1300; printed
+    page numbers appear as running numbers in the form ''— 372 —'' ; credit - "Ćiro Truhelka, Testamenat
+    gosta Radina, Glasnik zemaljskog muzeja u Bosni i Hercegovini XXIII, Sarajevo, 1911 (extract, pp.
+    355-376); digital text from Internet Archive item glasnikzemaljsk2319zema_2 (University of Illinois
+    Urbana-Champaign)" ; republish - the extract (the article only), public domain by date.'
+- filename: alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888.txt
+  supplied_by: Claude (Library thread, Era VI pass for armenian-cilicia-after-the-kingdom)
+  date_added: '2026-10-23'
+  notes: 'Ghewond (Léon) M. Alishan, Léon le Magnifique, premier roi de Sissouan ou de l''Arméno-Cilicie,
+    with a Table chronologique de l''histoire de Sissouan, Venice, Mekhitarist press of San Lazzaro, 1888
+    (title page VENISE - S. LAZARE 1888). Internet Archive item lonlemagnifique00alisgoog (Harvard, Google
+    scan); NOT_IN_COPYRIGHT. Fetched directly with curl, October 2026. Nothing normalised, stripped, corrected
+    or retyped. The life of Levon I belongs to the earlier Cilician world; the Table chronologique runs
+    year by year from 1219 and serves the 1300-1441 window. Clean French. A Mekhitarist scholar''s list
+    from native chronicles.
+
+    READER: sections - a preamble and nine chapters (contents at file line 469), then ''TABLE CHRONOLOGIQUE''
+    at 16139 with one entry per year from 1219 (the entries for 1300 at 16871 are inside it), then ''TABLE
+    DES NOMS'' at 17871; printed page numbers kept ; credit - "Léon le Magnifique, premier roi de Sissouan
+    ou de l''Arméno-Cilicie, par le R. P. Léon M. Alishan, Venice, Imprimerie mékhithariste de S. Lazare,
+    1888; digital text from Internet Archive item lonlemagnifique00alisgoog (Harvard University)" ; republish
+    - whole text, public domain by date.'

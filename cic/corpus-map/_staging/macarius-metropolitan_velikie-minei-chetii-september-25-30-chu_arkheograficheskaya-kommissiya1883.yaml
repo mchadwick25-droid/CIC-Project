@@ -1,0 +1,29 @@
+source_file: macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883.txt
+assignments:
+- row_id: macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883--great-menaion-of-metropolitan-macarius-september-25-the-life
+  work: 'Great Menaion of Metropolitan Macarius, September 25: the Life of Saint Sergius of Radonezh (Pachomius''s
+    redaction) and the Praise of Sergius ascribed to Epiphanius'
+  author: macarius-metropolitan
+  locus: the Life from file line 1363 to 12158 (printed columns 1408-1562); the Praise 'сотворено ...
+    священноинокомъ Епифанемъ' from 12159 to about 13358 (columns 1563-1580)
+  atlas_ids:
+  - muscovite-monastic-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The founding Life of the movement''s founder and the Praise its Epiphanius wrote, in the Slavonic
+    of the sixteenth-century Menaion. The census says Epiphanius''s own Life survives only through Pachomius''s
+    reworking; the Life here names Pachomius as its writer (line 5033) and the Praise is assigned in its
+    heading to Epiphanius. Primary voice, ready to quote once checked against the page images; the OCR
+    is Slavonic with systematic letter substitutions, so cite by wording and file line. No public-domain
+    English translation: Mouravieff''s narrative (vendored) retells it, and Zenkovsky''s abridged English
+    is in copyright.'
+- row_id: macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883--great-menaion-of-metropolitan-macarius-september-25-the-life-2
+  work: 'Great Menaion of Metropolitan Macarius, September 25: the Life and Praise of Saint Sergius'
+  author: macarius-metropolitan
+  locus: as above, file lines 1363 to 13358
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: context
+  confidence: provisional
+  note: 'Placed on place and window: the same Muscovite church kept and read Sergius''s Life in this compilation.
+    Not read for this entry.'

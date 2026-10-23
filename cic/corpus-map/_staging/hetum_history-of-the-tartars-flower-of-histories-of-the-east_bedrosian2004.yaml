@@ -1,0 +1,26 @@
+source_file: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt
+assignments:
+- row_id: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004--het-um-the-historian-s-history-of-the-tartars-flower-of
+  work: Het'um the Historian's History of the Tartars [Flower of Histories of the East] (Bedrosian 2004)
+  author: hetum
+  locus: translator's preface from file line 302; Book IV, the crusade plan for Pope Clement V, near the
+    end
+  atlas_ids:
+  - armenian-cilicia-after-the-kingdom
+  role: context
+  confidence: assigned
+  note: 'Het''um''s work of 1307 in clean modern English by a translator who declares it public domain.
+    The court of Cilician Armenia speaking to the Pope in the year of the Sis council: geography, Mongol
+    history and a plan for a crusade. Not the church''s voice on doctrine. Read the preface and sampled
+    books. The rights rest on the translator''s own declaration; see the registry note.'
+- row_id: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004--het-um-the-historian-s-history-of-the-tartars-flower-of-2
+  work: Het'um the Historian's History of the Tartars [Flower of Histories of the East] (Bedrosian 2004)
+  author: hetum
+  locus: the whole text
+  atlas_ids:
+  - armenian-cilicia
+  - church-of-the-east-under-the-mongols
+  role: context
+  confidence: provisional
+  note: 'Placed on window and subject: the Mongol history to about 1304 and the Cilician court. Not read
+    for these entries.'

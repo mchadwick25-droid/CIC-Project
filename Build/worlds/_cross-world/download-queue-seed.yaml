@@ -14263,3 +14263,652 @@ queue:
       read; the file listing shows a 20 KB text file, not fetched.'
     status: not-yet-downloaded
     hold_note: 'As above: the lead''s call on the uploader''s Public Domain Mark.'
+
+  - title: Великие Минеи Четии, собранные всероссийским митрополитом Макарием, Сентябрь, дни 25-30 (Life
+      of Sergius of Radonezh and the Praise ascribed to Epiphanius)
+    author: Macarius, Metropolitan (compiler); Pachomius (Life); Epiphanius (Praise)
+    translator: none (Church Slavonic)
+    year: 1883 (OCR title page reads 1888)
+    world: muscovite-monastic-christianity (V.8)
+    why: The census says the Life of Sergius survives only through Pachomius's reworking and that English
+      exists only abridged and in copyright. This printed Menaion carries the Pachomian Life and the Praise
+      assigned to Epiphanius, in Slavonic.
+    url: https://archive.org/details/velikiemineichetiisobrannyevserossijski92
+    rights_basis: pd-us-by-date; no rights field
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883.txt
+  - title: Предание и Устав (Tradition and Rule for the skete)
+    author: Nil Sorsky
+    translator: none (Slavonic with a Russian introduction by M. S. Borovkova-Maikova)
+    year: 1912
+    world: muscovite-monastic-christianity (V.8)
+    why: The non-possessor leader's own rule, named as a lead (Borovkova-Maikova 1912).
+    url: https://archive.org/details/predanieiustav79
+    rights_basis: pd-us-by-date; no rights field
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt
+  - title: A History of the Church of Russia
+    author: A. N. Mouravieff
+    translator: R. W. Blackmore
+    year: 1842
+    world: muscovite-monastic-christianity (V.8)
+    why: Named as a lead. The only public-domain English narrative found covering Sergius, the north, Joseph
+      and Nil.
+    url: https://archive.org/details/historyofchurcho00mouriala
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
+  - title: Acta Bosnae potissimum ecclesiastica ... ab anno 925 usque ad annum 1752
+    author: Eusebius Fermendžin (compiler)
+    translator: none (Latin)
+    year: 1892
+    world: the-bosnian-church (V.20)
+    why: Named as a lead (Fermendžin, Acta Bosnae, 1892). The Roman and Ragusan record of the Bosnian Church.
+    url: https://archive.org/details/actabosnaepotis00fermgoog
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt
+  - title: Vetera monumenta Slavorum meridionalium, tomus primus
+    author: Augustin Theiner (editor)
+    translator: none (Latin)
+    year: 1863
+    world: the-bosnian-church (V.20)
+    why: Named as a lead (Theiner 1863). Prints the 1203 undertaking of the Bosnian priors, instrument XXXV.
+    url: https://archive.org/details/bub_gb_ahptjBz6wEAC
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt
+  - title: Bogomili i Patareni, Rad Jugoslavenske akademije, knjige VII, VIII and X (three extracts)
+    author: Franjo Rački
+    translator: none (Croatian)
+    year: 1869-1870
+    world: the-bosnian-church (V.20)
+    why: Named as a lead (Rački 1869-70). The article is split across three volumes of the Academy's Rad;
+      each extract holds the article only.
+    url: https://archive.org/details/rad_jugoslavenske_akademije_znanosti_knjiga_vi_vii_1869
+    rights_basis: pd-us-by-date; no rights field
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt; racki_bogomili-i-patareni-rad-viii-hrv_jazu1869.txt;
+      racki_bogomili-i-patareni-rad-x-hrv_jazu1870.txt
+  - title: Testamenat gosta Radina. Prinos patarenskom pitanju (Glasnik zemaljskog muzeja XXIII, pp. 355-376)
+    author: Ćiro Truhelka (editor); Gost Radin (testator, 1466)
+    translator: none (Croatian; the testament in Bosnian Cyrillic)
+    year: 1911
+    world: the-bosnian-church (V.20)
+    why: The one substantial document from inside the Bosnian Church. Found in the 1911 volume of the Sarajevo
+      museum's Glasnik, not by title search.
+    url: https://archive.org/details/glasnikzemaljsk2319zema_2
+    rights_basis: pd-us-by-date on the volume's printed 1911; the host date 1948 is not relied on
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: truhelka_testamenat-gosta-radina-hrv_glasnik-zemaljskog-muzeja1911.txt
+  - title: Monumenta Serbica spectantia historiam Serbiae, Bosnae, Ragusii
+    author: Franz Miklosich (editor)
+    translator: none (Serbian Church Slavonic with Latin notes)
+    year: 1858
+    world: the-bosnian-church (V.20)
+    why: Bosnian rulers' charters; the church's djeds and gosts witness some. Four scans were tried; this
+      one is the best of them and is still poor.
+    url: https://archive.org/details/monumenta-serbica-spectantia-historiam-serbiae-bosnae-ragusii-ed-f-miklosich-viennae-1858
+    rights_basis: pd-us-by-date on the OCR title-page year
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: miklosich_monumenta-serbica-chu_miklosich1858.txt
+  - title: Through Bosnia and the Herzegovina on foot ... with an historical review of Bosnia
+    author: Arthur J. Evans
+    translator: none (English)
+    year: 1877
+    world: the-bosnian-church (V.20)
+    why: Named as a lead (Evans, Through Bosnia, 1876/77). English summary of the Bogomil reading.
+    url: https://archive.org/details/throughbosniaher00evanrich
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt
+  - title: Recueil des historiens des croisades, Documents arméniens, tome second (Hayton, Dardel, Pseudo-Brocard,
+      Daniel de Thaurizio)
+    author: Académie des inscriptions et belles-lettres
+    translator: none (Latin and French)
+    year: 1906
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: Named as a lead (Hetoum, Flor des estoires, RHC Documents arméniens II, 1906). Also holds Dardel's
+      chronicle of Levon V's last years.
+    url: https://archive.org/details/recueildeshistoriensdescroarme2
+    rights_basis: pd-us-by-date; no rights field
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt
+  - title: Recueil des historiens des croisades, Documents arméniens, tome premier
+    author: Académie des inscriptions et belles-lettres (Dulaurier and others)
+    translator: none (French translations of Armenian chroniclers)
+    year: 1869
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: 'Named as a lead (Dulaurier, RHC Arm. I, 1869). In the window: Hethum II''s poem, Sempad''s continuator
+      to about 1335, the appendix on the Lusignans.'
+    url: https://archive.org/details/recueildeshistoriensdescroarme1
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt
+  - title: 'Sacrorum conciliorum nova et amplissima collectio, tomus 25 (1300-1344): the councils of Sis
+      (1307) and Adana (1316)'
+    author: Giovanni Domenico Mansi (editor)
+    translator: none (Latin)
+    year: 1782 (Welter facsimile 1903)
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: Named as a lead (Mansi 25, Sis 1307 and Adana 1316).
+    url: https://archive.org/details/sacrorumconcilio0025joan
+    rights_basis: pd-us-by-date
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt
+  - title: Documents pour servir à l'histoire des Lusignans de la Petite Arménie (1342-1394)
+    author: Victor Langlois (compiler)
+    translator: none (French, Latin, Italian)
+    year: 1859
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: Primary documents of the last decades of the kingdom, ending with an Armenian colophon of 1393-94
+      in French.
+    url: https://archive.org/details/DocumentsPourServirALhistoireDesLusignansDeLaPetiteArmenie
+    rights_basis: pd-us-by-date on the OCR title-page year; no host rights field
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: langlois_documents-lusignans-petite-armenie-1342-1394-fra_langlois1859.txt
+  - title: Étude sur Thomas de Medzoph, et sur son histoire de l'Arménie au XVe siècle (Journal asiatique
+      1855)
+    author: Félix Nève
+    translator: none (French)
+    year: 1855
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: The route to Thomas of Medzoph (Tovma Metsobetsi), whose Armenian chronicle on the host is OCR-unusable.
+    url: https://archive.org/details/EtudeSurThomasDeMedzophEtSurSonHistoireDeLarmenieAuXveSiecle
+    rights_basis: pd-us-by-date on the journal volume title page
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: neve_etude-sur-thomas-de-medzoph-fra_journal-asiatique1855.txt
+  - title: Het'um the Historian's History of the Tartars [Flower of Histories of the East]
+    author: Het'um (Hayton) the Armenian
+    translator: Robert Bedrosian
+    year: 2004
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: The public-domain English leg for the Hetoum French and Latin. The lead named Pynson's 1520 English,
+      which was not found on the host.
+    url: https://archive.org/details/HetumTheHistoriansFlowerOfHistoriesOfTheEast
+    rights_basis: 'translator''s explicit public-domain declaration in the text: "This translation is in
+      the public domain. It may be copied and distributed freely."'
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026; the declaration read in the file
+    status: downloaded
+    vendored_as: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt
+  - title: Haithoni Armeni historia orientalis, quae et De Tartaris inscribitur (Latin of Nicolas Falcon,
+      1307)
+    author: Hayton (Haithonus); Nicolas Falcon (Latin); Andreas Müller (editor)
+    translator: none (Latin)
+    year: 1671
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: The Latin of Hayton's Flos, from the Marco Polo volume of 1671.
+    url: https://archive.org/details/bub_gb_1VwdIBtEDCYC
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: hetum_historia-orientalis-de-tartaris-lat_muller1671.txt
+  - title: Léon le Magnifique, premier roi de Sissouan ou de l'Arméno-Cilicie, with the Table chronologique
+      de l'histoire de Sissouan
+    author: Ghewond M. Alishan
+    translator: none (French)
+    year: 1888
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: Named as a lead in the form "Alishan Sissouan (1899)", which was not found. This 1888 book by the
+      same Mekhitarist father ends in a year-by-year table from 1219 that covers the window.
+    url: https://archive.org/details/lonlemagnifique00alisgoog
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888.txt
+  - title: Tārīkh al-ṭā'ifa al-mārūniyya (History of the Maronite Community)
+    author: Isṭifān al-Duwayhī; ed. Rashīd al-Khūrī al-Shartūnī
+    translator: none (Arabic)
+    year: 1890
+    world: maronite-christianity-era-6 (V.22)
+    why: 'Named as a lead (Duwayhi, Beirut 1890). OCR is heavily damaged: a locator only.'
+    url: https://archive.org/details/AAlexandrina-142168
+    rights_basis: pd-us-by-date on the host date; the printed year is not legible
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: duwayhi_tarikh-al-ta-ifa-al-maruniyya-ara_shartuni1890.txt
+  - title: Bibliotheca orientalis Clementino-Vaticana, tomus primus
+    author: Giuseppe Simone Assemani
+    translator: none (Latin)
+    year: 1719
+    world: maronite-christianity-era-6 (V.22)
+    why: Named as a lead (Assemani BO I, 1719, Maronite writers). Holds the Maronite chapters and Gabriel
+      Barclai of Nicosia.
+    url: https://archive.org/details/BOClementino1
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt
+  - title: 'Annales ecclesiastici, tomus 28 (1424-1453): the bull Benedictus sit Deus of 1445 for the Cypriot
+      Chaldaeans and Maronites'
+    author: Baronius, Raynaldus, Laderchi; ed. Augustin Theiner
+    translator: none (Latin)
+    year: 1874
+    world: maronite-christianity-era-6 (V.22)
+    why: The lead named "the Florence Maronite bull (Mansi 31, Bullarium Romanum)". Mansi 31, already on
+      the shelf, does not carry it (no "Maronit" hit in its OCR). Raynaldus prints it under 1445.
+    url: https://archive.org/details/annalesecclesias28barouoft
+    rights_basis: pd-us-by-date on the title page; no rights field
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: downloaded
+    vendored_as: raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt
+  - title: Prosvetitel' (The Enlightener) and the other works of Joseph of Volokolamsk
+    author: Joseph of Volokolamsk (Iosif Sanin)
+    translator: none
+    year: null
+    world: muscovite-monastic-christianity (V.8)
+    why: Named as a lead (Kazan 1857 and 1882 editions).
+    url: 'none: no host item found'
+    rights_basis: unknown
+    verified_by: searched archive.org by Russian and Latin titles ("Просветитель", "обличение ереси жидовствующих",
+      "Иосиф Санин", "Iosif Sanin Prosvetitel"); no edition found, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: no host item found. Only Khrushchov''s 1868 study (issledovanieosochinenijahiosifasaninapr91,
+      885 KB) and the 1959 Soviet edition of the letters (poslaniya_iosifa_volotskogo, in copyright) turned
+      up.'
+  - title: Исследование о сочинениях Иосифа Санина, преп. игумена Волоцкого
+    author: Ivan P. Khrushchov
+    translator: none (Russian)
+    year: 1868
+    world: muscovite-monastic-christianity (V.8)
+    why: A study of Joseph's writings. Scholarship, not Joseph's text.
+    url: https://archive.org/details/issledovanieosochinenijahiosifasaninapr91
+    rights_basis: pd-us-by-date on the host date; no rights field
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: nineteenth-century scholarship, not the movement''s voice; revisit if no edition
+      of the Prosvetitel'' turns up.'
+  - title: Древнерусские жития святых как исторический источник
+    author: Vasily O. Klyuchevsky
+    translator: none (Russian)
+    year: 1871
+    world: muscovite-monastic-christianity (V.8)
+    why: Standard study of the lives of saints as historical sources.
+    url: https://archive.org/details/drevnerusskiezhitijasvjatyhkakistoriches61
+    rights_basis: pd-us-by-date on the host date; no rights field
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: scholarship (1.6 MB).'
+  - title: История русской церкви, том 1
+    author: Evgeny E. Golubinsky
+    translator: none (Russian)
+    year: 1901 (part 1) and 1881 (part 2)
+    world: muscovite-monastic-christianity (V.8)
+    why: Standard church history, cited in the introduction of the Nil Sorsky edition now vendored.
+    url: https://archive.org/details/golubinsky11
+    rights_basis: pd-us-by-date on the host date; no rights field
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: scholarship; part 1 is 4.8 MB. Volume 2 (Muscovite period) was not checked.'
+  - title: Житие и подвиги преподобного ... Сергия, игумена Радонежского (Nikon)
+    author: Nikon
+    translator: none (Russian)
+    year: 1904
+    world: muscovite-monastic-christianity (V.8)
+    why: Looked like a Life of Sergius.
+    url: https://archive.org/details/zhitieipodvigiprepodobnogoibogonosnogoot63
+    rights_basis: pd-us-by-date on the host date
+    verified_by: archive.org item metadata read, text file fetched, counted for the name Sergius and the
+      name Epiphanius, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: a modern biography by its title (898 KB; not read through), not the text of
+      Epiphanius or Pachomius; the Menaion carries their texts.'
+  - title: Полное собрание русских летописей, тома 9-12 (the Nikon Chronicle)
+    author: Imperial Archaeographic Commission
+    translator: none
+    year: 1862-1901
+    world: muscovite-monastic-christianity (V.8)
+    why: Named as a lead (Nikon Chronicle, PSRL).
+    url: https://archive.org/details/11_20241124_20241124_1136 (also 9_..._1125, 10_..._1131, 12_..._1139)
+    rights_basis: pd-us-by-date on the host dates
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, middle and end,
+      October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: OCR-unusable: volumes 10, 11 and 12 fetched (1.6, 1.0, 1.3 MB) and sampled;
+      the Cyrillic comes out as noise and the names Sergius and Nil each count at or near zero.'
+  - title: Russian Dissenters
+    author: F. C. Conybeare
+    translator: none (English)
+    year: 1921
+    world: muscovite-monastic-christianity (V.8)
+    why: Named as a lead (Conybeare 1921). Old Believers, a later era.
+    url: https://archive.org/details/russiandissente00conyuoft
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: after the window; belongs to the Old Believers world (VII.7). Context only.'
+  - title: Some links in the chain of Russian church history
+    author: Walter H. Frere
+    translator: none (English)
+    year: 1918
+    world: muscovite-monastic-christianity (V.8)
+    why: Named as a lead (Frere 1918).
+    url: https://archive.org/details/somelinksinchain00freruoft
+    rights_basis: pd-us-by-date on the host date; no rights field
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: 485 KB; judged by title only, contents not checked for the window.'
+  - title: Историческое описание ставропигиального первоклассного Соловецкого монастыря
+    author: Meletius
+    translator: none (Russian)
+    year: 1881
+    world: muscovite-monastic-christianity (V.8)
+    why: Monastic history of Solovki, with the lives of Zosima and Savvatii.
+    url: https://archive.org/details/istoricheskoeopisaniestavropigialnogope93
+    rights_basis: pd-us-by-date on the host date
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: a later monastery history (700 KB); lives of Zosima and Savvatii not found
+      as stand-alone texts.'
+  - title: Историко-статистическое описание Кирилло-Белозерского монастыря
+    author: Gerontius and Kurganovsky
+    translator: none (Russian)
+    year: 1897
+    world: muscovite-monastic-christianity (V.8)
+    why: Monastic history of Kirill's foundation.
+    url: https://archive.org/details/istorikostatisticheskoeopisaniekirillo57
+    rights_basis: pd-us-by-date on the host date
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: a later monastery history (516 KB); the Life of Kirill of Beloozero was not
+      found as a stand-alone text.'
+  - title: Зыряне и просветитель их святой Стефан, первый епископ Пермский
+    author: Alexander V. Krasov
+    translator: none (Russian)
+    year: 1896
+    world: muscovite-monastic-christianity (V.8)
+    why: Stephen of Perm and the Komi mission.
+    url: https://archive.org/details/krasovavzyrjaneiprosvetitelihsvjatojs40
+    rights_basis: pd-us-by-date on the host date
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: scholarship (636 KB); Epiphanius''s Life of Stephen was not found as a text.'
+  - title: Vetera monumenta Slavorum meridionalium (second Google scan)
+    author: Augustin Theiner
+    translator: none (Latin)
+    year: 1863
+    world: the-bosnian-church (V.20)
+    why: Duplicate of the vendored scan.
+    url: https://archive.org/details/bub_gb_XXtcAAAAcAAJ
+    rights_basis: Public Domain Mark 1.0
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: duplicate edition of a vendored file.'
+  - title: Monumenta spectantia historiam Slavorum meridionalium vol. 23 (Acta Bosnae), Michigan scan
+    author: Eusebius Fermendžin
+    translator: none (Latin)
+    year: 1892
+    world: the-bosnian-church (V.20)
+    why: A second scan of the Acta Bosnae with slightly better OCR.
+    url: https://archive.org/details/monumentaspecta00umjegoog
+    rights_basis: NOT_IN_COPYRIGHT
+    verified_by: archive.org item metadata read, text file fetched and sampled at three points, October
+      2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: second scan of a vendored edition; 2.9 MB because a second Monumenta volume
+      is bound in after the index. Use it if the Harvard scan''s OCR proves too poor.'
+  - title: Poviest Bosne do propasti kraljevstva
+    author: Vjekoslav Klaić
+    translator: none (Croatian)
+    year: 1882
+    world: the-bosnian-church (V.20)
+    why: Standard history of medieval Bosnia in Croatian.
+    url: https://archive.org/details/poviestbosnedop00klaigoog
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT
+    verified_by: archive.org item metadata read, text file fetched and sampled at three points, October
+      2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: scholarship (887 KB), clean OCR.'
+  - title: Geschichte der Serben, I
+    author: Konstantin Jireček
+    translator: none (German)
+    year: 1911
+    world: the-bosnian-church (V.20)
+    why: Standard history; chapters on Bosnia and the Bosnian Church.
+    url: https://archive.org/details/geschichtederser00jire
+    rights_basis: pd-us-by-date on the host date; no rights field
+    verified_by: archive.org item metadata read, text file fetched and sampled at three points, October
+      2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: scholarship (1.2 MB), clean OCR.'
+  - title: Essays on the Latin Orient
+    author: William Miller
+    translator: none (English)
+    year: 1921
+    world: the-bosnian-church (V.20)
+    why: Named as a lead (Miller 1921).
+    url: https://archive.org/details/cu31924028255861
+    rights_basis: pd-us-by-date; no rights field
+    verified_by: archive.org item metadata read, text file fetched and sampled at three points, October
+      2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: English essays (1.9 MB) with a passage on the Bogomils of Bosnia at about
+      line 23100; only one chapter is on point and Evans covers the same ground in English.'
+  - title: Bullarium Franciscanum, tomus V (1319-1378)
+    author: Konrad Eubel (editor)
+    translator: none (Latin)
+    year: 1898 (host says 1798)
+    world: the-bosnian-church (V.20)
+    why: The Franciscan mission against the Bosnian heretics.
+    url: https://archive.org/details/bullariumfranciscanum_v
+    rights_basis: Public Domain Mark 1.0 on the host; the title-page year was not read
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: 3.9 MB with only about 36 mentions of Bosnia; the host date (1798) cannot
+      be right for Eubel''s volume and the title-page year was not read.'
+  - title: L'extrême Orient au moyen-âge (Hayton's French text with other travellers)
+    author: Louis de Baecker
+    translator: none (French)
+    year: 1877
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: A French edition of Hayton among other travellers' texts.
+    url: https://archive.org/details/lextrmeorientau00baecgoog
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT
+    verified_by: archive.org item metadata read, text file fetched and sampled at three points, October
+      2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: 961 KB; Hayton already vendored in French (RHC), Latin and English.'
+  - title: Les Mongols d'après les historiens arméniens (Journal asiatique)
+    author: Édouard Dulaurier
+    translator: none (French translations)
+    year: 1858-1860 (journal volume)
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: Armenian chroniclers on the Mongols in French.
+    url: https://archive.org/details/LesMongolsDapresLesHistoriensArmeniensFragmentsTraduitsSurLesTextes
+    rights_basis: 'unknown: the item has no date or rights field and the offprint carries no title page'
+    verified_by: archive.org item metadata read, text file fetched and sampled at three points, October
+      2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: rights basis not established from the scan; mostly thirteenth-century.'
+  - title: Exposé des guerres de Tamerlan et de Schah-Rokh ... d'après la chronique arménienne inédite de
+      Thomas de Medzoph
+    author: Félix Nève
+    translator: none (French)
+    year: Brussels, memoir presented 1858
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: Longer French treatment of Thomas of Medzoph.
+    url: https://archive.org/details/NeveExposeDesGuerresDeTamerlan
+    rights_basis: 'unknown: the OCR reads the title-page year as "MDCCCM"; the memoir was presented in 1858'
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: title-page year unreadable; a lead until the page image is checked.'
+  - title: Histoire politique et religieuse de l'Arménie, tome I (to the death of the last king, 1393)
+    author: François Tournebize
+    translator: none (French)
+    year: null
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: Named as a lead (Tournebize 1910).
+    url: https://archive.org/details/TournebizeHistoirePolitique
+    rights_basis: 'unknown: the scan has no year on its title page and the item has no metadata'
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening and the contents,
+      October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: 2.6 MB; the scan''s title page prints the Firmin-Didot imprint without a year,
+      so a rights basis cannot be read from it. Clean OCR. Confirm the year, then vendor.'
+  - title: Conciliationis Ecclesiae Armenae cum Romana ... in duas partes
+    author: Clemens Galanus
+    translator: none (Latin and Armenian)
+    year: 1650-1661
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: Named as a lead (Galanus Conciliatio, 1650-61).
+    url: https://archive.org/details/pts_conciliationisecclesiae_1608_1 (Princeton); bub_gb_NCRzlUvh2mkC
+      (Naples, 1650)
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT (Princeton), Public Domain Mark 1.0 (Naples)
+    verified_by: archive.org item metadata read, text file fetched and sampled at three points, October
+      2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: a seventeenth-century Roman case for Armenian agreement with Rome, after the
+      window; the Armenian columns are OCR noise. 2.1 and 2.2 MB.'
+  - title: 'Hayapatum: Patmut''iwn Hayots'''
+    author: Ghewond M. Alishan
+    translator: none (Armenian)
+    year: 1901
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: Alishan's Armenian history.
+    url: https://archive.org/details/hayapatumpatmut00alisgoog
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT
+    verified_by: archive.org item metadata read, text file fetched and sampled at three points, October
+      2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: scholarship in Armenian (2.3 MB); the OCR reads as Armenian script.'
+  - title: Patmut'iwn Lank-T'amuray ew yajordats' iwrots' (History of Tamerlane and His Successors)
+    author: Thomas (T'ovma) of Metsop'
+    translator: none (Classical Armenian)
+    year: null
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: The Armenian chronicle that Nève studies.
+    url: https://archive.org/details/PatmutiwnLank-tamurayEwYajordatsIwrotsArarealTovmaVardapeti
+    rights_basis: 'unknown: no date or rights field on the item'
+    verified_by: archive.org item metadata read, text file fetched and sampled at three points, October
+      2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: OCR-unusable: the Armenian comes out as Latin-letter noise (210 KB).'
+  - title: Smbat Sparapet's Chronicle
+    author: Smbat Sparapet
+    translator: Robert Bedrosian
+    year: 2005
+    world: armenian-cilicia (earlier world)
+    why: English translation with the same public-domain declaration as the Hetum.
+    url: https://archive.org/details/SmbatSparapetsChronicle
+    rights_basis: 'translator''s declaration in the text: "This work is in the public domain. It may be
+      copied and distributed freely."'
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening and the last page,
+      October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: the chronicle ends in 1272, before this world''s window; for the earlier Cilician
+      world (385 KB).'
+  - title: Collection d'historiens arméniens, tome II (Brosset)
+    author: Marie-Félicité Brosset
+    translator: none (French)
+    year: 1876 (host 1886)
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: Zakaria, Samuel of Ani's tables and others.
+    url: https://archive.org/details/collection-d-historiens-armeniens-1886-2-717
+    rights_basis: pd-us-by-date; no rights field
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: duplicate: the same volume is on the shelf as zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt.'
+  - title: Histoire de l'île de Chypre sous le règne des princes de la maison de Lusignan
+    author: Louis de Mas Latrie
+    translator: none (French)
+    year: 1852-1861
+    world: armenian-cilicia-after-the-kingdom (V.21)
+    why: Cyprus and Cilician Armenia in the fourteenth century.
+    url: https://archive.org/details/mas-latrie-histoire-de-lile-de-chypre-sous-le-regne-des-princes-de-la-maison-de-lusignan-v-1-1861
+    rights_basis: pd-us-by-date on the host date
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: volume 1 listed only; not opened; scholarship with documents.'
+  - title: Missione apostolica al patriarca e maroniti del Monte Libano
+    author: Girolamo Dandini
+    translator: none (Italian)
+    year: 1656
+    world: maronite-christianity-era-6 (V.22)
+    why: Named as a lead (Dandini, 1698 English).
+    url: https://archive.org/details/bub_gb_T5TPhzEBjA4C
+    rights_basis: Public Domain Mark 1.0
+    verified_by: archive.org item metadata read, text file fetched and sampled at three points, October
+      2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: a papal envoy''s mission to the Maronite patriarch, published 1656, after
+      the window; the Italian is readable (443 KB, long s). Context only if a build wants it.'
+  - title: A voyage to Mount Libanus (Dandini, English)
+    author: Girolamo Dandini
+    translator: none
+    year: 1698
+    world: maronite-christianity-era-6 (V.22)
+    why: Named as a lead.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_a-voyage-to-mount-libanu_dandini-girolamo_1698
+    rights_basis: pd-us-by-date
+    verified_by: archive.org item metadata read, text file fetched and sampled at opening, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: microfilm OCR is unreadable noise (75 KB), after the window.'
+  - title: 'La Syrie: précis historique'
+    author: Henri Lammens
+    translator: none (French)
+    year: 1921
+    world: maronite-christianity-era-6 (V.22)
+    why: Background on Mount Lebanon under the Mamluks.
+    url: https://archive.org/details/lasyrieprcishi01lamm
+    rights_basis: pd-us-by-date on the host date
+    verified_by: archive.org item metadata read, text file fetched and sampled at three points, October
+      2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: scholarship (628 KB); background only.'
+  - title: History of the Maronite Church
+    author: Pierre Dib
+    translator: Seely Beggiani
+    year: 1962
+    world: maronite-christianity-era-6 (V.22)
+    why: Named as a lead (Dib 1930, French original).
+    url: https://archive.org/details/history-of-the-maronite-church-dib
+    rights_basis: assumed in copyright (foreign publication 1931 or later; the host date is 1962); no licence
+      field
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: in copyright. The French original of 1930 was not found on the host.'
+  - title: Tārīkh al-ṭā'ifa al-mārūniyya (books4all.net reprint)
+    author: Isṭifān al-Duwayhī
+    translator: none (Arabic)
+    year: null
+    world: maronite-christianity-era-6 (V.22)
+    why: A second Arabic copy.
+    url: https://archive.org/details/tarekh_taefa_marounia
+    rights_basis: 'unknown: no date, rights or licence field'
+    verified_by: archive.org item metadata read; text file not fetched, October 2026
+    status: not-yet-downloaded
+    hold_note: 'not vendored: a modern reprint with no rights statement.'
