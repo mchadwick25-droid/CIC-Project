@@ -51,7 +51,8 @@ def describe(store, registry: dict, session_id: str) -> dict | None:
     first = audit.participant_messages[0]["text"].strip() if audit.participant_messages else ""
     title = first if len(first) <= TITLE_CHARS else first[: TITLE_CHARS - 1].rstrip() + "…"
     return {
-        "session_id": session_id, "mode": audit.mode, "worlds": worlds, "title": title,
+        "session_id": session_id, "mode": audit.mode, "worlds": worlds,
+        "world_keys": list(audit.world_keys), "title": title,
         "started": _day(audit.first_at), "last_active": _day(audit.last_activity_at or audit.last_at),
         "turns": len(audit.participant_messages), "closed": audit.closed,
         "holds_crisis_turn": holds_safety_turn(audit),

@@ -5,12 +5,15 @@ import { ConversationChrome } from '../components/ConversationChrome';
 import { DeletedNotice } from '../components/DeleteConversation';
 import { Enter } from '../components/Enter';
 import { ModernTermMark } from '../components/ModernTermMark';
+import { ResourcesFirst } from '../components/ResourcesFirst';
 import { TranscriptScroll } from '../components/TranscriptScroll';
 import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import { WaitingNote } from '../components/WaitingNote';
 import { useReveal, type RevealItem } from '../hooks/useReveal';
 import type { ConversationTurn } from '../hooks/useConversation';
+import { accountsEnabled, useAccount } from '../lib/accounts';
+import { accountsCopy } from '../lib/accountsCopy';
 import { pageFeedbackId } from '../lib/api';
 import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import type { WorldEntry } from '../data/worlds';
@@ -92,6 +95,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
         <ConversationCard world={world} speaking={(awaitingReply && !closed) || reveal.busy} />
       </div>
 
+      <ResourcesFirst turns={turns} />
       <TranscriptScroll label="Conversation" followSignal={participantTurns}>
         {turns.map((turn, i) => {
           const still = i < initialTurns;
@@ -198,5 +202,10 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
 }
 
 function NotSavedNote() {
+  const account = useAccount();
+  if (accountsEnabled && account.status === 'in' && account.lastShelved === true) return null;
+  if (accountsEnabled && account.status === 'in') {
+    return <div className="conversation__bar-note sans">{accountsCopy.notShelvedNote}</div>;
+  }
   return <div className="conversation__bar-note sans">Not saved to an account — this conversation lives in this tab</div>;
 }

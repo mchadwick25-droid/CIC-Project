@@ -144,6 +144,8 @@ def test_only_the_owner_can_reopen_a_shelved_conversation_and_the_code_works(htt
     say(http, session_id, auth, "hello")
     reopened = post(http, "shelf/reopen", session_id=session_id).json()
     assert reopened["session_id"] == session_id and reopened["holds_crisis_turn"] is False
+    listed = http.get("/api/accounts/shelf").json()["conversations"][0]
+    assert listed["world_keys"] and all(isinstance(key, str) for key in listed["world_keys"])
     again = http.get(f"/api/session/{session_id}/transcript", headers={"Authorization": f"Session {reopened['session_code']}"})
     assert again.status_code == 200 and again.json()["turn_count"] >= 1
     other = new_account_client(http, mailer, "bob@example.org")

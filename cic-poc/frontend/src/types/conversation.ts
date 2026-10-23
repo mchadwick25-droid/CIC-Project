@@ -166,6 +166,8 @@ export interface CreateSessionResponse {
   // Stage 0c (Build-Plan.md): null for an interview session (no round cap
   // applies); the table session round cap for a table session.
   round_cap: number | null;
+  // Whether the conversation went on the signed-in person's shelf; null when signed out.
+  shelved?: boolean | null;
 }
 
 // Why the room paused at a limit, in the server's words. It is shown once and
