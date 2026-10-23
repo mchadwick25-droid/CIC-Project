@@ -10737,3 +10737,762 @@ queue:
     status: not-yet-downloaded
     hold_note: 'Not vendored: a compilation by Jacobus de Voragine in Caxton''s English, not the parish''s
       own voice; seven volumes of about 0.5 MB each. Another worker''s hagiography pass may claim it.'
+
+  - title: Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 1
+    author: Denifle and Ehrle (eds.)
+    translator: none (German and Latin)
+    year: '1885'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Archiv für Literatur- und Kirchengeschichte des Mittelalters,
+      Bd 1. Roles per world are in the staging file.'
+    url: https://archive.org/details/archivfrlittera00gesgoog
+    rights_basis: pd-us-by-date; title page 1885; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt
+  - title: Archiv ..., Bd 2
+    author: Denifle and Ehrle (eds.)
+    translator: none
+    year: '1886'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Archiv ... des Mittelalters, Bd 2. Roles per world are in
+      the staging file.'
+    url: https://archive.org/details/gri_33125006414433
+    rights_basis: pd-us-by-date; title page 1886; NOT_IN_COPYRIGHT
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt
+  - title: Archiv ..., Bd 3
+    author: Denifle and Ehrle (eds.)
+    translator: none
+    year: '1887'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Archiv ... des Mittelalters, Bd 3. Roles per world are in
+      the staging file.'
+    url: https://archive.org/details/gri_33125006414375
+    rights_basis: pd-us-by-date; title page 1887; NOT_IN_COPYRIGHT
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt
+  - title: Archiv ..., Bd 4
+    author: Denifle and Ehrle (eds.)
+    translator: none
+    year: '1888'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Archiv ... des Mittelalters, Bd 4. Roles per world are in
+      the staging file.'
+    url: https://archive.org/details/gri_33125006414383
+    rights_basis: pd-us-by-date; title page 1888; NOT_IN_COPYRIGHT
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888.txt
+  - title: Expositio Regulae Fratrum Minorum
+    author: Angelo Clareno (ed. Livarius Oliger)
+    translator: none (Latin)
+    year: '1912'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Expositio Regulae Fratrum Minorum. Roles per world are in
+      the staging file.'
+    url: https://archive.org/details/expositioregulae00ange
+    rights_basis: pd-us-by-date; title page 1912; no rights field, so public domain by date
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt
+  - title: Bullarium Franciscanum V
+    author: Sbaralea and Eubel (eds.)
+    translator: none (Latin)
+    year: '1898'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Bullarium Franciscanum V (1303-1334). Roles per world are
+      in the staging file.'
+    url: https://archive.org/details/bullariumfranciscanum_v
+    rights_basis: pd-us-by-date; title page MDCCCXCVIII; Public Domain Mark 1.0 (the host date field reads
+      1798 in error)
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: bullarium-franciscanum_v5-lat_eubel1898.txt
+  - title: Bullarium Franciscanum, nova series I (1431-1455)
+    author: Ulricus Huntemann (ed.)
+    translator: none (Latin)
+    year: '1929'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Bullarium Franciscanum, nova series I (1431-1455). Roles
+      per world are in the staging file.'
+    url: https://archive.org/details/bwb_C0-AXH-351
+    rights_basis: pd-us-by-date; title page MCMXXIX, inside the pre-1931 range; no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt
+  - title: Manuel de l'Inquisiteur, tome I
+    author: Bernard Gui (ed. G. Mollat)
+    translator: Mollat (French, facing the Latin)
+    year: '1926'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Manuel de l''Inquisiteur, tome I. Roles per world are in
+      the staging file.'
+    url: https://archive.org/details/bernarduguimanueldelinquisi1
+    rights_basis: pd-us-by-date; title page 1926; Public Domain Mark 1.0
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt
+  - title: Manuel de l'Inquisiteur, tome II
+    author: Bernard Gui (ed. G. Mollat)
+    translator: Mollat (French, facing the Latin)
+    year: '1927'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Manuel de l''Inquisiteur, tome II. Roles per world are in
+      the staging file.'
+    url: https://archive.org/details/bernarduguimanueldelinquisi2
+    rights_basis: pd-us-by-date; 1927 on the title page; Public Domain Mark 1.0
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927.txt
+  - title: Liber sententiarum inquisitionis Tholosanae (Limborch, Historia inquisitionis, 1692, vol. 2)
+    author: Toulouse inquisition under Bernard Gui (ed. Limborch)
+    translator: none (Latin)
+    year: '1692'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Liber sententiarum inquisitionis Tholosanae (Limborch). Roles
+      per world are in the staging file.'
+    url: https://archive.org/details/per_witchcraft-in-europe-and-america_historia-inquisitionis_limborch-philippus_1692_2_578
+    rights_basis: pd-us-by-date; host date 1692 (no title-page year legible); no rights field; Limborch
+      d. 1712
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: toulouse-inquisition_liber-sententiarum-lat_limborch1692.txt
+  - title: A History of the Inquisition of the Middle Ages, vol. III
+    author: Henry Charles Lea
+    translator: none (English)
+    year: '1888'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: A History of the Inquisition of the Middle Ages, vol. III.
+      Roles per world are in the staging file.'
+    url: https://archive.org/details/aga6664.0003.001.umich.edu
+    rights_basis: pd-us-by-date; title page 1888; no rights field; Lea d. 1909
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt
+  - title: Unbekannte kirchenpolitische Streitschriften, Teil 2
+    author: Richard Scholz (ed.; texts by Ockham and others)
+    translator: none (Latin)
+    year: '1914'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Unbekannte kirchenpolitische Streitschriften, Teil 2 (Ockham
+      and others). Roles per world are in the staging file.'
+    url: https://archive.org/details/unbekanntekirche02scho
+    rights_basis: pd-us-by-date; title page 1914 (the host date reads 1911); no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt
+  - title: Fra Michelino e la sua eresia
+    author: Armando Carlini
+    translator: none (Italian, with a Latin appendix)
+    year: '1912'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Fra Michelino e la sua eresia (with Michael of Cesena''s
+      protest of 1338). Roles per world are in the staging file.'
+    url: https://archive.org/details/carlini-fra-michelino-e-la-sua-eresia
+    rights_basis: pd-us-by-date; title page 1912; no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt
+  - title: Le prediche volgari di San Bernardino, 1427, vol. 1
+    author: Bernardino of Siena (ed. Luciano Banchi)
+    translator: none (Italian)
+    year: '1880'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Le prediche volgari 1427, vol. 1 (sermons I-XV). Roles per
+      world are in the staging file.'
+    url: https://archive.org/details/lepredichevolgar01bern
+    rights_basis: pd-us-by-date; title page MDCCCLXXX; no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt
+  - title: Le prediche volgari, vol. 2
+    author: Bernardino of Siena (ed. Banchi)
+    translator: none (Italian)
+    year: '1884'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Le prediche volgari 1427, vol. 2 (sermons XVI-XXX). Roles
+      per world are in the staging file.'
+    url: https://archive.org/details/lepredichevolgar02bern
+    rights_basis: pd-us-by-date; title page MDCCCLXXXIV; no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: bernardino-of-siena_prediche-volgari-1427-v2-ita_banchi1884.txt
+  - title: Le prediche volgari, vol. 3
+    author: Bernardino of Siena (ed. Banchi)
+    translator: none (Italian)
+    year: not legible
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Le prediche volgari 1427, vol. 3 (sermons XXXI-XLV). Roles
+      per world are in the staging file.'
+    url: https://archive.org/details/lepredichevolgar03bern
+    rights_basis: pd-us-by-date; title-page year not legible in the OCR; volumes 1 and 2 are 1880 and 1884;
+      host date 1880; rights rest on the host date and the series imprint
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: bernardino-of-siena_prediche-volgari-1427-v3-ita_banchi.txt
+  - title: 'Saint Bernardine of Siena: Sermons'
+    author: Bernardino of Siena (sel. Nazareno Orlandi)
+    translator: Helen Josephine Robins
+    year: '1920'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Saint Bernardine of Siena: Sermons (English selection). Roles
+      per world are in the staging file.'
+    url: https://archive.org/details/bwb_C0-ANN-935
+    rights_basis: pd-us-by-date; no year legible in the OCR; host date 1920 only
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: bernardino-of-siena_sermons_orlandi-robins1920.txt
+  - title: The Life of Saint Colette
+    author: Mrs. Gertrude Parsons
+    translator: none (English)
+    year: '1879'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: The Life of Saint Colette. Roles per world are in the staging
+      file.'
+    url: https://archive.org/details/lifeofsaintcolet00pars
+    rights_basis: pd-us-by-date; title page 1879; no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: parsons_life-of-saint-colette_1879.txt
+  - title: Libro della Beata Chaterina Bolognese (1536)
+    author: Caterina Vigri; part two by Dionisio Paleotti
+    translator: none (Italian)
+    year: '1536'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Libro della Beata Chaterina Bolognese (Seven Spiritual Weapons).
+      Roles per world are in the staging file.'
+    url: https://archive.org/details/wotb_8080280
+    rights_basis: pd-us-by-date; host date 1536 and imprint; the OCR colophon carries no year; Vigri d.
+      1463
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: caterina-vigri_libro-della-beata-chaterina-bolognese-ita_1536.txt
+  - title: 'Analecta Franciscana II: Chronica of Nicolaus Glassberger'
+    author: Glassberger (ed. Quaracchi fathers)
+    translator: none (Latin)
+    year: '1887'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Chronica of Nicolaus Glassberger (Analecta Franciscana II).
+      Roles per world are in the staging file.'
+    url: https://archive.org/details/ldpd_11894500_000
+    rights_basis: pd-us-by-date; title page MDCCCLXXXVII; no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: glassberger_chronica-analecta-franciscana-v2-lat_1887.txt
+  - title: The Mirror of Perfection
+    author: Attributed to Brother Leo (ed. Sabatier)
+    translator: Sebastian Evans
+    year: '1899'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: The Mirror of Perfection (Speculum perfectionis), English.
+      Roles per world are in the staging file.'
+    url: https://archive.org/details/mirrorofperfecti00leob
+    rights_basis: pd-us-by-date; title page 1899; no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: speculum-perfectionis_mirror-of-perfection_evans1899.txt
+  - title: The Little Flowers of St. Francis
+    author: Anonymous (Fioretti)
+    translator: William Heywood (per the host record)
+    year: '1906'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: The Little Flowers of St. Francis (Fioretti), English. Roles
+      per world are in the staging file.'
+    url: https://archive.org/details/TheLittleFlowers
+    rights_basis: pd-us-by-date; OCR prints 'First Published in 1906'; Public Domain Mark 1.0
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: fioretti_little-flowers-of-st-francis_heywood1906.txt
+  - title: Jacopone da Todi, Poet and Mystic
+    author: Evelyn Underhill
+    translator: Mrs. Theodore Beck (verse)
+    year: '1919'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Jacopone da Todi, Poet and Mystic (biography and English
+      verse). Roles per world are in the staging file.'
+    url: https://archive.org/details/jacoponedatodipo00undeuoft
+    rights_basis: pd-us-by-date; title page 1919; NOT_IN_COPYRIGHT
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: underhill_jacopone-da-todi-poet-and-mystic_beck1919.txt
+  - title: Actus beati Francisci et sociorum eius
+    author: Anonymous (ed. Paul Sabatier)
+    translator: none (Latin; French introduction)
+    year: '1902'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Actus beati Francisci et sociorum eius. Roles per world are
+      in the staging file.'
+    url: https://archive.org/details/actusbeatifranc01sabagoog
+    rights_basis: pd-us-by-date; editor's preface dated January 1902 in the OCR; NOT_IN_COPYRIGHT
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902.txt
+  - title: Le Laude (Florence print of 1490)
+    author: Jacopone da Todi (ed. Giovanni Ferri)
+    translator: none (Italian)
+    year: '1915'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: Le Laude (Ferri, from the Florence print of 1490). Roles
+      per world are in the staging file.'
+    url: https://www.gutenberg.org/ebooks/29977
+    rights_basis: 'pd-us-by-date; title page 1915 (GENNAIO MCMXV); Project Gutenberg bibrec: public domain
+      in the USA'
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026 (title-page year read in the OCR unless the rights cell says
+      otherwise)'
+    status: downloaded
+    vendored_as: jacopone-da-todi_laude-ita_ferri1915.txt
+  - title: Practica inquisitionis heretice pravitatis
+    author: Bernard Gui (ed. C. Douais)
+    translator: none (Latin)
+    year: '1886'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/practicainquisi00douagoog (0.89 MB); second scan practicainquisit00bern
+      (1.23 MB)
+    rights_basis: pd-us-by-date; title-page year 1886 per host; practicainquisi00douagoog NOT_IN_COPYRIGHT
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; Douais named in the OCR'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: the Beguin, Pseudo-Apostle and Fraticelli passages are already in Mollat''s
+      Latin and French, which is vendored; Douais is the same handbook'
+  - title: De conformitate vitae beati Francisci ad vitam Domini Iesu, Liber I (Analecta Franciscana IV)
+      and Libri II-III (Analecta Franciscana V)
+    author: Bartholomew of Pisa
+    translator: none (Latin)
+    year: 1906 and 1912
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/analectafrancisc04coll (2.85 MB) and analectafrancisc05coll (3.04 MB)
+    rights_basis: pd-us-by-date; title pages MCMVI and MCMXII read in the OCR; host date reads 1885 in error;
+      no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: 5.9 MB together, and most of the matter is thirteenth-century Franciscan hagiography;
+      kept as the Conventual-side lead for the Order world'
+  - title: 'Beiträge zur Sektengeschichte des Mittelalters, Zweiter Theil: Dokumente (Fraticelli items:
+      no. 9, trials of 1387-88; no. 65, profession of faith of the Fraticello Joannes de Arquata; no. 71,
+      excerpt from James of the Marches, Dialogus de Fraticellis)'
+    author: Ignaz von Döllinger
+    translator: none (Latin and German)
+    year: '1890'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/beitrgezursekt02dl (1.77 MB); also 11614337bsb (BSB)
+    rights_basis: 'pd-us-by-date; Munich: Beck, 1890 on the title page; NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: mostly Waldensian and Cathar documents, with about three Fraticelli items;
+      better vendored by the Waldensian and Cathar workers, and cited from here'
+  - title: Archiv für Litteratur- und Kirchengeschichte des Mittelalters, Bd 5 (1889), Bd 6 (1892) and Bd
+      7 (1900); second scans of Bd 3 and Bd 4
+    author: Denifle and Ehrle (eds.)
+    translator: none
+    year: 1889, 1892, 1900
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/bub_gb__FgQAAAAYAAJ (Bd 5, Public Domain Mark), gri_33125006414524
+      (Bd 6), bub_gb_dMcsAAAAIAAJ and gri_33125006414391 (Bd 7); bub_gb_TMMsAAAAIAAJ (Bd 4) and archivfrliterat03grgoog
+      (Bd 3) are second scans
+    rights_basis: pd-us-by-date; title pages 1889, 1892 and 'SIEBENTER BAND ... 1900' read in the OCR; NOT_IN_COPYRIGHT
+      or Public Domain Mark on each
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: outside the brief''s Bd 1-4; Bd 6 holds Ehrle''s study of the oldest general
+      constitutions of the Order (Narbonne 1260, Paris 1292), which is the nearest thing to Franciscan legislation
+      on the shelf if a build wants it'
+  - title: Speculum perfectionis, seu S. Francisci Assisiensis legenda antiquissima, Latin edition
+    author: Attributed to Brother Leo (ed. Paul Sabatier)
+    translator: none (Latin, with French introduction and notes)
+    year: '1898'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/speculumperfect01sabagoog (1.47 MB; two more Google scans of the same
+      edition, speculumperfect00sabagoog and speculumperfect02sabagoog, and speculumperfecti0000unse, MN42046ucmf_8)
+    rights_basis: 'pd-us-by-date; Paris: Fischbacher, 1898 per host; NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; sampled OCR is garbled and mixed with French apparatus'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: second witness only; Evans''s English of the same text is vendored'
+  - title: Annales Minorum seu trium ordinum a S. Francisco institutorum (Rome, second edition, 1731-1736),
+      ten volumes on the host
+    author: Luke Wadding
+    translator: none (Latin)
+    year: 1732-1736
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: 'https://archive.org/details/bub_gb_cyeAqVE7tgoC (c. 1274-1300), bub_gb_DmyJ6F2kztQC (c. 1301-1320,
+      the Spirituals crisis), bub_gb_Vg3xaubQvXYC (c. 1377-1414), bub_gb_buYmI7AMbaMC (vol. 10: Capistrano
+      and Bernardino, c. 1415-1434), bub_gb_irCMdezBOfwC (c. 1435-1447), bub_gb_BX9ppVbUITkC (c. 1447-1454),
+      bub_gb_V-O_8-fkrwIC (vol. 14, c. 1474-1487), bub_gb_vEGB9UpkE9UC (c. 1491-1504, the monti di pietà);
+      two earlier volumes bub_gb_dvvXZTUctWoC and bub_gb_gQmHhuWBcsgC are before the window. Each file is
+      2.3 to 2.9 MB'
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on each item; imprint years 1732-1736 from the host
+      record
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; volume numbers were read in the OCR for two items (the editor''s
+      notes say ''volumen decimum'' and ''quartumdecimum''); the others are placed by the years the text
+      mentions most'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: seventeenth-century annalist''s Latin with the long s read as ''f''; a history
+      that quotes documents, not the movement''s voice; volumes for c. 1321-1376 (the poverty bulls of 1323
+      onward) and 1455-1473 are not among the ten, so it would not close the gap'
+  - title: Archivum Franciscanum Historicum, volumes 1-22 (1908-1929)
+    author: Quaracchi fathers (eds.)
+    translator: none (Latin, Italian, German, French)
+    year: 1908-1929
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/archivumfranciscanumhistoricum1 to archivumfranciscanumhistoricum22;
+      1.4 to 3.2 MB each
+    rights_basis: pd-us-by-date; annual volumes 1908-1929 per host dates; the OCR of volume 6 reads 'An.
+      VI'
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; contents not read, keyword counts only'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: a learned journal of 22 volumes with sources mixed into articles; keyword
+      counts point to vol. 3 (1910: Capistrano, Fraticelli, a refutation of Fraticelli errors by Andreas
+      Richi cited as AFH III, pp. 680-699), vol. 4 (1911: Fraticelli), vol. 6 (1913: Cesena, Ockham studies,
+      Fraticelli), vol. 15 (1922: Bernardino, Capistrano), vol. 16 (1923: Ockham) and vol. 21 (1928: Capistrano)'
+  - title: 'Unbekannte kirchenpolitische Streitschriften ..., Erster Teil: Analysen'
+    author: Richard Scholz
+    translator: none (German)
+    year: '1911'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/unbekanntekirche01scho (0.70 MB)
+    rights_basis: pd-us-by-date; title page 1911 read in the OCR; no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: German analysis of the treatises whose texts are in Part 2; scholarship, not
+      source'
+  - title: Saint Bernardine of Siena (Thureau-Dangin, trans. Baroness von Hügel)
+    author: Paul Thureau-Dangin
+    translator: Baroness von Hügel
+    year: '1906'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/saintbernardineo00thur (0.58 MB); also lifeofsbernardin00thur (1911
+      Medici Society) and StBernadineOfSiena
+    rights_basis: 'pd-us-by-date; London: J. M. Dent, 1906 per host; lifeofsbernardin00thur NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: a biography (scholarship, not source); Bernardino''s own voice is vendored'
+  - title: 'Vie de sainte Colette (Sellier, 2 vols) and Sainte Colette: sa vie, ses oeuvres (Douillet)'
+    author: Louis Sellier; abbé Florimond Auguste Douillet
+    translator: none (French)
+    year: 1853, 1855 and 1869
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/sellierviedesaintecolette1 (0.89 MB), sellierviedesaintecolette2 (0.84
+      MB), abbedouilletsaintecolettesavie (0.84 MB)
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on each; imprint years from the host record
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: French hagiography, the sources of the vendored English life by Parsons; none
+      prints Colette''s constitutions'
+  - title: Das Leben des heiligen Johannes Capistranus
+    author: Hermann Petri
+    translator: none (German)
+    year: '1844'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/10788271bsb (0.21 MB; Bavarian State Library scan)
+    rights_basis: pd-us-by-date; host date 1844; no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: nineteenth-century German hagiography; Capistrano''s own writings are not
+      in it'
+  - title: Prediche volgari di S. Bernardino da Siena, per la prima volta messe in luce
+    author: Bernardino of Siena
+    translator: none (Italian)
+    year: '1853'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/predichevolgari00berngoog (0.57 MB)
+    rights_basis: pd-us-by-date; host date 1853; NOT_IN_COPYRIGHT
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; the preface and three samples read; the sermon cycle is
+      not identified'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: a separate edition of further vernacular sermons (a sample speaks of Lombardy);
+      not identified against the 1427 cycle, and Banchi already gives 45 sermons; a candidate if a build
+      wants more Bernardino'
+  - title: I fioretti di San Francesco, testo di lingua (Italian original)
+    author: Anonymous (ed. Cesari)
+    translator: none (Italian)
+    year: '1868'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/ifiorettidisanfr00franuoft (0.54 MB)
+    rights_basis: 'pd-us-by-date; Milan: M. Guigoni, 1868 per host; NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: Heywood''s English is vendored; the Italian is a lead if a build wants the
+      original wording. Other English translations: Rhoades 1904 (littleflowersst00rhoagoog), Salter 1910
+      (in.ernet.dli.2015.37063), Alger 1887 (littleflowersofs01alge), duplicates of Heywood''s text'
+  - title: Le Laude secondo la stampa fiorentina del 1490
+    author: Jacopone da Todi (ed. Ferri)
+    translator: none (Italian)
+    year: '1915'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/lelaudesecondola00jacouoft (0.55 MB)
+    rights_basis: 'pd-us-by-date; Bari: Laterza, 1915 per host'
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: second copy of the Ferri edition that is already vendored from Project Gutenberg'
+  - title: Libro della Beata Caterina Bolognese (c. 1550 print)
+    author: Caterina Vigri
+    translator: none (Italian)
+    year: c. 1550
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/wotb_7595992 (0.13 MB)
+    rights_basis: pd-us-by-date; host date c. 1550; Vigri d. 1463
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: a shorter print of the same book as the vendored 1536 print; a second witness
+      for the same wording'
+  - title: Bullarium Franciscanum V, second scan
+    author: Sbaralea and Eubel (eds.)
+    translator: none (Latin)
+    year: '1898'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/bwb_W9-CWU-973_5 (3.86 MB)
+    rights_basis: pd-us-by-date; host date 1898; no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; the title page in the OCR reads ''Tomus Quintus'''
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: duplicate scan of the volume that is already vendored'
+  - title: Le prediche volgari, vol. 1, second scan
+    author: Bernardino of Siena (ed. Banchi)
+    translator: none (Italian)
+    year: '1880'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/lepredichevolga01bancgoog (0.87 MB)
+    rights_basis: pd-us-by-date; host date 1880; NOT_IN_COPYRIGHT
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: duplicate of the vendored volume 1'
+  - title: Arbor vitae crucifixae Jesu Christi (Venice, Andreas de Bonetis, 1485)
+    author: Ubertino da Casale
+    translator: none (Latin)
+    year: '1485'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/arborvitaecrucif00uber (3.18 MB)
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0; imprint 1485 per host
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; sampled OCR reads the long s as ''f'' and breaks the abbreviations'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: second witness over the 3 MB limit; the one printed text of Ubertino''s major
+      work found, so it is the lead to watch if a cleaner scan appears'
+  - title: Monarchiae S. Romani Imperii ... tomus secundus (Goldast)
+    author: Melchior Goldast
+    translator: none (Latin)
+    year: 1614 and 1668
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/MonarchiaSRomaniImperii1614T2c (9.99 MB) and MonarchiaSRomaniImperii1668T2
+      (5.17 MB)
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on both
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; the 1668 volume was fetched and searched'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: second witness (long s read as ''f'') over the 3 MB limit; the 1668 volume
+      names Cesena on one line and Ockham on two, so it is not the only source for either: Ockham''s pieces
+      are in Scholz Part 2 and Michael''s protest of 1338 is in Carlini''s appendix, both vendored'
+
+
+  - title: Practica inquisitionis heretice pravitatis
+    author: Bernard Gui (ed. C. Douais)
+    translator: none (Latin)
+    year: '1886'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/practicainquisi00douagoog (0.89 MB); second scan practicainquisit00bern
+      (1.23 MB)
+    rights_basis: pd-us-by-date; title-page year 1886 per host; practicainquisi00douagoog NOT_IN_COPYRIGHT
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; Douais named in the OCR'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: the Beguin, Pseudo-Apostle and Fraticelli passages are already in Mollat''s
+      Latin and French, which is vendored; Douais is the same handbook'
+  - title: Archiv für Litteratur- und Kirchengeschichte des Mittelalters, Bd 5 (1889), Bd 6 (1892) and Bd
+      7 (1900); second scans of Bd 3 and Bd 4
+    author: Denifle and Ehrle (eds.)
+    translator: none
+    year: 1889, 1892, 1900
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/bub_gb__FgQAAAAYAAJ (Bd 5, Public Domain Mark), gri_33125006414524
+      (Bd 6), bub_gb_dMcsAAAAIAAJ and gri_33125006414391 (Bd 7); bub_gb_TMMsAAAAIAAJ (Bd 4) and archivfrliterat03grgoog
+      (Bd 3) are second scans
+    rights_basis: pd-us-by-date; title pages 1889, 1892 and 'SIEBENTER BAND ... 1900' read in the OCR; NOT_IN_COPYRIGHT
+      or Public Domain Mark on each
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: outside the brief''s Bd 1-4; Bd 6 holds Ehrle''s study of the oldest general
+      constitutions of the Order (Narbonne 1260, Paris 1292), which is the nearest thing to Franciscan legislation
+      on the shelf if a build wants it'
+  - title: Speculum perfectionis, seu S. Francisci Assisiensis legenda antiquissima, Latin edition
+    author: Attributed to Brother Leo (ed. Paul Sabatier)
+    translator: none (Latin, with French introduction and notes)
+    year: '1898'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/speculumperfect01sabagoog (1.47 MB; two more Google scans of the same
+      edition, speculumperfect00sabagoog and speculumperfect02sabagoog, and speculumperfecti0000unse, MN42046ucmf_8)
+    rights_basis: 'pd-us-by-date; Paris: Fischbacher, 1898 per host; NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; sampled OCR is garbled and mixed with French apparatus'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: second witness only; Evans''s English of the same text is vendored'
+  - title: Annales Minorum seu trium ordinum a S. Francisco institutorum (Rome, second edition, 1731-1736),
+      ten volumes on the host
+    author: Luke Wadding
+    translator: none (Latin)
+    year: 1732-1736
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: 'https://archive.org/details/bub_gb_cyeAqVE7tgoC (c. 1274-1300), bub_gb_DmyJ6F2kztQC (c. 1301-1320,
+      the Spirituals crisis), bub_gb_Vg3xaubQvXYC (c. 1377-1414), bub_gb_buYmI7AMbaMC (vol. 10: Capistrano
+      and Bernardino, c. 1415-1434), bub_gb_irCMdezBOfwC (c. 1435-1447), bub_gb_BX9ppVbUITkC (c. 1447-1454),
+      bub_gb_V-O_8-fkrwIC (vol. 14, c. 1474-1487), bub_gb_vEGB9UpkE9UC (c. 1491-1504, the monti di pietà);
+      two earlier volumes bub_gb_dvvXZTUctWoC and bub_gb_gQmHhuWBcsgC are before the window. Each file is
+      2.3 to 2.9 MB'
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on each item; imprint years 1732-1736 from the host
+      record
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; volume numbers were read in the OCR for two items (the editor''s
+      notes say ''volumen decimum'' and ''quartumdecimum''); the others are placed by the years the text
+      mentions most'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: seventeenth-century annalist''s Latin with the long s read as ''f''; a history
+      that quotes documents, not the movement''s voice; volumes for c. 1321-1376 (the poverty bulls of 1323
+      onward) and 1455-1473 are not among the ten, so it would not close the gap'
+  - title: Archivum Franciscanum Historicum, volumes 1-22 (1908-1929)
+    author: Quaracchi fathers (eds.)
+    translator: none (Latin, Italian, German, French)
+    year: 1908-1929
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/archivumfranciscanumhistoricum1 to archivumfranciscanumhistoricum22;
+      1.4 to 3.2 MB each
+    rights_basis: pd-us-by-date; annual volumes 1908-1929 per host dates; the OCR of volume 6 reads 'An.
+      VI'
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; contents not read, keyword counts only'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: a learned journal of 22 volumes with sources mixed into articles; keyword
+      counts point to vol. 3 (1910: Capistrano, Fraticelli, a refutation of Fraticelli errors by Andreas
+      Richi cited as AFH III, pp. 680-699), vol. 4 (1911: Fraticelli), vol. 6 (1913: Cesena, Ockham studies,
+      Fraticelli), vol. 15 (1922: Bernardino, Capistrano), vol. 16 (1923: Ockham) and vol. 21 (1928: Capistrano)'
+  - title: Saint Bernardine of Siena (Thureau-Dangin, trans. Baroness von Hügel)
+    author: Paul Thureau-Dangin
+    translator: Baroness von Hügel
+    year: '1906'
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/saintbernardineo00thur (0.58 MB); also lifeofsbernardin00thur (1911
+      Medici Society) and StBernadineOfSiena
+    rights_basis: 'pd-us-by-date; London: J. M. Dent, 1906 per host; lifeofsbernardin00thur NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: a biography (scholarship, not source); Bernardino''s own voice is vendored'
+  - title: 'Vie de sainte Colette (Sellier, 2 vols) and Sainte Colette: sa vie, ses oeuvres (Douillet)'
+    author: Louis Sellier; abbé Florimond Auguste Douillet
+    translator: none (French)
+    year: 1853, 1855 and 1869
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/sellierviedesaintecolette1 (0.89 MB), sellierviedesaintecolette2 (0.84
+      MB), abbedouilletsaintecolettesavie (0.84 MB)
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on each; imprint years from the host record
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: French hagiography, the sources of the vendored English life by Parsons; none
+      prints Colette''s constitutions'
+  - title: Monarchiae S. Romani Imperii ... tomus secundus (Goldast)
+    author: Melchior Goldast
+    translator: none (Latin)
+    year: 1614 and 1668
+    world: observant-reform-and-popular-preaching / fraticelli-spiritual-franciscan-rigorists / franciscan-order-era-6
+    why: 'Franciscan batch of the Era VI pass: verified on the host and left on the shelf of leads.'
+    url: https://archive.org/details/MonarchiaSRomaniImperii1614T2c (9.99 MB) and MonarchiaSRomaniImperii1668T2
+      (5.17 MB)
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on both
+    verified_by: 'Library thread (Era VI pass), October 2026: host metadata read; djvu fetched and sampled
+      at opening, middle and end; October 2026; the 1668 volume was fetched and searched'
+    status: not-yet-downloaded
+    hold_note: 'NOT vendored: second witness (long s read as ''f'') over the 3 MB limit; the 1668 volume
+      names Cesena on one line and Ockham on two, so it is not the only source for either: Ockham''s pieces
+      are in Scholz Part 2 and Michael''s protest of 1338 is in Carlini''s appendix, both vendored'

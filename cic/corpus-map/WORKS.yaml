@@ -754,3 +754,57 @@ works:
       items:
       - cic:niemeyer_collectio-confessionum-lat_niemeyer1840.txt:Sententia de divina praedestinatione (line
         44015) to the Synod's closing Sententia (line 45673)
+
+  - work_id: bernardino-siena-prediche-volgari-1427
+    title: "The vernacular sermons of Bernardino of Siena preached in the Piazza del Campo, 1427"
+    author: bernardino-of-siena
+    original_language: Italian
+    composed: "1427 (preached at Siena from August 1427; taken down by a listener)"
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "none (Italian original, edited by Luciano Banchi)"
+        year: 1880
+        language: Italian
+        recension: "Banchi's edition in three volumes (1880, 1884, one undated in the OCR), sermons I to XLV"
+        items:
+          - "cic:bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt:sermons I-XV"
+          - "cic:bernardino-of-siena_prediche-volgari-1427-v2-ita_banchi1884.txt:sermons XVI-XXX"
+          - "cic:bernardino-of-siena_prediche-volgari-1427-v3-ita_banchi.txt:sermons XXXI-XLV"
+      - translator: "Helen Josephine Robins (selection edited by Nazareno Orlandi)"
+        year: 1920
+        language: English
+        recension: "a selection from the Italian sermons, not the whole cycle"
+        items:
+          - "cic:bernardino-of-siena_sermons_orlandi-robins1920.txt:whole file"
+    notes: >
+      The English is a selection, so most sermons have no public-domain English. The year of the English rests on the host date alone (no year is legible in the OCR). Whether the selection is drawn only from the 1427 cycle was not checked, so the pairing is provisional.
+
+  - work_id: jacopone-da-todi-laude
+    title: "The Laude of Jacopone da Todi"
+    author: jacopone-da-todi
+    original_language: Italian
+    composed: "before 1306 (Jacopone died in 1306)"
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "none (Italian original, Ferri's text of the Florence print of 1490)"
+        year: 1915
+        language: Italian
+        recension: "Florence print of 1490, ed. Giovanni Ferri"
+        items:
+          - "cic:jacopone-da-todi_laude-ita_ferri1915.txt:whole file, laude numbered in Roman numerals"
+      - translator: "Mrs. Theodore Beck (English verse, a selection)"
+        year: 1919
+        language: English
+        recension: "a selection of the laude inside Evelyn Underhill's biography"
+        items:
+          - "cic:underhill_jacopone-da-todi-poet-and-mystic_beck1919.txt:the selection of laude after the biography"
+    notes: >
+      Both files are placed needs-ruling on the Franciscan worlds because only the last years of Jacopone's life (to 1306) fall in the Era VI window.

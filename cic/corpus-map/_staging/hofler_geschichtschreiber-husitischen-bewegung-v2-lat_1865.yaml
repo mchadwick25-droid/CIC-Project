@@ -22,6 +22,17 @@ assignments:
   confidence: provisional
   note: The radical wing's own text, placed on the Hussite entry because the census files Tabor as a world
     within it. Provisional until the Hussite entry's build rules on the Taborite strand.
+- row_id: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865--chronicon-taboritarum-part-ii-the-bohemians-hearing-at-the
+  work: 'Chronicon Taboritarum, Part II: the Bohemians'' hearing at the Council of Basel (Höfler II)'
+  author: hofler
+  locus: Part II of the Chronicon, printed p. 701 ff.
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: context
+  confidence: provisional
+  note: 'The Taborite side''s record of the hearing the Council of Basel gave the Bohemians on the four
+    articles, in Latin. The conciliar contest seen through a hostile party''s chronicle. Provisional:
+    located by heading and opening lines, not read through.'
 - row_id: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865--tractatus-de-origine-hussitarum-hofler-ii
   work: Tractatus de origine Hussitarum, Höfler II
   author: hofler
