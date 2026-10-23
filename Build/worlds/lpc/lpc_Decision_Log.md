@@ -2367,3 +2367,13 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 **What this changes in approved documents.** D1 moves a scope boundary of Doc_01 and Doc_02 (the world is bounded to pastoral life and Augustine's preaching, not the whole sermon corpus). That is a substantial change under the build-cycle skill. It is therefore a change order, not an edit: it needs its own review file under the three-round cap. No approved document is edited by this entry.
 
 **Not yet decided.** The metered-spend ceiling for rendering; Doc_10 pilot status; the registry entry and `safety_adjacent`. Those stay with the project lead (stop point 1).
+
+---
+
+### 2026-10-23 — Doc_02 §7 gap claim: restated to Doc_01's narrower test (project lead's ruling)
+
+**Question.** Doc_02 §7 (line ~120) says no Registry row dates from 258 to 391. Optatus (c. 366 to 393; rows 27, 64, 300, 301) and rows 22, 25, 223, 228, 235, 59, 44 and 88 contradict it (`Review-Artifacts/L0_Doc02_Registry_Check_2026-10-23.md`).
+
+**Alternatives shown.** (1) Restate §7 to Doc_01's narrower test, no surviving ordinary-pastoral voice; (2) keep the wide claim and drop or re-date the contradicting rows; (3) withdraw the claim and say nothing about the gap; (4) another reading.
+
+**Chosen.** Option 1 (project lead, 2026-10-23, "1"). It changes a wording and a scope statement in an approved document, so it is made through the change order recorded in OG-38 and OG-39, not as a quiet edit. Doc_01's own "honest silence" binding is unchanged.
