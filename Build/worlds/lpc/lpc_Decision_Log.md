@@ -2422,3 +2422,10 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 **Question.** Doc_05 §1.4 discharges Article 20's secondary prong with a bounded, Inferential-Thin reconstruction of the Hippo congregation of 411, built only from Augustine's concessions against interest in Letter CXXVI (to Albina). Article 20's own gloss names polemic and prohibition, not personal correspondence; Doc_05 §11 item 13 asked the project lead to confirm or reject the extension.
 **Alternatives shown.** (1) Confirm; (2) reject, so §1.4 falls and Doc_05 §11 item 6 needs a change order; (3) confirm for `lpc` only and log the fleet-wide reading as a proposal.
 **Chosen.** 3 (project lead, 2026-10-23, "3"). §1.4 stands as written, with its stated bounds (nothing about what the congregation believed). Doc_05 §11 item 13 is to cite this entry, through the current change order. The general reading is a proposal in the System Hub Decision Log.
+
+---
+
+### 2026-10-23 — `safety_adjacent` set to true (project lead's ruling, stop point 1 item 1)
+
+**Alternatives shown.** (1) true, full validation; (2) false, lean validation. Precedents shown: `jes` true (the voice sits close to confession and spiritual direction), `hus` false (`Build/Ministry/Operations/Audits/hus_jes_Article29_SafetyAdjacent_Ruling_2026-10-01.md`).
+**Chosen.** 1, true (project lead, 2026-10-23, "1"). Reason put to him: the world's centre is failure, penance and readmission, with plague, death and martyrdom, and the sermon expansion makes it more pastoral. Written to `records/worlds/lpc.yaml` by the build thread on his instruction. Safety handling stays with the Facilitator.
