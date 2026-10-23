@@ -276,15 +276,16 @@ works:
   work: 'Visitation Articles and Injunctions, Vol. II: the Marian restoration documents, 1554-1558'
   author: church-of-england
   locus: as above, the last fifth of the file
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'The Marian church (1553-1558) is the English Catholic church''s own institutional
     voice in the five years before the recusant window opens (1559). Whether the recusant
     world may hold these as its own tradition (its immediate parent, the church its priests
     were ordained in) or only as antecedent context is a placement the library cannot settle;
-    flagged for a ruling rather than called either way.
-
-    '
+    flagged for a ruling rather than called either way. Ruled by the project lead, October
+    2026 (Era VII placements): a text from before the world''s window that the world argued
+    from is antecedent to it; a text from after the window is context here and tradition for
+    the later entry.'
   source_file: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt
 - row_id: church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910--elizabethan-visitation-articles-and-injunctions-1559-1575-3
   work: Visitation Articles and Injunctions, Vol. III, 1559-1575
