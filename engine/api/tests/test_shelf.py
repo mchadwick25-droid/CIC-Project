@@ -354,15 +354,20 @@ def test_a_shelf_entry_whose_conversation_is_gone_drops_off_the_list(http, accou
     assert accounts.service.store._d.execute("SELECT COUNT(*) FROM shelf").fetchone()[0] == 0
 
 
+def snapshot(source, target):
+    import sqlite3
+    with sqlite3.connect(source) as src, sqlite3.connect(target) as dst:
+        src.backup(dst)
+
+
 def test_an_erased_conversation_that_comes_back_from_a_backup_is_erased_again(http, accounts, mailer, store, usage_store, feedback, qc, tmp_path):
-    import shutil
     from engine.api.accounts_routes import reapply_erasures
     sign_in(http, mailer)
     session_id, auth = open_session(http)
     say(http, session_id, auth, "a question that will be deleted")
-    shutil.copy(store.db_path, tmp_path / "events-backup.db")
+    snapshot(store.db_path, tmp_path / "events-backup.db")
     assert post(http, "shelf/delete", session_id=session_id).status_code == 200
-    shutil.copy(tmp_path / "events-backup.db", store.db_path)  # a restore
+    snapshot(tmp_path / "events-backup.db", store.db_path)  # a restore
     assert store.read_events(session_id)
     assert reapply_erasures(accounts) == 1
     assert store.read_events(session_id) == [] and reapply_erasures(accounts) == 0
@@ -474,12 +479,6 @@ def test_a_second_pass_keeps_the_review_tokens_so_a_later_restore_is_still_clear
     session_id, auth = open_session(http)
     say(http, session_id, auth, "a question")
     token = qc.token_for_code(code_of(auth))
-    import sqlite3
-
-    def snapshot(source, target):
-        with sqlite3.connect(source) as src, sqlite3.connect(target) as dst:
-            src.backup(dst)
-
     snapshot(store.db_path, tmp_path / "ev.bak")
     snapshot(qc.store.db_path, tmp_path / "qc.bak")
     post(http, "shelf/delete", session_id=session_id)
