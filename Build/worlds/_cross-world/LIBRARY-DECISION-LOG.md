@@ -13,6 +13,42 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-10-23 — Era VII second pass on the unvendored leads
+
+**Instruction.** Mark asked for a second pass on the verified leads the Era VII
+dossiers had left unvendored (201 seed-queue rows across the 27 worlds).
+
+**What was done.** Six agents worked the worlds in groups. Each re-verified a
+lead on its host before downloading, vendored only what filled a gap the
+dossier's section 6 had named, paired an original with its public-domain
+English where one existed, and left the rest as leads with the reason. The
+dossiers carry a "Second pass, October 2026" line and their sections 1, 3, 4
+and 6 are revised in place.
+
+**What changed in the recommendations.** Kyiv-Mohyla (VI.21) moves from
+open question to build: Mohyla's own hand and the documentary spine are
+now in the corpus. The Remonstrants' condition (one more pass before the
+movement's own voice counts as secure) is met. Every other recommendation
+stands; the open-question worlds (VI.13, VI.15, VI.16, VI.25, VI.28) are
+open for the same reasons as before, with the gaps narrowed and recorded.
+
+**Hosts.** Google Books could not be used from this environment (API quota
+zero, web search rate-limited, text downloads captcha-blocked); HathiTrust's
+catalogue answers but its viewer does not. Two new reachable hosts were found
+and used: the Biblioteca Nacional Digital of Portugal (Gouvea's Jornada) and
+the Hungarian Academy's REAL-EOD repository (the Transylvanian diet records).
+The NYPL renewal data is reachable on the `master` branch under
+`data/<year>-1.tsv`; the 1947 Doctrina Christiana facsimile shows no renewal
+in the 1974 to 1976 files, and whether that lifts its passages-only limit is
+Mark's ruling.
+
+**Corpus size.** The second pass added about 90 files. `cic/texts/` is now
+well past the 1 GB planning trigger and approaching the 1.5 GB action point in
+`PLAN-texts-store-scaling.md`. Nothing was moved; the plan is Mark's to act
+on.
+
+---
+
 ## 2026-10-23 — Era VII library pass: scope, corpus size, and placements left to Mark
 
 **What was done.** The 27 Era VII census worlds with no Doc_02 now each have a

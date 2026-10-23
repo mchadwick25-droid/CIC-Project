@@ -1,0 +1,44 @@
+source_file: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt
+authors_ruled:
+  dallam:
+    kind: metadata-omission
+    evidence: The title page (file lines 180-200) names 'The Diary of Master Thomas Dallam, 1599-1600'
+      as part I; the file name carries both diarists.
+  covel:
+    kind: metadata-omission
+    evidence: The title page names 'Extracts from the Diaries of Dr John Covel, 1670-1679' as part II
+      (file line 200); the file name carries both diarists.
+assignments:
+- row_id: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893--extracts-from-the-diaries-of-dr-john-covel-1670-1679
+  work: Extracts from the diaries of Dr John Covel, 1670-1679 (Constantinople, the Greek church, Adrianople,
+    Asia Minor)
+  author: covel
+  locus: from file line 6484 (DR. COVEL'S DIARY) to file line 14022; the consecration of a Patriarch at
+    about file line 8331; the Patriarchate's state in Bent's note at about file line 8364
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: context
+  confidence: assigned
+  note: 'An English chaplain who sat through Greek services in the 1670s and wrote down what he saw, with
+    his own opinions: the outside witness beside Rycaut and Smith. Clean OCR; Covel''s own spelling kept.'
+- row_id: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893--extracts-from-the-diaries-of-dr-john-covel-1670-1679-2
+  work: Extracts from the diaries of Dr John Covel, 1670-1679 (Constantinople, the Greek church, Adrianople,
+    Asia Minor)
+  author: covel
+  locus: same as the later-entry row
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: context
+  confidence: provisional
+  note: After this world's window (1650) by two decades; recorded here because the first-pass dossier
+    named Covel as a lead for this world. Provisional on date.
+- row_id: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893--the-diary-of-master-thomas-dallam-1599-1600-the-organ-sent
+  work: The diary of Master Thomas Dallam, 1599-1600 (the organ sent to the Sultan)
+  author: dallam
+  locus: from file line 2041 (MASTER THOMAS DALLAM'S DIARY) to file line 6483
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: context
+  confidence: provisional
+  note: An English craftsman at Constantinople in 1599-1600, inside the window but with little on the
+    church; placed for completeness, provisional.

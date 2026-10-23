@@ -125,7 +125,6 @@ p{margin:0 0 1rem}
   .arriving.pending .arriving-ring{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
   .arriving.pending .arriving-seat{transform:translate(0,0)}
 }
-.door-line{max-width:46rem;margin:1rem auto 0;font-family:var(--sans);font-size:1rem;line-height:1.5;color:var(--muted);text-align:center}
 .home-flow{max-width:var(--wide);margin:0 auto;padding:.5rem 1.25rem 0}
 /* .feature-card: the bordered container shared by the Church Family Tree and Conversation with One. */
 .feature-card{margin:3rem 0 0;background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
@@ -303,7 +302,6 @@ body .cicp-speeds button{min-height:44px;min-width:44px;padding:0 .3rem}
       </div>
       <div class="who-search" id="chooser-search-slot"></div>
     </div>
-    <p id="door-line" class="door-line" role="status" hidden></p>
     <div data-chooser data-mode="landing" data-from="index.html#who" data-search-slot="#chooser-search-slot">
       <div data-chooser-fallback hidden>
         <p>The voices could not load just now. You can still <a href="atlas-v3.html">browse every tradition on the Church Family Tree</a> and start a conversation from there.</p>
@@ -435,8 +433,6 @@ if (menu && menuToggle) {
 })();
 </script>
 <script src="assets/narration-player.js" defer></script>
-<script src="assets/go-deeper-config.js"></script>
-<script src="assets/door-line.js"></script>
 <script src="assets/chooser.js" defer></script>
 <script src="assets/page-rail.js" defer></script>
 <script src="assets/feedback.js" defer></script>

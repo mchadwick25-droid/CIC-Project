@@ -22,6 +22,21 @@ works:
   confidence: provisional
   note: Placed on the handbook's subject matter without a full read.
   source_file: bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927.txt
+- row_id: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885--histoire-des-martyrs-1619-edition-tome-1-livre-premier-the
+  work: 'Histoire des martyrs (1619 edition), Tome 1, Livre Premier: the medieval witnesses,
+    including the Vaudois'
+  author: crespin
+  locus: Livre Premier, from about file line 3456 to 18568; the Vaudois passages around line
+    11860-11880
+  role: context
+  confidence: provisional
+  note: 'Crespin''s sixteenth-century Protestant reading of the medieval Vaudois as witnesses
+    to the Gospel driven into the Alps, Calabria, Bohemia and Poland. Placed as context for
+    the medieval Waldensian entry, as a later reading rather than a medieval source. Second
+    witness.
+
+    '
+  source_file: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt
 - row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-i-3
   work: Histoire ecclésiastique des Églises Vaudoises, Tome premier, the opening chapters
     on the origins

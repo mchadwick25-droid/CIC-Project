@@ -115,6 +115,21 @@ works:
 
     '
   source_file: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt
+- row_id: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889--a-defence-of-the-catholic-faith-concerning-the-satisfaction-2
+  work: A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus
+    Socinus (Grotius, Leiden 1617; Foster's English, 1889)
+  author: grotius
+  locus: whole file; Foster's Historical Introduction (from about line 474) on Socinus's doctrine
+    and the controversy
+  role: context
+  confidence: provisional
+  note: 'A leading Dutch Protestant''s refutation of Socinus on the satisfaction, in English:
+    the opposing view of the anti-Trinitarian current, from the generation after Socinus.
+    Placed on that relation; the anti-Trinitarian world''s build decides its weight. Clean
+    OCR.
+
+    '
+  source_file: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt
 - row_id: lubieniecki_historia-reformationis-polonicae-lat_1685--historia-reformationis-polonicae
   work: Historia Reformationis Polonicae (1685)
   author: lubieniecki
@@ -316,6 +331,21 @@ works:
 
     '
   source_file: socinus_opera-omnia-polemica-lat_1656.txt
+- row_id: transylvanian-diet_erdelyi-orszaggyulesi-emlekek-2-1556-1576-hun-lat_szilagyi1876--erd-lyi-orsz-ggy-l-si-eml-kek-ii-1556-1576-the-transylvanian-diets-dec
+  work: 'Erdélyi Országgyűlési Emlékek II (1556-1576): the Transylvanian diets'' decrees and
+    articles, with the Torda diet of January 1568'
+  author: transylvanian-diet
+  locus: document XVII, the Torda diet of 6-13 January 1568 at file line 10376; document XIX,
+    the Torda diet of May 1568 at file line 10573; the editor's list of documents (Törvények
+    és okiratok) at file line 18123
+  role: context
+  confidence: assigned
+  note: 'The Transylvanian diet''s own acts, 1556-1576, including the Torda articles of January
+    1568 that the census names as the Edict of Torda. Role context: the state''s law on religion,
+    in Latin and Hungarian, not the anti-Trinitarian church''s voice. Clean OCR; quotable
+    once checked against the page image. Hungarian and Latin; no public-domain English of
+    the articles found.'
+  source_file: transylvanian-diet_erdelyi-orszaggyulesi-emlekek-2-1556-1576-hun-lat_szilagyi1876.txt
 - row_id: voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891--voetius-against-socinus
   work: 'Voetius'' Catechisatie over den Heidelbergschen Catechismus, v1: the answers against
     Socinus and the Socinians'

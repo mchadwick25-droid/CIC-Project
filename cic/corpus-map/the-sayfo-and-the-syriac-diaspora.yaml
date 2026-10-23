@@ -3,6 +3,17 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-sayfo-and-the-syriac-diaspora
 works:
+- row_id: maclean-browne_catholicos-of-the-east-and-his-people_1892--the-east-syrians-and-the-uniat-chaldean-church-3
+  work: The Catholicos of the East and his People (Maclean and Browne, 1892)
+  author: maclean-browne
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'The Hakkari and Urmi communities a generation before 1915, described by the mission
+    that withdrew in that year. Placed on place; not read for that entry.
+
+    '
+  source_file: maclean-browne_catholicos-of-the-east-and-his-people_1892.txt
 - row_id: wigram_assyrians-and-their-neighbours_1929--chapter-vii-schism-of-the-sixteenth-century-4
   work: The Assyrians and their Neighbours (1929), chapter X, The Great War and After
   author: wigram

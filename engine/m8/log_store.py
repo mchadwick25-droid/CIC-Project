@@ -114,7 +114,7 @@ class UsageLogStore:
 
     def read_since(self, since_iso: str) -> list[UsageRecord]:
         """Every record written at or after an ISO UTC time, oldest first. The
-        one windowed read: the door's rolling week is built on it."""
+        one windowed read."""
         with self._connect() as conn:
             rows = conn.execute(
                 "SELECT trace_id, session_id, call_kind, model_id, provider, usage_json, created_at, world_key, live_test FROM usage_log "

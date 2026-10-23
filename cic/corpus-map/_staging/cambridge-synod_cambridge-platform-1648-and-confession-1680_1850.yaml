@@ -1,0 +1,39 @@
+source_file: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850.txt
+
+authors_ruled:
+  boston-synod:
+    kind: anonymous
+    evidence: >
+      The 1680 Confession is a synodical document adopted by the Boston Synod, named on its own preface (file line about 1943); the file name carries the 1648 Cambridge Synod.
+    from_file: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850.txt
+
+
+assignments:
+  - row_id: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850--the-cambridge-platform-of-church-discipline-1648-preface-extracts-and-
+    work: "The Cambridge Platform of Church Discipline (1648), preface extracts and chapters I-XVII"
+    author: cambridge-synod
+    locus: "from the preface extracts at file line 63 and CHAPTER I at 117 to the end of CHAPTER XVII (which ends before the 1680 Confession's PREFACE at 1943)"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      New England's own church order: the gathered church, the covenant, the
+      offices, the power of the synod, the magistrate's duty, written by the synod
+      the General Court called and accepting the Westminster Confession 'for
+      substance of doctrine'. Primary institutional voice of the Puritan world's
+      New England half, clean OCR, ready to quote once verified against this file.
+  - row_id: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850--the-confession-of-faith-adopted-by-the-boston-synod-of-1680-the-savoy-
+    work: "The Confession of Faith adopted by the Boston Synod of 1680 (the Savoy Declaration of 1658 as the Massachusetts churches adopted it)"
+    author: boston-synod
+    locus: "from the PREFACE at file line 1943 and CHAPTER I at 2050 to the end of the file"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      Twenty years after the window the census gives this world: the
+      second-generation churches restating their faith in the Savoy wording.
+      Placed as context for the Puritan world (its New England successors'
+      confession), provisional; a later New England or Congregational entry, if
+      the census adds one, would hold it as tradition.

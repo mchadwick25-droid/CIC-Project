@@ -3,18 +3,23 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: st-thomas-christians-1300-1517
 works:
-- row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--bibliotheca-orientalis-iii-1-the-nestorian-writers-with-the
-  work: 'Bibliotheca Orientalis III.1: the Nestorian writers, with the 1504 letter of the
-    Malabar bishops and the lives of the fourteenth and fifteenth-century patriarchs'
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--bibliotheca-orientalis-iii-1-assemani-1725-the-malabar
+  work: 'Bibliotheca Orientalis III.1 (Assemani, 1725): the Malabar bishops'' history and
+    their Syriac letter of 1504 to the patriarch, in Assemani''s Latin'
   author: assemani
-  locus: Malabar bishops' history and the 1504 letter at file line 93562 onward; Timotheus
-    II at 97694 and 98507
+  locus: the entry on the bishops of India and their letter of the year of the Greeks 1815,
+    Christ 1504, at about file lines 97040-97920 (volume page 590 onward); the letter's own
+    text is in the Latin of Assemani's extract
   role: tradition
-  confidence: assigned
-  note: 'Primary Latin: the bishops'' letter of 1504 and the history of their mission, in
-    Assemani''s printed Latin, plus the lives of later patriarchs, among them Timotheus II.
-    Latin OCR readable with the long s read as f. Syriac garbled. Ready to quote once verified
-    against the scan. Eighteenth-century lives are scholarship.'
+  confidence: provisional
+  note: 'The one place inside the window where the Malabar Christians speak in their own name:
+    the bishops'' letter of 1504, here in Assemani''s Latin (the Syriac is in Vatican Syriac
+    5, not on the shelf). Placed on the passage found at the lines cited, not read through;
+    the Latin OCR reads the long s as f, so a second witness for exact wording until checked
+    against the page image. Mingana 1926 (vendored) gives an English rendering of the same
+    letter.
+
+    '
   source_file: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
 - row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555-4
   work: 'Bibliotheca Orientalis III.2, Caput IX: the St. Thomas Christians before 1517'
@@ -65,6 +70,32 @@ works:
     including Quilon and the Nestorians. Placed on subject from the contents; not read through.
     Yule and Cordier''s notes are scholarship.'
   source_file: cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt
+- row_id: gouvea_jornada-do-arcebispo-de-goa-por_1606--jornada-do-arcebispo-de-goa-the-serra-and-the-synod-of-diamper-3
+  work: 'Jornada do Arcebispo de Goa (Gouvea, 1606): the state of the Christians of St. Thomas
+    before 1599 as the Portuguese described it'
+  author: gouvea
+  locus: Book I, from 'CAPITVLO PRIMEYRO' at file line 629, the chapters on the origin, bishops
+    and errors of the Christians of St. Thomas
+  role: context
+  confidence: provisional
+  note: 'The Portuguese description of the community''s bishops from Babylon, its rite and
+    its books, written to justify their removal; a hostile witness to the state of the church
+    before the window of this entry ended. Placed on subject without a close read.
+
+    '
+  source_file: gouvea_jornada-do-arcebispo-de-goa-por_1606.txt
+- row_id: howard_christians-of-st-thomas-and-their-liturgies_1864--chapter-ii-the-synod-of-diamper-4
+  work: 'The Christians of St. Thomas and their Liturgies (Howard, 1864), chapter I: the early
+    traditions and history to 1502'
+  author: howard
+  locus: Chapter I from file line 843 to 1947
+  role: context
+  confidence: provisional
+  note: 'A nineteenth-century Anglican summary of the medieval traditions of the community.
+    Placed on the chapter title; not read for that entry.
+
+    '
+  source_file: howard_christians-of-st-thomas-and-their-liturgies_1864.txt
 - row_id: india-in-the-fifteenth-century_narratives-of-voyages_major1857--india-in-the-fifteenth-century-narratives-of-conti-abd-er-ra
   work: 'India in the Fifteenth Century: narratives of Conti, Abd-er-Razzak, Nikitin, Santo
     Stefano'

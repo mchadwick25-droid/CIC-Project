@@ -17,6 +17,19 @@ works:
     1.5 million characters); whether a given document is his own letter or an account of it
     must be checked on the page. Good OCR. No public-domain English translation of these acts.'
   source_file: akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836.txt
+- row_id: akty-zapadnoi-rossii_t4-1588-1652-rus_1851--akty-zapadnoi-rossii-vol-4-letters-between-the-lithuanian
+  work: 'Akty Zapadnoi Rossii vol. 4: letters between the Lithuanian Rus'' and Muscovy in
+    the Time of Troubles, and the Lithuanian side of the 1589 patriarchal journey'
+  author: akty-zapadnoi-rossii
+  locus: the 1589 patriarchal documents from file line 2109; the Time of Troubles letters
+    at about file lines 27000-30000 (a letter on Boris Godunov and the pretender read at the
+    50 percent sample point)
+  role: context
+  confidence: provisional
+  note: The western half of the 1589 journey that founded the Moscow patriarchate, and Lithuanian
+    correspondence about Boris and the false Dmitry. Placed on sampled passages, not a full
+    reading; the Russian thread decides its weight.
+  source_file: akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt
 - row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--poslaniia-startsa-artemiia-epistles-ascribed-to-the-elder
   work: Poslaniia startsa Artemiia (epistles ascribed to the elder Artemii)
   author: artemii-starets
@@ -84,6 +97,38 @@ works:
     third of the volume. Clean English, rougher in the Latin and German passages of the introduction.
     Volume II is not vendored.
   source_file: herberstein_notes-upon-russia-v1_major1851.txt
+- row_id: kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914--tsar-ivan-iv-s-two-epistles-to-prince-kurbsky-1564-and-1577
+  work: Tsar Ivan IV's two epistles to Prince Kurbsky (1564 and 1577), Russian text of the
+    1914 Commission edition
+  author: ivan-iv
+  locus: the tsar's first epistle in two redactions on facing columns from file line 966 (ПОСЛАНIЕ
+    ЦАРЯ IОАННА ВАСИЛЬЕВИЧА); the second epistle (section IV) from file line 9188, dated 7086
+    (1577) at file line 9638
+  role: tradition
+  confidence: assigned
+  note: The tsar's own theology of autocracy, written against the 'priest-ruled' order of
+    Sylvester and Adashev, with long scriptural and patristic quotation (Dionysius to Demophilus);
+    the most voluble lay-ruler statement on church and crown in the window. Same contested
+    authenticity as the Kurbsky rows. Readable OCR; Greek and Latin quotations in the apparatus
+    garbled.
+  source_file: kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914.txt
+- row_id: kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914--kurbsky-s-three-epistles-to-tsar-ivan-iv-1564-1579-russian
+  work: Kurbsky's three epistles to Tsar Ivan IV (1564-1579), Russian text of the 1914 Commission
+    edition
+  author: kurbsky
+  locus: first epistle from file line 517 (ЭПИСТОЛIЯ ПЕРВАЯ); the short answer at file line
+    9071 (КРАТКОЕ ОТВѢЩАНIЕ); the long answer to the tsar's second epistle (section V, 'На
+    вторую епистолю отвѣщаніе цареви Московскому', from about file line 10000; running heads
+    ОТВѢЩАНIЕ ЦАРЕВИ МОСКОВСКОМУ from 10522) to the end of the text
+  role: tradition
+  confidence: assigned
+  note: A boyar and voevoda who fled to Lithuania in 1564 and wrote to the tsar as a wronged
+    Orthodox Christian, naming the tsar's victims as martyrs and invoking the 'strong in Israel';
+    the church-and-tsar quarrel of Ivan's reign in a lay voice. Primary text in sixteenth-century
+    Russian, readable OCR; quote only after a page-image check. The authenticity and dating
+    of the whole correspondence are contested (Keenan 1971), so a build must carry a contested_claim
+    record; this edition prints it as genuine.
+  source_file: kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--monumenta-fidei-ecclesiae-orientalis-kimmel-1850-the-greek-a
   work: 'Monumenta fidei ecclesiae orientalis (Kimmel 1850): the Greek and Latin confessions,
     with the Constantinople synod notes on Cyril Lucaris'
@@ -107,6 +152,39 @@ works:
   note: 'Placed on place and window: the same Muscovite church kept and read Sergius''s Life
     in this compilation. Not read for this entry.'
   source_file: macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883.txt
+- row_id: maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910--maxim-the-greek-moral-writings-nravouchitel-nye-sochineniia
+  work: Maxim the Greek, moral writings (Nravouchitel'nye sochineniia), in the 1910 Trinity-Sergius
+    Lavra Russian translation
+  author: maxim-the-greek
+  locus: the writings from file line 294 (Слово I) to the table of contents at file line 12632;
+    the dialogue of soul and mind, the dispute of Philoktimon and Aktimon, the discourses
+    on repentance, the Tver fire of 1537, the 1541 thanksgiving and the dedication to Vasily
+    III are listed there
+  role: tradition
+  confidence: assigned
+  note: 'The one named theologian of the window now in the corpus: the Athonite monk brought
+    to Moscow in 1518, tried in 1525 and 1531, who wrote against monastic wealth, usury and
+    astrology and for the correction of books. This is a 1910 translation into modern Russian
+    of the Slavonic text in the Kazan edition; use it for sense and for finding passages,
+    and quote the Slavonic beside it (maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860.txt).
+    Clean OCR.'
+  source_file: maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910.txt
+- row_id: maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860--maxim-the-greek-moral-writings-the-slavonic-text-of-the
+  work: Maxim the Greek, moral writings, the Slavonic text of the Kazan Academy edition, part
+    2 (1860)
+  author: maxim-the-greek
+  locus: 'each writing headed in capitals: the discourse of mind to soul at file line 51,
+    the dialogue of soul and mind at file line 3000, the dispute on monastic possessions at
+    about file line 4879, on repentance at file line 8037, the chapters for Orthodox rulers
+    at file line 8455, on God''s providence and against usurers at file line 9668'
+  role: tradition
+  confidence: assigned
+  note: 'Maxim''s own Slavonic wording, the text a quote record should hold, with the 1910
+    Russian translation beside it for sense. OCR readable at four of five sampled points and
+    garbled at one, yat misread throughout: ready to quote only after a page-image check,
+    and a second witness where the page is bad. Part 3 of the edition (1862) is on the host
+    and part 1 was not found.'
+  source_file: maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860.txt
 - row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-mouravieff-blackmore-s-2
   work: A History of the Church of Russia (Mouravieff; Blackmore's English, 1842)
   author: mouravieff
@@ -117,6 +195,18 @@ works:
   note: 'Placed on window and place: the same history carries the Stoglav period, the Nikonian
     reform and the schism. Sampled by name counts only; not read for these entries.'
   source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
+- row_id: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906--additions-to-the-nikon-chronicle-for-1558-1567-the-synodal
+  work: Additions to the Nikon Chronicle for 1558-1567 (the Synodal, Alexander Nevsky and
+    Lebedev copies), 1906 edition
+  author: nikonovskaia-letopis
+  locus: from file line 258 (ДОПОЛНЕНIЯ КЪ НИКОНОВСКОЙ ЛѢТОПИСИ) to file line 6176
+  role: tradition
+  confidence: assigned
+  note: 'The chronicle continuation for 1558-1567: the Livonian war years and the beginning
+    of the oprichnina, from three seventeenth-century copies. Church matter is thinner here
+    than in the Tsar''s Book; placed as tradition because it is the same official chronicle
+    voice.'
+  source_file: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906.txt
 - row_id: nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912--nil-sorsky-the-tradition-and-the-rule-for-the-skete-2
   work: Nil Sorsky, the Tradition and the Rule for the skete (Предание и Устав), Borovkova-Maikova
     edition, 1912
@@ -128,6 +218,21 @@ works:
     on monasteries later had to meet. Placed on window and place; the 1551 chapters were not
     compared.
   source_file: nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt
+- row_id: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910--novyi-letopisets-the-new-chronicle-1584-to-the-1630s-in-the
+  work: Novyi letopisets (the New Chronicle), 1584 to the 1630s, in the Archaeographic Commission's
+    1910 edition
+  author: novyi-letopisets
+  locus: chapter 1 at about file line 2702 ('Отъ царствующаго града Москвы'); running heads
+    НОВЫЙ ЛѢТОПИСЕЦЪ to the end of the text (chapter 353 near file line 9500)
+  role: tradition
+  confidence: assigned
+  note: 'The official Moscow chronicle of the Troubles compiled under Patriarch Filaret''s
+    circle in the 1630s, from the Nikon Chronicle manuscripts: the founding of the patriarchate
+    (1589), Patriarch Job, Hermogenes''s resistance in 1611, the Trinity siege, the 1613 election
+    and the Michael-Filaret years. The chronicle voice the census names and the first pass
+    lacked. Readable OCR, yat misread; quote after a page-image check. The 1853 Obolensky
+    print of the same chronicle is on the host, not vendored.'
+  source_file: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt
 - row_id: olearius_voyages-and-travels-of-the-ambassadors_davies1662--the-voyages-and-travels-of-the-ambassadors-from-the-duke-of
   work: The Voyages and Travels of the Ambassadors from the Duke of Holstein to Muscovy and
     Persia (Olearius, John Davies's English, 1662)
@@ -143,6 +248,19 @@ works:
     exact wording until a cleaner scan is found. Persia and Mandelslo''s East Indies in the
     same file are outside this world.'
   source_file: olearius_voyages-and-travels-of-the-ambassadors_davies1662.txt
+- row_id: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910--povest-o-chestnem-zhitii-tsaria-feodora-ivanovicha-the-tale
+  work: Povest' o chestnem zhitii tsaria Feodora Ivanovicha (the Tale of the honourable life
+    of Tsar Feodor Ivanovich), 1910 edition
+  author: povest-o-chestnem-zhitii-tsaria-feodora
+  locus: from the end of the editors' preface (about file line 120) to the start of the New
+    Chronicle at about file line 2702
+  role: tradition
+  confidence: provisional
+  note: A churchly life of Tsar Feodor (died 1598) that closes the Nikon Chronicle manuscripts;
+    its traditional ascription to Patriarch Job is not stated in this edition's preface as
+    read, so the author is left anonymous here and the row is provisional until a build reads
+    the preface in full.
+  source_file: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt
 - row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--hakluytus-posthumus-or-purchas-his-pilgrimes-vol-xii-jenkins
   work: 'Hakluytus Posthumus, or Purchas His Pilgrimes, Vol. XII: Jenkinson in Russia'
   author: purchas
@@ -181,3 +299,16 @@ works:
     so cite by the text''s own wording and the file line, not by the printed chapter number.
     French translation: stoglav_stoglav-fra_duchesne1920.txt.'
   source_file: stoglav_stoglav-chu_kozhanchikov1863.txt
+- row_id: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906--tsarstvennaia-kniga-the-tsar-s-book-the-illuminated
+  work: Tsarstvennaia kniga (the Tsar's Book), the illuminated chronicle of 1533-1553, in
+    the Commission's 1906 edition
+  author: tsarstvennaia-kniga
+  locus: from file line 6177 (ТАКЪ НАЗЫВАЕМАЯ ЦАРСТВЕННАЯ КНИГА, year 7042) to the end of
+    the text
+  role: tradition
+  confidence: assigned
+  note: The court's own chronicle of Ivan IV's minority and early reign, with Metropolitan
+    Daniel at Vasily III's deathbed and tonsure, Metropolitan Macarius, the 1547 fire and
+    the Kazan campaign told with the church's prayers and processions; the chronicle witness
+    to the Stoglav generation. Readable OCR; quote after a page-image check.
+  source_file: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906.txt

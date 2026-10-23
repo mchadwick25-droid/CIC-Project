@@ -8,8 +8,8 @@
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
     "total_entries": 292,
-    "entries_with_coverage": 130,
-    "entries_zero_coverage": 162
+    "entries_with_coverage": 131,
+    "entries_zero_coverage": 161
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -8265,6 +8265,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Bibliotheca Orientalis III.1 (Assemani, 1725): the catalogue of the Syriac writers of the Church of the East, built on Abdisho of Nisibis's catalogue of books",
+          "author": "assemani",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+          "rights": "Public Domain (published 1725; public domain by date; the host marks the item Public Domain Mark 1.0)"
+        },
+        {
           "work": "Die Chronik von Arbela (the Chronicle of Arbela attributed to Mshiha-zkha), German translation",
           "author": "chronicle-of-arbela",
           "role": "tradition",
@@ -11337,6 +11345,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Histoire des martyrs (1619 edition), Tome 1, Livre Premier: the medieval witnesses, including the Vaudois",
+          "author": "crespin",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt",
+          "rights": "Public Domain (published 1885; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Histoire ecclésiastique des Églises Vaudoises, Tome premier, the opening chapters on the origins",
           "author": "gilles",
           "role": "context",
@@ -11397,6 +11413,14 @@
       "name": "Cathars / Albigensians",
       "status": "Floor Question (register)",
       "works": [
+        {
+          "work": "Histoire des Chrestiens Albigeois (Part II of Perrin's Histoire des Vaudois, 1618)",
+          "author": "perrin",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "perrin_histoire-des-vaudois-parties-2-3-fra_1618.txt",
+          "rights": "Public Domain (an early seventeenth-century print carrying a Creative Commons Public Domain Mark 1.0 on the host item; public domain by date under the project's 95-year rule)"
+        },
         {
           "work": "History of the Old Albigenses (Perrin, English), Part II Books I-III",
           "author": "perrin",
@@ -11521,6 +11545,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "The Ascent of Mount Carmel, the passages on the Carmelite Rule and the order",
+          "author": "john-of-the-cross",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "john-of-the-cross_ascent-of-mount-carmel_lewis1906.txt",
+          "rights": "Public Domain (published 1906; public domain by date; host licence Public Domain Mark 1.0)"
+        },
+        {
           "work": "The Life of Saint John of the Cross, the opening chapter on the Order of Our Lady of Mount Carmel and the Mitigated Rule",
           "author": "john-of-the-cross",
           "role": "context",
@@ -11543,6 +11575,14 @@
           "confidence": "provisional",
           "source_file": "teresa-of-avila_life_lewis1904.txt",
           "rights": "Public Domain (published 1904; public domain by date; the host record carries no rights field and no access restriction)"
+        },
+        {
+          "work": "The Way of Perfection, the passages on the primitive Rule",
+          "author": "teresa-of-avila",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "teresa-of-avila_way-of-perfection_stanbrook1919.txt",
+          "rights": "Public Domain (published 1919; public domain by date; host possible-copyright-status NOT_IN_COPYRIGHT)"
         }
       ]
     },
@@ -12010,6 +12050,14 @@
           "confidence": "provisional",
           "source_file": "ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt",
           "rights": "Public Domain (pd-us-by-date: published 1928, more than 95 years before 2026); the item record carries no rights field"
+        },
+        {
+          "work": "A New History of Ethiopia (Ludolf, 1682), Book III on the conversion, scriptures and rites of the Ethiopian church",
+          "author": "ludolf",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "ludolf_new-history-of-ethiopia_jp1682.txt",
+          "rights": "Public Domain (published 1682; public domain by date under the project's 95-year rule)"
         }
       ]
     },
@@ -12108,6 +12156,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Histoire ecclesiastique des Eglises Reformees des Valees de Piedmont, autrefois appelees Eglises Vaudoises, 1160 to 1643: the first printing, Geneva 1644",
+          "author": "gilles",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt",
+          "rights": "Public Domain (a seventeenth-century print carrying a Creative Commons Public Domain Mark 1.0 on the host item; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Histoire ecclésiastique des Églises Vaudoises, Tome premier, the chapters on the valleys before 1532",
           "author": "gilles",
           "role": "tradition",
@@ -12140,6 +12196,14 @@
           "rights": "Public Domain (printed at Geneva in 1619; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "Histoire des Vaudois, Part III (1618): the doctrine and the discipline the Vaudois held in common, with the old Vaudois texts printed in their own tongue and in French",
+          "author": "perrin",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "perrin_histoire-des-vaudois-parties-2-3-fra_1618.txt",
+          "rights": "Public Domain (an early seventeenth-century print carrying a Creative Commons Public Domain Mark 1.0 on the host item; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "History of the Old Waldenses anterior to the Reformation (Perrin, English), with the ancient catechism and discipline",
           "author": "perrin",
           "role": "tradition",
@@ -12154,12 +12218,36 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Bibliotheca Orientalis III.1 (Assemani, 1725): the series of patriarchs from Timotheus II to Simeon Bar-Mama",
+          "author": "assemani",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+          "rights": "Public Domain (published 1725; public domain by date; the host marks the item Public Domain Mark 1.0)"
+        },
+        {
           "work": "Bibliotheca Orientalis III.2, the dissertation De Syris Nestorianis: the patriarchal line, the hereditary succession and the Malabar bishops",
           "author": "assemani",
           "role": "context",
           "confidence": "provisional",
           "source_file": "assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
           "rights": "Public Domain (published 1728; public domain by date; host carries the Creative Commons Public Domain Mark 1.0)"
+        },
+        {
+          "work": "The Nestorians and their Rituals, volume I (Badger, 1852), chapter XI: the hereditary patriarchate from 1450",
+          "author": "badger",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "badger_nestorians-and-their-rituals-v1_1852.txt",
+          "rights": "Public Domain (published 1852; public domain by date)"
+        },
+        {
+          "work": "The Nestorians and their Rituals, volume II (Badger, 1852): the synod of Mar Timotheus II (1317) and the election of a patriarch",
+          "author": "badger",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "badger_nestorians-and-their-rituals-v2_1852.txt",
+          "rights": "Public Domain (published 1852; public domain by date)"
         },
         {
           "work": "Lamy's appendix to Bar Hebraeus, Chronicon Ecclesiasticum III: 'Series catholicorum Nestorianorum continuata', from Timotheus II (1318) to Simeon VII (d. 1551)",
@@ -12250,6 +12338,22 @@
           "rights": "Public Domain (published 1728; public domain by date; host carries the Creative Commons Public Domain Mark 1.0)"
         },
         {
+          "work": "Jornada do Arcebispo de Goa (Gouvea, 1606): the state of the Christians of St. Thomas before 1599 as the Portuguese described it",
+          "author": "gouvea",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "gouvea_jornada-do-arcebispo-de-goa-por_1606.txt",
+          "rights": "Public Domain (published 1606; public domain by date under the project's 95-year rule; the host, the Biblioteca Nacional de Portugal, marks the digital object \"PUBLIC DOMAIN. Obra no domínio público ... Public Domain Mark\")"
+        },
+        {
+          "work": "The Christians of St. Thomas and their Liturgies (Howard, 1864), chapter I: the early traditions and history to 1502",
+          "author": "howard",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "howard_christians-of-st-thomas-and-their-liturgies_1864.txt",
+          "rights": "Public Domain (published 1864; public domain by date; the host marks the item Public Domain Mark 1.0)"
+        },
+        {
           "work": "Historia Synodi Diamperitanae, Caput I (the Malabar church before the Portuguese)",
           "author": "raulin",
           "role": "context",
@@ -12286,6 +12390,14 @@
           "confidence": "provisional",
           "source_file": "acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt",
           "rights": "Public Domain (pre-1930 publication); the item description records the Bavarian State Library (MDZ) as the source and gives no reuse statement"
+        },
+        {
+          "work": "The History of the Reformation in Sweden (Anjou, 1850; Mason's English, 1859)",
+          "author": "anjou",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+          "rights": "Public Domain (published 1859, title page and copyright notice read in the file; public domain by date under the project's 95-year rule; the host item carries the flag NOT_IN_COPYRIGHT)"
         },
         {
           "work": "Konkordieboken (the Book of Concord, Concordia pia) in the Swedish tradition of Broocman's 1730 translation, as revised for Bensow's 1912 edition",
@@ -12622,6 +12734,14 @@
           "rights": "Public Domain (published 1853; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome deuxieme, Livres VI-IX (the first war of religion, 1562-1563, by province)",
+          "author": "beza",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884.txt",
+          "rights": "Public Domain (published 1884, title page read in the file; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome premier, Livres I-IV",
           "author": "beza",
           "role": "context",
@@ -12630,12 +12750,28 @@
           "rights": "Public Domain (1883 per the host catalogue, consistent with the August 1882 dedication read in the OCR; past the 95-year rule)"
         },
         {
+          "work": "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome troisieme, Livre X to the end (1562-1563), with Reuss's preface, introduction and index",
+          "author": "beza",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt",
+          "rights": "Public Domain (published 1889, title page read in the file; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Job Expounded by Theodore Beza: Partly in Manner of a Commentary, Partly in Manner of a Paraphrase; Faithfully Translated out of Latine into English",
           "author": "beza",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "beza_job-expounded_legatt1589.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Brandt's History of the Reformation in the Low-Countries, vol. III (Books XXXIII-XLIV): the Synod of Dort and the fall of Oldenbarnevelt, 1618-1619, in the English of 1722",
+          "author": "brandt",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt",
+          "rights": "Public Domain (an early eighteenth-century English print; public domain by date under the project's 95-year rule)"
         },
         {
           "work": "The Second Helvetic Confession (1566)",
@@ -12814,6 +12950,14 @@
           "rights": "Public Domain (pre-1930 publication); the item page carries possible-copyright-status NOT_IN_COPYRIGHT"
         },
         {
+          "work": "Confession of Cyril Lucaris, Greek with Latin (Kimmel 1843)",
+          "author": "lucaris",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt",
+          "rights": "Public Domain (published 1843, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques (Amsterdam, 1718)",
           "author": "lucaris",
           "role": "context",
@@ -12884,6 +13028,14 @@
           "confidence": "assigned",
           "source_file": "zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
           "rights": "Public Domain (published 1879; public domain by date; host carries the Creative Commons Public Domain Mark 1.0)"
+        },
+        {
+          "work": "The Zurich Letters, first series: the Zurich side (Bullinger, Peter Martyr, Gualter) in the Appendix and in the Latin originals",
+          "author": "zurich-letters",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "zurich-letters_first-series-1558-1579_robinson1842.txt",
+          "rights": "Public Domain (published 1842, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical marriage; the Acts of the First and Second Zurich Disputations; the 1527 Refutation of the Tricks of the Baptists; and other shorter writings)",
@@ -12994,6 +13146,38 @@
           "confidence": "provisional",
           "source_file": "mcglothlin_baptist-confessions-of-faith_1911.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Das ander Büchlein von der Freiwilligkeit des Menschen; Von dem Schwert (Nikolsburg, 1527)",
+          "author": "hubmaier",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "hubmaier_freiwilligkeit-des-menschen-und-von-dem-schwert-deu_1527.txt",
+          "rights": "Public Domain (printed 1527; public domain by date; the host item carries no rights field)"
+        },
+        {
+          "work": "Ein Form des Nachtmals Christi, Von dem christlichen Bann, Von der Freiheit des Willens (Nikolsburg, 1527)",
+          "author": "hubmaier",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "hubmaier_form-des-nachtmals-bann-freiheit-des-willens-deu_1527.txt",
+          "rights": "Public Domain (printed 1527; public domain by date; the host item carries no rights field)"
+        },
+        {
+          "work": "Ein Gesprech auf Zwinglis Taufbüchlein (Nikolsburg, 1526)",
+          "author": "hubmaier",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "hubmaier_gesprech-auf-zwinglis-taufbuechlein-deu_froschauer1526.txt",
+          "rights": "Public Domain (printed 1526; public domain by date; the host item carries no rights field)"
+        },
+        {
+          "work": "Grund und Ursach (Nikolsburg, 1527), with further 1527 pieces",
+          "author": "hubmaier",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "hubmaier_grund-und-ursach-deu_1527.txt",
+          "rights": "Public Domain (printed 1527; public domain by date; the host item carries no rights field)"
         },
         {
           "work": "Die Geschichts-Bücher der Wiedertäufer in Oesterreich-Ungarn, 1526-1785 (Beck, 1883)",
@@ -13122,6 +13306,22 @@
           "rights": "Public Domain (published 1908; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "A True, Sincere and Modest Defence of English Catholics (1584), Vol. I: Preface to the Reader and chapters I-IV (that the Catholics suffer for religion and not treason; the 'bloody questions'; the seminaries; the priests' conduct)",
+          "author": "allen-william",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "allen-william_true-sincere-and-modest-defence-v1_1914.txt",
+          "rights": "Public Domain (published 1914, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "A True, Sincere and Modest Defence of English Catholics (1584), Vol. II: chapters V-IX (the deposing power, the pope as arbiter between princes and peoples, the Irish wars, the realm's fall from the Church as the cause of its fears, the conclusion with a motion for toleration)",
+          "author": "allen-william",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "allen-william_true-sincere-and-modest-defence-v2_1914.txt",
+          "rights": "Public Domain (published 1914, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "An Ancient Editor's Note Book",
           "author": "ancient-editor-note-book",
           "role": "context",
@@ -13152,6 +13352,22 @@
           "confidence": "assigned",
           "source_file": "barlow-william_summe-and-substance-hampton-court-conference_1804.txt",
           "rights": "Public Domain (reprint published 1804, public domain by date under the 95-year rule; the Library of Congress states it \"is unaware of any copyright restrictions for this item\")"
+        },
+        {
+          "work": "Bradford's prison letters, farewells, and his Examinations and conferences of 1555",
+          "author": "bradford-john",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "bradford-john_writings-v1_townsend1848.txt",
+          "rights": "Public Domain (published 1848, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Bradford's sermons and meditations: the Sermon on Repentance (1553), the Sermon on the Lord's Supper, the Godly Meditations on the Lord's Prayer, the Belief and the Ten Commandments, and the private prayers for the hours of the day",
+          "author": "bradford-john",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "bradford-john_writings-v1_townsend1848.txt",
+          "rights": "Public Domain (published 1848, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "Letters of John Calvin, Vol. II: the letters to the Protector Somerset (CCXXIX, CCLVII), to Edward VI (CCLXXIV) and to Archbishop Cranmer (CCXCVIII, CCCXIV), 1548-1552",
@@ -13282,6 +13498,14 @@
           "rights": "Public Domain (published 1846, public domain by date under the 95-year rule; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "A Supplication of the Family of Love, examined and confuted (1606)",
+          "author": "family-of-love",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "family-of-love_supplication-examined-and-confuted_1606.txt",
+          "rights": "Public Domain (printed 1606; public domain by date; the host item carries no rights field)"
+        },
+        {
           "work": "The Acts and Monuments of John Foxe, Vol. VII (Cattley/Townsend edition): the Marian persecution of 1555, with the examinations and letters of Bradford, Ridley, Latimer, Philpot and the ordinary believers",
           "author": "foxe",
           "role": "tradition",
@@ -13320,6 +13544,22 @@
           "confidence": "assigned",
           "source_file": "hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850.txt",
           "rights": "Public Domain (published 1850, public domain by date under the 95-year rule; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Apologia Ecclesiae Anglicanae (1562), the Latin original",
+          "author": "jewel",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "jewel_apologia-ecclesiae-anglicanae-lat_1838.txt",
+          "rights": "Public Domain (published 1838, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Epistola ad virum nobilem D. Scipionem, patricium Venetum, de Concilio Tridentino (1562)",
+          "author": "jewel",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "jewel_apologia-ecclesiae-anglicanae-lat_1838.txt",
+          "rights": "Public Domain (published 1838, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "The Apology of the Church of England (Apologia Ecclesiae Anglicanae, 1562), Lady Anne Bacon's translation of 1564",
@@ -13378,6 +13618,22 @@
           "rights": "Public Domain (published 1844, public domain by date under the 95-year rule; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "The Bee Hive of the Romish Church (Gilpin's English of the Bijenkorf, 1579; the 1623 printing)",
+          "author": "marnix",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "marnix_beehive-of-the-romish-church_gilpin1623.txt",
+          "rights": "Public Domain (a seventeenth-century English print; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "The Marprelate Tracts (1588-1589)",
+          "author": "marprelate",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "marprelate_tracts-1588-1589_pierce1911.txt",
+          "rights": "Public Domain (published London 1911, more than 95 years ago, so public domain in the United States by date; the archive.org item carries no possible-copyright-status field, so the determination rests on the printed date)"
+        },
+        {
           "work": "The Accounts of the Wardens of the Parish of Morebath, Devon, 1520-1573",
           "author": "morebath-parish",
           "role": "tradition",
@@ -13418,6 +13674,30 @@
           "rights": "Public Domain (published 1824; public domain by date; host possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "Tyndale's doctrinal treatises: A Pathway into the Holy Scripture (1525-32), The Parable of the Wicked Mammon (1527), The Obedience of a Christian Man (1527-8), A Brief Declaration of the Sacraments (1536)",
+          "author": "tyndale",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "tyndale_doctrinal-treatises_walter1848.txt",
+          "rights": "Public Domain (published 1848, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Tyndale's prefaces and prologues to his Bible translations: the Epistle to the Reader (1526 New Testament), the Preface to the Five Books of Moses and the Prologues to Genesis, Exodus, Leviticus, Numbers, Deuteronomy (1530), Jonas (1531) and Matthew (1525)",
+          "author": "tyndale",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "tyndale_doctrinal-treatises_walter1848.txt",
+          "rights": "Public Domain (published 1848, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Walter's Biographical Notice of William Tyndale (1848)",
+          "author": "walter-henry",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "tyndale_doctrinal-treatises_walter1848.txt",
+          "rights": "Public Domain (published 1848, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "Izaak Walton, The Life of Mr. Richard Hooker (1665)",
           "author": "walton",
           "role": "context",
@@ -13432,6 +13712,22 @@
           "confidence": "provisional",
           "source_file": "wilkinson-william_confutation-of-certaine-articles_daye1579.txt",
           "rights": "Public Domain (published 1579; public domain by date)"
+        },
+        {
+          "work": "Epistolae Tigurinae: the Latin originals of the first-series Zurich Letters",
+          "author": "zurich-letters",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zurich-letters_first-series-1558-1579_robinson1842.txt",
+          "rights": "Public Domain (published 1842, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "The Zurich Letters, first series: letters of the Elizabethan bishops and divines to Bullinger, Peter Martyr and Gualter, 1558-1579 (Robinson's English)",
+          "author": "zurich-letters",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zurich-letters_first-series-1558-1579_robinson1842.txt",
+          "rights": "Public Domain (published 1842, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         }
       ]
     },
@@ -13439,6 +13735,14 @@
       "name": "The Scottish Reformation & Kirk",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "The History of the Kirk of Scotland, Vol. III: the years 1570-1583 (the Assemblies under the Regents and the young King, the Leith agreement, the struggle over bishops, the Ruthven raid), with the documents Calderwood transcribed",
+          "author": "calderwood",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "calderwood_history-of-the-kirk-v3-1570-1583_thomson1843.txt",
+          "rights": "Public Domain (published 1843, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
         {
           "work": "Letters of John Calvin, Vol. IV: the letters to John Knox (DXLIX, 1559; DXC, 1561) and the 1559 letter on Knox's First Blast",
           "author": "calvin",
@@ -13520,6 +13824,22 @@
           "rights": "Public Domain (published 1838, more than 95 years ago; no copyright-status field on this archive.org item, so the determination rests on the printed date)"
         },
         {
+          "work": "The Psalms of David in Metre: the Scottish Psalter of 1650, complete (150 psalms, with the second versions)",
+          "author": "kirk-of-scotland",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "kirk-of-scotland_psalms-of-david-in-metre-1650_1833.txt",
+          "rights": "Public Domain (published 1833, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "The Second Book of Discipline, or Heads and Conclusions of the Policy of the Kirk (1578), chapters I-XIII, as registered in 1581",
+          "author": "kirk-of-scotland",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "calderwood_history-of-the-kirk-v3-1570-1583_thomson1843.txt",
+          "rights": "Public Domain (published 1843, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "The Buke of Discipline (the First Book of Discipline, 1560)",
           "author": "knox",
           "role": "tradition",
@@ -13584,6 +13904,14 @@
           "rights": "Public Domain (an edition of 1891 reprinted no later than 1905, more than 95 years ago; archive.org possible-copyright-status: NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "The History of the Church of Scotland, Vol. III: the Sixth Book continued (1596-1603) and the Seventh Book (1603-1625)",
+          "author": "spottiswood",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "spottiswood_history-of-the-church-of-scotland-v3-1596-1625_russell-napier1850.txt",
+          "rights": "Public Domain (published 1850, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "Register of the Minister, Elders, and Deacons of the Christian Congregation of St Andrews, Part First: 1559-1582 (kirk session and superintendent's court)",
           "author": "st-andrews-kirk-session",
           "role": "tradition",
@@ -13638,12 +13966,36 @@
           "rights": "Public Domain (published 1857, past the 95-year rule; host status NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome deuxieme, Livres VI-IX (the first war of religion, 1562-1563, by province)",
+          "author": "beza",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884.txt",
+          "rights": "Public Domain (published 1884, title page read in the file; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome premier, Livres I-IV",
           "author": "beza",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt",
           "rights": "Public Domain (1883 per the host catalogue, consistent with the August 1882 dedication read in the OCR; past the 95-year rule)"
+        },
+        {
+          "work": "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome troisieme, Livre X to the end (1562-1563), with Reuss's preface, introduction and index",
+          "author": "beza",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt",
+          "rights": "Public Domain (published 1889, title page read in the file; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Histoire des martyrs (1619 edition), Tome 1: Livres I-IV, the French martyrs from 1523 to the mid-1540s with Benoit's introduction",
+          "author": "crespin",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt",
+          "rights": "Public Domain (published 1885; public domain by date under the project's 95-year rule)"
         },
         {
           "work": "Histoire des martyrs persecutez et mis a mort pour la verite de l'Evangile (1619 recension), Tome troisieme, Livres VIII-XII",
@@ -13692,6 +14044,22 @@
           "confidence": "assigned",
           "source_file": "quick_synodicon-in-gallia-reformata_1692.txt",
           "rights": "Public Domain (published 1692, read off the imprint in the OCR itself; far past the 95-year rule)"
+        },
+        {
+          "work": "The despatches of the papal nuncio Prospero Santa Croce from the French court on the Reformed churches (Italian with French facing), printed by Aymon as 'lettres politiques' in Tome 1",
+          "author": "french-reformed-synods",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt",
+          "rights": "Public Domain (an early eighteenth-century print; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Tous les synodes nationaux des Eglises reformees de France, Tome premier: the Discipline of 1559 and the acts of the national synods, Paris 1559 to Privas 1612, in French (Aymon, 1710)",
+          "author": "french-reformed-synods",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt",
+          "rights": "Public Domain (an early eighteenth-century print; public domain by date under the project's 95-year rule)"
         },
         {
           "work": "Histoire ecclésiastique des Églises Vaudoises, Tome deuxième, the passages on the valleys under the French crown (Pragela, Val Cluson, the Dauphiné edicts)",
@@ -13820,12 +14188,68 @@
           "rights": "Public Domain (published 1908; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "A True, Sincere and Modest Defence of English Catholics (1584), Vol. I: Preface to the Reader and chapters I-IV (that the Catholics suffer for religion and not treason; the 'bloody questions'; the seminaries; the priests' conduct)",
+          "author": "allen-william",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "allen-william_true-sincere-and-modest-defence-v1_1914.txt",
+          "rights": "Public Domain (published 1914, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "A True, Sincere and Modest Defence of English Catholics (1584), Vol. II: chapters V-IX (the deposing power, the pope as arbiter between princes and peoples, the Irish wars, the realm's fall from the Church as the cause of its fears, the conclusion with a motion for toleration)",
+          "author": "allen-william",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "allen-william_true-sincere-and-modest-defence-v2_1914.txt",
+          "rights": "Public Domain (published 1914, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "An Ancient Editor's Note Book (nineteen chapters on the penal laws, the prisons, the martyrdoms and the devotion of Catholics, compiled by an unnamed Elizabethan Catholic)",
           "author": "ancient-editor-note-book",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt",
           "rights": "Public Domain (published 1877; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "The Archpriest Controversy, Vol. I: the Appellant secular priests' own letters, memorials and narratives, 1597-1601 (Mush, Bagshaw, Bluet, Watson, Colleton, Charnock, Bishop)",
+          "author": "archpriest-controversy",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "archpriest-controversy_documents-v1-1597-1601_law1896.txt",
+          "rights": "Public Domain (published 1896, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "The Archpriest Controversy, Vol. I: the Appellants' dealings with the government (group V) and the state's letters",
+          "author": "archpriest-controversy",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "archpriest-controversy_documents-v1-1597-1601_law1896.txt",
+          "rights": "Public Domain (published 1896, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "The Archpriest Controversy, Vol. I: the Jesuit and Archpriest side (Garnet's circular of 1598, Parsons to Garnet, Blackwell's letters and orders, Holtby's letter to a lady, 1601)",
+          "author": "archpriest-controversy",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "archpriest-controversy_documents-v1-1597-1601_law1896.txt",
+          "rights": "Public Domain (published 1896, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "The Archpriest Controversy, Vol. II: letters and memorials 1601-1603, with the Protestations of Allegiance of January 1603",
+          "author": "archpriest-controversy",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "archpriest-controversy_documents-v2-1601-1603_law1898.txt",
+          "rights": "Public Domain (published 1898, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "The Archpriest Controversy, Vol. II: the Brevis Relatio and the Latin and Italian memorials of 1602 (the Appellants' case, Parsons' responses, the Declaratio status Catholicorum in Anglia, the memorials on liberty of conscience, the papal sentence on schism)",
+          "author": "archpriest-controversy",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "archpriest-controversy_documents-v2-1601-1603_law1898.txt",
+          "rights": "Public Domain (published 1898, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul III's bull against Henry VIII annexed)",
@@ -13932,12 +14356,28 @@
           "rights": "Public Domain (published 1877; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "Apologia Ecclesiae Anglicanae (1562), the Latin original",
+          "author": "jewel",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jewel_apologia-ecclesiae-anglicanae-lat_1838.txt",
+          "rights": "Public Domain (published 1838, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "The Apology of the Church of England, Lady Anne Bacon's translation of 1564",
           "author": "jewel",
           "role": "context",
           "confidence": "provisional",
           "source_file": "jewel_apology-of-the-church-of-england_bacon-morley1888.txt",
           "rights": "Public Domain (the Cassell edition was published 1888, public domain by date under the 95-year rule; Project Gutenberg's catalogue rights line reads \"Public domain in the USA.\")"
+        },
+        {
+          "work": "Of Prayer, and Meditation, the 1582 Paris English with the translator's epistle to the Inns of Court",
+          "author": "luis-de-granada",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "luis-de-granada_of-prayer-and-meditation_hopkins1582.txt",
+          "rights": "Public Domain (published 1582; public domain by date; the host record carries no rights field and no access restriction)"
         },
         {
           "work": "The Life of Father John Gerard (Morris's biography, built on long verbatim translated extracts from Gerard's Latin Autobiography)",
@@ -13962,6 +14402,14 @@
           "confidence": "assigned",
           "source_file": "morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt",
           "rights": "Public Domain (published 1877; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "The Archpriest Controversy, Vol. II: Mush's diary of the Appellants' affairs at Rome (1602) and the two other English narratives",
+          "author": "mush-john",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "archpriest-controversy_documents-v2-1601-1603_law1898.txt",
+          "rights": "Public Domain (published 1898, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "Notes by a Prisoner in Ousebridge Kidcote (with Morris's note on those who died in the York and Hull prisons)",
@@ -14058,6 +14506,14 @@
           "rights": "Public Domain (published 1907, pd-us-by-date)"
         },
         {
+          "work": "The Marrow of Sacred Divinity (the English of Ames's Medulla theologiae), 1639",
+          "author": "ames",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "ames_marrow-of-sacred-divinity_1639.txt",
+          "rights": "Public Domain (a seventeenth-century English print; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Kerkeraads-protocollen der Hollandsche Gemeente te Londen, 1569-1571",
           "author": "austin-friars",
           "role": "context",
@@ -14090,12 +14546,52 @@
           "rights": "Public Domain (reprint published 1804, public domain by date under the 95-year rule; the Library of Congress states it \"is unaware of any copyright restrictions for this item\")"
         },
         {
+          "work": "Reliquiae Baxterianae abridged, Part One: Baxter's life 1615-1660 (childhood, Kidderminster, the army, the Commonwealth, his self-analysis and life-review)",
+          "author": "baxter",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+          "rights": "Public Domain (published London 1925, more than 95 years ago, so public domain in the United States by date; the archive.org item carries no possible-copyright-status field, so the determination rests on the printed date)"
+        },
+        {
+          "work": "Reliquiae Baxterianae abridged, Parts Two and Three: the Restoration, the Savoy Conference, the ejection of 1662, conformists and nonconformists, persecution to the 1680s",
+          "author": "baxter",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+          "rights": "Public Domain (published London 1925, more than 95 years ago, so public domain in the United States by date; the archive.org item carries no possible-copyright-status field, so the determination rests on the printed date)"
+        },
+        {
           "work": "Job Expounded by Theodore Beza, in the 1589 English translation printed by John Legatt, Cambridge",
           "author": "beza",
           "role": "context",
           "confidence": "provisional",
           "source_file": "beza_job-expounded_legatt1589.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "The Confession of Faith adopted by the Boston Synod of 1680 (the Savoy Declaration of 1658 as the Massachusetts churches adopted it)",
+          "author": "boston-synod",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cambridge-synod_cambridge-platform-1648-and-confession-1680_1850.txt",
+          "rights": "Public Domain (published 1850, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Bradford's meditations and private prayers (the Godly Meditations; the prayers for the hours of the day; the meditations from his Tyndale Testament)",
+          "author": "bradford-john",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "bradford-john_writings-v1_townsend1848.txt",
+          "rights": "Public Domain (published 1848, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "The Cambridge Platform of Church Discipline (1648), preface extracts and chapters I-XVII",
+          "author": "cambridge-synod",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "cambridge-synod_cambridge-platform-1648-and-confession-1680_1850.txt",
+          "rights": "Public Domain (published 1850, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "Archbishop Parker's Advertisements (1566) and the Elizabethan visitation articles enforcing the surplice and ceremonies, 1559-1575",
@@ -14162,6 +14658,14 @@
           "rights": "Public Domain (published 1837-41, public domain by date under the 95-year rule; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "Haak's Narrative of the Statenvertaling: how the Synod of Dort and the States General made the Dutch Bible of 1637, with the ordinance prefixed to The Dutch Annotations (1657)",
+          "author": "haak",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "haak_dutch-annotations-narrative-and-front-matter_1657.txt",
+          "rights": "Public Domain (a seventeenth-century English print, carrying a Creative Commons Public Domain Mark 1.0 on the host item; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Diary of Lady Margaret Hoby, 1599-1605 (B.M. MS. Egerton 2614)",
           "author": "hoby",
           "role": "tradition",
@@ -14202,12 +14706,44 @@
           "rights": "Public Domain (published 1838, more than 95 years ago; no copyright-status field on this archive.org item, so the determination rests on the printed date)"
         },
         {
+          "work": "The Psalms of David in Metre: the Scottish Psalter of 1650, revised from Francis Rous's version approved by the Westminster Assembly (1646)",
+          "author": "kirk-of-scotland",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "kirk-of-scotland_psalms-of-david-in-metre-1650_1833.txt",
+          "rights": "Public Domain (published 1833, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "A Confutation of monstrous and horrible Heresies (1579)",
           "author": "knewstub-john",
           "role": "context",
           "confidence": "provisional",
           "source_file": "knewstub-john_confutation-of-monstrous-heresies-familie-of-loue_dawson1579.txt",
           "rights": "Public Domain (published 1579; public domain by date)"
+        },
+        {
+          "work": "The Marprelate Tracts (1588-1589): the Epistle, the Epitome, the Minerals, Hay any Work for Cooper, Theses Martinianae, the Just Censure, the Protestation",
+          "author": "marprelate",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "marprelate_tracts-1588-1589_pierce1911.txt",
+          "rights": "Public Domain (published London 1911, more than 95 years ago, so public domain in the United States by date; the archive.org item carries no possible-copyright-status field, so the determination rests on the printed date)"
+        },
+        {
+          "work": "The Massachusetts Bay founding documents, 1628-1636: the Company's records, Cradock's letter and the instructions to Endicott, the form of government, the Cambridge Agreement, the Humble Request to the Church of England (1630), the agreement with the ministers",
+          "author": "massachusetts-bay-company",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt",
+          "rights": "Public Domain (published 1846, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "The planters' own narratives and letters, 1629-1636: Higginson's journal and New-England's Plantation, Dudley's letter to the Countess of Lincoln, Roger Clap's memoirs, Cotton's letters and reasons for removal (with Whiting's life of Cotton), Richard Mather's journal, Thacher's shipwreck",
+          "author": "massachusetts-bay-planters",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt",
+          "rights": "Public Domain (published 1846, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "A Golden Chaine: or, the Description of Theologie (with Beza's table for comforting afflicted consciences)",
@@ -14264,6 +14800,14 @@
           "confidence": "assigned",
           "source_file": "shepard_autobiography_adams1832.txt",
           "rights": "Public Domain (published 1832, pd-us-by-date)"
+        },
+        {
+          "work": "Thomas Shepard's memoir of his own life (the autobiography), in Young's 1846 text",
+          "author": "shepard",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt",
+          "rights": "Public Domain (published 1846, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "Grosart's Memoir of Richard Sibbes, D.D. (1862)",
@@ -14362,12 +14906,28 @@
           "rights": "Public Domain (published 1877, pd-us-by-date)"
         },
         {
+          "work": "White's Planters' Plea (1630) and Hubbard's narrative of the first planting",
+          "author": "white-john-dorchester",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt",
+          "rights": "Public Domain (published 1846, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "Winthrop's Journal, 'History of New England', Vol. I (1630-1640)",
           "author": "winthrop",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "winthrop_journal-v1_hosmer1908.txt",
           "rights": "Public Domain (published 1908, copyright 1908 by Charles Scribner's Sons, pd-us-by-date)"
+        },
+        {
+          "work": "The Zurich Letters, first series: the vestiarian and discipline letters of Sampson, Humphrey, Grindal, Horne and Cox, 1565-1575",
+          "author": "zurich-letters",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "zurich-letters_first-series-1558-1579_robinson1842.txt",
+          "rights": "Public Domain (published 1842, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         }
       ]
     },
@@ -14375,6 +14935,14 @@
       "name": "Dutch Further Reformation & Refuge Culture",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "The Marrow of Sacred Divinity (the English of Ames's Medulla theologiae), 1639",
+          "author": "ames",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "ames_marrow-of-sacred-divinity_1639.txt",
+          "rights": "Public Domain (a seventeenth-century English print; public domain by date under the project's 95-year rule)"
+        },
         {
           "work": "The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments; Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)",
           "author": "arminius",
@@ -14390,6 +14958,14 @@
           "confidence": "assigned",
           "source_file": "austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870.txt",
           "rights": "Public Domain (published 1870; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Brandt's History of the Reformation in the Low-Countries, vol. III (Books XXXIII-XLIV): the Synod of Dort and the fall of Oldenbarnevelt, 1618-1619, in the English of 1722",
+          "author": "brandt",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt",
+          "rights": "Public Domain (an early eighteenth-century English print; public domain by date under the project's 95-year rule)"
         },
         {
           "work": "Memoirs of Simon Episcopius, with a brief account of the Synod of Dort and the sufferings of the followers of Arminius (Calder, 1838)",
@@ -14416,6 +14992,14 @@
           "rights": "Public Domain (published 1889; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "Haak's Narrative of the Statenvertaling: how the Synod of Dort and the States General made the Dutch Bible of 1637, with the ordinance prefixed to The Dutch Annotations (1657)",
+          "author": "haak",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "haak_dutch-annotations-narrative-and-front-matter_1657.txt",
+          "rights": "Public Domain (a seventeenth-century English print, carrying a Creative Commons Public Domain Mark 1.0 on the host item; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Letters from the Synod of Dort to Sir Dudley Carleton, the English Embassador at the Hague (Hales; Foulis printing, 1765)",
           "author": "hales",
           "role": "context",
@@ -14430,6 +15014,14 @@
           "confidence": "assigned",
           "source_file": "marnix_bijenkorf-der-h-roomsche-kerke-nld_1858.txt",
           "rights": "Public Domain (published 1858; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "The Bee Hive of the Romish Church (Gilpin's English of the Bijenkorf, 1579; the 1623 printing)",
+          "author": "marnix",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "marnix_beehive-of-the-romish-church_gilpin1623.txt",
+          "rights": "Public Domain (a seventeenth-century English print; public domain by date under the project's 95-year rule)"
         },
         {
           "work": "The confessions of the English Baptist exiles at Amsterdam (Smyth's and Helwys's churches, 1609-1630), as printed by McGlothlin",
@@ -14488,6 +15080,14 @@
           "rights": "Public Domain (published 1840; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "Secunda Remonstrantia and Secunda Contra-Remonstrantia, 1617 (Latin from the Dutch)",
+          "author": "remonstrants",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617.txt",
+          "rights": "Public Domain (a 1617 print; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "The Confession or Declaration of the Remonstrant Ministers, in XXV Chapters, English, 1676 printing (Episcopius, 1621)",
           "author": "remonstrants",
           "role": "context",
@@ -14542,6 +15142,14 @@
           "confidence": "assigned",
           "source_file": "teellinck_resting-place-of-the-minde_1622.txt",
           "rights": "Public Domain (published 1622; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "De stichting der Remonstrantsche Broederschap, 1619-1634: the Brotherhood's founding records (Rotterdam 1619, Waalwijk and Antwerp, the Directie, the Confession of 1621, the settling in the Republic), printed with Tideman's narrative (two parts, 1871-1872)",
+          "author": "tideman",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "tideman_stichting-der-remonstrantsche-broederschap-nld_1871.txt",
+          "rights": "Public Domain (published 1871-1872; public domain by date under the project's 95-year rule; the host item carries the flag NOT_IN_COPYRIGHT)"
         },
         {
           "work": "The Heidelberg Catechism (1563)",
@@ -14606,12 +15214,28 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Histoire des martyrs (1619 edition), Tome 1: 'Ceux de Merindol et Cabriere', the Provencal Vaudois, their declarations to the Parlement of Provence and the massacre of 1545",
+          "author": "crespin",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt",
+          "rights": "Public Domain (published 1885; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Histoire des martyrs persecutez et mis a mort pour la verite de l'Evangile (1619 recension), Tome troisieme, Livres VIII-XII",
           "author": "crespin",
           "role": "context",
           "confidence": "provisional",
           "source_file": "crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt",
           "rights": "Public Domain (published 1889, read off the title page in the OCR; past the 95-year rule)"
+        },
+        {
+          "work": "Histoire ecclesiastique des Eglises Reformees des Valees de Piedmont, autrefois appelees Eglises Vaudoises, 1160 to 1643: the first printing, Geneva 1644",
+          "author": "gilles",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt",
+          "rights": "Public Domain (a seventeenth-century print carrying a Creative Commons Public Domain Mark 1.0 on the host item; public domain by date under the project's 95-year rule)"
         },
         {
           "work": "Histoire ecclésiastique des Églises Vaudoises de l'an 1160 au 1643, Tome deuxième (chapters XXXIX-LXII)",
@@ -14670,6 +15294,14 @@
           "rights": "Public Domain (printed at Geneva in 1619; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "Histoire des Vaudois, Part III (1618): the doctrine and the discipline the Vaudois held in common, with the old Vaudois texts printed in their own tongue and in French",
+          "author": "perrin",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "perrin_histoire-des-vaudois-parties-2-3-fra_1618.txt",
+          "rights": "Public Domain (an early seventeenth-century print carrying a Creative Commons Public Domain Mark 1.0 on the host item; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "History of the Old Waldenses anterior to the Reformation and History of the Old Albigenses, with the third part on their doctrine, discipline and catechism (Perrin, in the English translation first printed 1624; Philadelphia 1847)",
           "author": "perrin",
           "role": "tradition",
@@ -14698,6 +15330,30 @@
           "confidence": "provisional",
           "source_file": "allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908.txt",
           "rights": "Public Domain (published 1908; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Historia Aethiopiae, Books V to VIII (Almeida), Portuguese text edited by Beccari",
+          "author": "almeida",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt",
+          "rights": "Public Domain (published 1907, more than 95 years ago; the host marks the item NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "The Archpriest Controversy, Vol. I: the Jesuit and Archpriest side (Garnet's circular of 1598, Parsons to Garnet, Blackwell's letters and orders, Holtby's letter to a lady, 1601)",
+          "author": "archpriest-controversy",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "archpriest-controversy_documents-v1-1597-1601_law1896.txt",
+          "rights": "Public Domain (published 1896, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "The Archpriest Controversy, Vol. II: the Brevis Relatio and the Latin and Italian memorials of 1602 (the Appellants' case, Parsons' responses, the Declaratio status Catholicorum in Anglia, the memorials on liberty of conscience, the papal sentence on schism)",
+          "author": "archpriest-controversy",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "archpriest-controversy_documents-v2-1601-1603_law1898.txt",
+          "rights": "Public Domain (published 1898, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "The Life of the Blessed Peter Favre (Faber), of the Society of Jesus",
@@ -14812,6 +15468,14 @@
           "rights": "Public Domain (published 1903-1909, public domain by date under the project's 95-year rule; Project Gutenberg's own explicit public-domain-in-the-United-States declaration; the archive.org mirror of this eBook, item thephilippineisl15184gut, is marked NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "Diary of Richard Cocks, vol. I, the passages on the Jesuits and friars in Japan",
+          "author": "cocks",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cocks_diary-v1_thompson1883.txt",
+          "rights": "Public Domain (published 1883, public domain by date under the project's 95-year rule; Project Gutenberg's own explicit public-domain-in-the-United-States declaration for eBook #46803; the archive.org scan of the 1883 edition, item diaryrichardcoc00unkngoog, is a separate witness)"
+        },
+        {
           "work": "Labor evangelica (Madrid 1663), Parte primera, drawn from Chirino's manuscripts, Pastells's edition of 1900, Tomo I",
           "author": "colin",
           "role": "tradition",
@@ -14882,6 +15546,14 @@
           "confidence": "assigned",
           "source_file": "gerard-john_condition-of-catholics-under-james-i_morris1871.txt",
           "rights": "Public Domain (published 1871; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Jornada do Arcebispo de Goa (Gouvea, 1606): the Jesuit college and prelates of the Serra",
+          "author": "gouvea",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "gouvea_jornada-do-arcebispo-de-goa-por_1606.txt",
+          "rights": "Public Domain (published 1606; public domain by date under the project's 95-year rule; the host, the Biblioteca Nacional de Portugal, marks the digital object \"PUBLIC DOMAIN. Obra no domínio público ... Public Domain Mark\")"
         },
         {
           "work": "Father Richard Holtby on Persecution in the North",
@@ -15332,6 +16004,14 @@
           "rights": "Public Domain (Johnson's translation of 1735 and the 1887 edition both more than 95 years old; Project Gutenberg states its etexts are in the public domain in the United States unless a notice says otherwise)"
         },
         {
+          "work": "A New History of Ethiopia (Ludolf, 1682), Book II on the Jesuit patriarchs and Book III on the separation from the Roman church",
+          "author": "ludolf",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "ludolf_new-history-of-ethiopia_jp1682.txt",
+          "rights": "Public Domain (published 1682; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Expeditio Aethiopica, Books I and II (Mendes), Latin text edited by Beccari",
           "author": "mendes",
           "role": "tradition",
@@ -15498,6 +16178,14 @@
           "confidence": "provisional",
           "source_file": "russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt",
           "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Piotr Skarga, Synod Brzeski (the Synod of Brest, with the royal envoys' address) and Obrona Synodu Brzeskiego (the Defence of the Synod of Brest), 1596-1597, in the 1874 Poznan reprint",
+          "author": "skarga",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "skarga_synod-brzeski-i-obrona-pol_rzepecki1874.txt",
+          "rights": "Public Domain (published 1874, more than 95 years before 2026; the Internet Archive item's rights field reads 'Public Domain')"
         },
         {
           "work": "Constitutiones Societatis Iesu, cum earum Declarationibus",
@@ -15706,6 +16394,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Sentence of the Roman Inquisition against Fra Tommaso de Fabianis of Mileto, given in the name of Cardinal Carlo Borromeo, Rome, 16 December 1564, Italian and Latin with Gibbings's English",
+          "author": "gibbings",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "gibbings_records-of-the-roman-inquisition-minorite-friar_1853.txt",
+          "rights": "Public Domain (published 1853; public domain by date; the scan carries Cornell's notice \"There are no known copyright restrictions in the United States on the use of the text\")"
+        },
+        {
           "work": "The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. I (Books I-IV)",
           "author": "giussano",
           "role": "tradition",
@@ -15738,12 +16434,36 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Relatione sommaria della vita, santita, miracoli et atti della canonizatione di S. Carlo Borromeo, cavata dai processi autentici (Pena, Rome 1610)",
+          "author": "pena-francisco",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610.txt",
+          "rights": "Public Domain (published 1610; public domain by date; host licence Public Domain Mark 1.0)"
+        },
+        {
           "work": "Discorsi della vita, et attioni di Carlo Borromeo",
           "author": "possevino-giovanni-battista",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591.txt",
           "rights": "Public Domain (published 1591; public domain by date)"
+        },
+        {
+          "work": "Episcopus and Cardinalis, Valier's two treatises on the office of a bishop and of a cardinal, printed with the Life",
+          "author": "valier",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586.txt",
+          "rights": "Public Domain (published 1586; public domain by date; host licence Public Domain Mark 1.0)"
+        },
+        {
+          "work": "Vita Caroli Borromei (Valier, Verona 1586), the earliest printed Life",
+          "author": "valier",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586.txt",
+          "rights": "Public Domain (published 1586; public domain by date; host licence Public Domain Mark 1.0)"
         }
       ]
     },
@@ -15798,6 +16518,14 @@
           "confidence": "provisional",
           "source_file": "blair-robertson_philippine-islands-v13_1904.txt",
           "rights": "Public Domain (published 1903-1909, public domain by date under the project's 95-year rule; Project Gutenberg's own explicit public-domain-in-the-United-States declaration; the archive.org mirror of this eBook, item thephilippineisl15184gut, is marked NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Diary of Richard Cocks, cape-merchant of the English factory at Hirado, 1 June 1615 to 31 December 1617 (Hakluyt Society, 1883, vol. I)",
+          "author": "cocks",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "cocks_diary-v1_thompson1883.txt",
+          "rights": "Public Domain (published 1883, public domain by date under the project's 95-year rule; Project Gutenberg's own explicit public-domain-in-the-United-States declaration for eBook #46803; the archive.org scan of the 1883 edition, item diaryrichardcoc00unkngoog, is a separate witness)"
         },
         {
           "work": "Labor evangelica (Madrid 1663), Parte primera, drawn from Chirino's manuscripts, Pastells's edition of 1900, Tomo I",
@@ -15982,6 +16710,14 @@
           "rights": "Public Domain (published 1889, read off the title page in the OCR; past the 95-year rule)"
         },
         {
+          "work": "A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus Socinus (Grotius, Leiden 1617; Foster's English, 1889)",
+          "author": "grotius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+          "rights": "Public Domain (published 1889, title page and copyright notice read in the file; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Historia Reformationis Polonicae (1685)",
           "author": "lubieniecki",
           "role": "tradition",
@@ -16086,6 +16822,14 @@
           "rights": "Public Domain (published 1656; public domain by date; host licence Creative Commons Public Domain Mark 1.0)"
         },
         {
+          "work": "Erdélyi Országgyűlési Emlékek II (1556-1576): the Transylvanian diets' decrees and articles, with the Torda diet of January 1568",
+          "author": "transylvanian-diet",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "transylvanian-diet_erdelyi-orszaggyulesi-emlekek-2-1556-1576-hun-lat_szilagyi1876.txt",
+          "rights": "Public Domain (published 1876; public domain by date; the repository page carries no rights field)"
+        },
+        {
           "work": "Voetius' Catechisatie over den Heidelbergschen Catechismus, v1: the answers against Socinus and the Socinians",
           "author": "voetius",
           "role": "context",
@@ -16132,12 +16876,44 @@
           "rights": "Public Domain (1863 imprint; public domain by date; host possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "Ain Christlicher Sendbrieff ... Vom Gebeet (1547)",
+          "author": "schwenckfeld",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "schwenckfeld_christlicher-sendbrieff-vom-gebet-deu_1547.txt",
+          "rights": "Public Domain (printed 1547; public domain by date; the host item carries no rights field)"
+        },
+        {
+          "work": "Außlegung des Ersten Capitels des Propheten Zacharia (1547)",
+          "author": "schwenckfeld",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "schwenckfeld_auslegung-ersten-capitels-zacharias-deu_1547.txt",
+          "rights": "Public Domain (printed 1547; public domain by date; the host item carries no rights field)"
+        },
+        {
+          "work": "Bekandtnuß vom hailigen Sacrament (1534, enlarged printing)",
+          "author": "schwenckfeld",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "schwenckfeld_bekandtnuss-vom-hayligen-sacrament-deu_1534.txt",
+          "rights": "Public Domain (printed 1534; public domain by date; the host item carries no rights field)"
+        },
+        {
           "work": "Corpus Schwenckfeldianorum, vol. I: A Study of the Earliest Letters of Caspar Schwenckfeld von Ossig (Documents i-vii, 1520-1524)",
           "author": "schwenckfeld",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "schwenckfeld_corpus-schwenckfeldianorum-v1-earliest-letters-deu-eng_hartranft1907.txt",
           "rights": "Public Domain (1907 imprint read on the title page in the OCR; public domain by date; host possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Die ander Verantwortung auff Philippi Melanthonis Beschuldigung (1556)",
+          "author": "schwenckfeld",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "schwenckfeld_ander-verantwortung-auff-melanchthon-deu_1556.txt",
+          "rights": "Public Domain (printed 1556; public domain by date; host licence Creative Commons Public Domain Mark 1.0)"
         },
         {
           "work": "The Heavenly Balm and the Divine Physician (Schwenckfeld; Anspach 1858, in a 2024 re-setting)",
@@ -16169,6 +16945,14 @@
       "name": "Family of Love & Spiritualists (Franck, Niclaes)",
       "status": "Floor Question (register)",
       "works": [
+        {
+          "work": "A Supplication of the Family of Love, examined and confuted (1606)",
+          "author": "family-of-love",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "family-of-love_supplication-examined-and-confuted_1606.txt",
+          "rights": "Public Domain (printed 1606; public domain by date; the host item carries no rights field)"
+        },
         {
           "work": "A brief Rehersall of the Beleef of the Goodwilling in Englande, which are named the Familie of Loue, 1575",
           "author": "family-of-love",
@@ -16296,6 +17080,22 @@
           "rights": "Public Domain (pre-1930 publication); the item description records the Bavarian State Library (MDZ) as the source and gives no reuse statement"
         },
         {
+          "work": "Letters of Patriarch Meletios Pegas of Alexandria to the Ruthenian Orthodox (1590s), in the additions to vols. 1 and 2",
+          "author": "akty-iuzhnoi-i-zapadnoi-rossii",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt",
+          "rights": "Public Domain (published 1865, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
+          "work": "Akty Zapadnoi Rossii vol. 4: Patriarch Jeremias II's acts in Lithuania and Kyiv, 1589-1590",
+          "author": "akty-zapadnoi-rossii",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt",
+          "rights": "Public Domain (published 1851, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
           "work": "John Anagnostes, De Thessalonicensi excidio narratio, Greek with Latin",
           "author": "anagnostes",
           "role": "context",
@@ -16320,12 +17120,36 @@
           "rights": "Public Domain (published 1902, more than 95 years ago)"
         },
         {
+          "work": "Extracts from the diaries of Dr John Covel, 1670-1679 (Constantinople, the Greek church, Adrianople, Asia Minor)",
+          "author": "covel",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt",
+          "rights": "Public Domain (published 1893, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "The diary of Master Thomas Dallam, 1599-1600 (the organ sent to the Sultan)",
+          "author": "dallam",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt",
+          "rights": "Public Domain (published 1893, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "Acts and Decrees of the Synod of Jerusalem (Shield of Orthodoxy), 1672, English translation",
           "author": "dositheus",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
           "rights": "Public Domain (pre-1930 publication); the item page carries possible-copyright-status NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Acts of the Synod of Jerusalem (1672) and the confession of Dositheus, Greek with Latin (Kimmel 1843)",
+          "author": "dositheus",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt",
+          "rights": "Public Domain (published 1843, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "Acts of the Synod of Jerusalem (1672), Greek with Latin",
@@ -16374,6 +17198,14 @@
           "confidence": "assigned",
           "source_file": "monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt",
           "rights": "Public Domain (pre-1930 publication); the item page carries possible-copyright-status NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Confessiones I and II of Gennadius Scholarius, Greek with Latin (Kimmel 1843)",
+          "author": "gennadius-scholarius",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt",
+          "rights": "Public Domain (published 1843, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "A Description of the Present State of Samos, Nicaria, Patmos, and Mount Athos",
@@ -16456,6 +17288,14 @@
           "rights": "Public Domain (pre-1930 publication); the item page carries possible-copyright-status NOT_IN_COPYRIGHT"
         },
         {
+          "work": "Confession of Cyril Lucaris, Greek with Latin (Kimmel 1843)",
+          "author": "lucaris",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt",
+          "rights": "Public Domain (published 1843, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques (Amsterdam, 1718)",
           "author": "lucaris",
           "role": "context",
@@ -16472,12 +17312,28 @@
           "rights": "Public Domain (pre-1930 publication); the item page carries possible-copyright-status NOT_IN_COPYRIGHT"
         },
         {
+          "work": "Maxim the Greek, moral writings (Nravouchitel'nye sochineniia), in the 1910 Trinity-Sergius Lavra Russian translation",
+          "author": "maxim-the-greek",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910.txt",
+          "rights": "Public Domain (published 1910, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
           "work": "The Orthodox Confession (Confessio Orthodoxa), Greek with Latin",
           "author": "mogila",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt",
           "rights": "Public Domain (pre-1930 publication); the item page carries possible-copyright-status NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "The Orthodox Confession (Confessio Orthodoxa), Greek with Latin (Kimmel 1843)",
+          "author": "mogila",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt",
+          "rights": "Public Domain (published 1843, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa), English version",
@@ -16598,6 +17454,14 @@
           "confidence": "provisional",
           "source_file": "tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678.txt",
           "rights": "Public Domain (published 1678; public domain by date). Host statement: 'Not in copyright. The BHL knows of no copyright restrictions on this item.'"
+        },
+        {
+          "work": "George Williams, introduction on projects of reunion between the Eastern Church and the Anglican Communion (Melanchthon and Jeremias II, Abbot and Lucaris, Basire, the Nonjurors)",
+          "author": "williams-george",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt",
+          "rights": "Public Domain (published 1868, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
         }
       ]
     },
@@ -16646,6 +17510,14 @@
           "rights": "Public Domain (published 1694, more than 95 years before 2026; public domain by date)"
         },
         {
+          "work": "Jornada do Arcebispo de Goa Dom Frey Aleixo de Menezes (Gouvea, Coimbra 1606): the journey to the Serra and the Synod of Diamper",
+          "author": "gouvea",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "gouvea_jornada-do-arcebispo-de-goa-por_1606.txt",
+          "rights": "Public Domain (published 1606; public domain by date under the project's 95-year rule; the host, the Biblioteca Nacional de Portugal, marks the digital object \"PUBLIC DOMAIN. Obra no domínio público ... Public Domain Mark\")"
+        },
+        {
           "work": "Book IV, the Synod of Diamper (Hough's narrative and commentary)",
           "author": "hough",
           "role": "context",
@@ -16660,6 +17532,30 @@
           "confidence": "assigned",
           "source_file": "hough_history-of-christianity-in-india-v2_1839.txt",
           "rights": "Public Domain (published 1839, more than 95 years before 2026; public domain by date)"
+        },
+        {
+          "work": "History of Christianity in India, vol. II (Hough, 1839): the account of the Synod of Diamper drawn from Gouvea and Geddes",
+          "author": "hough",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "hough_history-of-christianity-in-india-v2_1839.txt",
+          "rights": "Public Domain (published 1839, more than 95 years before 2026; public domain by date)"
+        },
+        {
+          "work": "The Christians of St. Thomas and their Liturgies (Howard, 1864), chapters I-III: the early history, the Synod of Diamper, the later history",
+          "author": "howard",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "howard_christians-of-st-thomas-and-their-liturgies_1864.txt",
+          "rights": "Public Domain (published 1864; public domain by date; the host marks the item Public Domain Mark 1.0)"
+        },
+        {
+          "work": "The Christians of St. Thomas and their Liturgies (Howard, 1864): the liturgies of the community after the separation of 1653",
+          "author": "howard",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "howard_christians-of-st-thomas-and-their-liturgies_1864.txt",
+          "rights": "Public Domain (published 1864; public domain by date; the host marks the item Public Domain Mark 1.0)"
         },
         {
           "work": "Liturgia Malabarica Menesiana (the Malabar Mass as revised at Diamper)",
@@ -16684,6 +17580,14 @@
           "confidence": "assigned",
           "source_file": "whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
           "rights": "Public Domain (published 1873, more than 95 years before 2026; public domain by date)"
+        },
+        {
+          "work": "The Syrian Christians of Malabar, otherwise called the Christians of S. Thomas (Philipos, 1869): a Malabar priest's answers to 82 questions on his church's belief and history",
+          "author": "philipos",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "philipos_syrian-christians-of-malabar_howard1869.txt",
+          "rights": "Public Domain (published 1869; public domain by date; the host marks the item NOT_IN_COPYRIGHT)"
         },
         {
           "work": "Polanco, Chronicon (volume 6)",
@@ -16866,6 +17770,22 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Akty Iuzhnoi i Zapadnoi Rossii vol. 2: the Vilnius Orthodox and Uniate brotherhoods in court, 1605-1610",
+          "author": "akty-iuzhnoi-i-zapadnoi-rossii",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt",
+          "rights": "Public Domain (published 1865, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
+          "work": "Akty Zapadnoi Rossii vol. 4: the union documents of 1594-1597 and the two Brest synods of October 1596, in Ruthenian and Polish",
+          "author": "akty-zapadnoi-rossii",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt",
+          "rights": "Public Domain (published 1851, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
           "work": "Diarush (diary) of Afanasii Filippovich, hegumen of Brest, 1646",
           "author": "filippovich-afanasii",
           "role": "context",
@@ -16938,12 +17858,36 @@
           "rights": "Public Domain (published in St Petersburg in 1878); the host record carries no possible-copyright-status field and the item is not access-restricted"
         },
         {
+          "work": "Edward Likowski, Unia brzeska (r. 1596), second edition, 1907",
+          "author": "likowski",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "likowski_unia-brzeska-pol_1907.txt",
+          "rights": "Public Domain (published 1907, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Lithos albo kamien (Kyiv Caves press, 1644), the answer to Sakovych's Perspektiwa, with Sakovych's marginal notes",
+          "author": "lithos-1644",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893.txt",
+          "rights": "Public Domain (published 1893, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
           "work": "The Orthodox Confession (Confessio Orthodoxa), Greek with Latin",
           "author": "mogila",
           "role": "context",
           "confidence": "provisional",
           "source_file": "monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt",
           "rights": "Public Domain (pre-1930 publication); the item page carries possible-copyright-status NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "The Orthodox Confession (Confessio Orthodoxa), Greek with Latin (Kimmel 1843)",
+          "author": "mogila",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt",
+          "rights": "Public Domain (published 1843, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa), English version",
@@ -16986,6 +17930,14 @@
           "rights": "Public Domain (pre-1930 publication)"
         },
         {
+          "work": "Piotr Skarga, Synod Brzeski (the Synod of Brest, with the royal envoys' address) and Obrona Synodu Brzeskiego (the Defence of the Synod of Brest), 1596-1597, in the 1874 Poznan reprint",
+          "author": "skarga",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "skarga_synod-brzeski-i-obrona-pol_rzepecki1874.txt",
+          "rights": "Public Domain (published 1874, more than 95 years before 2026; the Internet Archive item's rights field reads 'Public Domain')"
+        },
+        {
           "work": "Piotr Skarga, The Synod of Brest and its defence (1596; text of the 1733 edition)",
           "author": "skarga",
           "role": "tradition",
@@ -17016,6 +17968,14 @@
           "confidence": "assigned",
           "source_file": "susza_cursus-vitae-josaphat-kuncevicii-lat_martynov1865.txt",
           "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj), the 1666 Rome printing",
+          "author": "susza",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "susza_saulus-et-paulus-lat_rome1666.txt",
+          "rights": "Public Domain (published 1666; Internet Archive licence URL: Public Domain Mark 1.0)"
         },
         {
           "work": "Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj, Orthodox archbishop turned Uniate)",
@@ -17058,12 +18018,28 @@
           "rights": "Public Domain (pre-1930 publication)"
         },
         {
+          "work": "The Vilnius pamphlets of 1621-1632 (Verificatia niewinnosci and its Obrona, the Uniate Sowita wina, Iustificatia niewinnosci, the Synopsis of 1632 and its Supplementum), with the Key of the Kingdom of Heaven (1587), Potii's 1605 publication of Misail's letter, and the 1616 reply to the Vilnius Uniates",
+          "author": "vilnius-orthodox-brotherhood",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt",
+          "rights": "Public Domain (published 1887, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
           "work": "Questions and answers of an Orthodox to a papist (manuscript, 1603)",
           "author": "voprosy-i-otvety-1603",
           "role": "context",
           "confidence": "provisional",
           "source_file": "russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt",
           "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Ivan Vyshensky, unpublished writings and epistles (the Exposure of the devil, the epistle to the Lviv brotherhood, to the nun Domnikiia, to Iov Kniahynytsky, the Mental Spectacle of 1614-1616)",
+          "author": "vyshensky",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt",
+          "rights": "Public Domain (published 1887, more than 95 years before 2026; the Internet Archive item carries no rights field)"
         }
       ]
     },
@@ -17071,6 +18047,22 @@
       "name": "The Kyiv-Mohyla Orthodox Revival",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Akty Iuzhnoi i Zapadnoi Rossii vol. 2: documents of the Ruthenian Orthodox, 1599-1637 (the Vilnius brotherhood's suits, Smotrytsky as archbishop of Polotsk, Mohyla and the Mogilev brotherhood)",
+          "author": "akty-iuzhnoi-i-zapadnoi-rossii",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt",
+          "rights": "Public Domain (published 1865, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
+          "work": "Akty Zapadnoi Rossii vol. 4: the Orthodox hierarchy restored under Patriarch Theophanes (1620-1621), the brotherhoods and the metropolitans to Peter Mohyla (1620-1652)",
+          "author": "akty-zapadnoi-rossii",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt",
+          "rights": "Public Domain (published 1851, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
         {
           "work": "Synodal decree of Constantinople against Lucar's chapters, with Mogila's signature for the Church in Little Russia",
           "author": "dositheus",
@@ -17118,6 +18110,14 @@
           "confidence": "provisional",
           "source_file": "golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898.txt",
           "rights": "Public Domain (published in Kyiv in the 1890s, before 1931); the host record carries no possible-copyright-status field and the item is not access-restricted"
+        },
+        {
+          "work": "S. Golubev, introductory study on Sakovych, the Perspektiwa and the Lithos (1893)",
+          "author": "golubev",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893.txt",
+          "rights": "Public Domain (published 1893, more than 95 years before 2026; the Internet Archive item carries no rights field)"
         },
         {
           "work": "Guepin, Saint Josaphat and the Greek-Slav Church (Mohyla passages: Book VI on his youth and the Smotrycki meeting of 1627; later chapters on his violence against Uniates)",
@@ -17176,6 +18176,22 @@
           "rights": "Public Domain (printed in St Petersburg in 1762); the host record carries no possible-copyright-status field and the item is not access-restricted"
         },
         {
+          "work": "Edward Likowski, Unia brzeska (r. 1596), second edition, 1907",
+          "author": "likowski",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "likowski_unia-brzeska-pol_1907.txt",
+          "rights": "Public Domain (published 1907, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Lithos albo kamien (Kyiv Caves press, 1644), the answer to Sakovych's Perspektiwa, with Sakovych's marginal notes",
+          "author": "lithos-1644",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893.txt",
+          "rights": "Public Domain (published 1893, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
           "work": "Editor's remarks on Mogilas's signature to the Constantinople synodal letter against Lucaris (Lettres anecdotes de Cyrille Lucar, 1718)",
           "author": "lucaris",
           "role": "context",
@@ -17184,12 +18200,28 @@
           "rights": "Public Domain (pre-1930 publication); the host record (George Washington University, Keiser Library rare-book scan) carries no possible-copyright-status field"
         },
         {
+          "work": "Peter Mohyla's autograph notes: tales of miracles and notable events in the Orthodox church, canons and hymns, reflections on the monastic life, notes on gifts for St Sophia and the Tithe church, book catalogues of 1632-1633",
+          "author": "mogila",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt",
+          "rights": "Public Domain (published 1887, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
           "work": "The Orthodox Confession (Confessio Orthodoxa), Greek with Latin",
           "author": "mogila",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt",
           "rights": "Public Domain (pre-1930 publication); the item page carries possible-copyright-status NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "The Orthodox Confession (Confessio Orthodoxa), Greek with Latin (Kimmel 1843)",
+          "author": "mogila",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt",
+          "rights": "Public Domain (published 1843, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa), English version",
@@ -17256,6 +18288,14 @@
           "rights": "Public Domain (published 1920, more than 95 years before 2026; Internet Archive licence URL: Public Domain Mark 1.0)"
         },
         {
+          "work": "Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj), the 1666 Rome printing",
+          "author": "susza",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "susza_saulus-et-paulus-lat_rome1666.txt",
+          "rights": "Public Domain (published 1666; Internet Archive licence URL: Public Domain Mark 1.0)"
+        },
+        {
           "work": "Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj, Orthodox archbishop turned Uniate)",
           "author": "susza",
           "role": "context",
@@ -17272,12 +18312,28 @@
           "rights": "Public Domain (pre-1930 publication)"
         },
         {
+          "work": "The Vilnius pamphlets of 1621-1632 (Verificatia niewinnosci and its Obrona, the Uniate Sowita wina, Iustificatia niewinnosci, the Synopsis of 1632 and its Supplementum), with the Key of the Kingdom of Heaven (1587), Potii's 1605 publication of Misail's letter, and the 1616 reply to the Vilnius Uniates",
+          "author": "vilnius-orthodox-brotherhood",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt",
+          "rights": "Public Domain (published 1887, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
           "work": "Questions and answers of an Orthodox to a papist (manuscript, 1603)",
           "author": "voprosy-i-otvety-1603",
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt",
           "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Ivan Vyshensky, unpublished writings and epistles (the Exposure of the devil, the epistle to the Lviv brotherhood, to the nun Domnikiia, to Iov Kniahynytsky, the Mental Spectacle of 1614-1616)",
+          "author": "vyshensky",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt",
+          "rights": "Public Domain (published 1887, more than 95 years before 2026; the Internet Archive item carries no rights field)"
         }
       ]
     },
@@ -17470,6 +18526,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Sentence of the Roman Inquisition against a Minorite friar, 1564 (Gibbings, 1853)",
+          "author": "gibbings",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "gibbings_records-of-the-roman-inquisition-minorite-friar_1853.txt",
+          "rights": "Public Domain (published 1853; public domain by date; the scan carries Cornell's notice \"There are no known copyright restrictions in the United States on the use of the text\")"
+        },
+        {
           "work": "The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. I (Books I-IV)",
           "author": "giussano",
           "role": "context",
@@ -17492,6 +18556,22 @@
           "confidence": "assigned",
           "source_file": "giussano_vita-di-s-carlo-borromeo-ita_1855.txt",
           "rights": "Public Domain (published 1855; public domain by date under the 95-year rule)"
+        },
+        {
+          "work": "Bishop Nils Glostrup's visitations of the dioceses of Oslo and Hamar, 1617-1637 (Danish; Daae and Huitfeldt-Kaas, 1895)",
+          "author": "glostrup",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895.txt",
+          "rights": "Public Domain (published 1895; public domain by date under the project's 95-year rule; the host item carries the flag NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Epistola ad virum nobilem D. Scipionem, patricium Venetum, de Concilio Tridentino (1562)",
+          "author": "jewel",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "jewel_apologia-ecclesiae-anglicanae-lat_1838.txt",
+          "rights": "Public Domain (published 1838, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "The Apology of the Church of England, Lady Anne Bacon's translation of 1564",
@@ -17526,12 +18606,36 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Of Prayer, and Meditation (Libro de la oracion y meditacion), fourteen meditations for the seven days of the week with the treatise on prayer, Elizabethan English of 1582",
+          "author": "luis-de-granada",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "luis-de-granada_of-prayer-and-meditation_hopkins1582.txt",
+          "rights": "Public Domain (published 1582; public domain by date; the host record carries no rights field and no access restriction)"
+        },
+        {
           "work": "De Bijenkorf der H. Roomsche Kerke (1569)",
           "author": "marnix",
           "role": "context",
           "confidence": "provisional",
           "source_file": "marnix_bijenkorf-der-h-roomsche-kerke-nld_1858.txt",
           "rights": "Public Domain (published 1858; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "The Bee Hive of the Romish Church (Gilpin's English of the Bijenkorf, 1579; the 1623 printing)",
+          "author": "marnix",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "marnix_beehive-of-the-romish-church_gilpin1623.txt",
+          "rights": "Public Domain (a seventeenth-century English print; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Istoria del Concilio di Trento (Pallavicino), Libri XVII-XXIV, the Classici Sacri edition of 1846 (Tomo III), the same books as the Parte terza of 1664",
+          "author": "pallavicino",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt",
+          "rights": "Public Domain (published 1846; public domain by date; host licence Public Domain Mark 1.0)"
         },
         {
           "work": "Istoria del Concilio di Trento (Pallavicino, 1664), Parte prima, Libri I-VIII",
@@ -17556,6 +18660,14 @@
           "confidence": "assigned",
           "source_file": "pallavicino_istoria-del-concilio-di-trento-parte3-ita_1664.txt",
           "rights": "Public Domain (published 1664; public domain by date)"
+        },
+        {
+          "work": "Relatione sommaria della canonizatione di S. Carlo Borromeo (Pena, 1610)",
+          "author": "pena-francisco",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610.txt",
+          "rights": "Public Domain (published 1610; public domain by date; host licence Public Domain Mark 1.0)"
         },
         {
           "work": "The \"chief Grounds of the controverted Articles\" by question and answer (1734)",
@@ -17686,6 +18798,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Libro de la Vida (Silverio 1915), the Spanish of the chapters on the confessors and the Inquisition",
+          "author": "teresa-of-avila",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt",
+          "rights": "Public Domain (published 1915; public domain by date; the host record carries no rights field and no access restriction)"
+        },
+        {
           "work": "The Book of the Foundations, Teresa's reference to the Council of Trent and the hermits, and the editor's note on Trent and enclosure",
           "author": "teresa-of-avila",
           "role": "context",
@@ -17710,12 +18830,28 @@
           "rights": "Public Domain (published 1904; public domain by date; the host record carries no rights field and no access restriction)"
         },
         {
+          "work": "The Way of Perfection, Teresa's counsel to enclosed nuns after Trent",
+          "author": "teresa-of-avila",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "teresa-of-avila_way-of-perfection_stanbrook1919.txt",
+          "rights": "Public Domain (published 1919; public domain by date; host possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "The Union of Brest documents, 1595-1596: the Ruthenian bishops' articles, their professions of faith, the bull Magnus Dominus et laudabilis (Clement VIII) and the acts of the Synod of Brest (contemporary Latin versions)",
           "author": "theiner",
           "role": "context",
           "confidence": "provisional",
           "source_file": "theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863.txt",
           "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Vita Caroli Borromei with Episcopus and Cardinalis (Valier, 1586)",
+          "author": "valier",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586.txt",
+          "rights": "Public Domain (published 1586; public domain by date; host licence Public Domain Mark 1.0)"
         }
       ]
     },
@@ -17730,6 +18866,14 @@
           "confidence": "provisional",
           "source_file": "akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836.txt",
           "rights": "Public Domain (printed 1836, more than 95 years before 2026; the documents are of 1598-1615)"
+        },
+        {
+          "work": "Akty Zapadnoi Rossii vol. 4: letters between the Lithuanian Rus' and Muscovy in the Time of Troubles, and the Lithuanian side of the 1589 patriarchal journey",
+          "author": "akty-zapadnoi-rossii",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt",
+          "rights": "Public Domain (published 1851, more than 95 years before 2026; the Internet Archive item carries no rights field)"
         },
         {
           "work": "Poslaniia startsa Artemiia (epistles ascribed to the elder Artemii)",
@@ -17772,6 +18916,22 @@
           "rights": "Public Domain (published 1851, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "Tsar Ivan IV's two epistles to Prince Kurbsky (1564 and 1577), Russian text of the 1914 Commission edition",
+          "author": "ivan-iv",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914.txt",
+          "rights": "Public Domain (published 1914, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
+          "work": "Kurbsky's three epistles to Tsar Ivan IV (1564-1579), Russian text of the 1914 Commission edition",
+          "author": "kurbsky",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914.txt",
+          "rights": "Public Domain (published 1914, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
           "work": "Monumenta fidei ecclesiae orientalis (Kimmel 1850): the Greek and Latin confessions, with the Constantinople synod notes on Cyril Lucaris",
           "author": "lucaris",
           "role": "context",
@@ -17780,12 +18940,52 @@
           "rights": "Public Domain (pre-1930 publication); the item page carries possible-copyright-status NOT_IN_COPYRIGHT"
         },
         {
+          "work": "Maxim the Greek, moral writings (Nravouchitel'nye sochineniia), in the 1910 Trinity-Sergius Lavra Russian translation",
+          "author": "maxim-the-greek",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910.txt",
+          "rights": "Public Domain (published 1910, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
+          "work": "Maxim the Greek, moral writings, the Slavonic text of the Kazan Academy edition, part 2 (1860)",
+          "author": "maxim-the-greek",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860.txt",
+          "rights": "Public Domain (published 1860, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
+          "work": "Additions to the Nikon Chronicle for 1558-1567 (the Synodal, Alexander Nevsky and Lebedev copies), 1906 edition",
+          "author": "nikonovskaia-letopis",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906.txt",
+          "rights": "Public Domain (published 1906, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
+          "work": "Novyi letopisets (the New Chronicle), 1584 to the 1630s, in the Archaeographic Commission's 1910 edition",
+          "author": "novyi-letopisets",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt",
+          "rights": "Public Domain (published 1910, more than 95 years before 2026; the Internet Archive item carries no rights field)"
+        },
+        {
           "work": "The Voyages and Travels of the Ambassadors from the Duke of Holstein to Muscovy and Persia (Olearius, John Davies's English, 1662)",
           "author": "olearius",
           "role": "context",
           "confidence": "assigned",
           "source_file": "olearius_voyages-and-travels-of-the-ambassadors_davies1662.txt",
           "rights": "Public Domain (printed 1662; Internet Archive licence URL: Public Domain Mark 1.0)"
+        },
+        {
+          "work": "Povest' o chestnem zhitii tsaria Feodora Ivanovicha (the Tale of the honourable life of Tsar Feodor Ivanovich), 1910 edition",
+          "author": "povest-o-chestnem-zhitii-tsaria-feodora",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt",
+          "rights": "Public Domain (published 1910, more than 95 years before 2026; the Internet Archive item carries no rights field)"
         },
         {
           "work": "Hakluytus Posthumus, or Purchas His Pilgrimes, Vol. XII: Jenkinson in Russia",
@@ -17810,6 +19010,14 @@
           "confidence": "assigned",
           "source_file": "stoglav_stoglav-chu_kozhanchikov1863.txt",
           "rights": "Public Domain (printed 1863, more than 95 years before 2026; title page of the scan reads '1863')"
+        },
+        {
+          "work": "Tsarstvennaia kniga (the Tsar's Book), the illuminated chronicle of 1533-1553, in the Commission's 1906 edition",
+          "author": "tsarstvennaia-kniga",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906.txt",
+          "rights": "Public Domain (published 1906, more than 95 years before 2026; the Internet Archive item carries no rights field)"
         }
       ]
     },
@@ -17817,6 +19025,14 @@
       "name": "The Czech Churches' Last Century (Utraquists and Unitas)",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Apologie druhá stavův království Českého (1618), Šubert's edition of 1862",
+          "author": "bohemian-estates",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "bohemian-estates_apologie-druha-1618-ces_subert1862.txt",
+          "rights": "Public Domain (published 1862; public domain by date; host possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
         {
           "work": "Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)",
           "author": "comenius",
@@ -17912,6 +19128,14 @@
           "confidence": "assigned",
           "source_file": "unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890.txt",
           "rights": "Public Domain (published 1890; pd-us-by-date)"
+        },
+        {
+          "work": "Jednání a dopisy konsistoře pod obojí, 1562-1570 (Pažout, 1906)",
+          "author": "utraquist-consistory",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "utraquist-consistory_jednani-a-dopisy-konsistore-pod-oboji-1562-1570-ces_pazout1906.txt",
+          "rights": "Public Domain (published 1906; public domain by date; host possible-copyright-status NOT_IN_COPYRIGHT)"
         }
       ]
     },
@@ -17919,6 +19143,14 @@
       "name": "Ethiopian Christianity — Gragn to Fasilides",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Historia Aethiopiae, Books V to VIII (Almeida), Portuguese text edited by Beccari (Rerum Aethiopicarum Scriptores Occidentales Inediti, vol. VI, 1907)",
+          "author": "almeida",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt",
+          "rights": "Public Domain (published 1907, more than 95 years ago; the host marks the item NOT_IN_COPYRIGHT)"
+        },
         {
           "work": "Futuh al-Habasha (Conquest of Abyssinia), French translation by Basset",
           "author": "arab-faqih",
@@ -17990,6 +19222,14 @@
           "confidence": "assigned",
           "source_file": "lobo_voyage-to-abyssinia_johnson1735.txt",
           "rights": "Public Domain (Johnson's translation of 1735 and the 1887 edition both more than 95 years old; Project Gutenberg states its etexts are in the public domain in the United States unless a notice says otherwise)"
+        },
+        {
+          "work": "A New History of Ethiopia, in four books (Ludolf, the English of J. P., 1682)",
+          "author": "ludolf",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "ludolf_new-history-of-ethiopia_jp1682.txt",
+          "rights": "Public Domain (published 1682; public domain by date under the project's 95-year rule)"
         },
         {
           "work": "Commentarius ad suam Historiam Aethiopicam (Ludolf, 1691), whole work",
@@ -18094,6 +19334,14 @@
           "rights": "Public Domain (published 1853; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "Brandt's History of the Reformation in the Low-Countries, vol. III (Books XXXIII-XLIV): the Synod of Dort and the fall of Oldenbarnevelt, 1618-1619, in the English of 1722",
+          "author": "brandt",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt",
+          "rights": "Public Domain (an early eighteenth-century English print; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "Memoirs of Simon Episcopius, with a brief account of the Synod of Dort and the sufferings of the followers of Arminius (Calder, 1838)",
           "author": "calder",
           "role": "context",
@@ -18108,6 +19356,22 @@
           "confidence": "provisional",
           "source_file": "dutch-reformed-synods_acta-1568-1586-nld_rutgers1889.txt",
           "rights": "Public Domain (published 1889; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus Socinus (Grotius, Leiden 1617; Foster's English, 1889)",
+          "author": "grotius",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+          "rights": "Public Domain (published 1889, title page and copyright notice read in the file; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Haak's Narrative of the Statenvertaling: how the Synod of Dort and the States General made the Dutch Bible of 1637, with the ordinance prefixed to The Dutch Annotations (1657)",
+          "author": "haak",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "haak_dutch-annotations-narrative-and-front-matter_1657.txt",
+          "rights": "Public Domain (a seventeenth-century English print, carrying a Creative Commons Public Domain Mark 1.0 on the host item; public domain by date under the project's 95-year rule)"
         },
         {
           "work": "Letters from the Synod of Dort to Sir Dudley Carleton, the English Embassador at the Hague (Hales; Foulis printing, 1765)",
@@ -18182,6 +19446,22 @@
           "rights": "Public Domain (published 1840; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "Secunda Contra-Remonstrantia: the Responsio of the Reformed ministers of Holland and West Friesland to the Second Remonstrance, August 1617 (Latin from the Dutch, Leiden 1617)",
+          "author": "remonstrants",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617.txt",
+          "rights": "Public Domain (a 1617 print; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Secunda Remonstrantia of the Remonstrant ministers of Holland and West Friesland to the States, April 1617 (Latin from the Dutch, Leiden 1617)",
+          "author": "remonstrants",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617.txt",
+          "rights": "Public Domain (a 1617 print; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "The Confession or Declaration of the Remonstrant Ministers, in XXV Chapters, English, 1676 printing (Episcopius, 1621)",
           "author": "remonstrants",
           "role": "tradition",
@@ -18204,6 +19484,14 @@
           "confidence": "assigned",
           "source_file": "synod-of-dort_articles-with-history-of-events_scott1831.txt",
           "rights": "Public Domain (published 1831, title page and copyright notice read in the file; public domain by date)"
+        },
+        {
+          "work": "De stichting der Remonstrantsche Broederschap, 1619-1634: the Brotherhood's founding records (Rotterdam 1619, Waalwijk and Antwerp, the Directie, the Confession of 1621, the settling in the Republic), printed with Tideman's narrative (two parts, 1871-1872)",
+          "author": "tideman",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "tideman_stichting-der-remonstrantsche-broederschap-nld_1871.txt",
+          "rights": "Public Domain (published 1871-1872; public domain by date under the project's 95-year rule; the host item carries the flag NOT_IN_COPYRIGHT)"
         },
         {
           "work": "The Heidelberg Catechism (1563)",
@@ -18235,6 +19523,14 @@
       "name": "The Scandinavian Reformation Kingdoms",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "The History of the Reformation in Sweden (Anjou, 1850; Mason's English, 1859)",
+          "author": "anjou",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+          "rights": "Public Domain (published 1859, title page and copyright notice read in the file; public domain by date under the project's 95-year rule; the host item carries the flag NOT_IN_COPYRIGHT)"
+        },
         {
           "work": "Konkordieboken in Swedish, with Bensow's note that Sweden adopted it in full only in 1663 and 1686",
           "author": "bensow",
@@ -18274,6 +19570,14 @@
           "confidence": "assigned",
           "source_file": "danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
           "rights": "Public Domain (published 1537; public domain by date)"
+        },
+        {
+          "work": "Bishop Nils Glostrup's visitations of the dioceses of Oslo and Hamar, 1617-1637 (Danish; Daae and Huitfeldt-Kaas, 1895)",
+          "author": "glostrup",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895.txt",
+          "rights": "Public Domain (published 1895; public domain by date under the project's 95-year rule; the host item carries the flag NOT_IN_COPYRIGHT)"
         },
         {
           "work": "The Augsburg Confession (1530), the confession the Uppsala Synod of 1593 adopted 'unaltered'",
@@ -18352,6 +19656,14 @@
           "confidence": "assigned",
           "source_file": "chamich_history-of-armenia-v2_avdall1827.txt",
           "rights": "Public Domain (published 1827; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Sir John Chardin's Travels in Persia, volume I (Lloyd's English, 1720): Julfa, the Armenian suburb of Isfahan, its provost, merchants, clergy and patriarch",
+          "author": "chardin",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "chardin_travels-in-persia-v1_lloyd1720.txt",
+          "rights": "Public Domain (published 1720; public domain by date under the project's 95-year rule)"
         },
         {
           "work": "Annales Ecclesiae Ruthenae (Harasiewicz): the Armenian-rite archbishopric of Lviv",
@@ -18456,12 +19768,36 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Cautelas, Avisos y sentencias espirituales, Dictamenes de espiritu, the twenty-five Cartas espirituales, the Documentos varios and Profesiones, in Spanish (Gerardo 1914)",
+          "author": "john-of-the-cross",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt",
+          "rights": "Public Domain (published 1914; public domain by date; the host record carries no rights field and no access restriction)"
+        },
+        {
           "work": "Instructions and Precautions, Letters I-XVIII, censure of a nun's prayer, and Spiritual Maxims of John of the Cross, in the same volume",
           "author": "john-of-the-cross",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "john-of-the-cross_dark-night-canticle-living-flame_lewis1891.txt",
           "rights": "Public Domain (published 1891; public domain by date; the host record carries no rights field and no access restriction)"
+        },
+        {
+          "work": "Poesias del Mistico Doctor San Juan de la Cruz, the poems in the original Spanish (Noche oscura, Cantico, Llama, the Pastorcico, the Fonte, the romances and glosses), Gerardo de San Juan de la Cruz's critical edition, Toledo 1914",
+          "author": "john-of-the-cross",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt",
+          "rights": "Public Domain (published 1914; public domain by date; the host record carries no rights field and no access restriction)"
+        },
+        {
+          "work": "The Ascent of Mount Carmel (Subida del Monte Carmelo), Lewis translation corrected by Zimmerman, 1906",
+          "author": "john-of-the-cross",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "john-of-the-cross_ascent-of-mount-carmel_lewis1906.txt",
+          "rights": "Public Domain (published 1906; public domain by date; host licence Public Domain Mark 1.0)"
         },
         {
           "work": "The Dark Night of the Soul, with the Spiritual Canticle and The Living Flame of Love, Lewis translation, second edition 1891",
@@ -18478,6 +19814,30 @@
           "confidence": "assigned",
           "source_file": "john-of-the-cross_life_lewis1873.txt",
           "rights": "Public Domain (published 1873; public domain by date; the host record carries the Creative Commons Public Domain Mark 1.0)"
+        },
+        {
+          "work": "Works printed as attributed or doubtful (Coloquios entre Cristo y su esposa el alma; Tratado breve del conocimiento oscuro de Dios), the two treatises of Madre Cecilia del Nacimiento, and the appendices by Diego de Jesus and Jose de Jesus Maria (Gerardo 1914)",
+          "author": "john-of-the-cross",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt",
+          "rights": "Public Domain (published 1914; public domain by date; the host record carries no rights field and no access restriction)"
+        },
+        {
+          "work": "Zimmerman's prefatory essay on the development of mysticism in the Carmelite Order (1906)",
+          "author": "john-of-the-cross",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "john-of-the-cross_ascent-of-mount-carmel_lewis1906.txt",
+          "rights": "Public Domain (published 1906; public domain by date; host licence Public Domain Mark 1.0)"
+        },
+        {
+          "work": "Libro de la Vida (Teresa's Life written by herself), Spanish text from the Escorial autograph, Silverio de Santa Teresa's edition, Burgos 1915, tomo I of the Biblioteca Mistica Carmelitana",
+          "author": "teresa-of-avila",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt",
+          "rights": "Public Domain (published 1915; public domain by date; the host record carries no rights field and no access restriction)"
         },
         {
           "work": "Teresa's paper on the visitation of nunneries, the Rule of the Order of Our Lady of Mount Carmel, and the Constitutions for the sisters (appended to the Foundations in this edition)",
@@ -18510,6 +19870,14 @@
           "confidence": "assigned",
           "source_file": "teresa-of-avila_life_lewis1904.txt",
           "rights": "Public Domain (published 1904; public domain by date; the host record carries no rights field and no access restriction)"
+        },
+        {
+          "work": "The Way of Perfection (Camino de perfeccion), Stanbrook translation from the autograph with the Escorial and Valladolid variants, second edition 1919",
+          "author": "teresa-of-avila",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "teresa-of-avila_way-of-perfection_stanbrook1919.txt",
+          "rights": "Public Domain (published 1919; public domain by date; host possible-copyright-status NOT_IN_COPYRIGHT)"
         }
       ]
     },
@@ -18526,12 +19894,36 @@
           "rights": "Public Domain (published 1562; public domain by date; host carries the Creative Commons Public Domain Mark 1.0)"
         },
         {
+          "work": "Bibliotheca Orientalis III.1, De Scriptoribus Syris Nestorianis (Rome 1725): the dated series of the catholicoi and patriarchs of the East, Simeon Bar-Mama, Joannes Sulaka and Ebedjesus of Gazarta",
+          "author": "assemani",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+          "rights": "Public Domain (published 1725; public domain by date; the host marks the item Public Domain Mark 1.0)"
+        },
+        {
           "work": "Bibliotheca Orientalis III.2, the dissertation De Syris Nestorianis: the election of Sulaka, his profession and proclamation at Rome, his death, and the line of Abdisho IV",
           "author": "assemani",
           "role": "context",
           "confidence": "assigned",
           "source_file": "assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
           "rights": "Public Domain (published 1728; public domain by date; host carries the Creative Commons Public Domain Mark 1.0)"
+        },
+        {
+          "work": "The Nestorians and their Rituals, volume I (Badger, 1852), chapter XI: the history of the Nestorian patriarchate, the hereditary succession, the election of Sulaka and his murder",
+          "author": "badger",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "badger_nestorians-and-their-rituals-v1_1852.txt",
+          "rights": "Public Domain (published 1852; public domain by date)"
+        },
+        {
+          "work": "The Nestorians and their Rituals, volume II (Badger, 1852): the creed, doctrine, sacraments, liturgies, ordination, marriage and burial rites of the Church of the East, translated from Syriac manuscripts, with synodal documents",
+          "author": "badger",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "badger_nestorians-and-their-rituals-v2_1852.txt",
+          "rights": "Public Domain (published 1852; public domain by date)"
         },
         {
           "work": "Lamy's appendix to Bar Hebraeus, Chronicon Ecclesiasticum III: 'Series patriarcharum Chaldaeorum S. Sedi unitorum et recentiorum Nestorianorum', from Sulaka (1551-1555) to the nineteenth century",
@@ -18550,6 +19942,14 @@
           "rights": "Public Domain (published 1694, more than 95 years before 2026; public domain by date)"
         },
         {
+          "work": "Jornada do Arcebispo de Goa (Gouvea, 1606): the Chaldean bishops of Malabar and the break with Babylon",
+          "author": "gouvea",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "gouvea_jornada-do-arcebispo-de-goa-por_1606.txt",
+          "rights": "Public Domain (published 1606; public domain by date under the project's 95-year rule; the host, the Biblioteca Nacional de Portugal, marks the digital object \"PUBLIC DOMAIN. Obra no domínio público ... Public Domain Mark\")"
+        },
+        {
           "work": "Hough, History of Christianity in India vol. II (1839): his notes on 'Simon Sulaka' quoting Geddes and Assemani",
           "author": "hough",
           "role": "context",
@@ -18564,6 +19964,14 @@
           "confidence": "assigned",
           "source_file": "labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt",
           "rights": "Public Domain (pd-us-by-date: published 1904); the item record carries no rights field"
+        },
+        {
+          "work": "The Catholicos of the East and his People (Maclean and Browne, 1892): the East Syrian Christians of Kurdistan and Persia and the sixteenth-century division into the Uniat Chaldean Church and the Nestorians",
+          "author": "maclean-browne",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "maclean-browne_catholicos-of-the-east-and-his-people_1892.txt",
+          "rights": "Public Domain (published 1892; public domain by date; the host marks the item Public Domain Mark 1.0)"
         },
         {
           "work": "History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East (1910), chapters XXXI and XXXII: the sixteenth century, the schism of Shimon VIII 'John Sulaka', and the Shimun line to the nineteenth century",
@@ -18905,6 +20313,22 @@
       "status": "Within Another World (A5)",
       "works": [
         {
+          "work": "Cautelas, Avisos and the apologetic appendices on contemplation (Gerardo 1914)",
+          "author": "john-of-the-cross",
+          "role": "antecedent",
+          "confidence": "needs-ruling",
+          "source_file": "john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt",
+          "rights": "Public Domain (published 1914; public domain by date; the host record carries no rights field and no access restriction)"
+        },
+        {
+          "work": "The Ascent of Mount Carmel, Book II on faith as the proximate means of union and on visions and locutions",
+          "author": "john-of-the-cross",
+          "role": "antecedent",
+          "confidence": "needs-ruling",
+          "source_file": "john-of-the-cross_ascent-of-mount-carmel_lewis1906.txt",
+          "rights": "Public Domain (published 1906; public domain by date; host licence Public Domain Mark 1.0)"
+        },
+        {
           "work": "The Dark Night, Spiritual Canticle and Living Flame (as the books the Quietists and their opponents argued over)",
           "author": "john-of-the-cross",
           "role": "antecedent",
@@ -18959,6 +20383,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Extracts from the diaries of Dr John Covel, 1670-1679 (Constantinople, the Greek church, Adrianople, Asia Minor)",
+          "author": "covel",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt",
+          "rights": "Public Domain (published 1893, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "Kaisarios Dapontes, Chronographos (section A) and Historikos Katalogos andron episemon, 1700-1784 (section B), Greek",
           "author": "dapontes",
           "role": "tradition",
@@ -18973,6 +20405,14 @@
           "confidence": "assigned",
           "source_file": "dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
           "rights": "Public Domain (pre-1930 publication); the item page carries possible-copyright-status NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Acts of the Synod of Jerusalem (1672) and the confession of Dositheus, Greek with Latin (Kimmel 1843)",
+          "author": "dositheus",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt",
+          "rights": "Public Domain (published 1843, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
           "work": "Acts of the Synod of Jerusalem (1672), Greek with Latin",
@@ -19093,6 +20533,14 @@
           "confidence": "assigned",
           "source_file": "smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698.txt",
           "rights": "Public Domain (printed 1698)"
+        },
+        {
+          "work": "The correspondence between the Eastern Patriarchs and the Nonjuring bishops, 1716-1725, in English",
+          "author": "williams-george",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt",
+          "rights": "Public Domain (published 1868, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
         }
       ]
     },
@@ -19117,6 +20565,14 @@
           "confidence": "provisional",
           "source_file": "kyiv-synopsis_sinopsis-chu_1762.txt",
           "rights": "Public Domain (printed in St Petersburg in 1762); the host record carries no possible-copyright-status field and the item is not access-restricted"
+        },
+        {
+          "work": "Novyi letopisets (the New Chronicle), 1584 to the 1630s, in the Archaeographic Commission's 1910 edition",
+          "author": "novyi-letopisets",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt",
+          "rights": "Public Domain (published 1910, more than 95 years before 2026; the Internet Archive item carries no rights field)"
         },
         {
           "work": "The Voyages and Travels of the Ambassadors from the Duke of Holstein to Muscovy and Persia (Olearius, John Davies's English, 1662)",
@@ -19224,6 +20680,14 @@
           "rights": "Public Domain (published 1827; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "Sir John Chardin's Travels in Persia, volume I (Lloyd's English, 1720)",
+          "author": "chardin",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "chardin_travels-in-persia-v1_lloyd1720.txt",
+          "rights": "Public Domain (published 1720; public domain by date under the project's 95-year rule)"
+        },
+        {
           "work": "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapters XVII-XVIII, awakening and the eighteenth century",
           "author": "ormanian",
           "role": "context",
@@ -19257,7 +20721,16 @@
     "english-old-dissent": {
       "name": "English Old Dissent — Presbyterians and Congregationalists",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Reliquiae Baxterianae abridged, Parts Two and Three: the Restoration, the Savoy Conference, the ejection of 1662, conformists and nonconformists, persecution to the 1680s",
+          "author": "baxter",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+          "rights": "Public Domain (published London 1925, more than 95 years ago, so public domain in the United States by date; the archive.org item carries no possible-copyright-status field, so the determination rests on the printed date)"
+        }
+      ]
     },
     "early-american-unitarians-universalists": {
       "name": "Early American Unitarians & Universalists",
@@ -19460,6 +20933,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "The Syrian Christians of Malabar (Philipos, 1869)",
+          "author": "philipos",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philipos_syrian-christians-of-malabar_howard1869.txt",
+          "rights": "Public Domain (published 1869; public domain by date; the host marks the item NOT_IN_COPYRIGHT)"
+        },
+        {
           "work": "Lingerings of Light in a Dark Land, chapters XIII-XV (Jacobite bishops and the Church Missionary Society)",
           "author": "whitehouse",
           "role": "context",
@@ -19594,6 +21075,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Bibliotheca Orientalis III.1 (Assemani, 1725): the Chaldean patriarchs after Abdisho IV",
+          "author": "assemani",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+          "rights": "Public Domain (published 1725; public domain by date; the host marks the item Public Domain Mark 1.0)"
+        },
+        {
           "work": "Bibliotheca Orientalis III.2, the dissertation De Syris Nestorianis, as a reference for the later Chaldean line",
           "author": "assemani",
           "role": "antecedent",
@@ -19602,12 +21091,36 @@
           "rights": "Public Domain (published 1728; public domain by date; host carries the Creative Commons Public Domain Mark 1.0)"
         },
         {
+          "work": "The Nestorians and their Rituals, volume I (Badger, 1852): the narrative of the mission of 1842-44 and the visit of 1850, the Nestorians of Hakkari and Mosul, the Chaldeans, the Jacobites and the Yezidis",
+          "author": "badger",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "badger_nestorians-and-their-rituals-v1_1852.txt",
+          "rights": "Public Domain (published 1852; public domain by date)"
+        },
+        {
+          "work": "The Nestorians and their Rituals, volume II (Badger, 1852): the rituals of the Nestorians as used in the 1840s",
+          "author": "badger",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "badger_nestorians-and-their-rituals-v2_1852.txt",
+          "rights": "Public Domain (published 1852; public domain by date)"
+        },
+        {
           "work": "Lamy's appendix to Bar Hebraeus, Chronicon Ecclesiasticum III: the Chaldean patriarchs of Amid and Mosul, Joseph I to Joseph Audo, to about 1865",
           "author": "barhebraeus",
           "role": "context",
           "confidence": "provisional",
           "source_file": "barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "The Catholicos of the East and his People (Maclean and Browne, 1892): the religious and secular life of the East Syrians in 1886-91, the clergy, sacraments, daily services and church buildings",
+          "author": "maclean-browne",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "maclean-browne_catholicos-of-the-east-and-his-people_1892.txt",
+          "rights": "Public Domain (published 1892; public domain by date; the host marks the item Public Domain Mark 1.0)"
         },
         {
           "work": "History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East (1910), chapters XXXII to XXXIV: the American mission at Urmia, the Syrian church at the present time",
@@ -19810,6 +21323,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "The Catholicos of the East and his People (Maclean and Browne, 1892)",
+          "author": "maclean-browne",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "maclean-browne_catholicos-of-the-east-and-his-people_1892.txt",
+          "rights": "Public Domain (published 1892; public domain by date; the host marks the item Public Domain Mark 1.0)"
+        },
+        {
           "work": "The Assyrians and their Neighbours (1929), chapter X, The Great War and After",
           "author": "wigram",
           "role": "context",
@@ -19918,6 +21439,22 @@
       "name": "The Malankara Churches — Orthodox & Jacobite",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "The Christians of St. Thomas and their Liturgies (Howard, 1864): the Ordo Communis and six anaphorae translated from Syriac manuscripts obtained in Travancore",
+          "author": "howard",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "howard_christians-of-st-thomas-and-their-liturgies_1864.txt",
+          "rights": "Public Domain (published 1864; public domain by date; the host marks the item Public Domain Mark 1.0)"
+        },
+        {
+          "work": "The Syrian Christians of Malabar (Philipos, 1869): the church's belief, sacraments, fasts and orders in its own priest's words",
+          "author": "philipos",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "philipos_syrian-christians-of-malabar_howard1869.txt",
+          "rights": "Public Domain (published 1869; public domain by date; the host marks the item NOT_IN_COPYRIGHT)"
+        },
         {
           "work": "Lingerings of Light in a Dark Land, chapters XII-XV (the turn to the Jacobite patriarch)",
           "author": "whitehouse",

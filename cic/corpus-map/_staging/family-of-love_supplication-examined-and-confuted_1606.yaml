@@ -1,0 +1,26 @@
+source_file: family-of-love_supplication-examined-and-confuted_1606.txt
+assignments:
+- row_id: family-of-love_supplication-examined-and-confuted_1606--a-supplication-of-the-family-of-love-examined-and-confuted-1606
+  work: A Supplication of the Family of Love, examined and confuted (1606)
+  author: family-of-love
+  locus: first "The Families Supplication" head with "The Examination" at file line 106; the Familists disclaim
+    the charged errors at file line 168; the examiner on H. N. as a German author at file line 1090
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: tradition
+  confidence: assigned
+  note: 'The English Family''s own petition to James I (1604), surviving inside a hostile 1606 examination that
+    prints it section by section: the community''s voice after Niclaes, which the dossier recorded as absent. Role
+    tradition for the petition sections; the examiner''s answers are context. Readable microfilm OCR; quotable once
+    checked against the page image.'
+- row_id: family-of-love_supplication-examined-and-confuted_1606--a-supplication-of-the-family-of-love-examined-and-confuted-1606-2
+  work: A Supplication of the Family of Love, examined and confuted (1606)
+  author: family-of-love
+  locus: first "The Families Supplication" head with "The Examination" at file line 106; the Familists disclaim
+    the charged errors at file line 168; the examiner on H. N. as a German author at file line 1090
+  atlas_ids:
+  - the-english-reformation-and-elizabethan-settleme
+  role: context
+  confidence: provisional
+  note: A Jacobean anti-Familist tract with the Familists' petition to James I; placed provisionally beside the
+    1579 polemics already proposed there. The English Reformation thread decides its weight.

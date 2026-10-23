@@ -24,6 +24,16 @@ works:
   note: 'Placed on window and place: the same history carries the Stoglav period, the Nikonian
     reform and the schism. Sampled by name counts only; not read for these entries.'
   source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
+- row_id: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910--novyi-letopisets-the-new-chronicle-1584-to-the-1630s-in-the-2
+  work: Novyi letopisets (the New Chronicle), 1584 to the 1630s, in the Archaeographic Commission's
+    1910 edition
+  author: novyi-letopisets
+  locus: same as the first row; the last chapters (from about file line 9000) reach the 1630s
+  role: antecedent
+  confidence: provisional
+  note: The chronicle ends in the Filaret years, the generation before Nikon; placed on window
+    only, not read for this entry.
+  source_file: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt
 - row_id: olearius_voyages-and-travels-of-the-ambassadors_davies1662--the-voyages-and-travels-of-the-ambassadors-from-the-duke-of-2
   work: The Voyages and Travels of the Ambassadors from the Duke of Holstein to Muscovy and
     Persia (Olearius, John Davies's English, 1662)

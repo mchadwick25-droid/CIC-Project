@@ -124,8 +124,7 @@ def route_factor(provider: str, model_id: str) -> float:
 
 
 def price_for_route(call_kind: str, model_id: str, provider: str) -> PriceTable | None:
-    """price_for_call scaled to what the route bills. The door keeps calling
-    price_for_call (list price) and applies its own invoice factor."""
+    """price_for_call scaled to what the route bills."""
     table = price_for_call(call_kind, model_id)
     factor = route_factor(provider, model_id)
     if table is None or factor == 1.0:

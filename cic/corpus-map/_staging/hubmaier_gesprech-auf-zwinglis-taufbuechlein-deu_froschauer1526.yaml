@@ -1,0 +1,15 @@
+source_file: hubmaier_gesprech-auf-zwinglis-taufbuechlein-deu_froschauer1526.txt
+assignments:
+- row_id: hubmaier_gesprech-auf-zwinglis-taufbuechlein-deu_froschauer1526--ein-gesprech-auf-zwinglis-taufb-chlein-nikolsburg-1526
+  work: Ein Gesprech auf Zwinglis Taufbüchlein (Nikolsburg, 1526)
+  author: hubmaier
+  locus: title page words "Ein gesprech Balthasar ... auf Mayster ... Zwinglens" at file line 159; colophon "1526
+    Getruckt durch Simprecht Sorg" at file line 6280
+  atlas_ids:
+  - the-anabaptist-movements
+  role: tradition
+  confidence: assigned
+  note: 'Hubmaier''s own answer to Zwingli on baptism, in the original 1526 print. SECOND WITNESS: microfilm OCR
+    of blackletter, about 0.6 of the text windows read as words; nothing quotable until read on the page images.
+    Role tradition: the Anabaptist theologian in his own voice, which the dossier named as missing. German; no public-domain
+    English exists (Vedder 1905 translates only On the Sword).'

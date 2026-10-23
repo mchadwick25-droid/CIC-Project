@@ -1,0 +1,47 @@
+source_file: maclean-browne_catholicos-of-the-east-and-his-people_1892.txt
+
+authors_ruled:
+  maclean-browne:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the authors yet. The title page in the OCR
+      reads "by Arthur John Maclean, M.A., Dean of Argyll and the Isles, and William Henry Browne, LL.M."
+      (file lines 30-45); the host catalogue names both. One slug for the joint work, on the pattern of the
+      joint-editor slugs already in use. A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: maclean-browne_catholicos-of-the-east-and-his-people_1892--the-east-syrians-and-the-uniat-chaldean-church
+    work: "The Catholicos of the East and his People (Maclean and Browne, 1892): the East Syrian Christians of Kurdistan and Persia and the sixteenth-century division into the Uniat Chaldean Church and the Nestorians"
+    author: maclean-browne
+    locus: "the division 'in the sixteenth century' into the body that joined Rome, 'known as the Uniat Chaldean Church', and the rest, at file lines 809-830; the names Chaldean, Nestorian, Syrian and Assyrian discussed to about 980; the Catholicos and the hereditary succession in the chapters on the clergy"
+    atlas_ids:
+      - church-of-the-east-schism-of-1552
+    role: context
+    confidence: provisional
+    note: >
+      Two Anglican missionaries state the division of 1552 in a paragraph and describe the Shimun
+      line's church as it stood in 1886-91. A reception witness for the schism, weak for this
+      entry's events and strong for what the mountain church became. Read at the lines cited.
+      Clean OCR.
+  - row_id: maclean-browne_catholicos-of-the-east-and-his-people_1892--the-east-syrians-and-the-uniat-chaldean-church-2
+    work: "The Catholicos of the East and his People (Maclean and Browne, 1892): the religious and secular life of the East Syrians in 1886-91, the clergy, sacraments, daily services and church buildings"
+    author: maclean-browne
+    locus: "chapters I to XIV from file line 697 (contents at about 350-620)"
+    atlas_ids:
+      - church-of-the-east-chaldean-consolidation
+    role: context
+    confidence: provisional
+    note: >
+      A direct outside witness to the Assyrian church in that entry's window, by the Archbishop
+      of Canterbury's missionaries. Placed on dates and subject; not read for that entry.
+  - row_id: maclean-browne_catholicos-of-the-east-and-his-people_1892--the-east-syrians-and-the-uniat-chaldean-church-3
+    work: "The Catholicos of the East and his People (Maclean and Browne, 1892)"
+    author: maclean-browne
+    locus: "whole file"
+    atlas_ids:
+      - the-sayfo-and-the-syriac-diaspora
+    role: context
+    confidence: provisional
+    note: >
+      The Hakkari and Urmi communities a generation before 1915, described by the mission that
+      withdrew in that year. Placed on place; not read for that entry.

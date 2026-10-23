@@ -13,18 +13,37 @@ works:
     reaches Yahballaha III and Timothy II was not established in this pass; the Latin pages
     read in descending file order. Placed on subject only.
   source_file: amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt
-- row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--bibliotheca-orientalis-iii-1-the-nestorian-writers-with-the
-  work: 'Bibliotheca Orientalis III.1: the Nestorian writers, with the 1504 letter of the
-    Malabar bishops and the lives of the fourteenth and fifteenth-century patriarchs'
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--bibliotheca-orientalis-iii-1-assemani-1725-the-entries-on
+  work: 'Bibliotheca Orientalis III.1 (Assemani, 1725): the entries on the fourteenth- and
+    fifteenth-century patriarchs and writers of the Church of the East, Timotheus II (1318)
+    among them'
   author: assemani
-  locus: Malabar bishops' history and the 1504 letter at file line 93562 onward; Timotheus
-    II at 97694 and 98507
-  role: tradition
-  confidence: assigned
-  note: 'Primary Latin: the bishops'' letter of 1504 and the history of their mission, in
-    Assemani''s printed Latin, plus the lives of later patriarchs, among them Timotheus II.
-    Latin OCR readable with the long s read as f. Syriac garbled. Ready to quote once verified
-    against the scan. Eighteenth-century lives are scholarship.'
+  locus: chapter LVI, Timotheus II, at volume page 357 (the contents at file line 1786 and
+    the index at 2619 give the page); the later patriarchs in the series from about file line
+    101030
+  role: context
+  confidence: provisional
+  note: 'Assemani''s eighteenth-century lives of the writers and patriarchs after 1318 are
+    scholarship with printed extracts; the extracts are the source layer. Placed on the contents
+    and index, not read through. Second witness for exact wording until checked against the
+    page image.
+
+    '
+  source_file: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--dated-series-of-the-patriarchs-sulaka-to-abdisho-3
+  work: 'Bibliotheca Orientalis III.1 (Assemani, 1725): the series of patriarchs from Timotheus
+    II to Simeon Bar-Mama'
+  author: assemani
+  locus: 'the series of patriarchs at file lines about 100900-101046 (numbers 87-90: Elias
+    1502-1504, Simeon 1504, Simeon with his brother Jesujab 1530-1538, Simeon Bar-Mama''s
+    uncle to 1551)'
+  role: context
+  confidence: provisional
+  note: 'The hereditary succession of the Simeons before 1552 as Assemani dated it from manuscript
+    colophons. Placed on dates; the entries for the fourteenth and fifteenth centuries were
+    not read.
+
+    '
   source_file: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
 - row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555-2
   work: 'Bibliotheca Orientalis III.2, the dissertation De Syris Nestorianis: the patriarchal
@@ -40,6 +59,30 @@ works:
 
     '
   source_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+- row_id: badger_nestorians-and-their-rituals-v1_1852--chapter-xi-the-patriarchate-and-the-schism-of-1552-3
+  work: 'The Nestorians and their Rituals, volume I (Badger, 1852), chapter XI: the hereditary
+    patriarchate from 1450'
+  author: badger
+  locus: chapter XI from file line 7313 to the schism at 7780
+  role: context
+  confidence: provisional
+  note: 'Badger''s account of the hereditary law and the shrinking church before 1552. Placed
+    on the chapter; not read for that entry.
+
+    '
+  source_file: badger_nestorians-and-their-rituals-v1_1852.txt
+- row_id: badger_nestorians-and-their-rituals-v2_1852--the-rituals-and-doctrine-of-the-church-of-the-east-in-english-3
+  work: 'The Nestorians and their Rituals, volume II (Badger, 1852): the synod of Mar Timotheus
+    II (1317) and the election of a patriarch'
+  author: badger
+  locus: file lines about 6774-8767
+  role: context
+  confidence: provisional
+  note: 'A fourteenth-century synod''s decrees on the patriarchal election, in English; the
+    canon law of that entry''s window. Placed on date; not read for that entry.
+
+    '
+  source_file: badger_nestorians-and-their-rituals-v2_1852.txt
 - row_id: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877--lamy-appendix-series-catholicorum-nestorianorum-continuata
   work: 'Lamy''s appendix to Bar Hebraeus, Chronicon Ecclesiasticum III: ''Series catholicorum
     Nestorianorum continuata'', from Timotheus II (1318) to Simeon VII (d. 1551)'

@@ -1,0 +1,26 @@
+source_file: likowski_unia-brzeska-pol_1907.txt
+assignments:
+- row_id: likowski_unia-brzeska-pol_1907--edward-likowski-unia-brzeska-r-1596-second-edition-1907
+  work: Edward Likowski, Unia brzeska (r. 1596), second edition, 1907
+  author: likowski
+  locus: the whole file; table of contents at file line 882, introduction at file line 1014, six books
+    with chapters headed ROZDZIAŁ
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: assigned
+  note: A Poznan bishop's narrative of the union from the fifteenth-century antecedents to the 1620s,
+    from the union's side, quoting documents in the notes. Scholarship, not a primary voice; vendored
+    as the second narrative the first-pass dossier said a build would want beside Pelesz and Guépin. Clean
+    Polish OCR.
+- row_id: likowski_unia-brzeska-pol_1907--edward-likowski-unia-brzeska-r-1596-second-edition-1907-2
+  work: Edward Likowski, Unia brzeska (r. 1596), second edition, 1907
+  author: likowski
+  locus: the later books (KSIĘGA PIĄTA and SZÓSTA, listed at file lines 977-987) on the years after 1596,
+    Smotrytsky and the brotherhoods
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: provisional
+  note: The hostile narrative of the Orthodox side's resistance in the 1610s-1620s; placed on the contents
+    list only.

@@ -74,3 +74,16 @@ assignments:
     copy of the Geddes sentence than the 1694 scan. Placed on the three notes read.
 
     '
+
+- row_id: hough_history-of-christianity-in-india-v2_1839--gouvea-cited-as-the-source-of-the-diamper-acts
+  work: 'History of Christianity in India, vol. II (Hough, 1839): the account of the Synod of Diamper
+    drawn from Gouvea and Geddes'
+  author: hough
+  locus: the Diamper narrative in Book IV and Appendix A, where Hough names Gouvea's Jornada (Coimbra
+    1606) as the book Geddes translated the acts from and says a copy is in the British Museum
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: provisional
+  note: 'Cross-reference only: the Portuguese original Hough cites is now vendored as gouvea_jornada-do-arcebispo-de-goa-por_1606.txt,
+    so a build can check Geddes''s and Hough''s English against it. Hough''s own placement is unchanged.'

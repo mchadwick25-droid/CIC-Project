@@ -17,6 +17,19 @@ works:
 
     '
   source_file: arminius_works-v1_nichols1853.txt
+- row_id: beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884--histoire-ecclesiastique-des-eglises-reformees-au-royaume-de-2
+  work: Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580),
+    Tome deuxieme, Livres VI-IX (the first war of religion, 1562-1563, by province)
+  author: beza
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Compiled in Geneva from the French churches'' reports; Geneva''s own record of its
+    mission field in the year of the first war. Placed on authorship and place, mirroring
+    the Tome 1 row; not read against the Reformed Cities'' own Doc_02.
+
+    '
+  source_file: beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884.txt
 - row_id: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883--histoire-ecclesiastique-des-eglises-reformees-tome-premier-2
   work: Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580),
     Tome premier, Livres I-IV
@@ -30,6 +43,20 @@ works:
 
     '
   source_file: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt
+- row_id: beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889--histoire-ecclesiastique-des-eglises-reformees-au-royaume-de-2
+  work: Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580),
+    Tome troisieme, Livre X to the end (1562-1563), with Reuss's preface, introduction and
+    index
+  author: beza
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Compiled in Geneva from the French churches'' reports; placed on authorship and place,
+    mirroring the Tome 1 and Tome 2 rows. Reuss''s introduction discusses the Geneva printing
+    under an Antwerp imprint.
+
+    '
+  source_file: beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt
 - row_id: beza_job-expounded_legatt1589--job-expounded-by-theodore-beza-partly-in-manner-of-a
   work: 'Job Expounded by Theodore Beza: Partly in Manner of a Commentary, Partly in Manner
     of a Paraphrase; Faithfully Translated out of Latine into English'
@@ -47,6 +74,20 @@ works:
 
     '
   source_file: beza_job-expounded_legatt1589.txt
+- row_id: brandt_history-of-the-reformation-in-the-low-countries-v3_1722--brandt-s-history-of-the-reformation-in-the-low-countries-vol-3
+  work: 'Brandt''s History of the Reformation in the Low-Countries, vol. III (Books XXXIII-XLIV):
+    the Synod of Dort and the fall of Oldenbarnevelt, 1618-1619, in the English of 1722'
+  author: brandt
+  locus: the sessions with the foreign divines and the judgments on the Five Articles (Books
+    XXXVI-XLII, from about file line 13430)
+  role: context
+  confidence: provisional
+  note: 'The delegates of Geneva, the Swiss churches and the Palatinate at Dort, and their
+    judgments, told by a Remonstrant. Placed on the Reformed Cities'' part in the Synod only,
+    mirroring the Scott row; the Reformed Cities'' build decides its weight. Second witness.
+
+    '
+  source_file: brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt
 - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-second-helvetic-confession-1566
   work: The Second Helvetic Confession (1566)
   author: bullinger
@@ -346,6 +387,15 @@ works:
     condemned it as Calvinist. Placed as the view from an Orthodox patriarch's confession
     that overlaps Reformed teaching, never as the Reformed cities' own voice.
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--confession-of-cyril-lucaris-greek-with-latin-kimmel-1843-2
+  work: Confession of Cyril Lucaris, Greek with Latin (Kimmel 1843)
+  author: lucaris
+  locus: same as the Ottoman row
+  role: context
+  confidence: provisional
+  note: 'Mirrors the provisional Reformed-cities row on the 1850 printing: the Confession''s
+    Calvinist reading is contested.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--lettres-anecdotes-de-cyrille-lucar-et-sa-confession-de-foi-2
   work: Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques
     (Amsterdam, 1718)
@@ -463,6 +513,21 @@ works:
 
     '
   source_file: zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt
+- row_id: zurich-letters_first-series-1558-1579_robinson1842--the-zurich-letters-first-series-the-zurich-side-bullinger-peter-martyr
+  work: 'The Zurich Letters, first series: the Zurich side (Bullinger, Peter Martyr, Gualter)
+    in the Appendix and in the Latin originals'
+  author: zurich-letters
+  locus: APPENDIX from about file line 17282 (seven letters, 1562-1572); the corresponding
+    Latin in the EPISTOLAE TIGURINAE from about 20811
+  role: context
+  confidence: provisional
+  note: 'Bullinger and his colleagues advising the English church on vestments and the magistrate''s
+    power: the Zurich reformers'' own voice applied abroad. Context for the Reformed Cities
+    world, which already holds Bullinger; provisional, placed on subject without that world''s
+    own thread.
+
+    '
+  source_file: zurich-letters_first-series-1558-1579_robinson1842.txt
 - row_id: zwingli_selected-works_jackson1901--selected-works-letter-to-erasmus-the-petition-to-the-bishop
   work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical
     marriage; the Acts of the First and Second Zurich Disputations; the 1527 Refutation of

@@ -22,6 +22,20 @@ works:
   confidence: provisional
   note: Placed on the handbook's subject matter without a full read.
   source_file: bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927.txt
+- row_id: perrin_histoire-des-vaudois-parties-2-3-fra_1618--histoire-des-chrestiens-albigeois-part-ii-of-perrin-s
+  work: Histoire des Chrestiens Albigeois (Part II of Perrin's Histoire des Vaudois, 1618)
+  author: perrin
+  locus: from the Part II title page at file line 1 to the start of Part III at line 7317;
+    running heads 'Albigeois. Liure I.' and following
+  role: context
+  confidence: provisional
+  note: 'Perrin''s history of the Albigenses, which treats them as Waldenses, a claim the
+    sources do not bear out (first-pass dossier). The French original of the Part II that
+    the vendored 1847 English carries; placed as a seventeenth-century Protestant reading
+    of the crusade, mirroring the 1847 row. Second witness.
+
+    '
+  source_file: perrin_histoire-des-vaudois-parties-2-3-fra_1618.txt
 - row_id: perrin_history-ancient-christians-valleys-alps_1847--perrin-history-of-the-old-waldenses-and-albigenses-english-4
   work: History of the Old Albigenses (Perrin, English), Part II Books I-III
   author: perrin

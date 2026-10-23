@@ -1,0 +1,33 @@
+source_file: kirk-of-scotland_psalms-of-david-in-metre-1650_1833.txt
+
+assignments:
+  - row_id: kirk-of-scotland_psalms-of-david-in-metre-1650_1833--the-psalms-of-david-in-metre-the-scottish-psalter-of-1650-complete-150
+    work: "The Psalms of David in Metre: the Scottish Psalter of 1650, complete (150 psalms, with the second versions)"
+    author: kirk-of-scotland
+    locus: "PSALM 1 at file line 119 to PSALM 150 at 15337; index of first lines from 15366"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The words the whole Kirk sang from 1650 and still sings: the census's named
+      devotional voice, the one text every Scottish parishioner knew by heart. The
+      1650 revision of Rous's version was made by the Assembly's committee; this
+      is the Kirk's text in an 1833 printing. Primary voice, clean OCR, ready to
+      quote once verified against this file. For the window's earlier decades
+      (1564-1650) the Kirk sang the Book of Common Order's psalter, which is not
+      vendored.
+  - row_id: kirk-of-scotland_psalms-of-david-in-metre-1650_1833--the-psalms-of-david-in-metre-the-scottish-psalter-of-1650-revised-from
+    work: "The Psalms of David in Metre: the Scottish Psalter of 1650, revised from Francis Rous's version approved by the Westminster Assembly (1646)"
+    author: kirk-of-scotland
+    locus: "PSALM 1 at file line 119 to PSALM 150 at 15337"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      The 1650 text descends from the psalter the Westminster Assembly approved in
+      1646 and the English Parliament authorised; the Scottish revision replaced
+      much of Rous's wording. Context for the Puritan world as the Westminster
+      psalmody in its surviving form; provisional, placed on that descent without
+      the Puritan thread's own reading.

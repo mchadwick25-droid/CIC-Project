@@ -86,6 +86,22 @@ works:
   confidence: provisional
   note: As the Vol. XII row.
   source_file: blair-robertson_philippine-islands-v13_1904.txt
+- row_id: cocks_diary-v1_thompson1883--diary-1615-1617
+  work: Diary of Richard Cocks, cape-merchant of the English factory at Hirado, 1 June 1615
+    to 31 December 1617 (Hakluyt Society, 1883, vol. I)
+  author: cocks
+  locus: Thompson's preface from line 99 and introduction following; the diary from "DIARY
+    OF RICHARD COCKS" at line 1361 and "_June 1._" at 1368 to "_December 31._" at 13653; the
+    Jesuits, padres and Japanese Christians named at about 62 lines (for example 609-637,
+    1410-1484, 4191, 6537-6847, 13787-13854, the last on the martyrs)
+  role: context
+  confidence: assigned
+  note: 'An English Protestant trader''s day-book at Hirado during the first years of the
+    Tokugawa persecution, reporting the expulsions, the padres in hiding and the executions
+    as news and gossip: an outside witness for the Japan strand, beside Rundall''s Adams letters
+    (vendored) and against the Jesuit side in Pages. Not a Catholic or convert voice. Proofread
+    Gutenberg text, clean. Volume II (1618-1622) is not vendored.'
+  source_file: cocks_diary-v1_thompson1883.txt
 - row_id: colin_labor-evangelica-t1-spa_pastells1900--colin-labor-evangelica-tomo-1-3
   work: Labor evangelica (Madrid 1663), Parte primera, drawn from Chirino's manuscripts, Pastells's
     edition of 1900, Tomo I

@@ -3,6 +3,34 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-union-of-brest-and-ruthenian-greek-catholic-
 works:
+- row_id: akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865--akty-iuzhnoi-i-zapadnoi-rossii-vol-2-the-vilnius-orthodox
+  work: 'Akty Iuzhnoi i Zapadnoi Rossii vol. 2: the Vilnius Orthodox and Uniate brotherhoods
+    in court, 1605-1610'
+  author: akty-iuzhnoi-i-zapadnoi-rossii
+  locus: documents 15 to 40 in the contents (file lines 328-1072), the suits of 1605-1610
+    between the Orthodox and Uniate brotherhoods of Vilnius and the Uniate metropolitan
+  role: context
+  confidence: provisional
+  note: The union fought out in the Vilnius courts in the decade after Brest, both sides named.
+    Placed from the contents list; the Brest thread decides whether litigation records are
+    context or voice.
+  source_file: akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt
+- row_id: akty-zapadnoi-rossii_t4-1588-1652-rus_1851--akty-zapadnoi-rossii-vol-4-the-union-documents-of-1594-1597
+  work: 'Akty Zapadnoi Rossii vol. 4: the union documents of 1594-1597 and the two Brest synods
+    of October 1596, in Ruthenian and Polish'
+  author: akty-zapadnoi-rossii
+  locus: documents 47 to 90 from file line 6587 (the synodal letters and articles of 1594-1595,
+    the royal grants, the protests of Ostrozky and the brotherhoods) and documents 105 to
+    117 from file line 14101 (the synod acts of 8-10 October 1596, the pastoral letters of
+    both sides, the royal decrees); the table of contents at file line 53993
+  role: tradition
+  confidence: assigned
+  note: 'The union''s own documents in the languages they were written in, which the vendored
+    Theiner volume gives only in contemporary Latin versions: the bishops'' synodal letters,
+    the articles of 1595, the Brest synod decree and the counter-synod''s protest, the royal
+    confirmations and the first persecutions. The first-pass dossier left these as an open
+    lead; this volume closes it. Clean OCR with doubled spaces; quote after a page-image check.'
+  source_file: akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt
 - row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--diarush-diary-of-afanasii-filippovich-hegumen-of-brest-1646
   work: Diarush (diary) of Afanasii Filippovich, hegumen of Brest, 1646
   author: filippovich-afanasii
@@ -102,6 +130,29 @@ works:
     The inside voice of the other side of the settlement, and the text the Palinodiia answers.
     Readable OCR with scattered errors; second witness for quotation.
   source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+- row_id: likowski_unia-brzeska-pol_1907--edward-likowski-unia-brzeska-r-1596-second-edition-1907
+  work: Edward Likowski, Unia brzeska (r. 1596), second edition, 1907
+  author: likowski
+  locus: the whole file; table of contents at file line 882, introduction at file line 1014,
+    six books with chapters headed ROZDZIAŁ
+  role: context
+  confidence: assigned
+  note: A Poznan bishop's narrative of the union from the fifteenth-century antecedents to
+    the 1620s, from the union's side, quoting documents in the notes. Scholarship, not a primary
+    voice; vendored as the second narrative the first-pass dossier said a build would want
+    beside Pelesz and Guépin. Clean Polish OCR.
+  source_file: likowski_unia-brzeska-pol_1907.txt
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893--lithos-albo-kamien-kyiv-caves-press-1644-the-answer-to-2
+  work: Lithos albo kamien (Kyiv Caves press, 1644), the answer to Sakovych's Perspektiwa,
+    with Sakovych's marginal notes
+  author: lithos-1644
+  locus: same as the Kyiv tradition row
+  role: context
+  confidence: provisional
+  note: An Orthodox answer to a former Orthodox rector who had passed through the union to
+    Rome; Sakovych's own marginal notes are printed with it. Placed on the preface's account;
+    second witness.
+  source_file: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-3
   work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
   author: mogila
@@ -111,6 +162,15 @@ works:
   confidence: provisional
   note: Same placement and reasoning as the English version of the same confession.
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-3
+  work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin (Kimmel 1843)
+  author: mogila
+  locus: same as the Ottoman row
+  role: context
+  confidence: provisional
+  note: 'Mirrors the provisional Brest row on the 1850 printing: the Confession answers the
+    union''s situation but is not about it.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: mogila_orthodox-confession_overbeck1898--the-orthodox-confession-of-the-catholic-and-apostolic-3
   work: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa),
     English version
@@ -173,6 +233,22 @@ works:
     on it. Cyrillic OCR with many errors; second witness for exact wording until checked on
     the page images. No public-domain English found.
   source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+- row_id: skarga_synod-brzeski-i-obrona-pol_rzepecki1874--piotr-skarga-synod-brzeski-the-synod-of-brest-with-the-royal
+  work: Piotr Skarga, Synod Brzeski (the Synod of Brest, with the royal envoys' address) and
+    Obrona Synodu Brzeskiego (the Defence of the Synod of Brest), 1596-1597, in the 1874 Poznan
+    reprint
+  author: skarga
+  locus: Synod Brzeski from file line 314 (the envoys' Namowa at file line 480); Obrona Synodu
+    Brzeskiego from file line 1311; Rzepecki's preface before file line 313 and his note on
+    Skarga's works at the end
+  role: tradition
+  confidence: assigned
+  note: 'The union''s Jesuit advocate on the synod itself and against the Orthodox counter-synod,
+    in clean Polish: the same two texts the vendored Russkaia istoricheskaia biblioteka vol.
+    7 prints in a badly garbled OCR. This is the witness to quote from, after a page-image
+    check; the 1874 editor''s preface is nineteenth-century Catholic advocacy and not Skarga''s
+    voice.'
+  source_file: skarga_synod-brzeski-i-obrona-pol_rzepecki1874.txt
 - row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--skarga-the-synod-of-brest-and-its-defence-1596
   work: Piotr Skarga, The Synod of Brest and its defence (1596; text of the 1733 edition)
   author: skarga
@@ -222,6 +298,18 @@ works:
     emendatior et auctior'. It cites witnesses in the Polotsk process. Union-side hagiography
     and advocacy; the editor's additions are not separated in this file. Latin only.
   source_file: susza_cursus-vitae-josaphat-kuncevicii-lat_martynov1865.txt
+- row_id: susza_saulus-et-paulus-lat_rome1666--saulus-et-paulus-ruthenae-unionis-the-life-of-meletij
+  work: Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj), the 1666 Rome
+    printing
+  author: susza
+  locus: the whole file; title page at file line 11-50, the dedication and the life following
+  role: tradition
+  confidence: assigned
+  note: The original printing of the life the corpus already holds in Martinov's 1864 re-edition
+    (susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt), which calls itself emended
+    and enlarged; a build can now separate Susza's own words from the editor's. Long s read
+    as f throughout; second witness for exact wording until checked on the page images.
+  source_file: susza_saulus-et-paulus-lat_rome1666.txt
 - row_id: susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864--saulus-et-paulus-the-life-of-meletij-smotrycki
   work: Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj, Orthodox archbishop
     turned Uniate)
@@ -289,6 +377,20 @@ works:
   note: The Orthodox position on the eve of the union, answering the Latin arguments; placed
     as context for how the union was argued against. Date 1588 precedes the entry's window.
   source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--the-vilnius-pamphlets-of-1621-1632-verificatia-niewinnosci-2
+  work: The Vilnius pamphlets of 1621-1632 (Verificatia niewinnosci and its Obrona, the Uniate
+    Sowita wina, Iustificatia niewinnosci, the Synopsis of 1632 and its Supplementum), with
+    the Key of the Kingdom of Heaven (1587), Potii's 1605 publication of Misail's letter,
+    and the 1616 reply to the Vilnius Uniates
+  author: vilnius-orthodox-brotherhood
+  locus: same as the Kyiv row
+  role: tradition
+  confidence: provisional
+  note: Both sides of the 1621-1622 pamphlet war over the restored Orthodox hierarchy, and
+    Potii's 1605 publication of the 1476 Misail letter as a union precedent (section V). The
+    Uniate item (Sowita wina) is the union's own voice; the rest is the Orthodox answer. Second
+    witness, Polish garbled.
+  source_file: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt
 - row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--questions-and-answers-of-an-orthodox-to-a-papist-1603-2
   work: Questions and answers of an Orthodox to a papist (manuscript, 1603)
   author: voprosy-i-otvety-1603
@@ -297,3 +399,15 @@ works:
   confidence: provisional
   note: The lay Orthodox side of the argument in the first decade after Brest.
   source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--ivan-vyshensky-unpublished-writings-and-epistles-the-2
+  work: Ivan Vyshensky, unpublished writings and epistles (the Exposure of the devil, the
+    epistle to the Lviv brotherhood, to the nun Domnikiia, to Iov Kniahynytsky, the Mental
+    Spectacle of 1614-1616)
+  author: vyshensky
+  locus: section III from file line 1244 to file line 2461
+  role: context
+  confidence: assigned
+  note: An Orthodox monk's voice against the union in its first generation, including the
+    epistle to the Lviv brotherhood; the other side of the Brest argument in a personal register.
+    Readable OCR.
+  source_file: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt

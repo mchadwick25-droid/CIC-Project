@@ -232,12 +232,17 @@ works:
       recension: all three parts
       items:
       - cic:perrin_history-ancient-christians-valleys-alps_1847.txt:parts-i-ii-and-doctrine
-    notes: 'The French scan holds Part I only; the English holds all three parts. The 1847 volume also carries
-      Boyer''s History of the Vaudois as its Part III, which is a different work and is not part of this
-      entry.
+    - translator: none (original)
+      year: 1618
+      language: French (Part III with the old Vaudois texts in parallel columns)
+      recension: Geneva 1618 printing, Parts II and III in the vendored scan
+      items:
+      - cic:perrin_histoire-des-vaudois-parties-2-3-fra_1618.txt:parts-ii-and-iii
+    notes: 'The 1619 French scan holds Part I and the 1618 scan Parts II and III; the English holds all three
+      parts. The 1847 volume also carries Boyer''s History of the Vaudois as its Part III, which is a
+      different work and is not part of this entry.
 
       '
-
   - work_id: schleitheim-confession
     title: The Schleitheim Confession (Brüderliche Vereinigung etlicher Kinder Gottes, sieben Artikel betreffend)
     author: swiss-brethren
@@ -754,6 +759,319 @@ works:
       items:
       - cic:niemeyer_collectio-confessionum-lat_niemeyer1840.txt:Sententia de divina praedestinatione (line
         44015) to the Synod's closing Sententia (line 45673)
+
+  - work_id: teresa-libro-de-la-vida
+    title: The Life of St. Teresa of Jesus, written by herself (Libro de la Vida)
+    author: teresa-of-avila
+    original_language: Spanish
+    composed: 1562-1565
+    external_ids:
+      wikidata: null
+      viaf: null
+    expressions:
+    - translator: David Lewis, 3rd ed. rev. Benedict Zimmerman
+      year: 1904
+      language: English
+      items:
+      - cic:teresa-of-avila_life_lewis1904.txt:whole-file
+    - translator: none (Spanish original, ed. Silverio de Santa Teresa)
+      year: 1915
+      language: Spanish
+      items:
+      - cic:teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt:whole-file
+  - work_id: john-of-the-cross-minor-works-letters-maxims-poems
+    title: John of the Cross, the Cautelas, Avisos (Spiritual Maxims), Letters and Poems
+    author: john-of-the-cross
+    original_language: Spanish
+    composed: c. 1578-1591
+    external_ids:
+      wikidata: null
+      viaf: null
+    expressions:
+    - translator: David Lewis, 2nd ed. (the Instructions and Precautions, letters, Spiritual Maxims, and
+        the poems as printed before each commentary)
+      year: 1891
+      language: English
+      items:
+      - cic:john-of-the-cross_dark-night-canticle-living-flame_lewis1891.txt:whole-file
+    - translator: none (Spanish original, ed. Gerardo de San Juan de la Cruz; the poems marked authentic
+        and attributed by the editor)
+      year: 1914
+      language: Spanish
+      items:
+      - cic:john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt:whole-file
+
+  - work_id: jewel-apologia-ecclesiae-anglicanae
+    title: Apologia Ecclesiae Anglicanae (The Apology of the Church of England)
+    author: jewel
+    original_language: Latin
+    composed: 1562 (London; the English translation by Lady Anne Bacon 1564)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Latin original; 1838 Cambridge edition, no editor named)
+      year: 1838
+      language: Latin
+      recension: the 1838 Cambridge printing with the Epistola ad Scipionem de Concilio Tridentino appended
+        (Google OCR, second witness for exact wording)
+      items:
+      - cic:jewel_apologia-ecclesiae-anglicanae-lat_1838.txt:Apologia (from about line 237) to the Epistola
+        (about line 5562)
+    - translator: Lady Anne Bacon (1564), ed. Henry Morley
+      year: 1888
+      language: English
+      recension: the 1564 English as printed in Cassell's National Library, Project Gutenberg transcription
+      items:
+      - cic:jewel_apology-of-the-church-of-england_bacon-morley1888.txt:PART I (line 149) to the Recapitulation
+        (line 3556)
+  - work_id: second-book-of-discipline
+    title: The Second Book of Discipline, or Heads and Conclusions of the Policy of the Kirk
+    author: kirk-of-scotland
+    original_language: Scots
+    composed: 1578 (approved by the General Assembly); registered 1581
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Alexander Peterkin, editor)
+      year: 1839
+      language: Scots
+      recension: Peterkin's Booke of the Universall Kirk text; the opening pages (table of heads, chapters
+        I-II) garbled in the OCR
+      items:
+      - cic:kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt:HEADIS AND CONCLUSIONIS,
+        chapters I-XIII, from about line 28196
+    - translator: none (Thomas Thomson, editor, from Calderwood's manuscript)
+      year: 1843
+      language: Scots
+      recension: Calderwood's transcript as registered at the Assembly of 1581, clean OCR from chapter I
+      items:
+      - cic:calderwood_history-of-the-kirk-v3-1570-1583_thomson1843.txt:THE SECOND BUIK OF DISCIPLINE, CHAP.
+        I to CHAP. XIII, from line 24671
+  - work_id: westminster-directory-for-public-worship
+    title: A Directory for the Publick Worship of God (the Westminster Directory)
+    author: westminster-assembly
+    original_language: English
+    composed: 1644-1645 (approved by the Westminster Assembly and Parliament 1645; adopted by the General
+      Assembly of the Kirk, February 1645)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (G. W. Sprott and Thomas Leishman, editors)
+      year: 1868
+      language: English
+      recension: Leishman's edition with the Scottish Act of Assembly adopting it, modernised spelling,
+        with his notes
+      items:
+      - cic:kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt:DIRECTORY
+        FOR THE PUBLIC WORSHIP OF GOD, from line 408
+    - translator: none (the Free Church of Scotland's standards printing, Nelson)
+      year: 1877
+      language: English
+      recension: the Directory as printed with the Confession, Catechisms and the other standards
+      items:
+      - cic:westminster-assembly_confession-catechisms-standards_nelson1877.txt:the Directory for the Publick
+        Worship of God, within the Scottish standards section (see the staging rows for that file)
+  - work_id: national-covenant-1638
+    title: The National Covenant (the Confession of Faith of the Kirk of Scotland of 1581, with the 1638
+      bond)
+    author: kirk-of-scotland
+    original_language: Scots
+    composed: 1581 (the King's Confession); 1638 (the bond, Greyfriars, Edinburgh, 28 February)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Alexander Peterkin, editor, from the 1639 authentic edition)
+      year: 1838
+      language: Scots
+      recension: printed in full inside Peterkin's Introduction to the Records of the Kirk
+      items:
+      - cic:kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838.txt:CONFESSION OF FAITH OF THE KIRK
+        OF SCOTLAND, from about line 975
+    - translator: none (Nelson standards printing)
+      year: 1877
+      language: English (modernised)
+      recension: the Covenant as printed among the Scottish standards with the Confession and Catechisms
+      items:
+      - cic:westminster-assembly_confession-catechisms-standards_nelson1877.txt:the National Covenant within
+        the Scottish standards section
+
+  - work_id: french-national-synods-acts
+    title: The acts of the national synods of the Reformed Churches of France, with the Discipline (Paris
+      1559 to Loudun 1659)
+    author: french-reformed-synods
+    original_language: French
+    composed: 1559-1659 (the synods themselves)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: John Quick
+      year: 1692
+      language: English
+      recension: Synodicon in Gallia Reformata, made from the manuscript acts, with the Confession, the
+        Discipline and Quick's history
+      items:
+      - cic:quick_synodicon-in-gallia-reformata_1692.txt:whole-file
+    - translator: none (original); Jean Aymon (editor)
+      year: 1710
+      language: French
+      recension: 'Tous les synodes nationaux, tome 1: the Discipline and the synods Paris 1559 to Privas
+        1612 (tome 2, Tonneins 1614 to Loudun 1659, not vendored); printed from the churches'' manuscript
+        record'
+      items:
+      - cic:french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt:synods-from-line-28459
+    notes: Two independent printings of one manuscript record, one in English (1692) and one in French (1710);
+      Aymon's tome 1 does not print the Confession, which has its own entry (gallican-confession-1559).
+      Both files are second witnesses for exact wording because of their OCR.
+  - work_id: marnix-bijenkorf
+    title: De Bijenkorf der H. Roomsche Kerke (The Beehive of the Romish Church)
+    author: marnix
+    original_language: Dutch
+    composed: '1569'
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (original)
+      year: 1858
+      language: Dutch
+      recension: the 1858 edition of the 1569 text
+      items:
+      - cic:marnix_bijenkorf-der-h-roomsche-kerke-nld_1858.txt:whole-file
+    - translator: George Gilpin the Elder
+      year: 1623
+      language: English
+      recension: Gilpin's translation of 1579, the 1623 London printing
+      items:
+      - cic:marnix_beehive-of-the-romish-church_gilpin1623.txt:whole-file
+    notes: The Dutch 1858 text is clean and is the primary wording; the English is black-letter microfilm
+      OCR, a second witness.
+  - work_id: gilles-histoire-ecclesiastique-vaudoises
+    title: Histoire ecclesiastique des Eglises Reformees recueillies en quelques Valees de Piedmont, autrefois
+      appelees Eglises Vaudoises (1160-1643)
+    author: gilles
+    original_language: French
+    composed: 1644 (Geneva)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (original)
+      year: 1644
+      language: French
+      recension: 'the first printing, Geneva: Jean de Tournes (OCR second witness, chapter headings lost)'
+      items:
+      - cic:gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt:whole-file
+    - translator: none (original); Pignerol re-edition
+      year: 1881
+      language: French
+      recension: the 1881 re-edition in two tomes, chapters I-XXXVIII and XXXIX-LXII (clean OCR)
+      items:
+      - cic:gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt:whole-file
+      - cic:gilles_histoire-ecclesiastique-eglises-vaudoises-v2-fra_1881.txt:whole-file
+    notes: 'Same work, same language, two printings 237 years apart: the 1881 text is the quotable one and
+      the 1644 the wording check. No English translation exists.'
+
+  - work_id: maxim-the-greek-moral-writings
+    title: 'Maxim the Greek, moral writings (Nravouchitel''nye sochineniia): the discourse of mind to soul,
+      the dialogue of soul and mind, the dispute of Philoktimon and Aktimon, and the related discourses
+      and letters'
+    author: maxim-the-greek
+    original_language: Church Slavonic (Russian recension)
+    composed: 1520s-1550s, Moscow and the Volokolamsk and Tver confinements
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none; the Kazan Theological Academy's edition of the Slavonic text
+      year: 1860
+      language: Church Slavonic
+      recension: Kazan Academy edition, part 2
+      items:
+      - cic:maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860.txt:whole-file
+    - translator: not named on the title page (preface by the novice Moisei), Holy Trinity St Sergius Lavra
+      year: 1910
+      language: Russian
+      recension: 1910 Lavra translation, part 1, made from the Kazan edition
+      items:
+      - cic:maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910.txt:whole-file
+    notes: 'One work (the moral writings as the Kazan and Lavra editions group them), two expressions: the
+      Slavonic original and a 1910 Russian translation. The Kazan OCR is readable at four of five points;
+      the translation is clean. Item addresses are file-level placeholders. The grouping is the editions''
+      own, not a manuscript recension; a build quoting one piece should cite that piece by its heading.'
+  - work_id: susza-saulus-et-paulus
+    title: Saulus et Paulus Ruthenae unionis sanguine Beati Iosaphat transformatus (the life of Meletij
+      Smotryc'kyj)
+    author: susza
+    original_language: Latin
+    composed: 1666 (Rome)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none; the first printing
+      year: 1666
+      language: Latin
+      recension: Rome 1666 (Typographia Varesii)
+      items:
+      - cic:susza_saulus-et-paulus-lat_rome1666.txt:whole-file
+    - translator: none; re-edited by Joannes Martinov S.J., 'emendatior et auctior'
+      year: 1864
+      language: Latin
+      recension: Martinov 1864, with unmarked editorial additions
+      items:
+      - cic:susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt:whole-file
+    notes: Same work, two editions two centuries apart; the 1864 title says it is emended and enlarged and
+      the additions are not marked, so a quote should rest on the 1666 printing where Susza's own wording
+      matters. Both OCRs need a page-image check (the 1666 reads long s as f).
+  - work_id: skarga-synod-brzeski-and-obrona
+    title: Synod Brzeski and Obrona Synodu Brzeskiego (the Synod of Brest and its Defence)
+    author: skarga
+    original_language: Polish
+    composed: 1596-1597
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none; Poznan reprint with a preface by L. Rzepecki
+      year: 1874
+      language: Polish
+      recension: 1874 Poznan reprint
+      items:
+      - cic:skarga_synod-brzeski-i-obrona-pol_rzepecki1874.txt:synod-brzeski-and-obrona
+    - translator: none; the Archaeographic Commission's reprint from a 1733 edition
+      year: 1882
+      language: Polish (in a Cyrillic-script series volume)
+      recension: Russkaia istoricheskaia biblioteka vol. 7, item VIII
+      items:
+      - cic:russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt:item-viii-skarga-synod-of-brest
+    notes: Same two texts in two nineteenth-century reprints. The RIB vol. 7 OCR garbles the Polish badly;
+      the 1874 reprint reads cleanly and is the witness to quote from, after a page-image check. Item addresses
+      are placeholders; the RIB locus is from that file's staging row (about file lines 54455-57830).
 
   - work_id: bernardino-siena-prediche-volgari-1427
     title: "The vernacular sermons of Bernardino of Siena preached in the Piazza del Campo, 1427"

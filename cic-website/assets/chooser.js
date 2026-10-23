@@ -190,7 +190,7 @@ function init(mount, census) {
       el("div", { class: "band" }, [el("span", { text: bandText }), el("span", { text: e.dates })]),
       el("div", { class: "head" }, [el("p", { class: "tname", text: w.world }), el("p", { class: "tdates", text: w.dates + " · " + w.place })]),
       el("div", { class: "pic" }, [img, talk, seat]),
-      el("div", { class: "plate" }, [el("p", { class: "rep", text: w.rep }), w.tag ? el("p", { class: "tag", text: w.tag }) : null, w.shapedList.length ? el("p", { class: "shapedby", text: "Shaped by " + joinNames(w.shapedList) + " among others." }) : null]),
+      el("div", { class: "plate" }, [el("p", { class: "rep", text: w.rep }), w.tag ? el("p", { class: "tag", text: w.tag }) : null, w.shapedList.length ? el("p", { class: "shapedby", text: "Shaped by " + joinNames(w.shapedList) + " among others." }) : null, el("span", { class: "flipcue", "aria-hidden": "true", text: "Flip" })]),
       front
     ]);
 

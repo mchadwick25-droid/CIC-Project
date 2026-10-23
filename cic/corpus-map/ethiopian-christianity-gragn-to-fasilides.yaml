@@ -3,6 +3,25 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: ethiopian-christianity-gragn-to-fasilides
 works:
+- row_id: almeida_historia-aethiopiae-liber-5-8-por_beccari1907--historia-aethiopiae-books-v-to-viii
+  work: Historia Aethiopiae, Books V to VIII (Almeida), Portuguese text edited by Beccari
+    (Rerum Aethiopicarum Scriptores Occidentales Inediti, vol. VI, 1907)
+  author: almeida
+  locus: Livro V from file line 710 ('LIVRO V, CAPITULO I'); Livro VII running heads from
+    about 11287; Livro VIII from about 22961; the index of chapters for Books V-VIII from
+    29579
+  role: context
+  confidence: assigned
+  note: 'The Jesuit mission''s own history of its last decades: the reign of Susenyos, the
+    Catholic years, the revolt and the expulsion under Fasilides, by a Jesuit who was in Ethiopia
+    from 1624. A Jesuit outside witness who took part in the mission, and the source Borgia''s
+    editors cite for the 1555 correspondence (Borgia tomus 5, file line about 1587). Portuguese,
+    with Beccari''s Latin notes; OCR readable at five points with scattered errors and some
+    Latin margin text run into the Portuguese. No public-domain English exists; Tellez 1710
+    (vendored) abridges the same history in English.
+
+    '
+  source_file: almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt
 - row_id: alvares_narrative-of-the-portuguese-embassy-to-abyssinia_stanley1881--narrative-of-the-portuguese-embassy-to-abyssinia-1520-1527
   work: Narrative of the Portuguese Embassy to Abyssinia, 1520-1527
   author: alvares
@@ -137,6 +156,24 @@ works:
     from Lobo's Portuguese, and the file says Le Grand's book was reduced to a fifth, so this
     is a second-hand English rendering. Clean Gutenberg text.
   source_file: lobo_voyage-to-abyssinia_johnson1735.txt
+- row_id: ludolf_new-history-of-ethiopia_jp1682--new-history-of-ethiopia-in-four-books
+  work: A New History of Ethiopia, in four books (Ludolf, the English of J. P., 1682)
+  author: ludolf
+  locus: 'the contents list at file lines about 391-520; Book II (the kings: David, Claudius,
+    Menas, the Jesuits) from the contents entry at 445; ''BOOK III'' (the church: conversion,
+    scriptures, sacraments, the contentions with the Jesuits) at 14092'
+  role: context
+  confidence: assigned
+  note: 'The first English of Ludolf''s Latin History (1681): the Ethiopian church''s history,
+    rites and quarrel with the Jesuits as a Lutheran scholar in Germany reconstructed it from
+    the Ethiopian monk Gregorius and the Jesuit printed histories, a generation after the
+    mission ended. An outside and reception witness, in English, for what the Latin Commentarius
+    (vendored) argues at length; it does not print the Confession of Claudius. Microfilm OCR,
+    long s normalised; second witness for exact wording. The 1684 second edition scan reads
+    long s as f and was not vendored.
+
+    '
+  source_file: ludolf_new-history-of-ethiopia_jp1682.txt
 - row_id: ludolf_commentarius-ad-historiam-aethiopicam-lat_1691--commentarius-ad-suam-historiam-aethiopic
   work: Commentarius ad suam Historiam Aethiopicam (Ludolf, 1691), whole work
   author: ludolf

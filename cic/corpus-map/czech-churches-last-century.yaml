@@ -3,6 +3,17 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: czech-churches-last-century
 works:
+- row_id: bohemian-estates_apologie-druha-1618-ces_subert1862--apologie-druh-stav-v-kr-lovstv-esk-ho-1618-ubert-s-edition-of-1862
+  work: Apologie druhá stavův království Českého (1618), Šubert's edition of 1862
+  author: bohemian-estates
+  locus: the editor's preface dated 4 May 1862 at file line 214; Seznam příloh at file line
+    221
+  role: tradition
+  confidence: assigned
+  note: 'The Bohemian Protestant estates'' Second Apology of 1618 in Czech, with its documents:
+    the estates sub utraque speaking for themselves at the revolt. Readable but noisy OCR;
+    quotable once checked against the page image. Role tradition.'
+  source_file: bohemian-estates_apologie-druha-1618-ces_subert1862.txt
 - row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina-2
   work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
   author: comenius
@@ -147,3 +158,14 @@ works:
     to Comenius with Adam Hartmann; the title page names no author, so the author slug is
     the Unity. Placed on headings and a year-index read; not read in full.
   source_file: unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890.txt
+- row_id: utraquist-consistory_jednani-a-dopisy-konsistore-pod-oboji-1562-1570-ces_pazout1906--jedn-n-a-dopisy-konsisto-e-pod-oboj-1562-1570-pa-out-1906
+  work: Jednání a dopisy konsistoře pod obojí, 1562-1570 (Pažout, 1906)
+  author: utraquist-consistory
+  locus: title page at file line 88; Předmluva at file line 146; a consistory act of 1 September
+    1564 (no. 176) at file line 5912
+  role: tradition
+  confidence: assigned
+  note: 'The Utraquist consistory''s own acts and letters, 1562-1570, in clean Czech: the
+    first Utraquist institutional voice in the corpus, filling the thinness the dossier named.
+    Primary evidence, quotable once checked against the page image. Role tradition.'
+  source_file: utraquist-consistory_jednani-a-dopisy-konsistore-pod-oboji-1562-1570-ces_pazout1906.txt

@@ -89,6 +89,19 @@ works:
     the scan. The dynasty's own charter myth, in the form the census names. Its date is argued;
     Budge's introduction is commentary, not the text.
   source_file: kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt
+- row_id: ludolf_new-history-of-ethiopia_jp1682--new-history-of-ethiopia-in-four-books-3
+  work: A New History of Ethiopia (Ludolf, 1682), Book III on the conversion, scriptures and
+    rites of the Ethiopian church
+  author: ludolf
+  locus: '''BOOK III'' from file line 14092'
+  role: context
+  confidence: provisional
+  note: 'Ludolf''s survey of the church''s conversion, scriptures, monastic orders and rites
+    reaches back before 1517; a seventeenth-century European synthesis, not a source from
+    that window. Placed on the book''s subject only.
+
+    '
+  source_file: ludolf_new-history-of-ethiopia_jp1682.txt
 - row_id: ludolf_commentarius-ad-historiam-aethiopicam-lat_1691--commentarius-ad-historiam-aethiopicam-ludolf-sabbath-amda
   work: 'Commentarius ad Historiam Aethiopicam (Ludolf): Sabbath, Amda Syon and Takla Haymanot'
   author: ludolf

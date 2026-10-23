@@ -1,0 +1,33 @@
+source_file: french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt
+
+assignments:
+  - row_id: french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710--tous-les-synodes-nationaux-des-eglises-reformees-de-france
+    work: "Tous les synodes nationaux des Eglises reformees de France, Tome premier: the Discipline of 1559 and the acts of the national synods, Paris 1559 to Privas 1612, in French (Aymon, 1710)"
+    author: french-reformed-synods
+    locus: "the synods from 'Synode national tenu a Paris le 25 mai 1559' at file line 28459 to Privas 1612 near the end; Poitiers at 29129, Orleans at 29666, Lyon at 30149, Paris at 31605, Vertueil at 32311, La Rochelle at 33692, Nimes at 34488, Sainte-Foy at 35253, Figeac at 35910, La Rochelle at 36365, Vitre at 36867, Montauban at 37867, Saumur at 39061, Montpellier at 40154, Gergeau at 41358, Gap at 42626, La Rochelle at 46403, Saint-Maixent at 49540, Privas at 51973; the TABLE of all the synods at 25643"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      The French of the national synod acts and the Discipline (the Confession is referred to, not printed), printed by Aymon
+      at The Hague in 1710 from the churches' manuscript record: the original-language witness
+      beside Quick's Synodicon (1692, vendored), which the first pass named as the thin spot in
+      this world's sourcing. Primary in the churches' own language under the September 2026
+      ruling, but a SECOND WITNESS for exact wording because the OCR reads the 1710 long s as f
+      throughout and misreads accents; locate an article here and check it against the page image
+      or Quick's English before quoting. Tome 2 (Tonneins 1614 to Loudun 1659) is a lead, not
+      vendored.
+  - row_id: french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710--the-despatches-of-the-papal-nuncio-prospero-santa-croce-from
+    work: "The despatches of the papal nuncio Prospero Santa Croce from the French court on the Reformed churches (Italian with French facing), printed by Aymon as 'lettres politiques' in Tome 1"
+    author: french-reformed-synods
+    locus: "LETTRES ... du NONCE DU PAPE PIE IV from file line 701 to the TABLE at 25643; Aymon's preface (from line 193) explains why he printed them"
+    atlas_ids:
+      - the-huguenots
+    role: context
+    confidence: provisional
+    note: >
+      The Catholic court's view of the same churches in the years of the first synods, given by
+      Aymon beside the synod acts. The slug follows the volume, not the letter-writer; a build
+      that uses these letters should cite the nuncio by name. Not read beyond the headings and the
+      sample points; the Italian is less well read by the OCR than the French.
