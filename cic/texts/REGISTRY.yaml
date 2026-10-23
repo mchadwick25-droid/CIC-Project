@@ -9127,6 +9127,8 @@
     domain by date.
 
     Renewal check, October 2026 (second-pass agent w2_catholic): the NYPL cce-renewals data for the renewal years 1974 and 1975 (raw.githubusercontent.com/NYPL/cce-renewals/master/data/1974-1.tsv and 1975-1.tsv, which carry the renewals of 1946-1948 registrations) was searched in title, author and full text for "Doctrina Christiana", "Wolf, Edwin" and "first book printed in the Philippines": no renewal found. The 1947 Library of Congress essay and notes therefore show no renewal in the years a 1947 registration would have been renewed; the 1976 file (1948-1949 registrations) was also searched with no hit. Whether this lifts the passages-only limit is the lead's ruling.
+
+    Ruled by the project lead, October 2026: the renewal check above came back clear, so the 1947 facsimile essay and notes are public domain by the renewal rule (pd-us-no-renewal) and the whole text may be republished; the READER republish line above is superseded by this ruling.
 - filename: blair-robertson_philippine-islands-v07_1903.txt
   supplied_by: 'Project Gutenberg eBook #13701, fetched by the Era VII library thread'
   date_added: '2026-10-16'
@@ -9304,17 +9306,21 @@
 - filename: schwenckfeld_heavenly-balm-divine-physician_anspach1858.txt
   supplied_by: Claude (source-research thread, Era VII session, one-world agent for schwenckfelders)
   date_added: '2026-10-16'
-  notes: 'Caspar Schwenckfeld, The Heavenly Balm and the Divine Physician, trans. F. R. Anspach (Baltimore,
-    Abraham Heydrick, 1858), as re-set by Remissio Books 2024. Internet Archive item the-heavenly-balm-and-the-divine-physician
-    (community upload; no rights field). RIGHTS: translation public domain by date (1858, attested by
-    Kriebel 1904 bibliography); the 2024 publisher states ''No rights reserved''. FLAGGED: this is OCR
-    of a 2024 re-typeset print, not a scan of 1858; wording may be modernised; second witness until an
-    1858 copy is checked. No long-s. READER: sections - Note by the Translator, Preface, Chapters numbered
-    1 onward as printed (''CHAPTER 20''), translator''s closing prayer ; credit - "Caspar Schwenckfeld,
-    The Heavenly Balm and the Divine Physician, trans. F. R. Anspach (Baltimore: Abraham Heydrick, 1858);
-    digital text from Internet Archive item the-heavenly-balm-and-the-divine-physician (community upload,
-    Remissio Books 2024 re-setting)" ; republish - whole text, public domain by date for the 1858 translation;
-    the lead should confirm the 2024 re-setting''s rights line.'
+  notes: >-
+    Caspar Schwenckfeld, The Heavenly Balm and the Divine Physician, trans. F. R. Anspach
+    (Baltimore, Abraham Heydrick, 1858), as re-set by Remissio Books 2024. Internet Archive item
+    the-heavenly-balm-and-the-divine-physician (community upload; no rights field). RIGHTS:
+    translation public domain by date (1858, attested by Kriebel 1904 bibliography); the 2024
+    publisher states 'No rights reserved'. FLAGGED: this is OCR of a 2024 re-typeset print, not
+    a scan of 1858; wording may be modernised; second witness until an 1858 copy is checked. No
+    long-s. READER: sections - Note by the Translator, Preface, Chapters numbered 1 onward as
+    printed ('CHAPTER 20'), translator's closing prayer ; credit - "Caspar Schwenckfeld, The
+    Heavenly Balm and the Divine Physician, trans. F. R. Anspach (Baltimore: Abraham Heydrick,
+    1858); digital text from Internet Archive item the-heavenly-balm-and-the-divine-physician
+    (community upload, Remissio Books 2024 re-setting)" ; republish - whole text, public domain
+    by date for the 1858 translation; the lead should confirm the 2024 re-setting's rights line.
+
+    Ruled by the project lead, October 2026: held as a second witness only, because the vendored text is OCR of a 2024 re-setting whose wording may differ from the 1858 printing; the rights basis (1858 date, publisher's no-rights-reserved note on the re-setting) stands, quotability waits for an 1858 scan.
 - filename: sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt
   supplied_by: Claude (source-research thread, Era VII session, one-world agent for schwenckfelders)
   date_added: '2026-10-16'

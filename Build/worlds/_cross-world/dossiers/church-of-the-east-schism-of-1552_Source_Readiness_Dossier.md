@@ -3,6 +3,13 @@
 See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is and
 why it exists.
 
+**Ruling, October 2026 (the project lead, on this dossier's section 6):** the
+entry is folded into the Church of the East, Timur to Hakkari
+(`church-of-the-east-timur-to-hakkari`, V.17) as that world's closing arc,
+with the Chaldean consolidation (VIII.40) as the continuation. The census
+marks it as named within another tradition's story. Its texts keep their
+mapping to this entry and to V.17, and this dossier serves V.17's Doc_02.
+
 **Atlas ID:** VI.30
 **Corpus-map slug:** `church-of-the-east-schism-of-1552`
 **Time window:** 1517-1650 (the census). The core events run 1551-1555: the election of Yohannan Sulaqa, the journey to Rome, the return and his death. The two lines then run on through the whole window.

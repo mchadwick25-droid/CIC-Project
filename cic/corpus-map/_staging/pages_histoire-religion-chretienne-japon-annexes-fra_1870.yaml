@@ -6,7 +6,7 @@ assignments:
     author: pages
     locus: "the numbered annexes headed as letters of Japanese Christians: Yafindgidono Jorge (file line 1495), Naito Findadono Cami Joao (1529), Oumemidono (1556, 1660), Jean Ingoro (3006), Melchior Bougendano (3145), the three Jifiaqua (3205, 3250), Michel Fieoyemon (4145, 4182), Jean Tingoro (4282, 4316), among others"
     atlas_ids:
-      - mission-born-christianities-kirishitan-japan-kon
+      - kirishitan-japan
     role: tradition
     confidence: assigned
     note: >
@@ -20,7 +20,7 @@ assignments:
     author: pages
     locus: "the numbered annexes from file line 214 to the Table analytique at line 25571; most in French translation, some printed in Spanish, Portuguese, Latin or Italian"
     atlas_ids:
-      - mission-born-christianities-kirishitan-japan-kon
+      - kirishitan-japan
     role: context
     confidence: assigned
     note: >

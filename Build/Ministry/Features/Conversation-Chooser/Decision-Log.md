@@ -623,3 +623,13 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Cost.** Each card is 27 pixels taller, on every screen size.
 
 **Checked.** In a headless browser at 1440, 820 and 390 pixels wide, the cue sits at the lower right on every card with no overlap, and the picture windows stay equal. Not checked: Safari on a real phone, a screen reader.
+
+## 2026-10-23 — Each card ends just below "Flip", with no empty band (Mark)
+
+**Mark's words.** Relayed by the system and pilot feedback thread, with a screenshot: "the cards when facing forward have gotten longer and there is space at the bottom."
+
+**What was found.** In the carousel every card shares one grid cell, so every card stretched to the tallest card's height. Before the picture windows were made equal, the picture window took up the spare height. Once the windows were equal, the spare height showed as an empty band under "Flip": 13 to 69 pixels at desktop and iPad width, most on the cards with the shortest text. On a phone the cards already ended 10 pixels below "Flip".
+
+**What changed.** Each card now keeps its own height: the carousel no longer stretches the cards to match, and the card's old minimum height is gone. Every card ends 12 pixels below "Flip" at desktop and iPad width, and 10 on a phone. The picture, the text and the "Flip" word are unchanged. Side by side, the cards now differ in height by up to about 40 pixels, in step with their text.
+
+**Checked.** In a headless browser at 1440, 820 and 390 pixels wide, with the card tilt switched off to measure: all eleven cards end the same distance below "Flip". Before and after pictures of the centre card and the shorter cards were shown to Mark. Not checked: Safari on a real phone.

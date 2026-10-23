@@ -761,8 +761,8 @@ works:
   locus: Pathway running heads from about file line 4232; Wicked Mammon from about 5043; Obedience
     from about 10625 to the Sacraments treatise, which ends before the Epistle to the Reader
     (about 25569)
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'The first English evangelical voice: justification by faith, the authority of the
     vernacular Scripture, obedience to the king against the pope, in Tyndale''s own English
     (modernised spelling, Walter''s edition). The census window for VI.4 opens in the 1530s
@@ -770,9 +770,9 @@ works:
     with Rome was complete; the first-pass dossier left his placement to the lead (prelude
     of this world, or a world of his own). Placed here as tradition with needs-ruling for
     that reason. Primary voice, clean OCR, ready to quote once verified against this file;
-    Walter''s footnotes are editorial.
-
-    '
+    Walter''s footnotes are editorial. Ruled by the project lead, October 2026 (Era VII placements):
+    a text from before the world''s window that the world argued from is antecedent to it;
+    a text from after the window is context here and tradition for the later entry.'
   source_file: tyndale_doctrinal-treatises_walter1848.txt
 - row_id: tyndale_doctrinal-treatises_walter1848--tyndale-s-prefaces-and-prologues-to-his-bible-translations-the-epistle
   work: 'Tyndale''s prefaces and prologues to his Bible translations: the Epistle to the Reader
@@ -782,14 +782,15 @@ works:
   locus: from the Epistle to the Reader (about file line 25569) and the Preface to the Five
     Books of Moses at 25611, the Prologue to Genesis at 25940, Jonas at 28900, Matthew at
     30711, to the end of the volume
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'The translator''s own account of why the Scripture must be in English and how it
     is to be read: the prologues that travelled with the smuggled Testaments and Pentateuch.
     Same placement question as the treatises above (Tyndale precedes the window the census
-    gives this world); needs-ruling. Primary voice, clean OCR.
-
-    '
+    gives this world); needs-ruling. Primary voice, clean OCR. Ruled by the project lead,
+    October 2026 (Era VII placements): a text from before the world''s window that the world
+    argued from is antecedent to it; a text from after the window is context here and tradition
+    for the later entry.'
   source_file: tyndale_doctrinal-treatises_walter1848.txt
 - row_id: tyndale_doctrinal-treatises_walter1848--walter-s-biographical-notice-of-william-tyndale-1848
   work: Walter's Biographical Notice of William Tyndale (1848)

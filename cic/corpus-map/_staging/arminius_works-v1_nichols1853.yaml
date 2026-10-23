@@ -1,60 +1,69 @@
 source_file: arminius_works-v1_nichols1853.txt
-
 assignments:
-  - row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v
-    work: "The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments; Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)"
-    author: arminius
-    locus: "whole file; Life of Arminius from about line 465, Orations from line 694, Declaration of Sentiments from line 8280, Apology from about line 12080, Nine Questions at line 16448"
-    atlas_ids:
-      - the-remonstrants-and-dort
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      Arminius died in 1609, a year before the Remonstrance of 1610 that opens this world's
-      window, and the census names him as the first of its voices. His own words are the founder
-      voice of the movement, and the Declaration of Sentiments (The Hague, 30 October 1608) is the
-      fullest statement of the positions the Remonstrants took up. Whether a pre-window founder is
-      the world's own tradition voice or its antecedent is a Doc_01 ruling, so the row is needs-
-      ruling. An English translation from the Latin by Nichols, revised for the 1853 edition;
-      clean OCR, quotable once each quote is checked against the page image.
-  - row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-2
-    work: "The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments; Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)"
-    author: arminius
-    locus: "whole file; the Life (about line 465 on) records Arminius at Geneva under Beza and the Delft pamphlet against the supralapsarian view of Calvin and Beza (about lines 535-538)"
-    atlas_ids:
-      - the-methodist-revival
-    role: antecedent
-    confidence: provisional
-    note: >
-      The census states that the label Arminian was taken up a century later by John Wesley and
-      through him by the Methodist family. This is the Arminius whose name the label carries.
-      Placed on that stated lineage only: the vendored Wesley volumes do not name Arminius (the
-      Journal mentions only the Arminian Magazine), and what Methodism took from him is for that
-      world's own build to show. The 1853 preface (by the American editor) names the followers of
-      Wesley as the largest body holding the scheme, and the title page names the editor of volume
-      three as a Methodist Episcopal minister.
-  - row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-3
-    work: "The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments; Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)"
-    author: arminius
-    locus: "Declaration of Sentiments from line 8280 (tenth part on the revision of the Dutch Confession and the Heidelberg Catechism); Life from about line 465"
-    atlas_ids:
-      - dutch-further-reformation-and-refuge-culture
-    role: context
-    confidence: provisional
-    note: >
-      The controversy inside the Dutch Reformed church from the dissenting side: a Leiden
-      professor, a Dutch Confession and Catechism he wished revised, and the precisianist party of
-      Voetius and the synod acts staged in that bucket. Placed on that relation; not read for
-      further-reformation matter.
-  - row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-4
-    work: "The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments; Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)"
-    author: arminius
-    locus: "Declaration of Sentiments from line 8280; Life from about line 465 (Geneva, Beza, and the supralapsarian doctrine he opposed)"
-    atlas_ids:
-      - the-reformed-cities-zurich-and-geneva
-    role: context
-    confidence: provisional
-    note: >
-      Arminius studied at Geneva under Beza and argued against the predestination doctrine that
-      Calvin and Beza's Genevan tradition taught. The Reformed Cities bucket holds that tradition;
-      this is the dissenting reading of it from within. Placed on that relation only.
+- row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v
+  work: 'The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments; Apology
+    against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)'
+  author: arminius
+  locus: whole file; Life of Arminius from about line 465, Orations from line 694, Declaration of Sentiments
+    from line 8280, Apology from about line 12080, Nine Questions at line 16448
+  atlas_ids:
+  - the-remonstrants-and-dort
+  role: antecedent
+  confidence: assigned
+  note: 'Arminius died in 1609, a year before the Remonstrance of 1610 that opens this world''s window,
+    and the census names him as the first of its voices. His own words are the founder voice of the movement,
+    and the Declaration of Sentiments (The Hague, 30 October 1608) is the fullest statement of the positions
+    the Remonstrants took up. Whether a pre-window founder is the world''s own tradition voice or its
+    antecedent is a Doc_01 ruling, so the row is needs- ruling. An English translation from the Latin
+    by Nichols, revised for the 1853 edition; clean OCR, quotable once each quote is checked against the
+    page image. Ruled by the project lead, October 2026 (Era VII placements): a text from before the world''s
+    window that the world argued from is antecedent to it; a text from after the window is context here
+    and tradition for the later entry.'
+- row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-2
+  work: 'The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments; Apology
+    against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)'
+  author: arminius
+  locus: whole file; the Life (about line 465 on) records Arminius at Geneva under Beza and the Delft
+    pamphlet against the supralapsarian view of Calvin and Beza (about lines 535-538)
+  atlas_ids:
+  - the-methodist-revival
+  role: antecedent
+  confidence: provisional
+  note: 'The census states that the label Arminian was taken up a century later by John Wesley and through
+    him by the Methodist family. This is the Arminius whose name the label carries. Placed on that stated
+    lineage only: the vendored Wesley volumes do not name Arminius (the Journal mentions only the Arminian
+    Magazine), and what Methodism took from him is for that world''s own build to show. The 1853 preface
+    (by the American editor) names the followers of Wesley as the largest body holding the scheme, and
+    the title page names the editor of volume three as a Methodist Episcopal minister.
+
+    '
+- row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-3
+  work: 'The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments; Apology
+    against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)'
+  author: arminius
+  locus: Declaration of Sentiments from line 8280 (tenth part on the revision of the Dutch Confession
+    and the Heidelberg Catechism); Life from about line 465
+  atlas_ids:
+  - dutch-further-reformation-and-refuge-culture
+  role: context
+  confidence: provisional
+  note: 'The controversy inside the Dutch Reformed church from the dissenting side: a Leiden professor,
+    a Dutch Confession and Catechism he wished revised, and the precisianist party of Voetius and the
+    synod acts staged in that bucket. Placed on that relation; not read for further-reformation matter.
+
+    '
+- row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-4
+  work: 'The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments; Apology
+    against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)'
+  author: arminius
+  locus: Declaration of Sentiments from line 8280; Life from about line 465 (Geneva, Beza, and the supralapsarian
+    doctrine he opposed)
+  atlas_ids:
+  - the-reformed-cities-zurich-and-geneva
+  role: context
+  confidence: provisional
+  note: 'Arminius studied at Geneva under Beza and argued against the predestination doctrine that Calvin
+    and Beza''s Genevan tradition taught. The Reformed Cities bucket holds that tradition; this is the
+    dissenting reading of it from within. Placed on that relation only.
+
+    '
