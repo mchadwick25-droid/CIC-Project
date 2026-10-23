@@ -209,15 +209,18 @@ def shelf_exemption_from_file(path: str):
     def _is_shelved(session_id: str) -> bool:
         if not os.path.exists(path):
             return False
-        conn = sqlite3.connect(f"file:{path}?mode=ro", uri=True, timeout=5.0)
+        conn = None
         try:
+            conn = sqlite3.connect(f"file:{path}?mode=ro", uri=True, timeout=5.0)
             return conn.execute("SELECT 1 FROM shelf WHERE session_id = ?", (session_id,)).fetchone() is not None
         except sqlite3.Error as exc:
             # Only a file made before the shelf existed holds no shelf. Any other fault (locked,
-            # unreadable) keeps the conversation: an error never lets the clearing delete it.
+            # unreadable, cannot be opened) keeps the conversation: an error never lets the
+            # clearing delete it.
             return "no such table" not in str(exc)
         finally:
-            conn.close()
+            if conn is not None:
+                conn.close()
 
     return _is_shelved
 

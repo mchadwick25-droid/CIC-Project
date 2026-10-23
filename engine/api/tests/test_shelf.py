@@ -497,6 +497,12 @@ def test_an_unreadable_account_file_never_lets_the_clearing_delete_a_conversatio
     assert shelf_exemption_from_file(str(broken))("any-session") is True
 
 
+def test_an_account_file_that_cannot_be_opened_keeps_the_conversation_and_does_not_raise(tmp_path):
+    from engine.api.accounts_routes import shelf_exemption_from_file
+    (tmp_path / "is-a-directory.db").mkdir()
+    assert shelf_exemption_from_file(str(tmp_path / "is-a-directory.db"))("any-session") is True
+
+
 def test_an_account_is_kept_if_a_conversation_is_shelved_while_it_is_being_cleared(http, accounts, mailer, store, monkeypatch):
     sign_in(http, mailer)
     first, _ = open_session(http)
