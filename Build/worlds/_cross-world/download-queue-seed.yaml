@@ -11340,3 +11340,588 @@ queue:
       are in Scholz Part 2 and Michael''s protest of 1338 is in Carlini''s appendix, both vendored'
 
 
+
+  - title: Les chroniques de Zar'a Yâ'eqôb et de Ba'eda Mâryâm, rois d'Éthiopie de 1434 à 1478 (texte éthiopien
+      et traduction), précédées d'une introduction
+    author: Jules Perruchon (editor; French introduction and appendix)
+    translator: none (Ge'ez text with French apparatus)
+    year: 1893
+    world: the-ethiopian-monastic-flowering
+    why: The royal chronicle of the reign that settled the Sabbath question and pressed the Estifanosite
+      monks. Found by the census lead and run down on archive.org.
+    url: https://archive.org/details/leschroniquesde00perrgoog
+    rights_basis: pd-us-by-date; title page read in the OCR gives Paris, Émile Bouillon, 1893; the Internet
+      Archive item record carries possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VI session, the-ethiopian-monastic-flowering world
+      agent), October 2026: metadata read; title page read in the OCR; text file fetched and sampled at
+      opening, middle and end (second witness (Ge''ez); French apparatus readable).'
+    status: downloaded
+    vendored_as: zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt
+    hold_note: null
+  - title: The Queen of Sheba and her only son Menyelek (I), being the history of the departure of God and
+      his Ark of the Covenant from Jerusalem to Ethiopia, and the establishment of the religion of the Hebrews
+    author: Anonymous (Kebra Nagast)
+    translator: E. A. Wallis Budge
+    year: 1922
+    world: the-ethiopian-monastic-flowering
+    why: The Solomonic dynasty's charter myth, named in the census sources. Budge's 1922 first edition is
+      public domain by date; the 1932 reprint was not used.
+    url: https://archive.org/details/queenofshebahero00kebr
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'by the Medici Society, Limited, London,
+      Liverpool, and Boston, Mass., MCMXXII' and 'First edition, Feb., 1922'; the Internet Archive item
+      record dates it 1922 and carries no rights field
+    verified_by: 'library/source-research thread (Era VI session, the-ethiopian-monastic-flowering world
+      agent), October 2026: metadata read; title page read in the OCR; text file fetched and sampled at
+      opening, middle and end (primary voice, English, clean).'
+    status: downloaded
+    vendored_as: kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt
+    hold_note: null
+  - title: 'The Life of Takla Haymanot in the version of Dabra Libanos, the Miracles of Takla Haymanot in
+      the version of Dabra Libanos, and the Book of the Riches of Kings: the Ethiopic texts from British
+      Museum '
+    author: Anonymous (Gadla Takla Haymanot)
+    translator: E. A. Wallis Budge
+    year: 1906
+    world: the-ethiopian-monastic-flowering
+    why: The Shewan monastic founder's life, named in the census voices. Budge's English translation of
+      the Dabra Libanos version is public domain by date.
+    url: https://archive.org/details/lifeoftaklahymnt00budg
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'Privately printed for Lady Meux ... London,
+      1906'; the Internet Archive item record dates it 1906 and carries no rights field
+    verified_by: 'library/source-research thread (Era VI session, the-ethiopian-monastic-flowering world
+      agent), October 2026: metadata read; title page read in the OCR; text file fetched and sampled at
+      opening, middle and end (primary voice, English, clean).'
+    status: downloaded
+    vendored_as: gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906.txt
+    hold_note: null
+  - title: 'The Lives of Maba'' Seyon and Gabra Krestos: the Ethiopic texts edited with an English translation
+      and a chapter on the illustrations of Ethiopic MSS'
+    author: Anonymous (Gadla Maba' Seyon and Gabra Krestos)
+    translator: E. A. Wallis Budge
+    year: 1898
+    world: the-ethiopian-monastic-flowering
+    why: A saint's life from Zar'a Ya'eqob's reign, a monastic voice from the period the chronicle covers.
+      Found through the census lead (Budge, Maba Seyon, 1898).
+    url: https://archive.org/details/b28037650
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'London; 1898'; the Internet Archive item
+      record dates it 1898 and carries no rights field
+    verified_by: 'library/source-research thread (Era VI session, the-ethiopian-monastic-flowering world
+      agent), October 2026: metadata read; title page read in the OCR; text file fetched and sampled at
+      opening, middle and end (primary voice, English, clean; not read through).'
+    status: downloaded
+    vendored_as: gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt
+    hold_note: null
+  - title: 'The Miracles of the Blessed Virgin Mary, and the Life of Hanna (Saint Anne), and the Magical
+      Prayers of ''Aheta Mika''el: the Ethiopic texts edited with English translations, etc.'
+    author: Anonymous (Ta'amra Maryam)
+    translator: E. A. Wallis Budge
+    year: 1900
+    world: the-ethiopian-monastic-flowering
+    why: The Marian hymnody and miracle literature the census names for the period. Run down from the Budge
+      leads.
+    url: https://archive.org/details/gri_33125008690600
+    rights_basis: 'pd-us-by-date; title page read in the OCR gives ''London: 1900''; the Internet Archive
+      item record dates it 1900 and carries possible-copyright-status NOT_IN_COPYRIGHT'
+    verified_by: 'library/source-research thread (Era VI session, the-ethiopian-monastic-flowering world
+      agent), October 2026: metadata read; title page read in the OCR; text file fetched and sampled at
+      opening, middle and end (primary voice (later manuscripts), English, clean in the body).'
+    status: downloaded
+    vendored_as: taamra-maryam_miracles-of-the-blessed-virgin-mary-life-of-hanna_budge1900.txt
+    hold_note: null
+  - title: Narrative of the Portuguese Embassy to Abyssinia during the years 1520-1527, by Father Francisco
+      Alvarez
+    author: Francisco Alvares
+    translator: Lord Stanley of Alderley
+    year: 1881
+    world: the-ethiopian-monastic-flowering
+    why: The nearest eyewitness to the church of the window's end; named in the census lead as Alvares (Hakluyt
+      1881). Same item serves the 1517-1650 world.
+    url: https://archive.org/details/narrativeofportu00alvarich
+    rights_basis: 'pd-us-by-date; title page read in the OCR gives ''London: printed for the Hakluyt Society,
+      MDCCCLXXXI''; the Internet Archive item record carries possible-copyright-status NOT_IN_COPYRIGHT'
+    verified_by: 'library/source-research thread (Era VI session, the-ethiopian-monastic-flowering world
+      agent), October 2026: metadata read; title page read in the OCR; text file fetched and sampled at
+      opening, middle and end (outsider eyewitness, English, clean).'
+    status: downloaded
+    vendored_as: alvares_narrative-of-the-portuguese-embassy-to-abyssinia_stanley1881.txt
+    hold_note: null
+  - title: Journal asiatique, ou recueil de mémoires, d'extraits et de notices relatifs à l'histoire, à
+      la philosophie, aux langues et à la littérature des peuples orientaux, huitième série, tome XIV (juillet-dé
+    author: Anonymous court chronicler (Amda Syon)
+    translator: Jules Perruchon (French)
+    year: 1889
+    world: the-ethiopian-monastic-flowering
+    why: The only public-domain translation of the Amda Syon chronicle; the English one (Huntingford 1965)
+      is in copyright. Found through the census lead (Perruchon 1889).
+    url: https://archive.org/details/in.ernet.dli.2015.530741
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'Huitième série, tome XIV ... M DCCC LXXXIX';
+      the Internet Archive item record carries no rights field
+    verified_by: 'library/source-research thread (Era VI session, the-ethiopian-monastic-flowering world
+      agent), October 2026: metadata read; title page read in the OCR; text file fetched and sampled at
+      opening, middle and end (primary voice (court chronicle), French, second-grade OCR).'
+    status: downloaded
+    vendored_as: amda-syon_guerres-amda-syon-journal-asiatique-8e-serie-t14-fra-gez_perruchon1889.txt
+    hold_note: null
+  - title: 'Masâlik el abṣâr fî mamâlik el amṣâr, I: L''Afrique, moins l''Égypte, traduit et annoté avec
+      une introduction et 5 cartes (Bibliothèque des géographes arabes, publiée sous la direction de Gabriel
+      Ferran'
+    author: Ibn Fadl Allah al-'Umari
+    translator: Maurice Gaudefroy-Demombynes (French)
+    year: 1927
+    world: the-ethiopian-monastic-flowering
+    why: The best contemporary outside record of both kingdoms in the 1330s and 1340s, found by following
+      Perruchon's note on the Abyssinian embassy to Cairo.
+    url: https://archive.org/details/india.history.resource.91094
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'Paris, Librairie orientaliste Paul Geuthner,
+      1927'; published 1930 or earlier, so public domain by date; the Internet Archive item record carries
+      no rights field
+    verified_by: 'library/source-research thread (Era VI session, the-ethiopian-monastic-flowering world
+      agent), October 2026: metadata read; title page read in the OCR; text file fetched and sampled at
+      opening, middle and end (outsider Muslim witness, French, clean).'
+    status: downloaded
+    vendored_as: umari_masalik-el-absar-afrique-moins-egypte-fra_gaudefroy-demombynes1927.txt
+    hold_note: null
+  - title: Mémoires géographiques et historiques sur l'Égypte, et sur quelques contrées voisines, recueillis
+      et extraits des manuscrits coptes, arabes, etc. de la Bibliothèque impériale, par Et. Quatremère,
+      tome
+    author: Etienne Quatremere
+    translator: Quatremere (French)
+    year: 1811
+    world: terminal-christian-nubia
+    why: The standard early collection of the Arabic sources on Nubia; named in the census lead as Quatremere,
+      Memoires vol. 2.
+    url: https://archive.org/details/mmoiresgographi04quatgoog
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'Tome second ... Paris, F. Schoell ...
+      181 1'; the Internet Archive item record dates it 1811 and carries possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VI session, terminal-christian-nubia world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (outside (Arabic) records via French translator; second-grade OCR).'
+    status: downloaded
+    vendored_as: quatremere_memoires-geographiques-et-historiques-sur-l-egypte-tome2-fra_quatremere1811.txt
+    hold_note: null
+  - title: The Nubian Texts of the Christian Period, edited by F. Ll. Griffith, Oxford (Aus den Abhandlungen
+      der Königl. Preuss. Akademie der Wissenschaften, Jahrgang 1913, Phil.-hist. Classe, Nr. 8, mit 3 Tafel
+    author: F. Ll. Griffith (editor)
+    translator: Griffith (English)
+    year: 1913
+    world: terminal-christian-nubia
+    why: The Old Nubian documents, named in the census lead (Griffith 1913). The census voices say almost
+      no one speaks directly; these texts are the exception.
+    url: https://archive.org/details/nubiantextsofchr00grif
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'Berlin 1913, Verlag der Königl. Akademie
+      der Wissenschaften'; the Internet Archive item record carries possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VI session, terminal-christian-nubia world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (primary voice (Old Nubian with English), English readable, Old Nubian garbled).'
+    status: downloaded
+    vendored_as: griffith_nubian-texts-of-the-christian-period_griffith1913.txt
+    hold_note: null
+  - title: The Churches and Monasteries of Egypt and some neighbouring countries, attributed to Abû Ṣâliḥ,
+      the Armenian; edited and translated by B. T. A. Evetts, with added notes by Alfred J. Butler
+    author: Abu Salih the Armenian (attributed)
+    translator: B. T. A. Evetts
+    year: 1895
+    world: terminal-christian-nubia
+    why: A description of the Nubian kingdom and church from Egypt; named in the census lead (Abu Salih,
+      Evetts 1895).
+    url: https://archive.org/details/churchesmonaster00abusuoft
+    rights_basis: pd-us-by-date; title page year 1895 and the Clarendon Press imprint; the Internet Archive
+      item record dates it 1895 and carries possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VI session, terminal-christian-nubia world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (outsider witness, English, clean).'
+    status: downloaded
+    vendored_as: abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt
+    hold_note: null
+  - title: 'Churches in Lower Nubia, by Geoffrey S. Mileham, edited by D. Randall-MacIver (University of
+      Pennsylvania, Egyptian Department of the University Museum: Eckley B. Coxe Junior Expedition to Nubia,
+      vol.'
+    author: Geoffrey S. Mileham
+    translator: ed. D. Randall-MacIver (English)
+    year: 1910
+    world: terminal-christian-nubia
+    why: The standard early survey of the Nubian churches; named in the census lead (Mileham 1910). The
+      world's evidence is archaeological.
+    url: https://archive.org/details/churchesinlowern00mileuoft
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'Published by the University Museum, Philadelphia,
+      MCMX'; the Internet Archive item record carries possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VI session, terminal-christian-nubia world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (archaeological survey, English, clean).'
+    status: downloaded
+    vendored_as: mileham_churches-in-lower-nubia_randall-maciver1910.txt
+    hold_note: null
+  - title: The Monks of Kublai Khan, Emperor of China, or the History of the Life and Travels of Rabban
+      Sawma, envoy and plenipotentiary of the Mongol Khans to the Kings of Europe, and Markos who as Mar
+      Yahbhall
+    author: Anonymous Syriac life of Yahballaha III and Rabban Sauma
+    translator: E. A. Wallis Budge
+    year: 1928
+    world: church-of-the-east-timur-to-hakkari
+    why: The only public-domain English translation of the Yahballaha III and Rabban Sauma life; named in
+      the census lead as Budge, Monks of Kublai Khan (1928).
+    url: https://archive.org/details/monksofkublaikha0000unse
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'London, The Religious Tract Society ...
+      First published in 1928'; published 1930 or earlier, so public domain by date; the Internet Archive
+      item record carries no rights field
+    verified_by: 'library/source-research thread (Era VI session, church-of-the-east-timur-to-hakkari world
+      agent), October 2026: metadata read; title page read in the OCR; text file fetched and sampled at
+      opening, middle and end (primary voice, English, clean).'
+    status: downloaded
+    vendored_as: yahballaha-sauma_monks-of-kublai-khan_budge1928.txt
+    hold_note: null
+  - title: Histoire de Mar Jabalaha III, patriarche des Nestoriens (1281-1317), et du moine Rabban Çauma,
+      ambassadeur du roi Argoun en Occident (1287), traduite du syriaque et annotée par J.-B. Chabot; ouvrage
+      s
+    author: Anonymous Syriac life of Yahballaha III and Rabban Sauma
+    translator: J.-B. Chabot (French)
+    year: 1895
+    world: church-of-the-east-timur-to-hakkari
+    why: Second public-domain translation of the same life (French, with the appendices of papal and Mongol
+      letters); named in the census lead as Chabot 1895.
+    url: https://archive.org/details/histoiredemarja00chab
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'Paris, Ernest Leroux, éditeur, 1895';
+      the Internet Archive item record carries no rights field
+    verified_by: 'library/source-research thread (Era VI session, church-of-the-east-timur-to-hakkari world
+      agent), October 2026: metadata read; title page read in the OCR; text file fetched and sampled at
+      opening, middle and end (primary voice, French, clean).'
+    status: downloaded
+    vendored_as: yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895.txt
+    hold_note: null
+  - title: Scriptorum veterum nova collectio e Vaticanis codicibus edita ab Angelo Maio, tomus X
+    author: Angelo Mai (editor); Ebedjesu of Soba (collection)
+    translator: Mai (Latin)
+    year: 1838
+    world: church-of-the-east-timur-to-hakkari
+    why: The record of the last general synod of the old order, which the census names (Timothy II's 1318
+      synod). Found by following Lamy's appendix in the vendored Bar Hebraeus III, which points to Mai's
+      volume.
+    url: https://archive.org/details/bub_gb_eBGyokOPhwcC
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'Romae, typis Collegii Urbani, MDCCCXXXVIII';
+      the Internet Archive item record carries the Public Domain Mark 1.0 licence (creativecommons.org/publicdomain/mark/1.0/)
+    verified_by: 'library/source-research thread (Era VI session, church-of-the-east-timur-to-hakkari world
+      agent), October 2026: metadata read; title page read in the OCR; text file fetched and sampled at
+      opening, middle and end (primary voice, Latin, clean; Syriac garbled).'
+    status: downloaded
+    vendored_as: mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt
+    hold_note: null
+  - title: Bibliotheca Orientalis Clementino-Vaticana in qua manuscriptos codices Syriacos, Arabicos, Persicos,
+      Turcicos, Hebraicos, Samaritanos, Armenicos, Aethiopicos, Graecos, Aegyptiacos, Ibericos, et Malaba
+    author: Giuseppe Simone Assemani
+    translator: none (Latin)
+    year: 1725
+    world: st-thomas-christians-1300-1517
+    why: Holds the Latin of the 1504 letter and the 1490 history that the census names for the Malabar world;
+      also the lives of the later Nestorian patriarchs and writers.
+    url: https://archive.org/details/de-scriptoribus-syris-nestorianis
+    rights_basis: pd-us-by-date; title page read in the OCR gives the year 1725 (the cover leaf of the Bonn
+      copy repeats 'Assemani, Giuseppe Simone, 1725'); published well before 1930; the Internet Archive
+      item record carries no rights field
+    verified_by: 'library/source-research thread (Era VI session, st-thomas-christians-1300-1517 world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (primary voice, Latin, readable (long s as f)).'
+    status: downloaded
+    vendored_as: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
+    hold_note: null
+  - title: 'Mirabilia descripta: the Wonders of the East, by Friar Jordanus, of the Order of Preachers and
+      Bishop of Columbum in India the Greater (circa 1330)'
+    author: Friar Jordanus Catalani
+    translator: Henry Yule
+    year: 1863
+    world: st-thomas-christians-1300-1517
+    why: A bishop's own account of Malabar and its Christians around 1330; named in the census lead (Yule's
+      Jordanus).
+    url: https://archive.org/details/mirabiliadescrip00jord
+    rights_basis: pd-us-by-date; the volume opens with the Hakluyt Society's 'Report for 1863', which announces
+      this work as then in the printer's hands, and the Internet Archive item record dates it 1863 and carries
+      possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VI session, st-thomas-christians-1300-1517 world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (outsider witness, English, clean).'
+    status: downloaded
+    vendored_as: jordanus_mirabilia-descripta-wonders-of-the-east_yule1863.txt
+    hold_note: null
+  - title: Cathay and the Way Thither, being a collection of Medieval Notices of China
+    author: Henry Yule and Henri Cordier (editors); Montecorvino and Marignolli (authors)
+    translator: Henry Yule, revised by Henri Cordier
+    year: 1914
+    world: st-thomas-christians-1300-1517
+    why: Marignolli's account of Quilon and Montecorvino's letters, named in the census lead (Yule, Cathay
+      and the Way Thither).
+    url: https://archive.org/details/cathaywaythither03yule
+    rights_basis: pd-us-by-date; title leaf read in the OCR gives 'Second Series No. XXXVII, issued for
+      1914' and 'MDCCCCXIV'; published 1930 or earlier; the Internet Archive item record carries no rights
+      field
+    verified_by: 'library/source-research thread (Era VI session, st-thomas-christians-1300-1517 world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (outsider witnesses, English, clean).'
+    status: downloaded
+    vendored_as: cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt
+    hold_note: null
+  - title: India in the Fifteenth Century, being a collection of narratives of voyages to India in the century
+      preceding the Portuguese discovery of the Cape of Good Hope; from Latin, Persian, Russian and Italia
+    author: Nicolo Conti, Abd-er-Razzak, Athanasius Nikitin, Hieronimo di Santo Stefano
+    translator: ed. R. H. Major
+    year: 1857
+    world: st-thomas-christians-1300-1517
+    why: Conti's notice of the Nestorians in India, named in the census lead (Major, India in the Fifteenth
+      Century).
+    url: https://archive.org/details/indiainfifteenth00majo
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'M.DCCC.LVII'; the Internet Archive item
+      record carries possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VI session, st-thomas-christians-1300-1517 world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (outsider witnesses, English, clean).'
+    status: downloaded
+    vendored_as: india-in-the-fifteenth-century_narratives-of-voyages_major1857.txt
+    hold_note: null
+  - title: A Journal of the First Voyage of Vasco da Gama, 1497-1499, translated and edited with notes,
+      an introduction and appendices by E. G. Ravenstein
+    author: Alvaro Velho (attributed)
+    translator: E. G. Ravenstein
+    year: 1898
+    world: st-thomas-christians-1300-1517
+    why: The Portuguese arrival on the Malabar coast in 1498, named in the census lead (Ravenstein, Journal
+      of the First Voyage of Vasco da Gama).
+    url: https://archive.org/details/ajournalfirstvo00ravegoog
+    rights_basis: pd-us-by-date; title page read in the OCR gives 'M.DCCC.XCVIII'; the Internet Archive
+      item record carries possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VI session, st-thomas-christians-1300-1517 world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (outsider witness, English, clean).'
+    status: downloaded
+    vendored_as: velho_journal-of-the-first-voyage-of-vasco-da-gama_ravenstein1898.txt
+    hold_note: null
+  - title: The Book of Duarte Barbosa, an account of the countries bordering on the Indian Ocean and their
+      inhabitants, written by Duarte Barbosa and completed about the year 1518 A.D.
+    author: Duarte Barbosa
+    translator: M. L. Dames
+    year: 1921
+    world: st-thomas-christians-1300-1517
+    why: A Portuguese factor's notice of the St Thomas Christians at the window's end; named in census-adjacent
+      leads (Barbosa, Dames).
+    url: https://archive.org/details/in.ernet.dli.2015.47303
+    rights_basis: pd-us-by-date; the volume carries 'ISSUED FOR 1921' in the Hakluyt Society lists and the
+      Internet Archive item record dates it 1921; published 1930 or earlier; the record carries no rights
+      field
+    verified_by: 'library/source-research thread (Era VI session, st-thomas-christians-1300-1517 world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (outsider witness, English, clean).'
+    status: downloaded
+    vendored_as: barbosa_book-of-duarte-barbosa-vol2_dames1921.txt
+    hold_note: null
+  - title: The Early Spread of Christianity in India, by A. Mingana, D.D. (reprinted from The Bulletin of
+      the John Rylands Library, vol. 10, no. 2, July 1926)
+    author: Alphonse Mingana
+    translator: Mingana (English)
+    year: 1926
+    world: st-thomas-christians-1300-1517
+    why: The census's central evidence (the 1301 Cranganore colophon and the delegation of about 1490) in
+      English; named in the census lead (Mingana 1926).
+    url: https://archive.org/details/earlyspreadofchr00ming_0
+    rights_basis: 'pd-us-by-date; title page read in the OCR gives ''Manchester: The University Press ...
+      MCMXXVI''; published 1930 or earlier, so public domain by date; the Internet Archive item record carries
+      no rights field'
+    verified_by: 'library/source-research thread (Era VI session, st-thomas-christians-1300-1517 world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (scholarship translating primary colophons, English, clean).'
+    status: downloaded
+    vendored_as: mingana_early-spread-of-christianity-in-india_mingana1926.txt
+    hold_note: null
+  - title: The Travels of Ludovico di Varthema in Egypt, Syria, Arabia Deserta and Arabia Felix, in Persia,
+      India, and Ethiopia, A.D. 1503 to 1508
+    author: Ludovico di Varthema
+    translator: J. Winter Jones; ed. G. P. Badger
+    year: 1863
+    world: st-thomas-christians-1300-1517
+    why: A traveller's notice of the St Thomas Christians inside the window; found by following the Barbosa
+      and Hakluyt leads.
+    url: https://archive.org/details/travelsofludovic00vartrich
+    rights_basis: 'pd-us-by-date; title page read in the OCR gives ''London: printed for the Hakluyt Society,
+      M.DCCC.LXIII''; the Internet Archive item record carries possible-copyright-status NOT_IN_COPYRIGHT'
+    verified_by: 'library/source-research thread (Era VI session, st-thomas-christians-1300-1517 world agent),
+      October 2026: metadata read; title page read in the OCR; text file fetched and sampled at opening,
+      middle and end (outsider eyewitness, English, clean).'
+    status: downloaded
+    vendored_as: varthema_travels-of-ludovico-di-varthema_jones-badger1863.txt
+    hold_note: null
+  - title: Historia Aethiopica
+    author: Hiob Ludolf
+    translator: none (Latin)
+    year: 1681
+    world: the-ethiopian-monastic-flowering
+    why: Seventeenth-century synthesis of the Ethiopian kings and church from Ethiopian informants; the
+      Commentarius of 1691 is already on the shelf.
+    url: https://archive.org/details/bub_gb_JFZEAAAAcAAJ
+    rights_basis: pd-us-by-date; host licence Public Domain Mark 1.0
+    verified_by: 'library/source-research thread (Era VI session, the-ethiopian-monastic-flowering world
+      agent), October 2026: metadata read; year read; text file present (873 KB); not fetched.'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: after the window; later synthesis, not a voice. Available if Doc_02 wants
+      the book beside the Commentarius.'
+  - title: Histoire des sultans mamlouks de l'Egypte (Maqrizi), tome 1 part 1
+    author: Taqi al-Din al-Maqrizi
+    translator: Etienne Quatremere
+    year: 1837
+    world: terminal-christian-nubia
+    why: Arabic chronicle of the Mamluk sultans in French, with the Nubian wars of the thirteenth century
+      (24 Nubia hits).
+    url: https://archive.org/details/bub_gb_y1QoAAAAYAAJ
+    rights_basis: pd-us-by-date; host licence Public Domain Mark 1.0
+    verified_by: 'library/source-research thread (Era VI session, terminal-christian-nubia world agent),
+      October 2026: metadata read; text file fetched (1.9 MB) and word-counted.'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: Quatremere''s own Memoire sur la Nubie (vendored) gathers the same accounts;
+      no Dongola by name.'
+  - title: Histoire des sultans mamlouks de l'Egypte (Maqrizi), tome 1 part 2
+    author: Taqi al-Din al-Maqrizi
+    translator: Etienne Quatremere
+    year: 1845
+    world: terminal-christian-nubia
+    why: Second part of the same French translation (24 Nubia hits).
+    url: https://archive.org/details/histoiredessulta01maqr
+    rights_basis: pd-us-by-date; 1845; host record carries no rights field
+    verified_by: 'library/source-research thread (Era VI session, terminal-christian-nubia world agent),
+      October 2026: metadata read; text file fetched (961 KB) and word-counted.'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: Not vendored for the same reason as part 1.
+  - title: The Miracle of Saint Mina (Gis Miinan Nokkor), Old Nubian text with Dongolawi and English
+    author: Old Nubian text, edited by El-Shafie El-Guzuuli and Vincent W. J. van Gerven Oei
+    translator: the editors
+    year: 2012
+    world: terminal-christian-nubia
+    why: One of the core Old Nubian texts, a miracle story, about the year 1000.
+    url: https://archive.org/details/7be9aa8c-b8af-4b2f-96ff-16e4532f2b83
+    rights_basis: Creative Commons BY-NC-ND 3.0 (record of the first item; publisher punctum books); not
+      public domain by date
+    verified_by: 'library/source-research thread (Era VI session, terminal-christian-nubia world agent),
+      October 2026: metadata read; text file present (116 KB); not fetched.'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: dated before the window, and the NonCommercial and NoDerivatives terms need
+      a rights ruling from the project lead.'
+  - title: The Nestorians and their Rituals (2 vols)
+    author: George Percy Badger
+    translator: Badger
+    year: 1852
+    world: church-of-the-east-timur-to-hakkari
+    why: Mid-nineteenth-century outsider account of the Hakkari church and its hereditary patriarchate,
+      with rituals.
+    url: https://archive.org/details/nestorianstheirr0001badg
+    rights_basis: pd-us-by-date; 1852
+    verified_by: 'library/source-research thread (Era VI session, church-of-the-east-timur-to-hakkari world
+      agent), October 2026: metadata read; text files present (1.03 MB and 1.07 MB); not fetched. Also bub_gb_Oo8AAAAAcAAJ
+      (Public Domain Mark 1.0).'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: well after the window; candidate for an outside picture of the survivors.'
+  - title: The Bondage and Travels of Johann Schiltberger
+    author: Johann Schiltberger
+    translator: J. Buchan Telfer
+    year: 1879
+    world: church-of-the-east-timur-to-hakkari
+    why: Eyewitness in Timur's army, 1402 to 1427.
+    url: https://archive.org/details/bondagetravelsof00schirich
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT; 1879
+    verified_by: 'library/source-research thread (Era VI session, church-of-the-east-timur-to-hakkari world
+      agent), October 2026: metadata read; text file fetched (697 KB) and word-counted (12 Nestorian hits,
+      in the notes).'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: the church is not his subject.'
+  - title: Narrative of the Embassy of Ruy Gonzalez de Clavijo to the Court of Timour, 1403-6
+    author: Ruy Gonzalez de Clavijo
+    translator: Clements R. Markham
+    year: 1859
+    world: church-of-the-east-timur-to-hakkari
+    why: Embassy to Timur's court.
+    url: https://archive.org/details/narrativeembass00markgoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT; 1859
+    verified_by: 'library/source-research thread (Era VI session, church-of-the-east-timur-to-hakkari world
+      agent), October 2026: metadata read; text file fetched (487 KB) and word-counted (no Nestorian hits).'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: the Christians it meets are mostly Armenian and Georgian.'
+  - title: Histoire de Timur-Bec (Zafarnama in Petis de la Croix's French), 4 volumes
+    author: Sharaf al-Din Ali Yazdi
+    translator: Francois Petis de la Croix
+    year: 1722
+    world: church-of-the-east-timur-to-hakkari
+    why: The court narrative of Timur's wars.
+    url: https://archive.org/details/histoiredetimur00yazdgoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT; 1722 (also 01, 02 and 03yazdgoog)
+    verified_by: 'library/source-research thread (Era VI session, church-of-the-east-timur-to-hakkari world
+      agent), October 2026: metadata read; four text files fetched (374 KB to 694 KB) and sampled.'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: poor OCR (long s as f, broken words; no hits for Mardin or Mosul).'
+  - title: Catalogue of Syriac Manuscripts in the British Museum acquired since 1838 (3 vols)
+    author: William Wright
+    translator: Wright
+    year: 1870
+    world: church-of-the-east-timur-to-hakkari
+    why: Colophons of Syriac manuscripts, including late Church of the East scribes.
+    url: https://archive.org/details/catalogueofsyria01brituoft
+    rights_basis: 'pd-us-by-date; host NOT_IN_COPYRIGHT; 1870 to 1872 (volume 3: catalogueofsyria03brituoft)'
+    verified_by: 'library/source-research thread (Era VI session, church-of-the-east-timur-to-hakkari world
+      agent), October 2026: metadata read; text files present (1.3 MB each); not fetched.'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: a catalogue; a colophon pass would be a separate piece of work.'
+  - title: Cathay and the Way Thither, vol. II (Odoric of Pordenone and others)
+    author: Henry Yule and Henri Cordier
+    translator: Yule, revised by Cordier
+    year: 1913
+    world: st-thomas-christians-1300-1517
+    why: Odoric's account of Polumbum (Quilon) in the 1320s.
+    url: https://archive.org/details/cathaywaythither02yule
+    rights_basis: pd-us-by-date; 'issued for 1913' read
+    verified_by: 'library/source-research thread (Era VI session, st-thomas-christians-1300-1517 world agent),
+      October 2026: metadata read; text file fetched (1.1 MB) and word-counted.'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: the Quilon paragraphs do not mention the Christians; the Nestorians in the
+      volume are in China and belong to the Mongol-era world.'
+  - title: The Syrian Church in India
+    author: George Milne Rae
+    translator: Rae
+    year: 1892
+    world: st-thomas-christians-1300-1517
+    why: Nineteenth-century history of the Syrian church of Malabar.
+    url: https://archive.org/details/syrianchurchinin00raegrich
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VI session, st-thomas-christians-1300-1517 world agent),
+      October 2026: metadata read; text file present (562 KB); not fetched.'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: scholarship, not a source.'
+  - title: Die Kirche der Thomaschristen
+    author: Wilhelm Germann
+    translator: Germann (German)
+    year: 1877
+    world: st-thomas-christians-1300-1517
+    why: German history of the Thomas Christians using the Latin and Syriac sources.
+    url: https://archive.org/details/diekirchedertho00germgoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VI session, st-thomas-christians-1300-1517 world agent),
+      October 2026: metadata read; text file present (2.05 MB); not fetched.'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: scholarship, not a source; German.'
+  - title: The Egyptian Sudan, its history and monuments (2 vols)
+    author: E. A. Wallis Budge
+    translator: Budge (English)
+    year: 1907
+    world: terminal-christian-nubia
+    why: English narrative survey of the Sudan including Christian Nubia.
+    url: https://archive.org/details/egyptiansdni01budguoft
+    rights_basis: 'pd-us-by-date; host NOT_IN_COPYRIGHT (volume 2: egyptiansdni02budguoft; also egyptiansudanits01budg
+      and 02budg)'
+    verified_by: 'library/source-research thread (Era VI session, terminal-christian-nubia world agent),
+      October 2026: metadata read; text files present (about 1.46 MB each); not fetched.'
+    status: not-yet-downloaded
+    vendored_as: null
+    hold_note: 'Not vendored: scholarship, not a source; available if Doc_02 wants an English survey.'

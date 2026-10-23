@@ -4,7 +4,7 @@ Publisher: London: printed for the Camden Society by John Bowyer Nichols and Son
 Publication Date: 1842
 Rights: Public Domain
 Rights basis: The title page reads 'M.DCCC.XLII' (1842) in the OCR. The item record carries possible-copyright-status NOT_IN_COPYRIGHT.
-Language: enm (Middle English text with an English introduction and notes)
+Language: enm
 Source: Internet Archive item anapologyforloll00wycluoft (archive.org/details/anapologyforloll00wycluoft), full-text file anapologyforloll00wycluoft_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 611564 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Introduction in English reads cleanly. The Middle English text reads with thorn rendered as 'f' ('f ei', 'fat', 'f e') throughout, which is a systematic substitution that the quote gate does not normalise; the end is the glossary, readable.
 Content note: A short English tract defending the Lollard positions on scripture, images, the sacraments, the clergy's wealth and oaths, printed from a Dublin manuscript with Todd's introduction. Todd printed it as attributed to Wyclif; the title says only 'attributed', and the authorship is not established. Siebert's 1905 German study of the text is on the host (untersuchungenb00siebgoog, scholarship, not vendored).

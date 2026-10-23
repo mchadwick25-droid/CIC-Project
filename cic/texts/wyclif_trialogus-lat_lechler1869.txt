@@ -4,10 +4,10 @@ Publisher: Oxford: E Typographeo Clarendoniano (Clarendon Press), 1869
 Publication Date: 1869
 Rights: Public Domain
 Rights basis: The title page reads 'M DCCC LXIX' (1869) in the OCR. The item record carries possible-copyright-status NOT_IN_COPYRIGHT.
-Language: lat (Latin text with Latin prolegomena and critical commentary)
+Language: lat
 Source: Internet Archive item trialoguscumsupp00wycluoft (archive.org/details/trialoguscumsupp00wycluoft), full-text file trialoguscumsupp00wycluoft_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 1369237 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Latin in Roman type, readable at the opening (prolegomena), in the middle (a passage with the critical notes marked ed. pr., A.B.C.D.) and at the end (the publisher's catalogue). Occasional stray marks; sampled text pages read cleanly.
-Content note: Wyclif's Trialogus, the dialogue of Alithia, Pseudis and Phronesis that sets out his whole system, with the Supplementum, in Lechler's critical edition and long prolegomena. The text follows Lechler's Latin prolegomena. This is the academic source the movement outgrew, as the census puts it. The English of Lahey (Cambridge, 2013) is in copyright; no public-domain English was found.
+Content note: Wyclif's Trialogus, the dialogue of Alithia, Pseudis and Phronesis that sets out his whole system, with the Supplementum, in Lechler's critical edition and long prolegomena. The text follows Lechler's Latin prolegomena. This is the academic source the movement outgrew, as the census puts it. The English of Lahey (Cambridge, 2013) is in copyright. Robert Vaughan's 1845 volume, already vendored as wyclif_tracts-and-treatises_vaughan1845.txt, gives chapters of the fourth book in English (its advertisement says so), the only public-domain English leg found.
 
 ---
 

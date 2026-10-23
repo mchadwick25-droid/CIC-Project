@@ -6,28 +6,28 @@ authors_ruled:
     evidence: >-
       The title page of tomus CXLVII names 'Callisti et Ignatii' among those added to Nikephoros Kallistos; the
       elenchus lists their Methodus et regula (running heads 'CALLISTI ET IGNATII XANTHOPULORUM' from file line
-      29425); the file's leading slug is nicephorus-callistus.
+      29438); the file's leading slug is nicephorus-callistus.
     from_file: >-
       nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
   callistus-telicudes:
     kind: metadata-omission
     evidence: >-
       The elenchus of tomus CXLVII lists Callistus Telicoudes (running heads 'CALLISTI TELICUDAE' from file line
-      32531); the file's leading slug is nicephorus-callistus.
+      32544); the file's leading slug is nicephorus-callistus.
     from_file: >-
       nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
   callistus-cataphugiota:
     kind: metadata-omission
     evidence: >-
       The title page of tomus CXLVII names Callisti Cataphugiotae; running heads 'CALLISTI CATAPHUGIOTAE' from file
-      line 33336; the file's leading slug is nicephorus-callistus.
+      line 33349; the file's leading slug is nicephorus-callistus.
     from_file: >-
       nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
   nicephorus-monachus:
     kind: metadata-omission
     evidence: >-
       The title page of tomus CXLVII names Nicephori Monachi; 'NICEPHORI MONACHI' with 'DE SOBRIETATE ET CORDIS
-      CUSTODIA' at file lines 38189-38193; the file's leading slug is nicephorus-callistus.
+      CUSTODIA' at file lines 38202-38206; the file's leading slug is nicephorus-callistus.
     from_file: >-
       nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
 assignments:
@@ -37,7 +37,7 @@ assignments:
     Kallistos and Ignatios Xanthopouloi, Methodus et regula for those who live in quiet, Greek with Latin, in Migne
     PG 147
   author: xanthopuli-callistus-ignatius
-  locus: from file line 28898
+  locus: from file line 28911
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: tradition
@@ -52,7 +52,7 @@ assignments:
     Kallistos Telikoudes, chapters on quiet and selections on prayer and attention, Greek with Latin, in Migne PG
     147
   author: callistus-telicudes
-  locus: from file line 32531
+  locus: from file line 32544
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: tradition
@@ -65,7 +65,7 @@ assignments:
   work: >-
     Kallistos Katafygiotes, on union with God and the contemplative life, Greek with Latin, in Migne PG 147
   author: callistus-cataphugiota
-  locus: from file line 33336
+  locus: from file line 33349
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: tradition
@@ -78,7 +78,7 @@ assignments:
   work: >-
     Nikephoros the Monk, Tractatus de sobrietate et cordis custodia, Greek with Latin, in Migne PG 147
   author: nicephorus-monachus
-  locus: from file line 38189
+  locus: from file line 38202
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: antecedent

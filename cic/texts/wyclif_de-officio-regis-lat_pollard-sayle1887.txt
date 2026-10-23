@@ -4,7 +4,7 @@ Publisher: London: published for the Wyclif Society by Trübner & Co., 1887 (tit
 Publication Date: 1887
 Rights: Public Domain
 Rights basis: The title page reads 'M DCCC LXXXVII' (1887) in the OCR. The item record carries possible-copyright-status NOT_IN_COPYRIGHT.
-Language: lat (Latin text with an English introduction and notes)
+Language: lat
 Source: Internet Archive item iohanniswyclift02wyclgoog (archive.org/details/iohanniswyclift02wyclgoog), full-text file iohanniswyclift02wyclgoog_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 771050 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: English introduction clean at the opening. The Latin text in the middle reads with minor errors ('ts', 'sccond', 'bc'). The end is the index and reads with errors ('mnst', 'perfonn').
 Content note: Wyclif's treatise on the king's office, the eighth book of his Summa, with the editors' English introduction. It argues for royal authority over the clergy's temporal goods. The host title names Vienna manuscripts 4514 and 3935 (the OCR title page reads this; the numbers are the host catalogue's).

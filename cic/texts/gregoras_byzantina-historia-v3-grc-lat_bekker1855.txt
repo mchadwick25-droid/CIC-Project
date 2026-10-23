@@ -3,11 +3,11 @@ Creator: Nikephoros Gregoras (1295-1359 or 1360 per the host catalogue), Byzanti
 Publisher: Bonn: Impensis Ed. Weberi, 1855 (Corpus scriptorum historiae Byzantinae)
 Publication Date: 1855
 Rights: Public Domain
-Rights basis: the title page reads 'MDCCCLV' (OCR 'MDCCCLY', 1855) at file lines 132 and 153; host record: date 1829 (the series start), possible-copyright-status NOT_IN_COPYRIGHT.
+Rights basis: the title page reads 'MDCCCLV' (OCR 'MDCCCLY', 1855) at file lines 145 and 166; host record: date 1829 (the series start), possible-copyright-status NOT_IN_COPYRIGHT.
 Language: grc (Greek with parallel or following Latin translation; the Latin and Greek share the OCR file; see the content note)
 Source: Internet Archive item nicephorigregor04schogoog (archive.org/details/nicephorigregor04schogoog), full-text file nicephorigregor04schogoog_djvu.txt, fetched directly by the Library thread, October 2026.
-Provenance note: Header prepended by the Library thread; the OCR text follows it unchanged. Nothing was stripped, normalised, corrected, re-spaced or retyped (the long s glyph occurs 0 times and was left as found). The Google Books boilerplate page at the head of the OCR is left in place. The file is 2188052 bytes, 1508583 characters and 35995 lines. OCR quality sampled at the title pages and at about 5%, 50% and 95% of the file (lines 1799, 17997 and 34195): Greek polytonic readable, Latin clean.
-Content note: Volume 3 of the Bonn edition: the last books of Gregoras's history (Books XXV to XXXVII, 1351 to 1359), first printed here. They carry the aftermath of the 1351 council, Gregoras's own condemnation and imprisonment, the Palamite party's rule of the patriarchate and Palamas's captivity among the Turks. Book numbers appear in the text (LIBER XXVII at line 7022 to LIBER XXXVII at 30431); a long index follows. Volume 2 is vendored beside this one.
+Provenance note: Header prepended by the Library thread; the OCR text follows it unchanged. Nothing was stripped, normalised, corrected, re-spaced or retyped (the long s glyph occurs 0 times and was left as found). The Google Books boilerplate page at the head of the OCR is left in place. The OCR text that follows is 2188052 bytes, 1508583 characters and 35995 lines. OCR quality sampled at the title pages and at about 5%, 50% and 95% of the file (lines 1812, 18010 and 34208): Greek polytonic readable, Latin clean.
+Content note: Volume 3 of the Bonn edition: the last books of Gregoras's history (Books XXV to XXXVII, 1351 to 1359), first printed here. They carry the aftermath of the 1351 council, Gregoras's own condemnation and imprisonment, the Palamite party's rule of the patriarchate and Palamas's captivity among the Turks. Book numbers appear in the text (LIBER XXVII at line 7035 to LIBER XXXVII at 30444); a long index follows. Volume 2 is vendored beside this one.
 
 ---
 

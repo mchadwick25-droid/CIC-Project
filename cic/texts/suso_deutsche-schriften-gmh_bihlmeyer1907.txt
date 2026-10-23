@@ -4,7 +4,7 @@ Publisher: Stuttgart: W. Kohlhammer, 1907
 Publication Date: 1907
 Rights: Public Domain
 Rights basis: The title page reads 'STUTTGART 1907' in the OCR. The item record carries possible-copyright-status NOT_IN_COPYRIGHT. German publication of 1907, before 1930.
-Language: gmh (Middle High German texts with a German introduction and apparatus)
+Language: gmh
 Source: Internet Archive item deutscheschrift00seusgoog (archive.org/details/deutscheschrift00seusgoog), full-text file deutscheschrift00seusgoog_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 2380449 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Roman-type Middle High German. The opening sample is the abbreviations list and reads with errors ('^hut', 'rxer'). The middle sample (Little Book of Eternal Wisdom) reads with scattered letter errors of about one word in twelve. The end is the word index, with some garbled entries.
 Content note: Suso's German works in the critical edition: the Life of the Servant (Vita, built with Elsbeth Stagel), the Little Book of Truth, the Little Book of Eternal Wisdom and the Letters, with Bihlmeyer's long introduction and apparatus. The apparatus cites the works by page and line. The Google Books boilerplate at the head is left in place.

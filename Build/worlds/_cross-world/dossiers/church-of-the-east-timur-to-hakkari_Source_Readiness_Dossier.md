@@ -8,7 +8,7 @@ why it exists.
 **Time window:** 1317–1517
 **Region(s):** Mesopotamia (Baghdad, Mosul, Arbela), then the Hakkari, Lake Van and Urmia triangle; the Malabar province as the one that outlasted it
 **Dossier author / date:** Era VI library session, V.17 world agent (oriental batch), October 2026
-**Corpus-map / `cic/texts/` state as of:** October 2026, branch `library/era-vi-2026-10`. Before this pass the bucket held four rows staged by the Era VII session, all `provisional`. Five files were vendored this pass (two of them shared with the Malabar world, one with the Mongol-era world), each with a staging file validated with `corpus_map_merge.py --check`. Their registry entries, seed rows and cross-link rows sit in the lead's fragment files until merged.
+**Corpus-map / `cic/texts/` state as of:** October 2026, branch `library/era-vi-2026-10`. Before this pass the bucket held four rows staged by the Era VII session, all `provisional`. Five files were vendored this pass (four of them also staged for the Malabar world, three also for the Mongol-era world), each with a staging file validated with `corpus_map_merge.py --check`. Their registry entries, seed rows and cross-link rows sit in the lead's fragment files until merged.
 
 **Who speaks.** The church speaks for itself only at the two ends of the opening years: the life of Yahballaha III, which stops at his death in 1317, and the acts and canons of Timothy II's synod of 1318. After that the library holds a patriarchal succession list, eighteenth-century Latin lives, a few manuscript colophons and a 1910 history by a member of the church. The catastrophe itself, Timur's campaigns, is told from outside, and the outside accounts in the library are weak on the church.
 

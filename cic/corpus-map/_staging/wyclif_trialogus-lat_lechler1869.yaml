@@ -11,7 +11,8 @@ assignments:
     confidence: assigned
     note: >
       Wyclif's system in his own Latin, the work named first in the census's list for this world. The
-      census asks that Wyclif's own corpus be kept distinct from the movement's later texts.
+      census asks that Wyclif's own corpus be kept distinct from the movement's later texts. Selected
+      chapters of book 4 are in English in Vaughan 1845 (vendored).
   - row_id: wyclif_trialogus-lat_lechler1869--wyclif-trialogus-cum-supplemento-trialogi-lechler-s-edition-2
     work: "Wyclif, Trialogus cum Supplemento Trialogi (Lechler's edition, Latin)"
     author: wyclif

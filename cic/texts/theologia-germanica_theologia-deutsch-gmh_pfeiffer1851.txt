@@ -4,7 +4,7 @@ Publisher: Stuttgart: Göschen, 1851 (title page 'M. D. CCC. LI.'; printed in 25
 Publication Date: 1851
 Rights: Public Domain
 Rights basis: The title page reads 'M. D. CCC. LI.' (1851) in the OCR. The item record carries possible-copyright-status NOT_IN_COPYRIGHT. The editor died in 1868.
-Language: gmh (late Middle High German text with a German dedication and notes)
+Language: gmh
 Source: Internet Archive item theologiadeutsc00deutgoog (archive.org/details/theologiadeutsc00deutgoog), full-text file theologiadeutsc00deutgoog_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 207249 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: The body is Roman type and reads well in the sampled passages, with long s as U+017F and occasional errors ('Kriſtus' reads fine; 'äs' for 'als'). The dedication is garbled. The end of the file is the last chapters, readable.
 Content note: Pfeiffer's complete edition of the Theologia deutsch from the one manuscript then known (the Würzburg manuscript, as the English translation's preface also says). It is not the text Luther printed in 1516 and 1518; Luther's printings are a different, partial and a fuller witness. The dedication to F. K. Grieshaber is in Fraktur and is garbled in the OCR; the text itself is in Roman type. The Google Books boilerplate at the head is left in place. Long s appears in the OCR as the character U+017F, left as found.

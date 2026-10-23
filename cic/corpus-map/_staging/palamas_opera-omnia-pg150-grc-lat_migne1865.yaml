@@ -4,20 +4,20 @@ authors_ruled:
     kind: metadata-omission
     evidence: >-
       The title page of tomus CL names 'Gregorii Sinaitae' among the authors added to Palamas, and the volume prints
-      his ascetic chapters and short tracts (running head 'GREGORII SINAITAE' at file line 60944, 'CAPITA PER ACROSTICHIDEM'
-      from 69285); the file's leading slug is palamas.
+      his ascetic chapters and short tracts (running head 'GREGORII SINAITAE' at file line 60957, 'CAPITA PER ACROSTICHIDEM'
+      from 69298); the file's leading slug is palamas.
     from_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
   synod-of-constantinople-1341-1351:
     kind: anonymous
     evidence: >-
-      Tomus CL prints the Hagioritic Tome 'pro Hesychastis' (running head 'HAGIORITICUS TOMUS' at file line 68659)
-      and tomus CLI prints the three synodal tomes (TOMUS SYNODICUS I at CLI file line 14248); synodal texts, no
+      Tomus CL prints the Hagioritic Tome 'pro Hesychastis' (running head 'HAGIORITICUS TOMUS' at file line 68672)
+      and tomus CLI prints the three synodal tomes (TOMUS SYNODICUS I at CLI file line 14261); synodal texts, no
       single author.
     from_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
   greek-opinions-on-palamas:
     kind: anonymous
     evidence: >-
-      Tomus CL prints, under the heading 'De Gregorio Palama' (file line 53908), a gathering of documents by several
+      Tomus CL prints, under the heading 'De Gregorio Palama' (file line 53921), a gathering of documents by several
       hands for and against Palamas: Akindynos's iambs, Andrew of Kolossai's dialogue, the condemnation tome and
       others; a compilation, no single author.
     from_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
@@ -28,7 +28,7 @@ assignments:
     Gregory Palamas, the Hesychast writings (De Hesychastis, De oratione et puritate cordis, the 150 chapters, the
     Hagioritic Tome), Greek with Latin, in Migne PG 150
   author: palamas
-  locus: De Hesychastis from file line 64273; chapters from 64948; Hagioritic Tome from 68659
+  locus: De Hesychastis from file line 64286; chapters from 64961; Hagioritic Tome from 68672
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: tradition
@@ -56,7 +56,7 @@ assignments:
   work: >-
     Gregory of Sinai, ascetic chapters and tracts on quiet and prayer, Greek with Latin, in Migne PG 150
   author: gregory-sinai
-  locus: from file line 60944 (running head); capita from 69285 to the end of the volume
+  locus: from file line 60957 (running head); capita from 69298 to the end of the volume
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: tradition
@@ -72,7 +72,7 @@ assignments:
     Greek opinions on Palamas (Akindynos's iambs, Andrew of Kolossai's dialogue, Harmenopoulos on the Palamite heresy,
     the tome of condemnation, David the monk), Greek with Latin, in Migne PG 150
   author: greek-opinions-on-palamas
-  locus: section 'De Gregorio Palama' from file line 53908
+  locus: section 'De Gregorio Palama' from file line 53921
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: context
@@ -87,7 +87,7 @@ assignments:
     in Migne PG 150
   author: cabasilas
   locus: >-
-    Commentary (De divino altaris sacrificio) from file line 26308; Life in Christ (De vita in Christo) from 35693
+    Commentary (De divino altaris sacrificio) from file line 26321; Life in Christ (De vita in Christo) from 35706
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: tradition

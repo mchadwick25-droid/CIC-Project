@@ -93,7 +93,7 @@ Every row was checked on archive.org this pass: item metadata read, year read, r
 
 ## 6. Step 0 scope notes and recommendation
 
-**Floor (A1).** The census says "No question". Nothing found disturbs that. The Takla Haymanot life has the baptism in the name of the Father, the Son and the Holy Spirit (file line 4963 onward), and Perruchon's appendix reports Zar'a Ya'eqob ordering "Of the Father, of the Son, of the Holy Spirit" written on his subjects' foreheads. The Sabbath, the Marian cult and the monastic houses are practices and disputes about practice, not disputes about the creed. I did not read any file through for Christology.
+**Floor (A1).** The census says "No question". Nothing found disturbs that. The Takla Haymanot life has the baptism in the name of the Father, the Son and the Holy Spirit (file line 4966), and Perruchon's appendix reports Zar'a Ya'eqob ordering "Of the Father, of the Son, of the Holy Spirit" written on his subjects' foreheads. The Sabbath, the Marian cult and the monastic houses are practices and disputes about practice, not disputes about the creed. I did not read any file through for Christology.
 
 **Sourcing (B1).** The census says "RICH". That holds for what exists in Ge'ez and fails for what a public-domain reader can use. Five voices speak in clean English: the dynastic myth (Kebra Nagast), the founder-saint's life (Takla Haymanot), the life of a saint of Zar'a Ya'eqob's reign (Maba' Seyon), and the Marian miracle collection. Amda Syon's wars are in French with rough OCR. The chronicle of Zar'a Ya'eqob is in Ge'ez only, with a French apparatus. Zar'a Ya'eqob's own book, the Estifanos acts and the Ewostatewos life are in copyright or lending-restricted.
 

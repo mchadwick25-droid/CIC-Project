@@ -3,10 +3,10 @@ Creator: John VI Kantakouzenos, emperor and later the monk Joasaph; Greek text e
 Publisher: Bonn: Impensis Ed. Weberi, 1828 (Corpus scriptorum historiae Byzantinae)
 Publication Date: 1828
 Rights: Public Domain
-Rights basis: the title page reads 'MDCCCXXVIII' (1828) in this scan's OCR (file line 176); host record: date 1828, possible-copyright-status NOT_IN_COPYRIGHT.
+Rights basis: the title page reads 'MDCCCXXVIII' (1828) in this scan's OCR (file line 189); host record: date 1828, possible-copyright-status NOT_IN_COPYRIGHT.
 Language: grc (Greek with parallel or following Latin translation; the Latin and Greek share the OCR file; see the content note)
 Source: Internet Archive item historiarumlibr00schogoog (archive.org/details/historiarumlibr00schogoog), full-text file historiarumlibr00schogoog_djvu.txt, fetched directly by the Library thread, October 2026.
-Provenance note: Header prepended by the Library thread; the OCR text follows it unchanged. Nothing was stripped, normalised, corrected, re-spaced or retyped (the long s glyph occurs 0 times and was left as found). The Google Books boilerplate page at the head of the OCR is left in place. The file is 2309014 bytes, 1620368 characters and 33654 lines. OCR quality sampled at the title pages and at about 5%, 50% and 95% of the file (lines 1682, 16827 and 31971): Latin clean; Greek polytonic readable with occasional slips.
+Provenance note: Header prepended by the Library thread; the OCR text follows it unchanged. Nothing was stripped, normalised, corrected, re-spaced or retyped (the long s glyph occurs 0 times and was left as found). The Google Books boilerplate page at the head of the OCR is left in place. The OCR text that follows is 2309014 bytes, 1620368 characters and 33654 lines. OCR quality sampled at the title pages and at about 5%, 50% and 95% of the file (lines 1695, 16840 and 31984): Latin clean; Greek polytonic readable with occasional slips.
 Content note: Volume 1 of the Bonn edition: Books I and II, from the death of Michael IX (1320) to the end of 1341, with the editor's preface and Kantakouzenos's life. Book II carries the first Hesychast synod of 1341 and the quarrel with Barlaam. Kantakouzenos is the emperor who backed Palamas, later signed the Hagioritic Tome as the monk Joasaph, and wrote the history from his own side. Volumes 2 and 3 (Books III and IV, to 1356) are vendored beside this one. Greek above, Latin below, with textual notes.
 
 ---

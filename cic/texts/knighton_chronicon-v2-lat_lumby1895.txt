@@ -4,7 +4,7 @@ Publisher: London: printed for Her Majesty's Stationery Office by Eyre and Spott
 Publication Date: 1895
 Rights: Public Domain
 Rights basis: The imprint reads 1895 in the OCR. The host record gives 1889, which is the date of volume I; this volume's own imprint says 1895. The item record carries no rights field.
-Language: lat (Latin chronicle with an English preface and notes)
+Language: lat
 Source: Internet Archive item chroniconhenrici02knig (archive.org/details/chroniconhenrici02knig), full-text file chroniconhenrici02knig_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 1106645 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: The opening is the Rolls notice, readable apart from stray marks. The Latin text in the middle reads with errors of about one word in fifteen. The end is a list of Rolls volumes, readable.
 Content note: Volume II of the Leicester canon's chronicle, whose later pages describe Wyclif, his disciples Nicholas Hereford and John Aston, William Swyndurby (Swinderby) of Leicester, and the Lollards' doctrines, from a hostile but close eye-witness. Volume I (to 1361) was not vendored. The Rolls Series notice at the head and a marked errata list are left in place.

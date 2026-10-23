@@ -4,7 +4,7 @@ Publisher: Bonn: P. Hanstein's Verlag, 1902
 Publication Date: 1902
 Rights: Public Domain
 Rights basis: The title page reads 'Bonn 1902' in the OCR. The item record carries possible-copyright-status NOT_IN_COPYRIGHT.
-Language: gml (Middle Low German and Middle Dutch texts with a German introduction and commentary)
+Language: gml
 Source: Internet Archive item quellenundforsc00langgoog (archive.org/details/quellenundforsc00langgoog), full-text file quellenundforsc00langgoog_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 459003 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: English and German Google boilerplate at the opening. The German introduction and the Low German text read cleanly in the sampled passages (a sermon-like passage in the middle reads with only minor errors). The end is the closing discussion.
 Content note: Langenberg's study with printed texts: Groote's tract on simony and the beguines ('de Simonia ad beguttas'), Low German poems, a lay rule of the fifteenth century (identified by the author as Dietrich Engelhusen's), a letter on unchastity, and a decalogue explanation from the Groote manuscript at Münster, followed by a discussion of Low German mysticism and Meister Eckhart. The surviving Groote text is in Middle Dutch/Low German, not Latin. The book is half edition, half scholarship. The Google Books boilerplate at the head is left in place.

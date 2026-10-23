@@ -4,7 +4,7 @@ Publisher: Tübingen: Litterarischer Verein in Stuttgart, 1871 (printed by H. La
 Publication Date: 1871
 Rights: Public Domain
 Rights basis: The title page reads 'TUEBINGEN 1871' in the OCR; the host record gives 1871. The item record carries the Public Domain Mark 1.0.
-Language: gmh (late Middle High German with a German introduction and notes)
+Language: gmh
 Source: Internet Archive item bub_gb_ehY3AAAAMAAJ (archive.org/details/bub_gb_ehY3AAAAMAAJ), full-text file bub_gb_ehY3AAAAMAAJ_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 1334789 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Roman type with frequent letter errors in the text pages ('Mngt' for 'Müegt', 'wii', 'Icest'); the introduction reads better than the verse and notes. The end is the notes. About one word in six carries an error in the sampled text pages.
 Content note: The Engelthal sister-book (the book of the graces of the Dominican convent of Engelthal near Nuremberg), edited by Schröder, with a long German introduction and notes. The host and the census-style attribution to Christina Ebner follow the title page's 'Der Nonne von Engelthal'; this file does not decide who compiled the book. The file includes the society's list of officers and members before the title page.

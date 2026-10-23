@@ -5,7 +5,7 @@ authors_ruled:
     kind: anonymous
     evidence: >-
       Mansi tom. 31 prints 'FLORENTINUM OECUMENICUM CONCILIUM' with the acts of Ferrara and Florence (index, file
-      lines 1135-1300; the decree Laetentur caeli near file lines 73459 and 97358); a council text, no single author.
+      lines 1148-1313; the decree Laetentur caeli near file lines 73472 and 97371); a council text, no single author.
     from_file: >-
       mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt
 assignments:
@@ -15,7 +15,9 @@ assignments:
     Acts of the Council of Ferrara-Florence (1438-1439), Latin and Greek, with the decree Laetentur caeli, in Mansi
     tom. 31
   author: council-of-ferrara-florence-1438-1445
-  locus: index at file lines 1135-1300; decree near 97358
+  locus: >-
+    index at file lines 1148-1313; the Florentine acts from about 46129 (page 465) to 98907 (page 1058); decree
+    near 97371
   atlas_ids:
   - byzantine-church-palaiologan
   role: tradition

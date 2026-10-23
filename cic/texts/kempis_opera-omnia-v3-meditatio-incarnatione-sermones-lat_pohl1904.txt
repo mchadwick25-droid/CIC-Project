@@ -4,7 +4,7 @@ Publisher: Freiburg im Breisgau: Herder, 1904 (title page 'MDCCCCIIII'), Opera o
 Publication Date: 1904
 Rights: Public Domain
 Rights basis: The title page reads 'MDCCCCIIII' (1904) in the OCR; the host record gives 1904. The host record carries no rights field. Published before 1930.
-Language: lat (Latin text with Latin critical apparatus; the Alphabetum monachi is in Middle Dutch)
+Language: lat
 Source: Internet Archive item operaomnia0002thom (archive.org/details/operaomnia0002thom), full-text file operaomnia0002thom_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 557840 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Latin in Roman type with stray marks in the front pages. The sampled text pages read with occasional errors; the end is the scripture-reference index, which reads as columns of fragments.
 Content note: Volume 3 of Pohl's edition: the Meditation on the Incarnation of Christ, the Sermons on the life and passion of the Lord, the Alphabetum monachi (the one Middle Dutch piece, a short rule of listening and speaking), prayers on the Passion and the Virgin, with the editor's apparatus. Scully's 1907 English (kempis_meditation-on-the-incarnation-sermons-life-passion_scully1907.txt) is made from this volume.

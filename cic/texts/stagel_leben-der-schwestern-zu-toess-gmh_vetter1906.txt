@@ -4,10 +4,10 @@ Publisher: Berlin: Weidmannsche Buchhandlung, 1906 (Deutsche Texte des Mittelalt
 Publication Date: 1906
 Rights: Public Domain
 Rights basis: The title page reads 'BERLIN, Weidmannsche Buchhandlung 1906' in the OCR. The item record carries the Public Domain Mark 1.0. The editor died in 1924.
-Language: gmh (Alemannic Middle High German with a German introduction, notes and glossary)
+Language: gmh
 Source: Internet Archive item DasLebenDerSchwesternZuToss (archive.org/details/DasLebenDerSchwesternZuToss), full-text file Das_Leben_der_Schwestern_zu_Toss_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 497827 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Roman-type Middle High German, clean in the sampled passages. At the opening the Google German boilerplate is clean; the contents list and the lives read cleanly; the middle passage reads cleanly; the end is the glossary.
-Content note: The Töss sister-book, the lives of the Dominican sisters of Töss near Winterthur, in the critical edition, with Meier's preface and the Life of Elisabeth of Hungary. The attribution to Elsbeth Stagel is the title page's. The Google Books boilerplate pages at the head are left in place; the German is the Google notice. The glossary at the end explains the dialect words.
+Content note: The Töss sister-book, the lives of the Dominican sisters of Töss near Winterthur, in the critical edition, with Meier's preface and the Life of Elisabeth of Hungary. The attribution to Elsbeth Stagel is the title page's. The Google Books boilerplate pages (in German) at the head are left in place. The glossary at the end explains the dialect words.
 
 ---
 

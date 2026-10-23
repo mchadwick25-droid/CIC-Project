@@ -4,7 +4,7 @@ Publisher: London: Kegan Paul, Trench, Trübner & Co., ltd., for the Early Engli
 Publication Date: 1917
 Rights: Public Domain
 Rights basis: The title page reads 'Original Series, No. 151. 1917 (for 1915)' in the OCR. The host record gives 1917 and carries no rights field. A British publication of 1917, before 1930.
-Language: enm (Middle English text with an English introduction, notes and glossary)
+Language: enm
 Source: Internet Archive item 30081000924567 (archive.org/details/30081000924567), full-text file 30081000924567_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 618410 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Library marks at the opening ('Yy', 'DEMCO'). The Middle English text reads cleanly in the sampled passages; thorn and yogh come through as p/3 or 'f'. The end is the glossary.
 Content note: The Lanterne of Light, a Lollard tract on the church and its enemies, from the British Museum manuscript Harley 2324, with Swinburn's introduction and notes on the movement's tracts. The scan is a Vanderbilt library copy with a date-due card at the head. Another scan, bwb_T3-CBS-701, is on the host (not vendored).

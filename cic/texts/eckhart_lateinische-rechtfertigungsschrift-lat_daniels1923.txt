@@ -4,7 +4,7 @@ Publisher: Münster i. W.: Aschendorffsche Verlagsbuchhandlung, 1923 (Texte und 
 Publication Date: 1923
 Rights: Public Domain
 Rights basis: The title page reads 'MUENSTER i. W. 1923' in the OCR; the host record gives 1923. German publication of 1923, before 1930, so public domain by date. The host record carries no rights field.
-Language: lat (Latin text with German introduction and apparatus)
+Language: lat
 Source: Internet Archive item einelateinischer0000eckh (archive.org/details/einelateinischer0000eckh), full-text file einelateinischer0000eckh_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 203874 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Readable Latin and German. The title page and front matter are noisy ('DERE MUNERE El ee ERAT'). The body reads cleanly in the sampled passages; the end is an index of names.
 Content note: The Latin defence that Eckhart wrote in his own cause, edited from the manuscript with a German foreword, introduction and critical apparatus. It is Eckhart's own voice in Latin during the Cologne proceedings, and the nearest text in the library to the case that ended in the bull In agro dominico (1329). The bull itself and the trial acts are not in this file. The Latin has no public-domain English translation found (see the dossier).

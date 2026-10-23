@@ -4,14 +4,14 @@ authors_ruled:
     kind: metadata-omission
     evidence: >-
       The title page of tomus CLII names 'Joannis Cyparissiotae' among those added to Calecas; his notice at file
-      line 49600 ('JOANNES CYPARISSIOTA'); the file's leading slug is calecas.
+      line 49613 ('JOANNES CYPARISSIOTA'); the file's leading slug is calecas.
     from_file: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
   patriarchate-of-constantinople-register-1310-1372:
     kind: anonymous
     evidence: >-
       Tomus CLII prints, from col. 1033, the 'Diplomata, Synodicae constitutiones, Epistolae' of the patriarchs
       John Glykys, Esaias, John Calecas, Isidore, Callistus and Philotheos, 1310-1372 (running heads from file line
-      81562); a series of patriarchal acts, no single author.
+      81575); a series of patriarchal acts, no single author.
     from_file: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
 assignments:
 - row_id: >-
@@ -20,7 +20,7 @@ assignments:
     Patriarchal diplomata, synodal constitutions and letters of John Glykys, Esaias, John Calecas, Isidore, Callistus
     and Philotheos (1310-1372), Greek with Latin, in Migne PG 152
   author: patriarchate-of-constantinople-register-1310-1372
-  locus: from file line 81562
+  locus: from file line 81575
   atlas_ids:
   - byzantine-church-palaiologan
   role: tradition
@@ -32,7 +32,7 @@ assignments:
     calecas_opera-omnia-pg152-grc-lat_migne1866--patriarchal-diplomata-synodal-constitutions-and-letters-1310
   work: Patriarchal diplomata, synodal constitutions and letters (1310-1372), in Migne PG 152
   author: patriarchate-of-constantinople-register-1310-1372
-  locus: from file line 81562
+  locus: from file line 81575
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: tradition
@@ -47,7 +47,7 @@ assignments:
     Migne PG 152
   author: cyparissiota
   locus: >-
-    notice from file line 49600; the Transgressions from about 49715; the Decades from about 50295
+    notice from file line 49613; the Transgressions from about 49728; the Decades from about 50308
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: context
@@ -61,7 +61,7 @@ assignments:
     Manuel Calecas, Against the errors of the Greeks, De essentia et operatione and De fide, Latin from the Greek,
     in Migne PG 152
   author: calecas
-  locus: from the elenchus; De essentia et operatione from file line 19292
+  locus: from the elenchus; De essentia et operatione from file line 19305
   atlas_ids:
   - byzantine-church-palaiologan
   role: context
@@ -73,7 +73,7 @@ assignments:
     calecas_opera-omnia-pg152-grc-lat_migne1866--manuel-calecas-de-essentia-et-operatione-in-migne-pg-152
   work: Manuel Calecas, De essentia et operatione, in Migne PG 152
   author: calecas
-  locus: from file line 19292
+  locus: from file line 19305
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: context

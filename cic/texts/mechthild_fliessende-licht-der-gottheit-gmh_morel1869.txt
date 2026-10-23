@@ -4,7 +4,7 @@ Publisher: Regensburg: Georg Joseph Manz, 1869
 Publication Date: 1869
 Rights: Public Domain
 Rights basis: The host record gives 1869; the title-page year is garbled in the OCR ('1 t\(i02^'). The item record carries possible-copyright-status NOT_IN_COPYRIGHT. The author died in the thirteenth century.
-Language: gmh (Middle High German from the Einsiedeln manuscript with a German preface and glossary)
+Language: gmh
 Source: Internet Archive item offenbarungende00moregoog (archive.org/details/offenbarungende00moregoog), full-text file offenbarungende00moregoog_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 605420 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Roman-type Middle High German. Opening preface in German reads cleanly. The middle text reads with scattered errors ('iamert', 'wip', 'schriben'). The end is the glossary, readable with some errors.
 Content note: Mechthild's Flowing Light of the Godhead from the single Einsiedeln manuscript, in the Alemannic text, with Morel's preface and a short glossary. Mechthild lived in the thirteenth century and is outside this world's window. She is vendored as the antecedent the Rhineland preachers read, and as a Beguine voice. The English (Menzies, 1953) is closed.

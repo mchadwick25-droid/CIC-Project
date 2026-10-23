@@ -11,7 +11,7 @@ assignments:
     palamas_homiliae-41-grc_jerusalem1857--gregory-palamas-forty-one-homilies-greek-jerusalem-1857
   work: Gregory Palamas, forty-one homilies, Greek, Jerusalem 1857 (first edition)
   author: palamas
-  locus: homilies after the prolegomena (file line 124); Homily XI at 17176
+  locus: homilies after the prolegomena (file line 137); Homily XI at 17189
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: tradition
@@ -26,7 +26,7 @@ assignments:
     Philotheos Kokkinos and Neilos of Constantinople, panegyrics of Gregory Palamas, Greek, in the Jerusalem edition
     of 1857
   author: philotheos-kokkinos
-  locus: before the prolegomena, file lines 80-124
+  locus: before the prolegomena (file line 137)
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
   role: tradition

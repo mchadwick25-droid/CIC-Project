@@ -4,7 +4,7 @@ Publisher: Westminster: Archibald Constable and Co., Ltd., 1903
 Publication Date: 1903
 Rights: Public Domain
 Rights basis: The title page reads 'ARCHIBALD CONSTABLE AND CO., LTD. 1903' (Westminster) in the OCR. The item record carries possible-copyright-status NOT_IN_COPYRIGHT.
-Language: enm (Middle English and early modern English texts with an English introduction)
+Language: enm
 Source: Internet Archive item fifteenthcentur01pollgoog (archive.org/details/fifteenthcentur01pollgoog), full-text file fifteenthcentur01pollgoog_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 577053 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Opening reads cleanly. The middle sample is a Lollard-trial passage that reads cleanly. The end is a theatre lawsuit's depositions, readable.
 Content note: An English Garner volume. It is vendored for the Examination of Master William Thorpe, priest, of heresy before Archbishop Arundel in 1407 (Thorpe's own account), with Pollard's remarks on the Wycliffite translations in the introduction. The rest of the volume (carols, a miracle play, a morality, Caxton's prefaces, Robin Hood ballads) does not belong to this world.

@@ -4,7 +4,7 @@ Publisher: London: Longman, Green, Longman, Roberts, and Green (Rolls Series, pu
 Publication Date: 1863 (host catalogue; the title page imprint reads '1884' in the OCR, a misreading, and no date later than 1930 is possible on either reading)
 Rights: Public Domain
 Rights basis: The host record gives 1863. The title page imprint is read as '1884' in the OCR, and the volume's own list of Rolls Series volumes ends with entries dated 1863. Public domain by date on either reading. The item record carries no rights field.
-Language: lat (Latin chronicle with an English preface and notes)
+Language: lat
 Source: Internet Archive item thomaewalsingham02wals (archive.org/details/thomaewalsingham02wals), full-text file thomaewalsingham02wals_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 1823000 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Rolls Series notice at the opening, readable; the Latin text in the middle reads with errors of about one word in twelve ('aed', 'ct', 'uxorcm'); the end is the index, readable.
 Content note: Volume II of Walsingham's Historia Anglicana, the St Albans monk's chronicle of 1381 to 1422: the Peasants' Revolt, Wyclif and the Lollards, Archbishop Arundel and Sir John Oldcastle. The monk is a hostile contemporary witness. Volume I (to 1381) was not vendored. A Google scan of the same volume is thomwalsinghamh00walsgoog (not vendored).

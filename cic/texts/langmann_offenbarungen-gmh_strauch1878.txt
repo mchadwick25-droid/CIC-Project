@@ -4,7 +4,7 @@ Publisher: Strassburg: Karl J. Trübner, 1878
 Publication Date: 1878
 Rights: Public Domain
 Rights basis: The host record gives 1878; the preface is dated 'Tübingen im December 1877' in the OCR. The title-page year is not readable in the OCR. The item record carries possible-copyright-status NOT_IN_COPYRIGHT.
-Language: gmh (Middle High German with a German introduction, notes and sources)
+Language: gmh
 Source: Internet Archive item dieoffenbarunge00stragoog (archive.org/details/dieoffenbarunge00stragoog), full-text file dieoffenbarunge00stragoog_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 2048587 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Roman type. The text pages read with errors of about one word in eight ('ai scr wundernt'); the apparatus and the dialect tables are noisy ('o = tti (BG39)'); the end is source notes in Latin, readable.
 Content note: The Revelations of Adelheid Langmann of Engelthal, edited with a long introduction, a dialect study, notes on sources and a glossary. The text is the nun's own record of her visions and her convent's life. The Google Books boilerplate pages are left in place. Much of the file is apparatus.

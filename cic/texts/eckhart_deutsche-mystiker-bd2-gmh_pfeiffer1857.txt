@@ -4,7 +4,7 @@ Publisher: Leipzig: G. J. Göschen'sche Verlagshandlung, 1857
 Publication Date: 1857
 Rights: Public Domain
 Rights basis: The title page imprint reads 1857 in the OCR (both the series title page and the volume title page). The item record carries possible-copyright-status NOT_IN_COPYRIGHT. The editor died in 1868.
-Language: gmh (Middle High German texts with a German preface and notes)
+Language: gmh
 Source: Internet Archive item deutschemystike01mystgoog (archive.org/details/deutschemystike01mystgoog), full-text file deutschemystike01mystgoog_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 2181584 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Roman-type Middle High German with scattered letter errors. At the opening the preface reads cleanly. In the middle a sermon passage reads with errors of about one word in ten ('prophetcn', 'bewlset', 'Cur' for 'fiur'); the end is the notes and apparatus, readable with the same kind of errors.
 Content note: Pfeiffer's edition of Eckhart's German sermons and tractates, the older standard edition whose numbering later works still cite. The volume title page reads 'Erste Abtheilung'. The preface, the list of manuscripts and the notes are Pfeiffer's German. The Google Books boilerplate pages at the head are left in place. A 1906 Göttingen reprint of the same edition is on the host as deutschemystiker02pfei and was not vendored (same edition, a second scan).

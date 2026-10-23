@@ -3,11 +3,11 @@ Creator: Nikephoros Gregoras (1295-1359 or 1360 per the host catalogue), Byzanti
 Publisher: Bonn: Impensis Ed. Weberi, 1830 (Corpus scriptorum historiae Byzantinae)
 Publication Date: 1830
 Rights: Public Domain
-Rights basis: the title page reads 'MDCCCXXX' (1830) in this scan's OCR (file line 173); host record: date 1829, possible-copyright-status NOT_IN_COPYRIGHT.
+Rights basis: the title page reads 'MDCCCXXX' (1830) in this scan's OCR (file line 186); host record: date 1829, possible-copyright-status NOT_IN_COPYRIGHT.
 Language: grc (Greek with parallel or following Latin translation; the Latin and Greek share the OCR file; see the content note)
 Source: Internet Archive item nicephorigregor02schogoog (archive.org/details/nicephorigregor02schogoog), full-text file nicephorigregor02schogoog_djvu.txt, fetched directly by the Library thread, October 2026.
-Provenance note: Header prepended by the Library thread; the OCR text follows it unchanged. Nothing was stripped, normalised, corrected, re-spaced or retyped (the long s glyph occurs 0 times and was left as found). The Google Books boilerplate page at the head of the OCR is left in place. The file is 3061223 bytes, 2258134 characters and 57634 lines. OCR quality sampled at the title pages and at about 5%, 50% and 95% of the file (lines 2881, 28817 and 54752): Greek polytonic clean; Latin clean.
-Content note: Volume 2 of the Bonn edition: Books XII to XXIV (the 1320s to 1351), which hold Gregoras's account of the Barlaam and Akindynos affair, the synods of 1341, 1347 and 1351 and his own breach with Palamas. Gregoras is the anti-Palamite witness whose side was condemned in 1351. Book numbers are given in the file (LIBER XII at line 213 to LIBER XXIV at 34827). Volume 3 (Books XXV-XXXVII) is vendored beside this one. Greek above, Latin below, with Boivin's and Capperonnier's notes.
+Provenance note: Header prepended by the Library thread; the OCR text follows it unchanged. Nothing was stripped, normalised, corrected, re-spaced or retyped (the long s glyph occurs 0 times and was left as found). The Google Books boilerplate page at the head of the OCR is left in place. The OCR text that follows is 3061223 bytes, 2258134 characters and 57634 lines. OCR quality sampled at the title pages and at about 5%, 50% and 95% of the file (lines 2894, 28830 and 54765): Greek polytonic clean; Latin clean.
+Content note: Volume 2 of the Bonn edition: Books XII to XXIV (the 1320s to 1351), which hold Gregoras's account of the Barlaam and Akindynos affair, the synods of 1341, 1347 and 1351 and his own breach with Palamas. Gregoras is the anti-Palamite witness whose side was condemned in 1351. Book numbers are given in the file (LIBER XII at line 226 to LIBER XXIV at 34840). Volume 3 (Books XXV-XXXVII) is vendored beside this one. Greek above, Latin below, with Boivin's and Capperonnier's notes.
 
 ---
 

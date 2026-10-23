@@ -4,7 +4,7 @@ Publisher: 's-Gravenhage: Gebr. Belinfante, 1886 (the preface is dated Utrecht, 
 Publication Date: 1886
 Rights: Public Domain
 Rights basis: The host record gives 1886 and the preface is dated 'Utrecht, 20 Januari 1886' in the OCR. The item record carries possible-copyright-status NOT_IN_COPYRIGHT.
-Language: dum (Middle Dutch lives with a modern Dutch preface and notes)
+Language: dum
 Source: Internet Archive item hetkloostervand00opzogoog (archive.org/details/hetkloostervand00opzogoog), full-text file hetkloostervand00opzogoog_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 271289 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Google boilerplate in English and Dutch at the opening. The Dutch preface reads cleanly in the sampled passages. The middle Middle Dutch text reads with scattered letter errors; the end is the final lives and the printer's list.
 Content note: The sisters' own convent book from Diepenveen: lives of devout sisters of the house, beginning with that of the mother Salome Sticke, printed from a manuscript with a modern Dutch preface. The preface says the manuscript is one of two in the library of the Gelder tower, the other holding lives from the sisters' house of Master Geert (Groote) at Deventer, and says it prints only the first part. No public-domain English found. Collective women's memory in the movement's own genre, as the census names it.

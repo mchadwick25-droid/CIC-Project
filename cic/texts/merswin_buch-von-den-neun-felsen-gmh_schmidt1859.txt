@@ -4,7 +4,7 @@ Publisher: Leipzig: S. Hirzel, 1859
 Publication Date: 1859
 Rights: Public Domain
 Rights basis: The title page reads 'I 85 9' (1859) in the OCR; the host record gives 1859. The item record carries the Public Domain Mark 1.0.
-Language: gmh (late Middle High German, Alemannic, with a German preface and notes)
+Language: gmh
 Source: Internet Archive item bub_gb_w7oMAQAAIAAJ (archive.org/details/bub_gb_w7oMAQAAIAAJ), full-text file bub_gb_w7oMAQAAIAAJ_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 324750 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Roman type with long s systematically read as f in places ('fprach', 'wifsen', 'ift'), and the occasional broken letter. The preface at the opening reads with fewer errors. The end is the last vision, readable with the same f-for-s pattern. Another scan of the same edition (dasbuchvondenne00mersgoog) shows the same pattern.
 Content note: The Book of the Nine Rocks, a vision of the corruption of Christendom and the ladder of the spiritual life, edited from the author's autograph. Written under the influence of the 'Friend of God from the Oberland'. Schmidt's preface sets out the Friends-of-God circle and the Strasbourg house of the Knights of St John. Other Friends-of-God texts (the Four Years of his Beginning, Nicholas of Basel's tracts) are discussed but are not in this volume.

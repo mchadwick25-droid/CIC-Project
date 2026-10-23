@@ -4,7 +4,7 @@ Publisher: Freiburg (Switzerland): Commissionsverlag der Universitaetsbuchhandlu
 Publication Date: 1895
 Rights: Public Domain
 Rights basis: The title page reads 'MDCCCXCV' (1895) in the OCR. The host record gives 1895 and carries no rights field. The editor died in 1925.
-Language: gmh (Middle High German texts with a German introduction and notes)
+Language: gmh
 Source: Internet Archive item meistereckhartun00eckh (archive.org/details/meistereckhartun00eckh), full-text file meistereckhartun00eckh_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 496753 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: The opening (introduction, in Roman type) reads cleanly. The text pages in the middle are partly garbled ('diiii;', 'i,'ot', 'i;ot' for 'got'). The end is a manuscript list and reads clearly.
 Content note: Unprinted Eckhart texts and texts from his circle, with Jostes's introduction and notes. A supplement to Pfeiffer's edition. The sampled middle passage is partly garbled. Part of the book is lists of manuscripts and a note on the Engelthal library.

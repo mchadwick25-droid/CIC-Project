@@ -4,7 +4,7 @@ Publisher: London: published for the Wyclif Society by Trübner & Co., 1887
 Publication Date: 1887
 Rights: Public Domain
 Rights basis: The title page reads '1887' in the OCR. The item record carries possible-copyright-status NOT_IN_COPYRIGHT.
-Language: lat (Latin text with an English introduction and side-notes)
+Language: lat
 Source: Internet Archive item iohanniswyclifs01mattgoog (archive.org/details/iohanniswyclifs01mattgoog), full-text file iohanniswyclifs01mattgoog_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 1215236 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: The opening (introduction) reads cleanly in English; the Latin text in the middle reads with scattered errors of about one word in twelve ('tuot', 'ymmo' for 'immo', 'auJitur'). The end is the index and reads with errors.
 Content note: Wyclif's Latin sermons on the Sunday Gospels, volume I of four, with Loserth's long introduction on the sermon corpus. The volumes on the saints' days and the mixed sermons (II to IV) are later Wyclif Society volumes and were not vendored. The Middle English sermons in Arnold's Select English Works, already vendored, are a separate corpus.

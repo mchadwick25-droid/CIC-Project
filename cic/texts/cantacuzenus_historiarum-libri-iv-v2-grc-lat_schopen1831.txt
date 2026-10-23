@@ -3,10 +3,10 @@ Creator: John VI Kantakouzenos, emperor and later the monk Joasaph; Greek text e
 Publisher: Bonn: Impensis Ed. Weberi, 1831 (Corpus scriptorum historiae Byzantinae)
 Publication Date: 1831
 Rights: Public Domain
-Rights basis: the title page reads 'MDCCCXXXI' (1831) in this scan's OCR (file lines 102 and 141); the item record carries the Public Domain Mark 1.0 licence (creativecommons.org/publicdomain/mark/1.0/).
+Rights basis: the title page reads 'MDCCCXXXI' (1831) in this scan's OCR (file lines 115 and 154); the item record carries the Public Domain Mark 1.0 licence (creativecommons.org/publicdomain/mark/1.0/).
 Language: grc (Greek with parallel or following Latin translation; the Latin and Greek share the OCR file; see the content note)
 Source: Internet Archive item bub_gb_NuUPAAAAQAAJ (archive.org/details/bub_gb_NuUPAAAAQAAJ), full-text file bub_gb_NuUPAAAAQAAJ_djvu.txt, fetched directly by the Library thread, October 2026.
-Provenance note: Header prepended by the Library thread; the OCR text follows it unchanged. Nothing was stripped, normalised, corrected, re-spaced or retyped (the long s glyph occurs 0 times and was left as found). The Google Books boilerplate page at the head of the OCR is left in place. The file is 2412026 bytes, 1670874 characters and 34557 lines. OCR quality sampled at the title pages and at about 5%, 50% and 95% of the file (lines 1727, 17278 and 32829): Latin clean; Greek polytonic readable with occasional slips.
+Provenance note: Header prepended by the Library thread; the OCR text follows it unchanged. Nothing was stripped, normalised, corrected, re-spaced or retyped (the long s glyph occurs 0 times and was left as found). The Google Books boilerplate page at the head of the OCR is left in place. The OCR text that follows is 2412026 bytes, 1670874 characters and 34557 lines. OCR quality sampled at the title pages and at about 5%, 50% and 95% of the file (lines 1740, 17291 and 32842): Latin clean; Greek polytonic readable with occasional slips.
 Content note: Volume 2 of the Bonn edition: Book III, the civil war and its settlement (1341-1347), which includes the synod of 1347 that deposed Patriarch John Calecas and the coronation of Kantakouzenos by Patriarch Isidore. The second title page in the OCR reads 'VOLUMEN 1' where the first reads 'VOLUMEN II'; the content is Book III. Greek above, Latin below.
 
 ---

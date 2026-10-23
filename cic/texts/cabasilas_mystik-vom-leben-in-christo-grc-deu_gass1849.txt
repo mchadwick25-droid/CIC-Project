@@ -3,10 +3,10 @@ Creator: Nicholas Cabasilas, lay theologian of Thessalonica; first printed editi
 Publisher: Greifswald: C. A. Koch'sche Verlagshandlung (Th. Kunike); London: D. Nutt, 1849
 Publication Date: 1849
 Rights: Public Domain
-Rights basis: the title page reads '1849' in this scan's OCR (file line 137); host record: date 1849, possible-copyright-status NOT_IN_COPYRIGHT.
+Rights basis: the title page reads '1849' in this scan's OCR (file line 150); host record: date 1849, possible-copyright-status NOT_IN_COPYRIGHT.
 Language: deu (German introduction and notes; the Greek of the edition is garbled in the OCR; see the content note)
 Source: Internet Archive item diemystikdesnik00kavagoog (archive.org/details/diemystikdesnik00kavagoog), full-text file diemystikdesnik00kavagoog_djvu.txt, fetched directly by the Library thread, October 2026.
-Provenance note: Header prepended by the Library thread; the OCR text follows it unchanged. Nothing was stripped, normalised, corrected, re-spaced or retyped (the long s glyph occurs 0 times and was left as found). The Google Books boilerplate page at the head of the OCR is left in place. The file is 952567 bytes, 933996 characters and 22123 lines. OCR quality sampled at the title pages and at about 5%, 50% and 95% of the file (lines 1106, 11061 and 21016): German text clean; the Greek of the edition garbled into Latin letters throughout.
+Provenance note: Header prepended by the Library thread; the OCR text follows it unchanged. Nothing was stripped, normalised, corrected, re-spaced or retyped (the long s glyph occurs 0 times and was left as found). The Google Books boilerplate page at the head of the OCR is left in place. The OCR text that follows is 952567 bytes, 933996 characters and 22123 lines. OCR quality sampled at the title pages and at about 5%, 50% and 95% of the file (lines 1119, 11074 and 21029): German text clean; the Greek of the edition garbled into Latin letters throughout.
 Content note: Gass's German study of Cabasilas's mysticism and the first edition of the Greek Life in Christ (the opening epigraph cites 'Cabas. lib. VII'). The German is clean; the Greek of the edition is rendered by the OCR in Latin letters and symbols and is not usable. This is a second witness for the Greek and a readable German witness for how the book was first described. Cabasilas's Life in Christ is also in Latin in the Migne volume vendored as palamas_opera-omnia-pg150-grc-lat_migne1865.txt.
 
 ---

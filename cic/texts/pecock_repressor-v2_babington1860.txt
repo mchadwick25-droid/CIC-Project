@@ -4,7 +4,7 @@ Publisher: London: Longman, Green, Longman, and Roberts, 1860 (Rolls Series, pub
 Publication Date: 1860
 Rights: Public Domain
 Rights basis: The Rolls imprint reads 1860 in the OCR. The item record gives 1860 and carries no rights field.
-Language: enm (Middle English text with an English introduction and notes)
+Language: enm
 Source: Internet Archive item repressorofoverm02peco (archive.org/details/repressorofoverm02peco), full-text file repressorofoverm02peco_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 1016616 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Opening is the Rolls Series notice. The Middle English text in the middle reads cleanly, with thorn and yogh rendered as plain letters. The end is Babington's notes and the college register notes, readable.
 Content note: Volume II of Pecock's Repressor (written about 1449), the bishop's long English defence of images, pilgrimage, endowments and church usage against the Lollards' appeal to the Bible alone. Hostile to the movement, and the most careful hostile argument in English. Babington's introduction and notes are in volume I. The Rolls Series boilerplate and the library stamp at the head are left in place.
