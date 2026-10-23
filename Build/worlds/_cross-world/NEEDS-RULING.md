@@ -67,7 +67,7 @@ Five are shelves for material the corpus carries *about* a movement, registered 
 ## `latin-africa-under-byzantium` — 4 work(s)
 
 **Fulgentius of Ruspe's works and Ferrandus's Life of Fulgentius, Latin** · `ferrandus-carthage` · `fulgentius-ruspe`
-> The African church's leading theologian of the Vandal period (d. 527) and his Carthaginian biographer, who lived on into Justinian's reconquest; antecedent needs- ruling.
+> The African church's leading theologian of the Vandal period (d. 527) and his Carthaginian biographer, who lived on into Justinian's reconquest; antecedent needs-ruling.
 
 **Maximus the Confessor, Disputatio cum Pyrrho (Carthage, 645)** · `maximus-confessor` · `maximus-confessor`
 > Whether Maximus, a Greek monk who spent years in Africa, speaks for an African Latin church (tradition) or from outside is a needs-ruling named in the Latin Africa dossier. Second witness only.
