@@ -336,7 +336,7 @@ def test_reserve_refuses_a_count_below_one(meter):
         meter.reserve(code, 0)
 
 
-# ---- funds: what raises the door's ceiling ------------------------------------------
+# ---- funds: the money that came in ------------------------------------------
 
 def test_funds_add_by_kind_and_sum_over_the_last_seven_days(meter):
     meter.add_funds("gift", 2500, "pi_a")
@@ -426,23 +426,19 @@ def test_a_refused_mint_counts_nothing(meter):
     assert meter.measures(1)[0]["codes_single"] == 1
 
 
-def test_refusals_and_the_door_peak_are_kept_by_day(meter, clock):
+def test_refusals_are_kept_by_day(meter, clock):
     meter.measure("refused_no_code")
     meter.measure("refused_no_code", 2)
-    meter.measure_peak("door_stage", 2)
-    meter.measure_peak("door_stage", 1)
     clock.day = date(2026, 10, 6)
     meter.measure("refused_spent")
     today, yesterday = meter.measures(2)
     assert (today["day"], today["refused_spent"], today["refused_no_code"]) == (clock.day.isoformat(), 1, 0)
-    assert (yesterday["refused_no_code"], yesterday["door_stage"]) == (3, 2)
+    assert yesterday["refused_no_code"] == 3
 
 
 def test_an_unknown_measure_is_refused(meter):
     with pytest.raises(ValueError):
         meter.measure("visitors")
-    with pytest.raises(ValueError):
-        meter.measure_peak("refused_no_code", 1)
 
 
 def test_measures_with_nothing_to_show_are_an_empty_list(meter):

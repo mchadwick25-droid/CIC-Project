@@ -148,14 +148,14 @@ def test_many_accounts_behind_one_network_share_the_network_window(runtime):
     network = "net-1"
     drawn = 0
     for i in range(40):
-        held = free.account_reserve(f"acct-{i}", 5, 100, 1.0, network)
+        held = free.account_reserve(f"acct-{i}", 5, 100, network)
         if held is None:
             break
         free.settle(held, True)
         drawn += 100
     assert drawn == free.network_window_amount - free.network_window_amount % 100
-    assert free.account_reserve("acct-fresh", 5, 100, 1.0, network) is None
-    assert free.account_reserve("acct-fresh", 5, 100, 1.0, "other-net") is not None
+    assert free.account_reserve("acct-fresh", 5, 100, network) is None
+    assert free.account_reserve("acct-fresh", 5, 100, "other-net") is not None
 
 
 def test_the_allowance_row_and_the_meter_file_hold_no_raw_account_id(setup, runtime, accounts, mailer, tmp_path):
