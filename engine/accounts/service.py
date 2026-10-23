@@ -74,6 +74,8 @@ class Limits:
     provider_starts_per_coarse_network_15min: int = 120
     nonce_ttl_seconds: int = 600
     recovery_wait_days: int = 7
+    codes_per_account: int = 50
+    attaches_per_network_15min: int = 20
 
 
 @dataclass
@@ -709,6 +711,34 @@ class AccountsService:
         for account_id in self.contacts.pending_account_ids():
             if self.store.pending_of(account_id, include_unnotified=True) is None:
                 self.contacts.forget_pending(account_id)
+
+    # codes held ---------------------------------------------------------------------
+
+    def attach_code(self, session: Session, code_hash, network: str) -> Result:
+        """Makes a code the account's. The edge has already checked the code is real; here it is
+        kept only as a keyed scramble of its hash, so the account file holds nothing the meter
+        holds. A code belongs to one account; attaching it again to the same account counts once."""
+        if not self._allow("attach_net", self.keys.network_key(network), 900, self.limits.attaches_per_network_15min):
+            return Result("throttled")
+        if not isinstance(code_hash, str) or not 0 < len(code_hash) <= 128:
+            return Result("wrong")
+        held_as = self.keys.secret_candidates("code", code_hash)
+        outcome = self.store.attach_code(
+            session.account_id, held_as[0], held_as, self.today().isoformat(), self.limits.codes_per_account
+        )
+        if outcome in ("ok", "mine"):
+            return Result("ok")
+        return Result("code_taken" if outcome == "taken" else "codes_full")
+
+    def admission_context(self, cookie) -> dict | None:
+        """What the admission seam needs of a signed-in request: the account id, its refill day
+        and the scrambles of the codes it holds. None when the cookie is not a live session."""
+        session = self.session(cookie)
+        account = self.store.account(session.account_id) if session is not None else None
+        if account is None:
+            return None
+        return {"account_id": account.account_id, "refill_day": account.refill_day,
+                "scrambles": self.store.code_scrambles_of(account.account_id)}
 
     # what an account holds, and deletion ------------------------------------------------
 

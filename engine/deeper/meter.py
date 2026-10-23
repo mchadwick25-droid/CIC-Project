@@ -130,6 +130,11 @@ CREATE TABLE IF NOT EXISTS free_window (
     first_day TEXT NOT NULL,
     spent INTEGER NOT NULL CHECK (spent >= 0)
 ) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS account_window (
+    key_hash TEXT PRIMARY KEY,
+    window_start TEXT NOT NULL,
+    spent INTEGER NOT NULL CHECK (spent >= 0)
+) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS pilot_joined (
     key_hash TEXT PRIMARY KEY,
     joins INTEGER NOT NULL CHECK (joins > 0),
@@ -427,10 +432,17 @@ class Meter:
     def status(self, code: str | None) -> CodeStatus | None:
         """A code past its last day reads as spent, with nothing left, whatever it still held."""
         with self._lock:
-            row = self._lookup(code)
-            if row is None:
-                return None
-            expired = row[4] != VOID and _expired(row[6], self._clock())
+            return self._status_of(self._lookup(code))
+
+    def status_of_hash(self, code_hash: str) -> CodeStatus | None:
+        """The same for a code known by its hash, as an account holds it."""
+        with self._lock:
+            return self._status_of(self._row(code_hash))
+
+    def _status_of(self, row) -> CodeStatus | None:
+        if row is None:
+            return None
+        expired = row[4] != VOID and _expired(row[6], self._clock())
         return CodeStatus(
             kind=row[1], status=SPENT if expired else row[4], tokens_total=row[2], tokens_used=row[3],
             daily_ceiling=row[5], expires_on=row[6], expired=expired,
@@ -442,12 +454,20 @@ class Meter:
         (fewer than count remain), in_use (the rest are held by sittings in
         flight), daily_ceiling (a group code's day is full). A code past its
         last day is refused as spent."""
+        with self._lock:
+            return self._reserve_row(self._lookup(code), count)
+
+    def reserve_hash(self, code_hash: str, count: int = 1) -> Admission:
+        """The same for a code known by its hash, as an account holds it."""
+        with self._lock:
+            return self._reserve_row(self._row(code_hash), count)
+
+    def _reserve_row(self, row, count: int) -> Admission:
         if count < 1:
             raise ValueError("count must be at least 1")
         with self._lock:
             if self.is_paused():
                 return Admission(False, "paused")
-            row = self._lookup(code)
             if row is None:
                 return Admission(False, "unknown")
             code_hash, _kind, total, used, status, ceiling, expires_on = row
@@ -585,6 +605,56 @@ class Meter:
         this file. Without a secret given, one is made for this process only, so
         what was drawn is not remembered across a restart (tests and local use)."""
         return hmac.new(self._free_secret, visitor.encode("utf-8"), hashlib.sha256).hexdigest()[:32]
+
+    def live_code_hashes(self) -> list[str]:
+        """The hash of every code that is live with tokens left, for an account to find its own."""
+        with self._lock:
+            return [r[0] for r in self._conn.execute(
+                "SELECT code_hash FROM meter WHERE status = 'live' AND tokens_used < tokens_total"
+            )]
+
+    def code_generation(self) -> int:
+        """A number that changes when a code is added to or leaves the live set."""
+        with self._lock:
+            return self._conn.execute("SELECT COUNT(*) FROM meter WHERE status = 'live'").fetchone()[0]
+
+    def account_window_start(self, refill_day: int) -> date:
+        """The most recent refill day on or before today. A refill day is 1 to 28, so every month has it."""
+        today = self._clock()
+        if today.day >= refill_day:
+            return today.replace(day=refill_day)
+        last_month = today.replace(day=1) - timedelta(days=1)
+        return last_month.replace(day=refill_day)
+
+    def account_window_spent(self, key_hash: str, refill_day: int) -> int:
+        """What this account has drawn since its last refill day; 0 in a new window."""
+        start = self.account_window_start(refill_day).isoformat()
+        with self._lock:
+            row = self._conn.execute("SELECT window_start, spent FROM account_window WHERE key_hash = ?", (key_hash,)).fetchone()
+        return row[1] if row is not None and row[0] == start else 0
+
+    def account_window_spend(self, key_hash: str, refill_day: int, amount: int) -> None:
+        """Adds a settled draw to the account's current window; a new window starts from nothing."""
+        start = self.account_window_start(refill_day).isoformat()
+        with self._lock:
+            self._conn.execute(
+                "INSERT INTO account_window (key_hash, window_start, spent) VALUES (?, ?, ?)"
+                " ON CONFLICT (key_hash) DO UPDATE SET"
+                " spent = CASE WHEN window_start = excluded.window_start THEN spent + excluded.spent ELSE excluded.spent END,"
+                " window_start = excluded.window_start",
+                (key_hash, start, amount),
+            )
+
+    def account_window_seed(self, key_hash: str, refill_day: int, spent: int) -> None:
+        """A new account starts with what is left of its browser's window: the amount that browser
+        had already drawn is entered as spent, once, and never overwrites a window already begun."""
+        if spent < 1:
+            return
+        start = self.account_window_start(refill_day).isoformat()
+        with self._lock:
+            self._conn.execute(
+                "INSERT OR IGNORE INTO account_window (key_hash, window_start, spent) VALUES (?, ?, ?)", (key_hash, start, spent)
+            )
 
     def free_window_spent(self, key_hash: str) -> int:
         """What this key has drawn in its current window; 0 once the window has ended."""
@@ -839,6 +909,9 @@ class Meter:
             ).rowcount
             removed += self._conn.execute(
                 "DELETE FROM free_window WHERE first_day <= ?", ((today - timedelta(days=self._free_window_days)).isoformat(),)
+            ).rowcount
+            removed += self._conn.execute(
+                "DELETE FROM account_window WHERE window_start <= ?", ((today - timedelta(days=62)).isoformat(),)
             ).rowcount
             removed += self._conn.execute(
                 "DELETE FROM daily WHERE day <= ?", ((today - timedelta(days=MEASURE_RETENTION_DAYS)).isoformat(),)

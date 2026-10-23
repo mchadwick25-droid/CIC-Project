@@ -16,6 +16,7 @@ import asyncio
 import logging
 import threading
 import time
+from datetime import timedelta
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from typing import Callable
@@ -30,6 +31,7 @@ from engine.accounts.contacts import ContactStore
 from engine.accounts.keys import AccountsKeyError, KeyRing, parse_previous
 from engine.accounts.service import AccountsService, Mailer, Result, Session
 from engine.accounts.store import AccountStore
+from engine.api.account_admission import account_context, code_index, real_code_hash
 from engine.api.contact_cipher import ContactCipher, ContactKeyError, parse_previous as parse_previous_contact
 from engine.api.provider_tokens import ProviderVerifier
 from engine.api.ratelimit import client_ip, network_of
@@ -54,6 +56,9 @@ MESSAGES = {
     "not_adult": "Accounts are open to people who are 18 or over. The way in for younger people, with a parent or teacher, is not available yet.",
     "recovery_waiting": "A recovery to this address is waiting until {day}. You can sign in here after that day.",
     "not_available": "That way of signing in is not available right now.",
+    "codes_unavailable": "Codes cannot be added right now.",
+    "code_taken": "That code belongs to another account.",
+    "codes_full": "This account holds as many codes as it can.",
     "provider_cannot_use": "That sign-in cannot be added to this account.",
     "last_method": "This is your only way to sign in. Add another way first.",
     "step_up_needed": "Please confirm your address with a fresh code first.",
@@ -193,6 +198,10 @@ class ProviderNameBody(BaseModel):
     provider: str = Field(max_length=20)
 
 
+class CodeBody(BaseModel):
+    code: str = Field(max_length=40)
+
+
 class ChallengeBody(BaseModel):
     challenge: str = Field(max_length=80)
     code: str = Field(max_length=40)
@@ -218,6 +227,21 @@ class CancelBody(BaseModel):
 
 def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     service = runtime.service
+    app.state.accounts = runtime
+
+    def _seed_allowance(request: Request, result: Result) -> None:
+        """A new account starts with what is left of its browser's free window, so signing up
+        is not a second allowance. A fault here never fails the sign-in."""
+        deeper = getattr(request.app.state, "deeper", None)
+        visitor = getattr(request.state, "visitor_id", None) or f"ip:{network_of(client_ip(request))}"
+        if not result.new_account or deeper is None or deeper.free is None or not visitor:
+            return
+        try:
+            context = service.admission_context(result.cookie)
+            if context is not None:
+                deeper.free.seed_account(context["account_id"], context["refill_day"], visitor)
+        except Exception:  # noqa: BLE001
+            logger.exception("a new account's allowance could not be seeded")
 
     def _guard(request: Request) -> None:
         if request.headers.get(CSRF_HEADER) != "1":
@@ -258,7 +282,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     async def _refuse(result: Result, *, delay: bool) -> None:
         if delay:
             await asyncio.sleep(runtime.miss_delay_seconds)
-        status = {"throttled": 429, "paused": 503, "send_failed": 503, "not_available": 404}.get(result.status, 400)
+        status = {"throttled": 429, "paused": 503, "send_failed": 503, "not_available": 404, "codes_unavailable": 404}.get(result.status, 400)
         raise HTTPException(status_code=status, detail=MESSAGES.get(result.status, "That did not work."))
 
     @app.post("/api/accounts/sign-in/start")
@@ -278,6 +302,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
             service.finish_sign_in, body.challenge, body.address, body.code, _network(request), body.over_18
         )
         if result.status == "ok":
+            await run_in_threadpool(_seed_allowance, request, result)
             _set_cookie(response, result.cookie)
             return {"status": "ok", "new_account": result.new_account}
         if result.status in ("needs_age_answer", "not_adult"):
@@ -302,6 +327,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
             service.provider_sign_in, body.provider, body.id_token, body.nonce, _network(request), body.over_18
         )
         if result.status == "ok":
+            await run_in_threadpool(_seed_allowance, request, result)
             _set_cookie(response, result.cookie)
             return {"status": "ok", "new_account": result.new_account}
         if result.status in ("needs_age_answer", "not_adult"):
@@ -335,6 +361,48 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         if result.status != "ok":
             await _refuse(result, delay=False)
         return {"status": "ok"}
+
+    @app.post("/api/accounts/codes/attach")
+    async def codes_attach(body: CodeBody, request: Request):
+        _guard(request)
+        session = await _session(request)
+        deeper = getattr(request.app.state, "deeper", None)
+        if deeper is None:
+            await _refuse(Result("codes_unavailable"), delay=False)
+        code_hash = await run_in_threadpool(real_code_hash, body.code, deeper)
+        if code_hash is None:
+            await _refuse(Result("wrong"), delay=True)
+        result = await run_in_threadpool(service.attach_code, session, code_hash, _network(request))
+        if result.status != "ok":
+            await _refuse(result, delay=True)
+        index = code_index(request, deeper)
+        if index is not None:
+            index.add(code_hash)
+        return {"status": "ok"}
+
+    @app.get("/api/accounts/balance")
+    async def balance(request: Request):
+        session = await run_in_threadpool(service.session, request.cookies.get(runtime.cookie_name))
+        deeper = getattr(request.app.state, "deeper", None)
+        if session is None:
+            return {"signed_in": False}
+        if deeper is None or deeper.free is None:
+            return {"signed_in": True, "available": False}
+        context = await run_in_threadpool(account_context, request, deeper)
+        if context is None:
+            return {"signed_in": False}
+        free = deeper.free
+        held = [deeper.meter.status_of_hash(h) for h in context.code_hashes]
+        start = deeper.meter.account_window_start(context.refill_day)
+        refill_on = (start.replace(day=1) + timedelta(days=32)).replace(day=context.refill_day)
+        return {
+            "signed_in": True, "available": True,
+            "free_left": free.account_left(context.account_id, context.refill_day),
+            "free_total": free.window_amount,
+            "refill_on": refill_on.isoformat(),
+            "codes_held": len(context.code_hashes),
+            "code_tokens": sum(i.remaining for i in held if i is not None and i.status != "void"),
+        }
 
     @app.get("/api/accounts/me")
     async def me(request: Request):
