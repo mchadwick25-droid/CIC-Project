@@ -134,7 +134,7 @@ const scenarios = {
     const script = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((m) => m[1]).find((s) => s.includes("PAYMENT_LINKS"));
     const links = JSON.parse(process.argv[3] || "{}");
     const code = script.replace(/var PAYMENT_LINKS = \{[^}]*\};/, "var PAYMENT_LINKS = " + JSON.stringify(links) + ";");
-    const element = (hidden) => ({ hidden, listeners: {}, addEventListener(type, fn) { this.listeners[type] = fn; } });
+    const element = (hidden) => ({ hidden, parentNode: { hidden: true }, listeners: {}, addEventListener(type, fn) { this.listeners[type] = fn; } });
     const els = { "state-open": element(true), "state-closed": element(false) };
     for (const n of ["1", "2", "3"]) els["buy-pack-" + n] = element(true);
     const went = [];

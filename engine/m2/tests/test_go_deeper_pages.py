@@ -78,8 +78,7 @@ def test_each_page_reads_at_the_target_level(page):
 
 
 def _without_pack_figures(html: str) -> str:
-    html = re.sub(r'<li>\$<span data-ops="pack-\d-price">\d+</span>:', "<li>", html)
-    return re.sub(r'(tokens for )\$<span data-ops="pack-\d-price">\d+</span>', r"\1<span>", html)
+    return re.sub(r'\$<span data-ops="pack-\d-price">\d+</span>', "<span>", html)
 
 
 @pytest.mark.parametrize("page", PAGES)
@@ -112,43 +111,30 @@ def test_every_figure_on_the_go_deeper_page_is_the_one_in_the_operations_file():
     assert found == expected
 
 
-def test_the_example_conversation_length_on_the_page_is_the_operations_files():
-    html = (SITE / "go-deeper.html").read_text()
-    spoken = re.findall(r'data-ops="example-rounds">([a-z]+)<', html)
-    assert len(spoken) == 2
-    assert set(spoken) == {NUMBER_WORDS[load_ops().rates.example_rounds]}
 
 
-def test_the_free_allowance_line_counts_conversations_as_the_token_prices_do():
-    from engine.deeper import tokens
-
-    rates = load_ops().rates
-    html = (SITE / "go-deeper.html").read_text()
-    long_rounds = re.search(r'data-ops="free-long-rounds">([a-z]+)<', html).group(1)
-    rounds = {word: n for n, word in NUMBER_WORDS.items()}[long_rounds]
-    short = re.search(r'data-ops="free-short-count">([a-z]+)<', html).group(1)
-    long = re.search(r'data-ops="free-long-count">([a-z]+)<', html).group(1)
-    assert short == NUMBER_WORDS[rates.free_window // tokens.conversation_cost(rates, rates.example_rounds)]
-    assert long == NUMBER_WORDS[rates.free_window // tokens.conversation_cost(rates, rounds)]
 
 
-def test_the_page_no_longer_says_a_free_conversation_lasts_a_set_number_of_rounds():
-    html = (SITE / "go-deeper.html").read_text()
-    assert not re.search(r"free conversation lasts", re.sub(r"<[^>]+>", " ", html), re.I)
-    assert "free-rounds" not in html
+def test_the_page_names_no_count_of_conversations_or_rounds_a_free_allowance_buys():
+    text = " ".join(_text("go-deeper.html"))
+    assert not re.search(r"\babout\b|free conversation lasts|conversations of", text, re.I)
+    assert "free-rounds" not in (SITE / "go-deeper.html").read_text()
 
 
-def test_the_pack_lines_say_how_many_three_round_conversations_each_pack_holds():
-    from engine.deeper import tokens
-
+def test_each_pack_card_shows_its_price_and_tokens_and_a_choose_button():
     ops = load_ops()
-    words = {10: "ten", 25: "twenty-five", 60: "sixty"}
     html = (SITE / "go-deeper.html").read_text()
-    lines = re.findall(r"<li>\$.*?</li>", html)
-    assert len(lines) == len(ops.packs)
-    per_conversation = tokens.conversation_cost(ops.rates, ops.rates.example_rounds)
-    for line, pack in zip(lines, ops.packs):
-        assert words[pack.tokens // per_conversation] in line
+    for n, pack in enumerate(ops.packs, start=1):
+        figures = re.search(rf'id="pack-{n}-figures">(.*?)</div>', html, re.S).group(1)
+        assert re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", figures)).strip() == f"${pack.price_usd} {pack.tokens:,} tokens"
+        assert re.search(rf'<button[^>]*id="buy-pack-{n}"[^>]*aria-labelledby="buy-pack-{n} pack-{n}-figures"[^>]*hidden>Choose</button>', html)
+
+
+def test_the_expiry_and_refund_draft_is_left_off_the_page_until_the_lawyer_clears_it():
+    text = " ".join(_text("go-deeper.html"))
+    assert not re.search(r"\bexpire|\blapse|\brefund", text, re.I)
+
+
 
 
 def test_nothing_on_the_site_links_to_the_go_deeper_pages_yet():
@@ -186,16 +172,10 @@ def test_the_buy_buttons_stay_off_until_a_payment_link_is_set():
     assert 'var PAYMENT_LINKS = {"1": "", "2": "", "3": ""};' in html
     assert re.search(r'id="state-open" hidden', html)
     for pack in ("1", "2", "3"):
-        assert re.search(rf'<button[^>]*id="buy-pack-{pack}" hidden>', html), pack
+        assert re.search(rf'<button[^>]*id="buy-pack-{pack}"[^>]*hidden>', html), pack
     assert "https://buy.stripe.com" not in html.split("PAYMENT_LINKS = ")[1].split(";")[0]
 
 
-def test_each_pack_button_says_the_tokens_and_the_price_of_its_pack():
-    ops = load_ops()
-    html = (SITE / "go-deeper.html").read_text()
-    for n, pack in enumerate(ops.packs, start=1):
-        label = re.search(rf'id="buy-pack-{n}" hidden>(.*?)</button>', html).group(1)
-        assert re.sub(r"<[^>]+>", "", label) == f"Get {pack.tokens:,} tokens for ${pack.price_usd}"
 
 
 def test_the_page_stays_closed_with_no_link_set():

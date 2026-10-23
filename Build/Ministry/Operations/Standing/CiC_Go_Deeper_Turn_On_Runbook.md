@@ -88,7 +88,7 @@ All of these must be true. The build thread checks the first group; Mark confirm
 | `VITE_DEEPER_ENABLED` | app build; set as an environment variable on the Render service | `on` | Build-time. The Dockerfile passes it to the frontend build. Off means no panel, no header, no change. Changing it needs a rebuild and deploy. |
 | `VITE_DEEPER_SITE_ORIGIN` | app build; set as an environment variable on the Render service | the same exact origin | Must match `CIC_DEEPER_SITE_ORIGIN`. |
 | `enabled` | `cic-website/assets/go-deeper-config.js` | `true` at step 4 | Until it is true the home and Get Involved pages make no door-line request. |
-| `PAYMENT_LINKS` | `cic-website/go-deeper.html` | one Payment Link per pack, keyed 1, 2 and 3 | A pack with an empty link shows no button, and the page stays closed until at least one is set. The three `CIC_DEEPER_PRODUCTS` entries must match the three links: each link's id keyed to its pack's tokens (1: 1,100, 2: 2,750, 3: 6,600). A link not listed there mints nothing. |
+| `PAYMENT_LINKS` | `cic-website/go-deeper.html` | one Payment Link per pack, keyed 1, 2 and 3 | A pack with an empty link is not shown, and the page stays closed until at least one is set. The three `CIC_DEEPER_PRODUCTS` entries must match the three links: each link's id keyed to its pack's tokens (1: 1,100, 2: 2,750, 3: 6,600). A link not listed there mints nothing. |
 
 The meter file is backed up by the engine's own daily job whenever the module is on (the app passes it as an extra database). Production relies on that. The CLI option `--meter-db` is for taking a backup by hand, for example before a rollback. Confirm the daily job lists a meter backup before step 2. The claim table lives in its own file and stays out of backups on purpose.
 
