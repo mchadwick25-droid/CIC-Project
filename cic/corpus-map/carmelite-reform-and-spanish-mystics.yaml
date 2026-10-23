@@ -44,11 +44,12 @@ works:
   author: ignatius-loyola
   locus: whole text
   role: context
-  confidence: needs-ruling
+  confidence: provisional
   note: 'Placed on the shared window and country, not on a passage: the vendored Teresa texts
     show Jesuit confessors directing her (Life from line 1838, Foundations at lines 5036 and
     7528) but none cite the Exercises by name. Whether the Exercises are context for the Carmelite
-    reform is a ruling for the build, not the library.'
+    reform is a ruling for the build, not the library. Ruled by the project lead, October
+    2026: context, provisional, until a Teresa text is found that names the Exercises.'
   source_file: ignatius-loyola_spiritual-exercises_mullan1914.txt
 - row_id: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914--cautelas-avisos-cartas
   work: Cautelas, Avisos y sentencias espirituales, Dictamenes de espiritu, the twenty-five

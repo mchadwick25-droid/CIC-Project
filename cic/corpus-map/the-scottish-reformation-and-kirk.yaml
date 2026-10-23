@@ -380,7 +380,7 @@ works:
   author: spottiswood
   locus: THE SIXTH BOOK CONTINUED at file line 205; THE SEVENTH BOOK at 6754; Index from 14559
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The archbishop''s history of the years in which James VI restored bishops: the episcopal
     party''s own voice on the Aberdeen Assembly, the banishment of the Melvilles, the Perth
     Articles. Needs-ruling on role: the first-pass dossier called Spottiswood the outside
@@ -389,9 +389,9 @@ works:
     of 1606-1618 as tradition. Whether the world''s Representative speaks for the Kirk that
     included its bishops, or for the presbyterian Kirk that rescinded them, is for Doc_01
     and Doc_04. Primary voice either way, clean OCR, ready to quote once verified against
-    this file; the editors'' notes are not his words.
-
-    '
+    this file; the editors'' notes are not his words. Ruled by the project lead, October 2026:
+    the Kirk''s episcopal party is inside the Kirk, so the archbishop''s history is the world''s
+    own voice; Doc_01 states the bishops question.'
   source_file: spottiswood_history-of-the-church-of-scotland-v3-1596-1625_russell-napier1850.txt
 - row_id: st-andrews-kirk-session_register-pt1-1559-1582_hay-fleming1889--register-of-the-st-andrews-kirk-session-1559-1582
   work: 'Register of the Minister, Elders, and Deacons of the Christian Congregation of St

@@ -21,7 +21,7 @@ assignments:
   locus: the letters written from Japan, 1549-1552 (the letter dated 'Cangoxima 3 Novembris 1549' at file
     line 29054 and those that follow), and Valignano's Life on the Japan years (Cangoxima at line 5424)
   atlas_ids:
-  - mission-born-christianities-kirishitan-japan-kon
+  - kirishitan-japan
   role: context
   confidence: assigned
   note: 'The original-language text (Spanish and Portuguese, with the Latin of the editors) of the Japan

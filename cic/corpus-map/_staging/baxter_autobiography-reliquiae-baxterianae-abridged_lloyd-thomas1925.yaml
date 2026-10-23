@@ -1,34 +1,51 @@
 source_file: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt
-
 assignments:
-  - row_id: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925--reliquiae-baxterianae-abridged-part-one-baxter-s-life-1615-1660-childh
-    work: "Reliquiae Baxterianae abridged, Part One: Baxter's life 1615-1660 (childhood, Kidderminster, the army, the Commonwealth, his self-analysis and life-review)"
-    author: baxter
-    locus: "PART ONE from about file line 2224 (CHAPTER I) to PART TWO at about 8706"
-    atlas_ids:
-      - puritanism
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      The fullest Puritan self-account of the 1630s to 1660: a godly upbringing
-      under 'incompetent clergy', the Kidderminster ministry, the army chaplaincy,
-      and the self-review Baxter wrote in old age about the man he had been.
-      Inside the Puritan world's window and the voice the lead asked for.
-      Needs-ruling because the first-pass dossier left which world owns Baxter
-      (this one or English Old Dissent) as a portfolio question. Primary voice in
-      the editor's abridgement, clean OCR, ready to quote once verified against
-      this file.
-  - row_id: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925--reliquiae-baxterianae-abridged-parts-two-and-three-the-restoration-the
-    work: "Reliquiae Baxterianae abridged, Parts Two and Three: the Restoration, the Savoy Conference, the ejection of 1662, conformists and nonconformists, persecution to the 1680s"
-    author: baxter
-    locus: "PART TWO from about file line 8706 and PART THREE from about 11623 to the appendices at about 15229"
-    atlas_ids:
-      - english-old-dissent
-      - puritanism
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      Baxter after 1660: the Savoy Conference, 'Black Bartholomew', the sorts of
-      nonconformists described, the persecution. Past the Puritan world's window
-      and squarely in English Old Dissent's; placed to both with needs-ruling, the
-      same portfolio question as Part One. Primary voice, clean OCR.
+- row_id: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925--reliquiae-baxterianae-abridged-part-one-baxter-s-life-1615-1660-childh
+  work: 'Reliquiae Baxterianae abridged, Part One: Baxter''s life 1615-1660 (childhood, Kidderminster,
+    the army, the Commonwealth, his self-analysis and life-review)'
+  author: baxter
+  locus: PART ONE from about file line 2224 (CHAPTER I) to PART TWO at about 8706
+  atlas_ids:
+  - puritanism
+  role: tradition
+  confidence: assigned
+  note: 'The fullest Puritan self-account of the 1630s to 1660: a godly upbringing under ''incompetent
+    clergy'', the Kidderminster ministry, the army chaplaincy, and the self-review Baxter wrote in old
+    age about the man he had been. Inside the Puritan world''s window and the voice the lead asked for.
+    Needs-ruling because the first-pass dossier left which world owns Baxter (this one or English Old
+    Dissent) as a portfolio question. Primary voice in the editor''s abridgement, clean OCR, ready to
+    quote once verified against this file. Ruled by the project lead, October 2026 (Era VII placements):
+    a text from before the world''s window that the world argued from is antecedent to it; a text from
+    after the window is context here and tradition for the later entry.'
+- row_id: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925--reliquiae-baxterianae-abridged-parts-two-and-three-the-restoration-the
+  work: 'Reliquiae Baxterianae abridged, Parts Two and Three: the Restoration, the Savoy Conference, the
+    ejection of 1662, conformists and nonconformists, persecution to the 1680s'
+  author: baxter
+  locus: PART TWO from about file line 8706 and PART THREE from about 11623 to the appendices at about
+    15229
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: assigned
+  note: 'Baxter after 1660: the Savoy Conference, ''Black Bartholomew'', the sorts of nonconformists described,
+    the persecution. Past the Puritan world''s window and squarely in English Old Dissent''s; placed to
+    both with needs-ruling, the same portfolio question as Part One. Primary voice, clean OCR. Ruled by
+    the project lead, October 2026 (Era VII placements): a text from before the world''s window that the
+    world argued from is antecedent to it; a text from after the window is context here and tradition
+    for the later entry.'
+- row_id: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925--reliquiae-baxterianae-abridged-parts-two-and-three-the-restoration-the-2
+  work: 'Reliquiae Baxterianae abridged, Parts Two and Three: the Restoration, the Savoy Conference, the
+    ejection of 1662, conformists and nonconformists, persecution to the 1680s'
+  author: baxter
+  locus: PART TWO from about file line 8706 and PART THREE from about 11623 to the appendices at about
+    15229
+  atlas_ids:
+  - puritanism
+  role: context
+  confidence: assigned
+  note: 'Baxter after 1660: the Savoy Conference, ''Black Bartholomew'', the sorts of nonconformists described,
+    the persecution. Past the Puritan world''s window and squarely in English Old Dissent''s; placed to
+    both with needs-ruling, the same portfolio question as Part One. Primary voice, clean OCR. Ruled by
+    the project lead, October 2026 (Era VII placements): a text from before the world''s window that the
+    world argued from is antecedent to it; a text from after the window is context here and tradition
+    for the later entry.'
