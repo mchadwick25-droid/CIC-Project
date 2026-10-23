@@ -54,43 +54,43 @@ relations:
   target: lpc.force.vandal-invasion-siege-of-hippo
 name: Pastoral Office as Territorial Flock-Keeping
 description: >-
-  This is the concern everything else in this world turns on. A bishop is personally answerable for
-  a bounded flock, and much of the rest of the world flows from that.
+  This is the concern everything else in this world turns on. A bishop is personally answerable for a
+  bounded flock, and much of the rest of the world flows from that.
 
 
-  It recurs without a break across every primary source for both bishops and both phases. It appears in
-  both bishops' stories of coming to office, in the crisis letters of both phases, and in both
-  collections of sermons.
+  It recurs without a break in every primary source, for both bishops and both phases. It appears in
+  both bishops' stories of coming to office. It appears in the crisis letters of both phases. It
+  appears in Cyprian's letters and treatises. It appears in Augustine's sermons.
 
 
-  Other concerns in this world depend on it. Penitential discipline is carried out by a bishop who holds this office.
-  Preaching and catechesis are the office's main activity. Conciliar authority is a theory about who
-  legitimately holds the office. Sacramental validity asks the same question. This world's own formation
-  is pastoral and sacramental before it is juridical. The whole apparatus of teaching and penance exists
-  because a bishop answers personally for his flock.
+  Other concerns in this world depend on it. A bishop who holds this office carries out penitential
+  discipline. Preaching and catechesis are the main work of the office. Conciliar authority is a
+  theory about who holds the office by right. Sacramental validity asks the same thing. This world's
+  formation is pastoral and sacramental before it is legal. All the teaching and penance exists
+  because a bishop answers for his flock in person.
 
 
-  It explains why Cyprian's crisis letters exist at all and why Augustine's sermon collection is so
-  large. It also explains why both bishops' accounts of coming to office are independently attested and
-  treated as formative. It is visible in both Carthage and Hippo, across both phases, in both bishops'
-  own words. It reinforces penitential discipline, collegial communion, preaching and catechesis,
-  sacramental validity, and the confessor tension. Conciliar authority reinforces it weakly. No
-  relationship with grace and human incapacity has been shown.
+  It explains why Cyprian's crisis letters exist at all. It explains why Augustine's sermon collection
+  is so large. It explains why both bishops' accounts of coming to office are attested separately.
+  They are treated as formative. It shows in Carthage and in Hippo, in both phases, in the bishops'
+  own words. It reinforces penitential discipline and collegial communion. It reinforces preaching
+  and catechesis. It reinforces sacramental validity and the confessor tension. Conciliar authority
+  reinforces it only weakly. No link with grace and human incapacity has been shown.
 
 
-  The evidence is solidly attested. Accounts of holding and exercising this office are directly quoted
-  and checked: the preface to the Council of 256, Augustine's own Letters XXXI and CCXIII, and Pontius's
-  narrative. Possidius's Life of Augustine is not counted; that account has not independently been checked
-  beyond identifying the Megalius consecration. So the rating rests on Pontius, the two letters, and the
+  The evidence is solid. Accounts of holding and using this office are quoted directly and checked.
+  They are the preface to the Council of 256, Augustine's Letters XXXI and CCXIII, and Pontius's
+  narrative. Possidius's Life of Augustine is not counted. It has not been checked on its own,
+  beyond naming the Megalius consecration. So the rating rests on Pontius, the two letters, and the
   256 preface alone.
 
 
-  It is the concern most densely connected to the forces acting on the world. Christianity's standing
-  legal condition as an unlicensed religion means the office has no outside enforcement. Personal bond
-  holds it together. Congregational acclamation shows how a man comes to hold the office. The Decian and
-  Valerianic persecutions make his answerability acute, through the flock's own failure and the bishop's
-  own test. The plague is a pressure the bishop shares rather than judges. The Vandal invasion and siege
-  of Hippo mark where the bond ends: it ends when the bishop does.
+  It is the concern most closely tied to the forces acting on the world. In law, Christianity was an
+  unlicensed religion. So the office has no outside enforcement. A personal bond holds it together.
+  The congregation's acclamation shows how a man comes to hold the office. The Decian and Valerianic
+  persecutions make a bishop's duty to his flock acute. They work through the flock's own failure
+  and the bishop's own test. The plague is a pressure the bishop shares. He does not judge it. The
+  Vandal invasion and the siege of Hippo mark where the bond ends. It ends when the bishop does.
 manifestations:
 - '"it is the shepherd that is chiefly wounded in the wound of his flock" (Cyprian, De Lapsis)'
 - Cyprian's own account of holding and exercising this office at the 256 Council preface; Augustine's
@@ -98,4 +98,4 @@ manifestations:
 - Pontius's narrative of Cyprian's conduct as bishop
 classification: primary
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 1), cross-checked against Doc_04 §4's own Classification Summary and §6's own Interaction Matrix. relations[] carries the gravity<->gravity edges (G2, G3, G4, G5, G6, G8) and the gravity<->force edges (1A-1, 1A-2, 1B-2, 2A-1, 2A-2, 3A-1) named in this record's own description above.
+Taken from Doc_04 §3 (Candidate 1), cross-checked against Doc_04 §4's own Classification Summary and §6's own Interaction Matrix. relations[] carries the gravity<->gravity edges (G2, G3, G4, G5, G6, G8) and the gravity<->force edges (1A-1, 1A-2, 1B-2, 2A-1, 2A-2, 3A-1) named in this record's own description above.

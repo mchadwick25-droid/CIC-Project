@@ -254,11 +254,11 @@ thinness: >-
   so far answers.
 
 
-  The recorded acts of the 411 Conference, the Gesta, remain largely untapped. They are a live,
-  recorded route to Augustine's own voice among named Donatist bishops. He speaks in at least
-  thirteen numbered acts. In one more, he signs the mandate that sent the delegates. The Gesta sit
-  in this world's own collection, and they bear on the question of what councils can decide. We have
-  drawn on them for that one fact about his signature, and for nothing more.
+  The recorded acts of the 411 Conference, the Gesta, are kept for narrow, checkable facts. They are
+  not asked to settle what councils can decide. They are a recorded route to Augustine's own voice
+  among named Donatist bishops. He speaks in at least thirteen numbered acts. In one more, he signs
+  the mandate that sent the delegates. The Gesta sit in this world's own collection. We have drawn on
+  them for that one fact about his signature, and for nothing more.
 cautions: >-
   1) Resting on two bishops is a real limit, but it is not the Donatist problem. In the Donatist
   world, nearly the whole record comes through opponents; here, both bishops speak in this
@@ -305,8 +305,7 @@ cautions: >-
 
   6) What councils can decide is held open, not settled. Cyprian's theory of authority among bishops
   is equal and non-coercive. Augustine's is hierarchical, and it holds that a council's judgment can
-  be corrected. These are real, substantial differences, and they are not considered fully closed. A
-  firm answer looks reachable from our own premises, but it has not been settled. The finding
+  be corrected. These are real, substantial differences, and they are not considered fully closed. The finding
   that the two bishops form one strand also carries a stated caveat: it could be reopened on exactly
   this point.
 
@@ -336,10 +335,8 @@ cautions: >-
   not a substitute for doing it.
 
 
-  11) The record this compilation rests on was itself under independent review while this world was
-  being built, and that review has not yet returned. This compilation rests on the record as it read
-  at that time, not on a verdict that had not yet arrived. Any finding that review later returns
-  should be checked against these records before it is treated as settled.
+  11) The record this compilation rests on can change when a review returns a finding. Any such
+  finding should be checked against these records before it is treated as settled.
 
 
   12) A risk around shame and self-forgiveness sits at this world's table. Its emotional register is
@@ -421,11 +418,11 @@ thin_topics:
   - conciliar authority
   - who could overrule a council
   - Cyprian versus Augustine on councils
-  note: 'A real, substantial, and disclosed disagreement Doc_01 does not consider fully settled and Doc_04
-    finds reachable-but-unrun on its own premises: Cyprian''s own egalitarian, non-coercive theory against
+  note: 'A real, substantial, and disclosed disagreement Doc_01 does not consider fully settled. Doc_04
+    classifies it Supporting on the project lead''s ruling: Cyprian''s own egalitarian, non-coercive theory against
     Augustine''s own hierarchical, correctable one.'
 ---
-WORLD_ID: `latin-pastoral-congregational-christianity`. This world has no entry in records/worlds.yaml at all, so no registry value is being contradicted; the slug matches cic/corpus-map/latin-pastoral-congregational-christianity.yaml's own `atlas_id`, which is the census movement id and the join key, so the record id prefix (`lpc`), the world_id, and the census join all read consistently. Registering the world in records/worlds.yaml is a later admission-track step, out of scope for this first record-authoring pass, exactly as it was for the sibling Donatism world compiled before this one.
+WORLD_ID: `latin-pastoral-congregational-christianity`. The slug matches cic/corpus-map/latin-pastoral-congregational-christianity.yaml's own `atlas_id`, which is the census movement id and the join key, so the record id prefix (`lpc`), the world_id, and the census join all read consistently. The world's registry entry is `records/worlds/lpc.yaml`.
 
 TIME_WINDOW: start 246, end 430. Doc_01's own beginning point is Cyprian's conversion and rise to the episcopate, "c. 246-249" as a single approximate range rather than don's own doubled 311/312 opening; the earlier boundary year is carried in the schema's own single integer, with the fuller two-to-three-year interval and the two bishops' own different conversion-to-office intervals stated in `horizon` instead of collapsed. The 430 close is Augustine's own death during the Vandal siege of Hippo -- Doc_01 SS2 argues it is a real ecological rupture of the same kind that opens this world, not merely a biographical endpoint, and `horizon` carries that argument rather than only the date.
 

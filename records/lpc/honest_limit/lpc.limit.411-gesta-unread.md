@@ -21,13 +21,12 @@ relations:
 - type: associated-with
   target: lpc.gravity.conciliar-authority-theory
 statement: A conference was held in 411, between our own bishops and the rival communion's own. It is
-  the largest single gathering of inter-episcopal argument our own later years produced. We rest its date
+  the largest single gathering of argument between bishops that our own later years produced. We rest its date
   on the ordinary, undisputed record of when it happened. We do not draw on its own transcript of what
   was actually argued there, bishop by bishop. That transcript has not been validly read in building this
-  record. What it would show about how our own bishops, beyond Cyprian and Augustine themselves, actually
-  argued authority among themselves is not something we can tell you yet.
+  record. So we cannot tell you how our own bishops, beyond Cyprian and Augustine, argued authority.
 why_sources_cannot_answer: 'The Gesta Collationis Carthaginiensis -- the acts of the 411 Conference -- survives
-  in a Migne printing that has not been validly read in full. Two attempts to read it were withdrawn. It
+  in a Migne printing that has not been validly read in full. It
   is closed as a persistence question: it is kept for narrow, independently checkable facts only, and it
   is not asked to show how far G5 spread across the world. G5''s weak fit with the forces acting on the
   world is carried, not resolved.'
