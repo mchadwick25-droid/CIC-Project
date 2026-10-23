@@ -38,3 +38,12 @@ Mark notes the `/usage` percent. Then start Phase L0, item A: four independent O
 ## 6. Spend
 
 Allowance share used: not tracked (no `/usage` reading available). Metered: none. No helper agents and no model call outside this conversation.
+
+## Update, later 2026-10-23: Phase L0 item A done
+
+- Four Opus 5.5 checks written and `reviewfile` PASS: `Build/worlds/lpc/Review-Artifacts/L0_Doc04_Carried_Open_Check_2026-10-23.md`, `L0_Doc08_Generator_Check_2026-10-23.md`, `L0_Doc02_Registry_Check_2026-10-23.md`, `L0_Docs03-05-06-07_Recheck_2026-10-23.md`. Findings were read from the reviewers' reports and the file headers only; the findings themselves were not independently re-verified by this thread.
+- Verdicts: Doc_04 one substantial (stale pointers, OG-38); Doc_08 substantial revision required (OG-40); Doc_02 and Registry not clear, five P1 (OG-39); Docs 03/05/06/07 nothing blocks (OG-29 to OG-37).
+- `lpc_Claims_Register.md` made: 102 claims registered UNVERIFIED, `claims lpc` PASS (OG-41). Not verified at source yet.
+- Not done: L0 items C (narration clean-up) and E (reconcile the gaps file beyond the appends); the change order; sermon inventory.
+- Waiting on Mark, in order: (1) the Doc_02 §7 gap claim; (2) the Doc_08 review route at the cap; (3) the Doc_05 lens-spine route; (4) OG-29 and OG-36 methodology questions; (5) OG-34 and OG-35 scope calls; (6) the Stop point 1 package of the launch prompt; (7) a named live test and cap for renderings.
+- Spend: Opus tokens 798,216 by the harness count across the four checks; metered none.
