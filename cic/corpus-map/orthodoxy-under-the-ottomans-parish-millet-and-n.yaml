@@ -125,6 +125,19 @@ works:
 
     '
   source_file: euchologion-to-mega_second-edition-grc_zerbos1862.txt
+- row_id: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856--of-the-russe-common-wealth-giles-fletcher-1591-and-the-2
+  work: Of the Russe Common Wealth (Giles Fletcher, 1591) and the Travels of Sir Jerome Horsey,
+    in Bond's Hakluyt Society edition (1856)
+  author: fletcher-giles-elder
+  locus: Fletcher's treatise from file line 5618; church chapters XXI (ecclesiastical state)
+    at 10036, XXII (liturgy and sacraments) at 10817, XXIII (doctrine and errors) at 11099;
+    Horsey's Travels from 12334
+  role: context
+  confidence: provisional
+  note: An editorial footnote in this file (about file line 10166) names Jeremias, Patriarch
+    of Constantinople, in connection with the Russian patriarchate; placed on that one passage,
+    not on a reading of the whole for the Ottoman Orthodox world.
+  source_file: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--confessiones-i-and-ii-of-gennadius-scholarius-greek-with
   work: Confessiones I and II of Gennadius Scholarius (Greek with Latin)
   author: gennadius-scholarius
@@ -153,20 +166,19 @@ works:
     '
   source_file: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678.txt
 - row_id: gerlach_tage-buch-deu_1674--tage-buch-diary-at-constantinople-1573-1578-german
-  work: 'Stephan Gerlach''s Tage-Buch: the diary of the Tuebingen chaplain to the imperial
-    embassy at Constantinople, 1573-1578 (German)'
+  work: 'Stephan Gerlach''s Tage-Buch: the diary of the court preacher to the imperial embassy
+    at Constantinople, 1573-1578 (German)'
   author: gerlach
   locus: title page at about file lines 100-140; Wagner's preface from about 244; the diary
     by date from about 1363 to about 59626 (for example 'Anno 1577.' at about line 50208);
     Register from about 59627
   role: context
   confidence: assigned
-  note: 'The outside eyewitness for the middle of the window: a Lutheran chaplain''s day-book
-    of Constantinople, the Patriarchate under Jeremias II, the Greek clergy and the carrying
-    of the Tuebingen letters, printed from his papers in 1674. Not the church''s own voice.
-    SECOND WITNESS: Fraktur OCR readable word by word but two columns and marginal glosses
-    are interleaved, so nothing is quotable without the page images. German; no public-domain
-    English exists.
+  note: 'The outside eyewitness for the middle of the window: an embassy preacher''s day-book
+    of Constantinople, with the Greek clergy he met (the preface names Patriarch Jeremias),
+    printed from his papers in 1674. Not the church''s own voice. SECOND WITNESS: Fraktur
+    OCR readable word by word but two columns and marginal glosses are interleaved, so nothing
+    is quotable without the page images. German; no public-domain English exists.
 
     '
   source_file: gerlach_tage-buch-deu_1674.txt
@@ -221,7 +233,7 @@ works:
   role: tradition
   confidence: assigned
   note: 'The Patriarch''s own first Answer in a second, independent Latin rendering, made
-    by a Polish Catholic theologian in 1582 and printed at Cracow two years before the Tuebingen
+    by a Catholic translator in 1582 and printed at Cracow two years before the Tuebingen
     theologians'' own Latin (the 1584 Acta, vendored). Two Latin witnesses, no Greek in the
     corpus, no public-domain English. SECOND WITNESS: roman-type Latin readable with long
     s read as f, italic front matter garbled; check against page images. Socolovius''s dedication

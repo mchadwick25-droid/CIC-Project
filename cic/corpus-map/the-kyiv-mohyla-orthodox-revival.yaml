@@ -3,6 +3,18 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-kyiv-mohyla-orthodox-revival
 works:
+- row_id: herberstein_notes-upon-russia-v1_major1851--notes-upon-russia-herberstein-s-rerum-moscoviticarum-2
+  work: Notes upon Russia (Herberstein's Rerum Moscoviticarum Commentarii, Major's translation),
+    Vol. I (1851)
+  author: herberstein
+  locus: Major's introduction from file line 1241; how metropolitans and bishops are chosen
+    from 9800; 'Canons of ... a Metropolitan called the Prophet' at 10334; the bull on baptism
+    among the Russians at 10688; volume ends at 12437
+  role: antecedent
+  confidence: provisional
+  note: The same section names Kyiv twice and prints Latin and Greek church material; placed
+    on window and place for the later Kyivan revival, not read for it.
+  source_file: herberstein_notes-upon-russia-v1_major1851.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-2
   work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
   author: mogila
@@ -38,3 +50,57 @@ works:
 
     '
   source_file: mogila_orthodox-confession_anon1762.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--apokrisis-of-christopher-philalethes-1597-1599-2
+  work: Apokrisis of Christopher Philalethes (Polish text 1597 and Western-Rus' text of about
+    1599), the Orthodox answer to Skarga's Brest defence
+  author: philalethes
+  locus: item IX from about file line 57830 to 100815
+  role: tradition
+  confidence: provisional
+  note: The Orthodox side of the argument the Kyiv-Mohyla revival inherited. Written 1597-1599,
+    before that entry's window (1615-1700), so provisional; the Kyiv-Mohyla thread may prefer
+    the antecedent role.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+- row_id: stoglav_stoglav-fra_duchesne1920--le-stoglav-ou-les-cent-chapitres-1551-french-translation-3
+  work: Le Stoglav ou les Cent Chapitres (1551), French translation with introduction and
+    commentary (Duchesne 1920)
+  author: stoglav
+  locus: introduction from file line 91; appendix from 1509; the hundred chapters in translation
+    from 2071 (CHAPITRE PREMIER); tables and indexes from 17271
+  role: context
+  confidence: provisional
+  note: The file names Kyiv about thirty times, among them the Kyivan metropolitans the council's
+    text cites; placed on that count and on window and place, not on a reading for this entry.
+  source_file: stoglav_stoglav-fra_duchesne1920.txt
+- row_id: susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864--saulus-et-paulus-the-life-of-meletij-smotrycki-2
+  work: Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj, Orthodox archbishop
+    turned Uniate)
+  author: susza
+  locus: the whole file; Smotryc'kyj's Lament (Threnos) is discussed from about file line
+    578; half-title 'Vita Meletii Smotriscii' near the head
+  role: context
+  confidence: provisional
+  note: Smotryc'kyj's Orthodox writings (the Threnos, 1610) and Mohyla's Kyiv circle are the
+    other half of this story; the Kyiv-Mohyla world may use this as the hostile account of
+    its own polemicist. Provisional because the file was not read against that world's window
+    (1615-1700) beyond the discussion of the Lament.
+  source_file: susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--vasyl-of-ostroh-on-the-one-true-orthodox-faith-1588
+  work: Vasyl of Ostroh, On the one true Orthodox faith (1588)
+  author: vasyl-of-ostroh
+  locus: item VII from about file line 36824 to 54455
+  role: tradition
+  confidence: provisional
+  note: An Orthodox priest's handbook against Roman claims (the procession of the Spirit,
+    the primacy, purgatory, the calendar), from the Ostroh circle. Before the Kyiv-Mohyla
+    window, so provisional; the Orthodox polemic the revival built on.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--questions-and-answers-of-an-orthodox-to-a-papist-1603
+  work: Questions and answers of an Orthodox to a papist (manuscript, 1603)
+  author: voprosy-i-otvety-1603
+  locus: item I, from the preface (about file line 103) through about line 7378
+  role: tradition
+  confidence: provisional
+  note: A popular fifty-question Orthodox handbook against Rome, of the kind the revival's
+    brotherhoods used. Date 1603 precedes the entry's window.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt

@@ -6,7 +6,7 @@ assignments:
   - row_id: przypkowski_life-of-faustus-socinus_bidle1653--life-of-faustus-socinus
     work: "The Life of that Incomparable Man Faustus Socinus Senensis, by a Polonian Knight (English of 1653), with the Discourse and Catalogue of his works"
     author: przypkowski
-    locus: "whole small volume from file line 10 (title page); the Life, the Discourse and the Catalogue follow without usable headings in the OCR"
+    locus: "whole small volume from the title page at file line 22; the Discourse is headed at line 1641; the Life and the Catalogue have no usable headings in the OCR"
     atlas_ids:
       - anti-trinitarian-currents-servetus-polish-brethr
     role: tradition

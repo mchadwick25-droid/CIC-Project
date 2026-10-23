@@ -73,6 +73,22 @@ works:
 
     '
   source_file: calvin_commentaries-genesis-vol2_king1847.txt
+- row_id: calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870--defensio-orthodoxae-fidei-and-the-geneva-trial-2
+  work: Defensio orthodoxae fidei de sacra Trinitate contra Servetum (1554) and the Geneva
+    trial documents of 1553
+  author: calvin
+  locus: Caput XXXIV at file line 1191; the Defensio text from 29303; the trial documents
+    from about 47410
+  role: tradition
+  confidence: assigned
+  note: 'Calvin''s own defence of the Geneva council''s action, and the council''s own trial
+    record, for the Reformed cities world as Geneva''s account of the 1553 process. The same
+    file serves the anti-Trinitarian entry as the hostile record (row above). Also holds Calvin''s
+    De scandalis (1550), the 1551 Congregation on election, the 1552 Consensus on predestination
+    and the Quatre sermons, which belong to this world and are not separately listed.
+
+    '
+  source_file: calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt
 - row_id: calvin_institutes-christian-religion-vol1_beveridge1845--institutes-of-the-christian-religion-book-i-of-the-knowledge
   work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
   author: calvin
@@ -359,6 +375,37 @@ works:
 
     '
   source_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-helvetica-posterior-second-helvetic-confession
+  work: Confessio Helvetica posterior (Second Helvetic Confession)
+  author: niemeyer
+  locus: running heads from file line 30811
+  role: tradition
+  confidence: provisional
+  note: The Second Helvetic Confession in Latin; the English is in the Schaff file. Placed
+    on the running heads only. Second witness, noisy OCR.
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--consensus-tigurinus-1549-and-consensus-genevensis
+  work: Consensus Tigurinus (1549) and Consensus Genevensis
+  author: niemeyer
+  locus: Consensus Tigurinus from file line 14173; Consensus Genevensis from 15687
+  role: tradition
+  confidence: provisional
+  note: Zurich and Geneva's agreement on the Lord's Supper and the Geneva consensus on predestination,
+    in Latin. Placed on the headings only. Second witness, noisy OCR.
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+- row_id: rilliet_calvin-and-servetus_tweedie1846--calvin-and-servetus-2
+  work: 'Calvin and Servetus: the Reformer''s Share in the Trial of Michael Servetus (Rilliet,
+    trans. Tweedie, 1846)'
+  author: rilliet
+  locus: Contents from file line 62; translated Geneva register extracts from 3588
+  role: context
+  confidence: provisional
+  note: 'The Genevan historian''s account of how the Geneva council and Calvin handled the
+    1553 process, for the Reformed cities world. Placed on subject and place; the Reformed
+    cities thread decides its weight.
+
+    '
+  source_file: rilliet_calvin-and-servetus_tweedie1846.txt
 - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563
   work: The Heidelberg Catechism (1563)
   author: ursinus-olevianus

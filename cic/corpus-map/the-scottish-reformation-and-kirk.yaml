@@ -294,6 +294,15 @@ works:
 
     '
   source_file: melville-james_autobiography-and-diary_pitcairn1842.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-scoticana-prior
+  work: Confessio Scoticana prior
+  author: niemeyer
+  locus: running heads from file line 23604
+  role: tradition
+  confidence: provisional
+  note: The Scots Confession in Latin. Placed on the running head only. Second witness, noisy
+    OCR.
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
 - row_id: rutherford_letters_bonar1891--letters-of-samuel-rutherford
   work: Letters of Samuel Rutherford (Letters I-CCCLXV, 1627-1661), with Bonar's Sketch of
     his Life and Biographical Notices of his Correspondents

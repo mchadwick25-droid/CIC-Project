@@ -12,11 +12,10 @@ assignments:
     - russian-church-stoglav-to-nikon
     role: context
     confidence: assigned
-    note: The hostile English Protestant outside witness on the Russian church of 1588-1591 (the date of
-      the embassy is from the editor's introduction, not checked here). Chap. XXI to XXIII describe clergy,
-      liturgy and doctrine from the outside and judge what the Russians 'hold' as errors; read against the
-      church's own voice, never in place of it. Clean OCR, Jacobean spelling. Horsey's Travels (from file
-      line 12334) are a second outside voice.
+    note: The hostile English Protestant outside witness on the Russian church of the late sixteenth century.
+      Chap. XXI to XXIII describe clergy, liturgy and doctrine from the outside and judge what the Russians
+      'hold' as errors; read against the church's own voice, never in place of it. Clean OCR, Jacobean spelling.
+      Horsey's Travels (from file line 12334) are a second outside voice.
   - row_id: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856--of-the-russe-common-wealth-giles-fletcher-1591-and-the-2
     work: Of the Russe Common Wealth (Giles Fletcher, 1591) and the Travels of Sir Jerome Horsey, in Bond's
       Hakluyt Society edition (1856)

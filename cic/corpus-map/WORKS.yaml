@@ -483,3 +483,97 @@ works:
       literal and in agreement with Raulin''s Latin; that is Hough''s claim, not checked here.
 
       '
+
+  - work_id: mogila-orthodox-confession
+    title: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa)
+    author: mogila
+    original_language: Greek
+    composed: 1640 (approved at Jassy 1642; reaffirmed at Jerusalem 1672)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Greek with Latin parallel text, edited by Ernst Julius Kimmel
+      year: 1850
+      language: Greek
+      recension: Kimmel 1850 (Greek and Latin in parallel)
+      items:
+      - cic:monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt:orthodox-confession
+    - translator: not named on the title page (attributed to Philip Lodvill in Robertson's 1898 notice)
+      year: 1762
+      language: English
+      recension: first English printing
+      items:
+      - cic:mogila_orthodox-confession_anon1762.txt:whole-file
+    - translator: J. J. Overbeck (editor; the 1762 English with spelling and some expressions altered)
+      year: 1898
+      language: English
+      recension: 1762 English, lightly modernised
+      items:
+      - cic:mogila_orthodox-confession_overbeck1898.txt:whole-file
+    notes: 'One work, three expressions in the corpus. The two English files are one translation in two
+      states (the 1898 edition says it alters ''some archaisms in spelling and a few inexact expressions''
+      of the 1762 text), so a quote should rest on the 1762 file where the exact English wording matters.
+      The Greek and Latin are in the Kimmel volume. Item addresses are file-level placeholders.
+
+      '
+  - work_id: jeremias-ii-first-answer-augsburg-confession
+    title: Patriarch Jeremias II's first Answer to the Tuebingen theologians on the Augsburg Confession
+      (15 May 1576)
+    author: jeremias-ii
+    original_language: Greek
+    composed: '1576'
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Stanislaus Socolovius (Latin, printed Cracow)
+      year: 1582
+      language: Latin
+      recension: Socolovius's Latin of the Greek
+      items:
+      - cic:jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582.txt:whole-file
+    - translator: the Tuebingen theologians (Latin, printed Wittenberg)
+      year: 1584
+      language: Latin
+      recension: the theologians' Latin of the Greek
+      items:
+      - cic:acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt:primum-patriarchae-responsum
+    notes: 'The same Answer in two independent Latin renderings, one by a Catholic and one by the Lutheran
+      recipients. No Greek text and no public-domain English is in the corpus. The second and third Answers
+      (1579, 1581) are in the 1584 file only. Item addresses are file-level placeholders.
+
+      '
+  - work_id: smith-account-of-the-greek-church
+    title: Thomas Smith on the present state of the Greek Church (De Graecae Ecclesiae hodierno statu epistola;
+      An Account of the Greek Church)
+    author: smith-thomas
+    original_language: Latin
+    composed: 1676 (Latin); enlarged 1678 and 1698; English 1680
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Thomas Smith (Latin original, third edition)
+      year: 1698
+      language: Latin
+      recension: Utrecht 1698, 'editio nova, auctior et emendatior'
+      items:
+      - cic:smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698.txt:whole-file
+    - translator: Thomas Smith (English)
+      year: 1680
+      language: English
+      recension: London 1680
+      items:
+      - cic:smith-thomas_account-of-the-greek-church_1680.txt:whole-file
+    notes: 'The 1680 English refers to ''the Latine Edition'' without naming it, and the item record for
+      the Latin says it was printed in 1676 and 1678 before the 1698 edition. The two files are therefore
+      related but not word for word. Not checked page by page.
+
+      '

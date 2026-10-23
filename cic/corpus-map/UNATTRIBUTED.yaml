@@ -302,6 +302,13 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  bermudez:
+    kind: metadata-omission
+    evidence: The file's creator line names Castanhoso as first author. Bermudez's short account
+      is a separate work inside the volume, headed 'BERMUDEZ.' (file lines 11572, 336 in the
+      table of contents, and 66 on the title page 'THE SHORT ACCOUNT OF BERMUDEZ'). The author
+      is not in doubt; the file-name prefix cannot hold him.
+    from_file: castanhoso_portuguese-expedition-to-abyssinia_whiteway1902.txt
   boyer:
     kind: metadata-omission
     evidence: 'The volume''s own preface to its Part III (file lines 17058-17083) says the
@@ -507,6 +514,12 @@ authors:
 
       '
     from_file: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt
+  correa:
+    kind: metadata-omission
+    evidence: The title page (file line 66-68) reads 'AND CERTAIN EXTRACTS FROM CORREA'. The
+      extracts are a separate section with running heads 'EXTRACTS FROM CORREA' (file lines
+      17013, 17029). The author is not in doubt; the file-name prefix cannot hold him.
+    from_file: castanhoso_portuguese-expedition-to-abyssinia_whiteway1902.txt
   council-in-trullo-692:
     kind: anonymous
     evidence: 'div1 title "The Canons of the Council in Trullo; Often Called The Quinisext
@@ -803,6 +816,13 @@ authors:
 
       '
     from_file: quick_synodicon-in-gallia-reformata_1692.txt
+  galawdewos:
+    kind: metadata-omission
+    evidence: The Confession is printed inside Ludolf's Commentarius as Numerus XXIX, headed
+      'Confessio Fidei Claudii Regis Aethiopiae' (file line 24072). Claudius is the Latin
+      name for Emperor Galawdewos. The author is the emperor named in the heading; the file-name
+      prefix is Ludolf, the editor.
+    from_file: ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt
   gennadius-scholarius:
     kind: metadata-omission
     evidence: 'The volume''s own title page names ''Gennadii Confessiones I. II.'' among its
@@ -896,6 +916,12 @@ authors:
 
       '
     from_file: augustine_sermones-guelferbytani-lat_morin1917.txt
+  harmonia-1608:
+    kind: anonymous
+    evidence: The pamphlet 'Гармонія Восточной церкви съ костеломъ Римскимъ' (1608) is printed
+      without a named author; the preface says only that, like item II, it was written by
+      a Uniate; about file lines 10503-13367.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
   hegesippus:
     kind: metadata-omission
     evidence: div2 10.6 'Hegesippus' names the author.
@@ -909,6 +935,11 @@ authors:
 
       '
     from_file: fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt
+  herbest:
+    kind: metadata-omission
+    evidence: The preface names 'Бенедикта Гербеста' (Benedict Herbest) as author of the brochure
+      printed as item VI (about file lines 35645-36806).
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
   hermas:
     kind: pseudonymous
     evidence: 'div1 2 title "THE PASTOR OF HERMAS"; anf02 DC.Creator lists athenagoras, clement_alex,
@@ -1332,6 +1363,12 @@ authors:
 
       '
     from_file: persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915.txt
+  philalethes:
+    kind: pseudonymous
+    evidence: The volume's heading reads 'Христофор Филалет' (Christopher Philalethes), the
+      Greek pen-name form 'lover of truth'; the preface portion read does not name a real
+      author, so the slug follows the printed name.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
   phoebadius-of-agen:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
@@ -1487,6 +1524,13 @@ authors:
     kind: metadata-omission
     evidence: div2 10.13 'Serapion, Bishop of Antioch'.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  skarga:
+    kind: metadata-omission
+    evidence: The editors' preface in this volume names 'Петра Скарги' (Piotr Skarga) as author
+      of the 1577 work 'О единстве церкви Божией' and of the 1596 'Берестейский собор и оборона
+      его'; the file's leading name slug is the series, so the author is supplied here from
+      the preface (about file lines 189-195).
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
   society-of-jesus:
     kind: anonymous
     evidence: 'The Constitutions were principally drafted by Ignatius of Loyola, but this
@@ -1688,6 +1732,12 @@ authors:
 
       '
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt
+  unia-grekov-1595:
+    kind: anonymous
+    evidence: The pamphlet 'Унія Грековъ съ костеломъ Римскимъ' (1595) is printed without
+      an author; the editors' preface attributes it by conjecture ('по догадкамъ') to Ipatij
+      Potij; about file lines 7485-10489.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
   ursinus-olevianus:
     kind: metadata-omission
     evidence: 'Not CCEL-derived markup. The file''s own intake header credits "Zacharias Ursinus
@@ -1698,6 +1748,18 @@ authors:
 
       '
     from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  vasyl-of-ostroh:
+    kind: metadata-omission
+    evidence: The preface and the running heads name 'Острожскаго священника Василия' (the
+      priest Vasyl of Ostroh) as author of 'О единой истинной православной вѣрѣ' (1588); about
+      file lines 36824-36830.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  voprosy-i-otvety-1603:
+    kind: anonymous
+    evidence: The manuscript 'Вопросы и отвѣты православному зъ папежникомъ' (1603) is printed
+      without an author; the preface says only that an Orthodox wrote it; contents at about
+      file lines 103-7378.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
   walton:
     kind: metadata-omission
     evidence: 'Izaak Walton is named on the file''s own title page ("WITH AN ACCOUNT OF HIS
@@ -1773,3 +1835,12 @@ authors:
 
       '
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  zenahu-la-galla:
+    kind: anonymous
+    evidence: 'Neither this volume nor Schleicher''s 1893 edition (file zenahu-la-galla_geschichte-der-galla-deu_schleicher1893.txt)
+      names the monk who wrote the history: Schleicher''s title page reads ''Bericht eines
+      abessinischen Moenches'' (an Abyssinian monk''s report) and the host catalogue lists
+      the work''s own title, Zenahu la-Galla. The usual attribution to Abba Bahrey is supplied
+      by the project brief and the secondary literature, not by either edition, so the work
+      is held as anonymous here.'
+    from_file: sarsa-dengel_historia-regis-sarsa-dengel-gez-fra_conti-rossini1907.txt

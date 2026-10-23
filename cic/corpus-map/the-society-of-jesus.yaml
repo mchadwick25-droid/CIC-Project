@@ -1129,6 +1129,24 @@ works:
     and the notes lower it, so the figure is a comparison across files and not a measure of
     accuracy.'
   source_file: lainez_epistolae-et-acta-v8-lat_1917.txt
+- row_id: lobo_voyage-to-abyssinia_johnson1735--a-voyage-to-abyssinia-lobo-english-johnson-2
+  work: A Voyage to Abyssinia, Lobo (English, Johnson)
+  author: lobo
+  locus: Whole work
+  role: context
+  confidence: provisional
+  note: A Jesuit's own account of the Ethiopian mission in the last years before the expulsion.
+    Placed on window and subject; the Jesuit world's builders will weigh it.
+  source_file: lobo_voyage-to-abyssinia_johnson1735.txt
+- row_id: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908--expeditio-aethiopica-books-i-and-ii-mendes-latin-text-edited-by-beccar-2
+  work: Expeditio Aethiopica, Books I and II (Mendes), Latin text edited by Beccari
+  author: mendes
+  locus: Liber primus from file line 4165, Liber secundus from 9305
+  role: tradition
+  confidence: provisional
+  note: The Jesuit patriarch's own account of the mission. Placed on window and subject without
+    reading the whole volume.
+  source_file: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt
 - row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--life-of-father-john-gerard-2
   work: The Life of Father John Gerard (Morris's biography, built on long verbatim translated
     extracts from Gerard's Latin Autobiography)
@@ -1239,6 +1257,16 @@ works:
 
     '
   source_file: nadal_scholia-in-constitutiones-lat_1883.txt
+- row_id: paez_historia-aethiopiae-liber-3-4-por_beccari1906--historia-da-etiopia-books-iii-and-iv-paez-portuguese-text-edited-by-be-2
+  work: Historia da Etiopia, Books III and IV (Paez), Portuguese text edited by Beccari
+  author: paez
+  locus: Livro III from file line 766, Livro IV from 13917
+  role: tradition
+  confidence: provisional
+  note: The Jesuit mission to Ethiopia in the mission's own historian's words. Placed on window
+    and subject without reading the whole volume; role tradition because the author is a Jesuit
+    narrating a Jesuit mission, for the Jesuit world's builders to confirm.
+  source_file: paez_historia-aethiopiae-liber-3-4-por_beccari1906.txt
 - row_id: pages_histoire-religion-chretienne-japon-annexes-fra_1870--annexes-missionary-episcopal-papal-and-royal-documents-on-japan-1598-1651-2
   work: 'Annexes: missionary, episcopal, papal and royal documents on the church in Japan,
     1598-1651'
@@ -1389,6 +1417,18 @@ works:
 
     '
   source_file: salmeron_epistolae-v3-lat_1906.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--skarga-on-the-unity-of-the-church-1577-and-1590-2
+  work: Piotr Skarga, On the unity of God's church under one shepherd and on the Greeks' falling
+    away from that unity (1577), with the new articles of 1590
+  author: skarga
+  locus: item IV from about file line 13516 to 35639 (1577 text, with the 1590 variants in
+    footnotes); item V, the new articles of 1590, ends at 35639
+  role: context
+  confidence: provisional
+  note: 'Skarga was a Jesuit and wrote this for the Ostroh prince, with the Society''s argument
+    for the primacy of Rome. Provisional: the Jesuit world is 1540-1650 and may not want a
+    Ruthenian-language edition.'
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
 - row_id: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606--constitutiones-societatis-iesu-cum-earum-declarationibus
   work: Constitutiones Societatis Iesu, cum earum Declarationibus
   author: society-of-jesus
@@ -1499,6 +1539,16 @@ works:
     run by the Jesuit-advised archbishop of Goa; the Society's part is in Hough and Whitehouse
     as well.
   source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
+- row_id: telles_travels-of-the-jesuits-in-ethiopia_1710--the-travels-of-the-jesuits-in-ethiopia-english-1710-2
+  work: The Travels of the Jesuits in Ethiopia (English, 1710)
+  author: telles
+  locus: Whole work
+  role: context
+  confidence: provisional
+  note: The same account as the Jesuits' own mission narrative in Ethiopia, 1555-1634. Placed
+    on window and subject without reading the whole; a mission history written about Jesuit
+    work and attributed to a Jesuit author.
+  source_file: telles_travels-of-the-jesuits-in-ethiopia_1710.txt
 - row_id: trigault_de-christiana-expeditione-apud-sinas-lat_1615--de-christiana-expeditione-apud-sinas-trigault-from-ricci
   work: De Christiana expeditione apud Sinas (Trigault, from Ricci)
   author: trigault

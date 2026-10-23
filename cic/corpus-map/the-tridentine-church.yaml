@@ -302,3 +302,29 @@ works:
 
     '
   source_file: sarpi_history-of-the-council-of-trent_brent1676.txt
+- row_id: slavata_pameti-1608-1619-dil1-ces_jirecek1866--pam-ti-vil-ma-slavaty-d-l-i-1608-1609-and-1618-1619-2
+  work: Paměti Viléma Slavaty, díl I (1608-1609 and 1618-1619)
+  author: slavata
+  locus: whole volume; contents at file line 159
+  role: context
+  confidence: provisional
+  note: 'The Catholic Chancellor''s memoirs of the Letter of Majesty years and the revolt:
+    a hostile witness to the Czech church''s last settlement. Readable Czech with some misread
+    diacritics; check wording against the page image. The Tridentine placement is on the author''s
+    side only and is provisional.'
+  source_file: slavata_pameti-1608-1619-dil1-ces_jirecek1866.txt
+- row_id: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863--the-union-of-brest-documents-1595-1596-2
+  work: 'The Union of Brest documents, 1595-1596: the Ruthenian bishops'' articles, their
+    professions of faith, the bull Magnus Dominus et laudabilis (Clement VIII) and the acts
+    of the Synod of Brest (contemporary Latin versions)'
+  author: theiner
+  locus: articles 'Articuli quorum cautionem petimus a dominis Romanis' about file line 21175;
+    Hypatius Pociey's profession of faith about 21496; the bull 'Magnus Dominus et laudabilis'
+    about 21655; the Synod of Brest acts (Nr. CXCV) about 23336; the Argumenta (summaries)
+    at about 1255
+  role: context
+  confidence: provisional
+  note: 'The papal side of the same instruments: Clement VIII''s bull and letters as an act
+    of the Tridentine papacy toward the Eastern church. Placed on the document type, not on
+    a reading of the whole volume; the Tridentine world may want only the bull. Latin only.'
+  source_file: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863.txt

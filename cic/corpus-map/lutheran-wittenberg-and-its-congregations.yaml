@@ -30,15 +30,15 @@ works:
     only text of the Smalcald Articles and the Formula of Concord. English only.
   source_file: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt
 - row_id: gerlach_tage-buch-deu_1674--tage-buch-diary-at-constantinople-1573-1578-german-2
-  work: 'Stephan Gerlach''s Tage-Buch: the diary of the Tuebingen chaplain to the imperial
-    embassy at Constantinople, 1573-1578 (German)'
+  work: 'Stephan Gerlach''s Tage-Buch: the diary of the court preacher to the imperial embassy
+    at Constantinople, 1573-1578 (German)'
   author: gerlach
   locus: the diary by date from about file line 1363 to about 59626
   role: context
   confidence: provisional
-  note: 'The Tuebingen side of the Jeremias II correspondence seen from its own messenger;
-    placed beside the 1584 Acta on the same provisional footing (Tuebingen, not Wittenberg,
-    theologians). Second witness for scan quality.
+  note: 'A German Lutheran''s eyewitness to the Patriarch of the years of the Jeremias II
+    correspondence; placed beside the 1584 Acta on the same provisional footing (Tuebingen,
+    not Wittenberg, theologians). Second witness for scan quality.
 
     '
   source_file: gerlach_tage-buch-deu_1674.txt
@@ -484,3 +484,17 @@ works:
 
     '
   source_file: melanchthon_augsburg-confession_anon-pg275.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-bohemica-of-1535-the-confession-of-the-bohemian-ba-2
+  work: Confessio Bohemica of 1535, the confession of the Bohemian barons and nobles to King
+    Ferdinand (Additamentum 2)
+  author: niemeyer
+  locus: from about file line 47952 (preface to Ferdinand from about 47917; running head 'Confessio
+    Bohoemica'), to about line 49850
+  role: context
+  confidence: provisional
+  note: 'The Brethren-led Bohemian confession of 1535 in Latin, in Niemeyer''s 1840 collection.
+    Niemeyer''s own note (file line 4067) records that it was sent to Wittenberg and approved
+    by Luther, Melanchthon and others, so it also bears on the Lutheran world. Second witness
+    for now, not quotable: the Latin OCR has systematic letter misreads (Bohoemica for Bohemica).
+    Check every wording against the page image.'
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt

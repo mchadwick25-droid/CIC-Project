@@ -7750,3 +7750,168 @@ queue:
     verified_by: 'library/source-research thread, 2026-10-16: search listing only (title, creator, date
       1781). Metadata and text not opened.'
     status: not-yet-downloaded
+
+  - title: Ecthesis Chronica and Chronicon Athenarum
+    author: anonymous Greek chronicler (ed. Spyridon P. Lambros)
+    translator: (Greek original with Latin preface; no translation)
+    year: 1902
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'The fuller Greek form of the chronicle of the sultans and patriarchs that Crusius printed as the
+      Historia politica (already vendored in Bekker''s Bonn edition). Found while looking for Crusius''s
+      Turcograecia, which is not on any reachable host. Clean polytonic OCR.
+
+      '
+    url: https://archive.org/details/ecthesischronic00lampgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'direct fetch of the metadata and the OCR (title page read: Methuen, London, 1902; possible-copyright-status
+      NOT_IN_COPYRIGHT), five-point OCR sample, 2026-10-16'
+    status: downloaded
+    vendored_as: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902.txt
+    vendored_note: vendored
+  - title: Stephan Gerlachs Tage-Buch (diary of the imperial embassy to Constantinople, 1573-1578)
+    author: Stephan Gerlach the elder
+    translator: (German original, 1674; no English translation found)
+    year: 1674
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'The court preacher of the imperial embassy at Constantinople kept a day-book from 1573 to 1578;
+      his preface names the Greek churchmen he met, Patriarch Jeremias among them. An outside eyewitness
+      for the middle of the window.
+
+      '
+    url: https://archive.org/details/10330416bsb
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of the metadata and the OCR (imprint 'Frankfurt a. M. 1674' read in the OCR;
+      item has no rights field), five-point OCR sample, 2026-10-16
+    status: downloaded
+    vendored_as: gerlach_tage-buch-deu_1674.txt
+    vendored_note: vendored as second witness (interleaved columns and glosses)
+  - title: Censura Orientalis Ecclesiae (Jeremias II's first Answer to the Tuebingen theologians, Latin
+      by Socolovius)
+    author: Jeremias II, Patriarch of Constantinople
+    translator: Stanislaus Socolovius (Latin)
+    year: 1582
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'The census names the Patriarch''s three Answers; the only English (Mastrantonis 1982) is in copyright.
+      This is an independent Latin rendering of the first Answer, printed two years before the Tuebingen
+      theologians'' own Latin (the 1584 Acta, already vendored).
+
+      '
+    url: https://archive.org/details/bub_gb_HBBAiEghEYQC
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of the metadata and the OCR (title page read, Cracow, Lazarus press, 1582;
+      licenceurl Public Domain Mark 1.0), five-point OCR sample, 2026-10-16
+    status: downloaded
+    vendored_as: jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582.txt
+    vendored_note: vendored as second witness (long s read as f)
+  - title: Collectanea de Cyrillo Lucario, Patriarcha Constantinopolitano
+    author: Thomas Smith
+    translator: (Latin original with Italian documents)
+    year: 1707
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'Smith''s Latin life of Lucaris with an appendix of Lucaris''s letters and Ottoman and Western
+      papers, including a ''Comandamento'' in Italian: the sultan''s bureaucracy speaking about the Patriarch.
+
+      '
+    url: https://archive.org/details/bim_eighteenth-century_collectanea-de-cyrillo-l_smith-thomas_1707
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of the metadata and the OCR (item record dated 1707; no rights field), five-point
+      OCR sample, 2026-10-16
+    status: downloaded
+    vendored_as: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707.txt
+    vendored_note: vendored as second witness
+  - title: De Graecae Ecclesiae hodierno statu epistola
+    author: Thomas Smith
+    translator: (Latin original of the English Account already vendored)
+    year: 1698
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'The Latin behind Smith''s English Account of the Greek Church (1680, vendored). Third, enlarged
+      edition (Utrecht).
+
+      '
+    url: https://archive.org/details/degraecaeecclesi00smit
+    rights_basis: pd-us-by-date
+    verified_by: 'direct fetch of the metadata and the OCR (title page read: Trajecti ad Rhenum, Halma,
+      1698; no rights field), five-point OCR sample, 2026-10-16'
+    status: downloaded
+    vendored_as: smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698.txt
+    vendored_note: vendored as second witness
+  - title: The Orthodox Confession of the Catholic and Apostolic Eastern-Church (1762 English)
+    author: Peter Mogila
+    translator: not named on the title page (attributed to Philip Lodvill in Robertson's 1898 notice)
+    year: 1762
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'The untouched 1762 English that Overbeck''s 1898 edition (vendored) modernises. Gives the first
+      English wording as the Confession was read in Britain.
+
+      '
+    url: https://archive.org/details/bim_eighteenth-century_the-orthodox-confession-_greek-orthodox-church_1762
+    rights_basis: pd-us-by-date
+    verified_by: 'direct fetch of the metadata and the OCR (title page read: London, MDCCLXII; no rights
+      field), five-point OCR sample, 2026-10-16'
+    status: downloaded
+    vendored_as: mogila_orthodox-confession_anon1762.txt
+    vendored_note: vendored
+  - title: Mesaionike Bibliotheke, volume 3 (Dapontes, Makraios, patriarchal acts, catalogue of martyrs
+      to 1811)
+    author: Konstantinos N. Sathas (editor)
+    translator: (Greek; no translation)
+    year: 1872
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'The nearest public-domain index to the neomartyrs and the parish and patriarchal acts the census
+      names: a list of martyrs from 1453 to 1811 by name, date and place, and regesta of patriarchal acts
+      from 1568. The Neon Martyrologion itself is not on any reachable host.
+
+      '
+    url: https://archive.org/details/bub_gb_C6PaY5ZGN5UC
+    rights_basis: pd-us-by-date
+    verified_by: 'direct fetch of the metadata and the OCR (title page read: Venice, 1872; licenceurl Public
+      Domain Mark 1.0), five-point OCR sample, 2026-10-16'
+    status: downloaded
+    vendored_as: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+    vendored_note: vendored
+  - title: Early Voyages and Travels in the Levant (II. Extracts from the diaries of Dr. John Covel, 1670-1679)
+    author: John Covel (ed. J. Theodore Bent)
+    translator: (English)
+    year: 1893
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'An English chaplain at Constantinople who recorded Greek church services and the Patriarchate
+      in the 1670s, with Rycaut and Smith. Not vendored this pass (the world has three English outside witnesses
+      already).
+
+      '
+    url: https://archive.org/details/earlyvoyagestrav00dallrich
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of the metadata (Hakluyt Society, London, 1893; possible-copyright-status
+      NOT_IN_COPYRIGHT); OCR not sampled, 2026-10-16
+    status: not-yet-downloaded
+  - title: The Orthodox Church of the East in the Eighteenth Century (correspondence of the Eastern patriarchs
+      with the nonjuring bishops)
+    author: George Williams (ed.)
+    translator: (English; documents translated by the editor)
+    year: 1868
+    world: orthodoxy-under-the-ottomans-1650-1821
+    why: 'Patriarchal letters of 1716 to 1725, outside this world''s window but inside the later Ottoman
+      Orthodoxy entry''s. Found while searching for this world.
+
+      '
+    url: https://archive.org/details/orthodoxchurchof00willuoft
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of the metadata (London, Rivingtons, 1868; possible-copyright-status NOT_IN_COPYRIGHT);
+      OCR not sampled, 2026-10-16
+    status: not-yet-downloaded
+  - title: Libri symbolici Ecclesiae Orientalis
+    author: Ernst Julius Kimmel (ed.)
+    translator: (Greek and Latin)
+    year: 1843
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'The 1843 first printing of the collection the vendored Kimmel 1850 enlarges. A second scan of
+      the same Greek texts, useful only if a page-image check shows the 1850 Greek is too poor to quote.
+      Same two-column layout; the 1843 OCR has fewer Greek letters (about 338,000 against about 436,000),
+      so it is not cleaner.
+
+      '
+    url: https://archive.org/details/librisymbolicie00kimmgoog
+    rights_basis: pd-us-by-date
+    verified_by: direct fetch of the metadata (Jena, Hochhausen, 1843; possible-copyright-status NOT_IN_COPYRIGHT)
+      and the OCR, five-point sample, 2026-10-16
+    status: not-yet-downloaded

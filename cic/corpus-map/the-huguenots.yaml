@@ -254,6 +254,15 @@ works:
 
     '
   source_file: mornay-charlotte_memoires-de-madame-de-mornay-t1-fra_de-witt1868.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-fidei-gallicana-1559
+  work: Confessio fidei Gallicana (1559)
+  author: niemeyer
+  locus: from file line 22247
+  role: tradition
+  confidence: provisional
+  note: The Gallican Confession in Niemeyer's Latin text (a French original is in the Schaff
+    file already). Placed on the heading only. Second witness, noisy OCR.
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
 - row_id: perrin_histoire-des-vaudois-fra_1619--histoire-des-vaudois-premiere-partie-4
   work: Histoire des Vaudois, Part I, the Provence chapters (the Vaudois of Provence to the
     massacre of 1545) and the dedication to Lesdiguières

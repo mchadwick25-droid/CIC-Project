@@ -84,6 +84,15 @@ works:
 
     '
   source_file: mcglothlin_baptist-confessions-of-faith_1911.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-belgica
+  work: Confessio Belgica
+  author: niemeyer
+  locus: from file line 23996
+  role: context
+  confidence: provisional
+  note: The Belgic Confession in Latin. Placed on the heading only. Second witness, noisy
+    OCR.
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
 - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-canons-of-the-synod-of-dordrecht-2
   work: The Canons of the Synod of Dordrecht (1619), English, 1840 printing
   author: reformed-dutch-church
