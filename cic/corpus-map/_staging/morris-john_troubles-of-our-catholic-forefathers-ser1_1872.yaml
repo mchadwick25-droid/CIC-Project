@@ -1,0 +1,33 @@
+source_file: morris-john_troubles-of-our-catholic-forefathers-ser1_1872.txt
+
+assignments:
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser1_1872--nine-papers-of-the-first-series
+    work: "The Troubles of Our Catholic Forefathers Related by Themselves, First Series (nine papers: Mother Margaret Clement and the Carthusian monks; the imprisonment of Francis Tregian; Father Tesimond's landing in England; Father Richard Blount and Scotney Castle; the Babthorpes of Babthorpe; St Monica's Convent in war, pestilence and poverty; the Venetian Ambassador's chaplain; the Southcote family; the Tichbornes of Tichborne House)"
+    author: morris-john
+    locus: "paper headings at file lines 436 (Mother Margaret Clement), 3081 (Francis Tregian), 7036 (Tesimond's landing), 8809 (Blount and Scotney), 10293 (Babthorpes; Sister Grace Babthorpe 10690; Lady Babthorpe's Recollections 11235), 11627 (St Monica's), 14515 (Venetian Ambassador's chaplain; Cuthbert Clapton's Narrative 15492), 16374 (Southcote family; Sir Edward Southcote's letters 17398 and 17581), 18708 (Tichbornes)"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Filed under the editor's slug, the convention this corpus uses for a compiler's
+      volume (foxe, barlow). The papers are inside narratives in their own writers' words,
+      each prefaced by Morris's introduction naming the manuscript: Lady Babthorpe's
+      Recollections and the Tregian, Babthorpe, Southcote and Tichborne papers are the
+      household record the census asks for (women and families running the church in
+      private houses); the Margaret Clement and St Monica's papers are the exiled English
+      nuns' own chronicle. Morris modernised the spelling (his preface, file line about
+      104). Grouped in one row this pass; paper-by-paper quotability is Doc_03 scope.
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser1_1872--nine-papers-of-the-first-series-2
+    work: "The Troubles of Our Catholic Forefathers, First Series: the two Jesuit papers (Father Tesimond's landing in England; Father Richard Blount and Scotney Castle)"
+    author: morris-john
+    locus: "file lines 7036 to 8805 (Tesimond) and 8809 to 10280 (Blount and Scotney)"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: provisional
+    note: >
+      Narratives of two Jesuits of the English mission: the fragment of Oswald Tesimond's
+      own autobiography (Morris's introduction, file line 7036) and the Scotney Castle
+      papers on Richard Blount's escape. Placed on the papers' own subjects; the narrating
+      voice of each was not read closely this pass, so provisional.

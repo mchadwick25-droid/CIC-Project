@@ -1,0 +1,43 @@
+source_file: pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt
+
+assignments:
+  - row_id: pages_histoire-religion-chretienne-japon-annexes-fra_1870--annexes-letters-of-japanese-christians-1598-1651-in-french-translation
+    work: "Annexes: letters of Japanese Christians and catechists, 1598-1651, in French translation"
+    author: pages
+    locus: "the numbered annexes headed as letters of Japanese Christians: Yafindgidono Jorge (file line 1495), Naito Findadono Cami Joao (1529), Oumemidono (1556, 1660), Jean Ingoro (3006), Melchior Bougendano (3145), the three Jifiaqua (3205, 3250), Michel Fieoyemon (4145, 4182), Jean Tingoro (4282, 4316), among others"
+    atlas_ids:
+      - mission-born-christianities-kirishitan-japan-kon
+    role: tradition
+    confidence: assigned
+    note: >
+      The nearest thing in the corpus to the Kirishitan converts' own voice: letters of
+      Japanese Christians under the prohibition, printed by Pages in his own French
+      translation from the Jesuit and mendicant originals. A translated witness, two steps
+      from the Japanese: quote with that disclosed, and prefer the originals when a build
+      can reach them. French OCR legible with letter-level misreads.
+  - row_id: pages_histoire-religion-chretienne-japon-annexes-fra_1870--annexes-missionary-episcopal-papal-and-royal-documents-on-japan-1598-1651
+    work: "Annexes: missionary, episcopal, papal and royal documents on the church in Japan, 1598-1651"
+    author: pages
+    locus: "the numbered annexes from file line 214 to the Table analytique at line 25571; most in French translation, some printed in Spanish, Portuguese, Latin or Italian"
+    atlas_ids:
+      - mission-born-christianities-kirishitan-japan-kon
+    role: context
+    confidence: assigned
+    note: >
+      The missionary pen's record of the persecution years: Jesuit, Franciscan, Dominican
+      and Augustinian letters and relations, the bishop of Japan's letters to the king of
+      Spain, and papal briefs, compiled for the 1867 beatification of the 205 martyrs.
+      Pages's narrative volume (premiere partie, 1869) is not vendored. The Spanish and
+      Portuguese extracts near the end have noisier OCR than the French.
+  - row_id: pages_histoire-religion-chretienne-japon-annexes-fra_1870--annexes-missionary-episcopal-papal-and-royal-documents-on-japan-1598-1651-2
+    work: "Annexes: missionary, episcopal, papal and royal documents on the church in Japan, 1598-1651"
+    author: pages
+    locus: "the Jesuit letters and relations among the numbered annexes (for example Valignano to Acquaviva at file line 3284)"
+    atlas_ids:
+      - the-society-of-jesus
+    role: context
+    confidence: provisional
+    note: >
+      The Society's Japan province writing home during the persecution, in French
+      translation; placed on the Jesuit letters the volume holds, not on a reading for
+      that entry.

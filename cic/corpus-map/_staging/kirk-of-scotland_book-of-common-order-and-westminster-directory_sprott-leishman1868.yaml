@@ -1,0 +1,51 @@
+source_file: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+
+assignments:
+  - row_id: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868--book-of-common-order
+    work: "The Book of Common Order of the Church of Scotland, commonly known as John Knox's Liturgy (1564 text, modernised spelling), sections I-XII"
+    author: kirk-of-scotland
+    locus: "Sprott's Introduction from file line 501 (with the 1564 title page transcribed at 2876); the Book's own text from the Calendar and Fairs tables, 'THE CONFESSION' (of the Christian Faith, section III) at 3862, the orders of election, discipline, excommunication and public repentance, visitation of the sick, burial, the Order of Public Worship with its prayers, Baptism, 'THE LORD'S SUPPER' at 9419, Marriage, and the treatise of fasting, to the Notes at 15636 (edition pages 1-255)"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The Kirk's own service book from 1564 to 1645: the prayers the
+      congregation heard every Sunday, the form of public repentance the
+      kirk sessions used, and the order for the Lord's Supper. Primary
+      liturgical voice, ready to quote with one caveat: Sprott modernised the
+      spelling, so the sixteenth-century orthography is not in this file. OCR
+      sampled clean.
+  - row_id: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868--book-of-common-order-2
+    work: "The Book of Common Order (the Forme of Prayers of the English congregation at Geneva, 1556, as adopted in Scotland)"
+    author: kirk-of-scotland
+    locus: "as above; Sprott's Introduction from file line 501 traces each section to the 'Book of Geneva'"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      This liturgy was first made in Geneva (1556) for the English exiles whom
+      Knox served, with Calvin's approval, before Scotland adopted it. Placed
+      on that origin; the file carries the 1564 Scottish text, not the Geneva
+      print, so the Reformed Cities world should treat it as a derived
+      witness.
+  - row_id: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868--westminster-directory-1645
+    work: "A Directory for the Public Worship of God, agreed upon by the Assembly of Divines at Westminster (1645), with the Scottish Act of Assembly adopting it"
+    author: kirk-of-scotland
+    locus: "Leishman's Introduction from file line 16712; the Directory's own Preface at 17923 (edition page 289) and its sections (assembling of the congregation, public reading, prayer, preaching, the sacraments with 'THE LORD'S SUPPER' at 18877, 'OF MARRIAGE' at 19064, visitation of the sick, burial, fasting, thanksgiving, singing of psalms); 'APPENDIX TO THE DIRECTORY' at 19589; Notes from 19592"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+      - puritanism
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: provisional
+    note: >
+      The Westminster Assembly's replacement for the Book of Common Prayer,
+      drafted with the Scottish commissioners and adopted by the Kirk in 1645
+      and by the English Parliament. For Puritanism it is the movement's own
+      liturgical settlement; for the Scottish Kirk it is the book that
+      displaced the Book of Common Order; for the English Reformation world it
+      is the end of the Prayer Book's first life. The Directory's text was not
+      read for this pass beyond its contents, so each placement is
+      provisional.

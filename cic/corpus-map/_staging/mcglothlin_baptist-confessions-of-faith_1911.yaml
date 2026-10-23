@@ -21,6 +21,61 @@ assignments:
       printed volume (confessions of other, non-Anabaptist Baptist
       bodies) is not assigned here and not reviewed this pass.
 
+  - row_id: mcglothlin_baptist-confessions-of-faith_1911--the-waterlander-confession-c-1580-and-the-dordrecht-confession-1632
+    work: The Waterlander (Ries and Gerrits) Confession, c. 1580, and the Dordrecht Confession, 1632, in
+      McGlothlin's English
+    author: dordrecht-confession
+    locus: '''THE MENNONITES'' heading at file line 1400; ''I. Earliest Confession c. 1580'' at 1427; the
+      Dordrecht confession introduced at about line 2630'
+    atlas_ids:
+    - the-anabaptist-movements
+    role: tradition
+    confidence: provisional
+    note: 'The same volume already assigned for the Schleitheim articles also prints the two Dutch Mennonite
+      confessions, which the staging note says were not reviewed. Provisional: the headings were read, the
+      texts not checked against the Dutch. The Dordrecht text is a second English expression beside the
+      1890 Elkhart edition already vendored; the Waterlander confession is new to the corpus. The author
+      slug follows the corpus map''s existing slug for Dordrecht; the Waterlander text may want its own
+      slug (ries-and-gerrits) if split out.
+
+      '
+
+  - row_id: mcglothlin_baptist-confessions-of-faith_1911--the-amsterdam-english-baptist-confessions-1609-1630
+    work: The confessions of the English Baptist exiles at Amsterdam (Smyth's and Helwys's churches, 1609-1630),
+      as printed by McGlothlin
+    author: mcglothlin
+    locus: the Amsterdam confessions, listed in the volume's own table of contents as 'People Living at
+      Amsterdam' and 'People Remaining at Amsterdam' (file lines 188-191), with McGlothlin's notes on their
+      Dutch Mennonite contacts (lines 1445-1462, 2601-2717)
+    atlas_ids:
+    - dutch-further-reformation-and-refuge-culture
+    role: context
+    confidence: provisional
+    note: 'English separatists sheltering in Amsterdam, the refuge culture seen from one of the sheltered
+      groups. Placed on the table of contents and McGlothlin''s notes; the confessions themselves were not
+      read for this placement. The file''s existing Puritanism or English-Reformation placement, if any,
+      is the primary one.
+
+      '
+
+  - row_id: mcglothlin_baptist-confessions-of-faith_1911--arminian-theology-among-the-english-baptists-in-the
+    work: Arminian theology among the English Baptists in the Netherlands (introduction to the General Baptist
+      confessions)
+    author: mcglothlin
+    locus: the introduction to the English Baptists, file lines 2662-2675 (the English Baptists arose in
+      the Netherlands, took up the theology that "came to be known as Arminianism", and so became General
+      Baptists); the Amsterdam confessions follow
+    atlas_ids:
+    - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: 'McGlothlin (1911, secondary) ties the English Baptist exiles of Amsterdam to Arminian doctrine
+      of the Dutch kind. It is the one place in the vendored corpus that follows the Remonstrant doctrine
+      out of the Netherlands into a gathered church. Read at the loci given only. The Baptist and Anabaptist
+      worlds decide the primary placement of the confessions themselves. Tier: same time and place.
+
+      '
+
 authors_ruled:
   swiss-brethren:
     kind: anonymous

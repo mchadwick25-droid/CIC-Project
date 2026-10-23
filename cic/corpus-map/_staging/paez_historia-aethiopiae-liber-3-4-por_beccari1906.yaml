@@ -1,0 +1,30 @@
+source_file: paez_historia-aethiopiae-liber-3-4-por_beccari1906.txt
+assignments:
+- row_id: >-
+    paez_historia-aethiopiae-liber-3-4-por_beccari1906--historia-da-etiopia-books-iii-and-iv-pae
+  work: Historia da Etiopia, Books III and IV (Paez), Portuguese text edited by Beccari
+  author: paez
+  locus: >-
+    Livro III from file line 766 (chapter I at 910), Livro IV from 13917; the chapter index at 33510
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: assigned
+  note: >-
+    The Jesuit missionary Pedro Paez's history of the mission under the emperors who ended in Susenyos's
+    conversion. A Jesuit outside witness who took part in the mission. Portuguese, with Beccari's Latin
+    notes. No public-domain English was found; Tellez 1710 and Lobo are English reports on the same events.
+    OCR readable at five points.
+- row_id: >-
+    paez_historia-aethiopiae-liber-3-4-por_beccari1906--historia-da-etiopia-books-iii-and-iv-pae-2
+  work: Historia da Etiopia, Books III and IV (Paez), Portuguese text edited by Beccari
+  author: paez
+  locus: Livro III from file line 766, Livro IV from 13917
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: provisional
+  note: >-
+    The Jesuit mission to Ethiopia in the mission's own historian's words. Placed on window and subject
+    without reading the whole volume; role tradition because the author is a Jesuit narrating a Jesuit
+    mission, for the Jesuit world's builders to confirm.

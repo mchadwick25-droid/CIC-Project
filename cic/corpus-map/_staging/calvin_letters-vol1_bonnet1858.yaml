@@ -1,6 +1,3 @@
-# Closes a Verified Acquisition Lead from the Reformed Cities dossier
-# (Atlas VI.2). One of a 4-volume set; Vol. III could not be located this
-# pass (see this world's own dossier §3/§4) - not substituted or fabricated.
 source_file: calvin_letters-vol1_bonnet1858.txt
 
 assignments:
@@ -23,3 +20,19 @@ assignments:
       archive.org under this identifier family, the parallel 1855-57
       Edinburgh/Constable printing, or Project Gutenberg (which holds only
       Vols. I-II), so Vol. III is absent from the vendored set.
+
+  - row_id: calvin_letters-vol1_bonnet1858--letters-of-john-calvin-compiled-from-the-original-2
+    work: Letters of John Calvin, Vol. I, the letters on the Vaudois of Provence (LXXXI to Farel, 1544;
+      CXXXI to Farel and CXXXVII to Bullinger, 1545, on the massacre of Mérindol and Cabrières)
+    author: calvin
+    locus: LXXXI 'To Farel' at line 14004; CXXXI 'To Farel' at line 20769; CXXXVII 'To Bullinger' listed
+      in the contents at line 1332 (body after line 20908)
+    atlas_ids:
+    - the-waldensian-reformed-union
+    role: context
+    confidence: assigned
+    note: 'Calvin''s own letters pleading for the Provençal Waldensians who had joined the Reformed churches,
+      and his reaction to the 1545 massacre. Geneva''s side of the union, in English. Same time, a neighbouring
+      region of the same movement.
+
+      '

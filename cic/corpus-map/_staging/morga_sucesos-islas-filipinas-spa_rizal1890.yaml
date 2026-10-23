@@ -1,0 +1,37 @@
+source_file: morga_sucesos-islas-filipinas-spa_rizal1890.txt
+assignments:
+- row_id: morga_sucesos-islas-filipinas-spa_rizal1890--morga-sucesos-spanish
+  work: Sucesos de las Islas Filipinas (Mexico 1609), Rizal's annotated edition of 1890, with Blumentritt's
+    prologue
+  author: morga
+  locus: Blumentritt's prologue from file line 157; Morga's chapters 'CAPITULO PRIMERO' at 1160 to 'CAPITULO
+    OCTAVO' at 12441
+  atlas_ids:
+  - philippine-catholicism
+  role: context
+  confidence: assigned
+  note: Spanish original of Morga's Sucesos (1609), clean OCR; primary Spanish evidence once quotes are
+    checked against page images. English is in morga_sucesos-islas-filipinas_blair-robertson1907.txt.
+- row_id: morga_sucesos-islas-filipinas-spa_rizal1890--morga-sucesos-spanish-2
+  work: Sucesos de las Islas Filipinas (Mexico 1609), Rizal's annotated edition of 1890, with Blumentritt's
+    prologue
+  author: morga
+  locus: Blumentritt's prologue from file line 157; Morga's chapters 'CAPITULO PRIMERO' at 1160 to 'CAPITULO
+    OCTAVO' at 12441
+  atlas_ids:
+  - philippine-catholicism-gomburza-to-aglipay
+  role: context
+  confidence: provisional
+  note: Rizal's 1890 notes and Blumentritt's prologue are a Filipino nationalist reading of the Spanish
+    colonial record; placed on that likeness, not read against that entry's own sources.
+- row_id: morga_sucesos-islas-filipinas-spa_rizal1890--morga-sucesos-spanish-3
+  work: Sucesos de las Islas Filipinas (Mexico 1609), Rizal's annotated edition of 1890, with Blumentritt's
+    prologue
+  author: morga
+  locus: Blumentritt's prologue from file line 157; Morga's chapters 'CAPITULO PRIMERO' at 1160 to 'CAPITULO
+    OCTAVO' at 12441
+  atlas_ids:
+  - mission-born-christianities-kirishitan-japan-kon
+  role: context
+  confidence: provisional
+  note: As the English Morga row.

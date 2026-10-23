@@ -1,0 +1,36 @@
+source_file: chardin_travels-in-persia-v1_lloyd1720.txt
+
+authors_ruled:
+  chardin:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page in the OCR
+      reads "Sir John Chardin's Travels in Persia ... By Edm. Lloyd, Esq." (file lines 12-68); the host catalogue
+      gives Chardin, John, Sir. A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: chardin_travels-in-persia-v1_lloyd1720--julfa-the-armenian-suburb-of-isfahan
+    work: "Sir John Chardin's Travels in Persia, volume I (Lloyd's English, 1720): Julfa, the Armenian suburb of Isfahan, its provost, merchants, clergy and patriarch"
+    author: chardin
+    locus: "the provost of the Armenians of Julfa, 'that part of the suburbs of Ispahan where they are settled' (file line 6541); the provost and the chief merchants of the nation receiving the Muscovite ambassador (6957); the clergy of Julfa with their patriarch petitioning the chief minister about the taxes on the churches (7199); the flood between the bridge and the borough of Julfa (14811)"
+    atlas_ids:
+      - armenian-christianity-new-julfa
+    role: context
+    confidence: assigned
+    note: >
+      Same place, a generation after the window: a Huguenot jeweller at the Safavid court in
+      1672-73 sees the New Julfa Armenians as a merchant nation with its own provost, clergy
+      and patriarch, taxed on its churches. Outside witness, read at the four passages cited.
+      Microfilm OCR with broken words; the long s was normalised to s; second witness for
+      exact wording. Volume II has no Julfa passage and was not vendored.
+  - row_id: chardin_travels-in-persia-v1_lloyd1720--julfa-the-armenian-suburb-of-isfahan-2
+    work: "Sir John Chardin's Travels in Persia, volume I (Lloyd's English, 1720)"
+    author: chardin
+    locus: "the Julfa passages at file lines 6541, 6957, 7199 and 14811; the account of the Persian court and religion throughout"
+    atlas_ids:
+      - armenian-christianity-era-8
+    role: context
+    confidence: provisional
+    note: >
+      The Armenian merchant diaspora of New Julfa as it stood in the 1670s, which is the
+      background to the eighteenth-century entry. Placed on date; not read for that entry.

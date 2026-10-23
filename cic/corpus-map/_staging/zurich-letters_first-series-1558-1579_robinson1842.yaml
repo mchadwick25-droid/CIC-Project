@@ -1,0 +1,59 @@
+source_file: zurich-letters_first-series-1558-1579_robinson1842.txt
+
+assignments:
+  - row_id: zurich-letters_first-series-1558-1579_robinson1842--the-zurich-letters-first-series-letters-of-the-elizabethan-bishops-and
+    work: "The Zurich Letters, first series: letters of the Elizabethan bishops and divines to Bullinger, Peter Martyr and Gualter, 1558-1579 (Robinson's English)"
+    author: zurich-letters
+    locus: "LETTER I at file line 867 to the end of the English series before the APPENDIX at about 17282; the Index from 18577"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The Settlement as its makers described it in private: Jewel on the state of
+      religion in 1559, the bishops on the vestments and the queen's crucifix,
+      Sampson and Humphrey on the surplice, Cox and Horne on discipline. The
+      author slug names the collection because the letters have many writers, each
+      named in the heading of the letter quoted. Primary voice in Robinson's 1842
+      English; the Latin originals are in the same file (next row) for checking
+      any quotation. Clean OCR.
+  - row_id: zurich-letters_first-series-1558-1579_robinson1842--epistolae-tigurinae-the-latin-originals-of-the-first-series-zurich-let
+    work: "Epistolae Tigurinae: the Latin originals of the first-series Zurich Letters"
+    author: zurich-letters
+    locus: "from EPISTOLA I at about file line 20811 to the end of the file"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The same letters in the writers' own Latin, printed from the Zurich
+      autograph copies. Primary original-language voice; a quote record can hold
+      the Latin verified against this file with Robinson's English as the
+      cross-check. Clean OCR.
+  - row_id: zurich-letters_first-series-1558-1579_robinson1842--the-zurich-letters-first-series-the-vestiarian-and-discipline-letters-
+    work: "The Zurich Letters, first series: the vestiarian and discipline letters of Sampson, Humphrey, Grindal, Horne and Cox, 1565-1575"
+    author: zurich-letters
+    locus: "within the English series (867 to about 17282): the letters dated 1565 to 1575 to Bullinger and Gualter, and the Appendix replies from about 17282"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      The surplice controversy of 1565-1566 from the side of the men who first
+      refused and of the bishops who enforced it, with Bullinger's 1566 letter to
+      Horne that the bishops printed against the nonconformists. Context for the
+      Puritan world's own voices (the Admonition, the Dedham minutes);
+      provisional, placed without that world's own reading.
+  - row_id: zurich-letters_first-series-1558-1579_robinson1842--the-zurich-letters-first-series-the-zurich-side-bullinger-peter-martyr
+    work: "The Zurich Letters, first series: the Zurich side (Bullinger, Peter Martyr, Gualter) in the Appendix and in the Latin originals"
+    author: zurich-letters
+    locus: "APPENDIX from about file line 17282 (seven letters, 1562-1572); the corresponding Latin in the EPISTOLAE TIGURINAE from about 20811"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      Bullinger and his colleagues advising the English church on vestments and
+      the magistrate's power: the Zurich reformers' own voice applied abroad.
+      Context for the Reformed Cities world, which already holds Bullinger;
+      provisional, placed on subject without that world's own thread.

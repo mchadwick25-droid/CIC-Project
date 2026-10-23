@@ -1,0 +1,80 @@
+source_file: gerard-john_condition-of-catholics-under-james-i_morris1871.txt
+
+authors_ruled:
+  morris-john:
+    kind: metadata-omission
+    evidence: >
+      The title page (file line 1 header; Gutenberg transcription of the 1871 title page)
+      reads "Edited, with His Life, by John Morris, Priest of the Society of Jesus". The
+      file's leading name slug is Gerard, the author of the Narrative; the Life (file line
+      92 onward) is Morris's own composition, so his slug is supplied here from the title
+      page.
+    from_file: gerard-john_condition-of-catholics-under-james-i_morris1871.txt
+
+assignments:
+  - row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--narrative-of-the-gunpowder-plot
+    work: "A Narrative of the Gunpowder Plot (John Gerard's own English account, written c. 1606, printed from the Stonyhurst autograph)"
+    author: gerard-john
+    locus: "heading 'A NARRATIVE OF THE GUNPOWDER PLOT.' at file line 9102; the Preface ('Jesus Maria') and Chapters I-XVII follow to the Alphabetical Index at line 18198; Morris's footnotes are collected under 'FOOTNOTES' from line 19897"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Primary voice, in Gerard's own English, ready to quote once verified against the
+      Gutenberg transcription (which is clean) or the 1871 page images. An inside account of
+      the persecuted Catholics' condition at James I's accession, the Plot, and the
+      arraignments and deaths of Garnet and Oldcorne, written for the mission's own
+      superiors. Chapter XVII is Gerard's own catalogue of the penal laws.
+  - row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--narrative-of-the-gunpowder-plot-2
+    work: "A Narrative of the Gunpowder Plot (John Gerard's own English account, written c. 1606, printed from the Stonyhurst autograph)"
+    author: gerard-john
+    locus: "heading 'A NARRATIVE OF THE GUNPOWDER PLOT.' at file line 9102 to the index at line 18198"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      Gerard is a Jesuit writing to clear the Society (Garnet, Oldcorne, Gerard himself) of
+      complicity in the Plot; chapters IX-XV are the Society's own defence of its English
+      superior. The English mission's voice inside the Society's world.
+  - row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--narrative-of-the-gunpowder-plot-3
+    work: "A Narrative of the Gunpowder Plot (John Gerard's own English account, written c. 1606, printed from the Stonyhurst autograph)"
+    author: gerard-john
+    locus: "heading at file line 9102 to the index at line 18198"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      A contemporary opponent's view of the settled Protestant state under James: the
+      penal laws (Chapter XVII), the Puritan faction's pressure (Chapter II), the trials.
+      Placed on window and place; the Settlement's own Doc_02 decides whether it wants a
+      hostile Catholic witness of this kind.
+  - row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--life-of-father-john-gerard
+    work: "The Life of Father John Gerard (Morris's biography, built on long verbatim translated extracts from Gerard's Latin Autobiography)"
+    author: morris-john
+    locus: "heading 'THE LIFE OF FATHER JOHN GERARD' at file line 92 to the Narrative at line 9102; sections numbered I onward"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Mixed witness: Morris's 1871 narrative frame around Gerard's own autobiography in
+      Morris's translation (marked by quotation marks in the text). Gerard's voice is
+      quotable only where Morris marks the words as Gerard's, and only as Morris's
+      English; the Latin original is not in the corpus. This is the public-domain route to
+      the Autobiography (the census names the Caraman 1951 translation, which is in
+      copyright). The hiding-holes, the searches, the household chapels and the
+      gentlewomen who sheltered him are all here.
+  - row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--life-of-father-john-gerard-2
+    work: "The Life of Father John Gerard (Morris's biography, built on long verbatim translated extracts from Gerard's Latin Autobiography)"
+    author: morris-john
+    locus: "file line 92 to line 9102"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      The autobiography of a Jesuit of the English mission, as translated and framed by a
+      later Jesuit; same caveat as the recusant row (Gerard's words only where marked).

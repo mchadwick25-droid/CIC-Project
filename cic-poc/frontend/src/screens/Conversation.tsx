@@ -6,14 +6,13 @@ import { DeletedNotice } from '../components/DeleteConversation';
 import { Enter } from '../components/Enter';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { ResourcesFirst } from '../components/ResourcesFirst';
+import { SavedToHome } from '../components/SavedToHome';
 import { TranscriptScroll } from '../components/TranscriptScroll';
 import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import { WaitingNote } from '../components/WaitingNote';
 import { useReveal, type RevealItem } from '../hooks/useReveal';
 import type { ConversationTurn } from '../hooks/useConversation';
-import { accountsEnabled, useAccount } from '../lib/accounts';
-import { accountsCopy } from '../lib/accountsCopy';
 import { pageFeedbackId } from '../lib/api';
 import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import type { WorldEntry } from '../data/worlds';
@@ -80,10 +79,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
         title="Church in Conversation"
         aboutLabel={`About ${world.representativeName}`}
         about={
-          <>
-            <Arrival world={world} />
-            {sessionCode && <NotSavedNote />}
-          </>
+          <Arrival world={world} />
         }
         feedbackPage={world.worldKey}
         reportPage={started ? pageFeedbackId('conversation', [world.worldKey]) : null}
@@ -166,6 +162,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
         )}
         <WaitingNote show={waiting} label={`${world.representativeName} is considering`} />
       </TranscriptScroll>
+      {started && <SavedToHome />}
 
       {error && (
         <div className="conversation__error" role="alert">
@@ -199,13 +196,4 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
       {!deleted && <p className="conversation__ai-line sans">This is an AI-generated voice.</p>}
     </div>
   );
-}
-
-function NotSavedNote() {
-  const account = useAccount();
-  if (accountsEnabled && account.status === 'in') {
-    if (account.lastShelved !== false) return null;
-    return <div className="conversation__bar-note sans">{accountsCopy.notShelvedNote}</div>;
-  }
-  return <div className="conversation__bar-note sans">Not saved to an account — this conversation lives in this tab</div>;
 }

@@ -1,0 +1,60 @@
+source_file: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt
+assignments:
+- row_id: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914--poesias
+  work: Poesias del Mistico Doctor San Juan de la Cruz, the poems in the original Spanish (Noche oscura,
+    Cantico, Llama, the Pastorcico, the Fonte, the romances and glosses), Gerardo de San Juan de la Cruz's
+    critical edition, Toledo 1914
+  author: john-of-the-cross
+  locus: the editor's introduction to the poems from about line 7280; the authentic poems from about line
+    7400 (the "fonte" poem at 7463, "Noche oscura" at 7652, the Pastorcico at 7856); the poems the editor
+    marks as attributed from his note at line 7892 onward to about line 9300; the volume's own contents
+    table at line 31145 gives "Poesias autenticas" from page 157 and "Poesias atribuidas" from page 197
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: tradition
+  confidence: assigned
+  note: 'The poems the commentaries explain, in John''s own Spanish, which the 1891 English volume prints
+    only in translation. Under the project''s ruling of September 2026 a clean public-domain original is
+    primary evidence; this is the quotable Spanish for the poems, since Silverio''s poetry volume (Burgos,
+    1931) falls after the 1930 cutoff. Only the poems the editor marks authentic are John''s; the attributed
+    ones are not. OCR clean (word-shaped share 0.97); quote only after checking the page image.'
+- row_id: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914--cautelas-avisos-cartas
+  work: Cautelas, Avisos y sentencias espirituales, Dictamenes de espiritu, the twenty-five Cartas espirituales,
+    the Documentos varios and Profesiones, in Spanish (Gerardo 1914)
+  author: john-of-the-cross
+  locus: Cautelas from line 1525; Avisos y sentencias from line 2065; Dictamenes from line 4143; Cartas
+    espirituales from line 4827 (introduction to the letters at 4661); Profesiones at line 6944
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: tradition
+  confidence: assigned
+  note: 'The Spanish originals of the Instructions and Precautions, letters and Spiritual Maxims vendored
+    in English in the 1891 Lewis volume, with documents of John''s administration (acts, licences, the Malaga
+    foundation) that the English lacks. Same ruling and caveat as the poems.'
+- row_id: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914--attributed-and-later-carmelite-texts
+  work: Works printed as attributed or doubtful (Coloquios entre Cristo y su esposa el alma; Tratado breve
+    del conocimiento oscuro de Dios), the two treatises of Madre Cecilia del Nacimiento, and the appendices
+    by Diego de Jesus and Jose de Jesus Maria (Gerardo 1914)
+  author: john-of-the-cross
+  locus: Coloquios from line 11011; Tratado breve from line 14579; Cecilia del Nacimiento's Transformacion
+    del alma en Dios from about line 16635 and Union del alma con Dios following; the appendices from line
+    21921; the editor's additions and the epilogue before the indexes at line 31145
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: context
+  confidence: provisional
+  note: 'Not John''s voice: texts the editor himself prints as attributed or doubtful, a Discalced nun''s
+    treatises of the next generation (Cecilia del Nacimiento, 1570-1646), and seventeenth-century Carmelite
+    defences of John''s doctrine. Context for the reform''s second generation; placed on the contents table
+    only, not read.'
+- row_id: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914--quietism
+  work: Cautelas, Avisos and the apologetic appendices on contemplation (Gerardo 1914)
+  author: john-of-the-cross
+  locus: the appendix of Jose de Jesus Maria on John's guidance of souls to contemplation, from about line
+    27898
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: antecedent
+  confidence: needs-ruling
+  note: 'Seventeenth-century Carmelite defence of John''s teaching on contemplation, the ground the quietist
+    controversy fought over; placed as antecedent on the same needs-ruling footing as the English volumes.'

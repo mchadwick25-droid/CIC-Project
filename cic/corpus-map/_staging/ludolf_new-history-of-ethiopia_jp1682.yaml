@@ -1,0 +1,52 @@
+source_file: ludolf_new-history-of-ethiopia_jp1682.txt
+
+authors_ruled:
+  ludolf:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page in the OCR
+      reads "By the Learned Job Ludolphus, Author of the Ethiopic Lexicon ... Made English by J. P. Gent."
+      (file lines 25-60); the host catalogue gives Ludolf, Hiob. The same slug is used by the vendored
+      Commentarius (1691). A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: ludolf_new-history-of-ethiopia_jp1682--new-history-of-ethiopia-in-four-books
+    work: "A New History of Ethiopia, in four books (Ludolf, the English of J. P., 1682)"
+    author: ludolf
+    locus: "the contents list at file lines about 391-520; Book II (the kings: David, Claudius, Menas, the Jesuits) from the contents entry at 445; 'BOOK III' (the church: conversion, scriptures, sacraments, the contentions with the Jesuits) at 14092"
+    atlas_ids:
+      - ethiopian-christianity-gragn-to-fasilides
+    role: context
+    confidence: assigned
+    note: >
+      The first English of Ludolf's Latin History (1681): the Ethiopian church's history, rites
+      and quarrel with the Jesuits as a Lutheran scholar in Germany reconstructed it from the
+      Ethiopian monk Gregorius and the Jesuit printed histories, a generation after the mission
+      ended. An outside and reception witness, in English, for what the Latin Commentarius
+      (vendored) argues at length; it does not print the Confession of Claudius. Microfilm OCR,
+      long s normalised; second witness for exact wording. The 1684 second edition scan reads
+      long s as f and was not vendored.
+  - row_id: ludolf_new-history-of-ethiopia_jp1682--new-history-of-ethiopia-in-four-books-2
+    work: "A New History of Ethiopia (Ludolf, 1682), Book II on the Jesuit patriarchs and Book III on the separation from the Roman church"
+    author: ludolf
+    locus: "Book II contents from file line 445; Book III from 14092"
+    atlas_ids:
+      - the-society-of-jesus
+    role: context
+    confidence: provisional
+    note: >
+      A Protestant scholar's account of the Jesuit mission's failure, written against the Jesuit
+      histories it draws on. Placed on subject without a close read; for the Jesuit world's
+      builders to weigh.
+  - row_id: ludolf_new-history-of-ethiopia_jp1682--new-history-of-ethiopia-in-four-books-3
+    work: "A New History of Ethiopia (Ludolf, 1682), Book III on the conversion, scriptures and rites of the Ethiopian church"
+    author: ludolf
+    locus: "'BOOK III' from file line 14092"
+    atlas_ids:
+      - the-ethiopian-monastic-flowering
+    role: context
+    confidence: provisional
+    note: >
+      Ludolf's survey of the church's conversion, scriptures, monastic orders and rites reaches
+      back before 1517; a seventeenth-century European synthesis, not a source from that window.
+      Placed on the book's subject only.

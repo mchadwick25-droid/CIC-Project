@@ -1,0 +1,16 @@
+source_file: franck_paradoxa-deu_rab1559.txt
+assignments:
+- row_id: franck-paradoxa-deu-rab1559-paradoxa-ducenta-octoginta-280-paradoxa-german-pforzheim-1559-printing-of-the-1534
+  work: Paradoxa Ducenta Octoginta (280 Paradoxa), German, Pforzheim 1559 printing of the 1534 work
+  author: franck
+  locus: title page at the head; Vorred from file line 560; the 280 Paradoxa with running head "Paradoxa"
+    and leaf numbers (first at 1667); register at the end
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: tradition
+  confidence: assigned
+  note: Franck's central statement of spiritualist theology (the invisible church, the inner Word) in
+    German, the census-named Paradoxa. Garbled Fraktur OCR (about 0.75 of tokens read as words), so a
+    second witness until a cleaner scan is found; the 1558 printing and the 1909 Jena edition read no
+    better. No public-domain English translation exists (Furcha 1986 is in copyright). Primary voice for
+    locating passages; verify on the page images.

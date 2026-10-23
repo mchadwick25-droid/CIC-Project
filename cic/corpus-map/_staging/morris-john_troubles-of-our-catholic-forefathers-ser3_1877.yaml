@@ -1,0 +1,122 @@
+source_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+
+authors_ruled:
+  mush-john:
+    kind: metadata-omission
+    evidence: >
+      The volume's table of contents (file line about 438) and the paper heading at file
+      line 15726 read "Mr. John Mush's Life of Margaret Clitherow"; the title page names
+      only the editor, John Morris.
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  holtby-richard:
+    kind: metadata-omission
+    evidence: >
+      Paper heading at file line 5017, "Father Richard Holtby on Persecution in the
+      North", and the contents' "Father Holtby's Narrative"; the title page names only
+      Morris.
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  ancient-editor-note-book:
+    kind: anonymous
+    evidence: >
+      Paper I is headed "An Ancient Editor's Note Book" (file line 526); Morris's
+      introduction presents it as an unnamed Elizabethan Catholic's collection, and no
+      author is named.
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  yorkshire-recusant:
+    kind: anonymous
+    evidence: >
+      Paper II is headed "A Yorkshire Recusant's Relation" (file line 3266); the writer
+      is not named.
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  ousebridge-kidcote-prisoner:
+    kind: anonymous
+    evidence: >
+      Paper IV is headed "Notes by a Prisoner in Ousebridge Kidcote" (file line 10657);
+      the writer is not named.
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+
+assignments:
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--mush-life-of-margaret-clitherow
+    work: "A True Report of the Life and Martyrdom of Mrs. Margaret Clitherow (John Mush, 1586), printed as 'Mr. John Mush's Life of Margaret Clitherow' with Morris's introduction"
+    author: mush-john
+    locus: "paper heading at file line 15726; Morris's introduction from 17080; the True Report itself from the heading at file line 17073 (Chapter I) to the index at line 22005"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Primary voice ready to quote once verified: the life of the York butcher's wife
+      pressed to death in 1586 for harbouring priests, written by her confessor within
+      months of her death to advance her cause. Hagiographic by design (the census's own
+      note), with her recorded answers at arraignment. The central women's text of this
+      world, in English (Morris's spelling).
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--holtby-on-persecution-in-the-north
+    work: "Father Richard Holtby on Persecution in the North (Holtby's narrative, with extracts from the Acts of the Ecclesiastical Commission of the North and his account of three martyrs)"
+    author: holtby-richard
+    locus: "paper heading at file line 5017; Holtby's narrative from about line 5663 to the next paper at 10653"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      A Jesuit's own report, a letter to "Reverend Father" from the original at Stonyhurst
+      (file line 5663), on the searches, prisons and deaths in the North, written after
+      Henry Walpole's apprehension; Morris prints the Ecclesiastical Commission's own acts
+      beside it. English, in Morris's spelling.
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--holtby-on-persecution-in-the-north-2
+    work: "Father Richard Holtby on Persecution in the North"
+    author: holtby-richard
+    locus: "file lines 5017 to 10653"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: provisional
+    note: >
+      A Jesuit missioner's report to a Jesuit superior; placed on that fact, the report's
+      own Jesuit framing not read closely this pass.
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--ancient-editors-note-book
+    work: "An Ancient Editor's Note Book (nineteen chapters on the penal laws, the prisons, the martyrdoms and the devotion of Catholics, compiled by an unnamed Elizabethan Catholic)"
+    author: ancient-editor-note-book
+    locus: "heading at file line 526; chapters I-XIX run to the second paper at line 3262"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      An inside compilation of how the laws worked in practice (chapters I-X), the misery
+      and trials of Catholics, the deaths in prison, relics and the devotion of the laity.
+      English, Morris's spelling.
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--ancient-editors-note-book-2
+    work: "An Ancient Editor's Note Book"
+    author: ancient-editor-note-book
+    locus: "file lines 526 to 3262"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      A contemporary opponent's catalogue of the Settlement's penal machinery as applied;
+      placed on window and place, for the Settlement's Doc_02 to accept or set aside.
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--yorkshire-recusants-relation
+    work: "A Yorkshire Recusant's Relation (searches, examinations, prisons, arraignments and executions, by an unnamed Yorkshire Catholic)"
+    author: yorkshire-recusant
+    locus: "heading at file line 3266 to the third paper at line 5013"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Lay inside voice on the persecutor (the Earl of Huntingdon, President of the Council
+      in the North, file line 117), searches of houses and the York prisons. English,
+      Morris's spelling.
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--notes-by-a-prisoner-in-ousebridge-kidcote
+    work: "Notes by a Prisoner in Ousebridge Kidcote (with Morris's note on those who died in the York and Hull prisons)"
+    author: ousebridge-kidcote-prisoner
+    locus: "heading at file line 10657; the notes themselves from about line 14233 to the fifth paper at 15722"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Prison notes from the York gaol where Margaret Clitherow was held; the prisoners'
+      own record of deaths in custody. English, Morris's spelling.

@@ -1,0 +1,24 @@
+source_file: borromeo_ammaestramenti-alle-persone-religiose-ita_1902.txt
+
+assignments:
+  - row_id: borromeo_ammaestramenti-alle-persone-religiose-ita_1902--ammaestramenti-alle-persone-religiose
+    work: "Ammaestramenti di San Carlo Borromeo alle persone religiose (seventeen sermons to the Angeliche of S. Paolo, Milan)"
+    author: borromeo
+    locus: "editors' 'PREFAZIONE' at file line 260 (editorial); 'DISCORSO I' at line 731 through 'DISCORSO XVII' (several headings mis-read in the OCR); the appendix of three further discourses translated by the editors from Possevino's Latin, and the note on the Angeliche, follow the seventeenth discourse near the end of the file"
+    atlas_ids:
+      - tridentine-parish-renewal-borromean-milan
+    role: tradition
+    confidence: assigned
+    note: >
+      Borromeo's own preached voice: seventeen sermons to the Angeliche nuns of S. Paolo, written down after hearing them by Angelica Agata Sfondrati, in the 1902 Milan re-edition. Caveat on wording: the 1902 preface says the spelling was lightly modernised and some obsolete phrases altered, and the appendix's three discourses are the editors' own translation from Possevino's Latin, not Borromeo's words. For exact wording the first printing is Sermoni familiari (Padua: Comino, 1720), archive.org bub_gb_At9JPge9gbkC, not yet vendored because its OCR reads the long s as f. Legible OCR with a cluster of garbled lines around the 70 % point.
+
+  - row_id: borromeo_ammaestramenti-alle-persone-religiose-ita_1902--borromeo-tridentine-context
+    work: Ammaestramenti alle persone religiose (Borromeo, 1902)
+    author: borromeo
+    locus: as in the existing row
+    atlas_ids:
+    - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: Borromeo's own voice, kept to Borromean Milan as its tradition text; cross-linked to the whole-church
+      world as the model Tridentine bishop writing. Placed on subject only; not read for whole-church matter.

@@ -1,6 +1,3 @@
-# Proactive vendoring ahead of
-# the Reformed Cities build (Atlas VI.2), per this world's own Source
-# Readiness Dossier.
 source_file: zwingli_selected-works_jackson1901.txt
 
 assignments:
@@ -39,3 +36,20 @@ assignments:
       "Refutation of the Tricks of the Baptists," including a sustained
       "On Election" exposition, independently verified against the file
       directly.
+
+  - row_id: zwingli_selected-works_jackson1901--refutation-of-the-tricks-of-the-catabaptists-1527-anabaptists
+    work: Refutation of the Tricks of the Catabaptists (In catabaptistarum strophas elenchus, 1527), with
+      the Schleitheim articles embedded
+    author: zwingli
+    locus: running heads 'REFUTATION OF BAPTIST TRICKS' from file line 5032; address to the ministers at
+      5037; 'SECOND PART' at 7241 with 'TITLE OF THE CONSTITUTION OF THE SECT OF THE CATABAPTISTS' at 7254
+      (Zwingli's Latin of the seven Schleitheim articles, in English); 'PART THIRD' at 8882
+    atlas_ids:
+    - the-anabaptist-movements
+    role: context
+    confidence: assigned
+    note: 'Zwingli''s own 1527 polemic against the Zurich Anabaptists, the hostile witness that preserved
+      the Schleitheim articles in Latin; McGlothlin''s 1911 English of the articles is a translation of
+      this same Latin. Same time and place as the world (Zurich, 1525-1527).
+
+      '

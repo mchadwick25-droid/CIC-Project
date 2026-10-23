@@ -1,0 +1,55 @@
+source_file: schaff_gallican-confession-fra-eng_1877.txt
+
+authors_ruled:
+  french-reformed-synods:
+    kind: metadata-omission
+    evidence: >
+      Not CCEL-derived markup (a plain-text archive.org OCR extract). The
+      Confession is the corporate act of the first national synod of the
+      Reformed Churches of France (Paris, May 1559), reaffirmed at La
+      Rochelle 1571; Schaff's own headnote in the file says it was
+      "prepared by Calvin and his pupil, De Chandieu, revised and approved
+      by a synod at Paris, 1559". The same corporate slug is used for the
+      Quick Synodicon rows.
+
+assignments:
+  - row_id: schaff_gallican-confession-fra-eng_1877--confessio-fidei-gallicana-the-french-confession-of-faith
+    work: "Confessio Fidei Gallicana. The French Confession of Faith, A.D. 1559 (French text in modern spelling with Emily O. Butler's English translation)"
+    author: french-reformed-synods
+    locus: "whole file: Schaff's headnote from line 14, the Preface and forty Articles following, French and English alternating"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      The world's own confession of faith in a clean nineteenth-century
+      printing, French and English side by side: the French is the primary
+      wording (modern spelling, from the Toulouse 1864 edition per Schaff),
+      the English a published cross-check. Quotable once checked against
+      the page image. Quick's 1692 English is the older version.
+
+  - row_id: schaff_gallican-confession-fra-eng_1877--confessio-fidei-gallicana-the-french-confession-of-faith-2
+    work: "Confessio Fidei Gallicana. The French Confession of Faith, A.D. 1559 (French text in modern spelling with Emily O. Butler's English translation)"
+    author: french-reformed-synods
+    locus: "whole file"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      Drafted in Geneva for the French churches per Schaff's headnote; the
+      clearest surviving statement of what Geneva's daughter church
+      professed. Placed on that relation, not read against the Reformed
+      Cities' own sources.
+
+  - row_id: schaff_gallican-confession-fra-eng_1877--confessio-fidei-gallicana-the-french-confession-of-faith-3
+    work: "Confessio Fidei Gallicana. The French Confession of Faith, A.D. 1559 (French text in modern spelling with Emily O. Butler's English translation)"
+    author: french-reformed-synods
+    locus: "whole file"
+    atlas_ids:
+      - church-of-the-desert-huguenots
+    role: tradition
+    confidence: provisional
+    note: >
+      The confession the Desert churches kept after 1685. Placed on
+      continuity; that world has no vendored sources yet.

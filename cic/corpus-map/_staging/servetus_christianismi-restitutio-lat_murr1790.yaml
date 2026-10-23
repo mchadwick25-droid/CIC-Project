@@ -1,0 +1,18 @@
+source_file: servetus_christianismi-restitutio-lat_murr1790.txt
+
+assignments:
+  - row_id: servetus_christianismi-restitutio-lat_murr1790--christianismi-restitutio
+    work: "Christianismi restitutio (1553), in the 1790 Murr reprint"
+    author: servetus
+    locus: "Liber primus of De Trinitate divina from file line 546; the two Dialogi at 9783; De fide et iustitia regni Christi (Libri tres) at 13770; the work in four libri from 16959; Conclusio at 27440; Epistolae from 27473"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: tradition
+    confidence: assigned
+    note: >
+      The book for which Servetus was burned at Geneva, in the Latin of a
+      page-for-page 1790 reprint of the 1553 Vienne edition. Primary
+      voice, ready to quote once verified against the page image; the
+      OCR is readable but reads long-s as f. English bookseller's notes
+      are pasted into the front of the scan and are not Servetus's. No
+      public-domain English exists.

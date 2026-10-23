@@ -15,3 +15,15 @@ assignments:
       identified for Canisius, a major first-generation Jesuit, in this
       corpus. This closes a real prior gap: no Canisius material had
       ever been checked for this world.
+
+  - row_id: canisius_summe-of-christian-doctrine_anon1622--canisius-catechism-tridentine-context
+    work: A Summe of Christian Doctrine (Canisius, English 1622)
+    author: canisius
+    locus: as in the existing row
+    atlas_ids:
+    - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: The Jesuit catechism that ran beside the Roman Catechism in the Counter-Reformation parishes;
+      kept to the Jesuit world as its tradition text and cross-linked here as context. Placed on subject
+      and window; not read for how it relates to the Roman Catechism.

@@ -1,0 +1,116 @@
+source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
+authors_ruled:
+  gennadius-scholarius:
+    kind: metadata-omission
+    evidence: The file name carries the collection's title; the host record's contents and the running
+      heads ('Gennadii Confessio I', file line 4553) name Gennadius. Same ruling shape as the vendored
+      1850 staging.
+  lucaris:
+    kind: metadata-omission
+    evidence: Running head 'Cyrilli Lucaris Confessio' at file line 8764; the collection's title page
+      lists him.
+  mogila:
+    kind: metadata-omission
+    evidence: Running heads 'Orthodoxa Confessio' from file line 10046; the prolegomena name Peter Mogila
+      as its author.
+  dositheus:
+    kind: metadata-omission
+    evidence: Running head 'Synodus Hierosolymitana' from file line 40197; the prolegomena name Dositheus's
+      confession (file line 4142).
+assignments:
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--confessiones-i-and-ii-of-gennadius-scholarius-greek-with
+  work: Confessiones I and II of Gennadius Scholarius, Greek with Latin (Kimmel 1843)
+  author: gennadius-scholarius
+  locus: Gennadii Confessio I from file line 4553, Confessio II from about file line 6254, to about file
+    line 8763
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: tradition
+  confidence: assigned
+  note: 'The first Patriarch under the Sultan''s own statement of the faith made for Mehmed II, in Greek
+    with Kimmel''s Latin. This 1843 first printing holds the same texts as the vendored Kimmel 1850 and
+    is a second scan of the Greek: at the sampled points its Greek column is read whole where the 1850
+    OCR cuts it, though it holds fewer Greek letters overall. Use whichever scan reads cleanly at the
+    passage, and check against the page images.'
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--confession-of-cyril-lucaris-greek-with-latin-kimmel-1843
+  work: Confession of Cyril Lucaris, Greek with Latin (Kimmel 1843)
+  author: lucaris
+  locus: Cyrilli Lucaris Confessio at about file lines 8764-8914
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: tradition
+  confidence: assigned
+  note: 'The 1629 Confession in its Greek form, the text the synods of 1638, 1642 and 1672 condemned.
+    This 1843 first printing holds the same texts as the vendored Kimmel 1850 and is a second scan of
+    the Greek: at the sampled points its Greek column is read whole where the 1850 OCR cuts it, though
+    it holds fewer Greek letters overall. Use whichever scan reads cleanly at the passage, and check against
+    the page images.'
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--confession-of-cyril-lucaris-greek-with-latin-kimmel-1843-2
+  work: Confession of Cyril Lucaris, Greek with Latin (Kimmel 1843)
+  author: lucaris
+  locus: same as the Ottoman row
+  atlas_ids:
+  - the-reformed-cities-zurich-and-geneva
+  role: context
+  confidence: provisional
+  note: 'Mirrors the provisional Reformed-cities row on the 1850 printing: the Confession''s Calvinist
+    reading is contested.'
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--the-orthodox-confession-confessio-orthodoxa-greek-with-latin
+  work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin (Kimmel 1843)
+  author: mogila
+  locus: Orthodoxa Confessio from about file line 8915 (Greek heading at file line 8915) to about file
+    line 40196
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: tradition
+  confidence: assigned
+  note: 'Mogila''s Confession as approved at Jassy in 1642, Greek and Latin. This 1843 first printing
+    holds the same texts as the vendored Kimmel 1850 and is a second scan of the Greek: at the sampled
+    points its Greek column is read whole where the 1850 OCR cuts it, though it holds fewer Greek letters
+    overall. Use whichever scan reads cleanly at the passage, and check against the page images.'
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-2
+  work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin (Kimmel 1843)
+  author: mogila
+  locus: same as the Ottoman row
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: assigned
+  note: 'The Kyiv metropolitan''s own book in its Greek form; mirrors the 1850 rows. This 1843 first printing
+    holds the same texts as the vendored Kimmel 1850 and is a second scan of the Greek: at the sampled
+    points its Greek column is read whole where the 1850 OCR cuts it, though it holds fewer Greek letters
+    overall. Use whichever scan reads cleanly at the passage, and check against the page images.'
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-3
+  work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin (Kimmel 1843)
+  author: mogila
+  locus: same as the Ottoman row
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: provisional
+  note: 'Mirrors the provisional Brest row on the 1850 printing: the Confession answers the union''s situation
+    but is not about it.'
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--acts-of-the-synod-of-jerusalem-1672-and-the-confession-of
+  work: Acts of the Synod of Jerusalem (1672) and the confession of Dositheus, Greek with Latin (Kimmel
+    1843)
+  author: dositheus
+  locus: Synodus Hierosolymitana from about file line 40197 to about file line 59770
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: tradition
+  confidence: assigned
+  note: 'The 1672 acts and Dositheus''s confession, Greek and Latin. This 1843 first printing holds the
+    same texts as the vendored Kimmel 1850 and is a second scan of the Greek: at the sampled points its
+    Greek column is read whole where the 1850 OCR cuts it, though it holds fewer Greek letters overall.
+    Use whichever scan reads cleanly at the passage, and check against the page images.'
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--acts-of-the-synod-of-jerusalem-1672-and-the-confession-of-2
+  work: Acts of the Synod of Jerusalem (1672) and the confession of Dositheus, Greek with Latin (Kimmel
+    1843)
+  author: dositheus
+  locus: same as the later-entry row
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: tradition
+  confidence: assigned
+  note: 'Mirrors the 1850 row: the Jerusalem synod closes the Lucaris affair and is placed on this world
+    as its ending text.'

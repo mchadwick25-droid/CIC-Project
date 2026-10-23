@@ -1042,7 +1042,7 @@ def deeper_for_dev_server(data_dir: Path, usage_store, environ) -> dict | None:
     if not config.enabled:
         return None
     data_dir.mkdir(exist_ok=True)
-    runtime = deeper_routes.build_runtime(config, dict(environ), usage_store=usage_store)
+    runtime = deeper_routes.build_runtime(config, dict(environ))
     deeper_routes.install_access_log_filter()
     return {
         "deeper": runtime,
@@ -1110,7 +1110,7 @@ def _build_real_app() -> FastAPI:
     deeper_config = DeeperConfig.from_env(str(data_dir))
     deeper_runtime = None
     if deeper_config.enabled:
-        deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ), usage_store=usage_store)
+        deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ))
         deeper_routes.install_access_log_filter()
         deeper_routes.start_retention_thread(deeper_runtime)
     accounts_config = AccountsConfig.from_env(str(data_dir))

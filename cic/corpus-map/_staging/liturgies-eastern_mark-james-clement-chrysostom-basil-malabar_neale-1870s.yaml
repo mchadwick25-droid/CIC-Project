@@ -1,7 +1,3 @@
-# Neale and Littledale's English translations of six eastern rites, including the Liturgy
-# of St. Basil for the cappadocian entry. Every rite here is
-# a later written form of an older practice; its attribution to a named saint is
-# traditional and disputed. Neale's introduction and notes are 19th-century commentary.
 source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
 
 authors_ruled:
@@ -109,3 +105,16 @@ assignments:
       The rite used by the Malabar church, in Neale's own translation made for this volume.
       Neale's notes discuss its history and its alteration at the Synod of Diamper; those notes
       are commentary. Check the printed liturgy's exact form before any quotation.
+
+  - work: Liturgy of Malabar (East-Syriac rite of the St. Thomas Christians)
+    author: liturgy-of-malabar
+    locus: file lines about 8150-9700; Neale's introduction at line 655-680 and his note at 8340-8375 discuss
+      the Synod of Diamper's changes
+    atlas_ids:
+    - st-thomas-christians-under-portuguese-pressure-d
+    role: context
+    confidence: assigned
+    note: 'Neale''s English of the rite the Synod of Diamper revised; his notes name Menezes and the Synod
+      (lines 666, 8361) and call the Malabar liturgy''s surviving form a revision. Compare with Raulin''s
+      Liturgia Malabarica Menesiana. Tier: same time-place.'
+    row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-malabar-east-syriac-rite-of-the-st-thomas-christi

@@ -58,3 +58,15 @@ assignments:
       church's own calendar of saints; reception source. The other three works in the
       volume (Jugie's Byzantine Marian homilies, Périer's Perle précieuse, Severus of
       Antioch's homily 77) are not assigned here and are for the corpus-assignment thread.
+
+  - row_id: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922--synaxaire-armenien-de-ter-israel-vi28
+    work: 'Le Synaxaire arménien de Ter Israël, IV: mois de Tré (Bayan, French translation)'
+    author: ter-israel
+    locus: from file line 93 (month of Tré)
+    atlas_ids:
+    - armenian-christianity-new-julfa
+    role: context
+    confidence: provisional
+    note: Out of the window (the compilation is the thirteenth century) but the Armenian church's own calendar
+      of saints, which the Etchmiadzin church kept through the Safavid period. Placed on the tradition;
+      not read for this entry. Existing row for the Cilician entry is unchanged.

@@ -1,0 +1,43 @@
+source_file: challoner_memoirs-of-missionary-priests_pollen1924.txt
+
+assignments:
+  - row_id: challoner_memoirs-of-missionary-priests_pollen1924--memoirs-of-missionary-priests-1577-to-1650
+    work: "Memoirs of Missionary Priests and Other Catholics of Both Sexes that have Suffered Death in England, 1577 to 1684 (Pollen's revised edition), the entries from 1577 to 1650"
+    author: challoner
+    locus: "Pollen's introduction from file line 88; the entries run in year order with running heads of the form '1577]' (first at file line 1948); the year heads 1640-1646 are the last inside this world's window, and the entries from '1654]' (file line 28241) to '1680' and the appendices (32470 onward) fall outside it"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      The community's own martyrology, compiled 1741-42 by its vicar apostolic from
+      contemporary printed and manuscript relations, "oftentimes penned by eyewitnesses"
+      (title page), in Pollen's 1924 revision with source notes. Challoner's framing voice
+      is 1741, outside the window; the embedded relations and the martyrs' recorded last
+      words are the contemporary material, and Pollen's footnotes say where each comes
+      from. Women are here by name (the lay women executed for harbouring priests).
+      Quotable as Challoner's text; a quote attributed to a martyr needs the source Pollen
+      names.
+  - row_id: challoner_memoirs-of-missionary-priests_pollen1924--memoirs-of-missionary-priests-1577-to-1650-2
+    work: "Memoirs of Missionary Priests, 1577 to 1684 (Pollen's revised edition)"
+    author: challoner
+    locus: "whole volume; the Jesuit entries are marked 'S.J.' in the running heads and entries"
+    atlas_ids:
+      - the-society-of-jesus
+    role: context
+    confidence: provisional
+    note: >
+      A secular vicar apostolic's martyrology that covers the Society's English martyrs
+      (Campion, Southwell, Walpole, Garnet and others) from outside the Society. Placed
+      on that coverage, not read for its treatment of the Society as such.
+  - row_id: challoner_memoirs-of-missionary-priests_pollen1924--memoirs-of-missionary-priests-1577-to-1650-3
+    work: "Memoirs of Missionary Priests, 1577 to 1684 (Pollen's revised edition)"
+    author: challoner
+    locus: "whole volume"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      The Catholic record of the Settlement's executions, with the indictments and
+      judges' words as the Catholic sources reported them. Placed on window and place.

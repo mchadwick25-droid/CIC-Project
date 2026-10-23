@@ -1,0 +1,41 @@
+source_file: sarsa-dengel_historia-regis-sarsa-dengel-gez-fra_conti-rossini1907.txt
+authors_ruled:
+  zenahu-la-galla:
+    kind: anonymous
+    evidence: >-
+      Neither this volume nor Schleicher's 1893 edition (file zenahu-la-galla_geschichte-der-galla-deu_schleicher1893.txt)
+      names the monk who wrote the history: Schleicher's title page reads 'Bericht eines abessinischen
+      Moenches' (an Abyssinian monk's report) and the host catalogue lists the work's own title, Zenahu
+      la-Galla. The usual attribution to Abba Bahrey is supplied by the project brief and the secondary
+      literature, not by either edition, so the work is held as anonymous here.
+assignments:
+- row_id: >-
+    sarsa-dengel_historia-regis-sarsa-dengel-gez-fra_conti-rossini1907--royal-chronicle-of-sarsa-dengel-malak-sa
+  work: Royal chronicle of Sarsa Dengel (Malak Sagad), Ge'ez text and French translation
+  author: sarsa-dengel
+  locus: >-
+    Textus (Ge'ez, OCR noise) from file line 85; Versio title page at 9516, Praefatio at 9554, French
+    translation from there to 18384
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: tradition
+  confidence: assigned
+  note: >-
+    The Ethiopian royal chronicle of the reign that followed the Gragn wars, written at the court. The
+    Ethiopian inside voice the census names. Usable in French (the Ge'ez text is not recovered by the
+    OCR and is an image-check job). No public-domain English was found. The chronicle's first reading
+    belongs to the world's builders; the editor's preface (file line 9554) says the chronicle is the fourth
+    part of a collection of reigns beginning with Lebna Dengel.
+- row_id: >-
+    sarsa-dengel_historia-regis-sarsa-dengel-gez-fra_conti-rossini1907--history-of-the-galla-zenahu-la-galla-ge
+  work: History of the Galla (Zenahu la-Galla), Ge'ez text and French translation by Guidi
+  author: zenahu-la-galla
+  locus: Ge'ez text from file line 8974; French translation ('HISTOIRE DES GALLA') from 18384
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: tradition
+  confidence: assigned
+  note: >-
+    A sixteenth-century Ethiopian monk's account of the Galla (Oromo) invasion. An inside voice on the
+    pressure that followed the Gragn wars. Not read in full. The same work is in German with the Ethiopic
+    in zenahu-la-galla_geschichte-der-galla-deu_schleicher1893.txt.

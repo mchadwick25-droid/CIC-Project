@@ -1,0 +1,57 @@
+source_file: wigram_assyrians-and-their-neighbours_1929.txt
+
+authors_ruled:
+  wigram:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The author is named on the
+      title page (file line 46: "THE REV. W. A. WIGRAM") and the host catalogue gives William Ainger Wigram,
+      1872-1953. A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: wigram_assyrians-and-their-neighbours_1929--chapter-vii-schism-of-the-sixteenth-century
+    work: "The Assyrians and their Neighbours (1929), chapter VII, Tamerlane and the Coming of the Ottoman: the hereditary patriarchate and the schism of the sixteenth century"
+    author: wigram
+    locus: "chapter VII contents at file line 349; text from 6529; the schism of Shimun Dinkha and Sulaka at lines about 7340-7500"
+    atlas_ids:
+      - church-of-the-east-schism-of-1552
+    role: context
+    confidence: assigned
+    note: >
+      The clearest English narrative of the schism in the corpus: the "natar kursya" hereditary succession, why
+      the dissenters wanted a canonical election, how Sulaka's submission at Rome began the two lines, and the
+      Roman permissions given to him. Anglican mission-head, 1929, writing for English readers; a reception
+      witness and finding aid, never evidence of the events. Read at the lines given.
+  - row_id: wigram_assyrians-and-their-neighbours_1929--chapter-vii-schism-of-the-sixteenth-century-2
+    work: "The Assyrians and their Neighbours (1929), chapter VII, Tamerlane and the Coming of the Ottoman"
+    author: wigram
+    locus: "chapter VII from file line 6529 (Tamerlane, the loss of the outlying provinces, the move of the patriarchate to Mosul)"
+    atlas_ids:
+      - church-of-the-east-timur-to-hakkari
+    role: context
+    confidence: provisional
+    note: >
+      The same chapter covers Timur's destruction and the shrinking to Hakkari (the window of the earlier entry).
+      Placed on the chapter title and synopsis; not read through.
+  - row_id: wigram_assyrians-and-their-neighbours_1929--chapter-vii-schism-of-the-sixteenth-century-3
+    work: "The Assyrians and their Neighbours (1929), chapters VIII to X: Ottoman rule, the customs of the Assyrians, the Great War"
+    author: wigram
+    locus: "contents of chapters VIII, IX and X at file lines 380-500; the schism's long consequence (the two lines, Joseph's line from 1680, Mosul) at lines about 7440-7500"
+    atlas_ids:
+      - church-of-the-east-chaldean-consolidation
+    role: context
+    confidence: provisional
+    note: >
+      The same volume carries the Ottoman centuries and the nineteenth-century position of the two lines. Placed
+      on the synopsis, not read through.
+  - row_id: wigram_assyrians-and-their-neighbours_1929--chapter-vii-schism-of-the-sixteenth-century-4
+    work: "The Assyrians and their Neighbours (1929), chapter X, The Great War and After"
+    author: wigram
+    locus: "chapter X from the contents at about file line 480; the war, the murder of Mar Shimun, the trek to Baqubah"
+    atlas_ids:
+      - the-sayfo-and-the-syriac-diaspora
+    role: context
+    confidence: provisional
+    note: >
+      An English contemporary-witness account (1929) of the Assyrian war and flight of 1914-1918. Placed on the
+      synopsis, not read.

@@ -1,0 +1,37 @@
+source_file: foxe_acts-and-monuments-v7_cattley-townsend1837.txt
+
+assignments:
+  - row_id: foxe_acts-and-monuments-v7_cattley-townsend1837--the-acts-and-monuments-vol-vii-the-marian-persecution-of-1555
+    work: "The Acts and Monuments of John Foxe, Vol. VII (Cattley/Townsend edition): the Marian persecution of 1555, with the examinations and letters of Bradford, Ridley, Latimer, Philpot and the ordinary believers"
+    author: foxe
+    locus: "whole volume; the contents table from file line 118; Ferrar's history opens the volume (contents line 137); Bradford's examinations from line 13136 ('THE EFFECT OF THE COMMUNICATION BETWEEN JOHN BRADFORD ...'); 'THE STORY OF BISHOP RIDLEY, MARTYR' from line 34248; 'THE STORY OF MASTER LATIMER' from line 38702; 'THE STORY OF JOHN PHILPOT, MARTYR' from line 49961"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The Elizabethan church's own martyrology, read in cathedrals by order from
+      1571: Foxe's framing voice, and inside it the martyrs' own recorded answers,
+      the bishops' articles, and letters written from prison (Bradford's, Philpot's,
+      Ridley's), many of ordinary people (weavers, husbandmen, women). Two voices in
+      one text: Foxe's polemical narrative is this world's own voice; the embedded
+      examinations are documentary material at one remove, to be quoted as "as Foxe
+      printed them". Ready to quote once verified against this file; the Marian
+      regime's own records (Bonner's register) survive here digested in a hostile
+      frame.
+
+  - row_id: foxe_acts-and-monuments-v7_cattley-townsend1837--the-acts-and-monuments-vol-vii-the-marian-persecution-of-1555-2
+    work: "The Acts and Monuments of John Foxe, Vol. VII (Cattley/Townsend edition): the Marian persecution of 1555"
+    author: foxe
+    locus: "whole volume, as above; the bishops' own articles and sentences and the Marian regime's letters (Gardiner's, Bonner's, the Council's) are printed inside each story"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: context
+    confidence: provisional
+    note: >
+      The hostile Protestant account of the Marian Catholic church, the memory the
+      post-1559 recusant community lived under and answered (Harpsfield and Persons
+      wrote against Foxe). It prints the Marian bishops' own articles and letters
+      inside the hostile frame. Placed as the contemporary opponent's record;
+      provisional, since the recusant world's own sources are not yet vendored to
+      read it against.

@@ -1,0 +1,2193 @@
+Title: Notice sur les manuscrits syriaques conservés dans la bibliothèque du Patriarcat chaldéen de Mossoul
+Creator: Addai Scher (the running head reads "MGR ADDAÏ SCHER")
+Publisher: journal article, scanned from a printing whose running head reads "octobre-décembre 1907" (the journal's name is garbled in the OCR and is not read here); the Internet Archive item is a user upload
+Publication Date: 1907 (read off the running head at file line 42; the article also cites a Journal asiatique of "juillet-août 1907" at file line 523)
+Rights: Public Domain (published 1907; public domain by date under the project's 95-year rule); the item carries no rights field and no access restriction
+Language: fra
+Source: Internet Archive item NoticeSurLesManuscritsSyriaquesConservesDansLaBibliothequeDu, file ScherNoticeSurLesManuscritsSyriaquesConservsDansLaBibliothqueDuPatriarcatChaldenDeMossoul_djvu.txt, fetched directly by the library/source-research thread (Era VII session, one-world agent for church-of-the-east-schism-of-1552), 2026-10-23; host description: "Catalog of Syriac manuscripts in the library of the Chaldean Patriarch at Mosul" (uploader jack.philoponos@gmail.com, added 2012).
+Provenance note: Header prepended; the OCR text follows unchanged (no characters altered; the raw file contains 0 long-s glyphs). Rights basis restated: an article printed in 1907, the year read in the OCR of the running head, is public domain by date.
+Content note: A short descriptive catalogue (about 71,000 characters) of 116 Syriac manuscripts in the library of the Chaldean patriarchate at Mosul, visited by Scher in 1902. Its value here is the colophons it summarises, which date copies and name the patriarch of the day: for example Cod. 80, finished 1550 at the monastery of Rabban Hormezd "du temps de Mar Siméon patr., et de Mar Elia, héritier du siège" (file lines 1278-1279); a Nomocanon note of 1564 at Amid "du temps de Mar Abdisô' patr." (line 1072); a note on the death of Mar Abdisho in 1570 (line 1044); and copies of 1578 at Gazarta and 1588 at Abnâyé "du temps de Mar Elia, patr." (lines 884 and 412). Which patriarchal line each named patriarch belongs to is not stated in the catalogue and is not decided here. The colophons are the nearest this library holds to the community's own record of the period; Scher writes in French as the visiting cataloguer of the Chaldean patriarchate's library. OCR clean (ABBYY; sampled at five points, 10/30/50/70/90 per cent, all read), ready to quote once each quote is checked against the page image.
+---
+NOTICE 
+
+
+
+SUR IBS 
+
+
+
+MANUSCRITS SYRIAQUES 
+
+CONSERVÉS 
+DANS LA BIBLIOTHÈQUE DU PATRIARCAT CHALDÊEN DE MOSSOUL 
+
+
+
+Les manuscrits syriaques dont nous publions aujourd'nui la 
+description sommaire, sont conservés dans la bibliothèque du 
+Patriarcat des Chaldéens, à Mossoul. Ils y ont été réunis principa- 
+lement par le zèle intelligent des derniers titulaires du patriarcat : 
+Joseph Audo (1847-1878), Elias Abou'l-Yaunan (1878-1894), Ebed- 
+jésus Khayyat (18^34-1899). 
+
+C'est en 1902 que nous avons eu l'occasion de visiter cetle 
+Bibliothèque. Elle comptait alors cent seize manuscrits. 
+
+Addaï Scher. 
+
+
+
+I. — Livres Saints. 
+
+Cod. 1. — Pentateaque selon la version Péitta. 
+
+Achevé à Alqôs en 1996 des Grecs (1685), du temps de Mar Elia, patriarche, 
+par Homo, diacre, fils du prêtre Daniel, fils du prêtre Elia ; il a été donné 
+à l'église de Notre-Dame de Hourdapna par Joseph, prêtre de ce village. 
+
+On a relié à la suite un autre livre intitulé : « Éclaircissements 
+sur les mois difficiles et obscurs qui se trouvent dans le Penla- 
+leuqiie, recueillis dans les commentaires du B. Théodore (de 
+
+Rf.vuk lits bidi... octobre-décembre 1907. xvn. — 17. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+228 MGR ÀDDAÏ SGHER. 
+
+Mopsueste), les traditions des Syriens, Mar Aprem, Abraham et 
+Jean de Beith Rabban, Mar Michaël et les autres docteurs. * 
+
+Écrit à Alqôà, en 2012 des Grecs (1701), par le prêtre Homo, dis du prêtre, 
+Daniel, fils du prêtre Elia. 
+
+Cod. 2. — Livre des 'Sessions, selon la version Pèitta; savoir : 
+Josué, Juges, Samuel, Rois, Prov., Ecclés., Ruth, Cantique, Job. 
+
+Terminé à Alqôs, en 2012 des Grecs (1701), du temps de Mar Elia, pa- 
+triarche, et de Isô-yahb, héritier du siège, par le prêtre Yalda, flls du prêtre 
+Daniel, fils du prêtre Elia, fils du prêtre Daniel ; il a été donné à l'église de 
+Notre-Dame de Hourdapna par Joseph, prêtre de ce village. 
+
+On a relié à la fin un autre volume, contenant le Commentaire 
+des Proverbes, de l'Ecclésiaste, du Cantique des Cantiques et de 
+la Sagesse de Bar Sira (Ecclésiastique) ; ce commentaire est la 
+continuation de celui que renferme le cod. précédent. 
+
+Achevé à Alqôs, en 2012 (1701) par le prêtre Homo. 
+
+Cod. 3. — Livre des Prophètes, selon la version dite Pèitta ; 
+savoir : Isaïe, Joël, Amos, Abdias, Jonas, Michée, Nahum, Ha- 
+bacuc, Sophonie, Aggée, Zacharie, Malachie, Jérémie, Lamen- 
+tations de Jérémie, Ézéchiel et Daniel. 
+
+Achevé en 2012 des Grecs (1701), à Alqôs, du temps de Mar Elia, patriarche, 
+par le prêtre Homo, flls du prêtre Daniel, fils du prêtre Elia, et acheté pour 
+l'église de Notre-Dame de Hourdapna par le prêtre Joseph. 
+
+On a relié à la suite un autre volume, écrit par le même copiste 
+et contenant des commentaires sur tous les Prophètes : c'est la 
+continuation du volume relié à la fin du cod. précédent. L'auteur 
+de ce commentaire ne nous est point connu ; il est certainement 
+postérieur à Iàô' dad, év. de Hdattha (vers 850) qu'il cite. Ne 
+serait-ce pas Sabriàô' Bar Paulos? 1 L'ouvrage forme un volu- 
+mineux répertoire de gloses relatives à l'exégèse des Pères Syriens, 
+ainsi qu'à la lexicographie syriaque. L'auteur cite les Septante, 
+Symmaque, Aquila et le texte hébreu ; les écrivains, qui y sont 
+mentionnés, sont : S. Denys, Grégoire, Théodore de Mopsueste, 
+Théodule, Cyrille, Basile, S. Jean Ghrysostome, Théodoret, 
+
+
+
+1. Voir ci-après cod. 13, q. g. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 229 
+
+S. Aprem, Abraham et Jean de Beith Rabban, Michaël (Badoqa), 
+Mar Aba patriarche, Jacques d'Édesse, Théophile le persan, Babaï 
+le persan, Ahob Qatraya, Nathniël de àahrzor, Gabriel Qatraya, 
+Daniel fils de la Bienheureuse, Iëô* Barnoun patriarche, Iéô'- 
+Barnoun l'anachorète et Iàô'dad, év. deHdattha. Pour l'exégèse, 
+l'auteur se tient éloigné de l'allégorie mystique et s'attache surtout 
+au sens littéral. — La continuation de cet ouvrage; à savoir le 
+commentaire du N. T., se trouve à la bibliothèque de l'épiscopat 
+chaldéen de Diarbekir '. 
+
+Cod. 4. — Commentaire sur les Psaumes. — Titre : « Avec l'aide 
+de la sainte Trinité, nous écrivons les Psaumes du roi et prophète 
+David, selon la version Pàitta. Au-dessous de chaque ligne en face 
+nous avons écrit en écriture fine la différence qu'il y a entre les 
+Septante et la version Péitta, soit que cette différence ait lieu en- 
+tre les mots, soit entre les phrases, soit entre les lettres. Les mots, 
+les phrases et les lettres qui ne diffèrent pas sont écrits une seule 
+fois. Nous avons écrit aussi le commentaire des Psaumes. » 
+
+La version Pàitta est écrite en stranguéli; les Septante en écri- 
+ture nestorienne, sauf les lettres d et r qui sont écrites à la ma- 
+nière des Jacobites, et le commentaire est écrit en écriture jacobite. 
+
+Une note placée à la Un du volume est ainsi conçue : « Ce livre a été 
+achevé en 1438 des Grecs (1127); il a été écrit et tiré des deux versions : 
+Psitta et Septante, à Maragha, ville des Chaldéens en Adhorbaidjan, 
+par le plus faible et le plus pécheur des hommes, Kesrwan, originaire de 
+la région d'Édesse, ville bénie de la Mésopotamie, alors que la foi chré- 
+tienne était sur le point de disparaître, comme une lampe qui est sur le 
+point de s'éteindre, par manque d'huile. » 
+
+Le copiste du livre est un jacobite; la S. Vierge y est nommée « mère 
+de Dieu. » 
+
+Cod. 5. — Livres Deutèrocanoniques de l'Ancien Testament; 
+savoir : Machabées, Chroniques, Esdras, Sagesse, Judith, Esther, 
+Suzanne et les Lettres de Jérémie et de Baruch. 
+
+Sans date : xviue siècle. 
+
+
+
+i. Cf. Notice sur les mss. syriaques conserves à Diarbekir, par A. Schbr (Paris, 
+1906; ; cod. 22. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+230 MOU ADDAÏ SCHER. 
+
+Cod. 6. — Livre des Macchabées, 
+
+Écrit à Alqôs, en 2134 des Grecs (1823), par Gabriel, fils du prêlre Khau- 
+éâbo; il a été donné à l'église de Notre-Dame de Semel, par Yessêbo, chef 
+dudit village. (Semel est occupé maintenant par les Kurdes(.). 
+
+Cod. 7. — Nouveau Testament selon la version Pèitta. 
+Parchemin. Écriture estranghelo. xi e -xn e siècle. 
+
+Cod. 8. — Actes des Apôtres et Épitres (les trois épîtres de 
+S. Jacques, de S. Pierre et de S. Jeaii, et les épîtres de S. Paul, 
+selon la version Pèitta). 
+
+Parchemin. Estranghelo. xi e -xu e siècle. 
+
+Cod. 9. — Nouveau Testament, selon la version Héracléenne. 
+Parchemin. Écriture nestorienne. xiu e v.èclc. 
+
+Cod. 10. — Nouveau Testament selon la version dite Pèitta. 
+
+Achevé en 206 ï des Grecs (1753), à Alqôs, du temps de Mar Elia, patriarche, 
+par Mar Isô'yahb, héritier du siège, flls du prêtre Abraham, fils du prêtre 
+Barhadbsabba et frère de Mar Elia, patriarche, et par Yalda, flls du prêtre 
+'Abdisô. 
+
+Cod. H. — Même ouvrage. 
+
+Terminé en 1987 des Grecs (1676), du temps de Mar Elia, patriarche, par le 
+prêtre Guiwarguis, flls du prêtre Israël, flls du prêtre Hormezd. 
+
+Cod. 12. — Evangétiaire. — Titre : « Livre du saint Évangile 
+partagé en leçons pour tous les dimanches de Tannée, les fêtes 
+(de N.-S.) et les couimémoraisons (des saints), selon le rite du 
+couvent supérieur. » 
+
+Parchemiu. 0,33x0,25. Ecriture soignée. Achevé en 1497 des Grecs (1186), 
+dans le couvent de Mar Awguen, au temps de Mar Elia, patriarche, et de 
+Mar Yahbalâha, métrop. de Nisibe source des sciences et mère des villes ; 
+il a été écrit par Rabban Sliba, pour l'église de Mart âmoni et ses fils, dans 
+le village de Telmahmad dans la région... (illisible), dans le diocèse de 
+Daqarta ; il a été copié par les soins d'nn vertueux personnage appelé 
+Sliba et de son frère Jacques. 
+
+Cod. 13. — Même titre que le précédent. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 231 
+
+Ce actionnaire et le suivant contiennent un calendrier dos 
+saiuts nestoriens que voici 1 : 
+
+2 e vendredi de Soubâra (A vent) : Jéô'yahb, Sabriéô\ lèô'yahb, 
+Guiwarguis, Hnaniéô' et tous les autres Calholicos. 
+
+3 e vei dredi de Soubâra : Iéô-Sabran et ses compagnons 
+martyrs. 
+
+Vendredi de Noël : Jacques, frère de N.-S. 
+
+2 e vendredi de Pâques [: Abimalk et Grégoire, fondateurs de 
+FËeole du martyrion. 
+
+3 e vendredi de Pâques : Yohannan, Abraham, Daniel, Sleimot, 
+Adona et tous les autres métropolitains d'Arbèles. 
+
+4 e vendredi de Pâques : Mar Seigius et Mar Bacehus. 
+
+5° vendredi de Pâques : éirin, martyre. 
+
+Vendredi de l'Ascension : Paul et Jean (saints d'Édesse). 
+
+7« vendredi de Pâques : Mar Aha, Yohannan, Sâhin, Iëô'-eabran, 
+Adoréâbor, Bokhlièô* et leurs compagnons. 
+
+2° vendredi des Apôtres : Clément, Trénée et les autres patriarches 
+leurs compagnons. 
+
+3 e vendredi des A poires : Athanasc et les autres patriarches ses 
+compagnons. 
+
+4 e vendredi des Apôtres : Fébronie, martyre. 
+
+5 e vendredi des Apôtres: Damase et hes compagnons, évèques 
+de Rome. 
+
+6° vendredi des Apôtres : 8. Grégoire. 
+
+1 er vendredi d'été ; Jacques de Nisibe. 
+
+2 e vendredi d'été : Ahoudêmméh, Ahoudêmméh, Moï.-e, Yazda- 
+pnah, Mara et Ièô'yab, évêques de Ninive, et Mar Mari l'apôtre. 
+
+3 6 vendredi d'été : Sêmbaïtêh, Klilisô*, Sabrièô* et Soubhalalâha, 
+évèques de Ninive. 
+
+4° vendredi d'été : Mar M'assé, Marwan et leurs compagnons, 
+évèques de Prath. 
+
+0° vendredi d'été : le premier jour, 23 août, c'est la lete de tous 
+les anges ; le second jour, c'est la commémoraison des prophètes et 
+de Mar Siméon bar Sabba'ë. 
+
+7° vendredi d'été: Mar Qardagh. 
+
+1 er vendredi d'Elie : Papa, Siméon, Sâhdost et Barba'èmin, 
+calholicos. 
+
+
+
+1. Nous avons omis les autres fêles soit mobiles soil fi*es qui sont mentionnées dans 
+les bréviaires appelés lloudra et Gazza. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+232 MGR ADDAÏ SCHER. 
+
+2 e vendredi d'Élie : Bolida' et Théodore, évèques de Prath. 
+
+1 er vendredi de la Croix : Constantin et Hélène sa mère. 
+
+18 septembre : Sabrisô* catholicos. 
+
+2 - vendredi de la Croix : les martyrs Moïse et Jacques l'intercis. 
+
+3 # vendredi de la Croix : Grégoire, Narsê et Yazdapnah. 
+
+4° vendredi de la Croix : Thècle et Euphémie, martyres. 
+
+5« vendredi de la Croix : Yazizkhost, Smin, Soubhalisô', et 
+Bokhtiàô\ martyrs. 
+
+1 er vendredi de Moïse : Ièô'sabran, Nathniêl et Bar Hnânë, 
+martyrs. 
+
+2° vendredi de Moïse : Antoine et ses compagnons, égyptiens. 
+
+3 e vendredi de Moïse : S. Mar Qosré. 
+
+4° vendredi de Moïse : Rabban Yozàdaq. 
+
+5 vendredi de Moïse : Mar Sabriàô*, lèô'yahb, Jacques, Adona, 
+Sliba, Apnimaran et leurs compagnons, les fondateurs des Congré- 
+gations dans le pays de Beith Nouhadra. 
+
+!•' vendredi de la Dédicace de l'Église : Mar Awguen et ses 
+compagnons. 
+
+2° vendredi de la Dédicace de l'Église : Mar Abraham, Babaï, 
+Babaï, 'Abdièô', Jérémie, les fondateurs des Congrégations dans la 
+montagne d'Izla. 
+
+3° vendredi : Paul, évêque de Nisibe. 
+
+4» vendredi : Jacques de Beith 'Abê, Barhadbsabba, Qamièô\ 
+Aprem, Bar 'Edta et leurs compagnons, les fondateurs des couvents 
+dans les pays de Marga et de Dassan. 
+
+5 e vendredi de la Dédicace de l'Église. (?): Abdiéô\ Iéô'zkha 
+Sergius de Hanita, Abraham Nathpraya, et leurs compagnons, les 
+fondateurs des couvents dans TAdiabène. 
+
+17 décembre : Mar Aba, évêque de Ninive. 
+
+Cinq notes finales nous apprennent : a) que le manuscrit a été terminé 
+en 1500 des Grecs et 609 des Arabes l . — 6) Qu'il a été écrit dans le couvent 
+de Mar Michael, le compagnon des anges (près de Mossoul). — c) Au temps 
+de Mar Yahbalâha, patr., et de Mar Joseph, métrop. d'Assyrie et de Ninive. 
+— d) Par un certain prêtre et moine, appelé làô*. — e) Sur la demande d'un 
+homme vertueux de Mossoul, de la famille appelée Bar Kabata. — f) Pour 
+l'église de Mari Meskenta et ses deux enfants, martyrs — g) Par le* 
+
+
+
+1. Sur cet anachronisme, voir notre ouvrage intitulé : Elude supplément, sur les 
+Écrivains Syriens, n° xxnc, n. 2. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 233 
+
+soins de l'Interprète Théodorien, du prêtre Pbinéésien et du docteur 
+Diodorien , Rabban Sabrisô, surnommé Bar Paulos 1 , que la grâce a choisi 
+pour s'occuper de l'église de Mar Meskenta. Que Dieu prolonge sa vie et 
+celle de ses enfants et de ses frères. — h) Sous l'administration du bon 
+prêtre, du moine probe et de l'habile docteur, Rabban Yaqqira, qui est 
+connu sous le nom d'Aboul-'ezz ». 
+Parchemin. Bonne écriture. 
+
+Cod. 14. — Même titre et même contenu que le cod, précédent. 
+Parchemin. Écriture estranghélo du xu* siècle 
+
+Cod. 15. — Même ouvrage. 
+
+On trouve à la fin du volume 17 grands tableaux, dans le style 
+byzantin, représentant l'Annonciation de la sainte Vierge, la 
+Naissance de N.-S., la Présentation, le Baptême, etc.. Ces ta- 
+bleaux sont accompagnés d'épigraphes en arménien. 
+
+Achevé en 1806 des Grecs (1497), dans le village de Org (dans le diocèse de 
+Séert), au temps de Mar Siméon, patr., et de Mar Yohannan, év. d'Athel, par 
+un certain Abraham, fils de Dodo. 
+
+Papier : 0,30x0,25. Écriture estranghélo. 
+
+Cod. 16. — Même ouvrage. 
+
+Il a été terminé en 1899 des Grecs (1588), dans le village de Abnâyé, du 
+temps de Mar Elia, patr., par révoque Yohannan, fils du prêtre Joseph de 
+Abnâyé; il a été acheté à Rabban Qouriaqos et donné au couvent de Mar 
+Elia Hirtaya (à une heure au nord-est de Mossoul), par Daniel, fils de 'Issa, 
+d'Alqôs, et Siméon, fils du diacre Soultansah, de Mossoul. 
+
+Cod. 17. — Même ouvrage. 
+
+Achevé en 1992 des Grecs (1681), a Alqôs, du temps de Mar Elia, patr., 
+par le prêtre Guiwarguis, fils du prêtre Israël, fils du prêtre Hormezd, fils 
+du prêtre Israël; il a été donné aux églises de Simon Pierre, de S. Georges 
+et de Meskenta, par le diacre Djem'a, fils de 'Abdel-Haï, de Mossoul. 
+
+
+
+1. Assemani se Irompe en plaçant cet écrivain au x« siècle. (B. 0. III, I, p. 541.) 
+
+2. C'est le même que « Abulezzus Chedri presbyter » cité par Assémani (B. 0. III, 
+J, p. 610), comme auteur de deux prières pour le premier dimanche de la Dédicace de 
+l'Église. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+234 MGR ADDAÏ SCHER. 
+
+Cod. 18. — Même ouvrage. 
+
+Achevé à Alqôs, en 2054 des Grecs (1743), au temps deMar Ella, pair., par 
+le prêtre Farina, fils du prêtre Homo, fils du prêtre Dauiel, fils du prêtre 
+Elia. 
+
+
+
+II. — Commentaires Bibliques. 
+
+Cod. 19. — « Éclaircissement sur le N. T., compilés par les 
+soins de Mar Isô'dad de Merw, év. de Hdattha, tiré de nombreux 
+livres des commentateurs et des docteurs de la sainte Église. » 
+
+Terminé en 1874 de notre ère, à Alqôs, par *Issa, diacre. 
+
+Cod. 20 . — Livre des Causes des Psaumes du B. David. 
+
+Cet ouvrage est divisé en deux parties. La première contient : 
+1° Le traité de Ahob Qatrâya sur les Psaumes. — 2° Le traité de 
+Nathniel, év. de Saherzor, sur le même sujet. — 3° Psaume de 
+David quand il lulta contre Golialh. — 4° Dispute contre Origène. 
+
+La deuxième partie, beaucoup plus longue, a pour titre : « Éclair- 
+cissements sur le livre des Psaumes du B. David, composé par 
+Rabban Denha, docteur, ou selon d'autres, par Rabban Grégoire, 
+moine parfait, du couvent de Gamré. » 
+
+Copié en 1875 de notre ère, à Alqôs, sur Tordre de Joseph Audo, patr., 
+par le diacre Abraham, flisde Djouna. 
+
+Cod. 21. — Commentaire sur les Psaumes. 
+
+La préface de cet ouvrage traite différents sujets : 1° Pourquoi 
+les Psaumes ont-ils été composés pour être chantés? 2° Pourquoi 
+récite- t-on les versets de quelques psaumes deux à deux et ceux 
+des autres un à un? 3° Pourquoi l'Église se sert-elle seulement 
+des Psaumes dans ses offices? 4° Pourquoi les Psaumes ne 
+sont-ils pas rangés d après Tordre de leur composition? etc.. 
+
+L'ouvrage est différent du précédent ; il cite encore les Septante 
+et Symmaque. 
+
+Mutilé au commencement et à la fln . xv # siècle. 
+
+Cod. 22. — Commentaires, tirés du Livre du Jardin de Délices, 
+sur les leçons des Livres des Prophètes et des Sessions. (Cf le ms. 
+de Séert, n° 28 ; et celui du Couvent de N.-l). des Semences, n°20). 
+
+Écrit eu 2117 des Grecs (1806), à Guessa, dans la région de Tkhouma, par 
+le prêtre Haïdéni, fils du prêtre Yâbo. - 0,21 x 0,15. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 235 
+
+Cod. 23. — Commentaire sur l'Évangile partagé en leçons. 
+
+Les pages de ce volume sont divisées en deux colonnes ; la 
+première contient le texte syriaque et la seconde la version arabe: 
+chaque texle est suivi du commenlaire. Le volume s'arrête au 
+Vendredi de la Passion. 
+
+0,36 x 0,25. — xvii - siècle. 
+
+Cod. 24.— Commentaires (en zva.be) sur ï Évangile, partagé en le- 
+çons pour tous les dimanches, les fêtes et les commémorations de 
+l'année. Le texte est écrit en arabe et eu syriaque. 
+
+Terminé en 2007 des Grecs (1696), à Mossoul, par le prêtre Ablahad, flls de 
+'Askar. 
+
+Cod. 25. — Livre du Magasin des mystères, composé par Barhe- 
+brœus. • 
+
+Achevé en 1878 de notre ère, à Alqôs, par 'Issa, diacre. — 0,32 x 0,23. 
+
+Cod. 26. — « Premiers Principes de C histoire du monde tempo- 
+raire, composé par S. Yohannan bar Penkayé. » 
+
+Voir l'analyse de cet ouvrage dans le Journ. Asiat., juillet-août 1907. 
+
+Achevé en 2186 des Grecs (1875), par le diacre Yaunan, flls du prêtre Dilo, 
+flls du prêtre Israël, néàThouma, mais originaire d'Arbèles. Le livre a été 
+copié sur un ms. écrit en 1573 des Grecs (1262), à Tabriz, dans l'église de 
+la sainte Vierge, de s. Etienne et de s. Georges, par le prêtre Sabrisô, mé- 
+decin habile d'Arbèles. — 0,25 x 0,16. 
+
+Cod. 27. — Ce volume contienJL : 1° Notices sur les Prophètes, 
+attribuées à S. Épiphane de Chypre. — 2° La * Caverne des 
+Trésors. » — 3° La question que posa Esra, le scribe, quand il 
+était au désert avec son disciple Qarpos. — i° Divers canons syno- 
+daux. 
+
+Terminé en 2055 des Grecs (1744), à Zawita, dans la région de Tyâré, au 
+temps de Mar Elia, patr., par le diacre Thomas, flls du prêtre 'Abdisô', 
+d'Alqôs. — 0,16 x 0,10. 
+
+Cod. 28. — « Livre de compilation, appelé Abeille, rédigé par 
+Saiomon, rnétrop. de Prath Maïàan, pour un de ses compagnons, 
+à savoir : Mar Narrai, év. de KounisAbor en Beith Waziq. » 
+
+0,31 x u.tG. Chaque page est partagée eh deux colonnes dont l'une donne 
+le texte syriaque et Paulre la version arabe (carsouni). xiv» siècle (?) 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+236 MGR ADDAÏ SCHER. 
+
+Cod. 29. — • Histoire de la Sainte Vierge Marie. * 
+
+Édité par Wright. Contrib. to thc Apocryphal Lit. of ihe N. T. Londres, 1865. 
+Achevé en 2037 des Grecs (1726), par le prêtre Homo, fils du prêtre Daniel, 
+d'Alqôs. - 0,22 x 0,16. 
+
+
+
+III. — Théologie et Philosophie. 
+
+Cod. 30. — « Livre de la Tour, du prêtre Sliba, fils de Jean, 
+de Mossoul, composé en 1643 des Grecs (1332). > 
+
+Ouvrage en arabe. Recension abrégée du Livre de la Tour, 
+composé par Mari Bar Soleiman, auteur nestorien du xn e siècle. 
+(Cf. R. Duval, LUI. Syr., 2° éd., p. 210-211). 
+
+Achevé en 1831 de notre ère, à Mossoul, par le diacre Djerdjès 'Aboudi, 
+Copié pour Master William Paliner, Anglais. — Une autre note, placée à la 
+fln, dit que ce M. William embrassa le catholicisme et qu'il donna ce 
+livre avec huit autres mss. à Joseph Audo, pair., quand celui-ci se trouvait 
+à Rome en 1870. 
+
+Cod. 31. — Livre du Candélabre des Sanctuaires composé par 
+Barhebraeus. (Voir l'analyse donnée par Assemani, B. 0., II, p. 
+284-297). 
+
+Terminé en 2028 des Grecs (1717), à Telképé, par le prêtre Guiwarguis, fils 
+du prêtre Israël, ûls du prêtre Hormezd, fils du prêtre Israël. Copié sur 
+Tordre de Mar Elia, patr., qui s'était enfui alors à Telképé, à cause des 
+troubles qui avaient eu lieu dans le haut Kourdistan. — 0,32x0,25. 
+
+Cod. 32. — c Livre du Miroir pur, composé par Joseph II, 
+patriarche » . 
+Assemani en a donné l'analyse (B. 0. ; III, pars 1, p. 605-608). 
+
+0,22x0,16. — xviu* siècle. 
+
+Cod. 33. — Volume renfermant : 
+
+1° Explication du Symbole des Apôtres, traduite de l'arabe en 
+syriaque. — 2° Plusieurs prières traduites du latin. 
+
+Ecrit en 2123, des Grecs (1812) par le prêtre Hanna, ûls de Denha. 
+
+Cod. 34. — Opuscule contenant un traité de Joseph II, patr., 
+dans lequel sont énumérées toutes les hérésies qui se trouvent dans 
+les livres liturgiques et dans les ouvrages de Guiwarguis Warda, 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 237 
+
+de Khamis et d'autres. L'auteur cite dans cet ouvrage un livre 
+nestorien intitulé Bar thedaya : « Fils des mamelles », qui ne nous 
+serait point parvenu. 
+Sans date : xviit' siècle. 
+
+Cod. 35. — Volume contenant : 
+
+I. Le livre de Ylsagogè de Porphyre ; il y a des lacunes dans ce 
+traité. La clausule finale est ainsi conçue : «Fin de réclaircisse- 
+ment de Tlsagogè de Porphyre, philosophe, composé par Probus, 
+prêtre, archiâtre et archidiacre d'Antioche. » 
+
+II. IIpaYH-afeta de la Logique, composée par Aristote, philosophe. 
+Ce traité est précédé d'une notice sur la vie d'Aristote. 
+
+III. Discours du vénérable R. Mar Joseph Houzâya, lecteur ! à 
+l'École de R. Mar Narsaï, sur le but de la grammaire. 
+
+IV. Eclaircissement dij 2° chapitre du Livre des Analylica. 
+
+V. Traité sur les syllogismes des Analylica priora. d'Aristote, 
+composé par un certain Sebokht, surnommé Sévère. 
+
+VI. Commentaire du Livre des Analylica^ composé par Probus, 
+le sage. 
+
+VIII. Lettre de Sévère Sebokht à Alàha (Aïthalâha ?), év. de 
+Ninive, sur différents termes du ™piepy.r i yd<i<;. 
+VIII. Traité anonyme sur la Logique. 
+
+Sans date. xvi« siècle. 
+
+
+
+IV. — Ouvrages liturgiques. 
+
+Cod. 36. — « Ordre des prêtres *, c'est-à-dire Riluel. 
+
+Ce volume contient : 1° La messe des Apôtres. — 2° Messe de 
+Théodore de Mopsueste. — 3° Messe de Nestorius. — 4° Rite du 
+Baptême. — 5° Ordre de la Bénédiction du genre humain (du 
+mariage). — 6° Profession de foi de Ièôy'ahb, patriarche (en 
+arabe). — 7° Consécration de 1 autel avec l'huile. — 8° Ordination 
+des prêtres. — 9° Cérémonial de la tonsure des moines et des 
+religieuses. — 10° Profession de foi de Mar Mikaël, évèque des 
+Orientaux surnommés Nestoriens (à Diarbekir et à Maipherqat). — 
+11° Office des Quarante-Martyrs de Sébaste. 
+
+1. Ainsi Joseph fut le Lecteur et non YInterprète de l'École, comme l'avait fort biea 
+conjecturé M. J.-B. Chabot dans son travail sur l'École de Nisibe. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+238 MGR ADDAÏ SCHEK. 
+
+A la fin de la messe de Nestorius, on trouve culte note : « Achevé en 1643 
+des Grecs (133*2), par Guiwarguis, évèque. » Et après la messe des Apôtres 
+on trouve cette autre note : « Ce livre a été relié par... (illisible) Yohan- 
+nan... (illisible). J'ai relie pour le monastère de S. Jacques (à Nisibe) ce 
+rituel, un livre de Kaskoul, un petit Gazza et le Rituel des funérailles des 
+prêtres et des diacres. » 
+
+Cod. 37. -*■ « Ordre des prèlres » ou Rituel. 
+
+Ce volume contient : 
+
+1° Prières [Orationes) à réciter par les prêtres pendant l'office. — 
+2° Les trois messes des Apôtres, de Théodore et de Nestorius. — 
+3° Canons, à réciter avant la communion aux fêtes de N. S. 
+— 4° Consécration de l'autel sans l'huile. — 5° Renouvelle- 
+ment du Levain. — 6° Rite du Baptême. — 7° Rite pour faire 
+prêter serment. — 8° Rite pour consacrer le vin par le signe de la 
+croix, quand le précieux sang vient à manquer. — 9° Diverses 
+prières. 
+
+Terminé en 2037 des Grecs (1726), à Alqôs, du temps de Mar Elia, patr., 
+par le prêtre Elia, fils du prêtre Yalda, fils du prêire Daniel. 
+
+Cod. 38. — Même ouvrage que le cod. précédent. 
+
+Achevé en 2008 des Grecs (1697), à Alqôs, du temps de Mar Elia, patr., 
+par le diacre Khausâba, fils du prêlre Daniel, fils du prêtre Elia. 
+
+Cod. 39. — Même titre et même contenu que le précédent. 
+
+Écrit en 2020 (1709), à Alqôs, du temps de Mar Elia, patr., par le prêtre 
+Joseph, fils du p:être Guiwarguis, fils du prêtre Israël, fils du prêtre 
+Ilormezd. 
+
+Cod 40. — Même titre et même contenu. 
+
+Terminé en 1911 (lôOO), dans l'église de S. Cyriaque, dans la région de 
+Dourê, au temps de Mar Elia, patr., et de Mar Joseph, évoque d'Ourmi, 
+par le prêtre Hormezd, fils du prêtre Yalda. 
+
+Cod. 41. — Même titre et même contenu. 
+
+Achevé en 1096 (1996) des Grecs (1685) par le prêtre Guiwarguis ; il a été 
+donné à l'église de S. Pierre (a Mussoul), par le diacre Djera'a, fils de 
+'Abdel-Haï; ce même Djem'a a donné encore à la même église (voir cod. 
+17) un livre des Évangiles, un lloudra et un psautier. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 239 
+
+Cod. 42. — Môme titre et même contenu. 
+
+Écrit à Inêàk, dans la région de Sapna, par le prêtre Abdiêô, flis du 
+prêtre Thomas, flis de Moïse, du village de Guessa. — xvur» siècle. 
+
+Cod. 43 — Livre de prières liturgiques comprenant : 1° Le Psau- 
+tier ; 2° La partie du Bréviaire appelée Daqdam wa debalar. 
+
+Écrit eu 1791 de notre ère. 0,16 x 0,11. 
+
+Cod. 44. — Môme titre et même contenu que le ms. précédent. 
+Achevé en 1799 de notre ère. 0,16 x 0,11. 
+
+Cod. 45. — a Bréviaire » [Houdra). 
+
+Ce livre contient l'office des Dimanches de toute Tannée, des 
+fêtes mobiles et des jours du Carême et des Rogations. 
+
+Sans date : xiv e siècle. 
+
+Cod. 46. — Même ouvrage. 
+
+Terminé en 2038 (1777), à Alqôs; par le prêtre Homo; flis du prêtre 
+Uanna, flis du prêtre Homo, flis du prêtre Daniel. 
+
+Cod. 47. — « Office pour les fêles de N.-S. et les commémo- 
+raisons (des saints). » 
+
+Ce volume renferme les offices suivants : 
+
+1° Fêle de Noël. — 2° Coramémoraison de la sainte Vierge. — 
+3° Fête de l'Epiphanie. — 4° Commémoraison de S. Jean-Baptiste, 
+— 5° des ss. Pierre et Paul, — 6 J des Évangélistes, — 7° de S. 
+Etienne, — 8° des Docteurs grecs, — 9° des Docteurs syriens, — 
+10° de TUnilé de Personne, — 11° des Défunts, — 12° des Confes- 
+seurs, — 13° de S. Georges, — 14° de Smoni et ses fils, — 15° 
+Fête de l'Ascension, — 16° Commémoraison de S. Thomas, — 
+17° de S. Cyriaque, — 18° Fêle de la Transfiguration, — V3° Fête 
+de la Croix. 
+
+Sans date, xvr» siècle. 
+
+Cod. 48. — Même titre et même contenu. 
+
+Écrit en 1992 des Grecs (1631), à Alqôs, du temps de Mar Elia, patr., par 
+le prêtre Hadbsabba, fils du prêtre Israël, flis du prêtre Hormezd, fils du 
+prêtre Israël ; il a été donné au couvent de Mar Elia Hirlaya. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+240 MGR ADDAÏ SCHER. 
+
+Cod. 49. — « Trésor (Gazza) contenant l'Office des fêtes et des 
+commémorations, composé en 17U7 de notre ère, par notre Père 
+Mar Joseph II, patriarche des Ghaldéens. » 
+
+Ce volume, outre les offices énumérés dans le ms. 47, renferme 
+•encore les suivants : Sainte Barbe ; S. Nicolas, les Innocents, 
+la Circoncision, les Quarante Marlyrs de Sébaste, S. Joseph, 
+l'Annonciation, Pethion martyr, la Fête-Dieu, la Visitation, 
+l'Ascension, la Nativité de Marie, Jacques l'Intercis. Tous ces 
+offices ont été composés et introduits par Joseph II, qui a aussi 
+révisé les autres. 
+
+Terminé en 1766 de notre ère, à Alqôs, par le diacre Homo, fils du prêtre 
+Hanna. — 0,32 x 0,22. 
+
+Cod. 50. — « Livre d'Hornétles pour les Rogations des Niniviles », 
+choisies parmi les homélies de Mar Aprem et Mar Narsaï. 
+
+Ce volume contient en outre l'office des Rogations des Vierges, 
+qui se faisaient dans la première semaine qui suit l'Epiphanie. 
+
+Sans date : xvi # siècle. 
+
+Cod. 51. — « Prières du matin pour les fêtes de N.-S., com- 
+posées par le patriarche Elia III, surnommé Abouhalim, et autres 
+prières pour les dimanches, les commémoraisons, les vendredis du 
+Carême et autres, composées par Sallita de Reè'ayna. * 
+
+Ce livre contient aussi des prières, composées par Guiwarguis 
+d'Arbèles, Ella de Nisibe, Paul d'Anbar, le patriarche 'Abdièô' I, le 
+prêtre Abou'l-'Ezz, Hariri et Salomon de Basra. 
+
+Achevé en 2007 (1696), à Alqôs, du temps de Mar Elia, patr., par le diacre 
+Joseph, fils du prêtre Guiwarguis, fils du prêtre Israël. 
+
+Cod. 52. — Même ouvrage que le précédent. 
+
+Écrit en 2015 (ITOi) à Telkêpë, du temps de Mar Elia, patr., par le prêtre 
+Brikhisô\ fils du prêtre lsô c ,fils du prêtre Joseph, fils du prêtre Djamâldin. 
+
+Cod. 53. — Volume écrit eu car&ouni, contenant : 
+
+1° 35 oraisons funèbres, composées en 1786 de notre ère par le 
+
+prêtre Kheder de Mossoul. — 2° 21 Midrasê composés par le 
+
+même. — 3° Diverses prières et poésies. 
+
+Écrit en 1833 de notre ère, à Alqôs, par le diacre Romanos, fils de Michael, 
+fils du prêtre Khausâba, d'Alqôà. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 241 
+
+Cod. 54. — c Livre de Proclamations des fêtes de N.-S., des 
+dimanches et des commémoraisons. » 
+
+Ce volume contient plus de soixante proclamations ou litanies, 
+dont quelques-unes sont attribuées à Mar Aba, patriarche, à Mar 
+Yohannan Daïiamâya, à Mar Sabrièô', év. de Kaèkar, à Sabrièô* 
+Bar Paulos et à *Atâya bar Athéli. 
+
+Achevé en 1889 des Grecs (1578), à Gazarta, au temps de Mar Elia, patr., 
+par le diacre Abraham, fils de *Atâya. 
+
+Cod. 55. — Ceremoniale Episcoporwn, intitulé : « Cérémonial 
+de l'Imposition des mains sur tous les ecclésiastiques, sans renvoi, v 
+
+— Ce volume contient : 
+
+1° Consécration de Tau tel. — 2° Consécration de Tau tel sans 
+l'huile. — 3° Consécration de l'autel en bois. — 4° Ordre dé la 
+translation de l'autel en bois. — 5° Consécration du nouvel 
+autel. — 6° Rite du lavement de l'autel le jour du samedi saint. — 
+7° Rite de l'ordination des lecteurs. — 8° Rite de l'ordination des 
+sous-diacres. — 9° Rite de l'ordination des diacres. — 10° Ordre de 
+l'imposition des mains sur les prêtres. — 1 1° Ordre de l'imposition 
+des mains sur les diacres et les prêtres aveugles. — 12° Rite de 
+l'ordination des diaconesses. — 13°Ordrede la réception des disciples. 
+
+— 14° Ordre de la prise de l'habit monastique. — 15° Ordre de la 
+tonsure des moines. — 16 B Ordre de la tonsure des hommes. — 
+17° Ordre* de la tonsure des femmes. — 18° Ordre du hnana. — 
+19° Ordre de la consécration du lavement. — 20* Bénédiction des 
+eaux impures. — 21° Ordre de l'imposition des mains sur le supé- 
+rieur du couvent. — 22° Ordre de l'imposition des mains sur l'éco- 
+nome. — 23° Imposition des mains sur la supérieure du couvent. 
+
+— 24° Imposition des mains sur le chorévêque. — 25° Imposition 
+des mains sur l'archidiacre. — 26° Imposition des mains sur l'ar- 
+chidiacre dans l'archidiocèse du patriarche. — 27° Imposition des 
+mains sur les évêques. — 28° Ordre de l'accomplissement des 
+évoques. — 29° Ordre de la translation des évêques. — 30° Ordre 
+de l'imposition des mains sur les métropolitains. — 31° Imposition 
+des mains sur le catholicos. — 32° Explication de chacun des 
+degrés ecclésiastiques. — 33° Imposition des mains sur les Apôtres. 
+
+— 34° Divers canons et prières à réciter dans l'imposition des 
+mains sur les diacres, les prêtres, etc. — 35° Bénédiction de la 
+table. — 36° Bénédiction du calice. — 37° Ordre de la pénitence. 
+
+
+
+• / 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+242 MGR ADDAÏ SCHER. 
+
+— 38° Prières à réciter sur les Jacobites et les Melchites qui veulent 
+se faire Nestoriens. — 39> Diverses prières à réciter avant et après 
+le repas, sur les malades, sur les fruits, etc. 
+
+Cinq longues notes finales nous apprennent : a) que le ms. a été achevé 
+en 1879 des Grecs (156S) ; — //) qu'il a été écrit à Gazarta de Beith Zabdaï ; 
+
+— e) au temps de Mar Elia, patr., et de Joseph, év. de Gazarta; — d) pour 
+Mar Hnanisô, héritier du siégé et frère du patriarche, ; — e) par le prêtre 
+'Atâya, tils du prêtre Faradj, d'Alqôs. 
+
+Une autre note est ainsi conçue : « Nous faisons connaître aux lecteurs 
+que ce livre a été volé deux fois. La première fois il a été pillé à Alqôs et la 
+deuxième au village de Wasta. Isô 4 Bar Nâ?er, de Gazarta le reprit et le 
+remit au prêtre Qouryaqos, pour le rendre au couvent de Rabban Hormezd. » 
+
+Une autre note dit que le livre a encore été enlevé une troisième fois 
+par Bahram Bahdinâja. Celui-ci irrité contre l'Agha d'Alqôs, y envoya 
+ses armées, qui pillèrent le village dans la nuit du dimanche de Nousardèl 
+(l tr dimanche d'Été), au moment de la messe, en 2052 des Grecs (1741). 
+
+Cod. 56. — « Livre des Chants *,.pour lous les dimanches et les 
+l'êtes de de l'année. — La plupart de ces chants sont dus à la plume 
+de Khamis; deux chants pour la fête de la Croix et pour la com. 
+mémoraison de S. Georges sont attribués à 'At.Aya Bar Athéli; un 
+autre, pour la communion, est attribué à un certain Guiwarguis, 
+prêtre. 
+
+Écrit en 2019 des Grecs (1708), à Mossoul, par un certain Yohannan. 
+
+Cod. 57. — Même ouvrage que le précédent. 
+
+Suit le Livre et Homélies, à récitera la messe avant l'Évangile. 
+Ces homélies, écrites pour la plupart en strophes acrostiches et en 
+vers de douze syllabes, sont attribuées à Ebedjésus de Xisibe et à 
+Khamis. 
+
+Sans date. — 0,30x0,25. 
+
+Cod. 58. — « Exposition de tous les offices de V Église, et diffé- 
+rentes notices sur la vie de X. S. et sur les fêles dominicales, par 
+un ami de la science. » 
+
+Voir l'analyse de cet ouvrage dans Assemani (B. O., 111, pars I, 
+518-540). L'auteur est Guiwarguis d'Arbèles. 
+
+Achevé en 1629 des Grecs du [temps de Mar Yahbalaha III, patriarche, 
+(mort le 15 nov. 1317). — 0.25x0,15. Écriture très soignée. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 243 
+
+Cod. 59. — Même ouvrage que le précédent. 
+
+Terminé en 2007 des Grecs (1696), du temps de Mar Elia, patr., et de Mar 
+Isô'yahb, héritier du siège; écrit par le prêtre Homo, fils du prêtre Daniel, 
+fils du prêtre Élia; donné par Joseph, prêtre, à l'église de Notre-Dame 
+de ïlourdpna. — 0,30x0,21 . 
+
+Cod. 60. — Môme ouvrage que les deux précédents. 
+
+Achevé en 1893 de notre ère, à Araden, par le diacre Elia, fils du diacre 
+Homo, d'Alqôs. — 0,29x0,19. 
+
+Cod. 61. — Ce volume contient : 
+
+I. Chronologie de Siméon de Saqlaband. Cet ouvrage est un 
+calendrier et une explication des différentes ères, par demandes et 
+réponses; il a été analysé et en partie traduit par M. Mueller. 
+
+II. Livre des Pères : sur l'Église du Ciel et sur celle de la terre ; 
+composé par Siméon Bar Sabbâ'é pour son ami Aghor. » Ce livre 
+qui traite de la hiérarchie céleste et de la hiérarchie ecclésiastique 
+est faussement attribué au patriarche Siméon Bar Sbbâ'é. 
+
+Écrit en 2007 des Grecs (1696), à Alqôs, au temps de Mar Elia, patriarche. 
+Le nom du copiste a été effacé par une main ignorante. 
+
+Cod. 62. — € Explication des offices (de l'Église), par questions 
+et réponses, composée par le patriarche Joseph II. » 
+
+Cet ouvrage est catholique; il est divisé en cinq sections, ayant 
+pour sujet : la prière, les ordres sacrés, les offices, le S. Sacrement 
+et le baptême. 
+
+Sans date. xix« siècle. 0,15x0,10. 
+
+
+
+V. — Droit canonique. 
+
+Cod. 63. — Nomocanon d'Ebedjésus de Nisibe. 
+(Édité par Mai, Scrip. veter. nova collectio, t. X.). 
+
+Avant le synode de Timothée II, on trouve cette note : « Mar \Abdiàô\ 
+catholicos, originaire de Gazarta, mourut lundi 11 septembre de Tan 1881 
+des Grecs (1570).— 0,17x0,10. Mutilé à la fin. 
+
+Cod. 64. — Même ouvrage que le précédent. 
+
+Achevé en 2013 (1702), à Alqôs, du temps de Mar Elia patr., par le diacre 
+Khausâba, fils du prêtre Daniel, fils du prêtre Elia. 
+
+Pkvub des bibl., octobre-décembre 4907. xtii. — 18 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+244 MGR ADDAÏ SCHER. 
+
+Cod. 65. — Même contenu que le cod. 63 . 
+
+Suivent : 1° Avertissements au sujet du service de l'autel. — 2° 
+Canons de Bar Salibi, patr. des Jacobites, au sujet du sacrement 
+de la pénitence. 
+
+À la un du Nomocaoon d'Ebedjésus de Nisibe on lit la note suivante : 
+« Ce livre a été écrit en 1875 des Grecs (1564), à Amid (Diarbekir), du temps 
+de Mar v Abdisô', patr., par Hnauisô", évêque de Mërda (Mardin). » 
+
+A la fin des Canons de Bar Salibi on trouve cette autre note : « Ils (ces 
+canons) ont été écrits pour notre frère, sur l'autographe de notre père béni, 
+Mar 'Abdisô', catholicos, patriarche, qui est Tunique de son époque. Que 
+ses prières conservent les fidèles, Amen. » — 0,23 x 0,15. 
+
+Cod. 66. — t Livre de la Règle des jugements ecclésiastiques, 
+composé par Mar Ebedjésus de Nisibe, en 1627 des Grecs (1316). » 
+
+Copié sur un manuscrit du couvent de Notre-Dame dés Semences (cod. 
+91), en 1887 de notre ère. — 0,25 x 0,17. 
+
+
+
+VI. — Poèmes, Homélies et Hymnes. 
+
+Cod. 67. — Poème de Mar Aprem, sur Joseph, publié par P. 
+Bedjan en 1891. 
+
+Achevé en 1896 de notre ère, au couvent de N.-D. des Semences. 
+
+Cod. 68. — Môme ouvrage que le précédent. 
+
+Suivent : l a Poème sur la Sagesse divine, en vers de douze syl- 
+labes, attribué à Barhébraeus et expliqué par Joseph II, patriarche 
+(cod. 85. 2°). — 2° Discours poétique en vers de sept syllabes de 
+Joseph Audo, patriarche, sur les grandeurs de la Vierge Marie. — 
+3° Poésies en Ghaldéen vulgaire : a) sur l'enfer, par le prêtre Damya- 
+nos d'Alqôà (1855 de notre ère), — b) sur le Royaume des cieux, par 
+le même v 1856), — c) sur le pillage d'Alqôè en 1832, par le même 
+(en Ghaldéen littéraire), — d) six chants de Thomas Têklêk sur les 
+vertus et les vices, - e) diverses prières traduites du latin. 
+
+Sans date. Écriture récente. 
+
+Cod. 69. — Premier tome du « Livre des Homélies métriques 
+de Narsaï. » 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 245 
+
+Ce volume contient quarante-deux homélies. 
+
+Écriture récente. 0,35 x 0,21. — 43 cahiers de 10 feuillets. 25 lignes à la 
+page. 
+
+Cod. 70. — Deuxième tome du même ouvrage. Ce volume con- 
+tient trente-neuf homélies. La plupart de ces homélies ont été 
+publiées à Mossoul, par le P. Mingana, en 1905. 
+
+Ce volume, ainsi que le précédent, ont été récomment copiés sur Tordre 
+du feu Mgr Ebedjésus Khayyat, sur deux mss. du couvent de N.-D. des Se- 
+mences (n«» 31 et 32), et sur un ms. d'Alqôs. — 0,35 x 0,21. 42 cahiers de 10 
+feuillets ; 25 lignes à la page, 
+
+Cod. 71. — c Livre des Homélies mttrtqves de Narsaï. » 
+Ce volume contient trente-trois homélies; toutes se trouvent 
+dans les deux volumes précédents, sauf deux homélies, sur le lave- 
+ment des pieds et sur la fête de la Croix \ 
+
+Achevé en mil cinq cent (illisible) (1200 ) par Yohannan, fils de 
+
+Zaugui de la région d'Arbôles, un de (illisible) du village béni de 
+
+Beith. . : . . (illisible). — 0,23 x 0,16. 
+
+Quelques feuillets manquent. 
+
+Cod. 72. — Recueil des Homélies de Narsai. 
+Ce volume contient 27 homélies, qui se trouvent toutes dans les 
+trois mss. précédents. 
+
+Terminé en 2017 (170C), à Alqôs, au temps de Mar Elia, patr,; écrit par 
+le prêtre Yalda, fils du prêtre Daniel, fils du prêtre Elia, fils du prêtre 
+Daniel. 11 a été donné à l'église de Notre-Dame de Hourdapna parle prê're 
+Joseph de ce village. 
+
+Cod. 73. — c Livre de VHexaméron, composé par Rabban Em- 
+manuel, interprète au couvent supérieur (de Mar Gabriel à Mos- 
+soul). » 
+
+Voir l'analyse daus Assemani, B. 0., II, p. 490; et III, pars i, 
+p. 177. 
+
+Achevé à Telkôpé, en 1892 de notre ère, par le prêtre Joseph Kattoula. — 
+0,32 x 0,23. 
+
+
+
+1. M. l'abbé Mioganna, qui a édité les homélies de Narsaï, semble n'avoir pas 
+coddu ce manuscrit; car ces deux homélies n'ont pas trouvé place dans son catalogue. 
+Toutefois la première est attribuée, dans d'autres mss, à Rabban Gabriel. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+2'i6 MGR ADDAÏ SCHER. 
+
+Cod. 74. — Ce volume renferme : 
+
+I. Uq discours, en vers de douze syllabes, sur Marèamli, moine, 
+composé par son disciple Brikhièô*. Ce discours ne contient au- 
+cune notice historique. 
+
+II. Homélie métrique de Mar Aprem sur les pénitents. 
+
+III. « Livre des Centuries composé par Elia d'Anbar. » Voir 
+l'analyse dans Assemani, B. O., III, par3 i, 258. 
+
+Terminé en 1832 des Grecs (1521), dans le village de Ahtous (dans le 
+diocèse de Séert), au temps dé Mar Siméon, patr., et de Mar Yohannan, 
+év. de Bokhtâyé ; il a été écrit par le prêtre Aprem, 11 1s du prêtre Jacques, 
+pour ses propres et savantes filles Tâmar et Smoni. — 0,30x0,15. 
+
+Cod. 75. — Le Livre des Centuries (cf. cod. 74, 111). 
+Sans date. 
+
+Cod. 76. — Ce volume contient : « Paradis d'Eden, composé en 
+vers par Ebedjésus, métrop. de Nisibe et d'Arménie. » Assemani a 
+donné une analyse de cet ouvrage (B. 0., III, pars i, 325-332). 
+
+II. cr Livre de la Perle, sur la vérité du christianisme, composé 
+par Ebedjésus, év. de éigar, devenu ensuite métrop. de Nisibe et 
+d'Arménie. » (Publié par Mai, Script. Vet. nova collectio, t, X.) 
+
+III. Le Catalogue du même Ebedjésus, indiquant le titre de tous 
+les ouvrages nestoriens. (Publié par Abraham Ecchellensis et par 
+Assemani.) 
+
+IV. Discours poétique en vers de douze syllabes du même 
+Ebedjésus, sur le calendrier, adressé au glorieux chef Amin ed- 
+Dawla. 
+
+V. Un fragment du livre du même Ebedjésus, intitulé Principes 
+de la foi. 
+
+VI. — Un chant en chaldéen vulgaire, sur Smoni et ses fils, 
+composé par le prêtre Israël d'Alqôà. 
+
+Achevé en 2046 (1735), du temps de Mar Elia, patr., par le prêtre Joseph, 
+fils du prêtre Guiwarguis, fils du prêtre Israël d'Alqôs. 
+
+Cod. 77. — Recueil d'hymnes et de poèmes : 
+
+1° Poème de Gabriel de Mossoul sur Sabriàô\ fondateur du 
+couvent de Beilh Qôqa. Ce poème est long ; il commence par un 
+récit de la création ; il y est question ensuite de la venue de N. S., 
+des moines d'Egypte, et enfin du susdit SabriscV. — 2° Poésies et 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 247 
+
+hymnes de Khamis. — 3° Hymne dlsaac Sbednâya, sur la fête de 
+la Croix, composée en 1751 des Grecs (1440). 
+
+Sans date : xviip siècle. 0,15 x 0,09. 
+
+Cod. 78. — Recueil d'hymnes et de poésies de Khamis bar 
+Qardahé. 
+
+Suivent : 1° Poème de Gabriel de Mossoul sur Sabriàô\ fondateur 
+du couvent de Beith Qôqa (n° 77, 1«). — 2° Poème sur l'homme 
+microcosme ; dans quelques manuscrits ce poème est attribué à 
+Guiwarguis Warda. — 3° Hymnes dlsaac Sbednâya. 
+
+Écrit en 1893 de notre ère, à Telképé, sur Tordre d'Elia Aboul-Yaunan, 
+patr., par Joseph, fils de Michael. 
+
+Cod. 79. — Même contenu que le ms. 77. 
+
+Suivent : 1° c Livre des Chants » (cod. 56). — 2° Une hymne du 
+prêtre Israël d'Alqôé, composée en 1902 des Grecs (1591). — 
+3° Une hymne du prêtre Sliba, fils du prêtre David Maqbel, de 
+Mansourya. 
+
+Sans date. 0.30 x 0,33. 
+
+Cod. 80. — Même contenu que le ms. 77. 
+
+Achevé en 1861 des Grecs (1550), au couvent de Rabban Hormezd, pur le 
+prêtre Samuel, du temps de Mar Siméon patr., et de Mar Elia, héritier du 
+siège. — 0,19x0,15. 
+
+Cod. 81. — Même contenu que le ms. 77. 
+
+Suivent : 1° Hymnes du prêtre Sliba de Mansourya, sur les 
+Rogations, sur S.Georges et sur la Croix. — 2° Hymne d'IécVyahb 
+bar Mqadam sur S. Georges. — 3° Deux hymnes de 'Abdiéô* de 
+Gazarta, sur S. Cyriaque et sur tous les dimanches de l'année. 
+
+Terminé en 2091 (1780), dans le village de Naherdôs, dans le diocèse de 
+Gazarta, par le diacre Qouriaqos. 
+
+Cod. 82. — Collection des Hymnes de Guiwarguis Warda. 
+
+Sans date. Relié en 1825 de notre ère, par le diacre Thomas, fils du prêtre 
+Hormezd, de Telképé. — 0,33x0,22. 
+
+Cod. 83. — Même ouvrage que le précédent. 
+
+Écrit en 1896 de notre ère, à. Telképé, par Pierre, fils du prêtre Joseph, 
+flis de Yohannan. — 0,33x0,22. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+248 MGR ADDAÏ SCHER. 
+
+Cod. 84. — c Livre de Chants. » en chaldéen vulgaire. 
+
+1° Chant sur la vie de N. S. — 2° Trois chants du prêtre Joseph, 
+fils du prêtre Djamâl-eddin de Telképé, sur la foi, les paroles et les 
+paraboles de l'Évangile. — 3° Chant sur la pénitence, composé par 
+le prêtre Hormezd. — Chant sur la vie ascétique, composé par le 
+prêtre Israël d'Alqôé, en 1922 des Grecs (1611). — 5° Chant com- 
+posé par Mar Hnaniàô\ (év.) de Roustàqa, sur les malheurs du 
+temps. — 6° Chant composé par le prêtre Israël d'Alqôà, sur la 
+vision de S. Paul. — 7° Chaut de MarYohannan, év. de Marwana, 
+sur la pénitence. 
+
+Achevé en 2066 (1755), par le diacre Marawgui. 
+
+Code 85. — t Livre du discours accouplé ». 
+
+Poème en vers de douze syllabes, composé par Barhebraeus. 11 
+traite de la science divine et de la sagesse. (Khatnis bar Qardahê 
+a ajouté à chaque phrase métrique de Barhébrœus une autre 
+phrase sur le même sujet. Khamis a été imité par Ièô'yahb bar 
+Mqadam et par Joseph II, patriarche. 
+
+Suivent : 1° Poème du patriarche Joseph II, sur les avantages et les 
+louanges de l'exil. — 2° Poème sur la Sagesse divine. Quelques 
+morceaux de ce poème ont été publiés par le P. Cardahi. 
+
+Achevé en 1773 de notre ère, à Alqôs, par le prêtre Homo, fils du prêtre 
+Hanna, 01s du prêtre Homo. 
+
+
+
+VII. — Hagiographie. 
+
+Code 88. — Histoires édifiantes ; savoir : 
+
+Histoire de S. Thomas, apôtre; de- S. Mari, apôtre; de l'image 
+de N.-S. ; de Mar Mikba Nouhdrâya ; des Comédiens qui furent 
+martyrisés ; de Mar Paul, évêque, et de Mar Yohannan, prêtre 
+d'Édesse ; de S. Aprem. 
+
+Terminé à Alqôs, en 2023 (1712), du temps de Mar Elia, patriarche ; il a été 
+écrit par le prêtre Joseph, fils du prêtre Guiwargute, fils du prêtre Israël 
+d'Alqôs ; il a été donné à la sainte Vierge de Hourdapna, par le prêtre 
+Joseph, de ce village. — 0,30 x 0.25. 
+
+Cod. 87. — Récits édifiants et Vies des Saints (en carèouni) ; 
+savoir : 
+Histoires de sainte Maranaya ; d'Onésime, fille du roi ; d'Anus- 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 249 
+
+tase, de sainte Maryana et de son père Eugène.— Captivité des Juifs. 
+— Homélie de S. Aprem sur Abraham et Sara. — Histoires d'Har- 
+monius, de sa femme et de ses enfants ; de l'Homme de Dieu; de 
+l'enfant que ses parents voulurent immoler, du temps du prophète 
+Daniel ; de Moïse, le prophète ; de Mar Malchus de Glysma, disciple 
+de S. Eugène; de l'Image de N.-S. ; de S. Gyriaque. — Vies de 
+Marie, la pénitente; de Jonas, le prophète. — Homélies de S. Basile 
+sur la pén itence ; de Mar Aprem sur le prophète Élie, et de s. Jacques, 
+l'apôtre (sic), sur le baptême. — Histoires d'Isaac, fils d'Abraham ; 
+du roi Zenon ; de Mar Elia Hirtaya, fondateur du couvent du même 
+nom, tout près de Mossoul; de la chaste Suzanne ; de sainte Barbe ; 
+de S. Etienne et d'Élie; de S. Grégoire; de èmoui et de ses fils; 
+de Mar Isaïe d'Alep ; de Mar Michael, compagnon des anges ; de 
+Mar Pethion. 
+
+Achevé à Mossoul en 2035 (1724), par le prêtre Jacques, flls du prêtre làô, 
+fils de 'Abdel-Nour, de Mossoul. 
+
+Cod. 88. — Poème sur Rabban Hormezdj composé par Mar 
+Sarguis d'Adhorbaidjan. (Publié par M. Budge, en 1894.) 
+
+Suit : Poème du prêtre Isaac èbeduâye, sur l'Économie (divine) 
+depuis le commencement jusqu'au siècle des siècles. 
+
+Ce poème en vers de douze syllabes a pour sujet : la Trinité, la 
+Création, les Patriarches, l'Incarnation, la prédication des Apôtres, 
+le jugement dernier et le Paradis céleste. C'est un long acrostiche, 
+divisé en vingt-neuf chants, suivant les vingt-deux lettres de l'alpha- 
+bet syriaque ; quelques lettres ont chacune deux ou trois chants. 
+La rime est la même pour tous les vers d'un même chant. Ce poème 
+est surchargé de mots grecs et d'expressions syriaques inventées 
+par l'auteur et qui sont de véritables barbarismes ; c'est une œuvre 
+très bizarre. Toutefois, le commentaire en prose, que l'auteur lui- 
+même a ajouté au texte du poème ne manque pas de valeur. Les 
+auteurs qui y sont mentionnés sont : S. Aprem, Narsaï, Yohannan 
+bar Penkâyé , Hnaniso patriarche, Yohannan et Abraham deBeith 
+Rabban, le Diatessaron, Ièô'dad, év. de Hdattha, Gabriel Qatrâya. 
+Isaac de Ninive, Sahdona, Ahob Qatrâya, Michael Badoqa, Théo- 
+dore de Mopsueste, Diodore, S. Jean Chrysostome, Mar Aba I 
+patriarche, Mar Timothée II patriarche, Elia d'Anbar, Thomas 
+d'Édesse, Babaïle persan, Joseph Hazzâya, Siméon deèaqlaband, 
+Rabban Iàô'barnoun prêtre, Jean bar Zoub'bi, Emmanuel l'inter- 
+prète, Théodore bar K6ni, etc. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+250 MGR ADDAÏ SCHER. 
+
+L'auteur du poème appartient au xv 6 siècle (voir Cod. 77, 2°). 
+
+Terminé à Alqôs en 2011 (1700), du- temps de Mar Elia, patr., et de Mar 
+Isô'yahb, héritier du siège, par le prêtre Guiwarguis, fils du prêtre Israël, 
+fils du prêtre Hormezd, fils du prêtre Israël, il a été donné à l'église de 
+Notre-Dame de Hourdapna par le prêtre Joseph, ûis du diacre Hormezd, de 
+ce village . 
+
+Code 89. — Histoire de Mar Pethion ; et Office de sa commé- 
+moraison. 
+
+Sans date. 
+
+Cod. 90. — Volume contenant : 
+
+1° Canons synodaux {en arabe). — 2° Histoire de Marc de Ter- 
+mèce (en arabe). — 3° Modèles de lettres, en syriaque. — 4° Testa- 
+ment de Mar Aprem. — 5° Histoire de S. Pierre, l'apôtre. 
+
+Sans date. 
+
+Cod. 91. — Histoire de sainte Meskenta (en arabe). 
+Sans date. — 0,16 x 0,10. 
+
+
+
+VIII. — Ouvrages Ascétiques. 
+
+Cod. 92. — Ce volume contient trois ouvrages différents : 
+I. « Livre d' Evagrius ». La clausule finale est celle-ci: « Fin du 
+livre de l'Instruction de Mar Evagrius ». Ce livre semble être 
+divisé en quatre sections. La première section est subdivisée en 
+26 chapitres, ayant pour sujet : les pensées diaboliques ; les soins 
+du zèle pur de l'âme ; l'attention ; les songes ; la colère ; les pen- 
+sées humaines et angéliqqes; le désespoir ; la haine ; la vanité; 
+le démon de l'impureté; la connaissance de la vérité, etc. La 
+deuxième section renferme 24 chapitres qui traitent de la distinc- 
+tion des pensées. La troisième traite des péchés capitaux. (Ici l'au- 
+teur cite Tépître de S. Jude l'apôtre). La quatrième contient des 
+instructions sur les vertus et les vices. Viennent ensuite plusieurs 
+lettres du même Evagrius, touchant la vie ascétique. 
+
+IL Liber capitum du moine Marc ! . Le commencement de ce 
+livre manque. Il contient cinq discours sur la vie ascétique. 
+
+1. Cité par Ebedjésus de Nisible (apud As&emani, B. O., III, pars I, p. 4.) 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 251 
+
+III. Livre de S. Denys. Il y a beaucoup de lacunes dans ce 
+livre. Le titre est : « Livre de saint Denys. Premièrement : Discours 
+que composa Mar Sarguis, prêtre et archiâtre, avant de traduire 
+du grec en syriaque le Livre de saint Denys Taréopagite, év. de 
+la ville d'Athènes et disciple de S. Paul, l'apôtre. * Le discours 
+de Sarguis est long et parle des vertus. Vient ensuite le Livre de 
+S. Denys, qui est incomplet ; il n'en reste que cinq chapitres de 
+la première section, qui traitent de la divinité, de la prière, de la 
+lumière, de la bonté, de la beauté, de l'amour, du zèle, etc. 
+
+Sans date. xvm« siècle. — 0,30 x 0,25. 
+
+Cod. 93. — a Livre ascétique, composé par Yohannan, moine 1 » 
+Voici les titres et les clausules, tels qu'ils se trouvent dans les 
+cahiers intervertis de ce volume : Histoire de la chute, faute 
+d'attention. — Discours sur les vertus. — Chapitre 10 : Pourquoi 
+Dieu veut-il que le» hommes usent des choses terrestres pour le 
+servir? — Ghap. 22 : Qu'est-ce que les fiançailles de l'âme avec le 
+Christ? — Chap. 23 : Conseils du même Yohannan. — Chap. 24 : Sur 
+la patience. — Fin du discours sur le nouveau monde. — Un autre 
+discours du môme, par questions et réponses. — Fin de la lettre 
+adressée à Cyriaque. — Lettre adressée aux frères. — Autre lettre 
+du même Yohannan le moine, à Théodule, sur le baptême.— Chap. 
+14 : Quel but doit avoir celui qui veut acquérir la sagesse? — 
+Chap. 15 : Comment l'âme peut-elle retenir les paroles spirituelles ? 
+
+Parchemin. Très ancien et mal conservé. Plusieurs cahiers manquent. 
+
+Cod. 94. — « Livre du Paradis parfait des Pères. » 
+Ce volume est divisé enj trois sections. La première, qui con- 
+tient soixante-quatre vies, et la deuxième, qui en renferme cin- 
+quante-six, sont attribuées à Palladius ; la troisième est attribuée à 
+S. Jérôme. 
+
+Parchemin. 0,25 x 0,16. Achevé en 1105 des Grecs (794). 
+
+Cod. 95. — Même ouvrage que le précédent. 
+Suivent deux homélies en arabe sur les défunts, attribuées à 
+S. Jean Chrysostome et à Elia de Nisibe. 
+
+Sans date. Écriture du xvi* siècle. 0,30 x 0,*0. 
+
+1. Probablement Jean, le Thébaio, auquel Ebedjésus de Nisibe attribue un livre 
+ascétique (Apud Assemani, B. 0., III, pars I, p. 47). Cf. Wright, Catal., p. 747-49. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+252 MGR ADDAÏ SCHER. 
+
+Cod. 98. — « Livre de S. Grégoire, le moine, sur la vie ascé- 
+tique. » Cet ouvrage est divisé en deux sections ; Asseraani en a 
+donné une analyse partielle (B. 0., I, p. 170-174). 
+
+Parchemin. Sans date. Écriture du xr» siècle ; plusieurs cahiers et bien 
+des feuillets manquent. 
+
+Cod. 97. — Ce volume contient : 
+
+1. — Un livre divisé en sept discours (mimrê), dont chacun con- 
+tient cent Capila scientiœ. Les deux premiers discours manquent. 
+L'auteur de l'ouvrage est indiqué dans les titres et les clausules. 
+La clausule du dernier discours est celle-ci : t Fin du 7 e discours 
+des Capila, composé par Mar Siméon, moine, Tan des entants du 
+bienheureux et célèbre entre les saints notre père Mar Rabban 
+lèô' 1 . » 
+
+IL — Explication du livre précédent, divisée en cinq discours 
+avec ce titre : « Avec le secours de Dieu j'écris des choses simples, 
+sur les régions de l'esprit et sur le sens caché dans ces Capita. 
+Pour quel avantage ont-ils été dits ? Est-ce d'une manière sublime 
+ou non que le (moine) persécuté les a dits? De combien de manières 
+les a-l-il dits ? Montrons encore quelle parfaite connaissance des 
+choses spirituelles a l'esprit des saints et jusqu'où il s'élève. » 
+
+III. — Livre philosophique et théologique, qui traite d'une ma- 
+nière sublime de Dieu et de sa providence. Cet ouvrage, qui semble 
+être extrait d'un autre livre, est divisé comme deux parties. 
+La première contient huit chapitres et la seconde dix-huit. Ces 
+derniers chapitres ont presque les mêmes titres et le même contenu 
+que ceux du Livre d'Isaac, le docteur, du couvent de R. léô\ inti- 
+tulé : Liber Capitum. Or ce livre est tiré du V e volume d'Isaac de 
+Ninive ; Isaac, moine du couvent de R. lèô', serait donc le même 
+qulsaac de Ninive. 
+
+Sans date. xn e siècle. 21 cahiers. Les trois derniers et quelques feuillets 
+ont disparu. 
+
+1. Ce R. Isô" serait le même, dont le Livre de la Chasteté (n° 112) dit qu'il était 
+disciple de R. Apoimaran. Or ce dernier était contemporain de Georges I, patriarche 
+(659-680). (Voir Liber Turris, *Aroa et Sliba, textus, édit. Gismondi, p. 57). Siméon, 
+auteur de cet ouvrage, appartiendrait donc au vu* siècle, et je pense que c'est le même 
+que Siméon Taïbouthéb, contemporain de Hnanisô*, patriarche (687-700), et auquel 
+Ebedjésus de Nisibe (apud Assemani, B. 0., III, pars i, p. 181) attribue un livre ascé- 
+tique. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 253 
+
+Cod. 98. — Livre des Homélies d'Isaac de Ninive. 
+
+Ce volume contient 25 homélies en vers de sept syllabes; elles 
+ont été publiées par Bedjan en 1903, sous le nom d'Isaac d'An- 
+lioche; ce sont les 24 premières homélies de sa publication. La 
+dernière n'a pas été publiée. 
+
+Achevé à Alqôs, en 2089 (1778), par le prêtre Yalda, fils du prêtre 'Abdisô', 
+flls du prêtre Khausâba, fils du prêtre Israël; copié pour le couvent de 
+Mar Gui warguis dans le village de Beith'Ewiré (pi es de Mossoul).— 0,22x0,15. 
+
+Cod. 99. — Livre des Éthiques, composé par Barhebraeus. 
+(Publié par P. Bedjan, en 1898.) 
+
+Écrit à Maragha, en 1604 des Grecs (1293), du temps de Mar Yahbalaba» 
+patriarche, par Joseph, prêtre et moine. — 0,23x0,17. 
+
+Cod. 100. — Volume contenant : 
+
+1° Des morceaux choisis du V e volume d'Isaac de Ninive, contre 
+ceux qui nient la Providence divine. — 2° Conseils utiles de 
+Babaï le Grand, sur les bonnes œuvres et sur la connaissance de la 
+vérité. Ce traité comprend 4 chapitres. — 3° Deux hymnes de 
+Babaï bar Nsibnâyé sur la pénitence. — 4° Six homélies de 
+S. Aprem sur la pénitence. — 5° Discours métrique d'Isaac de 
+Ninive en vers-de douze syllabes sur la nature divine. — 6° Discours 
+de Mar Aprem contre Bardesane. — 7° Poésie de R. Behnan. — 
+8° Hymne à chanter avant le repas. — 9° Hymne à chanter pen- 
+dant la tonsure des moines. — 10° Poésie de Jean Bar Penkâyésur 
+les défauts des moines (publiée par Mgr Elia Millos, eu 1868). — 
+11° Instruction de Mar Aprem sur l'Incarnation. 
+
+Sans date. 
+
+Cod. 10t. — « Livre des bonnes œuvres, composé par Jean de 
+Mossoul. » 
+
+Ce livre, en vers de sept syllabes et partagé en nombreux chapi- 
+tres, a été écrit en 1556 des Grecs (1245), au couvent de Mar 
+Michael, compagnon des anges, où l'auteur aurait embrassé la vie 
+religieuse. Il a été publié à Rome par Mgr Elia Millos, en 1868, sous 
+le titre de Directorium spirituale. L'éditeur en a retranché tout 
+ce qui sentait le nestorianisme. 
+
+Suivent : 1° Testament de S. Aprem. — 2° Plusieurs homélies de 
+S. Aprem sur la pénitence. 
+
+Sans date. xvn« siècle. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+254 MGR ADDAÏ SCHER. 
+
+Cod. 102. — Livre des bonnes œuvres (cf. cod. 101). 
+Suit un discours en vers de sept syllabes sur l'homme micro- 
+cosme (cod. 78, 2°). 
+
+Sans date. 
+
+, Cod. 103. — « Quelques extraits du Livre des Moines. » Ce 
+volume contient ; 
+
+1° Quelques extraits du traité d'Abraham de Nathpar sur la vie 
+ascétique. — 2° Quelques questions avec des réponses, sur l'Évan- 
+gile. — 3° Quelques fragments du livre de Ièô'bokht, métrop. de 
+Perse, sur rhexaméron.— 4° Capita distincta du livre des questions 
+de S. Pierre sur les sacrements. — 5° Quelques extraits du livre de 
+Mar 'Abdièô* (Joseph Hazzâya). — 6° Traité sur les étoiles, extrait 
+du livre de Iàô'barnoun, qui habitait dans le désert. — 7° Abrégé 
+de l'explication des offices de l'Église, par Ebedjésus de Nisibe. 
+Écrit récemment sur l'ordre de feu Mgr Ebedjésus Khayyat. — 0,33x0,22 
+
+
+
+IX. — Grammaire et Lexicographie. 
+
+Cod. 104. — « Livre des Splendeurs, » ou Grande Grammaire, 
+composée par Barhebrœus (publié par l'abbé P. Martin, en 1872). 
+
+Écrit à Alqôs, en 2015 (1703), par les soins du prêtre Abraham, fils du prê- 
+tre Miridjan. 
+
+Cod. 105. — Même ouvrage que le précédent. 
+
+Achevé en 2021 (1710), à Alqôs, du temps de Mar Eiia, patriarche. Le nom du 
+copiste est effacé. 
+
+On a relié à la suite un autre livre, intitulé : « Livre des Pères 
+sur l'Église du ciel et sur celle de la terre, composé par jSiméon 
+Bar Sabbâ'é, pour son ami Aghor. » (Cod. 61, 1IJ. — Sans date. 
+
+Cod. 106. — Ce volume contient : 
+
+I. t Grammaire de la langue araméenne, composée par Mar Elia 
+de Nisibe. » 
+
+II. « Correction du discours syriaque, c'est-à-dire parties prin- 
+cipales de la grammaire, disposées et arrangées par Rabban Yoban- 
+nan bar Zou'bi. » L'auteur a recueilli daus cet ouvrage une partie 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 255 
+
+des œuvres de ses devanciers, comme Elia de Nisibe, Jean le Sty- 
+lite, etc. ; et il y a mêlé beaucoup de notions de philosophie, de 
+théologie et de physique. 
+
+III. Petite grammaire de ce même Yohannan, en vers de sept 
+syllabes, qui est un abrégé à l'usage des commençants. . 
+
+IV. Discours en vers de sept syllabes, qui moutre la différence 
+qui existe entre nature et qnoma, et entre personne et figure. Ce 
+discours est dû vraisemblablement au même Yohannan. 
+
+V. Énigme, en vers de sept syllabes, sur le nom et le verbe. 
+
+VI. Discours en vers de douze syllabes sur l'accentuation, com- 
+posé par Joseph bar Malkoun, év. de Mardin, devenu ensuite mé- 
+trop. de Nisibe, sous le nom de Ièô'yahb. 
+
+VII. « Livre de Y Introduction, composé par lèô'yahb, métrop. 
+d'Arbèles. » Cette grammaire, en vers de sept syllabes, rédigée en 
+1755 des Grecs (1444), est, après la grammaire de Barhebrceus, 
+l'œuvre la plus complète et la plus utile en ce genre. On y trouve 
+aussi expliquées les particularités des deux dialectes syriens, 
+l'oriental et l'occidental. Ce livre est suivi d'un traité très utile du 
+même auteur sur les mots ambigus. 
+
+Achevé en 1878 des Grecs (1567), du temps dé.. . (le nom du patriarche est 
+effacé) ei.de Mar Elia, métropolitain. 
+
+Cod. 107. — Même contenu que le précédent. 
+Terminé en 2091 (1780), à Douré, par le prêtre Thomas de Guessa. 
+
+Cod. 108. « Lexique de Hassan bar Bahloul. v (Édité par R. Du- 
+val; Paris, 1888-1896). 
+
+On trouve à la fin un extrait du livre de Jean bar Sérapion, sur 
+les mesures et les poids. 
+
+Écrit en 2123 (1812), à Alqôs. 
+
+Cod. 109. — Volume incomplet qui contient : 
+
+1° Grammaire de l^ù'barnoun, catholicos. Ce traité est plutôt sur 
+les mots semblables par l'écriture et différents par le gens. — 2° 
+Grammaire d'Elia de Nisibe (cod. 106, I). — 3° Grammaire de Da- 
+vid, fils de Paul. 
+
+Terminé à Alqôs, en 1990 des Grecs (1679), par Homo. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+256 MGR ADDAÏ SOHER. 
+
+Cod. 110. — Volume contenant : 
+
+1° Un lexique anonyme. — 2° Mots semblables par récriture et 
+différents par le sens.— 3° Traité sur les grands points. — 4° Les dix 
+catégories d'Iàô'bokt, métrop. de Riwardèir. — 5 Questions de 
+Jean Azraq, év. de Hirta. Ces questions, au nombre d'environ 80, 
+sont des énigmes. — 6° Livre des Définitions, composé par Michaël 
+Badôqa. — 7° Explication des mots. — 8° Traité de 'Abdiàô' de 
+Gazarta sur les mots ambigus (ce traité a été édité par Hoffmann). 
+
+Sans date. 
+
+Cod. 111. — « Morceaux choisis. » [Ktaba de Louqatè). Ce vo- 
+lume contient : 
+
+1° Liber Canonum de œquilitieris de 'Énaniéô' et de Honein, et 
+autre compilation du même genre (publié en 1880 par Hoffmann). 
+
+2° Autre traité sur les mots ambigus. 
+
+3° « Proverbe des lettres par un philosophe. » On lit à la fin de 
+ce traité : « Il faut encore connaître ceci sur l'écriture. L'écriture 
+syriaque s'écrit de plusieurs manières ; chaque région a une écriture 
+spéciale. Ces espèces d'écriture sont appelées : Qnétaya, Serta. 
+Mqat'a, Agraya, Estratéga et 'Epipa. L'Ecriture, dite Stratéga, est 
+appelée aussi Édessienne, parce qu'elle a été accordée, comme 
+don, de la part de Dieu, à Paulé, filsd'Enaqad'Édesse, par honneur 
+pour l'adorable Evangile et pour les livres des Prophètes, afin 
+qu'au moyen de grandes et belles lettres, la vue s'étende davantage 
+et la pensée soit plus libre en lisant ces livres. 11 y a encore une 
+autre espèce d'écriture, nommée Gamraïta, du nom du couvent de 
+Gamré ; ajoutez-y aussi l'écriture de Sqotinos, maîtrede Bardesane. » 
+
+4° Définition de la parole, par David fils Paul. 
+
+5° Traité du môme David sur la division des noms. 
+
+6° Explication des noms. 
+
+7° Sentences des philosophes grecs et des sages persans et 
+hébreux (extrait de l'ouvrage de Bahebraeus intitulé : Livre des 
+Récits amusants, publié par M. Budge, en 1897). 
+
+Sans date. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 257 
+
+
+
+X. — Ouvrages divers. 
+
+Cod. 112. — « Lettres du catholicos Mar Iàô'yahb (III) 
+d'Adiabène » (publiées par R. Duval, dans le Corpus Scriptorum 
+Christianorum Orientalium, en 1904). 
+
+Achevé en 2008 (1697), à Àlqôs, du temps de Mar Elia, pair., et de Mar 
+Isô'yahb, héritier du siège, par Guiwarguis, fils du prêtre Israël, d'Alqôs.— 
+0,22x0,16. 
+
+Une autre note tin a le est ainsi conçue : € En cette même année (2008), fut 
+bâti et restauré tout le grand martyrion, avec d'autres endroits du couvent 
+de Rabban Hormezd, par les soins et aux frais de Mar Elia, patriarche. » 
+
+Cod. 113. — « Histoire Nestorienne », en arabe. 
+
+Ce volume contient deux parties : la première, renferme les 
+événements de Tan 363 à l'an 422, et la deuxième va depuis 250 
+jusqu'à 364. Celui qui a relié à neufle ms. a certainement interverti 
+Tordre des cahiers. Cette compilation comprend aussi l'histoire 
+de l'Eglise romaine et grecque, ainsi que le récit des événements 
+politiques relatifs aux deux empires Perse et Byzantin. L'auteur 
+de l'ouvrage nous est inconnu ; il est postérieur au patriarche 
+Ièô'barnoun (mort en 828) qu'il cite 
+
+Sans date. Écriture assez ancienne, grosse et lisible ; mais les points 
+diacritiques font souvent défaut. Les premiers et les derniers cahiers ont 
+disparu. 
+
+Cod. 114. — Ouvrage qui contient Y Histoire de l'Église Romaine 
+depuis 361 jusqu'à 590 ; elle a été traduite d'une autre langue en 
+syriaque. 
+
+Écrit en 2123(1812), par le prêtre Gabriel, fils du prêtre Khausaba. 
+
+Cod. 115. — « Livre de la Médecine des pécheurs. » Ouvrage 
+traduit de l'arabe en syriaque par le patriarche Joseph II. 
+
+Cod. 116. — « Nourriture du prêtre, *> Ouvrage traduit de 
+l'arabe ou du latin en syriaque par le prêtre Joseph, fils d'Abraham, 
+de 'Ainkawa. 
+
+Écriture récente. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+•258 
+
+
+
+MGR ADDA1 SCHER. 
+
+
+
+INDEX ALPHABÉTIQUE 
+
+DES AUTEURS ET DES OUVRAGES ANONYMES 
+
+
+
+(Les chilïres indiquent les numéros des manuscrits.) 
+
+
+
+Abal, 3; 54 ; 88. 
+
+'Abdiéô* de Gazarta, 81,3° ; 
+
+110,7°. 
+•Abdiôô', moine, 103,5°. 
+'AbdièÔ' I, 51 . 
+Aboul'ezz, 13, n. h; 51. 
+Abraham de Beith Rabban, 1 ; 
+
+3 ; 88. 
+Abraham Nethprâya, 103, 1°. 
+Ahob Qatrâya, 3; 20; 88. 
+Aprem(s*.), 1 ; 3 ; 7 ; ; 50 ; 67 ; 
+
+68 ; 74, n ; 87 ; 88 ; 90,4° ; 
+
+100,4°,6°,ll°;10i,l°,2°. - 
+Aquila, 3. 
+Aristote, 35, n, v. 
+'Atâya bar Athéli, 54 ; 56. 
+
+Babaï bar Nsibnâyé, 110,3°. 
+Babaï le grand. 110,2°. 
+Babaï le persan, 3 ; 88. 
+Bar Bahioul, 108. 
+Barhebraeus, 25 ; 31 ; 68,1° ; 85 ; 
+
+99; 104; 105; 111,7°. 
+Bar Salibi, 65,2». 
+Basile (s.), 3; 87. 
+Benham (Rabban), 100,7°. 
+Bréviaires, 43; 44; 45; 46; 47 ; 
+
+48; 49; 50; 51; 52. 
+Brikhi&ô, disciple de èamli, 74, 
+
+i. 
+
+
+
+Calendrier nestorien, 13. 
+Chants, 56 ; 57 ; 79,1°; 84. 
+Commentaires sur les Écritures, 
+
+1 ; 2 ; 3 ; 4 ; 19 ; 20 ; 21 ; 22 ; 
+
+23; 24; 25. 
+Cyrille d'Alexandrie, 3. 
+
+Damien, prêtre, 68,3°. 
+Daniel bar Toubanilha, 3. 
+David, fils de Paul, 109,3% 
+
+111,4°, 5°. 
+Denha (Rabbin), 20. 
+Denys(s.), 3 ; 92, m. 
+Diodore de Tarse, 88 . 
+
+Ebedjésus de Nisibe, 57 ; 63 ; 
+
+64 ; 65 ; 66 ; 76; 103,7°. 
+Eliad'Anbar, 74, m; 75; 88. 
+Elia de Nisibe, 51; 95; 106, i; 
+
+109,2°. 
+Elia III Abouhalim, 51. 
+Emmanuel , l'interprète , 7 3 ; 
+
+88. 
+'Enanisô' (Rabban), 111, 1°. 
+Esra le Scribe, 27. 
+Evagrius, 92, i. 
+
+Gabriel de Mossoul, 77, 1°, 78, 1°. 
+Gabriel Qatrâya, 3 ; 88. 
+Grégoire (S.), 3. 
+Grégoire de Gamré, 20. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+MANUSCRITS SYRIAQUES DE MOSSOUL. 
+
+
+
+259 
+
+
+
+Grégoire, moine, 96. 
+Guiwarguis d'Arbèles , 51 ; 58; 
+
+59 ; 60. 
+Guiwarguis, prêtre d'Alqôà, 56. 
+Guiwargnis Warda, 34; 78, 2°; 
+
+82; 83; 85. 
+
+Histoire de la sainte Vierge, 39. 
+Histoire neslorienne, 113. 
+Hnanièô' de Roustaqa, 84, 5°. 
+Hnanièô' I, patriarche, 88. 
+Honein, 111, 1°. 
+Hormezd, prêtre, 84, 3°. 
+
+Isaao de Ninive, 88, 97, m; 98; 
+
+100. 1°, 5°. 
+Isaac ëbednâya, 77, 3°; 78, 3° ; 
+
+88. 
+Iéô'barnoun, anachorète, 3 ; 88; 
+
+103, 6". 
+Iàô'barnoun, patriarche, 3 ; 
+
+109, 1°. 
+
+Iàô'bokht de Perse, 103, 3°; 
+
+110, 4°. 
+
+Iàô'dad de Hdattha, 3; 19 ; 88 ; 
+IàiVyahb bar Malkoun, 106, vi. 
+Iàô'yahb bar Mqadam, 81, 2°; 
+
+85; 106, vu. 
+Iéô'yahb III, patriarche, 112. 
+Israël d'Alqôà, 76, vi; 79,2°; 
+
+84, 4', 6°. 
+
+Jacques d'Édesse, 3. 
+
+Jean Azraq, 110, 5°. 
+
+Jean bar Sérapion, 108. 
+
+Jean bar Penkayê, 26 ; 88 ; 100, 
+
+10°. 
+Jean barZoti'bi, 88; 102 ; 106, n. 
+Jean Chrysostome, 3; 88; 95. 
+Jean Daïlomâya. 54. 
+
+revu* des bibl., octobre-décembre 4907. 
+
+
+
+Jean dfe Beith Rabban, 1 ; 3; 88. 
+Jean de Marwana, 84, 7°. 
+Jean de Mossoul, 101 ; 102. 
+Jean le Thébain, 93. 
+Jérôme (S.), 94; 95. 
+Joseph Audo, 62, 2°. 
+Joseph II, patr., 32 ; 34 ; 49 ; 62 ; 
+
+68, 1°; 85; 115. 
+Joseph Djamâl ed-Din, 84, 2°. 
+Joseph Hazzâya, 88 ; 103, 5°. 
+Joseph Houzâya, 35, m. 
+Joseph, prêtrede *Ainkawa,115. 
+
+Khamis, 34; F>6 ; 57; 77, 2°. 
+Kheder, prêtre de Mossoul, 52. 
+
+Lectionnaires, 12; 13; 14; 15; 
+
+16; 17; 18. 
+Liturgies, 36, 1°, 2°, 3°; 37, 2°; 
+
+38; 39; 41; 42. 
+
+Mamelles (lire intitulé : Fils des), 
+
+37. 
+Marc, moine, 92, n. 
+Mari bar Souleiman, 30. 
+Michaêl Badoqa, 1; 3; 88; 110, 
+
+6°. 
+Michaël,év. d'Amid, 36, 11°. 
+
+Narsaï, 50; 69; 70; 71; 72; 88. 
+Nathniel de Saherzor, 3 ; 20. 
+Nestorius, 36, 3°; 37, 2°. 
+
+Palladius, 94; 95. 
+Paul d'Anbar, 51. 
+Porphyre, 55, i. 
+Probus, 35, i, vi. 
+
+Rituels, 36; 37; 38; 39; 40; 41; 
+42; 55. 
+
+jvii. - 49 
+
+
+
+jT 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+260 
+
+
+
+MGR ADDAl SCHER. 
+
+
+
+Sabokht Sévère, 35, iv, vu. 
+Sabriéô'barPaulos, 3; 13, n.g; 
+
+51. 
+Sabrièô', év. de Kaèkar, 5i. 
+Sahdona, 88. 
+éallHa de Reé'aïna, 51. 
+Salomoii de Basra, 28; 51 . 
+Sarguis, archiâtre, 92. 
+Sarguis d'Adhorbaïdjan, 88. 
+Siméon bar Sabbâ 4 é,61, h; 105. 
+Siméon de Saqlaband. 61, i ; 88. 
+Siméon Taïbouthéh, 97, i. 
+Slibade Mansourya, 79, 3°; 81, 
+' 1°. 
+
+Sliba, fils de Jean, 30. 
+Symmaque 3. 
+
+
+
+Théodore bar Kôni, 88. 
+Théodore de Mopsueste, 1 ; 3 ; 
+
+36, 2«; 37, 2° ; 88. 
+Théodoret, 3. 
+Théodule, 3. 
+Théophile le persan, 3. 
+Thomas d'Édesse, 88. 
+Thomas Tektek, 68, 3°. 
+Timolhée II, pair., 88. 
+
+Versions de TAn'ieu Testament, 
+1; 2; 3; 4; 5; 6. 
+
+Versions du Nouveau Testa- 
+ment, 7; 8; 9; 10; 11. 
+
+Vies des Saints, 86 ; 87 ; 89; 90; 
+91. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+

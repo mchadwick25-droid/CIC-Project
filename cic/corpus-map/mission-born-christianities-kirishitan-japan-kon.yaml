@@ -3,6 +3,294 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: mission-born-christianities-kirishitan-japan-kon
 works:
+- row_id: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880--the-moral-history-of-the-indies-books-v-vii-grimston-s-1604-english
+  work: 'The Natural and Moral History of the Indies, Vol. II: the Moral History (Books V
+    to VII), in Grimston''s 1604 English'
+  author: acosta
+  locus: the Fift Booke from file line 986 (religion, idolatry, priests, confession, festivals
+    of Peru and Mexico, and the mission), the Sixt Booke from line 4844, the Seventh Booke
+    from line 7212; Markham's analytical table before and index after
+  role: context
+  confidence: assigned
+  note: 'The Andes and New Spain strand''s best-known outside witness in public-domain English:
+    a Jesuit who worked in Peru and Mexico describing Andean and Mexican religion and the
+    conversion as he judged them. Mission voice, hostile to the religions it records, and
+    the standard etic source a build will have to read against the native voices it lacks.
+    Jacobean spelling; clean OCR. Vol. I (natural history) is not vendored.
+
+    '
+  source_file: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880.txt
+- row_id: paiva-manso_historia-do-congo-documentos-por_1877--letters-charters-and-inquests-of-d-afonso-i-of-kongo
+  work: Letters, charters and inquests of D. Afonso I (Mvemba a Nzinga), king of Kongo, 1512-1540s,
+    in Portuguese
+  author: afonso-i-of-kongo
+  locus: the documents in Afonso's name, from the 1512 publication of arms at file line 441
+    ('D. Affonso por graca de Deus rei de Manicongo', line 444), his letter to the Pope (line
+    533) and his letters to D. Manuel and D. Joao III at lines 584, 1372, 1459, 1497, 1598,
+    1921, 1958, 1992, 2122, 2207, 2339, 2495, 2582, 2615, 2659, 2883, 3060, 3131, 3298 and
+    3386, among the Roman-numbered documents
+  role: tradition
+  confidence: assigned
+  note: 'The Kongo strand''s own voice: the Christian king of Kongo writing in Portuguese
+    to the kings of Portugal and to the Pope, asking for priests, teachers and physicians
+    and complaining of the slave trade (the 1526 letters among them, lines 2211 and 2339 onward).
+    Primary original-language evidence, quotable once each wording is checked against the
+    page image; the OCR is clean with occasional letter-level misreads in headings. The letters
+    were written at the Kongo court, some by Portuguese secretaries, so a build should treat
+    the voice as the court''s and not only the king''s own hand. No public-domain English
+    translation is vendored.
+
+    '
+  source_file: paiva-manso_historia-do-congo-documentos-por_1877.txt
+- row_id: blair-robertson_philippine-islands-v07_1903--plasencia-customs-of-the-tagalogs-2
+  work: 'The Philippine Islands, Vol. VII (1588-1591): Plasencia''s Customs of the Tagalogs,
+    and the documents of 1588-1591'
+  author: blair-robertson
+  locus: Plasencia's two relations headed 'Customs of the Tagalogs' at file line 4367; Bishop
+    Salazar's memorial and the documents of 1588 from line 560, of 1589 from 1831, of 1590
+    from 4968; Bibliographical Data at 8145
+  role: context
+  confidence: provisional
+  note: Missionary description of a people before and during conversion, as a comparison case
+    for the mission-born entry; placed on genre and window.
+  source_file: blair-robertson_philippine-islands-v07_1903.txt
+- row_id: chirino_relacion-islas-filipinas-spa_manila1890--chirino-relacion-spanish-3
+  work: Relacion de las Islas Filipinas y de lo que en ellas han trabajado los Padres de la
+    Compania de Jesus (Roma 1604), Manila 1890 reprint
+  author: chirino
+  locus: whole text from the title at file line 134; the printed table of contents of eighty-two
+    chapters is at the end of the file
+  role: context
+  confidence: provisional
+  note: As the Blair and Robertson Chirino rows.
+  source_file: chirino_relacion-islas-filipinas-spa_manila1890.txt
+- row_id: blair-robertson_philippine-islands-v12_1904--chirino-relacion-part-1-3
+  work: 'The Philippine Islands, Vol. XII (1601-1604): Chirino''s Relacion de las Islas Filipinas
+    (first part) and the documents of 1601-1603'
+  author: chirino
+  locus: Chirino's Relacion from file line 4110 to the Bibliographical Data at 7925; documents
+    of 1601-1602 from 555 and of 1603 from 1946 (Sangley insurrection, Benavides, Acuna)
+  role: context
+  confidence: provisional
+  note: Jesuit mission account from Asia, a sibling to the mission-born entry's other mission
+    narratives; placed on genre and window.
+  source_file: blair-robertson_philippine-islands-v12_1904.txt
+- row_id: blair-robertson_philippine-islands-v13_1904--chirino-relacion-part-2-3
+  work: 'The Philippine Islands, Vol. XIII (1604-1605): Chirino''s Relacion de las Islas Filipinas
+    (concluded) and the documents of 1604-1605'
+  author: chirino
+  locus: Chirino's Relacion concluded from file line 547 to 5571; documents of 1604 from 5571
+    (decrees on religious orders 6205, Chirino's grant for the Jesuit seminary at Cebu 6301),
+    of 1605 from 6718 (Augustinian friars' letters 7284); Bibliographical Data at 7879
+  role: context
+  confidence: provisional
+  note: As the Vol. XII row.
+  source_file: blair-robertson_philippine-islands-v13_1904.txt
+- row_id: cocks_diary-v1_thompson1883--diary-1615-1617
+  work: Diary of Richard Cocks, cape-merchant of the English factory at Hirado, 1 June 1615
+    to 31 December 1617 (Hakluyt Society, 1883, vol. I)
+  author: cocks
+  locus: Thompson's preface from line 99 and introduction following; the diary from "DIARY
+    OF RICHARD COCKS" at line 1361 and "_June 1._" at 1368 to "_December 31._" at 13653; the
+    Jesuits, padres and Japanese Christians named at about 62 lines (for example 609-637,
+    1410-1484, 4191, 6537-6847, 13787-13854, the last on the martyrs)
+  role: context
+  confidence: assigned
+  note: 'An English Protestant trader''s day-book at Hirado during the first years of the
+    Tokugawa persecution, reporting the expulsions, the padres in hiding and the executions
+    as news and gossip: an outside witness for the Japan strand, beside Rundall''s Adams letters
+    (vendored) and against the Jesuit side in Pages. Not a Catholic or convert voice. Proofread
+    Gutenberg text, clean. Volume II (1618-1622) is not vendored.'
+  source_file: cocks_diary-v1_thompson1883.txt
+- row_id: colin_labor-evangelica-t1-spa_pastells1900--colin-labor-evangelica-tomo-1-3
+  work: Labor evangelica (Madrid 1663), Parte primera, drawn from Chirino's manuscripts, Pastells's
+    edition of 1900, Tomo I
+  author: colin
+  locus: dedication at file line 99; 'LIBRO PRIMERO' at 56461 (the islands and their peoples);
+    'LIBRO SEGVNDO' at 73221 (the Society's first years); the whole-work alphabetical index
+    fills roughly lines 1491 to 54305
+  role: context
+  confidence: provisional
+  note: As the Chirino rows.
+  source_file: colin_labor-evangelica-t1-spa_pastells1900.txt
+- row_id: doctrina-christiana_manila-1593-tgl-spa_wolf1947--doctrina-christiana-manila-1593-2
+  work: Doctrina Christiana en lengua espanola y tagala (Manila, 1593), with Wolf's 1947 essay
+  author: doctrina-christiana
+  locus: Wolf's essay and notes before file line 1717 and the NOTES at 2911; the Doctrina
+    itself from the title page at 1717, the Tagalog abecedario at 1775, the question-and-answer
+    catechism ('Ang tanongan') at 2651, 'Laus Deo' at 2905
+  role: context
+  confidence: provisional
+  note: The same mission catechism practice (a doctrine printed in the converts' own language
+    and script) as a sibling case for the mission-born entry; placed on that likeness, not
+    read against that entry's own sources.
+  source_file: doctrina-christiana_manila-1593-tgl-spa_wolf1947.txt
+- row_id: francis-xavier_monumenta-xaveriana-v1-lat_1899-1900--monumenta-xaveriana-tomus-i-xavier-s-letters-and-other-2
+  work: 'Monumenta Xaveriana, Tomus I: Xavier''s letters and other writings'
+  author: francis-xavier
+  locus: the letters written from Japan, 1549-1552 (the letter dated 'Cangoxima 3 Novembris
+    1549' at file line 29054 and those that follow), and Valignano's Life on the Japan years
+    (Cangoxima at line 5424)
+  role: context
+  confidence: assigned
+  note: 'The original-language text (Spanish and Portuguese, with the Latin of the editors)
+    of the Japan letters that the Coleridge volume translates: the first Jesuit account of
+    Japanese converts, from the missionary''s side. CORPUS-USE tier: same time-place. Quotable
+    once each wording is checked against the page image, as the existing row says.
+
+    '
+  source_file: francis-xavier_monumenta-xaveriana-v1-lat_1899-1900.txt
+- row_id: francis-xavier_life-and-letters-v2_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-ii-2
+  work: The Life and Letters of St. Francis Xavier, Vol. II
+  author: francis-xavier
+  locus: Book V from file line 13181 (contents at line 886; the Japan mission 1549-1552, Cagoxima,
+    Yamaguchi, Bungo) and Book VI from line 21318 (the China plan and Xavier's death at San
+    Chan)
+  role: context
+  confidence: assigned
+  note: 'The founding of the Japan mission in Xavier''s own letters (Coleridge''s English):
+    the first Japanese converts, the bonzes'' questions, the plan for China. Same time and
+    place as the world''s Japan strand (CORPUS-USE tier: same time-place). Context, not tradition,
+    because it is the missionary''s voice, which the world''s floor question is about.
+
+    '
+  source_file: francis-xavier_life-and-letters-v2_coleridge1872.txt
+- row_id: morga_sucesos-islas-filipinas_blair-robertson1907--morga-sucesos-english-2
+  work: History of the Philippine Islands (Morga's Sucesos de las Islas Filipinas, 1609),
+    Blair and Robertson's English
+  author: morga
+  locus: 'Volume I: preface 98, chapters first to seventh from 790; Volume II from 7690, chapter
+    eighth (islands, peoples, customs, religion, the church) from 8875; editors'' NOTES at
+    11781'
+  role: context
+  confidence: provisional
+  note: Colonial-official account of a mission field; placed on genre and window.
+  source_file: morga_sucesos-islas-filipinas_blair-robertson1907.txt
+- row_id: morga_sucesos-islas-filipinas-spa_rizal1890--morga-sucesos-spanish-3
+  work: Sucesos de las Islas Filipinas (Mexico 1609), Rizal's annotated edition of 1890, with
+    Blumentritt's prologue
+  author: morga
+  locus: Blumentritt's prologue from file line 157; Morga's chapters 'CAPITULO PRIMERO' at
+    1160 to 'CAPITULO OCTAVO' at 12441
+  role: context
+  confidence: provisional
+  note: As the English Morga row.
+  source_file: morga_sucesos-islas-filipinas-spa_rizal1890.txt
+- row_id: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914--historia-de-los-indios-de-la-nueva-espana
+  work: Historia de los indios de la Nueva Espana (written 1536-1541)
+  author: motolinia
+  locus: Epistola proemial from file line 2392; Tratado primero from line 2913, Tratado segundo
+    from line 6549, Tratado tercero from line 8500, chapters headed 'CAPITULO PRIMERO' and
+    so on; the editor's bio-bibliography before line 2392 is not the work
+  role: context
+  confidence: assigned
+  note: 'One of the first twelve Franciscans in Mexico writing the story of the conversion
+    from inside the mission: baptisms, confession, the first Nahua Christians, the destruction
+    of the temples. The mission''s own voice with reported convert speech (for example the
+    Nahua explanation at file line 13383 onward), not a convert''s own text. Primary original-language
+    evidence, quotable once each wording is checked against the page image; the OCR is clean
+    but drops accents. No public-domain English translation is vendored.
+
+    '
+  source_file: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt
+- row_id: pages_histoire-religion-chretienne-japon-annexes-fra_1870--annexes-letters-of-japanese-christians-1598-1651-in-french-translation
+  work: 'Annexes: letters of Japanese Christians and catechists, 1598-1651, in French translation'
+  author: pages
+  locus: 'the numbered annexes headed as letters of Japanese Christians: Yafindgidono Jorge
+    (file line 1495), Naito Findadono Cami Joao (1529), Oumemidono (1556, 1660), Jean Ingoro
+    (3006), Melchior Bougendano (3145), the three Jifiaqua (3205, 3250), Michel Fieoyemon
+    (4145, 4182), Jean Tingoro (4282, 4316), among others'
+  role: tradition
+  confidence: assigned
+  note: 'The nearest thing in the corpus to the Kirishitan converts'' own voice: letters of
+    Japanese Christians under the prohibition, printed by Pages in his own French translation
+    from the Jesuit and mendicant originals. A translated witness, two steps from the Japanese:
+    quote with that disclosed, and prefer the originals when a build can reach them. French
+    OCR legible with letter-level misreads.
+
+    '
+  source_file: pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt
+- row_id: pages_histoire-religion-chretienne-japon-annexes-fra_1870--annexes-missionary-episcopal-papal-and-royal-documents-on-japan-1598-1651
+  work: 'Annexes: missionary, episcopal, papal and royal documents on the church in Japan,
+    1598-1651'
+  author: pages
+  locus: the numbered annexes from file line 214 to the Table analytique at line 25571; most
+    in French translation, some printed in Spanish, Portuguese, Latin or Italian
+  role: context
+  confidence: assigned
+  note: 'The missionary pen''s record of the persecution years: Jesuit, Franciscan, Dominican
+    and Augustinian letters and relations, the bishop of Japan''s letters to the king of Spain,
+    and papal briefs, compiled for the 1867 beatification of the 205 martyrs. Pages''s narrative
+    volume (premiere partie, 1869) is not vendored. The Spanish and Portuguese extracts near
+    the end have noisier OCR than the French.
+
+    '
+  source_file: pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt
+- row_id: paiva-manso_historia-do-congo-documentos-por_1877--historia-do-congo-documentos-the-whole-corpo-diplomatico
+  work: 'Historia do Congo (Documentos): the whole corpo diplomatico of the Kongo mission,
+    1492 to the eighteenth century'
+  author: paiva-manso
+  locus: whole volume; Roman-numbered documents in date order, each under a heading giving
+    nature, parties and date
+  role: context
+  confidence: assigned
+  note: 'The Portuguese crown''s, the popes'' and the missionaries'' side of the Kongo church:
+    royal letters and provisions, papal briefs, inquests, and the letters of the later kings
+    D. Diogo (line 3690 onward) and D. Alvaro II (line 5785 onward). The outside witnesses
+    a build needs beside Afonso''s own letters, in one volume. Documents after 1650 fall outside
+    the world''s window.
+
+    '
+  source_file: paiva-manso_historia-do-congo-documentos-por_1877.txt
+- row_id: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907--collectanea-propaganda-fide-v1-2
+  work: 'Collectanea S. Congregationis de Propaganda Fide, Volume I: decrees and instructions
+    on missions'
+  author: propaganda-fide
+  locus: as above
+  role: context
+  confidence: provisional
+  note: 'Placed on subject: the Congregation''s replies to missionaries and vicars apostolic
+    in Asia and the Americas, 1622 onward, including the 1659 Instruction against forcing
+    European customs on the peoples evangelised. Not read for the specific mission fields
+    of that world.'
+  source_file: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt
+- row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--the-jesuit-china-mission-in-english-trigault-ricci-and-pantoja-chapters-v-viii
+  work: 'The Jesuit China mission in English: Purchas''s 1625 abridgement of Trigault''s De
+    Christiana expeditione (from Ricci) and Pantoja''s letter from Peking of 1602 (Chapters
+    V to VIII)'
+  author: purchas
+  locus: Chap. V from file line 13995 (the Jesuits' entrance into Japan and China), Chap.
+    VI from line 19677 (Pantoja's letter), Chap. VII from line 24742 (Discourse of the Kingdome
+    of China out of Ricius and Trigautius), Chap. VIII from line 29109 (the mission to Ricci's
+    death); Chapters I to IV are Russia, Persia, Mendes Pinto and the Philippines
+  role: context
+  confidence: assigned
+  note: 'The English a build can quote for the China strand''s Jesuit narrative: Purchas''s
+    1625 rendering of Trigault, abridged and with Purchas''s own Protestant asides, beside
+    the Latin already vendored (trigault_de-christiana-expeditione-apud-sinas-lat_1615.txt,
+    itself a second witness). Pantoja''s letter is a missionary''s first-hand account of Peking.
+    Mission voice, not convert voice. Chap. V also covers Xavier in Japan. Clean OCR with
+    marginal notes run into line ends.
+
+    '
+  source_file: purchas_hakluytus-posthumus-pilgrimes-v12_1906.txt
+- row_id: rundall_memorials-of-the-empire-of-japon_1850--memorials-of-the-empire-of-japon-kingdome-of-japonia-and-letters-of-william-adams
+  work: 'Memorials of the Empire of Japon: ''The Kingdome of Japonia'' (Elizabethan description)
+    and the Letters of William Adams, 1611-1617'
+  author: rundall
+  locus: Rundall's Introduction from file line 1317; Part I 'The Kingdome of Japonia' from
+    line 2767; Part II 'Letters of William Adams' from line 3391, letters numbered as printed;
+    the Hakluyt Society report and member list before line 1209 are not the work
+  role: context
+  confidence: assigned
+  note: 'An outside witness in English: the English pilot William Adams writing from Japan
+    in the years the prohibition tightened (1611-1617), and an Elizabethan description of
+    Japan drawn from Jesuit reports. Hostile to the Jesuits and Protestant in sympathy; useful
+    for the Japan strand''s setting and for how the church looked to a trader, not a convert
+    voice. Rundall''s notes quote Charlevoix in French. Clean OCR.
+
+    '
+  source_file: rundall_memorials-of-the-empire-of-japon_1850.txt
 - row_id: trigault_de-christiana-expeditione-apud-sinas-lat_1615--de-christiana-expeditione-apud-sinas-trigault-from-ricci-2
   work: De Christiana expeditione apud Sinas (Trigault, from Ricci)
   author: trigault

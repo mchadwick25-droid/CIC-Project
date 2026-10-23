@@ -1,0 +1,62 @@
+source_file: church-of-england_two-books-of-homilies_griffiths1859.txt
+
+assignments:
+  - row_id: church-of-england_two-books-of-homilies_griffiths1859--the-first-book-of-homilies-1547
+    work: "The First Book of Homilies (1547)"
+    author: church-of-england
+    locus: "from file line 5260 (heading 'A FRUITFUL EXHORTATION' to the reading of Holy Scripture, the first homily) to the Second Book at line 14497; Griffiths' preface and catalogue of editions precede it from about line 760"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The twelve Edwardian homilies, Cranmer's own among them (Salvation, Faith,
+      Good Works), which every non-preaching parish priest was ordered to read on
+      Sundays; what the ordinary parishioner heard from the pulpit. Primary voice,
+      ready to quote once verified against this file; Griffiths' footnotes carry the
+      early editions' variants.
+
+  - row_id: church-of-england_two-books-of-homilies_griffiths1859--the-second-book-of-homilies-1563-1571
+    work: "The Second Book of Homilies (1563/1571), including Against Peril of Idolatry and the Homily against Disobedience and Wilful Rebellion"
+    author: church-of-england
+    locus: "from file line 14497 (heading 'OF THE RIGHT USE OF THE CHURCH', the first homily of the Second Book); 'AGAINST PERIL OF IDOLATRY' at line 17603; 'AGAINST DISOBEDIENCE AND WILFUL REBELLION' at line 41113; index follows"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The Elizabethan homilies, read in parishes for the rest of the window: the
+      long homily against images (the Settlement's own case against the old
+      parish furnishings) and the 1570 homily against rebellion written after the
+      Northern Rising. Primary voice, ready to quote once verified against this
+      file.
+
+  - row_id: church-of-england_two-books-of-homilies_griffiths1859--the-second-book-of-homilies-1563-1571-2
+    work: "The Second Book of Homilies (1563/1571), including Against Peril of Idolatry and the Homily against Disobedience and Wilful Rebellion"
+    author: church-of-england
+    locus: "as above, from file line 14497"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      The read homily was what the godly called "bare reading" against a preaching
+      ministry; the Homilies are the conformist pulpit the Puritan movement defined
+      itself against, and also the text its own preachers were bound to. Placed as
+      the establishment's text the Puritan world argued with; provisional, on
+      window and place.
+
+  - row_id: church-of-england_two-books-of-homilies_griffiths1859--the-two-books-of-homilies-puritanism
+    work: The Two Books of Homilies appointed to be read in Churches
+    author: church-of-england
+    locus: as the VI.4 rows
+    atlas_ids:
+    - puritanism
+    role: context
+    confidence: provisional
+    note: 'The Admonition''s Certaine Articles defend the charge that reading homilies in church is ''as
+      evill as playing on a stage'' (the Manifestoes file, about line 8560); the Homilies are the text the
+      Puritan preaching ministry defined itself against. Context on that basis; the Homilies themselves
+      were not read this pass.
+
+      '

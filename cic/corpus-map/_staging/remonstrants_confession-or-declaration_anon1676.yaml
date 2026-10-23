@@ -1,0 +1,32 @@
+source_file: remonstrants_confession-or-declaration_anon1676.txt
+
+assignments:
+  - row_id: remonstrants_confession-or-declaration_anon1676--the-confession-or-declaration-of-the-remonstrant-ministers
+    work: "The Confession or Declaration of the Remonstrant Ministers, in XXV Chapters, English, 1676 printing (Episcopius, 1621)"
+    author: remonstrants
+    locus: "whole file; contents from line 110; chapter 1 on Scripture from line 4351; chapter 3 on the Holy and Sacred Trinity at line 5165; chapter 25 at line 13837"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: tradition
+    confidence: assigned
+    note: >
+      The confession the Brotherhood published in 1621 (written by Simon Episcopius, per the host
+      catalogue of the Dutch printing and the census), in an English translation by an unnamed
+      hand, printed in London in 1676. It is the Remonstrants' own statement of their faith in
+      twenty-five chapters and the nearest thing to their voice as a church. SECOND WITNESS for
+      exact wording: EEBO microfilm OCR (about 0.87 of tokens read as words at the five sample
+      points) with scattered garble, so locate passages here and verify against the page images
+      before quoting. The Dutch of 1621 and the Latin are leads, not yet in the corpus in a
+      readable scan.
+  - row_id: remonstrants_confession-or-declaration_anon1676--the-confession-or-declaration-of-the-remonstrant-ministers-2
+    work: "The Confession or Declaration of the Remonstrant Ministers, in XXV Chapters, English, 1676 printing (Episcopius, 1621)"
+    author: remonstrants
+    locus: "whole file"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: context
+    confidence: provisional
+    note: >
+      The church of the banished ministers, set up in the Republic beside the Reformed church this
+      world describes, with its own confession. Placed on that relation; the further-reformation
+      world's build decides how much of it to use.

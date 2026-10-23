@@ -1,0 +1,29 @@
+source_file: sebastiani_seconda-speditione-indie-orientali-ita_1672.txt
+assignments:
+- row_id: sebastiani_seconda-speditione-indie-orientali-ita_1672--seconda-speditione-all-indie-orientali-sebastiani-1672
+  work: Seconda speditione all'Indie Orientali (Sebastiani, 1672)
+  author: sebastiani
+  locus: Libro Primo from file line 1620; Libro Secondo (the mission of 1661-1663, the Dutch sieges, the
+    election and consecration of the new bishop) from the 'LIBRO SECONDO' running head after 1620; Libro
+    Terzo from 9086
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: >-
+    A Carmelite bishop's first-person account of the second mission, including the 1663 consecration that
+    fixed the division. Primary for the mission side; hostile to the Archdeacon's party. Italian, no public-domain
+    English found. Second witness for exact wording: OCR rough.
+- row_id: sebastiani_seconda-speditione-indie-orientali-ita_1672--seconda-speditione-all-indie-orientali-sebastiani-1672-2
+  work: Seconda speditione all'Indie Orientali (Sebastiani, 1672)
+  author: sebastiani
+  locus: Libro Primo from file line 1620; Libro Secondo (the mission of 1661-1663, the Dutch sieges, the
+    election and consecration of the new bishop) from the 'LIBRO SECONDO' running head after 1620; Libro
+    Terzo from 9086
+  atlas_ids:
+  - church-of-the-east-schism-of-1552
+  role: context
+  confidence: provisional
+  note: >-
+    Placed on the overland route to Malabar through Aleppo, Nineveh and Baghdad, where the author meets
+    the Chaldean church; not read for that material.

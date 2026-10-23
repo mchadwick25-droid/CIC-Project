@@ -1,0 +1,20 @@
+source_file: wariston_diary-1632-1639_paul1911.txt
+
+assignments:
+  - row_id: wariston_diary-1632-1639_paul1911--diary-of-sir-archibald-johnston-of-wariston-1632-1639
+    work: "Diary of Sir Archibald Johnston of Wariston, 1632-1639 (the 'Memento quamdiu vivas' of 1632-1634 and the diary of 1637-1639)"
+    author: wariston
+    locus: "Paul's Introduction from file line 81; 'WARISTON'S MEMENTO QUAMDIU VIVAS' (the diary for 1632-1634) from 2122; 'DIARY 1637-1639' from 14352 (edition page 247); Glossary at 23010; Index from 23378"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The first-person conscience the census asks for: a young lawyer's
+      night-long prayers and self-examination after his wife's death, then
+      the diary of the man who drafted the National Covenant, kept day by day
+      through the Prayer Book riots, the signing in Greyfriars, and the
+      Glasgow Assembly. Phonetic Scots spelling kept by the editor. Primary
+      voice, ready to quote once checked against the page image; OCR sampled
+      clean. The 1639 diary and the 1650-1654 diary are separate Scottish
+      History Society volumes (1896 and later), verified leads, not vendored.
