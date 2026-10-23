@@ -1,6 +1,6 @@
 # Handoff — daily visitor limits removed, visitor bound, free 3-round rule removed — 2026-10-23
 
-From session: https://claude.ai/code/session_014kMdzhac3pg4njANzhBJ2m · World or workstream: engine/api free allowance · Branch / PR: PRs 1032, 1041, 1044 and 1046, all merged into main
+From session: https://claude.ai/code/session_014kMdzhac3pg4njANzhBJ2m · World or workstream: engine/api free allowance · Branch / PR: PRs 1032, 1041, 1044, 1046, 1049, 1050 and 1055, all merged into main
 
 The thread's scope was Job 1 only. Mark took the accounts research and design (Job 2) out of it on 2026-10-22; the accounts threads own that, and nothing in this thread touched accounts files. Nothing here is on live yet.
 
@@ -12,7 +12,9 @@ The thread's scope was Job 1 only. Mark took the accounts research and design (J
 | PR 1041: privacy page cookie section, Mark's words | `test_go_deeper_pages.py`; CI green |
 | PR 1044: a monthly count of messages that got a safety check and no Representative reply, 100 per visitor and 200 per network (IPv4 address or IPv6 /56), rolling 30 days, kept as scrambled values in the meter's file. Past it a message gets a fixed Facilitator line with the redirect to real people in it and no model call. A code with tokens left is outside the count. A network free-voice window of 5 allowances (2,750 tokens). Pilot and admin grants count $0 toward the door. One privacy sentence for the new counts | Suites off (2176) and on (934); CI green; new tests cover a crisis, an unclear and a failed safety call past the count, the stream path, a Table, a code holder, a spent and a paused code, a network across fresh cookies, an IPv6 home, a fault in the count, the network window and the daily purge; a mutation check; `check_live_commentary.py --enforce` clean |
 | PR 1046: the free 3-round rule is removed. A free conversation is limited by the visitor's tokens and the engine's own caps (`SESSION_TURN_CAP` 10 solo rounds, `TABLE_SESSION_ROUND_CAP` 3, neither lifted). `tokens.free.rounds_per_conversation` is now `example_conversation_rounds`, which limits nothing. Go Deeper page: "Everyone gets 550 free tokens each month. That is about five conversations of three rounds, or two of seven." | Suites off (2186) and on (931); CI green; the page numbers are tested against the operations file |
-| Records | `Pilot_Feedback_Log.md`: "Daily visitor limits removed", "Visitor bound built", "Free 3-round rule removed" |
+| PR 1050: `cryptography` pinned to `>=50.0,<51` in `engine/api/requirements.txt` (CI installed 50.0.2), written like the `anthropic` pin; the stale "DRAFT words" note above the visitor-bound line in `engine/m4/facilitator_turns.py` removed, the words unchanged. Merged by another session after the PR was opened here | api, accounts, deeper and m4 suites (2292 passed); the Docker build that installs the pin passed in CI |
+| PR 1055: a read-only admin cost report. `GET /api/admin/cost-report` behind the admin login, and a dashboard section "What a round and a safety check cost". It reads the usage log (last 30 days) and shows solo voice dollars by round number, warm against cold cache by the pause before the round, the cost of a safety check, the messages with a safety check and no voice reply, and 7 and 30 day totals. Aggregate numbers only, no model call. `UsageLogStore.read_timed_since` is the one store change, and the "dearest approved price" moved into `engine/m8/price_tables.py` so the module-boundary test passes | 16 new tests in `test_cost_report.py`; the dashboard script parses and rendered a real report in a stand-in DOM; suites off (2473) and on (1028) on the merged result; CI green |
+| Records | `Pilot_Feedback_Log.md`: "Daily visitor limits removed", "Visitor bound built", "Free 3-round rule removed" and "Cost report built" |
 
 Words Mark approved, by his own answer in this thread: the Facilitator line past the count; the privacy cookie section (PR 1041) and the privacy sentence for the counts; the Go Deeper page sentence above (his first wording, "between 5 and 10 conversations", was not reachable at the token prices, so he chose the corrected one and dropped the last sentence).
 
@@ -20,30 +22,34 @@ Render: the variables `CIC_API_ANON_DAILY_SESSION_LIMIT` and `CIC_API_ANON_DAILY
 
 ## 2. Not done
 
-- Promotion of main to live. Last checked 2026-10-23: `origin/live` was 3 commits ahead of and 78 behind `origin/main`, so every change above is still unpromoted.
+- Promotion of main to live. Last checked 2026-10-23: `origin/live` (last updated 10-22 at 11:10) was 3 commits ahead of and 104 behind `origin/main`, so every change above is still unpromoted, and the cost report route does not exist on the live engine yet.
+- Reading the cost report: it needs promotion first, then Mark opens it once while logged in to the dashboard.
 - Job 2, the accounts research and design: out of this thread's scope.
 
 ## 3. Re-check before you trust it
 
 - Worst-case dollars. Safety checks cost about $0.30 a visitor and $0.60 a network a month at $0.003 a check. Free voice per network, about 96 rounds, costs about $3.10 a month with a warm prompt cache, about $6.00 if the cache is cold on every round (about $0.06 a round, not measured), about $8.70 at the older $0.088 a turn figure. The only measured long session is `engine/m8/reports/live-memory-growth-report.json` (Sonnet 4.5 prices, one world, voice only, warm cache, ten rounds for $0.292). The live usage log was not readable from this thread, so every live figure is an estimate.
-- Review finding F11 is open: the flat 25 tokens a round from round 4 does not follow what long rounds cost.
+- Every live cost figure here is still an estimate until the cost report has been read on live. Review finding F11 is open: the flat 25 tokens a round from round 4 does not follow what long rounds cost.
 - A distributed attacker across many networks is not bounded by any per-network figure. The door and the AWS limit are the backstop, and the AWS limit is unconfirmed.
 - Clearing the cookie gives a fresh visitor allowance. The network window and the burst limits now hold that back; the daily count used to.
 - Old audits and the Go Deeper turn-on runbook still describe the daily counts as history; not edited.
 - `pilot grant` and `admin grant` stay in the meter's note list, now written by nothing, so past records still read correctly.
 - The bound is kept in the meter file on one instance; a restart does not clear it.
+- Cloudflare's "Workers Builds" check shows failure with "Deployment skipped" on PRs that change no `cic-website` file (seen on 1050 and 1055, not on 1047). It gates nothing and was explained on both PRs; I could not re-run a Cloudflare build from here.
+- The cost report's per-round tables cover interview (solo) sessions only; Tables are in the totals. The pause is measured between the ends of voice calls, so it includes the model's own time. A message is rebuilt as every call from one safety check to the next, because the usage log does not record which message a call belongs to.
 
 ## 4. Waiting on Mark
 
 - Promote main to live through `Build/Ministry/Operations/Standing/CiC_Promotion_Runbook.md`. The privacy page, the Go Deeper page and the engine changes must go together.
 - Check the AWS Budget: does it stop spending or only send an alert?
 - Tell the system and pilot feedback thread whether the 2026-10-17 door switch and the $12 weekly base were intended (no decision-record entry exists for either).
+- After promotion, open the cost report once and report the numbers; then the PR 1046 cost note is updated and Mark is told whether the flat 25 tokens from round 4 under-prices real rounds (finding F11).
 - Raise the $12 base later if busy pilot weeks pause free and pilot voice; pilot grants no longer raise it.
 - The system and pilot feedback thread's last message asked for an earlier page sentence ("You get a free allowance of tokens each month, and each round uses some of them."). Mark's own answer in this thread chose the sentence above, and PR 1046 shipped it. If he wants the earlier one, he says so and it is a one-line swap.
 
 ## 5. Next step
 
-Mark promotes main to live. After promotion, someone with live access reads the usage log to replace the estimated cost per free round with a measured one.
+Mark promotes main to live. After promotion Mark opens the cost report in the admin dashboard and reports the numbers; this thread then replaces the estimated cost per free round with the measured one in the cost note on PR 1046 and the pilot feedback log.
 
 ## 6. Spend
 
