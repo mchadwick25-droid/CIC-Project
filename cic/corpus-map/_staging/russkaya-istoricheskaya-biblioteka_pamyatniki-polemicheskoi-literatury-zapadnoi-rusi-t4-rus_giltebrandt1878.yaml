@@ -118,37 +118,3 @@ assignments:
     a refugee in Lithuania (editors' preface). Placed on the Russian Church entry's window; the attribution
     is the editors' own hedge, and the epistles were written in Lithuania, so a build thread may prefer
     to rule it context.
-
-- note_for_lead: Proposed Brest rows for the Kyiv-Mohyla agent's existing volume. The pass did not edit
-    it. Authors named per that file's own header (Krevza, Filippovich). Rows read from that file's header
-    and contents only, not from the text.
-  proposed:
-  - work: Lev Krevza, Oborona uni (Defence of the union, Vilnius, 1617)
-    author: krevza
-    locus: item 4 of the volume's table as listed in its header, to column 312
-    atlas_ids:
-    - the-union-of-brest-and-ruthenian-greek-catholic-
-    role: tradition
-    confidence: provisional
-    note: A Uniate archimandrite's defence of the union, 1617, in the volume's own contents list. Placed
-      on the header's contents, not on a reading; Cyrillic OCR with errors.
-  - work: Afanasii Filippovich, Diarius (Martyros), the Brest hegumen, 1646
-    author: filippovich
-    locus: item 3 of the volume, columns 49-156 per its header
-    atlas_ids:
-    - the-union-of-brest-and-ruthenian-greek-catholic-
-    role: context
-    confidence: provisional
-    note: The Orthodox hegumen of Brest's account of the struggle in the town where the union was made.
-      Placed on the header's contents, not on a reading.
-  - work: Acts of the Kyiv council of 1640 (Vassian's account)
-    author: russkaya-istoricheskaya-biblioteka
-    locus: item 2 of the volume per its header
-    atlas_ids:
-    - the-union-of-brest-and-ruthenian-greek-catholic-
-    role: context
-    confidence: provisional
-    note: The Orthodox council that approved Mohyla's confession; an answer to the union. Placed on the
-      header, not on a reading.
-  row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--
-  author: kopystenskij

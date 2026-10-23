@@ -112,3 +112,17 @@ assignments:
       text itself was not checked for the union. Suggest leaving it provisional.
     row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--
     author: gennadius-scholarius
+
+  - work: 'Monumenta fidei ecclesiae orientalis (Kimmel 1850): the Greek and Latin confessions, with the
+      Constantinople synod notes on Cyril Lucaris'
+    author: lucaris
+    locus: 'Lucaris section: Moscow named at file lines 2648 and 2781 (a metropolitan carrying letters to
+      Moscow; three delegates from Moscow to the synod at Constantinople)'
+    atlas_ids:
+    - russian-church-stoglav-to-nikon
+    role: context
+    confidence: provisional
+    note: Same time, different region. The passages name Moscow in the Constantinople church quarrels of
+      the 1630s; two short passages read, the rest of the volume not read for this entry. Check the author
+      slug against the existing staging file for this volume before adding.
+    row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--monumenta-fidei-ecclesiae-orientalis-kimmel-1850-the-greek-a

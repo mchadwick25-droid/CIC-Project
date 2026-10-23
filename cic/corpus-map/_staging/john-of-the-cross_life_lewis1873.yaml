@@ -1,0 +1,29 @@
+source_file: john-of-the-cross_life_lewis1873.txt
+assignments:
+- row_id: john-of-the-cross_life_lewis1873--life-john
+  work: The Life of Saint John of the Cross, compiled from the Life by Fra Joseph of Jesus and Mary, Burns
+    and Oates 1873
+  author: john-of-the-cross
+  locus: whole file; chapter I at line 179; the imprisonment in the chapters from line 268; publisher's
+    catalogue from about line 13495
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: context
+  confidence: assigned
+  note: A Carmelite hagiography of John and of the reform, compiled in English in 1873 from a Life written
+    by a friar who entered the order three years after John's death. The only text in the library that
+    tells the Toledo imprisonment and the quarrel with the mitigated friars from the Discalced side, but
+    it is not a first-person text and not the reform's voice of the period. Role context, not tradition;
+    the compiler is unnamed on the title page. Ready to quote only with that framing.
+- row_id: john-of-the-cross_life_lewis1873--life-john-carmelites
+  work: The Life of Saint John of the Cross, the opening chapter on the Order of Our Lady of Mount Carmel
+    and the Mitigated Rule
+  author: john-of-the-cross
+  locus: the contents of chapter I (line 188) and the chapter itself
+  atlas_ids:
+  - the-carmelites
+  role: context
+  confidence: provisional
+  note: Chapter I runs through the order from Mount Carmel and St Simon Stock to the mitigated Rule, from
+    a seventeenth-century Carmelite's point of view. The Carmelites entry covers c. 1206-1300; this is
+    a later Carmelite reading of it. Placed on the contents table only, so provisional.

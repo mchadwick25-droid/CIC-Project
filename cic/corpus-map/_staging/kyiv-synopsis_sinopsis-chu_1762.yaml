@@ -1,0 +1,29 @@
+source_file: kyiv-synopsis_sinopsis-chu_1762.txt
+assignments:
+- row_id: kyiv-synopsis_sinopsis-chu_1762--sinopsis-ili-kratkoe-opisanie-ot-razlichnykh-letopistsev-the
+  work: Sinopsis, ili kratkoe opisanie ot razlichnykh letopistsev (the Kyiv Synopsis), St Petersburg printing
+    of 1762
+  author: kyiv-synopsis
+  locus: title page and dedication at the head of the file; the history from about file line 10 onward
+    ('O nachale drevniago slavenskago naroda'); the printers' note to the reader at about line 9578
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: assigned
+  note: The short history of the Slavs and the Kyivan princes that the Kyiv Caves circle printed, in a
+    St Petersburg reprint; the host attributes it to Innokentii Gizel, which is the traditional attribution
+    and is not settled by the title page. Church Slavonic, readable with scattered errors; title page
+    and headings garbled. Second witness for quotation. It is the circle's own statement of its past,
+    not a doctrinal text.
+- row_id: kyiv-synopsis_sinopsis-chu_1762--sinopsis-ili-kratkoe-opisanie-ot-razlichnykh-letopistsev-the-2
+  work: Sinopsis, ili kratkoe opisanie ot razlichnykh letopistsev (the Kyiv Synopsis), St Petersburg printing
+    of 1762
+  author: kyiv-synopsis
+  locus: same as the Kyiv row
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: context
+  confidence: provisional
+  note: A Kyiv history that the Russian state reprinted at St Petersburg in 1762, so evidence of the Kyivan
+    revival's reach into Russian church and state history after 1652. Placed on that reprint, not on a
+    reading of the text for the Nikon controversy.

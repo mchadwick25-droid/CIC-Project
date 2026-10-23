@@ -40,3 +40,14 @@ assignments:
       Placed on the Table of contents alone; the chapter was not read for this entry. A
       Philippine world agent should confirm what the friar's account covers before it is
       cited.
+
+  - work: 'Hakluytus Posthumus, or Purchas His Pilgrimes, Vol. XII: Jenkinson in Russia'
+    author: purchas
+    locus: 'Muscovy Company and Jenkinson''s passage through Muscovy, 1557-58: file lines 3349-3535'
+    atlas_ids:
+    - russian-church-stoglav-to-nikon
+    role: context
+    confidence: provisional
+    note: Same time-place, outside witness. English merchant voice on Muscovy in the 1550s; placed on window
+      and place, not read for church content. Check the author slug and existing rows for this volume first.
+    row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--hakluytus-posthumus-or-purchas-his-pilgrimes-vol-xii-jenkins

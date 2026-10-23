@@ -8446,3 +8446,214 @@ queue:
       title page and five-point OCR sample read (black-letter OCR badly garbled).'
     status: downloaded
     vendored_as: smotrycki_apologia-peregrinatiey-pol_1628.txt
+
+  - title: Stoglav (Hundred Chapters), with preface and appendices
+    author: Moscow council of 1551
+    translator: none (Russian original)
+    year: '1863'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: The council's own text; the world's central document.
+    url: https://archive.org/details/stoglav32
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched, 1863 title page and
+      five-point OCR sample read'
+    status: downloaded
+    vendored_as: stoglav_stoglav-chu_kozhanchikov1863.txt
+  - title: Le Stoglav ou les Cent Chapitres
+    author: Moscow council of 1551
+    translator: E. Duchesne
+    year: '1920'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: The one Western-language translation of the Stoglav.
+    url: https://archive.org/details/StoglavTraductionFrancaise
+    rights_basis: 'pd-us-by-date (host: Public Domain Mark 1.0)'
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched, 1920 title page and
+      five-point OCR sample read'
+    status: downloaded
+    vendored_as: stoglav_stoglav-fra_duchesne1920.txt
+  - title: Domostroi, po rukopisiam Imperatorskoi publichnoi biblioteki
+    author: Domostroi (Sylvester redaction)
+    translator: none (Russian original)
+    year: '1867'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: Lay-facing household and devotional discipline of the sixteenth-century church.
+    url: https://archive.org/details/domostroporukop00biblgoog
+    rights_basis: pd-us-by-date (host NOT_IN_COPYRIGHT)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched, five-point OCR sample
+      read'
+    status: downloaded
+    vendored_as: domostroi_domostroi-rus_yakovlev1867.txt
+  - title: Russia at the Close of the Sixteenth Century (Fletcher, Of the Russe Common Wealth; Horsey, Travels)
+    author: Giles Fletcher the Elder; Jerome Horsey
+    translator: ed. Edward A. Bond
+    year: '1856'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: The hostile outside witness on the Russian church, 1591.
+    url: https://archive.org/details/russiaatcloseofs20bond
+    rights_basis: pd-us-by-date (host NOT_IN_COPYRIGHT)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched, five-point OCR sample
+      read, church chapters located'
+    status: downloaded
+    vendored_as: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856.txt
+  - title: Notes upon Russia, Vol. I (Herberstein, Rerum Moscoviticarum Commentarii)
+    author: Sigmund von Herberstein
+    translator: R. H. Major
+    year: '1851'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: Earliest Western account of Muscovy and its church.
+    url: https://archive.org/details/notesuponrussiab01herbuoft
+    rights_basis: pd-us-by-date (host NOT_IN_COPYRIGHT)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched, five-point OCR sample
+      read, church passages located'
+    status: downloaded
+    vendored_as: herberstein_notes-upon-russia-v1_major1851.txt
+  - title: The Voyages and Travels of the Ambassadors ... to the Great Duke of Muscovy and the King of Persia
+    author: Adam Olearius
+    translator: John Davies of Kidwelly
+    year: '1662'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: Eyewitness outside account of the church in the 1630s.
+    url: https://archive.org/details/voyagestravelsolearius
+    rights_basis: pd-us-by-date (host licence Public Domain Mark 1.0)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched, five-point OCR sample
+      read (long s read as f)'
+    status: downloaded
+    vendored_as: olearius_voyages-and-travels-of-the-ambassadors_davies1662.txt
+    vendored_note: second witness for exact wording because of the long-s OCR
+  - title: Akty arkheograficheskoi ekspeditsii, vol. 2 (1598-1615)
+    author: Imperial Academy of Sciences, Archaeographic Expedition
+    translator: none (Russian documents)
+    year: '1836'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: Hermogenes and the Time of Troubles in documents.
+    url: https://archive.org/details/Legal_Acts_from_Libraries_and_Archives_of_Russian_Empire_Vol_2
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched, five-point OCR sample
+      read, Hermogenes passages located'
+    status: downloaded
+    vendored_as: akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836.txt
+  - title: Stoglav (Kazan 1862 print)
+    author: Moscow council of 1551
+    translator: none
+    year: '1862'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: A second edition of the council text, with variant-reading notes; not vendored because the 1863
+      print is the primary witness.
+    url: https://archive.org/details/stoglav00unkngoog
+    rights_basis: pd-us-by-date (host NOT_IN_COPYRIGHT)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched and five-point OCR
+      sample read; text mixed with Google boilerplate'
+    status: not-yet-downloaded
+  - title: Stoglav (Kazan manuscript no. 932 edition)
+    author: Moscow council of 1551
+    translator: none
+    year: '1887'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: A third print of the council text, based on the Kazan Academy manuscript, with variants; not vendored
+      this pass.
+    url: https://archive.org/details/stoglav00ofgoog
+    rights_basis: pd-us-by-date (host NOT_IN_COPYRIGHT)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched only (OCR not sampled)'
+    status: not-yet-downloaded
+  - title: Domostroi (Golokhvastov 1849; Sylvester redaction with commentary, Glazunov 1902; Orlov, Konshin
+      copy, 1908-10)
+    author: Domostroi
+    translator: none
+    year: 1849 / 1902 / 1908-1910
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: Other editions and redactions of the Domostroi; not vendored because Yakovlev 1867 gives variants
+      of several manuscripts.
+    url: https://archive.org/details/domostrojblagoveschenskogopopasilvestra93 ; https://archive.org/details/domostrosilvest00silgoog
+      ; https://archive.org/details/domostrojpokonshinskomuspiskuipodobnym76
+    rights_basis: pd-us-by-date (1849, 1902, 1908-10 imprints per host dates; Glazunov NOT_IN_COPYRIGHT)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched only'
+    status: not-yet-downloaded
+  - title: Notes upon Russia, Vol. II (Herberstein; later English accounts)
+    author: Sigmund von Herberstein
+    translator: R. H. Major
+    year: '1852'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: Vol. II carries the rest of the Hakluyt set; religion is in Vol. I, so Vol. II is not vendored.
+    url: https://archive.org/details/notesuponrussiab02herbuoft
+    rights_basis: pd-us-by-date (host NOT_IN_COPYRIGHT)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched and five-point OCR
+      sample read'
+    status: not-yet-downloaded
+  - title: The Travels of Macarius, Patriarch of Antioch (Paul of Aleppo), Vol. II
+    author: Paul of Aleppo
+    translator: F. C. Belfour
+    year: '1836'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: 'Eyewitness account of Muscovy and Patriarch Nikon in 1654-56: just after the window; record for
+      the Nikon-to-Holy-Synod world (VII.21). Vol. I is travelsmacarius01pauluoft.'
+    url: https://archive.org/details/travelsmacarius02pauluoft
+    rights_basis: pd-us-by-date (host NOT_IN_COPYRIGHT)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched only'
+    status: not-yet-downloaded
+  - title: Perepiska kniazia A. M. Kurbskogo s tsarem Ioannom Groznym
+    author: Andrei Kurbsky; Ivan IV
+    translator: none (Russian)
+    year: '1914'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: The correspondence; authorship and date contested (Keenan). Not vendored this pass; a lead if the
+      build wants the church-and-tsar quarrel in Ivan's own voice.
+    url: https://archive.org/details/perepiskaknjazjaamkurbskogostsaremioan95
+    rights_basis: pd-us-by-date (1914 title page read; no rights field)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched, title page and five-point
+      OCR sample read (Greek and Latin passages garbled)'
+    status: not-yet-downloaded
+  - title: Skazaniia kniazia Kurbskogo
+    author: Andrei Kurbsky
+    translator: N. G. Ustrialov
+    year: '1842'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: Kurbsky's History of Ivan and letters; not vendored.
+    url: https://archive.org/details/skazanijaknjazjakurbskogo97
+    rights_basis: pd-us-by-date (1842)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched only'
+    status: not-yet-downloaded
+  - title: Sochineniia prepodobnogo Maksima Greka, Kazan Academy, part 2 (1860) and part 3 (1862)
+    author: Maxim the Greek
+    translator: Kazan Spiritual Academy
+    year: 1860 / 1862
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: Maxim the Greek's own works; not vendored because part 2 reads as a weak second witness and part
+      1 was not found on the host.
+    url: https://archive.org/details/sochinenijaprepodobnogomaksimagrekaizda80 ; https://archive.org/details/sochinenijaprepodobnogomaksimagrekaizda42
+    rights_basis: pd-us-by-date (1860, 1862)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched and five-point OCR
+      sample of part 2 read: garbled at three of five points'
+    status: not-yet-downloaded
+  - title: Akty arkheograficheskoi ekspeditsii, vol. 1
+    author: Imperial Academy of Sciences, Archaeographic Expedition
+    translator: none
+    year: '1836'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: Where the 1589 patriarchate documents would sit, if the volume covers them; not checked; not vendored.
+    url: https://archive.org/details/akty0arx
+    rights_basis: pd-us-by-date (1836)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched and the title page
+      OCR read (garbled); date range of this volume not read from the OCR'
+    status: not-yet-downloaded
+  - title: Sobornoe Ulozhenie tsaria Alekseia Mikhailovicha 1649 (State Typography reprint, 1913)
+    author: Tsar Alexis and the Zemsky Sobor
+    translator: none
+    year: '1913'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: The church chapter of the 1649 code; not vendored this pass.
+    url: https://archive.org/details/ulozheniegosudarjatsarjaivelikogoknjazja71
+    rights_basis: pd-us-by-date (1913)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched and head of the OCR
+      read (Russian; the preface mentions the 1649 code)'
+    status: not-yet-downloaded
+  - title: Novyi letopisets (Prince Obolensky's copy)
+    author: anon.
+    translator: none
+    year: '1853'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: Chronicle of the Time of Troubles and the early reign of Michael; not vendored this pass.
+    url: https://archive.org/details/novyjletopisetssostavlennyjvtsarstvovan24
+    rights_basis: pd-us-by-date (1853)
+    verified_by: 'Era VII VI.23 world agent, 2026-10-16: archive.org metadata fetched and head of the OCR
+      read'
+    status: not-yet-downloaded

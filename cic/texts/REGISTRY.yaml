@@ -9894,3 +9894,111 @@
     Kraiow Wschodnych, Meletij Smotryc''kyj, Drukarnia Jana Szeligi, 1628; digital text from Internet
     Archive item jbc.bj.uj.edu.pl.NDIGSTDR013215 (Jagiellonian Digital Library)" ; republish - whole text,
     public domain by date.'
+- filename: stoglav_stoglav-chu_kozhanchikov1863.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, VI.23 world agent)
+  date_added: '2026-10-16'
+  notes: 'The Stoglav (Hundred Chapters), the Moscow church council of 1551, in Russian (Church Slavonic,
+    Russian recension) with an editor''s preface and appendices (Saint Petersburg: Imperial Academy of
+    Sciences, for D. E. Kozhanchikov, 1863). Preface from file line 96, council text from line 889, appendices
+    from line 9188. RIGHTS: public domain by date (1863 imprint read in the scan); the Internet Archive
+    item carries no rights field. Fetched directly (curl, raw bytes) from Internet Archive item stoglav32,
+    the item''s own _djvu.txt; nothing altered. OCR readable, yat misread, chapter numerals garbled. French
+    translation beside it: stoglav_stoglav-fra_duchesne1920.txt; no public-domain English found. READER:
+    sections - ''ПРЕДИСЛОВIЕ'' (preface) then the council''s text with chapters headed ''ГЛАВА'' (numerals
+    garbled in the OCR), then ''ПРИЛОЖЕНIЯ'' (appendices); credit - "Стоглав, Saint Petersburg: Imperial
+    Academy of Sciences, for D. E. Kozhanchikov, 1863; digital text from Internet Archive item stoglav32
+    (Russian online libraries collection)" ; republish - whole text, public domain by date.'
+- filename: stoglav_stoglav-fra_duchesne1920.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, VI.23 world agent)
+  date_added: '2026-10-16'
+  notes: 'Le Stoglav ou les Cent Chapitres: recueil des decisions de l''assemblee ecclesiastique de Moscou,
+    1551, translated with introduction and commentary by E. Duchesne (Paris: Honore Champion, 1920; Bibliotheque
+    de l''Institut francais de Petrograd, tome V). Introduction from file line 91, appendix 1509, the
+    chapters in translation from 2071, tables from 17271. RIGHTS: public domain by date (1920 imprint
+    read in the scan); Internet Archive licence URL Public Domain Mark 1.0. Fetched directly (curl, raw
+    bytes) from Internet Archive item StoglavTraductionFrancaise, the item''s own _djvu.txt (file Stoglav_djvu.txt);
+    nothing altered. OCR clean French with scattered letter errors. The only Western-language translation
+    of the council text in the corpus. READER: sections - ''INTRODUCTION'', ''APPENDICE'', then ''CHAPITRE
+    PREMIER'' and the chapters as printed, running heads kept, then ''TABLE DES MATIERES'' ; credit -
+    "Le Stoglav ou les Cent Chapitres, trans. E. Duchesne, Paris: Honore Champion, 1920; digital text
+    from Internet Archive item StoglavTraductionFrancaise" ; republish - whole text, public domain by
+    date.'
+- filename: domostroi_domostroi-rus_yakovlev1867.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, VI.23 world agent)
+  date_added: '2026-10-16'
+  notes: 'Domostroi from the manuscripts of the Imperial Public Library, ed. V. Yakovlev (Saint Petersburg:
+    Imperial Academy of Sciences, for D. E. Kozhanchikov, 1867): the household and devotional discipline
+    manual of the sixteenth-century Russian church, base text the Pogodin manuscript no. 1627 with variant
+    readings from other manuscripts in footnotes. The text ends at file line 8776, followed by an index.
+    RIGHTS: public domain by date (1867 imprint read in the scan); archive.org possible-copyright-status
+    NOT_IN_COPYRIGHT. Fetched directly (curl, raw bytes) from Internet Archive item domostroporukop00biblgoog
+    (Google Books scan, Harvard University), the item''s own _djvu.txt; nothing altered, the Google and
+    Harvard boilerplate is left as found. No public-domain English translation found (the 1994 English
+    is in copyright). READER: sections - editor''s introduction, then the Domostroi chapters as printed
+    with variant readings in footnotes, ending ''КОНЕЦЪ ТЪМЪ ГЛАВАМЪ И ДОМОСТРОЙЦУ'', then ''УКАЗАТЕЛЬ''
+    (index); credit - "Домострой по рукописям Императорской Публичной Библиотеки, ed. V. Yakovlev, Saint
+    Petersburg: Imperial Academy of Sciences, for D. E. Kozhanchikov, 1867; digital text from Internet
+    Archive item domostroporukop00biblgoog (contributor Harvard University)" ; republish - whole text,
+    public domain by date.'
+- filename: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, VI.23 world agent)
+  date_added: '2026-10-16'
+  notes: 'Russia at the Close of the Sixteenth Century, comprising Giles Fletcher''s treatise ''Of the
+    Russe Common Wealth'' (London 1591) and the Travels of Sir Jerome Horsey, ed. Edward A. Bond (London:
+    Hakluyt Society, no. 20, 1856). Fletcher''s treatise from file line 5618; the church chapters XXI
+    to XXIII at lines 10036, 10817 and 11099; Horsey''s Travels from line 12334. RIGHTS: public domain
+    by date (1856); archive.org possible-copyright-status NOT_IN_COPYRIGHT. Fetched directly (curl, raw
+    bytes) from Internet Archive item russiaatcloseofs20bond (contributor University of Pittsburgh Library
+    System), the item''s own _djvu.txt; nothing altered. Clean OCR, Jacobean English. READER: sections
+    - ''CHAP. I.'' to ''CHAP. XXVIII.'' of the treatise with chapter titles as printed, then Horsey''s
+    Travels; running heads kept (''THEIR ECCLESIASTICALL STATE'') ; credit - "Russia at the Close of the
+    Sixteenth Century, ed. Edward A. Bond, London: Hakluyt Society, 1856; digital text from Internet Archive
+    item russiaatcloseofs20bond (contributor University of Pittsburgh Library System)" ; republish - whole
+    text, public domain by date.'
+- filename: herberstein_notes-upon-russia-v1_major1851.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, VI.23 world agent)
+  date_added: '2026-10-16'
+  notes: 'Notes upon Russia, being a translation of the earliest account of that country, entitled Rerum
+    Moscoviticarum Commentarii, by Sigmund von Herberstein, translated and edited by R. H. Major, Vol.
+    I (London: Hakluyt Society, 1851). Major''s introduction from file line 1241; the passages on the
+    Metropolitan, the canons and the baptism bull at lines 9800, 10334 and 10688; the volume ends at line
+    12437. Vol. II (archive.org notesuponrussiab02herbuoft) is not vendored. RIGHTS: public domain by
+    date (1851); archive.org possible-copyright-status NOT_IN_COPYRIGHT. Fetched directly (curl, raw bytes)
+    from Internet Archive item notesuponrussiab01herbuoft (contributor Robarts - University of Toronto),
+    the item''s own _djvu.txt; nothing altered. Clean English OCR. READER: sections - ''INTRODUCTION''
+    then Herberstein''s text with headings as printed, running heads (''NOTES UPON RUSSIA'') kept, ending
+    ''END OF THE FIRST VOLUME'' ; credit - "Notes upon Russia by Sigmund von Herberstein, trans. R. H.
+    Major, Vol. I, London: Hakluyt Society, 1851; digital text from Internet Archive item notesuponrussiab01herbuoft
+    (contributor Robarts - University of Toronto)" ; republish - whole text, public domain by date.'
+- filename: olearius_voyages-and-travels-of-the-ambassadors_davies1662.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, VI.23 world agent)
+  date_added: '2026-10-16'
+  notes: 'The Voyages and Travels of the Ambassadors sent by Frederick Duke of Holstein to the Great Duke
+    of Muscovy and the King of Persia (1633-1639), by Adam Olearius, rendered into English by John Davies
+    of Kidwelly, with the Travels of Mandelslo (London: Thomas Dring and John Starkey, 1662). The Third
+    Book (Muscovy) opens at file line 7362; church usage, clerical orders and the Patriarch''s rules at
+    about lines 13440-13600. RIGHTS: public domain by date (printed 1662); Internet Archive licence URL
+    Public Domain Mark 1.0; no copyright-status field. Fetched directly (curl, raw bytes) from Internet
+    Archive item voyagestravelsolearius, the item''s own _djvu.txt; nothing altered. The OCR reads the
+    printed long s as f and carries heavy margin noise: a second witness for exact wording until a cleaner
+    scan is found. READER: sections - seven books of the Embassy and three of Mandelslo, ''The Third Book''
+    and so on as printed, with a table of contents in the front matter; credit - "The Voyages and Travels
+    of the Ambassadors (Olearius), rendered into English by John Davies, London: Thomas Dring and John
+    Starkey, 1662; digital text from Internet Archive item voyagestravelsolearius" ; republish - whole
+    text, public domain by date.'
+- filename: akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, VI.23 world agent)
+  date_added: '2026-10-16'
+  notes: 'Akty, sobrannye v bibliotekakh i arkhivakh Rossiiskoi imperii Arkheograficheskoiu ekspeditsieiu
+    Imperatorskoi Akademii Nauk, vol. 2, documents of the Time of Troubles, 1598-1615 per the host title
+    (Saint Petersburg, 1836). Patriarch Hermogenes is named at file lines 17163, 30969 and 31011, among
+    others. RIGHTS: public domain by date (1836 imprint; the title-page OCR reads ''1 8 ^^ 6'' and the
+    host catalogue gives 1836); the Internet Archive item carries no rights field. Fetched directly (curl,
+    raw bytes) from Internet Archive item Legal_Acts_from_Libraries_and_Archives_of_Russian_Empire_Vol_2,
+    the item''s own _djvu.txt (akty_sobrannye_v_bibliotekakh_i_arkhivakh_rossijskoj_imperii_t_2_djvu.txt);
+    nothing altered. Good OCR in the old orthography. No public-domain English translation of these acts
+    found. READER: sections - documents numbered and headed as printed, each with a short editorial heading;
+    page numbers only in the OCR ; credit - "Akty, sobrannye v bibliotekakh i arkhivakh Rossiiskoi imperii
+    Arkheograficheskoiu ekspeditsieiu Imperatorskoi Akademii Nauk, vol. 2, Saint Petersburg, 1836; digital
+    text from Internet Archive item Legal_Acts_from_Libraries_and_Archives_of_Russian_Empire_Vol_2" ;
+    republish - whole text, public domain by date.'

@@ -1,0 +1,61 @@
+source_file: teresa-of-avila_book-of-foundations_mason1909.txt
+assignments:
+- row_id: teresa-of-avila_book-of-foundations_mason1909--foundations
+  work: The Book of the Foundations (Libro de las fundaciones), translated by Sister Agnes Mason, 1909
+  author: teresa-of-avila
+  locus: whole file; prologue at line 596; first foundation chapter at line 739; the dealings with the
+    Bishop of Avila, Don Alvaro de Mendoza, around lines 999 and 4754; Seville (61 hits) and Burgos (60
+    hits)
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: tradition
+  confidence: assigned
+  note: Teresa's own narrative of the reform's spread, house by house, from Valladolid and Medina del
+    Campo to Burgos, with the quarrels with provincials of the mitigated Rule and her dealings with Father
+    Gracian. The nearest thing in the corpus to a chronicle of the reform by its founder. Primary first-person
+    voice in English; ready to quote once each quote is verified against the page image.
+- row_id: teresa-of-avila_book-of-foundations_mason1909--foundations-tridentine
+  work: The Book of the Foundations, the chapters naming the Council of Trent and the bishops who enforced
+    enclosure
+  author: teresa-of-avila
+  locus: passages naming the Council of Trent (6 hits), Trent (10) and Pius V (5)
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: The founder reports the Tridentine decrees on enclosure and the Pope's own commissioners visiting
+    her houses. Placed on word counts, so provisional; a build decides whether this is the Tridentine
+    Church's own voice or context for it.
+- row_id: teresa-of-avila_book-of-foundations_mason1909--foundations-jesuits
+  work: The Book of the Foundations, the passages on the Jesuits who helped found houses
+  author: teresa-of-avila
+  locus: passages naming the Jesuits (11 hits)
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: Jesuit fathers appear as helpers and counsellors in the foundation stories. Placed on word counts
+    only.
+- row_id: teresa-of-avila_book-of-foundations_mason1909--foundations-carmelites
+  work: The Book of the Foundations, the passages on the mitigated Rule, the Calced provincials and Mount
+    Carmel
+  author: teresa-of-avila
+  locus: the dealings with the Fathers General and provincials of the mitigated Rule through the file
+  atlas_ids:
+  - the-carmelites
+  role: context
+  confidence: provisional
+  note: The reform seen from its founder, in conflict with the order's mitigated branch. The Carmelites
+    entry covers c. 1206-1300, so this is sixteenth-century reception. Placed without reading through,
+    so provisional.
+- row_id: teresa-of-avila_book-of-foundations_mason1909--foundations-colonial
+  work: The Book of the Foundations, the passages on the Indies and Peru
+  author: teresa-of-avila
+  locus: passages naming the Indies (3 hits) and Peru (2)
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: context
+  confidence: needs-ruling
+  note: Teresa's brother Lorenzo returned from Peru and funded a foundation, so the Indies appear at the
+    edge of the reform. A few lines only, outside this entry's window of c. 1600-1810; needs a ruling
+    on whether it belongs at all.

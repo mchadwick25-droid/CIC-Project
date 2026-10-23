@@ -28,6 +28,18 @@ works:
     entry's window; the attribution is the editors' own hedge, and the epistles were written
     in Lithuania, so a build thread may prefer to rule it context.
   source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+- row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-2
+  work: The Life of the Archpriest Avvakum by Himself
+  author: avvakum
+  locus: D. S. Mirsky's preface from file line 86 (Muscovy as the Third Rome, the church before
+    Nikon, the circle of Vonifatiev and Neronov at lines 170-220); the Life itself narrates
+    Avvakum's career before and after 1652
+  role: context
+  confidence: provisional
+  note: Same time-place. The preface (read) sets out the Third Rome idea and the pre-Nikon
+    reform circle; the Life's early chapters (his priesthood in the 1620s to 1650s) were not
+    read for this entry. Existing row in the-old-believers is unchanged.
+  source_file: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt
 - row_id: domostroi_domostroi-rus_yakovlev1867--domostroi-household-and-devotional-discipline-manual-from
   work: Domostroi (household and devotional discipline manual), from the manuscripts of the
     Imperial Public Library (Yakovlev 1867)
@@ -72,6 +84,19 @@ works:
     third of the volume. Clean English, rougher in the Latin and German passages of the introduction.
     Volume II is not vendored.
   source_file: herberstein_notes-upon-russia-v1_major1851.txt
+- row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--monumenta-fidei-ecclesiae-orientalis-kimmel-1850-the-greek-a
+  work: 'Monumenta fidei ecclesiae orientalis (Kimmel 1850): the Greek and Latin confessions,
+    with the Constantinople synod notes on Cyril Lucaris'
+  author: lucaris
+  locus: 'Lucaris section: Moscow named at file lines 2648 and 2781 (a metropolitan carrying
+    letters to Moscow; three delegates from Moscow to the synod at Constantinople)'
+  role: context
+  confidence: provisional
+  note: Same time, different region. The passages name Moscow in the Constantinople church
+    quarrels of the 1630s; two short passages read, the rest of the volume not read for this
+    entry. Check the author slug against the existing staging file for this volume before
+    adding.
+  source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
 - row_id: olearius_voyages-and-travels-of-the-ambassadors_davies1662--the-voyages-and-travels-of-the-ambassadors-from-the-duke-of
   work: The Voyages and Travels of the Ambassadors from the Duke of Holstein to Muscovy and
     Persia (Olearius, John Davies's English, 1662)
@@ -87,6 +112,16 @@ works:
     exact wording until a cleaner scan is found. Persia and Mandelslo''s East Indies in the
     same file are outside this world.'
   source_file: olearius_voyages-and-travels-of-the-ambassadors_davies1662.txt
+- row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--hakluytus-posthumus-or-purchas-his-pilgrimes-vol-xii-jenkins
+  work: 'Hakluytus Posthumus, or Purchas His Pilgrimes, Vol. XII: Jenkinson in Russia'
+  author: purchas
+  locus: 'Muscovy Company and Jenkinson''s passage through Muscovy, 1557-58: file lines 3349-3535'
+  role: context
+  confidence: provisional
+  note: Same time-place, outside witness. English merchant voice on Muscovy in the 1550s;
+    placed on window and place, not read for church content. Check the author slug and existing
+    rows for this volume first.
+  source_file: purchas_hakluytus-posthumus-pilgrimes-v12_1906.txt
 - row_id: stoglav_stoglav-fra_duchesne1920--le-stoglav-ou-les-cent-chapitres-1551-french-translation
   work: Le Stoglav ou les Cent Chapitres (1551), French translation with introduction and
     commentary (Duchesne 1920)
