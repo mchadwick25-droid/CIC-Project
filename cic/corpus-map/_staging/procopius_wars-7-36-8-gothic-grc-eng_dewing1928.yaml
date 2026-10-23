@@ -1,0 +1,17 @@
+source_file: procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt
+
+assignments:
+  - row_id: procopius_wars-7-36-8-gothic-grc-eng_dewing1928--wars-vii-viii-gothic-war-end
+    work: "History of the Wars, Books VII.36-VIII (the end of the Gothic War; the Lazic war)"
+    author: procopius
+    locus: "whole text (English pages); Lazica at VIII.1-17"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+      - georgian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      The last volume of the Wars. For the imperial church, the close of the reconquest; for
+      Georgia, the Lazi (west Georgia) as a Christian people between Rome and Persia,
+      VIII.1-17. Provisional for Georgia: Lazica is adjacent to, not identical with, the
+      Iberian church the census entry describes.

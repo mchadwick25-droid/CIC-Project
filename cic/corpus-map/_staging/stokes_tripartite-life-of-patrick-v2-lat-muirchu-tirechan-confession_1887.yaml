@@ -1,0 +1,33 @@
+source_file: stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt
+
+authors_ruled:
+  tirechan:
+    kind: metadata-omission
+    evidence: >
+      The volume prints 'Tirechan's Collections'; the host record names only Patrick and
+      Stokes.
+    from_file: stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt
+
+assignments:
+  - row_id: stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887--muirchu-tirechan-latin
+    work: "Muirchu's Life of Patrick and Tirechan's Collections, Latin; the Liber Angueli"
+    author: tirechan
+    locus: "Muirchu from raw line ~360; Tirechan ~2251; Liber Angueli ~5638"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The earliest lives of Patrick, written for Armagh in the 7th century, Latin; the file
+      also carries the Muirchu text of which the White English is a translation.
+
+  - row_id: stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887--patrick-confession-latin-stokes
+    work: "Patrick, Confession (Latin, Stokes's text)"
+    author: patrick
+    locus: "raw line ~5914"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      A second Latin text of the Confession alongside the White edition.

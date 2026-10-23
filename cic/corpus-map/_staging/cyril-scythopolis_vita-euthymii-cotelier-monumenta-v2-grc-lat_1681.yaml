@@ -1,0 +1,31 @@
+source_file: cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681.txt
+
+assignments:
+  - row_id: cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681--vita-euthymii
+    work: "Vita Euthymii"
+    author: cyril-scythopolis
+    locus: "raw file lines ~26790-45800 (running head 'EUTHYMII VITA'; printed pp. ~200-330)"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: tradition
+    confidence: assigned
+    note: >
+      Cyril's life of Euthymius, founder of the Judean-desert lauras and a census voice
+      for this entry: tradition, not the context the earlier row gave it. SECOND WITNESS
+      ONLY: Cotelier's Latin translation is what the OCR reads, and this 17th-century scan
+      is heavily corrupted; eye-verification against page images is required for any
+      quotation. The "Vita Sabae" row that stood beside this one from September 2026 to
+      October 2026 is withdrawn: that Life is not in this volume (it is in Cotelier's tomus
+      III, 1686, an open acquisition lead).
+  - row_id: cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681--moschus-chapters
+    work: "Chapters from John Moschus's Pratum Spirituale (Cotelier's selection)"
+    author: john-moschus
+    locus: "raw file lines ~46168-59653"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: tradition
+    confidence: provisional
+    note: >
+      Cotelier's extracts from the Pratum, duplicating part of the PG 87.3 file; a second
+      Latin witness to those chapters. Provisional because the selection has not been
+      collated against the full Pratum.

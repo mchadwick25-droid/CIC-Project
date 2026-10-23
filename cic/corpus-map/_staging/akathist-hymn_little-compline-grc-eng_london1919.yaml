@@ -1,0 +1,25 @@
+source_file: akathist-hymn_little-compline-grc-eng_london1919.txt
+
+authors_ruled:
+  akathistos-hymn:
+    kind: anonymous
+    evidence: >
+      The volume names no author; the Akathistos is transmitted anonymously and its
+      attribution (Romanos, Sergius, or another) is a scholarly dispute the project records
+      as Contested rather than deciding.
+    from_file: akathist-hymn_little-compline-grc-eng_london1919.txt
+
+assignments:
+  - row_id: akathist-hymn_little-compline-grc-eng_london1919--akathist-hymn
+    work: "The Akathist Hymn (Akathistos), Greek with English"
+    author: akathistos-hymn
+    locus: "the Akathist section (24 stanzas), after Little Compline"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      The great Marian hymn of Constantinople. Tradition if the Justinianic dating holds
+      (then a voice of this very church); otherwise it belongs to the Heraclian sibling
+      entry. needs-ruling on the date, which is Contested in the project's own vocabulary;
+      the hymn's composition is not placed here by assertion.

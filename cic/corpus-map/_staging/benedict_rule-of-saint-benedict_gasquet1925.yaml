@@ -1,0 +1,21 @@
+source_file: benedict_rule-of-saint-benedict_gasquet1925.txt
+
+authors_ruled:
+  benedict-of-nursia:
+    kind: metadata-omission
+    evidence: >
+      The host record names the author only as Benedict, Saint, Abbot of Monte Cassino; the
+      corpus-map has no earlier ruling for the slug.
+    from_file: benedict_rule-of-saint-benedict_gasquet1925.txt
+
+assignments:
+  - row_id: benedict_rule-of-saint-benedict_gasquet1925--rule-of-benedict
+    work: "The Rule of Saint Benedict, English"
+    author: benedict-of-nursia
+    locus: "Prologue and chapters I-LXXIII (raw lines ~775-4256)"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+    role: tradition
+    confidence: assigned
+    note: >
+      The Rule in the entry's own voice; ch. 73 commends Cassian and Basil.

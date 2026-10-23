@@ -1,0 +1,22 @@
+source_file: studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt
+
+authors_ruled:
+  georgian-life-of-nino:
+    kind: anonymous
+    evidence: >
+      The Georgian Life of Nino exists in several anonymous medieval redactions; the
+      translation names only its translators.
+    from_file: studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt
+
+assignments:
+  - row_id: studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903--life-of-nino
+    work: "The Life of St Nino (Georgian), with the Armenian Version of Djouansher"
+    author: georgian-life-of-nino
+    locus: "from raw line ~166; the Djouansher version from ~3620"
+    atlas_ids:
+      - georgian-christianity
+    role: transmission
+    confidence: assigned
+    note: >
+      The Georgian conversion narrative in 9th-10th-century redactions: transmission,
+      retrospective, confidence tags required.

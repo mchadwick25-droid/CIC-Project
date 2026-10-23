@@ -1,0 +1,14 @@
+source_file: patrick_libri-sancti-patricii-lat_white1918.txt
+
+assignments:
+  - row_id: patrick_libri-sancti-patricii-lat_white1918--patrick-latin
+    work: "Patrick, Confessio and Epistola ad milites Corotici, Latin"
+    author: patrick
+    locus: "whole text"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+      - british-welsh-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Primary Latin witness, clean OCR, same section numbering as the English.

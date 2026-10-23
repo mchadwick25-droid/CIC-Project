@@ -1,0 +1,56 @@
+source_file: procopius_wars-1-2-persian_dewing1914.txt
+
+assignments:
+  - row_id: procopius_wars-1-2-persian_dewing1914--wars-i-ii-persian-war
+    work: "History of the Wars, Books I-II (the Persian War)"
+    author: procopius
+    locus: "whole text"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: >
+      Justinian's wars with Persia told by his general's secretary: the Nika riot (I.24),
+      the plague (II.22-23), the frontier the church lived on. Context.
+
+  - row_id: procopius_wars-1-2-persian_dewing1914--wars-i-19-20-nubia-aksum-himyar
+    work: "History of the Wars I.19-20 (the Nobatae, Blemyes and Philae; the Ethiopians of Auxomis and the Homeritae)"
+    author: procopius
+    locus: "Book I, chapters 19-20"
+    atlas_ids:
+      - nubian-christianity
+      - aksumite-christianity
+    role: context
+    confidence: assigned
+    note: >
+      The one contemporary Greek narrative of Justinian closing the Philae temples
+      (I.19.36-37) and of the Aksumite king's war on Himyar and Justinian's embassy (I.20).
+      Outside witness for both worlds; for Nubia it is the backdrop to the mission John of
+      Ephesus describes.
+
+  - row_id: procopius_wars-1-2-persian_dewing1914--wars-i-12-iberians
+    work: "History of the Wars I.12 (the Iberians, Christians under Persian pressure; King Gourgenes)"
+    author: procopius
+    locus: "Book I, chapter 12"
+    atlas_ids:
+      - georgian-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Procopius on the Iberians who "guard the rites of this faith more closely than any
+      other men known to us" and their king's appeal to Justin against Persian fire-worship.
+      Outside witness from the 520s.
+
+  - row_id: procopius_wars-1-2-persian_dewing1914--wars-i-ii-armenia-persia-frontier
+    work: "History of the Wars I-II (Persarmenia and the Persian frontier under Kawad and Khosrau)"
+    author: procopius
+    locus: "Books I-II, the Armenian and Mesopotamian chapters"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+      - the-church-of-the-east-under-persia
+    role: context
+    confidence: provisional
+    note: >
+      The Roman-Persian wars as the political frame of Persarmenia and of the Christians
+      inside the Sasanian empire. Provisional: the church-specific material is thin and a
+      build thread should pin exact chapters.

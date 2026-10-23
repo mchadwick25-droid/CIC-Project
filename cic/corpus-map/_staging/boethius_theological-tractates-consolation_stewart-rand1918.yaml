@@ -1,0 +1,23 @@
+source_file: boethius_theological-tractates-consolation_stewart-rand1918.txt
+
+authors_ruled:
+  boethius:
+    kind: metadata-omission
+    evidence: >
+      The host record names Boethius, d. 524, as creator; the corpus-map has no earlier
+      ruling for the slug.
+    from_file: boethius_theological-tractates-consolation_stewart-rand1918.txt
+
+assignments:
+  - row_id: boethius_theological-tractates-consolation_stewart-rand1918--theological-tractates
+    work: "Boethius, Theological Tractates (De Trinitate, Contra Eutychen et Nestorium and others) and the Consolation of Philosophy, Latin with English"
+    author: boethius
+    locus: "tractates and books by number"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: provisional
+    note: >
+      A Roman senator-theologian under the Ostrogoths; context for both entries,
+      provisional.

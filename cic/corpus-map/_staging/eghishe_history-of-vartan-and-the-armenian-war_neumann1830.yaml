@@ -1,0 +1,22 @@
+source_file: eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt
+
+authors_ruled:
+  eghishe:
+    kind: metadata-omission
+    evidence: >
+      The host record names Eghishe, Saint, Vardapet, as creator; the corpus-map has no
+      earlier ruling for the slug.
+    from_file: eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt
+
+assignments:
+  - row_id: eghishe_history-of-vartan-and-the-armenian-war_neumann1830--history-of-vartan
+    work: "Elishe, History of Vartan and of the Battle of the Armenians"
+    author: eghishe
+    locus: "whole text, chapters I-VII"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+    role: tradition
+    confidence: assigned
+    note: >
+      The Armenian church's own account of Avarayr and the religious war with Persia, c.
+      450-451: the entry's defining text, in English.

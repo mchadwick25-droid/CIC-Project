@@ -1,0 +1,21 @@
+source_file: kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt
+
+authors_ruled:
+  kebra-nagast:
+    kind: anonymous
+    evidence: >
+      An anonymous Ge'ez work; Budge's title page names no author. The file is named for the
+      work.
+    from_file: kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt
+
+assignments:
+  - row_id: kebra-nagast_queen-of-sheba-and-menyelek_budge1922--kebra-nagast
+    work: "Kebra Nagast (the Glory of Kings), with the chapters on King Kaleb"
+    author: kebra-nagast
+    locus: "whole text; Kaleb around raw lines 14561-14593"
+    atlas_ids:
+      - aksumite-christianity
+    role: transmission
+    confidence: assigned
+    note: >
+      Fourteenth-century Ethiopian memory of the Aksumite kingdom; transmission, tier 4.

@@ -4,7 +4,7 @@
   // VITE_DEEPER_SITE_ORIGIN and the server's CIC_DEEPER_SITE_ORIGIN must name
   // this site's exact origin.
   var isLocal = ["localhost", "127.0.0.1"].indexOf(root.location.hostname) !== -1;
-  // Off, the home and Get Involved pages make no request to the engine's Go Deeper routes.
+  // Off, the privacy page keeps its Go Deeper section hidden.
   root.GoDeeperConfig = {
     enabled: true,
     // On when a pilot audience is open; off, the pilot page shows nothing.

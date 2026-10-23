@@ -1,0 +1,15 @@
+source_file: antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt
+
+assignments:
+  - row_id: antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888--life-of-george-of-choziba
+    work: "Antony of Choziba, Life of George of Choziba (Vita sancti Georgii Chozibitae)"
+    author: antony-of-choziba
+    locus: "the Houze edition within the volume (raw file around line 8452 onward)"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: tradition
+    confidence: assigned
+    note: >
+      A disciple's Life of his abbot, written in the Judean desert after 614: the world's
+      own voice at its closing date. Greek second witness only (rough OCR); no public-domain
+      English.

@@ -1,0 +1,23 @@
+source_file: paul-the-deacon_history-of-the-langobards_foulke1907.txt
+
+authors_ruled:
+  paul-the-deacon:
+    kind: metadata-omission
+    evidence: >
+      The host record names Paul the Deacon as creator; the corpus-map has no earlier ruling
+      for the slug.
+    from_file: paul-the-deacon_history-of-the-langobards_foulke1907.txt
+
+assignments:
+  - row_id: paul-the-deacon_history-of-the-langobards_foulke1907--history-of-the-langobards
+    work: "Paul the Deacon, History of the Langobards"
+    author: paul-the-deacon
+    locus: "whole text; IV.42 on Catholic and Arian bishops in each city"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      An 8th-century monk of Monte Cassino on the Lombard centuries; tier 4 context for both
+      entries.

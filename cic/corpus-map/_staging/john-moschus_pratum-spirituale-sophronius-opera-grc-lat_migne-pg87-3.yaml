@@ -1,0 +1,41 @@
+source_file: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt
+
+authors_ruled:
+  sophronius-jerusalem:
+    kind: metadata-omission
+    evidence: >
+      The volume's own headings "EPISTOLA SYNODICA AD SERGIUM CP." and the Sophronius
+      works that follow (Miracula Cyri et Joannis, Vita Mariae Aegyptiacae, Anacreontica);
+      the file is named for Moschus, its largest work.
+    from_file: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt
+
+assignments:
+  - row_id: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3--pratum-spirituale
+    work: "John Moschus, Pratum Spirituale (The Spiritual Meadow)"
+    author: john-moschus
+    locus: "raw file lines ~3369 (Notitia) to ~25000; Migne cols. 2851-3112"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: tradition
+    confidence: assigned
+    note: >
+      The great story-collection of the Judean desert, Sinai and the Jordan lauras c. 600
+      by a monk of St Theodosius and the New Laura of St Sabas: the entry's own voice at
+      its close. SECOND WITNESS ONLY (Latin column readable, Greek garbled); no
+      public-domain English exists. This row replaces the "Dorotheus, Doctrinae Diversae,
+      whole file" row that described this file wrongly from September 2026 to October 2026.
+  - row_id: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3--sophronius-synodical-letter-and-works
+    work: "Sophronius of Jerusalem, Epistola synodica ad Sergium (634), Orationes, Miracula Cyri et Joannis, Vita Mariae Aegyptiacae, Anacreontica"
+    author: sophronius-jerusalem
+    locus: "raw file lines ~26212 to ~95000"
+    atlas_ids:
+      - byzantine-imperial-church-heraclian-iconoclast
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Sophronius was Moschus's companion in the Judean desert and later patriarch of
+      Jerusalem; his Synodical Letter opens the monothelete controversy (634), which is
+      the Heraclian sibling entry's matter. Which entry holds him as tradition is a
+      needs-ruling named in the Judean-desert dossier; the Miracula and the Mary of Egypt
+      Life are desert material. Latin second witness only.

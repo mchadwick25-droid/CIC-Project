@@ -1,0 +1,44 @@
+source_file: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+
+authors_ruled:
+  liberatus-carthage:
+    kind: metadata-omission
+    evidence: >
+      PL 68 prints Liberatus's Breviarium; the host record names only Migne.
+    from_file: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+  primasius-hadrumetum:
+    kind: metadata-omission
+    evidence: >
+      PL 68 prints Primasius's commentary on Revelation; the host record names only Migne.
+    from_file: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+  junillus-africanus:
+    kind: metadata-omission
+    evidence: >
+      PL 68 prints Junillus's Instituta; the host record names only Migne.
+    from_file: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+
+assignments:
+  - row_id: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866--liberatus-breviarium
+    work: "Liberatus of Carthage, Breviarium causae Nestorianorum et Eutychianorum"
+    author: liberatus-carthage
+    locus: "contents at raw lines ~346-467"
+    atlas_ids:
+      - latin-africa-under-byzantium
+      - byzantine-imperial-church-justinianic
+    role: tradition
+    confidence: provisional
+    note: >
+      A Carthaginian archdeacon's history of the controversies, c. 560; tradition for
+      Africa, context for the imperial church. Latin only.
+
+  - row_id: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866--primasius-junillus
+    work: "Primasius of Hadrumetum, Commentary on Revelation; Junillus Africanus, Instituta regularia divinae legis"
+    author: primasius-hadrumetum
+    locus: "the Primasius and Junillus sections"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: tradition
+    confidence: provisional
+    note: >
+      Two African writers of the 540s-550s; Junillus passes on Theodore of Mopsuestia's
+      exegesis. Latin only.

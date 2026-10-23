@@ -1,0 +1,23 @@
+source_file: samson-of-dol_life-of-st-samson_taylor1925.txt
+
+authors_ruled:
+  vita-samsonis:
+    kind: anonymous
+    evidence: >
+      The Vita prima Samsonis is anonymous; its date (7th-9th century) is contested.
+    from_file: samson-of-dol_life-of-st-samson_taylor1925.txt
+
+assignments:
+  - row_id: samson-of-dol_life-of-st-samson_taylor1925--life-of-samson
+    work: "Vita Samsonis (The Life of St. Samson of Dol), English"
+    author: vita-samsonis
+    locus: "prologue and books I-II"
+    atlas_ids:
+      - british-welsh-christianity
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      A Welsh-trained bishop's Life crossing into Brittany and Frankish Paris; date
+      Contested, so provisional. Tradition for the British entry, context for the
+      Merovingian one.

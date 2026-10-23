@@ -15,3 +15,14 @@ assignments:
       pure 1568/1570 Pius V text - disclosed as a textual-layering point
       for whoever cites it. One of a 4-volume seasonal set; only this
       volume is vendored.
+
+  - row_id: roman-breviary_bute1908--martyrology-oct-24-27-nagran-elesbaan
+    work: "Roman Martyrology, 24 October (Aretas and the martyrs of Nagran) and 27 October (King Elesbaan of Ethiopia)"
+    author: roman-breviary
+    locus: "raw lines ~82260 and ~83705-83732"
+    atlas_ids:
+      - aksumite-christianity
+    role: transmission
+    confidence: provisional
+    note: >
+      The Latin church's calendar memory of Kaleb and Najran; transmission, tier 4.

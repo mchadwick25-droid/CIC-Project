@@ -3,6 +3,38 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: cyrilline-miaphysite-egyptian-christianity
 works:
+- row_id: baladhuri_origins-of-the-islamic-state-v1_hitti1916--part-vii-egypt
+  work: Part VII, Egypt (the conquest of 640-642; the terms with the Copts)
+  author: baladhuri
+  locus: Part VII
+  role: context
+  confidence: assigned
+  note: 'The conquest that closes the Cyrilline entry''s window, from the conquerors'' side.
+
+    '
+  source_file: baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt
+- row_id: lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907--egyptian-inscriptions
+  work: The Christian Greek inscriptions of Egypt (4th-8th c.)
+  author: christian-inscriptions-egypt-nubia
+  locus: whole corpus except the Nubian entries
+  role: context
+  confidence: provisional
+  note: 'Epigraphic texture of Christian Egypt across the window; rarely datable to the entry''s
+    own decades.
+
+    '
+  source_file: lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907.txt
+- row_id: cosmas-indicopleustes_christian-topography_mccrindle1897--whole-work-alexandrian-cosmography
+  work: 'Christian Topography (whole work): an Alexandrian layman''s cosmography of the 550s'
+  author: cosmas-indicopleustes
+  locus: whole text
+  role: context
+  confidence: provisional
+  note: 'Cosmas''s teacher was the East Syrian Mar Aba; scholarship treats his confession
+    as Nestorian-leaning. Provisional on his affiliation.
+
+    '
+  source_file: cosmas-indicopleustes_christian-topography_mccrindle1897.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901--chalcedon-sessions-v-onward-miaphysite
   work: Council of Chalcedon (451), sessions V onward, in Mansi tom. 7
   author: council-of-chalcedon-451
@@ -12,6 +44,19 @@ works:
   note: 'The Definition the non-Chalcedonian Egyptian tradition rejected, in its own text:
     context for that entry (its window opens at 451).'
   source_file: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt
+- row_id: npnf214_seven-ecumenical-councils--chalcedon-constantinople-553-egypt-context
+  work: 'The Councils of Chalcedon (451) and Constantinople II (553): the councils the Egyptian
+    church rejected or received under pressure'
+  author: council-of-chalcedon-451
+  locus: div1 11 and div1 12
+  role: context
+  confidence: provisional
+  note: 'Chalcedon as the event the Egyptian entry defines itself against; placed as context
+    here (the -tradition sibling bucket carries the same acts, and the dossier names the duplicate-id
+    question as needs-ruling). Era III Library pass, October 2026.
+
+    '
+  source_file: npnf214_seven-ecumenical-councils.xml
 - row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--the-ecclesiastical-history-of-evagrius-a-d-431-594-2
   work: The Ecclesiastical History of Evagrius (A.D. 431-594)
   author: evagrius-scholasticus
@@ -35,6 +80,27 @@ works:
   note: A Chalcedonian outsider's account of Dioscorus, Timothy Aelurus and Proterius (II.8),
     following the Walford row's context placement.
   source_file: evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt
+- row_id: npnf212_leo-great-gregory-great--letters-eulogius-alexandria
+  work: Register letters to Eulogius of Alexandria (Books I-VIII)
+  author: gregory
+  locus: div iii.v.v.xxii, iii.v.viii.xvii-xviii
+  role: context
+  confidence: assigned
+  note: 'See the npnf213 row of the same title.
+
+    '
+  source_file: npnf212_leo-great-gregory-great.xml
+- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--letters-eulogius-alexandria
+  work: Register letters to Eulogius, patriarch of Alexandria
+  author: gregory
+  locus: div3 ii.v.xxxv (Ep. LXXVIII), ii.vi.vii-ix, ii.viii.vii, ii.ix.xviii-xix
+  role: context
+  confidence: assigned
+  note: 'Gregory writing to the Chalcedonian patriarch of Alexandria, the rival patriarchate
+    the Cyrilline entry''s census note names.
+
+    '
+  source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
 - row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-history-of-joseph-the-carpenter-2
   work: The History of Joseph the Carpenter
   author: history-of-joseph-the-carpenter
@@ -50,6 +116,49 @@ works:
     class is. Egyptian composition surviving in Coptic and Arabic - the Egyptian church is
     why we have it, which is custody rather than a date guess.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: john-ephesus_ecclesiastical-history-part3_paynesmith1860--iv-alexandria-theodosius-damian
+  work: 'Ecclesiastical History Part III, Book IV (Theodosius of Alexandria in exile; the
+    Alexandrian succession of 566-578: Theodore, Peter IV, Damian; Jacob Baradaeus at Alexandria;
+    the Gaianites)'
+  author: john-ephesus
+  locus: Book IV (raw file lines ~10891-14634)
+  role: tradition
+  confidence: provisional
+  note: 'An ally''s history of the Egyptian anti-Chalcedonian party and its patriarchal succession.
+    Tradition provisionally (John was a Syrian partisan of the same communion, not an Egyptian);
+    a build thread should decide tradition versus context. Tier 1 cross-link, Era III Library
+    pass, October 2026.
+
+    '
+  source_file: john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
+- row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--synaxaire-arabe-jacobite-v-basset
+  work: 'Le Synaxaire arabe jacobite, V (months Baounah to Mesore), ed. and tr. R. Basset
+    (bound in this PO volume): the Coptic church''s calendar notices of Dioscorus, Timothy,
+    Theodosius, Benjamin and the murder of Proterius'
+  author: john-ephesus
+  locus: the Synaxaire arabe section (raw file lines ~49000-64550)
+  role: transmission
+  confidence: provisional
+  note: 'Not John of Ephesus''s work: PO 17 binds Basset''s Coptic-Arabic Synaxarion (a 13th-century
+    compilation, French translation) after the Lives. Transmission of the Egyptian church''s
+    memory of its 5th-7th-century patriarchs; the author slug is the file''s, recorded plainly.
+    Era III Library pass, October 2026.
+
+    '
+  source_file: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
+- row_id: john-ephesus_lives-eastern-saints-po18_brooks1924--lives-47-48-theodora-communities-five-patriarchs
+  work: Lives of the Eastern Saints 47-48 (the communities Theodora gathered in Constantinople;
+    the five patriarchs, Severus's death in Egypt, Theodosius)
+  author: john-ephesus
+  locus: Lives 47-48 (raw file lines ~35474-39400)
+  role: context
+  confidence: assigned
+  note: 'Theodora''s palace monastery of exiled anti-Chalcedonians, and the death of Severus
+    "in a city of Egypt called Ksoi": first-hand for the capital''s underside and for the
+    Egyptian succession. Era III Library pass, October 2026.
+
+    '
+  source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
 - row_id: john-nikiu_chronicle_charles1916--the-chronicle-of-john-bishop-of-nikiu
   work: The Chronicle of John, Bishop of Nikiu
   author: john-nikiu
@@ -62,6 +171,29 @@ works:
 
     '
   source_file: john-nikiu_chronicle_charles1916.txt
+- row_id: coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913--life-of-pisentius
+  work: The Life of Bishop Pisentius of Coptos, by John the Elder (Sahidic, with English)
+  author: john-the-elder-coptos
+  locus: the Pisentius Life, English section (the Persian flight at raw lines ~17075-17097)
+  role: tradition
+  confidence: assigned
+  note: 'A Coptic bishop of the Persian-invasion years remembered by his own disciple: the
+    Egyptian anti-Chalcedonian church speaking in its own voice, inside the window, in public-domain
+    English.
+
+    '
+  source_file: coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt
+- row_id: coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913--other-sahidic-texts
+  work: The other Sahidic texts of the volume (apocryphal discourses and legends)
+  author: john-the-elder-coptos
+  locus: the remaining texts
+  role: transmission
+  confidence: provisional
+  note: 'Anonymous Sahidic apocrypha the Coptic church preserved. The author slug is the volume''s
+    named author, recorded plainly as not the author of these texts.
+
+    '
+  source_file: coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt
 - row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-mark
   work: Liturgy of S. Mark
   author: liturgy-of-st-mark
@@ -92,6 +224,28 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- row_id: monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926--ostraca-and-papyri
+  work: Coptic and Greek ostraca and papyri of the monastery of Epiphanius (letters, accounts,
+    legal texts, c. 580-640), including Damian's festal letter (no. 53) and the Pesynthius
+    correspondence
+  author: monastery-of-epiphanius-thebes
+  locus: whole volume; Damian's festal letter at text no. 53 (raw line ~19122)
+  role: tradition
+  confidence: assigned
+  note: 'Documentary, not literary: the Egyptian church speaking in its own working papers.
+
+    '
+  source_file: monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt
+- row_id: philoxenus-of-mabbug_discourses_budge1894--egyptian-communion-context
+  work: The Discourses of Philoxenus (a Syrian bishop of the same anti-Chalcedonian communion)
+  author: philoxenus-of-mabbug
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'A sister church''s ascetic teaching; tier 3, provisional.
+
+    '
+  source_file: philoxenus-of-mabbug_discourses_budge1894.txt
 - row_id: severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904--history-of-the-patriarchs-of-the-coptic-church-of-alexandria
   work: History of the Patriarchs of the Coptic Church of Alexandria
   author: severus-al-muqaffa
@@ -105,6 +259,78 @@ works:
 
     '
   source_file: severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt
+- row_id: severus-of-antioch_select-letters-book6-part1_brooks1903--egypt-letters-reconciling-groups
+  work: 'Select Letters, Book VI part 1: letters on reconciling the separated anti-Chalcedonian
+    groups in Egypt'
+  author: severus-of-antioch
+  locus: raw file lines ~5200-5590 and the Egyptian correspondents throughout
+  role: tradition
+  confidence: provisional
+  note: 'Severus writing from his Egyptian exile to and about the Egyptian church of the same
+    communion. Tradition provisionally (the census names this work for the Egyptian entry);
+    the build thread decides tradition versus context. Tier 1 cross-link, Era III Library
+    pass, October 2026.
+
+    '
+  source_file: severus-of-antioch_select-letters-book6-part1_brooks1903.txt
+- row_id: severus-of-antioch_select-letters-book6-part2_brooks1904--egypt-dioscorus-timothy-letters
+  work: 'Select Letters, Book VI part 2: to Dioscorus II of Alexandria (516); on the feast
+    of Dioscorus; in defence of Timothy Aelurus'
+  author: severus-of-antioch
+  locus: raw file lines ~1465, ~2118-2128, ~2390-2400
+  role: tradition
+  confidence: provisional
+  note: '"The memory of the thrice-blessed Dioscorus ... now counted among the heretics in
+    Alexandria": Severus on the Egyptian church''s own saints. Tier 1 cross-link, Era III
+    Library pass, October 2026.
+
+    '
+  source_file: severus-of-antioch_select-letters-book6-part2_brooks1904.txt
+- row_id: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907--synaxaire-arabe-tout-babeh
+  work: Le Synaxaire arabe jacobite, I (months of Tout and Babeh), with French
+  author: synaxaire-arabe-jacobite
+  locus: Basset's fascicle (PO 1.3)
+  role: transmission
+  confidence: assigned
+  note: 'The Coptic church''s medieval calendar preserving notices of its 5th-7th-century
+    patriarchs and martyrs; transmission, confidence tags required.
+
+    '
+  source_file: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt
+- row_id: synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915--synaxaire-arabe-toubeh-amchir
+  work: Le Synaxaire arabe jacobite, III (months of Toubeh and Amchir), with French
+  author: synaxaire-arabe-jacobite
+  locus: Basset's fascicle (PO 11.5)
+  role: transmission
+  confidence: assigned
+  note: 'Medieval Coptic calendar memory of the 5th-7th-century church.
+
+    '
+  source_file: synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt
+- row_id: miscellaneous-coptic-texts-upper-egypt_budge1915--theodosius-encomium-michael
+  work: Encomium on St Michael the Archangel, attributed to Theodosius, archbishop of Alexandria
+    (Sahidic, with English)
+  author: theodosius-alexandria
+  locus: the Theodosius encomium (raw lines from ~2068)
+  role: tradition
+  confidence: provisional
+  note: 'Under the name of the exiled patriarch of 535-566; the attribution is the Coptic
+    manuscript''s and is Contested, so tradition only provisionally.
+
+    '
+  source_file: miscellaneous-coptic-texts-upper-egypt_budge1915.txt
+- row_id: miscellaneous-coptic-texts-upper-egypt_budge1915--other-texts-timothy-discourse
+  work: The other Sahidic texts of the volume, including a Discourse attributed to Timothy
+    of Alexandria
+  author: theodosius-alexandria
+  locus: the remaining texts
+  role: transmission
+  confidence: provisional
+  note: 'Homiletic and legendary texts the Coptic church preserved under patristic names;
+    author slug is the volume''s lead attribution, recorded plainly.
+
+    '
+  source_file: miscellaneous-coptic-texts-upper-egypt_budge1915.txt
 - row_id: theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903--histoire-de-dioscore-miaphysite
   work: Theopistus, History of Dioscorus (Syriac version of a Coptic anti-Chalcedonian history),
     French with Syriac (Nau, Journal asiatique X.1, 1903)
@@ -135,3 +361,29 @@ works:
     existing slug timothy_alexandria, which is Timothy I of Alexandria (d. 385), author of
     the Canonical Answers.'
   source_file: timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908.txt
+- row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--iii-vi-alexandria-451-491
+  work: 'Chronicle Books III-VI (Alexandria after Chalcedon: Proterius, Timothy Aelurus, Peter
+    Mongus, 451-491)'
+  author: zachariah-rhetor
+  locus: Books III-VI (raw file lines ~2062-7286)
+  role: tradition
+  confidence: assigned
+  note: 'The epitome of Zacharias''s anti-Chalcedonian history of Alexandria: the Egyptian
+    church''s own side of 451-491, including the consecration of Timothy Aelurus (III.2).
+    Tier 1 cross-link found by the Era III Library pass, October 2026.
+
+    '
+  source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
+- row_id: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903--life-of-severus-zacharias
+  work: Zacharias Scholasticus, Life of Severus (Vie de Sévère), Syriac with French
+  author: zacharias-scholasticus
+  locus: PO 2 fasc. 1, the first work in the volume
+  role: tradition
+  confidence: provisional
+  note: 'A fellow student''s memoir of Severus at Alexandria and Beirut and of the anti-Chalcedonian
+    circle of Gaza (Peter the Iberian''s disciples). Tradition for the West Syriac world;
+    for Egypt and for the Judean-desert/Gaza entry it is the rival side''s own voice - context
+    there, recorded under one row provisionally until each world''s build splits the role.
+
+    '
+  source_file: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt

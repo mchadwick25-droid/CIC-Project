@@ -14,3 +14,28 @@ assignments:
       of Egypt (639-642), squarely inside this atlas entry's own window
       (451-642). "Chapter CXXI...Abba Benjamin" confirmed present in
       this file.
+
+  - row_id: john-nikiu_chronicle_charles1916--xc-71-78-ethiopian-king-himyar
+    work: "Chronicle ch. XC.71-78 (the Ethiopian king's war on the Himyarite 'Damnus' and the bishop sent from Alexandria in Justinian's days)"
+    author: john-nikiu
+    locus: "ch. XC.71-78 (raw file lines ~8661-8705)"
+    atlas_ids:
+      - aksumite-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A 7th-century Egyptian chronicler's memory of Kaleb's war; Charles's own note corrects
+      the text's 'Nubia' to Axum. Provisional on that emendation. Era III Library pass,
+      October 2026.
+
+  - row_id: john-nikiu_chronicle_charles1916--constantinople-justinian-heraclius
+    work: "Chronicle chapters on Constantinople from Justinian to Phocas (XC-CV passim)"
+    author: john-nikiu
+    locus: "raw file lines ~8490-9150 and the Phocas chapters"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: provisional
+    note: >
+      The capital's affairs as an Egyptian anti-Chalcedonian bishop remembered them a
+      century later. Era III Library pass, October 2026.

@@ -1,0 +1,25 @@
+source_file: ildefonsus-julian-toledo-pl96-lat_migne1862.txt
+
+authors_ruled:
+  ildefonsus-toledo:
+    kind: metadata-omission
+    evidence: >
+      PL 96 prints Ildefonsus of Toledo; the host record names only Migne.
+    from_file: ildefonsus-julian-toledo-pl96-lat_migne1862.txt
+  julian-toledo:
+    kind: metadata-omission
+    evidence: >
+      PL 96 prints Julian of Toledo; the host record names only Migne.
+    from_file: ildefonsus-julian-toledo-pl96-lat_migne1862.txt
+
+assignments:
+  - row_id: ildefonsus-julian-toledo-pl96-lat_migne1862--ildefonsus-julian
+    work: "Ildefonsus of Toledo (De virginitate Mariae, De viris illustribus) and Julian of Toledo (Prognosticon, Historia Wambae), Latin"
+    author: ildefonsus-toledo
+    locus: "Ildefonsus at raw line ~844; Julian ~36807"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: provisional
+    note: >
+      Mostly after the 560-711 window's middle; provisional on dating.

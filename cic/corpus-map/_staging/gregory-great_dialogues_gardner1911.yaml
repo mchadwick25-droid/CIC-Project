@@ -28,3 +28,39 @@ assignments:
       is"); left unassigned there because how these two census entries'
       own coverage overlaps stays unsettled
       (roman-church-gregorian_Source_Readiness_Dossier.md §5).
+
+  - row_id: gregory-great_dialogues_gardner1911--book-ii-benedict
+    work: "Dialogues, Book II: the Life of St Benedict of Nursia"
+    author: gregory
+    locus: "Book II (raw lines ~3393-5700, about 18,800 words); Scholastica ~5346; Totila ~4417-4494"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      The only surviving life of Benedict. Whether Gregory's Book II is tradition for the
+      Benedictine entry (as for the Gregorian one) is a double-placement the Gregorian
+      dossier named as unsettled; needs-ruling.
+
+  - row_id: gregory-great_dialogues_gardner1911--arian-chapters-iii-29-32
+    work: "Dialogues III.29-32 (the Arian bishop at Spoleto; the Arian church in the Subura; Hermenegild; the Vandal confessors) and IV.31 (Theoderic's death)"
+    author: gregory
+    locus: "raw lines ~7881-8112 and ~10528"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Gregory's stories of Arian Italy, Spain and Africa; outside witness for the Homoian
+      register entry.
+
+  - row_id: gregory-great_dialogues_gardner1911--dialogues-iii-31-hermenegild
+    work: "Dialogues III.31 (Hermenegild's conversion by Leander and martyrdom)"
+    author: gregory
+    locus: "raw lines ~8003-8100"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: context
+    confidence: assigned
+    note: >
+      Gregory's account of the Visigothic prince's death for the Nicene faith.

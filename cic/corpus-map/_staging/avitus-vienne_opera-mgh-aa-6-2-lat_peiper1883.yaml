@@ -1,0 +1,33 @@
+source_file: avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt
+
+authors_ruled:
+  avitus-vienne:
+    kind: metadata-omission
+    evidence: >
+      The volume prints Alcimus Ecdicius Avitus's works under his name; the host record
+      names only the Gesellschaft.
+    from_file: avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt
+
+assignments:
+  - row_id: avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883--avitus-opera
+    work: "Avitus of Vienne, Letters, Homilies and the books against the Arians (Latin)"
+    author: avitus-vienne
+    locus: "letters to Gundobad at raw lines ~431 and ~1504; contra Arianos ~1432"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The Burgundian bishop's letters, including the one to Clovis on his baptism; Latin
+      only.
+
+  - row_id: avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883--avitus-vs-arians
+    work: "Avitus of Vienne, fragments against the Arians and the letters to the Arian king Gundobad"
+    author: avitus-vienne
+    locus: "raw lines ~431, ~1432, ~1504"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A Catholic bishop's arguments with the Burgundian Homoian court; outside witness.

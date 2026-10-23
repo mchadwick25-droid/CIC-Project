@@ -1,0 +1,22 @@
+source_file: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt
+
+authors_ruled:
+  ethiopian-synaxarium:
+    kind: anonymous
+    evidence: >
+      The Senkesar is an anonymous Ge'ez compilation; Budge's title page names no author.
+      The file is named for the work.
+    from_file: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt
+
+assignments:
+  - row_id: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928--synaxarium-v2-v4
+    work: "The Ethiopian Synaxarium, vols. II-IV: notices of the Aksumite saints and of King Kaleb (20 Genbot)"
+    author: ethiopian-synaxarium
+    locus: "whole file; Kaleb around raw line 30395"
+    atlas_ids:
+      - aksumite-christianity
+    role: transmission
+    confidence: assigned
+    note: >
+      Late medieval memory of the Aksumite church, in English; transmission, retrospection
+      flags required.

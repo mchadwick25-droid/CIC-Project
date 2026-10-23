@@ -1,0 +1,35 @@
+source_file: coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt
+
+authors_ruled:
+  john-the-elder-coptos:
+    kind: metadata-omission
+    evidence: >
+      Budge's heading for the Life names its author as John the Elder, disciple of
+      Pisentius; the host record names only Budge.
+    from_file: coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt
+
+assignments:
+  - row_id: coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913--life-of-pisentius
+    work: "The Life of Bishop Pisentius of Coptos, by John the Elder (Sahidic, with English)"
+    author: john-the-elder-coptos
+    locus: "the Pisentius Life, English section (the Persian flight at raw lines ~17075-17097)"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      A Coptic bishop of the Persian-invasion years remembered by his own disciple: the
+      Egyptian anti-Chalcedonian church speaking in its own voice, inside the window, in
+      public-domain English.
+
+  - row_id: coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913--other-sahidic-texts
+    work: "The other Sahidic texts of the volume (apocryphal discourses and legends)"
+    author: john-the-elder-coptos
+    locus: "the remaining texts"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: transmission
+    confidence: provisional
+    note: >
+      Anonymous Sahidic apocrypha the Coptic church preserved. The author slug is the
+      volume's named author, recorded plainly as not the author of these texts.

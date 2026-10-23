@@ -1,0 +1,38 @@
+source_file: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt
+
+authors_ruled:
+  john-beth-aphthonia:
+    kind: metadata-omission
+    evidence: >
+      The volume's own fascicle title "Vie de Sévère par Jean, supérieur du monastère de
+      Beith-Aphthonia"; the host record has no creator field.
+    from_file: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt
+
+assignments:
+  - row_id: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903--life-of-severus-zacharias
+    work: "Zacharias Scholasticus, Life of Severus (Vie de Sévère), Syriac with French"
+    author: zacharias-scholasticus
+    locus: "PO 2 fasc. 1, the first work in the volume"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+      - cyrilline-miaphysite-egyptian-christianity
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: tradition
+    confidence: provisional
+    note: >
+      A fellow student's memoir of Severus at Alexandria and Beirut and of the anti-Chalcedonian circle of Gaza (Peter the Iberian's disciples). Tradition for the West
+      Syriac world; for Egypt and for the Judean-desert/Gaza entry it is the rival side's
+      own voice - context there, recorded under one row provisionally until each world's
+      build splits the role.
+
+  - row_id: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903--life-of-severus-john-beth-aphthonia
+    work: "John of Beth Aphthonia, Life of Severus, Syriac with French"
+    author: john-beth-aphthonia
+    locus: "PO 2 fasc. 3"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The monastic encomium on Severus by the abbot of Qenneshre's founding community.
+      Tradition.

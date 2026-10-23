@@ -1,0 +1,13 @@
+source_file: synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt
+
+assignments:
+  - row_id: synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915--synaxaire-arabe-toubeh-amchir
+    work: "Le Synaxaire arabe jacobite, III (months of Toubeh and Amchir), with French"
+    author: synaxaire-arabe-jacobite
+    locus: "Basset's fascicle (PO 11.5)"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: transmission
+    confidence: assigned
+    note: >
+      Medieval Coptic calendar memory of the 5th-7th-century church.

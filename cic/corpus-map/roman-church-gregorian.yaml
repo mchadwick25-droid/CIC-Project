@@ -121,3 +121,14 @@ works:
 
     '
   source_file: gregory-great_dialogues_gardner1911.txt
+- row_id: liber-pontificalis_book-of-the-popes-v1_loomis1916--popes-hormisdas-to-pelagius-ii
+  work: Liber Pontificalis, the lives from Hormisdas (514) to Pelagius II (590), English
+  author: liber-pontificalis
+  locus: the lives for 514-590; ends at raw line ~13748
+  role: context
+  confidence: provisional
+  note: 'The Roman church''s own chronicle of its bishops across the Gothic and Lombard wars;
+    context for each entry, provisional on which lives each build uses.
+
+    '
+  source_file: liber-pontificalis_book-of-the-popes-v1_loomis1916.txt
