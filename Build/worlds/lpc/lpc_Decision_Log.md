@@ -2561,3 +2561,9 @@ Alternatives shown: (1) one revision pass fixing the P0 and every P1, each fix v
 **Question** (`Review-Artifacts/Doc_01_ChangeOrder_Review_Round13.md` P1-2). Morin 1917 (Registry row 267) prints nine tractatus headed as by Optatus of Milevis, Quodvultdeus of Carthage and others of Augustine's school (`augustine_sermones-guelferbytani-lat_morin1917.txt` line 10297); a manuscript titles one a feast-day sermon of Optatus (lines 10846 to 10848). Optatus wrote within 258 to 391. Doc_01 states the silence of that interval as settled.
 **Alternatives shown.** (1) qualify the silence now to "no surviving ordinary-pastoral voice that this build has assessed", tag it Contested, and open an assessment of the nine tractatus; (2) assess the nine first; (3) keep the silence unqualified.
 **Chosen.** 1 (project lead, 2026-10-23, "1"). Every site that states the silence (Doc_01 §2, §5, §8; Doc_02 §7; Doc_05 §0.3, §7; Doc_07; Doc_08 §1, 3B-2; Doc_09 §1, §6) takes the qualification. The assessment of the nine and Optatus's world placement stay open (OG-54, OG-43). If an Optatus sermon holds up, the silence claim changes by a named change order.
+
+---
+
+### 2026-10-23 — Second targeted recheck for Doc_04, Doc_05 and Doc_09 (project lead's ruling)
+
+Alternatives shown: (1) one more targeted recheck of the new fixes in those three, alongside the ruled Doc_01 and Doc_02 rechecks; (2) no further recheck; (3) fold them into the Doc_01 and Doc_02 rechecks. Chosen: 1 (project lead, 2026-10-23, "1"). Cap ruling recorded in the System Hub Decision Log. The Doc_01 recheck also sweeps every site of the qualified silence.
