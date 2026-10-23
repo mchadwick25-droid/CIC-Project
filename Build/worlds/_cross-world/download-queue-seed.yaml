@@ -7907,7 +7907,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: direct fetch of the metadata (Hakluyt Society, London, 1893; possible-copyright-status
       NOT_IN_COPYRIGHT); OCR not sampled, October 2026
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt"
   - title: The Orthodox Church of the East in the Eighteenth Century (correspondence of the Eastern patriarchs
       with the nonjuring bishops)
     author: George Williams (ed.)
@@ -7938,7 +7939,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: direct fetch of the metadata (Jena, Hochhausen, 1843; possible-copyright-status NOT_IN_COPYRIGHT)
       and the OCR, five-point sample, October 2026
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt"
 
   - title: Collectio confessionum in ecclesiis reformatis publicatarum
     author: H. A. Niemeyer (ed.)
@@ -8429,7 +8431,8 @@ queue:
     rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT (Michigan copy)
     verified_by: 'library/source-research thread, one-world agent for VI.20, October 2026 (re-checked October 2026):
       metadata read only; text not opened. Not vendored: scholarship, and Polish.'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "likowski_unia-brzeska-pol_1907.txt"
   - title: Vetera monumenta Poloniae et Lithuaniae, tomus II (1410-1572) and tomus IV (1697-1775)
     author: Augustin Theiner (ed.)
     translator: none
@@ -8625,7 +8628,8 @@ queue:
     rights_basis: pd-us-by-date (1914 title page read; no rights field)
     verified_by: 'Era VII VI.23 world agent, October 2026: archive.org metadata fetched, title page and five-point
       OCR sample read (Greek and Latin passages garbled)'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914.txt"
   - title: Skazaniia kniazia Kurbskogo
     author: Andrei Kurbsky
     translator: N. G. Ustrialov
@@ -8647,7 +8651,8 @@ queue:
     rights_basis: pd-us-by-date (1860, 1862)
     verified_by: 'Era VII VI.23 world agent, October 2026: archive.org metadata fetched and five-point OCR
       sample of part 2 read: garbled at three of five points'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860.txt"
   - title: Akty arkheograficheskoi ekspeditsii, vol. 1
     author: Imperial Academy of Sciences, Archaeographic Expedition
     translator: none
@@ -10584,3 +10589,171 @@ queue:
       fetched (136 KB) and sampled at five points: readable Latin with long s as f (about 0.50 against the
       project Latin baseline), ninety-eight banner lines.'
     status: not-yet-downloaded
+
+  - title: 'Polnoe sobranie russkikh letopisei, t. 14, pervaia polovina: Povest'' o chestnem zhitii tsaria
+      Feodora Ivanovicha; Novyi letopisets'
+    author: 'anon. (Imperial Archaeographic Commission; host record: ed. S. F. Platonov)'
+    translator: none (Russian)
+    year: '1910'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: The Commission's edition of the New Chronicle (1584-1630s), the chronicle voice the first pass
+      lacked; preferred to the 1853 Obolensky print already in the queue.
+    url: https://archive.org/details/polnoesobranierusskihletopisejizdannoep31
+    rights_basis: pd-us-by-date (1910 title page read; no rights field)
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, 1910 title page
+      and preface read, five-point OCR sample'
+    status: downloaded
+    vendored_as: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt
+  - title: 'Polnoe sobranie russkikh letopisei, t. 13, vtoraia polovina: Dopolneniia k Nikonovskoi letopisi;
+      Tsarstvennaia kniga'
+    author: 'anon. (Imperial Archaeographic Commission; host record: ed. S. F. Platonov)'
+    translator: none (Russian)
+    year: '1906'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: 'The Tsar''s Book (1533-1553) and the chronicle for 1558-1567: the official chronicle of the Stoglav
+      generation.'
+    url: https://archive.org/details/polnoesobranierusskihletopisejizdannoep46
+    rights_basis: pd-us-by-date (1906 title page read; no rights field)
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, 1906 title page
+      and preface read, five-point OCR sample'
+    status: downloaded
+    vendored_as: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906.txt
+  - title: Polnoe sobranie russkikh letopisei, t. 13, pervaia polovina (Nikon Chronicle 1505-1558)
+    author: anon. (Imperial Archaeographic Commission)
+    translator: none (Russian)
+    year: '1904'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: The volume that would carry 1517-1558; the item catalogued as it on archive.org (polnoesobranierusskihletopisejizdannoep59,
+      1904) is a duplicate scan of vol. 11 (its title page reads 'ТОМЪ ОДИННАДЦАТЫЙ ... 1897' and its byte
+      count equals ...p32). Not on the host; a lead for another host.
+    url: https://archive.org/details/polnoesobranierusskihletopisejizdannoep59 (mislabelled; the real volume
+      not found)
+    rights_basis: pd-us-by-date (1904) if found
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched and OCR head
+      read: the file is vol. 11, not vol. 13'
+    status: not-yet-downloaded
+  - title: Sochineniia prepodobnago Maksima Greka v russkom perevode, parts 2 (dogmatic-polemical, 1910)
+      and 3 (various, 1911)
+    author: Maxim the Greek
+    translator: not named (preface by the novice Moisei; Russian)
+    year: 1910 / 1911
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: The rest of the clean 1910-1911 Lavra translation; part 1 is vendored. Part 3 holds the letters
+      to prelates and the preface to the Solovki saints' lives. Clean OCR at five points in both.
+    url: https://archive.org/details/sochinenijaprepodobnagomaksimagrekavruss67 ; https://archive.org/details/sochinenijaprepodobnagomaksimagrekavruss29
+    rights_basis: pd-us-by-date (1910, 1911; no rights field)
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched for both, five-point
+      OCR sample of both'
+    status: not-yet-downloaded
+  - title: Kurbsky, Istoriia o velikom kniaze Moskovskom (1913) and Pis'ma kniazia A. M. Kurbskogo k raznym
+      litsam (1913)
+    author: Andrei Kurbsky
+    translator: none (Russian)
+    year: '1913'
+    world: russian-church-stoglav-to-nikon (VI.23)
+    why: Kurbsky's History of Ivan's reign and his letters to others, in the Commission's extracts of 1913;
+      the correspondence with the tsar (1914) is vendored.
+    url: https://archive.org/details/istorijaovelikomknjazemoskovskom15 ; https://archive.org/details/pismaknjazjaamkurbskogokraznymlitsam80
+    rights_basis: pd-us-by-date (1913 per host; no rights field)
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched only'
+    status: not-yet-downloaded
+  - title: 'Akty, otnosiashchiesia k istorii Zapadnoi Rossii, t. 4: 1588-1652'
+    author: 'Archaeographic Commission (host record: comp. I. Grigorovich)'
+    translator: none (Ruthenian, Polish, Slavonic)
+    year: '1851'
+    world: the-union-of-brest-and-ruthenian-greek-catholic- (VI.20); also the-kyiv-mohyla-orthodox-revival
+      (VI.21), russian-church-stoglav-to-nikon (VI.23), orthodoxy-under-the-ottomans-parish-millet-and-n
+      (VI.17)
+    why: 'The union documents of 1594-1597 and the Brest synods of 1596 in their own languages, Jeremias
+      II''s 1589-1590 acts, and the Orthodox hierarchy and brotherhoods to 1652: the series the Brest dossier
+      said was not searched.'
+    url: https://archive.org/details/auzr04
+    rights_basis: pd-us-by-date (1851 title page read; no rights field)
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, 1851 title page
+      read, five-point OCR sample, key documents located'
+    status: downloaded
+    vendored_as: akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt
+  - title: 'Akty, otnosiashchiesia k istorii Iuzhnoi i Zapadnoi Rossii, t. 2: 1599-1637'
+    author: 'Archaeographic Commission (host record: ed. N. I. Kostomarov)'
+    translator: none (Ruthenian, Polish, Slavonic)
+    year: '1865'
+    world: the-kyiv-mohyla-orthodox-revival (VI.21)
+    why: The series volume for 1599-1637, which the first pass could not find (it checked vols. 1, 3 and
+      4); Vilnius brotherhood suits, Smotrytsky, the Pegas letters in the additions.
+    url: https://archive.org/details/auzr02
+    rights_basis: pd-us-by-date (1865 title page read; no rights field)
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, title page read,
+      both OCR files sampled at five points'
+    status: downloaded
+    vendored_as: akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt
+  - title: 'Arkhiv Iugo-Zapadnoi Rossii, ch. 1, t. 7: Pamiatniki literaturnoi polemiki pravoslavnykh iuzhno-russtsev
+      s latino-uniatami'
+    author: Ivan Vyshensky; Peter Mohyla (autograph notes); the Vilnius brotherhoods; Kyiv Commission for
+      the Examination of Ancient Acts
+    translator: none (Ruthenian, Slavonic, Polish, Russian)
+    year: '1887'
+    world: the-kyiv-mohyla-orthodox-revival (VI.21); also the-union-of-brest-and-ruthenian-greek-catholic-
+      (VI.20)
+    why: 'Mohyla''s own hand (tales of miracles, canons, reflections on monastic life, St Sophia accounts,
+      book purchases of 1632-1633) and Vyshensky''s unpublished letters: the inside voice the Kyiv dossier
+      said was thin.'
+    url: https://archive.org/details/arhuzr_1_7
+    rights_basis: pd-us-by-date (1887 title page read; no rights field)
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, title page and
+      contents read, five-point OCR sample'
+    status: downloaded
+    vendored_as: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt
+  - title: 'Arkhiv Iugo-Zapadnoi Rossii, ch. 1, t. 9: Lifos (Lithos), 1644, with Sakovych''s marginal notes
+      and S. Golubev''s study'
+    author: Euzebi Pimin (pseudonym of the Lithos's compilers, Mohyla's circle); S. Golubev
+    translator: none (Polish; Russian study)
+    year: '1893'
+    world: the-kyiv-mohyla-orthodox-revival (VI.21)
+    why: 'The Kyiv answer to Sakovych''s Perspektiwa, named as a gap in the Kyiv dossier; the only copy
+      found on a reachable host. Polish OCR garbled (Latin type read as Cyrillic): second witness.'
+    url: https://archive.org/details/arhivjugozapadnojrossiiizdavaemyjvreme37
+    rights_basis: pd-us-by-date (1893; title-page year read '1393' in the OCR, Golubev's signature dated
+      15 November 1893; no rights field)
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, title page and
+      study read in part, five-point OCR sample'
+    status: downloaded
+    vendored_as: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893.txt
+  - title: 'Synod Brzeski: namowa poslow Krola I. M. i obrona Synodu Brzeskiego (1874 reprint)'
+    author: Piotr Skarga; ed. L. Rzepecki
+    translator: none (Polish)
+    year: '1874'
+    world: the-union-of-brest-and-ruthenian-greek-catholic- (VI.20)
+    why: Clean Polish witness for the two Skarga texts that RIB vol. 7 garbles; listed as a lead in the
+      first-pass dossier.
+    url: https://archive.org/details/rcin.org.pl.WA248_275734_F-5641_skarga-synod_o_240101
+    rights_basis: pd-us-by-date (1874); host rights field 'Public Domain'
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched (rights field
+      read), preface date read, five-point OCR sample'
+    status: downloaded
+    vendored_as: skarga_synod-brzeski-i-obrona-pol_rzepecki1874.txt
+  - title: Saulus et Paulus Ruthenae unionis sanguine Beati Iosaphat transformatus (Rome 1666)
+    author: Jacobus Susza
+    translator: none (Latin)
+    year: '1666'
+    world: the-union-of-brest-and-ruthenian-greek-catholic- (VI.20)
+    why: The 1666 original of the life vendored in Martinov's 1864 re-edition; lets a build separate Susza's
+      text from the editor's additions.
+    url: https://archive.org/details/bub_gb_NKN07ohWr7kC
+    rights_basis: pd-us-by-date (1666 title page read); host licence Public Domain Mark 1.0
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, title page read,
+      five-point OCR sample (long s as f)'
+    status: downloaded
+    vendored_as: susza_saulus-et-paulus-lat_rome1666.txt
+  - title: The Orthodox Church of the East in the Eighteenth Century (the Patriarchs and the Nonjurors)
+    author: George Williams (ed.)
+    translator: none (English)
+    year: '1868'
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n (VI.17); first for orthodoxy-under-the-ottomans-1650-1821
+    why: The Eastern Patriarchs' letters of 1718-1725 in English, with an introduction on the Jeremias II
+      and Lucaris contacts; listed as a lead in the first-pass dossier.
+    url: https://archive.org/details/orthodoxchurchof00willuoft
+    rights_basis: pd-us-by-date (1868 title page read); host NOT_IN_COPYRIGHT
+    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, title page read,
+      five-point OCR sample'
+    status: downloaded
+    vendored_as: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt

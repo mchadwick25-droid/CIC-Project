@@ -989,3 +989,86 @@ works:
       - cic:gilles_histoire-ecclesiastique-eglises-vaudoises-v2-fra_1881.txt:whole-file
     notes: 'Same work, same language, two printings 237 years apart: the 1881 text is the quotable one and
       the 1644 the wording check. No English translation exists.'
+
+  - work_id: maxim-the-greek-moral-writings
+    title: 'Maxim the Greek, moral writings (Nravouchitel''nye sochineniia): the discourse of mind to soul,
+      the dialogue of soul and mind, the dispute of Philoktimon and Aktimon, and the related discourses
+      and letters'
+    author: maxim-the-greek
+    original_language: Church Slavonic (Russian recension)
+    composed: 1520s-1550s, Moscow and the Volokolamsk and Tver confinements
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none; the Kazan Theological Academy's edition of the Slavonic text
+      year: 1860
+      language: Church Slavonic
+      recension: Kazan Academy edition, part 2
+      items:
+      - cic:maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860.txt:whole-file
+    - translator: not named on the title page (preface by the novice Moisei), Holy Trinity St Sergius Lavra
+      year: 1910
+      language: Russian
+      recension: 1910 Lavra translation, part 1, made from the Kazan edition
+      items:
+      - cic:maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910.txt:whole-file
+    notes: 'One work (the moral writings as the Kazan and Lavra editions group them), two expressions: the
+      Slavonic original and a 1910 Russian translation. The Kazan OCR is readable at four of five points;
+      the translation is clean. Item addresses are file-level placeholders. The grouping is the editions''
+      own, not a manuscript recension; a build quoting one piece should cite that piece by its heading.'
+  - work_id: susza-saulus-et-paulus
+    title: Saulus et Paulus Ruthenae unionis sanguine Beati Iosaphat transformatus (the life of Meletij
+      Smotryc'kyj)
+    author: susza
+    original_language: Latin
+    composed: 1666 (Rome)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none; the first printing
+      year: 1666
+      language: Latin
+      recension: Rome 1666 (Typographia Varesii)
+      items:
+      - cic:susza_saulus-et-paulus-lat_rome1666.txt:whole-file
+    - translator: none; re-edited by Joannes Martinov S.J., 'emendatior et auctior'
+      year: 1864
+      language: Latin
+      recension: Martinov 1864, with unmarked editorial additions
+      items:
+      - cic:susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt:whole-file
+    notes: Same work, two editions two centuries apart; the 1864 title says it is emended and enlarged and
+      the additions are not marked, so a quote should rest on the 1666 printing where Susza's own wording
+      matters. Both OCRs need a page-image check (the 1666 reads long s as f).
+  - work_id: skarga-synod-brzeski-and-obrona
+    title: Synod Brzeski and Obrona Synodu Brzeskiego (the Synod of Brest and its Defence)
+    author: skarga
+    original_language: Polish
+    composed: 1596-1597
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none; Poznan reprint with a preface by L. Rzepecki
+      year: 1874
+      language: Polish
+      recension: 1874 Poznan reprint
+      items:
+      - cic:skarga_synod-brzeski-i-obrona-pol_rzepecki1874.txt:synod-brzeski-and-obrona
+    - translator: none; the Archaeographic Commission's reprint from a 1733 edition
+      year: 1882
+      language: Polish (in a Cyrillic-script series volume)
+      recension: Russkaia istoricheskaia biblioteka vol. 7, item VIII
+      items:
+      - cic:russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt:item-viii-skarga-synod-of-brest
+    notes: Same two texts in two nineteenth-century reprints. The RIB vol. 7 OCR garbles the Polish badly;
+      the 1874 reprint reads cleanly and is the witness to quote from, after a page-image check. Item addresses
+      are placeholders; the RIB locus is from that file's staging row (about file lines 54455-57830).
