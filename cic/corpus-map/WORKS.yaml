@@ -232,12 +232,17 @@ works:
       recension: all three parts
       items:
       - cic:perrin_history-ancient-christians-valleys-alps_1847.txt:parts-i-ii-and-doctrine
-    notes: 'The French scan holds Part I only; the English holds all three parts. The 1847 volume also carries
-      Boyer''s History of the Vaudois as its Part III, which is a different work and is not part of this
-      entry.
+    - translator: none (original)
+      year: 1618
+      language: French (Part III with the old Vaudois texts in parallel columns)
+      recension: Geneva 1618 printing, Parts II and III in the vendored scan
+      items:
+      - cic:perrin_histoire-des-vaudois-parties-2-3-fra_1618.txt:parts-ii-and-iii
+    notes: 'The 1619 French scan holds Part I and the 1618 scan Parts II and III; the English holds all three
+      parts. The 1847 volume also carries Boyer''s History of the Vaudois as its Part III, which is a
+      different work and is not part of this entry.
 
       '
-
   - work_id: schleitheim-confession
     title: The Schleitheim Confession (Brüderliche Vereinigung etlicher Kinder Gottes, sieben Artikel betreffend)
     author: swiss-brethren
@@ -901,3 +906,86 @@ works:
       items:
       - cic:westminster-assembly_confession-catechisms-standards_nelson1877.txt:the National Covenant within
         the Scottish standards section
+
+  - work_id: french-national-synods-acts
+    title: The acts of the national synods of the Reformed Churches of France, with the Discipline (Paris
+      1559 to Loudun 1659)
+    author: french-reformed-synods
+    original_language: French
+    composed: 1559-1659 (the synods themselves)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: John Quick
+      year: 1692
+      language: English
+      recension: Synodicon in Gallia Reformata, made from the manuscript acts, with the Confession, the
+        Discipline and Quick's history
+      items:
+      - cic:quick_synodicon-in-gallia-reformata_1692.txt:whole-file
+    - translator: none (original); Jean Aymon (editor)
+      year: 1710
+      language: French
+      recension: 'Tous les synodes nationaux, tome 1: the Discipline and the synods Paris 1559 to Privas
+        1612 (tome 2, Tonneins 1614 to Loudun 1659, not vendored); printed from the churches'' manuscript
+        record'
+      items:
+      - cic:french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt:synods-from-line-28459
+    notes: Two independent printings of one manuscript record, one in English (1692) and one in French (1710);
+      Aymon's tome 1 does not print the Confession, which has its own entry (gallican-confession-1559).
+      Both files are second witnesses for exact wording because of their OCR.
+  - work_id: marnix-bijenkorf
+    title: De Bijenkorf der H. Roomsche Kerke (The Beehive of the Romish Church)
+    author: marnix
+    original_language: Dutch
+    composed: '1569'
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (original)
+      year: 1858
+      language: Dutch
+      recension: the 1858 edition of the 1569 text
+      items:
+      - cic:marnix_bijenkorf-der-h-roomsche-kerke-nld_1858.txt:whole-file
+    - translator: George Gilpin the Elder
+      year: 1623
+      language: English
+      recension: Gilpin's translation of 1579, the 1623 London printing
+      items:
+      - cic:marnix_beehive-of-the-romish-church_gilpin1623.txt:whole-file
+    notes: The Dutch 1858 text is clean and is the primary wording; the English is black-letter microfilm
+      OCR, a second witness.
+  - work_id: gilles-histoire-ecclesiastique-vaudoises
+    title: Histoire ecclesiastique des Eglises Reformees recueillies en quelques Valees de Piedmont, autrefois
+      appelees Eglises Vaudoises (1160-1643)
+    author: gilles
+    original_language: French
+    composed: 1644 (Geneva)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (original)
+      year: 1644
+      language: French
+      recension: 'the first printing, Geneva: Jean de Tournes (OCR second witness, chapter headings lost)'
+      items:
+      - cic:gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt:whole-file
+    - translator: none (original); Pignerol re-edition
+      year: 1881
+      language: French
+      recension: the 1881 re-edition in two tomes, chapters I-XXXVIII and XXXIX-LXII (clean OCR)
+      items:
+      - cic:gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt:whole-file
+      - cic:gilles_histoire-ecclesiastique-eglises-vaudoises-v2-fra_1881.txt:whole-file
+    notes: 'Same work, same language, two printings 237 years apart: the 1881 text is the quotable one and
+      the 1644 the wording check. No English translation exists.'

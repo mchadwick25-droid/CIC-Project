@@ -2826,7 +2826,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata (Public
       Domain Mark, National Central Library of Rome) and full text fetched and sampled October 2026'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt"
   - title: 'Luthers fore-runners: or, a cloud of witnesses deposing for the Protestant faith (the 1624 English
       of Perrin)'
     author: Jean Paul Perrin
@@ -4376,7 +4377,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'Era VII library session (Huguenots agent), October 2026: metadata fetched for both, djvu.txt
       downloaded and sampled'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884.txt; beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt"
   - title: Histoire des martyrs, Tomes 1 and 2 (to 1559)
     author: Jean Crespin; ed. Daniel Benoit and Matthieu Lelievre
     translator: ''
@@ -4391,7 +4393,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'Era VII library session (Huguenots agent), October 2026: metadata fetched, djvu.txt downloaded
       and year-counted'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt"
   - title: Memoires de Madame de Mornay, Tome second (the letters of M. and Mme du Plessis Mornay and their
       children; de Witt's Notice)
     author: Charlotte Arbaleste de Mornay; Philippe de Mornay; ed. Madame de Witt
@@ -4423,7 +4426,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'Era VII library session (Huguenots agent), October 2026: metadata fetched (La Haye: Charles
       Delo, 1710; Princeton copy), vol. 1 djvu.txt downloaded and sampled'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt"
   - title: An edict of the French king, prohibiting all publick exercise of the pretended Reformed Religion
       in his kingdom (the Revocation, 1685, in English), with the French king's letter to the Elector of
       Brandenburg and a brief account of the persecution
@@ -4744,7 +4748,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: VI.9 world agent, djvu text of the 1579 and 1636 items fetched and sampled, title page
       read (Gilpin; Dawson for Stell, 1579), October 2026
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "marnix_beehive-of-the-romish-church_gilpin1623.txt"
   - title: The marriage, baptismal and burial registers, 1571-1874, and monumental inscriptions of the Dutch
       Reformed Church, Austin Friars, London, with a short account of the strangers and their churches
     author: W. J. C. Moens (ed.)
@@ -4798,7 +4803,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: VI.9 world agent, djvu fetched (after one transient 500), title page and front matter read
       (Hills for Rothwell, Kirton and Tomlins, 1657), October 2026
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "haak_dutch-annotations-narrative-and-front-matter_1657.txt"
   - title: A catechisme of the Christian religion, with the confession of faith revised in the nationall
       synod last held at Dordrecht 1618 and 1619, and formes used in the Reformed Church of the Neatherlands,
       translated out of Dutch
@@ -4860,7 +4866,8 @@ queue:
     url: https://archive.org/details/marrowsacdi00ames
     rights_basis: pd-us-by-date
     verified_by: VI.9 world agent, metadata read, Marrow djvu fetched and sampled, October 2026
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "ames_marrow-of-sacred-divinity_1639.txt"
   - title: The Works of John Robinson, pastor of the Pilgrim Fathers, 3 vols.
     author: John Robinson
     translator: none (ed. Robert Ashton)
@@ -9194,7 +9201,8 @@ queue:
     verified_by: 'library/source-research thread, one-world agent for VI.27, October 2026: metadata read (1859,
       eng, NOT_IN_COPYRIGHT, Princeton), title page with Mason and 1859 read in the OCR, full text fetched
       (1.58M characters). Not vendored, to keep to the size limit.'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "anjou_history-of-the-reformation-in-sweden_mason1859.txt"
   - title: The National Church of Sweden (Hale Lectures, 1910)
     author: John Wordsworth, Bishop of Salisbury
     translator: none
@@ -9309,7 +9317,8 @@ queue:
       Norwegian, NOT_IN_COPYRIGHT, University of California, Google scan), imprint "Christiania 1895" read
       in the OCR, text fetched (895K characters). Content sampled at one point only (genealogical notes),
       so not confirmed to be the visitation text itself. Not vendored.'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895.txt"
   - title: Olavus Petri, the Church Reformer of Sweden
     author: Nils Forsander
     translator: none (English)
@@ -9915,7 +9924,8 @@ queue:
     verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), October 2026: metadata
       read; djvu fetched (550 KB) and sampled at five points, clean (0.91); translator''s preface read (translation
       first printed in the Bibliotheca Sacra 1879).'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt"
   - title: Acta Synodi nationalis, in nomine Domini nostri Iesu Christi ... Dordrechti habitae anno 1618
       et 1619. Accedunt plenissima de quinque articulis theologorum judicia
     author: Synod of Dort
@@ -9945,7 +9955,8 @@ queue:
     verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), October 2026: metadata
       read; djvu fetched (392 KB) and sampled at five points: Latin readable, long s read as f (about 0.65
       of tokens matched). Not vendored: second witness, pass held to five files.'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617.txt"
   - title: Antidotum continens pressiorem declarationem propriae et genuinae sententiae quae in Synodo Nationali
       Dordracena asserta est et stabilita
     author: listed under Simon Episcopius and the Synod of Dort by the host record (authorship not checked)
@@ -10002,7 +10013,8 @@ queue:
       read; djvu fetched (2.4 MB) and sampled at five points: Dutch readable with Google-scan noise (about
       0.61 of tokens matched a Dutch word list, against 0.89 for the clean Voetius file). Not vendored:
       size, Dutch only. First lead for the Dutch half.'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "tideman_stichting-der-remonstrantsche-broederschap-nld_1871.txt"
   - title: The History of the Reformation and other Ecclesiastical Transactions in and about the Low-Countries,
       volumes 3 and 4 (1722, 1723)
     author: Geeraert Brandt
@@ -10020,7 +10032,8 @@ queue:
     verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), October 2026: metadata
       read; djvu of volumes 3 and 4 fetched (2.8 MB and 3.0 MB) and sampled at five points (0.81 and 0.80,
       long s as the glyph or f). Not vendored: multi-volume set, size.'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt"
   - title: The Life of James Arminius, translated from the Latin of Caspar Brandt (edited by Geeraert Brandt)
     author: Caspar Brandt
     translator: John Guthrie (introduction by Thomas O. Summers)
@@ -10531,4 +10544,43 @@ queue:
     url: https://archive.org/details/geschichtederer00gindgoog
     rights_basis: pd-us-by-date
     verified_by: w2_radical second-pass agent, metadata API only, 2026-10-23 (NOT_IN_COPYRIGHT)
+    status: not-yet-downloaded
+
+  - title: 'Histoire des Vaudois, the Geneva 1618 printing (Matthieu Berjon): the scan holds Parts II (Histoire
+      des Chrestiens Albigeois) and III (doctrine and discipline, with the old Vaudois texts in parallel
+      columns)'
+    author: Jean Paul Perrin
+    translator: none (French, with Vaudois-tongue columns)
+    year: 1618
+    world: the-waldensian-reformed-union
+    why: 'The French original of Parts II and III of the vendored 1847 English; the first pass noted the
+      item as ''most likely also Part I'' without fetching. Fetched and read: it is Parts II and III, so
+      the French of the whole work is now in the corpus with the 1619 Part I.'
+    url: https://archive.org/details/bub_gb_x_0dyBHt4kcC
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on the host item
+    verified_by: 'library/source-research thread (Era VII session, second-pass agent), 2026-10-23: metadata
+      read; djvu fetched (491 KB) and sampled at five points (0.64, long s as f, columns interleaved in
+      Part III); Part II title page and the two Part III book headings read.'
+    status: downloaded
+    vendored_as: perrin_histoire-des-vaudois-parties-2-3-fra_1618.txt
+    vendored_note: vendored as second witness
+  - title: Brevis expositio catechismi pro parochis Norvegianis, per Petrum Palladium, cum praefatione Philippi
+      Melanchthonis
+    author: Peder Palladius
+    translator: none (Latin)
+    year: 1552
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'The Danish-Norwegian side''s own voice beyond the Ordinance: the superintendent of Zealand''s
+      catechism exposition for the parish priests of Norway, with Melanchthon''s preface. Found by creator
+      search on the Royal Library (Copenhagen) items. Not vendored: the item carries no rights field and
+      every page of its OCR carries the banner ''Early European Books, Copyright 2009 ProQuest LLC. Images
+      reproduced by courtesy of the Royal Library, Copenhagen''; the 1552 print is public domain by date,
+      the scan''s status is for the lead to rule (INTAKE section 2, hosts with their own reuse statements).'
+    url: https://archive.org/details/den-kbd-pil-130018161541-001
+    rights_basis: pd-us-by-date for the 1552 print; the scan carries a ProQuest copyright banner and no
+      host rights field (unclear, so a lead)
+    verified_by: 'library/source-research thread (Era VII session, second-pass agent), 2026-10-23: metadata
+      read (Royal Library Copenhagen, early-european-books collection, printer Veit Kreutzer, 1552); djvu
+      fetched (136 KB) and sampled at five points: readable Latin with long s as f (about 0.50 against the
+      project Latin baseline), ninety-eight banner lines.'
     status: not-yet-downloaded
