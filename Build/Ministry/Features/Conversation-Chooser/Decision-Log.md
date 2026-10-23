@@ -613,3 +613,13 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** The picture window is a fixed share of the card (46%), so it is the same height on every card. Theon's portrait is shown whole inside it, with a fill taken from the painting's own background, on his card and on his "See all" card. No words and no images changed.
 
 **Cost.** Desktop and iPad cards are 4 pixels taller. On a phone each card grows with its own text, by up to 66 pixels for the longest. Not checked: Safari on a real phone.
+
+## 2026-10-23 — A quiet "Flip" cue on the front of each card (Mark)
+
+**Mark's words.** Relayed by the system and pilot feedback thread: "one small addition, on the cards in the right hand lower corner can we add the word flip, so they know something is on the back. simple, doesn't need a click."
+
+**What changed.** Each card front now ends with the word "Flip" at the lower right, in small capitals and the muted text colour, 14 pixels at least. It is not a button and has no click of its own: a click on the card still turns it, as before. It is hidden from screen readers, because the card's own name already says "Press to bring the card forward, then again to turn it over", so the cue is not read twice and adds no tab stop. It sits on its own line under the "Shaped by" line, so it cannot cover any text or the picture.
+
+**Cost.** Each card is 27 pixels taller, on every screen size.
+
+**Checked.** In a headless browser at 1440, 820 and 390 pixels wide, the cue sits at the lower right on every card with no overlap, and the picture windows stay equal. Not checked: Safari on a real phone, a screen reader.
