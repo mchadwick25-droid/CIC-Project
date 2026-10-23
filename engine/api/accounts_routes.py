@@ -443,6 +443,11 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
                     "message": MESSAGES["recovery_waiting"].format(day=result.data["effective_on"])}
         await _refuse(result, delay=True)
 
+    @app.get("/api/accounts/providers")
+    async def providers():
+        verifier = service.verifier
+        return {"providers": verifier.public_ids() if verifier is not None else {}}
+
     @app.post("/api/accounts/provider/start")
     async def provider_start(request: Request):
         _guard(request)

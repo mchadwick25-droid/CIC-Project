@@ -384,3 +384,11 @@ def test_a_signed_in_owner_cancels_over_http(http, mailer):
     thief.post("/api/accounts/recovery/finish", json={"challenge": started["challenge"], "code": mailer.last_code(NEW), "new_address": NEW}, headers=H)
     assert http.post("/api/accounts/recovery/cancel-signed-in", json={}, headers=H).status_code == 200
     assert http.post("/api/accounts/recovery/cancel-signed-in", json={}, headers=H).status_code == 400
+
+
+def test_the_providers_route_lists_only_the_providers_that_are_turned_on(http, runtime):
+    from engine.api.provider_tokens import ProviderVerifier
+    runtime.service.verifier = None
+    assert http.get("/api/accounts/providers").json() == {"providers": {}}
+    runtime.service.verifier = ProviderVerifier({"google": "g-client", "apple": ""})
+    assert http.get("/api/accounts/providers").json() == {"providers": {"google": "g-client"}}
