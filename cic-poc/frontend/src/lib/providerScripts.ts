@@ -1,6 +1,7 @@
 /**
  * Google's and Apple's own sign-in scripts. Neither is loaded until the person presses a provider
- * button; each yields a signed ID token made for the nonce this server issued.
+ * button. Each is then readied for the nonce this server issued, and the person finishes in the
+ * provider's own button or window, which yields a signed ID token for that nonce.
  */
 export type Provider = 'google' | 'apple';
 
@@ -21,6 +22,7 @@ function load(provider: Provider): Promise<void> {
     script.onload = () => resolve();
     script.onerror = () => {
       loading.delete(provider);
+      script.remove();
       reject(new Error('script'));
     };
     document.head.appendChild(script);
@@ -30,8 +32,8 @@ function load(provider: Provider): Promise<void> {
 }
 
 interface GoogleId {
-  initialize(options: { client_id: string; nonce: string; callback: (response: { credential?: string }) => void; auto_select: boolean; cancel_on_tap_outside: boolean }): void;
-  prompt(moment: (notification: { isNotDisplayed(): boolean; isSkippedMoment(): boolean; isDismissedMoment(): boolean }) => void): void;
+  initialize(options: { client_id: string; nonce: string; callback: (response: { credential?: string }) => void; auto_select: boolean }): void;
+  renderButton(parent: HTMLElement, options: { type: string; theme: string; size: string; text: string }): void;
 }
 interface AppleAuth {
   init(options: { clientId: string; scope: string; redirectURI: string; state: string; nonce: string; usePopup: boolean }): void;
@@ -42,30 +44,38 @@ interface ProviderWindow {
   AppleID?: { auth: AppleAuth };
 }
 
-export async function idTokenFrom(provider: Provider, clientId: string, nonce: string): Promise<string> {
+let googleDone: ((credential: string | null) => void) | null = null;
+
+/** Loads the provider's script and readies it for this nonce. Called on a press, never before. */
+export async function prepare(provider: Provider, clientId: string, nonce: string): Promise<void> {
   await load(provider);
   const scope = window as unknown as ProviderWindow;
   if (provider === 'google') {
     const google = scope.google?.accounts.id;
     if (!google) throw new Error('script');
-    return new Promise<string>((resolve, reject) => {
-      google.initialize({
-        client_id: clientId,
-        nonce,
-        auto_select: false,
-        cancel_on_tap_outside: true,
-        callback: (response) => (response.credential ? resolve(response.credential) : reject(new Error('none'))),
-      });
-      google.prompt((moment) => {
-        if (moment.isNotDisplayed() || moment.isSkippedMoment() || moment.isDismissedMoment()) reject(new Error('closed'));
-      });
-    });
+    google.initialize({ client_id: clientId, nonce, auto_select: false, callback: (response) => googleDone?.(response.credential ?? null) });
+    return;
   }
   const apple = scope.AppleID?.auth;
   if (!apple) throw new Error('script');
   apple.init({ clientId, scope: '', redirectURI: window.location.origin, state: 'cic', nonce, usePopup: true });
+}
+
+/** Google's own button, drawn into the element. The token arrives through onToken when the person finishes. */
+export function renderGoogleButton(parent: HTMLElement, onToken: (credential: string | null) => void): void {
+  const google = (window as unknown as ProviderWindow).google?.accounts.id;
+  if (!google) {
+    onToken(null);
+    return;
+  }
+  googleDone = onToken;
+  google.renderButton(parent, { type: 'standard', theme: 'outline', size: 'large', text: 'continue_with' });
+}
+
+/** Apple's window. Called straight from the person's press, so the browser lets it open. */
+export async function appleSignIn(): Promise<string | null> {
+  const apple = (window as unknown as ProviderWindow).AppleID?.auth;
+  if (!apple) return null;
   const result = await apple.signIn();
-  const token = result.authorization?.id_token;
-  if (!token) throw new Error('none');
-  return token;
+  return result.authorization?.id_token ?? null;
 }

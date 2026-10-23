@@ -5,7 +5,7 @@
  * no control, no request, no listener. A request to the account routes never logs an address or a code.
  */
 import { useSyncExternalStore } from 'react';
-import { idTokenFrom, type Provider } from './providerScripts';
+import { prepare, type Provider } from './providerScripts';
 import { clearStored, readStored, writeStored } from './sessionStore';
 
 export type { Provider };
@@ -318,17 +318,18 @@ export interface ProviderToken {
   nonce: string;
 }
 
-/** Asks our server for a one-use nonce, then lets the provider's own sign-in make a token for it. */
-export async function providerToken(provider: Provider): Promise<ProviderToken> {
+/** Asks our server for a one-use nonce and readies the provider's script for it. Returns the nonce. */
+export async function prepareProvider(provider: Provider): Promise<string> {
   const clientId = state.providers[provider];
   if (!clientId) throw new AccountsError(404, '');
   const started = await call('/provider/start', { method: 'POST' });
   const nonce = String(started.nonce);
   try {
-    return { provider, id_token: await idTokenFrom(provider, clientId, nonce), nonce };
+    await prepare(provider, clientId, nonce);
   } catch {
     throw new AccountsError(0, '');
   }
+  return nonce;
 }
 
 export async function providerSignIn(token: ProviderToken, over18?: boolean): Promise<SignInResult> {

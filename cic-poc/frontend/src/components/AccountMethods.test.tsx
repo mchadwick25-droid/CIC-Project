@@ -21,12 +21,14 @@ function serve(routes: Record<string, Reply | ((body: Record<string, unknown> | 
   return calls;
 }
 
-const idTokenFrom = vi.fn(async () => 'token-1');
+const prepare = vi.fn(async (..._args: unknown[]) => undefined);
+const renderGoogleButton = vi.fn((_el: HTMLElement, done: (credential: string | null) => void) => done('token-1'));
+const appleSignIn = vi.fn(async () => 'token-1');
 
 async function load() {
   vi.resetModules();
   vi.stubEnv('VITE_ACCOUNTS_ENABLED', 'on');
-  vi.doMock('../lib/providerScripts', () => ({ idTokenFrom }));
+  vi.doMock('../lib/providerScripts', () => ({ prepare, renderGoogleButton, appleSignIn }));
   const { AccountPanel } = await import('./AccountPanel');
   const accounts = await import('../lib/accounts');
   const { accountsCopy } = await import('../lib/accountsCopy');
@@ -39,7 +41,9 @@ const panel = () => within(screen.getByRole('complementary'));
 beforeEach(() => {
   localStorage.clear();
   sessionStorage.clear();
-  idTokenFrom.mockClear();
+  prepare.mockClear();
+  renderGoogleButton.mockClear();
+  appleSignIn.mockClear();
 });
 afterEach(() => {
   cleanup();
@@ -63,10 +67,10 @@ describe('provider sign-in', () => {
     fireEvent.click(screen.getByRole('button', { name: copy.signIn }));
     const google = await screen.findByRole('button', { name: copy.continueWith('Google') });
     expect(screen.queryByRole('button', { name: copy.continueWith('Apple') })).not.toBeInTheDocument();
-    expect(idTokenFrom).not.toHaveBeenCalled();
+    expect(prepare).not.toHaveBeenCalled();
     fireEvent.click(google);
     await waitFor(() => expect(calls.some((c) => c.path === '/provider/finish')).toBe(true));
-    expect(idTokenFrom).toHaveBeenCalledWith('google', 'g-client', 'n1');
+    expect(prepare).toHaveBeenCalledWith('google', 'g-client', 'n1');
     expect(calls.find((c) => c.path === '/provider/finish')!.body).toMatchObject({ provider: 'google', id_token: 'token-1', nonce: 'n1' });
   });
 
@@ -83,11 +87,12 @@ describe('provider sign-in', () => {
     await act(async () => accounts.refresh());
     fireEvent.click(screen.getByRole('button', { name: copy.signIn }));
     fireEvent.click(await screen.findByRole('button', { name: copy.continueWith('Apple') }));
+    fireEvent.click(await screen.findByRole('button', { name: copy.openProvider('Apple') }));
     fireEvent.click(await screen.findByRole('button', { name: copy.ageYes }));
     await waitFor(() => expect(calls.filter((c) => c.path === '/provider/finish')).toHaveLength(2));
     const finishes = calls.filter((c) => c.path === '/provider/finish');
     expect(finishes[1].body).toMatchObject({ id_token: 'token-1', nonce: 'n2', over_18: true });
-    expect(idTokenFrom).toHaveBeenCalledTimes(1);
+    expect(appleSignIn).toHaveBeenCalledTimes(1);
   });
 
   it('shows the plain failure line when the provider window closes', async () => {
@@ -96,7 +101,7 @@ describe('provider sign-in', () => {
       '/providers': { body: { providers: { google: 'g-client' } } },
       '/provider/start': { body: { status: 'ok', nonce: 'n3' } },
     });
-    idTokenFrom.mockRejectedValueOnce(new Error('closed'));
+    renderGoogleButton.mockImplementationOnce((_el, done) => done(null));
     const { AccountPanel, accounts, copy } = await load();
     render(<AccountPanel />);
     await act(async () => accounts.refresh());
@@ -204,7 +209,7 @@ describe('signed-in changes', () => {
     expect(screen.queryByText('FRESH-CODE')).not.toBeInTheDocument();
   });
 
-  it('links Google after a confirmation and shows the server refusal for the last method', async () => {
+  it('links Google after a confirmation', async () => {
     const calls = serve({
       ...signedIn(['address'], { google: 'g-client' }),
       '/step-up/start': { body: { status: 'sent', challenge: 's2' } },
@@ -221,9 +226,79 @@ describe('signed-in changes', () => {
     fireEvent.click(screen.getByRole('button', { name: copy.sendCode }));
     fireEvent.change(await screen.findByLabelText(copy.codeLabel), { target: { value: '333333' } });
     fireEvent.click(panel().getByRole('button', { name: copy.codeSignIn }));
-    expect(idTokenFrom).not.toHaveBeenCalled();
+    expect(prepare).not.toHaveBeenCalled();
     fireEvent.click(await screen.findByRole('button', { name: copy.linkMethod('Google') }));
     await waitFor(() => expect(calls.some((c) => c.path === '/provider/link')).toBe(true));
-    expect(idTokenFrom).toHaveBeenCalledWith('google', 'g-client', 'n6');
+    expect(prepare).toHaveBeenCalledWith('google', 'g-client', 'n6');
+  });
+
+  it('does not offer the provider for confirmation when the account has an address', async () => {
+    serve(signedIn(['address', 'google'], { google: 'g-client' }));
+    const { AccountPanel, accounts, copy } = await load();
+    render(<AccountPanel />);
+    await act(async () => accounts.refresh());
+    fireEvent.click(screen.getByRole('button', { name: copy.yourAccount }));
+    fireEvent.click(await screen.findByRole('button', { name: copy.makeRecoveryCode }));
+    expect(screen.getByLabelText(copy.addressLabel)).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: copy.confirmWith('Google') })).not.toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: copy.back }));
+    expect(screen.getByRole('button', { name: copy.makeRecoveryCode })).toBeInTheDocument();
+  });
+
+  it('offers no removal for the only way in, and removes a second one after a confirmation', async () => {
+    const calls = serve({
+      ...signedIn(['address', 'google'], { google: 'g-client' }),
+      '/step-up/start': { body: { status: 'sent', challenge: 's3' } },
+      '/step-up/finish': { body: { status: 'ok' } },
+      '/provider/unlink': { body: { status: 'ok' } },
+    });
+    const { AccountPanel, accounts, copy } = await load();
+    render(<AccountPanel />);
+    await act(async () => accounts.refresh());
+    fireEvent.click(screen.getByRole('button', { name: copy.yourAccount }));
+    fireEvent.click(await screen.findByRole('button', { name: copy.unlinkMethod('Google') }));
+    fireEvent.change(screen.getByLabelText(copy.addressLabel), { target: { value: 'me@b.org' } });
+    fireEvent.click(screen.getByRole('button', { name: copy.sendCode }));
+    fireEvent.change(await screen.findByLabelText(copy.codeLabel), { target: { value: '444444' } });
+    fireEvent.click(panel().getByRole('button', { name: copy.codeSignIn }));
+    expect(calls.some((c) => c.path === '/provider/unlink')).toBe(false);
+    fireEvent.click(await screen.findByRole('button', { name: copy.unlinkMethod('Google') }));
+    await waitFor(() => expect(calls.find((c) => c.path === '/provider/unlink')?.body).toEqual({ provider: 'google' }));
+  });
+
+  it('shows no removal when Google is the only way in', async () => {
+    serve(signedIn(['google'], { google: 'g-client' }));
+    const { AccountPanel, accounts, copy } = await load();
+    render(<AccountPanel />);
+    await act(async () => accounts.refresh());
+    fireEvent.click(screen.getByRole('button', { name: copy.yourAccount }));
+    await screen.findByText(copy.methodsHeading);
+    expect(screen.queryByRole('button', { name: copy.unlinkMethod('Google') })).not.toBeInTheDocument();
+  });
+});
+
+describe('a failed provider sign-in does not take over the email sign-in', () => {
+  it('uses the email route for the emailed code after a provider attempt failed', async () => {
+    const calls = serve({
+      '/me': { body: { signed_in: false } },
+      '/providers': { body: { providers: { google: 'g-client' } } },
+      '/provider/start': { body: { status: 'ok', nonce: 'n7' } },
+      '/provider/finish': { status: 400, body: { detail: 'That sign-in did not work. Please try again.' } },
+      '/sign-in/start': { body: { status: 'sent', challenge: 'c7' } },
+      '/sign-in/finish': { body: { status: 'ok', new_account: false } },
+      '/balance': { body: BALANCE },
+    });
+    const { AccountPanel, accounts, copy } = await load();
+    render(<AccountPanel />);
+    await act(async () => accounts.refresh());
+    fireEvent.click(screen.getByRole('button', { name: copy.signIn }));
+    fireEvent.click(await screen.findByRole('button', { name: copy.continueWith('Google') }));
+    expect(await screen.findByRole('alert')).toHaveTextContent('That sign-in did not work');
+    fireEvent.change(screen.getByLabelText(copy.addressLabel), { target: { value: 'a@b.org' } });
+    fireEvent.click(screen.getByRole('button', { name: copy.sendCode }));
+    fireEvent.change(await screen.findByLabelText(copy.codeLabel), { target: { value: '123456' } });
+    fireEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: copy.codeSignIn }));
+    await waitFor(() => expect(calls.some((c) => c.path === '/sign-in/finish')).toBe(true));
+    expect(calls.filter((c) => c.path === '/provider/finish')).toHaveLength(1);
   });
 });

@@ -392,3 +392,10 @@ def test_the_providers_route_lists_only_the_providers_that_are_turned_on(http, r
     assert http.get("/api/accounts/providers").json() == {"providers": {}}
     runtime.service.verifier = ProviderVerifier({"google": "g-client", "apple": ""})
     assert http.get("/api/accounts/providers").json() == {"providers": {"google": "g-client"}}
+
+
+def test_a_refused_provider_token_does_not_talk_about_a_code(http, runtime):
+    runtime.service.verifier = FakeVerifier()
+    nonce = http.post("/api/accounts/provider/start", json={}, headers=H).json()["nonce"]
+    refused = http.post("/api/accounts/provider/finish", json={"provider": "google", "id_token": "bad", "nonce": nonce, "over_18": True}, headers=H)
+    assert refused.status_code == 400 and "code" not in refused.json()["detail"].lower()

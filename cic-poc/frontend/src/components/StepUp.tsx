@@ -50,7 +50,7 @@ export function StepUp({ onDone, onCancel, fail, busy, run }: {
       )}
       <ProviderButtons
         label={copy.confirmWith}
-        only={linked}
+        only={hasAddress ? [] : linked}
         onError={fail}
         onToken={async (token) => {
           if (await run(() => providerStepUp(token))) onDone();

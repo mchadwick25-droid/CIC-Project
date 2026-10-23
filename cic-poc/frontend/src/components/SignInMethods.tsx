@@ -48,7 +48,7 @@ export function SignInMethods() {
         {account.methods.map((method) => (
           <li key={method}>
             <span>{copy.methodName(method)}</span>
-            {method !== 'address' && action === null && (
+            {method !== 'address' && account.methods.length > 1 && action === null && (
               <button type="button" onClick={() => begin({ kind: 'unlink', provider: method as Provider })}>{copy.unlinkMethod(copy.methodName(method))}</button>
             )}
           </li>
@@ -68,6 +68,9 @@ export function SignInMethods() {
       {action !== null && stage === 'confirm' && (
         <StepUp busy={busy} run={run} fail={setError} onCancel={end} onDone={() => (action.kind === 'recovery' ? void recovery() : setStage('act'))} />
       )}
+      {action !== null && (stage === 'act' || stage === 'code') && action.kind !== 'link' && (
+        <button type="button" onClick={end}>{copy.back}</button>
+      )}
       {action?.kind === 'link' && stage === 'act' && (
         <ProviderButtons
           label={copy.linkMethod}
@@ -77,6 +80,9 @@ export function SignInMethods() {
             if (await run(() => providerLink(token))) setStage('done');
           }}
         />
+      )}
+      {action?.kind === 'link' && stage === 'act' && (
+        <button type="button" onClick={end}>{copy.back}</button>
       )}
       {action?.kind === 'unlink' && stage === 'act' && (
         <div className="account__actions">

@@ -97,6 +97,7 @@ function SignIn() {
 
   const send = async (e: React.FormEvent) => {
     e.preventDefault();
+    setToken(null);
     setBusy(true);
     setError(null);
     try {
@@ -110,6 +111,7 @@ function SignIn() {
   };
 
   const settle = (result: SignInResult) => {
+    if (result.kind !== 'ask_age') setToken(null);
     if (result.kind === 'ask_age') setStep('age');
     else if (result.kind === 'not_adult') {
       setNote(result.message);
@@ -126,6 +128,7 @@ function SignIn() {
     try {
       settle(token ? await providerSignIn(token, over18) : await finishSignIn(challenge, address.trim(), code.trim(), over18));
     } catch (err) {
+      if (token) setToken(null);
       setError(messageOf(err));
     } finally {
       setBusy(false);
@@ -144,6 +147,7 @@ function SignIn() {
             try {
               settle(await providerSignIn(made));
             } catch (err) {
+              setToken(null);
               setError(messageOf(err));
             }
           }}

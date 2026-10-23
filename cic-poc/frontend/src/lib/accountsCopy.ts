@@ -57,6 +57,7 @@ export const accountsCopy = {
   signOut: 'Sign out',
   continueWith: (name: string) => `Continue with ${name}`,
   orEmail: 'Or use your email address',
+  openProvider: (name: string) => `Open ${name}`,
   providerFailed: 'That sign-in did not finish. Please try again.',
   lostEmail: 'I cannot get to my email',
   back: 'Back',

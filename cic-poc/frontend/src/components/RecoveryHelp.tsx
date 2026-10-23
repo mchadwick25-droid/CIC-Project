@@ -57,6 +57,7 @@ export function RecoveryHelp({ dayOf, onBack }: { dayOf: (iso: string | null) =>
           <p>{copy.recoveryDone(dayOf(result.effectiveOn))}</p>
           <p>{copy.newRecoveryCode}</p>
           <p className="account__code">{result.recoveryCode}</p>
+          <button type="button" onClick={onBack}>{copy.gotIt}</button>
         </div>
       )}
       {screen === 'cancel' && (
