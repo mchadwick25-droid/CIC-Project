@@ -62,10 +62,10 @@ def _text(page: str) -> list[str]:
     return _text_of((SITE / page).read_text())
 
 
-def _node(scenario: str):
+def _node(scenario: str, *args: str):
     node = shutil.which("node")
     assert node, "node is required to run the page script tests"
-    out = subprocess.run([node, str(HARNESS), scenario], capture_output=True, text=True, check=True, timeout=60)
+    out = subprocess.run([node, str(HARNESS), scenario, *args], capture_output=True, text=True, check=True, timeout=60)
     return json.loads(out.stdout)
 
 
@@ -78,7 +78,8 @@ def test_each_page_reads_at_the_target_level(page):
 
 
 def _without_pack_figures(html: str) -> str:
-    return re.sub(r'<li>\$<span data-ops="pack-\d-price">\d+</span>:', "<li>", html)
+    html = re.sub(r'<li>\$<span data-ops="pack-\d-price">\d+</span>:', "<li>", html)
+    return re.sub(r'(tokens for )\$<span data-ops="pack-\d-price">\d+</span>', r"\1<span>", html)
 
 
 @pytest.mark.parametrize("page", PAGES)
@@ -180,10 +181,40 @@ def test_no_script_puts_a_code_or_reference_in_the_console_or_the_page_address()
         assert "console." not in (SITE / name).read_text(), name
 
 
-def test_the_buy_button_stays_off_until_a_payment_link_is_set():
+def test_the_buy_buttons_stay_off_until_a_payment_link_is_set():
     html = (SITE / "go-deeper.html").read_text()
-    assert 'var PAYMENT_LINK = "";' in html
+    assert 'var PAYMENT_LINKS = {"1": "", "2": "", "3": ""};' in html
     assert re.search(r'id="state-open" hidden', html)
+    for pack in ("1", "2", "3"):
+        assert re.search(rf'<button[^>]*id="buy-pack-{pack}" hidden>', html), pack
+    assert "https://buy.stripe.com" not in html.split("PAYMENT_LINKS = ")[1].split(";")[0]
+
+
+def test_each_pack_button_says_the_tokens_and_the_price_of_its_pack():
+    ops = load_ops()
+    html = (SITE / "go-deeper.html").read_text()
+    for n, pack in enumerate(ops.packs, start=1):
+        label = re.search(rf'id="buy-pack-{n}" hidden>(.*?)</button>', html).group(1)
+        assert re.sub(r"<[^>]+>", "", label) == f"Get {pack.tokens:,} tokens for ${pack.price_usd}"
+
+
+def test_the_page_stays_closed_with_no_link_set():
+    out = _node("buyPage", "{}")
+    assert out == {"open": False, "closed": True, "shown": [], "went": []}
+
+
+def test_a_pack_with_an_empty_link_shows_no_button_and_the_page_opens_for_the_others():
+    out = _node("buyPage", json.dumps({"2": "https://buy.stripe.test/b", "3": ""}))
+    assert out["open"] and not out["closed"]
+    assert out["shown"] == ["buy-pack-2"]
+    assert out["went"] == ["https://buy.stripe.test/b"]
+
+
+def test_with_all_three_links_set_three_buttons_show_and_each_opens_its_own_link():
+    links = {"1": "https://buy.stripe.test/a", "2": "https://buy.stripe.test/b", "3": "https://buy.stripe.test/c"}
+    out = _node("buyPage", json.dumps(links))
+    assert out["shown"] == ["buy-pack-1", "buy-pack-2", "buy-pack-3"]
+    assert out["went"] == [links["1"], links["2"], links["3"]]
 
 
 def test_a_reference_is_128_bits_unguessable_and_new_for_each_click():

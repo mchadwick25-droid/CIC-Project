@@ -110,7 +110,9 @@
     <h2>Get a code</h2>
     <div class="state" id="state-open" hidden>
       <div class="hero-actions" style="margin:1.2rem 0 1rem;">
-        <button type="button" class="btn primary" id="buy-button">Get a code on Stripe</button>
+        <button type="button" class="btn primary" id="buy-pack-1" hidden>Get <span data-ops="pack-1-tokens">1,100</span> tokens for $<span data-ops="pack-1-price">7</span></button>
+        <button type="button" class="btn primary" id="buy-pack-2" hidden>Get <span data-ops="pack-2-tokens">2,750</span> tokens for $<span data-ops="pack-2-price">15</span></button>
+        <button type="button" class="btn primary" id="buy-pack-3" hidden>Get <span data-ops="pack-3-tokens">6,600</span> tokens for $<span data-ops="pack-3-price">30</span></button>
       </div>
       <p class="fine-print">You will leave this site to pay. Stripe shows the amount before you pay.</p>
     </div>
@@ -137,20 +139,29 @@
 <script>
 (function(){
 "use strict";
-// The Stripe Payment Link for a code is set here when sales open.
-var PAYMENT_LINK = "";
-var button = document.getElementById('buy-button');
-if (PAYMENT_LINK && button) {
+// Each pack's Stripe Payment Link (https://buy.stripe.com/...) is set here when sales open.
+// A pack with an empty link shows no button; the page stays closed until one link is set.
+var PAYMENT_LINKS = {"1": "", "2": "", "3": ""};
+var anyOpen = false;
+function startPurchase(link){
+  window.GoDeeper.startPurchase(link, {
+    crypto: window.crypto,
+    storage: window.localStorage,
+    now: function(){ return Date.now(); },
+    go: function(url){ window.location.href = url; }
+  });
+}
+Object.keys(PAYMENT_LINKS).forEach(function(pack){
+  var link = PAYMENT_LINKS[pack];
+  var button = document.getElementById('buy-pack-' + pack);
+  if (!link || !button) return;
+  anyOpen = true;
+  button.hidden = false;
+  button.addEventListener('click', function(){ startPurchase(link); });
+});
+if (anyOpen) {
   document.getElementById('state-open').hidden = false;
   document.getElementById('state-closed').hidden = true;
-  button.addEventListener('click', function(){
-    window.GoDeeper.startPurchase(PAYMENT_LINK, {
-      crypto: window.crypto,
-      storage: window.localStorage,
-      now: function(){ return Date.now(); },
-      go: function(url){ window.location.href = url; }
-    });
-  });
 }
 })();
 </script>

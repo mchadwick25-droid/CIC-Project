@@ -88,7 +88,7 @@ All of these must be true. The build thread checks the first group; Mark confirm
 | `VITE_DEEPER_ENABLED` | app build; set as an environment variable on the Render service | `on` | Build-time. The Dockerfile passes it to the frontend build. Off means no panel, no header, no change. Changing it needs a rebuild and deploy. |
 | `VITE_DEEPER_SITE_ORIGIN` | app build; set as an environment variable on the Render service | the same exact origin | Must match `CIC_DEEPER_SITE_ORIGIN`. |
 | `enabled` | `cic-website/assets/go-deeper-config.js` | `true` at step 4 | Until it is true the home and Get Involved pages make no door-line request. |
-| `PAYMENT_LINK` | `cic-website/go-deeper.html` | the Payment Link | The buy button stays off until one is set. The page carries one link today and the packs are three, so a link per pack is a change to make at step 4 once the S4 links exist. |
+| `PAYMENT_LINKS` | `cic-website/go-deeper.html` | one Payment Link per pack, keyed 1, 2 and 3 | A pack with an empty link shows no button, and the page stays closed until at least one is set. The three `CIC_DEEPER_PRODUCTS` entries must match the three links: each link's id keyed to its pack's tokens (1: 1,100, 2: 2,750, 3: 6,600). A link not listed there mints nothing. |
 
 The meter file is backed up by the engine's own daily job whenever the module is on (the app passes it as an extra database). Production relies on that. The CLI option `--meter-db` is for taking a backup by hand, for example before a rollback. Confirm the daily job lists a meter backup before step 2. The claim table lives in its own file and stays out of backups on purpose.
 
@@ -135,7 +135,7 @@ The door starts in **observe mode** (`door.observe: true` in the operations file
 
 **Step 3 — App on.** Build the app with `VITE_DEEPER_ENABLED=on` and promote. The panel opens at a limit and on request, and accepts a code a person enters. There is still no buy button anywhere. Mark makes a second real smallest-pack purchase through the unlinked Payment Link, enters its code in a sitting, and runs the safety matrix on production (Part 3, step 9) with it, then refunds it in full.
 
-**Step 4 — Site on.** Only after Mark has signed Part 3, the door has run its week of observe mode and gone live (Part 5, step 2), and the words items in Part 1 are settled. Set the Payment Link or links on `go-deeper.html`, set `enabled: true` in `go-deeper-config.js`, remove `noindex` from the two pages, and link the Go Deeper page. Merging to `main` ships the site. Watch the reconciliation gap and the dashboard daily for the first week.
+**Step 4 — Site on.** Only after Mark has signed Part 3, the door has run its week of observe mode and gone live (Part 5, step 2), and the words items in Part 1 are settled. Set the three Payment Links in `PAYMENT_LINKS` on `go-deeper.html`, one per pack, each matching its `CIC_DEEPER_PRODUCTS` entry, set `enabled: true` in `go-deeper-config.js`, remove `noindex` from the two pages, and link the Go Deeper page. Merging to `main` ships the site. Watch the reconciliation gap and the dashboard daily for the first week.
 
 ## Part 6 — Rollback
 
@@ -144,7 +144,7 @@ Do the first step that stops the harm, then stop. The order is from the lightest
 **What pausing does and does not do.** Pausing codes stops codes being spent. It does not stop Stripe selling. A live Payment Link keeps taking money while codes are paused, and after the engine module is off (step 4) the webhook is refused (404, or 405 when the app is built), so a buyer pays and never gets a code. Stripe retries a failed webhook for a while and then gives up. So the rule is: **stop selling before, or with, anything that removes the webhook.**
 
 1. **Stop selling, and pause codes.** For any doubt about money or codes, do both together: deactivate every Payment Link in Stripe (so nothing new is sold, even from an old link or bookmark), then pause codes (`POST /api/admin/deeper/pause`, admin login; effective on the next request). The free path is untouched; a participant with a code sees the paused line.
-2. **Close the site.** Set `enabled: false` in `go-deeper-config.js`, remove the Go Deeper link and clear `PAYMENT_LINK`, and merge to `main`. Payment Links must already be deactivated (step 1).
+2. **Close the site.** Set `enabled: false` in `go-deeper-config.js`, remove the Go Deeper link and clear the three values in `PAYMENT_LINKS`, and merge to `main`. Payment Links must already be deactivated (step 1).
 3. **Turn the app off.** Rebuild with `VITE_DEEPER_ENABLED` unset and deploy. The panel and the code header go away.
 4. **Turn the engine module off.** Only with every Payment Link deactivated, any sale from the last hours reconciled (the daily reconciliation gap is zero), **and the owed snapshot exported and every refunded payment voided (Part 7)**, because both routes are gone afterwards. Unset `CIC_DEEPER_ENABLED` and deploy. Every deeper route is gone, no file is opened, and every conversation gets the free grant. The meter and claim files stay on disk; do not delete them.
 
@@ -196,6 +196,5 @@ Until every refunded payment is voided, the written rule is that **the module is
 - Observe mode does not count the halving of the free allowance as a refusal.
 - Crisis turns are not counted by the module, which never sees message content.
 - A refused message that the safety check then lets through to the Facilitator is counted as a refusal.
-- The go-deeper page carries one Payment Link; three packs need three.
 - The shape of a sponsor pack is still open; the webhook can sell a batch product once one is listed in `CIC_DEEPER_PRODUCTS`. Free hand-outs are made on the admin mint page and are gifts, not sales. The first live codes from the purchase path are real smallest-pack purchases, refunded.
 - A partial refund is not reflected in a balance automatically. Use the admin void route.
