@@ -35,16 +35,13 @@ Commissioned by Mark on 2026-10-22 through the system and pilot feedback managem
 
 ## 4. Waiting on Mark
 
-- Change orders to the Accounts Build Plan A4, from his choices in this thread, so the build does not follow the plan instead: no "Not saved to an account" line on the page (the panel's account section and the ⋯ menu line instead); no account strip in the room's bar (the refill day lives in the home); the stop panel's words replace P1's `intro`, `getMore` ("Get more tokens") and `freeLeft` lines.
-- The review copy on account deletion: ruling 1 (90 days) or ruling 20 (removed with the account). The delete screen follows 20.
-- Whether a free visitor whose allowance is out should see the `spent` line ("Your tokens have run out") instead of the built `no_code` line. The sketches show the built line. A change order on `engine/api/deeper_admission.py` if yes.
-- Whether the server should report the day the free window ends, so the panel can name the date. One small field beside `free_left`, for the visitor-limit build thread (session_014kMdzhac3pg4njANzhBJ2m).
-- The qualified "Kept apart" sentence and the folded "Keep it safe" section, both changes to lines he approved on 2026-10-04.
-- Whether the first pass is approved, so the second pass can start.
+Nothing from the first pass. The six items put to him on 2026-10-23 were each ruled and are recorded in the Go Deeper Decision-Log entry of 2026-10-23 ("Rulings from the participant-experience design thread"): the three A4 change orders; the review copy removed with the account (ruling 20 stands, ruling 1 amended); the `spent` line for a free visitor whose allowance is out; the server reports the day the free tokens return; the two 2026-10-04 buy-page lines changed as drawn; the first pass approved to proceed.
+
+Still his, outside this thread: the Stripe return fact; the lawyer's clearance of the expiry wording; the Build Plan artifact's amendment by the accounts thread.
 
 ## 5. Next step
 
-Put the six items above to Mark one at a time; then open the second-pass canvas (13-to-17 and groups) on his approval. Requirements that fall to other threads, for Mark to route: the free window's end day (visitor-limit thread); the A4 screens and the approved words table (accounts thread, session_01B1iempFrGMkshLMm1PB5qj); the Go Deeper page and `deeperCopy.ts` word changes (whichever thread Mark names).
+The second pass: a fourth canvas for the parent-permitted 13-to-17 account and its console, the teacher's group with the join code and the student code, and the words a young person sees about what the adult can read (rulings 27 to 54). Requirements that fall to other threads, for Mark to route: the free window's return day and the `spent` note for `free_allowance_spent` (visitor-limit thread, session_014kMdzhac3pg4njANzhBJ2m); the A4 screens, the approved words table and the Build Plan amendment (accounts thread, session_01B1iempFrGMkshLMm1PB5qj); the Go Deeper page and `deeperCopy.ts` word changes (whichever thread Mark names).
 
 ## 6. Spend
 

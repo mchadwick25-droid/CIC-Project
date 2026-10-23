@@ -1073,3 +1073,24 @@ System Hub decision 63, thirty-sixth addendum. This closes the open point of rul
 System Hub decision 63, thirty-seventh addendum.
 
 54. Ruled: a minor account gets the same free allowance as an adult, 550 tokens a month. A visitor with no account keeps the free allowance the live visitor path already gives, with nothing new decided. A group's free allowance is the trial block of rulings 33 to 42. This closes the allowance figures left open by the walk-through of the five ways of using the system.
+
+## 2026-10-23 — Rulings from the participant-experience design thread (ruled by Mark)
+
+Design thread session_012jjhAokk8iJ5PiFZ3Tn15r, commissioned 2026-10-22. Design only; nothing built. The designs are three Artifacts named in `Build/Ministry/Operations/Handoffs/2026-10-23_participant-experience-design.md`. Mark answered six items one at a time on 2026-10-23, after an Opus review of the designs (three rounds, clear).
+
+55. Change order on the Accounts Build Plan, slice A4, from Mark's choices in the design thread. Three lines of A4 change; the accounts thread amends the plan before A4 starts.
+- No "Not saved to an account" line on the conversation page. The invitation to sign in is the account section inside the Get more conversations panel (Mark's 2026-10-05 panel line, word for word, with the button "Sign in or sign up") and one line at the top of the ⋯ menu ("Sign in to keep this conversation"; signed in, "My home").
+- No account strip in the room's bar. The ribbon is unchanged signed in or out; the count is the account's. The refill day is shown in the home.
+- At the stop, the panel's words replace P1's `intro`, `getMore` ("Get more tokens" becomes "Get more conversations", matching the heading) and the free-left line. The approved words are in the handoff's record (the chat tables of 2026-10-22 and 2026-10-23).
+
+56. The scrubbed review copy is removed when the account is deleted. Ruling 20 of decision 63 stands as written; ruling 1 of decision 63 is amended on this point (deletion does reach the review rows, through the join that exists only for deletion). The delete screen says so.
+
+57. A free visitor whose allowance is used up sees the `spent` line ("Your tokens have run out. Add more to carry on."), not the general `no_code` line. A change order on `engine/api/deeper_admission.py`: the `free_allowance_spent` reason maps to the `spent` note. For the visitor-limit build thread (session_014kMdzhac3pg4njANzhBJ2m).
+
+58. The server reports the day a visitor's free tokens return, beside the free count (`free_left`), so the panel can say "They return on 14 November." A small addition to `engine/deeper/free.py` and the admission response, for the same build thread. Until it ships, the panel's sentence is the one the engine can support: "They return 30 days after you first used them."
+
+59. Two lines approved on 2026-10-04 for the Go Deeper page change. "Kept apart" becomes "Stripe knows who paid. What you say in a conversation is never stored with your payment. Without an account, it is never stored with your code either." The "Keep it safe" section is folded into one sentence under "How it works" ("Without an account, your tokens are saved in this browser. To use them on another device, open Get more conversations in the room and choose Show my code. With an account, your home holds them on every device."). Reason: decision 53 makes the account the join between tokens and conversations, so the old sentence was untrue for an account holder; and the panel ruling means most people never see a code.
+
+60. The first pass of the participant-experience design (the room without an account, the buy page, the optional account, and how the count, the buy link and the account sit together) is approved to proceed. The second pass (the parent-permitted 13-to-17 account and console, the teacher's group, the student code, the young person's words) starts in the same thread.
+
+Also recorded from the thread, as Mark's words of 2026-10-22: the public description of the free allowance is "550 free tokens every 30 days. 50 to launch a new conversation, 20 to 25 for each question." No conversation counts appear anywhere, since the free 3-round rule is gone (Pilot_Feedback_Decisions.md, 2026-10-22) and a conversation may run to the engine's ten rounds.
