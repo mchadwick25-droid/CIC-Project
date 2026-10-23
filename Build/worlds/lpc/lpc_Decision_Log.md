@@ -2435,3 +2435,10 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 ### 2026-10-23 — `living_tradition_flag: true` carried into the registry entry
 
 Applied by the build thread under the project lead's ruling of 2026-09-16 ("Project lead's Article 29 confirmation: Living Tradition Status CONFIRMED, flag true, statement adopted", this log). No new decision. `python -m engine.m6.cli check` passes with no changes after the edit. The census field `living` in `cic-website/data/world-census.json` (currently `false`) is an editorial override that `m6 sync` does not copy from the registry (`engine/m6/census_sync.py`, docstring); whether it changes is put to the project lead separately.
+
+---
+
+### 2026-10-23 — Census `living` set to true (project lead's ruling, stop point 1 item 1b)
+
+**Alternatives shown.** (1) set `living: true` in `cic-website/data/world-census.json`, matching the Article 29 ruling of 2026-09-16 and every other world whose registry flag is true; (2) keep `false` with a stated reason, leaving `lpc` the only world whose census and registry disagree.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). One field edited. `python -m engine.m6.cli check` (the CI gate) passes. `atlas-check` (not run in CI) already reported drift on 11 worlds before this edit and now also reports `lpc`'s `living`; `atlas-sync` was not run, because it would rewrite other worlds' atlas entries (OG-42).
