@@ -603,3 +603,13 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** The landing page now draws a slim scroll rail on the right edge, 18 pixels wide, in the page's own colours. Drag the thumb, or click the rail above or below it to move a screen at a time. With the rail focused, the arrow keys, Page Up, Page Down, Home and End also move the page. The thumb has a minimum size so it stays easy to grab. The rail hides when the page is shorter than the window. The browser's own scroll bar is hidden on this page, so the two never show together; the trackpad, wheel and touch still scroll as before. This replaces the browser-drawn bar added earlier today, which some browsers hide. Landing page only: `index.html` and the new `assets/page-rail.js`.
 
 **Checked.** In a headless browser at 1440, 1024 and 390 pixels wide: dragging the thumb, clicking the rail and the keys all moved the page, the wheel still worked, nothing scrolled sideways and there were no script errors. Not checked: a real trackpad, Safari on a Mac, a screen reader.
+
+## 2026-10-23 — Every card's picture window is the same height, and Theon's portrait is shown whole (Mark)
+
+**Mark's words.** Relayed by the system and pilot feedback thread: Theon's portrait looks zoomed in, "like he is peering out of a window", he wants it zoomed out further to match the other cards, and "the text is longer so the space is narrower". Shown the before and after at desktop, iPad and phone width and the "See all" cards, he chose "Open the PR".
+
+**What was found.** The picture took whatever height was left after the text, so a longer text meant a shorter window: 223 to 260 pixels at desktop width and 127 to 209 on a phone. Theon's portrait is also a tighter close-up than the others, so it filled the window.
+
+**What changed.** The picture window is a fixed share of the card (46%), so it is the same height on every card. Theon's portrait is shown whole inside it, with a fill taken from the painting's own background, on his card and on his "See all" card. No words and no images changed.
+
+**Cost.** Desktop and iPad cards are 4 pixels taller. On a phone each card grows with its own text, by up to 66 pixels for the longest. Not checked: Safari on a real phone.

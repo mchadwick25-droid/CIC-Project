@@ -71,8 +71,11 @@
 .head{position:relative;z-index:2;background:var(--cink);padding:.3em .95em .4em;border-bottom:1px solid #d9b35c55}
 .tname{margin:0;font-family:var(--serif);font-weight:600;font-size:1.33em;line-height:1.08;color:var(--ctext);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .tdates{margin:.1em 0 0;font-size:1.08em;color:var(--cmuted);font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.pic{position:relative;flex:1 1 0;min-height:calc(var(--ch) * .22);overflow:hidden;background:#2a2018}
+.pic{position:relative;flex:0 0 auto;height:calc(var(--ch) * .46);overflow:hidden;background:#2a2018}
 .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 8%;display:block}
+.card[data-id="alexandria-catechetical"] .pic{background:linear-gradient(90deg,#917752,#997c54)}
+.card[data-id="alexandria-catechetical"] .pic img,.mini[data-id="alexandria-catechetical"] img{object-fit:contain;object-position:50% 0}
+.mini[data-id="alexandria-catechetical"]{background:linear-gradient(90deg,#917752,#997c54)}
 .pic::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0000 58%,var(--cink) 96%)}
 .plate{position:relative;flex:0 0 auto;min-height:37%;margin-top:-3em;z-index:2;padding:.35em 1.05em .65em;display:flex;flex-direction:column}
 .rep{font-family:var(--serif);font-size:1.85em;font-weight:600;line-height:1.05;margin:0 0 .45em;padding-bottom:.45em;border-bottom:1px solid #d9b35c55;color:var(--cgold);text-shadow:0 1px 3px #000}
