@@ -10,7 +10,8 @@ assignments:
   work: Kurbsky's three epistles to Tsar Ivan IV (1564-1579), Russian text of the 1914 Commission edition
   author: kurbsky
   locus: first epistle from file line 517 (ЭПИСТОЛIЯ ПЕРВАЯ); the short answer at file line 9071 (КРАТКОЕ
-    ОТВѢЩАНIЕ); the long answer to the tsar of Moscow from about file line 10522 (ОТВѢЩАНIЕ ЦАРЕВИ МОСКОВСКОМУ)
+    ОТВѢЩАНIЕ); the long answer to the tsar's second epistle (section V, 'На вторую епистолю отвѣщаніе
+    цареви Московскому', from about file line 10000; running heads ОТВѢЩАНIЕ ЦАРЕВИ МОСКОВСКОМУ from 10522)
     to the end of the text
   atlas_ids:
   - russian-church-stoglav-to-nikon
@@ -26,7 +27,8 @@ assignments:
     edition
   author: ivan-iv
   locus: the tsar's first epistle in two redactions on facing columns from file line 966 (ПОСЛАНIЕ ЦАРЯ
-    IОАННА ВАСИЛЬЕВИЧА); the second epistle before Kurbsky's long answer, from about file line 9100
+    IОАННА ВАСИЛЬЕВИЧА); the second epistle (section IV) from file line 9188, dated 7086 (1577) at file
+    line 9638
   atlas_ids:
   - russian-church-stoglav-to-nikon
   role: tradition

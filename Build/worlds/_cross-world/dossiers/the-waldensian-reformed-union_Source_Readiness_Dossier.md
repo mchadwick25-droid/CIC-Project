@@ -44,6 +44,9 @@ file. The seven files below were vendored this pass and staged.
 | Histoire des Vaudois (1619), Part I, with the 1532 articles | perrin | tradition | assigned | ~443K chars, French | `perrin_histoire-des-vaudois-fra_1619.txt` |
 | History of the Old Waldenses and Old Albigenses with the doctrine and catechism (Perrin, English, 1624 translation reprinted 1847) | perrin | tradition | assigned | ~1.0M of ~1.9M chars | `perrin_history-ancient-christians-valleys-alps_1847.txt` |
 | History of the Vaudois (Boyer, 1692, with additions from Arnaud), Part III of the same volume | boyer | context | assigned | ~0.6M chars of the same file | same file |
+| Histoire ecclesiastique des Eglises Reformees des Valees de Piedmont, the first printing (Geneva 1644): the wording witness for the 1881 text | gilles | tradition | assigned | ~1.67M chars, French | `gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt` (second pass) |
+| Histoire des Vaudois (1618), Parts II and III: the Albigeois history, and the doctrine and discipline with the old Vaudois texts in parallel columns | perrin | tradition (Part III); context for the Albigenses entry (Part II) | assigned | ~0.48M chars, French and Vaudois | `perrin_histoire-des-vaudois-parties-2-3-fra_1618.txt` (second pass) |
+| Histoire des martyrs, Tome 1 (1619 edition; 1885): 'Ceux de Merindol et Cabriere', the Provencal Vaudois and the massacre of 1545 | crespin | tradition | provisional | ~4.1M chars, French (the Merindol section is a small part) | `crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt` (second pass) |
 
 The same files carry further rows for sibling entries: `waldensians-in-the-alps`
 (Morland's, Léger's, Gilles's and Perrin's medieval material, `tradition`,

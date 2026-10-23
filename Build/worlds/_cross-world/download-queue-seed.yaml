@@ -7426,7 +7426,8 @@ queue:
     url: https://archive.org/details/bub_gb_95VbAAAAcAAJ
     rights_basis: pd-us-by-date
     verified_by: VI.15 world agent, metadata and OCR sample, October 2026 (no rights field; 1556 imprint)
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "schwenckfeld_ander-verantwortung-auff-melanchthon-deu_1556.txt"
 
   - title: The History of the Church of Malabar ... with the Synod of Diamper
     author: Michael Geddes
@@ -10253,4 +10254,281 @@ queue:
     rights_basis: pd-us-by-date (1895; Google full view)
     verified_by: 'Era VII second-pass eastern-churches agent, 2026-10-23: Google Books volume feed read
       for both ids (title, publisher, 1895, full view); text not fetched'
+    status: not-yet-downloaded
+
+  - title: Ein Gesprech Balthasar Hubmörs auf Zwinglis Taufbüchlein (Nikolsburg, 1526); microfilm series
+      Writings of Doctor Balthasar Hubmaier, vol. 2
+    author: Balthasar Hubmaier
+    translator: null
+    year: 1526
+    world: VI.3 the-anabaptist-movements
+    why: Hubmaier's own German works were the named gap; the 1962 critical edition is in copyright. Found
+      by an identifier search on the Hubmaier microfilm items the first pass had seen only one of.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1526_2
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field; 1526 colophon read in the OCR); garbled blackletter OCR, second witness
+    status: downloaded
+    vendored_as: hubmaier_gesprech-auf-zwinglis-taufbuechlein-deu_froschauer1526.txt
+  - title: Grund und Ursach (Nikolsburg, 1527), with further 1527 pieces; microfilm series Writings of Doctor
+      Balthasar Hubmaier, vol. 4
+    author: Balthasar Hubmaier
+    translator: null
+    year: 1527
+    world: VI.3 the-anabaptist-movements
+    why: Same gap as above.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1527_4
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field; title page and the year 1527 read in the OCR); garbled blackletter OCR, second witness
+    status: downloaded
+    vendored_as: hubmaier_grund-und-ursach-deu_1527.txt
+  - title: Ein Form des Nachtmals Christi; Von dem christlichen Bann; Von der Freiheit des Willens (Nikolsburg,
+      1527); microfilm series Writings of Doctor Balthasar Hubmaier, vol. 5
+    author: Balthasar Hubmaier
+    translator: null
+    year: 1527
+    world: VI.3 the-anabaptist-movements
+    why: Same gap as above.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1527_5
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field; headings read in the OCR); garbled blackletter OCR, second witness
+    status: downloaded
+    vendored_as: hubmaier_form-des-nachtmals-bann-freiheit-des-willens-deu_1527.txt
+  - title: Das ander Büchlein von der Freiwilligkeit des Menschen; Von dem Schwert (Nikolsburg, 1527); microfilm
+      series Writings of Doctor Balthasar Hubmaier, vol. 6
+    author: Balthasar Hubmaier
+    translator: null
+    year: 1527
+    world: VI.3 the-anabaptist-movements
+    why: Same gap as above; the German original of On the Sword, whose English is in Vedder 1905.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1527_6
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field; headings read in the OCR); garbled blackletter OCR, second witness
+    status: downloaded
+    vendored_as: hubmaier_freiwilligkeit-des-menschen-und-von-dem-schwert-deu_1527.txt
+  - title: 'Writings of Doctor Balthasar Hubmaier, microfilm vol. 1 (1524-1525: the Schlussreden, the Summe
+      eines ganzen christlichen Lebens, Von dem christlichen Tauff der Gläubigen, per the 1938 typescript
+      table of contents photographed at its head)'
+    author: Balthasar Hubmaier
+    translator: null
+    year: 1525
+    world: VI.3 the-anabaptist-movements
+    why: 'Holds Hubmaier''s earliest and most important baptism treatise, but the OCR is noise for most
+      of the reel: only 23 percent of 400-character windows read at or above half word-like. Left as a lead
+      for a pass that can read the page images.'
+    url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1524_1
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field); not vendored, OCR too garbled
+    status: not-yet-downloaded
+  - title: 'Writings of Doctor Balthasar Hubmaier, microfilm vol. 3 (1526-1527: a Lehrtafel catechism, Von
+      der brüderlichen Straff and a kurze Entschuldigung, by the phrases read in the OCR)'
+    author: Balthasar Hubmaier
+    translator: null
+    year: 1526
+    world: VI.3 the-anabaptist-movements
+    why: Same series; 43 percent of windows readable, below the threshold used for the four vendored reels.
+      The first pass had sampled this item and found it unreadable.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1526_3
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field); not vendored, OCR too garbled
+    status: not-yet-downloaded
+  - title: Erdélyi Országgyűlési Emlékek (Monumenta Comitialia Regni Transylvaniae), II. kötet, 1556-1576,
+      with the Torda diet of January 1568
+    author: Transylvanian diets; Sándor Szilágyi (ed.)
+    translator: null
+    year: 1876
+    world: VI.14 anti-trinitarian-currents-servetus-polish-brethr
+    why: The 1568 Edict of Torda, named by the census and not located by the first pass (archive.org holds
+      only the 1576-85 volume). Found through the Hungarian Academy library's REAL-EOD repository, which
+      is reachable.
+    url: http://real-eod.mtak.hu/id/eprint/2887
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, repository page and PDF (ABBYY text layer) fetched and read,
+      2026-10-23; the title page reads Budapest 1876; the repository page carries no rights field
+    status: downloaded
+    vendored_as: transylvanian-diet_erdelyi-orszaggyulesi-emlekek-2-1556-1576-hun-lat_szilagyi1876.txt
+  - title: Narrative of a visit to the Unitarian churches of Transylvania on occasion of the three-hundredth
+      anniversary of the first proclamation of religious freedom at Torda in 1568
+    author: John James Tayler
+    translator: null
+    year: 1869
+    world: VI.14 anti-trinitarian-currents-servetus-polish-brethr
+    why: The only English book found that treats the Transylvanian Unitarians and the Torda edict; a nineteenth-century
+      narrative, not a primary voice, so not vendored.
+    url: https://archive.org/details/narrativeofvisit0000tayl
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API, 2026-10-23 (no rights field, not access-restricted);
+      text not opened
+    status: not-yet-downloaded
+  - title: 'Ain Christlicher Sendbrieff an Gaistliche personen geschriben: Vom Gebeet (1547)'
+    author: Caspar Schwenckfeld
+    translator: null
+    year: 1547
+    world: VI.15 schwenckfelders
+    why: Schwenckfeld's own voice inside the census window, which the dossier said was missing; found by
+      an identifier search on the Schwenckfeld microfilm items.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_schwenckfeldt-casp_1547_0
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field; M. D. XLVII read on the title page); readable blackletter OCR
+    status: downloaded
+    vendored_as: schwenckfeld_christlicher-sendbrieff-vom-gebet-deu_1547.txt
+  - title: Außlegung des Ersten Capitels des Propheten Zacharia (1547)
+    author: Caspar Schwenckfeld
+    translator: null
+    year: 1547
+    world: VI.15 schwenckfelders
+    why: Same as above.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_schwenckfeldt-casp_1547
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field; M. D. XLVII read on the title page); readable blackletter OCR
+    status: downloaded
+    vendored_as: schwenckfeld_auslegung-ersten-capitels-zacharias-deu_1547.txt
+  - title: Bekandtnuß des Glaubens vom hailigen Sacrament (1534, enlarged printing)
+    author: Caspar Schwenckfeld
+    translator: null
+    year: 1534
+    world: VI.15 schwenckfelders
+    why: The first pass verified it and left it as a lead; the OCR reads at about 0.75 word-like, so it
+      was vendored as the teaching behind the community's suspension of the Supper.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_schwenckfeld-caspa_1534
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field; M. D. XXXIIII read on the title page)
+    status: downloaded
+    vendored_as: schwenckfeld_bekandtnuss-vom-hayligen-sacrament-deu_1534.txt
+  - title: Ausslegung dess Sibentzehenden Capitels, with three letters (Drey schöne liebliche briefe), undated
+      microfilm
+    author: Caspar Schwenckfeld
+    translator: null
+    year: null
+    world: VI.15 schwenckfelders
+    why: A readable Schwenckfeld print (about 0.8 word-like) but no year on the item or found in the OCR;
+      a lead until the printing is dated.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_schwenckfeldt-casp
+    rights_basis: null
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23;
+      no date on the item
+    status: not-yet-downloaded
+  - title: Corpus Schwenckfeldianorum, vols. 2-10 (Leipzig, 1911-1929), ed. Hartranft and others
+    author: Caspar Schwenckfeld
+    translator: Chester David Hartranft and others (editors)
+    year: 1929
+    world: VI.15 schwenckfelders
+    why: The letters and treatises of 1524-1540s, including the Great Confession; HathiTrust's catalogue
+      API (reachable) lists full-view copies (rights code pdus) of vols. 1-10 at Michigan, Minnesota, Cornell,
+      California and Ohio State, vols. 11-19 search-only. The page viewer and downloads are behind a Cloudflare
+      check from this environment, archive.org holds only vol. 1 and a 1906 prospectus, and Google Books
+      could not be searched (API quota 429, web search captcha).
+    url: https://catalog.hathitrust.org/Record/001594665
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, HathiTrust catalogue API (catalog.hathitrust.org/api/volumes/oclc/54081844.json),
+      2026-10-23; not downloadable from this environment
+    status: not-yet-downloaded
+  - title: A Supplication of the Family of Love (said to be presented into the Kings royall hands), examined
+      and confuted (1606)
+    author: Family of Love (the petition); anonymous examiner
+    translator: null
+    year: 1606
+    world: VI.16 family-of-love-and-spiritualists-franck-niclaes
+    why: Prints the English Familists' petition to James I section by section, the community voice the dossier
+      recorded as absent and knew only from Fuller's report.
+    url: https://archive.org/details/bim_early-english-books-1475-1640_a-supplication-of-the-fa_family-of-love_1606
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field, not access-restricted); readable OCR
+    status: downloaded
+    vendored_as: family-of-love_supplication-examined-and-confuted_1606.txt
+  - title: The description of mystical Antichrist the familist (1606)
+    author: anonymous
+    translator: null
+    year: 1606
+    world: VI.16 family-of-love-and-spiritualists-franck-niclaes
+    why: 'A fourth hostile English tract; readable OCR (about 0.85), 54,000 words. Not vendored: three 1579
+      polemics are already in.'
+    url: https://archive.org/details/bim_early-english-books-1475-1640_the-description-of-mysti_antichrist_1606
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field)
+    status: not-yet-downloaded
+  - title: Germaniae chronicon (1539)
+    author: Sebastian Franck
+    translator: null
+    year: 1539
+    world: VI.16 family-of-love-and-spiritualists-franck-niclaes
+    why: A Franck original in readable OCR (Wellcome Library scan, about 0.75 word-like, 419,000 words),
+      but his German history, not the Chronica of 1531 or a spiritualist treatise. Not vendored for size
+      and subject.
+    url: https://archive.org/details/hin-wel-all-00000719-001
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (no rights field; Wellcome Library contributor; ProQuest Early European Books image credit in the
+      OCR head)
+    status: not-yet-downloaded
+  - title: Jednání a dopisy konsistoře pod obojí způsobou přijímajících a jiné listiny téže strany se týkající
+      z let 1562-1570
+    author: Utraquist consistory of Prague; Julius Pažout (ed.)
+    translator: null
+    year: 1906
+    world: VI.24 czech-churches-last-century
+    why: The Utraquist church's own institutional voice, which the dossier named as the world's thinness.
+      Found by a title search on 'konsistoř pod obojí'.
+    url: https://archive.org/details/jednnadopisykon01pagoog
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (NOT_IN_COPYRIGHT; 1906 read on the title page); clean Czech OCR. A second scan is jednnadopisykon00pagoog.
+    status: downloaded
+    vendored_as: utraquist-consistory_jednani-a-dopisy-konsistore-pod-oboji-1562-1570-ces_pazout1906.txt
+  - title: Apologie druhá stavův království Českého (1618), ed. Václav Šubert
+    author: Bohemian Protestant estates sub utraque; Václav Šubert (ed.)
+    translator: null
+    year: 1862
+    world: VI.24 czech-churches-last-century
+    why: The estates' own justification of the revolt, with its documents, in Czech.
+    url: https://archive.org/details/apologiedruhsta00ubgoog
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (NOT_IN_COPYRIGHT; Prague 1862 read on the title page); noisy but readable OCR
+    status: downloaded
+    vendored_as: bohemian-estates_apologie-druha-1618-ces_subert1862.txt
+  - title: Die Gefangenschaft des Johann Augusta, Bischofs der böhmischen Brüder, 1548-1564 (Bilek's account,
+      German by J. Th. Müller)
+    author: Jakub Bílek; Joseph Theodor Müller (trans.)
+    translator: Joseph Theodor Müller
+    year: 1895
+    world: VI.24 czech-churches-last-century
+    why: A Unity eyewitness narrative of Augusta's imprisonment inside the window, but the Fraktur OCR is
+      garbled (about 0.5 word-like). Not vendored; no Czech original found on archive.org.
+    url: https://archive.org/details/diegefangenscha00mlgoog
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+      (NOT_IN_COPYRIGHT)
+    status: not-yet-downloaded
+  - title: Quellen zur Geschichte der böhmischen Brüder, vornehmlich ihren Zusammenhang mit Deutschland
+      betreffend (Fontes rerum Austriacarum II.19)
+    author: Anton Gindely (ed.)
+    translator: null
+    year: 1859
+    world: VI.24 czech-churches-last-century
+    why: Documents of the Unity's relations with Germany; not opened this pass.
+    url: https://archive.org/details/quellenzurgesch00gindgoog
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API only, 2026-10-23 (NOT_IN_COPYRIGHT)
+    status: not-yet-downloaded
+  - title: Geschichte der Ertheilung des böhmischen Majestätsbriefes von 1609
+    author: Anton Gindely
+    translator: null
+    year: 1858
+    world: VI.24 czech-churches-last-century
+    why: May print the Letter of Majesty, which the first pass could not find as a separate text; not opened
+      this pass.
+    url: https://archive.org/details/geschichtederer00gindgoog
+    rights_basis: pd-us-by-date
+    verified_by: w2_radical second-pass agent, metadata API only, 2026-10-23 (NOT_IN_COPYRIGHT)
     status: not-yet-downloaded
