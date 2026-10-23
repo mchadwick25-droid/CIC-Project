@@ -11801,3 +11801,275 @@ queue:
       1880), 2026-10-23
     status: downloaded
     vendored_as: "kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt"
+
+  - title: "MGH SRM I: Gregory of Tours, Opera (Latin)"
+    author: "Gregory of Tours"
+    translator: "W. Arndt; B. Krusch (eds.)"
+    year: 1885
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Latin of Gregory's Histories and, above all,
+      his saints' and miracle books, which exist in no public-domain English.
+    url: "https://archive.org/details/monumentagerman01hann"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Hahn 1885; no copyright
+      field); Pars II and the Gloria martyrum located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+
+  - title: "MGH AA IV: Venantius Fortunatus, Opera"
+    author: "Venantius Fortunatus"
+    translator: "Friedrich Leo; Bruno Krusch (eds.)"
+    year: 1885
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Merovingian church's hymns, bishop-poems and
+      Radegund's Life in the poet's own Latin.
+    url: "https://archive.org/details/monumentagermani04geseuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; MGH AA
+      IV); Opera pedestria and the Vita Radegundis located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt"
+
+  - title: "MGH SRM II: Fredegar, Liber historiae Francorum, Lives of Clothild and Radegund"
+    author: "Fredegar; anonymous; Baudonivia"
+    translator: "Bruno Krusch (ed.)"
+    year: 1888
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Frankish chroniclers after Gregory and the two
+      queens' lives, Latin.
+    url: "https://archive.org/details/monumentagerman02hann"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Hahn; the title page
+      1888); the contents list located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt"
+
+  - title: "MGH SRM III: Passiones vitaeque sanctorum aevi merovingici"
+    author: "anonymous hagiographers"
+    translator: "Bruno Krusch (ed.)"
+    year: 1896
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Life of Caesarius of Arles, the census's
+      pastoral bishop, and the Merovingian saints' lives.
+    url: "https://archive.org/details/passionesvitaequesanctorum1"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Krusch 1896; CC Public
+      Domain Mark 1.0); the Vitae Caesarii listed in the fetched contents, 2026-10-23
+    status: downloaded
+    vendored_as: "passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt"
+
+  - title: "MGH Concilia I: Concilia aevi merovingici"
+    author: "Frankish councils (anonymous acts)"
+    translator: "Friedrich Maassen (ed.)"
+    year: 1893
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the canons by which the Merovingian church governed
+      itself.
+    url: "https://archive.org/details/conciliaaevimero01maas"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Hahn 1893; no copyright
+      field); the Council of Orleans (511) located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt"
+
+  - title: "MGH AA VI.2: Avitus of Vienne, Opera"
+    author: "Avitus of Vienne"
+    translator: "Rudolf Peiper (ed.)"
+    year: 1883
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the bishop of Vienne, advising Clovis and arguing
+      with the Arian Gundobad, in his own Latin.
+    url: "https://archive.org/details/p2monumentagerma06geseuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; MGH AA
+      VI.2); the Contra Arianos fragments located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt"
+
+  - title: "Gregory of Tours, History of the Franks (Brehaut, selections) and Miracles"
+    author: "Gregory of Tours"
+    translator: "Ernest Brehaut"
+    year: 1916
+    world: "merovingian-gallic-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the only public-domain English of Gregory's miracle
+      books, in short selections.
+    url: "https://archive.org/details/historyoffranks00greguoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Columbia 1916); the Miracles selections located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "gregory-tours_history-of-the-franks-selections_brehaut1916.txt"
+
+  - title: "Bruns, Canones apostolorum et conciliorum, pars altera"
+    author: "Gallic and Spanish councils (anonymous acts)"
+    translator: "Hermann Theodor Bruns (ed.)"
+    year: 1839
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (2026-10-23): the Gallic and Spanish canons the first Bruns
+      volume (already vendored) does not hold.
+    url: "https://archive.org/details/canonesapostolo01brungoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Reimer
+      1839); the Spanish and Gallic councils located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt"
+
+  - title: "Patrologia Latina 83 (Isidore of Seville: Sententiae, De ecclesiasticis officiis, Historia de regibus Gothorum)"
+    author: "Isidore of Seville"
+    translator: "J.-P. Migne (compiler)"
+    year: 1860
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (2026-10-23): the Visigothic church's great teacher in his own
+      Latin.
+    url: "https://archive.org/details/patrologiaecursu0083mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1844; the
+      text refers to December 1860); the Historia de regibus Gothorum located in the fetched
+      text, 2026-10-23
+    status: downloaded
+    vendored_as: "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+
+  - title: "Isidori Etymologiarum libri XX (Lindsay)"
+    author: "Isidore of Seville"
+    translator: "W. M. Lindsay (ed.)"
+    year: 1911
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (2026-10-23): the Etymologies in the standard critical text.
+    url: "https://archive.org/details/isidori01isiduoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Clarendon 1911; public
+      domain licence field); all twenty books confirmed in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "isidore-seville_etymologiae-origines-lat_lindsay1911.txt"
+
+  - title: "An Encyclopedist of the Dark Ages: Isidore of Seville (with English extracts)"
+    author: "Isidore of Seville"
+    translator: "Ernest Brehaut"
+    year: 1912
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (2026-10-23): the only public-domain English of the Etymologies,
+      as extracts.
+    url: "https://www.gutenberg.org/ebooks/51511"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched; PD statement
+      and the 1912 imprint read, 2026-10-23
+    status: downloaded
+    vendored_as: "isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt"
+
+  - title: "The Visigothic Code (Forum Judicum)"
+    author: "Visigothic kings (anonymous codification)"
+    translator: "S. P. Scott"
+    year: 1910
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (2026-10-23): the Visigothic kingdom's law in complete public-
+      domain English.
+    url: "https://archive.org/details/cu31924072483419"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Boston Book Co. 1910; no
+      copyright field), 2026-10-23
+    status: downloaded
+    vendored_as: "visigothic-code-forum-judicum_scott1910.txt"
+
+  - title: "Patrologia Latina 72 (John of Biclaro; Leander of Seville)"
+    author: "John of Biclaro; Leander of Seville"
+    translator: "J.-P. Migne (compiler)"
+    year: 1878
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (2026-10-23): Leander's homily after Toledo III and his rule, in
+      Latin.
+    url: "https://archive.org/details/patrologiaecur72mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800);
+      Leander's Homilia and Regula located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "john-biclaro-leander-pl72-lat_migne1878.txt"
+
+  - title: "Patrologia Latina 80 (Paulus Emeritanus, Sisebut, Braulio)"
+    author: "Paulus Emeritanus; Sisebut; Braulio of Saragossa"
+    translator: "J.-P. Migne (compiler)"
+    year: 1863
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (2026-10-23): the lives of the Fathers of Merida and Braulio's
+      circle, Latin.
+    url: "https://archive.org/details/patrologiaecursu0080mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1844; the
+      title leaf 1863); Sisebut and Braulio located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+
+  - title: "Patrologia Latina 96 (Ildefonsus, Julian of Toledo)"
+    author: "Ildefonsus of Toledo; Julian of Toledo"
+    translator: "J.-P. Migne (compiler)"
+    year: 1862
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (2026-10-23): the 7th-century bishops of Toledo, the kingdom's
+      later voices.
+    url: "https://archive.org/details/patrologiaecursu96mign"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (date field 1800; the
+      title leaf 1862); Ildefonsus and Julian located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+
+  - title: "Martin von Bracara's De correctione rusticorum"
+    author: "Martin of Braga"
+    translator: "C. P. Caspari (ed.)"
+    year: 1883
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (2026-10-23): the pastoral voice of the Suevic church, on rural
+      paganism.
+    url: "https://archive.org/details/martinvonbracar00martgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; 1883),
+      2026-10-23
+    status: downloaded
+    vendored_as: "martin-braga_de-correctione-rusticorum-lat_caspari1883.txt"
+
+  - title: "Le Liber mozarabicus sacramentorum"
+    author: "Mozarabic liturgy (anonymous)"
+    translator: "Marius Ferotin (ed.)"
+    year: 1912
+    world: "nicene-visigothic-iberia"
+    why: >
+      Era III Library pass (2026-10-23): the Visigothic rite's sacramentary, the kingdom's
+      liturgical voice.
+    url: "https://archive.org/details/lelibermozarabic06cath"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Firmin-Didot 1912; no
+      copyright field), 2026-10-23
+    status: downloaded
+    vendored_as: "ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt"

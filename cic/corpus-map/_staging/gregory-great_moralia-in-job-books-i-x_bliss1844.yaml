@@ -20,3 +20,15 @@ assignments:
       §3, closing the census's own confirmed gap (neither the Dialogues nor
       the Moralia had been vendored anywhere in this corpus). Tradition per
       this entry's own standing rule for Gregory's own voice.
+
+  - row_id: gregory-great_moralia-in-job-books-i-x_bliss1844--moralia-dedicatory-letter-leander
+    work: "Moralia in Job, the dedicatory letter to Leander of Seville"
+    author: gregory
+    locus: "raw lines ~387-540"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: context
+    confidence: assigned
+    note: >
+      Gregory's own letter to Leander, written in Constantinople and naming the friendship
+      that framed the Iberian conversion.

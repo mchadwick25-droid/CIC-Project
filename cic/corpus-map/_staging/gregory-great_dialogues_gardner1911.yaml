@@ -53,3 +53,14 @@ assignments:
     note: >
       Gregory's stories of Arian Italy, Spain and Africa; outside witness for the Homoian
       register entry.
+
+  - row_id: gregory-great_dialogues_gardner1911--dialogues-iii-31-hermenegild
+    work: "Dialogues III.31 (Hermenegild's conversion by Leander and martyrdom)"
+    author: gregory
+    locus: "raw lines ~8003-8100"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: context
+    confidence: assigned
+    note: >
+      Gregory's account of the Visigothic prince's death for the Nicene faith.

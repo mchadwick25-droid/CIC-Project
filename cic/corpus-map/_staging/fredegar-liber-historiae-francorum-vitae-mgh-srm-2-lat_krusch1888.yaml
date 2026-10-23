@@ -1,0 +1,45 @@
+source_file: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt
+
+authors_ruled:
+  fredegar:
+    kind: metadata-omission
+    evidence: >
+      The volume's title names Fredegar's Chronica; the host record names only the
+      publisher.
+    from_file: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt
+  liber-historiae-francorum:
+    kind: anonymous
+    evidence: >
+      The Liber historiae Francorum (727) is anonymous.
+    from_file: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt
+  baudonivia:
+    kind: metadata-omission
+    evidence: >
+      The volume prints De vita Radegundis libri II under Baudonivia's name; the host record
+      names no author.
+    from_file: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt
+
+assignments:
+  - row_id: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888--fredegar-lhf
+    work: "Fredegar, Chronicle, and the Liber historiae Francorum, Latin"
+    author: fredegar
+    locus: "the chronicle sections; LHF from p. 215"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      The 7th-8th-century Frankish chroniclers; provisional, since both are secular
+      historians more than church voices.
+
+  - row_id: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888--lives-chrothildis-radegundis
+    work: "Vita Chrothildis and Baudonivia's De vita Radegundis libri II, Latin"
+    author: baudonivia
+    locus: "Vita Chrothildis from p. 341; Baudonivia from p. 358 (raw line ~28160)"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The Life of the queen who brought Clovis to the faith, and a nun's Life of Radegund;
+      women's religious lives in the Merovingian church.
