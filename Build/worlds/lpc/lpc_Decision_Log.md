@@ -2509,3 +2509,9 @@ Alternatives shown: (1) leave `lpc_Decision_Log.md` (694 KB) in `Build/worlds/lp
 **Question.** The record schema (Redesign-Spec Artifact-1 §4) has no type for a whole sermon in modern English; only a quote's `modern_rendering` holds English text.
 **Alternatives shown.** (1) render what the room uses: every sermon read and categorized, each quotable passage a verbatim quote record with an Opus `modern_rendering`, no schema change; (2) render every sermon whole now, needing a new record type or a library data file; (3) staged: option 1 now, whole-sermon renderings later, batch by batch, into a library data file designed with the library page.
 **Chosen.** 3 (project lead, 2026-10-23, "3, but eventually we may make the sermons available for listening to and research, but not now"). Whole-sermon renderings, and any listening or research use of them, are later work; nothing for them is built now. When that work begins, its format is designed with the library page, and any audio is a paid bulk run under CLAUDE.md's sample-first rule.
+
+---
+
+### 2026-10-23 — Review route for CO-LPC-1: full re-review of every touched document (project lead's ruling)
+
+Alternatives shown: (1) a Cap ruling for one targeted Opus recheck of the change order's edits; (2) no recheck; (3) a full re-review of every touched document. The thread recommended 1. Chosen: 3 (project lead, 2026-10-23, "3"). Recorded as a Cap ruling in `CiC_System_Hub_Decision_Log.md`, entry "Cap ruling: lpc change order CO-LPC-1", naming the nine review files. It replaces the Doc_08 Cap ruling of the same day.
