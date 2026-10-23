@@ -2529,3 +2529,11 @@ Alternatives shown: (1) a Cap ruling for one targeted Opus recheck of the change
 ### 2026-10-23 — Route for the nine review findings: revision pass, then targeted recheck (project lead's ruling)
 
 Alternatives shown: (1) one revision pass fixing the P0 and every P1, each fix verified at source, P2s carried where plainly correct, then one targeted Opus recheck of the fixes under a new Cap ruling; (2) the same pass, then a second full re-review; (3) fix only the P0 and factual errors now. Chosen: 1 (project lead, 2026-10-23, "1"). Cap ruling recorded in the System Hub Decision Log, naming the nine recheck files. Four findings wait on the project lead's own decisions before their fix (OG-52): the D3 narrowing, D4's appendix wording, Dolbeau's sermons, and the Optatus-ascribed sermon in Morin 1917.
+
+---
+
+### 2026-10-23 — D3 clarified: "Augustine's own text" bars later reception, not contemporary witnesses (project lead's ruling)
+
+**Question** (raised by `Review-Artifacts/Doc_01_ChangeOrder_Review_Round13.md` P1-4 and `Doc_02_ChangeOrder_Review_Round36.md` P1-1). D3 said LPC answers only what Augustine's own text says. The build thread had narrowed it without a ruling to questions about Augustine; Doc_01 itself answers how Augustine became bishop from Possidius.
+**Alternatives shown.** (1) it bars later reception only; contemporary witnesses (Possidius, the councils, letters to and about him) stay usable; (2) it bars everything but Augustine's own words; (3) another reading.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). The same sentence now stands in Doc_01 §2 and Doc_02: on questions about Augustine, Datus answers from Augustine's own words and the witnesses of his own time, and not from later readings of him. This replaces the build thread's unruled narrowing.
