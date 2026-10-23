@@ -320,15 +320,22 @@ def test_the_privacy_page_go_deeper_words_read_at_the_target_level_and_name_no_m
     assert score_turn(text).passed, score_turn(text).failures
     assert not re.search(r"[$€£]|\d+\s*%", text)
     assert "30 days" in text and "14 more days" in text and "90 days" in text
-    assert "sells nothing" in text and "any payment" in text
+    assert "we never see your card details" in text and "nothing here is for sale" not in text
     assert "only a count of each answer" in text and "not linked to you or to your code" in text
     assert "network address" in text and "scrambled" in text
 
 
-def test_the_privacy_page_names_no_payment_service_or_purchase_in_the_go_deeper_section():
+def test_the_privacy_page_tells_what_a_purchase_keeps_and_how_long():
     html = (SITE / "privacy.html").read_text()
     section = html[html.index('id="go-deeper"'):html.index('id="retention"')]
-    assert not re.search(r"Stripe|payment ID|refund|you pay|purchase", section, re.I)
+    text = " ".join(_text_of("<main>" + section + "</main>"))
+    assert "You pay on Stripe's own page" in text
+    assert "We keep only the payment's ID and its amount" in text and "never your name or email" in text
+    assert "deleted after 90 days" in text
+    from engine.deeper.meter import FUNDS_RETENTION_DAYS
+
+    assert FUNDS_RETENTION_DAYS == 90
+
 
 
 def test_the_privacy_page_numbers_match_the_meters_own_retention():

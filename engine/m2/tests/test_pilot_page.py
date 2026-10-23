@@ -7,8 +7,7 @@ import subprocess
 from pathlib import Path
 
 from engine.api.deeper_ops import load_ops
-from engine.deeper import tokens
-from engine.m2.tests.test_go_deeper_pages import NUMBER_WORDS, _text_of
+from engine.m2.tests.test_go_deeper_pages import _text_of
 from engine.m7.turn_readability import score_turn
 
 REPO = Path(__file__).resolve().parents[3]
@@ -32,8 +31,8 @@ def test_the_offer_is_the_words_mark_approved():
     blocks = _text_of(PAGE.read_text())
     assert "Join the pilot" in blocks
     assert any(
-        b.startswith("Go Deeper lets you keep talking after a free conversation ends. Join the pilot and we give you one free pack:")
-        and b.endswith("conversations.")
+        b.startswith("Tokens let you keep talking when your free tokens run out. Join the pilot and we give you one free pack:")
+        and b.endswith("tokens.")
         for b in blocks
     )
     assert any(b.startswith("Try a few conversations and explore the Church Family Tree. Then tell us what you found in a short questionnaire. It is open now and stays open until") and b.endswith("You do not need to give your name or email.") for b in blocks)
@@ -82,8 +81,7 @@ def test_the_figures_are_the_pilot_packs_in_the_operations_file():
     pack = next(p for p in ops.packs if p.price_usd == ops.pilot_pack_usd)
     html = PAGE.read_text()
     assert re.search(r'data-ops="pilot-tokens">' + f"{pack.tokens:,}" + "<", html)
-    words = re.search(r'data-ops="pilot-conversations">([a-z-]+)<', html).group(1)
-    assert words == NUMBER_WORDS[pack.tokens // tokens.conversation_cost(ops.rates, ops.rates.example_rounds)]
+    assert "pilot-conversations" not in html
 
 
 def test_the_pilots_one_end_date_on_the_page_is_the_operations_files():
