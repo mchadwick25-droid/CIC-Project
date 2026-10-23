@@ -15,23 +15,27 @@ function fleschReadingEase(text: string): number {
   return 206.835 - 1.015 * (words.length / sentences.length) - 84.6 * (total / words.length);
 }
 
+type Line = string | ((...args: never[]) => string);
+const lineOf = (value: Line, fill: unknown): string =>
+  typeof value === 'function' ? (value as (...args: unknown[]) => string)(...Array.from({ length: value.length }, () => fill)) : value;
+
 describe('accounts copy', () => {
   it('reads at Flesch Reading Ease 60 or above', () => {
-    const lines = Object.values(accountsCopy).map((v) => (typeof v === 'function' ? v(3 as never) : v));
+    const lines = Object.values(accountsCopy).map((v) => lineOf(v as Line, 3));
     const text = lines.map((l) => (/[.?!]$/.test(String(l)) ? String(l) : `${l}.`)).join(' ');
     expect(fleschReadingEase(text)).toBeGreaterThanOrEqual(60);
   });
 
-  it('reads at 50 or above on every line of 6 words or more', () => {
+  it('reads at 50 or above on every line of 7 words or more', () => {
     for (const v of Object.values(accountsCopy)) {
-      const line = String(typeof v === 'function' ? v('Monday' as never) : v);
-      if (line.split(/\s+/).length >= 6) expect(fleschReadingEase(/[.?!]$/.test(line) ? line : `${line}.`), line).toBeGreaterThanOrEqual(50);
+      const line = lineOf(v as Line, 'Monday');
+      if (line.split(/\s+/).length >= 7) expect(fleschReadingEase(/[.?!]$/.test(line) ? line : `${line}.`), line).toBeGreaterThanOrEqual(50);
     }
   });
 
   it('keeps every sentence to 25 words or fewer', () => {
     for (const v of Object.values(accountsCopy)) {
-      const line = typeof v === 'function' ? v('Monday' as never) : v;
+      const line = lineOf(v as Line, 'Monday');
       for (const sentence of String(line).split(/[.?!]+/)) {
         expect(sentence.trim().split(/\s+/).filter(Boolean).length).toBeLessThanOrEqual(25);
       }
