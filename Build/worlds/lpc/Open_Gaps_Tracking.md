@@ -1710,3 +1710,15 @@ Logged 2026-10-23, moved here from `lpc_Representative_Identity_Decision.md` so 
 - **Portrait serving.** `Datus_Portrait.jpg` is committed under `Build/Ministry/Communication/Brand-Assets/Representative-Portraits/lpc/` and is not yet served from `cic-website/assets/portraits/`.
 - **Propagation.** The label still appears in the Permanent Prompt, the Capsule Core, the World Profile, the Voice Configuration and the Representative phase files (OG-28). Every file changes in one pass once Doc_10 is drafted.
 - **Owner.** The `lpc` build thread. Closes when the caption is approved and no file carries the label.
+
+### OG-49. `lpcstory006`: the Acta Proconsularia read, the tier decision, and two corrections it forces (2026-10-23).
+
+Logged 2026-10-23 from `Review-Artifacts/Doc09_Acta_Proconsularia_Read_lpcstory006_2026-10-23.md` (Opus 5.5 reading note).
+
+- **What the Acta confirms.** The crowd following Cyprian, the overnight vigil at the door, "Deo gratias", kneeling in prayer, the brothers' cry "et nos cum ipso decollemur", his own hand over his eyes.
+- **Pontius alone.** The trees, Zacchaeus, the hurried executioner, the trembling hand strengthened "from above", the centurion (the Acta says *spiculator*).
+- **Contradicted.** The Acta says the presbyter and subdeacon Julianus tied the cloths over his eyes; Pontius's "per manus suas" disagrees. Harnack (vendored) reads the trembling fingers as Cyprian's, not the executioner's.
+- **Correction 1.** The three vendored Latin texts (Hartel, Gebhardt 1902, Knopf–Krüger 1929) all print Hartel's edition. They are one witness, not three. The Decision Log entry of 2026-10-23 on `lpcstory006` lists them as three texts; read it as one edition in three printings.
+- **Correction 2.** Registry row 41's "strictly documentary" for the Acta is not supported: the vendored text carries Christian framing.
+- **Tier.** The note recommends retelling the story at Tier 1 on what Pontius and the Acta both attest, with the alternatives of keeping Tier 3 with corrections or splitting it in two. Put to the project lead.
+- **Owner.** The project lead for the tier route; then the `lpc` build thread, by Doc_09 change order with an independent check.
