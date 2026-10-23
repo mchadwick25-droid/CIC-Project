@@ -29,3 +29,15 @@ assignments:
     confidence: provisional
     note: The same section names Kyiv twice and prints Latin and Greek church material; placed on window
       and place for the later Kyivan revival, not read for it.
+  - row_id: herberstein_notes-upon-russia-v1_major1851--notes-upon-russia-vol-1-herberstein-major-s-english-1851
+    work: Notes upon Russia, vol. 1 (Herberstein, Major's English, 1851)
+    author: herberstein
+    locus: whole volume
+    atlas_ids:
+    - muscovite-monastic-christianity
+    role: context
+    confidence: assigned
+    note: 'Tier: same place, just after the window (his visits fall in 1517 to 1549). The Holy Trinity monastery
+      is ''the principal monastery in Moscow'' where Saint Sergius lies and ''is said to perform many miracles''
+      (file line 11127; Major''s note on the Laurel of Saint Sergius at 11155), and Sergius appears at 8408
+      and 9378. Outside witness, English, clean OCR.'

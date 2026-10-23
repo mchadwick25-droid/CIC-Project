@@ -1,0 +1,24 @@
+source_file: montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt
+assignments:
+- row_id: montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885--histoire-litteraire-des-vaudois-du-piemont-montet-with
+  work: Histoire littéraire des Vaudois du Piémont (Montet), with extracts of the barbes' manuscripts
+  author: montet
+  locus: Chapitres IV-V (fifteenth-century literature) and the pièces justificatives
+  atlas_ids:
+  - waldensians-in-the-alps
+  role: context
+  confidence: assigned
+  note: Scholarship (1885) that describes the Waldensian manuscripts and prints long extracts of the Old
+    Occitan texts. Use it to locate the original texts and quote only after checking the page images.
+    Not a primary voice in itself.
+- row_id: montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885--histoire-litteraire-des-vaudois-du-piemont-montet-with-2
+  work: Histoire littéraire des Vaudois du Piémont (Montet), with extracts of the barbes' manuscripts
+  author: montet
+  locus: Chapitres IV-V (fifteenth-century literature) and the pièces justificatives
+  atlas_ids:
+  - the-waldensians
+  role: context
+  confidence: provisional
+  note: Scholarship (1885) that describes the Waldensian manuscripts and prints long extracts of the Old
+    Occitan texts. Use it to locate the original texts and quote only after checking the page images.
+    Not a primary voice in itself.

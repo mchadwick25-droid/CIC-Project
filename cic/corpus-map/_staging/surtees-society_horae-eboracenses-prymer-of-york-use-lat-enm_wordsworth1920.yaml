@@ -1,0 +1,14 @@
+source_file: surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt
+assignments:
+- row_id: surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920--horae-eboracenses-the-prymer-of-the-york-use-with-devotions-of-the-lay-folk-ed-canon-wordsworth-surtees-societ
+  work: 'Horae Eboracenses: the Prymer of the York Use with devotions of the lay-folk, ed. Canon Wordsworth
+    (Surtees Society 132)'
+  author: surtees-society
+  locus: the table of contents from file line 92; the litany near line 11356
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: 'The prayer book of lay people in the northern province, in the York use: hours of the Virgin
+    and other devotions, in Latin and English. The northern counterpart to the Cambridge Prymer. A second
+    witness for exact wording where the OCR is noisy; check page images before quoting.'

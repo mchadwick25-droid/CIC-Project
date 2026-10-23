@@ -353,6 +353,17 @@ works:
 
     '
   source_file: gerard-john_condition-of-catholics-under-james-i_morris1871.txt
+- row_id: hilton_scale-or-ladder-of-perfection_dalgairns1908--the-scale-or-ladder-of-perfection-dalgairns-printing-of-the-seventeenth-century-text-2
+  work: The Scale (or Ladder) of Perfection, Dalgairns printing of the seventeenth-century
+    text
+  author: hilton
+  locus: the whole file; the introduction names the 1869 and 1870 editions
+  role: transmission
+  confidence: provisional
+  note: 'Custody, not voice: this is Hilton as the English Benedictines and later Catholic
+    editors kept him in print. The voice is assigned to the English Mystics. Placed on the
+    text''s own account of its editions; left provisional.'
+  source_file: hilton_scale-or-ladder-of-perfection_dalgairns1908.txt
 - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--holtby-on-persecution-in-the-north
   work: Father Richard Holtby on Persecution in the North (Holtby's narrative, with extracts
     from the Acts of the Ecclesiastical Commission of the North and his account of three martyrs)
@@ -392,6 +403,17 @@ works:
 
     '
   source_file: jewel_apology-of-the-church-of-england_bacon-morley1888.txt
+- row_id: julian-of-norwich_sixteen-revelations-of-divine-love_cressy1843--xvi-revelations-of-divine-love-cressy-s-1670-text-1843-reprint-2
+  work: XVI Revelations of Divine Love (Cressy's 1670 text, 1843 reprint)
+  author: julian-of-norwich
+  locus: the whole file; the prefaces from line 120
+  role: transmission
+  confidence: provisional
+  note: 'Custody, not voice: Cressy put Julian into print in 1670 (the title page), and the
+    census says her book circulated quietly among Carthusians and English exiles for centuries.
+    The voice is assigned to the English Mystics. Placed on that custody claim without reading
+    the prefaces for it; left provisional.'
+  source_file: julian-of-norwich_sixteen-revelations-of-divine-love_cressy1843.txt
 - row_id: luis-de-granada_of-prayer-and-meditation_hopkins1582--of-prayer-and-meditation-recusant
   work: Of Prayer, and Meditation, the 1582 Paris English with the translator's epistle to
     the Inns of Court

@@ -1,0 +1,15 @@
+source_file: apology-for-lollard-doctrines_todd1842.txt
+
+assignments:
+  - row_id: apology-for-lollard-doctrines_todd1842--an-apology-for-lollard-doctrines-todd-s-edition-middle
+    work: "An Apology for Lollard Doctrines (Todd's edition, Middle English)"
+    author: apology-for-lollard-doctrines
+    locus: "whole volume; Todd's introduction first"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      A Lollard tract in the movement's own English, attributed to Wyclif in the title. Second witness:
+      thorn is read as f. The attribution to Wyclif is not established; treat it as a movement text, not
+      as Wyclif's own.

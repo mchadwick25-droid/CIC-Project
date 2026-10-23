@@ -1,0 +1,22 @@
+source_file: bernardino-of-siena_prediche-volgari-1427-v2-ita_banchi1884.txt
+authors_ruled:
+  bernardino-of-siena:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file. The preacher is named on the title page printed in the file as San Bernardino da
+      Siena, with Banchi as editor. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    bernardino-of-siena_prediche-volgari-1427-v2-ita_banchi1884--le-prediche-volgari-of-san-bernardino-da-siena-siena-1427
+  work: Le prediche volgari of San Bernardino da Siena, Siena 1427, volume 2 of 3 (Banchi)
+  author: bernardino-of-siena
+  locus: Sermons XVI to XXX
+  atlas_ids:
+  - observant-reform-and-popular-preaching
+  role: tradition
+  confidence: assigned
+  note: >-
+    Sermons XVI to XXX. The 1427 Siena cycle as a listener took it down, in Italian, asides and audience reactions
+    included. Primary voice of the Observance, clean OCR, ready to quote once checked against the scan. A public-domain
+    English selection (Orlandi and Robins, 1920) is vendored beside it; the full cycle has no public-domain English
+    translation.

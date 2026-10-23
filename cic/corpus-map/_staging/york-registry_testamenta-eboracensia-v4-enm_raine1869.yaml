@@ -1,0 +1,14 @@
+source_file: york-registry_testamenta-eboracensia-v4-enm_raine1869.txt
+assignments:
+- row_id: york-registry_testamenta-eboracensia-v4-enm_raine1869--testamenta-eboracensia-vol-iv-surtees-society-53-wills-registered-at-york-mostly-of-the-1460s-to-1509
+  work: 'Testamenta Eboracensia, vol. IV (Surtees Society 53): wills registered at York, mostly of the
+    1460s to 1509'
+  author: york-registry
+  locus: the preface from file line 156; the wills follow in registry order
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: 'Wills registered at York, in the testators'' own words (the passages read show bequests for torches,
+    masses and a chantry priest). mostly readable; Latin abstracts of wills and English notes with some
+    misread letters. A second witness for exact wording; check page images before quoting. '

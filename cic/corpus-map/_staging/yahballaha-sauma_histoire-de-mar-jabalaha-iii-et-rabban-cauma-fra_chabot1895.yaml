@@ -1,0 +1,16 @@
+source_file: yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895.txt
+assignments:
+- row_id: yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895--histoire-de-mar-jabalaha-iii-et-du-moine-rabban-cauma-french
+  work: Histoire de Mar Jabalaha III et du moine Rabban Cauma (French translation of the Syriac life,
+    with appendices)
+  author: yahballaha-sauma
+  locus: chapters from file line 1051; appendices after the translation
+  atlas_ids:
+  - church-of-the-east-timur-to-hakkari
+  - church-of-the-east-under-the-mongols
+  - st-thomas-christians-1300-1517
+  role: antecedent
+  confidence: assigned
+  note: Primary Syriac life in French translation, clean OCR, with documentary appendices; ready to quote
+    once verified against the scan. Second translation of the same life as the Budge English file; ends
+    in 1317.

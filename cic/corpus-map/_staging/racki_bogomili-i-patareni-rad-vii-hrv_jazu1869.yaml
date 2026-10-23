@@ -1,0 +1,15 @@
+source_file: racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt
+assignments:
+- row_id: racki_bogomili-i-patareni-rad-vii-hrv_jazu1869--bogomili-i-patareni-racki-rad-jugoslavenske-akademije-knjiga
+  work: Bogomili i Patareni (Rački), Rad Jugoslavenske akademije, knjiga VII
+  author: racki
+  locus: 'the whole extract (host lines 18791-24144 of the host file); pp. 84-179: the Bogomil origin,
+    the Western Patarenes and Bosnia to the confession of 1203'
+  atlas_ids:
+  - the-bosnian-church
+  role: context
+  confidence: assigned
+  note: Nineteenth-century Croatian study that argued the krstjani were Bogomil dualists, the reading
+    most scholars have rejected since the 1970s. Secondary, in Croatian, with Latin and Slavonic quotations
+    from the sources. Kept as the origin of the old reading and as a guide to the sources. One of three
+    extracts that together hold the article; no English translation found.

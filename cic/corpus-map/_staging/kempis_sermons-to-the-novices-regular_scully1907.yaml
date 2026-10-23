@@ -1,0 +1,14 @@
+source_file: kempis_sermons-to-the-novices-regular_scully1907.txt
+
+assignments:
+  - row_id: kempis_sermons-to-the-novices-regular_scully1907--kempis-sermons-to-the-novices-regular-scully-s-translation
+    work: "Kempis, Sermons to the Novices Regular (Scully's translation)"
+    author: kempis
+    locus: "whole volume; translator's preface first"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      Kempis teaching novices in his own house, in public-domain English. The Latin is vendored beside it
+      in the Pohl volume.

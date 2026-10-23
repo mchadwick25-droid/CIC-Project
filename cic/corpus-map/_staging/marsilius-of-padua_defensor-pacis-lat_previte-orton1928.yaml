@@ -1,0 +1,13 @@
+source_file: marsilius-of-padua_defensor-pacis-lat_previte-orton1928.txt
+assignments:
+- row_id: marsilius-of-padua_defensor-pacis-lat_previte-orton1928--defensor-pacis-of-marsilius-of-padua-latin-text-previte
+  work: Defensor pacis of Marsilius of Padua, Latin text (Previté-Orton, 1928)
+  author: marsilius-of-padua
+  locus: whole volume; Dictio I-III
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: context
+  confidence: assigned
+  note: A contemporary opponent of the Avignon papacy, in the standard critical Latin edition; condemned
+    by John XXII. Context, not the papal church's voice. Latin readable; quotable once verified against
+    the scan. No public-domain English translation found.

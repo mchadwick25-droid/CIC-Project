@@ -98,3 +98,29 @@ assignments:
     note: >
       A 13th-century Jacobite author openly hostile to this church; context, tier 4. The
       same file is tradition for syriac-edessa-nisibis.
+  - row_id: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877--lamy-s-appendix-series-catholicorum-nestorianorum-continuata
+    work: 'Lamy''s appendix, Series catholicorum Nestorianorum continuata: the bishops ordained in 1504
+      for India'
+    author: barhebraeus
+    locus: whole volume
+    atlas_ids:
+    - st-thomas-christians-1300-1517
+    role: context
+    confidence: assigned
+    note: The appendix reports the three bishops ordained in 1504 and sent to India, the Dabek islands and
+      China, and the dates of Simeon's death (1503) and Elias's patriarchate (1504) (shelf file lines 29186
+      to 29196, in a two-column passage the OCR interleaves). A modern editor's list, not Bar Hebraeus;
+      read at those lines.
+  - row_id: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877--barhebraeus-chronicon-ecclesiasticum-iii-lamy-s-note-on-the
+    work: 'Barhebraeus, Chronicon ecclesiasticum III: Lamy''s note on the orthodoxy of the Maronites'
+    author: barhebraeus
+    locus: whole volume
+    atlas_ids:
+    - maronite-christianity-era-6
+    role: context
+    confidence: provisional
+    note: 'Tier: out-of-window (the chronicle is thirteenth-century; the note is the editor''s, 1877). The
+      index entry ''Maronitae an semper fuerint orthodoxi, 404'' is at file line 32675 and Lamy''s addendum
+      on the orthodoxy of the Maronites, citing Debs''s book against Joseph David, at 34767 to 34780. The
+      Syriac Orthodox side of the argument about the church''s early history that the census calls its floor
+      question. Read at those lines.'

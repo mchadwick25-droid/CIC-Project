@@ -1,15 +1,5 @@
 source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
 assignments:
-- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-1838-english-1842
-  work: A History of the Church of Russia (1838; English 1842)
-  author: mouravieff
-  locus: the chapters from Nikon to the founding of the Synod
-  atlas_ids:
-  - russian-church-nikon-to-holy-synod
-  role: transmission
-  confidence: assigned
-  note: The Synod's own officer narrating this period two decades after it closed; the church's received
-    account, not a witness of the events.
 - row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-1838-english-1842-2
   work: A History of the Church of Russia (1838; English 1842)
   author: mouravieff
@@ -29,3 +19,28 @@ assignments:
   confidence: provisional
   note: The Polotsk reunion of 1839 in the Synod's own papers; the author slug follows the file, the documents
     are the Synod's and Blackmore's selection.
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-mouravieff-blackmore-s
+  work: A History of the Church of Russia (Mouravieff; Blackmore's English, 1842)
+  author: mouravieff
+  locus: Sergius from file line 3151; Solovetsky 3520; Joseph of Volokolamsk 4413; Nilus of Sor and the
+    Monastic Rule 4648
+  atlas_ids:
+  - muscovite-monastic-christianity
+  role: context
+  confidence: assigned
+  note: A Russian official's narrative of the church in English. It covers Sergius and the Trinity foundation,
+    the colonisation of the north, the Solovetsky house, and the possessors and non-possessors. It speaks
+    about the movement, not in its voice. Read at the cited passages. The only public-domain English leg
+    for this world. Check its judgments as an official Orthodox standpoint.
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-mouravieff-blackmore-s-2
+  work: A History of the Church of Russia (Mouravieff; Blackmore's English, 1842)
+  author: mouravieff
+  locus: the sixteenth-century and seventeenth-century chapters (the name Nikon occurs about 189 times)
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  - russian-church-nikon-to-holy-synod
+  - the-old-believers
+  role: context
+  confidence: provisional
+  note: 'Placed on window and place: the same history carries the Stoglav period, the Nikonian reform
+    and the schism. Sampled by name counts only; not read for these entries.'

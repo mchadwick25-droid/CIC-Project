@@ -14,3 +14,16 @@ assignments:
       founder (Gerard Groote) and his key successor (Florentius
       Radewin), trans. J. P. Arthur (1905) - the tradition's own telling
       of its own origin, not a neutral outside biography.
+  - row_id: kempis_founders-of-the-new-devotion_arthur1905--kempis-founders-of-the-new-devotion-the-account-of-ruysbroek
+    work: 'Kempis, Founders of the New Devotion: the account of Ruysbroek'
+    author: kempis
+    locus: whole volume
+    atlas_ids:
+    - rhineland-mysticism-and-the-friends-of-god
+    role: context
+    confidence: provisional
+    note: 'Kempis''s Life of Groote tells of John Ruysbroek, ''a monk and ...'', and Groote''s visit and
+      notes of his sayings (file lines 2869 to 3845). Proposed as context here. Tier: same time-different
+      region.
+  
+      '

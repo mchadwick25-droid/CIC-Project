@@ -1,0 +1,12 @@
+source_file: india-in-the-fifteenth-century_narratives-of-voyages_major1857.txt
+assignments:
+- row_id: india-in-the-fifteenth-century_narratives-of-voyages_major1857--india-in-the-fifteenth-century-narratives-of-conti-abd-er-ra
+  work: 'India in the Fifteenth Century: narratives of Conti, Abd-er-Razzak, Nikitin, Santo Stefano'
+  author: india-in-the-fifteenth-century
+  locus: Nestorians and the Thomas shrine in Conti's narrative at file lines 2467, 2667-2668 and 5752-5753
+  atlas_ids:
+  - st-thomas-christians-1300-1517
+  role: context
+  confidence: provisional
+  note: Outsider travellers' notices in English (1857 Hakluyt volume), clean OCR; Conti's passages on
+    the Nestorians and the Thomas shrine are the useful part. Placed on subject from grep; not read through.

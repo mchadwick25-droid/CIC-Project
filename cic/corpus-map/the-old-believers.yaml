@@ -167,6 +167,16 @@ works:
   confidence: assigned
   note: The noblewoman who died for the old rite in 1675, in the movement's own hagiography.
   source_file: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-mouravieff-blackmore-s-2
+  work: A History of the Church of Russia (Mouravieff; Blackmore's English, 1842)
+  author: mouravieff
+  locus: the sixteenth-century and seventeenth-century chapters (the name Nikon occurs about
+    189 times)
+  role: context
+  confidence: provisional
+  note: 'Placed on window and place: the same history carries the Stoglav period, the Nikonian
+    reform and the schism. Sampled by name counts only; not read for these entries.'
+  source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
 - row_id: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875--ivan-neronov-s-letters-and-petitions-in-materialy-vol-ii
   work: Ivan Neronov's letters and petitions (in Materialy, vol. II, 1875)
   author: neronov

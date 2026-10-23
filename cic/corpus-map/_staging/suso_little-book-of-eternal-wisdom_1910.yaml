@@ -1,0 +1,24 @@
+source_file: suso_little-book-of-eternal-wisdom_1910.txt
+
+assignments:
+  - row_id: suso_little-book-of-eternal-wisdom_1910--suso-little-book-of-eternal-wisdom-english-1910
+    work: "Suso, Little Book of Eternal Wisdom (English, 1910)"
+    author: suso
+    locus: "whole file; Suso's text first, Hilton's Parable after"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      Suso's most read devotional work in English. The translator is not named in the front matter.
+  - row_id: suso_little-book-of-eternal-wisdom_1910--walter-hilton-parable-of-the-pilgrim-printed-with-suso-s
+    work: "Walter Hilton, Parable of the Pilgrim (printed with Suso's Little Book)"
+    author: suso
+    locus: "the closing piece of the volume"
+    atlas_ids:
+      - the-english-mystics-and-devout
+    role: tradition
+    confidence: provisional
+    note: >
+      Placed on the title page's attribution to Walter Hilton. Not read against the English Mystics
+      world's own window and sources.

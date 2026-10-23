@@ -23,6 +23,8 @@ with no history in the document, lives in the file it governs (here,
 
 **Slugs.** The renewed Moravian Church (1722 onward) has its own institutional author slug, `moravian-church`, kept distinct from `unity-of-the-brethren` (the old Czech Unity), so the continuity claim stays a claim the texts make rather than a fact the index asserts. The Methodist bucket now carries two Wesley slug conventions (the meth thread's `wesley-john`, `wesley-charles`; the Library's filename slugs `wesley-j`, `wesley-c`); reconciling them is flagged in the Methodist dossier for that world's thread.
 
+**Shared file.** A. N. Mouravieff's History of the Church of Russia (Blackmore, 1842) was vendored by this pass and, in the same hours, by the Era VI pass (V.8). One file, one registry entry: the Era VI file and entry stand, and this pass keeps its seed row and its two Era VIII assignments beside the Era VI rows. This pass's own nikon-to-holy-synod row was dropped because the Era VI rows already place the file there as context, which is also what Mark's Era VII ruling 6 asks of a post-window account.
+
 **Placements left for Mark.** Cross-world rows are staged `provisional` where the fit is arguable; each dossier's section 5 names the open questions, among them Whitefield's allocation (VII.5, VII.6, VII.10), whether the middle and southern colonies belong to VII.6, the AME edge of VII.5 (Allen, Jarena Lee), the Czech succession claim of VII.4, and missions with no census home (the Danish West Indies, Greenland, Tranquebar).
 ## 2026-10-23 — Era III library pass: scope, corrections, and placements left to Mark
 
@@ -260,6 +262,56 @@ registry's append-only rule; nothing already written is changed.
 beside each file, and any `sections` field in the registry, stay for the
 Source Library build to propose. If Mark wants the trailer promoted to a
 field, the three facts are already separable by their labels.
+
+---
+
+## 2026-10-23 — Era VI library pass: scope, and the one reader-ready convention
+
+**Instruction.** The project lead (2026-10-16): build the library for every
+census world that has not started Step 0 to Doc_02, one era per fresh
+session, in auto mode inside that scope. This session is Era VI
+(1300–1517).
+
+**Scope as applied.** The census lists 23 Era VI worlds. The Hussite and
+Bohemian Brethren world has a Doc_02 under `Build/worlds/hus/` and is out of
+scope. The other 22 are in scope. Lollardy and the Devotio Moderna have a
+Step 0 and a Doc_01 but no Doc_02, and both already have dossiers, which this
+pass completes rather than restarts. Taborite Radicalism and the Fraticelli
+carry the census status "Within Another World", and the Adamites carry
+"Contested - Evidentiary". Each still gets a dossier, and the dossier says
+whether its sources support that status. Build-or-atlas recommendations are
+the project lead's decision; the dossiers only recommend.
+
+**Reader-ready facts.** This pass follows the convention in the entry
+"Reader-ready facts recorded in the registry `notes` trailer, not a new
+schema field": a `READER:` trailer at the end of each registry note, no new
+field, and nothing added to the vendored file's own header. The Source
+Library design document is not at the path the instruction names, so the
+trailer is the only reference.
+
+**Nothing generated.** No translation, rendering or paraphrase written by a
+model enters the library. Where a non-English text has no public-domain
+English translation, the dossier records the gap.
+
+**Roles on reception rows.** Workers staged a later author's reading of an
+Era VI text (Wesley on Tauler, Luther on the Theologia deutsch, Hus on
+Wyclif, the Synaxaristes on Palamas) as `transmission`. That role is custody,
+not reception, and the corpus-map test requires a transmitted work's own
+voice to be assigned elsewhere. Those rows are `context`: the view of a
+later reader. The two Theologia deutsch rows on the Lutheran world keep
+`transmission`, under the same title as the Rhineland tradition rows, since
+Luther's printing is why the text survived in print. The four
+`tests_corpus_map.py` checks that already fail on `main` (the fixture bucket
+name, bucket reproducibility, two unused author rulings, and two orphan
+transmissions from earlier passes) are left as found; this pass adds no new
+failure. `gen_matrix.py` fails on `main` on a built world's registry
+(`role_label`); that is outside the library and is flagged, not fixed.
+
+**Size.** `cic/texts/` stood at about 1.1 GB when this pass restarted, past
+the 1 GB planning trigger in `PLAN-texts-store-scaling.md`. This pass vendors
+only what a world's own voice or its hostile record needs, and each
+pull request states the size it leaves behind.
+
 
 ---
 

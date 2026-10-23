@@ -1,0 +1,16 @@
+source_file: cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt
+assignments:
+- row_id: cloud-of-unknowing_cloud-and-other-treatises_mccann1924--the-cloud-of-unknowing-the-epistle-of-privy-counsel-and-related-treatises-modern-spelling-ed-justin-mccann-wit
+  work: The Cloud of Unknowing, the Epistle of Privy Counsel and related treatises (modern spelling),
+    ed. Justin McCann, with Baker's commentary
+  author: cloud-of-unknowing
+  locus: the contents from file line 1548; Part II (Baker's commentary) at line 2695; the Epistle of Privy
+    Counsel from line 10225
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: The anonymous author's Cloud and Epistle of Privy Counsel in modern spelling, with Augustine Baker's
+    seventeenth-century commentary. Mostly clean OCR with scrambled stretches; a primary voice for the
+    Cloud and the Epistle, ready to quote once verified against the scan. Baker's commentary is a later
+    Benedictine reader, a transmission voice, not the anonymous author's.

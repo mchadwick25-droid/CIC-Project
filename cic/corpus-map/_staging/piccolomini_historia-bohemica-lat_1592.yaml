@@ -19,3 +19,15 @@ assignments:
       vendored file, since it is primary to the movement regardless of
       language; the scan is clean, not flagged as garbled under the
       Library's own OCR-quality rule.
+  - row_id: piccolomini_historia-bohemica-lat_1592--aeneas-sylvius-piccolomini-historia-bohemica-1592-printing
+    work: Aeneas Sylvius Piccolomini, Historia Bohemica (1592 printing)
+    author: piccolomini
+    locus: whole volume
+    atlas_ids:
+    - taborite-radicalism
+    - inquisition-record-sects-adamites-and-kin
+    role: context
+    confidence: provisional
+    note: 'A later outside observer on Tábor and on the Adamites (chapter ''De Adamitis'' (file line 5132)
+      and 28 mentions of the Taborites). OCR is poor (see the Hussite dossier), so this is a second witness.
+      Already assigned to the Hussite entry. Tier: same time-place.'

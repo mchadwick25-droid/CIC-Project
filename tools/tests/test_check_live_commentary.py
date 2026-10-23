@@ -1424,8 +1424,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # this same line from 127 to 108; refreshed 2026-10-04: Go Deeper S5d
     # (commit a5df3f70) added a line above it, so it is now 109. Same text,
     # same label.
-    # Refreshed 2026-10-23: the weekly spend door removal (commit 0f2675dc)
-    # moved it to 110. Same text, same label.
     ("cic-website/support.html", 110, "KEEP"),
     ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
@@ -1457,7 +1455,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/worlds/hal/hal_Decision_Log.md", 88, "PROTECTED"),
     ("Build/worlds/don/scripts/wb_don_s21.py", 450, "REWRITE"),
     ("Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
-    ("Build/worlds/_cross-world/dossiers/devotio-moderna-brethren-of-the-common-life_Source_Readiness_Dossier.md", 11, "REWRITE"),
+    ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): line 109 shifted to 120 once the eleven

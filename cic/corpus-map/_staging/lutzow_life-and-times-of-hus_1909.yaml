@@ -13,3 +13,15 @@ assignments:
       Secondary biography, English, Lutzow (1909). Fills out the
       institutional/political register this thin-sourced world's corpus
       otherwise lacked (previously only Hus's own two vendored works).
+  - row_id: lutzow_life-and-times-of-hus_1909--luetzow-life-and-times-of-master-john-hus-wyclif-s-reception
+    work: 'Luetzow, Life and Times of Master John Hus: Wyclif''s reception in Bohemia'
+    author: lutzow
+    locus: whole volume
+    atlas_ids:
+    - lollardy
+    role: context
+    confidence: provisional
+    note: 'Secondary prose, a Bohemian history that treats Wyclif''s writings and their arrival in Prague
+      (about 175 mentions). Tier: same time-different region.
+  
+      '

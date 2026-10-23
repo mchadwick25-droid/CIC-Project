@@ -1,0 +1,16 @@
+source_file: eckhart_deutsche-mystiker-bd2-gmh_pfeiffer1857.txt
+
+assignments:
+  - row_id: eckhart_deutsche-mystiker-bd2-gmh_pfeiffer1857--meister-eckhart-german-sermons-and-tractates-pfeiffer-s
+    work: "Meister Eckhart, German sermons and tractates (Pfeiffer's edition, Middle High German)"
+    author: eckhart
+    locus: "whole volume; Pfeiffer's preface at the head, the manuscript list after it"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      Eckhart's own German works in the older standard edition, Middle High German. A primary voice once
+      each quotation is checked against the page images. The English of the same text (Evans, 1924) is
+      vendored beside it as eckhart_meister-eckhart-vol1_evans1924.txt; a Latin defence by Eckhart is
+      vendored as eckhart_lateinische-rechtfertigungsschrift-lat_daniels1923.txt.

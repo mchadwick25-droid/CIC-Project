@@ -15,3 +15,14 @@ assignments:
     the page image: the Latin and German read legibly (word-form coverage against a clean Latin vocabulary
     0.54, lowered by the German and Czech), with occasional letter-level misreads. Documents are by many
     writers and are not one voice; the editor''s German summaries are Palacký''s.'
+- row_id: palacky_urkundliche-beitraege-hussitenkrieg-v1-deu-lat_1873--palacky-urkundliche-beitrage-zur-geschichte-des
+  work: 'Palacký, Urkundliche Beiträge zur Geschichte des Hussitenkrieges, Band I: 1419-1428'
+  author: palacky
+  locus: whole volume
+  atlas_ids:
+  - taborite-radicalism
+  role: context
+  confidence: provisional
+  note: 'Documents of the wars from Hussite, Taborite, Catholic and royal hands, with the editor''s German
+    summaries of the Taborite documents (the Taborite texts themselves are mostly summaries, not their
+    own words). About 9 mentions of the Taborites. Already assigned to the Hussite entry. Tier: same time-place.'

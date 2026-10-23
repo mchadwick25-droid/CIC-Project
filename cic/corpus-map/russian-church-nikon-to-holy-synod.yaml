@@ -3,7 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: russian-church-nikon-to-holy-synod
 works:
-- row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-3
+- row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-4
   work: The Life of the Archpriest Avvakum by Himself
   author: avvakum
   locus: whole work (at least 156pp.; Harrison & Mirrlees trans., 1924, preface by D. S. Mirsky)
@@ -103,14 +103,15 @@ works:
 
     '
   source_file: mogila_orthodox-confession_overbeck1898.txt
-- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-1838-english-1842
-  work: A History of the Church of Russia (1838; English 1842)
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-mouravieff-blackmore-s-2
+  work: A History of the Church of Russia (Mouravieff; Blackmore's English, 1842)
   author: mouravieff
-  locus: the chapters from Nikon to the founding of the Synod
-  role: transmission
-  confidence: assigned
-  note: The Synod's own officer narrating this period two decades after it closed; the church's
-    received account, not a witness of the events.
+  locus: the sixteenth-century and seventeenth-century chapters (the name Nikon occurs about
+    189 times)
+  role: context
+  confidence: provisional
+  note: 'Placed on window and place: the same history carries the Stoglav period, the Nikonian
+    reform and the schism. Sampled by name counts only; not read for these entries.'
   source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
 - row_id: nikon_replies-against-streshnev-and-ligarides_palmer1871--the-replies-of-the-humble-nicon-against-the-questions-of
   work: The Replies of the Humble Nicon against the questions of Streshnev and the answers

@@ -1,0 +1,25 @@
+source_file: thoresby_lay-folks-catechism-enm-lat_simmons-nolloth1901.txt
+assignments:
+- row_id: thoresby_lay-folks-catechism-enm-lat_simmons-nolloth1901--the-lay-folks-catechism-thoresby-s-instruction-of-1357-and-the-wycliffite-version-ed-simmons-and-nolloth-eets
+  work: The Lay Folks' Catechism (Thoresby's Instruction of 1357 and the Wycliffite version), ed. Simmons
+    and Nolloth (EETS OS 118)
+  author: thoresby
+  locus: the whole file; the Latin and English versions run in parallel from near line 6151
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: provisional
+  note: The standing instruction the laity were to be taught, in Latin and English, with the Wycliffite
+    expansion beside it. Written in 1357, before the window, and in use through it; placed on that use
+    and left provisional. A second witness for wording.
+- row_id: thoresby_lay-folks-catechism-enm-lat_simmons-nolloth1901--the-lay-folks-catechism-thoresby-s-instruction-and-the-wycliffite-version-ed-simmons-and-nolloth-eets-os-118
+  work: The Lay Folks' Catechism (Thoresby's Instruction and the Wycliffite version), ed. Simmons and
+    Nolloth (EETS OS 118)
+  author: thoresby
+  locus: the Wycliffite version, printed with the Thoresby text
+  atlas_ids:
+  - lollardy
+  role: context
+  confidence: provisional
+  note: The edition prints a Wycliffite version of the catechism beside Thoresby's. Which text is Wyclif's
+    and which his followers' is for the Lollardy world to decide. Left provisional.

@@ -39,3 +39,17 @@ assignments:
     confidence: provisional
     note: The file names Kyiv about thirty times, among them the Kyivan metropolitans the council's text
       cites; placed on that count and on window and place, not on a reading for this entry.
+  - row_id: stoglav_stoglav-fra_duchesne1920--le-stoglav-duchesne-s-french-1920-the-introduction-on-the
+    work: 'Le Stoglav (Duchesne''s French, 1920): the introduction on the possessors and non-possessors'
+    author: stoglav
+    locus: whole volume
+    atlas_ids:
+    - muscovite-monastic-christianity
+    role: context
+    confidence: assigned
+    note: 'Tier: same time-place (Muscovy; the 1551 council looks back on this period). Duchesne''s introduction
+      names Joseph Volotski as founder of the Volokolamsk house and Nil Sorski as the best-known partisan
+      of the other side, and says they stood face to face at the council of 1503 (file lines 1146 to 1180);
+      The council''s own roll of the saints, at lines 2494 to 2497, names the great Sergius of Radonezh
+      and Cyril of Beloozero beside Antony and Theodosius of the Caves. Read at those lines. The OCR is
+      damaged in places.'

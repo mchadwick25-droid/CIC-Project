@@ -38,3 +38,23 @@ assignments:
     Ludolf's seventeenth-century scholarly commentary on Ethiopia, its church and its history. Outside,
     scholarly witness, later than the world; useful as the printed source of the Confession. Placed on
     subject without reading beyond the Confession; OCR is a second witness.
+- row_id: ludolf_commentarius-ad-historiam-aethiopicam-lat_1691--commentarius-ad-historiam-aethiopicam-ludolf-sabbath-amda
+  work: 'Commentarius ad Historiam Aethiopicam (Ludolf): Sabbath, Amda Syon and Takla Haymanot'
+  author: ludolf
+  locus: whole volume
+  atlas_ids:
+  - the-ethiopian-monastic-flowering
+  role: context
+  confidence: provisional
+  note: Latin scholar's synthesis of 1691. Sabbath forms occur 96 times, Amda forms 16 times, Takla Haymanot
+    three times. After the window; counted by grep, not read.
+- row_id: ludolf_commentarius-ad-historiam-aethiopicam-lat_1691--commentarius-ad-historiam-aethiopicam-ludolf-nubia
+  work: 'Commentarius ad Historiam Aethiopicam (Ludolf): Nubia'
+  author: ludolf
+  locus: whole volume
+  atlas_ids:
+  - terminal-christian-nubia
+  role: context
+  confidence: provisional
+  note: Latin scholar's synthesis of 1691. About 60 Nubia hits, compiled from Arabic and Ethiopian sources.
+    After the window; counted by grep, not read.

@@ -1,0 +1,3008 @@
+Title: Étude sur Thomas de Medzoph, et sur son histoire de l'Arménie au XVe siècle, d'après deux manuscrits de la Bibliothèque impériale (Journal asiatique, 5e série, tome VI, août-septembre 1855)
+Creator: Félix Nève
+Publisher: Paris: Imprimerie impériale, for the Société asiatique (Journal asiatique ou Recueil de mémoires, d'extraits et de notices relatifs à l'histoire, à la philosophie, aux langues et à la littérature des peuples orientaux, cinquième série, tome VI); title page "M DCCC LV"
+Publication Date: 1855
+Rights: Public Domain
+Rights basis: pd-us-by-date. The title page of the scan reads "IMPRIMÉ PAR AUTORISATION DU GOUVERNEMENT A L'IMPRIMERIE IMPÉRIALE M DCCC LV" and the running head reads "AOUT-SEPTEMBRE 1855". The item record carries no date, possible-copyright-status or licence field.
+Language: fra
+Source: Internet Archive item EtudeSurThomasDeMedzophEtSurSonHistoireDeLarmenieAuXveSiecle (archive.org/details/EtudeSurThomasDeMedzophEtSurSonHistoireDeLarmenieAuXveSiecle), full-text file Neve_JA_1855_Tovma_djvu.txt, fetched directly by the Library thread, October 2026. Host item uploaded without metadata; an offprint of the article with the journal's title pages.
+Provenance note: Header prepended; the host text follows unchanged. Nothing was normalised, stripped, corrected, re-spaced or retyped. Google Books marks ("Digitized by Google") are left in the text. OCR sampled at 5, 50 and 95 percent: readable French with scattered damage.
+Content note: Study of the Armenian historian Thomas of Medzoph (Tovma Metsobetsi, fifteenth century) and his history of Tamerlane's invasions and their effect on the Armenian church, with the French rendering of extracts. A nineteenth-century scholar's study, not the chronicle; it is how the chronicle reaches this library, because the chronicle itself is not on the shelf. A longer memoir by the same author on Tamerlane and Shah-Rukh from Thomas (Brussels, Académie royale de Belgique) was opened and left as a lead because the OCR reads its year as "MDCCCM".
+
+---
+
+JOURNAL ASIATIQUE 
+
+OU 
+
+RECUEIL DE MÉMOIRES 
+
+D'EXTRAITS ET DE NOTICES 
+
+RELATIFS A L'HISTOIRE, A LA PHILOSOPHIE, AUX LANGUES 
+ET A LA LITTÉRATURE DES PEUPLES ORIENTAUX 
+
+RBDIGK 
+
+PAR MM. BAZIN, BIANCHI, BOTTA, CAUSSIN DB PEBCETAL, CHERBONNEAU, D'ECRSTEIN 
+
+C. DEFRÉMERT, L. DDBEDX , DULAUBIEB, PRESNEL 
+
+GARGIN OE TASST, GRANGERET OE LAGRANGE , DE HAMMER-PORGSTALL 
+
+STAR. JULIEN, M1RZA A. KASEM-BEG, J. MOHL, S. MONK 
+
+REINAUD, L. AM. SBDILLOT, DB 8LANE , ET AUTRES SAVANTS FRANÇAIS 
+
+ET ÉTRANGERS 
+
+ET PUBLIÉ PAR LA SOCIÉTÉ ASIATIQUE 
+
+
+
+CINQUIÈME SÉRIE 
+TOME VI 
+
+
+
+
+PARIS 
+
+IMPRIME PAR AUTORISATION DO GOUVERNEMENT 
+
+A L'IMPRIMERIE IMPÉRIALE 
+
+M DCCC LV 
+
+
+
+Digilized by LjOOQIC 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 221 
+
+se trouvent , ces corporations correspondent à une 
+race de Gâgenes ou à'autochthones aux pieds de ser- 
+pent, race sombre et obscure, qui appartient, par 
+son origine industrielle , à la famille brane de l'es- 
+pèce humaine , c'est-à-dire aux ancêtres mythiques 
+et historiques du peuple céphène. 
+
+Baron d Eckstein. 
+
+
+
+ÉTUDE 
+
+SUR 
+
+THOMAS DE MEDZOPH, 
+
+ET SUR SON HISTOIRE DE L'ARMÉNIE AU XV e SIÈCLE, 
+
+D'APRÈS DEUX MANUSCRITS DE LA BIBLIOTHÈQUE IMPERIALE, 
+
+PAR FÉLIX NÈVE. 
+
+
+
+Parmi les travaux les plus utiles qu on ait entre- 
+pris de nos jours dans le champ si agrandi de l'éru- 
+dition orientale, il est légitime de compter l'investi- 
+gation des sources historiques fort nombreuses qui 
+se sont conservées en langue arménienne. Elles 
+présentent, en effet, pour la plupart, le double ca- 
+ractère d'œuvres nationales renfermant des détails 
+curieux sur la vie intérieure du peuple arménien 
+et de ses églises , et de monuments fournissant des 
+témoignages nouveaux et plus détaillés à l'histoire 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+222 AOUT SEPTEMBRE 1855. 
+
+universelle. Noos ne parlerons point ici des mono- 
+graphies qui traitent spécialement de l'Arménie ou 
+d'une époque donnée de son histoire ; il nous suffira 
+d'indiquer sommairement trois classes de livres qui 
+offrent cet intérêt général que nous attribuions à 
+l'instant à d'autres productions du genre historique. 
+
+Ce sont d'abord les chroniques, qui, remontant, 
+à l'exemple de celle d'Eusèbe, jusqu'à la création 
+du monde, et résumant les annales du peuple juif, 
+présentent l'histoire de l'Arménie chrétienne en rap- 
+portavec celle des autres nations pendant les siècles 
+de notre ère : tels sont, par exemple, les ouvrages 
+de Michel le Syrien 1 , de Samuel d'Ani 2 et de Var- 
+dan dit le Grand. 
+
+Puis viennent les oeuvres historiques qui nous 
+ont conservé la relation de guerres fameuses écrite 
+au point de vue des Arméniens; par exemple celle 
+de Jean VI, riche en renseignements sur les con- 
+quêtes des Arabes dans l'Asie antérieure 3 , et celle 
+de Mathieu d'Édesse, concernant toute la période 
+des premières croisades 4 . 
+
+1 Un extrait étendu de la Chronique de Michel a été traduit par 
+M. Éd. Dulaurier ( Journal asiatique, t. XII et XIII, 4* série, numé- 
+ros d'octobre i848 et d'avril, 1 84g). 
+
+* Zohrab a donné une version latine de sa Chronique dans son 
+édition d' Eusebe, publiée à Milan en 1818. 
+
+s Une traduction français de Y Histoire de Jean Catholicos a para 
+aprèB la mort de Saint-Martin (Paris, Imprimerie royale, i84i ). 
+
+* Chahan de Cirbied avait donné une description générale de 
+l'ouvrage de Mathieu, dit aussi Eretz ou le Prêtre, au t. IX des No- 
+tices et extraits des manuscrits, etc. et en avait publié et traduit 
+quelques passages. M. Ed. Dulaurier a mie tu jour une version cora- 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SDR THOMAS DE MEDZOPH. 123 
+
+Enfin ce sont les traités arméniens qui se rap- 
+portent plus particulièrement aux invasions des Mon- 
+gols dans l'Asie occidentale, et qui peuvent servir 
+de complément aux écrits des Arabes sur ces inva- 
+sions. Les guerres de dévastation poursuivies par 
+les races tartares du temps de Gengiskhan et après 
+lui , ont trouvé pour historiens , dans l'Arménie du 
+xni* siècle , Jean Vanacan ou le Moine , ses disciples 
+Cyriftque ou Cyracos de Rantzàg 1 , Malachia dit Abé- 
+gba, et le célèbre Vardan de Bardzerbierd : tous ont 
+été témoins oculaires des événements qu'ils relatent, 
+et quelques-uns même ont été prisonniers des Tar- 
+tares. Déjà le P. Michel Tchamitch a fait usage de 
+textes empruntés à ces chroniqueurs au livre V de 
+la grande Histoire d'Arménie ; mais il est à espérer 
+que le texte original de ceux de leurs écrits qui sont 
+encore existants sera incessamment publié et traduit, 
+pour compléter l'histoire d'une époque si importante. 
+Un des membres les plus actifs de l'Académie des 
+sciences de Saint-Pétersbourg, M. Brosset, s'est prér 
+paré de longue main à cette tâche; il a donné, sur 
+les chroniqueurs du xm* siècle, des notices plus 
+étendues et plus précises que celles que l'on possé- 
+dait jusqu'ici 2 ; il a rassemblé les matériaux d'une 
+
+plète et annotée du "Récit de la première Croisade, extrait de la 
+Chronique de Mathieu. (Parié, Benj. Duprat, 18&0, 108 p. in-4°.) 
+
+1 'Un fragment curieux de Cyracos , sur les relations d'un prince 
+arménien avec des khans mongols, a été mis au jour en Russie, 
+et reproduit en français par J. Klaproth , dans le Nouveau Journal 
+ûdaùqoé, t. XII, octobre i833. 
+
+* Voir les Additions et éclaircissements à ÏHistoire de la Géorgie; 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+224 AOUT-SEPTEMBRE 1855. 
+
+édition de Vardan , et même il a traduit en entier le 
+traité de Malachia dit Abégba ou le Moine , qui est 
+intitulé : Histoire de la nation des Archers 1 . De son 
+côté, M. Ed. Dulaurier a consacré à la collection 
+des mêmes historiens des études suivies qui en mon- 
+treront 4oute la valeur, et qui seront fondées sur une 
+version littérale de leur texte. 
+
+La littérature arménienne peut fournir des ren- 
+seignements non moins utiles sur la seconde époque 
+des invasions mongoles, celle de Timour ou Tamer- 
+lan et de ses successeurs; elle possède, dans la chro- 
+nique encore inédite de Thomas de Medzoph, une 
+relation détaillée des campagnes qu'ils ont entre- 
+prises en Arménie et dans les pays d'alentour. C'est 
+l'œuvre d'un membre de l'église arménienne , qui â 
+souffert boucoup lui-même à cette époque, et qui 
+a été à même de bien connaître les circonstances 
+qu'il rapporte. L'intérêt de sa chronique n'a pas 
+échappé à ceux qui se sont occupés de l'histoire 
+d'Arménie en consultant les sources indigènes. Le 
+P. Tchamitch en a inséré de longs extraits dans les 
+chapitres de son ouvrage relatifs à l'état de l'Arménie 
+sous la domination étrangère 2 , c'est-à-dire après la 
+destruction du royaume arménien de Cilicie à la fin 
+du xiv 8 siècle. M. J. Saint-Martin s'est appuyé sur la 
+
+Saint-Pétersbourg, i85i, in-4°, p. 299 et suiv. p. 4ia et suiv. et 
+diverses notices dans les Bulletins scientifiques de l'Académie russe 
+(aon. i83g et suiv.). 
+
+' Additions, etc. Add. XXV, p. 438-467- • 
+r * Histoire d'Arménie (en arménien); Venise, 1789, t. III, 1. VI, 
+chap. i-vii. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 225 
+
+même chronique pour déterminer et pour décrire 
+un grand nombre dé localités de l'Arménie 1 ; et plus 
+récemment M. Brosset n'a pas manqué de demander 
+à cette même source des éclaircissements à l'Histoire 
+ancienne de la Géorgie , qu'il a traduite sur lé texte 
+géorgien, et qu'il a commentée à l'aide des auteurs 
+arméniens 2 . 
+
+Nous avons pris nous-même connaissance du texte 
+de Thomas de Medzoph dans les deux manuscrits de 
+la Bibliothèque impériale dont nous parlerons ci- 
+après 3 , et nous avons entrepris d'en faire une tra- 
+duction littérale , dans l'espoir de fournir aux études 
+historiques une pièce inédite dont la valeur a été 
+suffisamment signalée , mais dont le contenu mérite 
+d'être apprécié mieux encore. En attendant des 
+circonstances plus favorables qui nous permettent 
+de publier utilement notre traduction accompagnée 
+de notes, nous avons cru qu'on ne lirait pas sans 
+quelque intérêt une notice historique et littéraire 
+sur l'auteur lui-même , et sur la chronique qui est 
+son ouvrage principal. On nous saura gré, rtoûs 
+l'espérons, d'avoir fait dans ce travail de fréquents 
+emprunts aux publications savantes des PP. Mékhi 
+taristes de Venise , qui sont rédigées en langue ar- 
+
+1 Mémoires historiques et géographiques sur l'Arménie ;Varis, 1818- 
+1819, deux vol. in-8°. 
+
+1 Histoire de h Géorgie (histoire ancienne jusqu'en 1469); Saint- 
+Pétersbourg, 1 85 1-1 85a, trois part. in-4°. 
+
+3 Nous devons dire à l'avance que les citations de Thomas de 
+Medzoph, dans le présent mémoire, sont faites d'après la pagination 
+du ms. de Paris 96 (ancien fonds). 
+
+vi. i5 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+236 AOUT-SEPTEMBRE 1855, 
+
+méniene, et qui sont, par le fait même, accessibles 
+à un fort petit nombre d'érudits européens. Nous 
+nous sommes réservé d'approfondir quelques points 
+de nos recherches relatives à l'époque et à la vie 
+de Thomas, et de les publier, dans la suite, avec 
+la version de sa chronique. 
+
+S I. BIOGRAPHIE DE THOMAS DE MEDZOPH. 
+
+L'écrivain dont nous allons nous occuper est un 
+de ces vartabieds ou docteurs qui, après avoir étudié 
+dans les monastères de l'Arménie, étaient décorés 
+d'un titre qui leur conférait, avec le droit d'ensei- 
+gner, des privilèges et des honneurs dans toute re- 
+tendue de ce pays. C'est dans cette classe d'hommes 
+que se scmt produits plus d'une fois des historiens, 
+des chroniqueurs , des biographes , qui travaillaient 
+patiemment, dans le désir de conserver à la posté- 
+rité le souvenir des événements qui avaient signalé 
+leur siècle, et qui, considérant toutes choses des 
+yeux de la foi chrétienne, ne manquaient pas de 
+faire envisager., dans les vicissitudes de chaque 
+époque , les desseins de la miséricorde ou de la 
+justice divine, 
+. Le vartabied Thomas^ qui est surnommé de Me- 
+dzoph , naquit dans la seconde moitié du xiv e siècle , 
+et il à fleuri jusque vers le milieu du xv e . Dans sa 
+jeunesse, il a pu voir de ses yeux les désastres cau- 
+sés par les troupes de Timour dans les provinces 
+centrales de la grande Arménie; il a recueilli cer- 
+tainement ses souvenirs personnels et ceux de ses 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SCJR THOMAS DE MEDZOPH. 527 
+
+proches , en consignant dans sa chronique les évé- 
+nements qui marquèrent le passage du conquérant 
+tartare 6ur Je soi de sa patrie. 
+
+Thomas était originaire d un des cantons de la 
+province de Dourontpéran x , l'Aghiovid, situé aux 
+frontières de TArarad et du Vasbouragan. Aghixmd, 
+VM'-lk'"' est le nom d'un canton, et non celui 
+dun bouig ou d'un château, comme il ressort, en 
+toute évidence, des étjides géographiques les plus 
+récentes 2 - Thomas vit le jour, sans doute , dans un 
+bourg obscur de ce canton. 
+
+Thomas appartenait à lun des ordres religieux qui 
+ont composé de tout temps la partie la phis instruite 
+du clergé de son pays, et c est du nom de Medzoph, 
+monastère qui a été sa principale résidence , que 
+provient l'épithète de Metzopketzi, 1P**"^%£, 
+par laquelle les écrivains de sa nation otit coutume 
+de le désigner fort souvent 3 . H ne sera pas superflu 
+de déterminer ici la situation de ce monastère i qui 
+était devenu alors le siège dune école théologique 
+
+* L'ancienne province nommée Douroupéraii , et aussi Daroupérati , 
+est renfermée aujourd'hui, en grand* partie, danslepachalik de Van! 
+
+* C'est inexactement, semMe-t-il , qne Tchamitch (Histoire (TAr* 
+ménie, t. III, p. 491 ) fait naître Thomas au bourg d* Aghovid, Jtu ^ 
+qnfêu, uiuuïut;, et que l'auteur du Quadro délia storia litteraria <U 
+Armenia (p. 142) le fait originaire: «del castello di Alovid nelîa 
+provincia di Caciperùn». 
+
+* Comme le nom de lieu s'écrit à la fois Jk& ni f, et Jk!r„ F , Me- 
+dzoph et Medzop, on donne aussi la forme JLÏa^f, au qualifica- 
+tif. Le nom même de Thomas est écrit de deux manières en armé- 
+nien, le plus souvent, paJi» ou p„^Jlu Thomg, mais dans les 
+manuscrits pauJîuj Thouma. 
+
+i5. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+228 AOUT SEPTEMBRE 1855. 
+
+dévouée à la défense de 1 église nationale d'Ar- 
+ménie. • * 
+
+Medzoph était placé à peu de distance du lac de 
+Van, sur le territoire d'Ardjêsch, qui dépendait du 
+canton d'Aghiovid, dans la partie orientale du Dou- 
+roupéran ; il est même advenu qu'au xv e siècle , l'im- 
+portance de la ville d'Ardjêsch a fait donner son nom 
+au pays d'alentour, qui formait proprement l'ancien 
+canton d'Aghiovid ] ; et, d'autre part, le territoire 
+jnême de cette ville a été appelé du nom de Ketch- 
+pérouni par les écrivains des siècles modernes , parce 
+qu'il renfermait des possessions héréditaires de la 
+famille princière ainsi nommée 2 . Dans les Annales 
+de Thomas, on voit le sort d'Ardjêsch étroitement 
+lié à celui de Medzoph. La ville , qui avait été oc- 
+cupée par les Mongols au xin 6 siècle, fut encore 
+exposée. de son temps à de lamentables vicissitudes : 
+le monastère, qui en était voisin, fut pris et saccagé 
+par les chefs turcomans et par d'autres envahisseurs, 
+comme notre auteur eh fait foi. 
+
+Dans la même contrée et à quelque distance de 
+Medzoph, étaient situés d'autres monastères renom- 
+més 3 : outre l'Ardzovaper et TOurrhëngaïr, le mo- 
+
+1 Voir la Description de l'Arménie ancienne, par le P. Lucas In- 
+djidji (en arménien) ; Venise, 1822 , p. 126. Dans l'antiquité même, 
+l'Aghiovid était qualifié de canton des'Kënounis , qni en partageaient 
+la possession avec la race royale des Arsacides. (Voy. ibid. p. 124- 
+
+125.) 
+
+* Thomas de Medzoph et Vardart le géographe emploient en ce 
+sens ie nom de Kachpérouni, que les écrivains pi us anciens donnaient 
+seulement à la race elle-même. (Voy. ïndjidji, ibid. p. 126.) 
+
+3 Voir la Description d'Indjdji, p. 127-128. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 229 
+
+nastère de Kharapasd , dit « de la Sainte Mère de 
+Dieu , » et appelé aussi couvent de Soukhara , et le 
+monastère d'Abiseng, dit «saint monastère de la 
+
+Résurrection. » Thomas parle de l'un et de l'autre 
+dans sa chronique. 
+
+Medzoph l'emportait sur tous les établissements 
+du même pays en splendeur et en célébrité, a Jean , 
+dit de Medzoph, un des supérieurs du monastère, 
+y avait bâti, dans l'espace de sept années , une église 
+de grande dimension , dédiée à la Mère du Seigneur, 
+et cela dans un temps déplorable ; où les autres 
+églises étaient renversées par ordre d'un gouverneur 
+tartare. La construction de cette église plat telle- 
+ment à ce souverain , qu'il voulut poser lui-même 
+la première pierre des fondements, en la soulevant 
+sur ses épaules 1 .» Medzoph jouit donc d'une pro- 
+tection particulière? dans les premières années du 
+xv e siècle, si calamiteuses pour le reste de l'Armé- 
+nie. L'église remarquable qui avait été l'ouvrage 
+d'un architecte grec, Pharadj, prisonnier de Timour, 
+subsistait encore au siècle passé, d'après Tchamitch, 
+qui rapporte le fait 2 . Saint-Martin retrouve Medzoph 
+près d'Ardjêsch dans le monastère célèbre que Ri 
+chard Simon appelle Arcis ou A rciscavanc h, et qu'il 
+fait la résidence d'un évêque 3 . Nous ne savons jus 
+qu'à quel point serait soutenablc l'étymologie du 
+
+i Thomas mentionne cette particularité dans une histoire , sans 
+nommer toutefois le chef tartare (ms. 96, fol 68 r.), et ie P. In- 
+djidji le rapporte dans sa notice sur Mcdzujili [lov. cit. p. 1 '27). 
+
+1 Hist. d'Arménie, t. III, p, 653. 
+
+2 Histoire critique de la créance des mitions da Levant, p. 228. 
+
+
+
+Digilizedby VjOOQlC 
+
+
+
+230 AOUT-SEPTEMBRE 1855- 
+
+nom même de Medzoph., W^k&mpMy, c'est-à-dire 
+« le grand Job, » que le premier de ces savants pro- 
+pose au même endroit 1 . ' , 
+
+lia grande renommée de Medaoph dépendit sur- 
+tout de l'influence des docteurs qui y résidèrent 
+quelque temps avant la dévastation du monastère 
+par des soldats étrangers. La direction avait été con- 
+fiée, pendant un terme fort long, à un vartabied 
+nootomé Jean de Medzoph, qui avait étudié vingt 
+an» auprès de Jean. d'Orodu, dit ausai de Gakhig, 
+célèbre docteur du monastère d'Abragoun enSiou- 
+nie. Mais ce qui eut le plus de jatentissement dans 
+l'élise d'Arménie; ce fut je séjour que fit k Me- 
+dw>pb Grégoire de Dathev, glorifié par la fraction 
+dissidente de cette église comme un de ses docteurs 
+éminents. Ou verra de quel intérêt sont les rensei- 
+gnements dus à Thomas, son âttmiratenr, sur f as- 
+cendant et le rôle, de ce personnage. 
+
+Thomas avait été pendant dix ans disciple du 
+vartabied Saorgis, qu'il appelle le grand Sargis> et 
+qui a été considéré comme un oracle jusqua son 
+extrême vieillesse. Très -modéré dans sa conduite 
+envers les partis qui divisaient le clergé arménien 2 , 
+Sargis dirigea, jusqu'en l'an i/ioi, le monastène 
+de Kharapasd, dans le pays d'Ardjêsch , monastère 
+«regardé alors,» nous dit Thomas *, «comme une 
+
+1 Mèm. hi&t. et <féoyr. sur l'Arménie, t. II , p». 46!», note. 
+
+2 Tchtmitcb le fiait considérer comme orthodoxe. (Hjbt. d'Âitmém. 
+t. III, p. 45 i.) 
+
+1 Cbron, ma.96, fol. 63 r. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 231 
+
+Jérusalem céleste.» Àpr^s sa» mort, le pieux and-* 
+
+chorète Vardan* prit la direction du même mo- 
+nastère, et, pendant quatre ans, ail éclaira d'une 
+vive lumière» plus de soixante religieux rassem- 
+blés autour de lui , et au nombre desquels était 
+resté notre chroniqueur, qui en parle avec un pro- 
+fond respect t. 
+
+Ensuite, vers l'an i4o6, Thomas passa, avec 
+vingt de ses condisciples, dans la Siounie, à l'école 
+de Grégoire de Dathev; il vante, dans son livre, 
+l'accueil qu'il reçut alors de cet illustre maître, 
+dont le père était originaire d'Ardjêsch, et il exalte 
+en toute occasion le savoir supérieur d'un homme 
+dont il a embrassé avec chaleur les opinions 2 . Pen- 
+dant deux années, Thomas et ses amis suivirent les 
+leçons de Grégoire dans le monastère d'Àbragoun; 
+mais, quand la persécution les força d'abandonner 
+la province de Siounie, ils se rendirent ensemble 
+dans le Douroupéran, et reçurent l'hospitalité dans 
+le cloître de Medzoph. «L'humble, savant et pieux 
+vartabied Jean,» comme l'appelle Thomas, les ac- 
+cueillit tous avec joie, en cette même année où il 
+venait de terminer la construction de l'église de la 
+Sainte Mère de Dieu; c'était l'an i kog ou l'an 858 
+
+1 
+
+1 Ms. 96, fol. 66 v. «Son àme, dit-il en terminant, fut enlevée 
+sur les chars des chérubins et des séraphins, et transportée clans 
+les rangs de nos vartabieds théologiens de même origine et nos illu- 
+minateurs. » 
+
+2 Ms. 96, fol, 62 v. et 66 v. Nous reproduirons plus loin quelques 
+traits des éloges qull décerne à Grégoire au nom d'un grand parti. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+232 AOUT-SEPTEMBRE 1855. 
+
+de l'ère arménienne l . Grégoire séjourna à Medzoph 
+une» année tout entière, et il y enseigna avec éclat, 
+au milieu d'un grand concours d'auditeurs , prêtres 
+et religieux; au nombre de plus de quatre-vingts 2 ; 
+il alla mourir, peu après, dans le monastère de 
+Dathev, en Siounie , où il avait résidé auparavant; 
+ce qui lui a fait donner le surnom historique de 
+DuÂevatzi 5 . 
+
+Jean de Medzoph étant venu à mourir peu de 
+temps après Grégoire 4 , quand il se trouvait dans 
+la province d'Ararad , c est sur Thomas que Ton jeta 
+les yeux pour lui confier la direction du monas- 
+tère 5 . Thomas ne parle de son prédécesseur qu avec 
+reconnaissance et vénération; il le donne comme 
+« l'exemple de toutes les vertus et le modèle des 
+docteurs de l'église, » et il expose les circonstances 
+de sa vie dans un épisode fort long qui rompt le 
+fil de sa chronique 6 . 
+
+Thomas avait été exposé à de grandes vicissitudes 
+dans sa jeunesse et dès son entrée dans la vie reli- 
+
+1 Ma. 96, fol. 67 r. et 68 r. Le travail avait commencé Tan 85 1 
+
+(l4<>3). 
+
+* Ms. 96, fol. 6 * v. et 67 r. Thomas énumère ici les principaux 
+vartabieds qui entendirent Grégoire à Medzoph. 
+
+3 Le nom de Dathev ou Sdathev avait été donné à ce monastère 
+en souvenir de 1 apôtre Eustathius, un des disciples et compagnons 
+de l'apôtre Thaddée. (Voir Y Arménie ancienne d'Indjidji, p. 287.) 
+
+4 La mort de ces deux personnages serait placée Tan ih 10, d'a- 
+près plusieurs dates consignées dans le texte de Thomas, concor- 
+dant avec celle qu adoptent Tchamitch et Soukias Sonial pour la 
+mort de Grégoire/ (Hist. d'Arménie, t. III, p. 357; Quadro, p. i33.) 
+
+* Selon Tchamitch, L c. p. 453. 
+
+* Ms. 96, du fol. 67 v. au 69 r. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZÔlPH. 233 
+
+gieuse. Quand, en 1389, au retour de sa première 
+expédition en Géorgie , Timour pénétra jusqu'à 
+Mousch; dans le Douroupéran, Thomas dut fuir, 
+avec les habitants d'Àrdjêsch , dans les provinces 
+voisines. Plus tard, vers 1396, il n'échappa à d'hor- 
+ribles massacres qu'en se réfugiant dans les mon- 
+tagnes du Vasbouragan. Chaque fois qu'il rentrait 
+dans l'Aghiovid, il voyait, comme il le dit lui-même 1 , 
+•le pays ravagé, détruit, dépouillé de toutes ses ri- 
+chesses, et privé aussi des vertus spirituelles : plus 
+d'office journalier, plus de sacrifice; on se mit en- 
+suite à tout reconstruire. » 
+
+Thomas eut à souffrir davantage encore quand 
+il eut la direction du cloître de Medzoph; mais, 
+malgré la vie errante à laquelle il se vit souvent 
+condamné avec les siens, il prit la tâche de rédiger 
+une histoire de son temps. C'est, sans doute, vers 
+fan rira 5 qu'il y mit la première main; il dit lui- 
+même qu'il s'est mis à l'écrire après l'âge de cin- 
+quante ans. Quand il vient de raconter d'atroces 
+persécutions qui ont coûté la vie à plusieurs varta- 
+bieds respectés, il s'exprime ainsi 2 ^ «Ceci se pas- 
+sait à peu près vers Fan 874 de notre ère (A: D. 
+j&a5j; qu'on ne m'impute point faute en ceci; 
+car j'étais alors fort âg'é , et c'est après cinquante 
+
+♦ » Ms. 96, foi 65 v. 
+*"Mfc gfii fol. 65 r. Qju ty «H4/V* Pïji u F u ""-**/» k^n™ - 
+
+4? m J"»Ptkjb m l^juênMÊ^_ <tpbgfr t 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+234 À0UT-SEPTEMB1E 1855. 
+
+ans que j'ai commencé à écrire sur ces ûût&, en 
+
+reprenant ce qui précède et ce qui suit, n 
+
+En 1/127, Thomas chercha un asile dans l'île de 
+Linin du lac de Van, et il y fut maltraité par l'émir 
+Hadji~Beg, Dans les dernières années du gouverne- 
+ment despotique de Skandar, il séjourna tour à 
+tour dans diverses localités voisines du grand lac; 
+tantôt il vivait caché dans les montagnes 1 , tantôt il 
+trouvait un refuge momentané dans des villes impor- 
+tantes , telles que Klath, Pergri, Ardzgé, Paghesch 2 . 
+Jusque dans les derniers temps de sa vie, H fut ex- 
+posé à de continuelles tribulations, parce que le 
+canton d'Ardjêsch, situé au centre du pays, était sou- 
+vent traversé par des bandes de soldats étrangers 3 . 
+Comme la tradition place la mort de Thomas de 
+Medzoph fan ilxk& (fan 897 des Arméniens 4 ) , il 
+
+1 Ms. 96, fol 76 1*. Thomas fait ici une peinture très-vive des 
+violences auxqu elles se portaient les ennemis lorsqu'ils pénétraient 
+a cheval dans les montagnes et jusque dans les cavernes. 
+
+2 IbicL fol. 80 r. où Fauteur raconte des faits compris entre les 
+années 1 435 et 1437. Un des frères de Thomas, Arisdaguès, avait 
+été arrêté et brûlé vers 1 43 4 par un chef curde, Pir Ali. (Ib'ul. f. 80 v. 
+Cf. Tchamitch, t. III, p. 467.) Un autre frcre de Thomas, George 
+Melik, seigneur du bourg d'Aghou, fut au nombre des notables qui 
+firent leur soumission volontaire à Skandon vers j43o, pour qu'il 
+épargnât les habitants de la forteresse d'Arsd^gé. (Voir Tchaïuitch , 
+Le. p. 464.) 
+
+3 II termine le tableau de ces dernières calamités (fol. 83 r.) en 
+rapportant les provocations des infidèles aux chrétiens. « Us consi- 
+déraient, dit-il, avec orgueil notre ruine si affreuse comme leur ou- 
+vrage, et ils disaient à haute voix : cOù est donc Jésus leur Dieu? 
+« Laissez qu'il vienne et qu'il sauve ceux qui croient en fui ! » 
+
+4 Vok ¥ Histoire £ Arménie, de Tchamrtch, t. III, pag. 491. 
+Une notice sur la vie de Thomas a été placée à 1» fin de sa chro- 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 235 
+
+ressort du passage de sa chronique cité plus haut, 
+
+que Thomas serait mort septuagénaire, un peu plus 
+de vingt ans après la date ( i 425) qu'il prend comme 
+le point central de ses recherches historiques. 
+
+Selon toute apparence, Thomas fut en rapport 
+personnel avec la plupart des membres éminents de 
+l'église arménienne à son époque, et il ne fut pas 
+sans influence sur plusieurs des événements qui mo- 
+difièrent davantage l'organisation intérieure de cette 
+église. Ainsi Thomas suivit-il, de plus près qu'aucun 
+autre \ toutes les négociations qui amenèrent la trans- 
+lation du siège patriarchal de Sis à Echmiadzin, 
+première résidence des catholicos , successeurs de 
+saint Grégoire l'Illiiiiiinateur. L'autorité patriarcale 
+avait beaucoup perdu à cause de la situation de Sis, 
+loin du centre de l'Arménie, et à cause de la posi- 
+tion précaire ou de l'indignité de ceux qui la rem- 
+plissaient; c'est pourquoi une fraction considérable 
+de la nation désirait le rétablissement du pontificat 
+arménien dans son siège le plus ancien. Thomas 
+s'associa à la résolution qu'avaient prise les grands 
+dignitaires du clergé, d'élire de nouveau, à titre de 
+catholicos, Grégoire IX, dit Mousapeg 2 , s'il consen- 
+
+nique par un certain vartabied Ciracos, qui s'était fait son disciple ; 
+
+mais ce témoignage manque dans les manuscrits que nous avons 
+
+consultés. 
+
+' Voir l f Histoire d'Arménie, de Tcnamitch, t. III, p. 486-487- 
+2 Ce catholicos de Sis n'avait pas été reconnu tout d'abord par 
+
+les évêquesde l'Orient, c'est-à-dire de la haute Arménie, considé 
+
+rée comme partie orientale du pays, lors de l'existence du royaume 
+
+
+
+niinénien de Cilicie. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+236 AOUT-SEPTEMBRE 1855. 
+
+tait à se transporter de Sis à Vagharscliabad dans 
+l'Ararad. Il assista en personne; avec d autres var 
+
+tabieds célèbres, avec une foule d evêques , de prêtres 
+et de religieux, au nombre de sept cents, au concile 
+qui fut tenu en i44i, à Vagharschabad , dans l'église 
+même d'Echmiadzin , pour régler les affaires du 
+patriarcat. Quand Cyriaque ou Ciracos, abbé du 
+monastère de Virab, renommé pour sa prudence et 
+son savoir, eut été élu catholicos en cette même an- 
+née, Thomas lui prêta son concours pour faire re- 
+connaître Echmiadzin comme le seul siège légi- 
+time de l'autorité patriarcale chez les Arméniens 1 , 
+et pour donner un nouvel éclat aux bâtiments et 
+aux églises de cette antique résidence. Le rôle actif 
+de Thomas vint à cesser, quand, par suite de misé- 
+rables intrigues, Ciracos, qui avait toujours agi dans 
+des vues de paix et de conciliation, se fut retiré 
+dans un monastère, en 1 443, après deux années de 
+règne 2 . 
+
+Thomas se plaît à célébrer la vertu des religieux 
+qui pratiquaient de son temps les règles de la vie 
+ascétique, mise en honneur chez les Arméniens 
+depuis la fondation de leur église : ainsi vante-t-il 
+le pieux anachorète Jean de Rcschdouni, mort en 
+1396, aux prières duquel il a recours dans les in- 
+
+1 Cependant la force de Y usage el surtout l'intérêt des souverains 
+maintinrentàSis, comme à Àghthamar, des patriarches portant en- 
+core le titre de catholicos, et dont la succession s'est perpétuée 
+jusqu'à ce siècle. 
+
+* Voir dans Tchamitch , t. UI , p. /i 89 et suiv. le récit de sa dé- 
+position. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 237 
+
+fortunes de son pays *. De même, il professe un 
+grand respect pour les croyances, 4es traditions et 
+les usages de l'antique église des enfants de Haïg-, 
+mais , mû qu'il est par un attachement excessif à la 
+nationalité arménienne, Thomas montre une aver- 
+sion profonde pour les chrétiens étrangers à l'Ar- 
+ménie, et surtout pour les Latins, et en général 
+pour tous ceux qui communiquaient avec Rome; 
+il désigne, sous le nom méprisant d 1 Aghiharmaïs , 
+c est-à-dire renégats, les Arméniens catholiques qui 
+s'efforçaient de maintenir leur pays dans l'unité de 
+la foi. 
+
+Il semble que Thomas ait pris parti, dans les con- 
+troverses religieuses , pour les doctrines des Mono- 
+physites 2 ; car il accuse d'hérésie les Aghtharmaïs, 
+en ce qu'ils professaient la doctrine des deux na- 
+tures, et il glorifie Jean de Gakhig de leur avoir ré- 
+sisté 3 , et d'avoir « éclairé toutes les populations 
+d'Arménie dans la science divine. » Ailleurs, il les 
+appelle de faux chrétiens 4 , et déclare fausse leur 
+
+1 Ms. 96, fol. 71 r. Thomas, qui* atteste l'avoir vu de ses yeux, 
+rapporte que Jean , t pendant cinquante ans , semblable à un ange 
+de nature spirituelle , est demeuré debout sur les pied» , toujours 
+en prières et en supplications ». 
+
+* Il n'est pas inutile de remarquer en passant que l'ambiguïté 
+des termes employés en arménien pour nature et pour personne a 
+produit des méprises regrettables chez quelques écrivains, et que 
+des théologiens, au fond orthodoxes, ont paru partager Terreur d'Eu- 
+tychès dans des controverses mal engagées. 
+
+3 Ms 96, fol 67 v. c II s'opposait , dit-il , aux hérétiques, les Agh- 
+tharmaïs, partisans des deux natures.» L Çttyp fui^tT ^tpAnuut^, 
+
+b-nquitj UiqfhtipJivjfttj Irpl^ut^Jtul^uig t 
+
+4 Ms. 96, fol. 58 V.jutqfHu/ptfùofpij unuui ^pfiuiniAttïfiA, f. 63 V. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+238 ÀOUT-SEPTEMBBE 1855. 
+
+doctrine 1 , dont l'adoption est, à ses y«eux, une apos- 
+tasie. • 
+
+Le mauvais vouloir et l'animosité de Thomas 
+envers les chrétiens d'Occident s'expliqua fort bien 
+par l'esprit hostile qu'un de ses maîtres , Grégoire 
+de Dather, avait inspiré à ses nombreux adhérents, 
+au sein du clergé arménien. Il s'était formé , dès le 
+xiv° siècle, une association dite des unitaires ou des 
+frères unis, qui, d'accord avec les missionnaires 
+dominicains, tentaient de rattacher étroitement la 
+chrétienté d'Aririénie au siège romain. Mais il est de 
+fait que les unitaires ont tquché imprudemment, et 
+sans nécessité, aux rites antiques de l'église armé- 
+nienne, remontant au siècle de saint Grégoire l'Hlu- 
+nîinateur et de saint Isaac , qu'ils ont exigé à tort Un 
+second baptême, et qu'ils ont manqué de mesure et 
+de charité en combattant ceux des Arméniens qui 
+étaient entraînés dans la voie du schisme *. La dis- 
+sension était encore dans toute sa force au siècle de 
+•Thomas; il appartenait au parti national; et pour- 
+suivait d'une haine aveugle les adversaires de ce 
+parti 3 . Il prend un ton qui n'est pas moins haineux 
+
+1 Ms. 96, fol. 70 V. Y -i»L.tn L. à-pÇusfitfk^ «v^Mpi/fe; iM./9Ç%f t 
+
+Il est dit en ce passage que c f oa tira le seigneur 4e Magou de 4a 
+doctrine iausse des Aghtbarmaîs, com p orta nt la confession des deux 
+natures ». 
+
+* Voir, sur l'attitude des unitaires et sur les résultats de leur ac- 
+tion, le t. fil de r Histoire $ Arménie dm P. Tcfaamitch , liv. V, cb. xl. 
+et liv. VI, ch. ni et ch. vi. 
+
+3 On le Voit attribuer le bouleversement de son pays à l'oubli de 
+la prière et des devoirs de la charité, et d'autre part accuser à ce 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 339 
+
+envers les Géorgiens, à cause des intérêts opposés 
+qu avaient alors les familles dominantes des deux 
+pays; on ne peut accepter, à la lettre, les injures dont 
+il accable un peuple chrétien , qui avait partagé avec 
+les Arméniens les calamités des invasions mongoles. 
+C'en est assez pour donner une idée des préjugés 
+dans lesquels Thomas fut élevé, et du caractère opi- 
+niâtre grâce auquel ils se sont fortifiés dans son 
+esprit. 
+
+Ce que l'on sait des écrits de Thomas de Mo- 
+dzoph répond parfaitement au genre de travaux 
+littéraires qui était cultivé de préférence dans les 
+cloîtres de l'Arménie : l'exégèse , la liturgie, l'histoire 
+au point de vue politique et surtout ecclésiastique , 
+ce sont les études dans lesquelles notre auteur s'est 
+essayé *. 
+
+Le premier de ses titres est son Histoire de l'Ar- 
+ménie sous la domination de Timour et des chefs 
+barbares qui l'ont opprimée et dévastée pendant la 
+première moitié du xv e siècle. Nous allons nous pc- 
+cuper de cet ouvrage, avec quelque détail, dans la 
+suite du présent mémoire; nous constaterons d'a- 
+vance que ; si l'ouvrage abonde en faits importants 
+pour les annales du temps, il ne permet d'assigner 
+à son auteur qu'une place secondaire parmi les his- 
+toriens arméniens. 
+
+sujet l'hétérodoxie du sacerdoce (^» iuu at -qquy j>ui^uhu*jn, (<iï. 
+fol. 83 v.) 
+
+1 Quadro délia storia letteriria di Ârmenia ( Venezia , 1829 ) 
+p. là 2-1 4 3. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+240 AOUT SEPTEMBRE 1855. 
+
+Le second ouvrage attribué à Thomas de Me- 
+dzoph est un Commentaire sur Je livre du prophète 
+Daniel; au témoignage des Mékhitaristes, c'est un 
+travail qui n'est digne d estime sous aucun rap- 
+port 1 . 
+
+On cite également, sous son nom, un recueil des 
+lettres des docteurs ou vartabieds d'Arménie, con- 
+temporains de Thomas. Il avait réuni , sous le titre 
+de : Livre des lettres doctorales c |*/ï»£ jluMpqjàu^ir^ 
+wumIiumù IbiuiluÊliiug , les pièces de leur correspon- 
+dance , relatives surtout aux affaires ecclésiastiques. 
+C'est grâce à ce recueil que l'on a pu élever au-des- 
+sus de tout doute l'existence d'un catholicos du nom 
+de Jacob ou Jacques III, à une époque désastreuse 
+où beaucoup de confusion s'est introduite dans l'his- 
+toire d'Arménie . Un annaliste du x vn e siècle , Arhakel , 
+a omis, dans la liste des catholicos qui suit son ou- 
+vrage, le nom de celui-ci, qui occupa le siège pa- 
+triarcal de Sis dans les années 1 A 09 et 1 4 1 o (années 
+858-859 de l'ère arménienne). Le P. Tchamitch, 
+qui a éclairci ce point à l'aide du recueil de Thomas, 
+en a tiré deux lettres curieuses, qui figurent dans 
+son récit 2 : l'une est adressée par les vartabieds ar- 
+méniens audit Jacob, honoré du titre de catholicos, 
+pour lui notifier la déposition qu'ils venaient de faire 
+
+
+
+1 Le rév. Soukias Somal s'exprime ainsi dans \e'Quadro (p. 1 43) : 
+c Opéra per ogni conto disprezzabile èd in cui non vi si scorge se 
+non che disordine, e confusione. » 
+
+* Hist. d'Arménie, t. III, p. 456-457, et à T appendice, p. 882- 
+883. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 241 
+
+du catholicos d'Aghthamar, qui avait gravement in- 
+disposé contre lui les chrétiens soumis à sa juridic- 
+tion l ; l'autre est une réponse adressée par Jacob , en 
+signe de satisfaction, aux fidèles du pays cTArdjêsch 
+qui avaient pris l'initiative dans l'affaire d'Aghtha- 
+mar 2 , et à ceux des contrées voisines reconnaissant 
+son autorité. 
+
+Enfin , Thomas serait l'auteur d'un traité sur la 
+manière d'administrer le sacrement de l'extrême- 
+onction, suivant le rituel grec et latin. Il nous ap- 
+prend que Ciracos s'était efforcé de rétablir la pra- 
+tique de ce sacrement, qui avait été imposée au 
+clergé par les anciens conciles d'Arménie; mais qui 
+était tombée en désuétude dans les temps antérieurs, 
+par suite de négligence 3 . 
+
+Nous ferons remarquer, en terminant, que Tho- 
+mas avait obtenu par son savoir quelque influence 
+sur les hommes instruits de son temps : c'est sur ses 
+instances qu'un vartabied , Jacques (Jacob ou Agob 4 ), 
+originaire de la Crimée , dathevien comme Thomas 
+lui-même, se décida à composer un traité du calen- 
+
+1 Ces vartabieds avaient donné information du fait aux chefs de 
+toutes les églises voisines , et jusqu'au saint siège en Occident, comme 
+ils l'affirment dans ladite lettre. 
+
+* Le catholicos cite , immédiatement après la ville métropolitaine 
+d'Ardjêsch « bénie , célèbre et renommée » , le « saint monastère de 
+
+Medzoph • [Un.nt-£utn Jbhrna.nj »]. 
+
+3 Voir les assertions formelles qui servent à réfuter Galanus dans 
+VArmenia de M. J. Gappelletti , t. III, p. 1 29. 
+
+4 Ce vartabied est connu d'ailleurs comme auteur d'un commen- 
+taire sut la Genèse, d'une explication du calendrier. (Voir Qaadro, 
+p. ido.) 
+
+▼1. 16 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+£42 AOUT-SEPTEMBRE 1855. 
+
+drier arménien \ et un autre sur les degrés de pa- 
+renté, dont on possède encore l'original 2 . 
+
+S II. ÉTENDUE ET CONTENU DE LA CHRONIQUE 
+DE THOMAS DE MEDZOPH. 
+
+La «opposition historique qui nous est venue sous 
+le nom de Thomas embrasse un espace de temps 
+de soixante et dix ans, depuis la fin du xiv e siècle 
+jusque vers le milieu du xv e . Elle est double : dans 
+une première partie, qui est la plus considérable, 
+elle comprend les faits d'histoire politique et d'his- 
+toire religieuse qui remplissent la période des in- 
+vasions de Timour et des Mongols en Arménie ; dans 
+la seconde, elle renferme un aperçu des affaires ec- 
+clésiastiques que l'auteur vit de près et même aux- 
+quelles il prit part en personne* 
+
+La chronique proprement dite s'étend aux pre- 
+mières années du gouvernement de Djehanschah, 
+frère de Skandar; elle s'arrête vers Tan 1 447, c'est 
+à-dire environ un an avant le mort de Thomas. Elie 
+présente un récit suivi des événements pris dans 
+l'ordre chronologique, et interrompu seulement par 
+les détails biographiques que le vartabied se plaît à 
+
+1 Voir le titre du traité dans le ma. armén. dé Paris, n° n5. 
+C'est saqs doute le traité de chronologie que le Quadro rapporte à 
+Jacques de Crimée. 
+
+s Tchamitch (t. III , p. 453) désigne bien cet ouvrage particulier 
+-de Jacob par le terme de«/^_ipi/^./»if£_^i_S# « généalogie » , que Ton 
+prendrait comme synonyme du mot tuqjf^ufm»uni./^(it\ plus usité. 
+Sur le ms. du musée asiatique de Saint-Pétersbourg, voir la notice de 
+M» Brosset, dans le Bulletin scientifique de i académie de cette ville 
+t. III, n° 3. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 2*3 
+
+donner sur les docteurs arménien» qui furent ses 
+maîtres ou ses amis. 
+
+Les notices qui appartiennent plutôt à l'histoire 
+ecclésiastique, suivent la chronique sous forme de 
+chapitres détachés; ainsi trouve-t-on distribué f ou- 
+vrage de Thomas dans le ms. 96 de la Bibliothèque 
+impériale, dont le prix a été déjà signalé par le docte 
+abbé Villefroy 1 , et a été reconnu par les arménistes 
+contemporains, qui en ont fait usage dans leurs re- 
+cherches d'histoire orientale, MM. Saint-Martin et 
+Quatremère, Dulaurier et grosse t. Après la chro- 
+nique qui s étend du. fol, 57 au fol. 84 v. viennent 
+trois chapitres, anonymes il est vrai 2 , mais apparte- 
+nant, sans doute , au même auteur. Ils sont intitulés : 
+
+A. « De l'union des Arméniens et de la consécration 
+du catholicos en Tannée 890 (A. D. îiUi)»; — 
+
+B, «De la nouvelle bénédiction de l'église d'Ech- 
+miadzin »; — Ç, « De l'exil du catholicos Cyriaque 
+(après deux ans de règne, en 1 443 ) ». Les Mékhi- 
+tarôtes, le P. Tchamitcb et d'autres écrivains du 
+même ordre, invoquent l'autorité de Thomas rela- 
+tivement aux faits relatés dans ces trois notices 3 . 
+
+1 Dans une notice mise en tête du volume, qui contient en pre- 
+mier lieu une Généalogie et en second lieu la Chronique de Samuel 
+cfAni , avant le texte de Thomas ; le ms. 96 se compose de quatre- 
+vingt-douze feuillets, d'un papier de coton (chart* b4nbyc.) % épais 
+et glacé; il a été transcrit en i6S4 , d'une écriture ronde fort régur 
+Hère. 
+
+* Fol. 84 v, 86 v. et 89 v. 
+
+3 L'auteur du Qaadro, déjà cité (p. 43), fait descendre jusqu'à 
+Tan 1447 l'exposé des événements contemporains que Thomas a 
+ajouté à l'histoire de Timour, point de départ de son ouvrage. 
+
+16. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+244 AOUT-SEPTEMBRE 1855. 
+
+Les savants auteurs du Nouveau trésor de la langue 
+arménienne, dans une note préliminaire ', attribuent 
+h Thomas , avec l'Histoire de Langthamour, l'Histoire 
+de la séparation du siège patriarcal d'Echmiadzin 
+d'avec celui de Sis. 
+
+La chronique elle-même existe à Paris dans un 
+second manuscrit que la Bibliothèque impériale a 
+acquis vers i848 2 , et qui a été exécuté à Venise 
+par les soins des PP. Mékhitaristes d'après quatre 
+manuscrits appartenant à la précieuse bibliothèque 
+de Saint-Lazare. 
+
+C'est d'après un texte fondé sur l'étude de ces 
+deux manuscrits que nous avons entrepris la tra- 
+duction de la chronique de Thomas de Medzoph; 
+nous nous bornons à présenter ici une rapide ana- 
+lyse de son contenu, afin que l'on juge d'avance la 
+méthode de notre historien 3 . Puisque M. Saint-Mar 
+tin n'a pas étendu son précis de l'Histoire d'Armé- 
+nie au delà de la destruction du royaume de Cilicie 4 , 
+il nous a paru qu'un résumé de la période historique 
+qui suit immédiatement cet événement, ne serait 
+pas offerte sans utilité aux personnes qui suivent 
+
+1 Nouveau dictionnaire de la langue arménienne, t. I, p. i5 (Ve- 
+nise, 1837). 
+
+* Supplément arménien, n° 3i, 2 ; Histoire de Timour et des Ti- 
+mourides; 2 h feuillets, petil in-4°, écriture cursive. Un manuscrit de 
+l'histoire de Thomas fait partie de la bibliothèque d'Echmiadzin. 
+(Voir le Catalogue publié par M. Brosset en i84o, n° ào4, p. 87.) 
+
+3 Nous réservons à un autre temps l'examen de 1 appendice de 
+.cette chronique, qui a trait aux affaires du patriarcat, et surtout au 
+règoe et à l'exil du cathelicos Ciracos. 
+
+4 Au tome t de ses Mémoires histor. et géogr. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 545 
+
+attentivement le dépouillement des sources orien- 
+tales. Nous faisons toute réserve pour les dates que 
+nous insérerons dans cette analyse d après le texte 
+
+même de Thomas et en rapport avec celles que 
+Tchamitch a adoptées dans sa grande histoire. La 
+plupart des travaux historiques sur l'Arménie laissent 
+à désirer jusqu'ici, faute d'une détermination sûre 
+du point fixe de l'ère des Arméniens, et d'une vraie 
+concordance de l'année julienne ou grégorienne 
+avec Tannée vague arménienne. Grâce aux patientes 
+investigations de M. Edouard Dulaurier, le public 
+instruit sera bientôt en possession d'un système de 
+chronologie d'après lequel toutes les dates impor- 
+tantes de l'Histoire d'Arménie seront désormais bien 
+fixées. 
+
+Le titre du livre de Thomas de Medzoph varie 
+dans les manuscrite h il est ainsi conçu dans le ma- 
+nuscrit de Venise dont nous venons de parler : 
+
+^X^iiiufJhi-ph <ÇuiiliiM-OUitup.utn ifjïï miiL h fb ush 
+
+(J tiuf un ii^uujli . ttfifà itjh L_ JJ**[t ifinifiith^li fitîlilf 
+(J uitfiii [iiiij II uiiingb • qnp uifiutntrujÊ^^ujO thup^ 
+é muthinh p-tti-iluji tfmrin uitifh nhi x 
+
+1 Le ms. 96, f. 57, donne à la chronique le titre suivant: <IJu*«)_ 
+
+Jht-fiïfi Çuiifuin mu luUofttfb f^tnilitt-p^tj np l, jf, uif Yjy^t^' fctnptu^ 
+nui Uni. L. r£buiij iffi'liAf* Y' &*«*A' ndhjtufijnu • titftufftéruJf ^m^Jtuj 
+
+tluipq.uitylrint; t « Histoire abrégée de l'impie Thamour, qui, sorti de 
+la contrée du Khorasan, s'est avancé jusqu'à l'Océan; composée par 
+le vartabied Thomas. » Il faut savoir que les Arméniens ont quelque- 
+fois donné le nom d'Océan à la Méditerranée à cause de l'étendue 
+et de la profondeur de celte mer. (Voir le Lexique des noms propi -es 
+publié sous la direction de Mékliitar, p. 33o-33i , Venise 1769 ; 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+246 AOUT-SEPTEMBRE 1855. 
+
+Histoire abrégée des souverains de l'Orient, du 
+monstre impie et cruel Langthamonr, et des autres; 
+composée par V excellent maître, U vartabied Thomas. 
+
+Dans l'analyse du traité de Thomas , nous prendrons 
+de préférence l'orthographe arménienne qu'il donne 
+au nom du principal personnage, Thamour est en 
+effet le nom conservé au conquérant Mongol dans 
+les livres arméniens; il a pour synonyme la forme 
+Langthamour, où l'on retrouve Tépithète mongole 
+long* signifiant boiteux 1 » 
+
+C'est sous le nom de Djagetéens, dérivé du nom 
+du grand empire asiatique fondé par la première dy- 
+nastie mongole, que Thomas désigne tantôt les Mon- 
+gols, tantôt leurs souverains Thamour et Schah- 
+rokh; le mot Djaghata, zuirjiufïuy, employé au 
+singulier, est quelquefois Tépithète du chef tartare 
+qui est connu par le contexte, et quelquefois le nom 
+collectif de la race tartare à laquelle appartenait la 
+masse des armées conquérantes 2 , D'un autre côté , 
+les tribus belliqueuses des Kurdes qui occupaient 
+
+cf. Mathieu d'Édesse, Première croisade* traduit par M. Dulaurier, 
+p. 11 et 79 .) 
+
+1 Voir Tchamitch, t. III, p. 419 et 43o. Un des manuscrits coi- 
+lationnés à Venise pour la copie citée plus haut porte la leçon Tha- 
+mour-lang, identique au nom de Thamour»Ieng ou Tamerlan, popu- 
+larisé en Occcident. 
+
+3 Thomas ne connaît les noms ni de Tartare» ni de Mongols, que 
+d'autres écrivains arméniens ont transcrits sous les formes de Tha- 
+tharkk Ç^tupuip^ et de Mougkal jpnuqtu^. Il ne leur attribue pas 
+non plus le nom de Perses <HuÊpufife , imposé quelquefois à une 
+branche considérable des peuples tartares en raison de la prépondé- 
+rance de l'empire des Mongols de la Perse, limitrophe de l'Arménie. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 947 
+
+depuis plusieurs siècles une partie des provinces 
+d'Arménie ne paraissent point sous d'autres noms 
+dans ta chronique de Thomas que sous celui de 
+Turcomans l \ ou Thourkmans, p-ni^^Jufu \ c'est de 
+cette population d'origine étrangère qu'étaient issus 
+les petits princes, émirs, beys et ischkans, qui fi- 
+gurent, dans son histoire, parmi les oppresseurs de 
+la race indigène, de la population ancienne de l'Ar- 
+ménie. C'est ici le lieu de faire observer qu'à plu- 
+sieurs époques des invasions mongoles, les chrétiens 
+mirent leur recours dans la force dont disposaient 
+les chefs curdes ou turcomans, et qu'ils furent dé- 
+fendus par eux, sur plusieurs points du territoire 
+arménien, du temps de Thamour; mais cette pro- 
+tection était toujours précaire et intéressée 2 ; on verra 
+plus loin que, sous les successeurs de Thamour, les 
+Arméniens n'eurent pas de plus dangereux ennemis 
+que les bandes armées des ischkans indigènes. 
+
+Thomas de Medzoph prend Thamour au berceau 
+de son étonnante puissance 3 ; il le montre chef de 
+
+1 Voir l'introduction au livre VI de Tchamitch, qui leur donne 
+habituellement le nom de Mèdes, Murhh \pu/(i^. t. III, p. 4 18, et 
+passim. 
+
+8 La politique a porté, dès le xii e sùVle des Turcomans, a faire 
+cause commune avec les Arméniens ; tet a été, dans la première 
+croisade, le rôle de Danischmend, tige des émirs de la Cappadoce; 
+les Francs furent obligés de compter avec lui et avec ses descendants. 
+(Voir Mathieu d'Édesse, Récit de ht première Croisade, traduit par 
+M. Dulaurier, p. a3, 3i, 34 et notes, p. 85 y 108.) 
+
+3 II rapporte en commençant une tradition qui fait Thamous 
+originaire de Sarthapb en Arménie, canton de la province d'Ararail, 
+qui porte aussi le nom de Gok ou Gokaiovid. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+248 AOUT-SEPTEMBRE 1855. 
+
+brigands , dévenant maître de Samarcande et de 
+Boukhara, s emparant tour à tour du Khorasan et 
+de la Perse, et régnant bientôt jusqu'aux frontières 
+de l'Arménie. Il décrit les premiers ravages que 
+Thamour ait exercés sur le sol même de l'Arménie, 
+en envahissant les provinces de Siounie, d'Artzakh 
+et d!Ararad (ann. 1 386- 1-387). Il le suit dans sa 
+première invasion en Géorgie, et puis dans sa marche 
+à travers les plus belles provinces de l'Arménie; il 
+nous fait assister à la dévastation du Vasbouragan 
+et à la ruine épouvantable de la forteresse de Van : 
+«Malheur et désolation pour tous les Arméniens, 
+parce que leur pays a été ravagé! Depuis Ardjêsch 
+jusqu'à la Géorgie , et jusqu'au fleuve Cour des Agho- 
+vans, la terre a été abreuvée du sang des justes, 
+troublée par toute espèce de supplice, livrée aux 
+horreurs de la r captivité et des massacres!» 
+
+Thomas avait déjà inséré dans son récit quelques 
+traite épisodiques relatifs à des personnages célèbres 
+de son église ; il place tout à coup, au milieu des 
+campagnes de Thamour, une longue digression sur 
+le sort des écoles monastiques d'Abragoun et de 
+Kharapasd, et sur la destinée de leurs chefs; il y 
+rattache le martyre de plusieurs vartabieds qui pé- 
+rirent à des époques fort éloignées de celle à la- 
+quelle il est censé s'arrêter. 
+
+Quand Thomas reprend le fd des événements his- 
+toriques, c'est pour raconter les désastres immenses 
+causer par la seconde invasion de Thamour en Ar- 
+ménie r vers 1 39^ (843 de l'ère arménienne), U H>: 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 249 
+
+sisle sur la prise de quelques places importantes, 
+telles que Ezenga et Pakran 1 , sur la destruction des 
+églises, sur l'extrême misère des populations chré- 
+tiennes, réduites à fuir dans le creux des montagnes; 
+il dépeint au vif les calamités dont souffrit le pays 
+d'Ardjêsch, qu'il connaissait le mieux. On le voit 
+rendre justice à l'administration équitable du scheïkh 
+mongol Ahmed, envoyé en Arménie vers 1397. 
+
+Alors Thomas consacre un fort long épisode à la 
+biographie des deux docteurs, dont nous avons déjà 
+parlé dans le chapitre précédent, Grégoire de Da- 
+thev et Jean de Medzoph ; il reprend même le por- 
+trait du premier, qu'il a déjà tracé , et y ajoute quel- 
+ques traits nouveaux, comme s il ne peut se défendre 
+de célébrer, toutes les fois qu'il le peut , le coryphée 
+de son parti. Puis il anticipe un peu sur Tordre des 
+temps, en exposant les circonstances de la destruc- 
+
+1 Thaigour mit à l'épreuve la foi des chrétiens qu'il fit prison- 
+niers lors de la prise de Pakran (ras. 96, fol. 65 v.): «Il les fit 
+ranger en deux troupes séparées , trois cents musulmans et trois 
+cents chrétiens. H leur fut dit alors : « Nous allons tuer les chrétiens 
+et mettre en liberté les musulmans !» Or il y avait là deux frères de 
+révoque de la ville, nommé Mguerdich; ils allèrent se mêler à la 
+troupe des infidèles , mais voilà que les Mongols, levant leurs épées, 
+mirent à mort les musulmans et délivrèrent les fidèles. Les deux 
+chrétiens commencèrent à crier: «Nous sommes des serviteurs du 
+Christ t nous sommes des croyants! > Les Mongols répondirent : 
+Vous avez menti .... . c'est pourquoi nous ne vous mettons pas 
+en liberté», et ils tuèrent les deux frères. Quoiqu'ils soient morts 
+tous deux en confessant la vraie foi, Tévêque en éprouva une 
+grande douleur. » Tchamilch , qui fait un récit un peu modifié du 
+même épisode (t. 111 , p. 426), le place à la prise de Cars, et non à 
+celle de Pakran. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+250 AOUT-SEPTEMBRE 1855. 
+
+tion de toute chrétienté à Samarcande , qui n'eut lieu 
+
+que sous Ouloug Beg. 
+
+Revenant à l'histoire politique, Thomas relate 
+brièvement l'expédition de Thamour eu Syrie en 
+i/joi (85o], et plusieurs incidents fameux de son 
+passage dans le pays d'Alep et de Damas. Il raconte 
+le siège de Sébaste et les attrocités qui furent com- 
+mises à la prise de cette ville par ordre du tyran , 
+avec une cruelle ironie; il le montre en lutte avec 
+le sultan Bajazet , surnommé Idroamin ou Ildroam(de 
+son nom tartare Ildérim «l'Éclair»); et, après avoir 
+décrit ses campagnes désastreuses en Géorgie et au 
+nord du Caucase , jusque dans î empire de Kaptchak, 
+il le représente marchant vers l'Inde , et enfin , re- 
+venant mourir dans sa terre natale *. 
+
+Le religieux de Medzoph, qui a rapporté avec 
+indignation les cruautés dont les Mongols ont été 
+coupables du temps de Thamour, ne peut s'empê- 
+cher de louer la conduite modérée du fils de ce 
+priiTce, Miranschâh, qui avait reçu le gouvernement 
+de l'Arménie; il fallut que ce chef tartare soutint 
+une lutte contre un émir des Curdes , Youssouf , pour 
+maintenir l'ordre dans le pays et le préserver de 
+continuels brigandages. Il y eut un instant de trêve 
+aux calamités et aux persécutions; les églises fleu- 
+rirent de nouveau dans plusieurs provinces, et des 
+
+1 • L'impie Thamour péril, dit Thomas, à la manière des chiens, 
+il hnrla, déjà mort, comme un chien. ... On mit son cadavre tour 
+à tour dans le feu et dans l'eau; pendant longtemps encore, sa voia 
+impie ne cessa pas de se faire entendre. » ( Fol. 71 r.) 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 251 
+
+hommes puissants qui avaient apostasie revinrent à 
+la foi chrétienne. Cependant l'émir Youssouf ne laissa 
+pas longtemps les peuples d'Arménie jouir de la tran- 
+quillité à peine ramenée dans leur pays; il tenta de 
+résister au sultan Schahrokh , fils de Thamour, dont 
+les droits de souveraineté s'étendaient à une grande 
+partie de l'Asie occidentale. 
+
+Après la mort de Youssouf, un dé ses enfants, 
+l'intrépide Iskender ou Skandar, osa combattre le 
+sultan tartare sur le sol de l'Arménie; mais, malgré 
+ses traits de bravoure , il fiit réduit à fuir. Après la 
+retraite des Mongols, il recommença ses excursions 
+à travers tout le pays, pi] la plusieurs villes, et se 
+livra , à Ardzgué et à Ourmi , à des massacres où les 
+chrétiens ne furent pas épargnés. Comme il menaça 
+les frontières de la Perse, et tenta même un coup 
+de main sur la forteresse de Sultanieh , il attira sur 
+lui la vengeance de Schahrokh. Contraint de reculer 
+devant les forces supérieures des Mongols , il se jeta , 
+avec ses troupes , dans les contrées centrales de l'Ar- 
+ménie, déjà ravagées par lui et sans cesse exposées 
+aux vexations de petits émirs, musulmans la plupart, 
+et possesseurs du sol par droit d'hérédité. Il ne se 
+fit pas faute de persécuter de nouveau les chrétiens, 
+qui étaient livrés à lui sans défense, et il en réduisit 
+un grand nombre en servitude, autant par vengeance 
+que par cupidité. 
+
+C'est jfla suite des dévastations commises sans 
+relâche par les Curdes, et surtout par les soldats de 
+Skandar, qu'une famine horrible éclata en Arménie 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+252 AOUT-SEPTEMBRE 1855. 
+
+vers 1 43 1 (88o). Thomas nous en fait une peinture 
+navrante, et il représente, sous les plus trisles cou- 
+leurs, le sort des émigrants qui voulurent passer de 
+l'Arménie dans des pays étrangers ; c'est ici que l'au- 
+teur croit devoir rechercher les causes de tant de 
+fléaux qui ont fondu à la fois sur son pays , et qu'il 
+fait l'av x eu des désordres et des iniquités qui ont ex- 
+posé la .chrétienté d'Arménie à de si terribles châ- 
+timents. 
+
+Tout à coup Thomas reprend son esquisse des 
+affreux brigandages exercés par Skandar et par ses 
+fils dans diverses provinces arméniennes. Le redou- 
+table Turcoman fuit une troisième fois devant une 
+armée mongole, envoyée par Scbahrokh; mais il 
+exerce les plus déplorables violences dans les con- 
+trées qu'il traverse, et jusque dans les pays de l'Asie 
+Mineure, limitrophes de l'Arménie. Ce tyran, qui 
+avait fait plus de mal aux Arméniens que les Tar- 
+tares eux-mêmes, vit enfin sa puissance décroître et 
+s'affaiblir; il périt lui-même de mort violente , dans 
+la forteresse d'Erndchag, par suite d'un complot 
+ourdi par ses proches, l'an 1 437 (886). 
+
+Encore une fois, le chroniqueur se plaît à con- 
+templer ces désastres accumulés, dus à la méchanceté 
+d'un seul homme; il déplore les excès moraux causés 
+par un état de guerre continuel , et il expose surtout, 
+avec détail, les maux dont il a été témoin et dont il 
+a pu jv^ger l'énormité, particulièrement ' en i/i35 
+(884); il retrace avec non moins d'exactitude les 
+calamités qui ont entraîné l'apostasie ou le martyre 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUD^ SUR THOMAS DE MEDZOPH. 253 
+
+cl un grand nombre de ses compatriotes. Il y rattache 
+un épisode tragique emprunté à l'histoire d un pays 
+voisin (années ik$8-ikl\o) : l'attentat commis par 
+
+Aleksan (Alexandre) , roi de Géorgie , sur la personne' , 
+de Belkiné ou Pechguen, prince de la maison des 
+Orbéliens, et la mort funeste du roi coupable. La 
+Géorgie elle-même fut punie à cause des crimes de 
+ses maîtres : Djehanschâh, frère de Skandar, niais 
+allié des Mongols , y pénétra avec une armée tartare, 
+et y commit d'affreux massacres. Maître de Scham- 
+schouldé et de Tiflis , il fit prisonniers une multitude 
+de chrétiens, les condamna à la déportation, et mit 
+en œuvre les vexations les plus odieuses pour les 
+convertir à l'islamisme. 
+
+Thomas termine cette partie de sa chronique en 
+souhaitant que Dieu humilie enfin la race des in- 
+fidèles, qui a, depuis huit cents ans, opprimé l'Ar- 
+ménie et persécuté les nations chrétiennes. Nous 
+nous contenterons d'en citer ce courtpassage l : « Que 
+le Seigneur Jésus les fasse disparaître tout à coup 
+de ce monde, et qu'il exécute un jugement équi- 
+table sur nous et sur eux! Puisqu'ils ont ruiné com- 
+plètement notre nation pendant huit cents ans, 
+qu'il vienne au secours de l'Arménie , et il les perdra 
+comme Gog et Magog , comme Sermachérib et tous 
+les souverains impies des Gentils; car, qui sera jeté 
+contre la pierre du Christ sera broyé sur cette même 
+pierre; il sera broyé pour l'éternité , et avec lui toutes 
+
+les races et nations !» 
+
+1 Ms. 96, fol. 84 r. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+254 AOUT-SEPTEMBRE 1855. 
+
+S III. DE LA COMPOSITION ET OU STYLE DE LA CHROSIQDE 
+DE THOMAS DE M£DZOPfl. 
+
+Le religieux arménien s est imposé le travail de ré- 
+diger sa chronique dans des vues d'utilité pratique, 
+pour satisfaire lui-même au devoir de transmettre 
+à la postérité la connaissance des faits de son temps; 
+il considère comme propre surtout aux vartabieds, 
+aux religieux instruits, la tâche de continuer les 
+annales de leur pays. Il s'exprime de la manière 
+suivante au début de son livre : 
+
+« Il importe aux hommes amis de l'instruction et 
+des lettres de savoir que le temps se partage en 
+« trois parties : le passé , le présent et le futur. Il est 
+nécessaire, spécialement aux docteurs de l'église, 
+de posséder l'aptitude à ces trois choses; raconter 
+le passé, parler du présent, savoir et annoncer l'a- 
+venir. Pareillement, nous avons l'obligation d'ex- 
+poser dans un récit correct et sommaire les événe- 
+ments du présent qui ont eu lieu de notre temps, 
+de faire connaître, même à toutes les nations étran- 
+gères à la nôtre, comment des souverains cruels et 
+infidèles des contrées orientales ont causé, à une 
+époque récente, la ruine de la race arménienne.» 
+
+m|u^7u> 4* qjtwlri nLunt^tfijiuuhnwg h çlumUiu^, 
+ufctvg isAJu/bg • mjJi J-iuJuMÙuilfii trpbj* puuJ-uffsfi • 
+
+q.uiu£iftntug bl^brjbgi^nj u^fimnj £ ifjû irphg% Hp^ 
+tntrmj t \\ i# ufUglruijù upuutJhri* &U %trpl£unltb 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. Î55 
+
+fuouéfi • tfu LUiquiq.iLuffb hJufbiUi II nq.nL.fMMQ ni. ^ 
+nu/b/r§ s X.njiiii^u II. Jhrq upuuptn £- uiubuiL. Jft 
+<CtuJlun.Oinuip.uin Jff ulrpl^tLypu , qnp f h Jb-pnL.iT 
+J-ëHâifftiÊ knp-9 squstnJir^ qnp £***p fjqjfgh ufb^ 
+<Çuii-ium£ \^ pi* tr/bj l^npnL.um pJrpfi% ^ujf^tuqlruA 
+utrnjiu 'fi i/trpPffu Jtfbitffît, II lûêT otnuupLunlrn 
+UÊqniun tfnL-tfufuIri 1 s 
+
+Thomas est ici l'écho d une tradition vivante des 
+cloîtres de l'Arménie; il énonce sur la triple divi- 
+sion du temps les mêmes idées qu'un auteur du 
+xîi* siècle, Samuel d'Anï,a développées dans le pro- 
+logue de sa chronique 2 . Seulement Samuel soutient 
+que la plupart des hommes s'inquiètent du passé 
+et de l'avenir bien plus que du présent 3 ; il admet 
+cependant que plusieurs hommes , inspirés par l'Es- 
+prit-Saint se sont appliqués légitimement à raconter 
+l'histoire de leur temps et de leur pays , et il énu- 
+mère les historiens arméniens qui sont venus à la 
+
+1 Noub avons établi le teite de ce paragraphe en corrigeant et 
+en complétant le manuscrit 96 (foi. 67 r.) à l'aide du manuscrit de 
+Venise. 
+
+* Voir la traduction de ce prologue dans la version latine de cette 
+chronique : Somuclis Presbyteri Aniensit temporwn ratio $ etc. publiée 
+par le D* Zohrab à la suite de l'édition latine de la chronique 
+d'Eusèbequ'ila donnée de concert avec le savant A. Mai (Milan 1818, 
+grand in-a°, suppl . p. 1 - 2 ) . 
+
+3 Nous reproduisons ici les premières lignes du texte , encore mé- 
+dit, de Samuel d'après le ms 96 de la Bibliothèque impériale (fol. 1 , 
+
+Col. l) : Qê-pfu nfta^JhuUu fUuéuiUkun^ uiu^JuîhlrijutL ft{"~4> 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+256 AOUT-SEPTEMBRE 1855. 
+
+suite et qui ont travaillé à l'exemple d'Eusèbe et de 
+Socrate. 
+
+Thomas de Medzoph est le successeur et l'imita- 
+teur de cette longue série de chroniqueurs qui se 
+succèdent dans la littérature arménienne comme 
+dans la littérature syriaque du moyen, âge. Il relate, 
+plus ou 'moins brièvement, mais ne disserte jamais; 
+il enregistre des témoignages, mais sans les discu- 
+ter. On dirait de lui, comme M, Brosset a dit de 
+la plupart des historiens arméniens , qu'il y a une ga- 
+rantie d'exactitude dans la sécheresse même de leur 
+exposition. 
+
+C'est un devoir pénible que Thomas remplit, en 
+enregistrant, année par année , l'histoire d'un temps 
+si désastreux : « Cette douleur d'une profonde amer- 
+tume est inénarrable, dit-il, à propos des calami- 
+tés de l'an 1 43o l ; il est impossible de retracer par 
+Técriture l'excès de nos angoisses et de nos tribula- 
+tions. Mais nous voulons donner à ceux qui viendront 
+après nous quelque connaissance 4e ces choses; afin 
+que vous pleuriez amèrement la ruine de la nation 
+arménienne , puisque nous nous sommes trouvés en 
+personne au milieu des événements. » 
+
+Le livre de Thomas est une véritable chronique 
+qui a beaucoup d'analogie avec les chroniques latines 
+de notre Occident. Il n'est ni partagé en chapitres , 
+
+1 Ms. 96, fol. 76 r°. Nous citerons seulement ia fin de ce passage 
+qui a trait aux intentions de l'écrivain : f^uyg utuÇusu Jfr 3-uAro^ 
+
+p-nt-ffp utuidji jtrw Jha^ Irfylrjnijn. • qp l^'L^'L, UKJJr lk a t aL - u * n 
+Çuijng ut an. h 11 • qji u/uAutt/p * fi *utrpu Itunut^ » 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS 0E MEDZOPH. 257 
+
+ni soumis à des divisions générales; il présente les 
+faits dans Tordre strictement chronologique, et as- 
+signe la date de quelques-uns d'après l'ère dont les 
+auteurs arméniens se servent comme de l'ère pré- 
+sente, syivant leur expression : '/* p-nâ-uMÊ^uA^u, 
+
+Thomas ne dérobe à la simple consignation des 
+faits que pour retracer l'histoire particulière des 
+personnages de sa nation qu'il avait en haute estime. 
+On ne peut pas, du reste, trop se plaindre de ces 
+répétitions et de ces écarts, puisqu'ils donnent lieu à 
+des synchronismes fort instructifs tirés de l'histoire 
+politique et de l'histoire religieuse de l'Arménie; et 
+puis, ne faut-il pas attribuer ce défaut aux circons- 
+tances qui ont fait reprendre à Thomas la rédaction 
+de sa chronique à diverses reprises, ou même à l'in- 
+advertance de copistes, qui auraient introduit dans le 
+texte des passages de chroniques. contemporaines de 
+celle du Medzophetzi ? 
+
+Le même point de vue moral et religieux auquel 
+se sont placés la plupart des historiens arméniens 
+domine également dans l'ouvrage de Thomas l ; il ex- 
+plique, d'après des desseins providentiels, l'issue des 
+batailles, le cours des événements, et, malgré l'ar- 
+dent patriotisme qui l'aveugle en matière de croyance, 
+il reconnaît la main vengeresse de Dieu dans les 
+calamités sans nombre qui accablent son pays. Quand 
+les détails lui manquent dans le récit d'une grande 
+
+1 Voir la première notice de M. Brosset sur une Collection d'his- 
+toriens orientaux inédits, au tome III du Bulletin scientifique* à* Saint- 
+Pétersbourg. 
+
+?i. 17 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+258 AOUT-SEPTEMBRE 1856. 
+
+catastrophe , il lui arrive souvent de dire que « Dieu 
+
+seul sait Je nombre et le nom des victimes)). 
+
+Il va de soi que Thomas prend très-souvent le lan- 
+gage biblique pour juger les événements* pour en 
+marcfuerle caractère et les suites; on rencontre dans 
+son texte des citations des psaumes , des prophètes et 
+des évangiles. Il ne marique pas non plus de com- 
+parer des personnages de son temps aiJx personnages 
+de récriture; ainsi rapproche -t -il de la mère des 
+Macchabées l'héroïque femme de Mousch, qui Uia 
+son fils d'ufc ooup crêpée et qui se précipita elle-même 
+du haut d'.uh rocher, par crainte des darigers de l'apos- 
+tasie 1 . 
+
+Comme s'il paraît perdre toute confiance dans 
+•l'avenir de son pays, il arrive deux fois à Thomas 
+de répéter la prédiction du grand Nersès, un des 
+premiers patriarchesMe l'Arménie , sur la destruction 
+de la race d'Aram par la nation des Archers, c'est- 
+à-dire, les Tartare* ou Mongols, Il appelle à plu- 
+sieurs reprises l'es farouches conquérants Thamour 
+et Skandar précurseurs de TAnté-Christ, et, quand 
+il doit raconter quelque scène de désolation ou de 
+massacre, il a la coutume de dire que les spectateurs 
+se croyaient au jour du dernier jugement. 
+
+Quand la guerre eesse , quand les persécutions se 
+ralentissent, Thomas proclame hautement une in- 
+tervention du Dieu des chrétiens : il attribue , pat* 
+exemple, aux prières et à la mort de tant d'innocentes 
+victimes l'affaiblissement subit du pouvoir despotique 
+1 Ms. 96 , foJ. 60 v. et 6 1 r. ' 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 2&9 
+
+de Skandar, qui avait pesé si durement sur son payrf. 
+
+Dans la relation d'une des campagnes de Thamour 
+en Arménie (i 38g) , Thomas explique par un secours 
+divin le succès remporté près de Mousch sur les 
+Mongols par les Curdes de Phir Hasan, et il fait 
+mention d'une apparition surnaturelle qui aurait eu 
+lieu au milieu de l'action l . « Dieu , dit-il ; envoya des 
+troupes d'anges au secours des fidèles ; trois hommes, 
+étincelants de blancheur, montés sur des coursiers 
+blancs, se tinrent dans les airs; puis ils descendirent 
+et se mêlèrent aux soldats du chef turcoman. C'est ce 
+que m'a raconté notre frère spirituel, le moine Ga- 
+rabied, qui avait vu des spectateurs de cette scène. 
+Au même instant, l'armée du Djagatéen fut mise en 
+déroute et anéantie » 
+
+Suivant le même Thomas * 2 , le conquérant lui- 
+même alla voir le champ de bataille et s'enquit du 
+. nombre considérable des morts. Thomas y vit de ses 
+yeux des hommes qui étaient morts sans être frappés 
+de l'épée. Alors il s'écria en présence de tous les assis- 
+tants, qui l'entendirent : « Non, ce n'est pas l'œuvre 
+de l'homme, mais l'œuvre du Dieu créateur! » Puis, 
+ce jour-là, Thamour renonça à poursuivre le chef 
+curde, dans la crainte de plus grands désastres. 
+
+Enfin, dans l'intention de faire saisir de quelles 
+pensées a été préoccupé notre chroniqueur en écri- 
+vant l'histoire de son temps, nous citerons le passage 
+où il déplore amèrement l'apostasie forcée dé milliers 
+
+* Ms. 96, 'fol. 60 v. 
+2 Ibid. fol 61 r. 
+
+17. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+260 AOUT SEPTEMBRE 1855. 
+
+de captifs arméniens , qui ,. transportés dans le Kho- 
+rasan , vont donner le jour à d'innombrables généra- 
+tions d'infidèles l . 
+
+« Nous ne sommes point capables de retracer par 
+l'écriture nos douleufeuses angoisses ni celles des 
+autres; car tout cela n'est bien connu que de Celui-là 
+qui sait les choses cachées. Voilà sept années que nous 
+sommes exposés à un terrible châtiment. En effet, le 
+glaive a été brisé, la famine a tué, la captivité a dé- 
+cimé; la bête sauvage a dévoré l'homme; les oiseaux 
+ont dévasté les récoltes, et les crapauds et les rats ont 
+détruit les campagnes : châtimeat bien supérieur à 
+celui des Babyloniens dans, les jours d'Abraham, et, 
+bien plus cruel que les plaies qui ont frappé les Hé- 
+breux et les Égyptiens; car les fils des Egyptiens ont 
+été submergés dans la mer; lés fils de l'Arménie le 
+sont dans la mér d'incrédulité de la ville de Rbé 2 . 
+Ils sont morts , en effet, dans la mer, et ils ne se sont # 
+point multipliée par une génération véritable nos 
+fils et nos frères qui sont tombés là dans la mort 
+et la perdition : leurs enfants grandissent et se pro- 
+pagent dans l'incrédulité, et déjà ils remplissent 
+tout ce pays. Jusqu'au dernier jour du jugement, 
+il arrivera que de la seule race des Arméniens sorti- 
+ront autant de générations humaines qu'il y a main- 
+tenant de personnes vivantes dans un nombre de 
+
+1 * Fol. 77 r. ann.i43i et suiv. (88o de l'ère armén.).{Voy. Indji* 
+dji , Archéolog. armén. t. I , p. 366-367. ) . 
+
+3 Ville capitale du Khorasan, contrée au nord-est de la Perse, 
+qui était peuplée par les prisonniers de guerre amenés des diverses 
+contrées de l'Asie antérieure. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPIJp 2fti 
+
+soixante et dix familles. Si, en effet, la terre a été 
+peuplée par les huit personnes qui composaient la 
+famille du juste Noé, vénérable serviteur de Dieu, 
+combien davantage faut-il que s'accroisse et se mul- 
+tiplie la postérité de mille et de dix mille captifs? » 
+; C'en est assez, sans doute, pour qu'on se forme 
+une idée de la méthode de Thomas et des vues qui 
+Vont guidé dans la composition de sa chronique. Si 
+nous considérons maintenant -le style du livre, il 
+nous serait diffciie de mettre en doute la sévérité» de 
+la critique dont il a été l'objet sous la plume des 
+académiciens de Saint-Lazare. Faisant allusion à la 
+prose des écrits de Grégoire de Dathev, prose mé- 
+diocre,, mais vantée outre mesure par l'esprit à& 
+secte, le Révérend Soukias Somal nous dit que Tho- 
+mas a rédigé son histoire « dans un style si barbare 
+et si bas, qu'il ne le cède point à celui de son maître 
+exalté \ ». Les auteurs du nouveau Trésor de la langue 
+arménienne signalent de même son livre comme 
+«crit « dans un style inégal et vulgaire 2 »* 
+
+Sans entrer ici dans l'examen des formes qui tra- 
+hissent lusage de dialectes provinciaux et qui pré- 
+sagent la rapide décomposition de l'arménien littéral 
+à la fin du moyen âge, nous donnerons place à quel- 
+ques remarques qui sont de nature à expliquer et 
+mêmér à justifier le jugement des Mékhitaristes, si 
+absolu qu'il paraisse. S'il y a redite quant aux faits , 
+
+t * * Qmàâroyp. 1 43. « Coo uno stilo pero cosl bar bar o, e basso , chc 
+mot* io cède pueto a quelle Je! fanatico suo maestro ». 
+
+1 NOU». Diction, t. I, p. 1 5 . uïhÇutpP L uvnpjtU nXni[ t 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+262 ê AOUT-SEPTEMBRE 1855. 
+
+il y a aussi chez Thomas de fréquentes répétitions 
+
+dans les termes , et une fâcheuse redondance dans la 
+
+phraséologie. Les mêmes figures , les mêmes compo- 
+sés reviennent à satiété dans sa narration. Quand 
+l'auteur veut peindre de grandes calamités , il reprend 
+invariablement cette même tournure : • On put voir 
+en ce moment , etc. i Veut-il louer quelque person- 
+nage illustre, il finit son éloge par cette formule 
+précative : u Que sa mémoire soit en bénédiction ! » 
+et quelquefois il la développe sous forme de prière. 
+
+L'exposition de Thomas de Medzoph est presque 
+toujours sèche et monotone; elle a le grand défaut 
+d'être inégale, et porte les traces dune négligence 
+que l'historien n'a pas cherché à vaincre. Alors qu'il 
+veut prendre le ton de la plainte, il ne sait pas 
+atteindre le pathétique. U n'est aucune relation de 
+guerre ou de campagne où ne reparaissent les mêmes 
+termes et les mêmes constructions. Il est, dans les 
+récits de combats, un seul passage descriptif digne 
+de certaine attention; encore le prendrait-on bien 
+plutôt pour u/n morceau de rhétorique que pour la 
+copie de quelque fragment épique , semblable à ceux 
+qui se détachent sur la prose sévère de Moïse de 
+Khorène J . 
+
+Thomas s'anime tout à coup pour représenter le 
+mouvement tumultueux d'une bataille livrée aux 
+
+1 Voir la dissertation de M. J. B. Emin (Moscou, i85o), et les 
+Etudes de M. Éd. Dulaurier sur les chants historiques et les tradi- 
+tions populaires de l'ancien ne Arménie dans le Journal asiatique 
+de JanTier i85s (t. XIX, 4" série p. i-i>&). 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZÛPH. 363 
+
+Mongols de Thamour par les Curdes, qui servaient 
+alors la cause des habitants chrétiens du pays; il 
+prélude ainsi à la description du combat de Mousch, 
+où un intervention miraculeuse des anges décida la 
+victoire en faveur de ces derniers, d'après un récit 
+de Thomas que nous avons traduit et rapporté plus 
+haut : 
+
+« En ce moment on aperçut la bravoure des com- 
+battants : les hommes au cœur vaillant provoquaient ; 
+les lâches fuyaient; les hommes timides perdaient 
+courage. Les casques étincelaient , les épées resplen- 
+dissaient, les lames frappaient et brisaient; les braves 
+luttaient contre les braves , et le bruit des clameurs 
+fendait le cœur de tous ceux qui étaient spectateurs 
+du combat l ». 
+
+S IV. AUTORITÉ HISTORIQUE DE L'GpVRÀGE DE THOMAS DR MEDZOPB. 
+
+Thomas ne se donne pas comme le continuateur 
+de Fun ou l'autre écrivain de sa nation. Quoiqu'il 
+ait eu connaissance des écrits arméniens du xm e siè- 
+cle sur les invasions de Gengiskhan et des Mon- 
+gols, dont nous avons parlé dans les préliminaires 
+de ce mémoire, il ne rattache son œuvre person- 
+nelle à aucune de celles qui nous sont connues. 
+
+1 Foi. 60 V, ^««* £ in£ruitA/£rf^iiç_iMiPni-.f}fr wpiulitj tlL^juJiflup 
+
+uhtuifijiU utiftiifiiulitujpu • ttuintâMt^tupuin i l" J {Jt^l*^ i * unt-,uhrp r p 
+jttqujjliU •%^qtul^ w p% pbl^ailiï^^h * ^mûp g^môtwy * jt tfîuptn tflnut^ 
+V/4/fr , li. q-nJLni-lfît tijqu/rjuilfffti uptniuph ^ tutCht^p tfuihtuttju ti^ut^. 
+>nf, piurjtffih % 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+204 AOUT-SEPTEMBRE 1855. 
+
+Ayant limité son travail au siècle où il a vécu', 
+
+Thomas rapporte le plus grand nombre des faits 
+sur sa propre autorité. Il avait été témoin occulaire 
+de plusieurs des scènes les plus désastreuses qu'il 
+décrit; il en parle à ce titre, ou bien il les raconte 
+d'après le témoignage de personnes sûres qu'il re- 
+gardait comme dignes de foi 1 . Il arrive souvent à 
+Thomas de citer le nom propre des personnes qui 
+lui ont attesté la réalité d'un fait, et vraisemblable- 
+ment il a été à même d'apprendre à connaître les 
+vicissitudes des provinces éloignées de la sienne de 
+la bouche des docteurs et des religieux qui ont 
+cherché asile dans le pays d'Ardjesch. Plus rare- 
+ment, Thomas parle de lui-même au singulier, et 
+en certains endroits seulement il se représente agis- 
+sant «en personne», «AIuiiÇi, Le plus souvent, 
+quand il se sert du pluriel (nous, *A^), il entend 
+désigner avec lui ses amis et ses frères en religion, 
+compagnons de ses souffrances et de ses migrations. 
+Quoiqu'il nous soit impossible de fournir dans 
+cette notice le détail des preuves, nous ferons en 
+sorte de constater quelle est la valeur intrinsèque 
+du livre de Thomas, envisagé comme source d'his- 
+toire politique, ecclésiastique et littéraire, et comme 
+un des fondements de la géographie historique de 
+l'Arménie. 
+
+' Pour donner plus de poids a ses paroles, il se sert d'une double 
+expression : «voir et eiilendre» tnLuu/iiL/nt/ ///»/. /m/ ; comme si 
+ie plus souvent il s'était éclairé sur les parlieulariu-s ou sur l'issu? 
+d'un événement en interrogeant d'autres témoins. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 265 
+
+Déjà le P. Michel Tchamitch a pris Thomas de 
+Medzoph comme une des autorités sur lesquelles 
+il a fondé son exposé de l'histoire d'Arménie au 
+xv e siècle. II assure que Thomas est au nombre de 
+ces historiens modernes qui ont travaillé isolément 
+par suite du malheur des temps , sans avoir pu 
+comparer et discuter les assertions les uns des au- 
+tres l . Mais il l'a suivi avec confiance , en sa qualité 
+de témoin oculaire 2 , au sujet des faits et gestes de 
+Thamour en Arménie, et il a recueilli de même 
+les témoignages des contemporains de Thomas, qui 
+ont écrit dune manière conforme à la sienne dans 
+les notices chronologiques [jfri&àÊHtitympu/iùt) de 
+leurs livres. Seulement, il faut ranger avec Tcha- 
+mitch notre chroniqueur parmi ces historiens ar- 
+méniens dont les téthoignages doivent être com- 
+parés soigneusement avec les assertions des écrivains 
+étrangers qui ont parlé de la même époque qu'eux- 
+mêmes. Le savant Mékhitariste signale lui-même la 
+dissidence qui existe entre Thomas de Medzoph et 
+l'historien grec Laonicos Ghalcondylas, relativement 
+à l'époque du fameux Turcoman Skandar , qui a été , 
+après Thamour, le fléau et la terreur de l'Arménie 8 ; 
+il s'en tient à l'autorité du premier, contemporain 
+et témoin oculaire, tandis que le second, qui a vécu 
+cinquante ans après, na parlé que sur la foi d'au 
+trui. Le besoin d'éclaircir de telles contradictions et 
+
+1 Histoire d'Arménie, t. III, p. 879. 
+
+2 IbiJ. p. 23o , et appendice , p. 8ëo. 
+
+1 llis toirc d' A rmén ic , npp c a d i ce , p . 8 8 a . 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+266 AOUT-SEPTEMBRE 1855. 
+
+d^tablir une concordance définitive entre les sources 
+appartenant à plusieurs langues réclame une étude 
+complète de l'œuvre de Thomas, qui soit fondée 
+sur une traduction fidèle et qui fasse suite aux re- 
+cherches partielles que de savants religieux de 
+Saint-Lazare ont accomplies sur les manuscrits de 
+leur établissement. 
+
+Le texte arménien de la grande Histoire de Tcha- 
+mitch est plein de citations empruntées à notre 
+Thomas, désigné presque toujours par l'épithète de 
+Medzophetzi K Plus récemment , le P. Lucas Indjidji 
+a fait des emprunts assez considérables au livre de 
+Thomas dans son Archéologie arménienne , pour dé- 
+crire les ravages exercés en Arménie par les Mon- 
+gols ou Tartares à la suite des Persans et des Arabes, 
+et pour expliquer par l'histoire la dépopulation de 
+l'antique Arménie 2 . 
+
+Il ne nous semble pas superflu de mentionner 
+ici les événements marquants au sujet desquels le 
+P. Tchamitch a extrait de Thomas des passages 
+étendus. Il a reproduit, par exemple, deux longs pas- 
+sages de sa chronique 3 , l'un sur les horribles mas- 
+sacres ordonnés par Thamour lors de la prise de 
+Van (en i 3g3), l'autre, sur la famine effroyable qui 
+a suivi le passage du conquérant mongol. C'est en- 
+core d'après lui qu'il parle , en passant , des sept tours 
+
+1 Dans les sept premiers chapitres du iivre VI (t. III). 
+
+2 Voir des citations textuelles de Thomas dans cet ouvrage ar- 
+ménien publié à Venise en i835 (petit in-4°), au t. I, p. 355-356, 
+p. 364-367, et au t. III, p. a3i-a3a. 
+
+3 Histoire d' Arménie , t. III, p. aa5 et /ia6. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 267 
+
+construites avec des têtes d'hommes en îûoa; sans 
+
+discuter l'énormité des chiffres, nous rapporterons 
+ici les propres expressions du chroniqueur contem- 
+porain J : « Puis, Thamour donna cet ordre : Vous 
+êtes sept cent mille hommes sous mon comman- 
+dement; vous apporterez devant moi aujourd'hui, 
+ce matin même/sept cent mille têtes, et vous en 
+construirez sept tours. Quant à celui de vous qui 
+n apportera pas une tête, sa propre tête sera cou- 
+pée; mais qu'on ne touche pas à quiconque dira : 
+Je suis chrétien 2 ! » Une multitude de soldats, 
+ayant tiré leurs épées, exterminèrent tous les ha- 
+bitants de la ville. Les hommes vinrent bientôt à 
+manquer; les soldats ne pouvaient trouver de têtes, 
+et ils se mirent alors à couper la tête des femmes 
+elles-mêmes. Ainsi l'armée entière mit-elle à exécu- 
+tion l'ordre de son chef. Quiconque 
+
+ne pouvait abattre une tête en achetait une au 
+prix de cent tahégans, et la donnait pour sa part. 
+Bien des soldats, qui ne purent ni abattre des 
+têtes ni en acheter, coupèrent celles de leurs com- 
+pagnons, et les placèrent en monceaux parmi les 
+autres 3 . » 
+
+Sous le règne des Timourides, l'Arménie futex- 
+
+1 Histoire d'Arménie, p. 4*9, manus. 96, fol 69 v. Thomas cite, 
+comme témoin, Miklita de Van, qu'il appelle Notre fils spirituel; 
+ce vartabied avait échappé avec grande peine au massacre de Damas. 
+* Littéralement : Adorateur de Jésus, Qpu^p tnTt 
+3 Suivant Thomas (fol. 69 v.), Thamour, qui se dirigea immédia- 
+tement sur Bagdad avec le même nombre d'hommes, y fit construire 
+également des tours d'ossements humains. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+268 AOUT-SEPTEMBRE 1855. 
+
+posée aux affreux brigandages d'émirs curdes dont 
+
+elle souffrit plus que des actes des Mongols. (Test 
+d'après Thomas que le P. Tchamitch a retracé les 
+vicissitudes auxquelles le pays fut soumis par suite 
+de l'anarchie où il retombait à chaque instant 1 . 
+Cependant Thomas lui-même rend justice à la haute 
+politique qui porta les enfants de Thamour à ré- 
+primer la tyrannie des princes indigènes dans un 
+royaume qui relevait de leur empire; il déclare 
+avoir vu de ses yeux trois expéditions envoyées 
+par Schahrokh pour arrêter et pour punir les excès 
+de Skandar : «Depuis le Khorasan jusqu'à l'Egypte, 
+nous dit Thomas 2 , toute contrée fut soumise à 
+des bouleversements tant qu'il resta en vie sur la 
+terre. C'était l'an 886 de notre ère (A. D. î A3 7 ) 
+que cela se fit (c'est-à-dire que sa mort arriva); or, 
+depuis l'an 870 (A. D. 1/12 1 ), jusqu'à la mort de 
+Skandar, le pays entier fut dans l'agitation et le 
+trouble, et les infidèles en souffrirent aussi bien 
+que les fidèles; car ce fut à trois reprises que le 
+Djagaféen Schahrokh, à cause de la rébellion de 
+ce chef, vint réduire en captivité tous les Turco- 
+mans et les populations de la Mésopotamie : la 
+première fois, à Vagharschaguerd; la seconde, à 
+Salmasd, et la troisième fois quand Skandar lui- 
+même périt et beaucoup de monde h cause de lui. 
+C'est ce que j'ai vu en toute certitude dans notre 
+canton » 
+
+1 Histoire d'Arménie, l. III, p. 458-467, 
+
+2 Ms. 96, fol. 80 r. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 269 
+
+Historien de sa nation avant tout, Thomas nous 
+fait cependant connaître des particularités fort cu- 
+rieuses de Thistoire de la Géorgie dans le même 
+siècle l : il témoigne de la résistance héroïque op- 
+posée deux fois à Thamour par des rois de Géor- 
+gie , en 1 588 par Bagrat V et vers i Ixoo par George. 
+Lé premier eut recours à la ruse pour écraser les 
+Mongols , qui se retirèrent ; mais Thamour revint 
+plus tard avec des idées de vengeance-, qu'il réalisa 
+pleinement sous le règne de son successeur 2 . G est 
+encore à Thomas que l'on doit l'épisode de la mort 
+tragique dun prince vertueux du nord de l'Armé- 
+nie, Pechguen ou Belkiné, que le roi de Géorgie 
+fit empoisonner en iA3*8, parce qu'il portait envie 
+à la bonne renommée de son gouvernement, qui 
+attirait à hii les Arméniens de Géorgie 3 . 
+
+Seulement Thomas rejette l'odieux de l'attentât 
+accompli par un certain Amnatin sur les sectateurs 
+du concile de Ghalcédoine 4 , et il ne manque pas 
+
+
+
+. ' L'intérêt de ces faits n'a pas échappé à Tchamitch qni , les men- 
+tionne, loe. cit. p. 4*2 » 4*8, 470. 
+
+* Ms. 96, fol, 61 et 70; M. Brosset a traduit d'après ce ms. les 
+deux passages de Thomas relatifs aux deux expéditions de Thamour 
+en Géorgie, dans le t, XX de Y Histoire du Bas-Empire y de Lebeau 
+( i836), suppl. p. 499~5oo. 11 les a reproduits avec plus de dévelop- 
+pements comme commentaires de sa traduction de Y Histoire de la 
+Géorgie, part II, p. -654 note et p. 673. 
+
+3 Msi 96 , fol. 83 r. M. Brosset a traduit en entier cette intéres- 
+sante narration, comme il l'appelle dans ses Additions à l'histoire 
+vtcienmedela Géorgie, p. 4oi-4o3; nous lui empruntons la traduc- 
+tion du passage cité ci-après. 
+
+4 II ne nous semble pas inutile de remarquer que Thomas mani- 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+*70 AOUT-SEPTEMBRE 1855. 
+
+d'accuser de lâcheté ses voisins du nord. Voici com- 
+ment il injurie lest Géorgiens : u Cette nation lâche, 
+fanfaronne, buveuse, qui se vantait de dominer 
+l'univers, ne pouvait tuer uh seul homme de ses 
+flèches. S'ils voyaient un ennemi dans un bois, ils 
+se disaient l'un à l'autre, Saisis de tremblement 
+et d'épouvante : Voici un Turkoman ! mais ild 
+n'osaient le frapper, et s'erifuyaient , livraht leur 
+fils; et nous, qui avions toujours compté sur le 
+secours des Géorgiens , et qui faisions les ficft au 
+milieu des infidèles , nous fûmes réduits au silence 
+par cette infâme conduite; vérifiant ainsi ce mot 
+du prophète : « Maudit est celui qui espéré dans 
+«l'homme; n'espère point dans les princes, parce 
+« qu'ils ne sont rien. » 
+
+Thomas fait remonter à la seconde canlpagne de 
+Thamour en Géorgie l'usage qu'ont eu les Mongols 
+de faire une masse de prisonniers parmi les chré- 
+tiens et de les transplanter dans les contrées de 
+l'Asie centrale , particulièrement dans le Khorasan. 
+Encore en i63o , le jour de la Pentecôte -, les sol: 
+dats de Schahrokh saisirent et amenèrent en ce 
+pays des hommes pieux du canton de Dosb dans le 
+Vasbouragan. «Malheur à nous depuis ce jour, jus- 
+qu'aujourd'hui, et encore dans l'avenir! » s'écrie 
+Thomas , quand il a rapporté les seuls détails qu'il 
+
+feste ailleurs (fol. 59 V.) son animadversion pour les Bagratidei, 
+anciens Souverains de l'Arménie : «S' étant réfugiés en Géorgie pour 
+échapper à la tyrannie des infidèles, ils ont renoncé à la vérité et 
+adhéré à la foi de Chricédirine. » 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ETUDE SUR THOMAS DE MEDZOPH. 271 
+
+ait pu recueillir sur le no tri et la qualité des per- 
+sonnes 1 . 
+
+Chaque chef qui entrait dans urçe province d'Ar- 
+ménie l'accablait d'exactions nouvelles, et bien sou- 
+vent il redoublait de violences envers les personnes, 
+parce qu'il trouvait le pays lui même tout a fait 
+appauvri. Déjà, vers l'an xlxilx, la terreur inspirée 
+par Ypussouf avait forcé d'aliéner en plusieurs en- 
+droits les richesses de l'église et les biens des parti- 
+culiers pour la rançon des captifs; les infidèles, 
+voyant l'empressement généreux des chrétiens, ne 
+libéraient chacun de leurs prisonniers qu'au prix 
+de dix ou de vingt mille tahégans 2 . Gomme s'ex- 
+prime Thomas dans le récit de cette histoire 3 : « Les 
+prêtres et les religieux ne pureiit que montrer leur 
+extrême pauvreté. » 
+
+Tandis que Skandar ne cessait dans ses incursions 
+d'épuiser tous les cantons du pays, un ischkan, du 
+nom de Pir Ali , fit peser de lourdes contributions sur 
+la grande province du Douroupéran, y établit une 
+capitation sans pitié pour personne, et réduisit des 
+populations entières aux souffrances de la faim : il 
+exigea » pour le rachat de femmes prisonnières , de 
+grosses sommes d'argent « de pauvres gens qui n'a- 
+
+1 Fol. 76 r. Tchamitch a donné un extrait de ce passage dans 
+son Histoire, p. 464. 
+
+1 Sur la monnaie de ce nom, jeta or et en argent, voir la Lettre 
+de M. Victor Langlois sut quelques monnaies des rois de la petite 
+Arménie, dans là Revue arthéolôgiqaè,i. X, novembre i853. 
+
+3 M*. 96, fol. 72 v. 73 r. Voir un extrait dans Tchamitch, t. III, 
+p. 458 et 459. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+272 AOUT-SEPTEMBRE 1855. 
+
+vaient pas, dit Thomas ] , un seul dram ou dirjieni 
+en leur possession ». Après la mort de Skandar, les 
+choses n'allèrent, pas mieux : quand Djehanchâh, 
+gouverneur de l'Aderbaïdjan et bientôt de l'Arménie , 
+eut pénétré en Géorgie vers 1 44o, il y fit un grand 
+nombre de prisonniers, qui devaient être vendus 
+ensuite à des maîtres infidèles. Thomas s'arrête à ce 
+fait pour montrer l'extrême détresse de son pays 2 ; 
+des chrétiens captifs restaient à la merci des soldats 
+étrangers, qui voulaient vendre chaque homme au 
+prix de mille tanga*, et leurs coreligionnaires d'Ar- 
+ménie étaient hors d'état de les tirer de leurs mains. 
+Nous sommes tombés, dit le chroniqueur, dans \mt 
+profonde misère, la nation entière, les villes et les 
+bourgs , les monastères et les campagnes , au point 
+que ni une ville, ni un bourg, ne peut racheter 
+Un seul prisonnier, à cause de sop excessive pau- 
+vreté!» 
+
+Nous avons à peine besoin de dire que l'ouvrage 
+de Thomas est, d'un autre côté, une mine fort riche 
+pour l'histoire ecclésiastique de l'Arménie, et que 
+le P. Tchamitch l'a mise à contribution pour établir 
+des dates importantes de cette histoire. On lui doit 
+la relation du supplice du catholicos Zacharie d' Agh- 
+
+
+
+1 Ms. 96, fol 80 v. Vers l'an i434. 
+.* Ma. 96, fol. 83 r. Voir. Tcliaiuitcfi , loc. cit. p. 472. 
+
+8 Le pululiutj, thanga, comme le tang ou tank quiùqj qufbÇ, 
+était une monnaie de cuivre de peu de valeur, correspondant à l'o- 
+bole. (Voir Nouv. Dict. de h lang. armén. t. I, p. 795 et p. 693, et 
+VArchéol. armén. du P. Indjidji, t. I, p. 243. ) 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEMOPH. 273 
+
+thamar, placé par Tchamitch l'an i3o6. et belle 
+
+d'un grand nombre de martyres qui marquèrent, 
+d'année en année , la première moitié du xv e siècle ; 
+on lui doit également la mention d'un grand nombre 
+d'apostasies qui furent rétractées après les temps de 
+persécution. Seulement on ne peut oublier que 
+l'appréciation des actes de quelques hommes est 
+faite par Thomas au point de vue exclusif de l'église 
+dissidente d'Arménie : ainsi attribue-t-il sans réserve 
+aux Unitaires l'empoisonnement du moine Malachie , 
+anachorète célèbre par ses jeûnes, qui mourut subi- 
+tement en 1 3 8 tx \ . C'est aussi avec vivacité qu'il retrace 
+quelques-unes des contreverses soutenues par des par- 
+tisans de l'unité religieuse avec de savants docteurs 
+du parti national 2 ; le P. Tchamitch en a donné la 
+substance d'après le témoignage de Thomas, contrôlé 
+par celui de Mékhitar d'Abaran , qui avait embrassé 
+dans le même temps avec un zèle imprudent la cause 
+des Unitaires 3 . Thomas ne cache point la défection 
+d'un grand nombre des disciples du grand vartabied 
+Sarkîs, qui passèrent dans les rangs des Aghtharmaïs ; 
+il ne dissimule pas non plus les violences dont usè- 
+rent les docteurs , qui pour lui sont seuls orthodoxes, 
+envers tous les religieux qui voulurent se séparer 
+d'eux à la suite de discussions théologiques; il les 
+représente jetés en prison sans pitié, chargés de fers, 
+
+1 Ms. 96, foi. 58 r. Cf. Tchamitch. t. III, p. 44g. 
+
+2 Ibid. fol. 63 et 64. 
+
+:i Hist. d'Arménie, 1. Vf, c. m ; t. III, p. 446, suiv. Sur Mékhi- 
+tar Abarantzi, voir le Qnadro, p. i46. 
+
+vi. 18 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+*74 jtQUT-SEPTBMBRft 185& 
+
+arables de* «oups de bâton , ou bien réduits h être* 
+
+presque nus et à se réfuter parmi ks Francs. 
+
+Dans la dernière partie de sa chronique J Thomas, 
+comme nous l'avons dit plus haut, traite ex professo 
+des affaires ecclésiastiques de son pays. Il soutient 
+que les traditions et les rites des Arméniens avaient 
+subi de grandes altérations sous la juridiction des 
+patriarches de Cilicie \ Il rend compte des délibéra- 
+tions qui ont abouti au rétablissement du siège pa- 
+triarcal d'Etchmiadzin; il défend le catholicos Cyria- 
+que, qui en était le nouvel élu, et il le venge des ca- 
+lomnies dont quelques prélats arméniens l'avaient 
+chargé quand ils voulurent le déposer en i 443. Les 
+déclarations formelles de Thomas, qui s'accordent 
+avec d'autres témoignages contemporains, ont porté 
+le P. Tehamitch à rendre justice aux bonnes inten- 
+tions et aux vertus de Ciracos 2 , et aussi à réfuter des 
+assertions inexactes de Lequien au sujet de l'élection 
+frauduleuse et des actes de ce patriarche 5 . Ciracos, 
+suivant! chamitch, ne fut pas « un schismatique opi- 
+niâtre»; il a montré des sentiments d'amour envers 
+tous les sièges ; il ne fut déposé que par suite des in- 
+trigues de quelques ambitieux. 
+
+Le livre de Thomas n'a pas moins d'importance 
+pour l'histoire littéraire de sa nation-, nous avons 
+déjà fait remarquer combien de renseignements bio- 
+
+1 Voir Y Histoire de Tehamitch, t. III, p. 485. 
+» Hist. d'Arménie, t. III, p. 453. p. $86-490. 
+3 lbî<L append. p. 886. (Voir Orkns chrisiianus> 1. 1, col. i3t>7» 
+Uo7etsuiv.) i 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE £U& THOMAS DB MED20PH. *73 
+
+graphiques y sont répandus, et comment, en ma- 
+nière de digression , il retrace la carrière des docteurs 
+de son temps qui étaient tenus en haute estime et 
+vénération par ses coreligionnaires. On trouve dans 
+ses pages quelques détails curieux sur les matières 
+de renseignement des cloîtres, et aussi sur l'objet 
+des études spéciales de quelques vartabieds renom- 
+més; on y lit, par exemple, quels étaient les livres de 
+rÉcriture qui étaient de préférence lus dans les 
+écoles, et sur lesquels les maîtres composèrent alors 
+de nouveaux commentaires. Quelques citations mon- 
+treront suffisamment l'intérêt des notices littéraires 
+insérées çà et là dans la chronique de Thomas. 
+
+Nous rencontrons, dans les pages qui concernent 
+l'action exercée par le grand vartabied Sargis, une liste 
+des auteurs qu'il devait faire connaître à ses disciples 
+pour suivre la tradition scientifique des écoles d'Ar- 
+ménie 1 : ((Humble d'esprit et conciliant comme il 
+l'était , confiant dans l'esprit divin , Sargis commença 
+à les instruire dans l'ordre de l'enseignement; ses 
+disciples, qui étaient ignorants, n'avaient pas en- 
+core appris à goûter la doctrine de la sainte église, 
+celle de l'illustre Grégoire l'Illuminateur , de Gré- 
+goire le Théologien, d'Athanase et de Cyrille, ainsi 
+que de nos théologiens : Stéphanos de Siounie, 
+Ananie de Chirag, Paul de Daron , Jean , Sargis de 
+Haghpad, David le Philosophe, Moïse le prince 
+des écrivains, Asolnig l'interprète, et nos autres 
+saints docteurs. Qui n'a pas encore goûté In véri- 
+x Ms. 96, fol. 63 v. 
+
+18. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+276 AOUT-SEPTEMBRE 1855. 
+table science faillit avec facilité et meurt spirituel- 
+lement )> Il est digne de remarque que, parmi 
+
+les docteurs arméniens, Thomas cite sans distinction 
+ceux qui ne se sont jamais séparés de ï église uni- 
+verselle et ceux qui ont travaillé ouvertement à dé- 
+tacher la chrétienté d'Arménie des autres églises : 
+de ce nombre sont Paul de Daron, écrivain du 
+xi e siècle Vet Jean, qui n'est autre sans doute que le 
+patriarche Jean d'Ozni, dit le Philosophe, auteur du 
+vui s siècle, plus dune fois défendu comme orthodoxe 
+parles Mékhitaristes , mais revendiqué opiniâtrement 
+par les adversaires du concile de Chalcédoine 2 , 
+
+Il n'y a pas moins d'intérêt dans l'exposé que 
+nous fait Thomas des travaux de Grégoire de Klath , 
+qui s'occupa de la composition de nombreux écrits 
+pendant cinquante ans, et qui mourut martyr de la 
+main des Curdes en i/u 5 3 . Nous n'en extrairons 
+que la partie littéraire de sa biographie. 
+
+a II ne se chargea point d'un enseignement doc- 
+toral, nous dit Thomas 4 , mais il écrivait des livres 
+jour et nuit; il nourrissait tous les pauvres, il aimait 
+la miséricorde, et il exhortait à la pratique tous 
+les vartabieds et tous les religieux. Il n'y avait pas 
+
+1 Sur le premier de ces auteurs, voir le Quadro, p. 77-78. 
+8 Voir Y Essai sur l'histoire de la littérature arménienne (en allemand), 
+par M. le professeur Neumann, p. 106-108. 
+
+3 Le P. Tchamitch a puisé à cette source la plupart des rensei- 
+gnements qu'il donne sur Grégoire de Klath au VI e livre de son 
+Histoire , t. III, p. 45 1. 
+
+4 Ms. 96, fol. 6a v. La résidence ordinaire de Grégoire fut le 
+cloîlre de Saiot-Étienne , surnommé Zibnaï au pays d'Ardzgué , dans 
+le Douroupéran. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+' ÉTUDE SUR THOMAS DE MEMOPH. 277 
+
+d'homme charitable et humain comme lui, servi- 
+teur des pauvres et des malheureux comme il Tétait. 
+Dieu lui donne en partage la sagesse plus qu'à tous 
+les vàrtabieds. Il a mis, en effet, en lumière l'his- 
+toire de trois époques, par demandes et par ré- 
+ponses, et aussi le livre des saints confesseurs et 
+martyrs appelé Aïsmavourkh, qu'il composa sous 
+forme abrégée et par un labeur pénible d'après les 
+saints docteurs anciens et modernes *; il a illu- 
+miné ainsi les origines ténébreuses de nos églises. 
+Personne ne peut comprendre la sagesse qui résida 
+en lui ; Dieu seul peut le savoir. Pendant cinquante 
+ans, Grégoire à travaillé à ses écrits lé jour et la nuit , 
+par une veille que n'interrompait aucun repos, 
+cbmme le sait celui qui connaît les choses cachées. 
+Il a laissé aussi en souvenir de lui-même plusieurs 
+chants et cantiques, ami des fêtes et plein de véné- 
+ration pour les saints au degré où personne ne l'a été 
+et oe le sera dans l'avenir. Il parvint à une heureuse 
+vieillesse au delà de soixante et quinze ans». 
+
+I Ci'«st surtout sar la personne ^et les travaux du 
+grand polémiste de son temps, Grégoire de Dathev, 
+que Thomas aime à s'étendre; l'admiration sans 
+bernes de l'auteur pour ce chef d'école, que les siens 
+ont appelé Trismégiste ou Très-Grand > philosophe 
+invincible, rhéteur prodigieux, etc., se trahit dans 
+
+* Le travail de Grégoire qui est relatif surtout aux martyrs des 
+team* plus récents, fait partie du Martyrologe national des Armé- 
+niens, publié à Constantinopie en 1706 et en 1730. (Voir le Q*a> 
+dro,p, 139.) 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+276 ; AOUT-SEPTEMBRE 1855. 
+
+tous les passages où il le met en fccèiie. C'eat «le 
+grand Grégoire , martre de tous les Arméniens, 
+second Illuminateur, théologien fort au-dessus de 
+
+tous les philosophes et de tous les vartabieds an- 
+ciens et modernes K >» — * Grégoire, dit ailleurs 
+Thomas 2 , était un homme riche et puissant d'élo- 
+quence, tel qu'il n'y en eut dans aucune nation, ni 
+parmi les anciens, ni parmi les modernes. C'était 
+un second Grégoire le Théologien 3 , un autre Jean 
+Chrysostome, au point que, quand il enseignait et 
+que nous fermions les yeux , nous apercevions clai- 
+rement un homme âgé assis près de lui 
+
+C'était un bonheur de le voir et de l'entendre pour 
+tous les assistants ; car l'aspect de sa figure était 
+admirable, et, plus d'une fois, nous entendîmes des 
+hommes se dire que le Christ est sans doute venu 
+en ce monde avec une pareille figure, a — Dans les 
+deux monastères de la Siounie, où il résida long- 
+temps , ceux d'Abragoun et de Dathev, Grégoire par- 
+tagea constamment son activité entre l'enseignement 
+et la composition de divers écrits : « H rassembla , 
+nous dit Thomas 4 , de nombreux disciples, et, par 
+la miséricorde de Dieu, éclaira notre nation; ayant 
+composé des Questions suivant la profession de foi 
+vraie et orthodoxe, il écrivit des Réponses, adres- 
+
+1 Ms. 96, fol. 66 v. 
+
+3 Ibid. fol. 63 r. 
+
+3 Les Arméniens désignent le plus souvent saint Grégoire de 
+Nazianze par la seule épithète $ Asdwadzapan , c'est-à-dire, le Théo- 
+logien, v 
+
+* Foi. 6a v. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MBMOPH. 270 
+
+sées à toutes les nations \ ainsi que deux tomes de 
+prédications, l'un pour l'été, l'autre pour l'hiver 2 , 
+des abrégés de livres anciens et nouveaux, des trai- 
+tés explicatifs d'écrits profanes. ...» 
+
+Quand Thomas fréquenta l'école de Grégoire , 
+en Siounie, avec une foule d'autres disciples, ce 
+docteur « se mit à leur interpréter les livres des phi- 
+losophes profanes, et il les remplit tous d'étonné- 
+ment, plus que n'auraient pu le faire les philosophes 
+de la Grèce, Puis il expliqua les quatorze épîtres 
+de l'apôtre saint Paul, et le livre des discours de 
+Grégoire le Théologien 3 . » Enfin, Thomas dit, à 
+propos de renseignement de Grégoire dans le 
+cloître de Medzoph 4 : « Pendant une année tout 
+entière , Grégoire édifia tous nos frères et les rem- 
+plit d'une joie ineffable, en leur interprétant dans 
+ses leçons trois livres : l'Évangile de Jean TLvan- 
+géliste , le Livre de Job le Martyr, et les Traités sur 
+l'art d'écrire des deux vartabieds, George de Lam- 
+
+1 II faut entendre ici les religions et sectes étrangères au christia- 
+nisme que Grégoire combattait au point de vue de son église natio- 
+nale; sa polémique était nourrie de textes empruntés à une multi- 
+tude de livres. (Voir VHistoire de Tcbamitch , t. III, p. 45o, et le 
+Quadro, p. i34-i35, sur cet écrit et sur les autres ouvrages du 
+même auteur.) 
+
+3 Voir, sur un manuscrit de ce recueil de sermons, la notice de 
+M. Brosset dans le Bulletin scientifique de Saint-Pétersbourg (t. III, 
+n° 3). 
+
+;i Fol. 66 v. Les Arméniens intitulent Arh ors, «//t. npu, le recueil 
+de ces discours de Grégoire de Nazianze , d'après le titre du premier 
+dans la version arménienne. (Voir l'introduction au grand Diction- 
+naire de Venise, t. I, p. 9.) 
+
+4 Fol. 67 r. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+280 AOUT-SEPTEMBRE 1855. 
+
+pion et Arisdaguès \ » On voit, dans ces deux der- 
+niers passages, que, malgré le malheur des temps, 
+les études des écoles monastiques de l'Arménie com- 
+prenaient, avec la théologie et l'exégèse, des études 
+de philosophie et de grammaire, basées sans doute 
+sur les monuments delà science grecque qui avaient 
+été traduits dans les premiers siècles de la littérature 
+arménienne, et poursuivies à l'aide de traités com- 
+posés dans la langue indigène. 
+
+Il ne nous reste plus qu'à constater l'importance 
+de la chronique de Thomas, sous le rapport de la 
+géographie ; en raison même de son caractère local , 
+elle abonde en une foule de noms propres, qui mé- 
+ritent d'être examinés de près et dûment expliqués. 
+Non-seulement, comme nous l'avons fait remarquer, 
+Saint-Martin, en a fait un heureux usage , dans son 
+ouvrage estimé sur l'Arménie ancienne, mais encore 
+le P. Lucas Indjidji y a puisé des renseignements 
+précieux, dont quelques-uns sont uniques, sur la 
+division topographique et sur diverses localités de 
+son pays. 
+
+L'illustre géographe de Berfin , M. C. Ritter, a 
+mis à profit le travail de Saint-Martin et les relations 
+de voyageurs anglais dans sa Description des pro- 
+vinces d'Arménie 2 ; cependant, il n'a pas analysé 
+
+1 D'après Jean d'Erzingue, poiygraphe arménien; qui mourut au 
+commencement du juv* siècle, deux docteurs du nom de George et 
+d'Arisdagues ont composé un peu avant lui des traités sur récriture, 
+sur l'orthographe des lettres et des noms. (Voir Nouv. Dict, de la 
+langue armén. t. J , p 10.) 
+
+1 Géographie de l'Asie (en allein.), Asie occidentale, t. IX et X. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+
+ÉTUDE SUR THOMAS DE MEDZOPH. 281 
+
+les recherches d'Indjidji , fondées sur une foule de 
+passage» d'auteurs arméniens inédits. 
+
+Il nous paraît qu'une édition du texte de Thomas de 
+Medzoph n'est pas présentement au nombre des de- 
+siderata de l'érudition orientale; des passages impor- 
+tants de son livre ont été imprimés avec soin par 
+Tchamitch et par Indjidji, dans leurs ouvrages ar- 
+méniens , plus d'une fois cités , sur l'histoire , la géo- 
+graphie et l'archéologie de l'Arménie. Une traduc- 
+tion littérale et complète de la chronique de Thomas 
+est le premier travail qui réponde le mieux, nous 
+semble-t-il, aux besoins des sciences historiques. 
+
+Si nous ne réussissons pas à éclaircir de tout 
+point la période d'histoire renfermée dans cette 
+chronique, nous ferons du moins en sorte, quand 
+nous pourrons en mettre au jour la traduction, de 
+faciliter à d'autres l'achèvement de toutes les re- 
+cherches dont une telle œuvre peut être l'objet. 
+
+Nous demanderons, à cet effet, des éclaircisse- 
+ments aux sources musulmanes et byzantines, ainsi 
+qu'aux savants ouvrages des Mékhitaristes , et nous 
+accompagnerons la version française de notes his- 
+toriques et géographiques, et aussi d'un index géné- 
+ral des noms propres. Si l'on tient compte des faits 
+analysés dans la présente notice, on ne jugera sans 
+doute pas indigne d'une étude critique une chro- 
+nique qui, comme celle de Thomas de Medzoph, 
+forme un des anneaux dont se compose la chaîne 
+complète des traditions historiques de l'Arménie. 
+
+
+
+Digitized by 
+
+
+
+Google 
+
+
+

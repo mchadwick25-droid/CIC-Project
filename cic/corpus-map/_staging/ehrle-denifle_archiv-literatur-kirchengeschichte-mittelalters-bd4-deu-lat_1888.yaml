@@ -1,0 +1,59 @@
+source_file: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888.txt
+authors_ruled:
+  ehrle-denifle:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The author or editor is named
+      on the title page printed in the file. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888--archiv-fur-literatur-und-kirchengeschichte-des-mittelalters
+  work: >-
+    Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 4 (1888): conclusion of Ehrle's 'Die Spiritualen',
+    with the Spirituals, the Fraticelli and the Observance
+  author: ehrle-denifle
+  locus: >-
+    Contents page: 'Die Spiritualen' (Schluss): section 2 'Die verschiedenen Gruppen der Spiritualen und ihre Schicksale',
+    section 3 'Das Verhältniss der Spiritualen zu den Fraticellen', section 4 'Das Verhältniss der Spiritualen zu
+    den Anhängern der Observanz'
+  atlas_ids:
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: context
+  confidence: assigned
+  note: >-
+    Read at the contents page and sampled at three points; Fraticelli on about 226 lines. This part is mostly Ehrle's
+    narrative with documents, so it is a scholar's account of the movement more than its own voice. Scholars' articles
+    in German around printed Latin documents; the Spirituals and their opponents speak in the documents, Ehrle and
+    Denifle frame them. The Latin is readable OCR, so the documents are primary-grade once checked against the scan.
+    No public-domain English translation found.
+- row_id: >-
+    ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888--archiv-fur-literatur-und-kirchengeschichte-des-mittelalters-2
+  work: >-
+    Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 4 (1888): Ehrle on the Spirituals and the followers
+    of the Observance
+  author: ehrle-denifle
+  locus: >-
+    Contents page: section 4 of 'Die Spiritualen', 'Das Verhältniss der Spiritualen zu den Anhängern der Observanz'
+  atlas_ids:
+  - observant-reform-and-popular-preaching
+  role: context
+  confidence: provisional
+  note: >-
+    Placed from the contents page, for the one section on the Observance. Ehrle's account of how the Spirituals
+    and the Observants related. Scholars' articles in German around printed Latin documents; the Spirituals and
+    their opponents speak in the documents, Ehrle and Denifle frame them. The Latin is readable OCR, so the documents
+    are primary-grade once checked against the scan. No public-domain English translation found.
+- row_id: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888--ehrle-archiv-fur-literatur-und-kirchengeschichte-des
+  work: 'Ehrle, Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 4 (1888): Beguins and
+    the Avignon poverty quarrel'
+  author: ehrle-denifle
+  locus: whole volume
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: 'Ehrle''s conclusion of the Spirituals study, with the Beguins'' confessions drawn from the Toulouse
+    register (file lines 306-503) and papal documents (Avignon, 82 mentions; the Templars, 14). A scholar''s
+    edition around hostile and papal records. Already assigned to the Franciscan entries. Tier: same time-place.'

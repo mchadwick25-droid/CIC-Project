@@ -1,0 +1,15 @@
+source_file: all-saints-bristol_pre-reformation-records-part1_burgess1995.txt
+assignments:
+- row_id: all-saints-bristol_pre-reformation-records-part1_burgess1995--the-pre-reformation-records-of-all-saints-bristol-part-i-the-church-book-ed-clive-burgess-brs-46
+  work: The Pre-Reformation Records of All Saints', Bristol, Part I (the Church Book), ed. Clive Burgess
+    (BRS 46)
+  author: all-saints-bristol
+  locus: the editor's introduction from file line 196; the records follow
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: 'The Church Book of one large Bristol parish and a parish account for 1427-8, in the editor''s
+    modern English: the ordinances, the fraternity of Kalendars, the lights, the school house, the steeple.
+    The parish''s own record of what it paid for and ordained. Open licence CC BY-SA 4.0 on the host item.
+    The wording is the editor''s translation.'

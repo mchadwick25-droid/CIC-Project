@@ -12,3 +12,16 @@ assignments:
     note: >
       Secondary history, English, Lutzow (1914), of the Hussite wars
       specifically.
+  - row_id: lutzow_hussite-wars_1914--count-lutzow-the-hussite-wars-1914
+    work: Count Lützow, The Hussite Wars (1914)
+    author: lutzow
+    locus: whole volume
+    atlas_ids:
+    - taborite-radicalism
+    - inquisition-record-sects-adamites-and-kin
+    role: context
+    confidence: provisional
+    note: 'Secondary English narrative with the fullest treatment on the shelf: about 310 mentions of the
+      Taborites and 15 of the Adamites. At file lines 314 and 5332-5337 Lützow argues the Adamites had no
+      connection with Hussitism and cites the first mention of Adamites in Bohemia. Secondary scholarship,
+      not a source; context only. Already assigned to the Hussite entry. Tier: same time-place.'

@@ -1,0 +1,15 @@
+source_file: raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt
+assignments:
+- row_id: raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874--raynaldus-annales-ecclesiastici-tomus-28-1424-1453-the-union
+  work: 'Raynaldus, Annales ecclesiastici, tomus 28 (1424-1453): the union of the Cypriot Chaldaeans and
+    Maronites, 1445'
+  author: raynaldus
+  locus: year 1445 heading at file line 62173; paragraph 21 'Cyprii haeretici et schismatici ad fidem
+    orthodoxam traducti' 62418; the bull 'Benedictus sit Deus et Pater' from 62430
+  atlas_ids:
+  - maronite-christianity-era-6
+  role: context
+  confidence: assigned
+  note: The Roman record of the Cyprus union that the census dates 7 August 1445, with the Maronite bishop
+    Elias named. Roman side only; the Maronites do not speak. Read the cited paragraph. Second witness
+    for exact wording (OCR damage). The date inside the bull was not checked.

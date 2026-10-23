@@ -1,0 +1,16 @@
+source_file: amda-syon_guerres-amda-syon-journal-asiatique-8e-serie-t14-fra-gez_perruchon1889.txt
+assignments:
+- row_id: amda-syon_guerres-amda-syon-journal-asiatique-8e-serie-t14-fra-gez_perruchon1889--histoire-des-guerres-d-amda-syon-french-translation-of-the-e
+  work: Histoire des guerres d'Amda Syon, French translation of the Ethiopian royal chronicle (Journal
+    asiatique 1889)
+  author: amda-syon
+  locus: journal pp. 271-493, file lines 12095 to about 22913
+  atlas_ids:
+  - the-ethiopian-monastic-flowering
+  - zagwe-and-early-solomonic-ethiopian-christianity
+  role: context
+  confidence: provisional
+  note: Royal chronicle of Amda Syon's wars in French translation (Perruchon, 1889), inside a periodical
+    volume. Second-grade OCR (scattered errors, Ge'ez garbled). Placed on window and subject; read at
+    opening only. Amda Syon's reign (1314 to 1344) falls in the window's first decades, the dynasty at
+    its martial height; the monastic movement is the background, not the subject.

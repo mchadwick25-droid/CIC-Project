@@ -1,0 +1,14 @@
+source_file: english-gilds_original-ordinances-of-early-english-gilds-enm_toulmin-smith1870.txt
+assignments:
+- row_id: english-gilds_original-ordinances-of-early-english-gilds-enm_toulmin-smith1870--english-gilds-the-original-ordinances-of-more-than-one-hundred-early-english-gilds-ed-toulmin-smith-eets-os-40
+  work: 'English Gilds: the original ordinances of more than one hundred early English gilds, ed. Toulmin
+    Smith (EETS OS 40)'
+  author: english-gilds
+  locus: contents and introduction from file line 99; the gild ordinances from line 486
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: The gilds' own ordinances and their returns to the Crown (dated 1389 in the editors' introduction).
+    The fraternity side of the parish, in members' words. The returns come from before the window opens;
+    the gilds run through it. A second witness for exact wording where the OCR is noisy.

@@ -1,0 +1,14 @@
+source_file: norwich-diocese_visitations-1492-1532-lat_jessopp1888.txt
+assignments:
+- row_id: norwich-diocese_visitations-1492-1532-lat_jessopp1888--visitations-of-the-diocese-of-norwich-1492-1532-ed-augustus-jessopp-camden-society
+  work: Visitations of the Diocese of Norwich, 1492-1532, ed. Augustus Jessopp (Camden Society)
+  author: norwich-diocese
+  locus: the contents from file line 83
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: context
+  confidence: assigned
+  note: 'The bishop''s visitors asking each house and parish how it was kept: complaints of clergy, neglected
+    fabric, quarrels, heresy. Latin depositions with an English introduction. The official outside view
+    of the parishes of Norfolk and Suffolk, not the parishioners'' own voice. No English translation is
+    vendored.'

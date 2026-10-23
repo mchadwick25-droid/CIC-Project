@@ -1,0 +1,14 @@
+source_file: wyclif_sermones-v1-lat_loserth1887.txt
+
+assignments:
+  - row_id: wyclif_sermones-v1-lat_loserth1887--wyclif-sermones-vol-i-super-evangelia-dominicalia-loserth-s
+    work: "Wyclif, Sermones vol. I, Super Evangelia Dominicalia (Loserth's edition, Latin)"
+    author: wyclif
+    locus: "whole volume; Loserth's introduction first"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      Wyclif's Latin sermons, the preaching the vernacular sermons of the movement draw on. Primary once
+      checked against the page images.

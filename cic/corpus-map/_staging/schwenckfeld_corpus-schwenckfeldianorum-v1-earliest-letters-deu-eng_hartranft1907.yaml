@@ -25,3 +25,16 @@ assignments:
   confidence: provisional
   note: Placed on the Spiritualist-wing relation the census names for both entries, without reading the
     relevant part for Family of Love; a build thread should confirm or drop.
+- row_id: schwenckfeld_corpus-schwenckfeldianorum-v1-earliest-letters-deu-eng_hartranft1907--schwenckfeld-corpus-vol-1-quotations-and-editorial-comment
+  work: 'Schwenckfeld corpus vol. 1: quotations and editorial comment on Tauler'
+  author: schwenckfeld
+  locus: whole volume
+  atlas_ids:
+  - rhineland-mysticism-and-the-friends-of-god
+  role: context
+  confidence: provisional
+  note: 'Tauler is quoted in a letter and praised in the editors'' introduction (''Their appreciation
+    of Tauler''s poignant and comprehensive ...'', file lines 11856, 19778, 22250, 24547). Shows Tauler''s
+    reach into the Reformation spiritualists. Tier: out of window. Placed on those passages.
+
+    '

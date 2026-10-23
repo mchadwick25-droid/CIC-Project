@@ -18,3 +18,19 @@ assignments:
     (numbered marks) interleaved with the text, for example reguum iutravil for regnum intravit. The Czech
     chronicle parts read better. Check every quotation against the page image; the archive record''s own
     date (1873) is wrong for this volume.'
+- row_id: laurentius-de-brezova_historia-hussitica-lat-ces_goll1893--lawrence-of-brezova-historia-hussitica-goll-1893-the
+  work: 'Lawrence of Březová, Historia Hussitica (Goll, 1893): the chronicle of the Prague moderates on
+    Tábor and on the Adamites of 1421'
+  author: laurentius-de-brezova
+  locus: whole volume
+  atlas_ids:
+  - taborite-radicalism
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: 'Hostile, Prague-side chronicler of Tábor (about 270 mentions of Tábor/Táborští) and of the Adamites
+    of 1421. Goll''s editorial note near file line 1669-1674 says the text carries, after the Adamites''
+    articles, further inserted articles: ''Articuli de Pikardis'', ''Articuli hereticorum Waldensium et
+    decardorum'' and ''Articuli sacerdotum hereticorum et Pikardicorum'' (the second and third on Táborites
+    and Brethren). Already assigned to the Hussite entry as tradition (provisional). Tier: same time-place.
+    Not read through by this pass.'

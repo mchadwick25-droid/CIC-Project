@@ -1,0 +1,26 @@
+source_file: alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888.txt
+assignments:
+- row_id: alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888--leon-le-magnifique-and-the-table-chronologique-de-l-histoire
+  work: Léon le Magnifique and the Table chronologique de l'histoire de Sissouan (Alishan, Venice 1888)
+  author: alishan
+  locus: Table chronologique from file line 16139; entries from 1300 at 16871; Cilician story ends 17762-17771;
+    index of names 17871
+  atlas_ids:
+  - armenian-cilicia-after-the-kingdom
+  role: context
+  confidence: assigned
+  note: A Mekhitarist father's year-by-year chronology of the Cilician kingdom after Levon I, with catholicoi,
+    wars, union moves and the fall of Sis, drawn from the Armenian chronicles. Clean French. Read at the
+    entries for 1300 and the closing entries; the rest sampled. A scholar's list, not a voice of the period.
+- row_id: alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888--leon-le-magnifique-alishan-venice-1888-the-life-of-levon-i
+  work: 'Léon le Magnifique (Alishan, Venice 1888): the life of Levon I and the preamble on the Armenian
+    migration to Cilicia'
+  author: alishan
+  locus: contents page at file line 469; the preamble and chapters I to IX through 16138
+  atlas_ids:
+  - armenian-cilicia
+  role: context
+  confidence: provisional
+  note: The life of the first king of Cilician Armenia, the chapter on the union of the Armenian church
+    with Rome among them (chapter IV). Placed on the contents page; the chapters were not read. Also serves
+    the earlier Cilician world.

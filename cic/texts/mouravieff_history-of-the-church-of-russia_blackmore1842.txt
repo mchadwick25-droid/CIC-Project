@@ -1,11 +1,12 @@
-Title: A History of the Church of Russia, by A. N. Mouravieff, Chamberlain to His Imperial Majesty, and Under-Procurator of the Most Holy Governing Synod, St Petersburgh, 1838; translated by the Rev. R. W. Blackmore, Chaplain in Cronstadt to the Russia Company
-Creator: Andrei Nikolaevich Muravyov (A. N. Mouravieff), Under-Procurator of the Holy Synod; translated by R. W. Blackmore
-Publisher: Oxford: John Henry Parker; London: Rivingtons
+Title: A History of the Church of Russia, by A. N. Mouravieff, Chamberlain to His Imperial Majesty and Under-Procurator of the Most Holy Governing Synod, St. Petersburgh, 1838
+Creator: Andrei N. Mouravieff (Muraviev), Russian official; translated by the Rev. R. W. Blackmore, chaplain in Cronstadt to the Russia Company
+Publisher: Oxford: John Henry Parker; Rivingtons, London; printed by I. Shrimpton
 Publication Date: 1842
-Rights: Public Domain (published 1842, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')
-Source: Internet Archive item historyofchurcho00mouriala (https://archive.org/details/historyofchurcho00mouriala), the item's own historyofchurcho00mouriala_djvu.txt full-text OCR derivative; contributing library per the item metadata: University of California Libraries; host metadata date: 1842. Fetched directly (curl/urllib, raw bytes) by the Library thread (Era VIII pass), 2026-10-23. sha256 of the raw fetched bytes: f6de7d23f37f883c64d1a2d0d436a930a57c23481b5d9aca19cd090afc0c1411.
-Provenance note: Header prepended by the Library thread; nothing else altered, no OCR error corrected, nothing retyped. University of California Libraries scan; good OCR.
-Content note: The Synodal church's own history of itself from the baptism of Rus to the founding of the Holy Synod in 1721, written in 1838 by an official of the Synod, with long chapters on Nikon and the council of 1666-67; the author's appendix on the coming of Patriarch Jeremiah in 1587, and the translator's notes and documents, among them the Synod's acts of 1839 on the reunion of the Uniates.
+Rights: Public Domain
+Rights basis: pd-us-by-date. The title page of the scan reads "MDCCCXLII"; the host item record gives date 1842 and possible-copyright-status NOT_IN_COPYRIGHT.
+Source: Internet Archive item historyofchurcho00mouriala (archive.org/details/historyofchurcho00mouriala), full-text file historyofchurcho00mouriala_djvu.txt, fetched directly by the Library thread, October 2026. Contributor named by the host: University of California Libraries.
+Provenance note: Header prepended; the host text follows unchanged. Nothing was normalised, stripped, corrected, re-spaced or retyped. OCR sampled at 5, 50 and 95 percent: clean English, double-spaced words in places, hyphens left at line ends.
+Content note: A narrative history of the Russian church from 988 to the eighteenth century by a Russian official, in an Anglican chaplain's English. It speaks about this world, not in the monks' voice. Landmarks: the dedication and translator's preface; the section headed "Sergius" at file line 3151 and the Trinity foundation and its disciples through 3512; the Solovetsky foundation at 3520; Joseph of Volokolamsk at 4413; Nilus of Sor, the "Monastic Rule" and the quarrel over monastic estates at 4648. The author held office under the Holy Synod, so read its judgments as an official Russian Orthodox standpoint in an English chaplain's translation.
 
 ---
 

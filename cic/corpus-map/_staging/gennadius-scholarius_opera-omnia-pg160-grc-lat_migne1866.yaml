@@ -1,0 +1,111 @@
+source_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
+authors_ruled:
+  mammas:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CLX names 'Gregorii Mammae CPolitani patriarchae' and the volume opens with his Apology
+      against the confession of Mark of Ephesus (file line 658); the file's leading slug is gennadius-scholarius.
+    from_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
+  mark-of-ephesus:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CLX names 'Marci Ephesini'; the volume prints his notice at file line 97787, his writings
+      from 98293 and the Addenda at 103878; the file's leading slug is gennadius-scholarius.
+    from_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
+  plethon:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CLX names 'Georgii Gemisti Plethonis'; the volume prints his writings in the Plethon
+      section of the elenchus; the file's leading slug is gennadius-scholarius.
+    from_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
+  camariotes:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CLX names 'Matthaei Camariotae'; his Narratio lamentabilis on the fall of Constantinople
+      is at file line 90352; the file's leading slug is gennadius-scholarius.
+    from_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
+assignments:
+- row_id: >-
+    gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--gennadios-scholarios-exhortation-and-orations-to-the-synod
+  work: >-
+    Gennadios Scholarios, exhortation and orations to the synod at Florence and treatises written before 1453, Greek
+    with Latin, in Migne PG 160
+  author: gennadius-scholarius
+  locus: Adhortatio ad synodum from file line 31627; the orations follow
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: assigned
+  note: >-
+    The pre-1453 voice of Gennadios in Greek with Latin: what he said to the union council. A primary voice, ready
+    to quote once checked verbatim against the scan; Greek and Latin are read from the same OCR, and a quote record
+    must be verified against the page image. No public-domain English translation of this work is vendored (see
+    the dossier, section 4).
+- row_id: >-
+    gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--gennadios-scholarios-the-two-confessions-of-faith-written
+  work: >-
+    Gennadios Scholarios, the two Confessions of faith written for Sultan Mehmed II, Greek with Latin, in Migne
+    PG 160
+  author: gennadius-scholarius
+  locus: Confessio fidei prior from file line 26381; posterior from 26948
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: tradition
+  confidence: provisional
+  note: >-
+    Written after 1453 as the first patriarch under Ottoman rule. The Ottoman world already holds Kimmel's printing
+    of these Confessions; this is the Greek with Latin in Migne. Placed from the headings; not read through.
+- row_id: >-
+    gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--mark-of-ephesus-writings-and-the-addenda-greek-with-latin-in
+  work: Mark of Ephesus, writings and the Addenda, Greek with Latin, in Migne PG 160
+  author: mark-of-ephesus
+  locus: notice at file line 97787; writings from 98293; Addenda at 103878
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: assigned
+  note: >-
+    The one Greek bishop who refused to sign, in his own writing. Heads and a sample read. Petit's edition of his
+    anti-conciliar works in Patrologia Orientalis 17 is the fuller and more recent text; this is the older Migne
+    printing. A primary voice, ready to quote once checked verbatim against the scan; Greek and Latin are read from
+    the same OCR, and a quote record must be verified against the page image. No public-domain English translation
+    of this work is vendored (see the dossier, section 4).
+- row_id: >-
+    gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--gregory-mammas-apology-against-the-confession-of-mark-of
+  work: >-
+    Gregory Mammas, Apology against the confession of Mark of Ephesus, Greek with Latin, in Migne PG 160
+  author: mammas
+  locus: from file line 658
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: provisional
+  note: >-
+    The unionist patriarch of Constantinople (1445-1450 by the usual reckoning) answering Mark. Placed from the
+    title page and heading; not read through.
+- row_id: >-
+    gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--matthew-camariotes-narratio-lamentabilis-on-the-capture-of
+  work: >-
+    Matthew Camariotes, Narratio lamentabilis on the capture of Constantinople, in Migne PG 160
+  author: camariotes
+  locus: from file line 90352
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: provisional
+  note: >-
+    A Greek churchman's lament for the fall of the City. Placed from the heading; not read through.
+- row_id: >-
+    gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--georgios-gemistos-plethon-writings-peloponnesian-memoranda
+  work: >-
+    Georgios Gemistos Plethon, writings (Peloponnesian memoranda, the Laws, against Scholarios on Aristotle), in
+    Migne PG 160
+  author: plethon
+  locus: from the Plethon section of the elenchus
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: context
+  confidence: provisional
+  note: >-
+    A philosopher of Mistra whose quarrel with Scholarios belongs to the learned world of the Palaiologan decades.
+    Not a church voice. Placed from the elenchus.

@@ -15,7 +15,7 @@ assignments:
       in segments (the OCR carries stray marks and page-break running heads
       inside sentences; see Doc_02 section 7). PRIMARY source for this world's
       own Doc_02.
-  - row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-3
+  - row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-4
     work: "The Life of the Archpriest Avvakum by Himself"
     author: avvakum
     locus: "whole work (at least 156pp.; Harrison & Mirrlees trans., 1924, preface by D. S. Mirsky)"
@@ -41,3 +41,15 @@ assignments:
       the Life's early chapters (his priesthood in the 1620s to 1650s) were not read for this entry. Existing
       row in the-old-believers is unchanged.
     row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-2
+  - row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-3
+    work: The Life of the Archpriest Avvakum by Himself
+    author: avvakum
+    locus: whole volume
+    atlas_ids:
+    - muscovite-monastic-christianity
+    role: transmission
+    confidence: needs-ruling
+    note: 'Tier: out-of-window (the 1660s to 1670s). The census calls this world the parent of the Old Believers''
+      tradition, and Avvakum names Sergius and the Solovetsky house (two hits). Whether a later world''s
+      own text is staged as transmission on its parent is the lead''s call, so this row is held for a ruling.
+      The Russian original is avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt.'

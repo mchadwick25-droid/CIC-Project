@@ -1,0 +1,15 @@
+source_file: rolle_fire-of-love-and-mending-of-life-enm_harvey1896.txt
+assignments:
+- row_id: rolle_fire-of-love-and-mending-of-life-enm_harvey1896--the-fire-of-love-and-the-mending-of-life-richard-misyn-s-middle-english-ed-ralph-harvey-eets-os-106
+  work: The Fire of Love and The Mending of Life (Richard Misyn's Middle English), ed. Ralph Harvey, EETS
+    OS 106
+  author: rolle
+  locus: Book II of the Fire of Love near file line 6899; the Mending of Life near line 9803
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: 'Rolle''s Fire of Love and Mending of Life in the Middle English of Misyn''s translation of 1434-35.
+    The Middle English OCR is noisy, so this is a second witness for exact wording: locate passages here,
+    check the page images before quoting. Comper''s modern rendering of the same text is vendored beside
+    it. Rolle''s Latin is not vendored.'

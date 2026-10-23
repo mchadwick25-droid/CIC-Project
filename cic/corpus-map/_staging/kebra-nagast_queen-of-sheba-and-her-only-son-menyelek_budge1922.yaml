@@ -1,0 +1,16 @@
+source_file: kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt
+assignments:
+- row_id: kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922--kebra-nagast-the-glory-of-kings-english-translation
+  work: Kebra Nagast (The Glory of Kings), English translation
+  author: kebra-nagast
+  locus: Contents at file line 532; chapters 1 to 117 from the translation proper; chapter 117 at line
+    15174
+  atlas_ids:
+  - the-ethiopian-monastic-flowering
+  - zagwe-and-early-solomonic-ethiopian-christianity
+  - ethiopian-christianity-gragn-to-fasilides
+  role: tradition
+  confidence: assigned
+  note: Primary text, English translation, clean OCR; ready to quote once verified against the scan. The
+    dynasty's own charter myth, in the form the census names. Its date is argued; Budge's introduction
+    is commentary, not the text.

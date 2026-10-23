@@ -1,0 +1,24 @@
+source_file: julian-of-norwich_sixteen-revelations-of-divine-love_cressy1843.txt
+assignments:
+- row_id: julian-of-norwich_sixteen-revelations-of-divine-love_cressy1843--xvi-revelations-of-divine-love-cressy-s-1670-text-1843-reprint
+  work: XVI Revelations of Divine Love (Cressy's 1670 text, 1843 reprint)
+  author: julian-of-norwich
+  locus: the prefaces from file line 120; the text from line 565
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: Julian's sixteen revelations as Cressy published them in 1670, in seventeenth-century English,
+    reprinted in 1843. A primary voice, ready to quote once verified against the scan. Beside Warrack's
+    modernised text, this shows the form in which the book was printed in the seventeenth century.
+- row_id: julian-of-norwich_sixteen-revelations-of-divine-love_cressy1843--xvi-revelations-of-divine-love-cressy-s-1670-text-1843-reprint-2
+  work: XVI Revelations of Divine Love (Cressy's 1670 text, 1843 reprint)
+  author: julian-of-norwich
+  locus: the whole file; the prefaces from line 120
+  atlas_ids:
+  - recusant-english-catholicism
+  role: transmission
+  confidence: provisional
+  note: 'Custody, not voice: Cressy put Julian into print in 1670 (the title page), and the census says
+    her book circulated quietly among Carthusians and English exiles for centuries. The voice is assigned
+    to the English Mystics. Placed on that custody claim without reading the prefaces for it; left provisional.'

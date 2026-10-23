@@ -1,0 +1,26 @@
+source_file: wyclif_trialogus-lat_lechler1869.txt
+
+assignments:
+  - row_id: wyclif_trialogus-lat_lechler1869--wyclif-trialogus-cum-supplemento-trialogi-lechler-s-edition
+    work: "Wyclif, Trialogus cum Supplemento Trialogi (Lechler's edition, Latin)"
+    author: wyclif
+    locus: "whole volume; Lechler's prolegomena first"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      Wyclif's system in his own Latin, the work named first in the census's list for this world. The
+      census asks that Wyclif's own corpus be kept distinct from the movement's later texts. Selected
+      chapters of book 4 are in English in Vaughan 1845 (vendored).
+  - row_id: wyclif_trialogus-lat_lechler1869--wyclif-trialogus-cum-supplemento-trialogi-lechler-s-edition-2
+    work: "Wyclif, Trialogus cum Supplemento Trialogi (Lechler's edition, Latin)"
+    author: wyclif
+    locus: "whole volume"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: antecedent
+    confidence: provisional
+    note: >
+      Placed on the known descent of Bohemian reform from Wyclif's teaching. The file was not read for the
+      Hussite world's own sources.

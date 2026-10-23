@@ -1,0 +1,14 @@
+source_file: all-saints-bristol_pre-reformation-records-part3_burgess2004.txt
+assignments:
+- row_id: all-saints-bristol_pre-reformation-records-part3_burgess2004--the-pre-reformation-records-of-all-saints-church-bristol-part-3-wills-the-halleway-chantry-records-and-deeds-e
+  work: 'The Pre-Reformation Records of All Saints'' Church, Bristol, Part 3: Wills, the Halleway Chantry
+    Records and Deeds, ed. Clive Burgess (BRS 56)'
+  author: all-saints-bristol
+  locus: the editor's introduction from file line 349; the records follow
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: The wills of All Saints' parishioners, the Halleway chantry accounts and the parish's deeds, in
+    the editor's modern English. Parishioners' bequests and a chantry's costs (including an obit) in the
+    parish's own records. Open licence CC BY-SA 4.0 on the host item. The wording is the editor's translation.

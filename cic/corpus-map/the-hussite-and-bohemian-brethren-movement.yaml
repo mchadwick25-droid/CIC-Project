@@ -30,6 +30,17 @@ works:
     vocabulary 0.42). A cleaner scan of Comenius''s own text (1649-1660 manuscripts) would
     serve as the quotable witness.'
   source_file: comenius_historia-fratrum-bohemorum-lat_1702.txt
+- row_id: council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923--acta-concilii-constanciensis-band-2-council-diaries-sermons-2
+  work: 'Acta Concilii Constanciensis, Band 2: council diaries, sermons, reform papers (Finke,
+    1923)'
+  author: council-of-constance
+  locus: Fillastre's Gesta, the Liber gestorum of Cerretanus, the Sermones
+  role: context
+  confidence: provisional
+  note: Primary acts, diaries and sermons of the Council of Constance in Latin, clean OCR,
+    quotable once checked against the scan. Placed as context on the Hussite entry for the
+    trial of Hus; the volume was not searched for it page by page.
+  source_file: council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt
 - row_id: cranz_ancient-and-modern-history-of-the-brethren_latrobe1780--the-ancient-and-modern-history-of-the-brethren-bruder-2
   work: The Ancient and Modern History of the Brethren (Brüder-Historie, 1771; English 1780)
   author: cranz
@@ -68,6 +79,27 @@ works:
 
     '
   source_file: gillett_life-and-times-of-huss-v2_1871.txt
+- row_id: goll_quellen-bohmische-bruder-v1-deu_1878--quellen-und-untersuchungen-zur-geschichte-der-bohmischen
+  work: 'Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder, I: the Brethren
+    and the Waldensians; the first priests (Goll)'
+  author: goll
+  locus: whole volume
+  role: tradition
+  confidence: provisional
+  note: 'Documents of the Unity of the Brethren on their contact with Waldensians and on their
+    first priests, with Goll''s German study. Provisional: not read through. Lead from the
+    Hussite dossier, now vendored.'
+  source_file: goll_quellen-bohmische-bruder-v1-deu_1878.txt
+- row_id: goll_quellen-bohmische-bruder-v2-deu_1882--quellen-und-untersuchungen-zur-geschichte-der-bohmischen
+  work: 'Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder, II: the Brethren''s
+    archive and oldest apologetic writings (Goll)'
+  author: goll
+  locus: whole volume; the Brethren's letters to Rokycana and their early apologetic tracts
+  role: tradition
+  confidence: provisional
+  note: 'The Brethren''s earliest apologetic writings with Goll''s German commentary. Provisional:
+    not read through. The volume year (1882) is inferred; see the file header.'
+  source_file: goll_quellen-bohmische-bruder-v2-deu_1882.txt
 - row_id: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690--fasciculus-rerum-expetendarum-et-fugiendarum-brown-1690
   work: Fasciculus rerum expetendarum et fugiendarum (Brown, 1690), volume I
   author: gratius
@@ -81,6 +113,16 @@ works:
     against the page image; the earlier Cologne printing of 1535 is a separate item on Internet
     Archive (dlibra.kul.pl.P.XVI.804) and was not vendored.'
   source_file: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690.txt
+- row_id: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865--chronicon-taboritarum-john-of-lukavec-and-nicholas-of-2
+  work: Chronicon Taboritarum (John of Lukavec and Nicholas of Pelhřimov), Höfler II
+  author: hofler
+  locus: item XXIV
+  role: tradition
+  confidence: provisional
+  note: The radical wing's own text, placed on the Hussite entry because the census files
+    Tabor as a world within it. Provisional until the Hussite entry's build rules on the Taborite
+    strand.
+  source_file: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865.txt
 - row_id: hus_de-ecclesia-the-church_schaff1915--de-ecclesia-the-church
   work: De Ecclesia. The Church
   author: hus
@@ -246,6 +288,28 @@ works:
 
     '
   source_file: lutzow_life-and-times-of-hus_1909.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902--mansi-sacrorum-conciliorum-collectio-tomus-27-pisa-1409-and-2
+  work: 'Mansi, Sacrorum conciliorum collectio, tomus 27: Pisa 1409 and Constance 1414-1418'
+  author: mansi
+  locus: Constance sessions in the second half of the volume (Pisa 1409 comes first); the
+    decrees on conciliar authority and on the frequency of councils by the standard Mansi
+    citation (XXVII, 585 and 1159)
+  role: context
+  confidence: provisional
+  note: The Latin conciliar acts of Pisa and Constance, including the decrees on conciliar
+    authority and the condemnations of Wyclif and Hus. Second witness for exact wording (long
+    s read as f).
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt
+- row_id: nejedly_prameny-k-synodam-strany-prazske-a-taborske-ces_1900--prameny-k-synodam-strany-prazske-a-taborske-nejedly-prague
+  work: Prameny k synodám strany pražské a táborské (Nejedlý), Prague party's articles and
+    Taborite replies
+  author: nejedly
+  locus: whole volume
+  role: tradition
+  confidence: provisional
+  note: 'Both parties'' documents from the synods of 1441-1444 in Czech; placed on the Hussite
+    entry as the origin of the Utraquist-Taborite exchange. Provisional: not read through.'
+  source_file: nejedly_prameny-k-synodam-strany-prazske-a-taborske-ces_1900.txt
 - row_id: palacky_documenta-mag-joannis-hus-lat-ces_1869--documenta-mag-joannis-hus-letters-the-relatio-of-petr-of
   work: 'Documenta Mag. Joannis Hus: letters, the Relatio of Petr of Mladoňovice and documents
     of 1403-1418'
@@ -325,6 +389,17 @@ works:
     against a clean Latin vocabulary 0.60, about the same as the 1592 printing). It does not
     by itself supply a clean witness; check every wording against the page image.'
   source_file: piccolomini_historia-bohemica-lat_1524.txt
+- row_id: richental_chronik-des-constanzer-concils-gmh_buck1882--ulrich-von-richental-chronik-des-constanzer-concils-buck-s-2
+  work: Ulrich von Richental, Chronik des Constanzer Concils (Buck's edition, Aulendorf codex)
+  author: richental
+  locus: whole volume; the members' and delegations' lists and the sessions
+  role: context
+  confidence: provisional
+  note: The lay eyewitness chronicle of Constance in the German of the Aulendorf codex, a
+    mid-fifteenth-century copy. Readable, not clean; quote after checking the scan. Placed
+    as context on the Hussite entry for the trial of Hus. No public-domain English translation
+    is vendored.
+  source_file: richental_chronik-des-constanzer-concils-gmh_buck1882.txt
 - row_id: unity-of-the-brethren_church-constitution_seifferth1866--church-constitution-of-the-bohemian-and-moravian-brethren
   work: Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)
   author: unity-of-the-brethren
@@ -401,3 +476,26 @@ works:
 
     '
   source_file: van-braght_martyrs-mirror_sohm1886.txt
+- row_id: wyclif_trialogus-lat_lechler1869--wyclif-trialogus-cum-supplemento-trialogi-lechler-s-edition-2
+  work: Wyclif, Trialogus cum Supplemento Trialogi (Lechler's edition, Latin)
+  author: wyclif
+  locus: whole volume
+  role: antecedent
+  confidence: provisional
+  note: 'Placed on the known descent of Bohemian reform from Wyclif''s teaching. The file
+    was not read for the Hussite world''s own sources.
+
+    '
+  source_file: wyclif_trialogus-lat_lechler1869.txt
+- row_id: zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863--die-katechismen-der-waldenser-und-bohmischen-bruder-critical-3
+  work: 'Die Katechismen der Waldenser und Böhmischen Brüder: critical text of the Waldensian
+    catechism and the Brethren''s catechism'
+  author: zezschwitz
+  locus: Waldensian catechism text in Old Occitan, with the editor's apparatus
+  role: context
+  confidence: provisional
+  note: Prints the Waldensian catechism from the manuscripts (a barbes' teaching text) in
+    a critical edition, with a nineteenth-century scholar's German around it. The Brethren's
+    catechism printings are mostly after the Hussite world's window, hence context there.
+    Quote only after checking the page images.
+  source_file: zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt

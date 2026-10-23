@@ -7,83 +7,121 @@ why it exists.
 **Corpus-map slug:** `devotio-moderna-brethren-of-the-common-life`
 **Time window:** c. 1380–1517
 **Region(s):** Low Countries
-**Dossier author / date:** source-research thread, 2026-09-25
-**Corpus-map / `cic/texts/` state as of:** 2026-09-25 — the three §3 leads
-below have been vendored, headered, registered, and assigned this same
-pass. See §1 below for current state.
+**Dossier author / date:** source-research thread, September 2026; completed by the Era VI library session, V.3 world agent, October 2026
+**Corpus-map / `cic/texts/` state as of:** October 2026, branch `library/era-vi-2026-10`. The merged bucket held eleven rows from the September 2026 pass. This pass vendored seven further files (plus the Ruysbroeck translation, vendored under the Rhineland batch and staged here), each with a staging file (checked with `corpus_map_merge.py --check`, read-only). Two duplicate scans were found and dropped before staging (see §4). Registry entries, seed rows, WORKS entries and cross-link rows sit in the lead's fragment files until merged.
 
 ## 1. Already assigned
 
-**A fresh candidate, no longer cold-start as of this pass.** Three works
-vendored and assigned to `cic/corpus-map/devotio-moderna-brethren-of-the-common-life.yaml`:
+The first eleven rows are the merged bucket from the earlier pass. The next rows are the files staged this pass, and one row staged by another worker (the Middle English Imitation). Scale is the vendored file's character count, header included.
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
-| The Imitation of Christ | kempis | tradition | assigned | ~446K chars (unextracted word count) | `kempis_imitation-of-christ_benham1886.txt` |
-| The Founders of the New Devotion (Lives of Gerard Groote and Florentius Radewin) | kempis | tradition | assigned | ~567K chars (unextracted word count) | `kempis_founders-of-the-new-devotion_arthur1905.txt` |
-| Gerardi Magni Epistolae XIV (Groote's own letters, Latin) | groote | tradition | assigned | ~262K chars (unextracted word count) | `groote_epistolae-xiv-lat_acquoy1857.txt` |
+| Chronicon Windeshemense und Liber de Reformatione Monasteriorum | busch | context | assigned | 2.60M chars | `busch_chronicon-windeshemense-lat_grube1886.txt` |
+| Gerardi Magni Epistolae XIV (Fourteen Letters of Gerard Groote) | groote | tradition | assigned | 262K chars | `groote_epistolae-xiv-lat_acquoy1857.txt` |
+| Opera Omnia (De Vera Compunctione, Sermones) | kempis | tradition | assigned | 710K chars | `kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt` |
+| Opera Omnia (Sermones ad Novicios; Vita Lidewigis Virginis) | kempis | tradition | assigned | 740K chars | `kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt` |
+| Opera Omnia (Tractatus Prioris Pars Prior) | kempis | tradition | assigned | 585K chars | `kempis_opera-omnia-tractatus-lat_pohl1902.txt` |
+| Opera Omnia (Vallis Liliorum, and further minor works) | kempis | tradition | assigned | 836K chars | `kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918.txt` |
+| The Chronicle of the Canons Regular of Mount St. Agnes | kempis | tradition | assigned | 326K chars | `kempis_chronicle-of-mount-st-agnes_arthur1906.txt` |
+| The Founders of the New Devotion: Being the Lives of Gerard Groote, Florentius Radewin and Their Followers | kempis | tradition | assigned | 567K chars | `kempis_founders-of-the-new-devotion_arthur1905.txt` |
+| The Imitation of Christ | kempis | tradition | assigned | 446K chars | `kempis_imitation-of-christ_benham1886.txt` |
+| The Little Garden of Roses and Valley of Lilies | kempis | tradition | assigned | 278K chars | `kempis_little-garden-of-roses-and-valley-of-lilies_1867.txt` |
+| The Spiritual Ascent: A Devotional Treatise (De Spiritualibus Ascensionibus) | zerbolt | tradition | assigned | 314K chars | `zerbolt_spiritual-ascent_arthur1908.txt` |
+| Het Klooster van Diepenveen (lives of the Diepenveen sisters, Middle Dutch, Opzoomer's edition) | diepenveen | tradition | assigned | 272K chars | `diepenveen_het-klooster-van-diepenveen-dum_opzoomer1886.txt` |
+| The earliest English translation of the Imitation of Christ, ed. John K. Ingram (EETS ES 63) | kempis | tradition | provisional | 950K chars | `kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893.txt` |
+| Kempis, Meditation on the Incarnation; Sermons on the Life and Passion of our Lord (Scully's translation) | kempis | tradition | assigned | 538K chars | `kempis_meditation-on-the-incarnation-sermons-life-passion_scully1907.txt` |
+| Kempis, Opera omnia vol. 3: Meditatio de incarnatione, Sermones de vita et passione Domini (Pohl, Latin) | kempis | tradition | assigned | 559K chars | `kempis_opera-omnia-v3-meditatio-incarnatione-sermones-lat_pohl1904.txt` |
+| Kempis, Prayers and Meditations on the Life of Christ (Duthoit's translation) | kempis | tradition | assigned | 657K chars | `kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt` |
+| Kempis, Sermons to the Novices Regular (Scully's translation) | kempis | tradition | assigned | 471K chars | `kempis_sermons-to-the-novices-regular_scully1907.txt` |
+| Kempis, Life of St Lydwine of Schiedam (Scully's translation) | kempis | tradition | assigned | 259K chars | `kempis_st-lydwine-of-schiedam_scully1912.txt` |
+| Langenberg, Quellen und Forschungen (Groote's tract on simony and the beguines; a lay rule; Low German texts) | langenberg | tradition | assigned | 458K chars | `langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902.txt` |
+| Ruysbroeck, Adornment of the Spiritual Marriage, Sparkling Stone, Book of Supreme Truth (Wynschenk Dom's translation) | ruusbroec | antecedent | needs-ruling | 537K chars | `ruusbroec_adornment-spiritual-marriage-sparkling-stone-book-supreme-truth_wynschenk-dom1916.txt` |
 
-A real three-pillar base, the same shape this project's other multi-source
-worlds already take: Thomas a Kempis's own devotional writing (the
-Imitation), Kempis's own telling of the movement's founding story (the
-Lives), and the founder Gerard Groote's own surviving voice (the Letters,
-Latin original, no PD English translation found - see §4). Together these
-give both directions this movement is known for: the interior devotional
-practice it's famous for (the Imitation) and its own account of where that
-practice came from (the Lives, the Letters).
+**Shape of the base.** The earlier pass built a three-pillar base: Kempis's own devotional writing (the Imitation), Kempis's telling of the movement's founding (the Lives), and the founder Gerard Groote's own surviving voice (the Letters, Latin original, no public-domain English found). It has since grown into four groups:
+
+- **Kempis, in Latin and English.** Pohl's Opera omnia is on the shelf in four volumes: volume 2 (the Latin Imitation with the nine tractates), volume 4 (Vallis liliorum), volume 5 (Orationes et meditationes de vita Christi) and volume 6 (Sermones ad novicios and the Life of Lydwine), plus volume 3 vendored this pass. English comes beside four of them: Duthoit (volume 5), Scully (volume 3, volume 6 and the Lydwine Life), and Benham's Imitation. The Middle English Imitation (EETS 63) is staged by another worker.
+- **The founder and the method.** Groote's fourteen letters (Latin); Zerbolt's Spiritual Ascent in English (the Latin De spiritualibus ascensionibus is not on the shelf); Langenberg's 1902 volume prints Groote's tract against simony and the beguines in Middle Dutch, with a lay rule of the fifteenth century.
+- **The sisters.** Opzoomer's edition of the Diepenveen convent book (1886, Middle Dutch) holds the lives of the sisters, beginning with Salome Sticke. This closes the census's named gap for the sisters' houses.
+- **The congregation.** Busch's Chronicon Windeshemense and Liber de reformatione (Latin, 2.6 million characters) is the Windesheim side, with Kempis's Chronicle of Mount St Agnes.
+
+**Two header faults in the earlier files, found this pass.** The shelf file `kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt` is described in its header and staging row as De vera compunctione and further sermons. Its title page (read at file lines 95 to 125) says Volumen alterum: De imitatione Christi, with the nine tractatuli, 1904. It is the Latin Imitation from the Brussels autograph. The shelf file `kempis_opera-omnia-tractatus-lat_pohl1902.txt` is described as Tractatus prioris pars prior. Its title page says Volumen quintum: Orationes et meditationes de vita Christi, 1902. The lead should correct both descriptions when the registry is merged. The registry-additions fragment gives the correct sections for both.
 
 ## 2. Cross-link opportunities
 
-None found or expected — every other vendored corpus text is either
-patristic-era (pre-451 CE) or from other Era 6/7 candidates researched this
-same batch (Lollardy, Hussites) with no figure or text overlap.
+The shelf was searched for Kempis, Groote, Windesheim, the Brethren of the Common Life and the Devotio Moderna, in headers and bodies, and the hits were opened. The earlier version of this section said none were found; two real ones turned up. Proposed rows are in `crosslinks.yaml`, all `provisional`.
+
+- **Wesley, Journal vol. 1 (`wesley-j_journal-v1_curnock1909.txt`)** (bucket: the Methodist Revival). Wesley names Kempis's Christian Pattern as the book that turned his mind to inward religion (file lines 963 to 1063). Tier: out-of-window.
+- **Ignatius, Exercitia spiritualia et directoria, Monumenta edition (`ignatius-loyola_exercitia-spiritualia-et-directoria-lat-spa_1919.txt`)** (bucket: the Society of Jesus). The editors' notes compare the Exercises with Kempis (file lines 2644, 3070, 3082 and others). The census names Jesuit formation as a descendant. Tier: out-of-window.
+- **Middle English Imitation (`kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893.txt`)** (staged by another worker as `tradition`, provisional). The text is how Kempis reached English readers, so `transmission` fits better. A role proposal is in `crosslinks.yaml`. The Google scan of the same 1893 edition (`earliestenglish00thomgoog`) has a clean title page; the shelf file is a Kraus facsimile reprint scan.
+- **Rhineland files in this batch.** Ruysbroeck's three works in English are staged here as `antecedent`, `needs-ruling` (see §5). Langenberg's volume is staged to the Rhineland world as `context`.
+- **Groote's own letters and the Founders name Ruysbroeck.** That is a link outward to the Rhineland world, proposed there as `context`.
+- Noted, no row proposed: Teresa's Interior Castle (a passing line on Ruysbroeck, Tauler, Gerson and the Imitation's influence), Underhill's Jacopone da Todi (two quotations of Kempis), and Hilton's Scale of Perfection (a note on authorship of the Imitation). None is a Devotio Moderna text.
 
 ## 3. Verified acquisition leads
 
+The first rows are the three leads from the earlier pass (vendored then). The rest were checked on the host this pass: the item record was read and, where the row says so, the text was fetched and sampled at opening, middle and end. All are public domain by date. "Vendored" is stated in each row.
+
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| The Imitation of Christ: Four Books | Thomas a Kempis | William Benham | 1886 | archive.org `imitationofchris00benhrich` | pd-us-by-date, `NOT_IN_COPYRIGHT` confirmed | direct fetch, 2026-09-25, metadata and body text checked |
-| The Founders of the New Devotion (Lives of Gerard Groote, Florentius Radewin and their followers) | Thomas a Kempis | J. P. Arthur | 1905 | archive.org `foundersofnewdev00thom` | pd-us-by-date | direct fetch, 2026-09-25, metadata and body text checked |
-| Gerardi Magni Epistolae XIV | Gerard Groote | ed. J. G. R. Acquoy | 1857 | archive.org `gerardimagniepi00acqugoog` | pd-us-by-date, `NOT_IN_COPYRIGHT` confirmed | direct fetch, 2026-09-25, metadata checked and the opening of Epistola I read directly to confirm genuine legible Latin text, not a garbled scan |
-
-**Scale (rough):** three solid volumes, over a million characters combined
-(unextracted word count) — comparable to a mid-size patristic corpus, with
-real range across genres: devotional treatise, hagiographic/biographical
-narrative, and personal correspondence.
+| The Imitation of Christ: Four Books | Thomas a Kempis | William Benham | 1886 | archive.org `imitationofchris00benhrich` | pd-us-by-date, `NOT_IN_COPYRIGHT` confirmed | direct fetch, September 2026, metadata and body text checked. Vendored. |
+| The Founders of the New Devotion (Lives of Gerard Groote, Florentius Radewin and their followers) | Thomas a Kempis | J. P. Arthur | 1905 | archive.org `foundersofnewdev00thom` | pd-us-by-date | direct fetch, September 2026, metadata and body text checked. Vendored. |
+| Gerardi Magni Epistolae XIV | Gerard Groote | ed. J. G. R. Acquoy | 1857 | archive.org `gerardimagniepi00acqugoog` | pd-us-by-date, `NOT_IN_COPYRIGHT` confirmed | direct fetch, September 2026, metadata checked and the opening of Epistola I read directly to confirm genuine legible Latin text, not a garbled scan. Vendored. |
+| Opera omnia vol. 3 (Meditatio de incarnatione; Sermones de vita et passione Domini) | Thomas a Kempis; ed. Michael Joseph Pohl | none (Latin) | 1904 | https://archive.org/details/operaomnia0002thom | pd-us-by-date; title-page year 1904 read in the OCR; no host rights field | metadata read, full text fetched (557840 bytes, the size the host lists), sampled at opening, middle and end; October 2026. Vendored as `kempis_opera-omnia-v3-meditatio-incarnatione-sermones-lat_pohl1904.txt`. |
+| Prayers and Meditations on the Life of Christ | Thomas a Kempis | W. Duthoit | 1904 | https://archive.org/details/prayersandmedita00thomuoft | pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page year 1904 read in the OCR | metadata read, full text fetched (655998 bytes, the size the host lists), sampled at opening, middle and end; October 2026. Vendored as `kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt`. |
+| A Meditation on the Incarnation of Christ; Sermons on the Incarnation, Life, and Passion of our Lord | Thomas a Kempis | Dom Vincent Scully | 1907 | https://archive.org/details/meditationincarn00thomuoft | pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page year 1907 read in the OCR | metadata read, full text fetched (536361 bytes, the size the host lists), sampled at opening, middle and end; October 2026. Vendored as `kempis_meditation-on-the-incarnation-sermons-life-passion_scully1907.txt`. |
+| Sermons to the Novices Regular | Thomas a Kempis | Dom Vincent Scully | 1907 | https://archive.org/details/SermonsToTheNovicesRegular | pd-us-by-date; title-page year 1907 read in the OCR; item licence field is the Public Domain Mark 1.0 | metadata read, full text fetched (470502 bytes, the size the host lists), sampled at opening, middle and end; October 2026. Vendored as `kempis_sermons-to-the-novices-regular_scully1907.txt`. |
+| St. Lydwine of Schiedam, Virgin | Thomas a Kempis | Dom Vincent Scully | 1912 | https://archive.org/details/stlydwineofschied00thomuoft | pd-us-by-date; imprimatur date 1912 read in the OCR; possible-copyright-status NOT_IN_COPYRIGHT | metadata read, full text fetched (257588 bytes, the size the host lists), sampled at opening, middle and end; October 2026. Vendored as `kempis_st-lydwine-of-schiedam_scully1912.txt`. |
+| Het Klooster van Diepenveen (Handschrift) | The Diepenveen sisters; ed. W. R. E. H. Opzoomer | none (Middle Dutch) | 1886 | https://archive.org/details/hetkloostervand00opzogoog | pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; preface dated 1886 read in the OCR | metadata read, full text fetched (271289 bytes, the size the host lists), sampled at opening, middle and end; October 2026. Vendored as `diepenveen_het-klooster-van-diepenveen-dum_opzoomer1886.txt`. |
+| Quellen und Forschungen zur Geschichte der deutschen Mystik | Rudolf Langenberg (ed.); Gerard Groote | none (Middle Low German / German) | 1902 | https://archive.org/details/quellenundforsc00langgoog | pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page year 1902 read in the OCR | metadata read, full text fetched (459003 bytes, the size the host lists), sampled at opening, middle and end; October 2026. Vendored as `langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902.txt`. |
+| The Adornment of the Spiritual Marriage; The Sparkling Stone; The Book of Supreme Truth | Jan van Ruusbroec (John of Ruysbroeck) | C. A. Wynschenk Dom (ed. Evelyn Underhill) | 1916 | https://archive.org/details/adornmentofthesp00ruysuoft | pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; title-page year 1916 read in the OCR | metadata read, full text fetched (535182 bytes, the size the host lists), sampled at opening, middle and end; October 2026. Vendored as `ruusbroec_adornment-spiritual-marriage-sparkling-stone-book-supreme-truth_wynschenk-dom1916.txt`. |
+| Thomas a Kempis, Vera sapientia, or True Wisdom | Thomas a Kempis | Frederick Byrne | 1904 | https://archive.org/details/veraspaientia00thomuoft | pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1904 | item metadata read (size 350425 bytes); text not fetched; October 2026. Not vendored. |
+| The Christian Renaissance: a History of the Devotio Moderna | Albert Hyma | none (English study) | 1924 | https://archive.org/details/christianrenaiss00hyma | pd-us-by-date; item date 1924 (Grand Rapids, The Reformed Press); no host rights field | item metadata read (size 1012479 bytes); text fetched and sampled; October 2026. Not vendored. |
+| Thomas a Kempis and the Brothers of Common Life | Samuel Kettlewell | none (English study) | 1882 | https://archive.org/details/thomasakempis01kettuoft | pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT; item date 1882 (two volumes: thomasakempis01kettuoft and thomasakempis02kettuoft, 1193547 and 1280247 bytes) | item metadata read; text not fetched; October 2026. Not vendored. |
+| Life of the Venerable Thomas a Kempis | Dom Vincent Scully | none (English biography) | 1901 | https://archive.org/details/lifeofvenerablet0000domv_i0k4 | pd-us-by-date; item date 1901 (Washbourne); no host rights field | item metadata read (size 480718 bytes); text not fetched; October 2026. Not vendored. |
+| Het klooster te Windesheim en zijn invloed | J. G. R. Acquoy | none (Dutch study) | 1875 | https://archive.org/details/hetkloostertowin01acqu | pd-us-by-date; item date 1875 (Utrecht, van der Post; three volumes, other scans hetkloostertewi00wetegoog, hetkloostertewi01wetegoog and hetkloostertewi02wetegoog); no host rights field on the one read | item metadata read (size 825811 bytes for volume 1); text not fetched; October 2026. Not vendored. |
+| Rosetum exercitiorum spiritualium et sacrarum meditationum (Windesheim rapiarium of Johannes Mauburnus) | Johannes Mauburnus (Mombaer) | none (Latin) | 1603 | https://archive.org/details/bub_gb_ZF9851868VQC | pd-us-by-date; host licence is the Public Domain Mark 1.0; item date 1603 (a 1620 printing is bub_gb_Ns73wJzyg8gC) | item metadata read (size 5149366 bytes); text not fetched. The 1494 incunable scans (ned-kbn-all-00002076-001, 2291099 bytes, and ita-bnc-in2-00000082-001) were fetched: gothic type read as nonsense; October 2026. Not vendored. |
+| Thomas a Kempis, Opera omnia vol. 1 and vol. 7 (Pohl) | Thomas a Kempis; ed. Michael Joseph Pohl | none (Latin) | 1902 | https://archive.org/details/thomaehemerkena01pohlgoog | pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT (vol. 1 item) | item metadata read; one item of the Google set (thomaehemerkena01pohlgoog) has no full-text file and its volume number was not established; no other item found for volume 1, and none for volume 7 (1922); October 2026. Not vendored. |
+| De imitatione Christi, Latin edition of Pohl (second scan) | Thomas a Kempis; ed. Michael Joseph Pohl | none (Latin) | 1904 | https://archive.org/details/operaomniaimitat0000thom | pd-us-by-date; item date 1904; no host rights field | item metadata read (size 638921 bytes); text fetched and the title page read ('Volumen alterum'); October 2026. Not vendored. |
 
 ## 4. Checked and closed
 
 | candidate | why it looked promising | why it's closed |
 |---|---|---|
 | Early printed English translations of the Imitation of Christ (1580, 1582, 1602, 1609, 1636 editions, all on archive.org's Early English Books collections) | Older, potentially more period-flavored English renderings than Benham's 1886 translation | Not pursued once Benham's clean, confirmed-legible 1886 edition was in hand — archaic black-letter OCR quality on these earlier printings would need individual verification and offers no clear advantage over an already-solid PD translation. Not closed as unavailable, just not needed; a future pass could still check them if a period-English register is wanted for this specific text. |
-| English translation of Gerard Groote's letters | Would give the founder's own voice without the Latin barrier | Searched directly (title-based archive.org query); no results. Not conclusively exhausted - a name-variant search (Geert Groote, Gerardus Magnus) or a check of Hyma's scholarship for embedded translated excerpts could still turn something up, but nothing surfaced this pass. |
+| English translation of Gerard Groote's letters | Would give the founder's own voice without the Latin barrier | Searched directly (title-based archive.org query); no results. Searched again this pass with name variants (Geert Groote, Gerardus Magnus, Groote with Gerard and Ghert) and found only the Latin Epistolae and Langenberg's volume. A search for an English life with translated extracts returned Kempis's Founders (vendored), Hyma and Kettlewell (scholarship). No public-domain English of the letters found. |
+| Gerard Zerbolt of Zutphen, De spiritualibus ascensionibus and De reformatione virium animae in Latin | The method text in the original | Searched by title, creator and place ("Zerbolt", "Zutphaniensis", "spiritualibus ascensionibus"); nothing returned except Ullmann's 1842 book on Johann Wessel. The Latin may sit inside the Bibliotheca Patrum; not found as a separate item. The English (Arthur, 1908) is vendored. |
+| Geert Grote's Middle Dutch translations and sermons (for example the Getijdenboek) | The founder's Dutch voice | No item found by title or creator search ("Grote", "Groote", "Dietsche", "Moll"). Langenberg's volume (vendored) prints one Dutch tract of his. |
+| Johan Brinckerinck and the Deventer sister-book (Master Geert's House) | The census names Deventer beside Diepenveen | Opzoomer's preface says the second manuscript, for Master Geert's House, is not in his volume. No separate edition found. |
+| Pohl, Opera omnia vol. 1 (1902) and vol. 7 (1922) | The rest of the Latin Kempis | One item of the Google set (`thomaehemerkena01pohlgoog`) has no full-text file, and its volume number was not established. No other item was found for volume 1, and none for volume 7. See the lead row. |
+| De imitatione Christi, Latin, Pohl second scan (`operaomniaimitat0000thom`) | A Latin Imitation | A second scan of the volume already vendored under a wrong header (§1). Not needed. |
+| The Orationes et meditationes de vita Christi, Pohl, separate 1902 scan (`orationesetmedit0000unse`) | The Latin of Duthoit's English | Fetched (594282 bytes) and found to be the same edition as the shelf file `kempis_opera-omnia-tractatus-lat_pohl1902.txt` (volume 5). Not vendored a second time. |
+| The Middle English Imitation, Google scan (`earliestenglish00thomgoog`) | The Imitation in English before 1517 | The shelf already holds the same edition from a Kraus facsimile scan (`kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893.txt`), vendored by another worker. The Google scan was fetched (798219 bytes) and has a clean title page and readable text; it is a fallback if the reprint's rights are questioned. |
+| Mauburnus, Rosetum, 1494 incunable scans | A Windesheim exercise book of the window | Gothic type read as nonsense. The 1603 printing is a lead above. |
+| Hyma, Christian Renaissance (1924); Kettlewell (1882); Scully, Life of Kempis (1901); Acquoy, Het klooster te Windesheim (1875) | Standard older scholarship | Scholarship, not source; public domain by date and on the host. Not vendored; the rows above give identifiers if the Source Library wants secondary texts. |
+| Van Engen, Devotio Moderna: Basic Writings (1988) and Sisters and Brothers of the Common Life (2008) | The census's primary and secondary lead | In copyright. Not downloadable. |
+| Goudriaan's chapter in the Cambridge History of Christianity | Reference | In copyright. Reference only. |
 
 ## 5. Open cross-world questions
 
-**Vs. the Anabaptist Movements (VI.3) and the Society of Jesus (VI.11),
-both vendored earlier this same batch:** the census's own `relationsSummary`
-for this world names it a "parent-influence on both Luther's schooling and
-Jesuit pedagogy - a rare both-directions ancestor." Neither of those two
-worlds' corpus-map entries currently cross-reference this one, and no
-shared vendored text exists to link them directly (this is an influence
-relationship, not a text-sharing one) - worth naming explicitly in whichever
-Doc_02 runs for any of the three, but not something a corpus-map row can
-represent on its own.
+**Vs. the Anabaptist Movements (VI.3) and the Society of Jesus (VI.11), both vendored in the earlier pass:** the census's own `relationsSummary` for this world names it a "parent-influence on both Luther's schooling and Jesuit pedagogy - a rare both-directions ancestor." The Ignatius cross-link above is the first shelf text to show the Jesuit side. The Luther side (the school year at Magdeburg) has no shelf text. Worth naming explicitly in whichever Doc_02 runs for any of the three.
 
-## 6. Step 0 scope notes (for whoever drafts Doc_01/the Step 0 confirmation)
+- **Ruysbroeck between this world and the Rhineland world (V.2).** Staged here as `antecedent` and there as `context`, both `needs-ruling`. Groote's visit, Kempis's chapters and Busch's index tie him to this world. The census puts the Devotio Moderna "in the wake" of the Rhineland preachers. Doc_01 should say where the Brabant mystics sit.
+- **The Imitation's role.** The census says the book grew out of the rapiarium practice and names Kempis as its author. The authorship question (a nineteenth-century argument, to which Kettlewell's 1877 study of the authorship contributes) sits in scholarship that is on the host and not vendored. The Latin Imitation is vendored under a mislabelled header (§1).
+- **Which Kempis counts as the movement's voice.** Pohl's volumes are Kempis writing as a Windesheim canon, not as a Brother of the Common Life. The census treats him as the movement's voice. Doc_01 should say how this world reads that.
+- **Systematic OCR faults.** The Middle English (Ingram) scan on the shelf reads thorn as j or f. Under the September 2026 ruling a clean original can be primary; this one is readable but not clean.
 
-**Doctrinal floor:** not assessed in depth this pass. Nothing in the
-material fetched raised a visible complication - the Imitation is
-squarely orthodox devotional literature - but a real Step 0 pass should
-still check directly rather than assume.
+## 6. Step 0 scope notes and recommendation
 
-**Scale and shape honestly stated:** unlike Lollardy (one prolific author)
-or the Hussites (one central figure), this candidate already has a
-genuine three-voice structure spanning devotional, biographical, and
-epistolary genres. The real open question flagged in the census's own
-`legacy` field - "the houses themselves did not survive the century they
-helped bring about; most dissolved during the Reformation" - is an
-institutional-decline note, not a sourcing gap; nothing in the vendored
-corpus currently documents that decline directly, which is worth noting
-for whoever builds this world's Doc_02, not a defect in what's vendored
-here.
+**Floor (A1).** The census floorNote says "No question". Nothing sampled disturbs that. The Imitation is orthodox devotional literature. The Letters and the Chronicle were not read through for doctrine.
+
+**Sourcing (B1).** The census says "RICH". It is. The library now holds, in the movement's own voices: Groote (Latin letters, one Middle Dutch tract), Kempis (Latin in four volumes and a fifth now vendored, English in eight more files), the sisters (Diepenveen, Middle Dutch), Zerbolt (English) and the Windesheim chronicler Busch (Latin). Thin spots: no Latin Zerbolt, no Grote Dutch works, no rapiarium text, no Deventer sisters' book, no English of the Diepenveen lives or of Groote's letters.
+
+**Ecology (B2).** Founder, successor-canons and sisters speak from inside. There is no hostile record: the movement was not persecuted in the way Lollardy was, and the library holds no outside witness. The Erasmus and Luther sides are lines of influence, not texts on the shelf. The ecology tests a movement known mostly by its own devotional output and by what it later fed.
+
+**Uniqueness (B3).** Against the Rhineland world the difference is the household, the schoolroom and the copying-house against the pulpit; Ruysbroeck is the bridge. Against the Hussites and Lollards the difference is that this movement stays inside the church and makes no break. Against the Jesuits and Luther it is a parent, not a sibling.
+
+**Audiences (B4).** The Imitation is the most printed Christian book after the Bible, read by Catholics, Protestants and Methodists, as the Wesley cross-link shows. The audience is large and reachable.
+
+**Scale (B5).** Seven files vendored this pass, 3.2 MB, 3.2 million characters; with the eleven earlier files, about 12 million characters across twenty staged rows. Nothing is over the 10 MB line.
+
+**Recommendation: build.** The movement speaks in its own voice in vendored texts: the founder in Latin, the canon-author in Latin and English, the sisters in Middle Dutch, the method text in English. The public-domain English leg is deep for Kempis and Zerbolt and absent for Groote and the sisters. Almost nothing here is hostile, which makes a quiet world; a Doc_02 should say so. Two header faults on the earlier Pohl files should be corrected before a build cites them. This is a recommendation for Mark to weigh, not a decision.

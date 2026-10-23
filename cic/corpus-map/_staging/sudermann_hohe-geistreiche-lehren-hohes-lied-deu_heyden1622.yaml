@@ -26,3 +26,16 @@ assignments:
   confidence: provisional
   note: Spiritualist devotional literature of the same wing; placed on window and genre only, without
     reading for Family of Love.
+- row_id: sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622--sudermann-hohe-geistreiche-lehren-marginal-citations-of
+  work: 'Sudermann, Hohe geistreiche Lehren: marginal citations of Eckhart and Tauler'
+  author: sudermann
+  locus: whole volume
+  atlas_ids:
+  - rhineland-mysticism-and-the-friends-of-god
+  role: context
+  confidence: provisional
+  note: 'The margins cite ''M. Eckhart'' and ''Tauler'' beside the Song of Songs verses (file lines 3937,
+    4178, 5217, 9920, 11029). A seventeenth-century Schwenkfelder reader of the Rhineland preachers. Tier:
+    out of window. Placed on the marginal names; the passages were not matched to Eckhart''s text.
+
+    '

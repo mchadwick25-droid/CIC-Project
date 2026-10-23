@@ -3,6 +3,266 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: hesychasm-and-the-palamite-synthesis
 works:
+- row_id: palamas_opera-omnia-pg151-grc-lat_migne1865--gregory-akindynos-tracts-and-letters-greek-with-latin-in
+  work: Gregory Akindynos, tracts and letters, Greek with Latin, in Migne PG 151
+  author: akindynos
+  locus: from file line 26522 (running heads)
+  role: context
+  confidence: assigned
+  note: The leading opponent of Palamas, condemned in 1347 and 1351, in his own writing. The
+    census calls the anti-Palamite side largely untranslated; here it is in Greek with a Latin
+    version.
+  source_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+- row_id: palamas_opera-omnia-pg151-grc-lat_migne1865--barlaam-of-calabria-opuscula-greek-with-latin-in-migne-pg
+  work: Barlaam of Calabria, Opuscula, Greek with Latin, in Migne PG 151
+  author: barlaam
+  locus: from the elenchus at file line 374; the body was not located
+  role: context
+  confidence: provisional
+  note: The scholar whose attack on the hesychasts began the controversy. Placed from the
+    elenchus and headings; not read.
+  source_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+- row_id: bessarion_opera-omnia-pg161-grc-lat_migne1866--bessarion-apologia-on-the-inscriptions-of-beccus-against
+  work: Bessarion, Apologia on the inscriptions of Beccus against Gregory Palamas, in Migne
+    PG 161
+  author: bessarion
+  locus: from file line 39100
+  role: context
+  confidence: provisional
+  note: A fifteenth-century Greek unionist's treatment of the quarrel over Palamas, written
+    a century after the councils. Outside the 1300-1400 window; placed from the heading, not
+    read.
+  source_file: bessarion_opera-omnia-pg161-grc-lat_migne1866.txt
+- row_id: palamas_opera-omnia-pg150-grc-lat_migne1865--nicholas-cabasilas-commentary-on-the-divine-liturgy-greek
+  work: Nicholas Cabasilas, Commentary on the Divine Liturgy (Greek with Latin) and The Life
+    in Christ (Latin of Pontanus), in Migne PG 150
+  author: cabasilas
+  locus: Commentary (De divino altaris sacrificio) from file line 26321; Life in Christ (De
+    vita in Christo) from 35706
+  role: tradition
+  confidence: assigned
+  note: The lay theologian of Thessalonica whom the census calls a lay-facing formation voice.
+    The Life in Christ is here in Latin only, from Pontanus; the Greek is in the Gass edition
+    vendored beside it (OCR unusable). A primary voice ready to quote from the Latin, once
+    checked against the scan; no public-domain English translation is vendored.
+  source_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
+- row_id: cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849--nicholas-cabasilas-the-life-in-christ-gass-s-german-study
+  work: 'Nicholas Cabasilas, The Life in Christ: Gass''s German study and first edition of
+    the Greek (Die Mystik des Nikolaus Cabasilas vom Leben in Christo)'
+  author: cabasilas
+  locus: German introduction first; the Greek text by book (Cabas. lib. VII is quoted at the
+    head)
+  role: tradition
+  confidence: assigned
+  note: 'The lay-facing formation voice the census singles out. Second witness: the Greek
+    of the edition is garbled in the OCR into Latin letters and cannot be quoted; the German
+    introduction is readable. The Latin of the Life in Christ is in the Migne volume (PG 150)
+    vendored beside it. No public-domain English translation is vendored.'
+  source_file: cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt
+- row_id: calecas_opera-omnia-pg152-grc-lat_migne1866--manuel-calecas-de-essentia-et-operatione-in-migne-pg-152
+  work: Manuel Calecas, De essentia et operatione, in Migne PG 152
+  author: calecas
+  locus: from file line 19305
+  role: context
+  confidence: provisional
+  note: The essence-and-energy distinction from the Latinizing side. Placed from the heading;
+    not read through.
+  source_file: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
+- row_id: nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865--kallistos-katafygiotes-on-union-with-god-and-the
+  work: Kallistos Katafygiotes, on union with God and the contemplative life, Greek with Latin,
+    in Migne PG 147
+  author: callistus-cataphugiota
+  locus: from file line 33349
+  role: tradition
+  confidence: assigned
+  note: A treatise on union with God and the contemplative life. A primary voice, ready to
+    quote once checked; no public-domain English translation is vendored.
+  source_file: nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
+- row_id: nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865--kallistos-telikoudes-chapters-on-quiet-and-selections-on
+  work: Kallistos Telikoudes, chapters on quiet and selections on prayer and attention, Greek
+    with Latin, in Migne PG 147
+  author: callistus-telicudes
+  locus: from file line 32544
+  role: tradition
+  confidence: assigned
+  note: Chapters on quiet living and selections from the Fathers on prayer and attention.
+    A primary voice, ready to quote once checked; no public-domain English translation is
+    vendored.
+  source_file: nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
+- row_id: cantacuzenus_historiarum-libri-iv-v2-grc-lat_schopen1831--john-kantakouzenos-historiae-book-iii-1341-1347-greek-with
+  work: John Kantakouzenos, Historiae, Book III (1341-1347), Greek with Latin, Bonn volume
+    2
+  author: cantacuzenus
+  locus: Book III from about file line 1740
+  role: context
+  confidence: provisional
+  note: The civil war, the deposition of Patriarch John Calecas in 1347 and Kantakouzenos's
+    coronation by the patriarch, from the emperor's side. A lay and court voice, not the church's
+    own. Placed on window and the volume's contents; not read through.
+  source_file: cantacuzenus_historiarum-libri-iv-v2-grc-lat_schopen1831.txt
+- row_id: cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832--john-kantakouzenos-historiae-book-iv-1347-1356-greek-with
+  work: John Kantakouzenos, Historiae, Book IV (1347-1356), Greek with Latin, Bonn volume
+    3
+  author: cantacuzenus
+  locus: Book IV from about file line 2064
+  role: context
+  confidence: provisional
+  note: The synod of 1351 and its aftermath, written by the emperor who convened it and later
+    signed the Hagioritic Tome as the monk Joasaph. A lay and court voice, not the church's
+    own. Palamas and Barlaam are named on about 70 and 90 lines; the book was sampled, not
+    read through.
+  source_file: cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt
+- row_id: cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828--john-kantakouzenos-historiae-books-i-ii-to-1341-greek-with
+  work: John Kantakouzenos, Historiae, Books I-II (to 1341), Greek with Latin, Bonn volume
+    1
+  author: cantacuzenus
+  locus: Book I and Periocha from about file line 1700; Barlaam affair in Book II
+  role: context
+  confidence: provisional
+  note: The emperor who backed Palamas, writing his own history, including the first synod
+    of 1341 and the Barlaam affair. A lay and court voice, not the church's own. Placed on
+    window and the Barlaam hits (about 39); the book was not read through.
+  source_file: cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828.txt
+- row_id: calecas_opera-omnia-pg152-grc-lat_migne1866--john-cyparissiotes-palamitic-transgressions-book-one-and
+  work: John Cyparissiotes, Palamitic Transgressions (book one) and Exposition in ten decades,
+    Greek with Latin, in Migne PG 152
+  author: cyparissiota
+  locus: notice from file line 49613; the Transgressions from about 49728; the Decades from
+    about 50308
+  role: context
+  confidence: provisional
+  note: An anti-Palamite theologian of the later fourteenth century, writing against the new
+    doctrine. Placed from the elenchus; the opening of the Transgressions was seen, not the
+    whole.
+  source_file: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
+- row_id: palamas_opera-omnia-pg150-grc-lat_migne1865--greek-opinions-on-palamas-akindynos-s-iambs-andrew-of
+  work: Greek opinions on Palamas (Akindynos's iambs, Andrew of Kolossai's dialogue, Harmenopoulos
+    on the Palamite heresy, the tome of condemnation, David the monk), Greek with Latin, in
+    Migne PG 150
+  author: greek-opinions-on-palamas
+  locus: section 'De Gregorio Palama' from file line 53921
+  role: context
+  confidence: provisional
+  note: The anti-Palamite and condemnation documents gathered by Migne, set beside the Palamite
+    ones. Placed from the volume's elenchus and headings; the section was not read through.
+  source_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
+- row_id: gregoras_byzantina-historia-v2-grc-lat_schopen1830--nikephoros-gregoras-historia-byzantina-books-xii-xxiv-to
+  work: Nikephoros Gregoras, Historia Byzantina, Books XII-XXIV (to 1351), Greek with Latin,
+    Bonn volume 2
+  author: gregoras
+  locus: Book XII at file line 226 to Book XXIV at 34840
+  role: context
+  confidence: assigned
+  note: The anti-Palamite scholar's narrative of Barlaam, Akindynos and the councils up to
+    the council that condemned his party. A contemporary opponent speaking for his own side;
+    Palamas is named on about 560 lines. Sampled in Greek and Latin; not read through.
+  source_file: gregoras_byzantina-historia-v2-grc-lat_schopen1830.txt
+- row_id: gregoras_byzantina-historia-v3-grc-lat_bekker1855--nikephoros-gregoras-historiae-byzantinae-libri-postremi
+  work: Nikephoros Gregoras, Historiae Byzantinae libri postremi, Books XXV-XXXVII (1351-1359),
+    Greek with Latin, Bonn volume 3
+  author: gregoras
+  locus: Books XXV onward; Book XXVII at file line 7035, Book XXXVII at 30444
+  role: context
+  confidence: assigned
+  note: 'The last books, first printed in 1855: the condemned anti-Palamite''s account of
+    the years after 1351, including his own confinement. Sampled in Greek and Latin; not read
+    through.'
+  source_file: gregoras_byzantina-historia-v3-grc-lat_bekker1855.txt
+- row_id: palamas_opera-omnia-pg150-grc-lat_migne1865--gregory-of-sinai-ascetic-chapters-and-tracts-on-quiet-and
+  work: Gregory of Sinai, ascetic chapters and tracts on quiet and prayer, Greek with Latin,
+    in Migne PG 150
+  author: gregory-sinai
+  locus: from file line 60957 (running head); capita from 69298 to the end of the volume
+  role: tradition
+  confidence: assigned
+  note: The Athonite teacher who carried the hesychast method to the Balkans, in the original
+    Greek with Migne's Latin. A primary voice, ready to quote once checked verbatim against
+    the scan; Greek and Latin are read from the same OCR, and a quote record must be verified
+    against the page image. No public-domain English translation of this work is vendored
+    (see the dossier, section 4).
+  source_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
+- row_id: nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865--nikephoros-the-monk-tractatus-de-sobrietate-et-cordis
+  work: Nikephoros the Monk, Tractatus de sobrietate et cordis custodia, Greek with Latin,
+    in Migne PG 147
+  author: nicephorus-monachus
+  locus: from file line 38202
+  role: antecedent
+  confidence: needs-ruling
+  note: The method text on watchfulness and guarding the heart that later hesychasts relied
+    on. Nikephoros is usually placed before the window; the census lists the text among the
+    hesychast method texts. Whether it is tradition or antecedent here is for the lead.
+  source_file: nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
+- row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-commemoration-of-gregory-palamas-14-november
+  work: Synaxaristes, commemoration of Gregory Palamas (14 November) and the notes on his
+    writings against Barlaam
+  author: nikodemos-hagiorite
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Tier: out-of-window. The Athonite Synaxaristes (compiled by Nikodemos the Hagiorite,
+    printed text of 1868) is the later church''s custody of the saints'' lives. It names Palamas
+    at file lines 942, 1218, 1276, 5950, 12241, 22697, 23474, 42635 and 48367, among them
+    a note at 23474 that Palamas wrote a whole book against Barlaam. The 14 November Life
+    itself was not located in the accent-garbled OCR, so this row stays provisional. The same
+    file is the Kollyvades world''s text.
+
+    '
+  source_file: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt
+- row_id: palamas_homiliae-41-grc_jerusalem1857--gregory-palamas-forty-one-homilies-greek-jerusalem-1857
+  work: Gregory Palamas, forty-one homilies, Greek, Jerusalem 1857 (first edition)
+  author: palamas
+  locus: homilies after the prolegomena (file line 137); Homily XI at 17189
+  role: tradition
+  confidence: assigned
+  note: Palamas as preacher in his own Greek, clean enough to quote; the lay-facing side of
+    the Palamite synthesis. The census names the Triads as the cornerstone; these are the
+    homilies. A primary voice ready to quote once checked verbatim against the scan; no public-domain
+    English translation is vendored.
+  source_file: palamas_homiliae-41-grc_jerusalem1857.txt
+- row_id: palamas_opera-omnia-pg151-grc-lat_migne1865--gregory-palamas-homilies-and-sermons-greek-with-latin-in
+  work: Gregory Palamas, homilies and sermons, Greek with Latin, in Migne PG 151
+  author: palamas
+  locus: homilies from about file line 950 (Homilia III) onward
+  role: tradition
+  confidence: assigned
+  note: Palamas as preacher to a Thessalonian congregation, in Greek with Migne's Latin; forty-three
+    homilies from the Jerusalem edition of 1857. A primary voice, ready to quote once checked
+    verbatim against the scan; Greek and Latin are read from the same OCR, and a quote record
+    must be verified against the page image. No public-domain English translation of this
+    work is vendored (see the dossier, section 4).
+  source_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+- row_id: palamas_opera-omnia-pg150-grc-lat_migne1865--gregory-palamas-the-hesychast-writings-de-hesychastis-de
+  work: Gregory Palamas, the Hesychast writings (De Hesychastis, De oratione et puritate cordis,
+    the 150 chapters, the Hagioritic Tome), Greek with Latin, in Migne PG 150
+  author: palamas
+  locus: De Hesychastis from file line 64286; chapters from 64961; Hagioritic Tome from 68672
+  role: tradition
+  confidence: assigned
+  note: Palamas's own defence of the hesychast way and the Athonite Tome of 1340-41 that the
+    monks signed. A primary voice, ready to quote once checked verbatim against the scan;
+    Greek and Latin are read from the same OCR, and a quote record must be verified against
+    the page image. No public-domain English translation of this work is vendored (see the
+    dossier, section 4).
+  source_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
+- row_id: acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860--acta-patriarchatus-constantinopolitani-1315-1402-patriarchal-2
+  work: Acta patriarchatus Constantinopolitani, 1315-1402 (patriarchal register), volume 1
+  author: patriarchate-of-constantinople-register-1310-1372
+  locus: whole file; Palamas is named about 34 times
+  role: tradition
+  confidence: provisional
+  note: The register carries decisions on the Palamite and Akindynist quarrel, from the Patriarchate's
+    side. Placed on the hits for Palamas; the entries were not read.
+  source_file: acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt
+- row_id: calecas_opera-omnia-pg152-grc-lat_migne1866--patriarchal-diplomata-synodal-constitutions-and-letters-1310
+  work: Patriarchal diplomata, synodal constitutions and letters (1310-1372), in Migne PG
+    152
+  author: patriarchate-of-constantinople-register-1310-1372
+  locus: from file line 81575
+  role: tradition
+  confidence: provisional
+  note: Includes the acts of Callistus and Philotheos, the patriarchs of the Palamite settlement.
+    Placed from the elenchus; the individual letters on the controversy were not located.
+  source_file: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
 - row_id: philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893--philokalia-vol-1-the-patristic-texts-fourth-to-seventh
   work: 'Philokalia, vol. 1: the patristic texts (fourth to seventh centuries) as printed'
   author: philokalia
@@ -23,3 +283,66 @@ works:
   note: The Palamite sources in the form the 1782 compilers printed them; reception for the
     fourteenth-century world, which should prefer its own critical texts.
   source_file: philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt
+- row_id: palamas_homiliae-41-grc_jerusalem1857--philotheos-kokkinos-and-neilos-of-constantinople-panegyrics
+  work: Philotheos Kokkinos and Neilos of Constantinople, panegyrics of Gregory Palamas, Greek,
+    in the Jerusalem edition of 1857
+  author: philotheos-kokkinos
+  locus: before the prolegomena (file line 137)
+  role: tradition
+  confidence: provisional
+  note: The two patriarchs who made Palamas a saint, speaking for the church that canonised
+    him. Placed from the title page; the panegyrics were not read through.
+  source_file: palamas_homiliae-41-grc_jerusalem1857.txt
+- row_id: palamas_opera-omnia-pg151-grc-lat_migne1865--philotheos-kokkinos-encomium-of-gregory-palamas-and-the
+  work: Philotheos Kokkinos, Encomium of Gregory Palamas and the Antirrhetici against Gregoras,
+    Greek with Latin, in Migne PG 151
+  author: philotheos-kokkinos
+  locus: named in the elenchus at file lines 301-318; the body was not located
+  role: tradition
+  confidence: provisional
+  note: Philotheos wrote up the council's decree and as patriarch had Palamas proclaimed a
+    saint (1368, per the census). Placed from the elenchus; the text was not read.
+  source_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+- row_id: symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866--symeon-of-thessalonica-treatises-and-responses-in-migne-pg
+  work: Symeon of Thessalonica, treatises and responses, in Migne PG 155
+  author: symeon-thessalonica
+  locus: as above
+  role: context
+  confidence: provisional
+  note: He heirs the Thessalonian see of Palamas and Cabasilas and writes in the hesychast
+    manner on prayer; placed on place and window, outside the 1300-1400 window by a generation.
+    Whether this belongs to the hesychast world is a cross-world question.
+  source_file: symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901--the-constantinopolitan-synod-of-1347-and-the-tomos-against
+  work: The Constantinopolitan synod of 1347 and the Tomos against Barlaam, Akindynos and
+    their followers, Latin with Greek columns, in Mansi tom. 26
+  author: synod-of-constantinople-1341-1351
+  locus: '''Pseudo-Synodus'' from file line 10181; the Tomos from about 12064'
+  role: tradition
+  confidence: provisional
+  note: The same synodal documents as in Migne PG 151, here in a Latin collection whose editor
+    calls the synod a 'pseudo-synod'; the framing is a Catholic outsider's, the tomos is the
+    synod's own. The Latin is usable; the Greek columns are garbled. Read at the headings
+    and a sample.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt
+- row_id: palamas_opera-omnia-pg151-grc-lat_migne1865--the-three-synodal-tomes-against-barlaam-akindynos-and-their
+  work: The three synodal tomes against Barlaam, Akindynos and their followers (1341, 1347,
+    1351), with Palamas's confession, Greek with Latin, in Migne PG 151
+  author: synod-of-constantinople-1341-1351
+  locus: TOMUS SYNODICUS I from file line 14261; the three tomes announced at 14267
+  role: tradition
+  confidence: assigned
+  note: The conciliar documents that made the Palamite position the norm, printed from the
+    Jerusalem edition of 1698; the winning side's record. Read at the headings and sampled.
+  source_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+- row_id: nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865--kallistos-and-ignatios-xanthopouloi-methodus-et-regula-for
+  work: Kallistos and Ignatios Xanthopouloi, Methodus et regula for those who live in quiet,
+    Greek with Latin, in Migne PG 147
+  author: xanthopuli-callistus-ignatius
+  locus: from file line 28911
+  role: tradition
+  confidence: assigned
+  note: A rule and method for those who choose to live in quiet (hesychia), a method text
+    of the movement in Greek with Latin. A primary voice, ready to quote once checked verbatim
+    against the scan; no public-domain English translation is vendored.
+  source_file: nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt

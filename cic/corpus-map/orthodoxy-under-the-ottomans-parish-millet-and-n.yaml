@@ -220,6 +220,28 @@ works:
     column is read whole where the 1850 OCR cuts it, though it holds fewer Greek letters overall.
     Use whichever scan reads cleanly at the passage, and check against the page images.'
   source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
+- row_id: gennadius-scholarius_defensio-quinque-capitum-lat_benevento1637--gennadios-scholarios-defensio-quinque-capitum-latin-of-fabio
+  work: Gennadios Scholarios, Defensio quinque capitum, Latin of Fabio Benevento
+  author: gennadius-scholarius
+  locus: whole file
+  role: antecedent
+  confidence: needs-ruling
+  note: The author became the first patriarch under the Ottomans, but this text defends the
+    Florentine chapters and is not dated in the file. Whether it is an antecedent of the Ottoman
+    world or only a voice of the Palaiologan world is for the lead; the vendored Ottoman files
+    (Kimmel 1850, the Historia politica) do not argue from it.
+  source_file: gennadius-scholarius_defensio-quinque-capitum-lat_benevento1637.txt
+- row_id: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--gennadios-scholarios-the-two-confessions-of-faith-written
+  work: Gennadios Scholarios, the two Confessions of faith written for Sultan Mehmed II, Greek
+    with Latin, in Migne PG 160
+  author: gennadius-scholarius
+  locus: Confessio fidei prior from file line 26381; posterior from 26948
+  role: tradition
+  confidence: provisional
+  note: Written after 1453 as the first patriarch under Ottoman rule. The Ottoman world already
+    holds Kimmel's printing of these Confessions; this is the Greek with Latin in Migne. Placed
+    from the headings; not read through.
+  source_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
 - row_id: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678--a-description-of-the-present-state-of-samos-nicaria-patmos
   work: A Description of the Present State of Samos, Nicaria, Patmos, and Mount Athos
   author: georgirenes

@@ -18,3 +18,31 @@ assignments:
       file, since it is primary to the movement regardless of language;
       the scan is clean, not flagged as garbled under the Library's own
       OCR-quality rule.
+  - row_id: busch_chronicon-windeshemense-lat_grube1886--liber-de-reformatione-monasteriorum-johannes-busch-in-grube
+    work: Liber de reformatione monasteriorum (Johannes Busch), in Grube's Chronicon Windeshemense und Liber
+      de Reformatione Monasteriorum
+    author: busch
+    locus: whole volume
+    atlas_ids:
+    - observant-reform-and-popular-preaching
+    role: context
+    confidence: provisional
+    note: 'The Observance was not only Franciscan: the census says it ran through the Dominicans, Augustinians
+      and Benedictines. Busch''s account of the reform of Saxon houses is the shelf''s one cross-order witness,
+      with forms of ''observant-'' on about 109 lines. Tier: same time-different region (Low Countries and
+      Saxony, not Italy or Spain). Its main home is the Devotio Moderna world; this is a second placement,
+      left provisional until the Observance build says what it wants from the Augustinian and Benedictine
+      side.'
+  - row_id: busch_chronicon-windeshemense-lat_grube1886--busch-chronicon-windeshemense-suso-and-ruysbroek-named
+    work: 'Busch, Chronicon Windeshemense: Suso and Ruysbroek named'
+    author: busch
+    locus: whole volume
+    atlas_ids:
+    - rhineland-mysticism-and-the-friends-of-god
+    role: context
+    confidence: provisional
+    note: 'The editor''s notes tie a passage to Suso''s Horologium sapientiae (file lines 8024 and 20526)
+      and the index names Suso and Ruysbroek (lines 43310, 44931). Proposed as context here. Tier: same
+      time- different region.
+  
+      '

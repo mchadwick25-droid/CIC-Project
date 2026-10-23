@@ -1,0 +1,15 @@
+source_file: kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt
+
+assignments:
+  - row_id: kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904--kempis-prayers-and-meditations-on-the-life-of-christ-duthoit
+    work: "Kempis, Prayers and Meditations on the Life of Christ (Duthoit's translation)"
+    author: kempis
+    locus: "whole volume"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      The public-domain English of Kempis's prayers and meditations, made from Pohl's Latin, which is
+      vendored beside it in the file kempis_opera-omnia-tractatus-lat_pohl1902.txt (Volumen quintum,
+      Orationes et meditationes de vita Christi).

@@ -1,0 +1,63 @@
+source_file: lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt
+authors_ruled:
+  lea:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file. The author is named on the title page printed in the file as Henry Charles Lea.
+      A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    lea_history-of-the-inquisition-of-the-middle-ages-v3_1888--a-history-of-the-inquisition-of-the-middle-ages-vol-iii-lea
+  work: >-
+    A History of the Inquisition of the Middle Ages, vol. III (Lea, 1888): the Spiritual Franciscans and the Fraticelli
+  author: lea
+  locus: >-
+    Contents page: Book III, Chapter I 'The Spiritual Franciscans' and Chapter III 'The Fraticelli' (Michael of
+    Cesena's revolt; the Fraticelli in France and Spain; 'The Observantines Replace and Suppress the Fraticelli')
+  atlas_ids:
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: context
+  confidence: assigned
+  note: >-
+    Secondary scholarship in English, not a source: a nineteenth-century historian narrating the Spirituals, the
+    Marseille burnings, the Fraticelli and the Observantine suppression from the trial records. Clean OCR. It is
+    the public-domain English reading route into the record that the originals only give in Latin.
+- row_id: >-
+    lea_history-of-the-inquisition-of-the-middle-ages-v3_1888--a-history-of-the-inquisition-of-the-middle-ages-vol-iii-lea-2
+  work: >-
+    A History of the Inquisition of the Middle Ages, vol. III (Lea, 1888): Observantines and the Fraticelli
+  author: lea
+  locus: Chapter III, the section 'The Observantines Replace and Suppress the Fraticelli'
+  atlas_ids:
+  - observant-reform-and-popular-preaching
+  role: context
+  confidence: provisional
+  note: Placed on that section of the contents page. Secondary scholarship.
+- row_id: >-
+    lea_history-of-the-inquisition-of-the-middle-ages-v3_1888--a-history-of-the-inquisition-of-the-middle-ages-vol-iii-lea-3
+  work: >-
+    A History of the Inquisition of the Middle Ages, vol. III (Lea, 1888): Joachim and the Eternal Gospel
+  author: lea
+  locus: Chapter I, the sections on Joachim of Flora and the Everlasting Gospel
+  atlas_ids:
+  - joachimite-current
+  role: context
+  confidence: provisional
+  note: Placed on the contents page. Secondary scholarship.
+- row_id: lea_history-of-the-inquisition-of-the-middle-ages-v3_1888--lea-history-of-the-inquisition-of-the-middle-ages-vol-iii
+  work: 'Lea, History of the Inquisition of the Middle Ages, vol. III: the Beghards, the Great Schism
+    and Marsiglio'
+  author: lea
+  locus: whole volume
+  atlas_ids:
+  - inquisition-record-sects-adamites-and-kin
+  - latin-papal-church-avignon-to-lateran-v
+  role: context
+  confidence: provisional
+  note: 'Secondary scholarship, not a source. For the Free Spirit entry: Beghards and Beguines at file
+    lines 7570, 27403 and 27702, and index entries pointing to vol. II (Adamites ii. 518, Taborites ii.
+    512-524) that the shelf does not hold. For the papal entry: ''Use of Inquisition in the Great Schism''
+    (book III, ch. IV, p. 204), ''John XXII and the Visconti'' (p. 196) and ''Marsiglio of Padua and William
+    of Ockham'' (p. 139, in the chapter on the Fraticelli). Vol. II (the Free Spirit chapter) is the wanted
+    volume. Already assigned to the Franciscan entries. Tier: same time-place.'

@@ -1,0 +1,14 @@
+source_file: wattenbach_inquisition-gegen-die-waldenser-in-pommern-deu_1886.txt
+assignments:
+- row_id: wattenbach_inquisition-gegen-die-waldenser-in-pommern-deu_1886--uber-die-inquisition-gegen-die-waldenser-in-pommern-und-der
+  work: Über die Inquisition gegen die Waldenser in Pommern und der Mark Brandenburg (Wattenbach, 1886)
+  author: wattenbach
+  locus: protocol extracts and the lists of those examined
+  atlas_ids:
+  - waldensians-in-the-alps
+  - the-waldensians
+  role: context
+  confidence: provisional
+  note: A hostile inquisitorial record of German Waldensians of the 1390s, in Wattenbach's edition and
+    German commentary. Geographically outside the Alps; placed on the entry's 'Germany' region. See the
+    dossier on whether the Alps entry should claim it.
