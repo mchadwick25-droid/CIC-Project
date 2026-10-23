@@ -58,6 +58,24 @@ assignments:
 
       '
 
+  - row_id: mcglothlin_baptist-confessions-of-faith_1911--arminian-theology-among-the-english-baptists-in-the
+    work: Arminian theology among the English Baptists in the Netherlands (introduction to the General Baptist
+      confessions)
+    author: mcglothlin
+    locus: the introduction to the English Baptists, file lines 2662-2675 (the English Baptists arose in
+      the Netherlands, took up the theology that "came to be known as Arminianism", and so became General
+      Baptists); the Amsterdam confessions follow
+    atlas_ids:
+    - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: 'McGlothlin (1911, secondary) ties the English Baptist exiles of Amsterdam to Arminian doctrine
+      of the Dutch kind. It is the one place in the vendored corpus that follows the Remonstrant doctrine
+      out of the Netherlands into a gathered church. Read at the loci given only. The Baptist and Anabaptist
+      worlds decide the primary placement of the confessions themselves. Tier: same time and place.
+
+      '
+
 authors_ruled:
   swiss-brethren:
     kind: anonymous

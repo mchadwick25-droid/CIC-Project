@@ -61,3 +61,23 @@ assignments:
       Directory (1645), Confession (1647) and Catechisms (1648). Placed on the
       window and the documented relation; the 1643-1648 acts were not read for
       this pass, so the placement is provisional.
+
+  - row_id: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838--the-scots-assembly-of-1638-and-the-synod-of-dort-the
+    work: 'The Scots Assembly of 1638 and the Synod of Dort: the Arminian articles and the Dort answer to
+      the Remonstrants in the Glasgow proceedings'
+    author: kirk-of-scotland
+    locus: lines 1786-1790 (a Covenanter narrative of the Tables, author not checked, finding "the articles
+      of Arminius" in the bishops' books), 1946-1950 (a proposal to follow the course of Dort for the commissioners
+      from the presbyteries), and 23478-23492 (at the Glasgow Assembly a speaker says the Remonstrants'
+      declinature at Dort needs no other answer than Dort gave, and the Moderator reads "Judicium Theologorum
+      Magnae Britanniae")
+    atlas_ids:
+    - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: 'The Scottish Covenanters in 1638 use the Dort controversy as a model and a weapon against the
+      Laudian bishops, calling the bishops'' doctrine Arminian. A downstream witness to how the Synod of
+      Dort and the Remonstrants were read outside the Netherlands within a generation. Read at the loci
+      given only. Tier: same time, different region.
+
+      '

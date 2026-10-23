@@ -45,3 +45,23 @@ assignments:
       and his role as Exarch. Read at those passages; a partisan witness in French, useful for how Mogila's
       name was used in the Lucaris quarrel, never the revival's voice.
     row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--editor-s-remarks-on-mogilas-s-signature-to-the-constantinopl
+
+  - row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--letters-of-cyril-lucaris-to-johannes-uytenbogaert-and-to-le
+    work: Letters of Cyril Lucaris to Johannes Uytenbogaert and to Le Leu de Wilhem (letters 12, 13 and
+      14), Latin with French
+    author: lucaris
+    locus: Letter 12 to Uytenbogaert at line 9256, Letter 13 to Uytenbogaert at line 9745 (the passage praising
+      Arminius's public theses, Latin at lines 10325-10345 and French at 10390-10398), Letter 14 to Le Leu
+      de Wilhem at line 13430 (remarks on the Remonstrants and Contra-Remonstrants at lines 13660-13672);
+      the contents list at line 77
+    atlas_ids:
+    - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: 'The Patriarch of Alexandria, later of Constantinople, writes to the old Remonstrant court preacher
+      at The Hague and to a counsellor of the Prince of Orange. In Letter 13 he says he holds Arminius in
+      high regard and has read his theses sent to him. Letters of an outside churchman to the Remonstrants''
+      own leader, with a scholar''s French edition of 1718 (partisan notes). Read at the loci given only.
+      Tier: same time, different region.
+
+      '

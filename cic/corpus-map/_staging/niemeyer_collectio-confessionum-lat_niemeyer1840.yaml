@@ -100,3 +100,37 @@ assignments:
     role: tradition
     confidence: provisional
     note: "The Articles of the English church in Latin. Placed on the heading only. Second witness, noisy OCR."
+
+  - row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--canones-synodi-dordrechtanae-the-canons-of-dort-latin-in
+    work: Canones Synodi Dordrechtanae (the Canons of Dort), Latin, in Niemeyer's Collectio confessionum
+    author: niemeyer
+    locus: the Canons from line 44015 (Sententia de divina praedestinatione et annexis capitibus, Cap. I)
+      through the five Heads with their Reiectio errorum to the Synod's closing Sententia at line 45673,
+      with the delegates' signatures at lines 44660-44705 and 45619-45670; Niemeyer's prolegomena on the
+      editions at line 3748
+    atlas_ids:
+    - the-remonstrants-and-dort
+    role: tradition
+    confidence: provisional
+    note: 'The Latin text of the Canons of 1619 in an 1840 critical collection, the original-language beside
+      the English of Scott 1831 and the Reformed Dutch Church 1840. SECOND WITNESS: the OCR of this passage
+      is garbled throughout (about every second line carries an error such as "Articuhs" or "iudicinm"),
+      so locate passages here and verify against the page image; a cleaner Latin witness is the Acta of
+      1620 (a lead in the dossier). A search of the file (with OCR variants of the name) found no Remonstrant
+      confession or articles in it.
+
+      '
+  - row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--canones-synodi-dordrechtanae-the-canons-of-dort-latin-in-2
+    work: Canones Synodi Dordrechtanae (the Canons of Dort), Latin, in Niemeyer's Collectio confessionum,
+      second placement
+    author: niemeyer
+    locus: lines 44015-45700
+    atlas_ids:
+    - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: provisional
+    note: 'The doctrinal settlement of 1619 binding on the Dutch church of the further-reformation world,
+      in Latin; the signatures include Udemans among the Zeeland delegates. Same witness caveats as the
+      row for the Remonstrants. Placed on that relation.
+
+      '

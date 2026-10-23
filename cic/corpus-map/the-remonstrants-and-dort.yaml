@@ -68,6 +68,113 @@ works:
 
     '
   source_file: hales_letters-from-the-synod-of-dort_1765.txt
+- row_id: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838--the-scots-assembly-of-1638-and-the-synod-of-dort-the
+  work: 'The Scots Assembly of 1638 and the Synod of Dort: the Arminian articles and the Dort
+    answer to the Remonstrants in the Glasgow proceedings'
+  author: kirk-of-scotland
+  locus: lines 1786-1790 (a Covenanter narrative of the Tables, author not checked, finding
+    "the articles of Arminius" in the bishops' books), 1946-1950 (a proposal to follow the
+    course of Dort for the commissioners from the presbyteries), and 23478-23492 (at the Glasgow
+    Assembly a speaker says the Remonstrants' declinature at Dort needs no other answer than
+    Dort gave, and the Moderator reads "Judicium Theologorum Magnae Britanniae")
+  role: context
+  confidence: provisional
+  note: 'The Scottish Covenanters in 1638 use the Dort controversy as a model and a weapon
+    against the Laudian bishops, calling the bishops'' doctrine Arminian. A downstream witness
+    to how the Synod of Dort and the Remonstrants were read outside the Netherlands within
+    a generation. Read at the loci given only. Tier: same time, different region.
+
+    '
+  source_file: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838.txt
+- row_id: knappen_two-elizabethan-puritan-diaries_1933--samuel-ward-at-the-synod-of-dort-in-knappen-s-life-of-ward
+  work: Samuel Ward at the Synod of Dort, in Knappen's life of Ward (1933)
+  author: knappen
+  locus: Knappen's life of Samuel Ward, file lines 2990-3003 and 3140-3150 (Ward one of the
+    English representatives at Dort in 1619, subscribed the canons, and was called by Episcopius
+    the most learned of the English divines there); Ward's own note at line 8094 that he was
+    sent by the king to the Synod
+  role: context
+  confidence: provisional
+  note: 'A modern (1933) editor''s account of one English delegate to the Synod, with Ward''s
+    own mention of the mission. Secondary prose except for the Ward note; useful as a pointer
+    to the English delegation, whose letters are in the Hales file. Read at the loci given
+    only; the diary entries themselves were not read for Dort.
+
+    '
+  source_file: knappen_two-elizabethan-puritan-diaries_1933.txt
+- row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--letters-of-cyril-lucaris-to-johannes-uytenbogaert-and-to-le
+  work: Letters of Cyril Lucaris to Johannes Uytenbogaert and to Le Leu de Wilhem (letters
+    12, 13 and 14), Latin with French
+  author: lucaris
+  locus: Letter 12 to Uytenbogaert at line 9256, Letter 13 to Uytenbogaert at line 9745 (the
+    passage praising Arminius's public theses, Latin at lines 10325-10345 and French at 10390-10398),
+    Letter 14 to Le Leu de Wilhem at line 13430 (remarks on the Remonstrants and Contra-Remonstrants
+    at lines 13660-13672); the contents list at line 77
+  role: context
+  confidence: provisional
+  note: 'The Patriarch of Alexandria, later of Constantinople, writes to the old Remonstrant
+    court preacher at The Hague and to a counsellor of the Prince of Orange. In Letter 13
+    he says he holds Arminius in high regard and has read his theses sent to him. Letters
+    of an outside churchman to the Remonstrants'' own leader, with a scholar''s French edition
+    of 1718 (partisan notes). Read at the loci given only. Tier: same time, different region.
+
+    '
+  source_file: lucaris_lettres-anecdotes-fra_amsterdam1718.txt
+- row_id: mcglothlin_baptist-confessions-of-faith_1911--arminian-theology-among-the-english-baptists-in-the
+  work: Arminian theology among the English Baptists in the Netherlands (introduction to the
+    General Baptist confessions)
+  author: mcglothlin
+  locus: the introduction to the English Baptists, file lines 2662-2675 (the English Baptists
+    arose in the Netherlands, took up the theology that "came to be known as Arminianism",
+    and so became General Baptists); the Amsterdam confessions follow
+  role: context
+  confidence: provisional
+  note: 'McGlothlin (1911, secondary) ties the English Baptist exiles of Amsterdam to Arminian
+    doctrine of the Dutch kind. It is the one place in the vendored corpus that follows the
+    Remonstrant doctrine out of the Netherlands into a gathered church. Read at the loci given
+    only. The Baptist and Anabaptist worlds decide the primary placement of the confessions
+    themselves. Tier: same time and place.
+
+    '
+  source_file: mcglothlin_baptist-confessions-of-faith_1911.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--canones-synodi-dordrechtanae-the-canons-of-dort-latin-in
+  work: Canones Synodi Dordrechtanae (the Canons of Dort), Latin, in Niemeyer's Collectio
+    confessionum
+  author: niemeyer
+  locus: the Canons from line 44015 (Sententia de divina praedestinatione et annexis capitibus,
+    Cap. I) through the five Heads with their Reiectio errorum to the Synod's closing Sententia
+    at line 45673, with the delegates' signatures at lines 44660-44705 and 45619-45670; Niemeyer's
+    prolegomena on the editions at line 3748
+  role: tradition
+  confidence: provisional
+  note: 'The Latin text of the Canons of 1619 in an 1840 critical collection, the original-language
+    beside the English of Scott 1831 and the Reformed Dutch Church 1840. SECOND WITNESS: the
+    OCR of this passage is garbled throughout (about every second line carries an error such
+    as "Articuhs" or "iudicinm"), so locate passages here and verify against the page image;
+    a cleaner Latin witness is the Acta of 1620 (a lead in the dossier). A search of the file
+    (with OCR variants of the name) found no Remonstrant confession or articles in it.
+
+    '
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+- row_id: quick_synodicon-in-gallia-reformata_1692--the-canons-of-dort-adopted-by-the-french-national-synod-of
+  work: The Canons of Dort adopted by the French national synod of Alez (1620), with the deputies'
+    oath against Arminianism
+  author: quick
+  locus: contents at lines 52027-52030 (Chap. XI, The Cannons of the Synod of Dort incorporated
+    with those of the Churches of France; Chap. XII, The Oath taken by the Deputies against
+    Arminianisme); the text of the Alez synod's adoption of the Dort articles from line 54977,
+    the oath from line 55030
+  role: context
+  confidence: provisional
+  note: 'The French Reformed churches took the Canons of Dort into their own discipline in
+    1620, read the articles in full synod, approved them, and bound their deputies by oath
+    against the Arminian errors. The Huguenot response to the Remonstrant controversy in its
+    own synod acts, in a 1692 English translation by Quick. Placed on the locus read; the
+    volume is staged for the Huguenots as tradition, and this row only adds the Dutch controversy
+    as the thing they were answering. Tier: same time, different region.
+
+    '
+  source_file: quick_synodicon-in-gallia-reformata_1692.txt
 - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-canons-of-the-synod-of-dordrecht
   work: The Canons of the Synod of Dordrecht (1619), English, 1840 printing
   author: reformed-dutch-church

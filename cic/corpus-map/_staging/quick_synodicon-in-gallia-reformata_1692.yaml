@@ -130,3 +130,22 @@ assignments:
       named and not read beyond them.
 
       '
+
+  - row_id: quick_synodicon-in-gallia-reformata_1692--the-canons-of-dort-adopted-by-the-french-national-synod-of
+    work: The Canons of Dort adopted by the French national synod of Alez (1620), with the deputies' oath
+      against Arminianism
+    author: quick
+    locus: contents at lines 52027-52030 (Chap. XI, The Cannons of the Synod of Dort incorporated with those
+      of the Churches of France; Chap. XII, The Oath taken by the Deputies against Arminianisme); the text
+      of the Alez synod's adoption of the Dort articles from line 54977, the oath from line 55030
+    atlas_ids:
+    - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: 'The French Reformed churches took the Canons of Dort into their own discipline in 1620, read
+      the articles in full synod, approved them, and bound their deputies by oath against the Arminian errors.
+      The Huguenot response to the Remonstrant controversy in its own synod acts, in a 1692 English translation
+      by Quick. Placed on the locus read; the volume is staged for the Huguenots as tradition, and this
+      row only adds the Dutch controversy as the thing they were answering. Tier: same time, different region.
+
+      '

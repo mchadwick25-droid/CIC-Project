@@ -719,3 +719,38 @@ works:
       abridged manuscript text (Schleicher''s own note says the manuscript is shortened). Neither edition
       names the author; the usual attribution to Abba Bahrey is from outside the files. No public-domain
       English was found.'
+
+  - work_id: canons-of-dort
+    title: The Canons of the Synod of Dort (1619), with the Rejection of Errors
+    author: synod-of-dort
+    original_language: Latin (the Acta of the Synod, Leiden 1620)
+    composed: 1619 (read in the Great Church at Dordrecht on 6 May 1619)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: not named (the Reformed Dutch Church of North America's official text)
+      year: 1840
+      language: English
+      recension: the Dutch church's own English, with the Catechism, Confession and Liturgy
+      items:
+      - cic:reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt:Canons (line
+        6242) to the Liturgy (line 7089)
+    - translator: Thomas Scott (translated from the Latin, with notes)
+      year: 1831
+      language: English
+      recension: Scott's translation, 1831 printing (his preface is dated 15 March 1818), with the Synod's
+        preface and a Harmony of Confessions
+      items:
+      - cic:synod-of-dort_articles-with-history-of-events_scott1831.txt:Articles of the Synod (line 4966)
+        to the Confessions of Faith (line 7915)
+    - translator: Hermann Agathon Niemeyer (editor; Latin text)
+      year: 1840
+      language: Latin
+      recension: Niemeyer's Collectio confessionum, Latin text of the Synod's Sententia with the signatures
+        (OCR garbled, second witness)
+      items:
+      - cic:niemeyer_collectio-confessionum-lat_niemeyer1840.txt:Sententia de divina praedestinatione (line
+        44015) to the Synod's closing Sententia (line 45673)

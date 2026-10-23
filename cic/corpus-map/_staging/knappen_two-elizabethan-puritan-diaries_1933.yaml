@@ -31,6 +31,23 @@ assignments:
       Sussex. Primary voice; OCR clean. The census names this diary
       directly.
 
+  - row_id: knappen_two-elizabethan-puritan-diaries_1933--samuel-ward-at-the-synod-of-dort-in-knappen-s-life-of-ward
+    work: Samuel Ward at the Synod of Dort, in Knappen's life of Ward (1933)
+    author: knappen
+    locus: Knappen's life of Samuel Ward, file lines 2990-3003 and 3140-3150 (Ward one of the English representatives
+      at Dort in 1619, subscribed the canons, and was called by Episcopius the most learned of the English
+      divines there); Ward's own note at line 8094 that he was sent by the king to the Synod
+    atlas_ids:
+    - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: 'A modern (1933) editor''s account of one English delegate to the Synod, with Ward''s own mention
+      of the mission. Secondary prose except for the Ward note; useful as a pointer to the English delegation,
+      whose letters are in the Hales file. Read at the loci given only; the diary entries themselves were
+      not read for Dort.
+
+      '
+
 authors_ruled:
   ward-samuel:
     kind: metadata-omission

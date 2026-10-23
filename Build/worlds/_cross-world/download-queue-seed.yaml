@@ -9798,3 +9798,266 @@ queue:
       Mark 1.0, contributor Biblioteca de la Universidad de Sevilla); title page read in the OCR (Tomus
       Secundus, Chaldaeorum); Sulaca passages found by text search; djvu.txt fetched in full, 2026-10-23.'
     status: not-yet-downloaded
+
+  - title: The Works of James Arminius, D.D., translated from the Latin, volume one
+    author: Jacobus Arminius
+    translator: James Nichols (revised); W. R. Bagnall (volume three)
+    year: 1853
+    world: the-remonstrants-and-dort
+    why: 'The founder voice of the Remonstrants: the Declaration of Sentiments (1608), the Orations and
+      the Apology; also the text the Methodist family claims. Named in the world census and the task.'
+    url: https://archive.org/details/worksofjamesarmi01armi
+    rights_basis: pd-us-by-date (1853 imprint read in the file; no rights field on the item)
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; title page read; djvu fetched and sampled at five points, clean (0.92 of tokens read as words);
+      contents list read.'
+    status: downloaded
+    vendored_as: arminius_works-v1_nichols1853.txt
+    vendored_note: vendored
+  - title: 'The Articles of the Synod of Dort, and its Rejection of Errors: with the History of Events which
+      made way for that Synod ... translated from the Latin'
+    author: Synod of Dort (Latin Acta)
+    translator: Thomas Scott
+    year: 1831
+    world: the-remonstrants-and-dort
+    why: The Synod's own preface on the controversies and the Canons with the Rejection of Errors in English
+      made from the Latin, beside the 1840 English already staged. English beside the Latin Acta.
+    url: https://archive.org/details/articlesofsynodo00syno
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; title page and copyright notice read; djvu fetched and sampled at five points, clean (0.92).'
+    status: downloaded
+    vendored_as: synod-of-dort_articles-with-history-of-events_scott1831.txt
+    vendored_note: vendored
+  - title: The Confession or Declaration of the Ministers or Pastors called Remonstrants, in XXV Chapters
+    author: Remonstrant ministers (Simon Episcopius, per the host catalogue of the Dutch printing)
+    translator: not named
+    year: 1676
+    world: the-remonstrants-and-dort
+    why: The Brotherhood's own confession of 1621 in the only readable English; the Dutch and Latin are
+      leads below. Named in the task as Episcopius's Confession.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_the-confession-or-declar_1676
+    rights_basis: pd-us-by-date (seventeenth-century print; no rights field on the item)
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched and sampled at five points (0.87, long s normalised); contents list and chapters
+      1, 3, 14, 25 located.'
+    status: downloaded
+    vendored_as: remonstrants_confession-or-declaration_anon1676.txt
+    vendored_note: vendored as second witness; the host catalogue gives 1676, the title-page OCR shows no
+      year
+  - title: Letters from the Synod of Dort to Sir Dudley Carleton, the English Embassador at the Hague
+    author: John Hales
+    translator: none (English)
+    year: 1765
+    world: the-remonstrants-and-dort
+    why: 'The outside eyewitness to the Synod: an English chaplain''s letters from Dort, November 1618 to
+      January 1619.'
+    url: https://archive.org/details/bim_eighteenth-century_letters-from-the-synod-o_hales-john_1765_0
+    rights_basis: pd-us-by-date (1765 imprint read in the file; no rights field on the item)
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; title page read; djvu fetched and sampled at five points (0.85, long s normalised).'
+    status: downloaded
+    vendored_as: hales_letters-from-the-synod-of-dort_1765.txt
+    vendored_note: vendored as second witness for exact wording; a second scan of the same printing is bim_eighteenth-century_letters-from-the-synod-o_hales-john_1765
+  - title: Memoirs of Simon Episcopius ... to which is added a brief Account of the Synod of Dort
+    author: Frederick Calder
+    translator: none (English)
+    year: 1838
+    world: the-remonstrants-and-dort
+    why: Puts the Remonstrance of 1610 and the Remonstrants' Five Points as presented at Dort into English,
+      with the Dort and exile story from the Remonstrant side; written by a Methodist per another scan's
+      host record.
+    url: https://archive.org/details/memoirsofsimonep00cald
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; title page read; djvu fetched and sampled at five points, clean (0.87); Remonstrance articles
+      located at lines 5083-5160 of the vendored file.'
+    status: downloaded
+    vendored_as: calder_memoirs-of-simon-episcopius_1838.txt
+    vendored_note: vendored
+  - title: A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus Socinus
+    author: Hugo Grotius
+    translator: Frank Hugh Foster
+    year: 1889
+    world: the-remonstrants-and-dort
+    why: Grotius is a census-named voice and this is his work of the quarrel years (Leiden 1617) in clean
+      English; not vendored this pass because it is aimed at Socinus, not at the Five Points, and the pass
+      held to five files. First choice for a Grotius text.
+    url: https://archive.org/details/defenceofcatholi00grot_0
+    rights_basis: pd-us-by-date (1889 title page and copyright notice read; no rights field on the item)
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched (550 KB) and sampled at five points, clean (0.91); translator''s preface read (translation
+      first printed in the Bibliotheca Sacra 1879).'
+    status: not-yet-downloaded
+  - title: Acta Synodi nationalis, in nomine Domini nostri Iesu Christi ... Dordrechti habitae anno 1618
+      et 1619. Accedunt plenissima de quinque articulis theologorum judicia
+    author: Synod of Dort
+    translator: none (Latin)
+    year: 1620
+    world: the-remonstrants-and-dort
+    why: 'The full Latin Acta, including the Remonstrants'' sessions and the foreign divines'' judgments
+      on the Five Articles. English beside it: Scott 1831 (preface and Canons only).'
+    url: https://archive.org/details/actasynodination00syno
+    rights_basis: pd-us-by-date (Elzevir, Leiden 1620 per the host record; no rights field on the item)
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched (3.6 MB) and sampled at five points: Latin readable but the long s is read as f
+      throughout (about 0.64 of tokens matched a Latin word list, against 0.83 for a clean Latin edition).
+      Not vendored: second witness at 3.6 MB.'
+    status: not-yet-downloaded
+  - title: Secunda Remonstrantia ministrorum ecclesiarum Hollandicarum & West-Frisicarum, with the Secunda
+      contra-remonstrantia (translated from the Belgic into Latin)
+    author: Jan Uytenbogaert and the Remonstrant ministers; Contra-Remonstrant reply by others
+    translator: none named (Latin from the Dutch)
+    year: 1617
+    world: the-remonstrants-and-dort
+    why: 'The Remonstrants'' second formal petition to the States of Holland (April 1617) paired with the
+      Contra-Remonstrants'' reply (August 1617): both sides in their own words, at the height of the quarrel.'
+    url: https://archive.org/details/secundaremonstra00uyte
+    rights_basis: 'pd-us-by-date (Leiden: Johannes Orlers, 1617 per the host record; John Adams Library
+      copy at the Boston Public Library; no rights field)'
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched (392 KB) and sampled at five points: Latin readable, long s read as f (about 0.65
+      of tokens matched). Not vendored: second witness, pass held to five files.'
+    status: not-yet-downloaded
+  - title: Antidotum continens pressiorem declarationem propriae et genuinae sententiae quae in Synodo Nationali
+      Dordracena asserta est et stabilita
+    author: listed under Simon Episcopius and the Synod of Dort by the host record (authorship not checked)
+    translator: none (Latin from the Dutch)
+    year: 1620
+    world: the-remonstrants-and-dort
+    why: A Latin tract of 1620 on the Dort decisions; the host lists Episcopius as creator. Authorship and
+      side to be checked before use.
+    url: https://archive.org/details/antidotumcontine00epis
+    rights_basis: pd-us-by-date (1620, imprint given by the host as Herder-wiici (Harderwijk), ex officina
+      typographi Synodalis; John Adams Library copy; no rights field)
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched (416 KB) and sampled at five points (about 0.65 of tokens matched a Latin word
+      list). Not read through.'
+    status: not-yet-downloaded
+  - title: Responsio Remonstrantium ad libellum cui titulus est Specimen calumniarum atque heterodoxarum
+      opinionum
+    author: Simon Episcopius
+    translator: none (Latin)
+    year: 1631
+    world: the-remonstrants-and-dort
+    why: An Episcopius polemic of the exile years (Harderwijk, the Remonstrants' own press) answering four
+      Leiden professors.
+    url: https://archive.org/details/responsioremonst00epis
+    rights_basis: pd-us-by-date (1631 per the host record; John Adams Library copy; no rights field)
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched (432 KB) and sampled at five points (about 0.67 matched). Not read through.'
+    status: not-yet-downloaded
+  - title: Confessio, sive declaratio, sententiae pastorum, qui in foederato Belgio remonstrantes vocantur,
+      super praecipuis articulis religionis Christianae
+    author: Remonstrant ministers (Simon Episcopius)
+    translator: none (Latin)
+    year: 1702
+    world: the-remonstrants-and-dort
+    why: The Latin of the Confession, a London reprint (Jacob Knapton, 1702, title page read in the OCR),
+      the language beside the 1676 English; chapter 14 matches. After the window.
+    url: https://archive.org/details/bim_eighteenth-century_confessio-sive-declarat_remonstrantse-broedersch_1702
+    rights_basis: pd-us-by-date (1702 imprint read in the OCR; no rights field on the item)
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched (325 KB) and sampled at five points: body Latin readable (about 0.73 matched, long
+      s normalised) but title page and some pages heavily garbled. Not vendored: second witness, after the
+      window, the pass held to five files.'
+    status: not-yet-downloaded
+  - title: De stichting der Remonstrantsche Broederschap, 1619-1634, uit en met de oorspronkelijke bescheiden
+    author: J. Tideman
+    translator: none (Dutch)
+    year: 1871
+    world: the-remonstrants-and-dort
+    why: 'The Brotherhood''s own records of its founding, printed with Tideman''s commentary: the nearest
+      to the exile Brotherhood''s records the census names. Dutch, no English.'
+    url: https://archive.org/details/destichtingderr00tidegoog
+    rights_basis: 'pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT (Amsterdam: Y. Rogge, 1871)'
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched (2.4 MB) and sampled at five points: Dutch readable with Google-scan noise (about
+      0.61 of tokens matched a Dutch word list, against 0.89 for the clean Voetius file). Not vendored:
+      size, Dutch only. First lead for the Dutch half.'
+    status: not-yet-downloaded
+  - title: The History of the Reformation and other Ecclesiastical Transactions in and about the Low-Countries,
+      volumes 3 and 4 (1722, 1723)
+    author: Geeraert Brandt
+    translator: not named on the title page ("faithfully translated from the original Low-Dutch"; Calder's
+      note calls the English Chamberlayne's)
+    year: 1722-1723
+    world: the-remonstrants-and-dort
+    why: The Remonstrant minister's history, with the Remonstrance, the conference, the Synod and the trial
+      of Oldenbarnevelt; volume 3 carries the Synod (1619 appears over 200 times) and volume 4 the aftermath
+      to 1623. An insider narrative in English, 2.4 MB and 2.8-3.0 MB.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_gerard-brandt_1722_3
+    rights_basis: 'pd-us-by-date (EEBO microfilm; no rights field). Companion items: bim_early-english-books-1641-1700_gerard-brandt_1723_4;
+      eighteenth-century copies bim_eighteenth-century_the-history-of-the-refor_brandt-geeraert_1723_3 and
+      _1723_4'
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu of volumes 3 and 4 fetched (2.8 MB and 3.0 MB) and sampled at five points (0.81 and 0.80,
+      long s as the glyph or f). Not vendored: multi-volume set, size.'
+    status: not-yet-downloaded
+  - title: The Life of James Arminius, translated from the Latin of Caspar Brandt (edited by Geeraert Brandt)
+    author: Caspar Brandt
+    translator: John Guthrie (introduction by Thomas O. Summers)
+    year: 1857
+    world: the-remonstrants-and-dort
+    why: The Remonstrant life of Arminius by a Remonstrant minister, in English; the Nashville printing
+      was issued for the Methodist Episcopal Church, South. Bears on the Methodist claim.
+    url: https://archive.org/details/lifeofjamesarmin00bran
+    rights_basis: 'pd-us-by-date (1857 title page read; host: The Library of Congress is unaware of any
+      copyright restrictions for this item). Also lifejamesarmini00guthgoog (1854, NOT_IN_COPYRIGHT, metadata
+      only)'
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; title page read; djvu fetched (623 KB) and sampled at five points, clean (0.86).'
+    status: not-yet-downloaded
+  - title: Brieven en onuitgegeven stukken
+    author: Johannes Wtenbogaert (Uytenbogaert)
+    translator: none (Dutch)
+    year: 1873
+    world: the-remonstrants-and-dort
+    why: The Remonstrant leader's letters and unpublished papers in Dutch (1873). The host record names
+      no editor, so none is given here.
+    url: https://archive.org/details/brievenenonuitg00wtengoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT (1873)
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched (1.4 MB) and sampled at five points (about 0.60 of tokens matched Dutch, the last
+      sample poor). No editor named on the host record.'
+    status: not-yet-downloaded
+  - title: Historia vitae Simonis Episcopii
+    author: Philippus van Limborch
+    translator: none (Latin)
+    year: 1701
+    world: the-remonstrants-and-dort
+    why: The standard contemporary life of Episcopius, from which Calder drew (his preface says so). After
+      the window; Limborch is the name the census associates with the Brotherhood's later seminary.
+    url: https://archive.org/details/historiavitaesim00limb
+    rights_basis: 'pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT (Amsterdam: G. Gallet, 1701)'
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched (739 KB) and sampled at five points (about 0.65 matched). Not read through.'
+    status: not-yet-downloaded
+  - title: Ordinum Hollandiae ac Westfrisiae pietas ab improbissimis multorum calumniis ... vindicata
+    author: Hugo Grotius
+    translator: none (Latin)
+    year: 1613
+    world: the-remonstrants-and-dort
+    why: Grotius's defence of the States of Holland's religious policy against Lubbertus, the Statist side
+      of the Remonstrant quarrel.
+    url: https://archive.org/details/ordinvmhollandi00grotgoog
+    rights_basis: 'pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT (Leiden: I. Patius, 1613 per
+      the host record)'
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched (180 KB) and sampled at five points: Latin readable but poor (about 0.56 matched).
+      Not read through. A Google copy with a Public Domain Mark is bub_gb_t-C3TjodxiAC (not fetched).'
+    status: not-yet-downloaded
+  - title: 'Liberal Calvinism: The Remonstrants at the Synod of Dort in 1618 (Harvard Theological Review
+      16.1, Jan. 1923, pp. 1-37)'
+    author: Herbert Darling Foster
+    translator: none (English)
+    year: 1923
+    world: the-remonstrants-and-dort
+    why: A scholarly secondary article on the Remonstrants at Dort (1923).
+    url: https://archive.org/details/1507804
+    rights_basis: pd-us-by-date if the 1923 publication holds; the item is a JSTOR early-journal scan that
+      carries JSTOR terms text and no rights field, so treat as a lead until the terms are read
+    verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), 2026-10-23: metadata
+      read; djvu fetched (93 KB) and sampled, clean (0.86); first page read (JSTOR cover sheet, Harvard
+      Theological Review, Jan. 1923).'
+    status: not-yet-downloaded

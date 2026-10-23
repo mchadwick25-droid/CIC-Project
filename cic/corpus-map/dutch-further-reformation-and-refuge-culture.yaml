@@ -126,6 +126,19 @@ works:
 
     '
   source_file: mcglothlin_baptist-confessions-of-faith_1911.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--canones-synodi-dordrechtanae-the-canons-of-dort-latin-in-2
+  work: Canones Synodi Dordrechtanae (the Canons of Dort), Latin, in Niemeyer's Collectio
+    confessionum, second placement
+  author: niemeyer
+  locus: lines 44015-45700
+  role: tradition
+  confidence: provisional
+  note: 'The doctrinal settlement of 1619 binding on the Dutch church of the further-reformation
+    world, in Latin; the signatures include Udemans among the Zeeland delegates. Same witness
+    caveats as the row for the Remonstrants. Placed on that relation.
+
+    '
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
 - row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-belgica
   work: Confessio Belgica
   author: niemeyer
