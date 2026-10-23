@@ -2537,3 +2537,11 @@ Alternatives shown: (1) one revision pass fixing the P0 and every P1, each fix v
 **Question** (raised by `Review-Artifacts/Doc_01_ChangeOrder_Review_Round13.md` P1-4 and `Doc_02_ChangeOrder_Review_Round36.md` P1-1). D3 said LPC answers only what Augustine's own text says. The build thread had narrowed it without a ruling to questions about Augustine; Doc_01 itself answers how Augustine became bishop from Possidius.
 **Alternatives shown.** (1) it bars later reception only; contemporary witnesses (Possidius, the councils, letters to and about him) stay usable; (2) it bars everything but Augustine's own words; (3) another reading.
 **Chosen.** 1 (project lead, 2026-10-23, "1"). The same sentence now stands in Doc_01 §2 and Doc_02: on questions about Augustine, Datus answers from Augustine's own words and the witnesses of his own time, and not from later readings of him. This replaces the build thread's unruled narrowing.
+
+---
+
+### 2026-10-23 — D4 clarified: both doubtful blocks excluded (project lead's ruling)
+
+**Question** (`Review-Artifacts/Doc_02_ChangeOrder_Review_Round36.md` P1-2). D4 excluded "the Maurist appendix of doubtful sermons", which could mean the *Sermones dubii* (Classis V, Sermones 364 to 396; row 265 line 117124) or the Appendix of *Sermones supposititii* (PL 39 col. 1735; row 265 from about line 124389). Registry row 265 already says the Classis V sermons are not licensed as Augustine's.
+**Alternatives shown.** (1) exclude both; (2) exclude only the Appendix, tagging 364 to 396 Contested for authorship and changing row 265; (3) exclude only the *dubii*.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). The scope is the Maurist Sermones 1 to 363 (Classes I to IV) plus the post-Maurist finds. A doubtful sermon can come back in only by a named change order showing its authorship. Applied in Doc_01 §2 and Doc_02 (lines 7, 13, 19, 49).
