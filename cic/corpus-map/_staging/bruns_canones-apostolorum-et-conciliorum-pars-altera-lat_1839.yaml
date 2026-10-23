@@ -1,0 +1,39 @@
+source_file: bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt
+
+authors_ruled:
+  gallic-councils-6th-century:
+    kind: anonymous
+    evidence: >
+      Conciliar acts of the Gallic church; the collection names no individual author.
+    from_file: bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt
+  spanish-councils-outside-toledo:
+    kind: anonymous
+    evidence: >
+      Conciliar acts of the Spanish church (Braga, Seville, Saragossa and others); the
+      collection names no individual author.
+    from_file: bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt
+
+assignments:
+  - row_id: bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839--gallic-councils
+    work: "The Gallic councils of the 6th century (Agde, Orange II, Epaon, Orleans, Macon, Tours II, Clermont II)"
+    author: gallic-councils-6th-century
+    locus: "Orange II at raw line ~13557"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The Gallic church legislating, including Orange II's settlement of the grace
+      controversy; Latin only.
+
+  - row_id: bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839--spanish-councils
+    work: "The Spanish councils outside Toledo (Braga I-III, Seville I-II, Saragossa, Lerida, Valencia, Huesca, Barcelona, Merida, Tarragona)"
+    author: spanish-councils-outside-toledo
+    locus: "the Spanish councils of the volume"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: assigned
+    note: >
+      The Iberian church legislating, including the Suevic Braga councils of 561 and 572;
+      Latin only.

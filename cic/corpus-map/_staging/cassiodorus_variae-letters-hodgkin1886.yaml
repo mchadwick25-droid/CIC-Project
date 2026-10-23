@@ -1,0 +1,23 @@
+source_file: cassiodorus_variae-letters-hodgkin1886.txt
+
+authors_ruled:
+  cassiodorus:
+    kind: metadata-omission
+    evidence: >
+      The eBook names Cassiodorus as the author of the Variae; the corpus-map has no earlier
+      ruling for the slug.
+    from_file: cassiodorus_variae-letters-hodgkin1886.txt
+
+assignments:
+  - row_id: cassiodorus_variae-letters-hodgkin1886--variae-letters
+    work: "Cassiodorus, Variae (condensed English translation)"
+    author: cassiodorus
+    locus: "books I-XII, condensed"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      The Ostrogothic court's letters, from a Roman official in Arian service, who later
+      founded Vivarium; context for both, condensed so not quotable as complete.

@@ -17,3 +17,38 @@ assignments:
       title page - not Niccolo Tommaseo, who is credited only for
       quoted verse renderings of specific passages within it, and not
       Cappelletti, sometimes cited elsewhere for this work.
+
+  - row_id: moses-khoren_history-of-armenians-ita_mechitaristi1850--book-iii-end-before-avarayr
+    work: "History of the Armenians, Book III (to c. 440)"
+    author: moses-khoren
+    locus: "Book III"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+    role: antecedent
+    confidence: needs-ruling
+    note: >
+      Ends just before Avarayr; the work's own date (5th or 8th century) is Contested, so
+      antecedent needs-ruling.
+
+  - row_id: moses-khoren_history-of-armenians-ita_mechitaristi1850--nino-and-georgian-letters
+    work: "History II.86 (the blessed Nune and the Iberians) and III.54 (Mesrop's Georgian letters)"
+    author: moses-khoren
+    locus: "raw file lines ~10064-10068 and ~13992-13996"
+    atlas_ids:
+      - georgian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Armenian memory of the Georgian conversion and alphabet; date contested, tier 4.
+
+  - row_id: moses-khoren_history-of-armenians-ita_mechitaristi1850--albanian-alphabet
+    work: "History III.54 (Mesrop in Albania: the Albanian script)"
+    author: moses-khoren
+    locus: "raw file lines ~14001-14002"
+    atlas_ids:
+      - church-of-caucasian-albania
+    role: context
+    confidence: provisional
+    note: >
+      The only Armenian-side notice in this file of the Albanian script; date contested,
+      tier 4.

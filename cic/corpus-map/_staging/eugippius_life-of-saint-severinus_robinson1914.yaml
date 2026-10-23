@@ -1,0 +1,23 @@
+source_file: eugippius_life-of-saint-severinus_robinson1914.txt
+
+authors_ruled:
+  eugippius:
+    kind: metadata-omission
+    evidence: >
+      The host record names Eugippius as creator; the corpus-map has no earlier ruling for
+      the slug.
+    from_file: eugippius_life-of-saint-severinus_robinson1914.txt
+
+assignments:
+  - row_id: eugippius_life-of-saint-severinus_robinson1914--life-of-severinus
+    work: "Eugippius, Life of Saint Severinus"
+    author: eugippius
+    locus: "whole text; ch. VIII on the Rugian queen"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+      - gothic-and-vandal-homoian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Tradition for the Italian monastic world (an abbot of Benedict's generation); context
+      for the Homoian entry (the Rugian court). One provisional row for both.

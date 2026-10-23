@@ -1,40 +1,30 @@
-     ______________________________________________________________________
-
-          Title: Ecclesiae Graecae Monumenta (Cotelier), including the Vita Sabae and
-                  Vita Euthymii of Cyril of Scythopolis
-     Creator(s): Cyril of Scythopolis (c. 525-559 CE)
-                 Cotelier (Jean-Baptiste Cotelier) (Editor, Greek text with Latin
-                  translation)
-    Print Basis: Paris, 1681 (Ecclesiae Graecae Monumenta)
-         Rights: Public Domain
-       Language: lat (Greek unrecoverable in OCR - see Content note; SECOND WITNESS ONLY)
-   Rights Basis: Published 1681; long out of US copyright. Confirmed directly from the
-                  Internet Archive/Google Books scan (identifier bub_gb_1Z5eE88JWfIC),
-                  fetched and read in full this session.
-Source Collection: Internet Archive (archive.org), identifier bub_gb_1Z5eE88JWfIC
-   Content note: SECOND WITNESS ONLY. Checked directly: zero Greek-script Unicode
-                  characters appear anywhere in this file. Cyril of Scythopolis wrote in
-                  Greek; this scan's OCR could not read that Greek at all - the parallel
-                  Latin translation is what is genuinely readable, so this file is Latin
-                  apparatus/second-witness material only, never citable on its own as a
-                  Representative's evidence for Cyril's own Greek voice. Same source-gap
-                  report as above, citing ch. 83-90 of the Vita Sabae ("the New Laura is
-                  emptied") - the report itself notes Schwartz's standard 1939 critical
-                  edition is still in copyright, making this 1681 Cotelier edition the
-                  only public-domain option located. CAUTION, disclosed rather than
-                  resolved: this is also a 17th-century typeface scan with heavy OCR
-                  corruption beyond the Greek/Latin split (long-s misread throughout,
-                  Greek/Latin parallel columns frequently interleaved wrong by the OCR).
-                  Both the Vita Euthymii (confirmed, "EUTHYMII VITA" header present) and
-                  the Vita Sabae itself (confirmed via "De vita Sabae" and "in Vita S.
-                  Sabae" references) are genuinely present in this volume's Latin, but
-                  the specific ch. 83-90 New Laura passage was NOT pinpointed - the
-                  volume's own back-of-book index uses page numbers that do not map
-                  cleanly to this raw OCR text's line numbers. Any future quotation drawn
-                  from this file needs unusually careful individual eye-verification
-                  given the OCR quality; this is a materially worse source than this
-                  corpus's typical vendored texts.
-     ______________________________________________________________________
+Title: Ecclesiae Graecae Monumenta (Cotelier), Tomus Secundus (1681): Asterius of Amasea;
+    Cyril of Scythopolis, Vita Euthymii; chapters from John Moschus's Pratum Spirituale;
+    Zonaras; Balsamon
+Creator: Cyril of Scythopolis (c. 525-559 CE); John Moschus (c. 550-619); Asterius of Amasea;
+    John Zonaras; Theodore Balsamon (Jean-Baptiste Cotelier, editor, Greek text with Latin
+    translation)
+Publisher: Paris, 1681 (Ecclesiae Graecae Monumenta, tomus II)
+Rights: Public Domain
+Rights basis: Published 1681; long out of US copyright. Confirmed directly from the Internet
+    Archive/Google Books scan (identifier bub_gb_1Z5eE88JWfIC) at the original 2026-09-25
+    intake.
+Language: lat (Greek unrecoverable in OCR; SECOND WITNESS ONLY)
+Source: Internet Archive (archive.org), identifier bub_gb_1Z5eE88JWfIC, the item's own _djvu.txt full-text file.
+Provenance note: This file carries the Vita Euthymii of Cyril of Scythopolis but not the Vita Sabae. The volume's
+    own title leaf reads "TOMUS SECUNDUS" (raw line ~97) and its contents list names Asterius,
+    "Euthymii Vita", "Ex Prato Spirituali Johannis Moschi Capita", Zonaras and Balsamon; the running
+    head "EUTHYMII VITA" recurs from raw line ~26802, and no "SABAE VITA" running head occurs. The
+    Vita Sabae is in Cotelier's tomus III (1686; archive.org bub_gb_PLhdE15tQTAC), whose OCR is
+    unusable. Raw djvu OCR of a 17th-century typeface, runs of 2+ spaces collapsed, no wording
+    altered; heavy OCR corruption throughout, so any quotation needs eye-verification against the
+    page images. Sections: the printed page numbers of the volume (Vita Euthymii at pp. ~200-330)
+    and Cotelier's chapter divisions. Credit line: "Cotelier, Ecclesiae Graecae Monumenta II
+    (Paris, 1681)". Whole text republishable (Latin column); no public-domain English of Cyril exists.
+Content note: The Vita Euthymii (raw lines ~26790-45800, about 50,000 words of Latin) is
+    Cyril's life of the founder of the Judean-desert lauras, the entry's own voice; the
+    Moschus chapters (raw lines ~46168-59653) duplicate part of the Pratum vendored in the
+    PG 87.3 file.
 
 NOTE ON THIS TRANSCRIPTION: the source is a raw OCR (djvu) text layer from
 a scanned physical volume, not a clean digital edition. Runs of 2+ spaces

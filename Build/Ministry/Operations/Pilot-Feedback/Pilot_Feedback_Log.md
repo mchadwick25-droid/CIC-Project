@@ -197,3 +197,11 @@ Source: the design thread itself (session_012jjhAokk8iJ5PiFZ3Tn15r), commissione
 - **Ruled by Mark:** keep the 5-minute prompt cache and add no restart charge (Go Deeper Decision-Log, ruling 70). His idea was a one-hour warm time, a conversation filed after an hour, and a proportional charge to restart it.
 - **Why not now:** at current traffic a one-hour cache costs more than it saves, and a cold resume is covered by the ordinary 20-token round at list price (thin at the $30 pack at the 1.10 regional premium).
 - **Revisit when:** a world gets about one visit an hour; 5-to-60-minute pauses reach about one a session; or an invoice month shows AWS billing above about 1.10 times list.
+
+## System update — 2026-10-23 (late)
+Read from the session list and open PRs at about 19:35 UTC; not re-checked after.
+- Running: LPC (waiting on Mark; PR 1068 draft), the daily-limits and accounts thread (reworking remaining "Go deeper" wording, PR 1083), Library Eras III, VI (PR 1072 open), VII (rulings applied in PR 1077; drafting Doc_02 for the Anabaptists and the Tridentine Church) and VIII (vendoring world 11 of 12). Session-log cost figures for the four Library threads are internal estimates, not a bill.
+- Idle and finished: the chooser thread (PRs 1066 and 1075 merged), the quote-check fix thread (PR 1078 merged), the older Family Tree input thread. Idle and waiting: the participant-experience design thread (Mark's approval of the design is still open), the newer Family Tree thread (phone test).
+- Archived: accounts A1d (A4, A4b, A4c merged to main, built but switched off).
+- Live is at b2733002 (PR 1076); main is 15 commits ahead until PR 1081 merges. Cost report and visitor limits are on live; accounts are dark.
+- Open items for Mark: PR 1081; the privacy line conflict above; AWS bill against the cost report; Stripe link redirects; two old Render variables; two old branches; rights items on PR 1072; the shared checker change in PR 1068 (claims registers treated as ledgers); a waiver decision for six tests failing on a clean main (engine/m1/tests/test_rendering_fidelity.py four, engine/m10/tests/test_validation.py two, per the LPC thread, not checked here).

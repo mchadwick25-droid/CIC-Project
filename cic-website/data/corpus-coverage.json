@@ -8,8 +8,8 @@
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
     "total_entries": 296,
-    "entries_with_coverage": 162,
-    "entries_zero_coverage": 134
+    "entries_with_coverage": 169,
+    "entries_zero_coverage": 127
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -9091,6 +9091,22 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Antoninus of Piacenza (the Piacenza pilgrim), Of the Holy Places visited (c. 570)",
+          "author": "antoninus-piacenza",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Epitome of S. Eucherius about certain Holy Places (c. 440) and the Breviarius de Hierosolyma (c. 530)",
+          "author": "breviarius-de-hierosolyma",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Catechetical Lectures (Procatechesis, Catecheses I-XVIII, Mystagogic Catecheses I-V)",
           "author": "cyril_jer",
           "role": "tradition",
@@ -9144,6 +9160,22 @@
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Of the Buildings of Justinian, Book V (Palestine, Jerusalem's Nea church, the Sinai monastery)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "procopius_buildings_stewart1888.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Theodosius, On the Topography of the Holy Land (c. 530)",
+          "author": "theodosius-pilgrim",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt",
           "rights": "Public Domain"
         }
       ]
@@ -10145,12 +10177,44 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Part VII, Egypt (the conquest of 640-642; the terms with the Copts)",
+          "author": "baladhuri",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Christian Greek inscriptions of Egypt (4th-8th c.)",
+          "author": "christian-inscriptions-egypt-nubia",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Christian Topography (whole work): an Alexandrian layman's cosmography of the 550s",
+          "author": "cosmas-indicopleustes",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Council of Chalcedon (451), sessions V onward, in Mansi tom. 7",
           "author": "council-of-chalcedon-451",
           "role": "context",
           "confidence": "provisional",
           "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt",
           "rights": "Public Domain (pd-us-by-date: the 1901 facsimile date is printed at file line 182; the underlying edition is of the 18th century); the item record carries no rights field"
+        },
+        {
+          "work": "The Councils of Chalcedon (451) and Constantinople II (553): the councils the Egyptian church rejected or received under pressure",
+          "author": "council-of-chalcedon-451",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "npnf214_seven-ecumenical-councils.xml",
+          "rights": "Public Domain"
         },
         {
           "work": "The Ecclesiastical History of Evagrius (A.D. 431-594)",
@@ -10169,6 +10233,22 @@
           "rights": "Public Domain (pd-us-by-date: published 1898); the archive.org record carries no rights field"
         },
         {
+          "work": "Register letters to Eulogius of Alexandria (Books I-VIII)",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf212_leo-great-gregory-great.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Register letters to Eulogius, patriarch of Alexandria",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The History of Joseph the Carpenter",
           "author": "history-of-joseph-the-carpenter",
           "role": "transmission",
@@ -10177,11 +10257,51 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Ecclesiastical History Part III, Book IV (Theodosius of Alexandria in exile; the Alexandrian succession of 566-578: Theodore, Peter IV, Damian; Jacob Baradaeus at Alexandria; the Gaianites)",
+          "author": "john-ephesus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Le Synaxaire arabe jacobite, V (months Baounah to Mesore), ed. and tr. R. Basset (bound in this PO volume): the Coptic church's calendar notices of Dioscorus, Timothy, Theodosius, Benjamin and the murder of Proterius",
+          "author": "john-ephesus",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "john-ephesus_lives-eastern-saints-po17_brooks1923.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Lives of the Eastern Saints 47-48 (the communities Theodora gathered in Constantinople; the five patriarchs, Severus's death in Egypt, Theodosius)",
+          "author": "john-ephesus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "john-ephesus_lives-eastern-saints-po18_brooks1924.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Chronicle of John, Bishop of Nikiu",
           "author": "john-nikiu",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "john-nikiu_chronicle_charles1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Life of Bishop Pisentius of Coptos, by John the Elder (Sahidic, with English)",
+          "author": "john-the-elder-coptos",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The other Sahidic texts of the volume (apocryphal discourses and legends)",
+          "author": "john-the-elder-coptos",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt",
           "rights": "Public Domain"
         },
         {
@@ -10201,11 +10321,75 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Coptic and Greek ostraca and papyri of the monastery of Epiphanius (letters, accounts, legal texts, c. 580-640), including Damian's festal letter (no. 53) and the Pesynthius correspondence",
+          "author": "monastery-of-epiphanius-thebes",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Discourses of Philoxenus (a Syrian bishop of the same anti-Chalcedonian communion)",
+          "author": "philoxenus-of-mabbug",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philoxenus-of-mabbug_discourses_budge1894.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "History of the Patriarchs of the Coptic Church of Alexandria",
           "author": "severus-al-muqaffa",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Select Letters, Book VI part 1: letters on reconciling the separated anti-Chalcedonian groups in Egypt",
+          "author": "severus-of-antioch",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Select Letters, Book VI part 2: to Dioscorus II of Alexandria (516); on the feast of Dioscorus; in defence of Timothy Aelurus",
+          "author": "severus-of-antioch",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "severus-of-antioch_select-letters-book6-part2_brooks1904.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Le Synaxaire arabe jacobite, I (months of Tout and Babeh), with French",
+          "author": "synaxaire-arabe-jacobite",
+          "role": "transmission",
+          "confidence": "assigned",
+          "source_file": "synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Le Synaxaire arabe jacobite, III (months of Toubeh and Amchir), with French",
+          "author": "synaxaire-arabe-jacobite",
+          "role": "transmission",
+          "confidence": "assigned",
+          "source_file": "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Encomium on St Michael the Archangel, attributed to Theodosius, archbishop of Alexandria (Sahidic, with English)",
+          "author": "theodosius-alexandria",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "miscellaneous-coptic-texts-upper-egypt_budge1915.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The other Sahidic texts of the volume, including a Discourse attributed to Timothy of Alexandria",
+          "author": "theodosius-alexandria",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "miscellaneous-coptic-texts-upper-egypt_budge1915.txt",
           "rights": "Public Domain"
         },
         {
@@ -10223,6 +10407,22 @@
           "confidence": "provisional",
           "source_file": "timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908.txt",
           "rights": "Public Domain (pd-us-by-date: published 1908); the archive.org record carries no rights field"
+        },
+        {
+          "work": "Chronicle Books III-VI (Alexandria after Chalcedon: Proterius, Timothy Aelurus, Peter Mongus, 451-491)",
+          "author": "zachariah-rhetor",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Zacharias Scholasticus, Life of Severus (Vie de Sévère), Syriac with French",
+          "author": "zacharias-scholasticus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt",
+          "rights": "Public Domain"
         }
       ]
     },
@@ -10245,6 +10445,14 @@
           "confidence": "provisional",
           "source_file": "barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt",
           "rights": "Public Domain (pd-us-by-date: published 1872); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
+          "work": "The Book of the Himyarites (the Najran martyrs of 523 and the Aksumite intervention)",
+          "author": "book-of-the-himyarites",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "book-of-the-himyarites-syr-eng_moberg1924.txt",
+          "rights": "Public Domain"
         },
         {
           "work": "The Chronicle of Edessa",
@@ -10276,6 +10484,14 @@
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "John of Beth Aphthonia, Life of Severus, Syriac with French",
+          "author": "john-beth-aphthonia",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt",
           "rights": "Public Domain"
         },
         {
@@ -10421,6 +10637,14 @@
           "confidence": "provisional",
           "source_file": "theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt",
           "rights": "Public Domain (pd-us-by-date: published 1903); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
+          "work": "Zacharias Scholasticus, Life of Severus (Vie de Sévère), Syriac with French",
+          "author": "zacharias-scholasticus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt",
+          "rights": "Public Domain"
         }
       ]
     },
@@ -10445,6 +10669,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1896-1897); the item record carries no rights field"
         },
         {
+          "work": "Bar Hebraeus, Chronicon ecclesiasticum III: the East Syrian catholicoi from Dadisho (c. 424) to Ishoyahb of Gadala (d. 646), including Barsauma, Narsai's exile and Mar Aba",
+          "author": "bar-hebraeus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Barhadbeshabba 'Arbaya, Ecclesiastical History, part 2 (Diodore, Theodore, Nestorius, Ephesus 431), French with Syriac (Nau, PO 9.5, 1913)",
           "author": "barhadbeshabba-arbaya",
           "role": "tradition",
@@ -10453,12 +10685,44 @@
           "rights": "Public Domain (pd-us-by-date: published 1913); the archive.org record carries no rights field"
         },
         {
+          "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (La Cause de la fondation des ecoles), with French",
+          "author": "barhadbeshabba-arbaya",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle of Edessa section 73: the school of the Persians eradicated from Edessa (An. 800 = 489)",
+          "author": "chronicle-of-edessa",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "chronicle-of-edessa_cowper.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Chronicle of Seert (Histoire nestorienne), first part, fascicle 2, Arabic text with French translation",
           "author": "chronicle-of-seert",
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
           "rights": "Public Domain (pd-us-by-date: published 1910); the item record carries no rights field"
+        },
+        {
+          "work": "Chronique de Seert (Histoire nestorienne), II.2, with French",
+          "author": "chronicle-of-seert-ii2",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Christian Topography (whole work): an Alexandrian layman's cosmography of the 550s",
+          "author": "cosmas-indicopleustes",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+          "rights": "Public Domain"
         },
         {
           "work": "The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula, Anathemas Against Origen",
@@ -10483,6 +10747,30 @@
           "confidence": "provisional",
           "source_file": "elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt",
           "rights": "Public Domain (pd-us-by-date: published 1910); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
+          "work": "Ecclesiastical History VI.21 (Khosrau II's offerings to St Sergius and his Christian queen Sira)",
+          "author": "evagrius-scholasticus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Lives of the Eastern Saints 10 (Simeon of Beth Arsham, the Persian Debater: his disputes with the Catholicos Babai before the Persian king, c. 499-504)",
+          "author": "john-ephesus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "john-ephesus_lives-eastern-saints-po17_brooks1923.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The East Syrian (Khuzistan) Chronicle, Latin version",
+          "author": "khuzistan-chronicle",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "chronica-minora-pars-prior-versio-lat_guidi1903.txt",
+          "rights": "Public Domain"
         },
         {
           "work": "Le christianisme dans l'empire perse sous la dynastie sassanide, 224-632 (1904)",
@@ -10517,6 +10805,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1899); the item record carries no rights field"
         },
         {
+          "work": "Narsai, Liturgical Homilies XVII (A), XXII (B), XXI (C), XXXII (D)",
+          "author": "narsai",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "narsai_liturgical-homilies_connolly1909.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Le livre d'Héraclide de Damas, French (Nau, 1910)",
           "author": "nestorius",
           "role": "transmission",
@@ -10549,6 +10845,62 @@
           "rights": "Public Domain (pd-us-by-date: published 1880); the item record carries no rights field"
         },
         {
+          "work": "History of the Wars I-II (Persarmenia and the Persian frontier under Kawad and Khosrau)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "procopius_wars-1-2-persian_dewing1914.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Statutes of the School of Nisibis (496; additions of 590 and 602), Syriac",
+          "author": "school-of-nisibis-statutes",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "school-of-nisibis_statuti-della-scuola-di-nisibi-syr-ita_guidi1890.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Sebeos, History (Histoire d'Heraclius), French",
+          "author": "sebeos",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "sebeos_histoire-d-heraclius-fra_macler1904.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Socrates VII.8 (Maruthas and the Persian king), VII.18 and VII.21 (Acacius of Amida ransoms the Persian captives)",
+          "author": "socrates",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The synod of the Persian bishops under the catholicos Dadisho (424), declaring the catholicos answerable to no authority in the West",
+          "author": "synod-of-markabta-424",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt",
+          "rights": "Public Domain (pd-us-by-date: the 1901 facsimile is printed on the title-page image; the underlying edition is of the 18th century)"
+        },
+        {
+          "work": "The synod of Isaac at Seleucia (410) and the Persian bishops' creed",
+          "author": "synod-of-seleucia-410",
+          "role": "antecedent",
+          "confidence": "needs-ruling",
+          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+          "rights": "Public Domain (pd-us-by-date: the 1901 facsimile is printed on the title-page image; the underlying edition is of the 18th century)"
+        },
+        {
+          "work": "The synod of Yahballaha at Ctesiphon (420)",
+          "author": "synod-of-yahballaha-420",
+          "role": "antecedent",
+          "confidence": "needs-ruling",
+          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt",
+          "rights": "Public Domain (pd-us-by-date: the 1901 facsimile is printed on the title-page image; the underlying edition is of the 18th century)"
+        },
+        {
           "work": "Das Buch der Synhados: the synods from Akak (486) onward, German translation",
           "author": "synodicon-orientale",
           "role": "tradition",
@@ -10565,12 +10917,36 @@
           "rights": "Public Domain (pd-us-by-date: published 1902); the item record carries no rights field"
         },
         {
+          "work": "Theodoret, Ecclesiastical History V.38 (the persecution in Persia, Bishop Abdas) and V.39 (Theodore of Mopsuestia)",
+          "author": "theodoret",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Thomas of Marga, The Book of Governors (Historia Monastica), English",
+          "author": "thomas-of-marga",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "thomas-of-marga_book-of-governors-v2-english_budge1893.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "An Introduction to the History of the Assyrian Church, 100-640 A.D. (1910)",
           "author": "wigram",
           "role": "context",
           "confidence": "provisional",
           "source_file": "wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt",
           "rights": "Public Domain (pd-us-by-date: published 1910); the item record carries no rights field"
+        },
+        {
+          "work": "Chronicle Book XII.7 (the Christian peoples of the Caucasus: Armenia's Catholicos at Dvin, Gurzan, Arran; Kardutsat's mission to the Huns; the Persian Catholicos Joseph at court)",
+          "author": "zachariah-rhetor",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "rights": "Public Domain"
         }
       ]
     },
@@ -10578,6 +10954,94 @@
       "name": "Armenian Christianity after Avarayr",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Rituale Armenorum and the Old Armenian Lectionary (Appendix II, English)",
+          "author": "armenian-church-rituale",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "rituale-armenorum-lectionary_conybeare1905.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Elishe, History of Vartan (Langlois's French translation)",
+          "author": "eghishe",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Elishe, History of Vartan and of the Battle of the Armenians",
+          "author": "eghishe",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Ecclesiastical History V.7 (the Persarmenian revolt of 572 under Vardan)",
+          "author": "evagrius-scholasticus",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Eznik of Kolb, extract from On God (French)",
+          "author": "eznik",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Ecclesiastical History Part III, Book II.18-24 (the Armenian Catholicos at Constantinople, 571-573, refusing communion with the Chalcedonians)",
+          "author": "john-ephesus",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Le Synaxaire arménien de Ter Israel (Basset), the notice of St Shushanik, daughter of Vardan, martyred by her husband Vazgen governor of Georgia (bound in this PO volume)",
+          "author": "john-ephesus",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "john-ephesus_lives-eastern-saints-po18_brooks1924.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle XX-XXI: the Armenians under Kawad destroy the Persian fire-temples (c. 491)",
+          "author": "joshua-the-stylite",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "joshua-the-stylite_chronicle_wright1882.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Koriun, Life of Mesrop (Mashtots), French",
+          "author": "koriun",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Lazar of Parp, History of Armenia (French)",
+          "author": "lazar-parpetsi",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Armenians, Book III (to c. 440)",
+          "author": "moses-khoren",
+          "role": "antecedent",
+          "confidence": "needs-ruling",
+          "source_file": "moses-khoren_history-of-armenians-ita_mechitaristi1850.txt",
+          "rights": "Public Domain"
+        },
         {
           "work": "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapters VII-X, the fifth and sixth centuries",
           "author": "ormanian",
@@ -10587,12 +11051,44 @@
           "rights": "Public Domain (published 1912; public domain by date under the project's 95-year rule)"
         },
         {
+          "work": "History of the Wars I-II (Persarmenia and the Persian frontier under Kawad and Khosrau)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "procopius_wars-1-2-persian_dewing1914.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Sebeos, History (Histoire d'Heraclius), French",
+          "author": "sebeos",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "sebeos_histoire-d-heraclius-fra_macler1904.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Timothy Aelurus, Refutation of Chalcedon, Armenian text (1908)",
           "author": "timothy-aelurus",
           "role": "transmission",
           "confidence": "provisional",
           "source_file": "timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908.txt",
           "rights": "Public Domain (pd-us-by-date: published 1908); the archive.org record carries no rights field"
+        },
+        {
+          "work": "Chronicle Book II.5 (Proclus of Constantinople's Tome to the Armenians, c. 435, given in full)",
+          "author": "zachariah-rhetor",
+          "role": "antecedent",
+          "confidence": "needs-ruling",
+          "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle Book XII.7 (the Christian peoples of the Caucasus: Armenia's Catholicos at Dvin, Gurzan, Arran; Kardutsat's mission to the Huns; the Persian Catholicos Joseph at court)",
+          "author": "zachariah-rhetor",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "rights": "Public Domain"
         }
       ]
     },
@@ -10600,6 +11096,30 @@
       "name": "Chalcedonian Monasticism - Judean Desert & Gaza",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Antoninus of Piacenza (the Piacenza pilgrim), Of the Holy Places visited (c. 570)",
+          "author": "antoninus-piacenza",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Antony of Choziba, Life of George of Choziba (Vita sancti Georgii Chozibitae)",
+          "author": "antony-of-choziba",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Barsanuphius and John of Gaza, answers to the questions of Dorotheus (Interrogationes et responsiones)",
+          "author": "barsanuphius-and-john",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt",
+          "rights": "Public Domain"
+        },
         {
           "work": "The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons",
           "author": "council-of-chalcedon-451",
@@ -10609,27 +11129,59 @@
           "rights": "Public Domain"
         },
         {
+          "work": "The Second Council of Constantinople (553): the anathemas against Origen (the outcome of the New Laura's Origenist crisis)",
+          "author": "council-of-constantinople-553",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf214_seven-ecumenical-councils.xml",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Vita Euthymii",
           "author": "cyril-scythopolis",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt",
-          "rights": "Public Domain"
-        },
-        {
-          "work": "Vita Sabae",
-          "author": "cyril-scythopolis",
           "role": "tradition",
-          "confidence": "provisional",
-          "source_file": "cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt",
+          "confidence": "assigned",
+          "source_file": "cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681.txt",
           "rights": "Public Domain"
         },
         {
-          "work": "Doctrinae Diversae",
+          "work": "Dorotheus of Gaza, Doctrinae diversae (Instructions) and Letters",
           "author": "dorotheus-gaza",
           "role": "tradition",
           "confidence": "assigned",
-          "source_file": "dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt",
+          "source_file": "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Ecclesiastical History IV.7 (Zosimas of Caesarea) and IV.33 (Barsanuphius of Gaza); Severus at Maiuma (II.5-III.33 passim)",
+          "author": "evagrius-scholasticus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "John Climacus, Scala Paradisi (The Ladder of Divine Ascent)",
+          "author": "john-climacus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chapters from John Moschus's Pratum Spirituale (Cotelier's selection)",
+          "author": "john-moschus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "John Moschus, Pratum Spirituale (The Spiritual Meadow)",
+          "author": "john-moschus",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
           "rights": "Public Domain"
         },
         {
@@ -10647,6 +11199,46 @@
           "confidence": "provisional",
           "source_file": "life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
           "rights": "Public Domain (pd-us-by-date: published 1895); the archive.org record tags it NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Of the Buildings of Justinian, Book V (Palestine, Jerusalem's Nea church, the Sinai monastery)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "procopius_buildings_stewart1888.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Sophronius of Jerusalem, Epistola synodica ad Sergium (634), Orationes, Miracula Cyri et Joannis, Vita Mariae Aegyptiacae, Anacreontica",
+          "author": "sophronius-jerusalem",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Theodosius, On the Topography of the Holy Land (c. 530)",
+          "author": "theodosius-pilgrim",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle Book III.3-5 (the Palestinian monks' revolt after Chalcedon; Peter the Iberian made bishop of Maiuma)",
+          "author": "zachariah-rhetor",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Zacharias Scholasticus, Life of Severus (Vie de Sévère), Syriac with French",
+          "author": "zacharias-scholasticus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt",
+          "rights": "Public Domain"
         }
       ]
     },
@@ -10654,6 +11246,38 @@
       "name": "Early Benedictine / Italian Monasticism",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "The Rule of Saint Benedict, English",
+          "author": "benedict-of-nursia",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "benedict_rule-of-saint-benedict_gasquet1925.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Rule of Saint Benedict, Latin with English (Hunter Blair)",
+          "author": "benedict-of-nursia",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Boethius, Theological Tractates (De Trinitate, Contra Eutychen et Nestorium and others) and the Consolation of Philosophy, Latin with English",
+          "author": "boethius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "boethius_theological-tractates-consolation_stewart-rand1918.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "John Cassian, De institutis coenobiorum (the Institutes), Latin (CSEL 17)",
+          "author": "cassian",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "cassian_institutes-and-contra-nestorium_petschenig1888.txt",
+          "rights": "Public Domain"
+        },
         {
           "work": "The Conferences of John Cassian",
           "author": "cassian",
@@ -10671,6 +11295,38 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Cassiodorus, Institutiones divinarum et saecularium litterarum, Latin",
+          "author": "cassiodorus",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cassiodorus_opera-institutiones-pl70-lat_migne1847.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Cassiodorus, Variae (condensed English translation)",
+          "author": "cassiodorus",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cassiodorus_variae-letters-hodgkin1886.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Eugippius, Life of Saint Severinus",
+          "author": "eugippius",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "eugippius_life-of-saint-severinus_robinson1914.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Dialogues, Book II: the Life of St Benedict of Nursia",
+          "author": "gregory",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "gregory-great_dialogues_gardner1911.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Register of the Epistles of St. Gregory the Great (Books I-VIII selection)",
           "author": "gregory",
           "role": "context",
@@ -10684,6 +11340,54 @@
           "role": "context",
           "confidence": "assigned",
           "source_file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Liber Pontificalis, the lives from Hormisdas (514) to Pelagius II (590), English",
+          "author": "liber-pontificalis",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "liber-pontificalis_book-of-the-popes-v1_loomis1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Paul the Deacon, History of the Langobards",
+          "author": "paul-the-deacon",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars, Books V-VI (the Gothic War, 535-540)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-5-6-gothic_dewing1919.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars, Books VI.16-VII.35 (the Gothic War, 540-552)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Anonymus Valesianus II (Theoderic's Italy) and the Copenhagen continuation",
+          "author": "prosper",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "prosper_chronica-minora-1-lat_mommsen1892.txt",
+          "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "The Rule of the Master (Regula Magistri), Latin",
+          "author": "regula-magistri",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "regula-magistri-cresconius-pl88-lat_migne1862.txt",
           "rights": "Public Domain"
         }
       ]
@@ -10755,6 +11459,14 @@
           "confidence": "assigned",
           "source_file": "gregory-great_dialogues_gardner1911.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Liber Pontificalis, the lives from Hormisdas (514) to Pelagius II (590), English",
+          "author": "liber-pontificalis",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "liber-pontificalis_book-of-the-popes-v1_loomis1916.txt",
+          "rights": "Public Domain"
         }
       ]
     },
@@ -10762,6 +11474,30 @@
       "name": "Merovingian Gallic Christianity",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Avitus of Vienne, Letters, Homilies and the books against the Arians (Latin)",
+          "author": "avitus-vienne",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Vita Chrothildis and Baudonivia's De vita Radegundis libri II, Latin",
+          "author": "baudonivia",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Caesarius of Arles, Regula ad monachos and Regula ad virgines",
+          "author": "caesarius-arles",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+          "rights": "Public Domain"
+        },
         {
           "work": "Sermones (Pseudo-Augustinian, attributed to Caesarius of Arles)",
           "author": "caesarius-arles",
@@ -10771,11 +11507,51 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Capitularia I, the Merovingian section: Clovis's letter to the bishops (507-511), the edicts of Childebert I, Guntram (585) and Chlothar II (614)",
+          "author": "clovis-letter-to-bishops",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "capitulatio-de-partibus-saxoniae_pertz1881.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Ruricius of Limoges, Letters (c. 485-507), including two to Caesarius of Arles",
+          "author": "faustus-riez",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Fredegar, Chronicle, and the Liber historiae Francorum, Latin",
+          "author": "fredegar",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Gallic councils of the 6th century (Agde, Orange II, Epaon, Orleans, Macon, Tours II, Clermont II)",
+          "author": "gallic-councils-6th-century",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Gennadius, Lives of Illustrious Men (continuation)",
           "author": "gennadius",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Letter of Columbanus to Pope Gregory on the Easter question (Ep. CXXVII in Barmby's numbering)",
+          "author": "gregory",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
           "rights": "Public Domain"
         },
         {
@@ -10795,6 +11571,30 @@
           "rights": "Public Domain"
         },
         {
+          "work": "The Latin letters to Queen Brunhild and the Frankish kings",
+          "author": "gregory-great",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "gregory-great_epistolae-selectae_turchi1907.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Gregory of Tours, Historiarum libri X and the miracle books (Gloria martyrum, Vitae patrum and others), Latin",
+          "author": "gregory-tours",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Gregory of Tours, History of the Franks (abridged) and selections from the Eight Books of Miracles",
+          "author": "gregory-tours",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The History of the Franks, Volume II",
           "author": "gregory-tours",
           "role": "tradition",
@@ -10803,11 +11603,75 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Jonas of Bobbio, Life of St. Columban, English",
+          "author": "jonas-bobbio",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "jonas-bobbio_life-of-st-columban_munro1895.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Marius of Avenches, Chronicon (455-581)",
+          "author": "marius-avenches",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Merovingian councils from Orleans (511) to the 7th century, Latin",
+          "author": "merovingian-councils",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The other lives in the volume (Passiones and Vitae of the Merovingian saints)",
+          "author": "merovingian-hagiography",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Vita Caesarii episcopi Arelatensis libri duo, Latin",
+          "author": "merovingian-hagiography",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Gallic Chronicle of 511",
+          "author": "prosper",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "prosper_chronica-minora-1-lat_mommsen1892.txt",
+          "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
           "work": "On Easter (De Pascha)",
           "author": "venantius",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Venantius Fortunatus, Carmina and the prose Lives (Vita Radegundis, Vita Martini), Latin",
+          "author": "venantius-fortunatus",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Vita Samsonis (The Life of St. Samson of Dol), English",
+          "author": "vita-samsonis",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "samson-of-dol_life-of-st-samson_taylor1925.txt",
           "rights": "Public Domain"
         }
       ]
@@ -10815,17 +11679,283 @@
     "insular-irish-monastic-christianity": {
       "name": "Insular / Irish Monastic Christianity",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Adomnan, Life of Saint Columba, English",
+          "author": "adomnan",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "adomnan_life-of-saint-columba_huyshe1905.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Antiphonary of Bangor (c. 680-691), Latin",
+          "author": "antiphonary-of-bangor",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "antiphonary-of-bangor-pt2-lat_warren1895.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Bede, Ecclesiastical History III (Aidan, Iona, Fursey, Whitby, Colman's return) and the Irish chapters (I.13 Palladius, II.4, II.19, V.15, V.22)",
+          "author": "bede",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "bede_ecclesiastical-history-english-people_giles1903.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Irish penitentials (Vinnian, Columbanus, Cummean and others), Latin",
+          "author": "celtic-penitentials",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Gildas, De excidio Britanniae and the Penitential (Irish reception)",
+          "author": "gildas",
+          "role": "antecedent",
+          "confidence": "needs-ruling",
+          "source_file": "gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Letter of Columbanus to Pope Gregory on the Easter question (Ep. CXXVII in Barmby's numbering)",
+          "author": "gregory",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Jonas of Bobbio, Life of St. Columban, English",
+          "author": "jonas-bobbio",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "jonas-bobbio_life-of-st-columban_munro1895.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Lives of Irish saints from the Book of Lismore (Patrick, Colum Cille, Brigit, Senan, Findian, Brenainn, Mochua), Irish with English",
+          "author": "lismore-lives",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Muirchu, Life of Patrick, English",
+          "author": "muirchu",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Patrick, Confessio and Epistola ad milites Corotici, Latin",
+          "author": "patrick",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "patrick_libri-sancti-patricii-lat_white1918.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Patrick, Confession (Latin, Stokes's text)",
+          "author": "patrick",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Patrick, Confession and Letter to the soldiers of Coroticus, English (and the Lorica)",
+          "author": "patrick",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle entries for 429 (Agricola the Pelagian; Germanus's mission to Britain) and 431 (Palladius sent to the Irish)",
+          "author": "prosper",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "prosper_chronica-minora-1-lat_mommsen1892.txt",
+          "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Muirchu's Life of Patrick and Tirechan's Collections, Latin; the Liber Angueli",
+          "author": "tirechan",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt",
+          "rights": "Public Domain"
+        }
+      ]
     },
     "aksumite-christianity": {
       "name": "Aksumite Christianity",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Apologia ad Constantium 29-31 (Constantius's letter to the princes of Auxumis concerning Frumentius)",
+          "author": "athanasius",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "npnf204_athanasius-select-works-letters.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Book of the Himyarites (the Najran martyrs of 523 and the Aksumite intervention)",
+          "author": "book-of-the-himyarites",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "book-of-the-himyarites-syr-eng_moberg1924.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Christian Topography, Books II-III (Adulis, the Aksumite king Elesbaan and the Himyarite expedition; the churches of Ethiopia, Persia and India)",
+          "author": "cosmas-indicopleustes",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Ethiopian Synaxarium, vols. II-IV: notices of the Aksumite saints and of King Kaleb (20 Genbot)",
+          "author": "ethiopian-synaxarium",
+          "role": "transmission",
+          "confidence": "assigned",
+          "source_file": "ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Acta Yared et Pantalewon (the Ge'ez Lives of Yared and of Pantalewon, in Latin)",
+          "author": "gadla-pantalewon-yared",
+          "role": "transmission",
+          "confidence": "assigned",
+          "source_file": "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle ch. XC.71-78 (the Ethiopian king's war on the Himyarite 'Damnus' and the bishop sent from Alexandria in Justinian's days)",
+          "author": "john-nikiu",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "john-nikiu_chronicle_charles1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Kebra Nagast (the Glory of Kings), with the chapters on King Kaleb",
+          "author": "kebra-nagast",
+          "role": "transmission",
+          "confidence": "assigned",
+          "source_file": "kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Rules of Pachomius in their Ethiopic (Ge'ez) version",
+          "author": "pachomius",
+          "role": "transmission",
+          "confidence": "needs-ruling",
+          "source_file": "pachomius_rules-ethiopic_schodde1885.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Ecclesiastical History III.4-6 (Theophilus the Indian's mission and the Aethiopians called Auxumitae)",
+          "author": "philostorgius",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "philostorgius_ecclesiastical-history_walford1855.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Bibliotheca, codex 3 (Nonnosus's embassy to Elesbaas, king of the Axumites, and to the Himyarites)",
+          "author": "photius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "photius_library-v1_freese1920.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars I.19-20 (the Nobatae, Blemyes and Philae; the Ethiopians of Auxomis and the Homeritae)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-1-2-persian_dewing1914.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Roman Martyrology, 24 October (Aretas and the martyrs of Nagran) and 27 October (King Elesbaan of Ethiopia)",
+          "author": "roman-breviary",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "roman-breviary_bute1908.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Socrates I.19 and Sozomen II.24 (the conversion of the Indians/Ethiopians by Frumentius)",
+          "author": "socrates",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Le Synaxaire ethiopien, I (month of Sane), with French",
+          "author": "synaxaire-ethiopien",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Theodoret, Ecclesiastical History I.22 (Frumentius and the Auxumitae) and I.23 (the captive woman and the Iberians)",
+          "author": "theodoret",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle Book VIII.3 (Simeon of Beth Arsham's letter on the Najran martyrs, 523, and the appeal to the king of the Ethiopians)",
+          "author": "zachariah-rhetor",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "rights": "Public Domain"
+        }
+      ]
     },
     "georgian-christianity": {
       "name": "Georgian Christianity",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "The Life of St Nino (Georgian), with the Armenian Version of Djouansher",
+          "author": "georgian-life-of-nino",
+          "role": "transmission",
+          "confidence": "assigned",
+          "source_file": "studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Le Synaxaire arménien de Ter Israel (Basset), the notice of St Shushanik, daughter of Vardan, martyred by her husband Vazgen governor of Georgia (bound in this PO volume)",
+          "author": "john-ephesus",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "john-ephesus_lives-eastern-saints-po18_brooks1924.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Georgian chronicles, history to the 6th century including Vakhtang Gorgasali (French)",
+          "author": "kartlis-tskhovreba",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+          "rights": "Public Domain"
+        },
         {
           "work": "The Syriac Life of Peter the Iberian (Raabe, 1895)",
           "author": "life-of-peter-the-iberian",
@@ -10833,23 +11963,361 @@
           "confidence": "provisional",
           "source_file": "life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
           "rights": "Public Domain (pd-us-by-date: published 1895); the archive.org record tags it NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "History II.86 (the blessed Nune and the Iberians) and III.54 (Mesrop's Georgian letters)",
+          "author": "moses-khoren",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "moses-khoren_history-of-armenians-ita_mechitaristi1850.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars I.12 (the Iberians, Christians under Persian pressure; King Gourgenes)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-1-2-persian_dewing1914.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars, Books VII.36-VIII (the end of the Gothic War; the Lazic war)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Sebeos, History (Histoire d'Heraclius), French",
+          "author": "sebeos",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "sebeos_histoire-d-heraclius-fra_macler1904.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Socrates I.20 and Sozomen II.7 (the conversion of the Iberians by a captive woman)",
+          "author": "socrates",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Theodoret, Ecclesiastical History I.22 (Frumentius and the Auxumitae) and I.23 (the captive woman and the Iberians)",
+          "author": "theodoret",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle Book III.3-5 (the Palestinian monks' revolt after Chalcedon; Peter the Iberian made bishop of Maiuma)",
+          "author": "zachariah-rhetor",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle Book XII.7 (the Christian peoples of the Caucasus: Armenia's Catholicos at Dvin, Gurzan, Arran; Kardutsat's mission to the Huns; the Persian Catholicos Joseph at court)",
+          "author": "zachariah-rhetor",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "rights": "Public Domain"
         }
       ]
     },
     "nubian-christianity": {
       "name": "Nubian Christianity",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Part VIII, Nubia (the archers; the treaty of 'Abdallah ibn Sa'd with the Nubians)",
+          "author": "baladhuri",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Nubian inscriptions: Silko at Kalabsha; the Philae temple-to-church inscriptions of Bishop Theodore (nos. 584-591); the Ibrim stelae",
+          "author": "christian-inscriptions-egypt-nubia",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "John of Biclaro, Chronicon (567-590)",
+          "author": "john-biclaro",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Ecclesiastical History Part III, Book IV.6-9 and IV.49-54 (the mission of Julian to the Nobadae, 543; Longinus's journey to Alodia; the letters of the kings of Alodia and of the Nobadae)",
+          "author": "john-ephesus",
+          "role": "context",
+          "confidence": "needs-ruling",
+          "source_file": "john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Silko inscription (Greek with English) in Payne Smith's appendix",
+          "author": "john-ephesus",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars I.19-20 (the Nobatae, Blemyes and Philae; the Ethiopians of Auxomis and the Homeritae)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-1-2-persian_dewing1914.txt",
+          "rights": "Public Domain"
+        }
+      ]
     },
     "gothic-and-vandal-homoian-christianity": {
       "name": "Gothic, Vandal & Lombard Homoian Christianity",
       "status": "Floor Question (register)",
-      "works": []
+      "works": [
+        {
+          "work": "Avitus of Vienne, fragments against the Arians and the letters to the Arian king Gundobad",
+          "author": "avitus-vienne",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Cassiodorus, Variae (condensed English translation)",
+          "author": "cassiodorus",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cassiodorus_variae-letters-hodgkin1886.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The councils of Toledo, III (589) to XVII (694): Reccared's speeches and the canons",
+          "author": "councils-of-toledo",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt",
+          "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Toledo III, the former Homoian Gothic bishops' confession and signatures",
+          "author": "councils-of-toledo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Eugippius, Life of Saint Severinus",
+          "author": "eugippius",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "eugippius_life-of-saint-severinus_robinson1914.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Ecclesiastical History IV.14 (Huneric's persecution) and IV.16 (the expedition against Carthage, 533); IV.38 (the Fifth Council)",
+          "author": "evagrius-scholasticus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Thrasamund's ten objections and Fulgentius's replies (Contra Arianos, Ad Thrasamundum), Latin",
+          "author": "fulgentius-ruspe",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Dialogues III.29-32 (the Arian bishop at Spoleto; the Arian church in the Subura; Hermenegild; the Vandal confessors) and IV.31 (Theoderic's death)",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "gregory-great_dialogues_gardner1911.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Register IX.121 to Leander of Seville and IX.122 to Reccared; Reccared's own letter to Gregory (IX.61, of doubtful genuineness)",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Register letters to Agilulf, king of the Lombards, and Queen Theodelinda",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Franks V.43 (Agila), VI.40 (Oppila), IX.15 (Reccared), II.3 (Huneric and Eugenius), II.34 (Gundobad)",
+          "author": "gregory-tours",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Isidore of Seville, Historia Gothorum Wandalorum Sueborum and Chronica maiora",
+          "author": "isidore-seville",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Jordanes, Getica (The Origin and Deeds of the Goths)",
+          "author": "jordanes",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jordanes_origin-and-deeds-of-the-goths_mierow1908.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Liber Pontificalis, the lives from Hormisdas (514) to Pelagius II (590), English",
+          "author": "liber-pontificalis",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "liber-pontificalis_book-of-the-popes-v1_loomis1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Augustine, Collatio cum Maximino Arianorum episcopo, Sermo Arianorum and Contra Maximinum, Latin",
+          "author": "maximinus-arian",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Paul the Deacon, History of the Langobards",
+          "author": "paul-the-deacon",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars, Books III-IV (the Vandalic War)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-3-4-vandalic_dewing1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars, Books V-VI (the Gothic War, 535-540)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-5-6-gothic_dewing1919.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Anonymus Valesianus II (Theoderic's Italy) and the Copenhagen continuation",
+          "author": "prosper",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "prosper_chronica-minora-1-lat_mommsen1892.txt",
+          "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "The Skeireins (Gothic commentary on the Gospel of John)",
+          "author": "skeireins",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Victor of Vita, History of the Persecution in Africke (1605 English)",
+          "author": "victor-of-vita",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "victor-of-vita_memorable-and-tragical-history-persecution-eng_1605.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Victor of Vita, History of the Vandal Persecution (Halm's text)",
+          "author": "victor-of-vita",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "mgh-aa-3_victor-vitensis-corippus-halm1879.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Victor of Vita, History of the Vandal Persecution (Latin)",
+          "author": "victor-of-vita",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Gothic Bible of Wulfila",
+          "author": "wulfila",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Gothic Bible, critical text (Streitberg), vol. I",
+          "author": "wulfila",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "wulfila_gothic-bible-v1-got_streitberg1908.txt",
+          "rights": "Public Domain"
+        }
+      ]
     },
     "byzantine-imperial-church-justinianic": {
       "name": "The Byzantine Imperial Church (Justinianic)",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Agathias, Historiae (the reign of Justinian, 552-558)",
+          "author": "agathias",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Akathist Hymn (Akathistos), Greek with English",
+          "author": "akathistos-hymn",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "akathist-hymn_little-compline-grc-eng_london1919.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Boethius, Theological Tractates (De Trinitate, Contra Eutychen et Nestorium and others) and the Consolation of Philosophy, Latin with English",
+          "author": "boethius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "boethius_theological-tractates-consolation_stewart-rand1918.txt",
+          "rights": "Public Domain"
+        },
         {
           "work": "Codex Encyclius (457-458), in Mansi tom. 7",
           "author": "codex-encyclius",
@@ -10857,6 +12325,22 @@
           "confidence": "provisional",
           "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt",
           "rights": "Public Domain (pd-us-by-date: the 1901 facsimile date is printed at file line 182; the underlying edition is of the 18th century); the item record carries no rights field"
+        },
+        {
+          "work": "Collectio Avellana I: the Hormisdas correspondence and the ending of the Acacian schism (514-521), with earlier letters from 367",
+          "author": "collectio-avellana",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Collectio Avellana II: Justinian's letters and edicts to Rome and the Vigilius correspondence (Three Chapters)",
+          "author": "collectio-avellana",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898.txt",
+          "rights": "Public Domain"
         },
         {
           "work": "The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons",
@@ -10915,11 +12399,163 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Ecclesiastical History Part III, Books I-III and V-VI (the capital under Justin II, Tiberius and Maurice; the empress Sophia; the persecution of 571)",
+          "author": "john-ephesus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Lives of the Eastern Saints 47-48 (the communities Theodora gathered in Constantinople; the five patriarchs, Severus's death in Egypt, Theodosius)",
+          "author": "john-ephesus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "john-ephesus_lives-eastern-saints-po18_brooks1924.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle chapters on Constantinople from Justinian to Phocas (XC-CV passim)",
+          "author": "john-nikiu",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "john-nikiu_chronicle_charles1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "John IV the Faster, patriarch of Constantinople, penitential and ascetic writings (attrib.)",
+          "author": "john-the-faster",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Justinian, Novellae (the Novels), especially the ecclesiastical constitutions (Nov. 3, 5, 6, 7, 37, 42, 45, 46, 57, 58, 67, 79, 83, 86, 109, 123, 131, 133, 137, 144, 146)",
+          "author": "justinian",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Letters of Leo the Great",
           "author": "leo",
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "npnf212_leo-great-gregory-great.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Liberatus of Carthage, Breviarium causae Nestorianorum et Eutychianorum",
+          "author": "liberatus-carthage",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Marcellinus Comes, Chronicon (379-534) with its continuation to 548",
+          "author": "marcellinus-comes",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Bibliotheca, codices summarising lost 5th-6th-century church histories and theological works",
+          "author": "photius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "photius_library-v1_freese1920.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars, Books I-II (the Persian War)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-1-2-persian_dewing1914.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars, Books III-IV (the Vandalic War)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-3-4-vandalic_dewing1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars, Books V-VI (the Gothic War, 535-540)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-5-6-gothic_dewing1919.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars, Books VI.16-VII.35 (the Gothic War, 540-552)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars, Books VII.36-VIII (the end of the Gothic War; the Lazic war)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Of the Buildings of Justinian, Book I (Constantinople: Hagia Sophia and the churches)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_buildings_stewart1888.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Procopius, Of the Buildings of Justinian (PPTS printing; second witness)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Secret History (Anecdota)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_secret-history_athenian-society1896.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Romanos the Melodist, Cantica (kontakia), ed. Pitra (Greek; Latin apparatus)",
+          "author": "romanos-melodist",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "romanos-melodist_cantica-grc_pitra1888.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Victor of Tunnuna, Chronicon (444-566)",
+          "author": "victor-tunnunensis",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle Book IX (Anthimus of Constantinople, Theodora's patronage, the Julianist schism)",
+          "author": "zachariah-rhetor",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
           "rights": "Public Domain"
         }
       ]
@@ -10935,23 +12571,506 @@
           "confidence": "provisional",
           "source_file": "zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt",
           "rights": "Public Domain (published 1876; public domain by date under the project's 95-year rule)"
+        },
+        {
+          "work": "Koriun, Life of Mesrop (Mashtots), French",
+          "author": "koriun",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History III.54 (Mesrop in Albania: the Albanian script)",
+          "author": "moses-khoren",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "moses-khoren_history-of-armenians-ita_mechitaristi1850.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Sebeos, History (Histoire d'Heraclius), French",
+          "author": "sebeos",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "sebeos_histoire-d-heraclius-fra_macler1904.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle Book VII.4 (a Christian prince of Arran pleads for the Church of the Forty Martyrs at Amida, 503)",
+          "author": "zachariah-rhetor",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle Book XII.7 (the Christian peoples of the Caucasus: Armenia's Catholicos at Dvin, Gurzan, Arran; Kardutsat's mission to the Huns; the Persian Catholicos Joseph at court)",
+          "author": "zachariah-rhetor",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "rights": "Public Domain"
         }
       ]
     },
     "latin-africa-under-byzantium": {
       "name": "Latin African Christianity under Byzantium",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "The African synodal letters of 646 against the one-will doctrine (Byzacena, Numidia, Carthage)",
+          "author": "african-synods-646",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Collectio Avellana II: the Three Chapters correspondence as it bears on the African resistance",
+          "author": "collectio-avellana",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Letter of Reparatus of Carthage and the council of 217 African bishops to Pope John II (535), ep. 85",
+          "author": "collectio-avellana",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Corippus, Iohannis seu de bellis Libycis (Latin epic)",
+          "author": "corippus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "mgh-aa-3_victor-vitensis-corippus-halm1879.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Ecclesiastical History IV.14 (Huneric's persecution) and IV.16 (the expedition against Carthage, 533); IV.38 (the Fifth Council)",
+          "author": "evagrius-scholasticus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Facundus of Hermiane, Pro defensione trium capitulorum (12 books) and Contra Mocianum",
+          "author": "facundus-hermiane",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Ferrandus of Carthage, letters and Breviatio canonum",
+          "author": "ferrandus-carthage",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Fulgentius of Ruspe's works and Ferrandus's Life of Fulgentius, Latin",
+          "author": "ferrandus-carthage",
+          "role": "antecedent",
+          "confidence": "needs-ruling",
+          "source_file": "fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Register letters into Byzantine Africa (Innocent the prefect; Dominicus of Carthage; Columbus of Numidia; Victor)",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Register letters into Byzantine Africa: to Gennadius the exarch, the bishops of Numidia (I.77), Dominicus of Carthage, Columbus of Numidia",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf212_leo-great-gregory-great.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Junillus Africanus, Instituta regularia divinae legis (Latin critical text)",
+          "author": "junillus-africanus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Liberatus of Carthage, Breviarium causae Nestorianorum et Eutychianorum",
+          "author": "liberatus-carthage",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Maximus the Confessor, Disputatio cum Pyrrho (Carthage, 645)",
+          "author": "maximus-confessor",
+          "role": "context",
+          "confidence": "needs-ruling",
+          "source_file": "maximus-confessor_disputatio-cum-pyrrho-pg91-grc-lat_migne1860.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Relatio motionis (Maximus's trial): charged with handing Egypt and Africa to the Saracens; the former official of Peter, governor of Numidia",
+          "author": "maximus-confessor",
+          "role": "context",
+          "confidence": "needs-ruling",
+          "source_file": "maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Primasius of Hadrumetum, Commentary on Revelation; Junillus Africanus, Instituta regularia divinae legis",
+          "author": "primasius-hadrumetum",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Wars, Books III-IV (the Vandalic War)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_wars-3-4-vandalic_dewing1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Of the Buildings of Justinian, Book VI (Libya and Carthage)",
+          "author": "procopius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "procopius_buildings_stewart1888.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Victor of Vita, History of the Persecution in Africke (1605 English)",
+          "author": "victor-of-vita",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "victor-of-vita_memorable-and-tragical-history-persecution-eng_1605.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Victor of Vita, History of the Vandal Persecution (Latin)",
+          "author": "victor-of-vita",
+          "role": "antecedent",
+          "confidence": "needs-ruling",
+          "source_file": "victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Victor of Tunnuna, Chronicon (444-566)",
+          "author": "victor-tunnunensis",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+          "rights": "Public Domain"
+        }
+      ]
     },
     "nicene-visigothic-iberia": {
       "name": "Nicene Visigothic Iberia",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Paulus Emeritanus, Vitas Patrum Emeretensium; Sisebut; Braulio of Saragossa, Letters and Life of Aemilian (Latin)",
+          "author": "braulio-saragossa",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The excursus on the Filioque, quoting Toledo III's creed decree in English ('King Recarede ... through all the churches of Spain and Gallaecia')",
+          "author": "council-of-constantinople-381",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "npnf214_seven-ecumenical-councils.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Third Council of Toledo (589), complete acts: Reccared's statement of faith, the confession and signatures of the Gothic bishops, the anathemas and the canons",
+          "author": "councils-of-toledo",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The councils of Toledo, III (589) to XVII (694): Reccared's speeches and the canons",
+          "author": "councils-of-toledo",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt",
+          "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "The other councils of the Hispana collection (Toledo IV-XVII and the earlier Spanish councils)",
+          "author": "councils-of-toledo",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Dialogues III.31 (Hermenegild's conversion by Leander and martyrdom)",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "gregory-great_dialogues_gardner1911.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Moralia in Job, the dedicatory letter to Leander of Seville",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "gregory-great_moralia-in-job-books-i-x_bliss1844.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Register I.43 and V.49 to Leander of Seville",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf212_leo-great-gregory-great.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Register IX.121 to Leander of Seville and IX.122 to Reccared; Reccared's own letter to Gregory (IX.61, of doubtful genuineness)",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Franks V.38 (Leovigild and Hermenegild), V.43 (Agila's debate), VIII.46, IX.15 (Reccared's conversion)",
+          "author": "gregory-tours",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Ildefonsus of Toledo (De virginitate Mariae, De viris illustribus) and Julian of Toledo (Prognosticon, Historia Wambae), Latin",
+          "author": "ildefonsus-toledo",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "ildefonsus-julian-toledo-pl96-lat_migne1862.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Isidore of Seville, Etymologiae (Origines), Books I-XX (Latin)",
+          "author": "isidore-seville",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "isidore-seville_etymologiae-origines-lat_lindsay1911.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Isidore of Seville, Etymologiae, English extracts (Books VI-VIII among them)",
+          "author": "isidore-seville",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Isidore of Seville, Historia Gothorum Wandalorum Sueborum and Chronica maiora",
+          "author": "isidore-seville",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Isidore of Seville, Sententiae, De ecclesiasticis officiis, Synonyma, Regula monachorum, Epistolae and Historia de regibus Gothorum (Latin)",
+          "author": "isidore-seville",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "John of Biclaro, Chronicon (567-590)",
+          "author": "john-biclaro",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Leander of Seville, Regula (De institutione virginum) and Homilia in laudem Ecclesiae, Latin",
+          "author": "leander-seville",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "john-biclaro-leander-pl72-lat_migne1878.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Martin of Braga, De correctione rusticorum (Latin)",
+          "author": "martin-braga",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "martin-braga_de-correctione-rusticorum-lat_caspari1883.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Liber mozarabicus sacramentorum (the Mozarabic sacramentary), Latin",
+          "author": "mozarabic-liturgy",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Spanish councils outside Toledo (Braga I-III, Seville I-II, Saragossa, Lerida, Valencia, Huesca, Barcelona, Merida, Tarragona)",
+          "author": "spanish-councils-outside-toledo",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Visigothic Code (Forum Judicum), English",
+          "author": "visigothic-code",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "visigothic-code-forum-judicum_scott1910.txt",
+          "rights": "Public Domain"
+        }
+      ]
     },
     "british-welsh-christianity": {
       "name": "British and Welsh Christianity",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Annales Cambriae (to 954), Latin",
+          "author": "annales-cambriae",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Bede, Ecclesiastical History I.17-22 (Germanus in Britain; Gildas), II.2 (Augustine's Oak and the Bangor monks), V.18 (Aldhelm), V.23",
+          "author": "bede",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "bede_ecclesiastical-history-english-people_giles1903.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Lives of the Cambro-British saints (David, Cadoc, Illtud and others), Latin and Welsh with English",
+          "author": "cambro-british-saints-lives",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Penitential of Gildas and the Canones Wallici, Latin",
+          "author": "celtic-penitentials",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Constantius of Lyon, Vita Germani: the British missions of Germanus of Auxerre (429 and c. 435-444)",
+          "author": "constantius-lyon",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "constantius-lyon_vita-germani_levison1920.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Gennadius, Lives of Illustrious Men LVII (Fastidius, bishop in Britain)",
+          "author": "gennadius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Gildas, De excidio Britanniae (The Ruin of Britain), the fragments, the penitential and the Lorica, Latin with English",
+          "author": "gildas",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Gregory's answers to Augustine (the Responsa), question IX on the bishops of Gaul and of the Britons",
+          "author": "gregory",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "History of the Franks IV.4 (Macliav), IV.20, V.21 (Winnoch the Breton)",
+          "author": "gregory-tours",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Historia Brittonum (attrib. Nennius), English",
+          "author": "nennius",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "nennius_history-of-the-britons-giles.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Patrick, Confessio and Epistola ad milites Corotici, Latin",
+          "author": "patrick",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "patrick_libri-sancti-patricii-lat_white1918.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Patrick, Confession and Letter to the soldiers of Coroticus, English (and the Lorica)",
+          "author": "patrick",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicle entries for 429 (Agricola the Pelagian; Germanus's mission to Britain) and 431 (Palladius sent to the Irish)",
+          "author": "prosper",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "prosper_chronica-minora-1-lat_mommsen1892.txt",
+          "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Vita Samsonis (The Life of St. Samson of Dol), English",
+          "author": "vita-samsonis",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "samson-of-dol_life-of-st-samson_taylor1925.txt",
+          "rights": "Public Domain"
+        }
+      ]
     },
     "the-church-of-the-east-on-the-silk-road": {
       "name": "The Church of the East on the Silk Road",
@@ -10985,6 +13104,14 @@
       "name": "Coptic Christianity under Early Islam",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Part VII, Egypt (the conquest of 640-642; the terms with the Copts)",
+          "author": "baladhuri",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt",
+          "rights": "Public Domain"
+        },
         {
           "work": "Le Synaxaire arabe jacobite (rédaction copte), IV: les mois de Barmahat, Barmoudah et Bachons (Basset, French translation)",
           "author": "copto-arabic-synaxarium",
@@ -11158,6 +13285,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Christian Topography, Books II-III (Adulis, the Aksumite king Elesbaan and the Himyarite expedition; the churches of Ethiopia, Persia and India)",
+          "author": "cosmas-indicopleustes",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Liturgy of Malabar (East-Syriac rite of the St. Thomas Christians)",
           "author": "liturgy-of-malabar",
           "role": "context",
@@ -11249,6 +13384,14 @@
           "role": "context",
           "confidence": "assigned",
           "source_file": "maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Sophronius of Jerusalem, Epistola synodica ad Sergium (634), Orationes, Miracula Cyri et Joannis, Vita Mariae Aegyptiacae, Anacreontica",
+          "author": "sophronius-jerusalem",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
           "rights": "Public Domain"
         }
       ]

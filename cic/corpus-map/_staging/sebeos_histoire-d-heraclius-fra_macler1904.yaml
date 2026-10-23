@@ -1,0 +1,26 @@
+source_file: sebeos_histoire-d-heraclius-fra_macler1904.txt
+
+authors_ruled:
+  sebeos:
+    kind: metadata-omission
+    evidence: >
+      The host record names Sebeos only in the title; the corpus-map has no earlier ruling
+      for the slug.
+    from_file: sebeos_histoire-d-heraclius-fra_macler1904.txt
+
+assignments:
+  - row_id: sebeos_histoire-d-heraclius-fra_macler1904--histoire-d-heraclius
+    work: "Sebeos, History (Histoire d'Heraclius), French"
+    author: sebeos
+    locus: "whole text"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+      - church-of-caucasian-albania
+      - georgian-christianity
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      Tradition for Armenia (a bishop's own history); for Albania, Georgia and Persia it is
+      the Armenian view of neighbours and context. Tier 4: composed after the Armenian
+      entry's window.

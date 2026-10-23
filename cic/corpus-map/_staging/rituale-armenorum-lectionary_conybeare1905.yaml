@@ -1,0 +1,21 @@
+source_file: rituale-armenorum-lectionary_conybeare1905.txt
+
+authors_ruled:
+  armenian-church-rituale:
+    kind: anonymous
+    evidence: >
+      Anonymous liturgical texts of the Armenian Church; the edition names only its editor.
+    from_file: rituale-armenorum-lectionary_conybeare1905.txt
+
+assignments:
+  - row_id: rituale-armenorum-lectionary_conybeare1905--rituale-armenorum
+    work: "Rituale Armenorum and the Old Armenian Lectionary (Appendix II, English)"
+    author: armenian-church-rituale
+    locus: "whole text; the Lectionary around raw line ~679"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+    role: transmission
+    confidence: provisional
+    note: >
+      The Armenian church's liturgy and the Jerusalem lectionary it received; manuscripts
+      later than the window, so transmission, provisional.

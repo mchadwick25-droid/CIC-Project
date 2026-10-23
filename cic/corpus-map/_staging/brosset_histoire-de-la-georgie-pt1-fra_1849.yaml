@@ -1,0 +1,21 @@
+source_file: brosset_histoire-de-la-georgie-pt1-fra_1849.txt
+
+authors_ruled:
+  kartlis-tskhovreba:
+    kind: anonymous
+    evidence: >
+      The Georgian chronicle cycle (Kartlis Tskhovreba) is anonymous and composite; the
+      edition names its translator.
+    from_file: brosset_histoire-de-la-georgie-pt1-fra_1849.txt
+
+assignments:
+  - row_id: brosset_histoire-de-la-georgie-pt1-fra_1849--georgian-chronicles-vakhtang
+    work: "Georgian chronicles, history to the 6th century including Vakhtang Gorgasali (French)"
+    author: kartlis-tskhovreba
+    locus: "the early reigns; Vakhtang indexed at 'Gourgaslan'"
+    atlas_ids:
+      - georgian-christianity
+    role: transmission
+    confidence: provisional
+    note: >
+      Medieval chronicle memory of the 5th-century king; retrospective, French only.

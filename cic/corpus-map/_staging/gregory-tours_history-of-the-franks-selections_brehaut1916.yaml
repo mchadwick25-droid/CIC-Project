@@ -1,0 +1,14 @@
+source_file: gregory-tours_history-of-the-franks-selections_brehaut1916.txt
+
+assignments:
+  - row_id: gregory-tours_history-of-the-franks-selections_brehaut1916--history-selections-and-miracles
+    work: "Gregory of Tours, History of the Franks (abridged) and selections from the Eight Books of Miracles"
+    author: gregory-tours
+    locus: "Miracles selections at raw lines ~11223-11800"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      An abridged second English of the History and the short English selections from the
+      miracle books.

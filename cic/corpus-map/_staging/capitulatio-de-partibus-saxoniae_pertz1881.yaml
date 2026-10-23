@@ -1,6 +1,12 @@
 source_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
 
 authors_ruled:
+  clovis-letter-to-bishops:
+    kind: anonymous
+    evidence: >
+      The Capitularia volume prints Clovis's letter to the bishops (507-511) as a royal
+      document; ruled a royal letter with no separate author.
+    from_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
   capitulatio-partibus-saxoniae:
     kind: anonymous
     evidence: >
@@ -22,3 +28,17 @@ assignments:
       The harsh Saxon capitulary (c. 775-790) directly bound up with the
       Verden killings and Alcuin's own protest against it - full text
       confirmed present.
+
+  - row_id: capitulatio-de-partibus-saxoniae_pertz1881--clovis-letter-and-merovingian-legislation
+    work: "Capitularia I, the Merovingian section: Clovis's letter to the bishops (507-511), the edicts of Childebert I, Guntram (585) and Chlothar II (614)"
+    author: clovis-letter-to-bishops
+    locus: "raw lines ~154-2200; Clovis's letter ~617-675 (about 500 words; ~646); Childebert I ~699; Guntram ~1287; Chlothar II ~1917"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The file is the whole of MGH Capitularia regum Francorum I (preface dated 1883), not
+      the Saxon capitulary alone. Clovis's own letter to the bishops, the Merovingian kings'
+      church edicts: the royal voice in the Merovingian church. The Carolingian rows of this
+      file are unaffected.

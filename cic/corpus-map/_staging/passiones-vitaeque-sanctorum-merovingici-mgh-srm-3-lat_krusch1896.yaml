@@ -1,0 +1,33 @@
+source_file: passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt
+
+authors_ruled:
+  merovingian-hagiography:
+    kind: anonymous
+    evidence: >
+      A collection of Merovingian saints' lives by many hands; the edition names only its
+      editor.
+    from_file: passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt
+
+assignments:
+  - row_id: passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896--vita-caesarii
+    work: "Vita Caesarii episcopi Arelatensis libri duo, Latin"
+    author: merovingian-hagiography
+    locus: "item XXVII of the contents"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The pastoral bishop of Arles as his disciples remembered him (written c. 542-549).
+
+  - row_id: passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896--other-merovingian-lives
+    work: "The other lives in the volume (Passiones and Vitae of the Merovingian saints)"
+    author: merovingian-hagiography
+    locus: "the rest of the volume"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Merovingian hagiography; provisional until a build thread selects the lives inside the
+      480-620 window.

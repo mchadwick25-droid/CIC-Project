@@ -1,0 +1,21 @@
+source_file: annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt
+
+authors_ruled:
+  annales-cambriae:
+    kind: anonymous
+    evidence: >
+      The Welsh annals are an anonymous compilation; the edition names its editor.
+    from_file: annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt
+
+assignments:
+  - row_id: annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860--annales-cambriae
+    work: "Annales Cambriae (to 954), Latin"
+    author: annales-cambriae
+    locus: "the 768 Easter entry at raw line ~2964"
+    atlas_ids:
+      - british-welsh-christianity
+    role: transmission
+    confidence: provisional
+    note: >
+      A 10th-century compilation; entries for the window are later memory, so transmission
+      with the confidence tag the dossier states.

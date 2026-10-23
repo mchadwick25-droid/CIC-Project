@@ -24,6 +24,104 @@ with no history in the document, lives in the file it governs (here,
 **Slugs.** The renewed Moravian Church (1722 onward) has its own institutional author slug, `moravian-church`, kept distinct from `unity-of-the-brethren` (the old Czech Unity), so the continuity claim stays a claim the texts make rather than a fact the index asserts. The Methodist bucket now carries two Wesley slug conventions (the meth thread's `wesley-john`, `wesley-charles`; the Library's filename slugs `wesley-j`, `wesley-c`); reconciling them is flagged in the Methodist dossier for that world's thread.
 
 **Placements left for Mark.** Cross-world rows are staged `provisional` where the fit is arguable; each dossier's section 5 names the open questions, among them Whitefield's allocation (VII.5, VII.6, VII.10), whether the middle and southern colonies belong to VII.6, the AME edge of VII.5 (Allen, Jarena Lee), the Czech succession claim of VII.4, and missions with no census home (the Danish West Indies, Greenland, Tranquebar).
+## 2026-10-23 — Era III library pass: scope, corrections, and placements left to Mark
+
+**Scope.** The Era III session (branch `library/era-iii-2026-10`) took the
+sixteen census worlds of 451-622 that had no Doc_02: Cyrilline Egypt, the
+Church of the East under Persia, Armenia after Avarayr, Judean-desert and
+Gaza monasticism, early Benedictine Italy, Merovingian Gaul, Irish
+monasticism, Aksum, Georgia, Nubia, the Gothic/Vandal/Lombard Homoian
+register entry, the Justinianic imperial church, Caucasian Albania, Latin
+Africa, Visigothic Iberia, and Britain and Wales. Each has a Source
+Readiness Dossier in `dossiers/`, with a build or atlas-only recommendation
+in its §6. The recommendations are Mark's to decide; none blocks library
+work. Roughly ninety public-domain texts were vendored (plus two renames),
+with cross-link rows added to about thirty existing staging files.
+
+**Correction of record: two files vendored 2026-09-25 did not hold what
+their names and headers said.** `dorotheus-gaza_doctrinae-instructiones-
+grc-lat_migne-pg88.txt` is Patrologia Graeca 87 part 3 (Moschus's Pratum
+Spirituale, Sophronius, the end of Procopius of Gaza, Alexander Monachus);
+its own running heads show it, and "Dorotheus" occurs seventeen times in
+passing. `cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt`
+is Cotelier's *tomus II*, which carries the Vita Euthymii but no Vita Sabae.
+Each was renamed to say what it is (`john-moschus_pratum-spirituale-
+sophronius-opera-grc-lat_migne-pg87-3.txt` and `cyril-scythopolis_vita-
+euthymii-cotelier-monumenta-v2-grc-lat_1681.txt`), with header, registry
+note, seed row and staging rows corrected and bodies unchanged. The real PG
+88 (Dorotheus, the Barsanuphius and John answers, Climacus, Agathias) is
+vendored as its own file. The Vita Sabae stays an open lead: Cotelier's
+*tomus III* (archive.org `bub_gb_PLhdE15tQTAC`) exists but its OCR reads the
+text as Cyrillic. The original "vita-sabae" and "doctrinae-diversae, whole
+file" rows are withdrawn, not edited. This is the "undo and redo" case the
+repository's rules ask for, not a patch on the old rows.
+
+**Reader-ready facts.** The design document the brief cites
+(`Build/Ministry/Features/Source-Library/Design.md`) is not in the
+repository. The session followed the 2026-10-16 Era VII entry above: the
+section labelling, credit line and republishing scope go in each registry
+note as a `READER:` trailer, with no new schema field. Every file vendored
+here is whole-text republishable (public domain by date). Where an edition
+has no public-domain English the dossier's §3 records the gap, and nothing
+generated was added to the library.
+
+**Rights calls made.** (1) Migne's Patrologia volumes carry a placeholder
+host date of 1800; the title leaf was read where it states a year (PL 42,
+67, 80, 83, 88, 96) and otherwise the registry note records that the
+series was printed 1844-1878. (2) Works published outside the US between
+1923 and 1928 (Gasquet 1925, Taylor's Samson 1925, Moberg 1924, Budge's
+Ethiopian Synaxarium 1928) are taken as public domain under the rolling
+95-year rule, and each header says so. (3) Gutenberg's J. A. Giles
+Nennius gives no print year; the translator died in 1884. (4) Items that
+need a renewal check (Scott's Civil Law 1932, Loeb Buildings 1940,
+McNeill and Gamer 1938, Garvin 1946, Zimmerman 1959) were not vendored.
+
+**Duplicates avoided.** Other threads vendored, while this session ran,
+Raabe's Peter the Iberian, PO 8, Nau's Dioscorus, the Synodicon Orientale
+in French and German, Budge's Ethiopian Synaxarium vols. I-II and the PO
+16 Synaxarium. This session removed its own two duplicate vendorings
+(Raabe and PO 8) and skipped the rest. One overlap remains by design:
+`ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_
+budge1928.txt` repeats volume II, because it carries volumes III-IV, which
+the other file does not.
+
+**Placements left to Mark (`needs-ruling` or flagged `provisional`).**
+Gregory's Dialogues II as tradition for the Benedictine entry as well as
+the Gregorian one; Peter the Iberian across Georgia, Judean-desert
+monasticism and the West Syriac entry; the duplicate Egyptian ids
+(`cyrilline-miaphysite-egyptian-tradition` and this entry); the 410, 420
+and 424 Persian synods; Maximus the Confessor and the African councils of
+646 between Latin Africa and the Heraclian entry; Sophronius; the Akathist
+(date Contested); the Ge'ez Pachomian rules; the Nubian royal letters;
+Ruricius of Limoges; Toledo III shared by Iberia and the Homoian entry;
+and whether the Homoian register entry is a continuation of, a duplicate
+of, or separate from the era-2 Homoian bucket.
+
+**Hygiene defects found in other threads' files and not touched.** The
+Dalton Gregory of Tours file's header and bucket locus say Books VI-X but it
+holds all ten books. PL 39 is vendored twice (Caesarius and Augustine
+copies). `capitulatio-de-partibus-saxoniae_pertz1881.txt` is the whole MGH
+Capitularia regum Francorum I, with a preface dated 1883. Two John of
+Ephesus OCR pairs and two Audollent files and two Chronica minora I scans
+are duplicates. The PO 17, 18 and 19 files bind other works (Basset's
+Coptic Synaxarium, Grebaut, an Armenian Synaxarion, Marr's Georgian
+Synaxarion) that STRUCTURE.md does not list as their own volumes.
+
+**Leads recorded for a later pass.** The Vita Sabae needs fresh OCR of
+Cotelier's tomus III; Evagrius in Greek (Bidez and Parmentier) returned
+HTTP 500 and should be retried; Romanos on el.wikisource was rate-limited;
+Reeves's 1857 Latin Adamnan returned HTTP 500; Babai's Liber de unione
+(Latin volume) and Chabot's 1896 "L'ecole de Nisibe" were not located.
+
+**A fault in this session's own tooling, repaired.** The helper that wrote
+registry, seed and staging text wrapped lines at hyphens, which broke world
+slugs across lines (`chalcedonian-` then `monasticism`) and, once folded,
+produced "chalcedonian- monasticism". The damage was found in review and
+repaired in only the regions this session added; the repair is in the same
+commit as the dossiers.
+
+---
+
 ## 2026-10-23 — Era VII rulings after the two library passes (Mark, six decisions)
 
 Mark took the six decisions the Era VII dossiers had left to him, one at a

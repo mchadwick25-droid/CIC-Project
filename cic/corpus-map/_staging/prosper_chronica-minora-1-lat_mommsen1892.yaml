@@ -38,3 +38,39 @@ assignments:
       own build thread has not been asked, from outside, whether or how this
       text belongs there. Named per corpus-map's own non-exclusivity
       principle rather than silently omitted.
+
+  - row_id: prosper_chronica-minora-1-lat_mommsen1892--anonymus-valesianus-theoderic
+    work: "Anonymus Valesianus II (Theoderic's Italy) and the Copenhagen continuation"
+    author: prosper
+    locus: "raw lines ~39513-41490 (Eugippius quoted ~40376-40395); Lombards from ~42520"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: assigned
+    note: >
+      The Arian king's reign told by a Catholic Roman chronicler, who nonetheless notes his
+      tolerance (~40956); the author slug is the file's, not the work's.
+
+  - row_id: prosper_chronica-minora-1-lat_mommsen1892--gallic-chronicle-511
+    work: "The Gallic Chronicle of 511"
+    author: prosper
+    locus: "raw lines ~67797 and ~69109"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A short Gallic chronicle to 511; the author slug is the file's, not the work's.
+
+  - row_id: prosper_chronica-minora-1-lat_mommsen1892--agricola-germanus-429
+    work: "Chronicle entries for 429 (Agricola the Pelagian; Germanus's mission to Britain) and 431 (Palladius sent to the Irish)"
+    author: prosper
+    locus: "raw lines ~54151 and ~54222-54223"
+    atlas_ids:
+      - british-welsh-christianity
+      - insular-irish-monastic-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Prosper's two notices bracketing the entries' prehistory; before the window.

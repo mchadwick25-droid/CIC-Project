@@ -1,0 +1,35 @@
+source_file: miscellaneous-coptic-texts-upper-egypt_budge1915.txt
+
+authors_ruled:
+  theodosius-alexandria:
+    kind: pseudonymous
+    evidence: >
+      Budge's heading attributes the Encomium on St Michael to Theodosius, archbishop of
+      Alexandria; the attribution is the manuscript's and is Contested, so the slug is ruled
+      pseudonymous rather than asserted.
+    from_file: miscellaneous-coptic-texts-upper-egypt_budge1915.txt
+
+assignments:
+  - row_id: miscellaneous-coptic-texts-upper-egypt_budge1915--theodosius-encomium-michael
+    work: "Encomium on St Michael the Archangel, attributed to Theodosius, archbishop of Alexandria (Sahidic, with English)"
+    author: theodosius-alexandria
+    locus: "the Theodosius encomium (raw lines from ~2068)"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Under the name of the exiled patriarch of 535-566; the attribution is the Coptic
+      manuscript's and is Contested, so tradition only provisionally.
+
+  - row_id: miscellaneous-coptic-texts-upper-egypt_budge1915--other-texts-timothy-discourse
+    work: "The other Sahidic texts of the volume, including a Discourse attributed to Timothy of Alexandria"
+    author: theodosius-alexandria
+    locus: "the remaining texts"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: transmission
+    confidence: provisional
+    note: >
+      Homiletic and legendary texts the Coptic church preserved under patristic names;
+      author slug is the volume's lead attribution, recorded plainly.

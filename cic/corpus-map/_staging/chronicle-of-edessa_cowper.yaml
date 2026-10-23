@@ -46,3 +46,14 @@ assignments:
       writing just when the Jacobite pastors began to invade that church" -
       so he documents the West Syriac world's ground from the rival side of
       451.
+
+  - row_id: chronicle-of-edessa_cowper--school-of-the-persians-489
+    work: "Chronicle of Edessa section 73: the school of the Persians eradicated from Edessa (An. 800 = 489)"
+    author: chronicle-of-edessa
+    locus: "file line 189"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: context
+    confidence: assigned
+    note: >
+      The expulsion that founded the school of Nisibis, in one line, from Edessa.

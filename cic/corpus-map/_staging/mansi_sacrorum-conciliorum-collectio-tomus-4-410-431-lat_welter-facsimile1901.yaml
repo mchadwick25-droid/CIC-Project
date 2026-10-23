@@ -1,6 +1,19 @@
 source_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
 
 authors_ruled:
+  synod-of-markabta-424:
+    kind: anonymous
+    evidence: >
+      Mansi tom. 4 prints the 424 synod of the Persian bishops 'in coenobio Arcae in
+      montibus Persidis' under the catholicos Dadisho, quoted in Latin from an Arabic
+      collection of synods (file line ~55606); a conciliar text, no individual author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
+  synod-of-yahballaha-420:
+    kind: anonymous
+    evidence: >
+      Mansi tom. 4 prints the 420 synod of Yahballaha at Ctesiphon (file lines
+      ~44134-44307); a conciliar text, no individual author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
   gesta-collationis-carthaginensis:
     kind: anonymous
     evidence: 'Mansi tom. 4 prints "Gesta collationis Carthaginensis" at file line 1382; a court transcript with named speakers, no single author.'
@@ -40,3 +53,27 @@ assignments:
     confidence: provisional
     note: >
       African council recorded in Mansi 4. Registry row 229.
+
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901--markabta-424
+    work: "The synod of the Persian bishops under the catholicos Dadisho (424), declaring the catholicos answerable to no authority in the West"
+    author: synod-of-markabta-424
+    locus: "file lines ~55606-55684 (columns 553-554); the ruling at ~55624-55626"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      The event the census names as the church's founding act; the words survive at third
+      hand, in Latin from an Arabic collection. Provisional.
+
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901--yahballaha-420
+    work: "The synod of Yahballaha at Ctesiphon (420)"
+    author: synod-of-yahballaha-420
+    locus: "file lines ~44134-44307"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: antecedent
+    confidence: needs-ruling
+    note: >
+      Reconfirmed the canons of 410; links 410 to 424. Antecedent only once the Synodicon
+      editions vendored separately are shown to argue from it; needs-ruling.

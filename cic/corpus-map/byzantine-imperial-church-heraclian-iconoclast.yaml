@@ -62,3 +62,18 @@ works:
 
     '
   source_file: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt
+- row_id: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3--sophronius-synodical-letter-and-works
+  work: Sophronius of Jerusalem, Epistola synodica ad Sergium (634), Orationes, Miracula Cyri
+    et Joannis, Vita Mariae Aegyptiacae, Anacreontica
+  author: sophronius-jerusalem
+  locus: raw file lines ~26212 to ~95000
+  role: tradition
+  confidence: needs-ruling
+  note: 'Sophronius was Moschus''s companion in the Judean desert and later patriarch of Jerusalem;
+    his Synodical Letter opens the monothelete controversy (634), which is the Heraclian sibling
+    entry''s matter. Which entry holds him as tradition is a needs-ruling named in the Judean-desert
+    dossier; the Miracula and the Mary of Egypt Life are desert material. Latin second witness
+    only.
+
+    '
+  source_file: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt

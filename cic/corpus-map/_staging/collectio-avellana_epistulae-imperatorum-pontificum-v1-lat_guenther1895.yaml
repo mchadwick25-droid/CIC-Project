@@ -1,0 +1,35 @@
+source_file: collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt
+
+authors_ruled:
+  collectio-avellana:
+    kind: anonymous
+    evidence: >
+      A canonical collection of letters by many hands (popes, emperors, bishops), compiled
+      anonymously in the 6th century; the edition names only its editor.
+    from_file: collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt
+
+assignments:
+  - row_id: collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895--avellana-i-acacian-schism
+    work: "Collectio Avellana I: the Hormisdas correspondence and the ending of the Acacian schism (514-521), with earlier letters from 367"
+    author: collectio-avellana
+    locus: "epistulae I-CIV; Hormisdas-Justin-Justinian letters in the second half"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: provisional
+    note: >
+      Papal and imperial letters in Latin: the view from Rome of the Constantinopolitan
+      church's reconciliation in 519. Context, since the collection is Roman in perspective;
+      provisional until a build thread pins which letters are Justin's and Justinian's own.
+
+  - row_id: collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895--avellana-ep-85-carthage-535
+    work: "Letter of Reparatus of Carthage and the council of 217 African bishops to Pope John II (535), ep. 85"
+    author: collectio-avellana
+    locus: "ep. 85 (raw file around line 24645)"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: tradition
+    confidence: assigned
+    note: >
+      The restored African church's first collective voice after the Vandal century, asking
+      Rome about the readmission of Arian converts. Latin only; no public-domain English.

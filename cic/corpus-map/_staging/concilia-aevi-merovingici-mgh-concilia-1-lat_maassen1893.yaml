@@ -1,0 +1,20 @@
+source_file: concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt
+
+authors_ruled:
+  merovingian-councils:
+    kind: anonymous
+    evidence: >
+      Conciliar acts of the Frankish church; the edition names only its editor.
+    from_file: concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt
+
+assignments:
+  - row_id: concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893--merovingian-councils
+    work: "The Merovingian councils from Orleans (511) to the 7th century, Latin"
+    author: merovingian-councils
+    locus: "from raw line ~698"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The Frankish bishops legislating for church, clergy and monasteries under the kings.

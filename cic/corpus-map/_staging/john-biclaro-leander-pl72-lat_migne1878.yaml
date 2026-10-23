@@ -1,0 +1,20 @@
+source_file: john-biclaro-leander-pl72-lat_migne1878.txt
+
+authors_ruled:
+  leander-seville:
+    kind: metadata-omission
+    evidence: >
+      PL 72 prints Leander of Seville's rule and homily; the host record names only Migne.
+    from_file: john-biclaro-leander-pl72-lat_migne1878.txt
+
+assignments:
+  - row_id: john-biclaro-leander-pl72-lat_migne1878--leander-regula-homilia
+    work: "Leander of Seville, Regula (De institutione virginum) and Homilia in laudem Ecclesiae, Latin"
+    author: leander-seville
+    locus: "Homilia at raw line ~66727; Regula ~85910"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: assigned
+    note: >
+      The bishop of Seville who won the kingdom to the Nicene faith, in his own Latin.

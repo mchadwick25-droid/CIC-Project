@@ -1,0 +1,28 @@
+source_file: collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898.txt
+
+assignments:
+  - row_id: collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898--avellana-ii-justinian-letters
+    work: "Collectio Avellana II: Justinian's letters and edicts to Rome and the Vigilius correspondence (Three Chapters)"
+    author: collectio-avellana
+    locus: "epistulae CV-CCXLIV; Justinian's letters from the 'Exemplum epistolae Iustiniani' heading"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: tradition
+    confidence: provisional
+    note: >
+      The emperor who governed the church speaking in his own letters, Latin as the Roman
+      archive kept them. Tradition for the imperial church; provisional until a build thread
+      separates Justinian's letters from the papal ones in the same collection.
+
+  - row_id: collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898--avellana-ii-three-chapters-africa
+    work: "Collectio Avellana II: the Three Chapters correspondence as it bears on the African resistance"
+    author: collectio-avellana
+    locus: "the Vigilius-era letters"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: context
+    confidence: provisional
+    note: >
+      The dispute in which the African church under Reparatus and Facundus took the lead,
+      documented here from the Roman and imperial side. Context; the African voice itself is
+      in Facundus and Victor of Tunnuna.

@@ -27,3 +27,16 @@ assignments:
       Massilian-side answer, per this world's own Doc_02 Source Ecology
       §1.4 and Source Registry row 24. Latin only; no public-domain English
       translation exists.
+
+  - row_id: faustus-riez_de-gratia-and-collected-works_engelbrecht1891--ruricius-limoges-letters
+    work: "Ruricius of Limoges, Letters (c. 485-507), including two to Caesarius of Arles"
+    author: faustus-riez
+    locus: "raw lines ~20013-25132 (about 34,248 words); to Caesarius ~23178"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Ruricius is bound into the Faustus volume (CSEL 21) but wrote at the entry's opening,
+      c. 485-507; the author slug is the file's, not the work's. Which Gaul entry holds him
+      is a needs-ruling named in the dossier.
