@@ -44,9 +44,9 @@ narrative_tier: 1
 narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). Possidius was a bishop in
   his own right, Augustine''s friend for close to forty years, and -- decisively for the tier -- physically
   present: one of those Augustine ''asked of us who were present,'' writing ''while we stood by and watched
-  and prayed.'' The distinction from lpcstory006, where both accounts are bishops'' deaths written by
-  admirers, is the presence or absence of the genre''s own machinery: Pontius supplies a scriptural typology
-  and a providential intervention; Possidius supplies sheets of paper on a wall, a request not to be disturbed,
+  and prayed.'' Like lpcstory006, this is a bishop''s death written by an admirer. The difference is the
+  presence or absence of the genre''s own machinery: Pontius supplies a scriptural typology and a providential
+  intervention, which lpcstory006 marks as his alone; Possidius supplies sheets of paper on a wall, a request not to be disturbed,
   and an inventory of what the dead man did not own. The test applied is CF V7.4''s own three Tier 3 markers,
   and this account carries none of them.'
 tellable_as: How the one who spent his life adjudicating others' penitence was watched doing his own
@@ -81,4 +81,4 @@ modern_contrast: 'A modern listener may expect this told as a serene death. Poss
   looking at psalms about sin -- the disproportion, if it looks like one, is the formation content, not
   an embarrassment to smooth over.'
 ---
-Mapped directly from Story-Chunks/lpcstory007_the-psalms-on-the-wall.md, recast into first-person register. 'Shortest penitential Psalms' independently re-located this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 4925; verification_state held at verified-direct on that basis.
+Derived from Story-Chunks/lpcstory007_the-psalms-on-the-wall.md, recast into first-person register. 'Shortest penitential Psalms' is at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 4925.

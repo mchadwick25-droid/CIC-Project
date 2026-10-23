@@ -74,4 +74,4 @@ modern_contrast: 'A modern listener may hear ''burned, preserved'' as a cruel wo
   death. We did say that, and mean it: this world did not treat a martyr''s death as a loss to be consoled
   but as a completion to be named correctly, even at the cost of sounding cold to an outsider.'
 ---
-Mapped directly from Story-Chunks/lpcstory003_numidicus.md, recast into first-person register (Cyprian's own letter is already first-person in the chunk; the surrounding narration here is recast from 'Cyprian writes to the clergy and people of Carthage' to 'Cyprian wrote to us'). 'Half consumed, overwhelmed with stones' independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml; verification_state held at verified-direct on that basis.
+Derived from Story-Chunks/lpcstory003_numidicus.md, recast into first-person register (the chunk gives Cyprian's letter in the first person; the surrounding narration changes from 'Cyprian writes to the clergy and people of Carthage' to 'Cyprian wrote to us'). 'Half consumed, overwhelmed with stones' is in cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml.

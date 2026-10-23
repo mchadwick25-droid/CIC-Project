@@ -30,7 +30,7 @@ For us, "the people" names the congregation acting — consenting, demanding, el
 
 They are not an audience. They put men into office and they say so out loud; they can also stand in front of the bishop's seat and refuse to go home.
 
-At Hippo in 411 they wanted a particular wealthy man made their presbyter and they did not get him. They clamoured, they abused another bishop present, and when told the bishop was bound by a promise they *began to be much more warmly excited*, calculating that the promise might break or another bishop might be found. He left them, went to his seat, and held. That is the shape of it exactly: real leverage, loudly exercised, and finally bounded by the one man's refusal.
+At Hippo in 411 they wanted a particular wealthy man made their presbyter and they did not get the ordination. They clamoured, they abused another bishop present, and when told the bishop was bound by a promise they *began to be much more warmly excited*, calculating that the promise might break or another bishop might be found. He left them, went to his seat, and held. That is the shape of it exactly: real leverage, loudly exercised, and finally bounded by the one man's refusal.
 
 ---
 
@@ -54,7 +54,7 @@ Neither. A corporate body whose consent and demand genuinely constitute a call t
 
 Epistle XXXIX is addressed to the people concerning five schismatic presbyters (Registry row 1); Letter CXXVI (row 11) carries the Hippo episode quoted above, re-verified at source; Augustine's own account of accepting the episcopate cites *"the love of Valerius and the importunity of the people"* (row 11).
 
-**Substitute-term disclosure, carried from Doc_03.** This world's corpus does not attest the Latin *plebs* as either bishop's own word: a sweep of the vendored Cyprian corpus returns exactly three occurrences, **all three inside the 19th-century American editor's introductory and elucidatory prose, none inside Cyprian's letters.** *Plebs* is therefore not a headword here, and this entry's label is a working English handle, disclosed as such.
+**Substitute-term disclosure, scoped to the English volume.** In the vendored English edition of Cyprian, the Latin *plebs* occurs exactly three times, **all inside the 19th-century American editor's introductory and elucidatory prose, none inside Cyprian's letters.** Cyprian's Latin does use it. Hartel's letters carry *plebs* in running text, 89 whole-word occurrences with notes excluded, for example *"et praepositis et plebi"* (letter 4 §2), and letter 43, which ANF numbers Epistle XXXIX, is headed *"CYPRIANVS PLEBI VNIVERSAE S."* (Registry row 296). This entry's label is a working English handle; whether *plebs* becomes the world word is not settled here.
 
 ---
 

@@ -47,26 +47,26 @@ description: >-
 
 
   This was the question that would not go away, felt from inside: what do you owe someone who is
-  yours and has failed? A church that takes everyone back the same afternoon has no door. One that takes
-  no one back has no Master.
+  yours and has failed? A church that takes everyone back the same afternoon has no door. One that
+  takes no one back has no Master.
 
 
-  In the first phase, this contest directly produced the church's penitential discipline. In that same
-  phase, it also connects to the question of valid sacraments and ordination across the church's
-  boundary. Both are questions of boundary and return, and Cyprian reasons about them consistently.
+  In the first phase, this contest directly produced the church's penitential discipline. In that
+  same phase, it also links to the question of valid sacraments and ordination outside the church.
+  Both are questions of boundary and return, and Cyprian reasons about them in the same way.
 
 
-  It is only a qualified claim that the contest lasts into the second phase, not an assumed one. The
-  concern does not continue under its own name. What survives is a family resemblance to two separately
-  tested concerns: sacramental validity, and grace and human incapacity. The debate over grace reshapes
-  the old concern; it does not continue it. So that later link is a resemblance only, not a direct
-  connection. This force connects to penitential discipline and sacramental validity, both in the first
-  phase. It does not connect to grace.
+  That the contest lasts into the second phase is a qualified claim, not an assumed one. The concern
+  does not continue under its own name. What survives is a family resemblance to two other concerns
+  that were tested on their own: sacramental validity, and grace and human incapacity. The debate
+  over grace reshapes the old concern but does not continue it. So the later link is a resemblance,
+  not a direct connection. This force connects to penitential discipline and sacramental validity,
+  both in the first phase. It does not connect to grace.
 
 
-  The Decian edict created the category of the failed member that this contest is about. The confessors'
-  own parallel system sharpened it. Because of that rival system, the contest had to be settled by a
-  formal process, not by the bishop's word alone.
+  The Decian edict made failed members common, and this contest is about them. The confessors' own
+  parallel system sharpened it. That rival system meant a formal process had to settle the contest,
+  not the bishop's word alone.
 manifestations:
 - the lapsed under Cyprian; ordinary post-baptismal sin and schism-tempted believers under Augustine
 matrix_cell: 2B

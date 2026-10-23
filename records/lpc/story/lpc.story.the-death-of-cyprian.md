@@ -11,32 +11,39 @@ confidence:
   citation_specificity: B
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Contested
-  divergence_note: Contested for the general portrait; Inferential-Thin for the specific details shaped
-    by hagiographic convention (the Zacchaeus typology, the strengthened hand) -- CF V7.4's own Tier 3
-    confidence rule, and the tier assignment itself is disclosed as resting on the hagiographic-convention
-    clause against the genus clause, an open escalation carried to the project lead rather than resolved
-    here (Doc_09 SS8 item 7; Story-Chunks/lpcstory006, Tier Justification).
+  formation_confidence: Widely Accepted
+  divergence_note: Widely Accepted rather than Documented, because the corroborating text is an early
+    compilation whose compiler is unnamed, and vendored scholarship argues over how it relates to Pontius.
+    The details only Pontius gives (the trees, the comparison to Zacchaeus, the trembling fingers, the
+    hand strengthened from above) carry Contested confidence, and Inferential-Thin where hagiographic
+    convention shapes them. The two texts differ on who tied the cloths over Cyprian's eyes. Which clause
+    of CF V7.4's Tier 3 definition governs when they conflict is an open governance question (Doc_09 SS8
+    item 7), and this story does not rest on it.
 sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
-  locus: SSSS15-19; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28100-28260
+  locus: SSSS15-19; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28161-28303; Latin in
+    cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41243-41366
   license: public-domain
 - source_id: lpc.source.acta-proconsularia-sancti-cypriani
-  locus: the strictly documentary witness, vendored in Latin only and not read in this build; named here
-    rather than silently omitted
+  locus: Acta 2-6, an early compilation with an unnamed compiler, in one edition (Hartel) printed three
+    times; cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt, lines 4877-4958, quoted
+    here; the same text in the Hartel volume, lines 41509-41626, and in Gebhardt no. XI
   license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
   - participant asks how we understood a life completed
+  - participant asks how Cyprian died, or how his people met his death
   - participant asks what we believed formation finally produced
   - conversation reaches the pastoral office or the confessor tension
   prefer_instead:
-  - participant wants to know what historically happened at Cyprian's own trial -- this account is not
-    the right instrument, and the Acta has not been read
+  - participant wants a transcript of Cyprian's trial -- the Acta is a Christian compilation built around
+    the hearing records, and is not a court transcript
 claim_guards:
 - this account must not be presented as historical fact that the executioner's hand was strengthened from
-  above -- we report only that this is how the tradition told it
+  above -- we report only that this is how Pontius told it
+- the two texts differ on who tied the cloths over Cyprian's eyes -- we state the difference and do not
+  resolve it
 relations:
 - type: associated-with
   target: lpc.contested.cyprian-death-genre
@@ -44,46 +51,72 @@ relations:
   target: lpc.figure.cyprian
 - type: associated-with
   target: lpc.figure.pontius
-narrative_tier: 3
-narrative_tier_justification: 'Contested for the portrait; Inferential-Thin for details shaped by convention.
-  Tier 3, and the tier turns on genre rather than on the author (Doc_09 SS3-4). Pontius meets Tier 1''s
-  own author test -- eyewitness deacon, identifiable location, within the horizon -- and lpcstory001/002
-  assign him Tier 1 on that basis. This story is different on the face of the text: the Zacchaeus parallel
-  is an authorial aside, not a reader''s inference, and the executioner''s failing hand strengthened ''with
-  power granted from above'' is a providential intervention at the climax. CF V7.4''s own genus clause
-  (''resting on collected tradition rather than direct documentation'') would exclude an eyewitness like
-  Pontius; its hagiographic-convention clause describes this story exactly. Doc_09 assigns Tier 3 on the
-  convention and against the genus clause, leaving the tension open rather than resolving it quietly --
-  unchanged here.'
-tellable_as: How our tradition remembered our first great bishop's death as a life fully given, completed
-text: 'This is how our own tradition remembered the death of our first great bishop -- an account written
-  by his own deacon, in the form of a saint''s life, showing what we believed a life fully given to the
-  pastoral office could become. We offer it as that portrait, not as a report of what a bystander would
-  have seen.
+narrative_tier: 1
+narrative_tier_justification: 'Widely Accepted. Tier 1 on the core that Pontius and the Acta Proconsularia
+  both attest (Doc_09 SS3-4). Pontius meets Tier 1''s author test: a named deacon with an identifiable
+  place in the community, within the horizon, with Cyprian on the last night. The Acta is an early Christian
+  compilation built around the hearing records, its compiler unnamed and its edition one (Hartel''s, in
+  three printings), so it corroborates a named author and does not carry the author test alone. The details
+  only Pontius gives are marked as his and carry Contested confidence, or Inferential-Thin where hagiographic
+  convention shapes them. The two texts differ on who tied the cloths over Cyprian''s eyes.'
+tellable_as: How two early texts tell our first great bishop's death, and where they differ
+text: 'This is how two early texts tell the death of our first great bishop. One is by his deacon, Pontius,
+  who wrote it in the form of a saint''s life. The other is the Acta Proconsularia, an early Christian
+  compilation built around the records of his hearings. Its compiler is unnamed. Where both texts agree,
+  we say so plainly. Where only one speaks, we say which.
 
 
-  In Pontius''s telling, the crowd that came out for the execution could not all see, so people climbed.
-  "Persons who favoured him had climbed up into the branches of the trees." Pontius tells us what that
-  resembled: "that there might not even be wanting to him (what happened in the case of Zacchæus), that
-  he was gazed upon from the trees."
+  The night before the sentence, Cyprian was held in an officer''s house. Pontius says that he and the
+  other friends "were as usual in his company." The people stayed outside. Pontius writes that they, "in
+  anxiety that nothing should be done throughout the night without their knowledge, kept watch before
+  the officer''s door." The Acta says the same in fewer words: the whole people of the brothers came together
+  there, and all of them stayed in the street before the door.
 
 
-  Then the bishop bound his own eyes. "Having with his own hands bound his eyes, he tried to hasten the
-  slowness of the executioner." The executioner could not do it easily -- the man needed, in Pontius''s
-  account, help from above: "until the mature hour of glorification strengthened the hand of the centurion
-  with power granted from above."
+  In the morning a great crowd went with him. Pontius says he went out "walled in on all sides by the
+  ranks of a mingled multitude." The Acta says a large crowd came together at the place called Sexti,
+  and that after the sentence a large crowd followed him out.
 
 
-  The portrait we kept, then, is of a man more composed than the soldier killing him, in a crowd arranged
-  like a scene from Scripture -- a life that ends the way we believed a formed life ends: ready before
-  anyone else in the clearing is.'
-absent_detail: 'What cannot be told is what the crowd made of it -- not one of them left an account of
-  their own. What can be told is that the official version exists: the Acta Proconsularia, the court''s
-  own record of the proceedings, is vendored in this world''s own corpus and Pontius himself points to
-  it, but we have not read it. Reading it would likely move this story to Tier 1.'
-modern_contrast: 'A modern listener asking ''did that really happen?'' deserves three things at once,
-  not one: that Cyprian was certainly executed under Valerian in 258; that the account we have is written
-  in praise by his own deacon, in a form that patterns deaths on Scripture; and that a strictly documentary
-  record of the trial exists and we have not read it.'
+  The proconsul read the sentence from a tablet. Pontius reports that it called Cyprian "a standard-bearer
+  of the sect, and an enemy of the gods, and one who was to be an example to his people; and that with
+  his blood discipline would begin to be established." The Acta gives the sentence in nearly the same
+  words. On the sentence the two texts are not independent witnesses. Only the Acta gives Cyprian''s answer:
+  Deo gratias, "Thanks be to God."
+
+
+  Then the crowd called out. The Acta gives their words: Et nos cum ipso decollemur, "Let us too be beheaded
+  with him." Pontius does not quote the cry. He says the people''s "general wish" was "that the entire
+  congregation should suffer at once in the fellowship of a like glory," and he calls them blessed because
+  they, "in outspoken words, suffered with such a bishop as theirs."
+
+
+  Both texts say he covered his own eyes, and they differ on the cloths. Pontius says that, "having with
+  his own hands bound his eyes," he tried to hurry the executioner. The Acta says Cyprian covered his
+  eyes with his own hand, and that when he could not tie the hand-cloths himself, the presbyter Julianus
+  and the subdeacon Julianus tied them for him. We do not choose between the two.
+
+
+  Only the Acta tells what came before the blow: he knelt and prayed, gave his outer robe to his deacons,
+  and told his people to give the executioner twenty-five gold pieces. Only the Acta tells the burial:
+  his body was taken up in the night and carried with candles and torches to the grounds of Macrobius
+  Candidianus on the Mappalian road, "with great prayer and triumph."
+
+
+  Pontius adds things the Acta does not mention, and they are his. He says the ground was "level, so that
+  it affords a noble spectacle, with its trees thickly planted on all sides." People who could not see
+  "had climbed up into the branches of the trees, that there might not even be wanting to him (what happened
+  in the case of Zacchæus), that he was gazed upon from the trees." He writes that the executioner "with
+  difficulty clasped the blade in his failing right hand with trembling fingers, until the mature hour
+  of glorification strengthened the hand of the centurion with power granted from above." The Latin of
+  that sentence can be read two ways. The Acta calls the executioner a spiculator and says nothing of
+  any strengthening. We tell that part as Pontius''s reading.'
+absent_detail: 'What cannot be told is what any one person in the crowd made of it, because no spectator
+  left an account of his own. What the crowd said as a body, the Acta records: Et nos cum ipso decollemur.
+  Pontius himself points the reader to the Acts, at the end of his account of the banishment hearing of
+  257.'
+modern_contrast: A modern listener asking "did that really happen?" deserves three things at once. Cyprian
+  was executed under Valerian and Gallienus on 14 September 258. Two early texts agree on the core of
+  how it happened. And they disagree on one detail, who tied the cloths over his eyes.
 ---
-Mapped directly from Story-Chunks/lpcstory006_the-death-of-cyprian.md, recast into first-person register except the opening framing sentence, kept close to the chunk's own explicit 'this is how this world's tradition remembered' framing (recast to 'this is how our own tradition remembered', avoiding the literal phrase 'this world' per gate_voice_perspective). 'Bound his eyes' independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml; verification_state held at verified-direct on that basis. retrieval.tier set to 2 (a specialized, hagiographic-register companion case to the six Tier 1 documentary stories), matching don's own precedent for its own Tier 3 story.
+Derived from Story-Chunks/lpcstory006_the-death-of-cyprian.md, recast into first-person register. Quotations from Pontius are in cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28160-28303, and the English renderings of the Acta are this build's own.

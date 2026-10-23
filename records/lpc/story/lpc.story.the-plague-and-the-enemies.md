@@ -49,7 +49,7 @@ narrative_tier_justification: 'Widely Accepted. Tier 1 at the narrative level, W
   down one band because the content of the address reaches us only through Pontius, reconstructing a sermon
   he heard, in a work written to praise the man who preached it -- a reported speech inside a biography
   of praise is not the same evidentiary object as a letter in the man''s own hand. Not Tier 3: there is
-  no miracle and no providential intervention, and the death-as-completion pattern absent because nobody
+  no miracle and no providential intervention, and the death-as-completion pattern is absent because nobody
   dies here.'
 tellable_as: How our bishop met a plague by teaching us to care for the very people persecuting us
 text: 'Pontius, writing as a deacon who was there, described the epidemic without any of the consolation
@@ -80,6 +80,6 @@ absent_detail: Whether the persecutors themselves were among those helped is not
   of ours left a word about being helped by us during this epidemic.
 modern_contrast: 'A modern listener may hear ''love your enemies'' as a maxim available anywhere. What
   is not available everywhere is the specific setting: said to a frightened congregation, in a city where
-  the dead were left where they fell, by a bishop who would himself be executed eight years later.'
+  the dead were left where they fell, by a bishop who would himself be executed a few years later.'
 ---
-Mapped directly from Story-Chunks/lpcstory002_the-plague-and-the-enemies.md, recast into first-person register. 'Dreadful plague' and 'a neophyte'-adjacent material independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml (the epidemic description and Cyprian's own reported address, in the same Life and Passion Pontius text as lpcstory001, several thousand lines further on); verification_state held at verified-direct on that basis rather than only on the chunk's own prior citation.
+Derived from Story-Chunks/lpcstory002_the-plague-and-the-enemies.md, recast into first-person register. The epidemic description and Cyprian's reported address are in the Life and Passion of Cyprian by Pontius, in cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, several thousand lines after the passage lpcstory001 uses.

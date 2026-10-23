@@ -76,8 +76,8 @@
 
 | From | To | Direction | Connection |
 |---|---|---|---|
-| `1A-1` | `2B-1` | produces | The Decian edict creates the category of the failed member that the ongoing internal contest is about. Without 1A-1 there is no 2B-1. |
-| `1A-1` | `2B-2` | produces | The same edict creates confessors as a class with a claim; 2B-2 has no claimants without it. |
+| `1A-1` | `2B-1` | produces | The Decian edict makes the failed member a mass category, and that is what the ongoing internal contest is about. Without 1A-1 there is no 2B-1 at this scale. |
+| `1A-1` | `2B-2` | produces | The same edict makes confessors a class with a claim at scale; 2B-2 has no claimants on this scale without it. |
 | `1A-2` | `1B-2` | shapes | An office with no legal protection is one a sensible man declines, which is why the acclamation pattern has to override reluctance. |
 | `1A-2` | `2B-3` | inverts into | The standing condition of illegality is precisely what the illegal-to-established shift removes. The same fact appears at both ends of the matrix with opposite sign. |
 | `1B-1` | `1B-2` | enables | A church organized enough to hold factions is organized enough to elect over a faction's opposition. |

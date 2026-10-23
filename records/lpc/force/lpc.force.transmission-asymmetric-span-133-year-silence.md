@@ -13,7 +13,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: 'Doc_08 §3 Force 3B-2: Documented as a fact about the record itself, checkable against
-    the Registry -- no primary source named at Doc_02 §1 and no Registry row dates from within the 133-year
+    the Registry -- no surviving voice continuous with Cyprian''s ordinary-pastoral mode, from within this world''s boundary, dates from within the 133-year
     gap. Layer 2''s own sentence on how the inheritance was received carries the Reported-Experience Status
     marker (Constitution Article 17; Forces Framework §3): reported as the world''s own self-understanding,
     not assessed for historical accuracy.'
@@ -27,9 +27,11 @@ name: 'Transmission: an Unevenly Attested Span and a 133-Year Silence'
 kind: ending
 description: >-
   This world's closing decades are much better attested than its opening ones. Between its two phases
-  lies a silence of roughly 133 years, from Cyprian's martyrdom to Augustine's ordination. No primary
-  source in our own record, and no text in our own source catalogue, dates from within that gap. This is a
-  documented fact about the record itself, and anyone can check it against the catalogue.
+  lies a silence of roughly 133 years, from Cyprian's martyrdom to Augustine's ordination. No surviving
+  voice continuous with Cyprian's ordinary pastoral mode, from within this world's boundary, dates from
+  within that gap. Some texts in our own source catalogue do date from it or record its events, such as
+  Optatus's polemic, the council canons and imperial law, and none of them is that voice. This is a documented
+  fact about the record itself, and anyone can check it against the catalogue.
 
 
   Augustine does not receive Cyprian through a chain of teachers who knew him. He receives a set of
@@ -62,7 +64,7 @@ description: >-
   span of the record rather than its content.
 manifestations:
 - the roughly 133-year gap between Cyprian's martyrdom (258) and Augustine's ordination (391), from which
-  no named primary source or catalogued text dates
+  no ordinary-pastoral voice of this world survives
 - Augustine reading and arguing with Cyprian's own council acts and letters as a text to be weighed, not
   a custom carried by living memory
 matrix_cell: 3B

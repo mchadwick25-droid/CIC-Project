@@ -29,9 +29,16 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'This doctrine is known in our own corpus only through Augustine''s own advocacy, in
     his own defence, with no Donatist first-person answer surviving in our Native record (Author-Gravity-Risk:
-    Yes). The vendored volume''s own 19th-century preface calls this doctrine ''a false exegesis'' and
-    ''least satisfactory to Protestant readers'' -- that is the editor''s own theological verdict, not
-    Augustine''s and not ours, and it is excluded entirely from this record.'
+    Yes). The vendored volume''s own 19th-century preface calls the anti-Donatist works as a body ''least
+    satisfactory to Protestant readers'' and says Augustine defended coercion by ''a false exegesis''
+    -- that is the editor''s own theological verdict, not Augustine''s and not ours, and it is excluded
+    entirely from this record. This term also carries a live scholarly contest, of the type Relationship
+    to present-day traditions, secondarily Meaning. It is the most-cited patristic warrant in the modern
+    historiography of religious coercion, and the argument runs over how far the position is the ancestor
+    of later inquisitorial practice, how far its framing as pastoral correction should be credited, and
+    whether the three-phase development is a genuine change of mind or a retrospective self-presentation.
+    The entry does not adjudicate that question, does not endorse or condemn the position, and does
+    not characterize the Donatists.'
 sources:
 - source_id: lpc.source.augustine-correction-of-the-donatists
   locus: Letter 185, SS25-26, the imperial-coercion defence
@@ -69,24 +76,15 @@ senses:
     coercion is argued as recovering a separated party, not expelling one still inside. It is not an organizing
     force of our own ecology, and that is a finding rather than an omission -- nothing in this ecology
     organizes around it; the shift changes the instruments available to a bishop, not the thing a bishop
-    is.
-
-
-    This term also carries a live scholarly contest. Doc_06 names it Relationship to present-day traditions,
-    secondarily Meaning: it is the single most-cited patristic warrant in the modern historiography of
-    religious coercion, and the argument runs over how far this position is the ancestor of later inquisitorial
-    practice, how far our own framing as pastoral correction should be credited, and whether the three-phase
-    development is a genuine change of mind or a retrospective self-presentation. This entry does not
-    adjudicate that historiographical question, does not endorse or condemn the position, and does not
-    characterize the Donatists.'
+    is.'
   evidential: Letter 185, SS25-26, the imperial-coercion defence, and Letter XCIII, SS17, the retrospective
     account of the earlier opinion, are both directly quoted and re-verified. The parable exegesis is
     Augustine's own, re-verified at source. This doctrine is known in our own corpus only through Augustine's
     own advocacy, in his own defence, with no Donatist first-person answer surviving in our Native record;
     he writes from a position of increasing institutional confidence relative to Donatism. The vendored
-    volume's own 19th-century preface calls this doctrine 'a false exegesis' and 'least satisfactory to
-    Protestant readers' -- the editor's own judgement, not Augustine's and not ours, excluded entirely
-    from this record.
+    volume's own 19th-century preface calls the anti-Donatist works as a body 'least satisfactory to Protestant
+    readers' and says Augustine defended coercion by 'a false exegesis' -- the editor's own judgement,
+    not Augustine's and not ours, excluded entirely from this record.
   translational: A modern listener is likely to hear a straightforward endorsement of religious persecution,
     and to attach it to later inquisitions and wars of religion as if it were our own settled position
     throughout. We mean a late, argued position, reached against the author's own earlier opinion, defended
@@ -95,4 +93,4 @@ senses:
 quick_meaning: For us, this is a late argument. A Christian ruler may use force to bring a separated group
   back into the one communion.
 ---
-Re-derived from Doc_06 SS2.3 ('the hard case'; 'by a distance the single most dangerous term in this lexicon,' retained at Tier 2 on Doc_04 SS2's own finding that it does not organize this ecology) and Lexicon-Chunks/lpclex016_compel-them-to-come-in.md. CT Contest Type folded into senses.informational per this script's own schema-forced placement rule; the editorial Protestant-editor verdict is named and excluded, never absorbed into any field here. Relations: five terms per this term's own Related-Terms line.
+Derived from Doc_06 §2.3 and Lexicon-Chunks/lpclex016_compel-them-to-come-in.md.

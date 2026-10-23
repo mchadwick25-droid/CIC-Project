@@ -27,17 +27,15 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'The regulating voice is Cyprian''s throughout, as with every entry in this cluster;
     the confessors'' own certificates do not survive, and what survives is Cyprian quoting, paraphrasing,
-    and objecting to them (Author-Gravity-Risk: Yes). This entry''s own first draft misquoted an editorial
-    endnote''s wording as Cyprian''s own -- ''thousands of certificates were given, against the Gospel
-    law'' -- when Cyprian''s own text reads ''were daily given, contrary to the law of the Gospel''; the
-    correction is disclosed here rather than silently fixed, per this world''s own editorial-apparatus
-    register (Lexicon_Deployment_Index.md SS7).'
+    and objecting to them (Author-Gravity-Risk: Yes). An editorial endnote
+    words one sentence as ''thousands of certificates were given, against the Gospel law''. Cyprian''s
+    own text reads ''were daily given, contrary to the law of the Gospel'', and this record uses his.'
 sources:
 - source_id: lpc.source.cyprian-epistles
-  locus: Cyprian's own crisis correspondence, Epistle XIV -- 'designate by name in the certificate those
+  locus: Cyprian's own crisis correspondence, Epistle X -- 'designate by name in the certificate those
     whom you yourselves see, whom you have known, whose penitence you see to be very near to full satisfaction';
-    'Let such a one be received to communion along with his friends'; 'thousands of certificates were
-    daily given, contrary to the law of the Gospel'
+    'Let such a one be received to communion along with his friends'; Epistle XIV -- 'thousands of certificates
+    were daily given, contrary to the law of the Gospel'
   license: public-domain
 retrieval:
   tier: 2
@@ -75,8 +73,7 @@ senses:
   evidential: Cyprian's own crisis correspondence carries the whole argument, re-verified at source, scoped
     to his own division of the vendored text. 'Certificate' and 'certificates' occur 42 times within that
     division, of which 4 sit inside editorial notes, leaving 38 in Cyprian's own text -- the figure that
-    attests the term, not the naive 42. This entry's own first draft misquoted the editor's own endnote
-    wording as Cyprian's own; the correction is disclosed rather than smoothed over. The confessors' own
+    attests the term, not the naive 42. The confessors' own
     certificates do not survive; what survives is Cyprian quoting, paraphrasing, and objecting to them,
     though Epistles XX-XXI do preserve two confessors writing in their own first-person voices about a
     specific reconciliation, as close as our record comes to their own side.
@@ -89,4 +86,4 @@ senses:
 quick_meaning: For us, a certificate is a letter a confessor sends the bishop. It asks that one named
   lapsed person be let back into communion.
 ---
-Re-derived from Doc_06 SS2.4 (lpclex019, Tier 2, the one term Doc_03 did not surface -- 'without it, this lexicon describes the confessor-authority tension without naming the instrument the tension was conducted with') and Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md. world_word set to the singular 'certificate' rather than the chunk's own multi-word Term line, matching the chunk's own Quick Meaning register and avoiding a false-friend collision with lpc.term.libelli's own distinct headword. Relations: six terms per this term's own Related-Terms line.
+Derived from Doc_06 §2.4 and Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md. world_word is the singular 'certificate'.

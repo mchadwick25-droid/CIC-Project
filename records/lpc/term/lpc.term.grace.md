@@ -28,8 +28,12 @@ confidence:
   divergence_note: 'The entire evidentiary base for this term is one voice (Augustine) within one evidence
     stream (the anti-Pelagian corpus), flagged at generation rather than discovered afterwards (Author-Gravity-Risk:
     Yes). No Pelagian first-person answer survives in our own record. This term also carries a live scholarly
-    contest, kept on its own, independent axis from this historical-fact rating -- see senses.informational''s
-    own closing paragraph for the contest itself, per Doc_06 SS3.'
+    contest, kept on its own axis, independent of this historical-fact rating. The contest type is Relationship
+    to present-day traditions, secondarily Meaning. It runs over how the historical position stands to
+    the way living traditions use the word now, including later appropriations and the Catholic-Protestant
+    disagreements that ran through them, and over the modern reassessment of whether the position Augustine
+    argued against is the one Pelagius held. The entry does not present the anti-Pelagian position as
+    the settled meaning of the word across Christian history, and it does not characterize Pelagius.'
 sources:
 - source_id: lpc.source.augustine-anti-pelagian-corpus
   locus: the anti-Pelagian corpus, licensed directly for the grace/sufficiency-test gravity candidate;
@@ -46,8 +50,8 @@ retrieval:
   - the participant is asking about grace as a general modern religious pleasantry or as gracefulness,
     or the conversation sits in Cyprian's own phase, where this controversy does not yet exist -- ask
     about a Cyprian-phase term instead
-plain_meaning: For us, grace names the insistence that no one's own effort is ever sufficient on its own.
-  Whatever good a person manages was given to them before they managed it.
+plain_meaning: For us, grace is the insistence that no effort of ours is enough on its own. Any good a
+  person does was given to them before they did it.
 world_word: grace
 distortion_risk: high
 false_friend:
@@ -68,17 +72,6 @@ senses:
     propagated through preaching and catechesis, structurally like penitential discipline in addressing
     the compromised believer, but in a different register. It is also freestanding: nothing else in our
     ecology depends on it resolving one way or the other.
-
-
-    This term also carries a live scholarly contest, kept apart from the historical question of what Augustine
-    himself wrote. Doc_06 names it Relationship to present-day traditions, secondarily Meaning: the contest
-    runs over how our own historical position stands to the way living traditions use the word now --
-    the Reformation-era and later appropriations, the Catholic-Protestant disagreements that ran through
-    them, and the modern scholarly reassessment of whether the position we argue against is the one Pelagius
-    himself actually held. A listener arriving with this word is very often arriving from inside one of
-    those later arguments, not ours. This entry does not present our own anti-Pelagian position as the
-    settled meaning of the word across Christian history, and it does not characterize Pelagius -- how
-    we characterize our own opponents belongs elsewhere, not to this lexicon.
 
 
     Reported as our own self-understanding, not assessed here for historical accuracy; confidence calibration
@@ -103,4 +96,4 @@ senses:
 quick_meaning: 'For us, grace means this: no one''s own effort is ever enough. Whatever good a person
   does was given to them first.'
 ---
-Re-derived from Doc_06 SS2.1 (lpclex007, Tier 1, G7 Supporting -- 'the one gravity that is formation content rather than medium, and the highest-frequency term in the corpus by a wide margin') and Lexicon-Chunks/lpclex007_grace.md. CT Contest Type and Reported-Experience Status both folded into senses.informational as separated closing paragraphs -- `term` has no dedicated field for either (see script docstring, CT CONTEST TYPE FINDING and REPORTED-EXPERIENCE FINDING). The Reported-Experience marker is carried near-verbatim from the chunk's own Reported-Experience Status section; the chunk's own World Meaning opens with the identical sentence mis-pasted a section early, which this record does not repeat in plain_meaning or the informational paragraph's own opening (see script docstring, FIELD MAPPING, first bullet) -- flagged there, not silently carried forward twice. Relations: five terms per this term's own Related-Terms line.
+Derived from Doc_06 §2.1 and Lexicon-Chunks/lpclex007_grace.md. The Reported-Experience Status paragraph is carried in senses.informational.

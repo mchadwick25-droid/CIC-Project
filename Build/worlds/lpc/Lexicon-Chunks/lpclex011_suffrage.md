@@ -7,7 +7,7 @@ World-Code:         lpc
 
 Tier:               2
 
-Tags:               AS
+Tags:               AS, DR
 
 Aliases:            suffrage, acclamation, popular election, being seized for office, calling against one's will
 

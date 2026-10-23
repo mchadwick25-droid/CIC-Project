@@ -52,7 +52,7 @@ Neither a manifesto nor a constitution. A working statement of how a council amo
 
 ## Key Sources
 
-The 256 Council preface, Registry row 4 — directly quoted and re-verified at source, and re-quoted across all nine of Doc_01's review rounds.
+The 256 Council preface, Registry row 4 — directly quoted and re-verified at source.
 
 **Editorial-apparatus note, and it matters substantively here.** The vendored ANF text prints an editor's remark *inside* this passage — *"Of course this implies a rebuke to the assumption of Stephen, ['their brother,' and forcibly contrasts the spirit of Cyprian with that of his intolerant compeer]."* That is the 19th-century American editor's reading of Cyprian's **motive**, not Cyprian's words. **No claim in this entry rests on the formula being aimed at Stephen.**
 
