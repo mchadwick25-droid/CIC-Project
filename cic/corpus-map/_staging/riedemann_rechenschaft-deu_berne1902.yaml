@@ -1,0 +1,20 @@
+source_file: riedemann_rechenschaft-deu_berne1902.txt
+
+assignments:
+  - row_id: riedemann_rechenschaft-deu_berne1902--rechenschaft-unsrer-religion-lehre-und-glaubens
+    work: "Rechenschaft unsrer Religion, Lehre und Glaubens (Riedemann; Berne, Indiana reprint, 1902)"
+    author: riedemann
+    locus: "whole volume: publishers' note on the Huterische Brüder-Gemeine from file line 41, Riedemann's Vorrede and the Rechenschaft in sections headed 'Von ...' after it (headings garbled in the OCR; page-numbered running heads)"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      Peter Riedemann's confession of faith for the Hutterite Brethren
+      (written in prison in Hesse, 1540-41; printed 1565), the Moravian
+      wing's fullest doctrinal statement, in the Brethren's own 1902
+      American reprint. SECOND WITNESS for scan quality under Mark's OCR
+      ruling: the Fraktur OCR is garbled throughout, so
+      nothing is quotable from this file until a cleaner scan is vendored
+      or each passage is read on the page images. German; the English
+      translations (1950, 1970) are in copyright.

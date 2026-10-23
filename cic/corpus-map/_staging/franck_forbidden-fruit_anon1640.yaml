@@ -1,0 +1,18 @@
+source_file: franck_forbidden-fruit_anon1640.txt
+assignments:
+- row_id: franck-forbidden-fruit-anon1640-the-forbidden-fruit-a-treatise-of-the-tree-of-knowledge-of-good-and-evill-engl
+  work: 'The Forbidden Fruit: a Treatise of the Tree of Knowledge of Good and Evill, English 1640 (title
+    page "August. Eluthenius")'
+  author: franck
+  locus: title page at file line 54; chapters "CHAPTER I." to "CHAP. XIII." and after (63 to 8351)
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: tradition
+  confidence: needs-ruling
+  note: 'An English print of the Latin form of Franck''s work on the tree of knowledge, which the title
+    page ascribes to ''August. Eluthenius''. The attribution to Franck rests on the host catalogue and
+    the pseudonym, not on the file, so the placement needs a ruling. If it holds, it is the only Franck
+    text in public-domain English found. It is a 1640 reprint, outside the 1540-1600 window, and was read
+    by English spiritualists of the 1640s. SECOND WITNESS for exact wording: EEBO microfilm OCR (about
+    0.90 of tokens read as words at five sample points), so locate passages here and verify against the
+    page images before quoting (Mark''s OCR ruling). '

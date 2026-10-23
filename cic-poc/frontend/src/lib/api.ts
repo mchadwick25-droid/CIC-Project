@@ -7,6 +7,7 @@
  * authoritative. A server that answers with plain JSON is handled the same
  * way, with no sentences.
  */
+import { noteShelved } from './accounts';
 import { codeHeaders, currentCode, freeLeftFromHeader, remainingFromHeader, reportBalance, reportFreeLeft } from './deeper';
 import type { CreateSessionResponse, MessageResponse, TableMessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
 import type { StreamedSentence } from './streamedReply';
@@ -108,7 +109,9 @@ export async function createSession(worldKey: string): Promise<CreateSessionResp
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
-  return response.json();
+  const created: CreateSessionResponse = await response.json();
+  noteShelved(created.shelved);
+  return created;
 }
 
 // 2-3 distinct world keys convene a table session (Artifact-7 SS1/SS6) -
@@ -122,7 +125,9 @@ export async function createTableSession(worldKeys: string[]): Promise<CreateSes
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
-  return response.json();
+  const created: CreateSessionResponse = await response.json();
+  noteShelved(created.shelved);
+  return created;
 }
 
 // The participant's own deletion request: the server removes the

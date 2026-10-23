@@ -1,0 +1,28 @@
+source_file: teellinck_pauls-complaint-against-his-naturall-corruption_1621.txt
+
+assignments:
+  - row_id: teellinck_pauls-complaint-against-his-naturall-corruption_1621--pauls-complaint-against-his-naturall-corruption
+    work: "Pauls Complaint against his Naturall Corruption (two sermons on Romans 7:24, 1621 English translation)"
+    author: teellinck
+    locus: "the translator's 'Epistle Dedicatory' from line 114; the sermons from line 304 to 'FINIS' at line 4165"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      Two of Teellinck's Middelburg sermons, in English within his lifetime; his preached
+      voice on sin, misery and deliverance, the centre of Nadere Reformatie piety. Primary
+      voice; the OCR is noisier than the 1622 tract, so quote only after checking the page
+      image.
+  - row_id: teellinck_pauls-complaint-against-his-naturall-corruption_1621--pauls-complaint-against-his-naturall-corruption-2
+    work: "Pauls Complaint against his Naturall Corruption (1621 English translation)"
+    author: teellinck
+    locus: "whole file"
+    atlas_ids:
+      - puritanism
+    role: transmission
+    confidence: provisional
+    note: >
+      Custody, not voice: printed in London (Dawson for Bellamie) for English readers; the
+      translator's own dedication says the sermons were first preached and published in Dutch.
+      Placed on that printing history alone.

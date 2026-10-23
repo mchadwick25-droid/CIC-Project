@@ -1,0 +1,51 @@
+source_file: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt
+
+authors_ruled:
+  abdisho-iv:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The profession is in the
+      first person of "Abdisu", named in the print as "Patriarcha Orientalium Assyriorum" (title and the
+      profession itself, file lines about 11 and 250); the covering letter is signed by Cardinal Marcantonio
+      Amulio. A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562--approbatio-et-professio-fidei-abdisho-iv-1562
+    work: "Approbatio et professio of the patriarch of the Orientalium Assyriorum (Abdisho IV) and Cardinal Amulio's letter to the legates at Trent, 1562"
+    author: abdisho-iv
+    locus: "whole file (about 11,000 characters): Cardinal Amulio's letter from file line 98; the profession of faith 'Ego Abdisu filius Ioannis' from about line 250; the certification of 23 July 1562 at about line 214"
+    atlas_ids:
+      - church-of-the-east-schism-of-1552
+    role: tradition
+    confidence: assigned
+    note: >
+      The profession of faith sworn at Rome by Abdisho IV, the patriarch the Sulaqa party chose after Sulaqa's
+      death, with the covering letter to the legates of the Council of Trent. It is a Roman-formula profession
+      (the census says the Sulaqa material is "documented from the Roman side"), and it lists the sees under
+      his jurisdiction, including the Malabar sees. It is the line's own act, but in the Latin words Rome
+      required, so a build should treat the voice as the patriarch's act, not his free composition. Not Sulaqa's
+      own 1553 profession, which was not found (dossier section 4). Second witness for exact wording: noisy
+      OCR of a 1562 print. No public-domain English translation found.
+  - row_id: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562--approbatio-et-professio-fidei-abdisho-iv-1562-2
+    work: "Approbatio et professio of the patriarch of the Orientalium Assyriorum (Abdisho IV) and Cardinal Amulio's letter to the legates at Trent, 1562"
+    author: abdisho-iv
+    locus: "whole file; the letter to the legates 'Sacri Concilii Tridentini' from about line 98"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: >
+      An Eastern patriarch's oath to receive the decrees of the councils and of Trent, sent to the council in
+      its last period. Placed on the content read for the other row; whether the Tridentine entry wants it is
+      for its build.
+  - row_id: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562--approbatio-et-professio-fidei-abdisho-iv-1562-3
+    work: "Approbatio et professio of the patriarch of the Orientalium Assyriorum (Abdisho IV) and Cardinal Amulio's letter to the legates at Trent, 1562"
+    author: abdisho-iv
+    locus: "whole file; the list of sees under the patriarch's jurisdiction from about line 255, with the Indian sees (Cuschin, Cananor, Calicuth, and the city of Cranganore) at about line 266"
+    atlas_ids:
+      - st-thomas-christians-under-portuguese-pressure-d
+    role: context
+    confidence: provisional
+    note: >
+      The profession lists the Indian sees as under this patriarch in 1562 (Cuschin, Cananor, Calicuth and the city of
+      Cranganore are named, as the OCR reads them). Placed on that list alone, not on a full read of it.

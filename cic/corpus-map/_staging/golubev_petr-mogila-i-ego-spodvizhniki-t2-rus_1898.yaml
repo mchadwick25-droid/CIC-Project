@@ -1,0 +1,39 @@
+source_file: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898.txt
+assignments:
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898--kievskii-mitropolit-petr-mogila-i-ego-spodvizhniki-vol-2
+  work: Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 2 (Golubev, narrative)
+  author: golubev
+  locus: chapter list at about file lines 400-580; narrative from about line 580 to the appendix at about
+    line 24193
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: assigned
+  note: 'Russian scholarship (published 1898) on Mogila''s rule as Metropolitan 1633-1647: the sejms,
+    the polemical literature of his circle, the restoration of the Kyiv churches and the government of
+    the church. Read for its chapter list. A modern scholar''s narrative, not the revival''s voice; the
+    Confession itself is not its subject. Second witness for any quotation.'
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898--prilozheniia-documentary-appendix-to-golubev-vol-2
+  work: Prilozheniia (documentary appendix to Golubev vol. 2)
+  author: golubev
+  locus: appendix from about file line 24193 (numbered, dated documents; the first is the 1632 safe-conduct
+    for the Kyiv school rector Isaia Kopinskii)
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: provisional
+  note: 'Printed documents of Mogila''s time: safe-conducts, royal privileges to the Lublin brotherhood,
+    Mogila''s own protests and letters. Placed from the contents list; the documents were not read one
+    by one. Ruthenian and Russian readable, Latin and Church Slavonic garbled in the OCR (second witness).'
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898--kievskii-mitropolit-petr-mogila-i-ego-spodvizhniki-vol-2-2
+  work: Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 2 (Golubev, narrative)
+  author: golubev
+  locus: the chapters on the sejms of 1635-1641 and the reconciliation projects (about file lines 410-475
+    in the chapter list)
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: provisional
+  note: 'Orthodox-Uniate relations in the 1630s and 1640s from the Orthodox metropolitan''s side: sejm
+    disputes, Wladyslaw IV''s reconciliation projects, the Roman see''s replies. Placed from the chapter
+    list; the Union of Brest thread rules on weight.'

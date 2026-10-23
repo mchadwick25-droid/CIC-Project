@@ -68,7 +68,7 @@ def test_flag_on_mounts_the_webhook_and_admin_routes(dev_env, tmp_path):
     try:
         paths = set(deeper_paths(app))
         assert {
-            "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance", "/api/deeper/door",
+            "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance",
             "/api/admin/deeper/pause", "/api/admin/deeper/reconciliation", "/api/admin/deeper/funds",
         } <= paths
         assert app.state.deeper.webhook_secret == SECRET

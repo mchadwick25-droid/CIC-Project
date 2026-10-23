@@ -1,0 +1,52 @@
+source_file: kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt
+
+assignments:
+  - row_id: kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839--acts-of-the-general-assembly-1560-1602
+    work: "The Booke of the Universall Kirk of Scotland: Acts of the General Assemblies from the first Assembly (20 December 1560) to 1602"
+    author: kirk-of-scotland
+    locus: "Peterkin's Preface from file line 83; first Assembly dated at line 718 ('21st December 1560'); Assemblies in date order with the edition's own running heads ('BOOKE OF THE UNIVERSALL [year]' / '[year] KIRK OF SCOTLAND page'), the 1602 Assembly ending about line 28047 (edition page 533); Appendix I (civil acts 1560-1567) at 4014; Appendix II (statutes 1567-1592) at 19928"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The General Assembly's own register in its own Scots: elections of
+      superintendents, the admission and trial of ministers, fasts, the
+      answers to the Regent and the King, the struggle with the bishops, and
+      the Assembly's rulings on discipline that the kirk sessions applied.
+      Primary institutional voice, ready to quote once checked against the
+      page image; OCR sampled clean. Peterkin's Preface and the Appendices of
+      Privy Council and Parliament acts are editorial framing and civil law,
+      not the Kirk's voice.
+  - row_id: kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839--second-book-of-discipline-1578
+    work: "Heads and Conclusions of the Policie of the Kirk (the Second Book of Discipline, 1578)"
+    author: kirk-of-scotland
+    locus: "table of the thirteen heads and '[HEADIS AND CONCLUSIONIS, &c.]' just before file line 28196 ('[CAP. I.]'), chapters I-XIII to about 29580 (edition pages 537-548); 'CAP. 13.' at 29484"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The Melvillian charter of presbyterian polity: the two kingdoms, the four
+      offices, presbyteries, and the Kirk's own patrimony. Primary institutional
+      voice. OCR of the opening pages (the table of heads and chapters I-II,
+      file lines about 28160-28280) is badly garbled, so for those pages this
+      file is a second witness only; chapters from about III onward are
+      clean. A clean text of the whole is in Dunlop's Collection of
+      Confessions (1719, archive.org acollectionconf01scotgoog) and in
+      Calderwood's History vol. III, both verified leads, not yet vendored.
+  - row_id: kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839--rescinded-acts-of-assembly-1606-1618
+    work: "Rescinded Acts of Assembly: the Assemblies of Linlithgow 1606 to Perth 1618 that the Glasgow Assembly of 1638 declared null"
+    author: kirk-of-scotland
+    locus: "'RESCINDED ACTS OF ASSEMBLY.' at file line 29589, first Assembly 'halden at Linlithgow, anno 1606' at 29599, running to Appendix III at 31584 (edition pages 569-597)"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The acts of the Jacobean Assemblies that restored bishops and imposed
+      the Five Articles of Perth (1618), printed under the label the
+      presbyterian Kirk later gave them. The Kirk's own institutional voice in
+      its episcopal phase; the label 'rescinded' is the 1638 Assembly's
+      judgment, not the editor's. Ready to quote once checked against the
+      page image.

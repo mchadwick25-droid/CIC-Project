@@ -1,0 +1,30 @@
+source_file: allen-william_true-sincere-and-modest-defence-v2_1914.txt
+
+assignments:
+  - row_id: allen-william_true-sincere-and-modest-defence-v2_1914--a-true-sincere-and-modest-defence-of-english-catholics-1584-vol-ii-cha
+    work: "A True, Sincere and Modest Defence of English Catholics (1584), Vol. II: chapters V-IX (the deposing power, the pope as arbiter between princes and peoples, the Irish wars, the realm's fall from the Church as the cause of its fears, the conclusion with a motion for toleration)"
+    author: allen-william
+    locus: "CHAPTER V at file line 141, VI at 1355, VII at 2101, VIII at 3279, IX at 5378 to the end of the volume"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      The second half of Allen's Defence, where the argument turns from innocence
+      to principle: the pope's power to excommunicate and depose a heretical
+      prince, defended openly, and a closing plea for toleration. This is the text
+      that made 'Allen's doctrine' the state's proof of Catholic disloyalty, and a
+      build must read it beside the household narratives that disown politics.
+      Primary voice, clean OCR, ready to quote once verified against this file.
+  - row_id: allen-william_true-sincere-and-modest-defence-v2_1914--a-true-sincere-and-modest-defence-of-english-catholics-1584-vol-ii-cha-2
+    work: "A True, Sincere and Modest Defence of English Catholics (1584), Vol. II: chapters V-IX (the deposing power, the pope as arbiter between princes and peoples, the Irish wars, the realm's fall from the Church as the cause of its fears, the conclusion with a motion for toleration)"
+    author: allen-william
+    locus: "CHAPTER V at file line 141, VI at 1355, VII at 2101, VIII at 3279, IX at 5378 to the end of the volume"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      The deposing power argued by the Catholic leader himself: what the
+      Settlement's oath and the 'bloody questions' were written against. Context
+      for the English Reformation world, provisional.

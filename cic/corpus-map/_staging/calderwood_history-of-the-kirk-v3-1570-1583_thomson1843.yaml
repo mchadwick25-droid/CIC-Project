@@ -1,0 +1,35 @@
+source_file: calderwood_history-of-the-kirk-v3-1570-1583_thomson1843.txt
+
+assignments:
+  - row_id: calderwood_history-of-the-kirk-v3-1570-1583_thomson1843--the-history-of-the-kirk-of-scotland-vol-iii-the-years-1570-1583-the-as
+    work: "The History of the Kirk of Scotland, Vol. III: the years 1570-1583 (the Assemblies under the Regents and the young King, the Leith agreement, the struggle over bishops, the Ruthven raid), with the documents Calderwood transcribed"
+    author: calderwood
+    locus: "from the 1570 Assembly (file line about 1509, running head '1570. OF THE KIRK OF SCOTLAND.') to the end of 1583 (running heads '1583.' from about 32308); the conference upon the policy from about 17280, the policy presented to the King from about 18783"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The presbyterian Kirk's own historian, writing in the 1620s from the
+      Assembly registers, Knox and the papers of the ministers: the fullest
+      narrative of the Melvillian turn, in Scots, with the Assembly acts, the
+      ministers' protests and the King's letters embedded. His framing is partisan
+      against the bishops and must be read as his; the embedded documents are
+      quotable as his transcripts. Primary voice, clean OCR, ready to quote once
+      verified against this file.
+  - row_id: calderwood_history-of-the-kirk-v3-1570-1583_thomson1843--the-second-book-of-discipline-or-heads-and-conclusions-of-the-policy-o
+    work: "The Second Book of Discipline, or Heads and Conclusions of the Policy of the Kirk (1578), chapters I-XIII, as registered in 1581"
+    author: kirk-of-scotland
+    locus: "from 'THE SECOND BUIK OF DISCIPLINE, OR HEIDIS AND CONCLUSIONES OF THE POLICIE OF THE KIRK' at file line 24671, 'CHAP. I.' following, through chapter XIII"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The clean witness to the Melvillian charter of presbyterian polity that the
+      first pass asked for: the Peterkin 1839 text
+      (kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt)
+      has its opening pages garbled, and this transcript by Calderwood is clean
+      from the first chapter. Same Work, second Expression (works_fragment).
+      Primary institutional voice in Scots; a quote from chapters I-II should come
+      from here, checked against the page image.

@@ -105,11 +105,9 @@ def test_flag_off_mounts_no_deeper_route(store, usage_store, world_loader, regis
     assert http.post("/api/deeper/webhook", content=b"{}").status_code == 404
     assert http.post("/api/deeper/claim", json={"reference": REF}).status_code == 404
     assert http.get("/api/deeper/balance").status_code == 404
-    assert http.get("/api/deeper/door").status_code == 404
     assert http.post("/api/admin/deeper/pause", json={"on": True}, headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/reconciliation", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/funds", headers=admin()).status_code == 404
-    assert http.get("/api/admin/deeper/door", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/owed", headers=admin()).status_code == 404
     assert http.post("/api/admin/deeper/void", json={"payment_id": "pi_x"}, headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/measures", headers=admin()).status_code == 404
@@ -119,10 +117,11 @@ def test_flag_on_mounts_every_route(store, usage_store, world_loader, registry, 
     app = make_app(store, usage_store, world_loader, registry, deeper=runtime)
     paths = {getattr(r, "path", "") for r in app.routes}
     assert {
-        "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance", "/api/deeper/door",
+        "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance",
         "/api/admin/deeper/pause", "/api/admin/deeper/reconciliation",
-        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/door", "/api/admin/deeper/measures", "/api/admin/deeper/owed", "/api/admin/deeper/void",
+        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/measures", "/api/admin/deeper/owed", "/api/admin/deeper/void",
     } <= paths
+    assert not [p for p in paths if "door" in p]
 
 
 # ---- signature ---------------------------------------------------------------
@@ -574,7 +573,7 @@ def test_a_refunded_code_is_not_served_by_the_claim_route(http, runtime):
     assert claim(http).status_code == 404
 
 
-# ---- the door's funds: gifts, purchases and adjustments ------------------------------
+# ---- the funds: gifts, purchases and adjustments ------------------------------
 
 @pytest.fixture
 def gift_runtime(runtime):
@@ -690,65 +689,6 @@ def test_a_link_cannot_be_both_a_gift_and_a_product():
             deeper_routes.parse_gift_links(bad, products)
 
 
-# ---- the door's route and its wiring --------------------------------------------------
-
-def test_the_door_route_reports_nothing_without_a_door_and_the_state_with_one(http, runtime, tmp_path):
-    assert http.get("/api/admin/deeper/door", headers=admin()).json() == {"door": None}
-    from engine.deeper import door as door_module
-
-    class Stub:
-        def state(self):
-            return door_module.DoorState(stage=3, ratio=0.91234, ceiling_usd=150.0, table_free_rounds=0, free_voice=True, paid_voice=True)
-
-    runtime.door = Stub()
-    assert http.get("/api/admin/deeper/door", headers=admin()).json() == {
-        "door": {"stage": 3, "ratio": 0.912, "ceiling_usd": 150.0, "free_voice": True, "paid_voice": True, "observe": False}
-    }
-
-
-def test_the_door_route_needs_the_admin_credential(http):
-    assert http.get("/api/admin/deeper/door").status_code == 404
-    assert http.get("/api/admin/deeper/door", headers=admin("wrong")).status_code == 404
-
-
-def test_the_runtime_gets_a_door_only_when_given_the_usage_log(tmp_path):
-    from engine.m8.log_store import UsageLogStore
-
-    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
-    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}
-    without = deeper_routes.build_runtime(config, env)
-    assert without.door is None
-    without.meter.close()
-    without.claims.close()
-    config = DeeperConfig(True, str(tmp_path / "m2.db"), str(tmp_path / "c2.db"))
-    with_log = deeper_routes.build_runtime(config, env, usage_store=UsageLogStore(tmp_path / "usage.db"))
-    assert with_log.door is not None and with_log.door.state().stage == 0
-    with_log.meter.close()
-    with_log.claims.close()
-
-
-def test_a_restart_with_the_usage_log_down_still_finds_the_door_where_it_was_left(tmp_path):
-    from engine.api.deeper_door import STATE_KEY, _encode
-    from engine.deeper import door as door_module
-
-    meter_path = str(tmp_path / "m.db")
-    closed = door_module.DoorState(stage=4, ratio=0.97, ceiling_usd=150.0, table_free_rounds=0, free_voice=False)
-    first = Meter(meter_path)
-    first.set_state(STATE_KEY, _encode(closed))
-    first.close()
-
-    class Broken:
-        def read_since(self, _since):
-            raise RuntimeError("usage log down")
-
-    config = DeeperConfig(True, meter_path, str(tmp_path / "c.db"))
-    runtime = deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}, usage_store=Broken())
-    state = runtime.door.state()
-    assert (state.stage, state.free_voice, state.table_free_rounds) == (4, False, 0)
-    runtime.meter.close()
-    runtime.claims.close()
-
-
 # ---- the standing measure's route ------------------------------------------------------------
 
 def test_the_measures_route_needs_the_admin_credential(http):
@@ -766,39 +706,6 @@ def test_the_measures_route_shows_daily_totals_and_the_reconciliation_and_no_key
     assert not any(word in json.dumps(body).lower() for word in ("session", "visitor", "hash"))
 
 
-def test_the_door_monitor_reports_each_stage_it_reaches_to_be_counted(tmp_path):
-    from datetime import datetime, timezone
-
-    from engine.api.deeper_door import DoorMonitor
-    from engine.api.deeper_ops import load_ops
-    from engine.m8.log_store import UsageLogStore
-
-    seen = []
-    monitor = DoorMonitor(
-        load_ops().door, UsageLogStore(tmp_path / "usage.db"), lambda: {},
-        clock=lambda: datetime(2026, 10, 5, tzinfo=timezone.utc), observe=lambda state: seen.append(state.stage),
-    )
-    monitor.state()
-    assert seen == [0]
-
-
-def test_a_measure_that_fails_never_touches_the_door(tmp_path):
-    from datetime import datetime, timezone
-
-    from engine.api.deeper_door import DoorMonitor
-    from engine.api.deeper_ops import load_ops
-    from engine.m8.log_store import UsageLogStore
-
-    def broken(_state):
-        raise RuntimeError("meter down")
-
-    monitor = DoorMonitor(
-        load_ops().door, UsageLogStore(tmp_path / "usage.db"), lambda: {},
-        clock=lambda: datetime(2026, 10, 5, tzinfo=timezone.utc), observe=broken,
-    )
-    assert monitor.state().stage == 0
-
-
 def test_the_dashboard_section_is_hidden_until_the_route_answers_and_names_every_measure():
     from pathlib import Path
 
@@ -811,51 +718,6 @@ def test_the_dashboard_section_is_hidden_until_the_route_answers_and_names_every
         assert f"refused_{reason}:" in page, reason
     for name in SUM_MEASURES:
         assert name in page or name.startswith("refused_"), name
-
-
-# ---- the public door line ----------------------------------------------------------------
-
-def _public_door(http, runtime, **fields):
-    from engine.deeper import door as door_module
-
-    from engine.api.deeper_ops import load_ops
-
-    runtime.ops = load_ops()
-
-    stage = fields.pop("stage", 1)
-
-    class Stub:
-        def state(self):
-            return door_module.DoorState(stage=stage, ratio=0.8, ceiling_usd=150.0, **fields)
-
-    runtime.door = Stub()
-    return http.get("/api/deeper/door")
-
-
-def test_the_public_door_line_is_silent_while_the_door_is_wide_open(http, runtime):
-    assert http.get("/api/deeper/door").json() == {"state": "open", "line": None}
-    assert _public_door(http, runtime, stage=0).json() == {"state": "open", "line": None}
-
-
-def test_the_public_door_line_says_limited_then_paused_in_mark_s_words(http, runtime):
-    limited = _public_door(http, runtime, solo_free_rounds=2)
-    words = runtime.ops.door_words
-    assert limited.json() == {"state": "limited", "line": words["limited"]}
-    paused = _public_door(http, runtime, stage=4, free_voice=False)
-    assert paused.json() == {"state": "paused", "line": words["paused"] + " " + words["code_still_works"]}
-
-
-def test_the_public_door_line_never_says_a_code_works_once_codes_are_refused(http, runtime):
-    body = _public_door(http, runtime, stage=5, free_voice=False, paid_voice=False).json()
-    assert body == {"state": "paused", "line": runtime.ops.door_words["paused"]}
-    assert "code" not in body["line"].lower()
-
-
-def test_the_public_door_line_carries_words_only_and_may_be_kept_a_minute(http, runtime):
-    response = _public_door(http, runtime, stage=4, free_voice=False)
-    assert set(response.json()) == {"state", "line"}
-    assert response.headers["cache-control"] == "public, max-age=60"
-    assert not any(key in response.text for key in ("ratio", "ceiling", "stage"))
 
 
 # ---- the balances owed ---------------------------------------------------------------------------
@@ -914,49 +776,6 @@ def test_the_webhook_refund_and_the_admin_void_do_the_same_thing(http, runtime):
     assert runtime.meter.status(code).status == "void"
 
 
-def test_in_observe_mode_the_public_door_line_says_nothing_even_at_a_closed_door(http, runtime):
-    runtime.door_observe = True
-    assert _public_door(http, runtime, stage=4, free_voice=False).json() == {"state": "open", "line": None}
-
-
-def test_the_admin_door_route_says_whether_the_door_is_only_observing(http, runtime):
-    from engine.deeper import door as door_module
-
-    class Stub:
-        def state(self):
-            return door_module.DoorState(stage=2, ratio=0.8, ceiling_usd=150.0)
-
-    runtime.door = Stub()
-    runtime.door_observe = True
-    assert http.get("/api/admin/deeper/door", headers=admin()).json()["door"]["observe"] is True
-
-
-def test_the_door_monitor_keeps_the_days_peak_stage_ratio_and_spend(runtime):
-    from engine.api.deeper_routes import _count_door
-    from engine.deeper import door as door_module
-
-    _count_door(runtime.meter, door_module.DoorState(stage=2, ratio=0.8, ceiling_usd=150.0))
-    _count_door(runtime.meter, door_module.DoorState(stage=1, ratio=0.5, ceiling_usd=150.0))
-    (day,) = runtime.meter.measures(1)
-    assert (day["door_stage"], day["door_ratio_permille"], day["door_spend_cents"]) == (2, 800, 12000)
-
-
-def test_a_runtime_built_for_real_keeps_the_doors_peaks_as_the_door_is_read(tmp_path):
-    from engine.m8.log_store import UsageLogStore
-
-    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
-    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}
-    rt = deeper_routes.build_runtime(config, env, usage_store=UsageLogStore(tmp_path / "usage.db"))
-    try:
-        assert rt.door_observe is False and rt.paid_round_cap == 40
-        rt.door.state()
-        (day,) = rt.meter.measures(1)
-        assert (day["door_stage"], day["door_ratio_permille"], day["door_spend_cents"]) == (0, 0, 0)
-    finally:
-        rt.meter.close()
-        rt.claims.close()
-
-
 # ---- admin mint (S13) ----------------------------------------------------------
 
 @pytest.fixture
@@ -1003,7 +822,7 @@ def test_mint_is_never_a_payment_or_a_sale(http, minting):
     assert minting.meter.owed() == []
 
 
-def test_mint_counts_nothing_toward_the_door(http, minting):
+def test_mint_counts_nothing_toward_the_funds(http, minting):
     mint(http, count=3)
     assert minting.meter.net_funds(7).get("gift", 0) == 0
 
@@ -1056,7 +875,7 @@ def test_a_grant_id_cannot_be_used_by_a_purchase_or_the_wrong_source(minting):
 
 def test_status_shows_the_live_day_read_only(http, minting):
     body = http.get("/api/admin/deeper/status", headers=admin()).json()
-    assert body["paused"] is False and body["door"] is None
+    assert body["paused"] is False and "door" not in body
     assert body["free_grant"] == {"baseline_tokens": 550, "window_days": 30, "now_tokens": 550}
     assert [p["price_usd"] for p in body["packs"]] == [7, 15, 30]
     assert body["mint_limits"] == {"tokens_per_request": 6600, "tokens_per_day": 13200}
@@ -1161,7 +980,7 @@ def test_a_tester_code_is_a_gift_never_a_payment_a_sale_or_owed(http, minting):
     assert minting.meter.list_funds(1) == []
 
 
-def test_a_tester_code_is_cancelled_by_its_mint_id_and_never_counts_toward_the_door(http, minting):
+def test_a_tester_code_is_cancelled_by_its_mint_id_and_never_counts_toward_the_funds(http, minting):
     made = make_tester(http).json()
     voided = http.post("/api/admin/deeper/void", json={"payment_id": made["mint_id"]}, headers=admin()).json()
     assert voided["voided"] == 1
@@ -1265,7 +1084,7 @@ def test_a_press_gives_one_ordinary_pack_code_shown_once(http, runtime):
     assert runtime.meter.reserve(body["code"]).ok
 
 
-def test_a_pilot_code_is_a_grant_not_a_payment_or_a_sale_and_counts_nothing_toward_the_door(http, runtime):
+def test_a_pilot_code_is_a_grant_not_a_payment_or_a_sale_and_counts_nothing_toward_the_funds(http, runtime):
     open_pilot(runtime)
     join(http)
     day = runtime.meter.reconciliation(1)[0]
@@ -1567,7 +1386,7 @@ def test_the_dashboard_shows_the_role_counts_beside_the_pilot_totals():
     from pathlib import Path
 
     page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
-    tiles = page[page.index('id="t-deeper-pilot"'):page.index('id="t-deeper-door"')]
+    tiles = page[page.index('id="t-deeper-pilot"'):page.index('id="t-deeper-free"')]
     assert 'id="t-deeper-pilot-roles"' in tiles
     assert "a.roles.map((r) => r.label" in page and "r.count" in page
 

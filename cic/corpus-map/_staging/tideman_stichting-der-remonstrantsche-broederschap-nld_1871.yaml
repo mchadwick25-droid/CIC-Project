@@ -1,0 +1,32 @@
+source_file: tideman_stichting-der-remonstrantsche-broederschap-nld_1871.txt
+
+assignments:
+  - row_id: tideman_stichting-der-remonstrantsche-broederschap-nld_1871--de-stichting-der-remonstrantsche-broederschap-1619-1634-the
+    work: "De stichting der Remonstrantsche Broederschap, 1619-1634: the Brotherhood's founding records (Rotterdam 1619, Waalwijk and Antwerp, the Directie, the Confession of 1621, the settling in the Republic), printed with Tideman's narrative (two parts, 1871-1872)"
+    author: tideman
+    locus: "whole file; eerste deel INHOUD from file line 410 (the Rotterdam assembly of March 1619 and its Akte, the Waalwijk and Antwerp assemblies, the Directie, the Confession), Bijlagen from about 15102; tweede deel from about line 20120, INHOUD at 20147, Bijlagen from about 37278"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: tradition
+    confidence: assigned
+    note: >
+      The exile Brotherhood's own records as the census names them: the acts, letters, requests
+      and resolutions of the banished ministers from 1619 to 1634, printed in their own Dutch
+      inside a nineteenth-century Remonstrant professor's narrative. The documents are the
+      Brotherhood's voice; Tideman's prose is not, and the spelling separates the two. Readable
+      Dutch OCR (about 0.77 against a clean Dutch baseline); quotable, and renderable by Opus
+      under the September 2026 ruling, once each passage is verified against the page image. No
+      English exists.
+  - row_id: tideman_stichting-der-remonstrantsche-broederschap-nld_1871--de-stichting-der-remonstrantsche-broederschap-1619-1634-the-2
+    work: "De stichting der Remonstrantsche Broederschap, 1619-1634: the Brotherhood's founding records (Rotterdam 1619, Waalwijk and Antwerp, the Directie, the Confession of 1621, the settling in the Republic), printed with Tideman's narrative (two parts, 1871-1872)"
+    author: tideman
+    locus: "whole file; the tweede deel's INHOUD (line 20147) on the Staten of Holland, the Prince, the plakkaten and the towns, 1624-1631"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: context
+    confidence: provisional
+    note: >
+      The dissenting church taking shape inside the Republic that this world describes, with the
+      States, the towns and the plakkaten against the separate assemblies seen from the banished
+      side. Placed on that relation; the further-reformation world's build decides how much of it
+      to use.

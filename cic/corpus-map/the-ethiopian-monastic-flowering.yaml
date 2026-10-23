@@ -31,3 +31,16 @@ works:
 
     '
   source_file: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt
+- row_id: ludolf_new-history-of-ethiopia_jp1682--new-history-of-ethiopia-in-four-books-3
+  work: A New History of Ethiopia (Ludolf, 1682), Book III on the conversion, scriptures and
+    rites of the Ethiopian church
+  author: ludolf
+  locus: '''BOOK III'' from file line 14092'
+  role: context
+  confidence: provisional
+  note: 'Ludolf''s survey of the church''s conversion, scriptures, monastic orders and rites
+    reaches back before 1517; a seventeenth-century European synthesis, not a source from
+    that window. Placed on the book''s subject only.
+
+    '
+  source_file: ludolf_new-history-of-ethiopia_jp1682.txt

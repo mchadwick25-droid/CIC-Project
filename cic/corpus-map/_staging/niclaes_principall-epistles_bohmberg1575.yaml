@@ -1,0 +1,16 @@
+source_file: niclaes_principall-epistles_bohmberg1575.txt
+assignments:
+- row_id: niclaes-principall-epistles-bohmberg1575-the-principall-epistles-of-hn-epistolae-hn-1575
+  work: The Principall Epistles of HN (Epistolae HN), 1575
+  author: niclaes
+  locus: twenty numbered epistles, "The First Epistle" at file line 514, each closing "The Ende of the
+    N. Epistle" (first at 1054; twentieth at 23315)
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: tradition
+  confidence: assigned
+  note: 'Niclaes''s letters to followers and enquirers, the body of his pastoral and prophetic voice (the
+    census names epistles). SECOND WITNESS for exact wording: EEBO microfilm OCR (about 0.86 of tokens
+    read as words at five sample points), so locate passages here and verify against the page images before
+    quoting (Mark''s OCR ruling). The separately catalogued Epistola XI (Correctio) is Epistle
+    XI here.'

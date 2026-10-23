@@ -6,6 +6,7 @@
  * no listener.
  */
 import { useSyncExternalStore } from 'react';
+import { attachIfSignedIn } from './accounts';
 
 export const deeperEnabled = import.meta.env.VITE_DEEPER_ENABLED === 'on';
 
@@ -185,7 +186,9 @@ export async function addCode(raw: string): Promise<boolean> {
   } catch {
     // Unreachable: keep it and let the next reply say.
   }
-  return saveCode(code);
+  const saved = saveCode(code);
+  if (saved) void attachIfSignedIn(code);
+  return saved;
 }
 
 /** Removes every held code. */
@@ -321,6 +324,7 @@ export async function acceptClaim(): Promise<boolean> {
     });
     const body = response.ok ? ((await response.json()) as { codes?: unknown }) : null;
     if (body && Array.isArray(body.codes) && body.codes.length === 1 && typeof body.codes[0] === 'string' && saveCode(body.codes[0])) {
+      void attachIfSignedIn(body.codes[0]);
       return true;
     }
   } catch {

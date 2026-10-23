@@ -8,7 +8,7 @@ the free allowance on and this flag off, because the free allowance
 There is no daily count. A visitor's free allowance is a monthly window of
 tokens (engine.deeper.free); nothing here limits conversations or messages
 by day. Burst rate stays with engine/api/ratelimit.py's per-IP sliding
-window, and spend with the door and the group codes (engine.deeper).
+window, and spend with the group codes (engine.deeper).
 
 Mechanism: a random, server-issued, HMAC-signed opaque token in an
 HttpOnly cookie. No accounts, no email, no name, no device fingerprint -

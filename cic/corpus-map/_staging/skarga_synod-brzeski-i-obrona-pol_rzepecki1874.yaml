@@ -1,0 +1,28 @@
+source_file: skarga_synod-brzeski-i-obrona-pol_rzepecki1874.txt
+assignments:
+- row_id: skarga_synod-brzeski-i-obrona-pol_rzepecki1874--piotr-skarga-synod-brzeski-the-synod-of-brest-with-the-royal
+  work: Piotr Skarga, Synod Brzeski (the Synod of Brest, with the royal envoys' address) and Obrona Synodu
+    Brzeskiego (the Defence of the Synod of Brest), 1596-1597, in the 1874 Poznan reprint
+  author: skarga
+  locus: Synod Brzeski from file line 314 (the envoys' Namowa at file line 480); Obrona Synodu Brzeskiego
+    from file line 1311; Rzepecki's preface before file line 313 and his note on Skarga's works at the
+    end
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: assigned
+  note: 'The union''s Jesuit advocate on the synod itself and against the Orthodox counter-synod, in clean
+    Polish: the same two texts the vendored Russkaia istoricheskaia biblioteka vol. 7 prints in a badly
+    garbled OCR. This is the witness to quote from, after a page-image check; the 1874 editor''s preface
+    is nineteenth-century Catholic advocacy and not Skarga''s voice.'
+- row_id: skarga_synod-brzeski-i-obrona-pol_rzepecki1874--piotr-skarga-synod-brzeski-the-synod-of-brest-with-the-royal-2
+  work: Piotr Skarga, Synod Brzeski (the Synod of Brest, with the royal envoys' address) and Obrona Synodu
+    Brzeskiego (the Defence of the Synod of Brest), 1596-1597, in the 1874 Poznan reprint
+  author: skarga
+  locus: same as the Brest row
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: A Jesuit's defence of a union the Society helped to make, mirroring the provisional Society of
+    Jesus row already on Skarga's 1577 treatise in RIB vol. 7. The Jesuit thread decides.

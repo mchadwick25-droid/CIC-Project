@@ -127,6 +127,28 @@ const scenarios = {
     return out;
   },
   limits: () => ({ poll: GD.POLL_MS, tries: GD.MAX_TRIES }),
+  buyPage() {
+    const fs = require("fs");
+    const path = require("path");
+    const html = fs.readFileSync(path.join(__dirname, "../../../cic-website/go-deeper.html"), "utf8");
+    const script = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((m) => m[1]).find((s) => s.includes("PAYMENT_LINKS"));
+    const links = JSON.parse(process.argv[3] || "{}");
+    const code = script.replace(/var PAYMENT_LINKS = \{[^}]*\};/, "var PAYMENT_LINKS = " + JSON.stringify(links) + ";");
+    const element = (hidden) => ({ hidden, parentNode: { hidden: true }, listeners: {}, addEventListener(type, fn) { this.listeners[type] = fn; } });
+    const els = { "state-open": element(true), "state-closed": element(false) };
+    for (const n of ["1", "2", "3"]) els["buy-pack-" + n] = element(true);
+    const went = [];
+    const window = {
+      GoDeeper: { startPurchase: (link) => went.push(link) },
+      crypto: nodeCrypto,
+      localStorage: memoryStorage(),
+      location: {},
+    };
+    new Function("document", "window", code)({ getElementById: (id) => els[id] || null }, window);
+    const shown = Object.keys(els).filter((id) => id.startsWith("buy-pack-") && !els[id].hidden);
+    shown.forEach((id) => els[id].listeners.click());
+    return { open: !els["state-open"].hidden, closed: !els["state-closed"].hidden, shown, went };
+  },
   privacy: () => {
     const PG = require("../../../cic-website/assets/privacy-go-deeper.js");
     const page = () => {
@@ -146,32 +168,6 @@ const scenarios = {
       notStrictlyTrue: run({ enabled: "yes" }),
       on: run({ enabled: true }),
       pageWithoutTheParts: PG.apply(missing, { enabled: true }),
-    };
-  },
-  doorLine: async () => {
-    const DL = require("../../../cic-website/assets/door-line.js");
-    const run = async (step) => {
-      const target = { hidden: true, textContent: "" };
-      const seen = {};
-      await DL.load(target, {
-        apiBase: "https://api.test",
-        fetch: (url, init) => {
-          seen.url = url;
-          seen.init = init;
-          return step === "network" ? Promise.reject(new Error("offline")) : reply(step.status, step.body);
-        },
-      });
-      return { target: { hidden: target.hidden, text: target.textContent }, seen };
-    };
-    const shown = await run({ status: 200, body: { state: "limited", line: "Free conversations are limited this week." } });
-    return {
-      shown: shown.target,
-      url: shown.seen.url,
-      init: shown.seen.init,
-      open: (await run({ status: 200, body: { state: "open", line: null } })).target,
-      unreachable: (await run("network")).target,
-      refused: (await run({ status: 404, body: {} })).target,
-      malformed: (await run({ status: 200, body: { line: 7 } })).target,
     };
   },
 };

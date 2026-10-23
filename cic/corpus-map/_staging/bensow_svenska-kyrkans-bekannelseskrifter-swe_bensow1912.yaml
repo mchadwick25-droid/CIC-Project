@@ -1,0 +1,47 @@
+source_file: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt
+
+assignments:
+  - row_id: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912--upsala-motes-beslut-1593
+    work: "Upsala mötes beslut (the decisions of the Uppsala Synod, 20 March 1593), Företal and the articles, Swedish"
+    author: bensow
+    locus: "'Företal' at line 30909, dated Stockholm 30 July 1593 (line 30966); 'UPSALA MÖTES BESLUT' from line 30999; the signatures and 'Actum Upsaliæ xx martii anno mdxciii' at lines 31160-31172; Bensow's note on the synod at line 31727 and on the adoption of the Concordia at line 31705"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: tradition
+    confidence: assigned
+    note: >
+      The synod that ended the long struggle over the Red Book, and committed
+      the kingdom to the three ecumenical creeds and the unaltered Augsburg
+      Confession. Primary voice in the Swedish of 1593, in Projekt Runeberg's
+      proofread text of Bensow's 1912 edition. Bensow's square-bracket glosses
+      are modern and belong to the editor, not the synod. Clean text; ready to
+      quote once each quote is verified against the page image. No
+      public-domain English translation was found.
+  - row_id: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912--konkordieboken-in-swedish
+    work: "Konkordieboken (the Book of Concord, Concordia pia) in the Swedish tradition of Broocman's 1730 translation, as revised for Bensow's 1912 edition"
+    author: bensow
+    locus: "from Bensow's 'Förord' at line 50 and the 'Företal' at line 200 through the Formula of Concord, to line 30900"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: >
+      A Swedish rendering of the Lutheran confessions. Wittenberg's own voice,
+      a second Expression of texts the corpus already holds in English (Jacobs
+      1911 and others). Bensow says earlier Swedish editions only lightly
+      revised Broocman and that he translated the Augsburg Confession afresh
+      from the original. Placed on the preface and contents, so provisional.
+  - row_id: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912--konkordieboken-in-swedish-scandinavian
+    work: "Konkordieboken in Swedish, with Bensow's note that Sweden adopted it in full only in 1663 and 1686"
+    author: bensow
+    locus: "the whole Book of Concord section, lines 50-30900; Bensow's note on the adoption at line 31705 ('religionsplakatet den 14 augusti 1663 och kyrkolagen af år 1686')"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: context
+    confidence: provisional
+    note: >
+      The Swedish church took the Book of Concord as a whole only after this
+      entry's window (Bensow's own statement); in 1593 it committed to the
+      Augsburg Confession and the three creeds. The Concordia is the confessional
+      frame the Swedish church later entered, so it is context for this world,
+      not its voice.

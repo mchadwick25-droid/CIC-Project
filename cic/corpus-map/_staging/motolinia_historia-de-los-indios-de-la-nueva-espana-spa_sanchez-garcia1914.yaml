@@ -1,0 +1,30 @@
+source_file: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt
+
+assignments:
+  - row_id: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914--historia-de-los-indios-de-la-nueva-espana
+    work: "Historia de los indios de la Nueva Espana (written 1536-1541)"
+    author: motolinia
+    locus: "Epistola proemial from file line 2392; Tratado primero from line 2913, Tratado segundo from line 6549, Tratado tercero from line 8500, chapters headed 'CAPITULO PRIMERO' and so on; the editor's bio-bibliography before line 2392 is not the work"
+    atlas_ids:
+      - mission-born-christianities-kirishitan-japan-kon
+    role: context
+    confidence: assigned
+    note: >
+      One of the first twelve Franciscans in Mexico writing the story of the conversion
+      from inside the mission: baptisms, confession, the first Nahua Christians, the
+      destruction of the temples. The mission's own voice with reported convert speech
+      (for example the Nahua explanation at file line 13383 onward), not a convert's own
+      text. Primary original-language evidence, quotable once each wording is checked
+      against the page image; the OCR is clean but drops accents. No public-domain English
+      translation is vendored.
+  - row_id: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914--historia-de-los-indios-de-la-nueva-espana-2
+    work: "Historia de los indios de la Nueva Espana (written 1536-1541)"
+    author: motolinia
+    locus: "whole text"
+    atlas_ids:
+      - colonial-latin-american-devotional-catholicism
+    role: antecedent
+    confidence: provisional
+    note: >
+      The Franciscan founding narrative of Mexican Christianity that the later colonial
+      church looked back on; placed on window and place, not on a reading for that entry.

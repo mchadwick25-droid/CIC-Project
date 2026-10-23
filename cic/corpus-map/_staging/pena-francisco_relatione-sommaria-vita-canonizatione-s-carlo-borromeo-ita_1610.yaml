@@ -1,0 +1,28 @@
+source_file: pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610.txt
+assignments:
+- row_id: pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610--relatione-sommaria
+  work: Relatione sommaria della vita, santita, miracoli et atti della canonizatione di S. Carlo Borromeo,
+    cavata dai processi autentici (Pena, Rome 1610)
+  author: pena-francisco
+  locus: title at line 50; the address to the city of Milan follows; the life and virtues (the provincial
+    councils named around lines 702-754, the plague at line 1945); the miracles from about line 2553; the
+    acts and ceremonies of the canonisation from about line 3643, with the vestments and offerings around
+    lines 4121-4712 and the procession to the end (line 5872)
+  atlas_ids:
+  - tridentine-parish-renewal-borromean-milan
+  role: tradition
+  confidence: assigned
+  note: 'The nearest public-domain witness to the canonisation process of 1604-1610 that the census names:
+    a summary drawn, by its title, from the authentic processes, by the Rota judge deputed for the cause,
+    printed at Rome in the canonisation year. Not the process itself, which is unprinted. Legible OCR with
+    the long s read as f and noise on the preliminaries; quote only after checking the page image.'
+- row_id: pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610--relatione-tridentine
+  work: Relatione sommaria della canonizatione di S. Carlo Borromeo (Pena, 1610)
+  author: pena-francisco
+  locus: the acts and ceremonies of the canonisation from about line 3643 to the end
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: 'The first canonisation of a Tridentine reformer, described from the Roman side; placed as context
+    for the whole-church world on the ceremonial part only.'

@@ -1,0 +1,19 @@
+source_file: pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt
+assignments:
+- row_id: pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846--istoria-libri-17-24
+  work: Istoria del Concilio di Trento (Pallavicino), Libri XVII-XXIV, the Classici Sacri edition of 1846
+    (Tomo III), the same books as the Parte terza of 1664
+  author: pallavicino
+  locus: whole volume; Libro XVII from line 359 (ARGOMENTO at 362), XVIII from 5881, XIX from 13619, XX
+    from 22862, XXI from 31017, XXII from 40166, XXIII from 46628, XXIV from 53223 to the end; the legates'
+    letters to Cardinal Borromeo are cited in the footnotes throughout (691 lines name Borromeo)
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: assigned
+  note: 'The clean witness for the last period of the Council (1562-1563) in Pallavicino: the 1664 Parte
+    terza already vendored (pallavicino_istoria-del-concilio-di-trento-parte3-ita_1664.txt) is garbled in
+    its later half and stands as a second witness; this nineteenth-century reprint reads cleanly at every
+    sample point (word-shaped share 0.98). Orthography modernised by the 1846 editors; for the 1664 wording
+    check that scan''s page images. Same role as the 1664 parts: a pro-Curia Jesuit cardinal''s narrative
+    written after the Council against Sarpi, so context, never the Council''s own voice. No English exists.'

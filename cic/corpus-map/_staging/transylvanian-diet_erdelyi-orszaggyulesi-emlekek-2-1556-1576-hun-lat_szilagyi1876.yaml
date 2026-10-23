@@ -1,0 +1,16 @@
+source_file: transylvanian-diet_erdelyi-orszaggyulesi-emlekek-2-1556-1576-hun-lat_szilagyi1876.txt
+assignments:
+- row_id: transylvanian-diet_erdelyi-orszaggyulesi-emlekek-2-1556-1576-hun-lat_szilagyi1876--erd-lyi-orsz-ggy-l-si-eml-kek-ii-1556-1576-the-transylvanian-diets-dec
+  work: 'Erdélyi Országgyűlési Emlékek II (1556-1576): the Transylvanian diets'' decrees and articles, with the
+    Torda diet of January 1568'
+  author: transylvanian-diet
+  locus: document XVII, the Torda diet of 6-13 January 1568 at file line 10376; document XIX, the Torda diet of
+    May 1568 at file line 10573; the editor's list of documents (Törvények és okiratok) at file line 18123
+  atlas_ids:
+  - anti-trinitarian-currents-servetus-polish-brethr
+  role: context
+  confidence: assigned
+  note: 'The Transylvanian diet''s own acts, 1556-1576, including the Torda articles of January 1568 that the census
+    names as the Edict of Torda. Role context: the state''s law on religion, in Latin and Hungarian, not the anti-Trinitarian
+    church''s voice. Clean OCR; quotable once checked against the page image. Hungarian and Latin; no public-domain
+    English of the articles found.'

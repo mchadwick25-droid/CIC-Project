@@ -45,15 +45,15 @@ def parse_previous(spec: str | None) -> list[PreviousContactKey]:
     return keys
 
 
-def _derive(secret: str, key_id: str) -> bytes:
-    return HKDF(algorithm=hashes.SHA256(), length=32, salt=None, info=b"cic-accounts-contact-v1|" + key_id.encode()).derive(
+def _derive(secret: str, key_id: str, purpose: str = "contact") -> bytes:
+    return HKDF(algorithm=hashes.SHA256(), length=32, salt=None, info=f"cic-accounts-{purpose}-v1|{key_id}".encode()).derive(
         secret.encode()
     )
 
 
 class ContactCipher:
     def __init__(self, secret: str, *, key_id: str = "c1", previous: list[PreviousContactKey] | tuple = (),
-                 other_secrets: tuple[str, ...] = ()):
+                 other_secrets: tuple[str, ...] = (), purpose: str = "contact"):
         secrets_in_use = [secret] + [p.secret for p in previous]
         if any(not isinstance(s, str) or len(s) < MIN_SECRET_LENGTH for s in secrets_in_use):
             raise ContactKeyError(f"each contact key must be at least {MIN_SECRET_LENGTH} characters")
@@ -63,8 +63,8 @@ class ContactCipher:
         if len(set(secrets_in_use)) != len(secrets_in_use) or any(s in other_secrets for s in secrets_in_use):
             raise ContactKeyError("the contact keys must differ from each other and from the address and session keys")
         self.key_id = key_id
-        self._keys = {key_id: AESGCM(_derive(secret, key_id))}
-        self._keys.update({p.key_id: AESGCM(_derive(p.secret, p.key_id)) for p in previous})
+        self._keys = {key_id: AESGCM(_derive(secret, key_id, purpose))}
+        self._keys.update({p.key_id: AESGCM(_derive(p.secret, p.key_id, purpose)) for p in previous})
 
     def encrypt(self, plaintext: str, context: str) -> str:
         nonce = secrets.token_bytes(12)

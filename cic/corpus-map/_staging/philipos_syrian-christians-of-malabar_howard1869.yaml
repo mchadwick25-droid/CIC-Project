@@ -1,0 +1,50 @@
+source_file: philipos_syrian-christians-of-malabar_howard1869.txt
+
+authors_ruled:
+  philipos:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page in the OCR
+      reads "By the Rev. Edavalikel Philipos, Chorepiscopus, Cathanar of the Great Church at Cottayam, in
+      Travancore. Edited by the Rev. G. B. Howard" (file lines 45-60); the host catalogue gives Philipos,
+      Edavalikel. A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: philipos_syrian-christians-of-malabar_howard1869--answers-on-the-belief-and-history-of-the-syrian-christians
+    work: "The Syrian Christians of Malabar, otherwise called the Christians of S. Thomas (Philipos, 1869): a Malabar priest's answers to 82 questions on his church's belief and history"
+    author: philipos
+    locus: "'Q. 1.' at file line 602 to 'Q. 82.' at 2501; the questions on the Portuguese, Archbishop Menezes, the synod and the separation at about 2115-2185; the author's letter to the editor at about 546; the editor's preface on the author's own English at about 475"
+    atlas_ids:
+      - st-thomas-christians-under-portuguese-pressure-d
+    role: tradition
+    confidence: provisional
+    note: >
+      The one inside voice of the community found on a reachable host: a cathanar of Cottayam
+      answering, in his own English from his own Malayalam, what the Syrians believe and how
+      the Portuguese, "Alexius de Menezes", made them embrace Popery and how they broke away.
+      Written in 1869, two centuries after the window; a witness to the Jacobite side's own
+      memory of 1599-1653, not to the events, and the builders must say so. Clean OCR. Role
+      tradition and confidence provisional for that reason.
+  - row_id: philipos_syrian-christians-of-malabar_howard1869--answers-on-the-belief-and-history-of-the-syrian-christians-2
+    work: "The Syrian Christians of Malabar (Philipos, 1869): the church's belief, sacraments, fasts and orders in its own priest's words"
+    author: philipos
+    locus: "'Q. 1.' at file line 602 onward; the questions on the Antiochene connection, Mar Athanasius and the Travancore government from about 2400"
+    atlas_ids:
+      - the-malankara-churches-orthodox-and-jacobite
+    role: tradition
+    confidence: provisional
+    note: >
+      A Jacobite Syrian priest of Cottayam in 1869 stating his church's faith and its dispute
+      with Mar Athanasius Matthew: the Malankara church's own voice in its own window. Placed
+      on date and author; not read for that entry.
+  - row_id: philipos_syrian-christians-of-malabar_howard1869--answers-on-the-belief-and-history-of-the-syrian-christians-3
+    work: "The Syrian Christians of Malabar (Philipos, 1869)"
+    author: philipos
+    locus: "whole file; the editor's preface on the Church Missionary Society and the Syrian College from about file line 100"
+    atlas_ids:
+      - northeast-india-revivals-and-the-mar-thoma-refor
+    role: context
+    confidence: provisional
+    note: >
+      The Jacobite party's statement of 1869, against which the reforming party of Mar Athanasius
+      Matthew (the Mar Thoma line) defined itself. Placed on date; not read for that entry.

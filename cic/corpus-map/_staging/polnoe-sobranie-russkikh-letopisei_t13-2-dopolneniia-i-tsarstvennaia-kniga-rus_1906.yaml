@@ -1,0 +1,36 @@
+source_file: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906.txt
+authors_ruled:
+  tsarstvennaia-kniga:
+    kind: anonymous
+    evidence: The title page (file lines 22-23) and the preface (file lines 73-80) name the Tsar's Book
+      as a manuscript chronicle without an author; a work-entity.
+  nikonovskaia-letopis:
+    kind: anonymous
+    evidence: The Nikon Chronicle continuation is edited from named manuscript copies with no author (preface,
+      file lines 73-95); a work-entity.
+assignments:
+- row_id: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906--tsarstvennaia-kniga-the-tsar-s-book-the-illuminated
+  work: Tsarstvennaia kniga (the Tsar's Book), the illuminated chronicle of 1533-1553, in the Commission's
+    1906 edition
+  author: tsarstvennaia-kniga
+  locus: from file line 6177 (ТАКЪ НАЗЫВАЕМАЯ ЦАРСТВЕННАЯ КНИГА, year 7042) to the end of the text
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: tradition
+  confidence: assigned
+  note: The court's own chronicle of Ivan IV's minority and early reign, with Metropolitan Daniel at Vasily
+    III's deathbed and tonsure, Metropolitan Macarius, the 1547 fire and the Kazan campaign told with
+    the church's prayers and processions; the chronicle witness to the Stoglav generation. Readable OCR;
+    quote after a page-image check.
+- row_id: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906--additions-to-the-nikon-chronicle-for-1558-1567-the-synodal
+  work: Additions to the Nikon Chronicle for 1558-1567 (the Synodal, Alexander Nevsky and Lebedev copies),
+    1906 edition
+  author: nikonovskaia-letopis
+  locus: from file line 258 (ДОПОЛНЕНIЯ КЪ НИКОНОВСКОЙ ЛѢТОПИСИ) to file line 6176
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: tradition
+  confidence: assigned
+  note: 'The chronicle continuation for 1558-1567: the Livonian war years and the beginning of the oprichnina,
+    from three seventeenth-century copies. Church matter is thinner here than in the Tsar''s Book; placed
+    as tradition because it is the same official chronicle voice.'

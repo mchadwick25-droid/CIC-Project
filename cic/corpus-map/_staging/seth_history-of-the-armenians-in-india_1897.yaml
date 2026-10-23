@@ -1,0 +1,42 @@
+source_file: seth_history-of-the-armenians-in-india_1897.txt
+
+assignments:
+  - row_id: seth_history-of-the-armenians-in-india_1897--history-of-the-armenians-in-india
+    work: "History of the Armenians in India from the Earliest Times to the Present Day (1897)"
+    author: seth
+    locus: "the chapters headed 'Devastation of Julfa in Armenia' (file line 2250) and 'Founding of New Julfa in Persia' (about line 2289), and the merchant settlements that follow"
+    atlas_ids:
+      - armenian-christianity-new-julfa
+    role: context
+    confidence: assigned
+    note: >
+      A history of the Armenian merchants and churches of India by an Armenian born at New
+      Julfa (the book says so), writing in English in 1897. A late secondary account, not a
+      source from the period: it tells the 1604-05 deportation and the founding of New
+      Julfa from tradition and reports Armenian tombstone inscriptions. The two chapters
+      above were read; the rest of the book was sampled at five points. Use it for the
+      diaspora network that the New Julfa merchants built, and check every date against a
+      period source.
+  - row_id: seth_history-of-the-armenians-in-india_1897--history-of-the-armenians-in-india-2
+    work: "History of the Armenians in India from the Earliest Times to the Present Day (1897)"
+    author: seth
+    locus: "the chapters on the Armenian churches and communities of India in the eighteenth century"
+    atlas_ids:
+      - armenian-christianity-era-8
+    role: context
+    confidence: provisional
+    note: >
+      The Indian Armenian colonies in the eighteenth century fall in this entry's window
+      (about 1700-1815), though its places are Constantinople, Venice and Mount Lebanon,
+      not India. Placed on dates; the eighteenth-century chapters were not read.
+  - row_id: seth_history-of-the-armenians-in-india_1897--history-of-the-armenians-in-india-3
+    work: "History of the Armenians in India from the Earliest Times to the Present Day (1897)"
+    author: seth
+    locus: "the nineteenth-century chapters and the Calcutta community"
+    atlas_ids:
+      - armenian-christianity-zartonk
+    role: context
+    confidence: provisional
+    note: >
+      The Armenian community of India in the nineteenth century, the diaspora edge of the
+      Armenian revival. Placed on dates; the chapters were not read.

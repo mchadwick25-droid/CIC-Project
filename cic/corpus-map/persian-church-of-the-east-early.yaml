@@ -71,6 +71,22 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--dated-series-of-the-patriarchs-sulaka-to-abdisho-2
+  work: 'Bibliotheca Orientalis III.1 (Assemani, 1725): the catalogue of the Syriac writers
+    of the Church of the East, built on Abdisho of Nisibis''s catalogue of books'
+  author: assemani
+  locus: whole file; Abdisho's catalogue with Assemani's notes runs under the running head
+    'Catalogus Libror. Syror. Ebedjesu' from file line 4305 to about 63161, with Abdisho's
+    own entry ('EBEDJESU SOBENSIS') at 63715; the series of patriarchs from about 101030
+  role: context
+  confidence: provisional
+  note: 'The eighteenth-century reference catalogue of the East Syriac writers from the fourth
+    century onward, with Assemani''s dated notes. Placed on subject for the early Persian
+    church entry, whose open seed row names the same book in another scan (india.history.resource.71763,
+    fetched and compared, not cleaner). Not read for that entry.
+
+    '
+  source_file: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
 - row_id: chronicle-of-arbela_die-chronik-von-arbela-deu_sachau1915--chronicle-of-arbela-german-translation
   work: Die Chronik von Arbela (the Chronicle of Arbela attributed to Mshiha-zkha), German
     translation

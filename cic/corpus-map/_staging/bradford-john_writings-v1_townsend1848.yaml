@@ -1,0 +1,45 @@
+source_file: bradford-john_writings-v1_townsend1848.txt
+
+assignments:
+  - row_id: bradford-john_writings-v1_townsend1848--bradford-s-sermons-and-meditations-the-sermon-on-repentance-1553-the-s
+    work: "Bradford's sermons and meditations: the Sermon on Repentance (1553), the Sermon on the Lord's Supper, the Godly Meditations on the Lord's Prayer, the Belief and the Ten Commandments, and the private prayers for the hours of the day"
+    author: bradford-john
+    locus: "Sermon on Repentance from file line 2337; Sermon on the Lord's Supper from 4422; Meditations from 6573; Private Prayers from about 11940; to the prison letters at about 23623"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The Edwardian preacher's own pulpit and closet: the sermon that called
+      England to repentance in 1553, and the meditations and hourly prayers that
+      were reprinted for a century. Primary voice, clean OCR, ready to quote once
+      verified against this file; the editor's notes are not Bradford's words.
+  - row_id: bradford-john_writings-v1_townsend1848--bradford-s-prison-letters-farewells-and-his-examinations-and-conferenc
+    work: "Bradford's prison letters, farewells, and his Examinations and conferences of 1555"
+    author: bradford-john
+    locus: "from about file line 23623 (letters and farewells) and the Examinations from about 25066 to the end of the volume"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      A Marian martyr's own record of his hearings before Gardiner and the
+      commissioners and of his conferences with Bonner's chaplains and the Spanish
+      friars, beside the farewells he wrote to Lancashire, Cambridge and London.
+      Bradford's own account, not Foxe's frame; Foxe printed much of it, and this
+      is the Parker Society text from the earliest printings. Primary voice, clean
+      OCR.
+  - row_id: bradford-john_writings-v1_townsend1848--bradford-s-meditations-and-private-prayers-the-godly-meditations-the-p
+    work: "Bradford's meditations and private prayers (the Godly Meditations; the prayers for the hours of the day; the meditations from his Tyndale Testament)"
+    author: bradford-john
+    locus: "from file line 6573 to about 23623"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      The devotional pattern (self-examination, set prayers for rising, dressing,
+      meals and sleep) that the godly diaries of the 1580s and later follow. The
+      Puritan world's own texts (Rogers, Hoby, Ward) would need to be read for an
+      'argues from' link; until then context, provisional, as the first-pass
+      dossier suggested.

@@ -1,0 +1,31 @@
+source_file: boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt
+
+authors_ruled:
+  swiss-brethren:
+    kind: anonymous
+    evidence: >
+      Böhmer's section IV heading, "Die sieben Artikel von Schlatt am
+      Randen" (file line 1711), and his introduction there date the text
+      to the gathering of 24 February 1527 and name no author; the
+      corpus map already uses the slug swiss-brethren for this same work
+      in mcglothlin_baptist-confessions-of-faith_1911.yaml.
+    from_file: boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt
+
+assignments:
+  - row_id: boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910--die-sieben-artikel-von-schlatt-am-randen-schleitheim-1527
+    work: "Die sieben Artikel von Schlatt am Randen (the Schleitheim articles, 1527), German text"
+    author: swiss-brethren
+    locus: "section IV from file line 1711 to the end of the file (line 2441): Böhmer's introduction and notes in Antiqua, the articles themselves in Fraktur"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      The German original of the Swiss Brethren's founding confession,
+      which the corpus so far held only once removed (McGlothlin 1911
+      and Jackson 1901 both render Zwingli's Latin). SECOND WITNESS for
+      scan quality under Mark's OCR ruling: the Fraktur
+      text of the articles is garbled, so it serves to check the English
+      against the page images, not to quote from directly. Sections I-III
+      of the same file (the peasants' Twelve Articles and related
+      documents, 1525) are the peasants' war and are not assigned.

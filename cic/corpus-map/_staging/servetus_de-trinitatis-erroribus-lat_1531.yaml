@@ -1,0 +1,19 @@
+source_file: servetus_de-trinitatis-erroribus-lat_1531.txt
+
+assignments:
+  - row_id: servetus_de-trinitatis-erroribus-lat_1531--de-trinitatis-erroribus
+    work: "De Trinitatis erroribus libri septem (1531)"
+    author: servetus
+    locus: "whole text from file line 11 (the book is in seven libri; the OCR gives no usable headings)"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: tradition
+    confidence: assigned
+    note: >
+      Servetus's first book, the one the census names as the movement's
+      first voice, in the original Latin. Second witness for exact
+      wording: the McGill scan is badly garbled in places (word-like share
+      about 0.79; the 30 and 90 percent samples fall in noise) until a
+      cleaner scan is found (Mark's OCR ruling). No
+      public-domain English exists: Wilbur's 1932 translation was renewed
+      in 1960 and its archive.org copy is lending-only.

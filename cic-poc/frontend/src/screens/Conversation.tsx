@@ -5,6 +5,8 @@ import { ConversationChrome } from '../components/ConversationChrome';
 import { DeletedNotice } from '../components/DeleteConversation';
 import { Enter } from '../components/Enter';
 import { ModernTermMark } from '../components/ModernTermMark';
+import { ResourcesFirst } from '../components/ResourcesFirst';
+import { SavedToHome } from '../components/SavedToHome';
 import { TranscriptScroll } from '../components/TranscriptScroll';
 import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
@@ -77,10 +79,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
         title="Church in Conversation"
         aboutLabel={`About ${world.representativeName}`}
         about={
-          <>
-            <Arrival world={world} />
-            {sessionCode && <NotSavedNote />}
-          </>
+          <Arrival world={world} />
         }
         feedbackPage={world.worldKey}
         reportPage={started ? pageFeedbackId('conversation', [world.worldKey]) : null}
@@ -92,6 +91,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
         <ConversationCard world={world} speaking={(awaitingReply && !closed) || reveal.busy} />
       </div>
 
+      <ResourcesFirst turns={turns} sessionId={sessionId} />
       <TranscriptScroll label="Conversation" followSignal={participantTurns}>
         {turns.map((turn, i) => {
           const still = i < initialTurns;
@@ -162,6 +162,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
         )}
         <WaitingNote show={waiting} label={`${world.representativeName} is considering`} />
       </TranscriptScroll>
+      {started && <SavedToHome />}
 
       {error && (
         <div className="conversation__error" role="alert">
@@ -195,8 +196,4 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
       {!deleted && <p className="conversation__ai-line sans">This is an AI-generated voice.</p>}
     </div>
   );
-}
-
-function NotSavedNote() {
-  return <div className="conversation__bar-note sans">Not saved to an account — this conversation lives in this tab</div>;
 }

@@ -1,0 +1,1059 @@
+Title: The Dutch Annotations upon the whole Bible, or all the holy canonical Scriptures of the Old and New Testament, together with and according to their own translation of all the text, as both the one and the other were ordered and appointed by the Synod of Dort, 1618, and published by authority, 1637; now faithfully communicated to the use of Great Britain in English; whereunto is prefixed an exact Narrative touching the whole work and this translation. FRONT MATTER ONLY: the title page, the Parliamentary ordinance, Haak's 'Plain and True Narrative touching the late Version of the Bible out of the original tongues into the Belgick or Netherlandish, and the Annotations on the same, as they came forth together in the year of Christ 1637, by the advice of the Synod of Dort and authority of the Lords the States General', and the Parliamentary ordinance
+Creator: Theodore Haak, Esq. (translator and author of the Narrative; title page read in the OCR); the Narrative reports the Synod of Dort's resolutions and names the Dutch interpreters (Bogerman, Baudartius, Bucerus for the Old Testament, Rolandus, Hommius and Walaeus for the New, as the Narrative gives them)
+Publisher: London: printed by Henry Hills for John Rothwell, Joshua Kirton and Richard Tomlins (imprint read in the OCR at file lines 104-105)
+Publication Date: 1657 (title page read in the OCR as 'Anno Dom. 16 5 7')
+Rights: Public Domain (a seventeenth-century English print, carrying a Creative Commons Public Domain Mark 1.0 on the host item; public domain by date under the project's 95-year rule)
+Source: Internet Archive item dutch-annotations, file 'Dutch Annotations_djvu.txt' (a 1978 University Microfilms scan uploaded to the folkscanomy_religion_bible collection, no contributor named; the full file is 13.4 MB), fetched directly (curl, raw bytes) by the library/source-research thread (Era VII session, second-pass agent for the continental Reformed and Scandinavian worlds), 2026-10-23; host rights statement: licenseurl http://creativecommons.org/publicdomain/mark/1.0/ (Public Domain Mark); not access-restricted. An EEBO microfilm of the same book is item bim_early-english-books-1641-1700_the-dutch-annotations-_haak-theodore-ed_1657 (not fetched).
+Provenance note: Header prepended; the OCR text follows unchanged (no characters altered; the raw file contains 0 long-s glyphs, so no long-s normalisation was done). Rights basis restated: a seventeenth-century English print, carrying a Creative Commons Public Domain Mark 1.0 on the host item; public domain by date under the project's 95-year rule.
+Content note: PARTIAL EXTRACT. This file holds only the front matter of the 13.4 MB scan: file lines 1 to the line before the argument of Genesis ('His first Book of Moses is, by a Greek word, termed Genesis'), that is, the microfilm target and title page, the Parliamentary ordinance granting Haak the privilege (signed 'Henry Elsyng, Cleric. Parliamentorum', line 159), the title page repeated, Haak's Narrative (from the heading at about line 290, 'A Plain and True Narrative touching the late Version of the Bible'), which tells how the States General charged the Synod of Dort with the translation, the Synod's resolution and its provisional choice of six interpreters (around lines 364-440, citing the Acta Synodalia, Sess. 7), the Synod's petition to the States General of 30 May (line 470), the State's order of 8 November 1625 (line 512), the names of the interpreters for the Old and New Testament (from line 519), the printing of 1637, and the English reception, with Parliament's recommendation of the work and the Ordinance of Parliament passed for Haak's encouragement (around lines 629-660); then the matter that precedes Genesis. The annotated Bible text itself (Genesis to Revelation, about 13 MB) is not vendored; a build that needs an annotation on a verse fetches the host file and cites it by book and chapter. The Statenvertaling's own Dutch preface is not on any reachable host as text (first-pass dossier); this English Narrative is the usable account of how the Dutch church's Bible was made. Microfilm OCR sampled at 10/30/50/70/90 percent of the full file (about 0.74 of tokens read as words against a clean English baseline of 0.92; the front matter itself reads at about that level): the 1657 typography's long s is read as f throughout ('Tranflation', 'Synod', 'fupreme'), the title page is read with gaps, and the narrative's margins and catchwords intrude. No U+017F characters were present. SECOND WITNESS for exact wording (INTAKE scan-quality rule): locate a passage here and verify against the page image before quoting.
+
+XEROX MICROFORMS SYSTEMS 
+
+
+Ann Arbor, Michigan 48106 
+
+
+University Microfilms 
+6 7 
+lin hulu 
+
+
+HTL 
+
+
+(313) 761-4700 
+
+
+cid Ltt 
+
+
+1 
+
+
+WHT 
+
+
+(iriluili 
+
+
+writen lta 
+
+
+1 
+| 
+
+
+i 
+tagline 
+
+
+8 
+
+
+{ il 
+
+
+lirlivnlinlintin 
+
+
+| 
+
+
+: 
+slititin 
+
+
+MICROFILMED — 1978 
+
+
+[ANNOTATIONS 
+
+
+THE DUTCH 
+
+
+Upon the whole 
+
+
+BIBLE: 
+
+
+Holy Canonical Scriptures 
+OF THE _ 
+
+
+OLD «4 NE W 
+
+
+TESTAMENT, 
+
+
+TOGETHER 
+
+
+With, and according to their own Tranflation of 
+all the Text : As both the one and the other were ordered 
+
+
+and appointed by the S y x ov of Dor x, 1618. and publifhed 
+by Authority, 1 6 37. 
+
+
+Now faithfully communicated to the ufe of Great 
+Britain, in Englifh. 
+
+
+W hereunto is prefixed anexat Narrative 
+touching the whole Work, and this Tranflation. 
+
+
+By THEODORE HAAK, Ely, 
+
+
+es tera ee Sanam eet et a 
+
+
+rs 
+
+
+LONDOKM: 
+Printed by Henry Hills, for Fobn Rothwell, Fofbua Kirton, and 
+Richard Tomlins, Anno Dom. 16 § 7- 
+
+
+an  ——. 
+fea 
+
+
+_ eee: 
+te en - 
+
+
+DE the fix Pmprzettion ) fo tha 
+
+
+Annocast 
+
+
+{ofrok Piety ; And che pains in finithing uch a Bok 
+exceeding great. ™ | | 
+
+Mwelt. ered and D2dained by the Lords and Come 
+rons Alembled in Parliament, for the Encouragement 
+
+
+—p€ che Undertaker thereof, Theodor ‘Haak , That He oz 
+
+
+Whom He Hall Adign, Matt Have theprivilenge OF Print- 
+ing and Clending ad ne sir ae ue “ spe 
+fourteen pears’; Avbich evi loge eg 1 
+
+ar tie Bvt vation none elfe unper wat 
+pretence foever, (hall be permitted to Pntergrepnte tn 
+
+
+inting the Whole, op any part thereof, upon'ebe pan 
+af copfeiting aq Lyoutand pounds to the laid Theodore < 
+
+
+Haak; Fo be recovered by Action of Devt, Will, Plaine, 
+
+
+gp Bngomation, wherein no EMoignoz Mager at Hay q 
+~ Oe apanttteh, and fuch other penalties as Matt Hereaks q 
+ter be choughe ft, 7 
+
+
+Henry Elfyng Cleric. Parliamentorum. 
+
+
+a _@ 
+
+
+_|. FHave A ffigned all my Right, Title, and Intereft.by vertue of this - x 
+= louse abovefaid, to the Compleat Tranflation of theDutch : 
+-. Annotations upon the Old and New Teftament, unto Richard Tom, : 
+
+
+lins and Henry Hills. 
+
+
+Augafl 24 16576: 
+
+
+be Y qvedt Ufe and wenekt to thele Realms, fo2 the pro-~ - 
+M0 
+
+
+eR, 
+
+
+THE DUTCH 
+
+
+Upon the whole | 
+| Or, allthe =~ ; 
+Holy Canonical Scriptures 
+OF THE - 
+
+
+OLD and N E W 
+
+
+TOGETHER 
+
+
+all the Text : As both the one and the other were ordered 
+and appointed by the S yn ov of Dory, 1618. and publifhed 
+by Authority, 1 6 3 7. | 
+
+
+Now faithfully communicated to the ufe of Great 
+Britatn, in Englifh. 
+
+
+W hereunto 1S prefixed anexact NARRATIVE 
+touching the whole Work, and this Tranflation. 
+
+
+By THEODORE HAAK, Eh, 
+
+
+ere ne: 
+
+
+ee ee 
+
+
+LONDOXM: 
+Printed by Henry Hills, for Fobn Rothwell, Fofbua Kirton, and 
+Richard Tomlins, Anno Dom. 16 § '7- 
+
+
+a 
+
+
+a ae arn ee et 
+
+
+/TESTAMENT, 
+
+
+With, and according to their own Tranflation of 
+
+
+a aa 
+
+
+ANNOTATIONS | 
+
+
+ee 
+
+
+| THE DUTCH . 
+i | ; ; a a . » ee ee 
+| y ee ANNOTATIONS 
+| ‘ Upon the New 
+i 7 ne T E T. MENT. 
+| — Or, all the 
+: 
+oon BOOK S 
+ie OF THE 
+| NEW COVENANT 
+. | 7 oe tas 
+4 Lo Ad : , OfourLorp Jesus ee | 
+| . TOGETHER set _ 
+: (. ¢ . ~~ > 
+( With, and according . tcethely™ own. Teanilaios of 
+i a all the Text, ‘out of the Original Tongue :¢ As-both the one. * 
+ti ae and the other. were .ordered and appointed by .the - 
+fk Sinovof Dorr, 1618, and. pablifhed by* | 
+| Males Authority, 1637. | 
+2 | Now faithfully communicated tothe ufe of Great 
+a Britain, in Englifh. * 7 
+as | By THEODORE HAAK Efq: 
+t | 2 att 2 
+} LONDO NO: 
+4 Printed by Henry Hills, for Fobu Rothwell, Hu Kirton, and 
+Richard Tomlins, Anno Dom. 1657. 
+ee 
+
+
+7 OF 
+4 
+iin) 
+a 
+
+
+A 
+
+
+[ , 5 iS Wise 
+ne yd f jWNEE 
+= ae | f NG py Neh &. 
+\ si YM 4 Vale A a, 
+%, ‘i ©Z NI 
+eee an ns ee a | | | 
+ih Me : \ i Vd ao ance : Peery +1: ae 1 
+' oo 3 ee a . APlain and True Narrative touching the late Verfi- 
+; on of the Bible, out of the’ Original Tongues into the 
+a Se, | Belgick or Netberlandifh, and the Annotations 
+a a ‘ Ts on the fame, as they came forth together 
+: 3 5 ae in the year of Chrift, 1637, 
+i i oe: ra Se 
+7 By the Advice of the Synod of Dort, and Authority 
+ih - of the Lords, the States General of the - | 
+
+
+|UNITED NETHERLANDS 
+
+
+: i “AS ALSO 
+
+
+i! . See Lo 
+ae ; | a < 
+
+rd | ‘A Weid, concerning the prefent Tranflatton thereof’ into Englifh, 0. ), 
+
+a : | ; SO ee 
+
+vi : Dae 
+
+( He States General of the. United Netherlands, having in the © <i 
+
+il year One thoufand fix. hundred and eighteen, by -reafon. of “ia 
+
+
+the inteftine differences then troubling their Churches, cal- . 
+leda National Synod to beheld at Dort, and,fortofhew.be- 
+fore all the World, thac they defired a fair proceeding, 
+likewife invited thither, by application of their earneft de- 
+
+
+SN 
+S 
+
+
+: 8 fires uhto the Chief Magiftrates and Governours of . moft 
+: ——e «Reformed Churches; {ome of the eminenteft Divines for - 
+; HL Partsand Piety, outof England, France, the Palatinate, Brandenburch, Hasfia, 
+
+
+< Helvetia, (or Swifferland) Geneva, Bremen, Embden , &c, men publickly known 
+| and worthily famous in their Generations, 
+> Being met and affembled together, before the Diffenters , who were likewife 
+5 fairly called, did appear, there was a folemn motion made. in the Synod, of un- 
+dertaking-a New Tranflation of: the Bible, for the ufe of thofe Churches, out 
+of the Original Fountaines. — ne a 
+Bs. Some Debate being had thereupon of the neceffity of the work, the beft me- 
+Bh thod of proceeding in it, and the Qualifications of the Perfons to be imployed 
+@ therein; Allthe Forreign Divines there prefent, were asked their advice; The 
+Englifh (who were George Carleton , oo Bithop of Landaffe, after of seas Hs 
+. ve 7 ‘ ee r y ra € 0 i} 
+
+
+eae ee 
+
+
+the Interpreters got ready, firlt at home, every one his fhare, and at laft (Revifers 
+
+
+~ “‘Pohn Davenant, Divinity Profeffor at Cambridge, afterwards Bihop of Salishy. | 
+
+
+ry: Pofeph Hall, afterwards Bihop of Exceter, and laftly of Norwich, Samuel 
+
+
+Ward, Divinity Profeffor and Mafter of Sydney-Colledge in Cambridge)’ much | 
+approving fo good a defign, exhibited there in writing, what courfé and ordee § 
+" was formerly taken in England about the laft Tranflation in King Famcs his time, 
+and referred it to the Synod , what ufe to make thereof, for their ther prefent J 
+
+
+occafion, whereof fee more in the Ada Synodalia, Seff..7, Thofe of other parts, 
+
+
+gave likewife every one their beft Advice, and fo did the publik Profeffours alfo 
+
+
+of their own Univerfities at large, being exprefly fene co for chat purpofe 5 -Info- 
+-much that after mature deliberation and debate had about ic among themf elves, 
+the Synod concluded at Jaft from and upon the whole matter, that it wasa thing 
+moft needfull for their Churches, and conld not but prove very beneficial ae 
+<¢ edifying to them all,and as faras their Language extended, t 
+
+¢*moft Accurate Tranflation of the whole Bible of the Old and New Teftament, 
+
+
+¢*together with the Apocrypha,’ fhould be taken in hand with all care and expe- 
+
+
+dition, altogether out of and according tothe Original Tongues, and Notes § 
+
+
+€©alfo added (to the Canonical Books onely) for the explaining of difficuleand 
+
+
+© doubtfull words, phrafes and’paffages ; And that for the better and more fa- } 
+
+
+€¢ tisfadtory effecting thereof, the beft Verfions of the Bible, inany Vulgar or 
+
+
+<‘Tearned Language extant, as well as the Notes atid Commentaries thereon, 9 
+
+
+€¢ fhould carefully be confulted with for that purpofe, befides the ufe to be made 
+©Cof the Adviceand Judgement of other good Authors, and of living able men 
+
+
+<¢ alfo both at home and abroad, by.thejindertikers continual addrefs toandcor- 
+
+
+“refpondence with them, upon the Emergency ef any difficule mateer, 
+Hereupon the Synod forthwith ee to make Choice of fix, the ableft 
+and beft qualified men forfucha task among them, appointing them tobe the 
+Interpreters ox Tranflators of the Old and New Teftament, befides the Apocry- 
+pha, viz, three of them for the Old Teftament, all written in Hebrew, and three 
+others for the New,e~c. written in Greek. And forafmuch as this Employment 
+of theirs was like to require divers years attendance, tobe done as itrought; the 
+Synod made a Provifional choice of fix other able men, relpectively, to fupply the 
+accidental failing or deceafing ot any of the former Interprecers, and befides 
+them, they helditfit, chat of every Province of thofe Netherlands, there fhould 
+be chofen Tivo of like abilities every way, for to Revife from time to time what 
+
+
+and Interpreters all ) jointly cogether, ata tull meeting: alfo it was judged very 
+expedientand behoot-ful, the foretaid Interpreters fhould, by reafon of this 
+
+
+Employment, repair to, and during'the time of it, contiane together, inoneof 
+
+
+thet Univerfitics, tohave the more means and opportunity of confulting both 
+men and books for their purpofe, and tosthis end it fhould be: endeavoured. to: 
+
+
+‘procure them Dé{penfations from their Ordinary Funéions and Employments, . § 
+
+
+their Entertainments neverthelefs continuing, befides other due Evcourage- 
+ments and Confiderations of this their great and publick Labour. In regard whete- 
+
+
+of, and not to precipitate a work of that weight and importance, the Synod J 
+
+
+thought it needlefs to limit their sive, but referred the fame wholly, and relyed 
+
+
+upon the unqueftioned faithfulnefs and uprightne(s of the perfons they had cho-. 
+
+
+fen, onely to fatisfie he publick expectation, it was found meet, they fhould 
+
+
+give noticeand account from Quarter to Quarter, unto the Lords the States Ge- . ff 
+
+
+neral, of their progrefs; Befides divers other InfPructions about the Work ic 
+felf to be feen at large in the Ad¢a Synddalta before cited, 
+
+And becaufe this wasa work of publick concernment, and which ftvod in 
+
+| need 
+
+
+hat a New and : 
+
+
+need,as of further Authority and Approbation, fo alfo of no fimall means and charges 
+
+
+6 co effe the fame s therefore the faid Synod in their bumble Addrefs and Petition, 
+
+
+©¢ prefented tothe Lords the States General, as their fupreme Magiftrate, May 30, 
+<°1619, among fundry other things of greateft weight and ufe for the Churches 
+“Sunder their protection, recommended this matter as none of the leaft, from 
+“‘the neceffity of their own, and the praife-worthy example of moft Retormed 
+‘*Churches: That their Lordfhips would be pleafed ( approving the humble 
+“¢and faithfull advice of the Synod in this behalf) to procure Licence and Di- 
+‘¢ fpenfation for the perfons chofen and appointed for this Employment froth 
+
+
+*¢ their ordinary paftoral charges, and to difpofe their refpe€tive (churches, fo as 
+
+
+«to get their places otherwife fupplyed in the Interim, without prejudice to their 
+“* fetled maintenance, as alfo to appoint one of their. Univerficies for their meet- 
+“cing and conftant abode together all the while, and to furnifh and {ypply the 
+*« whole work and management thereof with all Expences neceffary and {uitable, 
+“<¢ out of the publick Treafury: all which was very favourably received and en- 
+tertained by the State, who, though they met with many hindrances and oppofiti- 
+tions for atime, in fetling the publick Diflempers, which {omewhat retarded the 
+publick profecution of this good Work; (however the appointed Interpreters 
+made provifion for it the whiles at home) yet how fertows and zealous they were 
+in promoting of it,appeared fufficiently by their doubled endeavours afterwards, 
+and their conftant care and real affiftance allalong, totheend of the work, {pa- 
+‘ving for no pains nor coft on whatfoever might conduce to the advancing and 
+“¢compleating of it, by fummoning the fix perfons, (as foonas they could ) to 
+©“ repair to the Univerfity of Leyden, with ther Books and Families, dilpenced 
+*¢ from their ordinary Functions in manner abovefaid, and liberally there provi- 
+“¢ ding for all their C onveniences and Neceflaries, ordinary and extraordinary, 
+‘and taking care too, that the very children and heirs of any coming to deceafe 
+“in the attendance of this work, fhould fully enjoy their due proportions of ens 
+€* rercainment and reward, and laftly, in honourable fort rewarding: all both In- 
+** cerpretersand Revifers to their full concent, (befides what the Interpreters had 
+‘by agreement fromthe undertakers of the Impreffion) The Sum of the char- 
+*° ges the Scate was at in this behalf, as may be fhewed, if need bes: by the par- 
+“¢ticulars, out of the publick Records, amounted to Twenty five thouland 
+«© pounds Sterling, and upward. a fu f ET 
+One thing ought not to be forgotten, asa Teftimony of their extraordinary 
+care, nothing fhould be wanting, that might be any way ufefull to farther and 
+improve the work: They were informed by a Noble Member of their own, thae 
+learned Psfcator, had not long betore his death, himfelf revifed and much amend- 
+ed his own formerly publifhed German Tranflation of the Bible,. upon occafion of 
+feveral Advercifements given him by fundry learned men, about various paffag- 
+es, Hereupon the State ordered prefently November 8, 1625, that Letters fhould 
+bewritten to Count Ernft Cafimir of Naffaw, Governour of Friczland, ec. to 
+procure all che faid amendments, thenin the hands of the {aid Pé/cators childrea 
+at Herbors, intheCounty of Naffaw, and to get them tranfmitted to the Lotds 
+the States General, for to be communicated by them ‘to the Interpreters at Ley- 
+den; with promife to the faid children, that they fhould be well rewarded for im- 
+parting of the fame, | Soo 
+The names of the Interpreters employed for the Old Teftament, were -Pohawnes 
+Bogermannus, Paftor of the Church at Lewarden, afterwards Divinity Profeffor 
+at Franecker,who had been Prefident of the Synod, Guilhelmus Bandartius, Pa~ 
+ftor at Zutphen, Gerfon Bucerus of gh in Zeland, both Members of the anes 
+: 2 | oO 
+
+
+Of thefe three Bucer#s was held to excellin the Hebrew, Bogermannusinjudge- 
+
+
+ment, and Bandartiws in conferring all manner of Verfions, The care of the 
+New Teflament was committed to Antonius Walens, then Paftor at Middleburg, 
+after, Divinity Profeflour at Leyden, Feftus Hommius, Paltor at Leyden, and 
+
+
+Regent of the Divinity-Colledge there tor Holland, having been Scribe to the - | 
+
+
+Synod ; Facobss Rolandus, Paftor at Amfterdam , formerly at Frankendall, one 
+
+
+the former more readily, the latter more deliberately ,; But for Greek and Divi- 
+nity none went before Waleus. Hommius was plain, found and folid, and had 
+befides a fingular dexterity in penning, and accurate pointing, The general care 
+
+
+partially, as could be done, and their language would bear, without any preju- 
+dice or violence to the Truth, 
+
+In their Notes they ftooped to fatisfie even the meaneft Capacity ; though fame- 
+times the matters were fuch, as they could not but give proofs alfo of their great 
+abilities in all manner of Learning, void of oftentation, and full of candor and inge- 
+nuity. Their method of proceeding was not all alike: The Interpreters of the 
+old Teftament divided the Books of Mofes, the Hiflorical, the Doéfrinal, and the 
+Prophetical, each Divifion, into equal parts, whereof Bogermannus undertook 
+the firft, Baudartivs the next, and Bucerws the laft, And at their daily meetings 
+they read and examined allin order. Thofe of the New Teflament went every 
+one through the whole Books apart, aad when they met day by day, as the for- 
+met,(vis. three hours in the forenoon, andas many in che afternoon, duly) they 
+read itallover, every one marking, what was liked by all , which Hommius af- 
+terward tranfcribed, Inthe year One choufand fix hundred thirty one, one of 
+the Interpreters of the Old Teftament deceafed, viz. Bucerws, as alfo in the year 
+following, Rolandus, one of thofe for the New Teftzment, whereupon addrefles 
+being made to the State, forto get their places fupplied according to the pro- 
+vifional Order of the Synod abovementioned , it was judged more expedient, 
+things being fo far advanced,and the furviving Members fo well verfed and pra- 
+étifedinthe bufinefS, they fhould go on and finifh the work themfelves: Ic 
+being otherwife alfo obferved, thac Bogermannus his parts and judgement 
+prevailed moft, throughout the O/d Teflament , and Waleus his, throughout 
+the New. Acche finithing af every Book the fame was forthwith tranfinic- 
+ted by the Interpreters from Leydes their affigned place of abode, unto the 
+refpective appointed Revifers, till all was done, and then the Revifers alfo 
+themfelves were fummoned to Leyden, and difpenced from their ordinary fun- 
+étions in like manner, and every way well provided for, which happened in the 
+year One thoufand fix hundred thirty four, they conferring there with the In- 
+terpreters, and Revifing all the Books over in order, fo as that within fome fif- 
+reen or fixteen moneths time all was finifhed, and now made ready for the prefs, 
+‘The Revifers forthe Old Teftament were, for Gelderland, Antonius Thyfins , 
+Divinity Profeffour at Harderwyck, and after ac Leyden. For Holland, Fohannes 
+Poliander, Divinity Profeflour at Leyden, Abdias Witmarius , Divinity Profef- 
+four afterwards at Harderwyck 5 for Zeland, Fodocus Lorenus, Paftor at Fly fh- 
+ing ; for Utrecht, Arnoldus Teeckmen, Paftor there, for Friezland, Bern- 
+hardus Tullenius, Paftor at Lewarden, For Over-rffel , facobus Revius, Paftor 
+at Deventer, fince Regent of the Divinity Colledge at Leyden, for Groningen , 
+Francifcws Gomarus, atterwards Divinity Profeffour there. Thefe, at their firft 
+meeting with the Interpreters of the Old Teftament, conftituted Bogermannus, 
+their Prefident, Thyfins Affeffour, and Revivs Scribe: And here again Boger- 
+
+mannes 
+
+
+of the Affefforsin the Synod, Walews and Rolandus excelled for judgement, 
+
+
+of themall, was to exprefs and explain the Original Text as faithfully andim« ; 
+
+
+mananus excelled for judgement, - Witmearius and. Teekniannus for diligence, Poli- 
+ander, Thyfine and Gomarss, for profound knowledge and ability to determine, 
+The Revilers of the New Teflament and the Apocrypha, were, for Gelderland , 
+Sebaftianus Dammannus, Pattor at Zatphen , allo Scribe to the Synod: For Hol- 
+land, Fohannes Arnoldi Lindanus, Paltor at Delft, Guilielmus Nieuhufins, Rector 
+of the School at Haerlem: For Zeland, Carolus Demaerfius, Paftor at Middleburg, 
+fince Divinity. Profeflour at Utrecht, For Utrecht ; Ludovicus Gerbardus a Reneffe, 
+fince Paftor and Divinity Profeffour at Breda: For Friezland, Berahardus Fulle- 
+nins, appointed alfo for the. old Teflament before: For Over-7fsel, Cafparus Si- 
+belius , Paftorat Deventer: For Groningen, Henricus Altingins, Divinity Pro- 
+feffour formerly at Heidelbure, and afterwards at Groningen, Ac their firft meet- 
+ing with the Interpreters of the New Teftament, they made Waleus Prefident, 
+Lindanus:- Affeffour, and Feflus Hommius Scribes and here again excelled Wa- 
+lens his prudence and readinefsin directing, Demaetfins and Sibelius, their care | 
+and vigilancie in examining, and Altingtws with Waleus their found and folid 
+judgement indeterntining. The work being finifhed, and ready for the Prefs; 
+about the latter end of the year, One. thouland fix hundred thirty five, the Re- 
+vifers recurned home to their re{pective charges, but the Interpreters {tai’d out 
+and overlooked th eprixting, whereof the firft proofs forthe old Teflament, were 
+corrected by Baudartins and Hommins re{pectively, and the laft by Bogermannus 
+and Waleus., the whole being fully printed and ‘prefented to the State and by 
+their ane) _publithed, in-the year One thaufand fix hundred thirty feven, and 
+the ule thereof, introduced into all the Charches and Schools of thofe Provinces, 
+with general. fatisfaction and approbation, even-of moft of the difsenting parties - 
+themlelves, They that defire more particulars, touching this matter, may pe- 
+yufe the fore-cited Adta Synodalia, and the Life of Antoninus Walaus, before his 
+
+
+works in Folio, befides the Publick Records, Ay ; 
+And thus this great work being made‘publick,& extant in print,the great defires 
+good men had to be made parcakers of the benefit thereof, could not be bound 
+ed:by the Limits of thofe Churches and ‘Nation, for whom it was principally ins 
+tended, butitwas fought for and bought. up far and near: And here in Enz 
+land it {oon got:into fucha repute;that when,nat long afcer,the Parliament found 
+good,to get New Aznotations made upon the whole Bible for general Edification; 
+by thofe Reverend and able Divines, Mr. Letgh, Mr. Downham, Di.Gonge.Mt.Tay- 
+lour, Mt. Gataker, Mr. Peusberton, Mr, Abbot, Mr. Reading, Dr. Féatlyand Mrs 
+Tooker, (placed herein order of the parts of the Bible, which they were to uné 
+dertake) they (the Parliament) did then in efpecial manner recommend ths 
+very Bible and Notes unto them (as wellas Deodates Italian ) caufing. Copies of 
+each to be divided and fent refpectively unto them, for:to make -ufe thereof, 
+whichalfo they. did. And my Lord Primate of Armagh; Dr. Ufher., of happy 
+memory, was often heard to wifh very heartily, borh before and after that time, 
+that the whole work might be Exglifhed, as finding it the plaine/t and impartiale/t, 
+and freeft of Excurfions and Impertinencics, of any he knew, that knew fo many : 
+Wherefore alfo, when he heard that it was undertaken, he rejoyced, and encou- 
+raged the undertaker much amidft bis many difcouragements, What value the 
+principal Members of the late Afscmbly of Divines, together with the Scotilh 
+Church-Commiffioners, did fet upon it, their own words beft exprefs in that 
+fub{cribed free ArtefFation of theirs, (fet down hereafter) which by their means 
+was prefented to both Houfes of Parliament, for the encouraging of him, with 
+whom they had prevailed to undertake it; whereupon alfo the faid bath Honfes were 
+pleafed to pafs. an Ordinance of Parliament by way of Approbation and further 
+
+B 3 en- 
+
+
+SS a ee ee ee 
+
+
+encouragement, in fuch fort as then was conceived by them, might prove moft J 
+
+
+_ effeGtual for the work, and beneficial for the painfull Undertaker, though after- 
+wards it proved inthis part, defective. The Provincial Synod of London teftified 
+
+
+their approbation and liking of it, by fending twice fome worthy Members of J 
+
+
+theirs unto the faid Undertaker, and recommending the bafinels very ferioufly 
+unto divers Stationers, and very many pious and able Minifters elfe, and other god- 
+ly and worthy perfons, of all conditions, (even of different judgements) 1m City and 
+
+
+Countrey, upon all occafions, exprefled their great longing for che coming forth : 
+And much fooner indeed, and perhaps more exactly andac- 
+curately withall they might and would have come forth, but for the manifold | 
+
+
+of thefe labours, 
+
+
+publick difaffers and diftractions of late years, whereby the undertaker was left 
+
+
+deftitute of feafonable and requifite helps and helpers, according to the vafinefsand & 
+importance ot the work, and the publick concermment init; befides, that, afrerhe J 
+had begun the work and proceeded as far as the firft Book’ of Kings, he was ff 
+
+
+advifed and perfwaded upon very good grounds and approbation, to change the 
+way and method formerly approved of, and to begin quite Anew, onely to give 
+the more fatisfaétion to the publick, to fay nothing here of fundry other great 
+impediments and difcouragements commonly incident to works of this nature, 
+
+
+and ordinarily attending any fingle-hearted endeavouts of ferving Godandour § 
+
+
+Neighbour. 
+
+
+As to the whole work here prefented to the publick viewand ule, the Chriflian & 
+and difcreet Reader may be pleafed to obferve, that by itthereis imparted and § 
+communicated untohim, athe Text, as neeras could be done, according tothe & 
+Belgick Tranflation, and all their Notes or Annotations, inferted, where they fall § 
+in naturally, betwixt the Text, by Crotchets(, Jina different Character, allalong, & 
+“by way of Paraphrafe. The main Reafon or Necefsity rather of having thus & 
+
+
+<<done it, was, befides the eafing of the Readers underftanding , that all the 
+«¢ Notes of thole Belgich Divines, as alfo alltheir Quotations and References’ (ih- 
+
+
+<¢ finite almoft) are peculiarly fitted to their own reading, pointing, verfing, Gc, of F 
+
+
+<*the Text, and tono other: And really, without their entire reading of the 
+
+
+<« Text, one main aim and endeavourof their Tranflation would be miffing; 
+‘“thacis tofay, their very ground-work, and principsl bufinefs, which could § 
+“not but much obfcure and maim the Annotations themfelves. ‘Neither fhall § 
+«any need to fcrupleat, much lefs be offended withthe differences-of readings ff 
+<¢in feveral Tranflations, confidering, that the Hebrew words and phrafes efpeci- 
+“Sally, yea the Greek ones themfelves alfo, forall the copioufhefs of that Lin- @ 
+
+
+<“ouage, as well as thofe of moft, or all che reft, have much ambiguity in them, 
+
+
+‘© oradmit much variety of fignification, applyed to various matters and intents, & 
+“whence it cometh to pafs, that fuch aone takes them in this ferice, ahdano- § 
+¢¢ ther otherwife; but the comparing of both the ote and the otlier,'(were there ff 
+«never fo many) is fo far from doing hurt,thac it rather illuftrates the true mean- Ff 
+‘¢ing beyond any other means,and becomes a generalKey to many hidden Trea- & 
+
+
+«© fures laid up in the holy Scriptures. 
+
+
+a ee t 
+
+
+EEISSSEOUSSSOEESEHEES EES EESES SOEEEELEESEE HhEEEOSS4 
+
+VIV IVP PV HPV IGV 99 VIVP Vw PPV INH 
+
+A Copy of the ‘Certificate or. Atteftation ; about the 
+General defire in both Kingdomes (England and — 
+Scotland) to have the Belgeck ot DutchAnnotations upon 
+
+
+the Bible (come forth farft Anno Domini 1637.) 
+Tranflated into Engli(h, by Tu noponn Haak, 
+
+
+ne 
+
+
+SVINGD E whofe Names are here underwritten, Confidering, that 
+9 ever fince the year One-thiufand fix hundred thirty feven, 
+
+at which time the New Tranflation of the Bible in the 
+Dutch ie reas ig and continual Annotations 
+thereupon was publifhed; I haib been the unce[Jant Defsre 
+PUPS and Longing of fuch as for eteynal Life [earch the Scrip- 
+tures, both Minifters and others in thefe Kingdomes, (which they have ex- 
+pieffed upon all occaftons)) to have thofe’ Annotations tranflated into the Eng- 
+lif, Tongue ; promifing unto them[elves a rich jreifure of Knowledge and 
+Spiritual underftanding fiom the labouss of fo mang eminent Divines, asby 
+ihe choice of the famous Synod of Dort were fet part for fo good and great a 
+work, andiwith fervent and continual prayers unto the Father of Dalia 
+extraordinary Care and Diligence (wherein they had al Helps and Encou- 
+vagements) were forthe Shaceof Nineteen years exercifed thejein : And 
+we, notonely by Information of (uchids are skil'd in the Languages but 
+from our own Kuowledge, of the fudicpots, S ound and LY atisfattory Intexpteta- 
+tion of fame mare Ob[cure and Contraverted Pldces»* wherein we have ufed 
+the means totake Tryal'and have made Proof; Being very Confident, that 
+the (atisfattion of this earneft and pious Defire would prove profitable to alt 
+the Godly in thefe Kingdomes , Cdefuring that the Word of God may dwell 
+plentifully in thew hearts by Faith) And at this tune moSt [eafonable, when 
+fo many are dangeroufly {educed.by the mif-vepre(entation of the Will of God, 
+through the wrefting of Scripture ; Cannot but in our hearts acknowledge the 
+Wife andGractous Providence of God, (who provideth bread for the hun- 
+gry and doth not despife the defrres of the buinble, delighting to know his 
+
+
+Will, and towalk in his Paths) in diretting and leading Ws at laft to a learn-. 
+
+
+ed 
+
+
+Sees a 7 : cE B arr . vs — ee a errr 
+eer eemens Ne F i e 43) 
+y 
+
+
+ed Gentleman, Theodore Haak 5 every way fitted for fucha Task, he 
+/ being by Birth and Breeding a German , about twenty years [Anno 164 5] 
+| ——, conveifantinEngland, where not only-bis farthfulne{s is known in divers § 
+| publick Employments but his Dexterity alforn Tranflating divers Enolith | 
+: Books of Prattical Divinity into the German Tongue ; And whofe affes 
+Elion and xeal to the Glory of God; and quod of the Church we know to be 
+; —fuch, that be would willingly beftov himfelf upon the accurate and painfull & 
+h profecution of this Work, which he bath already entied upony were he not bin- & 
+dred by (uch difcouragements, as the Reciprocal xeal of the Godly with the 
+: defrre of thet own Sprritual Comfort 4 and of the Edification of the Church, : 
+| may eafily remove. 4 
+f We therefore grieved y that the Churches of Chrift in thefe Kingdomes § THE 
+/ have for fo long a time wanted fo inestimable a Benefit, and fearing, that if : | : 
+the prefent opportunity be not apprehended, the lrke, (all things confidered) | 
+
+
+i fhatl not readily be offered hereafter; Doin all carneftne[s of Spirit intreat, & T A T BE S G E N E R A L 
+
+that {uch as in fincerity deftre the fober and folid knowledge of the Will of God ¥ S | , 
+
+in Christ, revealed in Scripture, may with us joyn thear prayers and endea- f | 
+
+Yours for removing of. all hindrances out of the way, that fo nece[fary a work ¥ 
+
+may be prefently profecuted, and with al Sheed for the ufe of the Church, and ] 
+
+| the honour of Fefus Chrift, brought to perfection. at os a | T H E R L A 6 
+
+ie William Twifs, = Anthony Tuckney; Nicholas Proffet, : U N ] TE D N E N D 
+
+| 2. 2.>. Cornelius Bargefs, ~ Peter Smith, John Durey, é | eas ez os 
+Herbert Palmer, © |’ Edmund Staynten, _ Thomas Goodwin, ' To all that fhall See or Hear the Reading hereof, Greeting. 
+
+George Walker, © “Thomds Raley, Sydrack Simton, Ee 
+
+Thomas Young, — wee Richard Heyrick, . Adoniram Byfield, " 
+
+Samuel Clark, Edward Corbet, © Alexander Henderfon, ff 7 
+
+Francis Roberts, "John Foxcroft, .. Samuel -Rutherford, 
+
+| Thomas Hodges, , Gafper Hicks, = Robert Bayley, 
+
+Thomas Hill, .°’ — Henry Wilkinfon, . George Gillefpy, 
+
+
+OF THE 
+
+
+ui 
+a 
+4 
+Ba 
+
+
+aes 
+
+
+sgeend E it known; That whereas from the ve- 
+
+
+| Stephen’ Mitfhall,” John Bond; = CarfarGalendrine, - ry beginning of the Reformation in 
+John White; ~ “John Philip, Jonas Proof, F thefe Countries, We have ever feri- 
+John Wards, William Greenhill, : oufly taken to heart, and endeavour- 
+t tae * bea, eee ; iW Sseatay ed withall diligence and carefulnefs, to 
+ee ee we ss Gl advance whatfoever might conduce to, or was found 
+- 2 eee ee unserer: B neceflary for the good profperity and propagation of 
+| .)0OlUC ee Oe os f the Orthodox, true, Chriftian, Reformed Religion, 
+sf - ee cae es ee WHE A and the pure worfhip of God ; and withall, among the 
+
+
+reft 
+
+
+reft, thatthe holy Word of God might be interpre] 
+ted, taught and preached, according to the true mean. § 
+ing, {cope and drift of the Original Text and Tongues, jf 
+wherein it pleafed the Lord God Almighty to reveal his § Tongues, and yet further Revifed by fome other learn- 
+Doctrine and VVorfhip, through the infpiration of] 
+the Holy Ghoft; to the end, that the falvation of fouls, f ing declared unto us, that in this fame Tranflation there 
+
+
+and everlafting happinels, might thereby be furthered was nothing omitted of wlgat the Truth, the Propriety 
+
+
+and advanced more and more: and thus, having ob- | of the Words,aid the Genuine fence thereof could re- 
+
+
+ferved, that there was never any Tranflation made yet f quire, 
+
+
+of the holy Scriptures into the ACetherlandifh Vulgar f 
+
+
+Tongue, outof the Original Text; We long agoef} withalthe advice of the Council of State of thefe United 
+
+
+thereupon, defired of and committed unto divers men ¥ 
+
+
+| Netherlands, We have approved of and authorized, 
+
+
+of eminent learning, Divines and Minifters of the Re. 
+formed Church, to undertake the fetting forth of a new f 
+
+
+Netherlandifh Tranflation of the faid holy VVord of f 
+
+
+3 may be received, and the ule of it introduced in all the 
+
+
+| mei | Churches and Publick Schools of the United NC ether- 
+work having been likewife praile-worthily begun and f lands, and other Dominions and Countries, reforting 
+advanced from time to time, the profecution neverthe- f 
+
+
+j under Our Obedience : And accordingly, all Ecclefia- 
+| {tical Alfemblies, Minifters of the Word, Profeflours 
+f and Readers of Divinity, Matters of Colledges; and 
+VVherefore, and that this fo neceflary and Pious | 
+
+
+) whofoever elle may any wates be concerned in this be- 
+
+
+work, might yet at length once attain the wifhed effea, p half, regulate themfelves thereby in the exercife and 
+
+
+| adminiftration of their feveral charges and fundtions, 
+
+
+God, out of the Original Fountains; by whom the 
+
+
+lefs was retarded hitherto, by the faid worthy mens un- 
+timely departure. | 
+
+
+andour Chriftian zealand purpofe therein, an happy | 
+
+
+accomplifhment; we found it fitting, conformably to § for the better maintaining and furthering the Unity, 
+
+
+SV Velfareand Service of the faid Reformed Churches 
+
+
+the Fathers, as likewife to that of our Neighbour and § 
+
+
+the example of the’ primitive Church, in the time of 
+
+
+other Reformed Kingdomes, P rinctpalities and Com- 
+~mon-wealths; to defire, authorize and require thofe of 
+
+
+the National Synod held at Dort, in the years 1618, 
+
+
+and 1619, that they would take in hand the forefaid § 
+Tranflating, anddepute fome Learned and Expert- J 
+
+
+enced Divines for the perfecting, and others alfo for the 
+
+
+Revifing of the fame, 
+
+
+Now | 
+
+
+iS A een 
+
+
+‘6 
+
+
+Now this Tranflation being, through the Gracious 
+
+
+Bleffing of Aimighty God, wholly finifhed by the faid 
+
+
+eminentand expert Men inthe Hebrew and Greek 
+
+
+ed Divines; whofe Judgements and Approbations be- 
+
+
+So itis, that upon mature deliberation, and ufing 
+
+
+asalfo by thefe Wedo approve of and authorize the 
+forementioned Tranflation ; to the end, that the fame 
+
+
+and Schools in thefe ACetherlands; whereunto the 
+
+
+f Lord God Almighty be gracioufly pleafed to vouch- 
+ fafe his Bleffing, De 
+
+
+Given in the Haghe, July the 29. 1637. 
+
+
+f 
+
+
+THE 
+
+
+we. 
+
+
+< f ease 
+
+
+oO , t Lm —s* 
+Up | E =. 
+De wae ay re 
+Rc asia Sg H vas 
+
+
+SS 
+t\ 
+
+
+nu 
+
+
+SKC i LESS a: 
+The firft book of Mofes called 
+
+
+The Argument of this Book. 
+
+
+WY y 
+Syiridne 
+
+
+itl 
+
+
+t 
+
+
+ropes 
+
+

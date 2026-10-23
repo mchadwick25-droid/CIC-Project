@@ -1,0 +1,22 @@
+source_file: comenius_labyrinth-of-the-world_lutzow1901.txt
+
+assignments:
+  - row_id: "comenius_labyrinth-of-the-world_lutzow1901--the-labyrinth-of-the-world-and-the-paradise-of-the-heart-eng"
+    work: "The Labyrinth of the World and the Paradise of the Heart (English, Lutzow)"
+    author: comenius
+    locus: "whole volume; introduction from file line 521; chapters from line 171"
+    atlas_ids:
+      - czech-churches-last-century
+    role: tradition
+    confidence: assigned
+    note: "Comenius's allegory in Lutzow's English, with Lutzow's introduction. Written by the Unity's last bishop in 1623, in the first years of the suppression. Readable witness, quotable once each wording is checked against the page image. The Czech original is in comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt."
+
+  - row_id: "comenius_labyrinth-of-the-world_lutzow1901--the-labyrinth-of-the-world-and-the-paradise-of-the-heart-eng-2"
+    work: "The Labyrinth of the World and the Paradise of the Heart (English, Lutzow)"
+    author: comenius
+    locus: "whole volume; introduction from file line 521; chapters from line 171"
+    atlas_ids:
+      - the-moravian-church-at-herrnhut
+    role: antecedent
+    confidence: provisional
+    note: "Comenius's allegory in Lutzow's English, with Lutzow's introduction. Written by the Unity's last bishop in 1623, in the first years of the suppression. Readable witness, quotable once each wording is checked against the page image. The Czech original is in comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt."

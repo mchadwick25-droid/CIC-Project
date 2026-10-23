@@ -1,0 +1,38 @@
+source_file: teresa-of-avila_way-of-perfection_stanbrook1919.txt
+assignments:
+- row_id: teresa-of-avila_way-of-perfection_stanbrook1919--way-of-perfection
+  work: The Way of Perfection (Camino de perfeccion), Stanbrook translation from the autograph with the
+    Escorial and Valladolid variants, second edition 1919
+  author: teresa-of-avila
+  locus: Zimmerman's introduction from about line 650; the protestation at line 98 and the chapters from
+    "CHAPTER I" at line 346 (contents) and the text following; chapters XLI-XLII at lines 11207-11528; index
+    from line 11825
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: tradition
+  confidence: assigned
+  note: 'Teresa writing for her own nuns at St Joseph''s, Avila, on the three virtues of the reform and on
+    prayer, with her commentary on the Our Father: the founder''s rule of life in her own voice, the one
+    major work of hers the corpus lacked. Ready to quote once each quote is checked against the page image;
+    the voice is the Stanbrook English. The editor''s introduction and notes are not hers. The Spanish
+    original is Silverio tomo III (Camino de perfeccion), a verified lead not vendored.'
+- row_id: teresa-of-avila_way-of-perfection_stanbrook1919--way-tridentine
+  work: The Way of Perfection, Teresa's counsel to enclosed nuns after Trent
+  author: teresa-of-avila
+  locus: whole file; placed on the title and introduction, not read through for the Tridentine relation
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: 'A reformed convent''s inner rule written in the decade the Tridentine decree on nuns'' enclosure
+    took effect; context for the whole-church world on the same footing as the Life and the Foundations.'
+- row_id: teresa-of-avila_way-of-perfection_stanbrook1919--way-carmelites
+  work: The Way of Perfection, the passages on the primitive Rule
+  author: teresa-of-avila
+  locus: placed on the title and introduction only
+  atlas_ids:
+  - the-carmelites
+  role: context
+  confidence: provisional
+  note: 'Sixteenth-century reception of the Carmelite Rule by the reform''s founder; context for the medieval
+    entry on the same footing as her Life.'

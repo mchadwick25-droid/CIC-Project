@@ -42,6 +42,18 @@ CREATE TABLE IF NOT EXISTS linked_sign_ins (
   provider     TEXT NOT NULL,
   UNIQUE (account_id, provider)
 ) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS erased_sessions (
+  session_hash TEXT PRIMARY KEY,
+  qc_tokens    TEXT NOT NULL,
+  expires_on   TEXT NOT NULL
+) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS shelf (
+  session_id TEXT PRIMARY KEY,
+  account_id TEXT NOT NULL,
+  sealed     TEXT NOT NULL,
+  day_added  TEXT NOT NULL
+) WITHOUT ROWID;
+CREATE INDEX IF NOT EXISTS shelf_by_account ON shelf (account_id);
 CREATE TABLE IF NOT EXISTS account_codes (
   scramble   TEXT PRIMARY KEY,
   account_id TEXT NOT NULL,
@@ -201,6 +213,74 @@ class AccountStore:
                 self._d.execute("ROLLBACK")
                 raise
             return made
+
+    # the shelf ----------------------------------------------------------------
+
+    def shelf_add(self, account_id: str, session_id: str, sealed: str, day: str, limit: int) -> str:
+        """'ok' or 'mine' when the conversation is now on this account's shelf, 'taken' when
+        another account's, 'full' at the limit, 'gone' when the account has vanished."""
+        with self._lock:
+            self._d.execute("BEGIN IMMEDIATE")
+            try:
+                row = self._d.execute("SELECT account_id FROM shelf WHERE session_id = ?", (session_id,)).fetchone()
+                if row is not None:
+                    outcome = "mine" if row[0] == account_id else "taken"
+                elif self._d.execute("SELECT COUNT(*) FROM shelf WHERE account_id = ?", (account_id,)).fetchone()[0] >= limit:
+                    outcome = "full"
+                elif self._d.execute(
+                    "INSERT INTO shelf SELECT ?, account_id, ?, ? FROM accounts WHERE account_id = ?",
+                    (session_id, sealed, day, account_id),
+                ).rowcount == 1:
+                    outcome = "ok"
+                else:
+                    outcome = "gone"
+                self._d.execute("COMMIT")
+            except BaseException:
+                self._d.execute("ROLLBACK")
+                raise
+            return outcome
+
+    def shelf_rows(self, account_id: str) -> list[tuple[str, str]]:
+        """(session id, day added), oldest first."""
+        with self._lock:
+            return [tuple(r) for r in self._d.execute(
+                "SELECT session_id, day_added FROM shelf WHERE account_id = ? ORDER BY day_added, session_id", (account_id,)
+            )]
+
+    def shelf_sealed(self, account_id: str, session_id: str) -> str | None:
+        with self._lock:
+            row = self._d.execute(
+                "SELECT sealed FROM shelf WHERE account_id = ? AND session_id = ?", (account_id, session_id)
+            ).fetchone()
+        return row[0] if row else None
+
+    def shelf_reseal(self, account_id: str, session_id: str, sealed: str) -> None:
+        with self._lock:
+            self._d.execute("UPDATE shelf SET sealed = ? WHERE account_id = ? AND session_id = ?", (sealed, account_id, session_id))
+
+    def shelf_on_older_keys(self, key_id: str) -> int:
+        with self._lock:
+            return self._d.execute("SELECT COUNT(*) FROM shelf WHERE sealed NOT LIKE ?", (key_id + ":%",)).fetchone()[0]
+
+    def shelf_remove(self, account_id: str, session_id: str) -> bool:
+        with self._lock:
+            return self._d.execute(
+                "DELETE FROM shelf WHERE account_id = ? AND session_id = ?", (account_id, session_id)
+            ).rowcount == 1
+
+    def shelf_forget_session(self, session_id: str) -> bool:
+        """A conversation deleted by its own code leaves whatever shelf it was on."""
+        with self._lock:
+            return self._d.execute("DELETE FROM shelf WHERE session_id = ?", (session_id,)).rowcount == 1
+
+    def is_shelved(self, session_id: str) -> bool:
+        with self._lock:
+            return self._d.execute("SELECT 1 FROM shelf WHERE session_id = ?", (session_id,)).fetchone() is not None
+
+    def stale_accounts(self, before_week: str) -> list[str]:
+        """Accounts last used in a week before the given one."""
+        with self._lock:
+            return [r[0] for r in self._d.execute("SELECT account_id FROM accounts WHERE week_last_used < ?", (before_week,))]
 
     # codes held ---------------------------------------------------------------
 
@@ -533,6 +613,7 @@ class AccountStore:
                 self._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (account_id,))
                 self._d.execute("DELETE FROM pending_recoveries WHERE account_id = ?", (account_id,))
                 self._d.execute("DELETE FROM account_codes WHERE account_id = ?", (account_id,))
+                self._d.execute("DELETE FROM shelf WHERE account_id = ?", (account_id,))
                 if gone:
                     self._d.execute("INSERT OR IGNORE INTO deletion_ledger VALUES (?, ?)", (ledger_hash, ledger_expires_on))
                 self._d.execute("COMMIT")
@@ -550,7 +631,20 @@ class AccountStore:
 
     def purge_durable(self, today: str) -> int:
         with self._lock:
-            return self._d.execute("DELETE FROM deletion_ledger WHERE expires_on < ?", (today,)).rowcount
+            removed = self._d.execute("DELETE FROM deletion_ledger WHERE expires_on < ?", (today,)).rowcount
+            removed += self._d.execute("DELETE FROM erased_sessions WHERE expires_on < ?", (today,)).rowcount
+            return removed
+
+    def note_erased(self, session_hash: str, qc_tokens: str, expires_on: str) -> None:
+        """Records an erasure. A conversation erased again keeps every review token recorded so far."""
+        with self._lock:
+            row = self._d.execute("SELECT qc_tokens FROM erased_sessions WHERE session_hash = ?", (session_hash,)).fetchone()
+            merged = ",".join(dict.fromkeys(t for t in [*(row[0].split(",") if row else []), *qc_tokens.split(",")] if t))
+            self._d.execute("INSERT OR REPLACE INTO erased_sessions VALUES (?, ?, ?)", (session_hash, merged, expires_on))
+
+    def erased_rows(self) -> dict[str, str]:
+        with self._lock:
+            return {h: t for h, t in self._d.execute("SELECT session_hash, qc_tokens FROM erased_sessions")}
 
     # challenges ---------------------------------------------------------------
 

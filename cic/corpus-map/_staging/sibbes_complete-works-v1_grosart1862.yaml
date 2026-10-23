@@ -1,0 +1,55 @@
+source_file: sibbes_complete-works-v1_grosart1862.txt
+
+assignments:
+  - row_id: sibbes_complete-works-v1_grosart1862--the-bruised-reed-and-smoking-flax
+    work: "The Bruised Reed and Smoking Flax (1630), with A Description of Christ"
+    author: sibbes
+    locus: "A DESCRIPTION OF CHRIST from file line 8229; THE BRUISED REED AND SMOKING FLAX from line 10057 (epistle dedicatory and address To the Christian Reader, then the sermons in two parts) to THE SOUL'S CONFLICT at line 15021; Grosart's notes follow each work"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      Sibbes's best-known work, the sermons on Matthew xii. 20 that
+      Baxter said first turned his heart: Christ's gentleness with weak
+      and bruised believers, the characteristic affective divinity of the
+      Cambridge Puritan preachers. Primary voice in Grosart's clean
+      text; ready to quote once verified against the scan.
+  - row_id: sibbes_complete-works-v1_grosart1862--the-soul-s-conflict-with-itself
+    work: "The Soul's Conflict with Itself, and Victory over Itself by Faith (1635)"
+    author: sibbes
+    locus: "from THE SOUL'S CONFLICT WITH ITSELF at file line 15021 to THE SAINT'S SAFETY IN EVIL TIMES at line 25865"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      Sermons on Psalm xlii. 11 about the believer's inward disquiet and
+      the way back to trust; the pastoral counterpart to the diaries'
+      self-examination. Primary voice; OCR clean.
+  - row_id: sibbes_complete-works-v1_grosart1862--the-saint-s-safety-christ-is-best-the-church-s-visitation-the-ungodly-s-misery
+    work: "The Saint's Safety in Evil Times; Christ is Best; The Church's Visitation; The Ungodly's Misery (sermons)"
+    author: sibbes
+    locus: "THE SAINT'S SAFETY IN EVIL TIMES from file line 25865; CHRIST IS BEST from line 28239; THE CHURCH'S VISITATION from line 30246; THE UNGODLY'S MISERY from line 31077 to the end"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: provisional
+    note: >
+      The shorter sermons that complete Grosart's first volume; grouped
+      rather than itemised this pass, placed by the volume's own
+      headings without reading each through.
+  - row_id: sibbes_complete-works-v1_grosart1862--grosart-s-memoir-of-richard-sibbes
+    work: "Grosart's Memoir of Richard Sibbes, D.D. (1862)"
+    author: sibbes
+    locus: "MEMOIR OF RICHARD SIBBES, D.D. from file line 1110 to A DESCRIPTION OF CHRIST at line 8229, with its appendix of documents"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: assigned
+    note: >
+      Nineteenth-century editorial biography, filed under the volume's
+      author slug by the corpus's compiler convention; it prints
+      documents (the feoffees for impropriations case, Sibbes's will)
+      that a build may want, but the narrative is Grosart's, not a
+      seventeenth-century voice.

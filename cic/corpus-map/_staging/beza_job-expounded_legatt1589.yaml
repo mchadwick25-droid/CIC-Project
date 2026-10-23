@@ -1,7 +1,3 @@
-# Closes (partially) Source Acquisition Manifest item G4 - Theodore
-# Beza's own direct voice, previously entirely unvendored for this world.
-# Rights independently verified this session against archive.org item
-# jobexpth00bzet (1589 imprint, unambiguously public domain).
 source_file: beza_job-expounded_legatt1589.txt
 
 assignments:
@@ -26,3 +22,18 @@ assignments:
       "faluation" for "salvation") - a disclosed artifact of this specific
       scan, not corrected in the vendored file per this corpus's standing
       practice for raw OCR.
+
+  - row_id: beza_job-expounded_legatt1589--job-expounded-in-english-for-the-godly-reader-1589-puritanism
+    work: Job Expounded by Theodore Beza, in the 1589 English translation printed by John Legatt, Cambridge
+    author: beza
+    locus: whole file
+    atlas_ids:
+    - puritanism
+    role: context
+    confidence: provisional
+    note: 'Beza englished for the Cambridge godly by the same university printer who issued Perkins''s Golden
+      Chaine in 1600 (perkins_golden-chaine-and-treatises_legat1600.txt, whose title page names Beza''s
+      table); evidence of the Genevan divinity the English Puritans read, not a Puritan voice itself. Provisional,
+      placed on printer, place and date. Cross-link tier: same time and place.
+
+      '

@@ -3,6 +3,9 @@ import { ConversationMenu } from './ConversationMenu';
 import { DeleteConversation } from './DeleteConversation';
 import { ExperienceFeedbackCard } from './ExperienceFeedback';
 import { GoDeeperPanel } from './GoDeeperPanel';
+import { accountsEnabled, openHome, openSignIn, useAccount } from '../lib/accounts';
+import { accountsCopy } from '../lib/accountsCopy';
+import { deeperEnabled, openPanel } from '../lib/deeper';
 import { ReportCard } from './PageFeedback';
 
 type Panel = 'about' | 'feedback' | 'report' | 'delete' | null;
@@ -22,6 +25,13 @@ export function ConversationChrome({ title, aboutLabel, about, feedbackPage, rep
   const [panel, setPanel] = useState<Panel>(null);
   const [thanks, setThanks] = useState(false);
   const menuRef = useRef<HTMLButtonElement>(null);
+  const account = useAccount();
+  const accountItem =
+    accountsEnabled && account.status === 'in'
+      ? { label: accountsCopy.menuHome, onSelect: openHome }
+      : accountsEnabled && account.status === 'out' && deeperEnabled
+        ? { label: accountsCopy.menuSignIn, onSelect: () => { openPanel(); openSignIn(); } }
+        : undefined;
 
   const open = (next: Panel) => () => {
     setThanks(false);
@@ -44,6 +54,7 @@ export function ConversationChrome({ title, aboutLabel, about, feedbackPage, rep
           onReport={reportPage ? open('report') : undefined}
           onLeave={onLeave}
           onDelete={onDelete ? open('delete') : undefined}
+          account={accountItem}
         />
       </div>
       <GoDeeperPanel />

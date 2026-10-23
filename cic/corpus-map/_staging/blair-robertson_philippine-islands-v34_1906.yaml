@@ -1,0 +1,17 @@
+source_file: blair-robertson_philippine-islands-v34_1906.txt
+assignments:
+- row_id: blair-robertson_philippine-islands-v34_1906--early-mission-letters-1565-1605
+  work: 'The Philippine Islands, Vol. XXXIV: the documents of 1565-1576 and 1580-1605 (Augustinian, Franciscan,
+    Dominican and Jesuit letters; Salazar''s council and cathedral)'
+  author: blair-robertson
+  locus: Pigafetta and Chao Ju-kua before file line 4841; documents of 1565-1576 from 4841 (Augustinian
+    memoranda 6875); documents of 1580-1605 from 7817 (Bishop Salazar's council regarding slaves 8152,
+    Relation of the Philipinas Islands 9386, Augustinian affairs 10254); Bibliographical Data at 11146
+  atlas_ids:
+  - philippine-catholicism
+  role: tradition
+  confidence: assigned
+  note: 'The earliest mission letters in English from Legazpi''s landing to 1605: Rada, Herrera and the
+    Augustinian memoranda, Pablo de Jesus to Gregory XIII (1580), Salazar''s synod and cathedral foundation
+    (1581). Letters of the friars and officials themselves, in the editors'' translation. The Pigafetta
+    and Chao Ju-kua sections that open the volume are not this world''s.'

@@ -3,6 +3,60 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-reformed-cities-zurich-and-geneva
 works:
+- row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-4
+  work: 'The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments;
+    Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)'
+  author: arminius
+  locus: Declaration of Sentiments from line 8280; Life from about line 465 (Geneva, Beza,
+    and the supralapsarian doctrine he opposed)
+  role: context
+  confidence: provisional
+  note: 'Arminius studied at Geneva under Beza and argued against the predestination doctrine
+    that Calvin and Beza''s Genevan tradition taught. The Reformed Cities bucket holds that
+    tradition; this is the dissenting reading of it from within. Placed on that relation only.
+
+    '
+  source_file: arminius_works-v1_nichols1853.txt
+- row_id: beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884--histoire-ecclesiastique-des-eglises-reformees-au-royaume-de-2
+  work: Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580),
+    Tome deuxieme, Livres VI-IX (the first war of religion, 1562-1563, by province)
+  author: beza
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Compiled in Geneva from the French churches'' reports; Geneva''s own record of its
+    mission field in the year of the first war. Placed on authorship and place, mirroring
+    the Tome 1 row; not read against the Reformed Cities'' own Doc_02.
+
+    '
+  source_file: beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884.txt
+- row_id: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883--histoire-ecclesiastique-des-eglises-reformees-tome-premier-2
+  work: Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580),
+    Tome premier, Livres I-IV
+  author: beza
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Compiled in Geneva under Beza''s name from reports sent to Geneva by the French churches;
+    Geneva''s own record of its mission field. Placed on authorship and place; not read against
+    the Reformed Cities'' own Doc_02.
+
+    '
+  source_file: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt
+- row_id: beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889--histoire-ecclesiastique-des-eglises-reformees-au-royaume-de-2
+  work: Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580),
+    Tome troisieme, Livre X to the end (1562-1563), with Reuss's preface, introduction and
+    index
+  author: beza
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Compiled in Geneva from the French churches'' reports; placed on authorship and place,
+    mirroring the Tome 1 and Tome 2 rows. Reuss''s introduction discusses the Geneva printing
+    under an Antwerp imprint.
+
+    '
+  source_file: beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt
 - row_id: beza_job-expounded_legatt1589--job-expounded-by-theodore-beza-partly-in-manner-of-a
   work: 'Job Expounded by Theodore Beza: Partly in Manner of a Commentary, Partly in Manner
     of a Paraphrase; Faithfully Translated out of Latine into English'
@@ -20,6 +74,20 @@ works:
 
     '
   source_file: beza_job-expounded_legatt1589.txt
+- row_id: brandt_history-of-the-reformation-in-the-low-countries-v3_1722--brandt-s-history-of-the-reformation-in-the-low-countries-vol-3
+  work: 'Brandt''s History of the Reformation in the Low-Countries, vol. III (Books XXXIII-XLIV):
+    the Synod of Dort and the fall of Oldenbarnevelt, 1618-1619, in the English of 1722'
+  author: brandt
+  locus: the sessions with the foreign divines and the judgments on the Five Articles (Books
+    XXXVI-XLII, from about file line 13430)
+  role: context
+  confidence: provisional
+  note: 'The delegates of Geneva, the Swiss churches and the Palatinate at Dort, and their
+    judgments, told by a Remonstrant. Placed on the Reformed Cities'' part in the Synod only,
+    mirroring the Scott row; the Reformed Cities'' build decides its weight. Second witness.
+
+    '
+  source_file: brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt
 - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-second-helvetic-confession-1566
   work: The Second Helvetic Confession (1566)
   author: bullinger
@@ -60,6 +128,22 @@ works:
 
     '
   source_file: calvin_commentaries-genesis-vol2_king1847.txt
+- row_id: calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870--defensio-orthodoxae-fidei-and-the-geneva-trial-2
+  work: Defensio orthodoxae fidei de sacra Trinitate contra Servetum (1554) and the Geneva
+    trial documents of 1553
+  author: calvin
+  locus: Caput XXXIV at file line 1191; the Defensio text from 29303; the trial documents
+    from about 47410
+  role: tradition
+  confidence: assigned
+  note: 'Calvin''s own defence of the Geneva council''s action, and the council''s own trial
+    record, for the Reformed cities world as Geneva''s account of the 1553 process. The same
+    file serves the anti-Trinitarian entry as the hostile record (row above). Also holds Calvin''s
+    De scandalis (1550), the 1551 Congregation on election, the 1552 Consensus on predestination
+    and the Quatre sermons, which belong to this world and are not separately listed.
+
+    '
+  source_file: calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt
 - row_id: calvin_institutes-christian-religion-vol1_beveridge1845--institutes-of-the-christian-religion-book-i-of-the-knowledge
   work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
   author: calvin
@@ -185,6 +269,101 @@ works:
 
     '
   source_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+- row_id: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--histoire-des-martyrs-tome-troisieme-livres-viii-xii-3
+  work: Histoire des martyrs persecutez et mis a mort pour la verite de l'Evangile (1619 recension),
+    Tome troisieme, Livres VIII-XII
+  author: crespin
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Compiled and printed in Geneva by a Genevan printer; the book the Reformed cities
+    sent back into France. Placed on that relation only.
+
+    '
+  source_file: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt
+- row_id: schaff_gallican-confession-fra-eng_1877--confessio-fidei-gallicana-the-french-confession-of-faith-2
+  work: Confessio Fidei Gallicana. The French Confession of Faith, A.D. 1559 (French text
+    in modern spelling with Emily O. Butler's English translation)
+  author: french-reformed-synods
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'Drafted in Geneva for the French churches per Schaff''s headnote; the clearest surviving
+    statement of what Geneva''s daughter church professed. Placed on that relation, not read
+    against the Reformed Cities'' own sources.
+
+    '
+  source_file: schaff_gallican-confession-fra-eng_1877.txt
+- row_id: quick_synodicon-in-gallia-reformata_1692--the-confession-of-faith-of-the-reformed-churches-of-france-2
+  work: The Confession of Faith, held and professed by the Reformed Churches of France (1559),
+    English version
+  author: french-reformed-synods
+  locus: heading at file line 1009, running to the Discipline heading at line 1775
+  role: context
+  confidence: provisional
+  note: 'The daughter church''s confession, drafted on a Genevan model (Schaff''s headnote
+    credits Calvin and Chandieu); Beza presided at the synod of La Rochelle 1571 that reaffirmed
+    it (Quick, near line 5339). Placed on that relation, not read against the Reformed Cities''
+    own sources.
+
+    '
+  source_file: quick_synodicon-in-gallia-reformata_1692.txt
+- row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-i-4
+  work: Histoire ecclésiastique des Églises Vaudoises, Tome premier, the chapters on the synod
+    of 1532 and the Geneva connection
+  author: gilles
+  locus: the chapters around line 2447 (Farel and Saunier at the 1532 synod) and the chapters
+    following on the French Bible
+  role: context
+  confidence: provisional
+  note: 'The valleys'' side of the 1532 meeting with Farel and Saunier and of the Bible the
+    valleys paid for. Placed on the window and the named figures without reading the whole
+    chapter.
+
+    '
+  source_file: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt
+- row_id: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868--book-of-common-order-2
+  work: The Book of Common Order (the Forme of Prayers of the English congregation at Geneva,
+    1556, as adopted in Scotland)
+  author: kirk-of-scotland
+  locus: as above; Sprott's Introduction from file line 501 traces each section to the 'Book
+    of Geneva'
+  role: context
+  confidence: provisional
+  note: 'This liturgy was first made in Geneva (1556) for the English exiles whom Knox served,
+    with Calvin''s approval, before Scotland adopted it. Placed on that origin; the file carries
+    the 1564 Scottish text, not the Geneva print, so the Reformed Cities world should treat
+    it as a derived witness.
+
+    '
+  source_file: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+- row_id: knox_works-v2_laing1895--scots-confession-and-first-book-of-discipline-genevan-model
+  work: The Scots Confession (1560) and the First Book of Discipline (1560), as the Genevan
+    model applied to a whole kingdom
+  author: knox
+  locus: Confession from file line 3802; Buke of Discipline from 7492 to before 10629
+  role: context
+  confidence: provisional
+  note: 'Knox had ministered in Calvin''s Geneva (1556-1559) and the Scottish confession and
+    polity are the Genevan order carried to a nation. Placed on that relation only; the texts
+    were not read for what they say about Geneva, so the fit is provisional and the Reformed
+    Cities world should treat them as a downstream witness, not its own voice.
+
+    '
+  source_file: knox_works-v2_laing1895.txt
+- row_id: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--appendix-letters-and-papers-of-cyril-lucaris-with-ottoman-command-2
+  work: 'Appendix: letters and papers of Cyril Lucaris in Latin, with an Italian ''Instruttione''
+    and a ''Comandamento'' (an Ottoman command concerning the Patriarch) in Italian'
+  author: lucaris
+  locus: Appendix from about file line 4405 to about 7003
+  role: context
+  confidence: provisional
+  note: 'Placed beside Aymon''s edition of Lucaris''s letters on the same footing: the Patriarch''s
+    correspondence with the Reformed West; whether Lucaris was a Calvinist is disputed. Not
+    read letter by letter for this placement.
+
+    '
+  source_file: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707.txt
 - row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris-2
   work: Confessio Christianae fidei (Latin), Cyril Lucaris
   author: lucaris
@@ -208,6 +387,15 @@ works:
     condemned it as Calvinist. Placed as the view from an Orthodox patriarch's confession
     that overlaps Reformed teaching, never as the Reformed cities' own voice.
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--confession-of-cyril-lucaris-greek-with-latin-kimmel-1843-2
+  work: Confession of Cyril Lucaris, Greek with Latin (Kimmel 1843)
+  author: lucaris
+  locus: same as the Ottoman row
+  role: context
+  confidence: provisional
+  note: 'Mirrors the provisional Reformed-cities row on the 1850 printing: the Confession''s
+    Calvinist reading is contested.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--lettres-anecdotes-de-cyrille-lucar-et-sa-confession-de-foi-2
   work: Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques
     (Amsterdam, 1718)
@@ -251,6 +439,52 @@ works:
 
     '
   source_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-helvetica-posterior-second-helvetic-confession
+  work: Confessio Helvetica posterior (Second Helvetic Confession)
+  author: niemeyer
+  locus: running heads from file line 30811
+  role: tradition
+  confidence: provisional
+  note: The Second Helvetic Confession in Latin; the English is in the Schaff file. Placed
+    on the running heads only. Second witness, noisy OCR.
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--consensus-tigurinus-1549-and-consensus-genevensis
+  work: Consensus Tigurinus (1549) and Consensus Genevensis
+  author: niemeyer
+  locus: Consensus Tigurinus from file line 14173; Consensus Genevensis from 15687
+  role: tradition
+  confidence: provisional
+  note: Zurich and Geneva's agreement on the Lord's Supper and the Geneva consensus on predestination,
+    in Latin. Placed on the headings only. Second witness, noisy OCR.
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+- row_id: rilliet_calvin-and-servetus_tweedie1846--calvin-and-servetus-2
+  work: 'Calvin and Servetus: the Reformer''s Share in the Trial of Michael Servetus (Rilliet,
+    trans. Tweedie, 1846)'
+  author: rilliet
+  locus: Contents from file line 62; translated Geneva register extracts from 3588
+  role: context
+  confidence: provisional
+  note: 'The Genevan historian''s account of how the Geneva council and Calvin handled the
+    1553 process, for the Reformed cities world. Placed on subject and place; the Reformed
+    cities thread decides its weight.
+
+    '
+  source_file: rilliet_calvin-and-servetus_tweedie1846.txt
+- row_id: synod-of-dort_articles-with-history-of-events_scott1831--the-articles-of-the-synod-of-dort-and-its-rejection-of-3
+  work: The Articles of the Synod of Dort and its Rejection of Errors (the Canons of Dort),
+    English from the Latin (Scott, 1831)
+  author: synod-of-dort
+  locus: lines 4966-7915
+  role: context
+  confidence: provisional
+  note: 'The Synod seated delegates from Geneva, Switzerland, the Palatinate and other Reformed
+    churches, and its Canons restate the Genevan doctrine of predestination against the Remonstrants.
+    Placed on that continuity with the Reformed Cities tradition; the volume also carries
+    a Harmony of Confessions (from line 7915) that includes the Helvetic Confession among
+    others.
+
+    '
+  source_file: synod-of-dort_articles-with-history-of-events_scott1831.txt
 - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563
   work: The Heidelberg Catechism (1563)
   author: ursinus-olevianus
@@ -263,6 +497,37 @@ works:
 
     '
   source_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+- row_id: zurich-council_actensammlung-zuercher-reformation-deu_egli1879--actensammlung-zur-geschichte-der-zuercher-reformation-1519-1533-2
+  work: Actensammlung zur Geschichte der Zürcher Reformation in den Jahren 1519-1533 (Egli,
+    1879)
+  author: zurich-council
+  locus: 'whole volume: year sections 1519 (file line 251) through 1533; numbered documents
+    Nr. 1-2001'
+  role: tradition
+  confidence: assigned
+  note: 'The council''s own record of the Zurich Reformation under Zwingli, 1519-1533: mandates,
+    disputations, the dissolution of the monasteries, the Ehegericht, the Kappel wars. Institutional
+    primary voice of the city church, in German. Placed here because the Zurich portions were
+    read while checking the Täufer material; the Reformed Cities build thread decides its
+    weight.
+
+    '
+  source_file: zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt
+- row_id: zurich-letters_first-series-1558-1579_robinson1842--the-zurich-letters-first-series-the-zurich-side-bullinger-peter-martyr
+  work: 'The Zurich Letters, first series: the Zurich side (Bullinger, Peter Martyr, Gualter)
+    in the Appendix and in the Latin originals'
+  author: zurich-letters
+  locus: APPENDIX from about file line 17282 (seven letters, 1562-1572); the corresponding
+    Latin in the EPISTOLAE TIGURINAE from about 20811
+  role: context
+  confidence: provisional
+  note: 'Bullinger and his colleagues advising the English church on vestments and the magistrate''s
+    power: the Zurich reformers'' own voice applied abroad. Context for the Reformed Cities
+    world, which already holds Bullinger; provisional, placed on subject without that world''s
+    own thread.
+
+    '
+  source_file: zurich-letters_first-series-1558-1579_robinson1842.txt
 - row_id: zwingli_selected-works_jackson1901--selected-works-letter-to-erasmus-the-petition-to-the-bishop
   work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical
     marriage; the Acts of the First and Second Zurich Disputations; the 1527 Refutation of

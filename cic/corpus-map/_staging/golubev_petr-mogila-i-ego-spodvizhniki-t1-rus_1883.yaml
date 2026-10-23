@@ -1,0 +1,40 @@
+source_file: golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883.txt
+assignments:
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883--kievskii-mitropolit-petr-mogila-i-ego-spodvizhniki-vol-1
+  work: Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 1 (Golubev, narrative)
+  author: golubev
+  locus: chapter list at about file lines 340-430; narrative from about line 430 to the appendix title
+    page at about line 22710
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: assigned
+  note: Russian scholarship (published 1883) on Mogila's early career, the Mogila college, the 1632 election
+    and the Orthodox-Uniate sejm struggle, read for its chapter list and opening; a modern scholar's narrative,
+    not the revival's own voice. Garbled in places by the old spelling in the OCR; second witness for
+    any quotation.
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883--materialy-dlia-istorii-zapadno-russkoi-tserkvi-documentary
+  work: Materialy dlia istorii zapadno-russkoi tserkvi (documentary appendix to Golubev vol. 1)
+  author: golubev
+  locus: appendix title page at about file line 22710, contents list from about line 22723; numbered documents
+    from 1540 (Golubev prints each with a date and a source note)
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: provisional
+  note: 'Printed documents on the western Ruthenian church from 1540: royal charters, monastery inventories
+    and brotherhood and church records, in Ruthenian, Polish and Latin as issued. Placed on Golubev''s
+    own scope and the contents list; the documents were not read one by one, so the fit of each to the
+    1615-1700 window is provisional. Ruthenian text is readable; Polish and Latin are garbled in the OCR
+    (second witness).'
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883--kievskii-mitropolit-petr-mogila-i-ego-spodvizhniki-vol-1-2
+  work: Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 1 (Golubev, narrative)
+  author: golubev
+  locus: the sejm chapters in the contents list (about file lines 340-430)
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: provisional
+  note: The chapters on the 1632 election sejm and the commission on Orthodox and Uniate quarrels describe
+    the Uniate side of the Brest settlement from the Orthodox metropolitan's court. Placed from the chapter
+    list, not read through; the Union of Brest thread rules on weight.

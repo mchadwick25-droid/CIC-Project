@@ -1,0 +1,25 @@
+source_file: smotrycki_apologia-peregrinatiey-pol_1628.txt
+assignments:
+- row_id: smotrycki_apologia-peregrinatiey-pol_1628--apologia-peregrinatiey-pol_1628
+  work: Meletij Smotryc'kyj, Apologia of my journey to the Eastern lands (Polish, 1628)
+  author: smotrycki
+  locus: the whole file; title page at the head; dedication to Tomasz Zamoyski after it; imprint at about
+    file line 11785
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: assigned
+  note: Smotryc'kyj's own account and defence of his turn to the union, in his own voice, 1628, in Polish.
+    Garbled OCR; second witness for exact wording until quotes are checked on the page images. No public-domain
+    English found.
+- row_id: smotrycki_apologia-peregrinatiey-pol_1628--apologia-peregrinatiey-pol_1628-2
+  work: Meletij Smotryc'kyj, Apologia of my journey to the Eastern lands (Polish, 1628)
+  author: smotrycki
+  locus: the whole file; title page at the head; dedication to Tomasz Zamoyski after it; imprint at about
+    file line 11785
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: provisional
+  note: The Orthodox polemicist's passage over to the union and the Orthodox reaction (the Kyiv council
+    of 1629 is outside this file). Placed on the title page and sample points, not on a full reading.

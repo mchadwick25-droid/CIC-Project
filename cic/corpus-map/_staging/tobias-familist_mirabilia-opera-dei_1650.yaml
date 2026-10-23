@@ -1,0 +1,24 @@
+source_file: tobias-familist_mirabilia-opera-dei_1650.txt
+authors_ruled:
+  tobias-familist:
+    kind: pseudonymous
+    evidence: The title page reads "Published by Tobias a Fellow Elder with H. N. in the Household of
+      Love"; no surname is given; the host catalogue repeats "Tobias, fellow elder with H. Niclas". The
+      slug names the signature, not a known person.
+    from_file: tobias-familist_mirabilia-opera-dei_1650.txt
+assignments:
+- row_id: tobias-familist-mirabilia-opera-dei-1650-mirabilia-opera-dei-certaine-wonderfull-works-of-god-which-hapned-to
+  work: 'Mirabilia opera Dei: certaine wonderfull Works of God which hapned to H. N., 1650 reprint'
+  author: tobias-familist
+  locus: title page at the head; chapters headed "CHAP. N." (I at 684, III at 1294, last read XXXII at
+    6764)
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: tradition
+  confidence: assigned
+  note: 'A disciple''s account of Niclaes''s calling and visions, written inside the movement: the founder-cult
+    evidence for the tradition-or-one-man question. Author is ''Tobias, a fellow elder with H. N.'', no
+    other name known. SECOND WITNESS for exact wording: EEBO microfilm OCR (about 0.83 of tokens read
+    as words at five sample points), so locate passages here and verify against the page images before
+    quoting (Mark''s OCR ruling). The 1575 print (item bim_early-english-books-1475-1640_mirabilia-opera-dei-cer_tobias-mede-holder-mit-_1575)
+    reads worse (0.75).'

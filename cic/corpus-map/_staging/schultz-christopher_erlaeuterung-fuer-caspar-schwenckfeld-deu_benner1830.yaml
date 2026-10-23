@@ -1,0 +1,26 @@
+source_file: schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt
+assignments:
+- row_id: schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830--erlaeuterung-1771-2nd-ed-1830
+  work: Erläuterung für Herrn Caspar Schwenckfeld und die Zugethanen seiner Lehre (second edition 1830
+    of the 1771 Jauer first edition)
+  author: schultz-christopher
+  locus: Vorbericht from file line 226; Vorrede zur zweyten Auflage 390; chapter list 641; Das 1. Capitel
+    740; 3. Capitel 1251; 4. 1539; 5. 2463; 6. 3529; 7. 4002; 8. (Schwenckfeld's Rechenschaft und Bekenntniß)
+    6933; 9. 7851; 11. 13819; 12. 16953; Register about 20884; Anhang from 21213
+  atlas_ids:
+  - schwenckfelders
+  role: tradition
+  confidence: assigned
+  note: 'The community''s own apologia and history, German, by the Pennsylvania emigrants, quoting Silesian
+    documents and persecution accounts from the 1540s on. Fraktur OCR readable but with substitutions:
+    quote only after checking page images. No public-domain English found.'
+- row_id: schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830--erlaeuterung-1771-2nd-ed-1830-2
+  work: Erläuterung für Herrn Caspar Schwenckfeld (1830), passages on Zinzendorf and the Moravians
+  author: schultz-christopher
+  locus: Zinzendorf mentioned from file line 345 (Vorbericht) and in the body; not read through
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: context
+  confidence: provisional
+  note: Placed on one keyword hit (Zinzendorff at line 345) without reading the relevant chapters; Kriebel
+    (1904) chapter VIII treats the relation in English.

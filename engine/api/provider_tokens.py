@@ -75,6 +75,11 @@ class ProviderVerifier:
     def available(self, provider: str) -> bool:
         return provider in self._client_ids
 
+    def public_ids(self) -> dict[str, str]:
+        """The id of our app at each provider that is turned on. These are public: the page needs
+        them to start the provider's own sign-in."""
+        return dict(self._client_ids)
+
     def _held(self, provider: str, now: float) -> tuple[dict[str, dict], float]:
         """(the keys held and still fresh, when a fetch was last tried)."""
         with self._lock:

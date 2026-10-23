@@ -17,6 +17,7 @@ import shutil
 import threading
 import time
 from dataclasses import asdict, dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 
 from fastapi import FastAPI, Header, HTTPException, Request
@@ -25,7 +26,7 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import accounts_routes, admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
+from engine.api import accounts_routes, shelf, admin_auth, anon_cap, cost_report, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings, normalize_environ
 from engine.accounts.config import AccountsConfig
 from engine.deeper.config import DeeperConfig
@@ -37,7 +38,6 @@ from engine.m4 import turn as turn_module
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
-from engine.m7 import erase
 from engine.m7 import retention
 from engine.m7 import scheduler as m7_scheduler
 from engine.m7.qc_store import QCStore
@@ -244,6 +244,8 @@ class SessionCreateResponse(BaseModel):
     # applies); the table session round cap for a table session - so the
     # frontend can render the real configured number instead of guessing.
     round_cap: int | None = None
+    # Set only for a signed-in person: whether the conversation went on their shelf.
+    shelved: bool | None = None
 
 
 # The hard bound on what the API accepts at all, against a payload attack.
@@ -449,6 +451,13 @@ class WorldListResponse(BaseModel):
     worlds: list[WorldSummary]
 
 
+def _qc_for(deps, authorization: str | None):
+    """The review recorder for one turn, with the conversation's code in hand so its row gets the
+    conversation's own token."""
+    bind = getattr(deps.qc_recorder, "bound_to", None)
+    return bind(_extract_code(authorization)) if bind else deps.qc_recorder
+
+
 def _extract_code(authorization: str | None) -> str | None:
     if not authorization or not authorization.startswith(_AUTH_PREFIX):
         return None
@@ -580,6 +589,7 @@ def create_app(
     # no-cookie-read burst check stays the actual first line a request
     # meets, and a burst-rejected request never mints a visitor token.
     app.state.deeper = deeper
+    app.state.feedback_store = feedback_store
     if anon_cap_enabled:
         anon_cap.install(app, secret=anon_visitor_secret)
     if rate_limit:
@@ -675,7 +685,8 @@ def create_app(
                 logger.warning("table session refused: package unavailable worlds=%s", req.world_keys)
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
-            return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
+            shelved = accounts_routes.shelve_new_session(request, session_id, code)
+            return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"), shelved=shelved)
         if req.world_key is None:
             # POST {} must not fall through to default_world_key -
             # configured in production as the synthetic fixture world,
@@ -699,7 +710,8 @@ def create_app(
             logger.warning("session refused: package unavailable world=%s", world_key)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
         logger.info("session created session=%s mode=interview world=%s", session_id, world_key)
-        return SessionCreateResponse(session_id=session_id, session_code=code)
+        shelved = accounts_routes.shelve_new_session(request, session_id, code)
+        return SessionCreateResponse(session_id=session_id, session_code=code, shelved=shelved)
 
     @app.post("/api/session/{session_id}/message", response_model=MessageResponse | TableMessageResponse)
     def send_message(
@@ -744,7 +756,7 @@ def create_app(
             r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled,
             citation_attach_enabled=deps.citation_attach_enabled,
-            qc_recorder=deps.qc_recorder,
+            qc_recorder=_qc_for(deps, authorization),
             grant_for=admission.provider if admission is not None else None,
         )
         started = time.monotonic()
@@ -816,7 +828,7 @@ def create_app(
             safety_client=deps.safety_client, safety_model_id=deps.safety_model_id,
             session_id=session_id, package_cache_dir=deps.package_cache_dir, r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled, citation_attach_enabled=deps.citation_attach_enabled,
-            qc_recorder=deps.qc_recorder,
+            qc_recorder=_qc_for(deps, authorization),
         )
         if deps.streaming_enabled and "text/event-stream" in request.headers.get("accept", ""):
             return _stream_turn(
@@ -839,7 +851,7 @@ def create_app(
         _authenticate(deps.store, session_id, authorization)
         state = wiring.get_transcript(deps.store, session_id)
         return TranscriptResponse(
-            session_id=session_id, world_key=state.world_key, turn_count=state.turn_count, closed=state.closed, transcript=state.transcript,
+            session_id=session_id, world_key=state.world_key, turn_count=state.turn_count, closed=state.closed and state.close_reason != "idle", transcript=state.transcript,
             mode=state.mode, world_keys=state.world_keys, round_open=state.round_open,
             round_cap=table_wiring.round_cap_for(state.mode),
         )
@@ -847,14 +859,21 @@ def create_app(
     @app.delete("/api/session/{session_id}", status_code=204)
     def delete_session_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
         """A participant's deletion request, authorised by the session's own
-        code: the conversation leaves the event log and the M7 audit files
-        now, and the daily backups within their 14-day rotation. The
-        anonymous quality-control store holds nothing that links to it."""
+        code: the conversation leaves the event log, the M7 audit files, the
+        feedback rows that name it and the quality-control rows now, and the
+        daily backups within their 14-day rotation. Its id leaves the usage
+        rows; the token counts stay for the cost record. A shelved conversation
+        is also taken off its shelf."""
         deps: Deps = request.app.state.deps
         _authenticate(deps.store, session_id, authorization)
-        events_deleted = deps.store.delete_session(session_id)
-        audit_files = erase.erase_session(deps.m7_audit_root, session_id) if deps.m7_audit_root else 0
-        logger.info("session deleted session=%s events=%d audit_files=%d", session_id, events_deleted, audit_files)
+        accounts = getattr(request.app.state, "accounts", None)
+        counts = shelf.ConversationEraser(
+            deps.store, deps.usage_store, request.app.state.feedback_store, deps.qc_recorder, deps.m7_audit_root,
+            on_erased=accounts.service.note_erased if accounts is not None else None,
+        ).erase(session_id, _extract_code(authorization))
+        if accounts is not None:
+            accounts.service.store.shelf_forget_session(session_id)
+        logger.info("session deleted session=%s %s", session_id, " ".join(f"{k}={v}" for k, v in counts.items()))
         return Response(status_code=204)
 
     @app.get("/api/session/{session_id}/round-close-reasons", response_model=RoundCloseReasonsResponse)
@@ -906,6 +925,15 @@ def create_app(
         _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
         summary = wiring.get_usage_summary(deps.store, deps.usage_store, since=since, m7_audit_root=deps.m7_audit_root)
         return UsageSummaryResponse(**asdict(summary))
+
+    @app.get("/api/admin/cost-report")
+    def get_cost_report_endpoint(request: Request, authorization: str | None = Header(default=None)):
+        """Operator-only, same gate as usage-summary: what a voiced round and a
+        safety check cost, from the usage log. Aggregate numbers only; see
+        engine.api.cost_report for how a round is rebuilt from the log."""
+        deps: Deps = request.app.state.deps
+        _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
+        return cost_report.report_for(deps.store, deps.usage_store, datetime.now(timezone.utc))
 
     @app.get("/api/admin/auth-status", response_model=AdminAuthStatusResponse)
     def get_admin_auth_status(request: Request):
@@ -1014,7 +1042,7 @@ def deeper_for_dev_server(data_dir: Path, usage_store, environ) -> dict | None:
     if not config.enabled:
         return None
     data_dir.mkdir(exist_ok=True)
-    runtime = deeper_routes.build_runtime(config, dict(environ), usage_store=usage_store)
+    runtime = deeper_routes.build_runtime(config, dict(environ))
     deeper_routes.install_access_log_filter()
     return {
         "deeper": runtime,
@@ -1082,7 +1110,7 @@ def _build_real_app() -> FastAPI:
     deeper_config = DeeperConfig.from_env(str(data_dir))
     deeper_runtime = None
     if deeper_config.enabled:
-        deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ), usage_store=usage_store)
+        deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ))
         deeper_routes.install_access_log_filter()
         deeper_routes.start_retention_thread(deeper_runtime)
     accounts_config = AccountsConfig.from_env(str(data_dir))
@@ -1101,12 +1129,21 @@ def _build_real_app() -> FastAPI:
     # The anonymous quality-control store and the daily retention job
     # (System Hub decision 34): conversations inactive for 90 days leave
     # the event log; QC answer text older than 90 days is deleted.
-    qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry)
+    qc_key = os.environ.get("CIC_QC_TOKEN_KEY") or None
+    if accounts_runtime is not None and (not qc_key or len(qc_key) < 32):
+        raise accounts_routes.AccountsConfigError(
+            "CIC_ACCOUNTS_ENABLED is on but CIC_QC_TOKEN_KEY is missing or short: a deleted conversation's review rows could not be found"
+        )
+    previous_qc_keys = tuple(k for k in (os.environ.get("CIC_QC_TOKEN_KEYS_PREVIOUS") or "").split(",") if k.strip())
+    qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry, secret=qc_key, previous=previous_qc_keys)
     feedback_store = FeedbackStore(settings.feedback_db_path)
+    exempt = {"is_exempt": accounts_runtime.service.is_shelved if accounts_runtime is not None
+              else accounts_routes.shelf_exemption_from_file(accounts_config.durable_db_path)}
     retention.start_background_scheduler(
         settings.events_db_path, settings.qc_db_path, Path(settings.events_db_path).parent / "retention",
         audit_root=Path(settings.events_db_path).parent / "m7-audits",
         feedback_store=feedback_store,
+        **exempt,
     )
 
     return create_app(

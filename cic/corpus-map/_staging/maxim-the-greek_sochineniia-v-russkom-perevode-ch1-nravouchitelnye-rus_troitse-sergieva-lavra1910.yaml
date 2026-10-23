@@ -1,0 +1,32 @@
+source_file: maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910.txt
+assignments:
+- row_id: maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910--maxim-the-greek-moral-writings-nravouchitel-nye-sochineniia
+  work: Maxim the Greek, moral writings (Nravouchitel'nye sochineniia), in the 1910 Trinity-Sergius Lavra
+    Russian translation
+  author: maxim-the-greek
+  locus: the writings from file line 294 (Слово I) to the table of contents at file line 12632; the dialogue
+    of soul and mind, the dispute of Philoktimon and Aktimon, the discourses on repentance, the Tver fire
+    of 1537, the 1541 thanksgiving and the dedication to Vasily III are listed there
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: tradition
+  confidence: assigned
+  note: 'The one named theologian of the window now in the corpus: the Athonite monk brought to Moscow
+    in 1518, tried in 1525 and 1531, who wrote against monastic wealth, usury and astrology and for the
+    correction of books. This is a 1910 translation into modern Russian of the Slavonic text in the Kazan
+    edition; use it for sense and for finding passages, and quote the Slavonic beside it (maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860.txt).
+    Clean OCR.'
+- row_id: maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910--maxim-the-greek-moral-writings-nravouchitel-nye-sochineniia-2
+  work: Maxim the Greek, moral writings (Nravouchitel'nye sochineniia), in the 1910 Trinity-Sergius Lavra
+    Russian translation
+  author: maxim-the-greek
+  locus: the letter on the poverty of the Vatopedi monastery and the Athonite mission, in the writing
+    at about file line 8700 (printed page 202), and the dedication to Vasily III at the contents entry
+    XXV
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: context
+  confidence: provisional
+  note: Maxim was a monk of Vatopedi on Athos sent to Moscow by the Protos in 1516-1518; his letters speak
+    of the Athonite houses under the Turks and their need. Placed on two passages read in sample; the
+    Ottoman thread decides whether a Russian-side witness to Athos belongs here.

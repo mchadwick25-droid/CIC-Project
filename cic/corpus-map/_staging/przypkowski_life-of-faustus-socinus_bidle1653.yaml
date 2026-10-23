@@ -1,0 +1,19 @@
+source_file: przypkowski_life-of-faustus-socinus_bidle1653.txt
+
+assignments:
+  - row_id: przypkowski_life-of-faustus-socinus_bidle1653--life-of-faustus-socinus
+    work: "The Life of that Incomparable Man Faustus Socinus Senensis, by a Polonian Knight (English of 1653), with the Discourse and Catalogue of his works"
+    author: przypkowski
+    locus: "whole small volume from the title page at file line 22; the Discourse is headed at line 1641; the Life and the Catalogue have no usable headings in the OCR"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: tradition
+    confidence: assigned
+    note: >
+      The Polish Brethren's own account of Socinus, in the English John
+      Bidle made in 1653; the Latin is the Vita Authoris in
+      socinus_opera-omnia-exegetica-lat_1656.txt (line 615). The
+      author is a Polish knight; the host record of the 1636 Latin
+      printing names Samuel Przypkowski, and the English title page does
+      not. An inside, admiring biography, not a neutral one. English
+      with long-s read as f; quote after checking the page image.

@@ -1,0 +1,47 @@
+source_file: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893.txt
+authors_ruled:
+  lithos-1644:
+    kind: pseudonymous
+    evidence: The Lithos was published under the name Euzebi Pimin; the edition's index (file line 25551)
+      calls 'Пиминъ Евсевій' the pseudonym of the compilers of the Lithos, and the study (file line 2947)
+      says the same. Treated as a work-entity under its own title.
+  golubev:
+    kind: metadata-omission
+    evidence: The introductory study is signed 'С. Голубевъ' at file line 5996 with the date 15 November
+      1893; the file name carries the series title.
+assignments:
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893--lithos-albo-kamien-kyiv-caves-press-1644-the-answer-to
+  work: Lithos albo kamien (Kyiv Caves press, 1644), the answer to Sakovych's Perspektiwa, with Sakovych's
+    marginal notes
+  author: lithos-1644
+  locus: from about file line 6000 (the title read 'лиеосъ' in the OCR) to the indexes; Sakovych's notes
+    in the footnotes
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: assigned
+  note: 'The Mohyla circle''s own defence of Orthodox rite and sacrament against the convert Sakovych,
+    the text the first-pass dossier named as the missing answer to the Perspektiwa. Second witness only:
+    the Polish is garbled throughout (Latin type read as Cyrillic), so nothing is quotable without the
+    page images; vendored because no other copy is in the corpus.'
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893--s-golubev-introductory-study-on-sakovych-the-perspektiwa-and
+  work: S. Golubev, introductory study on Sakovych, the Perspektiwa and the Lithos (1893)
+  author: golubev
+  locus: from about file line 70 to file line 5996 (signed Kyiv, 15 November 1893)
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: assigned
+  note: A Kyiv Academy historian's study of Sakovych's career and of the Lithos, with a Russian summary
+    of the Perspektiwa's charges (for example at file line 2425). Scholarship, readable OCR.
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893--lithos-albo-kamien-kyiv-caves-press-1644-the-answer-to-2
+  work: Lithos albo kamien (Kyiv Caves press, 1644), the answer to Sakovych's Perspektiwa, with Sakovych's
+    marginal notes
+  author: lithos-1644
+  locus: same as the Kyiv tradition row
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: provisional
+  note: An Orthodox answer to a former Orthodox rector who had passed through the union to Rome; Sakovych's
+    own marginal notes are printed with it. Placed on the preface's account; second witness.

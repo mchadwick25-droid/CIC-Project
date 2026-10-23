@@ -15,6 +15,87 @@ works:
     (Andreae, Crusius and others), not Wittenberg''s faculty, and the volume was printed at
     Wittenberg in 1584; so the fit to this entry is provisional. Latin only in this file.'
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+- row_id: anjou_history-of-the-reformation-in-sweden_mason1859--the-history-of-the-reformation-in-sweden-anjou-1850-mason-s-2
+  work: The History of the Reformation in Sweden (Anjou, 1850; Mason's English, 1859)
+  author: anjou
+  locus: Book I, chapters III-IV (Olaus Petri 'the friend and pupil of Luther', the first
+    news of Wittenberg; CONTENTS at file line 162 gives pp. 61-86)
+  role: context
+  confidence: provisional
+  note: 'Wittenberg''s pupils carrying the reform to Sweden, as a Swedish historian tells
+    it. Placed on that relation only, mirroring the needs-ruling rows the first pass staged
+    for the Swedish originals; secondary.
+
+    '
+  source_file: anjou_history-of-the-reformation-in-sweden_mason1859.txt
+- row_id: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912--konkordieboken-in-swedish
+  work: Konkordieboken (the Book of Concord, Concordia pia) in the Swedish tradition of Broocman's
+    1730 translation, as revised for Bensow's 1912 edition
+  author: bensow
+  locus: from Bensow's 'Förord' at line 50 and the 'Företal' at line 200 through the Formula
+    of Concord, to line 30900
+  role: tradition
+  confidence: provisional
+  note: 'A Swedish rendering of the Lutheran confessions. Wittenberg''s own voice, a second
+    Expression of texts the corpus already holds in English (Jacobs 1911 and others). Bensow
+    says earlier Swedish editions only lightly revised Broocman and that he translated the
+    Augsburg Confession afresh from the original. Placed on the preface and contents, so provisional.
+
+    '
+  source_file: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt
+- row_id: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911--book-of-concord-whole-volume
+  work: 'The Book of Concord (Jacobs 1911): Creeds, Augsburg Confession, Apology, Smalcald
+    Articles, Catechisms, Formula of Concord'
+  author: book-of-concord
+  locus: Part I Creeds from file line 1160; Part II Augsburg Confession 1374; Apology 3270;
+    Part IV Smalcald Articles 15675; Part V Small Catechism 18375; Large Catechism 19583;
+    Formula of Concord Epitome 25352, Solid Declaration 25403; Part VIII analyses and indexes
+    35627
+  role: tradition
+  confidence: assigned
+  note: The Lutheran confessional corpus in one English volume; a second expression of the
+    Augsburg Confession, Apology and the two Catechisms already vendored, and the corpus's
+    only text of the Smalcald Articles and the Formula of Concord. English only.
+  source_file: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt
+- row_id: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537--ordinatio-ecclesiastica-1537-wittenberg
+  work: Ordinatio ecclesiastica of 1537, the Wittenberg-approved church order sent north
+  author: danske-folkekirke
+  locus: the king's preface near line 79 (the draft sent to Luther and approved at Wittenberg;
+    Bugenhagen's part), then the whole ordinance
+  role: tradition
+  confidence: needs-ruling
+  note: 'Wittenberg''s own export: Bugenhagen drafted it with the Danish theologians and Luther
+    approved it. Whether a Danish-Norwegian ordinance belongs to the Wittenberg entry as its
+    voice, or only to the Scandinavian kingdoms entry, is a mapping decision this pass does
+    not make.
+
+    '
+  source_file: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt
+- row_id: gerlach_tage-buch-deu_1674--tage-buch-diary-at-constantinople-1573-1578-german-2
+  work: 'Stephan Gerlach''s Tage-Buch: the diary of the court preacher to the imperial embassy
+    at Constantinople, 1573-1578 (German)'
+  author: gerlach
+  locus: the diary by date from about file line 1363 to about 59626
+  role: context
+  confidence: provisional
+  note: 'A German Lutheran''s eyewitness to the Patriarch of the years of the Jeremias II
+    correspondence; placed beside the 1584 Acta on the same provisional footing (Tuebingen,
+    not Wittenberg, theologians). Second witness for scan quality.
+
+    '
+  source_file: gerlach_tage-buch-deu_1674.txt
+- row_id: jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582--censura-orientalis-ecclesiae-first-answer-of-jeremias-ii-latin-2
+  work: 'Censura Orientalis Ecclesiae: Patriarch Jeremias II''s first Answer to the Tuebingen
+    theologians on the Augsburg Confession (1576), in Socolovius''s Latin'
+  author: jeremias-ii
+  locus: the Answer under running heads 'Caput I.' from about file line 821
+  role: context
+  confidence: provisional
+  note: 'The Orthodox reply to the Augsburg Confession as a Catholic press printed it against
+    the Lutherans; placed beside the 1584 Acta rows on the same provisional footing.
+
+    '
+  source_file: jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582.txt
 - row_id: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584--patriarch-jeremias-ii-s-replies-to-the-wirtemberg-2
   work: Patriarch Jeremias II's replies to the Wirtemberg theologians on the Augsburg Confession,
     1576-1581 (Latin translation)
@@ -445,3 +526,55 @@ works:
 
     '
   source_file: melanchthon_augsburg-confession_anon-pg275.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-bohemica-of-1535-the-confession-of-the-bohemian-ba-2
+  work: Confessio Bohemica of 1535, the confession of the Bohemian barons and nobles to King
+    Ferdinand (Additamentum 2)
+  author: niemeyer
+  locus: from about file line 47952 (preface to Ferdinand from about 47917; running head 'Confessio
+    Bohoemica'), to about line 49850
+  role: context
+  confidence: provisional
+  note: 'The Brethren-led Bohemian confession of 1535 in Latin, in Niemeyer''s 1840 collection.
+    Niemeyer''s own note (file line 4067) records that it was sent to Wittenberg and approved
+    by Luther, Melanchthon and others, so it also bears on the Lutheran world. Second witness
+    for now, not quotable: the Latin OCR has systematic letter misreads (Bohoemica for Bohemica).
+    Check every wording against the page image.'
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+- row_id: olavus-petri_samlade-skrifter-v1-swe_hesselman1914--olavus-petri-reform-writings-wittenberg
+  work: 'Olavus Petri, Samlade skrifter, vol. 1: the reform writings of 1526-1528'
+  author: olavus-petri
+  locus: whole file
+  role: tradition
+  confidence: needs-ruling
+  note: 'Olavus studied at Wittenberg and the volume''s introduction says his evangelical
+    teaching came largely from there. Whether the Swedish Reformation is part of Wittenberg''s
+    congregations or only its own entry''s voice is a mapping decision this pass does not
+    make.
+
+    '
+  source_file: olavus-petri_samlade-skrifter-v1-swe_hesselman1914.txt
+- row_id: olavus-petri_samlade-skrifter-v2-swe_hesselman1915--olavus-petri-manual-mass-hymns-wittenberg
+  work: 'Olavus Petri, Samlade skrifter, vol. 2: the Manual (1529), the Swedish Mass, the
+    postil and the hymns'
+  author: olavus-petri
+  locus: whole file
+  role: tradition
+  confidence: needs-ruling
+  note: 'Same placement question as volume 1: the Swedish evangelical liturgy and hymns drew
+    on Wittenberg models, and whether they are Wittenberg''s voice or only the Scandinavian
+    entry''s is not decided here.
+
+    '
+  source_file: olavus-petri_samlade-skrifter-v2-swe_hesselman1915.txt
+- row_id: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920--masses-of-olavus-and-laurentius-petri-wittenberg
+  work: The Masses of Olavus and Laurentius Petri, Swedish with English
+  author: yelverton
+  locus: lines 1602-4535
+  role: tradition
+  confidence: needs-ruling
+  note: 'Same placement question as the Olavus Petri volumes: Luther''s German Mass stands
+    behind the Swedish mass of 1531, and whether the Swedish church''s liturgy is Wittenberg''s
+    voice or only the Scandinavian entry''s is not decided here.
+
+    '
+  source_file: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920.txt

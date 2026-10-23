@@ -31,3 +31,15 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-2
+  work: 'The Church of Armenia (Ormanian; Gregory''s English translation, 1912): chapters
+    I-VI, the origin and the fourth-century church'
+  author: ormanian
+  locus: chapters I-VI (file lines 1253-2100)
+  role: context
+  confidence: provisional
+  note: 'The same author''s account of the conversion and the fourth-century church, for a
+    twentieth-century reader. Placed on the chapter list; chapters not read.
+
+    '
+  source_file: ormanian_church-of-armenia_gregory1912.txt

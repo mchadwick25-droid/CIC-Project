@@ -1,0 +1,32 @@
+source_file: glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895.txt
+
+assignments:
+  - row_id: glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895--bishop-nils-glostrup-s-visitations-of-the-dioceses-of-oslo
+    work: "Bishop Nils Glostrup's visitations of the dioceses of Oslo and Hamar, 1617-1637 (Danish; Daae and Huitfeldt-Kaas, 1895)"
+    author: glostrup
+    locus: "the visitation book by year from 'Anno 1618' at file line 1194 to the bishop's letters and the Navneregister near the end of the extract (about line 9470); the editors' introduction from about line 300 is theirs"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: tradition
+    confidence: assigned
+    note: >
+      The Norwegian church's own record of itself a century into the Reformation: a bishop's
+      parish-by-parish visitations under the Church Ordinance, noting ministers, schools,
+      churches, catechising and discipline, in his own Danish. The ordinary voice the census
+      promises (visitation records) for the Norwegian half of Denmark-Norway, which the first pass
+      found only as a lead. Readable OCR, primary in the original; quotable, and renderable by
+      Opus, once each passage is verified against the page image. The editors' introduction (1895)
+      is secondary.
+  - row_id: glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895--bishop-nils-glostrup-s-visitations-of-the-dioceses-of-oslo-2
+    work: "Bishop Nils Glostrup's visitations of the dioceses of Oslo and Hamar, 1617-1637 (Danish; Daae and Huitfeldt-Kaas, 1895)"
+    author: glostrup
+    locus: "the editors' note on Glostrup's many years of study at Rostock and Leiden (file line 836), and the examination at lines 1765-1772 of men charged with having studied at Jesuit schools and holding the Jesuit and papist religion"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: >
+      One examination in the visitation book puts to accused men the charges that they studied at
+      Jesuit schools, hold the Jesuit and papist religion, and mislead the common people: the
+      Tridentine church's reach into the Lutheran north as a Norwegian bishop policed it. Placed
+      on that locus only; slight.

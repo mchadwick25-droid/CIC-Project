@@ -1,0 +1,16 @@
+source_file: niclaes_evangelium-regni_london1652.txt
+assignments:
+- row_id: niclaes-evangelium-regni-london1652-evangelium-regni-a-joyfull-message-of-the-kingdom-english-translation-1652
+  work: Evangelium Regni (A Joyfull Message of the Kingdom), English translation, 1652 reprint
+  author: niclaes
+  locus: THE PREFACE at file lines 85 and 155; the forty-two chapters headed "The N. Chapter" (e.g. XI
+    at 3445, XLII at 11955); the OCR catches only eight of the chapter headings
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: tradition
+  confidence: assigned
+  note: 'Hendrik Niclaes''s central work, styled as a gospel; the founder-shaped side of the movement''s
+    own evidence (the census names it). English only, translated from Low German; no 1570s English print
+    of it was found. SECOND WITNESS for exact wording: EEBO microfilm OCR (about 0.83 of tokens read as
+    words at five sample points), so locate passages here and verify against the page images before quoting
+    (Mark''s OCR ruling). Primary voice once verified.'

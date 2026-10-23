@@ -62,10 +62,10 @@ def _text(page: str) -> list[str]:
     return _text_of((SITE / page).read_text())
 
 
-def _node(scenario: str):
+def _node(scenario: str, *args: str):
     node = shutil.which("node")
     assert node, "node is required to run the page script tests"
-    out = subprocess.run([node, str(HARNESS), scenario], capture_output=True, text=True, check=True, timeout=60)
+    out = subprocess.run([node, str(HARNESS), scenario, *args], capture_output=True, text=True, check=True, timeout=60)
     return json.loads(out.stdout)
 
 
@@ -78,7 +78,7 @@ def test_each_page_reads_at_the_target_level(page):
 
 
 def _without_pack_figures(html: str) -> str:
-    return re.sub(r'<li>\$<span data-ops="pack-\d-price">\d+</span>:', "<li>", html)
+    return re.sub(r'\$<span data-ops="pack-\d-price">[\d.]+</span>', "<span>", html)
 
 
 @pytest.mark.parametrize("page", PAGES)
@@ -96,7 +96,7 @@ def _ops_figures() -> dict:
         "free-tokens": rates.free_window,
     }
     for n, pack in enumerate(ops.packs, start=1):
-        figures[f"pack-{n}-price"] = pack.price_usd
+        figures[f"pack-{n}-price"] = f"{pack.price_usd}.00"
         figures[f"pack-{n}-tokens"] = pack.tokens
     return figures
 
@@ -106,48 +106,35 @@ NUMBER_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 
 
 def test_every_figure_on_the_go_deeper_page_is_the_one_in_the_operations_file():
     html = (SITE / "go-deeper.html").read_text()
-    found = dict(re.findall(r'data-ops="([a-z0-9-]+)">([\d,]+)<', html))
-    expected = {key: f"{value:,}" for key, value in _ops_figures().items()}
+    found = dict(re.findall(r'data-ops="([a-z0-9-]+)">([\d,.]+)<', html))
+    expected = {key: value if isinstance(value, str) else f"{value:,}" for key, value in _ops_figures().items()}
     assert found == expected
 
 
-def test_the_example_conversation_length_on_the_page_is_the_operations_files():
-    html = (SITE / "go-deeper.html").read_text()
-    spoken = re.findall(r'data-ops="example-rounds">([a-z]+)<', html)
-    assert len(spoken) == 2
-    assert set(spoken) == {NUMBER_WORDS[load_ops().rates.example_rounds]}
 
 
-def test_the_free_allowance_line_counts_conversations_as_the_token_prices_do():
-    from engine.deeper import tokens
-
-    rates = load_ops().rates
-    html = (SITE / "go-deeper.html").read_text()
-    long_rounds = re.search(r'data-ops="free-long-rounds">([a-z]+)<', html).group(1)
-    rounds = {word: n for n, word in NUMBER_WORDS.items()}[long_rounds]
-    short = re.search(r'data-ops="free-short-count">([a-z]+)<', html).group(1)
-    long = re.search(r'data-ops="free-long-count">([a-z]+)<', html).group(1)
-    assert short == NUMBER_WORDS[rates.free_window // tokens.conversation_cost(rates, rates.example_rounds)]
-    assert long == NUMBER_WORDS[rates.free_window // tokens.conversation_cost(rates, rounds)]
 
 
-def test_the_page_no_longer_says_a_free_conversation_lasts_a_set_number_of_rounds():
-    html = (SITE / "go-deeper.html").read_text()
-    assert not re.search(r"free conversation lasts", re.sub(r"<[^>]+>", " ", html), re.I)
-    assert "free-rounds" not in html
+def test_the_page_names_no_count_of_conversations_or_rounds_a_free_allowance_buys():
+    text = " ".join(_text("go-deeper.html"))
+    assert not re.search(r"\babout\b|free conversation lasts|conversations of", text, re.I)
+    assert "free-rounds" not in (SITE / "go-deeper.html").read_text()
 
 
-def test_the_pack_lines_say_how_many_three_round_conversations_each_pack_holds():
-    from engine.deeper import tokens
-
+def test_each_pack_card_shows_its_price_and_tokens_and_a_choose_button():
     ops = load_ops()
-    words = {10: "ten", 25: "twenty-five", 60: "sixty"}
     html = (SITE / "go-deeper.html").read_text()
-    lines = re.findall(r"<li>\$.*?</li>", html)
-    assert len(lines) == len(ops.packs)
-    per_conversation = tokens.conversation_cost(ops.rates, ops.rates.example_rounds)
-    for line, pack in zip(lines, ops.packs):
-        assert words[pack.tokens // per_conversation] in line
+    for n, pack in enumerate(ops.packs, start=1):
+        figures = re.search(rf'id="pack-{n}-figures">(.*?)</div>', html, re.S).group(1)
+        assert re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", figures)).strip() == f"${pack.price_usd}.00 More conversations: {pack.tokens:,} tokens"
+        assert re.search(rf'<button[^>]*id="buy-pack-{n}"[^>]*aria-labelledby="buy-pack-{n} pack-{n}-figures"[^>]*hidden>Choose</button>', html)
+
+
+def test_the_expiry_and_refund_draft_is_left_off_the_page_until_the_lawyer_clears_it():
+    text = " ".join(_text("go-deeper.html"))
+    assert not re.search(r"\bexpire|\blapse|\brefund", text, re.I)
+
+
 
 
 def test_nothing_on_the_site_links_to_the_go_deeper_pages_yet():
@@ -180,10 +167,34 @@ def test_no_script_puts_a_code_or_reference_in_the_console_or_the_page_address()
         assert "console." not in (SITE / name).read_text(), name
 
 
-def test_the_buy_button_stays_off_until_a_payment_link_is_set():
+def test_the_buy_buttons_stay_off_until_a_payment_link_is_set():
     html = (SITE / "go-deeper.html").read_text()
-    assert 'var PAYMENT_LINK = "";' in html
+    assert 'var PAYMENT_LINKS = {"1": "", "2": "", "3": ""};' in html
     assert re.search(r'id="state-open" hidden', html)
+    for pack in ("1", "2", "3"):
+        assert re.search(rf'<button[^>]*id="buy-pack-{pack}"[^>]*hidden>', html), pack
+    assert "https://buy.stripe.com" not in html.split("PAYMENT_LINKS = ")[1].split(";")[0]
+
+
+
+
+def test_the_page_stays_closed_with_no_link_set():
+    out = _node("buyPage", "{}")
+    assert out == {"open": False, "closed": True, "shown": [], "went": []}
+
+
+def test_a_pack_with_an_empty_link_shows_no_button_and_the_page_opens_for_the_others():
+    out = _node("buyPage", json.dumps({"2": "https://buy.stripe.test/b", "3": ""}))
+    assert out["open"] and not out["closed"]
+    assert out["shown"] == ["buy-pack-2"]
+    assert out["went"] == ["https://buy.stripe.test/b"]
+
+
+def test_with_all_three_links_set_three_buttons_show_and_each_opens_its_own_link():
+    links = {"1": "https://buy.stripe.test/a", "2": "https://buy.stripe.test/b", "3": "https://buy.stripe.test/c"}
+    out = _node("buyPage", json.dumps(links))
+    assert out["shown"] == ["buy-pack-1", "buy-pack-2", "buy-pack-3"]
+    assert out["went"] == [links["1"], links["2"], links["3"]]
 
 
 def test_a_reference_is_128_bits_unguessable_and_new_for_each_click():
@@ -264,29 +275,6 @@ def test_the_return_page_names_the_app_origin_and_no_wildcard():
     text = (SITE / "go-deeper-return.html").read_text()
     assert "appOrigin: APP" in text and "window.GoDeeper.deliver(result.codes" in text
     assert not re.search(r"postMessage\([^)]*['\"]\*['\"]", text + (SITE / "assets/go-deeper.js").read_text())
-
-
-def test_the_door_line_shows_only_what_the_server_sends():
-    out = _node("doorLine")
-    assert out["shown"] == {"hidden": False, "text": "Free conversations are limited this week."}
-    for quiet in ("open", "unreachable", "refused", "malformed"):
-        assert out[quiet] == {"hidden": True, "text": ""}, quiet
-    assert out["url"] == "https://api.test/api/deeper/door"
-    assert out["init"] == {"credentials": "omit", "referrerPolicy": "no-referrer"}
-
-
-@pytest.mark.parametrize("page", ["index.html", "support.html"])
-def test_the_door_line_sits_on_the_home_and_get_involved_pages_hidden(page):
-    html = (SITE / page).read_text()
-    assert '<p id="door-line" class="door-line" role="status" hidden></p>' in html
-    assert html.index("assets/go-deeper-config.js") < html.index("assets/door-line.js")
-
-
-def test_the_site_asks_the_door_only_because_the_config_says_go_deeper_is_on():
-    config = (SITE / "assets" / "go-deeper-config.js").read_text()
-    assert "enabled: true" in config
-    script = (SITE / "assets" / "door-line.js").read_text()
-    assert "GoDeeperConfig.enabled" in script
 
 
 def test_the_no_link_rule_catches_a_link_without_the_extension():
