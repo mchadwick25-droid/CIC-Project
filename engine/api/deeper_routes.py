@@ -539,7 +539,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
                 raise HTTPException(status_code=404)
             response.status_code = 409
             return {"joined": False, "reason": refused.reason}
-        solo = conversation_cost(runtime.token_rates, runtime.token_rates.free_rounds)
+        solo = conversation_cost(runtime.token_rates, runtime.token_rates.example_rounds)
         return {"joined": True, "code": codes.display(code), "tokens": pack.tokens, "conversations": pack.tokens // solo}
 
     @app.post("/api/admin/deeper/pause")
@@ -627,7 +627,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             },
             "free_grant": {
                 "baseline_tokens": window, "window_days": runtime.token_rates.free_window_days,
-                "rounds_per_conversation": runtime.token_rates.free_rounds, "now_tokens": int(window * share),
+                "now_tokens": int(window * share),
             },
             "pilot": None if ops is None else {
                 "end_date": ops.pilot_end_date.isoformat(),

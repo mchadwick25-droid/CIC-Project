@@ -19,7 +19,7 @@ DOOR_WORD_KEYS = ("limited", "paused", "code_still_works")
 NOTE_KEYS = ("no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use")
 SOLO_KEYS = ("open", "round", "round_from_fourth")
 TABLE_KEYS = ("open_per_seat", "round_two_seats", "round_three_seats", "round_two_seats_from_fourth", "round_three_seats_from_fourth")
-FREE_KEYS = ("window_tokens", "window_days", "rounds_per_conversation", "network_window_allowances")
+FREE_KEYS = ("window_tokens", "window_days", "example_conversation_rounds", "network_window_allowances")
 LATER_ROUNDS_FROM = 4
 MINIMUM_PACK_USD = 7
 LIMIT_KEYS = (
@@ -108,7 +108,7 @@ def _tokens(section) -> tuple[TokenRates, tuple[Pack, ...]]:
         solo_open=solo["open"], solo_round=solo["round"], solo_round_later=solo["round_from_fourth"],
         table_open_per_seat=table["open_per_seat"], table_round_two=table["round_two_seats"], table_round_three=table["round_three_seats"],
         table_round_two_later=table["round_two_seats_from_fourth"], table_round_three_later=table["round_three_seats_from_fourth"],
-        later_rounds_from=LATER_ROUNDS_FROM, free_window=free["window_tokens"], free_window_days=free["window_days"], free_rounds=free["rounds_per_conversation"],
+        later_rounds_from=LATER_ROUNDS_FROM, free_window=free["window_tokens"], free_window_days=free["window_days"], example_rounds=free["example_conversation_rounds"],
         free_network_window=free["window_tokens"] * free["network_window_allowances"],
     )
     raw = section["packs"]

@@ -186,7 +186,7 @@ class Admission:
         if computed.stage == 0:
             return
         if self._free_reservation is not None:
-            rounds = min(self._free_cap, self._runtime.token_rates.free_rounds)
+            rounds = self._free_cap
             door_rounds = self._door_rounds(computed)
             if door_rounds is not None:
                 rounds = min(rounds, door_rounds)
@@ -210,7 +210,7 @@ class Admission:
         if not door.free_voice:
             return free_grant(min(self._free_cap, completed), self._limit_text())
         door_rounds = self._door_rounds(door)
-        cap = min(self._free_cap, self._runtime.token_rates.free_rounds)
+        cap = self._free_cap
         if door_rounds is not None:
             cap = min(cap, door_rounds)
         return free_grant(cap)
@@ -218,7 +218,7 @@ class Admission:
     def _decide(self, completed: int, door: door_module.DoorState) -> TurnGrant:
         rates = self._runtime.token_rates
         cost = tokens.charge(rates, completed + 1, self._seats)
-        free_rounds = min(self._free_cap, rates.free_rounds)
+        free_rounds = self._free_cap
         door_rounds = self._door_rounds(door)
         if door_rounds is not None:
             free_rounds = min(free_rounds, door_rounds)
