@@ -2450,3 +2450,11 @@ Applied by the build thread under the project lead's ruling of 2026-09-16 ("Proj
 **Finding put to him.** The story's Tier 3 justification rests on "this build has no independent witness, because the Acta is unread. Reading it would likely move this story to Tier 1." The Acta Proconsularia is now vendored in three Latin texts: `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt` (pp. CX to CXIV), `gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt` (no. XI, file line 6474), `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt` (no. 13, file line 4820). Not yet read for this story.
 **Alternatives shown.** (1) read the Acta at source, compare with Pontius detail by detail, and re-tier on that evidence by Doc_09 change order with an independent check; (2) rule the genre clause governs, Tier 3 stands; (3) rule the author test governs, Tier 1 now.
 **Chosen.** 1 (project lead, 2026-10-23, "1"). The general question of which CF V7.4 Tier 3 clause governs stays open (OG-7); it no longer decides this story.
+
+---
+
+### 2026-10-23 — Representative identity file written; Datus keeps the office (project lead's rulings, stop point 1 item 3)
+
+**Item 3.** Alternatives shown: (1) write `lpc_Representative_Identity_Decision.md` recording the decisions already made; (2) the Decision Log entries suffice; (3) reopen identity as a 2–4 candidate choice at Doc_10. Chosen: 1 (project lead, 2026-10-23, "1"). Written.
+**Item 3b.** Alternatives shown: (1) Datus keeps the office of a town bishop and only the label goes; the object and image stand; (2) the office goes too and Doc_10 rebuilds the voice. Chosen: 1 (project lead, 2026-10-23, "1").
+Still open: the caption, which opens with the withdrawn label, and the label's propagation across the Representative files (OG-28).
