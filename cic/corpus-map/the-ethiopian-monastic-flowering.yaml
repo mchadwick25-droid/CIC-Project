@@ -3,6 +3,29 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-ethiopian-monastic-flowering
 works:
+- row_id: alvares_narrative-of-the-portuguese-embassy-to-abyssinia_stanley1881--narrative-of-the-portuguese-embassy-to-abyssinia-1520-1527
+  work: Narrative of the Portuguese Embassy to Abyssinia, 1520-1527
+  author: alvares
+  locus: whole narrative; Sabbath and church practice around file lines 1648 and 2129 to 2433
+  role: context
+  confidence: assigned
+  note: Outsider eyewitness (Portuguese priest, 1520-1526), English translation, clean OCR;
+    ready to quote once verified against the scan. After the window; the nearest eyewitness
+    to what the window built.
+  source_file: alvares_narrative-of-the-portuguese-embassy-to-abyssinia_stanley1881.txt
+- row_id: amda-syon_guerres-amda-syon-journal-asiatique-8e-serie-t14-fra-gez_perruchon1889--histoire-des-guerres-d-amda-syon-french-translation-of-the-e
+  work: Histoire des guerres d'Amda Syon, French translation of the Ethiopian royal chronicle
+    (Journal asiatique 1889)
+  author: amda-syon
+  locus: journal pp. 271-493, file lines 12095 to about 22913
+  role: context
+  confidence: provisional
+  note: Royal chronicle of Amda Syon's wars in French translation (Perruchon, 1889), inside
+    a periodical volume. Second-grade OCR (scattered errors, Ge'ez garbled). Placed on window
+    and subject; read at opening only. Amda Syon's reign (1314 to 1344) falls in the window's
+    first decades, the dynasty at its martial height; the monastic movement is the background,
+    not the subject.
+  source_file: amda-syon_guerres-amda-syon-journal-asiatique-8e-serie-t14-fra-gez_perruchon1889.txt
 - row_id: ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928--ethiopic-synaxarium-maskaram-tekemt-khedar-english
   work: The Ethiopic Synaxarium, volume I (Maskaram, Tekemt, Khedar), English translation
     by Budge
@@ -31,3 +54,109 @@ works:
 
     '
   source_file: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt
+- row_id: gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898--lives-of-maba-seyon-and-gabra-krestos-ethiopic-texts-with-en
+  work: Lives of Maba' Seyon and Gabra Krestos, Ethiopic texts with English translation
+  author: gadla-maba-seyon
+  locus: Budge's dating argument for the reign of Zar'a Ya'eqob at file lines 3017-3037; the
+    life from about line 2912
+  role: tradition
+  confidence: provisional
+  note: Saint's life of the reign of Zar'a Ya'eqob, English translation, clean OCR. Placed
+    on the strength of the dating passage in Budge's introduction; the life itself was sampled,
+    not read through. Ready to quote once verified against the scan. Hagiography, so a later
+    community's memory.
+  source_file: gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt
+- row_id: gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906--life-and-miracles-of-takla-haymanot-dabra-libanos-version-et
+  work: Life and Miracles of Takla Haymanot (Dabra Libanos version), Ethiopic texts with English
+    translation
+  author: gadla-takla-haymanot
+  locus: English translation from file line 3076 (Chapter I at 3110); Miracles inserted from
+    5019; Waldebban version after the Dabra Libanos life
+  role: tradition
+  confidence: assigned
+  note: Primary hagiographic voice of the monastic founder named in the census; English translation,
+    clean OCR, ready to quote once verified against the scan. Ethiopic text lines are garbled.
+    The life is a later community's memory of Takla Haymanot, not his own words.
+  source_file: gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906.txt
+- row_id: kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922--kebra-nagast-the-glory-of-kings-english-translation
+  work: Kebra Nagast (The Glory of Kings), English translation
+  author: kebra-nagast
+  locus: Contents at file line 532; chapters 1 to 117 from the translation proper; chapter
+    117 at line 15174
+  role: tradition
+  confidence: assigned
+  note: Primary text, English translation, clean OCR; ready to quote once verified against
+    the scan. The dynasty's own charter myth, in the form the census names. Its date is argued;
+    Budge's introduction is commentary, not the text.
+  source_file: kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt
+- row_id: ludolf_commentarius-ad-historiam-aethiopicam-lat_1691--commentarius-ad-historiam-aethiopicam-ludolf-sabbath-amda
+  work: 'Commentarius ad Historiam Aethiopicam (Ludolf): Sabbath, Amda Syon and Takla Haymanot'
+  author: ludolf
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: Latin scholar's synthesis of 1691. Sabbath forms occur 96 times, Amda forms 16 times,
+    Takla Haymanot three times. After the window; counted by grep, not read.
+  source_file: ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt
+- row_id: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908--expeditio-aethiopica-books-1-and-2-mendes-the-monastic
+  work: 'Expeditio Aethiopica, books 1 and 2 (Mendes): the monastic movement under Takla Haymanot
+    and Eustatheus, and the Sabbath'
+  author: mendes
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: Latin account by the Catholic patriarch of Ethiopia, seventeenth century. Lines 6544
+    to 6560 of the shelf file name Takla Haymanot and an Abbot Eustatheus as the two founders
+    and say the movement divided into two bodies, the larger at Debra Libanos. Sabbath forms
+    occur 23 times. After the window. The Eustathius at line 10021 is the bishop of Antioch.
+  source_file: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt
+- row_id: taamra-maryam_miracles-of-the-blessed-virgin-mary-life-of-hanna_budge1900--miracles-of-the-virgin-mary-life-of-hanna-prayers-of-aheta-m
+  work: Miracles of the Virgin Mary, Life of Hanna, Prayers of 'Aheta Mika'el (Ethiopic texts
+    with English translations)
+  author: taamra-maryam
+  locus: Miracles from about file line 5843; Life of Hanna and the prayers after the Miracles
+  role: tradition
+  confidence: provisional
+  note: Marian miracle collection of the Ethiopian church, English translation. Placed on
+    subject and census note, sampled but not read through. The manuscripts are later than
+    1517, so how far the wording reflects the window is not known. English OCR clean in the
+    body; Ethiopic lines garbled.
+  source_file: taamra-maryam_miracles-of-the-blessed-virgin-mary-life-of-hanna_budge1900.txt
+- row_id: telles_travels-of-the-jesuits-in-ethiopia_1710--travels-of-the-jesuits-in-ethiopia-telles-the-reign-of-zara
+  work: 'Travels of the Jesuits in Ethiopia (Telles): the reign of Zara Jacob and the Council
+    of Florence'
+  author: telles
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: English digest of Paez's history. Names Zara Jacob three times (shelf file lines 6303,
+    8357, 8967) and Takla Haimanot once (10717). Line 8357 reports Ethiopians sent by Zara
+    Jacob to Rome after the Council of Florence. Thin; after the window.
+  source_file: telles_travels-of-the-jesuits-in-ethiopia_1710.txt
+- row_id: umari_masalik-el-absar-afrique-moins-egypte-fra_gaudefroy-demombynes1927--masalik-el-absar-fi-mamalik-el-amsar-i-l-afrique-moins-l-egy
+  work: 'Masalik el absar fi mamalik el amsar, I: L''Afrique moins l''Egypte (chapters VIII
+    Abyssinie and IX Nubie)'
+  author: umari
+  locus: Chapter VIII Abyssinie from file line 3609 (Amda Syon's kingdom, the Muslim states,
+    the embassy from Abyssinia at about line 3693); chapter IX Nubie from line 5950 (Dongola
+    at 6149)
+  role: context
+  confidence: assigned
+  note: Outsider Muslim geographer, French translation, clean OCR. Chapter VIII (Abyssinia)
+    serves the Ethiopian world; chapter IX (Nubia, with Dongola) serves the Nubian world.
+    Fourteenth-century and inside both windows. Ready to quote once verified against the scan.
+  source_file: umari_masalik-el-absar-afrique-moins-egypte-fra_gaudefroy-demombynes1927.txt
+- row_id: zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893--chronicles-of-zar-a-ya-eqob-and-ba-eda-maryam-ge-ez-text-wit
+  work: Chronicles of Zar'a Ya'eqob and Ba'eda Maryam (Ge'ez text with French introduction
+    and appendix)
+  author: zara-yaqob
+  locus: Introduction from file line 451; Ge'ez chronicle of Zar'a Ya'eqob from about line
+    2867; Ba'eda Maryam at 8540; appendix of French extracts at 15046
+  role: tradition
+  confidence: assigned
+  note: Royal chronicle of the reign that conceded the Saturday Sabbath and persecuted Estifanos's
+    monks. The Ge'ez OCR is unusable, so this is a second witness for the Ge'ez wording. The
+    French introduction, notes and the appendix of translated extracts are readable. No full
+    French translation is in the volume; no public-domain English translation exists (the
+    only English version, Huntingford 1965, is for Amda Seyon and in copyright).
+  source_file: zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt

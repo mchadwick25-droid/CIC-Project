@@ -3,6 +3,25 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: cathars-albigensians
 works:
+- row_id: bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926--manuel-de-l-inquisiteur-of-bernard-gui-tome-i-mollat-1926-3
+  work: 'Manuel de l''Inquisiteur of Bernard Gui, tome I (Mollat, 1926): Waldensians, Cathars
+    and other sects'
+  author: bernard-gui
+  locus: Whole volume; the handbook's forms and doctrinal sections
+  role: context
+  confidence: provisional
+  note: Placed on the handbook's subject matter without a full read. Inquisitor's view of
+    the sects he examined.
+  source_file: bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt
+- row_id: bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927--manuel-de-l-inquisiteur-of-bernard-gui-tome-ii-mollat-1927-3
+  work: 'Manuel de l''Inquisiteur of Bernard Gui, tome II (Mollat, 1927): Waldensians, Cathars
+    and other sects'
+  author: bernard-gui
+  locus: Whole volume; the doctrinal descriptions of the sects
+  role: context
+  confidence: provisional
+  note: Placed on the handbook's subject matter without a full read.
+  source_file: bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927.txt
 - row_id: perrin_history-ancient-christians-valleys-alps_1847--perrin-history-of-the-old-waldenses-and-albigenses-english-4
   work: History of the Old Albigenses (Perrin, English), Part II Books I-III
   author: perrin
@@ -15,3 +34,13 @@ works:
 
     '
   source_file: perrin_history-ancient-christians-valleys-alps_1847.txt
+- row_id: toulouse-inquisition_liber-sententiarum-lat_limborch1692--liber-sententiarum-inquisitionis-tholosanae-limborch-1692-2
+  work: 'Liber sententiarum inquisitionis Tholosanae (Limborch, 1692): sentences against Waldensians,
+    Cathars and others'
+  author: toulouse-inquisition
+  locus: Whole volume
+  role: context
+  confidence: provisional
+  note: 'Placed on the register''s subject matter (sentences against Waldensians appear in
+    the sample). Second witness for exact wording: long s read as ''f''.'
+  source_file: toulouse-inquisition_liber-sententiarum-lat_limborch1692.txt

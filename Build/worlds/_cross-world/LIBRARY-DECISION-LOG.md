@@ -101,6 +101,20 @@ trailer is the only reference.
 model enters the library. Where a non-English text has no public-domain
 English translation, the dossier records the gap.
 
+**Roles on reception rows.** Workers staged a later author's reading of an
+Era VI text (Wesley on Tauler, Luther on the Theologia deutsch, Hus on
+Wyclif, the Synaxaristes on Palamas) as `transmission`. That role is custody,
+not reception, and the corpus-map test requires a transmitted work's own
+voice to be assigned elsewhere. Those rows are `context`: the view of a
+later reader. The two Theologia deutsch rows on the Lutheran world keep
+`transmission`, under the same title as the Rhineland tradition rows, since
+Luther's printing is why the text survived in print. The four
+`tests_corpus_map.py` checks that already fail on `main` (the fixture bucket
+name, bucket reproducibility, two unused author rulings, and two orphan
+transmissions from earlier passes) are left as found; this pass adds no new
+failure. `gen_matrix.py` fails on `main` on a built world's registry
+(`role_label`); that is outside the library and is flagged, not fixed.
+
 **Size.** `cic/texts/` stood at about 1.1 GB when this pass restarted, past
 the 1 GB planning trigger in `PLAN-texts-store-scaling.md`. This pass vendors
 only what a world's own voice or its hostile record needs, and each

@@ -32,7 +32,7 @@ assignments:
     locus: whole volume
     atlas_ids:
     - lollardy
-    role: transmission
+    role: context
     confidence: provisional
     note: 'Wyclif is named about 150 times: the burning and defence of his books and the condemnation of
       his articles. Tier: same time-different region.

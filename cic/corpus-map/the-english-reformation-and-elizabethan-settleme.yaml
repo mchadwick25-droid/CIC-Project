@@ -337,6 +337,17 @@ works:
 
     '
   source_file: cranmer_miscellaneous-writings-and-letters_cox1846.txt
+- row_id: foxe_acts-and-monuments-v4_cattley-townsend1837--foxe-acts-and-monuments-vol-iv-cattley-edition
+  work: Foxe, Acts and Monuments vol. IV (Cattley edition)
+  author: foxe
+  locus: the Lollard sections
+  role: antecedent
+  confidence: provisional
+  note: 'The contested link from the Lollards to the English Reformation runs through Foxe.
+    Placed on the census''s own statement; not read for that world''s sources.
+
+    '
+  source_file: foxe_acts-and-monuments-v4_cattley-townsend1837.txt
 - row_id: foxe_acts-and-monuments-v7_cattley-townsend1837--the-acts-and-monuments-vol-vii-the-marian-persecution-of-1555
   work: 'The Acts and Monuments of John Foxe, Vol. VII (Cattley/Townsend edition): the Marian
     persecution of 1555, with the examinations and letters of Bradford, Ridley, Latimer, Philpot
@@ -588,6 +599,15 @@ works:
     The parts on the English Familist households were read; the English Reformation thread
     decides its weight there.'
   source_file: rogers-john_displaying-of-an-horrible-secte_bishop1579.txt
+- row_id: somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890--church-wardens-accounts-of-six-somerset-parishes-1349-1560-ed-bishop-hobhouse
+  work: Church-wardens' accounts of six Somerset parishes, 1349-1560, ed. Bishop Hobhouse
+  author: somerset-parishes
+  locus: the accounts of the 1530s-1560 in each parish
+  role: context
+  confidence: provisional
+  note: The accounts run to 1560, so they record the change at the parish as well as the practice
+    before it. Placed on the span without reading the later accounts for it; left provisional.
+  source_file: somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890.txt
 - row_id: strype-annals-of-the-reformation-v2-pt2-1824-annals-of-the-reformation-vol-ii-part-2-1576-1580
   work: Annals of the Reformation, vol. II part 2 (1576-1580)
   author: strype

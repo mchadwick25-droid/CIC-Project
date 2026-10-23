@@ -22,7 +22,7 @@ assignments:
   locus: whole volume
   atlas_ids:
   - devotio-moderna-brethren-of-the-common-life
-  role: transmission
+  role: context
   confidence: provisional
   note: 'The editors'' notes compare the Exercises with Kempis (file lines 2644, 3070 ''Kempis in omnium
     manibus versatur'', 3082 ''Thomae a Kempis cum Ludolfo et Ignatio communia'', 4605, 5457, 5559). The

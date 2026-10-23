@@ -1013,3 +1013,39 @@ works:
       - cic:kempis_st-lydwine-of-schiedam_scully1912.txt:whole-file
     notes: 'Scully''s introduction was not read for how his text relates to the earlier Life by Johannes
       Brugman, which the host also lists.'
+
+  - work_id: hetum-flos-historiarum-partium-orientis
+    title: "The Flower of Histories of the East (Flos historiarum terre orientis; La flor des estoires de la terre d'Orient)"
+    author: hetum
+    original_language: French (dictated by Het'um at Poitiers; put into Latin by Nicolas Falcon)
+    composed: "1307"
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "none (Latin by Nicolas Falcon, ed. Andreas Muller, 1671)"
+        year: 1671
+        language: Latin
+        recension: Falcon's Latin of 1307
+        items:
+          - "cic:hetum_historia-orientalis-de-tartaris-lat_muller1671.txt:whole-file"
+      - translator: "none (Old and Middle French texts and variants, ed. Academie des inscriptions et belles-lettres)"
+        year: 1906
+        language: French
+        recension: French manuscripts as edited in RHC Documents armeniens II
+        items:
+          - "cic:rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt:hayton"
+      - translator: "Robert Bedrosian"
+        year: 2004
+        language: English
+        recension: Awgerean's Armenian text of 1842, corrected from Burger's Old English edition of Pynson's c. 1520 translation
+        items:
+          - "cic:hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt:whole-file"
+    notes: >
+      Three independent forms of one work in the library: the Latin, the French and a modern English
+      by a translator who declares it public domain. The English rests on a Latin-derived Armenian
+      edition, not on the French, so it is a cross-check on the others and not their translation.
+      The French item address is a locator for the Hayton section of the RHC volume (file lines
+      1556 to 13369), not a section id.

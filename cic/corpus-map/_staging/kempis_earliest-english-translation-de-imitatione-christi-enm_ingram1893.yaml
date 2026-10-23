@@ -33,18 +33,3 @@ assignments:
   confidence: provisional
   note: An English devotional book from the last years of the window or just after. The household and
     parish reach of this translation was not checked; left provisional.
-- row_id: kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893--the-earliest-english-translation-of-the-imitation-eets-es-63
-  work: The earliest English translation of the Imitation, EETS ES 63 (a role proposal)
-  author: kempis
-  locus: whole volume
-  atlas_ids:
-  - devotio-moderna-brethren-of-the-common-life
-  role: transmission
-  confidence: assigned
-  note: 'Another worker staged this file for this world as tradition, provisional. The text is Middle
-    English translators'' versions of Kempis (Atkynson, Lady Margaret), so the role is better transmission.
-    This pass also read the 1893 Google scan of the same edition (earliestenglish00thomgoog), which shows
-    the title page and the three versions in turn and reads cleanly; it was not vendored as a second scan.
-    Role and confidence are proposals for the lead.
-
-    '

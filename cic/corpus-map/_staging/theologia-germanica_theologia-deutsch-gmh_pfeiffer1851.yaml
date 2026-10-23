@@ -13,7 +13,7 @@ assignments:
       The anonymous treatise from the Friends of God milieu, in its Middle High German text. A primary
       voice once checked against the page images. The English of Winkworth is vendored beside it.
   - row_id: theologia-germanica_theologia-deutsch-gmh_pfeiffer1851--theologia-deutsch-the-text-luther-edited-in-1516-and-1518
-    work: "Theologia deutsch (the text Luther edited in 1516 and 1518, here in Pfeiffer's edition of the manuscript)"
+    work: "Theologia deutsch (Pfeiffer's 1851 edition, Middle High German)"
     author: theologia-germanica
     locus: "whole volume"
     atlas_ids:

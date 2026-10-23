@@ -22,7 +22,7 @@ assignments:
     locus: whole volume
     atlas_ids:
     - lollardy
-    role: transmission
+    role: context
     confidence: provisional
     note: 'Wyclif is named about ninety times in this file. Hus''s treatise rests on Wyclif''s De ecclesia,
       which is vendored for this world. Tier: same time-different region.
