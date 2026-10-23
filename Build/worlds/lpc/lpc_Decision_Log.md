@@ -2407,3 +2407,10 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 
 **Alternatives shown.** (1) Accept `lpc`'s route: Part II tags may be applied at the candidate stage, and a [CT] term may wait for its Contest Type provided Doc_06 supplies it; (2) require every tag, Contest Type included, at the candidate stage; (3) no tags until Step 6.
 **Chosen.** 1 for `lpc` (project lead, 2026-10-23, "1"). No edit follows: Doc_06 §3 supplies the Contest Type for all three [CT] terms. The fleet-wide question is logged as a proposal in the System Hub Decision Log; Imperial-Juridical's route is not affected.
+
+---
+
+### 2026-10-23 — Liturgical-read lexicon candidates: folded into the sermon sweep (project lead's ruling, OG-34)
+
+**Alternatives shown.** (1) Add the 2026-09-19 candidates now by Doc_06 change order with a Cap-ruled recheck; (2) do not add them as terms, record the reason, correct the three stale sentences; (3) correct the three stale sentences now and add the candidates with the liturgical terms the sermon sweep yields, in one Doc_06 change order with one recheck.
+**Chosen.** 3 (project lead, 2026-10-23, "3"). The three stale sentences (Doc_05 §11 item 7, Doc_06 §5 item 3, Doc_07 §8 item 8) go into the current change order. When the candidates are integrated, *sacramentum salis*'s "Not Attested" becomes an absence record, with the practice tagged separately.
