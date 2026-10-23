@@ -27,6 +27,7 @@ export function AccountPanel() {
   const account = useAccount();
   const toggleRef = useRef<HTMLButtonElement>(null);
   const wasOpen = useRef(false);
+  const headRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
     if (accountsEnabled) void refresh();
@@ -34,6 +35,7 @@ export function AccountPanel() {
 
   useEffect(() => {
     if (wasOpen.current && !account.panelOpen) toggleRef.current?.focus();
+    if (account.panelOpen && !wasOpen.current) headRef.current?.focus();
     wasOpen.current = account.panelOpen;
   }, [account.panelOpen]);
 
@@ -55,7 +57,7 @@ export function AccountPanel() {
       <div className="account__ribbon">
         {signedIn && balance && (
           <span className="account__count" role="status">
-            {copy.freeLeft(balance.free_left)}. {copy.refills(dayOf(balance.refill_on))}.
+            {copy.freeLeft(balance.free_left)}.{balance.refill_on ? ` ${copy.refills(dayOf(balance.refill_on))}.` : ''}
           </span>
         )}
         <button ref={toggleRef} type="button" aria-expanded={account.panelOpen} aria-controls="account-panel" onClick={account.panelOpen ? closeAccountPanel : openAccountPanel}>
@@ -65,7 +67,7 @@ export function AccountPanel() {
       {account.panelOpen && (
         <aside id="account-panel" className="account__panel" aria-label={copy.heading}>
           <div className="account__head">
-            <h2>{copy.heading}</h2>
+            <h2 ref={headRef} tabIndex={-1}>{copy.heading}</h2>
             <button type="button" onClick={closeAccountPanel}>
               {copy.close}
             </button>
@@ -138,7 +140,7 @@ function SignIn() {
       )}
       {step === 'code' && (
         <form onSubmit={(e) => { e.preventDefault(); void verify(); }}>
-          <p role="status">{`${copy.codeLabel}.`}</p>
+          <p role="status">{copy.codeSent}</p>
           <label htmlFor="account-code">{copy.codeLabel}</label>
           <input id="account-code" type="text" inputMode="numeric" autoComplete="one-time-code" value={code} onChange={(e) => setCode(e.target.value)} aria-invalid={error !== null} />
           <button type="submit" disabled={busy || code.trim() === ''}>{busy ? copy.checking : copy.codeSignIn}</button>
@@ -237,7 +239,11 @@ function SignedIn() {
                   </div>
                 ) : (
                   <div className="account__actions">
-                    <button type="button" disabled={busy} onClick={() => open(item)}>{pending === item.session_id ? copy.opening : copy.open}</button>
+                    {item.closed ? (
+                      <span className="account__small">{copy.ended}</span>
+                    ) : (
+                      <button type="button" disabled={busy} onClick={() => open(item)}>{pending === item.session_id ? copy.opening : copy.open}</button>
+                    )}
                     <button type="button" disabled={busy} onClick={() => setSure(item.session_id)}>{copy.remove}</button>
                   </div>
                 )}

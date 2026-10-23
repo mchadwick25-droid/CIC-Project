@@ -22,6 +22,13 @@ describe('accounts copy', () => {
     expect(fleschReadingEase(text)).toBeGreaterThanOrEqual(60);
   });
 
+  it('reads at 50 or above on every line of 6 words or more', () => {
+    for (const v of Object.values(accountsCopy)) {
+      const line = String(typeof v === 'function' ? v('Monday' as never) : v);
+      if (line.split(/\s+/).length >= 6) expect(fleschReadingEase(/[.?!]$/.test(line) ? line : `${line}.`), line).toBeGreaterThanOrEqual(50);
+    }
+  });
+
   it('keeps every sentence to 25 words or fewer', () => {
     for (const v of Object.values(accountsCopy)) {
       const line = typeof v === 'function' ? v('Monday' as never) : v;

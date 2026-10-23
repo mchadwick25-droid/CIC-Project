@@ -5,12 +5,13 @@
  * no control, no request, no listener. A request to the account routes never logs an address or a code.
  */
 import { useSyncExternalStore } from 'react';
-import { clearStored, writeStored } from './sessionStore';
+import { clearStored, readStored, writeStored } from './sessionStore';
 
 export const accountsEnabled = import.meta.env.VITE_ACCOUNTS_ENABLED === 'on';
 
 const BASE = '/api/accounts';
 const RESOURCES_FIRST_KEY = 'cic_resources_first';
+const SHELF_OPEN_KEY = 'cic_shelf_open';
 
 export interface Balance {
   free_left: number;
@@ -31,7 +32,7 @@ export interface ShelfItem {
   turns: number;
   closed: boolean;
   holds_crisis_turn: boolean;
-  saved: string;
+  saved: boolean;
 }
 
 export interface AccountState {
@@ -164,11 +165,30 @@ export async function finishSignIn(challenge: string, address: string, code: str
 }
 
 export async function signOut(): Promise<void> {
+  let leaveShelved = false;
   try {
     await call('/sign-out', { method: 'POST' });
   } finally {
     set({ status: 'out', balance: null, shelf: null, recoveryPending: null });
+    leaveShelved = forgetShelvedConversation();
   }
+  if (leaveShelved) window.location.reload();
+}
+
+/** A conversation opened from the shelf does not stay in this tab once its owner signs out. */
+function forgetShelvedConversation(): boolean {
+  try {
+    const opened = sessionStorage.getItem(SHELF_OPEN_KEY);
+    sessionStorage.removeItem(SHELF_OPEN_KEY);
+    sessionStorage.removeItem(RESOURCES_FIRST_KEY);
+    if (opened && readStored()?.sessionId === opened) {
+      clearStored();
+      return true;
+    }
+  } catch {
+    // Without storage there is nothing held here.
+  }
+  return false;
 }
 
 export async function attachCode(code: string): Promise<void> {
@@ -204,20 +224,25 @@ export async function openShelved(item: ShelfItem): Promise<void> {
       : { sessionId: item.session_id, sessionCode: String(body.session_code), mode: 'interview' as const, worldKey: item.world_keys[0] };
   writeStored(stored);
   try {
-    if (body.holds_crisis_turn === true) sessionStorage.setItem(RESOURCES_FIRST_KEY, '1');
-    else sessionStorage.removeItem(RESOURCES_FIRST_KEY);
+    sessionStorage.setItem(SHELF_OPEN_KEY, item.session_id);
+    if (typeof body.resources_text === 'string' && body.resources_text) {
+      sessionStorage.setItem(RESOURCES_FIRST_KEY, JSON.stringify({ sessionId: item.session_id, text: body.resources_text }));
+    } else sessionStorage.removeItem(RESOURCES_FIRST_KEY);
   } catch {
     // Without storage the line is simply not pinned; the transcript still holds it.
   }
   window.location.reload();
 }
 
-/** True once, on the load after a conversation holding a Facilitator safety turn was reopened. */
-export function resourcesFirst(): boolean {
+/** The stored Facilitator text to pin first, when this tab's conversation was reopened from the shelf and holds one. */
+export function resourcesFirst(sessionId: string | null): string | null {
+  if (!sessionId) return null;
   try {
-    return sessionStorage.getItem(RESOURCES_FIRST_KEY) === '1';
+    const raw = sessionStorage.getItem(RESOURCES_FIRST_KEY);
+    const held = raw ? (JSON.parse(raw) as { sessionId?: unknown; text?: unknown }) : null;
+    return held && held.sessionId === sessionId && typeof held.text === 'string' ? held.text : null;
   } catch {
-    return false;
+    return null;
   }
 }
 
@@ -252,11 +277,7 @@ export async function exportData(): Promise<void> {
 export async function deleteAccount(): Promise<void> {
   await call('/delete', { method: 'POST' });
   clearStored();
-  try {
-    sessionStorage.removeItem(RESOURCES_FIRST_KEY);
-  } catch {
-    // Nothing to clean up.
-  }
+  forgetShelvedConversation();
   set({ status: 'out', balance: null, shelf: null, recoveryPending: null });
 }
 

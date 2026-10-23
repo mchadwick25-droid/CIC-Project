@@ -521,3 +521,29 @@ def test_an_account_is_kept_if_a_conversation_is_shelved_while_it_is_being_clear
     monkeypatch.setattr(shelf.ConversationEraser, "erase", shelve_one_more)
     assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 500
     assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1
+
+
+def test_a_check_in_after_a_crisis_turn_does_not_replace_the_text_shown_first():
+    from types import SimpleNamespace
+    from engine.api.shelf import crisis_text
+    from engine.m4.crisis_resources import ACUTE_DISTRESS_RESOURCES
+    crisis = ACUTE_DISTRESS_RESOURCES.text.format(representative_name="Ephrem")
+    audit = SimpleNamespace(facilitator_turns=[
+        {"kind": "safety", "text": crisis},
+        {"kind": "safety", "text": "Can I check something before we go on?"},
+    ])
+    assert crisis_text(audit) == crisis
+    assert crisis_text(SimpleNamespace(facilitator_turns=[{"kind": "safety", "text": "Can I check something before we go on?"}])) is None
+
+
+def test_an_idle_closed_conversation_still_opens_from_the_shelf(http, store, accounts, mailer):
+    from datetime import datetime, timedelta, timezone
+    from engine.m4 import idle_close
+    sign_in(http, mailer)
+    session_id, auth = open_session(http)
+    say(http, session_id, auth, "hello")
+    assert idle_close.close_idle_sessions(store, now=datetime.now(timezone.utc) + timedelta(days=30)) == [session_id]
+    assert http.get("/api/accounts/shelf").json()["conversations"][0]["closed"] is False
+    code = post(http, "shelf/reopen", session_id=session_id).json()["session_code"]
+    transcript = http.get(f"/api/session/{session_id}/transcript", headers={"Authorization": f"Session {code}"}).json()
+    assert transcript["closed"] is False

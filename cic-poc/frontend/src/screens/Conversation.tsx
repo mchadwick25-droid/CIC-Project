@@ -95,7 +95,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
         <ConversationCard world={world} speaking={(awaitingReply && !closed) || reveal.busy} />
       </div>
 
-      <ResourcesFirst turns={turns} />
+      <ResourcesFirst turns={turns} sessionId={sessionId} />
       <TranscriptScroll label="Conversation" followSignal={participantTurns}>
         {turns.map((turn, i) => {
           const still = i < initialTurns;
@@ -203,8 +203,8 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
 
 function NotSavedNote() {
   const account = useAccount();
-  if (accountsEnabled && account.status === 'in' && account.lastShelved === true) return null;
   if (accountsEnabled && account.status === 'in') {
+    if (account.lastShelved !== false) return null;
     return <div className="conversation__bar-note sans">{accountsCopy.notShelvedNote}</div>;
   }
   return <div className="conversation__bar-note sans">Not saved to an account — this conversation lives in this tab</div>;

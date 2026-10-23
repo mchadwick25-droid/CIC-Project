@@ -850,7 +850,7 @@ def create_app(
         _authenticate(deps.store, session_id, authorization)
         state = wiring.get_transcript(deps.store, session_id)
         return TranscriptResponse(
-            session_id=session_id, world_key=state.world_key, turn_count=state.turn_count, closed=state.closed, transcript=state.transcript,
+            session_id=session_id, world_key=state.world_key, turn_count=state.turn_count, closed=state.closed and state.close_reason != "idle", transcript=state.transcript,
             mode=state.mode, world_keys=state.world_keys, round_open=state.round_open,
             round_cap=table_wiring.round_cap_for(state.mode),
         )

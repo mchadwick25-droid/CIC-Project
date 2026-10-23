@@ -85,6 +85,8 @@ describe('AccountPanel', () => {
     fireEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: copy.codeSignIn }));
     fireEvent.click(await screen.findByRole('button', { name: copy.ageYes }));
     await waitFor(() => expect(calls.filter((c) => c.path === '/sign-in/finish')).toHaveLength(2));
+    const finish = calls.filter((c) => c.path === '/sign-in/finish').pop()!;
+    expect(finish.body).toMatchObject({ challenge: 'c1', address: 'a@b.org', code: '123456', over_18: true });
     const start = calls.find((c) => c.path === '/sign-in/start')!;
     expect(start.method).toBe('POST');
     expect(start.headers['x-cic-accounts']).toBe('1');
@@ -101,7 +103,7 @@ describe('AccountPanel', () => {
           ],
         },
       },
-      '/shelf/reopen': { body: { session_id: 's1', session_code: 'code-1', holds_crisis_turn: true } },
+      '/shelf/reopen': { body: { session_id: 's1', session_code: 'code-1', holds_crisis_turn: true, resources_text: 'One.\n\nTwo.' } },
     });
     const reload = vi.fn();
     vi.stubGlobal('location', { ...window.location, reload });
@@ -112,29 +114,44 @@ describe('AccountPanel', () => {
     expect(await screen.findByText('Hello')).toBeInTheDocument();
     fireEvent.click(screen.getByRole('button', { name: new RegExp(copy.open) }));
     await waitFor(() => expect(reload).toHaveBeenCalled());
-    expect(JSON.parse(sessionStorage.getItem('cic_session') ?? localStorage.getItem('cic_session') ?? '{}')).toMatchObject({ sessionId: 's1' });
-    expect(accounts.resourcesFirst()).toBe(true);
+    expect(JSON.parse(sessionStorage.getItem('cic_session') ?? '{}')).toMatchObject({ sessionId: 's1', sessionCode: 'code-1', mode: 'interview', worldKey: 'w1' });
+    expect(accounts.resourcesFirst('s1')).toBe('One.\n\nTwo.');
+    expect(accounts.resourcesFirst('other')).toBeNull();
   });
 });
 
 describe('ResourcesFirst', () => {
+  const crisis = 'One.\n\nTwo.';
   const turns: ConversationTurn[] = [
     { speaker: 'participant', text: 'hi' },
-    { speaker: 'facilitator', kind: 'safety', text: 'One.\n\nTwo.' } as ConversationTurn,
+    { speaker: 'facilitator', kind: 'safety', text: crisis } as ConversationTurn,
+    { speaker: 'facilitator', kind: 'safety', text: 'Can I check something?' } as ConversationTurn,
   ];
+  const hold = (id: string) => sessionStorage.setItem('cic_resources_first', JSON.stringify({ sessionId: id, text: crisis }));
 
-  it('pins the stored Facilitator safety turn only after a reopen that held one', async () => {
+  it('pins the stored crisis text, not a later check-in', async () => {
     const { ResourcesFirst, copy } = await load(true);
-    sessionStorage.setItem('cic_resources_first', '1');
-    render(<ResourcesFirst turns={turns} />);
+    hold('s1');
+    render(<ResourcesFirst turns={turns} sessionId="s1" />);
     expect(screen.getByText(copy.resourcesFirst)).toBeInTheDocument();
     expect(screen.getByText('One.')).toBeInTheDocument();
     expect(screen.getByText('Two.')).toBeInTheDocument();
+    expect(screen.queryByText('Can I check something?')).not.toBeInTheDocument();
   });
 
-  it('shows nothing without the flag', async () => {
-    const { ResourcesFirst } = await load(true);
-    const { container } = render(<ResourcesFirst turns={turns} />);
-    expect(container).toBeEmptyDOMElement();
+  it('shows nothing for another conversation, without the flag, or with the build flag off', async () => {
+    let loaded = await load(true);
+    const first = render(<loaded.ResourcesFirst turns={turns} sessionId="s2" />);
+    hold('s1');
+    expect(first.container).toBeEmptyDOMElement();
+    first.unmount();
+    sessionStorage.clear();
+    const second = render(<loaded.ResourcesFirst turns={turns} sessionId="s1" />);
+    expect(second.container).toBeEmptyDOMElement();
+    second.unmount();
+    loaded = await load(false);
+    hold('s1');
+    const third = render(<loaded.ResourcesFirst turns={turns} sessionId="s1" />);
+    expect(third.container).toBeEmptyDOMElement();
   });
 });

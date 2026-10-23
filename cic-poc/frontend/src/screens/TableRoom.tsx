@@ -116,7 +116,7 @@ export function TableRoom({
         ))}
       </div>
 
-      <ResourcesFirst turns={turns} />
+      <ResourcesFirst turns={turns} sessionId={sessionId} />
       <TranscriptScroll label="Conversation" followSignal={participantTurns}>
         {turns.map((turn, i) => {
           const still = i < initialTurns;
