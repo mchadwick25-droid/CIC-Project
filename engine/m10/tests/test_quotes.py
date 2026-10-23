@@ -274,3 +274,106 @@ def test_an_unknown_locus_in_a_plain_text_file_says_plain_text_loci_are_line_num
     (finding,) = _run(root, f'The letter at `cic:{TEXT_FILE}:div1` says "{QUOTE}".\n')[0]
     assert finding.check == "quotes-locus-unknown"
     assert "plain-text loci are line<N>" in finding.reason and "valid loci: line1" in finding.reason
+
+
+NOTED = "fxvol03_notes.xml"
+NOTE = "of historical value as embodying the rules of the northern houses"
+
+
+def _noted_world(tmp_path):
+    root = build_world(tmp_path)
+    write(
+        root,
+        f"cic/texts/{NOTED}",
+        f'<div1 id="i" title="Letter I"><p>{FIRST}.<note n="1" id="i-p1">This letter is {NOTE}.</note></p></div1>\n'
+        f'<div1 id="ii" title="Letter II"><p>{SECOND}.</p></div1>\n',
+    )
+    return root
+
+
+def test_a_quotation_from_a_note_of_a_cited_file_verifies(tmp_path):
+    root = _noted_world(tmp_path)
+    store = TextStore(root / "cic/texts")
+    assert store.may_contain(NOTE, NOTED)
+    findings, _ = _run(root, f'The editor calls it "{NOTE}" in `cic/texts/{NOTED}`.\n')
+    assert findings == []
+
+
+def test_an_altered_quotation_from_a_note_still_fails(tmp_path):
+    root = _noted_world(tmp_path)
+    findings, _ = _run(root, f'The editor calls it "{NOTE.replace("northern", "southern")}" in `cic/texts/{NOTED}`.\n')
+    assert [f.check for f in findings] == ["quotes-unverified"]
+
+
+def test_a_quotation_from_a_note_is_confirmed_only_inside_its_own_division(tmp_path):
+    root = _noted_world(tmp_path)
+    inside, _ = _run(root, f'The note at `cic:{NOTED}:i` calls it "{NOTE}".\n')
+    outside, _ = _run(root, f'The note at `cic:{NOTED}:ii` calls it "{NOTE}".\n')
+    assert inside == [] and [f.check for f in outside] == ["quotes-locus"]
+
+
+def _project(root, text):
+    write(root, "Build/reference/method/Fx_Method.md", text)
+
+
+METHOD = "# Method\n\nThe Representative speaks for the world and never for the build.\n\nA second passage names the council at Hippo in the year of the riot.\n"
+
+
+def test_an_ellipsis_quotation_of_a_project_document_passes_when_the_fragments_are_in_order_in_one_passage(tmp_path):
+    root = build_world(tmp_path)
+    _project(root, METHOD)
+    for mark in ("...", "…", "[...]"):
+        findings, notes = _run(root, f'The method says "The Representative speaks {mark} never for the build".\n')
+        assert findings == [] and any("Fx_Method.md" in n for n in notes)
+
+
+def test_an_ellipsis_quotation_of_a_project_document_fails_out_of_order_across_passages_or_altered(tmp_path):
+    root = build_world(tmp_path)
+    _project(root, METHOD)
+    for quote in (
+        "never for the build ... The Representative speaks for",
+        "The Representative speaks for the world ... the council at Hippo",
+        "The Representative speaks ... always for the build",
+    ):
+        findings, _ = _run(root, f'The method says "{quote}".\n')
+        assert [f.check for f in findings] == ["quotes-unverified"], quote
+
+
+def test_square_brackets_are_set_aside_on_both_sides_of_a_project_document_match(tmp_path):
+    root = build_world(tmp_path)
+    _project(root, METHOD + "\nThe [Representative] answers in the world's own voice and words.\n")
+    inserted, _ = _run(root, 'The method says "[The] Representative speaks for the world and never for the build".\n')
+    removed, _ = _run(root, 'The method says "The Representative answers in the world\'s own voice and words".\n')
+    assert inserted == [] and removed == []
+
+
+def test_a_bracketed_word_that_replaces_the_documents_word_still_fails(tmp_path):
+    root = build_world(tmp_path)
+    _project(root, METHOD)
+    findings, _ = _run(root, 'The method says "The [Facilitator] speaks for the world and never for the build".\n')
+    assert [f.check for f in findings] == ["quotes-unverified"]
+
+
+def test_markdown_emphasis_is_set_aside_on_both_sides_of_a_project_document_match(tmp_path):
+    root = build_world(tmp_path)
+    _project(root, "# Method\n\nAugustine argues *with* Cyprian and __never__ against him in this letter.\n\nThe file `Doc_02_Source_Ecology.md` names the rows.\n")
+    plain, _ = _run(root, 'Doc_01 says "Augustine argues with Cyprian and never against him".\n')
+    marked, _ = _run(root, 'Doc_01 says "Augustine argues _with_ Cyprian and **never** against him".\n')
+    snake, _ = _run(root, 'Doc_01 says "The file Doc_02_Source_Ecology.md names the rows".\n')
+    assert plain == [] and marked == [] and snake == []
+
+
+def test_emphasis_does_not_excuse_a_changed_word_in_a_project_document_quotation(tmp_path):
+    root = build_world(tmp_path)
+    _project(root, "# Method\n\nAugustine argues *with* Cyprian and never against him in this letter.\n")
+    findings, _ = _run(root, 'Doc_02 says "Augustine *arguing* with Cyprian and never against him".\n')
+    assert [f.check for f in findings] == ["quotes-unverified"]
+
+
+def test_an_ellipsis_cannot_join_two_list_items_or_two_table_rows_of_a_project_document(tmp_path):
+    root = build_world(tmp_path)
+    _project(root, "# Method\n\n- The first rule binds the drafter to the source.\n- The second rule binds the reviewer to the record.\n\n| one | the council met at dawn |\n| two | the bishops left at dusk |\n")
+    within, _ = _run(root, 'The method says "The first rule binds ... to the source".\n')
+    items, _ = _run(root, 'The method says "The first rule binds ... the reviewer to the record".\n')
+    rows, _ = _run(root, 'The method says "the council met ... the bishops left at dusk".\n')
+    assert within == [] and [f.check for f in items + rows] == ["quotes-unverified", "quotes-unverified"]
