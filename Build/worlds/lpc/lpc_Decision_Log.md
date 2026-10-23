@@ -2429,3 +2429,9 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 
 **Alternatives shown.** (1) true, full validation; (2) false, lean validation. Precedents shown: `jes` true (the voice sits close to confession and spiritual direction), `hus` false (`Build/Ministry/Operations/Audits/hus_jes_Article29_SafetyAdjacent_Ruling_2026-10-01.md`).
 **Chosen.** 1, true (project lead, 2026-10-23, "1"). Reason put to him: the world's centre is failure, penance and readmission, with plague, death and martyrdom, and the sermon expansion makes it more pastoral. Written to `records/worlds/lpc.yaml` by the build thread on his instruction. Safety handling stays with the Facilitator.
+
+---
+
+### 2026-10-23 — `living_tradition_flag: true` carried into the registry entry
+
+Applied by the build thread under the project lead's ruling of 2026-09-16 ("Project lead's Article 29 confirmation: Living Tradition Status CONFIRMED, flag true, statement adopted", this log). No new decision. `python -m engine.m6.cli check` passes with no changes after the edit. The census field `living` in `cic-website/data/world-census.json` (currently `false`) is an editorial override that `m6 sync` does not copy from the registry (`engine/m6/census_sync.py`, docstring); whether it changes is put to the project lead separately.
