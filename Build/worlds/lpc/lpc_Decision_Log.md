@@ -2458,3 +2458,10 @@ Applied by the build thread under the project lead's ruling of 2026-09-16 ("Proj
 **Item 3.** Alternatives shown: (1) write `lpc_Representative_Identity_Decision.md` recording the decisions already made; (2) the Decision Log entries suffice; (3) reopen identity as a 2–4 candidate choice at Doc_10. Chosen: 1 (project lead, 2026-10-23, "1"). Written.
 **Item 3b.** Alternatives shown: (1) Datus keeps the office of a town bishop and only the label goes; the object and image stand; (2) the office goes too and Doc_10 rebuilds the voice. Chosen: 1 (project lead, 2026-10-23, "1").
 Still open: the caption, which opens with the withdrawn label, and the label's propagation across the Representative files (OG-28).
+
+---
+
+### 2026-10-23 — Validation spending cap: set at the validation stage (project lead's ruling, stop point 1 item 4)
+
+`safety_adjacent: true` sends `lpc` to full validation. Alternatives shown: (1) name "lpc full validation", $10 cap, now; (2) a $3 to $5 cap now; (3) set the name and cap after Doc_10, with the exact probe count. Precedents shown: "fleet re-admission, 9 October" ($10 cap) and "eleven-world test, 13 October" ($0.90 per world, $2.95 spent). Chosen: 3 (project lead, 2026-10-23, "3"). No metered call runs before then.
+Also recorded: sermon renderings are authored by Opus inside the conversation, against the weekly allowance, not as metered engine calls, so they need no live test unless run through the engine.
