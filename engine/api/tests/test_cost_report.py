@@ -48,7 +48,7 @@ def _price(record):
 
 
 def _solo_session(session="s1"):
-    """Round 1; round 2 after 60 s, warm; round 3 after 400 s, cold; round 4 after 4000 s, cold; one unvoiced message."""
+    """Four voiced messages and one with no voice reply. The second follows after 60 s with a warm cache; the third after 400 s and the fourth after 4000 s, both cold."""
     calls = []
     calls += _message(session, BASE, voiced=True)
     calls += _message(session, BASE + timedelta(seconds=60), voiced=True, warm=True)
