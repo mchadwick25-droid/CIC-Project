@@ -9087,3 +9087,222 @@ queue:
       1645-1656; auzr004: 1657-1659). Contents not read. Not vendored: by the year tokens none of these
       volumes covers the 1615-1647 span; the series volume for those years was not found.'
     status: not-yet-downloaded
+
+  - title: Ordinatio ecclesiastica Regnorum Daniae et Norvegiae et Ducatuum Sleswicensis Holtsatiae etcet.
+      (Church Ordinance of 1537, Latin)
+    author: Danske folkekirke (issued in the name of Christian III); printer Johannes Vinitor (Hans Vingaard)
+    translator: none (Latin)
+    year: 1537
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'The founding text of the Danish-Norwegian church (and so Iceland) after 1536; named by the census.
+      Found by archive.org title search. Two scans exist; the Boston Public Library copy has the better
+      OCR.
+
+      '
+    url: https://archive.org/details/ordinatioecclesi00dans
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (1537,
+      lat, no rights field, no access restriction), full text fetched, title page and colophon read in the
+      OCR, sampled at five points (readable; long-s and r-rotunda glyphs).'
+    status: downloaded
+    vendored_as: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt
+  - title: Samlade skrifter af Olavus Petri, vols. 1 and 2
+    author: Olavus Petri
+    translator: none (Swedish)
+    year: 1914
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'The Swedish Reformation''s leading preacher in his own Swedish: the tracts of 1526-1528 (vol.
+      1) and the Manual of 1529, the Swedish Mass and the hymns of 1536 (vol. 2). The census names Olaus
+      Petri as a voice; this is the only edition of his works found on a reachable host.
+
+      '
+    url: https://archive.org/details/olavuspetri0001unse ; https://archive.org/details/olavuspetri0002unse
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (1914
+      and 1915, swe, contributor Internet Archive, no rights field), full text fetched, contents pages read
+      in the OCR, sampled at four points. The year 1915 for vol. 2 is the host date only (no year in the
+      OCR).'
+    status: downloaded
+    vendored_as: olavus-petri_samlade-skrifter-v1-swe_hesselman1914.txt ; olavus-petri_samlade-skrifter-v2-swe_hesselman1915.txt
+  - title: The Mass in Sweden, its development from the Latin rite from 1531 to 1917 (Henry Bradshaw Society
+      vol. LVII)
+    author: Eric Esskildsen Yelverton (ed. and trans.)
+    translator: Eric Esskildsen Yelverton
+    year: 1920
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'The only public-domain English found beside a Swedish Reformation liturgical text: the Mass of
+      Olavus Petri (1531) and Laurentius Petri''s mass of 1571, the Red Book of John III, and Charles IX,
+      Swedish and English side by side.
+
+      '
+    url: https://archive.org/details/massinswedenitsd00petr
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (1920,
+      eng, PIMS Toronto, no rights field), title page with 1920 read in the OCR, contents read, sampled
+      at four points.'
+    status: downloaded
+    vendored_as: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920.txt
+  - title: Svenska kyrkans bekännelseskrifter (the Book of Concord in Swedish and Upsala mötes beslut of
+      1593)
+    author: Oscar Bensow (ed.)
+    translator: none (Swedish)
+    year: 1912
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'The only text of the Uppsala Synod decisions of 1593 found on a reachable host, in the census''s
+      "acta (1593, verified)". It also serves the Wittenberg entry as the Book of Concord in Swedish.
+
+      '
+    url: https://archive.org/details/arkivkopia.se-runeberg-bekann12
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (1912,
+      swe, Arkivkopia copy of Projekt Runeberg, no rights field), text fetched, title page with 1912 read,
+      the 1593 Företal and decision located and read at lines 30909-31172.'
+    status: downloaded
+    vendored_as: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt
+  - title: The History of the Reformation in Sweden
+    author: Lars Anton Anjou
+    translator: Henry M. Mason
+    year: 1859
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'The best outside narrative found in English for the Swedish side, 668 pages, from the Princeton
+      Theological Seminary copy; the first lead for the next vendoring round. The Swedish original (1850)
+      is on the Internet Archive as svenskakyrkoref01anjogoog and svenskakyrkoref00anjogoog (Google scans).
+
+      '
+    url: https://archive.org/details/historyofreforma185900anjo
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (1859,
+      eng, NOT_IN_COPYRIGHT, Princeton), title page with Mason and 1859 read in the OCR, full text fetched
+      (1.58M characters). Not vendored, to keep to the size limit.'
+    status: not-yet-downloaded
+  - title: The National Church of Sweden (Hale Lectures, 1910)
+    author: John Wordsworth, Bishop of Salisbury
+    translator: none
+    year: 1911
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'An Anglican bishop''s account of the Swedish church from the conversion, from the Reformation
+      to 1910, with the liturgical and episcopal-succession arguments of its time. A second outside witness.
+
+      '
+    url: https://archive.org/details/nationalchurchof00wordrich
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (1911,
+      eng, NOT_IN_COPYRIGHT, University of California), title page read in the OCR (Hale Lectures, 24-29
+      October 1910), text fetched (1.13M characters). Not vendored, to keep to the size limit.'
+    status: not-yet-downloaded
+  - title: Diplomatarium Islandicum (Islenzkt fornbréfasafn), vol. 11, A.D. 1310-1544
+    author: Hið íslenzka bókmentafélag (ed.)
+    translator: none (Icelandic and Danish)
+    year: 1915
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'The Icelandic documentary voice: the body runs on to 1549, with Bishop Gizur Einarsson''s Ordinanzia
+      of 1542 (about file line 6346) and many letters naming Bishop Jon Arason''s diocese; vol. 10 (1169-1542)
+      is diplomatariumisl10kaupuoft. Vols. 12 onward are not on the Internet Archive under this pattern.
+
+      '
+    url: https://archive.org/details/diplomatariumisl11kaup
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (Robarts,
+      University of Toronto), title page with Reykjavik 1915 read in the OCR, full text fetched (1.96M characters),
+      Ordinanzia heading located. Not vendored: a 2M-character Icelandic document collection of which most
+      is medieval; a build should read the 1540s letters before deciding.'
+    status: not-yet-downloaded
+  - title: Samlade skrifter af Olavus Petri, vols. 3 and 4
+    author: Olavus Petri
+    translator: none (Swedish)
+    year: 1916
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'Vol. 3: postil of 1530, Förmaning til alla Euangeliska 1535 and fragments; vol. 4: the Chronicle,
+      the judge''s rules, the comment on the town law, Sielenes tröst and Tobie comedia. Same edition as
+      the two vendored volumes.
+
+      '
+    url: https://archive.org/details/olavuspetri0003unse ; https://archive.org/details/bwb_T3-BUN-536
+    rights_basis: pd-us-by-date (host dates 1916 and 1917; no host rights field)
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read and
+      contents pages read in the OCR; not sampled further. Not vendored, to keep to the size limit.'
+    status: not-yet-downloaded
+  - title: Inbjudningsskrifter till de högtidlighållanden hvarmed trehundraårsminnet af Upsala möte ...
+      (Uppsala 1893)
+    author: S. E. Henschen, A. N. Sundberg and others (Uppsala universitet)
+    translator: none (Swedish)
+    year: 1893
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'The university''s tercentenary invitations for the 1593 synod, with an essay Om den svenska kyrkoreformationen
+      och Upsala möte 1593 (about file line 358). Secondary scholarship on the synod, not its acta.
+
+      '
+    url: https://archive.org/details/inbjudningsskri00univgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (1893,
+      Swedish, NOT_IN_COPYRIGHT, Harvard, Google scan), text fetched (758K characters), essay heading located.
+      Not vendored.'
+    status: not-yet-downloaded
+  - title: Smaaskrifter af Hans Tavsen
+    author: Hans Tausen
+    translator: none (Danish, with Latin)
+    year: 1870
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'The Danish reformer''s polemical tracts, edited by H. F. Rørdam for the Royal Danish Society;
+      the census names Tausen. The scan is unusable as text: the 1870 Fraktur is read as Latin letters (garbled),
+      in both smaaskrifterafha00taus (Library of Congress) and smaaskrifter00tausgoog (Google).
+
+      '
+    url: https://archive.org/details/smaaskrifterafha00taus
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (1870,
+      dan, Library of Congress "unaware of any copyright restrictions"), both scans fetched and sampled
+      at five points: garbled. Lead only until a clean text or a page-image transcription exists.'
+    status: not-yet-downloaded
+  - title: Käsikiria castesta ia muista christikunnan menoista (Agricola's Finnish Manual, Stockholm 1549)
+    author: Mikael Agricola
+    translator: none (Finnish)
+    year: 1549
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'The Finnish church''s Manual of baptism, marriage, visitation of the sick and burial, from the
+      reformer the census names ("Finnish bishop whose translations created written Finnish"). Finland is
+      the one part of the window with no vendored text.
+
+      '
+    url: https://archive.org/details/kasikiria-1549
+    rights_basis: open-licence (Creative Commons Public Domain Mark 1.0 on the item); also pd-us-by-date
+      (1549)
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (1549,
+      fin, licenseurl Public Domain Mark, "Prentattu Stocholmisa : Amundi Lauritzan poialda"), text fetched
+      (138K characters) and sampled at three points: readable Finnish with long-s glyphs. Other Agricola
+      items on the same host: rucouskiria-1544, p107-06_messu, P2106SeWsiTestamentti, psalteri (not opened).
+      Not vendored, to keep to the size limit.'
+    status: not-yet-downloaded
+  - title: Biskop Nils Glostrups visitatser i Oslo og Hamar Stifter, 1617-1637
+    author: Nils Simonssøn Glostrup; ed. Ludvig Daae and H. J. Huitfeldt-Kaas
+    translator: none (Danish-Norwegian)
+    year: 1895
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'A bishop''s visitation records for two Norwegian dioceses, 1617-1637: the parish seen from the
+      visitor''s side, the nearest thing found to the ordinary voice the census asks for. Also named in
+      the census as "visitation records".
+
+      '
+    url: https://archive.org/details/biskopnilsglost00huitgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (1895,
+      Norwegian, NOT_IN_COPYRIGHT, University of California, Google scan), imprint "Christiania 1895" read
+      in the OCR, text fetched (895K characters). Content sampled at one point only (genealogical notes),
+      so not confirmed to be the visitation text itself. Not vendored.'
+    status: not-yet-downloaded
+  - title: Olavus Petri, the Church Reformer of Sweden
+    author: Nils Forsander
+    translator: none (English)
+    year: 1918
+    world: VI.27 scandinavian-reformation-kingdoms
+    why: 'An English biography of Olavus Petri written for the 1918 anniversary of the Reformation, from
+      the Augustana Book Concern at Rock Island. Secondary; useful as an English guide to his works while
+      no translation of the tracts is in the library. A Swedish edition is on the same host as arkivkopia.se-runeberg-nfopetri.
+
+      '
+    url: https://archive.org/details/olavuspetrichur00forsgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, one-world agent for VI.27, 2026-10-23: metadata read (1918,
+      English, NOT_IN_COPYRIGHT, Harvard, Google scan), "COPYRIGHT, 1918" read in the OCR, text fetched.
+      Not vendored.'
+    status: not-yet-downloaded

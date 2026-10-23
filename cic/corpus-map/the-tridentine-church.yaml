@@ -3,6 +3,20 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-tridentine-church
 works:
+- row_id: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562--approbatio-et-professio-fidei-abdisho-iv-1562-2
+  work: Approbatio et professio of the patriarch of the Orientalium Assyriorum (Abdisho IV)
+    and Cardinal Amulio's letter to the legates at Trent, 1562
+  author: abdisho-iv
+  locus: whole file; the letter to the legates 'Sacri Concilii Tridentini' from about line
+    98
+  role: context
+  confidence: provisional
+  note: 'An Eastern patriarch''s oath to receive the decrees of the councils and of Trent,
+    sent to the council in its last period. Placed on the content read for the other row;
+    whether the Tridentine entry wants it is for its build.
+
+    '
+  source_file: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt
 - row_id: bacci_life-of-st-philip-neri-v1_faber1847--life-of-saint-philip-neri-vol-1
   work: The Life of Saint Philip Neri, Apostle of Rome, and Founder of the Congregation of
     the Oratory, Vol. 1 (Books I-III to Chapter VI)
@@ -627,19 +641,22 @@ works:
     as its tradition text; cross-linked here as context only. Placed on a mention count; not
     read.
   source_file: society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt
-- row_id: teresa-of-avila_book-of-foundations_mason1909--foundations-tridentine
-  work: The Book of the Foundations, the chapters naming the Council of Trent and the bishops
-    who enforced enclosure
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-tridentine
+  work: The Book of the Foundations, Teresa's reference to the Council of Trent and the hermits,
+    and the editor's note on Trent and enclosure
   author: teresa-of-avila
-  locus: Teresa's own reference to the Council of Trent sanctioning endowments at line 5528;
-    Trent in Mason's notes at lines 7051, 7102, 8951
+  locus: Teresa's own words at line 10025 ("When the holy Council of Trent had been held ...")
+    and on the Council allowing endowments (lines 7135-7140 and 11413); the introduction at
+    line 1183 on the Council legislating for the religious; the notes at lines 2081, 4237
+    and 15890
   role: context
   confidence: provisional
-  note: At line 5528 Teresa reports her confessor telling her that, since the Council had
-    sanctioned endowments, she should found a convent with revenues; Mason's notes cite the
-    Council on enclosure and licence. Placed on those passages and word counts, not read through,
-    so provisional.
-  source_file: teresa-of-avila_book-of-foundations_mason1909.txt
+  note: 'The reform seen as a response to Trent: at line 10025 the Council''s decree sending
+    hermits into the regular orders drives a foundation, and the editor''s introduction and
+    notes cite the Council on enclosure and on the Brief of Pius IV. Placed on those passages
+    and word counts, not read through, so provisional; a build decides whether this is the
+    Tridentine Church''s own voice or context for it.'
+  source_file: teresa-of-avila_book-of-foundations_lewis1913.txt
 - row_id: teresa-of-avila_interior-castle_stanbrook1912--interior-castle-tridentine
   work: The Interior Castle, the passages on Luther and the Lutherans and on the Society of
     Jesus

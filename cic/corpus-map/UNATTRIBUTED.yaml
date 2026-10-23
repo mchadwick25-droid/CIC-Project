@@ -3,6 +3,16 @@
 # work-entity CCEL's own metadata does not supply, with the evidence for
 # the ruling. corpus_map.py accepts these as valid `author` values.
 authors:
+  abdisho-iv:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The profession is in the first person of "Abdisu", named in the print as "Patriarcha
+      Orientalium Assyriorum" (title and the profession itself, file lines about 11 and 250);
+      the covering letter is signed by Cardinal Marcantonio Amulio. A mechanical index-coverage
+      gap, not an attribution dispute.
+
+      '
+    from_file: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt
   abgar-edessa-documents:
     kind: anonymous
     evidence: 'div2 9.3 "The Story Concerning the King of Edessa" and 9.5 "Extracts from Various
@@ -267,6 +277,15 @@ authors:
 
       '
     from_file: asbury_journal-v1_1821.txt
+  assemani:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page names "Joseph Simonius Assemanus, Syrus Maronita" (file line 82) and
+      the dedication is signed by him (line 119). A mechanical index-coverage gap, not an
+      attribution dispute.
+
+      '
+    from_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
   bancroft:
     kind: metadata-omission
     evidence: 'The host''s own creator field names ''Bancroft, Richard, 1544-1610'' beside
@@ -1178,6 +1197,15 @@ authors:
       all the Church people of Malankara ... assembled in the Large Church of Angamale' in
       1787. Both are community documents with no individual author named.
     from_file: whitehouse_lingerings-of-light-in-a-dark-land_1873.txt
+  malech:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page (file lines about 246-248) reads "By Prof. George David Malech of Urmia,
+      Persia", edited after his death by his son Nestorius George Malech; the host catalogue
+      gives 1837-1909. A mechanical index-coverage gap, not an attribution dispute.
+
+      '
+    from_file: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt
   mara-bar-serapion:
     kind: metadata-omission
     evidence: 'div2 9.17 "A Letter of Mara, Son of Serapion" — the title names the author,
@@ -1541,6 +1569,15 @@ authors:
     kind: metadata-omission
     evidence: div2 10.8 'Rhodon' names the author.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  scher:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The catalogue is signed "Addaï Scher." at the end of its opening paragraph (file line
+      36) and the running head reads "MGR ADDAÏ SCHER" (lines 179, 312). A mechanical index-coverage
+      gap, not an attribution dispute.
+
+      '
+    from_file: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907.txt
   schodde:
     kind: metadata-omission
     evidence: 'The file is plain text and carries no markup to hold a creator, so the extractor
@@ -1862,12 +1899,12 @@ authors:
   wigram:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
-      The author is real and named on the title page (file line 97): William Ainger Wigram
-      (1872-1953), Anglican missionary to the Assyrian Christians. A mechanical index-coverage
-      gap, not an attribution dispute.
+      The author is named on the title page (file line 46: "THE REV. W. A. WIGRAM") and the
+      host catalogue gives William Ainger Wigram, 1872-1953. A mechanical index-coverage gap,
+      not an attribution dispute.
 
       '
-    from_file: wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt
+    from_file: wigram_assyrians-and-their-neighbours_1929.txt
   yorkshire-recusant:
     kind: anonymous
     evidence: 'Paper II is headed "A Yorkshire Recusant''s Relation" (file line 3266); the

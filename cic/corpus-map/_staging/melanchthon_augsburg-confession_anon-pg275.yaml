@@ -36,3 +36,18 @@ assignments:
       in the Empire. Same time, different region. Read at the loci given, 2026-10-16.
 
       '
+
+  - row_id: melanchthon_augsburg-confession_anon-pg275--augsburg-confession-uppsala-1593
+    work: The Augsburg Confession (1530), the confession the Uppsala Synod of 1593 adopted 'unaltered'
+    author: melanchthon
+    locus: whole file
+    atlas_ids:
+    - scandinavian-reformation-kingdoms
+    role: antecedent
+    confidence: provisional
+    note: 'The Uppsala Synod committed the Swedish church to the three ecumenical creeds and the unaltered
+      Augsburg Confession (Bensow''s note, bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt
+      at line 31696). The text existed before this world and is the authority it argued from. Placed on
+      that statement and the census, not on a comparison of the editions.
+
+      '

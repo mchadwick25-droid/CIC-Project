@@ -1,0 +1,72 @@
+source_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+
+authors_ruled:
+  assemani:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page names
+      "Joseph Simonius Assemanus, Syrus Maronita" (file line 82) and the dedication is signed by him (line 119).
+      A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555
+    work: "Bibliotheca Orientalis III.2, the dissertation De Syris Nestorianis: the election of Sulaka, his profession and proclamation at Rome, his death, and the line of Abdisho IV"
+    author: assemani
+    locus: "the dissertation's account of the patriarchal line from the hereditary succession at file lines about 11990-12070; Abdisho's profession quoted at about line 42232; Sulaka's profession of faith cited at about lines 18698, 19857, 21801 and 25242; Caput VIII (the conversions of the Nestorians) from line 27477"
+    atlas_ids:
+      - church-of-the-east-schism-of-1552
+    role: context
+    confidence: assigned
+    note: >
+      The fullest early documentary account from the Roman side, by a Maronite priest of the Vatican Library
+      working from Chaldean manuscripts and Roman archives (the census: "documented from the Roman side").
+      Gives the 1551 election at Mosul by three bishops and many clergy against the hereditary heir, the
+      journey to Rome, the profession of faith, the return, the death at Amid in 1555 at the instigation of
+      the rival, and the confirmation of Abdisho in 1562. The dates in this OCR are garbled; the 1725 volume's
+      list (not vendored) reads clearer. Latin; the English of this story in the corpus is Geddes (1694), via
+      Hough. Second witness for exact wording: long s read as f throughout.
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555-2
+    work: "Bibliotheca Orientalis III.2, the dissertation De Syris Nestorianis: the patriarchal line, the hereditary succession and the Malabar bishops"
+    author: assemani
+    locus: "the dissertation's survey of the patriarchs after Timur and the hereditary law, file lines about 11880-12000; Caput IX, De Christianis S. Thomae in India, from line 27853"
+    atlas_ids:
+      - church-of-the-east-timur-to-hakkari
+    role: context
+    confidence: provisional
+    note: >
+      The same dissertation runs back through the patriarchs of the fifteenth century and the way the see
+      became hereditary (the census window of this entry ends in 1517). Placed on the window and the subject,
+      not on a close read of those pages.
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555-3
+    work: "Bibliotheca Orientalis III.2, Caput IX: the St. Thomas Christians and the bishops sent to Malabar by the Chaldean patriarchs"
+    author: assemani
+    locus: "Caput IX, De Christianis S. Thomae in India, table at line 483 and text from 27853; the bishops Joseph, Abraham and Simeon sent to Malabar in the 1550s-1590s at file lines about 12025-12260"
+    atlas_ids:
+      - st-thomas-christians-under-portuguese-pressure-d
+    role: context
+    confidence: provisional
+    note: >
+      Assemani narrates the Chaldean bishops sent to the Malabar church after 1552, the Portuguese arrest of
+      Joseph, and the rival missions that led up to Diamper. Placed on the window and the named figures.
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555-4
+    work: "Bibliotheca Orientalis III.2, Caput IX: the St. Thomas Christians before 1517"
+    author: assemani
+    locus: "Caput IX, De Christianis S. Thomae in India, table at line 483; the 1500-1510 Indian bishops at about lines 11884-11975"
+    atlas_ids:
+      - st-thomas-christians-1300-1517
+    role: context
+    confidence: provisional
+    note: >
+      The chapter on the Thomas Christians, with the Indian bishops who went to Mesopotamia about 1500 and
+      the Syriac New Testament written at Cranganore in 1510. Placed on the window, not read closely.
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555-5
+    work: "Bibliotheca Orientalis III.2, the dissertation De Syris Nestorianis, as a reference for the later Chaldean line"
+    author: assemani
+    locus: "the dissertation's closing series on the Chaldean patriarchs of Amid and Mosul, file lines about 12050-12400"
+    atlas_ids:
+      - church-of-the-east-chaldean-consolidation
+    role: antecedent
+    confidence: provisional
+    note: >
+      The eighteenth-century Roman account of the two lines that the nineteenth-century consolidation resolved.
+      An antecedent only; placed on subject.

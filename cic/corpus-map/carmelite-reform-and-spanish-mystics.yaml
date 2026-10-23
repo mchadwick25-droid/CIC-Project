@@ -4,16 +4,16 @@
 atlas_id: carmelite-reform-and-spanish-mystics
 works:
 - row_id: john-of-the-cross_dark-night-canticle-living-flame_lewis1891--letters
-  work: Letters, censure of a nun's prayer, and sayings of John of the Cross, in the same
-    volume
+  work: Instructions and Precautions, Letters I-XVIII, censure of a nun's prayer, and Spiritual
+    Maxims of John of the Cross, in the same volume
   author: john-of-the-cross
-  locus: from "LETTERS." at line 20822 to the end; Letter XVII at line 21889; the Censure
-    at line 21964
+  locus: Instructions and Precautions from line 20536; Letters from line 20822 (Letter XVIII
+    at line 21914); the Censure at line 21964; the Spiritual Maxims after it
   role: tradition
   confidence: assigned
-  note: John's own letters, the last dated Madrid, 6 July 1591, and his judgment on the prayer
-    of one of the nuns of his order. Primary voice in English; ready to quote once verified
-    against the page image.
+  note: John's own instructions and precautions for the soul, his letters, the last dated
+    Madrid, 6 July 1591, and his judgment on the prayer of one of the nuns of his order. Primary
+    voice in English; ready to quote once verified against the page image.
   source_file: john-of-the-cross_dark-night-canticle-living-flame_lewis1891.txt
 - row_id: john-of-the-cross_dark-night-canticle-living-flame_lewis1891--dark-night
   work: The Dark Night of the Soul, with the Spiritual Canticle and The Living Flame of Love,
@@ -43,21 +43,38 @@ works:
     voice of the period. Role context, not tradition; the compiler is unnamed on the title
     page. Ready to quote only with that framing.
   source_file: john-of-the-cross_life_lewis1873.txt
-- row_id: teresa-of-avila_book-of-foundations_mason1909--foundations
-  work: The Book of the Foundations (Libro de las fundaciones), translated by Sister Agnes
-    Mason, 1909
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--rule-constitutions
+  work: Teresa's paper on the visitation of nunneries, the Rule of the Order of Our Lady of
+    Mount Carmel, and the Constitutions for the sisters (appended to the Foundations in this
+    edition)
   author: teresa-of-avila
-  locus: whole file; prologue at line 596; first foundation chapter at line 739; the dealings
-    with the Bishop of Avila, Don Alvaro de Mendoza, around lines 999 and 4754; Seville (61
-    hits) and Burgos (60 hits)
+  locus: the visitation paper from line 20874; the Carmelite Rule from about line 21960; the
+    rule of the nuns from line 22050 and the Constitutions for the sisters from line 22424
+    to the index
   role: tradition
   confidence: assigned
-  note: Teresa's own narrative of the reform's spread, house by house, from Valladolid and
-    Medina del Campo to Burgos, with the quarrels with provincials of the mitigated Rule and
+  note: 'The reform''s own legislation: the paper Teresa wrote to guide her visitors, the
+    primitive Rule, and the Constitutions of the sisters. Primary and normative; the nearest
+    English text to the Constitutions of the Discalced named in the task. The notes in front
+    of the Constitutions on how the text was obtained are the editor''s. Ready to quote once
+    each quote is verified against the page image.'
+  source_file: teresa-of-avila_book-of-foundations_lewis1913.txt
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations
+  work: The Book of the Foundations of S. Teresa of Jesus (Libro de las fundaciones), Lewis
+    translation, new and revised edition 1913
+  author: teresa-of-avila
+  locus: from the prologue (line 3733) through the foundation chapters to the end of the narrative;
+    contents table from line 137; the bishop Don Alvaro de Mendoza at line 738; the Rule and
+    Constitutions and the visitation paper are separate rows
+  role: tradition
+  confidence: assigned
+  note: Teresa's own narrative of the reform's spread, house by house, from Avila and Medina
+    del Campo to Burgos, with the quarrels with the provincials of the mitigated Rule and
     her dealings with Father Gracian. The nearest thing in the corpus to a chronicle of the
     reform by its founder. Primary first-person voice in English; ready to quote once each
-    quote is verified against the page image.
-  source_file: teresa-of-avila_book-of-foundations_mason1909.txt
+    quote is verified against the page image. Zimmerman's introduction and notes are the editor's
+    voice, not Teresa's.
+  source_file: teresa-of-avila_book-of-foundations_lewis1913.txt
 - row_id: teresa-of-avila_interior-castle_stanbrook1912--interior-castle
   work: The Interior Castle, or The Mansions (Las moradas), Stanbrook translation revised
     by Zimmerman, second edition 1912

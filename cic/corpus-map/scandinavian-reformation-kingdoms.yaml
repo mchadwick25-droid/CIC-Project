@@ -7,8 +7,8 @@ works:
   work: Konkordieboken in Swedish, with Bensow's note that Sweden adopted it in full only
     in 1663 and 1686
   author: bensow
-  locus: the whole Book of Concord section, lines 140-30900; Bensow's note on the adoption
-    at about line 31700 ('religionsplakatet den 14 augusti 1663 och kyrkolagen af år 1686')
+  locus: the whole Book of Concord section, lines 50-30900; Bensow's note on the adoption
+    at line 31705 ('religionsplakatet den 14 augusti 1663 och kyrkolagen af år 1686')
   role: context
   confidence: provisional
   note: 'The Swedish church took the Book of Concord as a whole only after this entry''s window
@@ -24,7 +24,8 @@ works:
   author: bensow
   locus: '''Företal'' at line 30909, dated Stockholm 30 July 1593 (line 30966); ''UPSALA MÖTES
     BESLUT'' from line 30999; the signatures and ''Actum Upsaliæ xx martii anno mdxciii''
-    at lines 31160-31172; Bensow''s historical note on the synod at about line 31704'
+    at lines 31160-31172; Bensow''s note on the synod at line 31727 and on the adoption of
+    the Concordia at line 31705'
   role: tradition
   confidence: assigned
   note: 'The synod that ended the long struggle over the Red Book, and committed the kingdom
@@ -36,6 +37,35 @@ works:
 
     '
   source_file: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt
+- row_id: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911--augsburg-confession-uppsala-1593
+  work: The Augsburg Confession in Jacobs's 1911 Book of Concord (Part II), the confession
+    the Uppsala Synod of 1593 adopted
+  author: book-of-concord
+  locus: Part II Augsburg Confession from file line 1374; the Apology from line 3270
+  role: antecedent
+  confidence: provisional
+  note: 'A second English expression of the confession the Swedish church adopted in 1593
+    and the Danish ordinance of 1537 presupposes. The rest of the Concordia (the Formula of
+    1577) was adopted in Sweden only in 1663 and 1686, after this window, per Bensow''s note.
+    Only Part II and the Apology are antecedent to this entry.
+
+    '
+  source_file: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt
+- row_id: calvin_letters-vol4_bonnet1858--calvin-to-the-prince-royal-of-sweden-1559
+  work: Calvin's letters DXXVI (to Martin Micronius) and DXXVII (to the Prince Royal of Sweden,
+    Geneva, 26 February 1559), with Bonnet's notes on Gustavus Wasa and Eric XIV
+  author: calvin
+  locus: DXXVI heading at line 1305 (progress of the Reformation in Sweden); DXXVII at line
+    1424 with Bonnet's note on Gustavus Wasa and Eric XIV at line 1438; index entries at lines
+    21552 and 23873
+  role: context
+  confidence: assigned
+  note: 'A Reformed reformer''s view of the Swedish court in 1559: Calvin dedicated his commentary
+    on Hosea to Gustavus Wasa and writes to the crown prince. An outside letter, not the kingdom''s
+    voice. Placed on the letter headings and Bonnet''s note, not on a full read.
+
+    '
+  source_file: calvin_letters-vol4_bonnet1858.txt
 - row_id: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537--ordinatio-ecclesiastica-regnorum-daniae-et-norvegiae-1537
   work: Ordinatio ecclesiastica Regnorum Daniae et Norvegiae et Ducatuum Sleswicensis Holtsatiae
     (the Church Ordinance of 1537), Latin
@@ -55,6 +85,19 @@ works:
 
     '
   source_file: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt
+- row_id: melanchthon_augsburg-confession_anon-pg275--augsburg-confession-uppsala-1593
+  work: The Augsburg Confession (1530), the confession the Uppsala Synod of 1593 adopted 'unaltered'
+  author: melanchthon
+  locus: whole file
+  role: antecedent
+  confidence: provisional
+  note: 'The Uppsala Synod committed the Swedish church to the three ecumenical creeds and
+    the unaltered Augsburg Confession (Bensow''s note, bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt
+    at line 31696). The text existed before this world and is the authority it argued from.
+    Placed on that statement and the census, not on a comparison of the editions.
+
+    '
+  source_file: melanchthon_augsburg-confession_anon-pg275.txt
 - row_id: olavus-petri_samlade-skrifter-v2-swe_hesselman1915--een-handbock-paa-swensko-1529
   work: 'Een handbock påå Swensko (the Swedish Manual of 1529: baptism, marriage, churching,
     visitation of the sick, burial)'
@@ -64,7 +107,7 @@ works:
   role: tradition
   confidence: assigned
   note: 'The first Swedish-language church manual, published at Stockholm on 28 April 1529
-    (per the English translator''s introduction to the 1930s translation, which is not vendored).
+    (per the introduction to O. V. Anderson''s English translation, which is not vendored).
     The ritual of ordinary parish life in the vernacular. Primary voice, OCR clean. No public-domain
     English translation was found: the English translation by O. V. Anderson, Rock Island,
     Augustana Book Concern, is recorded in the dossier as a lead whose date cannot be shown
@@ -76,8 +119,8 @@ works:
   work: En nyttog postilla (1528), En liten ingong j then helga scrifft (1529), and Een lijten
     boock ... hwar igenom menniskian får then ewigha salighetena (1535)
   author: olavus-petri
-  locus: contents entries at lines 84-108; En nyttog postilla running head from about line
-    106 of the body
+  locus: contents entries at lines 84-108; the running head 'EN NYTTOG POSTILLA' from line
+    728
   role: tradition
   confidence: assigned
   note: 'Olavus Petri''s postil (sermons on the Sunday gospels and epistles) and his short
@@ -142,7 +185,8 @@ works:
     IX
   author: yelverton
   locus: 'chapters IV and V: ''The Mass of John III'' (book pp. 65-120) and ''The Communion
-    Office of Charles IX'' (book pp. 121-146), after line 4536'
+    Office of Charles IX'' (book pp. 121-146), from line 4543 (''THE MASS OF JOHN III'') and
+    line 8373 (''THE COMMUNION OFFICE OF CHARLES IX'')'
   role: tradition
   confidence: assigned
   note: 'The liturgy that the Uppsala Synod of 1593 rejected, and the reforming king''s communion
@@ -155,7 +199,7 @@ works:
 - row_id: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920--medieval-latin-mass-of-sweden
   work: The medieval Latin mass of Sweden, as transcribed by Yelverton
   author: yelverton
-  locus: 'chapter I: ''THE MEDIEVAL MASS IN SWEDEN'' from about line 547 (book pp. 1-22)'
+  locus: 'chapter I: ''THE MEDIEVAL MASS IN SWEDEN'' from line 553 (book pp. 1-22)'
   role: antecedent
   confidence: provisional
   note: 'The rite the Swedish reformers translated and trimmed. Yelverton transcribes it in

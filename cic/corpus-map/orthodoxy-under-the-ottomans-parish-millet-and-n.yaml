@@ -544,3 +544,17 @@ works:
 
     '
   source_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
+- row_id: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678--six-voyages-through-turky-into-persia-2
+  work: 'The Six Voyages of John Baptista Tavernier (London, 1678): Greeks and Armenians in
+    the Ottoman cities'
+  author: tavernier
+  locus: Smyrna's population by faith (file line 4075); Lent among the Greeks and Armenians
+    (line 10890); the Greek archbishop of Naxos (line 11009)
+  role: context
+  confidence: provisional
+  note: 'Three passing notices of the Greek church and its neighbours in Smyrna and the islands
+    from a western traveller. Same period, outside witness, thin. Only the cited lines were
+    read.
+
+    '
+  source_file: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678.txt

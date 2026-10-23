@@ -14,16 +14,18 @@ assignments:
     is verified against the page image. The Spanish original (Silverio, 1929) is not vendored; see the
     dossier.
 - row_id: john-of-the-cross_dark-night-canticle-living-flame_lewis1891--letters
-  work: Letters, censure of a nun's prayer, and sayings of John of the Cross, in the same volume
+  work: Instructions and Precautions, Letters I-XVIII, censure of a nun's prayer, and Spiritual Maxims
+    of John of the Cross, in the same volume
   author: john-of-the-cross
-  locus: from "LETTERS." at line 20822 to the end; Letter XVII at line 21889; the Censure at line 21964
+  locus: Instructions and Precautions from line 20536; Letters from line 20822 (Letter XVIII at line 21914);
+    the Censure at line 21964; the Spiritual Maxims after it
   atlas_ids:
   - carmelite-reform-and-spanish-mystics
   role: tradition
   confidence: assigned
-  note: John's own letters, the last dated Madrid, 6 July 1591, and his judgment on the prayer of one
-    of the nuns of his order. Primary voice in English; ready to quote once verified against the page
-    image.
+  note: John's own instructions and precautions for the soul, his letters, the last dated Madrid, 6 July
+    1591, and his judgment on the prayer of one of the nuns of his order. Primary voice in English; ready
+    to quote once verified against the page image.
 - row_id: john-of-the-cross_dark-night-canticle-living-flame_lewis1891--quietism
   work: The Dark Night, Spiritual Canticle and Living Flame (as the books the Quietists and their opponents
     argued over)

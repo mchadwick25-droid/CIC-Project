@@ -36,19 +36,13 @@ assignments:
   note: Same volume; its Austrian-era sections reach the 1860s, the end of this entry's neighbour window.
     Placed on the contents, not on a reading.
 
-- note_for_lead: Add to the existing staging file for harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt.
-    Mohyla is named 8 times; read at about file lines 16757-16780, the account of Bishop Methodius Terlecki
-    of Chelm refusing Mohyla's greeting when the Orthodox Metropolitan passed through Chelm after the
-    1633 coronation.
-  proposed:
-  - work: Harasiewicz, Annales Ecclesiae Ruthenae (passage on Mohyla at Chelm)
-    author: harasiewicz
-    locus: about file lines 16757-16780
-    atlas_ids:
-    - the-kyiv-mohyla-orthodox-revival
-    role: context
-    confidence: provisional
-    note: One Uniate annalist's story of Mohyla's confrontation with the Uniate bishop of Chelm. Read
-      at the passage; a partisan witness, one episode, so a pointer more than a source.
-  row_id: harasiewicz_annales-ecclesiae-ruthenae-lat_1862--
+- work: Harasiewicz, Annales Ecclesiae Ruthenae (passage on Mohyla at Chelm)
   author: harasiewicz
+  locus: about file lines 16757-16780
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: provisional
+  note: One Uniate annalist's story of Mohyla's confrontation with the Uniate bishop of Chelm. Read at
+    the passage; a partisan witness, one episode, so a pointer more than a source.
+  row_id: harasiewicz_annales-ecclesiae-ruthenae-lat_1862--harasiewicz-annales-ecclesiae-ruthenae-passage-on-mohyla-at-

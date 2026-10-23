@@ -15,18 +15,17 @@ works:
     c. 1206-1300; this is a later Carmelite reading of it. Placed on the contents table only,
     so provisional.
   source_file: john-of-the-cross_life_lewis1873.txt
-- row_id: teresa-of-avila_book-of-foundations_mason1909--foundations-carmelites
-  work: The Book of the Foundations, the passages on the mitigated Rule, the Calced provincials
-    and Mount Carmel
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-carmelites
+  work: The Book of the Foundations, Teresa on the mitigated Rule and the order's Generals
   author: teresa-of-avila
-  locus: the dealings with the Fathers General and provincials of the mitigated Rule through
-    the file
+  locus: the General of the Order's visit to Avila (contents at line 141) and the pages on
+    the primitive Rule through the book
   role: context
   confidence: provisional
   note: The reform seen from its founder, in conflict with the order's mitigated branch. The
-    Carmelites entry covers c. 1206-1300, so this is sixteenth-century reception. Placed without
-    reading through, so provisional.
-  source_file: teresa-of-avila_book-of-foundations_mason1909.txt
+    Carmelites entry covers c. 1206-1300, so this is sixteenth-century reception. Placed on
+    the contents table, so provisional.
+  source_file: teresa-of-avila_book-of-foundations_lewis1913.txt
 - row_id: teresa-of-avila_life_lewis1904--life-carmelites
   work: The Life of St. Teresa of Jesus, the passages on the mitigated Rule and the order
     of Our Lady of Carmel

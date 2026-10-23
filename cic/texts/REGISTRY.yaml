@@ -10399,3 +10399,90 @@
     kept in the OCR ; credit - "Sinopsis, ili kratkoe opisanie ... (the Kyiv Synopsis), St Petersburg,
     1762; digital text from Internet Archive item sinopsisilikratkoeopisanieotrazlichnyhle85 (collection
     russian-online-libraries)" ; republish - whole text, public domain by date (1762 imprint).'
+- filename: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.27 agent)
+  date_added: '2026-10-23'
+  notes: 'Ordinatio ecclesiastica Regnorum Daniae et Norvegiae et Ducatuum Sleswicensis Holtsatiae etcet.,
+    the Church Ordinance of Denmark-Norway (and so Iceland), Latin, printed at Copenhagen by Johannes
+    Vinitor (Hans Vingaard), colophon dated die Luciae virginis 1537. Issued in the name of Christian
+    III; the preface says the draft went to Luther and Wittenberg, and names Bugenhagen (Doctor Pomeranus).
+    RIGHTS: public domain by date (1537). Fetched directly (curl, raw bytes) from Internet Archive item
+    ordinatioecclesi00dans (Boston Public Library, Rare Books copy; no rights field, no access restriction),
+    the item''s own _djvu.txt derivative; header prepended, body unaltered. OCR of the Gothic type is
+    readable but carries 4,791 long-s glyphs and 959 r-rotunda glyphs (a barred r after p, c, h) plus
+    scattered noise and front and back matter from the library binding; second witness for exact wording
+    until each quote is checked against the page image, and a registry apparatus mapping for the r-rotunda
+    glyph needs a ruling before the quote gate can match it. A second scan (Royal Library Copenhagen,
+    den-kbd-pil-130018152623-001) is worse and was not vendored. No public-domain English translation
+    or Danish text of 1539 was found. READER: sections - "the ordinance is printed in unnumbered chapters
+    with Latin headings and signature marks; the king''s preface comes first" ; credit - "Ordinatio ecclesiastica
+    Regnorum Daniae et Norvegiae, Copenhagen, Johannes Vinitor, 1537; digital text from Internet Archive
+    item ordinatioecclesi00dans (contributor Boston Public Library)" ; republish - whole text, public
+    domain by date.'
+- filename: olavus-petri_samlade-skrifter-v1-swe_hesselman1914.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.27 agent)
+  date_added: '2026-10-23'
+  notes: 'Samlade skrifter af Olavus Petri, Första bandet, ed. Bengt Hesselman, foreword by Harald Hjärne,
+    introductions by Knut B. Westman (Upsala: Sveriges Kristliga Studentrörelses Förlag, 1914). Swedish.
+    RIGHTS: public domain by date (1914; host date and the library call number in the OCR). Fetched directly
+    (curl, raw bytes) from Internet Archive item olavuspetri0001unse (contributor Internet Archive; no
+    rights field, no access restriction), the item''s own _djvu.txt derivative; header prepended, body
+    unaltered. The reform writings of 1526-1528 in sixteenth-century Swedish. OCR clean in the sampled
+    pages; 39 long-s and 23 r-rotunda glyphs appear only in the facsimile title pages. No public-domain
+    English translation was found. READER: sections - "each tract is headed by its own title and year
+    (''SWAR VPPA JTT OCHRISTELIGHIT SENDEBREFF'') with running heads and page numbers kept in the OCR;
+    Westman''s introduction comes first" ; credit - "Samlade skrifter af Olavus Petri, vol. 1, ed. Bengt
+    Hesselman, Upsala: Sveriges Kristliga Studentrörelses Förlag, 1914; digital text from Internet Archive
+    item olavuspetri0001unse (contributor Internet Archive)" ; republish - whole text, public domain by
+    date.'
+- filename: olavus-petri_samlade-skrifter-v2-swe_hesselman1915.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.27 agent)
+  date_added: '2026-10-23'
+  notes: 'Samlade skrifter af Olavus Petri, Andra bandet (same edition and press as the first volume;
+    1915 on the host). Swedish. Contains Een handbock påå Swensko 1529, the Swedish Mass (1535 and 1537
+    printings), the 1536 hymns, the postil of 1528 and short books. RIGHTS: public domain by date; the
+    OCR title page prints no year, the host date is 1915, the series ran 1914-1917 (volume 4 is dated
+    1917), and the latest year printed in the text is 1901. Fetched directly from Internet Archive item
+    olavuspetri0002unse (contributor Internet Archive; no rights field, no access restriction), the item''s
+    own _djvu.txt derivative; header prepended, body unaltered. OCR clean in the sampled pages. No public-domain
+    English translation of the Manual was found (an English translation by O. V. Anderson, Augustana Book
+    Concern, cites works of 1936 and cannot be shown to be 1930 or earlier); the English of the Mass is
+    in the Yelverton file. READER: sections - "each work is headed by its own title and year (''EEN HANDBOCK
+    PÅÅ SWENSKO''), with running heads and page numbers kept in the OCR" ; credit - "Samlade skrifter
+    af Olavus Petri, vol. 2, ed. Bengt Hesselman, Upsala: Sveriges Kristliga Studentrörelses Förlag, 1915;
+    digital text from Internet Archive item olavuspetri0002unse (contributor Internet Archive)" ; republish
+    - whole text, public domain by date.'
+- filename: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.27 agent)
+  date_added: '2026-10-23'
+  notes: 'The Mass in Sweden: its development from the Latin rite from 1531 to 1917, by Eric Esskildsen
+    Yelverton (Henry Bradshaw Society vol. LVII, issued for 1919; London: Harrison and Sons, 1920). Latin,
+    Swedish and English. RIGHTS: public domain by date (the OCR title page prints 1920). Fetched directly
+    (curl, raw bytes) from Internet Archive item massinswedenitsd00petr (PIMS, University of Toronto;
+    no rights field, no access restriction), the item''s own _djvu.txt derivative; header prepended, body
+    unaltered, runs of double spaces left as they are. English beside the Swedish for the Mass of Olavus
+    Petri (1531), Laurentius Petri''s church-order mass (1571), the Red Book of John III (1576) and the
+    communion office of Charles IX, with a transcription of the medieval Latin mass. A translation of
+    the mass only, not of the Manual or the tracts. OCR readable. READER: sections - "six chapters headed
+    by number and title (''II. THE MASS OF OLAVUS PETRI''), the liturgical text in parallel Swedish and
+    English with Yelverton''s eight divisions of the mass" ; credit - "The Mass in Sweden, Eric Esskildsen
+    Yelverton, Henry Bradshaw Society vol. LVII, London: Harrison and Sons, 1920; digital text from Internet
+    Archive item massinswedenitsd00petr (contributor PIMS - University of Toronto)" ; republish - whole
+    text, public domain by date.'
+- filename: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.27 agent)
+  date_added: '2026-10-23'
+  notes: 'Svenska kyrkans bekännelseskrifter, ed. Oscar Bensow (Stockholm: P. A. Norstedt & Söner, 1912),
+    in the Projekt Runeberg proofread digitisation. Swedish. The Book of Concord in Swedish (about 785
+    pages) and the decisions of the Uppsala Synod of 1593 (Företal and Upsala mötes beslut, file lines
+    30909-31172), with Bensow''s notes. RIGHTS: public domain by date (1912, printed on the OCR title
+    page); the Runeberg transcription states no licence on the item. Fetched directly (curl, raw bytes)
+    from Internet Archive item arkivkopia.se-runeberg-bekann12 (contributor Arkivkopia; no rights field,
+    no access restriction), file bekann12.txt; header prepended, body unaltered (Runeberg''s electronic
+    preface and closing note kept). Clean text. The 1593 text is in the synod''s Swedish with modern square-bracket
+    glosses added by Bensow. No public-domain English translation of the Uppsala decisions was found.
+    READER: sections - "page-numbered sections: Bensow''s preface, the Book of Concord by part and article,
+    then Upsala mötes beslut and the historical notes" ; credit - "Svenska kyrkans bekännelseskrifter,
+    ed. Oscar Bensow, Stockholm: P. A. Norstedt & Söner, 1912; digital text by Projekt Runeberg from Internet
+    Archive item arkivkopia.se-runeberg-bekann12 (contributor Arkivkopia)" ; republish - whole text, public
+    domain by date.'

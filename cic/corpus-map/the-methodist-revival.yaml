@@ -3,6 +3,24 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-methodist-revival
 works:
+- row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-2
+  work: 'The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments;
+    Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)'
+  author: arminius
+  locus: whole file; the Life (about line 465 on) records Arminius at Geneva under Beza and
+    the Delft pamphlet against the supralapsarian view of Calvin and Beza (about lines 535-538)
+  role: antecedent
+  confidence: provisional
+  note: 'The census states that the label Arminian was taken up a century later by John Wesley
+    and through him by the Methodist family. This is the Arminius whose name the label carries.
+    Placed on that stated lineage only: the vendored Wesley volumes do not name Arminius (the
+    Journal mentions only the Arminian Magazine), and what Methodism took from him is for
+    that world''s own build to show. The 1853 preface (by the American editor) names the followers
+    of Wesley as the largest body holding the scheme, and the title page names the editor
+    of volume three as a Methodist Episcopal minister.
+
+    '
+  source_file: arminius_works-v1_nichols1853.txt
 - row_id: asbury_journal-v1_1821--the-journal-of-the-rev-francis-asbury-vol-i-1771-1786
   work: The Journal of the Rev. Francis Asbury, Vol. I (1771-1786)
   author: asbury-francis

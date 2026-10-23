@@ -73,3 +73,19 @@ assignments:
       a read of the letters.
 
       '
+
+  - row_id: calvin_letters-vol4_bonnet1858--calvin-to-the-prince-royal-of-sweden-1559
+    work: Calvin's letters DXXVI (to Martin Micronius) and DXXVII (to the Prince Royal of Sweden, Geneva,
+      26 February 1559), with Bonnet's notes on Gustavus Wasa and Eric XIV
+    author: calvin
+    locus: DXXVI heading at line 1305 (progress of the Reformation in Sweden); DXXVII at line 1424 with
+      Bonnet's note on Gustavus Wasa and Eric XIV at line 1438; index entries at lines 21552 and 23873
+    atlas_ids:
+    - scandinavian-reformation-kingdoms
+    role: context
+    confidence: assigned
+    note: 'A Reformed reformer''s view of the Swedish court in 1559: Calvin dedicated his commentary on
+      Hosea to Gustavus Wasa and writes to the crown prince. An outside letter, not the kingdom''s voice.
+      Placed on the letter headings and Bonnet''s note, not on a full read.
+
+      '

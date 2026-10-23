@@ -39,3 +39,19 @@ assignments:
   confidence: assigned
   note: Lutheran confessional condemnation of the Anabaptists, the hostile contemporary frame for the
     movement; read at the article.
+
+- row_id: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911--augsburg-confession-uppsala-1593
+  work: The Augsburg Confession in Jacobs's 1911 Book of Concord (Part II), the confession the Uppsala
+    Synod of 1593 adopted
+  author: book-of-concord
+  locus: Part II Augsburg Confession from file line 1374; the Apology from line 3270
+  atlas_ids:
+  - scandinavian-reformation-kingdoms
+  role: antecedent
+  confidence: provisional
+  note: 'A second English expression of the confession the Swedish church adopted in 1593 and the Danish
+    ordinance of 1537 presupposes. The rest of the Concordia (the Formula of 1577) was adopted in Sweden
+    only in 1663 and 1686, after this window, per Bensow''s note. Only Part II and the Apology are antecedent
+    to this entry.
+
+    '

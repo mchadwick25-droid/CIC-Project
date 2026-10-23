@@ -115,6 +115,19 @@ works:
 
     '
   source_file: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt
+- row_id: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889--a-defence-of-the-catholic-faith-concerning-the-satisfaction-2
+  work: A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus
+    Socinus (Grotius, 1617; Foster, 1889)
+  author: grotius
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'The work answers Faustus Socinus''s attack on the satisfaction of Christ, the point
+    where the Socinian position most sharply met the Reformed. Placed as the Reformed reply
+    to it; the antitrinitarian world decides whether it wants the answer beside the attack.
+
+    '
+  source_file: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt
 - row_id: lubieniecki_historia-reformationis-polonicae-lat_1685--historia-reformationis-polonicae
   work: Historia Reformationis Polonicae (1685)
   author: lubieniecki

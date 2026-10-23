@@ -3,6 +3,19 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: st-thomas-christians-1300-1517
 works:
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555-4
+  work: 'Bibliotheca Orientalis III.2, Caput IX: the St. Thomas Christians before 1517'
+  author: assemani
+  locus: Caput IX, De Christianis S. Thomae in India, table at line 483; the 1500-1510 Indian
+    bishops at about lines 11884-11975
+  role: context
+  confidence: provisional
+  note: 'The chapter on the Thomas Christians, with the Indian bishops who went to Mesopotamia
+    about 1500 and the Syriac New Testament written at Cranganore in 1510. Placed on the window,
+    not read closely.
+
+    '
+  source_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
 - row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--historia-synodi-diamperitanae-caput-i-the-malabar-church
   work: Historia Synodi Diamperitanae, Caput I (the Malabar church before the Portuguese)
   author: raulin

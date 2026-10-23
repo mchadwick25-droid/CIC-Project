@@ -33,21 +33,15 @@ assignments:
       in 1718 with hostile remarks by a Roman Catholic-leaning editor; the remarks are 18th-century polemic,
       not evidence.'
 
-  - note_for_lead: Add to the existing staging file for lucaris_lettres-anecdotes-fra_amsterdam1718.txt
-      (a file the Ottoman Orthodoxy thread vendored). Passages read at about file lines 28872-28873 (the
-      printed signature 'Pierre Mogilas, humble archeveque metropolitain de Kiow') and 29099-29118 (the
-      1718 editor's remarks on that signature), and 41331.
-    proposed:
-    - work: Editor's remarks on Mogilas's signature to the Constantinople synodal letter against Lucaris
-        (Lettres anecdotes de Cyrille Lucar, 1718)
-      author: lucaris
-      locus: about file lines 28872-28873, 29099-29118 and 41331
-      atlas_ids:
-      - the-kyiv-mohyla-orthodox-revival
-      role: context
-      confidence: provisional
-      note: An eighteenth-century Lucaris-sympathetic editor argues about Mogilas's place in the signatures
-        and his role as Exarch. Read at those passages; a partisan witness in French, useful for how Mogila's
-        name was used in the Lucaris quarrel, never the revival's voice.
-    row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--
+  - work: Editor's remarks on Mogilas's signature to the Constantinople synodal letter against Lucaris (Lettres
+      anecdotes de Cyrille Lucar, 1718)
     author: lucaris
+    locus: about file lines 28872-28873, 29099-29118 and 41331
+    atlas_ids:
+    - the-kyiv-mohyla-orthodox-revival
+    role: context
+    confidence: provisional
+    note: An eighteenth-century Lucaris-sympathetic editor argues about Mogilas's place in the signatures
+      and his role as Exarch. Read at those passages; a partisan witness in French, useful for how Mogila's
+      name was used in the Lucaris quarrel, never the revival's voice.
+    row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--editor-s-remarks-on-mogilas-s-signature-to-the-constantinopl

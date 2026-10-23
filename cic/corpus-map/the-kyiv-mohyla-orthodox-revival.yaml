@@ -3,6 +3,17 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-kyiv-mohyla-orthodox-revival
 works:
+- row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--synodal-decree-of-constantinople-against-lucar-s-chapters-wi
+  work: Synodal decree of Constantinople against Lucar's chapters, with Mogila's signature
+    for the Church in Little Russia
+  author: dositheus
+  locus: signatures at about file lines 3911-3930; the decree itself from line 3022
+  role: context
+  confidence: assigned
+  note: Mogila's own signed adherence to the Orthodox condemnation of the Calvinist-sounding
+    Lucar confession, the quarrel the Kyiv Confession was written into. Read at the signature
+    page; the decree is the Constantinople synod's, not Mogila's voice.
+  source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
 - row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--diarush-diary-of-afanasii-filippovich-hegumen-of-brest-1646-2
   work: Diarush (diary) of Afanasii Filippovich, hegumen of Brest, 1646
   author: filippovich-afanasii
@@ -65,6 +76,27 @@ works:
     were not read one by one. Ruthenian and Russian readable, Latin and Church Slavonic garbled
     in the OCR (second witness).'
   source_file: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898.txt
+- row_id: guepin_apotre-de-l-union-des-eglises-fra_1897--guepin-saint-josaphat-and-the-greek-slav-church-mohyla-passa
+  work: 'Guepin, Saint Josaphat and the Greek-Slav Church (Mohyla passages: Book VI on his
+    youth and the Smotrycki meeting of 1627; later chapters on his violence against Uniates)'
+  author: guepin
+  locus: about file lines 36724, 37128-37150 and the index entries at 55832-56074
+  role: context
+  confidence: provisional
+  note: A Catholic biographer's hostile account of Mohyla as a young archimandrite and as
+    Metropolitan (1897). Read at the two passages above only; an outside witness for how the
+    Uniate side saw Mohyla, never the revival's voice. Rated provisional because the book
+    as a whole is the Union of Brest thread's.
+  source_file: guepin_apotre-de-l-union-des-eglises-fra_1897.txt
+- row_id: harasiewicz_annales-ecclesiae-ruthenae-lat_1862--harasiewicz-annales-ecclesiae-ruthenae-passage-on-mohyla-at-
+  work: Harasiewicz, Annales Ecclesiae Ruthenae (passage on Mohyla at Chelm)
+  author: harasiewicz
+  locus: about file lines 16757-16780
+  role: context
+  confidence: provisional
+  note: One Uniate annalist's story of Mohyla's confrontation with the Uniate bishop of Chelm.
+    Read at the passage; a partisan witness, one episode, so a pointer more than a source.
+  source_file: harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt
 - row_id: herberstein_notes-upon-russia-v1_major1851--notes-upon-russia-herberstein-s-rerum-moscoviticarum-2
   work: Notes upon Russia (Herberstein's Rerum Moscoviticarum Commentarii, Major's translation),
     Vol. I (1851)
@@ -126,6 +158,17 @@ works:
     errors; title page and headings garbled. Second witness for quotation. It is the circle's
     own statement of its past, not a doctrinal text.
   source_file: kyiv-synopsis_sinopsis-chu_1762.txt
+- row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--editor-s-remarks-on-mogilas-s-signature-to-the-constantinopl
+  work: Editor's remarks on Mogilas's signature to the Constantinople synodal letter against
+    Lucaris (Lettres anecdotes de Cyrille Lucar, 1718)
+  author: lucaris
+  locus: about file lines 28872-28873, 29099-29118 and 41331
+  role: context
+  confidence: provisional
+  note: An eighteenth-century Lucaris-sympathetic editor argues about Mogilas's place in the
+    signatures and his role as Exarch. Read at those passages; a partisan witness in French,
+    useful for how Mogila's name was used in the Lucaris quarrel, never the revival's voice.
+  source_file: lucaris_lettres-anecdotes-fra_amsterdam1718.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-2
   work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
   author: mogila
@@ -173,6 +216,16 @@ works:
     for the Greek beside Kimmel (same text; the Greek OCR here has accent errors too); Parts
     II and III are only in Kimmel and Overbeck. The Latin and the headnote are readable.
   source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
+- row_id: pelesz_geschichte-der-union-bd2-deu_1880--pelesz-history-of-the-union-vol-2-passages-on-mohyla-s-rise-
+  work: Pelesz, History of the Union, vol. 2 (passages on Mohyla's rise and metropolitanate)
+  author: pelesz
+  locus: about file lines 14588-14712 and 15438
+  role: context
+  confidence: provisional
+  note: A Greek Catholic historian's account (1880) of Mohyla replacing Kopinskii and leading
+    the Orthodox side. Read at the passage; an outside, partisan witness. Provisional because
+    the volume belongs to the Union of Brest thread.
+  source_file: pelesz_geschichte-der-union-bd2-deu_1880.txt
 - row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--apokrisis-of-christopher-philalethes-1597-1599-2
   work: Apokrisis of Christopher Philalethes (Polish text 1597 and Western-Rus' text of about
     1599), the Orthodox answer to Skarga's Brest defence

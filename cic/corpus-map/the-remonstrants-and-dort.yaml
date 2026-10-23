@@ -3,6 +3,24 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-remonstrants-and-dort
 works:
+- row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v
+  work: 'The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments;
+    Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)'
+  author: arminius
+  locus: whole file; Life of Arminius from about line 465, Orations from line 694, Declaration
+    of Sentiments from line 8280, Apology from about line 12080, Nine Questions at line 16448
+  role: tradition
+  confidence: needs-ruling
+  note: 'Arminius died in 1609, a year before the Remonstrance of 1610 that opens this world''s
+    window, and the census names him as the first of its voices. His own words are the founder
+    voice of the movement, and the Declaration of Sentiments (The Hague, 30 October 1608)
+    is the fullest statement of the positions the Remonstrants took up. Whether a pre-window
+    founder is the world''s own tradition voice or its antecedent is a Doc_01 ruling, so the
+    row is needs- ruling. An English translation from the Latin by Nichols, revised for the
+    1853 edition; clean OCR, quotable once each quote is checked against the page image.
+
+    '
+  source_file: arminius_works-v1_nichols1853.txt
 - row_id: dutch-reformed-synods_acta-1568-1586-nld_rutgers1889--acta-van-de-nederlandsche-synoden-der-zestiende-eeuw-2
   work: Acta van de Nederlandsche Synoden der zestiende eeuw
   author: dutch-reformed-synods
@@ -14,6 +32,39 @@ works:
 
     '
   source_file: dutch-reformed-synods_acta-1568-1586-nld_rutgers1889.txt
+- row_id: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889--a-defence-of-the-catholic-faith-concerning-the-satisfaction
+  work: A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus
+    Socinus (Grotius, 1617; Foster, 1889)
+  author: grotius
+  locus: whole file; Foster's historical introduction from about line 430; the work in chapters;
+    Testimonies of the Ancients and translator's notes after
+  role: tradition
+  confidence: provisional
+  note: 'Hugo Grotius, named in the census as a Remonstrant sympathiser jailed in the affair
+    of 1619, published this defence of the satisfaction doctrine at Leiden in 1617, in the
+    years of the quarrel. The work is aimed at Socinus, not at the Five Points, so it is placed
+    as a voice of the world''s leading jurist rather than as a statement of the Remonstrant
+    platform. Foster''s long historical introduction (1889) is secondary. An English translation
+    made from the Latin; clean OCR.
+
+    '
+  source_file: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt
+- row_id: hales_letters-from-the-synod-of-dort_1765--letters-from-the-synod-of-dort-to-sir-dudley-carleton-the
+  work: Letters from the Synod of Dort to Sir Dudley Carleton, the English Embassador at the
+    Hague (Hales; Foulis printing, 1765)
+  author: hales
+  locus: whole file; letters datelined at Dort from November 1618 into January 1619
+  role: context
+  confidence: assigned
+  note: 'An English observer''s letters to the ambassador as the Synod met: the sessions,
+    the speeches and the dealings with the Remonstrants as one eyewitness reported them. The
+    outside witness for the Synod: an English chaplain at Dort writing to the ambassador,
+    neither a Remonstrant nor a Contra-Remonstrant. The 1765 printing; the letters date from
+    1618-1619. Microfilm OCR (about 0.85 of tokens read as words) with long s normalised:
+    locate passages here, verify against the page images before quoting.
+
+    '
+  source_file: hales_letters-from-the-synod-of-dort_1765.txt
 - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-canons-of-the-synod-of-dordrecht
   work: The Canons of the Synod of Dordrecht (1619), English, 1840 printing
   author: reformed-dutch-church
@@ -37,6 +88,56 @@ works:
 
     '
   source_file: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt
+- row_id: remonstrants_confession-or-declaration_anon1676--the-confession-or-declaration-of-the-remonstrant-ministers
+  work: The Confession or Declaration of the Remonstrant Ministers, in XXV Chapters, English,
+    1676 printing (Episcopius, 1621)
+  author: remonstrants
+  locus: whole file; contents from line 110; chapter 1 on Scripture from line 4351; chapter
+    3 on the Holy and Sacred Trinity at line 5165; chapter 25 at line 13837
+  role: tradition
+  confidence: assigned
+  note: 'The confession the Brotherhood published in 1621 (written by Simon Episcopius, per
+    the host catalogue of the Dutch printing and the census), in an English translation by
+    an unnamed hand, printed in London in 1676. It is the Remonstrants'' own statement of
+    their faith in twenty-five chapters and the nearest thing to their voice as a church.
+    SECOND WITNESS for exact wording: EEBO microfilm OCR (about 0.87 of tokens read as words
+    at the five sample points) with scattered garble, so locate passages here and verify against
+    the page images before quoting. The Dutch of 1621 and the Latin are leads, not yet in
+    the corpus in a readable scan.
+
+    '
+  source_file: remonstrants_confession-or-declaration_anon1676.txt
+- row_id: synod-of-dort_articles-with-history-of-events_scott1831--the-articles-of-the-synod-of-dort-and-its-rejection-of
+  work: The Articles of the Synod of Dort and its Rejection of Errors (the Canons of Dort),
+    English from the Latin (Scott, 1831)
+  author: synod-of-dort
+  locus: '"ARTICLES OF THE SYNOD OF DORT" from line 4966 to "CONFESSIONS OF FAITH" at line
+    7915; five chapters, each with its Rejection of Errors (Chapter I from line 5026, II from
+    5641, III and IV from 5934, V from 6501)'
+  role: tradition
+  confidence: assigned
+  note: 'The Canons of Dort in an English made from the Latin text directly, beside the 1840
+    English already staged for this world from the Reformed Dutch Church volume (a second
+    Expression of the same Work). The Rejection of Errors names the Remonstrant positions
+    the Synod condemned. Clean OCR, quotable once each quote is checked against the page image.
+
+    '
+  source_file: synod-of-dort_articles-with-history-of-events_scott1831.txt
+- row_id: synod-of-dort_articles-with-history-of-events_scott1831--the-preface-of-the-synod-of-dort-to-the-reformed-churches
+  work: 'The Preface of the Synod of Dort to the Reformed Churches: the history of the controversies
+    before the Synod, English from the Latin (Scott, 1831)'
+  author: synod-of-dort
+  locus: from "THE PREFACE. TO THE REFORMED CHURCHES OF CHRIST" at line 703 to "ARTICLES OF
+    THE SYNOD OF DORT" at line 4966; the Remonstrance of 1610 is described around lines 2420-2440
+  role: tradition
+  confidence: assigned
+  note: 'The Synod''s own telling, as published by the authority of the States-General, of
+    how the quarrel with the Remonstrants arose, in the English of a Calvinist translator
+    who adds footnotes on the Synod''s side. It is the Dort half of this world''s voice, and
+    the Remonstrants are described, not heard, in it. English from the Latin Acta; clean OCR.
+
+    '
+  source_file: synod-of-dort_articles-with-history-of-events_scott1831.txt
 - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563-3
   work: The Heidelberg Catechism (1563)
   author: ursinus-olevianus

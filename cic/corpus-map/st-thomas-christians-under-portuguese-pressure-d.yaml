@@ -3,6 +3,36 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: st-thomas-christians-under-portuguese-pressure-d
 works:
+- row_id: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562--approbatio-et-professio-fidei-abdisho-iv-1562-3
+  work: Approbatio et professio of the patriarch of the Orientalium Assyriorum (Abdisho IV)
+    and Cardinal Amulio's letter to the legates at Trent, 1562
+  author: abdisho-iv
+  locus: whole file; the list of sees under the patriarch's jurisdiction from about line 255,
+    with the Indian sees (Cuschin, Cananor, Calicuth, and the city of Cranganore) at about
+    line 266
+  role: context
+  confidence: provisional
+  note: 'The profession lists the Indian sees as under this patriarch in 1562 (Cuschin, Cananor,
+    Calicuth and the city of Cranganore are named, as the OCR reads them). Placed on that
+    list alone, not on a full read of it.
+
+    '
+  source_file: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555-3
+  work: 'Bibliotheca Orientalis III.2, Caput IX: the St. Thomas Christians and the bishops
+    sent to Malabar by the Chaldean patriarchs'
+  author: assemani
+  locus: Caput IX, De Christianis S. Thomae in India, table at line 483 and text from 27853;
+    the bishops Joseph, Abraham and Simeon sent to Malabar in the 1550s-1590s at file lines
+    about 12025-12260
+  role: context
+  confidence: provisional
+  note: 'Assemani narrates the Chaldean bishops sent to the Malabar church after 1552, the
+    Portuguese arrest of Joseph, and the rival missions that led up to Diamper. Placed on
+    the window and the named figures.
+
+    '
+  source_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
 - row_id: francis-xavier_life-and-letters-v1_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-i-2
   work: The Life and Letters of St. Francis Xavier, Vol. I
   author: francis-xavier

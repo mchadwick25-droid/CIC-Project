@@ -3,6 +3,87 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: church-of-the-east-schism-of-1552
 works:
+- row_id: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562--approbatio-et-professio-fidei-abdisho-iv-1562
+  work: Approbatio et professio of the patriarch of the Orientalium Assyriorum (Abdisho IV)
+    and Cardinal Amulio's letter to the legates at Trent, 1562
+  author: abdisho-iv
+  locus: 'whole file (about 11,000 characters): Cardinal Amulio''s letter from file line 98;
+    the profession of faith ''Ego Abdisu filius Ioannis'' from about line 250; the certification
+    of 23 July 1562 at about line 214'
+  role: tradition
+  confidence: assigned
+  note: 'The profession of faith sworn at Rome by Abdisho IV, the patriarch the Sulaqa party
+    chose after Sulaqa''s death, with the covering letter to the legates of the Council of
+    Trent. It is a Roman-formula profession (the census says the Sulaqa material is "documented
+    from the Roman side"), and it lists the sees under his jurisdiction, including the Malabar
+    sees. It is the line''s own act, but in the Latin words Rome required, so a build should
+    treat the voice as the patriarch''s act, not his free composition. Not Sulaqa''s own 1553
+    profession, which was not found (dossier section 4). Second witness for exact wording:
+    noisy OCR of a 1562 print. No public-domain English translation found.
+
+    '
+  source_file: abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--dissertatio-de-syris-nestorianis-the-schism-of-1551-1555
+  work: 'Bibliotheca Orientalis III.2, the dissertation De Syris Nestorianis: the election
+    of Sulaka, his profession and proclamation at Rome, his death, and the line of Abdisho
+    IV'
+  author: assemani
+  locus: the dissertation's account of the patriarchal line from the hereditary succession
+    at file lines about 11990-12070; Abdisho's profession quoted at about line 42232; Sulaka's
+    profession of faith cited at about lines 18698, 19857, 21801 and 25242; Caput VIII (the
+    conversions of the Nestorians) from line 27477
+  role: context
+  confidence: assigned
+  note: 'The fullest early documentary account from the Roman side, by a Maronite priest of
+    the Vatican Library working from Chaldean manuscripts and Roman archives (the census:
+    "documented from the Roman side"). Gives the 1551 election at Mosul by three bishops and
+    many clergy against the hereditary heir, the journey to Rome, the profession of faith,
+    the return, the death at Amid in 1555 at the instigation of the rival, and the confirmation
+    of Abdisho in 1562. The dates in this OCR are garbled; the 1725 volume''s list (not vendored)
+    reads clearer. Latin; the English of this story in the corpus is Geddes (1694), via Hough.
+    Second witness for exact wording: long s read as f throughout.
+
+    '
+  source_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+- row_id: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910--chapters-xxxi-xxxii-the-sixteenth-to-nineteenth-centuries
+  work: 'History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East
+    (1910), chapters XXXI and XXXII: the sixteenth century, the schism of Shimon VIII ''John
+    Sulaka'', and the Shimun line to the nineteenth century'
+  author: malech
+  locus: chapter XXXI from file line 16600 (the patriarchs of 1503-1617; the schism at about
+    16637-16670); chapter XXXII from 16773 (the patriarchal tables to 1903 and the move to
+    Kudshanes)
+  role: tradition
+  confidence: provisional
+  note: 'An Urmia-born author''s own English history of his church, with the Shimun-line patriarch
+    lists the Roman sources lack. It gives the schism in a few paragraphs, with its own numbering
+    (Shimon VIII is the Sulaka of Rome) and one point of conflict with the Roman accounts
+    that a build should read. Provisional because the book is a late community historiography
+    that repeats older tradition without citing sources, and the schism passage is short.
+
+    '
+  source_file: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt
+- row_id: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907--colophons-of-the-sixteenth-century
+  work: 'Notice sur les manuscrits syriaques du Patriarcat chaldéen de Mossoul (Scher, 1907):
+    the colophons of 1521 to 1588'
+  author: scher
+  locus: Cod. 80 (1550, Rabban Hormezd, 'Mar Siméon patr. et Mar Elia héritier du siège')
+    at file lines 1278-1279; the Nomocanon note of 1564 at Amid 'du temps de Mar Abdisô' patr.'
+    at 1072; the note on the death of Mar Abdisho (1570) at 1044; Gazarta 1578 at 884; Abnâyé
+    1588 at 412; the 1567 copy with the patriarch's name effaced at 1750; the 1521 copy at
+    Ahtous at about 1199
+  role: tradition
+  confidence: provisional
+  note: 'Dated colophons from the Chaldean patriarchate''s library at Mosul, summarised in
+    French by the 1902 visitor. They name the patriarch of the day in the years around the
+    schism (the heir to the see in 1550, Abdisho in 1564 at Amid, Elia in 1578 and 1588).
+    These are the "colophons" the census names as the thin base of the entry, from the manuscripts
+    themselves. The catalogue does not say which line each patriarch belongs to, so which
+    colophon belongs to which side is for the build to settle; hence provisional. OCR clean;
+    ready to quote once each quote is checked against the page image.
+
+    '
+  source_file: scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907.txt
 - row_id: sebastiani_prima-speditione-indie-orientali-ita_1666--prima-speditione-all-indie-orientali-sebastiani-1666-2
   work: Prima speditione all'Indie Orientali (Sebastiani, 1666)
   author: sebastiani
@@ -25,6 +106,22 @@ works:
   note: Placed on the overland route to Malabar through Aleppo, Nineveh and Baghdad, where
     the author meets the Chaldean church; not read for that material.
   source_file: sebastiani_seconda-speditione-indie-orientali-ita_1672.txt
+- row_id: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678--six-voyages-through-turky-into-persia-3
+  work: 'The Six Voyages of John Baptista Tavernier (London, 1678): Nestorians, Jacobites
+    and the Latin missions on the road'
+  author: tavernier
+  locus: a city the OCR reads 'Balfara' (probably Basra) with three kinds of Christians and
+    a Carmelite house (file line 8514); a Persian city where two-thirds of twenty thousand
+    Christians are Armenians and the rest Nestorians (line 9630); the Capuchins and Carmelites
+    at Isfahan (lines 7635, 13456, 13478)
+  role: context
+  confidence: provisional
+  note: 'Passing notices of Nestorian and Jacobite Christians and of the Latin missionary
+    orders on the road to Persia. Outside witness, thin; the place named at line 9630 was
+    not identified. Only the cited lines were read.
+
+    '
+  source_file: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678.txt
 - row_id: vincenzo-maria_viaggio-indie-orientali-ita_1672--il-viaggio-all-indie-orientali-libro-primo-and-libro-quinto
   work: Il viaggio all'Indie Orientali, Libro Primo and Libro Quinto (the journey through
     the Levant, Mesopotamia and Persia)
@@ -35,3 +132,19 @@ works:
   note: Overland route through Aleppo, Nineveh, Baghdad and Basra, meeting the Chaldean church;
     placed on route, not read for that material.
   source_file: vincenzo-maria_viaggio-indie-orientali-ita_1672.txt
+- row_id: wigram_assyrians-and-their-neighbours_1929--chapter-vii-schism-of-the-sixteenth-century
+  work: 'The Assyrians and their Neighbours (1929), chapter VII, Tamerlane and the Coming
+    of the Ottoman: the hereditary patriarchate and the schism of the sixteenth century'
+  author: wigram
+  locus: chapter VII contents at file line 349; text from 6529; the schism of Shimun Dinkha
+    and Sulaka at lines about 7340-7500
+  role: context
+  confidence: assigned
+  note: 'The clearest English narrative of the schism in the corpus: the "natar kursya" hereditary
+    succession, why the dissenters wanted a canonical election, how Sulaka''s submission at
+    Rome began the two lines, and the Roman permissions given to him. Anglican mission-head,
+    1929, writing for English readers; a reception witness and finding aid, never evidence
+    of the events. Read at the lines given.
+
+    '
+  source_file: wigram_assyrians-and-their-neighbours_1929.txt

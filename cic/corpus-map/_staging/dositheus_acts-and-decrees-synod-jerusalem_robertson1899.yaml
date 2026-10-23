@@ -58,21 +58,15 @@ assignments:
       the entry's window (1650-1821). The Synod of Jerusalem of 1672 opens this entry's window; English
       version.
 
-  - note_for_lead: 'Proposed row for the existing staging file. Evidence read: at about file line 3911 Peter
-      Mogilas, Metropolitan of Kieff, signs the Constantinople synodal decree against Lucar''s chapters
-      ''on behalf of all the Orthodox and Catholic Church of Christ that is in Little Russia'', and the
-      Kyivan bishops sign after him (lines 3918-3930).'
-    proposed:
-    - work: Synodal decree of Constantinople against Lucar's chapters, with Mogila's signature for the Church
-        in Little Russia
-      author: dositheus
-      locus: signatures at about file lines 3911-3930; the decree itself from line 3022
-      atlas_ids:
-      - the-kyiv-mohyla-orthodox-revival
-      role: context
-      confidence: assigned
-      note: Mogila's own signed adherence to the Orthodox condemnation of the Calvinist-sounding Lucar confession,
-        the quarrel the Kyiv Confession was written into. Read at the signature page; the decree is the
-        Constantinople synod's, not Mogila's voice.
-    row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--
+  - work: Synodal decree of Constantinople against Lucar's chapters, with Mogila's signature for the Church
+      in Little Russia
     author: dositheus
+    locus: signatures at about file lines 3911-3930; the decree itself from line 3022
+    atlas_ids:
+    - the-kyiv-mohyla-orthodox-revival
+    role: context
+    confidence: assigned
+    note: Mogila's own signed adherence to the Orthodox condemnation of the Calvinist-sounding Lucar confession,
+      the quarrel the Kyiv Confession was written into. Read at the signature page; the decree is the Constantinople
+      synod's, not Mogila's voice.
+    row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--synodal-decree-of-constantinople-against-lucar-s-chapters-wi

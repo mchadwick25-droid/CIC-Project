@@ -3,6 +3,21 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: dutch-further-reformation-and-refuge-culture
 works:
+- row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-3
+  work: 'The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments;
+    Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)'
+  author: arminius
+  locus: Declaration of Sentiments from line 8280 (tenth part on the revision of the Dutch
+    Confession and the Heidelberg Catechism); Life from about line 465
+  role: context
+  confidence: provisional
+  note: 'The controversy inside the Dutch Reformed church from the dissenting side: a Leiden
+    professor, a Dutch Confession and Catechism he wished revised, and the precisianist party
+    of Voetius and the synod acts staged in that bucket. Placed on that relation; not read
+    for further-reformation matter.
+
+    '
+  source_file: arminius_works-v1_nichols1853.txt
 - row_id: austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870--kerkeraads-protocollen-der-hollandsche-gemeente-te-londen-1569-1571
   work: Kerkeraads-protocollen der Hollandsche Gemeente te Londen, 1569-1571
   author: austin-friars
@@ -51,6 +66,19 @@ works:
 
     '
   source_file: dutch-reformed-synods_acta-1568-1586-nld_rutgers1889.txt
+- row_id: hales_letters-from-the-synod-of-dort_1765--letters-from-the-synod-of-dort-to-sir-dudley-carleton-the-2
+  work: Letters from the Synod of Dort to Sir Dudley Carleton, the English Embassador at the
+    Hague (Hales; Foulis printing, 1765)
+  author: hales
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'The same Synod seen from outside, bearing on the settlement of 1619 that framed the
+    Dutch church of this world. Placed on that relation; not read for further-reformation
+    matter.
+
+    '
+  source_file: hales_letters-from-the-synod-of-dort_1765.txt
 - row_id: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858--de-bijenkorf-der-h-roomsche-kerke
   work: De Bijenkorf der H. Roomsche Kerke (1569; 1858 edition with introduction and variants)
   author: marnix
@@ -152,6 +180,19 @@ works:
 
     '
   source_file: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt
+- row_id: remonstrants_confession-or-declaration_anon1676--the-confession-or-declaration-of-the-remonstrant-ministers-2
+  work: The Confession or Declaration of the Remonstrant Ministers, in XXV Chapters, English,
+    1676 printing (Episcopius, 1621)
+  author: remonstrants
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'The church of the banished ministers, set up in the Republic beside the Reformed
+    church this world describes, with its own confession. Placed on that relation; the further-reformation
+    world''s build decides how much of it to use.
+
+    '
+  source_file: remonstrants_confession-or-declaration_anon1676.txt
 - row_id: schurman_opuscula-lat_spanheim1648--opuscula-dissertatio-and-epistolae
   work: 'Opuscula Hebraea, Graeca, Latina, Gallica (1648): the Dissertatio on women''s learning
     and the Latin and French letters'
@@ -185,6 +226,19 @@ works:
 
     '
   source_file: schurman_learned-maid_1659.txt
+- row_id: synod-of-dort_articles-with-history-of-events_scott1831--the-articles-of-the-synod-of-dort-and-its-rejection-of-2
+  work: The Articles of the Synod of Dort and its Rejection of Errors (the Canons of Dort),
+    English from the Latin (Scott, 1831)
+  author: synod-of-dort
+  locus: lines 4966-7915
+  role: tradition
+  confidence: provisional
+  note: 'The doctrinal settlement of 1619 that bound every minister of the Dutch church, including
+    the precisianist preachers of this world; placed on that relation, mirroring the 1840
+    Canons row.
+
+    '
+  source_file: synod-of-dort_articles-with-history-of-events_scott1831.txt
 - row_id: taffin_markes-of-the-children-of-god_prowse1599--of-the-markes-of-the-children-of-god
   work: Of the Markes of the Children of God, and of their Comforts in Afflictions (Anne Prowse's
     translation, 1599 printing)

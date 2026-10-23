@@ -1,0 +1,31 @@
+# Vendored for Atlas VI.26 (The Remonstrants and Dort) by the Era VII library session, 2026-10-23; see that world's Source Readiness Dossier.
+source_file: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt
+
+assignments:
+  - row_id: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889--a-defence-of-the-catholic-faith-concerning-the-satisfaction
+    work: "A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus Socinus (Grotius, 1617; Foster, 1889)"
+    author: grotius
+    locus: "whole file; Foster's historical introduction from about line 430; the work in chapters; Testimonies of the Ancients and translator's notes after"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: tradition
+    confidence: provisional
+    note: >
+      Hugo Grotius, named in the census as a Remonstrant sympathiser jailed in the affair of 1619,
+      published this defence of the satisfaction doctrine at Leiden in 1617, in the years of the
+      quarrel. The work is aimed at Socinus, not at the Five Points, so it is placed as a voice of
+      the world's leading jurist rather than as a statement of the Remonstrant platform. Foster's
+      long historical introduction (1889) is secondary. An English translation made from the
+      Latin; clean OCR.
+  - row_id: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889--a-defence-of-the-catholic-faith-concerning-the-satisfaction-2
+    work: "A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus Socinus (Grotius, 1617; Foster, 1889)"
+    author: grotius
+    locus: "whole file"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: >
+      The work answers Faustus Socinus's attack on the satisfaction of Christ, the point where the
+      Socinian position most sharply met the Reformed. Placed as the Reformed reply to it; the
+      antitrinitarian world decides whether it wants the answer beside the attack.

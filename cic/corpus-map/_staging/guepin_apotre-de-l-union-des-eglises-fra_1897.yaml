@@ -15,23 +15,15 @@ assignments:
     Ruthenian and Latin sources. Secondary, interpretive and written for the union's cause; useful as
     a guide to the sources and for its quoted passages. French only; no public-domain English found.
 
-- note_for_lead: Add to the existing staging file guepin_apotre-de-l-union-des-eglises-fra_1897.yaml (source
-    file guepin_apotre-de-l-union-des-eglises-fra_1897.txt), a file the Union of Brest thread vendored.
-    Mohyla appears in 82 lines of the text. Passages read at about file lines 36724 and 37128-37150 (Book
-    VI, the 1627 meeting of Smotrycki and Borecki at Kyiv, Mohyla as archimandrite of the Caves). The
-    index near lines 55832-56074 lists 'Violences de Mohyla et des Cosaques contre les Uniates' and 'Velleites
-    de conversion de Pierre Mohyla'.
-  proposed:
-  - work: 'Guepin, Saint Josaphat and the Greek-Slav Church (Mohyla passages: Book VI on his youth and
-      the Smotrycki meeting of 1627; later chapters on his violence against Uniates)'
-    author: guepin
-    locus: about file lines 36724, 37128-37150 and the index entries at 55832-56074
-    atlas_ids:
-    - the-kyiv-mohyla-orthodox-revival
-    role: context
-    confidence: provisional
-    note: A Catholic biographer's hostile account of Mohyla as a young archimandrite and as Metropolitan
-      (1897). Read at the two passages above only; an outside witness for how the Uniate side saw Mohyla,
-      never the revival's voice. Rated provisional because the book as a whole is the Union of Brest thread's.
-  row_id: guepin_apotre-de-l-union-des-eglises-fra_1897--
+- work: 'Guepin, Saint Josaphat and the Greek-Slav Church (Mohyla passages: Book VI on his youth and the
+    Smotrycki meeting of 1627; later chapters on his violence against Uniates)'
   author: guepin
+  locus: about file lines 36724, 37128-37150 and the index entries at 55832-56074
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: provisional
+  note: A Catholic biographer's hostile account of Mohyla as a young archimandrite and as Metropolitan
+    (1897). Read at the two passages above only; an outside witness for how the Uniate side saw Mohyla,
+    never the revival's voice. Rated provisional because the book as a whole is the Union of Brest thread's.
+  row_id: guepin_apotre-de-l-union-des-eglises-fra_1897--guepin-saint-josaphat-and-the-greek-slav-church-mohyla-passa

@@ -3,6 +3,20 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-reformed-cities-zurich-and-geneva
 works:
+- row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-4
+  work: 'The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments;
+    Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)'
+  author: arminius
+  locus: Declaration of Sentiments from line 8280; Life from about line 465 (Geneva, Beza,
+    and the supralapsarian doctrine he opposed)
+  role: context
+  confidence: provisional
+  note: 'Arminius studied at Geneva under Beza and argued against the predestination doctrine
+    that Calvin and Beza''s Genevan tradition taught. The Reformed Cities bucket holds that
+    tradition; this is the dissenting reading of it from within. Placed on that relation only.
+
+    '
+  source_file: arminius_works-v1_nichols1853.txt
 - row_id: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883--histoire-ecclesiastique-des-eglises-reformees-tome-premier-2
   work: Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580),
     Tome premier, Livres I-IV
@@ -406,6 +420,21 @@ works:
 
     '
   source_file: rilliet_calvin-and-servetus_tweedie1846.txt
+- row_id: synod-of-dort_articles-with-history-of-events_scott1831--the-articles-of-the-synod-of-dort-and-its-rejection-of-3
+  work: The Articles of the Synod of Dort and its Rejection of Errors (the Canons of Dort),
+    English from the Latin (Scott, 1831)
+  author: synod-of-dort
+  locus: lines 4966-7915
+  role: context
+  confidence: provisional
+  note: 'The Synod seated delegates from Geneva, Switzerland, the Palatinate and other Reformed
+    churches, and its Canons restate the Genevan doctrine of predestination against the Remonstrants.
+    Placed on that continuity with the Reformed Cities tradition; the volume also carries
+    a Harmony of Confessions (from line 7915) that includes the Helvetic Confession among
+    others.
+
+    '
+  source_file: synod-of-dort_articles-with-history-of-events_scott1831.txt
 - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563
   work: The Heidelberg Catechism (1563)
   author: ursinus-olevianus

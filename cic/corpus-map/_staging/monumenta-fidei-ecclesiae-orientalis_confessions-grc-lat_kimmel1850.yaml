@@ -107,12 +107,6 @@ assignments:
       the entry's window (1650-1821). Greek and Latin text of the 1672 Synod; second witness for exact Greek
       because of scan layout.
 
-  - note_for_lead: Existing Brest row is provisional. Kimmel's Latin prolegomena mention the 'Ruthenicae
-      provinciae' under Sigismund III (about file line 1713), so the fit to the window is real; the confession
-      text itself was not checked for the union. Suggest leaving it provisional.
-    row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--
-    author: gennadius-scholarius
-
   - work: 'Monumenta fidei ecclesiae orientalis (Kimmel 1850): the Greek and Latin confessions, with the
       Constantinople synod notes on Cyril Lucaris'
     author: lucaris
