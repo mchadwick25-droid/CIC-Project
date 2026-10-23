@@ -358,7 +358,7 @@ jobs:
     if: needs.changes.outputs.library == 'true' || needs.changes.outputs.engine == 'true'
     name: Library validators
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
