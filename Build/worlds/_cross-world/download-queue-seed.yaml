@@ -10118,7 +10118,7 @@ queue:
     url: https://archive.org/details/sforza-pallavicino-istoria-del-concilio-di-trento-1845-46
     rights_basis: pd-us-by-date
     verified_by: second-pass agent w2_catholic, direct fetch of archive.org metadata and the volume 3 text,
-      title page read in the OCR (Roma 1846), five-point OCR sample (word-shaped share 0.98), 2026-10-23;
+      title page read in the OCR (Roma 1846), five-point OCR sample (word-shaped share 0.98), October 2026;
       host licence Public Domain Mark 1.0
     status: downloaded
     vendored_as: pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt
@@ -10136,7 +10136,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: second-pass agent w2_catholic, direct fetch of archive.org metadata and full text, title
       page read in the OCR (TOLEDO-1914), contents table read, five-point OCR sample (word-shaped share
-      0.97), 2026-10-23; host carries no rights field
+      0.97), October 2026; host carries no rights field
     status: downloaded
     vendored_as: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt
   - title: Extirpacion de la idolatria del Piru (Lima, 1621)
@@ -10151,7 +10151,7 @@ queue:
     url: https://archive.org/details/extirpaciondelai00arri
     rights_basis: pd-us-by-date
     verified_by: second-pass agent w2_catholic, direct fetch of archive.org metadata and full text, title
-      page read in the OCR ("En Lima, por Geronymo de Contreras, 1621"), five-point OCR sample, 2026-10-23;
+      page read in the OCR ("En Lima, por Geronymo de Contreras, 1621"), five-point OCR sample, October 2026;
       host carries no rights field (contributor John Carter Brown Library)
     status: not-yet-downloaded
   - title: Historia eclesiastica indiana, obra escrita a fines del siglo XVI (facsimile of the 1870 Garcia
@@ -10170,7 +10170,7 @@ queue:
     url: https://archive.org/details/historiaeclesis00mendgoog
     rights_basis: unsettled (1870 text public domain by date; 1971 facsimile with new front matter)
     verified_by: second-pass agent w2_catholic, archive.org metadata and the opening of the OCR (Google
-      front matter only read), 2026-10-23
+      front matter only read), October 2026
     status: not-yet-downloaded
 
   - title: Apologia Ecclesiae Anglicanae; huic novae editioni accedit Epistola celeberrima ad D. Scipionem
@@ -10186,7 +10186,7 @@ queue:
     url: https://archive.org/details/apologiaecclesi00jewegoog
     rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT
     verified_by: 'library/source-research thread (Era VII session, second pass, English and Scottish worlds
-      agent), 2026-10-23: metadata read; title page year MDCCCXXXVIII read in the OCR; djvu fetched and
+      agent), October 2026: metadata read; title page year MDCCCXXXVIII read in the OCR; djvu fetched and
       sampled at five points (readable Latin with systematic accent and ligature faults)'
     status: downloaded
     vendored_as: jewel_apologia-ecclesiae-anglicanae-lat_1838.txt
@@ -10204,7 +10204,7 @@ queue:
     url: https://archive.org/details/autobiographyofr0000jmll
     rights_basis: pd-us-by-date (1925 London; no rights field on the item)
     verified_by: 'library/source-research thread (Era VII session, second pass, English and Scottish worlds
-      agent), 2026-10-23: metadata read; title page (MCMXXV, Dent) and the editor''s dated note read in
+      agent), October 2026: metadata read; title page (MCMXXV, Dent) and the editor''s dated note read in
       the OCR; djvu fetched and sampled at five points, clean'
     status: downloaded
     vendored_as: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt
@@ -10221,7 +10221,7 @@ queue:
     url: https://archive.org/details/archpriestcont01camduoft
     rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT
     verified_by: 'library/source-research thread (Era VII session, second pass, English and Scottish worlds
-      agent), 2026-10-23: metadata read; title page year read in the OCR; djvu fetched and sampled at five
+      agent), October 2026: metadata read; title page year read in the OCR; djvu fetched and sampled at five
       points, clean; Table of Contents read'
     status: downloaded
     vendored_as: archpriest-controversy_documents-v1-1597-1601_law1896.txt
@@ -10237,7 +10237,7 @@ queue:
     url: https://archive.org/details/archpriestcontr02camduoft
     rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT
     verified_by: 'library/source-research thread (Era VII session, second pass, English and Scottish worlds
-      agent), 2026-10-23: metadata read; title page year read in the OCR; djvu fetched and sampled at five
+      agent), October 2026: metadata read; title page year read in the OCR; djvu fetched and sampled at five
       points, clean; Table of Contents read'
     status: downloaded
     vendored_as: archpriest-controversy_documents-v2-1601-1603_law1898.txt
@@ -10253,7 +10253,7 @@ queue:
     url: http://purl.pt/17493 (https://bndigital.bnportugal.gov.pt/idurl/1/87431)
     rights_basis: pd-us-by-date (1606 title page read); host statement "PUBLIC DOMAIN ... Public Domain
       Mark"
-    verified_by: 'Era VII second-pass eastern-churches agent, 2026-10-23: host record read (imprint Coimbra,
+    verified_by: 'Era VII second-pass eastern-churches agent, October 2026: host record read (imprint Coimbra,
       Diogo Gomez Loureyro, 1606; copy hg-1029-1-v), full PDF fetched, text layer extracted and sampled
       at five points'
     status: downloaded
@@ -10270,7 +10270,7 @@ queue:
       could be fetched; a session that can read Google Books text should take it.'
     url: https://books.google.com/books?id=2yqOkO70vSoC (also https://books.google.com/books?id=BHtsUZ1CA3MC)
     rights_basis: pd-us-by-date (1895; Google full view)
-    verified_by: 'Era VII second-pass eastern-churches agent, 2026-10-23: Google Books volume feed read
+    verified_by: 'Era VII second-pass eastern-churches agent, October 2026: Google Books volume feed read
       for both ids (title, publisher, 1895, full view); text not fetched'
     status: not-yet-downloaded
 
@@ -10284,7 +10284,7 @@ queue:
       by an identifier search on the Hubmaier microfilm items the first pass had seen only one of.
     url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1526_2
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field; 1526 colophon read in the OCR); garbled blackletter OCR, second witness
     status: downloaded
     vendored_as: hubmaier_gesprech-auf-zwinglis-taufbuechlein-deu_froschauer1526.txt
@@ -10297,7 +10297,7 @@ queue:
     why: Same gap as above.
     url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1527_4
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field; title page and the year 1527 read in the OCR); garbled blackletter OCR, second witness
     status: downloaded
     vendored_as: hubmaier_grund-und-ursach-deu_1527.txt
@@ -10310,7 +10310,7 @@ queue:
     why: Same gap as above.
     url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1527_5
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field; headings read in the OCR); garbled blackletter OCR, second witness
     status: downloaded
     vendored_as: hubmaier_form-des-nachtmals-bann-freiheit-des-willens-deu_1527.txt
@@ -10323,7 +10323,7 @@ queue:
     why: Same gap as above; the German original of On the Sword, whose English is in Vedder 1905.
     url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1527_6
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field; headings read in the OCR); garbled blackletter OCR, second witness
     status: downloaded
     vendored_as: hubmaier_freiwilligkeit-des-menschen-und-von-dem-schwert-deu_1527.txt
@@ -10339,7 +10339,7 @@ queue:
       for a pass that can read the page images.'
     url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1524_1
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field); not vendored, OCR too garbled
     status: not-yet-downloaded
   - title: 'Writings of Doctor Balthasar Hubmaier, microfilm vol. 3 (1526-1527: a Lehrtafel catechism, Von
@@ -10352,7 +10352,7 @@ queue:
       The first pass had sampled this item and found it unreadable.
     url: https://archive.org/details/bim_early-english-books-1641-1700_writings-of-doctor-balthasar-hubmaier-_1526_3
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field); not vendored, OCR too garbled
     status: not-yet-downloaded
   - title: Erdélyi Országgyűlési Emlékek (Monumenta Comitialia Regni Transylvaniae), II. kötet, 1556-1576,
@@ -10367,7 +10367,7 @@ queue:
     url: http://real-eod.mtak.hu/id/eprint/2887
     rights_basis: pd-us-by-date
     verified_by: w2_radical second-pass agent, repository page and PDF (ABBYY text layer) fetched and read,
-      2026-10-23; the title page reads Budapest 1876; the repository page carries no rights field
+      October 2026; the title page reads Budapest 1876; the repository page carries no rights field
     status: downloaded
     vendored_as: transylvanian-diet_erdelyi-orszaggyulesi-emlekek-2-1556-1576-hun-lat_szilagyi1876.txt
   - title: Narrative of a visit to the Unitarian churches of Transylvania on occasion of the three-hundredth
@@ -10380,7 +10380,7 @@ queue:
       narrative, not a primary voice, so not vendored.
     url: https://archive.org/details/narrativeofvisit0000tayl
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API, 2026-10-23 (no rights field, not access-restricted);
+    verified_by: w2_radical second-pass agent, metadata API, October 2026 (no rights field, not access-restricted);
       text not opened
     status: not-yet-downloaded
   - title: 'Ain Christlicher Sendbrieff an Gaistliche personen geschriben: Vom Gebeet (1547)'
@@ -10392,7 +10392,7 @@ queue:
       an identifier search on the Schwenckfeld microfilm items.
     url: https://archive.org/details/bim_early-english-books-1641-1700_schwenckfeldt-casp_1547_0
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field; M. D. XLVII read on the title page); readable blackletter OCR
     status: downloaded
     vendored_as: schwenckfeld_christlicher-sendbrieff-vom-gebet-deu_1547.txt
@@ -10404,7 +10404,7 @@ queue:
     why: Same as above.
     url: https://archive.org/details/bim_early-english-books-1641-1700_schwenckfeldt-casp_1547
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field; M. D. XLVII read on the title page); readable blackletter OCR
     status: downloaded
     vendored_as: schwenckfeld_auslegung-ersten-capitels-zacharias-deu_1547.txt
@@ -10417,7 +10417,7 @@ queue:
       was vendored as the teaching behind the community's suspension of the Supper.
     url: https://archive.org/details/bim_early-english-books-1641-1700_schwenckfeld-caspa_1534
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field; M. D. XXXIIII read on the title page)
     status: downloaded
     vendored_as: schwenckfeld_bekandtnuss-vom-hayligen-sacrament-deu_1534.txt
@@ -10431,7 +10431,7 @@ queue:
       a lead until the printing is dated.
     url: https://archive.org/details/bim_early-english-books-1641-1700_schwenckfeldt-casp
     rights_basis: null
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23;
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026;
       no date on the item
     status: not-yet-downloaded
   - title: Corpus Schwenckfeldianorum, vols. 2-10 (Leipzig, 1911-1929), ed. Hartranft and others
@@ -10447,7 +10447,7 @@ queue:
     url: https://catalog.hathitrust.org/Record/001594665
     rights_basis: pd-us-by-date
     verified_by: w2_radical second-pass agent, HathiTrust catalogue API (catalog.hathitrust.org/api/volumes/oclc/54081844.json),
-      2026-10-23; not downloadable from this environment
+      October 2026; not downloadable from this environment
     status: not-yet-downloaded
   - title: A Supplication of the Family of Love (said to be presented into the Kings royall hands), examined
       and confuted (1606)
@@ -10459,7 +10459,7 @@ queue:
       recorded as absent and knew only from Fuller's report.
     url: https://archive.org/details/bim_early-english-books-1475-1640_a-supplication-of-the-fa_family-of-love_1606
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field, not access-restricted); readable OCR
     status: downloaded
     vendored_as: family-of-love_supplication-examined-and-confuted_1606.txt
@@ -10472,7 +10472,7 @@ queue:
       polemics are already in.'
     url: https://archive.org/details/bim_early-english-books-1475-1640_the-description-of-mysti_antichrist_1606
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field)
     status: not-yet-downloaded
   - title: Germaniae chronicon (1539)
@@ -10485,7 +10485,7 @@ queue:
       and subject.
     url: https://archive.org/details/hin-wel-all-00000719-001
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (no rights field; Wellcome Library contributor; ProQuest Early European Books image credit in the
       OCR head)
     status: not-yet-downloaded
@@ -10499,7 +10499,7 @@ queue:
       Found by a title search on 'konsistoř pod obojí'.
     url: https://archive.org/details/jednnadopisykon01pagoog
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (NOT_IN_COPYRIGHT; 1906 read on the title page); clean Czech OCR. A second scan is jednnadopisykon00pagoog.
     status: downloaded
     vendored_as: utraquist-consistory_jednani-a-dopisy-konsistore-pod-oboji-1562-1570-ces_pazout1906.txt
@@ -10511,7 +10511,7 @@ queue:
     why: The estates' own justification of the revolt, with its documents, in Czech.
     url: https://archive.org/details/apologiedruhsta00ubgoog
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (NOT_IN_COPYRIGHT; Prague 1862 read on the title page); noisy but readable OCR
     status: downloaded
     vendored_as: bohemian-estates_apologie-druha-1618-ces_subert1862.txt
@@ -10525,7 +10525,7 @@ queue:
       garbled (about 0.5 word-like). Not vendored; no Czech original found on archive.org.
     url: https://archive.org/details/diegefangenscha00mlgoog
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, 2026-10-23
+    verified_by: w2_radical second-pass agent, metadata API and direct fetch of the djvu.txt, October 2026
       (NOT_IN_COPYRIGHT)
     status: not-yet-downloaded
   - title: Quellen zur Geschichte der böhmischen Brüder, vornehmlich ihren Zusammenhang mit Deutschland
@@ -10537,7 +10537,7 @@ queue:
     why: Documents of the Unity's relations with Germany; not opened this pass.
     url: https://archive.org/details/quellenzurgesch00gindgoog
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API only, 2026-10-23 (NOT_IN_COPYRIGHT)
+    verified_by: w2_radical second-pass agent, metadata API only, October 2026 (NOT_IN_COPYRIGHT)
     status: not-yet-downloaded
   - title: Geschichte der Ertheilung des böhmischen Majestätsbriefes von 1609
     author: Anton Gindely
@@ -10548,7 +10548,7 @@ queue:
       this pass.
     url: https://archive.org/details/geschichtederer00gindgoog
     rights_basis: pd-us-by-date
-    verified_by: w2_radical second-pass agent, metadata API only, 2026-10-23 (NOT_IN_COPYRIGHT)
+    verified_by: w2_radical second-pass agent, metadata API only, October 2026 (NOT_IN_COPYRIGHT)
     status: not-yet-downloaded
 
   - title: 'Histoire des Vaudois, the Geneva 1618 printing (Matthieu Berjon): the scan holds Parts II (Histoire
@@ -10563,7 +10563,7 @@ queue:
       the French of the whole work is now in the corpus with the 1619 Part I.'
     url: https://archive.org/details/bub_gb_x_0dyBHt4kcC
     rights_basis: pd-us-by-date; Public Domain Mark 1.0 on the host item
-    verified_by: 'library/source-research thread (Era VII session, second-pass agent), 2026-10-23: metadata
+    verified_by: 'library/source-research thread (Era VII session, second-pass agent), October 2026: metadata
       read; djvu fetched (491 KB) and sampled at five points (0.64, long s as f, columns interleaved in
       Part III); Part II title page and the two Part III book headings read.'
     status: downloaded
@@ -10584,7 +10584,7 @@ queue:
     url: https://archive.org/details/den-kbd-pil-130018161541-001
     rights_basis: pd-us-by-date for the 1552 print; the scan carries a ProQuest copyright banner and no
       host rights field (unclear, so a lead)
-    verified_by: 'library/source-research thread (Era VII session, second-pass agent), 2026-10-23: metadata
+    verified_by: 'library/source-research thread (Era VII session, second-pass agent), October 2026: metadata
       read (Royal Library Copenhagen, early-european-books collection, printer Veit Kreutzer, 1552); djvu
       fetched (136 KB) and sampled at five points: readable Latin with long s as f (about 0.50 against the
       project Latin baseline), ninety-eight banner lines.'
@@ -10600,7 +10600,7 @@ queue:
       lacked; preferred to the 1853 Obolensky print already in the queue.
     url: https://archive.org/details/polnoesobranierusskihletopisejizdannoep31
     rights_basis: pd-us-by-date (1910 title page read; no rights field)
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, 1910 title page
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched, 1910 title page
       and preface read, five-point OCR sample'
     status: downloaded
     vendored_as: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt
@@ -10614,7 +10614,7 @@ queue:
       generation.'
     url: https://archive.org/details/polnoesobranierusskihletopisejizdannoep46
     rights_basis: pd-us-by-date (1906 title page read; no rights field)
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, 1906 title page
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched, 1906 title page
       and preface read, five-point OCR sample'
     status: downloaded
     vendored_as: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906.txt
@@ -10629,7 +10629,7 @@ queue:
     url: https://archive.org/details/polnoesobranierusskihletopisejizdannoep59 (mislabelled; the real volume
       not found)
     rights_basis: pd-us-by-date (1904) if found
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched and OCR head
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched and OCR head
       read: the file is vol. 11, not vol. 13'
     status: not-yet-downloaded
   - title: Sochineniia prepodobnago Maksima Greka v russkom perevode, parts 2 (dogmatic-polemical, 1910)
@@ -10642,7 +10642,7 @@ queue:
       to prelates and the preface to the Solovki saints' lives. Clean OCR at five points in both.
     url: https://archive.org/details/sochinenijaprepodobnagomaksimagrekavruss67 ; https://archive.org/details/sochinenijaprepodobnagomaksimagrekavruss29
     rights_basis: pd-us-by-date (1910, 1911; no rights field)
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched for both, five-point
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched for both, five-point
       OCR sample of both'
     status: not-yet-downloaded
   - title: Kurbsky, Istoriia o velikom kniaze Moskovskom (1913) and Pis'ma kniazia A. M. Kurbskogo k raznym
@@ -10655,7 +10655,7 @@ queue:
       the correspondence with the tsar (1914) is vendored.
     url: https://archive.org/details/istorijaovelikomknjazemoskovskom15 ; https://archive.org/details/pismaknjazjaamkurbskogokraznymlitsam80
     rights_basis: pd-us-by-date (1913 per host; no rights field)
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched only'
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched only'
     status: not-yet-downloaded
   - title: 'Akty, otnosiashchiesia k istorii Zapadnoi Rossii, t. 4: 1588-1652'
     author: 'Archaeographic Commission (host record: comp. I. Grigorovich)'
@@ -10669,7 +10669,7 @@ queue:
       said was not searched.'
     url: https://archive.org/details/auzr04
     rights_basis: pd-us-by-date (1851 title page read; no rights field)
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, 1851 title page
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched, 1851 title page
       read, five-point OCR sample, key documents located'
     status: downloaded
     vendored_as: akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt
@@ -10682,7 +10682,7 @@ queue:
       4); Vilnius brotherhood suits, Smotrytsky, the Pegas letters in the additions.
     url: https://archive.org/details/auzr02
     rights_basis: pd-us-by-date (1865 title page read; no rights field)
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, title page read,
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched, title page read,
       both OCR files sampled at five points'
     status: downloaded
     vendored_as: akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt
@@ -10699,7 +10699,7 @@ queue:
       said was thin.'
     url: https://archive.org/details/arhuzr_1_7
     rights_basis: pd-us-by-date (1887 title page read; no rights field)
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, title page and
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched, title page and
       contents read, five-point OCR sample'
     status: downloaded
     vendored_as: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt
@@ -10714,7 +10714,7 @@ queue:
     url: https://archive.org/details/arhivjugozapadnojrossiiizdavaemyjvreme37
     rights_basis: pd-us-by-date (1893; title-page year read '1393' in the OCR, Golubev's signature dated
       15 November 1893; no rights field)
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, title page and
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched, title page and
       study read in part, five-point OCR sample'
     status: downloaded
     vendored_as: arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893.txt
@@ -10727,7 +10727,7 @@ queue:
       first-pass dossier.
     url: https://archive.org/details/rcin.org.pl.WA248_275734_F-5641_skarga-synod_o_240101
     rights_basis: pd-us-by-date (1874); host rights field 'Public Domain'
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched (rights field
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched (rights field
       read), preface date read, five-point OCR sample'
     status: downloaded
     vendored_as: skarga_synod-brzeski-i-obrona-pol_rzepecki1874.txt
@@ -10740,7 +10740,7 @@ queue:
       text from the editor's additions.
     url: https://archive.org/details/bub_gb_NKN07ohWr7kC
     rights_basis: pd-us-by-date (1666 title page read); host licence Public Domain Mark 1.0
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, title page read,
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched, title page read,
       five-point OCR sample (long s as f)'
     status: downloaded
     vendored_as: susza_saulus-et-paulus-lat_rome1666.txt
@@ -10753,7 +10753,7 @@ queue:
       and Lucaris contacts; listed as a lead in the first-pass dossier.
     url: https://archive.org/details/orthodoxchurchof00willuoft
     rights_basis: pd-us-by-date (1868 title page read); host NOT_IN_COPYRIGHT
-    verified_by: 'Era VII second-pass Slavic and Greek agent, 2026-10-23: metadata fetched, title page read,
+    verified_by: 'Era VII second-pass Slavic and Greek agent, October 2026: metadata fetched, title page read,
       five-point OCR sample'
     status: downloaded
     vendored_as: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt
