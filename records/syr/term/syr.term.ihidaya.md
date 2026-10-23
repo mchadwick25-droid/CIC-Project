@@ -42,7 +42,7 @@ relations:
   target: syr.term.qyama
 - type: associated-with
   target: syr.term.tahwyata
-plain_meaning: 'The Single One. One word names the vowed celibate, single-minded and undivided for God. It is also the Syriac title of Christ as the Only-Begotten. The two senses share one root, so the one who lives single shares a name with Christ. Aphrahat sets the two side by side: "The Only Begotten Who is from the bosom of His Father shall cause all the solitaries to rejoice."'
+plain_meaning: 'The Single One. One word names the vowed celibate, single-minded and undivided for God. It is also the Syriac title of Christ as the Only-Begotten. The two senses share one root, so the one who lives single shares a name with Christ. Aphrahat sets the two side by side. He writes that the Only Begotten, from the bosom of the Father, will make all the solitaries rejoice.'
 world_word: ihidaya (pl. ihidaye)
 false_friend:
 - solitary or hermit (physical isolation)
