@@ -13740,3 +13740,526 @@ queue:
     hold_note: 'Scholarship, not a source. Not vendored.
 
       '
+
+  - title: 'Patrologiae graecae tomus CL: Gregorius Palamas, Constantinus Harmenopulus, Theophanes Nicaenus,
+      alii. Gregorii Palamae, Thessalonicensis archiepiscopi, Opera omnia theologica, homiletica, hagiographica,
+      polemica, ascetica. Accedunt Gregorii Sinaitae, Constantini Harmenopuli nomophylacis, Macarii Chrysocephali
+      Philadelphiensis metropolitae, Joannis Calecae CPolitani patriarchae, Theophanis Nicaeni archiepiscopi,
+      Nicolai Cabasilae Thessalonicensis quae supersunt. Gregorii tomus prior, caeterorum tomus unicus'
+    author: Gregory Palamas; Gregory of Sinai; Nicholas Cabasilas; Constantine Harmenopoulos and others
+    translator: none (Greek with parallel Latin, ed. J.-P. Migne)
+    year: 1865
+    world: hesychasm-and-the-palamite-synthesis
+    why: 'Palamas''s hesychast writings and the Hagioritic Tome, Gregory of Sinai''s chapters and Cabasilas''s
+      Commentary and Life in Christ (Latin), in one volume: the cornerstone voices of the synthesis.'
+    url: https://archive.org/details/patrologicursus01migngoog
+    rights_basis: 'pd-us-by-date; the imprint year is 1865: another scan of this volume (archive.org item
+      bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1865_150) reads 1865 on both title
+      pages, and the list of Migne''s volumes printed in tomus CLXI (file line 110885 of the Bessarion volume
+      vendored beside this one) reads ''CL (1865)''. This scan''s own OCR reads ''1863'' at file line 261.
+      Either year is far before 1930. Host record: date field 1857 (the series start), possible-copyright-status
+      NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (3.77 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
+  - title: 'Patrologiae graecae tomus CLI: Gregorius Palamas, Gregorius Acindynus, Barlaam. Gregorii Palamae,
+      Thessalonicensis archiepiscopi, Opera omnia theologica, homiletica, hagiographica, polemica, ascetica.
+      Accedunt Gregorii Acindyni, Barlaami de Seminaria opuscula, epistolae. Gregorii tomus posterior, caeterorum
+      tomus unicus'
+    author: Gregory Palamas; Gregory Akindynos; Barlaam of Calabria; Philotheos Kokkinos
+    translator: none (Greek with parallel Latin, ed. J.-P. Migne)
+    year: 1865
+    world: hesychasm-and-the-palamite-synthesis
+    why: 'Palamas''s homilies, the three synodal tomes of 1341-1351, Philotheos''s encomium and the opponents
+      Akindynos and Barlaam in their own tracts: both sides of the controversy in one volume.'
+    url: https://archive.org/details/patrologicursus36migngoog
+    rights_basis: 'pd-us-by-date; the second title page reads ''1865'' in this scan''s OCR (file line 241);
+      host record: date field 1857 (the series start), possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (1.96 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+  - title: 'Patrologiae graecae tomus CLII: Manuel Calecas, Joan. Cyparissiota, Matth. Cantacuzenus, alii.
+      Manuelis Calecae ordinis Fratrum Praedicatorum, Constantinopolitani patriarchae(?), Opera omnia. Accedunt
+      Joannis Cyparissiotae, Matthaei Cantacuzeni scripta theologica et exegetica; necnon Joannis Glycis,
+      Esaiae, Joannis Calecae, Isidori, Callisti, Philothei CPolitanorum patriarcharum diplomata, synodicae
+      constitutiones, epistolae'
+    author: Manuel Calecas; John Cyparissiotes; Matthew Kantakouzenos; the patriarchs of Constantinople
+      1310-1372
+    translator: none (Greek with parallel Latin, ed. J.-P. Migne)
+    year: 1866
+    world: byzantine-church-palaiologan
+    why: The patriarchal acts of 1310-1372, John Cyparissiotes (anti-Palamite) and Manuel Calecas (pro-Latin);
+      the Patriarchate's own voice across the hesychast decades.
+    url: https://archive.org/details/patrologicursus63migngoog
+    rights_basis: 'pd-us-by-date; the title page reads ''1866'' in this scan''s OCR (file line 201); the
+      list of Migne''s volumes in tomus CLXI (file line 110907 of the Bessarion volume) reads ''CLII (1865)'';
+      either year is far before 1930. Host record: date field 1857, possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (5.38 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
+  - title: 'Patrologiae graecae tomus CLV: Symeon Thessalonicensis archiepiscopus. Symeonis Thessalonicensis
+      archiepiscopi Opera omnia, Jassii in Moldavia anno 1683 Graece; Latine vero nunc primum edita. Tomus
+      unicus'
+    author: Symeon of Thessalonica
+    translator: none (Greek of the 1683 Jassy edition with Latin, ed. J.-P. Migne)
+    year: 1866
+    world: byzantine-church-palaiologan
+    why: Symeon of Thessalonica on the rites, temple, prayer and heresies; an archbishop's voice for the
+      Palaiologan church.
+    url: https://archive.org/details/patrologicursus107migngoog
+    rights_basis: 'pd-us-by-date; the title page reads ''1866'' twice in this scan''s OCR (file lines 185
+      and 240); the list of Migne''s volumes in tomus CLXI (file line 110932 of the Bessarion volume) reads
+      ''CLV (1866)''. Host record: date field 1857, possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (3.64 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt
+  - title: 'Patrologiae graecae tomus CLXI: Bessarion S.R.E. cardinalis. Bessarionis Opera omnia, theologica,
+      exegetica, polemica, partim jam edita, partim hucusque anecdota. Tomus unicus'
+    author: Bessarion
+    translator: none (Greek with Latin, ed. J.-P. Migne)
+    year: 1866
+    world: byzantine-church-palaiologan
+    why: 'Bessarion''s writings, the Oratio dogmatica and the refutation of Mark of Ephesus: the unionist
+      Greek voice named by the census.'
+    url: https://archive.org/details/patrologicursus89migngoog
+    rights_basis: 'pd-us-by-date; the title page carries no year in this scan''s OCR; the list of Migne''s
+      volumes printed in this same file reads ''CLXI (1866). Bessarion, I-CLVI et 1-746'' (file line 110988).
+      Host record: date field 1857 (the series start), possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (5.55 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: bessarion_opera-omnia-pg161-grc-lat_migne1866.txt
+  - title: 'Corpus scriptorum historiae Byzantinae, editio emendatior et copiosior, consilio B. G. Niebuhrii
+      C. F. instituta, opera eiusdem Niebuhrii, Imm. Bekkeri, L. Schopeni, G. Dindorfii aliorumque philologorum
+      parata. Pars XX: Cantacuzenus. Volumen I. Ioannis Cantacuzeni eximperatoris Historiarum libri IV,
+      Graece et Latine, cura Ludovici Schopeni'
+    author: John VI Kantakouzenos
+    translator: Ludwig Schopen (Latin)
+    year: 1828
+    world: hesychasm-and-the-palamite-synthesis
+    why: Kantakouzenos's own account of 1320-1341, with the first synod and the Barlaam affair.
+    url: https://archive.org/details/historiarumlibr00schogoog
+    rights_basis: 'pd-us-by-date; the title page reads ''MDCCCXXVIII'' (1828) in this scan''s OCR (file
+      line 189); host record: date 1828, possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (2.31 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828.txt
+  - title: 'Corpus scriptorum historiae Byzantinae ... Pars XX: Cantacuzenus. Volumen II. Ioannis Cantacuzeni
+      eximperatoris Historiarum libri IV, Graece et Latine, cura Ludovici Schopeni'
+    author: John VI Kantakouzenos
+    translator: Ludwig Schopen (Latin)
+    year: 1831
+    world: hesychasm-and-the-palamite-synthesis
+    why: Kantakouzenos's account of 1341-1347, the deposition of Patriarch John Calecas and the coronation
+      by Patriarch Isidore.
+    url: https://archive.org/details/bub_gb_NuUPAAAAQAAJ
+    rights_basis: pd-us-by-date; the title page reads 'MDCCCXXXI' (1831) in this scan's OCR (file lines
+      115 and 154); the item record carries the Public Domain Mark 1.0 licence (creativecommons.org/publicdomain/mark/1.0/).
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (2.41 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: cantacuzenus_historiarum-libri-iv-v2-grc-lat_schopen1831.txt
+  - title: 'Corpus scriptorum historiae Byzantinae ... Pars XX: Cantacuzenus. Volumen III. Ioannis Cantacuzeni
+      eximperatoris Historiarum libri IV, Graece et Latine, cura Ludovici Schopeni'
+    author: John VI Kantakouzenos
+    translator: Ludwig Schopen (Latin)
+    year: 1832
+    world: hesychasm-and-the-palamite-synthesis
+    why: Kantakouzenos's account of 1347-1356, the synod of 1351 and his abdication; he signed the Hagioritic
+      Tome as a monk.
+    url: https://archive.org/details/ioanniscantacuz03joangoog
+    rights_basis: 'pd-us-by-date; the title page reads ''MDCCCXXXII'' (1832; OCR ''MDCCCXXXIL'') at file
+      line 163; host record: date 1831, possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (2.20 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt
+  - title: 'Corpus scriptorum historiae Byzantinae ... Pars XIX: Nicephorus Gregoras. Volumen II. Nicephori
+      Gregorae Byzantina historia, Graece et Latine, cum annotationibus Hier. Wolfii, Car. Ducangii, Io.
+      Boivini et Cl. Capperonnerii, cura Ludovici Schopeni'
+    author: Nikephoros Gregoras
+    translator: Ludwig Schopen (Latin)
+    year: 1830
+    world: hesychasm-and-the-palamite-synthesis
+    why: The anti-Palamite scholar's account of Barlaam, Akindynos and the councils to 1351; the hostile
+      record the census says is largely untranslated.
+    url: https://archive.org/details/nicephorigregor02schogoog
+    rights_basis: 'pd-us-by-date; the title page reads ''MDCCCXXX'' (1830) in this scan''s OCR (file line
+      186); host record: date 1829, possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (3.06 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: gregoras_byzantina-historia-v2-grc-lat_schopen1830.txt
+  - title: Corpus scriptorum historiae Byzantinae ... Nicephorus Gregoras. Volumen III. Nicephori Gregorae
+      Historiae Byzantinae libri postremi ab Immanuele Bekkero nunc primum editi
+    author: Nikephoros Gregoras
+    translator: Immanuel Bekker (ed.); Latin as printed
+    year: 1855
+    world: hesychasm-and-the-palamite-synthesis
+    why: Gregoras's last books (1351-1359), first printed in 1855; the condemned side's account of the aftermath.
+    url: https://archive.org/details/nicephorigregor04schogoog
+    rights_basis: 'pd-us-by-date; the title page reads ''MDCCCLV'' (OCR ''MDCCCLY'', 1855) at file lines
+      145 and 166; host record: date 1829 (the series start), possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (2.19 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: gregoras_byzantina-historia-v3-grc-lat_bekker1855.txt
+  - title: Sacrorum conciliorum nova et amplissima collectio, in qua praeter ea quae Phil. Labbeus et Gabr.
+      Cossartius et novissime Nicolaus Coleti in lucem edidere ... quae Joannes Dominicus Mansi archiepiscopus
+      Lucensis evulgavit. Tomus trigesimus primus
+    author: Giovanni Domenico Mansi (ed.)
+    translator: none (Latin, with Greek)
+    year: 1906
+    world: byzantine-church-palaiologan
+    why: The acts of Ferrara-Florence in Latin and Greek, with the decree Laetentur caeli.
+    url: https://archive.org/details/sacrorumconcilio0031jonn
+    rights_basis: 'pd-us-by-date; the facsimile''s title page reads ''1906'' (file lines 139 and 134 of
+      the OCR: ''1906'' and ''H. WELTER''); the underlying edition is of the eighteenth century; host record:
+      date 1798, volume 31, no rights field.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (3.19 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt
+  - title: Vera historia unionis non verae inter Graecos et Latinos, sive Concilii Florentini exactissima
+      narratio, Graece scripta per Sylvestrum Sguropulum, magnum ecclesiarcham, atque unum e quinque crucigeris
+      et intimis consiliariis patriarchae Constantinopolitani, qui concilio interfuit; transtulit in sermonem
+      Latinum, notasque ad calcem libri adjecit Robertus Creyghton
+    author: Sylvester Syropoulos
+    translator: Robert Creyghton (Latin)
+    year: 1660
+    world: byzantine-church-palaiologan
+    why: The eyewitness memoir of the Greek delegation to Ferrara-Florence, hostile to the union; the census
+      names the Florence acta as a source.
+    url: https://archive.org/details/verahistoriauni00creigoog
+    rights_basis: 'pd-us-by-date; the title page reads ''M. DC. LX.'' (1660) in this scan''s OCR (file line
+      153); host record: date 1660, possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (2.37 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt
+  - title: Gennadii Scholarii Patriarchae Constantinopolitani Defensio quinque capitum, quae in sancta oecumenica
+      Florentina synodo continentur; Fabio Beneuolentio Senensi interprete
+    author: Georgios (Gennadios) Scholarios
+    translator: Fabio Benevento (Latin)
+    year: 1637
+    world: byzantine-church-palaiologan
+    why: Scholarios's Defence of the Florentine chapters in a sixteenth-century Latin version; the pre-1453
+      Gennadios corpus the census names.
+    url: https://archive.org/details/bub_gb_Qww1OE7XzgMC
+    rights_basis: pd-us-by-date; the title page reads 'ROMAE M. DC. XXXVII. Typis Sacrae Congreg. de Propag.
+      Fide' (1637) in this scan's OCR (file line 37); the item record carries the Public Domain Mark 1.0
+      licence (creativecommons.org/publicdomain/mark/1.0/).
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (0.47 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: gennadius-scholarius_defensio-quinque-capitum-lat_benevento1637.txt
+  - title: 'Patrologia Orientalis, tomus decimus quintus (R. Graffin and F. Nau, eds.): I. Mgr Louis Petit,
+      Documents relatifs au concile de Florence, I: La question du purgatoire a Ferrare (textes edites et
+      traduits); II. G. Bardy, Les trophees de Damas; III. G. Bayan, Le synaxaire armenien de Ter Israel
+      (II, mois de Sahmi); IV. M. Briere, Philoxene de Mabboug, De uno e sancta Trinitate incorporato et
+      passo; V. S. Grebaut, Le synaxaire ethiopien (IV, mois de Tahschasch)'
+    author: Louis Petit (ed.)
+    translator: Louis Petit (French)
+    year: 1927
+    world: byzantine-church-palaiologan
+    why: Petit's edition of the Ferrara debates on purgatory with Mark of Ephesus and Bessarion, Greek with
+      French; companion to the Mark of Ephesus volume already on the shelf (tomus 17).
+    url: https://archive.org/details/patrologiaorient15pariuoft
+    rights_basis: 'pd-us-by-date; the volume title page reads ''1927'' (file line 117); Petit''s fascicle
+      carries the imprimatur ''Paris, 16-25 juin 1920'' and the dates ''Paris, le 27 fevrier 1920'' and
+      ''Paris, le 29 octobre 1920'' (file lines 35801 and 45405); host record: date ''1907 [i.e. 1903]-'',
+      Firmin-Didot, no rights field. Published before 1931.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (2.84 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt
+  - title: 'Acta et diplomata graeca medii aevi sacra et profana, collecta ediderunt Franciscus Miklosich
+      et Iosephus Muller. Volumen primum: Acta patriarchatus Constantinopolitani MCCCXV-MCCCCII, e codicibus
+      manu scriptis bibliothecae Palatinae Vindobonensis, tomus prior'
+    author: Franz Miklosich and Joseph Muller (eds.)
+    translator: none (Greek with Latin headings)
+    year: 1860
+    world: byzantine-church-palaiologan
+    why: 'The first volume of the patriarchal register, 1315-1402: the census''s ''patriarchal register
+      survives for stretches''.'
+    url: https://archive.org/details/actaetdiplomata00graegoog
+    rights_basis: 'pd-us-by-date; the title page reads ''MDCCCLX'' (1860) in this scan''s OCR (file lines
+      143 and 182); host record: date 1860, possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (2.47 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt
+  - title: Die Mystik des Nikolaus Cabasilas vom Leben in Christo. Erste Ausgabe und einleitende Darstellung
+      von Dr. W. Gass, Licentiaten und a. o. Professor der Theologie, Unterbibliothekar in Greifswald
+    author: Nicholas Cabasilas (ed. Wilhelm Gass)
+    translator: none (Greek with German introduction)
+    year: 1849
+    world: hesychasm-and-the-palamite-synthesis
+    why: The first edition of the Greek Life in Christ with a German study; the lay-facing formation voice.
+      Greek OCR unusable, so second witness.
+    url: https://archive.org/details/diemystikdesnik00kavagoog
+    rights_basis: 'pd-us-by-date; the title page reads ''1849'' in this scan''s OCR (file line 150); host
+      record: date 1849, possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (0.95 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt
+  - title: Tou en hagiois patros hemon Gregoriou archiepiskopou Thessalonikes tou Palama Homiliai tessarakonta
+      kai mia, hon proegountai duo logoi Philotheou kai Neilou patriarchon Konstantinoupoleos; nun to proton
+      typois ekdidomenai meta prolegomenon (transliterated from the Greek title page; the host catalogues
+      it as Homiliai tessarakonta ...)
+    author: Gregory Palamas (with panegyrics by Philotheos and Neilos)
+    translator: none (Greek)
+    year: 1857
+    world: hesychasm-and-the-palamite-synthesis
+    why: Palamas as preacher in clean Greek, with the two patriarchal panegyrics that made him a saint.
+    url: https://archive.org/details/gtongoispatrsym00palagoog
+    rights_basis: 'pd-us-by-date; the title page reads ''A857'' in this scan''s OCR (file line 125), that
+      is 1857, and the imprint is Jerusalem; host record: date 1857, possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (2.26 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: palamas_homiliae-41-grc_jerusalem1857.txt
+  - title: 'Patrologiae graecae tomus CXLVII: Niceph. Callistus. Maximus Planudes. Callisti duo. Nicephorus
+      Monachus. Nicephori Callisti Xanthopuli Ecclesiasticae historiae libri XVIII; accedunt Maximi Planudae,
+      Callisti et Ignatii, Callisti Cataphugiotae, Nicephori Monachi scripta varii argumenti. Nicephori
+      Callisti tomus tertius, caeterorum tomus unicus'
+    author: Nikephoros Kallistos Xanthopoulos; Kallistos and Ignatios Xanthopouloi; Kallistos Telikoudes;
+      Kallistos Katafygiotes; Nikephoros the Monk
+    translator: none (Greek with parallel Latin, ed. J.-P. Migne)
+    year: 1865
+    world: hesychasm-and-the-palamite-synthesis
+    why: The hesychast method texts of Nikephoros the Monk and the Kallistos group in Greek with Latin,
+      named in the census as the method texts; the Philokalia carries them in a later anthology.
+    url: https://archive.org/details/patrologicursus46migngoog
+    rights_basis: 'pd-us-by-date; the first title page reads ''1865'' and the second ''1863'' in this scan''s
+      OCR (file lines 200 and 262); host record: date 1857 (the series start), possible-copyright-status
+      NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (2.65 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
+  - title: Sacrorum conciliorum nova et amplissima collectio ... quae Joannes Dominicus Mansi archiepiscopus
+      Lucensis evulgavit. Tomus vigesimus sextus, ab anno MCCCXLIV usque ad annum MCCCCIX
+    author: Giovanni Domenico Mansi (ed.)
+    translator: none (Latin, with Greek)
+    year: 1901
+    world: hesychasm-and-the-palamite-synthesis
+    why: The synod of 1347 and the Tomos against Barlaam and Akindynos in Latin with Greek columns, as the
+      Latin collection prints them, with the Western councils of 1344-1409.
+    url: https://archive.org/details/sacrorumconcilio0026joan
+    rights_basis: 'pd-us-by-date; the facsimile''s imprint reads ''M.D.CCCCI'' (1901) at file line 138 of
+      the OCR and the original edition is ''Venetiis MDCCLXXXIV'' (1784); host record: date 1784, volume
+      26, no rights field.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (3.78 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt
+  - title: 'Patrologiae graecae tomus CLX: Gennadius seu Georgius Scholarius, Gregorius Mamma CPolitani
+      patriarchae, alii. Gennadii, Constantinopolitani patriarchae, qui et Georgius Scholarius, Opera omnia,
+      partim jam edita, partim hucusque anecdota. Accedunt Nicolai V Romani pontificis, Gregorii Mammae
+      CPolitani patriarchae, Georgii Gemisti Plethonis, Matthaei Camariotae, Marci Ephesini opuscula et
+      epistolae. Tomus unicus'
+    author: Georgios (Gennadios) Scholarios; Gregory Mammas; Mark of Ephesus; Plethon; Matthew Camariotes
+    translator: none (Greek with Latin, ed. J.-P. Migne)
+    year: 1866
+    world: byzantine-church-palaiologan
+    why: 'Gennadios Scholarios''s Florentine orations and treatises, Mark of Ephesus''s writings, Gregory
+      Mammas against Mark and the lament for the fall: the census''s four voices in one volume.'
+    url: https://archive.org/details/patrologicursus66migngoog
+    rights_basis: 'pd-us-by-date; the title page''s OCR reads ''1566'' at file line 180, a misreading of
+      the printed year; the list of Migne''s volumes in tomus CLXI (file line 110972 of the Bessarion volume
+      vendored beside this one) reads ''CLX (1866). Gregorius Mammas CP., 9-248''. Host record: date field
+      1857 (the series start), possible-copyright-status NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (6.36 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
+  - title: 'Patrologiae graecae tomus CLIX: Laonicus Chalcocondyla, Josephus Methonensis, alii. Laonici
+      Chalcocondylae Historiarum libri decem; accedunt Josephi Methonensis episcopi, Joannis Plusiadeni
+      scripta quae exstant; praemittuntur Leonardi Chiensis Mitylenaei archiepiscopi, Isidori S.R.E. cardinalis,
+      Ruthenorum archiepiscopi (epistolae). Tomus unicus'
+    author: Laonikos Chalkokondyles; Leonard of Chios; Isidore of Kiev; Joseph of Methone (Plusiadenos)
+    translator: none (Greek with Latin, ed. J.-P. Migne)
+    year: 1866
+    world: byzantine-church-palaiologan
+    why: Leonard of Chios and Cardinal Isidore on the fall of the City, and Joseph of Methone on the union
+      and against Mark of Ephesus.
+    url: https://archive.org/details/patrologicursus44migngoog
+    rights_basis: 'pd-us-by-date; the title page''s OCR reads ''1860'' at file line 221; the list of Migne''s
+      volumes in tomus CLXI (file line 110965 of the Bessarion volume) reads ''CLVIX (1866). Laonicus Chalcondylus,
+      9-922. Leonardus Chiensis, 923-44. Isidorus, cardinalis, 943-56. Josephus Methonensis (Joannes Plusiadenus),
+      957-1394''. Either year is far before 1930. Host record: date field 1857, volume 159, possible-copyright-status
+      NOT_IN_COPYRIGHT.'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu text fetched in full (4.38 MB with header) and sampled at the title pages and at about
+      5%, 50% and 95% of the file; title-page year read in the OCR as quoted in the rights basis.'
+    status: downloaded
+    vendored_as: chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt
+  - title: 'Patrologiae graecae tomus CLIII: Joannes Cantacuzenus imp. CP., Historiarum libri (Books I-III,
+      Greek with Latin)'
+    author: John VI Kantakouzenos
+    translator: none (Greek with parallel Latin, ed. J.-P. Migne)
+    year: 1866
+    world: hesychasm-and-the-palamite-synthesis
+    why: The same history as the Bonn volumes, in Migne's reprint, Books I-III only (Book IV is in tomus
+      154, which was not located).
+    url: https://archive.org/details/patrologiaecurs36hopfgoog
+    rights_basis: 'pd-us-by-date; host record: date 1857, possible-copyright-status NOT_IN_COPYRIGHT; the
+      tomus title page carries no legible year in the OCR'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu fetched (5.4 MB) and sampled; contents read from the elenchus and LIBER headings (I at
+      line 3625, II at 29328, III at 51616).'
+    status: not-yet-downloaded
+    hold_note: Duplicate of the Bonn volumes 1 and 2 already vendored; over 5 MB for no new text. Revisit
+      only if a Bonn volume proves unusable.
+  - title: Nicephori Gregorae Byzantina historia, volume 1 (Books I-XI)
+    author: Nikephoros Gregoras
+    translator: Ludwig Schopen (Latin)
+    year: 1829
+    world: hesychasm-and-the-palamite-synthesis
+    why: The first eleven books, up to the start of the Barlaam affair; Gregoras on the Church under Andronikos
+      II.
+    url: https://archive.org/details/bub_gb_c8wGAAAAQAAJ
+    rights_basis: pd-us-by-date; title page 'MDCCCXXIX' read in the OCR; the item record carries the Public
+      Domain Mark 1.0 licence
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu fetched (2.7 MB) and the title page and counts read (Palamas named on about 80 lines, Barlaam
+      about 50).'
+    status: not-yet-downloaded
+    hold_note: Mostly before the controversy; held for a Step 0 that wants the Church under Andronikos II.
+  - title: Philokalia ton hieron neptikon, Athens edition, volume 2 (B')
+    author: Nikodemos the Hagiorite and Makarios of Corinth (compilers)
+    translator: none (Greek)
+    year: 1893
+    world: hesychasm-and-the-palamite-synthesis
+    why: The later Greek anthology that carries Nikephoros the Monk, Gregory of Sinai and Palamas's chapters;
+      the census calls it a retrospective compilation.
+    url: https://archive.org/details/Dobrotolyubie1793
+    rights_basis: pd-us-by-date; the title page reads '1893' in the OCR; the item record carries no rights
+      field
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item file
+      list read; the 1893 volumes A and B fetched (3.0 MB and 4.2 MB) and sampled; Greek mixed with Cyrillic
+      letter confusions throughout.'
+    status: not-yet-downloaded
+    hold_note: The primary tracts are already vendored in PG 147 and PG 150; the anthology is a 1782 compilation
+      outside the window, and the OCR mixes scripts. Volume A alone is also item Philokalia1893GreekAthens
+      (Public Domain Mark, 3.1 MB).
+  - title: Sacrorum conciliorum nova et amplissima collectio, tomus 25
+    author: Giovanni Domenico Mansi (ed.)
+    translator: none (Latin)
+    year: 1782
+    world: byzantine-church-palaiologan
+    why: Western councils to the 1340s with notes on the Barlaam affair (Palamas named on 32 lines).
+    url: https://archive.org/details/sacrorumconcilio0025joan
+    rights_basis: pd-us-by-date; host date 1782, volume 25, no rights field
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu fetched (3.6 MB) and the Palamas and Barlaam lines read.'
+    status: not-yet-downloaded
+    hold_note: Only passing notes on the hesychast controversy; the synods themselves are in tomus 26, which
+      is vendored.
+  - title: Acta et diplomata graeca medii aevi, volume 1 (photomechanical reprint scan)
+    author: Franz Miklosich and Joseph Muller (eds.)
+    translator: none (Greek with Latin headings)
+    year: 1860
+    world: byzantine-church-palaiologan
+    why: A second scan of the same patriarchal register volume.
+    url: https://archive.org/details/actaetdiplomata01miklgoog
+    rights_basis: pd-us-by-date; host date 1860, possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu fetched (1.5 MB); Palamas found on 2 lines against 34 in the vendored scan.'
+    status: not-yet-downloaded
+    hold_note: Duplicate of the vendored scan with much worse OCR.
+  - title: Gennadii Scholarii Defensio quinque capitum (1579 Rome printing, three scans)
+    author: Georgios (Gennadios) Scholarios
+    translator: Fabio Benevento (Latin)
+    year: 1579
+    world: byzantine-church-palaiologan
+    why: The first printing of the Latin version vendored from the 1637 reprint.
+    url: https://archive.org/details/bub_gb_yvYyx-fEwFkC
+    rights_basis: pd-us-by-date; the item record carries the Public Domain Mark 1.0 licence
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; djvu fetched (0.47 MB) and sampled; OCR gives f for s throughout and is a little worse than
+      the 1637 reprint. Other scans: bub_gb_YKv6gjltRXMC, ita-bnc-mag-00002640-001.'
+    status: not-yet-downloaded
+    hold_note: Duplicate of the vendored 1637 reprint.
+  - title: 'Patrologiae graecae tomus CLVII: Georgius Codinus, Ducas, anonymous chronicle'
+    author: George Kodinos; Ducas (Doukas); anonymous
+    translator: none (Greek with Latin, ed. J.-P. Migne)
+    year: 1866
+    world: byzantine-church-palaiologan
+    why: Migne's printing of the Doukas history already vendored from the Bonn edition, with Kodinos on
+      the offices of the court.
+    url: https://archive.org/details/patrologicursus98migngoog
+    rights_basis: pd-us-by-date; year read in Migne's volume list ('CLVII (1866)'); host NOT_IN_COPYRIGHT,
+      volume 157
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
+      read; title page and contents read; text not fetched in full.'
+    status: not-yet-downloaded
+    hold_note: Ducas is already on the shelf from the Bonn edition; Kodinos is court ceremony, not church.
+  - title: St. Gregory Palamas' Letter to the Atheist Chiones (1355 AD)
+    author: Gregory Palamas (as reported by Taronites the Doctor)
+    translator: not named in the text or the record
+    year: 1355
+    world: hesychasm-and-the-palamite-synthesis
+    why: Palamas's discussion with Muslim captors in English, 38 KB, the only English of Palamas found on
+      the host.
+    url: https://archive.org/details/st.-gregory-palamas-letter-to-the-atheist-chiones
+    rights_basis: 'host licence field: Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/),
+      set by the uploader; the translation is modern and the translator is not named'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item record
+      and text read (38 KB); the original is of 1355.'
+    status: not-yet-downloaded
+    hold_note: Rights statement is the uploader's own, not a translator's; the lead should decide whether
+      the Mark suffices (dossier section 5).
+  - title: The Answer to Paul Asen by St. Gregory Palamas (ca. 1334)
+    author: Gregory Palamas
+    translator: not named in the text or the record
+    year: 1334
+    world: hesychasm-and-the-palamite-synthesis
+    why: Palamas on the monastic schemata in English, 6 KB; a letter before the controversy.
+    url: https://archive.org/details/the-answer-to-paul-asen-by-st.-gregory-palamas-ca.-1334
+    rights_basis: 'host licence field: Public Domain Mark 1.0, set by the uploader; the translation is modern
+      and the translator is not named'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item record
+      and text read (6 KB); the OCR opens with noise before the translation.'
+    status: not-yet-downloaded
+    hold_note: 'As above: the lead''s call on the uploader''s Public Domain Mark.'
+  - title: St. Gregory Palamas' Letter, Which He Sent to His Church From Asia While Captive (1355)
+    author: Gregory Palamas
+    translator: not named in the text or the record
+    year: 1355
+    world: hesychasm-and-the-palamite-synthesis
+    why: Palamas's letter from captivity in English, 20 KB.
+    url: https://archive.org/details/st.-gregory-palamas-letter-which-he-sent-to-his-church-from-asia-while-captive
+    rights_basis: 'host licence field: Public Domain Mark 1.0, set by the uploader; the translation is modern
+      and the translator is not named'
+    verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item record
+      read; the file listing shows a 20 KB text file, not fetched.'
+    status: not-yet-downloaded
+    hold_note: 'As above: the lead''s call on the uploader''s Public Domain Mark.'

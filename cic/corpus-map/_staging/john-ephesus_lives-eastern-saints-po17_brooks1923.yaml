@@ -16,3 +16,22 @@ assignments:
       Theodore) boundary an Atlas story cites was not pinpointed across
       this or the two following fascicules (OCR noise defeated a
       Roman-numeral chapter search) - a disclosed, open imprecision.
+  - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--documents-relatifs-au-concile-de-florence-documents-vi-xxiv
+    work: 'Documents relatifs au concile de Florence, Documents VI-XXIV: Oeuvres anticonciliaires de Marc
+      d''Ephese (Greek texts edited and translated into French by Louis Petit)'
+    author: mark-of-ephesus
+    locus: whole volume
+    atlas_ids:
+    - byzantine-church-palaiologan
+    role: tradition
+    confidence: assigned
+    note: 'Tier: same time-place. The Patrologia Orientalis volume 17 on the shelf is a mixed volume; the
+      second fascicle (heading ''OEUVRES ANTICONCILIAIRES DE MARC D''EPHESE'', file lines 17453 to about
+      49836, with a second heading at 49836) is Mark of Ephesus''s own writing against the union of Florence,
+      in Greek with Petit''s French. It is the census''s ''Mark of Ephesus''s corpus'' and the one voice
+      of the refusal. The file''s bucket author is john-ephesus; the author slug mark-of-ephesus is new
+      and needs an authors_ruled entry (metadata-omission) when the row is merged. The Syriac Lives of the
+      Eastern Saints in the same file are for other worlds. Greek read at lines 17600-17640 and 30000-30020
+      (readable with slips); the French introduction is clean.
+  
+      '
