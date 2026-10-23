@@ -2400,3 +2400,10 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 **Question.** A Latin headword sweep misses a term the corpus carries only in translation (*libelli* swept, *certificates* missed: 38 hits outside `<note>`), and Doc_03's counts state no matching rule (flock/shepherd/pastor: 113 by substring, 109 by word boundary, 106 with notes removed).
 **Alternatives shown.** (1) Sweep the Latin headword and its English equivalents under one stated rule: whole words, case-insensitive, editorial and translators' notes excluded, every count giving its rule and the note-free number; for OCR Latin, allow for spelling noise and report what may be missed; (2) Latin headword only, limit disclosed; (3) English only.
 **Chosen.** 1 for `lpc` (project lead, 2026-10-23, "1"). Applied to the sermon sweeps and, by change order, to Doc_03's counts. The fleet-wide form is logged as a proposal in the System Hub Decision Log, not ruled for other worlds.
+
+---
+
+### 2026-10-23 — Lexicon tags at the candidate stage (project lead's ruling, OG-29)
+
+**Alternatives shown.** (1) Accept `lpc`'s route: Part II tags may be applied at the candidate stage, and a [CT] term may wait for its Contest Type provided Doc_06 supplies it; (2) require every tag, Contest Type included, at the candidate stage; (3) no tags until Step 6.
+**Chosen.** 1 for `lpc` (project lead, 2026-10-23, "1"). No edit follows: Doc_06 §3 supplies the Contest Type for all three [CT] terms. The fleet-wide question is logged as a proposal in the System Hub Decision Log; Imperial-Juridical's route is not affected.

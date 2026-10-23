@@ -6863,3 +6863,7 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 ## 2026-10-23 - Proposal (not ruled): one lexicon discovery method and matching rule for every world
 
 Raised by the `lpc` build thread. For `lpc` the project lead ruled (lpc Decision Log, 2026-10-23, "Lexicon discovery method and matching rule"): sweep the original-language headword and its translation equivalents; match whole words, case-insensitive; exclude editorial and translators' notes; every count states its rule and its note-free number; on OCR text, allow for spelling noise and report what may be missed. The same gap bears on every world whose corpus is a translation (`lpc` OG-36). Whether to adopt it fleet-wide is a governance decision for the project lead. Until he rules, no other world is bound by it.
+
+## 2026-10-23 - Proposal (not ruled): lexicon tags at the candidate stage
+
+Raised by the `lpc` build thread (`lpc` OG-29). For `lpc` the project lead accepted the world's route (lpc Decision Log, 2026-10-23, "Lexicon tags at the candidate stage"): Part II tags may be applied in Doc_03, and a [CT] term may wait for its Contest Type provided Doc_06 supplies it. Imperial-Juridical deferred all tags to Step 6. Whether one rule should hold fleet-wide is a governance decision for the project lead; until he rules, each world's route stands.
