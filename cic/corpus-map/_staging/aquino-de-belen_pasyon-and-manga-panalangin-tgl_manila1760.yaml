@@ -23,7 +23,9 @@ assignments:
   atlas_ids:
   - philippine-catholicism
   role: context
-  confidence: needs-ruling
-  note: The census says the 1565-1650 account rests on devotional practice, not on this text, which is
+  confidence: assigned
+  note: 'The census says the 1565-1650 account rests on devotional practice, not on this text, which is
     dated after the window. Whether a later pasyon print may stand as context for the earlier entry is
-    a ruling for Mark.
+    a ruling for Mark. Ruled by the project lead, October 2026 (Era VII placements): a text from before
+    the world''s window that the world argued from is antecedent to it; a text from after the window is
+    context here and tradition for the later entry.'

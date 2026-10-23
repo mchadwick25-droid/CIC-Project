@@ -4,6 +4,17 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 
 **Second pass, October 2026 (Era VII library session, second-pass agent):** the four leads the pass was told to run down did not clear. Ricci's letters (Tacchi Venturi's Opere storiche, 1911-13) are not on archive.org under creator or title, and Google Books could not be queried (API quota exceeded, site errors); Mendieta exists on archive.org only as a 1971 Mexican facsimile of the 1870 edition, which is a lead with a rights question, not a download; the Kikongo Doutrina of 1624 was searched again (Cardoso, "lingua do Congo") and is not on archive.org; the Dochirina Kirishitan transcription stays the lead it was, as instructed. One file was vendored for the Japan strand (§1, second-pass table): volume I of Richard Cocks's diary (1615-1617) from the proofread Gutenberg text, an English outside witness to the persecution years. Arriaga's 1621 Extirpacion was sampled and is legible (seed row). The Motolinia renewal check was run as far as the reachable data allows (§4). The recommendation in §6 does not change.
 
+**Ruling, October 2026 (the project lead, on this dossier's section 6):** the
+entry is split. VI.13 stays on the census as a label assessed per region, and
+four entries carry the regions: `kongo-christianity-afonso-to-1650` (VI.13a,
+build later), `kirishitan-japan` (VI.13b, build later),
+`china-mission-born-christianity` (VI.13c, on the atlas until a convert text
+clears) and `new-spain-and-andes-mission-born-christianity` (VI.13d, the
+same). The vendored files now map to the region each serves: Paiva Manso to
+Kongo; Pagès, Rundall, Cocks and the two Xavier volumes to Japan; Purchas
+vol. 12 and Trigault to China; Acosta and Motolinía to New Spain and the
+Andes. This dossier serves all four entries until each has its own.
+
 **Atlas ID:** VI.13
 **Corpus-map slug:** `mission-born-christianities-kirishitan-japan-kon` (the census id is truncated at this length; it is the real bucket filename)
 **Time window:** 1491–1650
